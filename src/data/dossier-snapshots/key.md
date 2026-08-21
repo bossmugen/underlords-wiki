@@ -4,7 +4,7 @@ aliases:
   - "Captain Chihuahua"
 roles:
   - "Retired Officer"
-summary: "Retired full Officer and historical Pit Boss whose surviving UL record keeps returning to the same two things: old social labels that remain legible across rooms, and a Wall file substantial enough that he later came back to count it himself."
+summary: "Key predates UL in Mugen's older online-family circle, then becomes legible inside the server through recurring BroBro / brother language and an early Wall reputation. In 2022 he returns after a long gap and audits his own Wall appearances, finding that the room still remembers him as one of its original sources of evidence."
 summaryEvidence: "archive-confirmed"
 publication: "public"
 claims:
@@ -78,3 +78,29 @@ tags:
   - "pre-raja-circle"
   - "wall-history"
 ---
+
+# Key
+
+Key is a retired full Officer and historical Pit Boss / Minister. His biography starts before UL, however: Mugen knew him in an older online friend/family circle from before Dragon Raja, alongside Dean and other people who would later overlap with the Underlords world. That earlier relationship is user-confirmed; the current archive does not yet have a direct pre-Raja Key transcript, so the site does not invent one.
+
+## 2020–2021 — THE OLDER SOCIAL FAMILIARITY GETS ABSORBED INTO UL LANGUAGE
+
+By September 2020, Ren is calling Key **`BroBro`** in Club Only. In April 2021 she makes the joke-family language even plainer on the Wall: **`Key is my bro`**, then **`Since key is my brother`**.
+
+Those lines are not literal kinship or a friendship ranking. They show that Key has become legible inside UL's own family grammar rather than existing only as somebody from Mugen's older social history.
+
+The Wall also begins treating Key as material worth preserving. On April 29, Gilli posts an attachment and says **`Had to document this moment in history`**. Key's response is **`EYE???`**; Gilli insists **`THIS IS AN IMPORTANT MOMENT OKAY.`** The image stays unseen in this pass, but the social role is clear enough: Key is already one of the people whose nonsense gets filed for later retrieval.
+
+## 2022 — HE COMES BACK TO CHECK THE FILE ON HIMSELF
+
+On February 24, 2022, Key returns after enough absence that Ren tells him **`been a long time since you was here`**. Key's purpose is magnificently specific: he wants to see how many times he appears on the Wall.
+
+He looks through the screenshot work Mugs has been doing and says he does not know whether to be ashamed or impressed. The room answers with memory rather than introduction. Mugen says **`Litrally started it ^`**; Gilli calls him **`OG wall of shamer here uwu.`**
+
+Those replies do not make Key the formal founder or curator of the Wall. They do show that the room remembers an early reputation even when Key himself has come back to count the evidence.
+
+That is the useful progression in a sparse file. Key enters UL carrying older relationships, becomes part of its joke-family and screenshot-memory culture, disappears long enough for a return to be noticeable, and then finds that the archive has preserved a version of him the room still recognizes immediately.
+
+His later retired-Officer / historical Pit Boss status is locked roster canon, but the appointment chronology is not reconstructed. The biography does not need to fake it. The surviving social continuity is already doing more work than another inferred promotion date would.
+
+One identity warning stays hard: canonical Key / Captain Chihuahua is not Alkey and is not the separate visitor account displayed as Key (FireLegacy). Similar names do not get to rewrite the person.
