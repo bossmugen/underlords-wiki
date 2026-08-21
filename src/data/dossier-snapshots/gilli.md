@@ -6,7 +6,7 @@ aliases:
 roles:
   - "Consigliere"
 eraStart: 2020
-summary: "Will feed you, reject your glamour screenshot, and drag Gabu into screenshot jail over who is shorter."
+summary: "Gilli's archive starts at the 2020 front door and quickly becomes a record of practical care: route the newcomer, save the old photo, close the submission round, make sure people eat, and keep the joke going. By 2022–2023 she is explicitly separating UL belonging from the game while the house's fake-family language follows her into profile names."
 summaryEvidence: "inferred"
 publication: "public"
 claims:
@@ -153,44 +153,40 @@ tags:
   - "emotional-support-collection"
 ---
 
-## THE PEOPLE WERE THE GAME LOOP
+# Gilli
 
-Gilli says the quiet part out loud in 2020: **`I like Raja because of Underlords lol.`**
+Gilli is a current Consigliere / Senior Advisor. The title sits at the end of a much longer social record: the archive meets her in 2020 already directing people around the house, and then watches that practical involvement expand into care routines, visual programs, onboarding, memory retrieval, and some of UL's most elaborate fake-family metadata.
 
-Two years later Aeshleen says Raja is over for her. Gilli does not argue for the game, the dailies, the roster, or some heroic comeback arc. She answers the membership question instead: **`you're still an Underlord`**. The useful part is the tiny word **still**. Same house, no game required.
+## 2020 — THE GAME IS ALREADY SECONDARY TO THE PEOPLE
 
-The archive keeps making that line look less incidental.
+On April 5, only weeks into UL's life, Gilli points a newcomer toward Whiskey. D.I. immediately tells the newcomer **`Dont listen to her...RUN`**; Gilli answers with a bot-command punch and Waifu records the assault. The scene is useful because the front door is already both procedural and social. Gilli gives the direction, gets heckled, hits the heckler in bot syntax, and the newcomer keeps moving.
 
-Ren's joke family map files Gilli as **`my big sister`**. At the front door, Gilli points a newcomer toward Whiskey and D.I. immediately tells them **`Dont listen to her...RUN`**. Gilli answers **`w/punch @D.I.`** and Waifu logs the assault before the welcome has had time to cool. Later the glamour screenshot gets sent back if the evidence is cropped; the morning QOTD comes with a reminder to eat and smile; New Year's resolution is apparently **make at least one more friend**.
+A month later Slice catches her trying to go downstairs and getting derailed by old photos instead: **`was looking at old pics and got distracted`**. That camera-roll habit will recur. By September, the relationship between game and group is explicit in her own words: **`I like Raja because of Underlords lol`**. The same month's Tumbleweed joke has Ren calling her **`my big sister`**.
 
-The mature safety packet matters as house history, but it is shared copy, not a Gilli personality monologue. Her person-shaped version is what happens around the procedure: give the direction, get heckled, hit the heckler in bot syntax, keep the building moving.
+The pattern is already there. Raja is the setting; the people are becoming the reason to stay.
 
-## THE CAMERA ROLL IS ALSO AN EVIDENCE LOCKER
+## 2021 — CARE AND MAINTENANCE BECOME ROUTINE
 
-May 2020. Gilli is apparently trying to complete the very advanced task of going downstairs. Instead: **`Okay going downstairs now lol was looking at old pics and got distracted`**.
+Through 2021, Gilli is repeatedly visible in the work that keeps UL's recurring programs usable. She closes Photo Submissions rounds, moves them toward results and the next theme, and enforces the Mafia-theme requirement that uncropped names remain visible. In Lobby she assigns roles and routes newcomers through Biodata, rules, and the Tour.
 
-A year later she walks into the Wall with **`Was looking through my photos and found this gem`**, drops a screenshot ten seconds later, then tags NintendoShitcube. We do not need to invent what is inside the image to see the recurring offense. Gilli keeps opening the camera roll and resurfacing with prequels.
+Her care language runs alongside the procedure. She points Gabu's own hydration identity back at her—**`DRINK WATER AND EAT SOMETHING`**, later **`I DONT CARE IF IT'S LATE, DRINK WATER !`**—and December QOTD prompts arrive paired with reminders to eat and smile. On New Year's Day 2022, Gilli's own goal is surprisingly small: **`I plan to try to make at least one more friend.`**
 
-This is not Ren-style municipal quote bureaucracy. Gilli's method is much less civilized: get distracted by old evidence, recover holding something, put it where the clowns can see it. The woman who will reject your glamour screenshot for noncompliance also appears to maintain an accidental evidence locker in her phone. Chain of custody: **lol look what I found**.
+The camera roll keeps participating too. In July she resurfaces from her photos with **`found this gem`** and posts an old screenshot to the Wall. The image stays undescribed; the recurring habit is enough. Gilli stores old material accidentally and retrieves it socially.
 
-## ONE GOOD BIT? FINE. NOW GIVE IT SEASONS.
+## 2022 — UL BELONGING OUTLIVES RAJA
 
-There is a creative version of the same instinct. In 2021 Gilli closes COLORS with **`Results and next theme`** already scheduled. Two years later Ren throws out the blank-canvas idea, Mia turns it into an everybody-doodle file, and Gilli's immediate response to one successful poster is **`We need to do these more often`** — specifically, **`With themes!`**. Mia says yes and part two arrives with bananas.
+October 2022 supplies the cleanest statement of the social logic that was already visible in 2020. Aeshleen says Dragon Raja is over for her and that she barely uses Discord anymore. Gilli answers: **`you're still an Underlord`**.
 
-That does not make Gilli the art director. It makes her extremely legible next to this cast: Ren throws the premise, Mia opens the file, and Gilli sees a one-off success and starts trying to turn it into a recurring house bit.
+That is reassurance in one scene, not a constitutional lifetime-membership clause. But it fits the older record exactly. Gilli had already said she liked Raja because of Underlords. Two years later, when the game drops out of the equation for somebody else, she keeps the person.
 
-The UI can tell you she is Senior Advisor. The receipts explain the person-shaped version of that file.
+The same period is also fully unserious. DiStratus(Torr) blames Gilli as a bad influence for getting on Discord too much. The height war with Gabu turns into reciprocal prosecution: one insists the other is shorter, and neither side appears interested in settlement.
 
-## THE FAMILY TREE ESCAPED INTO HER PROFILE
+## 2023 — THE HOUSE'S RELATIONSHIP JOKES MOVE INTO THE USERNAMES
 
-By April 2023 Gilli's Discord profile has become an archaeological site by itself.
+By April 2023, Gilli's own profile display name is **`Gabu's Non-existent inches`**, promoting the height dispute into identity metadata. Her About Me begins **`Mug's Husbando`** and includes an **`Emotional Support Collection`** full of object-like labels: Pebble, Apple, Empress, Pond, Tree, Jewel, Pie, Pizza Dough, Pillow, Fire.
 
-The display name is **`Gabu's Non-existent inches`**, which takes the long-running Gilli/Gabu height war and promotes it from chat into identity metadata. The About Me opens with **`Mug's Husbando`**, then **`INTJ`**, then produces something that sounds like a resource-management system designed during a fever: **`~Emotional Support Collection~`**.
+The archive sees matching structures in other display names—**`Gilli's Pebble`**, **`Gilli's Apple`**, **`Gilli's Tsun Tree`**, **`Gilli's Pie`**, **`Gilli's Twin`**. None of these automatically become literal kinship or romance. What they show is the mature version of a habit visible back in the Tumbleweed era: UL keeps making relationships legible in stupid public metadata.
 
-Pebble. Apple. Empress. Pond. Tree. Jewel. Pie. Pizza Dough. Pillow. Fire.
+That summer, Ren proposes a blank-canvas doodle, Mia makes the communal file, and Gilli immediately wants repetition: **`We need to do these more often`**, specifically **`With themes!`**. Mia later returns with banana doodles. It is the same maintenance instinct applied to culture: a successful one-off should become a house routine before everyone wanders away.
 
-The archive does not get to decide those are literal relationships just because the labels are funny. The better finding is structural: the terms do not stay inside Gilli's profile. The same Whiskey media layer preserves display names such as **`Gilli's Pebble`**, **`Gilli's Apple`**, **`Gilli's Tsun Tree`**, **`Gilli's Pie`**, and **`Gilli's Twin`**. People are carrying relationship jokes in the member list itself.
-
-That makes the old UL family Tumbleweed look less like one deranged diagram and more like an early manifestation of a durable habit. UL keeps taking social relationships—real, invented, affectionate, ridiculous, or some mixture thereof—and making them **legible infrastructure**. Sometimes the infrastructure is a PNG. Sometimes it is a Discord nickname. Sometimes it is an About Me section that looks like a Pokémon storage box for emotional support humans.
-
-The family tree did not stay on the wall. **It escaped into the usernames.**
+Gilli's current Senior Advisor role does not need to impersonate a personality. The archive already supplies one. Across the years she keeps doing some version of the same thing: preserve the people, route the people, feed the people, make the good bit recur, and never let leaving the game become the same thing as leaving the family.
