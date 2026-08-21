@@ -13,7 +13,7 @@ roles:
   - "Founder"
 eraStart: 2020
 
-summary: "The Plutonian Boss. Founder. UL keeps happening around her like a weather system with admin permissions."
+summary: "Mugen enters UL carrying two different prehistories: an older online-family circle from before Dragon Raja and the Altissa friendships that become UL's founding five. From March 2020 onward the archive follows her turning a game club into a house with boundaries, jokes, rituals, and a language of belonging that increasingly outlives the game itself."
 
 summaryEvidence: "user-confirmed"
 publication: "public"
@@ -187,62 +187,48 @@ tags:
   - "height-bit"
 ---
 
-## SOME OF THE FAMILY ARRIVED PRE-ASSEMBLED
+# Mugen
 
-UL did not invent every relationship around Mugen. Some of them walked in already housebroken enough to know where the emotional cutlery lived.
+Mugen founded Underlords in March 2020 and has always been its Boss. Her biography needs to start before that date, though, because UL did not create all of the relationships around her. She entered Dragon Raja already carrying one online family, then founded UL with a different circle of game friends, and spent the next several years turning a club into something people increasingly described as a house.
 
-Roughly a year before Dragon Raja, Mugen already had a primary online-family circle from another game: **Dean, Key, Zepp, Kal, New, and GenGrey**. Mugs confirms that the group stayed in daily contact on Instagram and remains her primary online family. That history sits *before* the Dragon Raja / Altissa chain that later produces UL's five-person founding circle, which means Mugen enters Underlords carrying at least two different kinds of prehistory: one network tied to the game's club lineage, and another older network tied to family-shaped online intimacy.
+## BEFORE UL — TWO DIFFERENT PREHISTORIES
 
-Dean makes the distinction visible in the archive because the paperwork accidentally catches up to the relationship.
+Roughly a year before Dragon Raja, Mugen already had a primary online-family circle from another game: Dean, Key, Zepp, Kal, New, and GenGrey. Mugs confirms that this network predates Raja and remained in daily Instagram contact. Dean is her online son and calls her **`mum`**.
 
-On September 29, 2020, Anthos is updating **`Underlords_Tumbleweed.png`**, calls the structure **“like a mind map,”** and then writes: **“lets add dean to mugs then from there we can add cel and woo etc.”** Later she says outright that they are updating the **UL family tumbleweed**. This is not recruitment. It is somebody maintaining a relationship diagram with the weary confidence of a person who already knows which line belongs where.
+That circle is separate from the Dragon Raja / Altissa group that becomes UL's founding five. When Mugen starts Underlords in March 2020, Ritha, WolfPhenix, Suzimasu, and HyaLuna come with her from Altissa. Mugen is the founder; the five together are the founding circle.
 
-The wording is tiny: **“Dean to Mugs.”** No explanatory paragraph. No vote on whether they count as family. The bond is already legible enough that the problem is graphical placement.
+The distinction matters because it explains why some relationships in the UL archive arrive already carrying family vocabulary. In September 2020, when Anthos updates the UL family Tumbleweed, **`lets add dean to mugs`** is not recruitment. It is an older relationship being placed onto a newer social map. In 2021 Dean's casual **`mum`** confirms the same thing: UL is inheriting intimacy as well as creating it.
 
-Then in June 2021 Dean says **“Don't you agree mum.”** He does not frame it as a revelation. It lands eight seconds after **“Only if pizza man was hot”**, which is possibly the least ceremonial environment in which to announce a maternal bond and therefore excellent evidence that nobody is announcing one. The relationship is old enough to behave like punctuation.
+## MARCH–APRIL 2020 — BUILDING THE HOUSE WHILE IT IS ALREADY OCCUPIED
 
-That changes the social geometry around Mugen. UL absolutely creates new intimacy, but it also **inherits** intimacy. Some people encounter Mugen first as Boss. Some knew her before there was a Boss role to assign. Some relationships therefore enter the server already carrying private shorthand, family vocabulary, and years of context the Discord transcript can only catch in little leaks.
+The early archive catches Mugen doing the unglamorous work of making a new server function. On April 3 she says announcements will be made in the early Announcements channel. Days later, when permissions break, she and Snow overlap on the repair work that repeatedly characterizes their relationship across later governance and automation scenes: Mugen identifies what is failing, Snow helps make it work, and both are free to heckle each other while doing it.
 
-The house did not start from an empty save file.
+At the same time, social life is accelerating fast enough that boundaries have to arrive almost immediately. On April 27, in Slice, Mugen writes **`everyone is impulsive but minors are a no fly zone pls`**. The line is casual but not ambiguous. UL can be permissive and stupid without making minors part of every adult bit.
 
-## THE CIRCUS GETS A NO-FLY ZONE
+Even this early, the Boss role does not erase the ordinary person. Gilli can tell a newcomer Mugen is **`probably asleep right now`** and treat that as normal logistics. The group knows management has a battery meter.
 
-April 27, 2020. Slice is already doing what it was built to do: real-life sharing, faces, bodies, people getting familiar enough for the room to need edges. Mugs does not workshop the boundary: **`everyone is impulsive but minors are a no fly zone pls`**.
+## 2020–2021 — THE SERVER STARTS MAPPING RELATIONSHIPS, NOT JUST MEMBERS
 
-The wording is pure UL—casual, misspelled around the edges, structurally unambiguous. Everybody can be impulsive. That does not make minors part of the bit.
+By fall 2020, UL is building the Tumbleweed family map, codifying house jokes, and turning social connections into visible structure. Mugen's older pre-Raja family is now overlapping with the newer Raja community, while the founding friends remain active inside the same culture.
 
-## BOSS STATUS: PROBABLY ASLEEP
+Slice keeps the person visible through the institutional growth. In June 2021 Mugen posts **`Old pic, lying ded on floor after work`**. The image is explicitly old, so its capture date stays unknown; the point is that the Boss files herself into the room's real-life stream as exhausted after work rather than maintaining a permanent command pose.
 
-April 2020, a newcomer arrives and Gilli gives the house status report: **`@Mugen is probably asleep right now`**. No mystery. No leadership crisis. Management is horizontal.
+That kind of self-inclusion matters. Mugen is not only administering the archive's people. She is one of the people being remembered by them.
 
-Then Slice reaches backward into Mugs' own camera roll. June 24, 2021: **`Old pic, lying ded on floor after work`**. The image date stays unknown because she literally called it old; the useful part is that the Boss voluntarily files **herself** under workplace casualty. By March 2023 she is back on the Wall with **`I take a short nap and wake up to this`**.
+## 2022–2023 — BELONGING STARTS TO OUTLIVE THE GAME
 
-Three years, three rooms, same administrative condition: UL keeps happening around her like a weather system with admin permissions, and sometimes the weather system is face-down after work.
+By late 2022, the community has enough history for members to separate Dragon Raja from Underlords explicitly. When Aeshleen says Raja is **`over for me`**, Mugen does not sell her on returning to the game. She answers the social question: Aeshleen will **`always be part of the UL fam`**.
 
-There is a quieter thing underneath the joke. Gilli knows `probably asleep` well enough to use it as ordinary newcomer logistics. Mugs chooses to share the exhausted old photo herself. The room is not only seeing the Boss perform Boss; it knows the person has a battery meter, and apparently the battery has unionized.
+Thanksgiving that year shows the same house voice at full scale. Mugen thanks Staff, Strippers, Bartenders, Bouncers, Platelets, Tumbleweed family, and VIP customers, jokes about UL spelling and stripclub patronage, and signs **`Your resident plutonian dumdum.`** The Plutonian identity and the ridiculous institutional language are not decorations around leadership; by this point they are part of how the Boss speaks to the whole house.
 
-## REAL LEATHER PAPA WAS ALREADY CALLING THE HOUSE HOBBITS
+In May 2023, the belonging language becomes server-wide: **`This is your house`** and **`The circus tent is always open`**. Again, that is not a codified lifetime-membership rule. It is the recurring metaphor Mugen reaches for when the originating game no longer explains why people are still here.
 
-The May 2023 sighting was not the beginning of the leather. Whiskey pushes the visible paper trail earlier.
+The same spring catches **`real leather papa`** already established as a visible Mugen signature in Whiskey. Under that display name she asks whether everyone in UL is short and follows with **`H-Hobbits?`**. The phrase's ultimate origin remains unresolved; the archive now simply knows that by March 2023 the papa was already leather and the house was already being charged with Hobbitry.
 
-March 17: the display name is already **`real leather papa`**. The contribution to house discourse is a pause, then a question: **`Is everyone in UL... Short?`** followed by **`H-Hobbits?`**.
+## LATER UL — THE BOSS ROLE STAYS, BUT THE OBJECT CHANGES
 
-It is an excellent Mugen receipt because it stacks two house behaviors at once. The first is the user-confirmed signature itself: a phrase ridiculous enough to become identity furniture. The second is UL's recurring habit of turning height into collective prosecution. By April, other screenshots still show people addressing `real leather papa` directly, so the label is not a single-frame accident.
+Mugen's surviving archive presence eventually spans leadership, events, administration, culture-building, Wall memory, relationships, and late-era reactivation. That breadth is the progression. In March 2020, the Boss role is attached to a Dragon Raja club that needs channels, permissions, rules, and recruits. By 2022–2023, Mugen is increasingly speaking about the same group as a family and a house whose social membership can survive game exit.
 
-The archive still does not know where the phrase was born. What it now knows is that by mid-March 2023 **the papa was already leather and the club was already being charged with Hobbitry**.
+She remains the Boss throughout. What changes is what there is to be Boss **of**.
 
-## THE GAME DOES NOT GET CUSTODY OF THE PEOPLE
-
-October 24, 2022. Aeshleen says Dragon Raja is **`over for me`**, that she barely uses Discord anymore, and that the people and memories are the part she is keeping. Mugs does not sell her on a comeback. She answers the belonging question instead: Aesh will **`always be part of the UL fam`**.
-
-Six months later the same language scales up into an official announcement. **`The circus tent is always open`**. **`This is your house`**. Put your feet up, change into whatever ridiculous thing you are today, remain under the UL roof.
-
-That recurrence is more useful than pretending the Boss has a philosophical manifesto hidden somewhere. When the originating activity stops fitting somebody, Mugen keeps reaching for **house** and **family** language instead of attendance language. The membership metaphor is domestic before it is procedural.
-
-Raja can keep custody of the dailies. Apparently it does not get the people.
-
-## TRUST WITH HECKLING PRIVILEGES
-
-Mugs and Snow keep ending up in the same corner whenever UL needs something to work: permissions, rules, schedules, anniversary projects. Snow can be doing real work and still make the Boss part of the joke while he is doing it.
-
-That is working trust with heckling privileges. It is not a secret deputy crown.
+UL begins as a game club. The archive watches it accumulate private rooms, family maps, birthdays, safety boundaries, media projects, Wall evidence, fake jobs, real friendships, old friends from before the game, and people who quit Raja but do not disappear from one another. Mugen is the continuity point inside that expansion, but not a solitary protagonist standing above it. The house keeps happening around her—sometimes while she is asleep—and the biography works best when it shows both sides at once: founder with admin permissions, and one more clown inside the weather system she started.
