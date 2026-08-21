@@ -6,7 +6,7 @@ roles:
   - "Underboss"
   - "Battle Leader"
   - "Game Officer"
-summary: "2020: `I lag when using the map >.>` because `i get lost a lot`. Months later she is handing newcomers the Discord server map. Different map. Same clown. Then she starts yelling battle timers."
+summary: "The archive follows Anayss from 2020 map confusion and mutual bewilderment with Gabu into years of front-door wayfinding, battle callouts, practical care, and schedule coordination. Her current Underboss / Battle Leader role is locked separately from that progression."
 summaryEvidence: "archive-confirmed"
 publication: "public"
 claims:
@@ -111,8 +111,30 @@ tags:
   - "real-life-first"
 ---
 
-## THE INTERNET PERSON BECOMES A CAKE PERSON
+# Anayss
 
-Anayss spends years recognizing returners before the bot remembers who they are. Then Slice catches the relationship crossing the screen entirely: **`Today I met @Noether! She baked a cake for me ❤️`**.
+Anayss is now one of UL's two Underbosses, as well as Battle Leader and a Game Officer. The archive does not give a clean appointment sequence for those present-day titles, so her biography starts somewhere more useful: with the person before the org chart caught up.
 
-Noether calls it **`A date with ana`**. The archive declines to litigate romance and simply records the important part: one of the internet people became somebody you could hand cake to.
+## 2020 — LEARNING THE HOUSE WHILE BECOMING PART OF IT
+
+In September 2020, Anayss is still very capable of being confused in public. She describes a DM with Gabu where both of them are essentially telling each other they do not know what is happening. Ten days later she admits the Dragon Raja map makes her lag and adds the real problem: **`i get lost a lot`**.
+
+That makes the next surviving turn better. By December she is repeatedly in the Lobby helping other people find their way through UL's Discord map, rules, chats, and Biodata. The in-game map and the Discord Tour are different systems; the progression is human, not technical. A member who can joke about getting lost becomes one of the people making sure somebody else does not stay lost for long.
+
+The same period also places her firmly inside UL's relationship grammar. Anthos's Tumbleweed update labels her as Gabu's `boyfriend` in the house-joke map. That is not literal romance, but it shows how quickly Anayss had become legible enough to the room to acquire fake-family metadata.
+
+## 2021–2022 — FROM WAYFINDING TO ROUTINE RESPONSIBILITY
+
+Through 2021 and into 2022, the archive increasingly catches Anayss doing repeatable house work rather than simply appearing in the room. She posts time-sensitive battle and event callouts, recognizes returning members before the bot can explain who they are, and keeps routing people through the front door.
+
+Her care language is practical rather than grand. In January 2022, when Roti is dealing with real-life obligations, Anayss answers **`Real life always first Roti!`**. In July, Slice records the social world crossing off-screen entirely: **`Today I met @Noether! She baked a cake for me ❤️`**. Noether calls it **`A date with ana`**; the archive only needs the sturdy part. Two internet friends actually met, and somebody brought cake.
+
+The line between operations and relationship is already thin here. Anayss is not becoming important by turning less social. She is becoming one of the people who can keep the machinery moving while remaining completely embedded in the house around it.
+
+## 2023–2024 — THE PERSON WHO KNOWS WHAT NEEDS TO HAPPEN NEXT
+
+The later Lobby record shows the same pattern continuing: arrivals get directions, returners get recognized, and the shared welcome system keeps moving. Meanwhile the game side becomes more explicit. Anayss continues posting battle reminders, and in April 2024 she asks WolfPhenix to update the weekly planner with the current event schedule. Wolf finds the old planner, revises it, and asks for corrections.
+
+That exchange is small, but it fits the longer trajectory. Anayss' archive begins with **`i get lost a lot`** and ends, at the current boundary, with her specifying which battles belong on which days so somebody else can publish the map for everyone.
+
+The current Underboss / Battle Leader titles are confirmed separately; the archive should not invent when they began. What it can show is why those titles do not feel disconnected from the person. Over time, Anayss moves from learning UL's rooms to helping other people navigate them, from joining the noise to coordinating pieces of it, without losing the ordinary warmth that made the room a place worth coordinating in the first place.
