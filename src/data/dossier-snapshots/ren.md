@@ -8,7 +8,7 @@ pronouns: "she/her"
 roles:
   - "Caporegime"
 eraStart: 2020
-summary: "Human Ctrl+F for the house. Also apparently maintains both the family index and the access-control list."
+summary: "Ren's archive progression starts with her using Slice for the same social support she later helps maintain, then follows her into quote collecting, care bulletins, visual-program work, front-door routing, family/access language, creative premises, and eventually 2026 identity repair. Current Caporegime status is locked separately from that long record of making people and information easier to retrieve."
 summaryEvidence: "inferred"
 publication: "public"
 claims:
@@ -182,14 +182,46 @@ tags:
   - "family-language"
 ---
 
-## THE INDEX WAS ALSO USING THE ROOM
+# Ren
 
-Before Ren becomes human Ctrl+F, opening night catches her on the other side of the desk. The conversation has wandered into pandemic anxiety; at 11:22 PM she tells the room, **`You kept me distracted for a while! That made it better`**.
+Ren is a current Caporegime and works as a hospital interpreter. The archive does not date her command appointment from old role arrays. It gives something richer instead: a six-year progression from being one of the people using UL's social spaces for support to becoming one of the people who repeatedly makes the house's people, memories, destinations, and access boundaries easier to retrieve.
 
-That matters because Slice is not only a thing Ren later explains, routes, and remembers for everybody else. On day one, she is one of the people using it for exactly what Snow built it for: life outside the game, including the part where life is scary and the group chat helps for a while. Municipal records had a client file too.
+## 2020 — SHE STARTS AS A PARTICIPANT BEFORE SHE BECOMES THE HOUSE'S HUMAN CTRL+F
 
-## CTRL+F HAS PERMISSIONS
+On Slice's opening night, during a conversation about pandemic anxiety, Ren tells the room **`You kept me distracted for a while! That made it better`**. The sentence is a self-report about one moment, not a diagnosis. It matters because the later organizer is first visible using the room for exactly what it was meant to provide: company outside the game.
 
-Ren's house-index behavior is not only finding the file. Slice catches her maintaining the ACL too. Aeshleen says the game is over; Ren files her under **`forever family`**. Cookie forgets Slice exists; Ren reminds him that **`Vip don’t got access here`**.
+By August, another side of Ren is already emerging. She says **`I don’t have other people’s quotes for nothing`**. Anthos describes her making `tag yourself` posts from questionable things members have said. Ren tells Anthos she loves his quotes and wants a favorite-quote collection like one she already made for Ansun.
 
-Same woman, same municipal records office: one drawer says **you still belong**, the other says **that badge still does not buy a key**.
+This is not a formal archivist appointment and Ren did not invent UL quote culture alone. It is simply an early recurring habit: notice the social information, label it, save it, make it retrievable later.
+
+## 2021 — MEMORY WORK EXPANDS INTO CARE AND PROGRAM WORK
+
+Through 2021, Ren's Announcements voice repeatedly asks broad audiences whether they ate, drank water, rested, or wanted company. Sometimes the care is gentle—**`if you don’t feel like smiling that’s ok too`**—and sometimes it arrives as **`drink water or I’m eating your bone marrow`**. The threat is house rhetoric, not a literal threat. The underlying action stays mundane: check on the people.
+
+The same year she repeatedly posts example-photo packages for Photo Submissions while Gilli closes rounds and moves them toward the next theme. That visual contribution is shared rather than exclusive, but it widens the pattern. Ren is increasingly involved in giving the group prompts, examples, and structures through which people can participate.
+
+## 2022 — SHE STARTS MAINTAINING BOTH BELONGING AND BOUNDARIES
+
+In February, Ren hosts an Officers Challenge dare. In May she welcomes Nobu, says **`I’ll set u up`**, and routes her through the Tour, Biodata, and Whiskey. By this point the person who once collected quotes is also helping people find rooms.
+
+Late 2022 shows how precise that social mapping can become. When Aeshleen says Dragon Raja is over for her, Ren says the memories still make her part of a **`forever family`**. Two months later, when Cookie forgets Slice exists, Ren states the access boundary just as plainly: **`Vip don’t got access here`**.
+
+One statement says you still belong. The other says that does not automatically give every badge every key. That distinction is much more useful than turning Ren into a generic "community person." She is repeatedly helping the house remember both relationship and structure.
+
+## 2023 — THE INDEX STARTS GENERATING NEW MATERIAL TOO
+
+Mugen credits Snow and Ren for the March anniversary surprise that opens UL's Mafia anime and bios rooms. In June, Ren proposes a blank canvas where Platelets can draw and the result can become a poster; Mia immediately starts the shared file.
+
+The creative role is not maker-credit for everything that follows. It is premise generation. Ren sees an interaction the group could have, names it, and somebody else turns it into an object.
+
+## 2025 — THE PERSON BEHIND THE MUNICIPAL RECORDS OFFICE IS STILL IN SLICE
+
+A short May 2025 Slice sequence takes Ren outside the house machinery entirely. She goes to see the sunrise, camps, sees a sky full of stars, and writes **`Seeing this many stars for the first time made me realize how small we truly are in this world`**.
+
+It is one reflection, not a permanent philosophy. Its value in the bio is simpler: the woman who spends so much archive time helping UL index itself still has a life the index can only glimpse in small personal posts.
+
+## 2026 — SOCIAL MEMORY BECOMES IDENTITY REPAIR
+
+When Rummy's old Discord account is hacked, Ren announces which replacement account belongs to her. Ren did not recover the account and this is not a cybersecurity role. It is the latest version of the same social function visible since 2020: make sure the room can still connect the label to the person.
+
+That is the progression underneath the Caporegime title. Ren starts as somebody helped by the room, becomes a collector of its language, then increasingly helps other people navigate its care routines, programs, access rules, family language, creative premises, and identity changes. Human Ctrl+F is a joke. The timeline is why the joke works.
