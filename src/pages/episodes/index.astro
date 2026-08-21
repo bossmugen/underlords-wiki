@@ -1,0 +1,8 @@
+---
+import WikiLayout from "../../layouts/WikiLayout.astro";
+import { episodes } from "../../data/wiki";
+---
+<WikiLayout title="Episodes | Underlords Wiki" description="Major Underlords story arcs and event episodes.">
+  <section class="hero"><div><div class="kicker">EPISODE GUIDE</div><h1>Episodes</h1><p class="tagline">The archive has thousands of scenes. These are the ones with enough shape to deserve titles.</p></div></section>
+  <section class="section"><div class="episode-list">{episodes.map((episode)=><a class="episode-row" href={`/episodes/${episode.id}`}><span class="ep-season">{episode.season}</span><strong>{episode.title}</strong><p>{episode.logline}</p><time>{episode.date}</time></a>)}</div></section>
+</WikiLayout>
