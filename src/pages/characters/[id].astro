@@ -5,6 +5,7 @@ import { episodes } from "../../data/wiki";
 import { allCharacters, primaryGroupByCharacterId } from "../../data/cast";
 import { getCharacterBio } from "../../data/character-bios";
 import { extendedCharacterBios } from "../../data/character-bios-extended";
+import dossierData from "../../data/character-dossiers.generated.json";
 
 export function getStaticPaths() {
   return allCharacters.map((character) => ({ params: { id: character.id }, props: { character } }));
@@ -12,6 +13,8 @@ export function getStaticPaths() {
 
 const { character } = Astro.props;
 const bio = (extendedCharacterBios as Record<string, any>)[character.id] ?? getCharacterBio(character);
+const dossiers = dossierData as Record<string, { html: string; wordCount: number; sourcePath: string; sourceRef: string }>;
+const dossier = dossiers[character.id];
 const primaryGroup = primaryGroupByCharacterId.get(character.id);
 const appearances = episodes.filter((episode) => episode.cast.includes(character.name));
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
@@ -36,6 +39,17 @@ const url = (path: string) => `${base}${path}` || path;
         <h2>Who is {character.name}?</h2>
         {bio.overview.map((paragraph: string) => <p>{paragraph}</p>)}
       </section>
+
+      {dossier?.html ? (
+        <section class="bio-block archive-dossier-block">
+          <div class="bio-label">FULL ARCHIVE DOSSIER</div>
+          <div class="dossier-intro">
+            <h2>The actual file</h2>
+            <p>This is the long-form character writing carried over from the main UL archive: scenes, quotes, role context, recurring behavior, corrections, and the parts that do not survive being crushed into a card.</p>
+          </div>
+          <div class="archive-dossier-body" set:html={dossier.html} />
+        </section>
+      ) : null}
 
       {bio.history?.length ? (
         <section class="bio-block">
