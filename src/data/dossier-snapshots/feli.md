@@ -6,7 +6,7 @@ pronouns: "he/him"
 roles:
   - "Sniper"
 eraStart: 2020
-summary: "The archive hears Feli's name before the bouncer sees his account: somebody apologizes for not being him, then `lemoneli` arrives and Mugen goes `thereeee we go xD`. Three years later his cleanest defense in screenshot court is `I... O and P is CLOSE`."
+summary: "Feli is a UL Sniper / junior officer whose surviving record begins with an anticipated 2020 arrival and picks up again in 2023, when the Wall catches him as a familiar enough member to be dragged into screenshot jokes and defend himself with keyboard geometry."
 summaryEvidence: "archive-confirmed"
 publication: "public"
 claims:
@@ -56,22 +56,24 @@ tags:
   - "screenshot-court"
 ---
 
-## THE ROOM SAYS HIS NAME BEFORE HE GETS THROUGH THE DOOR
+# Feli
 
-Feli's surviving introduction is funny because the archive hears the expectation before it sees the person. In Club Only, Degen Rat says they are **`unfortunately not Feli`**. Eighteen minutes later MEE6 finally throws the standard welcome card for `lemoneli`, and Mugen answers almost immediately: **`thereeee we go xD`**.
+Feli, also known as **lemoneli**, is a UL Sniper / junior officer. His surviving archive is thinner than some of the other Snipers', but it still has a clear beginning and a clear later-life beat: in 2020 his arrival is anticipated before his account appears, and by 2023 he is established enough to be part of the Wall's ordinary social prosecution.
 
-That is enough to tell us somebody had been waiting for Feli-shaped traffic. It is not enough to tell us who recruited him, which route he took into UL, or whether Mugen personally engineered the arrival. The sequence is social anticipation, not a solved admissions flowchart.
+## 2020 — Arrival
 
-The important little gesture is the relief packed into **`thereeee we go`**. The bot is performing generic onboarding. Mugen's line sounds like the room has finally matched a name it already knows to the account that just arrived.
+On September 27, 2020, Feli's name appears in Club Only before the stable `lemoneli` account reaches the Lobby. Degen Rat says they are **`unfortunately not Feli`**. Eighteen minutes later MEE6 welcomes Feli's account, and Mugen follows almost immediately with **`thereeee we go xD`**.
 
-## THREE YEARS LATER: KEYBOARD FORENSICS
+The sequence does not tell us who recruited him or exactly who was waiting. What it does show is that Feli was not entering as a completely unknown name. By the time the bot recognized the account, the room had already been expecting a Feli.
 
-April 1, 2023, the Wall has Feli in court. The screenshot exhibits themselves were not visually inspected, so the site refuses to reverse-engineer the missing typo. What survives cleanly is the defense:
+That is the earliest surviving shape of his place in UL: not a dramatic entrance, just a small piece of social recognition happening before the automated front door catches up.
 
-> `I... O and P is CLOSE`
+## 2023 — A familiar member of the room
 
-That sentence is tiny but excellent character evidence. It does not deny that something happened. It attempts mitigation by keyboard geometry. Counsel would like the court to note that the keys are adjacent, your honor.
+The next clean direct scenes come almost three years later. By April 1, 2023, Feli is no longer being introduced; he is being roasted.
 
-Later the same day Moon loops Feli back into a different multi-person Dragon Raja incident with **`I forgot feli was in this creativity too`**. Again, the screenshots stay undescribed because the pixels were not inspected. The useful evidence is social: Feli remains memorable enough to be re-added to the indictment after the room has already moved on.
+One Wall sequence ends with his surviving defense: **`I... O and P is CLOSE`**. The screenshots attached to the thread have not been visually inspected, so the exact typo stays unreconstructed. The useful part is the response itself. Feli does not make a grand denial. He reaches for the physical keyboard and argues that the relevant letters are next to each other.
 
-Feli's archive is not huge. It does not need to be. The surviving scenes give us two clean beats three years apart: first, a person whose arrival is anticipated before the bouncer recognizes him; later, a person defending himself from Wall prosecution with the spatial relationship between O and P. UL continuity, apparently, can be measured in keyboard distance.
+Later that day Moon pulls him into a separate multi-person Dragon Raja incident and eventually adds **`I forgot feli was in this creativity too`**. Again, the unseen screenshots are not turned into invented story. The social progression is enough: Feli has moved from the person whose arrival people are waiting for in 2020 to one of the familiar people who can be remembered, re-tagged, and folded into the Wall's group comedy in 2023.
+
+The archive does not yet give Feli a dense middle chapter, so the bio should not fake one. What survives is a clean before-and-after: **anticipated arrival, then established presence**. His Sniper status is locked separately from those scenes; the scenes are useful because they show the person gradually becoming part of the room rather than because they can date the title.
