@@ -8,7 +8,7 @@ aliases:
 roles:
   - "UL Night Shift Barista"
 eraStart: 2022
-summary: "Catches the room changing shape, gives it the next line, and eventually keeps one of UL's oldest rituals alive by hand. Moon moves from QOTD participant to heavy prompt contributor to the principal manual host after the Cafe Barista stops posting."
+summary: "Moon's archive starts in 2022 as an already-observant house voice, then becomes more active: she brings Ryo in as a friend, turns his first Wall appearance into a milestone, contributes heavily to QOTD through 2024–2025, and after the automated Barista stops becomes the principal manual host in 2026. Her reunion scenes show the same habit of noticing what changed and immediately giving the room its next line."
 summaryEvidence: "archive-confirmed"
 publication: "public"
 claims:
@@ -149,40 +149,40 @@ tags:
   - "astronomy"
 ---
 
-## SOMETIMES THE WITNESS IS ALSO ALTERING THE CRIME SCENE
+# Moon
 
-Moon's older character read was almost entirely observational: she catches the room changing shape, notices when a channel comes back to life, notices when the children have somehow acquired diplomas, and immediately supplies the sentence everybody else needed. Ryo adds the missing active verb.
+Moon is UL's Night Shift Barista. The title is current canon; the archive does not date the formal appointment. What it does show, year by year, is how Moon becomes one of the people who keeps giving the room its next prompt, its next joke, and sometimes its next person.
 
-March 8, 2023: Ryo walks through Lobby paperwork with the old club name already gone — **`I used to play I just forgot the name 💀`** — but the social route survives intact: **`I was invited my moon :)`**. Mugs confirms Moon brought Ryo in as her friend. Moon is carrying an existing relationship across the threshold and changing who is inside the house.
+## 2022 — SHE IS ALREADY WATCHING THE ROOM CLOSELY ENOUGH TO MAKE IT A BIT
 
-Four days later she is already in the Wall tagging him with **`OMFG.YOUR FIRST TIME STARRING AT WALL OF SHAME~♡♡♡`**. The hearts are doing viciously affectionate onboarding work. She is not merely watching Ryo assimilate from a safe distance; she is narrating the milestone like a proud tour guide standing beside the municipal stocks.
+In September 2022, after catching Dream hiding shrooms, Moon writes **`I am a moon,so i see all`**. It is self-joke, not a surveillance role, but it establishes an early register that keeps mattering: Moon notices what is happening and immediately turns the observation into a line the room can use.
 
-## THE BARISTA OUTLIVED THE BARISTA
+## 2023 — OBSERVER BECOMES SOCIAL BRIDGE
 
-The QOTD archive adds a longer arc to Moon's habit of giving the room its next line. Her old `marcy` / `marmar` accounts are now user-confirmed, which resolves dozens of formerly anonymous question credits. In 2024 those handles account for 77 credited Barista cards. In 2025 they account for at least 123.
+January 2023 Whiskey shows the sharper side of her banter when Juicy Cookie volunteers to be poked with needles, tries to retreat, and Moon answers **`Come here bby`** and **`No take backs`** around a syringe reaction image. It is theatrical healthcare-flavored joking, not an actual procedure.
 
-Then the automation stops.
+In March, the archive catches Moon doing something more consequential. Ryo arrives in Lobby and writes **`I was invited my moon :)`**. Mugs confirms Moon brought him in as her friend. Four days later Moon tags him on the Wall with **`OMFG.YOUR FIRST TIME STARRING AT WALL OF SHAME~♡♡♡`**.
 
-There are no Cafe Barista posts in 2026. The room comes back anyway, intermittently, because humans start asking the questions themselves. Moon supplies most of them: hobbies changing with age, fictional red flags, songs, travel, dreams, colors, countries, games, food, animals, talent, language. The role is no longer only feeding a queue. She is standing in the old room and placing the next question on the counter herself.
+That is a clean progression inside one relationship. Moon brings an existing friend across UL's threshold, then immediately narrates one of his first house-culture milestones. She is not merely observing assimilation; she is helping cause it.
 
-That does not prove the specialist title began on that date. It does make the title unusually legible in behavior.
+By April, Whiskey is carrying her under **`UL's Pocket Size Moon`**. The label is a house joke, not a measurement, but it shows how quickly Moon herself has become part of the server's shorthand.
 
-## THE UNIVERSITY NEEDED AN ASTRONOMY DEPARTMENT WITHIN MINUTES
+## 2024–2025 — QOTD BECOMES HER LONG-RUNNING CONTRIBUTION
 
-June 7, 2024: the bot repeats an old prompt. Moon replaces it with **`UnderLords is a prestigious university`** and starts casting the membership as faculty. Her own department is astronomy: NASA documentaries, space museums, meteor craters, planets, stars, galaxies, cosmic structure and evolution.
+User-confirmed account mappings resolve dozens of old `marcy` / `marmar` Barista credits to Moon: 77 in 2024 and at least 123 in 2025. The counts matter because they change the scale of the role. Moon is not simply somebody who occasionally answers QOTD; she has been feeding questions into one of UL's longest-running social rituals for years.
 
-The useful character beat is not merely that Moon likes space. It is how fast she can turn a failed daily prompt into a shared setting where everybody else's known traits become curriculum. QOTD has stopped being an introduction machine by this point. The cast is already known well enough to staff a university on demand.
+June 2024 gives the creative version. When the bot repeats an old prompt, Moon immediately replaces it with **`UnderLords is a prestigious university`** and starts casting the membership as faculty. She makes herself an astronomy professor and fills the imaginary course with NASA documentaries, space museums, meteor craters, planets, stars, galaxies, and cosmic structure.
 
-## POCKET SIZE, FULL-SCALE MENACE
+The astronomy is a real interest, not a credential claim. The more important behavioral beat is the speed of the repair: the ritual hiccups, Moon supplies a fresh premise, and the room can keep playing.
 
-By April 2023 Whiskey is carrying Moon as **`UL's Pocket Size Moon`**. January gives the same register with sharper teeth: Cookie says he can take a needle, Moon produces Shinobu with a syringe, tells him **`Come here bby`**, and when he retracts the offer she answers **`No take backs`**. Care imagery, medical imagery, threat imagery, baby-talk endearment: all sharing one tiny room without asking which genre they belong to.
+## 2026 — WHEN THE BOT STOPS, MOON KEEPS THE RITUAL ALIVE BY HAND
 
-## THE CALENDAR KEEPS COMMITTING CRIMES
+The automated Cafe Barista stops posting after September 2025. In 2026, QOTD still returns because people start asking the questions themselves, and Moon becomes the principal manual host in the surviving archive, with at least 37 authored prompts through August 6.
 
-Slice catches Moon doing the same thing the Whiskey reunion later makes impossible to miss: noticing that everybody has apparently continued aging without first filing the paperwork with her.
+That does not date the Night Shift Barista appointment. It makes the specialist title legible in behavior. The machine stops; Moon keeps putting questions on the counter.
 
-July 6, 2024: Lobby has Anglie introducing herself at **16**, with the export carrying the **Platelet** role. Two years later Anglie drops **`Im graduating this Saturday`** into Slice. Moon comes back to that milestone and reacts to how fast the time went.
+The reunion shows the same instinct outside QOTD. When Nobu returns, Moon writes **`We finally have our restaurant back in business`** and **`ITS BEEN AGES SINCE IT WAS LIKE THISSSS`**. When Rooks says she is left-handed, Moon supplies **`WITCHHHH`** and Rooks escalates it to **`DOUBLE WITCH`**. When the younger members' life milestones become impossible to ignore, Moon writes **`I refuse to believe that the platelets graduated`**.
 
-Then Whiskey wakes up in August and Moon stops pretending this is one person's scheduling problem: **`I refuse to believe that the platelets graduated`**.
+The Anglie record gives that last joke a concrete backdrop: a Platelet onboarding at 16 in 2024, followed by a graduation milestone in 2026. Moon is reacting not only to one person but to the whole time-dislocation of a community that has aged while remaining socially recognizable.
 
-Three rooms, same offense: **the children have acquired years.** Moon keeps catching the house changing shape and reacting like the calendar has violated procedure.
+That is the biography underneath the title: early observer → friend who brings someone in → recurring prompt contributor → human replacement for a dead automation → reunion voice noticing that both the room and the people have changed. Moon keeps catching the transition and giving it words.
