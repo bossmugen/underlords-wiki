@@ -1,0 +1,8 @@
+---
+import WikiLayout from "../layouts/WikiLayout.astro";
+import { featuredQuotes } from "../data/wiki";
+---
+<WikiLayout title="Quotes | Underlords Wiki" description="Notable Underlords lines and recurring dialogue.">
+  <section class="hero"><div><div class="kicker">QUOTE BOOK</div><h1>Quotes</h1><p class="tagline">The lines that explain the show faster than a paragraph can.</p></div></section>
+  <section class="section"><div class="quote-wall">{featuredQuotes.map((item)=><article class="quote-card"><blockquote>“{item.quote}”</blockquote><footer>{item.speaker} · {item.context}</footer></article>)}</div></section>
+</WikiLayout>
