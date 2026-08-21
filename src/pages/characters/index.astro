@@ -1,25 +1,54 @@
 ---
 import WikiLayout from "../../layouts/WikiLayout.astro";
-import { characters } from "../../data/wiki";
-const groups = [
-  ["main","Main cast"],
-  ["recurring","Recurring cast"],
-  ["legacy","Founding / legacy cast"],
-  ["guest","Guests / adjacent cast"],
-] as const;
+import { allCharacters, castGroups, characterById } from "../../data/cast";
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const url = (path: string) => `${base}${path}` || path;
 ---
-<WikiLayout title="Characters | Underlords Wiki" description="The Underlords cast and character files.">
-  <section class="hero"><div><div class="kicker">CAST</div><h1>Characters</h1><p class="tagline">Aliases, jobs, relationships, recurring bits, first-era context, and why this person keeps turning up in the story.</p></div></section>
-  {groups.map(([key,label]) => (
-    <section class="section">
-      <div class="section-head"><h2>{label}</h2><p>{characters.filter(c=>c.billing===key).length} character files</p></div>
-      <div class="wiki-grid">
-        {characters.filter(c=>c.billing===key).map((character) => (
-          <a class="poster-card" data-initial={character.name[0]} href={`/characters/${character.id}`}>
-            <small>{character.role}</small><strong>{character.name}</strong><span>{character.logline}</span>
-          </a>
-        ))}
-      </div>
-    </section>
-  ))}
+<WikiLayout title="Characters | Underlords Wiki" description="The Underlords cast, grouped by the actual UL roster structure.">
+  <section class="hero cast-hero">
+    <div>
+      <div class="kicker">THE CAST</div>
+      <h1>Characters</h1>
+      <p class="tagline">This is the main event. One person, one file: who they are, where they enter, what job they actually held, who connects them to the house, and what the archive keeps catching them doing.</p>
+    </div>
+  </section>
+
+  <section class="cast-index" aria-label="Character groups">
+    {castGroups.map((group) => (
+      <a href={`#${group.id}`}><span>{group.label}</span><small>{group.characterIds.filter((id) => characterById.has(id)).length}</small></a>
+    ))}
+  </section>
+
+  {castGroups.map((group) => {
+    const groupCharacters = group.characterIds.map((id) => characterById.get(id)).filter(Boolean);
+    if (!groupCharacters.length) return null;
+    return (
+      <section class="section cast-section" id={group.id}>
+        <div class="section-head">
+          <h2>{group.label}</h2>
+          <p>{group.note}</p>
+        </div>
+        <div class="cast-grid">
+          {groupCharacters.map((character) => character && (
+            <a class="cast-card" data-initial={character.name[0]} href={url(`/characters/${character.id}`)}>
+              <div class="cast-card-top">
+                <small>{character.role}</small>
+                <span>{character.era}</span>
+              </div>
+              <strong>{character.name}</strong>
+              {character.aliases?.length ? <div class="cast-aliases">{character.aliases.slice(0,3).join(" · ")}</div> : null}
+              <p>{character.logline}</p>
+              <div class="cast-card-footer">OPEN CHARACTER FILE <b>→</b></div>
+            </a>
+          ))}
+        </div>
+      </section>
+    );
+  })}
+
+  <section class="section cast-rule">
+    <div class="section-head"><h2>How the shelves work</h2></div>
+    <p>People get one primary shelf. Overlapping jobs stay inside the character file instead of cloning the person three times. Mia, for example, is a current Pit Boss / Minister but lives under Directors / Specialists because UL Interrogator is her primary specialist file. Retired Officers stay visible as Officers in history rather than being quietly demoted into Staff.</p>
+  </section>
 </WikiLayout>
