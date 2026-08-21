@@ -1,58 +1,133 @@
 ---
 import WikiLayout from "../../layouts/WikiLayout.astro";
-import { characters, episodes } from "../../data/wiki";
+import { episodes } from "../../data/wiki";
+import { allCharacters, primaryGroupByCharacterId } from "../../data/cast";
+import { getCharacterBio } from "../../data/character-bios";
 
 export function getStaticPaths() {
-  return characters.map((character) => ({ params: { id: character.id }, props: { character } }));
+  return allCharacters.map((character) => ({ params: { id: character.id }, props: { character } }));
 }
 
 const { character } = Astro.props;
+const bio = getCharacterBio(character);
+const primaryGroup = primaryGroupByCharacterId.get(character.id);
 const appearances = episodes.filter((episode) => episode.cast.includes(character.name));
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const url = (path: string) => `${base}${path}` || path;
 ---
-<WikiLayout title={`${character.name} | Underlords Wiki`} description={character.logline}>
-  <div class="breadcrumbs"><a href="/characters">Characters</a> / {character.name}</div>
-  <section class="hero"><div><div class="kicker">CHARACTER FILE · {character.billing}</div><h1>{character.name}</h1><p class="tagline">{character.logline}</p></div></section>
+<WikiLayout title={`${character.name} | Underlords Wiki`} description={bio.dek ?? character.logline}>
+  <div class="breadcrumbs"><a href={url("/characters")}>Characters</a> / {primaryGroup?.label ?? "Extended Cast"} / {character.name}</div>
 
-  <section class="section detail-layout">
-    <article class="detail-main">
-      <h2>Character overview</h2>
-      <p>{character.logline}</p>
-      {character.relationships?.length ? (
-        <>
-          <h2 style="margin-top:4rem">Relationships</h2>
-          <div class="index-list">
-            {character.relationships.map((rel) => rel.href ? <a class="index-card" href={rel.href}><small>RELATIONSHIP</small><h3>{rel.name}</h3><p>{rel.note}</p></a> : <div class="index-card"><small>RELATIONSHIP</small><h3>{rel.name}</h3><p>{rel.note}</p></div>)}
+  <section class="hero character-hero">
+    <div>
+      <div class="kicker">{primaryGroup?.label ?? "CHARACTER FILE"} · {character.era}</div>
+      <h1>{character.name}</h1>
+      <p class="tagline">{bio.dek ?? character.logline}</p>
+      {character.aliases?.length ? <div class="hero-aliases">AKA {character.aliases.join(" · ")}</div> : null}
+    </div>
+  </section>
+
+  <section class="section detail-layout character-detail">
+    <article class="detail-main character-biography">
+      <section class="bio-block bio-opening">
+        <div class="bio-label">CHARACTER BIO</div>
+        <h2>Who is {character.name}?</h2>
+        {bio.overview.map((paragraph) => <p>{paragraph}</p>)}
+      </section>
+
+      {bio.history?.length ? (
+        <section class="bio-block">
+          <div class="bio-label">STORY</div>
+          <h2>Story so far</h2>
+          <div class="bio-timeline">
+            {bio.history.map((beat) => (
+              <article class="bio-beat">
+                {beat.date ? <time>{beat.date}</time> : null}
+                <div><h3>{beat.title}</h3><p>{beat.text}</p></div>
+              </article>
+            ))}
           </div>
-        </>
+        </section>
+      ) : null}
+
+      {bio.characterNotes?.length ? (
+        <section class="bio-block">
+          <div class="bio-label">CHARACTER</div>
+          <h2>Recurring bits & behavior</h2>
+          <div class="character-note-grid">
+            {bio.characterNotes.map((note) => (
+              <article class="character-note">
+                <h3>{note.title}</h3>
+                <p>{note.text}</p>
+              </article>
+            ))}
+          </div>
+        </section>
+      ) : null}
+
+      {character.relationships?.length ? (
+        <section class="bio-block">
+          <div class="bio-label">CONNECTIONS</div>
+          <h2>Relationships</h2>
+          <div class="relationship-list">
+            {character.relationships.map((rel) => rel.href ? (
+              <a class="relationship-row" href={url(rel.href)}><span>{rel.name}</span><p>{rel.note}</p><b>→</b></a>
+            ) : (
+              <div class="relationship-row"><span>{rel.name}</span><p>{rel.note}</p></div>
+            ))}
+          </div>
+        </section>
       ) : null}
 
       {appearances.length ? (
-        <>
-          <h2 style="margin-top:4rem">Notable episodes</h2>
+        <section class="bio-block">
+          <div class="bio-label">EPISODES</div>
+          <h2>Notable stories</h2>
           <div class="episode-list">
-            {appearances.map((episode) => <a class="episode-row" href={`/episodes/${episode.id}`}><span class="ep-season">{episode.season}</span><strong>{episode.title}</strong><p>{episode.logline}</p><time>{episode.date}</time></a>)}
+            {appearances.map((episode) => (
+              <a class="episode-row" href={url(`/episodes/${episode.id}`)}>
+                <span class="ep-season">{episode.season}</span>
+                <strong>{episode.title}</strong>
+                <p>{episode.logline}</p>
+                <time>{episode.date}</time>
+              </a>
+            ))}
           </div>
-        </>
-      ) : <div class="wiki-note" style="margin-top:3rem">This character file is intentionally sparse until a specific archive scene earns expansion. The wiki does not manufacture personality paragraphs from roster presence alone.</div>}
+        </section>
+      ) : null}
 
       {character.quotes?.length ? (
-        <>
-          <h2 style="margin-top:4rem">Quotes</h2>
+        <section class="bio-block">
+          <div class="bio-label">QUOTES</div>
+          <h2>Lines that made the cut</h2>
           <div class="quote-wall">{character.quotes.map((quote) => <div class="quote-card"><blockquote>“{quote}”</blockquote><footer>{character.name}</footer></div>)}</div>
-        </>
+        </section>
       ) : null}
+
+      <section class="bio-block source-floor">
+        <div class="bio-label">DOWNSTAIRS</div>
+        <h2>Canon & archive notes</h2>
+        <p class="source-intro">This is where the wiki sobers up. Current roles are not automatically appointment dates. A funny relationship label is not biology. An export-time role array is not a promotion ceremony.</p>
+        {bio.canonNotes?.length ? <ul class="canon-list">{bio.canonNotes.map((note) => <li>{note}</li>)}</ul> : null}
+      </section>
     </article>
 
-    <aside class="infobox">
+    <aside class="infobox character-infobox">
       <div class="infobox-title">{character.name}</div>
-      <div class="empty-art">portrait / archive image slot</div>
+      <div class="character-monogram" aria-hidden="true">{character.name[0]}</div>
       <dl>
-        <div class="row"><dt>Billing</dt><dd>{character.billing}</dd></div>
+        <div class="row"><dt>Primary shelf</dt><dd>{primaryGroup?.label ?? "Archive / Extended Cast"}</dd></div>
         <div class="row"><dt>Role</dt><dd>{character.role}</dd></div>
         <div class="row"><dt>Era</dt><dd>{character.era}</dd></div>
         {character.aliases?.length ? <div class="row"><dt>Aliases</dt><dd>{character.aliases.join(" · ")}</dd></div> : null}
         {character.tags?.length ? <div class="row"><dt>Tags</dt><dd><div class="chip-row">{character.tags.map((tag) => <span class="chip">{tag}</span>)}</div></dd></div> : null}
       </dl>
+      {bio.roleNotes?.length ? (
+        <div class="infobox-notes">
+          <strong>ROLE NOTES</strong>
+          <ul>{bio.roleNotes.map((note) => <li>{note}</li>)}</ul>
+        </div>
+      ) : null}
     </aside>
   </section>
 </WikiLayout>
