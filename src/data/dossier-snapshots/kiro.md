@@ -7,7 +7,7 @@ pronouns: "he/him"
 roles:
   - "Pit Boss"
   - "Retired Officer"
-summary: "Retired Pit Boss. Full Officer. Filipino jokester. Promoted under the alias HicUUOOOOGH because apparently even personnel announcements had to make a noise."
+summary: "Kiro's clean archive arc starts with a familiar 2022 return under HicUUOOOOGH, followed three weeks later by his promotion to full Officer. In 2023 the same account is jokingly denying that Kiro exists; by the 2026 reunion he is back in Whiskey answering ordinary life updates in exactly the house register everyone remembers."
 summaryEvidence: "user-confirmed"
 publication: "public"
 claims:
@@ -66,10 +66,28 @@ tags:
   - "anti-fanon"
 ---
 
-Three weeks before the Officer announcement, HicUUOOOOGH walks through the Lobby's standard role-assignment routine and Mugs greets him with `Hey gummy bear! You know the drill`. Kiro loses what he was trying to copy-paste. Mugs finds it. `welcome back gummieeees`. The paperwork says onboarding; the room says this clown already knows where the kitchen is.
+# Kiro
 
-Then the title catches up. Mugen's October announcement thanks him for service and for **looking after our family**. The archive does not yet give us a neat list of the labor behind that sentence, so the site is not inventing one. Six months later Daya points at the same account and asks whether that is Kiro. Kiro answers `N-n-n-no..`, then `Who's kiro`. Momo says `Yeppers`. Daya says she cannot keep track anymore. Kiro joins the crying reaction pile.
+Kiro is a retired full Officer and historical Pit Boss / Minister. One correction stays non-negotiable: he was **not a Sniper**. The surviving archive gives a cleaner story anyway, because his promotion is preceded by a return scene that already sounds like somebody coming home rather than somebody being introduced.
 
-By the 2026 reunion, adulthood has provided real nursing talk but apparently no cure. Mugs asks what he has been up to. `still hoeing around :3`. Minutes later UL Nursing Society has been put on an IV pole.
+## SEPTEMBER–OCTOBER 2022 — RETURN FIRST, TITLE SECOND
 
-The rank correction stays simple: full Officer, historical Pit Boss / Minister, never a Sniper. The person is more useful than the correction—the returning gummy bear who knows the drill, gets trusted with office, and still refuses to make the filing system easy.
+On September 8, HicUUOOOOGH comes through the Lobby's role-assignment routine and Mugen greets him **`Hey gummy bear! You know the drill`**. Later: **`welcome back gummieeees`**.
+
+The machinery is doing onboarding-shaped things. The people are not treating Kiro like a stranger. That distinction matters because three weeks later the title catches up: on October 1, Mugen announces HicUUOOOOGH as UL's newest Officer and thanks him for his service and for **looking after the family**.
+
+The archive does not yet give a complete ledger of the work behind that wording, so the biography stops short of inventing one. What it can say is chronological and sturdy: a familiar member returns, then is formally promoted shortly afterward.
+
+## 2023 — THE PERSON IS MORE STABLE THAN THE NAME TAG
+
+Six months later, Daya points at the same account and identifies him as Kiro. Kiro answers **`N-n-n-no..`**, then **`Who's kiro`**. Momo confirms the obvious while Daya admits she cannot keep track anymore.
+
+The joke works because the identity is already known. Kiro is not actually mysterious to the room; he is making the filing problem worse on purpose.
+
+## 2026 — ADULTHOOD ARRIVES, THE REGISTER SURVIVES
+
+At the August 2026 Whiskey reunion, Mugen asks what Kiro has been up to. His answer is **`still hoeing around :3`**. The conversation then slides into real nursing talk and UL's usual stripclub language with almost no transition.
+
+That late scene is useful precisely because it is not a dramatic return speech. The archive has moved years forward, the people have real careers and adult life to report, and Kiro still re-enters in the same house register.
+
+His bio therefore has a natural progression without needing themed incidents: familiar return → formal promotion → established in-group identity play → later reunion continuity. The rank belongs in the file. The person is the reason the file is worth reading.
