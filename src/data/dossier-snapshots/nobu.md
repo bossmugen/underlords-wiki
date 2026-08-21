@@ -5,7 +5,7 @@ aliases:
 pronouns: "she/her"
 roles:
   - "UL Party Director"
-summary: "Walks back into Whiskey and Moon immediately reopens the restaurant. Party Director is apparently a weather event."
+summary: "Nobu's archive has a clean role progression: Xuseio appears in Lobby in May 2022, is announced as UL Party Director that August, and later becomes socially legible through Rummy's apprentice relationship, repeated return recognition, and a 2026 reunion where the room treats her arrival as the restaurant reopening and Nobu answers `I'm home now uwu`."
 summaryEvidence: "archive-confirmed"
 publication: "public"
 claims:
@@ -79,90 +79,32 @@ tags:
 
 # Nobu
 
-Nobu's specialist file has an unusually clean spine for UL: **Nobu = Xuseio**, the role is **UL Party Director**, and the archive actually has the announcement that names the job.
+Nobu and Xuseio are the same person. She is UL's Party Director and **not** an Officer. Unlike many specialist files, hers has a clean surviving appointment date, so the biography can actually show the role arriving instead of reverse-engineering it from later metadata.
 
-That sounds almost suspiciously normal.
+## MAY–AUGUST 2022 — FROM LOBBY CHECK-IN TO PARTY DIRECTOR
 
-Then the people start reacting to her and the title immediately stops behaving like a line on an org chart.
+On May 29, Xuseio comes through the Lobby, supplies the Nobu / Underlords check-in, and Ren routes her through the server. On August 23, Mugen announces Xuseio as the new **Underlords Party Director**.
 
-## FROM LOBBY FORM TO PARTY DIRECTOR IN ONE SUMMER
+Those dates establish sequence, not the complete cause. The archive does not currently contain a three-month montage of exactly what Nobu did to earn the appointment, so the page does not invent one. What matters is unusually simple: first clean surviving arrival, then formal specialist role that same summer.
 
-May 29, 2022: Xuseio comes through the Lobby, supplies the Nobu / Underlords check-in, and Ren routes her through the server.
+## 2023–EARLY 2024 — THE ROLE ACQUIRES AN APPRENTICE AND A SOCIAL LIFE
 
-August 23: Mugen announces Xuseio as the new **Underlords Party Director**.
+Rummy works under Nobu as **Party Director Apprentice**, not as co-equal Party Director. The archive does not provide a curriculum, start date, or neat delegation ledger. What it preserves is the human relationship around the title.
 
-Those two dates establish sequence, not causation. The archive does not currently give us a neat three-month montage explaining exactly what work led to the appointment, and the wiki is not going to invent one because the gap looks narratively convenient.
+In February 2023, Nobu opens a Wall exchange with **`Rummy has rizz??`**; Mia answers **`yusss`** and the room wheezes. In January 2024, Nobu posts **`I'm proud of you, Rummy. :Fat_Wheeze:`** over an attachment that remains unseen here.
 
-What it does give us is the appointment itself — rare enough in this project to deserve confetti.
+The pride and the roast share a sentence. That is about as close as UL gets to a formal apprenticeship evaluation form.
 
-## RUMMY IS THE APPRENTICE. THE WALL IS THE CLASSROOM ONLY IF WE ARE BEING STUPID.
+## SEPTEMBER 2024 — THE BOT ASKS HER TO INTRODUCE HERSELF AGAIN; THE PEOPLE DO NOT
 
-Rummy works under Nobu as **Party Director Apprentice**, not as co-equal Party Director. That hierarchy is user-confirmed. What the archive does **not** give us is a tidy apprenticeship syllabus, start date, or training transcript.
+The Stripclub Bouncer later asks Xuseio for another check-in. Nobu's response is a true reply to her own 2022 intake line: **`jes.`** Sye later says **`Wb Nobu`**.
 
-What survives instead is social texture.
+The scene does not tell us why the bot fired again, whether Nobu had left, or whether the appointment changed. It does show the difference between account-state machinery and social continuity. Discord asks for paperwork. The people already know who came back.
 
-February 28, 2023, Nobu opens a Wall exchange with:
+## 2026 — THE ROLE HAS BECOME ATMOSPHERE
 
-> `Rummy has rizz??`
+When Nobu returns during the August reunion, Rummy greets **`Nobbbuuu back`**. Moon says **`We finally have our restaurant back in business`**. Mugen restates **`UL PARTY DIRECTOR`**. Later Nobu says **`I'm home now uwu`**.
 
-Mia answers:
+Nobody needs to claim there was a literal restaurant. The metaphor works because Nobu's return is being experienced as the return of a familiar social function. The title has been around long enough that the room turns the person into a whole venue on sight.
 
-> `yusss`
-
-The room supplies six Fat_Wheeze reactions because professional development has once again been denied access to the premises.
-
-January 4, 2024, Nobu posts:
-
-> `I'm proud of you, Rummy. :Fat_Wheeze:`
-
-There is a screenshot attachment. It stays unseen here. The line is enough to show a recurring teacher/apprentice-shaped social frame without pretending the archive has a formal lesson plan hidden behind the emoji.
-
-The pride and the wheeze share one sentence. That is useful. Nobu can affirm Rummy and roast the surrounding situation at the same time; the affection does not require the joke to leave the room first.
-
-## THE LOBBY TRIES TO RE-INTRODUCE HER TO HERSELF
-
-September 24, 2024, the Stripclub Bouncer asks Xuseio for a fresh check-in.
-
-Nobu's next authored message is a true reply to her own May 2022 intake line:
-
-> `jes.`
-
-Sye later says:
-
-> `Wb Nobu`
-
-The machinery has apparently forgotten enough to ask for paperwork again. The people have not.
-
-That is return continuity, not proof that Nobu formally left, lost her appointment, or had to be reappointed. The bot card is account-state evidence. The human **`Wb Nobu`** is the social evidence.
-
-## WHEN NOBU RETURNS, MOON REOPENS A RESTAURANT THAT DOES NOT EXIST
-
-August 14, 2026, the reunion catches the title turning into atmosphere.
-
-Rummy:
-
-> `Nobbbuuu back`
-
-Moon:
-
-> `We finally have our restaurant back in business`
-
-Mugen, apparently concerned that reality still has too much dignity:
-
-> `UL PARTY DIRECTOR`
-
-Later, Nobu:
-
-> `I'm home now uwu`
-
-Nobody needs to claim there was a literal restaurant. The metaphor works because Nobu's return is being experienced as the return of a social function: service is back, the room is moving, something familiar has resumed business.
-
-Moon's line arrives before any formal explanation is needed. The title has been around long enough that the room can convert the person into a whole venue on sight.
-
-## THE JOB IS FORMAL. THE EFFECT IS SOCIAL.
-
-Nobu is not an Officer. Rummy is not co-Party Director. The 2024 re-check does not reset the role. The Wall jokes do not prove romance, and unseen screenshots remain unseen.
-
-Within those boundaries, the surviving character shape is clear enough: an appointed specialist whose role is remembered by other people as more than a badge. When Nobu reappears, the room does not merely say the Party Director logged in.
-
-It says the restaurant reopened.
+That is the bio progression: newcomer → appointed specialist → mentor/apprentice-shaped relationship → recognized returner → somebody whose later arrival feels like part of the house reopening. The job is formal. The effect became social.
