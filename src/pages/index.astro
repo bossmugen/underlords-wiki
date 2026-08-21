@@ -1,0 +1,62 @@
+---
+import WikiLayout from "../layouts/WikiLayout.astro";
+import { characters, episodes, seasons, gags } from "../data/wiki";
+const featured = characters.filter((c) => c.billing === "main").slice(0, 8);
+const featuredEpisodes = episodes.slice(-5).reverse();
+---
+<WikiLayout title="Underlords Wiki" description="The Underlords cast, seasons, episodes, relationships, running gags, locations, quotes, and archive-backed lore.">
+  <section class="hero">
+    <div>
+      <div class="kicker">THE ENSEMBLE COMEDY THAT ACCIDENTALLY STARTED AS A MOBILE GAME GUILD</div>
+      <h1>UNDERLORDS</h1>
+      <p class="tagline">Founded in 2020. Seven seasons of fake government, screenshot crimes, bots with jobs, family lore, increasingly unnecessary departments, and people who kept showing up after the game stopped being the point.</p>
+      <dl class="factbox">
+        <dt>Premiere</dt><dd>2020</dd>
+        <dt>Original setting</dt><dd>Dragon Raja</dd>
+        <dt>Genre</dt><dd>Ensemble comedy · found family · workplace procedural if the workplace were fake</dd>
+        <dt>Status</dt><dd>Ongoing social universe</dd>
+        <dt>Current season</dt><dd>2026 — Afterlife / Family Reunion</dd>
+      </dl>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head"><h2>Featured cast</h2><p>The people you keep seeing. Start here before the aliases multiply.</p></div>
+    <div class="wiki-grid">
+      {featured.map((character) => (
+        <a class="poster-card" data-initial={character.name[0]} href={`/characters/${character.id}`}>
+          <small>{character.role}</small><strong>{character.name}</strong><span>{character.logline}</span>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head"><h2>Seasons</h2><p>Years are treated like seasons because that is functionally what happened.</p></div>
+    <div class="season-grid">
+      {seasons.map((season) => (
+        <a class="season-card" href={`/seasons/${season.year}`}>
+          <div class="season-year">{season.year}</div><div><h3>{season.title}</h3><p>{season.subtitle}</p></div>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head"><h2>Episodes worth starting with</h2><p>Not every archive event needs to be a page. These do.</p></div>
+    <div class="episode-list">
+      {featuredEpisodes.map((episode) => (
+        <a class="episode-row" href={`/episodes/${episode.id}`}>
+          <span class="ep-season">S{Number(episode.season)-2019}</span><strong>{episode.title}</strong><p>{episode.logline}</p><time>{episode.date}</time>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head"><h2>Running gags</h2><p>The things that stopped being jokes and became infrastructure.</p></div>
+    <div class="index-list">
+      {gags.slice(0,6).map((gag) => <a class="index-card" href={`/gags#${gag.id}`}><small>RECURRING BIT</small><h3>{gag.name}</h3><p>{gag.logline}</p></a>)}
+    </div>
+  </section>
+</WikiLayout>
