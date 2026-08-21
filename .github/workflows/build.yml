@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: read
+  statuses: write
 
 jobs:
   build:
@@ -18,4 +19,27 @@ jobs:
           node-version: 24
           cache: npm
       - run: npm install
-      - run: npm run build
+      - name: Build Astro wiki
+        id: astro
+        continue-on-error: true
+        run: npm run build
+      - name: Publish build status
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BUILD_OUTCOME: ${{ steps.astro.outcome }}
+        run: |
+          if [ "$BUILD_OUTCOME" = "success" ]; then
+            state=success
+            description="Astro wiki build passed"
+          else
+            state=failure
+            description="Astro wiki build failed"
+          fi
+          gh api --method POST "repos/$GITHUB_REPOSITORY/statuses/$GITHUB_SHA" \
+            -f state="$state" \
+            -f context="wiki-build" \
+            -f description="$description"
+      - name: Fail workflow when Astro build fails
+        if: steps.astro.outcome != 'success'
+        run: exit 1
