@@ -5,7 +5,7 @@ aliases:
 pronouns: "he/him"
 roles:
   - "Sniper"
-summary: "Kaede is a current Sniper whose surviving Lobby record reaches back to a self-identifying 2021 post. A later account re-files the same in-game identity in 2023; Ren recognizes him before intake finishes, and Wolfie later draws him into the anniversary portrait he says made him feel included among everyone."
+summary: "Kaede is a current Sniper whose surviving UL record begins with a self-identifying 2021 Lobby post, continues through a recognized return in 2023, and becomes much more personal when WolfPhenix includes him in the anniversary portrait and he explains what that inclusion meant to him."
 summaryEvidence: "archive-confirmed"
 publication: "public"
 claims:
@@ -93,38 +93,26 @@ tags:
 
 # Kaede
 
-## THE LOBBY HAS TWO FRONT DOORS FOR THE SAME IN-GAME NAME
+Kaede, also known as **FuentesKaede**, is a current UL Sniper. His surviving record is unusually good at showing progression because the same in-game identity appears at two different moments: first as a name being filed into the house, then later as somebody the house already recognizes.
 
-The earliest surviving Kaede-shaped Lobby record is December 19, 2021, and it comes with a warning label. The Discord author is the pooled `Deleted User` account that contains multiple deleted humans. The account is not Kaede. **This message identifies itself.**
+## 2021 — First surviving UL record
 
-`FuentesKaede`. S16 Jormungandr. Reaper and Illusionist. UnderLords.
+The earliest clean Kaede receipt is December 19, 2021. One message inside a pooled `Deleted User` export identifies itself as **FuentesKaede**, S16 Jormungandr, Reaper and Illusionist, UnderLords. Mugen replies directly to that message, assigns the role, and points him toward club rules, the Discord Tour, and Biodata.
 
-Mugen replies directly to that exact post, assigns the role, and gives the house map in miniature: club rules, Discord Tour, Biodata.
+The account itself cannot safely be called Kaede because that deleted-user bucket contains multiple people. What matters for his biography is narrower: by late 2021, Kaede is already naming himself as UnderLords and being handled as somebody who belongs in the server.
 
-January 2023, a separate Discord account appears as `FuentesKaede` and files the same specific in-game identity again. Before the form is finished, Ren is already asking **`kaede linda eres tuuuu?`**. Later she closes the intake with **`bienvenida de regreso kaede linda`**.
+## 2023 — Return and recognition
 
-The software needs another form. The human recognition does not.
+On January 19, 2023, a different Discord account arrives in Lobby using the same specific in-game identity. The software treats it like another intake. Ren does not. Two minutes after MEE6 opens the process, she asks **`kaede linda eres tuuuu?`** and later welcomes him with **`bienvenida de regreso kaede linda`**.
 
-## WOLFIE DRAWS HIM INTO THE FAMILY PHOTO
+That exchange changes the meaning of the second Lobby appearance. It is not useful as a second "joining" date; it is useful because it shows continuity. Kaede can return through a new account and still be recognized before the paperwork is finished.
 
-March 2023. Wolfie drops an anniversary illustration into the Louvre and the room starts identifying the Officers and Snipers inside it. Mugen eventually announces the scale: **nineteen people drawn.** Kaede is one of them.
+Two months later, that social continuity becomes much more explicit. On March 14, WolfPhenix posts UL's anniversary illustration in the Louvre. The room identifies the Officers and Snipers drawn into it, nineteen people in all, and Kaede is one of them.
 
-Five days later he returns with an eight-message response. The length matters because he is not just saying the art is nice. He is trying to explain what being visibly included did to him.
+Five days later Kaede writes at length about the picture. He talks about the alley, LEDs, graffiti, names, faces, poses, and the tiny details that still hold up when he zooms in. The close attention is part art review, part proof that he has been sitting with the image long enough to understand what it means to him.
 
-He says seeing himself beside people he considers wonderful brought **relief and happiness** because he had a family he loved and believed loved him too. He says the piece reminded him what he had, made him feel lucky to be with them, and thanks Wolfie for **making a space for him among everyone**.
+The part he keeps returning to is not his own appearance. It is **being there with everyone else**. He says seeing himself included brought relief and happiness, reminded him that he had a family he loved and believed loved him too, and made him feel lucky. He thanks Wolfie for making a space for him among everyone.
 
-The drawing is communal art. Kaede reads the fact that somebody remembered to put him there as part of the meaning.
+Then, because this is still UL, he also admits he has always wondered why UnderLords is a stripper club and concludes that if being a stripper means being in this company, he is proud to be one. Wolf answers with gratitude of her own and thanks him for being part of the family.
 
-## HE ALSO REVIEWED THE ART AT PIXEL LEVEL
-
-After the emotional part, Kaede actually audits the image: night alley, club background, urban artwork, LEDs, stairs, floor, graffiti, names, individualized hair, skin, eyes, accessories, poses, and the tiny details that survive zooming.
-
-Then he asks the question the archive has been carrying for years:
-
-> **"I've always wondered 'why is UnderLords a stripper club'"**
-
-His conclusion is simple enough: if being a stripper means being in this company, he is proud to be one.
-
-Wolfie answers with **`awww kaeeedeeeee`**, gratitude, family, and a hope for more **`amazingly chaotic nonsensical memories`** together.
-
-Kaede's surviving file starts with identity paperwork and ends, for now, with him explaining why a place in the group picture mattered. The useful continuity is not the form. It is that other people recognize him, draw him in, and he notices the proof.
+Kaede's surviving biography therefore moves cleanly from **identification**, to **recognition**, to **belonging**. In 2021 he is a name on an intake message. In January 2023 other people know that name before the system does. By March, he is explaining why seeing himself deliberately placed inside the group picture matters. That progression is more revealing than any invented personality label could be.

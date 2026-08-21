@@ -8,7 +8,7 @@ roles:
   - "Parterre Gardener"
   - "Game Officer"
   - "Platelet"
-summary: "UL keeps handing her another corner to tend. When a joke starts hardening into accusation, Rummy says `be like water` and closes it; when the Wall later loses the surrounding conversation, she wants the rest of the record entered into evidence."
+summary: "Rummy's surviving UL story runs from a 2020 Lobby intake through a growing stack of community roles, years of Wall-era group life, record-keeping and conflict de-escalation, an account replacement in 2026, and the reunion where she immediately starts trying to reanimate the server."
 summaryEvidence: "inferred"
 publication: "public"
 eraStart: 2020
@@ -129,34 +129,48 @@ tags:
   - "conflict-style"
 ---
 
-## BE LIKE WATER. THE CASE IS CLOSED.
+# Rummy
 
-On August 15, 2023, Rummy enters one Wall misunderstanding with a surprisingly careful sequence. **`Helllooo`** softens the opening; **`I talked with soMe peoples`** says she checked outside her first reaction; then she identifies the problem as a misunderstanding and writes **`panda not bullying me`**.
+Rummy's UL story is long enough that the role list can be misleading if it is read all at once. She is primarily an **on-call Sniper**, and over time she also becomes Nobu's **Party Director Apprentice**, a **Parterre Gardener**, a **Game Officer**, and remains a permanent **Platelet**. The archive does not safely date every appointment, so the biography follows the parts of her life in UL that can actually be placed in time.
 
-The parenthetical is the interesting part: **`(At least that how I’m seeing it)`**. She does not convert her interpretation into omniscience. She leaves room for what she does not know, then becomes much firmer about what the room should do next: **`we should be like water and move past it`** and there should be **`no more comment abt this`**.
+## 2020 — Arrival
 
-Only after the boundary is set does the joke return: if somebody still insists, DM Ansun, **`he my lawyer now-jk`** 💅.
+Rummy's earliest surviving UL intake is October 11, 2020 under the account name **`phenomenal_lamb_14960`**. The Stripclub Bouncer welcomes her, she answers with a simple **`Hi 🙂`**, Staff confirms role assignment, and she is sent toward the Discord Tour.
 
-That order matters. The joke is not being used to dodge the conflict. It comes after Rummy has said what she thinks happened, admitted the limit of that reading, and asked everybody to stop feeding the misunderstanding.
+There is nothing grand about the scene, which is useful. It gives her a real starting point without pretending that later titles were already attached to her. By October 2020, Rummy is in the house. The rest of the biography is what happens as she becomes more embedded in it.
 
-The post received twelve heart reactions. That is visible uptake, not a unanimous vote and not a friendship ranking. More importantly, Rummy's own sentence explicitly says Panda was **not** bullying her in this scene. The archive does not get to reverse her clarification because the alternative story sounds more dramatic.
+## 2022 — Fully inside the house culture
 
-## COUNSEL WOULD LIKE THE REST OF THE CHAT LOG
+By 2022, Rummy is no longer appearing in onboarding material. She is appearing in the kind of nonsense that only works once everybody already knows the cast.
 
-Rummy has a recurring problem with the Wall's editorial department: not necessarily that the quote is fake, but that prosecution has apparently submitted the **fucking excerpt**.
+In May, Rich asks how much bleach she has touched; Rummy answers **`BruH- I touch nOnE`**, then **`ZerO`**. In November, a food dispute escalates into Rummy insisting **`IT A PANCAKEEEE`** while Nobu answers **`RUMMY IT'S BURNT`**, HamitteY calls it a charcoal pancake, and Anayss admits she thought it was chocolate.
 
-On December 15, 2023, the surviving Wall cluster catches the defense assembling itself in real time. First comes **`bro u need hte context`** — lowercase, typo included, because apparently urgency has already outrun spellcheck. Then she upgrades to **`THAT WASN'T JUST A RANDOM THINIG`**. Then, more precisely, **`i did not say that randomly`**. And finally the court receives the explanatory exhibit: **`it the bobA bALlS`**.
+The unseen screenshots stay unseen. What these scenes establish is simpler: by 2022 Rummy is socially legible enough that the room has a rhythm with her. She protests, people pile on, she keeps protesting, and the joke survives because nobody needs an introduction first.
 
-That progression is the useful character evidence. She is not simply yelling **I NEVER SAID THAT**. She is arguing causation. There was a reason. There was surrounding material. The sentence had habitat. Please stop presenting the wildlife outside its ecosystem.
+## 2023 — More responsibility, more visibility
 
-Eight months later, another Wall moment compresses the same instinct into one procedural objection. Rummy goes **`HEY-`**, sobs, and then produces the cleanest possible brief: **`THAT NOT THE FULL CONVO`**.
+The 2023 record shows Rummy doing more than being the target of jokes. On March 31 she republishes UL's birthday calendar month by month and pins the replacement lists. That is ordinary maintenance work, but it marks a shift in the surviving record: she is not just participating in the house; she is helping keep pieces of it organized.
 
-By then the defense has become muscle memory. The Wall produces an excerpt; Rummy asks for the record around it.
+At the same time, she remains very much Rummy. Nobu asks **`Rummy has rizz??`**; Mia says yes; the room wheezes. Across 2023 and into 2024, Gilli repeatedly singles out Rummy's timing for laughs, including **`It's Rummy screaming song lyrics that fit the convo so well for me LMAO`**. Rummy answers and reacts in the same register. The staff/community role does not replace the clowning; it sits beside it.
 
-The continuity is structural: this is also the woman who, in March 2023, rebuilt UL's birthday calendar month by month and pinned the replacement lists. When Rummy is maintaining a communal record, the record should be complete. When the communal record turns around and starts prosecuting **her**, pagination becomes a constitutional right.
+August 15 gives the clearest sign of how she handles a more serious social moment. In a Wall misunderstanding involving Panda, Rummy opens softly with **`Helllooo`**, says she has talked with other people, describes the situation as a misunderstanding, and explicitly writes **`panda not bullying me`**. The parenthetical **`(At least that how I’m seeing it)`** matters because she leaves room for the limits of her own read before becoming firmer about what should happen next: **`we should be like water and move past it`** and there should be no more comments about it.
 
-That does not make her UL's lawyer, archivist, fact-checker, or Commissioner of Missing Context. The underlying screenshots and full conversations in these Wall scenes were not reconstructed cleanly enough to decide whether her objections were substantively correct. The archive gives us something better and narrower: **a recurring reflex**.
+Only after setting that boundary does she joke that Ansun is her lawyer **`now-jk`**. The order is revealing. Rummy does not use the joke to avoid saying what she thinks. She says it plainly first, asks the room to stop feeding the misunderstanding, and then lets the house language back in.
 
-Rummy does not necessarily deny being in the evidence.
+By December, another recurring trait is visible: when the Wall quotes her without enough surrounding context, she objects to the edit rather than necessarily denying the line. **`bro u need hte context`**, **`THAT WASN'T JUST A RANDOM THINIG`**, **`i did not say that randomly`**, followed eventually by **`it the bobA bALlS`**. It is funny, but it also fits the same year in which she was maintaining birthday records and trying to close a misunderstanding carefully. Rummy tends to care about what happened around the sentence, not just the sentence itself.
 
-She objects to counsel's edit.
+## 2024 — The pattern sticks
+
+In August 2024, another Wall cluster ends with the condensed version of the same objection: **`THAT NOT THE FULL CONVO`**.
+
+At this point it reads less like a one-off defense and more like a stable habit in how she deals with the Wall. The room likes excerpts because excerpts are funny. Rummy's reflex is to drag the missing context back into frame. The archive cannot prove that every objection was correct, because the underlying conversations are not always fully reconstructed. What it can show is that the reflex repeats.
+
+## 2026 — Account change, same person
+
+On July 7, 2026, Ren announces that Rummy's old Discord account has been hacked and identifies **rummy00.9.** as the replacement. The Lobby Bouncer reruns the normal check-in, but this is account continuity, not a new person or a new membership story.
+
+A month later, during the August reunion, Rummy is immediately recognizable as part of the old social fabric. She greets Nobu's return, comments on how fast Whiskey is moving again, joins the permanent-Platelet age joke, offers Oyasumi rubbing alcohol for a paper cut, and eventually says **`Reanimate the whole server fr`**.
+
+That line lands differently after the earlier timeline. The person who entered through Lobby in 2020, accumulated roles, maintained calendars, got roasted, mediated a misunderstanding, argued for fuller context, and survived an account replacement is still there six years later asking for the house to move again.
+
+Rummy's progression is therefore not one themed personality bit. It is **increasing embeddedness**. She starts as a newcomer, becomes part of the room's everyday comedy, takes on more community responsibility, shows a recognizable conflict style, and remains present enough in 2026 to participate in the server's afterlife. The role stack matters, but the timeline is what makes it feel like a life.
