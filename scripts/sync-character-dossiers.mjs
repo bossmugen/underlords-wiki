@@ -1,18 +1,12 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 
-const owner = "bossmugen";
-const repo = "underlords";
-const ref = "master";
-const sourceDir = "src/content/people";
+const sourceDir = path.resolve("src/data/dossier-snapshots");
 const outputPath = path.resolve("src/data/character-dossiers.generated.json");
 
 const requiredPriorityIds = [
   "mugen",
-  "gabu","anayss","ansun","wolfphenix","sye","ren","gilli","oyasumi","snow","anthos","daya",
-  "hyaluna","ritha","suzimasu","yumi","illien","key","nelph","kiro",
-  "kaede","feli","lan","nemo","rummy",
-  "shiki","han","mia","nobu","moon"
+  "gabu","anayss","ansun","wolfphenix","sye","ren","gilli","oyasumi","snow","anthos","daya"
 ];
 
 const escapeHtml = (value) => String(value)
@@ -156,74 +150,51 @@ function renderMarkdown(markdown) {
   return html.join("\n");
 }
 
-async function fetchJson(url) {
-  const response = await fetch(url, { headers: { "User-Agent": "underlords-wiki-dossier-sync", "Accept": "application/vnd.github+json" } });
-  if (!response.ok) throw new Error(`GitHub source listing failed: ${response.status} ${response.statusText}`);
-  return response.json();
-}
-
-async function fetchText(url) {
-  const response = await fetch(url, { headers: { "User-Agent": "underlords-wiki-dossier-sync" } });
-  if (!response.ok) throw new Error(`Dossier fetch failed: ${response.status} ${response.statusText} · ${url}`);
-  return response.text();
-}
-
 async function main() {
-  const listingUrl = `https://api.github.com/repos/${owner}/${repo}/contents/${sourceDir}?ref=${ref}`;
-  const items = await fetchJson(listingUrl);
-  const markdownFiles = items.filter((item) => item.type === "file" && item.name.endsWith(".md"));
-  const output = {};
+  const entries = await fs.readdir(sourceDir, { withFileTypes: true });
+  const markdownFiles = entries
+    .filter((entry) => entry.isFile() && entry.name.endsWith(".md"))
+    .map((entry) => entry.name)
+    .sort();
 
-  const concurrency = 8;
-  let cursor = 0;
-  async function worker() {
-    while (cursor < markdownFiles.length) {
-      const item = markdownFiles[cursor++];
-      const id = item.name.replace(/\.md$/i, "");
-      const rawUrl = `https://raw.githubusercontent.com/${owner}/${repo}/${ref}/${sourceDir}/${encodeURIComponent(item.name)}`;
-      const markdown = await fetchText(rawUrl);
-      const { frontmatter, body: rawBody } = splitMarkdown(markdown);
-      const body = rawBody.trim();
-      const meta = parseFrontmatter(frontmatter);
-      if (!body && !meta.claims.length) continue;
-      output[id] = {
-        html: body ? renderMarkdown(body) : "",
-        wordCount: body ? body.split(/\s+/).filter(Boolean).length : 0,
-        claims: meta.claims,
-        antiFanon: meta.antiFanon,
-        relatedPeople: meta.relatedPeople,
-        sourcePath: `${sourceDir}/${item.name}`,
-        sourceRef: `${owner}/${repo}@${ref}`
-      };
-    }
+  const output = {};
+  for (const fileName of markdownFiles) {
+    const id = fileName.replace(/\.md$/i, "");
+    const markdown = await fs.readFile(path.join(sourceDir, fileName), "utf8");
+    const { frontmatter, body: rawBody } = splitMarkdown(markdown);
+    const body = rawBody.trim();
+    const meta = parseFrontmatter(frontmatter);
+    if (!body && !meta.claims.length) continue;
+    output[id] = {
+      html: body ? renderMarkdown(body) : "",
+      wordCount: body ? body.split(/\s+/).filter(Boolean).length : 0,
+      claims: meta.claims,
+      antiFanon: meta.antiFanon,
+      relatedPeople: meta.relatedPeople,
+      sourcePath: `src/data/dossier-snapshots/${fileName}`,
+      sourceRef: "committed archive dossier snapshot"
+    };
   }
-  await Promise.all(Array.from({ length: concurrency }, () => worker()));
 
   const missingPriority = requiredPriorityIds.filter((id) => !output[id]);
   if (missingPriority.length) {
-    throw new Error(`Priority character dossiers missing from source sync: ${missingPriority.join(", ")}`);
-  }
-  if (Object.keys(output).length < 45) {
-    throw new Error(`Only ${Object.keys(output).length} dossiers synced; refusing to build a thin character wiki.`);
+    throw new Error(`Priority character dossiers missing from committed snapshots: ${missingPriority.join(", ")}`);
   }
 
-  await fs.mkdir(path.dirname(outputPath), { recursive: true });
+  for (const id of requiredPriorityIds) {
+    const dossier = output[id];
+    if ((dossier.wordCount ?? 0) < 120 && (dossier.claims?.length ?? 0) < 6) {
+      throw new Error(`${id} is still too thin: ${dossier.wordCount} narrative words / ${dossier.claims.length} receipt claims.`);
+    }
+  }
+
   await fs.writeFile(outputPath, `${JSON.stringify(output, null, 2)}\n`, "utf8");
   const totalWords = Object.values(output).reduce((sum, entry) => sum + entry.wordCount, 0);
   const totalClaims = Object.values(output).reduce((sum, entry) => sum + entry.claims.length, 0);
-  console.log(`Synced ${Object.keys(output).length} character dossiers (${totalWords.toLocaleString()} narrative words + ${totalClaims.toLocaleString()} receipt claims) from ${owner}/${repo}@${ref}.`);
+  console.log(`Built ${Object.keys(output).length} committed character dossiers (${totalWords.toLocaleString()} narrative words + ${totalClaims.toLocaleString()} receipt claims).`);
 }
 
-main().catch(async (error) => {
+main().catch((error) => {
   console.error(error);
-  try {
-    const cached = JSON.parse(await fs.readFile(outputPath, "utf8"));
-    const cachedCount = Object.keys(cached).length;
-    const missingPriority = requiredPriorityIds.filter((id) => !cached[id]);
-    if (cachedCount >= 45 && !missingPriority.length) {
-      console.warn(`Remote sync failed; using committed dossier cache with ${cachedCount} entries.`);
-      process.exit(0);
-    }
-  } catch {}
   process.exit(1);
 });
