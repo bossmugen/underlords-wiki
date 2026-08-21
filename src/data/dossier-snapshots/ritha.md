@@ -8,7 +8,7 @@ roles:
   - "Retired Officer"
   - "Consigliere"
 eraStart: 2020
-summary: "Founder. One of Mugen's first Dragon Raja friends. Retired full Officer; historical Consigliere / Senior Advisor."
+summary: "Ritha predates UL as one of Mugen's first Dragon Raja friends and enters the site's origin story as part of the five-person founding circle. The surviving April 2020 archive gives only a small personal window—Tower of God, a years-long wait for the anime, and an easy `hiii mugs uwu`—while later roster canon records her as a retired full Officer and historical Consigliere."
 summaryEvidence: "user-confirmed"
 publication: "public"
 claims:
@@ -56,48 +56,20 @@ tags:
 
 # Ritha
 
-Founder. Early friend. Retired Senior Advisor.
+Ritha belongs to UL's story before the server exists. She was one of Mugen's first Dragon Raja friends and later came into Underlords as part of the five-person founding circle with Mugen, WolfPhenix, Suzimasu, and HyaLuna. Her later roster history records her as a full Officer in the Consigliere / Senior Advisor lane; she is now retired from that role.
 
-## OFFICIAL FILE
+The surviving personal archive is much thinner than the role history, and the bio should stay honest about that.
 
-Ritha belongs to UL before the rules, tours, bots, departments, and jurisprudence started multiplying — and later served as a full Officer in the **Consigliere / Senior Advisor** lane.
+## APRIL 2020 — THE ARCHIVE CATCHES AN EXISTING FRIENDSHIP IN AN ORDINARY CONVERSATION
 
-## THE FOUNDING FIVE
+On April 11, Ritha recommends **Tower of God / Kami no Tou** and says she had followed the webtoon for years waiting for an anime adaptation. That already gives more of the person than another title could: she is not jumping onto a new show because the room mentioned it; she has been carrying the story long enough for the adaptation itself to feel like a payoff.
 
-Mugen. Ritha. WolfPhenix. Suzimasu. HyaLuna.
+Then Mugen enters with **`HIIII RITHA :d`**. Ritha answers **`and hiii mugs uwu`**, and both immediately continue talking about the adaptation.
 
-Founder is why Ritha is in the origin story. Retired Officer is what she later did. Neither erases the other.
+The greeting is useful because nothing about it behaves like an introduction. User-confirmed canon already places their friendship earlier in Dragon Raja; the transcript simply catches the familiarity once the archive camera is running. No origin speech, no rank talk, no ceremony. Mugen yells hello, Ritha answers softly, and the topic continues.
 
-## THE FILE OPENS ON ANIME, NOT RANK
+## LATER — THE ROLE HISTORY IS REAL, THE APPOINTMENT TIMELINE IS NOT RECONSTRUCTED
 
-April 11, 2020. Ritha is already in Club-Only recommending **Tower of God / Kami no Tou** to somebody else:
+Ritha later served as a full Officer and historical Consigliere / Senior Advisor. The archive does not currently provide a reliable dated promotion/departure sequence, so the page does not project that later rank back onto April 2020 or pretend the role is the only thing worth saying about her.
 
-**Ritha:** `Give Tower of God(Kami no Tou) a try if you haven't already`
-
-A little later she explains why she is invested:
-
-**Ritha:** `i've been following the webtoon for few years hoping it would get an anime adaption and now its here`
-
-The line does more character work than another Officer label ever could. **`few years`** is patience, not trend-chasing: the anime is satisfying because Ritha has already been carrying the story before the room caught this conversation.
-
-And then Mugen arrives sideways through the same topic:
-
-**Mugen:** `HIIII RITHA :d`
-
-**Ritha:** `and hiii mugs uwu`
-
-**Mugen:** `Yeahh... finally getting an adaptation is satisfying`
-
-There is no ceremony around the greeting. Mugen's all-caps entrance gets a soft **`hiii mugs uwu`**, and then both women immediately go back to the adaptation. That casualness is the useful receipt. The founder relationship is not only a line on UL's origin chart; the surviving opening-era room catches two early friends recognizing each other in the middle of an ordinary fandom conversation and simply continuing.
-
-It does **not** tell us when they first met. Mugs-confirmed canon owns the older Dragon Raja friendship. The transcript only gives us the texture once the archive camera is already rolling.
-
-## OFFICER HISTORY
-
-Ritha is in the retired Officer roster as a historical **Consigliere** — civilian translation: **Senior Advisor**.
-
-The dated appointment sequence is not fully reconstructed, so the site does not project that later role backward onto every 2020 appearance. The export's historical role snapshot does not get to overrule the person either.
-
-## FILE STATUS
-
-Founder status, retired Officer / Senior Advisor status, and early relationship to Mugen: locked. April 2020 gives us something smaller and better than another title: Ritha recommending a story she had waited years to see adapted, Mugs yelling hello, Ritha answering `uwu`, and the conversation carrying on like nobody needed an origin-story speech first.
+For now, the biography is appropriately small: early Dragon Raja friendship → founding-circle origin → an opening-era glimpse of the person in ordinary fandom conversation → later senior Officer service → retirement. More evidence can deepen it later. It does not need filler in the meantime.
