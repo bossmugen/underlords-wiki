@@ -6,7 +6,7 @@ aliases:
 roles:
   - "Sensei"
 eraStart: 2020
-summary: "UL's Sensei under the stable Shk / yuki1794 identity. The 2020 archive catches the title becoming behavior: first a personal fight rule and fatigue with old `lone wolf days`, then `study first`, `take note`, and `surpass ur enemy`."
+summary: "Shiki's 2020 archive moves from a hard personal fight rule tempered by fatigue with his old `lone wolf days` into a September chat register built around `study first`, `take note`, and `surpass ur enemy`. The current Sensei title is locked separately, but the later chat makes the title feel earned by behavior rather than decoration."
 summaryEvidence: "archive-confirmed"
 publication: "public"
 claims:
@@ -62,52 +62,22 @@ tags:
 
 # Shiki
 
-Shiki's current file is deceptively neat: **Sensei**. One specialist title, one stable identity chain — Shiki / Shk / `yuki1794` — and none of the cross-account chaos some of the other dossiers drag behind them.
+Shiki is UL's Sensei. The title is current canon; the archive does not provide a clean appointment date. What it does provide is a small 2020 progression that explains why the label feels socially coherent rather than decorative.
 
-The 2020 scenes make the title feel less decorative than it sounds.
+## MAY 2020 — A HARD RULE WITH THE GLAMOUR ALREADY WORN OFF
 
-## THE RULE IS SIMPLE. ALSO, HE IS TIRED.
+In a conflict discussion, Shiki states his personal rule bluntly: **`if u strike me i will strike back and i will strike hard`**. Mugen separately draws the house boundary against public flame wars that drag uninvolved clubs or people into harassment. Those are two speakers doing different things and should remain separate.
 
-May 15, 2020, Shiki states his own conflict rule without varnish:
+Minutes later Shiki describes his old **`lone wolf days`** and gives the line that changes the tone: **`it get old`**.
 
-> `still stick to my own rule if u strike me i will strike back and i will strike hard`
+That matters more than turning the first quote into a macho slogan. Shiki can still describe retaliation as a personal rule while sounding tired of the culture that made constant fighting feel necessary. The archive does not show him romanticizing the old life; it shows someone who has experience with it and has already discovered the boredom at the end.
 
-Mugen quotes the line back approvingly in the context of direct fights, while separately drawing a boundary against public flame wars that splash harassment onto uninvolved clubs or people.
+## SEPTEMBER 2020 — THE SENSEI REGISTER MOVES INTO ORDINARY CHAT
 
-Those are two speakers doing two different things. Shiki gives a personal rule. Mugen gives the house-level containment logic. The archive does not need to staple them together into one manifesto just because they occur in the same conversation.
+By September, Shiki's contribution sounds less like conflict autobiography and more like mock coaching. **`study first`**. **`@here hope u all studying`**. **`take note`**. **`it could be in ur test`**.
 
-Minutes later, Shiki supplies the part that makes the hard line more interesting:
+A week later his good-night message compresses the whole mode into one breath: **`fight hard learn header surpass ur enemy`**.
 
-> `lone wolf days`
->
-> `it get old`
+There is no literal class, curriculum, exam, or teaching credential here. The progression is social. Earlier in the year, Shiki talks about what he learned from fighting. By fall, he is routinely turning chat into little instructions about studying, learning, and improving.
 
-That little second sentence drains the glamour out of the first one. The archive does not show somebody romanticizing endless conflict. It shows somebody who can still describe retaliation as a rule while also sounding profoundly over the lifestyle that produced the rule in the first place.
-
-## BY SEPTEMBER, THE SENSEI BIT HAS ESCAPED THE TITLE BADGE.
-
-September 3:
-
-> `study first`
->
-> `@here hope u all studying`
->
-> `take note`
->
-> `it could be in ur test`
-
-There is no evidence of a literal curriculum. Nobody needs to invent one. The point is the register: Shiki turns ordinary Club Only chatter into mock instruction with almost no setup, and the specialist title suddenly sounds like something the room could actually call him without irony collapsing.
-
-A week later, his sign-off compresses the whole mode into one burst:
-
-> `ok night all gl UL fight hard learn header surpass ur enemy`
-
-It is half good-night message, half coaching bark, half sentence assembled while punctuation was on strike. Mathematically impossible. Spiritually correct.
-
-## THE TITLE DESCRIBES A SOCIAL MODE, NOT A RESUME.
-
-The safest character read is narrow but real. Shiki's archive voice repeatedly frames experience as something to learn from: fighting gets old, study first, take notes, learn the header, surpass the enemy.
-
-That does **not** prove a real-world teaching job, formal class, curriculum, or appointment date. Historical role arrays cannot supply the missing chronology either. They only prove what Discord looked like when exported.
-
-What the scenes do give us is better than padding: a specialist title that actually rhymes with the way he talks.
+That is enough for a restrained bio. The current Sensei title remains separately confirmed; the 2020 archive shows the person already speaking in a way the room could later recognize as Sensei-shaped. No résumé inflation required.
