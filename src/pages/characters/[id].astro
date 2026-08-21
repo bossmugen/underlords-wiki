@@ -4,13 +4,14 @@ import "../../styles/characters.css";
 import { episodes } from "../../data/wiki";
 import { allCharacters, primaryGroupByCharacterId } from "../../data/cast";
 import { getCharacterBio } from "../../data/character-bios";
+import { extendedCharacterBios } from "../../data/character-bios-extended";
 
 export function getStaticPaths() {
   return allCharacters.map((character) => ({ params: { id: character.id }, props: { character } }));
 }
 
 const { character } = Astro.props;
-const bio = getCharacterBio(character);
+const bio = (extendedCharacterBios as Record<string, any>)[character.id] ?? getCharacterBio(character);
 const primaryGroup = primaryGroupByCharacterId.get(character.id);
 const appearances = episodes.filter((episode) => episode.cast.includes(character.name));
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
@@ -33,7 +34,7 @@ const url = (path: string) => `${base}${path}` || path;
       <section class="bio-block bio-opening">
         <div class="bio-label">CHARACTER BIO</div>
         <h2>Who is {character.name}?</h2>
-        {bio.overview.map((paragraph) => <p>{paragraph}</p>)}
+        {bio.overview.map((paragraph: string) => <p>{paragraph}</p>)}
       </section>
 
       {bio.history?.length ? (
@@ -41,7 +42,7 @@ const url = (path: string) => `${base}${path}` || path;
           <div class="bio-label">STORY</div>
           <h2>Story so far</h2>
           <div class="bio-timeline">
-            {bio.history.map((beat) => (
+            {bio.history.map((beat: any) => (
               <article class="bio-beat">
                 {beat.date ? <time>{beat.date}</time> : null}
                 <div><h3>{beat.title}</h3><p>{beat.text}</p></div>
@@ -56,7 +57,7 @@ const url = (path: string) => `${base}${path}` || path;
           <div class="bio-label">CHARACTER</div>
           <h2>Recurring bits & behavior</h2>
           <div class="character-note-grid">
-            {bio.characterNotes.map((note) => (
+            {bio.characterNotes.map((note: any) => (
               <article class="character-note">
                 <h3>{note.title}</h3>
                 <p>{note.text}</p>
@@ -109,7 +110,7 @@ const url = (path: string) => `${base}${path}` || path;
         <div class="bio-label">DOWNSTAIRS</div>
         <h2>Canon & archive notes</h2>
         <p class="source-intro">This is where the wiki sobers up. Current roles are not automatically appointment dates. A funny relationship label is not biology. An export-time role array is not a promotion ceremony.</p>
-        {bio.canonNotes?.length ? <ul class="canon-list">{bio.canonNotes.map((note) => <li>{note}</li>)}</ul> : null}
+        {bio.canonNotes?.length ? <ul class="canon-list">{bio.canonNotes.map((note: string) => <li>{note}</li>)}</ul> : null}
       </section>
     </article>
 
@@ -126,7 +127,7 @@ const url = (path: string) => `${base}${path}` || path;
       {bio.roleNotes?.length ? (
         <div class="infobox-notes">
           <strong>ROLE NOTES</strong>
-          <ul>{bio.roleNotes.map((note) => <li>{note}</li>)}</ul>
+          <ul>{bio.roleNotes.map((note: string) => <li>{note}</li>)}</ul>
         </div>
       ) : null}
     </aside>
