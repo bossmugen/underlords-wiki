@@ -15,7 +15,7 @@ const requiredPriorityIds = [
   "shiki","han","mia","nobu","moon"
 ];
 
-const escapeHtml = (value) => value
+const escapeHtml = (value) => String(value)
   .replaceAll("&", "&amp;")
   .replaceAll("<", "&lt;")
   .replaceAll(">", "&gt;")
@@ -31,12 +31,73 @@ function inlineMarkdown(value) {
   return text;
 }
 
-function bodyFromMarkdown(markdown) {
-  if (!markdown.startsWith("---")) return markdown;
+function splitMarkdown(markdown) {
+  if (!markdown.startsWith("---")) return { frontmatter: "", body: markdown };
   const second = markdown.indexOf("\n---", 3);
-  if (second === -1) return markdown;
+  if (second === -1) return { frontmatter: "", body: markdown };
   const bodyStart = markdown.indexOf("\n", second + 4);
-  return bodyStart === -1 ? "" : markdown.slice(bodyStart + 1);
+  return {
+    frontmatter: markdown.slice(4, second),
+    body: bodyStart === -1 ? "" : markdown.slice(bodyStart + 1)
+  };
+}
+
+function yamlScalar(value) {
+  const raw = String(value ?? "").trim();
+  if (!raw) return "";
+  if (raw.startsWith('"') && raw.endsWith('"')) {
+    try { return JSON.parse(raw); } catch { return raw.slice(1, -1).replaceAll('\\"', '"'); }
+  }
+  if (raw.startsWith("'") && raw.endsWith("'")) return raw.slice(1, -1).replaceAll("''", "'");
+  return raw;
+}
+
+function parseFrontmatter(frontmatter) {
+  const lines = frontmatter.replace(/\r\n/g, "\n").split("\n");
+  const claims = [];
+  const antiFanon = [];
+  const relatedPeople = [];
+  let mode = "";
+  let claim = null;
+
+  const flushClaim = () => {
+    if (claim?.text) claims.push(claim);
+    claim = null;
+  };
+
+  for (const line of lines) {
+    const topLevel = line.match(/^([A-Za-z][A-Za-z0-9_-]*):(?:\s*(.*))?$/);
+    if (topLevel) {
+      if (mode === "claims") flushClaim();
+      mode = topLevel[1];
+      continue;
+    }
+
+    if (mode === "claims") {
+      const newClaim = line.match(/^\s{2}-\s+text:\s*(.*)$/);
+      if (newClaim) {
+        flushClaim();
+        claim = { text: yamlScalar(newClaim[1]) };
+        continue;
+      }
+      const field = line.match(/^\s{4}(evidence|date):\s*(.*)$/);
+      if (field && claim) claim[field[1]] = yamlScalar(field[2]);
+      continue;
+    }
+
+    if (mode === "antiFanon") {
+      const item = line.match(/^\s{2}-\s+(.*)$/);
+      if (item) antiFanon.push(yamlScalar(item[1]));
+      continue;
+    }
+
+    if (mode === "relatedPeople") {
+      const item = line.match(/^\s{2}-\s+(.*)$/);
+      if (item) relatedPeople.push(yamlScalar(item[1]));
+    }
+  }
+  if (mode === "claims") flushClaim();
+  return { claims, antiFanon, relatedPeople };
 }
 
 function renderMarkdown(markdown) {
@@ -121,11 +182,16 @@ async function main() {
       const id = item.name.replace(/\.md$/i, "");
       const rawUrl = `https://raw.githubusercontent.com/${owner}/${repo}/${ref}/${sourceDir}/${encodeURIComponent(item.name)}`;
       const markdown = await fetchText(rawUrl);
-      const body = bodyFromMarkdown(markdown).trim();
-      if (!body) continue;
+      const { frontmatter, body: rawBody } = splitMarkdown(markdown);
+      const body = rawBody.trim();
+      const meta = parseFrontmatter(frontmatter);
+      if (!body && !meta.claims.length) continue;
       output[id] = {
-        html: renderMarkdown(body),
-        wordCount: body.split(/\s+/).filter(Boolean).length,
+        html: body ? renderMarkdown(body) : "",
+        wordCount: body ? body.split(/\s+/).filter(Boolean).length : 0,
+        claims: meta.claims,
+        antiFanon: meta.antiFanon,
+        relatedPeople: meta.relatedPeople,
         sourcePath: `${sourceDir}/${item.name}`,
         sourceRef: `${owner}/${repo}@${ref}`
       };
@@ -144,7 +210,8 @@ async function main() {
   await fs.mkdir(path.dirname(outputPath), { recursive: true });
   await fs.writeFile(outputPath, `${JSON.stringify(output, null, 2)}\n`, "utf8");
   const totalWords = Object.values(output).reduce((sum, entry) => sum + entry.wordCount, 0);
-  console.log(`Synced ${Object.keys(output).length} character dossiers (${totalWords.toLocaleString()} words) from ${owner}/${repo}@${ref}.`);
+  const totalClaims = Object.values(output).reduce((sum, entry) => sum + entry.claims.length, 0);
+  console.log(`Synced ${Object.keys(output).length} character dossiers (${totalWords.toLocaleString()} narrative words + ${totalClaims.toLocaleString()} receipt claims) from ${owner}/${repo}@${ref}.`);
 }
 
 main().catch(async (error) => {
