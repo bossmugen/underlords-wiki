@@ -1,0 +1,58 @@
+---
+import WikiLayout from "../../layouts/WikiLayout.astro";
+import { characters, episodes } from "../../data/wiki";
+
+export function getStaticPaths() {
+  return characters.map((character) => ({ params: { id: character.id }, props: { character } }));
+}
+
+const { character } = Astro.props;
+const appearances = episodes.filter((episode) => episode.cast.includes(character.name));
+---
+<WikiLayout title={`${character.name} | Underlords Wiki`} description={character.logline}>
+  <div class="breadcrumbs"><a href="/characters">Characters</a> / {character.name}</div>
+  <section class="hero"><div><div class="kicker">CHARACTER FILE · {character.billing}</div><h1>{character.name}</h1><p class="tagline">{character.logline}</p></div></section>
+
+  <section class="section detail-layout">
+    <article class="detail-main">
+      <h2>Character overview</h2>
+      <p>{character.logline}</p>
+      {character.relationships?.length ? (
+        <>
+          <h2 style="margin-top:4rem">Relationships</h2>
+          <div class="index-list">
+            {character.relationships.map((rel) => rel.href ? <a class="index-card" href={rel.href}><small>RELATIONSHIP</small><h3>{rel.name}</h3><p>{rel.note}</p></a> : <div class="index-card"><small>RELATIONSHIP</small><h3>{rel.name}</h3><p>{rel.note}</p></div>)}
+          </div>
+        </>
+      ) : null}
+
+      {appearances.length ? (
+        <>
+          <h2 style="margin-top:4rem">Notable episodes</h2>
+          <div class="episode-list">
+            {appearances.map((episode) => <a class="episode-row" href={`/episodes/${episode.id}`}><span class="ep-season">{episode.season}</span><strong>{episode.title}</strong><p>{episode.logline}</p><time>{episode.date}</time></a>)}
+          </div>
+        </>
+      ) : <div class="wiki-note" style="margin-top:3rem">This character file is intentionally sparse until a specific archive scene earns expansion. The wiki does not manufacture personality paragraphs from roster presence alone.</div>}
+
+      {character.quotes?.length ? (
+        <>
+          <h2 style="margin-top:4rem">Quotes</h2>
+          <div class="quote-wall">{character.quotes.map((quote) => <div class="quote-card"><blockquote>“{quote}”</blockquote><footer>{character.name}</footer></div>)}</div>
+        </>
+      ) : null}
+    </article>
+
+    <aside class="infobox">
+      <div class="infobox-title">{character.name}</div>
+      <div class="empty-art">portrait / archive image slot</div>
+      <dl>
+        <div class="row"><dt>Billing</dt><dd>{character.billing}</dd></div>
+        <div class="row"><dt>Role</dt><dd>{character.role}</dd></div>
+        <div class="row"><dt>Era</dt><dd>{character.era}</dd></div>
+        {character.aliases?.length ? <div class="row"><dt>Aliases</dt><dd>{character.aliases.join(" · ")}</dd></div> : null}
+        {character.tags?.length ? <div class="row"><dt>Tags</dt><dd><div class="chip-row">{character.tags.map((tag) => <span class="chip">{tag}</span>)}</div></dd></div> : null}
+      </dl>
+    </aside>
+  </section>
+</WikiLayout>
