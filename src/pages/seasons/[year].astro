@@ -1,0 +1,21 @@
+---
+import WikiLayout from "../../layouts/WikiLayout.astro";
+import { seasons, episodes } from "../../data/wiki";
+
+export function getStaticPaths() {
+  return seasons.map((season) => ({ params: { year: season.year }, props: { season } }));
+}
+const { season } = Astro.props;
+const seasonEpisodes = episodes.filter((episode) => episode.season === season.year);
+---
+<WikiLayout title={`${season.title} | Underlords Wiki`} description={season.summary}>
+  <div class="breadcrumbs"><a href="/seasons">Seasons</a> / {season.year}</div>
+  <section class="hero"><div><div class="kicker">SEASON {Number(season.year)-2019}</div><h1>{season.year}</h1><p class="tagline">{season.subtitle}</p></div></section>
+  <section class="section detail-layout">
+    <article class="detail-main"><h2>{season.title}</h2><p>{season.summary}</p>
+      <h2 style="margin-top:4rem">Episode guide</h2>
+      {seasonEpisodes.length ? <div class="episode-list">{seasonEpisodes.map((episode)=><a class="episode-row" href={`/episodes/${episode.id}`}><span class="ep-season">{episode.kind}</span><strong>{episode.title}</strong><p>{episode.logline}</p><time>{episode.date}</time></a>)}</div> : <div class="wiki-note">No dedicated episode page has been promoted for this season yet. The season exists; the wiki is refusing to invent filler episodes.</div>}
+    </article>
+    <aside class="infobox"><div class="infobox-title">{season.title}</div><dl><div class="row"><dt>Year</dt><dd>{season.year}</dd></div><div class="row"><dt>Theme</dt><dd>{season.subtitle}</dd></div><div class="row"><dt>Episodes</dt><dd>{seasonEpisodes.length} promoted story pages</dd></div></dl></aside>
+  </section>
+</WikiLayout>
