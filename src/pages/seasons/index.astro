@@ -1,0 +1,8 @@
+---
+import WikiLayout from "../../layouts/WikiLayout.astro";
+import { seasons } from "../../data/wiki";
+---
+<WikiLayout title="Seasons | Underlords Wiki" description="Underlords chronology presented as seven seasons.">
+  <section class="hero"><div><div class="kicker">SERIES GUIDE</div><h1>Seasons</h1><p class="tagline">2020 through 2026, treated like television because the cast, settings, callbacks, finales, and reunion special are already doing the work.</p></div></section>
+  <section class="section"><div class="season-grid">{seasons.map((season)=><a class="season-card" href={`/seasons/${season.year}`}><div class="season-year">{season.year}</div><div><h3>{season.title}</h3><p>{season.summary}</p></div></a>)}</div></section>
+</WikiLayout>
