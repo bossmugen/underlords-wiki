@@ -9,6 +9,7 @@ permissions:
   contents: read
   pages: write
   id-token: write
+  statuses: write
 
 concurrency:
   group: pages
@@ -48,3 +49,27 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+  report:
+    if: always()
+    runs-on: ubuntu-latest
+    needs: [build, deploy]
+    steps:
+      - name: Publish preview status
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BUILD_RESULT: ${{ needs.build.result }}
+          DEPLOY_RESULT: ${{ needs.deploy.result }}
+        run: |
+          if [ "$BUILD_RESULT" = "success" ] && [ "$DEPLOY_RESULT" = "success" ]; then
+            state=success
+            description="GitHub Pages preview deployed"
+          else
+            state=failure
+            description="Wiki preview build or deploy failed"
+          fi
+          gh api --method POST "repos/$GITHUB_REPOSITORY/statuses/$GITHUB_SHA" \
+            -f state="$state" \
+            -f context="wiki-preview" \
+            -f description="$description" \
+            -f target_url="https://bossmugen.github.io/underlords-wiki/"
