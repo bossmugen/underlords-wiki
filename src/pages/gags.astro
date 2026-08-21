@@ -1,0 +1,8 @@
+---
+import WikiLayout from "../layouts/WikiLayout.astro";
+import { gags } from "../data/wiki";
+---
+<WikiLayout title="Running Gags | Underlords Wiki" description="Recurring Underlords jokes, bits, and house grammar.">
+  <section class="hero"><div><div class="kicker">RUNNING GAGS</div><h1>Recurring bits</h1><p class="tagline">The joke repeats. Then it gets a room, a role, a bot, an event, a profile field, or six years of callback history.</p></div></section>
+  <section class="section"><div class="index-list">{gags.map((gag)=><article class="index-card" id={gag.id}><small>RECURRING BIT</small><h3>{gag.name}</h3><p>{gag.logline}</p></article>)}</div></section>
+</WikiLayout>
