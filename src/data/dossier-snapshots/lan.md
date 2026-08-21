@@ -4,7 +4,7 @@ aliases:
   - "LanWangJi"
 roles:
   - "Sniper"
-summary: "Current active Sniper, also known as LanWangJi. The roster placement is locked; the public archive does not yet have enough migrated direct scenes to pretend this is a finished character dossier."
+summary: "Lan, also known as LanWangJi, is a current active Sniper. His role and identity are locked, but the migrated archive does not yet contain enough direct Lan scenes to build a responsible life-in-UL timeline beyond that."
 summaryEvidence: "user-confirmed"
 publication: "public"
 claims:
@@ -24,12 +24,12 @@ tags:
   - "identity-boundary"
 ---
 
-## THE CORRECT BIO IS CURRENTLY THE SHORT ONE
+# Lan
 
-Lan is one of the cases where the archive's restraint is part of the answer. The living roster gives a clean identity bridge — **Lan / LanWangJi** — and a clean current placement: **active Sniper**.
+Lan, also known as **LanWangJi**, is a current active UL Sniper. That part of his biography is firm. What is not yet firm is the timeline around it: the migrated public archive does not contain enough direct Lan scenes to say when he became a Sniper, reconstruct a sequence of roles, or describe a personality without borrowing behavior from somebody else.
 
-What it does not yet give is a migrated sequence of direct scenes sturdy enough to build a personality out of. So there is no generic paragraph here about being observant because the role is called Sniper, no invented recruitment habits, and no borrowing somebody else's banter because the names happen to sit near each other in an export.
+For now, the responsible biography is short. Lan belongs in the living cast as an active Sniper, and future archive work can extend the story when direct Lan material appears.
 
-The identity fence matters especially hard around this name. **Lana is not Lan.** The separate 2020 visitor account **`lanbo` / Dan is not Lan.** Similar strings are exactly how archive sludge turns into fake canon if nobody slaps the researcher's hand away from the merge button.
+The identity boundaries are already important. **Lan is not Lana**, and he is not the separate September 2020 visitor account **`lanbo` / Dan**. Those are different people. Keeping that distinction intact matters more than filling the empty space with generic Sniper traits that happen to sound plausible.
 
-For now the dossier does the less glamorous job correctly: it keeps Lan in the cast, keeps the role accurate, and leaves the empty space empty until Lan-shaped evidence actually arrives.
+So Lan's page currently records a present fact rather than pretending to possess a past it has not recovered yet: **Lan / LanWangJi, active Sniper; fuller chronology still open.**
