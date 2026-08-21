@@ -1,0 +1,20 @@
+---
+import WikiLayout from "../../layouts/WikiLayout.astro";
+import { episodes, characters } from "../../data/wiki";
+export function getStaticPaths(){return episodes.map((episode)=>({params:{id:episode.id},props:{episode}}));}
+const { episode } = Astro.props;
+const cast = episode.cast.map((name)=>characters.find((character)=>character.name===name)).filter(Boolean);
+---
+<WikiLayout title={`${episode.title} | Underlords Wiki`} description={episode.logline}>
+  <div class="breadcrumbs"><a href="/episodes">Episodes</a> / {episode.title}</div>
+  <section class="hero"><div><div class="kicker">{episode.kind} · SEASON {Number(episode.season)-2019}</div><h1>{episode.title}</h1><p class="tagline">{episode.logline}</p></div></section>
+  <section class="section detail-layout">
+    <article class="detail-main">
+      <h2>Synopsis</h2><p>{episode.logline}</p>
+      <div class="wiki-note">This page is written from archive-confirmed or user-confirmed UL material. Detailed receipts, source IDs, and uncertainty notes belong in the Behind the Scenes layer instead of interrupting the synopsis.</div>
+      <h2 style="margin-top:4rem">Cast</h2>
+      <div class="wiki-grid">{cast.map((character:any)=><a class="poster-card" data-initial={character.name[0]} href={`/characters/${character.id}`}><small>{character.role}</small><strong>{character.name}</strong><span>{character.logline}</span></a>)}</div>
+    </article>
+    <aside class="infobox"><div class="infobox-title">{episode.title}</div><dl><div class="row"><dt>Season</dt><dd>{episode.season}</dd></div><div class="row"><dt>Date</dt><dd>{episode.date}</dd></div><div class="row"><dt>Type</dt><dd>{episode.kind}</dd></div><div class="row"><dt>Cast</dt><dd>{episode.cast.join(" · ")}</dd></div></dl></aside>
+  </section>
+</WikiLayout>
