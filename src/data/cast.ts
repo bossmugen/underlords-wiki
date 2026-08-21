@@ -1,0 +1,60 @@
+import { characters as seededCharacters, type Character } from "./wiki";
+
+const extraCharacters: Character[] = [
+  { id:"anayss", name:"Anayss", billing:"main", role:"Underboss · Battle Leader · Game Officer", era:"2020–present", logline:"Deputy, battle lead, and recurring practical authority: one of the people trusted with both game operations and the messier human version of keeping a room moving.", tags:["Underboss","Battle Leader","Game Officer"] },
+  { id:"kaede", name:"Kaede", aliases:["FuentesKaede"], billing:"recurring", role:"Sniper · On Call", era:"2020–present", logline:"One of UL's primary Snipers: recruiting-side cast whose job is less glamorous than the title and much more useful than it sounds.", tags:["Sniper","On Call"] },
+  { id:"feli", name:"Feli", billing:"recurring", role:"Sniper · On Call", era:"2020–present", logline:"On-call Sniper and long-running recruiting-side cast member.", tags:["Sniper","On Call"] },
+  { id:"lan", name:"Lan", aliases:["LanWangJi"], billing:"recurring", role:"Sniper · Active", era:"2020–present", logline:"Active Sniper whose file stays deliberately compact until more scene-level material is recovered.", tags:["Sniper","Active"] },
+  { id:"nemo", name:"Nemo", aliases:["Namo","cinnamoroll"], billing:"recurring", role:"Sniper · Active", era:"2020–present", logline:"Active Sniper with a long alias trail. One specific old Biodata artifact resolves its Deleted User to Nemo; generic deleted accounts do not.", tags:["Sniper","Active"] },
+  { id:"shiki", name:"Shiki", aliases:["Shk","yuki1794"], billing:"recurring", role:"Sensei", era:"2020–present", logline:"Specialist cast member filed under the wonderfully self-explanatory UL title Sensei.", tags:["Sensei"] },
+  { id:"ame", name:"Ame", aliases:["Amexistir"], billing:"recurring", role:"Game Officer", era:"2020–present", logline:"Game Officer: in-game authority kept distinct from the social command tree.", tags:["Game Officer"] },
+  { id:"chibiterasu", name:"Chibiterasu", aliases:["Chuutan","Chubi","Chuubi","Chibi"], billing:"recurring", role:"Game Officer · Parterre Gardener", era:"2022–present", logline:"Game Officer, gardener, and recurring returnee whose many nicknames all resolve to one person.", tags:["Game Officer","Parterre Gardener"] },
+  { id:"yelik", name:"Yelik", billing:"recurring", role:"Game Officer · Parterre Gardener", era:"2022–present", logline:"Game Officer and gardener whose archive life includes spending enough time in Mugen's garden to become a Wall joke.", tags:["Game Officer","Parterre Gardener"] },
+  { id:"noether", name:"Noether", billing:"recurring", role:"Game Officer", era:"2020–present", logline:"Game Officer and long-running game-side cast member.", tags:["Game Officer"] },
+  { id:"yassr", name:"Yassr", aliases:["Sniperwolfxx"], billing:"recurring", role:"Game Officer", era:"2020–present", logline:"Game Officer whose surviving scenes repeatedly put him near reminders, opportunities, and the machinery that gets people into the next thing.", tags:["Game Officer"] },
+  { id:"lilly", name:"Lilly", aliases:["Lilly👽"], billing:"recurring", role:"Staff", era:"2020–present", logline:"Staff and long-running house cast member.", tags:["Staff"] },
+  { id:"alkey", name:"Alkey", aliases:["itsalkey","Meowk 💖✨"], billing:"recurring", role:"Staff", era:"2020–present", logline:"Canadian Staff member and hockey-coach corner of the cast.", tags:["Staff"] },
+  { id:"ten", name:"Ten", billing:"recurring", role:"Staff", era:"2020–present", logline:"Staff and recurring UL cast member.", tags:["Staff"] },
+  { id:"ceen", name:"Ceen", aliases:["Cen","cen1129"], billing:"recurring", role:"Staff", era:"2021–present", logline:"Staff, Russian, and part of Han's wider friendship orbit.", tags:["Staff"] },
+  { id:"ghostt", name:"Ghostt", aliases:["ghostt.wicked","Ghøstt..","Ghosttシ"], billing:"recurring", role:"Staff", era:"2020–present", logline:"Staff with a persistent display-name trail across the later archive.", tags:["Staff"] },
+  { id:"tofu", name:"Tofu", aliases:["j_kirizami"], billing:"recurring", role:"Staff", era:"2020–present", logline:"Staff; not VIP despite older filing drift.", tags:["Staff"] },
+  { id:"rooks", name:"Rooks", aliases:["Rookie Cookie",".poogie.","Rookie Cookie uwu"], billing:"recurring", role:"Staff", era:"2020–present", logline:"Staff with enough account-name changes to require a proper identity file.", tags:["Staff"] },
+  { id:"nuien", name:"Nuien", aliases:["papi"], billing:"recurring", role:"Staff", era:"2020–present", logline:"Staff, distinct from Illien, and one of the people carrying the Mugen's Concubines house tag.", tags:["Staff","Mugen's Concubines"] },
+  { id:"scar", name:"Scar", billing:"recurring", role:"Platelet", era:"2020–present", logline:"Platelet: one of the under-18-era cast files whose designation remains permanent after aging up.", tags:["Platelet"] },
+  { id:"dyingfox", name:"Dyingfox", aliases:["DyingFox"], billing:"recurring", role:"Platelet", era:"2020–present", logline:"Platelet and recurring younger-generation cast member.", tags:["Platelet"] },
+  { id:"tae", name:"Tae", aliases:["Taehyung"], billing:"recurring", role:"Platelet", era:"2020–present", logline:"Platelet and younger-generation cast member.", tags:["Platelet"] },
+  { id:"syv", name:"Syv", aliases:["Syv the Adorable"], billing:"guest", role:"VIP · Amaurot", era:"2020–present", logline:"Amaurot-side VIP and extended-family guest cast.", tags:["VIP","Amaurot"] },
+  { id:"woosung", name:"Woosung", aliases:["Woo Woo"], billing:"guest", role:"VIP · Platelet · former ScarletMoon leader", era:"2020–present", logline:"Former ScarletMoon leader, VIP, permanent Platelet, and a relationship bridge into the wider S10 social world.", tags:["VIP","Platelet","ScarletMoon"] },
+  { id:"beowulf", name:"Beowulf", aliases:["JereGilgamesh","Jere"], billing:"guest", role:"VIP", era:"2020–present", logline:"VIP / extended cast member whose Jere aliases all belong to the same person.", tags:["VIP"] },
+  { id:"aeshleen", name:"Aeshleen", billing:"legacy", role:"Historical Staff", era:"2020–2022+", logline:"French archive-era Staff member, One Piece fan, and one of the people whose post-game continuity makes UL's 'forever family' language visible.", tags:["Historical Staff","Archive cast"] },
+  { id:"panda", name:"Panda", aliases:["PanPan"], billing:"legacy", role:"Historical Staff", era:"2020–2023+", logline:"Archive-era Staff member with a recurring edgelord register; not silently promoted into the current Staff shelf.", tags:["Historical Staff","Archive cast"] },
+  { id:"rose", name:"Rose", aliases:["DarkAsrai"], billing:"legacy", role:"Historical Staff", era:"2020–", logline:"Archive-era Staff identity preserved as historical cast rather than silently treated as current roster.", tags:["Historical Staff","Archive cast"] },
+];
+
+const byId = new Map(seededCharacters.map((character) => [character.id, character]));
+for (const character of extraCharacters) if (!byId.has(character.id)) byId.set(character.id, character);
+
+export const allCharacters = [...byId.values()];
+
+export type CastGroup = {
+  id: string;
+  label: string;
+  note: string;
+  characterIds: string[];
+};
+
+export const castGroups: CastGroup[] = [
+  { id:"leader", label:"Leader", note:"One Boss. Founder. The show starts here.", characterIds:["mugen"] },
+  { id:"officers", label:"Officers", note:"Current command cast. Social authority and actual moderation responsibility.", characterIds:["gabu","anayss","ansun","wolfphenix","sye","ren","gilli","oyasumi","snow","anthos","daya"] },
+  { id:"retired-officers", label:"Retired Officers", note:"Former full Officers. Retirement does not delete the history.", characterIds:["hyaluna","ritha","suzimasu","yumi","illien","key","nelph","kiro"] },
+  { id:"snipers", label:"Snipers", note:"Applicant grabbers / recruitment-side cast. Five primary files in the current roster snapshot.", characterIds:["kaede","feli","lan","nemo","rummy"] },
+  { id:"directors", label:"Directors / Specialists", note:"Formal specialist jobs get their own shelf instead of being flattened into Staff.", characterIds:["shiki","han","mia","nobu","moon"] },
+  { id:"game-officers", label:"Game Officers", note:"In-game authority is its own lane. It is not the same thing as social command.", characterIds:["ame","chibiterasu","yelik","noether","yassr"] },
+  { id:"staff", label:"Staff", note:"Current Staff files not already displayed under a more specific primary job.", characterIds:["hishiro","gengrey","lilly","momo","nhou","cookie","alkey","zepp","ten","ceen","ghostt","tofu","rooks","nuien"] },
+  { id:"platelets", label:"Platelets", note:"The under-18 designation. Once assigned, it stays part of the character file.", characterIds:["scar","dyingfox","ryo","dean","tae","zoshaa","candy","cele"] },
+  { id:"vip", label:"VIP", note:"Non-UL visitors / guests with limited access. Not a prestige rank and not adult-only.", characterIds:["zyrcant","rich","woohyuk","syv","woosung","beowulf"] },
+  { id:"archive-cast", label:"Archive / Extended Cast", note:"People with real story presence who are not being presented as members of the current living roster.", characterIds:["new","aeshleen","panda","rose"] },
+];
+
+export const characterById = new Map(allCharacters.map((character) => [character.id, character]));
+export const primaryGroupByCharacterId = new Map(castGroups.flatMap((group) => group.characterIds.map((id) => [id, group] as const)));
