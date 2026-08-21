@@ -7,7 +7,7 @@ roles:
   - "Pit Boss"
   - "Recruiter"
 eraStart: 2020
-summary: "Correctly identifies Kiro; Kiro asks who Kiro is. At the front door, pending permissions become a routing problem: map, Biodata, rules, main chat, keep moving. Also sentenced communal doodles to Raja marketing."
+summary: "Daya's clean archive progression begins with her 2022 Officer promotion, then shows how she performed front-door work: keep newcomers moving, explain what is pending, put real life ahead of the game, and make safety practical. By 2023 she is fully inside the house's creative and Wall nonsense too."
 summaryEvidence: "archive-confirmed"
 publication: "public"
 claims:
@@ -105,30 +105,26 @@ tags:
   - "real-life-first"
 ---
 
-Daya does not need another page where `Pit Boss` impersonates a personality. The better file is the one where Gilli keeps feeding her Spotify, a communal doodle gets sentenced to official Raja advertising, and basic Kiro identity control collapses in under thirty seconds.
+# Daya
 
-Then Slice catches somebody trying to submit a college timetable to the Dragon Raja scheduling department and Daya shuts the whole premise down: **`prioritize school, real life always first`**. The game may have a calendar. It does not get custody.
+Daya is a current Pit Boss and holds the Recruiter appointment. Unlike many UL role histories, her Officer promotion has a clean surviving date: Mugen announced her as the newest Underlords Officer on May 14, 2022. The useful biography begins immediately after that, because the archive shows what the responsibility looked like when somebody actually had to do it.
 
-## THE FRONT DOOR DOES NOT GET TO BECOME A WAITING ROOM
+## 2022 — PROMOTION, THEN THE FRONT DOOR
 
-August 18, 2022. A newcomer is standing in Lobby while the role step is still unfinished. Daya does not make them stare at the velvet rope until the permissions gods finish lunch. She immediately hands over the useful geography:
+A month after the promotion, Slice catches Daya answering a member who is trying to bend college around Dragon Raja dailies. Her response is simple: **`dont stress. prioritize school, real life always first`**. It is not a policy authorship claim. It is a good early marker for how she tends to handle systems: the system exists, but the person is allowed to come first.
 
-> `Hi!! Server map is #🎫｜ul-discord-tour We do our intros here #👠｜biodata and main chat #🥃💬｜whiskey-room !`
+That same instinct becomes visible in Lobby by August. When a newcomer's role assignment is still pending, Daya does not make them wait uselessly. She sends the server map, Biodata, and Whiskey Room immediately, explains what still needs to happen, and tells them another officer will finish the remaining role step. Six days later Fang gets the same treatment: wait a minute for roles, but use the minute to read the rules, find the map, and introduce yourself. Later that month Daya is also posting **`role assigned!`** herself.
 
-Forty-four seconds later she explains the remaining handoff plainly: another officer will finish the role assignment after the newcomer provides IGN and age, **`but then youll be set`**.
+The progression matters more than any single onboarding quote. Daya separates **what is blocked** from **what can still move**. The newcomer should know where they are, what comes next, and whether somebody is actually handling the unfinished part.
 
-That last clause matters. It closes the uncertainty instead of leaving the person in procedural fog. Daya separates **what can happen now** from **what still needs another hand**, then keeps the newcomer moving through the house anyway.
+By November, her welcome routine has expanded into a safety brief. She repeatedly explains the Platelet/minor color cue, asks people to use caution, directs controversial or sensitive issues away from public escalation, and then gives the same practical map through Biodata, the server index, and Whiskey. The rules are shared house rules, not all authored by Daya. Her character evidence is in the delivery: make the boundary legible before the newest person can accidentally step over it.
 
-Six days later, same reflex. Fang arrives. Daya says **`give us a little minute to assign roles`** and then, instead of turning that minute into dead air:
+## 2023 — THE OFFICER IS ALSO FULLY INSIDE THE CIRCUS
 
-> `in the mean time, server map is #🎫｜ul-discord-tour , feel free to post an intro here #👠｜biodata , and vieew #📏｜club-rules before proceding`
+The next year stops looking like a front-desk manual. Daya is trying to turn communal doodle projects into official Dragon Raja posters, including the banana sequel, while the Wall is doing what the Wall does to everybody who survives long enough.
 
-The typos are doing zero damage to the information architecture. Map. Introduction. Rules. Next step. The newcomer is waiting, but not stranded.
+On April 2 she correctly identifies HicUUOOOOGH as Kiro. Kiro answers **`Who's kiro`**. Daya, faced with a filing system that has become actively hostile, says she cannot keep track anymore. Ten days later Kiro posts a Daya exhibit captioned **`Daya showering in the holy divine light of raja:`** and Daya joins the wheeze reactions.
 
-August 27: same routing package again. Later that day Daya posts **`role assigned!`** herself for another arrival. August 31: map, Biodata, rules, again. Across multiple dates, `Recruiter` stops being a title in a Case File and becomes visible labor: **reduce confusion, name the next room, say what is pending, finish or hand off the part that is not.**
+That shift is useful. The 2022 archive shows Daya becoming somebody who can move newcomers through the house. The 2023 archive shows that she is not standing outside the culture administering it. She is inside the same joke economy, poster nonsense, and identity confusion as everybody else.
 
-By November, the packet has acquired a safety layer. On the 9th, 20th, and 22nd, Daya repeatedly tells arrivals that light-pink names are minors/Platelets and interactions need due caution; controversial or sensitive topics stay out; problems go to DMs; then she hands over Biodata, the server index, and Whiskey Room. She does not just tell people where the rooms are. She tells them what kind of house they have entered and where the live wires are.
-
-There is a quiet consistency with the Slice advice here. Daya's useful instinct is not to make systems feel more important than the person caught inside them. College beats dailies. A pending role does not mean a newcomer has to sit uselessly at the door. A rule list is not decoration if it prevents the newest person from stepping on somebody else. Bureaucracy may exist; bureaucracy does not get to become weather.
-
-The promotion date still matters because it is unusually clean archive chronology. It lives in the source notes now instead of trying to carry the whole character by itself.
+The Recruiter title is therefore only the cleanest label for one part of the story. The fuller progression is promotion → practical onboarding → safety maintenance → established house person who can both operate the door and get dragged into Screenshot Jail with the rest of the clowns.
