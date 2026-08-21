@@ -1,0 +1,25 @@
+---
+import WikiLayout from "../../layouts/WikiLayout.astro";
+import { characters } from "../../data/wiki";
+const groups = [
+  ["main","Main cast"],
+  ["recurring","Recurring cast"],
+  ["legacy","Founding / legacy cast"],
+  ["guest","Guests / adjacent cast"],
+] as const;
+---
+<WikiLayout title="Characters | Underlords Wiki" description="The Underlords cast and character files.">
+  <section class="hero"><div><div class="kicker">CAST</div><h1>Characters</h1><p class="tagline">Aliases, jobs, relationships, recurring bits, first-era context, and why this person keeps turning up in the story.</p></div></section>
+  {groups.map(([key,label]) => (
+    <section class="section">
+      <div class="section-head"><h2>{label}</h2><p>{characters.filter(c=>c.billing===key).length} character files</p></div>
+      <div class="wiki-grid">
+        {characters.filter(c=>c.billing===key).map((character) => (
+          <a class="poster-card" data-initial={character.name[0]} href={`/characters/${character.id}`}>
+            <small>{character.role}</small><strong>{character.name}</strong><span>{character.logline}</span>
+          </a>
+        ))}
+      </div>
+    </section>
+  ))}
+</WikiLayout>
