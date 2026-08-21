@@ -13,7 +13,7 @@ roles:
   - "Game Officer"
 eraStart: 2020
 
-summary: "Writes the boundary, fixes the door, complains about whippersnappers."
+summary: "Snow's archive progression begins with early technical fixes and privacy-minded room design, moves into the August 2020 JAG / Club Conduct drafts where he formalizes limits on access and power, then shows him handing systems sideways when he no longer remembers them. Running through the serious work is the old-man bit the room eventually gets him to perform back."
 
 summaryEvidence: "inferred"
 publication: "review"
@@ -113,16 +113,38 @@ tags:
   - "institutional-history"
 ---
 
-## THE RULE KEEPS POINTING AT ACCESS
+# Snow
 
-Slice, Lobby, JAG: different rooms, same recurring problem. Who gets to see you, know things about you, DM you, punish you, or lock you out? Snow keeps putting a line around the answer. The useful part is not **Snow likes rules**. It is how often the rule limits the person who already has access or power.
+Snow is a current Pit Boss / Minister, holds the Judgemen appointment, and is also a Game Officer. One correction stays explicit: he was **not** Mugen's formal second-in-command; the current Underboss seats belong to Gabu and Anayss. His archive is strongest when it stops trying to rank him and instead follows the kind of problems he repeatedly chose to solve.
 
-That makes the security-guy caricature incomplete. His guardrails are often there to make participation possible without making access compulsory. Then, when the machine itself becomes the problem, he is perfectly willing to say he forgot how it works and hand the screwdriver to Gabu. Competence without the little ceremony of pretending to be infallible.
+## APRIL 2020 — FIX THE DOOR, THEN EXPLAIN WHY PEOPLE SHOULD FEEL SAFE USING THE ROOM
 
-## THE OLD-MAN CASE IS COMMUNITY PROPERTY
+On April 7, Mugen reports that she can no longer assign member roles. Snow says he will investigate while blaming **`discord gnomes`** and proposing the technical toolkit of a wrench, burlap bag, and duct tape. Mugen later thanks him for fixing the problem.
 
-September 2020 gives the first direct named formulation currently surfaced: Ansun proposes that everybody wish **`our beloved old man Snow`** a **`happy 50th birthday`** when the birthday comes. Shiki answers three minutes later: **`I thought snow was 26`**. The archive is not confused. The room is already treating age as an allegation.
+Six days later, when Slice opens, Snow defines the room as somewhere members can share pictures, keep each other updated, and **`get to know each other outside of game`**. In the same opening sequence he warns people not to expose location or personal information and makes photo sharing explicitly optional: **`only if you want`**, **`we dont pressure here`**.
 
-The bit then leaves Club Only. In October Gabu tags Snow on the Wall with **`Ik how you feel now old man`**; Sye later objects that **`Snow doesn't sound like an old man`**. By 2022 the defendant is helping write the prosecution himself: get-off-my-lawn material, whippersnappers from 1700, Methuselah.
+Those scenes belong together chronologically. Snow's early contribution is not simply "technical guy" or "rules guy." He is helping make access work and then helping define the limits around access once people start using it.
 
-By then `Snow is old` was not merely something said about him. It was a house bit he could perform back at the room. Much more useful than listing his actual age, and considerably harder to appeal.
+## AUGUST 2020 — THE INFORMAL GUARDRAILS BECOME A FORMAL DRAFT
+
+By August, Snow is drafting the JAG / Club Conduct framework. The notorious 24 **Yeeting charges** borrow formal military-law structure while Snow simultaneously says UL is **`in no way a military organization`**.
+
+Under the joke formatting, the draft repeatedly limits what people with access or power can do. Real life takes priority. New players should be treated kindly. Hate speech is bannable. Personal identifying information should be protected. Charge 15 addresses private-area viewing or recording without consent and obscene material sent through DMs without consent. Other charges address Officer abuse of special trust, retaliation against reporters, interference, obstruction, and destruction or concealment of chat records.
+
+The draft was under construction and not every clause is treated as final prosecuted law. The biographical progression is still clear: April's room-level privacy instincts have become an attempt to write boundaries into the institution itself.
+
+## 2021 — COMPETENCE INCLUDES KNOWING WHEN YOU NO LONGER REMEMBER THE SYSTEM
+
+In January 2021, Saber needs attention. Snow says he no longer remembers how to fix it and asks Gabu if she wants to try. Gabu says she can work through it one item at a time.
+
+That handoff is a useful correction to the mythology competence can create around technical people. Snow is willing to say **I don't remember** and move the work toward somebody who can continue it. The system matters more than maintaining the performance of infallibility.
+
+## 2020–2022 — WHILE ALL THIS IS HAPPENING, THE ROOM IS PROSECUTING HIM FOR AGE
+
+The serious governance work runs parallel to one of UL's dumbest durable bits. In September 2020, Ansun calls him **`our beloved old man Snow`** and proposes a **`happy 50th birthday`**. Shiki answers **`I thought snow was 26`**. Gabu later calls him old man; Sye disputes the charge.
+
+By 2022 Snow is participating in the prosecution himself: get-off-my-lawn material, **`Whipper snapper origin 1700`**, Methuselah. The room has successfully converted an allegation about him into a register he can perform back.
+
+Snow is user-confirmed as older than much of the core group, Cantonese, formerly U.S. Air Force, and a cybersecurity professional working with hospital electronic medical record systems. Those real-world facts help explain why technical/privacy topics recur, but they do not get to swallow the biography.
+
+The longer UL progression is more specific: early fixer → room-boundary setter → conduct-framework drafter → collaborator willing to hand systems sideways → senior member whose own age becomes community property. The Pit Boss / Judgemen titles name present roles. The timeline shows the person who made those roles feel plausible without falsely crowning him #2.
