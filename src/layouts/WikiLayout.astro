@@ -1,0 +1,35 @@
+---
+import "../styles/global.css";
+const { title = "Underlords Wiki", description = "Underlords character and story wiki." } = Astro.props;
+const path = Astro.url.pathname;
+const nav = [
+  ["Characters","/characters"],
+  ["Seasons","/seasons"],
+  ["Episodes","/episodes"],
+  ["Relationships","/relationships"],
+  ["Locations","/locations"],
+  ["Running Gags","/gags"],
+  ["Quotes","/quotes"],
+  ["Gallery","/gallery"],
+  ["Archive","/archive"],
+];
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content={description} />
+    <title>{title}</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/"><b>UL</b> UNDERLORDS WIKI</a>
+      <nav class="site-nav" aria-label="Main navigation">
+        {nav.map(([label, href]) => <a href={href} aria-current={path.startsWith(href) ? "page" : undefined}>{label}</a>)}
+      </nav>
+    </header>
+    <main class="page"><slot /></main>
+    <footer class="page footer">UNDERLORDS · est. 2020 · archive-backed fan/wiki presentation</footer>
+  </body>
+</html>
