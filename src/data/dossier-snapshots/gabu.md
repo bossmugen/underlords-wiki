@@ -7,7 +7,7 @@ pronouns: "she/her"
 roles:
   - "Underboss"
   - "Officer"
-summary: "Underboss, coder, taiko dancer, hydration enforcer, and recurring human answer key. QOTD adds the long arc underneath the sunshine: Gabu entered shy and language-conscious, became easier with the room over time, got socially fused with Bulbasaur, and still gets remembered as the person everybody followed because she actually knew the answers."
+summary: "Gabu's own retrospective starts with shyness and an English-language barrier, then opens outward into the room: early friendships, hydration and Bulbasaur shorthand, technical work, protective care, and eventually a remembered reputation as the person everybody followed because she knew the answer."
 summaryEvidence: "user-confirmed"
 publication: "public"
 claims:
@@ -106,56 +106,38 @@ tags:
   - "care"
 ---
 
-## THE COMMAND RANK IS THE BORING PART OF THE INTRODUCTION
+# Gabu
 
-Gabu is one of UL's current Underbosses / Deputies. The archive and Mugs-confirmed background also give her a much less tidy character file: Brazilian, ethnically Japanese, a taiko dancer, a coding professional, and the stable QOTD account behind **`Drink water reminder`**.
+Gabu is now one of UL's two Underbosses. She is Brazilian, ethnically Japanese, does taiko, and works in coding / technology. None of those facts need to be reverse-engineered into a personality. Her own archive gives a better progression: she remembers entering the group shy and language-conscious, then gradually becoming comfortable enough to be unmistakably herself inside it.
 
-The site should keep those facts in the sane part of the introduction before it gets to the Bulbasaur.
+## 2022 — GABU EXPLAINS HOW SHE CHANGED
 
-## SHE DID NOT ARRIVE AS THE SUNSHINE VERSION EVERYBODY REMEMBERS
+In February 2022, Gabu looks backward at joining UL and says English had been a barrier for her. Anthos encouraged her, and Souta was one of the first people she talked to while both were newer. Gabu describes the change in her own vocabulary: she started shy and later became more **`dumdum`**.
 
-February 12, 2022 gives Gabu's own account of entry. English felt like a barrier. Anthos encouraged her about it. Souta was one of the first people she talked to while both were newer. Gabu says she began shy and later became more **`dumdum`**.
+That is the safest foundation for the bio because it is not somebody else assigning her an arc. Gabu is telling us that familiarity changed how much of herself she let the room see.
 
-Peers describe the same movement from the other side: early shy/introverted impressions later become confidence and **absolute sunshine** language.
+The same year, QOTD starts filling in the social shorthand that follows her once that comfort exists. Her account is displayed as **`Drink water reminder`**. A love-language quiz gives Quality Time as her strongest result. She mentions a Bulbasaur plush; then the room keeps handing Bulbasaur back to her until it becomes a shared association rather than one private preference. Souta says she is **`most likely a Bulbasaur nuff said`**. Gilli eventually compresses the entire case into **`Gabu is bulbasaur`**.
 
-The important change is not a personality transplant. It is inhibition coming off as the room becomes familiar.
+None of that is a formal title. It is what happens when a person becomes familiar enough for the room to build shorthand around her.
 
-## BULBASAUR HAS ESCAPED PRIVATE PREFERENCE
+## 2023 — THE SHY VERSION IS STILL THERE, BUT IT IS NO LONGER THE WHOLE FILE
 
-Gabu says her only stuffed animal is her Bulbasaur plush.
+In 2023, Gabu's own Mafia self-mythology still describes a quiet/shy werewolf. The protective line underneath it is much louder: **`hurt my family and imma eat you alive`**. The werewolf is fiction; the attachment is not appearing from nowhere. Elsewhere Woosung describes Gabu as somebody who validates feelings, gives advice, and makes people comfortable.
 
-Then Souta, independently:
+The same year she chooses Pokémon as a world she would want to inhabit and, naturally, wants the biggest Bulbasaur. By this point the motif is reciprocal: Gabu uses it, peers use it, and everybody understands the reference without needing a biography card attached.
 
-> `most likely a Bulbasaur nuff said`
+This is also where the hydration joke makes more sense as character texture. `Drink water reminder` is not merely a funny nickname floating above an account. It sits beside repeated archive evidence of care being expressed in tiny practical forms: notice the person, remind them to eat or drink, make the room easier to be in.
 
-Then Gilli:
+## 2024 — THE TECH CAREER GETS A BEFORE-PHOTO
 
-> `Gabu is bulbasaur`
+In October 2024, Gilli imagines Gabu working with sea animals. Gabu says she would have liked that and adds that she had wanted to go into the **`sea animal area`** before becoming a **`tech nerd`**.
 
-Then Gabu herself chooses Pokémon as the game world she wants and specifies the **biggest Bulbasaur**.
+The coding career is separately confirmed. The marine-animal path stays as broad as she stated it: an earlier interest, not an invented degree or abandoned profession. It adds a useful piece of continuity to the person rather than trying to explain the Underboss role.
 
-That is enough recurrence to stop calling it one merchandise choice. Bulbasaur has become peer-recognized shorthand for Gabu. The plant frog now has social standing.
+## 2026 — THE GROUP REMEMBERS WHAT IT USED HER FOR
 
-## TECH NERD WITH A MARINE DETOUR
+During the 2026 favorite-memory QOTD, Oyasumi remembers Gabu as the person **`who knows all the answers`**. Mugen says they did the activity every day for years and still never learned the answers themselves because everybody simply followed Gabu. The next morning Gabu appears and says she had been very proud of her memory back then.
 
-October 2024 asks people to imagine jobs for one another. Gilli puts Gabu with sea animals. Gabu immediately says she would do it—and that she had wanted to go into the **`sea animal area`** before becoming a **`tech nerd`**.
+That late recollection completes a much better arc than "coder becomes leader." Gabu remembers arriving unsure of her English and shy around the room. Years later the room remembers outsourcing certainty to her.
 
-The user-confirmed coding career makes the second half independently secure. The first half should stay exactly as broad as Gabu gives it: a real earlier interest in marine-animal work, not an invented degree or abandoned job title.
-
-## THE GROUP REMEMBERS FOLLOWING HER INSTEAD OF LEARNING THE ANSWER
-
-August 2026, Mugen asks for favorite UL memories. Oyasumi remembers a repeated activity and immediately annotates Gabu as the person **`who knows all the answers`**. Mugen says they did the thing every day for years and still could not remember the right answer because everybody simply followed Gabu.
-
-The next morning Gabu arrives and says she had been very proud of her memory then.
-
-That exchange gives her a different kind of competence than “coder” or “Officer.” In the group's own retrospective, Gabu was the person whose memory became infrastructure. Everyone else outsourced knowing things to one woman and apparently considered this an acceptable long-term system.
-
-## CARE, BUT USUALLY WITH SOMETHING STUPID ATTACHED
-
-QOTD gives Gabu Quality Time as her strongest love-language result. Woosung later describes her as someone who validates feelings, gives good advice, and makes people comfortable. The native hydration genealogy keeps her tied to the recurring `drink water` care ritual.
-
-Then Mafia AU gives the same attachment a less polite wrapper:
-
-> `hurt my family and imma eat you alive`
-
-The werewolf is fiction. The protective orientation is not appearing from nowhere.
+Her current Underboss seat is locked canon, but the archive does not date the appointment from old role arrays. What it does show is the person becoming progressively easier for UL to rely on: first socially, then as part of the house's care language and technical life, and eventually in memory as the woman everyone followed because she already knew where the answer was.
