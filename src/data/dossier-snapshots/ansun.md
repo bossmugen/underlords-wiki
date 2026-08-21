@@ -9,7 +9,7 @@ pronouns: "he/him"
 roles:
   - "Caporegime"
 eraStart: 2020
-summary: "Will cover your poster shift because you are stuck in a snowstorm. Creative department emotional-support labor, apparently."
+summary: "Ansun's archive moves from early-UL familiarity into creative work, practical coverage for other members, program explanation, front-door onboarding, and an increasingly self-aware Wall persona. Current Caporegime status is locked separately from that chronology."
 summaryEvidence: "inferred"
 publication: "public"
 claims:
@@ -121,10 +121,32 @@ tags:
   - "wall"
 ---
 
-## THE HALLWAY HAS SIGNS
+# Ansun
 
-Ansun's onboarding file already has him handing people the house map: Tour, Whiskey, Biodata, FAQ, whatever door the current confused civilian actually needs. Slice catches the same reflex after everyone is already inside.
+Ansun is a current Caporegime. The surviving archive does not supply a trustworthy appointment date, but it does give a useful progression: early social familiarity, then visible creative work, then increasingly routine responsibility for explaining and routing parts of the house.
 
-On October 20, 2022, side chatter starts leaking out of the birthday thread. Souta sends that traffic toward Whiskey Room — then makes the exception explicit: **`Let the birthday wishes stay in here`.**
+## 2020 — ALREADY PART OF THE ROOM'S SHORTHAND
 
-That is a very specific kind of order. Not `stop having fun`; more like **wrong room, bb — except the birthday, the birthday has diplomatic immunity.** The recurring crime is not rule worship. It is knowing where the circus put the doors.
+By September 2020, Ansun is already recognizable enough that Ren is praising his speaking voice and the room is building the long-running Ansun/Anthos twin bit around him. That joke should stay a joke, but it establishes something important about the starting point: the archive does not meet Ansun as a stranger being explained to everybody else. It meets him as somebody the room already has language for.
+
+## 2021 — CREATIVE WORK BECOMES PRACTICAL CARE
+
+In February 2021, Gilli is stuck in a snowstorm without Wi-Fi and Ansun simply says he will upload her share of the posters. Later that year Photo Submissions explicitly credits example photos to him, and the Club Media Gallery catches him explaining that his work was made with Canva Free, that other members did not need Pro to do similar work, and that people could save or use his pieces personally as long as they did not pass them off as their own professional work.
+
+The through-line is less glamorous than "creative lead" and more useful. Ansun makes things, explains how he made them, covers another person's share when real life knocks them offline, and sets a clear boundary around attribution without turning it into theater.
+
+He also keeps puncturing UL's own self-mythology. One polished banner becomes **`Good looking but brain empty HAHAHA`**; another is praised as more representative because, in his words, the cooler versions are a sham and **`we aren’t that cool`**. The creator is participating in the brand while refusing to believe the brand's press release.
+
+## 2022 — HE STARTS EXPLAINING HOW TO USE THE HOUSE
+
+By 2022, Ansun is increasingly visible on the procedural side. He clarifies that Officers Challenge is open to anyone, explains that different Officers host different challenges, announces Sye's challenge, and keeps reminding people that the pinned challenges stay available. In Lobby he repeatedly routes newcomers through the Tour, Whiskey, FAQ, Biodata, role assignment, and later the shared safety packet.
+
+Slice shows the same instinct at smaller scale. When side chatter starts swallowing a birthday thread, he sends the general conversation toward Whiskey but preserves the actual birthday wishes: **`Let the birthday wishes stay in here`**. The point is not rule worship. It is knowing what each room is for and moving the traffic without deleting the reason people were there.
+
+## 2023 — THE PERSON WHO EXPLAINS THE ROOMS ALSO BECOMES ONE OF THEIR BITS
+
+By spring 2023, Ansun's Wall persona is fully self-aware. Instead of merely being shamed, he repeatedly claims the **fame** half for himself: **`no shame all fame`**, **`this is MY wall`**, and the argument that everybody else provides the shame while he provides the celebrity.
+
+The room laughs because it already knows the file. Ansun has spent years contributing visual material, helping people find things, explaining programs, and correcting traffic. Now he is also perfectly willing to market himself as the reason the Wall has prestige.
+
+The current Caporegime title remains locked roster canon rather than something backdated from these scenes. The biography underneath it is clearer: Ansun grows from an early familiar voice into one of UL's reliable makers and explainers, while remaining enough of a clown to insist that the municipal evidence board is actually his fan page.
