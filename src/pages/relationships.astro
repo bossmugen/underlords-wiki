@@ -1,0 +1,9 @@
+---
+import WikiLayout from "../layouts/WikiLayout.astro";
+import { relationshipGroups, characters } from "../data/wiki";
+const byName = (name:string) => characters.find((c)=>c.name===name);
+---
+<WikiLayout title="Relationships | Underlords Wiki" description="Grounded Underlords relationship groups and social connections.">
+  <section class="hero"><div><div class="kicker">RELATIONSHIP GUIDE</div><h1>Relationships</h1><p class="tagline">Not a closeness ranking. Not a shipping chart. The relationships that actually have enough history to matter to the story.</p></div></section>
+  {relationshipGroups.map((group)=><section class="section"><div class="section-head"><h2>{group.title}</h2><p>{group.note}</p></div><div class="wiki-grid">{group.people.map((name)=>{const c=byName(name); return c ? <a class="poster-card" data-initial={c.name[0]} href={`/characters/${c.id}`}><small>{c.role}</small><strong>{c.name}</strong><span>{c.logline}</span></a> : <div class="poster-card" data-initial={name[0]}><strong>{name}</strong></div>})}</div></section>)}
+</WikiLayout>
