@@ -204,7 +204,7 @@ const evidenceLabel = (value?: string) => value ? value.replaceAll("-", " ").toU
         <div class="row"><dt>Primary shelf</dt><dd>{primaryGroup?.label ?? "Archive / Extended Cast"}</dd></div>
         <div class="row"><dt>Role</dt><dd>{character.role}</dd></div>
         <div class="row"><dt>Era</dt><dd>{character.era}</dd></div>
-        {character.aliases?.length ? <div class="row"><dt>Aliases</dt><dd>{character.aliases.join(" · ")}</div> : null}
+        {character.aliases?.length ? <div class="row"><dt>Aliases</dt><dd>{character.aliases.join(" · ")}</dd></div> : null}
         {character.tags?.length ? <div class="row"><dt>Tags</dt><dd><div class="chip-row">{character.tags.map((tag) => <span class="chip">{tag}</span>)}</div></dd></div> : null}
       </dl>
       {bio.roleNotes?.length ? (
