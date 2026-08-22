@@ -5,6 +5,7 @@ import "../../styles/dossiers.css";
 import { episodes } from "../../data/wiki";
 import { allCharacters, primaryGroupByCharacterId } from "../../data/cast";
 import { getCharacterBio } from "../../data/character-bios";
+import { officerCharacterBios } from "../../data/character-bios-officers";
 import { extendedCharacterBios } from "../../data/character-bios-extended";
 import { gameOfficerCharacterBios } from "../../data/character-bios-game-officers";
 import { vipCharacterBios } from "../../data/character-bios-vip";
@@ -27,7 +28,7 @@ export function getStaticPaths() {
 }
 
 const { character } = Astro.props;
-const bio = (gameOfficerCharacterBios as Record<string, any>)[character.id] ?? (vipCharacterBios as Record<string, any>)[character.id] ?? (archiveCharacterBios as Record<string, any>)[character.id] ?? (extendedCharacterBios as Record<string, any>)[character.id] ?? getCharacterBio(character);
+const bio = (officerCharacterBios as Record<string, any>)[character.id] ?? (gameOfficerCharacterBios as Record<string, any>)[character.id] ?? (vipCharacterBios as Record<string, any>)[character.id] ?? (archiveCharacterBios as Record<string, any>)[character.id] ?? (extendedCharacterBios as Record<string, any>)[character.id] ?? getCharacterBio(character);
 const dossiers = dossierData as Record<string, Dossier>;
 const dossier = dossiers[character.id];
 const canonNotes = [...new Set([...(bio.canonNotes ?? []), ...(dossier?.antiFanon ?? [])])];
