@@ -5,7 +5,7 @@ aliases:
   - "sniperr_wolfxx"
 roles:
   - "Game Officer"
-summary: "Yassr is a current Game Officer whose clean late-game archive behavior is extremely practical: he notices that Conquest, Demo Club, or Scourge is becoming actionable and tells the room before the opportunity passes. When Sye points out that Saber already automates one reminder job, Yassr does not defend the turf; he says thank you and keeps helping elsewhere."
+summary: "Yassr is a current Game Officer whose clean late-game archive behavior is extremely practical: he notices that Conquest, Demo Club, or Scourge is becoming actionable and tells the room before the opportunity passes. When Sye points out that Saber already automates one reminder job, Yassr says thank you and keeps helping elsewhere."
 summaryEvidence: "archive-confirmed + canon-lock"
 publication: "public"
 claims:
@@ -54,50 +54,16 @@ tags:
 
 # Yassr
 
-Yassr is a current **Game Officer**. The archive also carries the **Sniperwolfxx** name trail, but the word `Sniper` living inside a username does not get to reorganize the roster by itself. Current corrected canon keeps Yassr on the Game Officer shelf.
+Yassr is a current **Game Officer**. The archive also carries the **Sniperwolfxx / sniperr_wolfxx** name trail, but the word `Sniper` living inside a username does not get to reorganize the roster by itself. The clean stable-account material currently comes late, in 2024, so the biography starts there without pretending that late evidence is the beginning of Yassr's UL history.
 
-The strongest clean character material currently comes late, in 2024, when Yassr repeatedly behaves like somebody standing next to the game's alarm clock and yelling before it goes off.
+On October 22, the `sniperr_wolfxx` account posts **`Conquest in 25 minutes!! @Staff`**. The next morning comes **`Demo club in 1 hour! @Staff`**. These are tiny messages with short shelf lives: the value is not in sounding authoritative but in getting people the information while it can still be acted on.
 
-## October 2024 — manual event radar
+The second reminder produces the most useful interaction in the file. Sye thanks **Yassr** by name, which helps lock the late account bridge, then explains that Saber already auto-notifies Staff in Announcements ten minutes before events. Yassr therefore does not need to keep manually pinging everyone for that part of the job. Yassr answers **`Thank you!`** and the room moves on.
 
-On October 22, the late stable account `sniperr_wolfxx` posts:
+The exchange does not justify a sweeping adjective like humble, obedient, or automation-loving. What it safely shows is narrower: in that moment, the goal is getting the reminder delivered, not defending personal ownership of the reminder lane. Somebody points out that the house already has machinery for it; Yassr accepts the information without turning workflow coordination into a turf war.
 
-> `Conquest in 25 minutes!! @Staff`
+A month later the same account is back with a notice Saber cannot reduce to a normal countdown: **`you can now do scourge project as a 5 man team!! Take advantage of it!! And kick some butt!`**. Something in the game has become newly usable, and Yassr immediately translates the change into the part the room needs — this is available now, go use it.
 
-The next morning:
+That recurrence is enough to give the late-period file a real shape. Conquest is approaching. Demo Club is approaching. Scourge has changed. Yassr notices that information has become actionable and pushes it toward the group before the opportunity passes. The current Game Officer title fits the behavior, but the biography does not backdate the appointment from three notices or invent a Party Director job because the messages involve events.
 
-> `Demo club in 1 hour! @Staff`
-
-These are not speeches and they are not glamorous. They are useful. The information has a shelf life, so Yassr pushes it toward the people who can act on it before the clock wins.
-
-Then Sye answers the second notice with the most revealing tiny workflow scene in the file. She thanks **Yassr** by name and points out that Saber already auto-notifies Staff in Announcements ten minutes before the event, so he does not need to keep pinging people manually.
-
-Yassr replies:
-
-> `Thank you!`
-
-That response matters precisely because it is small. There is no turf war over who gets to be the notification department. No `but I always do this`. No attempt to turn helpful behavior into a title. He receives the better system and moves on.
-
-The safe character read is not `Yassr loves automation` or `Yassr is humble` as a permanent psychological diagnosis. It is narrower and better: in this scene, the point is getting the information delivered, not owning the delivery mechanism.
-
-## November 2024 — not every useful notice is a countdown
-
-A month later Yassr posts:
-
-> `@everyone you can now do scourge project as a 5 man team!! Take advantage of it!! And kick some butt!`
-
-This one is not simply an event-start reminder. It is a change in what the group can do, turned immediately into an invitation to use it. The recurring function survives even after the bot-reminder conversation because the function was never really `ping exactly ten minutes before scheduled activity`. It was **notice something has become actionable and tell the room**.
-
-That distinction is what gives the late 2024 material a character spine instead of a pile of calendar pings.
-
-## Sye and the handoff scene
-
-Sye is the clearest named interaction partner in the current Yassr dossier because she both recognizes the account as Yassr and gives him the practical Saber handoff. The exchange supports coordination and direct familiarity with who is posting. It does not establish a ranked friendship, conflict, mentorship hierarchy, or special private relationship.
-
-Saber is infrastructure here, not a human rival. The funny part is almost administrative: UL built a bot to do a job Yassr was already doing manually, and when somebody tells him, he says thanks.
-
-## What remains unresolved
-
-This dossier does **not** yet have a defensible full 2020–2023 progression. The current evidence supports a late-period Game Officer file with a repeated opportunity-relay behavior, an alias bridge, and one very clean workflow handoff. That is enough to make Yassr a person rather than a role card, but not enough to invent childhood-of-the-server lore retroactively.
-
-The next expansion should only happen when older direct Yassr scenes are recovered with stable attribution. Until then, the 2024 file is allowed to be specific, useful, and incomplete.
+The missing earlier years remain an actual research gap. They are not permission to manufacture a 2020–2023 personality arc from the 2024 account. For now Yassr is allowed to be specific and incomplete: current Game Officer, late stable-account bridge, recurring opportunity alerts, and one clean Sye handoff where UL's eternal solution to duplicated human labor is apparently **we already made a bot for that, bb**.
