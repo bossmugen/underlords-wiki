@@ -15,13 +15,13 @@ claims:
   - text: "The recovered Lobby export resolves Discord account ID 559670680287969281, username `chubita._`, nickname `Chubi`, to the person who self-identifies in-game as Chibiterasu."
     evidence: "archive-confirmed"
     date: "2022-03-09"
-  - text: "On March 9, 2022, after the Underlords Stripclub Bouncer asks for IGN / club / age, the stable Chubi account answers: `IGN: chibiterasu`, `Club: Underlords`, `Age: 22`."
+  - text: "On March 9, 2022, after the Underlords Stripclub Bouncer asks for IGN / club / age, the stable Chubi account answers with IGN `chibiterasu` and club Underlords; the historical age field from the same check-in is intentionally not republished."
     evidence: "archive-confirmed"
     date: "2022-03-09"
   - text: "The March 2022 Lobby sequence routes Chibiterasu through normal role assignment and the Discord Tour. This is the earliest clean surviving Lobby receipt in the current migration, not automatically the first day of UL membership."
     evidence: "archive-confirmed"
     date: "2022-03-09"
-  - text: "On May 13, 2024, MEE6 produces another generic welcome for the same stable Discord account. The account answers `Chuu~tan, Underlords and I'm 25 :Cat_Drool:`."
+  - text: "On May 13, 2024, MEE6 produces another generic welcome for the same stable Discord account. The account answers `Chuu~tan, Underlords` with a Cat_Drool emote; the historical age field is intentionally omitted from the public biography."
     evidence: "archive-confirmed"
     date: "2024-05-13"
   - text: "Immediately after the 2024 `Chuu~tan` check-in, Sye replies `chu chu`, giving a small human recognition beat around the repeated Lobby procedure."
@@ -34,6 +34,7 @@ claims:
 antiFanon:
   - "Do not treat the March 2022 MEE6 welcome as proof of Chibiterasu's first-ever UL membership date. It is the earliest clean surviving Lobby receipt currently carried here."
   - "The May 2024 welcome is another account/door event, not proof that Chibiterasu left UL and rejoined."
+  - "Historical age fields from the 2022 and 2024 Lobby check-ins are deliberately not republished."
   - "The 2024 `Chuu~tan` self-identification supports the alias bridge; it does not prove that every visually similar `Chu` name in unrelated exports is this person."
   - "Sye's `chu chu` is a direct recognition beat, not evidence for a ranked closeness claim."
   - "Do not reverse-engineer personality, hobbies, profession, or gardening frequency from the `Parterre Gardener` appointment."
@@ -50,34 +51,12 @@ tags:
 
 # Chibiterasu
 
-**Chibiterasu** is the in-game name; **Chuutan / Chuu~tan / Chubi / Chuubi / Chibi** are the alias trail attached to the same current character file. The corrected roster places that character under **Game Officers**, with **Parterre Gardener** carried as a specialist appointment.
+**Chibiterasu** is the in-game name attached to the stable account the room also knows as **Chubi**, while current canon keeps **Chuutan / Chuu~tan / Chuubi / Chibi** in the same alias family. Chibiterasu is now a Game Officer and Parterre Gardener, but the surviving direct material is still much better at showing identity continuity than appointment history or personality. The biography should therefore stay small without feeling like an empty role card.
 
-This dossier is deliberately not pretending the archive has more personality material than it does. What survives cleanly is identity continuity and a small return beat — enough to stop the page from being a role card, not enough to manufacture a whole comedy franchise from somebody's nickname.
+In March 2022, the Lobby's Bouncer asks the usual intake questions. The stable `chubita._` account, displayed as Chubi, answers with **`IGN: chibiterasu`** and **`Club: Underlords`**. The historical age field is not needed publicly. Sye later true-replies that the role has been assigned and points Chubi toward the Discord Tour. That one scene gives the archive a clean bridge between the casual Discord name and the name that now heads the character file.
 
-## 2022 — the clean self-identification
+Two years later, the same stable account is carded again. This time the answer begins **`Chuu~tan, Underlords`** and ends with a Cat_Drool emote. Sye follows with **`chu chu`**. The exchange is tiny, but it does exactly enough: Chuu~tan is not an unrelated new person created by punctuation, and the human response carries a little familiarity that the generic Bouncer card cannot.
 
-On March 9, 2022, the Lobby's Stripclub Bouncer asks the standard intake questions. The stable account `chubita._`, displayed as Chubi, answers in three blunt lines:
+That is currently the honest progression. Chubi self-identifies as Chibiterasu in 2022; the same account later presents Chuu~tan in 2024; the room answers in familiar shorthand; current roster canon places all of those names under one Game Officer / Parterre Gardener file. None of that tells us when either appointment began, and the gardening title is not permission to invent a flower obsession, a real-world hobby, or a personality made out of horticultural metaphors.
 
-> `IGN: chibiterasu`
-> `Club: Underlords`
-> `Age: 22`
-
-That is the clean archival bridge between **Chubi** and **Chibiterasu**. The room assigns the role and points the account toward the Discord Tour.
-
-The useful boundary is equally simple: this is the earliest clean Lobby receipt currently carried into the wiki. It is not automatically the first moment Chibiterasu ever belonged to UL. Lobby is a door log, and this archive repeatedly proves that the door can greet people who already have history in the house.
-
-## 2024 — same account, different name, same person
-
-May 13, 2024 gives the stable account another Bouncer cycle. This time the answer is:
-
-> `Chuu~tan, Underlords and I'm 25 :Cat_Drool:`
-
-Two years after `IGN: chibiterasu`, the same Discord account is now presenting **Chuu~tan** at the door. That makes the nickname bridge archival rather than decorative. The current roster's Chibiterasu / Chuutan / Chubi / Chuubi / Chibi pile is one person file, not five people spawned by punctuation.
-
-Sye answers simply: **`chu chu`**. It is almost nothing, which is why it works. The software is doing generic intake again; the human response is familiar shorthand. We can safely say the person is recognized. We cannot turn two syllables into a friendship ranking, a private history, or a whole emotional dissertation. The page does not need to squeeze blood from that stone.
-
-## What the file can and cannot say yet
-
-The current role system gives Chibiterasu two useful institutional facts: **Game Officer** and **Parterre Gardener**. Neither one is a personality adjective. The Gardener title does not authorize the wiki to write a fake botanical hobby; the Game Officer role does not tell us when the appointment happened.
-
-So the current progression stays clean: a 2022 self-identification establishes the person behind the account; a 2024 return gives the Chuu~tan alias and a familiar response; current canon tells us where the person belongs on the shelf now. That is a real biography spine, just a smaller one. The gap remains a gap until another direct scene earns more.
+So Chibiterasu remains one of the intentionally restrained biographies. The quirks that survive are the ones actually present in the language — the alias drift, the Cat_Drool punctuation, Sye's little **`chu chu`** — rather than traits reverse-engineered from the badge. More direct scenes can deepen the person later. Until then, keeping one person intact across several names is already worthwhile archive work.
