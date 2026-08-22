@@ -2,9 +2,11 @@
 import WikiLayout from "../../layouts/WikiLayout.astro";
 import "../../styles/characters.css";
 import "../../styles/dossiers.css";
+import "../../styles/narrative.css";
 import { episodes } from "../../data/wiki";
 import { allCharacters, primaryGroupByCharacterId } from "../../data/cast";
 import { getCharacterBio } from "../../data/character-bios";
+import { narrativeCharacterBios } from "../../data/character-biographies-narrative";
 import { deepLeaderCharacterBios } from "../../data/character-bios-leader-deep";
 import { coreDeepOfficerCharacterBios } from "../../data/character-bios-officers-core-deep";
 import { deepAnayssOfficerCharacterBios } from "../../data/character-bios-officers-anayss-deep";
@@ -51,44 +53,30 @@ const { character } = Astro.props;
 const richBio = (deepLeaderCharacterBios as Record<string, any>)[character.id] ?? (coreDeepOfficerCharacterBios as Record<string, any>)[character.id] ?? (deepAnayssOfficerCharacterBios as Record<string, any>)[character.id] ?? (deepAnsunOfficerCharacterBios as Record<string, any>)[character.id] ?? (deepWolfOfficerCharacterBios as Record<string, any>)[character.id] ?? (lateOfficerCharacterBios as Record<string, any>)[character.id] ?? (deepOfficerCharacterBios as Record<string, any>)[character.id] ?? (officerCharacterBios as Record<string, any>)[character.id] ?? (lateRetiredOfficerCharacterBios as Record<string, any>)[character.id] ?? (retiredOfficerCharacterBios as Record<string, any>)[character.id] ?? (sniperCharacterBios as Record<string, any>)[character.id] ?? (directorCharacterBios as Record<string, any>)[character.id] ?? (gameOfficerCharacterBios as Record<string, any>)[character.id] ?? (finalStaffCharacterBios as Record<string, any>)[character.id] ?? (lateStaffCharacterBios as Record<string, any>)[character.id] ?? (staffCharacterBios as Record<string, any>)[character.id] ?? (latePlateletCharacterBios as Record<string, any>)[character.id] ?? (deepPlateletCharacterBios as Record<string, any>)[character.id] ?? (plateletCharacterBios as Record<string, any>)[character.id] ?? (lateVipCharacterBios as Record<string, any>)[character.id] ?? (deepVipCharacterBios as Record<string, any>)[character.id] ?? (vipCharacterBios as Record<string, any>)[character.id] ?? (deepArchiveCharacterBios as Record<string, any>)[character.id] ?? (archiveCharacterBios as Record<string, any>)[character.id] ?? (extendedCharacterBios as Record<string, any>)[character.id];
 const leaderDeepBioGuard = new Set(["mugen"]);
 const leaderDeepBio = (deepLeaderCharacterBios as Record<string, any>)[character.id];
-if (leaderDeepBioGuard.has(character.id) && !leaderDeepBio) {
-  throw new Error(`Priority Leader character ${character.id} lost its cross-archive deep bio.`);
-}
+if (leaderDeepBioGuard.has(character.id) && !leaderDeepBio) throw new Error(`Priority Leader character ${character.id} lost its cross-archive deep bio.`);
 const coreOfficerDeepBioGuard = new Set(["gabu"]);
 const coreOfficerDeepBio = (coreDeepOfficerCharacterBios as Record<string, any>)[character.id];
-if (coreOfficerDeepBioGuard.has(character.id) && !coreOfficerDeepBio) {
-  throw new Error(`Priority Officer character ${character.id} lost its cross-archive deep bio.`);
-}
+if (coreOfficerDeepBioGuard.has(character.id) && !coreOfficerDeepBio) throw new Error(`Priority Officer character ${character.id} lost its cross-archive deep bio.`);
 const anayssDeepBioGuard = new Set(["anayss"]);
 const anayssDeepBio = (deepAnayssOfficerCharacterBios as Record<string, any>)[character.id];
-if (anayssDeepBioGuard.has(character.id) && !anayssDeepBio) {
-  throw new Error(`Priority Officer character ${character.id} lost its Anayss cross-archive deep bio.`);
-}
+if (anayssDeepBioGuard.has(character.id) && !anayssDeepBio) throw new Error(`Priority Officer character ${character.id} lost its Anayss cross-archive deep bio.`);
 const ansunDeepBioGuard = new Set(["ansun"]);
 const ansunDeepBio = (deepAnsunOfficerCharacterBios as Record<string, any>)[character.id];
-if (ansunDeepBioGuard.has(character.id) && !ansunDeepBio) {
-  throw new Error(`Priority Officer character ${character.id} lost its Ansun cross-archive deep bio.`);
-}
+if (ansunDeepBioGuard.has(character.id) && !ansunDeepBio) throw new Error(`Priority Officer character ${character.id} lost its Ansun cross-archive deep bio.`);
 const wolfDeepBioGuard = new Set(["wolfphenix"]);
 const wolfDeepBio = (deepWolfOfficerCharacterBios as Record<string, any>)[character.id];
-if (wolfDeepBioGuard.has(character.id) && !wolfDeepBio) {
-  throw new Error(`Priority Officer character ${character.id} lost its WolfPhenix cross-archive deep bio.`);
-}
+if (wolfDeepBioGuard.has(character.id) && !wolfDeepBio) throw new Error(`Priority Officer character ${character.id} lost its WolfPhenix cross-archive deep bio.`);
 const plateletRichBioGuard = new Set(["scar", "dyingfox", "ryo", "dean", "tae", "zoshaa", "candy", "cele"]);
-if (plateletRichBioGuard.has(character.id) && !richBio) {
-  throw new Error(`Priority Platelet character ${character.id} fell through to the generic character bio.`);
-}
+if (plateletRichBioGuard.has(character.id) && !richBio) throw new Error(`Priority Platelet character ${character.id} fell through to the generic character bio.`);
 const vipDeepBioGuard = new Set(["rich", "zyrcant", "woohyuk", "syv", "woosung", "beowulf"]);
 const vipDeepBio = (lateVipCharacterBios as Record<string, any>)[character.id] ?? (deepVipCharacterBios as Record<string, any>)[character.id];
-if (vipDeepBioGuard.has(character.id) && !vipDeepBio) {
-  throw new Error(`Priority VIP character ${character.id} lost its cross-archive deep bio.`);
-}
+if (vipDeepBioGuard.has(character.id) && !vipDeepBio) throw new Error(`Priority VIP character ${character.id} lost its cross-archive deep bio.`);
 const archiveDeepBioGuard = new Set(["new", "aeshleen", "panda", "rose"]);
 const archiveDeepBio = (deepArchiveCharacterBios as Record<string, any>)[character.id];
-if (archiveDeepBioGuard.has(character.id) && !archiveDeepBio) {
-  throw new Error(`Priority Archive / Extended Cast character ${character.id} lost its cross-archive deep bio.`);
-}
+if (archiveDeepBioGuard.has(character.id) && !archiveDeepBio) throw new Error(`Priority Archive / Extended Cast character ${character.id} lost its cross-archive deep bio.`);
+
 const bio = richBio ?? getCharacterBio(character);
+const narrative = narrativeCharacterBios[character.id];
 const dossiers = dossierData as Record<string, Dossier>;
 const dossier = dossiers[character.id];
 const canonNotes = [...new Set([...(bio.canonNotes ?? []), ...(dossier?.antiFanon ?? [])])];
@@ -114,71 +102,53 @@ const evidenceLabel = (value?: string) => value ? value.replaceAll("-", " ").toU
 
   <section class="section detail-layout character-detail">
     <article class="detail-main character-biography">
-      <section class="bio-block bio-opening">
-        <div class="bio-label">CHARACTER BIO</div>
-        <h2>Who is {character.name}?</h2>
-        {bio.overview.map((paragraph: string) => <p>{paragraph}</p>)}
-      </section>
-
-      {dossier?.html ? (
-        <section class="bio-block archive-dossier-block">
-          <div class="bio-label">FULL ARCHIVE DOSSIER</div>
-          <div class="dossier-intro">
-            <h2>The actual file</h2>
-            <p>This is the long-form character writing carried over from the main UL archive: scenes, quotes, role context, recurring behavior, corrections, and the parts that do not survive being crushed into a card.</p>
+      {narrative ? (
+        <section class="bio-block narrative-biography">
+          <div class="narrative-label">BIOGRAPHY</div>
+          <h2>{character.name}'s story</h2>
+          <div class="narrative-intro">
+            {narrative.intro.map((paragraph) => <p>{paragraph}</p>)}
           </div>
-          <div class="archive-dossier-body" set:html={dossier.html} />
-        </section>
-      ) : null}
-
-      {dedupedReceiptClaims.length ? (
-        <section class="bio-block receipt-ledger-block">
-          <div class="bio-label">THE RECEIPTS</div>
-          <h2>What the archive actually caught</h2>
-          <p class="receipt-ledger-intro">Not a résumé. Not message-count soup. These are the specific scenes and locked facts that make the character file possible.</p>
-          <div class="receipt-ledger">
-            {dedupedReceiptClaims.map((claim) => (
-              <article class="receipt-entry">
-                <div class="receipt-meta">
-                  <span>{evidenceLabel(claim.evidence)}</span>
-                  {claim.date ? <time>{claim.date}</time> : null}
+          <div class="narrative-sections">
+            {narrative.sections.map((section) => (
+              <section class="narrative-era">
+                <div class="narrative-period">{section.period ?? ""}</div>
+                <div>
+                  <h3>{section.title}</h3>
+                  {section.paragraphs.map((paragraph) => <p>{paragraph}</p>)}
                 </div>
-                <p>{claim.text}</p>
-              </article>
+              </section>
             ))}
           </div>
+          {narrative.closing?.length ? (
+            <div class="narrative-closing">
+              {narrative.closing.map((paragraph) => <p>{paragraph}</p>)}
+            </div>
+          ) : null}
         </section>
-      ) : null}
-
-      {bio.history?.length ? (
-        <section class="bio-block">
-          <div class="bio-label">STORY</div>
-          <h2>Story so far</h2>
-          <div class="bio-timeline">
-            {bio.history.map((beat: any) => (
-              <article class="bio-beat">
-                {beat.date ? <time>{beat.date}</time> : null}
-                <div><h3>{beat.title}</h3><p>{beat.text}</p></div>
-              </article>
-            ))}
-          </div>
-        </section>
-      ) : null}
-
-      {bio.characterNotes?.length ? (
-        <section class="bio-block">
-          <div class="bio-label">CHARACTER</div>
-          <h2>Recurring bits & behavior</h2>
-          <div class="character-note-grid">
-            {bio.characterNotes.map((note: any) => (
-              <article class="character-note">
-                <h3>{note.title}</h3>
-                <p>{note.text}</p>
-              </article>
-            ))}
-          </div>
-        </section>
-      ) : null}
+      ) : (
+        <>
+          <section class="bio-block bio-opening">
+            <div class="bio-label">BIOGRAPHY</div>
+            <h2>Who is {character.name}?</h2>
+            {bio.overview.map((paragraph: string) => <p>{paragraph}</p>)}
+          </section>
+          {bio.history?.length ? (
+            <section class="bio-block">
+              <div class="bio-label">CHRONOLOGY</div>
+              <h2>Life in Underlords</h2>
+              <div class="bio-timeline">
+                {bio.history.map((beat: any) => (
+                  <article class="bio-beat">
+                    {beat.date ? <time>{beat.date}</time> : null}
+                    <div><h3>{beat.title}</h3><p>{beat.text}</p></div>
+                  </article>
+                ))}
+              </div>
+            </section>
+          ) : null}
+        </>
+      )}
 
       {character.relationships?.length ? (
         <section class="bio-block">
@@ -189,6 +159,18 @@ const evidenceLabel = (value?: string) => value ? value.replaceAll("-", " ").toU
               <a class="relationship-row" href={url(rel.href)}><span>{rel.name}</span><p>{rel.note}</p><b>→</b></a>
             ) : (
               <div class="relationship-row"><span>{rel.name}</span><p>{rel.note}</p></div>
+            ))}
+          </div>
+        </section>
+      ) : null}
+
+      {bio.characterNotes?.length ? (
+        <section class="bio-block">
+          <div class="bio-label">AFTER THE BIOGRAPHY</div>
+          <h2>Recurring bits & behavior</h2>
+          <div class="character-note-grid">
+            {bio.characterNotes.map((note: any) => (
+              <article class="character-note"><h3>{note.title}</h3><p>{note.text}</p></article>
             ))}
           </div>
         </section>
@@ -219,10 +201,37 @@ const evidenceLabel = (value?: string) => value ? value.replaceAll("-", " ").toU
         </section>
       ) : null}
 
+      {dossier?.html ? (
+        <section class="bio-block archive-dossier-block">
+          <div class="bio-label">ARCHIVE APPENDIX</div>
+          <div class="dossier-intro">
+            <h2>Old dossier notes</h2>
+            <p>The old archive dossier is preserved here as research material. Its themed scenes are evidence and character texture, not the biography's narrative spine.</p>
+          </div>
+          <div class="archive-dossier-body" set:html={dossier.html} />
+        </section>
+      ) : null}
+
+      {dedupedReceiptClaims.length ? (
+        <section class="bio-block receipt-ledger-block">
+          <div class="bio-label">SOURCE LEDGER</div>
+          <h2>What the archive actually caught</h2>
+          <p class="receipt-ledger-intro">The receipts live downstairs. They support the story; they are not the story.</p>
+          <div class="receipt-ledger">
+            {dedupedReceiptClaims.map((claim) => (
+              <article class="receipt-entry">
+                <div class="receipt-meta"><span>{evidenceLabel(claim.evidence)}</span>{claim.date ? <time>{claim.date}</time> : null}</div>
+                <p>{claim.text}</p>
+              </article>
+            ))}
+          </div>
+        </section>
+      ) : null}
+
       <section class="bio-block source-floor">
-        <div class="bio-label">DOWNSTAIRS</div>
-        <h2>Canon & archive notes</h2>
-        <p class="source-intro">This is where the wiki sobers up. Current roles are not automatically appointment dates. A funny relationship label is not biology. An export-time role array is not a promotion ceremony.</p>
+        <div class="bio-label">CANON NOTES</div>
+        <h2>What not to turn into fanon</h2>
+        <p class="source-intro">Current roles are not automatically appointment dates. A funny relationship label is not biology. A recurring bit is not a diagnosis. Export-time role arrays are not promotion ceremonies.</p>
         {canonNotes.length ? <ul class="canon-list">{canonNotes.map((note: string) => <li>{note}</li>)}</ul> : null}
       </section>
     </article>
@@ -238,10 +247,7 @@ const evidenceLabel = (value?: string) => value ? value.replaceAll("-", " ").toU
         {character.tags?.length ? <div class="row"><dt>Tags</dt><dd><div class="chip-row">{character.tags.map((tag) => <span class="chip">{tag}</span>)}</div></dd></div> : null}
       </dl>
       {bio.roleNotes?.length ? (
-        <div class="infobox-notes">
-          <strong>ROLE NOTES</strong>
-          <ul>{bio.roleNotes.map((note: string) => <li>{note}</li>)}</ul>
-        </div>
+        <div class="infobox-notes"><strong>ROLE NOTES</strong><ul>{bio.roleNotes.map((note: string) => <li>{note}</li>)}</ul></div>
       ) : null}
     </aside>
   </section>
