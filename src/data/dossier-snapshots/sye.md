@@ -10,7 +10,7 @@ roles:
   - "Caporegime"
   - "Game Officer"
 eraStart: 2020
-summary: "Can debug the schedule. Cannot debug Rummy. Eventually forgets how to use the bot anyway."
+summary: "Sye's archive starts in 2020 inside Saber configuration, then broadens into schedule repair, channel routing, maintenance relays, shared-file troubleshooting, ordinary voice-room life, technically detailed cooking, and finally the comic honesty of forgetting how to use the same bot years later. By 2026 she is still in Slice and reunion-era UL, carrying both the work history and the Life joke."
 summaryEvidence: "archive-confirmed"
 publication: "public"
 claims:
@@ -175,8 +175,48 @@ tags:
   - "social-memory"
 ---
 
-## LAST ONE IN THE EXPORT, PAT THE ROOM
+# Sye
 
-By 2026 Slice is barely ambient anymore. It still knows what it is. The current archive leaves Sye holding the last three surviving lines: **`memory lasp`**, **`give yall all *pats*`**, **`:catpat:`**.
+Sye is a current Caporegime and Game Officer. Life, Syenitha, Sadako, `sycessences`, and ƐℲı˥ all belong to the same person; she is **not** Syv. Her archive is one of the best examples of why a long biography should follow changing forms of competence rather than reducing somebody to a single skill.
 
-Nobody schedules a finale. Nobody declares the room dead. Sye just pats the group chat and the export runs out of road.
+## 2020–2021 — SHE STARTS INSIDE THE SCHEDULING MACHINERY
+
+In September 2020, the stable `sycessences` account repeatedly configures Saber's event-announcement format and the bot echoes the result immediately. In November, Snow tells Gabu to add recurring events, Sye tells Gabu to change the date, and Gabu answers **`omg how`**.
+
+The work is collaborative from the beginning. Snow, Gabu, Sye, and later other maintainers overlap; there is no clean one-way succession to invent.
+
+A year later daylight saving knocks Discord's schedule out of sync with server time. Sye tells Staff to be patient while Gabu recalibrates it. The earlier configuration work has become shared maintenance: one person understands the failure, another is repairing it, and Sye communicates the state to everyone else.
+
+## 2022 — THE SAME PRACTICALITY SPREADS FROM BOTS TO ROOMS AND PEOPLE
+
+In spring 2022, Gabu pages Sye for an event-time edit, and an Officers Challenge from Sye is announced. In May, Sye tells the Wall **`Please don’t used this channel for general conversation`**. Ren repeats the guidance the next day with **`like sye said`**, and again in September routes general conversation **`To whiskey`**.
+
+June shows the positive half of that boundary. Sye welcomes a newcomer, points them through Tour and Biodata, then ends **`Our main chat is here!!`** with Whiskey. She is not only saying where chatter does **not** belong; she is telling people where the social life actually is.
+
+In November, an upstream system alert says the server is going down for maintenance. Sye relays the information, then four seconds later makes the action impossible to miss: **`PLEASE LOG OFF`**. She does not control the maintenance. She translates a system state into what the person should do next.
+
+## 2023–2024 — TECHNICAL HABITS SHOW UP IN SHARED CREATIVE WORK, THEN THE BIO WIDENS
+
+During the June 2023 communal doodle poster, Sye notices the stale-copy problem: newer versions are dropping other people's contributions. Wolf suggests a separate layer to make a doodle movable; Sye clarifies that the larger problem is version loss.
+
+It is a tiny scene, but it makes the older bot work feel continuous. Different object, same instinct: identify what state got lost and keep the shared thing from silently discarding somebody else's input.
+
+By 2024, the archive also gives more ordinary social material. Sye reacts with genuine surprise to a new Rummy Wall line—**`rumi what`**, **`This is a different side of Rumi I never seen`**—and later appears across a voice-room hangout where conversation ranges through food, work, games, PCs, places, and daily life. The person is no longer only visible when something needs debugging.
+
+## 2025 — DOMAIN KNOWLEDGE ARRIVES IN THE SAME CLOWN REGISTER
+
+Recipes for Disaster makes that especially obvious. Ren asks for pasta and Sye answers with a roughly 500-word Pasta alla Zozzona recipe: specific technique, ingredients, repeated warnings about fire, **`NOT BACON`**, and the final handoff **`There pasta recipe Ren`**. A later Hong Kong shrimp wonton noodle soup includes **`Whole ass Chicken`** and **`8+ hours of your life`**.
+
+The archive supports substantial cooking knowledge, not a professional-chef credential. What matters for the biography is that competence has not changed her voice. Technical specificity and clown vocabulary can coexist in the same paragraph without either one becoming fake.
+
+Then the best continuity joke lands back in Saber Control. In July Sye posts **`/kill saber`**. In August she returns with **`i forgot how to uses this bot xD`**, invokes help, and remembers Snowden has the other schedule.
+
+Five years after direct configuration work, Sye is willing to say she no longer remembers the interface. That is not a collapse of the earlier competence. It is what a real long-term timeline looks like: knowledge is used, handed around, forgotten, reacquired, and shared.
+
+## 2026 — THE OLD ROOMS STILL HAVE HER IN THEM
+
+The current recovered Slice archive ends with three Sye messages: **`memory lasp`**, **`give yall all *pats*`**, and `:catpat:`. That is an archive boundary, not an intentional closing ceremony, but it is an oddly gentle place for the surviving road to stop.
+
+In reunion-era conversation, when Oyasumi says UL fell off in 2021, Sye disputes the date, blames **`life`**, then immediately weaponizes her own **Life** alias as the punchline.
+
+The current Caporegime / Game Officer titles are locked separately from these scenes. The biography underneath them is longer and better: early bot operator → schedule collaborator → room/router and maintenance communicator → shared-file troubleshooter → ordinary house person with serious cooking knowledge → veteran who can forget the bot and laugh about it → still present when the old rooms flicker back on.
