@@ -81,22 +81,22 @@ export const gameOfficerCharacterBios = {
   },
 
   yassr: {
-    dek:"Game Officer, Sniperwolfxx, and late-game manual event radar who keeps routing things people can do now — then happily lets the bot take the countdown shift when told it already exists.",
+    dek:"Game Officer, Sniperwolfxx, and late-game manual event radar who keeps routing things people can do now — then lets the bot take the countdown shift once the existing automation is pointed out.",
     overview:[
-      "Yassr is a current Game Officer. Sniperwolfxx / `sniperr_wolfxx` belongs to the name trail, but a username containing `Sniper` does not move him onto the current Sniper shelf.",
+      "Yassr is a current Game Officer. Sniperwolfxx / `sniperr_wolfxx` belongs to the name trail, but a username containing `Sniper` does not move Yassr onto the current Sniper shelf.",
       "The strongest stable direct run currently comes from late 2024: Conquest in twenty-five minutes, Demo Club in an hour, Scourge can now be done as a five-person team. Each message has the same practical center — something is becoming actionable, so tell the room before the information goes stale.",
-      "The best tiny character beat comes when Sye thanks Yassr and explains that Saber already auto-reminds Staff shortly before scheduled events. Yassr answers `Thank you!`. The archive does not need to diagnose humility from two words; it can safely observe that he accepts the better workflow and keeps relaying other useful game information later."
+      "The best tiny character beat comes when Sye thanks Yassr and explains that Saber already auto-reminds Staff shortly before scheduled events. Yassr answers `Thank you!`. The archive does not need to diagnose a personality from two words; it can safely observe that the existing workflow is accepted and other useful game information is relayed later."
     ],
     history:[
       {date:"October 22–23, 2024",title:"Manual event radar",text:"The late stable account posts Conquest and Demo Club countdowns to Staff. Sye directly calls the account Yassr, providing the clean bridge for the username."},
-      {date:"October 23, 2024",title:"Saber already has that shift",text:"Sye thanks Yassr, points out the automated ten-minute Staff reminder, and says he does not need to keep pinging manually. Yassr replies `Thank you!` rather than turning helpful work into a territorial dispute."},
+      {date:"October 23, 2024",title:"Saber already has that shift",text:"Sye thanks Yassr, points out the automated ten-minute Staff reminder, and says manual pings are unnecessary. Yassr replies `Thank you!`; the archive shows a workflow handoff, not a territorial dispute."},
       {date:"November 21, 2024",title:"Scourge can take five now",text:"Yassr tells everyone they can now run Scourge as a five-person team and urges them to take advantage. The recurring function is opportunity relay, not merely calendar countdowns."}
     ],
     characterNotes:[
       {title:"Useful before prestigious",text:"The surviving run is all practical actionability: start time, remaining window, newly available team setup. No extra formal event title is needed."},
-      {title:"The bot can have the timer",text:"Sye's Saber handoff works because the next Yassr scene shows the broader behavior continuing elsewhere. The job was never owning one notification mechanism."}
+      {title:"The bot can have the timer",text:"Sye's Saber handoff works because the next Yassr scene shows the broader behavior continuing elsewhere. The recurring function was never ownership of one notification mechanism."}
     ],
     roleNotes:["Current primary shelf: Game Officers.","Sniperwolfxx is an alias, not evidence of current Sniper shelf placement.","No Event Director / Party Director appointment is inferred from reminder behavior."],
-    canonNotes:["The late 2024 evidence does not backfill a 2020–2023 personality arc.","Sye's workflow note is not treated as conflict or reprimand.","Game Officer appointment chronology remains unresolved." ]
+    canonNotes:["The late 2024 evidence does not backfill a 2020–2023 personality arc.","Sye's workflow note is not treated as conflict or reprimand.","Game Officer appointment chronology remains unresolved.","The current source set does not establish pronouns strongly enough for the wiki to guess them." ]
   }
 } as const;
