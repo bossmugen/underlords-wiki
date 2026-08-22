@@ -18,6 +18,7 @@ import { staffCharacterBios } from "../../data/character-bios-staff";
 import { lateStaffCharacterBios } from "../../data/character-bios-staff-late";
 import { finalStaffCharacterBios } from "../../data/character-bios-staff-last";
 import { plateletCharacterBios } from "../../data/character-bios-platelets";
+import { deepPlateletCharacterBios } from "../../data/character-bios-platelets-deep";
 import { vipCharacterBios } from "../../data/character-bios-vip";
 import { archiveCharacterBios } from "../../data/character-bios-archive";
 import dossierData from "../../data/character-dossiers.generated.json";
@@ -38,10 +39,12 @@ export function getStaticPaths() {
 }
 
 const { character } = Astro.props;
-const bio = (lateOfficerCharacterBios as Record<string, any>)[character.id] ?? (deepOfficerCharacterBios as Record<string, any>)[character.id] ?? (officerCharacterBios as Record<string, any>)[character.id] ?? (lateRetiredOfficerCharacterBios as Record<string, any>)[character.id] ?? (retiredOfficerCharacterBios as Record<string, any>)[character.id] ?? (sniperCharacterBios as Record<string, any>)[character.id] ?? (directorCharacterBios as Record<string, any>)[character.id] ?? (gameOfficerCharacterBios as Record<string, any>)[character.id] ?? (finalStaffCharacterBios as Record<string, any>)[character.id] ?? (lateStaffCharacterBios as Record<string, any>)[character.id] ?? (staffCharacterBios as Record<string, any>)[character.id] ?? (plateletCharacterBios as Record<string, any>)[character.id] ?? (vipCharacterBios as Record<string, any>)[character.id] ?? (archiveCharacterBios as Record<string, any>)[character.id] ?? (extendedCharacterBios as Record<string, any>)[character.id] ?? getCharacterBio(character);
+const bio = (lateOfficerCharacterBios as Record<string, any>)[character.id] ?? (deepOfficerCharacterBios as Record<string, any>)[character.id] ?? (officerCharacterBios as Record<string, any>)[character.id] ?? (lateRetiredOfficerCharacterBios as Record<string, any>)[character.id] ?? (retiredOfficerCharacterBios as Record<string, any>)[character.id] ?? (sniperCharacterBios as Record<string, any>)[character.id] ?? (directorCharacterBios as Record<string, any>)[character.id] ?? (gameOfficerCharacterBios as Record<string, any>)[character.id] ?? (finalStaffCharacterBios as Record<string, any>)[character.id] ?? (lateStaffCharacterBios as Record<string, any>)[character.id] ?? (staffCharacterBios as Record<string, any>)[character.id] ?? (deepPlateletCharacterBios as Record<string, any>)[character.id] ?? (plateletCharacterBios as Record<string, any>)[character.id] ?? (vipCharacterBios as Record<string, any>)[character.id] ?? (archiveCharacterBios as Record<string, any>)[character.id] ?? (extendedCharacterBios as Record<string, any>)[character.id] ?? getCharacterBio(character);
 const dossiers = dossierData as Record<string, Dossier>;
 const dossier = dossiers[character.id];
 const canonNotes = [...new Set([...(bio.canonNotes ?? []), ...(dossier?.antiFanon ?? [])])];
+const receiptClaims: DossierClaim[] = [...(bio.claims ?? []), ...(dossier?.claims ?? [])];
+const dedupedReceiptClaims = receiptClaims.filter((claim, index, all) => all.findIndex((candidate) => `${candidate.date ?? ""}\u0000${candidate.text}` === `${claim.date ?? ""}\u0000${claim.text}`) === index);
 const primaryGroup = primaryGroupByCharacterId.get(character.id);
 const appearances = episodes.filter((episode) => episode.cast.includes(character.name));
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
@@ -79,13 +82,13 @@ const evidenceLabel = (value?: string) => value ? value.replaceAll("-", " ").toU
         </section>
       ) : null}
 
-      {dossier?.claims?.length ? (
+      {dedupedReceiptClaims.length ? (
         <section class="bio-block receipt-ledger-block">
           <div class="bio-label">THE RECEIPTS</div>
           <h2>What the archive actually caught</h2>
           <p class="receipt-ledger-intro">Not a résumé. Not message-count soup. These are the specific scenes and locked facts that make the character file possible.</p>
           <div class="receipt-ledger">
-            {dossier.claims.map((claim) => (
+            {dedupedReceiptClaims.map((claim) => (
               <article class="receipt-entry">
                 <div class="receipt-meta">
                   <span>{evidenceLabel(claim.evidence)}</span>
