@@ -4,13 +4,13 @@ aliases:
   - "noether88"
 roles:
   - "Game Officer"
-summary: "Noether is a Game Officer whose strongest surviving character period begins as mock sugar-economy prosecution on the Wall and ends with the prosecutor apparently operating a catering arm: dessert-hoarding accusations become strawberry ice cream, then an offline cake meetup with Anayss."
+summary: "Noether is a current Game Officer whose strongest surviving character period runs from a 2021 Lobby check-in and return recognition into an increasingly elaborate Wall sugar/dessert bit, then out of Discord entirely when Anayss reports meeting Noether offline and being brought a cake. The joke changes shape over time; the person stays recognizable inside it."
 summaryEvidence: "archive-confirmed + canon-lock"
 publication: "public"
 claims:
   - text: "The recovered archive resolves Noether to stable Discord identity `noether88`; current corrected roster canon files Noether under Game Officers and explicitly does not place Noether on the current Sniper shelf."
     evidence: "archive-confirmed + canon-lock"
-  - text: "On October 28, 2021, the Lobby's Stripclub Bouncer asks for IGN / club / age and Noether answers `Noether, Underlords, 29`; Anayss assigns the role and routes Noether to club rules, Discord Tour, and Biodata."
+  - text: "On October 28, 2021, the Lobby's Stripclub Bouncer asks for IGN / club / age and Noether answers with Noether and Underlords; the historical age field from the same check-in is intentionally not republished. Anayss assigns the role and routes Noether to club rules, Discord Tour, and Biodata."
     evidence: "archive-confirmed"
     date: "2021-10-28"
   - text: "On December 23, 2021, MEE6 produces another generic Lobby welcome for Noether and Anayss answers `@Noether wb ❤️`, explicitly recognizing the event as a return rather than a first arrival."
@@ -38,6 +38,7 @@ claims:
     evidence: "archive-supported-synthesis"
 antiFanon:
   - "Noether is currently a Game Officer, not a current Sniper. Older role summaries that still place Noether under Snipers are stale."
+  - "Historical age data from Noether's Lobby intake is deliberately not republished."
   - "Do not promote `baker`, `chef`, `caterer`, `dessert officer`, `sugar auditor`, or similar jokes into formal roles."
   - "`Sugar daddy`, `unsugar`, and related wording are joke-language in the cited Wall scenes and do not establish romance, finances, or family relationships."
   - "`A date with ana` plus the offline cake scene does not establish romance between Noether and Anayss."
@@ -62,78 +63,16 @@ tags:
 
 # Noether
 
-Noether is a current **Game Officer**. The corrected roster specifically keeps that fact separate from stale older Sniper filing, and the character page should do the same.
+Noether is a current **Game Officer**, not a current Sniper. The role is firm; the appointment date is not. Fortunately, the archive does not need a promotion receipt to make Noether feel like a person. The strongest surviving run begins in late 2021 with a clean Lobby identity, then follows a stupid Wall joke as Noether keeps extending it until the joke has somehow crossed from fake sugar accounting into actual dessert and, eventually, an offline cake.
 
-The rank is not the interesting part of the file anyway. Noether's best surviving period starts with somebody else's stupid Wall premise, continues because Noether refuses to let the premise die, and eventually produces the cleanest contradiction in the dossier:
+The stable `noether88` account checks into Lobby on October 28, 2021 with Noether and Underlords. The historical age field is unnecessary to the public biography. Anayss assigns the role and points Noether toward the usual rooms. Two months later MEE6 cards the same account again, but Anayss answers **`@Noether wb ❤️`**. The bot is performing generic arrival procedure; the human response is already carrying history. That return beat keeps the October card from being promoted into a magical first-membership date.
 
-**the prosecutor has a catering arm.**
+Between those door scenes, Noether has already started becoming recognizable inside the Wall's own grammar. On November 2, Anayss throws out **`Unsugar hami`** and Noether keeps the category alive with **`Unsugar hamihami`**. By December, the vocabulary has expanded into **`Unsugared snow, history of a sugar daddy and unsugar boiii`**. None of that is financial or romantic evidence; it is the room turning nonsense into a fake economy and Noether proving very willing to keep adding categories once the premise exists.
 
-## October–December 2021 — the door says welcome; Anayss says welcome back
+By February 2022 the joke has migrated from sugar to dessert. Noether accuses HamitteY of not sharing desserts and wanting all of them. Later the same day comes **`I made strawberry ice cream, since you didn't share desserts`** with an image attachment. The attachment remains visually undescribed here, and the 23-minute-52-second gap between Discord messages is not a cooking timer. The useful change is social rather than culinary: the person prosecuting dessert scarcity is now the person introducing dessert into the conversation.
 
-The stable `noether88` account checks into Lobby on October 28, 2021 with a wonderfully efficient intake answer: **`Noether, Underlords, 29`**. Anayss assigns the role and points the account toward the usual rooms.
+The pattern becomes recognizable to other people too. In July, Anayss tags Noether and HamitteY together and writes **`ty for so much material`**. By then the recurring exchange has enough continuity that a third person can point at it as a reliable Wall-content machine. That still does not create a friendship rank, a standing comedy partnership, or a formal Department of Unsugar. It simply means the bit has lasted long enough to become socially legible.
 
-Two months later the Bouncer cards Noether again. Anayss replies **`@Noether wb ❤️`**. That tiny correction matters for chronology. The software is logging another door event; Anayss is explicitly calling it a return. Neither card is allowed to become a magical membership origin date just because the bot has a clipboard.
+Three weeks later the dessert thread leaves Discord entirely. Anayss posts in Slice: **`Today I met @Noether! She baked a cake for me ❤️`**. Noether replies **`A date with ana`**. The wording is playful, not a romance receipt; the location and wider circumstances stay private. What the archive can safely say is already better: one of the people previously encountered through Lobby cards and Wall nonsense became somebody Anayss met offline, and Noether brought cake.
 
-## November 2021 — Noether joins the Unsugar economy and immediately starts adding categories
-
-On November 2, Anayss throws the opening premise into the Wall: **`Unsugar hami`**. Later Noether is still carrying it: **`Unsugar hamihami`**.
-
-That is the first useful behavior pattern. Noether does not need to invent the original joke to become one of the people who makes it reusable. Give her a ridiculous category and she starts doing bookkeeping inside it.
-
-December 1 expands the vocabulary again:
-
-> `Unsugared snow, history of a sugar daddy and unsugar boiii`
-
-Nobody should be arrested by the phrase `sugar daddy` here. It is Wall joke-language inside the house's fake economy, not evidence of romance, money, or kinship. The character point is categorization: the premise gets more taxonomy because Noether is still touching it.
-
-## February 2022 — dessert court becomes dessert service
-
-By February 3, the audit has migrated from sugar to dessert. Noether tells HamitteY:
-
-> `Also hami doesnt share the desserts`
-
-and:
-
-> `you want all the desserts for yourself`
-
-HamitteY answers that there are no desserts. This does not close the case because Noether's prosecution appears to operate on a legal standard known only to Noether.
-
-Then the contradiction arrives. Later that day Noether posts:
-
-> `I made strawberry ice cream, since you didn't share desserts`
-
-There is an image attachment, but the current migration does not describe it because the media was not independently inspected for this pass. Noether's authored words are enough for the character beat.
-
-The two Discord posts are 23 minutes and 52 seconds apart. That is a message interval, not a Food Network timer. The wiki is not claiming she manufactured strawberry ice cream from raw ingredients in twenty-four minutes because timestamps are not cookware.
-
-The important thing is simpler: **the person accusing everyone else of dessert scarcity is now the person introducing dessert into the record.**
-
-## July 2022 — everybody else notices the franchise, then the cake escapes Discord
-
-On July 7, Anayss tags Noether and HamitteY together and writes **`ty for so much material`**. That is useful third-party reputation evidence. The bit has become legible enough that somebody else can identify the pair as a recurring source of Wall exhibits.
-
-Then on July 29 the whole dessert problem leaves screenshot jail. Slice records Anayss saying:
-
-> `Today I met @Noether! She baked a cake for me ❤️`
-
-Noether replies:
-
-> `A date with ana`
-
-The archive safely gives us an offline meetup and Anayss's direct statement that Noether baked the cake. It does not give us romance, an exact location, a private relationship ranking, or a lifetime culinary identity.
-
-But for Noether's character file, the continuity is magnificent. In February she is prosecuting dessert hoarding and announcing strawberry ice cream. In July somebody else is reporting that Noether arrived in real life with cake.
-
-Two scenes do not make her `the baker`. They do make the contradiction recur enough to write about.
-
-## Anayss, HamitteY, and the limits of the relationship read
-
-**HamitteY** is the recurring defendant/collaborator inside the sugar-and-dessert Wall bit. The archive supports repeated directed exchange. It does not support romance, family, or an intimacy hierarchy from the joke alone.
-
-**Anayss** repeatedly throws or recognizes the premise: `Unsugar hami`, later the `so much material` tag, then the offline cake scene in Slice. That continuity across Wall and Slice is real. Calling it `best friends`, `romance`, or any other ranked relationship would be editorial fanfiction.
-
-**Snow** appears in one sugar-economy extension. One guest appearance in dessert court does not buy him a permanent Noether relationship paragraph.
-
-## The role file
-
-Noether's current primary shelf is **Game Officers**. That is canon. The 2021–2022 receipts do not provide an appointment date, and the wiki will not backfill one from role metadata. The surviving character thesis is period-specific and earned: Noether takes a joke premise, keeps classifying it, pushes it until other people recognize the franchise, and then somehow ends up being the person who brings dessert.
+That is the progression worth keeping. Noether moves from identifiable member → recognized returner → active participant who can take somebody else's joke premise and keep building on it → person whose recurring dessert language starts producing actual strawberry ice cream in the record → offline UL relationship made ordinary enough to involve cake. The current Game Officer role sits beside that biography rather than swallowing it. And the quirks stay proportionate: Noether has enough dessert recurrence to be funny about it, not enough to be sentenced to a permanent career as UL's pastry department.
