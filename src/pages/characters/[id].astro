@@ -6,6 +6,7 @@ import { episodes } from "../../data/wiki";
 import { allCharacters, primaryGroupByCharacterId } from "../../data/cast";
 import { getCharacterBio } from "../../data/character-bios";
 import { deepLeaderCharacterBios } from "../../data/character-bios-leader-deep";
+import { coreDeepOfficerCharacterBios } from "../../data/character-bios-officers-core-deep";
 import { officerCharacterBios } from "../../data/character-bios-officers";
 import { deepOfficerCharacterBios } from "../../data/character-bios-officers-deep";
 import { lateOfficerCharacterBios } from "../../data/character-bios-officers-late";
@@ -44,11 +45,16 @@ export function getStaticPaths() {
 }
 
 const { character } = Astro.props;
-const richBio = (deepLeaderCharacterBios as Record<string, any>)[character.id] ?? (lateOfficerCharacterBios as Record<string, any>)[character.id] ?? (deepOfficerCharacterBios as Record<string, any>)[character.id] ?? (officerCharacterBios as Record<string, any>)[character.id] ?? (lateRetiredOfficerCharacterBios as Record<string, any>)[character.id] ?? (retiredOfficerCharacterBios as Record<string, any>)[character.id] ?? (sniperCharacterBios as Record<string, any>)[character.id] ?? (directorCharacterBios as Record<string, any>)[character.id] ?? (gameOfficerCharacterBios as Record<string, any>)[character.id] ?? (finalStaffCharacterBios as Record<string, any>)[character.id] ?? (lateStaffCharacterBios as Record<string, any>)[character.id] ?? (staffCharacterBios as Record<string, any>)[character.id] ?? (latePlateletCharacterBios as Record<string, any>)[character.id] ?? (deepPlateletCharacterBios as Record<string, any>)[character.id] ?? (plateletCharacterBios as Record<string, any>)[character.id] ?? (lateVipCharacterBios as Record<string, any>)[character.id] ?? (deepVipCharacterBios as Record<string, any>)[character.id] ?? (vipCharacterBios as Record<string, any>)[character.id] ?? (deepArchiveCharacterBios as Record<string, any>)[character.id] ?? (archiveCharacterBios as Record<string, any>)[character.id] ?? (extendedCharacterBios as Record<string, any>)[character.id];
+const richBio = (deepLeaderCharacterBios as Record<string, any>)[character.id] ?? (coreDeepOfficerCharacterBios as Record<string, any>)[character.id] ?? (lateOfficerCharacterBios as Record<string, any>)[character.id] ?? (deepOfficerCharacterBios as Record<string, any>)[character.id] ?? (officerCharacterBios as Record<string, any>)[character.id] ?? (lateRetiredOfficerCharacterBios as Record<string, any>)[character.id] ?? (retiredOfficerCharacterBios as Record<string, any>)[character.id] ?? (sniperCharacterBios as Record<string, any>)[character.id] ?? (directorCharacterBios as Record<string, any>)[character.id] ?? (gameOfficerCharacterBios as Record<string, any>)[character.id] ?? (finalStaffCharacterBios as Record<string, any>)[character.id] ?? (lateStaffCharacterBios as Record<string, any>)[character.id] ?? (staffCharacterBios as Record<string, any>)[character.id] ?? (latePlateletCharacterBios as Record<string, any>)[character.id] ?? (deepPlateletCharacterBios as Record<string, any>)[character.id] ?? (plateletCharacterBios as Record<string, any>)[character.id] ?? (lateVipCharacterBios as Record<string, any>)[character.id] ?? (deepVipCharacterBios as Record<string, any>)[character.id] ?? (vipCharacterBios as Record<string, any>)[character.id] ?? (deepArchiveCharacterBios as Record<string, any>)[character.id] ?? (archiveCharacterBios as Record<string, any>)[character.id] ?? (extendedCharacterBios as Record<string, any>)[character.id];
 const leaderDeepBioGuard = new Set(["mugen"]);
 const leaderDeepBio = (deepLeaderCharacterBios as Record<string, any>)[character.id];
 if (leaderDeepBioGuard.has(character.id) && !leaderDeepBio) {
   throw new Error(`Priority Leader character ${character.id} lost its cross-archive deep bio.`);
+}
+const coreOfficerDeepBioGuard = new Set(["gabu"]);
+const coreOfficerDeepBio = (coreDeepOfficerCharacterBios as Record<string, any>)[character.id];
+if (coreOfficerDeepBioGuard.has(character.id) && !coreOfficerDeepBio) {
+  throw new Error(`Priority Officer character ${character.id} lost its cross-archive deep bio.`);
 }
 const plateletRichBioGuard = new Set(["scar", "dyingfox", "ryo", "dean", "tae", "zoshaa", "candy", "cele"]);
 if (plateletRichBioGuard.has(character.id) && !richBio) {
