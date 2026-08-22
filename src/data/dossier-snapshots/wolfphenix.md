@@ -13,7 +13,7 @@ roles:
   - "Game Officer"
 eraStart: 2020
 
-summary: "Wolfie draws nineteen Officers and Snipers into one neon UL anniversary alley. Kaede comes back five days later with an eight-message thank-you explaining that seeing himself in her picture made him feel remembered and part of the family."
+summary: "WolfPhenix enters UL as one of the four Altissa friends who came with Mugen, then becomes increasingly visible through creative and operational contribution: Photo Submissions and planners in 2021, announcements and house shorthand in 2022, the nineteen-person anniversary artwork and shared-file collaboration in 2023, planner continuity in 2024, another explicitly `UL ENOUGH` redesign in 2025, and reunion-era familiarity in 2026."
 
 summaryEvidence: "archive-confirmed"
 publication: "public"
@@ -28,7 +28,6 @@ claims:
     evidence: "user-confirmed"
     sources:
       - label: "Mugs-confirmed command chart"
-        href: "/roles/officers"
   - text: "WolfPhenix holds the News Editor appointment and also carries Game Officer status."
     evidence: "user-confirmed"
     sources:
@@ -145,60 +144,48 @@ tags:
   - "family"
 ---
 
-## LOOK WHAT WOLFIE MADE
+# WolfPhenix
 
-March 14, 2023. Wolfie drops one image into the Louvre:
+WolfPhenix belongs to UL's founding circle as one of the four Altissa friends who came with Mugen when Mugen founded the club. She is now a Caporegime, News Editor, and Game Officer, but the archive does not freeze her in March 2020 or turn the later titles into an appointment chronology. It shows her continuing to make and maintain things as UL changes around her.
 
-> **Happy Anniversary Underlords! Welcome to Our Friendly Neighborhood Mafia Fam!**
+## 2021 — CREATIVE CONTRIBUTION AND PRACTICAL PLANNING ARE ALREADY SIDE BY SIDE
 
-The room immediately disassembles.
+In June 2021, Wolf posts Photo Submissions material captioned **`Ansun uwu`**. By November she is also posting a Weekly Planner and asking members to tell her what needs adding or changing.
 
-Mugs hyperventilates, summons Daya, notices Bunbun, starts **LET'S PLAY NAME THE CHARACTER**, and begins cropping people out of Wolfie's picture for identification. Rummy joins the investigation. Ansun screams because **OUR NAMES** are written on the floor and then loses a fight with the word `FLOOR`. Wolfie quietly confirms guesses while everyone else behaves like she has handed them the Zapruder film.
+Those are different kinds of contribution—one visual/social, one operational—but the pairing becomes characteristic over time. Wolf's archive is not only "artist" and not only "staff who posts schedules." She moves comfortably between making the group look like itself and making sure the group's information is usable.
 
-Eventually Mugs calls it:
+## 2022 — THE ROOM HAS SHORTHAND FOR HER, AND SHE IS STILL DOING THE PRACTICAL WORK
 
-> **officers and snipers all in!**
+By September 2022, **Wolfie** is shared shorthand. Gabu jokes **`wolfie is giant, gilli is ant`**; Wolf wheezes. Mugen later explains that Dean sees purple and thinks **`purple = wolfie`**.
 
-> **thats 19 people she drew plss thats a lot of work**
+Those are peer jokes, not verified height or proof of a deliberate purple personal brand. Their value is familiarity: Wolf has been around long enough for the room to compress her into associations everybody understands.
 
-The image itself is peak UL visual language concentrated into one alley: the **UnderLords Strip Club**, a gamer-streaming sign, UL Casino, UL Daycare, Drink Water graffiti, dumpsters, names scrawled around the architecture, and nineteen stylized people occupying the same ridiculous place.
+The same month she posts practical Star of Cassell alerts in Announcements. The social shorthand and the operational contribution coexist; one does not cancel the other.
 
-This is not a clean corporate anniversary graphic. It is Wolfie turning the group's own accumulated nonsense into a family portrait.
+## 2023 — THE ANNIVERSARY ART TURNS YEARS OF HOUSE LANGUAGE INTO A FAMILY PORTRAIT
 
-## THEN KAEDE WRITES THE CAPTION IT DIDN'T HAVE
+On March 14, Wolf posts **`UL_Mafia_Ani.jpg`** in the Louvre with **`Happy Anniversary Underlords! Welcome to Our Friendly Neighborhood Mafia Fam!`**. The room starts identifying the characters. Mugen eventually concludes that the Officers and Snipers are all in: **nineteen people**.
 
-Five days later Kaede returns to Wolfie's post and writes eight messages about it.
+The exact recovered image is joined to Wolf's post, so this is one of the places where maker/uploader credit is unusually solid. More importantly, the archive does not need an outside critic to guess what the picture meant to the people inside it.
 
-He thanks **"Lil Wolfie"** for the time she spent. He says seeing himself in the drawing beside people he considers wonderful gave him relief and happiness because he had a family he loved and believed loved him. He thanks her for **making a space for him among everyone**.
+Five days later, Kaede writes eight messages about the drawing. He says seeing himself among people he considers wonderful gave him relief and happiness, reminded him he had a family he loved and believed loved him, and made him grateful Wolf had **made a space for him among everyone**. Wolf answers with gratitude, family language, and a hope for more **`amazingly chaotic nonsensical memories`**.
 
-Then he starts inspecting the actual craft: lighting, alley, club venue, LED panels, graffiti, names, individualized faces and poses, even the fact that zooming preserves the tiny details.
+That exchange is not an exclusive friendship ranking. It is direct evidence of one member telling the artist what inclusion in her communal picture did to him.
 
-And finally the Louvre acquires one of the great unanswered questions of UL civilization:
+Later that June, Wolf is in the communal doodle project helping Sye think through layer movement while Sye diagnoses a larger stale-copy problem. Again, visual work and practical file behavior occupy the same person.
 
-> **"I've always wondered 'why is UnderLords a stripper club'"**
+## 2024–2025 — THE CONTRIBUTION DOES NOT END WITH THE ANNIVERSARY CENTERPIECE
 
-Kaede's answer is effectively: whatever, if it means being here with you people, I'm proud to be one.
+In April 2024, Anayss asks for event updates. Wolf finds an older planner, revises it, and again asks for missing events or incorrect times. The 2021 planner was not a one-season artifact; she is still willing to reopen the file years later and make it useful again.
 
-Wolfie answers **"awww kaeeedeeeee"**, thanks him back, calls the group their wonderful family, and hopes for more **"amazingly chaotic nonsensical memories"** together.
+In May 2025, she returns to the Louvre with a three-stage doodle process and gives the design test herself: the first idea **`didnt feel UL ENOUGH`**. So she redesigns it, shows the revised look and process, and ends with **`Love you guys`**.
 
-That pairing matters. We do not have to stand outside the picture and invent what communal art meant. One of the people Wolf drew told her.
+That sentence is a better description of mature UL visual culture than a fixed brand guide. The question is not only whether the object uses the right logo. It is whether Wolf feels it has accumulated enough of the group's own language to read as them.
 
-## 2025 — IT DIDN'T FEEL UL ENOUGH
+## 2026 — FOUNDING HISTORY HAS BECOME REUNION FAMILIARITY
 
-Two years later Wolfie drops another Louvre artifact after a long gap and gives us the designer's test in one sentence:
+When Whiskey wakes up during the August reunion, Wolf calls it **`de corpses are aliiive`** and says **`time to draag`**. A little later Mugen tags Wolf, Gilli, and Gabu with **`pls babysit halp`** before leaving for a meeting; Wolf replies `🫡`.
 
-> **first image was the beginning idea, but it didnt feel _UL_ ENOUGH**
+That is not a new appointment or hidden seniority chart. It is the late-era version of the same continuity: Wolf is still one of the people Mugen can address without reintroducing the relationship, and Wolf is still participating in the room as both contributor and family member.
 
-So she redesigns it.
-
-The recovered three-stage process goes from a looser dessert sketch into an increasingly elaborate Underlords-branded confection with neon linework, skull/heart forms, whipped cream, fruit, wafers, sparks, and `UnderLords` written into the final object. She explicitly posts the first idea, the revised `UL lewk`, and the finished result.
-
-That is a beautiful complement to the broader PR finding that UL never had one fixed visual brand. Wolfie is demonstrating the actual internal criterion: not **does this match the logo**, but **does this feel sufficiently UL**.
-
-Apparently even by 2025 the answer could still be **no, needs more nonsense**.
-
-## THE ROOM DOES NOT NEED THE TITLE CARD
-
-The origin still matters: Wolf came with Mugen from Altissa when Mugen started UL. But the later archive does not keep her frozen in March 2020 like a founding-statue problem.
-
-She keeps making things, updating things, remembering things, and occasionally producing an image so densely Underlords that another member needs eight messages to explain why it made him cry in the good way.
+The biography therefore progresses cleanly: pre-UL friend / founding-circle member → visible creative and planning contributor → socially recognizable house figure → artist of a major communal memory object → continued maintenance and redesign years later → reunion-era familiarity. The titles matter. The years explain the person wearing them.
