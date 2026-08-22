@@ -6,7 +6,7 @@ aliases:
 roles:
   - "Officer"
 eraStart: 2020
-summary: "Nelph writes announcements like push notifications: come to club base, place your bets, voting ends in six minutes. When a scam warning lands, she follows it with the literal 2FA menu path. Panic gets a settings menu."
+summary: "Nelph's surviving archive is clearest in 2021, when her announcements repeatedly turn information into an action: come to base, place bets, vote now, enable 2FA here. A 2023 invite reference shows she remained a social bridge after that operational period, and the 2026 reunion still greets her with old familiarity."
 summaryEvidence: "archive-confirmed"
 publication: "public"
 claims:
@@ -68,10 +68,30 @@ tags:
   - "security-guidance"
 ---
 
-## THE ANNOUNCEMENT IS NOT DONE UNTIL IT HAS A VERB
+# Nelph
 
-Nelph's announcement register is remarkably allergic to passive information. Dragon Breath is not merely up: **`Come to club base!`** A later reminder keeps the routing and adds the house seasoning: **`COME TO CLUB BASE TO SPANK SOME DRAGONS BOOTY`**. Star of Cassell is not merely open: **`PLACE YOUR BETS!`** By December the reminder has acquired a clock: **`VOTING ENDS IN 6 MINS`**. The wording keeps doing the same small piece of labor—state what changed, then tell the room what it can do next. Even the joke does not interrupt the instruction. Apparently operational clarity and dragon-ass violence can occupy the same sentence without incident.
+Nelph is filed in the current roster as a retired full Officer. The archive does not give a complete appointment/departure chronology, but it does preserve a useful three-stage biography: visible operational work in 2021, an intervening social bridge in 2023, and familiar reunion recognition in 2026.
 
-The stronger version lands on November 22. Nelph posts a scam warning, gives the immediate precaution, reminds people about 2FA, and then comes back about three minutes later with the actual settings path: **`profile > account > enable 2FA`**. The useful character beat is not whether every technical detail of the circulating warning was correct; the attached image is not being silently promoted into verified cybersecurity intelligence. It is the follow-through. Alarm becomes procedure. **Panic gets a settings menu.**
+## 2021 — HER ANNOUNCEMENTS KEEP ENDING WITH WHAT TO DO NEXT
 
-That makes the later continuity material read differently. The person somebody still knew to ask for an invite in 2023 was not only an old name hanging around the social map; the 2021 archive catches Nelph doing a very specific kind of house work. Her notices keep trying to leave the reader with an action rather than a mood. **The ping has a verb.**
+Across November and December, Nelph repeatedly posts game notices that are allergic to passive information. Dragon Breath is up, so **come to club base**. Later it is up again, so **`COME TO CLUB BASE TO SPANK SOME DRAGONS BOOTY`**. Star of Cassell is up, so **`PLACE YOUR BETS!`**. Voting is closing, so the room gets **`VOTING ENDS IN 6 MINS`**.
+
+The house language can be ridiculous, but the instruction remains visible inside it. Nelph does not merely say something happened; she routes the reader toward the next action.
+
+November 22 gives the stronger version. She posts a scam warning, tells Staff not to click unfamiliar material before it loads, reminds them to enable 2FA, then comes back a few minutes later with the literal Discord path: **`profile > account > enable 2FA`**.
+
+The archive is not independently adjudicating every technical claim in the warning, and the attached image remains unseen. The character evidence is the follow-through. Alarm becomes a usable step.
+
+## 2023 — THE OLD OPERATIONAL NAME IS STILL A PERSON PEOPLE CAN ASK
+
+In June 2023, LuCiel explains a return to Discord with **`i quit the game saw cute emotes and asked @N E L P H for invite ez`**.
+
+That does not make Nelph a formal Recruiter or tell us exactly who executed the invite permissions. It does matter for continuity. The 2021 operational file is not followed by a blank five-year disappearance. At least one person still knows Nelph as somebody they can contact to get back into the house.
+
+## 2026 — THE REUNION DOES NOT NEED REINTRODUCTION
+
+When Nelph appears in Whiskey during the 2026 reunion, Mugen greets **`NELPHIE`**. Nelph answers **`HI MUGS!!`** and **`IM ALIVE`**.
+
+That is enough. No lore recap, no formal introduction, no role explanation. The relationship resumes in the old register.
+
+The progression is modest but complete: in 2021 Nelph is visibly helping the room act; in 2023 she still functions as a social point of contact; in 2026 the house recognizes her instantly. Her retired-Officer status belongs on the file, but the biography is better when it shows the continuity instead of turning one set of announcement habits into a themed personality exhibit.

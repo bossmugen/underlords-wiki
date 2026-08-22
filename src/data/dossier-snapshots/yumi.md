@@ -6,7 +6,7 @@ aliases:
 roles:
   - "Retired Officer"
 eraStart: 2020
-summary: "Training Arena gets `PUNCH AND DO ME PROUD`; an Enneagram read gets revised in public, then briefly lands `close to home...`; bad premises get returned as `VORE`. The loud lines are memorable. The quiet one is where the person shows through."
+summary: "Yumi's surviving 2020 file is small but distinct: she can turn a Training Arena callout into `PUNCH AND DO ME PROUD`, escalate a ridiculous premise straight to `VORE`, and—more quietly—revise her own reading during an Enneagram conversation until she admits part of it feels `close to home...`. Her later roster history records her as a retired full Officer and historical Pit Boss."
 summaryEvidence: "archive-confirmed"
 publication: "public"
 claims:
@@ -57,3 +57,31 @@ tags:
   - "training-arena"
   - "deadpan-escalation"
 ---
+
+# Yumi
+
+Yumi is a retired full Officer and historical Pit Boss. The surviving character file is still much thinner than the role history, so the biography should not pretend otherwise. What 2020 gives us is three useful glimpses of the same person in different registers: public encouragement, deadpan house escalation, and a much quieter moment of self-revision.
+
+## MAY 2020 — THE PUBLIC VOICE IS LOUD AND DIRECT
+
+Twenty-five seconds after an unresolved Deleted User announces that Training Arena is about to begin, Yumi posts **`PUNCH AND DO ME PROUD @everyone`**.
+
+The preceding account stays unresolved; only Yumi's own line belongs to her file. In context, the phrase is game-event encouragement, not real-world violence. It is also an efficient first impression: no preamble, no motivational speech, just a command that turns the room's attention toward participation.
+
+## 2020 — THE HOUSE-JOKE VERSION OF YUMI LIKES THE FASTEST POSSIBLE ESCALATION
+
+Elsewhere in Club Only, bad premises get returned with very little processing time. A **`tonight is lets break suzi`** joke is one example. Months later Mugen proposes **`absorb them into us`**; Yumi reduces the metaphysics to **`so eat them`**, then lands on **`VORE`**.
+
+These are joke-language receipts, not literal harm or sexual biography. Their character value is rhythm. Yumi does not need to build a long bit when one blunt escalation will do.
+
+## SEPTEMBER 2020 — THE QUIETER FILE SHOWS HER CHANGING HER OWN MIND IN PUBLIC
+
+During an Enneagram/self-reading conversation, Yumi first says **`i don't think i'm people pleasing and possessive`**. Then: **`okay maybe a little people pleasing`**. As she keeps reading, she says some of it feels like her **a lot**.
+
+After posting an image she writes **`this scares me a bit tho`**. The image is exactly joined to the post but was not visually inspected in this pass, so the bio does not invent what specific text prompted the reaction. Mugen asks whether it is because the material hits close to home. Yumi eventually answers: **`close to home...`**.
+
+The useful progression is inside the conversation itself. Yumi starts by rejecting a description, revises part of that judgment, then acknowledges personal resonance without explaining the private experience underneath it.
+
+That is not a diagnosis and does not establish a permanent trait. It is simply one of the better moments where the archive catches somebody thinking out loud instead of arriving with a finished self-description.
+
+The file currently ends there. Later roster canon gives Yumi the retired-Officer / historical Pit Boss history, but the dated appointment sequence and richer later personal scenes have not yet been migrated. The correct bio therefore stays compact: loud encouragement, deadpan escalation, then a brief piece of controlled vulnerability. No filler required.

@@ -5,7 +5,7 @@ aliases:
   - "eurosabraxas"
 roles:
   - "Retired Officer"
-summary: "Retired full Officer and historical Pit Boss whose 2020 archive trail survives under the Euros / eurosabraxas identity."
+summary: "Illien's 2020 archive starts with a newcomer waiting patiently for access, then follows him into the house: trying not to distract people, welcoming newer arrivals while admitting he still gets lost, and eventually speaking fluent UL nonsense about robberies, hugs, bot bites, broken bathrooms, and being a secret cat. His later roster history records him as a retired full Officer and historical Pit Boss."
 summaryEvidence: "user-confirmed"
 publication: "public"
 claims:
@@ -93,112 +93,36 @@ tags:
 
 # Illien
 
-**Illien — Wall, December 4, 2020:**
+Illien is a retired full Officer and historical Pit Boss. In the 2020 archive he appears under **Euros / eurosabraxas**, and that year gives a surprisingly complete miniature biography: the room first meets him at the door, then watches him become comfortable enough to welcome other people, complain about his bathroom, hug Anthos, deploy bot bites, and attempt a catastrophically short-lived cat cover story.
 
-> “Day 187, humans still don't suspect I'm a cat”
+## MAY–JUNE 2020 — NEWCOMER, CAREFUL WITH HIS PRESENCE
 
-Nine seconds.
+On May 28, Gilli tells Euros to wait while she gets his access together. Illien answers **`I won't move a muscle`**. It is an ordinary onboarding exchange, but it gives the starting posture clearly: patient, cooperative, not yet acting like he owns the building.
 
-> “Fuck”
+A week later in Club Only, Illien says he can hear the conversation but is deliberately not talking because he does not want to distract someone: **`I'm not talking just to avoid distracting you 🙂`**. The archive cannot safely resolve the singular `you`, so it stops there. Mugen's reply is more general and very UL: **`they can distract themselves just fine illien`**.
 
-Excellent covert operation.
+The useful character beat is the silence Illien was choosing. Before the room becomes familiar enough to absorb every thought, he is still monitoring how much space he takes up.
 
-The raw export calls him **Euros** here. Same man. Illien is the name on the file; Euros is the name the room was yelling at in 2020.
+## AUGUST 2020 — HE IS WELCOMING PEOPLE BEFORE HE FULLY KNOWS THE MAP
 
-Later that night he returns with **`:Kittysip:`** and:
+By August, Illien is on the other side of the Lobby interaction. He welcomes Allenne, then forty-seven seconds later asks Ansun and Anthos to help with the tour because he still gets lost in the server.
 
-> “Meowone shall know”
+That is exactly the kind of progression these bios should preserve. He is no longer merely the person waiting for access; he is trying to help somebody else enter. He just has enough self-awareness to admit that the guide also needs a map.
 
-No, apparently meowone would not.
+## SEPTEMBER–OCTOBER 2020 — THE HOUSE HAS BECOME ORDINARY ENOUGH TO BE WEIRD
 
-## PLEASE HOLD WHILE WE FIND THE BUILDING
+By late September, Illien is speaking the room's language fluently. A proposed lunch with Sou becomes a joke about paying more for an in-person meeting. On September 30 he surveys another burst of bot-economy nonsense and writes **`I see that everyone is robbing each other again`**.
 
-**Lobby — May 28, 2020.** Illien has just arrived.
+**Again** is the important word. The behavior is no longer an alarming new event. It is a recurring condition of residence.
 
-**Gilli:**
-> “@Euros Hey! One sec while I get everything together for you okay ^_^”
+October 1 compresses the mature house version of Illien into a few hours. He says **`I was in a rush to hug anthos uwu`**. Rooks tells him to sleep; Illien says he cannot because people are still **`BREAKING MY FREAKING BATHROOM`**. Elsewhere he corrects the room's terminology—something looks more like a bite than a nom—and twelve seconds later tests the distinction with **`eli bite @Mugen`**.
 
-**Illien:**
-> “I won't move a muscle”
+The bot command is play, not literal violence. The bathroom complaint is domestic life leaking into the chat. Together they show how far the tone has moved from May's careful newcomer. Illien is fully inside the room now: affectionate, irritated, precise about stupid terminology, and comfortable enough for real-life inconvenience to become shared continuity.
 
-Twenty-two seconds later Gilli tells him he should be able to see a lot more. Very normal onboarding. Everybody still knows where the doors are.
+## DECEMBER 2020 — THE COVER STORY FAILS IN NINE SECONDS
 
-Then August happens.
+On December 4, Illien posts a Wall attachment and announces **`Day 187, humans still don't suspect I'm a cat`**. Nine seconds later: **`Fuck`**. Later he adds `:Kittysip:` and **`Meowone shall know`**.
 
-**Illien — Lobby, August 13, 2020:**
-> “@Allenne Welcome!! 😄”
+The image stays unseen and undescribed. The line needs no visual explanation anyway. By the end of the surviving 2020 arc, Illien is not only participating in UL's joke language; he is manufacturing his own tiny mythology for the room to knock over.
 
-Forty-seven seconds later:
-
-> “@颯太 @ₓₒà𝓃𝓉𝒽𝓸𝓈 ¤ would you guys help me with the tour? I still get a bit lost here LMAO XD”
-
-This is UL in miniature. Welcome to the house. Your guide would also like a guide.
-
-## HE IS BEING QUIET FOR YOUR BENEFIT. MUGS REJECTS THE PREMISE.
-
-**Club Only — June 4, 2020.** Illien says:
-
-> “I can hear lol”
-
-Eighteen seconds later:
-
-> “I'm not talking just to avoid distracting you 🙂”
-
-The archive does not safely resolve who the singular **you** is, so the page is not inventing a recipient. The behavior is already enough: Illien is actively managing his own presence because he thinks talking might make somebody else's concentration worse.
-
-Forty-six seconds later Mugen replies:
-
-> “they can distract themselves just fine illien”
-
-That is such a clean early-house exchange. Illien is trying to practice social restraint; Mugs informs him the specimens are independently capable of ruining their own focus. The care is in the silence he was choosing. The joke is that UL apparently did not require outside assistance.
-
-## EVERYONE IS ROBBING EACH OTHER AGAIN
-
-By fall, Illien is not standing at the door anymore. He is in the living room watching the furniture catch fire with everybody else.
-
-**Illien — Club Only, September 30, 2020:**
-> “I see that everyone is robbing each other again”
-
-Not *why are you robbing each other.*
-
-**Again.**
-
-The word does all the work. This is not an emergency. This is Tuesday.
-
-## SEMANTIC QA IMMEDIATELY BECOMES FIELD TESTING
-
-**Club Only — October 1, 2020.** Illien inspects whatever the room has just called a nom and files a terminology correction:
-
-> “Though that looks more like a bite than a nom”
-
-Twelve seconds later:
-
-> “eli bite @Mugen”
-
-Sir. You were reviewing nomenclature. Why is management now part of the test environment.
-
-The bot syntax is ordinary UL social play, not evidence that Illien literally bit anybody and definitely not relationship canon. What it *does* give us is a very Illien little motion: notice a distinction, say the distinction out loud, then immediately interact with the newly clarified category. Observation has become QA. QA has become Boss-targeted implementation.
-
-## THE 4 A.M. BATHROOM FILE
-
-The same morning starts softer elsewhere in the room.
-
-**Illien — Club Only, October 1, 2020:**
-> “I was in a rush to hug anthos uwu”
-
-Anthos answers with `>//<`.
-
-Nineteen minutes later the tone has changed because real life has entered the chat carrying power tools.
-
-**Rooks:**
-> “eli sleep @Euros”
-
-**Illien:**
-> “And can't sleep because they are still BREAKING MY FREAKING BATHROOM”
-
-**Anthos:**
-> “still???”
-
-There it is. Not just the broken bathroom. **Still.** The room already knows about the bathroom. The complaint has continuity. Everybody has apparently been following renovations against their will.
-
-Illien's 2020 file is like that: considerate enough to mute himself for somebody else's concentration, strategy one minute, `uwu` the next, newcomer welcome desk, terminology review that somehow becomes a bot bite, cat cover story, household complaint. The retired Officer title tells you where he sat in UL. The quotes tell you who was sitting there.
+His later Pit Boss / full-Officer history is locked roster canon, but the appointment timeline is not reconstructed. The biography does not need to fake one. The archive already gives the progression that matters: newcomer → considerate participant → imperfect tour guide → completely acclimated house person. The title comes later; the person is already visible.

@@ -11,7 +11,7 @@ roles:
   - "UL Interrogator"
   - "Game Officer"
   - "Platelet"
-summary: "Turns `somebody should make something` into a group activity before anyone realizes they volunteered. Also managed to make UL tenure require birthday candles."
+summary: "Mia's surviving timeline moves from compact Wall reactions in late 2022 into a first-UL-anniversary celebration in March 2023, reciprocal house-family shorthand with Momo, and then a summer where she turns Ren's blank-canvas idea into a communal doodle project and comes back for a banana sequel. Her current Pit Boss / Interrogator / Game Officer / Platelet stack is locked separately from that progression."
 summaryEvidence: "archive-confirmed"
 publication: "public"
 claims:
@@ -93,40 +93,34 @@ tags:
   - "anniversary"
 ---
 
-## THE FILE IS BIGGER THAN THE BADGES
+# Mia
 
-The roles are real. They are also the least interesting way to explain her. Ren says blank canvas; Mia is already opening one. Gilli says **`With themes!`**; Mia actually comes back with part two. Her recurring move is not `creative person`—half this circus could claim that. It is turning somebody else's premise into a participation surface before the sentence has cooled.
+Mia is a current Pit Boss, UL Interrogator, Game Officer, and permanent Platelet. She is not Han and was never Media Director. The titles are clean; the interesting part is how the archive shows her becoming an established house person before it ever tries to explain the specialist stack.
 
-The June 2023 sequence is beautifully unceremonious. Ren proposes the blank canvas. Mia answers **`Lemme get one`**, then **`I started it`**, then starts collecting Staff doodles by DM. There is almost no rhetorical distance between idea and production. A week later Gilli asks for themes. By July, Mia has returned with banana doodles because apparently the department of escalating somebody else's bit remains fully staffed.
+## LATE 2022–EARLY 2023 — THE WALL ALREADY KNOWS HER VOICE
 
-That does not create a permanent creative department or make every shared visual object Mia's work. It does show a repeatable reflex: give her a premise that can become communal, and she starts making room for other people's marks.
+The earliest clean character pattern here is small. Across Wall exchanges aimed at Rummy, Mia answers in compressed bursts: **`LMAOO`**, **`yusss`**, or basically a wheeze plus Rummy's name. When Nobu asks **`Rummy has rizz??`**, Mia's **`yusss`** gets six Fat_Wheeze reactions.
 
-## UL TENURE, BUT MAKE IT A BIRTHDAY
+That is not a total personality theory and not a private Rummy/Mia relationship rank. It is the archive catching Mia already fluent in a room where one-word ratification can be enough because everybody knows the surrounding joke.
 
-March 1, 2023, Mia does not write an anniversary memo. She writes **`happy birthday to ul`**, says the first year has been a blast, and announces she cannot wait to start her second.
+## MARCH 2023 — ONE YEAR IN, SHE CALLS UL'S ANNIVERSARY HER BIRTHDAY TOO
 
-The wording is small and weirdly revealing. UL tenure gets translated into a birthday, which makes membership sound less like a service record and more like something alive enough to have candles. The archive does not need to turn that into a precise join timestamp. Her own sentence already tells us what the milestone meant to her.
+On March 1, Mia writes **`happy birthday to ul first year been a blast with YALLL can’t wait to start my second year`**. The message supports her own first-anniversary framing without giving us a more precise formal join timestamp.
 
-## AND THEN THERE IS SCREENSHOT JAIL
+The wording is revealing because she measures tenure as something lived with people, not merely time attached to a roster. By the point the archive can date the milestone, Mia already talks about UL as a year she has had **with y'all** and another year she expects to continue.
 
-Rummy makes the pattern easiest to see, but she does not own it. Mia's Wall mode is compression: react, ratify, file, move.
+## APRIL 2023 — THE HOUSE SHORTHAND GETS PERSONAL
 
-Nobu asks **`Rummy has rizz??`**. Mia answers **`yusss`**. Six Fat_Wheeze reactions arrive. In another sequence she gives Rummy **`LMAOO`**. Elsewhere it is essentially just the wheeze plus her name.
+A month later the Wall gives two more pieces of social texture. Oyasumi challenges why one of Mia's own exhibits belongs there; Mia answers simply **`It funny`**. The attachment stays unseen. The editorial standard, apparently, does not require a longer brief.
 
-Then Oyasumi challenges one of Mia's own exhibits with **`Why is this here`**.
+Then Mia writes **`me and momo are twinsss`**. Momo answers **`Mimi’s twin`**; Mia says **`love u twinnn`** and Momo returns it. Two days later the twin joke appears again. It is affectionate house language, not biology and not a closeness ranking. The important part is reciprocity: Mia names the shorthand, Momo accepts it, and the relationship acquires one more stupid public label.
 
-Mia's defense of the editorial policy is two words:
+## JUNE–JULY 2023 — SHE STARTS TURNING OTHER PEOPLE'S IDEAS INTO THINGS EVERYBODY CAN TOUCH
 
-> `It funny`
+Ren proposes a blank canvas where Platelets can draw and the result can become a poster. Mia answers almost immediately: **`Lemme get one`**, then **`I started it`**, then opens a DM lane for Staff doodles she can add.
 
-No precedent. No foundation. No evidentiary hearing. The prosecution rests because apparently humor has original jurisdiction.
+The movement from premise to production is almost instantaneous. Gilli sees the result and asks for more **`With themes!`**. By July, Mia is back with **`doodles part 2`**, now involving bananas because the project has already acquired UL's normal relationship with escalation.
 
-The screenshots themselves remain a boundary. If an attachment has not been visually inspected, the page does not invent what it shows merely because the surrounding room is laughing.
+That does not create a permanent creative department or make every doodle Mia's work. It shows a repeatable role in one well-receipted chain: somebody proposes a communal object, Mia starts the file and makes room for other people's contributions, then comes back when the group wants another round.
 
-## `MIMI'S TWIN`
-
-April 7 gives Mia another kind of compressed social language. She writes **`me and momo are twinsss`**. Momo answers **`Mimi’s twin`**. Mia replies **`love u twinnn`**; Momo sends it back. Two days later the joke resurfaces: **`you are both Mimi & Momo.`**
-
-It is affectionate house language, not genealogy and not a closeness ranking. The useful part is how quickly the joke becomes reciprocal. Mia names the bit, Momo accepts and returns it, and the room now has one more stupidly efficient shorthand for a relationship that does not need a formal title.
-
-The specialist label stays **UL Interrogator**. The archive character underneath it is somebody who can turn a blank canvas into communal doodles, a year of membership into a birthday, and a challenged Wall exhibit into **`It funny`** before counsel has located the rest of the sentence.
+The current specialist titles should stay separate from appointment chronology. The archive already gives a better progression: familiar Wall voice → one-year belonging → reciprocal house-family shorthand → active culture-making. By the time the roster calls Mia an Interrogator and Pit Boss, the person is already more than the badges.

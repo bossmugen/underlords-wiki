@@ -5,7 +5,7 @@ aliases:
 roles:
   - "Consigliere"
 eraStart: 2022
-summary: "At his clean surviving 2022 door receipt, Oyasumi answers the Stripclub Bouncer with `Boy what the hell boy` and fills the form out anyway. By May 2023 he is on the other side of the Lobby putting `Yay you made it` seconds ahead of the inherited safety packet; Screenshot Jail gets `hard evidence of your crimes`."
+summary: "Oyasumi's archive starts with him meeting UL's intake machinery in 2022 and answering `Boy what the hell boy` before filling the form out anyway. By 2023 he is on the other side of that same doorway, greeting newcomers before delivering the shared safety packet; by 2026 he is a familiar reunion voice still trying, unsuccessfully, to appear normal."
 summaryEvidence: "archive-confirmed"
 publication: "public"
 claims:
@@ -95,106 +95,30 @@ tags:
 
 # Oyasumi
 
-Oyasumi is a current Consigliere / Senior Advisor. The clean surviving Lobby trail for stable account `826020857410486272 / oyasumi0656` starts in February 2022; the current command rank is locked separately and is **not** backdated from whatever roles the exporter later attached to old messages.
+Oyasumi is a current Consigliere / Senior Advisor. The archive does not date that appointment from old role snapshots. Instead, it gives a cleaner social progression: first he encounters UL's front-door procedure as the person being processed; a year later he is one of the people helping newer arrivals through the same machinery.
 
-That distinction matters because the first good door scene is not an appointment. It is a man meeting UL paperwork.
+## 2022 — THE FORM MEETS THE PERSON
 
-## BOY WHAT THE HELL BOY. FILL OUT THE FORM.
+On February 25, the Underlords Stripclub Bouncer asks Oyasumi for IGN, club, and age. Oyasumi's first answer is **`Boy what the hell boy`**, immediately followed by the requested fields: `IGN: TankHead94`, `Club: Underlords`.
 
-On February 25, 2022, the **Underlords Stripclub Bouncer** does what the Bouncer does:
+The historical age stays backstage. The character beat is already complete. He objects to the experience without refusing the process. Complaint and compliance occupy the same entrance.
 
-> `Hey @Oyasumi, welcome to Underlords! Pls state your ign / club and age for role assignment. Thanks`
+By August, he is fully inside a different house system: Screenshot Jail. Oyasumi says **`Didn't want to crop me in this mess`**, then immediately concedes **`Still hard evidence of your crimes`**. The adjacent attachment remains unseen, but the language shows that he has already learned the room's fake legal dialect. Personal inconvenience does not invalidate the exhibit, apparently.
 
-Two minutes and forty-six seconds later, Oyasumi answers:
+## 2023 — HE MOVES TO THE OTHER SIDE OF THE LOBBY DESK
 
-> `Boy what the hell boy`
->
-> `IGN: TankHead94`
->
-> `Club: Underlords`
+In May 2023, Oyasumi repeatedly delivers UL's mature welcome packet: Platelet/minor caution, sensitive-topic boundaries, Biodata, Discord Tour, Whiskey Room. The wording is shared house copy and does not belong to him uniquely.
 
-The old age line exists in the intake and stays backstage. The useful part is already sitting above it.
+What is specific is the order he keeps putting around it. **`Yay you made it`** comes seven seconds before one packet. **`welcome Worldwalker`** comes six seconds before another. Recognition first; procedure immediately after.
 
-The bot asks for a form. Oyasumi's first authored move is **`Boy what the hell boy`** — not refusal, not confusion about where he is, just a small verbal collision with the procedure immediately followed by the requested fields. Complaint and compliance occupy the same message. The paperwork survives contact with personality.
+That makes the chronology do actual work. The man whose clean Lobby file begins with **`Boy what the hell boy`** in response to the bot has not become the bot. He has become one of the humans standing beside it, adding a directed welcome before the inherited script starts.
 
-Twenty seconds later Mugen answers `Ayee`. Forty seconds after that, the Lobby is already handing Oyasumi the usual human layer: role assigned, Club Rules, Discord Tour, Biodata. Nothing here dates the later Consigliere appointment. What it does give us is a clean entrance shape: the machine names the procedure, Oyasumi reacts to the machine, then the house takes over.
+The Wall language sticks too. In December he writes **`Caught my boy in 4k`**, another easy sign that Screenshot Jail is now native vocabulary rather than an unfamiliar institution.
 
-## SCREENSHOT JAIL HAS PAPERWORK TOO.
+## 2026 — THE HOUSE STILL RECOGNIZES HIM WELL ENOUGH TO REJECT NORMALCY
 
-Five months later, Oyasumi is on the Wall trying not to be swallowed by somebody else's exhibit:
+During the August reunion, Oyasumi writes **`I hope I appear relatively normal. Fingers crossed`**. Ren immediately objects to putting **Normal** and **UL** in the same sentence. Later Oyasumi asks the room to pray for a paper cut, and the following night's Kiro exchange turns a `Dab me up` GIF into increasingly ridiculous amendment attempts.
 
-> `Didn't want to crop me in this mess`
+None of this establishes romance, diagnosis, or a prosecutor title. It establishes continuity of register. Years after the intake form, Oyasumi is still most visible at UL's little procedural edges—the Lobby, the Wall, the reunion conversation—and still placing one unmistakably human sentence next to whatever system or joke is operating there.
 
-Eighteen seconds later:
-
-> `Still hard evidence of your crimes`
-
-The adjacent image remains uninspected, so the page does not describe the crime, the defendants, or what exactly Oyasumi wanted cropped. The language is enough.
-
-There is a tiny contradiction inside the pair: **I do not want to be in this mess** immediately becomes **the mess is still admissible**. Oyasumi does not escape the screenshot by making the evidence invalid. Apparently personal inconvenience and evidentiary standards are separate departments.
-
-That is Wall language, not a job title. No Prosecutor Oyasumi. No Investigations Office. Screenshot Jail already owns the institution; this scene tells us how comfortably Oyasumi can speak its fake legal dialect once he is inside it.
-
-## A YEAR AFTER THE BOUNCER, HE IS ON THE OTHER SIDE OF THE DOOR.
-
-By May 2023, the same stable account is repeatedly carrying UL's mature welcome packet. The important detail is not merely that Oyasumi can paste the rules. It is the order he keeps choosing around the paste.
-
-On May 10 a newcomer finishes their basic introduction. Twenty-two seconds later Oyasumi writes:
-
-> `Yay you made it:Nusna_Yippee:`
-
-Seven seconds after that comes the inherited **WELCOME** packet: Platelet/minor caution, sensitive-topic boundary, no-drama rule, Biodata, Discord Tour, Whiskey Room, enjoy your stay.
-
-On May 21 he does it again:
-
-> `welcome Worldwalker`
-
-Six seconds before the same kind of house packet follows.
-
-The shared copy is not his authorship. The safety rules are not his invention. The channel map is not his private kingdom. Other people carry materially the same text, and the archive does not make Oyasumi the exclusive Gatekeeper merely because he knows where the paste button is.
-
-What is character-specific is the **sequence**.
-
-Recognition first.
-
-Procedure immediately after.
-
-The guy whose own clean Lobby file opens with `Boy what the hell boy` in response to the Bouncer has not become the Bouncer. He has become one of the humans standing beside the same machinery. The inherited packet stays intact; Oyasumi puts a directed little **you made it** in front of it.
-
-That is a better continuity story than “he did onboarding.” He has been on both sides of the exact kind of door being maintained.
-
-## THE EVIDENCE VOCABULARY STICKS.
-
-December 2023, back on the Wall:
-
-> `Caught my boy in 4k`
-
-Six `Fat_Wheeze` reactions land on the message.
-
-`Caught in 4k` is generic internet language. It does not become UL-native merely because Oyasumi says it. The useful recurrence is person-level: more than a year after **`hard evidence of your crimes`**, Oyasumi is still perfectly at home describing Screenshot Jail as somewhere a person gets **caught**.
-
-The Wall does not need him to be its prosecutor. It only needs him to understand the room's native transaction: somebody does something stupid, somebody preserves it, the group recognizes the exhibit.
-
-## NORMAL HAS BEEN DENIED BY THE HOUSE.
-
-In August 2026, Oyasumi tries one modest request:
-
-> `I hope I appear relatively normal. Fingers crossed`
-
-Ren immediately objects to putting **Normal** and **UL** in the same sentence.
-
-That lands differently after the earlier file. The Bouncer once asked Oyasumi for ordinary intake fields. Later Oyasumi helped carry the ordinary safety packet. Screenshot Jail got hard evidence. Years later he would simply like to appear normal.
-
-The room declines the application.
-
-Nothing here requires a diagnosis, a personality label, or a grand theory of the man. The archive is smaller and funnier than that. Oyasumi repeatedly appears at UL's little points of procedure — the front door, the rules packet, the evidence room — and keeps leaving a human sentence immediately beside the system.
-
-At the door, that sentence is **`Yay you made it`.**
-
-On the Wall, it is **`hard evidence of your crimes`.**
-
-At reunion age, it is a fingers-crossed request for normalcy that UL rejects on formatting grounds.
-
-The procedures stay legible.
-
-So does Oyasumi.
+The progression is the bio: processed newcomer → acclimated participant → person helping newer arrivals → familiar senior member in reunion-era UL. The current Consigliere title names where he sits now; the timeline explains how the person became legible before the badge.

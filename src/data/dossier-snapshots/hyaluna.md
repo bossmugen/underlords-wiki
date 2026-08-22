@@ -7,7 +7,7 @@ roles:
   - "Retired Officer"
   - "Underboss"
 eraStart: 2020
-summary: "Founder. Retired full Officer; historical Underboss / Deputy. Original HyaLuna, distinct from later Luna identities."
+summary: "HyaLuna begins in UL's origin story as one of the four Altissa friends who came with Mugen. The surviving April 2020 archive then places her inside the tiniest private rooms and inside Mugen's pre-leadership discussion of the ScarletMoon offer; later roster canon records her as a retired full Officer and historical Underboss."
 summaryEvidence: "user-confirmed"
 publication: "public"
 claims:
@@ -67,56 +67,26 @@ tags:
 
 # HyaLuna
 
-Founder. Historical Underboss. Original Luna file.
+HyaLuna belongs to UL before the later command chart exists. Mugen founded Underlords in March 2020, and HyaLuna was one of the four Altissa friends who came with her, alongside Ritha, WolfPhenix, and Suzimasu. Her later history places her as a full Officer in the Underboss / Deputy lane; she is now retired from that command role.
 
-## OFFICIAL FILE
+## APRIL 2020 — EARLY TRUST IS ALREADY VISIBLE
 
-HyaLuna belongs to the definitive founding five: Mugen founded Underlords, and HyaLuna was one of the four Altissa friends who came with her, alongside Ritha, WolfPhenix, and Suzimasu.
+The first surviving HyaLuna material is less about titles than access and consultation. On April 8, Snow tells Luna that she really did get the private channel she had asked for. The local sequence is the opening of `🍆ulxxx`, one of UL's tiniest and highest-clearance early rooms.
 
-Her later Officer history places her in the **Underboss / Deputy** lane. She is now represented as a retired full Officer; Founder remains origin history rather than a current command rank.
+That does not timestamp an Underboss appointment. It does show that HyaLuna is already inside the small group around which the earliest private structure is being built.
 
-## BEFORE THE DEPUTY LABEL, MUGEN IS ALREADY TALKING THE MERGER THROUGH WITH HER
+The same month, `🍑lunas-house-of-kitties` gives a different kind of private space. The scene-locally resolved Luna account opens with **`this is mine`**. Snow later gives the room a Luna-controlled keycode and its own music-bot setup, treating it as a personal chill-out room rather than another rung on the command ladder. One private room is about inner-circle access; the other is simply hers to hang out in.
 
-On April 11, 2020, Mugen brings the ScarletMoon offer into Bosses Office and tells the wider leadership:
+## APRIL 11 — MUGEN HAS ALREADY TALKED THE SCARLETMOON OFFER THROUGH WITH HER
 
-> `HyaLuna and I have discussed this last night`
+When Mugen brings the ScarletMoon proposal into Bosses Office, she tells the wider leadership that **she and HyaLuna discussed it the night before**. Then Mugen opens the question to everyone else for pros and cons.
 
-Then she asks the rest of leadership to weigh the pros and cons before a decision.
+The sequence is a useful measure of HyaLuna's place in early UL. She is not being presented as the sole decision-maker, and the receipt does not make the later discussion her policy. She is simply one of the people Mugen has already thought with before the issue becomes formal room business.
 
-The order matters. **Discussed** comes before **present**. The receipt does not turn HyaLuna into the person deciding for everybody; Mugen explicitly opens the question wider. It does show that before the proposal becomes leadership business, HyaLuna has already been inside the thought process.
+## LATER — THE ROLE FILE CATCHES UP
 
-## TWO LOCKED DOORS, TWO DIFFERENT JOBS
+User-confirmed roster history later records HyaLuna as a full Officer and historical Underboss / Deputy. The archive does not currently reconstruct a dated appointment sequence, so those later titles stay where they belong instead of being projected backward onto every April message.
 
-The April Safe House archive gives HyaLuna two kinds of private space.
+The identity boundary stays just as important. This biography is for the original HyaLuna, not Candy and not every later Luna-shaped name that appears in Discord exports. The early room context can resolve specific scenes; it cannot turn a pooled Deleted User account into HyaLuna globally.
 
-`🍆ulxxx` opens with Snow telling Luna:
-
-> `OH LUNA you thought I was kidding`
-
-The local sequence says Luna had wanted her own private channel and immediately narrows access to the tiny inner group. Mugs-confirmed canon identifies `🍆ulxxx` as UL's deepest/highest-clearance leadership room. That does **not** date an appointment. It tells us something smaller and much weirder about the room's beginning: one of the most restricted doors in early UL enters the surviving file as something Snow is telling Luna he actually built.
-
-Then `🍑lunas-house-of-kitties` opens with the scene-locally resolved Luna account saying:
-
-> `this is mine`
-
-A few days later Snow gives that room a Luna-controlled keycode, calls it a `good chill out area`, gives it its own music-bot setup, and the room knows the bot as **Peaches**.
-
-One locked door sits inside the clearance ladder. The other is a personal hangout with an owner key and a music bot. Early UL did not separate governance from friendship cleanly enough to make HyaLuna choose one kind of room.
-
-## IDENTITY LOCK
-
-There are multiple Luna-shaped identities in the broader archive. This file is for the original **HyaLuna** only.
-
-The early Safe House intake can resolve particular Luna scenes from direct address and room context. It cannot turn the pooled `Deleted User` export into HyaLuna everywhere else.
-
-**Name resemblance is not identity evidence. Local scene resolution is not a global account bridge.**
-
-## CHARACTER TAG
-
-HyaLuna is one of the three people carrying the public **Mugen's Concubines** tag, alongside Yumi and Nuien.
-
-## FILE STATUS
-
-The role file was already locked. The early-room archive finally adds the person around it: Mugen thinking a merger through with her, Snow building restricted doors around rooms she asked for, and a personal room whose first surviving territorial claim is simply `this is mine`.
-
-The original Luna still has gaps. They stay gaps instead of becoming Candy.
+What survives is enough for a restrained biography: founding-circle origin, very early private trust, consultation on one of UL's first major external decisions, and later service as a senior full Officer. The gaps remain gaps instead of becoming somebody else's Luna.

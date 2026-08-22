@@ -8,7 +8,7 @@ pronouns: "he/him"
 roles:
   - "UL Media Director"
   - "UL filmmaker"
-summary: "UL Media Director and filmmaker. Han asks to know everybody better, helps trigger Biodata into existence, builds Voice Challenge around self-expression, then quits Dragon Raja while explicitly staying `club media dude uwu`. The title survives because the work survives the game."
+summary: "Han's archive progression is unusually clean: in September 2021 he says he wants to know everybody better, helps trigger the live conversation that becomes Biodata, then builds Voice Challenge as a noncompetitive way for members to express their characters. Two months later he quits Dragon Raja while explicitly staying `club media dude uwu`; in 2022 Mugen explains that the title came from the work."
 summaryEvidence: "archive-confirmed"
 publication: "public"
 claims:
@@ -117,130 +117,34 @@ tags:
 
 # Han
 
-Han is **UL Media Director**: the filmmaker / media person behind a formal specialist job that the archive later catches Mugen explaining in unusually plain language. In September 2022 she says roles are granted primarily based on duties and points to Han's promotional-video work as the reason for Media Director.
+Han is UL's Media Director and filmmaker. He was never an Officer and is not Mia; the specialist role stands on its own. The archive gives one of the better examples of a UL title growing out of a person's actual contribution rather than becoming a substitute for the person.
 
-That is the clean part.
+## SEPTEMBER 2021 — HE WANTS TO KNOW THE ROOM BETTER
 
-The fun part is that Han's archive keeps refusing to leave him safely behind the camera.
+On September 5, Han says **`I need to get known with all of u better`**, then **`I need a fam`**. Baby Lyssa answers **`we are your fam`**. About ninety seconds later Mugen asks whether UL should have an intro page, starts crowdsourcing fields, and within minutes is making what becomes Biodata.
 
-## `I NEED TO GET KNOWN WITH ALL OF U BETTER`
+Han is not the sole inventor of Biodata; the room is visibly designing it together and the channel later says it opened by popular request. His importance in the sequence is more personal. A simple request to know people better becomes infrastructure for everybody to know everybody better.
 
-September 5, 2021. Whiskey.
+A week later Slice catches the ordinary version of the same man: **`My life is too boring to share, but here is my cat sitting in a weird pose.`** The Media Director is not only a person producing outward-facing media. He is also one of the people feeding the room's everyday self-documentation.
 
-Han says:
+## OCTOBER 2021 — THE MEDIA JOB BECOMES A PARTICIPATION FORMAT
 
-> `I need to get known with all of u better`
+Voice Challenge opens the next month under Han's organization. Members choose music for how their Dragon Raja characters might sound, pair it with character media, and share the result under `#ULvoice`. When comparison becomes a concern, Han explicitly frames the challenge as voluntary and noncompetitive: the point is fun and self-expression, not ranking who did it better.
 
-Then:
+That is the clearest progression from the September conversation. First Han wants a better way to know the people. Then he builds a media container that lets those people show more of themselves.
 
-> `I need a fam`
+The Wall keeps him inside the frame while he is doing it. He nominates **`I survived another day at work`** as a FAME moment, tells the broken-toe family story, and jokes that the Wall will soon need to be renamed after him. The specialist role does not isolate him into a production booth; he remains material for the same communal memory machine as everybody else.
 
-Baby Lyssa answers immediately:
+## NOVEMBER 2021 — THE GAME STOPS, THE UL ROLE DOES NOT
 
-> `we are your fam`
-
-About ninety seconds later, Mugen changes the scale of the problem:
-
-> `Ohhh should we have an intro page`
-
-Then fields start getting discussed. Name. Age bucket. Club. Known-for. Fun fact. A few minutes later:
-
-> `Ok hold on lemme make the page`
-
-Ren sees the front-door use almost immediately and says an intro page would be good for the welcome part of Discord. Then she asks when they are updating the Tumbleweed because apparently one identity system was not enough.
-
-The sequence matters because it is not Han solemnly founding Biodata. He makes an ordinary social request — **I want to know everybody better** — and the room turns that need into infrastructure at terrifying speed.
-
-Biodata later says it opened by popular request. Han is not its sole inventor. He is standing in the live conversation where the request becomes a page.
-
-## THE MEDIA DIRECTOR BUILDS A WAY FOR OTHER PEOPLE TO BE SEEN.
-
-A month later, Voice Challenge gives us the more useful version of `media person`.
-
-Han starts from a Dragon Raja problem: the characters do not really have voices. So he asks members to imagine one.
-
-Pick a song that sounds like your character. Pair it with character images or video. Use **`#ULvoice`**. Put the results into a shared playlist / gallery.
-
-Then somebody worries about comparison.
-
-Han explicitly says the challenge is **not** about who does better or worse. It is voluntary. It is about having fun and expressing yourself.
-
-That is why the formal title earns a page instead of a badge.
-
-The Media Director is not only manufacturing outward-facing advertising. Here he builds a container and hands the interesting part to everybody else.
-
-## THE GAME LOSES CUSTODY OF THE MEDIA DUDE.
-
-November 17, 2021 gives Han one of the cleanest early game/community separation receipts in the whole archive:
+On November 17, Han writes one of the archive's cleanest early statements separating Dragon Raja from UL:
 
 > `I quit the game, but I will be still here as club media dude uwu.`
 
-No constitutional amendment. No farewell documentary.
+The sentence is not a universal membership rule and does not prove he never touched Raja again. It does show what Han thought his place in UL had become. The game could stop being his game without making the media work, friendships, and social identity disappear with it.
 
-Game status changes.
+## 2022 — MUGEN EXPLAINS WHY THE TITLE EXISTED
 
-The UL function stays.
+In September 2022, Mugen explains that UL roles were granted primarily based on duties and uses Han as the example: he did the promotional-video work, so **Media Director** described the work he was already doing.
 
-That line lands harder after Voice Challenge and Biodata because the job has already escaped the narrow definition of `person who makes Dragon Raja promo`. Han's useful object is the people and the media around them. Quitting Raja does not require him to resign from being somebody who helps UL see itself.
-
-This is Han-specific evidence, not proof that every person who quit Raja remained UL forever. The wider archive has its own continuity genealogy. Han simply gets there early and says it very cleanly.
-
-## DUTY FIRST. TITLE SECOND.
-
-September 4, 2022. Whiskey again.
-
-Mugen explains that UL roles are granted primarily based on duties. Her Media Director example is Han: he makes promotional videos, so the work becomes a recognized role.
-
-This is one of those rare archive moments where nobody has to reverse-engineer a Discord color and pretend it is history.
-
-Mugen tells us what the title is for.
-
-It still does **not** tell us the appointment date.
-
-Exporter metadata can go sit down.
-
-## HE IS NOT OUTSIDE THE FRAME.
-
-Meanwhile Han keeps entering the same memory machinery he helps feed.
-
-September 12, Slice:
-
-> `My life is too boring to share, but here is my cat sitting in a weird pose.`
-
-Perfect Slice constitution. Nothing important has to happen. The cat is sitting wrong. The room knows who sent it. Proceed.
-
-Ten days later Han asks the Wall when it last had a real **FAME** moment, then nominates himself:
-
-> `I have a FAME moment rn`
-
-The achievement:
-
-> `I survived another day at work.`
-
-October brings the broken-toe family story. A week later he predicts the inevitable administrative consequence of continuing to supply material:
-
-> `Soon u guys will need to rename this channel to Han's wall of shame fame`
-
-The contradiction is not really a contradiction.
-
-Han helps turn people into media and then repeatedly volunteers to become material himself.
-
-## THE IDENTITY BRAKE STAYS BOLTED TO THE PAGE.
-
-Han is **Nai / `nai6965` / `.`**.
-
-Han is **UL Media Director**.
-
-Han is **not Mia**.
-
-Han was **never an Officer**.
-
-Han is **not a Platelet**.
-
-Mia's later importance in PR and communal art does not inherit Han's title. Han's formal title does not make every creative object his work. And no exporter role array gets to rewrite either person's history because the archive happened to snapshot Discord after the fact.
-
-The cleanest Han sentence is still his own:
-
-> `I quit the game, but I will be still here as club media dude uwu.`
-
-The game is optional before the job is.
+That is retrospective explanation, not an appointment timestamp. It closes the biography more usefully than a role-color export ever could. Han starts by wanting to know the room better, helps create ways for members to introduce and express themselves, then explicitly keeps that media identity even after quitting the originating game. A year later Mugen's explanation confirms the logic: the title followed the contribution.
