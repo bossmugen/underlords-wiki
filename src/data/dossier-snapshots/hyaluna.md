@@ -7,7 +7,7 @@ roles:
   - "Retired Officer"
   - "Underboss"
 eraStart: 2020
-summary: "HyaLuna begins in UL's origin story as one of the four Altissa friends who came with Mugen. The surviving April 2020 archive then places her inside the tiniest private rooms and inside Mugen's pre-leadership discussion of the ScarletMoon offer; later roster canon records her as a retired full Officer and historical Underboss."
+summary: "HyaLuna begins in UL's origin story as one of the four Altissa friends who came with Mugen. The surviving April 2020 archive places her inside the tiniest private rooms, gives her the wonderfully blunt `this is mine` in Luna's House of Kitties, and shows Mugen consulting her before the ScarletMoon offer reaches the wider leadership room. Later roster canon records her as a retired full Officer and historical Underboss."
 summaryEvidence: "user-confirmed"
 publication: "public"
 claims:
@@ -48,6 +48,7 @@ antiFanon:
   - "Private-room access, an owner keycode, or presence in `🍆ulxxx` does not date HyaLuna's Underboss / Officer appointment."
   - "Mugen saying she and HyaLuna discussed the ScarletMoon offer proves consultation before presentation, not sole decision authority or HyaLuna authorship of Mugen's later pros-and-cons framing."
   - "`this is mine` and owner-key access describe a personal room inside Discord; they are not literal property ownership or a separate formal office."
+  - "The `this is mine` line is vivid personal texture from one room-opening scene; do not inflate it into a total personality diagnosis such as possessive, controlling, or territorial."
 relatedPeople:
   - "mugen"
   - "ritha"
@@ -67,26 +68,20 @@ tags:
 
 # HyaLuna
 
-HyaLuna belongs to UL before the later command chart exists. Mugen founded Underlords in March 2020, and HyaLuna was one of the four Altissa friends who came with her, alongside Ritha, WolfPhenix, and Suzimasu. Her later history places her as a full Officer in the Underboss / Deputy lane; she is now retired from that command role.
+HyaLuna is one of the people who belongs to Underlords before the later org chart can explain her. Mugen founded UL in March 2020, and HyaLuna was one of the four Altissa friends who came with her, alongside Ritha, WolfPhenix, and Suzimasu. Her later history eventually places her in the Underboss / Deputy lane as a full Officer, but the earliest archive catches something more useful than a title: the original Luna already living inside the tiny private world around the new club.
 
-## APRIL 2020 — EARLY TRUST IS ALREADY VISIBLE
+On April 8, Snow tells Luna that she really did get the private channel she had asked for. The local sequence becomes `🍆ulxxx`, one of UL's smallest and highest-clearance early rooms. The existence of that door does not date a promotion, but it places HyaLuna inside the earliest circle where private access was being built almost as quickly as the public server itself.
 
-The first surviving HyaLuna material is less about titles than access and consultation. On April 8, Snow tells Luna that she really did get the private channel she had asked for. The local sequence is the opening of `🍆ulxxx`, one of UL's tiniest and highest-clearance early rooms.
+Then a second room gives the file its sharpest little character beat. In `🍑lunas-house-of-kitties`, the scene-locally resolved Luna account opens with **`this is mine`**. No speech. No explanation. Just four words and immediate possession of the bit. Snow later gives the room a Luna-controlled keycode and its own music-bot setup, treating it as a personal chill-out space rather than another office. One of HyaLuna's earliest surviving UL footprints is therefore not a command order at all; it is a private hangout whose first surviving territorial declaration is almost comically efficient.
 
-That does not timestamp an Underboss appointment. It does show that HyaLuna is already inside the small group around which the earliest private structure is being built.
+That line is vivid without needing to become a personality test. The archive cannot responsibly turn one `this is mine` into a claim that HyaLuna was universally possessive or controlling. What it can say is that the original Luna's earliest personal-room scene has a wonderfully blunt sense of ownership, and UL responded by giving the room a keycode and a music bot instead of asking anyone to act normal.
 
-The same month, `🍑lunas-house-of-kitties` gives a different kind of private space. The scene-locally resolved Luna account opens with **`this is mine`**. Snow later gives the room a Luna-controlled keycode and its own music-bot setup, treating it as a personal chill-out room rather than another rung on the command ladder. One private room is about inner-circle access; the other is simply hers to hang out in.
+Three days later, the same early trust is visible in a more serious setting. When Mugen brings the ScarletMoon offer into Bosses Office on April 11, she tells the wider leadership that she and HyaLuna discussed it the night before. Mugen then opens the issue to everyone else for pros and cons. The wording does not make HyaLuna the secret decider; if anything, the next move proves the opposite. What it shows is that before the proposal became formal room business, HyaLuna was already one of the people Mugen had thought it through with privately.
 
-## APRIL 11 — MUGEN HAS ALREADY TALKED THE SCARLETMOON OFFER THROUGH WITH HER
+That combination—private access, a personal room, and pre-room consultation—makes the later Officer history feel like continuity rather than a badge appearing from nowhere. User-confirmed roster canon eventually records HyaLuna as a full Officer and historical Underboss / Deputy. The archive does not currently reconstruct the exact appointment sequence, so the biography does not backdate that title onto every April scene. It simply lets the later role sit behind the earlier relationship evidence.
 
-When Mugen brings the ScarletMoon proposal into Bosses Office, she tells the wider leadership that **she and HyaLuna discussed it the night before**. Then Mugen opens the question to everyone else for pros and cons.
+HyaLuna also carries the public **Mugen's Concubines** character tag, which belongs to UL's joke-social grammar rather than its command chart. That is worth keeping beside the serious role history because early UL never kept those worlds particularly separate: one person can be inside the highest-clearance room, have a private House of Kitties, participate in a major merger discussion, and later survive in the site's character taxonomy as somebody's concubine. The organization was young. Dignity had already been denied.
 
-The sequence is a useful measure of HyaLuna's place in early UL. She is not being presented as the sole decision-maker, and the receipt does not make the later discussion her policy. She is simply one of the people Mugen has already thought with before the issue becomes formal room business.
+The file still needs an identity fence because the broader archive contains other Luna-shaped names. This biography is the original HyaLuna only. She is not Candy, and a scene-local resolution inside Luna's own room does not turn every pooled `Deleted User` message elsewhere into her.
 
-## LATER — THE ROLE FILE CATCHES UP
-
-User-confirmed roster history later records HyaLuna as a full Officer and historical Underboss / Deputy. The archive does not currently reconstruct a dated appointment sequence, so those later titles stay where they belong instead of being projected backward onto every April message.
-
-The identity boundary stays just as important. This biography is for the original HyaLuna, not Candy and not every later Luna-shaped name that appears in Discord exports. The early room context can resolve specific scenes; it cannot turn a pooled Deleted User account into HyaLuna globally.
-
-What survives is enough for a restrained biography: founding-circle origin, very early private trust, consultation on one of UL's first major external decisions, and later service as a senior full Officer. The gaps remain gaps instead of becoming somebody else's Luna.
+So the natural biography stays compact: Altissa friend → founding-circle member → one of the people already inside Mugen's early trust loop → original Luna with a room whose first surviving line is `this is mine` → later full Officer and historical Underboss → retired command figure. The gaps remain gaps, but the person no longer disappears behind them.
