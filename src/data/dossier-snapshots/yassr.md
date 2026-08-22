@@ -5,7 +5,7 @@ aliases:
   - "sniperr_wolfxx"
 roles:
   - "Game Officer"
-summary: "Yassr is a current Game Officer whose clean late-game archive behavior is extremely practical: he notices that Conquest, Demo Club, or Scourge is becoming actionable and tells the room before the opportunity passes. When Sye points out that Saber already automates one reminder job, Yassr does not defend the turf; he says thank you and keeps helping elsewhere."
+summary: "Yassr is a current Game Officer whose clean late-game archive behavior is extremely practical: Yassr notices that Conquest, Demo Club, or Scourge is becoming actionable and tells the room before the opportunity passes. When Sye points out that Saber already automates one reminder job, Yassr does not defend the turf; the answer is simply thank you, and the useful game notices continue elsewhere."
 summaryEvidence: "archive-confirmed + canon-lock"
 publication: "public"
 claims:
@@ -29,7 +29,7 @@ claims:
   - text: "On November 21, 2024, Yassr posts `@everyone you can now do scourge project as a 5 man team!! Take advantage of it!! And kick some butt!`, relaying a newly usable game opportunity rather than merely counting down an event start."
     evidence: "archive-confirmed"
     date: "2024-11-21"
-  - text: "The surviving 2024 sequence supports a narrow recurring read: Yassr repeatedly routes time-sensitive or newly actionable game information to the group. It does not establish that he exclusively owned event reminders or held a Party Director / Event Director appointment."
+  - text: "The surviving 2024 sequence supports a narrow recurring read: Yassr repeatedly routes time-sensitive or newly actionable game information to the group. It does not establish exclusive ownership of event reminders or a Party Director / Event Director appointment."
     evidence: "archive-supported-synthesis"
     date: "2024-10-22 – 2024-11-21"
 antiFanon:
@@ -41,6 +41,7 @@ antiFanon:
   - "The late account bridge is supported by Sye directly calling the `sniperr_wolfxx` account Yassr in the same sequence; do not extend that bridge to unrelated similarly named accounts without independent evidence."
   - "The 2024 messages do not date Yassr's Game Officer appointment. Export-time role arrays are not promotion receipts."
   - "The current dossier is deliberately period-specific. Do not backfill a 2020–2023 personality arc from a late 2024 behavior run that has not yet been independently recovered."
+  - "The current source set does not establish pronouns strongly enough for this page to guess them."
 relatedPeople:
   - "sye"
 tags:
@@ -70,13 +71,13 @@ The next morning:
 
 These are not speeches and they are not glamorous. They are useful. The information has a shelf life, so Yassr pushes it toward the people who can act on it before the clock wins.
 
-Then Sye answers the second notice with the most revealing tiny workflow scene in the file. She thanks **Yassr** by name and points out that Saber already auto-notifies Staff in Announcements ten minutes before the event, so he does not need to keep pinging people manually.
+Then Sye answers the second notice with the most revealing tiny workflow scene in the file. She thanks **Yassr** by name and points out that Saber already auto-notifies Staff in Announcements ten minutes before the event, so the manual pings are not necessary.
 
 Yassr replies:
 
 > `Thank you!`
 
-That response matters precisely because it is small. There is no turf war over who gets to be the notification department. No `but I always do this`. No attempt to turn helpful behavior into a title. He receives the better system and moves on.
+That response matters precisely because it is small. There is no turf war over who gets to be the notification department. No attempt to turn helpful behavior into a title. The better system is acknowledged, and the archive moves on.
 
 The safe character read is not `Yassr loves automation` or `Yassr is humble` as a permanent psychological diagnosis. It is narrower and better: in this scene, the point is getting the information delivered, not owning the delivery mechanism.
 
@@ -92,9 +93,9 @@ That distinction is what gives the late 2024 material a character spine instead 
 
 ## Sye and the handoff scene
 
-Sye is the clearest named interaction partner in the current Yassr dossier because she both recognizes the account as Yassr and gives him the practical Saber handoff. The exchange supports coordination and direct familiarity with who is posting. It does not establish a ranked friendship, conflict, mentorship hierarchy, or special private relationship.
+Sye is the clearest named interaction partner in the current Yassr dossier because she both recognizes the account as Yassr and gives the practical Saber handoff. The exchange supports coordination and direct familiarity with who is posting. It does not establish a ranked friendship, conflict, mentorship hierarchy, or special private relationship.
 
-Saber is infrastructure here, not a human rival. The funny part is almost administrative: UL built a bot to do a job Yassr was already doing manually, and when somebody tells him, he says thanks.
+Saber is infrastructure here, not a human rival. The funny part is almost administrative: UL built a bot to do a job Yassr was already doing manually, somebody points that out, and Yassr says thanks.
 
 ## What remains unresolved
 
