@@ -3,7 +3,7 @@ name: "Yelik"
 roles:
   - "Game Officer"
   - "Parterre Gardener"
-summary: "Yelik is a Game Officer and Parterre Gardener whose archive file turns the title into something much more useful: she repeatedly catches short-lived Dragon Raja opportunities and turns them into coordinates, countdowns, and go-now notices before the window closes. Dragon Raja forgot push notifications, so Yelik became one."
+summary: "Yelik is a Game Officer and Parterre Gardener whose archive file turns the titles into something more useful: the garden joke predates the clean Lobby card, then Yelik repeatedly catches short-lived Dragon Raja opportunities and turns them into coordinates, countdowns, and go-now notices before the window closes."
 summaryEvidence: "archive-confirmed + canon-lock"
 publication: "public"
 claims:
@@ -55,56 +55,16 @@ tags:
 
 # Yelik
 
-Yelik is a current **Game Officer** and **Parterre Gardener**. The title sounds like the obvious joke hook, but the archive gives her something better than a job-name pun: she repeatedly notices that a useful Dragon Raja thing is about to vanish and starts yelling the coordinates before everybody misses it.
+Yelik is a current **Game Officer** and **Parterre Gardener**, and the surviving chronology is unusually kind to those bizarrely specific titles. It does not give an appointment date for either one, but it catches Yelik already tangled up with a garden before the clean Lobby paperwork appears, then spends more than a year showing the same stable account noticing short-lived things in Dragon Raja and telling everybody before they vanish.
 
-The clean public thesis is simple: **Dragon Raja forgot push notifications, so Yelik became one.**
+On May 12, 2022, Mugen is already on the Wall complaining that **`Yelik litrally spending more time in my garden than I do`**. Six days later the Bouncer opens a normal intake sequence for Yelik and Ansun/Souta supplies the Tour, rules, and Biodata. That order is important: the social record has Yelik in Mugen's garden before the door log tries to look introductory. May 18 therefore cannot safely become a first-membership date, and the later Parterre Gardener title cannot be backdated from one joke simply because UL has once again named a role with suspicious accuracy.
 
-## May 2022 — somehow already in Mugen's garden before the Bouncer finishes the paperwork
+By late June, the archive starts showing what Yelik repeatedly does with live game information. A Neon Chrysanthemum florist appears in Chizuru and Yelik gives the coordinates plus **twenty minutes**. Fluoro Lavender appears in Tokyo and the next message comes with **five minutes more**. The useful shape is already there: what is available, where it is, how fast you need to move.
 
-The chronology opens with a useful little trap for anyone who treats Lobby as a membership ledger. On May 12, Mugen posts to the Wall:
+Pet Event and Pet Lover League make that behavior durable rather than anecdotal. Across 2022 and into at least August 2023, Yelik keeps posting versions of **`Pet event is up @Staff`**, sometimes adding **`7 minutes left`**, sometimes noting that it is open for a second time. Several notices get thanks or heart-style reactions. Those responses do not rank Yelik socially; they simply show that the alerts were landing with people who could use them.
 
-> `Yelik litrally spending more time in my garden than I do :Fat_Wheeze:`
+The same practical rhythm survives even when the specific game object changes. In April 2023 Yelik posts an event update, edits it, and follows with attachments whose pixels remain undescribed here. In August the archive catches a much less successful encounter with Dragon Raja's systems: after three days trying to catch the last fish, Yelik is told a better rod is needed despite already using the new one. The target is a shark in Siberia, because apparently the game wanted the frustration to have production value. It is a good side scene, but one fishing disaster does not get promoted into a lifelong trait.
 
-Six days later, on May 18, the Lobby's Stripclub Bouncer greets Yelik and asks for the standard intake information. Ansun/Souta follows with the server map, rules, and Biodata directions.
+What actually recurs is **timing and usefulness**. The florist has twenty minutes, then another has five. The pet event is up, then seven minutes remain. The value of Yelik's messages exists because the opportunity is disappearing while the room is reading them. That is Game-Officer-shaped behavior without requiring the biography to pretend the title caused it, and the garden/flower material gives Parterre Gardener a little personal texture without reverse-engineering a fake botanical personality.
 
-That order matters. The garden joke is already happening before the visible Lobby card. So the card is not a safe first-join date; it is a door event for somebody who is already socially legible enough to be the subject of a Mugen garden joke.
-
-The current roster later gives Yelik the **Parterre Gardener** appointment. The wiki keeps the two facts adjacent without pretending the Wall joke formally appoints her or proves how often she gardens. The title is canon. The joke is a scene. The appointment chronology remains unresolved.
-
-## June 2022 — florist radar with coordinates and an expiration timer
-
-By late June, Yelik is posting information in a form designed to be acted on immediately:
-
-> `Neon chrysanthemum florist in chizuru 177,292 only for 20 minutes :Raja_Heart:`
-
-Then:
-
-> `Fluro Lavander florist in Tokyo 582,171 only 5 minutes more @Staff`
-
-This is not just `Yelik mentions flowers`. She gives **where**, **what**, and **how long you have left**. The whole sentence is a miniature emergency broadcast for somebody else's shopping problem.
-
-## 2022–2023 — pet event is up. pet event is still up. seven minutes left. move.
-
-The same behavior repeats much longer around pet events:
-
-- `Pet lover league is open @Staff`
-- `Pet event is up @Staff`
-- `Pet event is up 7 minutes left @Staff`
-- `Pet event is up for secund time @Staff`
-- `@Staff Pet event is up`
-
-The repetitions continue across 2022 and into at least August 2023. That duration is what upgrades a one-off helpful message into character evidence. Yelik is not merely sharing game information; she keeps converting **short-lived opportunity** into **usable warning**.
-
-Several alerts receive thanks or heart-style reactions. Those responses matter because they show the notices landing. They do not turn the archive into a popularity contest or tell us who was closest to Yelik.
-
-## The shark case, currently denied tenure
-
-August 10, 2023 gives a different kind of game-side scene. Yelik complains that she has spent three days trying to catch the last fish, only to be told she needs a better rod while already using the new one. The target, because the universe had clearly decided this needed dignity, is a shark in Siberia.
-
-It is funny and safely attributable. It is also one scene. Unless later material shows a recurring fishing/grind pattern, the shark stays a side exhibit rather than becoming `Yelik: Fishing Person` through editorial malpractice.
-
-## What actually recurs
-
-Yelik's strongest current character mechanism is **timing**. The florist spawn has twenty minutes. Then five. The pet event is up. Then it has seven minutes left. The value of the message exists because the opportunity is disappearing while she types.
-
-That behavior fits comfortably beside Game Officer and Parterre Gardener without being reducible to either title. The archive earns a practical, slightly frantic helper profile; it does not earn a fake event-director promotion, a personality test result, or a claim that she alone ran these activities.
+So the progression stays grounded: Yelik is already socially legible before the Bouncer card → the archive starts seeing repeated coordinate-and-countdown alerts → the behavior continues into 2023 → the current roster now names Game Officer and Parterre Gardener as present roles. UL did not need to invent a quirk for this file. Dragon Raja supplied temporary florists, a Siberian shark, and a clock.
