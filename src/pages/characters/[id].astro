@@ -17,6 +17,7 @@ import { gameOfficerCharacterBios } from "../../data/character-bios-game-officer
 import { staffCharacterBios } from "../../data/character-bios-staff";
 import { lateStaffCharacterBios } from "../../data/character-bios-staff-late";
 import { finalStaffCharacterBios } from "../../data/character-bios-staff-last";
+import { plateletCharacterBios } from "../../data/character-bios-platelets";
 import { vipCharacterBios } from "../../data/character-bios-vip";
 import { archiveCharacterBios } from "../../data/character-bios-archive";
 import dossierData from "../../data/character-dossiers.generated.json";
@@ -37,7 +38,7 @@ export function getStaticPaths() {
 }
 
 const { character } = Astro.props;
-const bio = (lateOfficerCharacterBios as Record<string, any>)[character.id] ?? (deepOfficerCharacterBios as Record<string, any>)[character.id] ?? (officerCharacterBios as Record<string, any>)[character.id] ?? (lateRetiredOfficerCharacterBios as Record<string, any>)[character.id] ?? (retiredOfficerCharacterBios as Record<string, any>)[character.id] ?? (sniperCharacterBios as Record<string, any>)[character.id] ?? (directorCharacterBios as Record<string, any>)[character.id] ?? (gameOfficerCharacterBios as Record<string, any>)[character.id] ?? (finalStaffCharacterBios as Record<string, any>)[character.id] ?? (lateStaffCharacterBios as Record<string, any>)[character.id] ?? (staffCharacterBios as Record<string, any>)[character.id] ?? (vipCharacterBios as Record<string, any>)[character.id] ?? (archiveCharacterBios as Record<string, any>)[character.id] ?? (extendedCharacterBios as Record<string, any>)[character.id] ?? getCharacterBio(character);
+const bio = (lateOfficerCharacterBios as Record<string, any>)[character.id] ?? (deepOfficerCharacterBios as Record<string, any>)[character.id] ?? (officerCharacterBios as Record<string, any>)[character.id] ?? (lateRetiredOfficerCharacterBios as Record<string, any>)[character.id] ?? (retiredOfficerCharacterBios as Record<string, any>)[character.id] ?? (sniperCharacterBios as Record<string, any>)[character.id] ?? (directorCharacterBios as Record<string, any>)[character.id] ?? (gameOfficerCharacterBios as Record<string, any>)[character.id] ?? (finalStaffCharacterBios as Record<string, any>)[character.id] ?? (lateStaffCharacterBios as Record<string, any>)[character.id] ?? (staffCharacterBios as Record<string, any>)[character.id] ?? (plateletCharacterBios as Record<string, any>)[character.id] ?? (vipCharacterBios as Record<string, any>)[character.id] ?? (archiveCharacterBios as Record<string, any>)[character.id] ?? (extendedCharacterBios as Record<string, any>)[character.id] ?? getCharacterBio(character);
 const dossiers = dossierData as Record<string, Dossier>;
 const dossier = dossiers[character.id];
 const canonNotes = [...new Set([...(bio.canonNotes ?? []), ...(dossier?.antiFanon ?? [])])];
