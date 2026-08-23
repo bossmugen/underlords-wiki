@@ -1,4 +1,16 @@
 import type { CharacterBio } from "./character-bios";
+import { renNarrativeCharacterBios } from "./character-biographies-ren";
+
+const renNarrative = renNarrativeCharacterBios.ren;
+const renNarrativeText = [
+  ...renNarrative.intro,
+  ...renNarrative.sections.flatMap((section) => section.paragraphs),
+  ...(renNarrative.closing ?? [])
+].join(" ");
+
+if (renNarrativeText.length < 9000) {
+  throw new Error("Priority Officer character ren lost its person-first narrative depth.");
+}
 
 export const lateOfficerCharacterBios: Record<string, CharacterBio> = {
   anthos: {
@@ -53,16 +65,14 @@ export const lateOfficerCharacterBios: Record<string, CharacterBio> = {
       {date:"2022–2023",title:"Gilli adds another song to Spotify",text:"Daya hears another Gilli track and says `u giving me more songs for my spotify`. The moment is small, but it gives the file ordinary taste/collection texture without inventing a music-director identity or relationship rank."},
       {date:"2023",title:"The communal doodle should become official",text:"Daya wants the finished communal doodle, and later the banana version, used as the Raja poster. That supports enthusiasm for moving a group-made object onto an official surface; it does not make Daya the artist of everybody else's marks."},
       {date:"2023",title:"Kiro identity hearing",text:"Daya correctly identifies HicUUOOOOGH as Kiro. Kiro answers `Who's kiro`; Daya eventually gives up on the records-management problem. Ten days later Kiro posts a Daya Wall exhibit, and Daya joins the Fat Wheeze reactions. Clerk → exhibit, case closed by nobody."},
-      {date:"July 8, 2022",title:"A new generation, noun unresolved",text:"Daya posts an attachment followed by `the start of a new generation for UL` and `a new era`. Targeted archive searches did not safely resolve who the cohort was. The exact statement can survive; the missing noun stays missing."
-      }
+      {date:"July 8, 2022",title:"A new generation, noun unresolved",text:"Daya posts an attachment followed by `the start of a new generation for UL` and `a new era`. Targeted archive searches did not safely resolve who the cohort was. The exact statement can survive; the missing noun stays missing."}
     ],
     characterNotes:[
       {title:"Follow-through beats ceremony",text:"Daya's best Lobby scenes are not just welcome messages. She states what is pending, uses the wait productively, remembers completed steps, hands off when needed, and closes the loop."},
       {title:"Systems are for people",text:"`real life always first` and the returner onboarding scene rhyme because Daya repeatedly refuses to let a process become more important than the person moving through it."},
       {title:"Identity clerk becomes evidence",text:"The Kiro sequence is useful because Daya can be the person correctly resolving somebody else's identity and then, days later, be the object on the Wall herself. Administrative distance lasts approximately ten days."},
       {title:"Communal work should travel",text:"Wanting the group doodles used as Raja posters shows a recurring instinct to move participation onto a visible official surface. Desire for publication is not creator credit."},
-      {title:"The unresolved `new generation`",text:"Daya's own `new generation` / `new era` language is real, but the archive does not safely identify the cohort. Leaving that hole open is better than manufacturing a class roster."
-      }
+      {title:"The unresolved `new generation`",text:"Daya's own `new generation` / `new era` language is real, but the archive does not safely identify the cohort. Leaving that hole open is better than manufacturing a class roster."}
     ],
     roleNotes:[
       "Current Pit Boss / Minister.",
@@ -79,6 +89,47 @@ export const lateOfficerCharacterBios: Record<string, CharacterBio> = {
       "The July 2022 `new generation` cohort remains unresolved. Do not invent who Daya meant.",
       "Reaction participation does not establish friendship, intimacy, or rank.",
       "Export-time role arrays do not date later command labels."
+    ]
+  },
+
+  ren: {
+    dek:"Officer, self-described yapping gremlin, quote keeper, social-memory menace, practical caretaker, otter fan, and owner of a hard drive that has become its own evidentiary hazard.",
+    overview: renNarrative.intro,
+    history: [
+      ...renNarrative.sections.map((section) => ({
+        date: section.period ?? "",
+        title: section.title,
+        text: section.paragraphs.join(" ")
+      })),
+      ...(renNarrative.closing?.length ? [{
+        date: "Overall",
+        title: "What stays Ren",
+        text: renNarrative.closing.join(" ")
+      }] : [])
+    ],
+    characterNotes: [
+      {title:"`your gremlin officer who yaps a lot`",text:"Ren's 2025 self-description is unusually useful because the archive independently supports both parts: a chatty, deliberately unserious public voice and years of concrete Officer work underneath it."},
+      {title:"Selective memory, not magical memory",text:"Ren keeps favorite quotes, old names, screenshots, room routes and account mappings. She also admits she cannot find things in the enormous photo pile. The human imperfection is part of the character; do not turn her into an infallible database."},
+      {title:"Care arrives with a verb",text:"Flood warnings, hydration, grades, sleep and emergency guidance repeatedly come as specific next actions, often followed by a joke or mock threat. This is supported public behavior, not a diagnosis or a personality claim derived from her hospital-interpreter job."},
+      {title:"Old media becomes ammunition",text:"Red Hot Chili Peppers, a Jurassic Park CD, a surviving VCR and the 2026 portable-CD-player gag give Ren ordinary taste and household texture. The archive supports the objects and preferences; it does not support factual age claims from the jokes built around them."},
+      {title:"The receipt keeper is also evidence",text:"Ren saves everybody else's nonsense while repeatedly becoming Wall material herself. The joke works because she generally escalates with the room rather than pretending the archive is something she administers from outside it."}
+    ],
+    roleNotes: [
+      "Current command snapshot: Officer — Caporegime / Secretary.",
+      "The archive does not safely date every appointment; export-time role arrays are not appointment chronology.",
+      "Quote keeping, screenshot saving, identity repair and room routing are recurring behaviors, not formal Archivist / Records Officer / Concierge appointments."
+    ],
+    canonNotes: [
+      "User-confirmed background: Ren is a woman from Mexico and works as a hospital interpreter. Do not infer temperament, motives, medical expertise, or private history from occupation or geography.",
+      "Reny V / RV / RΣN are Ren identity forms in the archive; identity bridges must still be source-grounded when attaching a new account or display name.",
+      "Generic Deleted User remains pooled unless a local identity join is proven.",
+      "Age / child / fountain-of-youth jokes are peer comedy, not demographic evidence.",
+      "Fake-family and voice-twin language are house jokes, not literal kinship, romance, or identity merger.",
+      "Woosung's retrospective trust language supports Woosung's experience of Ren; it does not establish a universal confidante role or closeness ranking.",
+      "The unresolved 2023 `priority straight` parent attachment and 2024 `PLS REN` attachment remain undescribed until visually resolved.",
+      "Ren's 2026 Rummy announcement restores social account continuity; it does not mean Ren recovered the hacked account or performed cybersecurity work.",
+      "Mugen's public credit to Snow + Ren for the Mafia anniversary surprise supports collaborative credit, not an invented split of asset authorship.",
+      "Current Caporegime / Secretary status must not be projected backward onto 2020–2023 scenes."
     ]
   }
 };
