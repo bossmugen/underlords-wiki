@@ -20,6 +20,7 @@ import { suzimasuNarrativeCharacterBios } from "../../data/character-biographies
 import { yumiNarrativeCharacterBios } from "../../data/character-biographies-yumi";
 import { keyNarrativeCharacterBios } from "../../data/character-biographies-key";
 import { nelphNarrativeCharacterBios } from "../../data/character-biographies-nelph";
+import { kaedeNarrativeCharacterBios } from "../../data/character-biographies-kaede";
 import { deepLeaderCharacterBios } from "../../data/character-bios-leader-deep";
 import { coreDeepOfficerCharacterBios } from "../../data/character-bios-officers-core-deep";
 import { deepAnayssOfficerCharacterBios } from "../../data/character-bios-officers-anayss-deep";
@@ -122,6 +123,9 @@ if (keyNarrativeGuard.has(character.id) && !keyNarrative) throw new Error(`Prior
 const nelphNarrativeGuard = new Set(["nelph"]);
 const nelphNarrative = (nelphNarrativeCharacterBios as Record<string, any>)[character.id];
 if (nelphNarrativeGuard.has(character.id) && !nelphNarrative) throw new Error(`Priority Retired Officer character ${character.id} lost its person-first narrative biography.`);
+const kaedeNarrativeGuard = new Set(["kaede"]);
+const kaedeNarrative = (kaedeNarrativeCharacterBios as Record<string, any>)[character.id];
+if (kaedeNarrativeGuard.has(character.id) && !kaedeNarrative) throw new Error(`Priority Sniper character ${character.id} lost its person-first narrative biography.`);
 const plateletRichBioGuard = new Set(["scar", "dyingfox", "ryo", "dean", "tae", "zoshaa", "candy", "cele"]);
 if (plateletRichBioGuard.has(character.id) && !richBio) throw new Error(`Priority Platelet character ${character.id} fell through to the generic character bio.`);
 const vipDeepBioGuard = new Set(["rich", "zyrcant", "woohyuk", "syv", "woosung", "beowulf"]);
@@ -132,7 +136,7 @@ const archiveDeepBio = (deepArchiveCharacterBios as Record<string, any>)[charact
 if (archiveDeepBioGuard.has(character.id) && !archiveDeepBio) throw new Error(`Priority Archive / Extended Cast character ${character.id} lost its cross-archive deep bio.`);
 
 const bio = richBio ?? getCharacterBio(character);
-const narrative = nelphNarrativeCharacterBios[character.id] ?? keyNarrativeCharacterBios[character.id] ?? yumiNarrativeCharacterBios[character.id] ?? suzimasuNarrativeCharacterBios[character.id] ?? rithaNarrativeCharacterBios[character.id] ?? hyalunaNarrativeCharacterBios[character.id] ?? renNarrativeCharacterBios[character.id] ?? dayaNarrativeCharacterBios[character.id] ?? anthosNarrativeCharacterBios[character.id] ?? snowNarrativeCharacterBios[character.id] ?? oyasumiNarrativeCharacterBios[character.id] ?? gilliNarrativeCharacterBios[character.id] ?? syeNarrativeCharacterBios[character.id] ?? narrativeCharacterBios[character.id];
+const narrative = kaedeNarrativeCharacterBios[character.id] ?? nelphNarrativeCharacterBios[character.id] ?? keyNarrativeCharacterBios[character.id] ?? yumiNarrativeCharacterBios[character.id] ?? suzimasuNarrativeCharacterBios[character.id] ?? rithaNarrativeCharacterBios[character.id] ?? hyalunaNarrativeCharacterBios[character.id] ?? renNarrativeCharacterBios[character.id] ?? dayaNarrativeCharacterBios[character.id] ?? anthosNarrativeCharacterBios[character.id] ?? snowNarrativeCharacterBios[character.id] ?? oyasumiNarrativeCharacterBios[character.id] ?? gilliNarrativeCharacterBios[character.id] ?? syeNarrativeCharacterBios[character.id] ?? narrativeCharacterBios[character.id];
 const dossiers = dossierData as Record<string, Dossier>;
 const dossier = dossiers[character.id];
 const canonNotes = [...new Set([...(bio.canonNotes ?? []), ...(dossier?.antiFanon ?? [])])];
