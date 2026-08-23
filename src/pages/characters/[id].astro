@@ -7,6 +7,7 @@ import { episodes } from "../../data/wiki";
 import { allCharacters, primaryGroupByCharacterId } from "../../data/cast";
 import { getCharacterBio } from "../../data/character-bios";
 import { narrativeCharacterBios } from "../../data/character-biographies-narrative";
+import { syeNarrativeCharacterBios } from "../../data/character-biographies-sye";
 import { deepLeaderCharacterBios } from "../../data/character-bios-leader-deep";
 import { coreDeepOfficerCharacterBios } from "../../data/character-bios-officers-core-deep";
 import { deepAnayssOfficerCharacterBios } from "../../data/character-bios-officers-anayss-deep";
@@ -66,6 +67,9 @@ if (ansunDeepBioGuard.has(character.id) && !ansunDeepBio) throw new Error(`Prior
 const wolfDeepBioGuard = new Set(["wolfphenix"]);
 const wolfDeepBio = (deepWolfOfficerCharacterBios as Record<string, any>)[character.id];
 if (wolfDeepBioGuard.has(character.id) && !wolfDeepBio) throw new Error(`Priority Officer character ${character.id} lost its WolfPhenix cross-archive deep bio.`);
+const syeNarrativeGuard = new Set(["sye"]);
+const syeNarrative = (syeNarrativeCharacterBios as Record<string, any>)[character.id];
+if (syeNarrativeGuard.has(character.id) && !syeNarrative) throw new Error(`Priority Officer character ${character.id} lost its person-first narrative biography.`);
 const plateletRichBioGuard = new Set(["scar", "dyingfox", "ryo", "dean", "tae", "zoshaa", "candy", "cele"]);
 if (plateletRichBioGuard.has(character.id) && !richBio) throw new Error(`Priority Platelet character ${character.id} fell through to the generic character bio.`);
 const vipDeepBioGuard = new Set(["rich", "zyrcant", "woohyuk", "syv", "woosung", "beowulf"]);
@@ -76,7 +80,7 @@ const archiveDeepBio = (deepArchiveCharacterBios as Record<string, any>)[charact
 if (archiveDeepBioGuard.has(character.id) && !archiveDeepBio) throw new Error(`Priority Archive / Extended Cast character ${character.id} lost its cross-archive deep bio.`);
 
 const bio = richBio ?? getCharacterBio(character);
-const narrative = narrativeCharacterBios[character.id];
+const narrative = syeNarrativeCharacterBios[character.id] ?? narrativeCharacterBios[character.id];
 const dossiers = dossierData as Record<string, Dossier>;
 const dossier = dossiers[character.id];
 const canonNotes = [...new Set([...(bio.canonNotes ?? []), ...(dossier?.antiFanon ?? [])])];
