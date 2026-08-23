@@ -1,6 +1,11 @@
 import type { CharacterNarrative } from "./character-biographies-narrative";
+import { illienNarrativeCharacterBios } from "./character-biographies-illien";
 
+// This export is already the first retired-Officer narrative bundle consulted by the
+// character resolver. Keep Illien here until the resolver is consolidated; the
+// explicit guard below prevents his page from silently falling back to dossier copy.
 export const yumiNarrativeCharacterBios: Record<string, CharacterNarrative> = {
+  ...illienNarrativeCharacterBios,
   yumi: {
     intro: [
       "Yumi / Yummibears is a retired Underlords Officer, but that is not the most useful first sentence about her. User-confirmed background places her as an **Okinawan attorney**; the surviving Discord archive does not preserve enough safe detail about her practice, location at a given moment, or offline life to turn that into a professional profile. What the archive *does* preserve is a compact but recognizable social voice: casual, lowercase much of the time, fond of stretched endings like `snackkk`, `workkk`, `sleeppp`, `youuu`, and `funnn`, capable of going from a soft little reaction to a completely blunt punchline in one beat. She can tell an event room `PUNCH AND DO ME PROUD @everyone`, reduce Mugen's already ridiculous `absorb them into us` premise to `so eat them` and then `VORE`, and, in a much quieter conversation, openly revise her own reading of herself instead of protecting her first answer for the sake of consistency.",
@@ -81,3 +86,7 @@ export const yumiNarrativeCharacterBios: Record<string, CharacterNarrative> = {
     ]
   }
 };
+
+if (!yumiNarrativeCharacterBios.illien) {
+  throw new Error("Priority Retired Officer character illien lost its person-first narrative biography.");
+}
