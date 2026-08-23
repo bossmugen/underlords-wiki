@@ -7,12 +7,14 @@ import { episodes } from "../../data/wiki";
 import { allCharacters, primaryGroupByCharacterId } from "../../data/cast";
 import { getCharacterBio } from "../../data/character-bios";
 import { narrativeCharacterBios } from "../../data/character-biographies-narrative";
+import { renNarrativeCharacterBios } from "../../data/character-biographies-ren";
 import { syeNarrativeCharacterBios } from "../../data/character-biographies-sye";
 import { gilliNarrativeCharacterBios } from "../../data/character-biographies-gilli";
 import { oyasumiNarrativeCharacterBios } from "../../data/character-biographies-oyasumi";
 import { snowNarrativeCharacterBios } from "../../data/character-biographies-snow";
 import { anthosNarrativeCharacterBios } from "../../data/character-biographies-anthos";
 import { dayaNarrativeCharacterBios } from "../../data/character-biographies-daya";
+import { hyalunaNarrativeCharacterBios } from "../../data/character-biographies-hyaluna";
 import { deepLeaderCharacterBios } from "../../data/character-bios-leader-deep";
 import { coreDeepOfficerCharacterBios } from "../../data/character-bios-officers-core-deep";
 import { deepAnayssOfficerCharacterBios } from "../../data/character-bios-officers-anayss-deep";
@@ -90,6 +92,12 @@ if (anthosNarrativeGuard.has(character.id) && !anthosNarrative) throw new Error(
 const dayaNarrativeGuard = new Set(["daya"]);
 const dayaNarrative = (dayaNarrativeCharacterBios as Record<string, any>)[character.id];
 if (dayaNarrativeGuard.has(character.id) && !dayaNarrative) throw new Error(`Priority Officer character ${character.id} lost its person-first narrative biography.`);
+const renNarrativeGuard = new Set(["ren"]);
+const renNarrative = (renNarrativeCharacterBios as Record<string, any>)[character.id];
+if (renNarrativeGuard.has(character.id) && !renNarrative) throw new Error(`Priority Officer character ${character.id} lost its person-first narrative biography.`);
+const hyalunaNarrativeGuard = new Set(["hyaluna"]);
+const hyalunaNarrative = (hyalunaNarrativeCharacterBios as Record<string, any>)[character.id];
+if (hyalunaNarrativeGuard.has(character.id) && !hyalunaNarrative) throw new Error(`Priority Retired Officer character ${character.id} lost its person-first narrative biography.`);
 const plateletRichBioGuard = new Set(["scar", "dyingfox", "ryo", "dean", "tae", "zoshaa", "candy", "cele"]);
 if (plateletRichBioGuard.has(character.id) && !richBio) throw new Error(`Priority Platelet character ${character.id} fell through to the generic character bio.`);
 const vipDeepBioGuard = new Set(["rich", "zyrcant", "woohyuk", "syv", "woosung", "beowulf"]);
@@ -100,7 +108,7 @@ const archiveDeepBio = (deepArchiveCharacterBios as Record<string, any>)[charact
 if (archiveDeepBioGuard.has(character.id) && !archiveDeepBio) throw new Error(`Priority Archive / Extended Cast character ${character.id} lost its cross-archive deep bio.`);
 
 const bio = richBio ?? getCharacterBio(character);
-const narrative = dayaNarrativeCharacterBios[character.id] ?? anthosNarrativeCharacterBios[character.id] ?? snowNarrativeCharacterBios[character.id] ?? oyasumiNarrativeCharacterBios[character.id] ?? gilliNarrativeCharacterBios[character.id] ?? syeNarrativeCharacterBios[character.id] ?? narrativeCharacterBios[character.id];
+const narrative = hyalunaNarrativeCharacterBios[character.id] ?? renNarrativeCharacterBios[character.id] ?? dayaNarrativeCharacterBios[character.id] ?? anthosNarrativeCharacterBios[character.id] ?? snowNarrativeCharacterBios[character.id] ?? oyasumiNarrativeCharacterBios[character.id] ?? gilliNarrativeCharacterBios[character.id] ?? syeNarrativeCharacterBios[character.id] ?? narrativeCharacterBios[character.id];
 const dossiers = dossierData as Record<string, Dossier>;
 const dossier = dossiers[character.id];
 const canonNotes = [...new Set([...(bio.canonNotes ?? []), ...(dossier?.antiFanon ?? [])])];
