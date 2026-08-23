@@ -2,6 +2,8 @@
 
 Committed public-repo snapshot of the private canon/evidence handoff used for the person-first biography. This is source material, not public narrative copy.
 
+Source quarry for this pass: private `FELI_PEOPLE_CATALOG.md` plus recovered Club Only, Lobby, and Wall exports. The public wiki carries this distilled evidence locally and does not require runtime access to the private repository.
+
 ## Stable archive identity
 
 - Discord user ID: `726136507055865877`
