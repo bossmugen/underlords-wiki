@@ -13,7 +13,7 @@ roles:
   - "Game Officer"
 eraStart: 2020
 
-summary: "Snow's archive progression begins with early technical fixes and privacy-minded room design, moves into the August 2020 JAG / Club Conduct drafts where he formalizes limits on access and power, then shows him handing systems sideways when he no longer remembers them. Running through the serious work is the old-man bit the room eventually gets him to perform back."
+summary: "Snow's archive progression begins with early technical fixes and privacy-minded room design, moves into the August 2020 JAG / Club Conduct drafts where he formalizes limits on access and power, then shows him handing systems sideways when he no longer remembers them. Running through the serious work is the old-man bit the room eventually gets him to perform back, while later years preserve the same technical/security voice after Dragon Raja fades."
 
 summaryEvidence: "inferred"
 publication: "review"
@@ -28,6 +28,10 @@ claims:
     evidence: "user-confirmed"
     sources:
       - label: "Mugs-confirmed appointments and Game Officer roster"
+  - text: "Snow is Mugs-confirmed as older than much of the core membership, Cantonese, formerly U.S. Air Force, and a cybersecurity professional responsible for hospital electronic medical record systems."
+    evidence: "user-confirmed"
+    sources:
+      - label: "Mugs-confirmed background"
   - text: "On April 13, 2020, Snow opened Slice as a place to post pictures, keep one another updated, and `get to know each other outside of game`; in the same opening-day sequence he warned against sharing location/personal information and said photo sharing was optional: `only if you want` and `we dont pressure here`."
     evidence: "archive-confirmed"
     date: "2020-04-13"
@@ -76,17 +80,43 @@ claims:
     sources:
       - label: "Saber Control recovered export"
         href: "/channels/saber-control"
-  - text: "From September 2020 through 2022, Club Only and the Wall repeatedly treated Snow's age as a running argument. Ansun called him `our beloved old man Snow` while proposing a `happy 50th birthday`; Shiki immediately answered `I thought snow was 26`; Gabu later called him `old man` in the Wall, Sye disputed the label, and by 2022 Snow was performing the case himself with get-off-my-lawn material, `Whipper snapper origin 1700`, and Methuselah."
+  - text: "Across 2021–2023 Saber maintenance, Snow repeatedly tested event commands and timing, diagnosed server-time/timezone behavior, corrected command mistakes, and on March 19, 2023 tried `/help` before saying `Forgot all the commands 😱`."
+    evidence: "archive-confirmed"
+    date: "2021-03-27 – 2023-03-19"
+    sources:
+      - label: "Saber Bot Control recovered export"
+  - text: "From September 2020 through 2022, Club Only and the Wall repeatedly treated Snow's age as a running argument. Ansun called him `our beloved old man Snow` while proposing a `happy 50th birthday`; Shiki immediately answered `I thought snow was 26`; Gabu later called him `old man`, Sye disputed the label, and by 2022 Snow was performing the case himself with get-off-my-lawn material, `Whipper snapper origin 1700`, and Methuselah."
     evidence: "archive-confirmed"
     date: "2020-09-09 – 2022-08-05"
     sources:
       - label: "Club Only + Wall recovered exports"
         href: "/lore/old-man-snow"
     note: "The conflicting age numbers are peer joking and counter-joking. They do not establish Snow's real age or birthday."
-  - text: "Snow is Mugs-confirmed as older than much of the core membership, Cantonese, formerly U.S. Air Force, and a cybersecurity professional responsible for hospital electronic medical record systems."
-    evidence: "user-confirmed"
+  - text: "On November 15, 2024, Snow answered a display-quality question by distinguishing phone and computer-monitor viewing: on a mobile phone `you can't see the difference`, while on a computer monitor the difference could be noticeable."
+    evidence: "archive-confirmed"
+    date: "2024-11-15"
     sources:
-      - label: "Mugs-confirmed background"
+      - label: "Whiskey Room recovered export"
+  - text: "On February 11, 2025, Snow asked Mugen whether chats from previous years were archived or removed; Mugen answered by explaining the manual Discord export / HTML archive process and its exclusions."
+    evidence: "archive-confirmed"
+    date: "2025-02-11"
+    sources:
+      - label: "Safe House recovered export"
+  - text: "On February 19, 2026, Snow warned `Bad practice. Don't click on links` in the reunion-era Safe House after an older-room mention and attachment. The attachment itself is not described by this claim."
+    evidence: "archive-confirmed"
+    date: "2026-02-19"
+    sources:
+      - label: "Safe House reunion recovered export"
+  - text: "On March 2, 2026, Snow wrote `I was looking for a key to get away from the demented`, preserving his habit of folding access vocabulary back into jokes about the room."
+    evidence: "archive-confirmed"
+    date: "2026-03-02"
+    sources:
+      - label: "Safe House reunion recovered export"
+  - text: "On March 10, 2026, Snow entered a room with `Do I need security clearance to enter this room? 😳` and later traced the server's bot evolution from DiscordBot through Saber to the later bespoke bot; Akariel answered `Astonishing display of knowledge`."
+    evidence: "archive-confirmed"
+    date: "2026-03-10"
+    sources:
+      - label: "Safe House reunion recovered export"
 
 antiFanon:
   - "Snow is not a generic Staff card in the corrected roster; Pit Boss takes primary placement."
@@ -96,10 +126,14 @@ antiFanon:
   - "Do not attribute `Real life and health first always` / `we miss you though BB` to Snow from the stale May 25 Slice fragment unless its exact message-level source is reacquired. The current exact pre-JAG `Real life and health first, always` receipt is Mugen on June 5, 2020; Snow's separately exact Club Conduct wording is August 7."
   - "The guardrails-and-handoff reading is cross-room interpretation from repeated behavior, not a formal UL appointment, a claim of motive, or permission to credit Snow with every rule or system he helped operate."
   - "The old-man bit is peer characterization and reciprocal joking, not a friendship ranking, a verified age record, or evidence that Snow's boundary-setting was paternal or benevolent."
+  - "Later Safe House security jokes and warnings do not establish a formal UL cybersecurity office; they are authored Snow lines consistent with his confirmed professional background and recurring technical vocabulary."
+  - "The 2026 bot-history explanation proves recall of that lineage in that scene, not that Snow retained perfect institutional memory; the same archive also preserves him openly forgetting commands."
 
 relatedPeople:
   - "mugen"
   - "gabu"
+  - "sye"
+  - "ren"
 
 tags:
   - "leadership"
@@ -133,11 +167,11 @@ Under the joke formatting, the draft repeatedly limits what people with access o
 
 The draft was under construction and not every clause is treated as final prosecuted law. The biographical progression is still clear: April's room-level privacy instincts have become an attempt to write boundaries into the institution itself.
 
-## 2021 — COMPETENCE INCLUDES KNOWING WHEN YOU NO LONGER REMEMBER THE SYSTEM
+## 2021–2023 — KNOWING THE SYSTEM ALSO MEANS ADMITTING WHEN THE SYSTEM HAS MOVED ON WITHOUT YOU
 
-In January 2021, Saber needs attention. Snow says he no longer remembers how to fix it and asks Gabu if she wants to try. Gabu says she can work through it one item at a time.
+In January 2021, Saber needs attention. Snow says he no longer remembers how to fix it and asks Gabu if she wants to try. Gabu says she can work through it one item at a time. Over the next two years Snow remains visible around event commands, server-time testing, timezone problems, and edits. In March 2023, after the command surface has changed again, he tries `/help` and simply says **`Forgot all the commands 😱`**.
 
-That handoff is a useful correction to the mythology competence can create around technical people. Snow is willing to say **I don't remember** and move the work toward somebody who can continue it. The system matters more than maintaining the performance of infallibility.
+That is a useful correction to the mythology competence can create around technical people. Snow is willing to say **I don't remember** and move the work toward the actual problem. The system matters more than maintaining the performance of infallibility.
 
 ## 2020–2022 — WHILE ALL THIS IS HAPPENING, THE ROOM IS PROSECUTING HIM FOR AGE
 
@@ -147,4 +181,12 @@ By 2022 Snow is participating in the prosecution himself: get-off-my-lawn materi
 
 Snow is user-confirmed as older than much of the core group, Cantonese, formerly U.S. Air Force, and a cybersecurity professional working with hospital electronic medical record systems. Those real-world facts help explain why technical/privacy topics recur, but they do not get to swallow the biography.
 
-The longer UL progression is more specific: early fixer → room-boundary setter → conduct-framework drafter → collaborator willing to hand systems sideways → senior member whose own age becomes community property. The Pit Boss / Judgemen titles name present roles. The timeline shows the person who made those roles feel plausible without falsely crowning him #2.
+## 2024–2026 — THE GAME FADES; THE SAME SNOW KEEPS ANSWERING THE ACTUAL QUESTION
+
+By November 2024, the technical subject is no longer a Dragon Raja event bot. Snow answers a display-quality question by distinguishing a phone from a computer monitor: the difference is not meaningfully visible in the first context but can be noticeable in the second. In February 2025 he asks Mugen whether the old chats are archived or removed and listens while she explains the manual export process. The useful continuity is not that Snow always has the answer. It is that he keeps checking what the system actually does.
+
+The 2026 Safe House reunion compresses the serious and unserious Snow into the same few weeks. He warns **`Bad practice. Don't click on links`**. He later says he was looking for a key to escape **`the demented`**. On March 10 he asks **`Do I need security clearance to enter this room? 😳`**, then traces the server's bot history from DiscordBot through Saber to the later bespoke system. Akariel answers **`Astonishing display of knowledge`**.
+
+The security-clearance joke matters because it is Snow using his own vocabulary against himself. The same man who spent years talking about permissions and access can now walk into a Discord room and make the entire concept sound absurd with one wide-eyed emoji. The bot-history scene matters for the opposite reason: he does remember a technical lineage years later. Both can coexist with **`Forgot all the commands 😱`**. The archive does not need Snow to be infallible in order for him to be recognizably knowledgeable.
+
+The longer UL progression is more specific than a role ladder: early fixer → room-boundary setter → conduct-framework drafter → collaborator willing to hand systems sideways → senior member whose own age becomes community property → later technical elder still asking questions, warning people about links, and turning security language into jokes. The Pit Boss / Judgemen titles name present roles. The timeline shows the person who made those roles feel plausible without falsely crowning him #2.
