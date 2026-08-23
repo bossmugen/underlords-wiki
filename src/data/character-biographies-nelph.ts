@@ -1,5 +1,6 @@
 import type { CharacterNarrative } from "./character-biographies-narrative";
 
+// Retired-Officer narrative registry. The export name is retained for resolver compatibility.
 export const nelphNarrativeCharacterBios: Record<string, CharacterNarrative> = {
   nelph: {
     intro: [
@@ -84,5 +85,101 @@ export const nelphNarrativeCharacterBios: Record<string, CharacterNarrative> = {
     closing: [
       "Nelph's archive remains smaller than her historical rank would suggest, and the page should be honest about that imbalance. But sparse does not have to mean institutional. The person is visible in the verbs, the follow-through, the refusal to sound like a memo, the Wall shorthand, the later invite bridge, and the instant reunion recognition. The Officer role explains one chapter of why she was in position to help. It does not explain away the woman doing the helping."
     ]
+  },
+
+  kiro: {
+    intro: [
+      "Kiro — also Gum, and later HicUUOOOOGH on the same stable account — is a retired full Underlords Officer, but that is not the cleanest way to meet him. The surviving archive makes him legible first as a returning house person with a compact, low-ceremony voice and a habit of turning recognition into material. Mugen calls him **`gummy bear`** before the promotion announcement ever appears. Daya correctly identifies him months later and Kiro's response is to ask **`Who's kiro`**. By the 2026 reunion, an ordinary question about adult life can still be answered with **`still hoeing around :3`** before the room moves into serious work vocabulary and immediately finds its way back to stripclub nonsense. The formal role is real. The more distinctive character is the guy who never seems to need a formal register to inhabit it.",
+      "What would it feel like to talk to him, based on what the archive can actually defend? Usually quick. Kiro does not spend many lines explaining himself. He can answer a practical question directly, object with a tiny `wtf` or `smh`, and then decide that the more entertaining move is to grab the premise and make it worse. That rhythm matters more than inventing a personality from missing hobbies. The file does not yet give a safe hometown, pre-UL biography, long-term fandom list, or a clean first entrance. It does give repeated evidence that he is comfortable being recognized, teased, and folded into house comedy — often while helping the comedy escape containment himself.",
+      "The biggest contradiction is useful because it keeps adulthood and authority from flattening him. Kiro becomes a full Officer. Years later he is talking with Mugen from inside shared nursing/work vocabulary and complaining about administrative paperwork. Neither development produces a ceremonial Kiro. The same person who can talk shop can also make his own name harder to file and let a serious conversation become IV-pole stripclub choreography. The page therefore treats responsibility, professional life, and clown behavior as things that coexist in the record rather than stages where one supposedly replaces the other."
+    ],
+    sections: [
+      {
+        period: "Before August 2022",
+        title: "The actual first entrance is still off-camera",
+        paragraphs: [
+          "Kiro's true beginning in Underlords is not safely recovered. That needs saying before the Lobby starts, because both of the first clean textual scenes are returns. Later role metadata cannot be marched backward to invent an origin date, and Mugen's familiarity cannot be converted into a private friendship history the archive does not show. We know Kiro was already known. We do not yet know the first day he became known.",
+          "This is also why the old aliases matter as continuity rather than lore bait. `Gum` and `HicUUOOOOGH` belong to the same Kiro. The account identity is stable even when the displayed name is not. UL has enough actual identity chaos without manufacturing a second person out of a nickname, so the biography keeps the bridge explicit and then concentrates on what the room does with that mutability socially."
+        ]
+      },
+      {
+        period: "August 31, 2022",
+        title: "The bouncer performs onboarding; Mugs performs recognition",
+        paragraphs: [
+          "The first clean return is August 31. The automated Stripclub Bouncer gives Kiro the ordinary welcome-and-role-assignment prompt. Kiro identifies himself as **`『Gυмツ』`** in UnderLords. Then the human layer overrides the bureaucratic look of the scene almost immediately: Mugen replies **`Welcome gummy bear!`**. Kiro gives her **`Helloooo`**. Mugen points him toward the Discord Tour, Whiskey, and Biodata.",
+          "Nothing in that exchange sounds like two people meeting. The bot is doing first-door paperwork because that is what the bot does; Mugen's wording carries a completely different social meaning. `Gummy bear` is not a title or a role. It is ordinary familiarity arriving before any institutional explanation. Kiro's `Helloooo` is equally unceremonious. He does not introduce a biography. He answers the greeting and keeps moving.",
+          "That small mismatch — machinery says new arrival, people say welcome back — becomes important later. Kiro's story is repeatedly less legible in metadata than it is in interaction. The house knows more than the form does."
+        ]
+      },
+      {
+        period: "September 8, 2022",
+        title: "You know the drill",
+        paragraphs: [
+          "Eight days later, the role-assignment machinery appears again for the same account. The archive does not explain why, and the page refuses to turn that gap into a ban, a rejoin, a club departure, or an account-reset saga. Mugen simply says **`Hey gummy bear! You know the drill`**. Kiro replies that he had to copy-paste the information because he lost it. Mugen finds what she needs and closes with **`Issok i found it, welcome back gummieeees`**.",
+          "The interesting thing is how little anyone dramatizes the friction. Kiro says what went wrong. Mugen fixes the immediate problem. Nobody needs a speech about returning. `You know the drill` contains the history the bot cannot see, and `welcome back` names the social event plainly.",
+          "For Kiro, this is the first strong indication of how he handles small procedural discomfort in the surviving file: he does not make himself more polished than he is. He lost the copied thing; he says so. The exchange stays loose enough that the failure never becomes a character judgment. That matters when the next major receipt is a promotion, because the archive is not building toward Authority Man through a montage of flawless competence."
+        ]
+      },
+      {
+        period: "October 1, 2022",
+        title: "Service first, title second",
+        paragraphs: [
+          "On October 1, Mugen announces HicUUOOOOGH as Underlords' newest Officer and thanks him for his **`service`** and for **`looking after our family`**. This is the clean appointment anchor. It confirms full-Officer status and places him in the historical Pit Boss / Minister lane without requiring export-time role arrays to pretend they are a calendar.",
+          "The wording is revealing, but only within limits. Mugen praises service and care toward the group. A focused archive search did *not* recover enough of the specific labor behind that sentence to write a fake résumé of recruiting, moderation, events, or applicant help. So the biography keeps Mugen's evaluation as Mugen's evaluation. The archive tells us what she thanked him for; it does not give us permission to invent the missing task list.",
+          "The chronology is still useful without it. Three weeks earlier, Kiro is the returning `gummy bear` who knows the drill. Now he has formal authority. The title lands inside an already established house relationship rather than creating the relationship. That is the more human story, and it keeps the Officer chapter from swallowing everything that came before it."
+        ]
+      },
+      {
+        period: "April 2, 2023",
+        title: "The room resolves him correctly; Kiro breaks the filing system anyway",
+        paragraphs: [
+          "The Wall gives Kiro his cleanest character scene. Daya asks, **`LMAO is @HicUUOOOOGH kiro`**. Kiro answers **`N-n-n-no..`**. Momo supplies **`Yeppers`**. Kiro then asks **`Who's kiro`**. Daya gives up with **`i cant keep track anymore 🤣😭`**.",
+          "The joke only works because the identity is not genuinely uncertain. Daya has it right. Momo confirms it. The stable account bridge confirms it. Kiro watches everybody successfully make him legible and decides the correct response is to sabotage legibility from inside the solved case. The tiny stutter in `N-n-n-no..` is performative resistance, not a serious correction; `Who's kiro` escalates after the room has already closed the question.",
+          "Kiro also reacts with a crying emoji to Daya's exasperation, alongside Momo. He is not standing outside the confusion complaining that people cannot keep track. He is laughing in the mess he just helped create. That recurring motion — resist the premise, understand it, then make it worse yourself — becomes one of the few cross-scene social patterns strong enough to use without overfitting a thin archive."
+        ]
+      },
+      {
+        period: "2023–2025",
+        title: "A quieter camera does not become an invented personality",
+        paragraphs: [
+          "After the 2023 identity scene, the safe person-first record becomes patchier. There are Wall captions and reaction clusters tied to Kiro, but some depend on attachments that have not been visually reconstructed in a way strong enough for public description. The biography therefore does not reverse-engineer unseen screenshots from punchlines. A caption can prove Kiro said the caption; it cannot magically restore every pixel behind it.",
+          "This quieter stretch is also where role metadata becomes especially tempting and especially dangerous. Kiro's later position as a retired Officer is known, but the archive does not yet give a clean retirement date or a complete story of how his responsibilities wound down. Silence is not a promotion chronology, an absence motive, or a personality change. The page leaves the middle years thinner rather than manufacturing a dramatic fadeout."
+        ]
+      },
+      {
+        period: "August 14, 2026",
+        title: "Adult life enters the room and immediately gets UL on it",
+        paragraphs: [
+          "The reunion restores Kiro in the most useful possible way: not with a formal return statement, but with ordinary recognition. Mugen sees him, the old register wakes up, and when she asks what he has been doing, Kiro gives **`still hoeing around :3`** before the conversation proceeds into actual life updates. The `:3` matters because it keeps the sentence in exactly the house tone everybody remembers. He is older; the delivery has not been institutionalized.",
+          "Then the archive gives the biography something it badly needed: real-world texture that is not another Discord role. Kiro and Mugen talk from inside shared nursing/work vocabulary. Administrative paperwork annoys him. The conversation can become specific enough to sound like two people who understand the domain, then mutate almost immediately into **`we building a UL nursing society then`**, medication-administration jokes, and IV-pole stripclub choreography. Serious work language and stupid house language do not require a scene change.",
+          "The public boundary stays narrow. The exchange supports nursing/work-domain familiarity and Kiro speaking about administrative tasks. It does not safely establish an exact current title, employer, unit, school, location, or credential. The human point survives without any of that: adult professional life has accumulated, but it has not evicted the social register that made him recognizable in the first place."
+        ]
+      },
+      {
+        period: "Later reunion banter",
+        title: "Embarrassment becomes authorship once he understands the bit",
+        paragraphs: [
+          "Other reunion material pushes the same social motion into more overt clowning. In a GIF-and-joke sequence, Kiro can initially object to what is being included, then reverse himself once the premise becomes clear and overcommit to the joke. The important pattern is not the literal intimacy language used in the bit; those lines are not romance or sexuality evidence. The useful character read is the reversal: being made the exhibit is less interesting to him than taking control of how ridiculous the exhibit can become.",
+          "A separate party-transport riff works similarly. Kiro offers a solution; Ren corrects the practical premise; instead of defending the original suggestion, Kiro escalates into nonsense. Correction becomes fresh material rather than a social defeat. That does not prove he handles every disagreement this way, and it certainly does not make reckless jokes into real safety preferences. It gives us one repeated comic instinct across reunion scenes: once the room establishes the rules of the bit, Kiro is often willing to take the wheel and drive straight through the guardrail metaphorically.",
+          "The page keeps these jokes bounded because they are easiest to abuse. Faux kissing among friends is not a relationship declaration. Hyperbolic memory or medical jokes are not diagnoses. Party-bus nonsense is not evidence of real conduct. The archive is funny enough without turning comedy into private facts."
+        ]
+      },
+      {
+        period: "Now",
+        title: "The former Officer is still easier to recognize by rhythm than rank",
+        paragraphs: [
+          "Kiro's current public status is straightforward: retired full Officer, former Pit Boss / Minister. The October 1, 2022 promotion is archive-confirmed; the retirement date is not. He was **not a Sniper**. `Gum`, `HicUUOOOOGH`, and Kiro are one person. Those boundaries matter, but they are filing facts around the biography rather than the biography itself.",
+          "What makes Kiro distinct in the surviving record is the rhythm underneath them. He returns through a system that treats him like an arrival while Mugen treats him like `gummy bear`. He receives formal office without becoming ceremonious. Daya correctly identifies him and he responds by asking who Kiro is. Years later, adult work talk and the old stripclub register can coexist in the same conversation. If friends make him part of a joke, he may object for one beat and then improve the prosecution's case himself.",
+          "There are still meaningful gaps. We do not have a safe pre-UL biography, a reliable hobby/taste catalog, enough evidence to rank his relationships, or enough direct Officer-work scenes to tell a detailed authority story. That is precisely why the surviving human material matters. Kiro does not need invented interests or a generic 'loyal Officer' temperament to become a person on the page. He is already legible as **an old house member whose identity is stable even while he toys with the labels, whose serious adult vocabulary never replaces his compact clown register, and whose most recognizable move is often to take whatever joke has just caught him and make it harder for everybody else to contain.**"
+        ]
+      }
+    ],
+    closing: [
+      "Kiro's archive is not dense enough to pretend we know everything about him, but it is dense enough to stop introducing him as a rank. The person arrives first: `gummy bear`, `Helloooo`, `Who's kiro`, `still hoeing around :3`; recognition, self-sabotaged filing, adult work talk, and the old house dialect surviving every change around it. Then the title can take its proper place in the chronology. He became an Officer. He did not have to become an Official Voice."
+    ]
   }
 };
+
+if (!nelphNarrativeCharacterBios.kiro) {
+  throw new Error("Priority Retired Officer Kiro lost its person-first narrative biography.");
+}
