@@ -1,4 +1,5 @@
 import type { CharacterNarrative } from "./character-biographies-narrative";
+import { momoNarrativeCharacterBios } from "./character-biographies-momo";
 
 export const genGreyNarrativeCharacterBios: Record<string, CharacterNarrative> = {
   gengrey: {
@@ -60,6 +61,8 @@ export const genGreyNarrativeCharacterBios: Record<string, CharacterNarrative> =
     ]
   }
 };
+
+Object.assign(genGreyNarrativeCharacterBios, momoNarrativeCharacterBios);
 
 const genGreyNarrative = genGreyNarrativeCharacterBios.gengrey;
 const genGreyWordCount = [
