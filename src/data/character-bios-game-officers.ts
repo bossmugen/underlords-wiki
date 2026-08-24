@@ -1,12 +1,13 @@
 import { narrativeCharacterBios } from "./character-biographies-narrative";
 import { ameNarrativeCharacterBios } from "./character-biographies-ame";
 import { chibiterasuNarrativeCharacterBios } from "./character-biographies-chibiterasu";
+import { yelikNarrativeCharacterBios } from "./character-biographies-yelik";
 
 // Game Officer narratives register into the shared fallback registry so the live
 // character page receives the person-first biography before dossier/themed material.
-Object.assign(narrativeCharacterBios, ameNarrativeCharacterBios, chibiterasuNarrativeCharacterBios);
+Object.assign(narrativeCharacterBios, ameNarrativeCharacterBios, chibiterasuNarrativeCharacterBios, yelikNarrativeCharacterBios);
 
-const priorityGameOfficerNarratives = ["ame", "chibiterasu"] as const;
+const priorityGameOfficerNarratives = ["ame", "chibiterasu", "yelik"] as const;
 for (const id of priorityGameOfficerNarratives) {
   const narrative = narrativeCharacterBios[id];
   const wordCount = narrative
@@ -65,22 +66,22 @@ export const gameOfficerCharacterBios = {
   yelik: {
     dek:"Game Officer, Parterre Gardener, and human push notification for Dragon Raja opportunities with coordinates, countdowns, and a recurring sense that everybody needs to move right now.",
     overview:[
-      "Yelik is a current Game Officer and Parterre Gardener. The archive earns a much better character hook than simply calling her `the gardener`: she repeatedly finds short-lived game opportunities and converts them into instructions another person can use before the window disappears.",
-      "Her florist alerts include coordinates and expiration times. Her pet-event notices recur across 2022 and into 2023, sometimes adding the remaining minutes. The useful pattern is not `likes flowers` or `likes pets`; it is where / how long / go now.",
-      "Mugen's May 2022 Wall line that Yelik spends more time in her garden than she does is funny on its own, and even more useful chronologically because it predates Yelik's surviving May 18 Lobby card. The person was already socially legible before the Bouncer tried to introduce her."
+      "Yelik is a current Game Officer and Parterre Gardener. The archive earns a much better character hook than simply calling Yelik `the gardener`: the stable account repeatedly finds short-lived game opportunities and converts them into instructions another person can use before the window disappears.",
+      "The florist alerts include coordinates and expiration times. The committed dossier also preserves a run of locally attributed limited-time event notices across 2022 and into 2023. The useful pattern is not `likes flowers` or `likes pets`; it is where / how long / go now. Other UL members also post event alerts, so none of this becomes an exclusive office or personality monopoly.",
+      "Mugen's May 2022 Wall line that Yelik spends more time in her garden than she does is funny on its own, and even more useful chronologically because it predates Yelik's surviving May 18 Lobby card. The person was already socially legible before the Bouncer tried to introduce Yelik."
     ],
     history:[
       {date:"May 12, 2022",title:"Already in Mugen's garden",text:"Mugen jokes that Yelik is spending more time in her garden than Mugen does. Six days later the Bouncer cards Yelik, proving why Lobby cannot be treated as a first-join ledger here."},
       {date:"June 26–27, 2022",title:"Florist radar",text:"Yelik posts exact florist locations with shrinking windows — twenty minutes for one, five for another. The information is shaped for immediate use."},
-      {date:"2022–August 2023",title:"Pet event is up",text:"Repeated pet-event alerts continue across more than a year: open now, up now, seven minutes left, second occurrence. Recurrence turns a useful message into a recognizable behavior pattern."},
-      {date:"August 10, 2023",title:"The Siberian shark case",text:"Yelik describes spending three days trying to catch the last fish while already using the rod she is told she needs. Funny, direct, and still one scene rather than a new lifelong fishing identity."}
+      {date:"2022–August 2023",title:"The disappearing opportunity",text:"The committed dossier preserves locally attributed limited-time event notices across more than a year. Because Anayss, Gilli and others also post similar alerts elsewhere, the wiki treats the behavior as shared house labor rather than assigning Yelik ownership of the category."},
+      {date:"August 10, 2023",title:"The Siberian shark case",text:"Yelik describes spending three days trying to catch the last fish while already using the rod the game says is required. Funny, direct, and still one scene rather than a new lifelong fishing identity."}
     ],
     characterNotes:[
       {title:"Dragon Raja forgot push notifications",text:"Editorial shorthand for a recurring authored behavior: Yelik repeatedly relays expiring or newly available opportunities before they vanish."},
       {title:"Garden before paperwork",text:"The Mugen garden joke predates the surviving Lobby card, a clean reminder that social history can be older than account-intake procedure."}
     ],
     roleNotes:["Current primary shelf: Game Officers.","Parterre Gardener is a specialist appointment.","The alert run does not create a separate Event Director or Party Director role."],
-    canonNotes:["Do not infer personality solely from the Gardener title.","`@Staff` identifies the audience of an alert, not appointment chronology.","The Siberian shark scene remains a one-off unless later evidence makes fishing recur." ]
+    canonNotes:["Do not infer personality solely from the Gardener title.","`@Staff` identifies the audience of an alert, not appointment chronology.","Shared alert language across multiple UL members is not evidence of exclusive ownership or rank.","The Siberian shark scene remains a one-off unless later evidence makes fishing recur." ]
   },
 
   noether: {
