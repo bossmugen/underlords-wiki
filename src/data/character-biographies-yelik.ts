@@ -1,4 +1,10 @@
-import type { CharacterNarrative } from "./character-biographies-narrative";
+import { narrativeCharacterBios, type CharacterNarrative } from "./character-biographies-narrative";
+import { noetherNarrativeCharacterBios } from "./character-biographies-noether";
+
+// Noether follows Yelik in the Game Officer shelf. Register the dedicated
+// person-first narrative here so the shared Game Officer registry receives it
+// before its older themed fallback object is consulted.
+Object.assign(narrativeCharacterBios, noetherNarrativeCharacterBios);
 
 export const yelikNarrativeCharacterBios: Record<string, CharacterNarrative> = {
   yelik: {
