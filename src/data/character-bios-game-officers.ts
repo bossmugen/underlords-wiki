@@ -1,20 +1,24 @@
 import { narrativeCharacterBios } from "./character-biographies-narrative";
 import { ameNarrativeCharacterBios } from "./character-biographies-ame";
+import { chibiterasuNarrativeCharacterBios } from "./character-biographies-chibiterasu";
 
 // Game Officer narratives register into the shared fallback registry so the live
 // character page receives the person-first biography before dossier/themed material.
-Object.assign(narrativeCharacterBios, ameNarrativeCharacterBios);
+Object.assign(narrativeCharacterBios, ameNarrativeCharacterBios, chibiterasuNarrativeCharacterBios);
 
-const ameNarrative = ameNarrativeCharacterBios.ame;
-const ameNarrativeWordCount = ameNarrative
-  ? [
-      ...ameNarrative.intro,
-      ...ameNarrative.sections.flatMap((section) => section.paragraphs),
-      ...(ameNarrative.closing ?? [])
-    ].join(" ").split(/\s+/).filter(Boolean).length
-  : 0;
-if (!ameNarrative || ameNarrativeWordCount < 900) {
-  throw new Error(`Priority Game Officer Ame lost the substantive person-first biography (${ameNarrativeWordCount} words).`);
+const priorityGameOfficerNarratives = ["ame", "chibiterasu"] as const;
+for (const id of priorityGameOfficerNarratives) {
+  const narrative = narrativeCharacterBios[id];
+  const wordCount = narrative
+    ? [
+        ...narrative.intro,
+        ...narrative.sections.flatMap((section) => section.paragraphs),
+        ...(narrative.closing ?? [])
+      ].join(" ").split(/\s+/).filter(Boolean).length
+    : 0;
+  if (!narrative || wordCount < 900) {
+    throw new Error(`Priority Game Officer ${id} lost the substantive person-first biography (${wordCount} words).`);
+  }
 }
 
 export const gameOfficerCharacterBios = {
@@ -42,19 +46,20 @@ export const gameOfficerCharacterBios = {
     dek:"Game Officer, Parterre Gardener, Chibiterasu/Chuutan/Chubi, and a smaller file whose strongest evidence is identity continuity rather than a personality invented from job titles.",
     overview:[
       "Chibiterasu is a current Game Officer with the specialist appointment Parterre Gardener. Chuutan, Chuu~tan, Chubi, Chuubi, and Chibi belong to the same character file rather than spawning an entire Chu cinematic universe.",
-      "The clean archival bridge starts in March 2022 when the stable Chubi account answers Lobby intake with `IGN: chibiterasu`, `Club: Underlords`, `Age: 22`. In May 2024 the same account passes through the door again and answers as `Chuu~tan, Underlords and I'm 25`.",
-      "Sye's immediate `chu chu` after the 2024 check-in supplies just enough human recognition to keep the scene from reading like anonymous paperwork. The wiki stops there rather than inventing a personality from one nickname, a Gardener title, or two Lobby appearances."
+      "The clean archival bridge starts in March 2022 when the stable Chubi account answers Lobby intake with the in-game name `chibiterasu` and club Underlords. In March 2023 Mugen names `@Chubi` among the anniversary `Nitro Snipers`; in May 2024 the same stable account passes through the door again and answers as `Chuu~tan, Underlords`.",
+      "Sye's immediate `chu chu` after the 2024 check-in supplies just enough human recognition to keep the scene from reading like anonymous paperwork. Historical age fields stay backstage, and the wiki refuses to invent a personality from one nickname, a Gardener title, or repeated Lobby cards."
     ],
     history:[
-      {date:"March 9, 2022",title:"Chubi identifies Chibiterasu",text:"The stable Discord account answers the Bouncer with the in-game name Chibiterasu and Underlords club identity. This is a clean identity receipt, not automatically a first-ever membership date."},
-      {date:"May 13, 2024",title:"Chuu~tan comes through the door",text:"The same account gives `Chuu~tan, Underlords and I'm 25`; Sye follows with `chu chu`. The alias bridge gets stronger while the reason for the new Lobby cycle stays unresolved."}
+      {date:"March 9, 2022",title:"Chubi identifies Chibiterasu",text:"The stable Discord account answers the Bouncer with the in-game name Chibiterasu and Underlords club identity. The historical age field is intentionally withheld here. This is a clean identity receipt, not automatically a first-ever membership date."},
+      {date:"March 31, 2023",title:"Nitro Sniper for the anniversary, not the shelf",text:"Mugen includes `@Chubi` in the anniversary `Nitro Snipers` roll call. The announcement proves participation and public recognition, but it does not identify Chubi's exact qualifying artifact and does not create a formal/current Sniper role."},
+      {date:"May 13, 2024",title:"Chuu~tan comes through the door",text:"The same account gives `Chuu~tan, Underlords`; Sye follows with `chu chu`. The alias bridge gets stronger while the reason for the new Lobby cycle stays unresolved."}
     ],
     characterNotes:[
-      {title:"One person, many Chus",text:"The alias pile is provenance, not extra cast members. The stable account and current canon keep Chibiterasu / Chuutan / Chubi / Chuubi / Chibi together."},
+      {title:"One person, many Chus",text:"The alias pile is provenance, not extra cast members. The stable account and current canon keep Chibiterasu / Chuutan / Chuu~tan / Chubi / Chuubi / Chibi together."},
       {title:"Thin on purpose",text:"This is a real evidence gap. The page carries what the archive earns and refuses to manufacture a botanical personality from Parterre Gardener."}
     ],
     roleNotes:["Current primary shelf: Game Officers.","Parterre Gardener is a specialist appointment.","Appointment chronology remains unresolved."],
-    canonNotes:["Repeated Lobby cards are not proof of leaving and rejoining.","Sye's `chu chu` is recognition, not a closeness ranking.","The Gardener title does not by itself establish hobbies, profession, or frequency of gardening." ]
+    canonNotes:["Repeated Lobby cards are not proof of leaving and rejoining.","Historical age fields are intentionally not republished as current demographic facts.","Sye's `chu chu` is recognition, not a closeness ranking.","The 2023 `Nitro Sniper` wording is an anniversary participation label, not formal/current Sniper shelf placement.","The Gardener title does not by itself establish hobbies, profession, or frequency of gardening." ]
   },
 
   yelik: {
@@ -86,7 +91,7 @@ export const gameOfficerCharacterBios = {
       "That sequence earns the contradiction without requiring a fake `Baker` title: the prosecutor has a catering arm. Noether is funniest here because mock enforcement turns into provision."
     ],
     history:[
-      {date:"October 28, 2021",title:"The clean Lobby identity",text:"Noether checks in as `Noether, Underlords, 29`. On December 23 the Bouncer cards the same person again and Anayss replies `wb ❤️`, making the second event a recognized return rather than a new origin."},
+      {date:"October 28, 2021",title:"The clean Lobby identity",text:"Noether checks in through the Lobby. On December 23 the Bouncer cards the same person again and Anayss replies `wb ❤️`, making the second event a recognized return rather than a new origin. Historical age data from the old intake stays backstage."},
       {date:"November–December 2021",title:"Unsugar acquires a tax code",text:"Anayss launches `Unsugar hami`; Noether keeps the wording alive and expands it into `Unsugared snow`, `sugar daddy`, and `unsugar boiii` joke categories. None of those phrases are literal relationship claims."},
       {date:"February 3, 2022",title:"Dessert court supplies its own evidence",text:"Noether accuses Hami of not sharing desserts, then later says she made strawberry ice cream because he did not share. The 23m52s message interval is not treated as a cooking timer."},
       {date:"July 7–29, 2022",title:"The franchise gets peer recognition and then cake",text:"Anayss calls Noether + Hami `so much material`; later Slice records Anayss saying she met Noether and Noether baked a cake for her. Noether replies `A date with ana`. The meetup is real; romance is not inferred."}
