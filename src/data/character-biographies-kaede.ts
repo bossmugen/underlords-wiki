@@ -7,6 +7,7 @@ import { rummyNarrativeCharacterBios } from "./character-biographies-rummy";
 import { hanNarrativeCharacterBios } from "./character-biographies-han";
 import { nobuNarrativeCharacterBios } from "./character-biographies-nobu";
 import { miaNarrativeCharacterBios } from "./character-biographies-mia";
+import { shikiNarrativeCharacterBios } from "./character-biographies-shiki";
 
 // Shared priority narrative compatibility registry. The export name is retained so the
 // existing character-page resolver keeps its stable import while person-first passes
@@ -20,6 +21,7 @@ export const kaedeNarrativeCharacterBios: Record<string, CharacterNarrative> = {
   ...hanNarrativeCharacterBios,
   ...nobuNarrativeCharacterBios,
   ...miaNarrativeCharacterBios,
+  ...shikiNarrativeCharacterBios,
 };
 
 for (const id of ["kaede", "feli", "lan", "nemo", "rummy"] as const) {
@@ -29,7 +31,7 @@ for (const id of ["kaede", "feli", "lan", "nemo", "rummy"] as const) {
   }
 }
 
-for (const id of ["han", "nobu", "mia"] as const) {
+for (const id of ["han", "nobu", "mia", "shiki"] as const) {
   const narrative = kaedeNarrativeCharacterBios[id];
   if (!narrative || narrative.intro.join(" ").length < 500 || narrative.sections.length < 6) {
     throw new Error(`Priority Director / Specialist character ${id} lost its person-first narrative biography.`);
