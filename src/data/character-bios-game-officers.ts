@@ -1,22 +1,41 @@
+import { narrativeCharacterBios } from "./character-biographies-narrative";
+import { ameNarrativeCharacterBios } from "./character-biographies-ame";
+
+// Game Officer narratives register into the shared fallback registry so the live
+// character page receives the person-first biography before dossier/themed material.
+Object.assign(narrativeCharacterBios, ameNarrativeCharacterBios);
+
+const ameNarrative = ameNarrativeCharacterBios.ame;
+const ameNarrativeWordCount = ameNarrative
+  ? [
+      ...ameNarrative.intro,
+      ...ameNarrative.sections.flatMap((section) => section.paragraphs),
+      ...(ameNarrative.closing ?? [])
+    ].join(" ").split(/\s+/).filter(Boolean).length
+  : 0;
+if (!ameNarrative || ameNarrativeWordCount < 900) {
+  throw new Error(`Priority Game Officer Ame lost the substantive person-first biography (${ameNarrativeWordCount} words).`);
+}
+
 export const gameOfficerCharacterBios = {
   ame: {
     dek:"Game Officer, Amexistir, and the recurring front-door case where UL stops asking the person to fit the form and starts making the form usable for the person.",
     overview:[
       "Ame / Amexistir is a current Game Officer. His clean surviving character file is unusually good at separating institutional fact from social texture: the rank is canon, while the person appears most clearly in repeated Lobby scenes where language and account procedure keep getting negotiated around him.",
-      "In November 2022 Ame says he understands little English. Ren immediately switches the practical onboarding exchange into Spanish, and Ame answers the remaining age question with the much more human `soy un tata de 30` instead of a sterile number. The wiki preserves `tata` without pretending one English gloss is canonical.",
+      "In November 2022 Ame says he understands little English. Ren immediately switches the practical onboarding exchange into Spanish, and Ame answers the remaining age question with a joking self-description built around `tata` instead of a sterile form value. The historical age number stays backstage, and the wiki preserves `tata` without pretending one English gloss is canonical.",
       "The same stable account passes through the Bouncer again in 2023. By November, Anayss simply writes `Hola Ame! Bienvenido de vuelta!` — the bot sees another door event; the human in the room sees a return."
     ],
     history:[
-      {date:"November 23, 2022",title:"The room switches languages",text:"Ame says he understands little English; Ren explains the intake process in Spanish. Ame answers the age field with `soy un tata de 30`. The scene supports accommodation and voice, not nationality or a closeness ranking."},
-      {date:"June 9, 2023",title:"Same account, same front door",text:"Ame is carded again, gives `30, support`, then identifies himself as Amexistir, age 30, Club Dragon. Ren again handles the practical packet in Spanish. The repeated welcome is not a second origin story."},
+      {date:"November 23, 2022",title:"The room switches languages",text:"Ame says he understands little English; Ren explains the intake process in Spanish. Ame answers the age field with a joking `tata` self-description. The scene supports accommodation and voice, not nationality or a closeness ranking; the historical age number is intentionally not republished here."},
+      {date:"June 9, 2023",title:"Same account, same front door",text:"Ame is carded again, answers the requested support field tersely, then begins a follow-up with `Hola, ty` while identifying himself as Amexistir and naming Club Dragon. Ren again handles the practical packet in Spanish. The repeated welcome is not a second origin story."},
       {date:"November 17, 2023",title:"Welcome back beats welcome",text:"MEE6 produces another generic welcome. Anayss answers `Hola Ame! Bienvenido de vuelta!`, explicitly restoring the social meaning of the event as a return."}
     ],
     characterNotes:[
-      {title:"`soy un tata de 30`",text:"Ame's own answer to a bureaucratic age field is the strongest current voice beat. Keep the Spanish wording; do not turn a regional word into a fake permanent title."},
+      {title:"`tata`, not a census category",text:"Ame's answer to a bureaucratic age field is the strongest early voice beat. Keep the Spanish word in context; do not turn a regional term or an old age field into a fake permanent identity label."},
       {title:"The Bouncer keeps forgetting the plot",text:"Repeated intake cards are useful because the humans around them keep supplying the continuity the software cannot."}
     ],
     roleNotes:["Current primary shelf: Game Officers.","Game Officer appointment date remains unresolved; do not derive it from export-time role arrays."],
-    canonNotes:["Ame = Amexistir.","Spanish-language exchanges do not establish nationality, first language, or only language.","Repeated Lobby welcomes do not prove departures or re-joins."]
+    canonNotes:["Ame = Amexistir.","Spanish-language exchanges do not establish nationality, first language, or only language.","`Hola, ty` is one mixed-register intake response, not proof of a universal code-switching style or broad fluency claim.","Historical age fields are not current demographic facts and are intentionally withheld from the person-first biography.","Repeated Lobby welcomes do not prove departures or re-joins."]
   },
 
   chibiterasu: {
