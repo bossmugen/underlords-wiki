@@ -2,12 +2,21 @@ import { narrativeCharacterBios } from "./character-biographies-narrative";
 import { ameNarrativeCharacterBios } from "./character-biographies-ame";
 import { chibiterasuNarrativeCharacterBios } from "./character-biographies-chibiterasu";
 import { yelikNarrativeCharacterBios } from "./character-biographies-yelik";
+import { noetherNarrativeCharacterBios } from "./character-biographies-noether";
+import { yassrNarrativeCharacterBios } from "./character-biographies-yassr";
 
 // Game Officer narratives register into the shared fallback registry so the live
 // character page receives the person-first biography before dossier/themed material.
-Object.assign(narrativeCharacterBios, ameNarrativeCharacterBios, chibiterasuNarrativeCharacterBios, yelikNarrativeCharacterBios);
+Object.assign(
+  narrativeCharacterBios,
+  ameNarrativeCharacterBios,
+  chibiterasuNarrativeCharacterBios,
+  yelikNarrativeCharacterBios,
+  noetherNarrativeCharacterBios,
+  yassrNarrativeCharacterBios
+);
 
-const priorityGameOfficerNarratives = ["ame", "chibiterasu", "yelik"] as const;
+const priorityGameOfficerNarratives = ["ame", "chibiterasu", "yelik", "noether", "yassr"] as const;
 for (const id of priorityGameOfficerNarratives) {
   const narrative = narrativeCharacterBios[id];
   const wordCount = narrative
