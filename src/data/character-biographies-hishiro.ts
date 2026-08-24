@@ -2,6 +2,7 @@ import type { CharacterNarrative } from "./character-biographies-narrative";
 import { hishiroNarrativeCharacterBios as hishiroCoreNarrativeCharacterBios } from "./character-biographies-hishiro-core";
 import { genGreyNarrativeCharacterBios } from "./character-biographies-gengrey";
 import { lillyNarrativeCharacterBios } from "./character-biographies-lilly";
+import { nhouNarrativeCharacterBios } from "./character-biographies-nhou";
 
 // This module is the Staff person-first narrative entrypoint already consumed by
 // the character resolver. Keep priority Staff biographies collected here so a
@@ -10,9 +11,10 @@ export const hishiroNarrativeCharacterBios: Record<string, CharacterNarrative> =
   ...hishiroCoreNarrativeCharacterBios,
   ...genGreyNarrativeCharacterBios,
   ...lillyNarrativeCharacterBios,
+  ...nhouNarrativeCharacterBios,
 };
 
-const priorityStaffNarrativeIds = ["hishiro", "gengrey", "lilly"] as const;
+const priorityStaffNarrativeIds = ["hishiro", "gengrey", "lilly", "momo", "nhou"] as const;
 for (const id of priorityStaffNarrativeIds) {
   if (!hishiroNarrativeCharacterBios[id]) {
     throw new Error(`Priority Staff character ${id} lost its person-first narrative biography.`);
