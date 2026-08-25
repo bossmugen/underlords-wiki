@@ -16,6 +16,7 @@ import { dyingfoxNarrativeCharacterBios } from "./character-biographies-dyingfox
 import { ryoNarrativeCharacterBios } from "./character-biographies-ryo";
 import { deanNarrativeCharacterBios } from "./character-biographies-dean";
 import { taeNarrativeCharacterBios } from "./character-biographies-tae";
+import { zoshaaNarrativeCharacterBios } from "./character-biographies-zoshaa";
 
 // This module is the legacy person-first narrative entrypoint already consumed by
 // the character resolver. Keep priority biographies collected here so a substantive
@@ -38,6 +39,7 @@ export const hishiroNarrativeCharacterBios: Record<string, CharacterNarrative> =
   ...ryoNarrativeCharacterBios,
   ...deanNarrativeCharacterBios,
   ...taeNarrativeCharacterBios,
+  ...zoshaaNarrativeCharacterBios,
 };
 
 const priorityStaffNarrativeIds = ["hishiro", "gengrey", "lilly", "momo", "nhou", "cookie", "alkey", "zepp", "ten", "ghostt", "tofu", "rooks", "nuien"] as const;
@@ -47,7 +49,7 @@ for (const id of priorityStaffNarrativeIds) {
   }
 }
 
-const priorityPlateletNarrativeIds = ["scar", "dyingfox", "ryo", "dean", "tae"] as const;
+const priorityPlateletNarrativeIds = ["scar", "dyingfox", "ryo", "dean", "tae", "zoshaa"] as const;
 for (const id of priorityPlateletNarrativeIds) {
   if (!hishiroNarrativeCharacterBios[id]) {
     throw new Error(`Priority Platelet character ${id} lost its person-first narrative biography.`);
