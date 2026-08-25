@@ -10,10 +10,11 @@ import { miaNarrativeCharacterBios } from "./character-biographies-mia";
 import { shikiNarrativeCharacterBios } from "./character-biographies-shiki";
 import { moonNarrativeCharacterBios } from "./character-biographies-moon";
 import { genGreyNarrativeCharacterBios } from "./character-biographies-gengrey";
+import { scarNarrativeCharacterBios } from "./character-biographies-scar";
 
 // Shared priority narrative compatibility registry. The export name is retained so the
 // existing character-page resolver keeps its stable import while person-first passes
-// advance from Snipers through Directors / Specialists and into Staff.
+// advance across shelves without forcing the public route to depend on the private repo.
 export const kaedeNarrativeCharacterBios: Record<string, CharacterNarrative> = {
   ...kaedeCoreNarrativeCharacterBios,
   ...feliNarrativeCharacterBios,
@@ -26,6 +27,7 @@ export const kaedeNarrativeCharacterBios: Record<string, CharacterNarrative> = {
   ...shikiNarrativeCharacterBios,
   ...moonNarrativeCharacterBios,
   ...genGreyNarrativeCharacterBios,
+  ...scarNarrativeCharacterBios,
 };
 
 for (const id of ["kaede", "feli", "lan", "nemo", "rummy"] as const) {
@@ -46,5 +48,12 @@ for (const id of ["gengrey"] as const) {
   const narrative = kaedeNarrativeCharacterBios[id];
   if (!narrative || narrative.intro.join(" ").length < 500 || narrative.sections.length < 5) {
     throw new Error(`Priority Staff character ${id} lost its person-first narrative biography.`);
+  }
+}
+
+for (const id of ["scar"] as const) {
+  const narrative = kaedeNarrativeCharacterBios[id];
+  if (!narrative || narrative.intro.join(" ").length < 500 || narrative.sections.length < 5) {
+    throw new Error(`Priority Platelet character ${id} lost its person-first narrative biography.`);
   }
 }
