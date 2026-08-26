@@ -6,13 +6,21 @@ const featured = characters.filter((c) => c.billing === "main").slice(0, 8);
 const featuredEpisodes = episodes.slice(-6).reverse();
 const majorOrders = castGroups.slice(0, 6);
 ---
-<WikiLayout title="Underlords Chronicle" description="The Underlords chronicle: eras, characters, major incidents, orders, relationships, legends, relics, and archive-backed continuity.">
+<WikiLayout title="Underlords Reference Chronicle" description="The reference-mirror wiki for Underlords. The canonical public character, Chronicle, lore, and archive experience now lives on the main Underlords site.">
+  <section class="section consolidation-banner">
+    <small>CANONICAL PUBLIC SITE</small>
+    <h2>The Chronicle moved into the house.</h2>
+    <p>This wiki is now the reference mirror. Character biographies, the main chronology, lore, and archive navigation are being consolidated into the main Underlords site so there is one public universe instead of two thinner ones.</p>
+    <a href="https://underlords.pages.dev/">OPEN THE MAIN UNDERLORDS SITE ↗</a>
+  </section>
+
   <section class="hero">
     <div>
-      <div class="kicker">THE CHRONICLE OF UNDERLORDS</div>
+      <div class="kicker">REFERENCE CHRONICLE</div>
       <h1>UNDERLORDS</h1>
-      <p class="tagline">A record of the house from its Dragon Raja beginning through the years when the game mattered less, the people mattered more, and old jokes started returning like named historical forces.</p>
+      <p class="tagline">The long-form reference layer behind the main site: eras, characters, incidents, orders, relationships, legends, relics, and archive-backed continuity.</p>
       <dl class="factbox">
+        <dt>Canonical public home</dt><dd>underlords.pages.dev</dd>
         <dt>First record</dt><dd>2020</dd>
         <dt>Origin</dt><dd>Dragon Raja club</dd>
         <dt>Continuity</dt><dd>2020 → present archive boundary</dd>
@@ -94,3 +102,7 @@ const majorOrders = castGroups.slice(0, 6);
     </div>
   </section>
 </WikiLayout>
+
+<style>
+  .consolidation-banner{margin-top:2rem!important;padding:1.25rem 0 1.5rem;border-top:1px solid rgba(212,171,83,.45);border-bottom:1px solid rgba(212,171,83,.2)}.consolidation-banner small{color:#d7b76a;font-size:.65rem;font-weight:900;letter-spacing:.14em}.consolidation-banner h2{margin:.65rem 0 .7rem;font-size:clamp(2rem,4vw,3.8rem);line-height:.95}.consolidation-banner p{max-width:760px;color:#aaa4ae;line-height:1.65}.consolidation-banner a{display:inline-block;margin-top:.6rem;color:#d7b76a;font-size:.72rem;font-weight:900;text-decoration:none}.consolidation-banner a:hover{color:#fff}
+</style>
