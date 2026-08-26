@@ -1,17 +1,17 @@
 ---
 import WikiLayout from "../../layouts/WikiLayout.astro";
 import "../../styles/characters.css";
-import { allCharacters, castGroups, characterById } from "../../data/cast";
+import { castGroups, characterById } from "../../data/cast";
 
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 const url = (path: string) => `${base}${path}` || path;
 ---
-<WikiLayout title="Characters | Underlords Wiki" description="The Underlords cast, grouped by the actual UL roster structure.">
+<WikiLayout title="Character Codex | Underlords Wiki" description="The Underlords cast, grouped by the actual UL roster structure and historical affiliations.">
   <section class="hero cast-hero">
     <div>
-      <div class="kicker">THE CAST</div>
-      <h1>Characters</h1>
-      <p class="tagline">This is the main event. One person, one file: who they are, where they enter, what job they actually held, who connects them to the house, and what the archive keeps catching them doing.</p>
+      <div class="kicker">CHARACTER CODEX</div>
+      <h1>The Cast</h1>
+      <p class="tagline">Founders, Officers, Snipers, specialists, Staff, Platelets, VIPs, old friends, returnees, and people who somehow acquired enough aliases to require continuity control.</p>
     </div>
   </section>
 
@@ -21,7 +21,7 @@ const url = (path: string) => `${base}${path}` || path;
     ))}
   </section>
 
-  {castGroups.map((group) => {
+  {castGroups.map((group, index) => {
     const groupCharacters = group.characterIds.map((id) => characterById.get(id)).filter(Boolean);
     if (!groupCharacters.length) return null;
     return (
@@ -40,7 +40,7 @@ const url = (path: string) => `${base}${path}` || path;
               <strong>{character.name}</strong>
               {character.aliases?.length ? <div class="cast-aliases">{character.aliases.slice(0,3).join(" · ")}</div> : null}
               <p>{character.logline}</p>
-              <div class="cast-card-footer">OPEN CHARACTER FILE <b>→</b></div>
+              <div class="cast-card-footer">OPEN CODEX ENTRY <b>→</b></div>
             </a>
           ))}
         </div>
@@ -49,7 +49,6 @@ const url = (path: string) => `${base}${path}` || path;
   })}
 
   <section class="section cast-rule">
-    <div class="section-head"><h2>How the shelves work</h2></div>
-    <p>People get one primary shelf. Overlapping jobs stay inside the character file instead of cloning the person three times. Mia, for example, is a current Pit Boss / Minister but lives under Directors / Specialists because UL Interrogator is her primary specialist file. Retired Officers stay visible as Officers in history rather than being quietly demoted into Staff.</p>
+    <div class="section-head"><h2>One person. One continuity.</h2><p>Ranks change. Accounts change. Display names mutate. The character file follows the human instead of cloning them every time Discord develops a new problem.</p></div>
   </section>
 </WikiLayout>
