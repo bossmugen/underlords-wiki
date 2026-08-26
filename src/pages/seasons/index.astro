@@ -2,7 +2,11 @@
 import WikiLayout from "../../layouts/WikiLayout.astro";
 import { seasons } from "../../data/wiki";
 ---
-<WikiLayout title="Seasons | Underlords Wiki" description="Underlords chronology presented as seven seasons.">
-  <section class="hero"><div><div class="kicker">SERIES GUIDE</div><h1>Seasons</h1><p class="tagline">2020 through 2026, treated like television because the cast, settings, callbacks, finales, and reunion special are already doing the work.</p></div></section>
-  <section class="section"><div class="season-grid">{seasons.map((season)=><a class="season-card" href={`/seasons/${season.year}`}><div class="season-year">{season.year}</div><div><h3>{season.title}</h3><p>{season.summary}</p></div></a>)}</div></section>
+<WikiLayout title="Chronicle | Underlords Wiki" description="The Underlords chronology from 2020 through the current archive era.">
+  <section class="hero"><div><div class="kicker">THE GREAT CHRONICLE</div><h1>Eras</h1><p class="tagline">The years are not just dates. Each one leaves UL as a slightly different civilization: club, house, ritual machine, mythology factory, afterlife.</p></div></section>
+  <section class="section">
+    <div class="era-stack">
+      {seasons.map((season,index)=><a class="era-row" href={`/seasons/${season.year}`}><span class="era-index">ERA {String(index+1).padStart(2,"0")}</span><span class="era-year">{season.year}</span><strong>{season.title}</strong><p>{season.summary}</p><b>↗</b></a>)}
+    </div>
+  </section>
 </WikiLayout>
