@@ -1,0 +1,36 @@
+---
+import WikiLayout from "../layouts/WikiLayout.astro";
+import { castGroups, characterById } from "../data/cast";
+---
+<WikiLayout title="Orders & Affiliations | Underlords Wiki" description="Underlords orders, ranks, specialist offices, guest affiliations, and historical roster groupings.">
+  <section class="hero">
+    <div>
+      <div class="kicker">ORDERS · OFFICES · AFFILIATIONS</div>
+      <h1>The<br/>Hierarchy</h1>
+      <p class="tagline">Underlords gave itself a Boss, Officers, Snipers, Game Officers, specialists, Staff, Platelets, VIPs, and enough adjacent titles to make a normal guild roster file for workers' compensation.</p>
+    </div>
+  </section>
+
+  <section class="section faction-grid">
+    {castGroups.map((group, index) => {
+      const members = group.characterIds.map((id) => characterById.get(id)).filter(Boolean);
+      return (
+        <article class="faction-block" id={group.id}>
+          <div class="faction-copy">
+            <small>ORDER {String(index + 1).padStart(2,"0")}</small>
+            <h2>{group.label}</h2>
+            <p>{group.note}</p>
+          </div>
+          <div class="faction-members">
+            {members.map((member) => member && (
+              <a class="faction-member" href={`/characters/${member.id}`}>
+                <strong>{member.name}</strong>
+                <span>{member.role} · {member.era}</span>
+              </a>
+            ))}
+          </div>
+        </article>
+      );
+    })}
+  </section>
+</WikiLayout>
