@@ -1,27 +1,50 @@
 ---
 import WikiLayout from "../layouts/WikiLayout.astro";
 import { characters, episodes, seasons, gags } from "../data/wiki";
+import { castGroups } from "../data/cast";
 const featured = characters.filter((c) => c.billing === "main").slice(0, 8);
-const featuredEpisodes = episodes.slice(-5).reverse();
+const featuredEpisodes = episodes.slice(-6).reverse();
+const majorOrders = castGroups.slice(0, 6);
 ---
-<WikiLayout title="Underlords Wiki" description="The Underlords cast, seasons, episodes, relationships, running gags, locations, quotes, and archive-backed lore.">
+<WikiLayout title="Underlords Chronicle" description="The Underlords chronicle: eras, characters, major incidents, orders, relationships, legends, relics, and archive-backed continuity.">
   <section class="hero">
     <div>
-      <div class="kicker">THE ENSEMBLE COMEDY THAT ACCIDENTALLY STARTED AS A MOBILE GAME GUILD</div>
+      <div class="kicker">THE CHRONICLE OF UNDERLORDS</div>
       <h1>UNDERLORDS</h1>
-      <p class="tagline">Founded in 2020. Seven seasons of fake government, screenshot crimes, bots with jobs, family lore, increasingly unnecessary departments, and people who kept showing up after the game stopped being the point.</p>
+      <p class="tagline">A record of the house from its Dragon Raja beginning through the years when the game mattered less, the people mattered more, and old jokes started returning like named historical forces.</p>
       <dl class="factbox">
-        <dt>Premiere</dt><dd>2020</dd>
-        <dt>Original setting</dt><dd>Dragon Raja</dd>
-        <dt>Genre</dt><dd>Ensemble comedy · found family · workplace procedural if the workplace were fake</dd>
-        <dt>Status</dt><dd>Ongoing social universe</dd>
-        <dt>Current season</dt><dd>2026 — Afterlife / Family Reunion</dd>
+        <dt>First record</dt><dd>2020</dd>
+        <dt>Origin</dt><dd>Dragon Raja club</dd>
+        <dt>Continuity</dt><dd>2020 → present archive boundary</dd>
+        <dt>Primary subjects</dt><dd>People · rooms · roles · incidents · rituals · artifacts</dd>
+        <dt>Current era</dt><dd>2026 — Afterlife / Family Reunion</dd>
       </dl>
     </div>
   </section>
 
+  <section class="section chronicle-intro">
+    <div class="section-head">
+      <div>
+        <div class="kicker">THE GREAT CHRONICLE</div>
+        <h2>Seven years.<br/>Seven forms of the same house.</h2>
+        <p>The dates are ordinary. What each year turns UL into is not.</p>
+      </div>
+    </div>
+    <div class="era-stack">
+      {seasons.map((season, index) => (
+        <a class="era-row" href={`/seasons/${season.year}`}>
+          <span class="era-index">ERA {String(index + 1).padStart(2,"0")}</span>
+          <span class="era-year">{season.year}</span>
+          <strong>{season.title}</strong>
+          <p>{season.subtitle}</p>
+          <b>↗</b>
+        </a>
+      ))}
+    </div>
+  </section>
+
   <section class="section">
-    <div class="section-head"><h2>Featured cast</h2><p>The people you keep seeing. Start here before the aliases multiply.</p></div>
+    <div class="section-head"><h2>Character Codex</h2><p>The figures who keep reappearing across eras, rooms, incidents, family trees, job titles, and somebody else's screenshots.</p></div>
     <div class="wiki-grid">
       {featured.map((character) => (
         <a class="poster-card" data-initial={character.name[0]} href={`/characters/${character.id}`}>
@@ -32,31 +55,42 @@ const featuredEpisodes = episodes.slice(-5).reverse();
   </section>
 
   <section class="section">
-    <div class="section-head"><h2>Seasons</h2><p>Years are treated like seasons because that is functionally what happened.</p></div>
-    <div class="season-grid">
-      {seasons.map((season) => (
-        <a class="season-card" href={`/seasons/${season.year}`}>
-          <div class="season-year">{season.year}</div><div><h3>{season.title}</h3><p>{season.subtitle}</p></div>
-        </a>
-      ))}
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="section-head"><h2>Episodes worth starting with</h2><p>Not every archive event needs to be a page. These do.</p></div>
+    <div class="section-head"><h2>Major Incidents</h2><p>The archive has thousands of scenes. These are the ones that became turning points, named stories, or permanent damage to the vocabulary.</p></div>
     <div class="episode-list">
       {featuredEpisodes.map((episode) => (
         <a class="episode-row" href={`/episodes/${episode.id}`}>
-          <span class="ep-season">S{Number(episode.season)-2019}</span><strong>{episode.title}</strong><p>{episode.logline}</p><time>{episode.date}</time>
+          <span class="ep-season">{episode.season}</span><strong>{episode.title}</strong><p>{episode.logline}</p><time>{episode.date}</time>
         </a>
       ))}
     </div>
   </section>
 
   <section class="section">
-    <div class="section-head"><h2>Running gags</h2><p>The things that stopped being jokes and became infrastructure.</p></div>
+    <div class="section-head"><h2>Orders & Affiliations</h2><p>The fake government had real permissions. The ridiculous titles had actual jobs. The hierarchy is part of the story.</p></div>
+    <div class="portal-grid">
+      {majorOrders.map((group) => (
+        <a class="portal-card" href={`/factions#${group.id}`}>
+          <small>ORDER / AFFILIATION</small><h3>{group.label}</h3><p>{group.note}</p>
+        </a>
+      ))}
+      <a class="portal-card" href="/factions"><small>FULL INDEX</small><h3>All orders</h3><p>Officers, Snipers, specialists, Game Officers, Staff, Platelets, VIPs, and the archive cast.</p></a>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head"><h2>Persistent Legends</h2><p>The jokes, names, rituals, and tiny disasters that kept surviving long enough to become continuity.</p></div>
     <div class="index-list">
-      {gags.slice(0,6).map((gag) => <a class="index-card" href={`/gags#${gag.id}`}><small>RECURRING BIT</small><h3>{gag.name}</h3><p>{gag.logline}</p></a>)}
+      {gags.slice(0,6).map((gag) => <a class="index-card" href={`/gags#${gag.id}`}><small>LEGEND / RECURRING BIT</small><h3>{gag.name}</h3><p>{gag.logline}</p></a>)}
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head"><h2>Relics & Primary Sources</h2><p>Posters, screenshots, quotes, exports, galleries, and the surviving objects that keep this from turning into folklore by vibes.</p></div>
+    <div class="portal-grid">
+      <a class="portal-card" href="/gallery"><small>RELICS</small><h3>Gallery</h3><p>The visual objects: art, banners, screenshots, and surviving media.</p></a>
+      <a class="portal-card" href="/quotes"><small>VOICE</small><h3>Quotes</h3><p>Lines that survived because somebody refused to let them die.</p></a>
+      <a class="portal-card" href="/locations"><small>DOMAINS</small><h3>Rooms & places</h3><p>The named spaces where the mythology actually happened.</p></a>
+      <a class="portal-card" href="/archive"><small>PRIMARY SOURCES</small><h3>Archive</h3><p>The source layer beneath the chronicle.</p></a>
     </div>
   </section>
 </WikiLayout>
