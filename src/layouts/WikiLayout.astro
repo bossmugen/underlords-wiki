@@ -4,14 +4,15 @@ const { title = "Underlords Wiki", description = "Underlords character and story
 const path = Astro.url.pathname;
 const base = import.meta.env.BASE_URL === "/" ? "" : import.meta.env.BASE_URL.replace(/\/$/, "");
 const nav = [
-  ["Characters","/characters"],
-  ["Seasons","/seasons"],
-  ["Episodes","/episodes"],
-  ["Relationships","/relationships"],
-  ["Locations","/locations"],
-  ["Running Gags","/gags"],
+  ["Chronicle","/seasons"],
+  ["Character Codex","/characters"],
+  ["Major Incidents","/episodes"],
+  ["Orders","/factions"],
+  ["Bonds","/relationships"],
+  ["Domains","/locations"],
+  ["Legends","/gags"],
   ["Quotes","/quotes"],
-  ["Gallery","/gallery"],
+  ["Relics","/gallery"],
   ["Archive","/archive"],
 ];
 const hrefFor = (href: string) => `${base}${href}` || "/";
@@ -26,13 +27,19 @@ const hrefFor = (href: string) => `${base}${href}` || "/";
   </head>
   <body>
     <header class="site-header">
-      <a class="brand" href={hrefFor("/")}><b>UL</b> UNDERLORDS WIKI</a>
+      <a class="brand" href={hrefFor("/")}>
+        <span class="brand-sigil">UL</span>
+        <span><b>UNDERLORDS</b><small>CHRONICLE & CHARACTER WIKI</small></span>
+      </a>
       <nav class="site-nav" aria-label="Main navigation">
         {nav.map(([label, href]) => <a href={hrefFor(href)} aria-current={path.includes(href) ? "page" : undefined}>{label}</a>)}
       </nav>
     </header>
     <main class="page"><slot /></main>
-    <footer class="page footer">UNDERLORDS · est. 2020 · archive-backed fan/wiki presentation</footer>
+    <footer class="page footer">
+      <strong>UNDERLORDS CHRONICLE</strong>
+      <span>est. 2020 · characters, eras, incidents, legends, relics, and archive-backed continuity</span>
+    </footer>
     <script define:vars={{ base }}>
       if (base) {
         document.querySelectorAll('a[href^="/"]').forEach((link) => {
