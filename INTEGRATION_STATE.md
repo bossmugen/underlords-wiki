@@ -1,26 +1,26 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration pass: **2026-08-26 14:35 PDT**.
+Last dual-surface integration pass: **2026-08-26 15:35 PDT**.
 
 ## Branch / baseline
 
 - Wiki publishing branch: `main`.
-- Previous / pre-pass wiki baseline: `a4909cb13dbb754f2e7d8fc17bda6d9a9a70a03b` (`Log 13:35 dual-surface wiki integration state`).
-- Main-site pre-pass baseline immediately before the durable report write: `bossmugen/underlords@48515d7ec3b04f3824862b1ce3e32e173732d330` (`Keep label-style relationship trails off character bios`).
-- Previous main dual-surface checkpoint: `bossmugen/underlords@479f518069516dfe38bea73e72a587e5c0c338c8` (`INTEGRATION_PASS_2026-08-26_1335_DUAL.md`).
-- Main-site durable checkpoint for this run: `archive-intake/INTEGRATION_PASS_2026-08-26_1435_DUAL.md`, created at `9b5c1f3aa0d1a3601a38c6d339026594d9a44da4`.
+- Previous / pre-pass wiki baseline: `615742ceec8216ea19036734c1cc90e56984cc74` (`Log 14:35 dual-surface wiki integration state`).
+- Previous main dual-surface checkpoint: `bossmugen/underlords@9b5c1f3aa0d1a3601a38c6d339026594d9a44da4` (`INTEGRATION_PASS_2026-08-26_1435_DUAL.md`).
+- Main-site pre-pass publishing head: `bossmugen/underlords@b27fb8f9d01139b7d4d119ee32f3cf12a70205fb` (`Fix competence contrast verifier case`).
+- Main-site durable checkpoint for this run: `archive-intake/INTEGRATION_PASS_2026-08-26_1535_DUAL.md`, created at `f567c25ab390f8929b10a9df33ca5effc29ee423`.
 
 ## Intake result
 
-A compare from main checkpoint `479f518069516dfe38bea73e72a587e5c0c338c8` to pre-pass main head `48515d7ec3b04f3824862b1ce3e32e173732d330` contains four intervening commits but **no changed `archive-intake/*` handoff path**.
+A compare from main checkpoint `9b5c1f3aa0d1a3601a38c6d339026594d9a44da4` to pre-pass main head `b27fb8f9d01139b7d4d119ee32f3cf12a70205fb` contains sixteen intervening commits but **no changed `archive-intake/*` handoff path**.
 
 Therefore there is no new completed manifest, findings file, receipts packet, people/motif note, timeline/site candidate, rabbit-hole file, or hidden completed miner state to consume. Incomplete miner work was skipped safely and was not re-mined.
 
-The intervening main-site commits are editorial/component work around explanatory Character relationship biographies. They are preserved as canonical-site development, not archive-miner handoffs and not a new evidence family.
+The intervening main-site commits are Character/editorial work on chronological clown profiles, recurring-offense presentation, and explicit real-world-competence-versus-in-house-clownery contrast. They are preserved as canonical-site development, not archive-miner handoffs and not a new evidence family.
 
 ## Current cross-surface ownership
 
-The August 26 website-first consolidation remains the active architecture:
+The August 26 website-first consolidation remains active:
 
 - the **main Underlords site is the canonical public universe**;
 - CHARACTERS owns the canonical person story;
@@ -31,7 +31,7 @@ The August 26 website-first consolidation remains the active architecture:
 
 The wiki may retain deeper dossiers, episode lookup, relationship indexing, legends, relics, quotes, locations, and continuity support when that extra layer adds value without duplicating the main site's full explanation.
 
-The main site's new explanatory relationship-biography presentation reinforces this split. Character pages may narrate the relationships that materially explain a person's UL story; the wiki may index those relationships more deeply where useful, but it should not mechanically paste the same biography prose into a second canonical essay.
+The main site's new clown-profile and competence-contrast presentation is Character-page editorial framing of already accepted material. The wiki should not mechanically reproduce that prose merely because the canonical Character presentation changed.
 
 ## Accepted cross-surface state retained
 
@@ -39,6 +39,7 @@ The main site's new explanatory relationship-biography presentation reinforces t
 - **Doodles Part 2: Bananas** remains the concise 2023 Episode lookup treatment.
 - The quote index retains Mia's `It funny` Wall ruling.
 - PR / Slice / Character secondary handoffs remain one derivative evidence family rather than independent corroboration.
+- Chronicle remains the only master chronology; wiki Episodes are indexes, not a competing timeline.
 - Existing wiki reference material is preserved unless the main site supplies a stronger canonical explanation; future integration should cross-link or index rather than create two competing essays.
 
 ## Conflicts / rabbit holes held
@@ -54,11 +55,11 @@ Still unresolved and not promoted as fact:
 
 No wiki lore, biography, Episode, relationship, Legend, quote, location, relic, or other public data changed because no new completed miner evidence landed.
 
-This file is the wiki's durable 14:35 integration checkpoint only.
+This file is the wiki's durable 15:35 integration checkpoint only.
 
 ## Main-site concurrent work observed
 
-Four main-site commits landed after the 13:35 integration checkpoint without touching miner handoffs. They add and refine explanatory Character relationship biographies and intentionally move away from bare related-name labels.
+Sixteen main-site commits landed after the 14:35 integration checkpoint without touching miner handoffs. They build/refine chronological clown biographies, compact recurring-offense presentation, and a real-world-competence-versus-in-house-clownery contrast layer on Character pages, with matching source/dist guards.
 
 That editorial implementation does not require a parallel wiki content rewrite merely because the canonical Character presentation changed.
 
