@@ -1,26 +1,41 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration pass: **2026-08-26 15:35 PDT**.
+Last dual-surface integration pass: **2026-08-26 16:48 PDT**.
 
 ## Branch / baseline
 
 - Wiki publishing branch: `main`.
-- Previous / pre-pass wiki baseline: `615742ceec8216ea19036734c1cc90e56984cc74` (`Log 14:35 dual-surface wiki integration state`).
-- Previous main dual-surface checkpoint: `bossmugen/underlords@9b5c1f3aa0d1a3601a38c6d339026594d9a44da4` (`INTEGRATION_PASS_2026-08-26_1435_DUAL.md`).
-- Main-site pre-pass publishing head: `bossmugen/underlords@b27fb8f9d01139b7d4d119ee32f3cf12a70205fb` (`Fix competence contrast verifier case`).
-- Main-site durable checkpoint for this run: `archive-intake/INTEGRATION_PASS_2026-08-26_1535_DUAL.md`, created at `f567c25ab390f8929b10a9df33ca5effc29ee423`.
+- Main publishing branch: `bossmugen/underlords@master`.
+- Miner intake is now **branch-aware**: archive handoffs are read directly from `archive-miner-*` / `archive-miner/*` branches rather than waiting for those handoff files to appear on `master`.
+- Main-site branch ledger: `archive-intake/INTEGRATOR_BRANCH_STATE.json`.
+- Full census this pass: **22 miner branches**.
 
-## Intake result
+## Miner branches reviewed this pass
 
-A compare from main checkpoint `9b5c1f3aa0d1a3601a38c6d339026594d9a44da4` to pre-pass main head `b27fb8f9d01139b7d4d119ee32f3cf12a70205fb` contains sixteen intervening commits but **no changed `archive-intake/*` handoff path**.
+### `archive-miner-clubonly-2020-hourly`
+Reviewed through `e7e35ecc0ba1946b37dcf0d69a5ebe6818c0b4f6` as a partial recovery slice.
 
-Therefore there is no new completed manifest, findings file, receipts packet, people/motif note, timeline/site candidate, rabbit-hole file, or hidden completed miner state to consume. Incomplete miner work was skipped safely and was not re-mined.
+Accepted for public use:
+- Ren's 2020 Hall-of-Fame framing in response to Ansun's `wall of shame`;
+- Ren's 2021 `wall of shame-fame` fusion;
+- Ren's later `People’s history` / adorable-Hall-of-Fame semantics.
 
-The intervening main-site commits are Character/editorial work on chronological clown profiles, recurring-offense presentation, and explicit real-world-competence-versus-in-house-clownery contrast. They are preserved as canonical-site development, not archive-miner handoffs and not a new evidence family.
+Important correction: Gilli's later `Eos was our first Fame moment` remains participant memory about an early positive Fame moment. It is **not** the origin of Fame language or proof of the channel's naming chronology.
+
+### `archive-miner/club-only-2021-2026-hourly`
+Reviewed through `d9267e1f5e7316e6a444ef1d4421e1c0ff2fe419` as a partial recovery slice.
+
+Accepted for public use:
+- ShiyaX's `AUUUUU` peer-recognition rail;
+- ShiyaX's February 2021 first-cooking / lobster disaster on the main Character page;
+- Fish Revolution / fishjail as a concise wiki Episode lookup.
+
+### `archive-miner/chat-pr-slice-character-e18c-hourly`
+Reviewed and consumed through `0ae61f55be06029ef000b24463fc63422bc321c3`.
+
+The useful resolution was Mugs-confirmed Weekly Planner context: real Dragon Raja schedule calendars, WolfPhenix as primary maker, most Officers taking a turn, and UL graphics/screenshots used so the `strippers` could track the game schedule. Main Character owns the Wolf-specific story; the wiki does not duplicate it as another essay.
 
 ## Current cross-surface ownership
-
-The August 26 website-first consolidation remains active:
 
 - the **main Underlords site is the canonical public universe**;
 - CHARACTERS owns the canonical person story;
@@ -29,40 +44,49 @@ The August 26 website-first consolidation remains active:
 - ARCHIVE owns relics, screenshots, media, rooms/exports, and source trails;
 - the wiki remains the long-form **reference mirror / companion**, not a competing canonical editorial universe.
 
-The wiki may retain deeper dossiers, episode lookup, relationship indexing, legends, relics, quotes, locations, and continuity support when that extra layer adds value without duplicating the main site's full explanation.
+This pass therefore used the wiki for concise lookup/index value instead of copying the new ShiyaX, WolfPhenix, or Ren biography prose.
 
-The main site's new clown-profile and competence-contrast presentation is Character-page editorial framing of already accepted material. The wiki should not mechanically reproduce that prose merely because the canonical Character presentation changed.
+## Public wiki changes
 
-## Accepted cross-surface state retained
+Content commit `19a943919ea2355b442f808105597aa4b9680240` changed `src/data/wiki.ts`:
 
-- Mia's deep dossier remains the owner of the June–July 2023 communal-art behavior analysis inside the reference layer.
-- **Doodles Part 2: Bananas** remains the concise 2023 Episode lookup treatment.
-- The quote index retains Mia's `It funny` Wall ruling.
-- PR / Slice / Character secondary handoffs remain one derivative evidence family rather than independent corroboration.
-- Chronicle remains the only master chronology; wiki Episodes are indexes, not a competing timeline.
-- Existing wiki reference material is preserved unless the main site supplies a stronger canonical explanation; future integration should cross-link or index rather than create two competing essays.
+- added **Fish Revolution / Fishjail** as a 2021 Episode;
+- changed The Wall location from generic `Screenshot jail` wording to the archive-grounded early Shame/Fame split and Ren's 2021 `wall of shame-fame` language.
+
+## Main-site changes observed / canonical owner
+
+Main public-content commit `b199e6873748c28c7208fe5dedca34c710407164` carries:
+
+- ShiyaX `AUUUUU` + lobster / first-cooking character material;
+- WolfPhenix Weekly Planner operational context;
+- Ren Wall Shame/Fame genealogy.
+
+The wiki intentionally does not mirror those full Character treatments.
 
 ## Conflicts / rabbit holes held
 
 Still unresolved and not promoted as fact:
 
-- eyelash-banana maker / post / callback chain;
-- tomato, Halloween, hand-turkey, and finger-art object-to-message joins;
-- exact weekly-planner context;
-- exact August 2026 `UL history short film in the works ahahahah` speaker attribution.
-
-## Public changes this pass
-
-No wiki lore, biography, Episode, relationship, Legend, quote, location, relic, or other public data changed because no new completed miner evidence landed.
-
-This file is the wiki's durable 15:35 integration checkpoint only.
-
-## Main-site concurrent work observed
-
-Sixteen main-site commits landed after the 14:35 integration checkpoint without touching miner handoffs. They build/refine chronological clown biographies, compact recurring-offense presentation, and a real-world-competence-versus-in-house-clownery contrast layer on Character pages, with matching source/dist guards.
-
-That editorial implementation does not require a parallel wiki content rewrite merely because the canonical Character presentation changed.
+- original Panda/Eos proposal artifact;
+- exact Wall creation/title/rename chronology;
+- individual weekly-planner maker/date/media provenance;
+- `007` and Japanese-retro PR artifact identification;
+- whether ShiyaX's Jan. 5 `AUUUUU` is absolute origin rather than earliest surviving in this intake;
+- whether Gabu actually answered ShiyaX's `come help me cook` summon;
+- larger remaining Club-Only recovery backlogs.
 
 ## Verification / deployment
 
-The main report commit and this wiki state commit are subject to their repositories' existing push-triggered verification/deployment workflows. Main must pass source verification, Astro build, built-output verification, and its Cloudflare deployment checks. Wiki must pass its existing Astro build and GitHub Pages workflow. No extra verification stage is invented and no failed gate is treated as success.
+Exact wiki content commit `19a943919ea2355b442f808105597aa4b9680240` passed the repository's real checks:
+
+- Astro wiki build: **success**;
+- GitHub Pages preview build/artifact: **success**;
+- GitHub Pages deploy: **success**.
+
+The main site's exact public-content commit `b199e6873748c28c7208fe5dedca34c710407164` also passed source verification, Astro build, built-output verification, and exact Cloudflare production deployment.
+
+## Consumption state
+
+- `archive-miner/chat-pr-slice-character-e18c-hourly` is consumed through its current reviewed HEAD.
+- both Club-Only branches reviewed this pass remain recovery-in-progress and intentionally retain `last_consumed_sha: null` until their accumulated backlog is actually reviewed.
+- all 22 miner branches are now visible to the integrator via `last_seen_sha`; pending work is backlog, not invisibility.
