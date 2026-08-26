@@ -1,33 +1,43 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration pass: **2026-08-26 10:35 PDT**.
+Last dual-surface integration pass: **2026-08-26 11:35 PDT**.
 
 ## Branch / baseline
 
 - Wiki publishing branch: `main`.
-- Pre-pass wiki baseline: `76f3856301317d70ec7df6ee537b17bb859a75f6` (`Finalize mythic wiki terminology pass`).
-- Main-site baseline consulted: `bossmugen/underlords@8d39aea490f4e35c67a1d46c1ed8e26de72eb570` (`Trigger post-fix production deploy`).
-- Previous dual-surface checkpoints: `bossmugen/underlords@85504916a5c90dab2a02b60068b9a13709e419c3` and this file at `3ac22c14d3d496234bdbfa58d62c75815dc4adb1`.
-- Main-site durable checkpoint for this run: `archive-intake/INTEGRATION_PASS_2026-08-26_1035_DUAL.md`, created at commit `1b3b73a66d240718b8f8b463fa5503601aabfc11`.
+- Pre-pass wiki baseline: `265762d88299885a246437724906b8900215bae0` (`Make main Underlords site canonical from wiki`).
+- Main-site baseline consulted: `bossmugen/underlords@567f6ae7f81ead65231234f123bcf9ab81fb01f6` (`Align homepage guard with website-first consolidation`).
+- Previous dual-surface checkpoints: `bossmugen/underlords@1b3b73a66d240718b8f8b463fa5503601aabfc11` and this file at `78c54cdf5587cee41697b1671356407208cd0fba`.
+- Main-site durable checkpoint for this run: `archive-intake/INTEGRATION_PASS_2026-08-26_1135_DUAL.md`, created at commit `ea3e6dcf4b5d31232f7035406c3f3e5882bfb631`.
 
 ## Intake result
 
-No completed miner handoff changed after the 09:35 dual-surface checkpoint. A compare from main checkpoint `85504916a5c90dab2a02b60068b9a13709e419c3` to the pre-pass main head `8d39aea490f4e35c67a1d46c1ed8e26de72eb570` contains no changed `archive-intake/*` handoff path, so there is no new manifest, findings, receipts, people/motif note, timeline/site candidate, rabbit-hole file, or hidden completed miner state to consume.
+No completed miner handoff changed after the 10:35 dual-surface checkpoint. A compare from main checkpoint `1b3b73a66d240718b8f8b463fa5503601aabfc11` to the pre-pass main head `567f6ae7f81ead65231234f123bcf9ab81fb01f6` contains no changed `archive-intake/*` handoff path, so there is no new manifest, findings, receipts, people/motif note, timeline/site candidate, rabbit-hole file, or hidden completed miner state to consume.
 
 Incomplete miner work was skipped safely and was not re-mined.
 
-## Concurrent public work preserved
+## Current cross-surface ownership
 
-The main site advanced through story-first redesign/deploy work after the previous checkpoint. The wiki advanced through the mythic terminology pass. Those changes are public presentation/editorial work, not archive-miner evidence. This integration pass preserves them as publishing-branch state rather than overwriting them or laundering them into “new lore.”
+The August 26 website-first consolidation is now the current public architecture:
 
-No public wiki lore/content change was made by this integration pass.
+- the **main Underlords site is the canonical public universe**;
+- CHARACTERS owns the canonical person story;
+- CHRONICLE owns the single public chronology;
+- LORE owns incidents, recurring bits, relationships, rituals, rooms, orders, vocabulary, and synthesis;
+- ARCHIVE owns relics, screenshots, media, rooms/exports, and source trails;
+- the wiki remains the long-form **reference mirror / companion**, not a competing canonical editorial universe.
+
+The wiki may retain deeper dossiers, episode lookup, relationship indexing, legends, relics, quotes, locations, and continuity support when that extra layer adds value without duplicating the main site's full explanation.
+
+The wiki README was aligned with this ownership model during this pass. That documentation correction is architecture bookkeeping, not new lore.
 
 ## Accepted cross-surface state retained
 
-- Mia's deep dossier remains the owner of the June–July 2023 communal-art behavior analysis.
-- **Doodles Part 2: Bananas** remains the concise 2023 Episode treatment.
+- Mia's deep dossier remains the owner of the June–July 2023 communal-art behavior analysis inside the reference layer.
+- **Doodles Part 2: Bananas** remains the concise 2023 Episode lookup treatment.
 - The quote index retains Mia's `It funny` Wall ruling.
 - PR / Slice / Character secondary handoffs remain one derivative evidence family rather than independent corroboration.
+- Existing wiki reference material is preserved unless the main site now supplies a stronger canonical explanation; future integration should cross-link rather than create two competing essays.
 
 ## Conflicts / rabbit holes held
 
@@ -38,6 +48,14 @@ Still unresolved and not promoted as fact:
 - exact weekly-planner context;
 - exact August 2026 `UL history short film in the works ahahahah` speaker attribution.
 
+## Public changes this pass
+
+No wiki lore, biography, Episode, relationship, Legend, quote, location, or relic content was changed because no new completed miner evidence landed.
+
+Only the repository README and this durable integration state were updated to match the already-published website-first consolidation direction.
+
 ## Verification / deployment
 
-The exact pre-pass wiki head `76f3856301317d70ec7df6ee537b17bb859a75f6` passed the repository's Astro build and GitHub Pages deployment workflow. This checkpoint changes bookkeeping only; its resulting `main` commit is subject to those same existing push-triggered wiki workflows. No extra verification stage is invented beyond what this repository actually provides.
+The exact pre-pass wiki head `265762d88299885a246437724906b8900215bae0` passed both existing workflows: Astro build PASS and GitHub Pages build/deployment PASS.
+
+The README/state commits from this pass are subject to the same existing push-triggered wiki workflows. No extra verification stage is invented beyond what this repository actually provides.
