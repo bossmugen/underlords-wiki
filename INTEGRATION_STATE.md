@@ -1,31 +1,31 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration pass: **2026-08-26 09:35 PDT**.
+Last dual-surface integration pass: **2026-08-26 10:35 PDT**.
 
 ## Branch / baseline
 
 - Wiki publishing branch: `main`.
-- Pre-pass wiki baseline: `0c604eb35899c1ffc9a78b94b8c3186f03f28e09` (`Verify mythic wiki redesign`).
-- Main-site baseline consulted: `bossmugen/underlords@b837eb64f216e2c02fb013d9a6ff1192bd28942a` (`Verify story-first site redesign`).
-- Previous dual-surface checkpoints: `bossmugen/underlords@be33f1647b395facf364ccec33e0ac06a92eb18b` and this file at `f566752190c16ba764a4b37246a0f50faa22b380`.
-- Main-site durable checkpoint for this run: `archive-intake/INTEGRATION_PASS_2026-08-26_0935_DUAL.md`.
+- Pre-pass wiki baseline: `76f3856301317d70ec7df6ee537b17bb859a75f6` (`Finalize mythic wiki terminology pass`).
+- Main-site baseline consulted: `bossmugen/underlords@8d39aea490f4e35c67a1d46c1ed8e26de72eb570` (`Trigger post-fix production deploy`).
+- Previous dual-surface checkpoints: `bossmugen/underlords@85504916a5c90dab2a02b60068b9a13709e419c3` and this file at `3ac22c14d3d496234bdbfa58d62c75815dc4adb1`.
+- Main-site durable checkpoint for this run: `archive-intake/INTEGRATION_PASS_2026-08-26_1035_DUAL.md`, created at commit `1b3b73a66d240718b8f8b463fa5503601aabfc11`.
 
 ## Intake result
 
-No completed miner handoff changed after the 08:35 dual-surface checkpoint. A compare from `be33f1647b395facf364ccec33e0ac06a92eb18b` to the pre-run main-site head contains no changed `archive-intake/*` handoff files at all, so there is no new manifest, findings, receipts, people/motif note, timeline/site candidate, rabbit-hole file, or hidden completed miner state to consume.
+No completed miner handoff changed after the 09:35 dual-surface checkpoint. A compare from main checkpoint `85504916a5c90dab2a02b60068b9a13709e419c3` to the pre-pass main head `8d39aea490f4e35c67a1d46c1ed8e26de72eb570` contains no changed `archive-intake/*` handoff path, so there is no new manifest, findings, receipts, people/motif note, timeline/site candidate, rabbit-hole file, or hidden completed miner state to consume.
 
 Incomplete miner work was skipped safely and was not re-mined.
 
-## Concurrent public redesigns preserved
+## Concurrent public work preserved
 
-Both public repositories changed substantially after the 08:35 integration checkpoint through separate story-first / mythic redesign work. Those commits are presentation work, not archive-miner evidence. This integration pass preserves them exactly as current publishing-branch state and does not reinterpret their UI/copy changes as new lore.
+The main site advanced through story-first redesign/deploy work after the previous checkpoint. The wiki advanced through the mythic terminology pass. Those changes are public presentation/editorial work, not archive-miner evidence. This integration pass preserves them as publishing-branch state rather than overwriting them or laundering them into “new lore.”
 
 No public wiki lore/content change was made by this integration pass.
 
 ## Accepted cross-surface state retained
 
 - Mia's deep dossier remains the owner of the June–July 2023 communal-art behavior analysis.
-- **Doodles Part 2: Bananas** remains the concise 2023 episode treatment.
+- **Doodles Part 2: Bananas** remains the concise 2023 Episode treatment.
 - The quote index retains Mia's `It funny` Wall ruling.
 - PR / Slice / Character secondary handoffs remain one derivative evidence family rather than independent corroboration.
 
@@ -40,4 +40,4 @@ Still unresolved and not promoted as fact:
 
 ## Verification / deployment
 
-This checkpoint changes bookkeeping only. The repository's existing push-triggered Astro build and GitHub Pages workflow are the verification/deployment authority for the resulting `main` commit. No extra verification stage is invented beyond what this repository actually provides.
+The exact pre-pass wiki head `76f3856301317d70ec7df6ee537b17bb859a75f6` passed the repository's Astro build and GitHub Pages deployment workflow. This checkpoint changes bookkeeping only; its resulting `main` commit is subject to those same existing push-triggered wiki workflows. No extra verification stage is invented beyond what this repository actually provides.
