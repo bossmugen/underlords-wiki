@@ -2,7 +2,7 @@
 import WikiLayout from "../layouts/WikiLayout.astro";
 import { locations } from "../data/wiki";
 ---
-<WikiLayout title="Locations | Underlords Wiki" description="The rooms and recurring locations of Underlords.">
-  <section class="hero"><div><div class="kicker">LOCATIONS</div><h1>Rooms & places</h1><p class="tagline">The set dressing matters. UL turned Discord channels into a neighborhood, a bureaucracy, a strip club, a casino, a couch, and several rooms nobody should have named sober.</p></div></section>
+<WikiLayout title="Domains | Underlords Wiki" description="The rooms, territories, recurring locations, and named spaces of Underlords.">
+  <section class="hero"><div><div class="kicker">DOMAINS · ROOMS · TERRITORIES</div><h1>Domains</h1><p class="tagline">The place names are part of the mythology: HQ, the Wall, the Casino, the Panic Room, the Headache Room, the couch, the garden, and several locations created because one recurring behavior apparently deserved zoning.</p></div></section>
   <section class="section"><div class="index-list">{locations.map((location)=><article class="index-card" id={location.id}><small>{location.type}</small><h3>{location.name}</h3><p>{location.logline}</p></article>)}</div></section>
 </WikiLayout>
