@@ -31,6 +31,18 @@ claims:
     date: "2020-09-30"
     sources:
       - label: "Club Only archive"
+  - text: "Later on September 30, WOO types `eli kill` at Anthos; the bot reports that Woosung is killing Anthos, and about twenty-four seconds later WOO posts a love/party Tenor GIF."
+    evidence: "archive-confirmed"
+    date: "2020-09-30"
+    sources:
+      - label: "Club Only archive"
+    note: "The GIF is POSTED BY WOO, not proven MADE BY WOO. Treat the whole sequence as social play, not evidence of real hostility, romance, or relationship rank."
+  - text: "On December 15, 2020, Woosung writes `mugs is my daddy granny` in Whiskey, compressing UL's fictive-family vocabulary into one deliberately impossible label for Mugen."
+    evidence: "archive-confirmed"
+    date: "2020-12-15"
+    sources:
+      - label: "Whiskey archive"
+    note: "This is joke-family language, not literal parentage or romance."
   - text: "On March 26, 2023, WOO posts `NOBU` and less than two seconds later `TRAITOR`; the surviving text does not establish what alleged betrayal prompted the line."
     evidence: "archive-confirmed"
     date: "2023-03-26"
@@ -52,6 +64,8 @@ antiFanon:
   - "Do not call `Hi Woosung.....idk what else` Woosung's first arrival; the same stable account is already visible in April 2020."
   - "Current canon files Woosung under VIP with a Platelet tag and former ScarletMoon leadership context. Historical export-time role arrays do not rewrite the primary shelf or establish appointment chronology."
   - "`I found someone to simp` is immediately qualified by `in genshin`; do not promote it into romance canon with Anthos."
+  - "The September 2020 kill-command → love-GIF sequence is social play. WOO posted the GIF; do not credit her as its maker or use the scene to infer hostility, romance, or relationship ranking."
+  - "`mugs is my daddy granny` is fictive-family language, not literal parentage, romance, or evidence of an ex-partner relationship."
   - "`NOBU` → `TRAITOR` supports a compressed accusatory joke style; it does not establish an actual betrayal or dispute."
   - "The April 2023 tsundere framing belongs to Moon/the room's teasing and should not become a fixed diagnosis or personality label."
 relatedPeople:
@@ -80,6 +94,16 @@ Her primary wiki shelf is VIP, with permanent Platelet history and former Scarle
 The April Lobby appearance is mundane in the best possible way. Woosung is not announcing an origin story. She is already participating. That makes the July line funnier: `Hi Woosung.....idk what else` reads like somebody being asked to introduce herself after the archive has already watched her exist for months.
 
 Later that year, a tiny exchange establishes one of her cleaner comic rhythms. WOO posts `ANTHOS`, waits about ten seconds, then announces `I found someone to simp` before immediately narrowing the whole thing with `in genshin`. The proper noun goes first; the verdict follows. The qualifier lands last and prevents the room from turning the joke into a relationship claim.
+
+## Later 2020 — murder command, love GIF, daddy granny
+
+The same September 30 room log catches WOO typing `eli kill` at Anthos. The bot announces that Woosung is killing Anthos. About twenty-four seconds later, WOO posts a love/party Tenor GIF.
+
+That is not a relationship diagnosis. It is a delivery sample: mock murder and affection-coded media are allowed to occupy the same minute without anybody fixing the contradiction. The GIF is only **posted by Woo**; its maker remains external/unresolved.
+
+Then December 15 gives Mugen a label that makes normal genealogy surrender immediately: `mugs is my daddy granny`.
+
+The useful part is the wording, not a literal family edge. UL's fake-family vocabulary can stack mutually incompatible generations onto one person and keep moving. Woo's later first-person description of Mugen as friend, guide, and older-sister-like figure remains the clearer account of the actual bond.
 
 ## March 2023 — the verdict format survives
 
