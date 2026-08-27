@@ -26,9 +26,11 @@ const extraCharacters: Character[] = [
   { id:"syv", name:"Syv", aliases:["Syv the Adorable"], billing:"guest", role:"VIP · Amaurot", era:"2020–present", logline:"Amaurot-side VIP and extended-family guest cast.", tags:["VIP","Amaurot"] },
   { id:"woosung", name:"Woosung", aliases:["Woo Woo"], billing:"guest", role:"VIP · Platelet · former ScarletMoon leader", era:"2020–present", logline:"Former ScarletMoon leader, VIP, permanent Platelet, and a relationship bridge into the wider S10 social world.", tags:["VIP","Platelet","ScarletMoon"] },
   { id:"beowulf", name:"Beowulf", aliases:["JereGilgamesh","Jere"], billing:"guest", role:"VIP", era:"2020–present", logline:"VIP / extended cast member whose Jere aliases all belong to the same person.", tags:["VIP"] },
-  { id:"aeshleen", name:"Aeshleen", billing:"legacy", role:"Historical Staff", era:"2020–2022+", logline:"French archive-era Staff member, One Piece fan, and one of the people whose post-game continuity makes UL's 'forever family' language visible.", tags:["Historical Staff","Archive cast"] },
+  { id:"aeshleen", name:"Aeshleen", billing:"legacy", role:"Historical Staff", era:"2020–2022+", logline:"French archive-era Staff member, One Piece fan, and remembered Wall-speedrun benchmark whose post-game continuity makes UL's 'forever family' language visible.", tags:["Historical Staff","Archive cast","Wall speedrun"] },
   { id:"panda", name:"Panda", aliases:["PanPan"], billing:"legacy", role:"Historical Staff", era:"2020–2023+", logline:"Archive-era Staff member with a recurring edgelord register; not silently promoted into the current Staff shelf.", tags:["Historical Staff","Archive cast"] },
   { id:"rose", name:"Rose", aliases:["DarkAsrai"], billing:"legacy", role:"Historical Staff", era:"2020–", logline:"Archive-era Staff identity preserved as historical cast rather than silently treated as current roster.", tags:["Historical Staff","Archive cast"] },
+  { id:"may", name:"May", aliases:["Mayvis","br4ind34d","braindead"], billing:"legacy", role:"Archive-era UL member", era:"2020–", logline:"Directly says the same stable account can be called May or Mayvis. By April 2020 they are already arguing about Dragon Raja outfits with Gilli; in May, Gilli tells them they have nothing to apologize for while real life is rough; in September, May spends six public minutes failing to locate east and then the sun.", tags:["Archive cast","2020","Mayvis","Missing Sun Incident"] },
+  { id:"erys", name:"Erys", aliases:["Emi","erysl"], billing:"legacy", role:"Archive-era UL member", era:"2022–", logline:"Introduces herself in Lobby as `EMI , UnderLords , 17`; 2m09.393s after MEE6's welcome, Anayss is already welcoming her to the Wall by replying to a Ren screenshot that predates the Lobby welcome. Faster surviving clock than Aesh's remembered benchmark; not a retroactive title award.", tags:["Archive cast","2022","Wall speedrun"] },
 ];
 
 const byId = new Map(seededCharacters.map((character) => [character.id, character]));
@@ -53,7 +55,7 @@ export const castGroups: CastGroup[] = [
   { id:"staff", label:"Staff", note:"Current Staff files not already displayed under a more specific primary job.", characterIds:["hishiro","gengrey","lilly","momo","nhou","cookie","alkey","zepp","ten","ceen","ghostt","tofu","rooks","nuien"] },
   { id:"platelets", label:"Platelets", note:"The under-18 designation. Once assigned, it stays part of the character file.", characterIds:["scar","dyingfox","ryo","dean","tae","zoshaa","candy","cele"] },
   { id:"vip", label:"VIP", note:"Non-UL visitors / guests with limited access. Not a prestige rank and not adult-only.", characterIds:["zyrcant","rich","woohyuk","syv","woosung","beowulf"] },
-  { id:"archive-cast", label:"Archive / Extended Cast", note:"People with real story presence who are not being presented as members of the current living roster.", characterIds:["new","aeshleen","panda","rose"] },
+  { id:"archive-cast", label:"Archive / Extended Cast", note:"People with real story presence who are not being presented as members of the current living roster.", characterIds:["new","aeshleen","panda","rose","may","erys"] },
 ];
 
 export const characterById = new Map(allCharacters.map((character) => [character.id, character]));
