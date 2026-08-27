@@ -1,54 +1,52 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration pass: **2026-08-27 01:35 PDT**.
+Last dual-surface integration pass: **2026-08-27 03:35 PDT**.
 
-## Current pass — no lore Xerox, two branches actually consumed
+## Current pass — Nothien's question marks lose to social recognition
 
 ### Branch / baseline
 
-- Wiki publishing branch: `main`; the current wiki structure and Zoshaa dossier were re-read before the publication decision.
-- Main publishing branch: `bossmugen/underlords@master`; the mandatory census found **23 miner branches** and persisted every current `last_seen_sha` before deep review.
-- **9 branches remain backlog / review-overdue:** `archive-miner/chat-2026-08-24-2252-pr-slice-character`; `archive-miner/chat-pr-handoffs-2026-08-24-2300`; Core Rooms; all four Main HQ branches; and both Slice recovery branches.
-- `archive-miner/chat-2026-08-19-2312-b7d4` was rotated through anti-starvation review and fully consumed, dropping the overdue count from 10 to 9.
-- Miner handoffs were read directly from isolated miner branches. No miner branch was merged or cherry-picked wholesale.
+- Main-site mandatory census found and persisted **23 miner branches** before deep review.
+- **8 branches remain backlog / review-overdue:** `archive-miner/chat-pr-handoffs-2026-08-24-2300`; Core Rooms; all four Main HQ branches; and both Slice recovery branches.
+- `archive-miner/chat-2026-08-24-2252-pr-slice-character` received the anti-starvation rotation and is now consumed through HEAD, dropping overdue backlog from 9 to 8.
+- Miner handoffs were read directly from isolated miner branches. No miner branch was merged or cherry-picked into either public repository.
 
 ### Reviewed evidence
 
-- `archive-miner/club-only-2021-2026-hourly` @ `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`: mandatory cumulative recovery continued checkpoint-first. Fish Revolution, AUUUUU, Dean dreams, Tummy, Han fame/shame and the other strong current-edge families are already public; Nitro creator/exact first noun, Shiya fake-family genealogy, Snow/Big Bang and Alabama ancestry remain unresolved. Older recovery remains incomplete, so `last_consumed_sha` stays null.
-- `archive-miner-clubonly-2020-hourly` was reviewed through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`. Danny, Carlene and B-chan/Gerry now have clean April 2020 Discord doorway rails. The receipts establish self-ID / orientation scenes, not original in-game admission or appointment chronology. All three remain too thin for useful new cast dossiers; cumulative recovery remains incomplete and unconsumed.
-- Anti-starvation branch `archive-miner/chat-2026-08-19-2312-b7d4` @ `4a02295850926fda5efdb19d023c756abfd9fee7` was fully reviewed. Its three derivative handoffs are exhausted at the current source boundary. `Em`, Ansun's unidentified `for posterity` object, the 2024 old-banner reaction, 2026 history-film row, communal-object joins and exact Wall→PR transfer still require missing primary payloads. No duplicate publication; branch is consumed through HEAD.
-- `archive-miner/birthdays-pr-vc-deep-2026-08-24-2325` advanced `efbf3a7acfba912eb9d91dae278e97292a0af48b → 54b3da9383698ad6b9a747d8cf0c726f33353dfe`. The new packet strengthens Zoshaa's April 2020 Lobby doorway, `child` / `orb` recurrence and August 2021 `Screaming is what I do best😎😎😎` sequence. Novelty check found all of that already represented more richly on both public surfaces, including earlier direct `C H I L D` evidence. The original early-banner creation/post remains unresolved. Birthdays is now fully consumed through HEAD.
+- `archive-miner/club-only-2021-2026-hourly` @ `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`: mandatory cumulative recovery continued checkpoint-first. Current-edge material produced no still-unpublished A/B family; Fish Revolution, AUUUUU, Dean dreams, Tummy, Han fame/shame and related integrated material were not recycled. Nitro creator/exact noun, Shiya fake-family genealogy, Snow/Big Bang and Alabama ancestry remain held. Older recovery remains incomplete, so `last_consumed_sha` stays null.
+- `archive-miner-clubonly-2020-hourly` @ `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`: cumulative recovery continued. Danny, Carlene and B-chan/Gerry have clean late-September 2020 Discord doorway/provisioning rails, but the receipts do not establish original in-game admission or appointment chronology and remain too thin for useful new dossiers. Feli↔Mugs Tumbleweed remains unresolved. Older recovery remains incomplete.
+- `archive-miner/chat-2026-08-24-2252-pr-slice-character` @ `29c502b1d36d58fdfd3b1c9f65128ef5f9ec3386`: derivative handoff corpus fully reviewed and exhausted. Strongest meanings are duplicate/insufficient; unresolved clipped fragments still require primary joins. No public change. Consumed through HEAD.
+- `archive-miner/whiskey-longitudinal-hourly` advanced `460c3687… → 767cef9dae625ad5b1d321508492f0901f33e7bc`: the new A-material is Nothien's 2020 goodbye/open-door promise joined to the same stable account's 2023 Lobby return. Older cumulative Whiskey recovery remains unfinished, so `last_consumed_sha` stays null.
 
 ### Cross-surface publication
 
-- **Main public lore pages:** unchanged. The Danny/Carlene/B-chan doorways are good chronology but still too thin for tiny orphan dossiers; the Zoshaa packet is already covered; the other recovery material is duplicate or unresolved.
-- **Wiki public lore pages:** unchanged. The current Zoshaa dossier already owns the entrance → house-vocabulary → maker progression. Copying the same packet here again would be lore Xerox with extra toner.
-- This `INTEGRATION_STATE.md` update is therefore the only wiki repository content change for the pass.
+- **Main site:** added a public Nothien person file. The main version owns the tight scene chronology: on April 6, 2020 Nothien says Discord will remain open even while stepping away from Raja; Mugen answers `You're welcome back anytime`. On January 12, 2023 the same stable account returns through Lobby with the final edited wording `Nothien, Underlords(?), Member(?), decently old`, followed by `hello`; Ren answers `NOTHIIIII` four minutes later.
+- **Wiki:** added Nothien to **Archive / Extended Cast**, with `Noth` / `northwards` aliases, the 2020→2023 return logline, Mugen and Ren relationship rails, and the two strongest direct quotes.
+- The surfaces are complementary rather than copied: main keeps the receipt-driven scene and evidence boundaries; wiki files Nothien as archive-era cast and relationship continuity.
+
+The important character beat is the asymmetry in the 2023 doorway. Nothien puts literal question marks around `Underlords` and `Member`, visibly unsure which administrative box still applies after time away. Ren replies with an elongated name and no question marks at all. The source supports social recognition immediately; it does **not** support inventing a Dragon Raja roster rejoin, Staff/VIP appointment, or appointment date from export-time roles.
 
 ### Deduplication / unresolved boundaries
 
-- Zoshaa's new packet is corroboration, not a new public story. The current public pages already include the same doorway and recurring vocabulary with stronger joins.
-- Danny's `took forever to join` apology is not proof of his original UL admission date; the Lobby self-ID is a Discord doorway, not a governance appointment.
-- Repeated PR/Character/Slice handoff summaries remain one derivative evidence family, not multiple witnesses.
-- Nitro Sniper creator/origin, Shiya fake-family genealogy, Snow/Big Bang, Alabama ancestry, Zoshaa's original early-banner creation/post, and the b7d4 missing primary joins remain held.
+- The Bouncer's `card.png` is only established as bot-posted media. Maker, capture, subject and visible context are not claimed.
+- A Whiskey search for a pre-June Nui Tumbleweed precursor was negative; absence is not promoted into an origin claim.
+- Danny/Carlene/B-chan remain backstage chronology rails, not microscopic orphan dossiers.
+- Nitro Sniper creator/origin/exact first noun, Shiya fake-family genealogy, Snow/Big Bang, Alabama ancestry, Feli↔Mugs Tumbleweed, and the other previously recorded provenance joins remain held.
 - Earliest surviving remains distinct from origin; Discord onboarding remains distinct from in-game admission; export-time roles remain distinct from appointment chronology; POSTED BY / MADE BY / SAID BY / CAPTURED BY / FEATURING remain separate claims.
 
 ### Consumption
 
 Advanced to consumed:
-- `archive-miner/chat-2026-08-19-2312-b7d4` → `4a02295850926fda5efdb19d023c756abfd9fee7`
-- `archive-miner/birthdays-pr-vc-deep-2026-08-24-2325` → `54b3da9383698ad6b9a747d8cf0c726f33353dfe`
+- `archive-miner/chat-2026-08-24-2252-pr-slice-character` → `29c502b1d36d58fdfd3b1c9f65128ef5f9ec3386`
 
-Club-Only 2021–2026 and Club-Only 2020 remain intentionally `last_consumed_sha: null` because their older cumulative baselines are unfinished.
+Club-Only 2021–2026, Club-Only 2020, and Whiskey remain intentionally `last_consumed_sha: null` because their older cumulative baselines are unfinished; current-edge reviews are recorded in the main branch-state ledger instead of falsely skipping recovery history.
 
 ### Verification / publication
 
-Main `master` commit `7318333b23a257eb89dfba93894a6665f8b56b12` passed `UL Hourly Build + Deploy` run `33056052383`: source verification, Astro build, built-output verification, and exact-commit Cloudflare deployment all succeeded.
-
-Wiki `main` commit `bd7e1bf373c4e6824a781e1b7d0a2e26493cdbdd` passed `Build Underlords Wiki` run `33056103630` and `Deploy Underlords Wiki Preview` run `33056103664`; Astro build and Pages build/deploy/report all succeeded.
-
-This verification result is durably recorded here. The state-only annotation commit is also expected to receive the same wiki build/Pages validation before the pass closes.
+- Main public content commit `ea8dc93ca47d7e2b912ffad15956ca03c8f71883` passed the repository's existing source verification, Astro build, built-output verification, and exact-commit Cloudflare deployment workflow.
+- Wiki public content commit `39eefbd85a582904949e67ef6da38f9a600f2441` passed `Build Underlords Wiki` and the GitHub Pages build/deploy/report workflow; both `wiki-build` and `wiki-preview` statuses are successful.
+- Final state/report commits are expected to receive the same repository-native validation before the pass closes.
 
 ## Prior state
 
-The previous detailed pass remains preserved in Git history at wiki commit `879b794d09d105564b73af78f8c34501ab3f1969`. Older integration decisions remain recoverable from repository history and the main-site per-pass reports.
+The previous detailed pass is preserved in Git history at wiki commit `4d36924e53cfe0691f9bb873edb5100cbf3d87e4`. Older integration decisions remain recoverable from repository history and the main-site per-pass reports.
