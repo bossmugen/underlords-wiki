@@ -1,44 +1,42 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration pass: **2026-08-26 22:35 PDT**.
+Last dual-surface integration pass: **2026-08-26 23:35 PDT**.
 
-## Current pass — the relationship index acquires Tummy and twins
+## Current pass — Nelph finally has a 2020 door
 
 ### Branch / baseline
 
-- Wiki publishing branch: `main`; current Bonds structure and content conventions were re-read before editing.
+- Wiki publishing branch: `main`; wiki structure, cast conventions, and the current Nelph dossier were re-read before editing.
 - Main publishing branch: `bossmugen/underlords@master`; the mandatory census found **23 miner branches** and persisted every current `last_seen_sha` before deep review.
-- **12 branches remain backlog / review-overdue:** birthdays temp-check; four PR/Slice/Character handoff branches; Core Rooms; all four Main HQ branches; both Slice recovery branches.
-- Additional advanced heads remain pending/in-progress on Living Ensemble, Backroom Deals, `chat-pr-slice-character-e18c-hourly`, Whiskey, Photo Submissions, QOTD/Officers, and Wall.
+- **11 branches remain backlog / review-overdue:** `chat-2026-08-19-2252-pr-slice-character-7f31`; `chat-2026-08-19-2312-b7d4`; `chat-2026-08-24-2252-pr-slice-character`; `chat-pr-handoffs-2026-08-24-2300`; Core Rooms; all four Main HQ branches; and both Slice recovery branches.
+- The stale Birthdays temp-check branch is no longer backlog: its HEAD is an ancestor of the sibling Birthdays branch already reviewed farther forward, so it was safely consumed with no unique publication.
 - Miner handoffs were read directly from isolated miner branches. No miner branch was merged or cherry-picked wholesale.
 
 ### Reviewed evidence
 
-- `archive-miner/club-only-2021-2026-hourly` @ `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`: cumulative recovery continued checkpoint-first. The newly accepted family is Gilli repeatedly calling Rummy `Tummy` across 2021, 2023, and 2024. This is relationship-specific nickname continuity, not a canonical Rummy alias or a closeness ranking. The older recovery baseline remains incomplete, so consumed SHA stays null.
-- `archive-miner-clubonly-2020-hourly` advanced `73565b5d… → 62eaf0bd…`: newest intake delta reviewed. Woohyuk's November 10, 2020 fossil-fuel-heir/Tumbleweed scene was accepted on the main biography. Feli/Ansun material was incremental or edge-unresolved; Ryan alien-sister recurrence search was negative. The older cumulative recovery baseline remains incomplete, so consumed SHA stays null.
-- Anti-starvation branch `archive-miner/birthdays-pr-vc-deep-2026-08-24-2325` was fully reviewed `1f02c7a53e78b7a24f86ab803e7fe162bae4248c → 96bb661e0cfa9c33ea8bec4ec655e9c28977f2ec`. Mia↔Momo twin language was already public on both main person pages, so main was not duplicated; the wiki now indexes the relationship directly. The main integrator state advances this branch's consumed SHA through `96bb661e0cfa9c33ea8bec4ec655e9c28977f2ec`.
+- `archive-miner/club-only-2021-2026-hourly` @ `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`: mandatory cumulative recovery continued checkpoint-first. Current A/B rails were novelty-checked against both public surfaces; Fish Revolution, AUUUUU, Dean dreams, Tummy and other already-published material were not recycled. Nitro creator/exact first noun, Shiya family genealogy, Snow/Big Bang and Alabama ancestry remain unresolved. The older cumulative recovery baseline is still incomplete, so `last_consumed_sha` stays null.
+- `archive-miner-clubonly-2020-hourly` advanced `62eaf0bdbdc126c9c74ba38022292d787b7e083a → e1360cd115c9cb6ae100bcae5bb87218e59d69e1`. The accepted A/B finding is Nelph's direct December 16, 2020 Discord doorway. Annie/Kuwei remains too thin for a new public dossier; Milk/Korea remains membership-boundary sensitive because the self-report says Council-S10. Woohyuk recurrence search was negative; Feli's authored post-onboarding fragment remains held. The branch's older cumulative baseline is still incomplete, so `last_consumed_sha` stays null.
+- `archive-miner/birthdays-pr-vc-deep-2026-08-24-2325-temp-check` @ `474a18a48d26352087ebe9c9da113febbba678b1`: recovered by ancestry check and fully consumed. Its HEAD is the ancestor/merge-base of the sibling Birthdays line already reviewed through `96bb661e0cfa9c33ea8bec4ec655e9c28977f2ec`; there is no unique delta.
+- `archive-miner/birthdays-pr-vc-deep-2026-08-24-2325` advanced `96bb661e0cfa9c33ea8bec4ec655e9c28977f2ec → 4254a8de26abd1cdaa7752965997cc707299f57f` and is now fully consumed through HEAD. The new Syv Ochem/ramen packet was already public on the main Syv dossier, so it was correctly consumed without duplicate copy.
 
 ### Cross-surface publication
 
-- **Main / Woohyuk:** adds the 2020 Fossil-Fuel Heir Proposal — Woohyuk asks Mugen to bear a child whose blood can produce fossil fuels, Ren files it into the Alabama Tumbleweed eighteen seconds later, and Mugen names the hypothetical first child `Tyrannosaurus rex`. It remains UL fictive-family comedy, not a real-world relationship claim.
-- **Main / Rummy:** adds Gilli's multi-year `Tummy` nickname rail without promoting `Tummy` into Rummy's alias list.
-- **Wiki / Bonds:** `src/pages/relationships.astro` adds compact relationship-specific entries for Gilli→Rummy `Tummy` and Mia↔Momo `Mimi & Momo`. The twin language is explicitly UL house-joke kinship, not biological siblinghood.
-- Woohyuk's Fossil-Fuel Heir Proposal is intentionally main-only this pass: it strengthens a biography cleanly and does not justify creating a duplicate wiki episode merely to mirror the main site.
+- **Main / Nelph:** the character page now opens the chronology with the December 16, 2020 Lobby receipt: Nelph answers the welcome, self-reports `Nelphie, Underlords, S-9, 18`, and Gilli follows with role assignment / tour routing. The page explicitly keeps this as a Discord doorway rather than proof of original in-game admission, pre-merge S10 membership, or an early Officer appointment.
+- **Wiki / Nelph:** `src/data/wiki.ts` moves Nelph's cast era from `2021–` to `2020–`, while preserving `retired Officer` as a later role. `src/data/character-biographies-nelph.ts` replaces the old “first chapter still missing” framing with the direct 2020 doorway and keeps the unresolved in-game entry / Officer chronology bounded.
+- This is deliberately not identical copy: main owns the compact receipt-driven scene; wiki owns the longer chronology/role-progression correction.
 
 ### Deduplication / unresolved boundaries
 
-- Mia↔Momo April 7–9, 2023 twin chronology already existed on both main person pages; only the wiki's relationship retrieval surface was missing it.
-- April UL Fools Month's daily identity-mutation framework remains bounded B-grade context; exact person/day mapping is unresolved.
-- Club recovery holds remain: Nitro Sniper creator/origin, Shiya fake-family genealogy, Old Man Snow/Big Bang, Alabama/Tumbleweed expansion and adjacent unresolved rails.
-- Feli's strengthened Not-Feli sequence and Ansun's map-editing beat were not republished as duplicate/incomplete edges.
-- Joke-family language remains joke-family language. Earliest surviving remains distinct from origin. POSTED BY remains distinct from MADE BY.
+- Syv's class-disaster → broke ramen → stream-QA packet was already present on the main public dossier and was not copied again.
+- Club recovery holds remain: Nitro Sniper creator/origin; Shiya fake-family genealogy; Snow/Big Bang and Alabama/Tumbleweed ancestry; Annie/Kuwei until a second scene makes a dossier worth widening for; Milk/Korea until visitor/member boundaries are stronger; Feli's post-onboarding authored fragment; and the Akariel/HyaLuna unresolved edge.
+- Discord onboarding is not automatically in-game admission. `Underlords, S-9` is not proof of personal pre-merge S10 history. Later Officer rank is not backdated from current/export-time role metadata.
 
 ### Verification / publication
 
-- Main public content head `5ed2abb3d8927b155377388eaf19e85815ad75bc` passed source canon/architecture verification, Astro build, built-output verification, and exact-commit Cloudflare Pages deployment in Actions run `33043484903`.
-- Wiki public content commit `c6f0d985863f776df148011ee4b09379c3ff940c` passed Astro build run `33043515606`; Pages run `33043515585` completed build, deploy, and report successfully.
-- Main durable report/state is recorded under `archive-intake/INTEGRATION_PASS_2026-08-26_2235_DUAL.md` and `archive-intake/INTEGRATOR_BRANCH_STATE.json`.
+- Main public content commit `7ab7c53ddc6b81751ceec03e6019dd3c57170970` passed source canon/architecture verification, Astro build, built-output verification, and exact-commit Cloudflare Pages deployment in Actions run `33046983952`.
+- Wiki public content commit `f8119f97de28d2da4e38ecdf12b2094ec2bada14` passed Astro build in run `33047333573`; Pages run `33047333666` completed build, deploy, and report successfully.
+- Main branch-consumption state advances Birthdays temp-check through `474a18a48d26352087ebe9c9da113febbba678b1` and the normal Birthdays branch through `4254a8de26abd1cdaa7752965997cc707299f57f`. Both Club-Only cumulative recoveries correctly remain `last_consumed_sha: null` until their older baselines are finished.
 
 ## Prior state
 
-The previous detailed pass remains preserved in Git history at wiki commit `6f5468d38505b75a3fec92dacbb627ef510da11e`. Older integration decisions remain recoverable from repository history and the main-site per-pass reports.
+The previous detailed pass remains preserved in Git history at wiki commit `a4b47411a8101a55ea0c900a317ed548dc8c149a`. Older integration decisions remain recoverable from repository history and the main-site per-pass reports.
