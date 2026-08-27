@@ -17,4 +17,10 @@ export const integratedGags = [
     logline:
       "By early 2024 literal snowfall had become Snow's personal legal problem. He tells Nobu and Rotini to ‘stop summoning me’; Nobu orders ‘Come snow here’ and threatens to sue; Rotini blames repeat storms on him and calls the accumulation his dandruff. Gabu later demands ‘Burn the snow!’ while Ren yells ‘SNOOOOW’ and, two minutes later, asks ‘Gimme 😭.’ January 3 is the earliest surviving version surfaced in Slice, not a proven origin. The weather is real; Snow's jurisdiction over it is extremely not.",
   },
+  {
+    id: "woohyuk-impossible-biography",
+    name: "Woohyuk's Impossible Biography",
+    logline:
+      "Woohyuk keeps responding to ordinary conversation by filing mutually incompatible family paperwork. In November 2020 he tells Mugs, ‘Bear my child mugs, so their blood can produce fossil fuels’; Mugs names the hypothetical first child Tyrannosaurus rex. In March 2021 Crystalia says ‘Don't mind Woo. He's just a kid,’ so Woohyuk immediately announces this has all been a cover and that he is ‘actually a 37 yo man who has 4 children.’ Neither is literal biography. The recurring mechanism is the escalation: call him a kid and he will apparently invent an entire tax return.",
+  },
 ];
