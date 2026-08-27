@@ -1,53 +1,60 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration pass: **2026-08-27 04:35 PDT**.
+Last dual-surface integration pass: **2026-08-27 05:35 PDT**.
 
-## Current pass — Ghostt says the whole thing in one sentence
+## Current pass — the poster maker gets called out; Akamin gets a file
 
 ### Branch / baseline
 
 - Main-site mandatory census found and persisted **23 miner branches** before deep review.
-- **7 branches remain backlog / review-overdue:** Core Rooms; all four Main HQ branches; and both Slice recovery branches.
-- `archive-miner/chat-pr-handoffs-2026-08-24-2300` received the anti-starvation rotation and is now consumed through HEAD, dropping overdue backlog from 8 to 7.
-- `archive-miner/chat-pr-slice-character-e18c-hourly` remains an advanced pending delta; Living Ensemble, Backroom, Photo Submissions, QOTD/Officers, and Wall remain cumulative review-in-progress work.
+- After anti-starvation rotation, **6 branches remain backlog / review-overdue:** all four Main HQ branches and both Slice recovery branches. Core Rooms received its first checkpoint-first recovery pass and moved to recovery-in-progress, but its cumulative baseline is still unfinished.
+- `archive-miner/chat-pr-slice-character-e18c-hourly` was reviewed from `0ae61f55be06029ef000b24463fc63422bc321c3 → de4b6c5eefe0ae602515b7178fa007588faaf1de` and is now fully consumed through HEAD.
+- Living Ensemble, Backroom, Photo Submissions, QOTD/Officers, Wall, Core Rooms, Whiskey, and both Club-Only branches remain cumulative review-in-progress / recovery work.
 - Miner handoffs were read directly from isolated miner branches. No miner branch was merged or cherry-picked into either public repository.
 
 ### Reviewed evidence
 
-- `archive-miner/club-only-2021-2026-hourly` @ `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`: mandatory cumulative recovery continued checkpoint-first. No still-unpublished A/B family cleared the bar; Fish Revolution, AUUUUU, Dean dreams, Tummy, Han fame/shame and related integrated material were not recycled. Nitro creator/exact noun, Shiya fake-family genealogy, Snow/Big Bang and Alabama ancestry remain held. Older recovery remains incomplete, so `last_consumed_sha` stays null.
-- `archive-miner-clubonly-2020-hourly` @ `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`: cumulative recovery continued at unchanged HEAD. Danny, Carlene and B-chan/Gerry remain clean late-September 2020 doorway/provisioning rails but still too thin for useful new public dossiers; Feli↔Mugs Tumbleweed remains unresolved. Older recovery remains incomplete.
-- `archive-miner/whiskey-longitudinal-hourly` advanced `767cef9dae625ad5b1d321508492f0901f33e7bc → b6f9dd1b89c1393beb851c97fe7f4aa46a5f02ab`: new A-material gives Ghostt a direct person-level before/after around the already-known game-detachment story. Three weeks after surfaced Discord onboarding, Ghostt writes `Imma still be in discord just not playing raja anymore`; the same stable account later remains on UL BIG PizzaParty planning lists and is still talking in the Wall when the Dragon Raja club label has become fuzzy enough to forget. Older cumulative Whiskey recovery remains unfinished, so `last_consumed_sha` stays null.
-- `archive-miner/chat-pr-handoffs-2026-08-24-2300` @ `0f2bcbb6f64af982dde997ca95f44929539c5be2`: checkpoint-first anti-starvation recovery completed across both intake families. The Eos wrong-account / Marian-shame scene is duplicate of already-public main material. An older derivative warning splitting Marian Kage from Panda is stale against current canon and was rejected. The May 31, 2022 `our two childs` scene is genuinely new but remains held until `g.PNG` is recovered/inspected and the second child is directly resolved; joke parenthood is not literal family. Eos first-Fame provenance and PR originals remain unresolved. Branch consumed through HEAD with no public change from that delta.
+- `archive-miner/club-only-2021-2026-hourly` @ `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`: mandatory cumulative recovery continued checkpoint-first. No still-unpublished A/B family cleared the bar; Fish Revolution, AUUUUU, Dean dreams, Tummy, Han fame/shame and other already-integrated families were not recycled. Nitro creator/exact noun, Shiya fake-family genealogy, Snow/Big Bang, Alabama ancestry and related origin joins remain held. Older recovery remains incomplete, so `last_consumed_sha` stays null.
+- `archive-miner-clubonly-2020-hourly` @ `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`: cumulative recovery continued at unchanged HEAD. Danny, Carlene and B-chan/Gerry remain useful doorway/provisioning rails but still too thin for useful new public dossiers; Feli↔Mugs Tumbleweed remains unresolved. Older recovery remains incomplete.
+- `archive-miner/chat-pr-slice-character-e18c-hourly` advanced `0ae61f55be06029ef000b24463fc63422bc321c3 → de4b6c5eefe0ae602515b7178fa007588faaf1de`: checkpoint-first review through HEAD found one clean A-level person join. On April 2, 2023 Mia posts `IMG_2643.png` to the Wall, follows her own upload with two wheezes, writes `^ should be on a poster`, and Mugen true-replies `LMFAOO SAID THE POSTER MAKER`; Mia answers `LMAFOOO`. The attachment remains uninspected, so POSTED BY Mia is known while MADE BY / CAPTURED BY / FEATURING and any final PR descendant stay unresolved. The branch's available source quarry is exhausted at this HEAD and is now consumed.
+- `archive-miner/whiskey-longitudinal-hourly` advanced `b6f9dd1b89c1393beb851c97fe7f4aa46a5f02ab → b2aa2add3c09b5ecf10d7bb324ab7091dd2639ea`: the current edge gives Akamin / Mere a clean 2020 person spine. On April 5 she enters an already-familiar scene from skating; Gilli says she had just asked about Akamin in club chat; Snow declares `the bar is open for Akamin`, hands her a textual mai tai, and Akamin says `Going in`. On October 14 Akamin says `My name better stay there` during Tumbleweed discussion; Mugen answers `always`. On December 5 Mugen announces `Our bb @akamin` is scheduled to stream Dragon Raja throwbacks on Twitch. The April doorway is not exact in-game admission; Tumbleweed kinship is fictive; the stream is scheduled, not independently proven completed. Older cumulative Whiskey recovery remains unfinished, so `last_consumed_sha` stays null.
+- `archive-miner/core-rooms-events-a91f-20260824` @ `8d9e6f40f7b0872aca3c20c6c1bd8fc45ebcec19`: anti-starvation rotation began checkpoint-first on the giant cumulative recovery. Core-room/event material including Alkey/chicken-fight leads surfaced, but the baseline was not reviewed through HEAD and no novelty-safe public change was accepted. It therefore remains unconsumed and moves from never-reviewed backlog to recovery-in-progress rather than being falsely marked done.
 
 ### Cross-surface publication
 
-- **Main site:** Ghostt's person page now owns the newly recovered exact chronology: Dec. 13, 2020 Discord doorway → Jan. 3, 2021 `Imma still be in discord just not playing raja anymore` → October social-programming planning-list continuity → Dec. 23 game-side club confusion / uninstall follow-through. The page explicitly keeps PizzaParty list inclusion distinct from attendance and does not backdate Staff from generic role assignment.
-- **Wiki:** no public lore page changed. The existing Ghostt dossier already carries the longer December 2020 → December 2021 → July 2022 arc and the current-Staff boundary. Mirroring the same January receipt into another long narrative would mostly duplicate the story rather than give the wiki a different job.
+- **Main site — Mia:** the Wall `poster maker` callout is now in Mia's biography as peer-recognized creative behavior, not a fabricated formal title. The new section keeps the joke where it belongs: Mia looks at Wall evidence, says it should be a poster, and Mugen immediately weaponizes Mia's own reputation back at her. The silence between `should be on a poster` and `SAID THE POSTER MAKER` does half the characterization — nobody needs to explain why the accusation lands. Han remains Media Director; Mia remains Mia.
+- **Wiki — Akamin:** Archive / Extended Cast now gets the cleaner historical dossier: already-known doorway familiarity → personal attachment to staying on Tumbleweed → scheduled Dragon Raja throwback contribution. This is a better wiki job than cloning Mia's already-existing wiki `poster maker` material, and it avoids building another tiny main-site bio around only three historical beats.
 
-The new line is almost aggressively sufficient. Ghostt does not explain a philosophy of post-Raja continuity; she says she is not playing Raja and is still staying in Discord, then the later calendar proves she meant it. By December the game-side club label is fuzzy enough to laugh at. The room is not.
+The Akamin doorway is funny because nobody behaves like she just appeared. `Gilliiii`, Gilli having literally just asked about her, Snow opening the bar, Akamin saying `Going in`: the surviving record starts in the middle of a relationship and has the good sense not to pretend otherwise. Six months later `My name better stay there` makes the giant nonsense family map briefly personal; Mugen's one-word `always` is tiny, but that is exactly why it reads as reassurance rather than a speech. The December throwback announcement then moves Akamin from being somebody the house remembers to somebody scheduled to help the house remember.
 
 ### Deduplication / unresolved boundaries
 
-- PizzaParty planning-list inclusion is not proof of October 8 attendance.
-- Ghostt's December 2020 Lobby line remains server onboarding, not automatic proof of exact in-game UL admission; the unlabeled `15 -28` pair is not decoded.
-- The `our two childs` scene remains backstage until the image and second-child join are stronger. Tony is strongly one child; Rummy is contextual, not mechanically proven as the other.
-- Eos's February 2022 wrong-account scene was not duplicated because it is already public on main.
-- Current canon resolves Marian Kage = Panda; stale derivative uncertainty is not propagated.
-- Nitro Sniper creator/origin/exact first noun, Shiya fake-family genealogy, Snow/Big Bang, Alabama ancestry, Feli↔Mugs Tumbleweed, Eos first-Fame proposal provenance, and missing PR originals remain held.
+- Mia's `poster maker` scene already existed in the wiki's rich Mia dossier, so it was added to main only rather than lore-Xeroxed back into wiki.
+- WolfPhenix's weekly-planner context is already public on main, including Mugs-confirmed Dragon Raja schedule-calendar / `strippers` context; broad planner/PR material was therefore treated as corroboration, not a fresh episode.
+- `IMG_2643.png` remains visually uninspected. POSTED BY Mia is not MADE BY Mia, not CAPTURED BY Mia, and not proof that the object became a final PR poster.
+- The e18c 007, Japanese retro, history-film bookends, hand-turkey lineage, banner-reaction fragments, and other derivative crumbs still require primary joins.
+- Akamin / Mere is user-confirmed canon. Pooled `Deleted User` cannot be used as independent proof of that bridge.
+- Akamin's April 5 scene proves familiarity by that date, not the first meeting, recruitment route, in-game admission, or a Staff appointment. The Dec. 5 `@Staff` audience tag is not Akamin role evidence.
+- Tumbleweed remains fictive-family mythology; the edited `Akamin (granddaughter)` map edge cannot be backdated to the original September 29 post just because the final edited text survives.
+- Nitro Sniper creator/origin/exact first noun, Shiya fake-family genealogy, Snow/Big Bang, Alabama ancestry, Feli↔Mugs Tumbleweed and related origin joins remain held.
 - Earliest surviving remains distinct from origin; Discord onboarding remains distinct from in-game admission; export-time roles remain distinct from appointment chronology; POSTED BY / MADE BY / SAID BY / CAPTURED BY / FEATURING remain separate claims.
 
 ### Consumption
 
 Advanced to consumed:
-- `archive-miner/chat-pr-handoffs-2026-08-24-2300` → `0f2bcbb6f64af982dde997ca95f44929539c5be2`
+- `archive-miner/chat-pr-slice-character-e18c-hourly` → `de4b6c5eefe0ae602515b7178fa007588faaf1de`
 
-Club-Only 2021–2026, Club-Only 2020, and Whiskey remain intentionally `last_consumed_sha: null` because their older cumulative baselines are unfinished; current-edge reviews are recorded in the main branch-state ledger instead of falsely skipping recovery history.
+Reviewed but intentionally still cumulative/unconsumed:
+- `archive-miner/club-only-2021-2026-hourly` @ `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`
+- `archive-miner-clubonly-2020-hourly` @ `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`
+- `archive-miner/whiskey-longitudinal-hourly` @ `b2aa2add3c09b5ecf10d7bb324ab7091dd2639ea`
+- `archive-miner/core-rooms-events-a91f-20260824` @ `8d9e6f40f7b0872aca3c20c6c1bd8fc45ebcec19`
 
 ### Verification / publication
 
-- Main public content commit `8a4d386ea807487514a69b671257e1b20af233eb` passed source canon/architecture verification, Astro build, built-output verification, and exact-commit Cloudflare deployment.
-- Wiki public lore content is unchanged this pass; this state commit still runs through the wiki's repository-native Astro/Pages validation and deployment so the publishing branch is verified independently.
+- Main public-content commit `3dc719045f37f0f240e010cdfa852853fffba90e` passed the repository's exact-SHA workflow: source canon/architecture verification, Astro build, built-output verification, and Cloudflare Pages production deployment all succeeded.
+- Wiki public-content head `f52e7b9e656c8a80008daf136cd81b3cabeb7b45` passed the standalone Astro build and the GitHub Pages build/deploy/report workflow. Akamin's dossier therefore built and deployed successfully before this durable state update.
 
 ## Prior state
 
-The previous detailed pass is preserved in Git history at wiki commit `bae360612ff08e19a3d7a940b50555653117e75c`. Older integration decisions remain recoverable from repository history and the main-site per-pass reports.
+The previous detailed pass is preserved in Git history at wiki commit `5c92f5a1c60510e78c072c8c317e34a5c82ce844`. Older integration decisions remain recoverable from repository history and the main-site per-pass reports.
