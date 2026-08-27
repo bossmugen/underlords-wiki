@@ -1,8 +1,37 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration pass: **2026-08-26 18:10 PDT**.
+Last dual-surface integration pass: **2026-08-26 18:57 PDT**.
 
-## Current pass — Birthdays delta + voice-twin lookup
+## Current pass — Wall fame/shame genealogy + Han delta
+
+### Branch / baseline
+
+- Wiki publishing branch: `main`; public content baseline re-read at `20653cc5d615461bae193ac9fdf52734c084e22a` immediately before editing.
+- Main publishing branch: `bossmugen/underlords@master`; the mandatory 23-branch census was persisted first at `dd36c7439597142e582d64501b618851a5170fa4`.
+- Miner handoffs were read directly from isolated miner branches. No miner branch was merged or cherry-picked wholesale.
+
+### Reviewed evidence
+
+- `archive-miner/birthdays-pr-vc-deep-2026-08-24-2325`: fully reviewed incremental delta `25833c90d1443037d818cdf12a5366556760bdc6 -> f1ba950140375d7fa9b41f80792387035074af91`. Accepted Han's August 19/24 Wall sequence; Akariel material remains held where attribution is second-hand or image contents are unresolved.
+- `archive-miner/club-only-2021-2026-hourly` @ `d9267e1f5e7316e6a444ef1d4421e1c0ff2fe419`: recovery continued; Fishjail/Fish Revolution, the AUUUUU howl chain, Big Bang accidental-megaphone material, Nitro Sniper genealogy, ShiyaX/Lamb fake-family material, and Gilli/Rummy Tummy remain held for direct receipt/placement joins. Recovery is not consumed.
+- `archive-miner-clubonly-2020-hourly` @ `e7e35ecc0ba1946b37dcf0d69a5ebe6818c0b4f6`: recovery continued across the Wall of Shame/Fame evidence family. The surviving record supports the recurring shame/fame ambiguity and later `the peoples history` framing, but does not safely establish an exact rename/origin date. Gilli's later `Eos was the first fame moment i think` is treated as recollection, not proof that overrides earlier 2020 Wall material.
+- Anti-starvation branch `archive-miner/backroom-deals-2026-08-24` @ `0e3de1a71cea93cc38317412e2b22dc28a88d225`: checkpoint/site-candidates reviewed. Roach/Roachable taxonomy, Sewer Ten/Speeling Bee typo cascades, `vokunteer`, Stalker Photoshoot, Mugen Phantom tutoring, Snow's fake-law Chargebook and related families remain queued while the cumulative recovery continues.
+
+### Cross-surface publication
+
+- **Main:** Han's Character page gets the August 2021 scene in character context: he audits a cropped Club-Only screenshot, later asks whether Mugs' `wall/shame` is fame or shame, receives `Both`, and then resumes club-reward math almost immediately.
+- **Wiki:** Legends gets **Wall of Shame / Fame**, the broader longitudinal running gag: public shaming, fame, and memory repeatedly collapse into the same scrapbook from 2020 onward.
+- The copy is intentionally not mirrored. Main owns Han's lived scene; wiki owns the compact recurring-gag genealogy.
+
+### Verification / publication
+
+- Wiki content commit `e8c29b105566a7a2713aad7b58a37265f3ed0812` passed the repository's Astro build workflow and its GitHub Pages build/deploy workflow.
+- Main exact-commit verification/deploy is recorded in the main integration report/state for this pass.
+- Birthdays/PR/VC is consumed through `f1ba950140375d7fa9b41f80792387035074af91`; the three cumulative recovery branches remain unconsumed because their baselines are still incomplete.
+
+---
+
+## Previous pass — 2026-08-26 18:10 PDT — Birthdays delta + voice-twin lookup
 
 ### Branch / baseline
 
