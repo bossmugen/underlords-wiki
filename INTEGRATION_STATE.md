@@ -1,48 +1,41 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration pass: **2026-08-26 20:20 PDT**.
+Last dual-surface integration pass: **2026-08-26 20:35 PDT**.
 
-## Current pass — fish insurgency, onboarding receipts, May, and the Wall stopwatch
+## Current pass — Oyasumi existed before the Bouncer found him
 
 ### Branch / baseline
 
-- Wiki publishing branch: `main`; public content baseline was re-read immediately before the cast update.
-- Main publishing branch: `bossmugen/underlords@master`; the mandatory full census found **23 miner branches** and was persisted first in main census commit `7465eaadc6467826c419ceafde6e52f759205784`.
-- Two miner heads had advanced since the prior stored census: `archive-miner-clubonly-2020-hourly` to `53cefab24c5e647d42b96c31e936e57ca3c4700c` and `archive-miner-wall-hourly-20260824` to `957787a19dc5003a2d8d4e98908369baddb2b4cd`.
-- Miner handoffs were read directly from isolated miner branches; no miner branch was merged or cherry-picked wholesale.
-- After this pass, **12 branches remain backlog / review-overdue**. Wall moved out of backlog into active review.
+- Wiki publishing branch: `main`; current public structure and Oyasumi dossier were re-read before this state update.
+- Main publishing branch: `bossmugen/underlords@master`; the mandatory full census found **23 miner branches** and was persisted before deep review in census commit `1c5ff8252ebc00310c425c9630a7269ec6aae9ac`.
+- **12 branches remain backlog / review-overdue:** birthdays temp-check; four PR/Slice/Character handoff branches; Core Rooms; all four Main HQ branches; both Slice recovery branches.
+- Miner handoffs were read directly from isolated miner branches. No miner branch was merged or cherry-picked wholesale.
 
 ### Reviewed evidence
 
-- `archive-miner/club-only-2021-2026-hourly` @ `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`: cumulative recovery continued checkpoint-first through the surfaced A/B handoffs. Fishjail / Fish Revolution cleared publication review. ShiyaX's AUUUUU arrival call and lobster-cooking material were confirmed as already public on the current main Character page and were deduplicated rather than republished. Nitro Sniper genealogy, Dean dreams, fake-family expansion, Tummy, old-Snow / Big Bang, Alabama and related families remain queued or held.
-- `archive-miner-clubonly-2020-hourly` — `c914635b2f086468804378e97003fcf0fa77545c → 53cefab24c5e647d42b96c31e936e57ca3c4700c`: reviewed the complete new checkpoint/findings/receipts/rabbit-hole/site-candidate delta. Accepted Rooks' May 17 onboarding/provisioning room tour and same-session Oct. 1 `rooberry` persistence. Accepted May / Mayvis' direct self-bridge, Gilli care scene, and Missing Sun character beat for wiki reference indexing. Exact human `rooberry` coinage, May's exact entry date, and May↔Anthos marriage origin remain unresolved.
-- Anti-starvation branch `archive-miner-wall-hourly-20260824` — `d1a97751198f03e4170c11e25a33fe6568fcc585 → 957787a19dc5003a2d8d4e98908369baddb2b4cd`: accepted the Erys/Emi timestamp correction. Aesh remains the record people remembered; Erys has the faster surviving MEE6→Wall interval, **2m09.393s** versus Aesh's reconstructed **2m45.648s**. Ren's reply-parent image predates Erys' MEE6 welcome by 18m10.882s, but the image contents and reason for the chronology remain unresolved. Ghostt's missing `I say this everyday` phrase also remains held.
+- `archive-miner/club-only-2021-2026-hourly` @ `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`: mandatory cumulative recovery continued checkpoint-first. Fish Revolution and AUUUUU/lobster are already public/duplicate; Nitro Sniper genealogy, Dean dreams, fake-family expansion, Tummy, Big Bang/old-Snow, Alabama and adjacent families remain queued/held. The older recovery baseline remains incomplete, so consumed SHA stays null.
+- `archive-miner-clubonly-2020-hourly` @ `53cefab24c5e647d42b96c31e936e57ca3c4700c`: recovery continued. The surfaced May/Mayvis `Missing Sun` material corroborates the wiki dossier integrated last pass and was deduplicated. Exact human `rooberry` coinage, May's exact entry date, and May↔Anthos marriage origin remain unresolved. Consumed SHA stays null until the cumulative baseline is complete.
+- Anti-starvation branch `archive-miner/birthdays-pr-vc-deep-2026-08-24-2325`: **fully reviewed** `f1ba950140375d7fa9b41f80792387035074af91 → f29a567de360a983a0fdf2d0d497a217d6513f73`. Its consumed SHA advanced to `f29a567de360a983a0fdf2d0d497a217d6513f73` after successful main verification/deployment.
 
 ### Cross-surface publication
 
-- **Main / Rooks:** `src/content/people/rooks.md` now begins with the surviving onboarding scene — `Rooks, UnderLords, member uwu`, then permissions plus the Whiskey / Slice / Louvre / Grind BL room tour from a pooled Deleted User. The author is deliberately not identified. Same-session `rooberry` persistence was added too. Content commit `1a826a2bfa8c4178be9ebff7e3233b13354a8772`.
-- **Main / Club-Only:** `src/lib/club-only-overrides.ts` now preserves the February 17, 2021 Fishjail / Fish Revolution as a discrete incident instead of another abstract domestication paragraph. Content commit `7b3c574dda9f1f15155a4701029b669cce2e97a9`.
-- **Main / Aeshleen:** `src/content/people/aeshleen.md` keeps Aesh as the remembered Wall speedrun legend while adding Erys' faster surviving stopwatch result without retroactively inventing a title award. Content commit `35a57ab9177ff48264c3fc352b4e9fb2cc2944be`.
-- **Wiki / Cast:** `src/data/cast.ts` adds **May / Mayvis** and **Erys / Emi** to Archive / Extended Cast. May gets the alias/care/Missing Sun reference layer; Erys gets the faster-surviving-clock reference layer. Aesh's wiki logline now preserves the remembered-benchmark distinction. Content commit `779ad4509d7b01591373c7ef50a790a1db618355`.
-- The split is intentional: main carries the scene-rich canon; wiki keeps minor historical cast findable without inventing current living-roster placement or duplicating full essays.
+- **Main / Oyasumi:** `src/content/people/oyasumi.md` now adds the January 25, 2022 pre-Lobby rail. Mugen's Wall caption already calls `@TankHead94` `Mr. *I don't use discord*`; on February 25 Oyasumi directly self-identifies `IGN: TankHead94` during the surviving Lobby intake. The copy explicitly does **not** turn that January mention into an exact UL admission date, first-contact date, Discord join mechanism, or Officer appointment. Public content commit: `2d773af4359f5c6b7ee6aba597b48d514ecfad7e`.
+- **Wiki public lore:** unchanged this pass. The existing Oyasumi dossier already owns the broad 2022→2026 character progression; this narrow pre-door receipt was kept on the main biography rather than mirrored as near-identical prose. The two surfaces remain complementary rather than copy-pasted.
 
 ### Deduplication / unresolved boundaries
 
-- ShiyaX AUUUUU and lobster material were already public and received no duplicate copy.
-- Fishjail is a discrete incident; visible fish-number/name reactions do not identify which moderator changed which nickname.
-- Rooks' pooled Deleted User onboarding author remains pooled and unnamed; Discord provisioning is not treated as an exact in-game admission timestamp.
-- Oct. 1 remains earliest surfaced direct `rooberry`, not proven origin; bot rendering is not human authorship.
-- May's exact join date and May↔Anthos marriage origin remain open.
-- Aesh's remembered Wall record and Erys' faster surviving clock remain two different claims.
-- `IMG_7908.png` remains visually unresolved; no content or motive is inferred from timing alone.
-- No `last_consumed_sha` advanced for the three reviewed branches because each still has an older cumulative recovery baseline that has not been reviewed continuously through HEAD. Main durable state records the successful current-head review without falsely claiming baseline consumption.
+- The miner's Jas “arrival” framing was rejected: the current main Jas biography already has earlier July 2020 receipts, so August 7 cannot safely be presented as arrival.
+- The `GOODBYE UNDERLORDS` PR obituary GIF still lacks an exact public-deployment join; it remains unresolved rather than being promoted to a publicly posted prank.
+- Exporter-resolved presentation `Jas (Absent father)` is not contemporaneous evidence for when that nickname was coined.
+- May/Mayvis `Missing Sun` is already public on the wiki and received no duplicate copy.
+- Club recovery holds remain holds; no joke family was converted into literal family, no earliest-surviving receipt was relabeled as origin, and no unresolved attribution was guessed.
 
 ### Verification / publication
 
-- Main content head `35a57ab9177ff48264c3fc352b4e9fb2cc2944be` passed source canon/architecture verification, Astro build, built-output verification, and exact-commit Cloudflare Pages deployment.
-- Wiki content head `779ad4509d7b01591373c7ef50a790a1db618355` passed `Build Underlords Wiki`; its Pages workflow completed build, deploy, and report successfully.
-- Main durable branch state was updated in `0eafb959afdd8c3fc66cbaeaa50f6475af4a4e07`; pass report is `archive-intake/INTEGRATION_PASS_2026-08-26_2020_PDT.md`.
+- Main content commit `2d773af4359f5c6b7ee6aba597b48d514ecfad7e` passed source canon/architecture verification, Astro build, built-output verification, and exact-commit Cloudflare Pages deployment in Actions run `33037373359`.
+- Main durable census/consumption state and this pass report were committed at `91d39dfce8b9c27d252aa5ad80186a150e2aeab7` (`archive-intake/INTEGRATION_PASS_2026-08-26_2035_DUAL.md`).
+- Wiki public content files were intentionally unchanged; this file records the reconciled dual-surface decision and branch consumption update.
 
 ## Prior state
 
-The previous compact state remains preserved in Git history at wiki commit `f01387cfbcfbab75a9c79c9dd16303e5f8957367`. Older integration decisions remain recoverable from repository history and the main-site per-pass reports.
+The previous detailed pass remains preserved in Git history at wiki commit `319172b2bc4112fb0bb615bed0ac0a09ab43240e`. Older integration decisions remain recoverable from repository history and the main-site per-pass reports.
