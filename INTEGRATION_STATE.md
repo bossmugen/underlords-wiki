@@ -43,7 +43,11 @@ Club-Only 2021–2026 and Club-Only 2020 remain intentionally `last_consumed_sha
 
 ### Verification / publication
 
-Both repositories are to run their existing final-head build/deploy procedures after these durable state updates. No public lore file was changed, so this pass intentionally publishes no new mirrored story on either surface.
+Main `master` commit `7318333b23a257eb89dfba93894a6665f8b56b12` passed `UL Hourly Build + Deploy` run `33056052383`: source verification, Astro build, built-output verification, and exact-commit Cloudflare deployment all succeeded.
+
+Wiki `main` commit `bd7e1bf373c4e6824a781e1b7d0a2e26493cdbdd` passed `Build Underlords Wiki` run `33056103630` and `Deploy Underlords Wiki Preview` run `33056103664`; Astro build and Pages build/deploy/report all succeeded.
+
+This verification result is durably recorded here. The state-only annotation commit is also expected to receive the same wiki build/Pages validation before the pass closes.
 
 ## Prior state
 
