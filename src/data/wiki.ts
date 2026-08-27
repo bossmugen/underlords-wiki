@@ -52,7 +52,7 @@ export const characters: Character[] = [
   { id:"illien", name:"Illien", aliases:["Euros"], billing:"legacy", role:"retired Officer", era:"2020–", logline:"Early Officer. Euros is an alias, not a separate character." },
   { id:"key", name:"Key", aliases:["Captain Chihuahua"], billing:"legacy", role:"retired Officer", era:"pre-UL–", logline:"Older-network friend of Mugen, early Officer, and one of the people whose relationship history extends left of the show's official premiere." },
   { id:"kiro", name:"Kiro", aliases:["Gum","HicUUOOOOGH"], billing:"legacy", role:"retired Officer", era:"2020–", logline:"Full Officer, not a Sniper; one of the returning names in the 2026 continuity era." },
-  { id:"nelph", name:"Nelph", billing:"legacy", role:"retired Officer", era:"2021–", logline:"Later full Officer whose return helps make the reunion feel like different generations walking into the same episode." },
+  { id:"nelph", name:"Nelph", billing:"legacy", role:"retired Officer", era:"2020–", logline:"Directly checks into the UL Discord on December 16, 2020 as `Nelphie, Underlords, S-9, 18`; later becomes a full Officer, and the reunion return makes different generations walking into the same episode visible." },
 
   { id:"dean", name:"Dean", aliases:["Beansprout","Deansprout"], billing:"recurring", role:"Platelet", era:"pre-UL–", logline:"Mugen's online son. Calls her mum. His relationship to her predates Dragon Raja and gives the cast a real prequel timeline." },
   { id:"moon", name:"Moon", billing:"recurring", role:"UL Night Shift Barista", era:"2020–", logline:"Late-room character, nursing-student era witness, and recurring night-shift energy." },
