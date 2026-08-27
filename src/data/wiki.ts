@@ -69,7 +69,7 @@ export const characters: Character[] = [
   { id:"candy", name:"Candy", aliases:["~Candy~","— Luna"], billing:"recurring", role:"Platelet", era:"2021–", logline:"Later Luna/Candy. Explicitly not HyaLuna." },
   { id:"woohyuk", name:"Woohyuk", billing:"recurring", role:"VIP", era:"2020–", logline:"Visitor/family-adjacent recurring cast member with a long trail through memes, family-map material, and the wider social house." },
   { id:"zyrcant", name:"Zyrcant", aliases:["Akariel"], billing:"guest", role:"VIP · former Amaurot deputy", era:"2020–", logline:"Amaurot connection, VIP, and recurring extended-family guest." },
-  { id:"rich", name:"Rich", aliases:["Ricochet","DragonRich"], billing:"guest", role:"VIP · Amaurot leader", era:"2020–", logline:"External-club leader and long-running guest presence; diplomacy becomes friendship becomes somebody still being around years later." }
+  { id:"rich", name:"Rich", aliases:["Ricochet","DragonRich"], billing:"guest", role:"VIP · Amaurot leader", era:"2020–", logline:"External-club leader and long-running guest presence; the old Fight Club VC eventually becomes his couch, then a late-era domestic room." }
 ];
 
 export const seasons: Season[] = [
@@ -91,6 +91,7 @@ export const episodes: Episode[] = [
   { id:"voice-challenge", title:"UL Voice Challenge", season:"2021", date:"2021–2023", kind:"Event arc", logline:"Voice becomes another archive surface: accents, bits, performances, and the weird intimacy of hearing the people behind the text.", cast:["Han"] },
   { id:"officers-challenge", title:"Officers Challenge", season:"2022", date:"2022–2023", kind:"Event arc", logline:"An Officer-branded challenge that remains open to everyone, because UL naming conventions do not guarantee organizational clarity.", cast:["Ren","Sye"] },
   { id:"hydration-department", title:"Drink Water Reminder", season:"2022", date:"2022–present", kind:"Running gag / care ritual", logline:"Gabu's hydration behavior stops being a reminder and starts behaving like a department.", cast:["Gabu"] },
+  { id:"fight-club-upholstered", title:"Fight Club Gets Upholstered", season:"2022", date:"December 31, 2022", kind:"Channel genealogy", logline:"Rich remembers all the screaming and yelling from the old Fight Club VC before it was turned into his couch, explicitly bridging the event room to Richard's Corpse On A Cooch. The exact rename date remains unknown.", cast:["Rich"] },
   { id:"doodles-part-2", title:"Doodles Part 2: Bananas", season:"2023", date:"June–August 2023", kind:"PR / communal-art episode", logline:"Ren proposes a blank canvas, Mia turns it into an open doodle relay, Gilli demands themed sequels, and the sequel is bananas; by August Daya is asking for the final copy to use as a Raja poster.", cast:["Ren","Mia","Gilli","Daya"] },
   { id:"domestic-ul", title:"The Living Room Season", season:"2024", date:"2024", kind:"Domestic episode", logline:"Food, streams, naps, pets, and typed residue from voice rooms make it impossible to pretend the group's main function is still a mobile game.", cast:["Sye","Momo"] },
   { id:"raja-ends", title:"The Game Ends. The House Doesn't.", season:"2025", date:"July–August 2025", kind:"Season finale", logline:"The Dragon Raja club is deliberately wound down. UL survives as the people, rooms, habits, and relationships around it.", cast:["Sye","Mugen"] },
@@ -104,7 +105,7 @@ export const locations = [
   { id:"the-wall", name:"The Wall", type:"Shame/Fame evidence locker", logline:"By August 2020 Ansun was calling it the Wall of Shame while Ren was already arguing Hall of Fame; by March 2021 Ren had fused the problem into `wall of shame-fame`." },
   { id:"lobby", name:"Lobby", type:"Front porch", logline:"Intake, visitors, bots with jobs, and the first impression of UL's house rules." },
   { id:"main-hq", name:"Main HQ", type:"Backstage", logline:"Officer governance and operational memory. Main HQ predates the later DR Game HQ split." },
-  { id:"richards-corpse", name:"Richard's Corpse On A Cooch", type:"Voice-room couch", logline:"Dinner, naps, streaming, typed voice residue: the domestic final form." },
+  { id:"richards-corpse", name:"Richard's Corpse On A Cooch", type:"Voice-room couch", logline:"The old Fight Club VC after it got upholstered: screaming-and-yelling ancestry becomes dinner, naps, streaming, and typed voice residue. Rich directly remembers Fight Club being turned into his couch; the exact rename date stays open." },
   { id:"panic-room", name:"Panic Room / speeling bee", type:"Core game room", logline:"A core UL room whose name tells you enough about the organization's spelling standards." },
   { id:"mugs-casino", name:"Mugs Casino", type:"Core game room", logline:"One of the native room concepts that makes the server feel like a neighborhood instead of a category list." }
 ];
