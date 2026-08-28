@@ -70,7 +70,7 @@ export const characters: Character[] = [
   { id:"woohyuk", name:"Woohyuk", billing:"recurring", role:"VIP", era:"2020–", logline:"Visitor/family-adjacent recurring cast member with a long trail through memes, family-map material, and the wider social house." },
   { id:"booba", name:"Booba", aliases:["MsThiccy","boobaboo"], billing:"recurring", role:"UL member", era:"2022–", logline:"Checks into the Lobby as MsThiccy / Underlords, then shows up on the Wall a month later with another exhibit and seven Fat_Wheeze reactions. The image itself stays undescribed until somebody actually inspects it." },
   { id:"zyrcant", name:"Zyrcant", aliases:["Akariel"], billing:"guest", role:"VIP · former Amaurot deputy", era:"2020–", logline:"Amaurot connection, VIP, and recurring extended-family guest." },
-  { id:"rich", name:"Rich", aliases:["Ricochet","DragonRich"], billing:"guest", role:"VIP · Amaurot leader", era:"2020–", logline:"External-club leader and long-running guest presence; the old Fight Club VC eventually becomes his couch, then a late-era domestic room." }
+  { id:"rich", name:"Rich", aliases:["DragonRich"], billing:"guest", role:"VIP · Amaurot leader", era:"2020–", logline:"External-club leader and long-running guest presence; the old Fight Club VC eventually becomes his couch, then a late-era domestic room." }
 ];
 
 export const seasons: Season[] = [
