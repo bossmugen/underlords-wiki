@@ -1,8 +1,10 @@
 ---
 import WikiLayout from "../../layouts/WikiLayout.astro";
 import { episodes } from "../../data/wiki";
+import { integratedEpisodes } from "../../data/integrator-episodes";
+const allEpisodes = [...episodes, ...integratedEpisodes];
 ---
 <WikiLayout title="Major Incidents | Underlords Wiki" description="Named Underlords incidents, turning points, recurring-story births, and archive events.">
   <section class="hero"><div><div class="kicker">INCIDENT ARCHIVE</div><h1>Major<br/>Incidents</h1><p class="tagline">Most days disappear into chat history. These did not. They became named events, turning points, callbacks, scandals, traditions, or the origin story for some stupid noun everybody still understands years later.</p></div></section>
-  <section class="section"><div class="episode-list">{episodes.map((episode)=><a class="episode-row" href={`/episodes/${episode.id}`}><span class="ep-season">{episode.season}</span><strong>{episode.title}</strong><p>{episode.logline}</p><time>{episode.date}</time></a>)}</div></section>
+  <section class="section"><div class="episode-list">{allEpisodes.map((episode)=><a class="episode-row" href={`/episodes/${episode.id}`}><span class="ep-season">{episode.season}</span><strong>{episode.title}</strong><p>{episode.logline}</p><time>{episode.date}</time></a>)}</div></section>
 </WikiLayout>
