@@ -44,6 +44,13 @@ claims:
       - label: "👅 Wall · 2022-08-03"
         href: "/channels/wall"
     note: "An adjacent attachment exists; its unseen contents are not described by this claim."
+  - text: "On March 25, 2023, Oyasumi wrote `Lol remember doing that to ansun with unsellable items` on the Wall; the callback received five `Nusna_Yippee` reactions."
+    evidence: "archive-confirmed"
+    date: "2023-03-25"
+    sources:
+      - label: "👅 Wall · 2023-03-25"
+        href: "/channels/wall"
+    note: "This is a callback to an older prank, not the recovered origin. The item, mechanic, original date/channel, other participants and Ansun's reaction remain unresolved."
   - text: "On December 12, 2023, Oyasumi wrote `Caught my boy in 4k`; the message received six `Fat_Wheeze` reactions in the recovered Wall export."
     evidence: "archive-confirmed"
     date: "2023-12-12"
@@ -72,9 +79,11 @@ antiFanon:
   - "The May 4 packet is a reply to pooled Deleted User. Do not resolve that recipient to one human from this exchange."
   - "`Yay you made it` and `welcome Worldwalker` are warm directed entrance language in those scenes; they do not by themselves rank closeness or reconstruct off-server history."
   - "Oyasumi's recurring `evidence`, `crimes`, and `caught in 4k` language is social Wall/Whiskey banter, not a formal prosecutor, archivist, investigator, or moderation appointment."
+  - "The March 25, 2023 unsellable-items line is a callback to an older prank, not its origin. Do not invent the item, mechanic, accomplices, original date/channel or Ansun's reaction from the surviving line."
   - "`I hope I appear relatively normal` and the room's response are jokes in context, not psychological characterization or a claim about Oyasumi's mental health."
   - "The late-night Kiro/Oyasumi GIF exchange does not establish a romantic or sexual relationship between them."
 relatedPeople:
+  - "ansun"
   - "kiro"
   - "rummy"
   - "ren"
@@ -106,6 +115,8 @@ The historical age stays backstage. The character beat is already complete. He o
 By August, he is fully inside a different house system: Screenshot Jail. Oyasumi says **`Didn't want to crop me in this mess`**, then immediately concedes **`Still hard evidence of your crimes`**. The adjacent attachment remains unseen, but the language shows that he has already learned the room's fake legal dialect. Personal inconvenience does not invalidate the exhibit, apparently.
 
 ## 2023 — HE MOVES TO THE OTHER SIDE OF THE LOBBY DESK
+
+Before the onboarding scenes, March adds one useful complication: Oyasumi writes **`Lol remember doing that to ansun with unsellable items`** on the Wall and gets five `Nusna_Yippee` reactions. The original prank is missing, so the wiki keeps this as a callback rather than reconstructing the item, mechanic, accomplices or Ansun's response. It does, however, put Oyasumi on the participant side of at least one older Dragon Raja prank instead of leaving him only as the guy talking about other people's evidence.
 
 In May 2023, Oyasumi repeatedly delivers UL's mature welcome packet: Platelet/minor caution, sensitive-topic boundaries, Biodata, Discord Tour, Whiskey Room. The wording is shared house copy and does not belong to him uniquely.
 
