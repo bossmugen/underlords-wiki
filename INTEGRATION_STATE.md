@@ -1,97 +1,102 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration pass: **2026-08-28 13:22 PDT**.
+Last dual-surface integration pass: **2026-08-28 13:42 PDT**.
 
 This is the rolling current integration state. Earlier pass detail remains durable in Git history and in the main-site `archive-intake/INTEGRATION_PASS_*_DUAL.md` reports.
 
-## Current pass — Ghoulie is already saying `NOT AGAIN`
+## Current pass — Xephy got here before the raid did
 
 ### Branch census / queue
 
 - Main-site mandatory census enumerated **24 miner branches** before deep review.
 - Newly discovered branches: **0**.
-- No miner branch head advanced beyond the persisted `last_seen_sha` census this run.
-- Club-Only 2021–2026 remains fully consumed through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`; Club-Only 2020 remains consumed through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`. The named recovery priority therefore did not need to be reread.
-- With no pending/advanced discrete delta to service, recovery rotation moved into the older **Living Ensemble** cumulative safe-baseline backlog at unchanged HEAD `66c3227c687965a4dae9b372fdcbe2dc128611ba`.
+- Two discrete miner branches had advanced since their last consumed heads:
+  - Daycare: `caf15b30a80a0ca641af339becb81330912abbb7 -> eb12127ec024ec5db3fb7e9787a529e729b4ab7f`
+  - Whiskey: `a36a259d86b933231ae100e686774857bc4c9f01 -> cf4f884f34ec5a086f8e26c811fe7fa49a60cfe6`
+- Club-Only 2021–2026 and Club-Only 2020 were already consumed through current HEAD and were not reread.
+- Anti-starvation recovery also continued the cumulative **Living Ensemble** backlog at unchanged HEAD `66c3227c687965a4dae9b372fdcbe2dc128611ba`, moving recovery through Run08.
 - No miner branch was merged or wholesale cherry-picked into either publishing branch.
-- Pending/backlog/review_overdue discrete branches after review: **none**.
-- Remaining cumulative recovery branches: **Living Ensemble, Core Rooms, Wall**.
+- After successful review, Daycare and Whiskey are consumed through their current heads; remaining cumulative recovery branches are **Living Ensemble, Core Rooms, Wall**.
 
-## Living Ensemble recovery — Run07
+## Daycare delta — reviewed, no duplicate public object
 
-Checkpoint was read first, then only the Run07 handoffs under `archive-intake/aug-2026-living-ensemble-reunion-2026-08-19-2303-pdt/`. Raw archives were not re-mined.
+The new Daycare handoff was read checkpoint-first. Its strongest advance centered on Eos, but current MAIN had already absorbed the high-value Eos chronology/character material through concurrent integration. The remaining newly surfaced names were intentionally thin and did not justify another public card/profile layer.
 
-### Accepted — Baby Lyssa / Ghoulie Wall prehistory
+**Disposition:** successful no-public-change review. Daycare advances through `eb12127ec024ec5db3fb7e9787a529e729b4ab7f` rather than being reread forever.
 
-The already-public Baby Lyssa Wall chain had the later property law: `Ghoulies wall of shame`, `this is my wall now`, residency, rent, and the August complaint that one alleged second away produced two more Wall appearances. Run07 finally pushed the surviving prehistory earlier.
+## Whiskey delta — Acoryuie comes back and already knows the house
 
-On March 13, 2021 Baby Lyssa / Ghoulie writes in the Wall:
+Stable Discord account `372340096613220356` appears at UL's doorway twice in 2021:
 
-> `NOT AGAIN`
->
-> `PLS`
+- February: `Hello, its Cinders here!` → Ren sends the Discord tour.
+- March: the same account greets Whiskey with `Good afternoon lovelies!`.
+- June: the same account supplies `Juᥒιρer`, and Mugen answers `welcome back bb, role assigned, you know your way uwu`.
 
-Later the same day ShiyaX writes `GHOULIE IN UL` and asks `@Baby Lyssa YOU JOINING BB ?`; Baby Lyssa answers `I-` / `MAYBE?`.
+The durable reading is narrower than a rename story and better than one: the **same numeric account** supplies two doorway names, and the June scene explicitly proves Discord return/re-onboarding plus prior server familiarity. It does not prove a formal IGN rename, alt switch, in-game UL leave/rejoin, club change, return cause, or historical officer/staff appointment.
 
-March 24 then escalates the bureaucracy. Mugen writes `@Baby Lyssa WELCOME`; Baby Lyssa answers `WHY` / `WHY IS THIS HAPPENING TO ME`; Gilli writes `She only been here for less then an hour HAHAA`; Mugen answers `LMFAO WE SHOULD HAVE A RECORD`; roughly five minutes later Baby Lyssa writes:
+MAIN now owns the full character scene in `src/content/people/acoryuie.md` at content commit `ae4e4b3432e3e96dfeb0f356243974c77a13bb12`.
 
-> `MAKE A CHANNEL JUST FOR MY QUOTES WHY DONTCHA`
+WIKI intentionally does **not** add another Cast card for this one bounded doorway/return profile yet. The richer MAIN page can hold the scene without turning every newly stabilized archive identity into Wiki shelf sprawl.
 
-The first useful word in the recovered prehistory is **`AGAIN`**, so March 13 cannot be sold as origin. The archive has merely arrived earlier at a scene that is already referring backward. ShiyaX's joining question does not establish exact UL or in-game admission chronology, Gilli's `here` does not establish a clean first-Discord/first-Wall timestamp, and Mugen's record language does not create a formal timer, title, or leaderboard.
+### Ricochet / Rich identity evidence strengthened
 
-The two public surfaces divide the work rather than photocopying it:
+The same Whiskey delta recovers a complete May 21, 2020 Lobby exchange where Snow addresses `rich`, stable Ricochet answers `yep`, and Snow closes `KK` with no intervening message. `Rich` is therefore safe as a peer-used alias for stable Ricochet at contextual-high / raw-complete-sequence evidence.
 
-- **MAIN** `src/content/people/baby-lyssa.md` owns the full character progression: `NOT AGAIN` → joining-question ambiguity → less-than-an-hour record joke → quotes-channel demand → later Wall property/rent mythology → the one-second/twice return.
-- **WIKI** `src/data/cast.ts` now gives Baby Lyssa / Ghoulie a compact Archive / Extended Cast dossier with the representative quotes, Wall-speedrun context, and a routed ShiyaX cross-reference. It does not duplicate MAIN's full scene analysis.
+Current MAIN already publicly owns `Ricochet` and `dragonrichard` under Rich's much richer Amaurot / Fight Club / couch chronology. This delta was recorded as corroboration rather than published again. Ambiguous bare `Rich` elsewhere still requires local attribution.
 
-Public-content commits:
-- MAIN `a8c43b234378eb1e12453fe081a98ef2ef3eafc4` — **Deepen Baby Lyssa Wall prehistory**.
-- WIKI `419d85bd597a6294106c0eca944a9d1b38eae735` — **Add Baby Lyssa Wall dossier**.
+## Living Ensemble recovery — Run08
 
-Exact-content verification succeeded before Living Ensemble recovery state advanced:
-- MAIN workflow `33207227532`: source canon/architecture verification, Astro build, built-output verification, Cloudflare Pages deployment and exact-production verification all **success**.
-- WIKI Build workflow `33207788904`: Astro build **success**.
-- WIKI Pages workflow `33207788964`: preview build, deploy and report jobs all **success**.
+Current Living checkpoint was read first, then only Run08 handoffs were inspected.
 
-### Run07 reviewed / held
+### Accepted on MAIN — Xephy had already knocked
 
-- The 2021 Lobby `QIQI` string is tied to the Yuqi/keon account inside that specific onboarding scene. The 2026 `qiqi` / `QQ` / `mango's cousin` references remain unbridged, so no cross-era identity collapse was published.
-- Hishiro now has a hard UL-presence anchor on 2020-06-08 (`ArtUria/Underlords/Member`, followed by Mugen assigning the role), but the exact ScarletMoon → UL chronology remains unresolved. The hard date was not turned into a fake transfer date.
-- Nobu's `Nobu and Gabu sound nice together.` now has its true reply parent: an old unresolved Deleted User writing `You too be nakes so it wont be mistake hehe`. The later `get a room` / Gabu `I ship` sequence remains a one-thread name-pairing/self-ship joke, not romance canon. The Deleted User remains pooled.
-- `TRAITOR`, `IMPORTANT MOMENT`, and other media-dependent rabbits remain sealed where their image contents have not actually been inspected.
+The inspected August 14 DM receipt corrects the reunion choreography:
 
-## Concurrent Wall recovery remains valid — `Tsundere: Alkey`
+- **08:35** — Mugen accepts Xephy's friend request.
+- **09:10** — Xephy writes `Mugsss it's Xephy from Underlords back in Dragon Raja days`.
+- **11:31** — Mugen answers with recognition and the six-years reaction.
+- Only afterward, around **11:36**, QOTD erupts with `DRAG ALL YALL BACK IN HERE I GOT XEPHY` and `XEPHY JUST DMED ME AFTER 6 YEARS`.
 
-The immediately concurrent Wall recovery reviewed the older 22:46 Baby Lyssa property rail as duplicate/corroboration and accepted the older 21:46 Alkey package. On April 9, 2021 Ansun/Sou files `Tsundere: Alkey`; two screenshots follow; Ren answers `The name fits him so much` and later pings Alkey / Meowk.
+That ordering means the QOTD retrieval operation did **not demonstrably cause** Xephy's return. Xephy had already initiated contact; the room immediately absorbed that spontaneous return into the larger reunion campaign.
 
-MAIN owns the fuller Alkey character scene and WIKI the compact dossier version. The screenshots remain visually uninspected, and later generic `tsundere` usage for Moon keeps `Tsundere` from being promoted into an Alkey alias, formal nickname, or proven recurring title.
+MAIN `src/content/people/xephy.md` now owns the full causal correction and character reading at content commit `7e3593c4eef0384c0de59fe375629967f3d4b703`.
 
-Public-content commits from that concurrent pass remain valid:
-- MAIN `f8e8bdec36bf19f0dfca3ac06db6b15b86d54df7` — **Add Alkey tsundere character receipt**.
-- WIKI `a0d72db9e43e3e5b55be96d9104ca03eef07266d` — **Add Alkey tsundere receipt to dossier**.
+WIKI deliberately leaves its existing compact Xephy dossier intact. The dossier already routes Xephy / WhitePhoenyx / `wagyuczili` and the 2020/2026 homecoming history; duplicating MAIN's minute-by-minute reunion choreography there would make the surfaces less complementary, not more complete.
 
-Its WIKI verification also passed:
-- Build workflow `33207892396`: **success**.
-- Pages workflow `33207892471`: **success**.
+### Run08 reviewed / bounded
+
+- Ren's `SLIDE TO THEIR DMS` line is paired with a Nobu DM screenshot where Mugen sends a prone/sliding-man reaction visual. Anthos receives a visually matching frame before `The clowns are calling for you` / `Will you heed their call` + invite.
+- Safe wording remains **visually matching / likely same source family**, not binary-identical media.
+- Mugen is SENT/POSTED BY for the visible reaction media; this does not establish MADE BY, CAPTURED BY, or the featured person's identity.
+- The retrieval operation remains mixed-mode: spontaneous Xephy, delegated Ren→Nobu, direct Mugen→Anthos. Do not flatten it into `Mugen DMed everybody`.
+- Xephy's 2026 screenshot still does not expose a numeric Discord ID; same-person identity is safe, same historical numeric account object remains unproven.
+- Hishiro / ScarletMoon ordering, the 2026 Qiqi/QQ identity bridge, exact sliding-media identity, and Pebble referents remain unresolved.
+
+## Public verification / routing
+
+MAIN content head `ae4e4b3432e3e96dfeb0f356243974c77a13bb12` passed the full public pipeline in workflow `33209029025`: source canon/architecture verification, Astro build, built-output verification, Cloudflare Pages deployment, and exact-production verification all succeeded.
+
+This pass intentionally produces **no new Wiki public-content page/card/episode**. That is a routing decision, not an omission:
+- Xephy's compact dossier already exists; the new causal choreography belongs on MAIN.
+- Acoryuie is currently better as one rich MAIN archive-person page than another thin Wiki Cast entry.
+- Ricochet/Rich is corroboration of an already-public identity/profile rather than a new Wiki object.
 
 ## Recovery state after pass
 
-- **Living Ensemble**: reviewed Run02–Run07, Run17, Runs22–26. Runs08–16 and other cumulative gaps remain unswept; `last_consumed_sha` stays **null**.
+- **Daycare**: consumed through `eb12127ec024ec5db3fb7e9787a529e729b4ab7f` after successful review.
+- **Whiskey**: consumed through `cf4f884f34ec5a086f8e26c811fe7fa49a60cfe6` after successful review and verified MAIN publication.
+- **Living Ensemble**: reviewed Run02–Run08, Run17, Runs22–26. Runs09–16 and other cumulative gaps remain unswept; `last_consumed_sha` stays **null**.
 - **Core Rooms**: cumulative recovery remains in progress at `8d9e6f40f7b0872aca3c20c6c1bd8fc45ebcec19`; `last_consumed_sha` stays **null**.
-- **Wall**: recovery includes the 23:46 Light Mode rail plus older 22:46 Baby Lyssa and 21:46 Alkey packages. More older safe-baseline material remains; `last_consumed_sha` stays **null**.
-- All 21 discrete/closed miner branches remain consumed through their current seen heads.
-- Pending/backlog/overdue discrete branches: **none**.
-
-## Immediately preceding accepted work remains valid
-
-The Living Ensemble recovery before Run07 added Oyasumi's 2023 `Lol remember doing that to ansun with unsellable items` callback to both surfaces while preserving the missing original prank mechanics, held Nobu/Gabu's five-minute self-ship as joke-only texture, and left the TRAITOR image sealed. The prior Daycare/Core pass consumed Churro / Suora's recognized entrance and placed the one-event Kahoot top-three result plus Tofu/Akariel soul-policy exchange on WIKI while keeping scene-local labels and uninspected media bounded.
+- **Wall**: cumulative recovery remains in progress at `36e85aa2025b030faf43fecd20a315b158debd4c`; `last_consumed_sha` stays **null**.
+- Pending/backlog/overdue discrete branches after this pass: **none**.
 
 ## Current cross-surface continuity locks
 
-- Main and wiki are complementary surfaces, not independent canon systems.
+- Main and Wiki are complementary surfaces, not independent canon systems.
 - User-confirmed canon and direct stable-ID bridges outrank miner-local warnings and name resemblance.
 - Discord onboarding is not silently converted into exact in-game admission chronology.
 - Export-time role arrays are not appointment chronology.
+- Generic `role assigned` is not a historical appointment receipt.
 - Joke roles are not formal governance; joke prestige is not formal ownership or scoring.
 - Joke ships and fake-family language are not literal romance/family canon.
 - Earliest surviving evidence is not automatically origin.
