@@ -1,8 +1,30 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration pass: **2026-08-27 17:37 PDT**.
+Last dual-surface integration pass: **2026-08-27 17:45 PDT**.
 
-## Current pass — external familiar boundary + Living Ensemble cleanup
+## Current pass — public language + People structure corrections
+
+### User-confirmed editorial locks
+
+- Reader-facing copy does not use `old jokes`, `bit/bits`, `gag/gags`, `running gag`, `Bit Ledger`, `This thing has history`, or `fake government` as taxonomy or narrator language.
+- Spoken dialogue uses straight double quotation marks. Backticks remain technical-only.
+- **Wonhoes** is the public name; do not write `Wonho / Wonhoes`.
+- **This Is Your House** is the public title; do not pair it with `Circus Tent`. Actual archive quotes are not rewritten merely to enforce a title preference.
+- The public service/recognition story is **The Work Came First** rather than `UL Positions Are Positions of Service` as a headline.
+- The main-site People entry is **Meet the Strippers**.
+- Current Officers and Retired Officers are separate public shelves. The wiki already represented them separately and remains the reference model for that distinction.
+
+### Canon correction
+
+- **Zoshaa coined Boiled Mayo.** Mugen's July 17, 2020 `Boiled Mayo Corp.` Staff schedule is a later surviving official use, with Gilli answering `Y U M`; it is not the invention date.
+- Exact original Zoshaa coinage date and room remain unresolved until a receipt joins them.
+
+### Surface split
+
+- Main owns the richer public cleanup: Meet the Strippers, separate Officer shelves, Repeat Offenders, The Work Came First, Wonhoes, Follow the Thread, and the corrected Boiled Mayo story.
+- Wiki receives the shared language correction where relevant. Its existing Officers / Retired Officers split is retained rather than rewritten into duplicate main-site structure.
+
+## Prior pass — external familiar boundary + Living Ensemble cleanup
 
 ### Branch / baseline
 
@@ -19,10 +41,8 @@ Last dual-surface integration pass: **2026-08-27 17:37 PDT**.
 
 ### Cross-surface publication
 
-- **Main public lore:** unchanged this pass. The main repo received the mandatory census, reviewed-frontier state, and durable run report only.
-- **Wiki public lore:** unchanged this pass. LEXI is a legitimate recurring external familiar, but this packet is still mainly a membership-boundary file; it is queued rather than getting a tiny dossier whose chief purpose would be explaining that she was socially familiar but not proven UL. Existing Xephy coverage already owns the strongest Living Ensemble homecoming chronology.
-
-LEXI's July sequence is useful precisely because nobody needs a later archivist to explain the distinction. Zoshaa says LoliParadise is stalking the server; LEXI just answers `EXPOSED`; then Zoshaa says she is not joining Underlords. She is socially close enough to be teased like an insider while the membership boundary is still explicit in the same conversation. That is a cleaner receipt than any role-array archaeology could ever be.
+- **Main public lore:** unchanged that pass. The main repo received the mandatory census, reviewed-frontier state, and durable run report only.
+- **Wiki public lore:** unchanged that pass. LEXI is a legitimate recurring external familiar, but this packet is still mainly a membership-boundary file; it is queued rather than getting a tiny dossier whose chief purpose would be explaining that she was socially familiar but not proven UL. Existing Xephy coverage already owns the strongest Living Ensemble homecoming chronology.
 
 ### Reconciliation / unresolved boundaries
 
@@ -38,11 +58,4 @@ LEXI's July sequence is useful precisely because nobody needs a later archivist 
 
 No `last_consumed_sha` advanced among the four reviewed cumulative branches because each still has an older safe-baseline gap beneath the current reviewed frontier. Their current frontiers and no-public-change reasons are durably recorded on main in `archive-intake/INTEGRATOR_BRANCH_STATE.json`. Living Ensemble moved `review_overdue → recovery_in_progress`; the overdue pile is now Core Rooms + Main HQ hourly.
 
-### Verification / publication
-
-- Main census/state/report commits trigger the repository's exact-head `UL Hourly Build + Deploy` pipeline: source canon/architecture verification, Astro build, built-output verification, and Cloudflare production deployment.
-- This wiki state commit triggers the repository's standalone Astro build and GitHub Pages deployment. Final exact-head results are checked after the commits land.
-
-## Prior state
-
-The previous GTA reciprocity + mathematical sedation integration remains preserved in Git history. Older integration decisions remain recoverable from repository history and the main-site per-pass reports.
+Older integration decisions remain recoverable from repository history and the main-site per-pass reports.
