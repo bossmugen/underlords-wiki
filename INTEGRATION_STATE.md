@@ -1,74 +1,76 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration pass: **2026-08-28 14:05 PDT**.
+Last dual-surface integration pass: **2026-08-28 14:42 PDT**.
 
 This is the rolling current integration state. Earlier pass detail remains durable in Git history and in the main-site `archive-intake/INTEGRATION_PASS_*_DUAL.md` reports.
 
-## Current pass — Moon invokes the relationship constitution
+## Current pass — Tofu meets the Wall immediately
 
 ### Branch census / queue
 
-- Main-site mandatory census enumerated **24 miner branches** before deep review and persisted every current head first.
-- Newly discovered branches: **0**.
-- Newly advanced miner heads at census: **0**.
-- Club-Only 2021–2026 and Club-Only 2020 remain consumed through unchanged current heads and were not reread.
-- Pending / backlog / overdue discrete branches: **none**.
-- Remaining cumulative recovery branches are **Living Ensemble, Core Rooms and Wall**.
-- Anti-starvation recovery rotated to **Core Rooms** at unchanged HEAD `8d9e6f40f7b0872aca3c20c6c1bd8fc45ebcec19`, advancing durable recovery into the older 07:46 handoff package.
+- Main-site mandatory opening census enumerated **24 miner branches** before deep review and persisted every then-current head first.
+- Newly discovered branches at opening census: **0**.
+- Newly advanced miner heads at opening census: **Daycare only**, `eb12127ec024ec5db3fb7e9787a529e729b4ab7f -> fa56460c845519c8e8c9496e089ed70245b03f10`.
+- Club-Only 2021–2026 and Club-Only 2020 remained consumed through unchanged heads and were not reread.
+- Anti-starvation recovery rotated to **Wall** at unchanged HEAD `36e85aa2025b030faf43fecd20a315b158debd4c`, advancing durable cumulative recovery into the older 20:46 handoff package.
+- A later concurrent census detected a new Whiskey head `e7b3192a8a6d5ba240cf00c7737864e46018ddb9` after this pass had already completed its opening census. That delta remains assigned to the concurrent/pending queue unless another integrator consumes it first; this pass does not falsify its consumed SHA.
 - No miner branch was merged or wholesale cherry-picked into either publishing branch.
 
-## Core Rooms recovery — 07:46 Moon / Dayadream package
+## Daycare delta — reviewed, duplicate publicly
 
-The Core Rooms checkpoint was read first, then only the older 07:46 intake-local findings, receipts and site-candidate handoffs were inspected.
+The Daycare checkpoint was read first, then only changed intake-local findings, receipts and site candidates were inspected.
 
-### Already owned
+The strongest delta was Oyasumi's chronology: his February 25, 2022 self-introduction includes `Boy what the hell boy`, `IGN: TankHead94`, `Club: Underlords`, while by May 2023 he is personally sending the welcome / Platelet-safety / routing packet to newcomers.
 
-Moon's September 8, 2022 Wall line `I am a moon,so i see all` was already public on MAIN with the correct boundary. It remains a self-joke, not a surveillance, moderation or intelligence appointment.
+That material was already public on MAIN from concurrent integration, including the `TankHead94` doorway and later front-door behavior, so this pass did **not** publish a duplicate version. Athena and Yami remain below the threshold for thin standalone public cards in this delta, and the cause of Kiro's duplicate re-welcome remains unresolved.
 
-### New discrete incident — Moon Cites the Contract
+Daycare is therefore successfully reviewed and consumed through `fa56460c845519c8e8c9496e089ed70245b03f10` even though this delta required no new public Daycare copy.
 
-On **September 11, 2022**:
+## Wall recovery — 20:46 Tofu package
 
-- Oyasumi posts `🍞` with attachment `1662928193282.jpg`; the binary remains visually uninspected.
-- Moon later replies directly to Oyasumi and directly mentions him: `Sushi cheated on me D:`.
-- Dayadream replies directly to Moon: `you're cheating on me with sushi?!`.
-- Moon answers: `You signed a marriage contract that we can have open relationship  uwu`.
-- Thirty seconds later Moon adds: `Your the one that came up with that decision uwu`.
+The Wall checkpoint was read first, then only the older 20:46 findings, receipts and site candidates were inspected.
 
-The useful beat is not simply fake-marriage vocabulary. Moon does not reject Dayadream's accusation; she responds by citing the alleged terms, then tosses authorship of the open clause straight back at Dayadream. Relationship litigation, apparently, is admissible when notarized by `uwu`.
+The new keeper is Tofu's first-week Wall chronology:
 
-Hard boundaries remain:
+- recovered Discord metadata gives the stable Tofu account a **June 20, 2021 server-join timestamp**;
+- five days later, **June 25**, Tofu has the earliest Wall post found in the checked surviving Tofu interval, with an attachment that remains visually uninspected;
+- on **June 28**, ShiyaX tells Tofu `you’re all over the wall`; Tofu answers `Shiya no I’m scared of the walls`; ShiyaX replies `you better`;
+- on **August 27**, a direct reply to one of Tofu's Wall posts reads `OH GOD NO`; Tofu answers `HAHAHAHAHAHA`.
 
-- This is **scene-level social fiction** supporting a joking Moon / Dayadream marriage-contract and open-relationship grammar. It does not prove literal romance, offline/legal marriage, or a Dragon Raja marriage mechanic.
-- Reply + mention structure ties `Sushi` to Oyasumi only **inside this scene**. It does not establish a global `Sushi = Oyasumi` alias.
-- Oyasumi's parent image is uninspected; no contents, maker, subject or precipitating offense are invented.
-- `Dayadream` is **not merged with Daya** by name resemblance. No reviewed stable-ID or user-confirmed bridge supports that identity collapse.
+The chronology is useful precisely because the joke lands so fast: Tofu has barely crossed the Discord threshold before the Wall is already both a room she uses and a room she is expected to fear. The archive does **not** convert the June 20 server timestamp into an in-game admission or Staff appointment date, does not promote June 25 into a proven global Wall origin, and does not invent contents for the uninspected attachment.
 
-## Public routing
+MAIN owns the richer character scene in `src/content/people/tofu.md`, content commit `ddf9430e5a09d9b745e36b2963cb040543803d4c`.
 
-MAIN owns the rich character version in `src/content/people/moon.md`, content commit `78c42f22fac4c0041369b37bb989b090c9513903`: archive-confirmed claim, anti-fanon boundaries, and the new **WHEN ACCUSED OF CHEATING, CITE THE CONTRACT** section.
+WIKI owns the compact chronology in `src/data/dossier-snapshots/tofu.md`, content commit `67fbeb76294e5a51d23b4432af877a8c4674ae59`.
 
-WIKI owns the compact discrete incident in `src/data/integrator-episodes.ts`, content commit `c8c2569d3e9ee1f17bf5fdb3c3549c97118f4bad`: **Moon Cites the Contract**, with Moon, Dayadream and Oyasumi as scene cast and the literal-romance / legal-marriage / Dragon-Raja-mechanic / global-Sushi-alias limits kept in the logline.
+## Continuity correction — Dayadream is Daya
 
-The surfaces therefore share one evidence family without photocopying the same prose.
+Reading current MAIN `CANON_LOCKS.md` exposed a continuity error in the previous Wiki integration state. Current canon explicitly maps **Daya / Dayadream** as the same person, and the existing Daya dossier already carries `Dayadream` as an alias.
+
+The prior rolling state incorrectly said `Dayadream` should not be merged with Daya, and the `Moon Cites the Contract` episode cast filed Dayadream as if she were a separate person. That was wrong.
+
+WIKI `src/data/integrator-episodes.ts` is corrected at commit `6148d84e41bba44fc5879336dfe1b003ace9c365`: the scene now routes to **Daya**, notes that she was posting under the Dayadream alias, and keeps the same anti-fanon limits around the joking marriage contract and `Sushi`/Oyasumi scene-local reference.
+
+The correction changes identity routing, not the social reading of the September 11, 2022 scene.
 
 ## Verification / deployment
 
-- MAIN content commit `78c42f22fac4c0041369b37bb989b090c9513903` passed workflow **33210946559** end-to-end: source canon/architecture verification, Astro build, built-output verification, Cloudflare deployment and exact-production verification all succeeded.
-- WIKI content commit `c8c2569d3e9ee1f17bf5fdb3c3549c97118f4bad` passed standalone Astro build workflow **33210981011**.
-- The same WIKI content commit passed Pages workflow **33210980956**, including Pages build, deploy and report.
+- MAIN content commit `ddf9430e5a09d9b745e36b2963cb040543803d4c` passed workflow **33213440517** end-to-end: source/canon verification, Astro build, built-output verification, Cloudflare deployment and exact-production verification all succeeded.
+- WIKI final content head `67fbeb76294e5a51d23b4432af877a8c4674ae59` passed standalone Astro build workflow **33213483570**.
+- The same WIKI content head passed Pages workflow **33213484048**, including Pages build, deploy and report.
 
 ## Recovery state after pass
 
-- **Daycare**: consumed through `eb12127ec024ec5db3fb7e9787a529e729b4ab7f`.
-- **Whiskey**: consumed through `cf4f884f34ec5a086f8e26c811fe7fa49a60cfe6`.
+- **Daycare**: consumed through `fa56460c845519c8e8c9496e089ed70245b03f10`.
 - **Living Ensemble**: durable reviewed coverage includes Run02–Run09, Run17 and Runs22–26. Runs10–16 and other cumulative gaps remain unswept; `last_consumed_sha` stays **null**.
-- **Core Rooms**: durable cumulative recovery now includes the 07:46 package beneath previously recorded 08:46 and 09:46 work. Older 06:46-and-below safe-baseline material remains; `last_consumed_sha` stays **null**.
-- **Wall**: cumulative recovery remains in progress at `36e85aa2025b030faf43fecd20a315b158debd4c`; `last_consumed_sha` stays **null**.
+- **Core Rooms**: durable cumulative recovery includes the 07:46 Moon/Daya (Dayadream alias) package beneath previously recorded 08:46 and 09:46 work. Older 06:46-and-below safe-baseline material remains; `last_consumed_sha` stays **null**.
+- **Wall**: durable cumulative recovery now includes 23:46 Light Mode, 22:46 Baby Lyssa property, 21:46 Alkey and 20:46 Tofu packages. Older safe-baseline material remains; `last_consumed_sha` stays **null**.
+- **Whiskey**: a post-opening-census advance to `e7b3192a8a6d5ba240cf00c7737864e46018ddb9` was detected by a concurrent census and remains pending unless consumed by that concurrent integrator.
 
 ## Current cross-surface continuity locks
 
 - Main and Wiki are complementary surfaces, not independent canon systems.
+- **Daya = Dayadream** in current canon. Do not create a separate Dayadream person from the alias.
 - User-confirmed canon and direct stable-ID bridges outrank miner-local warnings and name resemblance.
 - Discord onboarding is not silently converted into exact in-game admission chronology.
 - Export-time role arrays are not appointment chronology.
