@@ -6,7 +6,7 @@ aliases:
 roles:
   - "Platelet"
 eraStart: 2021
-summary: "Dyingfox is a permanent Platelet whose surviving voice is unusually low-bandwidth but persistent: recurring `GuraHmph` reaction language in 2021, a seven-second `fox halp` → pat exchange with Ren in 2022, and 2026 reunion lines that move from `Forever platelet` to safe-driving concern to a perfectly synchronized `No promises`."
+summary: "Dyingfox is a permanent Platelet whose surviving voice is compact but persistent: recurring `GuraHmph` reaction language, the Daycare Snack Toll, a seven-second `fox halp` → pat exchange with Ren, and 2026 reunion lines that move from `Forever platelet` to safe-driving concern to a perfectly synchronized `No promises`."
 summaryEvidence: "archive-confirmed"
 publication: "public"
 claims:
@@ -25,6 +25,20 @@ claims:
       - label: "📣 Announcements · 2021 hydration reminders"
         href: "/channels/announcements"
     note: "These are Discord reactions, not text authored by DyingFox. The reminder posts ping a role rather than Fox individually."
+  - text: "On May 21, 2021, Jordayy asked whether they could hide in Daycare and be accepted there; DyingFox answered `Did you bring snacks`, accepted `all the snacks`, and closed with `Then yes`."
+    evidence: "archive-confirmed"
+    date: "2021-05-21"
+    sources:
+      - label: "🐣 Daycare · The Snack Toll"
+        href: "/channels/daycare"
+    note: "This is a one-off social joke at the room's door, not a formal Daycare admission rule or moderation power."
+  - text: "The later Daycare food callbacks reverse the direction: on November 15, 2022 Rich says Platelet feeding is `Mainly fox`; on March 19, 2023 Queen Elsa uses `w/feed` on DyingFox and Fox answers with `W/hug`."
+    evidence: "archive-confirmed"
+    date: "2022-11-15 – 2023-03-19"
+    sources:
+      - label: "🐣 Daycare · food callbacks"
+        href: "/channels/daycare"
+    note: "This is a person-level callback chain, not a formal `Feed the Fox` program."
   - text: "On August 6, 2022, Ren wrote `fox halp`; seven seconds later DyingFox posted the server pat emote."
     evidence: "archive-confirmed"
     date: "2022-08-06"
@@ -54,6 +68,8 @@ claims:
 antiFanon:
   - "Repeated `GuraHmph` reactions to hydration reminders do not prove DyingFox literally refused to drink water or eat, and they are not medical or wellness evidence."
   - "The `@Drink Water/ Eat Food Reminder` text is a role ping. It does not prove DyingFox was the sole target, authored the reminder program, or held a formal wellness job."
+  - "The Snack Toll is a one-off Daycare joke, not a literal entrance fee, standing rule, or evidence that DyingFox technically controlled the room."
+  - "Rich's `Mainly fox` and Queen Elsa's `w/feed` callback do not establish a formal feeding institution, caregiver role, or special relationship rank."
   - "Historical exports can show DyingFox with Platelet, VIP, and `Drink Water/ Eat Food Reminder` role metadata together. Export-time role arrays do not establish appointment dates and do not override the current Mugs-confirmed Platelet filing."
   - "Ren's `fox halp` → pat exchange supports one direct care gesture; it does not establish a formal support role or explain the unresolved surrounding Wall exhibit."
   - "`I never age` / `Forever platelet` perform the permanent-Platelet joke in 2026; they do not provide literal age evidence or permission to publish historical demographic fields."
@@ -73,6 +89,7 @@ tags:
   - "reaction-language"
   - "hydration-reminders"
   - "low-bandwidth"
+  - "daycare"
   - "wall"
   - "whiskey"
   - "reunion"
@@ -90,6 +107,20 @@ The pattern gives Dyingfox a recognizable social texture without requiring a spe
 
 The later display name `DyingFox(Gilli's Pond)` belongs to that same account. It is useful as historical identity continuity and as evidence that UL's nickname machinery got to Fox too. It is not a literal claim that Gilli owns Fox, raised Fox, dates Fox, or occupies some formal relationship rank called Pond. The joke can survive without being promoted into family law.
 
+## 2021–2023 — the Snack Toll boomerangs
+
+May 21, 2021. Jordayy asks whether they can hide in Daycare and please be accepted there. Dyingfox's intake form contains one field:
+
+> **Did you bring snacks**
+
+Jordayy offers `all the snacks`. Fox says `Then yes`.
+
+That is **The Snack Toll**: one tiny Daycare border joke, not a policy document. It gives Fox something the older dossier did not have — a scene where the compactness is doing comedy rather than merely reaction language. The whole exchange works because Fox never explains the premise. Snacks are apparently sufficient documentation. Next case.
+
+Then the food changes direction. In November 2022 Rich says Platelet feeding is `Mainly fox`. In March 2023 Queen Elsa uses `w/feed @DyingFox(Gilli's Pond)` and Fox answers with `W/hug @Queen Elsa`.
+
+The useful recurrence is not a newly discovered office called Feed the Fox. It is the reversal. Fox once charged somebody snacks for entry; later food is flowing toward Fox, and the answer is a hug. Same room, same tiny vocabulary, different side of the exchange.
+
 ## 2022 — seven seconds from `fox halp` to a pat
 
 On August 6, 2022, Ren writes `fox halp` in the Wall. Seven seconds later Dyingfox answers with the server's pat emote.
@@ -100,9 +131,9 @@ The surrounding Wall exhibit is not fully reconstructed, so the page does not in
 
 ## 2023–2025 — the camera gets thinner
 
-The current person-specific evidence gets much thinner after the 2022 Wall scene. That is an archive boundary, not a personality conclusion. It does not prove Dyingfox withdrew, became less close to the group, stopped talking, changed temperament, or vanished from the wider social world. The biography leaves the middle uneven rather than padding it with generic Platelet lore or export-time role arrays.
+The current person-specific evidence gets much thinner after the 2023 Daycare food callback. That is an archive boundary, not a personality conclusion. It does not prove Dyingfox withdrew, became less close to the group, stopped talking, changed temperament, or vanished from the wider social world. The biography leaves the middle uneven rather than padding it with generic Platelet lore or export-time role arrays.
 
-That gap also keeps the low-bandwidth pattern honest. Reactions, a pat, and later short reunion lines are enough to describe a repeated feature of the surviving scenes. They are not enough to diagnose Fox as universally quiet, shy, emotionally reserved, or deadpan in every context.
+That gap also keeps the low-bandwidth pattern honest. Reactions, a snack demand, a hug, a pat, and later short reunion lines are enough to describe a repeated feature of the surviving scenes. They are not enough to diagnose Fox as universally quiet, shy, emotionally reserved, or deadpan in every context.
 
 ## 2026 — `Forever platelet`
 
@@ -116,6 +147,6 @@ Later, Mugen has to leave for a real meeting and tells the room `Don't burn the 
 
 The joke works because Fox does not explain it. Cele opens the collective defense; Fox signs underneath it. The line is obviously house-fire banter, not an arson confession, but as continuity evidence it is excellent: the old UL rhythm is still available. Dyingfox can move from practical concern back into clowning without announcing a new register.
 
-That is about as far as the evidence should be pushed. The surviving Dyingfox file is not secretly a huge personality dossier waiting to be inflated. It is a small but durable one. In 2021, Fox repeatedly answers house announcements through reaction vocabulary. In 2022, a direct call from Ren gets an immediate pat. In 2026, Fox turns permanent Platelet into self-aware house language, joins an ensemble care moment, and then reduces a reunion joke to two perfectly sufficient words.
+That is about as far as the evidence should be pushed. The surviving Dyingfox file is not secretly a huge personality dossier waiting to be inflated. It is a small but durable one. In 2021, Fox repeatedly answers house announcements through reaction vocabulary and charges Jordayy snacks for Daycare asylum. By 2023, the food has boomeranged and Fox answers being fed with a hug. In 2022, a direct call from Ren gets an immediate pat. In 2026, Fox turns permanent Platelet into self-aware house language, joins an ensemble care moment, and then reduces a reunion joke to two perfectly sufficient words.
 
-Permanent Platelet is the roster continuity. The person the archive actually earns is somebody whose social presence often arrives in miniature — an emote, a pat, a short line — and whose small signals can carry mock displeasure, affection, identity, practical concern, or comedy without requiring much verbal overhead. Five years of that timing makes Dyingfox distinct without pretending the archive has captured the rest of Fox's life.
+Permanent Platelet is the roster continuity. The person the archive actually earns is somebody whose social presence often arrives in miniature — an emote, a snack demand, a hug, a pat, a short line — and whose small signals can carry mock displeasure, affection, identity, practical concern, or comedy without requiring much verbal overhead. Five years of that timing makes Dyingfox distinct without pretending the archive has captured the rest of Fox's life.
