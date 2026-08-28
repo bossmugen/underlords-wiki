@@ -10,9 +10,18 @@ publication: "public"
 claims:
   - text: "Current canon places Tofu on the Staff shelf; recovered Wall account `j_kirizami` appears as `Tofu🐝`. Historical VIP metadata does not override the living roster."
     evidence: "canon-lock"
+  - text: "The recovered Discord record gives Tofu a June 20, 2021 server-join timestamp. Five days later, on June 25, Tofu has the earliest Wall post found in the checked surviving Tofu interval; its attachment remains visually uninspected."
+    evidence: "archive-confirmed"
+    date: "2021-06-20 → 2021-06-25"
+  - text: "On June 28, 2021, ShiyaX tells Tofu `you’re all over the wall`; Tofu answers `Shiya no I’m scared of the walls`, and ShiyaX replies `you better`."
+    evidence: "archive-confirmed"
+    date: "2021-06-28"
   - text: "On June 25, 2021, Tofu writes `Wall of shame, wall of shame. Post the rebate 😝`; when a pooled Deleted User says `Tryna expose everyone :0`, Tofu answers `Maybe ^^`."
     evidence: "archive-confirmed"
     date: "2021-06-25"
+  - text: "On August 27, 2021, a direct reply to a Tofu Wall post reads `OH GOD NO`; Tofu answers `HAHAHAHAHAHA`. The underlying post is not visually interpreted."
+    evidence: "archive-confirmed"
+    date: "2021-08-27"
   - text: "On September 16, 2021, ShiyaX asks `theres a limit ?`; Tofu true-replies `At least pace yourself`. The underlying image/activity is unresolved."
     evidence: "archive-confirmed"
     date: "2021-09-16"
@@ -32,6 +41,8 @@ claims:
     evidence: "archive-confirmed"
     date: "2024-08-28"
 antiFanon:
+  - "The June 20 server-join timestamp is not an in-game UL admission date, Staff appointment date, or role chronology."
+  - "The June 25 image-only post is earliest only inside the checked surviving Tofu interval, not a proven global/original first Wall appearance; its attachment remains uninspected."
   - "Repeated screenshot behavior does not create a formal Wall Curator, Archivist, prosecutor, or moderation title."
   - "The September/December 2021 practical-limit scenes do not make Tofu a safety officer, clinician, harm-reduction specialist, or universal voice of caution."
   - "The uninspected images behind the practical-limit scenes remain unresolved; do not identify the object, action, intention, or outcome."
@@ -57,9 +68,13 @@ tags:
 
 Tofu is current **Staff**. The bee is optional. The evidence bag is apparently not.
 
-The first clean Wall receipt is June 25, 2021. Somebody mentions spending part of a rebate. Tofu immediately chants **`Wall of shame, wall of shame. Post the rebate 😝`**. Seven minutes later a pooled Deleted User observes **`Tryna expose everyone :0`**. Tofu answers: **`Maybe ^^`**.
+The recovered Discord record gives Tofu a server-join timestamp of June 20, 2021. Five days later she has the earliest Wall post found in the checked surviving Tofu interval. The attachment stays sealed; the date is chronology, not a license to hallucinate the image or promote a Discord join timestamp into an in-game admission date.
 
-That is already a more useful character verb than `likes screenshots`. Tofu is treating the Wall like a public utility. If an incident exists, documentation would be appreciated.
+Three days after that, ShiyaX tells her **`you’re all over the wall`**. Tofu answers **`Shiya no I’m scared of the walls`**. ShiyaX: **`you better`**. It is a remarkably efficient first-week orientation: Tofu is already using the Wall and already understands that the Wall can turn around and use her.
+
+The same June 25 date supplies a cleaner verbal receipt. Somebody mentions spending part of a rebate. Tofu immediately chants **`Wall of shame, wall of shame. Post the rebate 😝`**. Seven minutes later a pooled Deleted User observes **`Tryna expose everyone :0`**. Tofu answers: **`Maybe ^^`**.
+
+By August 27, a direct reply to one of Tofu's Wall posts is simply **`OH GOD NO`**. Tofu answers **`HAHAHAHAHAHA`**. The underlying post remains uninterpreted. The social beat does not: before the later bee-spam prosecution makes reciprocal exposure explicit, the room is already greeting Tofu's Wall contributions like incoming weather.
 
 The important complication arrives September 20, when the evidence system turns around. A screenshot appears. Tofu reacts **`PUTTING ME ON BLAST!`**. Thirty-seven seconds later: **`I'll fucking do it again too.`** The attachment itself was not visually inspected, so the wiki does not narrate what the exhibit shows. It does not need to. Tofu's two lines contain the entire contradiction: object to becoming evidence, then announce future recidivism.
 
