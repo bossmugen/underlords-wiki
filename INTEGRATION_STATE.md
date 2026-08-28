@@ -1,98 +1,100 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration pass: **2026-08-28 10:01 PDT**.
+Last dual-surface integration pass: **2026-08-28 10:37 PDT**.
 
 This is the rolling current integration state. Earlier pass detail remains durable in Git history and in the main-site `archive-intake/INTEGRATION_PASS_*_DUAL.md` reports.
 
-## Current pass — Key discovers risk management after the tires; Ren keeps the breaststroke receipt for four years
+## Current pass — Bishop gets a map, immediately admits maps are not the issue
 
 ### Branch census / queue
 
 - Main-site mandatory census enumerated **24 miner branches** before deep review and persisted every current `last_seen_sha` on `master` first.
-- No newly discovered miner branch and no consumed branch had advanced beyond its recorded frontier this pass.
-- Club-Only 2021–2026 and Club-Only 2020 were already consumed through unchanged heads and were not reread.
-- Anti-starvation rotated into the older **Living Ensemble** cumulative recovery at unchanged HEAD `66c3227c687965a4dae9b372fdcbe2dc128611ba`.
+- Two consumed branches had advanced: Daycare and Whiskey.
+- Club-Only 2021–2026 and Club-Only 2020 remain consumed through unchanged heads and were not reread.
+- Anti-starvation rotated into the older **Core Rooms** cumulative recovery at unchanged HEAD `8d9e6f40f7b0872aca3c20c6c1bd8fc45ebcec19`.
 - No miner branch was merged or cherry-picked into either publishing branch.
 - After review: **0 pending_review, 0 backlog, 0 review_overdue**.
 - Remaining cumulative safe-baseline recovery branches: **Living Ensemble, Core Rooms, Wall**.
 
-## Reviewed recovery
+## Reviewed deltas
 
-### Living Ensemble — older candidate / Run 02 recovery slice
+### Daycare — `024c55e...` → `76e138295...`
 
-`checkpoint.md` was read first. Previous durable state had already reconciled the later Run 17→26 overlay chain, so this pass deliberately moved backward into the older cumulative safe-baseline handoff without re-mining raw archives. The reviewed slice was the aggregate pre-Run17 `site-candidates.md` plus the A/B-grade Run 02 receipt packet.
+Checkpoint first, then only changed intake-local handoffs.
 
-Two evidence families cleared the public bar, with different owners on the two surfaces.
+Kiro/Gum/HicUUOOOOGH stable-ID continuity, Mugen's `gummy bear` return language, and the 2023 `Who's kiro` Wall scene were already owned more strongly by current canon/public Kiro material, so they were treated as duplicate/corroboration rather than republished. `Rip Kiro` remains held until its screenshot is visually inspected; Gabby/Jessi remains thin because the direct Daycare bodies are unavailable.
 
-#### MAIN — Key + Woohyuk, the vehicular risk-management plan
+Successful no-public-change review. Daycare is consumed through `76e138295ed560a00a5572eb8c4b01e2d69aacfc`.
 
-A 2026 Wall archaeology batch preserves a 2021 Dragon Raja exchange where Key asks Woohyuk to literally `step on me`. Woohyuk upgrades the equipment to running Key over; Key requests reverse; Woohyuk proposes skidding; Key reaches `do donuts on my dicc`, corrects to `i mean pp`, and only then discovers governance with `...dont tell mugs`. Woohyuk answers `I think mugs is gonna find out...`; Key: `shhhh`.
+### Whiskey — `e323af44...` → `a36a259d...`
 
-Main now owns the full person-scale scene because it materially improves Key's biography and makes his later decision to return to the Wall and audit his own case file much funnier. The archive keeps the limits intact: Wolf dates the old screenshots only to 2021; original exact day/channel and original CAPTURED BY remain unresolved; Mugen is POSTED BY for the surviving 2026 Wall archaeology batch. The joke is not converted into romance, sexual history, real-world violence, or a closeness ranking.
+Checkpoint first, then only the new Whiskey handoffs.
 
-#### WIKI — The Breaststroke Relic
+Akariel/Zyrcant's `was in amaurot` / `my ign is still Zyrcant` doorway mostly corroborates an already-strong public profile. The useful new person packet is BishopThaGuru: Mugen verifies the visible 18+ threshold, assigns a role, hands over the server map, and 2m14.720s later the next surfaced media-bearing Bishop line is `I get lost easily`. The chronology is kept as chronology, not forged into a Discord reply.
 
-The wiki now carries a Running Gag / artifact genealogy for one LadyMugen spelling casualty that refused to die:
+The miner-local Meowk=Alkey hesitation does not override the stronger stable-account/canon reconciliation already governing the public surfaces.
 
-- May 10, 2022: Ren posts the visible crop `hope everyone has eaten their breaststroke` to the Wall.
-- Rich: `The shame war has begun🤣`.
-- Rummy quotes it back as `breastroke`.
-- August 12, 2026: Ren posts the same visible crop again.
+Whiskey is consumed through `a36a259d86b933231ae100e686774857bc4c9f01` after both public surfaces passed verification.
 
-The point is not generic `UL cannot spell`; it is **artifact persistence**. Ren kept one specific receipt long enough to re-file it four years later. Ren is POSTED BY for both surviving Wall appearances; the original Dragon Raja message date and original CAPTURED BY remain unresolved.
+### Core Rooms — older 09:46 Bishop/Tofu recovery slice
 
-### Reviewed / deduped / held
+Core's older cumulative floor remains incomplete, so `last_consumed_sha` stays null.
 
-- Woohyuk's `are we doing throwback shames` and Key's 2022 Wall self-audit are already public under stronger current owners, so they were treated as corroboration rather than republished.
-- Old Man Snow's fake-50th → MySpace → memory-loss → Mesozoic middle mutation remains a strong public candidate but is held for deliberate Culture/Snow placement rather than being jammed into an unrelated page.
-- MariaMoon<3's 2021 Underlords intake → 2026 forgetting-the-game before/after remains held because the canonical public display name is unresolved and she must not be merged with Moon.
-- Tae's `tae` search-crash scene remains held. Neither Mugs nor Tae's crash is assigned a cause.
+This reviewed package supplies the relationship half of Bishop's file:
+- Tofu says Bishop will never stop being funny.
+- Bishop asks who she has been talking to and whether she is with the feds.
+- Mugen says `The file in my office says so`.
+- Bishop: `W-which file?`
+- Bishop later says `Too bad you don't love me no more.`
+- Tofu: `Still love you. I love everyone…unfortunately.`
+- next day Bishop asks whether ending up on the Wall is a compliment or a warning.
+- Tofu: `Both`.
+- day three Tofu re-files Bishop's Lobby `Ye?` as Wall evidence.
 
-Living Ensemble remains `last_consumed_sha: null` / `recovery_in_progress` because the older cumulative safe-baseline floor is not fully closed. This reviewed slice is durable recovery progress; it is not permission to jump over the rest.
+The archive supports familiar reciprocal teasing and recurring Wall liability. It does not support romance, real criminal/federal history, literal age confusion, or a known offense behind the uninspected June 27 images.
 
 ## Surface split / verification
 
 ### Main site
 
-Public lore changed:
+Main added `src/content/people/bishopthaguru.md` as the full biography owner.
 
-- `src/content/people/key.md` — added the 2021 Key/Woohyuk escalation, provenance boundaries, Woohyuk cross-link, and the callback into Key's later Wall self-audit.
+The person story is the important part there: Mugen gives Bishop a server map and the next surfaced beat is `I get lost easily`; mock paranoia turns into a typographical stammer when Mugen invents an office file; Tofu's `unfortunately` allows affection while keeping the joke alive; `compliment or warning?` gets `Both`; and Lobby punctuation becomes Wall material inside forty-eight hours.
 
-Public-content commit: `af94df444563ec6aa2bc0b35ce04bff0db0bd08d`.
+Public-content commit: `428a2fedc40b44088bcb8c713264b070392f1618`.
 
-Exact public-content workflow **33193075657** completed successfully, covering source canon/architecture verification, Astro build, built-output verification, Cloudflare deployment, and exact production commit verification.
-
-Key's scene is intentionally **main-first**: it is character texture and lived chronology, not a reason to duplicate the same story into the wiki.
+Exact public-content workflow **33195936113** completed successfully, including source canon/architecture verification, Astro build, built-output verification, Cloudflare deployment, and exact production commit verification.
 
 ### Wiki
 
-Public lore changed:
+Wiki updated `src/pages/relationships.astro` with **BishopThaGuru ↔ Tofu · Compliment or Warning?** rather than cloning the full biography.
 
-- `src/data/integrator-gags.ts` — added **The Breaststroke Relic** as a four-year Running Gag / artifact genealogy with explicit provenance limits.
-
-Public-content commit: `b0e6d1769d283b47c23bbfb5bd040981df064ac5`.
+Public-content commit: `cd78cab6c073f0d4aec58cec65f8dc88afeb2ffe`.
 
 Verification on that exact public-content HEAD:
-- standalone **Build Underlords Wiki** workflow **33193098240**: success;
-- Pages workflow **33193098267**: build, deploy, and report all success.
+- standalone **Build Underlords Wiki** workflow **33195961816**: success;
+- Pages workflow **33195961839**: build, deploy, and report all success.
 
-The breaststroke genealogy is intentionally **wiki-first** because its strongest current job is searchable gag/artifact continuity rather than another copy on main while the Living recovery still has a dedicated Culture-placement candidate to reconcile.
+The wiki owns the compact relational pattern; main owns the whole character movie.
 
 ## Consumption state
 
-- No `last_consumed_sha` advanced this pass: no already-consumed branch had a new delta, and Living Ensemble's cumulative recovery floor is not complete.
-- Living Ensemble remains `last_consumed_sha: null` / `recovery_in_progress`, with this older candidate/Run02 slice now durably marked reviewed.
-- Core Rooms remains `last_consumed_sha: null` / `recovery_in_progress`.
+- Daycare → `76e138295ed560a00a5572eb8c4b01e2d69aacfc`.
+- Whiskey → `a36a259d86b933231ae100e686774857bc4c9f01`.
+- Core Rooms remains `last_consumed_sha: null` / `recovery_in_progress` because its older safe-baseline floor is incomplete despite this reviewed slice.
+- Living Ensemble remains `last_consumed_sha: null` / `recovery_in_progress`.
 - Wall remains `last_consumed_sha: null` / `recovery_in_progress`.
 - Pending/backlog/overdue: **none**.
 
 ## Current unresolved / held
 
-- Key/Woohyuk original 2021 exact timestamp, room, and original CAPTURED BY.
-- Original LadyMugen `breaststroke` message date and CAPTURED BY.
-- MariaMoon<3 canonical public display name; do not merge with Moon.
-- Tae search-crash cause.
-- Final owner/placement for Old Man Snow's missing-middle genealogy.
+- Bishop exact IGN, club, recruiter, assigned-role label, and first-ever arrival chronology.
+- Bishop's missing Whiskey interlocutor.
+- `HeyJuu` is scene-local only; do not promote it into a Bishop alias.
+- June 27 Bishop/Tofu image pair and underlying Wall offense.
+- `Rip Kiro` screenshot meaning and visual provenance.
+- Gabby/Jessi direct Daycare bodies.
+- Zyrcant's optional Mac-app line and exact Amaurot transition chronology.
 - Older cumulative Living Ensemble, Core Rooms, and Wall recovery floors.
 
 ## Current cross-surface continuity locks
