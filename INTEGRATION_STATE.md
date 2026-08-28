@@ -1,20 +1,20 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration pass: **2026-08-28 14:42 PDT**.
+Last dual-surface integration pass: **2026-08-28 14:44 PDT**.
 
 This is the rolling current integration state. Earlier pass detail remains durable in Git history and in the main-site `archive-intake/INTEGRATION_PASS_*_DUAL.md` reports.
 
-## Current pass — Tofu meets the Wall immediately
+## Current pass — Tofu meets the Wall; Whiskey queue closes behind her
 
 ### Branch census / queue
 
-- Main-site mandatory opening census enumerated **24 miner branches** before deep review and persisted every then-current head first.
-- Newly discovered branches at opening census: **0**.
-- Newly advanced miner heads at opening census: **Daycare only**, `eb12127ec024ec5db3fb7e9787a529e729b4ab7f -> fa56460c845519c8e8c9496e089ed70245b03f10`.
+- Main-site mandatory opening census enumerated **24 miner branches** before deep review and persisted every current head first.
+- Newly discovered branches: **0**.
+- Advanced/unconsumed branches encountered across the overlapping 14:30/14:35 integration window were **Daycare** `eb12127ec024ec5db3fb7e9787a529e729b4ab7f -> fa56460c845519c8e8c9496e089ed70245b03f10` and **Whiskey** `cf4f884f34ec5a086f8e26c811fe7fa49a60cfe6 -> e7b3192a8a6d5ba240cf00c7737864e46018ddb9`.
 - Club-Only 2021–2026 and Club-Only 2020 remained consumed through unchanged heads and were not reread.
 - Anti-starvation recovery rotated to **Wall** at unchanged HEAD `36e85aa2025b030faf43fecd20a315b158debd4c`, advancing durable cumulative recovery into the older 20:46 handoff package.
-- A later concurrent census detected a new Whiskey head `e7b3192a8a6d5ba240cf00c7737864e46018ddb9` after this pass had already completed its opening census. That delta remains assigned to the concurrent/pending queue unless another integrator consumes it first; this pass does not falsify its consumed SHA.
-- No miner branch was merged or wholesale cherry-picked into either publishing branch.
+- The publishing branches were re-read around concurrent edits. No miner branch was merged or wholesale cherry-picked into either publishing branch.
+- After the Whiskey review completed, there are **0 pending / 0 backlog / 0 review-overdue discrete miner branches**.
 
 ## Daycare delta — reviewed, duplicate publicly
 
@@ -22,9 +22,21 @@ The Daycare checkpoint was read first, then only changed intake-local findings, 
 
 The strongest delta was Oyasumi's chronology: his February 25, 2022 self-introduction includes `Boy what the hell boy`, `IGN: TankHead94`, `Club: Underlords`, while by May 2023 he is personally sending the welcome / Platelet-safety / routing packet to newcomers.
 
-That material was already public on MAIN from concurrent integration, including the `TankHead94` doorway and later front-door behavior, so this pass did **not** publish a duplicate version. Athena and Yami remain below the threshold for thin standalone public cards in this delta, and the cause of Kiro's duplicate re-welcome remains unresolved.
+That material was already public on MAIN and WIKI from concurrent integration, including the `TankHead94` doorway and later front-door behavior, so the pass did **not** publish a duplicate version. Athena and Yami remain below the threshold for thin standalone public cards in this delta, and the cause of Kiro's duplicate re-welcome remains unresolved.
 
-Daycare is therefore successfully reviewed and consumed through `fa56460c845519c8e8c9496e089ed70245b03f10` even though this delta required no new public Daycare copy.
+Daycare is successfully reviewed and consumed through `fa56460c845519c8e8c9496e089ed70245b03f10` even though this delta required no new public Daycare copy.
+
+## Whiskey delta — Ricochet is already where he belongs
+
+The Whiskey checkpoint was read first, then only the changed 14:01 intake-local handoffs were reviewed.
+
+The new handoff deepens stable account `459696170759880745 / dragonrichard / Ricochet` with ordinary-life material: a family puppy plan, a tank-game comparison to Dragon Raja, `Way to freaking cold for south texas`, an explicitly hypothetical `if i ever get married` reaction, a Family Feud roast clip, and Panda / Marian's `@Ricochet got me my Cheesecake Factory ... (but no cheesecake)` favor receipt.
+
+Novelty check found that WIKI's existing `src/data/dossier-snapshots/ricochet.md` already owns this evidence family with the right boundaries. MAIN does not need a duplicate thin Ricochet biography just to mirror the wiki.
+
+The nearby April 9 ACORYUIE birthday cluster remains unresolved: the available media-preview layer does not technically name ACORYUIE / Cinders / Juniper as Eos's birthday target. Adjacency remains insufficient for a birthday date.
+
+Whiskey is therefore successfully reviewed with no additional public copy and consumed through `e7b3192a8a6d5ba240cf00c7737864e46018ddb9`.
 
 ## Wall recovery — 20:46 Tofu package
 
@@ -55,17 +67,18 @@ The correction changes identity routing, not the social reading of the September
 
 ## Verification / deployment
 
-- MAIN content commit `ddf9430e5a09d9b745e36b2963cb040543803d4c` passed workflow **33213440517** end-to-end: source/canon verification, Astro build, built-output verification, Cloudflare deployment and exact-production verification all succeeded.
-- WIKI final content head `67fbeb76294e5a51d23b4432af877a8c4674ae59` passed standalone Astro build workflow **33213483570**.
+- MAIN public-content commit `ddf9430e5a09d9b745e36b2963cb040543803d4c` passed workflow **33213440517** end-to-end: source/canon verification, Astro build, built-output verification, Cloudflare deployment and exact-production verification all succeeded.
+- WIKI public-content head `67fbeb76294e5a51d23b4432af877a8c4674ae59` passed standalone Astro build workflow **33213483570**.
 - The same WIKI content head passed Pages workflow **33213484048**, including Pages build, deploy and report.
+- The Whiskey delta required no new public-content commit because its strongest material was already owned by the existing Ricochet dossier; its consumed frontier is recorded in MAIN's branch ledger instead of generating duplicate prose.
 
 ## Recovery state after pass
 
 - **Daycare**: consumed through `fa56460c845519c8e8c9496e089ed70245b03f10`.
+- **Whiskey**: consumed through `e7b3192a8a6d5ba240cf00c7737864e46018ddb9`.
 - **Living Ensemble**: durable reviewed coverage includes Run02–Run09, Run17 and Runs22–26. Runs10–16 and other cumulative gaps remain unswept; `last_consumed_sha` stays **null**.
 - **Core Rooms**: durable cumulative recovery includes the 07:46 Moon/Daya (Dayadream alias) package beneath previously recorded 08:46 and 09:46 work. Older 06:46-and-below safe-baseline material remains; `last_consumed_sha` stays **null**.
 - **Wall**: durable cumulative recovery now includes 23:46 Light Mode, 22:46 Baby Lyssa property, 21:46 Alkey and 20:46 Tofu packages. Older safe-baseline material remains; `last_consumed_sha` stays **null**.
-- **Whiskey**: a post-opening-census advance to `e7b3192a8a6d5ba240cf00c7737864e46018ddb9` was detected by a concurrent census and remains pending unless consumed by that concurrent integrator.
 
 ## Current cross-surface continuity locks
 
