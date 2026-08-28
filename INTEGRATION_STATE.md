@@ -1,8 +1,49 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration pass: **2026-08-27 19:35 PDT**.
+Last dual-surface integration pass: **2026-08-27 20:35 PDT**.
 
-## Current pass — Ansun festival food + recovery-baseline closure
+## Current pass — Yaza + Whiskey recovery-baseline closure
+
+### Branch / baseline
+
+- Main-site mandatory census confirmed **23 miner branches** before deep review and persisted every current `last_seen_sha` at census commit `92230f0b42068220adf2da38397a498f8a117356`.
+- Every branch head matched the prior `last_seen_sha`; no miner branch was newly advanced this cycle. Club-Only 2021–2026 and Club-Only 2020 were already consumed through their unchanged current heads, so they were not pointlessly reread.
+- No branch is `pending_review`, `backlog`, or `review_overdue`. Active cumulative safe-baseline work remains on Living Ensemble, Backroom Deals, Core Rooms, both Main HQ 0745 aliases, Photo Submissions, QOTD/Officers, and Wall.
+- Miner handoffs were read directly from isolated branches. No miner branch was merged or cherry-picked into either public repository.
+- `archive-miner/whiskey-longitudinal-hourly` was selected for recovery closure and reviewed through HEAD `d9f7be5fc99179e25ac59724f25ad15808931ba5` using its checkpoint first, then cumulative site candidates, open questions, and latest 16:35 person/site deltas. Raw archives were not re-mined.
+
+### Reconciliation accepted
+
+- **Yaza** now has a defensible character spine rather than an unexplained Whiskey name. On November 27, 2020 Yaza asks the Lobby's actually sensible privacy question, `Do I have to say my age ?`; Gilli explicitly says above-18 status is enough, then routes Yaza and Olenka to the Discord Tour.
+- H1 Whiskey then supplies the person around the doorway: recurring good-morning messages, offers to listen/help, `Go do your homework!!. You can do it!!`, singing, and the Jan. 6 `UL Chronicles` brainstorm where Gilli tells Yaza `You are UL member` / `You have a chapter`.
+- The public read stays character-first: Yaza repeatedly checks whether people are functioning or included, but none of that becomes a fake wellness/teacher/care title.
+- `UL Chronicles` is archive-confirmed as a Jan. 6 ensemble-story brainstorm (`we all main characters in this hoe`; `Every book is from a member pov`). A targeted callback search stayed negative, so it is not being inflated into a produced anime/book or recurring official project.
+- **The Platelet Rebellion** remains a strong archive-named March 24, 2021 one-off incident showing collective Platelet identity. The exact-term callback search is negative; it remains one incident, not a recurring rebellion tradition.
+- **Nui** is safely inside the Tumbleweed creator chain because Mugen directly says `I updated the tumbleweed u made`. Nui made the antecedent version; Mugen updated/posted the surviving June version. The first-ever Tumbleweed origin remains unresolved.
+- LEXI and Baby Lyssa/Ghoulie retain useful Whiskey character material without forcing thin/duplicate public filings this pass.
+- Whiskey's older `Meowk = Alkey unresolved` checkpoint wording is superseded by the later Core Rooms same-account reconciliation already reflected publicly.
+- 2021 H2 Whiskey remains provenance-locked without its transcript/central directory. Anonymous recovered media was not assigned to people/scenes from filename vibes.
+
+### Publication / surface split
+
+- **Main public lore:** created `src/content/people/yaza.md`. Public lore commit `53b7dd41a1e96f9e8208fc64267ff570597380d3` passed source canon/architecture verification, Astro build, built-output verification, and exact Cloudflare production deployment in workflow run `33139593180`.
+- **Wiki public lore:** unchanged. Main currently owns the richer Yaza biography; a wiki cast/episode filing is intentionally deferred until it adds retrieval value beyond copying the same profile into another box.
+- No formal role, recruiter, exact admission date, exact age, or appointment chronology was invented.
+
+### Consumption
+
+Newly reviewed/consumed through current HEAD:
+
+- `archive-miner/whiskey-longitudinal-hourly` → `d9f7be5fc99179e25ac59724f25ad15808931ba5`
+
+Already consumed and unchanged this run:
+
+- `archive-miner/club-only-2021-2026-hourly` → `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`
+- `archive-miner-clubonly-2020-hourly` → `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`
+
+Whiskey remains incomplete as a corpus despite being reviewed through its current handoff: opening-media `z01` and the 2021 H2 transcript/central directory are still missing. Consumed means the available branch handoff through this SHA was reviewed, not that missing archive pieces were magically recovered.
+
+## Prior pass — Ansun festival food + recovery-baseline closure
 
 ### Branch / baseline
 
