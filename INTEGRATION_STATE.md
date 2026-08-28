@@ -1,20 +1,54 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration pass: **2026-08-27 18:35 PDT**.
+Last dual-surface integration pass: **2026-08-27 19:35 PDT**.
 
-## Current pass — stable-ID reconciliation + Core Rooms anti-starvation
+## Current pass — Ansun festival food + recovery-baseline closure
+
+### Branch / baseline
+
+- Main-site mandatory census confirmed **23 miner branches** before deep review and persisted every current `last_seen_sha` at census commit `d63f009602cb234378b09560200d06fb4c938ff7`.
+- Miner handoffs were read directly from isolated miner branches. No miner branch was merged or cherry-picked into either public repository.
+- Reviewed this pass: `archive-miner/club-only-2021-2026-hourly` @ `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`; `archive-miner-clubonly-2020-hourly` @ `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`; and anti-starvation `archive-miner/main-hq-hourly` @ `9d9fce27c32a943e290db899f6b1c7cc342337d8`.
+- The three longstanding `last_consumed_sha: null` safe-baseline holes above are now closed using their authoritative cumulative checkpoints/current-lock summaries and site-candidate handoffs. **No branch remains explicitly `review_overdue`.** Unresolved rabbit holes remain unresolved; consumed means reviewed, not solved.
+
+### Reconciliation accepted
+
+- Main HQ adds a small but useful Ansun character scene from September 6, 2020. Ansun posts a food image and says `since its fall now, im craving festival food`; Mugen responds `Bbqqqq` 0.519 seconds later.
+- Attribution remains narrow: the image is POSTED BY Ansun. The evidence does not establish who cooked, made, photographed, owned, or appears in the image.
+- Kiro's name-chaos rail and Feli's `O and P is CLOSE` material are already represented more richly on main; Moon's recovered movement chronology is corroborative rather than a new public story.
+- Anthos's `town crier` demotion to `only crying` remains a one-scene roast, not a formal role. `Rummification` remains image-dependent and undefined publicly.
+- Club-Only 2021–2026 Run 043 promoted no new A/B. Fish Revolution, AUUUUU, Dean dreams, Tummy, Han fame/shame and related candidates are already public or previously integrated; Nitro creator/exact-first-noun, Shiya fake-family genealogy, Snow/Big Bang and Alabama expansion remain held.
+- Club-Only 2020's Danny Daily-Pack Dungeon Scheme remains a viable future character candidate but still falls below the main site's rich-profile threshold. Carlene/Aether and B-chan remain thin; Feli↔Mugs Tumbleweed remains unresolved after expanded pin/image search.
+
+### Publication / surface split
+
+- **Main public lore:** `src/content/people/ansun.md` changed. Public lore commit `2b17078f8af0ad68d8afd2360f4b0d01df13b47f` passed source canon/architecture verification, Astro build, built-output verification, and exact Cloudflare production deployment in workflow run `33136666048`.
+- **Wiki public lore:** unchanged. The wiki already owns Ansun's broad command/operations biography. Duplicating one autumn food craving here would add trivia Xerox rather than improve character retrieval.
+- No formal title, appointment chronology, membership boundary, media-maker credit, or first-join date changed.
+
+### Consumption
+
+The following branches are now reviewed/consumed through their current heads:
+
+- `archive-miner/club-only-2021-2026-hourly` → `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`
+- `archive-miner-clubonly-2020-hourly` → `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`
+- `archive-miner/main-hq-hourly` → `9d9fce27c32a943e290db899f6b1c7cc342337d8`
+
+Active cumulative recovery remains on Living Ensemble, Backroom Deals, Core Rooms, both Main HQ 0745 aliases, Whiskey, Photo Submissions, QOTD/Officers, and Wall. Those retain `last_consumed_sha: null` until their own safe-baseline reviews are closed.
+
+## Prior pass — stable-ID reconciliation + Core Rooms anti-starvation
 
 ### Branch / baseline
 
 - Main-site mandatory census confirmed **23 miner branches** before deep review and persisted every current `last_seen_sha` at census commit `42530ef009343f324b201cd1f65c36216b4aa517`.
 - Miner handoffs were read directly from isolated miner branches. No miner branch was merged or cherry-picked into either public repository.
 - Reviewed this pass: `archive-miner/club-only-2021-2026-hourly` @ `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`; `archive-miner-clubonly-2020-hourly` @ `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`; and anti-starvation `archive-miner/core-rooms-events-a91f-20260824` @ `8d9e6f40f7b0872aca3c20c6c1bd8fc45ebcec19` through its current 2026-08-26 15:46 package.
-- Core Rooms moved `review_overdue → recovery_in_progress`. **Main HQ hourly is now the only branch explicitly marked `review_overdue`.**
+- Core Rooms moved `review_overdue → recovery_in_progress`. Main HQ hourly was then the only branch explicitly marked `review_overdue`.
 
 ### Reconciliation accepted
 
 - Core Rooms provides a direct stable-account bridge for **Alkey / `itsalkey` / `Meowk 💖✨`**: Discord account `264889543365230614` is rendered as `Meowk 💖✨` in the 2021 Lobby source and as Alkey with the same numeric account/username elsewhere.
-- This **supersedes the prior separate-Meowk hold**. The evidence is not a similar-name guess; it is the same stable Discord account.
+- This supersedes the prior separate-Meowk hold. The evidence is not a similar-name guess; it is the same stable Discord account.
 - Exact display-name-change timing and nickname origin remain unresolved. The Jan. 31 Lobby event remains administrative/server chronology, not a manufactured first in-game admission date.
 - Main was already correct: its Alkey character file already carried `itsalkey` + `Meowk 💖✨` and the February 3 chicken-emote → Mugen popcorn → `I aim to please` bow scene.
 - Wiki had drifted into a contradictory standalone `Meowk` Archive / Extended Cast file. That duplicate character was removed; the Alkey cast overlay now carries `itsalkey` and `Meowk 💖✨` and preserves the compact hockey/chicken-theater character texture.
@@ -32,10 +66,6 @@ Last dual-surface integration pass: **2026-08-27 18:35 PDT**.
 - **Main public lore:** unchanged. Main already owned the correct Alkey/Meowk reconciliation; only census/recovery state and the durable dual-pass report changed.
 - **Wiki public lore:** `src/data/cast.ts` changed. Public correction merge commit `ffa53f1e5e3f51720bb5c38eb5498eb08feafe56` passed the standalone Astro build and the complete GitHub Pages build/deploy/report workflow.
 - No public role, appointment chronology, or first-join date changed.
-
-### Consumption
-
-No `last_consumed_sha` advanced for Club-Only 2021–2026, Club-Only 2020, or Core Rooms because each still has an older cumulative safe-baseline hole below the current reviewed frontier. Their reviewed frontiers and no-public-change/accepted-reconciliation reasons are durably recorded on main in `archive-intake/INTEGRATOR_BRANCH_STATE.json`.
 
 ## Prior pass — public language + People structure corrections
 
@@ -58,39 +88,5 @@ No `last_consumed_sha` advanced for Club-Only 2021–2026, Club-Only 2020, or Co
 
 - Main owns the richer public cleanup: Meet the Strippers, separate Officer shelves, Repeat Offenders, The Work Came First, Wonhoes, Follow the Thread, and the corrected Boiled Mayo story.
 - Wiki receives the shared language correction where relevant. Its existing Officers / Retired Officers split is retained rather than rewritten into duplicate main-site structure.
-
-## Prior pass — external familiar boundary + Living Ensemble cleanup
-
-### Branch / baseline
-
-- Main-site mandatory census discovered/confirmed **23 miner branches** before deep review and persisted every current `last_seen_sha` at census commit `11003d8244ae0d22163920df644ed7bae10a75e7`.
-- After anti-starvation rotated through Living Ensemble, only **two** cumulative branches remain explicitly `review_overdue`: Core Rooms and Main HQ hourly. Living Ensemble moved back into active recovery.
-- Miner handoffs were read directly from isolated miner branches. No miner branch was merged or cherry-picked into either public repository.
-
-### Reviewed evidence
-
-- `archive-miner/club-only-2021-2026-hourly` @ `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`: mandatory checkpoint-first recovery continued. Fish Revolution, AUUUUU, Dean dreams, Tummy, fame/shame, and related families are already public. Nitro creator/exact-first-noun, Shiya fake-family genealogy, Snow/Big Bang, and Alabama expansion remain unresolved. Older safe-baseline recovery remains incomplete.
-- `archive-miner-clubonly-2020-hourly` @ `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`: mandatory recovery continued. Tae/Mugen math-sedative material and Snow's Pervert-role hierarchy accident are already public/deduped; Danny, Carlene/Aether, B-chan, and Feli↔Mugs remain developing.
-- `archive-miner/whiskey-longitudinal-hourly`: advanced frontier `0d7d624add201f435d29f494be0f11c1300697a0 → d9f7be5fc99179e25ac59724f25ad15808931ba5` was reviewed checkpoint-first. LEXI repeatedly self-files as LoliParadise / S8, is already familiar to Gilli/Snow/Zoshaa/Hansongs, and in July 2020 answers Zoshaa's server-stalking accusation with `EXPOSED` immediately before Zoshaa says `I'm not letting her join Underlords`.
-- `archive-miner/aug-2026-living-ensemble-hourly` @ `66c3227c687965a4dae9b372fdcbe2dc128611ba`: anti-starvation recovery advanced through the Run 17→24 checkpoint overlays. Xephy's repeated-homecoming chronology is already public. DyingFox/Seth/SaraBunny/Persephone/Akuma historical rails, Syv's Ochem scene, and Mia↔Momo's `twinsss` language were reviewed as developing/additive material rather than automatically multiplied into new pages.
-
-### Cross-surface publication
-
-- **Main public lore:** unchanged that pass. The main repo received the mandatory census, reviewed-frontier state, and durable run report only.
-- **Wiki public lore:** unchanged that pass. LEXI is a legitimate recurring external familiar, but this packet is still mainly a membership-boundary file; it is queued rather than getting a tiny dossier whose chief purpose would be explaining that she was socially familiar but not proven UL. Existing Xephy coverage already owns the strongest Living Ensemble homecoming chronology.
-
-### Reconciliation / unresolved boundaries
-
-- The prior `Meowk = Alkey` rejection in this older section is superseded by the current pass's stable-ID reconciliation above.
-- `ALEX/GHOSTADE` remains LEXI's historical self-intro wording, not a durable public alias without more recurrence.
-- Snow's `STRIPPER FAIRY` for LEXI is joke language, not a formal role.
-- Mugen's later `all done!` to LEXI is unnamed access/admin completion, not proof of UL membership.
-- Lobby arrivals remain Discord/server chronology, not automatic first in-game admission dates.
-- Xephy's current public file already covers the 2020 rejoin → 2026 return spine, so Living Ensemble did not generate another copy.
-- Nitro creator/exact first noun, Shiya fake-family genealogy, Snow/Big Bang, Alabama ancestry, Feli↔Mugs Tumbleweed, Sye/Nelph exact Officer promotion chronology, 2026 Qiqi stable bridge, Pebble stable ID, Gilli IMPORTANT MOMENT media, and Snow's naked-bush original media/source remain held.
-
-### Consumption
-
-No `last_consumed_sha` advanced among the four reviewed cumulative branches because each still has an older safe-baseline gap beneath the current reviewed frontier. Their current frontiers and no-public-change reasons are durably recorded on main in `archive-intake/INTEGRATOR_BRANCH_STATE.json`. Living Ensemble moved `review_overdue → recovery_in_progress`; the overdue pile is now Core Rooms + Main HQ hourly.
 
 Older integration decisions remain recoverable from repository history and the main-site per-pass reports.
