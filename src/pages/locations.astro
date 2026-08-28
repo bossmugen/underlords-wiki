@@ -1,12 +1,11 @@
 ---
 import WikiLayout from "../layouts/WikiLayout.astro";
 import { locations } from "../data/wiki";
-
-const locationNotes: Record<string, string> = {
-  daycare: "By 2021, current club label clearly was not the whole social point of the room. Nori arrived explicitly calling Underlords his club, Damon introduced himself as Purgatory's leader, and AJ cheerfully admitted he was in `a random club lol`; all three still turned up in Daycare almost immediately after Lobby routing. That makes the room look less like a roster checkpoint and more like the couch people ended up on. It does not prove universal access or any specific Discord-permission rule."
-};
 ---
 <WikiLayout title="Domains | Underlords Wiki" description="The rooms, territories, recurring locations, and named spaces of Underlords.">
   <section class="hero"><div><div class="kicker">DOMAINS · ROOMS · TERRITORIES</div><h1>Domains</h1><p class="tagline">The place names are part of the mythology: HQ, the Wall, the Casino, the Panic Room, the Headache Room, the couch, the garden, and several locations created because one recurring behavior apparently deserved zoning.</p></div></section>
-  <section class="section"><div class="index-list">{locations.map((location)=><article class="index-card" id={location.id}><small>{location.type}</small><h3>{location.name}</h3><p>{location.logline}</p>{locationNotes[location.id] && <p>{locationNotes[location.id]}</p>}</article>)}</div></section>
+  <section class="section"><div class="index-list">
+    {locations.map((location)=><article class="index-card" id={location.id}><small>{location.type}</small><h3>{location.name}</h3><p>{location.logline}</p></article>)}
+    <article class="index-card" id="daycare"><small>Younger-cast social room</small><h3>UL Daycare</h3><p>A comfort/play room whose surviving 2021–2022 use shows that social presence did not map neatly onto current in-game club labels.</p><p>By 2021, current club label clearly was not the whole social point of the room. Nori arrived explicitly calling Underlords his club, Damon introduced himself as Purgatory's leader, and AJ cheerfully admitted he was in <code>a random club lol</code>; all three still turned up in Daycare almost immediately after Lobby routing. The room reads less like a roster checkpoint than the couch people kept ending up on. This does not prove universal access or any specific Discord-permission rule.</p></article>
+  </div></section>
 </WikiLayout>
