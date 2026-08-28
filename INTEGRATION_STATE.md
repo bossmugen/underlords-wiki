@@ -1,117 +1,89 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration pass: **2026-08-28 01:48 PDT**.
+Last dual-surface integration pass: **2026-08-28 02:36 PDT**.
 
 This is the rolling current integration state. Earlier pass detail remains durable in Git history and in the main-site `archive-intake/INTEGRATION_PASS_*_DUAL.md` reports.
 
-## Current pass — Daycare walks in + Panda/Eos gets verbs + Illien turns an empty club into a lifeboat
+## Current pass — DyingFox charges snacks, then the food comes back
 
 ### Branch census / queue
 
-- Main-site mandatory census enumerated **24 miner branches** before deep review.
-- One newly discovered branch, `archive-miner/daycare-2020-2026-hourly`, was immediately registered at HEAD `65ea31df34bfcb24c0c02147d581d372ca084bb4` with null consumed state before its recovery review.
-- `archive-miner/backroom-deals-2026-08-24` had advanced to HEAD `541eb4eac818abf09e52eb396c99e83b11e4d893`; its prior durable recovery frontier was `d12a8aece2339a38ae60fab54979f8156bb787e8`.
-- Census state was persisted on main before deep review at `745d1abd5f762e952049d6bd7a863950fe85cb3a`.
-- Club-Only 2021–2026 (`d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`) and Club-Only 2020 (`99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`) were already consumed through unchanged current heads and were not reread.
-- No miner branch was merged or cherry-picked into either public repository.
-- After review there are **zero `pending_review`, backlog, or `review_overdue` branches**.
-- The remaining cumulative safe-baseline recoveries are Living Ensemble, Backroom Deals, Core Rooms, and Wall.
+- Main-site mandatory census enumerated **24 miner branches** before deep review and persisted every current `last_seen_sha` on `master` at census commit `eeabd66cc192742b46f866035070b4b0040f5e0b`.
+- Three branches required review this run: Daycare advanced from consumed `65ea31df34bfcb24c0c02147d581d372ca084bb4` to `f24e968f63d33545296edafb4703d7cd52187916`; Whiskey advanced from consumed `ff8df14f0f54dbe86044bc5b1425e45992a28511` to `8c62134d0ef537eaac698230da86f2f031d5ac4f`; Backroom Deals advanced from its prior reviewed frontier `541eb4eac818abf09e52eb396c99e83b11e4d893` to `fbfe10f7dc70a0b215aaa64984925dfba630bc59` while its older safe-baseline recovery remains open.
+- Club-Only 2021–2026 and Club-Only 2020 were already consumed through unchanged current heads and were not reread.
+- No miner branch was merged or cherry-picked into either publishing branch.
+- After review there are **zero `pending_review`, backlog, or `review_overdue` branches**. Remaining cumulative `recovery_in_progress` branches are Living Ensemble, Backroom Deals, Core Rooms, and Wall.
 
 ## Reviewed branches
 
-### Daycare — new-branch one-time recovery through HEAD
+### Daycare — `65ea31df… → f24e968f…`
 
-`archive-miner/daycare-2020-2026-hourly` was reviewed checkpoint-first through `65ea31df34bfcb24c0c02147d581d372ca084bb4`, using only its branch-local `archive-intake/daycare-2020-2026-longitudinal-20260819-2311-pdt/` handoffs: checkpoint, cumulative findings/site candidates, receipts, people notes, identity notes, open questions, and referenced indexes. Raw archives were not re-mined.
+Checkpoint first, then only the changed branch-local `archive-intake/daycare-2020-2026-longitudinal-20260819-2311-pdt/` handoffs.
 
-The miner may keep advancing after this SHA. `consumed` means this handoff frontier was actually reviewed, not that Daycare can never produce another finding.
+Accepted public material: DyingFox's food chronology. On May 21, 2021 Jordayy asks whether they can hide in Daycare and be accepted; DyingFox's only intake question is `Did you bring snacks`, and after `all the snacks` answers `Then yes`. Later, Rich says Platelet feeding is `Mainly fox`; in March 2023 Queen Elsa uses `w/feed` on DyingFox and Fox answers with `W/hug`.
 
-### Whiskey — advanced delta reviewed and deduped
+The recurrence is person texture, not policy. The Snack Toll is not a literal entrance fee or technical moderation power, and the later feeding lines do not create a formal caregiver role or `Feed the Fox` institution.
 
-`archive-miner/whiskey-longitudinal-hourly` was reviewed from consumed `a12ef05f72c6bc0d723b2127556668f5995ab8f4` to HEAD `ff8df14f0f54dbe86044bc5b1425e45992a28511`, checkpoint first and only inside changed intake handoffs.
+Held from the same delta:
+- Zhēnxī's first-surviving-night / **Six-Minute Shaming** angle. `shamed within 6 minutes of entry` is archive-confirmed participant wording, but `entry` is not upgraded into a formal UL admission timestamp. Ren's `Or aesh still holds it?` proves a remembered predecessor benchmark, not a literal leaderboard or a resolved `aesh` identity.
+- Baby Lyssa's Wall → `#🐣│ul-daycare` routing burst (`PLEASE`, `PLEASEEEEE`, `IM PEEING`, `I CANT BREATHE`) is good room-use/character evidence but not channel-creator proof.
+- Actual Daycare creator/configuration remains unresolved.
 
-Its strongest new handoff was Panda's grounding / `Eternally Grounded Panda` / Cheesecake Factory `(but no cheesecake)` material. That material was already present on current main before this pass, so this was a successful duplicate/no-public-change review. The weaker June Marian↔Eos rail is also superseded by the fuller Daycare chronology accepted below.
+### Whiskey — `ff8df14f… → 8c62134d…`
 
-### Backroom Deals — anti-starvation recovery frontier advanced
+Checkpoint first, then only the changed Whiskey intake handoffs.
 
-`archive-miner/backroom-deals-2026-08-24` was reviewed across the new intake-only recovery frontier `d12a8aece2339a38ae60fab54979f8156bb787e8` → `541eb4eac818abf09e52eb396c99e83b11e4d893`, checkpoint first.
+Lena now has a developing ordinary-life spine: Anthos tours her into the all-access Whiskey room, followed by nails, a Tinder `fuck boy pose` roast, `How the hell do respond to this`, and an apartment listing whose badly Photoshopped cat apparently had to be reported to the group chat. The Feb. 16 scene is a tour handoff, not admission proof; most attachments remain visually uninspected. This is held rather than inflated into an under-located dossier.
 
-The older cumulative safe baseline is still not completely walked, so its `last_consumed_sha` remains null. The reviewed frontier is durable; the branch is not being allowed to starve just because older material remains underneath it.
+Whiskey's Meowk/Alkey convergence is corroboration only. Current public canon already has the stronger Core Rooms stable-ID bridge, so no second identity event was manufactured. Jas's targeted `real home` check added no new external anchor. H2 person attribution remains blocked by the existing source boundary.
 
-## Reconciliation accepted
+### Backroom Deals — `541eb4ea… → fbfe10f7…`
 
-### Panda / Marian Kage is one person; the miner split is rejected
+Checkpoint first. The miner explicitly reports that the 02:01 pass cleared **no new A/B publication**. Joyonto/Kross/Moonrealm/media lanes remain source- or authorization-blocked in the miner runtime. Earlier accepted WarlordZ material is already public on main.
 
-Daycare attempted to treat `Panda` / `Panda-san` on stable account `356954091198480404` as a nickname for Marian Kage while warning not to merge that account with Staff Panda/PanPan.
-
-That warning conflicts with stronger current canon: Mugs-confirmed identity and existing cross-room stable-account evidence already establish **Marian Kage = Panda / PanPan**. The integrator therefore keeps one canonical Panda entity and treats the Daycare warning as a miner-local continuity error, not new canon.
-
-### Panda ↔ Eos — the relationship finally has chronology
-
-Daycare gives a much better person-level arc than a static `related people` tag:
-
-- Oct. 31, 2021 — Panda: `like how much i love eos`.
-- Jan. 19, 2022 — Panda does not want to continue a shared game without Eos.
-- Jan. 21 — Panda starts talking Paris, `we movin there`, and paired dolls bought for Eos and himself.
-- Feb. 11 — Panda says they have known each other almost three years; Eos immediately corrects him with `3? or u mean 2`, so no exact origin date is manufactured.
-- Mar. 7 — Panda uses UL marriage language: `because you're married to me`.
-- Mar. 15 — Eos answers Panda with `you stole my heart a long time ago`; Panda dedicates a song and says he wants to sing it for Eos one day.
-
-This is reciprocal affectionate / romantic-style UL social language. It stays exactly that: not a real-world marriage certificate, exclusivity claim, sexual-orientation inference, or other sensitive biography.
-
-Main owns the full scene in Panda's character page. Wiki adds a compact **Panda ↔ Eos · You Stole My Heart** relationship card and deepens Panda's dossier snapshot instead of duplicating the whole main essay.
-
-### Illien — WarlordZ becomes a tiny lifeboat
-
-Backroom Deals supplies a clean June 13, 2020 character beat. Mugen explains that Illien had an old empty club, `WarlordZ`, and offered it to solo Joyonto so Joyonto could collect club benefits / EXP. Illien checked with Mugen first and made Joyonto a **WarlordZ deputy** so he could receive diamonds. Ren's immediate read was `Illien is so selfless`.
-
-The useful fact is the action, not a new office: WarlordZ deputy is an external/game-club benefit mechanism, **not** an Underlords appointment. Joyonto's exact UL status at that moment remains unresolved.
-
-This is richer biography texture than a reference-index need, so it was intentionally published **main-only** on Illien's Character page.
+The older cumulative safe baseline is still incomplete, so Backroom Deals remains `last_consumed_sha: null`; this newer frontier is durably reviewed without pretending the older gap is gone.
 
 ## Surface split / verification
 
 ### Main site
 
 Public lore changed:
+- `src/content/people/dyingfox.md` — added **The Snack Toll** and the later food-boomerang chronology while preserving the one-off / non-institution boundaries.
 
-- `src/content/people/panda.md` — full Panda↔Eos Daycare chronology, reciprocal-language boundary, and explicit rejection of the bad Marian/Panda split.
-- `src/content/people/illien.md` — WarlordZ/Joyonto lifeboat scene and strict external-club role boundary.
+Public-content commit: `480367d083b3002455e196c1e0e81291b556152f`.
 
-Public content head: `4900b7de2066f1c9424f4d3ca5380910841ba2b5`.
-
-Main workflow run `33156597366` passed the complete production gate on that exact public-content head: source canon/architecture verification, Astro build, built-output verification, Cloudflare deployment, and exact-commit production verification.
+Main workflow run `33160588396` completed **successfully** on that exact public-content commit, covering the repository's existing source canon/architecture verification, Astro build, built-output verification, and Cloudflare production deployment.
 
 ### Wiki
 
 Public lore changed:
+- `src/data/dossier-snapshots/dyingfox.md` — added the same evidence family as a compact dossier chronology rather than copying the main-site essay.
 
-- `src/pages/relationships.astro` — **Panda ↔ Eos · You Stole My Heart** relationship index card.
-- `src/data/dossier-snapshots/panda.md` — fuller Daycare chronology plus the same identity/sensitive-biography boundaries.
+Public-content commit: `e12942c40250e3cf2c7a32c083ff637da701f124`.
 
-Public wiki content head: `e869911ff87d11545d64377e633b8cfba15cb243`.
-
-Verification on that exact public-content head:
-
-- standalone Astro build run `33156694914` — **success**;
-- GitHub Pages build/deploy/report run `33156694916` — **success**.
+Verification on that exact wiki public-content commit:
+- `Build Underlords Wiki` run `33160670781` — **success**;
+- `Deploy Underlords Wiki Preview` / Pages run `33160670772` — **success**.
 
 ## Consumption advanced
 
-- `archive-miner/daycare-2020-2026-hourly` → `65ea31df34bfcb24c0c02147d581d372ca084bb4`
-- `archive-miner/whiskey-longitudinal-hourly` → `ff8df14f0f54dbe86044bc5b1425e45992a28511`
-- `archive-miner/backroom-deals-2026-08-24` remains `last_consumed_sha: null` because its older cumulative safe-baseline recovery is still incomplete; the new d12a8ae→541eb4 frontier is nevertheless durably reviewed.
+- `archive-miner/daycare-2020-2026-hourly` → `f24e968f63d33545296edafb4703d7cd52187916`
+- `archive-miner/whiskey-longitudinal-hourly` → `8c62134d0ef537eaac698230da86f2f031d5ac4f`
+- `archive-miner/backroom-deals-2026-08-24` remains null because its older cumulative baseline is incomplete; the `541eb4ea… → fbfe10f7…` no-public-change frontier is nevertheless reviewed and recorded.
 
 ## Reviewed but held / deduped
 
-- Daycare: Tae's Aug. 27, 2021 `pull a Jas` gives Absent Father Jas an earlier name-as-verb mutation; Rich's Sept. 16 typed `absent father` improves the corpus genealogy; exact origin remains open. The Snack Toll, Queen Elsa, Grimlee, Halkenburg, YuKanada and other thin-person rails remain below current public-depth thresholds. `Mr. Streamer (Gabu's Chair)` remains an unresolved stable account and is not merged by adjacency.
-- Backroom: Suzi + Key's April 2020 server-birth Bouncer scene, the corrected Nov. 30 `Riot Without a Prisoner`, Gilli's hidden karaoke-room infrastructure, Little Bird, Kross and related rails are preserved for later placement / recovery rather than dumped publicly all at once. Sensitive workplace / health / private-target material stays backstage.
-- Whiskey: Panda's grounding/Cheesecake Factory material is duplicate of current main; H2 media attribution limits remain.
-- Wider standing rabbits remain open for Nitro creator/exact first noun, ShiyaX fake-family genealogy, Snow/Big Bang, Alabama/Tumbleweed expansion, Feli↔Mugs Tumbleweed, Daycare channel creator/permission mechanics, earliest exact Platelet assignment, and unresolved media maker/captor/featured joins.
+- Zhēnxī: Six-Minute Shaming is strong but still better held for a fuller Wall/history or person owner; the predecessor `aesh` case remains unresolved.
+- Baby Lyssa: routing Daycare from the Wall is good character texture, not enough reason to append another scene merely because it exists.
+- Lena: developing Whiskey profile, but status/placement and uninspected media make a new public dossier premature.
+- Meowk = Alkey: Whiskey corroborates the already stronger stable-ID bridge; no duplicate public identity claim.
+- Backroom Deals: Suzi + Key's server-birth Bouncer function, corrected Riot Without a Prisoner, Gilli's singing-room purpose, Little Bird, Kross, and related rails remain preserved for deliberate later placement while the older recovery continues.
+- Standing rabbits remain open for Nitro creator/exact first noun, ShiyaX fake-family genealogy, Snow/Big Bang, Alabama/Tumbleweed expansion, Feli↔Mugs Tumbleweed, Daycare creator/config, and unresolved media maker/captor/featured joins.
 
 ## Current cross-surface continuity locks
 
 - Main and wiki are complementary surfaces, not independent canon systems.
-- Mugs-confirmed canon and direct stable-ID bridges outrank miner-local warnings and name resemblance.
+- User-confirmed canon and direct stable-ID bridges outrank miner-local warnings and name resemblance.
 - Export-time role arrays are not appointment chronology.
 - Joke roles are not formal governance; fake-family / UL marriage language is not silently converted into literal legal or sensitive real-world biography.
 - Earliest surviving evidence is not automatically origin.
