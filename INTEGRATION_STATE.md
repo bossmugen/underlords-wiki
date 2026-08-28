@@ -1,56 +1,55 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration pass: **2026-08-28 16:27 PDT**.
+Last dual-surface integration pass: **2026-08-28 16:46 PDT**.
 
-This is the rolling current integration state. Full pass detail is durable in Git history and MAIN `archive-intake/INTEGRATION_PASS_2026-08-28_1627_DUAL.md`.
+This is the rolling current integration state. Full pass detail is durable in Git history and MAIN `archive-intake/INTEGRATION_PASS_2026-08-28_1646_DUAL.md`.
 
-## Current pass — Mafia wins Ansun's display name; Tony reaches screenshot jail before orientation cools
+## Current pass — Gilli acquires summoning magic; Hishiro answers the spell
 
 ### Branch census / queue
 
-- Mandatory census: **24 miner branches**.
-- Opening census had no new or advanced discrete head.
-- Mid-run, Daycare advanced `0bb1cf1b30f954c66427dc412657d662f2de20cd -> 13abfc003a816fe2cab9636a98fd9294aa5f1b06`; MAIN immediately recorded the new `last_seen_sha` as pending before checkpoint-first review.
-- Daycare is now fully reviewed and consumed through `13abfc003a816fe2cab9636a98fd9294aa5f1b06`.
-- Club-Only 2020 and Club-Only 2021–2026 remain consumed through current heads and were not reread.
-- Anti-starvation recovery continued on Core Rooms HEAD `8d9e6f40f7b0872aca3c20c6c1bd8fc45ebcec19`. Cumulative packages 04:46–09:46 are now reviewed; 03:46-and-below remains, so Core's consumed SHA stays null.
-- Final census found the same **24 heads**; no new post-review advance appeared.
-- Final discrete queue: **0 pending / 0 backlog / 0 review-overdue**. Cumulative recovery remains open for Living Ensemble, Core Rooms, and Wall.
+- Mandatory census: **24 miner branches**, persisted on MAIN before deep review.
+- No new miner appeared and no fully consumed discrete miner advanced at opening census.
+- Club-Only 2020 and Club-Only 2021–2026 remain consumed through their unchanged current heads.
+- Anti-starvation recovery rotated to Core Rooms HEAD `8d9e6f40f7b0872aca3c20c6c1bd8fc45ebcec19`.
+- Newly reviewed Core safe-baseline packages: **03:46, 02:46, 01:46, and the preceding 23:46 package**. Older 22:46-and-below material remains, so Core's consumed SHA correctly stays null.
+- Discrete queue remains **0 pending / 0 backlog / 0 review-overdue**. Cumulative recovery remains open for Living Ensemble, Core Rooms, and Wall.
 
-## Reconciled public findings
+## Reconciled public finding
 
-**Ansun / Godfather.** On 2020-07-28 Ansun said `if i become godfather one more time in mafia im changing my name to godfather`; Ren answered `please`. By 2020-09-30 a direct command targeting Ansun's account produced bot output naming the target **Godfather**. Safe conclusion: historical display-name payoff. The exact triggering Mafia round and exact rename timestamp remain missing. `Godfather` is not a formal UL rank, governance title, or permanent canonical username.
+**Hishiro ↔ Gilli — Summon Me Again.** On August 19, 2020, Gilli called Hishiro's name. Hishiro answered `yes? you called my name?`, then converted the ordinary ping into a tiny fantasy mechanic: `cool Gilli can summon people`, followed by a magic-summoning GIF, `summon me again if my service are needed again`, and `always at your service`.
 
-**TonyTonyChopper.** On 2022-02-10 Tony explicitly reported current club `None!`, naming Virtuoso only as the last club. Mugen completed Discord role assignment; **3m12.940s later** Marian posted Tony to Wall with `sorry, not sorry` + uninspected `3.PNG`. Tony answered `STOPPPP` and `WR DONT NEED TO SHARE THIS WITH THE WORLD`; Ansun/Sou said `not even a day yet and already wall shamed`; Gabu called it `speeed run!!`. Tony's assigned Daycare ledger begins two days later. The timer is Discord-role-assignment→Wall, not in-game admission→Wall; Marian is POSTED BY for the attachment and its contents/maker/capturer/subjects remain unresolved.
+MAIN now owns the full lived character scene in `src/content/people/hishiro.md`, including the undercurrent that the actual task is gone but the availability survives: call her, she answers. The same MAIN expansion finally gives Hishiro's September 3 `my students` / video-material / lower-stress line prose weight instead of leaving it as a claim bullet. No teaching job title, school, subject, formal Staff duty, special Gilli hierarchy, or closeness ranking is invented.
 
-MAIN owns both rich public treatments this pass: `src/content/people/ansun.md` and `src/content/people/tonytonychopper.md`. WIKI intentionally received **no new fandom-content object**: neither finding needed duplicate prose, and Tony can wait for a distinct structured dossier/episode job rather than becoming a mirror of MAIN.
+WIKI owns the complementary retrieval object: `src/pages/relationships.astro` now has a **Hishiro ↔ Gilli · Summon Me Again** Bonds card. It indexes the relationship language without photocopying MAIN's biography prose.
 
-## Duplicate / held evidence
+## Duplicate / already-owned evidence
 
-- Anthos family/Tumbleweed/Anthos Day taxonomy: already public.
-- Illien Argentine marketplace pricing/value divergence: already public with the no-account-sale inference boundary.
-- Rummy/Panda `Rumfection`: already public.
-- Aeshleen record-speed Wall language: already public; no duplicate.
-- Ghoulie/Panda fake `house of shame`, imaginary subchannel, and Mugen's 2021 no-screenshot-needed line: useful Wall expansion, held from duplicate publication this pass.
-- March 24 `<1 hour` Wall entrant remains unidentified.
-- Aeshleen `unknown.png`, Tony `3.PNG`, and Jumanji's recovered screenshot filename all remain visually uninspected/unavailable.
-- Ghoulie `eats people` / `CANNIBALISM??` / `seal` remains media-blocked and unresolved.
+- Mia/Miaka/Opalite ↔ Momo `twinsss` / `Mimi's twin` / `you are both Mimi & Momo` is already public on MAIN Mia and Momo and already indexed on WIKI Bonds. Current canon already resolves Mimi / Miaka / Opalite Honey / ༯ under Mia; no miner-local narrower alias caution overrides that lock.
+- Gilli ↔ Gabu's December 2022 → April 2023 `shorter` / `shortest` war is already public on MAIN Gilli, including the later `Gabu's Non-existent inches` profile payoff.
+- Cookie/Kuki's spectator→casualty beat (`kuki saw too much today` → `NO` → `F for kuki`) is already public on MAIN Cookie.
+
+## Held / unresolved
+
+- Nothien's April 6 healer/collateral strip is genuinely new and strong: `Only heal, I won't jump` → collateral damage → `lemme heal uuu` → `I died as collateral QAQ` → `Suzi sir stop running lemme heal uuuu`; Snow says `dats suzi`; Nhou says `thats what she likes`; Nothien answers `:0`. Held for a later dedicated Nothien expansion rather than cramming a second unrelated character arc into this pass. The Suzi characterization remains scene-local peer joking, not a global preference theorem.
+- Nothien's `NO ONE CHECK WHISKY ROOM FOR TWO MINUTES PLEASE` remains source-blocked without the matching Whiskey window. No motive is inferred.
+- Hishiro's nearby `unknown.png`, the Mia/Momo twin attachments, Namo's unresolved `try again` parent, and Kuki's exact precipitating spectacle remain unresolved.
+- Hishiro Tumbleweed labels `onee-sama` / `granddaughter` remain accumulated-map state with unresolved insertion dates; they are not dated to September 29 or converted into literal kinship.
 
 ## Verification / deployment
 
 ### MAIN
 
-- Ansun public commit: `5c646a9c704fddc3000f2217fcf790d3e097ba4f`.
-- Tony/content commit: `9ad9e0685446cbeb5ba7292d88b3573b56f12fe0`.
-- MAIN content workflow `33220325923`: **success** — source canon/architecture verify, Astro build, built-output verify, exact Cloudflare deploy/production verification all passed.
-- MAIN durable pass-report head `eac25d5276a20a91e0c570d9c0b283602811ceca`: workflow `33220501742` **success** — Build + verify and exact Cloudflare deployment both passed.
+- Public-content commit: `1cbecd5c7baba51b5129588fbf2e9dbb31689ab1`.
+- Workflow `33221205071` **success**: source canon/architecture verification PASS; Astro build PASS; built-output verification PASS; exact validated commit deployment/production verification on Cloudflare PASS.
+- Core recovery state commit: `a4566df8c59b9cdcf76d5e4571b7d6514852e315`.
+- Durable dual-pass report: MAIN `archive-intake/INTEGRATION_PASS_2026-08-28_1646_DUAL.md`.
 
 ### WIKI
 
-- No fandom-content file changed by design; `INTEGRATION_STATE.md` carries the shared reconciliation.
-- State commit `3d0b8e5f1ef28fbb45d8d85e94d5f81cdf95f1d6`:
-  - standalone Astro workflow `33220532014`: **success**;
-  - Pages workflow `33220531961`: **success** — build, deploy, and report all passed.
+- Public-content commit: `af1a6fa45893b89d2d9aa2528d7e5575584c6d56`.
+- Standalone Astro workflow `33221216329`: **success**.
+- Pages workflow `33221216315`: **success** — build, deploy, and report all passed.
 
 ## Recovery / consumption state
 
@@ -59,16 +58,14 @@ MAIN owns both rich public treatments this pass: `src/content/people/ansun.md` a
 - Club-Only 2020: consumed through current head.
 - Club-Only 2021–2026: consumed through current head.
 - Living Ensemble: recovery open; consumed SHA null.
-- Core Rooms: recovery open through cumulative 04:46–09:46; consumed SHA null because 03:46-and-below remains.
+- Core Rooms: recovery now includes package 23:46 plus 01:46–09:46; consumed SHA null because older 22:46-and-below remains.
 - Wall: recovery open; consumed SHA null.
+- No `last_consumed_sha` advanced this pass because no already-consumed branch had a new delta and Core's cumulative safe-baseline floor is not finished.
 
 ## Current cross-surface continuity locks
 
 - MAIN and WIKI are complementary public surfaces, not independent canon systems.
-- Daya = Dayadream. Baby Lyssa = Ghoulie. Meowk = Alkey by current resolved canon.
 - User-confirmed canon and direct stable-ID bridges outrank name resemblance and miner-local uncertainty.
-- Discord onboarding/role assignment is not exact in-game admission chronology. Tony's current-club `None!` remains `None!`.
-- `Godfather` is an Ansun display-name payoff to a Mafia joke, not governance.
 - Export-time roles are not appointment chronology; joke roles/property/ships/family language are not formal authority or literal relationships.
 - Earliest surviving is not automatically origin.
 - `SAID BY`, `POSTED BY`, `MADE BY`, `CAPTURED BY`, and `FEATURING` remain distinct.
