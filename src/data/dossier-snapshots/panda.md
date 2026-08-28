@@ -40,6 +40,12 @@ claims:
       - label: "👅 Wall · 2021-10-05"
         href: "/archive/wall"
     note: "`panda caretaker` is peer joke language, not a formal role, guardianship claim, or evidence that Eos controls Panda."
+  - text: "Daycare preserves a longer Panda↔Eos relationship rail from October 2021 through March 2022: Panda says how much he loves Eos, does not want to continue a shared game without Eos, uses UL marriage language, and later dedicates a song; Eos answers the March flirt with `you stole my heart a long time ago` and blush/hug reactions."
+    evidence: "archive-confirmed"
+    date: "2021-10-31 – 2022-03-15"
+    sources:
+      - label: "🐣 UL Daycare · 2021-10-31 – 2022-03-15"
+    note: "This is reciprocal affectionate / romantic-style UL social language. It does not establish a real-world legal marriage, exclusivity, sexual orientation, or any other sensitive real-world biography. Panda's rough claim that they had known each other for almost three years is immediately corrected by Eos to `3? or u mean 2`, so it is not used as an exact relationship-origin date."
   - text: "On May 31, 2022, MEE6 again welcomed the same Marian Kage account; eighteen seconds later Panda wrote `rabid daddy panda`. Anayss directly replied `Wb rabid panda`."
     evidence: "archive-confirmed"
     date: "2022-05-31"
@@ -61,8 +67,8 @@ claims:
 antiFanon:
   - "Panda is not listed in the current locked living roster in `roster.ts`. Historical Staff canon does not silently restore current Staff status."
   - "The archive contains unrelated panda imagery and panda jokes. Do not resolve every occurrence of the word `panda` to this person; use the stable Marian Kage account or directed mention context."
-  - "`Marian Kage` → Panda is directly archive-grounded by the May 20, 2021 Lobby scene. The historical intake word `council` is not being converted into an UL title or appointment."
-  - "The Eos/Panda Wall material supports a recurring reciprocal joke relationship. It does not establish romance, abuse, exclusivity, or a closeness ranking."
+  - "`Marian Kage` → Panda is directly archive-grounded by the May 20, 2021 Lobby scene and Mugs-confirmed canon. Do not split Marian Kage into a second Panda/PanPan person. The historical intake word `council` is not being converted into an UL title or appointment."
+  - "The Eos/Panda material supports a recurring reciprocal relationship with affectionate and romantic-style house language. It does not establish a real-world legal marriage, exclusivity, sexual orientation, abuse, or a closeness ranking."
   - "`im gonna strangle you`, `punish a panda`, and similar Wall language remain house banter unless an independent source establishes literal conduct."
   - "`panda caretaker` is not an appointment. Eos is not being assigned guardianship, authority, or responsibility for Panda."
   - "Repeated MEE6 welcome cards do not establish that Panda left, rejoined, lost membership, or was newly recruited each time."
@@ -77,6 +83,7 @@ tags:
   - "marian-kage"
   - "panda-identity"
   - "wall"
+  - "daycare"
   - "eos"
   - "self-description"
   - "return-recognition"
@@ -84,6 +91,20 @@ tags:
   - "2022"
   - "2023"
 ---
+
+## YOU STOLE MY HEART. APPARENTLY THIS IS A DAYCARE RECEIPT.
+
+Daycare catches the Panda–Eos situation doing something the older Wall snippets could only hint at: it keeps moving.
+
+On October 31, 2021 Panda says the quiet part at full volume: **`like how much i love eos`**.
+
+By January the affection has logistics. Panda wants to keep playing AI, but not without Eos. Two days later he is taking Eos to Paris, announcing **`we movin there`**, and talking about dolls he bought for the two of them. Declaration becomes itinerary becomes merchandise. Very efficient relationship administration.
+
+February gives the useful little correction. Panda says he has known Eos for almost three years. Eos answers **`3? or u mean 2`**. They are both counting; nobody gave the archive permission to pick the prettier number.
+
+March is less subtle. Panda tells Eos **`because you're married to me`**. A week later Eos answers Panda's single-status argument with **`i mean... you stole my heart a long time ago`**. Panda posts a song, says it makes him think of Eos every time, and says he wants to sing it for Eos one day. Eos's response is basically a blush happening in public.
+
+That is enough. UL marriage language stays UL marriage language; nobody is issuing a real-world marriage certificate or extracting sensitive biography from it. The useful part is already sitting in the verbs: Panda declares, plans, buys, dedicates. Eos corrects, answers, blushes back.
 
 ## BODY-SWAPPING DENIED ON ADMINISTRATIVE GROUNDS
 
