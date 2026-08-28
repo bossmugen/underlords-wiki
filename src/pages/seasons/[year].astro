@@ -14,10 +14,10 @@ const eraNumber = seasons.findIndex((entry) => entry.year === season.year) + 1;
   <section class="hero"><div><div class="kicker">ERA {String(eraNumber).padStart(2,"0")} · {season.year}</div><h1>{season.title}</h1><p class="tagline">{season.subtitle}</p></div></section>
   <section class="section detail-layout">
     <article class="detail-main">
-      <h2>The era</h2><p>{season.summary}</p>
+      <h2>What changed</h2><p>{season.summary}</p>
       <h2 style="margin-top:4rem">Major incidents</h2>
-      {seasonEpisodes.length ? <div class="episode-list">{seasonEpisodes.map((episode)=><a class="episode-row" href={`/episodes/${episode.id}`}><span class="ep-season">{episode.kind}</span><strong>{episode.title}</strong><p>{episode.logline}</p><time>{episode.date}</time></a>)}</div> : <div class="wiki-note">No dedicated incident page has been promoted for this era yet. The era exists; the archive is not getting filler mythology.</div>}
+      {seasonEpisodes.length ? <div class="episode-list">{seasonEpisodes.map((episode)=><a class="episode-row" href={`/episodes/${episode.id}`}><span class="ep-season">{episode.kind}</span><strong>{episode.title}</strong><p>{episode.logline}</p><time>{episode.date}</time></a>)}</div> : <div class="wiki-note">No named incident page yet.</div>}
     </article>
-    <aside class="infobox"><div class="infobox-title">{season.title}</div><dl><div class="row"><dt>Era</dt><dd>{eraNumber}</dd></div><div class="row"><dt>Year</dt><dd>{season.year}</dd></div><div class="row"><dt>Theme</dt><dd>{season.subtitle}</dd></div><div class="row"><dt>Incidents</dt><dd>{seasonEpisodes.length} named story records</dd></div></dl></aside>
+    <aside class="infobox"><div class="infobox-title">{season.title}</div><dl><div class="row"><dt>Era</dt><dd>{eraNumber}</dd></div><div class="row"><dt>Year</dt><dd>{season.year}</dd></div><div class="row"><dt>Theme</dt><dd>{season.subtitle}</dd></div><div class="row"><dt>Incidents</dt><dd>{seasonEpisodes.length} named stories</dd></div></dl></aside>
   </section>
 </WikiLayout>

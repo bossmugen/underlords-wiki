@@ -18,7 +18,6 @@ const publicText = (value: string) => replaceComedyTaxonomy(value.replace(/`([^`
   <section class="section detail-layout">
     <article class="detail-main">
       <h2>Synopsis</h2><p>{publicText(episode.logline)}</p>
-      <div class="wiki-note">This page is written from archive-confirmed or user-confirmed UL material. Detailed receipts, source IDs, and uncertainty notes belong in the Behind the Scenes layer instead of interrupting the synopsis.</div>
       <h2 style="margin-top:4rem">Cast</h2>
       <div class="wiki-grid">{cast.map((character:any)=><a class="poster-card" data-initial={character.name[0]} href={`/characters/${character.id}`}><small>{publicText(character.role)}</small><strong>{character.name}</strong><span>{publicText(character.logline)}</span></a>)}</div>
     </article>

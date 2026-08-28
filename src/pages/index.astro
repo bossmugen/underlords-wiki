@@ -13,24 +13,16 @@ const replaceComedyTaxonomy = (value: string) => value.replace(/\b(bits?|gags?)\
 });
 const publicText = (value: string) => replaceComedyTaxonomy(value.replace(/`([^`]+)`/g, '"$1"'));
 ---
-<WikiLayout title="Underlords Reference Chronicle" description="The reference-mirror wiki for Underlords. The canonical public character, Chronicle, lore, and archive experience now lives on the main Underlords site.">
-  <section class="section consolidation-banner">
-    <small>CANONICAL PUBLIC SITE</small>
-    <h2>The Chronicle moved into the house.</h2>
-    <p>This wiki is now the reference mirror. Character biographies, the main chronology, lore, and archive navigation are being consolidated into the main Underlords site so there is one public universe instead of two thinner ones.</p>
-    <a href="https://underlords.pages.dev/">OPEN THE MAIN UNDERLORDS SITE ↗</a>
-  </section>
-
+<WikiLayout title="Underlords Chronicle & Character Wiki" description="The deeper Underlords reference: characters, eras, incidents, orders, relationships, legends, quotes, relics, and rooms.">
   <section class="hero">
     <div>
-      <div class="kicker">REFERENCE CHRONICLE</div>
+      <div class="kicker">THE DEEP INDEX</div>
       <h1>UNDERLORDS</h1>
-      <p class="tagline">The long-form reference layer behind the main site: eras, characters, incidents, orders, relationships, legends, relics, and archive-backed continuity.</p>
+      <p class="tagline">Eras, characters, incidents, orders, relationships, legends, relics, and quotes—the deeper index of the same house.</p>
       <dl class="factbox">
-        <dt>Canonical public home</dt><dd>underlords.pages.dev</dd>
         <dt>First record</dt><dd>2020</dd>
         <dt>Origin</dt><dd>Dragon Raja club</dd>
-        <dt>Continuity</dt><dd>2020 → present archive boundary</dd>
+        <dt>Continuity</dt><dd>2020 → present</dd>
         <dt>Primary subjects</dt><dd>People · rooms · roles · incidents · rituals · artifacts</dd>
         <dt>Current era</dt><dd>2026 — Afterlife / Family Reunion</dd>
       </dl>
@@ -88,7 +80,7 @@ const publicText = (value: string) => replaceComedyTaxonomy(value.replace(/`([^`
           <small>ORDER / AFFILIATION</small><h3>{publicText(group.label)}</h3><p>{publicText(group.note)}</p>
         </a>
       ))}
-      <a class="portal-card" href="/factions"><small>FULL INDEX</small><h3>All orders</h3><p>Officers, Snipers, specialists, Game Officers, Staff, Platelets, VIPs, and the archive cast.</p></a>
+      <a class="portal-card" href="/factions"><small>FULL INDEX</small><h3>All orders</h3><p>Officers, Snipers, specialists, Game Officers, Staff, Platelets, VIPs, and the rest of the house.</p></a>
     </div>
   </section>
 
@@ -100,7 +92,7 @@ const publicText = (value: string) => replaceComedyTaxonomy(value.replace(/`([^`
   </section>
 
   <section class="section">
-    <div class="section-head"><h2>Relics & Primary Sources</h2><p>Posters, screenshots, quotes, exports, galleries, and the surviving objects that keep this from turning into folklore by vibes.</p></div>
+    <div class="section-head"><h2>Relics & Primary Sources</h2><p>Posters, screenshots, quotes, exports, galleries, and the surviving objects that keep the stories from floating away.</p></div>
     <div class="portal-grid">
       <a class="portal-card" href="/gallery"><small>RELICS</small><h3>Gallery</h3><p>The visual objects: art, banners, screenshots, and surviving media.</p></a>
       <a class="portal-card" href="/quotes"><small>VOICE</small><h3>Quotes</h3><p>Lines that survived because somebody refused to let them die.</p></a>
@@ -109,7 +101,3 @@ const publicText = (value: string) => replaceComedyTaxonomy(value.replace(/`([^`
     </div>
   </section>
 </WikiLayout>
-
-<style>
-  .consolidation-banner{margin-top:2rem!important;padding:1.25rem 0 1.5rem;border-top:1px solid rgba(212,171,83,.45);border-bottom:1px solid rgba(212,171,83,.2)}.consolidation-banner small{color:#d7b76a;font-size:.65rem;font-weight:900;letter-spacing:.14em}.consolidation-banner h2{margin:.65rem 0 .7rem;font-size:clamp(2rem,4vw,3.8rem);line-height:.95}.consolidation-banner p{max-width:760px;color:#aaa4ae;line-height:1.65}.consolidation-banner a{display:inline-block;margin-top:.6rem;color:#d7b76a;font-size:.72rem;font-weight:900;text-decoration:none}.consolidation-banner a:hover{color:#fff}
-</style>

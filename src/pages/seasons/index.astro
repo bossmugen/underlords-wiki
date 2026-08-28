@@ -2,8 +2,8 @@
 import WikiLayout from "../../layouts/WikiLayout.astro";
 import { seasons } from "../../data/wiki";
 ---
-<WikiLayout title="Chronicle | Underlords Wiki" description="The Underlords chronology from 2020 through the current archive era.">
-  <section class="hero"><div><div class="kicker">THE GREAT CHRONICLE</div><h1>Eras</h1><p class="tagline">The years are not just dates. Each one leaves UL as a slightly different civilization: club, house, ritual machine, mythology factory, afterlife.</p></div></section>
+<WikiLayout title="Chronicle | Underlords Wiki" description="The Underlords chronology from 2020 through the current era.">
+  <section class="hero"><div><div class="kicker">THE GREAT CHRONICLE</div><h1>Eras</h1><p class="tagline">The years are not just dates. Each one leaves UL with different rooms, habits, people, and problems.</p></div></section>
   <section class="section">
     <div class="era-stack">
       {seasons.map((season,index)=><a class="era-row" href={`/seasons/${season.year}`}><span class="era-index">ERA {String(index+1).padStart(2,"0")}</span><span class="era-year">{season.year}</span><strong>{season.title}</strong><p>{season.summary}</p><b>↗</b></a>)}

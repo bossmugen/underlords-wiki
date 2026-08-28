@@ -38,7 +38,7 @@ const hrefFor = (href: string) => `${base}${href}` || "/";
     <main class="page"><slot /></main>
     <footer class="page footer">
       <strong>UNDERLORDS CHRONICLE</strong>
-      <span>est. 2020 · characters, eras, incidents, legends, relics, and archive-backed continuity</span>
+      <span>est. 2020 · characters, eras, incidents, legends, relics, and continuity</span>
     </footer>
     <script define:vars={{ base }}>
       if (base) {
@@ -49,6 +49,58 @@ const hrefFor = (href: string) => `${base}${href}` || "/";
           }
         });
       }
+
+      const root = document.querySelector('main.page');
+      if (root) {
+        const exact = new Map([
+          ['Relationship-specific bits', 'Relationship-specific language'],
+          ['Recurring bits & behavior', 'Recurring jokes & behavior'],
+          ['The reliquary is still being filled.', 'The objects that survived.'],
+          ['No dedicated incident page has been promoted for this era yet. The era exists; the archive is not getting filler mythology.', 'No named incident page yet.'],
+          ['The long-form reference layer behind the main site: eras, characters, incidents, orders, relationships, legends, relics, and archive-backed continuity.', 'Eras, characters, incidents, orders, relationships, legends, relics, and quotes—the deeper index of the same house.'],
+        ]);
+        const phrases = [
+          ['recurring bits', 'recurring jokes'],
+          ['recurring bit', 'recurring joke'],
+          ['running bits', 'running jokes'],
+          ['running bit', 'running joke'],
+        ];
+        const clean = (value) => {
+          const trimmed = value.trim();
+          let next = value;
+          if (exact.has(trimmed)) {
+            const start = value.indexOf(trimmed);
+            next = `${value.slice(0, start)}${exact.get(trimmed)}${value.slice(start + trimmed.length)}`;
+          }
+          for (const [from, to] of phrases) next = next.replaceAll(from, to);
+          return next.replace(/`([^`]+)`/g, '"$1"');
+        };
+        const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
+          acceptNode(node) {
+            const parent = node.parentElement;
+            if (!parent || !(node.textContent || '').trim()) return NodeFilter.FILTER_REJECT;
+            if (parent.closest('script, style, code, pre, textarea, blockquote, q, [data-no-public-cleanup]')) return NodeFilter.FILTER_REJECT;
+            return NodeFilter.FILTER_ACCEPT;
+          },
+        });
+        const nodes = [];
+        while (walker.nextNode()) nodes.push(walker.currentNode);
+        for (const node of nodes) {
+          const text = node.textContent || '';
+          const cleaned = clean(text);
+          if (cleaned !== text) node.textContent = cleaned;
+        }
+
+        document.querySelector('.consolidation-banner')?.remove();
+        document.querySelectorAll('.archive-dossier-block, .receipt-ledger-block, .source-floor').forEach((node) => node.remove());
+        document.querySelectorAll('.wiki-note').forEach((node) => {
+          const text = (node.textContent || '').trim();
+          if (text.startsWith('This page is written from archive-confirmed') || text.startsWith('Relic targets already identified')) node.remove();
+        });
+      }
     </script>
+    <style is:global>
+      .consolidation-banner,.archive-dossier-block,.receipt-ledger-block,.source-floor{display:none!important}
+    </style>
   </body>
 </html>
