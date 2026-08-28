@@ -1,84 +1,92 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration pass: **2026-08-28 12:08 PDT**.
+Last dual-surface integration pass: **2026-08-28 12:18 PDT**.
 
 This is the rolling current integration state. Earlier pass detail remains durable in Git history and in the main-site `archive-intake/INTEGRATION_PASS_*_DUAL.md` reports.
 
-## Current pass — Tae opens the algebra desk and immediately legislates against Gabu
+## Current pass — Ansun appeals the Wall classification; Nobu discovers the restaurant problem is literal
 
 ### Branch census / queue
 
 - Main-site mandatory census enumerated **24 miner branches** before deep review and refreshed every current `last_seen_sha` on `master` first.
-- No miner head had advanced beyond its recorded consumed/recovery frontier this pass.
+- Newly discovered branches: **0**.
+- No already-consumed miner head had advanced beyond its recorded frontier this pass.
 - Club-Only 2021–2026 and Club-Only 2020 remain consumed through unchanged heads and were not reread.
 - Anti-starvation rotated into the older **Living Ensemble** cumulative recovery at unchanged HEAD `66c3227c687965a4dae9b372fdcbe2dc128611ba`.
 - No miner branch was merged or cherry-picked into either publishing branch.
 - Pending/backlog/review_overdue: **none**.
 - Remaining cumulative safe-baseline recovery branches: **Living Ensemble, Core Rooms, Wall**.
 
-## Reviewed recovery — Living Ensemble
+## Reviewed recovery — Living Ensemble Runs 03–04
 
-Checkpoint-first review covered the later recovery overlays deliberately sampled this pass: **Run 17 and Runs 22–26**. This advances durable coverage but does not close the branch's older cumulative floor; material between sampled checkpoints remains unswept, so `last_consumed_sha` stays null.
+Checkpoint was read first, then only the older Run03 and Run04 intake handoffs under `archive-intake/aug-2026-living-ensemble-reunion-2026-08-19-2303-pdt/`: findings, receipts, rabbit holes and site candidates. No raw archive was re-mined.
 
-The strongest new public keeper came from Run 26:
+This fills another section of the older recovery floor beneath the previously sampled later overlays. It does **not** close the branch: Runs05–16 and other gaps between sampled checkpoints remain unswept, so Living Ensemble's `last_consumed_sha` remains null.
 
-- **August 27, 2020:** Tae answers `Underling` in Lobby; Mugen follows with role assignment, welcome, and server map. This is a surviving Discord onboarding / role-assignment anchor, not proof of Tae's exact first in-game UL admission.
-- **September 24, 2020:** Tae asks Club Only how to simplify `5(2a+7)`; Anthos answers `10a + 35` and gives a BODMAS walkthrough. The archive establishes ordinary math help, not whether the problem came from homework, classwork, or an exam.
-- **January 3, 2021:** Tae announces `new rule` → `Always vote out gabu`; later the same day she addresses Gabu with `Gabu` → `Go to jail`. A targeted exact-recurrence check found no trustworthy later life for the rule.
+### Run03 — Ansun's fame jurisdiction has an older spine
 
-The last point is deliberately classified as a **one-day incident**, not a Running Gag or standing House Law. Tae apparently held the legislative, electoral, and judicial branches of government for one afternoon and spent all three on Gabu. That is enough story without inventing permanence.
+The surviving Wall evidence now reads as a progression rather than a 2023-only punchline:
 
-### Duplicate / already owned
+- **August 25, 2020:** Ansun says `wall of shame`; Ren says she had thought of it as a `hall of fame`, then accepts both readings. This is the earliest surviving direct shame/fame naming negotiation in this evidence family, not a proven naming origin.
+- **March 24, 2021:** Baby Lyssa/Ghoulie proposes `Ghoulies wall of shame`; Ansun tells her she can `outdo me`; she answers `wanna bet?`; Ansun immediately upgrades the prize to `BET its our wall of FAME baby`.
+- **March–April 2023:** Ansun's existing `no shame all fame`, `this is MY wall`, and `the reason why it says wall of fame is because of me ❤️ you guys have shame` language becomes the culmination of that older prestige argument.
 
-Run 24's Mia↔Momo `TWINSSS` / `Mimi's twin` material was novelty-checked against the current wiki relationship layer and is already owned there. No second copy was added.
+The undercurrent is not that Ansun escapes embarrassment. He accepts the evidence and appeals what the evidence means. His side is fame; everybody else's, tragically, remains shame. None of this creates ownership, creator credit, administration authority, or a formal Wall score.
 
-DyingFox's 2020 Discord doorway was held after the immediately preceding Daycare integration had already materially deepened Fox; it remains useful chronology, but did not justify another thin public edit in this pass.
+MAIN owns this longer person-scale progression in `src/content/people/ansun.md`.
+
+### Run04 — literal Nobu restaurants enter evidence
+
+The previously orphaned `Nobu near Brooklyn` image now has an exact Wall parent:
+
+- **March 26, 2023:** POSTED BY Nobu/Xuseio, a screenshot showing Google results for literal Nobu restaurants.
+- About four minutes later WOO posts a stare emote, then `nobu`, then `why` within three seconds.
+
+The cadence is perfect fandom-wiki material: stare → identify the problem → object to reality. POSTED BY Nobu is established; CAPTURED BY remains unresolved.
+
+This does **not** prove that the 2023 object originated Moon's 2026 `restaurant back in business` wording. It is an older surviving echo in the same name-space: three years before the room verbally reopened a restaurant for Nobu, Nobu had already carried the literal brand collision into the Wall herself.
+
+WIKI owns this chronology/callback layer in `src/data/dossier-snapshots/nobu.md`.
+
+## Duplicate / held / unresolved
+
+- Run03's Mugen→Anthos retrieval DM — `The clowns are calling for you` / `Will you heed their call` plus a UL invite — was reviewed and held for deliberate reunion placement. Stable DM message ID and CAPTURED BY remain unresolved.
+- Gilli's `THIS IS AN IMPORTANT MOMENT OKAY` Wall attachment has an exact parent but the screenshot contents remain unavailable/uninspected, so its subject is not described.
+- Snow's 2020 self-shame loophole is useful corroborative Wall behavior but not promoted into a standalone Running Gag here.
+- Run04's Gilli / `Pebble` references remain unresolved; similar wording is not enough to merge referents.
+- Nobu's separate nearby 2023 `TRAITOR` screenshot remains visually uninspected.
+- The older Snow insurance / inheritance / stairs incident remains missing and is not replaced with unrelated old-man receipts.
 
 ## Surface split / verification
 
 ### Main site
 
-Main deepened `src/content/people/tae.md` with the 2020 Discord doorway, Anthos algebra-help scene, and January 2021 anti-Gabu decree, while preserving the existing Mugen math-sedative, `Caught in 4k`, self-photo, and 2024 continuity material. The page now reads as one lived progression instead of a pile of receipts.
+MAIN deepened `src/content/people/ansun.md` with the 2020 naming negotiation, the 2021 Baby Lyssa/Ghoulie fame challenge, and the existing 2023 fame-jurisdiction culmination.
 
-Public-content commit: `f9c4055ef7d34bb3d6265fae5a3328d310c4d357` — **Deepen Tae with 2020 algebra and Gabu decree receipts**.
+Public-content commit: `1bb293075959f9ae6f64172d7b9d89bccb12573a` — **Deepen Ansun Wall fame mythology**.
 
-Exact public-content workflow **33202285149** completed successfully end to end: source canon/architecture verification, Astro build, built-output verification, Cloudflare deployment, and production verification all passed.
+Workflow `33203004806` succeeded on that exact content commit: source canon/architecture verification, Astro build, built-output verification, Cloudflare deployment, and exact-production verification all passed.
 
 ### Wiki
 
-The wiki owns the compact incident rather than duplicating Tae's full biography:
+WIKI deepened `src/data/dossier-snapshots/nobu.md` with the March 26, 2023 literal-restaurant Wall object and its WOO reaction sequence, with explicit POSTED BY / CAPTURED BY boundaries.
 
-- added `src/data/integrator-episodes.ts` with **Always Vote Out Gabu**;
-- Episodes index now includes integrator-reviewed incidents;
-- episode static routing now includes those incidents.
+Public-content commit: `eefd7c724614d354af560b8a96acae0fbf59fbf6` — **Add Nobu restaurant prequel to dossier**.
 
-The first routing attempt exposed a real static-build scope bug (`allEpisodes is not defined`). That failed attempt was not treated as successful publication. The route was corrected by constructing the combined episode list inside `getStaticPaths`.
+Verification on that exact content commit:
+- **Build Underlords Wiki** workflow `33203048758`: success.
+- **Deploy Underlords Wiki Preview / Pages** workflow `33203048741`: build, deploy and report jobs all success.
 
-Final public-content/fix HEAD: `7bdb95662c2386146eaa548d075eb18902fcef0a` — **Fix integrated episode static paths**.
-
-Verification on that exact HEAD:
-- **Build Underlords Wiki** workflow **33202406557**: success;
-- **Deploy Underlords Wiki Preview / Pages** workflow **33202406574**: success.
-
-MAIN therefore owns the longer Tae character movie; WIKI owns the named one-day anti-Gabu incident. The exact rule was intentionally **not** added to Running Gags because recurrence is dry.
+MAIN therefore owns Ansun's longer character movie; WIKI owns Nobu's compact chronology/callback object. The two surfaces share the same reconciled evidence without photocopying each other's paragraphs.
 
 ## Consumption state
 
-- Living Ensemble remains `last_consumed_sha: null` / `recovery_in_progress`; this pass advances sampled recovery coverage but does not claim the older cumulative safe-baseline floor is complete.
-- Core Rooms remains `last_consumed_sha: null` / `recovery_in_progress`.
-- Wall remains `last_consumed_sha: null` / `recovery_in_progress`.
+- Living Ensemble remains `last_consumed_sha: null` / `recovery_in_progress` at HEAD `66c3227c687965a4dae9b372fdcbe2dc128611ba`; Run03–Run04 are now explicitly recorded as reviewed slices.
+- Core Rooms remains `last_consumed_sha: null` / `recovery_in_progress` at `8d9e6f40f7b0872aca3c20c6c1bd8fc45ebcec19`.
+- Wall remains `last_consumed_sha: null` / `recovery_in_progress` at `36e85aa2025b030faf43fecd20a315b158debd4c`.
 - All other miner branches remain consumed through their unchanged heads.
+- No `last_consumed_sha` advanced this pass because the only selected branch still has an unfinished older cumulative floor.
 - Pending/backlog/overdue: **none**.
-
-## Current unresolved / held
-
-- Living Ensemble recovery gaps between the sampled later checkpoints remain unswept.
-- Akuma/Matsu has useful education/music material, but canonical public naming remains unresolved.
-- MariaMoon<3's 2021 intake is distinct from Moon, but a personal-name bridge remains unresolved and was not invented.
-- Nelph's event-operation and server-safety evidence cannot be converted into appointment chronology from export-time/current roles.
-- Alkey's bag-cart nap, Cele's beach-heels scene, Moon's friend-shaped-wildlife rail, Syv's OCHEM scene, New/Newmal's Discord doorway, and the New↔Xuseio `volunteered as a tribute` incident remain possible later recovery candidates under their existing source boundaries.
-- Uninspected attachments remain undescribed and unattributed beyond what receipts directly establish.
-- Older cumulative Living Ensemble, Core Rooms, and Wall recovery floors remain open.
 
 ## Current cross-surface continuity locks
 
@@ -86,7 +94,7 @@ MAIN therefore owns the longer Tae character movie; WIKI owns the named one-day 
 - User-confirmed canon and direct stable-ID bridges outrank miner-local warnings and name resemblance.
 - Discord onboarding is not silently converted into exact in-game admission chronology.
 - Export-time role arrays are not appointment chronology.
-- Joke roles are not formal governance; a one-day fake rule is not automatically a recurring gag or standing policy.
+- Joke roles are not formal governance; joke prestige is not formal ownership or scoring.
 - Earliest surviving evidence is not automatically origin.
 - `SAID BY`, `POSTED BY`, `MADE BY`, `CAPTURED BY`, and `FEATURING` remain separate provenance relations.
 - Miner branches stay isolated evidence workspaces and are never wholesale-merged into publishing branches.
