@@ -1,100 +1,94 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration pass: **2026-08-28 10:37 PDT**.
+Last dual-surface integration pass: **2026-08-28 11:32 PDT**.
 
 This is the rolling current integration state. Earlier pass detail remains durable in Git history and in the main-site `archive-intake/INTEGRATION_PASS_*_DUAL.md` reports.
 
-## Current pass — Bishop gets a map, immediately admits maps are not the issue
+## Current pass — Eos is too vanilla until the wrong account prosecutes Panda for her
 
 ### Branch census / queue
 
 - Main-site mandatory census enumerated **24 miner branches** before deep review and persisted every current `last_seen_sha` on `master` first.
-- Two consumed branches had advanced: Daycare and Whiskey.
+- Only Daycare had advanced beyond its consumed frontier.
 - Club-Only 2021–2026 and Club-Only 2020 remain consumed through unchanged heads and were not reread.
-- Anti-starvation rotated into the older **Core Rooms** cumulative recovery at unchanged HEAD `8d9e6f40f7b0872aca3c20c6c1bd8fc45ebcec19`.
+- Anti-starvation rotated into the older **Wall** cumulative recovery at unchanged HEAD `36e85aa2025b030faf43fecd20a315b158debd4c`.
 - No miner branch was merged or cherry-picked into either publishing branch.
 - After review: **0 pending_review, 0 backlog, 0 review_overdue**.
 - Remaining cumulative safe-baseline recovery branches: **Living Ensemble, Core Rooms, Wall**.
 
 ## Reviewed deltas
 
-### Daycare — `024c55e...` → `76e138295...`
+### Daycare — `76e138295...` → `417ab2d027...`
 
 Checkpoint first, then only changed intake-local handoffs.
 
-Kiro/Gum/HicUUOOOOGH stable-ID continuity, Mugen's `gummy bear` return language, and the 2023 `Who's kiro` Wall scene were already owned more strongly by current canon/public Kiro material, so they were treated as duplicate/corroboration rather than republished. `Rip Kiro` remains held until its screenshot is visually inspected; Gabby/Jessi remains thin because the direct Daycare bodies are unavailable.
+The public keeper is DyingFox's August 6, 2022 continuation. Ren writes `fox halp`; seven seconds later Fox posts the pat emote, then adds **`It's dinner you can eat it`**. Ren and Dayadream immediately turn dinner into a point system before Fox closes with a yay emote. The direct authored line deepens Fox's existing food/care motif without inventing a formal support, caregiver, or feeding role.
 
-Successful no-public-change review. Daycare is consumed through `76e138295ed560a00a5572eb8c4b01e2d69aacfc`.
+Edowado DeSoren and Mërcy were preserved as thin chronology shells only. Their Lobby/Daycare evidence is useful, but Discord onboarding is not an exact Dragon Raja admission date, and a missing visible role-assignment followup is not evidence that Mërcy's intake failed.
 
-### Whiskey — `e323af44...` → `a36a259d...`
+DyingFox's preceding Wall screenshot remains uninspected, so the exact trigger, dinner object, and image provenance remain unresolved.
 
-Checkpoint first, then only the new Whiskey handoffs.
+Daycare is consumed through `417ab2d027baabe0e8303f06320bff1dc70648ac` after accepted public changes passed verification.
 
-Akariel/Zyrcant's `was in amaurot` / `my ign is still Zyrcant` doorway mostly corroborates an already-strong public profile. The useful new person packet is BishopThaGuru: Mugen verifies the visible 18+ threshold, assigns a role, hands over the server map, and 2m14.720s later the next surfaced media-bearing Bishop line is `I get lost easily`. The chronology is kept as chronology, not forged into a Discord reply.
+### Wall — older 2026-08-24 23:47 recovery slice
 
-The miner-local Meowk=Alkey hesitation does not override the stronger stable-account/canon reconciliation already governing the public surfaces.
+Wall's older cumulative floor remains incomplete, so `last_consumed_sha` stays null.
 
-Whiskey is consumed through `a36a259d86b933231ae100e686774857bc4c9f01` after both public surfaces passed verification.
+This slice supplies a genuinely new Panda↔Eos relationship mechanism:
+- July 7, 2021: Panda says he has plenty that is Wall-worthy but **`eos is too vanilla to shame me`**.
+- November 28: Panda explicitly self-files **`self shaming, cause eos is too vanilla`**.
+- February 1, 2022: Panda says Eos is on his account and asks why Eos is getting him shamed; Eos true-replies **`i typed in the wrong account- eifsenf`**.
 
-### Core Rooms — older 09:46 Bishop/Tofu recovery slice
+The comic shape matters. Panda is not arguing innocence; he is complaining that his prosecutor is too gentle. Months later Eos finally gets him shamed by administrative error. The relationship already had Daycare's affection / Paris / paired-dolls / UL-marriage / `you stole my heart` chronology; the Wall adds evidence-curator behavior and mutual prosecution to the same duo.
 
-Core's older cumulative floor remains incomplete, so `last_consumed_sha` stays null.
-
-This reviewed package supplies the relationship half of Bishop's file:
-- Tofu says Bishop will never stop being funny.
-- Bishop asks who she has been talking to and whether she is with the feds.
-- Mugen says `The file in my office says so`.
-- Bishop: `W-which file?`
-- Bishop later says `Too bad you don't love me no more.`
-- Tofu: `Still love you. I love everyone…unfortunately.`
-- next day Bishop asks whether ending up on the Wall is a compliment or a warning.
-- Tofu: `Both`.
-- day three Tofu re-files Bishop's Lobby `Ye?` as Wall evidence.
-
-The archive supports familiar reciprocal teasing and recurring Wall liability. It does not support romance, real criminal/federal history, literal age confusion, or a known offense behind the uninspected June 27 images.
+The November self-shame attachment remains uninspected. The single wrong-account incident does **not** establish routine credential sharing, a shared device, cohabitation, or why access existed.
 
 ## Surface split / verification
 
 ### Main site
 
-Main added `src/content/people/bishopthaguru.md` as the full biography owner.
+Main deepened:
+- `src/content/people/dyingfox.md` with the exact `It's dinner you can eat it` continuation and dinner-point aftermath;
+- `src/content/people/panda.md` with the full `too vanilla` → self-file → wrong-account prosecution arc.
 
-The person story is the important part there: Mugen gives Bishop a server map and the next surfaced beat is `I get lost easily`; mock paranoia turns into a typographical stammer when Mugen invents an office file; Tofu's `unfortunately` allows affection while keeping the joke alive; `compliment or warning?` gets `Both`; and Lobby punctuation becomes Wall material inside forty-eight hours.
+Lore commits:
+- `bf1f344ba3370948745812c52508542934a24e98` — DyingFox;
+- `ca840effb443e614173e01856af8072dc1616c43` — Panda/Eos Wall rail.
 
-Public-content commit: `428a2fedc40b44088bcb8c713264b070392f1618`.
-
-Exact public-content workflow **33195936113** completed successfully, including source canon/architecture verification, Astro build, built-output verification, Cloudflare deployment, and exact production commit verification.
+Concurrent character-profile architecture work landed during the integration pass. It was preserved; stale verifier expectations were reconciled rather than overwriting the newer biography structure. Exact public-content head `07db2f51fab30b562442fe24bf0229a58ba2a62c` passed workflow **33201243648** end to end: source canon/architecture verification, Astro build, built-output verification, Cloudflare deployment, and exact-production verification all succeeded.
 
 ### Wiki
 
-Wiki updated `src/pages/relationships.astro` with **BishopThaGuru ↔ Tofu · Compliment or Warning?** rather than cloning the full biography.
+Wiki updated `src/pages/relationships.astro` so **Panda ↔ Eos · You Stole My Heart** now contains both the affectionate Daycare chronology and the Wall prosecution genealogy instead of duplicating Panda's full biography.
 
-Public-content commit: `cd78cab6c073f0d4aec58cec65f8dc88afeb2ffe`.
+Public-content commit: `99d544ba46d811725e3bbca348a9c7b42eaf0ea3`.
 
 Verification on that exact public-content HEAD:
-- standalone **Build Underlords Wiki** workflow **33195961816**: success;
-- Pages workflow **33195961839**: build, deploy, and report all success.
+- standalone **Build Underlords Wiki** workflow **33200702204**: success;
+- Pages workflow **33200702301**: build, deploy, and report all success.
 
-The wiki owns the compact relational pattern; main owns the whole character movie.
+The wiki owns the compact relational index. Main owns the longer character movie. DyingFox's exact dinner continuation is intentionally MAIN-only this pass because copying the same beat into an already-rich wiki dossier would not improve lookup or interpretation.
 
 ## Consumption state
 
-- Daycare → `76e138295ed560a00a5572eb8c4b01e2d69aacfc`.
-- Whiskey → `a36a259d86b933231ae100e686774857bc4c9f01`.
-- Core Rooms remains `last_consumed_sha: null` / `recovery_in_progress` because its older safe-baseline floor is incomplete despite this reviewed slice.
+- Daycare → `417ab2d027baabe0e8303f06320bff1dc70648ac`.
+- Wall remains `last_consumed_sha: null` / `recovery_in_progress` because its older cumulative safe-baseline floor is incomplete despite this newly reviewed slice.
+- Core Rooms remains `last_consumed_sha: null` / `recovery_in_progress`.
 - Living Ensemble remains `last_consumed_sha: null` / `recovery_in_progress`.
-- Wall remains `last_consumed_sha: null` / `recovery_in_progress`.
 - Pending/backlog/overdue: **none**.
 
 ## Current unresolved / held
 
-- Bishop exact IGN, club, recruiter, assigned-role label, and first-ever arrival chronology.
-- Bishop's missing Whiskey interlocutor.
-- `HeyJuu` is scene-local only; do not promote it into a Bishop alias.
-- June 27 Bishop/Tofu image pair and underlying Wall offense.
-- `Rip Kiro` screenshot meaning and visual provenance.
-- Gabby/Jessi direct Daycare bodies.
-- Zyrcant's optional Mac-app line and exact Amaurot transition chronology.
+- Edowado DeSoren and Mërcy remain thin chronology shells, not public dossiers yet.
+- DyingFox's preceding August 6 Wall screenshot: trigger, exact dinner object, maker/captor/subjects.
+- Panda's November self-shame attachment / underlying offense.
+- Why/how Eos had access to Panda's account in the February 2022 incident; do not generalize beyond the one receipt.
+- Wall fake-family `our two childs` target(s).
+- Ansun ant image/context.
+- February `speeed run!!` target.
+- Ren/Snow fountain-of-youth screenshot.
+- Rummy parent context.
+- Gabu sleeping-scene trigger.
 - Older cumulative Living Ensemble, Core Rooms, and Wall recovery floors.
 
 ## Current cross-surface continuity locks
