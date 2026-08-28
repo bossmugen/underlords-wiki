@@ -41,6 +41,9 @@ claims:
   - text: "On April 9, 2021, Ansun proposes `alkitty`, Mugen calls it cute, and several minutes later the same Wall stretch contains Alkey's `You all suck`."
     evidence: "archive-confirmed"
     date: "2021-04-09"
+  - text: "Later on April 9, 2021, Ansun/Sou opens a separate Wall package with `Tsundere: Alkey`; after two screenshots, Ren writes `The name fits him so much` and then pings Alkey."
+    evidence: "archive-confirmed"
+    date: "2021-04-09"
   - text: "On September 11–13, 2021, Alkey participates in an Aisha teasing run, including `Her eyebrows KAKAKAKAKA`, accepting Aisha's comeback with `got me good`, and later joining the absurd `We'll sell Aisha auction!!!!` bit. These are peer jokes, not literal hostility or threats."
     evidence: "archive-confirmed"
     date: "2021-09-11 – 2021-09-13"
@@ -55,6 +58,7 @@ antiFanon:
   - "`gay alkey`, `Sexy Alkey`, `horni alkey`, `peasant alkey`, and similar room-generated variants are temporary scene labels, not standalone identity or sexuality claims."
   - "Batman, Saul, Nobu-as-Alkey, and other meme frames are jokes applied to Alkey, not permanent alter egos."
   - "`alkitty` is Ansun's one-scene joke proposal, not a confirmed Alkey alias."
+  - "`Tsundere: Alkey` is one explicit peer-characterization scene, not a formal alias or proven recurring Alkey title; the two attached screenshots remain visually uninspected."
   - "The three-message `i` / `saw` / `all` beat is one clean timing scene, not proof that Alkey always packetizes sentences."
   - "The Aisha exchange and `auction` language are peer banter; do not literalize them into threats, bullying findings, or a sale."
   - "The June 2022 Lobby exchange is a mock re-introduction between people who already knew one another, not a first meeting."
@@ -149,9 +153,11 @@ April 9 gives the room a different way of playing with him. Ansun proposes **`al
 
 The chronology is hilarious. It is **not** enough to write a fake transcript where Alkey directly rejects `alkitty`: Discord stores his line as a normal message, not a reply to Ansun or Mugen. What the scene safely shows is the social environment around him. The room is comfortable trying to rename Meowk into something even more cat-shaped, and Alkey is comfortable existing in the same register of affectionate hostility. `alkitty` stays a joke proposal, not a case-file alias.
 
+A few minutes later, Sou makes the character note explicit rather than leaving it buried in the screenshots. He posts **`Tsundere: Alkey`**, follows it with two images, and Ren answers **`The name fits him so much`** before pinging Alkey. The screenshots themselves are still sealed; the wiki does not invent whatever affectionate-denial exchange might be hiding in them. The safe fact is the social diagnosis: Sou puts the trope on the evidence folder and Ren immediately agrees that it fits this man. That is stronger than a random adjective and weaker than an alias. Later `tsundere` language is also used for Moon, so Alkey does not get to smuggle it into his government name just because the prosecution had stationery.
+
 ## THE COMEBACK IS ALLOWED TO LAND
 
-The September 2021 Aisha run matters because it shows Alkey is not only comfortable sending jokes. He posts **`Her eyebrows KAKAKAKAKA`**. Aisha fires back. Alkey answers **`got me good`**. Two days later the room is joking **`We'll sell Aisha auction!!!!`**. The archive supports teasing and escalation; it does not support literalizing the auction language or turning it into hostility.
+The September 2021 Aisha run matters because it shows Alkey is not only comfortable sending jokes. He posts **`Her eyebrows KAKAKAKA`**. Aisha fires back. Alkey answers **`got me good`**. Two days later the room is joking **`We'll sell Aisha auction!!!!`**. The archive supports teasing and escalation; it does not support literalizing the auction language or turning it into hostility.
 
 `got me good` is the useful part. Alkey does not need to win the exchange in order to keep enjoying it. The return joke can land, he can admit it landed, and the scene keeps moving.
 
