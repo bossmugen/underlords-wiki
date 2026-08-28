@@ -1,8 +1,30 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration pass: **2026-08-27 16:52 PDT**.
+Last dual-surface integration pass: **2026-08-27 17:45 PDT**.
 
-## Current pass — GTA reciprocity + mathematical sedation
+## Current pass — public language + People structure corrections
+
+### User-confirmed editorial locks
+
+- Reader-facing copy does not use `old jokes`, `bit/bits`, `gag/gags`, `running gag`, `Bit Ledger`, `This thing has history`, or `fake government` as taxonomy or narrator language.
+- Spoken dialogue uses straight double quotation marks. Backticks remain technical-only.
+- **Wonhoes** is the public name; do not write `Wonho / Wonhoes`.
+- **This Is Your House** is the public title; do not pair it with `Circus Tent`. Actual archive quotes are not rewritten merely to enforce a title preference.
+- The public service/recognition story is **The Work Came First** rather than `UL Positions Are Positions of Service` as a headline.
+- The main-site People entry is **Meet the Strippers**.
+- Current Officers and Retired Officers are separate public shelves. The wiki already represented them separately and remains the reference model for that distinction.
+
+### Canon correction
+
+- **Zoshaa coined Boiled Mayo.** Mugen's July 17, 2020 `Boiled Mayo Corp.` Staff schedule is a later surviving official use, with Gilli answering `Y U M`; it is not the invention date.
+- Exact original Zoshaa coinage date and room remain unresolved until a receipt joins them.
+
+### Surface split
+
+- Main owns the richer public cleanup: Meet the Strippers, separate Officer shelves, Repeat Offenders, The Work Came First, Wonhoes, Follow the Thread, and the corrected Boiled Mayo story.
+- Wiki receives the shared language correction where relevant. Its existing Officers / Retired Officers split is retained rather than rewritten into duplicate main-site structure.
+
+## Prior pass — GTA reciprocity + mathematical sedation
 
 ### Branch / baseline
 
@@ -21,11 +43,7 @@ Last dual-surface integration pass: **2026-08-27 16:52 PDT**.
 
 - **Main site — Baby Lyssa / Ghoulie:** her biography now owns the GTA reciprocity progression. ShiyaX prepares GTA material before she can play; once she can, he is the one reporting that Ghoulie is carrying him, followed by the much less heroic and much more revealing `Them long drives`. The page keeps the relationship small and grounded: repeated shared play and practical reciprocity, not romance, exclusivity, or a friendship ranking. Public-content commit: `1ee707912e91b1f9bc6d8ce84bd346e53cf29263`.
 - **Main site — Tae:** her chronology now starts with the late-2020 math-sedative callback. Mugs answers `can't sleep` with advanced mathematics; Tae later notices the expected weird-math routine is missing. Public-content commit: `9ba539aebabe6c0b89a59c51b52c14c6e4edb240`.
-- **Wiki public lore:** intentionally unchanged this pass. Baby Lyssa's GTA material is relationship texture that belongs cleanly on the richer main biography, while the wiki's existing Tae dossier is already a long person-first filing; the two-date math exchange is being kept main-only until it develops into a broader relationship/running-gag node worth a distinct wiki retrieval surface rather than mirrored copy.
-
-The Baby Lyssa sequence is useful because the posture flips without anybody announcing that it flipped. ShiyaX first sounds like the person preparing the playground for someone who cannot join yet. Four days later his own report is `Ghoulie carrying me`. Then the surviving memory is not a boss fight or a trophy; it is `Them long drives`. The mundane line does more work than a grand friendship speech would.
-
-Tae's scene works the same way in miniature. `It kinda woRkseed` could be one night's nonsense. The December callback makes it a recognizable routine: Tae expects Mugs to produce incomprehensible theory when sleep is not happening. The joke is care wearing a very stupid lab coat, not a health claim.
+- **Wiki public lore:** intentionally unchanged that pass. Baby Lyssa's GTA material is relationship texture that belongs cleanly on the richer main biography, while the wiki's existing Tae dossier is already a long person-first filing; the two-date math exchange stays main-only until it develops into a broader relationship/reference node worth a distinct wiki retrieval surface rather than mirrored copy.
 
 ### Deduplication / unresolved boundaries
 
@@ -45,8 +63,5 @@ No `last_consumed_sha` advanced among the four reviewed branches because each st
 
 - Main Baby Lyssa content commit `1ee707912e91b1f9bc6d8ce84bd346e53cf29263` passed the complete `UL Hourly Build + Deploy` pipeline in run `33127523070`.
 - Main Tae content commit `9ba539aebabe6c0b89a59c51b52c14c6e4edb240` passed source canon/architecture verification, Astro build, built-output verification, and exact-commit Cloudflare production deployment in run `33127632708`.
-- This wiki state commit triggers the repository's normal standalone Astro build and Pages deployment; the final branch head is verified after this state lands.
 
-## Prior state
-
-The previous Woohyuk / Zyrcant integration is preserved in Git history at wiki commit `ab8fe2e859f8de53ca31a38b70ff432b94e8e6dd`. Older integration decisions remain recoverable from repository history and the main-site per-pass reports.
+Older integration decisions remain recoverable from repository history and the main-site per-pass reports.
