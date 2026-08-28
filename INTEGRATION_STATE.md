@@ -1,82 +1,69 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration pass: **2026-08-28 13:50 PDT**.
+Last dual-surface integration pass: **2026-08-28 14:05 PDT**.
 
 This is the rolling current integration state. Earlier pass detail remains durable in Git history and in the main-site `archive-intake/INTEGRATION_PASS_*_DUAL.md` reports.
 
-## Current pass — Ghoulie files a labor complaint before the paperwork finishes
+## Current pass — Moon invokes the relationship constitution
 
 ### Branch census / queue
 
-- Main-site mandatory census enumerated **24 miner branches** before deep review and persisted current heads first.
+- Main-site mandatory census enumerated **24 miner branches** before deep review and persisted every current head first.
 - Newly discovered branches: **0**.
-- Discrete advanced branches at census:
-  - Daycare: `caf15b30a80a0ca641af339becb81330912abbb7f -> eb12127ec024ec5db3fb7e9787a529e729b4ab7f`
-  - Whiskey: `a36a259d86b933231ae100e686774857bc4c9f01 -> cf4f884f34ec5a086f8e26c811fe7fa49a60cfe6`
-- Those two deltas were independently reviewed checkpoint-first in this pass, but a concurrent integrator durably consumed them while reconciliation was still in flight. Their current consumed state was preserved rather than overwritten or republished.
-- Anti-starvation recovery rotated to **Living Ensemble** at unchanged HEAD `66c3227c687965a4dae9b372fdcbe2dc128611ba`, advancing durable integrator coverage through Run09.
-- Club-Only 2021–2026 and Club-Only 2020 remain consumed through unchanged current heads.
+- Newly advanced miner heads at census: **0**.
+- Club-Only 2021–2026 and Club-Only 2020 remain consumed through unchanged current heads and were not reread.
+- Pending / backlog / overdue discrete branches: **none**.
+- Remaining cumulative recovery branches are **Living Ensemble, Core Rooms and Wall**.
+- Anti-starvation recovery rotated to **Core Rooms** at unchanged HEAD `8d9e6f40f7b0872aca3c20c6c1bd8fc45ebcec19`, advancing durable recovery into the older 07:46 handoff package.
 - No miner branch was merged or wholesale cherry-picked into either publishing branch.
-- Pending/backlog/overdue discrete branches after reconciliation: **none**. Remaining cumulative recovery branches are Living Ensemble, Core Rooms and Wall.
 
-## Daycare / Whiskey reconciliation
+## Core Rooms recovery — 07:46 Moon / Dayadream package
 
-Daycare `caf15b30... -> eb12127...` and Whiskey `a36a259d... -> cf4f884...` were read only through their changed intake-local handoffs, checkpoint first.
+The Core Rooms checkpoint was read first, then only the older 07:46 intake-local findings, receipts and site-candidate handoffs were inspected.
 
-- Daycare's newly stabilized small-doorway material did not justify more thin public profile/card sprawl after concurrent review had already moved the branch to consumed.
-- Whiskey's ACORYUIE / Cinders / Juᥒιρer stable-account return chronology had already been accepted onto MAIN by concurrent integration. The June `welcome back bb, role assigned, you know your way uwu` proves Discord return/re-onboarding and prior server familiarity, not a formal IGN rename, alt switch, game-club leave/rejoin or appointment chronology.
-- Ricochet's peer-used `Rich` evidence is local corroboration only. Ambiguous bare `Rich` still requires context and does not merge Ricochet with canonical Rich / Amaurot leadership or another same-name person.
+### Already owned
 
-## Living Ensemble recovery — Run09
+Moon's September 8, 2022 Wall line `I am a moon,so i see all` was already public on MAIN with the correct boundary. It remains a self-joke, not a surveillance, moderation or intelligence appointment.
 
-Current Living checkpoint was read first, then only Run09 findings / receipts / rabbit holes / site candidates were inspected.
+### New discrete incident — Moon Cites the Contract
 
-### Baby Lyssa's Wall prehistory moves earlier again
+On **September 11, 2022**:
 
-On the morning of **March 13, 2021**:
+- Oyasumi posts `🍞` with attachment `1662928193282.jpg`; the binary remains visually uninspected.
+- Moon later replies directly to Oyasumi and directly mentions him: `Sushi cheated on me D:`.
+- Dayadream replies directly to Moon: `you're cheating on me with sushi?!`.
+- Moon answers: `You signed a marriage contract that we can have open relationship  uwu`.
+- Thirty seconds later Moon adds: `Your the one that came up with that decision uwu`.
 
-- Rooks posts an image-only Wall attachment. The binary is still uninspected.
-- Baby Lyssa / Ghoulie answers `OH MY GOD`.
-- Mugen captions the scene `Saturday morning at the UL strip club feat. @Baby Lyssa`.
-- Ghoulie replies `y’all supposed to be bullying the customers not the stripper`.
-- Roughly five hours later ShiyaX is still asking `@Baby Lyssa YOU JOINING BB ?`; Ghoulie answers `I-` / `MAYBE?`.
-- Later the same day the already-known `NOT AGAIN` callback survives, and at night Ghoulie tries `you saw nothing`; Rooks answers `I SAW IT`.
+The useful beat is not simply fake-marriage vocabulary. Moon does not reject Dayadream's accusation; she responds by citing the alleged terms, then tosses authorship of the open clause straight back at Dayadream. Relationship litigation, apparently, is admissible when notarized by `uwu`.
 
-The useful character read is that **the social paperwork is still unsettled while Ghoulie is already fluent enough in the house joke to argue customer-versus-stripper procedure inside it**. She does not reject Mugen's premise; she disputes who management is supposed to be bullying. That tiny wording makes the scene work without inventing a formal role or literal occupation.
+Hard boundaries remain:
 
-Boundaries remain hard:
+- This is **scene-level social fiction** supporting a joking Moon / Dayadream marriage-contract and open-relationship grammar. It does not prove literal romance, offline/legal marriage, or a Dragon Raja marriage mechanic.
+- Reply + mention structure ties `Sushi` to Oyasumi only **inside this scene**. It does not establish a global `Sushi = Oyasumi` alias.
+- Oyasumi's parent image is uninspected; no contents, maker, subject or precipitating offense are invented.
+- `Dayadream` is **not merged with Daya** by name resemblance. No reviewed stable-ID or user-confirmed bridge supports that identity collapse.
 
-- Rooks is POSTED BY for the morning attachment only.
-- MADE BY / CAPTURED BY / FEATURING / image contents remain unresolved until the binary is inspected.
-- `UL strip club` / `stripper` is scene-local house humor, not literal employment, sex work or sexual-history evidence.
-- ShiyaX's joining question is social evidence, not exact game-club admission chronology.
-- This is the earliest surviving Baby Lyssa Wall scene currently recovered; earliest surviving is still not origin, and the later `NOT AGAIN` keeps room for an older prequel.
-- Rooks' two same-day catches are good relationship texture, not enough to create a permanent Rooks↔Ghoulie prosecution role.
+## Public routing
 
-### Public routing
+MAIN owns the rich character version in `src/content/people/moon.md`, content commit `78c42f22fac4c0041369b37bb989b090c9513903`: archive-confirmed claim, anti-fanon boundaries, and the new **WHEN ACCUSED OF CHEATING, CITE THE CONTRACT** section.
 
-MAIN `src/content/people/baby-lyssa.md` now owns the full lived sequence at content commit `efa2309a8cd41b6e66c20b557b0aa38e9fb6250a`: morning attachment reaction, Mugen's strip-club caption, Ghoulie's procedural objection, the later joining question, `NOT AGAIN`, and Rooks' `I SAW IT` callback. Existing record / quote-channel / Wall-property / rent / GTA material remains intact.
+WIKI owns the compact discrete incident in `src/data/integrator-episodes.ts`, content commit `c8c2569d3e9ee1f17bf5fdb3c3549c97118f4bad`: **Moon Cites the Contract**, with Moon, Dayadream and Oyasumi as scene cast and the literal-romance / legal-marriage / Dragon-Raja-mechanic / global-Sushi-alias limits kept in the logline.
 
-WIKI `src/data/cast.ts` now carries the compact Archive / Extended Cast chronology at content commit `2f4ddcc53129cdfcb9d659336e0570e53ec8b0be`. It moves the dossier's prehistory earlier without copying MAIN's full scene prose.
-
-## Held / provenance
-
-Run09 also recovers the Discord guild-object creation timestamp as **2020-04-03 17:40 PDT**, plus later core-channel object timestamps. Those are held as infrastructure chronology rather than used to rewrite the public founding story: UL founding remains March 2020, and Discord object creation is not first human use.
-
-The unresolved Deleted User in the morning strip-club exchange remains unresolved. No identity is inferred from name resemblance or scene adjacency.
+The surfaces therefore share one evidence family without photocopying the same prose.
 
 ## Verification / deployment
 
-- MAIN content commit `efa2309a8cd41b6e66c20b557b0aa38e9fb6250a` passed the full main pipeline in workflow **33209706050**: source canon/architecture verification, Astro build, built-output verification, Cloudflare deployment and production verification all succeeded.
-- WIKI content commit `2f4ddcc53129cdfcb9d659336e0570e53ec8b0be` passed standalone Astro build **33209803926**.
-- The same WIKI content commit passed Pages workflow **33209803959**, including build, deploy and report.
+- MAIN content commit `78c42f22fac4c0041369b37bb989b090c9513903` passed workflow **33210946559** end-to-end: source canon/architecture verification, Astro build, built-output verification, Cloudflare deployment and exact-production verification all succeeded.
+- WIKI content commit `c8c2569d3e9ee1f17bf5fdb3c3549c97118f4bad` passed standalone Astro build workflow **33210981011**.
+- The same WIKI content commit passed Pages workflow **33210980956**, including Pages build, deploy and report.
 
 ## Recovery state after pass
 
 - **Daycare**: consumed through `eb12127ec024ec5db3fb7e9787a529e729b4ab7f`.
 - **Whiskey**: consumed through `cf4f884f34ec5a086f8e26c811fe7fa49a60cfe6`.
-- **Living Ensemble**: durable reviewed coverage now includes Run02–Run09, Run17 and Runs22–26. Runs10–16 and other cumulative gaps remain unswept; `last_consumed_sha` stays **null**.
-- **Core Rooms**: cumulative recovery remains in progress at `8d9e6f40f7b0872aca3c20c6c1bd8fc45ebcec19`; `last_consumed_sha` stays **null**.
+- **Living Ensemble**: durable reviewed coverage includes Run02–Run09, Run17 and Runs22–26. Runs10–16 and other cumulative gaps remain unswept; `last_consumed_sha` stays **null**.
+- **Core Rooms**: durable cumulative recovery now includes the 07:46 package beneath previously recorded 08:46 and 09:46 work. Older 06:46-and-below safe-baseline material remains; `last_consumed_sha` stays **null**.
 - **Wall**: cumulative recovery remains in progress at `36e85aa2025b030faf43fecd20a315b158debd4c`; `last_consumed_sha` stays **null**.
 
 ## Current cross-surface continuity locks
@@ -85,9 +72,8 @@ The unresolved Deleted User in the morning strip-club exchange remains unresolve
 - User-confirmed canon and direct stable-ID bridges outrank miner-local warnings and name resemblance.
 - Discord onboarding is not silently converted into exact in-game admission chronology.
 - Export-time role arrays are not appointment chronology.
-- Generic `role assigned` is not a historical appointment receipt.
 - Joke roles are not formal governance; joke prestige is not formal ownership or scoring.
-- Joke ships and fake-family language are not literal romance/family canon.
+- Joke ships, fake-marriage contracts and fake-family language are not literal romance/family canon without stronger evidence.
 - Earliest surviving evidence is not automatically origin.
 - `SAID BY`, `POSTED BY`, `MADE BY`, `CAPTURED BY`, and `FEATURING` remain separate provenance relations.
 - Uninspected images remain uninspected; captions and reactions do not license invented contents.
