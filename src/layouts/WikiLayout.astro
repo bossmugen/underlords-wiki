@@ -1,5 +1,6 @@
 ---
 import "../styles/global.css";
+import "../data/bio-policy";
 const { title = "Underlords Wiki", description = "Underlords character and story wiki." } = Astro.props;
 const path = Astro.url.pathname;
 const base = import.meta.env.BASE_URL === "/" ? "" : import.meta.env.BASE_URL.replace(/\/$/, "");
@@ -93,6 +94,12 @@ const hrefFor = (href: string) => `${base}${href}` || "/";
 
         document.querySelector('.consolidation-banner')?.remove();
         document.querySelectorAll('.archive-dossier-block, .receipt-ledger-block, .source-floor').forEach((node) => node.remove());
+        document.querySelectorAll('.character-biography .relationship-list').forEach((node) => node.closest('.bio-block')?.remove());
+        document.querySelectorAll('.character-infobox .row').forEach((row) => {
+          const label = row.querySelector('dt')?.textContent?.trim();
+          if (label === 'Primary shelf' || label === 'Era' || label === 'Aliases' || label === 'Tags') row.remove();
+        });
+        document.querySelectorAll('.character-infobox .infobox-notes').forEach((node) => node.remove());
         document.querySelectorAll('.wiki-note').forEach((node) => {
           const text = (node.textContent || '').trim();
           if (text.startsWith('This page is written from archive-confirmed') || text.startsWith('Relic targets already identified')) node.remove();
@@ -100,7 +107,7 @@ const hrefFor = (href: string) => `${base}${href}` || "/";
       }
     </script>
     <style is:global>
-      .consolidation-banner,.archive-dossier-block,.receipt-ledger-block,.source-floor{display:none!important}
+      .consolidation-banner,.archive-dossier-block,.receipt-ledger-block,.source-floor,.character-biography .relationship-list{display:none!important}
     </style>
   </body>
 </html>
