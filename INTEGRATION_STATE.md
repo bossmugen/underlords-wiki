@@ -1,51 +1,54 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration pass: **2026-08-28 07:02 PDT**.
+Last dual-surface integration pass: **2026-08-28 07:37 PDT**.
 
 This is the rolling current integration state. Earlier pass detail remains durable in Git history and in the main-site `archive-intake/INTEGRATION_PASS_*_DUAL.md` reports.
 
-## Current pass — Dragon on the form, Whiskey on the couch
+## Current pass — text room, algebra desk, temporary anti-Gabu government
 
 ### Branch census / queue
 
 - Main-site mandatory census enumerated **24 miner branches** before deep review and persisted every current `last_seen_sha` on `master` before any long review began.
-- Advanced/unconsumed branches: Daycare `969b6f22307eb55c7c45e05fb4bc0cdce39ab326 -> 7b441bcb9c800072123a7bb61d2bb150631146b2`; Whiskey `921be57142e05ad97102886803237dbe8bc5164f -> a3eba38e6500631c350ff9f23c6c9ebbffe9f9d2`.
-- Anti-starvation recovery continued on Wall. Club-Only 2021–2026 and Club-Only 2020 were already consumed through unchanged heads and were not reread.
+- Only Daycare had advanced beyond its consumed frontier: `7b441bcb9c800072123a7bb61d2bb150631146b2 -> 0b62daef40c56789cec13852f4cb42d94ae3f5bb`.
+- Anti-starvation recovery continued on Living Ensemble at unchanged HEAD `66c3227c687965a4dae9b372fdcbe2dc128611ba`.
+- Club-Only 2021–2026 and Club-Only 2020 were already consumed through unchanged heads and were not reread.
 - No miner branch was merged or cherry-picked into either publishing branch.
 - After review: **0 pending_review, 0 backlog, 0 review_overdue**.
 - Remaining cumulative safe-baseline recovery branches: **Living Ensemble, Core Rooms, Wall**.
 
 ## Reviewed branches
 
-### Daycare — `969b6f22… -> 7b441bcb…`
+### Daycare — `7b441bcb… -> 0b62daef…`
 
 Checkpoint first, then only changed `archive-intake/*` handoffs.
 
-This delta mostly sharpened Discord doorways rather than producing new public biographies. Ghostt's December 2020 entry/routing and Zyrcant/Akariel's January 2021 Amaurot/IGN bridge were already public more strongly. DyingFox gained an Oct. 8, 2020 pre-Daycare Discord doorway, useful chronology but not enough reason to rewrite an already rich main/wiki dossier in this pass.
+The strongest genuinely new material belongs to **Nothien**. The existing main biography already owned the April 6, 2020 Raja-goodbye / open-door scene. Daycare adds a same-date Club Only use case: Mugen explains the text room is for people for whom talking is inconvenient; Nothien says `Can't put voice on, others here haha`; Mugen answers that this is exactly why the text channel exists.
 
-Torr, Alaina, asapROG3R, Lyzette, Queen Shimoko, delay, and porgo remain thin identity/doorway shells. The review preserved minor-age and role-chronology boundaries rather than turning one-message Daycare appearances into fake full biographies.
+The small `haha` keeps the scene human-sized. Nothien is not submitting a policy request or disclosing anything the archive needs to diagnose. Other people are physically nearby, voice is awkward, text works. Put beside the Raja goodbye, the sequence sharpens the continuity: game participation can loosen while Discord remains practically usable.
 
-Result: successful no-public-change review; consumed through `7b441bcb9c800072123a7bb61d2bb150631146b2`.
+Main therefore expanded Nothien rather than converting this into generic channel-history prose. The scene does **not** establish a formal accessibility policy, prove Nothien created Club Only, or prove Nothien was its literal first user.
 
-### Whiskey — `921be571… -> a3eba38e…`
+Other Daycare material was held: Booba/MsThiccy's 2023 `Can I join again` does not prove acceptance; Trebach and Asphodel/evermore remain developing; faoaf and Jumanji remain too thin; direct Daycare body gaps and exact minor ages stay backstage. Discord onboarding is not converted into first in-game admission.
 
-Checkpoint first, then changed Whiskey handoffs only.
+Result: consumed through `0b62daef40c56789cec13852f4cb42d94ae3f5bb` after the accepted main change passed production verification/deployment.
 
-The genuinely new person-scale material was **Jade**. Her March 5, 2021 Lobby doorway says `蛋挞吃多了(JADE)` and self-reports **Dragon**. After the role/Tour handoff, Mugen is personally welcoming her in Whiskey about forty-four seconds later. That distinction matters: the Discord doorway is documented, but the archive does not get to convert it into an Underlords in-game join date.
+### Living Ensemble recovery — checkpoint overlays 17–26 advanced
 
-A few weeks later Jade is inviting Whiskey to watch *Get Out* via DM link, references `going against each other in contest again tmr` without enough nouns to identify the contest or opponent, and then defends Prince Caspian with `he's forever prince caspian in my heart` followed by `IDC HES HOT AF`.
+The cumulative checkpoint was read first, followed by overlays Runs 17 through 26. Run 26's linked findings, receipts, rabbit holes, and site candidates were then deeply reconciled.
 
-Main now owns that full character vignette because the social story is better than the taxonomy: another-club label on the form, immediate house placement in practice, then ordinary shared-media and thirst-banter life. The wiki intentionally does **not** add a thinner duplicate Jade card this pass; the current evidence does not improve Cast/Relationship/Episode lookup enough to justify mirroring the biography.
+The strongest new wiki material belongs to **Tae**:
 
-KOREA Milk's 0601 Whiskey packet had already been independently published on current main before this review and was treated as duplicate/corroboration. Miihi/Milk's cat adoption, Dragon Raja puzzle, and Woohyuk birthday line remain a small future-profile packet rather than being forced into a thin dossier. KOREA Milk and Miihi/Milk remain distinct stable accounts; similar milk naming is not an identity bridge.
+- **August 27, 2020:** surviving Discord doorway, `Underling` -> Mugen `Role assigned, welcome` / Discord Tour. This is not automatically Tae's first in-game UL admission date.
+- **September 24, 2020:** Tae opens with `Stupid question but`, asks `Whats uhh 5(2a+7)`, clarifies `But simplified`, and Anthos eventually answers `10a + 35` with a full BODMAS walkthrough. The archive proves math help, not homework/class/exam context.
+- **January 3, 2021:** Tae posts `new rule` -> `Always vote out gabu`; about seventy-eight minutes later, `Gabu` -> `Go to jail`. Exact/near-exact recurrence stayed dry, so this is a one-day decree/episode rather than standing House Law. The nearby screenshot remains uninspected and is not used to invent the offense.
 
-Raw z23 re-acquisition remained 403/source-blocked, so no reply/edit inference was manufactured.
+The algebra scene is especially good person material because Tae pre-apologizes before the question even arrives, then becomes very precise about what she needs. Anthos does not merely drop an answer; the full walkthrough turns the room into an ad-hoc help desk. Months before mathematics becomes a separate Mugs/Tae joke, UL is already being used for the gloriously ordinary task of expanding brackets.
 
-### Wall recovery
+The anti-Gabu scene works for the opposite reason: Tae needs almost no procedure at all. `new rule`, five seconds, statute. The seventy-eight-minute callback proves the joke survives long enough for her to behave as if enforcement exists. The dry recurrence search keeps the archive from pretending one morning of Tae government became constitutional law.
 
-Checkpoint first. The latest rail-105 Akariel/Zyrcant sequence — volunteer for Wall placement, Ren says `You got to e a r n your place here`, later `caught in 4k`, Akariel answers `oooh shit *runs*` — was re-reviewed and found already public on Zyrcant's main dossier. No duplicate publication was accepted.
+Nelph's November 2021 scam/2FA procedural guidance was duplicate/corroboration because current main already owns that competence beat. Sye/Nelph promotion chronology remains unresolved; competence is not appointment evidence.
 
-Wall's older safe-baseline recovery remains incomplete, so its `last_consumed_sha` stays null. Next unresolved older rail remains Sushi.
+Living Ensemble remains `last_consumed_sha: null` because older cumulative safe-baseline material below the reviewed overlay chain is still not fully closed. This pass records genuine recovery progress without jumping over that older floor.
 
 ## Surface split / verification
 
@@ -53,38 +56,46 @@ Wall's older safe-baseline recovery remains incomplete, so its `last_consumed_sh
 
 Public lore changed:
 
-- **new:** `src/content/people/jade.md`
+- `src/content/people/nothien.md`
 
-Jade is intentionally main-first. Her current value is the lived social contradiction — Dragon on the intake line, Whiskey almost immediately after — plus the movie invite and Prince Caspian defense. Turning that into a tiny wiki card would repeat the same material without adding a useful indexable relationship/episode structure.
+Nothien's text-vs-voice scene is intentionally **main-only this pass**. Its value is biographical: on the same date as the Raja goodbye, Discord is still functioning as a practical social route. That deepens an existing person arc better than it serves as a separate wiki lookup object.
 
-Public-content commit: `ba5c48591bdebc290598b5e8287095fc1bf10802`.
+Public-content commit: `bedec8130766103e820adabaf1c707bfde2a2675`.
 
-Exact public-content verification/deployment: main workflow run **33178822465** passed source canon/architecture verification, Astro build, built-output verification, and exact Cloudflare production deployment.
+Exact public-content verification/deployment: main workflow run **33182097969** passed source canon/architecture verification, Astro build, built-output verification, and exact Cloudflare production deployment.
 
 ### Wiki
 
-No public lore page changed this pass by design. The wiki records the reconciliation here instead of cloning Jade's main biography. KOREA Milk is likewise left with main as the current person owner; Woohyuk's pancake birthday vocabulary remains a future gag/callback candidate if recurrence makes it useful as a wiki lookup object.
+Public lore changed:
 
-The wiki's own build/Pages verification for this state commit is recorded by the current workflow runs on `main`.
+- `src/data/dossier-snapshots/tae.md`
+
+Tae's recovered early chronology is intentionally **wiki-focused this pass**. The August doorway, Anthos algebra help, and one-day anti-Gabu decree are compact Cast/chronology/incident material that improves the dossier as a reference surface. Main already has a long Tae biography, so the same three receipts were not immediately duplicated there just to make both surfaces look symmetrical.
+
+Public-content commit: `65a1073599488fc9f326d74ab254859397276d7a`.
+
+Exact public-content verification/deployment:
+- Standalone wiki build run **33182305842**: success.
+- Pages build/deploy run **33182305834**: success.
 
 ## Consumption advanced
 
-- `archive-miner/daycare-2020-2026-hourly` -> `7b441bcb9c800072123a7bb61d2bb150631146b2`
-- `archive-miner/whiskey-longitudinal-hourly` -> `a3eba38e6500631c350ff9f23c6c9ebbffe9f9d2`
-- Wall remains `last_consumed_sha: null` / `recovery_in_progress`; its latest reviewed tail is durable without skipping the older floor.
-
-Remaining cumulative safe-baseline recoveries: Living Ensemble, Core Rooms, Wall.
+- `archive-miner/daycare-2020-2026-hourly` -> `0b62daef40c56789cec13852f4cb42d94ae3f5bb`
+- Living Ensemble remains `last_consumed_sha: null` / `recovery_in_progress`; Runs 17–26 are durably reviewed progress but the older floor remains open.
+- Core Rooms remains `last_consumed_sha: null` / `recovery_in_progress`.
+- Wall remains `last_consumed_sha: null` / `recovery_in_progress`; its older floor still precedes the already-reviewed rail-105 tail.
 
 ## Reviewed but held / deduped
 
-- Daycare Ghostt and Zyrcant doorway packets: duplicate/corroboration under stronger existing public owners.
-- Daycare DyingFox Oct. 8, 2020 doorway: useful chronology, held from redundant public rewrite.
-- Daycare Torr, Alaina, asapROG3R, Lyzette, Queen Shimoko, delay, porgo: thin shells, no generic one-scene dossiers.
-- Whiskey KOREA Milk: already public on current main before this review; no duplicate discovery publication.
-- Whiskey Miihi/Milk: future small profile; uninspected cat image and Raja puzzle screenshot stay uninspected.
-- Jade's March contest/opponent/sides/result remain unresolved.
-- Wall rail 105 exact `caught in 4k` offense/evidence remains missing.
-- Standing source-blocked/media rabbits remain held rather than guessed.
+- Daycare Booba/MsThiccy: rejoin request is real; actual acceptance/rejoin mechanics unresolved.
+- Daycare Trebach and Asphodel/evermore: developing, no padded one-scene public dossier this pass.
+- Daycare faoaf and Jumanji: too thin; minor-age detail stays backstage.
+- Living Nelph 2FA/scam guidance: duplicate/corroboration under current main Nelph owner.
+- Tae exact first in-game admission: unresolved.
+- `Always vote out gabu`: one-day decree with same-day enforcement; no proven later recurrence.
+- Tae/Gabu nearby Wall screenshot: uninspected; POSTED BY / MADE BY / CAPTURED BY / FEATURING not invented.
+- Sye/Nelph exact Officer promotion chronology: unresolved.
+- Living's remaining media/rabbit-hole backlog stays held rather than guessed.
 
 ## Current cross-surface continuity locks
 
