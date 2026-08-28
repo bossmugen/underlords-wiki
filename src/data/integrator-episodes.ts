@@ -16,7 +16,7 @@ export const integratedEpisodes: Episode[] = [
     season: "2022",
     date: "September 11, 2022",
     kind: "Wall relationship-law hearing",
-    logline: "Moon replies to Oyasumi with `Sushi cheated on me D:`; Dayadream counters `you're cheating on me with sushi?!`; Moon answers by citing a supposed marriage contract allowing an open relationship, then reminds Dayadream that the clause was allegedly Dayadream's idea. The exchange is scene-level social fiction: it does not prove literal romance, legal/offline marriage, a Dragon Raja marriage mechanic, or a global `Sushi = Oyasumi` alias. The parent image remains uninspected.",
-    cast: ["Moon", "Dayadream", "Oyasumi"]
+    logline: "Moon replies to Oyasumi with `Sushi cheated on me D:`; Daya, posting under her Dayadream alias, counters `you're cheating on me with sushi?!`; Moon answers by citing a supposed marriage contract allowing an open relationship, then reminds Daya that the clause was allegedly her idea. The exchange is scene-level social fiction: it does not prove literal romance, legal/offline marriage, a Dragon Raja marriage mechanic, or a global `Sushi = Oyasumi` alias. The parent image remains uninspected.",
+    cast: ["Moon", "Daya", "Oyasumi"]
   }
 ];
