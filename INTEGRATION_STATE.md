@@ -1,8 +1,43 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration pass: **2026-08-27 17:45 PDT**.
+Last dual-surface integration pass: **2026-08-27 18:35 PDT**.
 
-## Current pass — public language + People structure corrections
+## Current pass — stable-ID reconciliation + Core Rooms anti-starvation
+
+### Branch / baseline
+
+- Main-site mandatory census confirmed **23 miner branches** before deep review and persisted every current `last_seen_sha` at census commit `42530ef009343f324b201cd1f65c36216b4aa517`.
+- Miner handoffs were read directly from isolated miner branches. No miner branch was merged or cherry-picked into either public repository.
+- Reviewed this pass: `archive-miner/club-only-2021-2026-hourly` @ `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`; `archive-miner-clubonly-2020-hourly` @ `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`; and anti-starvation `archive-miner/core-rooms-events-a91f-20260824` @ `8d9e6f40f7b0872aca3c20c6c1bd8fc45ebcec19` through its current 2026-08-26 15:46 package.
+- Core Rooms moved `review_overdue → recovery_in_progress`. **Main HQ hourly is now the only branch explicitly marked `review_overdue`.**
+
+### Reconciliation accepted
+
+- Core Rooms provides a direct stable-account bridge for **Alkey / `itsalkey` / `Meowk 💖✨`**: Discord account `264889543365230614` is rendered as `Meowk 💖✨` in the 2021 Lobby source and as Alkey with the same numeric account/username elsewhere.
+- This **supersedes the prior separate-Meowk hold**. The evidence is not a similar-name guess; it is the same stable Discord account.
+- Exact display-name-change timing and nickname origin remain unresolved. The Jan. 31 Lobby event remains administrative/server chronology, not a manufactured first in-game admission date.
+- Main was already correct: its Alkey character file already carried `itsalkey` + `Meowk 💖✨` and the February 3 chicken-emote → Mugen popcorn → `I aim to please` bow scene.
+- Wiki had drifted into a contradictory standalone `Meowk` Archive / Extended Cast file. That duplicate character was removed; the Alkey cast overlay now carries `itsalkey` and `Meowk 💖✨` and preserves the compact hockey/chicken-theater character texture.
+
+### Reviewed but not republished
+
+- Club-Only 2021–2026 Run 043 promoted no new A/B. Fish Revolution, AUUUUU, Dean dreams, Tummy, and fame/shame material are already public; Nitro creator/exact-first-noun, Shiya fake-family genealogy, Snow/Big Bang, and Alabama expansion remain unresolved/held.
+- Club-Only 2020's latest package advances Danny's Daily-Pack Dungeon Scheme, Carlene's Aether visitor rail, and B-chan's thin intake, but none currently clears the richer public-profile bar. Feli↔Mugs Tumbleweed remains explicitly unresolved after broader pin/image search.
+- Core Rooms' Alkey chicken scene is already richer on main, so the wiki correction indexes identity + character texture without cloning the entire main biography.
+- `Tsundere: Alkey` and Mugen's `shows his true colors` remain image-dependent holds.
+- Core's older `-Ame` visitor account remains separate from the canonical Ame/Amexistir person unless a direct account bridge appears. Current user/canon locks for Ame/Amexistir still govern the canonical cast file.
+
+### Publication / verification
+
+- **Main public lore:** unchanged. Main already owned the correct Alkey/Meowk reconciliation; only census/recovery state and the durable dual-pass report changed.
+- **Wiki public lore:** `src/data/cast.ts` changed. Public correction merge commit `ffa53f1e5e3f51720bb5c38eb5498eb08feafe56` passed the standalone Astro build and the complete GitHub Pages build/deploy/report workflow.
+- No public role, appointment chronology, or first-join date changed.
+
+### Consumption
+
+No `last_consumed_sha` advanced for Club-Only 2021–2026, Club-Only 2020, or Core Rooms because each still has an older cumulative safe-baseline hole below the current reviewed frontier. Their reviewed frontiers and no-public-change/accepted-reconciliation reasons are durably recorded on main in `archive-intake/INTEGRATOR_BRANCH_STATE.json`.
+
+## Prior pass — public language + People structure corrections
 
 ### User-confirmed editorial locks
 
@@ -46,7 +81,7 @@ Last dual-surface integration pass: **2026-08-27 17:45 PDT**.
 
 ### Reconciliation / unresolved boundaries
 
-- Run 17's miner-local `Meowk = Alkey` bridge is rejected. Current reconciled canon keeps Meowk separate from Alkey absent a stable-ID bridge; a username resemblance does not get to overrule later identity reconciliation.
+- The prior `Meowk = Alkey` rejection in this older section is superseded by the current pass's stable-ID reconciliation above.
 - `ALEX/GHOSTADE` remains LEXI's historical self-intro wording, not a durable public alias without more recurrence.
 - Snow's `STRIPPER FAIRY` for LEXI is joke language, not a formal role.
 - Mugen's later `all done!` to LEXI is unnamed access/admin completion, not proof of UL membership.
