@@ -1,7 +1,9 @@
 ---
 import WikiLayout from "../../layouts/WikiLayout.astro";
 import { episodes, characters } from "../../data/wiki";
-export function getStaticPaths(){return episodes.map((episode)=>({params:{id:episode.id},props:{episode}}));}
+import { integratedEpisodes } from "../../data/integrator-episodes";
+const allEpisodes = [...episodes, ...integratedEpisodes];
+export function getStaticPaths(){return allEpisodes.map((episode)=>({params:{id:episode.id},props:{episode}}));}
 const { episode } = Astro.props;
 const cast = episode.cast.map((name)=>characters.find((character)=>character.name===name)).filter(Boolean);
 const replaceComedyTaxonomy = (value: string) => value.replace(/\b(bits?|gags?)\b/gi, (term) => {
