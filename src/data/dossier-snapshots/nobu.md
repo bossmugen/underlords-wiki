@@ -5,7 +5,7 @@ aliases:
 pronouns: "she/her"
 roles:
   - "UL Party Director"
-summary: "Nobu's archive has a clean role progression but a better human story: Xuseio appears in Lobby in May 2022, is announced as UL Party Director that August, becomes socially legible through Rummy-facing teasing and praise, and returns in 2026 to a room that treats her arrival as both the restaurant reopening and somebody coming home."
+summary: "Nobu's archive has a clean role progression but a better human story: Xuseio appears in Lobby in May 2022, is announced as UL Party Director that August, becomes socially legible through Rummy-facing teasing and praise, personally drags literal Nobu restaurants into the Wall, and returns in 2026 to a room that treats her arrival as both the restaurant reopening and somebody coming home."
 summaryEvidence: "archive-confirmed"
 publication: "public"
 claims:
@@ -51,6 +51,13 @@ claims:
     sources:
       - label: "Wall of Shame/Fame · 2023-02-28"
         href: "/channels/wall"
+  - text: "On March 26, 2023, Nobu/Xuseio posted a Wall screenshot showing Google results for `Nobu near Brooklyn`, including literal Nobu restaurants. About four minutes later WOO answered with a stare emote, then `nobu`, then `why` in a three-second sequence."
+    evidence: "archive-confirmed"
+    date: "2023-03-26"
+    sources:
+      - label: "Wall of Shame/Fame · 2023-03-26"
+        href: "/channels/wall"
+    note: "POSTED BY Nobu is established by the Discord parent. CAPTURED BY remains unresolved. This is an older surviving restaurant-name collision, not proof that it originated Moon's 2026 `restaurant back in business` wording."
   - text: "On January 4, 2024, Nobu posted `I'm proud of you, Rummy. :Fat_Wheeze:` in the Wall with a screenshot attachment whose contents are not described here."
     evidence: "archive-confirmed"
     date: "2024-01-04"
@@ -80,6 +87,7 @@ antiFanon:
   - "The August 2022 Rummy replies prove direct social interaction before Nobu's appointment announcement; they do not date the apprenticeship or establish the unseen attachment contents."
   - "The November 2022 pancake scene is ensemble teasing, not a formal teaching or discipline scene; the anchor attachment remains undescribed."
   - "The February 2023 rizz exchange is communal teasing, not evidence of romance or attraction."
+  - "Nobu is POSTED BY for the March 2023 `Nobu near Brooklyn` screenshot. The surviving parent does not establish CAPTURED BY, and the older restaurant-name collision does not prove the origin or direct causal ancestry of Moon's 2026 restaurant wording."
   - "Nobu's January 2024 screenshot attachment is POSTED BY Nobu; its unseen contents do not establish creator, capture, or subject credit."
   - "The September 2024 Lobby sequence proves that the stable Xuseio account was carded again, that Nobu true-replied to her own 2022 intake line, and that Sye recognized her with `Wb Nobu`. It does not establish why the Bouncer fired again, whether Nobu had left the server, or that her Party Director appointment reset."
   - "Mugen's adjacent September 2024 `Kuku` / `Weba` lines are not used here as Nobu-recognition evidence because their target is not explicit in the recovered messages."
@@ -95,10 +103,12 @@ relatedPeople:
   - "gabu"
   - "mia"
   - "gilli"
+  - "woo"
 tags:
   - "party-director"
   - "return-continuity"
   - "person-first"
+  - "wall"
 ---
 
 # Nobu
@@ -117,13 +127,17 @@ Marian Kage posts a screenshot attachment that remains visually uninspected here
 
 The reply chain is preserved honestly: Nobu's Discord reply metadata points to Marian Kage's screenshot post, not directly to Rummy's pancake sentence. The text still addresses Rummy. The scene is ensemble teasing, not a reconstructed teaching moment, and it matters because it shows the later formal apprentice relationship living comfortably beside peer-level clown court.
 
-## 2023–EARLY 2024 — THE ROLE ACQUIRES AN APPRENTICE AND A SOCIAL LIFE
+## 2023–EARLY 2024 — THE ROLE ACQUIRES AN APPRENTICE, A SOCIAL LIFE, AND A BRAND PROBLEM
 
 Rummy works under Nobu as **Party Director Apprentice**, not as co-equal Party Director. The archive does not provide a curriculum, start date, or neat delegation ledger. What it preserves is the human relationship around the title.
 
-In February 2023, Nobu opens a Wall exchange with **`Rummy has rizz??`**; Mia answers **`yusss`** and the room wheezes. In January 2024, Nobu posts **`I'm proud of you, Rummy. :Fat_Wheeze:`** over an attachment that remains unseen here.
+In February 2023, Nobu opens a Wall exchange with **`Rummy has rizz??`**; Mia answers **`yusss`** and the room wheezes. Then March gives Nobu a completely different problem: the existence of actual restaurants named Nobu.
 
-The pride and the roast share a sentence. That is the useful character evidence: approval and prosecution do not need separate costumes in this relationship.
+Nobu posts a screenshot showing Google results for **`Nobu near Brooklyn`**, including literal Nobu restaurants. About four minutes later WOO looks at this situation, posts a stare emote, types **`nobu`**, and three seconds later arrives at the only reasonable question: **`why`**.
+
+The cadence is the joke. Stare. Name. Existential objection. Nobu did not make the search results and the surviving Wall parent proves POSTED BY, not CAPTURED BY. More importantly, this is not retroactive proof that the 2023 screenshot *caused* Moon's 2026 **`restaurant back in business`** line. It is simply a beautiful older echo: three years before UL verbally reopened a restaurant for Nobu, Nobu had already carried the literal brand collision into evidence herself. Some naming problems cannot be administratively resolved.
+
+In January 2024, Nobu posts **`I'm proud of you, Rummy. :Fat_Wheeze:`** over an attachment that remains unseen here. The pride and the roast share a sentence. Approval and prosecution do not need separate costumes in this relationship.
 
 ## SEPTEMBER 2024 — THE BOT ASKS HER TO INTRODUCE HERSELF AGAIN; THE PEOPLE DO NOT
 
@@ -137,4 +151,4 @@ When Nobu returns during the August reunion, Rummy greets **`Nobbbuuu back`**. M
 
 Nobody needs to claim there was a literal restaurant. The metaphor works because Nobu's return is being experienced as the return of a familiar social function. But the Gabu line is the important correction to any overly institutional reading: the Party Director comes back as a person with affectionate recognition already loaded into the room.
 
-That is the bio progression: ordinary arrival → appointed specialist → apprentice relationship with peer-level teasing → recognized returner → somebody whose later arrival feels like part of the house reopening. The job is formal. The social effect is warmer, stranger, and much less corporate.
+That is the bio progression: ordinary arrival → appointed specialist → apprentice relationship with peer-level teasing → literal restaurant-name collision → recognized returner → somebody whose later arrival feels like part of the house reopening. The job is formal. The social effect is warmer, stranger, and much less corporate.
