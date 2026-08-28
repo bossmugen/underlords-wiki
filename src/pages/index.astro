@@ -5,6 +5,12 @@ import { castGroups } from "../data/cast";
 const featured = characters.filter((c) => c.billing === "main").slice(0, 8);
 const featuredEpisodes = episodes.slice(-6).reverse();
 const majorOrders = castGroups.slice(0, 6);
+const publicText = (value: string) => value
+  .replace(/`([^`]+)`/g, '"$1"')
+  .replace(/\bbits\b/gi, "jokes")
+  .replace(/\bbit\b/gi, "joke")
+  .replace(/\bgags\b/gi, "jokes")
+  .replace(/\bgag\b/gi, "joke");
 ---
 <WikiLayout title="Underlords Reference Chronicle" description="The reference-mirror wiki for Underlords. The canonical public character, Chronicle, lore, and archive experience now lives on the main Underlords site.">
   <section class="section consolidation-banner">
@@ -43,8 +49,8 @@ const majorOrders = castGroups.slice(0, 6);
         <a class="era-row" href={`/seasons/${season.year}`}>
           <span class="era-index">ERA {String(index + 1).padStart(2,"0")}</span>
           <span class="era-year">{season.year}</span>
-          <strong>{season.title}</strong>
-          <p>{season.subtitle}</p>
+          <strong>{publicText(season.title)}</strong>
+          <p>{publicText(season.subtitle)}</p>
           <b>↗</b>
         </a>
       ))}
@@ -56,7 +62,7 @@ const majorOrders = castGroups.slice(0, 6);
     <div class="wiki-grid">
       {featured.map((character) => (
         <a class="poster-card" data-initial={character.name[0]} href={`/characters/${character.id}`}>
-          <small>{character.role}</small><strong>{character.name}</strong><span>{character.logline}</span>
+          <small>{publicText(character.role)}</small><strong>{character.name}</strong><span>{publicText(character.logline)}</span>
         </a>
       ))}
     </div>
@@ -67,7 +73,7 @@ const majorOrders = castGroups.slice(0, 6);
     <div class="episode-list">
       {featuredEpisodes.map((episode) => (
         <a class="episode-row" href={`/episodes/${episode.id}`}>
-          <span class="ep-season">{episode.season}</span><strong>{episode.title}</strong><p>{episode.logline}</p><time>{episode.date}</time>
+          <span class="ep-season">{episode.season}</span><strong>{publicText(episode.title)}</strong><p>{publicText(episode.logline)}</p><time>{episode.date}</time>
         </a>
       ))}
     </div>
@@ -78,7 +84,7 @@ const majorOrders = castGroups.slice(0, 6);
     <div class="portal-grid">
       {majorOrders.map((group) => (
         <a class="portal-card" href={`/factions#${group.id}`}>
-          <small>ORDER / AFFILIATION</small><h3>{group.label}</h3><p>{group.note}</p>
+          <small>ORDER / AFFILIATION</small><h3>{publicText(group.label)}</h3><p>{publicText(group.note)}</p>
         </a>
       ))}
       <a class="portal-card" href="/factions"><small>FULL INDEX</small><h3>All orders</h3><p>Officers, Snipers, specialists, Game Officers, Staff, Platelets, VIPs, and the archive cast.</p></a>
@@ -86,9 +92,9 @@ const majorOrders = castGroups.slice(0, 6);
   </section>
 
   <section class="section">
-    <div class="section-head"><h2>Persistent Legends</h2><p>The jokes, names, rituals, and tiny disasters that kept surviving long enough to become continuity.</p></div>
+    <div class="section-head"><h2>Persistent Legends</h2><p>The jokes, names, rituals, accusations, and tiny disasters that kept surviving long enough to become continuity.</p></div>
     <div class="index-list">
-      {gags.slice(0,6).map((gag) => <a class="index-card" href={`/gags#${gag.id}`}><small>LEGEND / RECURRING BIT</small><h3>{gag.name}</h3><p>{gag.logline}</p></a>)}
+      {gags.slice(0,6).map((gag) => <a class="index-card" href={`/gags#${gag.id}`}><small>PERSISTENT LEGEND</small><h3>{publicText(gag.name)}</h3><p>{publicText(gag.logline)}</p></a>)}
     </div>
   </section>
 

@@ -4,8 +4,14 @@ import { gags } from "../data/wiki";
 import { integratedGags } from "../data/integrator-gags";
 
 const allGags = [...gags, ...integratedGags];
+const publicText = (value: string) => value
+  .replace(/`([^`]+)`/g, '"$1"')
+  .replace(/\bbits\b/gi, "jokes")
+  .replace(/\bbit\b/gi, "joke")
+  .replace(/\bgags\b/gi, "jokes")
+  .replace(/\bgag\b/gi, "joke");
 ---
-<WikiLayout title="Legends | Underlords Wiki" description="Recurring Underlords jokes, bits, rituals, callbacks, and house grammar that survived long enough to become continuity.">
-  <section class="hero"><div><div class="kicker">LEGENDS · CURSES · RECURRING BITS</div><h1>Legends</h1><p class="tagline">First it is a joke. Then it happens again. Then somebody names a role after it, builds a bot around it, puts it in a profile, or resurrects it three years later. At that point it has entered the canon whether dignity approves or not.</p></div></section>
-  <section class="section"><div class="index-list">{allGags.map((gag)=><article class="index-card" id={gag.id}><small>PERSISTENT LEGEND</small><h3>{gag.name}</h3><p>{gag.logline}</p></article>)}</div></section>
+<WikiLayout title="Legends | Underlords Wiki" description="Recurring Underlords jokes, rituals, callbacks, names, accusations, and house language that survived long enough to become continuity.">
+  <section class="hero"><div><div class="kicker">LEGENDS · CURSES · CALLBACKS</div><h1>Legends</h1><p class="tagline">First somebody says it. Then it happens again. Then the room starts using the name like everybody was born knowing it. Three years later somebody resurrects it and nobody asks for context.</p></div></section>
+  <section class="section"><div class="index-list">{allGags.map((gag)=><article class="index-card" id={gag.id}><small>PERSISTENT LEGEND</small><h3>{publicText(gag.name)}</h3><p>{publicText(gag.logline)}</p></article>)}</div></section>
 </WikiLayout>
