@@ -1,70 +1,51 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration pass: **2026-08-28 04:35 PDT**.
+Last dual-surface integration pass: **2026-08-28 07:02 PDT**.
 
 This is the rolling current integration state. Earlier pass detail remains durable in Git history and in the main-site `archive-intake/INTEGRATION_PASS_*_DUAL.md` reports.
 
-## Current pass — Ghoulie owns the Wall; Aesh owns the stopwatch; Jordayy owns whatever happened with that dog
+## Current pass — Dragon on the form, Whiskey on the couch
 
 ### Branch census / queue
 
 - Main-site mandatory census enumerated **24 miner branches** before deep review and persisted every current `last_seen_sha` on `master` before any long review began.
-- Three miner branches required review: Daycare advanced `37587a30eb10a7a0a22c5f747a02f6f9643cfff4 -> 969b6f22307eb55c7c45e05fb4bc0cdce39ab326`; Whiskey advanced `dcd1147e07a5c840f4a879e6e4e21c25f7f8e732 -> 921be57142e05ad97102886803237dbe8bc5164f`; Backroom Deals advanced from reviewed frontier `4bd35a263b13c3565a95b52269cddd16f5476c5a -> 7911b0dcc592f7b81887574621e8d838adcaa771`.
-- Club-Only 2021–2026 and Club-Only 2020 were already consumed through unchanged heads and were not reread.
+- Advanced/unconsumed branches: Daycare `969b6f22307eb55c7c45e05fb4bc0cdce39ab326 -> 7b441bcb9c800072123a7bb61d2bb150631146b2`; Whiskey `921be57142e05ad97102886803237dbe8bc5164f -> a3eba38e6500631c350ff9f23c6c9ebbffe9f9d2`.
+- Anti-starvation recovery continued on Wall. Club-Only 2021–2026 and Club-Only 2020 were already consumed through unchanged heads and were not reread.
 - No miner branch was merged or cherry-picked into either publishing branch.
 - After review: **0 pending_review, 0 backlog, 0 review_overdue**.
-- Remaining cumulative recovery branches: **Living Ensemble, Core Rooms, Wall**.
-- Backroom Deals has now been consumed through its current HEAD because the miner's final closeout explicitly completed the available handoff review and declared the quarry exhausted at the current source boundary.
+- Remaining cumulative safe-baseline recovery branches: **Living Ensemble, Core Rooms, Wall**.
 
 ## Reviewed branches
 
-### Daycare — `37587a30… -> 969b6f22…`
+### Daycare — `969b6f22… -> 7b441bcb…`
 
 Checkpoint first, then only changed `archive-intake/*` handoffs.
 
-The important result is a correction, not another trophy for the Wall speedrun shelf.
+This delta mostly sharpened Discord doorways rather than producing new public biographies. Ghostt's December 2020 entry/routing and Zyrcant/Akariel's January 2021 Amaurot/IGN bridge were already public more strongly. DyingFox gained an Oct. 8, 2020 pre-Daycare Discord doorway, useful chronology but not enough reason to rewrite an already rich main/wiki dossier in this pass.
 
-Baby Lyssa / Ghoulie is securely the person Mugen invokes with `ghoulie got competition`, but the new chronology shows that the comparison metric itself is unstated. Lyssa entered the Discord on March 4, 2021 as `Ghoulie | Ethereal | 18`; her earliest surfaced stable-ID Wall occurrence is more than eight days later. That means the archive does **not** support calling Ghoulie an earlier measured speed-shaming record holder.
+Torr, Alaina, asapROG3R, Lyzette, Queen Shimoko, delay, and porgo remain thin identity/doorway shells. The review preserved minor-age and role-chronology boundaries rather than turning one-message Daycare appearances into fake full biographies.
 
-The safe split is:
+Result: successful no-public-change review; consumed through `7b441bcb9c800072123a7bb61d2bb150631146b2`.
 
-- **Ghoulie/Baby Lyssa** — established Wall resident / comparison point;
-- **Aeshleen** — the rapid-entry Wall case Woohyuk explicitly calls `a record`;
-- **Zhēnxī** — the later `shamed within 6 minutes of entry` challenge/callback.
-
-Ghoulie's actual recurring Wall language got richer at the same time: `At this point just name it Ghoulies wall of shame` -> `this is my wall` -> Ghostt says she lives there -> Mugs asks for rent -> Tae says she lives there rent-free -> Ren says Ghoulie is back to claim the Wall -> Snow proposes `Ghoulie & Panda's house of shame` and jokes that the quantity might need its own subchannel.
-
-That recurrence is now incorporated into the wiki's existing **Wall of Shame / Fame** legend, but kept separate from the speed-record claim. Social tenancy is not a stopwatch.
-
-Held: exact March 2021 in-game admission/accept mechanics; typed `sama`; exact metric behind `ghoulie got competition`; uninspected adjacent media.
-
-### Whiskey — `dcd1147e… -> 921be571…`
+### Whiskey — `921be571… -> a3eba38e…`
 
 Checkpoint first, then changed Whiskey handoffs only.
 
-Whiskey advanced **Jordayy** from a stray name into a coherent first-person character file:
+The genuinely new person-scale material was **Jade**. Her March 5, 2021 Lobby doorway says `蛋挞吃多了(JADE)` and self-reports **Dragon**. After the role/Tour handoff, Mugen is personally welcoming her in Whiskey about forty-four seconds later. That distinction matters: the Discord doorway is documented, but the archive does not get to convert it into an Underlords in-game join date.
 
-- `I like reading yalls conversions`;
-- `Also back to disappearing again`;
-- `This is what I’m wearing catching my dog`;
-- `I wanna share my screen too, I’ll just show last page`;
-- `I got a hair cut I chopped off all my hair`.
+A few weeks later Jade is inviting Whiskey to watch *Get Out* via DM link, references `going against each other in contest again tmr` without enough nouns to identify the contest or opponent, and then defends Prince Caspian with `he's forever prince caspian in my heart` followed by `IDC HES HOT AF`.
 
-Main now owns the full Jordayy biography. The rhythm is the point: she explicitly enjoys reading the room, treats disappearing as something she has done before, then keeps resurfacing when ordinary life becomes funny/showable enough to submit to Whiskey. The dog-catching visual and screen-share content remain uninspected, so no outfit, page contents, dog scenario, or haircut specifics were invented.
+Main now owns that full character vignette because the social story is better than the taxonomy: another-club label on the form, immediate house placement in practice, then ordinary shared-media and thirst-banter life. The wiki intentionally does **not** add a thinner duplicate Jade card this pass; the current evidence does not improve Cast/Relationship/Episode lookup enough to justify mirroring the biography.
 
-Jordayy is intentionally **main-only** in this pass. A wiki card would presently duplicate the vignette without improving lookup structure.
+KOREA Milk's 0601 Whiskey packet had already been independently published on current main before this review and was treated as duplicate/corroboration. Miihi/Milk's cat adoption, Dragon Raja puzzle, and Woohyuk birthday line remain a small future-profile packet rather than being forced into a thin dossier. KOREA Milk and Miihi/Milk remain distinct stable accounts; similar milk naming is not an identity bridge.
 
-Whiskey's new Meowk/Alkey Canada/ice/skates/hockey convergence was treated as corroboration only because the project already has a stronger Core Rooms stable-account bridge. No duplicate identity discovery was published.
+Raw z23 re-acquisition remained 403/source-blocked, so no reply/edit inference was manufactured.
 
-### Backroom Deals — recovery closeout
+### Wall recovery
 
-`4bd35a26… -> 7911b0dc…`
+Checkpoint first. The latest rail-105 Akariel/Zyrcant sequence — volunteer for Wall placement, Ren says `You got to e a r n your place here`, later `caught in 4k`, Akariel answers `oooh shit *runs*` — was re-reviewed and found already public on Zyrcant's main dossier. No duplicate publication was accepted.
 
-Checkpoint first. The miner's final audit explicitly found **nothing worth publishing** and declared the assigned quarry **EXHAUSTED AT CURRENT SOURCE BOUNDARY** after three consecutive low-yield closeout passes.
-
-The closeout preserves source-blocked residue for later narrow re-opening — Zoshaa/Jail exact authored lines, Moonrealm exact lines/media, Kross/Joyonto joins, appointment chronology, raw media, Board/Bloodhounds endpoints and leadership-room succession — rather than forcing answers from filenames, proposals, counts, or export-time roles.
-
-Because the final checkpoint and `QUARRY_EXHAUSTED.md` explicitly certify the available handoff work as completed, main's branch-state ledger now advances Backroom Deals through current HEAD. No public wiki or main lore change was accepted from the final Backroom delta.
+Wall's older safe-baseline recovery remains incomplete, so its `last_consumed_sha` stays null. Next unresolved older rail remains Sushi.
 
 ## Surface split / verification
 
@@ -72,50 +53,38 @@ Because the final checkpoint and `QUARRY_EXHAUSTED.md` explicitly certify the av
 
 Public lore changed:
 
-- **new:** `src/content/people/jordayy.md`
-- **corrected:** `src/content/people/baby-lyssa.md`
+- **new:** `src/content/people/jade.md`
 
-Public-content commits:
+Jade is intentionally main-first. Her current value is the lived social contradiction — Dragon on the intake line, Whiskey almost immediately after — plus the movie invite and Prince Caspian defense. Turning that into a tiny wiki card would repeat the same material without adding a useful indexable relationship/episode structure.
 
-- Jordayy — `f6aad49cc83709b94dff807aa3c067bbb33a6122`
-- Baby Lyssa correction / final public-content head — `09722609b6108055720c9dba0956a7759d858042`
+Public-content commit: `ba5c48591bdebc290598b5e8287095fc1bf10802`.
 
-Exact public-content head `09722609b6108055720c9dba0956a7759d858042` passed workflow run **33168269485**: source canon/architecture verification, Astro build, built-output verification, and exact Cloudflare production deployment all succeeded.
+Exact public-content verification/deployment: main workflow run **33178822465** passed source canon/architecture verification, Astro build, built-output verification, and exact Cloudflare production deployment.
 
 ### Wiki
 
-Public lore changed:
+No public lore page changed this pass by design. The wiki records the reconciliation here instead of cloning Jade's main biography. KOREA Milk is likewise left with main as the current person owner; Woohyuk's pancake birthday vocabulary remains a future gag/callback candidate if recurrence makes it useful as a wiki lookup object.
 
-- `src/data/integrator-gags.ts` — expanded and corrected **Wall of Shame / Fame** so Ghoulie Wall residency is distinct from Aeshleen's explicit rapid-entry record, with Zhēnxī retained as the later six-minute callback.
-
-Public-content commit:
-
-- `78c5e866d663da6b3536bf6df66a4482f28e13d9`
-
-Verification on that exact wiki public-content commit:
-
-- `Build Underlords Wiki` run **33168287417** — success;
-- Pages run **33168287440** — build/deploy/report chain success.
-
-Main owns Baby Lyssa's person-scale story and Jordayy's full character file; wiki owns the compact recurring Wall legend. The copy is intentionally not mirrored word-for-word.
+The wiki's own build/Pages verification for this state commit is recorded by the current workflow runs on `main`.
 
 ## Consumption advanced
 
-- `archive-miner/daycare-2020-2026-hourly` -> `969b6f22307eb55c7c45e05fb4bc0cdce39ab326`
-- `archive-miner/whiskey-longitudinal-hourly` -> `921be57142e05ad97102886803237dbe8bc5164f`
-- `archive-miner/backroom-deals-2026-08-24` -> `7911b0dcc592f7b81887574621e8d838adcaa771`
+- `archive-miner/daycare-2020-2026-hourly` -> `7b441bcb9c800072123a7bb61d2bb150631146b2`
+- `archive-miner/whiskey-longitudinal-hourly` -> `a3eba38e6500631c350ff9f23c6c9ebbffe9f9d2`
+- Wall remains `last_consumed_sha: null` / `recovery_in_progress`; its latest reviewed tail is durable without skipping the older floor.
 
 Remaining cumulative safe-baseline recoveries: Living Ensemble, Core Rooms, Wall.
 
 ## Reviewed but held / deduped
 
-- Meowk/Alkey Canada + ice + skates + hockey: duplicate corroboration under stronger existing stable-ID evidence.
-- Existing Baby Lyssa Wall story on main was already rich; only the corrective/new residency layer was integrated rather than producing another duplicate incident essay.
-- Backroom final closeout: no new A/B public candidate; earlier strong discoveries retain their existing canonical owners.
-- Ghoulie exact March 2021 UL-club admission mechanics, typed `sama`, and the exact `ghoulie got competition` metric remain unresolved.
-- Jordayy entry/recruiter/status chronology and the dog/screen-share visuals remain unresolved/uninspected.
-- Backroom source-blocked residue remains held rather than guessed.
-- Standing rabbits remain open for Nitro creator/exact first noun, ShiyaX fake-family genealogy, Snow/Big Bang, Alabama/Tumbleweed expansion, Feli↔Mugs Tumbleweed, and unresolved media maker/captor/featured joins.
+- Daycare Ghostt and Zyrcant doorway packets: duplicate/corroboration under stronger existing public owners.
+- Daycare DyingFox Oct. 8, 2020 doorway: useful chronology, held from redundant public rewrite.
+- Daycare Torr, Alaina, asapROG3R, Lyzette, Queen Shimoko, delay, porgo: thin shells, no generic one-scene dossiers.
+- Whiskey KOREA Milk: already public on current main before this review; no duplicate discovery publication.
+- Whiskey Miihi/Milk: future small profile; uninspected cat image and Raja puzzle screenshot stay uninspected.
+- Jade's March contest/opponent/sides/result remain unresolved.
+- Wall rail 105 exact `caught in 4k` offense/evidence remains missing.
+- Standing source-blocked/media rabbits remain held rather than guessed.
 
 ## Current cross-surface continuity locks
 
