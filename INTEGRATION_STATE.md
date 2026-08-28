@@ -1,94 +1,94 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration pass: **2026-08-28 14:44 PDT**.
+Last dual-surface integration pass: **2026-08-28 15:13 PDT**.
 
 This is the rolling current integration state. Earlier pass detail remains durable in Git history and in the main-site `archive-intake/INTEGRATION_PASS_*_DUAL.md` reports.
 
-## Current pass — Tofu meets the Wall; Whiskey queue closes behind her
+## Current pass — LEXI gets a file; another miner moves under our feet
 
 ### Branch census / queue
 
-- Main-site mandatory opening census enumerated **24 miner branches** before deep review and persisted every current head first.
-- Newly discovered branches: **0**.
-- Advanced/unconsumed branches encountered across the overlapping 14:30/14:35 integration window were **Daycare** `eb12127ec024ec5db3fb7e9787a529e729b4ab7f -> fa56460c845519c8e8c9496e089ed70245b03f10` and **Whiskey** `cf4f884f34ec5a086f8e26c811fe7fa49a60cfe6 -> e7b3192a8a6d5ba240cf00c7737864e46018ddb9`.
-- Club-Only 2021–2026 and Club-Only 2020 remained consumed through unchanged heads and were not reread.
-- Anti-starvation recovery rotated to **Wall** at unchanged HEAD `36e85aa2025b030faf43fecd20a315b158debd4c`, advancing durable cumulative recovery into the older 20:46 handoff package.
-- The publishing branches were re-read around concurrent edits. No miner branch was merged or wholesale cherry-picked into either publishing branch.
-- After the Whiskey review completed, there are **0 pending / 0 backlog / 0 review-overdue discrete miner branches**.
+- MAIN's mandatory opening census enumerated **24 miner branches** and persisted every then-current head before deep review.
+- At that opening boundary, the only newly advanced discrete branch was **Whiskey**: `e7b3192a8a6d5ba240cf00c7737864e46018ddb9 -> 37b76ce0e1208a31b3ff9eb7a9ca7415934f1b08`.
+- Club-Only 2020 and Club-Only 2021–2026 remained consumed through unchanged heads and were not reread.
+- Anti-starvation recovery advanced **Living Ensemble** through Run10 at unchanged branch HEAD `66c3227c687965a4dae9b372fdcbe2dc128611ba`.
+- While public verification was running, **Daycare** advanced from consumed `fa56460c845519c8e8c9496e089ed70245b03f10` to `0bb1cf1b30f954c66427dc412657d662f2de20cd`. A concurrent MAIN census registered it as `pending_review`; this pass preserved that state instead of overwriting it.
+- Current discrete queue: **1 pending (Daycare), 0 backlog, 0 review-overdue**.
+- Cumulative recovery remains open for **Living Ensemble, Core Rooms, and Wall**.
 
-## Daycare delta — reviewed, duplicate publicly
+## Whiskey delta — LEXI
 
-The Daycare checkpoint was read first, then only changed intake-local findings, receipts and site candidates were inspected.
+The Whiskey checkpoint was read first, then only the changed intake-local handoffs were reviewed.
 
-The strongest delta was Oyasumi's chronology: his February 25, 2022 self-introduction includes `Boy what the hell boy`, `IGN: TankHead94`, `Club: Underlords`, while by May 2023 he is personally sending the welcome / Platelet-safety / routing packet to newcomers.
+The strongest new person is stable account `688932590584987783 / strawburrilexi`, surfaced as **LEXI**. On January 11, 2021, under an explicit Lobby prompt for IGN / club / server / age, the account answers `Okaa-san, LoliParadise, S8, 19`. Public copy omits the historical age. The first three fields make Okaa-san first-party IGN evidence in that scene, LoliParadise the club, and S8 the server. Because the account is explicitly presenting another club, the doorway is Discord-presence evidence, not an in-game UL admission timestamp.
 
-That material was already public on MAIN and WIKI from concurrent integration, including the `TankHead94` doorway and later front-door behavior, so the pass did **not** publish a duplicate version. Athena and Yami remain below the threshold for thin standalone public cards in this delta, and the cause of Kiro's duplicate re-welcome remains unresolved.
+Gilli sends LEXI toward the Discord Tour; minutes later, the earliest surfaced H1 Whiskey media row for the same account is already an anime reaction GIF. The useful movement is clipboard → map → room language.
 
-Daycare is successfully reviewed and consumed through `fa56460c845519c8e8c9496e089ed70245b03f10` even though this delta required no new public Daycare copy.
+Across February 14, March 2, and March 3, LEXI repeatedly directs affectionate or encouraging language toward Staff. The March 2 scene preserves an ordinary-life craft failure: she says something she wrote with Japanese pens smudged because she forgot the ink needed drying time, complains about the mistake, then sends the good-day wish anyway. The attachment remains visually uninspected, so no exact design, handwriting, or image contents are invented. On March 3 she writes `love you all be safe, know that you are loved and you are worth it.`
 
-## Whiskey delta — Ricochet is already where he belongs
+A recurring dyad with the account displayed as **Meowk** culminates March 6 with LEXI writing `I have to go now I love you idiot`; twenty seconds later Meowk answers `I love you too shorty`. Existing WIKI canon independently resolves that 2021 Meowk display account to **Alkey**. The exchange remains recurring affectionate banter, not romance, exclusivity, sexual evidence, relationship rank, or a durable `shorty` alias. The small insults are social wrapping paper around an explicit reciprocal handoff.
 
-The Whiskey checkpoint was read first, then only the changed 14:01 intake-local handoffs were reviewed.
+WIKI accepted LEXI into **Archive / Extended Cast** and added `src/data/dossier-snapshots/lexi.md`. The cast entry deliberately says **Archive-era Discord cast** rather than inventing a current UL role or membership status.
 
-The new handoff deepens stable account `459696170759880745 / dragonrichard / Ricochet` with ordinary-life material: a family puppy plan, a tank-game comparison to Dragon Raja, `Way to freaking cold for south texas`, an explicitly hypothetical `if i ever get married` reaction, a Family Feud roast clip, and Panda / Marian's `@Ricochet got me my Cheesecake Factory ... (but no cheesecake)` favor receipt.
+MAIN owns the richer character treatment in `src/content/people/lexi.md`.
 
-Novelty check found that WIKI's existing `src/data/dossier-snapshots/ricochet.md` already owns this evidence family with the right boundaries. MAIN does not need a duplicate thin Ricochet biography just to mirror the wiki.
+## Acoryuie — one identity question narrows without magically resolving
 
-The nearby April 9 ACORYUIE birthday cluster remains unresolved: the available media-preview layer does not technically name ACORYUIE / Cinders / Juniper as Eos's birthday target. Adjacency remains insufficient for a birthday date.
+The same Whiskey handoff supplied a raw January 29, 2022 Lobby receipt for stable Acoryuie account `372340096613220356`. Under an explicit IGN / club / age prompt, the account answers `Juniper`, `Underlords`, then the historical age field.
 
-Whiskey is therefore successfully reviewed with no additional public copy and consumed through `e7b3192a8a6d5ba240cf00c7737864e46018ddb9`.
+That safely makes **Juniper** a first-party IGN by that date and **Underlords** a first-party club answer in that specific scene. It still does not tell us whether the older Cinders→Juniper shift was a formal rename, alt/character switch, or some other history, and the 2022 answer is not back-projected into early 2021.
 
-## Wall recovery — 20:46 Tofu package
+MAIN's existing Acoryuie profile was tightened with this later receipt. WIKI intentionally did not add a duplicate Acoryuie object this pass; MAIN already owns the richer identity chronology and the new coda does not need mirrored prose to remain part of shared canon.
 
-The Wall checkpoint was read first, then only the older 20:46 findings, receipts and site candidates were inspected.
+## Living Ensemble Run10 — reviewed, not duplicated
 
-The new keeper is Tofu's first-week Wall chronology:
+Run10's strongest public candidate was another Baby Lyssa / Ghoulie Wall-residency mutation: April 22, 2021 `why am i always here` answered by another member with `Girl its like you live here`, before the already-public ownership/rent material. August 9 preserves the already-public `ONE SECOND` / twice-on-the-Wall reaction.
 
-- recovered Discord metadata gives the stable Tofu account a **June 20, 2021 server-join timestamp**;
-- five days later, **June 25**, Tofu has the earliest Wall post found in the checked surviving Tofu interval, with an attachment that remains visually uninspected;
-- on **June 28**, ShiyaX tells Tofu `you’re all over the wall`; Tofu answers `Shiya no I’m scared of the walls`; ShiyaX replies `you better`;
-- on **August 27**, a direct reply to one of Tofu's Wall posts reads `OH GOD NO`; Tofu answers `HAHAHAHAHAHA`.
+The public Baby Lyssa story already owns the record joke, Wall competition, ownership claims, `she lives on the wall` / rent, and the August twice-on-the-Wall complaint. April 22 is useful corroboration but not enough of a story change to justify another near-identical public paragraph. Run10's Tumbleweed resurfacing remains HOLD pending direct artifact comparison.
 
-The chronology is useful precisely because the joke lands so fast: Tofu has barely crossed the Discord threshold before the Wall is already both a room she uses and a room she is expected to fear. The archive does **not** convert the June 20 server timestamp into an in-game admission or Staff appointment date, does not promote June 25 into a proven global Wall origin, and does not invent contents for the uninspected attachment.
+Living Ensemble now has durable reviewed coverage through **Runs02–10, Run17, and Runs22–26**. Runs11–16 and other safe-baseline gaps remain; `last_consumed_sha` stays null.
 
-MAIN owns the richer character scene in `src/content/people/tofu.md`, content commit `ddf9430e5a09d9b745e36b2963cb040543803d4c`.
+## Daycare advanced mid-pass — correctly left pending
 
-WIKI owns the compact chronology in `src/data/dossier-snapshots/tofu.md`, content commit `67fbeb76294e5a51d23b4432af877a8c4674ae59`.
+The later Daycare head arrived after the opening selection boundary. This pass only spot-read the new checkpoint and site-candidate handoff after detecting the concurrent census; it did **not** falsely call that a full changed-delta review.
 
-## Continuity correction — Dayadream is Daya
+The strongest queued candidate is Baby Lyssa / Ghoulie treating Daycare like claimed social territory. The handoff links an earlier `pls i own this channel` joke to a June 2 Wall sequence where she tells xanthos `NAH GET YA ASS`, posts literal `#🐣│ul-daycare`, then escalates `PLEASE` → `PLEASEEEEE`.
 
-Reading current MAIN `CANON_LOCKS.md` exposed a continuity error in the previous Wiki integration state. Current canon explicitly maps **Daya / Dayadream** as the same person, and the existing Daya dossier already carries `Dayadream` as an alias.
-
-The prior rolling state incorrectly said `Dayadream` should not be merged with Daya, and the `Moon Cites the Contract` episode cast filed Dayadream as if she were a separate person. That was wrong.
-
-WIKI `src/data/integrator-episodes.ts` is corrected at commit `6148d84e41bba44fc5879336dfe1b003ace9c365`: the scene now routes to **Daya**, notes that she was posting under the Dayadream alias, and keeps the same anti-fanon limits around the joking marriage contract and `Sushi`/Oyasumi scene-local reference.
-
-The correction changes identity routing, not the social reading of the September 11, 2022 scene.
+Safe reading: social summons / redirect plus self-appointed proprietorship. Unsafe reading: technical ownership, creator/moderator status, or proof that xanthos complied. The full Daycare delta remains pending for a later selected review.
 
 ## Verification / deployment
 
-- MAIN public-content commit `ddf9430e5a09d9b745e36b2963cb040543803d4c` passed workflow **33213440517** end-to-end: source/canon verification, Astro build, built-output verification, Cloudflare deployment and exact-production verification all succeeded.
-- WIKI public-content head `67fbeb76294e5a51d23b4432af877a8c4674ae59` passed standalone Astro build workflow **33213483570**.
-- The same WIKI content head passed Pages workflow **33213484048**, including Pages build, deploy and report.
-- The Whiskey delta required no new public-content commit because its strongest material was already owned by the existing Ricochet dossier; its consumed frontier is recorded in MAIN's branch ledger instead of generating duplicate prose.
+### MAIN public content
 
-## Recovery state after pass
+- Commit `d6dc517c4d6f36241ecfacf09a911a7cf3f9bd97` added LEXI and tightened Acoryuie.
+- Workflow `33215331297` completed successfully.
+- Its **Build + verify** job passed source canon/architecture verification, Astro build, and built-output verification.
+- Its deployment job deployed and verified the **exact production commit** on Cloudflare Pages successfully.
 
-- **Daycare**: consumed through `fa56460c845519c8e8c9496e089ed70245b03f10`.
-- **Whiskey**: consumed through `e7b3192a8a6d5ba240cf00c7737864e46018ddb9`.
-- **Living Ensemble**: durable reviewed coverage includes Run02–Run09, Run17 and Runs22–26. Runs10–16 and other cumulative gaps remain unswept; `last_consumed_sha` stays **null**.
-- **Core Rooms**: durable cumulative recovery includes the 07:46 Moon/Daya (Dayadream alias) package beneath previously recorded 08:46 and 09:46 work. Older 06:46-and-below safe-baseline material remains; `last_consumed_sha` stays **null**.
-- **Wall**: durable cumulative recovery now includes 23:46 Light Mode, 22:46 Baby Lyssa property, 21:46 Alkey and 20:46 Tofu packages. Older safe-baseline material remains; `last_consumed_sha` stays **null**.
+### WIKI public content
+
+- Commit `d6a9deccea0edfee1f92b8699e8b17911396046e` added LEXI to Archive / Extended Cast and added the dossier snapshot.
+- Standalone build workflow `33215461462` completed successfully.
+- Pages workflow `33215461383` also completed successfully, including the Wiki's existing build/deploy/report path.
+
+## Recovery / consumption state after this pass
+
+- **Whiskey**: consumed through `37b76ce0e1208a31b3ff9eb7a9ca7415934f1b08` after successful review and verified publication.
+- **Daycare**: head `0bb1cf1b30f954c66427dc412657d662f2de20cd` remains pending against consumed `fa56460c845519c8e8c9496e089ed70245b03f10`.
+- **Living Ensemble**: reviewed through Runs02–10, Run17, Runs22–26; Runs11–16 and other gaps remain; consumed SHA null.
+- **Core Rooms**: cumulative recovery includes the recorded 07:46/08:46/09:46 packages; older 06:46-and-below material remains; consumed SHA null.
+- **Wall**: cumulative recovery includes 23:46 Light Mode, 22:46 Baby Lyssa property, 21:46 Alkey, and 20:46 Tofu; older material remains; consumed SHA null.
 
 ## Current cross-surface continuity locks
 
-- Main and Wiki are complementary surfaces, not independent canon systems.
-- **Daya = Dayadream** in current canon. Do not create a separate Dayadream person from the alias.
-- User-confirmed canon and direct stable-ID bridges outrank miner-local warnings and name resemblance.
+- MAIN and WIKI are complementary public surfaces, not independent canon systems.
+- **Daya = Dayadream**. Do not create a separate Dayadream person from that alias.
+- Current WIKI canon resolves the 2021 **Meowk** display account to **Alkey**; that bridge does not turn affectionate LEXI/Meowk language into romance canon.
+- User-confirmed canon and direct stable-ID bridges outrank name resemblance and miner-local uncertainty.
 - Discord onboarding is not silently converted into exact in-game admission chronology.
 - Export-time role arrays are not appointment chronology.
-- Joke roles are not formal governance; joke prestige is not formal ownership or scoring.
-- Joke ships, fake-marriage contracts and fake-family language are not literal romance/family canon without stronger evidence.
+- Joke roles are not formal governance; joke prestige/property language is not technical authority.
+- Joke ships, fake-marriage contracts, fake-family language, and affectionate banter are not literal romance/family canon without stronger evidence.
 - Earliest surviving evidence is not automatically origin.
 - `SAID BY`, `POSTED BY`, `MADE BY`, `CAPTURED BY`, and `FEATURING` remain separate provenance relations.
 - Uninspected images remain uninspected; captions and reactions do not license invented contents.
