@@ -1,95 +1,95 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration pass: **2026-08-28 15:13 PDT**.
+Last dual-surface integration pass: **2026-08-28 15:53 PDT**.
 
 This is the rolling current integration state. Earlier pass detail remains durable in Git history and in the main-site `archive-intake/INTEGRATION_PASS_*_DUAL.md` reports.
 
-## Current pass — LEXI gets a file; another miner moves under our feet
+## Current pass — Ghoulie claims another room; Tofu puts her brother on trial
 
 ### Branch census / queue
 
 - MAIN's mandatory opening census enumerated **24 miner branches** and persisted every then-current head before deep review.
-- At that opening boundary, the only newly advanced discrete branch was **Whiskey**: `e7b3192a8a6d5ba240cf00c7737864e46018ddb9 -> 37b76ce0e1208a31b3ff9eb7a9ca7415934f1b08`.
-- Club-Only 2020 and Club-Only 2021–2026 remained consumed through unchanged heads and were not reread.
-- Anti-starvation recovery advanced **Living Ensemble** through Run10 at unchanged branch HEAD `66c3227c687965a4dae9b372fdcbe2dc128611ba`.
-- While public verification was running, **Daycare** advanced from consumed `fa56460c845519c8e8c9496e089ed70245b03f10` to `0bb1cf1b30f954c66427dc412657d662f2de20cd`. A concurrent MAIN census registered it as `pending_review`; this pass preserved that state instead of overwriting it.
-- Current discrete queue: **1 pending (Daycare), 0 backlog, 0 review-overdue**.
-- Cumulative recovery remains open for **Living Ensemble, Core Rooms, and Wall**.
+- No new miner branch appeared.
+- Two discrete branches were advanced and fully reviewed checkpoint-first:
+  - Daycare: `fa56460c845519c8e8c9496e089ed70245b03f10 -> 0bb1cf1b30f954c66427dc412657d662f2de20cd`
+  - Whiskey: `37b76ce0e1208a31b3ff9eb7a9ca7415934f1b08 -> a8a6cfaeaa3f21c35ca8cfaff5b14a8d8d4f63ed`
+- Club-Only 2020 and Club-Only 2021–2026 remain consumed through unchanged heads and were not reread.
+- Anti-starvation recovery continued on Living Ensemble at unchanged HEAD `66c3227c687965a4dae9b372fdcbe2dc128611ba`.
+- After this pass there are **0 pending discrete branches, 0 backlog, 0 review-overdue**. Cumulative recovery remains open for Living Ensemble, Core Rooms, and Wall.
 
-## Whiskey delta — LEXI
+## Daycare — Baby Lyssa / Ghoulie treats the room like home turf
 
-The Whiskey checkpoint was read first, then only the changed intake-local handoffs were reviewed.
+The Daycare checkpoint was read first, then only its changed `archive-intake/*` handoffs.
 
-The strongest new person is stable account `688932590584987783 / strawburrilexi`, surfaced as **LEXI**. On January 11, 2021, under an explicit Lobby prompt for IGN / club / server / age, the account answers `Okaa-san, LoliParadise, S8, 19`. Public copy omits the historical age. The first three fields make Okaa-san first-party IGN evidence in that scene, LoliParadise the club, and S8 the server. Because the account is explicitly presenting another club, the doorway is Discord-presence evidence, not an in-game UL admission timestamp.
+The strongest new family connects two kinds of Ghoulie room-claiming behavior. On March 29, 2021 she jokes that she basically owns Daycare more than her own channel, tells Moon that `if you chill in daycare enough you'd understand`, and ranks `daycare >>>> main vc >>> officers`.
 
-Gilli sends LEXI toward the Discord Tour; minutes later, the earliest surfaced H1 Whiskey media row for the same account is already an anime reaction GIF. The useful movement is clipboard → map → room language.
+The joke becomes action on June 2. During a Wall exchange, xanthos says `my work here is done`. Baby Lyssa answers `NAH GET YA ASS`, drops the literal Daycare channel tag, then escalates `PLEASE` -> `PLEASEEEEE` -> `IM PEEING`. The surviving receipt proves an attempted redirect/summons toward Daycare. It does **not** prove xanthos complied, and Ghoulie's ownership language is social territory rather than technical ownership, creator/moderator status, or formal authority.
 
-Across February 14, March 2, and March 3, LEXI repeatedly directs affectionate or encouraging language toward Staff. The March 2 scene preserves an ordinary-life craft failure: she says something she wrote with Japanese pens smudged because she forgot the ink needed drying time, complains about the mistake, then sends the good-day wish anyway. The attachment remains visually uninspected, so no exact design, handwriting, or image contents are invented. On March 3 she writes `love you all be safe, know that you are loved and you are worth it.`
+WIKI accepted `src/data/dossier-snapshots/baby-lyssa.md`. The dossier ties this Daycare habit to the already-public Wall property/rent lineage without pretending the rooms are the same joke. MAIN already owns the richer Baby Lyssa Wall character movie, so it did not receive duplicate prose this pass.
 
-A recurring dyad with the account displayed as **Meowk** culminates March 6 with LEXI writing `I have to go now I love you idiot`; twenty seconds later Meowk answers `I love you too shorty`. Existing WIKI canon independently resolves that 2021 Meowk display account to **Alkey**. The exchange remains recurring affectionate banter, not romance, exclusivity, sexual evidence, relationship rank, or a durable `shorty` alias. The small insults are social wrapping paper around an explicit reciprocal handoff.
+Other Daycare handoffs — wisp/SolterVy, keon/Yuqi茶, and Beckiie — remain thin identity/doorway texture rather than new public dossiers. Beckiie's images remain uninspected.
 
-WIKI accepted LEXI into **Archive / Extended Cast** and added `src/data/dossier-snapshots/lexi.md`. The cast entry deliberately says **Archive-era Discord cast** rather than inventing a current UL role or membership status.
+## Whiskey — Tofu's ordinary-life file
 
-MAIN owns the richer character treatment in `src/content/people/lexi.md`.
+The Whiskey checkpoint was read first, then only its changed intake-local handoffs.
 
-## Acoryuie — one identity question narrows without magically resolving
+The strongest public addition is three consecutive June 2021 days that make Tofu look like a whole person instead of somebody born inside a Wall evidence bag.
 
-The same Whiskey handoff supplied a raw January 29, 2022 Lobby receipt for stable Acoryuie account `372340096613220356`. Under an explicit IGN / club / age prompt, the account answers `Juniper`, `Underlords`, then the historical age field.
+On June 27 she asks Whiskey for music recommendations because she has been listening to the same playlist for weeks. On June 28 she reconstructs a conversation with her brother in which he fails to process that June comes before July, then closes with `pray for his brain`. The same day she jokes about a sneeze headache and asks whether an unidentified pictured thing `count[s] as water`. On June 29 she says she has a `part time job and super part time job` and does not want more work, then enters a rapid alternating knife/sword mock-fight with Marian Kage.
 
-That safely makes **Juniper** a first-party IGN by that date and **Underlords** a first-party club answer in that specific scene. It still does not tell us whether the older Cinders→Juniper shift was a formal rename, alt/character switch, or some other history, and the 2022 answer is not back-projected into early 2021.
+The available H1 derivative preserves authored text, message IDs, timestamps, and media provenance but not raw reply/reference objects, complete mention arrays, or edit state. The Marian exchange is therefore contextual-high reciprocal mock combat, not a technical reply claim or relationship ranking. The water image remains uninspected; nearby sneeze/dehydration lines remain jokes, not health claims.
 
-MAIN's existing Acoryuie profile was tightened with this later receipt. WIKI intentionally did not add a duplicate Acoryuie object this pass; MAIN already owns the richer identity chronology and the new coda does not need mirrored prose to remain part of shared canon.
+MAIN accepted this in `src/content/people/tofu.md`, where it materially enriches the lived biography. WIKI already has a strong Tofu Wall dossier and did not receive mirrored prose.
 
-## Living Ensemble Run10 — reviewed, not duplicated
+The Whiskey delta also advances the Woohyuk pancake rabbit: Milk/KOREA writes `Pancake ass is woohyuk` on May 6, 2021. That is the earliest surfaced direct Woohyuk+pancake pair in the available H1 media-bearing layer, **not** proven global origin and not evidence that Milk invented the label. It remains a bounded chronology hold.
 
-Run10's strongest public candidate was another Baby Lyssa / Ghoulie Wall-residency mutation: April 22, 2021 `why am i always here` answered by another member with `Girl its like you live here`, before the already-public ownership/rent material. August 9 preserves the already-public `ONE SECOND` / twice-on-the-Wall reaction.
+## Living Ensemble anti-starvation recovery
 
-The public Baby Lyssa story already owns the record joke, Wall competition, ownership claims, `she lives on the wall` / rent, and the August twice-on-the-Wall complaint. April 22 is useful corroboration but not enough of a story change to justify another near-identical public paragraph. Run10's Tumbleweed resurfacing remains HOLD pending direct artifact comparison.
+Living Ensemble remains null-consumed because the older safe-baseline floor is incomplete.
 
-Living Ensemble now has durable reviewed coverage through **Runs02–10, Run17, and Runs22–26**. Runs11–16 and other safe-baseline gaps remain; `last_consumed_sha` stays null.
+This pass read its checkpoint first, then continued below the later reviewed overlays through the pre-Run17 aggregate `site-candidates.md` and surfaced early `findings.md` sections. Strong candidates were already public, better owned elsewhere, or unresolved: Key/Woohyuk's vehicular scene and the Breaststroke relic are already owned; the Old Man Snow missing-middle remains held; MariaMoon<3 remains distinct from Moon and unresolved for canonical display; Tae's `tae` search crash remains causally unexplained.
 
-## Daycare advanced mid-pass — correctly left pending
-
-The later Daycare head arrived after the opening selection boundary. This pass only spot-read the new checkpoint and site-candidate handoff after detecting the concurrent census; it did **not** falsely call that a full changed-delta review.
-
-The strongest queued candidate is Baby Lyssa / Ghoulie treating Daycare like claimed social territory. The handoff links an earlier `pls i own this channel` joke to a June 2 Wall sequence where she tells xanthos `NAH GET YA ASS`, posts literal `#🐣│ul-daycare`, then escalates `PLEASE` → `PLEASEEEEE`.
-
-Safe reading: social summons / redirect plus self-appointed proprietorship. Unsafe reading: technical ownership, creator/moderator status, or proof that xanthos complied. The full Daycare delta remains pending for a later selected review.
+No isolated Run11–16 handoff filenames surfaced at branch tip during this bridge review, so Runs11–16 are **not** falsely marked complete. Living remains `recovery_in_progress` with consumed SHA null.
 
 ## Verification / deployment
 
 ### MAIN public content
 
-- Commit `d6dc517c4d6f36241ecfacf09a911a7cf3f9bd97` added LEXI and tightened Acoryuie.
-- Workflow `33215331297` completed successfully.
-- Its **Build + verify** job passed source canon/architecture verification, Astro build, and built-output verification.
-- Its deployment job deployed and verified the **exact production commit** on Cloudflare Pages successfully.
+- `src/content/people/tofu.md`
+- Public-content commit `aba6790b17a49e61356bd92af7291bab5a826b39`
+- Workflow `33218312538`: **success**
+- Source canon/architecture verification: **pass**
+- Astro build: **pass**
+- Built-output verification: **pass**
+- Exact Cloudflare production deployment/verification: **pass**
 
 ### WIKI public content
 
-- Commit `d6a9deccea0edfee1f92b8699e8b17911396046e` added LEXI to Archive / Extended Cast and added the dossier snapshot.
-- Standalone build workflow `33215461462` completed successfully.
-- Pages workflow `33215461383` also completed successfully, including the Wiki's existing build/deploy/report path.
+- `src/data/dossier-snapshots/baby-lyssa.md`
+- Public-content commit `91108038c21e9d2dc00ed15eb3b48eb98fe9a21f`
+- Standalone build workflow `33218257597`: **success**
+- Pages build/deploy/report workflow `33218257556`: **success**
 
 ## Recovery / consumption state after this pass
 
-- **Whiskey**: consumed through `37b76ce0e1208a31b3ff9eb7a9ca7415934f1b08` after successful review and verified publication.
-- **Daycare**: head `0bb1cf1b30f954c66427dc412657d662f2de20cd` remains pending against consumed `fa56460c845519c8e8c9496e089ed70245b03f10`.
-- **Living Ensemble**: reviewed through Runs02–10, Run17, Runs22–26; Runs11–16 and other gaps remain; consumed SHA null.
-- **Core Rooms**: cumulative recovery includes the recorded 07:46/08:46/09:46 packages; older 06:46-and-below material remains; consumed SHA null.
-- **Wall**: cumulative recovery includes 23:46 Light Mode, 22:46 Baby Lyssa property, 21:46 Alkey, and 20:46 Tofu; older material remains; consumed SHA null.
+- **Daycare**: consumed through `0bb1cf1b30f954c66427dc412657d662f2de20cd`.
+- **Whiskey**: consumed through `a8a6cfaeaa3f21c35ca8cfaff5b14a8d8d4f63ed`.
+- **Living Ensemble**: recovery open; consumed SHA null.
+- **Core Rooms**: recovery open; consumed SHA null.
+- **Wall**: recovery open; consumed SHA null.
 
 ## Current cross-surface continuity locks
 
 - MAIN and WIKI are complementary public surfaces, not independent canon systems.
 - **Daya = Dayadream**. Do not create a separate Dayadream person from that alias.
+- **Baby Lyssa = Ghoulie** by user-confirmed canon. Daycare/Wall ownership language is social-territory humor, not technical authority.
 - Current WIKI canon resolves the 2021 **Meowk** display account to **Alkey**; that bridge does not turn affectionate LEXI/Meowk language into romance canon.
 - User-confirmed canon and direct stable-ID bridges outrank name resemblance and miner-local uncertainty.
 - Discord onboarding is not silently converted into exact in-game admission chronology.
 - Export-time role arrays are not appointment chronology.
 - Joke roles are not formal governance; joke prestige/property language is not technical authority.
-- Joke ships, fake-marriage contracts, fake-family language, and affectionate banter are not literal romance/family canon without stronger evidence.
-- Earliest surviving evidence is not automatically origin.
+- Joke ships, fake-marriage contracts, fake-family language, affectionate banter, and mock-fight choreography are not literal romance/family canon without stronger evidence.
+- Earliest surviving evidence is not automatically origin. The May 6 Woohyuk+pancake line is a bounded earliest surfaced direct pair in one evidence layer, not proven christening.
 - `SAID BY`, `POSTED BY`, `MADE BY`, `CAPTURED BY`, and `FEATURING` remain separate provenance relations.
 - Uninspected images remain uninspected; captions and reactions do not license invented contents.
 - Miner branches stay isolated evidence workspaces and are never wholesale-merged into publishing branches.
