@@ -1,131 +1,119 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration pass: **2026-08-27 23:32 PDT**.
+Last dual-surface integration pass: **2026-08-28 01:48 PDT**.
 
 This is the rolling current integration state. Earlier pass detail remains durable in Git history and in the main-site `archive-intake/INTEGRATION_PASS_*_DUAL.md` reports.
 
-## Current pass — Tofu gets a doorway + Whiskey / Photo recovery closure
+## Current pass — Daycare walks in + Panda/Eos gets verbs + Illien turns an empty club into a lifeboat
 
 ### Branch census / queue
 
-- Main-site mandatory census confirmed **23 miner branches** before deep review.
-- Every discovered miner branch already had a state entry.
-- `archive-miner/whiskey-longitudinal-hourly` was the one newly advanced branch at census: prior consumed `2ec12597c7ac816a3209230267cdb1f16b1aba6f`, new seen HEAD `a12ef05f72c6bc0d723b2127556668f5995ab8f4`.
-- Census state was persisted before deep review at main-site commit `6d094ad7c58e302f2980b569d6e91e752a0eeb67`.
-- Club-Only 2021–2026 (`d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`) and Club-Only 2020 (`99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`) remain consumed through unchanged current heads and were not reread.
+- Main-site mandatory census enumerated **24 miner branches** before deep review.
+- One newly discovered branch, `archive-miner/daycare-2020-2026-hourly`, was immediately registered at HEAD `65ea31df34bfcb24c0c02147d581d372ca084bb4` with null consumed state before its recovery review.
+- `archive-miner/backroom-deals-2026-08-24` had advanced to HEAD `541eb4eac818abf09e52eb396c99e83b11e4d893`; its prior durable recovery frontier was `d12a8aece2339a38ae60fab54979f8156bb787e8`.
+- Census state was persisted on main before deep review at `745d1abd5f762e952049d6bd7a863950fe85cb3a`.
+- Club-Only 2021–2026 (`d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`) and Club-Only 2020 (`99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`) were already consumed through unchanged current heads and were not reread.
 - No miner branch was merged or cherry-picked into either public repository.
-- After this pass there are **no `pending_review`, backlog, or `review_overdue` branches**.
-- Remaining cumulative safe-baseline recovery is Living Ensemble, Backroom Deals, Core Rooms, and Wall. Photo Submissions is now reviewed/consumed through its current HEAD.
+- After review there are **zero `pending_review`, backlog, or `review_overdue` branches**.
+- The remaining cumulative safe-baseline recoveries are Living Ensemble, Backroom Deals, Core Rooms, and Wall.
 
 ## Reviewed branches
 
-### Whiskey delta
+### Daycare — new-branch one-time recovery through HEAD
 
-`archive-miner/whiskey-longitudinal-hourly` was reviewed only across its changed branch-local intake delta:
+`archive-miner/daycare-2020-2026-hourly` was reviewed checkpoint-first through `65ea31df34bfcb24c0c02147d581d372ca084bb4`, using only its branch-local `archive-intake/daycare-2020-2026-longitudinal-20260819-2311-pdt/` handoffs: checkpoint, cumulative findings/site candidates, receipts, people notes, identity notes, open questions, and referenced indexes. Raw archives were not re-mined.
 
-- `2ec12597c7ac816a3209230267cdb1f16b1aba6f` → `a12ef05f72c6bc0d723b2127556668f5995ab8f4`
-- new checkpoint read first;
-- then its matching findings / receipts / people / incident / motif / rabbit / open-question / site-candidate handoffs;
-- raw archives were not re-mined.
+The miner may keep advancing after this SHA. `consumed` means this handoff frontier was actually reviewed, not that Daycare can never produce another finding.
 
-### Photo Submissions recovery
+### Whiskey — advanced delta reviewed and deduped
 
-Anti-starvation closed the one-time accumulated handoff review for `archive-miner-photo-submissions-2021` through HEAD `2494310084b7bee80a1e7607a0fe201605528bf3`.
+`archive-miner/whiskey-longitudinal-hourly` was reviewed from consumed `a12ef05f72c6bc0d723b2127556668f5995ab8f4` to HEAD `ff8df14f0f54dbe86044bc5b1425e45992a28511`, checkpoint first and only inside changed intake handoffs.
 
-The review used the canonical `checkpoint.md` first, then both integrator handoffs, manifest/integration-state, latest findings/receipts/rabbit/people addendum, incident/open-question indexes and referenced site candidates. The miner may continue finding future material. `consumed` means the handoff through this SHA has been reviewed, not that every visual/rabbit hole is solved forever.
+Its strongest new handoff was Panda's grounding / `Eternally Grounded Panda` / Cheesecake Factory `(but no cheesecake)` material. That material was already present on current main before this pass, so this was a successful duplicate/no-public-change review. The weaker June Marian↔Eos rail is also superseded by the fuller Daycare chronology accepted below.
+
+### Backroom Deals — anti-starvation recovery frontier advanced
+
+`archive-miner/backroom-deals-2026-08-24` was reviewed across the new intake-only recovery frontier `d12a8aece2339a38ae60fab54979f8156bb787e8` → `541eb4eac818abf09e52eb396c99e83b11e4d893`, checkpoint first.
+
+The older cumulative safe baseline is still not completely walked, so its `last_consumed_sha` remains null. The reviewed frontier is durable; the branch is not being allowed to starve just because older material remains underneath it.
 
 ## Reconciliation accepted
 
-### Tofu — the archive finally catches the front door
+### Panda / Marian Kage is one person; the miner split is rejected
 
-June 25, 2021 now has a safe stable-account sequence:
+Daycare attempted to treat `Panda` / `Panda-san` on stable account `356954091198480404` as a nickname for Marian Kage while warning not to merge that account with Staff Panda/PanPan.
 
-- the Lobby technically welcomes `j_kirizami`;
-- the account answers `千恵 (just call me Tofu)`;
-- Gabu asks `which club?`;
-- Tofu answers `UnderLords`;
-- Gabu technically role-assigns that same stable Discord account;
-- 94 seconds later Whiskey renders `@Tofu🐝 Welcome bb XD`;
-- within the hour Baby Lyssa posts fried-tofu GIF material and Mugen posts dancing tofuzinho.
+That warning conflicts with stronger current canon: Mugs-confirmed identity and existing cross-room stable-account evidence already establish **Marian Kage = Panda / PanPan**. The integrator therefore keeps one canonical Panda entity and treats the Daycare warning as a miner-local continuity error, not new canon.
 
-The contiguous Lobby bridge is what makes the identity safe; the derived Whiskey GIF rows still do not preserve direct-target arrays. The scene is a Discord doorway while Tofu already self-reports UnderLords, **not** an exact in-game admission timestamp. `千恵` is preserved as onboarding-form wording rather than silently upgraded into a legal/IRL name. The exact assigned Discord role also remains unnamed.
+### Panda ↔ Eos — the relationship finally has chronology
 
-The old wiki boundary saying there was no safe first-entry scene was therefore stale. `src/data/character-biographies-tofu.ts` now starts with the actual doorway and lets the existing Wall/evidence character story follow it. The absurdity is properly chronological now: say `just call me Tofu`, clear the paperwork, get fried within the hour.
+Daycare gives a much better person-level arc than a static `related people` tag:
 
-### Eos — same account, two labels, transition still offscreen
+- Oct. 31, 2021 — Panda: `like how much i love eos`.
+- Jan. 19, 2022 — Panda does not want to continue a shared game without Eos.
+- Jan. 21 — Panda starts talking Paris, `we movin there`, and paired dolls bought for Eos and himself.
+- Feb. 11 — Panda says they have known each other almost three years; Eos immediately corrects him with `3? or u mean 2`, so no exact origin date is manufactured.
+- Mar. 7 — Panda uses UL marriage language: `because you're married to me`.
+- Mar. 15 — Eos answers Panda with `you stole my heart a long time ago`; Panda dedicates a song and says he wants to sing it for Eos one day.
 
-The Whiskey delta also deepens Eos on main:
+This is reciprocal affectionate / romantic-style UL social language. It stays exactly that: not a real-world marriage certificate, exclusivity claim, sexual-orientation inference, or other sensitive biography.
 
-- Dec. 6, 2020: stable account self-files as `EnyoCal~ ... UL club`; Mugen welcomes Enyo and technically role-assigns that account.
-- Jan. 30, 2021: the same stable account answers another Bouncer welcome as `Eos~, Deviations, 18+`.
-- Apr. 29, 2021: Eos says graduation is in June and `Computer science. I almost done` / `i dun wanna wait more`.
+Main owns the full scene in Panda's character page. Wiki adds a compact **Panda ↔ Eos · You Stole My Heart** relationship card and deepens Panda's dossier snapshot instead of duplicating the whole main essay.
 
-The identity bridge is direct stable-account evidence. The missing club-status transition remains missing: no invented exact leave/rejoin, continuous presence, original recruiter or admission date. The wiki already owns the compact Eos → Gilli relationship lookup from the prior pass, so this richer personal chronology stays with main instead of becoming a duplicate partial dossier here.
+### Illien — WarlordZ becomes a tiny lifeboat
 
-### Gabu — `Photoshoot Event commands`
+Backroom Deals supplies a clean June 13, 2020 character beat. Mugen explains that Illien had an old empty club, `WarlordZ`, and offered it to solo Joyonto so Joyonto could collect club benefits / EXP. Illien checked with Mugen first and made Joyonto a **WarlordZ deputy** so he could receive diamonds. Ren's immediate read was `Illien is so selfless`.
 
-Photo Submissions recovery supplies a clean backstage operating scene on main:
+The useful fact is the action, not a new office: WarlordZ deputy is an external/game-club benefit mechanism, **not** an Underlords appointment. Joyonto's exact UL status at that moment remains unresolved.
 
-- late 2021 Gabu creates Saber reminders for Photoshoot openings/examples and judging deadlines;
-- a Dec. 2 reminder explicitly meant for Dec. 6 comes back with the wrong/default Dec. 2 start;
-- 23.520 seconds later Gabu corrects it;
-- by Dec. 22 she has pinned a reusable block headed exactly `Photoshoot Event commands`, with opening/example, judge-deadline, closure and results templates.
+This is richer biography texture than a reference-index need, so it was intentionally published **main-only** on Illien's Character page.
 
-This is maintenance evidence, not proof Gabu programmed Saber or held a special Photoshoot title. Main's Gabu page owns the full scene; the wiki did not duplicate it in this pass.
-
-## Surface split
+## Surface split / verification
 
 ### Main site
 
-Changed:
+Public lore changed:
 
-- `src/content/people/eos.md` — EnyoCal → Eos doorway chronology + computer-science graduation countdown.
-- `src/content/people/gabu.md` — Photoshoot/Saber runbook + 23.520-second date repair.
+- `src/content/people/panda.md` — full Panda↔Eos Daycare chronology, reciprocal-language boundary, and explicit rejection of the bad Marian/Panda split.
+- `src/content/people/illien.md` — WarlordZ/Joyonto lifeboat scene and strict external-club role boundary.
 
-Public content head: `1d19085158feee444c7212b52072c3db58ebf04d`.
+Public content head: `4900b7de2066f1c9424f4d3ca5380910841ba2b5`.
 
-Workflow run `33148777500` passed the full main production gate on that exact content head: source canon/architecture verification, Astro build, built-output verification, and exact-commit Cloudflare production deployment.
+Main workflow run `33156597366` passed the complete production gate on that exact public-content head: source canon/architecture verification, Astro build, built-output verification, Cloudflare deployment, and exact-commit production verification.
 
 ### Wiki
 
-Changed:
+Public lore changed:
 
-- `src/data/character-biographies-tofu.ts` — grounded June 25 Lobby doorway and immediate Whiskey food-GIF welcome; stale no-entry boundary removed.
+- `src/pages/relationships.astro` — **Panda ↔ Eos · You Stole My Heart** relationship index card.
+- `src/data/dossier-snapshots/panda.md` — fuller Daycare chronology plus the same identity/sensitive-biography boundaries.
 
-Public wiki content head: `1d801aa7b2efb55e738af89b3db8eeca4400a289`.
+Public wiki content head: `e869911ff87d11545d64377e633b8cfba15cb243`.
 
-Verification on that exact content head:
-- standalone Astro build run `33148833270` passed;
-- GitHub Pages build/deploy run `33148833246` passed.
+Verification on that exact public-content head:
+
+- standalone Astro build run `33156694914` — **success**;
+- GitHub Pages build/deploy/report run `33156694916` — **success**.
 
 ## Consumption advanced
 
-- `archive-miner/whiskey-longitudinal-hourly` → `a12ef05f72c6bc0d723b2127556668f5995ab8f4`
-- `archive-miner-photo-submissions-2021` → `2494310084b7bee80a1e7607a0fe201605528bf3`
+- `archive-miner/daycare-2020-2026-hourly` → `65ea31df34bfcb24c0c02147d581d372ca084bb4`
+- `archive-miner/whiskey-longitudinal-hourly` → `ff8df14f0f54dbe86044bc5b1425e45992a28511`
+- `archive-miner/backroom-deals-2026-08-24` remains `last_consumed_sha: null` because its older cumulative safe-baseline recovery is still incomplete; the new d12a8ae→541eb4 frontier is nevertheless durably reviewed.
 
-These are now reviewed frontiers, not merely discovered heads.
+## Reviewed but held / deduped
 
-## Photo material reviewed without forced publication
-
-- HamitteY / Wichita: exact Jan. 17 self-ID and Flowers chronology is clean but still a thin person file.
-- LEXI: Jan. 11 `LoliParadise / S8` self-report is a status boundary before LOVE → Lonely → Flowers; Discord/Photoshoot access is not converted into in-game UL membership.
-- Laila / Miihi: useful onboarding-to-repeat-Photoshoot chronology, but own requested club/status answers remain unresolved.
-- Dean / Beansprout: stable account bridge corroborates existing canon; `Support Tech` does not become a formal tech office.
-- Nhou self-💩 reaction, LOVE naming, corrected Stalker/Family dates, Sye/Han/Cookie and other established families were reviewed as narrow texture/corroboration or left with their stronger canonical owners rather than cloned into more pages.
-
-## Held rabbit holes / safety rails
-
-- Eos: exact EnyoCal→Eos / UL→Deviations transition, original recruitment/admission mechanics, continuous-presence question.
-- Tofu: exact assigned Discord role, original in-game admission date, legal/IRL interpretation of `千恵`, technical GIF direct-target fields.
-- Photo: January winner→poster bridge; rules/tips origins; earliest Photoshoot-specific Saber use / other maintainers; maker/captor/featured-person credits; Moments proxy mechanics; Crystalia onboarding response; LEXI later status; Laila/Miihi own requested self-ID; ACORYUIE/Lilly/Ten transitions.
-- Wider standing rabbits remain open for Nitro creator/exact first noun, ShiyaX fake-family genealogy, Snow/Big Bang, Alabama/Tumbleweed expansion, Feli↔Mugs Tumbleweed and other media-dependent joins carried by main integration state.
+- Daycare: Tae's Aug. 27, 2021 `pull a Jas` gives Absent Father Jas an earlier name-as-verb mutation; Rich's Sept. 16 typed `absent father` improves the corpus genealogy; exact origin remains open. The Snack Toll, Queen Elsa, Grimlee, Halkenburg, YuKanada and other thin-person rails remain below current public-depth thresholds. `Mr. Streamer (Gabu's Chair)` remains an unresolved stable account and is not merged by adjacency.
+- Backroom: Suzi + Key's April 2020 server-birth Bouncer scene, the corrected Nov. 30 `Riot Without a Prisoner`, Gilli's hidden karaoke-room infrastructure, Little Bird, Kross and related rails are preserved for later placement / recovery rather than dumped publicly all at once. Sensitive workplace / health / private-target material stays backstage.
+- Whiskey: Panda's grounding/Cheesecake Factory material is duplicate of current main; H2 media attribution limits remain.
+- Wider standing rabbits remain open for Nitro creator/exact first noun, ShiyaX fake-family genealogy, Snow/Big Bang, Alabama/Tumbleweed expansion, Feli↔Mugs Tumbleweed, Daycare channel creator/permission mechanics, earliest exact Platelet assignment, and unresolved media maker/captor/featured joins.
 
 ## Current cross-surface continuity locks
 
-- Main and wiki remain complementary surfaces, not independent canon systems.
-- Stable-ID evidence outranks name resemblance.
+- Main and wiki are complementary surfaces, not independent canon systems.
+- Mugs-confirmed canon and direct stable-ID bridges outrank miner-local warnings and name resemblance.
 - Export-time role arrays are not appointment chronology.
-- Joke roles are not formal governance; fake-family language is not literal kinship or romance.
+- Joke roles are not formal governance; fake-family / UL marriage language is not silently converted into literal legal or sensitive real-world biography.
 - Earliest surviving evidence is not automatically origin.
 - `SAID BY`, `POSTED BY`, `MADE BY`, `CAPTURED BY`, and `FEATURING` remain separate provenance relations.
 - Miner branches stay isolated evidence workspaces and are never wholesale-merged into publishing branches.
