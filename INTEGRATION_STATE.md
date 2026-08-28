@@ -1,70 +1,54 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration pass: **2026-08-28 09:34 PDT**.
+Last dual-surface integration pass: **2026-08-28 10:01 PDT**.
 
 This is the rolling current integration state. Earlier pass detail remains durable in Git history and in the main-site `archive-intake/INTEGRATION_PASS_*_DUAL.md` reports.
 
-## Current pass — Aesh arrives with references; Daycare is a couch, not a roster gate
+## Current pass — Key discovers risk management after the tires; Ren keeps the breaststroke receipt for four years
 
 ### Branch census / queue
 
-- Main-site mandatory census enumerated **24 miner branches** before deep review and persisted every current `last_seen_sha` on `master` before any long review began.
-- Advanced beyond consumed frontier:
-  - Daycare `39267fd6c9526522c42ec628e6ecceb1beeb9f31 -> 024c55e8aab88f73a761ce6f29499621dd9f6e56`
-  - Whiskey `ee40c5bd6097e9631f72a4b9859e1cd3a107b14c -> e323af44487113b9c25188141f8be93faa37fbed`
-- Anti-starvation recovery continued on Wall at unchanged HEAD `36e85aa2025b030faf43fecd20a315b158debd4c`.
+- Main-site mandatory census enumerated **24 miner branches** before deep review and persisted every current `last_seen_sha` on `master` first.
+- No newly discovered miner branch and no consumed branch had advanced beyond its recorded frontier this pass.
 - Club-Only 2021–2026 and Club-Only 2020 were already consumed through unchanged heads and were not reread.
+- Anti-starvation rotated into the older **Living Ensemble** cumulative recovery at unchanged HEAD `66c3227c687965a4dae9b372fdcbe2dc128611ba`.
 - No miner branch was merged or cherry-picked into either publishing branch.
 - After review: **0 pending_review, 0 backlog, 0 review_overdue**.
 - Remaining cumulative safe-baseline recovery branches: **Living Ensemble, Core Rooms, Wall**.
 
-## Reviewed branches
+## Reviewed recovery
 
-### Daycare — `39267fd6… -> 024c55e8…`
+### Living Ensemble — older candidate / Run 02 recovery slice
 
-Checkpoint first, then only changed `archive-intake/*` handoffs.
+`checkpoint.md` was read first. Previous durable state had already reconciled the later Run 17→26 overlay chain, so this pass deliberately moved backward into the older cumulative safe-baseline handoff without re-mining raw archives. The reviewed slice was the aggregate pre-Run17 `site-candidates.md` plus the A/B-grade Run 02 receipt packet.
 
-The strongest public result is structural rather than another thin biography: **Daycare's social constituency did not map one-to-one onto current in-game club label.**
+Two evidence families cleared the public bar, with different owners on the two surfaces.
 
-- Nori explicitly answers `Yesh` when Ren asks `Underlord? UwU`, then appears in Daycare that same day.
-- Damon introduces himself as `the leader of Purgatory`, gets normal Discord routing, and appears in Daycare the same day.
-- AJ says `I am in a random club lol`, identifies the current club as YungLyeTH, gets welcomed/role-assigned, and appears in Daycare the next day.
+#### MAIN — Key + Woohyuk, the vehicular risk-management plan
 
-The wiki therefore adds **UL Daycare** to Domains with the plain-language read: this room looks less like a roster checkpoint than the couch people kept ending up on. That does **not** establish universal technical access, a formal visitor policy, or which Discord role each person had.
+A 2026 Wall archaeology batch preserves a 2021 Dragon Raja exchange where Key asks Woohyuk to literally `step on me`. Woohyuk upgrades the equipment to running Key over; Key requests reverse; Woohyuk proposes skidding; Key reaches `do donuts on my dicc`, corrects to `i mean pp`, and only then discovers governance with `...dont tell mugs`. Woohyuk answers `I think mugs is gonna find out...`; Key: `shhhh`.
 
-Other Daycare material reviewed but held:
+Main now owns the full person-scale scene because it materially improves Key's biography and makes his later decision to return to the Wall and audit his own case file much funnier. The archive keeps the limits intact: Wolf dates the old screenshots only to 2021; original exact day/channel and original CAPTURED BY remain unresolved; Mugen is POSTED BY for the surviving 2026 Wall archaeology batch. The joke is not converted into romance, sexual history, real-world violence, or a closeness ranking.
 
-- Mats / Akuma is securely one stable account across a 2020 `Sebno` Underlords/Rebellation self-report and a 2021 `神Nyx道, Abaddon` self-report; Mugen still calls them `sebs`. Exact club-transition chronology stays unresolved.
-- Nekoz says `I’m with cyan`; cyan separately confirms Forsaken. The archive does not copy cyan's club answer onto Nekoz or invent the relationship type.
-- Trebach is visibly `Gilli's Pizza Dough` by the December 2022 return, but no origin/explanation surfaced. Gilli's unrelated pineapple-pizza line is not nickname genealogy.
+#### WIKI — The Breaststroke Relic
 
-Result: Daycare consumed through `024c55e8aab88f73a761ce6f29499621dd9f6e56` after the accepted public changes passed verification.
+The wiki now carries a Running Gag / artifact genealogy for one LadyMugen spelling casualty that refused to die:
 
-### Whiskey — `ee40c5bd… -> e323af44…`
+- May 10, 2022: Ren posts the visible crop `hope everyone has eaten their breaststroke` to the Wall.
+- Rich: `The shame war has begun🤣`.
+- Rummy quotes it back as `breastroke`.
+- August 12, 2026: Ren posts the same visible crop again.
 
-Both new checkpoints were read first, then continuity corrections, findings, receipt indexes, rabbits/open questions, people notes, motif notes, and site candidates.
+The point is not generic `UL cannot spell`; it is **artifact persistence**. Ren kept one specific receipt long enough to re-file it four years later. Ren is POSTED BY for both surviving Wall appearances; the original Dragon Raja message date and original CAPTURED BY remain unresolved.
 
-The strongest new biography receipt belongs to **Aeshleen**:
+### Reviewed / deduped / held
 
-- April 24, 2021: Aeshleen introduces herself in Lobby as `from council, s9, friend of ladymugen and hamittey`.
-- Mugen welcomes her, applies unspecified roles, and sends the server map.
-- **2.918 seconds later**, Baby Lyssa is already in Whiskey telling Aeshleen `I love your pfp!!`.
+- Woohyuk's `are we doing throwback shames` and Key's 2022 Wall self-audit are already public under stronger current owners, so they were treated as corroboration rather than republished.
+- Old Man Snow's fake-50th → MySpace → memory-loss → Mesozoic middle mutation remains a strong public candidate but is held for deliberate Culture/Snow placement rather than being jammed into an unrelated page.
+- MariaMoon<3's 2021 Underlords intake → 2026 forgetting-the-game before/after remains held because the canonical public display name is unresolved and she must not be merged with Moon.
+- Tae's `tae` search-crash scene remains held. Neither Mugs nor Tae's crash is assigned a cause.
 
-Main owns the full character version because it improves Aeshleen's lived chronology: she arrives socially legible before the Discord paperwork has cooled. The exact in-game UL status, recruiter, assigned role list, and contents of later uninspected photos remain unresolved.
-
-Aeshleen's later `im bein noticed` plus Cookie's matching notice GIF is contextual-high social volley, not reacquired technical reply proof. Her `my Spotify calling me out i cannot` screenshot remains uninspected. Support Tech and Abie were reviewed into thin/developing states but not forced public.
-
-### Identity firewall correction — Ricochet is not canonical Rich
-
-The Whiskey handoff strengthens only a contextual lead: stable Ricochet / `dragonrichard` is active minutes before one peer-authored `Rich` line, with other peer `Rich` uses elsewhere. There is still no technical target, explicit self-equation, or stable-ID bridge.
-
-The wiki had stale seeded data listing `Ricochet` as an alias of canonical Rich / DragonRich while also maintaining a separate Ricochet dossier. That was unsafe and is now corrected. **Rich and Ricochet remain separate characters unless stronger evidence closes the bridge.** Similar names do not get married by the archive clerk.
-
-Result: Whiskey consumed through `e323af44487113b9c25188141f8be93faa37fbed` after accepted public changes passed verification.
-
-### Wall recovery — successful no-public-change review
-
-Wall remains at HEAD `36e85aa2025b030faf43fecd20a315b158debd4c` with `last_consumed_sha: null` because its older cumulative safe-baseline recovery is incomplete. The checkpoint was read first, followed by the cumulative site-candidate/findings handoffs. Surfaced candidate rails are already public or owned more strongly elsewhere, so this turn accepted no new Wall publication. The review is durable; the older baseline is not skipped.
+Living Ensemble remains `last_consumed_sha: null` / `recovery_in_progress` because the older cumulative safe-baseline floor is not fully closed. This reviewed slice is durable recovery progress; it is not permission to jump over the rest.
 
 ## Surface split / verification
 
@@ -72,52 +56,44 @@ Wall remains at HEAD `36e85aa2025b030faf43fecd20a315b158debd4c` with `last_consu
 
 Public lore changed:
 
-- `src/content/people/aeshleen.md` — added Aeshleen's Council/S9 + LadyMugen/Hamittey doorway self-description, Mugen's role/tour handoff, Baby Lyssa's 2.918-second Whiskey greeting, and the connection into her existing Wall speedrun chronology.
+- `src/content/people/key.md` — added the 2021 Key/Woohyuk escalation, provenance boundaries, Woohyuk cross-link, and the callback into Key's later Wall self-audit.
 
-Public-content commit: `16dda1ea1b65bb63f859e450d7127c496a85769f`.
+Public-content commit: `af94df444563ec6aa2bc0b35ce04bff0db0bd08d`.
 
-Exact public-content workflow **33191718056** completed successfully, including source canon/architecture verification, Astro build, built-output verification, and Cloudflare deployment.
+Exact public-content workflow **33193075657** completed successfully, covering source canon/architecture verification, Astro build, built-output verification, Cloudflare deployment, and exact production commit verification.
 
-Aeshleen is intentionally **main-first** this pass: the new evidence deepens her biography more than it creates a distinct wiki navigation object.
+Key's scene is intentionally **main-first**: it is character texture and lived chronology, not a reason to duplicate the same story into the wiki.
 
 ### Wiki
 
-Public lore / safety changed:
+Public lore changed:
 
-- `src/pages/locations.astro` — added **UL Daycare** as a Domain with the Nori/Damon/AJ social-boundary evidence and explicit no-permission-policy overclaim.
-- `src/data/wiki.ts` — removed stale `Ricochet` from canonical Rich's aliases. `DragonRich` remains with Rich; the separate Ricochet / `dragonrichard` dossier remains separate.
+- `src/data/integrator-gags.ts` — added **The Breaststroke Relic** as a four-year Running Gag / artifact genealogy with explicit provenance limits.
 
-Public-content commits:
-- `5b90889ee265bb1dd9307472bc19431516e4e76b` — identity firewall correction.
-- `7b7bf7d12f6a3fc7a613c26a6848f451eec50575` — visible Daycare Domain card.
+Public-content commit: `b0e6d1769d283b47c23bbfb5bd040981df064ac5`.
 
-Verification on final public-content HEAD `7b7bf7d12f6a3fc7a613c26a6848f451eec50575`:
-- standalone Build Underlords Wiki workflow **33192171428**: success;
-- Pages workflow **33192171338**: build, deploy, and report all success.
+Verification on that exact public-content HEAD:
+- standalone **Build Underlords Wiki** workflow **33193098240**: success;
+- Pages workflow **33193098267**: build, deploy, and report all success.
 
-Daycare is intentionally **wiki-focused** because the finding belongs naturally in Locations/Domains rather than being Xeroxed into several low-volume character cards.
+The breaststroke genealogy is intentionally **wiki-first** because its strongest current job is searchable gag/artifact continuity rather than another copy on main while the Living recovery still has a dedicated Culture-placement candidate to reconcile.
 
-## Consumption advanced
+## Consumption state
 
-- `archive-miner/daycare-2020-2026-hourly` -> `024c55e8aab88f73a761ce6f29499621dd9f6e56`
-- `archive-miner/whiskey-longitudinal-hourly` -> `e323af44487113b9c25188141f8be93faa37fbed`
-- Wall remains `last_consumed_sha: null` / `recovery_in_progress`; this turn's no-change audit is recorded but the older floor remains open.
-- Living Ensemble remains `last_consumed_sha: null` / `recovery_in_progress`.
+- No `last_consumed_sha` advanced this pass: no already-consumed branch had a new delta, and Living Ensemble's cumulative recovery floor is not complete.
+- Living Ensemble remains `last_consumed_sha: null` / `recovery_in_progress`, with this older candidate/Run02 slice now durably marked reviewed.
 - Core Rooms remains `last_consumed_sha: null` / `recovery_in_progress`.
+- Wall remains `last_consumed_sha: null` / `recovery_in_progress`.
+- Pending/backlog/overdue: **none**.
 
-## Reviewed but held / deduped
+## Current unresolved / held
 
-- Mats / Akuma exact Underlords/Rebellation -> Abaddon transition mechanics.
-- AJ's exact assigned Discord role(s) and any later in-game UL membership.
-- Damon/Purgatory relationship to UL and invitation route.
-- Nekoz/cyan exact relationship and Nekoz's own club statement.
-- Trebach `Gilli's Pizza Dough` origin.
-- Aeshleen exact assigned roles/status, arrival-photo contents, `im bein noticed` referent, and Spotify screenshot contents.
-- Support Tech doorway answer/status and Jan 27 antecedent.
-- Abie recruiter/status and uninspected fashion/water media.
-- Ricochet = Rich remains unresolved; public data now keeps them separate.
-- Whiskey raw z23 reply/reference/edit metadata remains source-blocked.
-- Wall, Living Ensemble, and Core Rooms retain older cumulative recovery floors.
+- Key/Woohyuk original 2021 exact timestamp, room, and original CAPTURED BY.
+- Original LadyMugen `breaststroke` message date and CAPTURED BY.
+- MariaMoon<3 canonical public display name; do not merge with Moon.
+- Tae search-crash cause.
+- Final owner/placement for Old Man Snow's missing-middle genealogy.
+- Older cumulative Living Ensemble, Core Rooms, and Wall recovery floors.
 
 ## Current cross-surface continuity locks
 
