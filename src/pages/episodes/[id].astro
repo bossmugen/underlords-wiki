@@ -4,12 +4,13 @@ import { episodes, characters } from "../../data/wiki";
 export function getStaticPaths(){return episodes.map((episode)=>({params:{id:episode.id},props:{episode}}));}
 const { episode } = Astro.props;
 const cast = episode.cast.map((name)=>characters.find((character)=>character.name===name)).filter(Boolean);
-const publicText = (value: string) => value
-  .replace(/`([^`]+)`/g, '"$1"')
-  .replace(/\bbits\b/gi, "jokes")
-  .replace(/\bbit\b/gi, "joke")
-  .replace(/\bgags\b/gi, "jokes")
-  .replace(/\bgag\b/gi, "joke");
+const replaceComedyTaxonomy = (value: string) => value.replace(/\b(bits?|gags?)\b/gi, (term) => {
+  const replacement = term.toLowerCase().endsWith("s") ? "jokes" : "joke";
+  if (term === term.toUpperCase()) return replacement.toUpperCase();
+  if (term[0] === term[0].toUpperCase()) return replacement[0].toUpperCase() + replacement.slice(1);
+  return replacement;
+});
+const publicText = (value: string) => replaceComedyTaxonomy(value.replace(/`([^`]+)`/g, '"$1"'));
 ---
 <WikiLayout title={`${publicText(episode.title)} | Underlords Wiki`} description={publicText(episode.logline)}>
   <div class="breadcrumbs"><a href="/episodes">Episodes</a> / {publicText(episode.title)}</div>
