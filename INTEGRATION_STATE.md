@@ -1,8 +1,53 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration pass: **2026-08-27 20:35 PDT**.
+Last dual-surface integration pass: **2026-08-27 21:35 PDT**.
 
-## Current pass — Yaza + Whiskey recovery-baseline closure
+## Current pass — Jas continuation rail + Whiskey delta + Main HQ 0745 recovery closure
+
+### Branch / baseline
+
+- Main-site mandatory census confirmed **23 miner branches** before deep review and persisted every current `last_seen_sha` at census commit `18b4b6e8960c1dcba3bca5b89084f4abde72261f`.
+- One branch advanced after the prior pass: `archive-miner/whiskey-longitudinal-hourly`, reviewed only for the new intake delta `d9f7be5fc99179e25ac59724f25ad15808931ba5 → 2ec12597c7ac816a3209230267cdb1f16b1aba6f`, checkpoint first.
+- Anti-starvation recovery also closed the one-time safe-baseline review for the exact-SHA alias pair `archive-miner/main-hq-hourly-0745` + `archive-miner/main-hq-hourly-0745-temp` at `ebcf172ef2c608e39cdbb356cc2415f10d022542`, using merge-base `a92d3fcf1cb16940c0080dc062945380e0d138c7`, then the cumulative checkpoint/site-candidates and latest findings.
+- The 0745 branch names point to the same HEAD and intake workspace. They are one evidence family, not two independent corroborating sources.
+- No miner branch was merged or cherry-picked into either public repository.
+- Club-Only 2021–2026 and Club-Only 2020 remain consumed through unchanged heads and were not reread.
+- After this pass, no branch is `pending_review`, `backlog`, or `review_overdue`. Active cumulative safe-baseline work remains on Living Ensemble, Backroom Deals, Core Rooms, Photo Submissions, QOTD/Officers, and Wall.
+
+### Reconciliation accepted
+
+- **Jas** gains a much better continuation spine from H1 Whiskey. On January 10, 2021 Gilli says `Welcome back hun`; Jas says `You'll get to lynch me again`; fourteen seconds later Gilli asks `When you coming to your real home`. The public read keeps the important ambiguity: this is social return language, not a fabricated formal UL rejoin date or a safe definition of `real home`.
+- On January 21 Jas starts a check-in and brakes himself with `I'd ask if you'd want to talk about it, but dk if its propice`. The recipient remains unresolved. The usable character fact is the permission check, not an invented dyad.
+- April strengthens the Absent Father persona from multiple directions: Gilli says `control your children sir`; the Wall separately gives `Control your child`; Jas later performs the premise himself with `a father that gives you everything, I give love`. These remain fake-family / room-role jokes, not literal parenthood.
+- Tae's June `hey old man wanna play a horror game again` establishes prior shared horror-game play without naming the game, dating the earlier session, or proving Jas's age.
+- Whiskey's June 25 Tofu welcome + fried-tofu / tofuzinho GIF sequence remains held pending technical mention-target reacquisition. The miner's unsupported Tofu pronoun was rejected under its own continuity-correction file and was not propagated.
+- Whiskey H2 physical validation is now known through z23. z24-z27 plus final ZIP exist in Library, but raw materialization was access-blocked; no late-2021 media is assigned to people/scenes without transcript/central-directory provenance.
+
+### Main HQ 0745 reconciliation
+
+- The cumulative handoff was reviewed rather than dumped publicly.
+- Cookie↔Tofu reciprocal Wall warfare and Snow self-Wall behavior are already represented more strongly on the public surfaces.
+- **Spicy Hotpot = Joshx / Josh** is a clean stable-account identity bridge, and the true Reply from Spicy back to Gilli's five-month-old Wall exhibit is a real callback. It remains below the current rich-profile/story threshold rather than being forced into a tiny public file this pass.
+- `pokeofficer`, Officer Country, Noether/HamitteY food-name material, Anayss coffee, Rummy BLING/stink-off, and other candidates remain either already represented, intentionally narrow relationship texture, or held behind media/receipt boundaries.
+- No public change was accepted from the 0745 evidence family. Reviewed does not require publication.
+
+### Publication / surface split
+
+- **Main public lore:** `src/content/people/jas.md` was deepened with the Whiskey return/continuation rail, permission-aware check-in, first-party father-role performance, and Tae's horror-game callback. Public lore commit `a065961f1240810cd14bb1a33fbc37e24a4c2a60` passed source canon/architecture verification, Astro build, built-output verification, and exact Cloudflare deployment in workflow run `33142649564`.
+- **Wiki public lore:** `src/data/cast.ts` adds Jas to **Archive / Extended Cast** instead of the living roster, with compact Caelum / Absent Father / Gilli-Tae-Ren indexing rather than Xeroxing the main biography. Public lore commit `94fc0e9447d037adb5d4fbac8ffafbd784ed4cca` passed the standalone Astro build in run `33142707505` and the complete Pages build/deploy/report chain in run `33142707539`.
+- No formal UL role, exact Caelum→UL merger date, exact January rejoin, child identity, age, or horror-game title was invented.
+
+### Consumption
+
+Newly consumed through current HEAD:
+
+- `archive-miner/whiskey-longitudinal-hourly` → `2ec12597c7ac816a3209230267cdb1f16b1aba6f`
+- `archive-miner/main-hq-hourly-0745` → `ebcf172ef2c608e39cdbb356cc2415f10d022542`
+- `archive-miner/main-hq-hourly-0745-temp` → `ebcf172ef2c608e39cdbb356cc2415f10d022542`
+
+The matching 0745 SHA reflects one identical workspace exposed by two branch names, not two independent receipts.
+
+## Prior pass — Yaza + Whiskey recovery-baseline closure
 
 ### Branch / baseline
 
