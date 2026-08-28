@@ -5,30 +5,57 @@ import { castGroups, characterById } from "../../data/cast";
 
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 const url = (path: string) => `${base}${path}` || path;
+
+const publicGroupOrder = [
+  "leader",
+  "officers",
+  "retired-officers",
+  "game-officers",
+  "snipers",
+  "directors",
+  "staff",
+  "platelets",
+  "vip",
+] as const;
+
+const publicGroupLabels: Record<string, string> = {
+  leader: "Leader",
+  officers: "Officers",
+  "retired-officers": "Retired Officers",
+  "game-officers": "DR Officers",
+  snipers: "Snipers",
+  directors: "Executives",
+  staff: "Staff",
+  platelets: "Platelets",
+  vip: "VIPs",
+};
+
+const visibleGroups = publicGroupOrder
+  .map((id) => castGroups.find((group) => group.id === id))
+  .filter((group) => group !== undefined);
 ---
-<WikiLayout title="Character Codex | Underlords Wiki" description="The Underlords cast, grouped by the actual UL roster structure and historical affiliations.">
+<WikiLayout title="Meet the Strippers | Underlords Wiki" description="Leader, Officers, Retired Officers, DR Officers, Snipers, Executives, Staff, Platelets, and VIPs.">
   <section class="hero cast-hero">
     <div>
       <div class="kicker">CHARACTER CODEX</div>
-      <h1>The Cast</h1>
-      <p class="tagline">Founders, Officers, Snipers, specialists, Staff, Platelets, VIPs, old friends, returnees, and people who somehow acquired enough aliases to require continuity control.</p>
+      <h1>Meet the Strippers</h1>
+      <p class="tagline">Leader, Officers, Retired Officers, DR Officers, Snipers, Executives, Staff, Platelets, and VIPs.</p>
     </div>
   </section>
 
   <section class="cast-index" aria-label="Character groups">
-    {castGroups.map((group) => (
-      <a href={`#${group.id}`}><span>{group.label}</span><small>{group.characterIds.filter((id) => characterById.has(id)).length}</small></a>
+    {visibleGroups.map((group) => (
+      <a href={`#${group.id}`}><span>{publicGroupLabels[group.id]}</span><small>{group.characterIds.filter((id) => characterById.has(id)).length}</small></a>
     ))}
   </section>
 
-  {castGroups.map((group, index) => {
+  {visibleGroups.map((group) => {
     const groupCharacters = group.characterIds.map((id) => characterById.get(id)).filter(Boolean);
     if (!groupCharacters.length) return null;
     return (
       <section class="section cast-section" id={group.id}>
         <div class="section-head">
-          <h2>{group.label}</h2>
-          <p>{group.note}</p>
+          <h2>{publicGroupLabels[group.id]}</h2>
         </div>
         <div class="cast-grid">
           {groupCharacters.map((character) => character && (
@@ -49,6 +76,6 @@ const url = (path: string) => `${base}${path}` || path;
   })}
 
   <section class="section cast-rule">
-    <div class="section-head"><h2>One person. One continuity.</h2><p>Ranks change. Accounts change. Display names mutate. The character file follows the human instead of cloning them every time Discord develops a new problem.</p></div>
+    <div class="section-head"><h2>One person. One continuity.</h2><p>Ranks change. Accounts change. Display names mutate. The character file follows the person.</p></div>
   </section>
 </WikiLayout>
