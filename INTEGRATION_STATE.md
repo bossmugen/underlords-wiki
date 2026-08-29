@@ -1,69 +1,43 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration pass: **2026-08-28 23:14 PDT**.
+Last dual-surface integration pass: **2026-08-28 23:41 PDT**.
 
-Full pass detail is durable on MAIN under `archive-intake/INTEGRATION_PASS_2026-08-28_2314_DUAL.md`. The immediately preceding state remains preserved in Git history.
+Full pass detail is durable on MAIN under `archive-intake/INTEGRATION_PASS_2026-08-28_2341_DUAL.md`. Prior rolling states remain in Git history.
 
 ## Census / queue
 
-The mandatory opening census found **26 miner branches**, up from 25 because `archive-miner/mugen-person-first-20260828` appeared and was registered on MAIN before deep review. A closing census still found 26 branches but caught fresh movement on Mugen, Whiskey, and Wall.
+The mandatory full census found **26 miner branches**. The newly introduced `archive-miner/mugen-person-first-20260828` remains fully represented in MAIN's persistent branch ledger. The finite queue closes at **0 pending / 0 backlog / 0 review-overdue** for reviewed finite miners. Core Rooms and Wall remain cumulative recovery tracks with `last_consumed_sha: null` because older safe-baseline packages still exist. A final census caught Wall moving again after this pass's review, from reviewed frontier `7a6588d0c1fde70262c0dfd6c2843ee03e1e9fb0` to seen head `65110804605264d499101362f1e7bd33547f5c5c`; that newest Wall delta is registered for the next recovery rotation rather than falsely marked reviewed.
 
-Closing queue:
+Living Ensemble remains fully consumed through `66c3227c687965a4dae9b372fdcbe2dc128611ba`; Club-Only 2020 through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`; Club-Only 2021–2026 through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`.
 
-- **Finite pending:** 2 — Mugen's late `10f13e7... -> 615dcbcb...` delta and Whiskey's fresh `01854048... -> 55bd3d3b...` delta.
-- **Backlog / review-overdue:** 0 / 0.
-- **Cumulative recoveries:** Core Rooms + Wall remain `last_consumed_sha: null` because older safe-baseline packages still exist.
-- **Living Ensemble:** fully consumed through `66c3227c687965a4dae9b372fdcbe2dc128611ba`.
-- **Club-Only 2020:** fully consumed through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`.
-- **Club-Only 2021–2026:** fully consumed through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`.
+## Finite branches reviewed
 
-## Branches reviewed this pass
+### Mugen person-first — consumed through `615dcbcb75ec5cbce58739b58d5e42502d540430`
 
-### Core Rooms — reviewed frontier through `a0560fccb869aa8a56105d9bf95429fd1878dca2`
+The late delta was reviewed intake-only. Its strongest material is already represented on current public surfaces after concurrent richer integration: the 2024 adulthood/work-and-move beat is privacy-minimized in MAIN's comprehensive Mugen biography; the recurring external-meem-to-UL framing-editor sequence is likewise already folded into that biography; the 2021 NightLife feedback pivot already owns the WIKI episode **Mugs Changes the Rule and Keeps the Party**; and the wrong-button admin texture is already present in the richer Mugen story. Thin scream/gum/source fragments did not earn duplicate public objects. Successful duplicate/corroboration review; consumed through HEAD.
 
-The new keeper is NemeMoka. In 2020 the stable account is still living inside Dragon Raja's ordinary calendar: `NemeMoka is here to check in~ from dragon raja`, then a `New class` post, then a ladder-team plan that loses a fight with sleep after repeated pings end in `i think Neme past out`. ShiyaX later tells Neme, Lilly, and Rummy that their `corpses` are parked AFK with dailies done.
+### Whiskey — consumed through `55bd3d3bf82ec682ad0220a9086a2310ad2cfe3d`
 
-The same stable account surfaces again in 2026 without a ceremonial reintroduction. Mugen immediately says `wazzaaa neme`; Neme joins the live conversation with a story about offering a hacked friend soup; then on March 3 supplies the line that changes the whole chronology: `I drop by Raja once a year on my bday to see how it's going`.
+Two bounded doorway/return scenes cleared the WIKI bar.
 
-WIKI owns **Neme Turns Raja Into a Birthday Pilgrimage** as the bounded chronology. MAIN owns the richer character dossier. The archive does not turn the 2020→2026 authored-message gap into a departure/return date, does not declare March 3 to be Neme's birthday, and does not infer account-sharing mechanics from ShiyaX's dailies line. Core remains cumulative recovery-in-progress, so its consumed SHA stays null.
+**Lena Gets All Access** follows one February 16, 2021 intake from Lena's literal `Aelena /underlords/ 20`, through Anthos assigning roles and pointing at the server map, to `aaaaand this is the all access chat room!`; Lena answers `🤙🤙`. The episode keeps the historical age as dated self-report only and does not invent the exact assigned roles or recruiter path.
 
-### Mugen person-first — reviewed through `10f13e7b6f5b863ed3e5c7fb822325dafae9ab3d`
+**Cinders Comes Back as Juniper** uses stable-account continuity rather than similar-name guessing. The ACORYUIE account supplies `Cinders` in February, supplies `Juᥒιρer` four months later, and is then technically addressed by Mugen with `welcome back bb, role assigned, you know your way uwu`. The return is hard at the account level; why the intake retriggered, the exact role, whether either label was specifically an IGN, and any permanent alias chronology remain unresolved. Nearby `Brynnderellaaaaaaaaaa` is not silently attached to this person.
 
-The clean new episode is the 2021 NightLife feedback pivot. Members object to the location restriction; Mugen answers `We hear your concerns and we're revising this month's photoshoot guideline!`, announces `SHOOTS ARE NOW OPEN TO ANY LOCATION`, and the room immediately goes back to JoJo-pose / `LEGGO STRIPPEEEERS` nonsense.
+Ricochet ↔ Rich remains contextual-high rather than a hard technical identity bridge.
 
-WIKI owns **Mugs Changes the Rule and Keeps the Party** because it is a discrete incident with a beginning, decision, and snap-back to social life. It is evidence that Mugen changed this guideline after feedback, not proof that every UL decision was democratic or that every challenge forced a reversal.
+Reader-facing content commit `4b4a15ef76a605e3ebd2a02d2727a9f3241b287c` passed both existing WIKI workflows: standalone Astro build and Pages build/deploy. Concurrent routing work then preserved and wired the new episode pages at `ee397ed061bf11067e530c67c1f27cb942ae8f6e`; that exact commit also passed both WIKI workflows.
 
-Other material from the reviewed Mugen frontier was deduplicated against richer current owners: shared-club ownership, HQ filtering, scream→nap→scream, `So many character arcs`, and Wolf anniversary circulation were already public elsewhere by comparison time. Broad 2024 work/move material remains privacy-minimized, and external-meem-to-UL framing remains developing rather than being dumped as a quote list.
+## Wall recovery continued
 
-The miner advanced again during the run to `615dcbcb75ec5cbce58739b58d5e42502d540430`. MAIN's ledger therefore records the reviewed/consumed frontier at `10f13e7...` while keeping the newer delta visibly pending.
+Wall was reviewed checkpoint-first and intake-only through `7a6588d0c1fde70262c0dfd6c2843ee03e1e9fb0` while older safe-baseline recovery also remains active. BubblesSenpai's `doegor` line is a real four-day callback to Rummy's earlier `doegor`, but not an origin claim; concurrent MAIN work already folded that callback into the richer Spelling Crimes owner, so WIKI did not breed a duplicate. Ocean's `I've been exposed` reaction is edit-order-sensitive because Mugen edited the setup after Ocean replied. Katmars's `HOW DARE YOU EXPOSE ME` and KARIT's `What in tarnation` are text-secure reactions to image filings, but the image contents/subjects remain visually unresolved. Porgo's blocked image retrieval remains a retrieval failure, not negative evidence.
 
-### Daycare — consumed through `d3c309506e59ace80fcbaadd61d39244f0b25cc8`
+Wall moved again to `65110804605264d499101362f1e7bd33547f5c5c` after review; that newest delta remains visibly unreviewed. Wall's consumed SHA therefore stays null.
 
-The finite delta was a successful no-public-change review. ToniTan's direct IGN bridge and YoChan9's literal Lobby fields are useful provenance, but the handoff lacks enough direct Daycare body text for a character-rich public owner. `!9` is not normalized into an age; generic `Role assigned` is not converted into a specific role; Daycare adjacency is not used to manufacture Platelet status. The delta is consumed so it will not be reread forever.
+## Surface split
 
-### Louvre — consumed through `33e9f41723d1ae1e56efa2897c98d6b843a58de0`
-
-Also a successful no-public-change review. LEXI's Lobby→Louvre doorway, Mirose/gyeo's stripper/customer entrance, and mupett's earliest surfaced Lobby handoff remain developing leads because direct Louvre content is still thin in this package. Wolf's anniversary-art circulation corroborates an already-owned family and does not solve the uninspected image/cast map. No role, join date, or relationship was guessed from neighboring context.
-
-## Concurrent work preserved rather than overwritten
-
-The publishing branches moved while this pass was running. Those changes were re-read before edits and preserved. In particular, the concurrent Wall recovery advanced through an older 2026-08-25 00:46 package and published **Woohyuk Keeps the Disney Receipts**. That evidence family remains separate from this pass's Neme/Mugen additions; no duplicate episode was created.
-
-Wall's closing head is now `7a6588d0c1fde70262c0dfd6c2843ee03e1e9fb0`. That newest movement is registered as seen but not yet reviewed, while older Wall safe-baseline recovery still exists.
-
-## Public changes / verification
-
-WIKI reader-facing change: `src/data/integrator-episodes.ts` at content commit `7e960be4e7f7d108c74ce373db33e6287e257b12`, adding:
-
-- **Mugs Changes the Rule and Keeps the Party**
-- **Neme Turns Raja Into a Birthday Pilgrimage**
-
-The exact content commit passed both existing WIKI workflows: standalone Astro build run `33238380361` succeeded, and Pages build → deploy → report run `33238380394` succeeded.
-
-MAIN's corresponding Neme work is a full character dossier plus archive-grounded Staff shelf. The first dossier-only commit correctly failed MAIN's source verifier because a public People file was not yet categorized; the fix added NemeMoka to the archive-grounded Staff shelf without inventing appointment chronology. Exact fixed content commit `41c3271d6df114071b1c8e90d9e9e29320a727a5` then passed source canon/architecture verification, Astro build, built-output verification, and exact Cloudflare deployment in run `33238512269`.
+MAIN received no new reader-facing copy from this pass's Mugen review because the richer comprehensive biography and Spelling Crimes owner already absorbed the useful families through concurrent work. WIKI intentionally owns Lena's doorway and ACORYUIE's same-account return because both are discrete episodes with clean scene boundaries but still too little resolved role/roster context to justify manufacturing MAIN Character shelves.
 
 ## Holds carried forward
 
-Neme's first-ever UL join date, exact Staff appointment date, exact IGN transition history, exact birthday date, and ShiyaX account-operation mechanics remain unresolved. NightLife proves one guideline revision, not a universal governance rule. Daycare's adult/Platelet edge remains unresolved without direct role proof. Louvre's LEXI role, Mirose/gyeo relationship, mupett join history, and uninspected media remain bounded. Spritely/Shurui `plabn` remains unresolved. Similar names do not create identities; current/export role arrays do not create appointment chronology; joke family/romance does not become literal; POSTED BY / MADE BY / CAPTURED BY / FEATURING stay separate.
-
-This state commit triggers WIKI's normal exact-head workflows. The dual-pass closing report verifies the final publishing heads after bookkeeping lands.
+Exact Lena role/recruiter path and current age; ACORYUIE's intake mechanics, exact role, name-label semantics, and any Brynnderella bridge; Ricochet ↔ Rich technical closure; Ocean edit-order wording; Katmars/KARIT image subjects and provenance; Porgo inaccessible image contents; older Core and Wall recovery gaps. Similar names still do not create identities, current/export role arrays still do not create appointment chronology, joke family/romance does not become literal, and POSTED BY / MADE BY / CAPTURED BY / FEATURING remain separate.
