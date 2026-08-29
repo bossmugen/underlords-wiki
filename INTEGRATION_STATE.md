@@ -1,72 +1,79 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration continuation: **2026-08-29 01:02 PDT**.
+Last dual-surface integration continuation: **2026-08-29 01:14 PDT**.
 
-Latest full detail is durable on MAIN under `archive-intake/INTEGRATION_PASS_2026-08-29_0102_DUAL.md`. Prior rolling states remain in Git history.
+Full detail is durable on MAIN under `archive-intake/INTEGRATION_PASS_2026-08-29_0114_DUAL.md`. Prior rolling states remain in Git history.
 
 ## Census / queue
 
-The mandatory opening census found **27 miner branches** and MAIN persisted every discovered `last_seen_sha` before deep review. No miner branch was merged or cherry-picked wholesale.
+The mandatory full branch census found **27 miner branches** and MAIN persisted the opening `last_seen_sha` ledger before deep review. No miner branch was merged or cherry-picked wholesale.
 
-This run reviewed the finite all-character delta `c34d13939784d424510e547d73bdf5459a10062c -> 819b2b720cca2a58c1c2a82c0b75b0664da63291` checkpoint-first and intake-only. After accepted publication passed verification, MAIN advanced its consumed SHA through `819b2b720cca2a58c1c2a82c0b75b0664da63291`.
+This pass reviewed and successfully consumed two finite deltas:
+- All Characters HR: `819b2b720cca2a58c1c2a82c0b75b0664da63291 -> f88bf23c505436f2121b2589c80bb6ec67d2baec`.
+- Daycare: `72091d755863ed412921d2414765d19d3cf3b72e -> 275008e2a8a7bd52cdb529af2e7da572257c48f8`.
 
-Closing census remained **27 branches** and caught two miners moving after the selected review:
-- All Characters: reviewed/consumed through `819b2b720cca2a58c1c2a82c0b75b0664da63291`; later movement seen through `556acf508b0c5f239b9f1b2110b71e6e356f4ec6`.
-- Daycare: consumed through `72091d755863ed412921d2414765d19d3cf3b72e`; later movement seen through `ebb07ddd0d0df9c45adc6805e4b4ac73cee1c532`.
+It also continued the older Core Rooms safe-baseline recovery through the **2026-08-25 06:46** package. Core remains cumulative/null-consumed because 05:46 and below are still open.
 
-Closing finite queue at the final census snapshot: **2 pending / 0 backlog / 0 review-overdue**. Both late suffixes are seen, not pretend-consumed, and remain for fair rotation.
+The closing census still found 27 miners, but active miners moved while integration was running. Closing finite queue: **4 pending / 0 backlog / 0 review-overdue**:
+- All Characters reviewed/consumed through `f88bf23c505436f2121b2589c80bb6ec67d2baec`, newly seen through `5d14bffb240cfccc16390a9214e0e16ee1c87499`.
+- Daycare reviewed/consumed through `275008e2a8a7bd52cdb529af2e7da572257c48f8`, newly seen through `ebb07ddd0d0df9c45adc6805e4b4ac73cee1c532`.
+- Louvre previously consumed through `2cdb1e702f2e537a89f4dcc3d7d88d2759e435e2`, newly seen through `dfc5dab3da4edc52064fc7e1886595070e8ae832`.
+- Whiskey previously consumed through `55bd3d3bf82ec682ad0220a9086a2310ad2cfe3d`, newly seen through `95e6bc861e1b1864caf69d61e565dc93e8cc4aba`.
 
-Core Rooms and Wall remain the two cumulative recovery tracks with `last_consumed_sha: null` because older safe-baseline material still exists. Core current-head review remains through `93b2978d1d42e1aaae97bba1040652f5e1742cdf`. Wall current-head review remains through `dfbe07e861a8c527382be14b86b5c52bcdd2b33f`; this pass additionally moved the older Wall safe-baseline recovery from the 2026-08-25 01:46 package through the **02:46 package**. Living Ensemble, Club-Only 2020, and Club-Only 2021–2026 remain fully consumed through their current heads. The prompt's old Club-Only backlog warning is superseded by the durable ledger.
+Core Rooms and Wall remain the only cumulative null-consumed recovery tracks. Their newest heads are durably visible at `fc27b1ae4491d5120f4031712fe494a222d0eb69` and `bc654ffd9352ef5062549d80f394552ac958d593`. Living Ensemble and both Club-Only recoveries remain fully consumed through their current recorded heads; the old Club-Only recovery warning in the standing prompt is superseded by the durable ledger.
 
 ## Public split this pass
 
-### MAIN — Ritha's strategy history
+### MAIN — Kaede gets the human middle
 
-The all-character handoff restores a user-confirmed piece missing from Ritha's public biography: her early battle / strategy-lead reputation came from **actual strategic ability**, not decorative founder lore.
+The All Characters handoff supplied a Christmas 2022 Club-Only scene that is locally resolvable as Kaede because contemporaneous replies directly call the speaker `FUENTES` / `kaede`.
 
-MAIN now owns the canonical concise correction in `src/content/people/ritha.md`. The copy keeps three boundaries explicit:
-- the exact dated tactical transcript is still unrecovered;
-- no formal appointment date is backfilled from export-time roles;
-- Anayss's later/current Battle Leader appointment is a separate era and separate function.
+Kaede calls UL a wonderful family, tells Daya that the group's love inspires him to be a better person, and tells Yelik she is one of his best friendships **`inside and outside the game`**.
 
-WIKI intentionally did not receive duplicate Ritha prose this pass. Its existing long-form dossier remains the better future owner for a dedicated biography refresh once the newly advancing all-character quarry is reviewed, rather than patching the same correction twice while that branch is actively growing.
+MAIN folds that scene into `src/content/people/kaede.md`, between hazardous identity paperwork and the later 2023 anniversary-art inclusion story. The wording matters because Kaede himself names the relationship as crossing the game boundary without needing a retrospective manifesto. Dragon Raja is one place the friendship exists; it is not the whole container anymore.
 
-### WIKI — Rummy Chose the Chicken
+The public copy keeps the evidence fences intact: local scene resolution does not globally relabel the pooled Deleted User account; Kaede's statement about Yelik is his own ranking, not proof of Yelik's reciprocal ranking; no romance, role chronology, or account-transition story is invented.
 
-Wall's 2026-08-25 02:46 recovery package produced the clean bounded episode **Rummy Chose the Chicken** in `src/data/integrator-episodes-wall-20260828.ts`.
+### WIKI — Kaede → Yelik: Inside and Outside the Game
 
-On September 12, 2022, Gilli files: `For shame. She let us get murdered for Chicken`. Rummy later answers the charge as her own: `It very much worth it the chucken was amazing`, drawing six disapproving `cattohmph` reactions.
+WIKI uses the same evidence for a different job. `src/pages/relationships.astro` now has **Kaede → Yelik — Inside and Outside the Game**, a compact bond index card pointing at the direct friendship language rather than cloning MAIN's biography prose.
 
-The character beat is the missing denial. Rummy does not contest the tradeoff; she reviews the chicken and stands by the decision.
-
-The screenshot is still visually unresolved, so the episode does **not** name the exact game, mechanics, victim list, or action that allegedly caused the deaths. MAIN intentionally did not duplicate this tiny hearing because Rummy's main-site biography is already dense and owns the broader Wall / BL / pancake / context-defense rails; WIKI's Episode format is the cleaner canonical owner for this discrete incident.
+The arrow is intentional. The surviving receipt is Kaede speaking about Yelik. Until Yelik supplies an independent matching statement, the wiki does not quietly turn one person's closeness language into a reciprocal ranking.
 
 ## Deduped / banked
 
-From the all-character review:
-- Suzimasu stripping-GIF / Snow `PUT YOUR CLOTHES BACK ON`: additive but current dossier already strong.
-- Illien `They should merge under-lords`: useful beside the WarlordZ lifeboat, held for a fuller continuity pass.
-- Nelph direct 2021-10-05 Officer promotion plus later break-with-belonging-intact: banked until more non-operational character texture accompanies it.
-- Yumi, Key, and Kiro: no public churn; existing owners remain stronger.
+All Characters:
+- Feli and Lan: no sufficiently additive public receipt in this suffix.
+- Nemo: recruiting/travel behavior already substantially richer on current public owners.
+- Rummy: useful visual/aesthetic grammar is banked for a future media/gallery owner where the exact images can accompany the analysis rather than becoming another detached bio claim.
 
-From Wall 02:46:
-- Gabu/Daya/Rummy/Marian recommendation desk is real ensemble texture, but Rummy's existing public biography already carries the cross-year BL/yaoi recommendation rail, including Gabu delegating yaoi to her.
-- Gilli -> Gabu `Don't make me spam you with the bot answers again` advances the height-war genealogy, but the first bot incident, bot identity, and answer contents remain unresolved. Do not infer Saber.
-- Moon `I am a moon,so i see all` is excellent one-scene character texture, not yet a recurring gag; `Dream` and shroom context remain unresolved.
-- Rummy pancake maker/media attribution remains unresolved. The room can call it Rummy's pancake without proving Rummy cooked it.
+Daycare:
+- Zoshaa/NintendoShitcube doorway material, boiled-mayo/orb line, and `Screaming is what I do best` are already richer on BOTH public Zoshaa owners.
+- Miihi/Milk remains too thin for a public person page.
+- Search negatives stay source-bound negative checks, not historical absence claims.
+
+Core 06:46:
+- The four-person Anthos set resolves at identity level as Anthos + Ansun + RV/Ren + Gabu, with immediate `Anthos consciousness` / `host` / `3 alter anthos` / `inner ànthos` afterlife.
+- The Tumbleweed/Organisation Update is visibly a live social taxonomy, not merely a static family tree, but the meaningful narrative is already richer on the current Anthos owners on BOTH surfaces.
+- Illien/Euros identity and pricing escalation are already richer on MAIN; Zoshaa's `child shield` is already in WIKI.
+- No duplicate page was created merely to publish every surviving chart label.
 
 ## Verification / deployment
 
-WIKI reader-facing content commit: `1c4e7c1f86e88a35c09f113c668e0192eb14d4bb`.
+MAIN reader-facing Kaede content commit: `e6e98088615bdb045e0c2de1abb4908265d7aab9`.
 
-Existing workflows both passed for that exact commit:
-- `Build Underlords Wiki` run `33242499690`: Astro build success.
-- `Deploy Underlords Wiki Preview` run `33242499692`: Pages preview build, artifact upload, deploy, and report success.
+Its existing `UL Hourly Build + Deploy` workflow run `33242993915` completed successfully for that exact commit: source canon/architecture verification, Astro build, built-output verification, and exact-commit Cloudflare production deployment all passed.
 
-MAIN's reader-facing Ritha commit `a5ca87c40438a46eb5f6992d1661c258348bfe7c` likewise passed source canon/architecture verification, Astro build, built-output verification, Cloudflare deployment, and exact production-commit verification in workflow run `33242485233`.
+WIKI reader-facing relationship commit: `98739ff438fc856b029191ae92f911a114f53d80`.
+
+Existing workflows passed for that exact commit:
+- `Build Underlords Wiki` run `33243079409`: Astro build success.
+- `Deploy Underlords Wiki Preview` run `33243079411`: Pages preview build, artifact upload, deploy and report success.
+
+This state commit follows the verified public-content commit; its own exact-head workflows are expected to run under the repository's ordinary push policy and are checked by the integrator before closing the run.
 
 ## Holds / attribution firewall
 
-Fresh all-character suffix after `819b2b72...` and fresh Daycare suffix after `72091d75...` are pending fair review. Ritha's exact tactical transcript/formal appointment chronology remains open. Kuwei/Annie preferred display chronology and visual attribution remain unresolved. Spritely/Shurui `plabn` remains unresolved. Wall's bot-answer origin, Moon/Dream shrooms context, Rummy chicken screenshot mechanics, Rummy pancake maker/media join, and remaining older Core/Wall recovery floors stay open.
+Still unresolved: exact light/dark/orange/number mapping among the four Anthos variants; `orb` direction; `child shield` meaning; Suzimasu/Leokuraii hostage-map logic; later recurrence of Wolf's `silent but deadly`; Ricochet `IMG_0415.png` contents behind `LEAVE RUMMY ALONE`; Kuwei/Annie preferred display chronology; Spritely/Shurui `plabn`; remaining older Core/Wall recovery floors; and every new late-moving finite suffix listed above.
 
-Similar names do not create identities. Current/export role arrays do not create appointment chronology. Joke family/romance/possessive language does not become literal biography. Earliest surviving remains earliest surviving, not origin. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain separate.
+Similar names do not create identities. Pooled Deleted User material is resolved only message-by-message or scene-by-scene when direct evidence permits. Current/export role arrays do not create appointment chronology. Joke family/romance/possessive/host language does not become literal biography. Earliest surviving remains earliest surviving, not origin. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain separate.
