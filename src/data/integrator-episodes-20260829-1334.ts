@@ -90,5 +90,14 @@ export const lateAugustIntegratedEpisodes: Episode[] = [
     kind: "Daycare name-mixup folklore / an old confusion gets adopted as a self-authored mutation",
     logline: "Ghoulie opens with `Feli. We are the same name`; Feli calls that `kinda pog` and says Ghoulie's older ones were even better. Ghoulie then raises the historical stakes: `Get on Gabies level. She combined our names XD`. Feli does not treat the old mix-up like a correction that still needs litigating. She immediately adopts it for one line — `ill always be a half Feli and half Gabie` — follows with `i c a n n o t`, then closes the whole thing with `good times`. That last phrase is the tell: whatever the original confusion was, by 2022 it has become shared Daycare folklore that the people involved can pick up and play with. The laugh is in Feli choosing the mash-up herself for a sentence; the old confusion has stopped being a correction and become folklore.",
     cast: ["Feli", "Ghoulie", "Gabie"]
+  },
+  {
+    id: "mugs-mom-sister-family-math",
+    title: "Mugs Is Mom. Mugs Is Sister. The Math Is Fine.",
+    season: "2021",
+    date: "April 23, 2021",
+    kind: "relationship grammar / UL family math recalculates Mugen mid-conversation",
+    logline: "A family-geometry conversation is already collapsing when Gabu asks who her brother or sister is. Ren supplies a useful historical confession instead of a stable answer: `At one point I called mugs mom but sister too`. Six seconds later she shows her work — `Since key is my brother` — and six seconds after that produces the recalculated result: `So mugs is my sister`. The contradiction is the whole scene. Mugen does not occupy one fixed slot in Ren's fake family tree; the label mutates with whichever relationship the room is using to solve the current equation. Then Gabu reminds everybody `we are also anthos`, Ren agrees `We are anthos`, and asks whether Anthos is therefore `the true ancestor?` The family language is less genealogy than algebra performed by people who keep changing the variables while the equation is still on the board.",
+    cast: ["Ren", "Mugen", "Key", "Gabu", "Anthos", "Ansun"]
   }
 ];
