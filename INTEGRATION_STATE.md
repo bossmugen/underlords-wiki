@@ -12,7 +12,7 @@ The sole finite opening delta was `archive-miner/mugen-person-first-20260828`, c
 
 Closing finite queue: **0 pending / 0 backlog / 0 review-overdue**. Core Rooms and Wall remain cumulative recoveries with `last_consumed_sha: null` because their older safe baselines are unfinished. Both Club-Only branches remain fully consumed/current and were not reopened from stale backlog wording.
 
-The closing branch census retained **27 active / 48 tracked** and caught Core Rooms moving after the selected review work from seen/reviewed `052cf0544b971eed68f60abbdc48d018800dee58` to `088def81e7fd81889470efcb2ef85ef44cf13dd7`. MAIN state now records that newer head as **seen but unreviewed**. No novelty is inferred from the movement, and Core remains null-consumed. Wall remained at `365a1a944e1cf4a25b05a21db43202664cc0f5ff`.
+The closing branch census retained **27 active / 48 tracked** and caught Core Rooms moving after the selected review work from seen/reviewed `052cf0544b971eed68f60abbdc48d018800dee58` through `088def81e7fd81889470efcb2ef85ef44cf13dd7` to current checkpoint head `1ad4e64a3805e79c5b754156bd6ccae1b08f5ac7`. MAIN state records the **05:06 package as seen but unreviewed**. No novelty is inferred from movement, and Core remains null-consumed. Wall remained at `365a1a944e1cf4a25b05a21db43202664cc0f5ff`.
 
 ## Reviewed this continuation
 
@@ -50,12 +50,12 @@ MAIN receives the durable branch-consumption update and pass report. WIKI receiv
 - `AGAIN` proves participant memory of recurrence, not the origin date or mechanics of the missing first stair incident.
 - Mercy remains thin and her attachment remains visually uninspected.
 - Eos's `him`, `B.O.B`, the Lord of the Shorts target, and horse-kun origin/media remain unresolved.
-- Core's late `052cf054… -> 088def81…` suffix is seen but unreviewed and remains part of the cumulative recovery queue.
+- Core's late `052cf054… -> 1ad4e64a…` 05:06 package is seen but unreviewed and remains part of the cumulative recovery queue.
 
 ## Verification / deployment
 
-MAIN durable consumption head `3bd7d738422aad23f53b91eb73a5a46903582473` passed `UL Hourly Build + Deploy` run **33251942924**. Source canon/architecture verification, Astro build, built-output verification, Cloudflare deployment, and exact production-commit verification all passed.
+MAIN report head `ce6c27c3f2689321e0ca592d91efcb84666fe5b9` passed `UL Hourly Build + Deploy` run **33252121796**, including source canon/architecture verification, Astro build, built-output verification, and exact Cloudflare production deployment.
 
-WIKI durable state head `fa276462754e14eff383f4d10ccf58bc0da4771f` passed standalone `Build Underlords Wiki` run **33251958916** and Pages run **33251958919**. The Pages workflow completed build, deploy, and report successfully.
+WIKI state head `e49b664679f984dfaf0ad2add9db6ee745de2ece` passed standalone `Build Underlords Wiki` run **33252139286** and Pages run **33252139288**. The Pages workflow completed build, deploy, and report successfully.
 
-Closing-census state/report commits follow those verified heads to record Core's late movement. Their exact final publishing heads must also pass the repositories' normal workflows before closeout. No miner branch was merged or cherry-picked wholesale.
+This final state update records Core's latest seen `1ad4e64a…`; the exact final WIKI publishing head must pass the normal standalone build and Pages workflow before run closeout. No miner branch was merged or cherry-picked wholesale.
