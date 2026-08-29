@@ -81,5 +81,14 @@ export const lateAugustIntegratedEpisodes: Episode[] = [
     kind: "Anthos Day afterlife / voice-twin nonsense mutates into possession language and then gets entered on the map",
     logline: "Anthos Day did not end when the voice-clone joke ended. The next morning Ansun says Ren and Gabu are still somewhere in `anthos consciousness` and asks when Ren will leave the `Anthos host`. Ten days later the joke has developed paperwork: Ansun proposes `Ansun, RV, Gabu, (3 alter anthos)` for an `inside anthos head` note; Anthos answers `aight bet`; the pinned organization/family map eventually stores `gabu, ansun, RV (inner ànthos)`. That progression is the keeper. A one-night same-voice gag becomes possession language, then a crowdsourced classification, then literal map text because apparently the archive needed to document who was living inside Anthos now. The four-person clone set is therefore Anthos + Ansun + Ren/RV + Gabu, but nobody is literally one person, possessed, related, or assigned a formal role by the joke. The same live edit session also takes open submissions like Illien's `Alcoholic noodle`, `Child shield`, and `silent but deadly`; those are map joke-labels, not biographies smuggled in through taxonomy.",
     cast: ["Anthos", "Ansun", "Ren", "Gabu", "Illien"]
+  },
+  {
+    id: "half-feli-half-gabie",
+    title: "Half Feli, Half Gabie",
+    season: "2022",
+    date: "June 1, 2022",
+    kind: "Daycare name-mixup folklore / an old confusion gets adopted as a self-authored mutation",
+    logline: "Ghoulie opens with `Feli. We are the same name`; Feli calls that `kinda pog` and says Ghoulie's older ones were even better. Ghoulie then raises the historical stakes: `Get on Gabies level. She combined our names XD`. Feli does not treat the old mix-up like a correction that still needs litigating. She immediately adopts it for one line — `ill always be a half Feli and half Gabie` — follows with `i c a n n o t`, then closes the whole thing with `good times`. That last phrase is the tell: whatever the original confusion was, by 2022 it has become shared Daycare folklore that the people involved can pick up and play with. Feli, Ghoulie, and Gabie remain three distinct people; the joke is funny because Feli chooses to become the mash-up for a sentence, not because the archive has confused their identities.",
+    cast: ["Feli", "Ghoulie", "Gabie"]
   }
 ];
