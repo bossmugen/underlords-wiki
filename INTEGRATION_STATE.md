@@ -1,43 +1,37 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration pass: **2026-08-28 23:41 PDT**.
+Last dual-surface integration pass: **2026-08-28 23:43 PDT**.
 
-Full pass detail is durable on MAIN under `archive-intake/INTEGRATION_PASS_2026-08-28_2341_DUAL.md`. Prior rolling states remain in Git history.
+Full pass detail is durable on MAIN under `archive-intake/INTEGRATION_PASS_2026-08-28_2343_DUAL.md` once the final bookkeeping commit lands. Prior rolling states remain in Git history.
 
 ## Census / queue
 
-The mandatory full census found **26 miner branches**. The newly introduced `archive-miner/mugen-person-first-20260828` remains fully represented in MAIN's persistent branch ledger. The finite queue closes at **0 pending / 0 backlog / 0 review-overdue** for reviewed finite miners. Core Rooms and Wall remain cumulative recovery tracks with `last_consumed_sha: null` because older safe-baseline packages still exist. A final census caught Wall moving again after this pass's review, from reviewed frontier `7a6588d0c1fde70262c0dfd6c2843ee03e1e9fb0` to seen head `65110804605264d499101362f1e7bd33547f5c5c`; that newest Wall delta is registered for the next recovery rotation rather than falsely marked reviewed.
+The mandatory full census found **26 miner branches**. The finite queue is **0 pending / 0 backlog / 0 review-overdue** through the finite heads reviewed this run. Core Rooms and Wall remain cumulative recovery tracks with `last_consumed_sha: null` because older safe-baseline packages still exist. Living Ensemble remains consumed through `66c3227c687965a4dae9b372fdcbe2dc128611ba`; Club-Only 2020 through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`; Club-Only 2021–2026 through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`.
 
-Living Ensemble remains fully consumed through `66c3227c687965a4dae9b372fdcbe2dc128611ba`; Club-Only 2020 through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`; Club-Only 2021–2026 through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`.
+## Finite review closure
 
-## Finite branches reviewed
+`archive-miner/mugen-person-first-20260828` is consumed through `615dcbcb75ec5cbce58739b58d5e42502d540430`. Its strongest late-delta material was already represented by richer current owners: MAIN's comprehensive Mugen biography already carries the privacy-minimized 2024 work/move beat, recurring framing-editor behavior, and wrong-button admin texture; WIKI already owns the NightLife feedback pivot. Thin scream/gum/source fragments did not warrant another public object.
 
-### Mugen person-first — consumed through `615dcbcb75ec5cbce58739b58d5e42502d540430`
+`archive-miner/whiskey-longitudinal-hourly` is consumed through `55bd3d3bf82ec682ad0220a9086a2310ad2cfe3d`. WIKI's canonical episode data owns **Lena Gets All Access** and **Cinders Comes Back as Juniper**. Lena's scene preserves `Aelena` and scene-era `underlords` as first-party intake data while keeping exact assigned roles/recruiter path and current age unresolved. ACORYUIE's return uses the stable account to connect the February `Cinders` and June `Juᥒιρer` self-reports; exact role, intake retrigger mechanics, label semantics, permanent alias chronology, and any Brynnderella bridge remain unresolved. Ricochet ↔ Rich remains contextual-high rather than a hard technical identity bridge.
 
-The late delta was reviewed intake-only. Its strongest material is already represented on current public surfaces after concurrent richer integration: the 2024 adulthood/work-and-move beat is privacy-minimized in MAIN's comprehensive Mugen biography; the recurring external-meem-to-UL framing-editor sequence is likewise already folded into that biography; the 2021 NightLife feedback pivot already owns the WIKI episode **Mugs Changes the Rule and Keeps the Party**; and the wrong-button admin texture is already present in the richer Mugen story. Thin scream/gum/source fragments did not earn duplicate public objects. Successful duplicate/corroboration review; consumed through HEAD.
+The canonical Whiskey content commit `4b4a15ef76a605e3ebd2a02d2727a9f3241b287c` passed both existing WIKI workflows. A temporary duplicate Whiskey module introduced during concurrent routing was removed as soon as the canonical concurrent episode commit became visible; final routes contain one copy of each Whiskey episode, not twins wearing different filenames.
 
-### Whiskey — consumed through `55bd3d3bf82ec682ad0220a9086a2310ad2cfe3d`
+## Wall recovery — reviewed through `65110804605264d499101362f1e7bd33547f5c5c`
 
-Two bounded doorway/return scenes cleared the WIKI bar.
+The newer Wall package was read checkpoint-first and intake-only after its late movement was registered in MAIN's ledger.
 
-**Lena Gets All Access** follows one February 16, 2021 intake from Lena's literal `Aelena /underlords/ 20`, through Anthos assigning roles and pointing at the server map, to `aaaaand this is the all access chat room!`; Lena answers `🤙🤙`. The episode keeps the historical age as dated self-report only and does not invent the exact assigned roles or recruiter path.
+WIKI now owns **He Died on the Stairs Again**. Gilli posts `@Oyasumi` with an uninspected screenshot; Daya true-replies to that exact filing with `HE DIED ON THE STAIRS AGAIN?!?!`; Oyasumi later answers `No 💀` and, seven seconds later, `Or did I ?`. The reply tree plus Oyasumi's first-person callback make him the strongly supported Wall-local referent of Daya's `HE`. The screenshot remains visually uninspected and the assigned Wall corpus has no earlier textual `stairs` hit, so `AGAIN` proves remembered recurrence without recovering episode one. POSTED BY Gilli, SAID BY Daya/Oyasumi; capture, image subject, and first incident remain unresolved.
 
-**Cinders Comes Back as Juniper** uses stable-account continuity rather than similar-name guessing. The ACORYUIE account supplies `Cinders` in February, supplies `Juᥒιρer` four months later, and is then technically addressed by Mugen with `welcome back bb, role assigned, you know your way uwu`. The return is hard at the account level; why the intake retriggered, the exact role, whether either label was specifically an IGN, and any permanent alias chronology remain unresolved. Nearby `Brynnderellaaaaaaaaaa` is not silently attached to this person.
+The same package advances but does not publish several other rabbits: Mercy's fresh-cookie / `Support your local business 😌` vignette is usable but still thin; Eos's `Got him again` is joined to the exact image filing while `him` and the prior catch remain unknown; `B.O.B CRIIIIMME` now has an exact Daya-height parent but no resolved acronym meaning; Gabu's `Rings of short!!` → `Lord of the Shorts` phrase genealogy is secure while its target remains unknown; Cookie's `kun` / `ansun` / `horse-kun` sequence narrows local context without proving Ansun = horse-kun. Uninspected media stays uninspected.
 
-Ricochet ↔ Rich remains contextual-high rather than a hard technical identity bridge.
+Wall's reviewed frontier is therefore current through `65110804605264d499101362f1e7bd33547f5c5c`, but `last_consumed_sha` stays null until the older safe-baseline recovery is actually exhausted.
 
-Reader-facing content commit `4b4a15ef76a605e3ebd2a02d2727a9f3241b287c` passed both existing WIKI workflows: standalone Astro build and Pages build/deploy. Concurrent routing work then preserved and wired the new episode pages at `ee397ed061bf11067e530c67c1f27cb942ae8f6e`; that exact commit also passed both WIKI workflows.
+## Public split / verification
 
-## Wall recovery continued
+MAIN's reader-facing addition this pass is the four-day `doegor` callback inside the existing **Spelling Crimes** owner: Rummy files `doegor`; four days later BubblesSenpai repeats the exact wound. It is recurrence, not an origin claim. MAIN content commit `a3ef8737eee9e54b528c4249ee81ef7a73ab5b48` passed source canon/architecture verification, Astro build, built-output verification, and exact Cloudflare deployment.
 
-Wall was reviewed checkpoint-first and intake-only through `7a6588d0c1fde70262c0dfd6c2843ee03e1e9fb0` while older safe-baseline recovery also remains active. BubblesSenpai's `doegor` line is a real four-day callback to Rummy's earlier `doegor`, but not an origin claim; concurrent MAIN work already folded that callback into the richer Spelling Crimes owner, so WIKI did not breed a duplicate. Ocean's `I've been exposed` reaction is edit-order-sensitive because Mugen edited the setup after Ocean replied. Katmars's `HOW DARE YOU EXPOSE ME` and KARIT's `What in tarnation` are text-secure reactions to image filings, but the image contents/subjects remain visually unresolved. Porgo's blocked image retrieval remains a retrieval failure, not negative evidence.
-
-Wall moved again to `65110804605264d499101362f1e7bd33547f5c5c` after review; that newest delta remains visibly unreviewed. Wall's consumed SHA therefore stays null.
-
-## Surface split
-
-MAIN received no new reader-facing copy from this pass's Mugen review because the richer comprehensive biography and Spelling Crimes owner already absorbed the useful families through concurrent work. WIKI intentionally owns Lena's doorway and ACORYUIE's same-account return because both are discrete episodes with clean scene boundaries but still too little resolved role/roster context to justify manufacturing MAIN Character shelves.
+WIKI's unique addition after the Whiskey episodes is **He Died on the Stairs Again** in `src/data/integrator-episodes-wall-20260828.ts`. Final content/routing head `4aee08468ca0f18d4d5e295a34e47b2f7073a0b9` passed the standalone Astro build and the Pages build/deploy workflow after duplicate Whiskey routing was removed.
 
 ## Holds carried forward
 
-Exact Lena role/recruiter path and current age; ACORYUIE's intake mechanics, exact role, name-label semantics, and any Brynnderella bridge; Ricochet ↔ Rich technical closure; Ocean edit-order wording; Katmars/KARIT image subjects and provenance; Porgo inaccessible image contents; older Core and Wall recovery gaps. Similar names still do not create identities, current/export role arrays still do not create appointment chronology, joke family/romance does not become literal, and POSTED BY / MADE BY / CAPTURED BY / FEATURING remain separate.
+Exact Lena role/recruiter path/current age; ACORYUIE return mechanics/exact role/name semantics/Brynnderella bridge; Ricochet ↔ Rich technical closure; Oyasumi's first stair-death incident and screenshot visual/provenance; Mercy image contents; Eos target/prior catch; `B.O.B` meaning; `Lord of the Shorts` target; `horse-kun` source/visual identity; Ocean edit-order wording; Katmars/KARIT image subjects; Porgo inaccessible image contents; and all older Core/Wall safe-baseline gaps. Similar names do not create identities, current/export role arrays do not create appointment chronology, joke family/romance does not become literal, and POSTED BY / MADE BY / CAPTURED BY / FEATURING remain separate.
