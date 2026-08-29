@@ -6,16 +6,18 @@ Full branch-level consumption state is durable on MAIN in `archive-intake/INTEGR
 
 ## Current branch boundary
 
-Mandatory opening census plus post-review re-census: **28 active remote miner refs + 21 historical/missing refs = 49 tracked branch identities**. No archive-miner refs live only in the wiki.
+Mandatory opening census plus final fresh census: **28 active remote miner refs + 21 historical/missing refs = 49 tracked branch identities**. No archive-miner refs live only in the wiki.
 
-At the reviewed closing boundary:
+At the final observed boundary:
 
-- finite pending: **0**
+- finite pending: **1** — `archive-miner/mugen-person-first-20260828`
 - backlog: **0**
 - review-overdue: **0**
 - cumulative recovery tracks: **Core Rooms + Wall**
 
-`archive-miner/all-characters-hr-20260828` is consumed through `a4b5cdede1237b315c5ccead7e1d62454f8ce838` after checkpoint-first review of `daa121ce0e352904090c82484ef25887554c814e -> a4b5cdede1237b315c5ccead7e1d62454f8ce838` and successful publication checks. Core forward handoffs are reviewed through `639e63b14c7602a2fa514afd4d875c3560fb0a90`; formal Core `last_consumed_sha` remains null because its older safe-baseline recovery is still open. Wall remains seen at `5d1e684dfa1760e278f133af832e204dcde8cce4`, forward-reviewed through `8a418697d7a6ae28c6e09b80495720fe62e397a5`, cumulative consumed null. Daycare and both Club-Only miners remain fully consumed/current. No miner branch was merged or cherry-picked wholesale.
+`archive-miner/all-characters-hr-20260828` is consumed through `a4b5cdede1237b315c5ccead7e1d62454f8ce838` after checkpoint-first review of `daa121ce0e352904090c82484ef25887554c814e -> a4b5cdede1237b315c5ccead7e1d62454f8ce838` and successful publication checks. Core forward handoffs are reviewed through `639e63b14c7602a2fa514afd4d875c3560fb0a90`; formal Core `last_consumed_sha` remains null because its older safe-baseline recovery is still open. Wall remains seen at `5d1e684dfa1760e278f133af832e204dcde8cce4`, forward-reviewed through `8a418697d7a6ae28c6e09b80495720fe62e397a5`, cumulative consumed null. Daycare and both Club-Only miners remain fully consumed/current.
+
+Mugen person-first moved late after this run's reviewed boundary from consumed `fcb537b32207d35858dbd67c14c382e8e2df3cd5` to seen `a63c39502a1478c1f87f1ebfb70061e1bf759433`. It is deliberately left `pending_review`; the suffix was not consumed merely because it appeared during closure. No miner branch was merged or cherry-picked wholesale.
 
 ## This pass — All Characters officer second pass
 
@@ -75,6 +77,6 @@ WIKI also now owns **Giving You VIP Status** through a concurrent descendant bec
 
 The WIKI reader commit `38c0e6e9076de548d3c392dbca06e8de0642333c` for **We Are One Being** passed the standalone Astro build and the Pages build → deploy → report workflow on that exact SHA. Concurrent descendants then added additional Episodes, including **Giving You VIP Status**; this state update is written on top of those descendants rather than overwriting them.
 
-MAIN's accepted Gabu change landed at `865ea778b637cf9d12c1c80c1a3ca6b02aad8a23`; the direct descendant `e6cf984c37239dbe81d2c2df843fc27df6bc5855` passed source canon/architecture verification, Astro build, built-output verification, and exact-commit Cloudflare production deployment. MAIN consumption state then advanced on descendant `2c86ed4341d21e1f7d004270002fedda39cc8e0f`.
+MAIN's accepted Gabu change landed at `865ea778b637cf9d12c1c80c1a3ca6b02aad8a23`; the direct descendant `e6cf984c37239dbe81d2c2df843fc27df6bc5855` passed source canon/architecture verification, Astro build, built-output verification, and exact-commit Cloudflare production deployment. MAIN consumption state and the final late-Mugen seen frontier were then persisted on descendants.
 
-Both repositories are rechecked again on their final exact publishing heads after these durable state/report writes before the pass is declared green.
+Both repositories are checked again on their final exact publishing heads after these durable state/report writes before the pass is reported green.
