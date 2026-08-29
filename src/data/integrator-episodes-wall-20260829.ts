@@ -81,5 +81,23 @@ export const wallRecoveryEpisodes: Episode[] = [
     kind: "Wall callback / Pride apparently becomes a logistics problem the second Ansun looks away",
     logline: "The old Pride-body disaster gets one missing movement beat. Illien remembers repeatedly seeing `we've lost Pride's body` in Club Chat; Pride says he still laughs about that day; Ren remembers having to make an Amber Alert `For a lost CORPSE`, while the older Club Chat receipt has Ansun telling her `we got a loose corpse`. Then the same November 4 throwback produces Ansun's defense directly to Pride: `in my defense, i left you for one sec and you already trying to fucking get away from me`. Put together, the most likely human read is wonderfully stupid: the lost/loose-corpse problem involved Pride becoming an immediate movement problem as soon as Ansun stopped watching him. The phrase `in my defense` is half the joke — Ansun is already filing his appeal before anybody formally accuses the custodian. November 4 is a callback, not the recovered origin; the exact Dragon Raja mechanic remains unresolved, and this does not create a formal tracker, caretaker, or relationship role. Ansun, Illien, Pride, and Ren are SAID BY for their own lines; no screenshot provenance is inferred from the text.",
     cast: ["Pride", "Ansun", "Ren", "Illien"]
+  },
+  {
+    id: "ghoulie-this-is-my-house",
+    title: "This Is My House, Y’all Just Livin In It",
+    season: "2021",
+    date: "July 7, 2021",
+    kind: "Wall residency callback / repeat defendant claims the property",
+    logline: "By July, Baby Lyssa/Ghoulie has already spent months protesting how often the Wall catches her. July 7 compresses the transformation into one day. In the morning she asks `YOU COULDNT WAIT LIKE AT LEAST 5 MINUTES?`; Ren answers `the shame doesn’t wait my dear`. Later Ghoulie says `i’m no longer safe`; Marian/Panda tells her at least she is not alone. Ghoulie stops arguing tenancy and claims the deed: `this is my house y’all just livin in it`. Panda immediately treats the fake house as domestic reality — Ghoulie says Panda did not clean the kitchen, Panda says they are Ghoulie’s dishes, Ghoulie says Panda’s food was on them. The bit has moved from target of the Wall to resident to landlord, and the room cooperates by inventing chores. It is Wall-house comedy, not literal cohabitation, ownership, governance, or a new relationship label.",
+    cast: ["Baby Lyssa", "Panda", "Ren"]
+  },
+  {
+    id: "erys-objection-hearsay-photoshopped",
+    title: "Objection. Hearsay. Photoshopped.",
+    season: "2022",
+    date: "May 5–10, 2022",
+    kind: "Wall defense escalation / Erys turns screenshot court into an appellate system",
+    logline: "Erys does not merely deny one Wall filing; across three dates the defense keeps acquiring new jurisdictions. May 5: `i swear i didnt say that`. May 6, seconds after Ren posts an uninspected image: `NO` → `i swear that isnt me` → `its photoshopped`; after Mugen files two more screenshots she escalates to `im being hacked`, then sounds almost relieved when Mugen says chat is moving too fast to grab the rest: `good` / `no one needs to see the rest mugss`. By May 10 the vocabulary has gone fully procedural: `objection` → `hearsay`. Ren true-replies `Denied, it was your own answer`; Erys answers `no it wasn't` and, naturally, `i swear`. The recurrence is the joke: embarrassment becomes a standing strategy for invalidating the entire evidentiary system. The hacking and Photoshop lines are comic alibis in context, not proof of real compromise or editing. Ren is POSTED BY for `IMG_8282.png`; Mugen is POSTED BY for the later pair; pixels, MADE BY, CAPTURED BY and FEATURING remain unresolved.",
+    cast: ["Erys", "Ren", "Mugen", "Rich"]
   }
 ];
