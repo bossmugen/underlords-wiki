@@ -1,6 +1,6 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration pass: **2026-08-29 07:20 PDT**.
+Last dual-surface integration pass: **2026-08-29 07:34 PDT**.
 
 Full branch-level consumption state is durable on MAIN in `archive-intake/INTEGRATOR_BRANCH_STATE.json`; prior rolling wiki states remain in Git history.
 
@@ -8,72 +8,46 @@ Full branch-level consumption state is durable on MAIN in `archive-intake/INTEGR
 
 Closing census: **28 active remote miner refs + 21 historical/missing refs = 49 tracked branch identities**.
 
-Finite queue closes at **0 pending / 0 backlog / 0 review-overdue**. All-Characters HR is consumed through `196f9579…`, Daycare through `604598e1…`, and Mugen person-first through `e5df362e…`. Core Rooms and Wall remain the two cumulative recovery floors with formal `last_consumed_sha: null` until their older safe baselines close. Both Club-Only miners remain fully consumed/current.
+The finite queue closes at **1 pending / 0 backlog / 0 review-overdue**. The late mover is `archive-miner/mugen-person-first-20260828`, seen at `f0d246a8…` while its consumed frontier remains `e5df362e…`. Core Rooms and Wall remain the two cumulative recovery floors with formal `last_consumed_sha: null`; Wall moved again during close to `e6a560a9…`, so that newest suffix is seen but not fake-reviewed. Both Club-Only miners remain fully consumed/current.
 
 No miner branch was merged or cherry-picked wholesale.
 
-## Core Rooms — two bounded Episode owners
+## Whiskey — DyingFox gets an actual little voice
 
-The current Core head was reviewed through `f164247401f144dd6ca084e679332211bcfd56f0`. The late `f1642474` change only rolled checkpoint navigation forward after the 07:03 evidence package. Older safe-baseline recovery also moved backward through the **2026-08-25 22:46 package**.
+`archive-miner/whiskey-longitudinal-hourly` advanced `0862ebc8… -> c82656a8…` and was reviewed checkpoint-first, intake-only.
 
-### The Bar Is Open for Akamin
+The strongest keeper belongs to DyingFox. On June 29, 2021 Fox opens with `Haii ghostie`; Ghost answers `Hi fox` thirty-one seconds later. The softened names do all the social work without anybody explaining the relationship. Later that afternoon the room breaks into a visible knife-emote outbreak and DyingFox files the diagnosis as `Starting fights again`.
 
-On April 5, 2020, Akamin appears in Lobby and Gilli greets a familiar absence rather than a stranger: `AKAMIIIN`, `WHERE YOU BEEEEN. I missed you 😭`, and the detail that she had `JUST asked about you in club chat`. Akamin answers with skating/outdoor-life debris and quarantine. Snow then declares `the bar is open for Akamin  ^_^`; Akamin immediately understands the premise — `Oooh show time??😎`, then `Snow baby heyyyy` — and Snow hands over a role-play mai tai.
+The useful word is `again`: Fox is recognizing a recurring house behavior, not discovering a new emergency. It does **not** identify a specific earlier fight and it does not turn knife emotes into literal violence. MAIN now owns this as person texture inside the existing DyingFox biography rather than inventing a second incident page.
 
-That tiny scene is useful because nobody has to explain the relationship grammar. The room already missed her, had already been talking about her, and reopens a pretend venue on contact. Eight months later Mugen supplies a public-facing echo by promoting `Our bb @akamin` doing a Dragon Raja throwback Twitch stream.
+Other Whiskey material stayed fenced: DyingFox says `It's a word that gilli made up`, but the actual missing word is still unresolved; the person who did not know Snapple is unidentified; `Usa 🇺🇸` lacks its antecedent; `DyingFox(Gilli's Pond)` is not dated nickname-origin evidence; uninspected media remains uninspected.
 
-WIKI now owns this as the bounded Episode **The Bar Is Open for Akamin**. April 5 is not treated as Akamin's first UL arrival; the bar/mai-tai exchange is Discord role-play, not an offline drinking fact or a formal bartender/VIP role; one promoted stream does not create a UL streamer appointment.
+MAIN reader-facing commit `22961c90e9b951f897e8cc40fb038101fd49407c` passed the complete **UL Hourly Build + Deploy** workflow `33257825254` successfully, including the repository's source verification, Astro build, built-output verification, and deployment chain.
 
-### Isn't That Just a Movie?
+## Wall — WHY IS IT WHITE
 
-Wennie's September 3, 2020 school crisis is now WIKI Episode **Isn't That Just a Movie?**. She reports `guys my prof said that we're going to watch an hour long video`; four seconds later arrives at `isnt that just a movie`; one second later: `???`.
+Wall forward recovery was reviewed from the prior `f78113b8…` frontier through `235b32a8…`. The clean public owner is the September 10, 2021 workplace-camouflage hearing.
 
-The room does not merely laugh. Hishiro says it could be a documentary, Shk tells her to take notes because it could appear on the test, and Hishiro explains why he uses videos with his own students. Once the practical question has been answered, Wennie closes the emergency with `oki ty ima go poof now :cat_cry:`.
+Marian opens with `o my god. GILLI. WHY IS IT WHITE. my poor eye balls`; Baby Lyssa rules `this should be a sin`; Marian escalates to `no, even satan would look away`. Gilli's defense is operational, not aesthetic: `IT'S TO BLEND IN WITH THE PROGRAMS I USE AT WORK`, followed by `I CHANGE IT BACK WHEN IM HOME C H R I S T`.
 
-The same custom object `wennieheart` that Wennie used in her August Lobby greeting appears again as her reaction to Hishiro here. Only **USED BY Wennie** is promoted. The emoji snowflake predates the surfaced Lobby scene, but creator, uploader, original server/guild, UL ownership, and visual subject remain unresolved because the asset was not inspected and object-creation time is not provenance.
+The reversal is what makes the scene worth keeping. Everyone else prosecutes the white setup as a taste crime while Gilli insists the ugliness is camouflage: work gets the cursed white version; home gets the restoration. WIKI now owns this as Episode **WHY IS IT WHITE**. Two Gilli-posted screenshots remain visually uninspected, so the wiki does not name the software, employer, workstation, exact UI, CAPTURED BY, MADE BY, or pixel contents.
 
-The currently assigned Club-Only scan surfaces only four authored Wennie lines, all in this scene. That scarcity is not converted into a departure date or a claim that she stopped participating; later Halloween and New Year's Eve evidence is reaction metadata and remains labeled as such.
+Miihi's Wall chronology strengthened but is still image-dependent; Abie's `Bonus:` laugh remains too thin; Ghostt's `I say this everyday` referent remains unresolved. Wall moved again during closing census to `e6a560a9…`; that suffix remains for the next pass while the older cumulative recovery also stays open.
 
-## Finite reviews with no public change
+WIKI reader-facing commit `b3d0cb4483f5b69c1d5d52f9beb67c1c07facf72` passed standalone **Build Underlords Wiki** workflow `33257853180` and Pages build/deploy workflow `33257853178` successfully.
 
-### All-Characters HR
+## Reconciliation / intentional split
 
-`57ca77cf… -> 196f9579…` was reviewed checkpoint-first and intake-only. Historical-Staff Run 8 mostly strengthened sourcing around already-correct public owners. Aeshleen's recurring context-defense rhythm is already richer on her dossier/biography. Akuma/Matsu, Allenne, Churro/Suora, Ciphy, Crystalia, and Eos remain too thin, visually unresolved, or attribution-dependent for an additive rewrite. Consumed with no public change.
-
-### Daycare
-
-`e9799d8b… -> 604598e1…` was reviewed through the 07:00 handoff and later root-checkpoint rollover. Dayadream's recipient-to-front-desk trajectory is already richer on Daya; Mia's Platelet safety wording is already correctly framed as shared house onboarding rather than personal policy authorship; MOMO's `minor or not minor` compromise corroborates the existing age-privacy story rather than creating a new constitution.
-
-CookieStream stable ID `887703610052448257` remains distinct from Cookie stable ID `249351359290277890`; `CookieStream(kuki/juicycookie)` -> `Mr.Cookie` is same-account label continuity only. Jan. 1, 2022 Lobby quietness remains archive-specific rather than whole-server silence. Consumed with no public change.
-
-### Mugen person-first
-
-`2224419e… -> e5df362e…` contained no changed `archive-intake/*` handoff path; it changed only `src/content/people/mugen.md` on the miner branch. Under the binding intake-only rule, that path was ignored rather than imported from a miner's public-tree edit. The delta is durably reviewed/consumed as no-public-change so it will not be reread.
-
-## Reconciliation / holds
-
-- Aeshleen context-defense, Daya onboarding labor, and Mia Platelet safety packet were deduplicated against richer public owners.
-- Key `pennies are for key` remains held: plain-text `Key` is not identity-safe and the reason for the pennies is unresolved.
-- The adjacent 2021 Key Wall image remains uninspected.
-- Akamin/Mere remains project/user-confirmed identity context; this Core package did not independently recover a new archive bridge and therefore does not pretend it did.
-- `wennieheart` maker/uploader/original-server/visual provenance remains open.
-- Gilli's Pond origin remains open; exact-find misses contradicted direct rendered nickname evidence, so zero hits are not absence proof.
-- Oyasumi / TankHead94 appointment date/mechanism remains open; export-time/current role arrays are not chronology.
-- CookieStream / Cookie remains a no-merge identity rabbit.
-- Earlier Wall holds remain intact: Ryan X is banked pending a canonical MAIN owner that passes source architecture; Shiki's missing VC quote, Gilli's `your pebble`, Ryan's `wc`, Athena's bad-manhwa scene, and unresolved image provenance stay fenced.
-
-## Public split / verification
-
-**MAIN:** no reader-facing page was changed by this pass. That is deliberate. Akamin and Wennie have excellent self-contained scenes but not enough safe canonical-owner material to justify manufacturing thin MAIN biographies; the other finite deltas were duplicate/corroboration or held evidence. MAIN receives the durable branch ledger and dual-pass report.
-
-**WIKI:** `src/data/integrator-episodes-core-20260829.ts` gained **The Bar Is Open for Akamin** and **Isn't That Just a Movie?**. Reader-facing content head `2196a63bbe5a90c2b504135fd0e1abf96c4117a7` passed standalone **Build Underlords Wiki** workflow `33257250607` and Pages workflow `33257250600` through deployment.
-
-This state update is committed after those reader-facing checks; the resulting exact `main` head is also required to pass WIKI's native standalone build and Pages build/deploy chain before the integration run is considered closed.
+- DyingFox is **MAIN-only** this pass because the new Whiskey evidence deepens an already-established person biography rather than needing another wiki incident container.
+- `WHY IS IT WHITE` is **WIKI-only** because it is a perfectly bounded Wall episode; MAIN's Gilli biography is already large and did not need the same story copied verbatim.
+- Existing richer owners were not duplicated merely because a new miner package corroborated them.
+- POSTED BY / MADE BY / CAPTURED BY / FEATURING remain separate throughout.
+- Earliest surviving evidence is not promoted into origin, and unresolved image/provenance joins remain unresolved.
 
 ## Remaining recovery
 
-- **Core Rooms:** forward handoffs reviewed through `f1642474…`; older recovery through the 2026-08-25 22:46 package; older material remains.
-- **Wall:** current forward head remains reviewed through `f78113b8…`; older recovery remains open from its recorded frontier.
-- Finite intake is otherwise caught up at the closing census cutoff.
+- **Core Rooms:** forward handoffs reviewed through `f1642474…`; older safe-baseline recovery remains open through its recorded 2026-08-25 22:46 frontier.
+- **Wall:** reviewed forward through `235b32a8…`, then moved to seen `e6a560a9…`; older recovery remains open through its recorded 2026-08-28 21:24 frontier.
+- **Finite queue:** Mugen person-first late suffix `e5df362e… -> f0d246a8…` is pending for fair rotation.
 
-The surface split is intentional: WIKI gets two compact incidents with clean boundaries; MAIN does not get two biographies built out of five minutes of excellent nonsense and archival optimism.
+This pass's public division is deliberately asymmetrical: Fox gets more personhood on MAIN; Gilli gets prosecuted for workplace interface camouflage on WIKI. Nobody gets duplicated just so both repos can make the same noise.
