@@ -63,5 +63,23 @@ export const lateAugustIntegratedEpisodes: Episode[] = [
     kind: "Wall joke mutation / mock public-safety language becomes anatomy, campaign branding, and bounce physics",
     logline: "Anayss files an image under `#PROTECCtheASSETS` and tags Rummy, Sou, Han, and Cookie. Forty-three seconds later Sou translates the initiative into plain English: `protectbutt`. About an hour later Han true-replies to Sou with `#PROTECTBUTT2021`; fourteen minutes after that Rummy true-replies all the way back to Anayss's original filing with `#protectbuttboingboing`. The original post's butt-coded reaction pile makes the `assets`→butt read probable even without opening the image. The joke gets edited in public: Anayss supplies mock-official language, Sou strips it down to the body part, Han gives it a year-campaign label, and Rummy adds bounce physics. Anayss is POSTED BY for `image0.png`; Han separately POSTED BY a nearby Dragon Raja screenshot. Neither binary was visually inspected, so MADE BY, CAPTURED BY, and FEATURING remain unresolved. October 13 is a surviving Wall recurrence, not a certified origin.",
     cast: ["Anayss", "Ansun", "Han", "Rummy", "Cookie"]
+  },
+  {
+    id: "shiyax-someone-else-was-on-my-account",
+    title: "Someone Else Was on My Account",
+    season: "2021",
+    date: "October 15 – November 1, 2021",
+    kind: "Wall stock defense / ShiyaX discovers a recurring invisible account intruder whenever evidence appears",
+    logline: "Two separate Wall exhibits land twenty-four minutes apart on October 15. ShiyaX true-replies to the first with `hmm whos on my account ?`, then meets the second with `Ok who was on my account :Cat_Gun:`. On November 1 the defense returns almost verbatim: `Someone else was on my account bbg`, followed by the significantly less exculpatory `Shhhhh`. Three uses are enough for the ordinary human read: this is a recurring stock alibi, not evidence that somebody was actually borrowing ShiyaX's Discord. The joke works because he treats each fresh filing like mysterious unauthorized activity occurring to him personally, then the November `Shhhhh` quietly murders his own defense. October 15 is the earliest exact surviving instance recovered here, not a certified origin. Nelph is POSTED BY for the first October exhibit; the second was posted by pooled Deleted User ID 456226577798135808. ShiyaX is SAID BY for the alibis; unseen image contents, makers, capturers, and featured people remain unresolved.",
+    cast: ["ShiyaX", "Nelph"]
+  },
+  {
+    id: "three-inner-anthoses",
+    title: "Three Alter Anthoses Become Documentation",
+    season: "2020",
+    date: "September 19–29, 2020",
+    kind: "Anthos Day afterlife / voice-twin nonsense mutates into possession language and then gets entered on the map",
+    logline: "Anthos Day did not end when the voice-clone joke ended. The next morning Ansun says Ren and Gabu are still somewhere in `anthos consciousness` and asks when Ren will leave the `Anthos host`. Ten days later the joke has developed paperwork: Ansun proposes `Ansun, RV, Gabu, (3 alter anthos)` for an `inside anthos head` note; Anthos answers `aight bet`; the pinned organization/family map eventually stores `gabu, ansun, RV (inner ànthos)`. That progression is the keeper. A one-night same-voice gag becomes possession language, then a crowdsourced classification, then literal map text because apparently the archive needed to document who was living inside Anthos now. The four-person clone set is therefore Anthos + Ansun + Ren/RV + Gabu, but nobody is literally one person, possessed, related, or assigned a formal role by the joke. The same live edit session also takes open submissions like Illien's `Alcoholic noodle`, `Child shield`, and `silent but deadly`; those are map joke-labels, not biographies smuggled in through taxonomy.",
+    cast: ["Anthos", "Ansun", "Ren", "Gabu", "Illien"]
   }
 ];
