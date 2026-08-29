@@ -2,6 +2,15 @@ import type { Episode } from "./wiki";
 
 export const integratedEpisodes: Episode[] = [
   {
+    id: "no-molester-misread",
+    title: "The No Molester Misread",
+    season: "2026",
+    date: "August 13, 2026",
+    kind: "Whiskey screenshot / one Spanish DND label gets catastrophically re-read",
+    logline: "Ren posts `New do not disturb background :kitty_yippee:` with the exact screenshot `IMG_1167-fe296c324ebac18b.png`. Direct inspection shows the phone lockscreen label at the bottom really says `No molestar`. Seventeen minutes and thirty-nine seconds later Oyasumi reports what his eyes chose to do with that information: `Thought the bottom text said \"no molester\"`. The image/text join makes the joke self-contained without inventing anything else in the screenshot. Ren is POSTED BY for the screenshot; the background's MADE BY / CAPTURED BY provenance remains unresolved.",
+    cast: ["Oyasumi", "Ren"]
+  },
+  {
     id: "winter-pfp-takeover",
     title: "The Winter PFP Takeover",
     season: "2023",
