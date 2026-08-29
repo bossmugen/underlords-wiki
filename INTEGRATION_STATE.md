@@ -1,73 +1,79 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration pass: **2026-08-28 18:03 PDT**.
+Last dual-surface integration pass: **2026-08-28 18:34 PDT**.
 
-This is the rolling current integration state. Full pass detail is durable on MAIN in `archive-intake/INTEGRATION_PASS_2026-08-28_1803_DUAL.md`.
+This is the rolling current integration state. Full pass detail is durable on MAIN in `archive-intake/INTEGRATION_PASS_2026-08-28_1834_DUAL.md`.
 
-## Current pass — Wolf finds the exhibit; Snow dodges the Wall; Eos clocks in dead
+## Current pass — Rummy appeals the edit
 
 ### Branch census / queue
 
 - Mandatory opening census: **24 miner branches**, persisted on MAIN before deep review.
-- Closing census: **24 miner branches** again; no miner branch was newly discovered and no already-consumed discrete miner head advanced during the run.
-- Discrete queue: **0 pending / 0 backlog / 0 review-overdue**.
-- Club-Only 2020 and Club-Only 2021–2026 remain consumed through unchanged heads and were not reread.
-- Anti-starvation recovery rotated to `archive-miner/aug-2026-living-ensemble-hourly` at unchanged HEAD `66c3227c687965a4dae9b372fdcbe2dc128611ba`.
-- Cumulative recovery remains open for Living Ensemble, Core Rooms, and Wall.
+- No miner branch was newly discovered.
+- Daycare advanced from consumed `0247cee810368486dbef7a4cffc74859068991c0` to HEAD `2c6ece9f30b742c7078a19d9780ae24b770e7ab8` and was fully reviewed checkpoint-first.
+- Anti-starvation recovery rotated to Wall at unchanged HEAD `36e85aa2025b030faf43fecd20a315b158debd4c`, closing the older `2026-08-26 18:46` package beneath the previously reviewed 19:46–23:46 material.
+- Discrete queue after review: **0 pending / 0 backlog / 0 review-overdue**.
+- Living Ensemble, Core Rooms, and Wall remain cumulative recovery floors with null consumed SHAs.
+- Club-Only 2020 and Club-Only 2021–2026 remain consumed through unchanged current heads and were not reread.
 
-## Reviewed evidence — Living Ensemble Run11 / Run12
+## Daycare delta — consumed, nothing duplicated
 
-Run11 was reviewed checkpoint-first and intake-only. Rooks's screenshot-hunter scene (`rooks wouldnt miss this for the world` → `uwu cant hide from me`) is already owned richly on both public surfaces. Key/Woohyuk's 2021 vehicle-escalation screenshots are also already owned on MAIN. The genuinely useful missing character beat was the person doing the 2026 recovery: WolfPhenix remembers an old screenshot that would prove Mugen's `the bots call us deranged a lot`, admits `i forget where i put it :>>`, then returns seventeen minutes later as `i` → `found` → `iiit` before presenting the old Key/Woohyuk evidence as `UL BACK IN DE DAY`.
+The full `0247cee... -> 2c6ece...` Daycare delta was reviewed using only its changed intake-local handoffs.
 
-That sequence is now in WIKI's WolfPhenix dossier as dated character chronology. The useful movement is memory → hunt → recovery → verdict. It supports `screenshot archaeologist` as behavior rather than a label while preserving the attribution boundary: the surviving 2026 package is POSTED BY Mugen; Wolf visibly presents the older screenshots; original 2021 CAPTURED BY remains unresolved.
+- Rose / DarkAsrai's stable-account return is already owned on MAIN: Gilli says `Welcome back rose!` before Rose supplies `Galaxy / Dragons`.
+- `.` / nai6965 is canonical Han; his Fame/Shame question is already owned on MAIN.
+- Rich's cross-room `Funcle rich` / Platelet self-filtering scene is already owned richly on MAIN and indexed here as **Funcle Rich**.
 
-Run12 was also reviewed. `Family reunion` is a clean archive-native name for the August 14 reunion scene, but WIKI already owns a 2026 `Family Reunion` episode and Season Seven already uses `family reunion / website arc`, so another episode object would be duplicate. Rooks's first-person `I wasnt an officer just a regular :Fat_Wheeze:` corroborates existing canon rather than changing it. Mugen's reunion recollection that Sye and Nelph became Officers together in 2021 conflicts with Sye's immediate `I was t here in 2021`; that remains a memory contradiction, not appointment chronology. The site-being-shown-to-the-cast scene is already represented by WIKI's `The Cast QA's Its Own Wiki` episode and does not need a second meta object.
+No second copy was accepted. Successful duplicate/corroboration review is still consumption, so Daycare is now consumed through `2c6ece9f30b742c7078a19d9780ae24b770e7ab8`.
 
-## Reviewed evidence — Living Ensemble Run15 / Run16
+## Wall recovery — Rummy's context defense starts earlier
 
-Run15 was deliberately closed checkpoint-first after the concurrent public commit landed. On November 4, 2020 ShiyaX tells Snow that if he would literally type, she could screenshot him onto the Wall. Snow answers `That is why i leave my best material in vc 😛`; Anthos immediately replies `all u do in vc is monch`; Zoshaa adds that Snow still got on her case for eating `ONE(1) FREEZIE`. WIKI now owns this as the discrete episode **Snow Keeps the Best Material in VC**. The line is a joke about evidence exposure and medium choice, not a formal privacy policy or proof that VC could not be recorded.
+The 18:46 Wall package adds a missing first rung to Rummy's already-public habit of objecting to how the Wall edits her conversations.
 
-Five minutes earlier in the same Wall throwback burst, Gilli remembers `when Ana left Snow in the bushes naked`; Pride/neffiegames says `i have picture`; Zoshaa later calls the remembered era `raining nude bush hours`. Separate stable-account context safely bridges `Ana` to Anayss. WIKI now owns the retelling as **Raining Nude Bush Hours**, with the actual old incident still unresolved: why Snow was naked, why bushes, what `raining` or `emo` modify, and the referenced picture's provenance are all still missing. A 2022 Snow bushes GIF was checked and rejected as a trustworthy callback because its local context is only `I Blame DR`.
+On January 30, 2022 Cele says a screenshot is bad out of context. Rummy answers:
 
-Run16 supplied the older half of the reunion corpse language. On May 2, 2021 Eos says `so tired that i am a dead corpse`; Mugen replies directly with a Tenor titled `cheers-to-our-pretty-corpses`; Eos later returns as `this ded corpse always around for the taking`. WIKI now owns the longitudinal **Corpses / Reanimation** Running Gag, connecting that bounded 2021 singular→plural→repeat scene to WolfPhenix's 2026 `de corpses are aliiive` and Rummy's `Reanimate the whole server fr`. May 2, 2021 is earliest surviving relevant evidence currently recovered, not origin, and no uninterrupted 2022–2025 bridge is claimed.
+`yeh yeh out of context it bad but with context it not making it better`
+
+That is the funniest possible first version of a defense strategy: yes, context exists; no, counsel admits context would not acquit counsel.
+
+By December 2023 the doctrine has reversed. Rummy insists `bro u need hte context`, says `THAT WASN'T JUST A RANDOM THINIG`, and eventually supplies the crucial missing universe: `it the bobA bALlS`.
+
+By August 2024 the appeal has become discovery procedure: `THAT NOT THE FULL CONVO`.
+
+WIKI now indexes that three-stage recurrence as the Running Gag **Rummy Appeals for Context**. MAIN carries the richer biography version. The three screenshots remain visually uninspected, so neither surface describes their literal contents or rules that the Wall framing was substantively wrong.
 
 ## Public-surface decision
 
-- **MAIN Wolf:** `src/content/people/wolfphenix.md` owns the full seventeen-minute recovery scene.
-- **WIKI Wolf:** `src/data/dossier-snapshots/wolfphenix.md` owns the compact dated memory → hunt → recovery → verdict chronology.
-- **MAIN Snow:** `src/content/people/snow.md` owns the rich VC-evidence scene and the naked-bush retelling as character texture.
-- **WIKI Snow:** `src/data/integrator-episodes.ts` owns the two discrete incident objects instead of mirroring MAIN's prose.
-- **MAIN Eos:** `src/content/people/eos.md` owns the person-level 2021 corpse scene.
-- **WIKI corpse genealogy:** `src/data/integrator-gags.ts` owns the 2021→2026 running-gag line.
-- MAIN's existing `/lore/corpses-reanimation` route remains folded into the canonical `This Is Your House` story, so this pass did not create a rival MAIN lore essay merely because WIKI benefits from a dedicated Running Gag object.
+- **MAIN:** `src/content/people/rummy.md` owns the full 2022 → 2023 → 2024 character progression: concession → boba-ball context appeal → full-conversation demand.
+- **WIKI:** `src/data/integrator-gags.ts` owns **Rummy Appeals for Context** as the searchable recurring gag object rather than duplicating MAIN prose.
+- Daycare's Rose, Han, and Funcle Rich material was intentionally not republished because its strongest forms were already on the appropriate public owners.
 
 ## Held / unresolved
 
-- Rooks's March 2021 attachments remain visually uninspected; POSTED BY does not become MADE BY / CAPTURED BY / FEATURING.
-- Key/Woohyuk's exact original 2021 day/channel and original screenshot CAPTURED BY remain unresolved.
-- The Run12 Sye/Nelph promotion recollection is not safe appointment chronology.
-- The exact image Mugen showed while saying she was building a website was not re-promoted visually without a safe binary inspection.
-- Snow's original freezie incident remains missing; the 2020 Wall scene proves the callback, not the original mechanics.
-- The original Anayss/Snow naked-bush incident and Pride's referenced picture remain missing; November 4 is a retelling, not origin.
-- The 2022 Snow bushes GIF is a negative callback check, not continuity.
-- Corpse/reanimation has no trustworthy 2022–2025 bridge yet.
-- Living Run13–14, Runs18–21, and other older safe-baseline gaps remain for deliberate recovery closure.
+- A possible 2021 Rummy antecedent (`I just realize i put it like that` / `the way u even highlight it`) remains held until its missing parent/media are recovered.
+- The three screenshots behind the 2022, 2023, and 2024 Rummy appeals remain visually uninspected.
+- Eos's September 2022 `Got him again` still has no safe male target, prior catch, or inspected image.
+- Torr / DiStratus has useful context/grammar crumbs but not enough recurrence for a public rail.
+- Living Ensemble still has Run13–14, Runs18–21, and other older safe-baseline gaps.
+- Core Rooms still has older safe-baseline material beneath the reviewed packages.
+- Wall recovery continues below the 18:46 package; 17:46-and-older remain.
 
 ## Recovery / consumption state
 
-- Living Ensemble: recovery now explicitly covers Runs02–12, Runs15–17, and Runs22–26 plus aggregate safe-baseline handoffs; `last_consumed_sha` remains null because Run13–14, Runs18–21, and other older gaps are not yet fully closed.
-- Core Rooms: recovery open; consumed SHA null.
-- Wall: recovery open; consumed SHA null.
-- Daycare: consumed through `0247cee810368486dbef7a4cffc74859068991c0`.
+- Daycare: consumed through `2c6ece9f30b742c7078a19d9780ae24b770e7ab8`.
 - Whiskey: consumed through `a8a6cfaeaa3f21c35ca8cfaff5b14a8d8d4f63ed`.
-- Club-Only 2020: consumed through current head.
-- Club-Only 2021–2026: consumed through current head.
+- Club-Only 2020: consumed through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`.
+- Club-Only 2021–2026: consumed through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`.
+- Living Ensemble: recovery in progress, consumed SHA null; explicit reviewed coverage remains Runs02–12, Runs15–17, Runs22–26 plus aggregate handoffs.
+- Core Rooms: recovery in progress, consumed SHA null.
+- Wall: recovery in progress, consumed SHA null; reviewed recovery now includes 18:46 through 23:46 in the current descending sweep.
 
 ## Verification / deployment
 
-- MAIN reconciled publishing head `56bfe06865e7065acfe335135184f31015094af5` successfully completed the repository's full source verification → Astro build → built-output verification → exact Cloudflare production deployment workflow. That head preserves Wolf, Snow, Eos, and the concurrent durable Run11–12 state/report work.
-- WIKI publishing head `16f9aa77e7d77f1d082b8c6a304dfa821e15fbca` successfully completed the standalone Astro build and the Pages build/deploy/report workflow. It preserves the Wolf dossier parent, `Corpses / Reanimation` Running Gag, and both Snow episodes.
-- This rolling-state commit is followed by the same repository-native WIKI workflows; final publishing-head status is checked after it lands.
+- MAIN public-content commit `2f8fabb934f9d23314af4d4776ba17a37e3a1fc1` passed workflow `33226975694`: source canon/architecture verification, Astro build, built-output verification, and exact Cloudflare production deployment all succeeded.
+- WIKI public-content commit `d48c22bb309f3cc634b20e5a08d47ba2991f3342` passed standalone Astro workflow `33226987883` and Pages workflow `33226987890`, including build → deploy → report.
+- MAIN durable consumption state was advanced only after those accepted public changes cleared checks.
+- This rolling-state commit is followed by the repository-native WIKI workflows; final publishing-head status is checked after it lands.
 
 ## Current cross-surface continuity locks
 
