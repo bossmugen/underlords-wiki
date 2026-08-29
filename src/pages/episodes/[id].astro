@@ -3,7 +3,8 @@ import WikiLayout from "../../layouts/WikiLayout.astro";
 import { episodes, characters } from "../../data/wiki";
 import { integratedEpisodes } from "../../data/integrator-episodes";
 import { whiskeyIntegratedEpisodes } from "../../data/integrator-episodes-whiskey-20260828";
-export function getStaticPaths(){return [...episodes, ...integratedEpisodes, ...whiskeyIntegratedEpisodes].map((episode)=>({params:{id:episode.id},props:{episode}}));}
+import { wallIntegratedEpisodes } from "../../data/integrator-episodes-wall-20260828";
+export function getStaticPaths(){return [...episodes, ...integratedEpisodes, ...whiskeyIntegratedEpisodes, ...wallIntegratedEpisodes].map((episode)=>({params:{id:episode.id},props:{episode}}));}
 const { episode } = Astro.props;
 const cast = episode.cast.map((name)=>characters.find((character)=>character.name===name)).filter(Boolean);
 const replaceComedyTaxonomy = (value: string) => value.replace(/\b(bits?|gags?)\b/gi, (term) => {
