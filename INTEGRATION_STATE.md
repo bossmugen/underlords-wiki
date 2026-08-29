@@ -1,6 +1,6 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration pass: **2026-08-29 13:43 PDT**.
+Last dual-surface integration pass: **2026-08-29 13:46 PDT**.
 
 Full branch-level consumption state is durable on MAIN in `archive-intake/INTEGRATOR_BRANCH_STATE.json`; prior rolling wiki states remain in Git history.
 
@@ -17,86 +17,103 @@ At this reviewed cutoff:
 
 Important frontiers:
 
-- All Characters — seen/consumed `6f200afd458557aa7fb42c407e9403831ff232a3`
 - Louvre / AI Art / Athenaeum / Other Games — seen/consumed `c4c5199d39f91d51b093133edb78d417513f0de9`
 - Mugen person-first — seen/consumed `87366ffcb0ebb2d99d6e34135de416a40f0d2d2d`
-- Wall — seen `49449d0a6cafa79a2a483dc9295308591035f24c`, forward-reviewed through `01def5167aa1de18305610f72c69af62e90b29d2`; formal consumed remains null because older cumulative recovery is still open
-- Core Rooms — seen/forward-reviewed `f38fcb05669d4ca2bda3dcbe65704149bdf4cbee`; formal consumed null; older safe-baseline recovery is complete through the **2026-08-25 09:46 package**, with 08:46 next
+- Wall — seen/forward-reviewed `49449d0a6cafa79a2a483dc9295308591035f24c`; formal consumed remains null because older cumulative recovery is still open
+- Core Rooms — seen/forward-reviewed `644d6073b8ac2372206dd4e9880ca48d45e83b93`; formal consumed null; older safe-baseline recovery is complete through the **2026-08-25 09:46 package**, with 08:46 next
 - Club-Only 2021–2026 — seen/consumed `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`
 - Club-Only 2020 — seen/consumed `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`
 
 No miner branch was merged or cherry-picked wholesale.
 
-## WIKI keeper — **The Nickname Was the First Boss Fight**
+## WIKI keepers
 
-September 24, 2022. The Bouncer asks DiStratus/Torr for the ordinary setup fields: in-game name and club. Torr hears the request as an instruction to fix his Discord nickname himself, goes to do exactly that, hits the permissions wall, and reports the problem. Then the tiny realization lands: **`oh i misunderstood.`** He supplies `TorrentStorm` and `Underlords`; Ansun tells him staff can handle the nickname and points him toward the Tour and Biodata.
+### The Nickname Was the First Boss Fight
 
-The comedy is microscopic and very human. Torr does not get socially rejected, challenged, or hazed. His first surviving obstacle is interface semantics. He tries the literal interpretation, discovers Discord says no, says so without drama, then corrects course the second the misunderstanding becomes clear.
+September 24, 2022. The Bouncer asks DiStratus/Torr for the ordinary setup fields. Torr initially interprets the nickname request literally, fights Discord's permissions, then realizes **`oh i misunderstood.`** He supplies `TorrentStorm` and `Underlords`; Ansun tells him staff can handle the nickname and points him toward Tour/Biodata.
 
-Five days later his surviving Louvre life begins. Across Louvre + AI Art, **113 of 120** surviving assigned messages are media-bearing. That makes his creative-room presence overwhelmingly object-forward: after a doorway scene where he has to explain a UI misunderstanding in prose, the later record mostly shows him putting things into rooms. It does **not** make him the creator of 113 artworks. `POSTED BY` remains distinct from `MADE BY`; exact Raja admission/recruiter and object authorship remain open.
+Five days later his surviving Louvre life begins. Across Louvre + AI Art, **113 of 120** assigned messages are media-bearing. That makes the later presence overwhelmingly object-forward without converting 113 posts into 113 original artworks. POSTED BY remains distinct from MADE BY; exact Raja admission/recruiter and object authorship remain open.
 
-Episode owner: `src/data/integrator-episodes-louvre-20260829.ts`.
+Owner: `src/data/integrator-episodes-louvre-20260829.ts`.
 
-## MAIN keeper — Tae keeps appealing the Wall's jurisdiction
+### I Believe This Court Has the Wrong Woman
 
-Core's older recovery advanced through the complete **2026-08-25 09:46 package**. That package corrected a dangerous identity scratch first: Discord account `592243050722492424` is **Tae**, not Hamittey. Hamittey is separate account `400116637266870273`. The public keeper then went to MAIN because the payoff is longitudinal person behavior rather than one isolated Episode.
+Across April–July 2021 and again in June 2022, Tae repeatedly reacts to her own Wall appearances as though somebody has filed the wrong case number: **`Why im on here- I didn’t do anything shameful`**, **`AGAIN`**, **`Why im I here`**, **`What is this`**, **`Rv why`**, **`But why rv, why`**, and later **`WHY`**. Ren's cleanest response is three sip emotes in under a second.
 
-Across 2021–2022 Tae repeatedly reacts to her own Wall appearances with variants of the same procedural disbelief: **`Why im on here- I didn’t do anything shameful`**, **`AGAIN`**, **`Why im I here`**, **`What is this`**, **`Rv why`**, **`But why rv, why`**, and later simply **`WHY`**. The important pattern is not generic chaos. Tae keeps responding as though the evidence archive has made an administrative mistake and she would like to know who authorized this filing.
+The recurring behavior is the point: Tae knows how to use Wall evidence culture herself, but when the camera turns back she keeps requesting procedural review. The underlying screenshots remain partly uninspected. Gilli is POSTED BY for the two June 2 images, not automatically MADE BY / CAPTURED BY / FEATURING.
 
-June 2 makes the recurrence explicit because Tae herself says `AGAIN` after Gilli posts a screenshot; less than an hour later another Gilli screenshot gets `Why im I here` / `What is this`. July supplies the cleanest pair beat: Tae asks **`But why rv, why`** and Ren/RV answers in under a second with three sip emotes. Tae requests motive. RV submits beverage-based silence.
+MAIN owns the longitudinal biography progression in `src/content/people/tae.md`; WIKI owns this bounded incident-shaped version in `src/data/integrator-episodes-20260829-1334.ts`.
 
-The underlying screenshots remain partly uninspected. Gilli is POSTED BY for the two June 2 screenshots, not automatically MADE BY or CAPTURED BY. The public story is Tae's repeated response grammar, not invented contents of unseen exhibits.
+### Forgot I Had This / Welcome Back From Vacation
 
-MAIN owner: `src/content/people/tae.md`.
+August 3, 2021. HamitteY posts an old Dragon Raja screenshot, then says **`forgot i had this`**. Baby Lyssa — canonically Ghoulie — true-replies **`you know what`**, **`i thought you was my friend`**, then Cozy Cry. Hami answers **`Sorry not Sorry`** and **`welcome back from vacation`**.
 
-## Louvre delta consumed
+The scene turns Hami's general receipt-keeper habit into an actual social maneuver: an old object resurfaces exactly when the defendant comes back, and Ghoulie immediately recognizes herself as the injured party. The screenshot itself remains visually uninspected. Hami is POSTED BY only; maker, capturer, and featured subjects remain unresolved. Nothing here invents a formal relationship tier.
 
-Reviewed checkpoint-first from `8729c12c787562155e5ea2abe0daca6936801729` through `c4c5199d39f91d51b093133edb78d417513f0de9` using only intake-local handoffs.
+Owner: `src/data/integrator-episodes-20260829-1334.ts`.
 
-Besides Torr, the delta produced a thin but usable **Prince Charm** profile: April 5, 2020 begins with `mad confused lol`, then Snow explains the themed bar/Whiskey-room architecture and Prince immediately pivots to **`Such luxury`** / `So fancy I love it`. Six days later his tiny Louvre window appears, three of four messages media-bearing. The reaction is publishable character texture, but the three Louvre objects remain uninspected and are not called his art. `Access Granted PA` is not turned into Staff appointment chronology.
+## Reviewed deltas
 
-## Mugen delta consumed without duplicate public copy
+### Louvre — consumed
+
+Reviewed checkpoint-first from `8729c12c787562155e5ea2abe0daca6936801729` through `c4c5199d39f91d51b093133edb78d417513f0de9` using intake-local handoffs only.
+
+Besides Torr, Prince Charm gets a thin but useful first-impression scene: `mad confused lol` becomes `Such luxury` / `So fancy I love it` once Snow explains the themed bar / Whiskey architecture. The three later Louvre media posts remain provenance work; no art authorship was inferred, and `Access Granted PA` was not turned into appointment chronology. No separate Prince Episode was added after Torr became the stronger Louvre incident owner.
+
+### Mugen person-first — consumed without duplicate copy
 
 Reviewed checkpoint-first from `633290491f1655b837f7fc1f9107aa8e1df282a3` through `87366ffcb0ebb2d99d6e34135de416a40f0d2d2d`.
 
-The strongest material was already live on current MAIN through the miner's own curated public handoff: Dean says talking to Key/Mugs helps him get feelings out rather than swallow them; Mugen's clean officer praise is interrupted by **`This stray just walked in`**, Anthos says `steal it`, and Gilli still circles back with **`I wouldnt work under anyone else, Mugs`**. Illien's promotion-era `doesn't leave people behind` rationale adds supporting evidence that Mugen notices quiet care, including mood changes. The final miner suffix is integration-status only. No duplicate WIKI object was created merely to prove the branch had been read.
+The strongest material was already live on MAIN: Dean links talking with Key/Mugs to learning how to express emotion; Gilli tells Mugen **`I wouldnt work under anyone else, Mugs`** after the officer-praise scene gets interrupted by a stray animal; Illien's mood-attentiveness is supporting evidence. No WIKI photocopy was added merely to prove the branch had been read.
 
-## Core recovery — complete 09:46 package
+### Wall — forward review current
 
-The older safe-baseline recovery advanced from 10:46 through the complete **2026-08-25 09:46 package**. **08:46 is next.** Forward review remains current through `f38fcb05669d4ca2bda3dcbe65704149bdf4cbee`; formal consumed remains null until cumulative recovery closes.
+Reviewed checkpoint-first through `49449d0a6cafa79a2a483dc9295308591035f24c`. The strongest new public scene is the Hami/Ghoulie vacation-return ambush above.
 
-Other Core material reconciled rather than cloned:
+Other useful material remains bounded:
 
-- Hamittey's 2021 Lobby check-in directly gives historical IGN `Wichita`; dated age remains a historical self-report rather than a current-age claim.
-- `Hammi's burning kids!` is a text-secure fake prosecution but remains held because the precipitating image is unresolved; no literal child-harm reading is permitted.
-- Woohyuk's watermelon-as-fraud opinion is already public on MAIN and was not duplicated.
-- `corpse voice uwu` remains separate from Lost Corpses absent a direct bridge.
-- Hami telling ShiyaX she missed the chaos → Shiya **`I AM THE CHAOS`** → Hami saying they were lucky she was absent is good one-scene relationship texture, not a permanent title.
-- `we lost a moo!` and Josh's 28× Gilli mention remain unresolved.
+- Cen's `Ron the best boy` is probably continuing ShiyaX's nearby `im ron weasly` joke, but `Ron` is not promoted into a durable alias.
+- the recurring Zoshaa scrambled-egg-bunny family gains a probable media anchor and later callback, but the surfaced image remains visually unresolved and resurfacing is not origin.
+- Ren's `Panda and panda` immediately after an image is probably caption-related, but the picture does not safely resolve identities by itself.
+
+Wall formal consumed remains null because older recovery is still open.
+
+### Core — 09:46 recovery + late 13:20 suffix
+
+Older safe-baseline recovery is complete through the **2026-08-25 09:46 package**; **08:46 is next**. That package produced Tae's recurring Wall-defense progression for MAIN and preserved the hard identity correction **Tae ≠ HamitteY**.
+
+During closing census the Core miner advanced from `f38fcb05669d4ca2bda3dcbe65704149bdf4cbee` to `644d6073b8ac2372206dd4e9880ca48d45e83b93`. That suffix was reviewed checkpoint-first rather than left invisible.
+
+Its strongest material was already owned publicly:
+
+- Lanbo/Dan directly says he is from S8, came to compare other servers' clubs because S7/8 felt dead, and is likely evaluating a move; **The Vibe Here Is Very Nice** already owns the richer episode without claiming a completed transfer.
+- Degen Rat explicitly corrects Mugen's mistaken `FINALLY FELI`, says **`i was dongwoo`**, and gets immediate `DONGWOOOO` recognition; **The Wrong Feli** already owns the identity correction and likely prehistory cue without inventing the missing earlier relationship setting.
+- NintenbroAlex's `ANOTHER time zone` complaint while trying to join Among Us is good distributed-friend-group texture but still too thin for another public object.
+
+Core formal consumed remains null until cumulative recovery closes.
 
 ## Surface split
 
-- **MAIN** owns Tae's Wall-defense progression because the meaning accumulates across dates and belongs inside her biography beside `Caught in 4k`, self-submitted evidence, and later continuity.
-- **WIKI** owns Torr's doorway as a bounded Episode because the scene has a clean beginning, misunderstanding, correction, and five-day bridge into his creative-room life.
-- Mugen's Dean/Gilli material remains MAIN-only because it is already integrated as relationship-function biography; WIKI did not photocopy it.
-- Prince Charm remains integrated in durable evidence state rather than receiving a thin duplicate page before his three Louvre objects are inspected.
-
-## Verification / deployment
-
-- MAIN reader-content commit `89c311feceae37565dff049b713d903a4615110f` passed the existing **UL Hourly Build + Deploy** workflow successfully, including source canon/architecture verification, Astro build, built-output verification, and exact Cloudflare production deployment.
-- MAIN durable consumption-state commit `069a9560d8531cb357dfc50f13b41418f2f894be` also passed the complete exact-head **UL Hourly Build + Deploy** workflow successfully.
-- WIKI reader-content head `14929134a0e0481f9d606407ab5341592d198013` passed **Build Underlords Wiki** successfully. Its direct Pages run was cancelled only because sequential integration commits triggered the repository's `cancel-in-progress` concurrency rule.
-- WIKI durable state head `c633489473c6074271d0555d1178d9639898525c`, which contains the Torr Episode and this pass state, passed both **Build Underlords Wiki** and the complete Pages **build → deploy → report** workflow successfully.
+- **MAIN** owns Tae's multi-date Wall-defense progression because its force is cumulative character texture.
+- **WIKI** owns the bounded Tae incident, Torr's doorway misunderstanding, and Hami/Ghoulie's vacation-return receipt ambush.
+- Mugen's Dean/Gilli material remains MAIN-only because it is already integrated as relationship-function biography.
+- Prince Charm stays evidence-state only for now; Torr is the stronger Louvre Episode and Prince's media provenance remains unresolved.
+- Lanbo and Degen Rat got no duplicate object from the late Core suffix because WIKI already has richer canonical owners.
 
 ## Unresolved / protected
 
 - Torr's 113 media-bearing creative-room posts: object-level provenance, authorship, generated/filter/reference/repost distinctions, and callbacks;
-- Prince Charm's three Louvre media objects and any creator attribution;
-- Wall forward suffix `01def516… → 49449d0a…`, visible but not yet reviewed; formal Wall consumed remains null;
+- Prince Charm's three Louvre media objects and `PA` meaning;
+- Hami/Ghoulie vacation-return screenshot pixels, maker, capturer and featured subjects;
+- exact Zoshaa scrambled-egg-bunny origin / image interpretation;
 - underlying Tae Wall screenshots and unsupported MADE BY / CAPTURED BY / FEATURING claims;
-- Hami `burning kids` source image;
-- `corpse voice` ↔ Lost Corpses genealogy;
-- `we lost a moo!`;
-- Josh/Spicy Hotpot 28×@Gilli context;
+- Lanbo's exact transfer outcome;
+- Degen Rat/Dongwoo's exact prehistory setting;
 - rendered-name similarity remains insufficient for identity merging;
-- explicit hard canon locks and source contradictions continue to override lower-threshold inference.
+- hard canon locks, privacy boundaries, resolved identity corrections and direct contradictions continue to override lower-threshold inference.
+
+## Verification / deployment
+
+- MAIN reader-content commit `89c311feceae37565dff049b713d903a4615110f` passed **UL Hourly Build + Deploy** run `33274011442`: source canon/architecture verification, Astro build, built-output verification, and exact Cloudflare production deployment all succeeded.
+- WIKI content head `c270c5e7c3067dc82687186c98dde507849fc7fe` passed standalone **Build Underlords Wiki** run `33274098231`; Pages run `33274098229` completed **build → deploy → report** successfully.
+- This durable state commit and MAIN's closing state/report commits are verified again at their final exact publishing heads before the run is closed.
