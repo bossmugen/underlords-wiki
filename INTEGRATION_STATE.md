@@ -65,4 +65,8 @@ The branch is therefore successfully consumed through `6e58b78a53c06232c8bb61898
 
 ## Verification / deployment
 
-Final publishing-branch checks are run after this state commit. MAIN uses its existing source verification + Astro build + built-output verification + Cloudflare production deployment. WIKI uses its existing standalone Astro build and Pages build/deploy workflow. Exact final-head results are durable in GitHub Actions and are summarized in the completion report.
+MAIN integration/report head `8ef01b65c36ae2647be6ee2055c11cefceed96bb` passed its exact-commit `UL Hourly Build + Deploy` workflow: source canon/architecture verification, Astro build, built-output verification, and Cloudflare production deployment/commit verification all succeeded.
+
+WIKI integration-state head `a38d9d92c57407b91a4efba0868761dd3c0ca82d` passed both existing workflows: standalone **Build Underlords Wiki** succeeded, and **Deploy Underlords Wiki Preview** completed Pages build, artifact upload, deploy, and report successfully.
+
+This verification-close commit is bookkeeping-only and triggers the same normal WIKI workflows; its exact-head results are checked before the run is reported complete.
