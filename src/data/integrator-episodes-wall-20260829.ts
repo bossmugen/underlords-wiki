@@ -108,5 +108,14 @@ export const wallRecoveryEpisodes: Episode[] = [
     kind: "Wall running gag / the evidence room learns how its own capture system works",
     logline: "The Wall gradually develops the problem all successful surveillance states have: the defendants learn the procedure. Snow calls an early Wall attachment `out of context perfection`; weeks later Ansun says Snow is on the Wall `once again`, and Snow starts speaking the room's competitive language by telling Lana the Wall has her `as mvp`. By October he already knows who is waiting for material, sometimes gives the watcher pool `something to post`, and then invents the obvious loophole: `you cant wall of shame me in the wall of shame room if I shamed myself first 😛`. Han later decides his output may require `Han's wall of shame fame`. On January 1, 2022, Ren gives the room the definition nobody should improve: `This is where shame worthfull moments of People’s history`. Daya eventually mutates the title to `wall of shame more like wall of SMUT` over an uninspected Panda attachment, and in 2023 Torr points out that if the incriminating event already happened inside the Wall, nobody even needs to screenshot-and-transfer it there. That is the running gag's real evolution: capture stops being invisible infrastructure and becomes something people anticipate, game, rename, feed and occasionally try to preempt. `MVP`, naming rights and self-shame immunity remain jokes, not formal ranks or rules; the uninspected attachments remain uninspected, and POSTED BY never becomes MADE BY, CAPTURED BY or FEATURING by vibes.",
     cast: ["Snow", "Ansun", "Lana", "Han", "Ren", "Daya", "Panda", "Torr"]
+  },
+  {
+    id: "ansun-no-shame-all-fame",
+    title: "No Shame, All Fame",
+    season: "2023",
+    date: "April 2, 2023",
+    kind: "Wall self-mythology / Ansun assigns himself fame and everybody else the shame",
+    logline: "Ansun arrives with the thesis already finished: `no shame all fame`, followed by `this is MY wall`. Moon accepts the zoning proposal — `This is your room in ul then` — and Ansun immediately revises the building charter again: `the reason why it says wall of fame is because of me ❤️ you guys have shame`. Moon points out the inconvenient word `shame`. Ansun does not retreat. He posts a `Throw back ♥️` screenshot, then explains the division of labor: `I put shame in there for YOU`; `you guys made it fame for ME`. That little pivot is pure Ansun. He never needs the evidence dismissed; he needs its classification corrected until public embarrassment becomes a personal trophy case. By 2023 his Wall defense has stopped arguing innocence and started arguing ownership of the flattering half. It is comic revisionist self-mythology, not creator credit, room ownership, moderation authority, an origin claim, or a formal score. The screenshot is POSTED BY Ansun only; its pixels, maker, capturer, and depicted people remain unresolved.",
+    cast: ["Ansun", "Moon"]
   }
 ];
