@@ -144,5 +144,23 @@ export const integratedEpisodes: Episode[] = [
     kind: "Family reunion return / the house survives the game in memory",
     logline: "Maria comes back after roughly five years and asks `what game is this group chat from ?`. Sye supplies Dragon Raja; Maria answers `dragon raja?` and then `holy shit`. The stable account is already in the surviving July 22, 2021 Lobby as `_seishi_` / `MariaMoon<3`: Anthos greets her as `maria`, Maria puts `underlords? right? 😅` into the intake, and then admits `i’m literally half awake o-o`. In 2026 she also asks to update her age because she is no longer a minor and gets the permanent-Platelet explanation. She remembered the house well enough to come back before she remembered the game that built it. July 22 is not claimed as her first-ever UL membership date, and this account is not Moon.",
     cast: ["Maria", "Sye", "Anthos"]
+  },
+  {
+    id: "porgo-real-life-priority",
+    title: "Real Life Priority",
+    season: "2020–2022",
+    date: "October 29, 2020 → June 20, 2022",
+    kind: "Porgo continuity / the game account can go on vacation without the person being evicted",
+    logline: "Less than an hour after a 2020 birthday pile-on, porgo says real life may make game activity scarce. Anthos answers `irl always come first`, puts the game account on vacation, and says to take all the time needed; Mugen draws the social boundary even more clearly: `real life first always, pls don't worry about the game or the club. You're always welcome to come back and or still hang out with us here on discord ❤️`. Two years later the same stable account says work and unpacking may keep porgo off the game while Discord messages still work; Sye replies `NW, Real Life Priority 👍`. That echo is the point: game availability and Discord belonging are separate knobs. The account self-identifies as `alvolufi` in the 2020 Lobby and `itporgo!` in a 2022 Lobby pass, but those are observed IGN snapshots—not a first-join date, a return date, or an exact rename chronology. Private third-party medical detail in the 2020 source is intentionally omitted.",
+    cast: ["Porgo", "Anthos", "Mugen", "Sye"]
+  },
+  {
+    id: "welcome-to-citric-acid",
+    title: "Welcome to Citric Acid",
+    season: "2023",
+    date: "April 3, 2023",
+    kind: "Wall welcome / one visible `cit` gets peer-reviewed into chemistry",
+    logline: "Mugen welcomes `暁cit。(S73)`, and within eleven minutes the name has been processed as `zit` by Cele, `city` by Moon, `citric acid` by Mugen, and finally `Citric` by Ren. Citrinitas does not fight the collapse: `That’s cute 🥹💗`, then `I love this🤣💕💕💕`, then the fatal self-own — `You know the full name was Citrinitas so it does sounds like citric 💀🤣` — before closing with `Rip mah soul`. The full name Citrinitas is direct self-report. The rendered `cit` already exists when the scene begins, so this is not its origin; `City` and `Citric` remain one-scene peer mutations unless later recurrence appears. Mugen POSTED the uninspected welcome image, but the naming episode is text-secure without assigning the image's maker, capturer, or contents.",
+    cast: ["Citrinitas", "Mugen", "Cele", "Moon", "Ren"]
   }
 ];
