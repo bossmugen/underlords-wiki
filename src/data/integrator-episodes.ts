@@ -2,6 +2,15 @@ import type { Episode } from "./wiki";
 
 export const integratedEpisodes: Episode[] = [
   {
+    id: "voice-challenge-whole-gallery",
+    title: "Voice Challenge Becomes a Whole Gallery",
+    season: "2021",
+    date: "October 18-19, 2021",
+    kind: "Creative challenge / curation becomes infrastructure",
+    logline: "One day after launching Voice Challenge, Han looks at the growing submissions and yells `AAAH WE HAVE A WHOLE GALLERY`. When comparison anxiety appears, he answers `It is not about who does better or worse` and `It is about having fun and expressing yourself`. The next day he announces `All challenge works are pinned`; three minutes later Mugen changes the room permissions so the Underlords Media Director can pin messages directly. The sequence shows a voluntary art prompt becoming a curated gallery and peer editing clinic in real time. The permission change is evidence of Han doing Media Director work, not an appointment timestamp for the title.",
+    cast: ["Han", "Mugen", "Ren", "DarkAsrai", "ShiyaX", "Sye"]
+  },
+  {
     id: "snow-best-material-in-vc",
     title: "Snow Keeps the Best Material in VC",
     season: "2020",
