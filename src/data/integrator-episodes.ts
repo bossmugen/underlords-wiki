@@ -41,10 +41,19 @@ export const integratedEpisodes: Episode[] = [
     id: "match-your-pfp-day",
     title: "Match Your PFP Day",
     season: "2022",
-    date: "July 25, 2022 – May 30, 2023",
-    kind: "Land of Conquest dress code / one Yelik idea becomes house custom",
-    logline: "Anayss announces a new Land of Conquest outfit mechanic on July 25, 2022 as `something new brought to you by @Yelik`: pick an animal, food, or item profile picture and match the in-game outfit to it, with `Yeye’s pic` offered as inspiration. A week later Anayss gives the mechanic its house name — `MATCH YOUR PFP DAY!!!` — and the bit keeps coming back. Wolf Phenix carries the announcement, Life carries a later reminder, and by January 2023 Anayss is calling it `our famous MATCH YOUR PFP DAY!!!!`; in May she has to explicitly set it aside for another theme before bringing it back four weeks later. The archive therefore preserves the whole mutation: Yelik suggestion → Anayss operationalizes it → named weekly ritual → other people carry it → `our famous` house custom. The reference images from the birth announcement remain visually uninspected, so uploader and creator/subject credits are not collapsed.",
+    date: "January 14, 2022 – May 30, 2023",
+    kind: "Yelik PFP grievance mutates into Land of Conquest house custom",
+    logline: "The earliest surviving rung is much smaller than the later event: on January 14, 2022 Yelik begs Club Only `MATCH YOUR PFP WITH MEEE`; when Eli finally matches, Yelik celebrates `IT ONLY TOOK A DAY`, mock-dismisses everybody else with `I don't need any of you`, and caps the grievance with `I'm retired from ul 🙃`. Nothing around that line supports a real departure; it is the punchline to one person finally winning the matching-PFP campaign. Six months later Anayss announces a Land of Conquest outfit mechanic as `something new brought to you by @Yelik`: pick an animal, food, or item profile picture and match the in-game outfit to it, with `Yeye’s pic` as inspiration. A week later Anayss names it `MATCH YOUR PFP DAY!!!`; Wolf Phenix and Life later carry the reminder, and by January 2023 Anayss is calling it `our famous MATCH YOUR PFP DAY!!!!`. The archive therefore preserves a useful mutation without pretending to prove one exact coining moment: Yelik wants somebody to match her PFP → Yelik is credited for the later outfit/PFP idea → Anayss operationalizes and names the weekly ritual → other people carry it → the house calls it famous. The birth-announcement reference images remain visually uninspected, so uploader and creator/subject credits are not collapsed.",
     cast: ["Yelik", "Anayss", "Wolf Phenix", "Life"]
+  },
+  {
+    id: "rummy-bling-exam",
+    title: "Rummy Retakes the BLING Exam",
+    season: "2024",
+    date: "July 13-14, 2024",
+    kind: "Wall expertise audit / one wrong BL title becomes a licensing emergency",
+    logline: "Rummy's BL/yaoi reputation has a paper trail before the exam exists: in April 2021 she arrives with `a whole list of yaoi ready`; in June 2022 Gabu routes yaoi recommendations to her while Marian complains that Rummy's picks are all cheesy; in November 2023 Marian files another exhibit as `BL manic strikes again`, with Daya answering `BL maniac`. Then Tae posts a visually inspected screenshot under `RUMMY GETS A BL SERIES WRONG???? the world is ending`: Rummy initially identifies a panel as Dear Door, corrects herself to Roses and Champagne, and returns to Wall pleading `NAAUUURRR BUT LOOK LOOK I FIX IT RIGHT AWAY` followed by `still safe`. Moon disagrees with the accreditation board and orders her to `re-take the BLING exam` — `Boys Love InterNational Global exam`. The joke works because the room already expects Rummy to know this stuff; it is peer characterization about media knowledge, not a sexuality inference, formal title, or real credential.",
+    cast: ["Rummy", "Gabu", "Marian", "Daya", "Tae", "Moon"]
   },
   {
     id: "snow-best-material-in-vc",
