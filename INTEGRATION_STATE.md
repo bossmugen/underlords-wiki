@@ -1,14 +1,12 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration pass: **2026-08-29 07:52 PDT**.
+Last dual-surface integration pass: **2026-08-29 07:55 PDT**.
 
 Full branch-level consumption state is durable on MAIN in `archive-intake/INTEGRATOR_BRANCH_STATE.json`; prior rolling wiki states remain in Git history.
 
 ## Census / queue
 
-Closing census: **28 active remote miner refs + 21 historical/missing refs = 49 tracked branch identities**.
-
-The finite queue closes at **0 pending / 0 backlog / 0 review-overdue**. Core Rooms and Wall remain the two cumulative recovery floors with formal `last_consumed_sha: null`; both Club-Only miners remain fully consumed/current. No miner branch was merged or cherry-picked wholesale.
+Opening census for this continuation enumerated **28 active remote miner refs + 21 historical/missing refs = 49 tracked branch identities** before deep review. The finite queue is **0 pending / 0 backlog / 0 review-overdue**. Core Rooms and Wall remain the two cumulative recovery floors with formal `last_consumed_sha: null`; both Club-Only miners remain fully consumed/current. No miner branch was merged or cherry-picked wholesale.
 
 ## Mugen person-first — Rooks already has the screenshot shift
 
@@ -32,17 +30,35 @@ The same pass also closes a bad rabbit route: Gilli's `Don't make me spam you wi
 
 No new public episode was accepted from this suffix. Wall remains cumulative recovery-in-progress because its older safe baseline is still open; its formal consumed SHA remains null even though the forward handoff is now reviewed through `e6a560a9…`.
 
+## Core Rooms recovery — The Vibe Here Is Very Nice
+
+Core's older safe-baseline review moved backward from the recorded **2026-08-25 22:46** frontier through the **21:46 package**.
+
+The clean new WIKI keeper is **The Vibe Here Is Very Nice**. On September 25, 2020 Lanbo checks in as `Dan, underlords, over 18`, then tells Club Only exactly why he is there: `Im from s8`, `I came to see what other servers clubs are like`, and `S7/8 was pretty ded`. That afternoon he says he is going to see what 7Stars is like `for now`, but he has already done the daily donation, says `Ill most likely be back. The vibe here is very nice`, and drops `:worryThumbUp:`. Mugen reacts 😋.
+
+The scene works because nobody needs fake loyalty theater. Dan is standing inside UL openly saying he is comparison-shopping clubs; the exit still arrives padded with dues already paid, a probable return, and a compliment. WIKI treats this as one person's porous, experimental affiliation scene — not proof that Lanbo returned, not a UL–7Stars alliance/rivalry event, not a reconstruction of server-transfer mechanics, and not an exact first-contact/admission date.
+
+WIKI reader-facing commit `576023d05920d9201e580a0079f116061add80e0` passed **Build Underlords Wiki** run `33258757322` and the full Pages build/deploy workflow `33258757331` successfully.
+
+The same 21:46 Core package contained three things that did **not** need another public owner:
+- Illien's `I'm not talking just to avoid distracting you 🙂` / Mugen `they can distract themselves just fine illien` scene is already richer on MAIN's Illien biography.
+- Shiki's `mug strip club hidden door` phrase mutates from discovery to directions on the same day, but the screenshot, exact `mug` referent, and literal-door meaning remain unresolved.
+- Mugen's `helllooo cali accent slipped` / `ahahaha` remains a one-off self-described voice fossil, not a phonetic or geography claim.
+
+Core therefore remains recovery-in-progress with formal consumed SHA null; **20:46 and below are next**.
+
 ## Reconciliation / surface split
 
 - **MAIN:** Mugen's **chicken-nugget relapse** lives in her Petty Crimes/person-texture rail.
-- **WIKI:** **Rooks Has the Screenshot Shift Covered** owns the bounded screenshot-relay incident. A temporary duplicate Rooks bullet on MAIN was removed during publishing-branch reconciliation so the two surfaces do different jobs instead of reciting the same paragraph.
-- The immediately preceding reconciled pass already put DyingFox's reciprocal Ghost greeting on MAIN and **WHY IS IT WHITE** on WIKI; those owners were preserved rather than duplicated.
+- **WIKI:** **Rooks Has the Screenshot Shift Covered** owns the bounded screenshot-relay incident.
+- **WIKI-only this continuation:** **The Vibe Here Is Very Nice**, because Lanbo's evidence is a complete one-day scene with excellent episode value and not enough longitudinal material to manufacture a MAIN biography.
+- Illien's considerate self-silencing scene stays with his existing MAIN canonical biography rather than becoming a second WIKI retelling.
 - POSTED BY / MADE BY / CAPTURED BY / FEATURING remain separate. Earliest surviving evidence is not promoted into origin, and joke language is not literalized into romance, kinship, governance, or formal roles.
 
 ## Remaining recovery
 
-- **Core Rooms:** forward handoffs reviewed through `f1642474…`; older safe-baseline recovery remains open through the recorded 2026-08-25 22:46 frontier.
-- **Wall:** forward handoffs now reviewed through `e6a560a9…`; older recovery remains open through its recorded 2026-08-28 21:24 frontier.
-- **Finite queue:** clear at this closing boundary.
+- **Core Rooms:** forward handoffs reviewed through `f1642474…`; older safe-baseline recovery now reviewed through **2026-08-25 21:46**. **20:46 and below are next.** Formal consumed remains null.
+- **Wall:** forward handoffs reviewed through `e6a560a9…`; older recovery remains open through its recorded **2026-08-28 21:24** frontier. Formal consumed remains null.
+- **Finite queue:** clear at this reconciliation boundary.
 
-The useful scene is basically Mugen reaching for the screenshot button, remembering Rooks exists, and deciding the evidence department has already clocked in. Rooks's answer — `uwu cant hide from me` — does not sound like an appointment acceptance. It sounds like a warning label. Meanwhile Zoshaa and Zepp have somehow resurrected a years-dormant chicken-nugget emergency before dawn, because apparently this guild's real chain of command was screenshots, snacks, and whoever happened to be awake.
+Dan walked into UL, announced he was literally shopping around, paid the daily donation anyway, told everybody the vibe was nice, and left a worried thumbs-up on the counter. That is not a defection crisis. That is a Yelp review with dues.
