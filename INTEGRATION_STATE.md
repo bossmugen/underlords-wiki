@@ -1,48 +1,57 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration pass: **2026-08-28 20:00 PDT**.
+Last dual-surface integration pass: **2026-08-28 20:12 PDT**.
 
-This is the rolling current integration state. Full pass detail is durable on MAIN under `archive-intake/INTEGRATION_PASS_2026-08-28_2000_DUAL.md`.
+This is the rolling current integration state. Full pass detail is durable on MAIN under `archive-intake/INTEGRATION_PASS_2026-08-28_2012_DUAL.md`.
 
-## Current pass — three names, one account, and a founder apparently allergic to afterhours evidence
+## Current pass — WOO finds the brakes; Spritely appears because Lilly has entered the building
 
-The mandatory opening census found **25 miner branches** matching `archive-miner-*` / `archive-miner/*`; all 25 were represented in MAIN's persistent branch ledger before deep review. A closing census still found 25. Wall moved during the run, first to opening-census head `a378f083...` and then again to `a2dfb882...`; the later head was registered and its 20:04 checkpoint/site-candidate handoff was reviewed before state close. Finite queue: **0 pending / 0 backlog / 0 review-overdue**. Club-Only 2020 and Club-Only 2021–2026 remain fully consumed and were not reread.
+The mandatory census found **25 miner branches** and MAIN's persistent ledger was updated before deep review. During the run, Core, Daycare, Louvre, and Whiskey advanced. Daycare and Core were reviewed this pass; Louvre and Whiskey are freshly pending for fair rotation and are not backlog/review-overdue. Living Ensemble, Core Rooms, and Wall remain cumulative recovery tracks with older safe-baseline work still open. Club-Only 2020 and Club-Only 2021–2026 remain fully consumed and were not reread.
 
-### Published on MAIN
+### Published on both surfaces, differently: `#woofannys`
 
-Living Ensemble Run20 safely closes a long identity split for stable Discord account `357245154123579392`: **Sebno / seb / sebs** in 2020, **神Nyx道** in a 2021 return, and **.M a t s u. / Akuma / aku** in the 2026 reunion. The 2020 Lobby form says `Sebno/S10- Underlords or previously Rebellation (merge) /17`; Anthos immediately calls the account `seb`. In 2021 the same account self-files as `神Nyx道, Abaddon, 18` and Mugen answers `WEBA bb sebs!`. In 2026 the account returns as `.M a t s u./ Akuma` with `Hi everyone!🫶🏾 It’s been so long!`; Mugen's first response is the far more useful social continuity receipt: `Of course food would summon u`.
+Wall's November 27, 2020 pocket finally has enough text to say what matters without inventing the opaque image. Nobu asks Mugen `how does that work hun`; WOO posts `unknown.png` with `#woofannys`; Ren frames the pair as `@Nobu & @_WOO`; Mugen asks Nobu for a picture. Then Ren says `he already said no, boss`. WOO repeats `he said no thanks` and closes with `what a nice guy`.
 
-MAIN now owns the longitudinal dossier at `src/content/people/akuma-matsu.md`. The 2026 reunion also carries Akuma / Matsu's current ordinary-life spine: college is draining; IT major, music-technology minor; producing and DJing as a life goal; guitar already in the mix; piano/keyboard being learned from a cousin; school music-lab access folded into the practical plan.
+MAIN puts this inside Woosung's longer character file because it fits her compressed-verdict voice and the site's richer person storytelling. WIKI owns the bounded episode **The #woofannys Refusal** in `src/data/integrator-episodes.ts`. The useful beat is the brake: once the prior `no` is named, the teasing stops rather than treating refusal like stage two of the bit.
 
-The first content push (`8282616668109ec8a8bf8c68777ad2a107686b64`) correctly failed MAIN's source verifier because a public People file had no categorized roster route. The fix did **not** invent an Officer/Staff appointment: the stable account's own 2020 Lobby form already says Underlords, so the profile was routed into MAIN's archive-supported **UL-member / Staff-without-a-more-specific-shelf** lane with no Staff title or appointment attached. The corrected exact commit `84f30927e04037520cd26217ae96ac586d073f97` passed source canon/architecture verification, Astro build, built-output verification, Cloudflare deployment, and exact production-commit verification.
+The media boundary stays hard. WOO is **POSTED BY** for `unknown.png`. The image's maker, capturer, subjects, contents, and exact hashtag premise are unresolved; the scene does not become romance or sexual-status canon.
 
-### Published on WIKI
+### Published on WIKI only: The Lilly Summoning
 
-Wall's 20:04 handoff produced the better discrete fandom object: **Suzi Has Been Freaking Out Since the Beginning**, added to `src/data/integrator-episodes.ts` at `790650646fb1847e0005c35fb7906619ea045d66`.
+Core's Spritely/Shurui handoff gives one of those tiny scenes that is better than a padded biography. Stable account `728003526827180044` directly says on October 9, 2020: `No I joined the club today, I came from Aether`, after self-identifying as Shurui. That is a rare direct same-day UL-entry statement, not a MEE6 welcome being promoted into membership chronology. No named recruiter survives in the exchange; `Foot Soldier` is the person's self-reported game-club field, not a Discord appointment.
 
-On September 11, 2021 a Dragon Raja screenshot kicks the room into founder archaeology. Mugen says Suzi `litrally helped start UL`, answers `Yus` when asked whether Suzi was one of the founders, and says Suzi still gets freaked out by `afterhours activities`. Nhou supplies the actual character line: `Suzi freaked out since the beginning xD.` Mugen immediately counter-files `suzi be the freakiest of us all.` The words are recovered; the screenshot itself is still visually uninspected, so the exact afterhours offense remains sealed rather than being reverse-engineered from the yelling.
+Two weeks later Lilly enters Club Only with `good morning lovelies!!`. Spritely responds `LILLYYY`; Rookie Cookie independently adds `LILLLLYYYYYYY`; Lilly glomps Spritely through Eli; Spritely hugs her back and closes `ilysm Lilly ❤️`. Generated Eli output renders Spritely as stylized Shurui in the same exchange, independently reinforcing the identity bridge. Those generated outputs remain pooled Deleted User provenance and are not assigned to a deleted human.
 
-Both WIKI workflows for `790650646fb1847e0005c35fb7906619ea045d66` passed: standalone Astro build and Pages build → deploy → report.
+WIKI now owns **The Lilly Summoning** as a discrete episode. MAIN intentionally did **not** create a Spritely Character route: its current People architecture needs a grounded public roster shelf/category, and the integrator does not solve that problem by inventing one. Lilly's one historical `her` is not promoted into current pronoun canon, and the exact November `plabn`/team event remains unresolved.
 
-### Reviewed without duplicate public copy
+Both new WIKI episodes landed together at reader-facing commit `3c33903e5483922fad8adca26e67150a09a74b3b`. The standalone Astro build passed. The Pages workflow also completed build → deploy → report successfully.
 
-- **Living Run21:** Xephy's May 2020 arrival → September `I rejoined the club` → 2026 homecoming chronology is already richly owned by MAIN. Hishiro's `summon me again if my service are needed again` / information-desk posture is also already public character texture. Both were reviewed as duplicate/corroboration, not copied again.
-- **Wall 20:04:** the Wall's machine timestamp now sits only **2m07.349s** before Mugen's first surviving message; the April 3, 2020 Members Only Lounge/private-shell chronology predates the Wall; WOO gains a 2020 subject → 2023 prosecutor arc. These are reviewed keepers, but this pass left them backstage rather than making three more public objects just because the miner brought snacks.
+### Daycare consumed with no duplicate public object
+
+Finite Daycare delta `f03fc2846fafa1623e236c5d81800f16a2b498f2 -> 3d9510cf8811742c6c454b73959e1f471ad72b97` was reviewed checkpoint-first and intake-only.
+
+HamitteY gained a clean 2021 Lobby intake/role-assignment pocket plus later Wall continuity before the surviving Daycare footprint. That is useful chronology, but still too thin for a good WIKI episode or Cast object this pass. `Mr. Streamer (Gabu's Chair)` gained human direct-address evidence plus later active Wall posting/crediting, but the controller and nickname origin remain unresolved. No merge to Gabu, Gilli, Torr, or anybody else was made.
+
+Because the delta was successfully reviewed and intentionally produced no public change, MAIN's branch ledger advanced Daycare consumed SHA through `3d9510cf8811742c6c454b73959e1f471ad72b97`.
+
+### Core closing movement
+
+Core advanced again from `b8cdeda2...` to `3090f9ce...`. The new commit is derivative packaging of the already-reviewed 20:07 Spritely/Shurui evidence family, not a second incident, so no duplicate WIKI copy was created. Core remains cumulative recovery with null consumed SHA while older safe-baseline gaps remain.
 
 ## Current queue / recovery mirror
 
 - **Full miner census:** 25 branches.
-- **Finite pending / backlog / review-overdue:** 0 / 0 / 0.
-- **Living Ensemble:** cumulative recovery in progress; explicit Runs20–21 gap is now closed and the ledger records coverage across Runs02–26 plus aggregate safe-baseline handoffs, but remaining older safe-baseline gaps keep consumed SHA null.
-- **Core Rooms:** cumulative recovery in progress through `b8cdeda2e78488b806d4023dcd0ca13098f1136b`; consumed SHA null while older safe-baseline work remains.
-- **Wall:** cumulative recovery in progress; latest reviewed/seen head `a2dfb882b920683f5d50d52ddc545fec84958b6d`; 20:04 rails 113–117 reviewed, older safe-baseline work remains, consumed SHA null.
+- **Finite pending:** 2 fresh movers — Louvre `cb9f8514... -> 5992e027...`; Whiskey `ec8fb91a... -> 0a017179...`.
+- **Finite backlog / review-overdue:** 0 / 0.
+- **Daycare:** consumed through `3d9510cf8811742c6c454b73959e1f471ad72b97` after successful no-public-change review.
+- **Living Ensemble:** cumulative recovery in progress; consumed SHA null while older safe-baseline gaps remain.
+- **Core Rooms:** reviewed through `3090f9ce00989f981f1237bc905b972832232234`; consumed SHA null while older recovery remains.
+- **Wall:** reviewed through `a2dfb882b920683f5d50d52ddc545fec84958b6d`; consumed SHA null while older recovery remains.
 - **Club-Only 2020:** consumed through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`.
 - **Club-Only 2021–2026:** consumed through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`.
 
-No finite branch advanced this pass, so there is no finite consumed-SHA change. The real movement was cumulative recovery coverage plus Wall's mid-run `last_seen_sha` advance.
+## Holds / canon fences
 
-## Held / surface split
+Still unresolved: the contents/creator/capturer/subjects of WOO's `unknown.png`; Spritely's current roster shelf, later departure, current pronouns, named recruiter, and exact November `plabn` event; the human controller and nickname origin of `Mr. Streamer (Gabu's Chair)`; the two newly advanced Louvre/Whiskey deltas until their checkpoint-first reviews are complete.
 
-Akuma / Matsu is intentionally **MAIN-first** because the evidence's strongest job is a longitudinal person file: one stable account crossing names, club fields, and six years of life. WIKI does not need a shallower duplicate card just to prove it also saw the receipt. Suzi's afterhours scene is intentionally **WIKI-first** because its strongest public form is a discrete founder episode rather than another duplicate founder paragraph.
-
-Still unresolved: Akuma / Matsu's exact first in-game admission, preferred real-world name, the precise Rebellation merge mechanism, and the timing/reason of the 2021 Abaddon field; the Suzi screenshot's depicted offense; both WOO/Nobu screenshots and exact betrayal. Source-era pronouns do not override current user-confirmed canon. Earliest surviving is not origin. Similar names do not become identity bridges. Export-time roles do not become appointment chronology. Joke roles, property claims, ships, and family language do not become formal governance or literal relationships. `SAID BY`, `POSTED BY`, `MADE BY`, `CAPTURED BY`, and `FEATURING` remain distinct.
+Earliest surviving is not origin. Similar names do not become identity bridges. Export-time/current roles do not become appointment chronology. Joke roles, ships, family language, property claims, and bot commands do not become literal governance or relationships. `SAID BY`, `POSTED BY`, `MADE BY`, `CAPTURED BY`, and `FEATURING` remain distinct.
