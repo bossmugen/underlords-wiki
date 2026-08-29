@@ -1,48 +1,51 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration pass: **2026-08-28 17:36 PDT**.
+Last dual-surface integration pass: **2026-08-28 18:03 PDT**.
 
-This is the rolling current integration state. Full pass detail is durable on MAIN in `archive-intake/INTEGRATION_PASS_2026-08-28_1736_DUAL.md`.
+This is the rolling current integration state. Full pass detail is durable on MAIN in `archive-intake/INTEGRATION_PASS_2026-08-28_1803_DUAL.md`.
 
-## Current pass — Tae briefly invents government; unfortunately we already knew
+## Current pass — Wolfie remembers the exhibit before she remembers where the exhibit is
 
 ### Branch census / queue
 
-- Mandatory opening and closing census: **24 miner branches**, persisted on MAIN before deep review.
-- No miner branch was newly discovered and no discrete miner head advanced during this pass.
+- Mandatory opening census: **24 miner branches**, persisted on MAIN before deep review.
+- No miner branch was newly discovered and no already-consumed discrete miner head advanced.
 - Discrete queue: **0 pending / 0 backlog / 0 review-overdue**.
-- Club-Only 2020 and Club-Only 2021–2026 remain consumed through unchanged current heads and were not reread.
-- Anti-starvation recovery reviewed Wall 19:46 at `archive-miner-wall-hourly-20260824` HEAD `36e85aa2025b030faf43fecd20a315b158debd4c`.
+- Club-Only 2020 and Club-Only 2021–2026 remain consumed through unchanged heads and were not reread.
+- Anti-starvation recovery rotated to `archive-miner/aug-2026-living-ensemble-hourly` at unchanged HEAD `66c3227c687965a4dae9b372fdcbe2dc128611ba`.
 - Cumulative recovery remains open for Living Ensemble, Core Rooms, and Wall.
 
-## Reviewed evidence — duplicate / already owned
+## Reviewed evidence — Living Ensemble Run11 / Run12
 
-The strongest Wall 19:46 finding is Tae's January 3, 2021 one-day anti-Gabu government:
+Run11 was reviewed checkpoint-first and intake-only. Rooks's screenshot-hunter scene (`rooks wouldnt miss this for the world` → `uwu cant hide from me`) is already owned richly on both public surfaces. Key/Woohyuk's 2021 vehicle-escalation screenshots are also already owned on MAIN. The genuinely useful missing character beat was the person doing the 2026 recovery: WolfPhenix remembers an old screenshot that would prove Mugen's `the bots call us deranged a lot`, admits `i forget where i put it :>>`, then returns seventeen minutes later as `i` → `found` → `iiit` before presenting the old Key/Woohyuk evidence as `UL BACK IN DE DAY`.
 
-- Anthos: `m.write If I die it's Gabu`
-- Tae: `new rule`
-- Tae: `Always vote out gabu`
-- later that morning Tae: `Gabu` → `Go to jail`
+That sequence is now in WIKI's WolfPhenix dossier as dated character chronology. The useful movement is memory → hunt → recovery → verdict. It supports `screenshot archaeologist` as behavior rather than a label while preserving the attribution boundary: the surviving 2026 package is POSTED BY Mugen; Wolf visibly presents the older screenshots; original 2021 CAPTURED BY remains unresolved.
 
-This was successfully reviewed but accepted **no new public copy** because it is already owned on both surfaces. MAIN's `src/content/people/tae.md` already carries the richer character scene, and WIKI's `src/data/dossier-snapshots/tae.md` already carries the compact dated chronology and the correct boundary: one-day fake legislation, not formal governance or recurring House Law.
-
-The nearby screenshots remain uninspected. `vote out` is game-shaped language but does not, by itself, identify a specific mechanic or game.
-
-## Held / unresolved
-
-- **Ghostt → Tae setup:** Ghostt posts two images, replies to her own exact Wall parent, and says `She set me up for it 😂` while explicitly mentioning Tae. The attribution is clean; what Tae actually set up remains visually unresolved. Keep POSTED BY Ghostt separate from CAPTURED BY / MADE BY.
-- **Tae sacrificed by roaches:** Anthos writes `tae got sacrificed by roaches`; Ren immediately keyboard-smashes. The screenshot remains uninspected and no Tae-specific roach recurrence was established. Keep this as one unresolved incident, not a recurring Tae motif or a bridge to unrelated Ryan/roach jokes.
-- **Ghostt speech tic:** Ghostt says `Gilli really said I say this everyday`, but the allegedly repeated phrase is still missing. Hold until the phrase and actual recurrence are recovered.
+Run12 was also reviewed. `Family reunion` is a clean archive-native name for the August 14 reunion scene, but WIKI already owns a 2026 `Family Reunion` episode and Season Seven already uses `family reunion / website arc`, so another episode object would be duplicate. Rooks's first-person `I wasnt an officer just a regular :Fat_Wheeze:` corroborates existing canon rather than changing it. Mugen's reunion recollection that Sye and Nelph became Officers together in 2021 conflicts with Sye's immediate `I was t here in 2021`; that remains a memory contradiction, not appointment chronology. The site-being-shown-to-the-cast scene is already represented by WIKI's `The Cast QA's Its Own Wiki` episode and does not need a second meta object.
 
 ## Public-surface decision
 
-No WIKI fandom-content file changed this pass. Creating another episode/gag object for Tae's anti-Gabu decree would duplicate a scene the dossier already explains cleanly, while the Ghostt and roach material needs its visual nouns before promotion. MAIN likewise received no new public lore copy for this recovery slice.
+- **MAIN:** `src/content/people/wolfphenix.md` owns the full seventeen-minute scene: Wolf remembers the receipt, loses the filing system, comes back triumphantly, and uses the artifact as proof of what old UL was like.
+- **WIKI:** `src/data/dossier-snapshots/wolfphenix.md` owns the compact dated chronology and explicit provenance boundary.
+- This is intentionally complementary rather than mirrored copy: MAIN gets the character movie; WIKI gets the searchable dossier beat.
+
+## Concurrent public work preserved
+
+While this pass was running, MAIN also advanced through separate safe concurrent commits adding Snow's `best material in vc` / naked-bush retelling and Eos's 2021 `dead corpse` prehistory. Those commits were preserved as parents of later MAIN work rather than overwritten. They clearly draw from later Living Ensemble recovery material, but this pass does **not** claim that the entire Run13–16 handoff set was reviewed merely because selected public keepers landed concurrently.
+
+## Held / unresolved
+
+- Rooks's March 2021 attachments remain visually uninspected; POSTED BY does not become MADE BY / CAPTURED BY / FEATURING.
+- Key/Woohyuk's exact original 2021 day/channel and original screenshot CAPTURED BY remain unresolved.
+- The Run12 Sye/Nelph promotion recollection is not safe appointment chronology.
+- The exact image Mugen showed while saying she was building a website was not re-promoted visually without a safe binary inspection.
+- Living Runs13–16 and other older safe-baseline gaps remain for deliberate recovery closure even though some Run13/15/16 keepers have already landed via concurrent public work.
 
 ## Recovery / consumption state
 
-- Wall recovery now explicitly covers 23:46 Light Mode, 22:46 Baby Lyssa property, 21:46 Alkey, 20:46 Tofu, and 19:46 Tae/Ghostt. `last_consumed_sha` remains null because older safe-baseline packages remain.
-- Living Ensemble: recovery open; consumed SHA null.
+- Living Ensemble: recovery now explicitly reviewed through Runs02–12 plus Run17 and Runs22–26 and aggregate safe-baseline handoffs; `last_consumed_sha` remains null because Runs13–16 and other older gaps are not yet fully closed.
 - Core Rooms: recovery open; consumed SHA null.
+- Wall: recovery open; consumed SHA null.
 - Daycare: consumed through `0247cee810368486dbef7a4cffc74859068991c0`.
 - Whiskey: consumed through `a8a6cfaeaa3f21c35ca8cfaff5b14a8d8d4f63ed`.
 - Club-Only 2020: consumed through current head.
@@ -50,7 +53,9 @@ No WIKI fandom-content file changed this pass. Creating another episode/gag obje
 
 ## Verification / deployment
 
-No public narrative source changed. Both publishing branches were re-read before durable state edits. MAIN and WIKI use their existing push-triggered build/deploy workflows; the final exact-head workflow results for these state commits are verified after the commits land.
+- MAIN public-content commit `a4eda1c64c5b1d126a402f28b97e576cd819fa37`, which also preserves the immediately preceding concurrent Snow commit, completed the repository's full `Build + verify` → production deploy workflow successfully: source canon/architecture verification, Astro build, built-output verification, and exact Cloudflare deployment all cleared.
+- WIKI public-content commit `ed7f01984d5bba690932acd213ac0615ee545151` completed standalone Astro build successfully and the Pages build/deploy workflow successfully.
+- Durable state commits are followed by the same repository-native workflows; the final publishing-head results are checked after those commits land.
 
 ## Current cross-surface continuity locks
 
