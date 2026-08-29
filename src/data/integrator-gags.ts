@@ -71,4 +71,10 @@ export const integratedGags = [
     logline:
       "The 2026 Family Reunion's necromancy has a surviving 2021 prehistory. On May 2 Eos reports being ‘a dead corpse’; Mugs replies directly with a Tenor titled ‘cheers-to-our-pretty-corpses,’ quietly pluralizing one exhausted person into a group problem; Eos later returns as ‘this ded corpse.’ Five years later WolfPhenix announces ‘de corpses are aliiive’ while Rummy proposes ‘Reanimate the whole server fr.’ May 2, 2021 is the earliest surviving relevant person-as-corpse / group-mirroring scene recovered so far, not a proven origin, and the current archive does not establish uninterrupted corpse language through 2022–2025. The dead had paperwork before the resurrection had a guest list.",
   },
+  {
+    id: "roach-taxonomy",
+    name: "Roach / Roachy / Roachable",
+    logline:
+      "The current surviving genealogy starts with Ren on January 14, 2021 saying she could `become roach with Reaper` after remembering how Gilli could not catch her evasive Reaper. By August 8 Gilli has turned the metaphor into `To Roach or Not to Roach : A list`, sorting rival clubs into `too Roachy to aim for` and things UL could `possibly Roach`; Anayss immediately derives `roachable`. Two days later a 30-online scouting report upgrades Milk to `radioactive roaches` and then `Roaches that bench press 220`. By September Anayss is using `roachy` in a proposed member-facing brief. The joke's useful mutation is grammatical as much as tactical: noun → adjective → verb → possibility word. January 14 is earliest surviving in this reviewed corpus, not a proven coinage, and none of these terms were formal governance categories.",
+  },
 ];
