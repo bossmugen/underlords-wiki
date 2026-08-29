@@ -1,8 +1,38 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration pass: **2026-08-29 09:30 PDT**.
+Last dual-surface integration pass: **2026-08-29 09:43 PDT**.
 
 Full branch-level consumption state is durable on MAIN in `archive-intake/INTEGRATOR_BRANCH_STATE.json`; prior rolling wiki states remain in Git history.
+
+## 09:43 continuation — The Planter Box Is Part of My Character Now
+
+The mandatory census still resolves to **28 active remote miner refs + 21 historical/missing refs = 49 tracked branch identities**. No archive-miner refs live only in the wiki. Both Club-Only miners remain fully consumed/current; Core Rooms and Wall remain the two cumulative recovery tracks with formal `last_consumed_sha: null` until their older safe baselines actually close.
+
+### Core Rooms — Cas / potency
+
+Core's forward handoff was reviewed checkpoint-first from the prior reviewed frontier `df27f7ef…` through seen `c5d96cd82d54b94b17796d8057769830a6a097ae`. The genuinely additive keeper is Cas / potency.
+
+On September 17, 2020 Cas directly explains that `potency` is the in-game name currently in use because the usual username belongs to an abandoned first character. The abandoned character's name remains unresolved. One day later a Dragon Raja planter-box glitch follows Cas through teleports. Mugen offers the sensible repair — restart — but Cas answers `i just find it funny`, then upgrades the bug into characterization: `i think this planter box is part of my character now` and `it follows me every time i teleport`.
+
+The small choice is the whole scene. Cas is handed a fix and declines it because the broken thing has become more entertaining than being correct. By February/March 2021 the archive catches the same person drifting toward FFXIV and Yakuza; Mugen answers both absences with relaxed `pot` language, including the formal reply `No worries pot! We'll see u around uwu`. That supports recurring Mugen-to-Cas scene language and a low-pressure return rhythm; it does **not** turn `pot` into a global alias, date Cas's in-game admission, invent a departure, or collapse other-game drift into the separate `Real Life Priority` policy.
+
+WIKI now owns **The Planter Box Is Part of My Character Now** in `src/data/integrator-episodes-core-20260829.ts`. It is intentionally WIKI-only: this is a bounded, character-revealing incident and a useful seed for a still-thin person, while MAIN does not need a paper-doll Cas biography just to duplicate one good episode.
+
+The same Core package adds direct event-level self-ID for Leokuraii (`Underlords, Foot Soldier`), a historical `Silverthorne` self-ID on the later joy account, and waterlily/TakaSama identity evidence; none is promoted into appointment chronology or a padded dossier. The Oyasumi/TankHead94 appointment rabbit remains open: the January 25 Wall wording `Mr. *I don't use discord* @TankHead94` is social prehistory, not a role-change receipt.
+
+### Mugen person-first — reviewed through `fcb537b3…`, no new public object
+
+`archive-miner/mugen-person-first-20260828` was reviewed checkpoint-first and intake-only from consumed `99ccd6f8…` through `fcb537b32207d35858dbd67c14c382e8e2df3cd5`.
+
+The best new relationship texture is Tae's recurring sleep-via-math gag: on November 30, 2020 Tae cannot sleep, Mugen drops Nevanlinna theory into chat, and Tae reports `It kinda woRkseed`; by December 23 Tae can describe Mugen's usual bedtime service as filling chat with `some weird math theoretical type shat` so Tae can sleep. It is affectionate routine, not medical care. The delta also catches Nhou's healthcare-work vocabulary leaking into casual chat (`c/o zofran relief with nausea`) before Mugen tells her to go home; Woohyuk proposing that Mugen bear a fossil-fuel-producing child and Mugen naming the hypothetical firstborn `Tyrannosaurus rex`; Eos moving from `a dead corpse` to Mugen's communal `cheers-to-our-pretty-corpses`; and a thin Illien aside whose target remains unresolved.
+
+No second Mugen public object was forced. MAIN's Mugen biography already has a deep sleep/care rail, and WIKI already owns the stronger raw Nobu refusal sequence as **The #woofannys Refusal**. The Tae scene is retained as relationship texture for a future focused owner rather than appended merely because another receipt exists. Woohyuk's child remains fictive-family nonsense, Eos does not establish a global corpse-joke origin, and Nhou's work-brain line does not identify patients, employers, or a shift.
+
+### Verification / surface split
+
+Reader-facing WIKI content commit **`9173634a5ef3442d2880e21e7add46a0736e7d0a`** passed **Build Underlords Wiki** and the complete **Deploy Underlords Wiki Preview** workflow. The latter finished successfully after build/deploy/report. No concurrent WIKI work was overwritten.
+
+**Surface split:** Cas's planter-box scene is WIKI-only because it is episode-shaped. The Mugen suffix produces no new reader-facing copy this pass because its strongest material either belongs in a future relationship-focused owner or is already covered by richer existing Mugen / Nobu public material. Core's formal consumed SHA remains null because cumulative recovery is still open even though this forward suffix is reviewed.
 
 ## 09:30 continuation — The File in My Office
 
