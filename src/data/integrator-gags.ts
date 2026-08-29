@@ -18,6 +18,12 @@ export const integratedGags = [
       "Rummy's Wall defense keeps escalating across years. In January 2022 Cele says a screenshot is bad out of context and Rummy concedes ‘yeh yeh out of context it bad but with context it not making it better.’ By December 2023 counsel has reversed doctrine: ‘bro u need hte context,’ ‘THAT WASN'T JUST A RANDOM THINIG,’ and finally ‘it the bobA bALlS.’ In August 2024 the appeal becomes a discovery demand: ‘THAT NOT THE FULL CONVO.’ The three screenshots remain visually uninspected, so the gag is the recurring objection itself, not a ruling that the Wall was misleading. A tempting 2021 antecedent remains held until its missing parent/media are recovered.",
   },
   {
+    id: "rumfection",
+    name: "Rumfection",
+    logline:
+      "By February 15, 2023 the Wall is already saying `rumfection is spreading`; the surviving author is the pooled Deleted User export, so the current archive does not award coinage. Nine days later Ricochet defines the condition plainly as `Rummy spelling infection is spreading fast`. On March 1 Mugen puts `rumfection` in the anniversary self-portrait beside corpse kidnapping, panic karaoke, broken music bots, and wholesome dumassery without bothering to explain the word. By March 19 Ren says Rumfection is affecting somebody else's dashes, Moon asks whether it `just evolved?!?!?!`, and then proposes `VACINATION FOR RUMFECTION AND GILLFECTION`. The cure misspelling vaccination while treating bad spelling as contagious is the joke eating its own prescription. Rumfection is house vocabulary, not a medical claim; earliest surviving use is not a proven origin, and Gillfection is currently a documented derivative scene rather than a separately established long-running gag.",
+  },
+  {
     id: "light-mode-punishment",
     name: "Light Mode Punishment",
     logline:
