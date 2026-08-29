@@ -19,7 +19,7 @@ const additions: Character[] = [
     billing: "guest",
     role: "VIP",
     era: "2021",
-    logline: "The same account comes through UL's door twice as Cinders and Juniper; Mugen's later `welcome back bb ... you know your way` proves familiarity, while the surviving club field is still incomplete.",
+    logline: "The same account comes through UL's door twice as Cinders and Juniper; Mugen later says \"welcome back bb ... you know your way\". The surviving club field stays ⬜ open.",
     tags: ["VIP", "Lobby", "Return"],
   },
   {
@@ -28,7 +28,7 @@ const additions: Character[] = [
     billing: "guest",
     role: "VIP",
     era: "2021",
-    logline: "Mugen hands Bishop a server map; two minutes later Bishop announces `I get lost easily`, and the Wall immediately begins manufacturing an office file around him.",
+    logline: "Mugen hands Bishop a server map; two minutes later Bishop announces \"I get lost easily\", and the Wall immediately begins manufacturing an office file around him.",
     tags: ["VIP", "Lobby", "Wall"],
   },
   {
@@ -38,7 +38,7 @@ const additions: Character[] = [
     billing: "legacy",
     role: "Staff",
     era: "2022–",
-    logline: "Churro asks whether intake wants a main or alt; Gilli answers `Whichever is in UL lol`, Churro supplies Suora, and Ren immediately detonates into `SUORAA!!!!`.",
+    logline: "Churro asks whether intake wants a main or alt; Gilli answers \"Whichever is in UL lol\", Churro supplies Suora, and Ren immediately detonates into \"SUORAA!!!!\".",
     tags: ["Staff", "UL member", "Lobby"],
   },
   {
@@ -98,7 +98,7 @@ const additions: Character[] = [
     billing: "guest",
     role: "VIP",
     era: "2021",
-    logline: "Whiskey regular whose file runs from work lunch to Ren's cute-making campaign, Ghoulie's Wall residency, and Woohyuk becoming everybody's favorite pancake. This Milk is not Miihi/Milk.",
+    logline: "Whiskey regular whose file runs from work lunch to Ren's cute-making campaign, Ghoulie's Wall residency, and Woohyuk becoming everybody's favorite pancake.",
     tags: ["VIP", "Whiskey"],
   },
   {
@@ -108,7 +108,7 @@ const additions: Character[] = [
     billing: "guest",
     role: "VIP",
     era: "2021",
-    logline: "Whiskey regular who returns from an unspecified lab, trades flirt-coded nonsense with Gilli, and approaches possible Raja burnout with the least theatrical plan imaginable: `go f2p and slowly quit`.",
+    logline: "Whiskey regular who returns from an unspecified lab, trades flirt-coded nonsense with Gilli, and approaches possible Raja burnout with the least theatrical plan imaginable: \"go f2p and slowly quit\".",
     tags: ["VIP", "Whiskey", "Dragon Raja"],
   },
   {
@@ -118,7 +118,7 @@ const additions: Character[] = [
     billing: "legacy",
     role: "Staff",
     era: "2021–2022+",
-    logline: "Arrives at Discord already naming Underlords as her club, then uses the house for contest logistics, ordinary chat, `brr` social research, and eventually brief communication in cow.",
+    logline: "Arrives at Discord already naming Underlords as her club, then uses the house for contest logistics, ordinary chat, \"brr\" social research, and eventually brief communication in cow.",
     tags: ["Staff", "UL member"],
   },
   {
@@ -127,7 +127,7 @@ const additions: Character[] = [
     billing: "guest",
     role: "VIP",
     era: "2022",
-    logline: "Arrives explicitly saying they have no current club; roughly three minutes after Discord paperwork Marian has already put them on the Wall and Tony is yelling that this did not need to be shared with the world.",
+    logline: "Tony arrives with the club field blank; roughly three minutes after Discord paperwork Marian has already put them on the Wall and Tony is yelling that the post reached the whole room.",
     tags: ["VIP", "Discord guest", "Wall"],
   },
   {
@@ -137,7 +137,7 @@ const additions: Character[] = [
     billing: "legacy",
     role: "Staff",
     era: "2020–2021+",
-    logline: "Yaza enters by asking the sensible onboarding question about age disclosure; months later Gilli closes the membership question directly: `You are UL member` and therefore `You have a chapter.`",
+    logline: "Yaza enters by asking the sensible onboarding question about age disclosure; months later Gilli closes the membership question directly: \"You are UL member\" and therefore \"You have a chapter.\"",
     tags: ["Staff", "UL member", "Whiskey"],
   },
 ];
@@ -169,7 +169,7 @@ const metadataOverrides: Record<string, Partial<Character>> = {
   lexi: { role: "VIP", tags: ["VIP", "LoliParadise", "2021", "Lobby", "Whiskey"] },
 };
 
-// Ricochet is Rich, not another person. Remove the duplicate legacy character before building the public registry.
+// Ricochet is Rich; the duplicate legacy character stays out of the public registry.
 const ricochetIndex = allCharacters.findIndex((character) => character.id === "ricochet");
 if (ricochetIndex >= 0) allCharacters.splice(ricochetIndex, 1);
 
@@ -187,15 +187,15 @@ for (let index = 0; index < allCharacters.length; index += 1) {
 
 const canonicalGroups: CastGroup[] = [
   { id: "leader", label: "Leader", note: "One Boss. Founder. The show starts here.", characterIds: ["mugen"] },
-  { id: "officers", label: "Officers", note: "Current command cast.", characterIds: ["gabu","anayss","ansun","wolfphenix","sye","ren","gilli","oyasumi","snow","anthos","daya"] },
-  { id: "retired-officers", label: "Retired Officers", note: "Former full Officers. Retirement does not delete the history.", characterIds: ["hyaluna","ritha","suzimasu","yumi","illien","key","nelph","kiro"] },
-  { id: "game-officers", label: "DR Officers", note: "Dragon Raja authority, separate from social command.", characterIds: ["ame","chibiterasu","yelik","noether","yassr"] },
-  { id: "snipers", label: "Snipers", note: "Applicant grabbers / recruitment-side cast.", characterIds: ["kaede","feli","lan","nemo","rummy"] },
+  { id: "officers", label: "Officers", note: "2026 command cast.", characterIds: ["gabu","anayss","ansun","wolfphenix","sye","ren","gilli","oyasumi","snow","anthos","daya"] },
+  { id: "retired-officers", label: "Retired Officers", note: "Former full Officers; the dated officer history stays attached.", characterIds: ["hyaluna","ritha","suzimasu","yumi","illien","key","nelph","kiro"] },
+  { id: "game-officers", label: "DR Officers", note: "Dragon Raja authority lane.", characterIds: ["ame","chibiterasu","yelik","noether","yassr"] },
+  { id: "snipers", label: "Snipers", note: "Applicant grabbers and recruitment-side cast.", characterIds: ["kaede","feli","lan","nemo","rummy"] },
   { id: "directors", label: "Executives", note: "Directors and specialist jobs.", characterIds: ["shiki","han","mia","nobu","moon"] },
   {
     id: "staff",
     label: "Staff",
-    note: "UL Staff / adult members without a more specific primary role.",
+    note: "UL Staff and adult-member files.",
     characterIds: [
       "hishiro","gengrey","lilly","momo","nhou","cookie","alkey","zepp","ten","ceen","ghostt","tofu","rooks","nuien",
       "new","aeshleen","panda","rose","may","nothien","akamin","pride","xephy","ciphy","allenne","shiyax","jas",
@@ -205,13 +205,13 @@ const canonicalGroups: CastGroup[] = [
   {
     id: "platelets",
     label: "Platelets",
-    note: "The under-18 designation. Once assigned, it stays part of the character file.",
+    note: "The under-18 designation stays attached to the character file after assignment.",
     characterIds: ["scar","dyingfox","ryo","dean","tae","zoshaa","candy","cele","erys"],
   },
   {
     id: "vip",
     label: "VIPs",
-    note: "Non-UL visitors / guests, plus files whose surviving evidence does not establish UL membership.",
+    note: "Visitors, guests, and membership-status-open files.",
     characterIds: [
       "zyrcant","rich","woohyuk","syv","woosung","beowulf",
       "baby-lyssa","lexi","acoryuie","bishopthaguru","jade","jordayy","korea-milk","milo","tonytonychopper",
