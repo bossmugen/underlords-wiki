@@ -99,5 +99,14 @@ export const wallIntegratedEpisodes: Episode[] = [
     kind: "Wall workplace camouflage / Gilli commits interface crimes for operational reasons",
     logline: "Marian opens the hearing with `o my god. GILLI. WHY IS IT WHITE. my poor eye balls`. Baby Lyssa rules that `this should be a sin`; Marian escalates to `no, even satan would look away`. Gilli's defense arrives in full caps: `IT'S TO BLEND IN WITH THE PROGRAMS I USE AT WORK`, followed by `I CHANGE IT BACK WHEN IM HOME C H R I S T`. The funny little reversal is that everybody prosecutes the setup as a taste crime, while Gilli insists it is camouflage: the ugly white version is for work, home gets the restoration. Two Gilli-posted screenshots remain visually uninspected, so the wiki does not name the software, employer, workstation, exact interface, CAPTURED BY, MADE BY, or anything visible in the pixels. The participant-authored `WHY IS IT WHITE` is enough to own the scene without inventing the exhibit.",
     cast: ["Gilli", "Marian", "Baby Lyssa"]
+  },
+  {
+    id: "rooks-screenshot-shift",
+    title: "Rooks Has the Screenshot Shift Covered",
+    season: "2021",
+    date: "March 13, 2021",
+    kind: "Wall evidence relay / Mugen clocks out of one screenshot because Rooks is already there",
+    logline: "Rooks posts an attachment. Mugen true-replies, `I was gonna ss it lmao then I thought nah rooks wouldnt miss this for the world`. Rooks answers `uwu cant hide from me`, posts another attachment, Baby Lyssa yells `OH MY GOD`, and Mugen later captions the burst `Saturday morning at the UL strip club feat. @Baby Lyssa`. The tiny familiarity is in Mugen deciding not to duplicate the evidence: she knows Rooks's screenshot reflex well enough to assume the shift is covered. This is distributed evidence-catching, not delegated admin work. Both Rooks attachments remain visually uninspected, so POSTED BY Rooks does not become MADE BY, CAPTURED BY, FEATURING, or a description of the pixels.",
+    cast: ["Mugen", "Rooks", "Baby Lyssa"]
   }
 ];
