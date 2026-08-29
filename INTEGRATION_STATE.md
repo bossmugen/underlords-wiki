@@ -1,6 +1,6 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration pass: **2026-08-29 07:34 PDT**.
+Last dual-surface integration pass: **2026-08-29 07:50 PDT**.
 
 Full branch-level consumption state is durable on MAIN in `archive-intake/INTEGRATOR_BRANCH_STATE.json`; prior rolling wiki states remain in Git history.
 
@@ -8,46 +8,39 @@ Full branch-level consumption state is durable on MAIN in `archive-intake/INTEGR
 
 Closing census: **28 active remote miner refs + 21 historical/missing refs = 49 tracked branch identities**.
 
-The finite queue closes at **1 pending / 0 backlog / 0 review-overdue**. The late mover is `archive-miner/mugen-person-first-20260828`, seen at `f0d246a8…` while its consumed frontier remains `e5df362e…`. Core Rooms and Wall remain the two cumulative recovery floors with formal `last_consumed_sha: null`; Wall moved again during close to `e6a560a9…`, so that newest suffix is seen but not fake-reviewed. Both Club-Only miners remain fully consumed/current.
+The finite queue closes at **0 pending / 0 backlog / 0 review-overdue**. Core Rooms and Wall remain the two cumulative recovery floors with formal `last_consumed_sha: null`; both Club-Only miners remain fully consumed/current. No miner branch was merged or cherry-picked wholesale.
 
-No miner branch was merged or cherry-picked wholesale.
+## Mugen person-first — Rooks already has the screenshot shift
 
-## Whiskey — DyingFox gets an actual little voice
+`archive-miner/mugen-person-first-20260828` advanced from consumed `e5df362e…` to `4177d362…` and was reviewed checkpoint-first, intake-only. A miner-side edit to `src/content/people/mugen.md` was deliberately ignored because public-path miner edits are not evidence handoffs.
 
-`archive-miner/whiskey-longitudinal-hourly` advanced `0862ebc8… -> c82656a8…` and was reviewed checkpoint-first, intake-only.
+The best public keeper is a March 13, 2021 Wall exchange. Rooks posts an attachment. Mugen true-replies: `I was gonna ss it lmao then I thought nah rooks wouldnt miss this for the world`. Rooks answers `uwu cant hide from me`, posts another attachment, Baby Lyssa yells `OH MY GOD`, and Mugen later captions the burst `Saturday morning at the UL strip club feat. @Baby Lyssa`.
 
-The strongest keeper belongs to DyingFox. On June 29, 2021 Fox opens with `Haii ghostie`; Ghost answers `Hi fox` thirty-one seconds later. The softened names do all the social work without anybody explaining the relationship. Later that afternoon the room breaks into a visible knife-emote outbreak and DyingFox files the diagnosis as `Starting fights again`.
+The tiny relationship tell is Mugen deciding **not** to duplicate the evidence. She knows Rooks's reflex well enough to assume the screenshot shift is covered. WIKI now owns this as Episode **Rooks Has the Screenshot Shift Covered**. That is distributed evidence-catching and dyad familiarity, not an administrative delegation. Both Rooks attachments remain visually uninspected, so POSTED BY Rooks does not become MADE BY, CAPTURED BY, FEATURING, or a description of the pixels.
 
-The useful word is `again`: Fox is recognizing a recurring house behavior, not discovering a new emergency. It does **not** identify a specific earlier fight and it does not turn knife emotes into literal violence. MAIN now owns this as person texture inside the existing DyingFox biography rather than inventing a second incident page.
+Other reviewed Mugen material was deliberately not sprayed across the site: she blamed Zoshaa and Zepp for resurrecting a chicken-nugget craving after years without them, traded reciprocal `eli kiss` commands with Ten, greeted returning Kiro as `gummy bear` / `gummieeees`, and told Mia that a UL hook could come from `any dumb thing we've said` in Wall. Those are valid character scraps, but they do not all need separate public objects in the same pass. The missing nugget setup, repeated Kiro onboarding cause, media contents, and any romance inference remain unresolved.
 
-Other Whiskey material stayed fenced: DyingFox says `It's a word that gilli made up`, but the actual missing word is still unresolved; the person who did not know Snapple is unidentified; `Usa 🇺🇸` lacks its antecedent; `DyingFox(Gilli's Pond)` is not dated nickname-origin evidence; uninspected media remains uninspected.
+WIKI reader-facing commit `70d041875c15cdc60fba00d48de37ca964b01587` passed **Build Underlords Wiki** run `33258420742` and the full Pages build/deploy/report chain in run `33258420755` successfully.
 
-MAIN reader-facing commit `22961c90e9b951f897e8cc40fb038101fd49407c` passed the complete **UL Hourly Build + Deploy** workflow `33257825254` successfully, including the repository's source verification, Astro build, built-output verification, and deployment chain.
+## Wall recovery — the 07:06 suffix is reviewed, not immortal
 
-## Wall — WHY IS IT WHITE
+The previously seen Wall suffix `235b32a8… -> e6a560a9…` was reviewed checkpoint-first and intake-only. It produced useful but not publication-sized person texture for Usama: a July 18 sequence of `lmao` → `private hoes ig` → `nvm me` → skeptical emote, and a July 21 callback that `key was asking Sushi yesterday too lol`. Because those messages have no structural reply/mention pointer to the nearby screenshot, the wiki does not pretend to know exactly what Usama was commenting on or resolve plain-text `Sushi` to a person.
 
-Wall forward recovery was reviewed from the prior `f78113b8…` frontier through `235b32a8…`. The clean public owner is the September 10, 2021 workplace-camouflage hearing.
+The same pass also closes a bad rabbit route: Gilli's `Don't make me spam you with the bot answers again` proves recurrence of a bot-answer bit, while Xuseio/Nobu later remembers Namo's `*try again*` as part of a `Finesse of a comedy duo`. The assigned Wall's literal-text route does **not** establish that these are the same incident or reveal the missing partner/mechanism. Generic keyword necromancy is therefore spent; the unresolved join needs the referenced parent/media or a real sibling-source callback.
 
-Marian opens with `o my god. GILLI. WHY IS IT WHITE. my poor eye balls`; Baby Lyssa rules `this should be a sin`; Marian escalates to `no, even satan would look away`. Gilli's defense is operational, not aesthetic: `IT'S TO BLEND IN WITH THE PROGRAMS I USE AT WORK`, followed by `I CHANGE IT BACK WHEN IM HOME C H R I S T`.
+No new public episode was accepted from this suffix. Wall remains cumulative recovery-in-progress because its older safe baseline is still open; its formal consumed SHA remains null even though the forward handoff is now reviewed through `e6a560a9…`.
 
-The reversal is what makes the scene worth keeping. Everyone else prosecutes the white setup as a taste crime while Gilli insists the ugliness is camouflage: work gets the cursed white version; home gets the restoration. WIKI now owns this as Episode **WHY IS IT WHITE**. Two Gilli-posted screenshots remain visually uninspected, so the wiki does not name the software, employer, workstation, exact UI, CAPTURED BY, MADE BY, or pixel contents.
+## Reconciliation / surface split
 
-Miihi's Wall chronology strengthened but is still image-dependent; Abie's `Bonus:` laugh remains too thin; Ghostt's `I say this everyday` referent remains unresolved. Wall moved again during closing census to `e6a560a9…`; that suffix remains for the next pass while the older cumulative recovery also stays open.
-
-WIKI reader-facing commit `b3d0cb4483f5b69c1d5d52f9beb67c1c07facf72` passed standalone **Build Underlords Wiki** workflow `33257853180` and Pages build/deploy workflow `33257853178` successfully.
-
-## Reconciliation / intentional split
-
-- DyingFox is **MAIN-only** this pass because the new Whiskey evidence deepens an already-established person biography rather than needing another wiki incident container.
-- `WHY IS IT WHITE` is **WIKI-only** because it is a perfectly bounded Wall episode; MAIN's Gilli biography is already large and did not need the same story copied verbatim.
-- Existing richer owners were not duplicated merely because a new miner package corroborated them.
-- POSTED BY / MADE BY / CAPTURED BY / FEATURING remain separate throughout.
-- Earliest surviving evidence is not promoted into origin, and unresolved image/provenance joins remain unresolved.
+- **WIKI-only this pass:** **Rooks Has the Screenshot Shift Covered**, because the strongest new Mugen evidence is a compact Wall incident with a clean scene boundary.
+- **MAIN:** no additional reader-facing copy was forced from this continuation. Mugen's existing biography is already dense, and the remaining scraps are better held for a future sidecar or richer relationship owner than mirrored for symmetry.
+- The immediately preceding reconciled pass already put DyingFox's reciprocal Ghost greeting on MAIN and **WHY IS IT WHITE** on WIKI; those owners were preserved rather than duplicated.
+- POSTED BY / MADE BY / CAPTURED BY / FEATURING remain separate. Earliest surviving evidence is not promoted into origin, and joke language is not literalized into romance, kinship, governance, or formal roles.
 
 ## Remaining recovery
 
-- **Core Rooms:** forward handoffs reviewed through `f1642474…`; older safe-baseline recovery remains open through its recorded 2026-08-25 22:46 frontier.
-- **Wall:** reviewed forward through `235b32a8…`, then moved to seen `e6a560a9…`; older recovery remains open through its recorded 2026-08-28 21:24 frontier.
-- **Finite queue:** Mugen person-first late suffix `e5df362e… -> f0d246a8…` is pending for fair rotation.
+- **Core Rooms:** forward handoffs reviewed through `f1642474…`; older safe-baseline recovery remains open through the recorded 2026-08-25 22:46 frontier.
+- **Wall:** forward handoffs now reviewed through `e6a560a9…`; older recovery remains open through its recorded 2026-08-28 21:24 frontier.
+- **Finite queue:** clear at this closing boundary.
 
-This pass's public division is deliberately asymmetrical: Fox gets more personhood on MAIN; Gilli gets prosecuted for workplace interface camouflage on WIKI. Nobody gets duplicated just so both repos can make the same noise.
+The useful new scene is basically Mugen reaching for the screenshot button, remembering Rooks exists, and deciding the department is already staffed. Rooks's answer — `uwu cant hide from me` — does not sound like an appointment acceptance. It sounds like a warning label.
