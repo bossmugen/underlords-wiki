@@ -1,55 +1,77 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration pass: **2026-08-29 09:24 PDT**.
+Last dual-surface integration pass: **2026-08-29 09:30 PDT**.
 
 Full branch-level consumption state is durable on MAIN in `archive-intake/INTEGRATOR_BRANCH_STATE.json`; prior rolling wiki states remain in Git history.
 
-## Census / queue
+## 09:30 continuation — The File in My Office
+
+The 09:24 state left Whiskey pending and Wall/Core on late suffixes. This continuation reviewed Whiskey directly from its miner branch, advanced Wall's forward handoff one more package, and accepted one new WIKI-only incident.
+
+### Whiskey — reviewed through `a88320bf…`, no public change
+
+`archive-miner/whiskey-longitudinal-hourly` was reviewed checkpoint-first and intake-only from consumed `c82656a8…` through `a88320bf523ecdf049d308c05077c9a57c437b04`.
+
+Scar's May 15, 2021 doorway is unusually clean: the Bouncer asks for IGN / club / age; scar's first visible response is `:Cat_sip:`; Anthos repeats the intake; scar true-replies `Scar ; Council ; guest and I’m 17yr`; then immediately goes back to `:CatCry:` before Anthos routes them to the Discord Tour. Thirteen days later scar is in Whiskey saying `god damn I need be mythic soon :catscream:`. The useful historical distinction is status versus investment: `guest` is scar's own administrative label at the doorway, not evidence of detachment, and the later urgency does not silently convert scar into a UL member. `Council` remains preserved as authored intake context / likely club field rather than over-normalized, and the exact `mythic` subsystem remains open.
+
+The same delta adds a raw October 8, 2020 DyingFox Discord doorway: MEE6 technically mentions the stable account, Snow says `Added role`, then `welcome Dyingfox`. The bot-rendered mention displays `Gilli's Pond`, but raw member/nickname metadata can be export-state rendering; Snow's contemporaneous human wording is only `Dyingfox`. Therefore the doorway chronology is useful backstage while the `Gilli's Pond` origin remains unresolved. The literal raw-Lobby phrase route is exhausted and must not be used to backdate the nickname.
+
+MAIN Scar/Dyingfox owners are already richer than a second doorway paragraph would make them, so this is a successful no-public-change review. Whiskey may advance consumed through `a88320bf…` in MAIN branch state.
+
+### Wall — The File in My Office
+
+Wall's forward handoff was reviewed from `37970962…` through `41ffc4f0b4dc1ef960c07dbaa545c4eb475e909d`.
+
+The keeper is BishopThaGuru. Tofu true-replies to a prior Mugen post carrying an uninspected Dragon Raja screenshot, tags Bishop, and says it `will never stop being funny to me`. Bishop immediately turns into his own federal defense counsel: `Why? What have you heard? Who you talk to? You with the feds?` Mugen true-replies, `The file in my office says so.` Bishop's entire posture then loses one syllable: `W-which file?`
+
+That stammer is the episode. Bishop begins by cross-examining the witness and ends by realizing the fake bureaucracy may contain paperwork. WIKI now owns **The File in My Office** in `src/data/integrator-episodes-wall-20260829.ts`. The screenshot remains visually uninspected. Mugen is safely POSTED BY for the parent image; Tofu's structured tag makes Bishop the social target of the callback, not proof that Bishop is visually shown. MADE BY / CAPTURED BY / FEATURING and the underlying charge remain unresolved.
+
+The same Wall package also advances Key's 2022 self-audit (`just came to see how many times i appeared here` → Gilli `OG wall of shamer here uwu`), but MAIN Key already owns that person-shaped archaeology and no duplicate WIKI incident was forced. The Jas/Gabu/Anthos turtle actor remains unresolved despite a stronger local join, and Akamin's `Whiskey` → `Always gonna be my drink bb` is held as small profile texture rather than inflated into a second public object.
+
+Wall moved again after this reviewed package; current branch-state census must record the newer head as seen while keeping formal consumed SHA null until cumulative recovery closes.
+
+### Surface split / verification
+
+**The File in My Office is intentionally WIKI-only.** Its value is a compact Episode with a clean setup, reversal, and punchline. MAIN already has stronger person-shaped owners for the other accepted/duplicate material in this window, and no MAIN reader-facing page needed another Wall paragraph merely because the miner found one.
+
+WIKI reader-facing Bishop commit **`e1f96431ef4e6efc590968e248ca0c026f76e915`** passed **Build Underlords Wiki**. Its Pages run was superseded by direct descendant **`616490b16f32e68c4c4a61efbba0d33b86587078`**, which preserved the Bishop commit as its parent; that exact descendant then passed both **Build Underlords Wiki** and the complete **Deploy Underlords Wiki Preview** build/deploy/report workflow. No concurrent WIKI work was overwritten.
+
+## Prior 09:24 pass
 
 The mandatory opening census enumerated **28 active remote miner refs + 21 historical/missing refs = 49 tracked branch identities** before deep review. No miner ref exists only in the wiki, and no miner branch was merged or cherry-picked wholesale.
 
-The selected finite review, **All Characters**, was read checkpoint-first and intake-only from consumed `919ceb68…` through `defce808…` and is accepted as a successful no-public-change review. A late-moving **Daycare** suffix was also reviewed checkpoint-first through `981e31d9…` and is duplicate/methodology-only. At the closing census, **Whiskey** advanced after its prior consumed frontier to `a88320bf…`; it is therefore the one finite `pending_review` branch rather than being silently swallowed. Closing finite queue: **1 pending / 0 backlog / 0 review-overdue**. Core Rooms and Wall remain cumulative recovery tracks with formal `last_consumed_sha: null`; both Club-Only miners remain fully consumed/current.
+The selected finite review, **All Characters**, was read checkpoint-first and intake-only from consumed `919ceb68…` through `defce808…` and is accepted as a successful no-public-change review. A late-moving **Daycare** suffix was also reviewed checkpoint-first through `981e31d9…` and is duplicate/methodology-only. At that closing census, Whiskey had advanced after its prior consumed frontier to `a88320bf…`; the 09:30 continuation above now reviews that delta successfully. Core Rooms and Wall remain cumulative recovery tracks with formal `last_consumed_sha: null`; both Club-Only miners remain fully consumed/current.
 
-## Wall — I Guess I Got Homework
+### Wall — I Guess I Got Homework
 
-Wall's forward handoff was reviewed from the prior `e6b57359…` frontier through `37970962…`. The keeper is a July 30, 2024 TonyTonyChopper scene. Tony posts an image under `wait I can explain!!`; Mugen answers `lol be sure to crop next time before posting xD`. Tony does not retreat. He turns the accident into a Sanji defense brief — `The proof is questionable but it's there`, then `Hey it looks like Sanji has a preference okay`. Mugen escalates the defense into an assignment by suggesting he get Muffin into it too; Tony accepts with `Well damn I guess I got homework`.
+Wall's earlier forward handoff was reviewed from the prior `e6b57359…` frontier through `37970962…`. The keeper is a July 30, 2024 TonyTonyChopper scene. Tony posts an image under `wait I can explain!!`; Mugen answers `lol be sure to crop next time before posting xD`. Tony does not retreat. He turns the accident into a Sanji defense brief — `The proof is questionable but it's there`, then `Hey it looks like Sanji has a preference okay`. Mugen escalates the defense into an assignment by suggesting he get Muffin into it too; Tony accepts with `Well damn I guess I got homework`.
 
-The tiny turn is why this belongs as an Episode: Tony enters already linguistically on trial, gets the obvious crop correction, and converts embarrassment into collaborative research instead of ending the scene. WIKI now owns **I Guess I Got Homework**. MAIN's Tony biography already owns the person-shaped version, so copying the whole incident there again would be historical spam.
+The tiny turn is why this belongs as an Episode: Tony enters already linguistically on trial, gets the obvious crop correction, and converts embarrassment into collaborative research instead of ending the scene. WIKI owns **I Guess I Got Homework**. MAIN's Tony biography already owns the person-shaped version, so copying the whole incident there again would be historical spam.
 
 The image remains visually uninspected. Tony is **POSTED BY** only. MADE BY / CAPTURED BY / FEATURING, the crop's exact contents, and any visual claim about Sanji or Muffin remain unresolved.
 
-Wall moved again after review to seen `41ffc4f0…`; that newer suffix is not reviewed here. Wall therefore remains `recovery_in_progress` with formal consumed SHA null.
-
-## All Characters — reviewed, not republished
+### All Characters — reviewed, not republished
 
 The `919ceb68… -> defce808…` Platelet-focused suffix was fully reconciled. Dean/Beansprout's long family continuity and dream-haunting language, Ryo's Moon invitation and first-Wall repair, and Zoshaa's house-language-to-maker progression are already materially richer on their canonical MAIN owners. Kiro/Scar/Dyingfox/Tae/Candy/Cele rails either corroborate existing owners, depend on uninspected media, or carry identity/privacy fences that should not be flattened for novelty's sake.
 
 Important boundaries remain intact: Scar and Scarletsnow are separate people; later Candy/Luna is not HyaLuna; Dyingfox's `Gilli's Pond` origin is unresolved; Tae's furry-image material remains uninspected; Cele's exact intake-age detail is not publicized merely because it exists in evidence.
 
-## Daycare — the bot says welcome; the humans say welcome back
+### Daycare — the bot says welcome; the humans say welcome back
 
 Daycare's late `70690db0… -> 981e31d9…` suffix was reviewed after the closing census exposed it. The strongest Kiro receipt is already public on MAIN: MEE6 welcomes the same stable account again, Mugen answers `Hey gummy bear! You know the drill`, finds the lost copied form, and closes with `welcome back gummieeees`. The useful point is not a new public story; it is a brake on bad chronology. Automated welcome output is not proof of first-ever arrival, and the surviving sequence still does not tell us why the bot fired again.
 
 faoaf's same-day `Soulmates` Lobby self-report plus one Daycare message strengthens social-permeability evidence without proving technical ACLs or a Platelet assignment. No new reader-facing object was accepted from this delta.
 
-## Core Rooms — recovery moved backward
+### Core Rooms — recovery moved backward
 
-Core's current branch moved after review to seen `d0dee0fd…`; its newest suffix is not consumed. The forward handoff is reviewed through `df27f7ef…`. The older safe-baseline recovery also reviewed the **2026-08-28 18:47 package** checkpoint-first. Its DarkAsrai/Rose doorway, `R O S E`, setup routing, red-telephone/red-whip bits, and apartment-noise context are already richer on MAIN's Rose biography, so this package is duplicate/corroboration rather than another Rose object. Core's formal consumed SHA remains null until the cumulative baseline genuinely closes; the next older package is below 18:47 and must be resolved from the branch checkpoint rather than guessed.
+Core's forward handoff was reviewed through `df27f7ef…`; the older safe-baseline recovery also reviewed the **2026-08-28 18:47 package** checkpoint-first. Its DarkAsrai/Rose doorway, `R O S E`, setup routing, red-telephone/red-whip bits, and apartment-noise context are already richer on MAIN's Rose biography, so this package is duplicate/corroboration rather than another Rose object. Core's formal consumed SHA remains null until the cumulative baseline genuinely closes.
 
 ## Reconciliation / held material
 
-- **WIKI-only reader-facing keeper:** **I Guess I Got Homework**, because the new value is a bounded incident with reversal and punchline; MAIN Tony already owns the person-shaped scene.
-- **MAIN reader-facing changes this pass:** none. The reviewed All-Characters, Daycare, Syv, and Rose/DarkAsrai material was already richer there.
-- **Duplicates/corroboration:** Dean, Ryo, Zoshaa, Kiro, Syv, Rose/DarkAsrai, plus several Platelet/Daycare methodology rails.
-- **Held:** Tony's image pixels/provenance beyond POSTED BY; Soy/EastSussex23's shark image; Scar↔Scarletsnow identity separation; Dyingfox nickname origin; Tae's uninspected furry image; Core's thin Voice Challenge fragment; the late unreviewed Wall/Core/Whiskey suffixes.
+- **WIKI-only reader-facing keepers in this chain:** **I Guess I Got Homework** and **The File in My Office**, both incident-shaped scenes whose person owners are better handled elsewhere.
+- **MAIN reader-facing changes in this continuation:** none.
+- **Duplicates/corroboration:** Key's Wall self-audit, scar's doorway/person status texture, DyingFox's already-rich person page, Dean, Ryo, Zoshaa, Kiro, Syv, Rose/DarkAsrai, plus methodology rails.
+- **Held:** Bishop screenshot pixels/provenance beyond POSTED BY; Jas/Gabu/Anthos turtle culprit; scar's exact `mythic` subsystem and `Council` normalization; DyingFox `Gilli's Pond` nickname origin; Akamin's small Wall/Whiskey preference as unexpanded profile texture; all visually uninspected attachments; late unreviewed Wall/Core suffixes.
 - POSTED BY / MADE BY / CAPTURED BY / FEATURING remain separate. Earliest surviving is not origin. Export-current role arrays do not become appointment history.
 
-## Verification / deployment
-
-WIKI reader-facing commit **`8f2fe31b5d4d350f8ba290843f68c4b7c348b5ed`** passed both existing workflows on that exact commit: **Build Underlords Wiki** succeeded, and **Deploy Underlords Wiki Preview** completed its Pages build/deploy/report chain successfully. The 09:24 rolling-state commit `a5764698478981eb97e9cf2b8df76391b98cb3e5` also passed both workflows successfully.
-
-MAIN made no reader-facing content change in this pass. Its final durable report head **`ce60f5b2614d4df08fb4472f73b0390958e14517`** passed the complete existing **UL Hourly Build + Deploy** workflow on that exact commit: source canon/architecture verification, Astro build, built-output verification, and Cloudflare production deployment all succeeded.
-
-A concurrent descendant, `e1f96431ef4e6efc590968e248ca0c026f76e915`, added the Bishop **The File in My Office** episode after this pass's reader-facing commit. It was preserved untouched and is not claimed as work reviewed by this 09:24 pass.
-
-The scene summary remains brutally efficient: **Tony posted `wait I can explain!!`, got told to crop next time, and somehow walked out of court with homework.**
+The newest Wall contribution is brutally efficient: **Bishop starts with `You with the feds?`, Mugen says there is a file in her office, and suddenly the federal counter-investigation has become `W-which file?`**
