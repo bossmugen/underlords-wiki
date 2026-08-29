@@ -41,4 +41,10 @@ export const integratedGags = [
     logline:
       "The phrase acquired legs and then immediately lost the ability to stand. On September 1, 2020 Ansun wrote ‘_slides into his dms_’; Anthos posted a literal sliding-person GIF and admitted that from then on the phrase made her picture it, and Mugs answered with a Tenor explicitly titled ‘slide-into-dms.’ By October Rooks was deploying an animated server emoji actually named SlideInDms. Then the August 14, 2026 Family Reunion retrieval used ‘SLIDE TO THEIR DMS’ as an instruction while the Anthos summons screenshot visibly staged a prone/sliding person above ‘The clowns are calling for you’ / ‘Will you heed their call.’ The exact 2026 visual is not proven to be the 2020 GIF or emoji binary, and no trustworthy 2021–2025 intermediate survivor has surfaced. September 1 is earliest surviving evidence in this genealogy, not a creation myth.",
   },
+  {
+    id: "corpses-reanimation",
+    name: "Corpses / Reanimation",
+    logline:
+      "The 2026 Family Reunion's necromancy has a surviving 2021 prehistory. On May 2 Eos reports being ‘a dead corpse’; Mugs replies directly with a Tenor titled ‘cheers-to-our-pretty-corpses,’ quietly pluralizing one exhausted person into a group problem; Eos later returns as ‘this ded corpse.’ Five years later WolfPhenix announces ‘de corpses are aliiive’ while Rummy proposes ‘Reanimate the whole server fr.’ May 2, 2021 is the earliest surviving relevant person-as-corpse / group-mirroring scene recovered so far, not a proven origin, and the current archive does not establish uninterrupted corpse language through 2022–2025. The dead had paperwork before the resurrection had a guest list.",
+  },
 ];
