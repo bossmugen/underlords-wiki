@@ -26,19 +26,24 @@ Successful no-public-change review. Consumed through `7cdf996ffdb600183a61fdf84b
 
 ### Core Rooms recovery
 
-The active recovery was continued by re-reading its current branch checkpoint and `do not rediscover` boundary. The miner's current checkpoint points to newer 02:04 Mirose/Kuwei material and the immediately prior 01:08 Nyanuri/Figgy package. Those are current quarry-navigation state and must not be mistaken for the integrator's older safe-baseline recovery frontier.
+The active recovery was continued checkpoint-first. The miner's current checkpoint points to newer 02:04 Mirose/Kuwei material and the immediately prior 01:08 Nyanuri/Figgy package. Those are current quarry-navigation state and must not be mistaken for the integrator's older safe-baseline recovery frontier.
 
-No separately bounded next **03:46-or-older** recovery package could be identified safely from the branch handoff this run. The frontier therefore does **not** advance by guesswork: it remains reviewed through the older 04:46 package, with 03:46 and below still open. `last_consumed_sha` remains null until the safe baseline actually closes.
+Closing reconciliation then caught Core moving **`53cf44a1… -> 525759bc…`** by four intake-only commits, so the new 03:02 handoff was reviewed immediately:
+
+- **Oldfieldmouse / Nnp1** directly self-reports `My ign is Nnp1, club UnderLords` in the September 2020 Lobby. It is clean identity/club evidence, not a proven first-join date. The surviving public story is still too thin for a fandom-style Cast dossier.
+- **Kuwei / Annie account** now has the Drink Water Reminder `My dad` textual antecedent re-established for the 2021 cuteness chain, plus an exact message ID for Kuwei's 2020 Lobby `Hi`. The nearby image is still uninspected, the later role-assignment ID is still unresolved, the shop-display recurrence still has one surfaced direct instance, and exact Kuwei↔Annie display chronology remains open.
+
+Those precision repairs do not close the older cumulative recovery. The durable safe-baseline frontier remains reviewed through the older 04:46 package, with **03:46 and below** still open; `last_consumed_sha` remains null.
 
 ## Public integration decision
 
-No reader-facing WIKI object was added this continuation. The reviewed finite material is duplicate/corroborative or too unresolved, and manufacturing a second version merely so both repositories visibly change would violate the complementary-surface rule.
+No reader-facing WIKI object was added this continuation. The finite material is duplicate/corroborative or unresolved, while Oldfieldmouse is too thin and Kuwei remains developing/identity-chronology-sensitive. Manufacturing a second version merely so both repositories visibly change would violate the complementary-surface rule.
 
-The prior bounded episode **Yaght Enters the Record** remains the most recent reader-facing WIKI integration and stays where it is; nothing in this run required rewriting it.
+The prior bounded episode **Yaght Enters the Record** remains the most recent reader-facing WIKI integration and stays where it is.
 
 ## Held / canon firewall
 
-Held rather than guessed: exact roach targets in Mugen's ambush scene; exact role chronology for Ritha or later/current Battle Leader Anayss; sparse-person dossier claims for Codered/NaoSaichi/Oyasumi/Lynn/Akihiko/Illicitdreams; any attempt to turn `Alex (NemeMoka)#1142` into a new public identity story; and any false Core recovery advancement caused by confusing current miner navigation with the older integrator baseline.
+Held rather than guessed: exact roach targets; exact historical Battle Leader appointment chronology; sparse-person dossier claims for Codered/NaoSaichi/Oyasumi/Lynn/Akihiko/Illicitdreams/Oldfieldmouse; any attempt to turn `Alex (NemeMoka)#1142` into a new public identity story; Kuwei/Annie exact display chronology; DWR image provenance/content; Kuwei's later role-assignment receipt; a second direct shop-display date; and any false Core recovery advancement caused by confusing current miner navigation/new quarry work with the older integrator baseline.
 
 Current/export role arrays do not create appointment chronology. Similar names do not merge accounts. Earliest surviving is not origin. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain separate.
 
