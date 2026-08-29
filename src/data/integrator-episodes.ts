@@ -189,5 +189,23 @@ export const integratedEpisodes: Episode[] = [
     kind: "Wall artifact resurrection / the same evidence package comes back four months later",
     logline: "Woohyuk posts two files, `Screenshot_136` and `Screenshot_137`, and Mugen responds `LEAVE ME ALOOONE IDK DISNEY IM SORRYYYY`. Four months later Woohyuk posts files with the same original filenames and exact byte sizes again. The metadata makes the callback unusually concrete: he did not merely remember the Disney offense, he retained and resurfaced the same two-artifact package. The screenshot binaries remain visually uninspected, so the episode does not invent what Mugen got wrong, what the images show, who made or captured them, or who is pictured. Woohyuk is POSTED BY; matching filenames and byte sizes establish artifact reuse, not authorship.",
     cast: ["Woohyuk", "Mugen"]
+  },
+  {
+    id: "lena-all-access",
+    title: "Lena Gets All Access",
+    season: "2021",
+    date: "February 16, 2021",
+    kind: "Whiskey onboarding / paperwork becomes couch access in under three minutes",
+    logline: "Stripclub Bouncer asks Lena for IGN, club and age; Lena answers `Ty!!! Aelena /underlords/ 20`. Anthos says the roles are assigned, points her at the server tour, and forty-one seconds later opens Whiskey with `aaaaand this is the all access chat room!`. Lena's answer fifty-four seconds later is just `🤙🤙`. It is a tiny doorway scene, but a useful one: formal intake collapses almost immediately into somebody being shown the social room. The exact assigned roles and recruiter path are not in the receipt, and the historical age is kept only as what Lena reported in that dated intake rather than a current-age claim.",
+    cast: ["Lena", "Anthos"]
+  },
+  {
+    id: "cinders-returns-as-juniper",
+    title: "Cinders Comes Back as Juniper",
+    season: "2021",
+    date: "February 16 → June 16, 2021",
+    kind: "Same-account return / the door remembers the person even while the supplied name changes",
+    logline: "On February 16 the stable ACORYUIE account answers a Bouncer intake with `Hello, its Cinders here! I'm 18 years of age.` Four months later the same account hits the intake again and supplies `Juᥒιρer 18`; thirty seconds later Mugen technically addresses that same account with `welcome back bb, role assigned, you know your way uwu`. The return is hard at the account level and Mugen's familiarity is explicit. The archive does not know why the intake re-triggered, whether Cinders and Juniper were specifically IGNs or broader scene names, what exact role was assigned, or whether Mugen's nearby `Brynnderellaaaaaaaaaa` was aimed at this person.",
+    cast: ["ACORYUIE", "Mugen"]
   }
 ];
