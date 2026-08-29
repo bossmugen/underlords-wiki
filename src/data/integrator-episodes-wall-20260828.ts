@@ -81,5 +81,14 @@ export const wallIntegratedEpisodes: Episode[] = [
     kind: "Wall welcome / the nickname blender immediately finds chemistry",
     logline: "Mugen welcomes the stable account rendered `暁cit。(S73)`. Within eleven minutes Cele has admitted she first read `cit` as `zit`, Moon has upgraded it to `city`, Mugen says her brain autofills `citric acid`, and Ren compresses the damage to `Citric 😭`. The important part is what the target does with it: Cit calls `city` cute, reacts warmly when Moon says `Your the cutest city`, tells Mugen `I love this🤣💕💕💕`, then supplies the catastrophic fact that the full name was `Citrinitas`, so the citric-acid reading accidentally has standing. `Rip mah soul` draws seven ZeroYay reactions. The welcome image is uninspected and unnecessary to the naming sequence. `cit` already exists in the rendered nickname before the scene, so this is not its origin; `City` and `Citric` remain one-scene peer mutations unless recurrence turns them into durable aliases.",
     cast: ["Citrinitas", "Cele", "Moon", "Mugen", "Ren"]
+  },
+  {
+    id: "eh-chorus",
+    title: "The Eh Chorus",
+    season: "2021",
+    date: "March 31, 2021",
+    kind: "Wall reaction pile / one Eh becomes a room-wide vowel emergency",
+    logline: "iBwoy posts an image with the devastatingly informative caption `Eh`. Cookie answers `Eh`, Lilly answers `Eh`, Mugen answers `Eh`, and Nelph drops a reaction file. iBwoy briefly interrupts the ritual with `Ahem. I'm always here btw o.o`, only for Cookie to answer him with another `Eh`. Gilli joins, iBwoy eventually caves into his own `Eh`, and then the room starts stretching the syllable: Mugen `Ehhhhh`, iBwoy `Ehhhhhhhhhh`, ShiyaX goes longer, and iBwoy goes longer again. Whatever the image was, Wall no longer appears to care; the response has become the content. The trigger image remains visually uninspected, so iBwoy is POSTED BY only. MADE BY, CAPTURED BY, FEATURING, and whatever the pixels actually show remain unresolved. This is a bounded surviving chorus scene, not proof that the room invented `Eh` that day.",
+    cast: ["iBwoy", "Cookie", "Lilly", "Mugen", "Nelph", "Gilli", "ShiyaX"]
   }
 ];
