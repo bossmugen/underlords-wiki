@@ -1,6 +1,6 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration pass: **2026-08-29 11:44 PDT**.
+Last dual-surface integration pass: **2026-08-29 12:18 PDT**.
 
 Full branch-level consumption state is durable on MAIN in `archive-intake/INTEGRATOR_BRANCH_STATE.json`; prior rolling wiki states remain in Git history.
 
@@ -8,90 +8,87 @@ Full branch-level consumption state is durable on MAIN in `archive-intake/INTEGR
 
 Full census: **28 active remote miner refs + 21 historical/missing refs = 49 tracked branch identities**. No archive-miner refs live only in the wiki.
 
-At the reviewed cutoff:
+At the closing cutoff:
 
-- finite pending: **0**
+- finite pending: **1**
 - backlog: **0**
 - review-overdue: **0**
 - cumulative recovery tracks: **Core Rooms + Wall**
 
 Current important frontiers:
 
-- All Characters — seen/consumed `0a7f1e2d811a8f85a4080465376563d5c978197d`
+- All Characters — seen `153ac7968085784730cd2b95c37d158cfe9ab75f`; reviewed/consumed through `e00a9095b2074abfbd45291cc9a9a6aa0f9b1f42`; late suffix remains pending
 - Daycare — seen/consumed `5550f88d6659a38c4c967c4ae0203657ee98a179`
 - Louvre / AI Art / Athenaeum / Other Games — seen/consumed `8729c12c787562155e5ea2abe0daca6936801729`
 - Mugen person-first — seen/consumed `9ceb401612264d52d0ceb5b8971a4d67ccd7d5d5`
 - Whiskey — seen/consumed `e477750affa41ffacf7151441afc2e26c9d6df35`
-- Core Rooms — seen/forward-reviewed `f38fcb05669d4ca2bda3dcbe65704149bdf4cbee`; formal consumed null; older safe-baseline recovery through the **2026-08-25 14:46 package**, with 13:46 next
+- Core Rooms — seen/forward-reviewed `f38fcb05669d4ca2bda3dcbe65704149bdf4cbee`; formal consumed null; older safe-baseline recovery through the **2026-08-25 13:46/13:54 cluster**, with 12:46 next
 - Wall — seen/forward-reviewed `ce096efe589e4b09041888809f02e1072c779572`; formal consumed null while cumulative recovery remains open
 - Club-Only 2021–2026 — seen/consumed `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`
 - Club-Only 2020 — seen/consumed `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`
 
 No miner branch was merged or cherry-picked wholesale.
 
-## This pass — WIKI keeper: **Mint Choco Schism**
+## This pass — WIKI keeper: **Someone Take My Phone Away Pls**
 
-January 4, 2022. Dainyamite says `mint choco is good 😮`. Ren immediately reveals she is on the same side — `ITS NOOOT!! I love mint choco chip ...` — and then drops the better character receipt: **`Gilli got me a mint choco chip socks for my b-day`**.
+April 21, 2021. Kuki tells Bailey_Babe `thought u be sleeping`. Bailey starts at **`who needs sleep`**, escalates to **`I’m a ghost 👻`**, eventually concedes **`Altho I actually am going to sleep rn`**, and five seconds later tries to establish the very optimistic boundary **`Don’t bother me lmao`**.
 
-Forty-three minutes later Gilli personally enters the record and tells Dainyamite: **`I hate Mint and chocolate together`**.
+Twenty-five seconds after that: **`Someone take my phone away pls`**.
 
-The lower-threshold read is exactly the kind of ordinary relationship texture the project now keeps instead of throwing away: Gilli apparently bought Ren a birthday gift themed around a flavor Gilli herself thinks is wrong because Ren likes it. No formal relationship tier is needed to make the care legible. The joke works because Gilli's own taste loses to the gift recipient's taste.
+The lower-threshold read is not exotic. Bailey first treats sleep as unnecessary, then treats the room as the thing that might keep her awake, then almost immediately identifies the harder interruption: the phone is still in her own hand. The silence between `Don’t bother me` and the phone plea is tiny, which is exactly why the reversal works — the attempted logout does not even survive half a minute before she admits she needs external device confiscation.
 
-Attribution stays clean: Ren is SAID BY for the birthday-sock claim; Dainyamite is POSTED BY for the Tenor embed; the underlying media maker is not assigned.
+An earlier April Lobby check-in supports Bailey_Babe as historical **Tipp**: Ren asks `tipp?`, Bailey directly self-reports `Tipp 17`, and Gilli completes the handoff. `17` stays a timestamped 2021 self-report, not a current-age claim. One bedtime disaster does not become chronic-insomnia canon.
 
-Episode owner: `src/data/integrator-episodes-wall-20260829.ts`. Corrected reader-content commit: `f4fd082edbc373d4655be7c2fa4d5f88ecd606da`.
+Episode owner: `src/data/integrator-episodes-core-20260829.ts`. Reader-content commit: `b8f766d6244b4acf72b2935775568c2ffaad2d19`.
 
-## MAIN-only keeper this pass: NemeMoka creator life
+## MAIN-only keeper this pass: Daya schedules the crackheadedness
 
-MAIN owns the new NemeMoka material because its value is cumulative biography rather than one bounded incident.
+MAIN owns the new Daya material because its value is cumulative biography and contrast with her existing officer/onboarding texture.
 
-Neme's November 2020 line — `I finished my work in 2 days without sleep with that 216 layers` — establishes that Neme could choose an absurd creative pace without anyone else's help. Four months later Neme says a shop was made but she quit because `the dude annoys me to draw faster`, while some of her items would still sell and `They got a new artist already`.
+On January 29, 2022 Daya discovers an older Wall pile and says she was **`really caught in 4k`**. Mugen tells her the screenshots were only one morning and about **`1% of our total crackheadedness`**. Daya does not deny the receipt, ask for deletion, or produce a defense. She answers: **`the crackheadedness will continue today at 1pm est`**.
 
-The probable person-level read is now public: Neme had been contributing art/items to a selling project, did not like another person controlling the output pace, and left. The distinction matters more than the missing storefront name: **self-directed intensity is not consent to somebody else's quota**. Exact shop/platform, compensation, ownership, item inventory and the man's formal role remain unresolved. Uninspected media remains unattributed.
+Under the lower-threshold rule, the obvious person-level read is public: Daya accepts the evidence and turns continued nonsense into an appointment. The exact 1 p.m. activity is not recovered, so the public copy does not invent it. The contrast is the good part — the same Daya who can make Lobby procedure legible can also become exhibit A and respond by putting more chaos on the calendar.
 
-MAIN owner: `src/content/people/nememoka.md`, reader-content commit `083b1635ea9e96b88b3c2ea477e8275024361052`.
+MAIN owner: `src/content/people/daya.md`, reader-content commit `b382f5cc82060c445e4edaf63404ed8e59daf97f`.
 
-## Other reviewed deltas
+## Other reviewed material
 
-### Daycare
+### All Characters — `0a7f1e2d… -> e00a9095…`
 
-Snow's early-April 2020 access-grant, role-assignment troubleshooting, `locked down`, server-build and audit-log lines corroborate his already-richer public access/security-operator history. They do not prove Snow created Daycare or establish an exact Daycare ACL. No duplicate public object was added.
+Run-15 was reviewed checkpoint-first and intake-only. Besides Daya:
 
-### Mugen person-first
+- Oyasumi's `That's a good cosplay of me` -> `Didn't want to crop me in this mess` -> `Still hard evidence of your crimes` is strong social evidence-play around a Daya-posted image, but the image itself remains uninspected.
+- Snow's `out of context perfection` followed by a screenshot and Mugen's `GDI` strengthens his context-collapse/callout behavior without licensing pixel invention.
+- Anthos's `i'm not smart enough to know how to spell it 😎` self-own was already richer on WIKI and was not duplicated.
+- The first-poster retrospective explicitly separates `HyaLuna — photo` from `Gilli — edit`, supporting an early visual source chain while leaving exact shutter/staging/source mechanics unresolved. HyaLuna remains distinct from later Luna/Candy.
+- WolfPhenix retry produced no genuinely new public keeper.
 
-The branch's own public-integration handoff confirms MAIN already absorbed Dean/Zepp/Key off-game texting continuity, Ten `*barks*` → Mugen `Woof`, Sye's reunion age heckle, Rooks engagement memory updated to married + dog, and Nothien's `rant` / `You're welcome back anytime` step-away exchange. The late branch suffix was integration/checkpoint handoff only, so it was consumed rather than reread forever.
-
-### Whiskey
-
-Aizzy's `Old enuf` → `I feel old` is usable self-age humor without a numeric age. Marsy's arrival is probably the guest Milo said was coming, but that does not make Milo her recruiter or inviter. `PANCAKE ASS` probably points to Woohyuk by December 2020, but the nickname origin remains unresolved. No thin duplicate pages were forced.
-
-### Wall
-
-Forward review now reaches current `ce096efe...`. Besides Mint Choco Schism, the package strengthens Daya/RealGameJack's probable prior anime-taste familiarity, Alaina's context-defense collapse, Ansun's nickname-as-reaction beat, and SaraBunny's recurring `moo` vocal joke. Nhou's probable light-mode flashbang is already public. Uninspected images remain attribution-fenced.
+After successful MAIN publication and verification, the reviewed All-Characters frontier advanced to consumed `e00a9095…`. The branch then moved late to `153ac796…`, so that suffix is visible and pending rather than being fake-reviewed.
 
 ### Core recovery
 
-Older safe-baseline review advanced through the **2026-08-25 14:46 package**. The strongest relationship scene is already richer on MAIN Lilly: Sycee's theatrical `Mine!` / `I Love Her more then all of y'all` turns, five minutes later, into worry that Lilly will be mad; Gilli explicitly reads Sycee as `just looking out for her`; Anthos joins the worry. The strong human read is care underneath the bit, not literal possession, romance, exclusivity, or a permanent protector title. Ritha's Tower of God material is also already public. Nhou's conflicting historical `18` / `33M` strings stay unresolved.
+Older safe-baseline review advanced through the **2026-08-25 13:46/13:54 cluster**. Bailey was the public keeper. Oyasumi overlapped the All-Characters handoff and was collapsed into one evidence family rather than counted twice. Lilly/Sycee material still reads as care underneath theatrical possession, not literal romance, exclusivity, ownership, or a formal protector title. Gilli age-lane teasing remains context-heavy; Tavern fragments remain thin.
+
+Core's forward edge is still reviewed through current `f38fcb05…`, but formal consumed remains null until the cumulative recovery closes.
 
 ## Surface split
 
-- **WIKI** owns **Mint Choco Schism** because the value is a bounded incident with a clean reversal: Ren loves the flavor, Gilli hates it, Gilli apparently bought the socks anyway.
-- **MAIN** owns NemeMoka's creator-life arc because the value is character accumulation across months rather than a one-scene episode.
-- Snow permissions, Ritha Tower of God, Sycee/Lilly worry, Nhou flashbang, and other corroboration were deduplicated against richer owners rather than mirrored mechanically.
+- **WIKI** owns **Someone Take My Phone Away Pls** because the useful unit is a bounded episode with a clean reversal: Bailey announces bedtime, tells the room not to bother her, then immediately asks someone to remove the actual antagonist from her hand.
+- **MAIN** owns Daya's caught-in-4K scene because it thickens an existing person across roles and eras rather than needing a duplicate incident page.
+- Oyasumi, Snow, Anthos, HyaLuna, Sycee/Lilly, and other corroboration were reconciled against richer owners or held behind attribution/image boundaries instead of being mirrored mechanically.
 
 ## Verification / deployment
 
-- WIKI reader-content commit `f4fd082edbc373d4655be7c2fa4d5f88ecd606da` passed both existing workflows: **Build Underlords Wiki** and **Deploy Underlords Wiki Preview**, including the Pages build/deploy/report path.
-- MAIN reader-content descendant `083b1635ea9e96b88b3c2ea477e8275024361052` passed the complete existing **UL Hourly Build + Deploy** workflow: source canon/architecture verification, Astro build, built-output verification, exact Cloudflare deployment, and production verification all succeeded.
-- Final state/report descendants are verified after this state commit so concurrent work is not overwritten.
+- WIKI reader-content commit `b8f766d6244b4acf72b2935775568c2ffaad2d19` passed **Build Underlords Wiki** and **Deploy Underlords Wiki Preview**, including the Pages build/deploy/report path.
+- MAIN reader-content commit `b382f5cc82060c445e4edaf63404ed8e59daf97f` passed the complete existing **UL Hourly Build + Deploy** workflow: source canon/architecture verification, Astro build, built-output verification, exact Cloudflare deployment, and production verification all succeeded.
+- Final state/report descendants are verified separately after durable closure so concurrent work is not overwritten.
 
 ## Unresolved / protected
 
-- NemeMoka shop/platform, compensation, ownership, exact item inventory, and `the dude`'s formal role;
-- DiStratus/Torr object-level media provenance;
-- Aizzy numeric age;
-- Marsy recruiter/inviter identity;
-- Woohyuk `PANCAKE ASS` origin;
-- Nhou conflicting historical age strings;
-- any uninspected image's MADE BY / CAPTURED BY / FEATURING claims;
+- exact Daya 1 p.m. activity;
+- any uninspected screenshot/image contents;
+- HyaLuna exact camera/staging/source mechanics beyond the explicit `photo` / `edit` credit split;
+- Bailey current age from the historical `Tipp 17` self-report;
+- chronic-insomnia claims from one bedtime scene;
+- unsupported MADE BY / CAPTURED BY / FEATURING promotion;
 - any literalization of Sycee/Lilly's one-scene possessive language into romance, ownership, exclusivity, or a formal protector role.
