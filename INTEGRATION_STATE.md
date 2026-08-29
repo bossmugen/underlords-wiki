@@ -2,11 +2,13 @@
 
 Last dual-surface integration pass: **2026-08-28 23:43 PDT**.
 
-Full pass detail is durable on MAIN under `archive-intake/INTEGRATION_PASS_2026-08-28_2343_DUAL.md` once the final bookkeeping commit lands. Prior rolling states remain in Git history.
+Full pass detail is durable on MAIN under `archive-intake/INTEGRATION_PASS_2026-08-28_2343_DUAL.md`. Prior rolling states remain in Git history.
 
 ## Census / queue
 
-The mandatory full census found **26 miner branches**. The finite queue is **0 pending / 0 backlog / 0 review-overdue** through the finite heads reviewed this run. Core Rooms and Wall remain cumulative recovery tracks with `last_consumed_sha: null` because older safe-baseline packages still exist. Living Ensemble remains consumed through `66c3227c687965a4dae9b372fdcbe2dc128611ba`; Club-Only 2020 through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`; Club-Only 2021–2026 through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`.
+The mandatory opening census found **26 miner branches**. A closing census caught a newly created **27th** branch, `archive-miner/all-characters-hr-20260828`; MAIN registered it immediately with null consumed SHA / pending status before review, then compared it from its safe creation baseline. Its HEAD `12d92d67998e247380bcb61c01b93d2277a22d45` was identical to the merge-base with zero branch-specific commits/files, so that no-op baseline was consumed cleanly and future miner work will diff from that SHA.
+
+Final finite queue is **0 pending / 0 backlog / 0 review-overdue** through the reviewed heads. Core Rooms and Wall remain cumulative recovery tracks with `last_consumed_sha: null` because older safe-baseline packages still exist. Living Ensemble remains consumed through `66c3227c687965a4dae9b372fdcbe2dc128611ba`; Club-Only 2020 through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`; Club-Only 2021–2026 through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`.
 
 ## Finite review closure
 
