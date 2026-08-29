@@ -29,6 +29,15 @@ export const wallIntegratedEpisodes: Episode[] = [
     cast: ["Woohyuk", "Mugen", "Ren"]
   },
   {
+    id: "milo-thought-no-one-seen-that",
+    title: "Milo Thought Nobody Saw That",
+    season: "2020",
+    date: "December 15, 2020",
+    kind: "Wall exposure / the defendant learns Gilli had eyes on the scene",
+    logline: "Gilli posts a screenshot, waits ten seconds, and tags Milo directly. Milo answers twenty-two seconds later: `You mf ... haha thought no one seen that`. The message is edited sixteen seconds after posting, so the export only preserves Milo's final wording; whatever the first draft said stays gone. Four laughing reactions land on the surviving version, and Mugen follows with a binoculars/bird-watching GIF. The scene works without opening the screenshot: Milo supplies the embarrassment himself. He thought the moment had escaped notice; Gilli had already converted it into Wall evidence, and Mugen's immediate response is basically surveillance equipment. The screenshot remains visually uninspected, so Gilli is POSTED BY only. CAPTURED BY, MADE BY, FEATURING, and the exact thing Milo believed nobody saw remain unresolved.",
+    cast: ["Milo", "Gilli", "Mugen"]
+  },
+  {
     id: "rummy-chose-the-chicken",
     title: "Rummy Chose the Chicken",
     season: "2022",
