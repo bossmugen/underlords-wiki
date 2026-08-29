@@ -1,55 +1,57 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration pass: **2026-08-29 00:18 PDT**.
+Last dual-surface integration pass: **2026-08-29 00:30 PDT**.
 
-Latest full pass detail is durable on MAIN under `archive-intake/INTEGRATION_PASS_2026-08-29_0018_DUAL.md`. Prior rolling states remain in Git history.
+Latest full pass detail is durable on MAIN under `archive-intake/INTEGRATION_PASS_2026-08-29_0030_DUAL.md`. Prior rolling states remain in Git history.
 
 ## Census / queue
 
-The mandatory full census found **27 miner branches** and MAIN persisted every seen head before deep review.
+The mandatory full census found **27 miner branches**, and MAIN persisted every discovered head before deep review.
 
-`archive-miner/all-characters-hr-20260828` is durably consumed through `309d7003506b51f4925708ff3f52f14aa17ac3a3` after checkpoint-first, intake-only review across concurrent integrator work. Closing census caught a newer branch head at `c34d13939784d424510e547d73bdf5459a10062c`; that `309d7003… -> c34d1393…` delta is **seen but not consumed** and remains pending for fair rotation.
+This pass successfully reviewed three evidence deltas:
 
-Closing finite queue: **1 pending / 0 backlog / 0 review-overdue**. Core Rooms and Wall remain cumulative recovery tracks with `last_consumed_sha: null` because older safe-baseline material still exists. Living Ensemble remains consumed through `66c3227c687965a4dae9b372fdcbe2dc128611ba`; Club-Only 2020 through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`; Club-Only 2021–2026 through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`.
+- `archive-miner/all-characters-hr-20260828`: `309d7003506b51f4925708ff3f52f14aa17ac3a3 -> c34d13939784d424510e547d73bdf5459a10062c`; successful no-public-change review, now consumed through `c34d1393...`.
+- `archive-miner/daycare-2020-2026-hourly`: `d3c309506e59ace80fcbaadd61d39244f0b25cc8 -> 72091d755863ed412921d2414765d19d3cf3b72e`; successful no-public-change review, now consumed through `72091d75...`.
+- `archive-miner-wall-hourly-20260824`: newer recovery material reviewed through `dda0e244cd100654d32fdf8a868588b2c3291a15`; Wall remains cumulative/null-consumed because older safe-baseline material still exists.
 
-## Public keeper — Roach / Roachy / Roachable
+Closing finite queue: **1 pending / 0 backlog / 0 review-overdue**. Louvre remains pending at `2cdb1e702f2e537a89f4dcc3d7d88d2759e435e2` versus consumed `33e9f41723d1ae1e56efa2897c98d6b843a58de0` and is next in fair rotation.
 
-WIKI now owns **Roach / Roachy / Roachable** as a Running Gag. Ren supplies the current earliest surviving January 14, 2021 `become roach with Reaper` metaphor; Gilli turns it into `To Roach or Not to Roach : A list` with `too Roachy to aim for` / `possibly Roach`; Anayss immediately derives `roachable`; later scouting escalates the species into `radioactive roaches` and `Roaches that bench press 220`; by September `roachy` has reached a proposed member-facing brief.
+Closing census also caught late cumulative movement rather than losing it: Core Rooms is seen at `93b2978d1d42e1aaae97bba1040652f5e1742cdf`, ahead of its older reviewed frontier, and Wall is seen at `dfbe07e861a8c527382be14b86b5c52bcdd2b33f`, ahead of this pass's reviewed `dda0e244...` frontier. Both late deltas remain visible and unreviewed. Living Ensemble remains fully consumed; Club-Only 2020 and Club-Only 2021–2026 remain fully consumed through their current heads.
 
-The public boundary is explicit: this is shared joke vocabulary, not a formal tactical classification system, and January 14 is earliest surviving in the reviewed corpus rather than a creation date. MAIN owns the richer scene-by-scene lore genealogy; WIKI keeps the compact reference version instead of mirroring MAIN prose.
+## Public keeper — The Kitchen Evidence Room
 
-WIKI content commit `f3b1c77e7fa12b35082251fbdfa2c1acfb7d224a` passed both existing pipelines on that exact commit: standalone Astro build run `33240157300` and Pages build/deploy/report run `33240157343`.
+WIKI now owns **The Kitchen Evidence Room** as a bounded July 7, 2021 episode.
 
-## Concurrent Core recovery preserved
+Baby Lyssa opens with `this is my house y’all just livin in it`. Marian immediately reopens an older charge: `ayo, you're the one who told me i was slackin`. Lyssa finally specifies the offense — `yes you didn’t clean the kitchen` — and the hearing devolves into the exact domestic accounting nobody asked for: Marian says they are Lyssa's dishes; Lyssa says Marian's food was on them; Marian closes with `you cooked it`.
 
-Core recovery moved backward into the older 2026-08-25 14:46 safe-baseline package. The new public keeper is the October 9, 2020 **Sycee ↔ Lilly** Wall scene: Sycee starts with `Mine!`, then five minutes later worries Lilly may be mad; Gilli answers `you just looking out for her`, names Lilly, and Anthos joins the worry. The local `her` referent is safely Lilly at scene level. It is concern beneath theatrical possessiveness, not literal ownership, romance, exclusivity, or a permanent protector role.
+Then Mugen wanders through an hour later, sees that the Wall is now producing crimes and testimony in the same room, and says `Yall can just talk here and we won't even need ss`.
 
-WIKI owns that evidence family as the compact Bonds card **Sycee ↔ Lilly — Mine! ...Wait, Is She Mad?** in `src/pages/relationships.astro`; MAIN owns the richer Lilly-biography version. WIKI commit `c3baceb6757712bb5def1a6c12ef1dd597ffa95d` is a direct child of the Roach commit, preserving both changes, and passed standalone build run `33240213965` plus Pages run `33240214103`.
+The funny part is not that UL had a kitchen argument. It is that the evidence-storage room briefly eliminates the need to transport evidence at all. Defendant, prosecutor, household jurisdiction, dishes, food provenance: everybody is already standing inside the case file.
 
-Core branch head remains `a0560fccb869aa8a56105d9bf95429fd1878dca2`; older safe-baseline recovery remains, so `last_consumed_sha` stays null. Nhou's repeated-Lobby chronology is a provenance guardrail rather than a first-join claim; its `18` versus `33M` numeric self-report conflict remains unresolved. Ritha's Tower of God material was deduplicated against richer existing ownership. Oyasumi/Ansun `unsellable items` mechanics and `Gilli's Pond` / `Gilli's Pie` origin remain unresolved.
+The exact earlier source-room use of `slackin` remains unrecovered. Tofu posted an image immediately before the exchange, but that binary is uninspected; POSTED BY does not become MADE BY, CAPTURED BY, or FEATURING.
 
-## Wall recovery continuation
+WIKI content commit `345d5f1d04bc7f79b295a5c75d04c91dc29af377` passed both existing exact-commit pipelines: standalone Astro build run `33240889077` and Pages build/deploy/report run `33240889065`.
 
-Wall remains reviewed through current head `65110804605264d499101362f1e7bd33547f5c5c`, and this pass also continued the older safe-baseline recovery through the **2026-08-25 01:46** package.
+## MAIN owns the wider Wall mutation
 
-Mia/Momo's reciprocal `twinsss` / `Mimi’s twin` language and Oyasumi's repeat Wall-as-case-file cadence were already represented by richer current MAIN character owners, so WIKI did not clone them into redundant episodes. Mean Tree's `at it again` line is corroboration that recurrence was already socially legible by December 2020, not an origin claim. Wall `last_consumed_sha` stays null until the older baseline is actually exhausted.
+MAIN's canonical Wall exhibit carries two related pieces of the room's evolving machinery rather than mirroring WIKI's bounded episode copy.
 
-WIKI continues to own **He Died on the Stairs Again** from the newer Wall package. Its boundaries remain unchanged: the first stair-death incident and screenshot visual/provenance are unresolved.
+On March 13, 2021, after Ren files an uninspected image and Baby Lyssa begs for deletion, Lyssa says `THATS THE SECOND TIME TODAY`. Ren answers `Everyone has a spot on the wall of shame-fame OWO`, then `one of us`, then `ONE OF US`. Lyssa accuses Ren of simply waiting for material and pantomimes `*click*`; Ren's defense is `If only you could see all my ss I have`.
 
-## All-character material banked for canonical owners
+The line `THATS THE SECOND TIME TODAY` safely proves at least two catches/filings that day. It does **not** safely bind the earlier noon `NOT AGAIN` cluster as the counted first event. MAIN then carries the July Kitchen Evidence Room as the next step: the archive room starts generating the evidence live.
 
-The reviewed person-first handoffs include genuinely additive material that should land through canonical biographies rather than generic catch-all pages: Gilli's intimidating-first-impression→affectionate-after-approach arc, tiny care rituals, love-language self-report, and blunt `Two-Faced. Instant block.` friendship boundary; Ansun's early quiet/text-only VC posture before becoming socially loud online plus patient Phantom tutoring later remembered as rainbow math; Ren's duck-with-ducklings self-image, fast-talker/listener pairing, and explicit boundary against dismissing real hurt as `just a joke`.
+MAIN content commit `46d5a5e4d8814f476fcf9689cd093f40a9c2d78d` passed source canon/architecture verification, Astro build, built-output verification, and exact Cloudflare deployment in workflow run `33240880990`.
 
-Those receipts are reviewed and not forgotten. The miner is still actively expanding, so the newer delta remains pending instead of being silently treated as consumed.
+## Reviewed but intentionally not published
 
-## Finite branches already closed
+The all-character delta's best additive HyaLuna material is banked for her canonical biography: a later Poster Dump retrospectively credits the March 2020 first poster with HyaLuna `photo` and Gilli `edit`, and people say they miss Luna when the artifact resurfaces. `photo` remains exactly the source wording; it is not silently upgraded to MADE BY or CAPTURED BY. The broad person-first miner is still expanding, so this did not need a premature duplicate public object.
 
-`archive-miner/mugen-person-first-20260828` remains consumed through `615dcbcb75ec5cbce58739b58d5e42502d540430`; its strongest late material was already represented by richer public owners.
+Daycare's new ShiyaX work-dispatch chronology is already represented more richly on MAIN, including the exact `Where tf am i , send help` receipt. Rooks' supporting-room care/memory sequence still does not provide direct Daycare dialogue. The new pre-Daycare `@Platelet` access-restoration receipt advances backend role semantics only: it does not prove adult Platelet assignment, individual historical role holders, or later Daycare ACLs.
 
-`archive-miner/whiskey-longitudinal-hourly` remains consumed through `55bd3d3bf82ec682ad0220a9086a2310ad2cfe3d`; WIKI's canonical episode data owns **Lena Gets All Access** and **Cinders Comes Back as Juniper**. Exact Lena role/recruiter path/current age, ACORYUIE return mechanics/exact role/name semantics/Brynnderella bridge, and Ricochet ↔ Rich technical closure remain unresolved.
+Wall's Bailey_Babe delayed receipt, BeaEder phone archaeology, and Dainyamite mint-chocolate scene remain thin/developing person material instead of instant dossiers. `B.O.B CRIIIIMME` remains unresolved; no acronym was reverse-engineered from a height screenshot.
 
 ## Holds carried forward
 
-All-character newer delta after `309d7003`; Nhou numeric self-report conflict; Oyasumi/Ansun unsellable-item mechanics; `Gilli's Pond` / `Gilli's Pie` origin; Wall fountain-of-youth image context; Eos/Marian `our two childs` targets; missing bot parent; WOO→Nobu `TRAITOR` cause; Sye `mating ritual` context; first Mean Tree incident; Oyasumi's first stair-death and screenshot visual/provenance; and all other older Core/Wall safe-baseline gaps.
+Finite Louvre delta `33e9f417... -> 2cdb1e70...`; Core late movement through `93b2978d...`; Wall late movement `dda0e244... -> dfbe07e8...`; older Core and Wall safe-baseline gaps; HyaLuna `photo` attribution strength; Baby Lyssa's unjoined noon/evening same-day catch relationship; exact earlier `slackin` source-room line; Bailey/Bea uninspected images; `B.O.B CRIIIIMME`; adult honorary Platelet literal-role proof; and all previously unresolved visual/provenance rabbits.
 
 Similar names do not create identities. Current/export role arrays do not create appointment chronology. Joke family/romance/possessive language does not become literal biography. Earliest surviving remains earliest surviving, not origin. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain separate.
