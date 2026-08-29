@@ -1,49 +1,53 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration pass: **2026-08-29 08:46 PDT**.
+Last dual-surface integration pass: **2026-08-29 09:24 PDT**.
 
 Full branch-level consumption state is durable on MAIN in `archive-intake/INTEGRATOR_BRANCH_STATE.json`; prior rolling wiki states remain in Git history.
 
 ## Census / queue
 
-The mandatory census enumerated **28 active remote miner refs + 21 historical/missing refs = 49 tracked branch identities** before deep review. The two finite branches visible at the 08:41 boundary have now both been reviewed successfully: **All Characters** is consumed through current `919ceb68…`, and **Mugen person-first** is consumed through current `99ccd6f8…`. Closing finite queue is therefore **0 pending / 0 backlog / 0 review-overdue**. Core Rooms and Wall remain the two cumulative recovery tracks with formal `last_consumed_sha: null`; both Club-Only miners remain fully consumed/current. No miner branch was merged or cherry-picked wholesale.
+The mandatory opening census enumerated **28 active remote miner refs + 21 historical/missing refs = 49 tracked branch identities** before deep review. No miner ref exists only in the wiki, and no miner branch was merged or cherry-picked wholesale.
 
-## All Characters — Rose's dream kitchen gets an adult correction
+The selected finite review, **All Characters**, was read checkpoint-first and intake-only from consumed `919ceb68…` through `defce808…` and is accepted as a successful no-public-change review. A late-moving **Daycare** suffix was also reviewed checkpoint-first through `981e31d9…` and is duplicate/methodology-only. At the closing census, **Whiskey** advanced after its prior consumed frontier to `a88320bf…`; it is therefore the one finite `pending_review` branch rather than being silently swallowed. Closing finite queue: **1 pending / 0 backlog / 0 review-overdue**. Core Rooms and Wall remain cumulative recovery tracks with formal `last_consumed_sha: null`; both Club-Only miners remain fully consumed/current.
 
-`archive-miner/all-characters-hr-20260828` is now reviewed checkpoint-first and intake-only through current head `919ceb68…`. The earlier selected cutoff had already added Rose's Wall self-cross-examination — `But I am innocent` → `Kind of` → `Okay may be not that much` — to MAIN. The remaining suffix sharpened the ordinary-life read instead of manufacturing another incident.
+## Wall — I Guess I Got Homework
 
-Rose's dream-kitchen answer is extremely specific about capacity: industrial refrigeration, blast chiller, dry-aging cabinet, double convection oven, work surfaces, baking/storage equipment. The new person-first handoff supplies the missing reason not to romanticize that competence. Rose says she spent **years in food service**, that cooking professionally for so long can make cooking feel like a chore, and she explicitly rejects the fantasy of opening a food business.
+Wall's forward handoff was reviewed from the prior `e6b57359…` frontier through `37970962…`. The keeper is a July 30, 2024 TonyTonyChopper scene. Tony posts an image under `wait I can explain!!`; Mugen answers `lol be sure to crop next time before posting xD`. Tony does not retreat. He turns the accident into a Sanji defense brief — `The proof is questionable but it's there`, then `Hey it looks like Sanji has a preference okay`. Mugen escalates the defense into an assignment by suggesting he get Muffin into it too; Tony accepts with `Well damn I guess I got homework`.
 
-That changes the texture in a useful direction. Knowing exactly what a serious kitchen needs does not mean Rose wants dinner turned into another shift. MAIN's biography now owns that competence-versus-obligation correction while keeping the evidence narrow: years in food service is supported; chef title, culinary credential, employer, restaurant history, and entrepreneurship are not.
+The tiny turn is why this belongs as an Episode: Tony enters already linguistically on trial, gets the obvious crop correction, and converts embarrassment into collaborative research instead of ending the scene. WIKI now owns **I Guess I Got Homework**. MAIN's Tony biography already owns the person-shaped version, so copying the whole incident there again would be historical spam.
 
-The rest of the suffix was reconciled without duplicate publication. HamitteY's friendship/evidence joins, New/Newmal's cultural-learning arc, Nothien's helper/return material, Panda's dry verdict, Pride's `Ansun is the poster child of UL greatest hits`, SaraBunny's authenticity jokes, Xephy's honest memory calibration, Yaza's direct affection/questioning, and ShiyaX's distribution/privacy judgment either already have stronger owners, remain image-dependent, or are better held than flattened. The miner's own ledger still says no character is exhausted at the current archive boundary; the integrator therefore consumed the reviewed delta without pretending the quarry itself is finished.
+The image remains visually uninspected. Tony is **POSTED BY** only. MADE BY / CAPTURED BY / FEATURING, the crop's exact contents, and any visual claim about Sanji or Muffin remain unresolved.
 
-## Mugen person-first — sometimes the Boss needs the railing pointed out too
+Wall moved again after review to seen `41ffc4f0…`; that newer suffix is not reviewed here. Wall therefore remains `recovery_in_progress` with formal consumed SHA null.
 
-`archive-miner/mugen-person-first-20260828` was reviewed checkpoint-first and intake-only from `4177d362…` through current `99ccd6f8…`. The strongest new contradiction is a November 27, 2020 Wall scene recovered through Woosung's people file: Mugen keeps pressing Nobu for a picture after a refusal is already in the social record; Ren says **`he already said no, boss`**; WOO repeats **`he said no thanks`**; the pressure stops.
+## All Characters — reviewed, not republished
 
-That is materially better than polishing Mugen into somebody who always spots the boundary first. The title sitting inside Ren's correction matters: `boss` does not make the no softer, and the surviving sequence does not show rank being used to keep the pressure alive. But the current miner handoff explicitly labels this as a secondary already-mined join and asks for the raw Wall sequence before screenshot/public promotion. So the integrator records the contradiction and consumes the delta without laundering a secondary receipt into a finished public scene. No apology is invented; cessation is all the surviving sequence earns.
+The `919ceb68… -> defce808…` Platelet-focused suffix was fully reconciled. Dean/Beansprout's long family continuity and dream-haunting language, Ryo's Moon invitation and first-Wall repair, and Zoshaa's house-language-to-maker progression are already materially richer on their canonical MAIN owners. Kiro/Scar/Dyingfox/Tae/Candy/Cele rails either corroborate existing owners, depend on uninspected media, or carry identity/privacy fences that should not be flattened for novelty's sake.
 
-Smaller rails were also reviewed: Woosung's `mugs is my daddy granny` is fictive-family mutation, not genealogy; Ghostt saying Ghoulie lives on the Wall prompts Mugen to ask where the rent is, immediately turning metaphor into municipal nonsense; Mugen and Ritha all-caps/`uwu` hello each other and go straight back to Tower of God adaptation talk; Mugen asks Yumi `because it hits close to home or?`, leaving Yumi room to confirm the personal resonance herself. The `absorb them into us` → `VORE` joke stays held because the target behind `them` is unresolved.
+Important boundaries remain intact: Scar and Scarletsnow are separate people; later Candy/Luna is not HyaLuna; Dyingfox's `Gilli's Pond` origin is unresolved; Tae's furry-image material remains uninspected; Cele's exact intake-age detail is not publicized merely because it exists in evidence.
 
-## Core Rooms — recovery continues honestly
+## Daycare — the bot says welcome; the humans say welcome back
 
-Core's forward `31d02597… -> df27f7ef…` suffix has been reviewed. It is checkpoint synchronization around already-reviewed Em/Em.xd evidence and adds no stronger public claim. The older safe-baseline recovery is durably recorded through the **2026-08-25 19:46 package**; **18:46 and below are next**. Core's formal consumed SHA remains null until that cumulative recovery actually closes.
+Daycare's late `70690db0… -> 981e31d9…` suffix was reviewed after the closing census exposed it. The strongest Kiro receipt is already public on MAIN: MEE6 welcomes the same stable account again, Mugen answers `Hey gummy bear! You know the drill`, finds the lost copied form, and closes with `welcome back gummieeees`. The useful point is not a new public story; it is a brake on bad chronology. Automated welcome output is not proof of first-ever arrival, and the surviving sequence still does not tell us why the bot fired again.
 
-The strongest bounded keeper from that recovery remains **The Wrong Feli**. Degen Rat enters Lobby; Mugen says `FINALLY FELI`; Degen Rat has to explain she is unfortunately not Feli; roughly twenty minutes later the actual stable Feli account arrives and Mugen finally gets `thereeee we go xD`. MAIN Feli already owns the person-shaped version, so WIKI keeps the incident-shaped episode. `FINALLY` proves expectation, not recruiter, first-ever contact, or in-game admission chronology. Degen Rat and Feli remain distinct.
+faoaf's same-day `Soulmates` Lobby self-report plus one Daycare message strengthens social-permeability evidence without proving technical ACLs or a Platelet assignment. No new reader-facing object was accepted from this delta.
+
+## Core Rooms — recovery moved backward
+
+Core's current branch moved after review to seen `d0dee0fd…`; its newest suffix is not consumed. The forward handoff is reviewed through `df27f7ef…`. The older safe-baseline recovery also reviewed the **2026-08-28 18:47 package** checkpoint-first. Its DarkAsrai/Rose doorway, `R O S E`, setup routing, red-telephone/red-whip bits, and apartment-noise context are already richer on MAIN's Rose biography, so this package is duplicate/corroboration rather than another Rose object. Core's formal consumed SHA remains null until the cumulative baseline genuinely closes; the next older package is below 18:47 and must be resolved from the branch checkpoint rather than guessed.
 
 ## Reconciliation / held material
 
-- **MAIN-only this pass:** Rose's food-service / anti-hustle correction, because the additive value is ordinary-adult biography rather than a discrete fandom-wiki incident.
-- **WIKI reader-facing this pass:** no new object was forced from the later All-Characters or Mugen deltas. The already-integrated **The Wrong Feli** remains the recovery-side Wiki keeper; mirroring Rose or publishing the secondary Nobu receipt would make the surfaces worse, not richer.
-- **Duplicates/corroboration:** HamitteY, New/Newmal, Nothien, Panda, Pride/Ansun, SaraBunny, Xephy, Yaza, and several Mugen fake-family/house-humor rails were reviewed without spawning historical duplicates.
-- **Held:** the raw Nobu refusal sequence and opaque image; SaraBunny/HamitteY image readings; ShiyaX material whose own evidence counsels against wider circulation; New's precise pre-Discord chronology; Nothien appointment chronology; the `VORE` target; Yummibears↔Yumi adjacency; all visually uninspected attachments.
-- POSTED BY / MADE BY / CAPTURED BY / FEATURING remain separate. Earliest surviving evidence is not promoted into origin, and exporter-current role arrays do not become historical appointment timestamps.
+- **WIKI-only reader-facing keeper:** **I Guess I Got Homework**, because the new value is a bounded incident with reversal and punchline; MAIN Tony already owns the person-shaped scene.
+- **MAIN reader-facing changes this pass:** none. The reviewed All-Characters, Daycare, Syv, and Rose/DarkAsrai material was already richer there.
+- **Duplicates/corroboration:** Dean, Ryo, Zoshaa, Kiro, Syv, Rose/DarkAsrai, plus several Platelet/Daycare methodology rails.
+- **Held:** Tony's image pixels/provenance beyond POSTED BY; Soy/EastSussex23's shark image; Scar↔Scarletsnow identity separation; Dyingfox nickname origin; Tae's uninspected furry image; Core's thin Voice Challenge fragment; the late unreviewed Wall/Core/Whiskey suffixes.
+- POSTED BY / MADE BY / CAPTURED BY / FEATURING remain separate. Earliest surviving is not origin. Export-current role arrays do not become appointment history.
 
 ## Verification / deployment
 
-MAIN reader-facing Rose food-service commit **`f54e2925644eac8b9da5668b06d9fba276744871`** passed the complete existing **UL Hourly Build + Deploy** pipeline on that exact commit: source canon/architecture verification, Astro build, built-output verification, and Cloudflare production deployment all succeeded. MAIN's consumption-state commits are direct descendants and preserve that verified public change.
+WIKI reader-facing commit **`8f2fe31b5d4d350f8ba290843f68c4b7c348b5ed`** passed both existing workflows on that exact commit: **Build Underlords Wiki** succeeded, and **Deploy Underlords Wiki Preview** completed its Pages build/deploy/report chain successfully.
 
-WIKI's previously accepted **The Wrong Feli** reader-facing commit `aa788187d6889dc582e1ca494424bd50eb9dfcfb` already passed its existing build/deploy workflows. This rolling-state commit adds no reader-facing wiki object; it records the now-completed finite reviews and must itself clear the wiki's existing Astro/Pages workflows before this pass is finally closed.
+MAIN has no reader-facing content change from this pass; MAIN's durable state/report commit must still clear its full existing source verification, Astro build, built-output verification, and Cloudflare deployment before the run is closed.
 
-The useful character correction from this tail is gloriously adult: **Rose can know exactly what belongs in an industrial dream kitchen and still look at the suggestion that she monetize cooking forever like, girl, I already did the shift.**
+The scene summary remains brutally efficient: **Tony posted `wait I can explain!!`, got told to crop next time, and somehow walked out of court with homework.**
