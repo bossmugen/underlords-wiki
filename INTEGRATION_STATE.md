@@ -1,64 +1,54 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration pass: **2026-08-29 07:55 PDT**.
+Last dual-surface integration pass: **2026-08-29 08:20 PDT**.
 
 Full branch-level consumption state is durable on MAIN in `archive-intake/INTEGRATOR_BRANCH_STATE.json`; prior rolling wiki states remain in Git history.
 
 ## Census / queue
 
-Opening census for this continuation enumerated **28 active remote miner refs + 21 historical/missing refs = 49 tracked branch identities** before deep review. The finite queue is **0 pending / 0 backlog / 0 review-overdue**. Core Rooms and Wall remain the two cumulative recovery floors with formal `last_consumed_sha: null`; both Club-Only miners remain fully consumed/current. No miner branch was merged or cherry-picked wholesale.
+The mandatory full census enumerated **28 active remote miner refs + 21 historical/missing refs = 49 tracked branch identities** before deep review. At this review boundary the finite queue is **0 pending / 0 backlog / 0 review-overdue**. Core Rooms and Wall remain the two cumulative recovery tracks with formal `last_consumed_sha: null`; both Club-Only miners remain fully consumed/current. No miner branch was merged or cherry-picked wholesale.
 
-## Mugen person-first — Rooks already has the screenshot shift
+Late movement is preserved rather than hand-waved away: Core is now seen at `df27f7ef…` after the reviewed `31d02597…` forward handoff, and Wall is seen at `f292466b…` after its previously reviewed `e6a560a9…` frontier. Those newest suffixes are **seen, not consumed**.
 
-`archive-miner/mugen-person-first-20260828` advanced from consumed `e5df362e…` to `4177d362…` and was reviewed checkpoint-first, intake-only. A miner-side edit to `src/content/people/mugen.md` was deliberately ignored because public-path miner edits are not evidence handoffs; the publishing branches were reconciled independently.
+## All Characters — consumed through the moving target
 
-The strongest incident keeper is a March 13, 2021 Wall exchange. Rooks posts an attachment. Mugen true-replies: `I was gonna ss it lmao then I thought nah rooks wouldnt miss this for the world`. Rooks answers `uwu cant hide from me`, posts another attachment, Baby Lyssa yells `OH MY GOD`, and Mugen later captions the burst `Saturday morning at the UL strip club feat. @Baby Lyssa`.
+`archive-miner/all-characters-hr-20260828` moved repeatedly during the run. The integrator reviewed the original `196f9579… -> c7036114…` movement, then the Pride-focused `c7036114… -> d45ef943…` suffix, then the final receipts-only `d45ef943… -> bb8fc183…` suffix checkpoint-first and intake-only. MAIN now records `last_seen_sha = last_consumed_sha = bb8fc183…`.
 
-The tiny relationship tell is Mugen deciding **not** to duplicate the evidence. She knows Rooks's reflex well enough to assume the screenshot shift is covered. WIKI owns this as Episode **Rooks Has the Screenshot Shift Covered**. That is distributed evidence-catching and dyad familiarity, not an administrative delegation. Both Rooks attachments remain visually uninspected, so POSTED BY Rooks does not become MADE BY, CAPTURED BY, FEATURING, or a description of the pixels.
+The reviewed HamitteY, Jas, New/Newmal, NemeMoka, Panda, and Pride material was duplicate/corroboration-only against richer current MAIN person owners. Pride's `everyone gets exposed`, `They are always watching`, habitual sip/tea spectator posture, Rooks's `you can't hide`, Raja-grind fatigue, and the later `lost Pride's body` callback are already woven into MAIN's Pride biography. The final receipt bank only substantiated those same claims, so WIKI did not manufacture another object merely to prove that the receipts exist.
 
-MAIN gets the complementary person-sized scrap instead. Before 5 a.m. on September 15, 2020 Mugen says `craving chicken nuggets thanks to zoshaa and zepp`, then nine seconds later adds `havent had them for years but`. The funny part is not a newly invented favorite-food canon; it is that Zoshaa and Zepp have somehow reactivated a snack she says she had not eaten in years before sunrise. The missing setup remains missing, so the site does not claim what they did to trigger it.
+## Core Rooms — Thank You as Always
 
-Other reviewed Mugen material stayed held rather than becoming public clutter: reciprocal `eli kiss` commands with Ten do not establish romance; Kiro's `gummy bear` / `gummieeees` return language does not establish an onboarding mechanism; Mugen telling Mia a hook could come from `any dumb thing we've said` in Wall is creative taste, not a formal branding doctrine.
+Core's new `08:03` forward handoff promoted **Em / Em.xd** from queue-only to thin-but-high-signal. The 2020 Lobby door is already socially warm before role assignment finishes: Mugen opens with `emmm babyyyy`, Em says `Thank for the invite 💕`, Ren erupts with `Em!!!`, and only after that does Mugen finish the Discord role assignment. That is recognition before processing, but it does **not** identify the inviter or establish an in-game UnderLords admission date.
 
-WIKI reader-facing commit `70d041875c15cdc60fba00d48de37ca964b01587` passed **Build Underlords Wiki** run `33258420742` and the full Pages build/deploy/report chain in run `33258420755` successfully.
+The stronger bounded scene is April 21, 2021. Em says `I might be returning to raja soon- my college semester is ending in two weeks, so I’ll have more free time again aaaAa` and tags Mugen. The room reacts with hearts / ZeroYay / HYPED. Hours later Mugen true-replies `Yaaaas`, then pivots immediately from the game to the real thing Em has to finish first with edited-final `Good luck with exams!`. Em true-replies `Thank you as always 😖💗💗💗`.
 
-## Wall recovery — the 07:06 suffix is reviewed, not immortal
+That `as always` is the little hinge. Em herself frames Mugen's support as familiar, but the archive does not get to invent the missing prior support scenes. Likewise `might be returning` stays tentative: this is not a comeback decree, an absence-duration claim, or a loyalty test. The social behavior is simpler and better — yay, come back when you can; also go pass your exams.
 
-The previously seen Wall suffix `235b32a8… -> e6a560a9…` was reviewed checkpoint-first and intake-only. It produced useful but not publication-sized person texture for Usama: a July 18 sequence of `lmao` → `private hoes ig` → `nvm me` → skeptical emote, and a July 21 callback that `key was asking Sushi yesterday too lol`. Because those messages have no structural reply/mention pointer to the nearby screenshot, the wiki does not pretend to know exactly what Usama was commenting on or resolve plain-text `Sushi` to a person.
+WIKI owns this as Episode **Thank You as Always**, added in reader-facing commit `5ac6ef25ed3efcc67f4a6a68258e74a271e86f3e`. A later concurrent Feli correction on `main` descended cleanly from that commit, so the Em episode was preserved rather than overwritten.
 
-The same pass also closes a bad rabbit route: Gilli's `Don't make me spam you with the bot answers again` proves recurrence of a bot-answer bit, while Xuseio/Nobu later remembers Namo's `*try again*` as part of a `Finesse of a comedy duo`. The assigned Wall's literal-text route does **not** establish that these are the same incident or reveal the missing partner/mechanism. Generic keyword necromancy is therefore spent; the unresolved join needs the referenced parent/media or a real sibling-source callback.
+Core's same forward handoff also recovered a clean Oyasumi ↔ TankHead94 ↔ Underlords self-ID from 2022, but **not** the date of Oyasumi's full-Officer appointment. Exporter role arrays remain inadmissible for appointment chronology.
 
-No new public episode was accepted from this suffix. Wall remains cumulative recovery-in-progress because its older safe baseline is still open; its formal consumed SHA remains null even though the forward handoff is now reviewed through `e6a560a9…`.
+## Core older recovery — 20:46 package
 
-## Core Rooms recovery — The Vibe Here Is Very Nice
+The older safe-baseline recovery advanced through the **2026-08-25 20:46 package**; **19:46 and below are next**.
 
-Core's older safe-baseline review moved backward from the recorded **2026-08-25 22:46** frontier through the **21:46 package**.
+The package's FuentesKaede 2021→2023 continuity is real, but current canon and MAIN already own Kaede/FuentesKaede richly, so it stayed duplicate/corroboration-only rather than spawning another public retelling. The Tumbleweed parent created September 29 and edited October 19 is a useful provenance correction: final serialized family-tree rows are a living endpoint, not proof every row existed on September 29. Danny's `(claims them)` wording remains directionally ambiguous and undated, so the wiki does not decide who claims whom by vibes.
 
-The clean new WIKI keeper is **The Vibe Here Is Very Nice**. On September 25, 2020 Lanbo checks in as `Dan, underlords, over 18`, then tells Club Only exactly why he is there: `Im from s8`, `I came to see what other servers clubs are like`, and `S7/8 was pretty ded`. That afternoon he says he is going to see what 7Stars is like `for now`, but he has already done the daily donation, says `Ill most likely be back. The vibe here is very nice`, and drops `:worryThumbUp:`. Mugen reacts 😋.
+Core remains cumulative recovery-in-progress with formal consumed SHA null. Its newest `df27f7ef…` suffix is registered as seen but is not part of this review.
 
-The scene works because nobody needs fake loyalty theater. Dan is standing inside UL openly saying he is comparison-shopping clubs; the exit still arrives padded with dues already paid, a probable return, and a compliment. WIKI treats this as one person's porous, experimental affiliation scene — not proof that Lanbo returned, not a UL–7Stars alliance/rivalry event, not a reconstruction of server-transfer mechanics, and not an exact first-contact/admission date.
+## Wall / unresolved late movement
 
-WIKI reader-facing commit `576023d05920d9201e580a0079f116061add80e0` passed **Build Underlords Wiki** run `33258757322` and the full Pages build/deploy workflow `33258757331` successfully.
-
-The same 21:46 Core package contained three things that did **not** need another public owner:
-- Illien's `I'm not talking just to avoid distracting you 🙂` / Mugen `they can distract themselves just fine illien` scene is already richer on MAIN's Illien biography.
-- Shiki's `mug strip club hidden door` phrase mutates from discovery to directions on the same day, but the screenshot, exact `mug` referent, and literal-door meaning remain unresolved.
-- Mugen's `helllooo cali accent slipped` / `ahahaha` remains a one-off self-described voice fossil, not a phonetic or geography claim.
-
-Core therefore remains recovery-in-progress with formal consumed SHA null; **20:46 and below are next**.
+Wall's older recovery remains open through the recorded **2026-08-28 21:24** package, and the previously reviewed forward handoff remains through `e6a560a9…`. A later Wall move to `f292466b…` is already visible in MAIN state but remains unreviewed in this pass. Formal consumed SHA therefore stays null.
 
 ## Reconciliation / surface split
 
-- **MAIN:** Mugen's **chicken-nugget relapse** lives in her Petty Crimes/person-texture rail.
-- **WIKI:** **Rooks Has the Screenshot Shift Covered** owns the bounded screenshot-relay incident.
-- **WIKI-only this continuation:** **The Vibe Here Is Very Nice**, because Lanbo's evidence is a complete one-day scene with excellent episode value and not enough longitudinal material to manufacture a MAIN biography.
-- Illien's considerate self-silencing scene stays with his existing MAIN canonical biography rather than becoming a second WIKI retelling.
-- POSTED BY / MADE BY / CAPTURED BY / FEATURING remain separate. Earliest surviving evidence is not promoted into origin, and joke language is not literalized into romance, kinship, governance, or formal roles.
+- **WIKI-only this pass:** **Thank You as Always**, because Em's material forms a complete incident with emotional movement but still does not justify manufacturing a padded MAIN biography.
+- **MAIN-only/no duplicate:** HamitteY, Jas, New/Newmal, NemeMoka, Panda, Pride, and Kaede/FuentesKaede remain with their richer person owners.
+- **Held:** Em's inviter, exact in-game admission date, exact absence duration, unspecified earlier support scenes, exporter-derived Staff chronology; Oyasumi's officer appointment date; Danny's Tumbleweed claim direction/insertion date; newest Core `df27f7ef…` and Wall `f292466b…` suffixes.
+- POSTED BY / MADE BY / CAPTURED BY / FEATURING remain separate. Earliest surviving evidence is not promoted into origin, and exporter-current role arrays do not become historical appointment timestamps.
 
-## Remaining recovery
+## Verification / deployment
 
-- **Core Rooms:** forward handoffs reviewed through `f1642474…`; older safe-baseline recovery now reviewed through **2026-08-25 21:46**. **20:46 and below are next.** Formal consumed remains null.
-- **Wall:** forward handoffs reviewed through `e6a560a9…`; older recovery remains open through its recorded **2026-08-28 21:24** frontier. Formal consumed remains null.
-- **Finite queue:** clear at this reconciliation boundary.
+Reader-facing WIKI commit for Em: `5ac6ef25ed3efcc67f4a6a68258e74a271e86f3e`. This rolling state update follows it on the publishing branch after re-reading current `main`; exact-head Build Underlords Wiki and Pages workflow results are checked at run closure and recorded in the run report rather than guessed here.
 
-Dan walked into UL, announced he was literally shopping around, paid the daily donation anyway, told everybody the vibe was nice, and left a worried thumbs-up on the counter. That is not a defection crisis. That is a Yelp review with dues.
+The entire Em return scene can be summarized as: **Raja comeback? Yaaaas. Exams first? Also yaaas.** UL retention strategy apparently includes telling people to finish their homework before respawning.
