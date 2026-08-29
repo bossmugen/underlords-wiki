@@ -6,9 +6,11 @@ Full branch-level consumption state is durable on MAIN in `archive-intake/INTEGR
 
 ## Census / queue
 
-The mandatory opening census was persisted on MAIN before deep review, then repeated at close: **27 active remote miner refs** plus **21 historical/missing refs** = **48 tracked branch identities**. No active miner head moved between the opening and closing census.
+The mandatory opening census was persisted on MAIN before deep review, and the branch namespace was checked again at close: **27 active remote miner refs** plus **21 historical/missing refs** = **48 tracked branch identities**.
 
-Closing finite queue: **0 pending / 0 backlog / 0 review-overdue**. Core Rooms and Wall remain the two cumulative recovery tracks with `last_consumed_sha: null` because their older safe baselines are unfinished. Both Club-Only recovery branches remain fully consumed/current and were not reopened simply because the standing instruction still describes an older backlog state.
+A late final census caught `archive-miner/mugen-person-first-20260828` moving after this run's selected reviews, from consumed `67a9549e16959872c32820c335147d2a1388c260` to seen `5ca8dc87f09f25d513ceedb967d478fd9915036e`. That suffix is durably visible on MAIN and deliberately left **pending** for fair rotation rather than fake-consumed.
+
+Closing finite queue: **1 pending / 0 backlog / 0 review-overdue**. Core Rooms and Wall remain the two cumulative recovery tracks with `last_consumed_sha: null` because their older safe baselines are unfinished. Both Club-Only recovery branches remain fully consumed/current and were not reopened simply because the standing instruction still describes an older backlog state.
 
 ## Reviewed this continuation
 
@@ -44,7 +46,7 @@ The split is intentional: MAIN owns lived person chronology; WIKI owns the reusa
 
 Already richer on current public owners and therefore not republished: Ten's Lobby greeting, `if they die they die`, and his in-game Anthos-apprentice wording; Jordayy's already-public reading/disappearing, dog-catching, screen-share, and haircut material.
 
-Held rather than guessed: Jordayy Luna/Loona wording as a cross-era HyaLuna identity bridge; the dog-cuddle addressee; the February health/context antecedent; Jordayy's occupation; all uninspected Whiskey media attribution; Cuddle Puddle's true coinage/global origin; Ten's first UL arrival or role chronology; any conversion of `Anthos apprentice like in game` into a formal Discord rank or real-world mentorship; and any literalization of December 29's Eli bot-command sexual joke.
+Held rather than guessed: Jordayy Luna/Loona wording as a cross-era HyaLuna identity bridge; the dog-cuddle addressee; the February health/context antecedent; Jordayy's occupation; all uninspected Whiskey media attribution; Cuddle Puddle's true coinage/global origin; Ten's first UL arrival or role chronology; any conversion of `Anthos apprentice like in game` into a formal Discord rank or real-world mentorship; and any literalization of December 29's Eli bot-command sexual joke. The fresh Mugen suffix `67a9549e… -> 5ca8dc87…` is **seen but unreviewed** and remains pending rather than being interpreted from branch movement alone.
 
 ## Verification / deployment
 
@@ -52,4 +54,4 @@ MAIN reader-facing Jordayy commit `92983c58dc68f3ca1d700f87bcf270ffeb57b491` pas
 
 WIKI reader-facing Cuddle Puddle commit `5ae355c734cfb2fea8483ac376d8590a70a7649e` passed standalone `Build Underlords Wiki` run **33250562225** and Pages run **33250562185**, including Pages build, deployment, and report.
 
-MAIN durable state/report commits and this WIKI state commit follow the reader-facing commits. Their exact final publishing heads must also pass the normal repository workflows; final head/results are recorded in the pass closeout. No miner branch was merged or cherry-picked wholesale.
+MAIN durable state commit `8f67a52061fc4af230aa2d0f8b12b1196805cf44` also passed exact-head source verification, Astro build, built-output verification and Cloudflare exact-commit deployment before the late Mugen movement was recorded. This WIKI state's preceding commit `715f0a35504611869e630a79f1737bd54c58b6c5` passed the standalone Astro build and Pages build/deploy/report chain. The late-census state commits that follow must also pass their normal exact-head workflows before final closeout. No miner branch was merged or cherry-picked wholesale.
