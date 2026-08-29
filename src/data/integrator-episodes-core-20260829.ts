@@ -72,5 +72,14 @@ export const coreIntegratedEpisodes: Episode[] = [
     kind: "Club Only role progression / Shk starts assigning coursework before the room starts calling him Sensei out loud",
     logline: "On September 3 Shk goes fully classroom-mode in Club Only: `study first`, `@here hope u all studying`, `take note`, then `it could be in ur test`. The exact imaginary curriculum is not reconstructed, but the grammar is unmistakable: this man is addressing the room like somebody has assigned homework. By September 23 Mugen greets him `hi hi senseiii @Shk`; the next day Ansun says `later senseiii`, with Euros immediately adding `gl @Shk !`. A September 29 organization map then carries `SHIKI - sensei`, and early-October bot output renders `SHIKI` around the same stable Shk account, making that historical display bridge safe. The order is the good part: behavior first, affectionate peer-address second, map label third. The archive therefore shows `Sensei` functioning as lived social address rather than only exporter metadata, but September 23 is merely the earliest direct peer-address surfaced here — not a proven title origin or appointment date. `SHIKI` is a historical Discord/display identity; Shk's self-reported historical Dragon Raja IGN remains `ReisenUInaba`.",
     cast: ["Shk", "Mugen", "Ansun", "Euros"]
+  },
+  {
+    id: "lorilee-giving-you-vip-status",
+    title: "Giving You VIP Status",
+    season: "2020",
+    date: "September 23, 2020",
+    kind: "Lobby guest desk / one direct sentence catches VIP working as access treatment",
+    logline: "Snow asks Lorilee for `in game name and Club? or server`. Lorilee answers, unedited, `Lorilee. Caelum. And s8:DRcute:`. Snow's next line is equally plain: `Welcome  ^_^ giving you vip status`. The scene is useful because nothing needs to be reverse-engineered from a later role array: Lorilee identifies herself as Caelum / S8 in the doorway, and Snow contemporaneously says he is assigning VIP. In this dated case, VIP is visibly functioning as guest-facing access treatment rather than as evidence that Lorilee was an Underlords in-game member. One doorway still does not universalize the mechanism — it does not prove every outsider got VIP, identify an inviter or recruiter, establish a Dragon Raja join date, or tell us when Lorilee later stopped appearing. The boring little administrative sentence is the receipt.",
+    cast: ["Lorilee", "Snow"]
   }
 ];
