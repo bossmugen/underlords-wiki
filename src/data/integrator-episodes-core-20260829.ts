@@ -45,5 +45,14 @@ export const coreIntegratedEpisodes: Episode[] = [
     kind: "Club Only return possibility / Raja can wait until exams are over",
     logline: "Em says `I might be returning to raja soon- my college semester is ending in two weeks, so I’ll have more free time again aaaAa` and tags Mugen. The room receives the possibility like good news rather than a summons: Drink Water Reminder, Gilli, Anthos, Ren, Rummy's pre-hack account, and keon react with hearts / ZeroYay / HYPED. Hours later Mugen true-replies `Yaaaas`, then immediately pivots from the game to the actual thing in front of Em with an edited-final `Good luck with exams!`. Em true-replies `Thank you as always 😖💗💗💗`. That `as always` is the small hinge: Em herself frames Mugen's support as familiar, but the wiki does not invent the missing earlier support scenes. The return is tentative, the semester is the stated bandwidth problem, and nobody turns coming back to Raja into a loyalty test. A 2020 Lobby doorway separately shows Mugen and Ren recognizing Em before Discord role assignment finishes, but it does not identify who invited her or establish an in-game admission date.",
     cast: ["Em", "Mugen", "Drink Water Reminder", "Gilli", "Anthos", "Ren"]
+  },
+  {
+    id: "wrong-feli",
+    title: "The Wrong Feli",
+    season: "2020",
+    date: "September 27, 2020",
+    kind: "Lobby false start / Mugen welcomes the wrong person as the guest she is waiting for",
+    logline: "Degen Rat enters Lobby with `hello ✨`. Mugen answers `FINALLY FELI`, checks `right? its feli ahaha`, and begins the ordinary role/server-map handoff. Degen Rat then has to deliver the social equivalent of arriving at somebody else's surprise party: `omgosh i’m so sorry if you were expecting someone else but i am unfortunately not Feli 😳`. Mugen's response is `AHAHAH`. Roughly twenty minutes later MEE6 welcomes the actual stable Feli account, and Mugen finally gets to say `thereeee we go xD` before doing Feli's own handoff. `FINALLY` proves she was already expecting Feli; it does not explain why, identify a recruiter, or establish Feli's first-ever UL contact or in-game admission date. The whole joke exists because Degen Rat and Feli are distinct people, so the wiki keeps them distinct instead of solving a casting error by inventing an identity merge.",
+    cast: ["Feli", "Mugen", "Degen Rat"]
   }
 ];
