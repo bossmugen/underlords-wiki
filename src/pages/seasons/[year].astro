@@ -5,12 +5,13 @@ import { integratedEpisodes } from "../../data/integrator-episodes";
 import { wallIntegratedEpisodes } from "../../data/integrator-episodes-wall-20260828";
 import { whiskeyIntegratedEpisodes } from "../../data/integrator-episodes-whiskey-20260829";
 import { coreIntegratedEpisodes } from "../../data/integrator-episodes-core-20260829";
+import { allCharactersIntegratedEpisodes } from "../../data/integrator-episodes-allcharacters-20260829";
 
 export function getStaticPaths() {
   return seasons.map((season) => ({ params: { year: season.year }, props: { season } }));
 }
 const { season } = Astro.props;
-const allEpisodes = [...episodes, ...integratedEpisodes, ...wallIntegratedEpisodes, ...whiskeyIntegratedEpisodes, ...coreIntegratedEpisodes];
+const allEpisodes = [...episodes, ...integratedEpisodes, ...wallIntegratedEpisodes, ...whiskeyIntegratedEpisodes, ...coreIntegratedEpisodes, ...allCharactersIntegratedEpisodes];
 const seasonEpisodes = allEpisodes.filter((episode) => episode.season === season.year);
 const eraNumber = seasons.findIndex((entry) => entry.year === season.year) + 1;
 ---
