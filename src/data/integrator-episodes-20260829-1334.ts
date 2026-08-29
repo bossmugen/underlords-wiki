@@ -45,5 +45,14 @@ export const lateAugustIntegratedEpisodes: Episode[] = [
     kind: "Dragon Raja dungeon luck / helping other people and getting haunted by their loot instead",
     logline: "Danny tells Mugen that `3 out of 4 orange dracs` have now turned up while he was on other people's accounts, calls the pattern `Cursed.`, then immediately develops the haunting into a business model: `Maybe I should start charging daily packs to do peoples dungeons. Embrace the curse.` The surrounding sequence makes the practical read stronger than a one-off RNG complaint: Danny had apparently been doing other people's dungeon chores often enough to notice a repeated loot pattern, and the reward kept choosing the account that was not his. The attached Dragon Raja screenshot is POSTED BY Danny and remains visually uninspected; exact account, loot shown, capture authorship, and account-access arrangements stay unresolved. A day earlier the same account was chatting from work and joking that being `team leader` meant `Ill do what I want`, but that probable workplace role is ordinary-life texture rather than a guild title.",
     cast: ["Danny", "Mugen"]
+  },
+  {
+    id: "mugen-not-feli-dongwoo-repair",
+    title: "Not Feli. Dongwoo.",
+    season: "2020",
+    date: "September 27, 2020",
+    kind: "Lobby identity mistake / Mugen drops the wrong guess as soon as the person corrects it",
+    logline: "Degen Rat arrives; Mugen sees the account and fires off `FINALLY FELI`. Degen Rat immediately corrects her: `i am unfortunately not Feli 😳`. Mugen does not defend the guess or make the newcomer drag the correction uphill. She laughs, asks `Which one are you?`, gets `i was dongwoo`, recognizes it four seconds later with `DONGWOOOO`, then lands `my bad 😄` and `welcomeeee!!`. Degen Rat answers `don’t worry bout it askdksjj`. The fast recognition makes prior Mugen/Dongwoo familiarity likely, but the exact earlier game or social context remains unresolved. What is not unresolved is the repair: wrong identity in, correction received, assumption discarded, apology, welcome restarted. Degen Rat and Feli remain separate people.",
+    cast: ["Mugen", "Degen Rat", "Feli"]
   }
 ];
