@@ -1,56 +1,51 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration continuation: **2026-08-29 02:20 PDT**.
+Last dual-surface integration continuation: **2026-08-29 02:31 PDT**.
 
-Full branch-level detail is durable on MAIN in `archive-intake/INTEGRATOR_BRANCH_STATE.json` and the current `archive-intake/INTEGRATION_PASS_2026-08-29_*_DUAL.md` report. Prior rolling wiki states remain in Git history.
+Full branch-level detail is durable on MAIN in `archive-intake/INTEGRATOR_BRANCH_STATE.json` and the matching `archive-intake/INTEGRATION_PASS_2026-08-29_*_DUAL.md` report. Prior rolling wiki states remain in Git history.
 
 ## Census / queue
 
-The mandatory census ran before deep review and was persisted on MAIN before any miner handoff was opened. The closing census still contains **27 active remote miner refs**. MAIN also retains **21 explicitly recorded historical miner names not currently present remotely**, for **48 tracked branch identities** total.
+The mandatory census was persisted on MAIN before any deep miner review. The closing census contains **27 active remote miner refs** plus **21 explicitly recorded historical/missing refs**, for **48 tracked identities** total.
 
-Closing finite queue: **3 pending / 0 backlog / 0 review-overdue**. The fresh finite suffixes are:
-- Daycare: consumed through `92f14f1077ed8bb9a2562ea52b025f9b060e24db`, newly seen through `c7a556845a4e8d58c88b1a8ad73aed9bb0ce1c5a`.
-- Louvre: consumed through `dfc5dab3da4edc52064fc7e1886595070e8ae832`, newly seen through `647328fb4bb48d75b64d273c7f80576111c11adc`.
-- Whiskey: consumed through `95e6bc861e1b1864caf69d61e565dc93e8cc4aba`, newly seen through `e0c751afb41276b9f24d293985c99311da8dc68b`.
+Closing finite queue: **1 pending / 0 backlog / 0 review-overdue**. The only fresh finite mover is `archive-miner/mugen-person-first-20260828`, consumed through `c72b8929a686eba9aec373fa979c86ae72a5937b` and newly seen through `67a9549e16959872c32820c335147d2a1388c260` after the reviewed queue was cleared.
 
-Core Rooms and Wall remain cumulative recovery tracks with `last_consumed_sha: null`; their current heads are seen at `53cf44a1a7544151f1763d3bd6d88e89664c4cd6` and `b7a17f8a9b75b27c14f20339dd7f03c0ff80c537`. Both Club-Only miners remain fully consumed through their current heads; the standing prompt's old Club-Only backlog warning is superseded by the durable ledger.
+Core Rooms and Wall remain cumulative recovery tracks with `last_consumed_sha: null`. Core is seen at `53cf44a1a7544151f1763d3bd6d88e89664c4cd6`; Wall is seen at `1206c3ed6eacea93dace62ce01ca008e7beaf247`. Both Club-Only miners remain fully consumed through current heads; the standing prompt's old Club-Only backlog warning is superseded by the durable ledger.
 
 ## Reviewed this continuation
 
-### Daycare — `ebb07ddd… -> 92f14f1…`
+### Louvre — `dfc5dab3… -> 647328fb…`
 
-The delta was read checkpoint-first and only inside its changed `archive-intake/*` handoff.
+Read checkpoint-first and only inside the changed Louvre intake handoff. Rich says in December 2025 that Fight Club might be back, then explains that he remembers it because it was the most chaotic club war they had and remembers everybody bitching about it. This is strong participant memory but the handoff does not safely bridge his unnamed WWM callback to one exact historical Fight Club event. No origin/event join was guessed. Successful no-public-change review; consumed through `647328fb4bb48d75b64d273c7f80576111c11adc`.
 
-Candy's April 2021 fit-question / Anthos reassurance scene is already richer on both public surfaces. The public project continues to omit her historical age field while preserving the meaningful part of the exchange: Candy worries that she may be too young for the room and Anthos answers almost immediately that she is not. Current canon independently confirms Candy as a Platelet, but the scene does not manufacture an exact Platelet-assignment date.
+### Whiskey — `95e6bc86… -> e0c751af…`
 
-Anayss's early-doorway material is likewise already better owned publicly. The useful progression is from April 2020 newcomer receiving Lobby guidance to late-2020/2021 person routinely giving people the Tour, server map, rules, Whiskey/Biodata directions and ordinary access help. That explains behavior without inventing a unique Gatekeeper title or backdating an appointment from current roles.
+Read checkpoint-first. The best additive candidate was Lilly's December 2020 garlic-eggplant request, which caused Effie to downscale/test/check a locally famous family recipe before sharing it. MAIN had already integrated that scene before this review. The remaining image subject, bot-friend scores, sparse 2021 layer, and Marsy/Milo guest identity do not support stronger public conclusions. Successful duplicate/corroboration review; consumed through `e0c751afb41276b9f24d293985c99311da8dc68b`.
 
-Rosario17 / Yazaki supplies a smaller but useful privacy boundary: when asked about age, Rosario asks whether disclosure is required; Gilli reduces the requirement to whether the person is above 18, and Rosario declines to give the number. The exchange is evidence that the doorway could preserve a privacy boundary. It is not sufficient reason for a standalone dossier or an exact role inference.
+### Daycare — `92f14f10… -> c7a55684…`
 
-Because the strongest Daycare material was already canonically integrated or was boundary-only, this was a successful **no-new-reader-copy** review. Its reviewed SHA is consumed rather than reread forever. The branch advanced again after review, so the newer suffix remains pending.
+Read checkpoint-first. Candy's fit-anxiety / Anthos reassurance and Anayss's receiver-to-giver doorway progression are already richer on public biography owners. Rosario17/Yazaki adds a useful privacy boundary: asked for age, Rosario asks whether disclosure is required, Gilli narrows the practical requirement to whether they are above 18, and Rosario declines the number. Generic `Role assigned` lines remain non-attributable and current role arrays remain non-chronological. Successful no-new-reader-copy review; consumed through `c7a556845a4e8d58c88b1a8ad73aed9bb0ce1c5a`.
 
-### Core Rooms recovery — through the 2026-08-25 04:46 package
+### Wall — newly advanced 02:13 handoff
 
-The older recovery package was read checkpoint-first without reopening raw archives. Its strongest A/B families were already owned by current public pages by comparison time:
+The new Wall handoff was read checkpoint-first. Its strongest bounded scene is November 30, 2022: stable account `480184783540977684`, rendered as **S** in the source, posts an image with `im sry gilli ily ...`; eight seconds later S says `yaght`; Daya echoes `yaght`; roughly forty-seven minutes later Gilli true-replies to S's exact image parent with `PLEAS ELMAOO`.
 
-- Ansun's 2020 `if i become godfather one more time...` / Ren `please` exchange plus later bot output resolving his account as `Godfather` is already on MAIN. It is historical display-name / Mafia-game identity evidence, not a formal office or permanent username and not an appointment date.
-- Aeshleen's April 24, 2021 sub-hour Wall sprint is already on her MAIN biography: Woohyuk calls it a record for reaching the Wall less than an hour after joining; Aesh answers with the exhausted emoji. The first image remains uninspected, so the offense itself stays unresolved.
-- Mugen's July 2021 `Yall can just talk here and we won't even need ss` line is already owned by MAIN's Kitchen Evidence Room genealogy.
+The image remains visually uninspected. The safe attribution is **S POSTED it**. MADE BY, CAPTURED BY, FEATURING, and the image contents remain unresolved. The scene proves the word is picked up inside this surviving Wall exchange; it does not prove first-ever origin. Sparse S material remains too thin for a Cast dossier.
 
-Additional local texture was held instead of inflated: Snow's joking `Ghoulie & Panda's house of shame` rename language does not prove a literal channel rename or cohabitation; the March 24 mystery sub-hour Wall entrant remains unidentified; Ghoulie visual/cannibalism/seal material remains image-dependent; Ren's `Ghoulie is the Icon we need` lacks a safe visual referent.
+WIKI now owns the bounded incident as **Yaght Enters the Record** in `src/data/integrator-episodes-wall-20260828.ts`. MAIN intentionally did not duplicate the same scene into an already-dense Wall exhibit this pass.
 
-Core's formal consumed SHA remains null until the safe-baseline recovery closes. The reviewed recovery floor is now **03:46 and below**.
+## Recovery movement
 
-## Public split this continuation
+Wall's cumulative recovery remains open below the previously reviewed 02:46 package, and its formal consumed SHA therefore remains null. Core remains open with the next older safe-baseline recovery floor at **03:46 and below**. This continuation satisfied anti-starvation by reviewing all three finite opening queue branches while also continuing the Wall recovery track.
 
-No new reader-facing wiki object was accepted from these two reviewed packages. That is intentional, not a missed sync. Candy and Anayss are already richer on their existing biography owners; Ansun and Aeshleen are already richer on MAIN; the remaining Core details are local callbacks or unresolved media. Mirroring them as fresh wiki stubs would make two public surfaces repeat the same scene while adding less context.
+## Duplicates / unresolved
 
-Concurrent MAIN work deepened Anayss's existing biography during this pass. The integrator re-read the current publishing branch before its own state write and preserved that work rather than overwriting it.
+Collapsed rather than republished: Lilly garlic-eggplant; Candy/Anthos fit reassurance; Anayss doorway progression. Held rather than guessed: Rich's exact Fight Club event, Rosario's exact historical role, generic Daycare `Role assigned` targets, the Wall image contents, `yaght` first-ever origin, and any global identity claim for sparse account S beyond the stable account/source display context.
 
 ## Verification / deployment
 
-The wiki uses its existing **Build Underlords Wiki** workflow and its separate GitHub Pages build/deploy/report workflow on pushes to `main`. This continuation changes integration state only; no reader-facing wiki source file was changed. The pass closes only after the exact resulting `main` commit is checked under both existing workflows. Exact run status is read from GitHub Actions rather than creating another state-only commit solely to embed the ID of the workflow triggered by this file.
+The reader-facing **Yaght Enters the Record** commit is `fc66f817ad4a053c3d0f95459d3d78416d72dfc6`. Its existing **Build Underlords Wiki** workflow completed successfully, and its GitHub Pages build/deploy/report workflow also completed successfully. This rolling state update is then verified on its own exact resulting `main` head under those same existing workflows; no extra invented verification stage is used.
 
 ## Attribution / canon firewall
 
-Candy's age self-report is not a Platelet appointment date. Generic `Role assigned` messages do not identify which role was assigned. Current/export role arrays do not create appointment chronology. Ansun's `Godfather` is Mafia/display-name evidence, not formal governance. `Ghoulie & Panda's house of shame` is joke-property language, not literal ownership or cohabitation. Uninspected screenshots do not grant creator, photographer, target or depicted-subject attribution. Earliest surviving is not origin. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain separate.
+Uninspected images do not grant creator, photographer, target, or depicted-subject attribution. S's image is POSTED BY S only. `yaght` is a surviving-scene callback/pickup, not a proven global origin. Current/export role arrays do not create appointment chronology. Generic `Role assigned` messages do not identify which role was assigned. Earliest surviving is not origin. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain separate.
