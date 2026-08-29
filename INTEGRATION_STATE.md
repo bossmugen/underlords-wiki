@@ -1,68 +1,56 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration pass: **2026-08-28 17:14 PDT**.
+Last dual-surface integration pass: **2026-08-28 17:36 PDT**.
 
-This is the rolling current integration state. Full pass detail is durable in Git history and MAIN `archive-intake/INTEGRATION_PASS_2026-08-28_1714_DUAL.md`.
+This is the rolling current integration state. Full pass detail is durable on MAIN in `archive-intake/INTEGRATION_PASS_2026-08-28_1736_DUAL.md`.
 
-## Current pass — Bishop teaches Tofu to waltz and accidentally gets sincere
+## Current pass — Tae briefly invents government; unfortunately we already knew
 
 ### Branch census / queue
 
 - Mandatory opening and closing census: **24 miner branches**, persisted on MAIN before deep review.
-- Opening advanced discrete branch: Daycare `13abfc003a816fe2cab9636a98fd9294aa5f1b06` → `0247cee810368486dbef7a4cffc74859068991c0`.
-- Daycare was reviewed checkpoint-first through the new head and, after successful publication verification, consumed through `0247cee810368486dbef7a4cffc74859068991c0`.
+- No miner branch was newly discovered and no discrete miner head advanced during this pass.
+- Discrete queue: **0 pending / 0 backlog / 0 review-overdue**.
 - Club-Only 2020 and Club-Only 2021–2026 remain consumed through unchanged current heads and were not reread.
-- Anti-starvation recovery reviewed Core Rooms 03:46 at HEAD `8d9e6f40f7b0872aca3c20c6c1bd8fc45ebcec19`.
-- Closing census found no further miner-head advance. Discrete queue: **0 pending / 0 backlog / 0 review-overdue**.
+- Anti-starvation recovery reviewed Wall 19:46 at `archive-miner-wall-hourly-20260824` HEAD `36e85aa2025b030faf43fecd20a315b158debd4c`.
 - Cumulative recovery remains open for Living Ensemble, Core Rooms, and Wall.
 
-## Reconciled public finding
+## Reviewed evidence — duplicate / already owned
 
-**BishopThaGuru ↔ Tofu — Teaching Tofu to Waltz.** On July 19, 2021, Bishop posted a Photo Submissions attachment captioned `Teaching @Tofu🐝 to Waltz turned out to be a lot cuter than expected... ☺️`.
+The strongest Wall 19:46 finding is Tae's January 3, 2021 one-day anti-Gabu government:
 
-The useful thing is Bishop's own sentence, not an invented ship label. `Teaching` fixes the activity. `turned out` makes the softness sound discovered in the doing, and `than expected` quietly admits the scene surprised him. The smile at the end does not exactly scramble to put emotional armor back on. That is enough to preserve a sweet character beat without manufacturing romance, dating, exclusivity, or any formal relationship status.
+- Anthos: `m.write If I die it's Gabu`
+- Tae: `new rule`
+- Tae: `Always vote out gabu`
+- later that morning Tae: `Gabu` → `Go to jail`
 
-MAIN owns the long-form continuation in `src/content/people/bishopthaguru.md`, where the waltz becomes the softer sequel to Bishop and Tofu's already-public first-week fake-feds / office-file / `Still love you…unfortunately` / screenshot-jail material.
+This was successfully reviewed but accepted **no new public copy** because it is already owned on both surfaces. MAIN's `src/content/people/tae.md` already carries the richer character scene, and WIKI's `src/data/dossier-snapshots/tae.md` already carries the compact dated chronology and the correct boundary: one-day fake legislation, not formal governance or recurring House Law.
 
-WIKI owns the complementary discrete retrieval object in `src/data/integrator-episodes.ts`: **Teaching Tofu to Waltz**. It indexes the dated episode instead of photocopying MAIN's biography prose.
+The nearby screenshots remain uninspected. `vote out` is game-shaped language but does not, by itself, identify a specific mechanic or game.
 
-The attachment `IMG_0402.PNG` remains visually uninspected. Bishop is POSTED BY for the surviving submission and Tofu is explicitly named in the caption; pose, location, photographer, image maker, and other pixel-level details remain unresolved.
+## Held / unresolved
 
-## Reviewed but not separately published
+- **Ghostt → Tae setup:** Ghostt posts two images, replies to her own exact Wall parent, and says `She set me up for it 😂` while explicitly mentioning Tae. The attribution is clean; what Tae actually set up remains visually unresolved. Keep POSTED BY Ghostt separate from CAPTURED BY / MADE BY.
+- **Tae sacrificed by roaches:** Anthos writes `tae got sacrificed by roaches`; Ren immediately keyboard-smashes. The screenshot remains uninspected and no Tae-specific roach recurrence was established. Keep this as one unresolved incident, not a recurring Tae motif or a bridge to unrelated Ryan/roach jokes.
+- **Ghostt speech tic:** Ghostt says `Gilli really said I say this everyday`, but the allegedly repeated phrase is still missing. Hold until the phrase and actual recurrence are recovered.
 
-- **Zhēnxī:** the Daycare handoff extends the already-owned Six-Minute Shaming arc. On July 7, 2022, Zhēnxī herself posts a screenshot, tags Ren with `@RΣN so uh-`, laughs through Ren's `STAWP`, and ends with `Deserving`. This is a strong victim→participant Wall-socialization beat, but the screenshot and its four-month-old precipitating incident remain unresolved. Held for a stronger future person/episode owner rather than creating a thin duplicate.
-- **asapROG3R:** first-party intake now explicitly gives `Underlords`, followed later by one Daycare message. Useful person-level corroboration, not a new universal Daycare access rule and not enough for a standalone public dossier.
+## Public-surface decision
 
-## Duplicate / already-owned evidence
-
-Core Rooms 03:46 was successfully reviewed with no public change. Its Miaka/Opalite ↔ Momo `twinsss` / `Mimi's twin` / `you are both Mimi & Momo` family-language cluster is already owned by current MAIN Mia and Momo canon and already reflected in WIKI character material. It remains social twin grammar, not biological kinship.
-
-Core Rooms therefore stays `recovery_in_progress` with `last_consumed_sha: null`: the 03:46 package is reviewed, but older cumulative safe-baseline material still exists and the branch is not falsely graduated.
-
-## Verification / deployment
-
-### MAIN
-
-- Public-content commit: `65d606f68c0313c05945f6017e11722eeaccb0ee`.
-- Workflow `33223329048`: **success** — source canon/architecture verification, Astro build, built-output verification, and exact Cloudflare production deployment all passed.
-- Daycare/Core branch-state update: `6e105391554b2b2907985812b28ba4a25245f6de`.
-- Durable dual-pass report: MAIN `archive-intake/INTEGRATION_PASS_2026-08-28_1714_DUAL.md`.
-
-### WIKI
-
-- Public-content commit: `60f01e2a0aa9013810606a3b490d876ffa3fc95c`.
-- Standalone Build workflow `33223339377`: **success**.
-- Pages workflow `33223339368`: **success** — build/deploy pipeline passed.
+No WIKI fandom-content file changed this pass. Creating another episode/gag object for Tae's anti-Gabu decree would duplicate a scene the dossier already explains cleanly, while the Ghostt and roach material needs its visual nouns before promotion. MAIN likewise received no new public lore copy for this recovery slice.
 
 ## Recovery / consumption state
 
+- Wall recovery now explicitly covers 23:46 Light Mode, 22:46 Baby Lyssa property, 21:46 Alkey, 20:46 Tofu, and 19:46 Tae/Ghostt. `last_consumed_sha` remains null because older safe-baseline packages remain.
+- Living Ensemble: recovery open; consumed SHA null.
+- Core Rooms: recovery open; consumed SHA null.
 - Daycare: consumed through `0247cee810368486dbef7a4cffc74859068991c0`.
 - Whiskey: consumed through `a8a6cfaeaa3f21c35ca8cfaff5b14a8d8d4f63ed`.
 - Club-Only 2020: consumed through current head.
 - Club-Only 2021–2026: consumed through current head.
-- Living Ensemble: recovery open; consumed SHA null.
-- Core Rooms: 03:46 is now explicitly reviewed in the cumulative recovery; consumed SHA null because older safe-baseline material remains.
-- Wall: recovery open; consumed SHA null.
+
+## Verification / deployment
+
+No public narrative source changed. Both publishing branches were re-read before durable state edits. MAIN and WIKI use their existing push-triggered build/deploy workflows; the final exact-head workflow results for these state commits are verified after the commits land.
 
 ## Current cross-surface continuity locks
 
