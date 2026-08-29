@@ -2,9 +2,8 @@
 import WikiLayout from "../../layouts/WikiLayout.astro";
 import { episodes } from "../../data/wiki";
 import { integratedEpisodes } from "../../data/integrator-episodes";
-import { whiskeyIntegratedEpisodes } from "../../data/integrator-episodes-whiskey-20260828";
 import { wallIntegratedEpisodes } from "../../data/integrator-episodes-wall-20260828";
-const allEpisodes = [...episodes, ...integratedEpisodes, ...whiskeyIntegratedEpisodes, ...wallIntegratedEpisodes];
+const allEpisodes = [...episodes, ...integratedEpisodes, ...wallIntegratedEpisodes];
 ---
 <WikiLayout title="Major Incidents | Underlords Wiki" description="Named Underlords incidents, turning points, recurring-story births, and archive events.">
   <section class="hero"><div><div class="kicker">INCIDENT ARCHIVE</div><h1>Major<br/>Incidents</h1><p class="tagline">Most days disappear into chat history. These did not. They became named events, turning points, callbacks, scandals, traditions, or the origin story for some stupid noun everybody still understands years later.</p></div></section>
