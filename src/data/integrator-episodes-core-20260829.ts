@@ -108,5 +108,14 @@ export const coreIntegratedEpisodes: Episode[] = [
     kind: "Wall faux case report / Ansun timestamps one swear word and Tae immediately reclassifies the charge",
     logline: "Ansun posts an unresolved attachment; Tae says `no cuz yall giving me a headache`. Two seconds later Ansun begins the world's least necessary incident report: `Tae said \"fuck\" July 12 2021`, followed by `directed at Ansun in an act of microaggression, framed upon the wall at 10:12PM PST`. Tae does not use her usual Wall defense of asking why she is even there. She accepts that an offense has been alleged and changes the legal category instead: `Also known ass fruit on fruit crime`. Ansun answers with a dance emote rather than rebuttal. The switch is the whole joke — Ansun gives one swear word date, target, fake charge, archive location, and exact clock time; Tae's defense strategy is not innocence but jurisdictional rebranding. `microaggression` is Ansun's joke framing, not a real moderation finding. `fruit on fruit crime` stays scene-specific until another callback appears, and the unresolved attachment does not authorize us to explain what `fruit` means or describe unseen pixels.",
     cast: ["Tae", "Ansun"]
+  },
+  {
+    id: "mugen-three-and-counting",
+    title: "Three and Counting",
+    season: "2023",
+    date: "May 11, 2023",
+    kind: "Running gag checkpoint / Mugen turns kitchen incompetence into self-maintained incident mythology",
+    logline: "QOTD asks `Who is Mugen to you?` and Mugen answers herself with `This dum bich who burns kitchens down`, then immediately adds `3 and counting`. The line lands harder because she has already been maintaining this case against herself for years: `time to burn down the kitchen` in 2021; sticky rice because she `100% won't burn the kitchen down`; doomed Teflon because she is `burning them anyway`; an oven truce measured as `haven't burned anything this week yet`; a housemate warning that she will `burn down kitchen once a month`; then `I already pre assigned the friendly firefighters`. After `3 and counting`, the joke keeps migrating: an October 2023 operations post lists burning the kitchen during contests as one reason game-event duties need to rotate, and in 2024 she says recurring dreams are often `apocalyptic or kitchens burning down`. The useful story is not that Mugen is objectively a terrible cook. It is that she keeps authoring the mythology herself until a domestic failure joke becomes roommate disclaimer, emergency plan, scoreboard, operations example, and dream scenery. `3 and counting` remains Mugen's own scorekeeping joke, not proof of three independently reconstructed literal structure fires; 2021 is the earliest surfaced self-authored line here, not a certified origin.",
+    cast: ["Mugen"]
   }
 ];
