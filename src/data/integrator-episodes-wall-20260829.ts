@@ -72,5 +72,14 @@ export const wallRecoveryEpisodes: Episode[] = [
     kind: "Wall probable-target callback / Oyasumi refuses to confirm his own staircase death",
     logline: "Gilli posts an uninspected screenshot and tags Oyasumi. Daya true-replies to that exact Gilli post with `HE DIED ON THE STAIRS AGAIN?!?!`, making Oyasumi the probable target of the alarm even though the pixels themselves remain sealed. Oyasumi true-replies to Daya with the magnificently unhelpful `No 💀`; seven seconds later he reopens his own case with `Or did I ?`. The tiny pause matters: he gets one clean chance to deny the allegation and then immediately decides ambiguity is funnier. `AGAIN` also tells us the room already remembers an earlier stair-death incident, but this is a callback receipt, not the recovered origin. Gilli is POSTED BY for the screenshot; Daya and Oyasumi are SAID BY for the text; MADE BY, CAPTURED BY, FEATURING, the exact game mechanic, and the first staircase casualty remain unresolved.",
     cast: ["Oyasumi", "Daya", "Gilli"]
+  },
+  {
+    id: "pride-loose-corpse-gets-away",
+    title: "The Loose Corpse Tries to Get Away",
+    season: "2020",
+    date: "November 4, 2020",
+    kind: "Wall callback / Pride apparently becomes a logistics problem the second Ansun looks away",
+    logline: "The old Pride-body disaster gets one missing movement beat. Illien remembers repeatedly seeing `we've lost Pride's body` in Club Chat; Pride says he still laughs about that day; Ren remembers having to make an Amber Alert `For a lost CORPSE`, while the older Club Chat receipt has Ansun telling her `we got a loose corpse`. Then the same November 4 throwback produces Ansun's defense directly to Pride: `in my defense, i left you for one sec and you already trying to fucking get away from me`. Put together, the most likely human read is wonderfully stupid: the lost/loose-corpse problem involved Pride becoming an immediate movement problem as soon as Ansun stopped watching him. The phrase `in my defense` is half the joke — Ansun is already filing his appeal before anybody formally accuses the custodian. November 4 is a callback, not the recovered origin; the exact Dragon Raja mechanic remains unresolved, and this does not create a formal tracker, caretaker, or relationship role. Ansun, Illien, Pride, and Ren are SAID BY for their own lines; no screenshot provenance is inferred from the text.",
+    cast: ["Pride", "Ansun", "Ren", "Illien"]
   }
 ];
