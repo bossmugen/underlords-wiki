@@ -54,5 +54,14 @@ export const lateAugustIntegratedEpisodes: Episode[] = [
     kind: "Lobby identity mistake / Mugen drops the wrong guess as soon as the person corrects it",
     logline: "Degen Rat arrives; Mugen sees the account and fires off `FINALLY FELI`. Degen Rat immediately corrects her: `i am unfortunately not Feli 😳`. Mugen does not defend the guess or make the newcomer drag the correction uphill. She laughs, asks `Which one are you?`, gets `i was dongwoo`, recognizes it four seconds later with `DONGWOOOO`, then lands `my bad 😄` and `welcomeeee!!`. Degen Rat answers `don’t worry bout it askdksjj`. The fast recognition makes prior Mugen/Dongwoo familiarity likely, but the exact earlier game or social context remains unresolved. What is not unresolved is the repair: wrong identity in, correction received, assumption discarded, apology, welcome restarted. Degen Rat and Feli remain separate people.",
     cast: ["Mugen", "Degen Rat", "Feli"]
+  },
+  {
+    id: "protectbutt-2021",
+    title: "#PROTECTBUTT2021",
+    season: "2021",
+    date: "October 13, 2021",
+    kind: "Wall joke mutation / mock public-safety language becomes anatomy, campaign branding, and bounce physics",
+    logline: "Anayss files an image under `#PROTECCtheASSETS` and tags Rummy, Sou, Han, and Cookie. Forty-three seconds later Sou translates the initiative into plain English: `protectbutt`. About an hour later Han true-replies to Sou with `#PROTECTBUTT2021`; fourteen minutes after that Rummy true-replies all the way back to Anayss's original filing with `#protectbuttboingboing`. The original post's butt-coded reaction pile makes the `assets`→butt read probable even without opening the image. The joke gets edited in public: Anayss supplies mock-official language, Sou strips it down to the body part, Han gives it a year-campaign label, and Rummy adds bounce physics. Anayss is POSTED BY for `image0.png`; Han separately POSTED BY a nearby Dragon Raja screenshot. Neither binary was visually inspected, so MADE BY, CAPTURED BY, and FEATURING remain unresolved. October 13 is a surviving Wall recurrence, not a certified origin.",
+    cast: ["Anayss", "Ansun", "Han", "Rummy", "Cookie"]
   }
 ];
