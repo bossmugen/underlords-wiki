@@ -46,8 +46,10 @@ Core's current branch moved after review to seen `d0dee0fd…`; its newest suffi
 
 ## Verification / deployment
 
-WIKI reader-facing commit **`8f2fe31b5d4d350f8ba290843f68c4b7c348b5ed`** passed both existing workflows on that exact commit: **Build Underlords Wiki** succeeded, and **Deploy Underlords Wiki Preview** completed its Pages build/deploy/report chain successfully.
+WIKI reader-facing commit **`8f2fe31b5d4d350f8ba290843f68c4b7c348b5ed`** passed both existing workflows on that exact commit: **Build Underlords Wiki** succeeded, and **Deploy Underlords Wiki Preview** completed its Pages build/deploy/report chain successfully. The 09:24 rolling-state commit `a5764698478981eb97e9cf2b8df76391b98cb3e5` also passed both workflows successfully.
 
-MAIN has no reader-facing content change from this pass; MAIN's durable state/report commit must still clear its full existing source verification, Astro build, built-output verification, and Cloudflare deployment before the run is closed.
+MAIN made no reader-facing content change in this pass. Its final durable report head **`ce60f5b2614d4df08fb4472f73b0390958e14517`** passed the complete existing **UL Hourly Build + Deploy** workflow on that exact commit: source canon/architecture verification, Astro build, built-output verification, and Cloudflare production deployment all succeeded.
+
+A concurrent descendant, `e1f96431ef4e6efc590968e248ca0c026f76e915`, added the Bishop **The File in My Office** episode after this pass's reader-facing commit. It was preserved untouched and is not claimed as work reviewed by this 09:24 pass.
 
 The scene summary remains brutally efficient: **Tony posted `wait I can explain!!`, got told to crop next time, and somehow walked out of court with homework.**
