@@ -72,5 +72,14 @@ export const wallIntegratedEpisodes: Episode[] = [
     kind: "Wall milestone / Ryo's first starring immediately requires witness protection",
     logline: "Moon's edited final wording announces Ryo's `FIRST TIME STARRING AT WALL OF SHAME` and follows with `Congrats uwu`. Ryo answers `NOOOOO`, then Moon true-replies `We go through wall of shame together`. Ryo immediately collapses into `How do I live like this now` and `I cant do this`, so Moon proposes the obvious reputational-recovery plan: `Change your name,wear a wig and run away`. Ryo says `Ok`. Moon then decides solidarity apparently means becoming a fugitive too — `Wait let me join youu` — and Ryo's final answer is `No I run away`. The tiny reversal is the scene: Moon turns public embarrassment into a shared milestone, offers companionship all the way through imaginary witness protection, and Ryo recovers just enough authority to abandon her at the border. Ren had posted five images about fourteen minutes earlier, but Moon's announcement is not a reply to them and the binaries remain uninspected, so they are not identified as Ryo's exhibit. Moon's edited message is used only in its final exported wording.",
     cast: ["Ryo", "Moon"]
+  },
+  {
+    id: "citrinitas-nickname-blender",
+    title: "Welcome to Citric Acid",
+    season: "2023",
+    date: "April 3, 2023",
+    kind: "Wall welcome / the nickname blender immediately finds chemistry",
+    logline: "Mugen welcomes the stable account rendered `暁cit。(S73)`. Within eleven minutes Cele has admitted she first read `cit` as `zit`, Moon has upgraded it to `city`, Mugen says her brain autofills `citric acid`, and Ren compresses the damage to `Citric 😭`. The important part is what the target does with it: Cit calls `city` cute, reacts warmly when Moon says `Your the cutest city`, tells Mugen `I love this🤣💕💕💕`, then supplies the catastrophic fact that the full name was `Citrinitas`, so the citric-acid reading accidentally has standing. `Rip mah soul` draws seven ZeroYay reactions. The welcome image is uninspected and unnecessary to the naming sequence. `cit` already exists in the rendered nickname before the scene, so this is not its origin; `City` and `Citric` remain one-scene peer mutations unless recurrence turns them into durable aliases.",
+    cast: ["Citrinitas", "Cele", "Moon", "Mugen", "Ren"]
   }
 ];
