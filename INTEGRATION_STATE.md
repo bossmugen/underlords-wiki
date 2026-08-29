@@ -1,6 +1,6 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration continuation: **2026-08-29 05:47 PDT**.
+Last dual-surface integration continuation: **2026-08-29 05:53 PDT**.
 
 Full branch-level consumption state is durable on MAIN in `archive-intake/INTEGRATOR_BRANCH_STATE.json`; prior rolling wiki states remain in Git history.
 
@@ -10,7 +10,7 @@ The full census remains **27 active remote miner refs** plus **21 historical/mis
 
 Closing finite queue is **0 pending / 0 backlog / 0 review-overdue**. Core Rooms and Wall remain the two cumulative recoveries with `last_consumed_sha: null`. Both Club-Only miners remain fully consumed/current and were not reopened from stale recovery wording. No miner branch was merged or cherry-picked wholesale.
 
-A late reconciliation after the first close consumed `archive-miner/mugen-person-first-20260828` through `04541a3ecd18eae27acc8f4d96d6a62fcf588f84` with no public patch and advanced Wall's older recovery through the 2026-08-28 **22:13** package; **22:06 and below** are next. Wall's current head `33d136fe032da873e096384d999e9a91bbb25def` has now been reviewed checkpoint-first, but the branch stays null-consumed until its cumulative safe baseline closes.
+A late reconciliation after the first close consumed `archive-miner/mugen-person-first-20260828` through `04541a3ecd18eae27acc8f4d96d6a62fcf588f84` with no MAIN public patch and advanced Wall's older recovery through the 2026-08-28 **22:13** package; **22:06 and below** are next. Wall's current head `33d136fe032da873e096384d999e9a91bbb25def` has now been reviewed checkpoint-first, but the branch stays null-consumed until its cumulative safe baseline closes.
 
 ## Reviewed material and public split
 
@@ -40,7 +40,13 @@ That final `No I run away` is the whole tiny character reversal. Moon begins by 
 
 Other Wall material was reconciled without duplication. Aeshleen's May 2022 `stop bringing up my past` -> later `ILY yall` repair is already richer on MAIN. Teri's 2025 `im not cute!` -> `im adorable! know your names!` belongs as person texture under the existing 2025 Scrollback rather than a duplicate History incident. Ansun's literal `ant/ants` text route is exhausted without solving the underlying incident. Nelph/ShiyaX `Caught you in 4K` remains provenance-blocked.
 
-The older Wall safe-baseline was pushed through the 23:08 package in this continuation, reviewing BubblesSenpai's delayed `doegor` callback, Ocean's edit-sensitive `I've been exposed`, Katmars's `HOW DARE YOU EXPOSE ME`, and KARIT's exact reply-parent. The late reconciliation then pushed the floor again through **22:13**; **22:06 and below** remain next. None of these thin/profile-scale receipts was inflated into a fake major incident.
+The older Wall safe-baseline was pushed through the 23:08 package in this continuation, reviewing BubblesSenpai's delayed `doegor` callback, Ocean's edit-sensitive `I've been exposed`, Katmars's `HOW DARE YOU EXPOSE ME`, and KARIT's exact reply-parent. The late reconciliation then pushed the floor again through **22:13**; **22:06 and below** remain next.
+
+The 22:13 package also produced one genuinely additive WIKI owner: **Welcome to Citric Acid**. Mugen welcomes the stable account rendered `暁cit。(S73)`; within eleven minutes Cele has read `cit` as `zit`, Moon has turned it into `city`, Mugen's brain has filled in `citric acid`, and Ren has compressed the chemical incident to `Citric`. Citrinitas does not mount a defense. They call `city` cute, laugh along with the citric-acid mutation, then volunteer the fatal supporting fact: `the full name was Citrinitas so it does sounds like citric`. That self-supplied amendment is why the scene belongs as a bounded episode rather than a generic nickname note: the target helps the room prosecute the joke. The welcome image remains uninspected; `cit` visibly predates the scene; `City` and `Citric` remain one-scene peer mutations unless recurrence establishes durable aliases.
+
+This episode is intentionally WIKI-only. MAIN does not gain a new Citrinitas dossier from one eleven-minute scene; the WIKI can own the complete bounded incident without making a thin person page pretend to be a biography.
+
+Porgo's repeated self-filings from the same 22:13 package are already richer on MAIN, so they were not photocopied here. Seth's delayed `Lol,no explanation for you,dear` true-reply remains profile-scale and visually unresolved because Kiro's underlying screenshot charge is uninspected.
 
 ### Mugen — late finite close
 
@@ -58,6 +64,9 @@ The late Mugen suffix `5ca8dc87… -> 04541a3e…` was consumed with **no public
 - Bubbles `doegor` is a delayed callback, not proven origin or coinage.
 - Ocean's setup messages were edited after Ocean responded, so final exported setup wording is not projected backward as what Ocean definitely saw.
 - Katmars and KARIT visual charges remain uninspected.
+- Porgo's three self-filing screenshots remain visually uninspected; `Figgy` is unidentified.
+- Citrinitas's welcome image remains visually uninspected; the WIKI episode uses only text-secure naming evidence.
+- Seth's screenshot charge remains visually uninspected; do not state what required explaining.
 - Core and Wall stay formally null-consumed until their older cumulative recovery baselines actually close.
 
 ## Verification / deployment
@@ -66,4 +75,6 @@ MAIN reader-facing GenGrey commit: `da868e8358bdbae31f716a96ab9ffb7b96fae2d5`.
 
 WIKI reader-facing Ryo episode commit: `a84297fbe0caded7d9863bfc065984fc96f38eb8`.
 
-The Ryo content commit passed both existing WIKI verification paths: standalone `Build Underlords Wiki` and Pages build/deploy/report. MAIN's GenGrey commit was validated and deployed through a direct descendant after workflow concurrency cancelled the first redundant run; source canon/architecture verification, Astro build, built-output verification, Cloudflare deployment, and exact deployed-commit verification all passed. The current final bookkeeping heads must pass their own normal exact-head workflows for final closeout.
+WIKI reader-facing Citrinitas episode commit: `8e414d339a858f6b2234c92bf25ca0aba541119d`.
+
+The Citrinitas content commit passed the repository's standalone **Build Underlords Wiki** workflow and the complete Pages **build -> deploy -> report** chain before this state update was written. The earlier Ryo content commit likewise passed both WIKI verification paths. MAIN's GenGrey commit was validated and deployed through a direct descendant after workflow concurrency cancelled the first redundant run; source canon/architecture verification, Astro build, built-output verification, Cloudflare deployment, and exact deployed-commit verification all passed. Final bookkeeping heads must pass their own normal exact-head workflows for final closeout.
