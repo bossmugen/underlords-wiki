@@ -126,5 +126,14 @@ export const integratedEpisodes: Episode[] = [
     kind: "Whiskey cross-server hospitality / friend groups borrow each other's rooms",
     logline: "Aria tells Gilli she'll send unnamed people toward UL because `I'm sure they'll be interested in the escape rooms`, then immediately swings the door the other way: `you're all also welcome in Forsaken's`. In the same breath she explains Forsaken's recurring Friday–Sunday social-activity schedule and how the holidays may change turnout. This is not a treaty, merger, or proof Aria held an organizing title. It is smaller and more useful: one person treating neighboring friend-spaces as mutually visitable. The beat gets a later echo in February 2021 when Aria greets `underlords` warmly and announces, in full caps, `I WAS LOOKING FOR GILLI`.",
     cast: ["Aria", "Gilli"]
+  },
+  {
+    id: "maria-forgets-the-game",
+    title: "Maria Forgets the Game",
+    season: "2026",
+    date: "August 10, 2026",
+    kind: "Family reunion return / the house survives the game in memory",
+    logline: "Maria comes back after roughly five years and asks `what game is this group chat from ?`. Sye supplies Dragon Raja; Maria answers `dragon raja?` and then `holy shit`. The stable account is already in the surviving July 22, 2021 Lobby as `_seishi_` / `MariaMoon<3`: Anthos greets her as `maria`, Maria puts `underlords? right? 😅` into the intake, and then admits `i’m literally half awake o-o`. In 2026 she also asks to update her age because she is no longer a minor and gets the permanent-Platelet explanation. She remembered the house well enough to come back before she remembered the game that built it. July 22 is not claimed as her first-ever UL membership date, and this account is not Moon.",
+    cast: ["Maria", "Sye", "Anthos"]
   }
 ];
