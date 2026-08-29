@@ -6,7 +6,7 @@ aliases:
 roles:
   - "Sensei"
 eraStart: 2020
-summary: "Shiki's 2020 archive moves from a hard personal fight rule tempered by fatigue with his old `lone wolf days` into a September chat register built around `study first`, `take note`, and `surpass ur enemy`. The current Sensei title is locked separately, but the later chat makes the title feel earned by behavior rather than decoration."
+summary: "Shiki's 2020 archive moves from a hard personal fight rule tempered by fatigue with his old `lone wolf days` into a September chat register built around `study first`, `take note`, and `surpass ur enemy`, then a December after-hours bit where `dark mode` apparently requires waiting for the kids to sleep and retreating to Jail."
 summaryEvidence: "archive-confirmed"
 publication: "public"
 claims:
@@ -43,6 +43,13 @@ claims:
     sources:
       - label: "💬 Club Only · 2020-09-10"
         href: "/channels/club-only"
+  - text: "On December 1, 2020, while refusing to let Rich file an unresolved prior-night VC quote, Shiki wrote `in UL server too long will make me go dark mode`, said he would wait until everyone went `sleep mode`, and explained that he could then go to Jail because `then kids will not see me`."
+    evidence: "archive-confirmed"
+    date: "2020-12-01"
+    sources:
+      - label: "Wall of Shame/Fame · 2020-12-01"
+        href: "/archive/wall"
+    note: "The missing VC quote is not reconstructed or joined to the later lines. The scene is a Shiki-specific joke around the server's adult/minor room boundary, not evidence of a formal moderation appointment or literal misconduct."
 antiFanon:
   - "Historical Discord exports showing Sensei + Staff + 18+ on Shiki's messages are role snapshots, not appointment chronology and not a reason to override the current locked Director / Sensei filing."
   - "The May 15 `strike me` / `strike back` language occurs in game/community conflict discussion. Do not convert it into evidence of real-world physical violence."
@@ -50,14 +57,20 @@ antiFanon:
   - "Mugen's warning against flame wars dragging uninvolved clubs into harassment is Mugen's boundary statement. Do not rewrite it as a rule Shiki personally authored or universally followed."
   - "`lone wolf days` is Shiki's own phrase for prior experience, not a formal title, faction, or proof that he had no friends."
   - "The September study/test language supports a recurring Sensei-flavored chat register; it does not establish a real-world teaching job, literal exam, or formal curriculum."
+  - "The December `dark mode` / Jail scene does not reveal the missing prior-night VC quote, prove a formal safety duty, or support any literal sexual/other misconduct inference."
 relatedPeople:
   - "mugen"
+  - "rich"
+  - "ansun"
+  - "lilly"
 tags:
   - "sensei"
   - "director"
   - "conflict-style"
   - "study"
   - "coaching"
+  - "wall"
+  - "jail"
 ---
 
 # Shiki
@@ -80,4 +93,12 @@ A week later his good-night message compresses the whole mode into one breath: *
 
 There is no literal class, curriculum, exam, or teaching credential here. The progression is social. Earlier in the year, Shiki talks about what he learned from fighting. By fall, he is routinely turning chat into little instructions about studying, learning, and improving.
 
-That is enough for a restrained bio. The current Sensei title remains separately confirmed; the 2020 archive shows the person already speaking in a way the room could later recognize as Sensei-shaped. No résumé inflation required.
+## DECEMBER 2020 — DARK MODE HAS A BEDTIME
+
+Rich wants to put something Shiki allegedly said in VC the night before onto the Wall. The quote itself never appears in the surviving sequence, and Shiki is not volunteering it. Instead he gives the room a separate diagnosis: **`in UL server too long will make me go dark mode`**.
+
+Then the plan becomes hilariously procedural. Tae goes to bed. Ansun tells Sensei it is safe to go psycho. Shiki says **`i wait til u all go sleep mode`**, says he can go to Jail, and finally supplies the reason: **`then kids will not see me`**.
+
+The missing VC offense stays missing. The useful character beat is the after-hours logic. Shiki recognizes that UL has rooms with different audiences and turns that boundary into a timetable: wait for bedtime, move behind the adult-room door, commence dark mode. Even going feral apparently requires correct channel placement.
+
+The current Sensei title remains separately confirmed; none of this creates an appointment date or a moderation résumé. It just gives the dossier one more piece of Shiki's actual social voice: terse, practical, and somehow capable of making server permissions sound like evening office hours.
