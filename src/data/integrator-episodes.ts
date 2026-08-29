@@ -38,6 +38,15 @@ export const integratedEpisodes: Episode[] = [
     cast: ["Han", "Mugen", "Ren", "DarkAsrai", "ShiyaX", "Sye"]
   },
   {
+    id: "match-your-pfp-day",
+    title: "Match Your PFP Day",
+    season: "2022",
+    date: "July 25, 2022 – May 30, 2023",
+    kind: "Land of Conquest dress code / one Yelik idea becomes house custom",
+    logline: "Anayss announces a new Land of Conquest outfit mechanic on July 25, 2022 as `something new brought to you by @Yelik`: pick an animal, food, or item profile picture and match the in-game outfit to it, with `Yeye’s pic` offered as inspiration. A week later Anayss gives the mechanic its house name — `MATCH YOUR PFP DAY!!!` — and the bit keeps coming back. Wolf Phenix carries the announcement, Life carries a later reminder, and by January 2023 Anayss is calling it `our famous MATCH YOUR PFP DAY!!!!`; in May she has to explicitly set it aside for another theme before bringing it back four weeks later. The archive therefore preserves the whole mutation: Yelik suggestion → Anayss operationalizes it → named weekly ritual → other people carry it → `our famous` house custom. The reference images from the birth announcement remain visually uninspected, so uploader and creator/subject credits are not collapsed.",
+    cast: ["Yelik", "Anayss", "Wolf Phenix", "Life"]
+  },
+  {
     id: "snow-best-material-in-vc",
     title: "Snow Keeps the Best Material in VC",
     season: "2020",
