@@ -1,6 +1,6 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration continuation: **2026-08-29 06:16 PDT**.
+Last dual-surface integration continuation: **2026-08-29 06:27 PDT**.
 
 Full branch-level consumption state is durable on MAIN in `archive-intake/INTEGRATOR_BRANCH_STATE.json`; prior rolling wiki states remain in Git history.
 
@@ -8,69 +8,52 @@ Full branch-level consumption state is durable on MAIN in `archive-intake/INTEGR
 
 The full census is **27 active remote miner refs** plus **21 historical/missing refs** = **48 tracked branch identities**.
 
-Opening finite queue was empty. During closeout `archive-miner/all-characters-hr-20260828` advanced twice: first from consumed `7cdf996f…` to `6e58b78a…`, then again to `57ca77cf…`. Both intake-only deltas were reviewed checkpoint-first in the same run. The miner's out-of-intake `src/content/people/cookie.md` edit was ignored rather than imported. After independent MAIN curation and successful verification, All Characters HR is consumed through `57ca77cf2ab797c47fd030d7de43b87f07dd2b1d`. Closing finite queue is **0 pending / 0 backlog / 0 review-overdue** at this recorded boundary.
-
-Core Rooms and Wall remain the two cumulative recoveries with `last_consumed_sha: null`. Both Club-Only miners remain fully consumed/current. No miner branch was merged or cherry-picked wholesale.
+Opening finite queue was empty, and the closing census still has **0 pending / 0 backlog / 0 review-overdue** finite branches. Core Rooms and Wall are the two cumulative recoveries with `last_consumed_sha: null`; both advanced during this run and were reviewed through their new forward heads. Both Club-Only miners remain fully consumed/current. No miner branch was merged or cherry-picked wholesale.
 
 ## Reviewed material / public split
 
-### Core Rooms — older recovery through 02:46
+### Core Rooms — forward head through `152dbda8…`, older recovery through 01:46
 
-The 2026-08-26 02:46 package was reviewed after the root checkpoint. Hishiro's useful receipts are the summon/service exchange (`yes? you called my name?`, `summon me again if my service are needed again`, `always at your service`), the later direct `my students` / lower-stress video-material explanation, and a one-night lucky-drop streak with Anthos.
+The current Core suffix from seen `1ad4e64a…` through `152dbda8e4900b5b2f8e3bf68f93354cc54b8f6f` was reviewed checkpoint-first and intake-only. Its strongest current package is Allenne / crimsonmushroom: on August 13, 2020 Allenne says `Oh, Yess!! I'm in Underlords`, then `My ign is Allenne`, and later `Hello! I'm new here!`. That safely proves contemporaneous UnderLords membership plus IGN; the `new here` doorway line does not become an exact in-game admission date. Current MAIN and WIKI already own the richer Allenne story, so this is corroboration, not another public paragraph. Floofy and TinyChungus remain thin Ethereal visitors; Spritely/Shurui's `plabn` rabbit remains unresolved.
 
-Current MAIN Hishiro already owns the stronger person story with the correct boundaries. The WIKI does not duplicate it. The initiating Gilli request / `unknown.png`, any teaching institution or subject, Tumbleweed relation timing/direction, and a generalized luck trait remain unresolved.
+The older Core recovery also moved backward through the **2026-08-26 01:46** package. Gilli and Gabu's recurring height dispute is real across months — `Gabu finally admitted she is shorter`, `Gilli is shorter!!!!`, later `Gilli is shortest, Gabu is not imposter` — but both public surfaces already own the safer joke genealogy. `finally` implies prehistory, not origin, and no real-world height claim is made. Xuseio's `Finesse of a comedy duo...` line about a Namo scene remains held because the second participant/context is still unresolved.
 
-Core recovery is now through **02:46; 01:46 and below next**. Formal consumed SHA remains null until the cumulative baseline closes.
+Core is therefore reviewed through current forward head `152dbda8…` while the cumulative older floor is through **01:46**; older material remains. Formal consumed SHA stays null until that safe baseline actually closes.
 
-### Wall — older recovery through 22:06
+### Wall — forward head through `c7f0822e…`, older recovery still through 22:06
 
-The 2026-08-28 22:06 checkpoint/history package plus findings, receipts, rabbit holes, and site candidates were reviewed.
+The Wall forward delta `33d136fe… → c7f0822ecad21bdad32a19246da01a036a17e6b5` was reviewed checkpoint-first. Its A-grade keeper is **The Eh Chorus** on March 31, 2021.
 
-Spicy Hotpot/Josh produces the best scene: Gilli asks `is this Josh first time on wall?`, immediately tags Spicy Hotpot; Spicy answers `Nah, you probably put me here ages ago`, then true-replies to Gilli's April filing with `I knew it`. This is strong Wall-local first-name evidence for the stable Spicy account and a perfect example of the Wall becoming searchable enough that the defendant can audit his own record.
+iBwoy posts an image with `Eh`. Cookie answers `Eh`; Lilly answers `Eh`; Mugen answers `Eh`; Nelph drops a reaction file. iBwoy briefly interrupts with `Ahem. I'm always here btw o.o`, only for Cookie to answer him with another `Eh`. Gilli joins, iBwoy eventually gives in with his own `Eh`, and the room starts stretching the syllable until Mugen, iBwoy, and ShiyaX are effectively competing in vowel inflation. The social turn is the whole scene: whatever the image originally meant, the reply itself becomes the content. The trigger image remains visually uninspected, so iBwoy is **POSTED BY** only; MADE BY, CAPTURED BY, FEATURING, and the pixels remain unresolved. This is a bounded surviving chorus scene, not proof that UL invented `Eh` that day.
 
-MAIN already owns this exact scene inside its Wall-history exhibit **THE DEFENDANTS START AUDITING THEIR OWN WALL HISTORY**, so the WIKI does not manufacture a second episode or a thin Spicy dossier.
+This belongs on the WIKI as a discrete Episode, not on MAIN as a thin iBwoy dossier. MAIN already has enough stable-account evidence to know iBwoy existed across 2020 Lobby and 2021 Wall, but not enough human texture to justify pretending a greeting and one excellent chorus are a whole biography.
 
-Cookie's `i need lick his ears again` now has a real Wall-text prehistory: an April 11 licking/yaoi screenshot scene, Cookie's April 13 `all it took was licky his ear and boom, he turned Yaoi`, then September's `again`. The text still does not prove one male target, one continuous event, or that Cookie is the actor depicted in any screenshot. Public promotion remains held pending visual/source-room evidence.
+Beckiie's later confrontation (`We all know you are using him`; `Are you asking that cause we caught you with a shame act?`) remains too context-poor for publication because the target is unresolved. Habba's image later gets interpreted as a small-person/tall-person visual, but the file is still visually unresolved, so no identities or literal height claims are inferred.
 
-The `☠ Members Only Lounge` companion export contains zero messages. It cannot supply textual guild-icon origin or authorship evidence. `MADE BY Mugen` remains user-confirmed canon, not an inference from that metadata.
+Wall's older cumulative recovery remains through **22:06; 21:24 and below next**. Formal consumed SHA stays null until the older baseline closes.
 
-Wall recovery is now through **22:06; 21:24 and below next**. Formal consumed SHA remains null until the cumulative baseline closes.
+## Duplicates combined / held
 
-### All Characters HR — through `57ca77cf…`
-
-Run 7 covers Cookie, Ghostt, Nuien, Rooks, Ten, Tofu, and Zepp. Cookie/Tofu's 2024 reciprocal screenshot warfare is already canonically owned by MAIN's Tofu biography; Ghostt's explicit game/Discord split, Nuien's people-as-occupancy/group-movement pattern, Ten's mirroring, Tofu's receipts-and-limits spine, Rooks's self-filing continuity, and Zepp's quote reputation/pre-Raja continuity are already represented by stronger public owners.
-
-The genuinely additive late keeper is **Rooks + Lilly's nonverbal reaction-language duet**. One recovered Wall exhibit repeatedly resolves only Rooks and Lilly across a long family of pout reactions. MAIN integrated that as person texture in Rooks' biography: the repeated selection starts functioning like dialogue without turning one reaction field into a friendship ranking, exclusivity claim, or formal relationship category.
-
-That distinction is why this remains **MAIN-only**. The evidence is excellent biography texture but does not yet justify a separate WIKI Episode, a durable Relationships object, or a Running Gag page. The WIKI records the ownership decision instead of photocopying MAIN's scene.
-
-All Characters HR is consumed through `57ca77cf2ab797c47fd030d7de43b87f07dd2b1d`.
-
-## Held / unresolved
-
-- No Cookie/Tofu romance or closeness ranking from reciprocal screenshot warfare.
-- No Rooks/Lilly friendship ranking, exclusivity, or formal relationship category from one reaction field.
-- No pooled Deleted User resolution beyond scene-specific user-confirmed exceptions.
-- No Ghostt appointment chronology from export-time role arrays.
-- Nuien remains distinct from Illien/Euros.
-- Ten/Rooks joke-family language remains joke-family language.
-- Tofu's more personal intake name stays non-public; her own preference is `just call me Tofu`.
-- Zepp's quote reputation is real; the missing quote corpus is not invented.
-- Hishiro's teaching context does not become a job title, institution, or subject without direct evidence.
-- Cookie's ear-lick target and screenshot subjects remain unresolved.
-- The empty Members Only Lounge export is not used as an icon-authorship receipt.
-- Core and Wall remain formally null-consumed until their older recovery baselines actually close.
+- Allenne's UnderLords membership + IGN is corroboration of existing MAIN/WIKI owners, not a new join-date claim.
+- Gilli/Gabu height warfare is already owned on both surfaces; no real height ranking is inferred.
+- Floofy/TinyChungus remain thin Ethereal visitors rather than paper-doll dossiers.
+- Spritely/Shurui `plabn` remains unresolved.
+- Namo's alleged `comedy duo` counterpart/context remains unresolved.
+- The Eh trigger image and its maker/capturer/subjects remain unresolved.
+- Beckiie's target/context remains unresolved.
+- Habba's image subjects and exact visual remain unresolved.
+- Core and Wall remain formally null-consumed until their older cumulative baselines close.
 
 ## Public changes this continuation
 
-**MAIN:** `src/content/people/rooks.md` gained the Rooks/Lilly pout-reaction duet, a supporting archive-confirmed claim, Lilly cross-link, and explicit anti-ranking fence. Reader-facing commit: `5ab2d3ae3bb1268ce229e2002f2ddcf40c534d6c`.
+**MAIN:** no reader-facing page changed. The reviewed Core material was duplicate/corroboration or unresolved, and iBwoy is intentionally too thin for a biography.
 
-**WIKI:** no reader-facing object changed. This state file records the intentional surface split and consumed SHA without cloning MAIN's person-texture scene.
+**WIKI:** `src/data/integrator-episodes-wall-20260828.ts` gained **The Eh Chorus** at reader-facing commit `172a32e9e8758d132ddd61e9b799d72c2a1cf142`. This is intentionally WIKI-only because the evidence is incident-shaped, not a rich person dossier.
 
 ## Verification / deployment
 
-MAIN Rooks content head `5ab2d3ae3bb1268ce229e2002f2ddcf40c534d6c` passed its exact-commit `UL Hourly Build + Deploy` workflow: source canon/architecture verification, Astro build, built-output verification, and Cloudflare production deployment/commit verification all succeeded.
+WIKI reader-facing commit `172a32e9e8758d132ddd61e9b799d72c2a1cf142` passed the standalone **Build Underlords Wiki** Astro build. Its existing Pages workflow also completed **build → artifact upload → deploy → report** successfully.
 
-WIKI bookkeeping head `5334fbdda70480943e6792901e005a158b609d1b` passed both existing workflows: standalone **Build Underlords Wiki** succeeded, and **Deploy Underlords Wiki Preview** completed Pages build, artifact upload, deploy, and report successfully.
+MAIN has no reader-facing content commit in this continuation; its census/state/report commits are still required to pass the repository's normal source verification, Astro build, built-output verification, and Cloudflare production deployment before the run is reported closed.
 
-Final reconciliation bookkeeping heads created after those verified content/state commits are checked through their normal exact-head workflows before the run is reported complete.
+This rolling-state commit itself is checked through the WIKI's normal exact-head workflows before final closeout.
