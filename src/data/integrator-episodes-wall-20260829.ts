@@ -63,5 +63,14 @@ export const wallRecoveryEpisodes: Episode[] = [
     kind: "Wall taste war / Gilli buys the enemy flavor anyway",
     logline: "Dainyamite says `mint choco is good 😮`. Ren immediately reveals she is on the same side — `ITS NOOOT!! I love mint choco chip ...` — and, in the same ordinary little exchange, mentions that Gilli got her `a mint choco chip socks for my b-day`. Forty-three minutes later Gilli personally enters the record and tells Dainyamite `I hate Mint and chocolate together`. Dainyamite answers with mint-ice-cream media and then discovers the GIF search has apparently been annexed by Cookie Run. The tiny relationship beat is better than the flavor war: Gilli dislikes the combination and still apparently bought the themed gift because Ren likes it. That does not need a formal relationship label to be legible as care; sometimes affection is simply buying somebody socks decorated with the dessert you think tastes wrong. Ren is SAID BY for the birthday-sock claim; Dainyamite is POSTED BY for the Tenor embed; its underlying maker is not assigned.",
     cast: ["Dainyamite", "Ren", "Gilli"]
+  },
+  {
+    id: "oyasumi-stairs-again",
+    title: "He Died on the Stairs Again?!",
+    season: "2022",
+    date: "August 31, 2022",
+    kind: "Wall probable-target callback / Oyasumi refuses to confirm his own staircase death",
+    logline: "Gilli posts an uninspected screenshot and tags Oyasumi. Daya true-replies to that exact Gilli post with `HE DIED ON THE STAIRS AGAIN?!?!`, making Oyasumi the probable target of the alarm even though the pixels themselves remain sealed. Oyasumi true-replies to Daya with the magnificently unhelpful `No 💀`; seven seconds later he reopens his own case with `Or did I ?`. The tiny pause matters: he gets one clean chance to deny the allegation and then immediately decides ambiguity is funnier. `AGAIN` also tells us the room already remembers an earlier stair-death incident, but this is a callback receipt, not the recovered origin. Gilli is POSTED BY for the screenshot; Daya and Oyasumi are SAID BY for the text; MADE BY, CAPTURED BY, FEATURING, the exact game mechanic, and the first staircase casualty remain unresolved.",
+    cast: ["Oyasumi", "Daya", "Gilli"]
   }
 ];
