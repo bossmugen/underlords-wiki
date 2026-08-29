@@ -2,6 +2,24 @@ import type { Episode } from "./wiki";
 
 export const integratedEpisodes: Episode[] = [
   {
+    id: "snow-best-material-in-vc",
+    title: "Snow Keeps the Best Material in VC",
+    season: "2020",
+    date: "November 4, 2020",
+    kind: "Wall / voice-chat evidence avoidance",
+    logline: "ShiyaX tells Snow that if he would literally type, she could screenshot him onto the Wall. Snow answers `That is why i leave my best material in vc 😛`. Anthos immediately reviews the allegedly premium audio feed as `all u do in vc is monch`; Zoshaa objects that Snow still got on her case for eating `ONE(1) FREEZIE`. The joke is Snow understanding the Wall's evidence mechanics and claiming medium choice as self-defense; it is not a formal privacy policy, proof VC could not be recorded, or proof of the still-missing original freezie incident.",
+    cast: ["Snow", "ShiyaX", "Anthos", "Zoshaa"]
+  },
+  {
+    id: "raining-nude-bush-hours-retelling",
+    title: "Raining Nude Bush Hours",
+    season: "2020",
+    date: "November 4, 2020",
+    kind: "Wall throwback / unresolved old crime scene",
+    logline: "Gilli suddenly remembers `when Ana left Snow in the bushes naked`; Pride/neffiegames answers `i have picture`; five minutes later Zoshaa calls the remembered Snow era `raining nude bush hours`. Separate stable-account context safely bridges `Ana` to Anayss. The retelling is real; the original incident is still missing. Why Snow was naked, why bushes, what `raining` or `emo` modify, and the referenced picture's POSTED BY / CAPTURED BY / MADE BY provenance remain unresolved. A 2022 Snow bushes GIF was checked and does not currently clear the callback bar.",
+    cast: ["Snow", "Anayss", "Gilli", "Pride", "Zoshaa"]
+  },
+  {
     id: "always-vote-out-gabu",
     title: "Always Vote Out Gabu",
     season: "2021",
