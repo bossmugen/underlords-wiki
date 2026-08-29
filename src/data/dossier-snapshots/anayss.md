@@ -6,7 +6,7 @@ roles:
   - "Underboss"
   - "Battle Leader"
   - "Game Officer"
-summary: "The archive follows Anayss from 2020 map confusion and mutual bewilderment with Gabu into years of front-door wayfinding, battle callouts, practical care, and schedule coordination. Her current Underboss / Battle Leader role is locked separately from that progression."
+summary: "The archive follows Anayss from 2020 map confusion and mutual bewilderment with Gabu into years of front-door wayfinding, creative work, battle callouts, practical care, and schedule coordination. Her current Underboss / Battle Leader role is locked separately from that progression."
 summaryEvidence: "archive-confirmed"
 publication: "public"
 claims:
@@ -45,6 +45,13 @@ claims:
       - label: "Club Only recovered export"
         href: "/channels/club-only"
     note: "This is the Dragon Raja in-game map, not the UL Discord Tour/server map. Both focal Anayss messages have empty reaction arrays in the recovered export."
+  - text: "On November 8, 2020, Anayss posted a group-chibi work in progress in the Louvre and named several UL people she intended to include. In June 2021 Bryce said one of her artworks was still his phone background; that August Anayss called pieces `first time drawing anime` and `first time drawing art on a PC`, and in September Gilli praised specific visual details while Anayss discussed process."
+    evidence: "archive-confirmed"
+    date: "2020-11-08 – 2021-09-14"
+    sources:
+      - label: "🖼️ Louvre recovered export"
+        href: "/channels/louvre"
+    note: "This is recurring creative-work evidence, not a formal UL artist title. Named intended subjects come from Anayss's own text; do not infer additional identities from pixels."
   - text: "From at least December 2020 through April 2024, Anayss repeatedly welcomed arrivals in Lobby and routed them toward the Discord Tour/server map, Rules, Whiskey Room, Club Only, and Biodata as needed."
     evidence: "archive-confirmed"
     date: "2020-12-10 – 2024-04-02"
@@ -94,6 +101,7 @@ antiFanon:
   - "Welcoming people and handing out server directions does not create an inferred Gatekeeper, Recruiter, Sniper, or other appointment. Later shared welcome copy does not prove Anayss authored the packet."
   - "The `wb` scenes prove human recognition at re-entry, not a first membership date, an account-history explanation, or why somebody returned. Gabu is visibly doing the same recognition work in some of the same Lobby windows, so do not turn it into an Anayss-exclusive job. MEE6's welcome card is account-state evidence, not relationship chronology."
   - "The April 2024 planner exchange is one clean Anayss-to-Wolf handoff. It does not establish a standing planning duo, friendship rank, appointment chronology, or authorship by Anayss of Wolf's planner."
+  - "The 2020–2021 Louvre trail proves recurring creative work and peer use/praise of Anayss's work, but not a formal artist appointment or identities guessed from image pixels."
 relatedPeople:
   - "mugen"
   - "gabu"
@@ -106,6 +114,8 @@ tags:
   - "game-officer"
   - "lobby"
   - "slice"
+  - "louvre"
+  - "art"
   - "offline-meetup"
   - "operations"
   - "real-life-first"
@@ -123,6 +133,8 @@ That makes the next surviving turn better. By December she is repeatedly in the 
 
 The same period also places her firmly inside UL's relationship grammar. Anthos's Tumbleweed update labels her as Gabu's `boyfriend` in the house-joke map. That is not literal romance, but it shows how quickly Anayss had become legible enough to the room to acquire fake-family metadata.
 
+And November adds a second lane: she posts a group-chibi work in progress in the Louvre and names several UL people she intends to include. By June 2021 Bryce says one of her artworks is **still his phone background**. Later that summer Anayss is labeling pieces **`first time drawing anime`** and **`first time drawing art on a PC`**; in September Gilli is praising details like shading, eyes, hair, and clothes while Anayss talks process. The useful progression is simple: she is not only being rendered by UL's later creative culture. She was already making things inside it.
+
 ## 2021–2022 — FROM WAYFINDING TO ROUTINE RESPONSIBILITY
 
 Through 2021 and into 2022, the archive increasingly catches Anayss doing repeatable house work rather than simply appearing in the room. She posts time-sensitive battle and event callouts, recognizes returning members before the bot can explain who they are, and keeps routing people through the front door.
@@ -137,4 +149,4 @@ The later Lobby record shows the same pattern continuing: arrivals get direction
 
 That exchange is small, but it fits the longer trajectory. Anayss' archive begins with **`i get lost a lot`** and ends, at the current boundary, with her specifying which battles belong on which days so somebody else can publish the map for everyone.
 
-The current Underboss / Battle Leader titles are confirmed separately; the archive should not invent when they began. What it can show is why those titles do not feel disconnected from the person. Over time, Anayss moves from learning UL's rooms to helping other people navigate them, from joining the noise to coordinating pieces of it, without losing the ordinary warmth that made the room a place worth coordinating in the first place.
+The current Underboss / Battle Leader titles are confirmed separately; the archive should not invent when they began. What it can show is why those titles do not feel disconnected from the person. Over time, Anayss moves from learning UL's rooms to helping other people navigate them, from joining the noise to coordinating pieces of it, without losing the ordinary warmth — or the creative streak — that made the room a place worth coordinating in the first place.
