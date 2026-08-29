@@ -99,5 +99,23 @@ export const integratedEpisodes: Episode[] = [
     kind: "Wall founder archaeology / afterhours evidence remains sealed",
     logline: "A Dragon Raja screenshot sends the Wall into founder archaeology. Mugen says Suzi `litrally helped start UL`, answers `Yus` when asked whether Suzi was one of the founders, and says Suzi still gets freaked out by `afterhours activities`. Nhou supplies the killer continuity line: `Suzi freaked out since the beginning xD.` Mugen immediately counter-files that `suzi be the freakiest of us all.` The text tree is intact, but `Screenshot_20210911-044859_Dragon_Raja.jpg` remains visually uninspected, so the exact afterhours offense stays unknown. Source-era pronoun wording does not override current user-confirmed canon.",
     cast: ["Suzimasu", "Mugen", "Nhou", "Ren"]
+  },
+  {
+    id: "woofannys-refusal",
+    title: "The #woofannys Refusal",
+    season: "2020",
+    date: "November 27, 2020",
+    kind: "Wall escalation / the joke hits an explicit no and actually stops",
+    logline: "Nobu asks Mugen `how does that work hun`; WOO posts `unknown.png` with `#woofannys`; Ren frames the package as `@Nobu & @_WOO`; and Mugen starts asking Nobu for a picture. Then Ren says `he already said no, boss`. WOO repeats the answer — `he said no thanks` — and closes with `what a nice guy`. The file behind the hashtag remains visually uninspected, so WOO is only POSTED BY and its maker, capturer, subjects, and exact premise stay unresolved. What the text preserves unusually cleanly is the social brake: once the refusal is named, the teasing ends instead of becoming a negotiation.",
+    cast: ["Woosung", "Nobu", "Ren", "Mugen"]
+  },
+  {
+    id: "spritely-lilly-summoning",
+    title: "The Lilly Summoning",
+    season: "2020",
+    date: "October 23, 2020",
+    kind: "Club Only micro-scene / one quiet member's surviving voice is basically affection at full volume",
+    logline: "Two weeks after Spritely directly says they joined UL from Aether, Lilly enters Club Only with `good morning lovelies!!`. Two minutes later Spritely materializes with `LILLYYY`; Rookie Cookie independently adds `LILLLLYYYYYYY`; Lilly runs `eli glomp @Spritely`; Spritely hugs her back and closes with `ilysm Lilly ❤️`. Generated Eli output in the same exchange renders Spritely as `ѕнurui`, independently reinforcing the Shurui identity from onboarding. These are currently Spritely's entire surviving authored stable-ID Club-Only lines, which makes the tiny scene useful precisely because it gives a quiet account social shape without pretending three messages are a personality diagnosis. The generated responses sit under pooled Deleted User export provenance and are not attributed to a deleted human.",
+    cast: ["Spritely", "Lilly", "Rookie Cookie"]
   }
 ];
