@@ -81,5 +81,14 @@ export const coreIntegratedEpisodes: Episode[] = [
     kind: "Lobby guest desk / one direct sentence catches VIP working as access treatment",
     logline: "Snow asks Lorilee for `in game name and Club? or server`. Lorilee answers, unedited, `Lorilee. Caelum. And s8:DRcute:`. Snow's next line is equally plain: `Welcome  ^_^ giving you vip status`. The scene is useful because nothing needs to be reverse-engineered from a later role array: Lorilee identifies herself as Caelum / S8 in the doorway, and Snow contemporaneously says he is assigning VIP. In this dated case, VIP is visibly functioning as guest-facing access treatment rather than as evidence that Lorilee was an Underlords in-game member. One doorway still does not universalize the mechanism — it does not prove every outsider got VIP, identify an inviter or recruiter, establish a Dragon Raja join date, or tell us when Lorilee later stopped appearing. The boring little administrative sentence is the receipt.",
     cast: ["Lorilee", "Snow"]
+  },
+  {
+    id: "loligraveyard-i-mean-loliparadise",
+    title: "LoliGraveyard, I Mean LoliParadise",
+    season: "2020",
+    date: "September 24, 2020",
+    kind: "Lobby guest wave / seven LoliParadise visitors turn intake into a live name-resolution problem",
+    logline: "At 7:53 p.m. kyu checks in as `Zingzing, LoliParadise`; seconds later Nyann supplies the edited-final `Nyann, LoliGraveyard I mean LoliParadise`. Then Aithne, Lynneia, Iridescent22, Hwalei, and BaiQian all directly self-identify with LoliParadise over the same evening. Five of the seven appear inside roughly the first half hour. Meanwhile Mugen is already in Club Only going `LOL It wasnt hakai it was zingzing in my dms`, which is basically the human front desk discovering that one person can have enough names to become an administrative weather event. The seven direct club IDs make a coordinated or socially linked guest wave more likely than seven unrelated coincidences, but the surviving handoff does not identify one inviter, recruiter, delegation, or exact DM plan. KrY, processed inside the same queue, directly says `XkryX, uhm Virtuoso`, so adjacency does not draft him into LoliParadise. And because the archive has teeth: Lynneia/lunnely and the different July guest Lynnia/liangxiang are separate stable accounts despite the spelling trap.",
+    cast: ["Mugen", "Zingzing", "Nyann", "Aithne", "Lynneia", "Iridescent22", "Hwalei", "BaiQian", "KrY"]
   }
 ];
