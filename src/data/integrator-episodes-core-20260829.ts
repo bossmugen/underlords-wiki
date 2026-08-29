@@ -63,5 +63,14 @@ export const coreIntegratedEpisodes: Episode[] = [
     kind: "Club Only game glitch / Cas declines the repair because the bug has become funnier than the fix",
     logline: "One day after explaining that `potency` is the in-game name she is using because her usual username belongs to an abandoned first character, Cas gets stuck with a Dragon Raja planter-box glitch. Mugen offers the sensible repair: restart. Cas answers `i just find it funny`, then watches the object survive the problem long enough to decide `i think this planter box is part of my character now` and `it follows me every time i teleport`. That is the whole little character beat: technical nuisance becomes companion because Cas would rather enjoy the absurdity than rush to erase it. The later archive gives the same person drifting into FFXIV and then Yakuza; both times Mugen answers with some version of `no worries pot`, including the March 2021 reply `No worries pot! We'll see u around uwu`. `pot` is therefore safe as recurring Mugen-to-Cas scene language, not a global alias; the abandoned first character's name, Cas's exact game-club membership chronology, and any departure date remain unresolved.",
     cast: ["Cas", "Mugen"]
+  },
+  {
+    id: "shk-study-first-sensei",
+    title: "Study First, Senseiii",
+    season: "2020",
+    date: "September 3–24, 2020",
+    kind: "Club Only role progression / Shk starts assigning coursework before the room starts calling him Sensei out loud",
+    logline: "On September 3 Shk goes fully classroom-mode in Club Only: `study first`, `@here hope u all studying`, `take note`, then `it could be in ur test`. The exact imaginary curriculum is not reconstructed, but the grammar is unmistakable: this man is addressing the room like somebody has assigned homework. By September 23 Mugen greets him `hi hi senseiii @Shk`; the next day Ansun says `later senseiii`, with Euros immediately adding `gl @Shk !`. A September 29 organization map then carries `SHIKI - sensei`, and early-October bot output renders `SHIKI` around the same stable Shk account, making that historical display bridge safe. The order is the good part: behavior first, affectionate peer-address second, map label third. The archive therefore shows `Sensei` functioning as lived social address rather than only exporter metadata, but September 23 is merely the earliest direct peer-address surfaced here — not a proven title origin or appointment date. `SHIKI` is a historical Discord/display identity; Shk's self-reported historical Dragon Raja IGN remains `ReisenUInaba`.",
+    cast: ["Shk", "Mugen", "Ansun", "Euros"]
   }
 ];
