@@ -90,5 +90,14 @@ export const coreIntegratedEpisodes: Episode[] = [
     kind: "Lobby guest wave / seven LoliParadise visitors turn intake into a live name-resolution problem",
     logline: "At 7:53 p.m. kyu checks in as `Zingzing, LoliParadise`; seconds later Nyann supplies the edited-final `Nyann, LoliGraveyard I mean LoliParadise`. Then Aithne, Lynneia, Iridescent22, Hwalei, and BaiQian all directly self-identify with LoliParadise over the same evening. Five of the seven appear inside roughly the first half hour. Meanwhile Mugen is already in Club Only going `LOL It wasnt hakai it was zingzing in my dms`, which is basically the human front desk discovering that one person can have enough names to become an administrative weather event. The seven direct club IDs make a coordinated or socially linked guest wave more likely than seven unrelated coincidences, but the surviving handoff does not identify one inviter, recruiter, delegation, or exact DM plan. KrY, processed inside the same queue, directly says `XkryX, uhm Virtuoso`, so adjacency does not draft him into LoliParadise. And because the archive has teeth: Lynneia/lunnely and the different July guest Lynnia/liangxiang are separate stable accounts despite the spelling trap.",
     cast: ["Mugen", "Zingzing", "Nyann", "Aithne", "Lynneia", "Iridescent22", "Hwalei", "BaiQian", "KrY"]
+  },
+  {
+    id: "bailey-someone-take-my-phone-away",
+    title: "Someone Take My Phone Away Pls",
+    season: "2021",
+    date: "April 21, 2021",
+    kind: "Wall bedtime / Bailey declares ghosthood, announces bedtime, and lasts twenty-five seconds before asking for device intervention",
+    logline: "Kuki tells Bailey_Babe `thought u be sleeping`. Bailey answers `who needs sleep`, then upgrades herself to `I’m a ghost 👻`. After Kuki posts a Ghostbusters GIF, Bailey finally concedes `Altho I actually am going to sleep rn` and follows it five seconds later with the beautifully optimistic boundary `Don’t bother me lmao`. Twenty-five seconds after that: `Someone take my phone away pls`. Ren is already redirecting the continuing traffic toward Whiskey Room. The tiny reversal is the whole scene: Bailey first treats sleep as unnecessary, then treats the room as the potential interruption, then almost immediately admits the harder interruption is the phone still in her own hand. An earlier April Lobby check-in supports Bailey_Babe as historical Tipp — Ren asks `tipp?`, Bailey self-reports `Tipp 17`, and Gilli completes the handoff — but `17` stays a timestamped 2021 self-report rather than a current-age claim. One ridiculous bedtime is not chronic insomnia canon; it is one very clean example of a person attempting to log off and losing an argument with her own device.",
+    cast: ["Bailey_Babe", "Kuki", "Ren"]
   }
 ];
