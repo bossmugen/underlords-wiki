@@ -97,12 +97,17 @@ claims:
     date: "2023-03-15"
     sources:
       - label: "Announcements recovered export"
-        href: "/channels/announcements"
   - text: "On August 14, 2026, WolfPhenix called reunion Whiskey `de corpses are aliiive` and said `time to draag`; about fifteen minutes later, when Mugen tagged WolfPhenix, Gilli, and Drink water reminder with `pls babysit halp` before leaving for a meeting, Wolf's surviving reply was `🫡`."
     evidence: "archive-confirmed"
     date: "2026-08-14"
     sources:
       - label: "Aug. 14 Whiskey living receipt"
+  - text: "On August 11, 2026, after Mugen said `the bots call us deranged a lot`, WolfPhenix remembered an old screenshot that would fit the point, admitted she had forgotten where she put it, and returned seventeen minutes later with `i` / `found` / `iiit` before presenting the 2021 Key/Woohyuk vehicle-escalation screenshots as proof of `UL BACK IN DE DAY`."
+    evidence: "archive-confirmed"
+    date: "2026-08-11"
+    sources:
+      - label: "August 2026 Living Ensemble · Wall archaeology"
+    note: "The surviving attachment package is POSTED BY Mugen; Wolf visibly presents the older screenshots inside the captured conversation. The original 2021 CAPTURED BY and exact source remain unresolved."
 
 antiFanon:
   - "Do not flatten UL's origin into five equal co-founders. Mugen started / founded Underlords; WolfPhenix came with her from Altissa and belongs to the five-person founding circle."
@@ -114,6 +119,7 @@ antiFanon:
   - "Kaede's long response and Wolf's reply establish a warm, directly expressed family relationship in this scene. Do not inflate one anniversary exchange into an exclusive friendship ranking or unsupported pair biography."
   - "The June 2023 Sye/Wolf doodle exchange is one direct collaboration scene, not proof of a standing creative duo, friendship rank, or maker credit for the final communal poster."
   - "Mugen's 2026 `pls babysit halp` tag is a household/trust joke, not a new appointment, a seniority ranking among Wolf/Gilli/Gabu, or proof that the three were a standing historical management unit."
+  - "The August 2026 receipt hunt is one directly grounded retrieval scene. It does not establish that Wolf captured the original 2021 screenshots, maintained an official archive, or held a formal archivist role."
   - "Reaction counts are reception evidence, not friendship or importance rankings."
 
 relatedPeople:
@@ -128,6 +134,8 @@ relatedPeople:
   - "ren"
   - "sye"
   - "kaede"
+  - "key"
+  - "woohyuk"
 
 tags:
   - "founding-circle"
@@ -142,6 +150,7 @@ tags:
   - "artist"
   - "anniversary"
   - "family"
+  - "archive-memory"
 ---
 
 # WolfPhenix
@@ -182,10 +191,18 @@ In May 2025, she returns to the Louvre with a three-stage doodle process and giv
 
 That sentence is a better description of mature UL visual culture than a fixed brand guide. The question is not only whether the object uses the right logo. It is whether Wolf feels it has accumulated enough of the group's own language to read as them.
 
-## 2026 — FOUNDING HISTORY HAS BECOME REUNION FAMILIARITY
+## 2026 — SCREENSHOT ARCHAEOLOGY BECOMES LITERAL
 
-When Whiskey wakes up during the August reunion, Wolf calls it **`de corpses are aliiive`** and says **`time to draag`**. A little later Mugen tags Wolf, Gilli, and Gabu with **`pls babysit halp`** before leaving for a meeting; Wolf replies `🫡`.
+On August 11, Mugen says **`the bots call us deranged a lot`**. Wolf immediately says she has an old screenshot that would fit the point—and, crucially, that she cannot remember where she put it.
+
+Seventeen minutes after first mentioning it, Wolf returns in four bursts: **`i` → `found` → `iiit` → keyboard smash**. Then she presents the recovered Key/Woohyuk vehicle-escalation screenshots with **`BACK IN 2021, IF THIS ISNT UL BACK IN DE DAY IONO WOT IZZZZ`**.
+
+The sequence is useful because it shows the behavior rather than merely giving Wolf the label `archive memory`. She remembers a particular piece of evidence, goes looking for it, comes back visibly delighted at the recovery, and uses the receipt as her proof of what old UL was like. The delay matters: memory arrives first, the object has to be hunted down, and the triumph is partly that six-year-old nonsense is still retrievable at all.
+
+The surviving 2026 screenshot package is POSTED BY Mugen. Wolf is visibly presenting the older screenshots inside the captured conversation; that is not evidence she originally captured the 2021 images or ran an official archive.
+
+When Whiskey wakes up again on August 14, Wolf calls it **`de corpses are aliiive`** and says **`time to draag`**. A little later Mugen tags Wolf, Gilli, and Gabu with **`pls babysit halp`** before leaving for a meeting; Wolf replies `🫡`.
 
 That is not a new appointment or hidden seniority chart. It is the late-era version of the same continuity: Wolf is still one of the people Mugen can address without reintroducing the relationship, and Wolf is still participating in the room as both contributor and family member.
 
-The biography therefore progresses cleanly: pre-UL friend / founding-circle member → visible creative and planning contributor → socially recognizable house figure → artist of a major communal memory object → continued maintenance and redesign years later → reunion-era familiarity. The titles matter. The years explain the person wearing them.
+The biography therefore progresses cleanly: pre-UL friend / founding-circle member → visible creative and planning contributor → socially recognizable house figure → artist of a major communal memory object → continued maintenance and redesign years later → person who can still go digging for a six-year-old receipt when the room needs proof. The titles matter. The years explain the person wearing them.
