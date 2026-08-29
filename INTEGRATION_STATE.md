@@ -1,59 +1,55 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration continuation: **2026-08-29 04:14 PDT**.
+Last dual-surface integration continuation: **2026-08-29 04:30 PDT**.
 
 Full branch-level consumption state is durable on MAIN in `archive-intake/INTEGRATOR_BRANCH_STATE.json`; prior rolling wiki states remain in Git history.
 
 ## Census / queue
 
-The mandatory opening census was persisted on MAIN before deep review: **27 active remote miner refs** plus **21 historical/missing refs**, for **48 tracked branch identities** total.
+The mandatory opening census was persisted on MAIN before deep review, then repeated at close: **27 active remote miner refs** plus **21 historical/missing refs** = **48 tracked branch identities**. No active miner head moved between the opening and closing census.
 
-The closing census caught additional movement while the pass was running. `archive-miner/louvre-ai-art-athenaeum-other-games-hourly` advanced from consumed `b06734a45772461c972141f280c208115a5e1cd3` to `f1dda8a59de25f52014e4b02937f2625fdc51eef`; that finite delta was reviewed checkpoint-first in the same pass and consumed through the new head after MAIN's accepted Beowulf change passed verification and deployment. Cumulative Wall advanced through `365a1a944e1cf4a25b05a21db43202664cc0f5ff` and was reviewed through that head, but its older safe baseline remains open so `last_consumed_sha` stays null. Core Rooms moved late to `052cf0544b971eed68f60abbdc48d018800dee58` and is durably seen inside its cumulative recovery without pretending the new suffix was reviewed. Whiskey moved late from consumed `e0c751afb41276b9f24d293985c99311da8dc68b` to `0862ebc888c7e736ca7e408e1276a25721d4d54f` and closes as the sole finite pending branch.
-
-Closing finite queue: **1 pending / 0 backlog / 0 review-overdue**. Core Rooms and Wall remain the two cumulative recovery tracks. Both Club-Only miners remain fully consumed/current; unchanged heads were not reopened merely because the standing prompt still describes an older backlog state.
+Closing finite queue: **0 pending / 0 backlog / 0 review-overdue**. Core Rooms and Wall remain the two cumulative recovery tracks with `last_consumed_sha: null` because their older safe baselines are unfinished. Both Club-Only recovery branches remain fully consumed/current and were not reopened simply because the standing instruction still describes an older backlog state.
 
 ## Reviewed this continuation
 
-### Louvre finite delta — `b06734a4… → f1dda8a5…`
+### Whiskey finite delta — `e0c751af… -> 0862ebc8…`
 
-The Louvre checkpoint was read first, followed only by the new branch-local findings, receipts, Beowulf profile, people addendum, rabbits, and site candidates.
+The Whiskey checkpoint was read first, followed by every changed intake-local findings, receipts, people, motifs, incidents, site candidates, rabbit holes, and open questions file in the delta. No raw archive was re-mined and no miner code outside its intake path was used.
 
-The accepted public correction is Beowulf's pre-Louvre chronology. On April 7, 2020 the stable `jeregilgamesh` account is at the Discord door saying `It say, locked`. A pooled Deleted User directly calls him `BEO`; when asked whether he had joined the club before, Beowulf answers `Yeah long time ago`. The pooled account says `I REMEMBER U` and `U WERE MY PRENTICE`; Beowulf answers `Yesss`. That makes the next night's earliest surviving Louvre message a surviving bookmark, not an admission scene.
+The accepted family is Jordayy's ordinary-life Whiskey texture: failed package redelivery, delegating dog cuddling so laundry can get finished, being in bed while her Dragon Raja `corpse` gets dragged around, recurring stretched-name recognition with Ghost, and work eventually taking her out of chat. MAIN's existing Jordayy biography was the right canonical owner, so it was deepened there instead of creating a duplicate WIKI person page.
 
-The same doorway window catches voice access trouble, `Where is the memes section`, Pokecord testing, and `Because 3 am`. Five weeks later the direction of traffic reverses: Beowulf asks `Invite shamont to the server`, Mugen answers `you can share the link with him beo!`, Beowulf pings Shamont, and Mugen performs the visible role assignment after Shamont appears. Safe claim: Beowulf is the immediate Discord invitation/access bridge in that scene. Unsafe claim: Beowulf formally recruited or admitted Shamont into the in-game club.
+The Ghost exchange is kept narrow. Jordayy says versions of `Is ghooooost`; Ghost mirrors the shape with `Is lunaaaa`. That is excellent recognition shorthand and useful 2021 naming evidence, but it does **not** merge Jordayy with HyaLuna/original Luna. Similar names across eras remain insufficient identity evidence. The missing dog-cuddle addressee, February `I'll be okay` antecedent, occupation, and uninspected media also remain unresolved.
 
-MAIN's Beowulf biography was the canonical owner for this correction and was expanded there. WIKI did not clone the full biography patch into the VIP dossier during this pass; the current WIKI Beowulf page remains a shorter fandom summary, while MAIN carries the richer pre-Louvre correction. Held: the pooled `prentice` speaker's identity, exact UL admission date, Beowulf-name origin, Shamont's in-game admission mechanics, and all visual claims from Beowulf's three uninspected Louvre media posts.
+**Consumption:** Whiskey advances through `0862ebc888c7e736ca7e408e1276a25721d4d54f`.
 
-**Consumption:** Louvre advances through `f1dda8a59de25f52014e4b02937f2625fdc51eef`.
+### Core Rooms cumulative handoff — current 04:03 package at `052cf054…`
 
-### Wall cumulative recovery — current forward head plus older 23:47 package
+Core was continued checkpoint-first for anti-starvation. The current 04:03 handoff gives Ten's 2020 Lobby greeting, `if they die they die` deadpan, explicitly in-game Anthos-apprentice wording, and the earliest surfaced direct literal `cuddle puddle` line in the currently checked assigned transcripts. MAIN's Ten biography already owned the person scenes richly, so it was not patched with a second telling.
 
-Wall was read checkpoint-first through current branch head `365a1a944e1cf4a25b05a21db43202664cc0f5ff`. The 04:04 derivative addenda were reconciled against already-reviewed findings instead of counted twice. The 04:12 handoff then produced one clean new person beat: Milo believed an incriminating moment had escaped notice; Gilli already had the screenshot.
+The genuinely additive public object is the phrase genealogy. On October 1, 2020 Ten posts `cuddle puddle` inside an active Eli cuddle-command pile. The line lands only **15 milliseconds** after Anthos's immediately preceding `eli cuddle @Mugen`, so the public version deliberately avoids pretending Ten processed and replied to that exact command in human reaction time; the safe reading is that both belong to the same live pile. Anthos uses `cuddle puddle` again on December 22. On December 29 Life/Sycee invites Anthos, Drink Water Reminder, and Jordayy to `join me for fun!`; Anthos replies `cuddle puddle??`, and Life escalates into a multi-target Eli sexual bot command. By then the wording has stretched from naming a bot-mediated cuddle pile into reusable group-affection / innuendo shorthand.
 
-On December 15, 2020 Gilli POSTS a screenshot, tags Milo ten seconds later, and Milo answers twenty-two seconds after the tag: `You mf ... haha thought no one seen that`. Milo's message has a later edited timestamp, so the export preserves the final wording only. Four laugh reactions land on the surviving version and Mugen follows with a binoculars/bird-watching GIF. The underlying screenshot remains visually uninspected, so the incident does not name what Milo did or assign CAPTURED BY / MADE BY / FEATURING.
+WIKI now owns this as the Running Gag **Cuddle Puddle**. October 1 is earliest **surfaced direct literal use in the currently checked assigned transcripts**, not proven coinage or global origin. The December 29 scene is Discord joke/bot-command language, not evidence of real-world sexual conduct.
 
-WIKI owns the bounded incident as the new episode **Milo Thought Nobody Saw That**. MAIN's already-rich Milo biography was not patched with a duplicate scene in this pass.
-
-The older Wall safe-baseline recovery also continued through the **2026-08-24 23:47 package**. Its strongest Panda/Marian ↔ Eos material is already richer on current public owners: Panda complains Eos is `too vanilla to shame me`, self-files, and later Eos accidentally types from Panda's account and gets Panda shamed anyway. MAIN's Panda biography already tells that relationship arc and WIKI's existing Panda ↔ Eos relationship card already owns the fandom-wiki version. The recursive Wall-jurisdiction material is likewise already represented in MAIN's broader Wall genealogy. No duplicate public object was created from those receipts.
-
-Wall remains `last_consumed_sha: null` because older pre-23:47 recovery material still exists. Current forward handoffs are reviewed through `365a1a944e1cf4a25b05a21db43202664cc0f5ff`.
+Core's older safe-baseline recovery remains open below the previously reviewed 03:46 package, with 02:46 and below next. `last_consumed_sha` therefore remains null even though this current handoff was successfully reviewed.
 
 ## Public integration split
 
-**MAIN:** `src/content/people/beowulf.md` gained the pre-Louvre doorway / old-history correction, BEO/beo alias receipts, unresolved remembered `prentice` language, 3 a.m. voice/memes/Pokecord texture, earliest-Louvre-not-origin boundary, and the later Shamont Discord-link handoff. Reader-facing commit: `a931e66ef3b5f468c56c6244d654dc611728cc02`.
+**MAIN:** `src/content/people/jordayy.md` gained the package-redelivery complaint, dog/laundry domestic logistics, the `corpse dragged in DR` line, recurring Ghost recognition, and work sign-off. Reader-facing commit: `92983c58dc68f3ca1d700f87bcf270ffeb57b491`.
 
-**WIKI:** `src/data/integrator-episodes-wall-20260828.ts` gained **Milo Thought Nobody Saw That**, keeping the Wall exposure as a bounded episode rather than cloning MAIN's person-biography structure. Reader-facing commit: `8985c2c645b2635cb735cc876069fd05a55673b3`.
+**WIKI:** `src/data/integrator-gags.ts` gained **Cuddle Puddle**, using the Ten -> Anthos -> Anthos/Life progression as a phrase genealogy rather than cloning Ten's biography. Reader-facing commit: `5ae355c734cfb2fea8483ac376d8590a70a7649e`.
+
+The split is intentional: MAIN owns lived person chronology; WIKI owns the reusable running-gag genealogy.
 
 ## Duplicates combined / held
 
-Already richer on current owners and therefore not republished: Panda/Marian ↔ Eos `too vanilla` / self-shame / wrong-account payoff; recursive Wall self-jurisdiction; Scar's `want me to exposed?` witness posture; Tofu/Cookie bee spam; Queen Shimoko's already-sampled three-message Wall footprint.
+Already richer on current public owners and therefore not republished: Ten's Lobby greeting, `if they die they die`, and his in-game Anthos-apprentice wording; Jordayy's already-public reading/disappearing, dog-catching, screen-share, and haircut material.
 
-Held rather than guessed: pooled Deleted User identity in Beowulf's `U WERE MY PRENTICE` scene; exact Beowulf admission date and name origin; Shamont in-game recruitment/admission; Beowulf's three Louvre media contents; Milo's screenshot contents and CAPTURED BY / MADE BY / FEATURING; Ansun's underlying ant incident; the February 2022 Wall-speedrun target; Ren's fountain-of-youth screenshot cause; Panda/Eos fake-family child targets; Gabu's sleep-scene trigger; and Momo's reported-speech-only `2fer1` source.
+Held rather than guessed: Jordayy Luna/Loona wording as a cross-era HyaLuna identity bridge; the dog-cuddle addressee; the February health/context antecedent; Jordayy's occupation; all uninspected Whiskey media attribution; Cuddle Puddle's true coinage/global origin; Ten's first UL arrival or role chronology; any conversion of `Anthos apprentice like in game` into a formal Discord rank or real-world mentorship; and any literalization of December 29's Eli bot-command sexual joke.
 
 ## Verification / deployment
 
-MAIN reader-facing Beowulf commit `a931e66ef3b5f468c56c6244d654dc611728cc02` passed `UL Hourly Build + Deploy` run **33250103050**. Its Build + verify job passed source canon/architecture verification, Astro build, and built-output verification; the verified exact commit then deployed successfully to Cloudflare Pages.
+MAIN reader-facing Jordayy commit `92983c58dc68f3ca1d700f87bcf270ffeb57b491` passed `UL Hourly Build + Deploy` run **33250538047**. The Build + verify job passed source canon/architecture verification, Astro build, and built-output verification; the deployment job then deployed and verified that exact commit on Cloudflare Pages.
 
-WIKI reader-facing Milo episode commit `8985c2c645b2635cb735cc876069fd05a55673b3` passed standalone `Build Underlords Wiki` run **33250119545** and Pages run **33250119540**, including Pages build and deployment.
+WIKI reader-facing Cuddle Puddle commit `5ae355c734cfb2fea8483ac376d8590a70a7649e` passed standalone `Build Underlords Wiki` run **33250562225** and Pages run **33250562185**, including Pages build, deployment, and report.
 
-MAIN durable branch-state reconciliation commit is `140e21d8196fbfd9dd854216401da1fe63ce44bc`. A matching MAIN run report is recorded separately under the 04:14 integration-pass convention. No miner branch was merged or cherry-picked wholesale.
+MAIN durable state/report commits and this WIKI state commit follow the reader-facing commits. Their exact final publishing heads must also pass the normal repository workflows; final head/results are recorded in the pass closeout. No miner branch was merged or cherry-picked wholesale.
