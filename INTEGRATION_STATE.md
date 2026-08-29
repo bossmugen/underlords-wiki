@@ -38,4 +38,8 @@ Similar names do not merge accounts. Current/export role arrays do not create ap
 
 ## Verification / deployment
 
-This continuation accepted no new reader-facing lore. The closing MAIN and WIKI state commits are being checked with each repository's existing workflow only: MAIN's normal source verification → Astro build → built-output verification → Cloudflare deployment chain, and WIKI's existing Astro build plus Pages build/deploy/report. Exact closing-head workflow results are verified before the pass is reported complete.
+The closing WIKI state commit `1594f9aa54ebde9754e28daaa0088b34ccd5a904` passed standalone `Build Underlords Wiki` run **33248410307** and Pages run **33248410302**. The Pages workflow completed its native build, deploy, and report chain successfully.
+
+On MAIN, closing state/report commit `21c1a84fa0095d60e8d1a41e991251821368168d` passed `UL Hourly Build + Deploy` run **33248398455**, including source verification, Astro build, built-output verification, and exact Cloudflare production deployment.
+
+This state amendment records those successful results only; it adds no reader-facing lore. Its exact final head is checked through the same existing WIKI workflows before the continuation is reported closed.
