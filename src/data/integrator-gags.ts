@@ -24,6 +24,12 @@ export const integratedGags = [
       "By mid-2021, choosing a bright UI could apparently qualify as self-incrimination on the Wall. On May 10 Rummy posted ‘I have lightmode on my alt’; about four minutes later Sorceress answered ‘LOL LIGHT MODE.’ On July 1 another participant, preserved only under Discord export's pooled Deleted User label, wrote ‘Mon is going to kill be cuz I have light mode.’ That later author stays unresolved. These are surviving documented instances, not a proven origin.",
   },
   {
+    id: "grounded-playtime",
+    name: "Grounded Means Playtime",
+    logline:
+      "UL managed to maintain a fake punishment track beside the real one. Rooks is already telling people ‘You both are grounded’ in October 2020; later that month Ren reports ‘Gilli grounded me XD.’ By May 2021 a bot-rendered interaction visibly outputs `UncleRoach(Grounded)`, prompting Ricochet to demand ‘HEY WHO TF GROUNDED ME.’ The key receipt lands June 29 when Akariel asks for the `grounded role` and Ren explicitly distinguishes the systems: Arrested is for actual punishment / serious situations and can lock somebody out of the server; Grounded is the playtime role. Gilli then uses fake grounding as hydration enforcement, and by March 2022 one `ussy` sentence produces `UNGROUND INNOCENT`, `NO SHAMING ANY USSY`, and `WE PROUSSY`. The mock appeals are the joke, not literal governance. Earliest surviving is not origin, and the exact technical implementation of Grounded remains unresolved; do not merge it with Arrested, Jail, or Judgement.",
+  },
+  {
     id: "breaststroke-relic",
     name: "The Breaststroke Relic",
     logline:
