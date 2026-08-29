@@ -117,5 +117,14 @@ export const integratedEpisodes: Episode[] = [
     kind: "Club Only micro-scene / one quiet member's surviving voice is basically affection at full volume",
     logline: "Two weeks after Spritely directly says they joined UL from Aether, Lilly enters Club Only with `good morning lovelies!!`. Two minutes later Spritely materializes with `LILLYYY`; Rookie Cookie independently adds `LILLLLYYYYYYY`; Lilly runs `eli glomp @Spritely`; Spritely hugs her back and closes with `ilysm Lilly ❤️`. Generated Eli output in the same exchange renders Spritely as `ѕнurui`, independently reinforcing the Shurui identity from onboarding. These are currently Spritely's entire surviving authored stable-ID Club-Only lines, which makes the tiny scene useful precisely because it gives a quiet account social shape without pretending three messages are a personality diagnosis. The generated responses sit under pooled Deleted User export provenance and are not attributed to a deleted human.",
     cast: ["Spritely", "Lilly", "Rookie Cookie"]
+  },
+  {
+    id: "aria-opens-both-doors",
+    title: "Aria Opens Both Doors",
+    season: "2020",
+    date: "November 25, 2020",
+    kind: "Whiskey cross-server hospitality / friend groups borrow each other's rooms",
+    logline: "Aria tells Gilli she'll send unnamed people toward UL because `I'm sure they'll be interested in the escape rooms`, then immediately swings the door the other way: `you're all also welcome in Forsaken's`. In the same breath she explains Forsaken's recurring Friday–Sunday social-activity schedule and how the holidays may change turnout. This is not a treaty, merger, or proof Aria held an organizing title. It is smaller and more useful: one person treating neighboring friend-spaces as mutually visitable. The beat gets a later echo in February 2021 when Aria greets `underlords` warmly and announces, in full caps, `I WAS LOOKING FOR GILLI`.",
+    cast: ["Aria", "Gilli"]
   }
 ];
