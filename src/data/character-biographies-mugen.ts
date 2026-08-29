@@ -55,11 +55,27 @@ export const mugenNarrativeCharacterBios: Record<string, CharacterNarrative> = {
         ]
       },
       {
+        period: "2024",
+        title: "The game finally loses to adulthood",
+        paragraphs: [
+          "By December 2024, one of the old return conversations finally gives Mugen an adult-life update instead of another Officer receipt. A returning veteran is surprised she remembers him. Mugen points at the Tumbleweed — `it's set in stone ofc we remember u` — and the room drifts into work, moving, housing and whatever happened while everybody was busy becoming older people.",
+          "Mugen says she probably will not return to Raja. She barely has time to sleep, she has a new full-time position, and she has moved. Nothing dramatic happens to the relationship because the game no longer fits her schedule. That is the point. Six years earlier, Raja was where the cast met. By 2024 Mugen's actual adult life can crowd Raja out without crowding the people out with it. The Boss is not permanently online. Mugs has somewhere else to be."
+        ]
+      },
+      {
         period: "Across the archive",
         title: "Control freak, not oracle",
         paragraphs: [
           "Mugen likes systems. Rooms, processes, events, visual identities, role structures, archives, lists, recurring things that become named things: if a social need keeps happening, there is a decent chance she will eventually try to give it a container. From far away that can look like somebody who needs control. Up close, the archive keeps catching her asking for help: `accurate or no, thoughts?` Officer rooms and event work preserve the same habit — missing information, corrections, opinions, verification, people with specialties being asked to use them.",
           "During the 2026 reunion, Mugen can remember enough people to operate as a retrieval engine and still need Snow and Sye to remind her how to assign Discord roles. That is the good part. She likes knowing what the fuck is going on. She does not appear to require pretending that she always does."
+        ]
+      },
+      {
+        period: "2021",
+        title: "The rule is not sacred",
+        paragraphs: [
+          "Photo Submissions gives a clean little test of what happens when people tell Mugen one of her rules is annoying. The NightLife Magazine round originally restricts where people can shoot. Members push back. Mugen does not spend an hour defending the first draft. She posts: `We hear your concerns and we're revising this month's photoshoot guideline!` Then, louder: `SHOOTS ARE NOW OPEN TO ANY LOCATION`.",
+          "The important part is what happens next: no wounded-authority monologue, no event cancellation, no attempt to make the revision look solemn. She immediately tells everybody to hit the JoJo pose and goes back to yelling `LEGGO STRIPPEEEERS`. Structure mattered. The first version of the structure did not. Mugen can change the rule and keep the party."
         ]
       },
       {
@@ -95,6 +111,14 @@ export const mugenNarrativeCharacterBios: Record<string, CharacterNarrative> = {
         ]
       },
       {
+        period: "2022–2024",
+        title: "This random video is us now",
+        paragraphs: [
+          "Meems catches a different kind of Mugen authorship. She is not usually making the outside clip. She is pointing at random internet debris and deciding that it has just been cast in Underlords. `Idk why but I thought of our @Officers when I saw this.` `Welcome to Underlords.` `@New using the UL gym for the first time.` `UL Dat u?` `UL restaurant.` `Litrally UL.` By the end of 2024 she is still doing it: `UL to each other`.",
+          "That is self-mythology by recognition instead of production. Once the cast has become legible enough, almost any unrelated video can be recast as the Officers, the restaurant, the gym, the stripclub, the house. Mugen keeps acting like the framing editor who sees the outside thing and says: this one is us. The internet becomes stock footage for people she already knows too well."
+        ]
+      },
+      {
         period: "Across the archive",
         title: "Menace with glitter on it",
         paragraphs: [
@@ -121,8 +145,8 @@ export const mugenNarrativeCharacterBios: Record<string, CharacterNarrative> = {
     ],
     closing: [
       "Strip away the Boss résumé and a fairly coherent woman is still standing there. She can be intimidating on first contact and ridiculous once she trusts the room enough to stop protecting the image. She describes herself as a drifter people come to for perspective, a hype person, a planner. She says she values Acts of Service and Quality Time. She likes systems, asks for corrections, and can admit she does not remember how the system works anymore. She draws hard lines around things she considers real while allowing almost everything around those lines to remain stupid.",
-      "She works too much. She naps. She has eleven years of mistakes, bb. She has taste that keeps wandering toward mafia glamour, neon, kisses, camp and visual self-invention. She has a preservation reflex old enough to predate the archive project by years. She can become mum, mama and papa without resolving any of those titles into a sane family structure. She is sentimental and usually damages the sentiment herself before anybody else gets the chance. The one time she tries a clean `It's been a while`, everybody gets scared.",
-      "Most importantly, leadership never required her to become less available as a person. UL was allowed to know her well enough to tease her, correct her, wake her, remember her old outfits, steal her failed mute into a title, watch her professional life leak into Discord, and become suspicious when she attempts one unaccompanied emotion. Mugen built the house, yes. Then she lived in it long enough that everybody knows the Boss is probably asleep — and that if she wakes up sentimental, something is deeply wrong."
+      "She works too much. She naps. She has eleven years of mistakes, bb. By 2024 a new full-time position and a move have crowded Raja almost completely out of her schedule while the people remain. She has taste that keeps wandering toward mafia glamour, neon, kisses, camp and visual self-invention. She has a preservation reflex old enough to predate the archive project by years. She can become mum, mama and papa without resolving any of those titles into a sane family structure. She is sentimental and usually damages the sentiment herself before anybody else gets the chance. The one time she tries a clean `It's been a while`, everybody gets scared.",
+      "Most importantly, leadership never required her to become less available as a person. UL was allowed to know her well enough to tease her, correct her, wake her, remember her old outfits, watch her revise a rule when the first version sucked, steal her failed mute into a title, watch her professional life leak into Discord, and become suspicious when she attempts one unaccompanied emotion. Mugen built the house, yes. Then she lived in it long enough that everybody knows the Boss is probably asleep — and that if she wakes up sentimental, something is deeply wrong."
     ]
   }
 };
