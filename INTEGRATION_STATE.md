@@ -84,8 +84,9 @@ Other Core material reconciled rather than cloned:
 ## Verification / deployment
 
 - MAIN reader-content commit `89c311feceae37565dff049b713d903a4615110f` passed the existing **UL Hourly Build + Deploy** workflow successfully, including source canon/architecture verification, Astro build, built-output verification, and exact Cloudflare production deployment.
-- WIKI reader-content head `14929134a0e0481f9d606407ab5341592d198013` passed **Build Underlords Wiki** successfully.
-- The direct Pages run on that reader-content head was cancelled by repository concurrency while the integration was still writing its sequence of commits; this durable-state push re-triggers the existing Pages build/deploy pipeline and must be green before the pass is reported closed.
+- MAIN durable consumption-state commit `069a9560d8531cb357dfc50f13b41418f2f894be` also passed the complete exact-head **UL Hourly Build + Deploy** workflow successfully.
+- WIKI reader-content head `14929134a0e0481f9d606407ab5341592d198013` passed **Build Underlords Wiki** successfully. Its direct Pages run was cancelled only because sequential integration commits triggered the repository's `cancel-in-progress` concurrency rule.
+- WIKI durable state head `c633489473c6074271d0555d1178d9639898525c`, which contains the Torr Episode and this pass state, passed both **Build Underlords Wiki** and the complete Pages **build → deploy → report** workflow successfully.
 
 ## Unresolved / protected
 
