@@ -99,5 +99,14 @@ export const coreIntegratedEpisodes: Episode[] = [
     kind: "Wall bedtime / Bailey declares ghosthood, announces bedtime, and lasts twenty-five seconds before asking for device intervention",
     logline: "Kuki tells Bailey_Babe `thought u be sleeping`. Bailey answers `who needs sleep`, then upgrades herself to `I’m a ghost 👻`. After Kuki posts a Ghostbusters GIF, Bailey finally concedes `Altho I actually am going to sleep rn` and follows it five seconds later with the beautifully optimistic boundary `Don’t bother me lmao`. Twenty-five seconds after that: `Someone take my phone away pls`. Ren is already redirecting the continuing traffic toward Whiskey Room. The tiny reversal is the whole scene: Bailey first treats sleep as unnecessary, then treats the room as the potential interruption, then almost immediately admits the harder interruption is the phone still in her own hand. An earlier April Lobby check-in supports Bailey_Babe as historical Tipp — Ren asks `tipp?`, Bailey self-reports `Tipp 17`, and Gilli completes the handoff — but `17` stays a timestamped 2021 self-report rather than a current-age claim. One ridiculous bedtime is not chronic insomnia canon; it is one very clean example of a person attempting to log off and losing an argument with her own device.",
     cast: ["Bailey_Babe", "Kuki", "Ren"]
+  },
+  {
+    id: "tae-fruit-on-fruit-crime",
+    title: "Fruit on Fruit Crime",
+    season: "2021",
+    date: "July 12, 2021",
+    kind: "Wall faux case report / Ansun timestamps one swear word and Tae immediately reclassifies the charge",
+    logline: "Ansun posts an unresolved attachment; Tae says `no cuz yall giving me a headache`. Two seconds later Ansun begins the world's least necessary incident report: `Tae said \"fuck\" July 12 2021`, followed by `directed at Ansun in an act of microaggression, framed upon the wall at 10:12PM PST`. Tae does not use her usual Wall defense of asking why she is even there. She accepts that an offense has been alleged and changes the legal category instead: `Also known ass fruit on fruit crime`. Ansun answers with a dance emote rather than rebuttal. The switch is the whole joke — Ansun gives one swear word date, target, fake charge, archive location, and exact clock time; Tae's defense strategy is not innocence but jurisdictional rebranding. `microaggression` is Ansun's joke framing, not a real moderation finding. `fruit on fruit crime` stays scene-specific until another callback appears, and the unresolved attachment does not authorize us to explain what `fruit` means or describe unseen pixels.",
+    cast: ["Tae", "Ansun"]
   }
 ];
