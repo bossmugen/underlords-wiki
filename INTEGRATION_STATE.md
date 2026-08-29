@@ -1,6 +1,6 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration continuation: **2026-08-29 06:12 PDT**.
+Last dual-surface integration continuation: **2026-08-29 06:16 PDT**.
 
 Full branch-level consumption state is durable on MAIN in `archive-intake/INTEGRATOR_BRANCH_STATE.json`; prior rolling wiki states remain in Git history.
 
@@ -8,7 +8,7 @@ Full branch-level consumption state is durable on MAIN in `archive-intake/INTEGR
 
 The full census is **27 active remote miner refs** plus **21 historical/missing refs** = **48 tracked branch identities**.
 
-Opening finite queue was empty. A closing census caught `archive-miner/all-characters-hr-20260828` advancing from consumed `7cdf996f…` to `6e58b78a…`; that delta was reviewed checkpoint-first in the same run and consumed rather than left as seen-only debt. Closing finite queue is therefore **0 pending / 0 backlog / 0 review-overdue**.
+Opening finite queue was empty. During closeout `archive-miner/all-characters-hr-20260828` advanced twice: first from consumed `7cdf996f…` to `6e58b78a…`, then again to `57ca77cf…`. Both intake-only deltas were reviewed checkpoint-first in the same run. The miner's out-of-intake `src/content/people/cookie.md` edit was ignored rather than imported. After independent MAIN curation and successful verification, All Characters HR is consumed through `57ca77cf2ab797c47fd030d7de43b87f07dd2b1d`. Closing finite queue is **0 pending / 0 backlog / 0 review-overdue** at this recorded boundary.
 
 Core Rooms and Wall remain the two cumulative recoveries with `last_consumed_sha: null`. Both Club-Only miners remain fully consumed/current. No miner branch was merged or cherry-picked wholesale.
 
@@ -36,21 +36,25 @@ The `☠ Members Only Lounge` companion export contains zero messages. It cannot
 
 Wall recovery is now through **22:06; 21:24 and below next**. Formal consumed SHA remains null until the cumulative baseline closes.
 
-### All Characters HR — `7cdf996f… -> 6e58b78a…`
+### All Characters HR — through `57ca77cf…`
 
-The late finite delta contained seven intake-local character files: Cookie, Ghostt, Nuien, Rooks, Ten, Tofu, and Zepp. All seven were reviewed.
+Run 7 covers Cookie, Ghostt, Nuien, Rooks, Ten, Tofu, and Zepp. Cookie/Tofu's 2024 reciprocal screenshot warfare is already canonically owned by MAIN's Tofu biography; Ghostt's explicit game/Discord split, Nuien's people-as-occupancy/group-movement pattern, Ten's mirroring, Tofu's receipts-and-limits spine, Rooks's self-filing continuity, and Zepp's quote reputation/pre-Raja continuity are already represented by stronger public owners.
 
-No reader-facing change was accepted because the strongest material is already better owned publicly. Cookie/Tofu's 2024 reciprocal screenshot warfare is already richer on MAIN's Tofu biography; Ghostt's explicit game/Discord split, Nuien's people-as-occupancy/group-movement pattern, Rooks's self-filing and later-life continuity, Ten's mirroring/return, Tofu's receipts-and-limits spine, and Zepp's quote reputation/pre-Raja continuity are already represented by current canonical owners.
+The genuinely additive late keeper is **Rooks + Lilly's nonverbal reaction-language duet**. One recovered Wall exhibit repeatedly resolves only Rooks and Lilly across a long family of pout reactions. MAIN integrated that as person texture in Rooks' biography: the repeated selection starts functioning like dialogue without turning one reaction field into a friendship ranking, exclusivity claim, or formal relationship category.
 
-The branch is therefore successfully consumed through `6e58b78a53c06232c8bb6189853a8eadfe73785f` with no public copy patch. This prevents rereading the same delta while preserving the one-fact/one-owner rule.
+That distinction is why this remains **MAIN-only**. The evidence is excellent biography texture but does not yet justify a separate WIKI Episode, a durable Relationships object, or a Running Gag page. The WIKI records the ownership decision instead of photocopying MAIN's scene.
+
+All Characters HR is consumed through `57ca77cf2ab797c47fd030d7de43b87f07dd2b1d`.
 
 ## Held / unresolved
 
 - No Cookie/Tofu romance or closeness ranking from reciprocal screenshot warfare.
+- No Rooks/Lilly friendship ranking, exclusivity, or formal relationship category from one reaction field.
 - No pooled Deleted User resolution beyond scene-specific user-confirmed exceptions.
 - No Ghostt appointment chronology from export-time role arrays.
 - Nuien remains distinct from Illien/Euros.
 - Ten/Rooks joke-family language remains joke-family language.
+- Tofu's more personal intake name stays non-public; her own preference is `just call me Tofu`.
 - Zepp's quote reputation is real; the missing quote corpus is not invented.
 - Hishiro's teaching context does not become a job title, institution, or subject without direct evidence.
 - Cookie's ear-lick target and screenshot subjects remain unresolved.
@@ -59,14 +63,14 @@ The branch is therefore successfully consumed through `6e58b78a53c06232c8bb61898
 
 ## Public changes this continuation
 
-**MAIN:** no reader-facing page changed. Existing Hishiro, Tofu, Nuien, Rooks, Ten, Zepp, Ghostt, Cookie, and Wall-history owners were already stronger than the new/recovered handoffs. MAIN changed durable branch state and added the run report `archive-intake/INTEGRATION_PASS_2026-08-29_0612_DUAL.md`.
+**MAIN:** `src/content/people/rooks.md` gained the Rooks/Lilly pout-reaction duet, a supporting archive-confirmed claim, Lilly cross-link, and explicit anti-ranking fence. Reader-facing commit: `5ab2d3ae3bb1268ce229e2002f2ddcf40c534d6c`.
 
-**WIKI:** no reader-facing object changed. This file is the only WIKI change in this continuation. Spicy/Josh stays MAIN-owned as a Wall-history scene rather than being mirrored as another episode.
+**WIKI:** no reader-facing object changed. This state file records the intentional surface split and consumed SHA without cloning MAIN's person-texture scene.
 
 ## Verification / deployment
 
-MAIN integration/report head `8ef01b65c36ae2647be6ee2055c11cefceed96bb` passed its exact-commit `UL Hourly Build + Deploy` workflow: source canon/architecture verification, Astro build, built-output verification, and Cloudflare production deployment/commit verification all succeeded.
+MAIN Rooks content head `5ab2d3ae3bb1268ce229e2002f2ddcf40c534d6c` passed its exact-commit `UL Hourly Build + Deploy` workflow: source canon/architecture verification, Astro build, built-output verification, and Cloudflare production deployment/commit verification all succeeded.
 
-WIKI integration-state head `a38d9d92c57407b91a4efba0868761dd3c0ca82d` passed both existing workflows: standalone **Build Underlords Wiki** succeeded, and **Deploy Underlords Wiki Preview** completed Pages build, artifact upload, deploy, and report successfully.
+WIKI bookkeeping head `5334fbdda70480943e6792901e005a158b609d1b` passed both existing workflows: standalone **Build Underlords Wiki** succeeded, and **Deploy Underlords Wiki Preview** completed Pages build, artifact upload, deploy, and report successfully.
 
-This verification-close commit is bookkeeping-only and triggers the same normal WIKI workflows; its exact-head results are checked before the run is reported complete.
+Final reconciliation bookkeeping heads created after those verified content/state commits are checked through their normal exact-head workflows before the run is reported complete.
