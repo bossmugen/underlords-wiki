@@ -18,5 +18,14 @@ export const wallRecoveryEpisodes: Episode[] = [
     kind: "Wall crop mishap / embarrassment mutates into a Sanji research assignment",
     logline: "TonyTonyChopper posts an image with `wait I can explain!!`, which is already the grammar of a man arriving at his own trial carrying the exhibit. Mugen answers `lol be sure to crop next time before posting xD`. Tony could let the crop mishap die there; instead he opens a defense brief: `The proof is questionable but it's there` and `Hey it looks like Sanji has a preference okay`. Mugen rewards this legal strategy by escalating it into homework — `if u get muffin into it even better LOL` — and Tony accepts with `Well damn I guess I got homework`. The nice little turn is that embarrassment never actually ends; it gets converted into collaborative research. Tony is safely POSTED BY for the image. The pixels remain visually uninspected here, so MADE BY, CAPTURED BY, FEATURING, the crop's exact contents, and any visual claim about Sanji or Muffin remain unresolved.",
     cast: ["TonyTonyChopper", "Mugen"]
+  },
+  {
+    id: "bishop-file-in-my-office",
+    title: "The File in My Office",
+    season: "2021",
+    date: "June 26, 2021",
+    kind: "Wall callback / Bishop hears one receipt exists and immediately invents the federal government",
+    logline: "Tofu true-replies to an older Mugen post carrying an uninspected Dragon Raja screenshot, tags BishopThaGuru, and says it `will never stop being funny to me`. Bishop does not ask what the screenshot says; he launches a counter-interrogation: `Why? What have you heard? Who you talk to? You with the feds?` Mugen true-replies, `The file in my office says so.` Bishop's swagger then loses exactly one syllable: `W-which file?` That stammer is the whole episode — receipt panic becomes fake federal procedure, then Mugen upgrades one screenshot into an office dossier and Bishop abruptly sounds much less certain there is no paperwork. He later loops back to Tofu with `Too bad you don't love me no more. 🤷🏾‍♂️`; Tofu gives him a dry `Sure`, and Bishop answers with smirks. The screenshot itself remains visually uninspected. Mugen is safely POSTED BY for the parent image; Tofu's direct tag makes Bishop the social target of the callback, but MADE BY, CAPTURED BY, FEATURING, the pixels, and the underlying charge remain unresolved.",
+    cast: ["BishopThaGuru", "Tofu", "Mugen"]
   }
 ];
