@@ -11,6 +11,15 @@ export const integratedEpisodes: Episode[] = [
     cast: ["Oyasumi", "Ren"]
   },
   {
+    id: "a-to-z-naming-crime",
+    title: "The A-to-Z Naming Crime",
+    season: "2020",
+    date: "July 8, 2020",
+    kind: "Louvre naming assistance / help arrives catastrophically overqualified",
+    logline: "Ren says some creations still need names. Mayvis / braindead volunteers with `if you need names hit me TF up i got names boy`, escalates to `ok i'll do one for every letter`, and delivers an A-to-Z list containing `ethernet`, `oncology`, `wide putin`, and `zodiac killer`. Ren's quality-control response is `Omg MAYVIS THEY ARE PERFECT`. The scene safely establishes Mayvis as the direct-address name for the stable braindead account and one gloriously cursed naming session; it does not prove any suggested name became permanent or that this became a recurring UL naming custom.",
+    cast: ["Mayvis", "Ren"]
+  },
+  {
     id: "winter-pfp-takeover",
     title: "The Winter PFP Takeover",
     season: "2023",
