@@ -1,54 +1,57 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration pass: **2026-08-29 08:20 PDT**.
+Last dual-surface integration pass: **2026-08-29 08:31 PDT**.
 
 Full branch-level consumption state is durable on MAIN in `archive-intake/INTEGRATOR_BRANCH_STATE.json`; prior rolling wiki states remain in Git history.
 
 ## Census / queue
 
-The mandatory full census enumerated **28 active remote miner refs + 21 historical/missing refs = 49 tracked branch identities** before deep review. At this review boundary the finite queue is **0 pending / 0 backlog / 0 review-overdue**. Core Rooms and Wall remain the two cumulative recovery tracks with formal `last_consumed_sha: null`; both Club-Only miners remain fully consumed/current. No miner branch was merged or cherry-picked wholesale.
+The mandatory full census enumerated **28 active remote miner refs + 21 historical/missing refs = 49 tracked branch identities** before deep review. The opening finite movers were All Characters and Daycare. Daycare has now been reviewed and consumed through `70690db0…`; All Characters kept moving during the run and is now seen at `7a3d4b45…` beyond consumed `bb8fc183…`, so the closing finite queue is **1 pending / 0 backlog / 0 review-overdue**. Core Rooms and Wall remain the two cumulative recovery tracks with formal `last_consumed_sha: null`; both Club-Only miners remain fully consumed/current. No miner branch was merged or cherry-picked wholesale.
 
-Late movement is preserved rather than hand-waved away: Core is now seen at `df27f7ef…` after the reviewed `31d02597…` forward handoff, and Wall is seen at `f292466b…` after its previously reviewed `e6a560a9…` frontier. Those newest suffixes are **seen, not consumed**.
+## Daycare — MEE6 says welcome; Sou says WELCOME BACK
 
-## All Characters — consumed through the moving target
+Daycare's `604598e1… -> 70690db0…` delta was reviewed checkpoint-first and intake-only. Its best receipt is RealGameJack / `.Shido.`: the same stable account receives a MEE6 welcome on November 22, 2022 and another on December 1. After the second one the account fills the intake form again, and Sou answers `WELCOME BACK`.
 
-`archive-miner/all-characters-hr-20260828` moved repeatedly during the run. The integrator reviewed the original `196f9579… -> c7036114…` movement, then the Pride-focused `c7036114… -> d45ef943…` suffix, then the final receipts-only `d45ef943… -> bb8fc183…` suffix checkpoint-first and intake-only. MAIN now records `last_seen_sha = last_consumed_sha = bb8fc183…`.
+This is useful because the machine and the humans are performing different semantics. MEE6 knows an account crossed the threshold; Sou recognizes a return. That independently strengthens the existing Kiro/Usama safety rail: repeated bot welcomes cannot be treated as first-arrival or identity-split oracles. It still does not tell us why Kiro was re-welcomed, why RealGameJack crossed the door twice, or when either person first joined socially.
 
-The reviewed HamitteY, Jas, New/Newmal, NemeMoka, Panda, and Pride material was duplicate/corroboration-only against richer current MAIN person owners. Pride's `everyone gets exposed`, `They are always watching`, habitual sip/tea spectator posture, Rooks's `you can't hide`, Raja-grind fatigue, and the later `lost Pride's body` callback are already woven into MAIN's Pride biography. The final receipt bank only substantiated those same claims, so WIKI did not manufacture another object merely to prove that the receipts exist.
+The same handoff adds two more good brakes rather than new episodes. Stable account `nothing` self-reports `Club: none` five days before first assigned Daycare use, adding another concrete example of Daycare social participation outrunning current self-reported UL-club membership without revealing ACL mechanics. Booba / MsThiccy has exactly one assigned Daycare message but earlier Lobby and Wall presence under the same stable account; one room-message is not one day of personhood. These are provenance/methodology corrections, not stronger public stories than existing owners, so no reader-facing WIKI object was added for them. Daycare is consumed through `70690db083705f2c015fdb6c36c8fd8301f97586`.
 
 ## Core Rooms — Thank You as Always
 
-Core's new `08:03` forward handoff promoted **Em / Em.xd** from queue-only to thin-but-high-signal. The 2020 Lobby door is already socially warm before role assignment finishes: Mugen opens with `emmm babyyyy`, Em says `Thank for the invite 💕`, Ren erupts with `Em!!!`, and only after that does Mugen finish the Discord role assignment. That is recognition before processing, but it does **not** identify the inviter or establish an in-game UnderLords admission date.
+Core's previously reviewed `08:03` forward handoff promoted **Em / Em.xd** from queue-only to thin-but-high-signal. The 2020 Lobby door is already socially warm before role assignment finishes: Mugen opens with `emmm babyyyy`, Em says `Thank for the invite 💕`, Ren erupts with `Em!!!`, and only after that does Mugen finish the Discord role assignment. That is recognition before processing, but it does **not** identify the inviter or establish an in-game UnderLords admission date.
 
 The stronger bounded scene is April 21, 2021. Em says `I might be returning to raja soon- my college semester is ending in two weeks, so I’ll have more free time again aaaAa` and tags Mugen. The room reacts with hearts / ZeroYay / HYPED. Hours later Mugen true-replies `Yaaaas`, then pivots immediately from the game to the real thing Em has to finish first with edited-final `Good luck with exams!`. Em true-replies `Thank you as always 😖💗💗💗`.
 
-That `as always` is the little hinge. Em herself frames Mugen's support as familiar, but the archive does not get to invent the missing prior support scenes. Likewise `might be returning` stays tentative: this is not a comeback decree, an absence-duration claim, or a loyalty test. The social behavior is simpler and better — yay, come back when you can; also go pass your exams.
+That `as always` is the little hinge. Em herself frames Mugen's support as familiar, but the archive does not get to invent the missing prior support scenes. Likewise `might be returning` stays tentative. WIKI owns this as Episode **Thank You as Always**; MAIN intentionally keeps the Em intake private rather than manufacturing a roster-uncanonical public dossier.
 
-WIKI owns this as Episode **Thank You as Always**, added in reader-facing commit `5ac6ef25ed3efcc67f4a6a68258e74a271e86f3e`. A later concurrent Feli correction on `main` descended cleanly from that commit, so the Em episode was preserved rather than overwritten.
+Core's older safe-baseline recovery remains reviewed through the **2026-08-25 20:46 package**; **19:46 and below are next**. Formal consumed SHA remains null. Current Core is seen at `df27f7ef…`; the newest suffix remains seen rather than silently consumed.
 
-Core's same forward handoff also recovered a clean Oyasumi ↔ TankHead94 ↔ Underlords self-ID from 2022, but **not** the date of Oyasumi's full-Officer appointment. Exporter role arrays remain inadmissible for appointment chronology.
+## Wall — Share Desserte
 
-## Core older recovery — 20:46 package
+Wall's forward handoff is now reviewed through current `e6b57359…` / the 08:06 bundle. Its A-grade keeper belongs here as a bounded incident because MAIN Noether already owns the richer person mechanism.
 
-The older safe-baseline recovery advanced through the **2026-08-25 20:46 package**; **19:46 and below are next**.
+On February 3, 2022 Snow posts an uninspected receipt and tags HamitteY and Noether. Noether starts by demanding context because `Someone want eat hami, i only said that , context pls`. HamitteY exits by GIF. Noether then abandons the original emergency and finds a more prosecutable one: `Also hami doesnt share the desserts` → `Lies` → `you want all the desserts for yourself` → edited-final `Listen man  share desserte:Yandere:`.
 
-The package's FuentesKaede 2021→2023 continuity is real, but current canon and MAIN already own Kaede/FuentesKaede richly, so it stayed duplicate/corroboration-only rather than spawning another public retelling. The Tumbleweed parent created September 29 and edited October 19 is a useful provenance correction: final serialized family-tree rows are a living endpoint, not proof every row existed on September 29. Danny's `(claims them)` wording remains directionally ambiguous and undated, so the wiki does not decide who claims whom by vibes.
+Seventeen minutes later she returns with `I made strawberry ice cream, since you didn't share desserts` and an attachment. An unresolved pooled Deleted User later true-replies all the way back to the original edible-Hami line with `U meant me. 😑`; Noether answers with the serenity of a food-safety regulator: `Yes, I do not judge preference in dessert, but hami is not a good option`.
 
-Core remains cumulative recovery-in-progress with formal consumed SHA null. Its newest `df27f7ef…` suffix is registered as seen but is not part of this review.
+That conversational shape is why this earns Episode space. Noether does not actually close the first absurd case. She spots a dessert embargo, prosecutes it in one-word bursts, loses patience with the supply chain, and answers the shortage by manufacturing her own dessert. Then somebody drags the room back to the cannibal premise and Noether issues a risk assessment. Gilli dropping the Whiskey channel between the last replies is an excellent little house-etiquette aftershock: evidence-room business has become ordinary food nonsense again.
 
-## Wall / unresolved late movement
+WIKI owns this as Episode **Share Desserte**, reader-facing content through `1876c11ecf44d6c667e5021fa47cd94972b8283b`. The exact-head standalone build and Pages workflow both passed before this rolling-state update. Snow's image and Noether's attachment remain visually uninspected: POSTED BY is known; MADE BY, CAPTURED BY, FEATURING, and pixel contents are not. The pooled Deleted User stays unresolved, and no cannibalism/romance/cohabitation/relationship label is inferred.
 
-Wall's older recovery remains open through the recorded **2026-08-28 21:24** package, and the previously reviewed forward handoff remains through `e6a560a9…`. A later Wall move to `f292466b…` is already visible in MAIN state but remains unreviewed in this pass. Formal consumed SHA therefore stays null.
+The same Wall handoff's Hishiro screenshot-workflow/device exchange was reviewed as useful B-level production texture but intentionally not duplicated into an already-rich MAIN profile. `edit` remains unspecified; it is not converted into receipt falsification. Ghostt's `I say this everyday` generic Wall-text route is exhausted but its referent remains unresolved. Rotini and New were sample stops.
+
+Wall's older cumulative recovery remains open through the recorded **2026-08-28 21:24 package**. Formal consumed SHA therefore stays null even though the forward handoff through `e6b57359…` has been reviewed.
 
 ## Reconciliation / surface split
 
-- **WIKI-only this pass:** **Thank You as Always**, because Em's material forms a complete incident with emotional movement but still does not justify manufacturing a padded MAIN biography.
-- **MAIN-only/no duplicate:** HamitteY, Jas, New/Newmal, NemeMoka, Panda, Pride, and Kaede/FuentesKaede remain with their richer person owners.
-- **Held:** Em's inviter, exact in-game admission date, exact absence duration, unspecified earlier support scenes, exporter-derived Staff chronology; Oyasumi's officer appointment date; Danny's Tumbleweed claim direction/insertion date; newest Core `df27f7ef…` and Wall `f292466b…` suffixes.
+- **WIKI-only:** **Share Desserte**, because the additive object is a complete Wall scene; MAIN Noether already carries the recurring dessert-prosecution/provider character arc and did not need the incident reprinted.
+- **WIKI-only from the earlier Core handoff:** **Thank You as Always**, because Em's material forms a complete incident with emotional movement but still does not justify a padded MAIN biography.
+- **No-public-change Daycare:** RealGameJack return-recognition, `nothing` social permeability, and Booba low-volume correction were consumed as methodology/corroboration rather than public lore objects.
+- **Held:** All Characters' live `bb8fc183… -> 7a3d4b45…` suffix; Core's newest `df27f7ef…` suffix; Em's inviter/admission chronology; Kiro's re-welcome cause; Daycare ACL mechanics; Ghostt's missing phrase referent; Hishiro's unspecified screenshot-edit operation; all visually uninspected Wall media.
 - POSTED BY / MADE BY / CAPTURED BY / FEATURING remain separate. Earliest surviving evidence is not promoted into origin, and exporter-current role arrays do not become historical appointment timestamps.
 
 ## Verification / deployment
 
-Reader-facing WIKI commit for Em: `5ac6ef25ed3efcc67f4a6a68258e74a271e86f3e`. This rolling state update follows it on the publishing branch after re-reading current `main`; exact-head Build Underlords Wiki and Pages workflow results are checked at run closure and recorded in the run report rather than guessed here.
+WIKI reader-facing Share Desserte content head `1876c11ecf44d6c667e5021fa47cd94972b8283b` passed both **Build Underlords Wiki** and the existing **Deploy Underlords Wiki Preview** Pages workflow. This rolling-state update follows that verified reader-facing head and must itself clear the repository's existing workflows before the run is considered closed.
 
-The entire Em return scene can be summarized as: **Raja comeback? Yaaaas. Exams first? Also yaaas.** UL retention strategy apparently includes telling people to finish their homework before respawning.
+The incident summary remains the only one anybody really needs: **Noether asked for context, discovered dessert injustice instead, and somehow came back with strawberry ice cream.** The original Hami-eating question survived untouched. Priorities.
