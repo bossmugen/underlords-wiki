@@ -188,41 +188,63 @@ The Mugen who survives in UL is intimidating enough that Gabu later remembers be
 
 The Boss title is real. It just never manages to eat the woman underneath it.
 
-## There was a Mugs before there was a Boss
+## Before Boss, there was Mugs
 
 UL did not create Mugen's habit of collecting people into long-lived online relationships. Before Dragon Raja, there was already another game and another circle: Dean, Key, Zepp, Kal, New, and GenGrey. Mugen describes that group as her older online family, dating to roughly a year before Raja. Dean was already her online son and already called her `mum`.
 
-That relationship matters because later UL material treats it as inherited reality rather than a server joke being invented in real time. When Anthos is working on the Tumbleweed in September 2020 and writes `lets add dean to mugs then from there we can add cel and woo etc`, nobody stops to ask what Dean is doing under Mugen. They are trying to diagram something everybody involved already understands. In 2021 Dean simply addresses her as `mum` in the surviving record. The family map arrived after the family language.
+Later UL material treats that relationship as inherited reality rather than a server joke being invented in real time. When Anthos is working on the Tumbleweed in September 2020 and writes `lets add dean to mugs then from there we can add cel and woo etc`, nobody stops to ask what Dean is doing under Mugen. They are trying to diagram something everybody involved already understands. In 2021 Dean simply addresses her as `mum` in the surviving record.
+
+The family map arrived after the family language.
 
 So did the Boss title.
 
-In Dragon Raja Server 10 she was **LadyMugen**. She was with Intent, leader of ScarletMoon, one of the launch server's major clubs. Mugen had opinions about the toxic behavior around some of his officers and was not especially gifted at keeping those opinions politely decorative. Intent eventually challenged her to lead her own club.
+## LadyMugen gets told to do it herself
 
-That origin story says more about her than “founded UL” does. Before there was an organization to command, there was already a person with a low tolerance for watching something she cared about be handled in a way she thought was wrong. Underlords was the point where that tendency acquired a name, a roster, and eventually far too many rooms.
+In Dragon Raja Server 10 she was **LadyMugen**. She was with Intent, leader of ScarletMoon, one of the launch server's major clubs. Mugen had opinions about toxic behavior around some of his officers and was not especially gifted at keeping those opinions politely decorative.
 
-Ritha, WolfPhenix, Suzimasu, and HyaLuna came over from Altissa with her and became the rest of UL's five-person founding circle. Again, Mugen did not begin by assembling strangers around a title. She began in the middle of relationships. Some people knew LadyMugen. Some knew the woman before LadyMugen. Later people would know Boss Mugen, Mugs, mum, mama, Plutonian, leather papa, or some embarrassing historical version currently being exhumed from a screenshot.
+Intent eventually challenged her to lead her own club.
+
+That is a much better inciting incident than “Mugen founded Underlords.” Before there was an organization to command, there was already a woman who apparently could not watch something she cared about be handled badly without inserting herself into the problem. Intent's answer was essentially: then do it yourself.
+
+So she did.
+
+Ritha, WolfPhenix, Suzimasu, and HyaLuna came over from Altissa with her and became the rest of UL's five-person founding circle. Mugen did not begin by assembling strangers around a title. She began in the middle of relationships. Some people knew LadyMugen. Some knew the woman before LadyMugen. Later people would know Boss Mugen, Mugs, mum, mama, Plutonian, leather papa, or some embarrassing historical version currently being exhumed from a screenshot.
 
 The archive keeps all of them.
 
-## Scary Mugs and the disappearing pedestal
+## Scary Mugs
 
 Mugen could actually be intimidating.
 
-That should stay in the biography because the later warmth makes less sense if we sand it off. Gabu remembers her that way from his earlier period around UL. Mugen had authority, opinions, a capacity for bluntness, and eventually control of a Discord full of people who knew she could make a decision and expect it to stick. She was not everyone's cuddly internet mother on sight.
+Gabu remembers her that way from his earlier period around UL. Mugen had authority, opinions, a capacity for bluntness, and control of a Discord full of people who knew she could make a decision and expect it to stick. She was not everyone's cuddly internet mother on sight.
 
-But one of the stranger things about her is how badly the pedestal survives contact with her.
+What is more interesting is how badly the pedestal survives once people stay near her.
 
-People who stay near Mugen do not appear to spend very long treating the Boss as sacred. She gets teased. She gets assigned family roles. Her sleep schedule becomes public infrastructure. Her mistakes are immediately usable. Her display names deteriorate. She participates in increasingly stupid allegations about the membership's height. UL can respect her authority and still treat her as available for public clowning.
+She gets teased. She gets assigned family roles. Her sleep schedule becomes public infrastructure. Her mistakes are immediately usable. Her display names deteriorate. She participates in increasingly stupid allegations about the membership's height. UL can respect her authority and still treat her as available for public clowning.
 
-Mugen herself helps make that possible. She does not seem interested in using rank to create a protected zone around her dignity.
+Mugen helps make that possible. She does not seem interested in using rank to create a protected zone around her dignity.
 
-When she posts the wrong photo, the archive gets `i posted the wrong photo ;w;`, not a graceful cover-up. When she falls asleep, the room remembers. When she wakes up to nonsense, she announces the tactical error. When a serious officers' conversation is interrupted because she forgot to mute herself, she does not get to erase the incident from history. Instead the entire organization eventually inherits **real leather papa**.
+When she posts the wrong photo, the archive gets `i posted the wrong photo ;w;`, not a graceful cover-up. When she falls asleep, the room remembers. When she wakes up to nonsense, she announces the tactical error.
 
-That one deserves its own paragraph because no executive biography should be allowed to escape it.
+And then there is the microphone.
 
-The officers were in VC having an actual serious conversation. Mugen failed to mute. Somewhere in her real life she was dealing with a genuine cowhide whip from a Texas cowboy, and the officers heard the phrase `real leather, papa` come through the hot mic. That was it. The meeting had produced a fossil. The phrase eventually left the officer room, became a Staff joke, turned up as Mugen's visible display identity, and by March 2023 `real leather papa` was in Whiskey accusing UL of being short and asking, with mounting horror, `H-Hobbits?`
+## Real Leather Papa: a microphone crime
 
-There is something wonderfully terminal about the fact that one of Mugen's longest-lived titles came not from leadership but from failing to operate a microphone.
+The officers were in VC having an actual serious conversation.
+
+Mugen failed to mute.
+
+Somewhere in her real life she was dealing with a genuine cowhide whip from a Texas cowboy, and the officers suddenly heard:
+
+`real leather, papa`
+
+That was it. The meeting had produced a fossil.
+
+The phrase escaped the officer room, became a Staff joke, turned up as Mugen's visible display identity, and by March 2023 **real leather papa** was in Whiskey accusing UL of being short and asking, with mounting horror, `H-Hobbits?`
+
+One of Mugen's longest-lived titles came not from leadership but from failing to operate a microphone.
+
+Perfect.
 
 ## The Boss is probably asleep right now
 
@@ -232,121 +254,141 @@ Mugen is an RN and works in healthcare leadership as a director. The archive rar
 
 As early as April 2020, Gilli can tell a newcomer that Mugen is `probably asleep right now`. By June 2021 Mugen is voluntarily contributing an old photo to Slice with the caption `Old pic, lying ded on floor after work`. In March 2023 she returns to discover fresh chaos and writes, `I take a short nap and wake up to this`.
 
-Taken together, those scenes produce a much better image than “Mugen was active across the archive.” The woman running UL also has a body that clocks out. She works, she gets tired, she disappears, she lies dead on the floor, the Discord continues evolving in her absence, and eventually she wakes up to whatever crime the house committed unsupervised.
+The woman running UL also has a body that clocks out. She works, gets tired, disappears, lies dead on the floor, and eventually wakes up to whatever crime the house committed unsupervised.
 
-There are smaller domestic failures too: phones, wallets, boba, the ordinary nonsense of somebody whose real life repeatedly barges into the mythology. Those scenes matter precisely because nobody engineered them into lore. They are the loose change in the archive. They keep Mugen from becoming a person who only exists when a club needs administration.
+There are smaller domestic failures too: phones, wallets, boba, the ordinary nonsense of somebody whose real life repeatedly barges into the mythology. Nobody engineered those moments into lore. They are loose change in the archive, and they keep Mugen from existing only when somebody needs a Boss.
 
-UL learned to treat her exhaustion almost as weather. Boss is asleep. Continue the emergency.
+UL learned to treat her exhaustion almost as weather.
 
-## She likes control. She does not need to pretend she knows everything.
+Boss is asleep. Continue the emergency.
 
-Mugen built things. Rooms, processes, events, role systems, visual identities, announcements, governance machinery, endless little bits of social architecture: a large amount of UL exists because she could not resist turning a recurring need into an object with a stupid name.
+## Control freak, not oracle
 
-That can make her read, from a distance, like somebody who always has to be in control.
+Mugen builds things. Rooms, processes, events, role systems, visual identities, announcements, governance machinery, endless little pieces of social infrastructure: a lot exists because she cannot resist turning a recurring need into an object with a stupid name.
 
-Up close the archive is less flattering and more interesting.
+From far away, that can look like somebody who always needs to be in control.
+
+Up close, the archive is less tidy.
 
 Mugen repeatedly asks other people for reads. `accurate or no, thoughts?` is much closer to her working style than omniscient Boss theater. Officer and HQ material preserves her asking for missing information, corrections, opinions and verification. She can arrive with a position and still want somebody else to tell her where it is wrong. She delegates. She revises. She has people with specialties and actually uses them.
 
-That does not make her indecisive. It means she is comfortable exercising authority without having to perform certainty every second she is exercising it.
+That does not make her indecisive. She is comfortable exercising authority without pretending certainty every second she is exercising it.
 
-Her collaborations also tend to keep their owners attached. Snow and Ren remain credited where they did anniversary work. Ren remains the host when Ren hosted. Wolf's art remains Wolf's art. Shared projects do not automatically become “Mugen made this” merely because they happened inside Mugen's organization.
+## Credit stays attached to whoever did the damn thing
 
-She likes being central. She does not require everybody else's labor to become anonymous around that centrality.
+Mugen is also comfortable being central without absorbing everybody else's work into herself.
 
-## The line can sound stupid and still be a line
+Snow and Ren remain credited where they did anniversary work. Ren remains the host when Ren hosted. Wolf's art remains Wolf's art. Shared projects do not automatically become “Mugen made this” merely because they happened inside something she founded.
+
+That is a small behavior with large consequences. Founder mythology has every opportunity to eat the people around her. Mugen repeatedly leaves their names on their work.
+
+She likes being central.
+
+She does not require everyone else to become anonymous around that centrality.
+
+## The line can still end in `pls`
 
 Mugen's serious boundaries often arrive in language that looks like it escaped from somebody's kitchen.
 
-On April 27, 2020, Slice gets a compact example: `everyone is impulsive but minors are a no fly zone pls`.
+On April 27, 2020, Slice gets a compact example:
 
-There is no ceremonial voice change. No policy-document cosplay. The sentence is almost aggressively casual and the boundary is completely clear.
+`everyone is impulsive but minors are a no fly zone pls`
 
-Other Slice material produces the same reflex at a smaller scale. When another person's image is being treated too casually, Mugen objects to somebody saving it without permission. The significant thing is not that Boss Mugen eventually participated in rules and moderation — of course she did. It is that privacy and interpersonal limits show up in ordinary social space too, where there is no governance performance to explain them.
+No ceremonial voice change. No policy-document cosplay. The sentence is aggressively casual and the line is completely clear.
 
-That register survives elsewhere: direct when something matters, often profane or ridiculous in delivery, with surprisingly little interest in making seriousness *sound* serious.
+Other Slice material catches the same reflex at a smaller scale. When another person's image is being treated too casually, Mugen objects to somebody saving it without permission. Privacy and interpersonal limits show up in ordinary social space too, not only when she is performing governance.
 
-It is one of the reasons UL's formal machinery could coexist with names like Headache Room, the casino/highway robbery, the Panic Room spelling bee, the Tumbleweed, strippers, bouncers, and a Boss signing herself as an extraterrestrial idiot. Mugen does not seem to believe dignity is required for structure to be real.
+Direct when something matters. Often profane or ridiculous in delivery. Very little interest in making seriousness *sound* serious.
 
-## Mum, mama, papa, and the family tree that should have been destroyed by fire
+That is also why structure and stupidity coexist so easily around her. Mugen does not seem to believe dignity is required for a boundary to be real.
+
+## Mum, mama, papa, absolutely no genealogists
 
 The family language around Mugen is not one relationship repeated with different usernames.
 
-Dean calls her `mum`, and that relationship is older than UL. Akamin calls her `mama`. Sye and Mugen can participate in absurd family-role nonsense that eventually reaches womb-eviction territory. The wider house develops children, parents, aunties, husbands, wives, concubines and branches of the Tumbleweed that look like they were designed to make future historians suffer personally.
+Dean calls her `mum`, and that relationship is older than UL. Akamin calls her `mama`. Sye and Mugen can participate in absurd family-role nonsense that eventually reaches womb-eviction territory. The wider house develops children, parents, aunties, husbands, wives, concubines and branches of the Tumbleweed that look specifically designed to make future historians suffer.
 
-Mugen sits comfortably in the middle of that vocabulary because she was already using relational language before the community built a diagram for it.
+Mugen sits comfortably in the middle of that vocabulary because she was already using relational language before anybody built a diagram for it.
 
-By 2022 and 2023, her language about UL itself becomes explicitly domestic. When Aeshleen says Dragon Raja is basically over for her and she barely uses Discord anymore, Mugen does not try to recruit her back into activity. She tells her she will `always be part of the UL fam`.
+When Aeshleen says in October 2022 that Dragon Raja is over for her and she barely uses Discord anymore, Mugen does not try to recruit her back into activity. She tells her she will `always be part of the UL fam`.
 
-Then comes the May 2023 house announcement: `This is your house`. `The circus tent is always open`. Put your feet up. Be whatever ridiculous thing you currently are. She ends with `Bless you my children`, immediately destroys her own parental grandeur with `Whoever you are.`, and signs `xoxo real leather papa`.
+Then comes the May 2023 house announcement: `This is your house`. `The circus tent is always open`. Put your feet up. Be whatever ridiculous thing you currently are.
 
-That three-line collapse may be the purest surviving Mugen prose.
+She ends with `Bless you my children`, immediately destroys her own parental grandeur with `Whoever you are.`, and signs `xoxo real leather papa`.
 
-The feeling is sincere. The joke does not cancel it. The joke is how the feeling is allowed to stay in the room without becoming unbearable.
+The feeling is sincere. The joke does not cancel it. The joke is how the feeling survives without becoming syrup.
 
 Mugen is sentimental, but she rarely leaves sentiment unattended. Somebody — frequently Mugen herself — has to bite it before it gets too polished.
 
 ## Menace with glitter on it
 
-Mugen also has taste, which is different from merely having made graphics.
+Mugen has taste, which is different from merely having made graphics.
 
-The old archive gives us a woman who says she dressed **Decora** in high school. Dragon Raja gives us **LadyMugen**, an older self-presentation that later becomes cringe material once enough time has passed. The 2021 photo contest gives her official **Mafia** and **Popstar** versions. The UL iconography she made leans into neon, kisses, `xoxo`, animated affection, camp figures blowing kisses, mafia language, and the immortal phrase **neighborhood-friendly mafia**.
+The archive gives us a woman who says she dressed **Decora** in high school. Dragon Raja gives us **LadyMugen**, an older self-presentation that later becomes cringe material once enough time has passed. The 2021 photo contest gives her official **Mafia** and **Popstar** versions. The UL iconography she made leans into neon, kisses, `xoxo`, animated affection, camp figures blowing kisses, mafia language, and the immortal phrase **neighborhood-friendly mafia**.
 
 This is not an aesthetic of clean prestige.
 
 It is menace with glitter on it.
 
-Boss, but make it a nightclub flyer. Mafia, but everybody is blowing kisses. Serious organization, but the building contains a stripclub, a casino, a Headache Room, a jail, a tearoom and several doors nobody should open. Affection, but sign it from Pluto. Self-mythology, but leave enough stupid material in the frame that nobody can mistake it for worship.
+Boss, but make it a nightclub flyer. Mafia, but everybody is blowing kisses. Affection, but sign it from Pluto. Self-mythology, but leave enough stupid material in the frame that nobody can mistake it for worship.
 
-That is why LadyMugen matters beyond being an alias. She is one of the older selves Mugen can later look back at, recognize, and be embarrassed by. The archive does not preserve a single fixed persona. It preserves somebody repeatedly styling herself, outgrowing pieces of the styling, and then discovering the old version again because Wolf or somebody else found a goddamn screenshot.
+LadyMugen matters because she is one of the older selves Mugen can later look back at, recognize, and be embarrassed by. The archive does not preserve a fixed persona. It preserves somebody repeatedly styling herself, outgrowing pieces of the styling, and then discovering the old version again because Wolf or somebody else found a goddamn screenshot.
 
-She likes mythology. She just seems allergic to mythology that cannot survive being laughed at.
+She likes mythology.
 
-## The people stay longer than the games
-
-One of the strongest patterns around Mugen is not activity. It is **retention**.
-
-People remain socially legible to her after their active era ends.
-
-Old friends are not automatically demoted to “former member” because they stopped playing the game. Aeshleen can say Raja is over and still be told the family relationship survives it. Gilli can reappear in the history as an old friend rather than a dead roster entry. Wolf's older art and old-game identity remain attached to Wolf. The pre-Raja circle remains a pre-Raja circle years after everyone has moved through other platforms and eras.
-
-The 2026 reunion makes the pattern impossible to miss. People come back after years and the room begins rebuilding them through quirks: old names, old screenshots, visual identities, remembered jokes, the things they were known for, the way somebody spoke, who knew the answer, who made the image, who used to stand next to whom.
-
-Mugen participates in that recognition language naturally. She appears to remember people less as titles than as **what they did to the room**.
-
-That is a different form of memory from roster maintenance. A roster asks whether you are still here. Mugen's social memory often seems to ask whether she can still place you.
-
-This is probably why the late archive becomes so person-heavy. Once enough years have passed, the danger is no longer that UL will forget which rank somebody held in 2020. The danger is that a human being gets flattened into a username and one sentence about their job.
+She just seems allergic to mythology that cannot survive being laughed at.
 
 ## Gratitude, immediately vandalized
 
-The Thanksgiving 2022 announcement is another good Mugen specimen because it catches her trying to be sincere for an extended period and then eventually needing an escape hatch.
+The Thanksgiving 2022 announcement catches Mugen trying to be sincere for an extended period and eventually needing an escape hatch.
 
-She thanks Staff, Strippers, Bartenders, Bouncers, Platelets, Tumbleweed family, VIP customers and Officers. She calls out the work people do that often goes unrecognized. She says she sees it. She says she could write much more if she had more than a few minutes.
+She thanks Staff, Strippers, Bartenders, Bouncers, Platelets, Tumbleweed family, VIP customers and Officers. She calls out work that often goes unrecognized. She says she sees it. She says she could write much more if she had more than a few minutes.
 
 Then she signs:
 
 `Your resident plutonian dumdum.`
 
-That self-undercut is not accidental noise around the meaningful statement. It is part of her voice. Mugen can say something nakedly affectionate or grateful, but she seems much happier if she can then throw a brick through the stained-glass window herself.
+That is not noise around the meaningful statement. It is part of her voice.
 
-It is the same instinct behind `Bless you my children` becoming `Whoever you are.` It is the same reason real leather papa can coexist with actual leadership. It is the same aesthetic that can put `xoxo` next to mafia imagery.
+The same instinct turns `Bless you my children` into `Whoever you are.` It lets real leather papa coexist with actual authority. It puts `xoxo` next to mafia imagery.
 
-Earnestness is real. Earnestness just does not get diplomatic immunity.
+Earnestness is real.
 
-## What Boss became
+Earnestness just does not get diplomatic immunity.
 
-In 2020, being Boss meant running a Dragon Raja club. There were recruits, permissions, officers, strategy, rules, events, server problems, disputes and a rapidly mutating Discord that required somebody to keep making decisions.
+## She remembers what people did to the room
 
-By 2022 and 2023, the game is already losing its monopoly on what UL means. Mugen is talking to former players as family. The server itself is a house. The circus tent is open even when there is no circus schedule worth discussing. Old relationships outrun the activity that created them.
+One of the strongest patterns around Mugen is not activity. It is **retention**.
 
-By 2026, Mugen is doing something stranger still: helping excavate the place.
+People remain socially legible to her after their active era ends.
 
-Old exports come back. Names collide. People who had been compressed into a dead account, an obsolete nickname, a wrong identity bridge or a one-line role description start separating back into actual individuals. The reunion and the archive project happen almost on top of one another, so remembering UL and rebuilding the record become part of the same late-era behavior.
+Old friends are not automatically reduced to “former member” because they stopped playing. Aeshleen can say Raja is over and still be told the family relationship survives it. Gilli can reappear in the history as an old friend rather than a dead roster entry. Wolf's older art and old-game identity remain attached to Wolf. The pre-Raja circle remains its own old social world years later.
 
-Mugen's role in that phase is less “command the roster” than **keep the record from lying about the people**.
+The 2026 reunion makes the pattern impossible to miss. People come back after years and the room starts reconstructing them through quirks: old names, screenshots, visual identities, remembered jokes, who knew the answer, who made the image, how somebody spoke, who used to stand next to whom.
 
-That does not mean she suddenly becomes solemn. Quite the opposite. The recovered human being is often hidden in exactly the material a conventional history would throw away: who was scary at first, who called her mum, who called her mama, who fell asleep, who dressed like what, who made the art, who fucked up the mute button, who kept the joke alive, who returned after five years and was immediately recognizable anyway.
+Mugen participates in that recognition language naturally. She appears to remember people less as titles than as **what they did to the room**.
+
+A roster asks whether you are still here.
+
+Mugen's social memory often seems to ask whether she can still place you.
+
+## The dead club refuses to stay dead
+
+By 2026, the old game is no longer the main problem.
+
+People are walking back through the door.
+
+MariaMoon returns after roughly five years and has to remember what game the group chat even came from. Hishiro recognizes old iconography and talks about the memories hitting again. WolfPhenix digs up Dragon Raja screenshots. Rummy reposts the Tumbleweed. Old names that had been lying flat in exports suddenly belong to people talking again.
+
+At almost exactly the same time, Mugen is helping excavate the archive.
+
+That creates a much stranger late-era role than “founder preserving history.” She is trying to catalogue a dead club while the allegedly dead people keep interrupting the cataloguing process to say hello.
+
+Old exports come back. Names collide. Wrong identity bridges get corrected. Joke titles masquerade as formal roles. Formal roles sound like jokes. Six years of social context have to be reconstructed from whatever survived.
+
+Mugen becomes increasingly impatient with records that preserve the username but lose the person.
+
+Who was scary at first? Who called whom mum? Who made that image? Who hosted that thing? Who had already known each other before Raja? Which stupid phrase lasted for years? Which old self now makes its owner cringe? Who disappeared? Who came back?
 
 The archive keeps discovering that the garbage is where the person is.
 
@@ -356,7 +398,7 @@ Mugen may be the clearest example.
 
 Strip away the Boss résumé and a fairly coherent woman is still standing there.
 
-She is forceful enough to intimidate people and affectionate enough that intimacy eventually turns her into family vocabulary. She likes systems but does not need to pretend she is infallible. She is protective of privacy and blunt about lines she considers real. She remembers people for a long time. She credits people by name. She is sentimental and then usually ruins the sentiment before it can become syrup. She likes visual self-invention, camp, menace, glitter, mafia bullshit, alien bullshit, and apparently historical evidence of her own bad decisions.
+She is forceful enough to intimidate people and affectionate enough that intimacy turns her into family vocabulary. She likes systems but does not need to pretend she is infallible. She is protective of privacy and blunt about lines she considers real. She remembers people for a long time. She leaves people's names attached to what they made. She is sentimental and then usually ruins the sentiment before it can become syrup. She likes visual self-invention, camp, menace, glitter, mafia bullshit, alien bullshit, and apparently historical evidence of her own bad decisions.
 
 She works too much. She naps. She loses track of ordinary things. She posts the wrong photo. She can be embarrassing. She can be scary. She can be very sure of herself. She can ask whether she is wrong five minutes later.
 
