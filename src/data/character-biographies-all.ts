@@ -29,6 +29,7 @@ import * as lillyModule from "./character-biographies-lilly";
 import * as miaModule from "./character-biographies-mia";
 import * as momoModule from "./character-biographies-momo";
 import * as moonModule from "./character-biographies-moon";
+import * as mugenModule from "./character-biographies-mugen";
 import * as nelphModule from "./character-biographies-nelph";
 import * as nemoModule from "./character-biographies-nemo";
 import * as nhouModule from "./character-biographies-nhou";
@@ -86,10 +87,10 @@ const finishedNarrativeModules = [
   alkeyModule, ameModule, anthosModule, chibiterasuModule, cookieModule, dayaModule,
   feliModule, genGreyModule, ghosttModule, gilliModule, hanModule, hishiroCoreModule,
   hyalunaModule, illienModule, kaedeModule, keyModule, lanModule, lillyModule, miaModule,
-  momoModule, moonModule, nelphModule, nemoModule, nhouModule, nobuModule, noetherModule,
-  nuienModule, oyasumiModule, plateletModule, renModule, rithaModule, rooksModule,
-  rummyModule, shikiModule, snowModule, suzimasuModule, syeModule, tenModule, tofuModule,
-  yassrModule, yelikModule, yumiModule, zeppModule,
+  momoModule, moonModule, mugenModule, nelphModule, nemoModule, nhouModule, nobuModule,
+  noetherModule, nuienModule, oyasumiModule, plateletModule, renModule, rithaModule,
+  rooksModule, rummyModule, shikiModule, snowModule, suzimasuModule, syeModule,
+  tenModule, tofuModule, yassrModule, yelikModule, yumiModule, zeppModule,
 ] as const;
 
 const richBioSources: Array<Record<string, CharacterBio>> = [
