@@ -30,6 +30,12 @@ export const integratedGags = [
       "One LadyMugen typo achieved artifact status instead of dying with the message. On May 10, 2022 Ren posted a crop reading ‘hope everyone has eaten their breaststroke’ to the Wall; Rich announced ‘The shame war has begun🤣’, and Rummy immediately quoted the line back as ‘breastroke.’ On August 12, 2026 Ren posted the same visible crop again. The clean genealogy is not merely ‘UL cannot spell’ — it is Ren preserving one specific Mugen casualty long enough to re-file it four years later. Ren is POSTED BY for both surviving Wall appearances; the original Dragon Raja message date and original CAPTURED BY remain unresolved.",
   },
   {
+    id: "old-man-snow",
+    name: "Old Man Snow",
+    logline:
+      "Snow's age case kept mutating instead of resolving. By September 9, 2020 Ansun was proposing a fake 50th birthday for ‘our beloved old man Snow’ while Shiki objected, ‘I thought snow was 26.’ A month later Rooks had Grandpa stranded on MySpace and Snow could only answer ‘shush’; the room then litigated whether he even sounded old until Cookie closed argument with ‘he is old man.’ By 2022 Rich was saying Grandpa was ‘misplacing things again’ and forgetting his own IGNs. The 2026 reunion simply carbon-dated the defendant farther back: ancient, dinosaur, Mesozoic buddy, Babylon tablet reader. September 9 is the earliest explicit targeted wording currently surfaced, not a proven origin; an April 2020 old-man GIF cluster remains too context-poor to promote.",
+  },
+  {
     id: "snow-weather-liability",
     name: "Snow = Weather Liability",
     logline:
