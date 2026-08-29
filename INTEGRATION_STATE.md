@@ -1,44 +1,69 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration pass: **2026-08-28 22:27 PDT**.
+Last dual-surface integration pass: **2026-08-28 22:41 PDT**.
 
-Full pass detail is durable on MAIN under `archive-intake/INTEGRATION_PASS_2026-08-28_2227_DUAL.md`.
+Full pass detail is durable on MAIN under `archive-intake/INTEGRATION_PASS_2026-08-28_2241_DUAL.md`. The immediately preceding advanced-branch publication pass is preserved at `archive-intake/INTEGRATION_PASS_2026-08-28_2227_DUAL.md`.
 
 ## Census / queue
 
-The mandatory census found **25 miner branches**. Core Rooms and Wall both advanced during the run; every observed head was registered on MAIN before deep review. Core's packaged 22:20 handoff was reviewed through `b4a6d020cf85fbb8c7a02e70112da4467cd0b8e0`, and Wall's 22:13 handoff was reviewed through `e022c9928238c34931fa8503e08aacaa0d7ad58a`.
+The mandatory census found **25 miner branches**. Every observed `archive-miner-*` / `archive-miner/*` head is represented in MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` with separate `last_seen_sha` and `last_consumed_sha` state. A closing branch listing showed the same 25 miner heads.
 
-Finite pending / backlog / review-overdue closes at **0 / 0 / 0** at the reviewed boundary. Living Ensemble and both Club-Only branches remain fully consumed. The cumulative null-consumed recovery queue remains **Core Rooms + Wall** because older safe-baseline packages still exist.
+Finite pending / backlog / review-overdue closes at **0 / 0 / 0** at the reviewed boundary. Living Ensemble and both Club-Only branches remain fully consumed. The cumulative null-consumed recovery queue is now only **Core Rooms + Wall** because older safe-baseline packages still exist.
 
-## Core — Porgo gets a life outside the login screen
+The old prompt-level Club-Only recovery warning is stale against durable state: Club-Only 2020 remains consumed through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`, and Club-Only 2021–2026 remains consumed through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`.
 
-Stable account `475495417639993354` directly self-identifies as `alvolufi` in the 2020 Lobby and `itporgo!` in a 2022 Lobby pass. Those are safe historical IGN snapshots on one account; they are not a proven first-ever join date, return date, or exact rename chronology.
+## Advanced current-head work preserved
 
-The useful story is not the name change anyway. In October 2020, when Porgo says real life may make game activity scarce, Anthos answers `irl always come first`, puts the game account `on vacation`, and Mugen explicitly separates the game from the room: `real life first always, pls don't worry about the game or the club. You're always welcome to come back and or still hang out with us here on discord ❤️`. In June 2022 the same account says work and unpacking may keep Porgo off the game while Discord messages still work; Sye replies `NW, Real Life Priority 👍`.
+The preceding 22:27 pass safely reviewed Core Rooms through `b4a6d020cf85fbb8c7a02e70112da4467cd0b8e0` and Wall's current head through `e022c9928238c34931fa8503e08aacaa0d7ad58a`. This continuation re-read that durable state rather than racing or duplicating it.
 
-WIKI therefore adds **Real Life Priority** to `src/data/integrator-episodes.ts`. The scene says the larger continuity thesis through one actual person instead of another generic paragraph about UL outliving a game. The private third-party medical detail in the 2020 source is intentionally omitted.
+Core's new Porgo evidence family remains WIKI-owned as **Real Life Priority**: the same stable account self-identifies as `alvolufi` in 2020 and `itporgo!` in 2022, while exact rename timing stays unresolved. In 2020 Anthos answers a real-life interruption with `irl always come first`, and Mugen explicitly separates game/club obligations from remaining welcome in Discord. In 2022 the same account says work/unpacking may block game activity while Discord remains reachable; Sye replies `NW, Real Life Priority 👍`. Private third-party medical detail from the source remains omitted.
 
-Core's copy of the Porgo Wall self-shame lead still lacked exact caption-message IDs, but Wall independently recovered them in the same integration pass. The two handoffs were reconciled as one evidence family rather than treated as competing facts.
+Wall's current-head package remains split cleanly across surfaces. MAIN owns Porgo's repeat self-filing inside the established Wall procedure exhibit. WIKI owns **Welcome to Citric Acid**, where visible `cit` gets read as `zit`, `city`, `citric acid`, and `Citric` before the account directly self-reports the full name `Citrinitas`. `cit` predates the scene; `City` / `Citric` remain scene-level mutations, not permanent aliases. Seth's delayed `Lol,no explanation for you,dear` stays held as thin voice because Kiro's accusation image is still uninspected.
 
-Core remains cumulative/recovery-in-progress with `last_consumed_sha: null`; older safe-baseline material remains. Spritely/Shurui `plabn` remains unresolved.
+## Wall recovery — 01:46 closes as duplicate/corroboration
 
-## Wall — Porgo prosecutes himself; Cit becomes chemistry
+The next older Wall safe-baseline package, `2026-08-25 01:46`, has now been reviewed checkpoint-first and intake-only.
 
-Wall's late handoff resolves Porgo's repeat self-filing at text level. On June 20, 2022 Porgo files `putting myself up here cause im very mad at myself`, follows with `figgy is mad at me`, and on July 9 returns with `im exposing myself`. The attached images remain visually uninspected, and Figgy remains unidentified. MAIN owns this material by deepening the existing Wall procedure exhibit rather than forcing a thin Porgo Character route into an unresolved roster shelf.
+### Mia ↔ Momo — already owned
 
-The same Wall package supplies the complete **Citrinitas** naming collapse. Mugen welcomes visible `cit`; Cele reads it as `zit`; Moon lands on `city`; Mugen's brain autofills `citric acid`; Ren answers `Citric`; and Citrinitas finally volunteers that the full name was `Citrinitas`, which admittedly does make the chemistry charge difficult to dismiss. WIKI adds **Welcome to Citric Acid** as a bounded episode. The full name is direct self-report, but `cit` predates the scene and `City` / `Citric` remain one-scene peer mutations unless later recurrence surfaces. Mugen is only POSTED BY for the uninspected welcome image.
+The package preserves the reciprocal April 7→9 sequence:
 
-Seth's three-day-later true reply — `Lol,no explanation for you,dear` — is good thin character evidence, but the screenshot accusation remains visually unresolved, so no standalone Seth object was manufactured. RealGameJack + Daya sharing *86* anime taste stays backstage.
+- Mia: `me and momo are twinsss`.
+- Momo: `Mimi’s twin`.
+- Mia: `love u twinnn`.
+- Momo: `Love ya 2`.
+- Two days later Momo true-replies to another Mia Wall post: `you are both Mimi & Momo.`
 
-Wall remains cumulative/recovery-in-progress with `last_consumed_sha: null`; the next older safe-baseline package remains **2026-08-25 01:46**.
+This exact relationship texture already exists on MAIN's Mia/Momo dossiers and WIKI's Mia material, with the correct boundary that Mia and Momo are distinct people and `twin` is house/play language rather than biology or an identity merge. No duplicate WIKI relationship or episode object was added.
+
+The two source images remain visually uninspected, so the archive still does not claim what visual resemblance or situation caused the bit. The scene is also not the origin of UL's broader `twin` vocabulary.
+
+### Oyasumi — already owned
+
+The package also preserves Oyasumi's recurring fake-evidence register:
+
+- 2022: `Still hard evidence of your crimes`.
+- 2023: `Caught my boy in 4k`.
+
+Both MAIN and WIKI Oyasumi dossiers already own this person-level behavior. It remains social Wall language, not a Prosecutor/Investigator appointment and not proof UL invented generic `caught in 4k` phrasing. The underlying 2022 exhibit and the identity behind `my boy` remain unresolved. No duplicate public object was added.
+
+### Mean Tree — corroboration belongs elsewhere
+
+Sye's December 2020 `Oh damn ! Mean Tree at it again TwT` is useful evidence that recurrence was already legible by that date, but the image remains uninspected and the canonical Mean Tree explanation belongs to the dedicated Mean Tree corpus. WIKI therefore does not manufacture a competing origin from Wall.
+
+## Holds / rabbits carried forward
+
+The 01:46 package intentionally leaves unresolved: what prompted Mia/Momo's twin bit visually; Oyasumi's 2022 exhibit and 2023 `my boy`; Gilli→Gabu `bot answers again` origin; WOO→Nobu `TRAITOR` cause; Oyasumi→Ansun unsellable-items mechanics; Sye's contextless `mating ritual`; the Ren/Snow fountain-of-youth screenshot cause; Eos/Marian `our two childs` targets; and older Wall rabbits not explicitly closed.
+
+Core still holds Spritely/Shurui `plabn`, Porgo's exact IGN transition timing, and its older safe-baseline recovery. Similar names do not create identities; exporter role arrays do not create appointment chronology; joke family/relationship language does not become literal; POSTED BY does not become MADE BY / CAPTURED BY / FEATURING.
 
 ## Current queue / recovery mirror
 
 - **Full miner census:** 25 branches.
-- **Finite pending / backlog / review-overdue:** 0 / 0 / 0 at the reviewed boundary.
+- **Finite pending / backlog / review-overdue:** 0 / 0 / 0.
 - **Living Ensemble:** consumed through `66c3227c687965a4dae9b372fdcbe2dc128611ba`.
-- **Core Rooms:** reviewed through `b4a6d020cf85fbb8c7a02e70112da4467cd0b8e0`; cumulative `last_consumed_sha` null.
-- **Wall:** reviewed through `e022c9928238c34931fa8503e08aacaa0d7ad58a`; older safe-baseline recovery remains from 01:46; cumulative `last_consumed_sha` null.
+- **Core Rooms:** reviewed through `b4a6d020cf85fbb8c7a02e70112da4467cd0b8e0`; cumulative `last_consumed_sha` remains null.
+- **Wall:** current head reviewed through `e022c9928238c34931fa8503e08aacaa0d7ad58a`; older safe-baseline recovery now additionally covers the `2026-08-25 01:46` package; cumulative `last_consumed_sha` remains null.
 - **Daycare:** consumed through `695233137ba596e92baccf646501ba4b40d2ef12`.
 - **Louvre:** consumed through `b62a77b00685e9eb44de9945d5673f1592348c57`.
 - **Whiskey:** consumed through `018540484985f4b1c172557d8efd6a187d04fe68`.
@@ -46,14 +71,10 @@ Wall remains cumulative/recovery-in-progress with `last_consumed_sha: null`; the
 - **Club-Only 2021–2026:** consumed through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`.
 - All other finite miner branches remain consumed through their current seen heads in MAIN's ledger.
 
-## Holds / canon fences
-
-Porgo's exact IGN transition timing remains unknown. The 2020 Lobby door is not promoted into a first-ever join date; the 2022 Lobby pass is not promoted into a return. Porgo's attached Wall images and Figgy identity remain unresolved. Citrinitas's `City` / `Citric` mutations are not promoted into permanent aliases, and visible `cit` is not assigned an origin from a scene where it already exists. Seth's screenshot charge remains unknown. Spritely `plabn` remains unresolved. Similar names do not create identities; current/export role arrays do not create appointment chronology; POSTED BY does not become MADE BY, CAPTURED BY, or FEATURING.
-
 ## Public changes / verification
 
-Reader-facing WIKI changes: `src/data/integrator-episodes.ts` gains **Real Life Priority** and **Welcome to Citric Acid** at content commit `0b8637de8844686655f86e04314aca99ad80a3b9`. The repository's standalone Astro workflow completed successfully in run `33236474484`, and the Pages build → deploy → report workflow completed successfully in run `33236474526`.
+No new reader-facing WIKI copy was accepted from the Wall 01:46 recovery slice because its A/B material is already richer on existing canonical owners or remains unresolved. The immediately preceding reader-facing WIKI change remains `src/data/integrator-episodes.ts` at content commit `0b8637de8844686655f86e04314aca99ad80a3b9`, adding **Real Life Priority** and **Welcome to Citric Acid**. Standalone Astro build run `33236474484` succeeded, and Pages build → deploy → report run `33236474526` succeeded for that exact content commit.
 
-Reader-facing MAIN change: `src/lib/wall-archive-exhibits.ts` deepens the existing Wall self-procedure exhibit with Porgo's repeat self-filing at content commit `a2847b49f76738737d644a56703c821e89a2f909`. MAIN's exact-commit workflow completed source canon/architecture verification, Astro build, built-output verification, and Cloudflare deployment successfully in run `33236447213`.
+The corresponding reader-facing MAIN change remains Porgo's repeat self-filing in `src/lib/wall-archive-exhibits.ts` at content commit `a2847b49f76738737d644a56703c821e89a2f909`; its exact-content workflow `33236447213` succeeded through source verification, Astro build, built-output verification, and Cloudflare deployment.
 
-This state reconciliation itself triggers the repository's normal exact-head workflows; the closing MAIN run report records final publishing-head verification without rewriting lore merely to chase its own status commit.
+This state-only reconciliation triggers WIKI's normal exact-head workflows. The closing run report checks the final publishing heads after durable bookkeeping lands.
