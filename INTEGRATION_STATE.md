@@ -1,39 +1,45 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration pass: **2026-08-29 09:54 PDT**.
+Last dual-surface integration pass: **2026-08-29 10:16 PDT**.
 
 Full branch-level consumption state is durable on MAIN in `archive-intake/INTEGRATOR_BRANCH_STATE.json`; prior rolling wiki states remain in Git history.
 
 ## Current branch boundary
 
-Mandatory opening and final census: **28 active remote miner refs + 21 historical/missing refs = 49 tracked branch identities**. No archive-miner refs live only in the wiki. Closing finite queue: **1 pending / 0 backlog / 0 review-overdue**. `archive-miner/mugen-person-first-20260828` is reviewed/consumed through `fcb537b32207d35858dbd67c14c382e8e2df3cd5`. Late in closure, `archive-miner/all-characters-hr-20260828` advanced from consumed `defce8085…` to seen `d87588bb07ca56ed9a63365d9c12f5b5a2859355`; that suffix is deliberately pending for fair rotation rather than being fake-consumed. Core Rooms and Wall remain cumulative recovery tracks with formal `last_consumed_sha: null`; Core forward handoffs are reviewed through current `c5d96cd82d54b94b17796d8057769830a6a097ae`, while Wall is seen at `8a418697d7a6ae28c6e09b80495720fe62e397a5` with forward review through `41ffc4f0…`. Both Club-Only miners remain fully consumed/current. No miner branch was merged or cherry-picked wholesale.
+Mandatory opening census and closing re-census: **28 active remote miner refs + 21 historical/missing refs = 49 tracked branch identities**. No archive-miner refs live only in the wiki. Closing finite queue: **1 pending / 0 backlog / 0 review-overdue**.
 
-## WIKI keeper — The Planter Box Is Part of My Character Now
+`archive-miner/all-characters-hr-20260828` was reviewed checkpoint-first and intake-only from `defce8085b88e9f7459d235bdf03ad113d39c22f` through current `daa121ce0e352904090c82484ef25887554c814e`; it is now consumed through that head. Late-moving `archive-miner/daycare-2020-2026-hourly` is seen at `d7d99f9f3e22832e99c57602bc94c1a8061f42c1` while consumed remains `981e31d9b1739e69fae168ea99e1c7cf22ad167c`, so Daycare is the sole finite pending branch for fair rotation. Core Rooms and Wall remain cumulative recovery tracks with formal `last_consumed_sha: null`; Core forward handoffs remain reviewed through `c5d96cd82d54b94b17796d8057769830a6a097ae`, Wall through `8a418697d7a6ae28c6e09b80495720fe62e397a5`. Both Club-Only miners remain fully consumed/current. No miner branch was merged or cherry-picked wholesale.
 
-Core's `df27f7ef… -> c5d96cd8…` forward suffix was reviewed checkpoint-first and intake-only. The keeper is Cas / potency.
+## This pass — All Characters Run 12 closes cleanly
 
-On September 17, 2020 Cas directly explains that `potency` is the current in-game name because the usual username belongs to an abandoned first character; the abandoned character's name remains unresolved. On September 18 a Dragon Raja planter-box glitch follows Cas through teleports. Mugen suggests restarting. Cas says `i just find it funny`, then decides `i think this planter box is part of my character now` and `it follows me every time i teleport`.
+The reviewed All-Characters delta covered the fifteen VIP person files — Zyrcant/Akariel, Rich, Woohyuk, Syv, Woosung, Beowulf/JereGilgamesh, Acoryuie/Cinders/Juniper, Baby Lyssa/Ghoulie, BishopThaGuru, Jade, Jordayy, KOREA/Milk, LEXI/Okaa-san, Milo, and TonyTonyChopper — plus the Run-12 findings, receipts, rabbit holes, site candidates, coverage ledger, and exhaustion ledger.
 
-By February/March 2021 Cas reports being distracted by FFXIV and then Yakuza; Mugen answers with relaxed `pot` language, including `No worries pot! We'll see u around uwu`. The safe read is specific: Cas turns a fixable bug into a companion because the broken thing is funnier than the repair, while Mugen receives outside-game drift as ordinary rather than a loyalty crisis. `pot` is recurring Mugen-to-Cas scene language, not a global alias. The abandoned first-character name, exact game-club membership chronology, and any departure date remain unresolved.
+The important integration result is mostly **do not duplicate what already has a better house**. LEXI's care-through-imperfect-presentation scene, Rich's audience-aware censoring / couch gravity, Bishop's comedian+waltz texture, Woosung's Nobu-boundary material, and Tony's onboarding embarrassment already have stronger public owners. Woohyuk's `The goal of mass effect IS sleeping with every character PERIODT` line was concurrently promoted on MAIN during this pass, with the necessary fence that it is a joke about playstyle rather than a literal game objective, real-world sexual-history claim, or sexuality evidence. That is the correct person-shaped owner, so WIKI does not mint a second copy merely because the receipt is funny.
 
-WIKI owns this bounded incident in `src/data/integrator-episodes-core-20260829.ts` as **The Planter Box Is Part of My Character Now**. Reader-facing content commit: `9173634a5ef3442d2880e21e7add46a0736e7d0a`. That content commit passed both existing WIKI workflows, including Pages build/deploy/report.
+The miner's new **90/90 non-Mugen roster coverage-opening milestone** is quarry bookkeeping, not public lore: all ninety now have person-first HR files open, but zero are exhausted at the current archive boundary. WIKI therefore gets no fake “complete cast” triumphalism from an internal coverage milestone.
 
-Other Core material in the same handoff — Leokuraii event self-ID, joy/Silverthorne history, waterlily/TakaSama identity evidence, and the TankHead94/Oyasumi appointment rabbit — remains backstage evidence or unresolved chronology. `Mr. *I don't use discord* @TankHead94` is social prehistory, not an appointment receipt. Core's older safe-baseline recovery remains through the 2026-08-28 18:47 package; formal consumed stays null until that cumulative recovery closes.
+## Recovery / anti-starvation
 
-## MAIN reconciliation — Tae's math bedtime routine
+Core recovery was continued as capacity allowed. Its older safe-baseline frontier remains recorded through the 2026-08-28 18:47 package. This run attempted to isolate the next older intake package from branch history, but the boundary was not clear enough to advance safely without guessing, so the frontier stayed put. Existing WIKI owner **The Planter Box Is Part of My Character Now** remains intact.
 
-The Mugen person-first delta `99ccd6f8… -> fcb537b3…` was reviewed checkpoint-first and intake-only. New texture includes Tae's recurring sleep-via-math routine, Nhou's healthcare-work vocabulary leaking into casual chat, Woohyuk's fossil-fuel fake-family child / `Tyrannosaurus rex` naming, Eos's corpse-language communalization, and a thin Illien aside with unresolved target.
+A separate concurrent WIKI descendant landed during closure: **Study First, Senseiii** (`190d26b68d92151170a679807342630078ddd6d2`). It was preserved rather than overwritten. The episode correctly distinguishes Shk's classroom behavior, later affectionate `senseiii` peer-address, and the September organization-map label; September 23 remains earliest surfaced direct peer-address here, not a proven title origin or appointment date. `SHIKI` is handled as historical display identity around the stable Shk account, while the self-reported Dragon Raja IGN remains `ReisenUInaba`.
 
-During closing reconciliation, MAIN accepted **Tae's math bedtime routine** into `src/content/people/mugen.md`: on November 30, 2020 Tae cannot sleep, Mugen starts dumping Nevanlinna theory into chat until Tae reports `It kinda woRkseed`; three weeks later Tae complains that Mugs would normally be filling chat with `some weird math theoretical type shat` so Tae could sleep. That second line turns the first stunt into a recognizable little routine because Tae notices the service when it is missing. Treat it as affectionate relationship texture, not medical care.
+## Holds / identity fences
 
-MAIN reader-facing commit: `943c844ac54c14d2d5c3b481d1e809e11dcb9969`. The rest of the Mugen suffix remains held or duplicate: Nhou's line does not identify patients/employers/shifts; Woohyuk's child remains fictive-family nonsense; Eos does not establish a global corpse-joke origin; Illien's distraction target remains unresolved; and WIKI already owns the stronger raw Nobu refusal sequence as **The #woofannys Refusal** rather than duplicating the older secondary join.
-
-## Surface split / holds
-
-- **WIKI-only:** Cas's planter-box scene. Its value is a clean bounded Episode; MAIN does not need a paper-doll Cas biography just to duplicate one scene.
-- **MAIN-only:** Tae's math-bedtime routine. Its value is relationship texture inside Mugen's existing lived-care chronology; WIKI does not need the same paragraph as a second episode.
-- **Pending:** All-Characters `defce8085… -> d87588bb…`, seen late and queued for fair rotation next run.
-- **Held:** Cas's abandoned first-character name; Cas exact membership/departure chronology; TankHead94/Oyasumi appointment chronology; joy/Silverthorne transition chronology; Nhou workplace/patient inference; Woohyuk literal kinship; Eos global-origin claims; Illien unresolved target; all visually uninspected attachments/provenance.
+- Acoryuie/Cinders/Juniper stable-account continuity is safe; exact rename/alt mechanism remains unresolved.
+- Baby Lyssa/Ghoulie's Wall-residency language remains social/fictive language, not literal residence or romance.
+- Beowulf/Jere's pooled Deleted User `prentice` mentor remains unresolved.
+- Jade's social presence in Whiskey does not establish an in-game UL roster status.
+- KOREA/Milk remains distinct from Miihi/Milk; screenshot contents/provenance remain uninspected.
+- Syv remains distinct from Sye/Life.
+- Tony's fictional-character target and image contents remain unresolved.
+- Zyrcant=Akariel is safe; the `caught in 4k` exhibit remains visually uninspected.
 - POSTED BY / MADE BY / CAPTURED BY / FEATURING remain separate. Earliest surviving remains not-origin. Export-current role arrays remain non-chronological.
 
-The useful scene pair is beautifully stupid in two different directions: **Cas is offered a restart button and decides the haunted planter box is now character development; Tae cannot sleep and Mugen apparently responds by weaponizing graduate-level math as melatonin.**
+## Surface split
+
+No new WIKI object was accepted from the reviewed All-Characters Run-12 delta because the strongest material is already person-shaped and better owned by MAIN or is not yet sufficiently joined. MAIN character texture is not mirrored here for symmetry. The concurrent Shk episode remains WIKI-only because its value is a clean, chronological incident/progression object rather than a duplicate biography paragraph.
+
+## Verification / deployment
+
+This state update preserves the concurrent `Study First, Senseiii` descendant. Existing WIKI build and Pages workflows are authoritative; exact-head outcomes are checked before this integration pass is reported green.
