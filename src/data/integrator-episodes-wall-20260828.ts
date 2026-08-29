@@ -36,5 +36,14 @@ export const wallIntegratedEpisodes: Episode[] = [
     kind: "Wall apology / one nonsense word becomes communal evidence",
     logline: "S posts an image with `im sry gilli ily ...`, then eight seconds later contributes the apparently case-dispositive word `yaght`. Daya echoes `yaght` about a minute later. Forty-seven minutes after the filing, Gilli true-replies to S's exact image parent with `PLEAS ELMAOO`. That timing is the whole little machine: apology first, language failure immediately after, another person ratifies the failure by repeating it, and Gilli eventually arrives at the original filing already laughing. The image itself is still uninspected, so the wiki keeps the attribution narrow: S POSTED it; MADE BY, CAPTURED BY, FEATURING, and whatever the pixels actually show remain unresolved. This surviving scene documents `yaght` being picked up in the room, not the word's first-ever origin.",
     cast: ["S", "Daya", "Gilli"]
+  },
+  {
+    id: "kim-welcome-wall-filing",
+    title: "Welcome to UnderLords, Here's Your Wall Filing",
+    season: "2023",
+    date: "June 6, 2023",
+    kind: "Wall onboarding / the welcome and the evidence are somehow the same post",
+    logline: "Mugen posts a Dragon Raja screenshot with `Welcome to UnderLords, @Kim`, and the Wall immediately answers with a pile of `Fat_Wheeze` reactions; Mia contributes another one for good measure. Kim's first direct line in the scene is `LMAOO 💀`. The welcome and the embarrassment have fused into one gesture: before anybody can turn membership into a ceremony, the room has already turned it into content, and Kim laughs along instead of mounting a defense. The screenshot itself remains visually uninspected, so Mugen is safely POSTED BY only; CAPTURED BY, MADE BY, FEATURING, and whatever Kim was supposedly caught doing remain unresolved. `Welcome to UnderLords` establishes the welcome scene, not the exact club-admission timestamp or mechanism.",
+    cast: ["Kim", "Mugen", "Mia"]
   }
 ];
