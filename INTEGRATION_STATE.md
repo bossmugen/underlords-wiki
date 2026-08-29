@@ -1,6 +1,6 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration pass: **2026-08-29 11:30 PDT**.
+Last dual-surface integration pass: **2026-08-29 11:44 PDT**.
 
 Full branch-level consumption state is durable on MAIN in `archive-intake/INTEGRATOR_BRANCH_STATE.json`; prior rolling wiki states remain in Git history.
 
@@ -8,13 +8,9 @@ Full branch-level consumption state is durable on MAIN in `archive-intake/INTEGR
 
 Full census: **28 active remote miner refs + 21 historical/missing refs = 49 tracked branch identities**. No archive-miner refs live only in the wiki.
 
-This pass initially closed with Daycare as the sole finite late mover. A direct-descendant MAIN census immediately afterward caught three more miners advancing, so the **live durable queue** is now:
+At the reviewed cutoff:
 
-- finite pending: **4**
-  - Daycare — seen `5550f88d6659a38c4c967c4ae0203657ee98a179`, consumed `d7d99f9f3e22832e99c57602bc94c1a8061f42c1`
-  - Louvre / AI Art / Athenaeum / Other Games — seen `8729c12c787562155e5ea2abe0daca6936801729`, consumed `02485d609feaaa25163dc160312f288b3a875d9e`
-  - Mugen person-first — seen `c9c2fa9ca9e6a97f272a596f6a6dfaa97b3519ce`, consumed `a63c39502a1478c1f87f1ebfb70061e1bf759433`
-  - Whiskey — seen `e477750a...`, consumed `a88320bf523ecdf049d308c05077c9a57c437b04`
+- finite pending: **0**
 - backlog: **0**
 - review-overdue: **0**
 - cumulative recovery tracks: **Core Rooms + Wall**
@@ -22,77 +18,80 @@ This pass initially closed with Daycare as the sole finite late mover. A direct-
 Current important frontiers:
 
 - All Characters — seen/consumed `0a7f1e2d811a8f85a4080465376563d5c978197d`
-- Core Rooms — seen/forward-reviewed `f38fcb05669d4ca2bda3dcbe65704149bdf4cbee`; formal consumed null while older cumulative recovery remains open through the 15:46 package
-- Wall — seen `ce096efe589e4b09041888809f02e1072c779572`; forward-reviewed through `1627e904778c679a9c742453fa195a3c79639cd0`; formal consumed null while cumulative recovery remains open
+- Daycare — seen/consumed `5550f88d6659a38c4c967c4ae0203657ee98a179`
+- Louvre / AI Art / Athenaeum / Other Games — seen/consumed `8729c12c787562155e5ea2abe0daca6936801729`
+- Mugen person-first — seen/consumed `9ceb401612264d52d0ceb5b8971a4d67ccd7d5d5`
+- Whiskey — seen/consumed `e477750affa41ffacf7151441afc2e26c9d6df35`
+- Core Rooms — seen/forward-reviewed `f38fcb05669d4ca2bda3dcbe65704149bdf4cbee`; formal consumed null; older safe-baseline recovery through the **2026-08-25 14:46 package**, with 13:46 next
+- Wall — seen/forward-reviewed `ce096efe589e4b09041888809f02e1072c779572`; formal consumed null while cumulative recovery remains open
 - Club-Only 2021–2026 — seen/consumed `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`
 - Club-Only 2020 — seen/consumed `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`
 
 No miner branch was merged or cherry-picked wholesale.
 
-## This pass — Core Rooms
+## This pass — WIKI keeper: **Mint Choco Schism**
 
-Reviewed the Core forward handoffs checkpoint-first from the prior `639e63b1...` frontier through `f38fcb05...`.
+January 4, 2022. Dainyamite says `mint choco is good 😮`. Ren immediately reveals she is on the same side — `ITS NOOOT!! I love mint choco chip ...` — and then drops the better character receipt: **`Gilli got me a mint choco chip socks for my b-day`**.
 
-### WIKI: **LoliGraveyard, I Mean LoliParadise**
+Forty-three minutes later Gilli personally enters the record and tells Dainyamite: **`I hate Mint and chocolate together`**.
 
-On September 24, 2020 seven distinct stable accounts directly identify themselves with **LoliParadise** in the Lobby over the same evening: Zingzing, Nyann, Aithne, Lynneia, Iridescent22, Hwalei, and BaiQian. Five arrive inside roughly the first half hour.
+The lower-threshold read is exactly the kind of ordinary relationship texture the project now keeps instead of throwing away: Gilli apparently bought Ren a birthday gift themed around a flavor Gilli herself thinks is wrong because Ren likes it. No formal relationship tier is needed to make the care legible. The joke works because Gilli's own taste loses to the gift recipient's taste.
 
-Nyann's edited-final doorway line supplies the title: `Nyann, LoliGraveyard I mean LoliParadise`.
+Attribution stays clean: Ren is SAID BY for the birthday-sock claim; Dainyamite is POSTED BY for the Tenor embed; the underlying media maker is not assigned.
 
-The lower-threshold read is now public because the context is strong: seven same-night direct club self-IDs make a socially linked guest wave more likely than seven unrelated coincidences. Mugen's nearby `LOL It wasnt hakai it was zingzing in my dms` probably belongs to the social/logistical prehistory of the influx, but the surviving material still does not identify one inviter, recruiter, formal delegation, or exact DM plan.
+Episode owner: `src/data/integrator-episodes-wall-20260829.ts`. Corrected reader-content commit: `f4fd082edbc373d4655be7c2fa4d5f88ecd606da`.
 
-KrY is the negative control. KrY is processed inside the same queue but directly says `XkryX, uhm Virtuoso`, so adjacency does not draft somebody into LoliParadise.
+## MAIN-only keeper this pass: NemeMoka creator life
 
-Identity fence: **Lynneia/lunnely** and the different July guest **Lynnia/liangxiang** are separate stable accounts despite the spelling trap.
+MAIN owns the new NemeMoka material because its value is cumulative biography rather than one bounded incident.
 
-The Episode lives in `src/data/integrator-episodes-core-20260829.ts`.
+Neme's November 2020 line — `I finished my work in 2 days without sleep with that 216 layers` — establishes that Neme could choose an absurd creative pace without anyone else's help. Four months later Neme says a shop was made but she quit because `the dude annoys me to draw faster`, while some of her items would still sell and `They got a new artist already`.
 
-### VIP mechanism deepened, not duplicated into another Episode
+The probable person-level read is now public: Neme had been contributing art/items to a selling project, did not like another person controlling the output pace, and left. The distinction matters more than the missing storefront name: **self-directed intensity is not consent to somebody else's quota**. Exact shop/platform, compensation, ownership, item inventory and the man's formal role remain unresolved. Uninspected media remains unattributed.
 
-The same Core package confirms that VIP Lounge was actual early social/access infrastructure:
+MAIN owner: `src/content/people/nememoka.md`, reader-content commit `083b1635ea9e96b88b3c2ea477e8275024361052`.
 
-- Gilli sends arriving guests to `vip lounge chat room`;
-- Gilli explains `Fight Club Channel to VC or to Vip Lounge to type and chat`;
-- Mugen independently describes VIP Lounge as a typed backchannel while listening in Fight Club;
-- Gilli directly grants `VIP access` / a `VIP role` on separate June and July arrivals;
-- Snow directly grants VIP to Lorilee after her Caelum / S8 self-ID.
+## Other reviewed deltas
 
-The proportionate historical read is now that VIP was probably a routine guest/visitor access class in 2020, while exact universal criteria remain unresolved. That strengthens the existing public/canon owner rather than spawning a duplicate near-identical Episode.
+### Daycare
 
-Core's older safe-baseline recovery remains through the **2026-08-25 15:46 package**; 14:46 is next. Formal consumed remains null.
+Snow's early-April 2020 access-grant, role-assignment troubleshooting, `locked down`, server-build and audit-log lines corroborate his already-richer public access/security-operator history. They do not prove Snow created Daycare or establish an exact Daycare ACL. No duplicate public object was added.
 
-## This pass — Wall
+### Mugen person-first
 
-Wall forward handoffs were reviewed checkpoint-first from `5d1e684d...` through `1627e904...`.
+The branch's own public-integration handoff confirms MAIN already absorbed Dean/Zepp/Key off-game texting continuity, Ten `*barks*` → Mugen `Woof`, Sye's reunion age heckle, Rooks engagement memory updated to married + dog, and Nothien's `rant` / `You're welcome back anytime` step-away exchange. The late branch suffix was integration/checkpoint handoff only, so it was consumed rather than reread forever.
 
-The strongest MAIN-owned keeper is Nhou's August 31, 2020 appearance/brightness scene: Ren says `Appearance`, then `DARK`; Nhou immediately answers `MY EYES`; Anthos says `OKAY I CHANGED IT`; Nhou follows with `-vampire noises-` and later `i can read it now`. The chronology is direct; the light→dark interface reading is strong context rather than a medical claim or a proven first-ever origin.
+### Whiskey
 
-Other usable Wall advances were reconciled without forcing more public objects into this pass:
+Aizzy's `Old enuf` → `I feel old` is usable self-age humor without a numeric age. Marsy's arrival is probably the guest Milo said was coming, but that does not make Milo her recruiter or inviter. `PANCAKE ASS` probably points to Woohyuk by December 2020, but the nickname origin remains unresolved. No thin duplicate pages were forced.
 
-- Anayss's `Daddy ansun shall be your new nn` is now a true reply to Ansun's own `A mistake was made` + `IMG_3942.png`; nickname-as-reaction is probable, exact visual reason remains unresolved.
-- Daya true-replies to RealGameJack's *86 / Eighty-Six* Tenor with `luv this anime`; Jack answers `I knew you did`, making prior taste familiarity likely but appropriately small.
-- Alaina tries `.... so is this just out of context....?`; Marian says `no. that was the context`; Alaina answers `Okay` then a BRB emote. Comic resignation is a fair social read. `af.PNG` itself remains uninspected.
+### Wall
 
-Wall then advanced again to seen `ce096efe...`; that newest suffix is visible but unreviewed.
+Forward review now reaches current `ce096efe...`. Besides Mint Choco Schism, the package strengthens Daya/RealGameJack's probable prior anime-taste familiarity, Alaina's context-defense collapse, Ansun's nickname-as-reaction beat, and SaraBunny's recurring `moo` vocal joke. Nhou's probable light-mode flashbang is already public. Uninspected images remain attribution-fenced.
+
+### Core recovery
+
+Older safe-baseline review advanced through the **2026-08-25 14:46 package**. The strongest relationship scene is already richer on MAIN Lilly: Sycee's theatrical `Mine!` / `I Love Her more then all of y'all` turns, five minutes later, into worry that Lilly will be mad; Gilli explicitly reads Sycee as `just looking out for her`; Anthos joins the worry. The strong human read is care underneath the bit, not literal possession, romance, exclusivity, or a permanent protector title. Ritha's Tower of God material is also already public. Nhou's conflicting historical `18` / `33M` strings stay unresolved.
 
 ## Surface split
 
-- MAIN owns Nhou's dark-interface / flashbang scene because the value is character texture inside an existing dossier.
-- WIKI owns **LoliGraveyard, I Mean LoliParadise** because the value is bounded incident chronology, guest movement, and the Lobby's live administrative confusion.
-- VIP's wider mechanism strengthens an existing evidence family instead of getting a redundant page.
-- `Daddy ansun`, Daya/Jack, and Alaina remain usable contextual material; they were not rejected for lacking declarative exposition, they simply did not need three extra public objects in one pass.
+- **WIKI** owns **Mint Choco Schism** because the value is a bounded incident with a clean reversal: Ren loves the flavor, Gilli hates it, Gilli apparently bought the socks anyway.
+- **MAIN** owns NemeMoka's creator-life arc because the value is character accumulation across months rather than a one-scene episode.
+- Snow permissions, Ritha Tower of God, Sycee/Lilly worry, Nhou flashbang, and other corroboration were deduplicated against richer owners rather than mirrored mechanically.
 
 ## Verification / deployment
 
-WIKI reader-content commit `eef19e61201c7e6770a0d63b00b38c6dc5b7cf96` passed **Build Underlords Wiki** and **Deploy Underlords Wiki Preview** successfully, including the Pages build/deploy path.
-
-MAIN reader-content commit `639e08a59199331aa03acd4d589d512a3d48c0af` passed source canon/architecture verification, Astro build, built-output verification, and exact validated Cloudflare deployment successfully. MAIN's direct-descendant live census head `3795f45c7a47b8d888b889e023248a258649447c` also passed the exact same full pipeline successfully, preserving this pass while refreshing the moving branch queue.
+- WIKI reader-content commit `f4fd082edbc373d4655be7c2fa4d5f88ecd606da` passed both existing workflows: **Build Underlords Wiki** and **Deploy Underlords Wiki Preview**, including the Pages build/deploy/report path.
+- MAIN reader-content descendant `083b1635ea9e96b88b3c2ea477e8275024361052` passed the complete existing **UL Hourly Build + Deploy** workflow: source canon/architecture verification, Astro build, built-output verification, exact Cloudflare deployment, and production verification all succeeded.
+- Final state/report descendants are verified after this state commit so concurrent work is not overwritten.
 
 ## Unresolved / protected
 
-- exact universal VIP criteria or lifecycle;
-- exact organizer/inviter of the LoliParadise wave;
-- `IMG_3942.png` and `af.PNG` visual contents / MADE BY / CAPTURED BY / FEATURING;
-- global origin of `Daddy Ansun`;
-- any medical interpretation of Nhou's brightness joke;
-- any merge of Lynneia/lunnely with Lynnia/liangxiang.
+- NemeMoka shop/platform, compensation, ownership, exact item inventory, and `the dude`'s formal role;
+- DiStratus/Torr object-level media provenance;
+- Aizzy numeric age;
+- Marsy recruiter/inviter identity;
+- Woohyuk `PANCAKE ASS` origin;
+- Nhou conflicting historical age strings;
+- any uninspected image's MADE BY / CAPTURED BY / FEATURING claims;
+- any literalization of Sycee/Lilly's one-scene possessive language into romance, ownership, exclusivity, or a formal protector role.
