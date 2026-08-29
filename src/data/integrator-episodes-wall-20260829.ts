@@ -54,5 +54,14 @@ export const wallRecoveryEpisodes: Episode[] = [
     kind: "Wall speedrun / the filing apparently beats onboarding to the finish line",
     logline: "Mugen posts an uncaptioned screenshot. Gabu immediately detonates: `SHE DIDNT EVEN JOIN YET AND ITS ALREADY HETE`; Ren asks `DID SHE BEAT THE RECORD?`; Mugen asks whether anybody has even let the target in yet. Seconds later the same pooled Deleted User account is tagged, Mugen sends the welcome, the target answers `Wait- whhyyy`, and Mugen closes the case with `NEW RECORD HOLDER`. The choreography is the joke: whatever the underlying screenshot showed, the room is already discussing a Wall record before the welcome line finishes. The target's stable identity is deliberately not reconstructed because Discord export ID `456226577798135808` is a pooled Deleted User aggregate spanning multiple humans. Participant `she` wording stays participant wording, not an identity solve. The screenshot is POSTED BY Mugen; MADE BY, CAPTURED BY, FEATURING, and the image contents remain unresolved.",
     cast: ["Mugen", "Gabu", "Ren"]
+  },
+  {
+    id: "mint-choco-schism",
+    title: "Mint Choco Schism",
+    season: "2021",
+    date: "July 14, 2021",
+    kind: "Wall taste war / Gilli buys the enemy flavor anyway",
+    logline: "Dainyamite says mint chocolate is good. Ren immediately reveals she is on the same side and, in the same ordinary little breath, mentions that Gilli bought her mint-choco-chip birthday socks. Forty-three minutes later Gilli personally enters the record and tells Dainyamite she hates mint + chocolate. Dainyamite answers with mint-ice-cream media and then discovers the GIF search has apparently been annexed by Cookie Run. The tiny relationship beat is better than the flavor war: Gilli dislikes the combination and still apparently bought the themed gift because Ren likes it. That does not need a formal relationship label to be legible as care; sometimes affection is simply buying somebody socks decorated with the dessert you think tastes wrong. Dainyamite's posted mint-ice-cream embed is POSTED BY Dainyamite only; its underlying maker is not assigned.",
+    cast: ["Dainyamite", "Ren", "Gilli"]
   }
 ];
