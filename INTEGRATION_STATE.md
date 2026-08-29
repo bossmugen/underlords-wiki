@@ -1,66 +1,68 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration pass: **2026-08-28 16:46 PDT**.
+Last dual-surface integration pass: **2026-08-28 17:14 PDT**.
 
-This is the rolling current integration state. Full pass detail is durable in Git history and MAIN `archive-intake/INTEGRATION_PASS_2026-08-28_1646_DUAL.md`.
+This is the rolling current integration state. Full pass detail is durable in Git history and MAIN `archive-intake/INTEGRATION_PASS_2026-08-28_1714_DUAL.md`.
 
-## Current pass — Gilli acquires summoning magic; Hishiro answers the spell
+## Current pass — Bishop teaches Tofu to waltz and accidentally gets sincere
 
 ### Branch census / queue
 
-- Mandatory census: **24 miner branches**, persisted on MAIN before deep review.
-- No new miner appeared and no fully consumed discrete miner advanced at opening census.
-- Club-Only 2020 and Club-Only 2021–2026 remain consumed through their unchanged current heads.
-- Anti-starvation recovery rotated to Core Rooms HEAD `8d9e6f40f7b0872aca3c20c6c1bd8fc45ebcec19`.
-- Newly reviewed Core safe-baseline packages: **03:46, 02:46, 01:46, and the preceding 23:46 package**. Older 22:46-and-below material remains, so Core's consumed SHA correctly stays null.
-- Discrete queue remains **0 pending / 0 backlog / 0 review-overdue**. Cumulative recovery remains open for Living Ensemble, Core Rooms, and Wall.
+- Mandatory opening and closing census: **24 miner branches**, persisted on MAIN before deep review.
+- Opening advanced discrete branch: Daycare `13abfc003a816fe2cab9636a98fd9294aa5f1b06` → `0247cee810368486dbef7a4cffc74859068991c0`.
+- Daycare was reviewed checkpoint-first through the new head and, after successful publication verification, consumed through `0247cee810368486dbef7a4cffc74859068991c0`.
+- Club-Only 2020 and Club-Only 2021–2026 remain consumed through unchanged current heads and were not reread.
+- Anti-starvation recovery reviewed Core Rooms 03:46 at HEAD `8d9e6f40f7b0872aca3c20c6c1bd8fc45ebcec19`.
+- Closing census found no further miner-head advance. Discrete queue: **0 pending / 0 backlog / 0 review-overdue**.
+- Cumulative recovery remains open for Living Ensemble, Core Rooms, and Wall.
 
 ## Reconciled public finding
 
-**Hishiro ↔ Gilli — Summon Me Again.** On August 19, 2020, Gilli called Hishiro's name. Hishiro answered `yes? you called my name?`, then converted the ordinary ping into a tiny fantasy mechanic: `cool Gilli can summon people`, followed by a magic-summoning GIF, `summon me again if my service are needed again`, and `always at your service`.
+**BishopThaGuru ↔ Tofu — Teaching Tofu to Waltz.** On July 19, 2021, Bishop posted a Photo Submissions attachment captioned `Teaching @Tofu🐝 to Waltz turned out to be a lot cuter than expected... ☺️`.
 
-MAIN now owns the full lived character scene in `src/content/people/hishiro.md`, including the undercurrent that the actual task is gone but the availability survives: call her, she answers. The same MAIN expansion finally gives Hishiro's September 3 `my students` / video-material / lower-stress line prose weight instead of leaving it as a claim bullet. No teaching job title, school, subject, formal Staff duty, special Gilli hierarchy, or closeness ranking is invented.
+The useful thing is Bishop's own sentence, not an invented ship label. `Teaching` fixes the activity. `turned out` makes the softness sound discovered in the doing, and `than expected` quietly admits the scene surprised him. The smile at the end does not exactly scramble to put emotional armor back on. That is enough to preserve a sweet character beat without manufacturing romance, dating, exclusivity, or any formal relationship status.
 
-WIKI owns the complementary retrieval object: `src/pages/relationships.astro` now has a **Hishiro ↔ Gilli · Summon Me Again** Bonds card. It indexes the relationship language without photocopying MAIN's biography prose.
+MAIN owns the long-form continuation in `src/content/people/bishopthaguru.md`, where the waltz becomes the softer sequel to Bishop and Tofu's already-public first-week fake-feds / office-file / `Still love you…unfortunately` / screenshot-jail material.
+
+WIKI owns the complementary discrete retrieval object in `src/data/integrator-episodes.ts`: **Teaching Tofu to Waltz**. It indexes the dated episode instead of photocopying MAIN's biography prose.
+
+The attachment `IMG_0402.PNG` remains visually uninspected. Bishop is POSTED BY for the surviving submission and Tofu is explicitly named in the caption; pose, location, photographer, image maker, and other pixel-level details remain unresolved.
+
+## Reviewed but not separately published
+
+- **Zhēnxī:** the Daycare handoff extends the already-owned Six-Minute Shaming arc. On July 7, 2022, Zhēnxī herself posts a screenshot, tags Ren with `@RΣN so uh-`, laughs through Ren's `STAWP`, and ends with `Deserving`. This is a strong victim→participant Wall-socialization beat, but the screenshot and its four-month-old precipitating incident remain unresolved. Held for a stronger future person/episode owner rather than creating a thin duplicate.
+- **asapROG3R:** first-party intake now explicitly gives `Underlords`, followed later by one Daycare message. Useful person-level corroboration, not a new universal Daycare access rule and not enough for a standalone public dossier.
 
 ## Duplicate / already-owned evidence
 
-- Mia/Miaka/Opalite ↔ Momo `twinsss` / `Mimi's twin` / `you are both Mimi & Momo` is already public on MAIN Mia and Momo and already indexed on WIKI Bonds. Current canon already resolves Mimi / Miaka / Opalite Honey / ༯ under Mia; no miner-local narrower alias caution overrides that lock.
-- Gilli ↔ Gabu's December 2022 → April 2023 `shorter` / `shortest` war is already public on MAIN Gilli, including the later `Gabu's Non-existent inches` profile payoff.
-- Cookie/Kuki's spectator→casualty beat (`kuki saw too much today` → `NO` → `F for kuki`) is already public on MAIN Cookie.
+Core Rooms 03:46 was successfully reviewed with no public change. Its Miaka/Opalite ↔ Momo `twinsss` / `Mimi's twin` / `you are both Mimi & Momo` family-language cluster is already owned by current MAIN Mia and Momo canon and already reflected in WIKI character material. It remains social twin grammar, not biological kinship.
 
-## Held / unresolved
-
-- Nothien's April 6 healer/collateral strip is genuinely new and strong: `Only heal, I won't jump` → collateral damage → `lemme heal uuu` → `I died as collateral QAQ` → `Suzi sir stop running lemme heal uuuu`; Snow says `dats suzi`; Nhou says `thats what she likes`; Nothien answers `:0`. Held for a later dedicated Nothien expansion rather than cramming a second unrelated character arc into this pass. The Suzi characterization remains scene-local peer joking, not a global preference theorem.
-- Nothien's `NO ONE CHECK WHISKY ROOM FOR TWO MINUTES PLEASE` remains source-blocked without the matching Whiskey window. No motive is inferred.
-- Hishiro's nearby `unknown.png`, the Mia/Momo twin attachments, Namo's unresolved `try again` parent, and Kuki's exact precipitating spectacle remain unresolved.
-- Hishiro Tumbleweed labels `onee-sama` / `granddaughter` remain accumulated-map state with unresolved insertion dates; they are not dated to September 29 or converted into literal kinship.
+Core Rooms therefore stays `recovery_in_progress` with `last_consumed_sha: null`: the 03:46 package is reviewed, but older cumulative safe-baseline material still exists and the branch is not falsely graduated.
 
 ## Verification / deployment
 
 ### MAIN
 
-- Public-content commit: `1cbecd5c7baba51b5129588fbf2e9dbb31689ab1`.
-- Workflow `33221205071` **success**: source canon/architecture verification PASS; Astro build PASS; built-output verification PASS; exact validated commit deployment/production verification on Cloudflare PASS.
-- Core recovery state commit: `a4566df8c59b9cdcf76d5e4571b7d6514852e315`.
-- Durable dual-pass report: MAIN `archive-intake/INTEGRATION_PASS_2026-08-28_1646_DUAL.md`.
+- Public-content commit: `65d606f68c0313c05945f6017e11722eeaccb0ee`.
+- Workflow `33223329048`: **success** — source canon/architecture verification, Astro build, built-output verification, and exact Cloudflare production deployment all passed.
+- Daycare/Core branch-state update: `6e105391554b2b2907985812b28ba4a25245f6de`.
+- Durable dual-pass report: MAIN `archive-intake/INTEGRATION_PASS_2026-08-28_1714_DUAL.md`.
 
 ### WIKI
 
-- Public-content commit: `af1a6fa45893b89d2d9aa2528d7e5575584c6d56`.
-- Standalone Astro workflow `33221216329`: **success**.
-- Pages workflow `33221216315`: **success** — build, deploy, and report all passed.
+- Public-content commit: `60f01e2a0aa9013810606a3b490d876ffa3fc95c`.
+- Standalone Build workflow `33223339377`: **success**.
+- Pages workflow `33223339368`: **success** — build/deploy pipeline passed.
 
 ## Recovery / consumption state
 
-- Daycare: consumed through `13abfc003a816fe2cab9636a98fd9294aa5f1b06`.
+- Daycare: consumed through `0247cee810368486dbef7a4cffc74859068991c0`.
 - Whiskey: consumed through `a8a6cfaeaa3f21c35ca8cfaff5b14a8d8d4f63ed`.
 - Club-Only 2020: consumed through current head.
 - Club-Only 2021–2026: consumed through current head.
 - Living Ensemble: recovery open; consumed SHA null.
-- Core Rooms: recovery now includes package 23:46 plus 01:46–09:46; consumed SHA null because older 22:46-and-below remains.
+- Core Rooms: 03:46 is now explicitly reviewed in the cumulative recovery; consumed SHA null because older safe-baseline material remains.
 - Wall: recovery open; consumed SHA null.
-- No `last_consumed_sha` advanced this pass because no already-consumed branch had a new delta and Core's cumulative safe-baseline floor is not finished.
 
 ## Current cross-surface continuity locks
 
