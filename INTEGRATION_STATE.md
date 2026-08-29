@@ -1,61 +1,72 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration continuation: **2026-08-29 05:00 PDT**.
+Last dual-surface integration continuation: **2026-08-29 05:33 PDT**.
 
 Full branch-level consumption state is durable on MAIN in `archive-intake/INTEGRATOR_BRANCH_STATE.json`; prior rolling wiki states remain in Git history.
 
 ## Census / queue
 
-The mandatory opening census was persisted on MAIN before deep review: **27 active remote miner refs** plus **21 historical/missing refs** = **48 tracked branch identities**.
+The mandatory opening census was persisted on MAIN before deep review. Closing census remains **27 active remote miner refs** plus **21 historical/missing refs** = **48 tracked branch identities**.
 
-The sole finite opening delta was `archive-miner/mugen-person-first-20260828`, consumed through `67a9549e16959872c32820c335147d2a1388c260` and seen at `5ca8dc87f09f25d513ceedb967d478fd9915036e`. It was reviewed checkpoint-first and intake-only this pass and is now consumed through `5ca8dc87f09f25d513ceedb967d478fd9915036e` after a successful no-public-change review was durably recorded on MAIN.
+Closing finite queue: **1 pending / 0 backlog / 0 review-overdue**. `archive-miner/mugen-person-first-20260828` moved late from consumed `5ca8dc87f09f25d513ceedb967d478fd9915036e` to seen `7ac8d8563853c750805102f7d474ab4b29ab87ba` after this run's finite selection; it is visible and pending rather than fake-consumed.
 
-Closing finite queue: **0 pending / 0 backlog / 0 review-overdue**. Core Rooms and Wall remain cumulative recoveries with `last_consumed_sha: null` because their older safe baselines are unfinished. Both Club-Only branches remain fully consumed/current and were not reopened from stale backlog wording.
-
-The closing branch census retained **27 active / 48 tracked** and caught Core Rooms moving after the selected review work from seen/reviewed `052cf0544b971eed68f60abbdc48d018800dee58` through `088def81e7fd81889470efcb2ef85ef44cf13dd7` to current checkpoint head `1ad4e64a3805e79c5b754156bd6ccae1b08f5ac7`. MAIN state records the **05:06 package as seen but unreviewed**. No novelty is inferred from movement, and Core remains null-consumed. Wall remained at `365a1a944e1cf4a25b05a21db43202664cc0f5ff`.
+Core Rooms and Wall remain cumulative recoveries with `last_consumed_sha: null`. Wall moved late to seen `33d136fe032da873e096384d999e9a91bbb25def`; this run does not claim that new suffix reviewed. Both Club-Only miner branches remain fully consumed/current and were not reopened from stale backlog wording.
 
 ## Reviewed this continuation
 
-### Mugen finite delta — `67a9549e… -> 5ca8dc87…`
+### Core Rooms — `052cf054… -> 1ad4e64a…`
 
-The Mugen checkpoint was read first, then every changed intake-local handoff in the delta: findings, receipts, site candidates, open questions, and the HR addendum. No raw archive was re-mined.
+The Core checkpoint was read first, followed by all changed intake-local findings, receipts, rabbit holes, people/media/incident notes, the Valantina profile candidate, site candidates, and manifest/status handoffs. No raw archive was re-mined.
 
-The strongest new person detail is a small 2025 hardware contradiction. Mugen says `Me who use a 6 year old phone... o3o`; less than a month later she offers somebody one of her spares and explains that it has been `sitting in a draw for a year` because `I just hoard old phones lol`. The safe beat is the contrast: old daily driver, drawer full of retired/spare hardware. The evidence does not establish model, monetary value, wealth, or an exact inventory.
+The keeper is **Valantina / tyffani**. Her 2020 Lobby scene is a warm administrative doorway: `It's valantina`; Mugen answers `Hi val! Role assigned, thank you!`; Valantina answers `YAYYYYY`; Mugen mirrors `yaayyyy`; Nhou says `hi val`. That scene does not prove first admission, first arrival, or 2020 Council status.
 
-No reader-facing copy was accepted. MAIN's Mugen biography is already unusually dense, and this two-line quirk remains a B-grade bio candidate rather than earning another public section by itself. The newer sleep/awake receipts are corroboration for an already-rich public `Boss is probably asleep` interpretation; `✨Night child✨️` is a one-scene self-label, not a proven running gag. Mugen's resentment toward Sephinia and later patience around Warriors are authored feelings, but the underlying club-decision mechanics and rationale remain incomplete, so no causal public story was manufactured.
+The cleaner boundary lands on August 22, 2021. Valantina directly answers the Lobby club question with `Council`; Drink Water Reminder gives the tour and explicitly points her toward Photo Submissions. Roughly eleven hours later, on the final listed POPSTAR submission date, Valantina posts an image with **`IDK IF I CAN STILL SUBMIT THIS BUT I WILL ANYWAYS`**.
 
-### Wall cumulative recovery — 2026-08-28 23:22 package
+The line does almost all the useful character work itself. The first half announces uncertainty; the second half refuses to wait for certainty. She does not solve the question before participating. She just uploads while the question is still yelling. Four weeks later she posts another image during FESTIVAL, this time without a caption. That proves another creative-event appearance, not a manufactured confidence arc.
 
-Anti-starvation continued the older Wall safe-baseline recovery checkpoint-first through the 23:22 package.
+The attachments remain visually uninspected. Valantina is POSTED BY only; MADE BY, CAPTURED BY, FEATURING, winner status, and pixel contents remain unresolved. Historical age detail is not publicized. Her 2021 Council self-ID is not projected backward onto 2020 exporter labels.
 
-The strongest scene is Oyasumi's stair-death sequel. Gilli POSTS a screenshot with `@Oyasumi`; Daya true-replies to that exact filing with `HE DIED ON THE STAIRS AGAIN?!?!`; Oyasumi later answers `No 💀` and then `Or did I ?`. The reply structure plus Oyasumi's first-person callback strongly supports him as Daya's textual `HE`. The screenshot remains uninspected, and the first stair-death behind `AGAIN` is still missing.
+Core's older safe-baseline recovery remains reviewed through the 03:46 package, with 02:46 and below next. Core therefore remains formally null-consumed.
 
-Novelty check found this exact bounded incident already public on WIKI as **He Died on the Stairs Again**, so the recovery evidence was collapsed into that existing family instead of publishing a duplicate. The social comedy survives intact: the archive has the sequel in perfect detail and apparently expects us to know episode one by household osmosis.
+### Louvre — `f1dda8a5… -> 813246fa…`
 
-The same recovery package gives Mercy one complete `fresh box of cookies` -> `Support your local business 😌` vignette, but she remains too thin for a standalone dossier. Eos's `Got him again` now has an exact current image parent but not the identity of `him` or the earlier catch. `B.O.B CRIIIIMME` now has a parent but no safe expansion. `Lord of the Shorts` has a local wordplay birth but an unresolved target. Cookie's `horse-kun` callback is narrowed to the Sota image-shock sequence and Ansun-adjacent wording without proving `Ansun = horse-kun` or the image contents.
+Anti-starvation also completed the sole finite delta that was pending during the run. The Louvre checkpoint was read first and all nine changed intake-local handoffs were reviewed.
 
-Wall's older recovery frontier is now reviewed through the **23:22 package**; **23:08 and below** remain next. Wall therefore remains formally null-consumed until the cumulative baseline closes.
+**GenGrey** gains a good administrative-adjacent chronology: 34 seconds after `Hi - GenGrey`, Mugen reports that member-role assignment is broken; Snow later reaches for `a wrench..burlap bag..some duct tape` because the `discord gnomes need a bit of talking too`; Mugen later thanks Snow after hearing `the distant screams`. GenGrey's Louvre footprint begins three days later and the same stable account is still casually saying `Morning` in club-only in February 2021. MAIN already owns the essential GenGrey identity/pre-Raja biography. The role-system failure is adjacent to GenGrey, but it does not prove the intended Member role was his. No duplicate public patch was accepted.
+
+**iBwoy** gains stable-account continuity from four 2020 Louvre messages to an isolated same-day Lobby `lol`, then a 2021 Wall `Eh` chorus contribution: `Eh`, later `Rh`, then `Eh` three seconds later. `(LatinTeam)` is a persistent archive display association, not a reconstructed alliance/status mechanism, and exporter VIP arrays are not appointment chronology. The person remains too thin for a useful standalone fandom dossier.
+
+This successful no-public-change review advances Louvre consumed through `813246fa3e57c113f9bc70d148f1255ed8f70e5a` on MAIN so the same delta is not reread forever.
 
 ## Public integration split
 
-No new reader-facing copy was accepted on either surface this pass. That is deliberate, not a missed integration: the A-grade Wall scene is already owned by WIKI, while the finite Mugen delta is mostly corroboration plus one B-grade domestic quirk that does not improve an already-saturated biography enough to justify another section.
+### MAIN
 
-MAIN receives the durable branch-consumption update and pass report. WIKI receives this rolling state update. No existing reader-facing owner was duplicated merely to make both repositories change at once.
+MAIN now has a full `Valantina` biography across 2020-2021. It treats the 2020 door scene as surviving presence, the 2021 `Council` answer as direct self-identification in that dated scene, and the creative submissions as POSTED BY only. The public routing shelf lists Valantina among visitor/VIP pages strictly as site architecture; it is not a historical appointment claim.
+
+### WIKI
+
+WIKI now owns the bounded episode **IDK IF I CAN STILL SUBMIT THIS BUT I WILL ANYWAYS** in `src/data/integrator-episodes.ts`. The episode begins with the direct Council self-ID and server tour that morning, then lands on the same-day POPSTAR upload. The scene belongs here because it is a clean little episode: formal boundary first, immediate participation second.
+
+The surfaces intentionally do not mirror identical copy. MAIN owns the person-shaped chronology; WIKI owns the incident-shaped version.
 
 ## Held / attribution brakes
 
-- Mugen's old-phone / spare-phone contrast does not imply model, value, wealth, or an exact number of phones.
-- Sephinia/Warriors causal mechanics remain unresolved.
-- Oyasumi is the strongly supported textual subject of the stair line; the screenshot remains POSTED BY Gilli only, with MADE BY / CAPTURED BY / FEATURING unresolved.
-- `AGAIN` proves participant memory of recurrence, not the origin date or mechanics of the missing first stair incident.
-- Mercy remains thin and her attachment remains visually uninspected.
-- Eos's `him`, `B.O.B`, the Lord of the Shorts target, and horse-kun origin/media remain unresolved.
-- Core's late `052cf054… -> 1ad4e64a…` 05:06 package is seen but unreviewed and remains part of the cumulative recovery queue.
+- 2020 Valantina Council status is not backdated from exporter-rendered labels.
+- The May 2020 `Role assigned` line does not identify the exact historical role.
+- August 22, 2021 is not called a first join or rejoin date.
+- POPSTAR/FESTIVAL images are POSTED BY Valantina only; MADE BY / CAPTURED BY / FEATURING remain unresolved until visual/provenance work exists.
+- No winner claim is made.
+- GenGrey's broken-role adjacency is not converted into `GenGrey was being assigned Member`.
+- The unexplained `#2 - gengrey, yummibears` list remains unresolved.
+- iBwoy's `(LatinTeam)` display does not become a treaty, formal alliance, UL membership, or VIP start date.
+- The `Eh` chorus trigger is not guessed from nearby media.
+- Mugen's late `7ac8d856…` suffix and Wall's late `33d136fe…` suffix are seen but unreviewed in this continuation.
 
 ## Verification / deployment
 
-MAIN report head `ce6c27c3f2689321e0ca592d91efcb84666fe5b9` passed `UL Hourly Build + Deploy` run **33252121796**, including source canon/architecture verification, Astro build, built-output verification, and exact Cloudflare production deployment.
+MAIN reader-facing Valantina commit `a43928ed5e14777067c6412b3a4f90fb9df43b78` is contained by descendant `a92311e75d3d132b231052d08e8ddcaf6e8d71ed`, whose `UL Hourly Build + Deploy` run completed successfully through source canon/architecture verification, Astro build, built-output verification, Cloudflare deployment, and exact deployed-commit verification.
 
-WIKI state head `e49b664679f984dfaf0ad2add9db6ee745de2ece` passed standalone `Build Underlords Wiki` run **33252139286** and Pages run **33252139288**. The Pages workflow completed build, deploy, and report successfully.
+WIKI reader-facing commit `e24b687c59d146f55321b58d9f5ff6e86240787d` passed standalone `Build Underlords Wiki` and the Pages build/deploy/report workflow successfully.
 
-This final state update records Core's latest seen `1ad4e64a…`; the exact final WIKI publishing head must pass the normal standalone build and Pages workflow before run closeout. No miner branch was merged or cherry-picked wholesale.
+The final bookkeeping/state commits on both repositories must themselves pass their normal exact-head workflows before closeout. No miner branch was merged or cherry-picked wholesale.
