@@ -1,63 +1,41 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration continuation: **2026-08-29 03:14 PDT**.
+Last dual-surface integration continuation: **2026-08-29 03:39 PDT**.
 
 Full branch-level consumption state is durable on MAIN in `archive-intake/INTEGRATOR_BRANCH_STATE.json`; prior rolling wiki states remain in Git history.
 
 ## Census / queue
 
-The mandatory census was persisted on MAIN before deep review. The durable closing snapshot contains **27 active remote miner refs** plus **21 historical/missing refs**, for **48 tracked branch identities** total.
+The mandatory census was persisted on MAIN before deep review. Opening and closing census both contain **27 active remote miner refs** plus **21 historical/missing refs**, for **48 tracked branch identities** total. All 27 active heads remained unchanged across this pass.
 
-Finite queue closes at **0 pending / 0 backlog / 0 review-overdue**. Daycare was reviewed through `082b588dd24e32cb9fd9a1311f479f0fda0ae999`; the late Louvre mover was caught by the closing census and reviewed through `b06734a45772461c972141f280c208115a5e1cd3` rather than being left invisible.
-
-Core Rooms and Wall remain cumulative safe-baseline recoveries with `last_consumed_sha: null`. Core is reviewed through its current `daec5eaf476db916938341b0d5dbaa81f16b6218` handoff without falsely advancing the older recovery floor. Wall is reviewed through `f8b594dea9c46af83231b4c0245ff05ebeeef81e`, while the older Wall safe baseline remains open. Both Club-Only miners remain fully consumed/current; the standing prompt's older Club-Only backlog warning is superseded by the durable ledger.
+Finite queue closes at **0 pending / 0 backlog / 0 review-overdue**. Core Rooms and Wall remain cumulative safe-baseline recoveries with `last_consumed_sha: null`. Living Ensemble and both Club-Only miners remain fully consumed/current; the standing prompt's older Club-Only backlog warning is superseded by the durable ledger.
 
 ## Reviewed this continuation
 
-### Daycare — `c7a55684… -> 082b588d…`
+### Wall cumulative recovery — 2026-08-25 01:46 package
 
-Checkpoint-first, intake-only. Scar's stable account ties the `Council ; guest` Lobby introduction to same-day Daycare participation, but that does not prove ACL mechanics or a dated role assignment. Usama's later MEE6 welcome remains a return/bot-welcome rather than first-arrival proof. Daithi/Dainyamite is a clean stable-account bridge with then-club Forsaken. Support Tech remains only a probable Dean bridge absent stronger identity evidence.
+The integrator read the current Wall checkpoint first, then only the branch-local `01:46` findings, receipts, rabbit holes and site candidates from `archive-miner-wall-hourly-20260824`.
 
-Successful no-public-change review. Scar's current public owner already carries the more important guest-status nuance, and the rest is supporting/thin evidence. Consumed through `082b588dd24e32cb9fd9a1311f479f0fda0ae999`.
+The strongest material was already owned more richly on the two public surfaces:
 
-### Core Rooms recovery
+- **Mia + Momo:** April 7–9, 2023 reciprocal `twinsss` / `Mimi’s twin` / `love u twinnn` / `Love ya 2` / `you are both Mimi & Momo.` MAIN and WIKI already preserve this as a specific pair joke between distinct people. It is not literal twinhood, identity collapse, a closeness ranking, or the origin of UL's broader `twin` vocabulary.
+- **Oyasumi:** August 2022 `Still hard evidence of your crimes` and December 2023 `Caught my boy in 4k`. Both existing public owners already use this as Oyasumi's Wall/evidence register without inventing a prosecutor appointment or pretending the unresolved exhibits/targets are known.
+- **Mean Tree:** Sye's December 23, 2020 `Oh damn ! Mean Tree at it again TwT` is useful cross-room corroboration that recurrence was already legible. It does not establish the origin and does not justify a duplicate WIKI incident that competes with the dedicated Mean Tree owner.
 
-Checkpoint-first and intake-only. Oldfieldmouse/Nnp1 is a clean but very thin 2020 Lobby identity/club receipt. Kuwei's exact 2020 Lobby `Hi` and Drink Water Reminder's `My dad` antecedent are repaired; nearby image content, the later role-assignment target, shop-display visual, and Kuwei/Annie display chronology remain unresolved.
-
-No WIKI object was accepted. This handoff review does not close the older safe baseline: the durable recovery floor remains reviewed through the prior 04:46 package, with **03:46 and below** open. Formal consumed SHA remains null.
-
-### Wall — `1700fd5a… -> f8b594de…`
-
-Checkpoint-first, then the 03:06 and 03:11 handoffs.
-
-**Ten** gets a clean 2021 reappearance beat: after Ten posts, Janghoon / CA immediately asks `guys did we portal to 2020??`, calls Ten `an oldie`, drops the Ten emoji, and says `welcome back`; Ten answers only `😭`. MAIN owns that as biography texture. It proves recognition in the moment, not an exact return date or measured hiatus.
-
-**Kim** gets the WIKI incident owner. Mugen posts a Dragon Raja screenshot with `Welcome to UnderLords, @Kim`, the Wall piles on `Fat_Wheeze`, Mia adds another, and Kim answers `LMAOO 💀`. The welcome and the shame filing are the same social gesture: before membership can become a ceremony, the room has already turned it into content and Kim laughs along. The screenshot remains visually uninspected, so Mugen is POSTED BY only; CAPTURED BY / MADE BY / FEATURING and the exact admission mechanism remain unresolved.
-
-YuneOld's repost failure, Oyasumi filing his own faction, Ghoulie's disturbing-page context, and Soggy's six-day Wall chronology remain supporting/developing material rather than duplicate objects. Cookie's `i need lick his ears again` target is now text-exhausted inside assigned Wall; `again` proves recurrence in Cookie's wording, not the target or origin.
-
-Wall's older safe baseline remains open, so formal consumed SHA stays null.
-
-### Louvre — `647328fb… -> b06734a4…`
-
-The late mover was reviewed in the same run, checkpoint-first and intake-only. Shared canon safely unifies New = Newmal = `_newplayer` on stable account `814562907555233824`; the assigned chronology is only a 2023 creative-room boundary plus a previously secured 2026 Where Winds Meet paraphrase. Raw message bodies remain inaccessible.
-
-Successful no-public-change review. No paper-thin Cast dossier, join/status claim, or diagnosis was manufactured. Consumed through `b06734a45772461c972141f280c208115a5e1cd3`.
+**Disposition:** successful duplicate/corroboration-only review. No reader-facing WIKI or MAIN lore change was warranted. Wall's durable recovery notes on MAIN now record review through the `01:46` package, while formal `last_consumed_sha` remains null because older safe-baseline material still exists.
 
 ## Public integration decision
 
-WIKI added **Welcome to UnderLords, Here's Your Wall Filing** to `src/data/integrator-episodes-wall-20260828.ts` at reader-facing commit `dfe945e294f655657ee9aef49f963cd321257d06`.
+**No new reader-facing object on either surface this continuation.** MAIN's existing Mia, Momo and Oyasumi biographies already own the useful character texture. WIKI's existing Mia and Oyasumi dossiers already own the structured reference version. Publishing another episode or gag would be duplicate furniture rather than additive lore.
 
-MAIN, instead of mirroring the same incident, enriched Ten's existing biography with the 2021 `portal to 2020??` / `welcome back` scene. That is the complementary split: WIKI owns Kim's bounded Wall episode; MAIN owns Ten's character continuity.
+No finite miner consumed SHA changed because no finite branch advanced during the pass. Wall remains at remote head `f8b594dea9c46af83231b4c0245ff05ebeeef81e` with cumulative consumed SHA null; Core Rooms remains at `daec5eaf476db916938341b0d5dbaa81f16b6218` with its older safe baseline open.
 
 ## Held / canon firewall
 
-Held rather than guessed: Scar/Daycare ACL mechanics; Support Tech→Dean as anything stronger than probable in this delta; Kuwei/Annie exact display chronology; unresolved Core images/role targets; Kim screenshot contents/capture/featuring; exact Kim admission mechanism; Soggy image referents and `his abs` target; Cookie's ear-licking target/origin; New's unavailable raw message bodies and status chronology.
+Held rather than guessed: the uninspected Mia/Momo images; Oyasumi's actual August 2022 exhibit and the identity behind `my boy`; Gilli→Gabu `bot answers again`; WOO→Nobu `TRAITOR`; Oyasumi/Ansun unsellable-items mechanics; Sye's contextless `mating ritual`; the Ren/Snow fountain-of-youth screenshot; and the targets of Eos/Marian's `our two childs` line.
 
-Current/export role arrays do not create appointment chronology. Similar names do not merge accounts. Earliest surviving is not origin. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain separate.
+Similar names do not merge accounts. Current/export role arrays do not create appointment chronology. Joke-family language remains joke-family language. Earliest surviving is not origin. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain separate.
 
 ## Verification / deployment
 
-Reader-facing WIKI commit `dfe945e294f655657ee9aef49f963cd321257d06` passed both existing workflows: **Build Underlords Wiki** and **Deploy Underlords Wiki Preview** (Pages build/deploy/report). No extra verification stage was invented.
-
-MAIN reader-facing commit `14cff1a119d9b3d05109b9ae389f71991ee559b8` passed the full **UL Hourly Build + Deploy** chain: source canon/architecture verification, Astro build, built-output verification, and exact Cloudflare production deployment.
+This continuation accepted no new reader-facing lore. The closing MAIN and WIKI state commits are being checked with each repository's existing workflow only: MAIN's normal source verification → Astro build → built-output verification → Cloudflare deployment chain, and WIKI's existing Astro build plus Pages build/deploy/report. Exact closing-head workflow results are verified before the pass is reported complete.
