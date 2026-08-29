@@ -63,5 +63,14 @@ export const wallIntegratedEpisodes: Episode[] = [
     kind: "Wall onboarding / the welcome and the evidence are somehow the same post",
     logline: "Mugen posts a Dragon Raja screenshot with `Welcome to UnderLords, @Kim`, and the Wall immediately answers with a pile of `Fat_Wheeze` reactions; Mia contributes another one for good measure. Kim's first direct line in the scene is `LMAOO 💀`. The welcome and the embarrassment have fused into one gesture: before anybody can turn membership into a ceremony, the room has already turned it into content, and Kim laughs along instead of mounting a defense. The screenshot itself remains visually uninspected, so Mugen is safely POSTED BY only; CAPTURED BY, MADE BY, FEATURING, and whatever Kim was supposedly caught doing remain unresolved. `Welcome to UnderLords` establishes the welcome scene, not the exact club-admission timestamp or mechanism.",
     cast: ["Kim", "Mugen", "Mia"]
+  },
+  {
+    id: "ryo-wall-witness-protection",
+    title: "Change Your Name, Wear a Wig and Run Away",
+    season: "2023",
+    date: "March 12, 2023",
+    kind: "Wall milestone / Ryo's first starring immediately requires witness protection",
+    logline: "Moon's edited final wording announces Ryo's `FIRST TIME STARRING AT WALL OF SHAME` and follows with `Congrats uwu`. Ryo answers `NOOOOO`, then Moon true-replies `We go through wall of shame together`. Ryo immediately collapses into `How do I live like this now` and `I cant do this`, so Moon proposes the obvious reputational-recovery plan: `Change your name,wear a wig and run away`. Ryo says `Ok`. Moon then decides solidarity apparently means becoming a fugitive too — `Wait let me join youu` — and Ryo's final answer is `No I run away`. The tiny reversal is the scene: Moon turns public embarrassment into a shared milestone, offers companionship all the way through imaginary witness protection, and Ryo recovers just enough authority to abandon her at the border. Ren had posted five images about fourteen minutes earlier, but Moon's announcement is not a reply to them and the binaries remain uninspected, so they are not identified as Ryo's exhibit. Moon's edited message is used only in its final exported wording.",
+    cast: ["Ryo", "Moon"]
   }
 ];
