@@ -36,5 +36,14 @@ export const wallRecoveryEpisodes: Episode[] = [
     kind: "Wall callback / Shiki tries to keep a VC offense from becoming permanent text evidence",
     logline: "Rich wants something Shiki said `last night` put on the Wall. Shiki immediately refuses to `go there`, warns that `in UL server too long will make me go dark mode`, and keeps answering `never` while Rooks tries to coax the missing quote into daylight. Then Rich clarifies that the offense happened in VC. Shiki's strategy changes instantly from refusal to containment: `shhh`, followed by `them lurker out there` and `ik u lurking when im on rook lol`. The funniest evidence is the hole in the evidence: the actual VC line does not survive here. What survives is Shiki already understanding that spoken stupidity becomes a different species of problem once somebody writes it onto the Wall. December 1 is therefore the earliest surviving Wall callback to the missing quote, not its origin and not permission to reconstruct it from vibes.",
     cast: ["Shiki", "Rich", "Rooks"]
+  },
+  {
+    id: "ansun-we-are-one-being",
+    title: "We Are One Being",
+    season: "2020",
+    date: "November 5, 2020",
+    kind: "Wall identity-twin bit / Ansun starts doing name algebra and Anthos plays along",
+    logline: "The Anthos/Ansun identity-twin joke stops being something the room merely says about them and becomes something Ansun actively helps write. In the Wall scene he declares `we are one being`, then starts manufacturing merger names: `anthus`, followed by the increasingly unusable `anthun anthos ansun anthsous`. Anthos later joins the cluster with a Groot GIF. The useful turn is Ansun's authorship: the same person whose own later account remembers entering UL quiet and needing time before speaking comfortably is, by November, confident enough to invent public mythology about himself in real time. Anthos participates too. None of this merges them into one human being, creates literal kinship or romance, or overrides the canon fence that Ansun and Anthos are separate people. It is a mutually performed running bit, and the joke works because everybody involved knows exactly where the line between the two people is.",
+    cast: ["Ansun", "Anthos"]
   }
 ];
