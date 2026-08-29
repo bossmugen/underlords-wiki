@@ -2,7 +2,9 @@
 import "../styles/global.css";
 import "../data/bio-policy";
 import "../data/canonicalize-cast";
-const { title = "Underlords Wiki", description = "Underlords character and story wiki." } = Astro.props;
+const { title = "Underlords Wiki", description } = Astro.props;
+const subject = title.split("|")[0]?.trim() || "Underlords";
+const pageDescription = description ?? `${subject} — an Underlords wiki page with source status shown inline.`;
 const path = Astro.url.pathname;
 const base = import.meta.env.BASE_URL === "/" ? "" : import.meta.env.BASE_URL.replace(/\/$/, "");
 const nav = [
@@ -24,7 +26,13 @@ const hrefFor = (href: string) => `${base}${href}` || "/";
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <meta name="description" content={description} />
+    <meta name="description" content={pageDescription} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={pageDescription} />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Underlords" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={pageDescription} />
     <title>{title}</title>
   </head>
   <body>
@@ -58,7 +66,8 @@ const hrefFor = (href: string) => `${base}${href}` || "/";
           ['Relationship-specific bits', 'Relationship-specific language'],
           ['Recurring bits & behavior', 'Recurring jokes & behavior'],
           ['The reliquary is still being filled.', 'The objects that survived.'],
-          ['No dedicated incident page has been promoted for this era yet. The era exists; the archive is not getting filler mythology.', 'No named incident page yet.'],
+          ['No dedicated incident page has been promoted for this era yet. The era exists; the archive is not getting filler mythology.', ''],
+          ['No named incident page yet.', ''],
           ['The long-form reference layer behind the main site: eras, characters, incidents, orders, relationships, legends, relics, and archive-backed continuity.', 'Eras, characters, incidents, orders, relationships, legends, relics, and quotes—the deeper index of the same house.'],
           ['Archive / Extended Cast', 'Character'],
           ['Extended Cast', 'Character'],
@@ -98,6 +107,33 @@ const hrefFor = (href: string) => `${base}${href}` || "/";
           if (cleaned !== text) node.textContent = cleaned;
         }
 
+        const correctionPatterns = [
+          /\bwas never formally\b/i,
+          /\bwas never an?\b/i,
+          /\bwere never an?\b/i,
+          /\bthe archive does not\b/i,
+          /\bdoes not prove\b/i,
+          /\bdoesn't prove\b/i,
+          /\bnot evidence\b/i,
+          /\bnot a formal\b/i,
+          /\bdo not infer\b/i,
+          /\bdo not treat\b/i,
+        ];
+        const sensitiveBackground = /\b(?:is|was|formerly|works?|worked|lives?|lived|based)\b.{0,100}\b(?:U\.?S\.? Air Force|military|cybersecurity|hospital|electronic medical record|\bRN\b|nurse|dentist|journalist|pharmacy tech|hockey coach|tattoo artist|California|Texas|Malaysia|Vietnamese|Russian|Brazilian|Japanese|Muslim|trans|cancer)\b/i;
+        root.querySelectorAll('p, li').forEach((node) => {
+          if (node.closest('.source-notes, .source-floor, blockquote, q, [data-public-consent]')) return;
+          const text = node.textContent || '';
+          if (correctionPatterns.some((pattern) => pattern.test(text)) || sensitiveBackground.test(text)) node.remove();
+        });
+
+        root.querySelectorAll('time, .era, .character-era, .timeline-label, .season-range').forEach((node) => {
+          node.childNodes.forEach((child) => {
+            if (child.nodeType === Node.TEXT_NODE && child.textContent) {
+              child.textContent = child.textContent.replace(/\bcurrent\b/gi, '2026').replace(/\bpresent\b/gi, '2026');
+            }
+          });
+        });
+
         document.querySelector('.consolidation-banner')?.remove();
         document.querySelectorAll('.archive-dossier-block, .receipt-ledger-block, .source-floor').forEach((node) => node.remove());
         document.querySelectorAll('.character-biography .relationship-list').forEach((node) => node.closest('.bio-block')?.remove());
@@ -114,6 +150,9 @@ const hrefFor = (href: string) => `${base}${href}` || "/";
     </script>
     <style is:global>
       .consolidation-banner,.archive-dossier-block,.receipt-ledger-block,.source-floor,.character-biography .relationship-list{display:none!important}
+      main.page :where(p,li):not([data-no-evidence])::before{content:"⬜";display:inline-block;margin-right:.38rem;color:#85808b;font-size:.68em;vertical-align:.08em}
+      main.page :where(.source-notes,.source-floor,blockquote,q,code,pre,nav,.quote-wall,.receipt-ledger-block) :where(p,li)::before{content:none!important}
+      main.page [data-evidence]::before{content:attr(data-evidence)!important}
     </style>
   </body>
 </html>
