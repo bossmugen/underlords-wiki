@@ -18,5 +18,23 @@ export const lateAugustIntegratedEpisodes: Episode[] = [
     kind: "Wall receipt ambush / old screenshot resurfaces exactly when the defendant comes back",
     logline: "HamitteY posts an old Dragon Raja screenshot and then admits `forgot i had this`. Baby Lyssa — Ghoulie — true-replies `you know what`, `i thought you was my friend`, and a Cozy Cry. HamitteY true-replies `Sorry not Sorry` and then, with the timing of somebody presenting a gift basket made entirely of evidence, `welcome back from vacation`. The scene deepens Hami's existing receipt-keeper file because the stored object is not merely reposted; it is used as a welcome-back ambush against somebody who immediately recognizes herself as the aggrieved party. The screenshot itself remains visually uninspected. HamitteY is POSTED BY; maker, capturer, and featured subjects remain unresolved, and the exchange does not manufacture a formal relationship tier between Hami and Ghoulie.",
     cast: ["HamitteY", "Ghoulie"]
+  },
+  {
+    id: "rummy-all-jokes-aside-keep-your-guard-up",
+    title: "All Jokes Aside, Keep Your Guard Up",
+    season: "2020",
+    date: "November 13, 2020",
+    kind: "mature-room advice / Rummy drops the bit the moment Sword's question becomes real",
+    logline: "Sword asks the room what to do about someone she has known barely a week getting sexual too fast. Rummy begins in the room's usual bawdy register, then the second the actual risk becomes clear she changes gears: `yea like all jokes aside keep your guard up then`, followed by `not saying to expect the worst but no harm in being cautious`. Sword decides she probably should not meet them. Once that decision lands, Rummy immediately releases the tension with `KFC presents their latest burger`. The order is the character beat: absurdity is Rummy's home language, not an excuse not to notice when somebody is asking a real safety question. This is one practical-care scene, not a formal protector role, and the public version deliberately leaves the explicit sexual details downstairs.",
+    cast: ["Rummy", "Sword"]
+  },
+  {
+    id: "joshx-age-height-citizenship",
+    title: "The Requested Number Became Available",
+    season: "2020",
+    date: "November 26, 2020",
+    kind: "Lobby intake / age gate meets height, citizenship, and the McDonald's playpen",
+    logline: "The Lobby asks Spicy Hotpot for the normal intake fields. Gilli asks `Are you above 18?`; Josh answers `yes, I'm 5'7 actually.` Mugen tries again with `Legal or no?`; Josh supplies `I am a US citizen.` Mugen produces the `mcdonalds playpen`, Ansun contributes `stinky cheese kids`, and Gilli restores the actual point by explaining the server's 18+ rule. Josh then immediately finds the requested variable: `I'm over 18`. The comedy is not that the age gate was optional — Gilli keeps enforcing it while everybody else turns the form into a word-association exercise. `I'm Joshx` plus Gilli's earlier `HI JOSH!` safely bridges this scene to Spicy Hotpot; the historical over-18 statement stays historical and is not converted into a current age or a citizenship bio headline.",
+    cast: ["Joshx", "Gilli", "Mugen", "Ansun"]
   }
 ];
