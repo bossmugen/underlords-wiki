@@ -1,57 +1,80 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration pass: **2026-08-28 18:50 PDT**.
+Last dual-surface integration pass: **2026-08-28 19:03 PDT**.
 
-This is the rolling current integration state. Full pass detail is durable on MAIN in `archive-intake/INTEGRATION_PASS_2026-08-28_1850_DUAL.md`.
+This is the rolling current integration state. Full pass detail is durable on MAIN under its `archive-intake/INTEGRATION_PASS_*_DUAL.md` convention.
 
-## Current pass — Hishiro was already here
+## Current pass — Voice Challenge becomes a whole gallery
 
 ### Branch census / queue
 
-- Mandatory opening census: **24 miner branches** matching `archive-miner-*` / `archive-miner/*`.
-- Every discovered branch already had a MAIN state entry and every opening `last_seen_sha` matched the current remote head.
-- No new miner branch appeared and no finite branch advanced.
-- Discrete queue remains **0 pending / 0 backlog / 0 review-overdue**.
-- Living Ensemble, Core Rooms, and Wall remain cumulative recovery floors with null consumed SHAs.
-- Club-Only 2020 and Club-Only 2021–2026 remain consumed through unchanged current heads and were not reread.
+- Mandatory opening census found **24 miner branches** matching `archive-miner-*` / `archive-miner/*`.
+- Every discovered branch was represented in MAIN `archive-intake/INTEGRATOR_BRANCH_STATE.json` before deep review.
+- No finite branch was advanced at the opening boundary.
+- A later full census caught `archive-miner/core-rooms-events-a91f-20260824` advancing from `8d9e6f40f7b0872aca3c20c6c1bd8fc45ebcec19` to `a9aa456c05851939c3397a20e0435b112667a6d5`; MAIN persisted that new `last_seen_sha` as pending **before** the delta was reviewed.
+- The Core delta was then reviewed checkpoint-first and intake-only. Core remains cumulative recovery with null consumed SHA because older safe-baseline packages remain.
+- Club-Only 2020 and Club-Only 2021–2026 remain fully consumed through their unchanged heads and were not reread.
 
-## Core Rooms recovery — 02:46 package reviewed
+## Living Ensemble recovery — Runs13–14
 
-Anti-starvation rotated to `archive-miner/core-rooms-events-a91f-20260824` at unchanged HEAD `8d9e6f40f7b0872aca3c20c6c1bd8fc45ebcec19`.
+Anti-starvation recovery continued on `archive-miner/aug-2026-living-ensemble-hourly` at `66c3227c687965a4dae9b372fdcbe2dc128611ba`.
 
-Checkpoint first, then only the 02:46 intake-local findings, receipts, rabbit holes, site candidates, and checkpoint delta were reviewed. No raw archive was re-mined.
+Checkpoint first; raw archive re-mining was not repeated.
 
-### Hishiro ↔ Gilli: summoning as customer service
+### Run13 — `slide into dms` grows house infrastructure
 
-The August 19, 2020 scene survives cleanly: Hishiro answers Gilli with `yes? you called my name?`, upgrades the ping to `cool Gilli can summon people`, supplies a Fate/Rin magic-summon GIF, then closes with `summon me again if my service are needed again` and `always at your service`.
+The surviving 2020 record tightens the genealogy of a house phrase:
 
-The mock formality is the whole bit. `Summon` turns a ping into sorcery; `service` makes ordinary availability sound like a department. The scene still lands on the useful thing underneath: call her and she answers. It is not a formal duty, special hierarchy, appointment chronology, or evidence that Gilli actually held summoning powers because apparently this disclaimer has to exist.
+- September 1, 2020: Ansun writes `_slides into his dms_`; Anthos then posts a literal sliding-person GIF and says that whenever somebody says `slides into dms` she now thinks of it; Mugen follows with a Tenor URL explicitly named `slide-into-dms`.
+- October 7, 2020: Rookie Cookie uses `:SlideInDms:` and the export preserves an animated custom server emoji named `SlideInDms`.
+- August 2026 reunion retrieval uses the same phrase while prone/sliding-person imagery is used to fetch old members back into the chat.
 
-### `my students`
+Safe reading: phrase → visual association → reusable server-reaction infrastructure → later reunion callback. September 1, 2020 is earliest surviving evidence found in this recovery slice, not proven origin; the 2026 images are not proven byte-identical to the 2020 GIFs.
 
-On September 3, Hishiro says she has experience using video material for related topics and that `it keeps my students stress level low so its a win win`.
+Run13 also resolves the 2026 `trees` image as the giant UL Tumbleweed / family-tree object used during live reunion memory repair. It does **not** prove the 2026 binary is a direct revision descendant of either 2020 `Underlords_Tumbleweed.png` attachment.
 
-Safe: Hishiro explicitly refers to `my students` and says the format helps lower their stress. Unsafe and therefore not done: inventing a school, subject, institution, job title, or teaching chronology from one sentence.
+These are retained as strong site candidates rather than duplicated into the current Wiki episode set in this pass; the published keeper below came from the newly advanced Core Rooms delta.
 
-### Anthos lucky run
+### Run14 — useful texture, no forced objects
 
-On September 10, Hishiro says `my lucky streak is out of control`, `i gave anthos 2 good drops`, and `opened an S and an SSS on our run`. This remains one-date game texture, not a permanent Lucky Hishiro class passive.
+- SevenVader's 2020 `snow poop` / `nasty and gross snow` complaints remain a person quirk, but no identity bridge to modern `s7even__` was inferred from name resemblance.
+- Oyasumi's `Echo video when` → Echo `lemme finish rendering` → Oya `git gud` exchange is minor texture.
+- Baby Lyssa's April 18, 2021 Main-HQ `HI AGAIN` / `hi ghost` first-day chatter and the room's `%DUNGEON` chaos are additive to an already-rich public Baby Lyssa chronology.
 
-## Public novelty result — duplicate/corroboration only
+No duplicate page was created from these fragments.
 
-Nothing from the 02:46 package needed new public copy.
+## Advanced Core Rooms delta — reviewed through `a9aa456…`
 
-- **MAIN** already owns all three usable evidence families in `src/content/people/hishiro.md`, including the correct anti-fanon boundaries.
-- **WIKI** already owns the same material richly in `src/data/character-biographies-hishiro-core.ts`; the summoning scene, student-stress line, and Anthos loot beat are already part of Hishiro's long-form dossier.
+Only the two changed intake-local handoffs were inspected after the Core checkpoint.
 
-Successful duplicate/corroboration review is still review. Core's recovery floor therefore moves one package deeper without manufacturing another Hishiro page, another episode, or a second biography saying the exact same thing with a different font.
+### The Voice Challenge becomes `A WHOLE GALLERY`
 
-## Held / unresolved
+October 17–19, 2021 gives Han's Media Director work unusually clean motion instead of a static title badge.
 
-- Hishiro's final edited Tumbleweed labels — `onee-sama` under Anthos and `granddaughter` under Ansun — remain provenance-held. The final map was edited through October 19, 2020, so the surviving final body cannot date those labels to September 29.
-- The initiating Gilli task and nearby `unknown.png` remain unresolved.
-- Hishiro's exact teaching context remains unresolved beyond her own `my students` wording.
-- The lucky streak remains one-date texture unless an independent recurrence surfaces.
+Han launches the challenge around imagining a fitting voice/song for Dragon Raja characters. The next day, when Akariel wants to redo theirs after seeing everybody else's work, Han answers:
+
+- `It is not about who does better or worse`
+- `It is about having fun and expressing yourself`
+
+Earlier that day he looks at the accumulating submissions and yells `AAAH WE HAVE A WHOLE GALLERY`.
+
+Then the social idea hardens into literal server mechanics. Han says `All challenge works are pinned`; three minutes later Mugen writes that permissions were adjusted so `@Underlords Media Director` can pin messages there directly.
+
+The small sequence matters because the permission does not invent the job. Han is already curating; Mugen makes the room accommodate the work. That is evidence of role function, **not** an appointment timestamp.
+
+The room also becomes a peer editing clinic: DarkAsrai asks which app to use and Ren answers `Cap cut works!!`; Gilli names InShot; ShiyaX keeps making more after Han says repeat submissions are welcome. Sye posts despite saying video editing is not her thing and that she would rather stick with painting. Nobody needs to become a permanent `bad editor` character class for one self-deprecating line.
+
+### Published here
+
+WIKI now owns the discrete episode **Voice Challenge Becomes a Whole Gallery** in `src/data/integrator-episodes.ts` at content commit `110ca0c30f4dc67173111e0d951dbb984bd694bc`.
+
+This is intentionally different from MAIN's preferred biography treatment: WIKI preserves the event-level sequence, cast, role/permission boundary, and creative-room behavior.
+
+### Duplicate / corroboration in the same Core delta
+
+- DarkAsrai / Rose / Galaxy's chronological return story was already public on MAIN, including Gilli's `Welcome back rose!` followed by the same stable account supplying `Galaxy / Dragons / 18+` at the door.
+- The stable account continuity is real; a precise rename date, leave/rejoin chronology, or permanent identity replacement is not.
+- `Gilli's Pond` still has no recovered origin earlier than its earliest surfaced stable-account Lobby appearance. Do not keep keyword-farming the same mounted corpus without a new source.
 
 ## Recovery / consumption state
 
@@ -59,22 +82,15 @@ Successful duplicate/corroboration review is still review. Core's recovery floor
 - Whiskey: consumed through `a8a6cfaeaa3f21c35ca8cfaff5b14a8d8d4f63ed`.
 - Club-Only 2020: consumed through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`.
 - Club-Only 2021–2026: consumed through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`.
-- Living Ensemble: recovery in progress, consumed SHA null; explicit reviewed coverage remains Runs02–12, Runs15–17, Runs22–26 plus aggregate handoffs.
-- Core Rooms: recovery in progress, consumed SHA null; reviewed recovery now explicitly includes **02:46–09:46 plus the previously recorded 23:46 package**. The next older deliberate floor is 01:46-and-below.
+- Living Ensemble: recovery in progress, consumed SHA null; explicit reviewed coverage now includes **Runs02–17 except the already-separated later gaps, plus Runs22–26 and aggregate safe-baseline handoffs**. Runs18–21 and any remaining older safe-baseline gaps still need closure.
+- Core Rooms: recovery in progress, consumed SHA null; the advanced delta through `a9aa456c05851939c3397a20e0435b112667a6d5` is reviewed. Older cumulative safe-baseline packages remain.
 - Wall: recovery in progress, consumed SHA null; reviewed recovery remains 18:46 through 23:46 in the current descending sweep.
 
-## Public-surface decision
+## Public-surface decision / verification
 
-- **MAIN:** no lore/content page changed this pass; current Hishiro biography already owns the evidence.
-- **WIKI:** no lore/content object changed this pass; current Hishiro dossier already owns the evidence.
-- No material was intentionally published to only one surface because nothing survived novelty checking as unpublished A/B material.
-
-## Verification / deployment
-
-- This pass changes durable integration state/reporting only; no reader-facing lore source changed.
-- MAIN's `master` push triggers its repository-native `UL Hourly Build + Deploy`, which runs source canon/architecture verification, Astro build, built-output verification, then exact-commit Cloudflare deployment.
-- WIKI's `main` push triggers its existing standalone Astro build and Pages build/deploy/report workflows.
-- Final workflow outcomes are checked after the publishing-head state commits land.
+- **WIKI:** `src/data/integrator-episodes.ts` changed. Standalone `Build Underlords Wiki` passed for `110ca0c30f4dc67173111e0d951dbb984bd694bc`, and the repository's Pages build/deploy/report workflow also completed successfully for that exact content commit.
+- **MAIN:** the matching rich Han biography expansion was attempted, but MAIN's repository-native source verification blocked before Astro build on an unrelated concurrent Biodata/roster change: the verifier reports multiple newly roster-filed people would fall through the generic explainer registry. The exact Han content commit therefore did **not** deploy. This failure is not being disguised as a successful MAIN publication.
+- The Wiki was allowed to publish independently because its own build and deployment passed; one blocked surface did not overwrite or suppress the safe surface.
 
 ## Current cross-surface continuity locks
 
