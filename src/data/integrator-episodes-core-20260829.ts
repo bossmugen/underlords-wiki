@@ -54,5 +54,14 @@ export const coreIntegratedEpisodes: Episode[] = [
     kind: "Lobby false start / Mugen welcomes the wrong person as the guest she is waiting for",
     logline: "Degen Rat enters Lobby with `hello ✨`. Mugen answers `FINALLY FELI`, checks `right? its feli ahaha`, and begins the ordinary role/server-map handoff. Degen Rat then has to deliver the social equivalent of arriving at somebody else's surprise party: `omgosh i’m so sorry if you were expecting someone else but i am unfortunately not Feli 😳`. Mugen's response is `AHAHAH`. Roughly twenty minutes later MEE6 welcomes the actual stable Feli account, and Mugen finally gets to say `thereeee we go xD` before doing Feli's own handoff. `FINALLY` proves she was already expecting Feli; it does not explain why, identify a recruiter, or establish Feli's first-ever UL contact or in-game admission date. The whole joke exists because Degen Rat and Feli are distinct people, so the wiki keeps them distinct instead of solving a casting error by inventing an identity merge.",
     cast: ["Feli", "Mugen", "Degen Rat"]
+  },
+  {
+    id: "cas-planter-box-character",
+    title: "The Planter Box Is Part of My Character Now",
+    season: "2020",
+    date: "September 18, 2020",
+    kind: "Club Only game glitch / Cas declines the repair because the bug has become funnier than the fix",
+    logline: "One day after explaining that `potency` is the in-game name she is using because her usual username belongs to an abandoned first character, Cas gets stuck with a Dragon Raja planter-box glitch. Mugen offers the sensible repair: restart. Cas answers `i just find it funny`, then watches the object survive the problem long enough to decide `i think this planter box is part of my character now` and `it follows me every time i teleport`. That is the whole little character beat: technical nuisance becomes companion because Cas would rather enjoy the absurdity than rush to erase it. The later archive gives the same person drifting into FFXIV and then Yakuza; both times Mugen answers with some version of `no worries pot`, including the March 2021 reply `No worries pot! We'll see u around uwu`. `pot` is therefore safe as recurring Mugen-to-Cas scene language, not a global alias; the abandoned first character's name, Cas's exact game-club membership chronology, and any departure date remain unresolved.",
+    cast: ["Cas", "Mugen"]
   }
 ];
