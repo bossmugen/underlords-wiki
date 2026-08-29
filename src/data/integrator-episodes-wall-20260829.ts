@@ -27,5 +27,14 @@ export const wallRecoveryEpisodes: Episode[] = [
     kind: "Wall callback / Bishop hears one receipt exists and immediately invents the federal government",
     logline: "Tofu true-replies to an older Mugen post carrying an uninspected Dragon Raja screenshot, tags BishopThaGuru, and says it `will never stop being funny to me`. Bishop does not ask what the screenshot says; he launches a counter-interrogation: `Why? What have you heard? Who you talk to? You with the feds?` Mugen true-replies, `The file in my office says so.` Bishop's swagger then loses exactly one syllable: `W-which file?` That stammer is the whole episode — receipt panic becomes fake federal procedure, then Mugen upgrades one screenshot into an office dossier and Bishop abruptly sounds much less certain there is no paperwork. He later loops back to Tofu with `Too bad you don't love me no more. 🤷🏾‍♂️`; Tofu gives him a dry `Sure`, and Bishop answers with smirks. The screenshot itself remains visually uninspected. Mugen is safely POSTED BY for the parent image; Tofu's direct tag makes Bishop the social target of the callback, but MADE BY, CAPTURED BY, FEATURING, the pixels, and the underlying charge remain unresolved.",
     cast: ["BishopThaGuru", "Tofu", "Mugen"]
+  },
+  {
+    id: "shiki-dark-mode-stays-in-vc",
+    title: "Dark Mode Stays in VC",
+    season: "2020",
+    date: "December 1, 2020",
+    kind: "Wall callback / Shiki tries to keep a VC offense from becoming permanent text evidence",
+    logline: "Rich wants something Shiki said `last night` put on the Wall. Shiki immediately refuses to `go there`, warns that `in UL server too long will make me go dark mode`, and keeps answering `never` while Rooks tries to coax the missing quote into daylight. Then Rich clarifies that the offense happened in VC. Shiki's strategy changes instantly from refusal to containment: `shhh`, followed by `them lurker out there` and `ik u lurking when im on rook lol`. The funniest evidence is the hole in the evidence: the actual VC line does not survive here. What survives is Shiki already understanding that spoken stupidity becomes a different species of problem once somebody writes it onto the Wall. December 1 is therefore the earliest surviving Wall callback to the missing quote, not its origin and not permission to reconstruct it from vibes.",
+    cast: ["Shiki", "Rich", "Rooks"]
   }
 ];
