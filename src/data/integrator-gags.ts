@@ -36,6 +36,12 @@ export const integratedGags = [
       "Woohyuk keeps responding to ordinary conversation by filing mutually incompatible family paperwork. In November 2020 he tells Mugs, ‘Bear my child mugs, so their blood can produce fossil fuels’; Mugs names the hypothetical first child Tyrannosaurus rex. In March 2021 Crystalia says ‘Don't mind Woo. He's just a kid,’ so Woohyuk immediately announces this has all been a cover and that he is ‘actually a 37 yo man who has 4 children.’ Neither is literal biography. The recurring mechanism is the escalation: call him a kid and he will apparently invent an entire tax return.",
   },
   {
+    id: "funcle-rich",
+    name: "Funcle Rich",
+    logline:
+      "Daycare's Funcle/ramen-uncle language demonstrably escaped the playpen. On September 18, 2021 Rich starts to propose an ‘underlord’s underground strip dungeon’ post, catches himself because ‘platelets can view this page,’ and stops the thought there; Ren immediately narrates the behavior as ‘Funcle rich thinking of his 100+ nephews,’ while Zyrcant answers ‘thats a lot of nephews.’ The joke is kinship grammar attached to a real age-aware self-filtering moment. ‘100+’ is comedy, not census data; Funcle is not a formal guardian/moderator title; this confirms cross-room migration, not the first-ever coinage date.",
+  },
+  {
     id: "slide-into-dms",
     name: "Slide Into DMs",
     logline:
