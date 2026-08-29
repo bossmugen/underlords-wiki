@@ -8,11 +8,13 @@ Latest full detail is durable on MAIN under `archive-intake/INTEGRATION_PASS_202
 
 The mandatory full census found **27 miner branches** and MAIN persisted discovered heads before deep review. No miner branch was merged or cherry-picked wholesale.
 
-The remaining finite fair-rotation target is now closed:
+The finite fair-rotation target handled by this continuation is closed:
 
 - `archive-miner/louvre-ai-art-athenaeum-other-games-hourly`: reviewed checkpoint-first and intake-only from `33e9f41723d1ae1e56efa2897c98d6b843a58de0` through `2cdb1e702f2e537a89f4dcc3d7d88d2759e435e2`; successful no-public-change review; consumed through HEAD.
 
-Closing finite queue at the reviewed boundary: **0 pending / 0 backlog / 0 review-overdue**.
+A later census after that review caught **fresh finite movement** on `archive-miner/mugen-person-first-20260828`: live HEAD `0136c101137fedc7cdf611efe545e493506be56b` versus consumed `615dcbcb75ec5cbce58739b58d5e42502d540430`. That delta is registered on MAIN as `pending_review`; it is fresh, not backlog/overdue, and is not claimed consumed here. Its handoff surfaces a genuinely additive April Fools Month belonging beat — `This is your house` immediately followed by permission to be `a clown, a furry, a BL Psychopath, a fancy pemis, or a lettuce cheesecake`, signed `xoxo real leather papa` — but that scene remains pending formal fair-rotation consumption/publication rather than being silently integrated from a closing census.
+
+Latest closing finite queue: **1 pending / 0 backlog / 0 review-overdue**.
 
 Core Rooms and Wall remain cumulative recovery tracks with `last_consumed_sha: null` because older safe-baseline material still exists. Core current-head review now reaches `93b2978d1d42e1aaae97bba1040652f5e1742cdf`. Wall remains seen at `dfbe07e861a8c527382be14b86b5c52bcdd2b33f`, while the immediately preceding public pass reviewed its current-head recovery through `dda0e244cd100654d32fdf8a868588b2c3291a15`. Living Ensemble, Club-Only 2020, and Club-Only 2021–2026 remain fully consumed through their current heads.
 
@@ -46,6 +48,6 @@ WIKI content commit `345d5f1d04bc7f79b295a5c75d04c91dc29af377` passed the standa
 
 ## Holds carried forward
 
-HyaLuna's retrospective first-poster `photo` credit stays exactly `photo`, not silently MADE BY/CAPTURED BY; Louvre assigned-body gaps; Xerenity exact VIP/role timing; WhitePhoenyx exact historical role and unresolved `akari`; Sitama exact role; Kuwei/Annie display chronology/preferred canonical display; Kuwei shop-display attribution; `My dad` referent; durable `Wei` recurrence; Spritely/Shurui `plabn`; Wall late movement `dda0e244... -> dfbe07e8...`; and older Core/Wall safe-baseline gaps.
+Fresh Mugen delta `615dcbcb... -> 0136c101...`; HyaLuna's retrospective first-poster `photo` credit stays exactly `photo`, not silently MADE BY/CAPTURED BY; Louvre assigned-body gaps; Xerenity exact VIP/role timing; WhitePhoenyx exact historical role and unresolved `akari`; Sitama exact role; Kuwei/Annie display chronology/preferred canonical display; Kuwei shop-display attribution; `My dad` referent; durable `Wei` recurrence; Spritely/Shurui `plabn`; Wall late movement `dda0e244... -> dfbe07e8...`; and older Core/Wall safe-baseline gaps.
 
 Similar names do not create identities. Current/export role arrays do not create appointment chronology. Joke family/romance/possessive language does not become literal biography. Earliest surviving remains earliest surviving, not origin. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain separate.
