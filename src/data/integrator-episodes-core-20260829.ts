@@ -36,5 +36,14 @@ export const coreIntegratedEpisodes: Episode[] = [
     kind: "Club Only school crisis / an hour-long video triggers immediate genre litigation",
     logline: "Wennie enters with a professor problem: `guys my prof said that we're going to watch an hour long video`. Four seconds later she reaches the only obvious verdict — `isnt that just a movie` — and one second after that files `???`. Hishiro says it could be a documentary; Shk tells her to take notes because it could be on the test; Hishiro explains why he uses videos with his own students. Once the room has answered the actual problem, Wennie closes court with `oki ty ima go poof now :cat_cry:`. The same `wennieheart` custom emoji she used at her August Lobby welcome appears again as her reaction to Hishiro here, but the emoji's maker, uploader, original server, and visual content remain unresolved. The surviving assigned Club-Only scan currently gives only four authored Wennie lines, all in this tiny scene; that scarcity is not a departure date or proof she stopped participating.",
     cast: ["Wennie", "Hishiro", "Shk"]
+  },
+  {
+    id: "em-thank-you-as-always",
+    title: "Thank You as Always",
+    season: "2021",
+    date: "April 21, 2021",
+    kind: "Club Only return possibility / Raja can wait until exams are over",
+    logline: "Em says `I might be returning to raja soon- my college semester is ending in two weeks, so I’ll have more free time again aaaAa` and tags Mugen. The room receives the possibility like good news rather than a summons: Drink Water Reminder, Gilli, Anthos, Ren, Rummy's pre-hack account, and keon react with hearts / ZeroYay / HYPED. Hours later Mugen true-replies `Yaaaas`, then immediately pivots from the game to the actual thing in front of Em with an edited-final `Good luck with exams!`. Em true-replies `Thank you as always 😖💗💗💗`. That `as always` is the small hinge: Em herself frames Mugen's support as familiar, but the wiki does not invent the missing earlier support scenes. The return is tentative, the semester is the stated bandwidth problem, and nobody turns coming back to Raja into a loyalty test. A 2020 Lobby doorway separately shows Mugen and Ren recognizing Em before Discord role assignment finishes, but it does not identify who invited her or establish an in-game admission date.",
+    cast: ["Em", "Mugen", "Drink Water Reminder", "Gilli", "Anthos", "Ren"]
   }
 ];
