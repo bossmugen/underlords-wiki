@@ -1,6 +1,6 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration pass: **2026-08-29 07:50 PDT**.
+Last dual-surface integration pass: **2026-08-29 07:52 PDT**.
 
 Full branch-level consumption state is durable on MAIN in `archive-intake/INTEGRATOR_BRANCH_STATE.json`; prior rolling wiki states remain in Git history.
 
@@ -12,13 +12,15 @@ The finite queue closes at **0 pending / 0 backlog / 0 review-overdue**. Core Ro
 
 ## Mugen person-first — Rooks already has the screenshot shift
 
-`archive-miner/mugen-person-first-20260828` advanced from consumed `e5df362e…` to `4177d362…` and was reviewed checkpoint-first, intake-only. A miner-side edit to `src/content/people/mugen.md` was deliberately ignored because public-path miner edits are not evidence handoffs.
+`archive-miner/mugen-person-first-20260828` advanced from consumed `e5df362e…` to `4177d362…` and was reviewed checkpoint-first, intake-only. A miner-side edit to `src/content/people/mugen.md` was deliberately ignored because public-path miner edits are not evidence handoffs; the publishing branches were reconciled independently.
 
-The best public keeper is a March 13, 2021 Wall exchange. Rooks posts an attachment. Mugen true-replies: `I was gonna ss it lmao then I thought nah rooks wouldnt miss this for the world`. Rooks answers `uwu cant hide from me`, posts another attachment, Baby Lyssa yells `OH MY GOD`, and Mugen later captions the burst `Saturday morning at the UL strip club feat. @Baby Lyssa`.
+The strongest incident keeper is a March 13, 2021 Wall exchange. Rooks posts an attachment. Mugen true-replies: `I was gonna ss it lmao then I thought nah rooks wouldnt miss this for the world`. Rooks answers `uwu cant hide from me`, posts another attachment, Baby Lyssa yells `OH MY GOD`, and Mugen later captions the burst `Saturday morning at the UL strip club feat. @Baby Lyssa`.
 
-The tiny relationship tell is Mugen deciding **not** to duplicate the evidence. She knows Rooks's reflex well enough to assume the screenshot shift is covered. WIKI now owns this as Episode **Rooks Has the Screenshot Shift Covered**. That is distributed evidence-catching and dyad familiarity, not an administrative delegation. Both Rooks attachments remain visually uninspected, so POSTED BY Rooks does not become MADE BY, CAPTURED BY, FEATURING, or a description of the pixels.
+The tiny relationship tell is Mugen deciding **not** to duplicate the evidence. She knows Rooks's reflex well enough to assume the screenshot shift is covered. WIKI owns this as Episode **Rooks Has the Screenshot Shift Covered**. That is distributed evidence-catching and dyad familiarity, not an administrative delegation. Both Rooks attachments remain visually uninspected, so POSTED BY Rooks does not become MADE BY, CAPTURED BY, FEATURING, or a description of the pixels.
 
-Other reviewed Mugen material was deliberately not sprayed across the site: she blamed Zoshaa and Zepp for resurrecting a chicken-nugget craving after years without them, traded reciprocal `eli kiss` commands with Ten, greeted returning Kiro as `gummy bear` / `gummieeees`, and told Mia that a UL hook could come from `any dumb thing we've said` in Wall. Those are valid character scraps, but they do not all need separate public objects in the same pass. The missing nugget setup, repeated Kiro onboarding cause, media contents, and any romance inference remain unresolved.
+MAIN gets the complementary person-sized scrap instead. Before 5 a.m. on September 15, 2020 Mugen says `craving chicken nuggets thanks to zoshaa and zepp`, then nine seconds later adds `havent had them for years but`. The funny part is not a newly invented favorite-food canon; it is that Zoshaa and Zepp have somehow reactivated a snack she says she had not eaten in years before sunrise. The missing setup remains missing, so the site does not claim what they did to trigger it.
+
+Other reviewed Mugen material stayed held rather than becoming public clutter: reciprocal `eli kiss` commands with Ten do not establish romance; Kiro's `gummy bear` / `gummieeees` return language does not establish an onboarding mechanism; Mugen telling Mia a hook could come from `any dumb thing we've said` in Wall is creative taste, not a formal branding doctrine.
 
 WIKI reader-facing commit `70d041875c15cdc60fba00d48de37ca964b01587` passed **Build Underlords Wiki** run `33258420742` and the full Pages build/deploy/report chain in run `33258420755` successfully.
 
@@ -32,8 +34,8 @@ No new public episode was accepted from this suffix. Wall remains cumulative rec
 
 ## Reconciliation / surface split
 
-- **WIKI-only this pass:** **Rooks Has the Screenshot Shift Covered**, because the strongest new Mugen evidence is a compact Wall incident with a clean scene boundary.
-- **MAIN:** no additional reader-facing copy was forced from this continuation. Mugen's existing biography is already dense, and the remaining scraps are better held for a future sidecar or richer relationship owner than mirrored for symmetry.
+- **MAIN:** Mugen's **chicken-nugget relapse** lives in her Petty Crimes/person-texture rail.
+- **WIKI:** **Rooks Has the Screenshot Shift Covered** owns the bounded screenshot-relay incident. A temporary duplicate Rooks bullet on MAIN was removed during publishing-branch reconciliation so the two surfaces do different jobs instead of reciting the same paragraph.
 - The immediately preceding reconciled pass already put DyingFox's reciprocal Ghost greeting on MAIN and **WHY IS IT WHITE** on WIKI; those owners were preserved rather than duplicated.
 - POSTED BY / MADE BY / CAPTURED BY / FEATURING remain separate. Earliest surviving evidence is not promoted into origin, and joke language is not literalized into romance, kinship, governance, or formal roles.
 
@@ -43,4 +45,4 @@ No new public episode was accepted from this suffix. Wall remains cumulative rec
 - **Wall:** forward handoffs now reviewed through `e6a560a9…`; older recovery remains open through its recorded 2026-08-28 21:24 frontier.
 - **Finite queue:** clear at this closing boundary.
 
-The useful new scene is basically Mugen reaching for the screenshot button, remembering Rooks exists, and deciding the department is already staffed. Rooks's answer — `uwu cant hide from me` — does not sound like an appointment acceptance. It sounds like a warning label.
+The useful scene is basically Mugen reaching for the screenshot button, remembering Rooks exists, and deciding the evidence department has already clocked in. Rooks's answer — `uwu cant hide from me` — does not sound like an appointment acceptance. It sounds like a warning label. Meanwhile Zoshaa and Zepp have somehow resurrected a years-dormant chicken-nugget emergency before dawn, because apparently this guild's real chain of command was screenshots, snacks, and whoever happened to be awake.
