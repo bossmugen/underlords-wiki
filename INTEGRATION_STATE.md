@@ -10,19 +10,19 @@ The mandatory opening census found **25 miner branches**. MAIN's `archive-intake
 
 Anti-starvation rotated into the cumulative `archive-miner-wall-hourly-20260824` recovery. The advanced delta `16e88db60f80b05c10b011f8283f918946de179a -> d0a9b326cc82c4df6b6cc32b0d372eeaa1d9bbf8` was reviewed checkpoint-first and intake-only. It contained Wall handoffs only; no miner-branch public-site changes were merged or cherry-picked.
 
-### WIKI-only: Rummy's BL -> BLING paperwork
-
-The genuinely additive keeper is a small Rummy chronology that the MAIN biography did not need duplicated verbatim.
+### Rummy's BL -> BLING paperwork
 
 On August 31, 2023, Rummy says that losing her anime profile picture and the gender symbols in her bio means she is `no longer accepted into bl clan`, immediately notes that she still has a `bl pfp`, and then declares `i am imposter`. The bit keeps turning profile aesthetics into administration: `Strights are rare in IsekaiScan @Sogu`, followed by Ali joining Rimu club to `multiply the str8 population`.
 
 A year later, on August 31, 2024, the bureaucratic instinct survives in mutated form: `i need more bling certification`.
 
-WIKI's Rummy dossier now owns the compact chronology at content commit `0ed69a62320c359eb51a19a7703c379fc6f68990`. The repository's standalone Astro build workflow `33234465408` passed, and Pages build/deploy/report workflow `33234465433` passed for that exact content commit.
+WIKI's Rummy dossier owns that compact self-presentation/certification chronology at content commit `0ed69a62320c359eb51a19a7703c379fc6f68990`. Standalone Astro build workflow `33234465408` passed, and Pages build/deploy/report workflow `33234465433` passed for that exact content commit.
 
-The wording fence matters. The 2023 messages literally say **`bl`**. `bling certification` is a later 2024 callback/mutation; it is not projected backward as the original term and this pass does not claim an origin. Anthony's nearby `degenerate god of BL` banter is Anthony's language, not a formal title or Rummy self-description. Nothing here establishes a formal clan, office, governance system, or sexuality inference.
+A concurrent MAIN integration landed safely after the census rather than being overwritten. MAIN commit `983e21300f069b0b18fcdae001d65bd6d76c58c3` owns the richer 2021–2024 recommendation-reputation genealogy: Rummy arrives with a yaoi list, Gabu later routes yaoi questions to her, Marian/Daya turn the reputation into `BL manic` / `BL maniac`, and one wrong series title in 2024 produces Tae's `the world is ending` and Moon's remedial **BLING exam — `Boys Love InterNational Global exam`**. MAIN workflow `33234491618` passed the repository's full source/build/output/Cloudflare pipeline for that exact commit.
 
-MAIN intentionally did not receive another Rummy prose section this pass. Its existing Rummy page already has a large character movie around record-keeping, Rumfection, context appeals, and de-escalation; the BL/BLING material works better as a compact WIKI chronology until more recurrences justify a broader MAIN owner.
+The two surfaces are therefore complementary rather than mirrored: MAIN tells the longer competence → expectation → fake licensing-board character movie, while WIKI keeps the compact dated profile/certification callback searchable in Rummy's dossier.
+
+The wording fence matters. The August 2023 self-description literally says **`bl`**. The August 2024 `bling certification` line is later mutation/callback, not proof that `BLING` was the 2023 term or an origin. Anthony's nearby `degenerate god of BL` banter is Anthony's language, not a formal title or Rummy self-description. BL/yaoi taste and recommendation reputation do not establish sexuality, a formal clan, an office, governance, or a real credential.
 
 ### Duplicates and holds
 
