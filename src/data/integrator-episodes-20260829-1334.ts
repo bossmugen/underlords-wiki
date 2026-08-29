@@ -2,15 +2,6 @@ import type { Episode } from "./wiki";
 
 export const lateAugustIntegratedEpisodes: Episode[] = [
   {
-    id: "prince-charm-mad-confused-bar",
-    title: "Mad Confused, Very Impressed by the Bar",
-    season: "2020",
-    date: "April 5, 2020",
-    kind: "Lobby arrival / gets lost, discovers the themed bar, immediately approves of the furniture",
-    logline: "Prince Charm arrives with `Hey lol`, gets `Prince in the hooouse` from Gilli, receives access from Snow, and then discovers that Underlords apparently has a themed bar. `Oh this is nice I didn't know we had a bar` becomes `Such luxury` and then `So fancy I love it` before Snow explains that Whiskey is the general-chat room. Prince finally admits `Thank you cuz I was mad confused lol`. The scene is tiny but unusually complete: confusion does not make Prince hang back; the moment the server turns into a physical joke-room, curiosity flips straight into delight. Six days later three of Prince's four surviving Louvre messages are media-bearing, which fits an object-forward first impression without proving those attachments were Prince's original art. Snow's `Access Granted PA` does not resolve what `PA` meant, and the greeting does not prove a prior close relationship.",
-    cast: ["Prince Charm", "Gilli", "Snow"]
-  },
-  {
     id: "tae-wrong-woman-wall-defense",
     title: "I Believe This Court Has the Wrong Woman",
     season: "2021",
