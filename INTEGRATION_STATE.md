@@ -1,41 +1,55 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration pass: **2026-08-28 23:43 PDT**.
+Last dual-surface integration pass: **2026-08-29 00:14 PDT**.
 
-Full pass detail is durable on MAIN under `archive-intake/INTEGRATION_PASS_2026-08-28_2343_DUAL.md`. Prior rolling states remain in Git history.
+Full pass detail is durable on MAIN under `archive-intake/INTEGRATION_PASS_2026-08-29_0014_DUAL.md`. Prior rolling states remain in Git history.
 
 ## Census / queue
 
-The mandatory opening census found **26 miner branches**. A closing census caught a newly created **27th** branch, `archive-miner/all-characters-hr-20260828`; MAIN registered it immediately with null consumed SHA / pending status before review. Its setup delta through `27792770e5a46f3144d88b2d81e05c165587a49a` established a 90-character person-first quarry and coverage ledger. It then advanced to `ed0e0677f27837b58e0fe0dee25f666ebed38500`; that delta was reviewed checkpoint-first and intake-only and adds checkpoint/findings/receipts/open-questions/site-candidates for the first 11-character current-command batch. Those handoffs are still dedup baselines and candidate questions rather than materially new person-level receipts, so no public object was added. The branch is consumed through `ed0e0677f27837b58e0fe0dee25f666ebed38500` at the reviewed cutoff.
+The mandatory full census found **27 miner branches**. MAIN persisted the census before deep review.
 
-Final finite queue at that cutoff is **0 pending / 0 backlog / 0 review-overdue**. Core Rooms and Wall remain cumulative recovery tracks with `last_consumed_sha: null` because older safe-baseline packages still exist. Living Ensemble remains consumed through `66c3227c687965a4dae9b372fdcbe2dc128611ba`; Club-Only 2020 through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`; Club-Only 2021–2026 through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`.
+`archive-miner/all-characters-hr-20260828` was reviewed checkpoint-first and intake-only from `ed0e0677f27837b58e0fe0dee25f666ebed38500` through `309d7003506b51f4925708ff3f52f14aa17ac3a3`. That reviewed cutoff is now consumed even though it did not itself require another public object: its Gilli, Ansun, Ren, and wider command-cast person-first material was reconciled against both public surfaces and banked for canonical biography owners instead of being sprayed into duplicate cards while the quarry is still actively expanding.
 
-## Finite review closure
+The closing census caught the same branch moving another thirteen commits to `c34d13939784d424510e547d73bdf5459a10062c`. MAIN records that newer head as **seen but not consumed**. Closing finite queue: **1 pending / 0 backlog / 0 review-overdue**.
 
-`archive-miner/mugen-person-first-20260828` is consumed through `615dcbcb75ec5cbce58739b58d5e42502d540430`. Its strongest late-delta material was already represented by richer current owners: MAIN's comprehensive Mugen biography already carries the privacy-minimized 2024 work/move beat, recurring framing-editor behavior, and wrong-button admin texture; WIKI already owns the NightLife feedback pivot. Thin scream/gum/source fragments did not warrant another public object.
+Core Rooms and Wall remain cumulative recovery tracks with `last_consumed_sha: null` because older safe-baseline material still exists. Living Ensemble remains consumed through `66c3227c687965a4dae9b372fdcbe2dc128611ba`; Club-Only 2020 through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`; Club-Only 2021–2026 through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`.
 
-`archive-miner/whiskey-longitudinal-hourly` is consumed through `55bd3d3bf82ec682ad0220a9086a2310ad2cfe3d`. WIKI's canonical episode data owns **Lena Gets All Access** and **Cinders Comes Back as Juniper**. Lena's scene preserves `Aelena` and scene-era `underlords` as first-party intake data while keeping exact assigned roles/recruiter path and current age unresolved. ACORYUIE's return uses the stable account to connect the February `Cinders` and June `Juᥒιρer` self-reports; exact role, intake retrigger mechanics, label semantics, permanent alias chronology, and any Brynnderella bridge remain unresolved. Ricochet ↔ Rich remains contextual-high rather than a hard technical identity bridge.
+## Core recovery — 2026-08-25 14:46 package reviewed
 
-`archive-miner/all-characters-hr-20260828` is consumed through `ed0e0677f27837b58e0fe0dee25f666ebed38500` at the reviewed cutoff. Its first batch is Gabu, Anayss, Ansun, WolfPhenix, Sye, Ren, Gilli, Oyasumi, Snow, Anthos, and Daya. Current handoffs explicitly resist rediscovering existing dossiers: Anayss/Gabu, Gilli/Hishiro, Snow's old-man/Pervy Sage mythology, Daya's peer-description wit, and Wolf's visual signature remain candidate/rabbit-hole targets pending genuinely additive receipts.
+This pass deliberately moved backward into the older Core safe baseline instead of rediscovering the current-head Porgo/Yelik/Spritely material. The 14:46 checkpoint delta, findings, receipts, rabbit holes, and site candidates were read intake-only.
 
-The canonical Whiskey content commit `4b4a15ef76a605e3ebd2a02d2727a9f3241b287c` passed both existing WIKI workflows. A temporary duplicate Whiskey module introduced during concurrent routing was removed as soon as the canonical concurrent episode commit became visible; final routes contain one copy of each Whiskey episode, not twins wearing different filenames.
+The new public keeper is the October 9, 2020 **Sycee ↔ Lilly** Wall scene. Sycee starts with maximum theatrical possessiveness — Lilly is `Mine!` — then five minutes later worries Lilly may be mad about the whole thing. Gilli answers `you just looking out for her`, immediately names Lilly, and Anthos tells Sycee `we can stay up worrying together now`. The local `her` referent is therefore safely Lilly at scene level. The story is the posture change: swagger gives way to concern once Lilly's actual reaction matters. It is not literal ownership, romance, exclusivity, a permanent protector role, or a relationship ranking.
 
-## Wall recovery — reviewed through `65110804605264d499101362f1e7bd33547f5c5c`
+The same Core package also closes a chronology trap without creating public museum prose: Nhou is already socially present by September 2020, receives explicit `wb!` / `weba` language during later Lobby cycles, and therefore cannot be assigned a first-join date from those later Bouncer cards. Nhou's `18` (2021) versus `33M` (2022) numeric self-report conflict remains unresolved; no age or gender choice is inferred from it.
 
-The newer Wall package was read checkpoint-first and intake-only after its late movement was registered in MAIN's ledger.
+Ritha's April 2020 *Tower of God* scene is already owned more richly by her current MAIN biography and was deduplicated. Oyasumi/Ansun `unsellable items` mechanics and the origin/explanation of `Gilli's Pond` / `Gilli's Pie` remain unresolved.
 
-WIKI now owns **He Died on the Stairs Again**. Gilli posts `@Oyasumi` with an uninspected screenshot; Daya true-replies to that exact filing with `HE DIED ON THE STAIRS AGAIN?!?!`; Oyasumi later answers `No 💀` and, seven seconds later, `Or did I ?`. The reply tree plus Oyasumi's first-person callback make him the strongly supported Wall-local referent of Daya's `HE`. The screenshot remains visually uninspected and the assigned Wall corpus has no earlier textual `stairs` hit, so `AGAIN` proves remembered recurrence without recovering episode one. POSTED BY Gilli, SAID BY Daya/Oyasumi; capture, image subject, and first incident remain unresolved.
-
-The same package advances but does not publish several other rabbits: Mercy's fresh-cookie / `Support your local business 😌` vignette is usable but still thin; Eos's `Got him again` is joined to the exact image filing while `him` and the prior catch remain unknown; `B.O.B CRIIIIMME` now has an exact Daya-height parent but no resolved acronym meaning; Gabu's `Rings of short!!` → `Lord of the Shorts` phrase genealogy is secure while its target remains unknown; Cookie's `kun` / `ansun` / `horse-kun` sequence narrows local context without proving Ansun = horse-kun. Uninspected media stays uninspected.
-
-Wall's reviewed frontier is therefore current through `65110804605264d499101362f1e7bd33547f5c5c`, but `last_consumed_sha` stays null until the older safe-baseline recovery is actually exhausted.
+Core's branch head remains `a0560fccb869aa8a56105d9bf95429fd1878dca2`; older safe-baseline Core material still exists, so its `last_consumed_sha` correctly remains null.
 
 ## Public split / verification
 
-MAIN's reader-facing addition this pass is the four-day `doegor` callback inside the existing **Spelling Crimes** owner: Rummy files `doegor`; four days later BubblesSenpai repeats the exact wound. It is recurrence, not an origin claim. MAIN content commit `a3ef8737eee9e54b528c4249ee81ef7a73ab5b48` passed source canon/architecture verification, Astro build, built-output verification, and exact Cloudflare deployment. Later concurrent MAIN work was preserved rather than overwritten.
+### MAIN
 
-WIKI's unique additions are **Lena Gets All Access**, **Cinders Comes Back as Juniper**, and **He Died on the Stairs Again**. Final content/routing head `4aee08468ca0f18d4d5e295a34e47b2f7073a0b9` passed the standalone Astro build and the Pages build/deploy workflow after duplicate Whiskey routing was removed. Later WIKI commits in this pass are integration-state-only.
+MAIN deepens **Lilly's biography** with the Sycee scene rather than creating another detached lore object. `src/content/people/lilly.md` now has the dated receipt, the explicit anti-fanon boundary, and the person-first section **MINE! ...WAIT, IS SHE MAD?** centered on the tiny emotional pivot from performance to `please tell me I did not upset her`.
+
+MAIN content commit `8f89b9995e91f1403c171580a80c722635276dbe` was immediately followed by concurrent Roach work. Because the MAIN workflow cancels an in-progress older run when a newer `master` push lands, the exact `8f89...` run was cancelled; its direct descendant `612922321ee664984ca518c228b1d15214fbee4d` preserves the Lilly change and passed the repository's full source canon/architecture verification, Astro build, built-output verification, and exact Cloudflare production deployment. Concurrent work was preserved rather than overwritten.
+
+### WIKI
+
+WIKI owns the same evidence family differently, as a compact **Bonds** card: **Sycee ↔ Lilly — Mine! ...Wait, Is She Mad?** in `src/pages/relationships.astro`. It indexes the relationship beat without mirroring MAIN's biography prose.
+
+WIKI content commit `c3baceb6757712bb5def1a6c12ef1dd597ffa95d` passed both existing pipelines on the exact commit:
+- standalone `Build Underlords Wiki` Astro workflow — success, run `33240213965`;
+- `Deploy Underlords Wiki Preview` Pages build → deploy → report — success, run `33240214103`.
+
+## All-character person-first review
+
+The reviewed `ed0e0677... -> 309d7003...` delta adds substantive person-first handoffs for Gilli, Ansun, and Ren plus the broader planning package. Strong banked material includes Gilli's intimidating-first-impression-to-affectionate-after-approach arc and blunt `Two-Faced. Instant block.` friendship boundary; Ansun's early quiet/text-only VC posture before becoming socially loud online and the patient Phantom tutoring scene that later gets retold as rainbow math; Ren's duck-with-ducklings self-image, quick-talker/listener pairing, and explicit boundary against dismissing real hurt as `just a joke`.
+
+Those findings are **reviewed, not forgotten**, but this cutoff did not breed duplicate public summaries while the miner is still adding the rest of the cast. The newer `309d7003 -> c34d1393` branch movement remains pending for fair rotation.
 
 ## Holds carried forward
 
-Exact Lena role/recruiter path/current age; ACORYUIE return mechanics/exact role/name semantics/Brynnderella bridge; Ricochet ↔ Rich technical closure; Oyasumi's first stair-death incident and screenshot visual/provenance; Mercy image contents; Eos target/prior catch; `B.O.B` meaning; `Lord of the Shorts` target; `horse-kun` source/visual identity; Ocean edit-order wording; Katmars/KARIT image subjects; Porgo inaccessible image contents; and all older Core/Wall safe-baseline gaps. Similar names do not create identities, current/export role arrays do not create appointment chronology, joke family/romance does not become literal, and POSTED BY / MADE BY / CAPTURED BY / FEATURING remain separate.
+Nhou numeric self-report conflict; Oyasumi/Ansun unsellable-item mechanics; `Gilli's Pond` / `Gilli's Pie` origin; all older Core and Wall recovery gaps; Oyasumi's first stair-death and screenshot visual/provenance; Ricochet ↔ Rich technical closure; and the newly seen all-character delta after `309d7003`.
+
+Similar names do not create identities. Current/export role arrays do not create appointment chronology. Joke family/romance/possessive language does not become literal biography. Earliest surviving remains earliest surviving, not origin. POSTED BY / MADE BY / CAPTURED BY / FEATURING remain separate.
