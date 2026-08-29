@@ -20,6 +20,15 @@ export const coreIntegratedEpisodes: Episode[] = [
     cast: ["Akamin", "Gilli", "Snow", "Mugen"]
   },
   {
+    id: "lanbo-the-vibe-here-is-very-nice",
+    title: "The Vibe Here Is Very Nice",
+    season: "2020",
+    date: "September 25, 2020",
+    kind: "Lobby → Club Only / Dan tells UL he is openly comparison-shopping clubs",
+    logline: "Lanbo checks in as `Dan, underlords, over 18`, then tells Club Only exactly what he is doing there: `Im from s8`, `I came to see what other servers clubs are like`, and `S7/8 was pretty ded`. That afternoon he announces he is going to see what 7Stars is like `for now`, but adds that he already did the daily donation, `Ill most likely be back. The vibe here is very nice`, then posts `:worryThumbUp:`. Mugen reacts 😋. The nice part is how little fake loyalty theater anybody needs. Dan is standing inside UL and openly says he is shopping around; the exit still comes padded with a completed donation, a probable return, and a compliment. One surviving day therefore catches club affiliation as porous and experimental for this one person rather than as a dramatic defection scene. It does not prove Lanbo returned, establish broader UL–7Stars rivalry or alliance consequences, reconstruct server-transfer mechanics, or make this Lobby check-in his first-ever contact with UL.",
+    cast: ["Lanbo", "Mugen", "Anthos"]
+  },
+  {
     id: "wennie-hour-long-movie",
     title: "Isn't That Just a Movie?",
     season: "2020",
