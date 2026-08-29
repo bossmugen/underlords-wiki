@@ -40,13 +40,14 @@ Episode owner: `src/data/integrator-episodes-allcharacters-20260829.ts`. Reader-
 
 Reviewed checkpoint-first from `153ac796a45072415f48d4848517a084563abfc7` through `6f200afd458557aa7fb42c407e9403831ff232a3`. The delta is successfully consumed after public verification.
 
+The same reconciled delta also produced a **MAIN-only Nelph biography enrichment**. On November 27, 2021 Nelph told the Officer room she needed a break for exams and personal recovery; officers explicitly separated stepping away from leaving UL, and Snow told her `you always have a home with us` / the `doors always open`. The later archive blocks a fake five-year-disappearance story because LuCiel still names Nelph as an invite contact in 2023, but the 2026 `NELPHIE` → `HI MUGS!!` / `IM ALIVE` return now has the right emotional wiring: taking space did not automatically make Nelph a stranger. The more private relationship-end context from the source stays proportionate instead of becoming the headline.
+
 Other material retained without duplicate public objects:
 
 - **Ritha:** early `mostly honorary` wording sits beside explicit startup labor and cannot override the hard user-confirmed fact that Ritha was UL's real strategic battle leader.
 - **Suzimasu:** `Imma miss y’all when quarantine over` is useful early attachment / anticipated-availability texture; `I thought this was HR` / `We are not professional in the least lmao` remains separate scene language.
 - **Illien:** the promotion-era line that he `does not leave people behind` unifies rerunning dailies, helping houses/builds, explaining mechanics, sparring until people understand, and noticing mood changes into one practical-patience habit. MAIN already owns the richer person rail.
 - **Key:** `keyred` / `Captain Chihuahua` is probably a historical secondary account because the room recognizes it socially as Key, but it is not hard-merged with canonical Key account ID `605120667686928394` without stronger identity evidence.
-- **Nelph:** 2021 Officers material makes the 2026 `IM ALIVE` return a continuity payoff: stepping away for exams / mental-health strain after a relationship ended did not require leaving UL, and officers explicitly kept the door open. Breakup detail stays proportionate.
 - **Kiro:** 2026 nursing/healthcare conversation supports probable nursing/healthcare study or work plus the `UL nursing society` / IV-pole stripclub joke. Exact role, license, employer, or appointment chronology remains unresolved.
 
 ## Core recovery — complete 10:46 package
@@ -67,13 +68,15 @@ Other Core material remains reconciled rather than cloned:
 
 - **WIKI** owns **Something Felt Off** because its useful unit is a bounded early character/role-progression scene: tension changes, Yumi notices, room gets an off-ramp.
 - **MAIN** owns Hami's recurring exit-door GIF because the payoff is longitudinal person texture across three Wall dates and joins directly into his existing deli-label / Noether evidence economy.
+- **MAIN** also owns Nelph's open-door / return payoff because the useful unit is biography across years rather than a one-night Episode. The 2021 room makes stepping away compatible with continued belonging; 2023 prevents a fake total-absence bridge; 2026 supplies the return beat.
 - The two surfaces therefore share the same reconciled evidence without photocopying the same paragraph into both products.
 
 ## Verification / deployment
 
 - WIKI reader-content commit `d6557221ab7438cf5f80f085e0880fa040e20702` passed **Build Underlords Wiki** and the existing Pages **build → deploy → report** workflow successfully.
 - MAIN Hami reader-content commit `1b760f8a980bc1243526e16d67d96cb7fa0bdf28` passed source canon/architecture verification, Astro build, built-output verification, and exact Cloudflare production deployment.
-- Final durable state heads are verified separately after their state/report commits.
+- MAIN durable descendant `d505b9e9069bc84aa66993e7cde1bc56f40d9d77`, which includes both Hami and Nelph public changes plus consumption state/reporting, passed the complete existing **UL Hourly Build + Deploy** workflow successfully.
+- Final durable state heads are verified separately after any last state/report correction.
 
 ## Unresolved / protected
 
