@@ -8,9 +8,13 @@ Full branch-level consumption state is durable on MAIN in `archive-intake/INTEGR
 
 Full census: **28 active remote miner refs + 21 historical/missing refs = 49 tracked branch identities**. No archive-miner refs live only in the wiki.
 
-At the closing boundary:
+This pass initially closed with Daycare as the sole finite late mover. A direct-descendant MAIN census immediately afterward caught three more miners advancing, so the **live durable queue** is now:
 
-- finite pending: **1** — Daycare, seen `5550f88d6659a38c4c967c4ae0203657ee98a179`, consumed `d7d99f9f3e22832e99c57602bc94c1a8061f42c1`
+- finite pending: **4**
+  - Daycare — seen `5550f88d6659a38c4c967c4ae0203657ee98a179`, consumed `d7d99f9f3e22832e99c57602bc94c1a8061f42c1`
+  - Louvre / AI Art / Athenaeum / Other Games — seen `8729c12c787562155e5ea2abe0daca6936801729`, consumed `02485d609feaaa25163dc160312f288b3a875d9e`
+  - Mugen person-first — seen `c9c2fa9ca9e6a97f272a596f6a6dfaa97b3519ce`, consumed `a63c39502a1478c1f87f1ebfb70061e1bf759433`
+  - Whiskey — seen `e477750a...`, consumed `a88320bf523ecdf049d308c05077c9a57c437b04`
 - backlog: **0**
 - review-overdue: **0**
 - cumulative recovery tracks: **Core Rooms + Wall**
@@ -18,10 +22,8 @@ At the closing boundary:
 Current important frontiers:
 
 - All Characters — seen/consumed `0a7f1e2d811a8f85a4080465376563d5c978197d`
-- Mugen person-first — seen/consumed `a63c39502a1478c1f87f1ebfb70061e1bf759433`
 - Core Rooms — seen/forward-reviewed `f38fcb05669d4ca2bda3dcbe65704149bdf4cbee`; formal consumed null while older cumulative recovery remains open through the 15:46 package
 - Wall — seen `ce096efe589e4b09041888809f02e1072c779572`; forward-reviewed through `1627e904778c679a9c742453fa195a3c79639cd0`; formal consumed null while cumulative recovery remains open
-- Daycare — late finite advance above; pending review
 - Club-Only 2021–2026 — seen/consumed `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`
 - Club-Only 2020 — seen/consumed `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`
 
@@ -84,7 +86,7 @@ Wall then advanced again to seen `ce096efe...`; that newest suffix is visible bu
 
 WIKI reader-content commit `eef19e61201c7e6770a0d63b00b38c6dc5b7cf96` passed **Build Underlords Wiki** and **Deploy Underlords Wiki Preview** successfully, including the Pages build/deploy path.
 
-MAIN reader-content commit `639e08a59199331aa03acd4d589d512a3d48c0af` passed source canon/architecture verification, Astro build, built-output verification, and exact validated Cloudflare deployment successfully.
+MAIN reader-content commit `639e08a59199331aa03acd4d589d512a3d48c0af` passed source canon/architecture verification, Astro build, built-output verification, and exact validated Cloudflare deployment successfully. MAIN's direct-descendant live census head `3795f45c7a47b8d888b889e023248a258649447c` also passed the exact same full pipeline successfully, preserving this pass while refreshing the moving branch queue.
 
 ## Unresolved / protected
 
