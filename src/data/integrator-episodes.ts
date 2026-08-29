@@ -90,5 +90,14 @@ export const integratedEpisodes: Episode[] = [
     kind: "Wall relationship-law hearing",
     logline: "Moon replies to Oyasumi with `Sushi cheated on me D:`; Daya, posting under her Dayadream alias, counters `you're cheating on me with sushi?!`; Moon answers by citing a supposed marriage contract allowing an open relationship, then reminds Daya that the clause was allegedly her idea. The exchange is scene-level social fiction: it does not prove literal romance, legal/offline marriage, a Dragon Raja marriage mechanic, or a global `Sushi = Oyasumi` alias. The parent image remains uninspected.",
     cast: ["Moon", "Daya", "Oyasumi"]
+  },
+  {
+    id: "suzi-freaking-out-since-beginning",
+    title: "Suzi Has Been Freaking Out Since the Beginning",
+    season: "2021",
+    date: "September 11, 2021",
+    kind: "Wall founder archaeology / afterhours evidence remains sealed",
+    logline: "A Dragon Raja screenshot sends the Wall into founder archaeology. Mugen says Suzi `litrally helped start UL`, answers `Yus` when asked whether Suzi was one of the founders, and says Suzi still gets freaked out by `afterhours activities`. Nhou supplies the killer continuity line: `Suzi freaked out since the beginning xD.` Mugen immediately counter-files that `suzi be the freakiest of us all.` The text tree is intact, but `Screenshot_20210911-044859_Dragon_Raja.jpg` remains visually uninspected, so the exact afterhours offense stays unknown. Source-era pronoun wording does not override current user-confirmed canon.",
+    cast: ["Suzimasu", "Mugen", "Nhou", "Ren"]
   }
 ];
