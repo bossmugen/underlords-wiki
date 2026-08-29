@@ -35,4 +35,10 @@ export const integratedGags = [
     logline:
       "Woohyuk keeps responding to ordinary conversation by filing mutually incompatible family paperwork. In November 2020 he tells Mugs, ‘Bear my child mugs, so their blood can produce fossil fuels’; Mugs names the hypothetical first child Tyrannosaurus rex. In March 2021 Crystalia says ‘Don't mind Woo. He's just a kid,’ so Woohyuk immediately announces this has all been a cover and that he is ‘actually a 37 yo man who has 4 children.’ Neither is literal biography. The recurring mechanism is the escalation: call him a kid and he will apparently invent an entire tax return.",
   },
+  {
+    id: "slide-into-dms",
+    name: "Slide Into DMs",
+    logline:
+      "The phrase acquired legs and then immediately lost the ability to stand. On September 1, 2020 Ansun wrote ‘_slides into his dms_’; Anthos posted a literal sliding-person GIF and admitted that from then on the phrase made her picture it, and Mugs answered with a Tenor explicitly titled ‘slide-into-dms.’ By October Rooks was deploying an animated server emoji actually named SlideInDms. Then the August 14, 2026 Family Reunion retrieval used ‘SLIDE TO THEIR DMS’ as an instruction while the Anthos summons screenshot visibly staged a prone/sliding person above ‘The clowns are calling for you’ / ‘Will you heed their call.’ The exact 2026 visual is not proven to be the 2020 GIF or emoji binary, and no trustworthy 2021–2025 intermediate survivor has surfaced. September 1 is earliest surviving evidence in this genealogy, not a creation myth.",
+  },
 ];
