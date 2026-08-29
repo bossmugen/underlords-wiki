@@ -1,62 +1,57 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration pass: **2026-08-28 18:34 PDT**.
+Last dual-surface integration pass: **2026-08-28 18:50 PDT**.
 
-This is the rolling current integration state. Full pass detail is durable on MAIN in `archive-intake/INTEGRATION_PASS_2026-08-28_1834_DUAL.md`.
+This is the rolling current integration state. Full pass detail is durable on MAIN in `archive-intake/INTEGRATION_PASS_2026-08-28_1850_DUAL.md`.
 
-## Current pass — Rummy appeals the edit
+## Current pass — Hishiro was already here
 
 ### Branch census / queue
 
-- Mandatory opening census: **24 miner branches**, persisted on MAIN before deep review.
-- No miner branch was newly discovered.
-- Daycare advanced from consumed `0247cee810368486dbef7a4cffc74859068991c0` to HEAD `2c6ece9f30b742c7078a19d9780ae24b770e7ab8` and was fully reviewed checkpoint-first.
-- Anti-starvation recovery rotated to Wall at unchanged HEAD `36e85aa2025b030faf43fecd20a315b158debd4c`, closing the older `2026-08-26 18:46` package beneath the previously reviewed 19:46–23:46 material.
-- Discrete queue after review: **0 pending / 0 backlog / 0 review-overdue**.
+- Mandatory opening census: **24 miner branches** matching `archive-miner-*` / `archive-miner/*`.
+- Every discovered branch already had a MAIN state entry and every opening `last_seen_sha` matched the current remote head.
+- No new miner branch appeared and no finite branch advanced.
+- Discrete queue remains **0 pending / 0 backlog / 0 review-overdue**.
 - Living Ensemble, Core Rooms, and Wall remain cumulative recovery floors with null consumed SHAs.
 - Club-Only 2020 and Club-Only 2021–2026 remain consumed through unchanged current heads and were not reread.
 
-## Daycare delta — consumed, nothing duplicated
+## Core Rooms recovery — 02:46 package reviewed
 
-The full `0247cee... -> 2c6ece...` Daycare delta was reviewed using only its changed intake-local handoffs.
+Anti-starvation rotated to `archive-miner/core-rooms-events-a91f-20260824` at unchanged HEAD `8d9e6f40f7b0872aca3c20c6c1bd8fc45ebcec19`.
 
-- Rose / DarkAsrai's stable-account return is already owned on MAIN: Gilli says `Welcome back rose!` before Rose supplies `Galaxy / Dragons`.
-- `.` / nai6965 is canonical Han; his Fame/Shame question is already owned on MAIN.
-- Rich's cross-room `Funcle rich` / Platelet self-filtering scene is already owned richly on MAIN and indexed here as **Funcle Rich**.
+Checkpoint first, then only the 02:46 intake-local findings, receipts, rabbit holes, site candidates, and checkpoint delta were reviewed. No raw archive was re-mined.
 
-No second copy was accepted. Successful duplicate/corroboration review is still consumption, so Daycare is now consumed through `2c6ece9f30b742c7078a19d9780ae24b770e7ab8`.
+### Hishiro ↔ Gilli: summoning as customer service
 
-## Wall recovery — Rummy's context defense starts earlier
+The August 19, 2020 scene survives cleanly: Hishiro answers Gilli with `yes? you called my name?`, upgrades the ping to `cool Gilli can summon people`, supplies a Fate/Rin magic-summon GIF, then closes with `summon me again if my service are needed again` and `always at your service`.
 
-The 18:46 Wall package adds a missing first rung to Rummy's already-public habit of objecting to how the Wall edits her conversations.
+The mock formality is the whole bit. `Summon` turns a ping into sorcery; `service` makes ordinary availability sound like a department. The scene still lands on the useful thing underneath: call her and she answers. It is not a formal duty, special hierarchy, appointment chronology, or evidence that Gilli actually held summoning powers because apparently this disclaimer has to exist.
 
-On January 30, 2022 Cele says a screenshot is bad out of context. Rummy answers:
+### `my students`
 
-`yeh yeh out of context it bad but with context it not making it better`
+On September 3, Hishiro says she has experience using video material for related topics and that `it keeps my students stress level low so its a win win`.
 
-That is the funniest possible first version of a defense strategy: yes, context exists; no, counsel admits context would not acquit counsel.
+Safe: Hishiro explicitly refers to `my students` and says the format helps lower their stress. Unsafe and therefore not done: inventing a school, subject, institution, job title, or teaching chronology from one sentence.
 
-By December 2023 the doctrine has reversed. Rummy insists `bro u need hte context`, says `THAT WASN'T JUST A RANDOM THINIG`, and eventually supplies the crucial missing universe: `it the bobA bALlS`.
+### Anthos lucky run
 
-By August 2024 the appeal has become discovery procedure: `THAT NOT THE FULL CONVO`.
+On September 10, Hishiro says `my lucky streak is out of control`, `i gave anthos 2 good drops`, and `opened an S and an SSS on our run`. This remains one-date game texture, not a permanent Lucky Hishiro class passive.
 
-WIKI now indexes that three-stage recurrence as the Running Gag **Rummy Appeals for Context**. MAIN carries the richer biography version. The three screenshots remain visually uninspected, so neither surface describes their literal contents or rules that the Wall framing was substantively wrong.
+## Public novelty result — duplicate/corroboration only
 
-## Public-surface decision
+Nothing from the 02:46 package needed new public copy.
 
-- **MAIN:** `src/content/people/rummy.md` owns the full 2022 → 2023 → 2024 character progression: concession → boba-ball context appeal → full-conversation demand.
-- **WIKI:** `src/data/integrator-gags.ts` owns **Rummy Appeals for Context** as the searchable recurring gag object rather than duplicating MAIN prose.
-- Daycare's Rose, Han, and Funcle Rich material was intentionally not republished because its strongest forms were already on the appropriate public owners.
+- **MAIN** already owns all three usable evidence families in `src/content/people/hishiro.md`, including the correct anti-fanon boundaries.
+- **WIKI** already owns the same material richly in `src/data/character-biographies-hishiro-core.ts`; the summoning scene, student-stress line, and Anthos loot beat are already part of Hishiro's long-form dossier.
+
+Successful duplicate/corroboration review is still review. Core's recovery floor therefore moves one package deeper without manufacturing another Hishiro page, another episode, or a second biography saying the exact same thing with a different font.
 
 ## Held / unresolved
 
-- A possible 2021 Rummy antecedent (`I just realize i put it like that` / `the way u even highlight it`) remains held until its missing parent/media are recovered.
-- The three screenshots behind the 2022, 2023, and 2024 Rummy appeals remain visually uninspected.
-- Eos's September 2022 `Got him again` still has no safe male target, prior catch, or inspected image.
-- Torr / DiStratus has useful context/grammar crumbs but not enough recurrence for a public rail.
-- Living Ensemble still has Run13–14, Runs18–21, and other older safe-baseline gaps.
-- Core Rooms still has older safe-baseline material beneath the reviewed packages.
-- Wall recovery continues below the 18:46 package; 17:46-and-older remain.
+- Hishiro's final edited Tumbleweed labels — `onee-sama` under Anthos and `granddaughter` under Ansun — remain provenance-held. The final map was edited through October 19, 2020, so the surviving final body cannot date those labels to September 29.
+- The initiating Gilli task and nearby `unknown.png` remain unresolved.
+- Hishiro's exact teaching context remains unresolved beyond her own `my students` wording.
+- The lucky streak remains one-date texture unless an independent recurrence surfaces.
 
 ## Recovery / consumption state
 
@@ -65,15 +60,21 @@ WIKI now indexes that three-stage recurrence as the Running Gag **Rummy Appeals 
 - Club-Only 2020: consumed through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`.
 - Club-Only 2021–2026: consumed through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`.
 - Living Ensemble: recovery in progress, consumed SHA null; explicit reviewed coverage remains Runs02–12, Runs15–17, Runs22–26 plus aggregate handoffs.
-- Core Rooms: recovery in progress, consumed SHA null.
-- Wall: recovery in progress, consumed SHA null; reviewed recovery now includes 18:46 through 23:46 in the current descending sweep.
+- Core Rooms: recovery in progress, consumed SHA null; reviewed recovery now explicitly includes **02:46–09:46 plus the previously recorded 23:46 package**. The next older deliberate floor is 01:46-and-below.
+- Wall: recovery in progress, consumed SHA null; reviewed recovery remains 18:46 through 23:46 in the current descending sweep.
+
+## Public-surface decision
+
+- **MAIN:** no lore/content page changed this pass; current Hishiro biography already owns the evidence.
+- **WIKI:** no lore/content object changed this pass; current Hishiro dossier already owns the evidence.
+- No material was intentionally published to only one surface because nothing survived novelty checking as unpublished A/B material.
 
 ## Verification / deployment
 
-- MAIN public-content commit `2f8fabb934f9d23314af4d4776ba17a37e3a1fc1` passed workflow `33226975694`: source canon/architecture verification, Astro build, built-output verification, and exact Cloudflare production deployment all succeeded.
-- WIKI public-content commit `d48c22bb309f3cc634b20e5a08d47ba2991f3342` passed standalone Astro workflow `33226987883` and Pages workflow `33226987890`, including build → deploy → report.
-- MAIN durable consumption state was advanced only after those accepted public changes cleared checks.
-- This rolling-state commit is followed by the repository-native WIKI workflows; final publishing-head status is checked after it lands.
+- This pass changes durable integration state/reporting only; no reader-facing lore source changed.
+- MAIN's `master` push triggers its repository-native `UL Hourly Build + Deploy`, which runs source canon/architecture verification, Astro build, built-output verification, then exact-commit Cloudflare deployment.
+- WIKI's `main` push triggers its existing standalone Astro build and Pages build/deploy/report workflows.
+- Final workflow outcomes are checked after the publishing-head state commits land.
 
 ## Current cross-surface continuity locks
 
