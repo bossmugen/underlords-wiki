@@ -1,12 +1,16 @@
 ---
 import WikiLayout from "../../layouts/WikiLayout.astro";
 import { seasons, episodes } from "../../data/wiki";
+import { integratedEpisodes } from "../../data/integrator-episodes";
+import { wallIntegratedEpisodes } from "../../data/integrator-episodes-wall-20260828";
+import { whiskeyIntegratedEpisodes } from "../../data/integrator-episodes-whiskey-20260829";
 
 export function getStaticPaths() {
   return seasons.map((season) => ({ params: { year: season.year }, props: { season } }));
 }
 const { season } = Astro.props;
-const seasonEpisodes = episodes.filter((episode) => episode.season === season.year);
+const allEpisodes = [...episodes, ...integratedEpisodes, ...wallIntegratedEpisodes, ...whiskeyIntegratedEpisodes];
+const seasonEpisodes = allEpisodes.filter((episode) => episode.season === season.year);
 const eraNumber = seasons.findIndex((entry) => entry.year === season.year) + 1;
 ---
 <WikiLayout title={`${season.title} | Underlords Chronicle`} description={season.summary}>
