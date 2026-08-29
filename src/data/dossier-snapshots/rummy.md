@@ -73,6 +73,13 @@ claims:
       - label: "Wall of Shame/Fame · 2023-08-15"
         href: "/channels/wall"
     note: "The message received twelve heart reactions. That is visible positive uptake, not proof of unanimity. Rummy's own wording explicitly denies that Panda was bullying her in this scene."
+  - text: "On August 31, 2023, Rummy joked that losing an anime profile picture and gender symbols in her bio meant she was `no longer accepted into bl clan` even though she still had a `bl pfp`, then called herself `i am imposter`; the same day she joked that straights were rare in IsekaiScan and that Ali was joining Rimu club to multiply the straight population. On August 31, 2024, she returned to the bureaucratic register with `i need more bling certification`."
+    evidence: "archive-confirmed"
+    date: "2023-08-31 → 2024-08-31"
+    sources:
+      - label: "Wall of Shame/Fame recovered export"
+        href: "/channels/wall"
+    note: "The 2023 messages literally say `bl`; the later `bling certification` wording is a later mutation/callback and is not projected backward as the original label or an origin claim. Anthony's adjacent `degenerate god of BL` line is Anthony's banter, not a formal title or Rummy self-description."
   - text: "On December 15, 2023, Rummy answered a Wall context cluster with `bro u need hte context`, `THAT WASN'T JUST A RANDOM THINIG`, `i did not say that randomly`, and finally `it the bobA bALlS`; on August 14, 2024, another Wall cluster ends with her protesting `THAT NOT THE FULL CONVO`."
     evidence: "archive-confirmed"
     date: "2023-12-15 → 2024-08-14"
@@ -105,6 +112,7 @@ antiFanon:
   - "`he my lawyer now-jk` is Rummy's own joke about Ansun, not a formal lawyer, mediator, officer, or representation appointment."
   - "The twelve heart reactions on Rummy's misunderstanding-closure message show visible positive uptake, not unanimity or a closeness ranking."
   - "Rummy's recurring `need the context` / `not the full convo` lines are a Wall-response pattern, not a lawyer/fact-checker title and not proof that any unseen screenshot was misleading."
+  - "The 2023 `bl clan` / `bl pfp` wording and 2024 `bling certification` callback are participant joke-language about self-presentation and group identity; do not turn them into a formal clan membership, office, sexuality inference, or claim that `BLING` was the exact 2023 label/origin."
   - "The 2026 account replacement is still Rummy; do not split the hacked and replacement accounts into separate people."
   - "Do not describe the unseen screenshots attached to Wall allegations unless the image itself has been inspected and attribution resolved."
 relatedPeople:
@@ -125,6 +133,7 @@ tags:
   - "birthdays"
   - "wall"
   - "context-defense"
+  - "bling-certification"
   - "de-escalation"
   - "conflict-style"
 ---
@@ -157,13 +166,17 @@ August 15 gives the clearest sign of how she handles a more serious social momen
 
 Only after setting that boundary does she joke that Ansun is her lawyer **`now-jk`**. The order is revealing. Rummy does not use the joke to avoid saying what she thinks. She says it plainly first, asks the room to stop feeding the misunderstanding, and then lets the house language back in.
 
+Two weeks later, the house apparently develops a certification board for Rummy's profile. She says losing her anime PFP and the gender symbols in her bio means she is **`no longer accepted into bl clan`** even though she still has a **`bl pfp`**, then diagnoses herself with the wonderfully efficient **`i am imposter`**. The joke keeps expanding: **`Strights are rare in IsekaiScan @Sogu`**, followed by Ali joining Rimu club to **`multiply the str8 population`**.
+
+The little bureaucratic verbs are the whole thing. Rummy is not merely saying she likes something; she turns a profile picture and bio formatting into eligibility requirements, population policy, and an accreditation crisis. A year later the paperwork resurfaces as **`i need more bling certification`**. The archive does not backfill that later wording into 2023—the earlier messages literally say **`bl`**—but the mutation is recognizable: if Rummy's self-presentation can be made into a licensing problem, apparently somebody must stamp the form.
+
 By December, another recurring trait is visible: when the Wall quotes her without enough surrounding context, she objects to the edit rather than necessarily denying the line. **`bro u need hte context`**, **`THAT WASN'T JUST A RANDOM THINIG`**, **`i did not say that randomly`**, followed eventually by **`it the bobA bALlS`**. It is funny, but it also fits the same year in which she was maintaining birthday records and trying to close a misunderstanding carefully. Rummy tends to care about what happened around the sentence, not just the sentence itself.
 
 ## 2024 — The pattern sticks
 
-In August 2024, another Wall cluster ends with the condensed version of the same objection: **`THAT NOT THE FULL CONVO`**.
+In August 2024, another Wall cluster ends with the condensed version of the same objection: **`THAT NOT THE FULL CONVO`**. Later that month, the separate profile-certification bit mutates into **`i need more bling certification`**—same bureaucratic instinct, later wording, not a retroactive rename of the 2023 `bl clan` joke.
 
-At this point it reads less like a one-off defense and more like a stable habit in how she deals with the Wall. The room likes excerpts because excerpts are funny. Rummy's reflex is to drag the missing context back into frame. The archive cannot prove that every objection was correct, because the underlying conversations are not always fully reconstructed. What it can show is that the reflex repeats.
+At this point the context objection reads less like a one-off defense and more like a stable habit in how she deals with the Wall. The room likes excerpts because excerpts are funny. Rummy's reflex is to drag the missing context back into frame. The archive cannot prove that every objection was correct, because the underlying conversations are not always fully reconstructed. What it can show is that the reflex repeats.
 
 ## 2026 — Account change, same person
 
