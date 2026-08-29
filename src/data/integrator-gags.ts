@@ -1,5 +1,11 @@
 export const integratedGags = [
   {
+    id: "cuddle-puddle",
+    name: "Cuddle Puddle",
+    logline:
+      "The phrase has a surviving little migration path instead of one lonely cute line. On October 1, 2020 Ten drops `cuddle puddle` directly inside an active Eli cuddle-command pile; it lands only 15 milliseconds after Anthos types `eli cuddle @Mugen`, so the safe reading is that Ten is naming the live pile, not that anybody completed a full cognitive reply in the time it takes a packet to sneeze. Anthos carries the exact phrase forward on December 22, then on December 29 replies `cuddle puddle??` to Life/Sycee inviting Anthos, Drink Water Reminder, and Jordayy to `join me for fun!`; Life immediately escalates into a multi-target sexual Eli bot command. By then the wording has stretched from a pile of bot-mediated cuddling into reusable group-affection / innuendo shorthand. Ten's October 1 line is the earliest surfaced direct literal use in the currently checked assigned transcripts, not proven coinage or global origin; December 29 is Discord joke/bot-command language, not real-world sexual conduct.",
+  },
+  {
     id: "pervy-sage",
     name: "Pervy Sage",
     logline:
