@@ -11,6 +11,15 @@ export const integratedEpisodes: Episode[] = [
     cast: ["Tae", "Gabu"]
   },
   {
+    id: "teaching-tofu-to-waltz",
+    title: "Teaching Tofu to Waltz",
+    season: "2021",
+    date: "July 19, 2021",
+    kind: "Photo-submission character beat",
+    logline: "Three weeks after BishopThaGuru and Tofu are already trading fake federal-file paranoia, `unfortunately` love, and Wall-of-Shame warnings, Bishop posts a photo submission captioned `Teaching @Tofu🐝 to Waltz turned out to be a lot cuter than expected... ☺️`. `Teaching`, `turned out`, and that sheepish little smile make Bishop's pleased surprise legible without inventing a relationship label. The attachment `IMG_0402.PNG` remains visually uninspected: Bishop is POSTED BY; pose, setting, photographer, maker, and any additional visual claims stay unresolved.",
+    cast: ["BishopThaGuru", "Tofu"]
+  },
+  {
     id: "moon-cites-the-contract",
     title: "Moon Cites the Contract",
     season: "2022",
