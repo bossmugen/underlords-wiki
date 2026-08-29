@@ -207,5 +207,14 @@ export const integratedEpisodes: Episode[] = [
     kind: "Same-account return / the door remembers the person even while the supplied name changes",
     logline: "On February 16 the stable ACORYUIE account answers a Bouncer intake with `Hello, its Cinders here! I'm 18 years of age.` Four months later the same account hits the intake again and supplies `Juᥒιρer 18`; thirty seconds later Mugen technically addresses that same account with `welcome back bb, role assigned, you know your way uwu`. The return is hard at the account level and Mugen's familiarity is explicit. The archive does not know why the intake re-triggered, whether Cinders and Juniper were specifically IGNs or broader scene names, what exact role was assigned, or whether Mugen's nearby `Brynnderellaaaaaaaaaa` was aimed at this person.",
     cast: ["ACORYUIE", "Mugen"]
+  },
+  {
+    id: "valantina-submit-anyway",
+    title: "IDK IF I CAN STILL SUBMIT THIS BUT I WILL ANYWAYS",
+    season: "2021",
+    date: "August 22, 2021",
+    kind: "Photo Submissions / Council visitor walks straight into the creative machinery",
+    logline: "That morning the stable Valantina account is processed through Lobby and directly answers the club question with `Council`; Drink Water Reminder gives the tour and explicitly points her toward Photo Submissions. About eleven hours later, on the final listed calendar day of POPSTAR submissions, Valantina posts an image with `IDK IF I CAN STILL SUBMIT THIS BUT I WILL ANYWAYS`. The line does the character work: uncertainty is spoken out loud and then loses the argument to the upload button. This is clean evidence of a Council visitor participating in UL's creative program, not proof she was a UL member, that August 22 was a join or rejoin date, or that the entry won anything. The image remains visually uninspected, so Valantina is POSTED BY only; MADE BY, CAPTURED BY, and FEATURING remain unresolved.",
+    cast: ["Valantina", "Gabu", "Gilli", "Anthos"]
   }
 ];
