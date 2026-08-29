@@ -36,5 +36,14 @@ export const lateAugustIntegratedEpisodes: Episode[] = [
     kind: "Lobby intake / age gate meets height, citizenship, and the McDonald's playpen",
     logline: "The Lobby asks Spicy Hotpot for the normal intake fields. Gilli asks `Are you above 18?`; Josh answers `yes, I'm 5'7 actually.` Mugen tries again with `Legal or no?`; Josh supplies `I am a US citizen.` Mugen produces the `mcdonalds playpen`, Ansun contributes `stinky cheese kids`, and Gilli restores the actual point by explaining the server's 18+ rule. Josh then immediately finds the requested variable: `I'm over 18`. The comedy is not that the age gate was optional — Gilli keeps enforcing it while everybody else turns the form into a word-association exercise. `I'm Joshx` plus Gilli's earlier `HI JOSH!` safely bridges this scene to Spicy Hotpot; the historical over-18 statement stays historical and is not converted into a current age or a citizenship bio headline.",
     cast: ["Joshx", "Gilli", "Mugen", "Ansun"]
+  },
+  {
+    id: "danny-embrace-the-curse",
+    title: "Embrace the Curse",
+    season: "2020",
+    date: "October 1, 2020",
+    kind: "Dragon Raja dungeon luck / helping other people and getting haunted by their loot instead",
+    logline: "Danny tells Mugen that `3 out of 4 orange dracs` have now turned up while he was on other people's accounts, calls the pattern `Cursed.`, then immediately develops the haunting into a business model: `Maybe I should start charging daily packs to do peoples dungeons. Embrace the curse.` The surrounding sequence makes the practical read stronger than a one-off RNG complaint: Danny had apparently been doing other people's dungeon chores often enough to notice a repeated loot pattern, and the reward kept choosing the account that was not his. The attached Dragon Raja screenshot is POSTED BY Danny and remains visually uninspected; exact account, loot shown, capture authorship, and account-access arrangements stay unresolved. A day earlier the same account was chatting from work and joking that being `team leader` meant `Ill do what I want`, but that probable workplace role is ordinary-life texture rather than a guild title.",
+    cast: ["Danny", "Mugen"]
   }
 ];
