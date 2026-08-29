@@ -20,6 +20,15 @@ export const wallIntegratedEpisodes: Episode[] = [
     cast: ["Baby Lyssa", "Marian", "Mugen", "Tofu"]
   },
   {
+    id: "fossil-fuel-child",
+    title: "The Fossil-Fuel Child",
+    season: "2020",
+    date: "November 10, 2020",
+    kind: "Alabama Tumbleweed filing / fake family tree meets petroleum engineering",
+    logline: "Woohyuk tells Mugen, `Bear my child mugs, so their blood can produce fossil fuels.` Ren needs nineteen seconds to decide what matters procedurally: `another one in the alabama tumble weed`. Mugen later quotes Woohyuk's proposal and announces, `imma name our first one Tyrannosaurus rex`. The emotional logic is gloriously backwards. Nobody stops to dispute the impossible biology; Ren immediately treats the invented child as another branch that must be entered into UL's fake-family bookkeeping, while Mugen accepts the premise long enough to name the hypothetical offspring after the extinct animal apparently expected to solve the fuel problem. This is relationship mythology and Tumbleweed paperwork, not romance, pregnancy, literal kinship, or a real child. Woohyuk also posted a GIF between Ren's filing and Mugen's answer, but that media remains uninspected and is not used to explain the scene.",
+    cast: ["Woohyuk", "Mugen", "Ren"]
+  },
+  {
     id: "rummy-chose-the-chicken",
     title: "Rummy Chose the Chicken",
     season: "2022",
