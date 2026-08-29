@@ -45,5 +45,14 @@ export const wallRecoveryEpisodes: Episode[] = [
     kind: "Wall identity-twin bit / Ansun starts doing name algebra and Anthos plays along",
     logline: "The Anthos/Ansun identity-twin joke stops being something the room merely says about them and becomes something Ansun actively helps write. In the Wall scene he declares `we are one being`, then starts manufacturing merger names: `anthus`, followed by the increasingly unusable `anthun anthos ansun anthsous`. Anthos later joins the cluster with a Groot GIF. The useful turn is Ansun's authorship: the same person whose own later account remembers entering UL quiet and needing time before speaking comfortably is, by November, confident enough to invent public mythology about himself in real time. Anthos participates too. None of this merges them into one human being, creates literal kinship or romance, or overrides the canon fence that Ansun and Anthos are separate people. It is a mutually performed running bit, and the joke works because everybody involved knows exactly where the line between the two people is.",
     cast: ["Ansun", "Anthos"]
+  },
+  {
+    id: "prejoin-new-record-holder",
+    title: "New Record Holder Before She Even Joined",
+    season: "2022",
+    date: "July 14, 2022",
+    kind: "Wall speedrun / the filing apparently beats onboarding to the finish line",
+    logline: "Mugen posts an uncaptioned screenshot. Gabu immediately detonates: `SHE DIDNT EVEN JOIN YET AND ITS ALREADY HETE`; Ren asks `DID SHE BEAT THE RECORD?`; Mugen asks whether anybody has even let the target in yet. Seconds later the same pooled Deleted User account is tagged, Mugen sends the welcome, the target answers `Wait- whhyyy`, and Mugen closes the case with `NEW RECORD HOLDER`. The choreography is the joke: whatever the underlying screenshot showed, the room is already discussing a Wall record before the welcome line finishes. The target's stable identity is deliberately not reconstructed because Discord export ID `456226577798135808` is a pooled Deleted User aggregate spanning multiple humans. Participant `she` wording stays participant wording, not an identity solve. The screenshot is POSTED BY Mugen; MADE BY, CAPTURED BY, FEATURING, and the image contents remain unresolved.",
+    cast: ["Mugen", "Gabu", "Ren"]
   }
 ];
