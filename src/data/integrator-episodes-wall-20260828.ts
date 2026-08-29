@@ -27,5 +27,14 @@ export const wallIntegratedEpisodes: Episode[] = [
     kind: "Wall casualty hearing / defendant does not contest the chicken",
     logline: "Gilli files the charge as `For shame. She let us get murdered for Chicken`. Rummy's defense is not innocence, tactical necessity, or even regret: `It very much worth it the chucken was amazing`. The room answers with a pile of disapproving `cattohmph` reactions. The attached screenshot has not yet been visually resolved, so the wiki does not name the exact game, mechanics, victim list, or what Rummy was doing when everybody allegedly died. What survives cleanly is the social beat: faced with a casualty allegation, Rummy does not deny the tradeoff. She reviews the meal and stands by the decision.",
     cast: ["Rummy", "Gilli"]
+  },
+  {
+    id: "yaght-enters-the-record",
+    title: "Yaght Enters the Record",
+    season: "2022",
+    date: "November 30, 2022",
+    kind: "Wall apology / one nonsense word becomes communal evidence",
+    logline: "S posts an image with `im sry gilli ily ...`, then eight seconds later contributes the apparently case-dispositive word `yaght`. Daya echoes `yaght` about a minute later. Forty-seven minutes after the filing, Gilli true-replies to S's exact image parent with `PLEAS ELMAOO`. That timing is the whole little machine: apology first, language failure immediately after, another person ratifies the failure by repeating it, and Gilli eventually arrives at the original filing already laughing. The image itself is still uninspected, so the wiki keeps the attribution narrow: S POSTED it; MADE BY, CAPTURED BY, FEATURING, and whatever the pixels actually show remain unresolved. This surviving scene documents `yaght` being picked up in the room, not the word's first-ever origin.",
+    cast: ["S", "Daya", "Gilli"]
   }
 ];
