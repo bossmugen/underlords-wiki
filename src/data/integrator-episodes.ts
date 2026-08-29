@@ -2,6 +2,15 @@ import type { Episode } from "./wiki";
 
 export const integratedEpisodes: Episode[] = [
   {
+    id: "winter-pfp-takeover",
+    title: "The Winter PFP Takeover",
+    season: "2023",
+    date: "December 9-14, 2023",
+    kind: "Louvre art run / one artist accidentally occupies the server",
+    logline: "RotiniLM asks `Anyone want a winter pfp drawn by yours truly~?` and five days later has posted nine named drawings for Mugen, Nobu, Anayss, Tae, Gabu, Nemo, Mia, Ren, and Rummy. Mid-run Mugen tells Rotini `You're doing so well bb. I'm so proud to see your progress...`; at the finish Rotini yells `I ENDED UP DOING 9 IN TOTAL!! 9 DRAWINGS FOR THE WONDERFUL PEOPLE HERE!!!` and then accurately diagnoses the situation as `my art taking over the server`. Rotini's own offer/list/output posts ground MADE BY credit for the nine files. The images remain visually uninspected here, and the episode does not assume every recipient permanently used the drawing as a PFP.",
+    cast: ["RotiniLM", "Mugen", "Nobu", "Anayss", "Tae", "Gabu", "Nemo", "Mia", "Ren", "Rummy"]
+  },
+  {
     id: "voice-challenge-whole-gallery",
     title: "Voice Challenge Becomes a Whole Gallery",
     season: "2021",
