@@ -40,6 +40,10 @@ Core remains cumulative recovery at current reviewed head `3090f9ce00989f981f123
 
 Daycare is consumed through `3d9510cf8811742c6c454b73959e1f471ad72b97` after a successful no-public-change review. HamitteY's doorway chronology and the still-unresolved `Mr. Streamer (Gabu's Chair)` identity work remain backstage rather than being inflated into weak public objects.
 
+## Verification / deployment
+
+Reader-facing Aria commit `e5e6b20c4503738e18d16ee18ce13ec2a2bee96e` passed both existing WIKI workflows. Reconciled state commit `4e20a429078810358d446bc2d2823866f519d98e` also passed the standalone Astro build and the complete Pages build → deploy → report chain. This final bookkeeping revision is subjected to those same workflows before the pass is considered closed.
+
 ## Current queue / recovery mirror
 
 - **Full miner census:** 25 branches.
