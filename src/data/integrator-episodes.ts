@@ -164,6 +164,24 @@ export const integratedEpisodes: Episode[] = [
     cast: ["Citrinitas", "Mugen", "Cele", "Moon", "Ren"]
   },
   {
+    id: "mugen-changes-the-rule",
+    title: "Mugs Changes the Rule and Keeps the Party",
+    season: "2021",
+    date: "2021 NightLife round",
+    kind: "Photo Submissions / feedback lands, the rule changes, everybody goes right back to being idiots",
+    logline: "Members object to the NightLife photoshoot location restriction. Mugen does not defend the draft out of pride: `We hear your concerns and we're revising this month's photoshoot guideline!` becomes `SHOOTS ARE NOW OPEN TO ANY LOCATION`. Then the room immediately drops back into JoJo-pose and `LEGGO STRIPPEEEERS` energy. The useful Mugen beat is the pivot itself — she can reverse a guideline after feedback without turning the reversal into a loss of face — followed by the even more UL part, where nobody is required to remain solemn once the practical problem is fixed. This is one clean changed-mind scene, not proof every UL decision was democratic or that Mugen always revised rules when challenged.",
+    cast: ["Mugen"]
+  },
+  {
+    id: "neme-birthday-pilgrimage",
+    title: "Neme Turns Raja Into a Birthday Pilgrimage",
+    season: "2020–2026",
+    date: "May 9, 2020 → March 3, 2026",
+    kind: "Quiet-person continuity / the daily game becomes an annual old-neighborhood visit",
+    logline: "In May 2020 NemeMoka says `NemeMoka is here to check in~ from dragon raja`; by August Neme is still bringing `New class` news into Club Only, and in November a ladder plan loses a fight with sleep when repeated pings end in `i think Neme past out`. ShiyaX later includes Neme among `thy corpses in afk , dailies done`. The surviving authored record then catches Neme again in February 2026: Mugen recognizes the stable account immediately with `wazzaaa neme`, and Neme simply joins the live hacking conversation with a story about offering a hacked friend soup. Three days later Neme supplies the afterlife line that changes the whole profile: `I drop by Raja once a year on my bday to see how it's going`. The archive does not convert the message gap into a departure/return date, does not declare March 3 to be Neme's birthday, and does not infer account-sharing mechanics from ShiyaX's dailies line.",
+    cast: ["NemeMoka", "Mugen", "ShiyaX", "Rookie Cookie"]
+  },
+  {
     id: "woohyuk-disney-receipts",
     title: "Woohyuk Keeps the Disney Receipts",
     season: "2020–2021",
