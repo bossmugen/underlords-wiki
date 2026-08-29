@@ -14,8 +14,8 @@ This pass reviewed and successfully consumed two finite deltas:
 
 It also continued the older Core Rooms safe-baseline recovery through the **2026-08-25 06:46** package. Core remains cumulative/null-consumed because 05:46 and below are still open.
 
-The closing census still found 27 miners, but active miners moved while integration was running. Closing finite queue: **4 pending / 0 backlog / 0 review-overdue**:
-- All Characters reviewed/consumed through `f88bf23c505436f2121b2589c80bb6ec67d2baec`, newly seen through `5d14bffb240cfccc16390a9214e0e16ee1c87499`.
+The final re-census still found 27 miners, but active miners moved while integration was running. Closing finite queue: **4 pending / 0 backlog / 0 review-overdue**:
+- All Characters reviewed/consumed through `f88bf23c505436f2121b2589c80bb6ec67d2baec`, newly seen through `caae1a6aba6316ffbfef6b4dc848c17a842d5557`.
 - Daycare reviewed/consumed through `275008e2a8a7bd52cdb529af2e7da572257c48f8`, newly seen through `ebb07ddd0d0df9c45adc6805e4b4ac73cee1c532`.
 - Louvre previously consumed through `2cdb1e702f2e537a89f4dcc3d7d88d2759e435e2`, newly seen through `dfc5dab3da4edc52064fc7e1886595070e8ae832`.
 - Whiskey previously consumed through `55bd3d3bf82ec682ad0220a9086a2310ad2cfe3d`, newly seen through `95e6bc861e1b1864caf69d61e565dc93e8cc4aba`.
@@ -70,7 +70,7 @@ Existing workflows passed for that exact commit:
 - `Build Underlords Wiki` run `33243079409`: Astro build success.
 - `Deploy Underlords Wiki Preview` run `33243079411`: Pages preview build, artifact upload, deploy and report success.
 
-This state commit follows the verified public-content commit; its own exact-head workflows are expected to run under the repository's ordinary push policy and are checked by the integrator before closing the run.
+The integrator also verifies the final durable state heads under the same existing workflows before closing the run.
 
 ## Holds / attribution firewall
 
