@@ -1,51 +1,80 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration pass: **2026-08-29 10:21 PDT**.
+Last dual-surface integration pass: **2026-08-29 10:30 PDT**.
 
 Full branch-level consumption state is durable on MAIN in `archive-intake/INTEGRATOR_BRANCH_STATE.json`; prior rolling wiki states remain in Git history.
 
 ## Current branch boundary
 
-Mandatory opening census and closing re-census: **28 active remote miner refs + 21 historical/missing refs = 49 tracked branch identities**. No archive-miner refs live only in the wiki. The finite queue is **0 pending / 0 backlog / 0 review-overdue** after the late Daycare delta was reviewed this run.
+Mandatory opening census plus post-review re-census: **28 active remote miner refs + 21 historical/missing refs = 49 tracked branch identities**. No archive-miner refs live only in the wiki.
 
-`archive-miner/all-characters-hr-20260828` was reviewed checkpoint-first and intake-only from prior consumed `defce8085b88e9f7459d235bdf03ad113d39c22f` through current `daa121ce0e352904090c82484ef25887554c814e`; it is consumed through that head. `archive-miner/daycare-2020-2026-hourly` was then reviewed checkpoint-first from consumed `981e31d9b1739e69fae168ea99e1c7cf22ad167c` through `d7d99f9f3e22832e99c57602bc94c1a8061f42c1`; its accepted reader-facing owner is MAIN's Suzimasu biography, so WIKI does not duplicate that copy. Core Rooms and Wall remain cumulative recovery tracks with formal `last_consumed_sha: null`; Core forward handoffs remain reviewed through `c5d96cd82d54b94b17796d8057769830a6a097ae`, Wall through `8a418697d7a6ae28c6e09b80495720fe62e397a5`. Both Club-Only miners remain fully consumed/current. No miner branch was merged or cherry-picked wholesale.
+At the reviewed closing boundary:
 
-## This pass — All Characters Run 12
+- finite pending: **0**
+- backlog: **0**
+- review-overdue: **0**
+- cumulative recovery tracks: **Core Rooms + Wall**
 
-The reviewed All-Characters delta covered the fifteen VIP person files plus Run-12 findings, receipts, rabbit holes, site candidates, coverage ledger, and exhaustion ledger. The genuinely additive public keeper went to MAIN: Woohyuk's May 26, 2021 Wall ruling, `The goal of mass effect IS sleeping with every character PERIODT`, with KOREA/Milk as the sole recorded `pepeexit` reactor. Marian's nearby `thank you. someone who understands.` has no preserved reply join and therefore stays nearby context rather than being drafted as a response. MAIN owns this because it deepens Woohyuk's already-established one-line prosecution/comedy register; WIKI does not photocopy a person-shaped beat into an Episode just because it is excellent nonsense.
+`archive-miner/all-characters-hr-20260828` is consumed through `a4b5cdede1237b315c5ccead7e1d62454f8ce838` after checkpoint-first review of `daa121ce0e352904090c82484ef25887554c814e -> a4b5cdede1237b315c5ccead7e1d62454f8ce838` and successful publication checks. Core forward handoffs are reviewed through `639e63b14c7602a2fa514afd4d875c3560fb0a90`; formal Core `last_consumed_sha` remains null because its older safe-baseline recovery is still open. Wall remains seen at `5d1e684dfa1760e278f133af832e204dcde8cce4`, forward-reviewed through `8a418697d7a6ae28c6e09b80495720fe62e397a5`, cumulative consumed null. Daycare and both Club-Only miners remain fully consumed/current. No miner branch was merged or cherry-picked wholesale.
 
-The miner's **90/90 non-Mugen roster coverage-opening milestone** remains quarry bookkeeping, not public lore: all ninety now have person-first HR files open, but zero are exhausted at the current archive boundary.
+## This pass — All Characters officer second pass
 
-## Recovery / anti-starvation — Core
+The useful new relationship material split cleanly across the two public surfaces instead of being photocopied.
 
-Core recovery advanced another safe-baseline layer through the **2026-08-25 16:46 package**. The public keeper is WIKI-only **Study First, Senseiii**. On September 3, 2020 Shk is already using classroom grammar — `study first`, `@here hope u all studying`, `take note`, `it could be in ur test`. By September 23 Mugen is greeting him `senseiii`; the next day Ansun says `later senseiii` with Euros immediately adding `gl @Shk !`. A September 29 organization map then carries `SHIKI - sensei`.
+### MAIN-only: Gabu keeps saying `be safe gilli!!!`
 
-The order is the point: behavior first, affectionate peer-address second, map label third. This is stronger than treating `Sensei` as exporter metadata, but September 23 is only the earliest direct peer-address surfaced here, not a proven title origin or formal appointment date. `SHIKI` is a historical Discord/display identity around the stable Shk account; his self-reported historical Dragon Raja IGN remains `ReisenUInaba`. The same-evening `dark mode` material and voluntary-Jail planning are not causally joined without a receipt.
+On September 1, 2020 Gilli says `Heading to work byeeee`; Gabu answers `be safe gilli!!!`. The exact Gabu phrase recurs on September 28 and October 8. Only the first is directly joined to a work departure, so MAIN does not manufacture three shifts out of matching wording.
 
-## Late finite rotation — Daycare
+The recurrence is the useful thing: it gives Gabu a tiny, authored care habit around Gilli rather than another abstract sentence saying she was supportive. MAIN owns it because it deepens Gabu's existing biography and long care/hydration thread. WIKI does not need a duplicate three-line Episode for the same person-shaped beat.
 
-Daycare's 10:00 handoff was reviewed in the same run rather than left as a new finite tail. Its clean public keeper is Mob/BAPE/Suzi's return chronology: only two surviving Daycare messages, both on April 25, 2021, sit inside a much larger same-account social history. On May 19 MEE6 fires the intake script again, but Ren answers `UwU Sushiii`, then **`Welcome home~`**, then **`You know you ways ...`** before giving the tour. MAIN deepens Suzimasu's biography with that human-vs-bot contrast. The bot restarts procedure; Ren's wording does not restart the relationship.
+Gabu's May 2021 DST uncertainty and January 2023 `after work` line remain useful corroboration but did not need public promotion. DST confusion is ordinary fallibility, not evidence that the coding professional cannot technology.
 
-The scene does not prove why MEE6 fired, a technical leave/rejoin mechanism, role loss, appointment reset, or a new permanent `Sushiii` alias. Mob/BAPE = Suzi remains user-confirmed project canon; the Daycare receipts establish chronology rather than independently deriving the bridge.
+### WIKI-only: **We Are One Being**
 
-The Jumanji screenshot rabbit also advanced but stays unpublished: Gilli directly tags Jumanji into the reaction pocket and Jumanji later replies directly to the source screenshot with `Yes`, but the actual JPG remains unavailable. The exact question/claim, screenshot text, authorship inside the image, and incident meaning remain image-gated.
+On November 5, 2020 Ansun says `we are one being`, then begins doing merger-name algebra in public: `anthus`, followed by `anthun anthos ansun anthsous`. Anthos later participates with a Groot GIF.
 
-## Holds / identity fences
+The important correction is authorship. The Anthos/Ansun identity-twin joke is not merely something other people impose on them; Ansun is actively writing the bit himself and Anthos plays along. That sits nicely against Ansun's later account of arriving quiet and needing time before talking comfortably: by November he is comfortable enough to manufacture mythology about himself in real time.
 
-- Acoryuie/Cinders/Juniper stable-account continuity is safe; exact rename/alt mechanism remains unresolved.
-- Baby Lyssa/Ghoulie's Wall-residency language remains social/fictive language, not literal residence or romance.
-- Beowulf/Jere's pooled Deleted User `prentice` mentor remains unresolved.
-- KOREA/Milk remains distinct from Miihi/Milk; screenshot contents/provenance remain uninspected.
-- Syv remains distinct from Sye/Life.
-- Tony's fictional-character target and image contents remain unresolved.
-- Jumanji's screenshot is direct-response evidence, not permission to invent the image contents.
-- Kiro's duplicate-welcome cause remains mechanism-only; generic MEE6 return controls are not a substitute for direct evidence.
-- POSTED BY / MADE BY / CAPTURED BY / FEATURING remain separate. Earliest surviving remains not-origin. Export-current role arrays remain non-chronological.
+The Episode keeps the hard fence intact. Ansun and Anthos are separate people. `we are one being` is not literal identity, kinship, romance, or appointment language.
+
+## Recovery / anti-starvation — Core Rooms
+
+Core's forward delta `c5d96cd82d54b94b17796d8057769830a6a097ae -> 639e63b14c7602a2fa514afd4d875c3560fb0a90` was reviewed checkpoint-first and intake-only in the same run, so the finite All-Characters tail did not starve recovery.
+
+The strongest new receipt is Lorilee's September 23, 2020 Lobby door:
+
+- Lorilee: `Lorilee. Caelum. And s8`
+- Snow: `Welcome ^_^ giving you vip status`
+
+That is direct contemporaneous role-action wording, not exporter archaeology. In this one case, VIP is visibly functioning as guest-facing access treatment for someone whose own doorway answer points to Caelum / S8 rather than Underlords.
+
+A concurrent WIKI descendant published this as the tightly fenced Episode **Giving You VIP Status** while this pass was closing. The integration preserves that descendant because its copy says exactly what the receipt earns and no more: one guest-facing VIP assignment exists; it does **not** prove that every outsider got VIP, that Lorilee was an Underlords in-game member, who invited/recruited her, or when she later left.
+
+The same Core package also adds Hokori/Ken.Kaneki's direct `Ken.Kaneki. Caelum. S7` doorway bridge plus a small LoliParadise visitor cluster: kyu/Zingzing, Nyann, and aishi/Aithne identify LoliParadise while Mugen is simultaneously correcting a Hakai/Zingzing DM mix-up. This sharpens Lobby-as-guest-desk history without inventing a coordinated recruitment wave.
+
+Still held:
+
+- Oyasumi / TankHead94 exact full-Officer appointment
+- whether VIP was standardized guest access or Lorilee-specific
+- what exactly the Hakai/Zingzing DM mix-up meant
+- the unnamed Hokori role remains unnamed
+- Nyann's edited-final wording stays edited-final; no pre-edit text is invented
+- transient retrieval 401s are retrieval boundaries, not archive absence
+
+Core's older safe-baseline recovery remains open through the recorded 2026-08-25 16:46 package, so formal consumed SHA remains null despite the forward handoff review advancing.
 
 ## Surface split
 
-MAIN owns the Woohyuk and Suzimasu character texture because both discoveries deepen existing biographies. WIKI owns **Study First, Senseiii** because Shk's classroom-behavior → peer-address → map-label progression is cleaner as a bounded historical Episode. The two public surfaces remain complementary rather than mirrored.
+MAIN owns Gabu's recurring Gilli send-off because its payoff is longitudinal person texture.
+
+WIKI owns **We Are One Being** because the Ansun/Anthos bit is a clean bounded running-gag scene with a useful authorship correction.
+
+WIKI also now owns **Giving You VIP Status** through a concurrent descendant because that direct one-doorway administrative receipt works as a tiny historical Episode; MAIN does not need a matching paragraph unless broader guest-access history later gives it a richer narrative owner.
 
 ## Verification / deployment
 
-WIKI reader commit `190d26b68d92151170a679807342630078ddd6d2` passed both the repository's standalone Astro build and Pages build/deploy workflow. This state update is a descendant of that verified reader commit and is checked again on its exact final head before the pass is reported green.
+The WIKI reader commit `38c0e6e9076de548d3c392dbca06e8de0642333c` for **We Are One Being** passed the standalone Astro build and the Pages build → deploy → report workflow on that exact SHA. Concurrent descendants then added additional Episodes, including **Giving You VIP Status**; this state update is written on top of those descendants rather than overwriting them.
+
+MAIN's accepted Gabu change landed at `865ea778b637cf9d12c1c80c1a3ca6b02aad8a23`; the direct descendant `e6cf984c37239dbe81d2c2df843fc27df6bc5855` passed source canon/architecture verification, Astro build, built-output verification, and exact-commit Cloudflare production deployment. MAIN consumption state then advanced on descendant `2c86ed4341d21e1f7d004270002fedda39cc8e0f`.
+
+Both repositories are rechecked again on their final exact publishing heads after these durable state/report writes before the pass is declared green.
