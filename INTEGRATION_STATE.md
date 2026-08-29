@@ -1,104 +1,75 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration pass: **2026-08-29 14:16 PDT**. Final miner census boundary: **14:34 PDT**.
+Last dual-surface integration pass: **2026-08-29 14:43 PDT**.
 
 Full branch-level consumption state is durable on MAIN in `archive-intake/INTEGRATOR_BRANCH_STATE.json`; prior rolling wiki states remain in Git history.
 
 ## Current branch boundary
 
-Full census: **28 active remote miner refs + 21 historical/missing refs = 49 tracked branch identities**. No archive-miner refs live only in the wiki.
+Full census: **28 active remote miner refs + 21 historical/missing refs = 49 tracked branch identities**.
 
-At the final cutoff:
-
-- finite pending: **2**
+- finite pending: **0**
 - backlog: **0**
 - review-overdue: **0**
 - cumulative recovery tracks: **Core Rooms + Wall**
-
-Finite pending for next fair rotation:
-
-- Louvre / AI Art / Athenaeum / Other Games — seen `7740c227916f23acbe15381146c27044be61aba6`, consumed `c4c5199d39f91d51b093133edb78d417513f0de9`.
-- Mugen person-first — seen `bb8d1981afe346c6848cde2468fb4237f42bbbaf`, consumed `f0b7546581c39796371a2a9fde15b8283857f65a`.
-
-Neither is overdue yet. Both advanced after successful review/publication boundaries during this same integration run, so the new suffixes are visible without being falsely called consumed.
-
-Other important frontiers:
-
-- All Characters — seen/consumed `c531e08e7ed3585e702bb2bb3285cacb0fc1fb11`.
-- Wall — seen `b66aa46869e06f710415886c6c8e52c1c188a9b4`, forward-reviewed through `49449d0a6cafa79a2a483dc9295308591035f24c`; formal consumed remains null because older cumulative recovery is open.
-- Core Rooms — seen `c6cc9dd6bc0a6ef1f021fed4dad18e5aefc921f6`, this integrator forward-reviewed through `4cae4bba8266678701c405555c9df8e1aaa602a5`; formal consumed null; older recovery complete through the **2026-08-25 07:46 package**, with **06:46 next**.
-- Club-Only 2021–2026 — seen/consumed `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`.
-- Club-Only 2020 — seen/consumed `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`.
+- Club-Only 2021–2026: seen/consumed `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`
+- Club-Only 2020: seen/consumed `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`
+- Louvre / AI Art / Athenaeum / Other Games: seen/consumed `7740c227916f23acbe15381146c27044be61aba6`
+- Mugen person-first: seen/consumed `bb8d1981afe346c6848cde2468fb4237f42bbbaf`
+- Wall: forward-reviewed through `b66aa46869e06f710415886c6c8e52c1c188a9b4`; formal consumed remains null while older cumulative recovery is open.
+- Core Rooms: forward-reviewed through `c6cc9dd6bc0a6ef1f021fed4dad18e5aefc921f6`; older safe-baseline recovery is complete through the **2026-08-25 06:46 package**, with **05:46 next**; formal consumed remains null until cumulative recovery closes.
 
 No miner branch was merged or cherry-picked wholesale.
 
-## WIKI keepers
+## WIKI keepers from this pass
 
-### Embrace the Curse
+### #PROTECTBUTT2021
 
-October 1, 2020. Danny tells Mugen that **`3 out of 4 orange dracs`** have now appeared while he was on other people's accounts, calls the pattern **`Cursed.`**, and immediately turns the haunting into fake entrepreneurship: **`Maybe I should start charging daily packs to do peoples dungeons. Embrace the curse.`**
-
-The surrounding sequence is enough to read a recurring practical habit, not merely RNG whining. Danny had apparently been doing other people's dungeon chores often enough to notice the loot pattern, and the good drop kept choosing the account that was not his. A day earlier the same stable account was chatting from work and joking that being **`team leader`** meant **`Ill do what I want`**; that is probable ordinary-life supervisory texture, not a UL title.
-
-Danny's attached Dragon Raja screenshot is POSTED BY Danny but remains visually uninspected. Exact account, loot, capture authorship and account-access arrangements stay unresolved.
+October 13, 2021. Anayss files an image under `#PROTECCtheASSETS`; Sou turns it into `protectbutt`; Han upgrades that to `#PROTECTBUTT2021`; Rummy adds `#protectbuttboingboing`. The surrounding reaction pile makes the assets→butt read probable even without opening the image. The joke visibly mutates in public from fake campaign language to anatomy to a year-branded initiative to bounce physics. October 13 is a surviving recurrence, not a certified origin. Image pixels and MADE BY / CAPTURED BY / FEATURING remain unresolved.
 
 Owner: `src/data/integrator-episodes-20260829-1334.ts`.
 
-### Not Feli. Dongwoo.
+### Someone Else Was on My Account
 
-September 27, 2020. Mugen sees Degen Rat arrive and says **`FINALLY FELI`**. Degen Rat immediately corrects her: **`i am unfortunately not Feli 😳`**. Mugen laughs, asks **`Which one are you?`**, receives **`i was dongwoo`**, recognizes it four seconds later with **`DONGWOOOO`**, then lands **`my bad 😄`** and **`welcomeeee!!`**. Degen Rat answers **`don’t worry bout it askdksjj`**.
-
-The immediate recognition makes earlier Mugen/Dongwoo familiarity likely; exact prehistory remains unresolved. The cleaner character beat is the repair itself. Mugen does not defend the wrong guess or make the other person carry the awkwardness: correction received, correct identity requested, recognition, apology, welcome restarted. Degen Rat and Feli remain separate people.
+ShiyaX answers two separate October 15 Wall filings with `hmm whos on my account ?` and `Ok who was on my account :Cat_Gun:`. On November 1 the alibi returns as `Someone else was on my account bbg`, followed by `Shhhhh`. Three uses make the ordinary human read strong enough to publish: this is a recurring stock defense, not evidence of literal account compromise. The last `Shhhhh` is also an extremely efficient way to assassinate one's own alibi.
 
 Owner: `src/data/integrator-episodes-20260829-1334.ts`.
 
-## Reviewed deltas
+### Three Alter Anthoses Become Documentation
 
-### Core Rooms — forward suffix + older recovery
+Anthos Day keeps mutating after the voice-clone night. The next morning Ansun says Ren and Gabu remain in `anthos consciousness` and asks when Ren will leave the `Anthos host`. Ten days later he proposes `Ansun, RV, Gabu, (3 alter anthos)` as an `inside anthos head` note; Anthos answers `aight bet`; the pinned map eventually stores `gabu, ansun, RV (inner ànthos)`.
 
-Opening census caught Core advancing from prior reviewed `644d6073b8ac2372206dd4e9880ca48d45e83b93` to `4cae4bba8266678701c405555c9df8e1aaa602a5`. That changed intake was reviewed checkpoint-first. Danny was the strongest public keeper and became the WIKI episode above; B-chan, Carlene, SAYU and Vashyra were reviewed as useful but too thin or identity-path-open for new public objects.
+That sequence supplies the missing afterlife: a same-voice joke becomes possession language, then a crowdsourced classification, then literal map text. The four-person clone set is Anthos + Ansun + Ren/RV + Gabu. Nobody is literally one person, possessed, related, or holding a formal role because of the joke. The same live map session also accepts labels such as Illien's `Alcoholic noodle`, `Child shield`, and `silent but deadly`; those remain joke taxonomy rather than biography facts.
 
-The older safe-baseline recovery also advanced through the complete **2026-08-25 07:46 package**. That package produced the MAIN Snow keeper rather than a duplicate WIKI episode: Ansun's `losing bodies once again`, Ren's **`THE VAN OF BODIES`**, Ricochet explicitly naming Snow as the person losing the bodies, and Mugen arriving the next morning with **`We lost bodies again?`**. The bodies are Dragon Raja avatars, not literal corpses. The screenshots remain visually uninspected. A tempting September 2020 `van on Underlords` line remains an unresolved possible precursor because the `he` antecedent is still missing.
+Owner: `src/data/integrator-episodes-20260829-1334.ts`.
 
-Core later advanced to `c6cc9dd6…`; that expansion is seen and queued, not falsely marked reviewed. Formal consumed remains null.
+## Complementary MAIN ownership
 
-### Mugen person-first — reviewed through `f0b75465…`
+MAIN owns GenGrey's richer person-shaped version of the September 18 **Keep Talking and Nobody Explodes** night. The recovered context finally explains the orphaned `#2 - gengrey, yummibears` line: Mugen is routing a bomb-defusal session amid voice confusion and numbered room/session chatter, making temporary game/voice grouping the most likely read. MAIN therefore gets ordinary co-play texture — GenGrey and Yumi apparently sharing one temporary numbered corner — without inventing a permanent Team Two, rank, or relationship label.
 
-During the run Mugen person-first advanced from consumed `87366ffc…` to `f0b75465…`. The changed intake was reviewed checkpoint-first and the Degen Rat / Dongwoo repair scene above was accepted.
+MAIN also absorbed Kiro's new Wall texture through concurrent safe work (`Being petty`; `Body = deceased / Wig = still living`) rather than WIKI breeding another thin incident.
 
-MAIN independently absorbed the same evidence into Mugen's richer longitudinal biography while this pass was in flight; WIKI keeps the bounded Episode version. One evidence family, two complementary jobs.
+## Reviewed deltas and reconciliation
 
-After the WIKI reader-content head passed both standalone Astro build and the full Pages build/deploy/report workflow, Mugen person-first was consumed through `f0b7546581c39796371a2a9fde15b8283857f65a`.
+- Louvre / AI Art / Athenaeum / Other Games `c4c5199d39f91d51b093133edb78d417513f0de9 -> 7740c227916f23acbe15381146c27044be61aba6`: checkpoint-first; Keep Talking context accepted as GenGrey profile glue; consumed.
+- Mugen person-first `f0b7546581c39796371a2a9fde15b8283857f65a -> bb8d1981afe346c6848cde2468fb4237f42bbbaf`: integration-handoff-only suffix for the already-published Dongwoo identity-repair scene; no new public copy; consumed.
+- Wall `49449d0a6cafa79a2a483dc9295308591035f24c -> b66aa46869e06f710415886c6c8e52c1c188a9b4`: checkpoint-first; #PROTECTBUTT2021 and ShiyaX alibi recurrence accepted; Kiro profile material routed to MAIN; RotiniLM remained useful but too thin for another public object.
+- Core `4cae4bba8266678701c405555c9df8e1aaa602a5 -> c6cc9dd6bc0a6ef1f021fed4dad18e5aefc921f6`: checkpoint-first; Danny was already owned by **Embrace the Curse**; Carlene/SAYU/Vashyra stayed thin or identity-path-open.
+- Core older recovery: complete through the 2026-08-25 **06:46** package. The Inner Anthos/Tumbleweed afterlife was accepted for WIKI; 05:46 is next.
 
-The final census then caught the branch moving again to `bb8d1981…`. That new suffix is pending for next cycle rather than being silently rolled into consumed.
+## Held / unresolved
 
-## Surface split
-
-- **MAIN** owns the 2022 `VAN OF BODIES` recurrence inside Snow's longitudinal person page, where it joins the existing Old Man Snow machinery and shows age-roast grammar becoming an explanatory model for corpse logistics.
-- **WIKI** owns Danny's **Embrace the Curse** because it is a compact incident with a clean punchline and useful ordinary-life bleed-through.
-- **BOTH** carry the Mugen/Dongwoo repair in distinct forms: MAIN as longitudinal mistake/repair characterization; WIKI as the bounded Lobby episode **Not Feli. Dongwoo.**
-
-## Duplicates / corroboration combined
-
-- The Mugen-person-first Dongwoo handoff and Core's matching evidence are one family, not independent discoveries.
-- The 2022 lost-bodies package strengthens Snow + existing corpse-disaster history instead of creating duplicate public objects.
-- Danny's workplace `team leader` line remains probable real-world work texture and is not promoted into UL governance.
-- B-chan/Carlene/SAYU/Vashyra were reviewed and intentionally left without thin public pages.
-
-## Unresolved / protected
-
-- Danny's exact employer/industry/function, account-access arrangements, screenshot pixels and capture authorship.
-- The September 2020 `van on Underlords` pronoun antecedent and whether it genuinely precedes the 2022 `VAN OF BODIES` joke.
-- The literal visual/game mechanics of the 2022 corpse screenshots.
-- Mugen/Dongwoo exact pre-September-27 relationship setting/date.
-- SAYU's exact preferred historical spelling and Vashyra/Sapthira's full preceding intake prompt.
-- New unseen suffixes: Core `4cae4bba… -> c6cc9dd6…`, Wall `49449d0a… -> b66aa468…`, Louvre `c4c5199d… -> 7740c227…`, Mugen `f0b75465… -> bb8d1981…`.
-- All unsupported MADE BY / CAPTURED BY / FEATURING promotions.
-- Hard canon locks, privacy boundaries, resolved identity corrections and direct contradictions continue to override lower-threshold inference.
+- Exact literal name of GenGrey/Yumi's temporary numbered voice/session space; the session-routing interpretation is strong, the label itself is not recovered.
+- Exact light/dark/orange numbered Anthos clone mapping.
+- Tumbleweed `orb` direction/origin.
+- #PROTECTBUTT image contents and all unsupported image authorship/subject claims.
+- ShiyaX exhibit pixels and any literal-account-access interpretation.
+- Carlene's exact intake mechanism, SAYU preferred historical spelling, Vashyra/Sapthira preceding prompt.
+- Older Core + Wall cumulative recovery floors.
+- Hard user-confirmed canon, resolved identities, privacy boundaries, direct contradictions, appointment chronology rules, and SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING distinctions remain hard rails.
 
 ## Verification / deployment
 
-- MAIN Snow reader-content commit `cc746d5dae5f4ea32f2afdcf8ba1740a0a2cd1c3` passed source canon/architecture verification, Astro build, built-output verification and exact Cloudflare production deployment.
-- WIKI reader-content commit `7b9737a61c5f3751837587b3dc064cb0be4b44a4` passed standalone **Build Underlords Wiki** run `33276048475` and Pages run `33276048478`, including build, deploy and report.
-- Previous WIKI durable state commit `e7a1a92659ccb768cf81420ad64361431c1d4ca3` also passed exact-head standalone build and Pages deployment.
-- This final-census state commit is verified again at its exact `main` head before the pass is declared closed. MAIN's final-census report/state descendant is likewise verified through its native exact-head production workflow.
+- MAIN final checked descendant `645db0fdca09c11961c37ad4ede2b46660068427` contains the GenGrey reader change and the durable 14:42 branch ledger. **UL Hourly Build + Deploy** run `33276742620` completed successfully, including source canon/architecture verification, Astro build, built-output verification, and exact-commit Cloudflare production deployment.
+- WIKI reader-content commit `fd3a5f1aca70bcda6008f905f664333b2f04ddd4` passed standalone **Build Underlords Wiki** run `33276752159` and Pages run `33276752160`; the latter completed build, deploy, and report successfully.
+- This state commit is verified again at its exact `main` head before the pass is declared closed.
