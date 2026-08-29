@@ -162,5 +162,14 @@ export const integratedEpisodes: Episode[] = [
     kind: "Wall welcome / one visible `cit` gets peer-reviewed into chemistry",
     logline: "Mugen welcomes `暁cit。(S73)`, and within eleven minutes the name has been processed as `zit` by Cele, `city` by Moon, `citric acid` by Mugen, and finally `Citric` by Ren. Citrinitas does not fight the collapse: `That’s cute 🥹💗`, then `I love this🤣💕💕💕`, then the fatal self-own — `You know the full name was Citrinitas so it does sounds like citric 💀🤣` — before closing with `Rip mah soul`. The full name Citrinitas is direct self-report. The rendered `cit` already exists when the scene begins, so this is not its origin; `City` and `Citric` remain one-scene peer mutations unless later recurrence appears. Mugen POSTED the uninspected welcome image, but the naming episode is text-secure without assigning the image's maker, capturer, or contents.",
     cast: ["Citrinitas", "Mugen", "Cele", "Moon", "Ren"]
+  },
+  {
+    id: "woohyuk-disney-receipts",
+    title: "Woohyuk Keeps the Disney Receipts",
+    season: "2020–2021",
+    date: "November 21, 2020 → March 24, 2021",
+    kind: "Wall artifact resurrection / the same evidence package comes back four months later",
+    logline: "Woohyuk posts two files, `Screenshot_136` and `Screenshot_137`, and Mugen responds `LEAVE ME ALOOONE IDK DISNEY IM SORRYYYY`. Four months later Woohyuk posts files with the same original filenames and exact byte sizes again. The metadata makes the callback unusually concrete: he did not merely remember the Disney offense, he retained and resurfaced the same two-artifact package. The screenshot binaries remain visually uninspected, so the episode does not invent what Mugen got wrong, what the images show, who made or captured them, or who is pictured. Woohyuk is POSTED BY; matching filenames and byte sizes establish artifact reuse, not authorship.",
+    cast: ["Woohyuk", "Mugen"]
   }
 ];
