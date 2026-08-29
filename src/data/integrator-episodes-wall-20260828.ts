@@ -90,5 +90,14 @@ export const wallIntegratedEpisodes: Episode[] = [
     kind: "Wall reaction pile / one Eh becomes a room-wide vowel emergency",
     logline: "iBwoy posts an image with the devastatingly informative caption `Eh`. Cookie answers `Eh`, Lilly answers `Eh`, Mugen answers `Eh`, and Nelph drops a reaction file. iBwoy briefly interrupts the ritual with `Ahem. I'm always here btw o.o`, only for Cookie to answer him with another `Eh`. Gilli joins, iBwoy eventually caves into his own `Eh`, and then the room starts stretching the syllable: Mugen `Ehhhhh`, iBwoy `Ehhhhhhhhhh`, ShiyaX goes longer, and iBwoy goes longer again. Whatever the image was, Wall no longer appears to care; the response has become the content. The trigger image remains visually uninspected, so iBwoy is POSTED BY only. MADE BY, CAPTURED BY, FEATURING, and whatever the pixels actually show remain unresolved. This is a bounded surviving chorus scene, not proof that the room invented `Eh` that day.",
     cast: ["iBwoy", "Cookie", "Lilly", "Mugen", "Nelph", "Gilli", "ShiyaX"]
+  },
+  {
+    id: "why-is-it-white",
+    title: "WHY IS IT WHITE",
+    season: "2021",
+    date: "September 10, 2021",
+    kind: "Wall workplace camouflage / Gilli commits interface crimes for operational reasons",
+    logline: "Marian opens the hearing with `o my god. GILLI. WHY IS IT WHITE. my poor eye balls`. Baby Lyssa rules that `this should be a sin`; Marian escalates to `no, even satan would look away`. Gilli's defense arrives in full caps: `IT'S TO BLEND IN WITH THE PROGRAMS I USE AT WORK`, followed by `I CHANGE IT BACK WHEN IM HOME C H R I S T`. The funny little reversal is that everybody prosecutes the setup as a taste crime, while Gilli insists it is camouflage: the ugly white version is for work, home gets the restoration. Two Gilli-posted screenshots remain visually uninspected, so the wiki does not name the software, employer, workstation, exact interface, CAPTURED BY, MADE BY, or anything visible in the pixels. The participant-authored `WHY IS IT WHITE` is enough to own the scene without inventing the exhibit.",
+    cast: ["Gilli", "Marian", "Baby Lyssa"]
   }
 ];
