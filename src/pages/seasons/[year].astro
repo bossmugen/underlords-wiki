@@ -21,12 +21,13 @@ import { early0224IntegratedEpisodes } from "../../data/integrator-episodes-2026
 import { early0230IntegratedEpisodes } from "../../data/integrator-episodes-20260830-0230";
 import { early0242IntegratedEpisodes } from "../../data/integrator-episodes-20260830-0242";
 import { early0435IntegratedEpisodes } from "../../data/integrator-episodes-20260830-0435";
+import { early0501IntegratedEpisodes } from "../../data/integrator-episodes-20260830-0501";
 
 export function getStaticPaths() {
   return seasons.map((season) => ({ params: { year: season.year }, props: { season } }));
 }
 const { season } = Astro.props;
-const allEpisodes = [...episodes, ...integratedEpisodes, ...wallIntegratedEpisodes, ...whiskeyIntegratedEpisodes, ...coreIntegratedEpisodes, ...coreRecovery1535Episodes, ...allCharactersIntegratedEpisodes, ...louvreIntegratedEpisodes, ...lateAugustIntegratedEpisodes, ...late1737IntegratedEpisodes, ...late2200IntegratedEpisodes, ...late2235IntegratedEpisodes, ...late2333IntegratedEpisodes, ...early0030IntegratedEpisodes, ...early0035IntegratedEpisodes, ...early0135IntegratedEpisodes, ...early0200IntegratedEpisodes, ...early0224IntegratedEpisodes, ...early0230IntegratedEpisodes, ...early0242IntegratedEpisodes, ...early0435IntegratedEpisodes];
+const allEpisodes = [...episodes, ...integratedEpisodes, ...wallIntegratedEpisodes, ...whiskeyIntegratedEpisodes, ...coreIntegratedEpisodes, ...coreRecovery1535Episodes, ...allCharactersIntegratedEpisodes, ...louvreIntegratedEpisodes, ...lateAugustIntegratedEpisodes, ...late1737IntegratedEpisodes, ...late2200IntegratedEpisodes, ...late2235IntegratedEpisodes, ...late2333IntegratedEpisodes, ...early0030IntegratedEpisodes, ...early0035IntegratedEpisodes, ...early0135IntegratedEpisodes, ...early0200IntegratedEpisodes, ...early0224IntegratedEpisodes, ...early0230IntegratedEpisodes, ...early0242IntegratedEpisodes, ...early0435IntegratedEpisodes, ...early0501IntegratedEpisodes];
 const seasonEpisodes = allEpisodes.filter((episode) => episode.season === season.year);
 const eraNumber = seasons.findIndex((entry) => entry.year === season.year) + 1;
 ---
