@@ -36,5 +36,14 @@ export const early0501IntegratedEpisodes: Episode[] = [
     kind: "Wall self-audit / old friend returns to count the evidence against himself",
     logline: "Key comes back to the Wall for the least dignified form of archival research: `just came to see how many times i appeared here 😷 mugs workin hard on them screenshots dunno whether to be ashamed or impressed`. Ren notices it has been a while. Mugen true-replies to Key's exact self-audit with `Litrally started it ^`, and Gilli later calls him `OG wall of shamer here uwu`. The likely joke is not that Mugen denies doing the screenshot labor; it is that she refuses to let Key inspect years of preserved evidence and then act like the archive happened to him by weather. Old-friend affection arrives as remembered culpability: yes, Mugs kept the receipts; according to Mugs, this clown helped create the conditions that made the receipts inevitable. The exchange supports an old Wall reputation around Key, not a formal founder title or exclusive creator credit.",
     cast: ["Key", "Mugen", "Ren", "Gilli"]
+  },
+  {
+    id: "eos-files-herself-then-declares-war",
+    title: "Eos Files Herself, Then Declares War",
+    season: "2021",
+    date: "June 1–17, 2021",
+    kind: "Wall reciprocity / the defendant learns every seat in the courtroom",
+    logline: "In sixteen days Eos manages to occupy three different jobs in the Wall's nonsense justice system. June 1, after Marian posts an attachment, Eos answers `i accet my fate this time`, sounding less shocked than somebody who already knows the ceremony. June 7 she removes the prosecutor entirely: Eos POSTS her own attachment with `gonna just put myself here and head out-`, while Gilli laughs, Marian smirks and Ren wheezes. Then June 17 Marian posts another exhibit; Eos protests `i said dont look`, waits four minutes, POSTS a counter-exhibit with `Take zhenyan :sippp:`, tells Marian she has been `sort of spared`, and watches Marian go `O MY GOD, WHY` → `DELETE THAT` → screaming. Eos closes the hearing with `this is war`. The progression is the useful character beat: target → self-target → counter-target. The likely read is reciprocal friendly shame-play inside an already-affectionate Eos/Marian relationship, not real hostility. None of the attached images were visually inspected, so the wiki says who POSTED what and preserves the dialogue without inventing what anybody exposed, captured, made, or appeared in. By June, public embarrassment is not merely something happening to Eos. It has become a house toy she knows how to pick up herself.",
+    cast: ["Eos", "Marian Kage", "Gilli", "Ren"]
   }
 ];
