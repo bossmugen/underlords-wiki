@@ -110,8 +110,8 @@ export const wall1930Episodes: Episode[] = [
     cast: ["Moon", "Ansun", "Feli"]
   },
   {
-    id: "rummy-body-snatching-very-responsibly",
-    title: "Rummy Was Body-Snatching Very Responsibly",
+    id: "rummy-body-snatching-very-responsively",
+    title: "Rummy Was Body-Snatching Very Responsively",
     season: "2022",
     date: "August 10–11, 2022",
     kind: "Wall defendant procedure / Rummy admits the act, disputes the conditions, then quietly revises the prior-offense count",
