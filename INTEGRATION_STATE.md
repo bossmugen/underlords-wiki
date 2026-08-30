@@ -1,91 +1,98 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration pass: **2026-08-29 20:14 PDT**.
+Last dual-surface integration pass: **2026-08-29 20:42 PDT**.
 
-Full branch consumption state is authoritative on MAIN in `archive-intake/INTEGRATOR_BRANCH_STATE.json`; earlier rolling WIKI states remain in Git history.
+Full branch consumption state is authoritative on MAIN in `archive-intake/INTEGRATOR_BRANCH_STATE.json`; earlier WIKI states remain in Git history.
 
 ## Current boundary
 
 - Census: **49 tracked miner identities = 28 active remote refs + 21 historical/missing refs**.
-- Finite pending: **0** at the closing census.
 - Backlog: **0**.
 - Review-overdue: **0**.
 - Club-Only 2020: seen/consumed `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`.
 - Club-Only 2021–2026: seen/consumed `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`.
 - Core Rooms: seen/consumed `1721db9e4dcb329264d87f8d12f6704c3f04d0ab`; one-time historical recovery remains closed.
-- All Characters: seen/consumed `6b2f24a57bd0c373cd07e01d7f0c8c4ea47ad771`.
 - Whiskey: seen/consumed `392fc71d98e0cc120e832be282df81d61f888b7b`.
-- Mugen person-first: seen/consumed `ab8054e7ac237863d023277fc63f87ef9ca8a203`.
-- Wall: forward-reviewed through `cbba723a102c7fd67544e09cca1739bbfb8a8209`; formal consumed remains null while its older cumulative recovery stays open. Historical recovery is now reviewed through the `2026-08-25-0246` package; `2026-08-25-0346` is next.
+- Mugen person-first: delta `ab8054e7ac237863d023277fc63f87ef9ca8a203 → 3bb932c9ef668cd93f3a348c31431288dfe7d132` reviewed checkpoint-first. The Feli chronology was accepted and is public on WIKI; the Jas media-gift read is banked without inventing Reel content; the Crystalia pin-consent clue stays backstage until exact pin geometry/IDs are recovered.
+- All Characters: Run 23 evidence through `fbea0e6679581580bd9c0c6edea1764c6436f811` was reviewed checkpoint-first; Pride and Neme received public treatment. A later checkpoint-only suffix through `382c3feb4b629489d1e2724a46660aa6c3228878` was also read and contains no new public fact beyond the Run 23 handoff. Closing consumed/seen values are maintained on MAIN.
+- Wall: forward suffix `cbba723a102c7fd67544e09cca1739bbfb8a8209 → 16be7f4f984c2773c4ca50257d6b233d64568119` reviewed checkpoint-first; formal consumed remains null while older cumulative recovery stays open. Historical recovery is reviewed through the `2026-08-25-0346` package; `2026-08-25-0446` is next.
 
 No miner branch was merged or cherry-picked wholesale.
 
 ## Reviewed this pass
 
-### All Characters — `66403720… → 6b2f24a5…`
+### Wall forward suffix — `cbba723a… → 16be7f4f…`
 
-The pending suffix was reviewed checkpoint-first and intake-only. Its late `da715de3… → 6b2f24a5…` segment is derivative character/coverage/exhaustion consolidation plus negative rechecks of already-reviewed Run 22 material. Crystalia and HamitteY/Wichita had already received their accepted public treatment; Jas, Ciphy, Nothien, and the remaining sync material did not warrant duplicate copy. This is a successful no-public-change review, so All Characters is consumed through `6b2f24a5…` instead of being reread forever.
+The strongest new Wall material was editorial-mechanism and relationship texture rather than another generic “UL archives itself” paragraph.
 
-### Core Rooms — `9eb31f2d… → 1721db9e…`
+- **If It's Out of Context, It's More Fun:** Anthos posts a screenshot; Sye says the crop is out of context and would make more sense with the whole conversation; Ren answers `If it’s out of context is more fun`. This is participant language exposing one of the Wall's comedy mechanisms: sometimes the crop is not a defect but the joke. It is not promoted to a formal Wall rule. Anthos is POSTED BY only; pixels, maker, capturer and featured subjects remain unresolved.
+- **Gilli Is a Context Hazard:** across two separate 2022 dates, Gilli posts screenshots and DiStratus recognizes his own habit of producing lines that become dangerous when Gilli is around. The useful read is relational: DiStratus treats Gilli as someone likely to file the evidence, not as someone fabricating it.
+- **No Shame Here, Only Fame and Cuteness:** March 2021 gives `our wall of FAME baby` as shameless prestige; June gives Ren's explicit positive filing `No shame here, only fame and cuteness`. June is the earliest surviving exact-text positive Fame classification currently recovered, not proof of origin or invention.
+- Identity correction: `opalite.honey` / display `༯` is Mia/Mimi/Miaka, not an unresolved thin supporting account. Earlier uncertainty is superseded; Mia remains distinct from Han/Nai and Momo.
 
-Dean/Beansprout's October 27, 2020 first Discord night is now public on both surfaces. The surviving sequence catches a familiar social welcome before server navigation: Ren greets Dean, Dean answers `Hello my beautiful fam ✨`, Anthos helps him through access/tour mechanics, Dean explains that classmates wanted weekend Among Us and his parents did not object to Discord, and Gabu's `Your mom boi` produces Dean's `OH hi mama! I only read the first word...`.
+These three incidents were already published by the concurrent WIKI close before this state amendment and were preserved rather than duplicated.
 
-The safety boundary is period-specific and hard: do not sexualize the minor-period material; do not infer an exact recruiter/inviter from Anthos helping him navigate; and keep `mama` attributed to Gabu in this scene rather than redirecting it to Mugen. MAIN published the richer biography version in `src/content/people/dean.md` at `685052598d5d54c257f54766dd83eac52fc6361e`; WIKI published the dossier version in `src/data/character-biographies-dean.ts` at `b9163815e01c86aeea680c442c2f6719622a0468`. MAIN's full `UL Hourly Build + Deploy` run `33289872522` succeeded, and both WIKI workflows for `b9163815…` succeeded.
+### Wall historical recovery — `2026-08-25 03:46`
 
-Aspen/Council guest-access evidence remains a probable cross-club social-access read, not a resolved VIP status or lifecycle. Core is consumed through `1721db9e…`.
+Two new callbacks were strong enough for discrete episodes.
 
-### Wall historical recovery — `2026-08-25 02:46`
+**We Lost Bodies Again?** Rich describes Ansun doing something `in the middle of snow losing the bodies`; TonyTonyChopper arrives with `LOSING THE BODIES??`; the next morning Mugen asks `We lost bodies again?` and posts an `I brought a lawyer` reaction; Tony closes with `You gotta be careful with bodies can’t just misplace them like that`. The word `again` is the bridge to the old corpse/body-loss grammar. These are game/fake-corpse logistics, not literal human remains. Exact game mechanics, bodies and Ansun's action remain unresolved.
 
-This package produced one clean new episode and several deliberate deduplications.
+**Eos's First Fame Moment Was a Proposal:** while reconstructing the Fame half of the Wall, Marian remembers `when i posted eos' proposal to me`; Gilli concludes `That means Eos was our first Fame moment`; Marian says it `should get an award for that`. In May 2022 Marian again asks Eos `WILL YOU MARRY ME????` with `(for like the 20th time)`. The later line makes recurring fake-proposal / marriage-language safe; the number is comic exaggeration. None of this establishes a real engagement, marriage, exclusivity, sexuality or legal status.
 
-**The Chucken Was Amazing:** Gilli files `For shame. She let us get murdered for Chicken`. The screenshot remains visually uninspected and Gilli's caption alone does not identify its `she`. Thirty-seven minutes later Rummy answers `It very much worth it the chucken was amazing`, supplying strong scene-level ownership of the chicken tradeoff while still leaving the exact game, mechanics, victims, and action unresolved. The funny part is not a teamwork diagnosis; it is that Rummy's defense appears to concede the tradeoff and argue only that the chicken justified it.
+Rich/Gabu's hydration-role reversal was retained as corroboration rather than cloned into another episode.
 
-The June 2022 recommendation desk was already folded into Rummy's public BL/yaoi taste history: Gabu recommends yuri, delegates yaoi to Rummy, and Marian calls Rummy's recommendations `cheesy shit`. That is media-taste/recommendation characterization, not sexuality evidence. The charcoal-pancake thread is likewise already publicly owned. Gilli's `Don't make me spam you with the bot answers again` proves an older missing callback but leaves the bot, answer contents, and origin unresolved; do not infer Saber. Moon's `I am a moon,so i see all` after finding `Dream hiding shrooms` remains a one-scene quirk because Dream and the shrooms context are unresolved.
+### All Characters — Run 23
 
-Historical Wall recovery advances through **02:46**; **03:46 is next**.
+Run 23 covers NemeMoka, Panda, Pride, Rose, SaraBunny, ShiyaX, Xephy and Yaza.
 
-### Wall forward suffix — `c41fe5b6… → cbba723a…`
+- **NemeMoka:** notices a hacked-friend mess before the friend fully realizes it and asks `u ok? Need some soup to cool your head?`. Strong ordinary-life read: concern reaches the person first and the joke makes worry easier to receive. WIKI publishes **Soup as Incident Response**.
+- **Pride:** an absurd UNO-like premise gets stress-tested from `draw four` to `draw 16`, sleep deprivation, collapse, `Uno cube`, `last man standing wins`, and `high stakes uno game`; Pride then calls the unknown creator a `new role model` and wants a name to ask to be adopted. The object and creator remain unresolved; the adoption line is joke language. WIKI publishes **High Stakes UNO** while MAIN owns the richer biography treatment.
+- **SaraBunny:** stable ID / `foxcat` / SaraBunny resolution plus a probable short-lived `so much moo` / `Mooo` riff. Not promoted to a durable alias.
+- **ShiyaX:** `IMG_3551.png` → self-reply `Anyone hungy?` → Panda `nom nom` supports image-led setup/minimal framing, but the attachment remains uninspected. Separate `its an edit looks so real though` material remains held until its parent visual is joined.
+- **Yaza:** historical display `Rosario17/Yazaki` safely joins later `Yazaki 🤗 Rosa` / `rosayaz` and canonical Yaza address. It is one Yaza account history, not a new Rosario person.
+- Panda, Rose and Xephy rechecks redirected future mining without manufacturing thin public copy.
 
-The late Wall suffix was also reviewed checkpoint-first rather than merely registered.
+The later exhaustion/checkpoint suffixes are successful no-public-change review: all eight remain IN PROGRESS; the only exhausted character quarries remain Lilly, Momo and Nobu/Xuseio.
 
-**Another Week of Scrambled Egg Bunny Fursona:** Ren says `I got so many`, posts `image0.jpg`, Zoshaa addresses Ren, Ansun asks why Ren brings `this` up `again`, Ren calls it `one of my fav ss`, and Ansun announces that `zoshaa suffers another week of being called scrambled egg bunny fursona everytime this appears`. The text makes the mechanism legible: this is not just an orphan nickname; it behaves like a renewable sentence attached to a recurring exhibit. The tight chronology makes Ren's posted `image0.jpg` the probable exhibit in this surviving recurrence. Its pixels, maker, capturer, featured subject, first appearance, and the phrase's absolute origin remain unresolved. Earliest surviving recurrence is not origin.
+### Mugen person-first — `ab8054e7… → 3bb932c9…`
 
-**The Ansun Fur-Suit Startup:** Daya opens with `petition to get ansun in a fur suit`. Ansun's first objection is the thousand-plus-dollar price; Daya proposes a Party City + Shein budget build; Ansun pivots to TikTok/Douyin fame and says `Go ahead and make me famous; your move`; account `opalite.honey` supplies `raja woof suit`; Daya upgrades Ansun to `UL's money maker. main attraction for the strip club`; Rummy true-replies with `BUNNY BARTENDER OUTFIT`. The text alone supports the escalation from accusation to procurement to influencer strategy to nightlife staffing. Daya's attached screenshot is a probable trigger but remains visually uninspected, so no costume/model or image provenance is invented.
+The best advance is the completed **FINALLY FELI** chronology. Mugen greets newly arriving Degen Rat with `FINALLY FELI`; the person says they are not Feli and supplies `i was dongwoo`; Mugen recognizes `DONGWOOOO` four seconds later, apologizes and welcomes them. Roughly twenty minutes later MEE6 welcomes the actual Feli account, and Mugen answers `thereeee we go xD` before giving Feli the normal server-map welcome.
 
-`opalite.honey` / display `༯` advances to a thin contextualized supporting-account candidate only. No real-world/name identity bridge is inferred. JumanjiBinx, Lithium_Darko, Booba, and Wolf Phenix controls were retained without fake uplift.
+That later arrival makes the earlier mistake legible as likely expectancy bias: Mugen seems to have been waiting for Feli strongly enough that anticipation supplied the wrong identity. The other half of the scene matters equally: once Dongwoo gives the old name, recognition is immediate and the wrong guess is dropped. **Degen Rat/Dongwoo ≠ Feli** remains hard.
 
-Wall is forward-reviewed through `cbba723a…`; formal consumption stays null solely because the cumulative older recovery remains open.
+Jas also gets a no-task `For you @Jas (Absent father)` media delivery in 2023 with immediate `I wish I didn't just watch 🤣`, strong ordinary-friendship / person-specific curation. Exact Reel contents remain unrematerialized, so no pixels are invented. Crystalia's pin-permission clue remains backstage pending exact locators.
 
 ## Public changes
 
 ### MAIN
 
-- Dean's first Discord night and safety boundary were integrated into `src/content/people/dean.md` at `685052598d5d54c257f54766dd83eac52fc6361e` and verified/deployed successfully by `UL Hourly Build + Deploy` run `33289872522`.
-- No additional Wall reader page was added to MAIN this pass. The strongest new Wall material is cleaner as discrete WIKI incidents, while Rummy's recommendation/pancake material already has richer canonical MAIN owners and was not duplicated.
-- MAIN's authoritative branch ledger now consumes All Characters through `6b2f24a5…`, Core through `1721db9e…`, records Wall forward review through `cbba723a…`, and advances Wall historical recovery through 02:46.
+- `src/content/people/pride.md` now owns the richer **High Stakes UNO** character read: the tea-sipping spectator becomes an active co-writer when the premise is sufficiently stupid. Reader commit `f560028073a8f0798a117b03c195331ffb0708bd` was followed immediately by verified/deployed child `c7c2db83c639b420467f26bc3f102cc398b5223d`, whose full `UL Hourly Build + Deploy` run succeeded. The cancelled workflow on the intermediate reader commit was concurrency cancellation, not a source/build failure.
+- No separate MAIN Wall page was added for the two 03:46 callbacks; they are cleaner WIKI episodes and would duplicate existing MAIN corpse/Fame context.
 
 ### WIKI
 
-`src/data/integrator-episodes-wall-20260829-1930.ts` now publishes three new incidents from the reviewed Wall work:
+- `src/data/integrator-episodes-wall-20260829-1930.ts` publishes **We Lost Bodies Again?** and **Eos's First Fame Moment Was a Proposal** at reader commit `30a8732e0d2abfc79ca824ad16a622a79072dc65`; its standalone build and Pages build/deploy/report all succeeded.
+- The same file also carries the concurrent forward-suffix episodes **If It's Out of Context, It's More Fun**, **Gilli Is a Context Hazard**, and **No Shame Here, Only Fame and Cuteness**.
+- `src/data/integrator-episodes-allcharacters-20260829.ts` publishes **Soup as Incident Response**, **High Stakes UNO**, and **FINALLY FELI, Twenty Minutes Early** at current reader head `b83c09a9cd030a6793367402ab414fd77d5db0c2`. Both native WIKI workflows for that exact head completed successfully.
 
-- **The Chucken Was Amazing**
-- **Another Week of Scrambled Egg Bunny Fursona**
-- **The Ansun Fur-Suit Startup**
+## Duplicates combined / intentionally not mirrored
 
-Reader commit `01318ce93f8f17b1cca7b0a37ab495ff7d29340e` passed **Build Underlords Wiki** run `33290116887` and **Deploy Underlords Wiki Preview** run `33290116899`; both completed successfully.
-
-Dean's first Discord night remains separately integrated in the character dossier at `b9163815…`, whose build and Pages deployment also succeeded.
+- Wall context-cropping and Fame chronology stay WIKI-first because they are bounded room-behavior episodes; MAIN already has richer Wall/editorial context and did not need another taxonomy paragraph.
+- Pride is on both surfaces for different jobs: MAIN owns character texture; WIKI owns the discrete 2020 incident.
+- Neme's soup check-in and the completed Feli chronology are WIKI incidents this pass; no thin MAIN pages were manufactured merely for symmetry.
+- Rich/Gabu hydration, earlier corpse-loss genealogy, and existing Fame history were treated as corroboration/callback structure rather than duplicated furniture.
 
 ## Held / unresolved
 
-- Rummy chicken screenshot pixels and exact game/mechanics/victims/action.
-- The bot-answer spam origin, bot identity, and contents; do not infer Saber.
-- `Dream` identity and hidden-shrooms context.
-- Rummy pancake parent/media join and maker/cook attribution.
-- `image0.jpg` pixels/provenance and absolute origin of `scrambled egg bunny fursona`.
-- Daya's fur-suit screenshot pixels and whether `raja woof suit` refers to a specific Dragon Raja costume/model.
-- `opalite.honey` real-world/name identity.
-- Aspen's exact lifecycle/role; no unsupported VIP promotion.
+- Absolute origin and mechanics of corpse/body loss; exact bodies/game and Ansun's action in the 2022 sequel.
+- Whether any pre-June-2021 positive Fame filing survives; Ren's June line is earliest surviving exact-text positive classification currently recovered, not origin.
+- Real-world status behind Marian/Eos fake-proposal language; do not literalize it.
+- Pixels/provenance for Anthos, Gilli, Ren, ShiyaX and Daya screenshot-bearing scenes unless separately joined.
+- Pride's original UNO-like object and its maker/creator.
+- Jas's Reel contents and exact locators; Crystalia pin geometry/IDs.
+- Absolute origin of SaraBunny's moo riff; `cow` is not an alias from two lines.
+- Xephy stable-account recovery remains source-routed; hard identity WhitePhoenyx = Xephy ≠ WolfPhenix remains binding.
 - Any unsupported jump among SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING.
 
-This state amendment records the verified reader commits above. The resulting WIKI state commit is itself subject to the repository's native build and Pages workflows before the run is reported closed.
+This state amendment records reviewed deltas and verified reader publications. The state commit itself must pass the repository's native build and Pages workflows before the pass is reported closed.
