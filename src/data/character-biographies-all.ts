@@ -8,10 +8,12 @@ import { characterBios } from "./character-bios";
 // Finished person-first biographies. These files are the public life stories assembled
 // from archive scenes; this resolver makes sure they are actually the first thing the
 // character route sees instead of letting a role/profile card win by accident.
+import * as akaminModule from "./character-biographies-akamin";
 import * as alkeyModule from "./character-biographies-alkey";
 import * as ameModule from "./character-biographies-ame";
 import * as anthosModule from "./character-biographies-anthos";
 import * as chibiterasuModule from "./character-biographies-chibiterasu";
+import * as chibiterasuRun37Module from "./character-biographies-chibiterasu-run37";
 import * as celeModule from "./character-biographies-cele";
 import * as cookieModule from "./character-biographies-cookie";
 import * as dayaModule from "./character-biographies-daya";
@@ -49,6 +51,7 @@ import * as suzimasuModule from "./character-biographies-suzimasu";
 import * as syeModule from "./character-biographies-sye";
 import * as tenModule from "./character-biographies-ten";
 import * as tofuModule from "./character-biographies-tofu";
+import * as xephyModule from "./character-biographies-xephy";
 import * as yassrModule from "./character-biographies-yassr";
 import * as yelikModule from "./character-biographies-yelik";
 import * as yumiModule from "./character-biographies-yumi";
@@ -85,13 +88,14 @@ import { deepArchiveCharacterBios } from "./character-bios-archive-deep";
 import { extendedCharacterBios } from "./character-bios-extended";
 
 const finishedNarrativeModules = [
-  alkeyModule, ameModule, anthosModule, chibiterasuModule, celeModule, cookieModule, dayaModule,
+  akaminModule,
+  alkeyModule, ameModule, anthosModule, chibiterasuModule, chibiterasuRun37Module, celeModule, cookieModule, dayaModule,
   feliModule, genGreyModule, ghosttModule, gilliModule, hanModule, hishiroCoreModule,
   hyalunaModule, illienModule, kaedeModule, keyModule, lanModule, lillyModule, miaModule,
   momoModule, moonModule, mugenModule, nelphModule, nemoModule, nhouModule, nobuModule,
   noetherModule, nuienModule, oyasumiModule, plateletModule, renModule, rithaModule,
   rooksModule, rummyModule, shikiModule, snowModule, suzimasuModule, syeModule,
-  tenModule, tofuModule, yassrModule, yelikModule, yumiModule, zeppModule,
+  tenModule, tofuModule, xephyModule, yassrModule, yelikModule, yumiModule, zeppModule,
 ] as const;
 
 const richBioSources: Array<Record<string, CharacterBio>> = [
