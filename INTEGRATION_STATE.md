@@ -1,6 +1,6 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration close: **2026-08-29 23:14 PDT**.
+Last dual-surface integration close: **2026-08-29 23:33 PDT**.
 
 Full branch consumption state is authoritative on MAIN in `archive-intake/INTEGRATOR_BRANCH_STATE.json`; earlier WIKI states remain in Git history.
 
@@ -15,49 +15,57 @@ Full branch consumption state is authoritative on MAIN in `archive-intake/INTEGR
 - Core Rooms: seen/consumed `7fce5fa707febe5975757ab7278212d86f048a45`.
 - All Characters: seen/consumed `8852d2264762a7757564034a92fc74b47ec7f37a`.
 - Daycare: seen/consumed `a68896131717b570ec7c6bdcc1a35e45fffe1f17`.
-- Mugen person-first: seen/consumed `1503b2494bbe42e0730d79cb4d695ad6b2938f5d`.
+- Mugen person-first: seen/consumed `382b9e14494b84dd92db993ec7c7af3fa882bef3`.
 - Whiskey: seen/consumed `7978dda241b2c8169ad13f98a16a54006db1c5a6`.
-- Wall: forward-reviewed through `f24df16b7f73905baca448b70cae9c0937992fa4`; formal consumed remains null while cumulative historical recovery stays open. Historical recovery is reviewed through **2026-08-25 12:46**; **13:46 is next**.
+- Wall: forward-reviewed through `9626f775c308874d072e44ceeee1c3884bd612aa`; formal consumed remains null while cumulative historical recovery stays open. Historical safe-baseline recovery is reviewed through **2026-08-25 13:46**; **14:46 is next**.
 
 No miner branch was merged or cherry-picked wholesale.
 
 ## Reviewed this pass
 
-Checkpoint-first, intake-only review covered the Wall historical **12:46** package through checkpoint `f5edd4d2752be87b78be4ee685b2c79436ab7f55`, receipts `fec6dec64a5a298ff421e917e9d9970823ca0385`, findings `71c0fe3bb802f96a81deecb517d95706af8bb761`, rabbit holes `47965cbd94747ecb41a7e4d30b575c9bc6e0fed4`, and site candidates `86af68406f5188c4b9101165eb01ab9fd0f58fab`.
+Checkpoint-first, intake-only review covered:
 
-Raw archives were not re-mined. No finite miner advanced during the opening or closing census, so anti-starvation did not require a second finite review this pass.
+- Wall forward delta `f24df16b7f73905baca448b70cae9c0937992fa4 -> 9626f775c308874d072e44ceeee1c3884bd612aa`.
+- Wall historical safe-baseline package **2026-08-25 13:46**.
+- Closing-census Mugen person-first delta `1503b2494bbe42e0730d79cb4d695ad6b2938f5d -> 382b9e14494b84dd92db993ec7c7af3fa882bef3`.
 
-## Public change — Beat Me to It
+Raw archives were not re-mined. The closing census caught Mugen advancing after the opening census, so anti-starvation was satisfied by reviewing that additional finite mover before close.
 
-The Wall's `beat me to it` wording is now treated as a recurring curator-race mechanism rather than a handful of disconnected reactions.
+## Public keeper — Nor I Will Ever Do It Again
 
-The richest early scene is October 16, 2020. Snow says he figured he would give `Sycee, Kuki or ana something to post`; Anayss says she is so used to Snow saying things like that she ignored it, Sye says `I can't beat them to it`, and Snow jokes that Ansun is `always waiting in the wings for it`. That is already a room with expected filers and somebody deliberately producing bait for the evidence desk.
+The 13:46 Wall recovery produced one incident that deserved a WIKI owner instead of another thin biography paragraph.
 
-The wording then travels: Rooks loses a filing race to Ansun in November 2020; Mugs says `YOU BEAT ME TO IT` when Snow gets there first in April 2021; Baby Lyssa asks how somebody beat her to it that August; Ren loses a February 2023 race to Gilli; and Xuseio tells Ansun `Dang, beat me to it` in April 2023.
+On November 5, 2020 Illien helps a fake murder scenario become steadily more incriminating: `Noodle in jail`, a proposed book called `101 cute ways to murder`, a bury-the-body GIF, and `pikashoot`, while Ren contributes knife-and-gun punctuation. Only after supplying half the prosecution's vocabulary does Illien reach for innocence: `I swear I didn't do it, nor I will ever do it again`.
 
-The public read stays proportionate: Wall curation itself sometimes became competitive. This is different from the Wall's newcomer/subject speedrun folklore. `First-to-file` or `curator race` are editorial descriptions, not formal UL labels. October 16 is the earliest surfaced example in this reviewed evidence family, not a proven origin, and unresolved attachments remain unresolved.
+That second clause murders the first one on impact. Anthos answers four seconds later with `You sit on a throne of LIES`.
 
-WIKI reader-content commit `f44dfb5f7a0ffab01d1da1ae88a4b8dfc96baaff` passed **Build Underlords Wiki** run `33296311100` and **Deploy Underlords Wiki Preview** run `33296311082`, including Pages deployment.
+The public read stays exactly where the evidence supports it: the joke is Illien accidentally wording his own denial like a repeat-offender confession after enthusiastically helping construct the fake crime scene. It is not a violence trait or a literal murder claim. Anthos's opening screenshot remains visually unresolved, `Noodle` remains unidentified, and POSTED BY does not become MADE BY / CAPTURED BY / FEATURING.
 
-MAIN carries the same evidence family in its richer channel-history voice at `/channels/wall`; MAIN reader-content commit `24f17084e7803159fc2112981744b19268a3cacd` passed **UL Hourly Build + Deploy** run `33296348776`, including source verification, Astro build, built-output verification, Cloudflare deployment, and exact production-commit verification. MAIN durable close commit is `1a4fce35cef603bcc9eec5c48b03b92a3bc17bab`.
+WIKI reader-content head `1aabbfdb763d01b55ea4ff79e6616134380752d0` passed **Build Underlords Wiki** run `33297527524` and **Deploy Underlords Wiki Preview** run `33297527541`, including Pages deployment.
 
-## Duplicate / corroboration handling
+## Reconciled / not duplicated
 
-- The curator race was not collapsed into newcomer speedruns: one is competition among filers, the other is speed of becoming a Wall subject.
-- Snow's October baiting, later wins/losses, and Ansun's repeated `waiting in the wings` / first-to-file presence strengthen the same evidence family rather than spawning separate Episodes for every `beat me to it` line.
-- Unseen attachments remain visually unresolved; POSTED BY is not promoted into MADE BY / CAPTURED BY / FEATURING.
+- Pride's new October 7 Wall material — `and this is why Pride stays out of Club chat`, fear of being `plastered all over this place`, Gilli's `im watching you`, and Pride's `keep watching baby` — is accepted as real self-aware avoidance that immediately flips into performative dare. MAIN already owns the richer Pride surveillance spine, so no second public copy was manufactured.
+- Pride's September `bodies` warning and December corpse-threat throwback materially deepen the already-public corpse/body-loss chronology, but the exact images remain uninspected and the actual origin/mechanic stays unresolved. September is an earlier surviving signal, not a certified origin.
+- Mugen's late delta corrects an older hypothesis rather than adding a new scene: a 2020-11-07 translation-bot embed already labels Woohyuk `PANCAKE ASS`, so Mugen's November 10 booty/pancake sequence cannot be the earliest known precursor. If the local join is correct, it is more plausibly callback/reinforcement of an already-live joke. Mugen as coiner remains unsupported. The superseded precursor hypothesis was not present in current public Mugen copy, so no reader-facing correction was required.
 
 ## Held / unresolved
 
-- A September 19, 2020 Beat Saber scene has Ansun saying she, Gilli, Rooks, and an ambiguous `ana may` were dying laughing while watching Snow work out. No matching Wall receipt surfaced in the bounded reviewed handoff. This may corroborate the already-public `The Wall Misses the Best Ones` observer effect, but bounded non-retrieval is not proof of absolute noncapture, so it remains held.
-- The October 16 winning attachment/antecedent remains unresolved.
-- `Sycee` is preserved as source wording without creating a new global identity bridge. Local `ana` wording is not made into a project-wide alias.
-- Earliest surviving remains distinct from origin; joke language is not formal governance; attribution categories stay separate.
+- Cookie's `i need lick his ears again` proves a prior ear-licking joke exists, but the male target is unresolved.
+- Anthos's opening screenshot in the Illien scene and the identity/referent of `Noodle` remain unresolved.
+- `the ul shared braincell strikes again` has recurrence language but is still too entangled with generic internet-braincell phrasing for UL-native motif promotion.
+- Daya's `wall of shame more like wall of SMUT` remains attached to an uninspected parent screenshot and is not inflated into a recurring category.
+- Pride's September/December images remain POSTED BY Ren only; maker, capturer, subjects, and exact corpse/body mechanics remain unresolved.
+- Earliest surviving remains distinct from origin; joke relationships stay jokes; attribution categories stay separate.
+
+## Surface ownership
+
+This pass intentionally published the Illien vignette **WIKI-only** because it is a bounded incident with a clean setup, self-own, and verdict. MAIN already has a rich Illien biography and did not need another incident-shaped paragraph. MAIN reader content therefore stayed unchanged this pass; it carries the authoritative consumption ledger and dual-run report instead.
 
 ## Consumption close
 
-No finite miner consumed SHA changed because every finite active miner remained current.
+Mugen person-first advanced and was consumed through `382b9e14494b84dd92db993ec7c7af3fa882bef3` after successful review of its correction-only delta.
 
-Wall historical recovery advanced from **11:46 -> 12:46**. Forward review remains through `f24df16b7f73905baca448b70cae9c0937992fa4`; formal consumed stays null while the cumulative older floor remains open. **13:46 is next.**
+Wall forward review advanced through `9626f775c308874d072e44ceeee1c3884bd612aa`, and historical safe-baseline recovery advanced from **12:46 -> 13:46**. Formal Wall consumed remains null while the cumulative older floor remains open. **14:46 is next.**
 
-This durable-state commit must itself pass both native WIKI workflows before the pass is reported closed. MAIN's durable report/ledger head must likewise pass its exact-head verification/deployment workflow.
+The reader-content commit passed both native WIKI workflows before this state was written. This durable-state commit must itself pass the same native workflows before the pass is reported closed; exact closing-head verification is reported from GitHub Actions after commit.
