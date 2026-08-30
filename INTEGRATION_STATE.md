@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-08-30 11:51 PDT_
+_Last updated: 2026-08-30 11:59 PDT_
 
 ## Current reconciliation boundary
 
@@ -12,10 +12,10 @@ The wiki is the long-form reference companion to `bossmugen/underlords`, not a c
 - **0 newly discovered / 0 finite pending / 0 backlog / 0 review-overdue** after this review close.
 - Both Club-Only recovery branches remain consumed/current: `archive-miner-clubonly-2020-hourly` through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`; `archive-miner/club-only-2021-2026-hourly` through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`.
 - `archive-miner/all-characters-hr-20260828` remains reviewed/consumed through `1eee38b03ce922083dd53136c73f90799c616205`.
-- `archive-miner/core-rooms-events-a91f-20260824` is reviewed through `371b7a40d7a403f73f6817f57b7f0590170c1e8c`; its accepted WIKI work cleared native build/deploy and is eligible for consumed-state advancement on MAIN.
+- `archive-miner/core-rooms-events-a91f-20260824` is reviewed **and consumed** through `371b7a40d7a403f73f6817f57b7f0590170c1e8c`; its accepted WIKI work cleared native build/deploy.
 - `archive-miner/mugen-person-first-20260828` is reviewed/consumed through `58589937aad6937d43f8ba6059fca26ba1fe99e7`. Its one A-grade candidate — Mugen's 2025 day-off Wall archaeology — was already public here as **Mugen Uses a Day Off to Dig Back to 2020**, so the latest person-first delta is duplicate/corroboration with no second public copy.
 - Wall forward review is current through `1fbdfc9d56d4d05fb4c66bd4833a095ed2f43b09`. The newest 11:30 suffix materially advances member-held receipt mechanics with deliberate favorite/curation, save-before-delete persistence, and retrospective re-filing. Formal Wall `last_consumed_sha` remains null while the older cumulative recovery floor is open.
-- Historical Wall recovery is safely reviewed through the exact bounded **2026-08-26 09:46** package (`dc12ee64d07f7aa77ed44c05e1158d1c342f0524 -> 826596953fe9473d9564a2ffbc541de76a273c68`). **10:46 is next.**
+- Historical Wall recovery is safely reviewed through the exact bounded **2026-08-26 10:46** package (`826596953fe9473d9564a2ffbc541de76a273c68 -> 8ced6bbd4bdaffd2077eb73a3287684ef555f144`). **11:46 is next.**
 - Whiskey remains the sole finite **publication-blocked** branch: its accepted ordinary-life material belongs to Sye/Life on MAIN. Hard identity correction remains `488099199938986004 / sycessences / ƐℲı˥` = **Sye/Life, not Effie**.
 - No miner branch was merged or wholesale cherry-picked into either publishing branch.
 
@@ -97,6 +97,14 @@ The exact historical package remains useful backstage without being public-page 
 
 A separate Daya Reply says **`HE DIED ON THE STAIRS AGAIN?!?!`** and mentions Gilli. The surfaced handoff still does not expose the Reply parent, the identity of `he`, the game/mechanic, or the prior stair-death incident. The repeated event is real; the owner of the corpse is not. No public Episode or dossier claim was promoted from either breadcrumb.
 
+### 10:46 recovery — Suzimasu helped start the place and it could still scandalize her
+
+The exact bounded 10:46 package advances Suzimasu as a person rather than another title. On September 11, 2021 Mugen points out that Suzi `litrally helped start UL` and still gets freaked out by `afterhours activities`; roughly two hours later Nhou independently says **`Suzi freaked out since the beginning xD`**. The peer-observed contradiction is the keeper: founder-level familiarity apparently did not fully acclimate Suzi to at least some of UL after dark. Mugen reaches for the founding credential as the punchline — *you were here when we built this and you are still reacting to us* — while Nhou's `since the beginning` turns the reaction into remembered continuity rather than one bad night.
+
+Hard correction: **current canon Suzimasu is a woman and uses she/her**. The archived Mugen sentence contains stale male wording; that historical wording does not override current canon. The WIKI Suzimasu dossier had also inherited stale male-pronoun prose, so the biography was corrected throughout and the afterhours recurrence was integrated into the existing character owner rather than spawning a duplicate Episode.
+
+The read remains proportionate. The exact afterhours trigger is unresolved, and `freaked out` does not establish prudishness, sexuality, religious belief, or a blanket dislike of adult humor. `Since the beginning` is peer memory of recurrence, not an exact origin timestamp.
+
 ## Reconciliation / duplicates
 
 - Dyingfox's Pond material enriches the existing Cast owner rather than spawning a duplicate Episode.
@@ -104,6 +112,7 @@ A separate Daya Reply says **`HE DIED ON THE STAIRS AGAIN?!?!`** and mentions Gi
 - Mugen person-first `40999910... -> 58589937...` independently elevates the already-published May 6, 2025 day-off archaeology scene. It is duplicate/corroboration, not another Episode.
 - Core `0e8081e... -> 371b7a40...` is one intake-only evidence family. Rosario's age/safety resolution remains unresolved; FireLegacy guest clustering does not become an alliance; Key (FireLegacy) is not merged with Officer Key.
 - Wall `723cf869... -> 1fbdfc9d...` is one 11:30 evidence family. Ren's `saved as favorite` is retained as supporting receipt-economy texture rather than forced into another tiny Episode; Torr's save-before-delete and Mugen's retrospective re-file got the discrete owners.
+- Historical 10:46 Suzimasu material enriches her existing Cast dossier rather than creating a founder/afterhours Episode. The hard she/her correction overrides stale pronouns in archival wording and prior public prose.
 - WOO/Nobu `TRAITOR` remains media-pending instead of receiving invented screenshot content.
 - Rotini's 2024 screenshot offense, Snow's exact role, and Rotini's exact Reply parent remain unresolved; the text-level reversal is still strong enough to publish.
 - Eos `Got him again` and Daya `HE DIED ON THE STAIRS AGAIN?!?!` are recurrence clues, not identity bridges; both remain held until their missing visual/reply joins are resolved.
@@ -111,13 +120,13 @@ A separate Daya Reply says **`HE DIED ON THE STAIRS AGAIN?!?!`** and mentions Gi
 
 ## Surface split
 
-**WIKI** owns the discrete scenes listed above because they fit Cast/Episodes/Running-Gag/reference behavior. The two Core doorway scenes and the two Wall evidence-life-cycle scenes are Episode-shaped; there is no reason to photocopy them onto MAIN merely so both surfaces can claim attendance.
+**WIKI** owns the discrete scenes listed above because they fit Cast/Episodes/Running-Gag/reference behavior. The two Core doorway scenes and the two Wall evidence-life-cycle scenes are Episode-shaped; Suzimasu's new 10:46 material belongs inside her dossier because it changes the person-read, not the incident map. There is no reason to photocopy the Episode copy onto MAIN merely so both surfaces can claim attendance.
 
-**MAIN** intentionally receives no new reader-facing copy from this recovery unit. The broader Mugen evidence-life-cycle material can later enrich MAIN's biography/preservation chronology in a distinct form, but MAIN's required verification chain is still failing before runner allocation. The evidence is accepted, not rejected. Whiskey/Sye remains deliberately MAIN-owned rather than being mirrored into WIKI just to route around that gate.
+**MAIN** intentionally receives no new reader-facing copy from this recovery unit. The broader Mugen evidence-life-cycle material can later enrich MAIN's biography/preservation chronology in a distinct form, but MAIN's required verification chain is still failing before executable verification steps appear. The evidence is accepted, not rejected. Whiskey/Sye remains deliberately MAIN-owned rather than being mirrored into WIKI just to route around that gate. MAIN's existing Suzimasu page also carries stale male-pronoun copy; the she/her correction is accepted and explicitly tracked, but the reader file is not changed until MAIN's verification gate can actually run.
 
 ## Holds / next work
 
-- Historical Wall: safely through **09:46**; exact bounded **10:46 next**.
+- Historical Wall: safely through **10:46**; exact bounded **11:46 next**.
 - Eos repeat catch: target, prior catch, and `IMG_1869.png` contents unresolved.
 - Daya stair death: Reply parent, male target, mechanic/context, and prior incident unresolved.
 - Rosario17/Yazaki: exact age category, safety-resolution path, and exact access role unresolved.
@@ -125,6 +134,7 @@ A separate Daya Reply says **`HE DIED ON THE STAIRS AGAIN?!?!`** and mentions Gi
 - Key (FireLegacy) is not Officer Key without a direct identity bridge.
 - Torr save scene: immediately preceding image join strong/probable; no structured Reply pointer; visual provenance sealed.
 - Mugen 2024 repeated filenames: same underlying binaries very strong probable, not hash-confirmed.
+- Suzimasu afterhours: recurring peer-observed reaction is publishable; exact triggering content and broader attitudes remain unresolved.
 - WOO/Nobu `TRAITOR`: localized but pixel-dependent.
 - Gabu `Capturar.PNG`, Zoshaa's twelve JPGs, and Zhēnxī's 2022 screenshot: POSTED BY known; deeper provenance/pixels unresolved.
 - The 2025 Reply parents behind `THE BEGINNING` / `HELPP YOU REACHED THR TOP LMAO` remain unresolved.
@@ -146,8 +156,13 @@ The Wall 11:30 reader commit `64af2352cea18d84470ce83c269f68b15861b714` also pas
 - **Build Underlords Wiki** run `33329165152` — **success**, including `Build Astro wiki`.
 - **Deploy Underlords Wiki Preview** run `33329165135` — **success**, including GitHub Pages deployment.
 
+The Suzimasu correction/enrichment commit `072e8baff7ecb8f1655d246a690f2b511ba137aa` passed both native workflows on the exact reader head:
+
+- **Build Underlords Wiki** run `33329237644` — **success**.
+- **Deploy Underlords Wiki Preview** run `33329237641` — **success**, including Pages deployment.
+
 Earlier Rotini/state verification remains green: reader commit `6c0ab04f7e40c71bd7472c44b298458cfb420938` passed Build `33328199014` and Deploy `33328199040`; durable state head `8c0bf50567d701a7218b3b637de5831c887ed6d9` passed Build `33328505126` and Deploy `33328505175`.
 
 This state update creates a newer exact `main` head; that exact head is checked separately before the run closes.
 
-MAIN remains independently gated. Its recent runs have failed before runner allocation: Build + verify had `runner_id=0`, blank runner name and `steps=[]`, and deployment was skipped. That is an infrastructure failure, not a source/build verdict. No MAIN reader-facing change is treated as verified unless source verification, Astro build, built-output verification, and deployment actually execute and pass.
+MAIN remains independently gated. State commit `6916f7d9c855bf73c9d1edede92875f9ea444967` failed before usable Build + verify steps appeared; its one rerun was cancelled by subsequent master activity before executable verification steps appeared, and deployment did not run. That is an infrastructure/concurrency failure, not a source/build verdict. No MAIN reader-facing change is treated as verified unless source verification, Astro build, built-output verification, and deployment actually execute and pass.
