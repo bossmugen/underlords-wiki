@@ -1,101 +1,96 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-08-30 11:23 PDT_
+_Last updated: 2026-08-30 11:31 PDT_
 
 ## Current reconciliation boundary
 
-The wiki is the long-form reference companion to `bossmugen/underlords`, not a competing lore system. The project-wide lower evidence threshold remains binding: hard canon, resolved identity, privacy/safety, contradictions, and exact attribution fences stay hard; strong contextual human reads are publishable when the surrounding evidence makes them more likely than not.
+The wiki is the long-form reference companion to `bossmugen/underlords`, not a competing lore system. The project-wide lower evidence threshold remains binding: hard canon, resolved identity, privacy/safety, source contradictions, and exact attribution fences stay hard; strong contextual human reads are publishable when the surrounding evidence makes them more likely than not.
 
 ### Shared miner census
 
 - **49 tracked miner identities** = **28 active remote refs + 21 historical/missing refs**.
-- **0 newly discovered** at the opening census.
-- **0 finite pending / 0 backlog / 0 review-overdue** after review close. Whiskey remains one reviewed finite **publication block**, not unread evidence.
+- **0 newly discovered / 0 finite pending / 0 backlog / 0 review-overdue** after the latest review close.
+- Both Club-Only recovery branches remain consumed/current: `archive-miner-clubonly-2020-hourly` through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`; `archive-miner/club-only-2021-2026-hourly` through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`.
 - `archive-miner/all-characters-hr-20260828` is reviewed/consumed through `1eee38b03ce922083dd53136c73f90799c616205`.
-- Both Club-Only recovery branches remain consumed/current: `archive-miner-clubonly-2020-hourly` through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`, and `archive-miner/club-only-2021-2026-hourly` through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`.
-- Wall forward review now reaches `c149ac84ed7218dbdb2bcab6d1dff3f2cb0d5aa7`. Formal Wall `last_consumed_sha` remains null while its older cumulative recovery floor is open.
-- Historical Wall recovery is safely reviewed through the exact bounded **2026-08-26 07:46** handoff (`0804bae092332effa577522d92f118644f20609f -> e0995afa90ed287a7a87de6b4b27b6541365a7bf`). **08:46 is next.**
-- No miner branch was merged or wholesale cherry-picked into a publishing branch.
+- Wall forward review is current through `fa96a7ae164ade291605de8e2e27dda52cf8aee0`. The earlier `c149ac84...` findings and the later checkpoint/receipts/rabbit/site/people/profile completion handoffs were reconciled as one evidence family rather than reread as separate lore. Formal Wall `last_consumed_sha` remains null while the older cumulative recovery floor is open.
+- Historical Wall recovery is safely reviewed through the exact bounded **2026-08-26 07:46** package (`0804bae092332effa577522d92f118644f20609f -> e0995afa90ed287a7a87de6b4b27b6541365a7bf`). **08:46 is next.**
+- Whiskey remains the sole finite **publication-blocked** branch: its accepted ordinary-life material belongs to Sye/Life on MAIN. Hard identity correction remains `488099199938986004 / sycessences / ƐℲı˥` = **Sye/Life, not Effie**.
+- No miner branch was merged or wholesale cherry-picked into either publishing branch.
 
-## This pass — All Characters Run 36 + Wall 07:46 + late Wall forward suffix
+## Public integrations this pass
 
-### Dyingfox: `Gilli's Pond` finally gets a social neighborhood
+### Dyingfox — `Gilli's Pond` finally has a social neighborhood
 
-The All Characters delta `0a1ebf6b6eb7a951b1154e04c20f6f7c65b63c10 -> 1eee38b03ce922083dd53136c73f90799c616205` materially strengthens Dyingfox's old display `DyingFox(Gilli's Pond)`. Gilli's April 2023 About Me explicitly opens an **`Emotional Support Collection`** and lists `Pebble`, `Apple`, `Empress`, `Pond`, `Tree`, `Jewel`, `Pie`, `Pizza Dough`, `Pillow`, and `Fire`. Separate stable-account evidence gives Cele the display `Gilli's Pie` and Trebach `Gilli's Pizza Dough`.
+Gilli's April 2023 About Me explicitly names an **`Emotional Support Collection`** containing `Pebble`, `Apple`, `Empress`, `Pond`, `Tree`, `Jewel`, `Pie`, `Pizza Dough`, `Pillow`, and `Fire`. Stable Dyingfox carries `Gilli's Pond`; Cele and Trebach independently carry `Gilli's Pie` and `Gilli's Pizza Dough`. Taken together, it is more likely than not that Dyingfox's **Pond** label belongs to the same affectionate object-name ecology rather than being an unrelated parenthetical.
 
-Taken together, the surrounding evidence makes it more likely than not that Dyingfox's **Pond** label occupies the same affectionate object-name ecology rather than being an unrelated one-off nickname. The wiki carries that read inside Dyingfox's person-first biography instead of leaving `Gilli's Pond` as a mystery parenthetical.
+WIKI owns that interpretation inside Dyingfox's existing Cast dossier. Exact coining, first assignment, why the object was a pond, literal ownership, kinship, guardianship, dependency, or rank remain unresolved. Export/current nickname state is not appointment chronology.
 
-The hard boundaries remain: the retrospective profile does **not** establish who coined Pond, the first assignment date, why the object was a pond, literal ownership, kinship, guardianship, dependency, or a ranked relationship. Export/current nickname state is not appointment chronology.
+### Pride — Boiled Mayo escapes the fake corporation
 
-### Pride: Boiled Mayo gets out of the fake office
+`Boiled Mayo Corp.` is already visible in July 2020 Staff material. On August 24 Pride carries the phrase into ordinary Club Only as `boiled Mayo` / `boiled mayo`; Ren answers `M a YO` and later `It be thick cream`. The useful character beat is propagation, not origin: Pride can either over-engineer a dumb premise until it becomes survival UNO or simply drop two cursed words and trust the room to know the bit.
 
-Run 36 also confirms Pride as an early direct carrier of the already-established **Boiled Mayo** joke family. `Boiled Mayo Corp.` is visible in July 2020 Staff programming; on August 24 Pride simply drops `boiled Mayo` and later `boiled mayo` in ordinary Club Only, with Ren answering `M a YO` and later `It be thick cream`.
+WIKI owns **Boiled Mayo Leaves the Corporation**. Pride is an early direct carrier in the surviving record, not proven coiner or creator; August 24 is earliest surviving direct Pride use currently recovered, not certified origin.
 
-The useful character beat is the contrast with Pride's existing **High Stakes UNO** scene. There Pride keeps adding mechanics until a dumb premise becomes a survival sport. Here he barely needs mechanics at all: two cursed words are enough because the room already understands the vocabulary. The wiki now owns this as **Boiled Mayo Leaves the Corporation**. Pride is a confirmed early carrier in the surviving record, **not** necessarily coiner or creator; August 24 is earliest surviving direct Pride use currently recovered, not certified origin.
+### WOO — Shame gets a PR rebrand
 
-NemeMoka, SaraBunny, and Yaza produced bounded no-new results in this Run 36 suffix. They remain open at the broader archive boundary rather than being padded into fake developments.
+On April 9, 2023 WOO says `I need to not talk sm I got so much stuff on the hall of shame`. Moon TRUE-REPLIES ten minutes later: `No no you famous uwu.` WOO answers with crying/skull reactions. WIKI owns **WOO Diagnoses a Shame Problem; Moon Calls It Fame**: WOO treats accumulated evidence as a reason to maybe stop talking; Moon refuses shame and converts the exact same exposure into celebrity.
 
-### WOO: Shame gets rebranded as Fame
+The nearby WOO/Nobu `TRAITOR` sequence remains held. Nobu/Xuseio POSTS two screenshots and WOO calls him `TRAITOR`, but the pixels are uninspected. Safe attribution is POSTED BY Nobu/Xuseio; exact offense, maker, capturer, and subjects remain unresolved. No identity is inferred from the display `WOO`.
 
-The exact bounded Wall **07:46** package produced one clean person-specific scene. On April 9, 2023 WOO says, `I need to not talk sm I got so much stuff on the hall of shame`. Ten minutes later Moon **true-replies to that exact message** with `No no you famous uwu.` WOO reacts with crying and skull reactions.
+### The Wall already had off-site evidence lockers in October 2020
 
-The room-wide Shame/Fame history is already established, so the public owner is not another generic culture essay. The wiki owns the scene as **WOO Diagnoses a Shame Problem; Moon Calls It Fame**: WOO interprets accumulated evidence as a reason to maybe stop talking; Moon refuses the shame diagnosis and converts the same exposure into celebrity; WOO's reaction pair lands as mock defeat. The archive still does not safely identify which older screenshots WOO meant by `so much stuff`, so none were retroactively attached.
+The forward Wall family now shows two complementary storage modes in direct participant wording. On October 26 Gabu tells Anthos `i still have your ss hahaha`, offers to post it, watches Anthos go from `im scared now` to `well im still curious XD`, then POSTS `Capturar.PNG` seventeen seconds later. The attachment is probably the screenshot just threatened, but the pixels remain sealed: SAID BY / POSTED BY Gabu is safe; MADE BY / CAPTURED BY / FEATURING remain unresolved.
 
-The same 07:46 pass narrows but does not resolve WOO's March 2023 `NOBU` / `TRAITOR` sequence. Nobu/Xuseio POSTS two screenshots; Gilli tags WOO; WOO answers `NOBU`, `TRAITOR`, and later `nobu` / `why`. The betrayal joke is strongly localized to those filings, but the image contents remain uninspected. **POSTED BY Nobu/Xuseio** is safe; maker, capturer, internal subjects, and exact offense remain unresolved.
-
-### The Wall already has off-site evidence lockers in October 2020
-
-The late forward Wall suffix `95b37861d93d4959a74a1f5e2c66b369c22269ec -> c149ac84ed7218dbdb2bcab6d1dff3f2cb0d5aa7` materially pushes participant-held receipt storage into the Wall's first months.
-
-On October 26, Gabu tells Anthos `i still have your ss hahaha`, offers to post it, watches Anthos go from `im scared now` to `well im still curious XD`, then POSTS `Capturar.PNG` seventeen seconds later. The attachment is probably the screenshot Gabu has just threatened to retrieve, but the pixels remain sealed: **SAID BY / POSTED BY Gabu** is safe; MADE BY / CAPTURED BY / FEATURING remain unresolved.
-
-Four days later Zoshaa/NintendoShitcube says `Scrolling through photos out of boredom, found a bunch of old ss lmao` and POSTS twelve JPGs in two bursts. That second scene supplies the storage mechanism in participant-native language: ordinary photo-library browsing can unexpectedly restock the Wall. Together, the scenes support a much more specific cultural read than generic screenshot culture. The public channel is already the courthouse; members' phones/photo libraries are functioning as off-site evidence lockers. These are earliest surviving direct examples currently recovered, **not origin claims**.
-
-The wiki owns this as **The Wall Already Had Off-Site Evidence Lockers** rather than duplicating the same explanation into MAIN while MAIN's verification chain is unavailable.
+Four days later Zoshaa/NintendoShitcube says `Scrolling through photos out of boredom, found a bunch of old ss lmao` and POSTS twelve JPGs in two bursts. That is participant-native evidence that ordinary photo-library browsing could spontaneously restock the Wall. WIKI owns **The Wall Already Had Off-Site Evidence Lockers**. The public channel is the courthouse; member devices are already auxiliary evidence storage. These are earliest surviving direct examples currently recovered, not origin claims.
 
 ### By 2025 the Wall can rerun itself
 
-The same forward suffix catches Mugen using a day off on May 6, 2025 to deliberately excavate old Wall history: `Hmm I have a day off. Let's bring up some old shame`, then `Let's go back to 2020`. Teri answers `man, 2020...covid time` and `its been 5 years`. Later Mugen posts the Reply-type `THE BEGINNING`; Ren answers with the Reply-type `HELPP YOU REACHED THR TOP LMAO` and `YAYYYYY`.
+On May 6, 2025 Mugen says `Hmm I have a day off. Let's bring up some old shame`, then `Let's go back to 2020`. Teri marks the distance with `its been 5 years`; later Mugen posts Reply-type `THE BEGINNING`, and Ren later posts Reply-type `HELPP YOU REACHED THR TOP LMAO` followed by `YAYYYYY`.
 
-The two Reply parents were not preserved by the retrieval layer, so they are not invented. `THE BEGINNING` is scene language, not an origin certificate. The surrounding exchange is still enough for the useful read: by 2025 the Wall is participant-used archive infrastructure. Old cases are not dead records; somebody can intentionally scroll backward through years of them and turn a day off into reruns. The wiki owns this as **Mugen Uses a Day Off to Dig Back to 2020**.
+The Reply parents were not recovered in this handoff, so no parent IDs are invented and `THE BEGINNING` is not converted into an origin certificate. WIKI owns **Mugen Uses a Day Off to Dig Back to 2020** because the surrounding exchange is strong enough to show participant-used archaeology: old Wall cases can be reopened as reruns simply by scrolling far enough.
 
-### Zhēnxī: defendant learns procedure and becomes prosecutor
+### Zhēnxī — target panic becomes prosecution
 
-A two-date Wall comparison gives Zhēnxī a real arc without inventing biography. In May 2021, after Ren files and later tags him, Zhēnxī arrives six seconds later with `NOOOOOOOOOOO` and then `NOT THE WALL OF SHAME FAME`; Sou later summarizes the speed as `shamed within 6 minutes of entry`, while Ren wonders whether it is a record. The exact offense remains sealed with the uninspected image.
+In May 2021 Ren files an image, later tags Zhēnxī, and six seconds later Zhēnxī arrives with `NOOOOOOOOOOO`, followed by `NOT THE WALL OF SHAME FAME`. In July 2022 Zhēnxī POSTS `Screenshot_20220707-232429_Discord.jpg`, tags Ren, and Ren TRUE-REPLIES with a skull, `STAWP`, then `This happened like 4 months ago so that's even worst`. Zhēnxī laughs and rules: `Deserving`.
 
-By July 2022, Zhēnxī is the person holding the old receipt. He POSTS `Screenshot_20220707-232429_Discord.jpg`, tags Ren with `so uh-`, and Ren true-replies to the screenshot with a skull and `STAWP`, adding `This happened like 4 months ago so that's even worst`. Zhēnxī laughs and rules: `Deserving`.
+WIKI owns **Zhēnxī Survives the Wall and Becomes the Prosecutor**. The human read is clean: surviving prosecution did not make Zhēnxī anti-Wall; it taught the procedure well enough that a later months-old receipt could be filed against Ren with zero remorse. The screenshot remains POSTED BY Zhēnxī only; its contents, maker, capturer, and subjects remain unresolved, and Ren's `like 4 months ago` stays approximate.
 
-The profile read is straightforward and appropriately human: surviving prosecution did not make Zhēnxī anti-Wall; it taught him procedure. A year later he is preserving an older Discord receipt long enough to drag Ren back into court and reject the statute of limitations. Zhēnxī remains POSTED BY only; the screenshot's contents, maker, capturer, and subjects remain unresolved. The wiki owns the scene as **Zhēnxī Survives the Wall and Becomes the Prosecutor**.
+One integration correction was made before close: the public episode now avoids assigning Zhēnxī a pronoun from conflicting/non-hard handoff wording. The dossier/episode remains identity-safe rather than guessing from a display name or an incidental miner phrasing.
 
-## Public ownership
+## Reconciliation / duplicates
 
-- **WIKI Cast / Dyingfox dossier:** `src/data/character-biographies-dyingfox.ts` integrates Pond into the Emotional Support Collection ecology while preserving unresolved origin/assignment mechanics.
-- **WIKI Episodes:** the 2026-08-30 integration sets now own **WOO Diagnoses a Shame Problem; Moon Calls It Fame**, **Boiled Mayo Leaves the Corporation**, **The Wall Already Had Off-Site Evidence Lockers**, **Mugen Uses a Day Off to Dig Back to 2020**, and **Zhēnxī Survives the Wall and Becomes the Prosecutor**.
-- **MAIN:** no reader-facing copy from these findings was added in this pass. Dyingfox/Pride and the broader Wall archaeology have natural possible MAIN owners, but MAIN's required verification chain is still failing before runner allocation. Their evidence is not rejected; WIKI carries verified story-shaped owners now, while MAIN can later absorb distinct biography/chronology texture without holding reviewed miner deltas open.
-- **Whiskey/Sye:** still intentionally MAIN-owned and publication-blocked. The resolved account `488099199938986004 / sycessences / ƐℲı˥` is Sye/Life, **not Effie**; the accepted ordinary-life material should not be dumped into WIKI merely to route around MAIN's verification gate.
+- Dyingfox's Pond material enriches the existing Cast owner rather than spawning a duplicate Episode.
+- Pride's Boiled Mayo scene is one propagation/carrying beat, not a second origin story.
+- The `c149ac84... -> fa96a7ae...` Wall suffix is derivative handoff completion for the same 11:03 evidence family; it did not create a second set of public pages.
+- WOO/Nobu `TRAITOR` remains media-pending instead of receiving invented screenshot content.
+- NemeMoka, SaraBunny, and Yaza produced bounded no-new results in the All Characters suffix; those are routing results, not character traits.
+- No appointment chronology was inferred from export/current role arrays; no joke role or relationship was literalized; no similar-name identity bridges were invented.
 
-## Holds / hard rails preserved
+## Surface split
+
+**WIKI** owns the discrete scenes and dossiers listed above because they fit Cast/Episodes/Running-Gag/reference behavior.
+
+**MAIN** intentionally received no reader-facing copy from this pass. Dyingfox, Pride, and broader Wall archaeology can later enrich MAIN in distinct biography/chronology prose, but MAIN's required verification chain is still failing before runner allocation. The evidence is accepted, not rejected. Whiskey/Sye remains deliberately MAIN-owned rather than being mirrored into WIKI just to route around that gate.
+
+## Holds / next work
 
 - Historical Wall: safely through **07:46**; exact bounded **08:46 next**.
-- WOO/Nobu `TRAITOR`: localized to two Nobu-posted screenshots, but exact betrayal/offense remains media-pending.
-- Gabu's `Capturar.PNG` is probably the screenshot threatened seconds earlier, but its pixels remain uninspected; Zoshaa's twelve JPGs remain POSTED BY only.
-- The 2025 Reply parents behind `THE BEGINNING` and `HELPP YOU REACHED THR TOP LMAO` were not recovered in this handoff; no parent IDs or origin date are invented.
-- Zhēnxī's exact 2021 offense and 2022 screenshot contents remain unresolved; Ren's `like 4 months ago` remains approximate.
-- **Pebble identity remains unresolved.** The 2022 `your pebble` line proves live Gilli-associated use, not identity, coinage, assignment date, literal ownership, guardianship, parenthood, dependency, or a formal role.
-- Remaining unresolved Gilli Collection nouns: **Apple, Empress, Tree, Jewel, Pillow, Fire**. Pond -> DyingFox, Pie -> Cele, and Pizza Dough -> Trebach are safe identity bridges only where established; exporter/current nickname state does not date assignment.
-- No identity inference was made from the display `WOO`; it remains WOO without silently mapping it to Woohyuk, Woosung, or another similar name.
-- Pride's Boiled Mayo use is propagation/carriage, not proof of coinage or origin.
-- `Panda and panda`, `B.O.B CRIIIIMME`, ring / `Lord of the Shorts`, Ghostt's daily phrase, Zhēnxī's pre-welcome image, prior Rummy body-snatches, Cookie ear target, Ansun ants, and opening-night Tag Yourself artifact remain unresolved where direct joins/media are required.
-- `STAFF VACATION`: role/status concept confirmed; exact LilithEl Staff assignment remains unresolved.
-- Snow self-shame: earliest surviving direct wording, **not origin**.
+- WOO/Nobu `TRAITOR`: localized but pixel-dependent.
+- Gabu `Capturar.PNG`, Zoshaa's twelve JPGs, and Zhēnxī's 2022 screenshot: POSTED BY known; deeper provenance/pixels unresolved.
+- The 2025 Reply parents behind `THE BEGINNING` / `HELPP YOU REACHED THR TOP LMAO` remain unresolved.
+- **Pebble identity remains unresolved.** Gilli-associated use does not establish identity, coinage, assignment date, ownership, guardianship, parenthood, dependency, or formal role.
+- Remaining unresolved Gilli Collection nouns: Apple, Empress, Tree, Jewel, Pillow, Fire. Pond -> Dyingfox, Pie -> Cele, Pizza Dough -> Trebach are safe only where independently bridged.
+- Pride's Boiled Mayo use is carriage/propagation, not proof of coinage.
+- `STAFF VACATION` remains a confirmed status concept without proving LilithEl's exact Staff assignment or timing.
 - `sycessences` / `ƐℲı˥` remains hard-resolved to **Sye/Life, not Effie**.
 
 ## Verification / deployment
 
-Reader-facing WIKI commits already verified in this pass include:
+Reader-facing WIKI work in this pass has passed the repository's native pipelines through the pronoun-safety correction head `f2324e9241dd5292de80932c7ad5361975f8c2a9`:
 
-- Dyingfox + WOO commit `9756f485dd7e4fb2c50b900b9ce453f73b7271fa` — native Build and Pages/deploy green.
-- Pride commit `14cf4cd46eb1b707190f39581f1b9f2c85e42181` — **Build Underlords Wiki `33327434175` success**; **Deploy Underlords Wiki Preview `33327434177` success**.
-- Late Wall reader commit `a0b2de833f7c138e15451a0a9a504ba6569009b9` — **Build Underlords Wiki `33327696113` success**. Its Pages workflow was still completing when this durable state was written; the final exact `main` head must pass both native workflows before the integration pass is considered closed.
+- **Build Underlords Wiki** run `33327996745` — **success**.
+- **Deploy Underlords Wiki Preview** run `33327996762` — **success**, including Pages deployment.
 
-MAIN remains independently gated. Its most recent exact-head workflow inspected during this pass failed before a runner existed: Build + verify had `runner_id=0`, blank runner name and `steps=[]`, and deployment was skipped. That is an infrastructure failure, not a source/build verdict. No MAIN reader-facing change is treated as verified unless source verification, Astro build, built-output verification, and deployment actually execute and pass.
+This state update creates a newer exact `main` head. The pass is fully closed only after that exact state head also passes the existing Build Underlords Wiki and Pages/deploy workflows.
+
+MAIN remains independently gated. Its recent runs have failed before runner allocation: Build + verify had `runner_id=0`, blank runner name and `steps=[]`, and deployment was skipped. That is an infrastructure failure, not a source/build verdict. No MAIN reader-facing change is treated as verified unless source verification, Astro build, built-output verification, and deployment actually execute and pass.
