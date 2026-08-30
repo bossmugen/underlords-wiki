@@ -1,18 +1,18 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration close: **2026-08-29 21:52 PDT**.
+Last dual-surface integration close: **2026-08-29 21:54 PDT**.
 
 Full branch consumption state is authoritative on MAIN in `archive-intake/INTEGRATOR_BRANCH_STATE.json`; earlier WIKI states remain in Git history.
 
 ## Current boundary
 
 - Census at the reviewed boundary: **49 tracked miner identities = 28 active remote refs + 21 historical/missing refs**.
-- Finite pending: **0**.
+- Finite pending: **1 newly arrived after the 21:52 review close** — Core Rooms advanced from consumed `2c622d0ab738d3421facc2251a5af901fc6f4edf` to seen `5d3fa4d6656196040a79be735513e232b511061f`. It is registered, not overdue, and must be reviewed checkpoint-first next pass.
 - Backlog: **0**.
 - Review-overdue: **0**.
 - Club-Only 2020: seen/consumed `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`.
 - Club-Only 2021–2026: seen/consumed `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`.
-- Core Rooms: seen/consumed `2c622d0ab738d3421facc2251a5af901fc6f4edf`.
+- Core Rooms: seen `5d3fa4d6656196040a79be735513e232b511061f`; consumed `2c622d0ab738d3421facc2251a5af901fc6f4edf`.
 - All Characters: seen/consumed `b0cb5098798454826f0f5f8fe971f6a8205b761b`.
 - Daycare: seen/consumed `3c453c464f6fd9d919a447bd7111e9e976a5ee83`.
 - Mugen person-first: seen/consumed `636ee21372d0acc6e742ae4b14af4421693e82b0`.
@@ -33,7 +33,7 @@ Checkpoint-first, intake-only review covered:
 - Wall forward suffix through `e89ea57c…`.
 - Wall safe-baseline recovery through the 09:46 historical package.
 
-The raw archives were not re-mined.
+The raw archives were not re-mined. The later Core `2c622d0a… -> 5d3fa4d6…` suffix arrived after this review boundary and is deliberately not mislabeled consumed.
 
 ## Public changes
 
@@ -48,7 +48,7 @@ The same biography now carries the 2021 Fish Revolution `COME AT ME OLD MAN` bea
 Reader commit: `bcabbd8633a1d6b3891b768788221ef185cc9e5e`.
 That exact reader commit passed MAIN's source verification, Astro build, built-output verification, Cloudflare deployment and exact production-commit verification.
 
-A concurrent safe MAIN commit also integrated the Core/Nelph package on top of the Zoshaa work: Officer onboarding, real evidence-contact work, event-calendar arithmetic, and the glorious rural-life collapse into chickens, goats, `FarmVille`, satellite WiFi and `I MEANT WIFI😭`. Because that richer owner already landed, this integrator consumed the Core delta without photocopying it.
+A concurrent safe MAIN commit also integrated the Core/Nelph package on top of the Zoshaa work: Officer onboarding, real evidence-contact work, event-calendar arithmetic, and the glorious rural-life collapse into chickens, goats, `FarmVille`, satellite WiFi and `I MEANT WIFI😭`. Because that richer owner already landed, this integrator consumed the reviewed Core delta through `2c622d0a…` without photocopying it. The new `5d3fa4d6…` suffix remains pending.
 
 ### WIKI — Anayss ↔ Gilli gets an actual relationship card
 
@@ -68,7 +68,7 @@ A concurrent safe WIKI change also wired the Wall's recording blind-spot/history
 - Mugen's 2021 Dancefloor cluster across ABBA, *Mambo No. 5*, Cyndi Lauper and Nirvana is accepted as real cross-era music familiarity and collaborative reference play. It is not rejected for lacking a favorite-artist declaration; it simply does not need a filler block when one dense event is currently the whole cluster.
 - Mugen's `UL's very own mermaid` fake serial around Crystalia is accepted as person-specific framing/serialization humor; the immediately preceding image remains visually uninspected.
 - Wall 09:46 materially strengthens the already-public context/capture-system family instead of creating `Out of Context Episode #2`.
-- The same recovery makes Marian's boundary legible: willingness to self-shame or participate in Wall culture is not blanket consent to every filing/joke. Do not flatten her into either `loves all exposure` or `hates the Wall`.
+- The same recovery makes Panda/Marian's boundary legible: willingness to self-shame or participate in Wall culture is not blanket consent to every filing/joke. Do not flatten him into either `loves all exposure` or `hates the Wall`.
 
 ## Held / unresolved
 
