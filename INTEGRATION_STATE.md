@@ -1,20 +1,20 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-08-30 16:33 PDT_
+_Last updated: 2026-08-30 16:40 PDT_
 
-## Current dual-surface integration state — Run 40 / moving-branch close
+## Current dual-surface integration state — Run 40 / final moving-branch close
 
 The lower-evidence project rule remains binding. Hard canon locks, resolved identities, privacy/safety, explicit contradictions, appointment chronology, and attribution fences stay hard; persuasive ordinary human reads do not need courtroom-proof wording.
 
 ### Census / consumption boundary
 
-- **49 tracked miner identities = 28 active remote refs + 21 historical/missing; 0 newly discovered.** Both Club-Only recovery branches remain fully consumed/current.
+- **49 tracked miner identities = 28 active remote refs + 21 historical/missing; 0 newly discovered; 0 finite pending; 0 backlog; 0 overdue.** Both Club-Only recovery branches remain fully consumed/current.
 - All Characters is reviewed and public/consumable through `111851bebb7def0b74912dcc533193a453992232`.
 - Core is reviewed through `8d4ea9f75956eab681c2580d5481f7c03a111f42`; the new suffix was retrieval-failure-only, including failed positive controls, so no historical negative or public claim was manufactured.
 - Daycare is reviewed through `3c5e622b6a391c8af8f7f93a3a48f4500e6d5d41`; Alaina's front-door → Ren tour → later Daycare-regular trajectory is strong but held until direct Daycare-body scenes give it a proper person owner. Exact minor age remains private.
 - Whiskey is reviewed through `a54ade5d5d96c6a1d507a8a6ac3519ed05474ed4`; formal consumed remains `6cd5f9daeb20d77fad20e3cd7465ec938411993d` because earlier accepted Sye/Life material remains MAIN-publication-blocked. Hard correction: **`sycessences` / `ƐℲı˥` = Sye/Life, not Effie**. **Meowk = Alkey remains probable; Key ≠ Alkey remains hard.**
-- Mugen person-first moved late and was followed through `b8ab703fab119ad741b204aefa25fad7302e4571`.
-- Wall moved late and is forward-reviewed through `b3bd92b8622ee7eab290c150604d02fbf0318c0d`. Formal consumed remains null while historical recovery is open. Historical checkpoint-first recovery remains safely through **2026-08-26 15:46 PDT; 16:46 next**; no safe intake-local 16:46 handoff surfaced, so raw archives were not re-mined.
+- Mugen person-first is checkpoint-first reviewed and consumed through final head `24dfa7ec271f847e7bb4a87886511a13575a22b0`. The final two-commit suffix only refreshed checkpoint/public-integration routing and introduced no second evidence family.
+- Wall is forward-reviewed through `b3bd92b8622ee7eab290c150604d02fbf0318c0d`. Formal consumed remains null while historical recovery is open. Historical checkpoint-first recovery remains safely through **2026-08-26 15:46 PDT; 16:46 next**; no safe intake-local 16:46 handoff surfaced, so raw archives were not re-mined.
 - No miner branch was merged or wholesale cherry-picked into either publishing branch.
 
 ### Reader-facing additions
@@ -30,6 +30,7 @@ The lower-evidence project rule remains binding. Hard canon locks, resolved iden
 ### Held / unresolved
 
 - `ничего` now has a strong ordinary-life height scene: Moon places them below herself in a height comparison, `ничего` TRUE-REPLIES `SCRWAMING`, gets called adorable/pretty, then says `I LOVE U I WISH I WAS TALL`. Short/self-sees-short is probable/strong in context, but canonical identity/status is unresolved, so no new Cast owner was invented. No exact height, age, gender, diagnosis, or relationship label is inferred.
+- Daycare's Alaina trajectory is held for direct Daycare-body scenes/proper person ownership rather than making intake paperwork the whole biography.
 - Wall's `stank r8 machine` / `stink off` sequence stays comedy-only, never factual hygiene/odor/health evidence.
 - JumanjiBinx's delayed TRUE-REPLY `Yes` remains a tiny witness beat whose proposition is unresolved.
 - Core's retrieval failure remains an access/runtime problem, not absence evidence.
@@ -41,8 +42,12 @@ Reader head `429b176e09e1b3b1c839157b3035271cdc0aa49d` contains Run-40 deepening
 - **Build Underlords Wiki** `33342011802` — **success**.
 - **Deploy Underlords Wiki Preview** `33342011808` — **success**.
 
-This durable-state commit creates a newer exact `main` head and must pass its own native Build + Pages chain before final reporting.
+Prior durable-state head `0eeb7f91e8a928654f0014171b0e3b5d9e73824b` also passed its exact-head native chain:
+- **Build Underlords Wiki** `33342105957` — **success**.
+- **Deploy Underlords Wiki Preview** `33342105953` — **success**, including successful Pages build, artifact upload, deploy, and report jobs.
+
+This state-only correction advances `main` again to record the true final Mugen consumption boundary; its exact-head native Build + Pages result belongs to the next verification observation rather than being self-referentially invented inside the commit that triggers it.
 
 ### Surface split
 
-WIKI owns these reader changes because they deepen existing Cast/Domain owners instead of duplicating history. MAIN receives no mirrored reader prose in this pass; its stronger use would be later editorial weaving, and its required verifier continues to fail before executable steps are allocated. MAIN still receives the authoritative miner-consumption board and durable dual-surface report.
+WIKI owns these reader changes because they deepen existing Cast/Domain owners instead of duplicating history. MAIN receives no mirrored reader prose in this pass; its stronger use would be later editorial weaving. MAIN receives the authoritative miner-consumption board and durable dual-surface report. The current MAIN verifier continues to fail before executable verification steps are allocated, so that infrastructure failure must not be described as a failed source/Astro/built-output check.
