@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-08-30 11:34 PDT_
+_Last updated: 2026-08-30 11:36 PDT_
 
 ## Current reconciliation boundary
 
@@ -98,11 +98,16 @@ WIKI owns **Rotini Goes From Lurking WC to `SHH EVERYTHING'S FINE`**. The joke s
 
 ## Verification / deployment
 
-Reader-facing Rotini work is commit `6c0ab04f7e40c71bd7472c44b298458cfb420938`:
+Reader-facing Rotini work at `6c0ab04f7e40c71bd7472c44b298458cfb420938` passed both native workflows:
 
 - **Build Underlords Wiki** run `33328199014` — **success**.
 - **Deploy Underlords Wiki Preview** run `33328199040` — **success**, including Pages deployment.
 
-This state update creates a newer exact `main` head. The pass is fully closed only after that exact state head also passes the existing Build Underlords Wiki and Pages/deploy workflows.
+The first durable state close at `dac255135a69e219d455a27067552bc79a8f5b75` also passed both native workflows:
+
+- **Build Underlords Wiki** run `33328321122` — **success**.
+- **Deploy Underlords Wiki Preview** run `33328321128` — **success**, including Pages deployment.
+
+This metadata update creates a newer exact `main` head; that exact head is checked separately before the run report closes.
 
 MAIN remains independently gated. Its recent runs have failed before runner allocation: Build + verify had `runner_id=0`, blank runner name and `steps=[]`, and deployment was skipped. That is an infrastructure failure, not a source/build verdict. No MAIN reader-facing change is treated as verified unless source verification, Astro build, built-output verification, and deployment actually execute and pass.
