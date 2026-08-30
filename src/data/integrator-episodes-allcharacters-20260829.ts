@@ -45,5 +45,32 @@ export const allCharactersIntegratedEpisodes: Episode[] = [
     kind: "identity bridge / early-member chronology catches up with Hami's later Wall reputation",
     logline: "HamitteY directly self-files `Wichita` as his Dragon Raja IGN, and the Raja Photobooth layer places Wichita among UL's earliest members. That changes how his January 2021 Lobby welcome should be read: surviving Discord-door paperwork for somebody whose UL clock already runs further left, not a safe first-membership date. A month later Hami supplies a tiny proof of house fluency when ShiyaX is in his established `AUUUUU` period and Hami says `get the auuuuu guy`. He does not need the formal name; the recurring sound is enough to identify the person the room means. Hami did not necessarily coin AUUUUU, and the line does not rank their closeness. It does something more useful: restores the old-timer underneath the later `Unsugar Hami` / `Salty Ham` / `CHEAP HAM!!!` Wall commodity. Wichita is an IGN, not a location inference; early membership does not date Staff appointment chronology or supply MADE BY / CAPTURED BY credit for Photobooth media.",
     cast: ["HamitteY", "ShiyaX"]
+  },
+  {
+    id: "neme-soup-incident-response",
+    title: "Soup as Incident Response",
+    season: "2026",
+    date: "2026",
+    kind: "ordinary-life care / Neme notices a hacked-friend mess before the friend has fully noticed it",
+    logline: "NemeMoka notices the same images appearing everywhere and notifications going off, realizes a friend's account situation looks wrong, and messages the friend with `u ok? Need some soup to cool your head?` before the friend has apparently even caught up to what happened. Later the friend has to change passwords on everything. The tiny domestic absurdity is the useful character part: Neme's first move is not to lecture about security but to check the person, and the soup joke makes the concern easier to receive. This is a care mechanism inside one incident, not evidence that Neme handled the technical recovery or that soup is somehow an actual cybersecurity protocol.",
+    cast: ["NemeMoka"]
+  },
+  {
+    id: "pride-high-stakes-uno",
+    title: "High Stakes UNO",
+    season: "2020",
+    date: "August 19, 2020",
+    kind: "Club Only premise escalation / Pride sees an engineered stupid idea and immediately starts stress-testing it for comedy",
+    logline: "An absurd UNO-like construction is enough to turn Pride from spectator into co-author. The riff expands through `imagine a draw four`, `imagine drawing 16`, rage, sleep deprivation, knocking the whole thing over, `Uno cube`, `goes from simple uno to survival`, `last man standing wins`, and finally `high stakes uno game`. Then Pride stops merely predicting the casualties and starts admiring the unknown creator: `i want to meet my new role model`, `I love who ever made this`, and a request for the person's name so Pride can ask to be adopted. The original object's exact appearance and creator remain unresolved. The point is the behavior: give Pride a sufficiently overengineered dumb premise and the critic starts helping write the disaster.",
+    cast: ["Pride"]
+  },
+  {
+    id: "wrong-feli-actual-feli-arrives",
+    title: "FINALLY FELI, Twenty Minutes Early",
+    season: "2020",
+    date: "September 29, 2020",
+    kind: "Mugen recognition mistake / anticipation supplies the wrong identity and the real arrival completes the joke",
+    logline: "Mugen greets a newly arriving Degen Rat with `FINALLY FELI`. The person says they are not Feli; Mugen asks `Which one are you?`; the answer is `i was dongwoo`, and four seconds later Mugen has it: `DONGWOOOO`, followed by `my bad 😄` and a welcome. Roughly twenty minutes later MEE6 welcomes the actual Feli account. Mugen's response is `thereeee we go xD` before she sends Feli the normal role/server-map welcome. That later arrival makes the original mistake much more legible: Mugen appears to have been waiting for Feli strongly enough that expectation outran identification. The correction is equally characteristic — once Dongwoo gives the old name, recognition is immediate and the wrong guess is dropped. Degen Rat/Dongwoo is not Feli; the mistaken greeting is never an alias bridge.",
+    cast: ["Mugen", "Feli"]
   }
 ];
