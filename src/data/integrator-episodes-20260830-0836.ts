@@ -29,6 +29,15 @@ export const early0836IntegratedEpisodes: Episode[] = [
     cast: ["Korea", "Mugen", "Ren", "Queen Shimoko"]
   },
   {
+    id: "mugen-saves-lilith-on-vacation",
+    title: "Mugen Saves LilithEl 'On Vacation'",
+    season: "2020",
+    date: "November 18, 2020",
+    kind: "Lobby return / absence status gets translated into reassurance",
+    logline: "LilithEl comes back sounding genuinely unsure whether the door is still hers: `idk if i'm still in underlords oops`. Mugen TRUE-REPLIES with the answer before the uncertainty can grow legs: `Dw bb I saved your account on vacation uwu`. The wording is doing two jobs at once. `saved` says LilithEl's place was preserved rather than silently discarded; `Dw bb` and the closing `uwu` turn whatever bookkeeping sat underneath that decision into something almost aggressively reassuring. A later export also preserves a literal server role named `STAFF VACATION`, which makes `vacation` look like established UL status vocabulary rather than a one-off cute metaphor. That does **not** prove LilithEl herself held that Staff-only role, when any role was assigned, or whether Mugen was referring to Discord state, Dragon Raja handling, or both. What the direct exchange does establish is simpler and more useful: LilithEl worries she may have fallen out of the house; Mugen answers as if she had already made sure that would not happen.",
+    cast: ["LilithEl", "Mugen"]
+  },
+  {
     id: "gandalf-lobby-intake",
     title: "You Shall Not Pass the Intake Form",
     season: "2020",
@@ -52,7 +61,7 @@ export const early0836IntegratedEpisodes: Episode[] = [
     season: "2020–2022",
     date: "October 2020 – July 2022",
     kind: "Wall running gag / defendants learn they can apparently file charges against themselves",
-    logline: "The Wall was never only a place where somebody else caught you. By October 2020 Snow is already trying to lawyer the room from inside it: `you cant wall of shame me in the wall of shame room if I shamed myself first 😛`. The line reads like fake procedural immunity — prosecute yourself first and perhaps the court loses jurisdiction. The loophole keeps reappearing in practice. In June 2021 Eos POSTS an image with `gonna just put myself here and head out-`. In August Vanness dispenses with the middleman entirely: `Im putting myself in wall of shame for losing 5 orange dracs for merge. Shame me`, then has to explain four failed merges and concludes `my luck is💩`. In 2022 porgo twice arrives with the same basic move, first `putting myself up here cause im very mad at myself`, later `im exposing myself`, each time POSTING an image. Across the surviving direct-text record, self-filing becomes recognizable house grammar: people can enter their own evidence, request sentencing, or try to preempt the prosecution by beating everybody else to the shame. Snow is the earliest surviving direct formulation recovered so far, not a proven origin, and the Eos/porgo images remain visually uninspected — POSTED BY is the only media claim.",
+    logline: "The Wall was never only a place where somebody else caught you. By October 2020 Snow is already trying to lawyer the room from inside it: `you cant wall of shame me in the wall of shame room if I shamed myself first 😛`. The line reads like fake procedural immunity — prosecute yourself first and perhaps the court loses jurisdiction. The loophole keeps reappearing in practice. In June 2021 Eos POSTS an image with `gonna just put myself here and head out-`. In August Vanness dispenses with the middleman entirely: `Im putting myself up here for losing 5 orange dracs for merge. Shame me`, then has to explain four failed merges and concludes `my luck is💩`. In 2022 porgo twice arrives with the same basic move, first `putting myself up here cause im very mad at myself`, later `im exposing myself`, each time POSTING an image. Across the surviving direct-text record, self-filing becomes recognizable house grammar: people can enter their own evidence, request sentencing, or try to preempt the prosecution by beating everybody else to the shame. Snow is the earliest surviving direct formulation recovered so far, not a proven origin, and the Eos/porgo images remain visually uninspected — POSTED BY is the only media claim.",
     cast: ["Snow", "Eos", "Vanness", "porgo", "Gilli", "Candy", "Ren"]
   },
   {
