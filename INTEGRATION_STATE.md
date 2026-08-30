@@ -1,73 +1,65 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-08-30 09:49 PDT_
+_Last updated: 2026-08-30 10:24 PDT_
 
 ## Current reconciliation boundary
 
-The wiki remains the long-form reference companion to `bossmugen/underlords`, not a competing lore system. Current integration follows the project-wide lower evidence threshold: hard canon/identity/privacy/attribution boundaries stay hard; strong contextual human reads are publishable when the surrounding evidence earns them.
+The wiki is the long-form reference companion to `bossmugen/underlords`, not a competing lore system. The project-wide lower evidence threshold remains binding: hard canon, resolved identity, privacy/safety, contradictions, and exact attribution fences stay hard; strong contextual human reads are publishable when the surrounding evidence makes them more likely than not.
 
-### Miner census shared with MAIN
+### Shared miner census
 
 - **49 tracked miner identities** = **28 active remote refs + 21 historical/missing refs**.
-- Opening movers this pass: Wall `b9f3211d0a2792e82ed6ad2d0639233270e88a4a -> f1ca9f59128a131201ace2b8dcd19c835e3c243a`; Core `b256b7cc174a5bb06806099d1d05d0e02aa8afae -> 711f24e46ac77a80a7a11710fb5fe87f1c97f067`; Louvre `e46669962529e89958a4671a3721b9c49db63444 -> 81a81ff419638f66dcf8d86d2cb6967da02d960b`; Mugen person-first `20b9f7f6f387ab5bcb8bfb7c7b906fa5b3fdf657 -> df4d590fade3f56cab7380bf9425e08287b6e754`.
-- Both Club-Only recovery targets remain consumed/current.
-- Wall remains the sole cumulative historical recovery floor; its formal consumed SHA stays null while that floor is open.
-- Whiskey remains reviewed through its live head but publication-blocked on MAIN, not unread.
-- No miner branch was merged or wholesale cherry-picked into either public branch.
+- **0 newly discovered** at opening census.
+- Opening finite mover: Core `711f24e46ac77a80a7a11710fb5fe87f1c97f067 -> 0e8081e48d429f258a2bf55287199c148a605f66`.
+- Wall moved repeatedly after census; MAIN registered those moving heads before deep review. Current reviewed suffix target for this pass is through `a29fc19bc380f890f1164a64d3c218a73ccdf1c8`; formal Wall consumed remains null while its older recovery floor is open.
+- Both Club-Only recovery branches remain consumed/current.
+- Whiskey remains reviewed but publication-blocked on MAIN, not unread.
+- No miner branch was merged or wholesale cherry-picked into a publishing branch.
 
 ## This pass
 
-### Wall forward delta — reviewed through `f1ca9f59128a131201ace2b8dcd19c835e3c243a`
+### Core Rooms — `711f24e... -> 0e8081e...`
 
-The strongest new owner is now **The Screenshot Isn't Even Here Yet**. On May 11, 2021, Korea enters the Wall with no attachment and one threat: `wait til i find the pineapple buttplug ss :v_sip:`. Ren TRUE-REPLIES to that exact parent, keyboard-smashes, then says `I REMEMBER THAT`; Queen Shimoko TRUE-REPLIES to the same parent with spit emotes. The absent file is the point. By this point a Wall case could remain socially alive before somebody had recovered the receipt: memory, recognition and the promise of later excavation were enough to reactivate the joke.
+The strongest new public scene is **FireLegacy Speed-Runs Her Old Rank Stack**. On April 19, 2021, Gabu asks `what rank is she?` and FireLegacy answers in layers: `Staff 😂`, then `Leader Infinity, leading elite`, then wonders whether everyone somehow skipped Fire Legacy leadership while her visible period title is already `Radiant Asst. Hot Springs Manager`. Mugen says she never knew any of this; FireLegacy mildly reminds her that she had been gone from FL for a while, and Mugen agrees.
 
-That does **not** prove Korea later found or posted the screenshot, what it showed, who appeared in it, or who made/captured it. The file is absent; the recognition is preserved.
+The scene is published as lived social archaeology, not an appointment ledger. FireLegacy's own period role labels are usable; exporter/current role arrays are not back-dated into a formal chronology.
 
-The same forward suffix adds ShiyaX's recurring `someone else was on my account` defense, Miihi as a bounded Wall filer with unresolved screenshot pixels, and a thin Queen Shimoko reaction profile. These are banked rather than inflated into separate pages. `My koi` remains Mugen's wording, not a literal relationship lock.
+The same Core suffix also supplies Wonder Alice's bounded Lobby identity/access scene and Alexxx's `friend role for now` access-floor scene. Those are banked rather than inflated: Wonder Alice's age/club line is only a period self-report, and neither scene justifies invented governance or identity bridging.
 
-Historical Wall safe-baseline recovery remains through the bounded **2026-08-26 03:46** package. **04:46 is next**. No raw archive was re-mined to manufacture a missing bounded handoff.
+### Wall forward suffix — `f1ca9f... -> a29fc19...`
 
-### Core Rooms — reviewed through `711f24e46ac77a80a7a11710fb5fe87f1c97f067`
+The strongest new public culture owner is **You Can't Shame Me If I Shamed Myself First**. Surviving direct-text examples now form a clean cross-year Wall grammar: Snow in October 2020 tries the procedural loophole that nobody can Wall-shame him if he shames himself first; Eos in June 2021 POSTS an image with `gonna just put myself here and head out-`; Vanness in August 2021 explicitly files Vanness for a failed merge and requests `Shame me`; porgo repeats the self-filing move in 2022.
 
-The discrete public keeper is **You Shall Not Pass the Intake Form**. On November 27, 2020, Gilli asks Olenka for `ign, club, and age` and explains that Staff cannot assign a role without them. Gabu translates the same access-control problem into house language: `Pls ign,club and age or....:` followed by a third-party Gandalf `You Shall Not Pass` Tenor GIF. Anthos can only answer `Gandalf 😩`. Olenka later completes the form as Olenka / Forsaken / adult.
+This is not an origin claim. Snow is simply the earliest surviving direct formulation currently recovered. The Eos/porgo images remain visually uninspected, so POSTED BY is the only media claim.
 
-The bureaucracy is real; Gandalf is the bouncer. Gabu is POSTED LINK BY for the Tenor object, not its maker/capturer. A later exporter VIP snapshot is not back-dated into this doorway scene as an appointment record.
+The same Wall suffix materially closes ShiyaX's recurring account-intruder defense at the reply-parent level. Both Oct. 15 lines attach to freshly filed image evidence, and the Nov. 1 branch supplies the same `someone else was on my account` move. The recurring alibi is strong enough to read as likely comic responsibility-laundering, but the sealed images do not acquire invented subjects, makers, capturers, or authorship. That material is banked for Shiya's richer person owner instead of receiving a second tiny Episode.
 
-The same delta also confirms that Shurui/Spritely's previously vague `the plabn` exchange sits in explicit **Land of Conquest** event context, and preserves several Fire Legacy visitor self-reported roles. Those are useful chronology/background corroboration, not another standalone episode. One age-gate reply indicates a period minor; that stays safety/history context rather than public punchline material.
+Vanness's self-prosecution/game-frustration beat is folded into the cross-year self-shame owner rather than duplicated. Usama's full Wall footprint is now context-sampled and remains thin/reactive with one useful founder-history curiosity beat; no inflated profile was manufactured.
 
-### Louvre — duplicate/corroboration review through `81a81ff419638f66dcf8d86d2cb6967da02d960b`
-
-The fresh handoff's best Yumi material is already owned richly by the current Yumi dossier: April 2020 `i don't watch anime much so no clue` alongside `trying to dig deeper now` and the remembered blind swordswoman she thought was neat, plus September's immortal adult thesis `boo workkk` / `yay sleeppp`. The new delta corroborates that person-shaped reading but adds no better public owner than the existing biography, so no duplicate prose was created. Simple's `Next time I'll stay quiet lol` remains too scene-thin to become a permanent personality label.
-
-### Mugen person-first — reviewed through `df4d590fade3f56cab7380bf9425e08287b6e754`
-
-The material addition is Mugen translating ShiyaX's tree-branch life in real time: Yaya is making Shiya a holder for the branch instead of its `usual water bottle`; Mugen then catches herself with `i just set myself up for this huh lol`, and Shiya answers `yup`. `usual` is the useful tiny word: Mugen knows enough of a friend's ongoing weird physical-world project to state the baseline before immediately realizing she has walked into the next joke.
-
-WIKI already owns this evidence family as **Shiya's Tree Branch Has a Channel Address**, so the new line is supporting/corroborative rather than grounds for a photocopy. Exact raw IDs/media and the route by which Mugen knew the context remain unresolved; the wiki does not claim she originated the bit. The branch's late move from `5f70fcb...` to `df4d590...` changed only its routing checkpoint and introduced no second evidence family.
+Historical Wall safe-baseline recovery remains through **2026-08-26 03:46**. **04:46 is next.** No raw archive was re-mined and no missing bounded handoff was invented.
 
 ## Public ownership / dedup
 
-- **WIKI:** `The Screenshot Isn't Even Here Yet` — bounded Wall evidence-memory episode.
-- **WIKI:** `You Shall Not Pass the Intake Form` — bounded Lobby access-control episode.
-- **Existing WIKI Yumi dossier:** keeps the anime-curiosity and work/sleep material; Louvre was consumed as corroboration rather than duplicated.
-- **Existing WIKI Shiya episode:** keeps the tree-branch callback; Mugen's `usual water bottle` line is supporting relationship texture pending a cleaner raw join, not a duplicate new episode.
-- **MAIN intentionally reader-unchanged this pass:** the two accepted new public items are better incident/room-process owners on WIKI, while MAIN's Sye enrichment remains separately blocked on MAIN verification infrastructure.
+- **WIKI:** `FireLegacy Speed-Runs Her Old Rank Stack` — discrete Lobby/Fire Legacy archaeology scene.
+- **WIKI:** `You Can't Shame Me If I Shamed Myself First` — cross-year Wall running-gag/culture episode.
+- **Banked:** ShiyaX recurring account-intruder alibi for the richer Shiya person owner; exact triggering image contents remain unresolved.
+- **Banked:** Wonder Alice / Alexxx access texture; neither is rich enough for a forced standalone page.
+- **MAIN intentionally reader-unchanged for these two items:** both are cleaner WIKI Episode/Running-Gag owners; MAIN should not become a photocopy merely for symmetry.
 
 ## Verification / deployment
 
-Reader-facing WIKI commit: `b1584980d7d3925acf380ae028d1e057d0dd0446`.
+Reader-facing WIKI commit: `eb1c25223984e67cd9b54995f1c3275cddb79caf`.
 
-- Build Underlords Wiki `33323125458` — **success**. Astro build executed and passed on a real runner.
-- Deploy Underlords Wiki Preview `33323125408` — **success** on the same reader head.
+- Build Underlords Wiki `33324969025` — **success**; `Build Astro wiki` executed and passed on a real runner.
+- Deploy Underlords Wiki Preview `33324969038` — **success**; Pages preview build, artifact upload, and deploy all completed successfully on the same reader head.
 
-The first durable state head, `f3c9cf86027a4a2363fcf7f62651b6dcee3d212f`, also passed its normal repository chain: Build Underlords Wiki `33323308570` — **success**; Deploy Underlords Wiki Preview `33323308562` — **success**. The closing state-only commit does not alter reader data.
+This state file is a state-only close after successful reader verification. Its own push should be checked through the repository's normal Build/Pages chain before the run is considered fully closed.
 
 ## Holds / hard rails preserved
 
-- Historical Wall recovery: through 03:46; exact 04:46 bounded handoff still next.
-- Korea's promised screenshot: absent; no content/subject/maker/capturer claims.
-- Miihi: no identity merge with KOREA/Milk; screenshot pixels unresolved.
-- ShiyaX account-intruder defense: underlying triggering object remains unresolved.
-- Fire Legacy visitor roles: self-reported period roles only, not inferred appointment chronology or a formal delegation claim.
+- Historical Wall: through 03:46; exact bounded 04:46 next.
+- ShiyaX Oct. 15 images: visually unresolved; pooled Deleted User stays pooled/quarantined.
+- FireLegacy: self-reported period roles only; no invented appointment sequence from exporter role arrays.
+- Snow self-shame: earliest surviving direct wording, **not origin**.
 - `sycessences` / `ƐℲı˥` remains hard-resolved to **Sye/Life, not Effie**.
-- Whiskey remains publication-blocked on MAIN; its accepted Sye ordinary-life material is not discarded or reassigned.
+- Whiskey remains publication-blocked on MAIN; accepted Sye ordinary-life material stays attached to Sye/Life.
