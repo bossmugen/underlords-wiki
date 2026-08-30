@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-08-30 09:22 PDT_
+_Last updated: 2026-08-30 09:43 PDT_
 
 ## Current reconciliation boundary
 
@@ -9,64 +9,65 @@ The wiki remains the long-form reference companion to `bossmugen/underlords`, no
 ### Miner census shared with MAIN
 
 - **49 tracked miner identities** = **28 active remote refs + 21 historical/missing refs**.
-- **0 finite pending-review**, **0 backlog**, **0 review-overdue**.
-- Both Club-Only miners and Core Rooms are consumed/current.
-- Wall is the sole cumulative historical recovery floor.
-- Whiskey is reviewed through its live head but remains publication-blocked on MAIN rather than unread.
-- Miner branches are evidence workspaces only; none were merged or wholesale cherry-picked into either public branch.
+- Opening movers this pass: Wall `b9f3211d0a2792e82ed6ad2d0639233270e88a4a -> f1ca9f59128a131201ace2b8dcd19c835e3c243a`; Core `b256b7cc174a5bb06806099d1d05d0e02aa8afae -> 711f24e46ac77a80a7a11710fb5fe87f1c97f067`; Louvre `e46669962529e89958a4671a3721b9c49db63444 -> 81a81ff419638f66dcf8d86d2cb6967da02d960b`; Mugen person-first `20b9f7f6f387ab5bcb8bfb7c7b906fa5b3fdf657 -> df4d590fade3f56cab7380bf9425e08287b6e754`.
+- Both Club-Only recovery targets remain consumed/current.
+- Wall remains the sole cumulative historical recovery floor; its formal consumed SHA stays null while that floor is open.
+- Whiskey remains reviewed through its live head but publication-blocked on MAIN, not unread.
+- No miner branch was merged or wholesale cherry-picked into either public branch.
 
 ## This pass
 
-### Wall forward delta — reviewed through `b9f3211d0a2792e82ed6ad2d0639233270e88a4a`
+### Wall forward delta — reviewed through `f1ca9f59128a131201ace2b8dcd19c835e3c243a`
 
-The 08:36 Wall package was reviewed checkpoint-first and intake-only. Its strongest owner is now the 2021 Episode **Ghoulie & Panda's House of Shame**.
+The strongest new owner is now **The Screenshot Isn't Even Here Yet**. On May 11, 2021, Korea enters the Wall with no attachment and one threat: `wait til i find the pineapple buttplug ss :v_sip:`. Ren TRUE-REPLIES to that exact parent, keyboard-smashes, then says `I REMEMBER THAT`; Queen Shimoko TRUE-REPLIES to the same parent with spit emotes. The absent file is the point. By this point a Wall case could remain socially alive before somebody had recovered the receipt: memory, recognition and the promise of later excavation were enough to reactivate the joke.
 
-On July 7, 2021, Ren announces Ghoulie's return as reclaiming the Wall. Baby Lyssa/Ghoulie and Marian/Panda promptly turn the room into live evidence generation: Eos files Marian, considers whether to send more, and jokes that one receipt might get them `divorced`; Tofu files another receipt; Ghoulie says she is `no longer safe` and then declares `this is my house y’all just livin in it`; Marian answers the fake-domestic premise with dishes/kitchen/food talk; Mugen points out that if they simply keep talking in the Wall nobody even needs screenshots anymore; Snow mock-renames the room **Ghoulie & Panda's house of shame** and suggests they may need their own subchannel because the material is apparently self-producing.
+That does **not** prove Korea later found or posted the screenshot, what it showed, who appeared in it, or who made/captured it. The file is absent; the recognition is preserved.
 
-The useful read is the mechanism, not fake literal domestic canon: the Wall briefly stops being a place where somebody brings evidence from elsewhere and becomes a room where the defendants manufacture admissible material in real time. Eos's restraint is also part of the scene—she visibly has more receipts and chooses whether to spend them.
+The same forward suffix adds ShiyaX's recurring `someone else was on my account` defense, Miihi as a bounded Wall filer with unresolved screenshot pixels, and a thin Queen Shimoko reaction profile. These are banked rather than inflated into separate pages. `My koi` remains Mugen's wording, not a literal relationship lock.
 
-Hard boundaries remain: no literal cohabitation, divorce, marriage, or household inference; Ren/Eos/Tofu images remain visually uninspected; POSTED BY is not MADE BY/CAPTURED BY/FEATURING. Baby Lyssa's immediate reaction makes her probable target/subject of Tofu's receipt without authorizing pixel description.
+Historical Wall safe-baseline recovery remains through the bounded **2026-08-26 03:46** package. **04:46 is next**. No raw archive was re-mined to manufacture a missing bounded handoff.
 
-The same package resolves the parent of Gilli's `B.O.B CRIIIIMME`: it is a true reply to Daya's December 13, 2022 Dragon Raja height screenshot and `why am i ... Gilli's height`. The acronym expansion itself remains unresolved. Keon's five authored Wall messages remain too thin for forced characterization.
+### Core Rooms — reviewed through `711f24e46ac77a80a7a11710fb5fe87f1c97f067`
 
-Historical Wall safe-baseline recovery remains through the bounded **2026-08-26 03:46** package. **04:46 is next**, but the exact bounded handoff is not yet safely resolved; no raw archive was re-mined to manufacture one.
+The discrete public keeper is **You Shall Not Pass the Intake Form**. On November 27, 2020, Gilli asks Olenka for `ign, club, and age` and explains that Staff cannot assign a role without them. Gabu translates the same access-control problem into house language: `Pls ign,club and age or....:` followed by a third-party Gandalf `You Shall Not Pass` Tenor GIF. Anthos can only answer `Gandalf 😩`. Olenka later completes the form as Olenka / Forsaken / adult.
 
-### Late All Characters mover — consumed through `0a1ebf6b6eb7a951b1154e04c20f6f7c65b63c10`
+The bureaucracy is real; Gandalf is the bouncer. Gabu is POSTED LINK BY for the Tenor object, not its maker/capturer. A later exporter VIP snapshot is not back-dated into this doorway scene as an appointment record.
 
-A closing census caught `archive-miner/all-characters-hr-20260828` advancing after the opening census. MAIN first registered the new head as **seen but not consumed**, then the delta was reviewed checkpoint-first/intake-only through Run 35.
+The same delta also confirms that Shurui/Spritely's previously vague `the plabn` exchange sits in explicit **Land of Conquest** event context, and preserves several Fire Legacy visitor self-reported roles. Those are useful chronology/background corroboration, not another standalone episode. One age-gate reply indicates a period minor; that stays safety/history context rather than public punchline material.
 
-The strong ShiyaX layer is not another title receipt. His wedding-planner life arrives as process—`wedding shyt`, `Very smol wedding haps`, `Tis coming together`, `All done`, `taking it apart`. Baby Lyssa later asks about the `tree branch drowning ???`; Shiya answers `Tis in slice`, and Mugen supplies the bedside-aquarium / pet-tree-branch backstory. That tiny answer is the character mechanism: the project has enough prior life that Shiya does not retell it; he gives the confused witness the room where the previous episode lives.
+### Louvre — duplicate/corroboration review through `81a81ff419638f66dcf8d86d2cb6967da02d960b`
 
-The same layer pairs `Take it to #🥃💬｜whiskey-room guys` with HamitteY's later `u missed the chaos` and Shiya's **`I AM THE CHAOS`**. Room literacy and self-aware disorder coexist. Neither is a formal role.
+The fresh handoff's best Yumi material is already owned richly by the current Yumi dossier: April 2020 `i don't watch anime much so no clue` alongside `trying to dig deeper now` and the remembered blind swordswoman she thought was neat, plus September's immortal adult thesis `boo workkk` / `yay sleeppp`. The new delta corroborates that person-shaped reading but adds no better public owner than the existing biography, so no duplicate prose was created. Simple's `Next time I'll stay quiet lol` remains too scene-thin to become a permanent personality label.
 
-WIKI now owns the bounded callback as **Shiya's Tree Branch Has a Channel Address**, published at reader head `e789f992eb7b6458fdd6d9ec979d73427f2bd75b`. Build `33321987106` and Pages/deploy `33321987025` succeeded. MAIN already owns Shiya's broader person-shaped chronology, so the sites remain complementary instead of cloning paragraphs.
+### Mugen person-first — reviewed through `df4d590fade3f56cab7380bf9425e08287b6e754`
 
-Still unresolved: the exact underlying Slice artifact/pixels, the June 2021 congratulations occasion, HamitteY's `I blame you` parent, and later 2022–2026 life/repair. Jas and New were corroboration-only in the tested catalog layer; NemeMoka, Pride, SaraBunny, Yaza and Dyingfox produced bounded no-new checks and remain open rather than being falsely exhausted.
+The material addition is Mugen translating ShiyaX's tree-branch life in real time: Yaya is making Shiya a holder for the branch instead of its `usual water bottle`; Mugen then catches herself with `i just set myself up for this huh lol`, and Shiya answers `yup`. `usual` is the useful tiny word: Mugen knows enough of a friend's ongoing weird physical-world project to state the baseline before immediately realizing she has walked into the next joke.
 
-### Whiskey / Sye correction
-
-The Whiskey live delta through `becfa8f3bc1a244597107a52a3272690a39242d6` remains fully reviewed. Its miner labels account `488099199938986004` / `sycessences` / `ƐℲı˥` as Effie, but hard project identity canon resolves that account to **Sye/Life**. The accepted ordinary-life material therefore belongs to Sye: pizza follow-through to ShiyaX, repeated boba plus terminology fussiness, folk-metal taste, accidental eye-doctor flirting versus ambient room flirting, individually named morning greetings, `come meet your neighbors`, pandemic-era gym avoidance over poor distancing, and probable validation of Gilli's workplace nonsense. No nationality/ethnicity, orientation, relationship status, medical vulnerability, or exact location is inferred.
-
-This material remains queued for MAIN's Sye biography because MAIN owns the canonical public character story. The wiki already has a substantial Sye life-story and does not need a mirror dump merely because MAIN's runner is sick.
+WIKI already owns this evidence family as **Shiya's Tree Branch Has a Channel Address**, so the new line is supporting/corroborative rather than grounds for a photocopy. Exact raw IDs/media and the route by which Mugen knew the context remain unresolved; the wiki does not claim she originated the bit. The branch's late move from `5f70fcb...` to `df4d590...` changed only its routing checkpoint and introduced no second evidence family.
 
 ## Public ownership / dedup
 
-- **WIKI:** `Ghoulie & Panda's House of Shame` — bounded Episode / 2021-season lookup owner.
-- **WIKI:** `Shiya's Tree Branch Has a Channel Address` — bounded ordinary-life callback/room-lore owner.
-- **MAIN:** Shiya's broader biography already owns the wedding-work process, room-routing, tree-branch callback, and `I AM THE CHAOS` as person-shaped chronology; no mirror rewrite was needed.
-- **MAIN intentionally unchanged for Sye:** accepted Whiskey ordinary-life enrichment remains queued until MAIN's required verification can actually execute.
-- Eos selective-filer texture stays inside the Ghoulie/Panda Episode rather than split into a second page.
-- `B.O.B CRIIIIMME` remains a resolved-parent / unresolved-acronym note, not a fabricated Running Gag definition.
+- **WIKI:** `The Screenshot Isn't Even Here Yet` — bounded Wall evidence-memory episode.
+- **WIKI:** `You Shall Not Pass the Intake Form` — bounded Lobby access-control episode.
+- **Existing WIKI Yumi dossier:** keeps the anime-curiosity and work/sleep material; Louvre was consumed as corroboration rather than duplicated.
+- **Existing WIKI Shiya episode:** keeps the tree-branch callback; Mugen's `usual water bottle` line is supporting relationship texture pending a cleaner raw join, not a duplicate new episode.
+- **MAIN intentionally reader-unchanged this pass:** the two accepted new public items are better incident/room-process owners on WIKI, while MAIN's Sye enrichment remains separately blocked on MAIN verification infrastructure.
 
 ## Verification / deployment
 
-Reader-facing WIKI changes are green:
+Reader-facing WIKI commit: `b1584980d7d3925acf380ae028d1e057d0dd0446`.
 
-- `Ghoulie & Panda's House of Shame` at `cc9f14ec7e096b41e3f7c40aacb338dd684c2ee9`: Build `33320910846` — **success**; Pages/deploy `33320910844` — **success**.
-- `Shiya's Tree Branch Has a Channel Address` at `e789f992eb7b6458fdd6d9ec979d73427f2bd75b`: Build `33321987106` — **success**; Pages/deploy `33321987025` — **success**.
+- Build Underlords Wiki `33323125458` — **success**. Astro build executed and passed on a real runner.
+- Deploy Underlords Wiki Preview `33323125408` — **success** on the same reader head.
 
-This durable state commit must also pass the repository's normal build + Pages workflow; its exact-head result is checked before final close when available.
+This state commit is also expected to run the repository's normal build + Pages chain; its exact-head result is checked at close when available.
 
-## MAIN dependency / hold
+## Holds / hard rails preserved
 
-MAIN verification remains infrastructure-blocked. `UL Hourly Build + Deploy` run `33321303376` failed before executable steps appeared; attempt 2 failed the same way and deployment was skipped. Because source verification, Astro build, and built-output verification never actually ran, Whiskey's `last_consumed_sha` intentionally remains at `6cd5f9daeb20d77fad20e3cd7465ec938411993d` and the Sye reader edit is not being shoved through a dead gate.
+- Historical Wall recovery: through 03:46; exact 04:46 bounded handoff still next.
+- Korea's promised screenshot: absent; no content/subject/maker/capturer claims.
+- Miihi: no identity merge with KOREA/Milk; screenshot pixels unresolved.
+- ShiyaX account-intruder defense: underlying triggering object remains unresolved.
+- Fire Legacy visitor roles: self-reported period roles only, not inferred appointment chronology or a formal delegation claim.
+- `sycessences` / `ƐℲı˥` remains hard-resolved to **Sye/Life, not Effie**.
+- Whiskey remains publication-blocked on MAIN; its accepted Sye ordinary-life material is not discarded or reassigned.
