@@ -1,6 +1,6 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration close: **2026-08-29 22:00 PDT**.
+Last dual-surface integration close: **2026-08-29 22:35 PDT**.
 
 Full branch consumption state is authoritative on MAIN in `archive-intake/INTEGRATOR_BRANCH_STATE.json`; earlier WIKI states remain in Git history.
 
@@ -13,11 +13,11 @@ Full branch consumption state is authoritative on MAIN in `archive-intake/INTEGR
 - Club-Only 2020: seen/consumed `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`.
 - Club-Only 2021–2026: seen/consumed `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`.
 - Core Rooms: seen/consumed `7fce5fa707febe5975757ab7278212d86f048a45`.
-- All Characters: seen/consumed `b0cb5098798454826f0f5f8fe971f6a8205b761b`.
-- Daycare: seen/consumed `3c453c464f6fd9d919a447bd7111e9e976a5ee83`.
-- Mugen person-first: seen/consumed `636ee21372d0acc6e742ae4b14af4421693e82b0`.
-- Whiskey: seen/consumed `f33fadb14e834fb3304f48c21cc40ae64a55e1de`.
-- Wall: forward-reviewed through `e89ea57cba218020f47916887d48bf764f47988e`; formal consumed remains null while cumulative historical recovery stays open. Historical recovery is reviewed through **2026-08-25 10:46**; **11:46 is next**.
+- All Characters: seen/consumed `8852d2264762a7757564034a92fc74b47ec7f37a`.
+- Daycare: seen/consumed `a68896131717b570ec7c6bdcc1a35e45fffe1f17`.
+- Mugen person-first: seen/consumed `1503b2494bbe42e0730d79cb4d695ad6b2938f5d`.
+- Whiskey: seen/consumed `7978dda241b2c8169ad13f98a16a54006db1c5a6`.
+- Wall: forward-reviewed through `f24df16b7f73905baca448b70cae9c0937992fa4`; formal consumed remains null while cumulative historical recovery stays open. Historical recovery is reviewed through **2026-08-25 11:46**; **12:46 is next**.
 
 No miner branch was merged or cherry-picked wholesale.
 
@@ -25,50 +25,65 @@ No miner branch was merged or cherry-picked wholesale.
 
 Checkpoint-first, intake-only review covered:
 
-- Core Rooms `2c622d0a… -> 7fce5fa7…`.
-- Wall historical safe-baseline recovery through the 10:46 package while its forward head remained current.
+- All Characters `b0cb5098… -> 8852d226…`.
+- Daycare `3c453c46… -> a6889613…`.
+- Whiskey `f33fadb1… -> 7978dda2…`.
+- Wall forward `e89ea57c… -> f24df16b…`.
+- Wall historical safe-baseline recovery through the 11:46 package; 12:46 next.
+- Mugen person-first `636ee213… -> 1503b249…`, caught after the branch moved during the closing census and reviewed rather than silently equating seen with consumed.
 
-The raw archives were not re-mined. The previously registered late Core mover was reviewed rather than silently treating `seen` as `consumed`.
+Raw archives were not re-mined.
 
 ## Public changes
 
-### MAIN — Nyanuri's evidence is kept, but the roster category stays hard
+### MAIN — Acoryuie's last call of the day
 
-The Core review produced a strong Nyanuri person-shaped candidate in `src/content/people/nyanuri.md`, but MAIN now keeps it at `publication: review` rather than silently converting a truncated doorway into a public roster category.
+Acoryuie's biography now includes the February 17, 2021 Club-Only beat where they say they are in a call with Ruby and that talking to him is `always how I tend to end my days`.
 
-The evidence itself remains useful. Mugen answers Nyanuri's Lobby arrival with `Yay you made it!`, which makes some pre-door expectation or recognition more likely than a completely cold entrance without identifying the inviter. Within the hour Nyanuri is saying `hiii friendsss`, calibrating the affection-command pile with `just pat`, then admitting `aww i do like headpats`.
+The ordinary contextual read is allowed to be ordinary: a repeated end-of-day conversation habit is strong evidence of close recurring companionship. `Always` is doing the interesting work. The relationship does not need a romance label or a notarized category to be real texture; the archive catches closeness as routine rather than declaration.
 
-Two days later comes the cleaner human read: `hi I'm not super active, but I just wanted to say y'all are positive and great and make me wanna play more ☺️`. The `but` matters. Nyanuri is not claiming loud-room centrality; they are saying a room they barely fill still changes whether the game feels worth opening. That inference is accepted. What is not accepted is manufacturing the missing club/member field needed to place them safely into MAIN's public people taxonomy. Lowering the evidence threshold for ordinary texture does not lower the hard threshold for membership/category identity.
+MAIN reader-content commit `0ea94f46319a3386e831ab61a7ea0795f4846b9c` passed **UL Hourly Build + Deploy** run `33295308062`, including source verification, Astro build, built-output verification, Cloudflare deployment, and exact production-commit verification.
 
-MAIN's category-boundary correction is commit `e214c4c83558009c3df06222bbb12f31b22b84eb`.
+### WIKI — Vanness learns the entire Wall in two weeks
 
-### WIKI — four compact incidents, with Nyanuri treated as a scene participant rather than a guessed roster category
+`src/data/integrator-episodes-20260829-2235.ts` adds **Shame Me**.
 
-`src/data/integrator-episodes-20260829-2200.ts` is wired into Episodes, dynamic Episode routes, and Seasons.
+Anthos assigns Vanness server roles on July 27. About fifteen and a half hours later Mugen is already posting `Welcome to the wall @Vanness`. Six days later Vanness has moved from subject to prosecutor with `Shame @Deleted User`. When ShiyaX later files a Vanness-tagged exhibit, Vanness attempts an instant transfer of liability — `ITS GABU WHO SUCKED IT DRY, NOT MEEE`. Then August 10 removes the need for law enforcement entirely: Vanness self-files five lost orange dracs, says `Shame me`, explains four failed merges, and concludes `my luck is💩`.
 
-- **VIP Status for Now** — NEMESIS JANE arrives in Lobby and Mugen says `will assign VIP status for now and full access after contests tonight 🙂`. In this dated case the tiny phrase `for now` makes VIP behave like a practical temporary/staging access state rather than only a fixed ceremonial identity. It does not prove a universal VIP policy or prove the planned later conversion happened.
-- **I'm Not Super Active, But…** — Nyanuri's low-activity compliment gets the bounded incident version without forcing a MAIN roster classification. The point is not `quiet member = secretly central`; it is that the people themselves were apparently feeding motivation back into the game.
-- **Mutually Assured Exposure** — Panda, posting under historical display `Marian Kage`, and Tony repeatedly turn familiarity into screenshot ammunition. Tony protests public exposure, Marian tells him he makes screenshot material because he loves her, Tony retaliates, and by June Marian herself is answering Tony's return fire with `that'ssprivate`. Neither stays archivist or defendant for long. The affection language is playful relationship texture, not literal romance; the attachments remain visually uninspected.
-- **I Swear I Used Deodorant** — Rummy's Wall defense goes `i swear i used deodorant` → `ASK NOBU` → `she knows im stinky`. She effectively calls a witness and then impeaches her own case before the witness reaches the stand. This is participant joke-language, not a literal hygiene diagnosis.
+The interesting movement is role fluency: subject -> filer -> defendant who has apparently learned the courthouse is self-service. The first screenshot, pooled Deleted User target, and `sucked it dry` object remain unresolved because the image interiors are uninspected. This is not claimed as a speedrun record.
 
-The reconciled reader-content head `13f51976b3f4b7788661f44078a5e19ad44b4c0c` passed **Build Underlords Wiki** run `33294290107`; a Pages run for that exact head was superseded by the durable-state commits that followed. The final state head must itself pass both native workflows before this pass is reported closed.
+### WIKI — Cookie predicts Tofu will expose him, then starts the war himself
 
-## Duplicates combined / accepted without duplicate publication
+**Who Gave Tofu Access to This Channel** begins with Cookie accurately forecasting `she bouta expose me`. Two nights later Cookie posts the first Tofu-tagged receipt anyway, follows it with `out of context`, and receives Tofu's `OH~ you wanna play that game huh` plus a true-reply counter-receipt. Cookie reaches `PLZZZ`; Gilli reviews Tofu's filing as `Rummy level`.
 
-- Tony expecting Gilli to catch screenshot material and Gilli saying she has many screenshots of everyone strengthen the existing Wall capture-capacity/evidence-culture family; they do not need another page.
-- Christmas Wall pings and Rich asking Club-Only to be pinged for Fame are useful seasonal/cross-channel corroboration, not a standalone incident this pass.
-- Kirboto's affection-command greeting pile is accepted as a real doorway texture; sender identities are unresolved and it did not outrank the stronger keepers.
-- Shurui/Spritely's November 17 `plabn` / `My team in earth` scene is probably Land of Conquest coordination when joined to the surrounding pattern, but the same-date event name is not explicit enough to make it a named incident yet.
-- BelovedOne<3/Fox and ToniTan remain promising person trails, but a doorway fragment was not inflated into a complete dossier when fuller chronology can still be reconciled.
+The attachments stay visually uninspected, so POSTED BY does not become MADE BY, CAPTURED BY, or FEATURING. The reply structure is enough to prove the social mechanism: Cookie predicts retaliation, personally opens the game, and gets the exact game played back at him.
+
+WIKI reader-content head `1e693005d7c94240ba218e918fa5cd0c1f26250a` passed **Build Underlords Wiki** run `33295356503` and **Deploy Underlords Wiki Preview** run `33295356508`, including Pages deployment.
+
+## Accepted / combined without duplicate publication
+
+- Daycare's Ghostt pass adds Mass Effect repeat-playthrough taste and later Daycare continuity. It is accepted character texture, but current MAIN Ghostt already owns the richer `Discord outlives Raja` chronology, so no duplicate public paragraph was forced.
+- Whiskey's Miihi pass adds cat adoption, procrastination, Dragon Raja troubleshooting, Portuguese account-tech chatter, and affectionate Woohyuk insults. This is accepted ordinary-life texture; **Miihi/Milk remains separate from KOREA/Milk**, and no unsupported MAIN roster category was invented just to create a dossier.
+- The Wall's expanded `out of context` paper trail strengthens the existing public editorial-mechanism owner instead of creating another Episode with the same thesis.
+- The late Mugen suffix adds a strong Nelph relationship beat: after Nelph's temporary leave statement, Mugen says she will miss `nelphies chicken pics`. The ordinary read is that what sticks in Mugen's person-model is a recurring piece of Nelph's life, not officer labor. The current Mugen page already owns the stronger people-outlast-roles spine and the source is Officers Only HQ, so this is held for a future surgical Mugen/Nelph crosslink rather than pasted in redundantly.
 
 ## Held / unresolved
 
-- NEMESIS JANE's exact operational reason for the temporary VIP staging and whether the planned full-access conversion happened remain unresolved.
-- Nyanuri's inviter/recruiter and public roster category remain unknown; `Yay you made it!` is expectation/recognition evidence, not recruiter or membership proof.
-- Kirboto's affection-command senders remain unresolved.
-- ToniTan's `Bilingual problems` is probably self-referential but does not identify languages or background.
-- Wall attachments in the Marian/Tony and Rummy scenes remain visually uninspected. POSTED BY remains distinct from MADE BY / CAPTURED BY / FEATURING.
-- No joke rank, fake family noun, teasing affection, or screenshot language was promoted into formal governance, biological kinship, literal romance, or off-Discord privacy claims.
-- Pooled Deleted User remains unresolved.
+- Miihi/Milk and KOREA/Milk remain distinct stable accounts.
+- Anayss's probable pink-rabbit antecedent remains visually unresolved.
+- Vanness's first Wall screenshot, pooled Deleted User target, and the `sucked it dry` object/action remain unresolved.
+- Cookie/Tofu screenshot interiors remain visually uninspected.
+- Feli's `O and P is CLOSE` is a probable adjacent-key defense in local chronology, not a certified reading of unseen screenshot text.
+- Mugen's repeated `you made it` welcomes support expected/recognized arrivals without identifying recruiter/inviter or proving a universal onboarding mechanism.
+- Nelph's source is Officers Only HQ; benign person texture may be paraphrased, but raw internal-room screenshot publication is not automatic.
+- No joke role, fake family noun, teasing affection, source-era role array, or screenshot language was promoted into formal governance, literal kinship/romance, appointment chronology, or unsupported authorship.
 
-MAIN's final branch state/report head and this WIKI state head must each pass their repository-native exact-head verification/deployment workflows before the pass is reported closed.
+## Consumption close
+
+- All Characters consumed through `8852d2264762a7757564034a92fc74b47ec7f37a`.
+- Daycare consumed through `a68896131717b570ec7c6bdcc1a35e45fffe1f17`.
+- Whiskey consumed through `7978dda241b2c8169ad13f98a16a54006db1c5a6`.
+- Mugen person-first consumed through `1503b2494bbe42e0730d79cb4d695ad6b2938f5d`.
+- Wall forward-reviewed through `f24df16b7f73905baca448b70cae9c0937992fa4`; historical frontier through 11:46; 12:46 next; formal consumed stays null while that older floor remains open.
+
+This durable-state commit must itself pass both native WIKI workflows before the pass is reported closed. MAIN's durable report/ledger head must likewise pass its exact-head verification/deployment workflow.
