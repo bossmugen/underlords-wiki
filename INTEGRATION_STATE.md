@@ -1,6 +1,6 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration pass: **2026-08-29 19:29 PDT**.
+Last dual-surface integration pass: **2026-08-29 19:32 PDT**.
 
 Full branch consumption state is authoritative on MAIN in `archive-intake/INTEGRATOR_BRANCH_STATE.json`; earlier rolling WIKI states remain in Git history.
 
@@ -28,7 +28,7 @@ The strongest genuinely new keeper is **Nuien's early family-tree role**. On May
 
 That combination makes **POSTED BY Nuien** direct and **maker/assembler** a strong contextual read. WIKI deliberately says *first surviving predecessor* rather than absolute origin: an earlier lost chart may have existed, and one early artifact does not make Nuien sole author of every later Tumbleweed iteration. All family labels remain nonliteral. Nuien remains hard-separated from Illien.
 
-The character payoff is better than a title. Nuien begins as somebody who can turn UL's relationship nonsense into an object the room can yell at; by September she is herself `Nuien (papi)` inside a later chart, and Ansun immediately notices when another update loses her. The map-maker becomes map content. That is actual role progression without inventing a formal Genealogist office.
+The character payoff is better than a title. Nuien begins as somebody who can turn UL's relationship nonsense into an object the room can yell at; by September he is himself `Nuien (papi)` inside a later chart, and Ansun immediately notices when another update loses him. The map-maker becomes map content. That is actual role progression without inventing a formal Genealogist office.
 
 Other Run 21 material was reconciled rather than multiplied: Rooks' safety/check-in behavior and explicit streaming-alt disclosure, Aeshleen's low-frequency-but-still-family continuity, Akuma's food-summons callback, Allenne/Anthos and Churro/Ren likely prior familiarity, and Tofu's `Breaking Raja logic for this pic` all remain useful corroboration/secondary character texture but did not need duplicate public objects this run.
 
@@ -54,15 +54,19 @@ Reader-facing MAIN commit: `55bbd665e32c47434f3fee469e5453876eb92b2b`.
 
 `src/data/character-biographies-nuien.ts` now carries the same evidence as Cast progression rather than mirrored copy. The dossier inserts a May 22, 2020 family-tree section, preserves direct-vs-probable attribution, and frames the early artifact as a social role without turning it into governance.
 
-Reader-facing WIKI commit: `f5736335b64cd679fcd971ca476543ce4d29612c`.
+Initial reader commit: `f5736335b64cd679fcd971ca476543ce4d29612c`.
+
+Hard canon was re-applied before close: Nuien is male, so the newly added dossier copy was corrected to **he/him** throughout in follow-up commit `44a9c0788a6ad09926fd00a2a01fc68b0c9aa3f7`. The pronoun correction changes no archive interpretation; it repairs presentation to match resolved person canon.
 
 ## Verification / deployment
 
 MAIN reader commit `55bbd665e32c47434f3fee469e5453876eb92b2b` passed **UL Hourly Build + Deploy** run `33287624936`: source canon/architecture verification, Astro build, built-output verification, exact Cloudflare deployment and production verification all succeeded.
 
-WIKI reader commit `f5736335b64cd679fcd971ca476543ce4d29612c` passed standalone **Build Underlords Wiki** run `33287698376`; its **Deploy Underlords Wiki Preview** run `33287698375` also completed successfully.
+MAIN durable head `e00569c2bbea6b4958abb6b474d5c667a8843194` also passed **UL Hourly Build + Deploy** run `33287931842`, including the same source/build/output/deployment chain.
 
-The present WIKI state commit supersedes the reader head only to record this durable integration state; its own push-triggered build and Pages workflow must also be green before the pass is fully closed.
+WIKI initial reader commit `f5736335b64cd679fcd971ca476543ce4d29612c` passed standalone **Build Underlords Wiki** run `33287698376`; its **Deploy Underlords Wiki Preview** run `33287698375` also completed successfully.
+
+The present WIKI state commit supersedes the pronoun-correction head only to record durable integration state. Its own push-triggered Wiki build and Pages workflow must be green before the pass is fully closed.
 
 ## Held / unresolved
 
