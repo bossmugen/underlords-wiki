@@ -1,6 +1,6 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration close: **2026-08-30 03:58 PDT**.
+Last dual-surface integration close: **2026-08-30 04:22 PDT**.
 
 Full branch consumption state is authoritative on MAIN in `archive-intake/INTEGRATOR_BRANCH_STATE.json`; earlier WIKI states remain in Git history.
 
@@ -10,106 +10,83 @@ Full branch consumption state is authoritative on MAIN in `archive-intake/INTEGR
 - Final finite evidence-review queue: **0 pending / 0 backlog / 0 review-overdue**.
 - One reviewed branch remains publication-blocked rather than consumed: `archive-miner/whiskey-longitudinal-hourly`.
 - Club-Only 2020, Club-Only 2021–2026, Core Rooms, All Characters, Daycare, and Mugen person-first are fully consumed/current at the reviewed boundary.
-- Wall is forward-reviewed through `fdb16356e730e29c22760af3cd00cf38e377c0b6`; historical safe-baseline recovery is reviewed through **2026-08-25 22:46**, with **23:46 next**. Formal consumed remains null while the older cumulative floor is open.
+- Wall is forward-reviewed through `fdb16356e730e29c22760af3cd00cf38e377c0b6`; historical safe-baseline recovery is reviewed through **2026-08-25 23:46**, with **00:46 next**. Formal consumed remains null while the older cumulative floor is open.
 
 No miner branch was merged or cherry-picked wholesale.
 
 ## Reviewed this pass
 
-### Mugen person-first
+### Wall historical recovery — 23:46
 
-Reviewed checkpoint-first/intake-only through `4cb46f8970e98687a21ba71162d0d40210bd75aa`, including a late closing-census suffix.
+The 23:46 recovery package was read checkpoint-first and intake-only from `archive-miner-wall-hourly-20260824`.
 
-- Hana/Hanae reapply/join language supports pre-existing familiarity before the formal application moment, but exact join chronology remains held for a safe raw join because archive snapshots/admin artifacts conflict.
-- The 2022 WolfPhenix Officer group-doodle handoff adds a strong probable low-stakes inversion: Wolf controls the numbered drawing premise and Mugen specifically does not get ordinary self-selection. Exact dialogue, Mugen reaction, assigned pose/number, image pixels, and creator chain remain unresolved; the source room is internal/officers-only.
+The strongest genuinely new keeper is **Cele's May 12, 2023 receipt panic**. Cele starts with `THE PEOPLE HAVE AWOKEN`, then `omfg rain`; once she knows which filing landed she says `im glad it was that one` and `at least`. Seconds later the register is playful again: `did i scare you?` and a kiss reaction.
 
-This is accepted material, not evidentiary purgatory. It simply wants the exact visual/dialogue join before becoming public. Mugen person-first is therefore consumed through the reviewed head.
+This deepens, rather than duplicates, the existing Cele receipt-shock arc. September 2022 already has `GOODBYE` → `UR DONE` → `RLY BE EXPOSNING M LIKE THAT` → screaming cat → laughter. March 2023 has a direct reply to a Rich attachment collapsing into `AKAKCKWFKWJ` and screaming cats. May adds the missing stage: **anticipatory dread before the receipt is even fully identified, specific relief when it is only that one, then immediate return to affection/play**. The obvious human read is publishable: Cele apparently has enough awareness of her own possible evidence inventory to rank which filing would be worse. The unseen exhibit and the worse alternatives remain unresolved rather than invented.
 
-### Whiskey longitudinal
+Other 23:46 material was reconciled as corroboration instead of multiplied into new pages:
 
-Reviewed checkpoint-first/intake-only through `becfa8f3bc1a244597107a52a3272690a39242d6`.
+- Chompy's `THE LAST TIME I WAS HERE ... I WAS ... DROPPING A DUCE WHILE PLAYING FALLOUT ... W H Y` is excellent flavor for the existing Wall-misses / solo-chair family, not a new standalone owner.
+- Anayss calling wall-everything labor `a fulltime job` and saying `I need to get paid` strengthens the existing curator-labor / mock-economy read.
+- Lor's `did you see i walled you that day` followed by Elita's `I don't remember lmaooo` strengthens delayed follow-up / public self-logging rather than creating another ritual page.
 
-The genuine keeper is **Effie**: recurring folk-metal taste, pizza follow-through to ShiyaX, repeated boba talk plus terminology fussiness, named one-by-one morning greetings, `come meet your neighbors` peer-onboarding language, and ordinary pandemic gym/social-distancing texture. The `neighbors` wording is likely shared house-language, not a proven slogan origin. No nationality/ethnicity or formal-role inference is made.
+No identity bridge, formal role, romance, private location, or media authorship was inferred. Earliest surfaced remains earliest surfaced, not origin.
 
-This material is intentionally MAIN-shaped: its value is a rich person dossier, not a bounded Episode. MAIN publication was attempted, but exact-head workflow `33307214665` failed before GitHub allocated a runner (`runner_id: 0`, no steps executed), so the reader file was rolled back rather than left public without source/build/output verification. Whiskey therefore stays reviewed-but-publication-blocked; its consumed SHA remains at the prior verified boundary `6cd5f9daeb20d77fad20e3cd7465ec938411993d`.
+## Public integration accepted
 
-### All Characters Run 29 — closing-census mover
+### Cele — WIKI
 
-The final ref sweep caught `archive-miner/all-characters-hr-20260828` advancing from consumed `29853292541a9b3312f3c5e055bdead573c03b32` to `433e6fad5543b7184a406ab75e999a53c009eb1e`. The delta was reviewed checkpoint-first, then findings, receipts, rabbit holes, and site candidates were read intake-only.
+WIKI now has a finished person-first Cele biography wired into the canonical biography resolver.
 
-The material is additive person-deepening rather than a correction emergency:
+The new narrative keeps the old 2021 peer-characterization evidence in its lane, preserves the September 2022 and March 2023 receipt-shock scenes, and adds the May 2023 `at least it was that one` beat as a third chronological stage. The point is not that Cele is generically embarrassed; it is that the archive catches her defense system changing shape across repeated Wall encounters — English, threat, keyboard damage, screaming cats, anticipatory panic, relief, then affection.
 
-- **Gabu:** Gilli repeatedly points hydration care back at the historical `Drink Water/ Eat Food Reminder`; the care persona is reciprocal rather than a one-way utility.
-- **Ansun:** the communal `we are one being` clowning stops where real creator credit starts; personal reuse is okay, false professional authorship/submission is not.
-- **Anayss:** early Raja `i get lost a lot` map trouble sits beside later Discord direction-giving, with the two map systems kept explicitly distinct. Noether also gives her a clean received-care scene by meeting her and baking a cake; `A date with ana` is not converted into romance or location evidence.
-- **Sye:** Rummy visibly breaks Sye's current social model, while a kitchen sidecar gives the gloriously normal detail that Sye grates garlic instead of mincing it because she finds it easier and more flavorful.
-- **Ren:** repeated `like sye said` / `Like sye sye said` routing keeps Sye's name attached to the useful instruction. Treat this as Ren↔Sye relationship-specific source-carrying, not a universal citation habit.
-- **Gilli:** during a snowstorm/no-Wi-Fi problem, Ansun covers her share of poster uploads. The recurring caretaker/producer can also be covered by somebody else.
-- **Oyasumi:** after Kiro's `I love feet`, Oya posts a `Dab me up` GIF, tries `Ignore the last part`, gets `I chose not to` plus a kiss GIF back, watches Mugen get popcorn, then re-enters with another kiss GIF. The mechanism is embarrassment → attempted amendment → motion denied → re-entry, not romance or attraction evidence.
-- **Snow:** Slice opening day pairs off-game intimacy with `please dont share location or your personal info`, `only if you want`, and `we dont pressure here`. The useful character read is that the boundary instinct is behavioral before it is bureaucratic: being close to the room does not automatically owe the room more access to you.
+Reader integration:
 
-No new public WIKI object was accepted from Run 29 in this pass. The miner itself recommends banking rather than urgent publication, current public pages are not made false by the absence, and the strongest additions belong in later person-dossier deepening rather than eight simultaneous mini-pages. This is therefore a successful no-public-change review, and All Characters is consumed through `433e6fad5543b7184a406ab75e999a53c009eb1e` rather than being reread next run.
+- `src/data/character-biographies-cele.ts` — new finished narrative owner.
+- `src/data/character-biographies-all.ts` — wires Cele into the finished-narrative resolver.
+- reader head `d5dea72d600782e7a45f6c587e28838eb9107fd5`.
 
-### Wall forward + historical recovery
+Exact reader-head verification passed:
 
-Forward intake is reviewed through `fdb16356e730e29c22760af3cd00cf38e377c0b6`.
+- **Build Underlords Wiki** run `33308610625` — success.
+- **Deploy Underlords Wiki Preview** run `33308610651` — success, including Pages build/artifact/deploy.
 
-The strongest current Wall families are already public on this WIKI through concurrent green work at reader head `88076cf0296aadd0d593f25dc5d1538f0ac2f7ce`:
+This `INTEGRATION_STATE.md` close is a later state-only commit and must itself pass the repository's native workflows before the final run report calls the WIKI head fully green.
 
-- **The Stink-Off Hearings** — Tofu calls Cookie/Rummy's exchange a `stink off`; Rummy's later `I ShOwerR` is a probable callback. Joke-smell language only, never factual hygiene.
-- **Snow Loses the Van of Bodies** — Sou, Ren, Rich, Mugen, Anayss, Tony, and Snow turn Dragon Raja body-loss into logistics bureaucracy. It is game-coded joke violence; Sou POSTED images but maker/capture/subject provenance remains unresolved.
-- **Panda and Eos Get Married, Then Divorced** already owns the broader fake-marriage/divorce family.
+## MAIN publication / infrastructure hold
 
-Historical safe-baseline recovery advanced through **22:46**. That layer adds Marian's counter-dossier after Eos tries to beat Panda to a filing: Marian produces multiple examples of Eos supposedly divorcing her and says they are not even half the examples. This strengthens the existing fake-marriage/divorce running gag rather than warranting a duplicate page. It remains social joke-language, not literal romance or legal status.
+MAIN was re-read immediately before publication work. A concurrent attempt re-added the accepted Effie Whiskey-era biography at `cb2befc53528317af1f22970bd67549b9095f743`. Exact-head `UL Hourly Build + Deploy` run `33308431057` failed before any build step because GitHub allocated no runner (`runner_id: 0`, empty steps); deployment was skipped. This is an execution/allocation failure, not a demonstrated source-verification, Astro-build, or built-output failure.
 
-Tony's repeat Marian filing remains a separate live candidate: February gives `sorry, not sorry` plus same-day speedrun language; May gives Tony's `NO / STOP / DONT SHOW THEM`. The repeat-filing behavior is clear; screenshot interiors and the alleged offenses are not.
+The unverified reader file was removed again at `70c95a4612b8048076b8c50b5cc72cbdffc5f097`, preserving the rule that accepted MAIN reader changes do not remain published merely because CI never got out of bed.
+
+A separate concurrent MAIN attempt to add the new Cele scene was also rolled back after the same verification problem (`people: add Cele top-shelf candy scene` → `rollback: hold unverified Cele integration`). The Cele finding therefore lands on WIKI only in this close because WIKI actually had a functioning build/deploy path. MAIN Cele remains a strong ready-to-publish biography addition once the native verification runner works.
+
+Whiskey remains publication-blocked rather than falsely consumed. Its accepted Effie material still includes recurring folk-metal taste, boba terminology fussiness, food follow-through, named morning greetings, `come meet your neighbors` peer-onboarding language, and ordinary pandemic gym/social-distancing texture. No ethnicity/nationality or formal-role inference is made; Miihi/Milk remains distinct from KOREA/Milk.
 
 ## Dedup / reconciliation
 
-- Stink-Off, van-of-bodies, and Marian/Eos fake-divorce evidence was combined into existing WIKI owners instead of mirrored into duplicates.
-- All Characters Run 29 is banked as additive dossier texture instead of being sprayed across eight public pages in one pass; the review is still consumed because no public change was accepted from that delta.
-- Effie stays MAIN-shaped and banked pending functioning MAIN verification rather than being copied here simply because the other pipeline tripped over its shoelaces.
-- Wolf/Mugen is held for the high-value screenshot/dialogue version rather than spending the punchline on generic prose.
-- Tony/Marian remains a candidate because the behavioral arc is strong even though the screenshot pixels are unresolved.
+- Cele's May scene was integrated into the existing receipt-shock character owner instead of becoming a generic Wall episode duplicate.
+- Chompy, Anayss, and Lor/Elita 23:46 scenes were retained as corroboration of existing public motifs rather than sprayed into redundant pages.
+- Stink-Off, Snow/van-of-bodies, Marian/Eos fake-divorce, and the current Tony/Marian candidate remain with their existing owners/holds from the prior close.
+- All Characters Run 29 remains consumed/banked as additive dossier texture; no reason to reread until its branch advances.
+- Mugen person-first remains consumed through the current head; the Wolf Officer-doodle item is high-value but still held for exact exchange/image and internal-HQ publication-safety context.
 
 ## Holds / rabbit holes
 
+- Wall historical recovery: **00:46 next**.
+- Effie MAIN publication pending a functioning MAIN verification runner.
+- MAIN Cele biography addition pending the same functioning runner; WIKI already owns the new public character treatment.
 - Hana/Hanae exact join/reapply chronology.
-- Wolf Officer-doodle exact exchange, Mugen response, slot/pose, final image, and creator chain.
-- Effie MAIN publication pending a functioning verification runner.
+- Wolf Officer-doodle exact exchange, Mugen response, slot/pose, final image, creator chain, and internal-room publication safety.
 - Tony/Marian screenshot interiors and deeper provenance.
 - Stink-Off and fake-divorce screenshot interiors.
 - Snow body-loss image pixels and exact Dragon Raja mechanic.
 - POSTED BY / MADE BY / CAPTURED BY / FEATURING remain separate.
 
-## Surface ownership
-
-- **MAIN intended:** Effie, because the material coheres into a person biography. Publication was rolled back solely because MAIN's verification runner never started.
-- **WIKI already owns:** Stink-Off Hearings, Snow's van of bodies, and the broader Panda/Eos fake-marriage/divorce running gag. This pass deliberately did not duplicate them.
-- **Banked dossier depth:** the All Characters Run 29 material belongs in later person-rich expansion, not a dump of eight parallel incident pages.
-- **Held for stronger form:** Wolf/Mugen doodle scene and Tony/Marian repeat filing.
-
-## Verification / publication
-
-### WIKI
-
-Reader head `88076cf0296aadd0d593f25dc5d1538f0ac2f7ce` contains the current 03:14 Wall running-gag integrations.
-
-- **Build Underlords Wiki** run `33306826808` — success.
-- **Deploy Underlords Wiki Preview** run `33306826809` — success through Pages deployment.
-
-This durable-state commit must itself pass the repository's native workflows before the pass is reported fully closed on WIKI.
-
-### MAIN
-
-No reader-facing MAIN change remains at close. The accepted Effie profile commit `a7909bcf25de7dd085ee19eb79dafc75d2faabab` triggered exact-head workflow `33307214665`, but the job failed before runner allocation (`runner_id: 0`, no executed build steps); deployment was skipped. The profile was rolled back at `48bf36a74e04ca9b8b93cc50fd62cd9f414f41fe`.
-
-Later MAIN state/report pushes are hitting the same infrastructure failure before any build step, so this is an execution/allocation blocker rather than a demonstrated source-verification, Astro-build, or built-output failure. No unsafe new MAIN deployment is claimed.
-
 ## Consumption close
 
 - All Characters: consumed through `433e6fad5543b7184a406ab75e999a53c009eb1e`.
 - Mugen person-first: consumed through `4cb46f8970e98687a21ba71162d0d40210bd75aa`.
-- Whiskey: reviewed through `becfa8f3bc1a244597107a52a3272690a39242d6`; consumed remains `6cd5f9daeb20d77fad20e3cd7465ec938411993d` because accepted Effie publication did not pass verification.
-- Wall: forward-reviewed through `fdb16356e730e29c22760af3cd00cf38e377c0b6`; historical recovery through 22:46; formal consumed remains null; 23:46 next.
+- Whiskey: reviewed through `becfa8f3bc1a244597107a52a3272690a39242d6`; consumed remains `6cd5f9daeb20d77fad20e3cd7465ec938411993d` because accepted Effie publication has not passed MAIN verification.
+- Wall: forward-reviewed through `fdb16356e730e29c22760af3cd00cf38e377c0b6`; historical recovery through **23:46**; formal consumed remains null; **00:46 next**.
 - Finite evidence-review debt: **zero**. One reviewed Whiskey delta remains publication-blocked.
