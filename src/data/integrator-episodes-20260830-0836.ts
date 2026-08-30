@@ -63,5 +63,14 @@ export const early0836IntegratedEpisodes: Episode[] = [
     kind: "Lobby traffic / the guest book suddenly looks like another club's staff meeting",
     logline: "Late November turns the Lobby into a tiny cross-club arrival board. Samdola checks in as `sammy+whammy`, Fire Legacy, `deputy`, age 23; Souta assigns access. Nineteen minutes later wσndєr_Alιcє arrives, says `yall can call me alice :D`, identifies herself as FireLegacy `battlelord`, and casually notes she is not even a month from turning 23 before Gilli assigns access. The next morning Pirefly arrives as `Zirdin`, FireLegacy, `minister`, age 25. Three distinct people from the same outside club, each supplying an office-style game position, arrive inside roughly fourteen hours. That is strong enough to read as a socially linked visitor wave rather than three cosmic coincidences, especially because the surrounding Lobby is already processing other outside-club traffic. What it does *not* establish is the cause: no surviving handoff names a shared inviter, event, migration, recruitment drive, or formal alliance. The funny human part is the front desk's complete lack of ceremony. Another club's deputy, battlelord and minister walk in; UL responds with the same extremely domestic machinery it uses for everyone else — fill out the little form, get your role, welcome to the house.",
     cast: ["Samdola", "Alice", "Pirefly", "Souta", "Gilli"]
+  },
+  {
+    id: "xuseio-phone-snitch",
+    title: "Xuseio's Phone Becomes a Snitch",
+    season: "2024",
+    date: "January 2, 2024",
+    kind: "Wall callback / the evidence room accepts receipts from conversations it never heard",
+    logline: "Xuseio POSTS `Screenshot_20240102_190509_Co_Star.jpg`, drops a Genshin stare, tags Rummy, and writes `The fact we spoke about this the other day.` The screenshot pixels are still sealed, which is almost beside the point: Xuseio has already told the room why it matters. Something on his phone/app has apparently reproduced a joke or subject from a recent conversation badly enough to become Wall evidence. Rummy's next surviving Wall message, about fifty-five minutes later, is `PGFFF`; because it is not a structured reply, that is a probable local reaction rather than a hard join. The scene gives Xuseio's attachment-heavy Wall footprint a very human mechanism: notice a visual callback, tag the one person who shares the context, file it. The Wall does not need to have witnessed the original conversation; apparently a phone can snitch later. Xuseio is SAID BY and POSTED BY for the filing only. The exact screenshot content, prior-conversation topic and venue, relationship category with Rummy, and MADE BY / CAPTURED BY / FEATURING remain unresolved; the `Co_Star` filename is not enough to turn this into durable astrology canon.",
+    cast: ["Xuseio", "Rummy"]
   }
 ];
