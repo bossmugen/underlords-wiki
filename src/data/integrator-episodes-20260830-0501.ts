@@ -81,5 +81,23 @@ export const early0501IntegratedEpisodes: Episode[] = [
     kind: "Profile archaeology / relationship jokes escape into the furniture",
     logline: "Gilli's Discord profile already reads like a storage system designed by somebody who has mistaken friendship for inventory management. Under `~Emotional Support Collection~` she lists Pebble, Apple, Empress, Pond, Tree, Jewel, Pie, Pizza Dough, Pillow and Fire. The April profile screenshot proves the collection itself; later stable-account nickname joins let two of the opaque nouns be put back onto actual humans without pretending we know when the labels were coined: **Pond is DyingFox, and Pie is Cele**. Pizza Dough had already been tied to Trebach elsewhere. The exact assignment dates remain missing, so this is a relationship-map decode rather than an origin story. What matters is the social mechanism: UL's old family-tree instinct has leaked out of diagrams and into member identity itself. Gilli does not merely have people she jokes with; by 2023 she has apparently organized some of them like a Pokémon box with emotional-support item names. None of the labels are literal ownership, kinship, romance or a closeness ranking. They are better understood as affectionate house shorthand that became visible enough to live in profiles and nicknames — the joke becoming infrastructure again, because of course it did.",
     cast: ["Gilli", "DyingFox", "Cele", "Trebach"]
+  },
+  {
+    id: "di-dont-listen-run",
+    title: "Don't Listen to Her... RUN",
+    season: "2020",
+    date: "April 5 – May 21, 2020",
+    kind: "Character montage / resident gremlin with extremely selective nerd credentials",
+    logline: "D.I. first becomes legible as a person by sabotaging somebody else's perfectly normal directions. Gilli tells a newcomer to head to Whiskey; D.I. cuts in with `Dont listen to her...RUN`; Gilli answers thirty-four seconds later with `w/punch @D.I.`. The speed of the mock punishment is the useful part — D.I. is comfortable enough to derail the front desk and Gilli is comfortable enough to swat him back into place. Nine days later the same account is deep in an actual superhero-comics/game conversation with LilsatanSir: All-Father Thor and Galactus, *Doomsday Clock*, wishing Mark Ruffalo had gotten a Hulk movie before Professor Hulk, and the remembered joy of unlocking War Machine armor in *Ultimate Alliance*. `Kids nowadays wont remember` is excellent old-head posture about the game, but the wiki does not turn one line into a literal age claim. Then May 21 supplies the anti-generic-nerd correction: D.I. says `Cause I have no idea what yall are talking bout`; somebody has to tell him `Kimetsu No Yaiba` means *Demon Slayer*. The character read is specificity, not contradiction. D.I. can be fluent enough to lecture the room about Thor/Galactus and still hit a complete blank in somebody else's fandom. His two Louvre media posts remain uninspected and are not assumed to be comic art; earliest surviving Louvre appearance is not a join date. Even the May `Sup boo 😋` stays what it safely is: easy affectionate house register with an unresolved speaker, not romance canon.",
+    cast: ["D.I.", "Gilli", "LilsatanSir"]
+  },
+  {
+    id: "woo-famous-not-shamed",
+    title: "No No, You Famous uwu.",
+    season: "2023",
+    date: "April 9, 2023",
+    kind: "Wall reputation / the punishment for talking is apparently celebrity",
+    logline: "WOO performs the rare feat of diagnosing his own archival problem correctly and still receiving no relief. He says `I need to not talk sm I got so much stuff on the hall of shame`. Ten minutes later Moon replies directly: `No no you famous uwu.` WOO answers with crying/skull reactions, because apparently the appeal process has been replaced by branding. The exchange makes his repeat-Wall reputation legible without inventing a single screenshot: WOO himself says there is `so much stuff`, explicitly links the accumulation to talking too much, and Moon immediately reframes the embarrassment as fame. The probable person read is that by spring 2023 he had become recognizable quote bait — talkative enough to keep feeding the room, self-aware enough to notice the harvesting, and socially doomed because his friends think the harvest is celebrity. A nearby Gilli screenshot is not reply-linked to WOO's line and remains visually uninspected, so this episode does not pretend to know what it contains or whether WOO appears in it.",
+    cast: ["WOO", "Moon"]
   }
 ];
