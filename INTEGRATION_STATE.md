@@ -1,23 +1,20 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration close: **2026-08-30 00:00 PDT**.
+Last dual-surface integration close: **2026-08-30 02:24 PDT**.
 
 Full branch consumption state is authoritative on MAIN in `archive-intake/INTEGRATOR_BRANCH_STATE.json`; earlier WIKI states remain in Git history.
 
 ## Current boundary
 
 - Census: **49 tracked miner identities = 28 active remote refs + 21 historical/missing refs**.
-- Finite pending: **0**.
-- Backlog: **0**.
-- Review-overdue: **0**.
+- Finite pending/backlog/review-overdue at the reviewed cutoff: **0 / 0 / 0**.
 - Club-Only 2020: seen/consumed `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`.
 - Club-Only 2021–2026: seen/consumed `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`.
 - Core Rooms: seen/consumed `7fce5fa707febe5975757ab7278212d86f048a45`.
-- All Characters: seen/consumed `721ecfa3c79ea0146582710374a4f74a1cce5e4a`.
-- Daycare: seen/consumed `a68896131717b570ec7c6bdcc1a35e45fffe1f17`.
-- Mugen person-first: seen/consumed `382b9e14494b84dd92db993ec7c7af3fa882bef3`.
-- Whiskey: seen/consumed `7978dda241b2c8169ad13f98a16a54006db1c5a6`.
-- Wall: forward-reviewed through `9626f775c308874d072e44ceeee1c3884bd612aa`; formal consumed remains null while cumulative historical recovery stays open. Historical safe-baseline recovery is reviewed through **2026-08-25 14:46**; **15:46 is next**.
+- All Characters: seen/consumed `dc2ed9bdf67ed6009a78d32fa84784d32fbee1c5` after a successful no-new-public-change review; Candy's Winter-submission material remains banked for a later MAIN retry because the attempted MAIN reader build could not start.
+- Mugen person-first: seen/consumed `98be861042d47bf901cae7e4ffa46607cbef27b2`.
+- Whiskey: seen/consumed `6cd5f9daeb20d77fad20e3cd7465ec938411993d`.
+- Wall: historical safe-baseline recovery is reviewed through **2026-08-25 16:46**; **17:46 is next**. Wall advanced again during the pass, so the current seen head is newer than the forward-reviewed cutoff and formal consumed remains null while cumulative recovery stays open.
 
 No miner branch was merged or cherry-picked wholesale.
 
@@ -25,66 +22,55 @@ No miner branch was merged or cherry-picked wholesale.
 
 Checkpoint-first, intake-only review covered:
 
-- All Characters finite delta `8852d2264762a7757564034a92fc74b47ec7f37a -> 721ecfa3c79ea0146582710374a4f74a1cce5e4a`.
-- Wall historical safe-baseline package **2026-08-25 14:46** on `archive-miner-wall-hourly-20260824`.
+- All Characters `1df4e57f7e158c55822e4081df95c747da19096d -> dc2ed9bdf67ed6009a78d32fa84784d32fbee1c5`.
+- Mugen person-first `382b9e14494b84dd92db993ec7c7af3fa882bef3 -> 98be861042d47bf901cae7e4ffa46607cbef27b2`.
+- Whiskey `7978dda241b2c8169ad13f98a16a54006db1c5a6 -> 6cd5f9daeb20d77fad20e3cd7465ec938411993d`.
+- Wall forward material through the reviewed 01:09 suffix plus historical safe-baseline package **16:46**.
 
-Raw archives were not re-mined. The opening census registered All Characters before deep review, and anti-starvation was satisfied by reviewing that finite mover while continuing the Wall recovery.
+Raw archives were not re-mined. Anti-starvation was satisfied by clearing the finite overdue queue while continuing Wall recovery.
 
-## MAIN keeper — Tony learns the body's paperwork
+## WIKI keepers
 
-TonyTonyChopper's February 2022 doorway already had the absurdly fast Wall transition: no current club, Discord paperwork, then screenshot jail in a little over three minutes. The All Characters delta gives the sequel two months later.
+### Five Minutes to Second Breakfast
 
-Rich describes Snow as `losing the bodies`; Tony answers `LOSING THE BODIES??`. The next morning Mugen asks `We lost bodies again?`, and Tony eventually supplies the compliance memo: `You gotta be careful with bodies can’t just misplace them like that`.
+Mugen drops the Josh Gad Lord of the Rings cast-reunion link with `5 minutes to second breakfast!` and tags Anayss, Anthos, Illien, and Ansun just before the scheduled start. The Tolkien phrasing plus the timing support the ordinary read that she knew what she was summoning people toward and was trying to turn it into a tiny rendezvous. The tags are invitations, not attendance records, and the scene does not prove a favorite franchise.
 
-The character beat is the change in fluency. February Tony is the fresh defendant trying to stop the room from sharing his business. April Tony understands the house's fake/game corpse-logistics language well enough to become mock procedure. MAIN's Tony biography now owns that progression. WIKI's already-existing **We Lost Bodies Again?** episode was corrected to include Tony in cast rather than spawning a duplicate incident.
+### The Minecraft Animal Crimes Tribunal
 
-`Bodies` remains house/game joke-language here, not literal human remains, violence, a formal job, or a reconstructed game mechanic.
+Jas accuses Gabu of creative-mode animal crimes; Gabu separates the counts, claims the polar bear `just fell in the lava.....`, attacks Anthos's eyewitness reliability, and then files a turtle case herself before the hearing is emotionally over. Creative mode, spawning, and lava make the Minecraft context persuasive; no real-world animal harm is implied. Gabu is POSTED BY for the turtle attachment, while its pixels and maker/capture/subject provenance remain unresolved.
 
-## MAIN keeper — KOREA has beverage opinions
+### One Image, Twenty Pouts
 
-KOREA / Milk's biography now includes a specific taste receipt: `try crystal or brown sugar crystal boba too~ is thee beeessstttt`. A later Whiskey beat has her joining the Gemini side of a joke with `fellow geminis here to FUCK SHIET UP~`.
+Pride posts one image and the final exported reaction state shows Rooks and Lilly jointly present across roughly twenty separately named pout reactions; Illien appears on at least one. Nineteen seconds later Rooks still has enough pout left to send a standalone `hmphpout`. Reaction order is not preserved, so nobody is crowned the inventor/copycat. Pride is POSTED BY only; the underlying image remains visually uninspected.
 
-The boba line is useful because it is ordinary person texture rather than another role or archive statistic: she is not neutrally naming a drink; the stretched `beeessstttt` is a recommendation with conviction. The Gemini line likewise supports self-placement in that joke without turning a zodiac category into an exact birthday or a personality diagnosis.
+### The School Computer Fights Back
 
-Hard identity fence preserved: **KOREA / Milk (`724114717182001284`) is not Miihi / Milk (`253897195290361856`)**.
-
-## WIKI keeper — Moo/XiIN goes from evidence to idea attribution
-
-The 14:46 Wall recovery strengthens the April 1, 2023 Moo scene without requiring a new episode. The stable `nixin.` account had already self-reported IGN `XiIN殿` that afternoon. Later, after another visual package turns into motor discourse, Moon writes `It was all tae,yamiyo and xin ... It was there idea`, then adds `I forgot feli was in this creativity too`.
-
-Because the same stable account had supplied `XiIN殿` hours earlier, the local same-day `xin -> Moo/XiIN` join is supported here. WIKI's existing **Moo Reaches the Wall in Eleven Minutes** episode now records that Moo was not merely named in Moon's evidence package; Moon later places Xin/Moo among the people behind the idea in the extended creative/motor incident.
-
-The images remain visually uninspected. Exact statue-versus-motor mechanics, what each person physically did, and the identities behind free-text `tae` and `yamiyo` remain unresolved. The separate 2021 `Moo` material remains separate.
+Tae says she will `talk with my voice` once she works up the courage, then tries to get Discord running on a school computer. A VPN appears to work for eighty-seven seconds before `BYE theY SMART THEY KNOWW WHAT IM DOING AIAKKS THEY JUST BLOCKED IT`. The useful character read is the live emotional curve — determination, tiny victory, instant institutional defeat — and Tae's habit of narrating ordinary friction while it is still happening. Public treatment deliberately omits her exact historical age/grade, school identifiers, geography, harassment material, and sensitive disclosures.
 
 ## Reconciled / not duplicated
 
-- BishopThaGuru's July 2021 `who is wrong / gloves` mock-boxing beat was accepted as useful Tofu/Bishop corroboration, but Bishop's current MAIN dossier already owns the richer Wall relationship pattern; no filler section was added.
-- Baby Lyssa/Ghoulie's `i can't believe i forgot` followed by an image remains held until the visual/context join resolves what was forgotten.
-- Jade, Jordayy, LEXI, and Milo yielded no new person evidence in this finite All Characters delta.
-- Feli's `I... O and P is CLOSE` keyboard alibi and Moon's same-day `creativity` line were already public on MAIN, so Wall 14:46 is corroboration there.
-- Hishiro's `ClubChat Karaoke` is a one-shot visual lead, not enough for a recurring gag or event series.
+- Xephy's reunion/identity material was already richer on MAIN; hard fence remains **WhitePhoenyx = Xephy ≠ WolfPhenix**.
+- Candy's official 2021 Winter Photo Submissions entry is real and useful person texture, but the attempted MAIN reader change was rolled back after MAIN's native workflow failed before allocating any job steps. The evidence stays banked without pixel or authorship invention.
+- Jade's media/watch-party material is already public on MAIN.
+- Anayss's music/sleep/caffeine texture and playful `waifu` language toward Gilli were accepted as ordinary relational texture, not literal romance.
+- Miihi/Milk remains hard-separated from KOREA/Milk.
+- Support Tech's quick subject-to-filer Wall socialization is useful corroboration but does not need a duplicate Episode.
 
 ## Verification / publication
 
-### MAIN
-
-- Tony reader commit: `fa8ec4493d9148247d83b9414ed2921d7e523b87`.
-- KOREA reader commit: `b91b586a78bdddf1d52fa55e6effed24cb4851b2`.
-- Existing **UL Hourly Build + Deploy** run `33298756473` on reader head `b91b586a78bdddf1d52fa55e6effed24cb4851b2` completed successfully. Because Tony's commit is an ancestor of that head, the successful run verified both reader changes together through MAIN's normal source-verification, Astro-build, built-output-verification, production-deploy, and exact-commit checks.
-- MAIN durable branch state now consumes All Characters through `721ecfa3c79ea0146582710374a4f74a1cce5e4a` and advances Wall historical recovery through 14:46.
-
 ### WIKI
 
-- Reader commit: `672107e1eb3514ee6d760b5ff5e787fd7c323d73`.
-- **Build Underlords Wiki** run `33298806332` completed successfully, including the Astro wiki build.
-- **Deploy Underlords Wiki Preview** run `33298806348` completed its build, Pages deploy, and report jobs successfully.
+Reader head `2e35d944e2fb239f54eb9de83cc1e8509e42011a` includes the new Tae Episode and the already-published 01:35 incident module used in reconciliation.
 
-This state commit itself must pass WIKI's native Build and Pages workflows before the run is reported closed.
+- **Build Underlords Wiki** run `33303687405` — success.
+- **Deploy Underlords Wiki Preview** run `33303687403` — success through Pages deployment.
+
+This state update must itself pass WIKI's native Build and Pages workflows before the pass is reported fully closed on WIKI.
+
+### MAIN
+
+MAIN has the durable branch ledger and `archive-intake/INTEGRATION_PASS_2026-08-30_0200_DUAL.md`. No reader-facing MAIN lore was left live from this pass. The attempted Candy addition was reverted/held because MAIN's **UL Hourly Build + Deploy** workflow failed before any job steps were allocated; a retry of the census-head workflow failed the same way. This is therefore a MAIN verification/deployment blocker, not evidence of a source-build failure. No unsafe deploy was claimed.
 
 ## Consumption close
 
-All Characters advanced to seen=consumed `721ecfa3c79ea0146582710374a4f74a1cce5e4a` after successful review and public verification.
-
-Wall historical safe-baseline recovery advanced from **13:46 -> 14:46**. Formal Wall consumed remains null while the cumulative older floor remains open. **15:46 is next.**
-
-The closing live miner census still matched all 28 active refs; finite debt is zero at the reviewed cutoff.
+All Characters, Mugen person-first, and Whiskey have been durably marked reviewed/consumed at their current reviewed heads. Wall remains the sole cumulative recovery floor. Historical recovery is through **16:46**, **17:46 next**; the Wall's newer forward suffix remains seen but not silently equated with reviewed.
