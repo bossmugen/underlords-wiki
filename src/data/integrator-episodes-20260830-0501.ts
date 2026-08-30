@@ -45,5 +45,23 @@ export const early0501IntegratedEpisodes: Episode[] = [
     kind: "Wall reciprocity / the defendant learns every seat in the courtroom",
     logline: "In sixteen days Eos manages to occupy three different jobs in the Wall's nonsense justice system. June 1, after Marian posts an attachment, Eos answers `i accet my fate this time`, sounding less shocked than somebody who already knows the ceremony. June 7 she removes the prosecutor entirely: Eos POSTS her own attachment with `gonna just put myself here and head out-`, while Gilli laughs, Marian smirks and Ren wheezes. Then June 17 Marian posts another exhibit; Eos protests `i said dont look`, waits four minutes, POSTS a counter-exhibit with `Take zhenyan :sippp:`, tells Marian she has been `sort of spared`, and watches Marian go `O MY GOD, WHY` → `DELETE THAT` → screaming. Eos closes the hearing with `this is war`. The progression is the useful character beat: target → self-target → counter-target. The likely read is reciprocal friendly shame-play inside an already-affectionate Eos/Marian relationship, not real hostility. None of the attached images were visually inspected, so the wiki says who POSTED what and preserves the dialogue without inventing what anybody exposed, captured, made, or appeared in. By June, public embarrassment is not merely something happening to Eos. It has become a house toy she knows how to pick up herself.",
     cast: ["Eos", "Marian Kage", "Gilli", "Ren"]
+  },
+  {
+    id: "candy-moo-virus",
+    title: "Candy Starts the Moo Virus",
+    season: "2021",
+    date: "September 1, 2021",
+    kind: "Wall social contagion / one noise becomes everybody else's problem",
+    logline: "Candy's Wall résumé is tiny, which makes this scene even cleaner. At 7:55 in the morning she posts exactly one authored word: `Moo`, then two Cat Sporkle emotes. Sou answers `Mooo`; Rummy grows another `o`; Ren joins; early-account Gilli joins; and SaraBunny is still contributing to the bovine communications network almost fifty-four minutes later. There is no vote, explanation, setup, or grand punchline. Candy drops a sound into the room and several people independently decide the correct response is to keep the sound alive. The useful character read is modest but real: in this slice Candy can be low-word and highly participatory at the same time, the sort of person who presses one stupid social button and lets everyone else turn it into infrastructure. This is a confirmed scene-level call-and-response, not proof that Candy invented `Moo`, owned a cow persona, or created every later moo in UL. Earliest surviving is still not origin. The joke works because nobody stops to ask what the bit is; the repetition itself becomes the bit.",
+    cast: ["Candy", "Sou", "Rummy", "Ren", "Gilli", "SaraBunny"]
+  },
+  {
+    id: "dont-do-drugs-kids-hearing",
+    title: "Don't Do Drugs, Kids",
+    season: "2024",
+    date: "June 9, 2024",
+    kind: "Wall fake prosecution / caught-in-4K public-service announcement",
+    logline: "Gilli POSTS one sealed Discord screenshot and immediately turns into the world's least neutral public-service announcer: `Don't do drugs, kids`, followed by a tag for Ren. Ren's `HEY HEYYY`, panic and `WAIR A SECOND` do not exactly calm the courtroom; Gilli supplies `4k`, which in context reads like the caught-in-4K punchline. Syv sees the opening and says `Damn I didn’t know rv liked drugs`. Ren later TRUE-REPLIES `I HAVE REASONS—`; Syv answers `And they are…? 🤨`, because apparently cross-examination is now free. Momo briefly contributes the struck-through `some drugs are ok-`, then immediately remembers there are adults on the internet and corrects herself: `I’m kidding… Unless it’s prescribed to you don’t do it. Make good choices`. The scene therefore becomes fake prosecution, fake D.A.R.E. assembly, and then an actual cautionary disclaimer in under one hearing. None of it is evidence that Ren used drugs. The screenshot itself was not visually inspected: Gilli POSTED it; MADE BY, CAPTURED BY and visual FEATURING remain unresolved. Syv's line is teasing, not biography.",
+    cast: ["Gilli", "Ren", "Syv", "Momo"]
   }
 ];
