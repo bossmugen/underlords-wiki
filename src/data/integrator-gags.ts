@@ -84,6 +84,12 @@ export const integratedGags = [
       "The 2026 Family Reunion's necromancy has a surviving 2021 prehistory. On May 2 Eos reports being ‘a dead corpse’; Mugs replies directly with a Tenor titled ‘cheers-to-our-pretty-corpses,’ quietly pluralizing one exhausted person into a group problem; Eos later returns as ‘this ded corpse.’ Five years later WolfPhenix announces ‘de corpses are aliiive’ while Rummy proposes ‘Reanimate the whole server fr.’ May 2, 2021 is the earliest surviving relevant person-as-corpse / group-mirroring scene recovered so far, not a proven origin, and the current archive does not establish uninterrupted corpse language through 2022–2025. The dead had paperwork before the resurrection had a guest list.",
   },
   {
+    id: "tag-yourself",
+    name: "Tag Yourself",
+    logline:
+      "The Wall's `tag yourself` bit survives as an actual format genealogy, not just one quote-saving habit. On opening night, August 22, 2020, Ren posts two images; Rooks answers `It's happened` / `She's done it`, Gilli erupts `TAG YOURSELLLFFF`, and Ren fires back `YESSSSSSSS`. The exact pixels remain unresolved, but the room is visibly recognizing the move in real time. The wording keeps coming back: Tony posts `Tag yourself 🌚` in November 2020; Ansun turns it into `Happy Week 2 of Retirement: Tag Yourself` in January 2022; Tony produces `Tag Yourself: Thanksgiving Edition @Staff` that November; and by March–April 2023 the Wall is still doing new editions, including Xuseio declaring `I'm toy boat 😆`. The channel topic itself later reads `Tag Yourself`, which is excellent afterlife corroboration and absolutely not origin proof. August 22 is the earliest surfaced opening-night instance in this reviewed family, not a claim that UL invented the format. Ren is POSTED BY for the opening images; their visual maker/capture/subjects remain unresolved. Tony's later `I made a special one` supports MADE BY only for that specific 2023 custom post, not the whole lineage.",
+  },
+  {
     id: "roach-taxonomy",
     name: "Roach / Roachy / Roachable",
     logline:
