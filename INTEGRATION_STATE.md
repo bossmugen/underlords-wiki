@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-08-30 09:43 PDT_
+_Last updated: 2026-08-30 09:49 PDT_
 
 ## Current reconciliation boundary
 
@@ -60,7 +60,7 @@ Reader-facing WIKI commit: `b1584980d7d3925acf380ae028d1e057d0dd0446`.
 - Build Underlords Wiki `33323125458` — **success**. Astro build executed and passed on a real runner.
 - Deploy Underlords Wiki Preview `33323125408` — **success** on the same reader head.
 
-This state commit is also expected to run the repository's normal build + Pages chain; its exact-head result is checked at close when available.
+The first durable state head, `f3c9cf86027a4a2363fcf7f62651b6dcee3d212f`, also passed its normal repository chain: Build Underlords Wiki `33323308570` — **success**; Deploy Underlords Wiki Preview `33323308562` — **success**. The closing state-only commit does not alter reader data.
 
 ## Holds / hard rails preserved
 
