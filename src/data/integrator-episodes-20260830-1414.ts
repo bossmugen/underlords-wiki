@@ -36,5 +36,23 @@ export const late1414IntegratedEpisodes: Episode[] = [
     kind: "Whiskey ordinary life / mock punishment becomes a title and lunch becomes evidence",
     logline: "Marian Kage / Panda's late-May Whiskey run has the useful texture of somebody whose social life and lunch mistakes arrive in the same sentence. Ren tags Marian; less than two minutes later Marian says `I'm blaming this on you and your bad puns`. On May 30 Marian protests `WHAT. WHY AM I GOUNDED???? I'M OLDER THEN YOU`; the surviving row does not name the grounder, so that first target stays unresolved. The next morning Marian makes the recurring partner much clearer by telling Ren `you should just name me the Eternally Grounded Panda` and then, without changing topic gracefully like a normal person, adds that a whole box of mac & cheese for lunch has left them `soooo fucked up right now`. The grounding is playful room language, not literal authority or discipline. Two weeks later Marian reports `@Ricochet got me my Cheesecake Factory ... (but no cheesecake)`: a direct practical food favor with none of the missing logistics upgraded into romance, cohabitation, payment, or delivery lore. The undercurrent is wonderfully ordinary. Whiskey does not separate the running joke from the mundane day. Ren's bad puns, fake punishment bureaucracy, regrettable mac and cheese, and a Cheesecake Factory order that somehow fails to contain cheesecake all become one continuous person file.",
     cast: ["Panda", "Ren", "Ricochet"]
+  },
+  {
+    id: "vanness-self-files-wall",
+    title: "Vanness Requests Their Own Sentence",
+    season: "2021",
+    date: "August 10, 2021",
+    kind: "Wall self-prosecution / defendant brings their own case",
+    logline: "Vanness does not wait for somebody else to catch them. They walk into the Wall and file the charge personally: `Im putting myself in wall of shame for losing 5 orange dracs for merge. Shame me:CatCry:`. Nearly two hours later Gilli TRUE-REPLIES that exact confession with a frozen emote; twenty-seven seconds after that Vanness is still grieving enough to announce `Im too sad to play anymore:Cursed:`. `orange dracs` and `merge` are preserved as participant jargon; the follow-up makes the loss plainly game-related, but the wiki does not reverse-engineer the exact Dragon Raja mechanic from one sentence. The fun part is procedural. The Wall is usually imagined as somewhere your friends drag you after finding a receipt. Vanness gets ahead of the prosecution by becoming filer and defendant at once, converting a painful little game loss into communal theater and explicitly asking the room to do the honors. One self-filing is not a permanent personality trait. It is, however, a beautifully efficient way to lose the game and control the press release.",
+    cast: ["Vanness", "Gilli"]
+  },
+  {
+    id: "syv-vs-organic-chemistry",
+    title: "Syv Negotiates with Organic Chemistry",
+    season: "2021",
+    date: "October 18, 2021",
+    kind: "Ordinary life / exam damage-control live from the Wall",
+    logline: "Ricochet asks `How ochem`; Syv TRUE-REPLIES that the class now has an entire day dedicated to reviewing tests because the grades went badly enough that `that’s how you know the class fucked up in grades`. Then the personal result arrives: `Hey I got a C on the test` → `I’m counting that as a pass` → `I was expecting significantly worse`. Ricochet jokes that Syv's mom probably will not count it the same way; Syv answers `My mom can’t see my grades`, still wants a B, and says the damage will have to be made up on other tests. The confirmed scene supports a probable background read that Syv was a student taking organic chemistry in October 2021. It does not reveal age, institution, school level, program, or some invented parental-supervision regime. The emotional math is the good part anyway: the target has not changed, but the definition of victory gets renegotiated in real time because catastrophe had apparently already been priced in. For a few minutes the screenshot courtroom simply becomes the place where somebody tells friends a C counts as survival.",
+    cast: ["Syv", "Ricochet"]
   }
 ];
