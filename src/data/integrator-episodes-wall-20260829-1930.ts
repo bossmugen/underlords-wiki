@@ -99,5 +99,14 @@ export const wall1930Episodes: Episode[] = [
     kind: "Running gag genealogy / Zoshaa's food crime gets incorporated, escapes into ordinary vocabulary, then becomes Orb hospitality and hearsay",
     logline: "Project canon credits Zoshaa with coining `Boiled Mayo`; the exact first receipt, date, and room remain open. The surviving migration is much less dignified. On July 17, 2020 Mugen publishes the actual Staff schedule as `Tonight's programming brought to you by Boiled Mayo Corp.` and Gilli answers `Y U M`. Five weeks later Pride can simply say `boiled mayo` in Club Only while Ren answers `It be thick cream`, meaning the joke no longer needs the corporate wrapper. On May 17, 2021 Zoshaa offers `a refreshing glass of boiled mayo` to `my orb` with full uwu tenderness, and ten minutes later Spicy Hotpot asks Gilli `so what's this I heard about boiled mayo?`. That `heard about` is the final promotion: the phrase has become transmissible lore. Nobody is documented literally drinking mayonnaise; Gilli is a visible carrier/contact, not the inventor; and the earliest surviving July deployment is not the coinage date.",
     cast: ["Zoshaa", "Mugen", "Gilli", "Pride", "Ren", "Spicy Hotpot"]
+  },
+  {
+    id: "moo-eleven-minutes-to-the-wall",
+    title: "Moo Reaches the Wall in Eleven Minutes",
+    season: "2023",
+    date: "April 1, 2023",
+    kind: "Wall onboarding / a formal welcome becomes screenshot jail before the welcome message has had time to cool",
+    logline: "The stable `nixin.` account arrives in Lobby under the rendered nickname `мoo`, self-reports IGN `XiIN殿` and club `underlords`, and receives Ansun's formal WELCOME at 15:09:52. At 15:20 Moon posts four Dragon Raja screenshots; at 15:21:26 Moon names `@мoo` among the people she found `doing this to Anjou' statue`. That is about eleven and a half minutes from formal welcome to being named in a Wall evidence package. It is not the Wall speedrun record — earlier years preserve faster cases — which is almost better: by 2023 this is ordinary absorption speed. The four screenshots remain visually uninspected, so the exact statue offense is not invented. The stable account bridges this 2023 Lobby and Wall sequence only; it does not resolve the separate Aug–Sep 2021 `Moo` language to this person.",
+    cast: ["Moon", "Ansun", "Feli"]
   }
 ];
