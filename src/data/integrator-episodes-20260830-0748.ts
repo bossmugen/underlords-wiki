@@ -27,5 +27,14 @@ export const early0748IntegratedEpisodes: Episode[] = [
     kind: "Wall category history / Fame had already learned how to prosecute people",
     logline: "Ren POSTS an uninspected `image0.png`. Baby Lyssa immediately goes `NOOOOO` and `NONONONO`. Four seconds later Ren labels the live filing `*wall of fame*`; Baby Lyssa answers `delete that now`; another person supplies `Caught in 4k`. That sequence matters because it shows the Shame/Fame double-name already functioning as live house language, not just something people had argued about while naming the room in 2020. It also kills the tidy idea that `Fame` always meant wholesome praise. Here the label is being used with a grin while the apparent target is actively begging for deletion. This is the earliest surviving post-level explicit Fame label currently recovered after the 2020 naming negotiation, not proof that Ren invented the usage or that March 13 is its origin. June 16's later `No shame here, only fame and cuteness` remains the cleaner surviving positive-Fame example. The image itself stays sealed: Ren is confirmed as POSTER; MADE BY, CAPTURED BY and visual FEATURING remain unresolved, and Baby Lyssa is only probably implicated from the panic-and-delete chronology rather than a pixel inspection.",
     cast: ["Ren", "Baby Lyssa"]
+  },
+  {
+    id: "lilithel-account-on-vacation",
+    title: "Don't Worry, Your Account Is on Vacation",
+    season: "2020",
+    date: "November 18, 2020",
+    kind: "Returning-member status / Mugs apparently remembered the paperwork even when the player didn't",
+    logline: "LilithEl comes back after a long absence and opens with the spectacularly reassuring `idk if i'm still in underlords oops`. Forty-one minutes later Mugen TRUE-REPLIES to that exact message: `Dw bb I saved your account on vacation uwu`. The wording is tiny but unusually useful. LilithEl is not asking whether people remember her in some abstract friendship sense; she is genuinely unsure what her UL state even is after not playing. Mugen answers with active-maintenance language — `I saved your account` — and then names the state she used: `on vacation`. The `Dw bb` and `uwu` matter too: an administrative correction arrives dressed as reassurance, which is extremely on-brand for a club where status handling and affection routinely share the same sentence. The archive does not yet tell us exactly what `vacation` meant operationally in late 2020 — in-game club state, Discord-side handling, or another period convention — and current/export-time role arrays are not used to backfill it. What the scene does show is simpler: at least for LilithEl, a long absence had been intentionally parked rather than treated as automatic erasure, and Mugs remembered the parking spot even when LilithEl did not.",
+    cast: ["LilithEl", "Mugen"]
   }
 ];
