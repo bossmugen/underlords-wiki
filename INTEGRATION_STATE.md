@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-08-30 11:36 PDT_
+_Last updated: 2026-08-30 11:40 PDT_
 
 ## Current reconciliation boundary
 
@@ -12,9 +12,9 @@ The wiki is the long-form reference companion to `bossmugen/underlords`, not a c
 - **0 newly discovered / 0 finite pending / 0 backlog / 0 review-overdue** after this review close.
 - Both Club-Only recovery branches remain consumed/current: `archive-miner-clubonly-2020-hourly` through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`; `archive-miner/club-only-2021-2026-hourly` through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`.
 - `archive-miner/all-characters-hr-20260828` remains reviewed/consumed through `1eee38b03ce922083dd53136c73f90799c616205`.
-- `archive-miner/mugen-person-first-20260828` advanced from consumed `40999910f14f13d36a9cc578e555dd73030d01f4` to `58589937aad6937d43f8ba6059fca26ba1fe99e7`. The full changed intake handoff was reviewed checkpoint-first. Its one A-grade candidate — Mugen's 2025 day-off Wall archaeology — was already public here as **Mugen Uses a Day Off to Dig Back to 2020**, so this is a successful duplicate/corroboration review with no second public copy.
+- `archive-miner/mugen-person-first-20260828` is reviewed/consumed through `58589937aad6937d43f8ba6059fca26ba1fe99e7`. Its one A-grade candidate — Mugen's 2025 day-off Wall archaeology — was already public here as **Mugen Uses a Day Off to Dig Back to 2020**, so the latest person-first delta is duplicate/corroboration with no second public copy.
 - Wall forward review is current through `723cf86995e432d12bd513ac7be799931f8091de`. The `c149ac84...` findings plus later `fa96a7ae...` completion handoffs were reconciled as one evidence family; `fa96a7ae... -> 723cf869...` is checkpoint-router consolidation only. Formal Wall `last_consumed_sha` remains null while the older cumulative recovery floor is open.
-- Historical Wall recovery is now safely reviewed through the exact bounded **2026-08-26 08:46** package (`e0995afa90ed287a7a87de6b4b27b6541365a7bf -> dc12ee64d07f7aa77ed44c05e1158d1c342f0524`). **09:46 is next.**
+- Historical Wall recovery is now safely reviewed through the exact bounded **2026-08-26 09:46** package (`dc12ee64d07f7aa77ed44c05e1158d1c342f0524 -> 826596953fe9473d9564a2ffbc541de76a273c68`). **10:46 is next.**
 - Whiskey remains the sole finite **publication-blocked** branch: its accepted ordinary-life material belongs to Sye/Life on MAIN. Hard identity correction remains `488099199938986004 / sycessences / ƐℲı˥` = **Sye/Life, not Effie**.
 - No miner branch was merged or wholesale cherry-picked into either publishing branch.
 
@@ -66,6 +66,12 @@ On January 3, 2024 Daya POSTS a screenshot with `walked into a crime being commi
 
 WIKI owns **Rotini Goes From Lurking WC to `SHH EVERYTHING'S FINE`**. The joke stays narrow: in 2022 Rotini is quietly watching World Chat and bringing receipts home; in 2024 Daya announces a crime, summons Rotini and Snow, and Rotini's first visible instinct is containment. That does not create a permanent spy/criminal/evidence-officer title. It is one perfect scene where the observer has apparently become somebody inside the evidence and immediately asks the witness not to stare directly at it.
 
+### 09:46 recovery — the archive says `again`, but not who
+
+The next exact historical package is useful backstage without being public-page ready. Eos POSTS an uninspected image, follows it twenty-five seconds later with **`Got him again`**, and HamitteY's account true-replies to the image laughing. `again` establishes recurrence; it does not identify the man, the earlier catch, the image contents, or any nearby participant as the target.
+
+A separate Daya Reply says **`HE DIED ON THE STAIRS AGAIN?!?!`** and mentions Gilli. The surfaced handoff still does not expose the Reply parent, the identity of `he`, the game/mechanic, or the prior stair-death incident. The repeated event is real; the owner of the corpse is not. No public Episode or dossier claim was promoted from either breadcrumb.
+
 ## Reconciliation / duplicates
 
 - Dyingfox's Pond material enriches the existing Cast owner rather than spawning a duplicate Episode.
@@ -74,6 +80,7 @@ WIKI owns **Rotini Goes From Lurking WC to `SHH EVERYTHING'S FINE`**. The joke s
 - Mugen person-first `40999910... -> 58589937...` independently elevates the already-published May 6, 2025 day-off archaeology scene. It is duplicate/corroboration, not another Episode.
 - WOO/Nobu `TRAITOR` remains media-pending instead of receiving invented screenshot content.
 - Rotini's 2024 screenshot offense, Snow's exact role, and Rotini's exact Reply parent remain unresolved; the text-level reversal is still strong enough to publish.
+- Eos `Got him again` and Daya `HE DIED ON THE STAIRS AGAIN?!?!` are recurrence clues, not identity bridges; both remain held until their missing visual/reply joins are resolved.
 - NemeMoka, SaraBunny, and Yaza produced bounded no-new results in the All Characters suffix; those are routing results, not character traits.
 - No appointment chronology was inferred from export/current role arrays; no joke role or relationship was literalized; no similar-name identity bridges were invented.
 
@@ -85,7 +92,9 @@ WIKI owns **Rotini Goes From Lurking WC to `SHH EVERYTHING'S FINE`**. The joke s
 
 ## Holds / next work
 
-- Historical Wall: safely through **08:46**; exact bounded **09:46 next**.
+- Historical Wall: safely through **09:46**; exact bounded **10:46 next**.
+- Eos repeat catch: target, prior catch, and `IMG_1869.png` contents unresolved.
+- Daya stair death: Reply parent, male target, mechanic/context, and prior incident unresolved.
 - Rotini 2024: screenshot content/offense unresolved; Snow's exact role unresolved; Rotini's Reply parent not exposed.
 - WOO/Nobu `TRAITOR`: localized but pixel-dependent.
 - Gabu `Capturar.PNG`, Zoshaa's twelve JPGs, and Zhēnxī's 2022 screenshot: POSTED BY known; deeper provenance/pixels unresolved.
@@ -103,11 +112,11 @@ Reader-facing Rotini work at `6c0ab04f7e40c71bd7472c44b298458cfb420938` passed b
 - **Build Underlords Wiki** run `33328199014` — **success**.
 - **Deploy Underlords Wiki Preview** run `33328199040` — **success**, including Pages deployment.
 
-The first durable state close at `dac255135a69e219d455a27067552bc79a8f5b75` also passed both native workflows:
+The 08:46 durable state chain is fully green through `8c0bf50567d701a7218b3b637de5831c887ed6d9`:
 
-- **Build Underlords Wiki** run `33328321122` — **success**.
-- **Deploy Underlords Wiki Preview** run `33328321128` — **success**, including Pages deployment.
+- **Build Underlords Wiki** run `33328505126` — **success**.
+- **Deploy Underlords Wiki Preview** run `33328505175` — **success**, including Pages deployment.
 
-This metadata update creates a newer exact `main` head; that exact head is checked separately before the run report closes.
+This 09:46 state-only update creates a newer exact `main` head; that exact head is checked separately before the run report closes. No 09:46 reader-facing page was added because the package promoted no public candidate.
 
 MAIN remains independently gated. Its recent runs have failed before runner allocation: Build + verify had `runner_id=0`, blank runner name and `steps=[]`, and deployment was skipped. That is an infrastructure failure, not a source/build verdict. No MAIN reader-facing change is treated as verified unless source verification, Astro build, built-output verification, and deployment actually execute and pass.
