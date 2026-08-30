@@ -1,12 +1,12 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration close: **2026-08-29 21:04 PDT**.
+Last dual-surface integration close: **2026-08-29 21:17 PDT**.
 
 Full branch consumption state is authoritative on MAIN in `archive-intake/INTEGRATOR_BRANCH_STATE.json`; earlier WIKI states remain in Git history.
 
 ## Current boundary
 
-- Census: **49 tracked miner identities = 28 active remote refs + 21 historical/missing refs**.
+- Census at the reviewed boundary: **49 tracked miner identities = 28 active remote refs + 21 historical/missing refs**.
 - Finite pending: **0**.
 - Backlog: **0**.
 - Review-overdue: **0**.
@@ -16,66 +16,63 @@ Full branch consumption state is authoritative on MAIN in `archive-intake/INTEGR
 - All Characters: seen/consumed `382c3feb4b629489d1e2724a46660aa6c3228878`.
 - Mugen person-first: seen/consumed `3bb932c9ef668cd93f3a348c31431288dfe7d132`.
 - Whiskey: seen/consumed `392fc71d98e0cc120e832be282df81d61f888b7b`.
-- Wall: forward-reviewed through `16be7f4f984c2773c4ca50257d6b233d64568119`; formal consumed remains null while its cumulative historical recovery stays open. Historical recovery is now reviewed through **2026-08-25 07:46**; **08:46 is next**.
+- Wall: forward-reviewed through `16be7f4f984c2773c4ca50257d6b233d64568119`; formal consumed remains null while its cumulative historical recovery stays open. Historical recovery is now reviewed through **2026-08-25 08:46**; **09:46 is next**.
 
 No miner branch was merged or cherry-picked wholesale.
 
 ## Reviewed this pass
 
-Wall historical recovery advanced checkpoint-first through the **2026-08-25 07:46** package. Only changed `archive-intake/*` handoffs were used; the raw archive was not re-mined.
+The Wall recovery advanced checkpoint-first through the **2026-08-25 08:46** package. Only changed `archive-intake/*` handoffs were used; the raw archive was not re-mined.
 
-### Rummy was body-snatching very responsively
+A concurrent dual-surface close landed the preceding 07:46 Rummy body-snatching episode while this pass was running. The current publishing branches were re-read before editing, so that already-verified material was treated as consumed rather than duplicated.
 
-On August 10, 2022, Panda — posting under the historical display `Marian Kage` — posts `q.PNG` and tags Rummy. The image remains visually unresolved, so Panda is **POSTED BY** only; maker, capturer and depicted subjects remain unknown.
+### Rich accepts the premise, then checks the procedure
 
-Rummy eventually supplies the useful part herself:
+The 08:46 package supplied a new cross-scene Rich/Ricochet character pattern rather than a new single incident. Across five independent Wall scenes from September 2021 through September 2022, Rich repeatedly accepts UL's ridiculous premise and applies its internal rules, routing or limits:
 
-> `i actually did try to snatch eos but aa off AND i was snatching them very responsively`
+- Gabu announces that everyone wants his nipples cold so he will strip; Rich answers `Go for this is strip club` — venue jurisdiction solved.
+- Rich says `I think it’s time to punish a panda`, pages Eos, and Eos summons Marian — the existing Panda joke ecology used as a routing system.
+- Rich narrates Ansun doing something `in the middle of snow losing the bodies` — an operational-failure sentence, not permission to literalize unresolved body mechanics.
+- During Wall-speedrun discussion, Rich reasons that the theoretical floor would be shame `the moment you join the server before the lobby`.
+- Rich tags Gabu under `Drink water reminder` and says `I don’t think @Drink water reminder had enough watah` — the reminder itself fails the hydration audit.
 
-That is not an innocence defense. She accepts the central accusation and immediately starts litigating the operating conditions. Anayss true-replies `Im so proud`; Ansun true-replies `First tike body snatching`; then Rummy quietly revises the criminal-history section with `it been a couple of time…just never been caught ... *I think*`.
-
-The later line makes prior uncaught occurrences of the locally discussed behavior probable. It does **not** resolve the exact count, whether Ansun meant first-ever versus first-caught, what `aa off` means, or what Dragon Raja mechanic is actually happening. `body snatching` is Ansun's archive-native label; it is not permission to invent literal corpses, death, possession, or a body-transfer mechanic.
-
-WIKI publishes the scene as **Rummy Was Body-Snatching Very Responsively** in `src/data/integrator-episodes-wall-20260829-1930.ts` at reader commit `6dcf73417c06b1f265a43f9c51ba7422f168a1dd`. Both native workflows for that exact reader head completed successfully: **Build Underlords Wiki** and **Deploy Underlords Wiki Preview**.
-
-### Cele's Marie Kondo review — consumed, not duplicated
-
-The same package contains Ren's June 4, 2021 characterization of Cele as inverted Marie Kondo: `Dead animal: this sparks joy / Live animal: this does not spark joy`.
-
-This is safe one-scene peer characterization, not evidence of literal animal harm or a persistent Cele death motif. MAIN already owns the stronger person treatment on Cele's biography, including the exact peer-joke boundary and later Cele-authored Wall reactions. WIKI therefore does not manufacture a second episode merely because recovery resurfaced the line.
+The bounded synthesis is: **Rich rarely cancels the absurd premise; he checks the procedure.** This is character texture, not a historical Operations/Facilities/Compliance role, moderation appointment or proof of authority.
 
 ## Public changes
 
 ### MAIN
 
-- No reader-facing lore page changed in this pass.
-- The 07:46 Wall recovery boundary was durably advanced in `archive-intake/INTEGRATOR_BRANCH_STATE.json` after the accepted WIKI reader commit passed verification.
-- MAIN intentionally leaves this scene to WIKI because Rummy's main-site biography already has a richer prosecution/context-defense story; duplicating the discrete body-snatching case there would overstuff the canonical person page rather than deepen it.
+`src/content/people/rich.md` received the richer person-level treatment at reader commit `f68787a86aa236027ef4a2b2354a0921ce87d45e`.
+
+That exact reader head passed the repository's full native chain:
+- source canon and architecture verification;
+- Astro build;
+- built-output verification;
+- exact Cloudflare production deployment and production-commit verification.
 
 ### WIKI
 
-- `src/data/integrator-episodes-wall-20260829-1930.ts` now publishes **Rummy Was Body-Snatching Very Responsively**.
-- Reader commit: `6dcf73417c06b1f265a43f9c51ba7422f168a1dd`.
-- Exact-reader-head **Build Underlords Wiki**: success.
-- Exact-reader-head **Deploy Underlords Wiki Preview**: success.
+No new reader-facing object was added for 08:46. WIKI already owns several of the constituent incidents separately, including the hydration-audit and body-loss episodes. Turning a five-scene person synthesis into another episode would duplicate the incidents and weaken the distinction between an episode and a character read.
+
+This state update records the reviewed boundary and the intentional MAIN-only publication.
 
 ## Duplicates combined / intentionally split
 
-- Rummy body-snatching is WIKI-only as a bounded incident. MAIN already owns Rummy's larger pattern of conceding the evidence while arguing context, conditions, or judgment.
-- Cele's Marie Kondo line remains MAIN-owned character texture; this recovery is corroboration rather than a new WIKI object.
-- The 2024 Rummy/Nemo grab GIF remains separate. Generic grab imagery is not enough to call it a callback to the 2022 body-snatching scene.
+- 07:46 Rummy/Eos body-snatching was already published WIKI-only by the concurrent prior close; no duplicate was created.
+- Cele's inverted-Marie-Kondo line remains MAIN-owned person texture and was already consumed as corroboration.
+- Rich's five individual incidents were already represented across existing intake/public rails; the newly publishable material is the **cross-scene person pattern**.
+- Stripclub ontology, Marian/Eos Panda ecology, body-loss lore, Wall-speedrun history and Gabu hydration remain with their existing owners rather than being recopied into a new WIKI episode.
 
 ## Held / unresolved
 
-- `q.PNG` pixels and exact visual subjects.
-- `q.PNG` maker and capturer; Panda is only confirmed as POSTED BY.
-- Meaning of `aa off`.
-- Exact Dragon Raja mechanic behind `body snatching` and whether any corpse/body-transfer reading is appropriate.
-- Exact number and identity of Rummy's claimed earlier uncaught occurrences.
-- Whether Ansun's `First tike body snatching` means first ever, first witnessed, or first caught.
-- Whether the March 2024 Nemo-adjacent grab GIF is a genuine callback.
-- Cele's June 2021 screenshot pixels, maker, capturer and depicted action.
-- Namo's `Finesse of a comedy duo` partner/mechanism remains unresolved despite another search pass.
+- `IMG_3118.png` visual contents, maker and capturer; Rich is POSTED BY only.
+- Exact game/body mechanics behind `snow losing the bodies`.
+- Any formal operational title, authority or governance inference from Rich's recurring conversational move.
+- `Panda` beyond the contextual Marian/Eos joke ecology.
+- The later July pre-join Wall record as anything Rich caused or formally predicted.
+- 07:46 `q.PNG`, `aa off`, exact body-snatching mechanics and exact earlier-incident count.
+- Cele's June 2021 screenshot pixels/provenance.
+- Other carried Wall visual rabbit holes remain unresolved until actual media/source joins resolve them.
 - Every unsupported jump among SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING.
 
-This state commit must itself pass the repository's native build and Pages workflows before the pass is reported closed.
+This state commit must itself pass the repository's native build and Pages workflows before the pass is reported closed. A final full branch census must also be performed after the state writes; any new finite mover must be registered and handled under the anti-starvation policy.
