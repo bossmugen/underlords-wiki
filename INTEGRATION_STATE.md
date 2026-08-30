@@ -1,63 +1,48 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-08-30 16:24 PDT_
+_Last updated: 2026-08-30 16:33 PDT_
 
-## Current dual-surface integration state — Run 40 + Tofu + the Wall production line
+## Current dual-surface integration state — Run 40 / moving-branch close
 
-The project-wide lower-evidence threshold remains binding. Hard user-confirmed canon, resolved identity corrections, privacy/safety boundaries, explicit source contradictions, formal appointment chronology, and attribution fences remain hard. Outside those boundaries, strong contextual human reads are publishable when the archive makes them more likely than not.
+The lower-evidence project rule remains binding. Hard canon locks, resolved identities, privacy/safety, explicit contradictions, appointment chronology, and attribution fences stay hard; persuasive ordinary human reads do not need courtroom-proof wording.
 
-### Shared miner census / queue
+### Census / consumption boundary
 
-- **49 tracked miner identities** = **28 active remote refs + 21 historical/missing refs**; **0 newly discovered**, **0 finite pending**, **0 backlog**, **0 overdue** after review. Closing census found five moving branches and all five were either fully reviewed or, for cumulative Wall, forward-reviewed through their closing heads.
-- Both Club-Only recovery branches remain consumed/current: `archive-miner-clubonly-2020-hourly` through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`; `archive-miner/club-only-2021-2026-hourly` through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`.
-- `archive-miner/all-characters-hr-20260828` was reviewed from consumed `cbe4d2bf4b1982e8e8dc9fb8e1d6a801f90fd356` through closing head `111851bebb7def0b74912dcc533193a453992232`. The late suffix only finalized the Run-40 Moon/checkpoint/exhaustion ledger; it introduced no second evidence family.
-- `archive-miner/core-rooms-events-a91f-20260824` advanced to `8d4ea9f75956eab681c2580d5481f7c03a111f42`. Its only new handoff is a retrieval-failure checkpoint: positive controls failed alongside target searches and source materialization was blocked. No historical negative was inferred and no public change was accepted.
-- `archive-miner/daycare-2020-2026-hourly` advanced to `3c5e622b6a391c8af8f7f93a3a48f4500e6d5d41`. Alaina's December 2021 Lobby intake, Ren's server-tour handoff, later year-long Daycare footprint, and January Wall context-literacy are strong onboarding texture; exact minor age remains private. Public copy is held until direct Daycare-body scenes give the person a proper owner rather than an intake-only shell.
-- `archive-miner/whiskey-longitudinal-hourly` advanced to reviewed head `a54ade5d5d96c6a1d507a8a6ac3519ed05474ed4`. New Tofu ordinary-life material is public below. Formal consumed SHA remains `6cd5f9daeb20d77fad20e3cd7465ec938411993d` because earlier accepted Sye/Life material remains MAIN-publication-blocked. Hard correction remains **`sycessences` / `ƐℲı˥` = Sye/Life, not Effie**; **Meowk = Alkey remains probable**, while **Key ≠ Alkey** remains hard.
-- Wall forward review advanced through `33c73c28aca722d180c6d70669afdf846bccf192`. Historical checkpoint-first recovery remains safely through **2026-08-26 15:46 PDT; 16:46 next**. No safe intake-local 16:46 handoff surfaced, so raw archives were not re-mined and formal Wall `last_consumed_sha` remains null while cumulative recovery stays open.
+- **49 tracked miner identities = 28 active remote refs + 21 historical/missing; 0 newly discovered.** Both Club-Only recovery branches remain fully consumed/current.
+- All Characters is reviewed and public/consumable through `111851bebb7def0b74912dcc533193a453992232`.
+- Core is reviewed through `8d4ea9f75956eab681c2580d5481f7c03a111f42`; the new suffix was retrieval-failure-only, including failed positive controls, so no historical negative or public claim was manufactured.
+- Daycare is reviewed through `3c5e622b6a391c8af8f7f93a3a48f4500e6d5d41`; Alaina's front-door → Ren tour → later Daycare-regular trajectory is strong but held until direct Daycare-body scenes give it a proper person owner. Exact minor age remains private.
+- Whiskey is reviewed through `a54ade5d5d96c6a1d507a8a6ac3519ed05474ed4`; formal consumed remains `6cd5f9daeb20d77fad20e3cd7465ec938411993d` because earlier accepted Sye/Life material remains MAIN-publication-blocked. Hard correction: **`sycessences` / `ƐℲı˥` = Sye/Life, not Effie**. **Meowk = Alkey remains probable; Key ≠ Alkey remains hard.**
+- Mugen person-first moved late and was followed through `b8ab703fab119ad741b204aefa25fad7302e4571`.
+- Wall moved late and is forward-reviewed through `b3bd92b8622ee7eab290c150604d02fbf0318c0d`. Formal consumed remains null while historical recovery is open. Historical checkpoint-first recovery remains safely through **2026-08-26 15:46 PDT; 16:46 next**; no safe intake-local 16:46 handoff surfaced, so raw archives were not re-mined.
 - No miner branch was merged or wholesale cherry-picked into either publishing branch.
 
-### New public character deepening
+### Reader-facing additions
 
-**Run 40** was integrated as biography texture rather than seven detached mini-pages. `src/data/character-biographies-run40.ts` imports each person's existing finished narrative and appends the new scene; the resolver wires it after the older owners so it deepens rather than competes.
+**Run 40 character deepening:** Anthos gets the conflict-repair scene where non-malicious intent does not erase impact; Oyasumi is apparently willing to defend pineapple pizza; Snow responds to the cute-cat prosecution by changing his avatar and joining the exhibit; Ren's later easy familiarity with Gilli gets an older admiration/intimidation before-picture; Sye's first-person care answer distinguishes task-shaped giving from presence/listening/space as receiving; Gilli's Dragon Raja spending loses to house-buying expenses; Moon's later life line now includes pharmacy-tech work while pursuing further education. Daya remains a bounded negative rather than an invented personality.
 
-- **Anthos:** an April 2021 conflict scene now shows that her softness is not refusal to draw a line. She can acknowledge non-malicious intent while still treating impact as enough reason for harmful phrasing to stop. Harmful wording and the hurt person's identity remain private.
-- **Oyasumi:** direct pineapple-pizza questioning leaves Oya continuing the pro-pineapple position and answering with a pineapple-pizza GIF. Small likely taste, not a lifelong brand.
-- **Snow:** peers turn him into an embarrassing/cute cat bit; Snow responds by changing his avatar and joining the exhibit. The image itself remains uninspected, so only peer cat-framing and Snow's avatar response are public.
-- **Ren/RV:** January 2021 gives the later easy Gilli/Ren familiarity a before-picture. Ren remembers Gilli as the `top assassin in my eyes`, somebody she wanted to emulate and initially found intimidating; Gilli remembers Ren quietly watching. Admiration comes before ordinary teasing.
-- **Sye/Life:** a March 2022 first-person answer distinguishes task-shaped giving—helping, acts of service, food—from quieter receiving modes such as presence, listening, welcome, and sometimes recovery space. Dated preference, not a clinical rule.
-- **Gilli:** by February 2022 she says she has stopped spending on Dragon Raja because she is buying a house and expects house expenses. Public copy keeps the adult-priority/budget shift without location, price, mortgage, income, co-buyer, or legal-completion fanfic.
-- **Moon:** by March 2025 she says she is working as a pharmacy tech while pursuing further education, so the biography is no longer frozen in the early student snapshot. Employer, school, exact program, location, and unstated credentials remain unresolved/private.
-- **Daya:** bounded negative only. Her unresolved `new generation/new era` visual seam and broader ordinary-life questions remain open; no personality was manufactured from silence.
+**Tofu:** the existing doorway biography now has first-week ordinary life. Tofu asks Whiskey for music recommendations because the same playlist has been looping for weeks; a quick `Ty!` probably marks a response without preserving who or what. The next day a brother/calendar anecdote ends with `pray for his brain` and Ren drops a prayer emote 28 seconds later. Then Tofu says, `I work part time job and super part time job. I don’t want more work 😭`. The public owner claims multiple work commitments, not employer/job/location fanfic.
 
-### Tofu: ordinary life enters Whiskey immediately
+**Mugen ↔ Gabu:** a 2026 favorite-memory chain supplies a genuinely different Boss beat. Oyasumi remembers Gabu as the person who `knows all the answers`; the surviving handoff says Mugen remembers the group following Gabu in the repeated old activity; Gabu later says she had been proud of her memory. Mugen's exact follow wording and the activity noun remain unrecovered, so her part is paraphrased. The useful read is domain-specific: Boss can remember herself as one of the followers when somebody else is the local answer key. No formal authority transfer or universal management doctrine is inferred.
 
-Tofu's existing biography already owned the June 25 doorway, `just call me Tofu`, the UnderLords club answer, immediate Whiskey welcome, and probable fried-tofu / dancing-tofuzinho name-riffing. The new Whiskey delta adds the quieter first-week layer instead of repeating the doorway.
+**The Wall's production line:** the Domains page now connects September 2020 receipt engineering to later consequences. Ren explains iPad quick-edit → post → local-delete wording; Anthos contrasts laptop Photoshop; Hishiro notes Android screenshot/edit. Tofu later says filing fast caused a bad crop while naming Whiskey in the production context. Then September 2023 finally gives direct first-person capture language: Ren says `But I also took a SS of the yell`, and 21.375 seconds later posts `IMG_7950.png` with `Use it irresponsibly ❤️`. Ren personally taking a screenshot in the scene is confirmed; that exact attachment being the captured screenshot is **probable/strong**, not hard, because there is no reply/hash/pixel join. POSTED BY, CAPTURED BY, MADE BY, and FEATURING remain separate jobs.
 
-Two days after arrival Tofu asks the room for music recommendations because the same playlist has been looping for weeks; a `Ty!` 136 seconds later strongly suggests the room answered, but the missing text-only layer does not preserve respondents or genres. The next day Tofu tells Whiskey that a nineteen-year-old brother has managed to read a July date while it is still June and ends with `pray for his brain`; Ren posts a prayer emote twenty-eight seconds later, a probable response without a surviving reply pointer. On June 29 Tofu says, `I work part time job and super part time job. I don’t want more work 😭`. That supports multiple work commitments and exactly zero employer/job-type/location/schedule fanfic.
+### Held / unresolved
 
-### The Wall had a production line
-
-The Domains page now owns a clean receipt-engineering story instead of leaving speed-to-file as mystical reflexes. In September 2020 Anthos asks how Ren is so fast; Ren explains the iPad's quick-edit function and then the tiny pipeline: `So I take it post it and delete UwU`. Anthos contrasts Photoshop on a laptop; Hishiro notes Android can screenshot and edit immediately. A year later Tofu supplies the failure mode: while describing a Wall filing burst and accidentally posting in Whiskey, Tofu admits `I posted it@so@quick I didn’t crop it wells`.
-
-That makes the first-to-file culture physically legible: capture/edit/post speed mattered enough that crop quality could lose the race. Attribution stays exact. Ren is the surviving **POSTER** of the 2020 receipt, not automatically its original capturer or maker; Tofu names Whiskey as a source/trigger venue, but no exact nearby Wall attachment is hard-joined to a Whiskey source file yet.
-
-### Held / duplicate / unresolved
-
-- Core's 16:05 retrieval failure is explicitly **not** absence evidence and was consumed without public change.
-- Alaina's front-door → server-tour → later Daycare-regular trajectory is strong and publishable in principle, but this pass holds it for direct Daycare-body scenes / a proper person owner rather than making intake paperwork the whole biography. Exact minor age stays private.
-- Wall's 2024 `stank r8 machine` / `stink off` sequence is a real recurring comedy bit, but any future use must remain comedy-only and never become a factual hygiene/odor/health claim.
-- JumanjiBinx's one-word delayed TRUE-REPLY `Yes` is a perfect tiny witness beat, but what the `Yes` affirms remains unresolved.
-- No identity bridge was inferred from similar names; no export-time role array became appointment chronology; no joke family/romance language became literal; no unseen image was described. POSTED BY / SAID BY / VIA / CAPTURED BY / MADE BY / FEATURING remain distinct jobs.
+- `ничего` now has a strong ordinary-life height scene: Moon places them below herself in a height comparison, `ничего` TRUE-REPLIES `SCRWAMING`, gets called adorable/pretty, then says `I LOVE U I WISH I WAS TALL`. Short/self-sees-short is probable/strong in context, but canonical identity/status is unresolved, so no new Cast owner was invented. No exact height, age, gender, diagnosis, or relationship label is inferred.
+- Wall's `stank r8 machine` / `stink off` sequence stays comedy-only, never factual hygiene/odor/health evidence.
+- JumanjiBinx's delayed TRUE-REPLY `Yes` remains a tiny witness beat whose proposition is unresolved.
+- Core's retrieval failure remains an access/runtime problem, not absence evidence.
+- No similar-name identity bridge, export-array appointment dating, joke-family literalization, or unseen-image description was accepted.
 
 ### Verification / deployment
 
-The final reader head for this pass is `74134aa47fb41287999e4717cb70ffc69ab04b37`, containing Run-40 biography deepening, Tofu ordinary-life deepening, and the Wall production-pipeline Domains addition.
-- **Build Underlords Wiki** run `33341630304`: Astro build **success**.
-- **Deploy Underlords Wiki Preview** run `33341630298`: Pages build/deploy **success**.
+Reader head `429b176e09e1b3b1c839157b3035271cdc0aa49d` contains Run-40 deepening, Tofu ordinary life, Mugen↔Gabu, and the extended Wall production/capture story.
+- **Build Underlords Wiki** `33342011802` — **success**.
+- **Deploy Underlords Wiki Preview** `33342011808` — **success**.
 
-This durable-state update creates a newer exact `main` head; that state head must pass its own native Build + Pages chain before final reporting.
+This durable-state commit creates a newer exact `main` head and must pass its own native Build + Pages chain before final reporting.
 
 ### Surface split
 
-**WIKI** receives the reader-facing character and Domain material because these deltas naturally deepen existing person/location owners without photocopying history. **MAIN** intentionally receives no mirrored reader prose in this pass; its required verifier has repeatedly failed before execution, and the strongest use of these scenes there would be later editorial weaving rather than duplicate blocks. MAIN receives the shared consumption board and durable dual-surface report. Prior WIKI integration-state history remains available in repository history; this file records the current durable boundary.
+WIKI owns these reader changes because they deepen existing Cast/Domain owners instead of duplicating history. MAIN receives no mirrored reader prose in this pass; its stronger use would be later editorial weaving, and its required verifier continues to fail before executable steps are allocated. MAIN still receives the authoritative miner-consumption board and durable dual-surface report.
