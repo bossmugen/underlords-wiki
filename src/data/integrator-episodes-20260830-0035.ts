@@ -29,4 +29,14 @@ export const early0035IntegratedEpisodes = [
     logline:
       "Anayss tags Mugen, Nhou, and Snow and asks whether the Boss is proud of the `stripper’s knowledge UL has`. Snow follows by invoking knowledge of pasties and their `applicationly use`; Mugen does not reject the fake qualification system, she bureaucratizes it: `Yall didn't have to take the entrance exam but that is standard knowledge among our staff`. Three minutes later Anayss says this is `totally giving us kahoot ideas` and tags Gilli, while Vanness starts contributing obscene fake-name material and Gilli answers with EvilClap energy. That is the house mutation in miniature: a stripper joke becomes a fake professional standard, then a fake entrance exam, then somebody immediately threatens to turn it into programming. UL really did use Kahoot elsewhere by this point, but this archive sequence proves only the idea, not that a stripper/pasties quiz was ever built or run. The opening image remains visually uninspected, so Nhou and Snow are named examples of the joke-language only; no unseen action or image authorship is invented.",
   },
+  {
+    id: "wolf-temporary-sniper-family-picture",
+    title: "The Temporary Sniper Still Gets a Spot",
+    season: "2022",
+    date: "2022",
+    kind: "Group art / membership becomes composition",
+    cast: ["WolfPhenix", "Mugen"],
+    logline:
+      "Wolf coordinates an Officer group doodle by having people choose numbered positions, except Mugen is specifically not allowed to choose her own. Then an extra position becomes useful: the current temporary Sniper gets folded into the picture too. The creator chain for every drawn line is not fully joined, so this is credited to Wolf as coordinator rather than silently autographing the whole artifact for her. The character beat is already better than `Wolf makes art`: she is taking the current shape of the house and turning it into composition, and even the temporary person is not left standing administratively outside the frame. Years before her nineteen-person anniversary alley makes the same instinct spectacular, the smaller doodle already shows the mechanism — membership becomes something people can literally see themselves inside.",
+  },
 ];
