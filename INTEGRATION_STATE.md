@@ -1,86 +1,91 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-08-30 13:49 PDT_
+_Last updated: 2026-08-30 14:17 PDT_
 
 ## Current reconciliation boundary
 
-The wiki remains the long-form fandom/reference companion to `bossmugen/underlords`, not a separate lore system. The project-wide lower evidence threshold is binding: hard canon, resolved identity corrections, privacy/safety, explicit contradictions, formal-role chronology, and attribution fences stay hard; strong contextual human reads are publishable when the surrounding evidence makes them more likely than not.
+The wiki remains the fandom/reference companion to `bossmugen/underlords`, fed by the same reconciled archive-intake evidence. The project-wide lower evidence threshold is binding: hard canon, resolved identity corrections, privacy/safety, explicit contradictions, formal-role chronology, and attribution fences stay hard; strong contextual human reads are publishable when the surrounding evidence makes them more likely than not.
 
 ### Shared miner census / queue
 
-- **49 tracked miner identities** = **28 active remote refs + 21 historical/missing refs**; **0 newly discovered**.
+- **49 tracked miner identities** = **28 active remote refs + 21 historical/missing refs**; **0 newly discovered** in the opening census.
 - Both Club-Only recovery branches remain consumed/current: `archive-miner-clubonly-2020-hourly` through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`; `archive-miner/club-only-2021-2026-hourly` through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`.
-- Finite branch queue remains **0 pending / 0 backlog / 0 overdue**. Whiskey remains the sole finite **publication-blocked** branch; its accepted Sye/Life ordinary-life material remains MAIN-owned. Hard identity correction remains `488099199938986004 / sycessences / ƐℲı˥` = **Sye/Life, not Effie**.
-- Wall forward review remains current through `93b01167ba3848a5820f7b0130dd741dfd249c49`.
-- Historical Wall recovery is now safely through exact bounded **2026-08-26 11:46 PDT; 12:46 next**. The recovery delta was the intake-only five-commit package `8ced6bbd4bdaffd2077eb73a3287684ef555f144 -> 582c0b436e09b49045d4e44616893dc28744b900`. Formal Wall `last_consumed_sha` remains null while the older cumulative floor is open.
+- `archive-miner/all-characters-hr-20260828` advanced after census and was followed through final reviewed head `cbe4d2bf4b1982e8e8dc9fb8e1d6a801f90fd356`.
+- Wall forward review remains current through `93b01167ba3848a5820f7b0130dd741dfd249c49`. Historical Wall recovery is now safely through exact bounded **2026-08-26 12:46 PDT; 13:46 next**. Formal Wall `last_consumed_sha` remains null while the older cumulative floor is open.
+- Whiskey remains the sole finite **publication-blocked** branch; its accepted Sye/Life ordinary-life material remains MAIN-owned. Hard identity correction remains `sycessences / ƐℲı˥` = **Sye/Life, not Effie**.
 - No miner branch was merged or wholesale cherry-picked into either publishing branch.
 
-## Historical Wall recovery — 11:46 accepted public material
+## All Characters Run 39 — accepted public deepening
 
-### Momo's `2fer1` becomes a combo deal
+### Kiro: identity chaos inward, reassurance outward
 
-The initiating Momo line is gone, but the aftershock is not. Daya says `momo said 2fer1`; Momo herself Fat-Wheeze-reacts to that paraphrase. Mugen answers `good deal good deal`. Panda says `damn, lemme get some`. Daya TRUE-REPLIES to Panda with `some booty? or drugs :BOP1:`. Porgo asks `can i get both?`; Panda says `why not both?`; Porgo closes with `amen`.
+A previously mined Whiskey layer adds direct care behavior. When somebody admits social anxiety and mostly lurking, Kiro answers `we dont bite`, calls UL `your extended family`, and praises them for speaking up. Later he says, `If you ever need someone to talk to, we always have your back`.
 
-WIKI publishes **Momo's `2fer1` Becomes a Combo Deal**. The public claim is deliberately the room's interpretation, not a reconstructed Momo quote: whatever the missing `2fer1` remark originally meant, everybody around it turns it into fake combo-special language in under three minutes. Momo's reaction shows recognition of Daya's paraphrase; it does **not** prove that Momo herself offered booty, drugs, or either item, and it does not restore the vanished source wording. The joke survives because the original sales pitch is missing while the customers are still ordering.
+The public character read is deliberately ordinary: Kiro will happily make his own identity harder to parse — including the later `Who's kiro` bit — while making another person's uncertainty about belonging easier to parse. This is peer care, not a therapist, counselor, or formal support role.
 
-The same bounded recovery package rechecked Eos's `Got him again`, the repeated stair-death parent/target, and Ghostt's missing everyday phrase without resolving them. Those remain open rather than being guessed into public copy.
+### Rummy: normal spelling becomes suspicious
 
-## Core Rooms + Events — accepted public material from the preceding pass
+Panda tells Rummy to stop `infecting people with your bad spelling`; Moon later pairs herself and Rummy inside the typo ecosystem; by 2026 Oyasumi can joke, `You can tell the message is fake by the normal spelling. Def not rummy`.
 
-### Lilly notices Shurui is missing from the `plabn`
+WIKI now treats the spelling damage as peer-recognized voice texture rather than a generic typo joke. Unnecessary account-security mechanics remain off the public biography. Rummy remains Party Director Apprentice under Nobu, not a co-equal Party Director.
 
-The Core delta resolves the November 17, 2020 `tell her the plabn` scene as **Land of Conquest**. Saber announces the event and its start; fourteen minutes later Club Only is in live coordination mode, Lilly asks `can someone grab shurui` and `and tell her the plabn`, Mugen asks Ansun who he has, and Wolf reports `My team in earth`.
+### Han: `probably` leaves one tiny escape hatch
 
-Concurrent WIKI work gave the scene the better canonical owner: Lilly's biography connects the Land of Conquest scramble to the October 23 Spritely/Lilly cluster (`LILLYYY`, hug commands, `ilysm Lilly ❤️`). The relationship read is warm familiarity, not romance or hierarchy. The practical line lands because Lilly is not merely counting a roster slot; she notices a familiar person is outside the information loop and wants somebody to pull them in.
+After the Family Photo Submissions entry on November 15, 2021, Han says it is `probably gonna be the last submission for me`. Twenty-two days later Winter arrives with `still have something left hehe`.
 
-### Eos changes the game-club answer; the morning greeting survives
+The useful character beat is not a dramatic retirement/reversal. `Probably` quietly leaves the door unlocked, and Han walks back through it because making apparently outran his own stopping plan. Hard canon remains Han=Nai/`.`; never Officer; not Platelet; Han≠Mia.
 
-Stable account `621021922473410581` self-identifies on December 6, 2020 as `EnyoCal~ ... UL club`, then on January 30, 2021 as `Eos~, Deviations, 18+`. In April the same account is still casually present in Club Only with `gmmm`, hug emotes, and `Good morningg`.
+### Gabu: Raja becomes somewhere to revisit the funny moments
 
-WIKI publishes **Eos Changes Clubs. Good Morning Stays.** The useful claim is person-level social continuity across at least one explicit change in game-club self-identification. The archive does **not** establish the exact transfer date, whether Eos rejoined UL before April, or what access role applied.
+On December 31, 2024 Gabu says she has stopped playing Dragon Raja but everybody remains in her heart and she is happy to call them family. On July 6, 2025 she says she will log in once more `just to take one last look, to remember the funny moments`.
 
-### aesiana gets from intimidated to `I'll ask you if I'm lost`
+A 2026 memory thread supplies the mirror from the room: Oyasumi remembers Gabu as the person who `knows all the answers`, Mugen remembers everybody following her instead of learning them, and Gabu says she had been proud of her memory. The old activity itself remains unresolved. The public read is smaller and better: the game becomes a memory site, while the people remember Gabu as somebody who once held an absurd amount of the map in her head.
 
-On December 2, 2020 aesiana enters as a UL member and, minutes later in Club Only, says `I feel a bit intimidated 👉🏻👈🏻`; after surrounding welcome/reassurance the next authored line is `Thank you I’ll ask you if I’m lost ^^`.
+### Ansun: the future loud guy keeps diving out of the picture
 
-WIKI publishes **I Feel a Bit Intimidated 👉🏻👈🏻** as one first-day scene, not a permanent shyness diagnosis. A self-disclosed real-world name present in the source remains privacy-held.
+In a June 25, 2021 oral-history scene, Ansun remembers fishing underneath an early girls' picture day and repeatedly diving so he would not photobomb while they changed outfits and took pictures. He later folds that encounter into how he was `picked up`.
 
-Core safety/control material remains backstage: Midnight_07 is confirmed age 15 on December 5, 2020; oAtlas self-identifies only as `MINOR`; neither receives later adult/sexual material without independent later-age chronology. NEMESIS JANE retrieval remains inconclusive; FireLegacy's Nov. 26–27 inviter/cause remains unresolved.
+The biography uses this as early social texture, not a causal origin story. It adds a useful before-picture to the later high-volume online-extrovert Ansun: one remembered way of entering the social field was active non-intrusion. A 2023 Officers VC side-text also shows Ansun separating gut feeling from proof while reconstructing a dispute; missing audio prevents a fuller retelling.
 
-## Wall forward delta — accepted public material from the preceding pass
+### Anayss: keep the prank, keep the exit
 
-### The Boiled Mayo Hearing
+After the 2021 Club Showcase, Gabu tells Anayss `Ty for leading us`. That is peer recognition of a leadership verb in a real event scene, not a backdated appointment date.
 
-On May 17, 2021 Zoshaa offers a `refreshing glass of boiled mayo` and describes it as a warm triple-thick milkshake that tastes like mayonnaise. Gilli gags in text. Ren TRUE-REPLIES that she will gladly accept it. Josh arrives because he has *heard* about boiled mayo, says a flat `no`, and supplies `stop-get-some-help`; Ren answers `make me`; Gabu replies to Ren with `did you do your hw bb?`; Ren later summarizes the tragedy as `Josh won’t fight me`.
+During 2023 nickname-change chaos, Anayss tells uncomfortable members they can change their own server nickname back instead of waiting for somebody else, then ends with `:SipTea:`. The public read is that her preferred chaos can remain ridiculous while participation remains reversible. A boundary does not need a solemn tone to be real.
 
-WIKI publishes **The Boiled Mayo Hearing** as a one-evening incident rather than manufacturing a long-running UL food tradition.
+Nelph and Shiki were bounded negative qualification checks in Run 39. No new public personality claims were manufactured from source silence.
 
-### Torr's stream starts producing Wall exhibits
+## Historical Wall recovery — 12:46 accepted public deepening
 
-On October 5, 2022 Mr. Streamer POSTS a screenshot and 4.759 seconds later says `Via @DiStratus(Torr)`. He POSTS another screenshot minutes later; Torr then says `XD i'm giving a lot of material with this stream`.
+### Aesh's speedrun finally has an actual stopwatch
 
-WIKI publishes **Torr's Stream Starts Producing Wall Exhibits**. Mr. Streamer is **POSTED BY** for the first file and Torr is **VIA / SOURCE-CREDITED**; `Via` is not promoted to CAPTURED BY, MADE BY, or FEATURING. The second screenshot is probably part of the same live stream pocket from chronology, but it does not inherit the first image's explicit source credit by magic.
+The April 24, 2021 entry sequence is now exact. MEE6 welcomes Aesh at 04:11:56.698. Aesh identifies herself as Council / S9 and a friend of Mugen and HamitteY. Mugen assigns roles at 04:13:41.623 already calling her `aesh van gogb`. At 04:14:42.346 Mugen is welcoming her to the Wall as `GOGB`.
 
-The same forward suffix also resolves the earliest surviving post-level `wall of fame` wording and contextualizes Booba's two-message delayed filing. Those remain chronology/profile evidence rather than extra public Episodes.
+That is **2m45.648s** from automated Lobby welcome to Wall welcome, and **1m00.723s** from Mugen's role assignment to Wall. Later members remember Aesh as the benchmark, so WIKI now gives the legend its recovered clock. This is Discord/Lobby entry timing, not proof of an in-game UL membership join.
 
-## Duplicate / corroboration reconciliation
+Minutes later Aesh jokes about cutting an ear from sadness; Mugen answers `i'll buy your painting pls dont cut`; the next day Aesh true-replies, `that's why mugen calls me aesh van gogb`. The Van Gogh logic is therefore participant-explained, not curator guesswork. The chronology is equally important: Mugen uses `aesh van gogb` before the ear/painting exchange, so this scene explains the nickname but does **not** prove its origin. The ear line remains joke context, not a real self-harm event.
 
-- **All Characters Run 38:** Feli's Sep. 29, 2020 Tumbleweed placement question is already public in the existing Feli biography. The remaining seven targets were bounded negatives; no duplicate copy added.
-- **Mugen person-first 13:18:** the `my sleepy eyes` package is a Mugen-angle reassembly of the May 6, 2022 Wall scene already public in **Erys Goes from `It's Photoshopped` to Filing Back**. No duplicate owner added.
-- **Shurui / Lilly:** the Core `plabn` evidence stays inside Lilly's richer biography owner rather than becoming a duplicate Episode.
-- **Momo `2fer1`:** no pre-existing public owner was found on either surface. The new WIKI Episode owns only the recoverable room-aftershock; the missing initiating line remains unresolved.
+Aesh's first Wall image remains visually unresolved. It was **POSTED BY Mugen**; maker/source/subject stay open. Eos's `Got him again` target/prior catch was deliberately rechecked and remains unresolved.
+
+## Duplicate / reconciliation notes
+
+- The Run-39 findings are integrated into existing Cast biographies instead of spawning miniature Episodes for every sentence.
+- Gabu and Anayss use narrative overlays because their existing character stories are already long-form; Kiro, Rummy, Han, Ansun, and Aesh use biography overlays.
+- Existing Aesh arrival/context material was deepened with the exact stopwatch and Van Gogh chronology rather than duplicated.
+- Nelph/Shiki bounded negatives are reviewed evidence, not public claims.
+- No current-role/export array was used to date an appointment. No missing audio or uninspected image was reconstructed. No similar-name identity bridge was invented.
 
 ## Verification / deployment
 
-Earlier reader heads remain verified as recorded in prior integration history. For this recovery pass:
+Reader head `218b5c9e4679669101ff585573930e9e3e982200` contains the Run-39 overlays plus Aesh 12:46 Wall deepening.
 
-- reader head `e89c474ae4e878b0f2b406b841c98f6c0edf1468` — **Build Underlords Wiki** run `33334623431`: Astro build **success**.
-- reader head `e89c474ae4e878b0f2b406b841c98f6c0edf1468` — **Deploy Underlords Wiki Preview** run `33334623338`: Pages build + deploy **success**.
+- **Build Underlords Wiki** run `33335810637`: Astro build **success**.
+- **Deploy Underlords Wiki Preview** run `33335810633`: Pages build, artifact upload, deployment, and report jobs **success**.
 
 This state update creates a newer exact `main` head; its own native Build + Pages deployment must also pass before the pass is reported complete.
 
 ## Surface split
 
-**WIKI** owns **Momo's `2fer1` Becomes a Combo Deal** because it is a compact, discrete Wall incident whose entire usable story is the reaction chain around a missing initiating line.
+**WIKI** owns this pass's public biography deepening because these findings are person-first dossier material: support style, voice texture, creative changed-mind behavior, memory, early social posture, participatory-chaos boundaries, and a recovered Wall benchmark.
 
-**MAIN** intentionally receives no mirrored reader prose from this scene. Its stronger future use would be as Wall/character texture inside an existing Lore or Character owner, not as a second copy of the same Episode. MAIN still receives the durable recovery/census state and dual-surface integration report. Whiskey/Sye remains MAIN-owned and publication-blocked until MAIN's required verifier actually executes.
+**MAIN** intentionally receives no mirrored reader prose in this pass. Its stronger eventual use would be to weave selected beats into broader lived chronology or richer character/editorial pages rather than photocopy the Cast dossiers. MAIN still receives the durable census/consumption state and dual-surface report. Whiskey/Sye remains MAIN-owned and publication-blocked until MAIN's required verifier actually executes.
