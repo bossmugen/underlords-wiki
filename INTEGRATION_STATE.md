@@ -1,6 +1,6 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration pass: **2026-08-29 17:15 PDT**.
+Last dual-surface integration pass: **2026-08-29 17:37 PDT**.
 
 Full branch-level consumption state is authoritative on MAIN in `archive-intake/INTEGRATOR_BRANCH_STATE.json`; prior rolling wiki states remain in Git history.
 
@@ -8,86 +8,75 @@ Full branch-level consumption state is authoritative on MAIN in `archive-intake/
 
 Full census: **28 active remote miner refs + 21 historical/missing refs = 49 tracked branch identities**.
 
-- finite pending at opening: **2** — All Characters and Daycare
 - finite pending after review: **0**
 - backlog: **0**
 - review-overdue: **0**
 - cumulative recovery tracks: **Core Rooms + Wall**
 - Club-Only 2021–2026: seen/consumed `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`
 - Club-Only 2020: seen/consumed `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`
-- All Characters: reviewed through `188cebef879a3ebef40e28918e42c70849662666`
-- Daycare: reviewed through `e96e2d53b3002c302c08a17a13e416f8d710badd`
-- Wall: forward-reviewed through `42bd15c86d82bc04bf58fafef6f2f28198a0b53f`; formal consumed remains null while older cumulative recovery is open.
-- Core Rooms: seen/forward-reviewed through `4e11636b450374ae023ffb46098159f9fc3d9c80`; older safe-baseline recovery is complete through the historical **2026-08-24 22:46 package**; **21:46 is next**; formal consumed remains null until cumulative recovery closes.
+- Mugen person-first: seen/consumed `c34d8ca22e9eac6d6a035bfc4e738a09d186ec3e`
+- Wall: forward-reviewed through `b02fb6d5fe5c142cc554474cbc501bb3e17ed0ee`; formal consumed remains null while older cumulative recovery is open.
+- Core Rooms: seen/forward-reviewed through `4e11636b450374ae023ffb46098159f9fc3d9c80`; older safe-baseline recovery is complete through historical **2026-08-24 21:46**; **20:46 is next**; formal consumed remains null until cumulative recovery closes.
 
-No miner branch was merged or cherry-picked wholesale.
+Opening and closing censuses found the same 28 active miner refs. No miner branch was merged or cherry-picked wholesale.
 
 ## Reviewed this pass
 
-### All Characters — `c6c69809… → 188cebef…`
+### Mugen person-first — `d59fda7e… → c34d8ca2…`
 
-The delta was reviewed checkpoint-first through its intake-local findings, receipts, site candidates and rabbit holes.
+The delta was reviewed checkpoint-first through intake-local findings, receipts and site candidates. The keeper is Dean's January 2021 whole-club wedding dream and its February sequel. In the first, dream-Mugen tells Dean to put on a wedding suit while his sleeping brain also casts Mugen as the one person in a strip-club outfit. Anthos hears the contradiction and settles it with `master dean we are a strip club first`. A month later another Dean dream starts as Underlords-versus-Council warfare, still finds room for dream-Mugen pole-dancing, then dissolves into a beach, bacon dragon and baby Underlord. Anthos immediately tries to promote the involuntary material into `underlords fanfics`; Dean protests that it was a dream; Anthos answers `its potential 🤩`.
 
-The public keeper is Tae's November 13, 2020 reciprocal tag-war scene. Tae is already carrying `thaicantthink` when Sword supplies the literal counter-tag `thaidoesthink`; Tae answers `I'll wear it with pride.` The useful character mechanism is participation rather than correction: Sword does not erase Tae's self-deprecating joke, she builds a matching label beside it, and Tae accepts the revised metadata publicly instead of resisting the tease. The scene stays playful tag language, not a formal rank/current role or certified origin of either label.
+The lower-threshold read is useful without pretending dream content is literal conduct: Dean's subconscious had already compressed Mugen into two familiar social roles at once — mum-shaped authority who can tell him to dress properly, and walking exemption clause for UL's strip-club house joke. The contradiction is the character evidence.
 
-Other reviewed material was banked without forcing thin objects: Gree likely finishes an unspecified training/graduation period in March 2021 and expects work to begin March 29, but the archive does not identify the institution, employer or occupation. DJN's intoxication/night-out material is intentionally not publicized. Zeb's birthday evidence remains contradictory. Duransdal's decontextualized identifier fragment remains private/unpublished.
+The same delta also strengthens ShiyaX's `AUUUU` arrival-call genealogy and Mugen's habit of answering people inside their own joke language, but that material was retained as texture rather than given a duplicate public object.
 
-### Daycare — `b5a0d41c… → e96e2d53…`
+### Wall — forward suffix `42bd15c8… → b02fb6d5…`
 
-Checkpoint-first review produced no new public-safe keeper. The pass's Nhou LLC search only found a generic meme by another user; captainkyle95 remained a two-message generic sample; daz578 remained absent in the checked slice; and known onboarding/role context did not justify appointment chronology from current role arrays. This is a successful no-public-change review, not an unread delta.
+The new Wall suffix was reviewed checkpoint-first. The keeper is Ansun's insect callback. On August 25, 2020, Club Only already has an ant-related sequence around `For my ants`; on November 4, Ren says `I still got your grasshopper ss`, Ansun immediately asks `and my ants?`, Ren answers `Yeth`, and Anthos supplies a `Small center for ants` reaction. That is enough for the ordinary human read: the grasshopper was not Ansun's only remembered insect file, and he expected Ren to have retained separate ant material too. The nearby images remain visually uninspected, so the wiki does not assign those pixels to the ants or promote POSTED BY into MADE BY/CAPTURED BY/FEATURING.
 
-### Core Rooms — historical 22:46 recovery package
+Gabu's May 2021 `What are you all doing with me while i sleep?` followed by tags to Mugen, Kuwei and Rummy is useful accusatory conversation texture, but the missing trigger means no physical prank or exact offense is invented. Feli's Anjou-statue sequence remains image-dependent.
 
-The historical handoff package was reviewed from the checkpoint into its findings/receipts, people/motif notes, rabbit holes and site candidates without reopening raw archives. Most of its strongest material is already publicly owned:
+### Core Rooms — historical 21:46 recovery package
 
-- `Grounded` already has the WIKI running-gag owner **Grounded Means Playtime**, including Rooks's early mock sentence, bot-visible `(Grounded)`, Akariel asking for the grounded role, Ren's explicit playtime-vs-Arrested distinction, hydration enforcement and the later `-ussy` appeals scene.
-- Anthos replication / identity-clone material is already represented by the existing Anthos documentation episode and MAIN character history.
-- Old Man Snow, Han's Voice Challenge facilitation, Sye's `RAMSEYED` produce/fungi scene, fake optometry, Secret Santa/White Elephant proposals and the dense `-USSY ERA` material were retained as corroboration/texture rather than duplicated into near-identical public objects.
+Older Core recovery advanced one package through the handoffs corresponding to historical **2026-08-24 21:46** (`checkpoint/findings/receipts/site-candidates-2026-08-25-0446`).
 
-Recovery boundary therefore advances through **22:46; 21:46 is next**. Formal consumed remains null because the older cumulative Core floor is still open.
+Three useful families emerged:
 
-### Wall — late forward suffix `adc5e999… → 42bd15c8…`
+- Ansun's July 28 `if i become godfather one more time in mafia im changing my name to godfather` threat is later paid off by bot output directly resolving his account as `Godfather`. Current MAIN already owns the richer person-shaped version, so WIKI did not clone it.
+- Wall time-to-shame record logic is already visible in March–April 2021 before later ranking language: Mugen says `WE SHOULD HAVE A RECORD`, Woohyuk calls Aeshleen's under-an-hour Wall appearance `That's a record`, and Mugen says `ghoulie got competition`. This was reconciled with the existing Wall speedrun/ranking genealogy rather than duplicated into a separate history object.
+- Ghoulie and Panda's July 7 Wall conversation becomes imaginary server architecture. Mugen says `Yall can just talk here and we won't even need ss`; Snow stage-directs `-renames it Ghoulie & Panda's house of shame-`, then jokes that their volume might need its own subchannel. No channel was literally renamed and no real subchannel is claimed. The joke is an evidence-room capacity problem: if the recurring defendants generate the material inside the Wall itself, screenshot transport has become optional and the imaginary property now needs an annex.
 
-A closing recensus caught one new Wall commit, so it was reviewed checkpoint-first rather than left invisible. The strongest new read is Zhēnxī's Wall-shaped chronology: probable six-minute speedrun subject in May 2021 (`NOT THE WALL OF SHAME FAME`), the same panic reflex under a 2022 filing softened by Rummy's `I love YoU`, then July 2022 role reversal when Zhēnxī posts an older receipt against Ren and calls it `Deserving`. This is strong person/WALL-literacy texture; `entry` is participant language, not a formal join timestamp, and screenshot provenance stays uploader-only.
-
-Cele's Marie-Kondo dark-animal joke is also usable character texture — `Dead animal: this sparks joy / Live animal: this does not spark joy` followed by Cele's smug emote — but it is emphatically not evidence of animal harm. Both Wall candidates are retained for their richer canonical owners rather than forcing another episode into the same run after the Tae keeper landed.
+Core's unresolved `eats people` / `CANNIBALISM??` / `or the seal?` family remains unresolved pending the missing media/context. Recovery boundary is now **21:46; 20:46 next**.
 
 ## Reader-facing change / surface split
 
 ### WIKI
 
-`src/data/integrator-episodes-allcharacters-20260829.ts` gained **I'll Wear It With Pride** (`tae-wear-it-with-pride`).
+`src/data/integrator-episodes-20260829-1737.ts` adds three bounded incident owners:
 
-Reader commit: `3d67abf64914fbb664d7057fa11e10d99854f104`.
+- **Master Dean, We Are a Strip Club First**
+- **Ghoulie & Panda's House of Shame**
+- **And My Ants?**
 
-That exact reader commit passed **Build Underlords Wiki** run `33283218945` and **Deploy Underlords Wiki Preview** run `33283218955`; both completed successfully, including the Pages build/deploy/report chain.
+The incident index, dynamic Episode route and season pages were wired to the new module. Reader head `20b0bdb040e5716849e55eb0a308de7ac9498e4d` passed standalone **Build Underlords Wiki** run `33284020615` and the complete **Deploy Underlords Wiki Preview** run `33284020644`, including build, deploy and report, all successfully.
 
 ### MAIN
 
-No reader-facing MAIN lore object was added this pass. Tae already has a rich longitudinal biography and the recovered reciprocal tag war works better as a bounded WIKI Episode than as another paragraph dropped into an already substantial MAIN dossier. Gree's new transition evidence is too underspecified to justify manufacturing a thin standalone page merely to make both surfaces move.
+No new reader-facing MAIN lore object was added by this integrator pass. Ansun's Godfather payoff is already richly owned by his current MAIN biography. The Dean dream and House-of-Shame material are cleaner as bounded WIKI Episodes, while the ant callback is incident-shaped rather than another paragraph bolted onto an already substantial Ansun dossier. MAIN receives the reconciled branch ledger and durable dual-pass report instead.
 
 ## Duplicate / corroborative material combined
 
-- Core's Grounded package was collapsed into the already-existing WIKI gag rather than cloned.
-- Anthos replication material was treated as one existing evidence family, not a new origin claim.
-- Wall's Zhēnxī speedrun identification sharpens existing speedrun folklore but does not rewrite `entry` into a membership date.
-- Daycare's negative checkpoint was consumed as a real review result instead of being reread next hour.
+- Ansun's Godfather display-name payoff was deduplicated against current MAIN rather than republished.
+- March–April 2021 time-to-shame `record` language was folded into the existing Wall speedrun/ranking evidence family.
+- ShiyaX/Mugen `AUUUU` arrival-call material was kept as voice/relationship texture instead of becoming a standalone object.
+- The current Club-Only recovery-priority prose is superseded by the durable ledger: both Club-Only miner branches are already fully consumed/current.
 
 ## Held / unresolved
 
-- DJN's sensitive intoxication/night-out details are not publicized.
-- Zeb's birthday contradiction remains unresolved.
-- Duransdal's identifier-like fragment remains unpublished.
-- Gree's institution/employer/occupation remain unknown.
-- Exact technical implementation and first origin of Grounded remain unresolved.
-- Exact Anthos clone mapping/origin remains unresolved.
-- Zhēnxī's screenshot pixels, MADE BY / CAPTURED BY / FEATURING claims, and formal entry timestamp remain unresolved.
-- Cele's underlying screenshot remains visually uninspected; the joke is not evidence of animal harm.
-- Older Core + Wall cumulative recovery floors remain open.
-- Hard canon, resolved identities, privacy boundaries, appointment chronology rules, and SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING distinctions remain hard rails.
-
-## Consumption state
-
-After verified reader publication, All Characters is eligible to advance consumed state through `188cebef879a3ebef40e28918e42c70849662666`; Daycare is eligible to advance through `e96e2d53b3002c302c08a17a13e416f8d710badd` as a successful no-public-change review. Wall's forward-reviewed edge advances through `42bd15c86d82bc04bf58fafef6f2f28198a0b53f` while formal consumed remains null. Core's historical recovery boundary advances through 22:46 while formal consumed remains null.
-
-This state commit itself must still pass the repository's normal push-triggered build and Pages workflow; the final run report should cite the exact durable `main` head and outcome.
+- Dean's dream scenes remain dream evidence; they do not establish literal Mugen conduct.
+- The exact ant screenshots/pixels and their maker/capturer/featured provenance remain unresolved.
+- Gabu's sleep accusation does not identify the missing triggering act.
+- Feli's exact Anjou-statue action remains screenshot-dependent.
+- Ghoulie's `eats people` / cannibalism / seal referent is narrowed, not solved.
+- Earliest surviving Wall `record` language is not claimed as the origin of later rankings.
+- No joke role, house joke, strip-club dream, or screenshot joke is converted into formal governance, literal family/romance, or offline conduct.
