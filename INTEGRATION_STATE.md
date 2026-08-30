@@ -1,6 +1,6 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration close: **2026-08-29 22:35 PDT**.
+Last dual-surface integration close: **2026-08-29 23:14 PDT**.
 
 Full branch consumption state is authoritative on MAIN in `archive-intake/INTEGRATOR_BRANCH_STATE.json`; earlier WIKI states remain in Git history.
 
@@ -17,73 +17,47 @@ Full branch consumption state is authoritative on MAIN in `archive-intake/INTEGR
 - Daycare: seen/consumed `a68896131717b570ec7c6bdcc1a35e45fffe1f17`.
 - Mugen person-first: seen/consumed `1503b2494bbe42e0730d79cb4d695ad6b2938f5d`.
 - Whiskey: seen/consumed `7978dda241b2c8169ad13f98a16a54006db1c5a6`.
-- Wall: forward-reviewed through `f24df16b7f73905baca448b70cae9c0937992fa4`; formal consumed remains null while cumulative historical recovery stays open. Historical recovery is reviewed through **2026-08-25 11:46**; **12:46 is next**.
+- Wall: forward-reviewed through `f24df16b7f73905baca448b70cae9c0937992fa4`; formal consumed remains null while cumulative historical recovery stays open. Historical recovery is reviewed through **2026-08-25 12:46**; **13:46 is next**.
 
 No miner branch was merged or cherry-picked wholesale.
 
 ## Reviewed this pass
 
-Checkpoint-first, intake-only review covered:
+Checkpoint-first, intake-only review covered the Wall historical **12:46** package through checkpoint `f5edd4d2752be87b78be4ee685b2c79436ab7f55`, receipts `fec6dec64a5a298ff421e917e9d9970823ca0385`, findings `71c0fe3bb802f96a81deecb517d95706af8bb761`, rabbit holes `47965cbd94747ecb41a7e4d30b575c9bc6e0fed4`, and site candidates `86af68406f5188c4b9101165eb01ab9fd0f58fab`.
 
-- All Characters `b0cb5098… -> 8852d226…`.
-- Daycare `3c453c46… -> a6889613…`.
-- Whiskey `f33fadb1… -> 7978dda2…`.
-- Wall forward `e89ea57c… -> f24df16b…`.
-- Wall historical safe-baseline recovery through the 11:46 package; 12:46 next.
-- Mugen person-first `636ee213… -> 1503b249…`, caught after the branch moved during the closing census and reviewed rather than silently equating seen with consumed.
+Raw archives were not re-mined. No finite miner advanced during the opening or closing census, so anti-starvation did not require a second finite review this pass.
 
-Raw archives were not re-mined.
+## Public change — Beat Me to It
 
-## Public changes
+The Wall's `beat me to it` wording is now treated as a recurring curator-race mechanism rather than a handful of disconnected reactions.
 
-### MAIN — Acoryuie's last call of the day
+The richest early scene is October 16, 2020. Snow says he figured he would give `Sycee, Kuki or ana something to post`; Anayss says she is so used to Snow saying things like that she ignored it, Sye says `I can't beat them to it`, and Snow jokes that Ansun is `always waiting in the wings for it`. That is already a room with expected filers and somebody deliberately producing bait for the evidence desk.
 
-Acoryuie's biography now includes the February 17, 2021 Club-Only beat where they say they are in a call with Ruby and that talking to him is `always how I tend to end my days`.
+The wording then travels: Rooks loses a filing race to Ansun in November 2020; Mugs says `YOU BEAT ME TO IT` when Snow gets there first in April 2021; Baby Lyssa asks how somebody beat her to it that August; Ren loses a February 2023 race to Gilli; and Xuseio tells Ansun `Dang, beat me to it` in April 2023.
 
-The ordinary contextual read is allowed to be ordinary: a repeated end-of-day conversation habit is strong evidence of close recurring companionship. `Always` is doing the interesting work. The relationship does not need a romance label or a notarized category to be real texture; the archive catches closeness as routine rather than declaration.
+The public read stays proportionate: Wall curation itself sometimes became competitive. This is different from the Wall's newcomer/subject speedrun folklore. `First-to-file` or `curator race` are editorial descriptions, not formal UL labels. October 16 is the earliest surfaced example in this reviewed evidence family, not a proven origin, and unresolved attachments remain unresolved.
 
-MAIN reader-content commit `0ea94f46319a3386e831ab61a7ea0795f4846b9c` passed **UL Hourly Build + Deploy** run `33295308062`, including source verification, Astro build, built-output verification, Cloudflare deployment, and exact production-commit verification.
+WIKI reader-content commit `f44dfb5f7a0ffab01d1da1ae88a4b8dfc96baaff` passed **Build Underlords Wiki** run `33296311100` and **Deploy Underlords Wiki Preview** run `33296311082`, including Pages deployment.
 
-### WIKI — Vanness learns the entire Wall in two weeks
+MAIN carries the same evidence family in its richer channel-history voice at `/channels/wall`; MAIN reader-content commit `24f17084e7803159fc2112981744b19268a3cacd` passed **UL Hourly Build + Deploy** run `33296348776`, including source verification, Astro build, built-output verification, Cloudflare deployment, and exact production-commit verification. MAIN durable close commit is `1a4fce35cef603bcc9eec5c48b03b92a3bc17bab`.
 
-`src/data/integrator-episodes-20260829-2235.ts` adds **Shame Me**.
+## Duplicate / corroboration handling
 
-Anthos assigns Vanness server roles on July 27. About fifteen and a half hours later Mugen is already posting `Welcome to the wall @Vanness`. Six days later Vanness has moved from subject to prosecutor with `Shame @Deleted User`. When ShiyaX later files a Vanness-tagged exhibit, Vanness attempts an instant transfer of liability — `ITS GABU WHO SUCKED IT DRY, NOT MEEE`. Then August 10 removes the need for law enforcement entirely: Vanness self-files five lost orange dracs, says `Shame me`, explains four failed merges, and concludes `my luck is💩`.
-
-The interesting movement is role fluency: subject -> filer -> defendant who has apparently learned the courthouse is self-service. The first screenshot, pooled Deleted User target, and `sucked it dry` object remain unresolved because the image interiors are uninspected. This is not claimed as a speedrun record.
-
-### WIKI — Cookie predicts Tofu will expose him, then starts the war himself
-
-**Who Gave Tofu Access to This Channel** begins with Cookie accurately forecasting `she bouta expose me`. Two nights later Cookie posts the first Tofu-tagged receipt anyway, follows it with `out of context`, and receives Tofu's `OH~ you wanna play that game huh` plus a true-reply counter-receipt. Cookie reaches `PLZZZ`; Gilli reviews Tofu's filing as `Rummy level`.
-
-The attachments stay visually uninspected, so POSTED BY does not become MADE BY, CAPTURED BY, or FEATURING. The reply structure is enough to prove the social mechanism: Cookie predicts retaliation, personally opens the game, and gets the exact game played back at him.
-
-WIKI reader-content head `1e693005d7c94240ba218e918fa5cd0c1f26250a` passed **Build Underlords Wiki** run `33295356503` and **Deploy Underlords Wiki Preview** run `33295356508`, including Pages deployment.
-
-## Accepted / combined without duplicate publication
-
-- Daycare's Ghostt pass adds Mass Effect repeat-playthrough taste and later Daycare continuity. It is accepted character texture, but current MAIN Ghostt already owns the richer `Discord outlives Raja` chronology, so no duplicate public paragraph was forced.
-- Whiskey's Miihi pass adds cat adoption, procrastination, Dragon Raja troubleshooting, Portuguese account-tech chatter, and affectionate Woohyuk insults. This is accepted ordinary-life texture; **Miihi/Milk remains separate from KOREA/Milk**, and no unsupported MAIN roster category was invented just to create a dossier.
-- The Wall's expanded `out of context` paper trail strengthens the existing public editorial-mechanism owner instead of creating another Episode with the same thesis.
-- The late Mugen suffix adds a strong Nelph relationship beat: after Nelph's temporary leave statement, Mugen says she will miss `nelphies chicken pics`. The ordinary read is that what sticks in Mugen's person-model is a recurring piece of Nelph's life, not officer labor. The current Mugen page already owns the stronger people-outlast-roles spine and the source is Officers Only HQ, so this is held for a future surgical Mugen/Nelph crosslink rather than pasted in redundantly.
+- The curator race was not collapsed into newcomer speedruns: one is competition among filers, the other is speed of becoming a Wall subject.
+- Snow's October baiting, later wins/losses, and Ansun's repeated `waiting in the wings` / first-to-file presence strengthen the same evidence family rather than spawning separate Episodes for every `beat me to it` line.
+- Unseen attachments remain visually unresolved; POSTED BY is not promoted into MADE BY / CAPTURED BY / FEATURING.
 
 ## Held / unresolved
 
-- Miihi/Milk and KOREA/Milk remain distinct stable accounts.
-- Anayss's probable pink-rabbit antecedent remains visually unresolved.
-- Vanness's first Wall screenshot, pooled Deleted User target, and the `sucked it dry` object/action remain unresolved.
-- Cookie/Tofu screenshot interiors remain visually uninspected.
-- Feli's `O and P is CLOSE` is a probable adjacent-key defense in local chronology, not a certified reading of unseen screenshot text.
-- Mugen's repeated `you made it` welcomes support expected/recognized arrivals without identifying recruiter/inviter or proving a universal onboarding mechanism.
-- Nelph's source is Officers Only HQ; benign person texture may be paraphrased, but raw internal-room screenshot publication is not automatic.
-- No joke role, fake family noun, teasing affection, source-era role array, or screenshot language was promoted into formal governance, literal kinship/romance, appointment chronology, or unsupported authorship.
+- A September 19, 2020 Beat Saber scene has Ansun saying she, Gilli, Rooks, and an ambiguous `ana may` were dying laughing while watching Snow work out. No matching Wall receipt surfaced in the bounded reviewed handoff. This may corroborate the already-public `The Wall Misses the Best Ones` observer effect, but bounded non-retrieval is not proof of absolute noncapture, so it remains held.
+- The October 16 winning attachment/antecedent remains unresolved.
+- `Sycee` is preserved as source wording without creating a new global identity bridge. Local `ana` wording is not made into a project-wide alias.
+- Earliest surviving remains distinct from origin; joke language is not formal governance; attribution categories stay separate.
 
 ## Consumption close
 
-- All Characters consumed through `8852d2264762a7757564034a92fc74b47ec7f37a`.
-- Daycare consumed through `a68896131717b570ec7c6bdcc1a35e45fffe1f17`.
-- Whiskey consumed through `7978dda241b2c8169ad13f98a16a54006db1c5a6`.
-- Mugen person-first consumed through `1503b2494bbe42e0730d79cb4d695ad6b2938f5d`.
-- Wall forward-reviewed through `f24df16b7f73905baca448b70cae9c0937992fa4`; historical frontier through 11:46; 12:46 next; formal consumed stays null while that older floor remains open.
+No finite miner consumed SHA changed because every finite active miner remained current.
+
+Wall historical recovery advanced from **11:46 -> 12:46**. Forward review remains through `f24df16b7f73905baca448b70cae9c0937992fa4`; formal consumed stays null while the cumulative older floor remains open. **13:46 is next.**
 
 This durable-state commit must itself pass both native WIKI workflows before the pass is reported closed. MAIN's durable report/ledger head must likewise pass its exact-head verification/deployment workflow.
