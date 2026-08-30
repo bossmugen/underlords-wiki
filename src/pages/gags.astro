@@ -2,8 +2,9 @@
 import WikiLayout from "../layouts/WikiLayout.astro";
 import { gags } from "../data/wiki";
 import { integratedGags } from "../data/integrator-gags";
+import { wall2126Gags } from "../data/integrator-gags-wall-20260829-2126";
 
-const allGags = [...gags, ...integratedGags];
+const allGags = [...gags, ...integratedGags, ...wall2126Gags];
 const replaceComedyTaxonomy = (value: string) => value.replace(/\b(bits?|gags?)\b/gi, (term) => {
   const replacement = term.toLowerCase().endsWith("s") ? "jokes" : "joke";
   if (term === term.toUpperCase()) return replacement.toUpperCase();
