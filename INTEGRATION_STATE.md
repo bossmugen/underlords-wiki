@@ -1,6 +1,6 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration close: **2026-08-29 20:56 PDT**.
+Last dual-surface integration close: **2026-08-29 21:04 PDT**.
 
 Full branch consumption state is authoritative on MAIN in `archive-intake/INTEGRATOR_BRANCH_STATE.json`; earlier WIKI states remain in Git history.
 
@@ -16,83 +16,66 @@ Full branch consumption state is authoritative on MAIN in `archive-intake/INTEGR
 - All Characters: seen/consumed `382c3feb4b629489d1e2724a46660aa6c3228878`.
 - Mugen person-first: seen/consumed `3bb932c9ef668cd93f3a348c31431288dfe7d132`.
 - Whiskey: seen/consumed `392fc71d98e0cc120e832be282df81d61f888b7b`.
-- Wall: forward-reviewed through `16be7f4f984c2773c4ca50257d6b233d64568119`; formal consumed remains null while its cumulative historical recovery stays open. Historical recovery is now reviewed through **2026-08-25 06:46**; **07:46 is next**.
+- Wall: forward-reviewed through `16be7f4f984c2773c4ca50257d6b233d64568119`; formal consumed remains null while its cumulative historical recovery stays open. Historical recovery is now reviewed through **2026-08-25 07:46**; **08:46 is next**.
 
 No miner branch was merged or cherry-picked wholesale.
 
 ## Reviewed this pass
 
-Wall historical recovery advanced checkpoint-first through the **04:46, 05:46 and 06:46** packages.
+Wall historical recovery advanced checkpoint-first through the **2026-08-25 07:46** package. Only changed `archive-intake/*` handoffs were used; the raw archive was not re-mined.
 
-### Boiled Mayo escapes the corporation
+### Rummy was body-snatching very responsively
 
-Hard canon remains that **Zoshaa coined Boiled Mayo**; the exact first coinage receipt, date and room remain unresolved.
+On August 10, 2022, Panda — posting under the historical display `Marian Kage` — posts `q.PNG` and tags Rummy. The image remains visually unresolved, so Panda is **POSTED BY** only; maker, capturer and depicted subjects remain unknown.
 
-The recovered mutation rail is now clear enough to publish as a running-gag genealogy:
+Rummy eventually supplies the useful part herself:
 
-- **2020-07-17 · Announcements:** Mugen puts `Boiled Mayo Corp.` on a real Staff event schedule as the fake sponsor; Gilli answers `Y U M`.
-- **2020-08-24 · Club Only:** Pride can simply say `boiled mayo`; Ren answers `It be thick cream`. The corporation is no longer required for the noun to work.
-- **2021-05-17 · Wall:** Zoshaa offers `a refreshing glass of boiled mayo` to `my orb`, converting her own cursed food phrase into mock-tender hospitality.
-- Ten minutes later Spicy Hotpot asks Gilli `so what's this I heard about boiled mayo?`. The tiny `heard about` is the important evolution: the phrase can arrive as already-transmitted lore.
+> `i actually did try to snatch eos but aa off AND i was snatching them very responsively`
 
-WIKI publishes **Boiled Mayo Escapes the Corporation** in `src/data/integrator-episodes-wall-20260829-1930.ts`. MAIN owns the larger longitudinal version in `/lore/boiled-mayo-corp`.
+That is not an innocence defense. She accepts the central accusation and immediately starts litigating the operating conditions. Anayss true-replies `Im so proud`; Ansun true-replies `First tike body snatching`; then Rummy quietly revises the criminal-history section with `it been a couple of time…just never been caught ... *I think*`.
 
-Safety boundary: July 17 is the earliest surfaced deployment in this evidence family, not the coinage date. Nobody is documented literally drinking mayonnaise. Gilli is a visible carrier/contact in the Spicy scene, not the inventor.
+The later line makes prior uncaught occurrences of the locally discussed behavior probable. It does **not** resolve the exact count, whether Ansun meant first-ever versus first-caught, what `aa off` means, or what Dragon Raja mechanic is actually happening. `body snatching` is Ansun's archive-native label; it is not permission to invent literal corpses, death, possession, or a body-transfer mechanic.
 
-### Moo reaches screenshot jail in eleven minutes
+WIKI publishes the scene as **Rummy Was Body-Snatching Very Responsively** in `src/data/integrator-episodes-wall-20260829-1930.ts` at reader commit `6dcf73417c06b1f265a43f9c51ba7422f168a1dd`. Both native workflows for that exact reader head completed successfully: **Build Underlords Wiki** and **Deploy Underlords Wiki Preview**.
 
-On April 1, 2023 the stable `nixin.` account appears in Lobby under the rendered nickname `мoo`, supplies IGN `XiIN殿` and UnderLords, and receives Ansun's formal WELCOME at **15:09:52**. Moon posts four Dragon Raja screenshots at **15:20**; at **15:21:26** Moon names `@мoo` among people she found `doing this to Anjou' statue`.
+### Cele's Marie Kondo review — consumed, not duplicated
 
-That is about **11m34s from formal welcome to being named in a Wall evidence package**. It is not promoted to a Wall speedrun record because earlier years preserve faster cases. The better 2023 read is ordinary absorption speed: intake can finish and screenshot jail can begin before the welcome has cooled.
+The same package contains Ren's June 4, 2021 characterization of Cele as inverted Marie Kondo: `Dead animal: this sparks joy / Live animal: this does not spark joy`.
 
-WIKI publishes **Moo Reaches the Wall in Eleven Minutes** in the same episode family. The four screenshots remain visually uninspected, so the exact statue offense is not invented. The stable 2023 account bridge does **not** resolve the separate Aug–Sep 2021 `Moo` language to this person.
-
-### Panda ecology — reviewed, not duplicated
-
-The 06:46 package substantially corroborates already richer Panda material:
-
-- Gilli welcomes the Marian Kage account as `Panda` in May 2021.
-- Panda later self-uses the label, carries it into Wizard101 styling, and calls the result `livin the panda dream`.
-- Ansun mutates that into `eos is your panda caretaker`; later Wall exchanges reuse the caretaker/punishment choreography.
-- Panda explicitly labels Eos `panda` in at least one 2022 scene, proving generic `panda` wording can be contextual/shared rather than a globally unique text token.
-
-Hard identity remains **Marian Kage = Panda**. The contextual-word warning does not split Marian into a second person and does not weaken the user-confirmed bridge. MAIN already owns this history on Panda's biography; WIKI's concurrent Marian→Panda reconciliation is preserved rather than duplicated into another episode.
-
-### Tofu / Bishop — reviewed, already owned
-
-The 05:46 Tofu↔BishopThaGuru material is strong relationship texture — Bishop's fake federal paranoia, Tofu's `Still love you. I love everyone…unfortunately`, and the later `Anything involving you is bound to end up on the wall of shame` / `Both` exchange — but MAIN already owns it richly. WIKI did not manufacture a second copy simply because the recovery package rediscovered the same relationship family.
+This is safe one-scene peer characterization, not evidence of literal animal harm or a persistent Cele death motif. MAIN already owns the stronger person treatment on Cele's biography, including the exact peer-joke boundary and later Cele-authored Wall reactions. WIKI therefore does not manufacture a second episode merely because recovery resurfaced the line.
 
 ## Public changes
 
 ### MAIN
 
-- `src/pages/lore/boiled-mayo-corp.astro` was expanded from the July 2020 corporate receipt into the full surviving mutation rail: Zoshaa coinage canon → Mugen corporate sponsor → Pride/Ren ordinary noun → Zoshaa Orb hospitality → Spicy hearsay/transmission.
-- Reader/fix head `eae283cc95f85f39bc7542267d14222bf92bb619` passed the repository's full **UL Hourly Build + Deploy** workflow after preserving the existing exact source-verifier contract: source canon/architecture verification, Astro build, built-output verification, exact production deployment and production verification all succeeded.
-- MAIN intentionally did **not** create a thin Moo biography for a single excellent incident.
+- No reader-facing lore page changed in this pass.
+- The 07:46 Wall recovery boundary was durably advanced in `archive-intake/INTEGRATOR_BRANCH_STATE.json` after the accepted WIKI reader commit passed verification.
+- MAIN intentionally leaves this scene to WIKI because Rummy's main-site biography already has a richer prosecution/context-defense story; duplicating the discrete body-snatching case there would overstuff the canonical person page rather than deepen it.
 
 ### WIKI
 
-- `src/data/integrator-episodes-wall-20260829-1930.ts` publishes **Boiled Mayo Escapes the Corporation** and **Moo Reaches the Wall in Eleven Minutes**.
-- Boiled Mayo survived the concurrent Panda identity correction cleanly; the later Moo reader head is `55e316b486c10d2238a7fa3ae95f7edb79054f6b`.
-- Both native workflows for that exact Moo reader head completed successfully: **Build Underlords Wiki** and **Deploy Underlords Wiki Preview**.
+- `src/data/integrator-episodes-wall-20260829-1930.ts` now publishes **Rummy Was Body-Snatching Very Responsively**.
+- Reader commit: `6dcf73417c06b1f265a43f9c51ba7422f168a1dd`.
+- Exact-reader-head **Build Underlords Wiki**: success.
+- Exact-reader-head **Deploy Underlords Wiki Preview**: success.
 
 ## Duplicates combined / intentionally split
 
-- Boiled Mayo is on both surfaces for different jobs: MAIN is the long cultural mutation story; WIKI is the compact running-gag genealogy.
-- Moo is WIKI-only because it is a discrete incident and does not yet justify a thin MAIN person page.
-- Tofu/Bishop stays MAIN-owned because that biography already has the richer relationship treatment.
-- Panda 06:46 is consumed as corroboration because the canonical Panda page and current WIKI identity reconciliation already own the useful progression.
+- Rummy body-snatching is WIKI-only as a bounded incident. MAIN already owns Rummy's larger pattern of conceding the evidence while arguing context, conditions, or judgment.
+- Cele's Marie Kondo line remains MAIN-owned character texture; this recovery is corroboration rather than a new WIKI object.
+- The 2024 Rummy/Nemo grab GIF remains separate. Generic grab imagery is not enough to call it a callback to the 2022 body-snatching scene.
 
 ## Held / unresolved
 
-- Absolute first Boiled Mayo receipt/date/room.
-- Whether `Corp.` becomes a reusable fake-sponsor format elsewhere.
-- Moo's four 2023 screenshot pixels and exact action at Anjou's statue.
-- Any bridge between 2021 `Moo` language and 2023 `nixin.` / `мoo`.
-- Namo's `Finesse of a comedy duo` exact target/mechanism.
-- `B.O.B CRIIIIMME` acronym/meaning despite the now-resolved height-screenshot parent.
-- Gabu's `Lord of the Shorts` exact title target/mechanics.
-- Later unresolved Panda wording where the referent cannot be joined locally.
+- `q.PNG` pixels and exact visual subjects.
+- `q.PNG` maker and capturer; Panda is only confirmed as POSTED BY.
+- Meaning of `aa off`.
+- Exact Dragon Raja mechanic behind `body snatching` and whether any corpse/body-transfer reading is appropriate.
+- Exact number and identity of Rummy's claimed earlier uncaught occurrences.
+- Whether Ansun's `First tike body snatching` means first ever, first witnessed, or first caught.
+- Whether the March 2024 Nemo-adjacent grab GIF is a genuine callback.
+- Cele's June 2021 screenshot pixels, maker, capturer and depicted action.
+- Namo's `Finesse of a comedy duo` partner/mechanism remains unresolved despite another search pass.
 - Every unsupported jump among SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING.
 
 This state commit must itself pass the repository's native build and Pages workflows before the pass is reported closed.
