@@ -108,5 +108,14 @@ export const wall1930Episodes: Episode[] = [
     kind: "Wall onboarding / a formal welcome becomes screenshot jail before the welcome message has had time to cool",
     logline: "The stable `nixin.` account arrives in Lobby under the rendered nickname `мoo`, self-reports IGN `XiIN殿` and club `underlords`, and receives Ansun's formal WELCOME at 15:09:52. At 15:20 Moon posts four Dragon Raja screenshots; at 15:21:26 Moon names `@мoo` among the people she found `doing this to Anjou' statue`. That is about eleven and a half minutes from formal welcome to being named in a Wall evidence package. It is not the Wall speedrun record — earlier years preserve faster cases — which is almost better: by 2023 this is ordinary absorption speed. The four screenshots remain visually uninspected, so the exact statue offense is not invented. The stable account bridges this 2023 Lobby and Wall sequence only; it does not resolve the separate Aug–Sep 2021 `Moo` language to this person.",
     cast: ["Moon", "Ansun", "Feli"]
+  },
+  {
+    id: "rummy-body-snatching-very-responsively",
+    title: "Rummy Was Body-Snatching Very Responsively",
+    season: "2022",
+    date: "August 10–11, 2022",
+    kind: "Wall defendant procedure / Rummy admits the act, disputes the conditions, then quietly revises the prior-offense count",
+    logline: "Panda, posting under the historical display `Marian Kage`, posts `q.PNG` and tags Rummy. The image remains visually unresolved. Rummy eventually supplies the useful part herself: `i actually did try to snatch eos but aa off AND i was snatching them very responsively`. Anayss true-replies `Im so proud`; Ansun true-replies `First tike body snatching`; and later Rummy complicates the supposed first-offense record with `it been a couple of time…just never been caught ... *I think*`. The scene is peak Rummy courtroom logic: she does not reach for innocence, she accepts the central accusation and starts litigating operating conditions. Her later line makes prior uncaught occurrences probable, but the exact count and whether Ansun meant first-ever versus first-caught remain unresolved. `q.PNG` is POSTED BY Panda; its maker, capturer, featured subjects, exact game mechanic, the meaning of `aa off`, and any literal corpse/death reading remain unresolved.",
+    cast: ["Rummy", "Eos", "Panda", "Anayss", "Ansun"]
   }
 ];
