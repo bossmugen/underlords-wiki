@@ -65,6 +65,7 @@ import { coreDeepOfficerCharacterBios } from "./character-bios-officers-core-dee
 import { deepAnayssOfficerCharacterBios } from "./character-bios-officers-anayss-deep";
 import { deepAnsunOfficerCharacterBios } from "./character-bios-officers-ansun-deep";
 import { deepWolfOfficerCharacterBios } from "./character-bios-officers-wolf-deep";
+import { run37WolfOfficerCharacterBios } from "./character-bios-officers-wolf-run37";
 import { officerCharacterBios } from "./character-bios-officers";
 import { deepOfficerCharacterBios } from "./character-bios-officers-deep";
 import { lateOfficerCharacterBios } from "./character-bios-officers-late";
@@ -103,6 +104,7 @@ const richBioSources: Array<Record<string, CharacterBio>> = [
   coreDeepOfficerCharacterBios,
   deepAnayssOfficerCharacterBios,
   deepAnsunOfficerCharacterBios,
+  run37WolfOfficerCharacterBios,
   deepWolfOfficerCharacterBios,
   lateOfficerCharacterBios,
   deepOfficerCharacterBios,
