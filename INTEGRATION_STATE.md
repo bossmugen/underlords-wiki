@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-08-30 10:26 PDT_
+_Last updated: 2026-08-30 10:33 PDT_
 
 ## Current reconciliation boundary
 
@@ -10,70 +10,72 @@ The wiki is the long-form reference companion to `bossmugen/underlords`, not a c
 
 - **49 tracked miner identities** = **28 active remote refs + 21 historical/missing refs**.
 - **0 newly discovered** at opening census.
-- Opening finite mover: Core `711f24e46ac77a80a7a11710fb5fe87f1c97f067 -> 0e8081e48d429f258a2bf55287199c148a605f66`; it is now reviewed and consumed through `0e8081e48d429f258a2bf55287199c148a605f66`.
-- Wall moved repeatedly after census; forward review is current through `a29fc19bc380f890f1164a64d3c218a73ccdf1c8`. Formal Wall consumed remains null while its older recovery floor is open.
+- Core `711f24e46ac77a80a7a11710fb5fe87f1c97f067 -> 0e8081e48d429f258a2bf55287199c148a605f66` is reviewed and consumed through current head.
+- Wall moved repeatedly during the run; forward review is current through `95b37861d93d4959a74a1f5e2c66b369c22269ec`. Formal Wall consumed remains null while its older recovery floor is open.
+- Mugen person-first moved late to `40999910f14f13d36a9cc578e555dd73030d01f4`; that delta is reviewed. Its Wall-preference beat is public here, while the HIGH LilithEl-vacation biography upgrade remains blocked behind MAIN verification, so its MAIN consumed boundary stays at `df4d590fade3f56cab7380bf9425e08287b6e754`.
 - Both Club-Only recovery branches remain consumed/current.
 - Whiskey remains reviewed but publication-blocked on MAIN, not unread.
-- **0 finite pending / 0 backlog / 0 overdue** after review close.
+- **0 finite pending / 0 backlog / 0 overdue** after review close; two reviewed finite publication blocks remain (Whiskey and Mugen person-first MAIN owner).
 - No miner branch was merged or wholesale cherry-picked into a publishing branch.
 
 ## This pass
 
 ### Core Rooms — `711f24e... -> 0e8081e...`
 
-The strongest new public person scene is **FireLegacy Speed-Runs Her Old Rank Stack**. On April 19, 2021, Gabu asks `what rank is she?` and FireLegacy answers in layers: `Staff 😂`, then `Leader Infinity, leading elite`, then wonders whether everyone somehow skipped Fire Legacy leadership while her visible period title is already `Radiant Asst. Hot Springs Manager`. Mugen says she never knew any of this; FireLegacy mildly reminds her that she had been gone from FL for a while, and Mugen agrees.
+**FireLegacy Speed-Runs Her Old Rank Stack** publishes FireLegacy's own period-role recollection as lived history rather than an appointment ledger. Gabu asks `what rank is she?`; FireLegacy answers in layers — `Staff 😂`, `Leader Infinity, leading elite`, then wonders whether everyone skipped Fire Legacy leadership while her visible period title is already `Radiant Asst. Hot Springs Manager`. Mugen's `never knew any of this! lol` followed by FireLegacy's mild reminder that Mugen had been gone from FL for a while is the useful human hinge: one person remembers the stack because she lived it; the other missed that stretch and is learning it in real time. Exporter/current role arrays were not back-dated.
 
-The scene is published as lived social archaeology, not an appointment ledger. FireLegacy's own period role labels are usable; exporter/current role arrays are not back-dated into a formal chronology.
+A second owner, **FireLegacy Sends Three Ranks Through the Front Door**, covers Nov. 26–27, 2020: Samdola self-reports Fire Legacy `deputy`, Wonder Alice says people can call her Alice and self-reports FireLegacy `battlelord`, and Pirefly self-reports FireLegacy `minister`, all arriving through the Lobby inside roughly fourteen hours. That clustering is strong enough for a probable socially linked visitor wave / cross-club traffic burst. It does **not** establish a shared inviter, formal alliance, transfer cohort, recruitment drive, migration, or cause. UL's response is hilariously ordinary: another club's deputy, battlelord and minister show up and the front desk basically says fill out the little form and welcome to the house.
 
-The same Core suffix also gives a second, distinct public owner: **FireLegacy Sends Three Ranks Through the Front Door**. On Nov. 26–27, 2020, Samdola checks in as Fire Legacy `deputy`, Wonder Alice says people can call her Alice and self-reports FireLegacy `battlelord`, and Pirefly checks in as FireLegacy `minister`. Three distinct people from the same outside club, each supplying an office-style game position, arrive within roughly fourteen hours. That is strong enough to read as a socially linked visitor wave / cross-club traffic burst; the surviving handoff does **not** establish a shared inviter, formal alliance, transfer cohort, recruitment drive, or cause. The joke is how ordinary UL's handling is: another club's deputy, battlelord, and minister arrive, and the front desk basically says fill out the little form and welcome to the house.
+Wonder Alice's `yall can call me alice :D` remains a requested conversational name, not exact-IGN proof. `STAFF VACATION` is independently confirmed as a literal exported server role/status concept, materially strengthening the reading of Mugen's older `saved your account on vacation uwu` wording as real house machinery delivered as reassurance; exact LilithEl assignment to that Staff-specific role remains unresolved. `You Shall Not Pass the Intake Form` was already public and was deduplicated. Delay's `Are you above 18?` / `noh` remains bounded to under-18 status in that scene only.
 
-Wonder Alice's `yall can call me alice :D`, quick emotes, and realization that her age field is about to expire are useful bounded person texture. `Alice` is a requested conversational name here, not a proven exact IGN. The server taxonomy also independently confirms that `STAFF VACATION` existed as an actual role/status concept, which strengthens the reading of Mugen's older `saved your account on vacation` wording as house administration rather than a random metaphor; exact assignment of LilithEl to that Staff-specific role remains unresolved and is not back-filled.
+### Wall forward recovery — through `95b37861...`
 
-`You Shall Not Pass the Intake Form` was already public and was deduplicated rather than cloned again. Delay's `Are you above 18?` / `noh` exchange remains bounded to under-18 status in that scene only; no exact age was invented.
+The cross-year running-gag owner **You Can't Shame Me If I Shamed Myself First** remains the strongest culture result from the earlier suffix: Snow's 2020 procedural loophole, Eos's 2021 self-drop, Vanness explicitly filing themself and requesting `Shame me`, and porgo's 2022 self-exposure form a clean recurring self-filing grammar. Snow is earliest surviving direct wording recovered, **not origin**. Uninspected images remain POSTED BY only.
 
-### Wall forward suffix — `f1ca9f... -> a29fc19...`
+The late `a29fc19... -> 95b37861...` suffix adds **Xuseio's Phone Becomes a Snitch**. Xuseio POSTS `Screenshot_20240102_190509_Co_Star.jpg`, tags Rummy and says `The fact we spoke about this the other day.` The pixels are sealed, but the filing logic is explicit: Xuseio sees some phone/app material that collides with a recent conversation and drags the callback into the Wall. Rummy's next surviving Wall message about fifty-five minutes later is `PGFFF`; because it is not a structured reply, it stays a probable local reaction rather than a hard join. This materially upgrades Xuseio from merely attachment-heavy to a likely targeted visual-callback filer. Exact screenshot contents, prior-conversation topic/venue, relationship category, and MADE BY / CAPTURED BY / FEATURING remain unresolved; `Co_Star` is not enough to manufacture durable astrology canon.
 
-The strongest new public culture owner is **You Can't Shame Me If I Shamed Myself First**. Surviving direct-text examples now form a clean cross-year Wall grammar: Snow in October 2020 tries the procedural loophole that nobody can Wall-shame him if he shames himself first; Eos in June 2021 POSTS an image with `gonna just put myself here and head out-`; Vanness in August 2021 explicitly files Vanness for a failed merge and requests `Shame me`; porgo repeats the self-filing move in 2022.
+ShiyaX's recurring `someone else was on my account` defense is banked as likely comic responsibility-laundering for his richer person owner; triggering image contents remain sealed. Usama's Wall footprint remains thin/reactive apart from a small founder-history curiosity beat; no profile was inflated.
 
-This is not an origin claim. Snow is simply the earliest surviving direct formulation currently recovered. The Eos/porgo images remain visually uninspected, so POSTED BY is the only media claim.
+Historical Wall safe-baseline recovery remains through **2026-08-26 03:46**. **04:46 is next.** The live intake tree was checked for exact `04:46` / `0446` handoff paths and none could be safely resolved. No raw archive was re-mined and no missing bounded handoff was invented.
 
-The same Wall suffix materially closes ShiyaX's recurring account-intruder defense at the reply-parent level. Both Oct. 15 lines attach to freshly filed image evidence, and the Nov. 1 branch supplies the same `someone else was on my account` move. The recurring alibi is strong enough to read as likely comic responsibility-laundering, but the sealed images do not acquire invented subjects, makers, capturers, or authorship. That material is banked for Shiya's richer person owner instead of receiving a second tiny Episode.
+### Mugen person-first — `df4d590f... -> 40999910...`
 
-Vanness's self-prosecution/game-frustration beat is folded into the cross-year self-shame owner rather than duplicated. Usama's full Wall footprint is now context-sampled and remains thin/reactive with one useful founder-history curiosity beat; no inflated profile was manufactured.
+The late Mugen delta gives two material updates. First, `STAFF VACATION` metadata upgrades LilithEl's return scene: when LilithEl says she does not know whether she is still in UL, Mugen replies `Dw bb I saved your account on vacation uwu`. The infrastructure now looks real enough to have a role name, while Mugen's delivery turns it into `Dw bb ... uwu` instead of making LilithEl experience the machinery first. Exact LilithEl assignment, chronology, game-side account handling, and non-Staff vacation implementation remain unresolved; this HIGH biography upgrade is intentionally left for MAIN once its verifier actually runs.
 
-Historical Wall safe-baseline recovery remains through **2026-08-26 03:46**. **04:46 is next.** The live intake tree was checked for an exact bounded 04:46/0446 handoff and none could be safely resolved. No raw archive was re-mined and no missing handoff was invented.
+Second, the existing **The Screenshot Isn't Even Here Yet** Episode is now upgraded with Mugen's missing line. Korea threatens to find the `pineapple buttplug ss`; thirty-four seconds later Mugen says `Owo my favee`; Ren later TRUE-REPLIES `I REMEMBER THAT` and Queen Shimoko spits. The local referent is probable rather than a structured Mugen reply, but the timing plus subsequent direct-reply recognition is persuasive: the file is absent and Mugen apparently already has a rating. That is preference/receipt-memory texture, not a sexual-preference claim, and the unseen screenshot still acquires no invented pixels, subjects, maker, or capturer.
 
 ## Public ownership / dedup
 
-- **WIKI:** `FireLegacy Speed-Runs Her Old Rank Stack` — discrete Lobby/Fire Legacy archaeology scene.
-- **WIKI:** `FireLegacy Sends Three Ranks Through the Front Door` — separate Nov. 2020 cross-club visitor-wave episode; probable shared social traffic, cause unresolved.
-- **WIKI:** `You Can't Shame Me If I Shamed Myself First` — cross-year Wall running-gag/culture episode.
-- **Banked:** ShiyaX recurring account-intruder alibi for the richer Shiya person owner; exact triggering image contents remain unresolved.
-- **Banked:** `STAFF VACATION` taxonomy as corroboration that vacation was a real admin/status concept; exact LilithEl role assignment unresolved.
-- **MAIN intentionally reader-unchanged for these items:** they are cleaner WIKI Episode/Running-Gag owners, and MAIN's required verification chain is still failing before executable verification steps materialize. MAIN should not receive unverified mirror copy merely for symmetry.
+- **WIKI:** `FireLegacy Speed-Runs Her Old Rank Stack`.
+- **WIKI:** `FireLegacy Sends Three Ranks Through the Front Door`.
+- **WIKI:** `You Can't Shame Me If I Shamed Myself First`.
+- **WIKI:** `Xuseio's Phone Becomes a Snitch`.
+- **WIKI upgraded existing owner:** `The Screenshot Isn't Even Here Yet` now includes Mugen's `Owo my favee` recognition/rating beat rather than spawning a duplicate Episode.
+- **Banked:** ShiyaX recurring account-intruder alibi for the richer Shiya person owner.
+- **MAIN publication-blocked:** LilithEl `vacation` biography upgrade and existing accepted Sye/Life material; MAIN's required verifier still fails before executable steps materialize.
+- Existing owners for `You Shall Not Pass the Intake Form`, `Ghoulie & Panda's House of Shame`, and `Shiya's Tree Branch Has a Channel Address` were preserved rather than photocopied.
 
 ## Verification / deployment
 
-Earlier reader-facing WIKI commit: `eb1c25223984e67cd9b54995f1c3275cddb79caf`.
-
-- Build Underlords Wiki `33324969025` — **success**.
-- Deploy Underlords Wiki Preview `33324969038` — **success**.
-
-FireLegacy visitor-wave reader commit: `84a36d743a0788d85701c22b5d5f2335142f3128`.
-
+Earlier reader commit `84a36d743a0788d85701c22b5d5f2335142f3128` (`FireLegacy Sends Three Ranks Through the Front Door`):
 - Build Underlords Wiki `33325159071` — **success**.
 - Deploy Underlords Wiki Preview `33325159120` — **success**.
 
-This state file is a state-only close after successful reader verification. Its own push should be checked through the repository's normal Build/Pages chain before the run is considered fully closed.
+Late consolidated reader head `ef8e946d99fc2803a80f3685c67c01347a9c99ce` includes **Xuseio's Phone Becomes a Snitch** plus the Mugen `my favee` upgrade:
+- Build Underlords Wiki `33325476451` — **success**.
+- Deploy Underlords Wiki Preview `33325476569` — **success**.
+
+This state file is the durable close after successful reader verification. Its own exact state-head Build/Pages chain must also pass before the run is fully closed.
 
 ## Holds / hard rails preserved
 
 - Historical Wall: through 03:46; exact bounded 04:46 next.
+- Xuseio/Rummy: recent-prior-conversation callback confirmed in Xuseio's wording; exact topic/venue and relationship type unresolved; Rummy `PGFFF` is probable local reaction only.
 - ShiyaX Oct. 15 images: visually unresolved; pooled Deleted User stays pooled/quarantined.
 - FireLegacy: self-reported period roles only; no invented appointment sequence from exporter role arrays.
-- FireLegacy visitor wave: no invented inviter, event, migration, recruitment drive, or formal alliance.
-- Wonder Alice: requested conversational name, not exact-IGN proof; exact DOB not derived from the age remark.
+- FireLegacy visitor wave: no invented inviter, event, migration, recruitment drive, transfer, or formal alliance.
+- Wonder Alice: requested conversational name, not exact-IGN proof; exact DOB not derived.
 - `STAFF VACATION`: role/status concept confirmed; exact LilithEl assignment remains unresolved.
+- Mugen `Owo my favee`: probable receipt/event referent; no unseen screenshot-content or sexual-preference inference.
 - Snow self-shame: earliest surviving direct wording, **not origin**.
 - `sycessences` / `ƐℲı˥` remains hard-resolved to **Sye/Life, not Effie**.
-- Whiskey remains publication-blocked on MAIN; accepted Sye ordinary-life material stays attached to Sye/Life.
