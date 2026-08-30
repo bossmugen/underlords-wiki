@@ -9,12 +9,13 @@ import { coreRecovery1535Episodes } from "../../data/integrator-episodes-core-20
 import { allCharactersIntegratedEpisodes } from "../../data/integrator-episodes-allcharacters-20260829";
 import { louvreIntegratedEpisodes } from "../../data/integrator-episodes-louvre-20260829";
 import { lateAugustIntegratedEpisodes } from "../../data/integrator-episodes-20260829-1334";
+import { late1737IntegratedEpisodes } from "../../data/integrator-episodes-20260829-1737";
 
 export function getStaticPaths() {
   return seasons.map((season) => ({ params: { year: season.year }, props: { season } }));
 }
 const { season } = Astro.props;
-const allEpisodes = [...episodes, ...integratedEpisodes, ...wallIntegratedEpisodes, ...whiskeyIntegratedEpisodes, ...coreIntegratedEpisodes, ...coreRecovery1535Episodes, ...allCharactersIntegratedEpisodes, ...louvreIntegratedEpisodes, ...lateAugustIntegratedEpisodes];
+const allEpisodes = [...episodes, ...integratedEpisodes, ...wallIntegratedEpisodes, ...whiskeyIntegratedEpisodes, ...coreIntegratedEpisodes, ...coreRecovery1535Episodes, ...allCharactersIntegratedEpisodes, ...louvreIntegratedEpisodes, ...lateAugustIntegratedEpisodes, ...late1737IntegratedEpisodes];
 const seasonEpisodes = allEpisodes.filter((episode) => episode.season === season.year);
 const eraNumber = seasons.findIndex((entry) => entry.year === season.year) + 1;
 ---
