@@ -99,5 +99,14 @@ export const early0501IntegratedEpisodes: Episode[] = [
     kind: "Wall reputation / the punishment for talking is apparently celebrity",
     logline: "WOO performs the rare feat of diagnosing his own archival problem correctly and still receiving no relief. He says `I need to not talk sm I got so much stuff on the hall of shame`. Ten minutes later Moon replies directly: `No no you famous uwu.` WOO answers with crying/skull reactions, because apparently the appeal process has been replaced by branding. The exchange makes his repeat-Wall reputation legible without inventing a single screenshot: WOO himself says there is `so much stuff`, explicitly links the accumulation to talking too much, and Moon immediately reframes the embarrassment as fame. The probable person read is that by spring 2023 he had become recognizable quote bait — talkative enough to keep feeding the room, self-aware enough to notice the harvesting, and socially doomed because his friends think the harvest is celebrity. A nearby Gilli screenshot is not reply-linked to WOO's line and remains visually uninspected, so this episode does not pretend to know what it contains or whether WOO appears in it.",
     cast: ["WOO", "Moon"]
+  },
+  {
+    id: "hamittey-welcome-back-evidence",
+    title: "Welcome Back From Vacation. Here Is Your Evidence.",
+    season: "2021",
+    date: "August 3, 2021",
+    kind: "Wall welcome-back / friendship apparently includes saved evidence",
+    logline: "HamitteY rediscovers a saved Dragon Raja screenshot and chooses violence with the extremely casual `forgot i had this :SpidySip:`. Ren tags Baby Lyssa; Baby Lyssa TRUE-REPLIES to the exact exhibit with `you know what`, then lands on `i thought you was my friend` with a cry emote. HamitteY does not soften. She TRUE-REPLIES directly with `Sorry not Sorry:Raja_dino_heart:` and only then adds `welcome back from vacation :SpidySip:`. The order is what makes the scene sing: the welcome-back greeting arrives after the prosecution, so the social gesture and the evidence dump become the same gesture. Baby Lyssa is probably the implicated subject because the direct reply/tag/protest chain points that way, but the screenshot pixels were not inspected, so visual FEATURING remains unresolved. HamitteY is confirmed as the POSTER/retriever; MADE BY and CAPTURED BY remain unknown. The strong person read is incident-specific receipt-hoarder energy: she forgot she had the screenshot, remembered, and apparently decided Baby Lyssa's return deserved a commemorative filing. `i thought you was my friend` stays local mock-betrayal language, not a formal relationship label.",
+    cast: ["HamitteY", "Baby Lyssa", "Ren"]
   }
 ];
