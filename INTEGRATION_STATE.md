@@ -1,6 +1,46 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-08-30 15:30 PDT_
+_Last updated: 2026-08-30 15:38 PDT_
+
+## 15:30 dual-surface close — Vanness prosecutes themself, Syv bargains with ochem, Mugen loses another filing race
+
+The project-wide lower-evidence threshold remains binding. Hard canon, resolved identities, privacy/safety, explicit contradictions, formal-role chronology, and attribution fences remain hard; strong contextual human reads remain publishable when the surrounding evidence makes them more likely than not.
+
+### Shared miner census / queue
+
+- **49 tracked miner identities** = **28 active remote refs + 21 historical/missing refs**; **0 newly discovered**, **0 finite pending**, **0 backlog**, **0 overdue** after review.
+- Both Club-Only recovery branches remain consumed/current: `archive-miner-clubonly-2020-hourly` through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`; `archive-miner/club-only-2021-2026-hourly` through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`.
+- `archive-miner/mugen-person-first-20260828` advanced from consumed `2f6c72e5f5695fb5cbd3f0eb9ddef98c78ca5c75` to `16c1338f0347cccda352f89b7a1c4282c584a078` and was reviewed checkpoint-first. Its April 2, 2021 Snow/Mugen filing-race scene is valid Mugen character texture but already lives inside the public **Beat Them to the Wall** running-gag owner, so the branch is consumed through the new head without cloning another page. A separate Daycare fragment on account `451793140470300682` remains unresolved and was not identity-merged into established Mugen.
+- Wall forward review advanced from `8d200670e45eb756ddd6c33f590c09c1a2bffcf0` through `e3047623f8b61ca757963858db3ab3c40691c45a`. Formal Wall `last_consumed_sha` remains null while cumulative historical recovery stays open. Historical recovery remains safely through exact bounded **2026-08-26 12:46 PDT; 13:46 next**; this pass did not re-mine raw archives.
+- Whiskey remains partially publication-blocked on MAIN. Its reviewed head is `e30ab7bfbed2ba382c7c3cfee22f0326bdde0cde`, but formal consumed SHA remains `6cd5f9daeb20d77fad20e3cd7465ec938411993d` because earlier accepted Sye/Life material still has not cleared MAIN verification. Hard correction remains **`sycessences` / `ƐℲı˥` = Sye/Life, not Effie**.
+- No miner branch was merged or wholesale cherry-picked into either publishing branch.
+
+### New public integrations
+
+**Vanness — `Vanness Requests Their Own Sentence`.** On August 10, 2021 Vanness walks into the Wall and files the charge personally: `Im putting myself in wall of shame for losing 5 orange dracs for merge. Shame me:CatCry:`. Gilli later TRUE-REPLIES to that exact confession with a frozen emote; twenty-seven seconds later Vanness says `Im too sad to play anymore:Cursed:`. The follow-up makes the loss plainly game-related, while the exact `orange dracs` / `merge` mechanic stays unresolved rather than being reverse-engineered from one line. The social move is the keeper: defendant and filer are the same person, and Vanness converts a painful little game loss into communal theater by explicitly asking the room to do the shaming.
+
+**Syv — `Syv Negotiates with Organic Chemistry`.** Ricochet asks `How ochem`; Syv explains that the class now has a whole day dedicated to reviewing a badly graded test, reports a C, then immediately reframes it: `I’m counting that as a pass` because worse had been expected. Syv still wants a B and plans to make up the damage on other tests. That supports the ordinary-life read that Syv was a student taking organic chemistry in October 2021; it does **not** expose age, institution, school level, degree/program, or a parental-supervision regime. The useful person-beat is the live renegotiation of what counts as survival when the whole class apparently got hit by the same truck.
+
+### Duplicate / conflict reconciliation
+
+- Mugen's April 2 `YOU BEAT ME TO IT` exchange with Snow is not a new Episode. The existing **Beat Them to the Wall** gag already records Mugen among the recurring filing-race participants, so the person-first delta is consumed as corroboration/character texture rather than duplicated.
+- Vanness's self-filing is one explicit incident, not a permanent personality trait or proof of a recurring self-prosecution ritual.
+- Syv's ochem scene stays Syv. **Syv ≠ Sye/Life**; the one-letter similarity does not override stable-account evidence.
+- POSTED BY / TRUE-REPLIED TO / MADE BY / CAPTURED BY / FEATURING remain separate attribution jobs. No uninspected image was reconstructed.
+
+### Verification / deployment
+
+Compatible WIKI reader head `c80f4f1c05c8c521c5e6e47f6c3da142d899ac76` adds the Vanness and Syv Wall Episodes.
+- **Build Underlords Wiki** run `33339483404`: Astro build **success**.
+- **Deploy Underlords Wiki Preview** run `33339483403`: Pages build/deploy **success**.
+
+This durable-state commit creates a newer exact `main` head and must pass its own native Build + Pages chain before final reporting.
+
+### Surface split
+
+**WIKI** owns Vanness's discrete self-filing Episode and Syv's ochem Episode because they are clean fandom-story / dossier-shaped ordinary-life scenes. **MAIN** intentionally gets no mirrored reader prose while its required verifier remains infrastructure-blocked. Mugen's filing-race line stays in WIKI's existing running-gag owner rather than being photocopied into a second local owner. The previously accepted Sye/Life material remains MAIN-owned and publication-blocked rather than being laundered through WIKI merely because WIKI can currently complete a build.
+
+---
 
 ## 15:14 dual-surface integration — the challenge room is not Officer-only, Panda gets grounded forever, and the Wall has a race condition
 
