@@ -81,5 +81,14 @@ export const early0836IntegratedEpisodes: Episode[] = [
     kind: "Wall callback / the evidence room accepts receipts from conversations it never heard",
     logline: "Xuseio POSTS `Screenshot_20240102_190509_Co_Star.jpg`, drops a Genshin stare, tags Rummy, and writes `The fact we spoke about this the other day.` The screenshot pixels are still sealed, which is almost beside the point: Xuseio has already told the room why it matters. Something on his phone/app has apparently reproduced a joke or subject from a recent conversation badly enough to become Wall evidence. Rummy's next surviving Wall message, about fifty-five minutes later, is `PGFFF`; because it is not a structured reply, that is a probable local reaction rather than a hard join. The scene gives Xuseio's attachment-heavy Wall footprint a very human mechanism: notice a visual callback, tag the one person who shares the context, file it. The Wall does not need to have witnessed the original conversation; apparently a phone can snitch later. Xuseio is SAID BY and POSTED BY for the filing only. The exact screenshot content, prior-conversation topic and venue, relationship category with Rummy, and MADE BY / CAPTURED BY / FEATURING remain unresolved; the `Co_Star` filename is not enough to turn this into durable astrology canon.",
     cast: ["Xuseio", "Rummy"]
+  },
+  {
+    id: "woo-shame-problem-fame-reframe",
+    title: "WOO Diagnoses a Shame Problem; Moon Calls It Fame",
+    season: "2023",
+    date: "April 9, 2023",
+    kind: "Wall self-awareness / one person's evidence problem gets a PR rebrand",
+    logline: "WOO eventually identifies the obvious operational failure in having a mouth inside Underlords: `I need to not talk sm I got so much stuff on the hall of shame`. Ten minutes later Moon TRUE-REPLIES to that exact confession with `No no you famous uwu.` WOO's answer is not a legal argument; it is crying plus skull reactions. The tiny exchange is useful because the room-wide Shame/Fame joke becomes personal for a second. WOO experiences the accumulated file as evidence that maybe talking less would be safer. Moon refuses the premise entirely and recategorizes the same exposure as celebrity. The reactions read like mock defeat: WOO does not win deletion, privacy, or even ordinary embarrassment; WOO gets promoted. The archive does not safely identify which earlier screenshots WOO means by `so much stuff`, so none are retroactively attached to this confession. A nearby March 2023 `NOBU` / `TRAITOR` sequence is also held separately because Nobu/Xuseio's two posted screenshots have not been visually inspected. POSTED BY Nobu is known there; what he exposed is not.",
+    cast: ["WOO", "Moon"]
   }
 ];
