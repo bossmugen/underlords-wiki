@@ -1,6 +1,6 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration close: **2026-08-29 23:33 PDT**.
+Last dual-surface integration close: **2026-08-29 23:50 PDT**.
 
 Full branch consumption state is authoritative on MAIN in `archive-intake/INTEGRATOR_BRANCH_STATE.json`; earlier WIKI states remain in Git history.
 
@@ -33,7 +33,7 @@ Raw archives were not re-mined. The closing census caught Mugen advancing after 
 
 ## Public keeper — Nor I Will Ever Do It Again
 
-The 13:46 Wall recovery produced one incident that deserved a WIKI owner instead of another thin biography paragraph.
+The 13:46 Wall recovery produced one incident that deserved a WIKI owner.
 
 On November 5, 2020 Illien helps a fake murder scenario become steadily more incriminating: `Noodle in jail`, a proposed book called `101 cute ways to murder`, a bury-the-body GIF, and `pikashoot`, while Ren contributes knife-and-gun punctuation. Only after supplying half the prosecution's vocabulary does Illien reach for innocence: `I swear I didn't do it, nor I will ever do it again`.
 
@@ -43,10 +43,22 @@ The public read stays exactly where the evidence supports it: the joke is Illien
 
 WIKI reader-content head `1aabbfdb763d01b55ea4ff79e6616134380752d0` passed **Build Underlords Wiki** run `33297527524` and **Deploy Underlords Wiki Preview** run `33297527541`, including Pages deployment.
 
+## MAIN keeper — Pride knows exactly what screenshot jail does
+
+The Wall forward suffix materially sharpened Pride's existing biography, so MAIN's canonical Pride dossier now owns the richer version instead of leaving it as backstage corroboration.
+
+On October 7 Pride says this is why Pride stays out of Club Chat, then predicts the room will have him `plastered all over this place for the dumb stuff i say`. Gilli answers `im watching you`; Ansun says `just let yourself get exposed lol`; when Ren asks what Pride even did, Gilli says `nothing yet`. Pride's response is `keep watching baby`.
+
+The tiny pivot is the character beat. Pride knows the Wall's capture risk well enough to name it, then immediately turns being watched into a dare. That is publishable ordinary social inference; it does not require inventing a Pride/Gilli relationship type or treating Wall-surveillance jokes as literal monitoring.
+
+The same MAIN update also folds the body/corpse callbacks into one chronology: Ren's September 7 `Pride bout to kill us for bodies UwU` is now the earliest surviving contextual Pride/body signal currently recovered; November 4 retains the `we've lost Pride's body` / Amber Alert memory; and December 29 has Ren explicitly resurfacing the time Pride allegedly threatened to make people into corpses before posting an image sixteen seconds later. September is not promoted into an origin date. Both Ren-posted images remain uninspected, and POSTED BY stays separate from maker/capturer/featured-subject claims.
+
+MAIN reader-content head `03ac298d805eaed4613332e2b56b3489045a46cd` passed the exact **UL Hourly Build + Deploy** run `33297782859`, including source canon/architecture verification, Astro build, built-output verification, Cloudflare deployment, and exact production-commit verification.
+
 ## Reconciled / not duplicated
 
-- Pride's new October 7 Wall material — `and this is why Pride stays out of Club chat`, fear of being `plastered all over this place`, Gilli's `im watching you`, and Pride's `keep watching baby` — is accepted as real self-aware avoidance that immediately flips into performative dare. MAIN already owns the richer Pride surveillance spine, so no second public copy was manufactured.
-- Pride's September `bodies` warning and December corpse-threat throwback materially deepen the already-public corpse/body-loss chronology, but the exact images remain uninspected and the actual origin/mechanic stays unresolved. September is an earlier surviving signal, not a certified origin.
+- The Illien fake-murder vignette is WIKI-only because it is a bounded incident with a clean setup, self-own, and verdict; MAIN's Illien biography is already rich and did not need another incident-shaped section this hour.
+- Pride's surveillance/body material is MAIN-only because the canonical person dossier is the strongest owner. WIKI does not need a second copy of the same character read.
 - Mugen's late delta corrects an older hypothesis rather than adding a new scene: a 2020-11-07 translation-bot embed already labels Woohyuk `PANCAKE ASS`, so Mugen's November 10 booty/pancake sequence cannot be the earliest known precursor. If the local join is correct, it is more plausibly callback/reinforcement of an already-live joke. Mugen as coiner remains unsupported. The superseded precursor hypothesis was not present in current public Mugen copy, so no reader-facing correction was required.
 
 ## Held / unresolved
@@ -58,14 +70,19 @@ WIKI reader-content head `1aabbfdb763d01b55ea4ff79e6616134380752d0` passed **Bui
 - Pride's September/December images remain POSTED BY Ren only; maker, capturer, subjects, and exact corpse/body mechanics remain unresolved.
 - Earliest surviving remains distinct from origin; joke relationships stay jokes; attribution categories stay separate.
 
-## Surface ownership
-
-This pass intentionally published the Illien vignette **WIKI-only** because it is a bounded incident with a clean setup, self-own, and verdict. MAIN already has a rich Illien biography and did not need another incident-shaped paragraph. MAIN reader content therefore stayed unchanged this pass; it carries the authoritative consumption ledger and dual-run report instead.
-
 ## Consumption close
 
 Mugen person-first advanced and was consumed through `382b9e14494b84dd92db993ec7c7af3fa882bef3` after successful review of its correction-only delta.
 
 Wall forward review advanced through `9626f775c308874d072e44ceeee1c3884bd612aa`, and historical safe-baseline recovery advanced from **12:46 -> 13:46**. Formal Wall consumed remains null while the cumulative older floor remains open. **14:46 is next.**
 
-The reader-content commit passed both native WIKI workflows before this state was written. This durable-state commit must itself pass the same native workflows before the pass is reported closed; exact closing-head verification is reported from GitHub Actions after commit.
+The active miner recensus still resolves to the same 28 active refs; finite debt remains zero.
+
+## Verification close
+
+- WIKI reader-content head `1aabbfdb763d01b55ea4ff79e6616134380752d0`: native build + Pages deploy green.
+- Previous WIKI durable-state head `bc1505ebf1c16cfc44275f31a2668c263d3cf200`: native build + Pages deploy green.
+- MAIN Pride reader head `03ac298d805eaed4613332e2b56b3489045a46cd`: exact full build/deploy workflow green.
+- MAIN durable reconciliation report follows the Pride child commit and records it as the accepted canonical owner.
+
+This state commit itself must pass WIKI's native Build and Pages workflows before the run is reported closed.
