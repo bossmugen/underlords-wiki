@@ -108,5 +108,23 @@ export const early0501IntegratedEpisodes: Episode[] = [
     kind: "Wall welcome-back / friendship apparently includes saved evidence",
     logline: "HamitteY rediscovers a saved Dragon Raja screenshot and chooses violence with the extremely casual `forgot i had this :SpidySip:`. Ren tags Baby Lyssa; Baby Lyssa TRUE-REPLIES to the exact exhibit with `you know what`, then lands on `i thought you was my friend` with a cry emote. HamitteY does not soften. She TRUE-REPLIES directly with `Sorry not Sorry:Raja_dino_heart:` and only then adds `welcome back from vacation :SpidySip:`. The order is what makes the scene sing: the welcome-back greeting arrives after the prosecution, so the social gesture and the evidence dump become the same gesture. Baby Lyssa is probably the implicated subject because the direct reply/tag/protest chain points that way, but the screenshot pixels were not inspected, so visual FEATURING remains unresolved. HamitteY is confirmed as the POSTER/retriever; MADE BY and CAPTURED BY remain unknown. The strong person read is incident-specific receipt-hoarder energy: she forgot she had the screenshot, remembered, and apparently decided Baby Lyssa's return deserved a commemorative filing. `i thought you was my friend` stays local mock-betrayal language, not a formal relationship label.",
     cast: ["HamitteY", "Baby Lyssa", "Ren"]
+  },
+  {
+    id: "spicy-i-knew-it",
+    title: "Spicy Finds His Own Wall Fossil",
+    season: "2021",
+    date: "April 14 – September 8, 2021",
+    kind: "Wall archive archaeology / the defendant remembers the receipt before he finds it",
+    logline: "Four months after Gilli POSTS a screenshot and tags Spicy Hotpot, Gilli asks whether this is `Josh`'s first time on the Wall and immediately tags Spicy again. Spicy does not answer like a newcomer to prosecution: `Nah, you probably put me here ages ago`. Then he digs backward and TRUE-REPLIES to Gilli's exact April screenshot post with the tiny, triumphant `I knew it`. That reply target settles the important part even though the old pixels remain sealed: Spicy himself treats the April post as the prior Wall placement he had been remembering. The joke is archive memory with no dignity attached. He remembers being incriminated before he can locate the evidence, assumes Gilli probably did it, then gets the world's least useful vindication when the fossil turns up. `Josh` is a probable/high familiar period name because Spicy answers Gilli's Josh-question in first person; it is not promoted into a legal or IRL-name claim. The screenshot is POSTED BY Gilli; MADE BY, CAPTURED BY and literal visual FEATURING remain unresolved. A May `What did I do` after being summoned with an eyes emoji makes the recurring Wall relationship even clearer: by 2021, Spicy knows that being called into this room usually means somebody has paperwork.",
+    cast: ["Spicy Hotpot", "Gilli"]
+  },
+  {
+    id: "ryan-x-cctv-orientation",
+    title: "Ryan X Gets CCTV Orientation",
+    season: "2020",
+    date: "October 1, 2020",
+    kind: "Wall orientation / surveillance infrastructure explained with absolutely no privacy policy",
+    logline: "Ryan X says he `talked too much in wc`. Pride explains the room in two increasingly ominous sentences: `This is where everyone gets exposed`, then `They are always watching`. Ryan requires no further onboarding packet. His answer is simply `CCTV`. Gilli immediately tags him with `-calls FBI-`, because apparently the correct response to learning that your friends operate a screenshot panopticon is to add federal law enforcement to the bit. Four minutes later Pride POSTS an image with `jus leaving this here. My work is done`, probably as part of the same Ryan filing scene from timing and language, but the upload has no structured reply/tag and the pixels remain uninspected. The public record therefore stops at POSTED BY Pride; MADE BY, CAPTURED BY and visual FEATURING stay unresolved. `wc` is probably Dragon Raja World Chat, not locally expanded hard canon. What is confirmed is better anyway: by October 2020, Pride could describe the Wall as a place where everyone gets exposed and Ryan could compress the whole operating model into one word. The archive did not invent the surveillance metaphor later. The clowns were already calling it CCTV themselves.",
+    cast: ["Ryan X", "Pride", "Gilli"]
   }
 ];
