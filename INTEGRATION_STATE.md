@@ -65,11 +65,10 @@ The immediately preceding public WIKI keeper remains **Eos Is Too Vanilla to Sha
 
 ## Verification / deployment
 
-The Marian/Eos reader head `284cb52c1eed15fa2ed0b66de254dcc1a00c23be` passed **Build Underlords Wiki** run `33288454436` and **Deploy Underlords Wiki Preview** run `33288454441`; both completed successfully.
+- MAIN integration/report head `be3c2b45d2d35ea887d70c65d675b89ec30c91e0` passed **UL Hourly Build + Deploy** run `33288805002`: source canon/architecture verification, Astro build, built-output verification, and exact production Cloudflare deployment all succeeded.
+- WIKI integration-state head `ae0397a4be4be625c7d6178643c009a1ebf9f2d0` passed **Build Underlords Wiki** run `33288852978` and **Deploy Underlords Wiki Preview** run `33288852979`; the Pages workflow completed the repository's full `build → deploy → report` chain successfully.
 
-The current 19:50 integration-state commit is state-only and triggers the repository's native build and Pages workflows. Exact closing-head verification is checked before the pass is reported closed.
-
-MAIN's 19:50 state/report commits likewise trigger the native **UL Hourly Build + Deploy** workflow; exact closing-head verification is checked before final close.
+This reporting-only amendment records those successful checks. Its resulting WIKI commit is also subject to the native build and Pages workflows before the run is reported closed.
 
 ## Held / unresolved
 
