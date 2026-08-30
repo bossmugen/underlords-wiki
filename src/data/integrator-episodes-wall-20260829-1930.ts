@@ -63,5 +63,23 @@ export const wall1930Episodes: Episode[] = [
     kind: "Wall category evolution / fame stops being only a boast about shame and becomes an explicit positive filing",
     logline: "The surviving Fame language gets clearer over spring 2021 without giving us a safe absolute origin. On March 24 Ansun boasts `BET its our wall of FAME baby`, using fame as prestige inside the shame machine. On June 16 Ren posts two images and labels them `No shame here, only fame and cuteness`, an explicit positive classification rather than a defendant trying to turn humiliation into clout. That shift helps explain the eventual Shame/Fame double life of the room: `fame` could mean victorious shamelessness, but it could also mean something was simply too cute or good to prosecute. June 16 is the earliest surviving explicit positive Fame classification currently recovered, not proof that Ren invented the category or that this was the first wholesome post. The image subjects remain unresolved. Gilli's later memory that Eos was `our first Fame moment` remains participant memory rather than something this chronology tries to overrule.",
     cast: ["Ansun", "Ren", "Gilli", "Eos"]
+  },
+  {
+    id: "snow-losing-bodies-again",
+    title: "We Lost Bodies Again?",
+    season: "2022",
+    date: "April 13–14, 2022",
+    kind: "Wall corpse-logistics sequel / the old body-loss joke survives its own reforms",
+    logline: "The 2020 corpse fiasco had eventually produced the confident reform slogan `no corpses is lost anymore lol`. April 2022 finds out how durable that policy was. Rich describes Ansun doing something `in the middle of snow losing the bodies`; TonyTonyChopper arrives with `LOSING THE BODIES??`; the next morning Mugen asks `We lost bodies again?`, then posts an `I brought a lawyer` reaction. Tony later closes with the only reasonable compliance memo: `You gotta be careful with bodies can’t just misplace them like that`. The tiny word `again` is the bridge — whatever exact game mechanics were involved, UL itself recognizes body loss as a repeat failure. These are game/fake-corpse logistics, not literal human remains, and the exact bodies, source game, and Ansun's action remain unresolved.",
+    cast: ["Snow", "Rich", "Mugen", "Ansun"]
+  },
+  {
+    id: "eos-first-fame-proposal",
+    title: "Eos's First Fame Moment Was a Proposal",
+    season: "2021",
+    date: "September 22, 2021 → May 14, 2022",
+    kind: "Wall relationship callback / participant memory resolves Fame to a proposal and the proposal joke keeps reproducing",
+    logline: "While the room is trying to remember whether the Fame half of Shame/Fame ever actually got used, Marian supplies the missing noun: `when i posted eos' proposal to me`. Gilli immediately concludes `That means Eos was our first Fame moment`; Marian says it `should get an award for that`. The important boundary is memory, not archaeology — this tells us what the room later remembered as Eos's first Fame moment, not that no earlier positive filing existed. Then May 2022 proves the proposal language was not a one-off: Marian posts an image and asks Eos `WILL YOU MARRY ME????` with the parenthetical `for like the 20th time`. The number is comic exaggeration, but the recurrence is the joke's actual payload. Keep this as recurring fake-proposal / marriage-language between Marian and Eos; it does not establish a real engagement, legal marriage, exclusivity, sexuality, or other real-world relationship status.",
+    cast: ["Marian", "Eos", "Gilli"]
   }
 ];
