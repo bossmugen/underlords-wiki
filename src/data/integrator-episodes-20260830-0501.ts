@@ -63,5 +63,14 @@ export const early0501IntegratedEpisodes: Episode[] = [
     kind: "Wall fake prosecution / caught-in-4K public-service announcement",
     logline: "Gilli POSTS one sealed Discord screenshot and immediately turns into the world's least neutral public-service announcer: `Don't do drugs, kids`, followed by a tag for Ren. Ren's `HEY HEYYY`, panic and `WAIR A SECOND` do not exactly calm the courtroom; Gilli supplies `4k`, which in context reads like the caught-in-4K punchline. Syv sees the opening and says `Damn I didn’t know rv liked drugs`. Ren later TRUE-REPLIES `I HAVE REASONS—`; Syv answers `And they are…? 🤨`, because apparently cross-examination is now free. Momo briefly contributes the struck-through `some drugs are ok-`, then immediately remembers there are adults on the internet and corrects herself: `I’m kidding… Unless it’s prescribed to you don’t do it. Make good choices`. The scene therefore becomes fake prosecution, fake D.A.R.E. assembly, and then an actual cautionary disclaimer in under one hearing. None of it is evidence that Ren used drugs. The screenshot itself was not visually inspected: Gilli POSTED it; MADE BY, CAPTURED BY and visual FEATURING remain unresolved. Syv's line is teasing, not biography.",
     cast: ["Gilli", "Ren", "Syv", "Momo"]
+  },
+  {
+    id: "ghostt-quits-raja-not-the-room",
+    title: "Ghostt Quits Raja, Not the Room",
+    season: "2021",
+    date: "January 3, 2021",
+    kind: "Game exit / social continuity becomes the thing people are actually tracking",
+    logline: "Ghostt says the part that matters with almost no ceremony: `Imma still be in discord just not playing raja anymore`. The room's response makes the sentence much bigger than a personal status update. Tae visibly relaxes once Ghostt clarifies that Discord is staying, while Jordayy calls the exchange a roller coaster of emotions. The emotional order is the whole episode: peers react to the possibility of losing Ghostt, then calm down when they learn the game participation is what is leaving. That makes the later forgotten-club and uninstall jokes easier to read at human scale. Dragon Raja can fall out of the biography without Ghostt falling out of the room. This is not formal membership chronology, and the wiki does not turn one scene into a legal definition of UL status. It is simpler than that: when Ghostt separates `playing Raja` from `still be in discord`, the people around him visibly care which half survives.",
+    cast: ["Ghostt", "Tae", "Jordayy"]
   }
 ];
