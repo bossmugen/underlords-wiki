@@ -90,5 +90,32 @@ export const early0836IntegratedEpisodes: Episode[] = [
     kind: "Wall self-awareness / one person's evidence problem gets a PR rebrand",
     logline: "WOO eventually identifies the obvious operational failure in having a mouth inside Underlords: `I need to not talk sm I got so much stuff on the hall of shame`. Ten minutes later Moon TRUE-REPLIES to that exact confession with `No no you famous uwu.` WOO's answer is not a legal argument; it is crying plus skull reactions. The tiny exchange is useful because the room-wide Shame/Fame joke becomes personal for a second. WOO experiences the accumulated file as evidence that maybe talking less would be safer. Moon refuses the premise entirely and recategorizes the same exposure as celebrity. The reactions read like mock defeat: WOO does not win deletion, privacy, or even ordinary embarrassment; WOO gets promoted. The archive does not safely identify which earlier screenshots WOO means by `so much stuff`, so none are retroactively attached to this confession. A nearby March 2023 `NOBU` / `TRAITOR` sequence is also held separately because Nobu/Xuseio's two posted screenshots have not been visually inspected. POSTED BY Nobu is known there; what he exposed is not.",
     cast: ["WOO", "Moon"]
+  },
+  {
+    id: "wall-offsite-evidence-lockers-2020",
+    title: "The Wall Already Had Off-Site Evidence Lockers",
+    season: "2020",
+    date: "October 26–30, 2020",
+    kind: "Wall evidence economy / everybody's photo library becomes auxiliary storage",
+    logline: "On October 26 Gabu tells Anthos `i still have your ss hahaha`. Anthos's `...` and `which one @3@` are enough to show the threat lands before the file does. Gabu asks `do you want see? lemme post here :Hehe:`; Anthos answers `im scared now`. Gabu briefly retreats with `nah im kidding hahahah`, which only makes Anthos admit `well im still curious XD`. Seventeen seconds later Gabu POSTS `Capturar.PNG`, and Anthos immediately collapses into `LMAOOO`, `nooooooo`, `XD`. The pixels are still sealed, so the attachment is only *probably* the screenshot Gabu has just threatened to retrieve; safe provenance is SAID BY / POSTED BY Gabu, with MADE BY / CAPTURED BY / FEATURING unresolved. Four days later Zoshaa/NintendoShitcube supplies the independent mechanism in plain language: `Scrolling through photos out of boredom, found a bunch of old ss lmao`, then POSTS ten JPGs and, 2.512 seconds later, two more. Mugen's `:pngguru: ptsd` follows less than a minute later as a probable local reaction, not an image-content join. Together the two scenes push member-held screenshot storage into the Wall's first months: Gabu can retain a specific person's receipt and retrieve it on demand; Zoshaa can accidentally reopen a twelve-file cache by scrolling her photos. The public channel is already the courthouse, not the whole archive. Apparently everybody's camera roll is an off-site evidence locker. Earliest surviving direct examples recovered here are not origin claims.",
+    cast: ["Gabu", "Anthos", "Zoshaa", "Mugen"]
+  },
+  {
+    id: "mugen-day-off-wall-excavation",
+    title: "Mugen Uses a Day Off to Dig Back to 2020",
+    season: "2025",
+    date: "May 6, 2025",
+    kind: "Wall archaeology / the evidence room becomes its own rerun channel",
+    logline: "Five years in, Mugen looks at a free day and chooses historical violence: `Hmm I have a day off. Let's bring up some old shame`, followed a few minutes later by `Let's go back to 2020`. Teri answers `man, 2020...covid time` and `its been 5 years`, making the time depth explicit while Mugen keeps scrolling. Roughly seventeen minutes after announcing the dig, Mugen posts the Reply-type line `THE BEGINNING`; a few minutes later Ren posts the Reply-type `HELPP YOU REACHED THR TOP LMAO` and then `YAYYYYY`. The retrieval layer did not preserve the two Reply parents in this handoff, so the wiki does not invent their IDs or pretend `THE BEGINNING` establishes a new historical origin point. The surrounding sequence is still strong enough to read as deliberate in-channel archaeology: Mugen is intentionally moving backward through years of Wall material, and Ren recognizes when she has hit the top/end of the excavation. By 2025 the Wall is not merely an evidence room. It is a participant-used rerun library whose old cases can be reactivated for entertainment on somebody's day off. Records has become programming.",
+    cast: ["Mugen", "Teri", "Ren"]
+  },
+  {
+    id: "zhenxi-defendant-to-prosecutor",
+    title: "Zhēnxī Survives the Wall and Becomes the Prosecutor",
+    season: "2021–2022",
+    date: "May 21, 2021 → July 7, 2022",
+    kind: "Wall character arc / target panic turns into archival prosecution",
+    logline: "Zhēnxī first enters this little Wall arc on the wrong side of the bench. Ren POSTS `image0.png`, later tags Zhēnxī, and six seconds after the tag Zhēnxī arrives with `NOOOOOOOOOOO`; sixteen seconds later comes the more specific panic, `NOT THE WALL OF SHAME FAME`. Sou later describes the speed as `shamed within 6 minutes of entry`; Ren wonders whether it is a new record. The exact offense is not safe to name from the uninspected filing. A year later the posture has completely changed. Zhēnxī POSTS `Screenshot_20220707-232429_Discord.jpg`, waits ten seconds, tags Ren with `so uh-`, and Ren TRUE-REPLIES to the screenshot with a skull, then `STAWP`, then the fatal aggravating detail: `This happened like 4 months ago so that’s even worst`. Zhēnxī laughs and rules simply: `Deserving`. Ren's `like 4 months ago` stays approximate, and Zhēnxī gets POSTED BY only because the screenshot pixels/provenance are unresolved. The good human read needs no extra machinery: being prosecuted did not make Zhēnxī anti-Wall. A year later he is storing an old Discord receipt long enough to drag Ren back into court and reject the statute of limitations. The defendant learned procedure and immediately became the prosecutor.",
+    cast: ["Zhēnxī", "Ren", "Sou"]
   }
 ];
