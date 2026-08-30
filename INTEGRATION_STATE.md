@@ -1,78 +1,95 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration close: **2026-08-30 02:55 PDT**.
+Last dual-surface integration close: **2026-08-30 03:52 PDT**.
 
 Full branch consumption state is authoritative on MAIN in `archive-intake/INTEGRATOR_BRANCH_STATE.json`; earlier WIKI states remain in Git history.
 
 ## Current boundary
 
 - Census: **49 tracked miner identities = 28 active remote refs + 21 historical/missing refs**.
-- Finite pending/backlog/review-overdue at the closing cutoff: **0 / 0 / 0**.
-- Club-Only 2020, Club-Only 2021–2026, Core Rooms, All Characters, Mugen person-first, Whiskey, and Daycare are fully consumed/current.
-- Wall is seen and forward-reviewed through `dca9dc0ed1b67cfdce30395728ba602bd26b4fdd`; historical safe-baseline recovery has now been reviewed through **2026-08-25 20:46**, with **21:46 next**. Formal consumed remains null while the cumulative historical floor is open.
+- Finite evidence-review queue at close: **0 pending / 0 backlog / 0 review-overdue**.
+- One reviewed branch remains publication-blocked rather than consumed: `archive-miner/whiskey-longitudinal-hourly`.
+- Club-Only 2020, Club-Only 2021–2026, Core Rooms, All Characters, Daycare, and Mugen person-first are fully consumed/current at the reviewed boundary.
+- Wall is forward-reviewed through `fdb16356e730e29c22760af3cd00cf38e377c0b6`; historical safe-baseline recovery is reviewed through **2026-08-25 22:46**, with **23:46 next**. Formal consumed remains null while the older cumulative floor is open.
 
 No miner branch was merged or cherry-picked wholesale.
 
-## Reviewed this continuation
+## Reviewed this pass
 
-Checkpoint-first, intake-only Wall review continued through three sequential historical packages:
+### Mugen person-first
 
-- **18:46** — Han's `Han's wall of shame fame` self-renaming joke; Baby Lyssa/Ghoulie's grilled-people-to-save-the-seal pivot; Gilli harem pile-on; Zoshaa elderly one-shot hold.
-- **19:46** — Tae's mock `new rule / Always vote out gabu`; later `Gabu / Go to jail`; Ghostt's exact-reply `She set me up for it 😂` attribution to Tae; `tae got sacrificed by roaches`; Ghostt's unresolved `Gilli really said I say this everyday` recurrence clue.
-- **20:46** — successful negative/control review: no new A/B site candidate; Gilli-harem genealogy remained unproven; Lilly pout material remained a one-scene hold; media-dependent rabbits stayed unresolved.
+Reviewed checkpoint-first/intake-only through `4cb46f8970e98687a21ba71162d0d40210bd75aa`, including a late closing-census suffix.
 
-Raw archives were not re-mined. Existing do-not-rediscover rails were respected.
+- Hana/Hanae reapply/join language supports pre-existing familiarity before the formal application moment, but exact join chronology remains held for a safe raw join because archive snapshots/admin artifacts conflict.
+- The 2022 WolfPhenix Officer group-doodle handoff adds a strong probable low-stakes inversion: Wolf controls the numbered drawing premise and Mugen specifically does not get ordinary self-selection. Exact dialogue, Mugen reaction, assigned pose/number, image pixels, and creator chain remain unresolved; the source room is internal/officers-only.
 
-## WIKI keeper
+This is accepted material, not evidentiary purgatory. It simply wants the exact visual/dialogue join before becoming public. Mugen person-first is therefore consumed through the reviewed head.
 
-### CANNIBALISM?? Or the Seal?
+### Whiskey longitudinal
 
-On April 28, 2021 Baby Lyssa — canonically Ghoulie — is perfectly willing to workshop fake food-horror with Gabu: raw people, grilled people, BBQ sauce, medium rare. Cookie then says everyone has made him hungry and Lyssa abruptly needs the menu clarified: **`CANNIBALISM??`** or **`the seal?`**. The human-eating joke is apparently negotiable. The sea doggo is not.
+Reviewed checkpoint-first/intake-only through `becfa8f3bc1a244597107a52a3272690a39242d6`.
 
-Her follow-up is the whole scene: `don't eat the deal pls` and `he good sea doggo`. `deal` is preserved as the surviving typo rather than silently cleaned up. This remains joke language only; no real cannibalism or violence is implied, and the scene was deliberately kept separate from **Eating the Newbies** because there is no recruit/newcomer grammar here.
+The genuine keeper is **Effie**: recurring folk-metal taste, pizza follow-through to ShiyaX, repeated boba talk plus terminology fussiness, named one-by-one morning greetings, `come meet your neighbors` peer-onboarding language, and ordinary pandemic gym/social-distancing texture. The `neighbors` wording is likely shared house-language, not a proven slogan origin. No nationality/ethnicity or formal-role inference is made.
 
-WIKI owns this as a discrete incident because MAIN already has richer person-shaped Baby Lyssa/Ghoulie material and did not need another miniature Wall essay pasted into it.
+This material is intentionally MAIN-shaped: its value is a rich person dossier, not a bounded Episode. MAIN publication was attempted, but exact-head workflow `33307214665` failed before GitHub allocated a runner (`runner_id: 0`, no steps executed), so the reader file was rolled back rather than left public without source/build/output verification. Whiskey therefore stays reviewed-but-publication-blocked; its consumed SHA remains at the prior verified boundary `6cd5f9daeb20d77fad20e3cd7465ec938411993d`.
+
+### Wall forward + historical recovery
+
+Forward intake is reviewed through `fdb16356e730e29c22760af3cd00cf38e377c0b6`.
+
+The strongest current Wall families are already public on this WIKI through concurrent green work at reader head `88076cf0296aadd0d593f25dc5d1538f0ac2f7ce`:
+
+- **The Stink-Off Hearings** — Tofu calls Cookie/Rummy's exchange a `stink off`; Rummy's later `I ShOwerR` is a probable callback. Joke-smell language only, never factual hygiene.
+- **Snow Loses the Van of Bodies** — Sou, Ren, Rich, Mugen, Anayss, Tony, and Snow turn Dragon Raja body-loss into logistics bureaucracy. It is game-coded joke violence; Sou POSTED images but maker/capture/subject provenance remains unresolved.
+- **Panda and Eos Get Married, Then Divorced** already owns the broader fake-marriage/divorce family.
+
+Historical safe-baseline recovery advanced through **22:46**. That layer adds Marian's counter-dossier after Eos tries to beat Panda to a filing: Marian produces multiple examples of Eos supposedly divorcing her and says they are not even half the examples. This strengthens the existing fake-marriage/divorce running gag rather than warranting a duplicate page. It remains social joke-language, not literal romance or legal status.
+
+Tony's repeat Marian filing remains a separate live candidate: February gives `sorry, not sorry` plus same-day speedrun language; May gives Tony's `NO / STOP / DONT SHOW THEM`. The repeat-filing behavior is clear; screenshot interiors and the alleged offenses are not.
 
 ## Dedup / reconciliation
 
-- Han's October 2021 prediction that the room would become `Han's wall of shame fame` is genuine person-specific self-mythology, but MAIN already owns stronger Han Wall material; no duplicate WIKI Episode was created.
-- Tae's `Always vote out gabu` / `Go to jail` family is already public on WIKI. The underlying screenshots remain visually unresolved, so no game mechanic or alleged offense was invented.
-- Ghostt's `She set me up for it 😂` exact-reply attribution to Tae is already public on WIKI. The two attached images remain unresolved; POSTED BY Ghostt still does not become CAPTURED BY or MADE BY.
-- The Gilli harem pile-on remains bounded joke/social relationship language. Earlier generic UL `harem` vocabulary exists and no direct bridge to Gilli's later Emotional Support Collection has been recovered, so no fake genealogy or literal romance was published.
-- The 20:46 package was a genuine no-new-evidence review and should not be re-read as if silence were unfinished work.
+- Stink-Off, van-of-bodies, and Marian/Eos fake-divorce evidence was combined into existing WIKI owners instead of mirrored into duplicates.
+- Effie stays MAIN-shaped and banked pending functioning MAIN verification rather than being copied here simply because the other pipeline tripped over its shoelaces.
+- Wolf/Mugen is held for the high-value screenshot/dialogue version rather than spending the punchline on generic prose.
+- Tony/Marian remains a candidate because the behavioral arc is strong even though the screenshot pixels are unresolved.
 
 ## Holds / rabbit holes
 
-- Exact image/media prompt behind Baby Lyssa's seal pivot.
-- Han's precise Oct. 19 trigger for predicting a channel rename.
-- Scar's antecedent for `Also Gilli must have some harem here`.
-- Tae/Gabu screenshot mechanics behind `Always vote out gabu` / `Go to jail`.
-- How Tae was `sacrificed by roaches`; do not join it to unrelated Ryan/roach material from vocabulary alone.
-- What Ghostt supposedly says `everyday` according to Gilli.
-- Exact action behind Ghostt's `She set me up for it 😂` remains media-dependent.
-- Zoshaa's elderly target remains unidentified; do not assign Snow from vibes.
-- Lilly's pout carpet remains one-scene Wall texture, not a recurring character trait.
+- Hana/Hanae exact join/reapply chronology.
+- Wolf Officer-doodle exact exchange, Mugen response, slot/pose, final image, and creator chain.
+- Effie MAIN publication pending a functioning verification runner.
+- Tony/Marian screenshot interiors and deeper provenance.
+- Stink-Off and fake-divorce screenshot interiors.
+- Snow body-loss image pixels and exact Dragon Raja mechanic.
+- POSTED BY / MADE BY / CAPTURED BY / FEATURING remain separate.
 
 ## Surface ownership
 
-- **WIKI only:** CANNIBALISM?? Or the Seal? is a compact, bounded incident with a clean setup/pivot/payoff and belongs naturally in Episodes/Season 2021.
-- **MAIN:** no new reader-facing lore was necessary from these packages. Han's Wall self-mythology and the richer Tae/Gabu/Ghostt character material already have stronger public owners; the correct MAIN action is recovery-state advancement, not duplicate incident prose.
+- **MAIN intended:** Effie, because the material coheres into a person biography. Publication was rolled back solely because MAIN's verification runner never started.
+- **WIKI already owns:** Stink-Off Hearings, Snow's van of bodies, and the broader Panda/Eos fake-marriage/divorce running gag. This pass deliberately did not duplicate them.
+- **Held for stronger form:** Wolf/Mugen doodle scene and Tony/Marian repeat filing.
 
 ## Verification / publication
 
 ### WIKI
 
-Reader-content head `bebd8b99315f0fe7cfd1456d680cb69ca8de36f2` contains **CANNIBALISM?? Or the Seal?** and wires it into the Episode index, direct Episode route, and Season 2021.
+Reader head `88076cf0296aadd0d593f25dc5d1538f0ac2f7ce` contains the current 03:14 Wall running-gag integrations.
 
-- **Build Underlords Wiki** run `33304991418` — **success** at exact reader head.
-- **Deploy Underlords Wiki Preview** run `33304991407` — **success** through Pages deployment at exact reader head.
+- **Build Underlords Wiki** run `33306826808` — success.
+- **Deploy Underlords Wiki Preview** run `33306826809` — success through Pages deployment.
 
-This integration-state commit must itself pass the same native Build and Pages workflows before this continuation is reported fully closed on WIKI.
+This durable-state commit must itself pass the repository's native workflows before the pass is reported fully closed on WIKI.
 
 ### MAIN
 
-MAIN had no new reader-facing lore change from the 18:46–20:46 recovery sequence. Its native workflow is presently failing before runner allocation on state/report pushes (`Build + verify` has no executed steps / runner id `0`, and deployment is skipped), so this is a GitHub execution/allocation blocker rather than a source-verification, Astro-build, or built-output failure. No unsafe MAIN deployment is claimed.
+No reader-facing MAIN change remains at close. The accepted Effie profile commit `a7909bcf25de7dd085ee19eb79dafc75d2faabab` triggered exact-head workflow `33307214665`, but the job failed before runner allocation (`runner_id: 0`, no executed build steps); deployment was skipped. The profile was rolled back at `48bf36a74e04ca9b8b93cc50fd62cd9f414f41fe`.
+
+This is an execution/allocation blocker, not a demonstrated source-verification, Astro-build, or built-output failure. No unsafe new MAIN deployment is claimed.
 
 ## Consumption close
 
-Finite miner debt remains **zero**. Wall forward review remains through `dca9dc0ed1b67cfdce30395728ba602bd26b4fdd`. Historical recovery is reviewed through **20:46**, with **21:46 next**; formal Wall `last_consumed_sha` remains null while the older cumulative floor stays open.
+- Mugen person-first: consumed through `4cb46f8970e98687a21ba71162d0d40210bd75aa`.
+- Whiskey: reviewed through `becfa8f3bc1a244597107a52a3272690a39242d6`; consumed remains `6cd5f9daeb20d77fad20e3cd7465ec938411993d` because accepted Effie publication did not pass verification.
+- Wall: forward-reviewed through `fdb16356e730e29c22760af3cd00cf38e377c0b6`; historical recovery through 22:46; formal consumed remains null; 23:46 next.
+- Finite evidence-review debt: **zero**. One reviewed Whiskey delta remains publication-blocked.
