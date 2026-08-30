@@ -1,75 +1,95 @@
 # UL WIKI INTEGRATION STATE
 
-Last integration close: **2026-08-30 07:16 PDT**.
+Last integration close: **2026-08-30 08:02 PDT**.
 
 Full miner consumption state is authoritative on MAIN in `archive-intake/INTEGRATOR_BRANCH_STATE.json`; older WIKI close reports remain in Git history.
 
 ## Current boundary
 
-- Census: **49 tracked miner identities = 28 active remote refs + 21 historical/missing refs**. Opening and closing census both found the same active set and heads; no newly discovered miner branch.
-- Finite evidence-review queue: **0 pending / 0 backlog / 0 review-overdue**.
-- Both Club-Only miners and Core Rooms remain fully consumed/current. The stale recovery instruction in older prompts is therefore not reopened.
+- Census: **49 tracked miner identities = 28 active remote refs + 21 historical/missing refs**. No newly discovered miner branch.
+- Finite evidence-review queue after this close: **0 pending / 0 backlog / 0 review-overdue**.
+- Both Club-Only miners remain fully consumed/current.
+- Core Rooms + Events is consumed through `939420ea85efe05242279aa0f0e56d6b2a519675`.
+- Louvre / AI Art / Athenaeum / Other Games is consumed through `e46669962529e89958a4671a3721b9c49db63444`.
+- Mugen person-first is consumed through `cd143c565bf5b8d7ea8524457718b174fabe571e`; its fresh suffix produced no new Mugen public promotion.
 - `archive-miner/whiskey-longitudinal-hourly` remains **publication-blocked**: reviewed through `becfa8f3bc1a244597107a52a3272690a39242d6`, consumed only through `6cd5f9daeb20d77fad20e3cd7465ec938411993d`. Hard correction remains: account `488099199938986004` / `sycessences` / `ƐℲı˥` is **Sye/Life, not Effie**.
-- Wall forward review remains current through `87ba11f8967fc0fd05b66f5e60d72e1ddaca11c4`. Historical safe-baseline recovery is now reviewed through **2026-08-26 03:46**, with **04:46 next**. Formal Wall consumed SHA remains null while the older cumulative floor is open.
+- Wall forward review is current through `b2be5336be9a04f888cebf2075cdc204f58126c2`. Historical safe-baseline recovery remains through **2026-08-26 03:46**, with **04:46 next**. Formal Wall consumed SHA remains null while the older cumulative floor is open.
 
 No miner branch was merged or cherry-picked wholesale. No raw archive was re-mined.
 
-## This close — Wall 03:46: the Emotional Support Collection starts resolving back into humans
+## Public additions in this close
 
-Historical Wall recovery advanced one bounded handoff package, checkpoint-first and intake-only, from the prior **02:46** frontier through **03:46**.
+### Wall of Fame, But Make It a Threat
 
-The strongest genuinely new material is a relationship-map decode inside Gilli's already-known 2023 `~Emotional Support Collection~`. Stable account/nickname joins resolve two previously opaque collection nouns:
+March 13, 2021 finally gives the Shame/Fame name an early live-use receipt rather than another naming-conversation footnote. Ren POSTS an uninspected image; Baby Lyssa immediately goes `NOOOOO` / `NONONONO`; Ren labels the filing `*wall of fame*`; Baby Lyssa says `delete that now`; somebody else adds `Caught in 4k`.
 
-- **Pond → DyingFox** (`471370475050762251` / `dyingfox`)
-- **Pie → Cele** (`745353665149141144` / `celeana`)
+The emotional mechanics are wonderfully rude. Baby Lyssa's panic lands before Ren's category label, so when `Fame` appears it is not neutral taxonomy and certainly not wholesome praise. It is the room smiling while the apparent target is already trying to get the exhibit removed. That makes this the earliest surviving **post-level explicit Fame label currently recovered** after the 2020 naming negotiation — not the origin, not proof Ren invented the usage, and not evidence that Fame always meant embarrassment. The later June 16 `No shame here, only fame and cuteness` remains the cleaner positive-Fame receipt.
 
-`Pizza Dough → Trebach` was already known and is corroborative only.
+Reader commit: `5a210a67181294a417b1d975a34f9f63508d5314`.
 
-The chronology brake matters. These are exported nickname-state identity joins, not historical nickname-assignment timestamps. DiscordChatExporter can render later/current nickname state inside older message objects. The public story can therefore say who Pond and Pie resolve to; it **cannot** claim when Gilli coined either label, when either person first carried it, or that the labels are literal ownership, kinship, romance, guardianship, support status, or a ranked closeness graph.
+Exact-head verification:
+- **Build Underlords Wiki `33318174170` — success**.
+- **Deploy Underlords Wiki Preview `33318174138` — success**.
 
-The useful social read is still deliciously obvious: Gilli's collection is not merely a list of mysterious nouns anymore. At least some of the nouns are affectionate labels attached to actual people, which makes the old UL habit of turning relationships into visible infrastructure even more literal. The family tree did not just escape into profiles; it apparently started assigning inventory names.
+Attribution stays sealed: Ren POSTED the image. MADE BY / CAPTURED BY / visual FEATURING remain unresolved; Baby Lyssa is only probably implicated from the live panic/delete chronology, not from pixel inspection.
 
-This now has a discrete WIKI Episode owner: **Gilli's Emotional Support Collection Is Apparently People**, reader commit `f9c57d234e973fdf40edb9c16f5d3375a4f4583b`.
+### Don't Worry, Your Account Is on Vacation
 
-That exact reader commit passed:
-- **Build Underlords Wiki `33316311292` — success**.
-- **Deploy Underlords Wiki Preview `33316311290` — success**.
+The late Core suffix resolved a previously missing return-status reply for LilithEl. LilithEl comes back after not playing for a long time and says she does not even know whether she is still in UnderLords. Mugen TRUE-REPLIES to that exact uncertainty: `Dw bb I saved your account on vacation uwu`.
 
-### Dedupe: Lilly was already home
+The sentence does two jobs at once. `I saved your account` is active-maintenance language: Mugen is not merely saying *of course we remember you*, she is saying she had done something to preserve the account/state during the absence. Then `Dw bb` and `uwu` wrap the administrative answer in reassurance. The scene therefore gives us an unusually human little piece of period practice: at least for LilithEl, long inactivity had been deliberately parked rather than treated as automatic erasure, and the returning player was reassured that somebody had remembered where she was parked.
 
-The same 03:46 handoff resurfaced Lilly's October 8, 2020 Wall sequence: she tells Danny to `stop simping over the girls here`; Ansun welcomes her to `our humble abode`; Lilly answers `heheheheh thank you`; Ren arrives with `LILLYYYY`; Lilly answers `I LOVE YOU`.
+What `vacation` technically meant in late 2020 remains unresolved. The wiki does not turn one sentence into a formal policy, does not back-fill a Discord role from exporter/current state, and does not claim an in-game mechanism that the receipt does not name.
 
-That is good person texture, but it is **not new public work**. Lilly's existing WIKI biography already owns the scene at full character depth, including the exact social rhythm and the safety brake against turning one Danny joke into a standing moderation role or one all-caps `I LOVE YOU` into romance canon. No duplicate Episode was created.
+Reader commit: `2b876d3c4cdb09d0a46614d8b209a60bd92d8953`.
 
-### Hold: Daddy Ansun still needs the missing reason
+Exact-head verification:
+- **Build Underlords Wiki `33318343810` — success**.
+- **Deploy Underlords Wiki Preview `33318343782` — success**.
 
-`Daddy ansun shall be your new nn` remains a one-shot proposed nickname true-replying to Ansun's `A mistake was made` image. The parent image is still uninspected and no recurrence establishes a durable alias. It stays a rabbit hole, not a profile label.
+## Concurrent work reconciled, not photocopied
 
-The remaining Gilli collection nouns **Pebble, Apple, Empress, Tree, Jewel, Pillow, Fire** remain unresolved unless a stable-account join, explicit contemporaneous text, safe nickname-change receipt, in-frame screenshot, or user-confirmed bridge resolves them. Ordinary generic noun mentions do not count.
+Several strong miner keepers landed safely from concurrent integration while this close was running, so they were treated as existing canonical WIKI owners rather than rewritten into slightly different twins:
 
-## Concurrent work reconciled rather than overwritten
+- **The Photoshoot Event Reaches the Finish Line** — Core's December 12, 2021 event sunset / closing credits. Mugen says Winter is the last Photoshoot Contest unless popular demand brings it back after reduced recent interest; the room thanks the team and Mugen credits `gilli/ana` with the principal idea, Anthos with promo posters and Gabu with reminder bots. `Ana` remains probable/high Anayss from adjacent self-reference, not a new hard alias lock. Public episode originated at `4695440c230b4d1f9c3942bdfbf33cb0d53e3659`, then was wired/exposed by `f7528d501aac0ddc7f3361d0e7bbb5d7cd707138` and `a4f7b8cce25c00f64b3bc76896102706f5039d17`.
+- **Apparently Everybody Has a Thing for Cephalopods** — the May 11, 2024 Sye/Moon/Momo/Rummy one-afternoon Squidward spiral. Direct-text checking keeps it a one-scene absurdity rather than a permanent UL motif. Same concurrent episode commit family as above.
+- **Don't Listen to Her... RUN** — D.I.'s character montage was already public at `93adf2f62e3026a01192aea91626ad824a6e0a6e`: Gilli's mock-punch after his sabotage, sustained superhero-comics/game fluency, and the later *Demon Slayer* knowledge gap. The useful read is specific nerd fluency plus resident-gremlin ease, not all-fandom omniscience.
+- **Welcome Back From Vacation. Here Is Your Evidence.** — HamitteY's saved screenshot → Baby Lyssa mock-betrayal → `Sorry not Sorry` → only then `welcome back from vacation`, already public at `c1e388d8b35e5b33b12b109fe7532a192d0ac72c`.
 
-While this run was operating, another integration close safely advanced the publishing branches. The current public state was re-read before edits, and its work was preserved rather than replaced.
+No duplicate Episodes were created for those evidence families.
 
-That concurrent close had already fully reviewed and consumed All Characters through `7560583c7dfad92b832539256370ebfe470974c5`, publishing **Ghostt Quits Raja, Not the Room** after Ghostt explicitly separated quitting Dragon Raja from staying in Discord and peers visibly reacted to the social half surviving. It had also reviewed Wall forward through `87ba11f8967fc0fd05b66f5e60d72e1ddaca11c4`, deduplicating the already-public **Candy Starts the Moo Virus** and **Don't Do Drugs, Kids** episodes.
+## Reviewed / banked without forced public stubs
 
-This close therefore did not reread or remint those families. The only new Wall recovery frontier moved was the older **03:46** package.
+Core also advanced several useful but better-owned bits that should remain available for later richer integration rather than spawning thin pages:
+
+- Anayss proposes a whole-week event calendar so new people can understand timing/points, Ren supplies the Mon–Sun skeleton, and Wolf volunteers to build/rotate weekly and special posters. The strong read is Anayss as a systems translator who anticipates newcomer confusion and operational traps. Her Thursday-vs-Tuesday CoS statement is an explicit source contradiction and remains unresolved.
+- `nerd Ana did math` gives Anayss event-threshold / turnout / recruitment logistics texture and strengthens the probable Ana≈Anayss read without making it a hard identity bridge.
+- Ren's year-end retrospective thanks Officers for `team works, headaches and messy plans` and the `family we created`; Mugen answers with crunch-time persistence and `Lezgo one more year fam`. Nearby personally sensitive autobiographical replies remain private and were not imported.
+- Snow self-reports speaking Cantonese and Taishanese and being unable to read them. That can support language texture only; it does not establish ethnicity or nationality.
+- Souta's `unofficial rule of UL, no relationship drama` / `You strippers not lovers get money not hearts` stays an unofficial joke/norm, not formal governance.
+- Lucifer's `Asialovesyou` is a confirmed participant-authored historical name string and likely period IGN/door identity; the exact requested onboarding field remains unrecovered.
+- Abie's December 2020 `Bonus` cluster remains a tiny probable good-humored participation snippet. Mugen POSTED the image; Abie's later laughter is not a true reply; pixels and stronger provenance remain unresolved.
+
+Mugen person-first's fresh delta was a clean **reviewed / no-public-change** suffix. The lower evidence threshold was applied; the material simply did not materially change the Mugen person model beyond already-owned scenes.
 
 ## MAIN publication asymmetry
 
-No new MAIN reader-facing copy was introduced in this close.
+MAIN is intentionally reader-unchanged in this close.
 
-MAIN already owns the broader Gilli collection phenomenon richly, including the 2023 profile screenshot and the way `Gilli's <noun>` labels escaped into member display names. The newly resolved Pond/Pie identities would be a sensible surgical enrichment there, but MAIN's native verification workflow is still failing **before any substantive step receives a runner**. The latest inspected `UL Hourly Build + Deploy` job reported `runner_id: 0` and an empty `steps` array for `Build + verify`; deployment was skipped. That is an execution/runner-allocation blocker, not evidence that source verification, Astro build, or built-output verification failed.
+Its native `UL Hourly Build + Deploy` workflow is still failing **before a runner executes any substantive verification step**. Census repair commit `1f10836273aae3e67c9244c63996a91f0b61e160` triggered run `33317915664`; attempt 1 failed `Build + verify` with no steps and skipped deployment. The failed run was immediately rerun; attempt 2 failed the same way, again with `steps: null`, and deployment was skipped.
 
-The same blocker keeps the accepted Whiskey ordinary-life material queued for **Sye/Life** instead of publishing it under the miner's incorrect Effie label. The material remains accepted: pizza follow-through to ShiyaX, repeated boba fussiness, the folk-metal appeal, awkward eye-doctor flirt self-report, `come meet your neighbors`, pandemic-era gym avoidance around poor distancing, named morning greetings, and ordinary work-complaint validation. Identity hard lock controls: **Sye/Life, not Effie**. No orientation, nationality, employer, medical vulnerability, or relationship status is inferred from those scenes.
+That means source verification, Astro build and built-output verification never actually ran. This remains runner allocation/execution failure, not evidence that MAIN source failed validation. No unverified reader copy was slipped onto `master`.
+
+The same blocker keeps the accepted Whiskey ordinary-life material queued under the correct owner **Sye/Life**, not Effie. MAIN-appropriate Core enrichments are likewise banked until the verifier can actually exist in physical reality for several consecutive seconds.
 
 ## Holds / safety
 
 - Wall historical recovery: **04:46 next**; formal consumed remains null until the cumulative older floor closes.
 - Whiskey/Sye remains publication-blocked on MAIN through reviewed miner head `becfa8f3bc1a244597107a52a3272690a39242d6`.
 - `sycessences` / `ƐℲı˥` = **Sye/Life, not Effie** remains hard canon.
-- Pond = DyingFox and Pie = Cele are identity mappings at exported-nickname/stable-account level; assignment dates and origin are unresolved.
-- Lilly's October 2020 Wall scene is already publicly owned and was not duplicated.
-- `Daddy Ansun` is one proposed nickname around an unresolved image, not an alias.
+- LilithEl `vacation` operational implementation remains unresolved.
+- Anayss's Thursday-vs-Tuesday CoS statement remains an explicit contradiction, not something to harmonize by vibes.
+- NEMESIS JANE's planned VIP→full-access execution remains unrecovered.
+- MzBwitch's Dragon Raja `soulmate /hubby` referent remains probable/high Woohyuk, not confirmed.
 - Pooled Deleted User remains quarantined.
 - Earliest surviving is not origin. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain separate.
