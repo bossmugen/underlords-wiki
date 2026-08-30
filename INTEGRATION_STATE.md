@@ -1,6 +1,21 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-08-30 14:42 PDT_
+_Last updated: 2026-08-30 14:44 PDT_
+
+## 14:43 reconciliation refinement — Snow's filing race stays one story
+
+The January 11–13, 2021 Wall delta was reconciled against the already-public running gag **`Beat Them to the Wall`** before close. A temporary standalone Snow Episode was removed once the existing owner was identified; the new material now deepens that one gag instead of creating a historical duplicate.
+
+The added continuation is the useful part: Snow says she is `waiting in the wings for ppl to forget about the illegal boobaa cc thing before I try and make another cc`; roughly forty-eight seconds after the Officers sequence, Ansun POSTS a new screenshot to the Wall and Snow immediately yells `She put it in here!!!`. Two days later Kiki asks who puts most of Snow's shame in the hall; Remy answers `Me`, then `Ansun`, and Kiki replies `I shoulda fuckin known`. That supports recognizable repeat-filer reputation and the joke that Snow's hoped-for reputation cooldown could be defeated by filing speed. It does **not** create a formal archivist title, quantify archive-wide authorship, or identify the screenshot maker/capturer/subject beyond Ansun's surviving POST.
+
+Final reconciled reader head `ecb779e409f65e2ce0573523b232ca63858bbce5` includes the gag deepening with the duplicate Episode removed.
+
+- **Build Underlords Wiki** run `33337141807`: Astro build **success**.
+- **Deploy Underlords Wiki Preview** run `33337141736`: Pages build/deploy **success**.
+
+This state commit becomes a newer exact `main` head and must pass its own native Build + Pages chain before final reporting.
+
+---
 
 ## Latest dual-surface pass — 14:30 integration close
 
