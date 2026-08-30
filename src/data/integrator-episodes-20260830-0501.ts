@@ -72,5 +72,14 @@ export const early0501IntegratedEpisodes: Episode[] = [
     kind: "Game exit / social continuity becomes the thing people are actually tracking",
     logline: "Ghostt says the part that matters with almost no ceremony: `Imma still be in discord just not playing raja anymore`. The room's response makes the sentence much bigger than a personal status update. Tae visibly relaxes once Ghostt clarifies that Discord is staying, while Jordayy calls the exchange a roller coaster of emotions. The emotional order is the whole episode: peers react to the possibility of losing Ghostt, then calm down when they learn the game participation is what is leaving. That makes the later forgotten-club and uninstall jokes easier to read at human scale. Dragon Raja can fall out of the biography without Ghostt falling out of the room. This is not formal membership chronology, and the wiki does not turn one scene into a legal definition of UL status. It is simpler than that: when Ghostt separates `playing Raja` from `still be in discord`, the people around him visibly care which half survives.",
     cast: ["Ghostt", "Tae", "Jordayy"]
+  },
+  {
+    id: "gilli-emotional-support-collection",
+    title: "Gilli's Emotional Support Collection Is Apparently People",
+    season: "2023",
+    date: "April 21, 2023",
+    kind: "Profile archaeology / relationship jokes escape into the furniture",
+    logline: "Gilli's Discord profile already reads like a storage system designed by somebody who has mistaken friendship for inventory management. Under `~Emotional Support Collection~` she lists Pebble, Apple, Empress, Pond, Tree, Jewel, Pie, Pizza Dough, Pillow and Fire. The April profile screenshot proves the collection itself; later stable-account nickname joins let two of the opaque nouns be put back onto actual humans without pretending we know when the labels were coined: **Pond is DyingFox, and Pie is Cele**. Pizza Dough had already been tied to Trebach elsewhere. The exact assignment dates remain missing, so this is a relationship-map decode rather than an origin story. What matters is the social mechanism: UL's old family-tree instinct has leaked out of diagrams and into member identity itself. Gilli does not merely have people she jokes with; by 2023 she has apparently organized some of them like a Pokémon box with emotional-support item names. None of the labels are literal ownership, kinship, romance or a closeness ranking. They are better understood as affectionate house shorthand that became visible enough to live in profiles and nicknames — the joke becoming infrastructure again, because of course it did.",
+    cast: ["Gilli", "DyingFox", "Cele", "Trebach"]
   }
 ];
