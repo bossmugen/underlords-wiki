@@ -1,6 +1,64 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-08-30 14:44 PDT_
+_Last updated: 2026-08-30 15:30 PDT_
+
+## 15:14 dual-surface integration — the challenge room is not Officer-only, Panda gets grounded forever, and the Wall has a race condition
+
+The lower-evidence-threshold rule remains binding: hard canon, resolved identities, privacy/safety, explicit contradictions, formal-role chronology, and attribution boundaries stay hard; strong contextual human reads are publishable when the surrounding evidence makes them more likely than not.
+
+### Shared miner census / queue
+
+- **49 tracked miner identities** = **28 active remote refs + 21 historical/missing refs**; **0 newly discovered** in the mandatory opening census.
+- The opening census caught two finite branches advanced after the previous close: `archive-miner/core-rooms-events-a91f-20260824` and `archive-miner/daycare-2020-2026-hourly`. Their current heads were written into MAIN branch state before deep review.
+- Closing race-checks caught additional movement rather than freezing the opening snapshot: Core was reviewed through final checkpoint head `c457816562af7f2aaaaf3e79547855a9e236c1ac`; Daycare through `2c3e01fdcc74f4ff760da1535e61d1d34ed0c8b0`; Wall forward through `8d200670e45eb756ddd6c33f590c09c1a2bffcf0`; Whiskey through `e30ab7bfbed2ba382c7c3cfee22f0326bdde0cde`.
+- Both Club-Only recovery branches remain consumed/current: `archive-miner-clubonly-2020-hourly` through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`; `archive-miner/club-only-2021-2026-hourly` through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`.
+- Wall remains cumulative recovery, so formal `last_consumed_sha` stays null. Historical recovery is still safely through exact bounded **2026-08-26 12:46 PDT; 13:46 next**; no intake-local 13:46 handoff surfaced and raw archives were not re-mined.
+- Whiskey remains partially publication-blocked on MAIN because earlier accepted Sye/Life material still has not cleared MAIN's verifier. Hard identity correction remains **`sycessences` / `ƐℲı˥` = Sye/Life, not Effie**.
+- No miner branch was merged or wholesale cherry-picked into either publishing branch.
+
+### New public integrations
+
+**`😈│ul-officers-challenge` — the title is misleading in exactly the useful way.** Ansun's February 19, 2022 clarification explicitly says Officers Challenge is `for anyone to participate in`, explains that different Officers host different challenges, and invites suggestions by DM/tag. A March 27 announcement says a new challenge is **from Sye/Life** and that any pinned challenge remains open for participation `anytime`. The Domains page now treats the room as a standing challenge shelf: Officers supply/host the dares; the accessible audience participates asynchronously. `Anyone` is not expanded into public-internet access, and pinned-open is not inflated into every challenge staying open forever. Attribution stays exact: Ansun announces; the March 27 challenge is explicitly from Sye/Life.
+
+**Daycare — Lilly burns moki's kitchen, then remembers manners.** On January 4, 2021 Lilly issues an Eli action `burns down moki's kitchen`; Eli generates the elaborate butter-and-gasoline narration; Lilly immediately follows with `Sorry moki`. The Domains page keeps authorship straight: the bot wrote the theatrical output, while Lilly supplied the arson-shaped command and the apology. One scene does not become a recurring Lilly–moki feud. It is simply an excellent Daycare specimen: commit domestic nonsense first, apologize to the homeowner second.
+
+**`Beat Them to the Wall` is now a confirmed recurring race mechanic, not one Snow/Ansun pocket.** Direct `beat me to it` language now repeats from Rookie Cookie in November 2020, Mugen in April 2021, Baby Lyssa in August 2021, Ren in February 2023, Xuseio in April 2023, and DarkAsrai the next day. The cleanest receipt is Ren: Gilli files first, Ren yells that she lost the race, then posts her own exhibit **3.972 seconds later anyway**. There is no prize and apparently still a finish line. The gag now reads as what it is — informal competitive participation in the prosecution — without inventing a formal Wall office, staff duty, or origin date.
+
+**Panda — `The Eternally Grounded Panda`.** Whiskey's newly advanced person pass gives Marian Kage / Panda a wonderfully ordinary late-May→June 2021 run. Ren tags Marian; Marian blames Ren's bad puns. Marian later protests `WHY AM I GOUNDED???? I'M OLDER THEN YOU`; the next morning the recurring partner becomes clearer when Marian tells Ren to `just name me the Eternally Grounded Panda`, then immediately reports that a whole box of mac & cheese for lunch has left them `soooo fucked up right now`. Two weeks later Marian says Ricochet got the Cheesecake Factory order `but no cheesecake`. The Episode keeps the grounding as joke-language, the Ren dynamic as probable recurring playful familiarity, and the Ricochet moment as a direct practical food favor — no fake authority, romance, cohabitation, payment, or delivery lore. The funny part is the continuity of attention: punishment bit, lunch mistake, and cheesecake failure all belong to the same room because the room is simply there while life happens.
+
+### Strong reviewed material held for the right owner
+
+- `.M a t s u./ Akuma` stable `357245154123579392` now has a strong developing person file: 2020 `Sebno / S10 / Underlords or previously Rebellation (merge) / 17`, first-day Club-Only amusement at the number of bot commands, and a 2021 same-stable `神Nyx道 / Abaddon / 18` form. The Rebellation→Underlords merger-background read is probable/high, but exact merger mechanics, the name/character-slot transition, and the Underlords→Abaddon chronology remain unresolved. Historical minor/adult boundaries stay hard. This deserves a proper Cast owner rather than being stuffed into a doorway Episode.
+- The broader late-2020 Lobby increasingly reads as an **inter-club social foyer**: UnderOath, an xChaos deputy, Forsaken, Zero.Wing, FireLegacy and other outside-club identities can pass through while retaining their own affiliations. This is strong social-space texture, **not** evidence for a formal alliance network.
+- Whiskey's same closing movement makes **Meowk = Alkey probable**, based on stable account `itsalkey`, ShiyaX's unique authored `ALKEY` use in the same H1 corpus, and tight local chronology. Identity-risk discipline still applies: it is not upgraded to hard-confirmed without a stronger bridge, and **Key ≠ Alkey** remains absolute.
+- Marian's `gilli stole us all` is a strong people-collector/recruitment-joke lead, but the missing `us` still matters. It stays a rabbit rather than literal recruitment history.
+- Wall's Keon now has a narrow probable dry-gallery-heckler read from five authored messages, but that is too thin to globalize into whole-person canon.
+
+### Duplicate / conflict reconciliation
+
+- Daycare's broader Fox/Lilly greeting material corroborates the already-public **Good Morning, Fox. I Love You.** owner and was not duplicated.
+- Wall source-credit material and Snow's filing-race reputation remain folded into existing provenance/gag owners rather than spawning derivative micro-pages.
+- The new Wall recurrence deepens **Beat Them to the Wall** rather than creating a second race Episode.
+- Officer Challenge announcements preserve SAID/POSTED BY Ansun versus challenge FROM/HOSTED BY Sye/Life. POSTED BY / RECEIVED FROM / VIA / MADE BY / CAPTURED BY / FEATURING remain distinct jobs everywhere else.
+- Meowk/Alkey remains probable rather than being hard-merged from handle resemblance; Key remains a separate person.
+
+### Verification / deployment
+
+First reader head `3e7e5e1a546529b04047de259e4d5523e98f141c` contains the Domains + Wall gag deepening:
+- **Build Underlords Wiki** run `33339066880`: Astro build **success**.
+- **Deploy Underlords Wiki Preview** run `33339066852`: Pages build/deploy **success**.
+
+Second reader head `0de33778e814beee83c5a6499be24634bd27e1ef` adds **The Eternally Grounded Panda**:
+- **Build Underlords Wiki** run `33339178191`: Astro build **success**.
+- **Deploy Underlords Wiki Preview** run `33339178227`: Pages build/deploy **success**.
+
+This durable-state commit creates a newer exact `main` head and must pass its own native Build + Pages chain before final reporting.
+
+### Surface split
+
+**WIKI** owns the Officer Challenge location explanation, Daycare kitchen micro-scene, Wall race-gag deepening, and Panda Episode because these are clean reference/character-story owners. **MAIN** intentionally gets no photocopied reader prose while its required verifier remains infrastructure-blocked; MAIN receives the shared branch-consumption board and durable integration report instead. The previously accepted Sye/Life material stays MAIN-owned rather than being laundered through WIKI merely because WIKI can currently complete a build.
+
+---
 
 ## 14:43 reconciliation refinement — Snow's filing race stays one story
 
