@@ -1,6 +1,45 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-08-30 15:38 PDT_
+_Last updated: 2026-08-30 15:42 PDT_
+
+## 15:42 dual-surface recovery — Plushie learns the Wall in eight and a half minutes
+
+The project-wide lower-evidence threshold remains binding. Hard canon, resolved identities, privacy/safety, explicit contradictions, formal-role chronology, and attribution fences remain hard; strong contextual human reads remain publishable when the surrounding evidence makes them more likely than not.
+
+### Shared miner census / queue
+
+- **49 tracked miner identities** = **28 active remote refs + 21 historical/missing refs**; **0 newly discovered**, **0 finite pending**, **0 backlog**, **0 overdue**. The mandatory closing race-check found every active miner head unchanged from the opening census.
+- Both Club-Only recovery branches remain consumed/current: `archive-miner-clubonly-2020-hourly` through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`; `archive-miner/club-only-2021-2026-hourly` through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`.
+- Wall forward review remains current through `e3047623f8b61ca757963858db3ab3c40691c45a`. Checkpoint-first historical recovery advanced from the previously recorded **2026-08-26 12:46 PDT** boundary through clean intake-local handoffs for **13:46, 14:46, and 15:46 PDT**. **16:46 is next.** Formal Wall `last_consumed_sha` remains null while cumulative recovery stays open. No raw archive was re-mined.
+- Whiskey remains partially publication-blocked on MAIN. Its reviewed head remains `e30ab7bfbed2ba382c7c3cfee22f0326bdde0cde`, but formal consumed SHA remains `6cd5f9daeb20d77fad20e3cd7465ec938411993d` because earlier accepted Sye/Life material still has not cleared MAIN verification. Hard correction remains **`sycessences` / `ƐℲı˥` = Sye/Life, not Effie**.
+- No miner branch was merged or wholesale cherry-picked into either publishing branch.
+
+### New public integration
+
+**The Wall Explains Itself in Eight and a Half Minutes.** On October 19, 2020 Plushie asks what the channel is for. Rooks answers `When we catch people say dumb stuff uwu`; Plushie returns a neat little `Okie doki`. Roughly eight minutes later Rooks warns the room to move the chatter to Whiskey before Snow comes after everyone, and Plushie immediately produces `Snow u saw nothing UwU`. The first reply is comprehension; the second is fluency. Plushie has earlier Wall presence, so this is **not** an origin or first-arrival claim, and the exact thing Snow supposedly should not see remains unrecoverable. What the scene does show beautifully is how fast the Wall's social grammar could be picked up and performed: ask what the room does, receive one sentence of instruction, and eight and a half minutes later attempt evidence suppression in the local dialect.
+
+WIKI `src/pages/locations.astro` now owns this as compact Wall-location texture at reader head `682fc6c86675e882534f77b67c08450866f72fa4`.
+
+### Duplicate / conflict reconciliation
+
+- The **14:46** Key exchange (`Why is this still here? Lol` / Mugen: `Litrally started it ^`) already lives in Key's existing dossier. It is corroboration, not a new Episode; the upstream image/snapshot remains unresolved.
+- The **15:46** Tofu/Cookie recurrence (`LITERALLY SCREENSHOTTING FOR THE WALL`; next day `onto the wall of SHAME!!! tis goes`) already lives in Relationships under their reciprocal-exposure dynamic. It deepens the same affectionate evidence-war grammar without cloning another owner.
+- The **13:46** Eos `Got him again`, Daya stair-death `again`, and Aesh `van gogb` origin leads remain unresolved because the missing first instances are still missing. The **15:46** absent `nice pussy` speaker likewise stays absent; Jaesu's reply context does not identify the speaker.
+- POSTED BY / SAID BY / MADE BY / CAPTURED BY / FEATURING remain distinct attribution jobs. No uninspected image was reconstructed.
+
+### Verification / deployment
+
+Reader head `682fc6c86675e882534f77b67c08450866f72fa4` adds the Plushie Wall-orientation Location beat.
+- **Build Underlords Wiki** run `33340062554`: Astro build **success**.
+- **Deploy Underlords Wiki Preview** run `33340062559`: Pages build/deploy **success**.
+
+This durable-state commit creates a newer exact `main` head and must pass its own native Build + Pages chain before final reporting.
+
+### Surface split
+
+**WIKI** gets the reader-facing Plushie addition because this is compact Domain/Location texture: a tiny scene showing how the Wall taught people how to behave inside it. **MAIN** intentionally gets no mirrored reader paragraph; it receives the shared recovery state/reporting, while its required verifier remains infrastructure-blocked. The 14:46 Key and 15:46 Tofu/Cookie material stay with their existing WIKI owners rather than being multiplied into derivative pages.
+
+---
 
 ## 15:30 dual-surface close — Vanness prosecutes themself, Syv bargains with ochem, Mugen loses another filing race
 
