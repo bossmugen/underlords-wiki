@@ -3,12 +3,12 @@ import type { Episode } from "./wiki";
 export const wall1930Episodes: Episode[] = [
   {
     id: "eos-too-vanilla-to-shame-marian",
-    title: "Eos Is Too Vanilla to Shame Marian",
+    title: "Eos Is Too Vanilla to Shame Panda",
     season: "2021",
     date: "July 7, 2021 → February 1, 2022",
-    kind: "Wall relationship arc / Marian requests more aggressive prosecution and receives clerical disaster instead",
-    logline: "Marian's problem is not a shortage of evidence. In July she says she has said plenty that is Wall-worthy, but `eos is too vanilla to shame me`. By November she has given up waiting and posts `self shaming, cause eos is too vanilla`. Then February produces the perfect reversal: messages appear under Marian's account, Marian clarifies `no, it's eos` and `she's on my account`, asks Eos `why are you getting me shamed`, and Eos answers `i typed in the wrong account- eifsenf`. Marian spends months wanting a harsher Wall prosecutor; Eos finally gets her shamed by administrative accident. The scene establishes Eos using Marian's account in this incident only. It does not establish routine credential sharing, cohabitation, romance, permanent account access, or the contents of Marian's still-uninspected November screenshot.",
-    cast: ["Marian", "Eos"]
+    kind: "Wall relationship arc / Panda's historical Marian Kage display requests more aggressive prosecution and receives clerical disaster instead",
+    logline: "Panda, posting under the historical display `Marian Kage`, has a problem that is not a shortage of evidence. In July he says he has said plenty that is Wall-worthy, but `eos is too vanilla to shame me`. By November he has given up waiting and posts `self shaming, cause eos is too vanilla`. Then February produces the perfect reversal: messages appear under Panda's account, Panda clarifies `no, it's eos` and `she's on my account`, asks Eos `why are you getting me shamed`, and Eos answers `i typed in the wrong account- eifsenf`. Panda spends months wanting a harsher Wall prosecutor; Eos finally gets him shamed by administrative accident. The scene establishes Eos using Panda's account in this incident only. It does not establish routine credential sharing, cohabitation, romance, permanent account access, or the contents of Panda's still-uninspected November screenshot.",
+    cast: ["Panda", "Eos"]
   },
   {
     id: "rummy-chucken-was-amazing",
@@ -79,8 +79,8 @@ export const wall1930Episodes: Episode[] = [
     season: "2021",
     date: "September 22, 2021 → May 14, 2022",
     kind: "Wall relationship callback / participant memory resolves Fame to a proposal and the proposal joke keeps reproducing",
-    logline: "While the room is trying to remember whether the Fame half of Shame/Fame ever actually got used, Marian supplies the missing noun: `when i posted eos' proposal to me`. Gilli immediately concludes `That means Eos was our first Fame moment`; Marian says it `should get an award for that`. The important boundary is memory, not archaeology — this tells us what the room later remembered as Eos's first Fame moment, not that no earlier positive filing existed. Then May 2022 proves the proposal language was not a one-off: Marian posts an image and asks Eos `WILL YOU MARRY ME????` with the parenthetical `for like the 20th time`. The number is comic exaggeration, but the recurrence is the joke's actual payload. Keep this as recurring fake-proposal / marriage-language between Marian and Eos; it does not establish a real engagement, legal marriage, exclusivity, sexuality, or other real-world relationship status.",
-    cast: ["Marian", "Eos", "Gilli"]
+    logline: "While the room is trying to remember whether the Fame half of Shame/Fame ever actually got used, Panda — posting under the historical display `Marian Kage` — supplies the missing noun: `when i posted eos' proposal to me`. Gilli immediately concludes `That means Eos was our first Fame moment`; Panda says it `should get an award for that`. The important boundary is memory, not archaeology — this tells us what the room later remembered as Eos's first Fame moment, not that no earlier positive filing existed. Then May 2022 proves the proposal language was not a one-off: Panda posts an image and asks Eos `WILL YOU MARRY ME????` with the parenthetical `for like the 20th time`. The number is comic exaggeration, but the recurrence is the joke's actual payload. Keep this as recurring fake-proposal / marriage-language between Panda and Eos; it does not establish a real engagement, legal marriage, exclusivity, sexuality, or other real-world relationship status.",
+    cast: ["Panda", "Eos", "Gilli"]
   },
   {
     id: "drink-water-reminder-fails-audit",
