@@ -65,6 +65,15 @@ export const allCharactersIntegratedEpisodes: Episode[] = [
     cast: ["Pride"]
   },
   {
+    id: "pride-boiled-mayo-carrier",
+    title: "Boiled Mayo Leaves the Corporation",
+    season: "2020",
+    date: "August 24, 2020",
+    kind: "Club Only running-language carrier / Pride takes a fake-corporate phrase back into ordinary conversation",
+    logline: "`Boiled Mayo Corp.` is already visible in Staff programming in July, so this is not an origin claim. What August 24 adds is Pride carrying the phrase without the corporate costume: first `boiled Mayo`, then simply `boiled mayo` in ordinary Club Only, with Ren answering `M a YO` and later `It be thick cream`. That makes Pride useful in a different comic gear from High Stakes UNO. There he keeps engineering new failure states until a dumb object becomes a survival sport; here he does almost nothing except re-drop two cursed words and trust the room to know what they mean. The phrase has already escaped its fake company and become portable house vocabulary. Pride is a confirmed early carrier in the surviving record, not necessarily the coiner or creator of the bit, and August 24 is earliest surviving direct Pride use currently recovered rather than certified origin.",
+    cast: ["Pride", "Ren"]
+  },
+  {
     id: "wrong-feli-actual-feli-arrives",
     title: "FINALLY FELI, Twenty Minutes Early",
     season: "2020",
