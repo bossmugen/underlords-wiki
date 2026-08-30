@@ -71,7 +71,7 @@ export const wall1930Episodes: Episode[] = [
     date: "April 13–14, 2022",
     kind: "Wall corpse-logistics sequel / the old body-loss joke survives its own reforms",
     logline: "The 2020 corpse fiasco had eventually produced the confident reform slogan `no corpses is lost anymore lol`. April 2022 finds out how durable that policy was. Rich describes Ansun doing something `in the middle of snow losing the bodies`; TonyTonyChopper arrives with `LOSING THE BODIES??`; the next morning Mugen asks `We lost bodies again?`, then posts an `I brought a lawyer` reaction. Tony later closes with the only reasonable compliance memo: `You gotta be careful with bodies can’t just misplace them like that`. The tiny word `again` is the bridge — whatever exact game mechanics were involved, UL itself recognizes body loss as a repeat failure. These are game/fake-corpse logistics, not literal human remains, and the exact bodies, source game, and Ansun's action remain unresolved.",
-    cast: ["Snow", "Rich", "Mugen", "Ansun"]
+    cast: ["Snow", "Rich", "Mugen", "Ansun", "TonyTonyChopper"]
   },
   {
     id: "eos-first-fame-proposal",
@@ -105,9 +105,9 @@ export const wall1930Episodes: Episode[] = [
     title: "Moo Reaches the Wall in Eleven Minutes",
     season: "2023",
     date: "April 1, 2023",
-    kind: "Wall onboarding / a formal welcome becomes screenshot jail before the welcome message has had time to cool",
-    logline: "The stable `nixin.` account arrives in Lobby under the rendered nickname `мoo`, self-reports IGN `XiIN殿` and club `underlords`, and receives Ansun's formal WELCOME at 15:09:52. At 15:20 Moon posts four Dragon Raja screenshots; at 15:21:26 Moon names `@мoo` among the people she found `doing this to Anjou' statue`. That is about eleven and a half minutes from formal welcome to being named in a Wall evidence package. It is not the Wall speedrun record — earlier years preserve faster cases — which is almost better: by 2023 this is ordinary absorption speed. The four screenshots remain visually uninspected, so the exact statue offense is not invented. The stable account bridges this 2023 Lobby and Wall sequence only; it does not resolve the separate Aug–Sep 2021 `Moo` language to this person.",
-    cast: ["Moon", "Ansun", "Feli"]
+    kind: "Wall onboarding / a formal welcome becomes screenshot jail, then the new arrival turns up in Moon's idea attribution",
+    logline: "The stable `nixin.` account arrives in Lobby under the rendered nickname `мoo`, self-reports IGN `XiIN殿` and club `underlords`, and receives Ansun's formal WELCOME at 15:09:52. At 15:20 Moon posts four Dragon Raja screenshots; at 15:21:26 Moon names `@мoo` among the people she found `doing this to Anjou' statue`. That is about eleven and a half minutes from formal welcome to being named in a Wall evidence package. Hours later, after a second visual package turns into motor discourse, Moon writes `It was all tae,yamiyo and xin ... It was there idea` and then `I forgot feli was in this creativity too`. Because the same stable account had self-reported IGN `XiIN殿` that afternoon, `xin` resolves locally to Moo in this scene. That upgrades Moo from merely present in the evidence package to one of the people Moon later credits with the idea in the extended creative/motor incident. It is still not the Wall speedrun record, and the images remain visually uninspected: exact Anjou-vs-motor mechanics, what each person physically did, and the identities behind free-text `tae` and `yamiyo` remain unresolved. The stable account bridges this 2023 Lobby and Wall sequence only; it does not resolve the separate Aug–Sep 2021 `Moo` language to this person.",
+    cast: ["Moo", "Moon", "Ansun", "Feli"]
   },
   {
     id: "rummy-body-snatching-very-responsively",
