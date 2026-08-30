@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-08-30 11:40 PDT_
+_Last updated: 2026-08-30 11:51 PDT_
 
 ## Current reconciliation boundary
 
@@ -12,9 +12,10 @@ The wiki is the long-form reference companion to `bossmugen/underlords`, not a c
 - **0 newly discovered / 0 finite pending / 0 backlog / 0 review-overdue** after this review close.
 - Both Club-Only recovery branches remain consumed/current: `archive-miner-clubonly-2020-hourly` through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`; `archive-miner/club-only-2021-2026-hourly` through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`.
 - `archive-miner/all-characters-hr-20260828` remains reviewed/consumed through `1eee38b03ce922083dd53136c73f90799c616205`.
+- `archive-miner/core-rooms-events-a91f-20260824` is reviewed through `371b7a40d7a403f73f6817f57b7f0590170c1e8c`; its accepted WIKI work cleared native build/deploy and is eligible for consumed-state advancement on MAIN.
 - `archive-miner/mugen-person-first-20260828` is reviewed/consumed through `58589937aad6937d43f8ba6059fca26ba1fe99e7`. Its one A-grade candidate — Mugen's 2025 day-off Wall archaeology — was already public here as **Mugen Uses a Day Off to Dig Back to 2020**, so the latest person-first delta is duplicate/corroboration with no second public copy.
-- Wall forward review is current through `723cf86995e432d12bd513ac7be799931f8091de`. The `c149ac84...` findings plus later `fa96a7ae...` completion handoffs were reconciled as one evidence family; `fa96a7ae... -> 723cf869...` is checkpoint-router consolidation only. Formal Wall `last_consumed_sha` remains null while the older cumulative recovery floor is open.
-- Historical Wall recovery is now safely reviewed through the exact bounded **2026-08-26 09:46** package (`dc12ee64d07f7aa77ed44c05e1158d1c342f0524 -> 826596953fe9473d9564a2ffbc541de76a273c68`). **10:46 is next.**
+- Wall forward review is current through `1fbdfc9d56d4d05fb4c66bd4833a095ed2f43b09`. The newest 11:30 suffix materially advances member-held receipt mechanics with deliberate favorite/curation, save-before-delete persistence, and retrospective re-filing. Formal Wall `last_consumed_sha` remains null while the older cumulative recovery floor is open.
+- Historical Wall recovery is safely reviewed through the exact bounded **2026-08-26 09:46** package (`dc12ee64d07f7aa77ed44c05e1158d1c342f0524 -> 826596953fe9473d9564a2ffbc541de76a273c68`). **10:46 is next.**
 - Whiskey remains the sole finite **publication-blocked** branch: its accepted ordinary-life material belongs to Sye/Life on MAIN. Hard identity correction remains `488099199938986004 / sycessences / ƐℲı˥` = **Sye/Life, not Effie**.
 - No miner branch was merged or wholesale cherry-picked into either publishing branch.
 
@@ -66,9 +67,33 @@ On January 3, 2024 Daya POSTS a screenshot with `walked into a crime being commi
 
 WIKI owns **Rotini Goes From Lurking WC to `SHH EVERYTHING'S FINE`**. The joke stays narrow: in 2022 Rotini is quietly watching World Chat and bringing receipts home; in 2024 Daya announces a crime, summons Rotini and Snow, and Rotini's first visible instinct is containment. That does not create a permanent spy/criminal/evidence-officer title. It is one perfect scene where the observer has apparently become somebody inside the evidence and immediately asks the witness not to stare directly at it.
 
+### Core Rooms — the Christmas marathon turns the Lobby into a foyer
+
+Gilli announces a December 12 Christmas Movie Marathon. Four days later Ayanokokoro from Zero.Wing enters the Lobby with `i heard moviessss`; five minutes after that PotatoSuz from FireLegacy arrives with the even more efficient `MOVIES` before completing the normal visitor form. PotatoSuz never gives one neat declarative sentence saying the marathon was the reason for visiting, so that motive remains probable/high rather than forced. On December 13 Zefia from ZeroWing removes the ambiguity for at least one outsider entirely: `I came for the Christmas movies`.
+
+WIKI owns **The Christmas Movie Marathon Turns the Lobby Into a Foyer**. The human mechanism is more useful than a fake diplomatic label: at least some neighboring-club visitors were walking through UL's front door because they had heard about a social event. No formal alliance, universal invitation chain, or recruiter is invented.
+
+### Core Rooms — IGN does not mean Instagram, babe
+
+Rosario17 reaches the Lobby and asks whether age disclosure is mandatory. Gilli narrows the request from exact age to the safety-relevant boundary, `You can say if you are above 18 or not`. Rosario still does not want to give that category publicly; Gilli answers `Okay lol` and moves on rather than turning intake into an interrogation. The surfaced exchange does not resolve Rosario's age category, safety-verification path, or exact access role, so none is invented.
+
+Then UL's own shorthand becomes the problem. Gilli has to clarify `No no not you instagram lmao` and `Your Raja name XD`; Ren supplies `In Game Name XD`; Rosario answers `Yazaki`, safely confirming Yazaki as Rosario's period Raja name. WIKI owns **IGN Does Not Mean Instagram, Babe**. Staff had normalized the acronym so thoroughly that newcomers occasionally had to force the glossary back into existence in real time.
+
+### Wall 11:30 — delete is not a retraction
+
+Torr explicitly says he tried to delete a `completely ambiguous comment` and that the tagged account saved it. The immediately preceding surviving Wall post is `IMG_1878.jpg` from that exact account, making the join strong/probable without a structured Reply pointer. WIKI owns **Delete Is Not a Retraction**. The useful part is Torr's own change of target: once somebody else possesses the copy, the complaint is no longer only about what he said; the `trouble maker` is suddenly the person who preserved it. The evidence escaped his control and he knows it.
+
+Safe provenance stays narrow: Torr = SAID BY; the stylized-Tae account = POSTED BY for the image and SAVED BY only as Torr's participant attribution. MADE BY / CAPTURED BY / FEATURING remain unresolved.
+
+### Wall 11:30 — Mugen re-files the old case
+
+In March 2024 Mugen POSTS `Screenshot_20221226_183922.jpg` with `flashback to 2022`, then `Screenshot_20221226_183749.jpg`. Those two filenames occur together in an earlier Wall record at the same respective byte sizes. Without hashes, that remains very strong probable same-binary evidence rather than a cryptographic identity claim.
+
+WIKI owns **Mugen Reopens a 2022 Case in 2024**. This is distinct from her 2025 backwards-scroll archaeology: here the old files themselves apparently return as new posts, so the past can be re-performed for whoever is present now. Mugen is SAID BY / POSTED BY in 2024; tags do not become visual-subject proof and MADE BY / CAPTURED BY / FEATURING remain unresolved.
+
 ### 09:46 recovery — the archive says `again`, but not who
 
-The next exact historical package is useful backstage without being public-page ready. Eos POSTS an uninspected image, follows it twenty-five seconds later with **`Got him again`**, and HamitteY's account true-replies to the image laughing. `again` establishes recurrence; it does not identify the man, the earlier catch, the image contents, or any nearby participant as the target.
+The exact historical package remains useful backstage without being public-page ready. Eos POSTS an uninspected image, follows it twenty-five seconds later with **`Got him again`**, and HamitteY's account true-replies to the image laughing. `again` establishes recurrence; it does not identify the man, the earlier catch, the image contents, or any nearby participant as the target.
 
 A separate Daya Reply says **`HE DIED ON THE STAIRS AGAIN?!?!`** and mentions Gilli. The surfaced handoff still does not expose the Reply parent, the identity of `he`, the game/mechanic, or the prior stair-death incident. The repeated event is real; the owner of the corpse is not. No public Episode or dossier claim was promoted from either breadcrumb.
 
@@ -76,26 +101,30 @@ A separate Daya Reply says **`HE DIED ON THE STAIRS AGAIN?!?!`** and mentions Gi
 
 - Dyingfox's Pond material enriches the existing Cast owner rather than spawning a duplicate Episode.
 - Pride's Boiled Mayo scene is one propagation/carrying beat, not a second origin story.
-- The `c149ac84... -> fa96a7ae... -> 723cf869...` Wall suffix is one evidence family plus checkpoint consolidation; it did not create a second set of public pages.
 - Mugen person-first `40999910... -> 58589937...` independently elevates the already-published May 6, 2025 day-off archaeology scene. It is duplicate/corroboration, not another Episode.
+- Core `0e8081e... -> 371b7a40...` is one intake-only evidence family. Rosario's age/safety resolution remains unresolved; FireLegacy guest clustering does not become an alliance; Key (FireLegacy) is not merged with Officer Key.
+- Wall `723cf869... -> 1fbdfc9d...` is one 11:30 evidence family. Ren's `saved as favorite` is retained as supporting receipt-economy texture rather than forced into another tiny Episode; Torr's save-before-delete and Mugen's retrospective re-file got the discrete owners.
 - WOO/Nobu `TRAITOR` remains media-pending instead of receiving invented screenshot content.
 - Rotini's 2024 screenshot offense, Snow's exact role, and Rotini's exact Reply parent remain unresolved; the text-level reversal is still strong enough to publish.
 - Eos `Got him again` and Daya `HE DIED ON THE STAIRS AGAIN?!?!` are recurrence clues, not identity bridges; both remain held until their missing visual/reply joins are resolved.
-- NemeMoka, SaraBunny, and Yaza produced bounded no-new results in the All Characters suffix; those are routing results, not character traits.
 - No appointment chronology was inferred from export/current role arrays; no joke role or relationship was literalized; no similar-name identity bridges were invented.
 
 ## Surface split
 
-**WIKI** owns the discrete scenes and dossiers listed above because they fit Cast/Episodes/Running-Gag/reference behavior. Rotini's two-scene reversal is especially Episode-shaped: there is no reason to photocopy it onto MAIN merely so both surfaces can claim attendance.
+**WIKI** owns the discrete scenes listed above because they fit Cast/Episodes/Running-Gag/reference behavior. The two Core doorway scenes and the two Wall evidence-life-cycle scenes are Episode-shaped; there is no reason to photocopy them onto MAIN merely so both surfaces can claim attendance.
 
-**MAIN** intentionally receives no new reader-facing copy from this recovery unit. The broader Mugen day-off scene can later enrich MAIN's biography/preservation chronology in a distinct form, but MAIN's required verification chain is still failing before runner allocation. The evidence is accepted, not rejected. Whiskey/Sye remains deliberately MAIN-owned rather than being mirrored into WIKI just to route around that gate.
+**MAIN** intentionally receives no new reader-facing copy from this recovery unit. The broader Mugen evidence-life-cycle material can later enrich MAIN's biography/preservation chronology in a distinct form, but MAIN's required verification chain is still failing before runner allocation. The evidence is accepted, not rejected. Whiskey/Sye remains deliberately MAIN-owned rather than being mirrored into WIKI just to route around that gate.
 
 ## Holds / next work
 
 - Historical Wall: safely through **09:46**; exact bounded **10:46 next**.
 - Eos repeat catch: target, prior catch, and `IMG_1869.png` contents unresolved.
 - Daya stair death: Reply parent, male target, mechanic/context, and prior incident unresolved.
-- Rotini 2024: screenshot content/offense unresolved; Snow's exact role unresolved; Rotini's Reply parent not exposed.
+- Rosario17/Yazaki: exact age category, safety-resolution path, and exact access role unresolved.
+- PotatoSuz: movie motive probable/high; later repeated FireLegacy guest traffic does not establish an alliance or transfer.
+- Key (FireLegacy) is not Officer Key without a direct identity bridge.
+- Torr save scene: immediately preceding image join strong/probable; no structured Reply pointer; visual provenance sealed.
+- Mugen 2024 repeated filenames: same underlying binaries very strong probable, not hash-confirmed.
 - WOO/Nobu `TRAITOR`: localized but pixel-dependent.
 - Gabu `Capturar.PNG`, Zoshaa's twelve JPGs, and Zhēnxī's 2022 screenshot: POSTED BY known; deeper provenance/pixels unresolved.
 - The 2025 Reply parents behind `THE BEGINNING` / `HELPP YOU REACHED THR TOP LMAO` remain unresolved.
@@ -107,16 +136,18 @@ A separate Daya Reply says **`HE DIED ON THE STAIRS AGAIN?!?!`** and mentions Gi
 
 ## Verification / deployment
 
-Reader-facing Rotini work at `6c0ab04f7e40c71bd7472c44b298458cfb420938` passed both native workflows:
+The new Core reader commit `fa93b3f64b263d7f422fe2de4cf34b11f8f7c139` passed both native workflows:
 
-- **Build Underlords Wiki** run `33328199014` — **success**.
-- **Deploy Underlords Wiki Preview** run `33328199040` — **success**, including Pages deployment.
+- **Build Underlords Wiki** run `33328921713` — **success**.
+- **Deploy Underlords Wiki Preview** run `33328921675` — **success**, including Pages deployment.
 
-The 08:46 durable state chain is fully green through `8c0bf50567d701a7218b3b637de5831c887ed6d9`:
+The Wall 11:30 reader commit `64af2352cea18d84470ce83c269f68b15861b714` also passed both native workflows:
 
-- **Build Underlords Wiki** run `33328505126` — **success**.
-- **Deploy Underlords Wiki Preview** run `33328505175` — **success**, including Pages deployment.
+- **Build Underlords Wiki** run `33329165152` — **success**, including `Build Astro wiki`.
+- **Deploy Underlords Wiki Preview** run `33329165135` — **success**, including GitHub Pages deployment.
 
-This 09:46 state-only update creates a newer exact `main` head; that exact head is checked separately before the run report closes. No 09:46 reader-facing page was added because the package promoted no public candidate.
+Earlier Rotini/state verification remains green: reader commit `6c0ab04f7e40c71bd7472c44b298458cfb420938` passed Build `33328199014` and Deploy `33328199040`; durable state head `8c0bf50567d701a7218b3b637de5831c887ed6d9` passed Build `33328505126` and Deploy `33328505175`.
+
+This state update creates a newer exact `main` head; that exact head is checked separately before the run closes.
 
 MAIN remains independently gated. Its recent runs have failed before runner allocation: Build + verify had `runner_id=0`, blank runner name and `steps=[]`, and deployment was skipped. That is an infrastructure failure, not a source/build verdict. No MAIN reader-facing change is treated as verified unless source verification, Astro build, built-output verification, and deployment actually execute and pass.
