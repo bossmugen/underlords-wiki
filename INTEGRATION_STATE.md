@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-08-30 11:31 PDT_
+_Last updated: 2026-08-30 11:34 PDT_
 
 ## Current reconciliation boundary
 
@@ -9,11 +9,12 @@ The wiki is the long-form reference companion to `bossmugen/underlords`, not a c
 ### Shared miner census
 
 - **49 tracked miner identities** = **28 active remote refs + 21 historical/missing refs**.
-- **0 newly discovered / 0 finite pending / 0 backlog / 0 review-overdue** after the latest review close.
+- **0 newly discovered / 0 finite pending / 0 backlog / 0 review-overdue** after this review close.
 - Both Club-Only recovery branches remain consumed/current: `archive-miner-clubonly-2020-hourly` through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`; `archive-miner/club-only-2021-2026-hourly` through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`.
-- `archive-miner/all-characters-hr-20260828` is reviewed/consumed through `1eee38b03ce922083dd53136c73f90799c616205`.
-- Wall forward review is current through `fa96a7ae164ade291605de8e2e27dda52cf8aee0`. The earlier `c149ac84...` findings and the later checkpoint/receipts/rabbit/site/people/profile completion handoffs were reconciled as one evidence family rather than reread as separate lore. Formal Wall `last_consumed_sha` remains null while the older cumulative recovery floor is open.
-- Historical Wall recovery is safely reviewed through the exact bounded **2026-08-26 07:46** package (`0804bae092332effa577522d92f118644f20609f -> e0995afa90ed287a7a87de6b4b27b6541365a7bf`). **08:46 is next.**
+- `archive-miner/all-characters-hr-20260828` remains reviewed/consumed through `1eee38b03ce922083dd53136c73f90799c616205`.
+- `archive-miner/mugen-person-first-20260828` advanced from consumed `40999910f14f13d36a9cc578e555dd73030d01f4` to `58589937aad6937d43f8ba6059fca26ba1fe99e7`. The full changed intake handoff was reviewed checkpoint-first. Its one A-grade candidate — Mugen's 2025 day-off Wall archaeology — was already public here as **Mugen Uses a Day Off to Dig Back to 2020**, so this is a successful duplicate/corroboration review with no second public copy.
+- Wall forward review is current through `723cf86995e432d12bd513ac7be799931f8091de`. The `c149ac84...` findings plus later `fa96a7ae...` completion handoffs were reconciled as one evidence family; `fa96a7ae... -> 723cf869...` is checkpoint-router consolidation only. Formal Wall `last_consumed_sha` remains null while the older cumulative recovery floor is open.
+- Historical Wall recovery is now safely reviewed through the exact bounded **2026-08-26 08:46** package (`e0995afa90ed287a7a87de6b4b27b6541365a7bf -> dc12ee64d07f7aa77ed44c05e1158d1c342f0524`). **09:46 is next.**
 - Whiskey remains the sole finite **publication-blocked** branch: its accepted ordinary-life material belongs to Sye/Life on MAIN. Hard identity correction remains `488099199938986004 / sycessences / ƐℲı˥` = **Sye/Life, not Effie**.
 - No miner branch was merged or wholesale cherry-picked into either publishing branch.
 
@@ -39,7 +40,7 @@ The nearby WOO/Nobu `TRAITOR` sequence remains held. Nobu/Xuseio POSTS two scree
 
 ### The Wall already had off-site evidence lockers in October 2020
 
-The forward Wall family now shows two complementary storage modes in direct participant wording. On October 26 Gabu tells Anthos `i still have your ss hahaha`, offers to post it, watches Anthos go from `im scared now` to `well im still curious XD`, then POSTS `Capturar.PNG` seventeen seconds later. The attachment is probably the screenshot just threatened, but the pixels remain sealed: SAID BY / POSTED BY Gabu is safe; MADE BY / CAPTURED BY / FEATURING remain unresolved.
+The forward Wall family shows two complementary storage modes in direct participant wording. On October 26 Gabu tells Anthos `i still have your ss hahaha`, offers to post it, watches Anthos go from `im scared now` to `well im still curious XD`, then POSTS `Capturar.PNG` seventeen seconds later. The attachment is probably the screenshot just threatened, but the pixels remain sealed: SAID BY / POSTED BY Gabu is safe; MADE BY / CAPTURED BY / FEATURING remain unresolved.
 
 Four days later Zoshaa/NintendoShitcube says `Scrolling through photos out of boredom, found a bunch of old ss lmao` and POSTS twelve JPGs in two bursts. That is participant-native evidence that ordinary photo-library browsing could spontaneously restock the Wall. WIKI owns **The Wall Already Had Off-Site Evidence Lockers**. The public channel is the courthouse; member devices are already auxiliary evidence storage. These are earliest surviving direct examples currently recovered, not origin claims.
 
@@ -47,7 +48,7 @@ Four days later Zoshaa/NintendoShitcube says `Scrolling through photos out of bo
 
 On May 6, 2025 Mugen says `Hmm I have a day off. Let's bring up some old shame`, then `Let's go back to 2020`. Teri marks the distance with `its been 5 years`; later Mugen posts Reply-type `THE BEGINNING`, and Ren later posts Reply-type `HELPP YOU REACHED THR TOP LMAO` followed by `YAYYYYY`.
 
-The Reply parents were not recovered in this handoff, so no parent IDs are invented and `THE BEGINNING` is not converted into an origin certificate. WIKI owns **Mugen Uses a Day Off to Dig Back to 2020** because the surrounding exchange is strong enough to show participant-used archaeology: old Wall cases can be reopened as reruns simply by scrolling far enough.
+The Reply parents were not recovered in this handoff, so no parent IDs are invented and `THE BEGINNING` is not converted into an origin certificate. WIKI owns **Mugen Uses a Day Off to Dig Back to 2020** because the surrounding exchange is strong enough to show participant-used archaeology: old Wall cases can be reopened as reruns simply by scrolling far enough. The later Mugen-person-first `58589937...` handoff independently promotes the same scene as scarce off-duty biography texture — free day first, old shame immediately after — which strengthens the existing owner rather than creating a duplicate Episode.
 
 ### Zhēnxī — target panic becomes prosecution
 
@@ -55,26 +56,37 @@ In May 2021 Ren files an image, later tags Zhēnxī, and six seconds later Zhēn
 
 WIKI owns **Zhēnxī Survives the Wall and Becomes the Prosecutor**. The human read is clean: surviving prosecution did not make Zhēnxī anti-Wall; it taught the procedure well enough that a later months-old receipt could be filed against Ren with zero remorse. The screenshot remains POSTED BY Zhēnxī only; its contents, maker, capturer, and subjects remain unresolved, and Ren's `like 4 months ago` stays approximate.
 
-One integration correction was made before close: the public episode now avoids assigning Zhēnxī a pronoun from conflicting/non-hard handoff wording. The dossier/episode remains identity-safe rather than guessing from a display name or an incidental miner phrasing.
+The public episode avoids assigning Zhēnxī a pronoun from conflicting/non-hard handoff wording. The dossier/episode remains identity-safe rather than guessing from a display name or incidental miner phrasing.
+
+### Rotini — the receipt-bringer gets caught in the scene
+
+The exact bounded 08:46 historical Wall package gives RotiniLM a small but excellent two-scene reversal. On January 24, 2022 Rotini POSTS `20220124_155327.jpg` with `Just lurking the WC:R_stare:`, then later returns with `One more-` and another attachment. The first source is explicitly World Chat; neither screenshot's pixels are inspected, so Rotini is POSTED BY only.
+
+On January 3, 2024 Daya POSTS a screenshot with `walked into a crime being committed`, separately tags RotiniLM and Snow four seconds later, and Rotini appears in the immediate tagged scene with `SHH EVERYTHING'S FINE`, followed by a heart. Rotini's message is Reply-type and mentions Daya, but the surfaced handoff does not expose the reference message ID; the wiki does not invent an exact screenshot-parent join.
+
+WIKI owns **Rotini Goes From Lurking WC to `SHH EVERYTHING'S FINE`**. The joke stays narrow: in 2022 Rotini is quietly watching World Chat and bringing receipts home; in 2024 Daya announces a crime, summons Rotini and Snow, and Rotini's first visible instinct is containment. That does not create a permanent spy/criminal/evidence-officer title. It is one perfect scene where the observer has apparently become somebody inside the evidence and immediately asks the witness not to stare directly at it.
 
 ## Reconciliation / duplicates
 
 - Dyingfox's Pond material enriches the existing Cast owner rather than spawning a duplicate Episode.
 - Pride's Boiled Mayo scene is one propagation/carrying beat, not a second origin story.
-- The `c149ac84... -> fa96a7ae...` Wall suffix is derivative handoff completion for the same 11:03 evidence family; it did not create a second set of public pages.
+- The `c149ac84... -> fa96a7ae... -> 723cf869...` Wall suffix is one evidence family plus checkpoint consolidation; it did not create a second set of public pages.
+- Mugen person-first `40999910... -> 58589937...` independently elevates the already-published May 6, 2025 day-off archaeology scene. It is duplicate/corroboration, not another Episode.
 - WOO/Nobu `TRAITOR` remains media-pending instead of receiving invented screenshot content.
+- Rotini's 2024 screenshot offense, Snow's exact role, and Rotini's exact Reply parent remain unresolved; the text-level reversal is still strong enough to publish.
 - NemeMoka, SaraBunny, and Yaza produced bounded no-new results in the All Characters suffix; those are routing results, not character traits.
 - No appointment chronology was inferred from export/current role arrays; no joke role or relationship was literalized; no similar-name identity bridges were invented.
 
 ## Surface split
 
-**WIKI** owns the discrete scenes and dossiers listed above because they fit Cast/Episodes/Running-Gag/reference behavior.
+**WIKI** owns the discrete scenes and dossiers listed above because they fit Cast/Episodes/Running-Gag/reference behavior. Rotini's two-scene reversal is especially Episode-shaped: there is no reason to photocopy it onto MAIN merely so both surfaces can claim attendance.
 
-**MAIN** intentionally received no reader-facing copy from this pass. Dyingfox, Pride, and broader Wall archaeology can later enrich MAIN in distinct biography/chronology prose, but MAIN's required verification chain is still failing before runner allocation. The evidence is accepted, not rejected. Whiskey/Sye remains deliberately MAIN-owned rather than being mirrored into WIKI just to route around that gate.
+**MAIN** intentionally receives no new reader-facing copy from this recovery unit. The broader Mugen day-off scene can later enrich MAIN's biography/preservation chronology in a distinct form, but MAIN's required verification chain is still failing before runner allocation. The evidence is accepted, not rejected. Whiskey/Sye remains deliberately MAIN-owned rather than being mirrored into WIKI just to route around that gate.
 
 ## Holds / next work
 
-- Historical Wall: safely through **07:46**; exact bounded **08:46 next**.
+- Historical Wall: safely through **08:46**; exact bounded **09:46 next**.
+- Rotini 2024: screenshot content/offense unresolved; Snow's exact role unresolved; Rotini's Reply parent not exposed.
 - WOO/Nobu `TRAITOR`: localized but pixel-dependent.
 - Gabu `Capturar.PNG`, Zoshaa's twelve JPGs, and Zhēnxī's 2022 screenshot: POSTED BY known; deeper provenance/pixels unresolved.
 - The 2025 Reply parents behind `THE BEGINNING` / `HELPP YOU REACHED THR TOP LMAO` remain unresolved.
@@ -86,10 +98,10 @@ One integration correction was made before close: the public episode now avoids 
 
 ## Verification / deployment
 
-Reader-facing WIKI work in this pass has passed the repository's native pipelines through the pronoun-safety correction head `f2324e9241dd5292de80932c7ad5361975f8c2a9`:
+Reader-facing Rotini work is commit `6c0ab04f7e40c71bd7472c44b298458cfb420938`:
 
-- **Build Underlords Wiki** run `33327996745` — **success**.
-- **Deploy Underlords Wiki Preview** run `33327996762` — **success**, including Pages deployment.
+- **Build Underlords Wiki** run `33328199014` — **success**.
+- **Deploy Underlords Wiki Preview** run `33328199040` — **success**, including Pages deployment.
 
 This state update creates a newer exact `main` head. The pass is fully closed only after that exact state head also passes the existing Build Underlords Wiki and Pages/deploy workflows.
 
