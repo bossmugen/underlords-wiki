@@ -90,5 +90,14 @@ export const wall1930Episodes: Episode[] = [
     kind: "Wall role reversal / Rich inspects the hydration monitor and finds the monitor insufficiently hydrated",
     logline: "Rich posts `IMG_3118.png`, tags Gabu under her visible `Drink water reminder` name, and diagnoses the problem: `I don’t think @Drink water reminder had enough watah`. The screenshot itself remains visually uninspected, so the Wall cannot safely tell us what Gabu said, did, or looked like inside it. The text is enough for the joke: a nickname that usually functions like public-health signage gets treated as a job title, and Rich has caught the employee violating her own policy. This is a person-specific role reversal inside Gabu's known hydration bit, not a new origin claim.",
     cast: ["Gabu", "Rich"]
+  },
+  {
+    id: "boiled-mayo-escapes-the-corporation",
+    title: "Boiled Mayo Escapes the Corporation",
+    season: "2020",
+    date: "July 17, 2020 → May 17, 2021",
+    kind: "Running gag genealogy / Zoshaa's food crime gets incorporated, escapes into ordinary vocabulary, then becomes Orb hospitality and hearsay",
+    logline: "Project canon credits Zoshaa with coining `Boiled Mayo`; the exact first receipt, date, and room remain open. The surviving migration is much less dignified. On July 17, 2020 Mugen publishes the actual Staff schedule as `Tonight's programming brought to you by Boiled Mayo Corp.` and Gilli answers `Y U M`. Five weeks later Pride can simply say `boiled mayo` in Club Only while Ren answers `It be thick cream`, meaning the joke no longer needs the corporate wrapper. On May 17, 2021 Zoshaa offers `a refreshing glass of boiled mayo` to `my orb` with full uwu tenderness, and ten minutes later Spicy Hotpot asks Gilli `so what's this I heard about boiled mayo?`. That `heard about` is the final promotion: the phrase has become transmissible lore. Nobody is documented literally drinking mayonnaise; Gilli is a visible carrier/contact, not the inventor; and the earliest surviving July deployment is not the coinage date.",
+    cast: ["Zoshaa", "Mugen", "Gilli", "Pride", "Ren", "Spicy Hotpot"]
   }
 ];
