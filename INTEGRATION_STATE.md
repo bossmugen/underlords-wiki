@@ -1,6 +1,6 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration close: **2026-08-30 02:30 PDT**.
+Last dual-surface integration close: **2026-08-30 02:42 PDT**.
 
 Full branch consumption state is authoritative on MAIN in `archive-intake/INTEGRATOR_BRANCH_STATE.json`; earlier WIKI states remain in Git history.
 
@@ -14,64 +14,57 @@ Full branch consumption state is authoritative on MAIN in `archive-intake/INTEGR
 - All Characters: seen/consumed `dc2ed9bdf67ed6009a78d32fa84784d32fbee1c5`.
 - Mugen person-first: seen/consumed `98be861042d47bf901cae7e4ffa46607cbef27b2`.
 - Whiskey: seen/consumed `6cd5f9daeb20d77fad20e3cd7465ec938411993d`.
-- Daycare: seen/consumed `a4b9de9effb5f1d4df463c4f19b55ebbdea8ed4c` after checkpoint-first/intake-only review.
-- Wall: seen and forward-reviewed through `dca9dc0ed1b67cfdce30395728ba602bd26b4fdd`; historical safe-baseline recovery is reviewed through **2026-08-25 17:46**, with **18:46 next**. Formal consumed remains null while the cumulative historical floor is open.
+- Daycare: seen/consumed `a4b9de9effb5f1d4df463c4f19b55ebbdea8ed4c`.
+- Wall: seen and forward-reviewed through `dca9dc0ed1b67cfdce30395728ba602bd26b4fdd`; historical safe-baseline recovery is reviewed through **2026-08-25 18:46**, with **19:46 next**. Formal consumed remains null while the cumulative historical floor is open.
 
 No miner branch was merged or cherry-picked wholesale.
 
 ## Reviewed this pass
 
-Checkpoint-first, intake-only review covered:
+The opening and closing census both found the same 28 active archive-miner refs and no finite advanced branch. Anti-starvation therefore had no additional finite queue to rotate through this run.
 
-- Daycare `63690ed20949d7e1730c6b2bfd2ad03b3bbd355c -> a4b9de9effb5f1d4df463c4f19b55ebbdea8ed4c`.
-- Wall forward handoffs through `dca9dc0ed1b67cfdce30395728ba602bd26b4fdd`, including the final control-only suffix `1969a4069562b32467a268cf8c0e3134385368d9 -> dca9dc0ed1b67cfdce30395728ba602bd26b4fdd`.
-- Wall historical safe-baseline package **17:46**.
+Checkpoint-first, intake-only Wall review covered:
 
-Raw archives were not re-mined. Anti-starvation was satisfied by reviewing the finite Daycare mover while continuing Wall recovery.
+- the already-seen final forward control suffix `1969a4069562b32467a268cf8c0e3134385368d9 -> dca9dc0ed1b67cfdce30395728ba602bd26b4fdd`, reconfirmed as negative/corroboration-only;
+- historical safe-baseline package **2026-08-25 18:46**, including findings, receipts, rabbit holes, and site candidates.
 
-## WIKI keepers
+Raw archives were not re-mined.
 
-### NOOOOOO to I Love You Too
+## WIKI keeper
 
-Ren drags Zhēnxī into a June 7, 2022 Wall scene. Zhēnxī goes `NOOOOOO`, performs choke/cry reactions, and then answers Rummy with `I love you too` inside the same beat. The useful character read is the switch itself: by this point public embarrassment and affection can sit beside each other without looking contradictory. It materially expands her beyond the newcomer who got shamed almost immediately after arrival. The affection is ordinary relationship texture, not a romance claim.
+### CANNIBALISM?? Or the Seal?
 
-### Payback, Fair
+On April 28, 2021 Baby Lyssa is perfectly willing to participate in fake food-horror with Gabu: grilled people, BBQ sauce, medium rare. Then Cookie says the conversation made him hungry and Lyssa suddenly needs the menu clarified: `CANNIBALISM??` or `the seal?` The fake human-eating joke is apparently negotiable. The sea doggo is not.
 
-On February 22, 2024 Rummy posts a screenshot; Gilli later posts another, tags Rummy, gets `NOT THE PIC`, names the move `PAYBACK LMAO`, and receives Rummy's `fair` before the immediate emotional appeal `BUT NAUUURRRR`. The pixels remain unresolved, but the retaliation mechanism is legible from the exchange itself. The quieter Wall still knew how to return evidence to sender.
+Her follow-up is the whole scene: `don't eat the deal pls` and `he good sea doggo`. `deal` is preserved as the surviving typo rather than silently cleaned up. This remains joke language only; no real cannibalism or violence is implied, and the scene was deliberately kept separate from **Eating the Newbies** because there is no recruit/newcomer grammar here.
 
-### Boiled Mayo, Defined
-
-On May 17, 2021 Zoshaa finally gives Boiled Mayo a sensory definition: imagine a McDonald's triple-thick milkshake, make it warm, and make it taste like mayonnaise. Gilli says the thought alone makes her gag. This expands the running food-horror vocabulary; it does not prove anybody actually drank or liked the substance.
-
-### Asset Protection Program — deduped, not cloned
-
-A concurrent integrator published the stronger Wall family just before this pass edited WIKI: Anayss's `#PROTECCtheASSETS` filing mutates through Sou's `protectbutt`, Nai's `#PROTECTBUTT2021`, and Rummy's `#protectbuttboingboing`. This pass treated that as the same evidence family rather than publishing another version. It also fixed the season wiring so the already-live episode appears in the 2021 Chronicle as well as the episode index and direct route.
+WIKI owns this as a discrete incident because MAIN already has a rich Baby Lyssa character story and did not need another miniature Wall essay pasted into it.
 
 ## Reconciled / held
 
-- Daycare's June 2023 cross-channel quiet-window signal survives: a known Daycare hit occurs inside a multi-week Lobby-silent interval. It is useful longitudinal evidence that an interior social room could still twitch while the front door was quiet, but one Daycare message is not a claim that Daycare was busy. It was intentionally left for MAIN's richer channel-history treatment rather than duplicated as a WIKI incident.
-- Nothien's generic chronology and DyingFox's food/caretaking pocket were rediscovery only and were not promoted again.
-- WOO's juror-to-self-aware-Wall-casualty arc remains a good profile-snippet candidate; it did not need another Episode this pass.
-- Noether/HamitteY `marriage` language remains joke/social relationship language because the underlying relationship type is unresolved.
-- Ren's `I SWEAR I RESPECT SOME ELDERLY` remains target-ambiguous and is not assigned to Snow or anybody else from vibes.
-- Ghostt/Baby Lyssa image-dependent material remains visually unresolved.
-- No unseen attachment acquired MADE BY / CAPTURED BY / FEATURING provenance from adjacency or filenames.
+- Han's October 19, 2021 prediction that the room would become `Han's wall of shame fame` was genuine but already public in his MAIN biography, so the 18:46 handoff was duplicate/corroboration rather than a new page change.
+- Scar's August 19, 2021 `Gilli must have some harem here` allegation produces a clean pile-on: Gilli denies it, Ansun sides with Scar, Marian escalates to `this whole club is gilli's harem`, and Scar later claims vindication. It remains bounded joke/social relationship language. Earlier generic UL `harem` vocabulary exists, and no direct bridge to Gilli's later Emotional Support Collection was recovered, so no fake genealogy or literal romance was published.
+- Zoshaa's `I ain't afraid to hit the elderly` remains targetless and was not assigned to Snow from vocabulary coincidence.
+- Hishiro's 2020 screenshot + `:Hehe:` remains visually opaque.
+- Baby Lyssa's exact seal image/object remains unresolved. Cookie's hunger line and Lyssa's response are enough for the text scene, but no unseen attachment acquired MADE BY / CAPTURED BY / FEATURING provenance.
 
 ## Verification / publication
 
 ### WIKI
 
-Reader content head `b8178858886af614a374179f5f4f400696419582` contains the three 02:30 episodes and wires both the concurrent Asset Protection episode and the 02:30 package into Seasons.
+Reader head `bebd8b99315f0fe7cfd1456d680cb69ca8de36f2` adds **CANNIBALISM?? Or the Seal?** and wires it into the Episode index, direct route, and 2021 Season.
 
-- **Build Underlords Wiki** run `33304682057` — success at exact reader head.
-- **Deploy Underlords Wiki Preview** run `33304682059` — success through Pages deployment at exact reader head.
+- **Build Underlords Wiki** run `33304991418` — success at the exact reader head.
+- **Deploy Underlords Wiki Preview** run `33304991407` — success through Pages deployment at the exact reader head.
 
-This integration-state commit must itself pass the same native Build and Pages workflows before the pass is reported fully closed on WIKI.
+This integration-state commit must itself pass the same native Build and Pages workflows before the pass is considered fully green on WIKI.
 
 ### MAIN
 
-MAIN's latest durable branch ledger already consumes Daycare through `a4b9de9effb5f1d4df463c4f19b55ebbdea8ed4c` and advances Wall historical recovery through 17:46. The exact current MAIN head `a15e3177a1cd2816cf9ef80251131c7996264c79` triggered **UL Hourly Build + Deploy** run `33304594044`, but GitHub failed the `Build + verify` job before allocating any steps (`steps: []`, runner id 0); deployment was skipped. That is an execution/allocation blocker rather than a source-verification or Astro-build failure. No reader-facing MAIN lore or unsafe deployment is claimed from this pass.
+MAIN reader-facing lore was intentionally unchanged this pass. The durable branch ledger advanced Wall historical recovery through 18:46 at commit `6af5eb5e1ac3e4915ad090188baf5c4aff9a7191`.
+
+**UL Hourly Build + Deploy** run `33305097523` failed before allocating any job steps: `Build + verify` has `steps: null`, and deployment was skipped. This is the same GitHub runner/allocation blocker seen on the immediately preceding MAIN runs, not a source-verification, Astro-build, or built-output failure. No unsafe MAIN deployment is claimed.
 
 ## Consumption close
 
-Daycare is durably reviewed/consumed through `a4b9de9effb5f1d4df463c4f19b55ebbdea8ed4c`. Wall is forward-reviewed through current head `dca9dc0ed1b67cfdce30395728ba602bd26b4fdd`; historical recovery is through **17:46**, **18:46 next**. Wall's formal consumed SHA remains null while the older cumulative recovery floor stays open.
+All finite active miner branches remain consumed/current. Wall remains the sole cumulative recovery floor: forward-reviewed through `dca9dc0ed1b67cfdce30395728ba602bd26b4fdd`; historical recovery through **18:46**; **19:46 next**. Wall's formal consumed SHA remains null until the older cumulative floor is actually finished.
