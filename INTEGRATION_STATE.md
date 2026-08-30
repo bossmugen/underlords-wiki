@@ -1,86 +1,89 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration pass: **2026-08-29 18:18 PDT**.
+Last dual-surface integration pass: **2026-08-29 18:23 PDT**.
 
-Full branch-level consumption state is authoritative on MAIN in `archive-intake/INTEGRATOR_BRANCH_STATE.json`; prior rolling wiki states remain in Git history.
+Full branch consumption state is authoritative on MAIN in `archive-intake/INTEGRATOR_BRANCH_STATE.json`; earlier rolling wiki states remain in Git history.
 
-## Current branch boundary
+## Current boundary
 
-Full census: **28 active remote miner refs + 21 historical/missing refs = 49 tracked branch identities**.
+- Census: **49 tracked miner identities = 28 active remote refs + 21 historical/missing refs**.
+- Finite pending: **0**.
+- Backlog: **0**.
+- Review-overdue: **0**.
+- Club-Only 2020: seen/consumed `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`.
+- Club-Only 2021–2026: seen/consumed `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`.
+- All Characters: seen/consumed through `759401b59b6e8b2abe775a2b40ac1c8cb3e9601a`.
+- Core Rooms: seen/consumed through `9eb31f2da1eaf9d4068823387ae4e8fb6307ac30`.
+- Wall: forward-reviewed through `6b2d0d7c6b654eec0c06f7c3e2465c3d791c7935`; formal consumed remains null while its older cumulative recovery stays open.
+- Mugen person-first: seen/consumed `c34d8ca22e9eac6d6a035bfc4e738a09d186ec3e`.
 
-- finite pending after review: **0**
-- backlog: **0**
-- review-overdue: **0**
-- cumulative recovery track still open: **Wall**
-- Club-Only 2021–2026: seen/consumed `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`
-- Club-Only 2020: seen/consumed `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`
-- All Characters: reviewed/consumed through `759401b59b6e8b2abe775a2b40ac1c8cb3e9601a`
-- Core Rooms: reviewed/consumed through `9eb31f2da1eaf9d4068823387ae4e8fb6307ac30`
-- Mugen person-first: seen/consumed `c34d8ca22e9eac6d6a035bfc4e738a09d186ec3e`
-- Wall: forward-reviewed through `b02fb6d5fe5c142cc554474cbc501bb3e17ed0ee`; formal consumed remains null while its older cumulative recovery is open.
-
-Core's prior hour-by-hour recovery note was reconciled against the miner branch itself. The oldest surviving durable recovery handoff on that branch is `checkpoint-delta-2026-08-25-0446.md`; there is no earlier durable checkpoint-delta package to consume without re-mining raw archives, which the integration rules explicitly forbid. The one-time Core recovery is therefore closed at the durable handoff floor rather than pretending nonexistent earlier packages were reviewed.
+Core's old rolling recovery countdown is closed. The oldest surviving durable Core recovery handoff on the miner branch is `checkpoint-delta-2026-08-25-0446.md`; no earlier checkpoint-delta exists to consume without re-mining raw archives, which the integration rules forbid. Core therefore closes at the durable handoff floor instead of pretending nonexistent earlier packages were reviewed.
 
 No miner branch was merged or cherry-picked wholesale.
 
-## Reviewed this pass
+## All Characters — Yassr
 
-### All Characters — `188cebef… → 759401b5…`
+All Characters was reviewed checkpoint-first from consumed `188cebef879a3ebef40e28918e42c70849662666` through late head `759401b59b6e8b2abe775a2b40ac1c8cb3e9601a`. Its miner-side public-page edit was ignored because it sits outside the permitted intake path; only intake handoffs were consumed.
 
-The branch was reviewed checkpoint-first, including its late synchronization suffix. The important correction is Yassr: **male**, historical in-game identity `～Yakko～`, in Underlords by late 2020 after Gilli invited him, with a January 2021 historical Staff invitation preserved separately from current Game Officer canon.
+The hard correction is that **Yassr is male**. The restored person file also gives historical in-game identity `～Yakko～`, late-2020 Underlords membership through Gilli's invitation, and a January 2021 historical Staff invitation. Current Game Officer canon remains separate; no exact Staff tenure or later promotion date is backfilled from exporter roles.
 
-The expanded person material finally makes the practical streak feel like a person rather than a job description. In 2019 Yassr is already in Mugen's wider social/game orbit asking what everybody is supposed to wear to a party and proposing `do we just wear our ugliest looking outfit`; when Mugen assembles patio furniture he congratulates her like a toddler who has finally learned construction. In 2021, asked what ISEKAI-Mafia role he wants, Yassr answers `Anything is fine. Just something useful.` Years later he is still translating game-state changes into things people can actually do.
+The person material finally gives the useful streak a life outside titles. In 2019 Yassr is already around Mugen's wider social/game orbit asking what everybody is supposed to wear to a party and proposing `do we just wear our ugliest looking outfit`; when Mugen assembles patio furniture he congratulates her like she has just graduated from diapers. In February 2021, asked which ISEKAI-Mafia role he wants, he answers `Anything is fine. Just something useful.` Later reminders, a clean Saber-bot handoff, Scourge information and gift logistics keep rhyming with that preference.
 
-The domestic material gives the same instinct less dignity. Yassr cooks regularly, but his lazy fallback is spaghetti with butter and ketchup. He describes himself as not outdoorsy; camping works when the group and basic comfort work, while a family cabin historically without internet is remembered as a sleep/eat/read/paint decompression place. That reads less like generic efficiency than a recurring dislike of unnecessary friction: useful things should be useful, not difficult for the honor of being difficult.
+The domestic details stop the pattern from becoming corporate virtue copy. Yassr cooks regularly, but his lazy fallback is spaghetti with butter and ketchup. He says he is not outdoorsy; camping works when the group and basic comfort work. A family cabin historically without internet is remembered as a sleep/eat/read/paint decompression place. The probable cumulative read is not `Yassr loves work`; it is that he tends to prefer useful things to be useful rather than difficult for the honor of difficulty.
 
-`src/data/character-biographies-yassr.ts` was expanded accordingly. Hard boundaries remain: no guessed employer/residence, no cabin geolocation, no exact role-tenure reconstruction, and no merging similarly named Discord accounts by display name alone.
+WIKI now carries that as the expanded `src/data/character-biographies-yassr.ts` dossier. MAIN carries the distinct person-first chronology in `src/content/people/yassr.md`.
 
-Other Run 20 material — Yelik's White Day generosity, Noether's mock-scarcity dessert pattern, Zepp's `walmart key` / `AUTO BOT OF KEY` peer caricature, Ten's low-ego premise completion, Ghostt's old game-death caricature, and Cookie's context-sensitive exposure — was reviewed as corroboration or future-profile texture rather than multiplied into thin public objects.
+## Core Rooms — Spritely and Synetha at the door
 
-### Core Rooms — current suffix through `9eb31f2d…` + recovery-floor reconciliation
+Core was reviewed checkpoint-first through the complete 17:56 handoff package at `9eb31f2da1eaf9d4068823387ae4e8fb6307ac30`.
 
-The current Core package was reviewed checkpoint-first through findings, receipts, rabbit holes, people/profile notes and site candidates. Two Aether doorway scenes were accepted as WIKI Episodes.
+### I Joined the Club Today, I Came from Aether
 
-**Spritely / Shurui, October 9, 2020:** Spritely checks into Lobby as `Shurui, Foot Soldier, 15`, then says `No I joined the club today, I came from Aether`. Mugen later welcomes Spritely, assigns an unnamed Discord role, and points them to the server map. The useful hinge is participant-authored: Aether immediately before, UL now, with `Foot Soldier` supplied by Spritely rather than inferred from exporter metadata. Five weeks later Shurui is already ordinary enough inside team traffic for people to ask somebody to grab them and pass along the plan. Recruiter, transfer motive, exact acceptance minute, and exact Discord role remain unresolved.
+On October 9, 2020 Spritely checks into Lobby as `Shurui, Foot Soldier, 15`, then clarifies: `No I joined the club today, I came from Aether`. Mugen later welcomes Spritely, assigns an unnamed Discord role and points them to the server map.
 
-**Synetha, September 6, 2020:** `Hello! This is Synetha from Aether! I was invited by Snow for the movie`. Snow answers `Welcome Synetha ^_^`; Mugen follows with another welcome and an unnamed role assignment. This is one of the cleanest surviving reasons an outsider is at UL's door: not recruitment theater, not a generic alliance claim, just somebody from another club invited over because people are watching a movie. Snow's immediate welcome makes the guest feel expected; Mugen's role handoff operationalizes the hospitality. The exact movie, room, role, duration, later membership and any VIP label remain unresolved.
+This safely establishes Shurui as Spritely's scene-level in-game identity, participant-authored `Foot Soldier` wording, and an Aether→Underlords transfer dated by Spritely themselves. Recruiter, motive, exact in-game acceptance minute and exact Discord role remain unresolved. Five weeks later an already-known team scene has people asking somebody to grab Shurui and pass along the plan, which is enough for the small social-speed read: new enough to explain the transfer at the door in October; ordinary enough to be expected in coordination by November.
 
-ÍKER/Altamar's Jason-mask anecdote, Sakura Zess Maou's privacy-aware age-form comedy, and Rummy's pancake scene were reviewed but held from new standalone publication. The latter remains especially attribution-sensitive: Rummy says `IT A PANCAKEEEE` with no attachment, while the nearby screenshot is POSTED BY Marian Kage. That is not permission to promote Rummy to cook, photographer or image-maker.
+### I Was Invited by Snow for the Movie
 
-Core's one-time historical recovery is now closed at the oldest durable checkpoint-delta surviving on the miner branch. Raw archives were not re-mined to invent a lower floor.
+On September 6, 2020 Synetha enters Lobby with `Hello! This is Synetha from Aether! I was invited by Snow for the movie`. Snow immediately answers `Welcome Synetha ^_^`; Mugen follows with another welcome and an unnamed role assignment.
 
-## Reader-facing changes / surface split
+The value is the reason. Synetha is an outside-club guest and is at UL's door because Snow invited them over for a movie. Snow's immediate recognition makes the arrival read as expected social traffic; Mugen's role handoff operationalizes the hospitality. Exact movie, watch room, access duration, assigned role and later membership remain open. The unnamed role is not rewritten as VIP and the scene is not inflated into a formal-alliance claim.
 
-### WIKI
+WIKI owns both scenes in `src/data/integrator-episodes-core-20260829-1800.ts`; the episode index and dynamic routes are wired to them.
 
-`src/data/character-biographies-yassr.ts` now carries the longer Yassr dossier: pre-UL familiarity, Gilli invitation and `～Yakko～` identity, historical Staff invitation, usefulness pattern, cooking, camping/cabin decompression, event reminders and later Game Officer texture.
+ÍKER/Altamar's Jason-mask anecdote, Sakura Zess Maou's privacy-aware age-form arithmetic and Rummy's pancake scene were reviewed but held from standalone publication. Rummy says `IT A PANCAKEEEE` with no attachment while Marian Kage remains the confirmed POSTER of the nearby screenshot; cook, photographer, image-maker and depicted-object chain remain unresolved.
 
-`src/data/integrator-episodes-core-20260829-1800.ts` adds two bounded incidents:
+## Late Wall suffix — `b02fb6d5… → 6b2d0d7c…`
 
-- **I Joined the Club Today, I Came from Aether** — Spritely/Shurui's October 9 transfer hinge.
-- **I Was Invited by Snow for the Movie** — Synetha's Aether guest arrival through Snow.
+A closing recensus caught Wall moving after the first durable close. The suffix was reviewed checkpoint-first through its 18:05 findings, receipts, rabbit holes, site candidates and people-profile addenda. Formal consumed remains null because the older Wall recovery is still open, but the forward-reviewed edge is now `6b2d0d7c6b654eec0c06f7c3e2465c3d791c7935`.
 
-The incident index and dynamic Episode route are wired to the new module. Reader head `fa38c7224f2775ba597fbcbd559a0a41ea41991e` passed standalone **Build Underlords Wiki** run `33285157680` and complete **Deploy Underlords Wiki Preview** run `33285157667`, including build, deploy and report, all successfully.
+The useful new person read is **Usama as a probable low-volume receipt interpreter / social-memory carrier**. On July 21, 2021 BeaEder posts a receipt, Mugen replies `Og strippers hard at work 😂`, and Usama follows with `key was asking Sushi yesterday too lol`. Four days later Mugen posts a two-image Raja package, ShiyaX replies `Lina`, and after a long surviving-text silence Usama enters with edited-final `lol thats Shiya`, then `for sure`.
 
-### MAIN
+Two separate scenes are enough for the probable behavioral texture: Usama sometimes stands behind the evidence board and supplies the remembered footnote or tells the room what he thinks the receipt is about. It is **not** enough to claim Key/Sushi are visibly in Bea's image or Shiya is visibly in Mugen's screenshots. Pixels remain uninspected; POSTED BY remains distinct from FEATURING / MADE BY / CAPTURED BY. This remains a profile-snippet candidate rather than a new public page in this pass because the useful behavior is real but still image-adjacent and thin.
 
-MAIN owns the person-first public Yassr version in `src/content/people/yassr.md`: same reconciled evidence, but organized around a lived chronology rather than a fandom dossier. The reader-facing MAIN head `7e75d4902359298d310bbee1d9f17d2cdabd419c` passed **UL Hourly Build + Deploy** run `33285103563`, including source canon/architecture verification, Astro build, built-output verification, and exact Cloudflare production deployment.
+The same suffix closes one overgrown Snow rabbit: direct Wall text supports one Dec. 11, 2023 `FURY` / `FURRY` spelling-defense scene, not a demonstrated recurring Snow-furry label. Ren says Snow accepted his `inner furry`; Daya crowns him `the furry king of this whole club`; Snow eventually fires back `THATS  FURY .. AS IN ANGRY` and, 2.499 seconds later, `not FURRY`. A whole-Wall direct-text sweep supplies no separate Snow precursor or later recurrence. Future recurrence needs media, a direct callback or another source; generic Wall-text searching is exhausted.
 
-The Spritely/Synetha doorway scenes remain WIKI-first because they are compact incident/access-history objects; MAIN does not need duplicate prose simply to prove the evidence was consumed.
+Ren's July 2021 `Pls ghoulie is the Icon we need` is also fenced correctly. Because it sits on a Ghoulie/Baby Lyssa receipt package, it is probably local praise/caption language, not provenance for Mugen's server/guild icon. The assigned Wall supplies no direct `logo`, `lounge` or `members only` bridge. Mugen MADE BY remains hard user-confirmed canon; visual content still requires actual image inspection.
 
-## Duplicate / corroborative material combined
+## Public verification / deployment
 
-- Yelik, Noether, Zepp, Ten, Ghostt and Cookie Run 20 material was retained as corroboration/profile texture without spawning thin duplicate pages.
-- Yassr's current Game Officer title is not backdated from historical Staff material.
-- Spritely's later November team-plan scene is continuity for the October transfer, not a newly named event.
-- Existing visitor/VIP infrastructure is strengthened by Synetha's purpose-specific guest scene, but the unnamed role assigned to Synetha is not rewritten as confirmed VIP.
+MAIN reader-facing head `7e75d4902359298d310bbee1d9f17d2cdabd419c` passed **UL Hourly Build + Deploy** run `33285103563`: source canon/architecture verification, Astro build, built-output verification and exact Cloudflare production deployment all succeeded.
+
+WIKI reader-facing head `fa38c7224f2775ba597fbcbd559a0a41ea41991e` passed standalone **Build Underlords Wiki** run `33285157680` and complete **Deploy Underlords Wiki Preview** run `33285157667`, including build, deploy and report.
+
+The first durable WIKI state head `8db934d012cb5db9daf0f199df59761cf6f4f6a5` also passed **Build Underlords Wiki** run `33285279939` and Pages run `33285279935`, including build, deploy and report. This file's present commit supersedes that state only to record the late Wall suffix caught during closing census; its own workflows must be green before this pass is considered fully closed.
+
+## Intentional surface split
+
+Yassr belongs on both public surfaces with different jobs: MAIN owns the lived chronology; WIKI owns the fandom dossier and role-progression framing. Spritely/Synetha stay WIKI-first because they are compact incident/access-history stories. Usama's late Wall advance is consumed as meaningful profile texture but intentionally not published yet because it remains a thin, image-adjacent two-scene character read rather than a richer standalone dossier.
 
 ## Held / unresolved
 
-- Yassr: exact Discord-account continuity across similarly named historical accounts; employer/residence; cabin location; complete Staff/Game Officer tenure boundaries.
+- Yassr: exact continuity across similarly named historical Discord accounts; employer/residence; cabin location; complete Staff/Game Officer tenure boundaries.
 - Spritely: recruiter/inviter, transfer motive, exact acceptance minute, exact assigned Discord role, exact November `plabn` event identity.
-- Synetha: movie title, watch room, assigned role, duration of access, later UL status; no automatic VIP or alliance claim.
-- ÍKER/Altamar: later chronology and exact costume recurrence.
-- Sakura Zess Maou: exact `Sakura Yami` / `Zess -Virt` identity parsing and exact age; only the adult/minor category is operationally relevant.
-- Rummy pancake: cook, photographer, media ownership and depicted-object chain remain unresolved; Marian remains the confirmed POSTER of the nearby screenshot.
-- Earliest surviving material is not promoted into an origin claim, and SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain separate attribution classes.
+- Synetha: movie title, watch room, assigned role, access duration, later UL status; no automatic VIP/alliance claim.
+- Usama: actual screenshot subjects and media provenance; the behavioral read is conversational, not pixel identification.
+- Snow `FURY/FURRY`: direct Wall-text recurrence is not demonstrated beyond the Dec. 11, 2023 scene.
+- Ren's `Ghoulie ... Icon` wording is not guild-icon provenance.
+- ÍKER/Altamar later chronology; Sakura identity parsing/exact age; Rummy pancake cook/capture/media chain.
+- Earliest surviving is not origin. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain separate.
