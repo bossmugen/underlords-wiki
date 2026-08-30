@@ -34,7 +34,34 @@ export const wall1930Episodes: Episode[] = [
     season: "2023",
     date: "May 31, 2023",
     kind: "Wall procurement disaster / furry accusation becomes influencer strategy and strip-club staffing",
-    logline: "Daya opens with `petition to get ansun in a fur suit`. Ansun's first objection is financial — `You want to get me a thousand plus dollar fur suit for FREE?` — so Daya proposes a Party City and Shein budget build. Ansun promptly decides he'll go viral on TikTok and Douyin and tells them `Go ahead and make me famous; your move`. Account `opalite.honey` supplies `raja woof suit`; Daya upgrades Ansun to `UL's money maker. main attraction for the strip club`; Rummy true-replies to the original petition with `BUNNY BARTENDER OUTFIT`. In about twenty minutes the Wall converts a fur-suit petition into procurement, product naming, influencer strategy, and nightlife staffing. Daya's attached screenshot is probably the trigger but remains visually uninspected, so no costume/model or image provenance is invented.",
-    cast: ["Daya", "Ansun", "Rummy"]
+    logline: "Daya opens with `petition to get ansun in a fur suit`. Ansun's first objection is financial — `You want to get me a thousand plus dollar fur suit for FREE?` — so Daya proposes a Party City and Shein budget build. Ansun promptly decides he'll go viral on TikTok and Douyin and tells them `Go ahead and make me famous; your move`. Mia, posting then as `opalite.honey`, supplies `raja woof suit`; Daya upgrades Ansun to `UL's money maker. main attraction for the strip club`; Rummy true-replies to the original petition with `BUNNY BARTENDER OUTFIT`. In about twenty minutes the Wall converts a fur-suit petition into procurement, product naming, influencer strategy, and nightlife staffing. Daya's attached screenshot is probably the trigger but remains visually uninspected, so no costume/model or image provenance is invented.",
+    cast: ["Daya", "Ansun", "Mia", "Rummy"]
+  },
+  {
+    id: "out-of-context-is-more-fun",
+    title: "If It's Out of Context, It's More Fun",
+    season: "2020",
+    date: "November 14, 2020",
+    kind: "Wall comedy mechanism / Sye requests context and Ren explains why that would ruin the product",
+    logline: "Anthos posts a screenshot. Sye objects that `this is out of context` and says it makes more sense if the entire conversation is included. Ren answers with the Wall's perfect anti-editorial principle: `If it’s out of context is more fun`. This is not a formal Wall rule; it is something better and more human — a participant explicitly recognizing that the crop itself can be part of the joke. The archive therefore catches one of the room's humor mechanisms in plain language: comprehension can lose to comedic timing on purpose. Anthos is POSTED BY for the screenshot. Its pixels, maker, capturer, and featured subjects remain unresolved.",
+    cast: ["Anthos", "Sye", "Ren"]
+  },
+  {
+    id: "gilli-context-hazard",
+    title: "Gilli Is a Context Hazard",
+    season: "2022",
+    date: "September 28 → October 1, 2022",
+    kind: "Wall relationship texture / DiStratus realizes his phrasing becomes dangerous whenever Gilli is nearby",
+    logline: "On September 28 Gilli posts a screenshot and tags DiStratus; he answers that it `can be taken out of context XD`. Three days later Gilli posts another screenshot and tags him again, and DiStratus wonders why he writes so many things that can be taken out of context when Gilli is around before dissolving into repeated wheezing. Across two separate dates the joke becomes relational: DiStratus does not accuse Gilli of fabricating anything. He recognizes that he keeps producing screenshot-shaped sentences in the vicinity of somebody willing to file them. Gilli is POSTED BY for both exhibits; their pixels, makers, capturers, and depicted subjects remain unresolved.",
+    cast: ["DiStratus", "Gilli"]
+  },
+  {
+    id: "no-shame-only-fame-and-cuteness",
+    title: "No Shame Here, Only Fame and Cuteness",
+    season: "2021",
+    date: "March 24 → June 16, 2021",
+    kind: "Wall category evolution / fame stops being only a boast about shame and becomes an explicit positive filing",
+    logline: "The surviving Fame language gets clearer over spring 2021 without giving us a safe absolute origin. On March 24 Ansun boasts `BET its our wall of FAME baby`, using fame as prestige inside the shame machine. On June 16 Ren posts two images and labels them `No shame here, only fame and cuteness`, an explicit positive classification rather than a defendant trying to turn humiliation into clout. That shift helps explain the eventual Shame/Fame double life of the room: `fame` could mean victorious shamelessness, but it could also mean something was simply too cute or good to prosecute. June 16 is the earliest surviving explicit positive Fame classification currently recovered, not proof that Ren invented the category or that this was the first wholesome post. The image subjects remain unresolved. Gilli's later memory that Eos was `our first Fame moment` remains participant memory rather than something this chronology tries to overrule.",
+    cast: ["Ansun", "Ren", "Gilli", "Eos"]
   }
 ];
