@@ -59,6 +59,7 @@ import * as yelikModule from "./character-biographies-yelik";
 import * as yumiModule from "./character-biographies-yumi";
 import * as zeppModule from "./character-biographies-zepp";
 import * as run40Module from "./character-biographies-run40";
+import * as tofu1602Module from "./character-biographies-tofu-1602";
 
 // Existing deep archive-backed bios remain valuable. If a finished long-form narrative
 // has not been written yet, turn the best current deep bio into narrative form rather
@@ -101,6 +102,7 @@ const finishedNarrativeModules = [
   rooksModule, rummyModule, shikiModule, snowModule, suzimasuModule, syeModule,
   tenModule, tofuModule, xephyModule, yassrModule, yelikModule, yumiModule, zeppModule,
   run40Module,
+  tofu1602Module,
 ] as const;
 
 const richBioSources: Array<Record<string, CharacterBio>> = [
