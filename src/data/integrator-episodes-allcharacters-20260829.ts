@@ -18,5 +18,14 @@ export const allCharactersIntegratedEpisodes: Episode[] = [
     kind: "Club Only de-escalation / Yumi notices the joke getting sharp before anybody has to declare a fight",
     logline: "A D.I./Jonith and Suzimasu/Mob exchange starts feeling less funny in real time. Yumi steps in with `calm down both of you`, reminds the room that both people are good guys, warns against letting the exchange get worse, and later explains the intervention with the much quieter `something felt off and i didn't like where this was going`. The wording matters because she does not need a formal incident or a chosen villain before acting; she notices the temperature change and gives both sides a face-saving brake. That makes later Team Mom memory feel behavioral rather than decorative. It also gives the louder Yumi file a useful reverse gear: fake stakes can get `VORE`; when the room starts feeling real, she lowers the temperature. This is one early de-escalation scene, not proof Yumi mediated every conflict or held a formal mediator role, and it does not resolve every detail of the original disagreement.",
     cast: ["Yumi", "Suzimasu"]
+  },
+  {
+    id: "tae-wear-it-with-pride",
+    title: "I'll Wear It With Pride",
+    season: "2020",
+    date: "November 13, 2020",
+    kind: "reciprocal tag war / self-deprecation gets a counter-label instead of a cure",
+    logline: "Tae is already carrying the tag `thaicantthink` when Sword answers with the wonderfully literal counter-offer `thaidoesthink`. Tae's reply is not protest but `I'll wear it with pride.` The joke works because Sword does not rescue Tae from her self-deprecation so much as build a matching label beside it; Tae accepts the tease publicly and turns correction into participation. It is a tiny example of UL affection arriving as metadata warfare: somebody looks at your joke-title, edits the premise rather than the person, and hands you the revised version to wear. This is playful tag language, not a formal rank, job, or durable current role, and the surviving receipt is not enough to certify the absolute first origin of either label.",
+    cast: ["Tae"]
   }
 ];
