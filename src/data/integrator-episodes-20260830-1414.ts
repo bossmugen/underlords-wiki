@@ -18,5 +18,14 @@ export const late1414IntegratedEpisodes: Episode[] = [
     kind: "Lobby age boundary / safety category without surrendering personhood",
     logline: "Ayanokokoro arrives from Zero.Wing after announcing `i heard moviessss` and answers the Lobby's age question on their own terms: `not comfortable saying it but the least i can say is a minor ~~but pls dont baby me~~`. The exact age is deliberately not given and stays that way. What the line does give us is the social negotiation underneath the intake form: Ayanokokoro supplies the safety-relevant category while simultaneously asking the room not to flatten them into it. That sits neatly beside other Lobby scenes where exact-age disclosure gets narrowed to adult/minor status or negotiated in public. The point is not a minor's age; it is agency at the doorway. UL needed to know which safety boundary applied. Ayanokokoro wanted the people on the other side of that boundary to still talk to them like a person. Both facts can be true at once.",
     cast: ["Ayanokokoro"]
+  },
+  {
+    id: "eos-computer-science-to-first-grade",
+    title: "From Computer Science to First Grade in Eight Hours",
+    season: "2021",
+    date: "April 29, 2021",
+    kind: "Ordinary life / the near-finish line accidentally becomes a school memoir",
+    logline: "At 5:12 in the morning Eos types `~~graduates in June~~`; a minute later, `Computer science. I almost done`; two minutes after that, `i dun wanna wait more`. It is a projected June finish, not archive-confirmed completion, and the surviving line gives us the field without an institution or degree level. By early afternoon the room has somehow walked Eos backward through school history. First grade wins because it was fun, they made more friends, and there was plenty of fooling around. Eighth grade loses because it was `drama left and right, a lot of fights and.... more drama`. The sharpest line is pure spectator disbelief: `Whats so interesting about pull-hair fights that gets the whole class to leave the room to watch? Idek`. Eos never says they were in those fights. The nice accident is the shape of the day: somebody impatient to be done with Computer Science spends the afternoon casually measuring the distance back to first grade. Whiskey did not ask for a résumé. It got a life-line because conversation wandered there.",
+    cast: ["Eos"]
   }
 ];
