@@ -14,12 +14,13 @@ import { late2200IntegratedEpisodes } from "../../data/integrator-episodes-20260
 import { late2235IntegratedEpisodes } from "../../data/integrator-episodes-20260829-2235";
 import { late2333IntegratedEpisodes } from "../../data/integrator-episodes-20260829-2333";
 import { early0030IntegratedEpisodes } from "../../data/integrator-episodes-20260830-0014";
+import { early0035IntegratedEpisodes } from "../../data/integrator-episodes-20260830-0035";
 
 export function getStaticPaths() {
   return seasons.map((season) => ({ params: { year: season.year }, props: { season } }));
 }
 const { season } = Astro.props;
-const allEpisodes = [...episodes, ...integratedEpisodes, ...wallIntegratedEpisodes, ...whiskeyIntegratedEpisodes, ...coreIntegratedEpisodes, ...coreRecovery1535Episodes, ...allCharactersIntegratedEpisodes, ...louvreIntegratedEpisodes, ...lateAugustIntegratedEpisodes, ...late1737IntegratedEpisodes, ...late2200IntegratedEpisodes, ...late2235IntegratedEpisodes, ...late2333IntegratedEpisodes, ...early0030IntegratedEpisodes];
+const allEpisodes = [...episodes, ...integratedEpisodes, ...wallIntegratedEpisodes, ...whiskeyIntegratedEpisodes, ...coreIntegratedEpisodes, ...coreRecovery1535Episodes, ...allCharactersIntegratedEpisodes, ...louvreIntegratedEpisodes, ...lateAugustIntegratedEpisodes, ...late1737IntegratedEpisodes, ...late2200IntegratedEpisodes, ...late2235IntegratedEpisodes, ...late2333IntegratedEpisodes, ...early0030IntegratedEpisodes, ...early0035IntegratedEpisodes];
 const seasonEpisodes = allEpisodes.filter((episode) => episode.season === season.year);
 const eraNumber = seasons.findIndex((entry) => entry.year === season.year) + 1;
 ---
