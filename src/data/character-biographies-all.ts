@@ -18,6 +18,7 @@ import * as celeModule from "./character-biographies-cele";
 import * as cookieModule from "./character-biographies-cookie";
 import * as dayaModule from "./character-biographies-daya";
 import * as feliModule from "./character-biographies-feli";
+import * as feliRun38Module from "./character-biographies-feli-run38";
 import * as genGreyModule from "./character-biographies-gengrey";
 import * as ghosttModule from "./character-biographies-ghostt";
 import * as gilliModule from "./character-biographies-gilli";
@@ -91,7 +92,7 @@ import { extendedCharacterBios } from "./character-bios-extended";
 const finishedNarrativeModules = [
   akaminModule,
   alkeyModule, ameModule, anthosModule, chibiterasuModule, chibiterasuRun37Module, celeModule, cookieModule, dayaModule,
-  feliModule, genGreyModule, ghosttModule, gilliModule, hanModule, hishiroCoreModule,
+  feliModule, feliRun38Module, genGreyModule, ghosttModule, gilliModule, hanModule, hishiroCoreModule,
   hyalunaModule, illienModule, kaedeModule, keyModule, lanModule, lillyModule, miaModule,
   momoModule, moonModule, mugenModule, nelphModule, nemoModule, nhouModule, nobuModule,
   noetherModule, nuienModule, oyasumiModule, plateletModule, renModule, rithaModule,
