@@ -36,5 +36,23 @@ export const early0836IntegratedEpisodes: Episode[] = [
     kind: "Lobby access control / Gandalf gets assigned border security without consent",
     logline: "Olenka reaches the Lobby and does not immediately supply the three things Staff need. Gilli asks for `ign, club, and age` and explains that without them `we'll be unable to assign you a role`. Gabu translates the same access-control problem into house language: `Pls ign,club and age or....:` followed by a third-party Gandalf `You Shall Not Pass` Tenor GIF. Anthos, correctly, can only answer `Gandalf 😩`. Olenka later returns with the form completed: Olenka, Forsaken, adult. The bureaucracy is real; the bouncer is Gandalf. Gabu is POSTED LINK BY for the Tenor object, not its maker or capturer, and the later exporter VIP snapshot is not back-dated into this doorway scene as an appointment record.",
     cast: ["Olenka", "Gilli", "Gabu", "Anthos"]
+  },
+  {
+    id: "firelegacy-rank-stack",
+    title: "FireLegacy Speed-Runs Her Old Rank Stack",
+    season: "2021",
+    date: "April 19, 2021",
+    kind: "Lobby archaeology / one rank question uncorks several old Fire Legacy eras",
+    logline: "Gabu asks one ordinary question — `what rank is she?` — and FireLegacy answers like somebody opening nested folders. First: `Staff 😂`. Then: `Leader Infinity, leading elite`. Then, because apparently that still has not emptied the résumé, `what, did we skip fire legacy leadership?!?!` Her visible period title is already `Radiant Asst. Hot Springs Manager`, so the whole exchange lands as accumulated social history rather than a clean org chart. Mugen answers `never knew any of this! lol`; FireLegacy does not make a ceremony of the omission, she just reminds her that she had been gone from FL for a while. Mugen agrees. That mild correction is the best part: FireLegacy remembers the stack as lived history, while Mugen's absence from that stretch is exactly why the pile arrives as news. The scene confirms period role labels FireLegacy herself states, but it does not manufacture exact appointment dates or a formal sequence from exporter-era role arrays.",
+    cast: ["FireLegacy", "Gabu", "Mugen"]
+  },
+  {
+    id: "wall-self-shame-procedure",
+    title: "You Can't Shame Me If I Shamed Myself First",
+    season: "2020–2022",
+    date: "October 2020 – July 2022",
+    kind: "Wall running gag / defendants learn they can apparently file charges against themselves",
+    logline: "The Wall was never only a place where somebody else caught you. By October 2020 Snow is already trying to lawyer the room from inside it: `you cant wall of shame me in the wall of shame room if I shamed myself first 😛`. The line reads like fake procedural immunity — prosecute yourself first and perhaps the court loses jurisdiction. The loophole keeps reappearing in practice. In June 2021 Eos POSTS an image with `gonna just put myself here and head out-`. In August Vanness dispenses with the middleman entirely: `Im putting myself in wall of shame for losing 5 orange dracs for merge. Shame me`, then has to explain four failed merges and concludes `my luck is💩`. In 2022 porgo twice arrives with the same basic move, first `putting myself up here cause im very mad at myself`, later `im exposing myself`, each time POSTING an image. Across the surviving direct-text record, self-filing becomes recognizable house grammar: people can enter their own evidence, request sentencing, or try to preempt the prosecution by beating everybody else to the shame. Snow is the earliest surviving direct formulation recovered so far, not a proven origin, and the Eos/porgo images remain visually uninspected — POSTED BY is the only media claim.",
+    cast: ["Snow", "Eos", "Vanness", "porgo", "Gilli", "Candy", "Ren"]
   }
 ];
