@@ -3,12 +3,12 @@ import type { Episode } from "./wiki";
 export const early0501IntegratedEpisodes: Episode[] = [
   {
     id: "zhenxi-six-ish-minute-wall",
-    title: "Zhēnxī and the Six-ish Minute Wall Speedrun",
+    title: "Zhēnxī Keeps Getting Timed Against the Wall",
     season: "2021",
-    date: "May 21, 2021",
-    kind: "Wall onboarding speedrun / the evidence was already in the room before the welcome",
-    logline: "The old `shamed within 6 minutes of entry` contestant has a name: Zhēnxī. The clock is also much weirder than the shorthand. Ren had already POSTED an uninspected image to the Wall almost three minutes before the Stripclub Bouncer welcomed Zhēnxī in Lobby. Lobby then proceeds with maximum reassurance: Zhēnxī says `*I am scare*`; Ren answers `*uwu*`, checks `Zhen right?`, and sends the server tour. Roughly six minutes after that name check, Ren tags Zhēnxī on the Wall. Zhēnxī immediately detonates: `NOOOOOOOOOOO` and `NOT THE WALL OF SHAME FAME`. Ansun summarizes the event as `shamed within 6 minutes of entry`; Ren asks `New record? Or aesh still holds it?`; Ansun rules that Aesh still does. The important correction is that this is not safely a story about a newcomer committing some post-join offense at record speed: the Wall artifact predates the welcome, its pixels remain unresolved, and the later tag/reaction only establishes a strong local association. A year later the victim has learned the machinery anyway — Zhēnxī POSTS a Ren-centered screenshot, follows with `@RΣN so uh-`, and eventually rules the filing `Deserving`. Public shame did not kill them. It apparently trained another clerk.",
-    cast: ["Zhēnxī", "Ren", "Ansun", "Aeshleen"]
+    date: "July 16, 2020 – May 21, 2021",
+    kind: "Wall onboarding speedruns / apparently this room had a stopwatch",
+    logline: "Zhēnxī gets caught in the Wall's fake speedrun leaderboard twice, and the older scene makes the later one even stupider. On July 16, 2020 Zhēnxī introduces themself with `hi im zhen i joined a few mins ago`; thirteen minutes into the visible doorway Nikki announces `Got on the wall of shame 13 mins into joining. New record maybe?` Rummy immediately knows the supposed benchmark: `Nah aesh holds the record she joined wall of shame 8mins after she joined`. Then May 21, 2021 produces the famous six-ish-minute version. Ren had already POSTED an uninspected Wall image before the Stripclub Bouncer welcomed Zhēnxī in Lobby; Zhēnxī says `*I am scare*`, Ren checks `Zhen right?`, and roughly six minutes later tags them on the Wall. Zhēnxī detonates with `NOOOOOOOOOOO` and `NOT THE WALL OF SHAME FAME`; Ansun calls it `shamed within 6 minutes of entry`; Ren asks whether this finally beats Aesh; Ansun still rules that Aesh holds it. The house clearly enjoyed treating time-to-Wall like a competitive stat, but the wiki does not certify an all-time record or pretend either visible doorway was necessarily Zhēnxī's first-ever UL membership moment. The 2021 exhibit actually predates that welcome, which is why the clock is funnier than it is legally useful. A year later Zhēnxī is POSTING a Ren-centered screenshot themself and eventually ruling the filing `Deserving`. Public shame did not kill them. It apparently trained another clerk.",
+    cast: ["Zhēnxī", "Nikki", "Rummy", "Ren", "Ansun", "Aeshleen"]
   },
   {
     id: "stank-hearings",
