@@ -81,5 +81,14 @@ export const wall1930Episodes: Episode[] = [
     kind: "Wall relationship callback / participant memory resolves Fame to a proposal and the proposal joke keeps reproducing",
     logline: "While the room is trying to remember whether the Fame half of Shame/Fame ever actually got used, Marian supplies the missing noun: `when i posted eos' proposal to me`. Gilli immediately concludes `That means Eos was our first Fame moment`; Marian says it `should get an award for that`. The important boundary is memory, not archaeology — this tells us what the room later remembered as Eos's first Fame moment, not that no earlier positive filing existed. Then May 2022 proves the proposal language was not a one-off: Marian posts an image and asks Eos `WILL YOU MARRY ME????` with the parenthetical `for like the 20th time`. The number is comic exaggeration, but the recurrence is the joke's actual payload. Keep this as recurring fake-proposal / marriage-language between Marian and Eos; it does not establish a real engagement, legal marriage, exclusivity, sexuality, or other real-world relationship status.",
     cast: ["Marian", "Eos", "Gilli"]
+  },
+  {
+    id: "drink-water-reminder-fails-audit",
+    title: "Drink Water Reminder Fails the Hydration Audit",
+    season: "2022",
+    date: "September 14, 2022",
+    kind: "Wall role reversal / Rich inspects the hydration monitor and finds the monitor insufficiently hydrated",
+    logline: "Rich posts `IMG_3118.png`, tags Gabu under her visible `Drink water reminder` name, and diagnoses the problem: `I don’t think @Drink water reminder had enough watah`. The screenshot itself remains visually uninspected, so the Wall cannot safely tell us what Gabu said, did, or looked like inside it. The text is enough for the joke: a nickname that usually functions like public-health signage gets treated as a job title, and Rich has caught the employee violating her own policy. This is a person-specific role reversal inside Gabu's known hydration bit, not a new origin claim.",
+    cast: ["Gabu", "Rich"]
   }
 ];
