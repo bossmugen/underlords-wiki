@@ -1,6 +1,6 @@
 # UL WIKI INTEGRATION STATE
 
-Last dual-surface integration pass: **2026-08-29 19:25 PDT**.
+Last dual-surface integration pass: **2026-08-29 19:29 PDT**.
 
 Full branch consumption state is authoritative on MAIN in `archive-intake/INTEGRATOR_BRANCH_STATE.json`; earlier rolling WIKI states remain in Git history.
 
@@ -14,7 +14,7 @@ Full branch consumption state is authoritative on MAIN in `archive-intake/INTEGR
 - Club-Only 2021–2026: seen/consumed `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`.
 - Core Rooms: seen/consumed `9eb31f2da1eaf9d4068823387ae4e8fb6307ac30`; one-time historical recovery remains closed.
 - All Characters: reviewed/consumed through `66403720821d2559c8b8e5f2699eaedba6d99341`.
-- Wall: forward-reviewed through `d9c579e7414fe6e73893364bc04d5e30000c7ce6`; formal consumed remains null while its older cumulative recovery stays open.
+- Wall: forward-reviewed through `c41fe5b64940b684913f6bfd99f25bd572fa448c`; formal consumed remains null while its older cumulative recovery stays open.
 
 No miner branch was merged or cherry-picked wholesale.
 
@@ -32,16 +32,15 @@ The character payoff is better than a title. Nuien begins as somebody who can tu
 
 Other Run 21 material was reconciled rather than multiplied: Rooks' safety/check-in behavior and explicit streaming-alt disclosure, Aeshleen's low-frequency-but-still-family continuity, Akuma's food-summons callback, Allenne/Anthos and Churro/Ren likely prior familiarity, and Tofu's `Breaking Raja logic for this pic` all remain useful corroboration/secondary character texture but did not need duplicate public objects this run.
 
-### Wall forward suffix — `765429d6… → d9c579e7…`
+### Wall forward suffixes — `765429d6… → c41fe5b6…`
 
-The late 19:04 Wall suffix was caught and reviewed checkpoint-first rather than left invisible.
+The Wall moved twice during the integration window. Both late suffixes were caught and reviewed checkpoint-first rather than left invisible.
 
-- Queen Shimoko's `Crab booty omgsh` is a probable same-scene wording handoff after Mugen's `crabs on the menu tonight`; Rich then inherits it as `Pancake crab booty??`. Queen contributes the phrase; the screenshot pixels remain unresolved.
-- The underlying Discord entity now exported as `☠ Members Only Lounge` snowflake-dates to **2020-04-03 23:00:07.920 PDT**. That dates the channel entity only, not its current name at origin.
-- Mugen's September 2020 `i have a lounge for that` immediately after Ryan X's explicit-content joke is a strong probable lounge redirect, but the destination cannot safely be identified as `☠ Members Only Lounge` because the corpus contains several lounge referents.
-- Matching 2026 guild-icon metadata across exports is snapshot consistency, not a first-use date. `MADE BY Mugen` remains user-confirmed hard canon; inaccessible pixels and historical install chronology remain held.
+The 19:04 pass added Queen Shimoko's probable same-scene `Crab booty omgsh` wording handoff, a machine-old timestamp for the Discord entity currently exported as `☠ Members Only Lounge`, and Mugen's probable generic lounge redirect after an explicit-content joke. The Lounge entity timestamp dates the entity only, not its present display name at origin; the generic redirect cannot safely be bridged to that exact room because several lounge referents survive.
 
-No Wall reader-facing change was accepted this run. The new material is useful provenance/texture but not stronger than the existing public owners yet, and the Wall cumulative recovery remains open.
+The 19:09 pass corrected an earlier too-personal reading of SaraBunny's `moo`: Sept. 1, 2021 has Candy, Ansun, phenomenal_lamb_14960, Ren, Gilli, SaraBunny, and Cookies and Juicebox all participating in `Moo/Mooo` variants, followed by cow media. This is contagious group culture, not Sara as Patient Zero. It also surfaced Marian Kage's Wizard101 `livin the panda dream` wrong-Wall self-filing and Woohyuk's `The goal of mass effect IS sleeping with every character PERIODT` playstyle doctrine.
+
+No new Wall public object was accepted because the two strongest person beats are already publicly owned: MAIN Panda already carries the Wizard101 panda-set scene, and MAIN Woohyuk already carries the Mass Effect line. The shared moo register is a useful culture correction but does not yet need another public object merely to prove review. Wall remains an open cumulative recovery; formal consumed stays null.
 
 ## Public changes
 
@@ -73,5 +72,6 @@ The present WIKI state commit supersedes the reader head only to record this dur
 - Queen Shimoko screenshot pixels and CAPTURED BY / MADE BY / FEATURING.
 - Exact original name/function of the early Lounge entity and whether Mugen's generic `lounge` redirect points to Members Only Lounge.
 - Guild-icon first-use chronology and inaccessible visual contents.
+- Absolute origin of the shared moo/cow register; Sara's Aug. 30 `so much moo` is earlier surviving context, not origin proof.
 - Historical Staff appointment chronology from export-time role arrays.
 - SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain separate.
