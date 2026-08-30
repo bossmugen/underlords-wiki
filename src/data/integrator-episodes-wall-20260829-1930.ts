@@ -41,10 +41,10 @@ export const wall1930Episodes: Episode[] = [
     id: "out-of-context-is-more-fun",
     title: "If It's Out of Context, It's More Fun",
     season: "2020",
-    date: "November 14, 2020",
-    kind: "Wall comedy mechanism / Sye requests context and Ren explains why that would ruin the product",
-    logline: "Anthos posts a screenshot. Sye objects that `this is out of context` and says it makes more sense if the entire conversation is included. Ren answers with the Wall's perfect anti-editorial principle: `If it’s out of context is more fun`. This is not a formal Wall rule; it is something better and more human — a participant explicitly recognizing that the crop itself can be part of the joke. The archive therefore catches one of the room's humor mechanisms in plain language: comprehension can lose to comedic timing on purpose. Anthos is POSTED BY for the screenshot. Its pixels, maker, capturer, and featured subjects remain unresolved.",
-    cast: ["Anthos", "Sye", "Ren"]
+    date: "August 24, 2020 → February 23, 2024",
+    kind: "Running gag / Wall context becomes an editable ingredient rather than a neutral container",
+    logline: "The November 14, 2020 scene is no longer a lonely clever line. Sye says a screenshot is `out of context` and would make more sense with the whole conversation; Ren answers `If it’s out of context is more fun`. The Wall then keeps re-performing the argument for years. Snow praises `out of context perfection`; Panda protests that `a whole meaning and context` is missing while Eos answers `no context is needed wym`; Tofu insists `Context is important`; Mugen yells `OUT OF CONTEXT OUT OF CONTEXT`; Rummy concedes a filing is bad out of context but says context is not making it better; Ansun adds context `for your dignity ❤️` and immediately reminds HamitteY she can take it away again; Rummy later offers to explain context while HamitteY says none is required because the exhibit is funnier as-is. This is not a formal Wall rule and the generic phrase was not invented by UL. It is a recurring editorial game: crop for comedy, demand the missing conversation, restore context as mercy, threaten to remove it again, or discover that the explanation somehow makes the defendant look worse. Anthos is POSTED BY for the 2020 screenshot that anchors the clearest early statement; its pixels, maker, capturer and featured subjects remain unresolved.",
+    cast: ["Snow", "Sye", "Ren", "Panda", "Eos", "Tofu", "Mugen", "Rummy", "Ansun", "HamitteY"]
   },
   {
     id: "gilli-context-hazard",
@@ -110,8 +110,8 @@ export const wall1930Episodes: Episode[] = [
     cast: ["Moon", "Ansun", "Feli"]
   },
   {
-    id: "rummy-body-snatching-very-responsively",
-    title: "Rummy Was Body-Snatching Very Responsively",
+    id: "rummy-body-snatching-very-responsibly",
+    title: "Rummy Was Body-Snatching Very Responsibly",
     season: "2022",
     date: "August 10–11, 2022",
     kind: "Wall defendant procedure / Rummy admits the act, disputes the conditions, then quietly revises the prior-offense count",
