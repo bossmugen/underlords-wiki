@@ -1,6 +1,6 @@
 # UL WIKI INTEGRATION STATE
 
-Last integration close: **2026-08-30 05:42 PDT**.
+Last integration close: **2026-08-30 05:48 PDT**.
 
 Full branch consumption state is authoritative on MAIN in `archive-intake/INTEGRATOR_BRANCH_STATE.json`; earlier WIKI states remain in Git history.
 
@@ -32,7 +32,9 @@ A 2023 Mugen line `That's key BTW ehe` / `@Captain Chihuahua` remains held until
 
 The 05:06 package's best material is already publicly owned by **The Stank Hearings**, so this review does not mint a duplicate. New's `Shamefully hilarious right?` / `touche, chat name is shame fame so 🤷🏻‍♂️` remains useful Wall-literacy texture but is banked for a richer person owner rather than spun into another tiny episode.
 
-The 05:24 package mostly corroborates self-Wall behavior around unresolved user id `412047093723234307`: isolated nonsense, then `Am I the only one who`s writting this shit on the wall? xD`, plus another self-post. That is enough to strengthen the self-snitch/self-filing mechanism, not enough to invent a named identity. The same package preserves `hubby ily` / `ily too` with the counterparty hidden inside the pooled Deleted User placeholder; it stays affectionate joking, not a spouse/partner edge.
+The actual 05:24 keeper is a much smaller social beat. On April 5, 2023, pooled `Deleted User` `456226577798135808` posts `:bl_kisskiss:`. `ничего` / `novikroeva` (`1086393721056141495`) true-replies **`hubby ily`**; the same pooled placeholder true-replies **`ily too:rsLove:`**. Mia's adjacent `mwah from Morgan` is not the structured parent of `hubby ily`, so those arrows stay separate. The affection is real in the text; the biography is not. `hubby` is scene-local participant wording, not evidence of spouse/partner/friend status, gender, sexuality, durable relationship, or a stable identity for the pooled Deleted User. No standalone Episode was created because the scene is better held as future profile micro-texture if `ничего` acquires a richer public owner.
+
+The same Wall package retried the Gabu-sleep rabbit without surfacing an inspectable asset or direct source callback. That is an access/source result, not absence evidence.
 
 Historical Wall recovery did **not** advance past 01:46 because an exact bounded 02:46 handoff was not safely resolved without breaking the no-raw-re-mining rule.
 
@@ -43,8 +45,8 @@ The handoff subject account `488099199938986004` / `sycessences` / `ƐℲı˥` i
 ## Surface split
 
 - **WIKI:** Key's self-audit is an Episode; Mia's banner-maker receipt belongs in her Cast dossier. Both reader changes are green and deployed.
-- **MAIN queued:** Sye's Whiskey-room ordinary-life cluster remains a biography enrichment, pending a MAIN verification run that actually executes.
-- **No duplicate owner:** Wall 05:06/05:24 material was reconciled against existing Episodes/mechanisms instead of multiplied into weaker copies.
+- **MAIN:** Key's exact self-audit already has a Key-profile owner, so no duplicate Mugen paragraph was added. Sye's Whiskey-room ordinary-life cluster remains a biography enrichment, pending a MAIN verification run that actually executes.
+- **No duplicate owner:** Wall 05:06 was reconciled against the existing Stank Hearings episode; Wall 05:24 was held as scene-local profile texture rather than inflated into a standalone relationship or incident page.
 
 ## Holds
 
@@ -52,5 +54,5 @@ The handoff subject account `488099199938986004` / `sycessences` / `ƐℲı˥` i
 - Whiskey/Sye remains publication-blocked on MAIN through reviewed miner head `becfa8f3bc1a244597107a52a3272690a39242d6`.
 - Mia `designer` remains a joke/context label, not a formal role; Han remains Media Director.
 - 2023 Key surrounding media remains uninspected; earliest surviving is not origin.
-- User id `412047093723234307` remains unresolved; do not identity-merge by name resemblance.
-- Pooled Deleted User stays quarantined. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain separate.
+- `ничего` / `novikroeva` has a stable Wall account but no canonical identity/status bridge; pooled Deleted User remains quarantined and cannot be identity-merged across scenes.
+- Gabu sleep remains source/media-bound. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain separate.
