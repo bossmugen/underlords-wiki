@@ -32,26 +32,26 @@ The raw archives were not re-mined. The previously registered late Core mover wa
 
 ## Public changes
 
-### MAIN — Nyanuri gets the small person-shaped file they actually earned
+### MAIN — Nyanuri's evidence is kept, but the roster category stays hard
 
-MAIN now has `src/content/people/nyanuri.md`.
+The Core review produced a strong Nyanuri person-shaped candidate in `src/content/people/nyanuri.md`, but MAIN now keeps it at `publication: review` rather than silently converting a truncated doorway into a public roster category.
 
-The surviving doorway is tiny but unusually coherent. Mugen answers Nyanuri's Lobby arrival with `Yay you made it!`, which makes some pre-door expectation or recognition more likely than a completely cold entrance without identifying the inviter. Within the hour Nyanuri is already saying `hiii friendsss`, calibrating the affection-command pile with `just pat`, then admitting `aww i do like headpats`.
+The evidence itself remains useful. Mugen answers Nyanuri's Lobby arrival with `Yay you made it!`, which makes some pre-door expectation or recognition more likely than a completely cold entrance without identifying the inviter. Within the hour Nyanuri is saying `hiii friendsss`, calibrating the affection-command pile with `just pat`, then admitting `aww i do like headpats`.
 
-Two days later the quieter line lands: `hi I'm not super active, but I just wanted to say y'all are positive and great and make me wanna play more ☺️`. The `but` matters. Nyanuri is not claiming loud-room centrality; they are saying a room they barely fill still changes whether the game feels worth opening. Under the lower-threshold rule, that social-to-game causal read belongs in public. The archive still does not identify who invited/recruited them, prove a club field from the truncated intake answer, or justify invented longevity/rank.
+Two days later comes the cleaner human read: `hi I'm not super active, but I just wanted to say y'all are positive and great and make me wanna play more ☺️`. The `but` matters. Nyanuri is not claiming loud-room centrality; they are saying a room they barely fill still changes whether the game feels worth opening. That inference is accepted. What is not accepted is manufacturing the missing club/member field needed to place them safely into MAIN's public people taxonomy. Lowering the evidence threshold for ordinary texture does not lower the hard threshold for membership/category identity.
 
-MAIN reader commit: `b01976161cf47603c74e82d1b28c827c88e1e837`.
+MAIN's category-boundary correction is commit `e214c4c83558009c3df06222bbb12f31b22b84eb`.
 
-### WIKI — four compact incidents instead of mirroring the biography
+### WIKI — four compact incidents, with Nyanuri treated as a scene participant rather than a guessed roster category
 
 `src/data/integrator-episodes-20260829-2200.ts` is wired into Episodes, dynamic Episode routes, and Seasons.
 
 - **VIP Status for Now** — NEMESIS JANE arrives in Lobby and Mugen says `will assign VIP status for now and full access after contests tonight 🙂`. In this dated case the tiny phrase `for now` makes VIP behave like a practical temporary/staging access state rather than only a fixed ceremonial identity. It does not prove a universal VIP policy or prove the planned later conversion happened.
-- **I'm Not Super Active, But…** — Nyanuri's low-activity compliment gets the bounded incident version while MAIN keeps the fuller person-shaped ownership. The point is not `quiet member = secretly central`; it is that the people themselves were apparently feeding motivation back into the game.
-- **Mutually Assured Exposure** — Panda, posting under historical display `Marian Kage`, and Tony repeatedly turn familiarity into screenshot ammunition. Tony protests public exposure, Marian tells him he makes screenshot material because he loves her, Tony retaliates, and by June Marian herself is answering Tony's return fire with `that'ssprivate`. Neither stays archivist or defendant for long. The affection language is playful friendship texture, not literal romance; the attachments remain visually uninspected.
+- **I'm Not Super Active, But…** — Nyanuri's low-activity compliment gets the bounded incident version without forcing a MAIN roster classification. The point is not `quiet member = secretly central`; it is that the people themselves were apparently feeding motivation back into the game.
+- **Mutually Assured Exposure** — Panda, posting under historical display `Marian Kage`, and Tony repeatedly turn familiarity into screenshot ammunition. Tony protests public exposure, Marian tells him he makes screenshot material because he loves her, Tony retaliates, and by June Marian herself is answering Tony's return fire with `that'ssprivate`. Neither stays archivist or defendant for long. The affection language is playful relationship texture, not literal romance; the attachments remain visually uninspected.
 - **I Swear I Used Deodorant** — Rummy's Wall defense goes `i swear i used deodorant` → `ASK NOBU` → `she knows im stinky`. She effectively calls a witness and then impeaches her own case before the witness reaches the stand. This is participant joke-language, not a literal hygiene diagnosis.
 
-The final reader-content reconciliation head before this state commit, `13f51976b3f4b7788661f44078a5e19ad44b4c0c`, passed **Build Underlords Wiki** run `33294290107`. The repository's Pages workflow for that same exact head was already in progress when this durable state was written; this state commit must itself pass the native build and Pages workflows before the pass is reported closed.
+The reconciled reader-content head `13f51976b3f4b7788661f44078a5e19ad44b4c0c` passed **Build Underlords Wiki** run `33294290107`; a Pages run for that exact head was superseded by the durable-state commits that followed. The final state head must itself pass both native workflows before this pass is reported closed.
 
 ## Duplicates combined / accepted without duplicate publication
 
@@ -64,7 +64,7 @@ The final reader-content reconciliation head before this state commit, `13f51976
 ## Held / unresolved
 
 - NEMESIS JANE's exact operational reason for the temporary VIP staging and whether the planned full-access conversion happened remain unresolved.
-- Nyanuri's inviter/recruiter remains unknown; `Yay you made it!` is expectation/recognition evidence, not recruiter identification.
+- Nyanuri's inviter/recruiter and public roster category remain unknown; `Yay you made it!` is expectation/recognition evidence, not recruiter or membership proof.
 - Kirboto's affection-command senders remain unresolved.
 - ToniTan's `Bilingual problems` is probably self-referential but does not identify languages or background.
 - Wall attachments in the Marian/Tony and Rummy scenes remain visually uninspected. POSTED BY remains distinct from MADE BY / CAPTURED BY / FEATURING.
