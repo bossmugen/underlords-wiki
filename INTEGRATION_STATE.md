@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-08-31 10:15 PDT_
+_Last updated: 2026-08-31 10:17 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Earlier run detail remains in Git history and MAIN's dated `archive-intake/INTEGRATION_PASS_*` reports.
 
@@ -59,9 +59,9 @@ Before Run 71's WIKI state write, current `main` was re-read at `4271d96146d41f0
 
 Reader-facing pages changed: **none**.
 
-MAIN control-plane commits include opening census `5385ad222186cac24d7fe79926c5b0400e2b3edf`, closing branch-state `3ba9a9f1eb6802a327b401f06c60fffcdb47dc12`, and the dated dual-surface Run 71 report on `master`.
+MAIN control-plane commits include opening census `5385ad222186cac24d7fe79926c5b0400e2b3edf`, closing branch-state `3ba9a9f1eb6802a327b401f06c60fffcdb47dc12`, and dated dual-surface report commit `572dbe9f44b203b0ffb3373171c51528afccbe3d`.
 
-The opening census head triggered `UL Hourly Build + Deploy` run `33417562536`. `Build + verify` failed before acquiring executable steps (`steps: null` / no runner execution), logs were unavailable, and deployment was skipped. Source verification, Astro build and built-output verification therefore did not execute. This remains infrastructure failure, not a content-test failure. No reader-facing MAIN change was pushed around the dead gate.
+Exact-head MAIN workflow for `572dbe9f44b203b0ffb3373171c51528afccbe3d` was `UL Hourly Build + Deploy` run `33418167337`: **FAILURE before execution**. `Build + verify` completed failure with no executable steps (`steps: null`), and the Cloudflare deployment job was skipped with no steps. Source verification, Astro build and built-output verification therefore did not execute. This remains infrastructure failure, not a content-test failure. No reader-facing MAIN change was pushed around the dead gate.
 
 Because Run 71 required no MAIN reader change, successful review is enough to consume the All-Characters delta; the unrelated verifier corpse does not justify rereading the same miner suffix forever.
 
@@ -69,7 +69,12 @@ Because Run 71 required no MAIN reader change, successful review is enough to co
 
 Reader-facing pages changed: **none**.
 
-This `INTEGRATION_STATE.md` update is the only WIKI change made by Run 71. It records reconciliation and consumption while preserving concurrent reader/canon work. The build/deploy result for this state update is checked immediately after push and should be treated as the WIKI publication gate for this no-reader-change run.
+Run 71 state head `a812f09e19a5fe8eeacf1384abd3b5a48fcf2ee8` passed both existing publication gates:
+
+- Build Underlords Wiki `33418219620`: **SUCCESS**.
+- Deploy Underlords Wiki Preview `33418219589`: **SUCCESS**, including the Pages deployment.
+
+This state-only update therefore built and deployed cleanly while preserving the concurrent Cookie hard-canon correction. No character page was changed merely for run visibility.
 
 ## Consumption / next boundary
 
