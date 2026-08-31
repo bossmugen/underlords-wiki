@@ -8,34 +8,28 @@ import { lateVipCharacterBios } from "./character-bios-vip-late";
 export const run39CharacterBios = {
   rich: {
     ...vipCharacterBios.rich,
+    dek: "DragonRich, former Amaurot leader, UL VIP, and the neighboring-club boss who was already building rooms bigger than one club before Amaurot later merged under UL.",
     overview: [
-      "Rich / DragonRich is the former leader of Amaurot and a durable UL VIP. The old rank belongs to another club, not the Underlords command tree. What carries across the boundary is much more useful for a character page: Rich has a systems brain, and UL eventually gives that systems brain increasingly stupid systems to operate.",
-      "The serious version appears first. Snow treats Rich as the obvious Amaurot-side contact, and Mugen advertises an S10-wide channel created by DragonRich. Later the same instinct survives inside UL's fake institutions. A stripclub premise gets a venue ruling. A Panda problem gets routed to Eos. A Wall speedrun gets a theoretical minimum. `Drink water reminder` somehow fails a hydration audit. Rich rarely cancels the premise; he checks the procedure.",
-      "Then Fight Club gets turned into his couch. By the late voice-room years, people are listening to Rich cook, waking up to his voice, or considering a game because he is showing it. The scale collapses from interclub infrastructure to digital living room, but the social motion stays recognizable: make the room usable, let people gather, then apparently become part of the furniture."
+      "Rich / DragonRich is the former leader of Amaurot and a durable UL VIP. His old rank belongs to another club, not the Underlords command tree. The cleanest surviving character beat is appropriately infrastructural: in April 2020 Mugen identifies DragonRich as Amaurot Leader while advertising an S10-wide channel he created for anyone interested.",
+      "That is a small but useful read on how Rich moved through the server. He was not only guarding one roster; he was willing to make a room above the club boundary. Amaurot later merged under UL, but the old Amaurot title stays where it belongs and does not become a retroactive UL Officer appointment."
     ],
     history: [
-      { date: "April 2020", title: "Amaurot-side contact", text: "Snow asks Rich whether anyone else from Amaurot wants in; five days later Mugen advertises an S10-wide channel created by DragonRich. External leadership and UL familiarity coexist without inventing a UL Officer appointment." },
-      { date: "September 2021", title: "Funcle Rich remembers the audience", text: "Rich stops himself from posting an `underlord’s underground strip dungeon` joke because Platelets can see the page. Ren immediately answers with `Funcle rich thinking of his 100+ nephews`, and Zyrcant deadpans that this is a lot of nephews. The family language is a joke; the self-filtering is real behavior." },
-      { date: "2021–2022", title: "If the nonsense exists, check the procedure", text: "Across five Wall scenes, Rich accepts UL's absurd premise and applies its internal logic: stripclub jurisdiction, Panda routing, Snow losing bodies, Wall-speedrun math, and a hydration reminder that apparently did not have enough watah. It is a recurring behavior pattern, not a formal compliance job." },
-      { date: "2022–2023", title: "Fight Club gets upholstered", text: "Rich calls himself the stripclub couch potato, later remembers Fight Club VC `before it got turned into my couch`, and keeps being routed back to that couch in later jokes. A screaming event room mutates into his social habitat." },
-      { date: "October–December 2024", title: "The couch becomes a living room", text: "Sye reacts to an apparent cooking/hangout session, Momo says Rich's voice startled her awake, and Tae considers downloading a game because Rich is showing it. Sparse typing from Rich does not mean sparse social presence." }
+      { date: "April 2020", title: "A room above club boundaries", text: "Mugen identifies DragonRich as Amaurot Leader and advertises an S10-wide channel he created for anyone interested. It establishes cross-server infrastructure without claiming the channel caused the later merger." },
+      { date: "Later", title: "Amaurot merges under UL", text: "The merger is user-confirmed canon. Rich remains filed as VIP; external leadership history is not rewritten as a UL command career." }
     ],
     characterNotes: [
-      { title: "He checks the procedure", text: "Give Rich a real system and he connects rooms. Give him a stupid system and he will still ask whether it is being operated correctly. The continuity is funny precisely because the stakes change while the reflex does not." },
-      { title: "Funcle is house language, not genealogy", text: "The nickname follows Rich into the Wall after he remembers Platelet visibility. It is affectionate comedy attached to adult self-filtering, not a literal uncle relationship or a childcare title." },
-      { title: "Couch potato by self-report", text: "Rich repeatedly accepts the couch as his natural habitat, including `ramen butt` sleep-through-it logic. Human furniture is a recurring place-role, not governance." }
+      { title: "Build the bigger room", text: "The safest person-level throughline is simple: Rich enters UL history already thinking beyond one club's walls. The S10 channel is a concrete act of bridge-building, not a ceremonial title." }
     ],
+    roleNotes: ["Primary shelf: VIP.", "Former Amaurot leader; external-club context only."],
     claims: [
       { text: "On April 12, 2020, Mugen identified DragonRich as Amaurot Leader and advertised an S10-wide channel he created.", evidence: "archive-confirmed", date: "2020-04-12" },
-      { text: "Across five Wall scenes from September 2021 through September 2022, Rich repeatedly accepted an absurd UL premise and applied its internal logic: stripclub venue rules, Panda routing, Snow's body-loss context, Wall-speedrun math, and a hydration-reminder joke.", evidence: "wall", date: "2021-09-06 → 2022-09-14" },
-      { text: "On December 31, 2022, Rich remembered Fight Club VC `before it got turned into my couch`, establishing the room genealogy without dating the exact rename.", evidence: "voice-room history", date: "2022-12-31" }
+      { text: "Amaurot later merged under UL.", evidence: "user-confirmed", date: "later" }
     ],
     canonNotes: [
       "Rich = DragonRich. Ricochet / `dragonrichard` is unresolved and must remain separate unless a direct bridge appears.",
+      "Do not assign Wall/couch/Fight Club/`Richard's Corpse` material labeled Rich/Ricochet to DragonRich while that identity split remains unresolved.",
       "Rich's Amaurot leadership is external-club context and does not create a UL Officer or Director appointment.",
-      "The Wall procedure/routing pattern is character behavior, not a formal operations/compliance role.",
-      "`Funcle Rich` / `100+ nephews` is fictive-family language, not literal genealogy or a count.",
-      "Recurring couch language is a social place-role, not a formal title."
+      "The S10 channel proves cross-server infrastructure, not the cause or date of the later Amaurot → UL merger."
     ]
   },
 
