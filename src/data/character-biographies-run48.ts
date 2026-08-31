@@ -34,3 +34,4 @@ export const run48NarrativeCharacterBios: Record<string, CharacterNarrative> = {
 
 export { run49NarrativeCharacterBios } from "./character-biographies-run49";
 export { run50NarrativeCharacterBios } from "./character-biographies-run50";
+export { run55NarrativeCharacterBios } from "./character-biographies-run55";
