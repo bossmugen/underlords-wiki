@@ -2,7 +2,7 @@ export const vipCharacterBios = {
   rich: {
     dek:"Amaurot leader, UL VIP, interclub switchboard, and the man whose S10 bridge-building eventually shrank into people hanging out in his digital kitchen.",
     overview:[
-      "Rich / Ricochet / DragonRich is an UL VIP and the former leader of Amaurot, one of S10's opening-era top three clubs. That old rank is external-club history, not a UL command appointment; the VIP shelf is exactly what lets the wiki preserve both facts without pretending Amaurot leadership transferred into Underlords.",
+      "Rich / DragonRich is an UL VIP and the former leader of Amaurot, one of S10's opening-era top three clubs. That old rank is external-club history, not a UL command appointment; the VIP shelf is exactly what lets the wiki preserve both facts without pretending Amaurot leadership transferred into Underlords.",
       "The 2020 archive catches Rich doing something more useful than merely carrying a title. Snow asks him whether anyone else from Amaurot wants to join, treating him as the obvious contact point. Five days later Mugen advertises an S10-wide channel Rich created. The tiny social mechanics matter: before any later merger, people were already moving through doors Rich stood near.",
       "By late 2024 the scale is almost comically domestic. Richard's Corpse is full of other people reacting to Rich apparently cooking, talking, streaming, and showing games while Rich himself leaves little text. The old interclub bridge has become a living room: people still cross into the space because Rich is there."
     ],
@@ -17,7 +17,7 @@ export const vipCharacterBios = {
       {title:"Voice-channel data trap",text:"Rich can be socially central while barely typing. The surrounding text is evidence of attention organized around him."}
     ],
     roleNotes:["Primary shelf: VIP.","Former Amaurot leader; external-club context only."],
-    canonNotes:["Amaurot leadership does not transfer into UL command.","Rich creating an S10 channel does not prove that channel caused the later merger.","Sparse VC text is not evidence of sparse VC participation."]
+    canonNotes:["Rich = DragonRich. Ricochet / dragonrichard is a separate unresolved identity and must not be merged into Rich.","Amaurot leadership does not transfer into UL command.","Rich creating an S10 channel does not prove that channel caused the later merger.","Sparse VC text is not evidence of sparse VC participation."]
   },
 
   zyrcant: {
@@ -61,40 +61,45 @@ export const vipCharacterBios = {
   },
 
   syv: {
-    dek:"Amaurot-provenance VIP whose clean file is deliberately smaller after removing scenes that actually belonged to Sye.",
+    dek:"Amaurot-provenance VIP with a dry little survival instinct: count what still works, say the limit, keep moving.",
     overview:[
-      "Syv / Syv the Adorable / syveon is a current UL VIP with Amaurot provenance. Her dossier is intentionally modest because a previous identity error had borrowed Sye's bot-console and system-alert scenes. The stable Syv account is 197521779177029632 / syveon; Sye's sycessences account is a different person.",
-      "Once the bad join is removed, the surviving Syv voice is still specific. Rich asks how organic chemistry is going; Syv reports a C after a test so bad the class needs a review day, then immediately decides 'I'm counting that as a pass' because she expected worse. Relief lasts seconds before she sets the next target and says she will make it up on other tests.",
-      "Three months later Rich asks her to send ramen after Syv points out that he disappeared for weeks. Five seconds later: 'I'm broke.' One scene is academic salvage, one is noodle procurement, but both use the same useful motion: decide what still counts, state the limit, move on."
+      "Syv / Syv the Adorable / syveon is a current UL VIP with Amaurot provenance. Her clean file is smaller than an older version because Syv and Sye are different people; what remains is plenty specific enough to stand on its own.",
+      "When organic chemistry hands her a C after a test bad enough to trigger a class review day, Syv decides she is counting it as a pass because she expected worse — then immediately names the next target and plans to make the points up elsewhere. Relief gets about five seconds before logistics takes over.",
+      "Three months later she notices Ricochet has disappeared for weeks. He answers that he is busy and, almost immediately, asks her to send ramen. Syv's answer is simply 'I'm broke.' The return gets no ceremony. He is back, the joke resumes, the ramen budget is denied."
     ],
     history:[
-      {date:"October 2021",title:"A C can still count",text:"Syv reframes one ugly organic-chemistry result against worse expectations, then immediately names a B target and a make-up plan. It is one test sequence, not an academic personality diagnosis."},
-      {date:"January 2022",title:"Ramen budget veto",text:"Syv tells Rich he disappeared for weeks. He asks for ramen. She answers 'I'm broke.' The exchange gives relationship texture and a clean boundary without proving a literal lasting financial condition."}
+      {date:"October 2021",title:"A C can still count",text:"Syv reframes one ugly organic-chemistry result against worse expectations, then immediately names a B target and a make-up plan."},
+      {date:"January 2022",title:"Ramen budget veto",text:"Syv tells Ricochet he disappeared for weeks. He says he is busy, asks her for ramen, and gets 'I'm broke.' Their familiarity survives the gap without needing a reunion speech."}
     ],
     characterNotes:[
-      {title:"Practical reframing",text:"A cautious synthesis from the two clean scenes: Syv tends to state what is still workable without decorating it."}
+      {title:"Count what still works",text:"A bad test becomes a pass relative to expectations, then a plan. Syv is very good at refusing to make a survivable problem more dramatic than it needs to be."},
+      {title:"Ramen funding denied",text:"Ricochet comes back from a peer-described weeks-long disappearance and asks her for food almost immediately. Syv does not reward the audacity with sentiment. She gives him a budget update."}
     ],
     roleNotes:["Primary shelf: VIP.","Amaurot provenance."],
-    canonNotes:["Syv is not Sye.","Do not restore the misattributed Saber/system-alert scenes to Syv.","The archive does not yet provide a clean first-door scene for Syv."]
+    canonNotes:["Syv is not Sye.","Ricochet / dragonrichard is not canonical Rich / DragonRich; keep them separate.","Do not restore the misattributed Saber/system-alert scenes to Syv.","The archive does not yet provide a clean first-door scene for Syv."]
   },
 
   woosung: {
     dek:"Former ScarletMoon leader, VIP with a permanent Platelet tag, Cele's real-life cousin, and the woman whose practical care keeps arriving before her denial paperwork.",
     overview:[
-      "Woosung / WOO / Woo Woo is a woman and current VIP whose file also carries permanent Platelet history and former ScarletMoon leadership context. She is the female cousin of Mugen's ex; she is not Mugen's ex. That distinction matters because Woo's own later account describes an independent bond with Mugen: close friend, older-sister-like guide, someone she can talk to about anything.",
-      "The archive catches Woo before the paperwork does. She is already in Lobby on April 8, 2020, joking about her hair and using the bot. In July she later writes 'Hi Woosung.....idk what else' and Snow adds a role. The sequence is a lovely warning against treating an intake-looking message as the moment a person came into existence.",
+      "Woosung / WOO / Woo Woo is a woman and current VIP whose file also carries permanent Platelet history and former ScarletMoon leadership context. She is the female cousin of Mugen's ex; she is not Mugen's ex. Her own relationship with Mugen became independently close enough that Woo describes her as a close friend, older-sister-like guide, and somebody she can talk to about anything.",
+      "Woo is already comfortable in Lobby by April 2020: complaining that her hair refuses to behave, using the room bots, and lobbying Snow for a K-pop game before the BL room she has apparently been handed instead. Snow's 'yes yes I know' is the best part. This is not a new preference being entered into a form; this is a familiar request returning to court.",
       "Her social register can be brutally compact — 'ANTHOS' followed by 'I found someone to simp' and then 'in genshin'; years later 'NOBU' followed by 'TRAITOR.' But April 2023 gives the contradiction teeth: Woo offers practical neck-pain advice, Moon notices that this means she cares, and Woo spends the rest of the scene trying to deny the framing without actually denying the care."
     ],
     history:[
-      {date:"April 2020",title:"Already here",text:"The stable WOO account appears in Lobby months before the later self-introduction / role-add scene. Presence and paperwork are different events."},
+      {date:"April 2020",title:"Hair disaster, K-pop lobbying",text:"Woo complains that her hair is a mess, says K-pop when Snow lists possible Discord games, and protests that she wanted a K-pop game before the BL room. Snow answers 'yes yes I know' and promises a someday. The tiny negotiation sounds very much like an established household request."},
       {date:"September 2020",title:"Real cousin inside a fake-family map",text:"The Tumbleweed lists Celeana–Woosung as cousins; this one edge is literal because Cele and Woo's real-life cousin relationship is independently confirmed."},
       {date:"2020–2023",title:"Name first, verdict second",text:"Anthos gets a genshin-simp declaration; Nobu gets 'TRAITOR.' The format recurs without proving romance or actual betrayal."},
       {date:"April 2023",title:"Care, then catastrophic denial",text:"Woo gives useful neck-pain advice; Moon teases that she cares; Woo answers 'shut up moon,' denies being tsun, then insists 'I don't not care about anyone here.' Chronology is rude to the defense."},
+      {date:"April 2023",title:"Too much Hall of Shame, apparently",text:"Woo says she needs to talk less because she has so much material on the Hall of Shame. Moon answers, 'No no you famous uwu.' Woo responds in exactly the correct emotional register: crying and skull reactions."},
       {date:"May 2023",title:"Mugen in Woo's own words",text:"Woo describes Mugen as close friend, grown-up version of herself, older-sister-like guide, and one of her earliest close Raja relationships. This is Woo's independent relationship, not ex-partner residue."}
     ],
     characterNotes:[
-      {title:"Compressed verdicts",text:"Point at the defendant, then issue the ruling. A recurring joke delivery, not evidence that every target did anything wrong."},
-      {title:"Care before disclaimer",text:"The 2023 Whiskey sequence is funny because the useful advice exists before Woo starts arguing with the room's interpretation of it."}
+      {title:"K-pop before BL, thank you",text:"Woo knows which side-room indulgence she actually asked Snow for and is willing to lodge the complaint when he hands her a different one first."},
+      {title:"Hair refuses orders",text:"One of her earliest tiny complaints is that she wishes her hair would stay put because it is a mess. Former club leader, defeated by follicles."},
+      {title:"Name first, verdict second",text:"Point at the defendant, then issue the ruling. Anthos gets 'simp'; Nobu gets 'TRAITOR.' Efficient prosecution."},
+      {title:"Care before disclaimer",text:"Useful neck advice arrives first. The argument over whether this means she cares only starts after Moon notices what she already did."},
+      {title:"Talking less has not solved the Wall problem",text:"Woo herself notices that talking gives the Hall of Shame too much material. Moon's answer — 'No no you famous uwu' — is less reassurance than a branding strategy."}
     ],
     roleNotes:["Primary shelf: VIP.","Permanent Platelet tag/history.","Former ScarletMoon leader; external-club context."],
     canonNotes:["Woosung is a woman and is not Mugen's ex.","Cele and Woosung are real-life cousins.","Historical role arrays do not override the locked primary shelf."]
