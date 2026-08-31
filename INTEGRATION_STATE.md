@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-08-30 17:37 PDT_
+_Last updated: 2026-08-30 17:51 PDT_
 
 ## Current dual-surface integration state — Wall late-mover close
 
@@ -71,14 +71,26 @@ WIKI owns these reader changes because they deepen the existing Wall Domain and 
 
 Those two additions were already landed by the concurrent reader commit chain (`1fe9978b31fe69ee6fc890930a8624e1b90ac11f` plus wiring head `5480c2098d472365c6bfce0e2e7dfde2205e65bd`), so this reconciliation did not create duplicate prose. Exact-head WIKI checks for `5480c2098d472365c6bfce0e2e7dfde2205e65bd` are green: **Build Underlords Wiki `33344957540` success** and **Deploy Underlords Wiki Preview `33344957602` success**.
 
-### Held / identity safety
+### Ricochet superseding publication decision
 
-Whiskey's new Ricochet material is genuinely rich person texture — anime and One Piece links, recurring Blackpink/K-pop sharing, a brief phone/gadget joke spiral, Raja used as the unit of game-grind measurement, South Texas weather complaints, a Cheesecake Factory favor for Marian, and the self-lines `Because I’m wonderful` / `I’m a peach`. The miner proposed **Ricochet = Rich** from account name `dragonrichard` plus the separate hard lock **DragonRich = Rich**. That bridge is **not accepted here** because project safety explicitly forbids identity inference from similar names without a direct bridge. Ricochet remains unresolved relative to Rich; the material stays held rather than being attached to Rich or spawning a potentially duplicate Cast identity.
+The earlier hold was about **identity merging**, not about the underlying person texture. A subsequent reader commit safely solved the ownership problem without violating the hard rail: **Ricochet is now published as a separate archive identity, explicitly not merged to Rich**. The page keeps account `dragonrichard` and rendered identity Ricochet together because that is the stable account record, while the Rich equivalence remains unresolved.
 
-Whiskey's older accepted Sye/Life material is still MAIN-owned/publication-blocked. Hard correction remains **`sycessences` / `ƐℲı˥` = Sye/Life, not Effie**. Therefore Whiskey's formal consumed SHA does not advance through the blocked span even though this new suffix has been successfully reviewed.
+The public dossier carries the useful human material: Ricochet's habit of sharing tastes by dropping the object itself rather than narrating a preference list; anime and One Piece familiarity; recurring Blackpink/K-pop; the brief phone museum; Raja used as the communal unit of game-grind damage; his own `Way to freaking cold for south texas`; the unresolved future-wedding idea without pretending the linked video is known; and Panda's Cheesecake Factory report `but no cheesecake`. The last line works because the favor lands as practical care and the thank-you instantly acquires a tiny complaint ticket.
+
+Reader head `53240644c93ee5c17848a2207feac715aa0b2e43` is green:
+- **Build Underlords Wiki** `33345567647` — **success**.
+- **Deploy Underlords Wiki Preview** `33345567594` — **success**.
+
+The identity fence remains absolute: **Ricochet ≠ Rich unless and until a direct bridge appears.** No similar-name inference was accepted.
+
+### Whiskey state
+
+Whiskey's older accepted Sye/Life material is still MAIN-owned/publication-blocked. Hard correction remains **`sycessences` / `ƐℲı˥` = Sye/Life, not Effie**. Therefore Whiskey's formal consumed SHA does not advance through the blocked span even though the Ricochet suffix itself has now been successfully reviewed, published, built and deployed.
 
 ### Consumption decisions
 
-Once the corresponding public/durable checks are complete, Daycare may advance consumed through `d5f4f82679cb8378dba362c33ab94492d8053270`; Mugen may advance through `fea5d27cafda37417c3fbb76de678d05a6b8998c`. Whiskey remains formally consumed only through `6cd5f9daeb20d77fad20e3cd7465ec938411993d`, with review-through noted separately at `3d6c00c103c2cae36a707c0452c6c34bc404357b`.
+- Daycare may advance consumed through `d5f4f82679cb8378dba362c33ab94492d8053270`.
+- Mugen may advance through `fea5d27cafda37417c3fbb76de678d05a6b8998c`.
+- Whiskey remains formally consumed only through `6cd5f9daeb20d77fad20e3cd7465ec938411993d`, with review-through noted separately at `3d6c00c103c2cae36a707c0452c6c34bc404357b`.
 
-No MAIN reader copy was mirrored from Moon or Mugen: these exact additions already have the right Cast owners on WIKI, while MAIN's richer outstanding obligation remains Sye/Life biography texture once its verifier can actually run.
+No MAIN reader copy was mirrored from Moon, Mugen or Ricochet. WIKI owns these exact dossier-shaped additions; MAIN's richer outstanding obligation remains Sye/Life biography texture once its verifier can actually execute.
