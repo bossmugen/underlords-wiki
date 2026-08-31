@@ -1,8 +1,8 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-08-30 18:42 PDT_
+_Last updated: 2026-08-30 18:54 PDT_
 
-## Current dual-surface integration state — 18:15 pass close
+## Current dual-surface integration state — 18:43 pass close
 
 The lower-evidence project rule remains binding. Hard canon locks, resolved identities, privacy/safety, explicit contradictions, appointment chronology, and attribution fences stay hard; persuasive ordinary human reads do not need courtroom-proof wording.
 
@@ -10,66 +10,57 @@ The lower-evidence project rule remains binding. Hard canon locks, resolved iden
 
 - **49 tracked miner identities = 28 active remote refs + 21 historical/missing; 0 newly discovered; 0 finite pending; 0 backlog; 0 overdue.** Both Club-Only recovery branches remain fully consumed/current.
 - All Characters is reviewed and public/consumable through `111851bebb7def0b74912dcc533193a453992232`.
-- Core is reviewed through `8d4ea9f75956eab681c2580d5481f7c03a111f42`; retrieval failures remain runtime/source-access limitations rather than historical negatives.
-- Daycare is checkpoint-first reviewed and consumed through `8d8d867f7125dbdfaa87747be3d1c3aaba4e07fd`.
-- Whiskey is checkpoint-first reviewed through `c08359fa336f829a58f104c9211c3ff26d700881`; formal consumed remains `6cd5f9daeb20d77fad20e3cd7465ec938411993d` because earlier accepted Sye/Life material remains MAIN-publication-blocked. Hard correction: **`sycessences` / `ƐℲı˥` = Sye/Life, not Effie**. **Meowk = Alkey remains probable; Key ≠ Alkey remains hard.** Ricochet / `dragonrichard` remains a separate archive identity from Rich unless a direct bridge appears.
-- Mugen person-first is checkpoint-first reviewed and consumed through `7b4ff4dbf31e7c47d376fc556f2dabcb5366e549`.
-- Wall is checkpoint-first forward-reviewed through `9f794a9f296633c6e7d1419c9d4a29b8e7e89800`. Formal consumed remains null while cumulative recovery remains open. The current checkpoint explicitly says the quarry is **not exhausted** and records rails through 496–507; raw archives were not re-mined.
+- **Core Rooms + Events is now checkpoint-first reviewed and consumed through `dab2f5465ae7bc61df33aa73c132c6ec60d54d1e`.** It advanced twice during this integration run: the opening census registered `5fa1861edafc34381881ed54fbdcc002f2ff57ac` before deep review, then the mid-run census caught the derivative handoff suffix through `dab2f5465ae7bc61df33aa73c132c6ec60d54d1e` and registered that head before reviewing it. No raw archive was reopened.
+- Daycare remains consumed through `8d8d867f7125dbdfaa87747be3d1c3aaba4e07fd`.
+- Whiskey remains checkpoint-first reviewed through `c08359fa336f829a58f104c9211c3ff26d700881`; formal consumed remains `6cd5f9daeb20d77fad20e3cd7465ec938411993d` because earlier accepted Sye/Life material remains MAIN-publication-blocked. Hard correction: **`sycessences` / `ƐℲı˥` = Sye/Life, not Effie**. **Meowk = Alkey remains probable; Key ≠ Alkey remains hard.** Ricochet / `dragonrichard` remains a separate archive identity from Rich unless a direct bridge appears.
+- Mugen person-first remains consumed through `7b4ff4dbf31e7c47d376fc556f2dabcb5366e549`.
+- Wall remains checkpoint-first forward-reviewed through `9f794a9f296633c6e7d1419c9d4a29b8e7e89800`. Formal consumed remains null while cumulative recovery remains open; the quarry is still explicitly not exhausted. Raw archives were not re-mined.
 - No miner branch was merged or wholesale cherry-picked into either publishing branch.
 
 ### Public additions this pass
 
-**Moon's front desk has become a recurring enemy NPC.** The same stable Moon account is now supported across at least seven distinct newcomer/check-in encounters between January 2022 and April 2026. The cleanest one is September 2023, when Moon explicitly writes `*returning UL member*` and says she temporarily quit Raja. Other passes catch her asking `What?`, asking what an IGN is, supplying the fields again in 2024, and finally answering a 2026 bouncer prompt with `Why 😭`. The exact technical cause remains unresolved — rejoin, role loss, permission churn, or bot behavior could each contribute — but seven front desks are plainly not seven first introductions. The machine keeps asking who Moon is while the humans keep acting like they already know.
+**STAFF VACATION was an actual procedure, not decorative role soup.** On December 22, 2020 Shayduh apologizes because real life has been chaotic and asks who to message if they will be away for a while. A direct reply gives the operational answer: message somebody with a higher role and they can put you in `staff vacation`; the same reply immediately says life will always matter more than gaming. Anthos follows with `irl is always first priority!` and tells Shayduh to come back rested and happy when ready. WIKI now preserves the mechanism and the tone together. The likely practical read is an inactivity-preservation / hold status, strengthened by Mugen's older `saved your account on vacation uwu` line, but exact eligibility, Discord-role versus Raja-roster implementation, return mechanics, and the five-month Titania question remain unresolved. The name **STAFF VACATION** also does not prove the mechanism was limited to people holding the Staff role.
 
-**Ricochet's quietness gets noticed.** Panda tells him `I’ve missed you .. where the heck have you been? 🥺 no response when I asked how you were doing`; Ricochet answers that he replied whenever he was available; Ren says she is glad he is okay; Panda closes with `Love you Ric 😘 just don’t want to ignore you even if we’re all busy`. The later line about being `Just home... like most of the past almost 2 years...` gives the quietness ordinary-life backdrop without supplying a cause. This is reciprocal familiarity and check-in behavior, not a friendship ranking and not a license to merge Ricochet into Rich.
+**The Lobby did not stop at admission; sometimes the bouncer handed you the party flyer.** After radiance's December 10 intake, Mugen assigns the unnamed role and immediately invites them into live Mafia. Two days later Shayduh gets the role, server map, and a pointer to the Christmas movie marathon already streaming in the theatre; KiuLiu receives the same live-event routing. The repeated behavior is now explicit enough to describe: intake could hand somebody directly into whatever social thing was alive at that moment. The invitation does not retroactively prove why any individual came to the Lobby.
 
-**The Wall develops curation and appeals.** Ren marks filings `Personal favorite` and `saved as favorite`; Mugen later has `My favorites tonight` and a `personal favorite`. Torr complains that Tae saved a `completely ambiguous comment` Torr had tried to delete. Tae asks Ren for context on a filing; days later Eos responds to Marian/Panda's filing with a second attachment literally named `prooooooof.png`. In another scene ShiyaX posts `Believing is Seeing 🤔 ?`, pooled Deleted User counterfiles and alleges an edit, and Shiya replies `Your’s say (edited)`. Nobody is declared correct. The useful cumulative read is that Wall screenshots were not sacred scripture: people ranked them, preserved deleted material, demanded context, supplied supplemental exhibits, and disputed versions. The evidence locker accidentally invented appellate procedure.
+**Drink Water Reminder's Gandalf gate was recurring.** During radiance's intake DWR posts the same third-party `YOU SHALL NOT PASS` Tenor already recovered during Olenka's November 27 intake. Two separated newcomer scenes are enough to make it a recurring gatehouse bit rather than one accidental GIF. The access rule stays real; the bouncer gets theatrical. Attribution stays clean: POSTED BY DWR, third-party media, not MADE BY DWR, pixels not independently inspected in this mining pass.
 
-**Mugen's favorite-receipt language belongs to that Wall family, not a duplicate character incident.** Her late person-first suffix corroborates that she was an active curator of funny filings. A separate `Rich privileges 😄` scene was held because its intended target depends on the unresolved Ricochet/`dragonrichard` ↔ Rich identity bridge. Similar names still do not get to do identity work.
+These additions live on WIKI's Domains/Locations surface because they deepen room mechanics and lookup context without cloning another main-site essay. MAIN already owns the broader canonical Lobby story — human concierge desk, Stripclub Bouncer, re-entry, age/role routing — so this pass does not mirror the same paragraphs there merely to duplicate them.
 
-### Duplicate / corroboration handling
+### Reviewed but not separately published
 
-- Nobu's 2024 re-intake was already public and was not cloned into another return episode.
-- Mugen's Wall favorites were folded into the existing Wall/Domain evidence family rather than becoming a tiny standalone Mugen page.
-- Tofu/Cookie's later retrieval/exposure prelude strengthens the existing reciprocal-exposure story, but the missing screenshot and already-public relationship owner make another duplicate unnecessary.
+- **Shayduh / shayyelly** is now a thin/high-signal profile candidate: `Shayduh / Underlords / 24` on December 12, then the absence/vacation question ten days later. The apology and emoji wording support scene-level concern about handling absence correctly; they do not justify permanent personality labels or invented details about what made life chaotic.
+- **Oni** has confirmed Mobile Legends play and a wonderfully compact `Play with me` → `Anyone` → `Mobile legends` solicitation. `Onikage` remains unresolved because the nearby Dragon Raja screenshot was not inspected and surrounding banter is not an identity bridge.
+- **kenn / SageHero** directly gives `S3 NA` and `Originally s6 but u know server merges`; exact official S6→S3 merge chronology remains open. Mugen saying `hiii kenneth` is not promoted into a real-world identity bridge by itself.
+- **euphorysm** directly gives S11 Bronze Maze and age 20; `Strategy` is the likely/high club parse from the intake-field order, but a second club receipt is still preferable before hardening it.
+- The later Core suffix from `5fa1861e…` to `dab2f546…` contained checkpoint/site/people/incident/media handoffs derived from the same 18:31 receipt family. It was reviewed and consumed, but it did not create a second public incident family.
 
 ### Held / unresolved
 
-- Ricochet / `dragonrichard` ↔ Rich remains unresolved. MAIN still contains an older Rich alias grouping that now conflicts with the safer current WIKI treatment; that contradiction is held rather than laundered into canon while MAIN's verifier cannot execute.
-- Mugen's `Rich privileges 😄` and the nearby `dragonrichard` line are held with that identity problem; there is no technical reply/mention join.
-- Whiskey's Lena photobomb memory does not yet have a clean canonical Lena owner/identity chain, so no thin Cast page was manufactured from it.
-- The Amaurot relationship context remains unresolved.
-- Wall's nearby Tae saved-receipt file is probable rather than hard-joined; ShiyaX/Deleted User authenticity is not adjudicated; pooled Deleted User remains pooled.
+- Staff Vacation exact eligibility, assignment/removal mechanics, return execution, and the precise relationship between Shayduh's explained procedure, LilithEl's saved-on-vacation line, and Titania's later `applied back` return remain open. Vacation and reapplication probably represent different practical return paths, not yet a formally documented two-track policy.
+- The recurring Gandalf media is third-party; no MADE BY claim is assigned to DWR.
+- Oni's screenshot CAPTURED BY / FEATURING and the Onikage referent remain unresolved.
+- Ricochet / `dragonrichard` ↔ Rich remains unresolved. MAIN still contains an older Rich alias grouping that conflicts with the safer current WIKI treatment; that contradiction remains held while MAIN's mandatory verifier cannot execute.
+- Whiskey's accepted older Sye/Life ordinary-life biography material remains MAIN-owned/publication-blocked. The hard identity correction remains Sye/Life, not Effie.
 - No similar-name identity bridge, export-array appointment dating, joke-family literalization, or unseen-image description was accepted.
 
 ### Verification / deployment
 
-Reader head `13550eaef2e72015930e5e2b30c47435f74520a0` contains the Moon/Ricochet deepening and Wall receipt-appeals card.
-- **Build Underlords Wiki** `33347722142` — **success**.
-- **Deploy Underlords Wiki Preview** `33347722136` — **success**, including Pages deployment.
+WIKI reader head `8e839a25699b562a7579c568f8cfde8d28e897ea` contains the Lobby live-event routing, recurring Gandalf gate, and Staff Vacation additions in `src/pages/locations.astro`.
+- **Build Underlords Wiki** `33348688941` — **success**.
+- **Deploy Underlords Wiki Preview** `33348688940` — **success**, including Pages deployment.
 
-Durable state head `c2de65f8edb2dceafffc00bab416fdd4e52e6f64` also completed its native verification chain successfully:
-- **Build Underlords Wiki** `33348086106` — **success**.
-- **Deploy Underlords Wiki Preview** `33348086056` — **success**.
-
-This correction commit only repairs the exact final Mugen review boundary from an intermediate SHA to the actual active branch head; its exact-head workflow result must likewise be checked before the pass closes.
+This state commit follows that verified reader head. Its exact-head native build/Pages result must be checked before the integration pass is considered fully closed.
 
 ### Surface split
 
-WIKI owns the reader additions this pass because Moon/Ricochet are dossier-shaped and the Wall material deepens an existing Domain owner. MAIN receives no mirrored prose merely to duplicate them. MAIN's outstanding richer publication obligation is still the accepted Sye/Life ordinary-life biography material in Whiskey once its mandatory verifier can actually execute. The existing MAIN Ricochet→Rich alias is a contradiction to resolve only under a functioning verification gate, not by smuggling an identity correction through infrastructure failure.
+WIKI owns the fresh reader additions because the new Core package mostly deepens room procedures, recurring gatehouse behavior, and reference chronology. MAIN's existing Lobby record already owns the broad public story and was re-read during reconciliation; no duplicate main-site prose was committed. MAIN's outstanding richer publication obligation remains the accepted Sye/Life ordinary-life biography material in Whiskey once its mandatory verifier can actually execute.
 
-## 18:15 branch review details — 2026-08-30
+### Core branch review detail
 
-### Branches reviewed
-
-- `archive-miner/daycare-2020-2026-hourly`: checkpoint-first delta `d5f4f82679cb8378dba362c33ab94492d8053270 → 8d8d867f7125dbdfaa87747be3d1c3aaba4e07fd`.
-- `archive-miner/whiskey-longitudinal-hourly`: checkpoint-first suffix `3d6c00c103c2cae36a707c0452c6c34bc404357b → c08359fa336f829a58f104c9211c3ff26d700881`; formal consumed remains held at `6cd5f9daeb20d77fad20e3cd7465ec938411993d` for the older accepted Sye/Life publication obligation.
-- `archive-miner/wall-hourly-20260824`: cumulative recovery continued from `2ec6af7dc7e49f9fe165507a1ebbcf0cf1623a65` through the mid-run suffix at `9f794a9f296633c6e7d1419c9d4a29b8e7e89800`; checkpoint read first, raw archives untouched, formal consumed SHA null while quarry remains open.
-- `archive-miner/mugen-person-first-20260828`: late-mover checkpoint-first delta `fea5d27cafda37417c3fbb76de678d05a6b8998c → 7b4ff4dbf31e7c47d376fc556f2dabcb5366e549`.
-
-### Consumption decisions
-
-- Daycare consumed through `8d8d867f7125dbdfaa87747be3d1c3aaba4e07fd` after Moon's accepted public deepening passed WIKI verification.
-- Mugen person-first consumed through `7b4ff4dbf31e7c47d376fc556f2dabcb5366e549`; its public Wall-favorites evidence is folded into the verified Wall owner and its identity-sensitive access inference is held.
-- Whiskey remains formally consumed only through `6cd5f9daeb20d77fad20e3cd7465ec938411993d`; the new suffix is reviewed through `c08359fa336f829a58f104c9211c3ff26d700881` and Ricochet's accepted public addition is verified.
-- Wall remains formal-consumed null while cumulative recovery is active; review-through is `9f794a9f296633c6e7d1419c9d4a29b8e7e89800`.
+- Prior consumed boundary: `8d4ea9f75956eab681c2580d5481f7c03a111f42`.
+- Opening live head: `5fa1861edafc34381881ed54fbdcc002f2ff57ac`; registered `pending_review` before deep review.
+- Changed intake at that boundary: new 18:31 findings, receipts, and rabbit-holes package under `archive-intake/concurrent-chat-core-rooms-events-2026-08-19-a91f/`.
+- Mid-run live head: `dab2f5465ae7bc61df33aa73c132c6ec60d54d1e`; registered before reviewing the suffix.
+- Suffix contents: checkpoint delta, site candidates, Shayduh profile candidate, and people/incident/media index addenda for the same 18:31 evidence family.
+- Final decision: consumed through `dab2f5465ae7bc61df33aa73c132c6ec60d54d1e` after the accepted WIKI additions passed native build + deployment and the derivative suffix was successfully reviewed with no additional public change required.
