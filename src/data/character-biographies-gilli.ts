@@ -34,6 +34,15 @@ export const gilliNarrativeCharacterBios: Record<string, CharacterNarrative> = {
         ]
       },
       {
+        period: "Late 2021",
+        title: "THE JOB CAN SHRINK WITHOUT THE RELATIONSHIP SHRINKING",
+        paragraphs: [
+          "Late 2021 catches Gilli doing something less flashy than leadership and more revealing about how she handles limits. Her connection at the station is bad enough that she expects to be mostly unable to play Raja or keep up with Discord for a long stretch. She does not make a grand exit. She says she will check in when she can. Ren answers, `Real life first, we'll just miss you a lot`; Ansun tells her, `we'll take care of things so just focus on you.` Nobody treats reduced availability like reduced belonging.",
+          "A month later, when Mugen asks officers on semi-leave whether they still want to appear as public recruitment contacts, Gilli takes herself off the list because she cannot reliably be available. That is the useful little character beat: she does not cling to the visible function just to keep the badge looking active. If she cannot do the job people would reasonably expect from the contact name, she would rather stop advertising that availability and let somebody else catch the message.",
+          "The house response matters just as much as hers. Gilli's workload gets smaller; the relationship does not. Ren's `we'll just miss you a lot` turns an operational absence into an emotional fact without making Gilli responsible for soothing everybody about it. Ansun's answer does the practical half: go handle your life, we have the room. For somebody whose own care language is usually *do the useful thing*, it is almost suspiciously fitting that the room eventually uses the same language on her."
+        ]
+      },
+      {
         period: "Gabu, Rummy and the prosecution problem",
         title: "THE CARETAKER IS ALSO A REPEAT OFFENDER",
         paragraphs: [
