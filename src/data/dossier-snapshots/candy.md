@@ -38,7 +38,7 @@ claims:
     sources:
       - label: "👅 Wall · 2021-07-14 / 2021-07-25 / 2021-08-10"
         href: "/channels/wall"
-    note: "The August 10 message is stored as a reply to Vanness, but the retrieved pass did not surface the referenced parent body safely enough to narrate the exchange."
+    note: "The August 10 `Wad00` TRUE-REPLIES Vanness self-filing `Im putting myself in wall of shame for losing 5 orange dracs for merge. Shame me`. In that scene the tiny reaction reads naturally as baffled/incredulous participation; it does not define one universal translation for `Wad00`."
   - text: "On July 14, 2021, Candy followed `Wad00` with paired `BOP2` and `BOP1` custom-emote messages."
     evidence: "archive-confirmed"
     date: "2021-07-14"
@@ -56,7 +56,7 @@ antiFanon:
   - "`Maybe I'm too younger` is one arrival-context line. It supports a moment of fit uncertainty, not a diagnosis that Candy was generally insecure, shy, or uncomfortable in UL."
   - "Anthos's `no you're not XD` is direct reassurance in that scene, not a closeness ranking or proof that Anthos handled Candy's entire onboarding."
   - "The repeated `Wad00` variants support a recurring voice fingerprint, but not a claim that every Candy message used the same style."
-  - "The August 10 `Wad00` is a stored reply to Vanness, but the parent body was not safely recovered in this pass; do not manufacture the missing dialogue."
+  - "The August 10 `Wad00` is a direct reply to Vanness's own Wall-of-Shame self-filing about losing five orange dracs for a merge. It anchors the reaction as baffled/incredulous in that scene; it does not establish a special Candy↔Vanness relationship or a universal dictionary definition for `Wad00`."
   - "Animal noises and animal emotes are room-language evidence, not a literal nickname, species bit, or relationship claim unless later sources establish one."
 relatedPeople:
   - "anthos"
@@ -89,7 +89,7 @@ On July 4, YoChan pings Candy with `oink oink`. Candy answers not with a rebutta
 
 Ten days later the archive gets the first surfaced `Wad00`. Candy follows it with paired `BOP2` emotes and then paired `BOP1` emotes. On July 25 the word mutates into `Wad0.0`. On August 10, it returns as `Wad00` again.
 
-At three appearances across separate dates, the repetition is strong enough to call it a voice fingerprint. That does not mean every Candy message sounds like `Wad00`, and the unresolved August reply context stays unresolved. It means the archive can recognize one compact form she reuses when participating in a loose Wall conversation.
+At three appearances across separate dates, the repetition is strong enough to call it a voice fingerprint. The August 10 use now has its missing setup back: Vanness self-files `Im putting myself in wall of shame for losing 5 orange dracs for merge. Shame me`, and Candy TRUE-REPLIES with `Wad00`. The timing turns the tiny word into a perfectly serviceable *what the fuck did you do* without requiring the wiki to nail one dictionary translation to every future use. It is compact incredulity in this scene, not a lexical constitution.
 
 The interesting change from April is not that Candy has suddenly become a different person. It is that the summer scenes contain almost no onboarding posture. She is not asking whether she belongs, explaining herself, or translating her reactions into full prose. She can answer the room with a custom emote, a proprietary little noise, or both.
 
