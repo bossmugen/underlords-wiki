@@ -95,8 +95,10 @@ const qinMu = appendParagraphs(qinWithGames, "Petty Crimes", [
 ]);
 
 export const run55NarrativeCharacterBios: Record<string, CharacterNarrative> = {
-  ...run39NarrativeCharacterBios,
   eos,
+  hamittey: run39NarrativeCharacterBios.hamittey,
+  gabu: run39NarrativeCharacterBios.gabu,
+  anayss: run39NarrativeCharacterBios.anayss,
   ten,
   daya,
   "qin-mu": qinMu,
