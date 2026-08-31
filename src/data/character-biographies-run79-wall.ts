@@ -1,4 +1,6 @@
 import type { CharacterNarrative, NarrativeSection } from "./character-biographies-narrative";
+import { narrativeCharacterBios } from "./character-biographies-narrative";
+import { anthosNarrativeCharacterBios } from "./character-biographies-anthos";
 import { ghosttNarrativeCharacterBios } from "./character-biographies-ghostt";
 import { illienNarrativeCharacterBios } from "./character-biographies-illien";
 
@@ -12,8 +14,30 @@ function insertBeforeTitle(
   return [...sections.slice(0, index), section, ...sections.slice(index)];
 }
 
+const gabuBase = narrativeCharacterBios.gabu;
+const anthosBase = anthosNarrativeCharacterBios.anthos;
 const illienBase = illienNarrativeCharacterBios.illien;
 const ghosttBase = ghosttNarrativeCharacterBios.ghostt;
+
+const gabuReceiptSection: NarrativeSection = {
+  period: "October 26, 2020",
+  title: "She keeps the receipt, then asks if you want to see what she kept",
+  paragraphs: [
+    "Gabu's later Wall reputation gets a very early prototype with Anthos. She tells her, **`i still have your ss hahaha`**. Anthos's first question is **`which one @3@`** — not *what screenshot?*, but *which screenshot?* Gabu offers to post it. Anthos says **`im scared now`**. Gabu briefly backs off with **`nah im kidding hahahah`**. Anthos immediately ruins her own escape route: **`well im still curious XD`**.",
+    "About a minute and a half after announcing that she still has the screenshot, Gabu posts `Capturar.PNG`. The file cannot be hard-joined to the earlier `your ss` sentence without pixels or a reply edge, but the live sequence makes the connection strongly likely: possession, offer, nervous curiosity, attachment, then Anthos going **`LMAOOO`**, **`nooooooo`**, **`XD`**. The important character beat does not depend on pretending we know the image. Gabu remembers old evidence, knows the target will understand the threat, and can turn private retention into a fresh social event on demand.",
+    "It also adds another side to the Gabu–Anthos relationship already visible elsewhere. Anthos is one of the people Gabu remembers encouraging her when English felt difficult; here the traffic runs the other direction and the tone is pure familiar menace. Care and prosecution are apparently allowed to share a contact card."
+  ]
+};
+
+const anthosReceiptSection: NarrativeSection = {
+  period: "October 26, 2020",
+  title: "Being scared of the screenshot does not stop her asking to see it",
+  paragraphs: [
+    "Gabu tells Anthos she **still has** one of Anthos's screenshots. Anthos answers **`which one @3@`**, which is already a tiny indictment of the household: apparently there are enough possible exhibits that clarification is necessary. When Gabu offers to post it, Anthos says **`im scared now`**. Gabu gives her a clean exit by claiming she is kidding. Anthos immediately chooses curiosity instead: **`well im still curious XD`**.",
+    "That contradiction is extremely Anthos. She can perform the defendant's dread and still lean toward the thing that might embarrass her because the social bit is more interesting than self-protection. When Gabu posts an attachment shortly afterward, Anthos's **`LMAOOO` → `nooooooo` → `XD`** keeps the same rhythm: horror, recognition, laughter. The scene never turns into a rupture. It becomes more material.",
+    "The relationship with Gabu matters because neither person needs to explain the rules. Gabu can use **having kept the receipt** as teasing leverage; Anthos can be wary and curious in the same breath. The image itself remains sealed, and Gabu posting it does not make her its capturer or maker. The lived part is already enough."
+  ]
+};
 
 const illienWallSection: NarrativeSection = {
   period: "August 23, 2020",
@@ -37,6 +61,22 @@ const ghosttPorpcornSection: NarrativeSection = {
 };
 
 export const run79WallNarrativeCharacterBios: Record<string, CharacterNarrative> = {
+  gabu: {
+    ...gabuBase,
+    sections: insertBeforeTitle(
+      gabuBase.sections,
+      "Becoming part of the machinery",
+      gabuReceiptSection,
+    ),
+  },
+  anthos: {
+    ...anthosBase,
+    sections: insertBeforeTitle(
+      anthosBase.sections,
+      "The running bit gets bigger while her practical reliability becomes less visible and more important",
+      anthosReceiptSection,
+    ),
+  },
   illien: {
     ...illienBase,
     sections: insertBeforeTitle(
