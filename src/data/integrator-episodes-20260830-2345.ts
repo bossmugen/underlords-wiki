@@ -45,5 +45,14 @@ export const late2345IntegratedEpisodes: Episode[] = [
     kind: "Wall visual shorthand / Dean's brain auto-completes a person",
     logline: "A 2022 Wall exchange catches WolfPhenix becoming visual shorthand without needing the sealed screenshot pixels to cooperate. An account rendered as `Drink water reminder` tells Dean `wolfie is giant, gilli is ant`; Gilli fires back `YOU SPECK OF SAND`; Wolf joins the Fat_Wheeze reactions. Later in the same scene Mugen explains the association that actually survives as character texture: `Dean saw purple and he thought purple = wolfie`. Purple had apparently become part of Wolfie's recognizable visual/avatar language in the room. That shorthand does not tell us Wolf's favorite color or real-world height. The human part is Dean's shortcut: he sees one color and his brain apparently fills in the rest of the person before anybody has finished explaining the image.",
     cast: ["WolfPhenix", "Gilli", "Mugen", "Dean"]
+  },
+  {
+    id: "collective-moo-braincell",
+    title: "Collective Moo Braincell",
+    season: "2021",
+    date: "August 30 → September 1, 2021",
+    kind: "Wall running bit / the room briefly becomes livestock",
+    logline: "Candy's surviving September 1 `Moo` is funny, but it is not where the herd starts. The day before, SaraBunny is already looking around at the room and saying `so much moo`. On August 31 Ren TRUE-REPLIES Ghoulie's baffled `what is` with the much better participant-native diagnosis: `Collective Moo braincell`. That evening Ren drops `MOOOOOOOO` and the room starts answering with cow-labeled GIF/Tenor links; the next morning Candy arrives with `Moo` and `:Cat_Sporkle: :Cat_Sporkle:`, and Ansun, Rummy, Ren, Gilli, SaraBunny, Cookie, and others keep the call-and-response going. Later Anayss is still using the vocabulary in `we lost a moo!`. The useful correction is that Candy appears to be joining an already-active shared bit rather than inventing it. Even August 30 is only the earliest surviving evidence surfaced here: `so much moo` sounds like SaraBunny has walked into a joke already in progress. For a minute the Wall stops being a prosecution room and becomes something arguably worse—a temporary dialect in which everybody appears to share one bovine braincell.",
+    cast: ["SaraBunny", "Ren", "Ghoulie", "Candy", "Ansun", "Rummy", "Gilli", "Cookie", "Anayss"]
   }
 ];
