@@ -1,8 +1,7 @@
 ---
 name: "Rich"
 aliases:
-  - "Ricochet"
-  - "dragonrichard"
+  - "DragonRich"
 roles:
   - "VIP"
 summary: "Amaurot club leader. Before Richard's Corpse became a digital living room, Snow was already using Rich as the Amaurot switchboard and Mugen was advertising the S10-wide channel he built. Somehow interclub diplomacy ended in people watching him cook."
@@ -62,6 +61,7 @@ claims:
       - label: "🛋 Voice Rooms"
         href: "/channels/voice-rooms"
 antiFanon:
+  - "Rich = DragonRich. Ricochet / `dragonrichard` remains unresolved and must stay separate unless a direct identity bridge is recovered."
   - "Snow asking Rich whether other Amaurot people wanted to join makes him a visible liaison/contact point; it does not prove he personally recruited every Amaurot arrival."
   - "Rich creating an S10-wide channel is cross-server infrastructure evidence, not proof that the channel itself caused the later Amaurot → UL merger."
   - "Amaurot later merged under UL, but Rich's former Amaurot leader title does not automatically become a UL Boss or Officer rank."
