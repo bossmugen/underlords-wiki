@@ -15,10 +15,9 @@ export const lateVipCharacterBios = {
       {date:"March 18, 2023",title:"Iconic, apparently",text:"Syv posts an attachment to the Wall with no text and twelve seconds later adds `Iconic ✨💀`. The attachment remains visually uninspected here, so the scene is evidence of Syv filing and captioning a Wall object, not evidence about the object's content or authorship."}
     ],
     characterNotes: [
-      {title:"Practical reframing",text:"A C can count as a pass if worse was expected and there is another test. A ramen request can die because the budget has spoken. Syv tends to state what is still workable without decorating it."},
-      {title:"Attention without performance",text:"`You disappeared for weeks` matters because Syv noticed. What follows matters too: no guilt trip, no dramatic welcome-back speech, just Ricochet asking for ramen and Syv refusing on budgetary grounds. Care is allowed to stay ordinary."},
-      {title:"Her Wall voice can be curatorial without becoming prosecutorial",text:"`I personally like the one panda sent` and `Iconic ✨💀` are small acts of selection: point at the object, give the verdict, keep moving. That is enough texture to show taste and participation. It is not enough to invent a Wall prosecutor role."},
-      {title:"The identity firewall stays non-negotiable",text:"Stable Syv account 197521779177029632 / syveon is the join. Sye / Life / Syenitha remains 488099199938986004 / sycessences. Ricochet / dragonrichard is also not Rich / DragonRich just because old room chatter sometimes shortens names."}
+      {title:"Count the C, aim for the B",text:"A bad test gets one quick recalculation — better than expected, therefore survivable — and then Syv is already naming the next target."},
+      {title:"Ramen budget veto",text:"Ricochet reappears after a peer-described weeks away and asks her for ramen almost immediately. Syv notices the absence, allows the audacity, and kills procurement with two words: `I'm broke`."},
+      {title:"Wall curator",text:"She can pick a favorite, come back the next day to point at it again, or file something herself and stamp it `Iconic ✨💀`. Not every Wall participant needs a prosecutor wig."}
     ],
     claims: [
       { text: "On October 18, 2021, Syv reported a C on an organic-chemistry test, wrote `I'm counting that as a pass`, said she had expected significantly worse, and then named a B target plus a plan to make it up on other tests.", evidence: "wall", date: "2021-10-18" },
@@ -56,10 +55,9 @@ export const lateVipCharacterBios = {
     ],
     characterNotes: [
       ...vipCharacterBios.woosung.characterNotes,
-      { title: "She can be the one pressing the red button", text: "The later `NOBU` / `TRAITOR` verdict style can make Woo look like a commentator standing outside the scene. The 2020 bot sequence fixes that impression: she is also perfectly willing to type the command that starts the nonsense and then keep feeding it reaction objects." },
-      { title: "Complain about becoming material; become more material", text: "Her 2023 Hall complaint is funny because she knows exactly what repeated expressive behavior has done to her public record. Moon converts embarrassment into `famous uwu`; Woo's crying/skull reactions cooperate with the reframe instead of ending it." },
-      { title: "Snow already knows the request", text: "`yes yes I know` makes the K-pop-game exchange feel like a tiny recurring negotiation. Woo can lobby; Snow can postpone with theatrical suffering; neither has to turn it formal." },
-      { title: "Bot intimacy is not biography", text: "Generated hug, glomp, kiss, or kill counters are evidence of period social play only. They do not establish romance, literal violence, or closeness rank, especially when one side resolves only to the pooled Deleted User identity." }
+      { title: "She can be the one pressing the red button", text: "Woo is not always standing outside the scene issuing verdicts. Sometimes she is the one typing the bot command that starts the nonsense and then feeding it reactions." },
+      { title: "Complain about becoming material; become more material", text: "She knows talking gives the Hall of Shame ammunition. Moon converts the complaint into `famous uwu`; Woo answers with crying and skull reactions, thereby solving absolutely nothing." },
+      { title: "K-pop before BL, thank you", text: "Snow already knows the request. Woo can lobby; Snow can postpone with theatrical suffering; neither of them needs to make the negotiation formal." }
     ],
     claims: [
       { text: "On April 8, 2020, WOO used `p!catch rozbouton` in Lobby and the bot reported that she caught a level 3 Budew, well before the July `Hi Woosung.....idk what else` / role-add scene.", evidence: "lobby", date: "2020-04-08" },
