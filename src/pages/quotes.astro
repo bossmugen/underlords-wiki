@@ -1,8 +1,13 @@
 ---
 import WikiLayout from "../layouts/WikiLayout.astro";
 import { featuredQuotes } from "../data/wiki";
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const url = (path: string) => `${base}${path}` || path;
 ---
 <WikiLayout title="Quotes | Underlords Wiki" description="Notable Underlords lines and recurring dialogue.">
   <section class="hero"><div><div class="kicker">QUOTE BOOK</div><h1>Quotes</h1><p class="tagline">The lines that explain the show faster than a paragraph can.</p></div></section>
-  <section class="section"><div class="quote-wall">{featuredQuotes.map((item)=><article class="quote-card"><blockquote>“{item.quote}”</blockquote><footer>{item.speaker} · {item.context}</footer></article>)}</div></section>
+  <section class="section"><div class="quote-wall">
+    {featuredQuotes.map((item)=><article class="quote-card"><blockquote>“{item.quote}”</blockquote><footer>{item.speaker} · {item.context}</footer></article>)}
+    <article class="quote-card"><blockquote>“I nees a good manhwa to wash my brain now”</blockquote><footer><a href={url("/characters/athena")}>Athena</a> · October 2022, after staying up late for an overhyped manhwa she immediately reviewed as <code>soooo baaaad</code>; Mugen redirects the review out of the Wall and toward Whiskey / Simp Here.</footer></article>
+  </div></section>
 </WikiLayout>
