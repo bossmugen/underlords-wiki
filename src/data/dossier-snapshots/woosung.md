@@ -8,7 +8,7 @@ pronouns: "she/her"
 roles:
   - "VIP"
   - "Platelet"
-summary: "Former ScarletMoon leader whose archive presence predates her later role-add paperwork; by 2023 her own QOTD language describes Mugen as a close friend and older-sister-like guide, while her room voice still favors compact verdicts and practical care followed by immediate denial of being soft about it."
+summary: "Former ScarletMoon leader whose archive presence predates her later role-add paperwork; by 2023 her own QOTD language describes Mugen as a close friend and older-sister-like guide, while her room voice still favors compact verdicts, relentless little return serves, and practical care followed by immediate denial of being soft about it."
 summaryEvidence: "archive-confirmed"
 publication: "public"
 claims:
@@ -26,6 +26,12 @@ claims:
     sources:
       - label: "Lobby archive"
     note: "The July self-introduction / role-add scene is not the first surviving appearance of the person."
+  - text: "On April 8, 2020, after WOO reminds Snow that she wanted a K-pop game and Snow says `SOMEDAY` / `when I am bored out of my mind`, WOO asks `Are u bored yet` roughly eighty seconds later and keeps returning with `How about now`, `Now?`, and `now?` while Snow repeatedly refuses."
+    evidence: "archive-confirmed"
+    date: "2020-04-08"
+    sources:
+      - label: "Lobby / Game Rooms archive"
+    note: "This is playful persistence inside an already-established request, not evidence of conflict, entitlement, or a formal promise that Snow owed her a game."
   - text: "On September 30, 2020, WOO posts `ANTHOS`, then `I found someone to simp`, immediately narrowing the statement with `in genshin`."
     evidence: "archive-confirmed"
     date: "2020-09-30"
@@ -63,6 +69,7 @@ antiFanon:
   - "Woosung is a woman. Use she/her."
   - "Do not call `Hi Woosung.....idk what else` Woosung's first arrival; the same stable account is already visible in April 2020."
   - "Current canon files Woosung under VIP with a Platelet tag and former ScarletMoon leadership context. Historical export-time role arrays do not rewrite the primary shelf or establish appointment chronology."
+  - "The April 2020 `Are u bored yet` sequence is playful lobbying around an already-known K-pop-game request. Do not turn Snow's refusals into a real dispute or the request into a formal obligation."
   - "`I found someone to simp` is immediately qualified by `in genshin`; do not promote it into romance canon with Anthos."
   - "The September 2020 kill-command → love-GIF sequence is social play. WOO posted the GIF; do not credit her as its maker or use the scene to infer hostility, romance, or relationship ranking."
   - "`mugs is my daddy granny` is fictive-family language, not literal parentage, romance, or evidence of an ex-partner relationship."
@@ -70,6 +77,7 @@ antiFanon:
   - "The April 2023 tsundere framing belongs to Moon/the room's teasing and should not become a fixed diagnosis or personality label."
 relatedPeople:
   - "mugen"
+  - "snow"
   - "anthos"
   - "nobu"
   - "moon"
@@ -79,6 +87,7 @@ tags:
   - "scarletmoon"
   - "paperwork-lag"
   - "compressed-verdicts"
+  - "playful-persistence"
   - "wall"
   - "whiskey"
   - "qotd"
@@ -92,6 +101,8 @@ Her primary wiki shelf is VIP, with permanent Platelet history and former Scarle
 ## 2020 — already in the room before the role-add scene
 
 The April Lobby appearance is mundane in the best possible way. Woosung is not announcing an origin story. She is already participating. That makes the July line funnier: `Hi Woosung.....idk what else` reads like somebody being asked to introduce herself after the archive has already watched her exist for months.
+
+That same April day also supplies a much better little Snow/WOO relationship beat than a generic `they bantered` label. WOO reminds Snow that she wanted a K-pop game. Snow already knows what she means and says `SOMEDAY`, specifically `when I am bored out of my mind`. WOO waits roughly eighty seconds before asking `Are u bored yet`, then keeps checking: `How about now`, `Now?`, `now?`. Snow keeps saying no in increasingly theatrical forms. The joke works because both people understand the request before the repetition starts. Woo is not explaining herself; she is testing how little time `someday` can legally contain.
 
 Later that year, a tiny exchange establishes one of her cleaner comic rhythms. WOO posts `ANTHOS`, waits about ten seconds, then announces `I found someone to simp` before immediately narrowing the whole thing with `in genshin`. The proper noun goes first; the verdict follows. The qualifier lands last and prevents the room from turning the joke into a relationship claim.
 
@@ -127,4 +138,4 @@ A QOTD finally gives the relationship direct first-person language. Asked who Mu
 
 That description does more work than any inferred relationship chart could. It tells us what Woo thinks the connection is and how she experiences it: not rank, not obligation, but a durable friendship with guidance built into it.
 
-Taken chronologically, the file moves from ordinary early-room presence, through a compact joke register, into a later contradiction the archive catches very clearly: Woosung is willing to help, and then willing to spend several messages objecting to the room noticing that she helped.
+Taken together, the file is not `serious former leader` versus `chaotic guest`. Woosung is unusually willing to make a preference somebody else's immediate scheduling problem, to compress a judgment into two messages, and to help before she has finished deciding how much softness she wants to admit. Snow says someday; Woo checks eighty seconds later. Somebody hurts; Woo gives the advice first and litigates the feelings afterward. The exact subject changes. The return serve does not.
