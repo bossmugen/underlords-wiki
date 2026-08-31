@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-08-31 09:58 PDT_
+_Last updated: 2026-08-31 10:05 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Earlier run detail remains in Git history and MAIN's dated `archive-intake/INTEGRATION_PASS_*` reports.
 
@@ -22,7 +22,7 @@ Hard user canon, resolved identities, privacy/safety, explicit contradictions, a
 
 ### Cookie finally gets to be a person instead of an evidence-management problem
 
-Run 70 rewrote `src/data/character-biographies-cookie.ts` from the ground up around Cookie's actual social rhythm rather than around archive chronology. The page now treats his denials, `:PandaRun:` getaway, exclusion complaints, source-awareness, fast self-contradicting jokes, Tofu banter, later Staff/Media identity, and tiny habits as one person-shaped biography.
+Run 70 rewrote `src/data/character-biographies-cookie.ts` from the ground up around Cookie's actual social rhythm rather than around archive chronology. The page now treats his denials, `:PandaRun:` getaway, exclusion complaints, source-awareness, fast self-contradicting jokes, Tofu banter, later Staff identity, and tiny habits as one person-shaped biography.
 
 The fresh Wall suffix gives the rewrite a particularly good new seam. On June 4, 2021 Cookie posts one screenshot with `Got this from HAM`, then thirteen seconds later posts a second with `my response`. Whatever the unseen pixels contain, Cookie's behavior is clear enough: he distinguishes material supplied by somebody else from his own response while still participating in the same joke packet. That makes him more than Wall prey. He can be defendant, courier and little amateur editor at once.
 
@@ -66,6 +66,10 @@ The WIKI reader changes are therefore green and deployed.
 
 MAIN reader-facing pages changed in Run 70: **none**. MAIN head `6254950ccf4623f77e35175300f6b1f2e26d657d` triggered `UL Hourly Build + Deploy` run `33415824335`, which failed before the `Build + verify` job acquired executable steps; the deploy job was skipped. Source verification, Astro build and built-output verification therefore did not execute. No reader-facing MAIN change was pushed around that gate.
 
+### Post-close hard-canon correction
+
+A final read against MAIN's highest-priority `CANON_LOCKS.md` caught one bad role phrase in the fresh Cookie rewrite: Cookie had been described as `Staff / Media Director`. That was wrong. **Cookie is Staff; Han is UL Media Director / filmmaker.** The public Cookie biography was corrected immediately on WIKI `main` in commit `8babe6bfc755159796ec7115104f75d121ddb33c`: the invented Media Director title was removed, the section now talks only about Cookie's confirmed Staff status, and no part of Cookie's useful source-aware/editorial character read was lost. This is a hard-canon correction, not an inference downgrade.
+
 ## Consumption / next boundary — Run 70
 
 - Wall: successful review/publication through `a20b60b5fae8e9458c09f710fbbad72051057bc7`; MAIN branch state may advance the consumed cursor through that SHA, while keeping Wall `recovery_in_progress` for future movement.
@@ -78,6 +82,7 @@ MAIN reader-facing pages changed in Run 70: **none**. MAIN head `6254950ccf4623f
 ## Current safety rails
 
 - Snow is not formal second-in-command / #2.
+- Cookie is Staff; **Han**, not Cookie, is UL Media Director / filmmaker.
 - Rich = DragonRich; unresolved Ricochet / `dragonrichard` stays separate.
 - `sycessences` / `ƐℲı˥` = Sye/Life, not Effie.
 - WhitePhoenyx = Xephy, not WolfPhenix.
