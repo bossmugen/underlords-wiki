@@ -1,10 +1,10 @@
-# Character Biography Standard — Archive-First Life Stories
+# Character Biography Standard — Person First
 
-The character page's primary question is:
+The character page's primary questions are:
 
-> **What happened when this person passed through Underlords?**
+> **Who is this person? What are they like? How do they move through Underlords? Who matters to them, what keeps recurring, and what makes them unmistakably them?**
 
-A UL character bio is a reconstructed biography / legend, not a profile summary, roster card, dossier, trait list, stats page, or collection of disconnected archive facts. The surviving archive is the narrative spine.
+A UL character page is a biography / fandom character page about a person. The archive is the source material underneath it, not the visible narrator and not the organizing spine. Mugen / Mugs' current biography is the structural reference: character first, scenes in service of character, enough chronology to make change legible, and a voice that sounds like somebody who knows the house rather than somebody summarizing a research packet.
 
 ## Evidence threshold — interpretation gets to breathe
 
@@ -12,36 +12,121 @@ Read `EVIDENCE_STANDARD.md` as binding project guidance.
 
 Hard user-confirmed canon locks, resolved identity corrections, privacy/safety boundaries, explicit source contradictions, and high-risk attribution boundaries remain hard. Outside those boundaries, do **not** require courtroom-grade proof for normal human interpretation.
 
-Strong contextual inference is usable when the surrounding archive makes the read more likely than not. Probable relationship texture, habits, tastes, ordinary-life details, humor mechanisms, repeated behavior, likely callbacks/origins, peer descriptions, and cumulative character reads should be surfaced rather than quarantined just because no single message states the conclusion verbatim.
+Strong contextual inference is usable when the surrounding material makes the read more likely than not. Probable relationship texture, habits, tastes, ordinary-life details, humor mechanisms, repeated behavior, likely callbacks/origins, peer descriptions, emotional subtext, care patterns, reputation, and cumulative character reads belong in the biography when they make the person clearer.
 
-`Inferred`, `probable`, and `likely` are valid evidence states, not consolation prizes. Use natural confidence language only where uncertainty materially changes the story. A missing explicit referent/date/formal statement is not automatically a reason to discard an otherwise strong scene.
+`Inferred`, `probable`, and `likely` are valid evidence states, not consolation prizes. Use words such as `apparently`, `likely`, or `seems to` only when uncertainty materially changes the story. Do not smother an obvious human read in caveats merely because nobody typed one perfect declarative sentence.
 
-## Required editorial behavior
+## The person is the spine
 
-- **Story before metadata.** Lead with the person's life in UL, not rank, shelf, aliases, tags, active years, message counts, or `known for` bullets.
-- **Build from scenes.** Use what the archive actually catches the person doing and saying across time. Bring in relationships, recurring behavior, work, jokes, conflicts, loyalties, care, reputation, turning points, disappearances, returns, contradictions, and the way other people react to them.
-- **Show how UL experienced them.** Other members' recurring ways of addressing, teasing, trusting, remembering, fighting with, protecting, or missing somebody can be biographical evidence when the surrounding context earns the inference.
-- **Let chronology create character.** Organize by meaningful eras or turning points when the record supports them. A later scene should be allowed to change how an earlier one reads without pretending hindsight was present at the time.
-- **Keep receipts downstairs but visible.** Source ledgers, dated claims, canon notes, and provenance remain important support. They substantiate the story; they are not the story's prose format.
-- **Keep gaps honest.** Earliest surviving is not origin. A quiet archive period does not prove withdrawal, estrangement, personality change, or inactivity elsewhere. Missing evidence is a boundary, not a blank check for fanon. A strong likely-origin/callback hypothesis may still be surfaced as likely rather than buried indefinitely.
-- **User-confirmed canon is corrective/supporting evidence.** It may resolve identity bridges, chronology, relationship facts, or missing context, but it does not replace the archive as the main narrative spine.
-- **Reference facts stay secondary.** Current roles, role notes, aliases, shelves, era labels, tags, and anti-fanon cautions belong in the side rail / appendix unless the archive gives them an actual story.
-- **Thin archive = short biography, not filler.** If a person does not yet have enough scene-level evidence for a full legend, say so plainly and preserve the boundary. Do not inflate a role label, message count, or co-presence into personality.
+Prioritize:
+
+- temperament and personality;
+- social style and reputation;
+- recurring behavior, habits, tastes, preferences, hobbies, and ordinary-life details;
+- humor, quirks, embarrassments, and contradictions;
+- relationships as lived behavior: who checks on them, teases them, notices them missing, trusts them, argues with them, summons them, remembers them, or keeps returning to the same bit with them;
+- care patterns, loyalties, conflict style, affection, disappearances and returns;
+- roles as actual behavior rather than résumé labels;
+- how other people experience the person;
+- what changes over time and what becomes part of the person's legend.
+
+Several receipts that point to the same trait or relationship pattern should usually become **one synthesized character read**. Do not force every new receipt into its own paragraph simply because it has a timestamp.
+
+## Events are supporting scenes
+
+An event earns space in a biography because it reveals the person. Ask: **what does this scene tell us about them?** If the answer is nothing beyond the fact that the event happened, it probably belongs in Episodes instead.
+
+Chronology is connective tissue, not the default scaffold. Do not structure a biography as a year-by-year event ledger unless the person's actual development requires it. Prefer person-shaped sections about behavior, contradiction, relationships, reputation, or change.
+
+Good section grammar looks like:
+
+- `APPARENTLY SHE WAS SCARY`
+- `HE KNOWS WHEN THE ROOM HAS HANDED HIM A STAGE`
+- `THE JOKE CAN HIT HER BACK`
+- `SHE CARES BY DOING THE THING`
+- `QUIET UNTIL SOMEBODY SAYS THE WRONG THING`
+
+A heading should tell us something about the person, not merely identify a source, channel, or year.
+
+## Visible prose must not sound like evidence synthesis
+
+The archive is backstage. The finished biography should sound like somebody explaining the person.
+
+Avoid visible formulations such as:
+
+- `the evidence shows`;
+- `the archive proves`;
+- `this receipt establishes`;
+- `this demonstrates`;
+- `what this does not prove`;
+- `this should not be interpreted as`;
+- `earliest surviving evidence does not establish origin`;
+- `the surviving record indicates`;
+- `this is best understood as`;
+- repeated paragraphs explaining what an uninspected attachment, missing reply edge, role array, or export cannot establish.
+
+Attribution, provenance, confidence grades, source-method housekeeping, anti-fanon constraints, and technical caveats belong downstairs in claims, source ledgers, antiFanon, integration state, or other metadata. Surface uncertainty only when it actually changes the character story, and phrase it like normal prose.
+
+The public biography is not the place to repeatedly litigate the research process.
+
+## Relationships must feel lived
+
+Do not substitute a `Related People` list for relationship writing. Show the relationship in motion: somebody checking on an absence, knowing the preference, dragging the other person into a bit, being trusted with a problem, remembering an old story, comfortable arguing, or saying one tiny thing that only works because the familiarity is already there.
+
+Joke-family language is not biology. Flirting is not automatically romance. Familiarity does not need a formal closeness ranking to matter.
+
+## Roles must be lived
+
+Officer, Staff, Media Director, Founder, VIP, Sniper, and similar labels are reference facts. In the biography, explain what the role looked like when the person inhabited it: organizing, recruiting, mediating, building, protecting, delegating, documenting, teasing, disappearing, returning, or following somebody else who knew better.
+
+Formal title is not personality.
+
+## Preserve contradictions
+
+Do not flatten somebody into one adjective. The good material often lives in the collision:
+
+- intimidating and goofy;
+- organized and personally chaotic;
+- quiet until activated;
+- competent and catastrophically bad at one specific thing;
+- affectionate and evasive;
+- constantly teased while actively feeding the joke;
+- formally in charge while perfectly happy to defer to somebody with better knowledge.
+
+Contradiction is character, not a problem to resolve.
+
+## Petty Crimes
+
+The catch-all section name is **Petty Crimes**. Never call it `Trivia`.
+
+Use Petty Crimes for the small shit that makes a person recognizable: food opinions, hobbies, tastes, habits, weird preferences, tiny humiliations, recurring phrases, personal objects, small life facts, odd discoveries, and miscellaneous lore that does not deserve to interrupt the main arc.
+
+Petty Crimes should feel specific and alive, not like a database dump.
 
 ## Integration invariant
 
-Every public character route must resolve to a biography-shaped narrative.
+Every public character route must resolve to a person-shaped biography.
 
-When miners surface new person-specific evidence, the integrator should normally ask first: **does this deepen the person's existing life story?** If yes, enrich the biography before creating another detached mini-dossier, repeated metadata card, or duplicate scene summary.
+When miners surface new material, ask first:
 
-Strong inferred/probable material should not be rejected solely because the miner did not label it `archive-confirmed`. If the context is persuasive and it does not collide with a hard lock, integrate the human read with proportionate confidence.
+- does this deepen an existing trait?
+- does it change or enrich a relationship read?
+- does it reveal a contradiction?
+- does it belong inside an existing character arc?
+- does it show change over time?
+- is it Petty Crimes?
+- is it actually better as a Wiki Episode?
 
-Finished hand-written narrative biographies take precedence over generated/narrativized fallbacks. Deep archive-backed bios may be converted into the narrative structure without discarding their receipts. Generic role/profile fallbacks are not acceptable as the main character-page body.
+Fold new material into the existing biography whenever possible. Do not append another report-like paragraph merely because another receipt exists.
 
-## What this does not authorize
+Finished hand-written person-first narratives take precedence over generated or dossier-shaped fallbacks. Source ledgers and old dossiers may remain as supporting research material, but they are not the public biography's voice.
 
-This standard does not authorize invented motives, diagnoses, fake intimacy rankings, invented appointment dates, identity conflation, literalization of joke-family/ship/property language, or turning a funny one-off into a lifelong defining trait without broader support.
+## Hard rails remain hard
 
-It **does** authorize reasonable personality/relationship/taste/habit interpretation when the scene or cumulative pattern actually earns it. Do not confuse caution with refusal to interpret.
+This standard does not authorize invented motives, diagnoses, fake intimacy rankings, invented appointment dates, identity conflation, literalization of joke family / ship / property language, unsafe private detail, or turning a funny one-off into a lifelong defining trait without broader support.
 
-The goal is not to make everybody sound epic. The goal is to let the archive make them **specific enough to become a person**.
+Earliest surviving is not guaranteed origin. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct. Similar names do not merge people.
+
+Those rails belong underneath confident human writing; they should not turn the visible biography into a courtroom transcript.
+
+The goal is simple: **a real person's story / legend / character page, built from the archive without sounding like the archive wrote it.**
