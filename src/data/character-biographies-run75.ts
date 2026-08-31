@@ -1,6 +1,45 @@
-import type { CharacterNarrative } from "./character-biographies-narrative";
+import type { CharacterNarrative, NarrativeSection } from "./character-biographies-narrative";
+import { run39NarrativeCharacterBios } from "./character-biographies-run39";
+
+const eosBase = run39NarrativeCharacterBios.eos;
+const eosGilliIndex = eosBase.sections.findIndex(
+  (section) => section.title === "Gilli is the reason; mashed potatoes are the lie",
+);
+
+const eosMiloSection: NarrativeSection = {
+  period: "January–April 2021",
+  title: "BESTIE FIRST. WHALE CONSERVATION SECOND.",
+  paragraphs: [
+    "January 2021, clubs are being rearranged somewhere above everybody's heads. Milo spots Eos and the infrastructure immediately loses the scene: `WAIT EOS HII BESTIE`, then `i cant believe we're in the same club sksksksk` and `its truly a gift`. Eos is just as surprised — `Milo Chan I didnt know you were here xD`, `life is full of surprises`. Nobody pauses to define the friendship before enjoying the fact that they landed in the same place. Recognition does the work.",
+    "By April Milo is talking about going free-to-play and slowly quitting. Eos answers `You finally limiting yourself, u whale ... good`. It is a compact little care package with teeth. `Finally` notices the change, `u whale` keeps the roast wrapper on, and `good` approves it. Milo says `shush we don’t gotta talk about it` and then promptly goes back to pity/RNG complaints anyway. Eos apparently does not need to switch into a solemn register to be supportive. The approval can stay inside the joke."
+  ],
+};
+
+const eosSections =
+  eosGilliIndex >= 0
+    ? [
+        ...eosBase.sections.slice(0, eosGilliIndex),
+        eosMiloSection,
+        ...eosBase.sections.slice(eosGilliIndex),
+      ]
+    : [...eosBase.sections, eosMiloSection];
+
+const eos: CharacterNarrative = {
+  ...eosBase,
+  sections: [
+    ...eosSections,
+    {
+      title: "PETTY CRIMES",
+      paragraphs: [
+        "Has served as a one-line whale conservation program: when Milo proposes limiting the spending grind, Eos records the development as `You finally limiting yourself, u whale ... good`. Approval granted; roast surcharge remains mandatory."
+      ],
+    },
+  ],
+};
 
 export const run75NarrativeCharacterBios: Record<string, CharacterNarrative> = {
+  eos,
+
   woosung: {
     intro: [
       "Woosung / WOO / Woo Woo has the kind of personality that makes denial extremely difficult because she usually commits the incriminating act first. She gives practical advice, remembers exactly what she wanted, points at somebody, issues a verdict, and only then realizes the room has interpreted this as having feelings. By that point Moon is already calling her famous and the paperwork is against her.",
