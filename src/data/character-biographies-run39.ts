@@ -1,5 +1,6 @@
 import type { CharacterNarrative } from "./character-biographies-narrative";
 import { narrativeCharacterBios } from "./character-biographies-narrative";
+import { richNarrativeCharacterBios } from "./character-biographies-rich";
 import { run42NarrativeCharacterBios } from "./character-biographies-run42";
 import { run43NarrativeCharacterBios } from "./character-biographies-run43";
 
@@ -9,6 +10,49 @@ const anayss = narrativeCharacterBios.anayss;
 export const run39NarrativeCharacterBios: Record<string, CharacterNarrative> = {
   ...run42NarrativeCharacterBios,
   ...run43NarrativeCharacterBios,
+  ...richNarrativeCharacterBios,
+
+  woosung: {
+    intro: [
+      "Woosung / WOO is a former ScarletMoon leader, UL VIP, permanent Platelet, and one of the people whose friendship with Mugen survives every attempt by UL's vocabulary to make the relationship sound normal. Woo's own serious description is straightforward: close friend, older-sister-like guide, somebody she can talk to about anything. UL's 2020 version of the same relationship is `mugs is my daddy granny`.",
+      "That collision is very Woosung. Her surviving voice likes compact verdicts and abrupt register changes. She can point at Anthos with a fake kill command and post a love/party GIF seconds later. She can give somebody practical comfort advice and then spend the next several messages objecting to the accusation that this means she cares. The feeling usually arrives before the disclaimer paperwork."
+    ],
+    sections: [
+      {
+        period: "2020",
+        title: "Murder command, love GIF, no transition",
+        paragraphs: [
+          "On September 30 WOO types `eli kill @ANTHOS`. The bot performs its melodrama. About twenty-four seconds later WOO throws a love/party Tenor GIF into the same room and keeps the sequence moving. Nobody needs a bridge sentence explaining how mock violence became affection-coded media because the whole thing lives inside shared social play.",
+          "That tonal range is more revealing than either object by itself. Woosung is not trapped in one presentation. Sharp and affectionate can occupy the same minute without becoming evidence of literal hostility, romance, or some hidden relationship rank. The room already knows how to read the switch."
+        ]
+      },
+      {
+        period: "December 2020 → May 2023",
+        title: "Mugs is my daddy granny. Later: older-sister-like guide.",
+        paragraphs: [
+          "December gives Mugen one of UL's better impossible family labels: `mugs is my daddy granny`. Two generations, one person, zero useful genealogy. The joke works because fake-family language is allowed to stack until biology gives up.",
+          "Years later a QOTD lets Woo describe the bond without house grammar doing cartwheels. Mugen is a close friend, a grown-up version of herself, an older-sister-like guide, somebody she can talk to about anything, and one of her earliest close Dragon Raja relationships. The serious answer does not cancel `daddy granny`; it explains why the joke had enough familiarity underneath it to land."
+        ]
+      },
+      {
+        period: "March–April 2023",
+        title: "The verdict comes fast; the care comes first",
+        paragraphs: [
+          "March catches the compact delivery style intact: `NOBU`, then less than two seconds later, `TRAITOR`. The archive does not safely establish the alleged betrayal, and it does not need to. The joke is the speed of the ruling. Woo can point at the defendant and issue the verdict before the court has found the paperwork.",
+          "April turns the same economy toward care. WOO gives useful comfort advice. Moon notices the emotional inconvenience and says, essentially, ah, so you care. Woo answers `shut up moon`, denies being tsun, and eventually lands on `I don't not care about anyone here`. Unfortunately for the defense, the helpful act already happened. The double negative is just the sound of somebody trying to preserve a tougher presentation after the room has caught the soft part in 4K."
+        ]
+      },
+      {
+        title: "Petty Crimes",
+        paragraphs: [
+          "Can apparently compress Mugen into `daddy granny` without grammatical injury. Has used `NOBU` → `TRAITOR` as a complete courtroom procedure. Once proved that a correctly timed love GIF can arrive less than half a minute after a fake murder command. Her best defense against being accused of caring remains `I don't not care about anyone here`, which is not how acquittals work."
+        ]
+      }
+    ],
+    closing: [
+      "Woosung's file works because the contradictions are not actually contradictions to the people around her. The room is comfortable enough to understand the kill command as play, the love GIF as part of the same play, the care as real enough to tease, and the denial as another layer of the relationship rather than a retraction. Woo does not narrate every transition. Usually she assumes everybody already knows."
+    ]
+  },
 
   eos: {
     intro: [
