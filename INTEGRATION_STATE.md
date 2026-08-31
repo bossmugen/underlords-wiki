@@ -1,10 +1,10 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-08-31 15:44 PDT_
+_Last updated: 2026-08-31 16:10 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Older run detail remains in Git history and MAIN's dated integration reports.
 
-## Current boundary — Run 92
+## Current boundary — Run 93
 
 The public-bio rule remains: **the person is the spine; events are supporting scenes; the archive stays backstage.** MAIN owns the richest person/legend biographies. WIKI owns complementary Cast history, relationships, episodes, running jokes, quotes, locations, gallery/reference structure, and person-first narrative where the character route uses it. `Petty Crimes` is the public catch-all; never `Trivia`.
 
@@ -13,70 +13,63 @@ Hard user canon, resolved identities, privacy/safety, explicit contradictions, a
 ## Census / review boundary
 
 - Full miner census remains **49 tracked identities = 28 active refs + 21 historical/missing refs; 0 newly discovered; 0 finite pending review; 0 backlog; 0 overdue**.
-- Wall is reviewed through `a08d79066de0d49d5cd50b046062488eb5ad4b8e`; Core Rooms through `21b20ace172366256cd69fbeb17b01974d669555`; Mugen person-first through `15ec5571b227d4110d7f23841ba5bdb262f3ce82`; Whiskey through `b33acf07999327a2b79f3a4c189d26456e65626c`.
+- Run 93 reviewed two advancing families checkpoint-first and intake-only: All Characters HR through final late head `e47c4823f002b053fb60fea8beeb418454f615b4`; Core Rooms through `a5f45f467ead013de5597f5db705ec1b5142fb04`.
+- All Characters advanced once more during the pass after its first Run 58 handoff. The late `178636e… → e47c4823…` suffix only rewrote the comprehensive HR files for Anayss, Ansun and Gabu around material already reviewed in Run 58; it did not create another evidence family.
+- Wall remains recovery-open only for future movement and is already reviewed through `a08d79066de0d49d5cd50b046062488eb5ad4b8e`.
 - Both Club-Only recovery priorities remain fully current: 2021–2026 through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`; 2020 through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`.
-- Run 92 opened while Run 91 was still closing the same four advanced families. Once the concurrent publication/state landed, Run 92 reconciled to the newer reviewed boundaries instead of duplicating public copy or pretending those deltas were still pending.
 - No miner branch was merged or wholesale cherry-picked; no raw archive was re-mined by the integrator.
 
-## Reader integration already live from the reconciled suffixes
+## Reader integration — Ansun can be careful without becoming solemn
 
-### Light Mode Felony
+All Characters Run 58 supplied the one genuinely under-integrated person seam this pass. Before making tarot reading an official Halloween event, Ansun / Souta asks the Officer room whether anyone objects or would be uncomfortable, leaves an objection window, and only posts after the room gives the green light. The check never requires a ceremonial voice: Sye turns the premise into fate-tampering, Ansun says the whole thing now sounds like a horrible contract, and Drink Water Reminder immediately wants to know `where i sign`.
 
-Wall's repeated light-mode prosecution is now one cumulative WIKI Legend rather than eight tiny incident cards. Sou calls it cursed in 2020; Gilli supplies the work-only defense; Ren says the panic haunts everyone; Torr objects to both light mode and unread red dots; Ricochet issues fake room sentences; Nobu gets ambushed again; Oyasumi eventually rules that the actual shame is simply using light mode. It is house comedy, not governance.
+WIKI now folds that scene into Ansun's existing **Competence is allowed to look stupid** character section. The point is not a new title, sole event ownership, a formal consent doctrine, or anybody's spiritual beliefs. The point is the contradiction already visible elsewhere in him: **careful process does not require solemn delivery.** Participation comfort gets checked seriously; the room is still allowed to be a clown car while he does it.
 
-### Nelph + Sye — service before crown
-
-Core Rooms resolves the October 5, 2021 Officer induction cleanly: Mugen welcomes Nelph and Sye as Officers, gives them the room map/orientation material, and the visible Field Manual opening frames promotion as recognition of `services you already do`, `Real life first, always`, and positions of service. Later staged access is responsibility expansion, not a second appointment. Sye's `Nelph has done amazing` and Nelph's direct `Sye, you have done amazing as well! ❤️` keep the shared climb human instead of reducing it to a roster line.
-
-MAIN's current Nelph biography already owns the richer person-first version, so WIKI uses the material structurally rather than mirroring MAIN prose.
-
-### Cookie + Tofu — mutually assured receipts
-
-The August 2024 Wall sequence is published as reciprocal screenshot prosecution: Cookie files, Tofu accepts the challenge and true-replies with a counter-receipt, Cookie laughs/pleads, and the exchange continues into another round. The relationship read is comfortable two-way teasing, not one-sided victimhood. Image contents remain sealed; POSTED BY is not converted into MADE BY, CAPTURED BY, or FEATURING.
-
-### Wrong Feli
-
-Mugen's September 2020 false-positive is published as the small social-memory failure it actually is: `FINALLY FELI` lands on Degen Rat, Degen Rat explains they are unfortunately not Feli, Mugen laughs, and actual Feli arrives later to `thereeee we go xD`. Long memory does not give Boss oracle powers, and low-stakes public correction does not become a dignity emergency.
-
-MAIN should eventually fold this into Mugen's existing anti-pedestal / `Petty Crimes` material rather than create a chronology chapter.
+Reader file: `src/data/character-biographies-ansun.ts`.
 
 ## Duplicate / corroboration-only closures
 
-- Whiskey's Cele/Celery package is already person-first on WIKI: the nickname, chemistry class, all-English boredom, cookies-versus-enchiladas household negotiation, salt-emoji delight, and ShiyaX/Mugen social-routing texture are already present. No duplicate paragraph was added.
-- Wall's Kiro `Who's kiro` self-evasion is already in the current Kiro narrative. No duplicate patch.
-- MAIN Nelph already contains the October 5 Officer induction, service-first framing, and later lived operational behavior.
-- Core's Ansun tarot comfort-check deepens an existing low-friction / careful-process read but does not create a new title or standalone event without stronger execution context.
-- Ren's `I keep all my ss UwU` / `I got another one but I’ll spare` sharpens the curator-with-discretion read. It belongs in the existing Ren arc when that page next needs a substantive refresh; it does not require a standalone Episode.
-- BishopThaGuru's Wall-comedian material is profile-ready-small but still better held for another non-Wall side before expanding a public dossier around one mechanism.
+- Run 58's Kiro failed-pettiness report, Gabu self-filing Wall scene and Anayss maker→subject→audience creative arc were already on current MAIN. The comprehensive HR layer was catching up to public state, not generating three new publication jobs.
+- Nelph/Sye mutual credit was already live in WIKI's Run 91 Officer-induction Episode: Sye says `Nelph has done amazing`; Nelph directly returns `Sye, you have done amazing as well! ❤️`. No second relationship paragraph was added merely because All Characters HR absorbed the same scene.
+- Nelph's `I love tarot reading ❤️` is valid tiny taste / future `Petty Crimes` material, but remains proportionate: not religion, spirituality, divination belief or profession.
+- Core's 15:34 Nelph package materially strengthens the backstage synthesis but is already substantially public. MAIN Nelph already contains the 2020 Lobby doorway, October 2021 Officer induction, private-case process behavior, action-first announcements, November 22 scam/2FA follow-through, ordinary-life FarmVille/chickens/goats/satellite-wife texture, break/open-door language, the 2023 LuCiel invite bridge and the 2026 return. WIKI already uses the LuCiel invite line inside Nelph's social-bridge history.
+- LuCiel's `i quit the game saw cute emotes and asked @N E L P H for invite ez` is delightful tiny person texture and useful post-game Discord continuity. One line is not enough reason to manufacture a full public character entity.
+- Rummy, Shiki and Han/Nai closed as bounded no-public-change qualification checks. Rummy remains Nobu/Xuseio's Party Director Apprentice, not co-equal Party Director. Han remains never Officer and never Platelet; Han ≠ Mia.
 
 ## Hard-canon correction — New stays in the pre-Raja circle
 
-Run 91's prior state text incorrectly treated a miner inference as a binding correction and called MAIN's inclusion of **New** in Mugen's older pre-Raja circle `stale`. That is wrong and is superseded here.
-
 **Binding user-confirmed canon remains:** Mugen's older pre-Raja online circle includes **Dean, Key, Zepp, Kal, New, and GenGrey**. GenGrey is also an older cross-game friend. New later saying Mugen recruited New `through @GenGrey` describes a later recruitment route into another setting; it does **not** move New's first relationship with Mugen forward or evict New from the pre-Raja circle.
 
-Current MAIN Mugen and current WIKI GenGrey already preserve the correct version. Do not “fix” either one by removing New. Recruitment route ≠ first-meeting clock.
+The All Characters miner checkpoint still contains stale wording that says New belongs to a later Mugen relationship clock. That miner-side sentence is superseded by the hard user-confirmed lock above and must not propagate back into either public surface. Recruitment route ≠ first-meeting clock.
 
 ## Held rails / rabbits
 
 - `Zyrcant = Akariel = Akariel™ = akariel_star` remains hard canon. Artifact attribution still stays separate from identity.
-- Light-mode prosecution is a joke, not governance.
-- Nelph's October 5 induction is the surviving Officer-induction boundary; later staged access is not a second appointment and export-time role arrays are not chronology.
+- Ansun/Souta ≠ Anthos; the merged-being joke is comedy, not identity evidence.
+- Ansun's tarot preflight is lived carefulness, not a formal consent policy and not sole event ownership.
+- Tarot interest does not establish religion, spirituality, divination belief or professional practice.
+- Nelph's October 5, 2021 induction remains the surviving Officer-induction boundary; later staged access is not a second appointment and export-time role arrays are not chronology.
 - Sensitive complaint details in Nelph's Officer work remain private; only process behavior may surface.
-- `Celery` is a strong peer nickname for Cele by March 2021, not a proven coinage date.
-- Wrong Feli proves Mugen expected Feli and misidentified Degen Rat; it does not establish why Feli was expected, recruitment, first contact, or a family-tree edge.
-- The Shy retrospective still needs raw rejoin before retrospective wording is ever presented as contemporaneous 2020 dialogue.
+- Nelph's scam attachment is POSTED BY Nelph only; MADE BY / CAPTURED BY / FEATURING remain unresolved.
+- LuCiel's cute-emote motive is not proof of returning to Dragon Raja.
+- Wrong Feli does not establish why Mugen expected Feli, recruitment, first contact, or a family-tree edge.
+- Light-mode prosecution is a joke, not governance.
+- SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct.
 
 ## Verification / deployment
 
-The reconciled reader head `c963e700297e13fa2fde39898948fc4d340ef235` passed **Build Underlords Wiki** run `33447040085` and **Deploy Underlords Wiki Preview** run `33447040146`, including Pages deployment. Run 92 itself makes no reader-facing WIKI change; this file is a durable state/canon correction after concurrent integration.
+The Run 93 reader head `c1027419b8fc532e9bca8cf8f6af4e4c1478fad2` passed **Build Underlords Wiki** run `33449193580` and **Deploy Underlords Wiki Preview** run `33449193539`, including Pages deployment.
 
-MAIN's current reader state likewise receives no Run 92 prose mutation. Its required build/deploy path remains infrastructure-blocked before source verification/Astro/built-output verification can execute; do not interpret the dead-runner signature as source rejection.
+MAIN reader content received no Run 93 mutation. Its opening census head `bb872075e05218e35dfa9b43f25c7138dfaa7077` triggered `UL Hourly Build + Deploy` run `33448913189`; `Build + verify` failed before execution with `steps: []` and runner ID `0`, while Cloudflare deployment was skipped with `steps: []`. Source verification, Astro and built-output verification therefore did not reject reader content — they never ran. No MAIN reader change was routed around the dead gate.
 
 ## Consumption / publication debt
 
-Wall, Core Rooms, Mugen person-first and Whiskey are reviewed through the current heads listed above. Their formal consumed cursors remain pinned where older accepted MAIN work still cannot pass the required MAIN verifier; reviewed-through boundaries prevent rereading. All Characters HR and Daycare remain reviewed through their previously recorded current heads. The five MAIN publication-debt families remain **All Characters HR, Core Rooms, Daycare, Mugen person-first, Whiskey**. Wall remains recovery-open only for future movement.
+- All Characters HR is reviewed through `e47c4823f002b053fb60fea8beeb418454f615b4`. Formal MAIN consumed remains pinned at `7f055dc0181883d537cb3f4feac017c49928e84b` because complementary accepted MAIN work still cannot clear the required verifier.
+- Core Rooms is reviewed through `a5f45f467ead013de5597f5db705ec1b5142fb04`. Formal MAIN consumed remains pinned at `c9b33dca5df5fe46b8594a999ac888253a1ff27f` behind older accepted MAIN publication debt.
+- Wall remains reviewed through `a08d79066de0d49d5cd50b046062488eb5ad4b8e` and recovery-open only for future movement.
+- Daycare, Mugen person-first and Whiskey remain reviewed through their previously recorded current heads and publication-blocked only by MAIN verification debt.
+- The five MAIN publication-debt families remain **All Characters HR, Core Rooms, Daycare, Mugen person-first, Whiskey**.
 
 ## Next boundary
 
-Resume Wall only after movement beyond `a08d79066de0d49d5cd50b046062488eb5ad4b8e`. Resume Core only after `21b20ace172366256cd69fbeb17b01974d669555`. Resume Mugen only after `15ec5571b227d4110d7f23841ba5bdb262f3ce82`. Resume Whiskey only after `b33acf07999327a2b79f3a4c189d26456e65626c`. Never reintroduce the rejected `New is later` inference: New remains in the user-confirmed pre-Raja circle while GenGrey can simultaneously be the later recruitment bridge named by New.
+Resume All Characters only after movement beyond `e47c4823f002b053fb60fea8beeb418454f615b4`. Resume Core only after `a5f45f467ead013de5597f5db705ec1b5142fb04`. Resume Wall only after `a08d79066de0d49d5cd50b046062488eb5ad4b8e`. Never reintroduce the rejected `New is later` inference: New remains in the user-confirmed pre-Raja circle while GenGrey can simultaneously be the later recruitment bridge named by New.
