@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-08-31 06:31 PDT_
+_Last updated: 2026-08-31 07:06 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Earlier run detail remains in Git history and MAIN's dated `archive-intake/INTEGRATION_PASS_*` reports.
 
@@ -10,57 +10,45 @@ The public biography rule remains binding: **the person is the spine; events are
 
 Hard user canon, resolved identities, privacy/safety, explicit contradictions, appointment chronology and attribution fences remain hard. Strong ordinary-life, relationship, humor, habit, emotional-subtext, care-pattern, reputation, social-role and cumulative character reads may publish when the surrounding material makes them more likely than not.
 
-- **Closing census:** 49 tracked miner identities = 28 active refs + 21 historical/missing refs; 0 newly discovered; 2 finite pending reviews; 0 backlog; 0 overdue. The pass reviewed All Characters, Wall recovery and Mugen person-first, then a final sweep caught **post-review movement** on All Characters and Mugen. Their new heads are already registered in MAIN branch state rather than being allowed to disappear between runs.
+- **Run 63 census:** 49 tracked miner identities = 28 active refs + 21 historical/missing; 0 newly discovered; 0 finite pending review after close; 0 backlog; 0 overdue; Wall remains the one recovery-open branch.
 - Both **Club-Only** recovery targets remain consumed/current: 2021–2026 through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`; 2020 through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`.
-- **All Characters HR** was reviewed/consumed through `2d53f2a5538971f6d563cd599e8351a36d2b0a02`. That reviewed Run 49 packet was duplicate/corroboration or already-public material around Nelph, Rummy, Shiki and Gabu. The branch then moved again after review to `d4e8e7688939a4bf72ea21060117360c6b326533`; only that fresh suffix remains `pending_review` for the next checkpoint-first pass.
-- **Wall** recovery was reviewed from `f2f019bf40fd17549fc62fc8a63b04f46bf7e40b` through `fd3bacbd1e21a1bf081e25829da7489ed171c43c`. The genuinely new public keep is the reputation shift around Rummy: Ricochet's 2022 `Our little rummy first cuss` / `They grow up so fast` framing becomes Gilli's 2024 `Rummy level` severity scale and Momo being desensitized to `what rums says`. WIKI publishes this as the Running Gag / Legend **Rummy Level**. The same Wall suffix also adds Daya/Mugen absence-preservation texture around `I'm in the middle of a mountain, send ss`; that evidence family is collapsed with the Mugen-person-first handoff instead of being published twice. Wall is consumed/current through `fd3bac...` and remains recovery-open for future suffixes.
-- **Mugen person-first** was reviewed through `3ae68c87c7486bcdd0987981762221d43d79b4c9`. Its strongest new read is that HyaLuna was already inside Mugen's private deliberation loop before the April 11, 2020 ScarletMoon offer reached wider leadership: Mugen says she and HyaLuna discussed it the night before, then opens the issue to the room for pros/cons. Current WIKI HyaLuna already carries that lived relationship correctly, so no duplicate WIKI biography prose was added. The Daya mountain screenshot request is the same evidence family surfaced by Wall. The branch then moved again after review to `9a3796f13d41d08db9bf8d72537873d5949c9739`; that new suffix is registered `pending_review` for the next pass. The older MAIN-Mugen publication hold remains separate, so formal consumed still stays at `8240054d3d27235ce9da97269fed033c699f9600`.
-- **Core Rooms** remains reviewed through `6da0509a792f6c9d3c7fb36a81207a64c71d2299`; formal MAIN consumption stays pinned at `c9b33dca5df5fe46b8594a999ac888253a1ff27f` while accepted MAIN Nelph work cannot clear MAIN's mandatory verifier.
-- **Daycare** remains reviewed through `fb8555f17219773af57a26514adc911d9f768a4e`; formal MAIN consumption stays pinned at `fccd131e47c0a03018ca3cecfcecbe8ebdd5b703` behind the older accepted Mia verification hold. Gabu remains she/her; an isolated miner masculine pronoun is a typo, not canon movement.
-- **Whiskey** remains reviewed through `126ea76ae58e19f71b003ee626cb47e5d23c1548`; formal MAIN consumption stays pinned at `e381584248426262d36f254ca275151bdaf69dd9` because older accepted Sye/Life MAIN work remains publication-blocked.
+- **All Characters HR** Run 50 was reviewed checkpoint-first through late closing head `2647dc449ce752d15dea6613e93125c1b22fb940`. Its Anthos, Daya, Oyasumi, Snow, Ren, Sye, Gilli and Moon synthesis consolidates scenes already on current public person pages. No duplicate public paragraphs were added; the branch is consumed through that head as successful no-public-change review.
+- **Daycare** was reviewed through `46eb2d160c760692e28caaf58bc964bd2f23e521`. The genuinely new keep is Nobu's cumulative person arc: terse Daycare boundaries in 2022, later `Quit aging` / `smol platelet` nostalgia, then her 2024 self-reply to her old intake as a high-context return callback. WIKI now folds this into Nobu's structured character dossier rather than making a standalone Episode. Formal MAIN consumption remains pinned at `fccd131e47c0a03018ca3cecfcecbe8ebdd5b703` because MAIN's verifier still does not execute; this also preserves the older Mia verification hold.
+- **Mugen person-first** was reviewed through `44857564d4b3d6bda5e7a2f0cad6df0492b07e9b`. The fresh small keep is `satellite wife`: Mugen misreads Nelph's `satellite WiFi`, Nelph immediately answers `I MEANT WIFI😭`, sharpening competence-without-omniscience and ordinary correction texture. Concurrent WIKI work already integrated this at `ed81d5d2befed6b2203e81b74466346068917792`; it was not duplicated on MAIN in this pass because the existing Mugen biography is already rich and the stronger MAIN holds are older HyaLuna/Daya deepeners. Formal consumed remains `8240054d3d27235ce9da97269fed033c699f9600` while those MAIN changes cannot verify.
+- **Wall** is current/consumed through `fd3bacbd1e21a1bf081e25829da7489ed171c43c`; its active-recovery checkpoint was rechecked and no later suffix existed during this pass.
+- **Core Rooms** remains reviewed through `6da0509a792f6c9d3c7fb36a81207a64c71d2299`; formal MAIN consumption remains `c9b33dca5df5fe46b8594a999ac888253a1ff27f` behind verifier failure.
+- **Whiskey** remains reviewed through `126ea76ae58e19f71b003ee626cb47e5d23c1548`; formal MAIN consumption remains `e381584248426262d36f254ca275151bdaf69dd9` behind the older accepted Sye/Life MAIN hold.
 - No miner branch was merged or wholesale cherry-picked; no raw archive was re-mined.
 
-## Public work — Run 61
+## Public work — Run 63
 
-### Rummy Level
+### Nobu / Xuseio
 
-WIKI's Legends surface now preserves a very UL kind of reputation arc. In March 2022 Ricochet treats an alleged Rummy cuss as mock coming-of-age and Mugen answers with the crying-cat reaction. By August 2024 Gilli can simply say `Rummy level` about somebody else's offense and expect the room to understand the unit. By December Momo says she is desensitized to `what rums says`. The joke has stopped being only about what Rummy did and become a calibration tool for what everybody else does.
+WIKI's Nobu biography now uses the Daycare material as a person-shaped contradiction instead of another incident pile. In 2022 she can settle a boundary with `No cursing, this the daycare.` and `No drunk texting, this is a daycare.` In 2024 the same compact voice says `Quit aging. You make me feel old. Last I recall you a smol platelet.` Then, when the Lobby bot asks for another introduction, Nobu replies `jes.` to her own old intake while familiar people welcome her back.
 
-This went to WIKI rather than being forced into MAIN while MAIN's verifier is dead. A future MAIN Rummy pass can fold the same reputation shift into her person-first bio instead of mirroring the Legend copy.
+The structured read is **short rule line / long social memory**. It complements rather than mirrors MAIN: WIKI keeps the chronology, relationship anchors and searchable role facts; MAIN turns the same source family into a richer lived biography.
+
+### Mugen `satellite wife`
+
+WIKI also retains the small Mugen/Nelph Petty Crime already published immediately before this pass. The useful joke is not generic carelessness. Mugen can remember people and callbacks across years and still fail the object directly in front of her by reading `satellite WiFi` as `satellite wife`. Nelph's `I MEANT WIFI😭` also gives ordinary correction-without-ceremony texture around Boss.
+
+Hard boundary: this is Mugen's misread, not evidence about Nelph's relationship, household, location, farm, occupation or private life.
 
 ## Duplicate / hold decisions
 
-- All Characters Run 49 through `2d53f2...` is consumed as duplicate/corroboration; its strongest material already lives publicly. Its later `d4e8e7...` suffix is merely registered pending, not silently treated as reviewed.
-- HyaLuna's Mugen sounding-board scene is already correctly integrated into the current WIKI HyaLuna dossier, so it was not republished under Mugen as a second version of the same relationship beat.
-- Daya's `caught in 4k` / Mugen `middle of a mountain, send ss` sequence is one shared evidence family across Wall and Mugen handoffs. WIKI did not turn it into a thin Episode. MAIN Mugen is the richer eventual owner once MAIN can verify again.
-- The fresh Rummy reputation sequence belongs naturally on WIKI's searchable Legends surface now; MAIN can later synthesize it into Rummy's lived reputation without copying the same prose.
+- All Characters Run 50 is consumed without public mutation because the miner itself reconciled its eight source scenes against current public person pages and found them already present. Snow's current public page was spot-checked and already carries the exact permissions/VC contradiction. Rewriting eight people again would be integration-by-echo.
+- Daycare's secondary `paperwork becomes lore` mechanism is supporting onboarding/history texture only. It was not promoted into a new standalone Wiki Episode.
+- The unresolved person addressed by Nobu's `smol platelet` line stays unresolved. No identity was inferred from adjacency.
+- Mugen `satellite wife` remains WIKI-only for this pass; MAIN already has a very rich Mugen biography and the new beat is a small contradiction/Petty Crime rather than a reason to staple another report paragraph onto her.
+- Gabu remains she/her. Sye/Life is not Effie. Rich is not resolved Ricochet/`dragonrichard`. Snow was never formal #2.
 
-## WIKI verification / publication
+## Verification / publication
 
-Reader commit `225c564e30423bc8536d775041f735e0db2f67c0` added **Rummy Level** and wired it into the existing Legends page.
+- WIKI reader commit `0634bf71dc557ebb26677e8e227e6e07cebc8542` rewrote Nobu's structured dossier around the Daycare continuity arc.
+- **Build Underlords Wiki** run `33400358382`: success.
+- **Deploy Underlords Wiki Preview** run `33400358530`: success. Pages deployment completed for the same reader head.
+- MAIN reader commit `21f6b7bd7c497bfea4e430f9b4d9992705b06534` rewrote Nobu into a rich person-first biography, but MAIN `UL Hourly Build + Deploy` run `33400292654` failed before executable build steps on attempt 1 and again after an explicit `Build + verify` job rerun; deployment was skipped. This is an infrastructure gate failure, not a reported source/build test failure.
 
-Exact-reader-head checks:
+## Next integration boundary
 
-- **Build Underlords Wiki `33396244531` — SUCCESS**
-- **Deploy Underlords Wiki Preview `33396244581` — SUCCESS**
-
-The first durable-state head `7f704701dc7a6432eaad946e9f3b5cb4276b80bd` also passed its exact-head build and Pages deployment. This closing state update exists only to register the two late miner heads caught after that state was written.
-
-## MAIN publication status
-
-No new MAIN reader prose was added in Run 61. The mandatory census commit `e1c21a0836a459d7880ea0d826c3cb67fb3528f5` triggered `UL Hourly Build + Deploy` run `33395250217`; attempt 1 failed before `Build + verify` received executable steps, and one explicit failed-job rerun produced the same pre-execution failure. The later Run 61 state head reproduced the same empty-job failure shape. Source verification, Astro and built-output verification therefore did **not** run and diagnose bad source; the runner failed before the checks existed.
-
-The accepted/held MAIN queue remains explicit instead of being quietly marked done: Core/Nelph, Daycare/Mia, Whiskey/Sye-Life cleanup, and Mugen/HyaLuna + Daya absence-preservation deepeners. MAIN was not force-published around a dead verifier.
-
-## Hard holds
-
-- **Rich / DragonRich is not collapsed into unresolved Ricochet / `dragonrichard`.** A direct bridge is required.
-- **`sycessences` / `ƐℲı˥` = Sye/Life, not Effie.**
-- Snow was not formally second-in-command / #2.
-- MAIN still owes the direct Wall screenshot-invitation attribution correction from ShiyaX to **Sou/Ansun** once its verifier can actually run.
-- Exact Officer appointment chronology is never inferred from exporter-time role arrays.
-- Joke family / romance language remains joke language unless separately confirmed.
-- Candy / later Luna remains distinct from HyaLuna.
-- WhitePhoenyx = Xephy and is not WolfPhenix.
-- Gabu is a woman.
-- SAID BY / POSTED BY / HOSTED BY / VIA-SOURCE / CAPTURED BY / MADE BY / FEATURING remain distinct.
+Start from MAIN `archive-intake/INTEGRATOR_BRANCH_STATE.json`. Review only miner movement beyond recorded consumed heads. Wall remains recovery-open. The finite review queue is empty at this snapshot; Core, Daycare, Mugen and Whiskey are publication-blocked solely because MAIN's required verification gate has not executed successfully.
