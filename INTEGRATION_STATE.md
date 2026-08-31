@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-08-31 00:08 PDT_
+_Last updated: 2026-08-31 00:16 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Earlier run detail remains in Git history and MAIN's dated `archive-intake/INTEGRATION_PASS_*` reports.
 
@@ -19,9 +19,9 @@ The lower-evidence project rule remains binding. Hard canon locks, resolved iden
 - **Whiskey** remains reviewed through `2eb736a93db50aaff812d9ee609e511d3fb71e42`; formal consumed remains `6cd5f9daeb20d77fad20e3cd7465ec938411993d` because older accepted Sye/Life MAIN biography material is still publication-blocked.
 - No miner branch was merged or wholesale cherry-picked into either publishing branch.
 
-## Run 46 — census-only reconciliation
+## Run 47 — census-only reconciliation
 
-The mandatory full miner-branch census was completed before any deep review and durably recorded on MAIN. It found the same **28 active miner refs** plus **21 historical/missing tracked identities** as Run 45. Every active miner head matched its recorded `last_seen_sha`; there was therefore **no advanced or unconsumed miner delta to review** this pass.
+The mandatory full miner-branch census was completed before any deep review and durably recorded on MAIN. It found the same **28 active miner refs** plus **21 historical/missing tracked identities** as Run 46. Every active miner head matched its recorded `last_seen_sha`; there was therefore **no advanced or unconsumed miner delta to review** this pass.
 
 Because no branch advanced, the anti-starvation rule had no pending/advanced branch to rotate in. Both Club-Only recovery priorities were checked against their recorded heads and remain current. Wall remains open only for possible future deltas; its current head is already consumed. Whiskey remains a publication hold, not an unread evidence backlog.
 
@@ -37,7 +37,7 @@ Run 45 remains the latest WIKI reader-facing integration. Reader head `f4a784207
 
 That reader head passed Build Underlords Wiki run `33365811230` and Deploy Underlords Wiki Preview run `33365811204`. Run 45's subsequent durable state head `79c08db06b4413f17c0b2a76aadf19472f69fddb` also passed Build `33365947027` and Pages deploy `33365947010`.
 
-Run 46 adds no reader-facing wiki material because there is no new evidence delta to integrate. This state-only commit must still pass the repository's existing build and Pages workflow before the pass is considered durably closed.
+Run 47 adds no reader-facing wiki material because there is no new evidence delta to integrate. This state-only commit must still pass the repository's existing build and Pages workflow before the pass is considered durably closed.
 
 ## Existing cross-surface holds remain hard
 
