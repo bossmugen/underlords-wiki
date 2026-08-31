@@ -24,4 +24,43 @@ export const run41NarrativeCharacterBios: Record<string, CharacterNarrative> = {
       "The real screenshot becomes a fictional case file, and Mugen's actual status becomes part of the toy box. That is better character evidence than another generic sentence about her not taking rank too seriously: when somebody hands her mock paranoia, she is willing to make Boss itself ridiculous for the joke. Nothing here proves a literal Bishop dossier, investigation, criminal conduct, or law-enforcement relationship. The upstream image is only confirmed POSTED BY Mugen; unavailable pixels do not become CAPTURED BY, MADE BY, or FEATURING through enthusiasm."
     ],
   }),
+
+  ricochet: {
+    intro: [
+      "Ricochet's surviving Whiskey file reads less like a formal introduction and more like somebody leaving every tab open. Anime pages, One Piece canon, Blackpink, Hyuna, ITZY, gaming phones, tank games, Texas weather complaints and one future-wedding idea all keep falling into the room without much ceremony.",
+      "The stable account here is `dragonrichard`, rendered as Ricochet in the 2021 material. This page keeps that archive identity separate from any unresolved Rich identity bridge; names are not enough to perform a merger by vibes."
+    ],
+    sections: [
+      {
+        period: "January 2021",
+        title: "Whiskey gets the open-tabs version of his personality",
+        paragraphs: [
+          "On January 2 Ricochet drops MyAnimeList pages, Naruto/anime GIFs and a dense One Piece run, including a canon-character reference list. A few days later Blackpink appears as both GIF and Spotify artist page; on January 9 another Blackpink dance GIF opens into Hyuna and ITZY during the room's music chain. He rarely pauses to announce `I like this`. He just keeps putting the thing on the table until the pattern becomes obvious: anime is real taste, One Piece is familiar territory, and K-pop — especially Blackpink — keeps coming back.",
+          "January 7 briefly turns phones into the stupid object of the night: Black Shark 3 Pro, the absurd Energizer P18K battery brick, then a Nokia/Snake GIF four minutes later. That is safest as gadget curiosity plus joke escalation, not a secret telecommunications career."
+        ],
+      },
+      {
+        period: "January–February 2021",
+        title: "Texas violates the warranty",
+        paragraphs: [
+          "Ricochet spends January posting Texas / hot-weather material that basically advertises the state as permanent summer. Then February 14 arrives and he writes `Way to freaking cold for south texas`. The joke writes itself: Texas sold him one climate and delivered another. South Texas is his own coarse location wording here; nothing in the scene licenses a city, address, or more precise residence."
+        ],
+      },
+      {
+        period: "January 2021",
+        title: "Raja is the communal unit of game damage",
+        paragraphs: [
+          "On January 12 he looks at another player's nearly 100,000 battles in a tank game and translates the horror into the language everybody already understands: `Y’all think playing raja was bad look at this guy in my tank game with almost 100k battles`. The funny part is not merely that Ricochet played another game. Dragon Raja has become the room's measuring cup for unreasonable grind."
+        ],
+      },
+      {
+        period: "April–June 2021",
+        title: "Future plans, then Cheesecake Factory with a complaint ticket",
+        paragraphs: [
+          "In April, an unresolved video prompts one unexpectedly earnest line: `not going to lie i want to try and do this if i ever get married now`. The video itself is not safely resolved, so the archive can keep the aspiration without inventing what the wedding idea actually was or pretending this proves a current relationship.",
+          "Then June gives a much more practical affection receipt. Panda reports that `@Ricochet got me my Cheesecake Factory :PandaPERFECTION: (but no cheesecake)`. Whatever the exact pickup/payment/delivery mechanics were, he did something concrete that ended with Panda receiving Cheesecake Factory and immediately filing a customer-service complaint about the missing titular product. Care, but with a ticket number."
+        ],
+      },
+    ],
+  },
 };
