@@ -1,69 +1,63 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-08-31 04:48 PDT_
+_Last updated: 2026-08-31 05:34 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Earlier run detail remains in Git history and MAIN's dated `archive-intake/INTEGRATION_PASS_*` reports.
 
 ## Current boundary
 
-The biography rule is binding: **the person is the spine; events are supporting scenes; the archive stays backstage.** MAIN gets rich person/legend writing. WIKI gets character-rich searchable biographies plus Episodes, Relationships, Running Gags, Quotes, Locations and Gallery/reference structure. `Petty Crimes` is the public catch-all section name; never `Trivia`.
+The public biography rule is binding: **the person is the spine; events are supporting scenes; the archive stays backstage.** MAIN gets rich person/legend writing. WIKI gets character-rich searchable dossiers plus Episodes, Relationships, Running Gags, Quotes, Locations and Gallery/reference structure. `Petty Crimes` is the public catch-all section name; never `Trivia`.
 
-Hard canon locks, resolved identities, privacy/safety, explicit contradictions, appointment chronology and attribution fences remain hard. Strong ordinary-life, relationship, humor, habit, emotional-subtext, care-pattern, reputation, social-role and cumulative character reads may publish when the surrounding material makes them more likely than not.
+Hard user canon, resolved identities, privacy/safety, explicit contradictions, appointment chronology and attribution fences remain hard. Strong ordinary-life, relationship, humor, habit, emotional-subtext, care-pattern, reputation, social-role and cumulative character reads may publish when the surrounding material makes them more likely than not.
 
-- **Full closing census:** 49 tracked miner identities = 28 active remote refs + 21 historical/missing refs; 0 newly discovered; **2 finite late pending-review suffixes; 0 backlog; 0 review-overdue**. Wall also advanced again after review and remains the active recovery quarry.
+- **Closing census:** 49 tracked miner identities = 28 active refs + 21 historical/missing refs; 0 newly discovered; 0 overdue/backlog. Late movement during the pass advanced Daycare and Wall again; both were caught and reviewed rather than left invisible.
 - Both **Club-Only** recovery targets remain consumed/current: 2021–2026 through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`; 2020 through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`.
-- **All Characters HR** was reviewed from `1026759dfd18238b5b2d6d6d4ebcbf064a0c7911` through `cc2a021ed41b7d4449eb0567d9888c37718e63b7` and is consumed through that head. The useful Wolf/Xephy material was reconciled into their WIKI biographies; the remaining negative/exhaustion notes stay backstage.
-- **Daycare** was reviewed through `7a428d475739437a2efc4d2d86699f2c1a5c556c`. The fresh Daya material is public in WIKI; formal MAIN consumption remains pinned at `fccd131e47c0a03018ca3cecfcecbe8ebdd5b703` because older accepted MAIN Mia work is still trapped behind MAIN's mandatory verifier.
-- **Whiskey** was reviewed from `e381584248426262d36f254ca275151bdaf69dd9` through `80c2277971bc068d27f5f180b0b5a0a083b9eba2`, and the Souta/Ansun character material is public in WIKI. During closing census the miner moved again to `126ea76ae58e19f71b003ee626cb47e5d23c1548`; that suffix is pending the next fair rotation. Formal consumed remains `e381584248426262d36f254ca275151bdaf69dd9` because older accepted Sye/Life MAIN work is publication-blocked.
-- **Wall** was reviewed from `304d9374ff707a603394ce2251d2a5883e6727a8` through `086edc9b4ef921236698aa5bb80462792dca60e6`. The Torr / DiStratus packet added a strong self-aware source/defendant read and a clean `VIA-SOURCE` provenance family, but no public page was improved enough to justify another card. During closing census Wall advanced again to `e3f0515cf624d670a4102dd1171542c08e7ce6b7`, so recovery continues from the reviewed boundary rather than rereading it.
-- **Mugen person-first** was previously consumed through `8240054d3d27235ce9da97269fed033c699f9600`; closing census caught a new head `f65443ae500d4a126414918066507fdfaf679add`, now pending review.
-- **Core Rooms** remains reviewed through `6da0509a792f6c9d3c7fb36a81207a64c71d2299`, while formal consumed stays `c9b33dca5df5fe46b8594a999ac888253a1ff27f` because accepted MAIN Nelph work still cannot clear MAIN's mandatory verifier.
+- **All Characters HR** was reviewed through `335c40a3380435da5ece12808dee9405665fbe5c`. The fresh HyaLuna packet is duplicate/corroboration: both public surfaces already preserve the important correction that `🍆ulxxx` was the tiny Mugen/Snow/HyaLuna discussion chamber, while `🍑lunas-house-of-kitties` was Luna's requested personal room. No public mutation was needed; this suffix can be consumed.
+- **Mugen person-first** was reviewed through `f65443ae500d4a126414918066507fdfaf679add`. The strongest genuinely new texture is Mugen immediately anticipating that she will miss `nelphies chicken pics` when Nelph announces a break: mundane recurring friend-programming, not a farm/household inference. ShiyaX anticipated-reaction timing and the Yaza `real you` follow-up remain unresolved enough to stay backstage. MAIN is the natural home for the chicken texture, but MAIN verification is still unavailable, so publication is held rather than forced.
+- **Whiskey** was reviewed through `126ea76ae58e19f71b003ee626cb47e5d23c1548`. The fresh Souta/Ansun suffix gives a clean lived-role progression: the stable account literally posts `Ansun checking in` in May 2020; by August others are asking Souta to help with tours; through the fall he is already doing front-door routing, referral/intake questions, safety boundaries, roles and Tour guidance. No Officer appointment was backdated. WIKI publishes this as the Episode **Ansun Checks In, Then Starts Checking People In**. Formal MAIN consumption remains pinned at the older Whiskey boundary because previously accepted Sye/Life MAIN work is still publication-blocked.
+- **Wall** recovery was reviewed through late head `f2f019bf40fd17549fc62fc8a63b04f46bf7e40b`. The March 13, 2021 Baby Lyssa filing becomes WIKI Episode **Fame Means One of Us**: Ren converts embarrassment into in-group status (`wall of fame`, `Everyone has a spot...`, `one of us`) while Tae softens the landing with `bestie`, `we all do mistakes`, `Even me`. The later `ничего` / Moon packet is strong profile texture — competitive height teasing followed by immediate reassurance and direct affection — but the person's broader identity bridge remains unresolved, so no new thin public dossier was manufactured. Wall remains an active recovery quarry for future suffixes.
+- **Daycare** moved late and was reviewed through `fb8555f17219773af57a26514adc911d9f768a4e`. Its new Gabu packet strengthens an already-public cumulative read: repeated front-door maintenance made social rather than bureaucratic, including showing Mia the map before Mia later becomes a carrier of the same house culture. Existing WIKI Gabu material already owns that maintenance/care contradiction, so this is corroboration plus a useful relationship relay, not a reason to append another report paragraph. The miner handoff used the wrong pronoun once; public canon remains Gabu **she/her**. Formal MAIN Daycare consumption remains pinned behind the older accepted Mia verification hold.
+- **Core Rooms** remains reviewed through `6da0509a792f6c9d3c7fb36a81207a64c71d2299`; formal consumption stays pinned at `c9b33dca5df5fe46b8594a999ac888253a1ff27f` while accepted MAIN Nelph work cannot clear MAIN's mandatory verifier.
 - No miner branch was merged or wholesale cherry-picked; no raw archive was re-mined.
 
-## Person-first public work — Run 59
+## Public work — Run 60
 
-The WIKI's Run 59 reconciliation was rewritten rather than allowed to remain an append-only receipt layer. `src/data/character-biographies-run59.ts` now owns four genuinely biography-shaped stories.
+Two new WIKI Episodes were added to the existing integrated Episode surface rather than forcing duplicate biography prose.
 
-### Daya
+### Ansun Checks In, Then Starts Checking People In
 
-Daya now reads as **the clipboard wearing sweatpants**: process-minded, low-friction, reassuring before procedural, and increasingly able to finish work herself without suddenly acquiring a corporate voice. Her returner scene — no need to reread rules, fresh Biodata `just to keep track` — sits beside the August handoff to another Officer and the November `gonna assign your role!` as lived growth rather than guessed appointment chronology. Her 4K/Kiro/doodle nonsense stays on the same page so competence does not eat the person.
+The useful story is not an appointment date. It is the almost stupidly literal progression in the verbs. Sou begins the surviving doorway sequence by **checking in**. Within months, other people are treating him like somebody who can help **check newcomers in**. The formal title comes later; the social usefulness does not wait for it. This gives the current Secretary / Caporegime shape a lived prehistory without inventing a promotion ceremony.
 
-### Ansun / Souta
+### Fame Means One of Us
 
-Ansun now centers the contradiction the Whiskey pass sharpened: **operationally tidy, socially unserious**. He translates rooms, challenges and contest logistics into usable next steps; lets real life beat Raja without guilt; preserves credit lines; then appoints himself `DEANS GRANDPAW` and complains thirty-five seconds later that the Tumbleweed is getting worse. The Wall remains his personal publicity department because shame becomes fame whenever Sou handles the accounting.
+Baby Lyssa reacts to being filed like somebody who would very much like the exhibit to evaporate. Ren refuses the shame-only frame and turns the Wall into membership logic instead; Tae immediately joins the emotional cleanup by putting herself in the same mistake-making pool. The scene is funnier and warmer when treated as relationship behavior rather than another generic Wall-mechanics card: embarrassment lands, then two people make sure the defendant is still inside the joke with everybody else.
 
-### Xephy
+The exact image subject details, maker/capturer chain and hidden pixels remain unresolved and were not invented.
 
-Xephy's story is now about how she handles distance rather than about what an export can or cannot prove. In 2020 she returns with `I mished everyone`, later leaves Raja while keeping the people, and in 2026 contacts Mugen herself before the reunion retrieval machine starts celebrating that she has been found. Her favorite memories are group raids, photos and the group chat; her partial old-photo memory is allowed to stay partial. `Maybe different Generations, pero still same family` is the cleanest summary of her continuity style.
+## Duplicate / hold decisions
 
-### WolfPhenix
-
-Wolfie's page now treats the planner, anniversary alley, `UL ENOUGH` redesign, old-screenshot hunt and legacy-club ending as one person rather than five archive incidents. She repeatedly turns messy group life into something people can recognize and use. Kaede's response to the nineteen-person anniversary drawing supplies the emotional center: being placed in the picture made him feel placed in the family. Wolf's own continuity instinct is not `save everything`; it is closer to **save what still carries the people**. Her memory is excellent. Her filing system is apparently operated by raccoons.
-
-## Reconciliation / duplicate handling
-
-- Wolf's planner work, Kaede anniversary-art response, 2025 `UL ENOUGH` redesign and 2026 receipt hunt were collapsed into one person-shaped maker/continuity arc.
-- Xephy's 2020 rejoin, later Raja exit and self-initiated 2026 return were collapsed into one long-gap relationship arc rather than three return cards.
-- Souta's April Color Theme announcement deepens his lived-role biography and existing contest history; it does not create another Color Theme Episode.
-- Daya's shared welcome-template use is treated as how she carries common house infrastructure, not as authorship of the template.
-- Torr / DiStratus remains a backstage Wall deepener this pass. `Via @DiStratus(Torr)` is source provenance, not capture/maker credit.
+- HyaLuna's fresh All Characters suffix is already correctly represented on both surfaces; no duplicate room-history paragraph was added.
+- Mia/Momo reciprocal `twinsss` material from the Wall is already deeply represented in the existing WIKI Mia/Momo research layer; no second Episode was created for the same relationship shorthand.
+- Gabu's Daycare maintenance/care packet strengthens a WIKI trait already established across her biography. The new Gabu→Mia relay is retained for future relationship deepening rather than appended as another onboarding chronology paragraph.
+- `ничего` / Moon and `am scottish` / `ничего` are strong relationship texture, but identity and cast-placement boundaries make a new thin public character page worse than waiting for a richer owner.
+- Mugen's `nelphies chicken pics` line is a MAIN-sized person detail and is held behind MAIN verification, not rejected for lack of evidentiary confidence.
 
 ## WIKI verification / publication
 
-Reader commit `cf50129120955d7428420b1f332778f6b260ad87` rewrote Run 59 in the person-first voice.
+Reader commit `5ca7bdbef8309ee996a67d9f93afa309f4f87f6a` added the two Episodes.
 
 Exact-reader-head checks:
 
-- **Build Underlords Wiki `33388412194` — SUCCESS**
-- **Deploy Underlords Wiki Preview `33388412158` — SUCCESS**
+- **Build Underlords Wiki `33392214166` — SUCCESS**
+- **Deploy Underlords Wiki Preview `33392214143` — SUCCESS**
 
-This state commit should pass the same existing workflows; it changes durable bookkeeping, not reader lore.
+This state update changes durable bookkeeping only and should pass the same existing build/Pages workflows.
 
 ## MAIN publication status
 
-No new MAIN reader prose was added in this pass. Wolf and Xephy already had strong MAIN person pages; the new material was most useful as a WIKI biography correction. Daya and Ansun likewise received their new synthesis in WIKI rather than duplicated prose.
+No new MAIN reader prose was added in Run 60 because MAIN's required build pipeline is still dying before source verification, Astro, or built-output verification receives executable steps. The opening census commit triggered the same pre-execution failure shape and its failed jobs were retried once rather than bypassed.
 
-MAIN's mandatory verifier remains the publication gate for older accepted MAIN work. Until an exact MAIN head actually executes source verification, Astro build and built-output verification successfully, the accepted Nelph/Mia/Sye-LIfe work and the hard stale-attribution/identity cleanup remain blocked rather than force-published.
+The accepted/held MAIN queue therefore remains explicit instead of being quietly marked done: Core/Nelph, Daycare/Mia, older Whiskey/Sye-LIfe cleanup, plus the fresh Mugen/Nelph chicken texture and Souta doorway deepener where MAIN eventually benefits from them. WIKI publication is independent and green; MAIN is not force-published around a dead verifier.
 
 ## Hard holds
 
@@ -73,7 +67,7 @@ MAIN's mandatory verifier remains the publication gate for older accepted MAIN w
 - MAIN still owes the direct Wall screenshot-invitation attribution correction from ShiyaX to **Sou/Ansun** once its verifier can actually run.
 - Exact Officer appointment chronology is never inferred from exporter-time role arrays.
 - Joke family / romance language remains joke language unless separately confirmed.
-- Stable account `717133949457137775` remains fenced from a global Rummy identity merge absent a direct bridge.
 - Candy / later Luna remains distinct from HyaLuna.
 - WhitePhoenyx = Xephy and is not WolfPhenix.
+- Gabu is a woman; the Daycare handoff's isolated masculine pronoun is a miner typo, not canon movement.
 - SAID BY / POSTED BY / HOSTED BY / VIA-SOURCE / CAPTURED BY / MADE BY / FEATURING remain distinct.
