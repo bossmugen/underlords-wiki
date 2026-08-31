@@ -4,7 +4,7 @@ export const ansunNarrativeCharacterBios: Record<string, CharacterNarrative> = {
   ansun: {
     intro: [
       "Ansun / Souta / Sou is one of those UL people who can make a rule feel like a favor and a public shaming feel like a press tour. He is a current Caporegime / Secretary, but the title only names the grown-up version of a much older habit: notice what is confusing, crowded, badly labeled, socially awkward, or about to become a problem, then make it easier for everybody else to move through without pretending the house is more dignified than it is.",
-      "That practical streak lives beside a spectacular refusal to be embarrassed correctly. Sou can explain a doorway, protect somebody else's credit, redirect a conversation, or ask for one private intake detail without making the person perform it publicly. Then the Wall points a camera at him and he turns prosecution into branding: `shame fame, same thing 😎`, `no shame all fame`, eventually `this is MY wall`. The contradiction is the person. He is responsible without being solemn, socially loose without becoming careless, and perfectly capable of enforcing a boundary while also insisting that every humiliating exhibit is actually evidence of celebrity."
+      "That practical streak lives beside a spectacular refusal to be embarrassed correctly. Sou can explain a doorway, protect somebody else's credit, redirect a conversation, or ask for one private intake detail without making the person perform it publicly. Then the Wall points a camera at him and he turns prosecution into branding: `shame fame, same thing 😎`, `no shame all fame`, eventually `this is MY wall`. He also openly admits that he likes teasing people for the reaction, then puts `pat pat ill stop bullying you` in the same sentence. The contradiction is the person. He is responsible without being solemn, provocative without being oblivious to the landing, and perfectly capable of enforcing a boundary while insisting every humiliating exhibit is actually evidence of celebrity."
     ],
     sections: [
       {
@@ -32,6 +32,14 @@ export const ansunNarrativeCharacterBios: Record<string, CharacterNarrative> = {
         ]
       },
       {
+        title: "He likes the reaction, then pats you on the head",
+        paragraphs: [
+          "Sou is not subtle about enjoying a successful tease. In one 2020 exchange he says it himself: `i just like teasing you because I like seeing you cry, pat pat ill stop bullying you`. The line is practically a diagram of his social rhythm. First comes the incriminating confession — yes, the reaction is the fun part — and then, without dropping the joke voice, the soft landing arrives in the same breath: `pat pat`, followed by `ill stop bullying you`.",
+          "That little `pat pat` matters because Sou does not suddenly switch into a formal apology persona once the tease has landed. He repairs inside the bit. He can enjoy getting somebody to squeal, sulk, protest, or come running back and still register the point where enough is enough. Rookie Cookie later isolates only `I like seeing you cry`, naturally selecting the portion most useful to the prosecution. Sou has already supplied the missing second half himself.",
+          "The exact target in that pocket is not named by a reply pointer; Gabu is the likely person from the immediate conversation, but Sou's broader habit does not depend on forcing the identification. What matters for his character is that teasing and responsiveness are not opposing modes for him. They are often consecutive moves. He pokes because the response is funny. Then he pats the victim on the head and announces that court is adjourned."
+        ]
+      },
+      {
         title: "Shame goes in. Fame comes out.",
         paragraphs: [
           "The Wall is supposed to embarrass people. Sou keeps misunderstanding that assignment in the most self-serving possible direction. In 2020: `shame fame, same thing 😎`. In 2021, when Baby Lyssa jokes about catching his Wall count, he encourages the competition and upgrades the room to `our wall of FAME baby`. By 2023 the defense has become a property claim: `no shame all fame`, then `this is MY wall`.",
@@ -51,13 +59,14 @@ export const ansunNarrativeCharacterBios: Record<string, CharacterNarrative> = {
         title: "Petty Crimes",
         paragraphs: [
           "Sou once typed `the toot of al evil LOL` and Ren's immediate instinct was to pin it. This is a reasonable summary of the relationship between Ansun and language: the sentence may fail mechanically, but if it fails hard enough it becomes furniture.",
-          "He can also turn breathing into slander. One 2023 Wall reply — `You breathed and I'm sure air came out of both ends` — earns eight skull reactions even though the surviving parent context is too incomplete to safely name the target. The room does not need the defendant for the line itself to remain prosecutable.",
-          "The fake-jurisprudence register has range. `Tae said \"fuck\" July 12 2021` becomes a timestamped Wall case because it was allegedly directed at Ansun. Ants become another old file worth asking Ren about. And when the Wall tries to make *him* the exhibit, he simply calls it fame until everyone else has to live inside his version of the story."
+          "He can also turn breathing into slander. One 2023 Wall reply — `You breathed and I'm sure air came out of both ends` — earns eight skull reactions even though the surrounding joke had already become more memorable than the original offense.",
+          "The fake-jurisprudence register has range. `Tae said \"fuck\" July 12 2021` becomes a timestamped Wall case because it was allegedly directed at Ansun. Ants become another old file worth asking Ren about. And when the Wall tries to make *him* the exhibit, he simply calls it fame until everyone else has to live inside his version of the story.",
+          "He has also personally described the teasing workflow as `I like seeing you cry` followed, in the very same sentence, by `pat pat ill stop bullying you`. The prosecution keeps quoting the first clause. Sou keeps behaving like the second clause is why he should be released on his own recognizance."
         ]
       }
     ],
     closing: [
-      "Ansun's arc is not clown-to-responsible-Officer, because the clown and the responsible Officer keep showing up in the same scene. The useful throughline is framing. He can tell a newcomer the one thing they need next, preserve somebody else's credit, keep a birthday thread on purpose, make a challenge less confusing, or turn public humiliation into a personal marketing campaign. Current rank names where UL eventually put that skill. The person underneath is the guy who can run the velvet rope, point you toward the movie, and then claim the Wall belongs to him because everybody else is doing shame wrong."
+      "Ansun's arc is not clown-to-responsible-Officer, because the clown and the responsible Officer keep showing up in the same scene. The useful throughline is framing. He can tell a newcomer the one thing they need next, preserve somebody else's credit, keep a birthday thread on purpose, make a challenge less confusing, tease somebody until they react, or turn public humiliation into a personal marketing campaign. Current rank names where UL eventually put that skill. The person underneath is the guy who can run the velvet rope, point you toward the movie, pat you on the head after annoying you on purpose, and then claim the Wall belongs to him because everybody else is doing shame wrong."
     ]
   }
 };
