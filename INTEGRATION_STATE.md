@@ -1,8 +1,48 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-08-30 18:54 PDT_
+_Last updated: 2026-08-30 19:18 PDT_
 
-## Current dual-surface integration state — 18:43 pass close
+## Current dual-surface integration state — 18:59 pass close
+
+The lower-evidence project rule remains binding. Hard canon locks, resolved identities, privacy/safety, explicit contradictions, appointment chronology, and attribution fences stay hard; persuasive ordinary human reads do not need courtroom-proof wording.
+
+### Census / consumption boundary
+
+- **49 tracked miner identities = 28 active remote refs + 21 historical/missing; 0 newly discovered; 0 finite backlog; 0 overdue.** The opening census caught one finite mover, `archive-miner/all-characters-hr-20260828`, at `69c27bca913eeaa41e5814b8b5a0a76d1583d756` and MAIN registered that head as `pending_review` before deep review began.
+- All Characters is now checkpoint-first reviewed through `69c27bca913eeaa41e5814b8b5a0a76d1583d756`. Its prior consumed boundary was `111851bebb7def0b74912dcc533193a453992232`.
+- Both Club-Only recovery branches remain fully consumed/current.
+- Core Rooms + Events remains consumed through `dab2f5465ae7bc61df33aa73c132c6ec60d54d1e`; Daycare through `8d8d867f7125dbdfaa87747be3d1c3aaba4e07fd`; Mugen person-first through `7b4ff4dbf31e7c47d376fc556f2dabcb5366e549`.
+- Whiskey remains checkpoint-first reviewed through `c08359fa336f829a58f104c9211c3ff26d700881`; formal consumed remains `6cd5f9daeb20d77fad20e3cd7465ec938411993d` because earlier accepted Sye/Life material remains MAIN-publication-blocked. Hard correction: **`sycessences` / `ƐℲı˥` = Sye/Life, not Effie**. Ricochet / `dragonrichard` remains separate from Rich unless a direct bridge appears.
+- Wall remains the sole cumulative recovery. Its branch head is still `9f794a9f296633c6e7d1419c9d4a29b8e7e89800`; the current checkpoint was re-read this pass and remains explicitly **NOT EXHAUSTED**, with recovery rails through 496–507. No new intake-local suffix exists at that head, so raw archives were not reopened and formal consumed SHA remains null.
+- No miner branch was merged or wholesale cherry-picked into either publishing branch.
+
+### Public addition this pass — Woohyuk finally gets the relationship texture his receipts were already trying to tell us
+
+The All Characters suffix materially improved **Woohyuk** and mostly bounded everyone else. Two June 2021 scenes are enough to stop treating his Tofu interactions as one stray joke. On June 25 Woohyuk tells Tofu `you're the only whale around here`; Tofu TRUE-REPLIES `Show the rebate then boo`; Woohyuk answers `Sheeet I gotchu`. Three days later Tofu posts an attachment, Woohyuk teases that `chat background doesnt exist for Tofu`, and Tofu TRUE-REPLIES with the rage-cry emoji. The attachment itself was not inspected, so its contents are not narrated. `Whale` remains a gaming/social joke rather than proof of wealth or spending.
+
+What survives across the two days is the rhythm: Woohyuk aims the joke directly at Tofu, Tofu fires back, and neither needs to explain why this is allowed. WIKI now describes that as an established little sparring lane — reciprocal banter, not a closeness leaderboard. The wording matters: Tofu does not merely appear near Woohyuk's lines; the TRUE-REPLIES make the back-and-forth structurally explicit.
+
+The same update also carries a broader **short handoff** read that the older bio already supported but had not named cleanly. When Woohyuk's access breaks, he complains and Ren routes it to Mugen; when a warning reaches him, it moves through Gilli toward Staff; when Tofu asks for the receipt, he immediately says he has it. Across unrelated scenes he tends to notice the thing, push it toward whoever can act on it, and let the room carry the rest. That is social routing, not command, office, or appointment. The October access-fix and February warning-path receipts were duplicate/corroboration rather than separate new public incidents.
+
+Other Run-41 targets in this suffix — Zyrcant/Akariel, Rich, Syv, Woosung, Beowulf/Jere, Acoryuie, Baby Lyssa/Ghoulie and the remaining qualification set — were bounded-negative here rather than force-promoted from thin evidence. Woohyuk's open rabbits remain later adult-life continuity, serious repair/care received, pancake origin, Disney/Tofu artifact inspection, and stronger absent-person descriptors beyond the food nickname.
+
+### Verification / deployment
+
+WIKI reader head `8884bad736bf7b3dfd7ee40009e6ababf7696de1` contains the expanded Woohyuk narrative in `src/data/character-biographies-run41.ts`.
+- **Build Underlords Wiki** `33350038890` — **success**, including the Astro build.
+- **Deploy Underlords Wiki Preview** `33350038891` — **success**, including Pages deployment and report completion.
+
+This state commit follows that verified reader head. Its own exact-head native build/Pages result should be checked as the final close condition.
+
+### Surface split / held material
+
+WIKI owns this addition because the new evidence is person-level dossier and relationship texture. MAIN was re-read before publication and does not need the same paragraphs duplicated into the editorial site merely to make both surfaces symmetrical. MAIN's outstanding richer publication obligation remains the accepted Sye/Life ordinary-life biography material in Whiskey once its mandatory verifier can actually execute.
+
+Held rails remain unchanged: Ricochet / `dragonrichard` ↔ Rich is unresolved; no `whale` wealth inference is accepted; Tofu's June 28 attachment pixels remain uninspected; no friendship rank is invented; warning truth is not independently validated; and Gilli's `Whether it's real or not...` uncertainty remains Gilli's wording rather than Woohyuk's.
+
+---
+
+## Previous dual-surface integration state — 18:43 pass close
 
 The lower-evidence project rule remains binding. Hard canon locks, resolved identities, privacy/safety, explicit contradictions, appointment chronology, and attribution fences stay hard; persuasive ordinary human reads do not need courtroom-proof wording.
 
