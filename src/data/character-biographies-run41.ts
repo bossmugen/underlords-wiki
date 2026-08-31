@@ -1,6 +1,7 @@
 import type { CharacterNarrative, NarrativeSection } from "./character-biographies-narrative";
 import { run40NarrativeCharacterBios } from "./character-biographies-run40";
 import { mugen1619NarrativeCharacterBios } from "./character-biographies-mugen-1619";
+import { cookieNarrativeCharacterBios } from "./character-biographies-cookie";
 
 function withSection(base: CharacterNarrative, section: NarrativeSection): CharacterNarrative {
   return { ...base, sections: [...base.sections, section] };
@@ -23,6 +24,15 @@ export const run41NarrativeCharacterBios: Record<string, CharacterNarrative> = {
     paragraphs: [
       "A Wall filing gives Mugen a chance to use the Boss title as a comedy prop instead of a throne. Tofu says BishopThaGuru will never stop being funny; Bishop responds like somebody who has just spotted an unmarked van: `Why? What have you heard? Who you talk to? You with the feds?` Mugen does not defuse the premise. She steps directly into it: `The file in my office says so`. Bishop's immediate `W-which file?` is the whole payoff — everybody understands the imaginary bureaucracy without needing the bit explained.",
       "The real screenshot becomes a fictional case file, and Mugen's actual status becomes part of the toy box. That is better character evidence than another generic sentence about her not taking rank too seriously: when somebody hands her mock paranoia, she is willing to make Boss itself ridiculous for the joke. Nothing here proves a literal Bishop dossier, investigation, criminal conduct, or law-enforcement relationship. The upstream image is only confirmed POSTED BY Mugen; unavailable pixels do not become CAPTURED BY, MADE BY, or FEATURING through enthusiasm."
+    ],
+  }),
+
+  cookie: withSection(cookieNarrativeCharacterBios.cookie, {
+    period: "September 2021–March 2022",
+    title: "Cookie apparently grows a second Discord body",
+    paragraphs: [
+      "A separate stable Discord account, `887703610052448257`, arrives at the Lobby on September 15, 2021 under the rendered name `CookieStream(kuki/juicycookie)`. It answers the automated welcome with only `uwu`; eight seconds later Mugen replies `gotchu cooks`. Nobody performs a normal introduction or makes the account explain who it is. The same stable ID later has a short but real Daycare run and appears in Wall reaction metadata as `Mr.Cookie`.",
+      "That is enough, under the project's ordinary contextual-evidence rule, to call CookieStream a **likely Cookie alt / probable same-human controller** rather than pretending the archive has found an unrelated stranger who independently chose `kuki/juicycookie` and was immediately recognized as `cooks` by Mugen. The account histories still stay separate: Cookie/Kuki/JuicyCookie is stable ID `249351359290277890`; CookieStream is `887703610052448257`. Probable same controller does not let the wiki merge their messages, dates, roles, or provenance into one technical account history. The funny part is the social recognition itself: the bot asks for paperwork, the mystery body says `uwu`, Mugen effectively says *yeah, I know who this idiot is*, and bureaucracy loses in under twenty seconds."
     ],
   }),
 
