@@ -2,8 +2,68 @@ import { characterBios } from "./character-bios";
 import { deepAnsunOfficerCharacterBios } from "./character-bios-officers-ansun-deep";
 import { lateRetiredOfficerCharacterBios } from "./character-bios-retired-late";
 import { deepArchiveCharacterBios } from "./character-bios-archive-deep";
+import { vipCharacterBios } from "./character-bios-vip";
+import { lateVipCharacterBios } from "./character-bios-vip-late";
 
 export const run39CharacterBios = {
+  rich: {
+    ...vipCharacterBios.rich,
+    overview: [
+      "Rich / DragonRich is the former leader of Amaurot and a durable UL VIP. The old rank belongs to another club, not the Underlords command tree. What carries across the boundary is much more useful for a character page: Rich has a systems brain, and UL eventually gives that systems brain increasingly stupid systems to operate.",
+      "The serious version appears first. Snow treats Rich as the obvious Amaurot-side contact, and Mugen advertises an S10-wide channel created by DragonRich. Later the same instinct survives inside UL's fake institutions. A stripclub premise gets a venue ruling. A Panda problem gets routed to Eos. A Wall speedrun gets a theoretical minimum. `Drink water reminder` somehow fails a hydration audit. Rich rarely cancels the premise; he checks the procedure.",
+      "Then Fight Club gets turned into his couch. By the late voice-room years, people are listening to Rich cook, waking up to his voice, or considering a game because he is showing it. The scale collapses from interclub infrastructure to digital living room, but the social motion stays recognizable: make the room usable, let people gather, then apparently become part of the furniture."
+    ],
+    history: [
+      { date: "April 2020", title: "Amaurot-side contact", text: "Snow asks Rich whether anyone else from Amaurot wants in; five days later Mugen advertises an S10-wide channel created by DragonRich. External leadership and UL familiarity coexist without inventing a UL Officer appointment." },
+      { date: "September 2021", title: "Funcle Rich remembers the audience", text: "Rich stops himself from posting an `underlord’s underground strip dungeon` joke because Platelets can see the page. Ren immediately answers with `Funcle rich thinking of his 100+ nephews`, and Zyrcant deadpans that this is a lot of nephews. The family language is a joke; the self-filtering is real behavior." },
+      { date: "2021–2022", title: "If the nonsense exists, check the procedure", text: "Across five Wall scenes, Rich accepts UL's absurd premise and applies its internal logic: stripclub jurisdiction, Panda routing, Snow losing bodies, Wall-speedrun math, and a hydration reminder that apparently did not have enough watah. It is a recurring behavior pattern, not a formal compliance job." },
+      { date: "2022–2023", title: "Fight Club gets upholstered", text: "Rich calls himself the stripclub couch potato, later remembers Fight Club VC `before it got turned into my couch`, and keeps being routed back to that couch in later jokes. A screaming event room mutates into his social habitat." },
+      { date: "October–December 2024", title: "The couch becomes a living room", text: "Sye reacts to an apparent cooking/hangout session, Momo says Rich's voice startled her awake, and Tae considers downloading a game because Rich is showing it. Sparse typing from Rich does not mean sparse social presence." }
+    ],
+    characterNotes: [
+      { title: "He checks the procedure", text: "Give Rich a real system and he connects rooms. Give him a stupid system and he will still ask whether it is being operated correctly. The continuity is funny precisely because the stakes change while the reflex does not." },
+      { title: "Funcle is house language, not genealogy", text: "The nickname follows Rich into the Wall after he remembers Platelet visibility. It is affectionate comedy attached to adult self-filtering, not a literal uncle relationship or a childcare title." },
+      { title: "Couch potato by self-report", text: "Rich repeatedly accepts the couch as his natural habitat, including `ramen butt` sleep-through-it logic. Human furniture is a recurring place-role, not governance." }
+    ],
+    claims: [
+      { text: "On April 12, 2020, Mugen identified DragonRich as Amaurot Leader and advertised an S10-wide channel he created.", evidence: "archive-confirmed", date: "2020-04-12" },
+      { text: "Across five Wall scenes from September 2021 through September 2022, Rich repeatedly accepted an absurd UL premise and applied its internal logic: stripclub venue rules, Panda routing, Snow's body-loss context, Wall-speedrun math, and a hydration-reminder joke.", evidence: "wall", date: "2021-09-06 → 2022-09-14" },
+      { text: "On December 31, 2022, Rich remembered Fight Club VC `before it got turned into my couch`, establishing the room genealogy without dating the exact rename.", evidence: "voice-room history", date: "2022-12-31" }
+    ],
+    canonNotes: [
+      "Rich = DragonRich. Ricochet / `dragonrichard` is unresolved and must remain separate unless a direct bridge appears.",
+      "Rich's Amaurot leadership is external-club context and does not create a UL Officer or Director appointment.",
+      "The Wall procedure/routing pattern is character behavior, not a formal operations/compliance role.",
+      "`Funcle Rich` / `100+ nephews` is fictive-family language, not literal genealogy or a count.",
+      "Recurring couch language is a social place-role, not a formal title."
+    ]
+  },
+
+  woosung: {
+    ...lateVipCharacterBios.woosung,
+    overview: [
+      ...lateVipCharacterBios.woosung.overview,
+      "Woosung does not need sharpness and affection to arrive in separate paragraphs. On the same September 2020 night she can fire `eli kill @ANTHOS`, let the bot perform its melodrama, and about twenty-four seconds later throw a love/party GIF into the room. In December she compresses Mugen into the impossible family label `mugs is my daddy granny`. Years later, when given a serious first-person prompt, she describes Mugen as a close friend and older-sister-like guide. The joke language and the ordinary relationship description do not compete; they show how little connective tissue Woo needs when the relationship context is already shared."
+    ],
+    history: [
+      ...lateVipCharacterBios.woosung.history,
+      { date: "December 15, 2020", title: "Mugs is my daddy granny", text: "Woosung gives Mugen one deliberately impossible fake-family label. It belongs beside Woo's later description of Mugen as close friend and older-sister-like guide, not in a literal family tree." }
+    ],
+    characterNotes: [
+      ...lateVipCharacterBios.woosung.characterNotes,
+      { title: "High tonal range, very little transition paperwork", text: "Mock murder can become a love GIF in seconds; practical care can become an argument about whether she is soft; `daddy granny` can later sit beside a straightforward older-sister-like description. Woo trusts the room to understand the switch without narrating it for them." },
+      { title: "Daddy granny is a joke-family masterpiece", text: "Two incompatible generations, one Mugs. Excellent UL grammar. Zero biological information." }
+    ],
+    claims: [
+      ...(lateVipCharacterBios.woosung.claims ?? []),
+      { text: "On December 15, 2020, Woosung wrote `mugs is my daddy granny` in Whiskey. The phrase is fictive-family comedy, not literal genealogy, romance, or relationship rank.", evidence: "whiskey", date: "2020-12-15" }
+    ],
+    canonNotes: [
+      ...(lateVipCharacterBios.woosung.canonNotes ?? []),
+      "`mugs is my daddy granny` is joke-family language. Woo's later first-person description of Mugen as close friend / older-sister-like guide is the clearer ordinary relationship account."
+    ]
+  },
+
   kiro: {
     ...lateRetiredOfficerCharacterBios.kiro,
     overview: [
