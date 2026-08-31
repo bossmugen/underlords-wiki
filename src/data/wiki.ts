@@ -42,7 +42,7 @@ export const characters: Character[] = [
   { id:"mia", name:"Mia", aliases:["Mimi","Miaka","Opalite Honey"], billing:"main", role:"Pit Boss · UL Interrogator · Game Officer · Platelet", era:"2021–present", logline:"Short replies, fast reactions, and an alarming ability to turn somebody else's blank-canvas idea into communal doodles, themed sequels, and eventually a banana poster.", tags:["Officer","Interrogator","Platelet"] },
   { id:"nobu", name:"Nobu", aliases:["Xuseio"], billing:"main", role:"UL Party Director", era:"2020–present", logline:"Event/programming brain whose return in 2026 gets treated like a restaurant reopening and then immediately becomes part of the family reunion.", tags:["Party Director","Events"] },
   { id:"ansun", name:"Ansun", aliases:["Souta","Sou","颯太"], billing:"main", role:"Caporegime", era:"2020–present", logline:"Officer with a practical moderation streak and the energy of someone who has explained the same rule more than once.", tags:["Officer","Caporegime"] },
-  { id:"daya", name:"Daya", aliases:["Dayadream"], billing:"main", role:"Pit Boss · Recruiter", era:"2020–present", logline:"Officer and recruiter; archive-confirmed promotion in 2022, with the usual UL problem of a sensible job title living beside nonsense.", tags:["Officer","Recruiter"] },
+  { id:"daya", name:"Daya", aliases:["Dayadream"], billing:"main", role:"Pit Boss · Recruiter", era:"2020–present", logline:"Officer and recruiter whose sensible job title coexists with very ordinary manga logistics, including the historically questionable search method of title + `manga free` and then remembering viruses exist.", tags:["Officer","Recruiter","Manga","Petty Crimes"], relationships:[{name:"Gabu",note:"low-friction manga-site exchange: Daya asks where Gabu reads, Gabu answers, and both admit the free-source motive without turning it into a fandom ranking",href:"/characters/gabu"}], quotes:["i usually do \"(NAME) manga free\" on google, but i gotta be more careful of viruses LOL"] },
   { id:"anthos", name:"Anthos", billing:"main", role:"Pit Boss", era:"2020–present", logline:"Officer and family-map co-conspirator; one of the people who treats the Tumbleweed as editable social infrastructure instead of a sane diagram.", tags:["Officer","Tumbleweed"] },
 
   { id:"ritha", name:"Ritha", billing:"legacy", role:"Founder · retired Officer", era:"2020–", logline:"Founding-circle member who came with Mugen from Altissa and remains part of the permanent origin cast." },
@@ -58,7 +58,7 @@ export const characters: Character[] = [
   { id:"moon", name:"Moon", billing:"recurring", role:"UL Night Shift Barista", era:"2020–", logline:"Late-room character, nursing-student era witness, and recurring night-shift energy." },
   { id:"hishiro", name:"Hishiro", billing:"recurring", role:"Staff", era:"2020–", logline:"Long-memory cast member whose 2026 return repeatedly lands as pure 'oh god I remember this' energy." },
   { id:"gengrey", name:"GenGrey", billing:"recurring", role:"Staff", era:"pre-UL–", logline:"Older friend of Mugen and Key, later social bridge to New, with roots that predate the UL server story." },
-  { id:"new", name:"New", aliases:["Newmal","_newplayer"], billing:"recurring", role:"UL member", era:"2023–", logline:"GenGrey's friend who meets Mugen later through the wider social network. Not part of the older pre-Raja clock." },
+  { id:"new", name:"New", aliases:["Newmal","_newplayer"], billing:"recurring", role:"UL member", era:"pre-UL–", logline:"One of Mugen's older pre-Raja friends. A later scene remembers Mugen recruiting New through GenGrey in another setting, but that route is a later handoff — not New's first meeting with Mugen." },
   { id:"cele", name:"Cele", aliases:["Celeana","Celery"], billing:"recurring", role:"Platelet", era:"2020–", logline:"Platelet with recurring domestic/cleanup energy and enough archive presence to become part of the house furniture." },
   { id:"momo", name:"Momo", billing:"recurring", role:"Staff", era:"2021–", logline:"Couch-era recurring cast; sleep, reactions, and domestic UL make more sense once Momo is in frame." },
   { id:"nhou", name:"Nhou", billing:"recurring", role:"Staff", era:"2020–", logline:"Staff and real-life connection point in Mugen's orbit, recurring across ordinary-life UL scenes." },
@@ -69,7 +69,7 @@ export const characters: Character[] = [
   { id:"candy", name:"Candy", aliases:["~Candy~","— Luna"], billing:"recurring", role:"Platelet", era:"2021–", logline:"Later Luna/Candy. Explicitly not HyaLuna." },
   { id:"woohyuk", name:"Woohyuk", billing:"recurring", role:"VIP", era:"2020–", logline:"Visitor/family-adjacent recurring cast member with a long trail through memes, family-map material, and the wider social house." },
   { id:"booba", name:"Booba", aliases:["MsThiccy","boobaboo"], billing:"recurring", role:"UL member", era:"2022–", logline:"Checks into the Lobby as MsThiccy / Underlords, then shows up on the Wall a month later with another exhibit and seven Fat_Wheeze reactions. The image itself stays undescribed until somebody actually inspects it." },
-  { id:"zyrcant", name:"Zyrcant", aliases:["Akariel"], billing:"guest", role:"VIP · former Amaurot deputy", era:"2020–", logline:"Amaurot connection, VIP, and recurring extended-family guest." },
+  { id:"zyrcant", name:"Zyrcant", billing:"guest", role:"VIP · former Amaurot deputy", era:"2020–", logline:"Amaurot connection, VIP, and recurring extended-family guest. Akariel remains a separate unresolved identity in the current archive work and is not treated as an alias here." },
   { id:"rich", name:"Rich", aliases:["DragonRich"], billing:"guest", role:"VIP · Amaurot leader", era:"2020–", logline:"External-club leader and long-running guest presence; the old Fight Club VC eventually becomes his couch, then a late-era domestic room." }
 ];
 
@@ -127,7 +127,7 @@ export const gags = [
 
 export const relationshipGroups = [
   { title:"Founding Circle", people:["Mugen","Ritha","WolfPhenix","Suzimasu","HyaLuna"], note:"Mugen founded UL; the other four came with her from Altissa." },
-  { title:"Pre-UL / older network", people:["Mugen","Dean","Key","Zepp","GenGrey"], note:"Relationships that begin before the official Underlords story. New joins this wider network later through GenGrey; do not flatten him onto the older clock." },
+  { title:"Pre-UL / older network", people:["Mugen","Dean","Key","Zepp","GenGrey","New"], note:"These relationships begin before Dragon Raja / UL. A later GenGrey-mediated recruitment scene involving New is a separate handoff in another setting, not New's first meeting with Mugen." },
   { title:"Media axis", people:["Mugen","Han"], note:"Biodata, media production, and the duty that becomes Media Director." },
   { title:"Party department", people:["Nobu","Rummy"], note:"Party Director → Party Director Apprentice. Apprentice is not co-equal Director." },
   { title:"Tumbleweed return", people:["Mugen","Rummy","Anthos","Dean"], note:"Family language → map → reunion memory tool." }
