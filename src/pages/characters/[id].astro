@@ -9,6 +9,7 @@ import { getCharacterBio } from "../../data/character-bios";
 import { narrativeCharacterBios } from "../../data/character-biographies-narrative";
 import { run39CharacterBios } from "../../data/character-bios-run39";
 import { run39NarrativeCharacterBios } from "../../data/character-biographies-run39";
+import { run75NarrativeCharacterBios } from "../../data/character-biographies-run75";
 import { hishiroNarrativeCharacterBios } from "../../data/character-biographies-hishiro";
 import { renNarrativeCharacterBios } from "../../data/character-biographies-ren";
 import { syeNarrativeCharacterBios } from "../../data/character-biographies-sye";
@@ -142,7 +143,7 @@ const archiveDeepBio = (deepArchiveCharacterBios as Record<string, any>)[charact
 if (archiveDeepBioGuard.has(character.id) && !archiveDeepBio) throw new Error(`Priority Archive / Extended Cast character ${character.id} lost its cross-archive deep bio.`);
 
 const bio = richBio ?? getCharacterBio(character);
-const narrative = run39NarrativeCharacterBios[character.id] ?? hishiroNarrativeCharacterBios[character.id] ?? kaedeNarrativeCharacterBios[character.id] ?? nelphNarrativeCharacterBios[character.id] ?? keyNarrativeCharacterBios[character.id] ?? yumiNarrativeCharacterBios[character.id] ?? suzimasuNarrativeCharacterBios[character.id] ?? rithaNarrativeCharacterBios[character.id] ?? hyalunaNarrativeCharacterBios[character.id] ?? renNarrativeCharacterBios[character.id] ?? dayaNarrativeCharacterBios[character.id] ?? anthosNarrativeCharacterBios[character.id] ?? snowNarrativeCharacterBios[character.id] ?? oyasumiNarrativeCharacterBios[character.id] ?? gilliNarrativeCharacterBios[character.id] ?? syeNarrativeCharacterBios[character.id] ?? narrativeCharacterBios[character.id];
+const narrative = run75NarrativeCharacterBios[character.id] ?? run39NarrativeCharacterBios[character.id] ?? hishiroNarrativeCharacterBios[character.id] ?? kaedeNarrativeCharacterBios[character.id] ?? nelphNarrativeCharacterBios[character.id] ?? keyNarrativeCharacterBios[character.id] ?? yumiNarrativeCharacterBios[character.id] ?? suzimasuNarrativeCharacterBios[character.id] ?? rithaNarrativeCharacterBios[character.id] ?? hyalunaNarrativeCharacterBios[character.id] ?? renNarrativeCharacterBios[character.id] ?? dayaNarrativeCharacterBios[character.id] ?? anthosNarrativeCharacterBios[character.id] ?? snowNarrativeCharacterBios[character.id] ?? oyasumiNarrativeCharacterBios[character.id] ?? gilliNarrativeCharacterBios[character.id] ?? syeNarrativeCharacterBios[character.id] ?? narrativeCharacterBios[character.id];
 const dossiers = dossierData as Record<string, Dossier>;
 const dossier = dossiers[character.id];
 const canonNotes = [...new Set([...(bio.canonNotes ?? []), ...(dossier?.antiFanon ?? [])])];
