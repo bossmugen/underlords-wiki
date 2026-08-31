@@ -2,7 +2,7 @@ name: Build Underlords Wiki
 
 on:
   push:
-    branches: [main]
+    branches: [main, integrator-verify-20260831-0352]
   workflow_dispatch:
 
 permissions:
