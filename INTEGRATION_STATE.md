@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-08-30 22:41 PDT_
+_Last updated: 2026-08-30 22:45 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Earlier run detail remains in Git history and MAIN's dated `archive-intake/INTEGRATION_PASS_*` reports.
 
@@ -15,13 +15,13 @@ The lower-evidence project rule remains binding. Hard canon locks, resolved iden
 - **Louvre / AI Art / Athenaeum / Other Games** remains consumed through `7c540fd7b932e2c2c8b2bab4c47043da07fbd81f`.
 - **Mugen person-first** remains consumed through `4e971f4074f5407f525075d54f6811571bf9108b`.
 - Both **Club-Only** recovery targets remain fully consumed/current: 2021–2026 through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`; 2020 through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`.
-- **Wall** is checkpoint-first forward-reviewed through `a36bcf3c15de1ea641e292dce65eec2cd33da658`. The cumulative quarry remains NOT EXHAUSTED, so its formal consumed SHA remains null while the forward-reviewed boundary is carried explicitly in durable state.
+- **Wall** is checkpoint-first reviewed and consumed through `a36bcf3c15de1ea641e292dce65eec2cd33da658`. Its status remains `recovery_in_progress` only because future Wall deltas may still arrive; under the binding consumed-means-reviewed rule, an open cumulative quarry is not a reason to leave an already-reviewed head unconsumed.
 - **Whiskey** remains reviewed through `2eb736a93db50aaff812d9ee609e511d3fb71e42`; formal consumed remains `6cd5f9daeb20d77fad20e3cd7465ec938411993d` because older accepted Sye/Life MAIN biography material is still publication-blocked.
 - No miner branch was merged or wholesale cherry-picked into either publishing branch.
 
 ## 22:30 Wall recovery review — rails 551–565
 
-`archive-miner-wall-hourly-20260824` advanced from the previously durable forward-reviewed boundary `741d2f3611395962edbcab942e2092d92ec8f53d` to `a36bcf3c15de1ea641e292dce65eec2cd33da658`. MAIN registered the new `last_seen_sha` during the census before deep review. Only changed handoffs under `archive-intake/wall-shame-fame-2020-2026-20260819-1857-pdt/` were read, checkpoint first; raw archives were not re-mined.
+`archive-miner-wall-hourly-20260824` advanced from the previously durable review boundary `741d2f3611395962edbcab942e2092d92ec8f53d` to `a36bcf3c15de1ea641e292dce65eec2cd33da658`. MAIN registered the new `last_seen_sha` during the census before deep review. Only changed handoffs under `archive-intake/wall-shame-fame-2020-2026-20260819-1857-pdt/` were read, checkpoint first; raw archives were not re-mined. After successful review and WIKI publication/verification, MAIN advanced Wall's `last_consumed_sha` to the same reviewed head.
 
 ### The Corpse Logistics Department
 
@@ -65,7 +65,9 @@ A follow-up display fix landed at **`f413317045d01cbafd0b135dc4d75e91c1cc29d1`**
 - Follow-up **Build Underlords Wiki** run `33361278311` — success.
 - Follow-up **Deploy Underlords Wiki Preview** run `33361278374` — success.
 
-This durable-state commit follows the verified reader publication and display fix. Its own normal build/Pages checks are repository-state verification rather than a second lore publication event.
+The subsequent durable-state head `837e0c20fbc75eb0be255cb0570475a79a6b835f` also passed **Build Underlords Wiki** `33361460503` and **Deploy Underlords Wiki Preview** `33361460483`.
+
+This state revision additionally aligns the Wall consumed SHA with the binding project rule that consumed means reviewed. It does not create a second lore publication event.
 
 ## Existing cross-surface holds remain hard
 
