@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-08-31 00:48 PDT_
+_Last updated: 2026-08-31 00:50 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Earlier run detail remains in Git history and MAIN's dated `archive-intake/INTEGRATION_PASS_*` reports.
 
@@ -31,6 +31,8 @@ The mandatory full miner-branch census ran first and was durably written to MAIN
 ### Reconciled / held
 
 The Wall checkpoint explicitly supersedes an earlier bad Gabu attribution for the `Drink water reminder` / Anthos scene. That correction stays backstage; public copy simply uses the rendered account name and does not manufacture an identity bridge. Mercy's tiny cookie-stall exchange and Queen Shimoko's `My koi ... finally made it to the wall` line remain usable supporting texture but were intentionally held rather than padded into standalone lore. Exact attachment identity, original capture/maker, sealed-image subjects, Wolf's favorite color/height, and the meaning of `koi` remain unresolved.
+
+Two other positive Wall reads also cleared the evidence threshold but were intentionally preserved for their **person owners** instead of being forced into `Major Incidents` just because the miner moved. Torr / DiStratus says his grandmother always wanted dinner biscuits on special occasions, repeatedly burned them, and the family/household joke became `they are not burnt they are blackened.` That is excellent ordinary-life texture; it says nothing about his grandmother's current status, geography, household composition, or every holiday. Alkey / Meowk gets a source-bound peer characterization: Ren says a screenshot `Fits Alkey too 😌`, while Sou later writes `Tsundere: Alkey`. Safe use is that Ren/Sou joke that Alkey fits a tsundere category **in that scene**; it is not a personality diagnosis, romance inference, or permanent title. These are accepted findings, not rabbit-hole rejects, and should be folded into Torr/Alkey dossiers when those canonical owners next receive a clean update.
 
 ## Publication / verification
 
