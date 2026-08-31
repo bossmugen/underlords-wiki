@@ -53,6 +53,7 @@ for (const character of extraCharacters) {
 }
 
 export const allCharacters = [...byId.values()];
+export const characterById = new Map(allCharacters.map((character) => [character.id, character]));
 
 export type CastGroup = {
   id: string;
