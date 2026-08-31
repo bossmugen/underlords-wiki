@@ -1,64 +1,52 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-08-31 01:29 PDT_
+_Last updated: 2026-08-31 01:56 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Earlier run detail remains in Git history and MAIN's dated `archive-intake/INTEGRATION_PASS_*` reports.
 
 ## Current dual-surface boundary
 
-The lower-evidence project rule remains binding. Hard canon locks, resolved identities, privacy/safety, explicit contradictions, appointment chronology, and attribution fences stay hard; strong ordinary-life, relationship, humor, habit, emotional-subtext, and social-role reads may publish when the surrounding material makes them more likely than not.
+The lower-evidence rule remains binding, with the new character-biography correction now explicit: **the person is the spine; events are supporting scenes; the archive stays backstage.** Public biographies should read like fandom character pages about somebody the house actually knew, not research summaries explaining what each receipt did or did not establish. Mugen / Mugs is the structural reference. Small person-level lore goes under **Petty Crimes**, never Trivia.
 
-- **Full census:** 49 tracked miner identities = 28 active remote refs + 21 historical/missing; 0 newly discovered; 0 finite pending review after close; 0 backlog; 0 overdue.
-- **All Characters** is reviewed/consumed through `2ec8dc83c83c01f32ce08ad148dea8c4d7feb6a4`.
-- **Wall** is reviewed/consumed through `0cd21766ef8a687b5a825670106a3222b08ecec3`; status remains `recovery_in_progress` only because future Wall deltas may still arrive.
-- **Core Rooms + Events** advanced during the closing census and was reviewed/consumed through `b67ba225180fbe4da5346fc6803898221d1a93d6` in the same run.
-- Both **Club-Only** recovery targets remain fully consumed/current: 2021–2026 through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`; 2020 through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`.
-- **Mugen person-first** remains through `911fa1b10d0ce34309fbd8c13c03f9432c07d932`; **Daycare** through `f409ec2c65801728183cce73bea9e0f87c896733`; **Louvre / AI Art / Athenaeum / Other Games** through `7c540fd7b932e2c2c8b2bab4c47043da07fbd81f`.
-- **Whiskey** remains reviewed through `2eb736a93db50aaff812d9ee609e511d3fb71e42`; formal consumed remains `6cd5f9daeb20d77fad20e3cd7465ec938411993d` because older accepted Sye/Life MAIN biography material is still publication-blocked.
+Hard canon locks, resolved identities, privacy/safety, explicit contradictions, appointment chronology, and attribution fences still stay hard. Strong ordinary-life, relationship, humor, habit, emotional-subtext, care-pattern, social-role, and cumulative character reads may publish when the surrounding material makes them more likely than not.
+
+- **Full census:** 49 tracked miner identities = 28 active remote refs + 21 historical/missing refs; 0 newly discovered; 0 backlog; 0 review-overdue.
+- Both **Club-Only** recovery targets remain consumed/current: 2021–2026 through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`; 2020 through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`.
+- **Wall** was reviewed checkpoint-first through `f229eebe3763e8c392a5b2912965043fd94e8cfa`; its newest material was mostly already owned by the concurrent Run 50 Wall/person integrations, so this review closes that delta without manufacturing duplicate incidents. Wall remains an active recovery source only because future deltas can still arrive.
+- **Mugen person-first** was reviewed through `a7ff06d4e577c1be0c16b43bb253271de002f087`. Thanksgiving gratitude was already published by the concurrent integration; the Nhou cursed-café exchange remains a good Petty Crimes / relationship-texture candidate rather than a reason to add another event paragraph.
+- **Whiskey** was reviewed through `2974f6a66b26940a654b5889cd33294c21e8787c`. Its fresh public keeper is LEXI; older accepted Sye/Life MAIN material remains publication-blocked, so Whiskey's formal consumed SHA stays behind the reviewed frontier until MAIN can pass its own gate.
+- Closing census still has finite review work on **All Characters**, **Core Rooms + Events**, and **Louvre / AI Art / Athenaeum / Other Games**. None is overdue; anti-starvation remains active for the next pass.
 - No miner branch was merged or wholesale cherry-picked into either publishing branch. No raw archive was re-mined.
 
-## Run 49 — Wall herd, character catch-up, and a late Thanksgiving ambush
+## Run 51 — The biographies stop talking like the evidence clerk
 
-The mandatory opening census found two movers: All Characters and Wall. Wall was reviewed checkpoint-first through its full new suffix. All Characters advanced again during the run and was also reviewed through its late head. A closing all-branch sweep then caught **Core Rooms + Events** advancing from `0678af09…` to `b67ba225…`; that suffix was reviewed checkpoint-first too rather than being allowed to become a silent after-report backlog.
+The public bio standard was corrected at the source instead of merely sanding a few phrases off individual pages. `CHARACTER_BIOGRAPHY_STANDARD.md` and `src/data/bio-policy.ts` now make the person the organizing spine: temperament, social style, reputation, relationships, contradictions, recurring behavior, tastes, habits, care patterns and change over time come first. Chronology connects those things; it does not automatically become the chapter structure. Provenance, confidence grades and anti-fanon housekeeping remain in the support layers where they belong.
 
-### Wall: Collective Moo Braincell
+### Alkey: hockey spouse, good timing, affection with teeth
 
-SaraBunny is already saying `so much moo` on August 30, 2021. The next day Ren TRUE-REPLIES Ghoulie's `what is` with `Collective Moo braincell`, later drops `MOOOOOOOO`, and the room answers with cow-labeled GIF/Tenor links. Candy arrives September 1 with `Moo` and `:Cat_Sporkle: :Cat_Sporkle:` and is therefore best read as joining an already-active bit, not originating it. Later Anayss is still using the vocabulary in `we lost a moo!`.
+Alkey's biography was rewritten rather than patched. The new version keeps the real hockey background front and center — Canadian, has coached hockey, also describes himself as a hockey official, discusses skates/rink life, and says `I'm married to hockey` / asks whether he can legally marry it — but stops treating each dated scene as a separate evidentiary exhibit.
 
-A concurrent WIKI commit initially converted stable account `717133949457137775` / observed export handle `phenomenal_lamb_14960` into **Rummy** because that handle is associated with Rummy elsewhere in canon. The Wall checkpoint explicitly forbids that bridge for this stable account without direct identity evidence. Run 49 corrected the public Episode by removing Rummy from the Moo chorus. SaraBunny's four-message footprint and Beckiie's `i feel like i don’t say anything that gets me here` remain supporting texture rather than padded biographies. No uninspected image received subject, capture, maker, or featuring credit.
+The actual character spine is timing and social flexibility. His name can become peasant Alkey, officer Alkey, Sexy Alkey, horni Alkey, Batman Alkey, Alkitty, Nobu-as-Alkey or even an `:alkey:` emote and he often helps keep the mutation alive. Two chickens and crossed swords become `cock fight achieved`; Mugen gets popcorn; Alkey bows with `I aim to please`. Baby Lyssa says he saw nothing and he answers `i` / `saw` / `all` in separate bubbles. Aisha lands a comeback and he simply says `got me good`. The page now treats those as one recognizable social instinct rather than a year-by-year joke ledger.
 
-### All Characters: WIKI catches up to MAIN
+Fresh Whiskey also adds a different temperature. LEXI and Alkey repeatedly use affection wrapped in mock aggression, culminating in `I have to go now I love you idiot` / `I love you too shorty`. The public read is comfortable reciprocal affection and teasing, not romance. It belongs in Alkey's character page because it shows how his timing and easy banter behave when the room gets warmer.
 
-The All Characters miner mostly reconciled material already present on MAIN. WIKI was the stale surface, so `character-biographies-run49.ts` folds four person reads into existing dossiers:
+### LEXI: aggressively nice, anime in the bag, one smudged note
 
-- **Hishiro:** Record of Ragnarok / Jack the Ripper `sleek`; bad mic → switch to text; separately `former cellphone tech here`. Past job is not used to technically explain the mic.
-- **GenGrey:** `#2 - gengrey, yummibears` is probable temporary Keep Talking and Nobody Explodes session/voice routing, not rank, Team Two, or a permanent pair.
-- **Nhou:** `Appearance` / `DARK` → `MY EYES` → Anthos `OKAY I CHANGED IT` → `-vampire noises-` / `i can read it now`. Safe read: likely dark-interface / anti-surprise-brightness preference plus vampire theater; no medical diagnosis or origin claim for later light-mode jokes.
-- **Ten:** Janghoon asks whether the room portaled to 2020, calls Ten an oldie and says `welcome back`; Ten answers only `😭`. Recognition is hard; exact absence length/reason/return chronology remains unknown.
+LEXI now has a dedicated person-first biography instead of only a dossier-shaped archive appendix. Her strongest recurring trait is uncomplicated public care: Valentine's greetings, a handwritten good-day note she sends despite smudging the ink, and `love you all be safe, know that you are loved and you are worth it.` The page lets that coexist with the house dialect rather than flattening her into Nice Person. With Alkey, tenderness arrives as `idiot` / `shorty`; the insult is packaging, not cancellation.
 
-Alkey, Zepp, and Ghostt were bounded qualification negatives and were consumed without manufacturing absence or personality claims.
+Her Petty Crimes are appropriately small and specific: she loves Sword Art Online: Alicization, is fluent enough in anime/2D-character language to joke about it casually, and forgot her Japanese pens needed drying time until after the note had already smeared. `mugen invited me` is used as social-entry texture: Mugen opens the Discord-side door, LEXI makes herself at home. It is not promoted into a fake game-club admission chronology.
 
-### Core Rooms + Events: Mugen thinks gratitude has to leave your mouth
+### Mugen and Wall reconciliation
 
-The late Core suffix produced one genuinely fresh public keeper. On Thanksgiving 2022 Mugen says unexpressed thankfulness is like buying someone a gift and never handing it over, then publicly thanks different kinds of participation instead of collapsing everyone into a roster. VIP visitors get `You may not be a member but we feel your love through your nightly visits`. Officers get a separate paragraph for `tireless and constant care` and the direct line `Officer work goes mostly unrecognized, but I see your efforts`.
+Mugen's newest miner suffix mostly repackaged a Thanksgiving character synthesis already published by concurrent work: gratitude should be said, invisible Officer labor deserves recognition, and the entire sincere speech still ends with `Your resident plutonian dumdum 👽`. The smaller fresh Nhou beat is excellent character texture — cursed question, Nhou turns it into café service, Mugen adds `extra foam too` — but it belongs in Petty Crimes / dyad texture when the Mugs page next needs a human-scale insert, not as a standalone incident.
 
-The person read is lived leadership as recognition: invisible maintenance and non-member affection both get named because she thinks appreciation should be verbalized, not assumed. The contradiction survives intact. The same message says `I love you all`, remembers Covid companionship, Alabama, kidnapped corpses, eating newbies, spelling crimes and booty-shaking, then signs `Your resident plutonian dumdum 👽`. Mugen does not switch into Generic Boss Voice when the feeling becomes serious; the house vocabulary is part of how the sincerity still sounds like her.
+The Wall delta through `f229eebe...` was also reviewed rather than reread forever. Sou's Fame self-mythology, Ren/Gilli mint-chocolate socks, Bailey's `Someone take my phone away pls`, and related Wall material were already being integrated by the concurrent Run 50 path. This pass treats those as duplicate/corroboration families rather than spawning parallel copies.
 
-WIKI now uses this twice for different purposes: a Mugen biography section folds it into her leadership/affection pattern, while `Mugen Says the Thank-You Out Loud` is a searchable 2022 Episode. The `260+ members plus visitors` line remains period context, not timeless roster math, and exporter role arrays remain useless for appointment chronology.
+## Verification / publication
 
-The same Core suffix also produced thin doorway records for Mewgum/baegum, Melunis, Sokka泰勒 and Nelph plus a joke-form `KOREA ... 3 yrs old` line. Nelph's early Underlords/S9 doorway was already integrated in the WIKI biography, so it was duplicate/corroboration only. The Korea line remains safety-held because the joke age is noncredible and the person's actual historical age/category is unresolved. NEMESIS JANE full-access execution and Oyasumi appointment chronology remain unresolved; reaction metadata and current role arrays do not solve them.
+The reader head `c26b9bd4567ec240f4e0d1edbd3581bcbb6086b3` routes the rewritten Alkey biography and the new LEXI biography into the public character resolver. **Build Underlords Wiki `33375116180` succeeded** and **Deploy Underlords Wiki Preview `33375116186` succeeded**, including the Pages deployment.
 
-## Publication / verification
-
-The Moo identity correction head `8c5632deb7df36b36e2d6bd14d4fc380746cfada` passed Build `33371699002` and Pages `33371699036`.
-
-The Hishiro/GenGrey/Nhou/Ten reader head `dac5b327e251f67bab28041b5e751b303194bd1d` passed Build `33372060110` and Pages `33372060112`.
-
-The first durable state head `1c8763c2b2b3188e5ab497b55536d9135f32d0c0` passed Build `33372227689` and Pages `33372227678`.
-
-The late-Core reader head `5a0b305e28dfc090d3ff447659ac45dff1c0c4c8`, which includes the Mugen Thanksgiving biography fold and Episode, passed Build `33372907200`; Pages workflow `33372907159` built successfully and deployed successfully.
-
-This state commit must itself pass the repository's existing build/Pages workflow before the run is fully closed.
+This state commit must itself pass the repository's existing Build / Pages workflows before Run 51 is fully closed.
 
 ## Existing hard holds
 
@@ -66,11 +54,12 @@ This state commit must itself pass the repository's existing build/Pages workflo
 - **`sycessences` / `ƐℲı˥` = Sye/Life, not Effie.**
 - Snow was not formally second-in-command / #2.
 - MAIN's Snow biography still owes the direct Wall correction from ShiyaX to **Sou/Ansun** for the screenshot invitation; WIKI already carries the correct attribution.
-- Stable `717133949457137775` remains unresolved beyond the source-local export handle; do not identify it as Rummy without a direct bridge.
 - Exact Officer appointment chronology is never inferred from exporter-time role arrays.
-- Joke family/romance roles remain jokes unless separately confirmed.
+- Joke family / romance roles remain jokes unless separately confirmed.
+- LEXI / Alkey's reciprocal `I love you` language is affectionate relationship texture, not an automatic romance label.
+- `mugen invited me` is a social-entry receipt for LEXI; it does not by itself create an exact in-game admission chronology.
 - SAID BY / POSTED BY / VIA-SOURCE / CAPTURED BY / MADE BY / FEATURING remain distinct.
 
 ## Surface split
 
-Run 49 intentionally did not mirror Hishiro, GenGrey, Nhou, Ten, or the late Core Mugen prose into MAIN. MAIN already owns the first four evidence families in richer person pages; Mugen Thanksgiving is accepted for MAIN editorial use but MAIN's mandatory verifier still fails before acquiring a runner, so no new MAIN reader commit is allowed through that gate. WIKI could safely build/deploy, so it owns the fresh public Thanksgiving Episode and dossier fold now. Moo remains a WIKI Episode rather than another MAIN Wall-history paragraph.
+WIKI owns the fresh reader-facing work in this pass: the project-wide bio policy correction plus Alkey and LEXI's person-first character pages. MAIN intentionally receives no new reader prose while its mandatory verification workflow still fails before acquiring a runner. The same Whiskey material can later enrich MAIN only in MAIN's own biography voice rather than by copying the WIKI text verbatim.
