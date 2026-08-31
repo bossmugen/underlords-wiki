@@ -1,12 +1,12 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-08-30 22:21 PDT_
+_Last updated: 2026-08-30 22:38 PDT_
 
-This is the current durable reconciliation snapshot. Earlier run-by-run states remain in Git history and MAIN's dated `archive-intake/INTEGRATION_PASS_*` reports.
+This is the current durable dual-surface reconciliation snapshot. Earlier run detail remains in Git history and MAIN's dated `archive-intake/INTEGRATION_PASS_*` reports.
 
 ## Current dual-surface boundary
 
-The lower-evidence project rule remains binding. Hard canon locks, resolved identities, privacy/safety, explicit contradictions, appointment chronology, and attribution fences stay hard; strong ordinary-life, relationship, humor, habit, and social-role reads may publish when context makes them more likely than not.
+The lower-evidence project rule remains binding. Hard canon locks, resolved identities, privacy/safety, explicit contradictions, appointment chronology, and attribution fences stay hard; strong ordinary-life, relationship, humor, habit, and social-role reads may publish when the surrounding archive makes them more likely than not.
 
 - **Full census:** 49 tracked miner identities = 28 active remote refs + 21 historical/missing; 0 newly discovered; 0 finite pending review; 0 backlog; 0 overdue.
 - **All Characters** is checkpoint-first reviewed and consumed through `3e2170f6178a53347d580c99f4abc5fcad946891`.
@@ -15,68 +15,63 @@ The lower-evidence project rule remains binding. Hard canon locks, resolved iden
 - **Louvre / AI Art / Athenaeum / Other Games** remains consumed through `7c540fd7b932e2c2c8b2bab4c47043da07fbd81f`.
 - **Mugen person-first** remains consumed through `4e971f4074f5407f525075d54f6811571bf9108b`.
 - Both **Club-Only** recovery targets remain fully consumed/current: 2021–2026 through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`; 2020 through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`.
-- **Wall** remains checkpoint-first forward-reviewed through `741d2f3611395962edbcab942e2092d92ec8f53d`; quarry remains NOT EXHAUSTED and formal consumed SHA remains null.
+- **Wall** is checkpoint-first forward-reviewed through `a36bcf3c15de1ea641e292dce65eec2cd33da658`. The cumulative quarry remains NOT EXHAUSTED, so its formal consumed SHA remains null while the forward-reviewed boundary is carried explicitly in durable state.
 - **Whiskey** remains reviewed through `2eb736a93db50aaff812d9ee609e511d3fb71e42`; formal consumed remains `6cd5f9daeb20d77fad20e3cd7465ec938411993d` because older accepted Sye/Life MAIN biography material is still publication-blocked.
 - No miner branch was merged or wholesale cherry-picked into either publishing branch.
 
-## Run 43 — All Characters review
+## 22:30 Wall recovery review — rails 551–565
 
-`archive-miner/all-characters-hr-20260828` moved from consumed `8946faed42eb4020254083947b36591945294908` to `3e2170f6178a53347d580c99f4abc5fcad946891`. Only changed handoffs under `archive-intake/all-characters-hr-comprehensive-20260828/` were read, checkpoint first.
+`archive-miner-wall-hourly-20260824` advanced from the previously durable forward-reviewed boundary `741d2f3611395962edbcab942e2092d92ec8f53d` to `a36bcf3c15de1ea641e292dce65eec2cd33da658`. MAIN registered the new `last_seen_sha` during the census before deep review. Only changed handoffs under `archive-intake/wall-shame-fame-2020-2026-20260819-1857-pdt/` were read, checkpoint first; raw archives were not re-mined.
 
-### Rose — useful corroboration, already substantially public
+### The Corpse Logistics Department
 
-On 2022-11-07 Rose says `Hi gilli`; Gilli answers `Welcome back rose!` one second later; only after that does the same account resupply `Galaxy` / `Dragons` during repeated intake. The social recognition arrives before the current-character paperwork. MAIN already tells this scene richly and WIKI already carries the surrounding return/Wall fluency, so it was consumed as corroboration rather than duplicated.
+The strongest new evidence family starts as retrospective 2020 lore and scales into a 2022 running-joke recurrence. Illien/Euros remembers **every time** he read `we've lost Pride's body` on `cc`; Ren says `I had to make an amber alert`, labels it `For a lost CORPSE`, immediately POSTS an image, then says `I HAVE PROOF`. Sou/Ansun directly tags Pride with `i left you for one sec and you already trying to fucking get away from me`, making it probable/strong that at least one loss involved Pride immediately trying to wander off after Sou looked away.
 
-The 2023-01-01 `Bet wanna fight me XD` → `Lets see how much i remember of the combat...` exchange likewise strengthens the existing read: Rose is competitive enough to ask for the fight and careful enough to turn it into a live memory test rather than bluff certainty. Daycare continuity through late 2025 keeps her from reading as a one-era cameo without pretending uninterrupted activity.
+The same-author `I had to make` → label → upload → `I HAVE PROOF` sequence makes **POSTED BY Ren confirmed** and **MADE BY Ren probable/strong**. CAPTURED BY and visual FEATURING remain unresolved because the pixels were not inspected.
 
-### Churro / Suora and Mia — rollback fences remain hard
+On 2022-04-13 Sou POSTS two PNGs under `another Wednesday in UL; losing bodies once again`. Ren announces `He lost THE VAN OF BODIES`; Ricochet explicitly says Snow is losing the bodies; Mugen asks the next morning `We lost bodies again?`; Ricochet says `grandpa snow is misplacing things again`; Anayss says she was misplaced; Tony explains that bodies cannot simply be misplaced; Snow closes with `>_> I Blame DR`.
 
-The clean Churro doorway remains valid: `main club or alts?` → Gilli `Whichever is in UL lol` → Churro `Suora` → Ren `SUORAA!!!!` / `Haiii` → Churro `hii!` → `Lemme get u all set`. That confirms Suora as Churro's self-filed identity in the scene and makes Ren's instant recognition persuasive prior-familiarity evidence.
+The 2022 scene is confirmed recurrence and participant framing blames Snow. Its continuity with the 2020 Pride-body / Amber Alert material is probable/strong rather than a hard direct callback. No literal corpses, real van, criminal conduct, exact Dragon Raja mechanic, or formal body-tracking responsibility is inferred.
 
-A separate older promotion that treated `IS CALLED THE SCRUFF` / `I LEARN IT FROM SUORA` as proof Suora taught or transmitted `the scruff` house language was explicitly rolled back in repository history. It stays rolled back absent independent source re-verification.
+### Ren deliberately re-files Pride's old corpse threat
 
-Likewise, a temporary reader edit once attributed a server-icon redo story to Kiro and attached a recipient-sensitive-effort interpretation. That edit was explicitly reverted as unverified. Run 43 preserves the rollback.
+Ren POSTS `Pride bout to kill us for bodies UwU` on 2020-09-07. On 2020-12-29 she says `Let me just bring back the time pride threatened that he was gonna make us into corpses` and POSTS another image sixteen seconds later. The revival itself is confirmed; same threat incident/family is probable/strong; the attachment records are different and are not declared identical.
 
-Allenne / Panda / Ame / Cookie / Key yielded bounded negatives or corroboration already absorbed by current public dossiers. The global exhaustion ledger remains 86 IN PROGRESS / 4 EXHAUSTED; no new person became exhausted.
+This gives Ren another clean archival-behavior receipt without flattening her into a generic archivist label: she is not merely reacting to old material when it resurfaces; she is explicitly the person hauling it back into court.
 
-## Daycare 22:00 — fake-family grammar expands
+### Pride and Snow discover operational security for being embarrassing
 
-`archive-miner/daycare-2020-2026-hourly` advanced from consumed `5e71ecedd5724677208150d5652b4409dd8a5f63` to `f409ec2c65801728183cce73bea9e0f87c896733` after the opening census. MAIN immediately registered that head as pending before review, then the changed Daycare handoffs were read checkpoint-first.
+A month before Snow's already-public `best material in vc` scene, Pride watches a screenshot-distribution pocket unfold and says `and this is why Pride stays out of Club chat`, then sips. Together the two scenes support a strong repeated read that some members understood the capture risk changed by venue/medium. Pride avoids one surface; Snow moves the premium material to voice. This is behavior, not a formal privacy/confidentiality rule and not proof VC was screenshot-proof.
 
-The useful public keeper belongs to the existing Panda ↔ Eos relationship. On 2022-01-21 Eos says `Oops wrong account`, then reacts from the Marian/Panda account before reappearing as Eos; that remains a scene-specific account mishap, not a general credential-sharing claim. Six days later Rummy and Tony are directly clowning around on Wall when Eos tags Panda/Marian with `look its our two childs getting along`. Panda's response is not to reject the fake-parent premise but to fix the grammar: `it's *children*`.
+The WIKI's existing Snow episode was widened instead of duplicating the same mechanism into a second historical object.
 
-That little correction is exactly why the beat is worth keeping. The house-family joke is already mutually available enough that the objection lands on noun morphology, not parenthood. The likely `two childs` referents are Rummy and Tony because they are the direct participants immediately above; this remains joke-family language only, not literal parenthood, romance, governance, or a formal family-tree edge. WIKI's Bonds page now folds that beat into the existing Panda ↔ Eos card rather than spawning a redundant episode.
+### Athena's tiny person beat
 
-A separate 2020 Mërcy/Ghostt image-thread cluster adds warmth — Ghostt reacts with a fresh-cookies emote and `You'll be stuck with me`; Mërcy answers `Congratulations` / a heart — but the attachment pixels remain uninspected, so the scene was not promoted into visual subject/maker/capture claims. Long Daycare quiet stretches likewise remain room-local institutional contour, not evidence that UL itself disappeared.
+Athena's complete authored Wall footprint in this pocket is only four messages, but it forms a coherent 2022 scene: she loses beauty sleep to a hyped manhwa that turns out `soooo baaaad`, needs a good one to `wash my brain`, then peacefully accepts Mugen routing the discussion to `simp-here` or Whiskey. Historical manhwa interest is publishable; permanent/current taste and sleep routine are not inferred. Athena's two PNGs remain visually uninspected.
 
-## Cross-surface hard correction — Rich is not Ricochet
+The redirect also supplies a bounded room-function receipt: Wall can host the exhibit while longer discussion gets routed elsewhere. One redirect is not inflated into a formal written policy.
 
-Novelty-checking the live WIKI exposed a resolver problem more important than manufacturing another Rose paragraph: a legacy VIP fallback collapsed **Rich / DragonRich** into **Ricochet / `dragonrichard`** and imported Steelix-bot / daily-code receipts from that unresolved account into Rich's story.
+## Reader publication / verification
 
-That violates the hard identity rail. The public Rich route now has a dedicated person-first narrative keeping only clean material: Rich / DragonRich as Amaurot leader, UL VIP, early cross-club contact point, and later Richard's Corpse social-room presence. `DragonRich` remains a resolved Rich name. **Ricochet / `dragonrichard` remains unresolved and is not merged into Rich absent a direct bridge.** Steelix attempts, `today's cdkey`, and other receipts attached only to the Ricochet account stay out of Rich's biography.
+Reader commit: **`9bf6842876d1eabe3e4b279840fbd8c76bd781cd`** (`wiki: add Wall corpse logistics and Athena scene`).
 
-MAIN still carries its own stale Rich-collapse correction obligation behind MAIN's mandatory verification gate.
+- `src/data/integrator-episodes-20260830-2112.ts` now owns **The Corpse Logistics Department**, **Pride Threatens to Make Corpses, Then Becomes the Missing Corpse**, and **Athena Needs a Manhwa Exorcism**.
+- The existing Snow VC episode was widened to include Pride's earlier Club-chat avoidance, combining the evidence family instead of spawning a duplicate mechanism page.
+- **Build Underlords Wiki** run `33361182497` — success.
+- **Deploy Underlords Wiki Preview** run `33361182556` — success; Pages build, artifact upload, deployment, and reporting all completed successfully.
 
-## Other hard rails still held
+This durable-state commit follows the verified reader publication. Its own normal build/Pages checks should be treated as repository-state verification rather than a second lore publication event.
 
+## Existing cross-surface holds remain hard
+
+- **Rich / DragonRich is not Ricochet / `dragonrichard`.** WIKI already has the corrected Rich narrative. MAIN still owes removal of its stale collapse once MAIN verification can execute.
 - **`sycessences` / `ƐℲı˥` = Sye/Life, not Effie.**
 - Snow was not formally second-in-command / #2.
-- MAIN's Snow biography still owes the direct Wall correction from ShiyaX to **Sou/Ansun** for the screenshot invitation; WIKI already uses the correct attribution.
+- MAIN's Snow biography still owes the direct Wall correction from ShiyaX to **Sou/Ansun** for the screenshot invitation; WIKI already carries the correct attribution.
 - Exact Officer appointment chronology is never inferred from exporter-time role arrays.
 - Joke family/romance roles remain jokes unless separately confirmed.
 - SAID BY / POSTED BY / VIA-SOURCE / CAPTURED BY / MADE BY / FEATURING remain distinct.
 
-## Verification / deployment
-
-Rich reader correction head `7f07132c04c04b8395696a4a555ba21ce14a92af` passed WIKI's Astro build and Pages deployment.
-
-Daycare reader head: **`03e19c506ae6c15f6897d761e6424330f89a6613`**.
-
-- **Build Underlords Wiki** run `33360098435` — success. `Build Astro wiki` completed successfully.
-- **Deploy Underlords Wiki Preview** run `33360098431` — success. Pages build, artifact upload, deployment, and status reporting all completed successfully.
-
-This durable-state close follows those verified reader changes and records the true All Characters and Daycare consumed boundaries. The state head itself receives the repository's normal build/Pages checks.
-
 ## Surface split
 
-WIKI received two reader-facing changes in this pass because each had a natural WIKI owner: the Rich identity firewall belongs in Rich's Cast biography, and Eos/Panda's `our two childs` beat belongs in Bonds. MAIN received no reader prose: Rose is already richly represented; Churro/Mia are rollback fences; the Daycare relationship beat already has the cleaner WIKI owner; and MAIN's mandatory verifier is still failing before execution. MAIN's analogous Rich cleanup plus the Snow Sou/Ansun attribution correction remain queued rather than being forced around a dead verification gate.
+WIKI received the reader-facing Wall material because discrete running incidents, callbacks, room behavior, and the Athena scene fit its Episodes layer cleanly. MAIN received no reader prose in this pass: its Wall/history surface already owns the broader editorial story, and its mandatory source/Astro/built-output verifier is still failing before execution. MAIN's Rich identity cleanup and Snow Sou/Ansun attribution correction remain queued rather than being forced around a dead verification gate.
