@@ -27,5 +27,23 @@ export const late2345IntegratedEpisodes: Episode[] = [
     kind: "Wall evidence format / still images are no longer enough",
     logline: "Five surviving days after the Wall opens in 2020, Ten already says `i keep forgetting y'all record these`. That early wording proves capture-awareness, not video and not an origin. By September 2021 the medium itself is undeniable: Sou/Ansun posts a `How it Started:` packet, Tofu says `ITS STILL GOING`, and Gilli POSTS a file literally named `Screen_Recording_20210919-001112_Discord.mp4`. In June 2022 Daya POSTS `Screen_Recording_20220625-134631_Dragon_Raja.mp4`, adds `flying high`, Ren says Daya has the high ground, and Daya wishes she could do that during contests. The MP4 filenames prove that Wall receipt culture had expanded beyond screenshots into motion/process capture across Discord and Dragon Raja. They do not tell us what the videos visually contain, who originally captured them, who made anything depicted, or who appears on screen. POSTED BY is known; everything inside the moving pixels stays fenced. The important cultural upgrade is simple: by this point the evidence room could preserve not just the stupid result, but the stupid thing happening in real time.",
     cast: ["Ten", "Ansun", "Tofu", "Gilli", "Daya", "Ren"]
+  },
+  {
+    id: "wall-personal-evidence-locker",
+    title: "The Personal Evidence Locker",
+    season: "2020",
+    date: "October 26, 2020 → April 15, 2021",
+    kind: "Wall receipt lifecycle / the screenshot may survive long after the crime",
+    logline: "The Wall was not only a live-news desk. By October 2020 it could be the public endpoint of somebody else's private screenshot stash. An account rendered as `Drink water reminder` tells Anthos `i still have your ss hahaha`; Anthos asks `which one @3@`; Drink water offers `lemme post here`, fakes her out, waits while Anthos admits she is still curious, then POSTS `Capturar.PNG`. Anthos answers `LMAOOO` and `nooooooo` within seconds. The stable account behind Drink water reminder is **not** being merged into Gabu; an earlier miner pass made that identity mistake and the corrected reconstruction explicitly supersedes it. In April 2021 Ren independently demonstrates the same storage culture when Baby Lyssa realizes she is on the Wall, Ren drops `image0.jpg`, Baby screams `HOW DO YOU STILL HAVE THAT`, and Ren answers `I keep all my ss UwU` before casually mentioning she has another one but will spare her. POSTED BY is hard for the two filings; the first attachment being the just-discussed retained screenshot is probable/strong; original source, CAPTURED BY, MADE BY, and visual FEATURING remain unresolved. The useful social mechanism is nastier than ordinary screenshot anxiety: the dangerous part is not only that somebody can save the stupid thing. Somebody may still have it months later, remember exactly where it lives, and bring it back the instant your name becomes funny again.",
+    cast: ["Anthos", "Ren"]
+  },
+  {
+    id: "purple-means-wolfie",
+    title: "Purple Means Wolfie",
+    season: "2022",
+    date: "September 3, 2022",
+    kind: "Wall visual shorthand / Dean's brain auto-completes a person",
+    logline: "A 2022 Wall exchange catches WolfPhenix becoming visual shorthand without needing the sealed screenshot pixels to cooperate. An account rendered as `Drink water reminder` tells Dean `wolfie is giant, gilli is ant`; Gilli fires back `YOU SPECK OF SAND`; Wolf joins the Fat_Wheeze reactions. Later in the same scene Mugen explains the association that actually survives as character texture: `Dean saw purple and he thought purple = wolfie`. That is strong enough to say purple had apparently become part of Wolfie's recognizable visual/avatar language in the room. It is not evidence that purple was Wolf's favorite color, and `giant` is not being promoted into real-world height. The human part is Dean's shortcut: he sees one color and his brain apparently fills in the rest of the person before anybody has finished explaining the image.",
+    cast: ["WolfPhenix", "Gilli", "Mugen", "Dean"]
   }
 ];
