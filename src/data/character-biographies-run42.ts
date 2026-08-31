@@ -7,6 +7,7 @@ import { taeNarrativeCharacterBios } from "./character-biographies-tae";
 import { run50NarrativeCharacterBios } from "./character-biographies-run50";
 import { run50ExtendedNarrativeCharacterBios } from "./character-biographies-run50-extended";
 import { run53NarrativeCharacterBios } from "./character-biographies-run53";
+import { run54NarrativeCharacterBios } from "./character-biographies-run54";
 
 function withSection(base: CharacterNarrative, section: NarrativeSection): CharacterNarrative {
   return { ...base, sections: [...base.sections, section] };
@@ -28,6 +29,7 @@ export const run42NarrativeCharacterBios: Record<string, CharacterNarrative> = {
   ...lexiNarrativeCharacterBios,
   ...celeNarrativeCharacterBios,
   ...run53NarrativeCharacterBios,
+  ...run54NarrativeCharacterBios,
 
   dean: withSection(deanNarrativeCharacterBios.dean, {
     period: "July 2025",
