@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-08-30 18:36 PDT_
+_Last updated: 2026-08-30 18:42 PDT_
 
 ## Current dual-surface integration state — 18:15 pass close
 
@@ -13,7 +13,7 @@ The lower-evidence project rule remains binding. Hard canon locks, resolved iden
 - Core is reviewed through `8d4ea9f75956eab681c2580d5481f7c03a111f42`; retrieval failures remain runtime/source-access limitations rather than historical negatives.
 - Daycare is checkpoint-first reviewed and consumed through `8d8d867f7125dbdfaa87747be3d1c3aaba4e07fd`.
 - Whiskey is checkpoint-first reviewed through `c08359fa336f829a58f104c9211c3ff26d700881`; formal consumed remains `6cd5f9daeb20d77fad20e3cd7465ec938411993d` because earlier accepted Sye/Life material remains MAIN-publication-blocked. Hard correction: **`sycessences` / `ƐℲı˥` = Sye/Life, not Effie**. **Meowk = Alkey remains probable; Key ≠ Alkey remains hard.** Ricochet / `dragonrichard` remains a separate archive identity from Rich unless a direct bridge appears.
-- Mugen person-first is checkpoint-first reviewed and consumed through `6c6c894819e0123617a2e2fa90e38dcb92c84f52`.
+- Mugen person-first is checkpoint-first reviewed and consumed through `7b4ff4dbf31e7c47d376fc556f2dabcb5366e549`.
 - Wall is checkpoint-first forward-reviewed through `9f794a9f296633c6e7d1419c9d4a29b8e7e89800`. Formal consumed remains null while cumulative recovery remains open. The current checkpoint explicitly says the quarry is **not exhausted** and records rails through 496–507; raw archives were not re-mined.
 - No miner branch was merged or wholesale cherry-picked into either publishing branch.
 
@@ -48,7 +48,11 @@ Reader head `13550eaef2e72015930e5e2b30c47435f74520a0` contains the Moon/Ricoche
 - **Build Underlords Wiki** `33347722142` — **success**.
 - **Deploy Underlords Wiki Preview** `33347722136` — **success**, including Pages deployment.
 
-This `INTEGRATION_STATE.md` commit is the durable close for the reviewed boundaries above. Its own exact-head build/deploy result must be read from the current workflow chain before the next pass treats it as verified.
+Durable state head `c2de65f8edb2dceafffc00bab416fdd4e52e6f64` also completed its native verification chain successfully:
+- **Build Underlords Wiki** `33348086106` — **success**.
+- **Deploy Underlords Wiki Preview** `33348086056` — **success**.
+
+This correction commit only repairs the exact final Mugen review boundary from an intermediate SHA to the actual active branch head; its exact-head workflow result must likewise be checked before the pass closes.
 
 ### Surface split
 
@@ -60,12 +64,12 @@ WIKI owns the reader additions this pass because Moon/Ricochet are dossier-shape
 
 - `archive-miner/daycare-2020-2026-hourly`: checkpoint-first delta `d5f4f82679cb8378dba362c33ab94492d8053270 → 8d8d867f7125dbdfaa87747be3d1c3aaba4e07fd`.
 - `archive-miner/whiskey-longitudinal-hourly`: checkpoint-first suffix `3d6c00c103c2cae36a707c0452c6c34bc404357b → c08359fa336f829a58f104c9211c3ff26d700881`; formal consumed remains held at `6cd5f9daeb20d77fad20e3cd7465ec938411993d` for the older accepted Sye/Life publication obligation.
-- `archive-miner-wall-hourly-20260824`: cumulative recovery continued from `2ec6af7dc7e49f9fe165507a1ebbcf0cf1623a65` through the mid-run suffix at `9f794a9f296633c6e7d1419c9d4a29b8e7e89800`; checkpoint read first, raw archives untouched, formal consumed SHA null while quarry remains open.
-- `archive-miner/mugen-person-first-20260828`: late-mover checkpoint-first delta `fea5d27cafda37417c3fbb76de678d05a6b8998c → 6c6c894819e0123617a2e2fa90e38dcb92c84f52`.
+- `archive-miner/wall-hourly-20260824`: cumulative recovery continued from `2ec6af7dc7e49f9fe165507a1ebbcf0cf1623a65` through the mid-run suffix at `9f794a9f296633c6e7d1419c9d4a29b8e7e89800`; checkpoint read first, raw archives untouched, formal consumed SHA null while quarry remains open.
+- `archive-miner/mugen-person-first-20260828`: late-mover checkpoint-first delta `fea5d27cafda37417c3fbb76de678d05a6b8998c → 7b4ff4dbf31e7c47d376fc556f2dabcb5366e549`.
 
 ### Consumption decisions
 
 - Daycare consumed through `8d8d867f7125dbdfaa87747be3d1c3aaba4e07fd` after Moon's accepted public deepening passed WIKI verification.
-- Mugen person-first consumed through `6c6c894819e0123617a2e2fa90e38dcb92c84f52`; its public Wall-favorites evidence is folded into the verified Wall owner and its identity-sensitive access inference is held.
+- Mugen person-first consumed through `7b4ff4dbf31e7c47d376fc556f2dabcb5366e549`; its public Wall-favorites evidence is folded into the verified Wall owner and its identity-sensitive access inference is held.
 - Whiskey remains formally consumed only through `6cd5f9daeb20d77fad20e3cd7465ec938411993d`; the new suffix is reviewed through `c08359fa336f829a58f104c9211c3ff26d700881` and Ricochet's accepted public addition is verified.
 - Wall remains formal-consumed null while cumulative recovery is active; review-through is `9f794a9f296633c6e7d1419c9d4a29b8e7e89800`.
