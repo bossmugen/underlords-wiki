@@ -144,6 +144,11 @@ const additions: Character[] = [
 
 const metadataOverrides: Record<string, Partial<Character>> = {
   new: { role: "Staff", tags: ["Staff"] },
+  zyrcant: {
+    aliases: ["Akariel", "Akariel™", "akariel_star"],
+    logline: "Former Amaurot deputy and recurring VIP whose Akariel names belong to the same person; the club history can get fuzzy without splitting Zyrcant into a second character.",
+    tags: ["VIP", "Amaurot", "Identity continuity"],
+  },
   aeshleen: { role: "Staff", tags: ["Staff", "Wall speedrun"] },
   "baby-lyssa": { role: "VIP", tags: ["VIP", "2021", "Wall", "Wall speedrun", "Screenshot jail"] },
   panda: {
