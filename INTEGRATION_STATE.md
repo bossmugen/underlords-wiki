@@ -1,8 +1,8 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-08-30 20:18 PDT_
+_Last updated: 2026-08-30 20:37 PDT_
 
-This file is the current durable reconciliation snapshot. Earlier run-by-run states remain available in Git history and in MAIN's dated `archive-intake/INTEGRATION_PASS_*` reports; the live file stays compact so stale historical summaries do not outrank current branch state.
+This file is the current durable reconciliation snapshot. Earlier run-by-run states remain available in Git history and in MAIN's dated `archive-intake/INTEGRATION_PASS_*` reports; the live file stays compact so stale summaries do not outrank current branch state.
 
 ## Current dual-surface integration state
 
@@ -10,58 +10,56 @@ The lower-evidence project rule remains binding. Hard canon locks, resolved iden
 
 ### Census / consumption boundary
 
-- **49 tracked miner identities = 28 active remote refs + 21 historical/missing; 0 newly discovered; 0 finite pending; 0 backlog; 0 overdue.** MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` is authoritative for per-branch `last_seen_sha` versus `last_consumed_sha`.
+- **49 tracked miner identities = 28 active remote refs + 21 historical/missing; 0 newly discovered; 0 finite pending review; 0 backlog; 0 overdue.** MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` is authoritative for per-branch `last_seen_sha` versus `last_consumed_sha`.
 - **All Characters** is consumed through `69c27bca913eeaa41e5814b8b5a0a76d1583d756`.
-- **Core Rooms + Events** is consumed through `31e0f17f894ea365ef1eb19b86b38c2f446a57ca`. Its final suffix was retrieval-boundary/checkpoint material only; failed source access was not converted into a historical absence claim.
-- **Daycare** is consumed through `8c96125bb2f568050579cfca4d2542659ad5fe69`.
-- **Mugen person-first** is checkpoint-first reviewed, public-integrated, and consumed through `9e4065cd910a80b2a8703dfafa92c29cadec540a`.
-- **Whiskey** is checkpoint-first reviewed through `800311c117753269699970d169c542e208ea633e`, but formal consumed remains `6cd5f9daeb20d77fad20e3cd7465ec938411993d` because older accepted Sye/Life biography material is still MAIN-publication-blocked. Hard correction: **`sycessences` / `ƐℲı˥` = Sye/Life, not Effie**.
+- **Core Rooms + Events** is checkpoint-first reviewed and consumed through `9a08adfe1cd48ce426740d2e5055f82e8f4cdd4d`. The suffix was retrieval-boundary/checkpoint material only; failed source access was not converted into historical absence.
+- **Daycare** is checkpoint-first reviewed and consumed through `165432f15f2eeb7f64debfa5792c113093371251`. Its TonyTonyChopper Wall recurrence is public in WIKI Episodes.
+- **Mugen person-first** is checkpoint-first reviewed, public-integrated, and consumed through `d981abba9e390083de7789e1793587f11a0ab690`. The tail after `1bfbc8e...` is routing/checkpoint closure for the same founding-week evidence family, not a second historical event.
+- **Whiskey** is checkpoint-first reviewed through `2eb736a93db50aaff812d9ee609e511d3fb71e42`. Formal consumed remains `6cd5f9daeb20d77fad20e3cd7465ec938411993d` because older accepted Sye/Life biography material is still MAIN-publication-blocked. Hard correction: **`sycessences` / `ƐℲı˥` = Sye/Life, not Effie**.
 - Both **Club-Only** recovery branches remain fully consumed/current: `archive-miner/club-only-2021-2026-hourly` through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`, and `archive-miner-clubonly-2020-hourly` through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`.
-- **Wall** is checkpoint-first forward-reviewed through `0fef9d5949118933c701ac29df448052f097c6c5`. The quarry explicitly remains **NOT EXHAUSTED**, so formal consumed SHA remains null. Raw archives were not reopened.
+- **Wall** is checkpoint-first forward-reviewed through `6308936c322ace99b3dde38426005cf50d329b8f`. The quarry explicitly remains **NOT EXHAUSTED**, so formal consumed SHA remains null. Raw archives were not reopened.
 - No miner branch was merged or wholesale cherry-picked into either publishing branch.
 
 ### Public additions / reconciliation
 
-**Mugen: the bot needs a form; Mugs apparently needs `uwu`.** A technically separate account rendered `CookieStream` hits ordinary intake machinery, visibly contributes almost nothing administratively beyond `uwu`, and Mugen answers `gotchu cooks` before access handling continues. The public dossier keeps the account boundary real while carrying the stronger human read: Mugen probably recognizes the familiar controller before the form has re-established them. That is probable cross-account recognition, not permission to merge stable Discord histories.
+**Mugen had the dramatic vocabulary before the paint dried.** On April 3, 2020 she tells Nothien, `We have been in covert alliance with SM and Amaurot. We just finished setting up the server a few days ago lol`. The biography uses this as founding-week voice: classified-operation language immediately punctured by `server a few days ago lol`. The project's one-formalized-alliance canon remains untouched; `covert alliance` is Mugen's participant wording for the early allied relationship, not a loophole for inventing treaties.
 
-Fresh Core Rooms evidence also confirms that UL really did have vacation continuity/inactivity machinery, which upgrades Mugen's older `Dw bb I saved your account on vacation uwu` from suggestive vocabulary into likely real practical action. The exact LilithEl implementation is still unresolved; the wiki does **not** claim she definitely held the specific `STAFF VACATION` Discord role. The character beat is Mugen's delivery: infrastructure arrives dressed as reassurance.
+**The Wall's name now has a surviving family tree.** On August 25, 2020 Sou says `wall of shame`; Ren says she had imagined `a hall of fame`; Sou compresses the argument to `shame fame, same thing 😎`; less than a minute later Snow says she might change the channel name. Sou's 2023 `Throw back` / Fame-ownership argument is therefore a strong callback to the old naming pocket. Ren supplied `hall of fame` first in the surviving exchange, Sou fused the terms, Snow considered the rename. Nobody gets a fake sole-inventor plaque and the actual rename event remains audit-bound.
 
-**Whiskey: Jordayy gets a life instead of a nameplate.** Her file now carries repeated work interruptions, liking to read Whiskey even when she is not steering it, household dog/laundry leakage, package-redelivery frustration, likely JJK familiarity without overclaiming the exact `He's so handsome` referent, and probable Ghostt relationship texture around the recurring dog-cuddler/breakfast joke. No literal dog-sitting, breakfast delivery, romance, or closeness rank is asserted.
+**The evidence room had a backlog almost immediately.** Five days after the Wall opened in the surviving record, Ren explains that she forgot to post material `yesterday`; later she says she had something `for a while but forgot to post`; Moon repeats the mechanism in 2023. The Wall was not only live capture. People carried little off-channel prosecution queues around in their heads/devices. The court acquired a backlog before it acquired dignity.
 
-**Amaurot** is retained as a recurring adjacent visitor/contact stream into UL Discord, not upgraded into another formal alliance. The Whiskey miner's renewed `Ricochet / dragonrichard = Rich` assertion remains rejected because there is still no direct identity bridge. Current WIKI cast data preserves Ricochet separately, and a latent canonicalizer rule that could have silently deleted him as “actually Rich” was removed.
+**RotiniLM is happy to file; arraignment is optional.** Rotini posts multiple Wall exhibits across January 24–25, 2022, then TRUE-REPLIES a pooled Deleted User telling them it is their turn to be the center of attention with the complete defense strategy: `Nah I'm good`. In this pocket Rotini is comfortable on the filer/gallery side and beautifully uninterested in rotating into defendant mode. `WC` is probably Whiskey chat/channel but stays probable; POSTED BY is hard, CAPTURED BY / MADE BY / FEATURING remain unresolved.
 
-**Wall: provenance survives even when the exhibit does not.** The recovered reply topology now proves that Mugen's `Where this from? Owo` was answered by a pooled Deleted User with `from aether club server`, followed six seconds later by Mugen's `Ooooo`. The parent exhibit itself is absent, so POSTED BY / CAPTURED BY / MADE BY / FEATURING remain unresolved. The useful story is source-consciousness: by May 2021 the Wall could explicitly distinguish the person asking about an exhibit from the server it came from.
+**TonyTonyChopper learns screenshot jail in under one onboarding break.** Roughly six minutes after his February 10, 2022 Lobby intake, Marian/Panda tags him on a Wall image with `sorry, not sorry`; Tony answers `STOPPPP` and `WR DONT NEED TO SHARE THIS WITH THE WORLD`. In May another tagged image produces `NO` → `STOP` → `DONT SHOW THEM`. Sou calls the first incident `not even a day yet and already wall shamed`; Gabu calls it a `speeed run!!`. The repeated publication panic is a probable recurring Wall persona, not a claim about every image or an exact join timestamp.
 
-**The Thousand-Dollar Fur Suit Startup** is public as an Episode. Daya opens `petition to get ansun in a fur suit`; Ansun's first objection is the thousand-plus-dollar price; Daya immediately proposes Party City/Shein; Ansun then pivots into `I’ll become viral on tiktok and douyin with it ♥️` and `Go ahead and make me famous; your move`. Mia adds a `raja woof suit`, Daya promotes Ansun to UL's hypothetical `money maker` / strip-club main attraction, and Rummy pitches `BUNNY BARTENDER OUTFIT`. The character read is the pivot from target to co-author after one price audit, not a furry identity, literal business plan, or actual suit ownership.
+**Jas's fake-father title is performed by the humans, not merely exported metadata.** Gilli welcomes him back and asks when he is coming to his `real home`; later tells him `control your children sir`; Jas answers from inside the role that he is `a father that gives you everything, I give love`. Tae asks the `old man` to play a horror game `again`, preserving prior shared-play history without inventing the missing title/session. Ren's `JASON LEFT` shortly after Jas says he has to go back to work makes Jason a strong probable peer-used expansion, not a hard technical identity bridge. Fake family stays fake family; the affection and familiarity are still allowed to be real.
 
-**Candy's moo chorus** is kept deliberately small. Candy drops `Moo` into a quiet Wall pocket, Sou/Ansun, Rummy, and Ren answer in kind; three weeks earlier Candy had TRUE-REPLIED Vanness's self-filed merge disaster with `Wad00` and a crying-cat emote. That supports a low-volume, reactive Wall presence who can also seed ambient nonsense. One morning of mooing is not promoted into eternal canon law.
+**Amaurot's `join` language now has a safer practical meaning.** Mugen's April 3 `covert alliance` line, Snow asking Rich on April 7 whether anyone else wants to `join from Amaurot`, and Sitama arriving the next day `from amaurot` while Snow handles Discord access make the strongest read Discord-side allied visitor entry, not an in-game roster transfer. This does not create another formal alliance and does not prove Rich personally recruited Sitama.
 
-**HamitteY's forgotten receipt finally prosecutes its own owner.** On August 3, 2021 HamitteY POSTED a Dragon Raja screenshot and, twenty-nine seconds later, admitted `forgot i had this`. More than an hour later Ghoulie TRUE-REPLIED the exact file with `you know what` and `i thought you was my friend`; Tae filed `Exposed🤔`; HamitteY answered `Sorry not Sorry` with a heart. The social read is strong enough to publish: the screenshot apparently sat in HamitteY's own retained pile long enough to be forgotten, then resurfaced as affectionate betrayal theater. POSTED BY HamitteY is hard; CAPTURED BY / MADE BY / visual FEATURING remain unresolved, and one recovered cache does not become a lifelong archiving habit.
+**Ghostt's game label gets fuzzy before the room does.** In December 2021 Ghostt says, `I haven’t been on in so long I forget which club I’m in lol`; Marian points at the visible Forsaken label; Ghostt later says he left it and uninstalled not long afterward. The later referents remain probable rather than hard because the reply chain is not structured, but the social contrast is clean: Dragon Raja classification is getting blurry while Ghostt is still comfortable joking inside UL's Wall.
 
-**Boiled mayo reaches hearsay in ten minutes.** Zoshaa offers `a refreshing glass of boiled mayo`, Gilli gags, and Zoshaa describes the alleged beverage as a warm McDonald's triple-thick milkshake tasting like mayo. Ten minutes later Spicy Hotpot arrives asking Gilli what he has `heard about boiled mayo`. That is enough to treat the phrase as already socially transmissible in this pocket without pretending the earliest surviving targeted hit is the origin or claiming anyone literally drank it. The same exchange then gives a probable Spicy→Josh referent when Ren later complains `Josh won’t fight me`; that stays probable rather than becoming a hard identity merge.
+**The receipt crossed at least two hands before Ren filed it.** On September 5, 2021 Ren POSTS `image0.png`; twenty-one seconds later Tae says `MY FRIEND SENT ME IT, i just wanted to share with you all`. Strongest current chain: unnamed friend → Tae → Ren POSTS to Wall. The friend, platform/source room, CAPTURED BY, MADE BY and visual FEATURING remain unresolved. Ren's later `secret lover` joke explicitly says `(this be a joke UwU)`, so it stays a joke instead of being promoted into romance. This is exactly why POSTED BY and source provenance remain separate verbs.
 
 ### Duplicate / held / unresolved
 
-- CookieStream probable familiar-controller recognition does not erase separate stable account IDs or merge message/role histories.
-- LilithEl's exact vacation implementation remains unresolved even though the general vacation continuity workflow is confirmed.
+- Mugen's founding-week `covert alliance` wording does **not** override the one-formalized-alliance canon.
 - `Ricochet` / `dragonrichard` ↔ Rich remains unresolved. Similar names, adjacency, and miner assertions are insufficient under the hard identity rail.
 - MAIN still contains an older Rich alias grouping that includes `Ricochet` / `dragonrichard`; treat it as a correction obligation, not canon, until MAIN's mandatory reader verifier can actually execute.
-- The Aether parent exhibit is missing; specific Aether channel, uploader, capturer, maker, and subjects remain unresolved.
-- Daya's opening fur-suit attachment was not visually inspected; no image-specific description is published from text alone.
-- HamitteY's August 3 screenshot remains visually uninspected; Ghoulie is the strong probable intended exposure target from exact reply topology, not a hard visual FEATURING claim.
-- Spicy Hotpot → Josh in the May 17 boiled-mayo pocket remains a strong probable referent, not a hard identity merge. The later September reply bridge remains stronger.
-- `boiled mayo` has an earlier surviving May 17 hit now, but earliest surviving is still not promoted into an absolute origin claim.
-- Jordayy's `Sama` addressee and exact JJK `He's so handsome` referent remain unresolved.
+- Jas → Jason remains probable, not a hard account/identity alias bridge.
+- Tony's Wall attachments remain visually uninspected; intended exposure target is strong/probable, visual FEATURING is not claimed.
+- Tae's unnamed friend stays unnamed; the later explicitly-joking `secret lover` line does not identify them or create romance.
+- Rotini's `WC` source venue remains probable; nearby attachments do not transfer capture/maker attribution.
 - Core's failed retrieval controls remain source-access evidence only, never evidence that people/events were absent.
+- Wall's exact rename action/date remains audit-history bound; earliest surviving naming discussion is not automatically the rename event.
 
 ### Verification / deployment
 
-The current Wall reader commit `0e54ec0e78717e8acdb33fa18ccc1fd6e2cd4ff7` adds `Forgot I Had This` and `A Refreshing Glass of Boiled Mayo` to the existing Wall episode module without duplicating the earlier Aether/fur-suit/Candy owners.
-- **Build Underlords Wiki** `33353301592` — **success**.
-- **Deploy Underlords Wiki Preview** `33353301506` — **success**, including Pages deployment.
+The current reader head `72af4b020975dd1dd18dcbc6e59cab74d166d186` includes the late Wall/Daycare/Whiskey episode integration, founding-week Mugen dossier addition, and the Tae → Ren provenance episode.
+- **Build Underlords Wiki** `33354329732` — **success**.
+- **Deploy Underlords Wiki Preview** `33354329707` — **success**, including Pages deployment.
 
 This durable state update follows that verified reader head. Its own exact-head build/Pages runs are the final WIKI close check for this pass.
 
 ### Surface split
 
-The fresh HamitteY and boiled-mayo scenes are intentionally WIKI-owned as discrete Wall Episodes. MAIN was novelty-checked and remains the better home for the broader Boiled Mayo Corp. genealogy rather than a photocopy of the May 17 scene; HamitteY's one excellent recovered episode is not enough to justify padding a new MAIN person page. MAIN's outstanding reader obligation remains the accepted Sye/Life Whiskey biography material plus correction of its stale Ricochet→Rich alias once MAIN's mandatory source/build/output verifier can actually execute.
+These fresh scenes are intentionally WIKI-heavy because the WIKI already owns the discrete Episode/dossier lookup layer and the current MAIN reader verifier is still failing before a runner executes. MAIN was novelty-checked rather than blindly mirrored. The Mugen founding-week quote is strong MAIN-character/Chronicle material and the stale Ricochet→Rich alias is a real MAIN correction obligation, but neither gets pushed through a verification gate that currently produces no runner and no steps. MAIN's older accepted Sye/Life Whiskey biography material remains publication-blocked for the same reason.
