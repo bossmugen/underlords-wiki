@@ -72,4 +72,56 @@ export const run41NarrativeCharacterBios: Record<string, CharacterNarrative> = {
       },
     ],
   },
+
+  woohyuk: {
+    intro: [
+      "Woohyuk / ash_island is a UL VIP whose best surviving scenes barely perform guest-ness at all. When an October 2020 access mistake gets him locked out, his first move is not diplomatic ceremony; it is `BRUH MUGEN LOCKED ME OUT`. Ren routes the complaint upward and Mugen answers `took out wrong tag`. The whole thing lands like somebody yelling down the hall because a house key stopped working.",
+      "By 2021 he is fluent in the Wall's stupid little justice system: throwback shames, speedrun commentary, receipt requests, and enough confidence to promise Tofu evidence with `Sheeet I gotchu`. He is also capable of stripping a watermelon down to its alleged criminal essence — `just sweet water` in melon form, trying to play everybody dumb. Complaint, cooperation, concern and produce prosecution all tend to arrive in small sentences.",
+      "The newer receipts make that compactness look less like mere brevity and more like a recurring social habit. Woohyuk often notices the thing, pushes it toward whoever can act on it, and lets the room carry the rest. He does not need to own the process to be useful inside it."
+    ],
+    sections: [
+      {
+        period: "October 2020",
+        title: "Wrong tag, immediate complaint",
+        paragraphs: [
+          "Woohyuk says Mugen locked him out; Ren asks what happened and tags Mugen; Mugen says she removed the wrong tag. The receipt is clean about affected person, router and fixer without pretending exporter role arrays can reconstruct the technical chronology. Socially, the lack of ceremony is the fun part: VIP status does not turn a broken door into a diplomatic incident. Woohyuk just complains, Ren points at the landlord, and the key gets fixed."
+        ],
+      },
+      {
+        period: "December 2020–February 2021",
+        title: "Short concern, short warning path",
+        paragraphs: [
+          "A December `please sleep` gives Woohyuk the same compressed register in a care-shaped scene; the exact original addressee remains unresolved. In February, Gilli credits a circulating Discord warning to Woohyuk while explicitly saying `Whether it's real or not its better safe then sorry` and tagging Staff. That uncertainty is Gilli's wording, not Woohyuk's, and the warning itself is not independently validated. What the scene safely shows is an information path: something reaches Woohyuk, moves through Gilli, and gets pushed toward Staff without Woohyuk appointing himself cybersecurity anything."
+        ],
+      },
+      {
+        period: "March–June 2021",
+        title: "He already knows how Wall court works",
+        paragraphs: [
+          "Woohyuk asks whether they are doing throwback shames and immediately posts an attachment, calls Aeshleen reaching the Wall in under an hour `a record`, and answers a request for evidence without needing the rules explained. That does not create a formal archivist office. It does make him a socially fluent participant in a room where evidence, timing and embarrassment have become shared grammar."
+        ],
+      },
+      {
+        period: "June 25–28, 2021",
+        title: "Two rounds with Tofu",
+        paragraphs: [
+          "On June 25 Woohyuk tells Tofu `you're the only whale around here`. Tofu TRUE-REPLIES, `Show the rebate then boo`; Woohyuk answers `Sheeet I gotchu`. Three days later Tofu posts an attachment, Woohyuk teases that `chat background doesnt exist for Tofu`, and Tofu TRUE-REPLIES with a rage-cry emoji. The attachment itself is uninspected, so its contents stay out of the story.",
+          "The repetition is the relationship texture. This is not one random jab floating through a busy room: two different days produce the same easy directed rhythm, with Tofu answering him back rather than merely being talked about. `Whale` stays a gaming/social joke, not proof of wealth or spending, and two banter scenes do not generate a friendship rank. What they do earn is simpler and more human: Woohyuk and Tofu had an established little sparring lane and both knew how to use it."
+        ],
+      },
+      {
+        period: "July 2021",
+        title: "Watermelon fraud case",
+        paragraphs: [
+          "Woohyuk reduces watermelon to `just sweet water` in melon form that is `tryna play us dumb`. It is three messages of produce indictment and a perfect example of how his compressed style can turn a small preference into a tiny prosecution without requiring a grand performance around it."
+        ],
+      },
+      {
+        title: "The short handoff",
+        paragraphs: [
+          "Across otherwise unrelated scenes, Woohyuk keeps doing a small practical move: flag the access problem, pass the warning, produce the receipt, answer the person in front of him. The pattern is not command and it is not ownership. It is social routing — enough confidence to push a thing toward the right person and enough ease to stop once the room has it. That fits the banter too: he throws Tofu a line, Tofu throws one back, and neither needs to explain the relationship before the joke works."
+        ],
+      },
+    ],
+  },
 };
