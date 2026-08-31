@@ -1,10 +1,13 @@
 import type { CharacterNarrative } from "./character-biographies-narrative";
 import { narrativeCharacterBios } from "./character-biographies-narrative";
+import { run42NarrativeCharacterBios } from "./character-biographies-run42";
 
 const gabu = narrativeCharacterBios.gabu;
 const anayss = narrativeCharacterBios.anayss;
 
 export const run39NarrativeCharacterBios: Record<string, CharacterNarrative> = {
+  ...run42NarrativeCharacterBios,
+
   gabu: {
     ...gabu,
     sections: [
