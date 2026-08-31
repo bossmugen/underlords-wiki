@@ -8,8 +8,9 @@ import { wall0314Gags } from "../data/integrator-gags-wall-20260830-0314";
 import { wall1414Gags } from "../data/integrator-gags-wall-20260830-1414";
 import { wall0445Gags } from "../data/integrator-gags-wall-20260831-0445";
 import { wall0615Gags } from "../data/integrator-gags-wall-20260831-0615";
+import { wall1530Gags } from "../data/integrator-gags-wall-20260831-1530";
 
-const allGags = [...gags, ...integratedGags, ...wall2126Gags, ...wall0230Gags, ...wall0314Gags, ...wall1414Gags, ...wall0445Gags, ...wall0615Gags];
+const allGags = [...gags, ...integratedGags, ...wall2126Gags, ...wall0230Gags, ...wall0314Gags, ...wall1414Gags, ...wall0445Gags, ...wall0615Gags, ...wall1530Gags];
 const replaceComedyTaxonomy = (value: string) => value.replace(/\b(bits?|gags?)\b/gi, (term) => {
   const replacement = term.toLowerCase().endsWith("s") ? "jokes" : "joke";
   if (term === term.toUpperCase()) return replacement.toUpperCase();
