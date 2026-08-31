@@ -52,7 +52,7 @@ export const ansunNarrativeCharacterBios: Record<string, CharacterNarrative> = {
         paragraphs: [
           "Sou once typed `the toot of al evil LOL` and Ren's immediate instinct was to pin it. This is a reasonable summary of the relationship between Ansun and language: the sentence may fail mechanically, but if it fails hard enough it becomes furniture.",
           "He can also turn breathing into slander. One 2023 Wall reply — `You breathed and I'm sure air came out of both ends` — earns eight skull reactions even though the surviving parent context is too incomplete to safely name the target. The room does not need the defendant for the line itself to remain prosecutable.",
-          "The fake-jurisprudence register has range. `Tae said "fuck" July 12 2021` becomes a timestamped Wall case because it was allegedly directed at Ansun. Ants become another old file worth asking Ren about. And when the Wall tries to make *him* the exhibit, he simply calls it fame until everyone else has to live inside his version of the story."
+          "The fake-jurisprudence register has range. `Tae said 'fuck' July 12 2021` becomes a timestamped Wall case because it was allegedly directed at Ansun. Ants become another old file worth asking Ren about. And when the Wall tries to make *him* the exhibit, he simply calls it fame until everyone else has to live inside his version of the story."
         ]
       }
     ],
