@@ -65,6 +65,7 @@ export const gilliNarrativeCharacterBios: Record<string, CharacterNarrative> = {
         title: "PETTY CRIMES",
         paragraphs: [
           "Gilli has, at minimum, been socially assigned an `Emotional Support Collection` containing objects such as Pebble. Rich was already joking about tucking `your pebble` into bed before the later profile turned the collection into full taxonomy. The exact ontology of Pebble remains less important than the fact that people knew Gilli had one.",
+          "Her camera roll also appears to function as cold storage for old crimes. In 2021 she announces `Was looking through my photos and found this gem`, posts an older screenshot seconds later, and tags NintendoShitcube. It is not formal archivist behavior; it is much more Gilli than that. She goes looking through normal personal photos, finds a fossil, and apparently decides the Wall deserves a second chance to prosecute it.",
           "She calls people `lovelies`, tells them to smile and eat, and can make `Morning lovelies` sound like both affection and the opening of a shift briefing. She has also pleaded guilty to fictional-bot violence, been called a bad influence, and participated in an extended height case against Gabu with no sign that either litigant intends to respect the verdict.",
           "Her social history contains the line `I like Raja because of Underlords lol`, which ages absurdly well once Dragon Raja stops being the main reason anybody is still around."
         ]
