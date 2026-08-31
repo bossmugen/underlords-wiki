@@ -169,10 +169,6 @@ const metadataOverrides: Record<string, Partial<Character>> = {
   lexi: { role: "VIP", tags: ["VIP", "LoliParadise", "2021", "Lobby", "Whiskey"] },
 };
 
-// Ricochet is Rich, not another person. Remove the duplicate legacy character before building the public registry.
-const ricochetIndex = allCharacters.findIndex((character) => character.id === "ricochet");
-if (ricochetIndex >= 0) allCharacters.splice(ricochetIndex, 1);
-
 for (const addition of additions) {
   const existing = allCharacters.findIndex((character) => character.id === addition.id);
   if (existing >= 0) allCharacters[existing] = { ...allCharacters[existing], ...addition };
