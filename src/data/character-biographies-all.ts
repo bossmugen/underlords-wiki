@@ -174,22 +174,26 @@ function bestArchiveBio(id: string): CharacterBio | undefined {
 function narrativizeArchiveBio(character: Character, bio: CharacterBio): CharacterNarrative {
   const sections: CharacterNarrative["sections"] = [];
 
-  for (const beat of bio.history ?? []) {
-    sections.push({ period: beat.date, title: beat.title, paragraphs: [beat.text] });
-  }
-
   if (bio.characterNotes?.length) {
     sections.push({
-      title: "What keeps recurring in the record",
+      title: "WHAT KEEPS HAPPENING",
       paragraphs: bio.characterNotes.map((note) => `${note.title}. ${note.text}`),
+    });
+  }
+
+  const sceneParagraphs = (bio.history ?? []).map((beat) => beat.text);
+  if (sceneParagraphs.length) {
+    sections.push({
+      title: "SCENES THAT STUCK",
+      paragraphs: sceneParagraphs,
     });
   }
 
   if (!sections.length) {
     sections.push({
-      title: "What the surviving archive can safely say",
+      title: "THE SHORT VERSION",
       paragraphs: [
-        `The current archive does not yet preserve enough scene-level material to manufacture a grand arc for ${character.name}. The biography stays short on purpose: gaps remain gaps, and role metadata does not get promoted into personality.`,
+        `${character.name} has a smaller character page right now. ${character.logline} It stays compact rather than stretching a role card into a personality.`,
       ],
     });
   }
@@ -199,19 +203,18 @@ function narrativizeArchiveBio(character: Character, bio: CharacterBio): Charact
 
 function thinArchiveNarrative(character: Character): CharacterNarrative {
   const aliases = character.aliases?.length
-    ? ` The surviving identity trail also resolves ${character.aliases.join(", ")} to the same person where the archive bridge supports it.`
+    ? ` Known names include ${character.aliases.join(", ")}.`
     : "";
 
   return {
     intro: [
-      `${character.name}'s surviving UL archive is still thin enough that the biography has to stay short. ${character.logline}${aliases}`,
-      `That thinness is an archive boundary, not a judgment about importance. Until more scenes are recovered, this page refuses to pad ${character.name} into a personality profile from a role, a message count, a tag, or simple co-presence.`,
+      `${character.name}: ${character.logline}${aliases}`,
     ],
     sections: [
       {
-        title: "The story is still being recovered",
+        title: "THE SHORT VERSION",
         paragraphs: [
-          `What belongs here next is scene evidence: what ${character.name} did, how other people reacted, what kept recurring, what changed over time, and where the record goes quiet. Reference facts such as current role and era stay in the side rail until the archive gives them an actual story to live inside.`,
+          `${character.name}'s page is deliberately compact. The role and era are already on the card; this space stays small until there is enough person-specific texture to say something more interesting than a résumé.`,
         ],
       },
     ],
@@ -227,8 +230,8 @@ export const allNarrativeCharacterBios: Record<string, CharacterNarrative> = {
 for (const module of finishedNarrativeModules) mergeNarrativeModule(allNarrativeCharacterBios, module);
 
 // Universal rule: every public character route resolves to a biography-shaped story.
-// Deep archive bios are converted without discarding their existing evidence; truly
-// thin files get an explicit archive-boundary narrative instead of fake resume prose.
+// Finished narratives win; deeper legacy profiles are folded into a person-shaped page;
+// thin entries stay short instead of manufacturing a personality out of metadata.
 for (const character of allCharacters) {
   if (allNarrativeCharacterBios[character.id]) continue;
   const archiveBio = bestArchiveBio(character.id);
