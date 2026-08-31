@@ -2,6 +2,7 @@ import type { CharacterNarrative, NarrativeSection } from "./character-biographi
 import { narrativeCharacterBios } from "./character-biographies-narrative";
 import { anthosNarrativeCharacterBios } from "./character-biographies-anthos";
 import { ghosttNarrativeCharacterBios } from "./character-biographies-ghostt";
+import { gilliNarrativeCharacterBios } from "./character-biographies-gilli";
 import { illienNarrativeCharacterBios } from "./character-biographies-illien";
 
 function insertBeforeTitle(
@@ -16,6 +17,7 @@ function insertBeforeTitle(
 
 const gabuBase = narrativeCharacterBios.gabu;
 const anthosBase = anthosNarrativeCharacterBios.anthos;
+const gilliBase = gilliNarrativeCharacterBios.gilli;
 const illienBase = illienNarrativeCharacterBios.illien;
 const ghosttBase = ghosttNarrativeCharacterBios.ghostt;
 
@@ -36,6 +38,16 @@ const anthosReceiptSection: NarrativeSection = {
     "Gabu tells Anthos she **still has** one of Anthos's screenshots. Anthos answers **`which one @3@`**, which is already a tiny indictment of the household: apparently there are enough possible exhibits that clarification is necessary. When Gabu offers to post it, Anthos says **`im scared now`**. Gabu gives her a clean exit by claiming she is kidding. Anthos immediately chooses curiosity instead: **`well im still curious XD`**.",
     "That contradiction is extremely Anthos. She can perform the defendant's dread and still lean toward the thing that might embarrass her because the social bit is more interesting than self-protection. When Gabu posts an attachment shortly afterward, Anthos's **`LMAOOO` → `nooooooo` → `XD`** keeps the same rhythm: horror, recognition, laughter. The scene never turns into a rupture. It becomes more material.",
     "The relationship with Gabu matters because neither person needs to explain the rules. Gabu can use **having kept the receipt** as teasing leverage; Anthos can be wary and curious in the same breath. The image itself remains sealed, and Gabu posting it does not make her its capturer or maker. The lived part is already enough."
+  ]
+};
+
+const gilliEosSection: NarrativeSection = {
+  period: "July 8, 2021",
+  title: "The same command voice can hydrate the children or help Eos get away with it",
+  paragraphs: [
+    "Gilli's caretaker mode is already familiar by 2021: stop fighting the Platelets, drink water, eat something, keep track of the children. Then Eos hesitates over posting more evidence because Marian sometimes writes her up. Gilli's entire intervention is **`@Eos donit`**. When Eos explains the risk, Gilli supplies the practical loophole instead of the moral lesson: **`How would she know it was you`**.",
+    "That makes the responsible Gilli and the bad-influence Gilli look less like opposite personas. She has a very short route from *I see what is holding this moment up* to *here is the next action*. Sometimes the next action is hydration. Sometimes it is apparently operational advice for petty screenshot crime. The speed and terseness are the common denominator.",
+    "Eos also tells us something about the relationship by hesitating out loud in front of Gilli and then getting goaded straight through it. The exchange reads like familiar joke-space rather than formal authority: Gilli can push, Eos can state the consequence plainly, and neither needs a ceremonial setup. That does not give them a formal relationship label. It does give Gilli one more person with whom care and chaos can occupy the same voice."
   ]
 };
 
@@ -75,6 +87,14 @@ export const run79WallNarrativeCharacterBios: Record<string, CharacterNarrative>
       anthosBase.sections,
       "The running bit gets bigger while her practical reliability becomes less visible and more important",
       anthosReceiptSection,
+    ),
+  },
+  gilli: {
+    ...gilliBase,
+    sections: insertBeforeTitle(
+      gilliBase.sections,
+      "THE CARETAKER IS ALSO A REPEAT OFFENDER",
+      gilliEosSection,
     ),
   },
   illien: {
