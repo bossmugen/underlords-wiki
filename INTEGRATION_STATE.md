@@ -1,84 +1,77 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-08-31 04:14 PDT_
+_Last updated: 2026-08-31 04:22 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Earlier run detail remains in Git history and MAIN's dated `archive-intake/INTEGRATION_PASS_*` reports.
 
-## Current dual-surface boundary
+## Current boundary
 
-The project-wide biography rule remains binding: **the person is the spine; events are supporting scenes; the archive stays backstage.** MAIN gets rich person/legend writing; WIKI gets structured Cast dossiers, Episodes, Relationships, Running Gags, Quotes, Locations and Gallery/reference structure. `Petty Crimes` is the catch-all bio section name; never `Trivia`.
+The biography rule is binding: **the person is the spine; events are supporting scenes; the archive stays backstage.** MAIN gets rich person/legend writing. WIKI gets character-rich searchable biographies plus Episodes, Relationships, Running Gags, Quotes, Locations and Gallery/reference structure. `Petty Crimes` is the public catch-all section name; never `Trivia`.
 
-Hard canon locks, resolved identities, privacy/safety, explicit contradictions, appointment chronology, and attribution fences stay hard. Strong ordinary-life, relationship, humor, habit, emotional-subtext, care-pattern, reputation, social-role, and cumulative character reads may publish when the surrounding material makes them more likely than not.
+Hard canon locks, resolved identities, privacy/safety, explicit contradictions, appointment chronology and attribution fences remain hard. Strong ordinary-life, relationship, humor, habit, emotional-subtext, care-pattern, reputation, social-role and cumulative character reads may publish when the surrounding material makes them more likely than not.
 
-- **Full census:** 49 tracked miner identities = 28 active remote refs + 21 historical/missing refs; 0 newly discovered; **0 finite pending review; 0 backlog; 0 review-overdue** at close.
+- **Full closing census:** 49 tracked miner identities = 28 active remote refs + 21 historical/missing refs; 0 newly discovered; **2 finite pending-review suffixes; 0 backlog; 0 review-overdue**.
 - Both **Club-Only** recovery targets remain consumed/current: 2021–2026 through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`; 2020 through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`.
-- **Wall** was reviewed through `304d9374ff707a603394ce2251d2a5883e6727a8` and is now consumed through that head; `recovery_in_progress` means only that future suffixes may still arrive.
-- **Mugen person-first** was reviewed through `8240054d3d27235ce9da97269fed033c699f9600`; the suffix was a successful negative control and is consumed with no public change.
-- **Core Rooms** was reviewed through `6da0509a792f6c9d3c7fb36a81207a64c71d2299`, but formal consumed remains `c9b33dca5df5fe46b8594a999ac888253a1ff27f` because accepted MAIN Nelph work could not clear MAIN's mandatory verifier.
-- **Daycare** was reviewed through `b92f0f77bf20d84a0d6e984e81a03c30faef7cd3`, but formal consumed remains `fccd131e47c0a03018ca3cecfcecbe8ebdd5b703` for the same MAIN verification block after accepted Mia work.
-- **Whiskey** remains reviewed/current through `e381584248426262d36f254ca275151bdaf69dd9`; its older accepted Sye/Life MAIN material remains publication-blocked, not unread.
-- No miner branch was merged or wholesale cherry-picked into either publishing branch; no raw archive was re-mined.
+- **Wall** is reviewed and consumed through `304d9374ff707a603394ce2251d2a5883e6727a8`; `recovery_in_progress` means future suffixes may still arrive.
+- **Mugen person-first** is consumed through `8240054d3d27235ce9da97269fed033c699f9600` after a successful no-public-change review. The checkpoint's instruction was correct: do not bloat the woman.
+- **Core Rooms** is reviewed through `6da0509a792f6c9d3c7fb36a81207a64c71d2299`, while formal consumed remains `c9b33dca5df5fe46b8594a999ac888253a1ff27f` because accepted MAIN Nelph work still cannot clear MAIN's mandatory verifier.
+- **Daycare** is reviewed through `b92f0f77bf20d84a0d6e984e81a03c30faef7cd3`, while formal consumed remains `fccd131e47c0a03018ca3cecfcecbe8ebdd5b703` for the same MAIN verification block. The branch moved again during closing census to `7a428d475739437a2efc4d2d86699f2c1a5c556c`; that late suffix is pending the next fair rotation.
+- **All Characters HR** moved during closing census from consumed `1026759dfd18238b5b2d6d6d4ebcbf064a0c7911` to `1804f4ea229bd6608d98fed7d916ee0dcd100e7c`. Its checkpoint still names Run 46 while a Run 47 handoff is also present, so it remains pending rather than being half-consumed.
+- **Whiskey** remains reviewed/current through `e381584248426262d36f254ca275151bdaf69dd9`; older accepted Sye/Life MAIN material remains publication-blocked.
+- No miner branch was merged or wholesale cherry-picked; no raw archive was re-mined.
 
-## 04:14 PDT reviewed material
+## Person-first public work
 
-### Nelph — lived Officer work, not a résumé
+### Nelph
 
-Core Rooms deepened Nelph in the places a title alone cannot. Her October 5, 2021 Officer induction says the promotion recognizes services already being done, says `Real life first, always`, and explicitly describes Officer positions as positions of service. The next month shows what that means in practice: she keeps known information separate from what is still missing in a sensitive case, gathers and labels updates, asks follow-ups, and wants people to read before moving. The private case stays private; the character point is that Nelph can enjoy the tea without pretending tea is a verdict.
+Nelph now reads like a person rather than an Officer résumé. Her recurring move is turning information into a usable next step: event alerts become directions, scam warnings become the actual 2FA menu path, and scheduling becomes a concrete recommendation softened with `That's my opinion though`. In sensitive work she can openly enjoy the tea while still separating what is known from what is missing and slowing the room down before consequences land.
 
-The same low-ego competence appears in scheduling: compare overlapping event windows, suggest the workable day, add `That's my opinion though`, let somebody else take the recommendation. Five days before asking for a break, Nelph is volunteering as a recruitment contact and saying `I'm active in both ^^`; the break therefore interrupts an active stretch rather than confirming a slow administrative fade.
+The ordinary-life side is allowed to matter too: chickens, goats, `nelphies chicken pics`, Sye sentencing her to `FarmVille`, and `satellite WiFi` becoming Mugen's `satellite wife` before Nelph's `I MEANT WIFI😭`. The Officer title sits on top of the woman instead of replacing her.
 
-The ordinary-life side got better too. Mugen says she will miss `nelphies chicken pics`; people ask for chicken pictures even while Nelph is away; Nelph defends the chickens from being eaten, discloses goats, gets sentenced by Sye to `FarmVille`, and `satellite WiFi` becomes `satellite wife` before `I MEANT WIFI😭`. The role works because the person is still visible inside it.
+### Mia
 
-### Mia — learns the house, then becomes one of the people who can explain it
+Mia's biography now centers her communication and participation style: tiny Wall replies that make the room carry half the sentence, immediate willingness to open the blank canvas and turn an idea into something everybody can touch, and the clean newcomer-to-guide progression where somebody once handed her the house map and she later handed it to the next person.
 
-Daycare supplies a clean newcomer-to-guide progression. In October 2022 Mia is being routed through the house by Gabu / shared onboarding infrastructure. By May 2023 she is routing Saiyura through the same core destinations herself, adding Platelet/minor caution, sensitive-topic and no-drama boundaries, welcome language, and reassurance that roles will be assigned.
+The `BREAK THE BOT` material survives as contradiction rather than incident bookkeeping: careful and explicit where people, minors and conflict are involved; cheerfully feral where the casualty is harmless machinery. Momo's reciprocal twin language stays lived relationship texture rather than a Related People footnote.
 
-The stronger read is the contradiction with `BREAK THE BOT`: careful where actual people, minors, conflict, and vulnerable members are involved; cheerfully feral when the casualty is low-stakes machinery. That does not create a Staff appointment or assign authorship of the shared onboarding script. It makes Mia more like a person instead of a list of titles.
+### Erys / Emi
 
-### Erys / Emi — defendant, counterfiler, then suddenly missing everybody
+Erys now has an actual character page instead of a screenshot prosecution log. Her Wall persona escalates through `NO`, `its photoshopped`, `im being hacked`, then counterfiling and cheerful attempts to suppress Mugen's remaining receipts. Off the witness stand, the register flips: she notices when everybody disappears, says she misses them, and returns affection openly. The theatrical defendant and the group-seeking softie are the same person.
 
-Wall supplied the cleanest WIKI-only story of the run. Ren files an image and Erys escalates through `NO` -> `i swear that isnt me` -> `its photoshopped` -> `im being hacked`. Those are theatrical defenses, not factual media-forensics conclusions. Erys then appears to counterfile Ren with an image of her own; pixels remain uninspected. When Mugen says more receipts exist but the chat is defeating capture, Erys's defense evolves into `good`, `no one needs to see the rest mugss`, and `:))` — cheerful evidence suppression after starting from total denial.
+## WIKI reader architecture
 
-Eight days later the register flips. Sou tells a tired-sounding Emi to sleep; Erys insists `i dont needff sleepp`, keeps asking where everybody went, says `i missssg yalll`, warmly receives Rummy's best-friends hug, and gets redirected toward Whiskey by Eos. No intoxication claim is needed. The better contradiction is theatrical Wall defendant versus openly group-seeking softie once the room gets quiet.
+The second-pass biographies live in `src/data/character-biographies-run58.ts` and override the earlier Nelph/Mia/Erys drafts through `src/data/character-biographies-all.ts`.
 
-## WIKI reader work
+More importantly, the **character route itself was corrected project-wide**. `src/pages/characters/[id].astro` no longer publicly renders the old Archive Appendix, source/receipt ledger, or anti-fanon / `What not to turn into fanon` block after the biography. Those materials remain available backstage in data and integration state; they no longer barge into the character story wearing a lab coat.
 
-WIKI uses this material in structured form rather than copying MAIN prose:
+The visible catch-all formerly titled `Recurring bits & behavior` is now **Petty Crimes**.
 
-- `src/data/character-biographies-run57.ts` deepens **Mia** and **Nelph** and adds a lived **Erys** dossier.
-- `src/data/integrator-episodes-20260831-0330.ts` adds **Erys Appeals the Evidence**, a structured May 6–14, 2022 Wall episode.
+The reader changes are all ancestors of durable head `d2c9566fd6c09b1b740e1de63048718845d98a95`. Exact-head verification passed there:
 
-The first build after the Erys change exposed an unrelated syntax problem in the current Ansun biography: an unescaped inner quote in `Tae said "fuck" July 12 2021`. The corrective commit preserved the new work and made current reader head `ef744171a0f1ac0aefa9aee612d722d2dfeb5dc4`.
+- **Build Underlords Wiki `33386304896` — SUCCESS**
+- **Deploy Underlords Wiki Preview `33386304879` — SUCCESS**
 
-Exact-head verification on that reader head passed:
-
-- **Build Underlords Wiki `33385844839` — SUCCESS**
-- **Deploy Underlords Wiki Preview `33385844850` — SUCCESS**
-
-This state commit should itself run through the same existing Build/Pages workflows; it changes durable bookkeeping, not reader lore.
+This state update should run through the same existing workflows; it changes durable bookkeeping, not reader lore.
 
 ## MAIN publication status
 
-MAIN accepted person-first edits in:
+MAIN already carries distinct person-first edits in `src/content/people/nelph.md` and `src/content/people/mia.md`; they are not copies of the WIKI text.
 
-- `src/content/people/nelph.md` — reader commit `93039085be0cc8b7c00cd1bf28f182e300519f55`.
-- `src/content/people/mia.md` — reader commit `d6c0f5957b5c7345c87099325b74dbd5c73c794b`.
+MAIN's mandatory verifier still fails before verification executes. The affected exact-reader-head workflow produced no executable Build + verify step body and skipped deploy, so source verification, Astro build, built-output verification and Cloudflare deploy did **not** run and fail on source. No unsafe deployment was forced around that gate.
 
-Exact reader-head `UL Hourly Build + Deploy` run `33385650644` failed before executing verification. Attempt 1 produced a failed `Build + verify` job with no step body and skipped deploy; one failed-job retry reproduced the same pre-execution shape. Source verification, Astro build, built-output verification and Cloudflare deploy therefore did not execute and fail on source. No MAIN deployment was forced around the gate.
+Core and the reviewed Daycare slice therefore remain publication-blocked at the formal consumption boundary even though their accepted WIKI work is green. Whiskey's older accepted Sye/Life MAIN biography material remains blocked by the same infrastructure problem.
 
-Because those accepted MAIN edits have not cleared mandatory verification, Core and Daycare remain `publication_blocked` and their formal consumed SHAs do not advance yet.
+## Hard holds
 
-## Existing hard holds
-
-- **Rich / DragonRich is not collapsed into unresolved Ricochet / `dragonrichard`.** A direct bridge is still required.
+- **Rich / DragonRich is not collapsed into unresolved Ricochet / `dragonrichard`.** A direct bridge is required.
 - **`sycessences` / `ƐℲı˥` = Sye/Life, not Effie.**
 - Snow was not formally second-in-command / #2.
-- MAIN's Snow biography still owes the direct Wall correction from ShiyaX to **Sou/Ansun** for the screenshot invitation; WIKI already carries the correct attribution.
+- MAIN still owes the direct Wall screenshot-invitation attribution correction from ShiyaX to **Sou/Ansun** once its verifier can actually run.
 - Exact Officer appointment chronology is never inferred from exporter-time role arrays.
-- Joke family / romance roles remain jokes unless separately confirmed.
-- Stable account `717133949457137775` remains fenced from a global Rummy identity merge unless a direct bridge appears.
+- Joke family / romance language remains joke language unless separately confirmed.
+- Stable account `717133949457137775` remains fenced from a global Rummy identity merge absent a direct bridge.
 - SAID BY / POSTED BY / HOSTED BY / VIA-SOURCE / CAPTURED BY / MADE BY / FEATURING remain distinct.
 
 ## Surface split
 
-Erys was intentionally **WIKI-only** this pass: the structured Cast dossier plus a dated Wall Episode fits the current material better than creating a thin MAIN biography merely because receipts exist. Nelph and Mia belong on both surfaces but use different writing: MAIN folds the scenes into person/legend biographies; WIKI keeps searchable character and episode structure. Mugen's suffix was intentionally published nowhere because novelty did not clear the already rich biography.
+Erys remains intentionally **WIKI-first**: the current material works well as a full Cast biography plus a dated Wall Episode, while a thin MAIN page would add less. Nelph and Mia belong on both surfaces with different writing jobs. Mugen's reviewed suffix belongs on neither because nothing new improved her already rich page.
