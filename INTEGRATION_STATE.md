@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-08-30 23:18 PDT_
+_Last updated: 2026-08-30 23:52 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Earlier run detail remains in Git history and MAIN's dated `archive-intake/INTEGRATION_PASS_*` reports.
 
@@ -8,65 +8,68 @@ This is the current durable dual-surface reconciliation snapshot. Earlier run de
 
 The lower-evidence project rule remains binding. Hard canon locks, resolved identities, privacy/safety, explicit contradictions, appointment chronology, and attribution fences stay hard; strong ordinary-life, relationship, humor, habit, and social-role reads may publish when the surrounding archive makes them more likely than not.
 
-- **Full census:** 49 tracked miner identities = 28 active remote refs + 21 historical/missing; 0 newly discovered; 0 finite pending review; 0 backlog; 0 overdue.
-- **All Characters** is checkpoint-first reviewed and consumed through `644b861799b3fa9a1268bd39513b181c4541aa9d`.
+- **Full census:** 49 tracked miner identities = 28 active remote refs + 21 historical/missing; 0 newly discovered; 0 finite pending review after Run 45; 0 backlog; 0 overdue.
+- **All Characters** remains consumed through `644b861799b3fa9a1268bd39513b181c4541aa9d`.
 - **Daycare** remains consumed through `f409ec2c65801728183cce73bea9e0f87c896733`.
 - **Core Rooms + Events** remains consumed through `0678af091e4b0b610c053f6779330c999a0333e5`.
 - **Louvre / AI Art / Athenaeum / Other Games** remains consumed through `7c540fd7b932e2c2c8b2bab4c47043da07fbd81f`.
-- **Mugen person-first** remains consumed through `4e971f4074f5407f525075d54f6811571bf9108b`.
+- **Mugen person-first** is reviewed through `4886f48ccf38c54cfa899784c0c9e71be2c62e4a`; its Run 45 suffix was meaning-overlap/corroboration against already-live WHOMSTF/Mugen material, so no duplicate reader layer was created.
 - Both **Club-Only** recovery targets remain fully consumed/current: 2021–2026 through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`; 2020 through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`.
-- **Wall** remains reviewed/consumed through `a36bcf3c15de1ea641e292dce65eec2cd33da658` with status `recovery_in_progress` only because future Wall deltas may still arrive.
+- **Wall** is reviewed through `b0c5ebdb35f32330735a00a31d57c87a53085e7b`; status remains `recovery_in_progress` only because future Wall deltas may still arrive, not because this reviewed suffix remains unread.
 - **Whiskey** remains reviewed through `2eb736a93db50aaff812d9ee609e511d3fb71e42`; formal consumed remains `6cd5f9daeb20d77fad20e3cd7465ec938411993d` because older accepted Sye/Life MAIN biography material is still publication-blocked.
 - No miner branch was merged or wholesale cherry-picked into either publishing branch.
 
-## 23:03 All Characters Run 44 review
+## Run 45 — Wall and Mugen person-first
 
-`archive-miner/all-characters-hr-20260828` advanced from consumed `3e2170f6178a53347d580c99f4abc5fcad946891` to `644b861799b3fa9a1268bd39513b181c4541aa9d`. MAIN registered the new head as `pending_review` during the mandatory census before deep review. Only changed handoffs under `archive-intake/all-characters-hr-comprehensive-20260828/` were read, checkpoint first; raw archives were not re-mined.
+The mandatory opening census was already durably written to MAIN before deep review. It found exactly two advanced active refs: Wall `a36bcf3c15de1ea641e292dce65eec2cd33da658 -> b0c5ebdb35f32330735a00a31d57c87a53085e7b` and Mugen person-first `4e971f4074f5407f525075d54f6811571bf9108b -> 4886f48ccf38c54cfa899784c0c9e71be2c62e4a`. A full 28-branch closing comparison found every active miner head identical to the opening-census `last_seen_sha`; no late mover was missed. Only changed `archive-intake/*` handoffs were reviewed, checkpoint first. Raw archives were not re-mined.
 
-### Aeshleen — reciprocal Van Gogb teasing, already MAIN-owned
+### Ren finds Snow's UwU button
 
-Run 44 corroborates that the `aesh van gogb` bit was participatory rather than a one-way nickname pasted onto Aeshleen. Baby Lyssa calls the Aesh/Mugen teasing `bulli with love`; Aeshleen extends the Van Gogh wordplay herself; the next day she explains `that's why mugen calls me aesh van gogb`.
+On December 6, 2020 Ren POSTS two images and then announces: `I've made snow say UwU twice, I hold the power of god in my hands`. Lilly answers `SO CUTE`; Gilli says Ren has Snow `wrapped around you finger little one :D_hehe:`.
 
-MAIN already carries this richer scene, including the reciprocal teasing and period-nickname boundary. WIKI did not blindly mirror another paragraph merely to make both surfaces match. `aesh van gogb` remains period joke/nickname language, not a permanent alias, art profession, or health claim. The sensitive adjacent material stays private.
+The exact two attachments remain visually sealed, so the image-to-caption join is probable/strong rather than hard. POSTED BY Ren is hard. The public read is playful leverage: getting Snow to say one embarrassing syllable twice becomes a victory speech about divine power, and the gallery immediately understands what kind of power Ren means. `little one` is scene language, not an age claim; `wrapped around your finger` remains teasing, not romance, formal relationship, or hierarchy.
 
-### Eos — Childe shorthand and the 2021 `dead` → `dedddd` register
+This became a WIKI Episode because it is a bounded relationship-comedy scene with its own beginning, gallery reaction, and punchline.
 
-The WIKI Cast dossier now carries Eos's August 2021 `Context: childe boss fight.............. @Marian Kage` caption as probable Genshin/Childe game texture while preserving all image-attribution fences. The image remains uninspected: who was playing, whose account appears, what happened, and who made/captured the image remain unresolved.
+### Lilly keeps filing Woohyuk
 
-The dossier also integrates the May-to-September language shift. Eos first says `so tired that i am a dead corpse`; Mugen pluralizes the bit with a pretty-corpses reply; Eos answers from inside it as a `ded corpse`. Months later two wheeze emotes end in `dedddd`. That supports a same-year death/exhaustion/reaction register, not a permanent Eos persona or an origin claim for every later UL corpse/resurrection joke.
+Lilly's Woohyuk docket now has recurrence rather than one isolated screenshot. On November 14 she uploads an image and tags Woohyuk forty-three seconds later; he answers with a delete reaction. On December 1 she files another screenshot, tags him fifty-four seconds later, and Gilli comments that `You can literally hear his panic. He'd break under pressure.` On December 31 Lilly puts the Woohyuk mention and attachment in the same message.
 
-The biography keeps the wider person story around those receipts: the stable EnyoCal/Eos account, the computer-science graduation countdown, the recurring Marian Wall dynamic, and Eos's own Two Truths, One Lie statement that Gilli is the reason they joined Underlords while mashed potatoes are the lie. That last sentence is direct relationship evidence, not a license to invent invite mechanics, game-vs-Discord order, or formal recruiter status.
+The first two joins are probable/strong because the tags closely follow the uploads without structured reply edges; the third is hard same-message targeting. The recurrence earns a behavioral read — Lilly had apparently found a renewable Wall target and Woohyuk knew when the camera had turned toward him — without inventing a private relationship.
 
-### HamitteY — the Wall opens a deli counter
+### The screenshot started moving
 
-The WIKI Cast dossier now carries the November 2, 2021 name-remix cascade: Anayss `Unsugar hami` → Sycee `Salty Ham` → Snow `CHEAP HAM!!!` → Noether `Unsugar hamihami`. Nearby `cheap red packets` and `50 gold` language makes a game-resource / price joke the probable fuel, while the underlying image remains uninspected.
+Wall receipt culture did not stay still-image-only. Ten's August 2020 `i keep forgetting y'all record these` is retained as early capture-awareness language, not proof of video and not an origin claim. By September 18, 2021, Gilli directly POSTS `Screen_Recording_20210919-001112_Discord.mp4`; on June 25, 2022, Daya POSTS `Screen_Recording_20220625-134631_Dragon_Raja.mp4` and immediately adds `flying high`, with Ren replying that Daya has the high ground.
 
-The useful character read is the social ease of the pile-on. Hami answers the evolving product labels with cat reactions instead of a competing canonical explanation. The labels remain scene jokes, not permanent aliases, finance claims, food biography, or romance language. His wider dossier keeps Wichita early-member continuity, `get the auuuuu guy` house fluency, the recurring Peepo exit-door defense, and later peer recognition that Noether/Hami interaction had become dependable Wall material.
+The filenames and direct posts are enough to establish moving/process capture across Discord and Dragon Raja. The videos themselves remain uninspected, so POSTED BY is known while CAPTURED BY / MADE BY / FEATURING and visual contents remain unresolved. Ten's earlier line is used as a prelude to capture-awareness, not retroactively turned into a screen-recording receipt.
 
-### Resolver repair — prior accepted Run 43 material is now actually live
+### Mugen person-first — reviewed, reconciled, not duplicated
 
-While novelty-checking WIKI, the active character-page resolver exposed a publishing bug: `character-biographies-run43.ts` existed but `character-biographies-run39.ts` did not import/spread it, so accepted Run 43 New, Zoshaa, Mugen, and Ghostt narratives were sitting backstage instead of being selected by the live narrative resolver.
+The fresh Mugen suffix makes WHOMSTF's social purpose more explicit: the game was meant to test `how well we know our fellow staff and VIPs`; if somebody did not know them, `time to get to know them`. The correct guesser inherits the next round; Mugen herself becomes a guesser; at the end she says anybody can restart the chain, and Ren does so the next day.
 
-The current reader change imports and spreads `run43NarrativeCharacterBios`. This is not new lore; it is a publication-path repair making previously accepted material genuinely public.
+That is good person evidence, but WIKI already has the canonical WHOMSTF Episode saying the format becomes communal and the live Mugen narrative already owns the public rule-patching/person-over-procedure read. Run 45 therefore treats the new wording as a confidence/depth upgrade to that existing evidence family rather than spawning another WHOMSTF page or near-duplicate Mugen section. The useful cumulative read remains: Mugen likes social structures that make people pay attention to one another, and once the structure works she is comfortable letting the room own it.
+
+The same suffix also re-surfaces Aeshleen's `bulli with love` / Van Gogb teasing. That is duplicate/corroboration: MAIN already owns the richer reciprocal scene, and WIKI intentionally does not mirror it again merely to synchronize surfaces.
+
+## Bounded holds from Run 45
+
+- Queen Shimoko's three surviving Wall appearances remain a thin amused/reactive profile pocket. `My koi` is not treated as romance or possession; the image pixels remain sealed. No new standalone page was justified this pass.
+- Ten's early `record these` wording is not promoted into proof of video, a Wall origin, or a claim that every capture method already existed in August 2020.
+- Ren's two Snow images remain probable receipts for the `UwU twice` caption, not hard exact-object identity absent visual inspection or a structured join.
+- Lilly's November 14 and December 1 Woohyuk joins remain probable/strong; December 31 is the hard same-message target.
+- Pride corpse-origin archaeology remains unresolved and was not re-opened from raw material.
+- Uninspected images and video retain POSTED BY / MADE BY / CAPTURED BY / FEATURING separation.
 
 ## Reader publication / verification
 
-Reader commit: **`ebd7405bf8cf8c94de50b18f4c2f6e0ea80eb9b3`** (`wiki: route run43 and deepen Eos/HamitteY dossiers`).
+Reader head: **`f4a7842070cbb16217ff0f236bc09ffd27155527`** (`wiki: route Run 45 episode pages`).
 
-- `src/data/character-biographies-run39.ts` now routes the prior Run 43 narrative layer and adds distinct Eos and HamitteY person-first Cast narratives.
-- **Build Underlords Wiki** run `33363460978` — **success**.
-- **Deploy Underlords Wiki Preview** run `33363460945` — **success**; Pages deployment completed.
+- `src/data/integrator-episodes-20260830-2345.ts` adds **Ren Finds Snow's UwU Button**, **Lilly Keeps Filing Woohyuk**, and **The Screenshot Started Moving**.
+- `src/pages/episodes/index.astro` and `src/pages/episodes/[id].astro` route the Run 45 Episode family through the live incident index and detail pages.
+- **Build Underlords Wiki** run `33365811230` — **success**.
+- **Deploy Underlords Wiki Preview** run `33365811204` — Pages build succeeded and the `Deploy to GitHub Pages` job succeeded.
 
-Aeshleen's reciprocal Van-Gogb nuance was intentionally left MAIN-owned because MAIN already has the stronger canonical scene and WIKI already has a substantial Aeshleen dossier. This is complementary surface ownership, not evidence rejection.
-
-## Bounded negatives / holds from Run 44
-
-- Tofu and Rooks already have mature public files; this delta did not justify another public layer merely to repeat existing behavior.
-- Nuien's current public material already carries the first-family-tree interpretation; Nuien remains distinct from Illien.
-- Akuma/Matsu's existing public file already owns the identity continuity and later ordinary-life/IT/music-tech texture surfaced by the miner.
-- Crystalia's existing public file already owns the testimonial, water/mermaid language, and game-deletion/social-continuity material. Crystalia is a man.
-- The reverted Noether/HamitteY innocence pocket remains off-limits without independent validation.
-- Uninspected images retain POSTED BY / MADE BY / CAPTURED BY / FEATURING separation.
+A subsequent state-only commit records this review. That state commit must pass the repository's own build/Pages workflow before the run is considered fully closed.
 
 ## Existing cross-surface holds remain hard
 
@@ -80,4 +83,4 @@ Aeshleen's reciprocal Van-Gogb nuance was intentionally left MAIN-owned because 
 
 ## Surface split
 
-WIKI received the Eos/HamitteY Cast expansions and the Run 43 resolver repair because those are genuine dossier/publication gaps on this surface. MAIN received no reader prose from Run 44 because its Aeshleen, Eos, and HamitteY pages already contain the same evidence families in richer editorial form. The two repositories remain complementary rather than synchronized copies.
+WIKI received the three bounded Wall Episodes because they are incident-shaped and fit its Major Incidents surface cleanly. MAIN received no reader prose from these receipts because mirroring the same episode copy would not improve its editorial biography/chronology experience. Mugen's Run 45 suffix was consumed as a successful duplicate/corroboration review against already-live WHOMSTF/Mugen material rather than being republished twice. MAIN still carries its separate publication debt behind its own verification gate.
