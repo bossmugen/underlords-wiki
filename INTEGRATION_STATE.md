@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-08-30 22:38 PDT_
+_Last updated: 2026-08-30 22:41 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Earlier run detail remains in Git history and MAIN's dated `archive-intake/INTEGRATION_PASS_*` reports.
 
@@ -53,14 +53,19 @@ The redirect also supplies a bounded room-function receipt: Wall can host the ex
 
 ## Reader publication / verification
 
-Reader commit: **`9bf6842876d1eabe3e4b279840fbd8c76bd781cd`** (`wiki: add Wall corpse logistics and Athena scene`).
+Primary reader commit: **`9bf6842876d1eabe3e4b279840fbd8c76bd781cd`** (`wiki: add Wall corpse logistics and Athena scene`).
 
 - `src/data/integrator-episodes-20260830-2112.ts` now owns **The Corpse Logistics Department**, **Pride Threatens to Make Corpses, Then Becomes the Missing Corpse**, and **Athena Needs a Manhwa Exorcism**.
 - The existing Snow VC episode was widened to include Pride's earlier Club-chat avoidance, combining the evidence family instead of spawning a duplicate mechanism page.
-- **Build Underlords Wiki** run `33361182497` — success.
-- **Deploy Underlords Wiki Preview** run `33361182556` — success; Pages build, artifact upload, deployment, and reporting all completed successfully.
+- Primary reader **Build Underlords Wiki** run `33361182497` — success.
+- Primary reader **Deploy Underlords Wiki Preview** run `33361182556` — success; Pages build, artifact upload, deployment, and reporting all completed successfully.
 
-This durable-state commit follows the verified reader publication. Its own normal build/Pages checks should be treated as repository-state verification rather than a second lore publication event.
+A follow-up display fix landed at **`f413317045d01cbafd0b135dc4d75e91c1cc29d1`** (`wiki: fix corpse logistics season label`). The episode detail template expects a numeric season, so the cross-year story keeps its full 2020→2022 date range while the season field is anchored to 2022 instead of rendering `SEASON NaN`.
+
+- Follow-up **Build Underlords Wiki** run `33361278311` — success.
+- Follow-up **Deploy Underlords Wiki Preview** run `33361278374` — success.
+
+This durable-state commit follows the verified reader publication and display fix. Its own normal build/Pages checks are repository-state verification rather than a second lore publication event.
 
 ## Existing cross-surface holds remain hard
 
