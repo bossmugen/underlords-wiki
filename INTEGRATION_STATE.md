@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-08-31 09:40 PDT_
+_Last updated: 2026-08-31 09:58 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Earlier run detail remains in Git history and MAIN's dated `archive-intake/INTEGRATION_PASS_*` reports.
 
@@ -10,76 +10,77 @@ The binding public-bio rule remains: **the person is the spine; events are suppo
 
 Hard user canon, resolved identities, privacy/safety, explicit contradictions, appointment chronology and attribution fences remain hard. Outside those rails, strong contextual reads about habits, relationships, humor, care patterns, ordinary life, reputation and social roles may publish when more likely than not.
 
-- **Full Run 69 census:** 49 tracked miner identities = 28 active refs + 21 historical/missing; 0 newly discovered.
-- Run 68's All Characters HR suffix is now formally consumed through `d8a853af1137814e12d2a29b43fb850fca60763e`; Zoshaa's person-first route repair was verified and deployed on WIKI.
-- A late Run 69 census caught fresh **Core Rooms** movement from durable reviewed-through `682bbb9cc6037ca162f887d7ed3d5c2537a8ca64` to `1a4ddefdaa3babf3e86f6222ba2df2e4a41e5147`. That suffix was registered before review, then reviewed checkpoint-first and intake-only.
-- **Wall** remains consumed through `a0600e2c8f13b93d07b0e241b0422dab141392ed` and recovery-open only for future suffixes.
+- **Full Run 70 opening census:** 49 tracked miner identities = 28 active refs + 21 historical/missing; 0 newly discovered; backlog 0; overdue 0.
 - Both **Club-Only** recovery priorities remain consumed/current: 2021–2026 through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`; 2020 through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`.
-- Daycare remains reviewed through `2b6dd482462eee269868dffe5ae1ea4ee648bed0`; Mugen person-first through `ec0ee5e3e82e2bd5ddcdda42c4029e0b01017810`; Whiskey through `126ea76ae58e19f71b003ee626cb47e5d23c1548`.
+- **Core Rooms** was already reviewed by concurrent Run 69 through `1a4ddefdaa3babf3e86f6222ba2df2e4a41e5147`; Run 70 did not reread it.
+- **Wall** was reviewed this run from consumed `a0600e2c8f13b93d07b0e241b0422dab141392ed` through `a20b60b5fae8e9458c09f710fbbad72051057bc7` checkpoint-first and intake-only.
+- **Mugen person-first** was reviewed this run from durable reviewed-through `ec0ee5e3e82e2bd5ddcdda42c4029e0b01017810` through `c8f098ae1647b27b53225c8e8789268bab7083be` checkpoint-first and intake-only.
+- Daycare remains reviewed through `2b6dd482462eee269868dffe5ae1ea4ee648bed0`; Whiskey through `126ea76ae58e19f71b003ee626cb47e5d23c1548`.
 - No miner branch was merged or wholesale cherry-picked; no raw archive was re-mined.
 
-## Public work — Run 69
+## Public work — Run 70
 
-### RyuuUzu was quiet enough to look sparse and familiar enough for the room to announce the return
+### Cookie finally gets to be a person instead of an evidence-management problem
 
-The fresh Core suffix materially advances RyuuUzu without requiring a fake Officer résumé or a thin MAIN biography.
+Run 70 rewrote `src/data/character-biographies-cookie.ts` from the ground up around Cookie's actual social rhythm rather than around archive chronology. The page now treats his denials, `:PandaRun:` getaway, exclusion complaints, source-awareness, fast self-contradicting jokes, Tofu banter, later Staff/Media identity, and tiny habits as one person-shaped biography.
 
-On September 30, 2020, Ryuu's own return into the visible Club-Only trail is almost aggressively ordinary: `Morning!` to Gilli. Gilli answers two minutes later with `WELL LOOKS WHOS BACK`, and Anthos also greets Ryuu that morning. The surviving authored trail has an August-to-September gap, but that is not proof Ryuu disappeared from UL globally. The useful relationship read is simpler: **Ryuu's presence is recognizable enough that other people notice it before Ryuu makes any ceremony out of being back.**
+The fresh Wall suffix gives the rewrite a particularly good new seam. On June 4, 2021 Cookie posts one screenshot with `Got this from HAM`, then thirteen seconds later posts a second with `my response`. Whatever the unseen pixels contain, Cookie's behavior is clear enough: he distinguishes material supplied by somebody else from his own response while still participating in the same joke packet. That makes him more than Wall prey. He can be defendant, courier and little amateur editor at once.
 
-Later continuity makes the scene more than one greeting. The same stable account marks Anayss and Meru's birthday with a celebration GIF + shout in May 2021, finishes #2 in UL's first self-lore Kahoot in June, and in 2023 becomes the opponent a pooled Deleted User describes as winning a close three-fight set 2–1 badly enough that the loser announces plans to spam Ryuu with rematch requests and later asks Ryuu to `share ur secrets`.
+The likely `HAM` referent is HamitteY, who appears nearby with `:HuH:`, but that remains probable rather than a hard identity bridge. `FROM` also stays distinct from CAPTURED BY / MADE BY / FEATURING. Those rails remain backstage instead of interrupting Cookie's public biography.
 
-The WIKI therefore owns this as the new Episode **WELL LOOKS WHOS BACK**. It is not a claim that Ryuu was globally absent, a club historian, or a formal PvP specialist. It is the more useful cumulative contradiction: **sparse/intermittent in the surviving authored trail, highly legible to other people anyway.** The 2023 pooled speaker remains unresolved and is not person-routed.
+### Sou likes the reaction and then pats you on the head
 
-Reader work:
-- `src/data/integrator-episodes-20260831-0931.ts` adds the Ryuu return episode.
-- `src/data/integrator-episodes-20260831-0837.ts` now aggregates the Run 69 episode through the already-active episode route/index, avoiding another route-layer pileup.
+The same Wall suffix adds a compact but excellent Souta/Ansun character beat. Sou says: `i just like teasing you because I like seeing you cry, pat pat ill stop bullying you`.
 
-This is intentionally **WIKI-only reader work**. MAIN does not currently have a mature Ryuu person page, and the present material is better as a structured Episode than as a thin biography created merely because one miner finally found several receipts.
+That sentence now lives inside `src/data/character-biographies-ansun.ts` as character rather than incident bookkeeping. The first half is the tease mechanism; the second half is the limit. Sou enjoys getting a reaction, then softens without abandoning the joke voice. `pat pat` matters because the repair happens inside the bit rather than through a sudden formal apology persona.
 
-## Core reconciliation — Snow, Nuvel, Thailie, randomlyze
+Gabu is the probable target from the immediate conversation, but there is no structured reply/mention on Sou's line, so the public biography does not force the target identity. Rookie Cookie later quoting only `I like seeing you cry` is exactly the kind of selective prosecution UL would naturally preserve.
 
-The same Core suffix substantially strengthens Snow backstage but does not justify duplicating what his public biography and existing JAG episode already say. Snow's August 2020 working draft explicitly frames UL as `in no way a military organization`, wants an `objective and impartial gauge`, constrains officer abuse/retaliation/interference, says real life takes priority if people communicate an absence, says leadership should follow contribution rather than campaigning for title, and still contains `Yeeting charges`, `Mugens peaceful tea time`, and a `Child endangerment — NEVERMIND` Dragon Raja joke.
+### Mugen and Ritha get an ordinary-friend scene, not another founders plaque
 
-That deepens the same existing contradiction rather than creating a new Snow species: he wants standards legible enough that power is not just whoever is angry today, while refusing to write any of it like a normal institution. The fresh wording remains useful for a future folded Snow/JAG refinement, especially on MAIN once its verifier actually runs. Final adoption/publication of the working draft remains unresolved; Snow is still not formal #2 and the single leadership sentence does not replace the user-confirmed multi-factor appointment model.
+The fresh Mugen person-first suffix adds a strong early friendship deepener. On April 11, 2020 Mugen enters a Ritha conversation with `HIIII RITHA :d`; Ritha answers `and hiii mugs uwu`; they immediately continue talking about the long-awaited Tower of God / Kami no Tou anime adaptation. Mugen says finally getting an adaptation is satisfying.
 
-Nuvel's `Tis I on another computer!!` / `YESSS OMFG NICE` access-fix scene is high-signal Petty Crimes material, while Thailie's `we change our name....finally...` remains a likely doorway/name cleanup with an unresolved plural `we`. The nearby `thailieandnuvel6681` username makes shared naming/account/device history plausible but does **not** resolve relationship type, account ownership or identity. randomlyze remains too thin. None were forced into filler public pages.
+This is accepted as a **MAIN biography deepener** rather than a duplicate WIKI scene. Its value is exactly that nothing important is happening. Mugen and Ritha are not discussing founding, rank, strategy or policy. They sound like friends who are happy to see each other and already share enough media context to fall straight back into the conversation. It also gives Mugen a small taste detail: she was familiar with Tower of God and positively engaged with the adaptation at that point, without inflating that into a favorite-title claim.
+
+MAIN publication remains blocked by MAIN's independent verifier failure, so this scene is durably reviewed/accepted but not smuggled into public source around a dead gate.
 
 ## Dedupe / held material
 
-- Snow's fresh JAG/ULCC package is mostly a strong deepener/corroboration of his already-public access/governance/personality arc and the existing `24 Charges for Getting Yeeted` Episode; no duplicate incident was created.
-- Ryuu's #2 Kahoot placement was already public in **Eos Wins the House Quiz**. Run 69 uses it as one part of the new Ryuu continuity read rather than rediscovering it as a separate event.
-- The 2023 Ryuu duel speaker is pooled Deleted User and remains unresolved. No named relationship is invented from that scene.
-- Snow's Club Conduct/JAG material is working-draft labor. Mugen's later `ULCC For Dummies Edition!` is explicitly a working draft editable by officers; final adoption/publication remains unresolved.
-- Titania reapplication and LilithEl vacation/protected-absence material remain separate status cases. The new absence wording makes a communicated-vs-untracked model more plausible but does not prove either person's exact administrative path.
-- Nuvel and Thailie stable IDs remain separate. No relationship or shared-account claim is promoted from similar/combined naming.
-- `°Killua°` remains a retrieval-boundary case, not `no lore`.
+- The new Cookie source-labeled packet deepens an existing source-aware / Wall-participant trait; no standalone Episode was created.
+- Sou's teasing line deepens his existing provocative-but-responsive social style; no duplicate Wall incident was created.
+- `HAM` = HamitteY remains probable, not hard. Similar-name/context does not become an identity equivalence.
+- The Cookie screenshots themselves were not inspected in this miner suffix. Public copy does not invent their contents.
+- The probable Sou↔Gabu tease target stays probable because the line has no reply/mention topology.
+- Mugen's fresh Ritha scene is intentionally routed to MAIN rather than mirrored into Mugen's already-large WIKI biography.
+- Mugen's neighboring 2026 ensemble material in the fresh person-first pass was duplicate/corroboration and did not become new public copy.
+- Hard identity rail remains `sycessences` / `ƐℲı˥` = Sye/Life, not Effie. Rich = DragonRich; unresolved Ricochet / `dragonrichard` stays separate.
 
-## Verification / publication — Run 69
+## Verification / publication — Run 70
 
-WIKI reader head: `5890cfabf968a4db46d64cc68cf30fdff725070e` (`wiki: route Run 69 Ryuu episode`).
+WIKI reader head: `fb06c252a2dd484bce84a70f2c7d2bc7d0efae46` (`wiki: deepen Ansun teasing character arc`; parent includes the Cookie rewrite).
 
-- Build Underlords Wiki `33415114024`: **SUCCESS**.
-- Pages preview build/deploy `33415114022`: **SUCCESS** for build and deploy.
+- Build Underlords Wiki `33416750221`: **SUCCESS**.
+- Pages preview/deploy `33416750196`: **SUCCESS** for build, GitHub Pages deploy and report.
 
-The WIKI reader change is therefore green and deployed.
+The WIKI reader changes are therefore green and deployed.
 
-MAIN reader-facing pages changed in Run 69: **none**. Current Snow already carries the major JAG/access/personality family, while Ryuu is not yet rich enough for a MAIN biography. MAIN's independent workflow remains broken before source verification/Astro/built-output execution, so no accepted MAIN reader deepener was pushed around that gate.
+MAIN reader-facing pages changed in Run 70: **none**. MAIN head `6254950ccf4623f77e35175300f6b1f2e26d657d` triggered `UL Hourly Build + Deploy` run `33415824335`, which failed before the `Build + verify` job acquired executable steps; the deploy job was skipped. Source verification, Astro build and built-output verification therefore did not execute. No reader-facing MAIN change was pushed around that gate.
 
-## Consumption / next boundary — Run 69
+## Consumption / next boundary — Run 70
 
-- All Characters HR: consumed through `d8a853af1137814e12d2a29b43fb850fca60763e`.
-- Core Rooms: successfully reviewed through `1a4ddefdaa3babf3e86f6222ba2df2e4a41e5147`. Its formal MAIN consumed cursor remains pinned at `c9b33dca5df5fe46b8594a999ac888253a1ff27f` because older accepted MAIN Nelph/Eos work still has not cleared MAIN verification. Durable `reviewed_through_sha` must prevent rereading this new suffix.
-- Wall: consumed through `a0600e2c8f13b93d07b0e241b0422dab141392ed`, recovery-open only for future movement.
-- Club-Only 2021–2026: current through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`.
-- Club-Only 2020: current through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`.
-- Daycare, Mugen person-first and Whiskey remain reviewed-through-current but publication-blocked behind older accepted MAIN work.
-- Finite miner review backlog after this close: **0**. Backlog: **0**. Overdue: **0**. Wall remains the only recovery-open branch.
+- Wall: successful review/publication through `a20b60b5fae8e9458c09f710fbbad72051057bc7`; MAIN branch state may advance the consumed cursor through that SHA, while keeping Wall `recovery_in_progress` for future movement.
+- Mugen person-first: successfully reviewed through `c8f098ae1647b27b53225c8e8789268bab7083be`; formal consumed cursor remains pinned because the accepted Ritha/Mugen MAIN deepener plus older HyaLuna/Daya MAIN debt have not cleared MAIN verification. Durable `reviewed_through_sha` must prevent rereading the suffix.
+- Core Rooms: reviewed through `1a4ddefdaa3babf3e86f6222ba2df2e4a41e5147`; formal cursor remains pinned behind older MAIN Nelph/Eos publication debt.
+- Daycare and Whiskey remain reviewed-through-current but publication-blocked behind older accepted MAIN work.
+- Both Club-Only recovery branches remain consumed/current.
+- Finite unreviewed queue at the reviewed opening boundary: **0**. Wall remains recovery-open.
 
 ## Current safety rails
 
 - Snow is not formal second-in-command / #2.
 - Rich = DragonRich; unresolved Ricochet / `dragonrichard` stays separate.
 - `sycessences` / `ƐℲı˥` = Sye/Life, not Effie.
+- WhitePhoenyx = Xephy, not WolfPhenix.
 - No appointment chronology from export-time/current role arrays.
 - Joke family language is not literal genealogy; joke flirting/romance is not literal romance without support.
 - SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct.
