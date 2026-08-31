@@ -12,6 +12,39 @@ export const run39NarrativeCharacterBios: Record<string, CharacterNarrative> = {
   ...run43NarrativeCharacterBios,
   ...richNarrativeCharacterBios,
 
+  rich: {
+    intro: [
+      "Rich / DragonRich enters UL history already running another club. He led Amaurot, one of S10's opening-era heavyweights, and UL keeps him on the VIP shelf instead of pretending that somebody else's org chart automatically became Underlords command. The interesting part is what he does with that outside position: in April 2020 Mugen is already advertising an S10-wide channel DragonRich made for anyone interested. Apparently one club was not enough room.",
+      "Amaurot later merges under UL, but Rich's clean story does not need a retroactive promotion to matter. He is useful as the neighboring-club boss whose instinct was to build a door above the club wall and let more of the server through it."
+    ],
+    sections: [
+      {
+        period: "April 2020",
+        title: "One club was apparently not enough room",
+        paragraphs: [
+          "Mugen introduces DragonRich to UL as `Amaurot Leader` while posting the invite to an S10 channel he created for anyone interested. It is a small act with a very clear social shape: Rich is not only managing his own roster; he is making shared infrastructure for people who are not all wearing the same club tag.",
+          "That makes the later Amaurot → UL merger feel less like two sealed boxes suddenly colliding and more like institutions whose people already had doors into one another's spaces. The channel itself does not get credit for causing the merger. Rich simply looks like somebody comfortable building the door before history decides what to do with it."
+        ]
+      },
+      {
+        title: "Old boss, different shelf",
+        paragraphs: [
+          "Rich's Amaurot leadership remains part of who he was without turning into a fake UL Officer career. That distinction is not bureaucratic fussiness; it preserves the interesting thing. He arrives with leadership experience and a neighboring-club identity, then becomes durable enough around UL to belong on the VIP shelf on his own terms.",
+          "There is something pleasantly unshowy about the one clean behavior scene attached to that history. No speech about diplomacy, no grand merger prophecy. He made a channel. Mugen told people where the door was. Sometimes infrastructure is just friendship wearing a link invite."
+        ]
+      },
+      {
+        title: "Petty Crimes",
+        paragraphs: [
+          "Has the misfortune of being named Rich in a community that later generated other Richard-shaped usernames, which is exactly why the wiki is no longer letting name resemblance do identity work. His safely attributable offense remains architectural: apparently seeing a server full of separate clubs and deciding it could use another room."
+        ]
+      }
+    ],
+    closing: [
+      "Rich's clean dossier is smaller than the old one and much more him. DragonRich is the Amaurot leader Mugen could point UL toward when he built something for the wider server. The later merger supplies institutional history; the channel supplies character. Before the walls moved, he was already making holes in them."
+    ]
+  },
+
   woosung: {
     intro: [
       "Woosung / WOO is a former ScarletMoon leader, UL VIP, permanent Platelet, and one of the people whose friendship with Mugen survives every attempt by UL's vocabulary to make the relationship sound normal. Woo's own serious description is straightforward: close friend, older-sister-like guide, somebody she can talk to about anything. UL's 2020 version of the same relationship is `mugs is my daddy granny`.",
