@@ -29,6 +29,35 @@ export const run57NarrativeCharacterBios: Record<string, CharacterNarrative> = {
     ],
   },
 
+  erys: {
+    intro: [
+      "Erys — also Emi in the same account's house language — enters the surviving 2022 file with one of UL's favorite rites of citizenship: somebody has a screenshot and the defendant would like to object. What makes Erys distinctive is not that she gets caught in Wall court; practically everybody with a pulse eventually does. It is the way she participates in her own prosecution. Ren files an image and Erys answers `NO`, then `i swear that isnt me`, then `its photoshopped`, then eventually `im being hacked`. Each escalation is less plausible and more socially useful. She is not merely embarrassed by the joke; she understands that the defense can become half the entertainment.",
+      "The same week catches her apparently counterfiling Ren with an image of her own, and later asking Mugen — smiling, basically — not to let the rest of the receipts escape. Eight days after the courtroom performance, the register swings hard in the other direction. Sou tells a very tired-sounding Emi to sleep; Erys insists `i dont needff sleepp`, keeps asking where everybody went, says `i missssg yalll`, receives Rummy's best-friends hug warmly, and gets pointed toward Whiskey by Eos. No intoxication story is needed. The human contradiction is already better: Erys can be theatrical when attention is on her and openly soft when the room gets too quiet.",
+    ],
+    sections: [
+      {
+        period: "May 6, 2022",
+        title: "THE DEFENSE WOULD LIKE TO BLAME PHOTOSHOP, HACKERS, AND EVERYONE EXCEPT ERYS",
+        paragraphs: [
+          "Ren's Wall filing gets an immediate `NO`. Erys follows with `i swear that isnt me` and `its photoshopped`; after more material appears, the theory advances to `im being hacked`. The wiki does not accept any of those as factual media-forensics findings. That would miss the joke. The useful part is that Erys keeps choosing a bigger defense instead of leaving the room or demanding that the whole premise stop.",
+          "Then she posts `IMG_5905.png` herself and tags Ren seconds later. The pixels are not inspected, so the page does not decide who or what the image shows, but Ren screams and Erys screams back. A probable counterfile is enough to expose the contradiction: Erys is perfectly willing to contest the Wall's legitimacy while using the Wall's machinery when the opportunity points the other direction.",
+          "Later Mugen says there are more receipts but the chat keeps getting in the way of capture. Erys answers `good`, then `no one needs to see the rest mugss`, then `:))`. By this point innocence is no longer really the point. The defense has become cheerful suppression comedy. Erys starts the scene arguing that the evidence is fake and ends it delighted that some evidence may remain unseen. Extremely consistent legal strategy, if your legal system is a Discord Wall run by clowns.",
+        ],
+      },
+      {
+        period: "May 14, 2022",
+        title: "THE PERSON ARGUING WITH THE CAMERA ALSO NOTICES WHEN EVERYBODY LEAVES",
+        paragraphs: [
+          "Eight days later, Erys sounds exhausted enough that Sou tells `Emi` to sleep. Her answer is `i dont needff sleepp`. She keeps asking where people went, says `i missssg yalll`, and responds warmly when Rummy sends the best-friends hug. Eos eventually redirects her toward Whiskey, where the conversation can keep going without making the Wall carry the whole social night.",
+          "There is no need to turn misspelled late-night language into an intoxication claim or a permanent sleep-habit diagnosis. What matters is the direction of attention. In the first scene Erys is intensely aware of everybody looking at her. In the second she is intensely aware that people are no longer there. That makes the Wall-defendant routine feel less like generic embarrassment and more like somebody who is very comfortable being emotionally entangled with the room, even when the room is prosecuting her for sport.",
+        ],
+      },
+    ],
+    closing: [
+      "Erys's public file is still smaller than the long-haul core cast, but it already has a recognizable social rhythm: contest the premise theatrically, feed the counter-joke when possible, ask for mercy only after making the case funnier, and then miss everybody once the crowd disperses. The camera and the people behind it are both part of the story."
+    ],
+  },
+
   nelph: {
     ...nelph,
     intro: [
