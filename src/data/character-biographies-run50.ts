@@ -40,6 +40,8 @@ export const run50NarrativeCharacterBios: Record<string, CharacterNarrative> = {
         ]
       }
     ],
-    closing: "Mirage is a good example of how extended UL cast becomes real without needing a formal rank. A casual Revolution-side doorway, a `hello fam`, a song rec, a game correction, coffee-shop regret and one thoughtful answer about learning are enough to make the outline recognizable. The social house keeps the person even when Dragon Raja itself is not the current activity."
+    closing: [
+      "Mirage is a good example of how extended UL cast becomes real without needing a formal rank. A casual Revolution-side doorway, a `hello fam`, a song rec, a game correction, coffee-shop regret and one thoughtful answer about learning are enough to make the outline recognizable. The social house keeps the person even when Dragon Raja itself is not the current activity."
+    ]
   }
 };
