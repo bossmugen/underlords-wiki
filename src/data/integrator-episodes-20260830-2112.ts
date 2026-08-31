@@ -61,7 +61,7 @@ export const late2112IntegratedEpisodes: Episode[] = [
     season: "2022",
     date: "March 22–23, 2022",
     kind: "Officer Challenge / peer reputation becomes the game board",
-    logline: "Mugen launches `WHOMSTF`: one `confused dumdum` describes a Staff/VIP person or character in three clues, everybody guesses, and the first correct guess inherits the job. Ren immediately diagnoses the format as `hot potato but dumdum`. The first answer is Gabu. Then Zoshaa gets Snow with `Catboy`, `Broke`, and `Character always wear glasses`. Snow opens court at once — `HOW AM I BROKE`, then `and its DOG EARS` — before Ansun points out the whaling problem and Snow grudgingly concedes `ok well mostly`. The funniest damage arrives a minute later: `also I didnt realize I really do always wear glasses`. Mugen changes the rule from three words to three phrases while the game is already alive, later clues start using increasingly specific house knowledge, and at the end she gives everybody permission to restart the chain. Ren does exactly that the next day. The challenge is therefore not just trivia. It turns whatever the room thinks it knows about you into a temporary public caricature, then lets you argue with your own reputation in real time. Snow discovers his glasses by being roasted into self-awareness. Efficient educational programming.",
+    logline: "Mugen launches `WHOMSTF` with an unusually explicit social purpose: see `how well we know our fellow staff and VIPs`, and if somebody does not know them yet, then it is `the time to get to know them`. One `confused dumdum` describes a Staff/VIP person or character in clues, everybody guesses, and the first correct guess inherits the job. Ren immediately diagnoses the format as `hot potato but dumdum`. Mugen participates as an ordinary guesser instead of sitting above the board; the first answer is Gabu. Then Zoshaa gets Snow with `Catboy`, `Broke`, and `Character always wear glasses`. Snow opens court at once — `HOW AM I BROKE`, then `and its DOG EARS` — before Ansun points out the whaling problem and Snow grudgingly concedes `ok well mostly`. The funniest damage arrives a minute later: `also I didnt realize I really do always wear glasses`. Mugen changes the rule from three words to three phrases while the game is already alive, and later tells everybody they can restart the chain without waiting for her. Ren does exactly that the next day. The challenge therefore makes social knowledge portable: describe somebody, get corrected by the person being described, hand the controls onward, repeat. Boss designs the game and then removes Boss as a bottleneck. That does not prove a universal decentralization doctrine. It does show one little social machine built to keep noticing people after its author has stopped holding the clipboard.",
     cast: ["Mugen", "Zoshaa", "Snow", "Ren", "Ansun", "Gabu"]
   },
   {
@@ -99,5 +99,32 @@ export const late2112IntegratedEpisodes: Episode[] = [
     kind: "Wall ordinary-life beat / maximum fiction betrayal, zero moderation drama",
     logline: "At 4:39 in the morning Athena reports that she lost her beauty sleep to a hyped manhwa and it was `soooo baaaad`; two minutes later she needs `a good manhwa to wash my brain now`. The language turns one bad comic into contamination requiring a palate cleanser, which is enough for a narrow 2022 taste read without turning manhwa or sleep deprivation into permanent biography. Athena also POSTS two PNGs, but their pixels remain uninspected and the title is unresolved. Mugen TRUE-REPLIES `XD rip`, then redirects the growing discussion to `#🌈│simp-here or #🥃💬｜whiskey-room for discussion!`. Athena answers the redirect with a pat emote. That little ending is what makes the scene feel like a person rather than a preference tag: she is dramatically betrayed by fiction and completely normal about being told where to continue complaining. It also gives the Wall one clean traffic-control receipt — file the exhibit here; take the yapping elsewhere — without pretending one redirect was a formal written policy.",
     cast: ["Athena", "Mugen"]
+  },
+  {
+    id: "wall-screen-recording-receipts",
+    title: "The Screenshot Started Moving",
+    season: "2022",
+    date: "September 18, 2021 → June 25, 2022",
+    kind: "Wall evidence medium / still images apparently become insufficient",
+    logline: "The Wall eventually stops limiting itself to screenshots. On September 18, 2021, during a Sou packet where Tofu is already yelling `ITS STILL GOING`, Gilli POSTS `Screen_Recording_20210919-001112_Discord.mp4`, a roughly 13.9 MB Discord screen recording. On June 25, 2022, Daya POSTS `Screen_Recording_20220625-134631_Dragon_Raja.mp4`, roughly 79.1 MB, says `flying high`, and Ren answers `Daya got the high ground`. The files themselves remain visually uninspected, so POSTED BY Gilli / Daya is hard while RECORDED BY, MADE BY, CAPTURED BY and FEATURING remain unresolved. What the two independent filings do establish is that moving screen capture had become a recurring Wall receipt format across different source apps. A 2020 Ten line — `i keep forgetting y'all record these` — shows that people were already capture-aware, but does not by itself prove earlier video. The cultural escalation is still obvious enough: eventually one frozen frame was not always sufficient. Somebody had to submit the whole fucking motion picture.",
+    cast: ["Gilli", "Ansun", "Tofu", "Daya", "Ren", "Ten"]
+  },
+  {
+    id: "ren-uwu-power-of-god",
+    title: "Ren Holds the Power of God, Apparently",
+    season: "2020",
+    date: "December 6, 2020",
+    kind: "Wall teasing / Snow says UwU twice and loses appellate review",
+    logline: "Ren POSTS two images and announces, `I've made snow say UwU twice, I hold the power of god in my hands`. Lilly immediately supplies `SO CUTE`; Gilli tells Ren, `Youve got him wrapped around you finger little one :D_hehe:`. The text supports a playful coaxing / influence read because Ren herself frames Snow's two UwUs as something she made happen and the room recognizes the leverage. It does not establish romance, family, domination, or any permanent relationship hierarchy. The images remain uninspected, so Ren is POSTED BY; their maker, capturer, subjects and exact visual content remain unresolved. The actual character beat is tiny and excellent: Snow's formidable old-man legal department can apparently be defeated by one smaller person obtaining two instances of `UwU` and immediately declaring divine authority.",
+    cast: ["Ren", "Snow", "Lilly", "Gilli"]
+  },
+  {
+    id: "lilly-woohyuk-recurring-docket",
+    title: "Lilly Keeps a Woohyuk Docket",
+    season: "2020",
+    date: "November 14 → December 31, 2020",
+    kind: "Wall recurring prosecution / one target keeps reappearing in the filings",
+    logline: "Lilly repeatedly turns the Wall back toward Woohyuk across late 2020. On November 14 she POSTS an image and tags Woohyuk forty-three seconds later; Woohyuk answers with a delete reaction, making the same-scene target read probable. On December 1 Lilly POSTS another screenshot and tags him under a minute later; Gilli says, `You can literally hear his panic. He'd break under pressure.` On December 31 Lilly removes the ambiguity by putting the @Woohyuk tag and image in the same post. The recurrence is enough to call Lilly a repeat filer with Woohyuk as a recurring target without pretending every attachment is the same joke or inventing a relationship label. POSTED BY Lilly is known. Visual contents, makers, capturers and subjects remain fenced where the files are uninspected. Three separate filings are not a romance arc. They are, however, enough paperwork to suggest Woohyuk should have retained counsel.",
+    cast: ["Lilly", "Woohyuk", "Gilli"]
   }
 ];
