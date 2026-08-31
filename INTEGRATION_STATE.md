@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-08-31 08:16 PDT_
+_Last updated: 2026-08-31 08:22 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Earlier run detail remains in Git history and MAIN's dated `archive-intake/INTEGRATION_PASS_*` reports.
 
@@ -27,13 +27,13 @@ The joke works because the mental move is the same one visible in the serious ea
 
 `src/data/character-biographies-rich.ts` was rewritten person-first around that continuity. The old visible archive-method/Ricochet caution section was removed from the reader narrative. Hard backstage identity fence remains: **Rich = DragonRich; unresolved Ricochet / `dragonrichard` stays separate.** Rich's Amaurot leadership also remains external-club history, not a fabricated UL Officer appointment.
 
-A concurrent current-branch layer also added structured Rich and Woosung Run 51 dossier material to `src/data/character-bios-run39.ts`. It complements rather than replaces the person-first biography: WIKI can carry searchable history/claims while the visible narrative remains about Rich.
+Current-branch follow-up then wired that Rich narrative into the active Run 39 biography layer and corrected `src/data/dossier-snapshots/rich.md`: `DragonRich` is the alias; Ricochet / `dragonrichard` is explicitly unresolved backstage. The public narrative and structured dossier now agree instead of carrying two identity systems at once.
 
-### Woosung was corroboration, not an excuse to duplicate herself
+### Woosung gets the same person-first treatment without literalizing the joke grammar
 
-Run 51's `eli kill` → love/party media switch and `mugs is my daddy granny` line reinforce a relationship mechanism already public: Woosung can move between mock aggression, affection, practical care and ridiculous family language with very little transition narration because the shared relationship context carries the switch.
+Run 51's `eli kill` → love/party media switch and `mugs is my daddy granny` line reinforce a relationship mechanism already visible in Woosung: she can move between mock aggression, affection, practical care and ridiculous family language with almost no transition narration because the shared relationship context carries the switch.
 
-The material was already present on both surfaces, so Run 66 did not append another report-shaped paragraph merely because the miner rewrote its HR file. The concurrent structured dossier layer adds the searchable version. `Daddy granny` remains fictive-family comedy, not genealogy, romance, sex, or relationship rank.
+MAIN already had the underlying material and did not need another paragraph. WIKI did receive a person-first rewrite in the concurrent current-branch follow-up: Woosung now reads around the tonal mechanism itself — fake murder command followed seconds later by affection-coded media; quick verdicts; useful care followed by embarrassed denial; and the later ordinary-language description of Mugen as close friend / older-sister-like guide sitting beside the impossible `daddy granny` house label. The two registers explain each other. `Daddy granny` remains fictive-family comedy, not genealogy, romance, sex, or relationship rank.
 
 ### Bounded negatives stay bounded
 
@@ -42,7 +42,9 @@ Zyrcant/Akariel, Woohyuk, Syv, Beowulf/Jere, Acoryuie and Baby Lyssa/Ghoulie rec
 ## Verification / publication
 
 - WIKI person-first Rich reader commit `43cd83ff4d8c379c76fc92c7739e0203e11bc9d5`: **Build `33406760022` success; Pages deploy `33406760096` success.**
-- Concurrent structured Run 51 dossier commit `48933061ae8ab71ff157a4a5fe26e089f056aa0e`: **Build `33407140751` success; Pages deploy `33407140532` success.**
+- Structured Run 51 dossier commit `48933061ae8ab71ff157a4a5fe26e089f056aa0e`: **Build `33407140751` success; Pages deploy `33407140532` success.**
+- Follow-up `805a7eae8ac9ff8936e457653dc84a4b7b70b941` wires Rich into the active narrative layer and rewrites Woosung person-first; `ed70277562f67fdedfefd971b0c04b8056ae9f23` then fixes the Rich snapshot identity boundary. Both are ancestors of the verified Run 66 state head.
+- Prior durable Run 66 state commit `45f4ab4c5569583387a9c8c6a120855691604df3`: **Build `33407491143` success; Pages deploy `33407491139` success.**
 - MAIN reader-facing pages changed: **none** in Run 66 because Rich and Woosung material was already present there and the remaining six checks were bounded negatives. MAIN durable census/consumption state and the Run 66 dual-surface report were updated instead.
 - MAIN's existing publication-blocked Core/Daycare/Mugen/Whiskey debt remains independent of this WIKI success and must not be treated as unread evidence.
 
