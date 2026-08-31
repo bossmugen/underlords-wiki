@@ -1,75 +1,77 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-08-31 16:10 PDT_
+_Last updated: 2026-08-31 16:35 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Older run detail remains in Git history and MAIN's dated integration reports.
 
-## Current boundary — Run 93
+## Current boundary — Run 94
 
-The public-bio rule remains: **the person is the spine; events are supporting scenes; the archive stays backstage.** MAIN owns the richest person/legend biographies. WIKI owns complementary Cast history, relationships, episodes, running jokes, quotes, locations, gallery/reference structure, and person-first narrative where the character route uses it. `Petty Crimes` is the public catch-all; never `Trivia`.
+The public-bio rule remains: **the person is the spine; events are supporting scenes; the archive stays backstage.** MAIN owns the richest person/legend biographies. WIKI owns complementary Cast dossiers, role progression, relationships, Episodes, Running Gags, Quotes, Locations, gallery/reference structure, and person-first narrative where the character route uses it. `Petty Crimes` is the public catch-all; never `Trivia`.
 
 Hard user canon, resolved identities, privacy/safety, explicit contradictions, appointment chronology and attribution fences remain hard. Outside those rails, strong contextual reads about habits, relationships, humor, care patterns, ordinary life, reputation and social roles may publish when more likely than not.
 
 ## Census / review boundary
 
-- Full miner census remains **49 tracked identities = 28 active refs + 21 historical/missing refs; 0 newly discovered; 0 finite pending review; 0 backlog; 0 overdue**.
-- Run 93 reviewed two advancing families checkpoint-first and intake-only: All Characters HR through final late head `e47c4823f002b053fb60fea8beeb418454f615b4`; Core Rooms through `a5f45f467ead013de5597f5db705ec1b5142fb04`.
-- All Characters advanced once more during the pass after its first Run 58 handoff. The late `178636e… → e47c4823…` suffix only rewrote the comprehensive HR files for Anayss, Ansun and Gabu around material already reviewed in Run 58; it did not create another evidence family.
-- Wall remains recovery-open only for future movement and is already reviewed through `a08d79066de0d49d5cd50b046062488eb5ad4b8e`.
-- Both Club-Only recovery priorities remain fully current: 2021–2026 through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`; 2020 through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`.
+- Full miner census: **49 tracked identities = 28 active refs + 21 historical/missing refs; 0 newly discovered; 0 finite pending review at close; 0 backlog; 0 overdue**.
+- Run 94 reviewed five advancing families checkpoint-first and intake-only: Wall through `5d526981ef231510ed673f1bd218918073dc9a23`; All Characters HR through `8c753ac5e0b48fdce1d5507434aefb823c68db4e`; Core Rooms through `fe8b3dba35050c930f70abfd56fa1b3ce7ab9761`; Daycare through `58fdf37c78d6d420035c5360faa9b1d49211a763`; Whiskey through `d710bba26ba4ef12b2537062f7c04709f67520ac`.
+- All Characters' Run 94 suffix is checkpoint/exhaustion-ledger bookkeeping only; it creates no new evidence family beyond the already-reviewed Run 58 package.
+- Wall remains recovery-open only for future movement. Both Club-Only recovery priorities remain fully current: 2021–2026 through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`; 2020 through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`.
 - No miner branch was merged or wholesale cherry-picked; no raw archive was re-mined by the integrator.
 
-## Reader integration — Ansun can be careful without becoming solemn
+## Reader integration — Woosung can turn `someday` into an 80-second deadline
 
-All Characters Run 58 supplied the one genuinely under-integrated person seam this pass. Before making tarot reading an official Halloween event, Ansun / Souta asks the Officer room whether anyone objects or would be uncomfortable, leaves an objection window, and only posts after the room gives the green light. The check never requires a ceremonial voice: Sye turns the premise into fate-tampering, Ansun says the whole thing now sounds like a horrible contract, and Drink Water Reminder immediately wants to know `where i sign`.
+Core Rooms surfaced a clean WOO/Snow scene and the existing WIKI identity layer resolves stable account `454708201615523871` to **Woosung**. Woosung reminds Snow about the K-pop game she wants; Snow already knows the request and says `SOMEDAY`, specifically `when I am bored out of my mind`. Roughly eighty seconds later Woosung asks `Are u bored yet`, then keeps coming back with `How about now`, `Now?`, and `now?` while Snow keeps refusing in increasingly theatrical form.
 
-WIKI now folds that scene into Ansun's existing **Competence is allowed to look stupid** character section. The point is not a new title, sole event ownership, a formal consent doctrine, or anybody's spiritual beliefs. The point is the contradiction already visible elsewhere in him: **careful process does not require solemn delivery.** Participation comfort gets checked seriously; the room is still allowed to be a clown car while he does it.
+WIKI folds that into Woosung's existing dossier as lived Snow/Woosung texture rather than a dispute card. The joke works because the request is already mutually understood before the repetition begins. Refusal is not rupture; it becomes fresh material for Woosung's return serve. This does not create a formal promise, entitlement, romance, or a new UL role.
 
-Reader file: `src/data/character-biographies-ansun.ts`.
+Reader commit: `8ab4a376869fd1632b80f208568d3435ef9e66a3`.
 
-## Duplicate / corroboration-only closures
+## Reader integration — Lord of the Shorts
 
-- Run 58's Kiro failed-pettiness report, Gabu self-filing Wall scene and Anayss maker→subject→audience creative arc were already on current MAIN. The comprehensive HR layer was catching up to public state, not generating three new publication jobs.
-- Nelph/Sye mutual credit was already live in WIKI's Run 91 Officer-induction Episode: Sye says `Nelph has done amazing`; Nelph directly returns `Sye, you have done amazing as well! ❤️`. No second relationship paragraph was added merely because All Characters HR absorbed the same scene.
-- Nelph's `I love tarot reading ❤️` is valid tiny taste / future `Petty Crimes` material, but remains proportionate: not religion, spirituality, divination belief or profession.
-- Core's 15:34 Nelph package materially strengthens the backstage synthesis but is already substantially public. MAIN Nelph already contains the 2020 Lobby doorway, October 2021 Officer induction, private-case process behavior, action-first announcements, November 22 scam/2FA follow-through, ordinary-life FarmVille/chickens/goats/satellite-wife texture, break/open-door language, the 2023 LuCiel invite bridge and the 2026 return. WIKI already uses the LuCiel invite line inside Nelph's social-bridge history.
-- LuCiel's `i quit the game saw cute emotes and asked @N E L P H for invite ez` is delightful tiny person texture and useful post-game Discord continuity. One line is not enough reason to manufacture a full public character entity.
-- Rummy, Shiki and Han/Nai closed as bounded no-public-change qualification checks. Rummy remains Nobu/Xuseio's Party Director Apprentice, not co-equal Party Director. Han remains never Officer and never Platelet; Han ≠ Mia.
+Wall's late-2022/early-2023 height argument is now a structured WIKI Legend rather than being scattered across individual biographies. Gabu repeatedly prosecutes Gilli as shortest, Gilli repeatedly files back, Daya turns care into pocket-sized harassment, Rummy redirects the charge toward Cele, Ricochet tries to calculate the imaginary ranking, Ren wheezes at Gilli's clap-delivered `YOU SHORTCAKE`, and Mia eventually compresses the jurisdiction into `Shorties ❤️`.
 
-## Hard-canon correction — New stays in the pre-Raja circle
+The public owner is **Lord of the Shorts**. The continuity is the argument itself: accusation, appeal, counter-filing, increasingly stupid titles, and everyone behaving as if imaginary vertical rankings deserve appellate review. It does **not** establish anyone's real height.
 
-**Binding user-confirmed canon remains:** Mugen's older pre-Raja online circle includes **Dean, Key, Zepp, Kal, New, and GenGrey**. GenGrey is also an older cross-game friend. New later saying Mugen recruited New `through @GenGrey` describes a later recruitment route into another setting; it does **not** move New's first relationship with Mugen forward or evict New from the pre-Raja circle.
+Reader commits: `97bba08141e251d6009c8668f72ce3b013a986f8` and route wiring `a2d63908ccf7c2565bf8ed31bb94204d2aeb6b6a`.
 
-The All Characters miner checkpoint still contains stale wording that says New belongs to a later Mugen relationship clock. That miner-side sentence is superseded by the hard user-confirmed lock above and must not propagate back into either public surface. Recruitment route ≠ first-meeting clock.
+## Reader integration — Candy's `Wad00` finally gets its missing setup
+
+Wall also recovered the parent behind Candy's August 10, 2021 `Wad00`. Vanness had self-filed `Im putting myself in wall of shame for losing 5 orange dracs for merge. Shame me`; Candy TRUE-REPLIES with `Wad00`.
+
+The structured Candy dossier now removes the stale claim that the parent was unrecovered. In this scene, the tiny reaction reads naturally as baffled/incredulous participation — basically a whole *what the fuck did you do* compressed into one proprietary little sound. That does not turn `Wad00` into a universal dictionary entry or establish a special Candy/Vanness relationship. Candy remains Candy / `— Luna`, never HyaLuna, and historical exact-age material stays private.
+
+Reader commit: `bddbd73ed1229b1a28eca8ea265f76ab915b31aa`.
+
+## No-public-change closures
+
+- Core's `gab.` material is a useful newcomer seed: asks how Discord differs from game club chat, keeps talking, and is pointed toward the music hangout. Probable HipHop/Rap taste stays proportional; no nationality is inferred from language fragments. It is too thin for a new public entity by itself.
+- Core's LilithEl return reinforces an already-known return pattern: Lilith is unsure whether she still counts; Gilli welcomes her immediately and Mugen says she saved the account while Lilith was on vacation. This supports remembered continuity over absence but does not establish a universal vacation policy.
+- Daycare's AJ material supports a good small contradiction — joke first, paperwork second, structure-ready once the request is concrete — and strengthens the existing front-door read that onboarding happened inside a social room rather than a sterile application portal. It remains too thin for a standalone character entity.
+- Whiskey's Abie package is promising person texture: `for my lazy days`, choosing a set because of feathers, indecision, categorical water ranking, and a sudden six-emote knife arsenal. Exact clothing/product pixels remain inaccessible; the unsafe urine statement remains non-advice and is not public. No public entity is manufactured from a developing file.
+- Whiskey's Rich line is a canon-hierarchy correction, not a discovery that Rich merely *might* know Amaurot. Rich is hard-confirmed as **Amaurot club leader**. Snow asking him whether `anyone else` from Amaurot wants to join shows the already-confirmed leader functioning as a natural cross-club contact. It creates no UL rank and no unsupported direct inviter edge.
+- All Characters HR's suffix is derivative status bookkeeping and closes without publication.
 
 ## Held rails / rabbits
 
-- `Zyrcant = Akariel = Akariel™ = akariel_star` remains hard canon. Artifact attribution still stays separate from identity.
-- Ansun/Souta ≠ Anthos; the merged-being joke is comedy, not identity evidence.
-- Ansun's tarot preflight is lived carefulness, not a formal consent policy and not sole event ownership.
-- Tarot interest does not establish religion, spirituality, divination belief or professional practice.
-- Nelph's October 5, 2021 induction remains the surviving Officer-induction boundary; later staged access is not a second appointment and export-time role arrays are not chronology.
-- Sensitive complaint details in Nelph's Officer work remain private; only process behavior may surface.
-- Nelph's scam attachment is POSTED BY Nelph only; MADE BY / CAPTURED BY / FEATURING remain unresolved.
-- LuCiel's cute-emote motive is not proof of returning to Dragon Raja.
-- Wrong Feli does not establish why Mugen expected Feli, recruitment, first contact, or a family-tree edge.
-- Light-mode prosecution is a joke, not governance.
+- `Zyrcant = Akariel = Akariel™ = akariel_star` remains hard canon. Artifact attribution stays separate from identity.
+- New remains in Mugen's user-confirmed pre-Raja circle with Dean, Key, Zepp, Kal and GenGrey. GenGrey can simultaneously be the later recruitment bridge named by New; recruitment route ≠ first-meeting clock.
+- Woosung's K-pop-game lobbying is playful persistence, not a real dispute or contractual obligation.
+- `Lord of the Shorts` is a running joke, not height evidence and not governance.
+- Candy's direct `Wad00` reply resolves one scene, not the universal meaning of the word.
+- Sensitive/minor intake fields remain non-public.
+- Abie's unsafe survival-style statement is not advice and stays out of public copy.
 - SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct.
 
 ## Verification / deployment
 
-The Run 93 reader head `c1027419b8fc532e9bca8cf8f6af4e4c1478fad2` passed **Build Underlords Wiki** run `33449193580` and **Deploy Underlords Wiki Preview** run `33449193539`, including Pages deployment.
+The final Run 94 reader head `bddbd73ed1229b1a28eca8ea265f76ab915b31aa` includes the Woosung deepener, Lord of the Shorts Legend and Candy reply-context repair. It passed **Build Underlords Wiki** run `33451173581` and **Deploy Underlords Wiki Preview** run `33451173602`, including Pages deployment.
 
-MAIN reader content received no Run 93 mutation. Its opening census head `bb872075e05218e35dfa9b43f25c7138dfaa7077` triggered `UL Hourly Build + Deploy` run `33448913189`; `Build + verify` failed before execution with `steps: []` and runner ID `0`, while Cloudflare deployment was skipped with `steps: []`. Source verification, Astro and built-output verification therefore did not reject reader content — they never ran. No MAIN reader change was routed around the dead gate.
+MAIN reader content received no Run 94 mutation. Its Run 94 census head `cd0b5622d42e73504f6f0d428893589274a66b5d` triggered `UL Hourly Build + Deploy` run `33450327652`; `Build + verify` failed before execution with `steps: []`, runner ID `0`, and blank runner name, while Cloudflare deployment was skipped with `steps: []`. Source verification, Astro and built-output verification therefore did not reject reader content — they never ran. No MAIN reader change was routed around the dead gate.
 
 ## Consumption / publication debt
 
-- All Characters HR is reviewed through `e47c4823f002b053fb60fea8beeb418454f615b4`. Formal MAIN consumed remains pinned at `7f055dc0181883d537cb3f4feac017c49928e84b` because complementary accepted MAIN work still cannot clear the required verifier.
-- Core Rooms is reviewed through `a5f45f467ead013de5597f5db705ec1b5142fb04`. Formal MAIN consumed remains pinned at `c9b33dca5df5fe46b8594a999ac888253a1ff27f` behind older accepted MAIN publication debt.
-- Wall remains reviewed through `a08d79066de0d49d5cd50b046062488eb5ad4b8e` and recovery-open only for future movement.
-- Daycare, Mugen person-first and Whiskey remain reviewed through their previously recorded current heads and publication-blocked only by MAIN verification debt.
-- The five MAIN publication-debt families remain **All Characters HR, Core Rooms, Daycare, Mugen person-first, Whiskey**.
+Reviewed-through state advances to the Run 94 heads named above. Formal MAIN consumed cursors for the five existing MAIN-debt families remain pinned until accepted complementary MAIN work can clear the required verifier. Those families remain **All Characters HR, Core Rooms, Daycare, Mugen person-first, and Whiskey**. Wall remains recovery-open with older complementary MAIN verification debt, but its Run 94 suffix itself is reviewed.
 
 ## Next boundary
 
-Resume All Characters only after movement beyond `e47c4823f002b053fb60fea8beeb418454f615b4`. Resume Core only after `a5f45f467ead013de5597f5db705ec1b5142fb04`. Resume Wall only after `a08d79066de0d49d5cd50b046062488eb5ad4b8e`. Never reintroduce the rejected `New is later` inference: New remains in the user-confirmed pre-Raja circle while GenGrey can simultaneously be the later recruitment bridge named by New.
+Resume Wall only after movement beyond `5d526981ef231510ed673f1bd218918073dc9a23`; All Characters only after `8c753ac5e0b48fdce1d5507434aefb823c68db4e`; Core only after `fe8b3dba35050c930f70abfd56fa1b3ce7ab9761`; Daycare only after `58fdf37c78d6d420035c5360faa9b1d49211a763`; Whiskey only after `d710bba26ba4ef12b2537062f7c04709f67520ac`.
