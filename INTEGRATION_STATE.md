@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-08-31 04:22 PDT_
+_Last updated: 2026-08-31 04:48 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Earlier run detail remains in Git history and MAIN's dated `archive-intake/INTEGRATION_PASS_*` reports.
 
@@ -10,56 +10,60 @@ The biography rule is binding: **the person is the spine; events are supporting 
 
 Hard canon locks, resolved identities, privacy/safety, explicit contradictions, appointment chronology and attribution fences remain hard. Strong ordinary-life, relationship, humor, habit, emotional-subtext, care-pattern, reputation, social-role and cumulative character reads may publish when the surrounding material makes them more likely than not.
 
-- **Full closing census:** 49 tracked miner identities = 28 active remote refs + 21 historical/missing refs; 0 newly discovered; **2 finite pending-review suffixes; 0 backlog; 0 review-overdue**.
+- **Full closing census:** 49 tracked miner identities = 28 active remote refs + 21 historical/missing refs; 0 newly discovered; **2 finite late pending-review suffixes; 0 backlog; 0 review-overdue**. Wall also advanced again after review and remains the active recovery quarry.
 - Both **Club-Only** recovery targets remain consumed/current: 2021–2026 through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`; 2020 through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`.
-- **Wall** is reviewed and consumed through `304d9374ff707a603394ce2251d2a5883e6727a8`; `recovery_in_progress` means future suffixes may still arrive.
-- **Mugen person-first** is consumed through `8240054d3d27235ce9da97269fed033c699f9600` after a successful no-public-change review. The checkpoint's instruction was correct: do not bloat the woman.
-- **Core Rooms** is reviewed through `6da0509a792f6c9d3c7fb36a81207a64c71d2299`, while formal consumed remains `c9b33dca5df5fe46b8594a999ac888253a1ff27f` because accepted MAIN Nelph work still cannot clear MAIN's mandatory verifier.
-- **Daycare** is reviewed through `b92f0f77bf20d84a0d6e984e81a03c30faef7cd3`, while formal consumed remains `fccd131e47c0a03018ca3cecfcecbe8ebdd5b703` for the same MAIN verification block. The branch moved again during closing census to `7a428d475739437a2efc4d2d86699f2c1a5c556c`; that late suffix is pending the next fair rotation.
-- **All Characters HR** moved during closing census from consumed `1026759dfd18238b5b2d6d6d4ebcbf064a0c7911` to `1804f4ea229bd6608d98fed7d916ee0dcd100e7c`. Its checkpoint still names Run 46 while a Run 47 handoff is also present, so it remains pending rather than being half-consumed.
-- **Whiskey** remains reviewed/current through `e381584248426262d36f254ca275151bdaf69dd9`; older accepted Sye/Life MAIN material remains publication-blocked.
+- **All Characters HR** was reviewed from `1026759dfd18238b5b2d6d6d4ebcbf064a0c7911` through `cc2a021ed41b7d4449eb0567d9888c37718e63b7` and is consumed through that head. The useful Wolf/Xephy material was reconciled into their WIKI biographies; the remaining negative/exhaustion notes stay backstage.
+- **Daycare** was reviewed through `7a428d475739437a2efc4d2d86699f2c1a5c556c`. The fresh Daya material is public in WIKI; formal MAIN consumption remains pinned at `fccd131e47c0a03018ca3cecfcecbe8ebdd5b703` because older accepted MAIN Mia work is still trapped behind MAIN's mandatory verifier.
+- **Whiskey** was reviewed from `e381584248426262d36f254ca275151bdaf69dd9` through `80c2277971bc068d27f5f180b0b5a0a083b9eba2`, and the Souta/Ansun character material is public in WIKI. During closing census the miner moved again to `126ea76ae58e19f71b003ee626cb47e5d23c1548`; that suffix is pending the next fair rotation. Formal consumed remains `e381584248426262d36f254ca275151bdaf69dd9` because older accepted Sye/Life MAIN work is publication-blocked.
+- **Wall** was reviewed from `304d9374ff707a603394ce2251d2a5883e6727a8` through `086edc9b4ef921236698aa5bb80462792dca60e6`. The Torr / DiStratus packet added a strong self-aware source/defendant read and a clean `VIA-SOURCE` provenance family, but no public page was improved enough to justify another card. During closing census Wall advanced again to `e3f0515cf624d670a4102dd1171542c08e7ce6b7`, so recovery continues from the reviewed boundary rather than rereading it.
+- **Mugen person-first** was previously consumed through `8240054d3d27235ce9da97269fed033c699f9600`; closing census caught a new head `f65443ae500d4a126414918066507fdfaf679add`, now pending review.
+- **Core Rooms** remains reviewed through `6da0509a792f6c9d3c7fb36a81207a64c71d2299`, while formal consumed stays `c9b33dca5df5fe46b8594a999ac888253a1ff27f` because accepted MAIN Nelph work still cannot clear MAIN's mandatory verifier.
 - No miner branch was merged or wholesale cherry-picked; no raw archive was re-mined.
 
-## Person-first public work
+## Person-first public work — Run 59
 
-### Nelph
+The WIKI's Run 59 reconciliation was rewritten rather than allowed to remain an append-only receipt layer. `src/data/character-biographies-run59.ts` now owns four genuinely biography-shaped stories.
 
-Nelph now reads like a person rather than an Officer résumé. Her recurring move is turning information into a usable next step: event alerts become directions, scam warnings become the actual 2FA menu path, and scheduling becomes a concrete recommendation softened with `That's my opinion though`. In sensitive work she can openly enjoy the tea while still separating what is known from what is missing and slowing the room down before consequences land.
+### Daya
 
-The ordinary-life side is allowed to matter too: chickens, goats, `nelphies chicken pics`, Sye sentencing her to `FarmVille`, and `satellite WiFi` becoming Mugen's `satellite wife` before Nelph's `I MEANT WIFI😭`. The Officer title sits on top of the woman instead of replacing her.
+Daya now reads as **the clipboard wearing sweatpants**: process-minded, low-friction, reassuring before procedural, and increasingly able to finish work herself without suddenly acquiring a corporate voice. Her returner scene — no need to reread rules, fresh Biodata `just to keep track` — sits beside the August handoff to another Officer and the November `gonna assign your role!` as lived growth rather than guessed appointment chronology. Her 4K/Kiro/doodle nonsense stays on the same page so competence does not eat the person.
 
-### Mia
+### Ansun / Souta
 
-Mia's biography now centers her communication and participation style: tiny Wall replies that make the room carry half the sentence, immediate willingness to open the blank canvas and turn an idea into something everybody can touch, and the clean newcomer-to-guide progression where somebody once handed her the house map and she later handed it to the next person.
+Ansun now centers the contradiction the Whiskey pass sharpened: **operationally tidy, socially unserious**. He translates rooms, challenges and contest logistics into usable next steps; lets real life beat Raja without guilt; preserves credit lines; then appoints himself `DEANS GRANDPAW` and complains thirty-five seconds later that the Tumbleweed is getting worse. The Wall remains his personal publicity department because shame becomes fame whenever Sou handles the accounting.
 
-The `BREAK THE BOT` material survives as contradiction rather than incident bookkeeping: careful and explicit where people, minors and conflict are involved; cheerfully feral where the casualty is harmless machinery. Momo's reciprocal twin language stays lived relationship texture rather than a Related People footnote.
+### Xephy
 
-### Erys / Emi
+Xephy's story is now about how she handles distance rather than about what an export can or cannot prove. In 2020 she returns with `I mished everyone`, later leaves Raja while keeping the people, and in 2026 contacts Mugen herself before the reunion retrieval machine starts celebrating that she has been found. Her favorite memories are group raids, photos and the group chat; her partial old-photo memory is allowed to stay partial. `Maybe different Generations, pero still same family` is the cleanest summary of her continuity style.
 
-Erys now has an actual character page instead of a screenshot prosecution log. Her Wall persona escalates through `NO`, `its photoshopped`, `im being hacked`, then counterfiling and cheerful attempts to suppress Mugen's remaining receipts. Off the witness stand, the register flips: she notices when everybody disappears, says she misses them, and returns affection openly. The theatrical defendant and the group-seeking softie are the same person.
+### WolfPhenix
 
-## WIKI reader architecture
+Wolfie's page now treats the planner, anniversary alley, `UL ENOUGH` redesign, old-screenshot hunt and legacy-club ending as one person rather than five archive incidents. She repeatedly turns messy group life into something people can recognize and use. Kaede's response to the nineteen-person anniversary drawing supplies the emotional center: being placed in the picture made him feel placed in the family. Wolf's own continuity instinct is not `save everything`; it is closer to **save what still carries the people**. Her memory is excellent. Her filing system is apparently operated by raccoons.
 
-The second-pass biographies live in `src/data/character-biographies-run58.ts` and override the earlier Nelph/Mia/Erys drafts through `src/data/character-biographies-all.ts`.
+## Reconciliation / duplicate handling
 
-More importantly, the **character route itself was corrected project-wide**. `src/pages/characters/[id].astro` no longer publicly renders the old Archive Appendix, source/receipt ledger, or anti-fanon / `What not to turn into fanon` block after the biography. Those materials remain available backstage in data and integration state; they no longer barge into the character story wearing a lab coat.
+- Wolf's planner work, Kaede anniversary-art response, 2025 `UL ENOUGH` redesign and 2026 receipt hunt were collapsed into one person-shaped maker/continuity arc.
+- Xephy's 2020 rejoin, later Raja exit and self-initiated 2026 return were collapsed into one long-gap relationship arc rather than three return cards.
+- Souta's April Color Theme announcement deepens his lived-role biography and existing contest history; it does not create another Color Theme Episode.
+- Daya's shared welcome-template use is treated as how she carries common house infrastructure, not as authorship of the template.
+- Torr / DiStratus remains a backstage Wall deepener this pass. `Via @DiStratus(Torr)` is source provenance, not capture/maker credit.
 
-The visible catch-all formerly titled `Recurring bits & behavior` is now **Petty Crimes**.
+## WIKI verification / publication
 
-The reader changes are all ancestors of durable head `d2c9566fd6c09b1b740e1de63048718845d98a95`. Exact-head verification passed there:
+Reader commit `cf50129120955d7428420b1f332778f6b260ad87` rewrote Run 59 in the person-first voice.
 
-- **Build Underlords Wiki `33386304896` — SUCCESS**
-- **Deploy Underlords Wiki Preview `33386304879` — SUCCESS**
+Exact-reader-head checks:
 
-This state update should run through the same existing workflows; it changes durable bookkeeping, not reader lore.
+- **Build Underlords Wiki `33388412194` — SUCCESS**
+- **Deploy Underlords Wiki Preview `33388412158` — SUCCESS**
+
+This state commit should pass the same existing workflows; it changes durable bookkeeping, not reader lore.
 
 ## MAIN publication status
 
-MAIN already carries distinct person-first edits in `src/content/people/nelph.md` and `src/content/people/mia.md`; they are not copies of the WIKI text.
+No new MAIN reader prose was added in this pass. Wolf and Xephy already had strong MAIN person pages; the new material was most useful as a WIKI biography correction. Daya and Ansun likewise received their new synthesis in WIKI rather than duplicated prose.
 
-MAIN's mandatory verifier still fails before verification executes. The affected exact-reader-head workflow produced no executable Build + verify step body and skipped deploy, so source verification, Astro build, built-output verification and Cloudflare deploy did **not** run and fail on source. No unsafe deployment was forced around that gate.
-
-Core and the reviewed Daycare slice therefore remain publication-blocked at the formal consumption boundary even though their accepted WIKI work is green. Whiskey's older accepted Sye/Life MAIN biography material remains blocked by the same infrastructure problem.
+MAIN's mandatory verifier remains the publication gate for older accepted MAIN work. Until an exact MAIN head actually executes source verification, Astro build and built-output verification successfully, the accepted Nelph/Mia/Sye-LIfe work and the hard stale-attribution/identity cleanup remain blocked rather than force-published.
 
 ## Hard holds
 
@@ -70,8 +74,6 @@ Core and the reviewed Daycare slice therefore remain publication-blocked at the 
 - Exact Officer appointment chronology is never inferred from exporter-time role arrays.
 - Joke family / romance language remains joke language unless separately confirmed.
 - Stable account `717133949457137775` remains fenced from a global Rummy identity merge absent a direct bridge.
+- Candy / later Luna remains distinct from HyaLuna.
+- WhitePhoenyx = Xephy and is not WolfPhenix.
 - SAID BY / POSTED BY / HOSTED BY / VIA-SOURCE / CAPTURED BY / MADE BY / FEATURING remain distinct.
-
-## Surface split
-
-Erys remains intentionally **WIKI-first**: the current material works well as a full Cast biography plus a dated Wall Episode, while a thin MAIN page would add less. Nelph and Mia belong on both surfaces with different writing jobs. Mugen's reviewed suffix belongs on neither because nothing new improved her already rich page.
