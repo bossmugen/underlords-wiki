@@ -232,8 +232,8 @@ const evidenceLabel = (value?: string) => value ? value.replaceAll("-", " ").toU
 
       {bio.characterNotes?.length ? (
         <section class="bio-block">
-          <div class="bio-label">AFTER THE BIOGRAPHY</div>
-          <h2>Recurring bits & behavior</h2>
+          <div class="bio-label">PETTY CRIMES</div>
+          <h2>Petty Crimes</h2>
           <div class="character-note-grid">
             {bio.characterNotes.map((note: any) => (
               <article class="character-note"><h3>{note.title}</h3><p>{note.text}</p></article>
@@ -266,40 +266,6 @@ const evidenceLabel = (value?: string) => value ? value.replaceAll("-", " ").toU
           <div class="quote-wall">{character.quotes.map((quote) => <div class="quote-card"><blockquote>“{quote}”</blockquote><footer>{character.name}</footer></div>)}</div>
         </section>
       ) : null}
-
-      {dossier?.html ? (
-        <section class="bio-block archive-dossier-block">
-          <div class="bio-label">ARCHIVE APPENDIX</div>
-          <div class="dossier-intro">
-            <h2>Old dossier notes</h2>
-            <p>The old archive dossier is preserved here as research material. Its themed scenes are evidence and character texture, not the biography's narrative spine.</p>
-          </div>
-          <div class="archive-dossier-body" set:html={dossier.html} />
-        </section>
-      ) : null}
-
-      {dedupedReceiptClaims.length ? (
-        <section class="bio-block receipt-ledger-block">
-          <div class="bio-label">SOURCE LEDGER</div>
-          <h2>What the archive actually caught</h2>
-          <p class="receipt-ledger-intro">The receipts live downstairs. They support the story; they are not the story.</p>
-          <div class="receipt-ledger">
-            {dedupedReceiptClaims.map((claim) => (
-              <article class="receipt-entry">
-                <div class="receipt-meta"><span>{evidenceLabel(claim.evidence)}</span>{claim.date ? <time>{claim.date}</time> : null}</div>
-                <p>{claim.text}</p>
-              </article>
-            ))}
-          </div>
-        </section>
-      ) : null}
-
-      <section class="bio-block source-floor">
-        <div class="bio-label">CANON NOTES</div>
-        <h2>What not to turn into fanon</h2>
-        <p class="source-intro">Current roles are not automatically appointment dates. A funny relationship label is not biology. A recurring bit is not a diagnosis. Export-time role arrays are not promotion ceremonies.</p>
-        {canonNotes.length ? <ul class="canon-list">{canonNotes.map((note: string) => <li>{note}</li>)}</ul> : null}
-      </section>
     </article>
 
     <aside class="infobox character-infobox">
