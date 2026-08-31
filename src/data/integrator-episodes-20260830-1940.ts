@@ -27,5 +27,23 @@ export const wall1940IntegratedEpisodes: Episode[] = [
     kind: "Wall tiny episode / ambient call-and-response",
     logline: "Candy walks into a quiet Wall pocket with `Moo`, follows it with two Cat_Sporkle emotes, and the room apparently recognizes livestock procedure as valid courtroom business. Sou answers `Mooo`, Rummy produces `Moooo`, and Ren adds another `Mooo`. Three weeks earlier Candy had TRUE-REPLIED Vanness's self-filed merge disaster with `Wad00` and a crying-cat emote, reading more like a horrified gallery witness than a prosecutor. Together the two scenes give a thin but usable character angle: Candy's surviving Wall footprint is low-volume and reactive, but she can also be the person who starts the ambient nonsense and gets everybody else to answer. One morning of mooing is not promoted into an eternal UL meme. It is allowed to remain exactly the stupid little scene it was.",
     cast: ["Candy", "Ansun", "Rummy", "Ren"]
+  },
+  {
+    id: "forgot-i-had-this",
+    title: "Forgot I Had This",
+    season: "2021",
+    date: "August 3, 2021",
+    kind: "Wall evidence / the receipt outlives its owner's memory",
+    logline: "HamitteY drops a Dragon Raja screenshot into the Wall and, twenty-nine seconds later, admits `forgot i had this`. More than an hour later Ghoulie TRUE-REPLIES the exact file with `you know what`, follows with `i thought you was my friend`, and Tae supplies `Exposed🤔`. HamitteY's answer to the friendship complaint is `Sorry not Sorry` with a heart. The screenshot apparently sat in HamitteY's own pile long enough to be forgotten, then came back to prosecute somebody anyway. Ghoulie is very likely the intended exposure target from that exact reply chain, but the pixels have not been independently inspected: POSTED BY HamitteY is confirmed, while CAPTURED BY, MADE BY, and visual FEATURING stay unresolved. One rediscovered screenshot does not make HamitteY a lifelong archivist. It does make `forgot i had this` an extremely Wall sentence.",
+    cast: ["HamitteY", "Ghoulie", "Tae"]
+  },
+  {
+    id: "refreshing-glass-boiled-mayo",
+    title: "A Refreshing Glass of Boiled Mayo",
+    season: "2021",
+    date: "May 17, 2021",
+    kind: "Wall callback / food crime reaches hearsay",
+    logline: "Zoshaa offers `a refreshing glass of boiled mayo` to her orb. Gilli gags. Zoshaa doubles down and defines the beverage as a warm McDonald's triple-thick milkshake that tastes like mayo. Ten minutes later Spicy Hotpot arrives asking Gilli what he has `heard about boiled mayo`, which is roughly when the food crime graduates into hearsay. Then the scene immediately derails: Spicy notices his nickname, tells Ren `no`, posts `stop get some help`, and declines to answer her `make me`. Ren eventually has to narrate the failed escalation herself: `Josh won’t fight me`. In this pocket that last line is a strong probable Spicy→Josh referent, not a hard identity merge; the later September reply bridge remains stronger. MAIN's Boiled Mayo Corp. page owns the full genealogy. This is the May 17 incident where the cursed drink is already traveling faster than its explanation. Nobody is being accused of actually drinking it.",
+    cast: ["Zoshaa", "Gilli", "Spicy Hotpot", "Ren"]
   }
 ];
