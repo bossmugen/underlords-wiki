@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-08-31 14:06 PDT_
+_Last updated: 2026-08-31 14:08 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Older run detail remains in Git history and MAIN's dated integration reports.
 
@@ -36,3 +36,9 @@ Wall remains recovery-open only for future movement; its currently visible suffi
 Whiskey is reviewed through `49581e2504d787ae2e3b68c57ba3eb3286f86a6b`. MAIN's formal Whiskey consumed cursor remains pinned behind older accepted MAIN-facing work that still has not cleared MAIN's verifier gate; the new suffix itself is closed as reviewed/no-public-change and should not be reread as pending work.
 
 Existing MAIN publication debt remains on All Characters HR, Core Rooms, Daycare, Mugen person-first and Whiskey, with `archive-intake/INTEGRATOR_BRANCH_STATE.json` as the controlling ledger.
+
+## Verification / deployment
+
+The Run 87 WIKI state commit `7df4d15aac3aa841784a007a8a6ed096b39126d8` passed `Build Underlords Wiki` run `33439538791`. `Deploy Underlords Wiki Preview` run `33439538660` also completed successfully, including its Pages deployment. No reader-facing WIKI copy changed; this was a state-only reconciliation/deploy confirmation.
+
+MAIN's Run 87 state-close commit `322877dae3517d4e163618606390230409098a7c` hit the existing pre-runner `UL Hourly Build + Deploy` infrastructure failure: the verification job surfaced no executable steps and the Cloudflare deploy was skipped. No MAIN reader change was attempted or claimed deployed.
