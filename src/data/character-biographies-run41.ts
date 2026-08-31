@@ -1,0 +1,27 @@
+import type { CharacterNarrative, NarrativeSection } from "./character-biographies-narrative";
+import { run40NarrativeCharacterBios } from "./character-biographies-run40";
+import { mugen1619NarrativeCharacterBios } from "./character-biographies-mugen-1619";
+
+function withSection(base: CharacterNarrative, section: NarrativeSection): CharacterNarrative {
+  return { ...base, sections: [...base.sections, section] };
+}
+
+export const run41NarrativeCharacterBios: Record<string, CharacterNarrative> = {
+  moon: withSection(run40NarrativeCharacterBios.moon, {
+    period: "January–August 2022",
+    title: "The server keeps sending her back to the front desk",
+    paragraphs: [
+      "Moon's 2022 continuity is funnier than a clean join-date would be. On January 6 the Lobby newcomer machinery catches the same stable account that is about to become a regular Daycare presence. Moon reacts with `Omg`, says `I was gonna say i joined the wrong server xD`, and supplies the requested identity basics. Her assigned Daycare run begins the next day and continues across the year.",
+      "Then August puts the same account through newcomer machinery again while that Daycare chronology is still alive. Moon asks `What is a ign?`, admits `My brain is trying hard to process ewe`, and keeps filling out the form until Ren says she is settled. The giveaway is Ren's next instruction: keep familiar with the rules and Whiskey, `as you know is our main chat room`. Discord is treating the scene like onboarding; Ren is talking to somebody with prior house knowledge. The safest read is some kind of re-entry or role/server rehydration rather than a genuine first arrival, but the reason is still missing. The little silence around it matters: nobody stops to litigate whether Moon belongs there. They just make her do the paperwork again."
+    ],
+  }),
+
+  mugen: withSection(mugen1619NarrativeCharacterBios.mugen, {
+    period: "June 2021",
+    title: "The Boss office has files, apparently",
+    paragraphs: [
+      "A Wall filing gives Mugen a chance to use the Boss title as a comedy prop instead of a throne. Tofu says BishopThaGuru will never stop being funny; Bishop responds like somebody who has just spotted an unmarked van: `Why? What have you heard? Who you talk to? You with the feds?` Mugen does not defuse the premise. She steps directly into it: `The file in my office says so`. Bishop's immediate `W-which file?` is the whole payoff — everybody understands the imaginary bureaucracy without needing the bit explained.",
+      "The real screenshot becomes a fictional case file, and Mugen's actual status becomes part of the toy box. That is better character evidence than another generic sentence about her not taking rank too seriously: when somebody hands her mock paranoia, she is willing to make Boss itself ridiculous for the joke. Nothing here proves a literal Bishop dossier, investigation, criminal conduct, or law-enforcement relationship. The upstream image is only confirmed POSTED BY Mugen; unavailable pixels do not become CAPTURED BY, MADE BY, or FEATURING through enthusiasm."
+    ],
+  }),
+};
