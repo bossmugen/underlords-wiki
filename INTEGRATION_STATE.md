@@ -1,79 +1,78 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-08-31 10:49 PDT_
+_Last updated: 2026-08-31 11:14 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Earlier run detail remains in Git history and MAIN's dated `archive-intake/INTEGRATION_PASS_*` reports.
 
-## Current boundary — Run 75
+## Current boundary — Run 76
 
 The binding public-bio rule remains: **the person is the spine; events are supporting scenes; the archive stays backstage.** MAIN owns rich person/legend biographies. WIKI owns searchable Cast dossiers plus Episodes, Relationships, Running Gags, Quotes, Locations and Gallery/reference structure. `Petty Crimes` is the public catch-all section name; never `Trivia`.
 
 Hard user canon, resolved identities, privacy/safety, explicit contradictions, appointment chronology and attribution fences remain hard. Outside those rails, strong contextual reads about habits, relationships, humor, care patterns, ordinary life, reputation and social roles may publish when more likely than not.
 
-- Full opening census: **49 tracked miner identities = 28 active refs + 21 historical/missing; 0 newly discovered; 1 finite pending branch at opening; 0 backlog; 0 overdue.**
+- Full opening census: **49 tracked miner identities = 28 active refs + 21 historical/missing; 0 newly discovered; 2 finite pending branches at opening; 0 backlog; 0 overdue.**
+- Finite pending review after close: **0**.
 - Both Club-Only recovery priorities remain consumed/current: 2021–2026 through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`; 2020 through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`.
-- Wall recovery was reviewed from `a20b60b5fae8e9458c09f710fbbad72051057bc7` through the later-arriving `7118b5ef4caed4f2a6d31884f48bbf763b0ee861` in two intake-only suffixes. Quarry remains NOT EXHAUSTED for future movement.
-- Core Rooms was reviewed from prior reviewed-through `1a4ddefdaa3babf3e86f6222ba2df2e4a41e5147` through current `5984725fff0be21e3d16a5260832d02315c38546`; commits after `cbb2a6df09a740d3d6d27f677431f1a4652b5888` completed the same 10:20 handoff package rather than adding a second substantive scene set.
-- Daycare, Mugen person-first and Whiskey remain reviewed-through-current but their formal MAIN consumed cursors remain pinned behind older accepted MAIN reader work that has not cleared MAIN verification.
+- Wall recovery was rechecked current/consumed at `7118b5ef4caed4f2a6d31884f48bbf763b0ee861`; quarry remains NOT EXHAUSTED for future movement only.
+- All Characters HR was reviewed from consumed `7f055dc0181883d537cb3f4feac017c49928e84b` through `a5472ad4bd7889c705864b911e17cf9e17c8afc7`.
+- Mugen person-first was reviewed from prior reviewed-through `c8f098ae1647b27b53225c8e8789268bab7083be` through `aa22d5bad16251341b054ed1cfa62418bcf1bd90`.
+- Core Rooms, Daycare, Mugen person-first, Whiskey, and now All Characters remain formal MAIN publication holds because accepted MAIN work cannot clear MAIN's pre-execution verifier. `reviewed_through_sha` prevents rereading those deltas.
 - No miner branch was merged or wholesale cherry-picked; no raw archive was re-mined.
 
-## Run 75 review / reconciliation
+## Run 76 review / reconciliation
 
-### WOO / Woosung gets to be a person instead of a receipt stack
+### Eos recognizes a friend before the infrastructure finishes explaining itself
 
-Core Rooms adds a particularly clean 2020 taste/relationship scene. WOO complains that her hair will not stay put, asks for a K-pop game, and then objects that she wanted the K-pop game *before* the BL room Snow has apparently supplied instead. Snow's `yes yes I know` makes the request feel like familiar low-stakes household lobbying rather than a formal feature ticket. In 2023 WOO herself notices the consequence of being this expressive: she says she needs to talk less because she has too much Hall of Shame material; Moon answers `No no you famous uwu`, and WOO responds with crying/skull reactions.
+All Characters HR gives Eos / EnyoCal another relationship that is neither Marian screenshot court nor Gilli origin lore. In January 2021 Milo sees Eos and immediately goes `WAIT EOS HII BESTIE`, says being in the same club is `truly a gift`, and Eos answers at the same temperature: `Milo Chan I didnt know you were here xD` / `life is full of surprises`.
 
-WIKI now folds those scenes into a person-first Woosung biography rather than creating another event card. The narrative centers the contradiction already visible elsewhere in her file: Woo can be brutally compact in verdicts, loudly preference-forward, and deeply practical in care, then become extremely interested in denying what everybody just watched her do. K-pop-before-BL, unruly hair and self-generated Hall abundance belong to the character, not to an archive-method paragraph.
+The club reshuffle is background noise. Recognition is the scene. Nobody needs to stop and declare a formal relationship tier; two people are plainly pleased to have landed in the same place.
 
-### Ricochet and Syv resume ordinary stupidity immediately
+By April Milo is talking about going free-to-play and slowly quitting. Eos answers `You finally limiting yourself, u whale ... good`. `Finally` notices the change, `u whale` preserves the roast, and `good` approves it. The line is useful because care does not require Eos to change dialect. Encouragement can stay inside the joke.
 
-Wall gives a strong 2022 return scene for **Ricochet / `dragonrichard`**. Ricochet says it is his first time in the Wall in a while; Syv answers that he disappeared for weeks; he says `I'm busy`; seconds later he asks Syv to send ramen; Syv answers `I'm broke`.
+WIKI folds this into the active Eos narrative as relationship texture plus a small `PETTY CRIMES` beat rather than adding another timestamped incident card.
 
-The useful read is low-friction familiarity. Syv noticed the absence, but neither person turns the return into a ceremony. Ricochet gives the minimum viable explanation and immediately resumes ordinary banter; Syv lets him, then kills procurement on budgetary grounds. WIKI now gives Ricochet and Syv person-first narrative biographies that use this as relationship texture rather than as a standalone `2022 incident`.
+### Mugen's newest handoff was already living on the public surfaces
 
-This review also repaired a hard public identity error: **Rich = DragonRich. Ricochet / `dragonrichard` is a separate unresolved identity and must not be merged into Rich.** Older active VIP copy had incorrectly attached the Syv ramen scene to Rich; that is now corrected in the active data layer and the hard fence remains backstage in canon notes.
+The Mugen person-first suffix adds three strong relationship reads, but the public system had already caught most of them by the time this pass reconciled current branches.
 
-### Late Wall suffix — reviewed, mostly folded into existing owners
+- Nobu says `I'm home now uwu`; Mugen answers `Put your slippers on`. MAIN Mugen already had the domestic-return beat. During this run a concurrent WIKI commit also folded the same scene into Nobu's own biography, where it does a different job: the Party Director title gets remembered, then the relationship steps around the title and settles the person back into the house.
+- Ritha's Tower of God / `HIIII RITHA :d` / `and hiii mugs uwu` scene was already person-first on WIKI Ritha: an old friendship visible in shared media talk with no ceremony.
+- Gilli's `LadyMugen` -> `Mug's Husbando` register change was already person-first on WIKI Gilli: formality drains out of the relationship while the joke moves into Gilli's own self-presentation.
 
-A later Wall suffix arrived during the run and was reviewed through `7118b5ef4caed4f2a6d31884f48bbf763b0ee861`.
+No duplicate Mugen receipt-stack paragraph was added. Slippers remains social-house language, not literal cohabitation; Ritha is the person explicitly documented following the Tower of God webtoon for years; `Mug's Husbando` remains joke/social language rather than marriage or romance.
 
-- Torr says he tried to delete an ambiguous comment and that Tae saved it; the immediately prior Tae attachment is a probable/strong join, not a hard same-object claim. Person read: Torr is evidence-conscious enough to attempt cleanup and still playful enough to keep litigating `totally ambiguous` once caught. Tae is experienced by Torr as the person who made deletion strategically useless. This is good future Torr/Tae character texture, but neither public surface currently has a strong canonical owner page that would justify manufacturing a thin new dossier this run.
-- Sye gives a six-message pickle/fermentation explanation in 2024, distinguishing acidity, brine and process efficiency. It is excellent mundane texture but substantially corroborates an already-public Sye pattern: terse until a mechanism matters, then suddenly specific about systems and food. No duplicate paragraph was added merely because a fresh receipt exists.
-- Mercy's tiny Wall footprint becomes human in a Nelph-linked cookie-promo / synchronized-smirk scene, but two authored messages remain too thin for a dedicated public biography. Hold as a future profile snippet if another distinct scene gives her more shape.
+### Bounded negatives stayed bounded
 
-No new visual claims were made from uninspected media; POSTED BY / MADE BY / CAPTURED BY / FEATURING remain separate.
+The other All Characters qualification targets — Tofu, Rooks, Aeshleen, HamitteY, Nuien, Akuma/Matsu and Crystalia — did not produce enough genuinely new person-level material to justify public filler. They closed as successful no-public-change reviews.
 
-### Thin Core candidates held
-
-`gab.` / KaraZorElPH now has a useful first-day cluster — asks how Lobby/Whiskey work, moves quickly into timezone/music small talk, says `HipHop/Rap`, and participates in a Tagalog phrase exchange with Mugen. This supports active social navigation and music taste without supporting nationality, ethnicity or language-fluency claims. Ice Man Cree modestly advances; Nia and Stranger remain thin. None was inflated into a public biography this run.
-
-ULCC publication/adoption remains unresolved; transient retrieval failures are not converted into negative historical claims.
-
-## Public work / verification — Run 75
+## Public work / verification — Run 76
 
 ### MAIN SITE
 
 Reader-facing pages changed: **none this run**.
 
-The new WOO material overlaps an already-rich MAIN Woosung biography, while Ricochet/Syv is cleaner as a WIKI Cast relationship deepener. MAIN remains under the existing verification/deployment infrastructure problem; reader copy was not bypassed around that gate.
+Eos/Milo is a real complementary MAIN biography deepener, but MAIN's verification infrastructure still fails before commands execute. Run 76 opening-census head `b454fbe83bb4c0833760b5887aaa02609e8527de` triggered `UL Hourly Build + Deploy` run `33422857565`: `Build + verify` failed with `steps: []` and runner ID `0`; Cloudflare deployment was skipped with no steps. Source verification, Astro and built-output verification therefore never ran.
 
-MAIN still receives the mandatory branch census, post-review consumption ledger and dated Run 75 integration report.
+MAIN receives the mandatory census, post-review branch ledger and dated Run 76 integration report. No reader content was routed around the dead gate and no Cloudflare deployment is claimed without a successful workflow.
 
 ### WIKI
 
 Reader-facing work:
 
-- `src/data/character-bios-vip.ts`: hard Rich/Ricochet correction plus person-first base tightening for Rich, Syv and Woosung.
-- `src/data/character-biographies-run75.ts`: person-first narrative biographies for Woosung, Ricochet and Syv.
-- `src/pages/characters/[id].astro`: routes Run 75 narratives before legacy overview/history copy.
-- `src/data/character-bios-vip-late.ts`: keeps hard identity/attribution rails backstage while making visible `Petty Crimes` actually about the people.
+- `src/data/character-biographies-run75.ts`: active Eos narrative gains the Milo recognition / roast-wrapped approval relationship seam and a `PETTY CRIMES` line.
+- `src/data/character-biographies-nobu.ts`: concurrent current-branch work folds `I'm home now uwu` -> `Put your slippers on` into Nobu's return biography instead of leaving it as generic role history.
 
-Reader head `dd12d5e9a51a1532ab21770c56bf0839c2e91984` passed:
+Eos reader head `45e227d0e483cda8974c6d40fc0ba52c59d55f5b` passed:
 
-- Build Underlords Wiki `33421333459`: **SUCCESS**.
-- Deploy Underlords Wiki Preview `33421333306`: initial deploy attempt hit a transient GitHub OIDC ID-token timeout after its Pages build succeeded; the deploy job was retried and then **SUCCESSFULLY DEPLOYED** from the same head.
+- Build Underlords Wiki `33423465789`: **SUCCESS**.
+- Deploy Underlords Wiki Preview `33423465828`: **SUCCESS**.
 
-The person-first bio work is therefore build-clean and live. This state commit records that exact publication result and will receive its own exact-head build/Pages verification.
+Current reader head before this state commit, `b12b692edaa231cf447e9cbac43572a8ea660555`, includes the Nobu slippers fold and passed:
+
+- Build Underlords Wiki `33423681006`: **SUCCESS**.
+- Deploy Underlords Wiki Preview `33423680982`: **SUCCESS**.
+
+This state commit records those publication results and will receive its own exact-head build/Pages verification.
 
 ## Hard rails held
 
@@ -83,12 +82,19 @@ The person-first bio work is therefore build-clean and live. This state commit r
 - WhitePhoenyx = Xephy, not WolfPhenix.
 - Candy / later Luna is not HyaLuna.
 - Cookie is Staff; Han, not Cookie, is UL Media Director / filmmaker.
+- Mugen founded UL; the other four members of the founding circle do not become five equal co-founders.
 - No appointment chronology from export-time/current role arrays.
 - Joke family language is not literal genealogy; joke flirting/romance is not literal romance without support.
+- `BESTIE`, `Husbando`, `home` and `slippers` are social language unless independent evidence says otherwise.
 - SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct.
 
 ## Consumption / next boundary
 
-Post-review MAIN ledger is the controlling consumption record. If closing miner heads remain stable, Wall may advance formal consumed through `7118b5ef4caed4f2a6d31884f48bbf763b0ee861`. Core Rooms may advance `reviewed_through_sha` through `5984725fff0be21e3d16a5260832d02315c38546`, while its older formal consumed cursor remains pinned by pre-existing MAIN publication debt. Both Club-Only recovery branches remain current.
+MAIN's post-review branch ledger is the controlling consumption record.
 
-The Run 75 editorial gain is deliberately character-shaped: WOO has a remembered K-pop grievance with Snow and knows she talks herself onto the Wall; Ricochet can reappear after weeks and be asking Syv for ramen within seconds; Syv notices he vanished and still has the good sense not to fund him. The archive machinery stays backstage where it belongs.
+- All Characters HR: `reviewed_through_sha = a5472ad4bd7889c705864b911e17cf9e17c8afc7`; formal consumed remains `7f055dc0181883d537cb3f4feac017c49928e84b` because the accepted complementary MAIN deepener cannot yet pass verification.
+- Mugen person-first: `reviewed_through_sha = aa22d5bad16251341b054ed1cfa62418bcf1bd90`; formal consumed remains `8240054d3d27235ce9da97269fed033c699f9600` behind older accepted MAIN verification debt.
+- Wall remains current/consumed at `7118b5ef4caed4f2a6d31884f48bbf763b0ee861` and recovery-open only for future suffixes.
+- Both Club-Only recovery branches remain current.
+
+The Run 76 editorial gain is small and wonderfully human: Milo spots Eos and the club field immediately becomes less important than **oh shit, my friend is here**. Three months later Eos can approve Milo limiting the grind without surrendering the right to call him a whale. Emotional support remains fully operational; dignity remains out of scope.
