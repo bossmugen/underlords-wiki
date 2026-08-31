@@ -1,12 +1,104 @@
 import type { CharacterNarrative } from "./character-biographies-narrative";
 import { narrativeCharacterBios } from "./character-biographies-narrative";
 import { run42NarrativeCharacterBios } from "./character-biographies-run42";
+import { run43NarrativeCharacterBios } from "./character-biographies-run43";
 
 const gabu = narrativeCharacterBios.gabu;
 const anayss = narrativeCharacterBios.anayss;
 
 export const run39NarrativeCharacterBios: Record<string, CharacterNarrative> = {
   ...run42NarrativeCharacterBios,
+  ...run43NarrativeCharacterBios,
+
+  eos: {
+    intro: [
+      "Eos is one of those UL files where account continuity, game labels, and the social person refuse to line up into one tidy onboarding card. The same stable Discord account appears as EnyoCal / UL in late 2020 and Eos / Deviations in early 2021; months later Eos is counting down a computer-science graduation, trading Wall ammunition with Marian Kage, and eventually saying outright that Gilli is the reason they joined Underlords. The account trail is stable. The exact game-club transition between those labels is not, so the wiki keeps the person and refuses to fabricate the paperwork.",
+      "Run 44 adds two smaller pieces that make Eos feel less like a sequence of role forms. One is game shorthand: `Context: childe boss fight.............. @Marian Kage`, which is probably Genshin / Childe context and deliberately not more than that while the image remains uninspected. The other is a little language migration. In May Eos is `so tired that i am a dead corpse`; by September two wheeze emotes end in `dedddd`. The word has moved from self-description into reaction punctuation. One year, one recurring register, no permanent corpse diagnosis required."
+    ],
+    sections: [
+      {
+        period: "December 2020 – April 2021",
+        title: "One account, two game labels, one increasingly visible person",
+        paragraphs: [
+          "The stable account first survives Lobby paperwork as EnyoCal with UL in the club field, then returns through another Bouncer surface as Eos with Deviations. Those scenes prove account continuity and changing labels, not an exact leave/rejoin chronology. By April the paperwork gives way to ordinary life: Eos says graduation is coming in June and names computer science. That is enough to give the file a real-world edge without inventing a school, degree title, employer, or later career.",
+          "The useful undercurrent is that the archive stops needing intake fields to recognize Eos. Once the person is socially embedded, later scenes work on compressed references — one boss fight, one corpse joke, one tag to Marian — because the room already knows what kind of conversation it is in."
+        ]
+      },
+      {
+        period: "May–September 2021",
+        title: "Dead corpse becomes `dedddd`",
+        paragraphs: [
+          "On May 2 Eos writes `so tired that i am a dead corpse`. Mugen replies directly with a `pretty corpses` Tenor, and Eos later returns as `this ded corpse always around for the taking`. The pluralizing reply is the social turn: one person's exhausted melodrama gets widened into house language and Eos accepts the new label from inside the joke.",
+          "September gives a smaller echo: two `Fat_Wheeze` emotes, then `dedddd`. This time Eos is not explicitly describing personal exhaustion. `ded` has become a compact reaction to being socially finished off. That recurrence is enough for a 2021 death-language register and not enough for an all-years personality law or an origin claim for every later UL resurrection joke."
+        ]
+      },
+      {
+        period: "August 2021 – February 2022",
+        title: "Childe boss fight, Marian Kage, and the world's least efficient prosecutor",
+        paragraphs: [
+          "Eos's August Wall caption is almost aggressively compressed: `Context: childe boss fight.............. @Marian Kage`. Childe is very likely the Genshin boss reference. The sealed image still does not tell us who was playing, whose account appears, what the fight outcome was, or who made or captured the image. What the sentence safely shows is shared-game context doing most of the explanatory work. Eos points at the boss fight, points at Marian, and apparently considers the case adequately briefed.",
+          "That fits the broader Marian/Eos Wall rhythm. Marian repeatedly complains that Eos is too mild to shame him properly, threatens to find material every hour, and eventually self-files because his designated prosecutor is not prosecuting. Then February 2022 produces the perfect failure mode: Marian asks why Eos is getting him shamed and Eos answers that they typed in the wrong account. After months of allegedly insufficient evidence warfare, reciprocal exposure finally happens by mistake. The account mistake stays scene-local; nobody gets a password-sharing theory out of it."
+        ]
+      },
+      {
+        period: "April 2022",
+        title: "Gilli is the reason; mashed potatoes are the lie",
+        paragraphs: [
+          "Two Truths, One Lie gives the cleanest relationship receipt in the file. Eos includes `Gilli is my reason for joining underlords` and later confirms the mashed-potatoes statement was the lie. That makes Gilli an explicit entry-relationship reason in Eos's own words.",
+          "It still does not tell us who clicked an invite, who had admission permission, whether Discord or game-club membership came first, or how long Eos knew Gilli beforehand. The sentence is better left human-sized: when asked to hide one lie among two truths, Eos assumes `Gilli is my reason` belongs on the truth side of the page."
+        ]
+      }
+    ],
+    closing: [
+      "Eos's archive is strongest where the formal trail gives way to shorthand. EnyoCal becomes Eos without the transition scene surviving. A computer-science deadline becomes ordinary conversation. `dead corpse` becomes `dedddd`. A whole game disaster can be captioned `childe boss fight` plus Marian's name. The room apparently knew the rest.",
+      "And when the wiki needs the cleanest statement of why Eos was there at all, Eos supplies it personally: Gilli. Mashed potatoes take the fall instead."
+    ]
+  },
+
+  hamittey: {
+    intro: [
+      "HamitteY / Wichita is older UL than the later Wall deli counter makes him look. Wichita is HamitteY's direct Dragon Raja IGN, and the older archive places that name in UL's earliest-member layer. The January 2021 Lobby welcome is therefore a Discord-door scene, not the beginning of his relationship with the group. By February he can identify ShiyaX as `the auuuuu guy`, which is exactly the sort of old-house fluency a bare message count misses: the recurring noise is already enough to name the person.",
+      "Run 44 sharpens the much stranger middle of the file. On one November day Anayss says `Unsugar hami`, Sycee produces `Salty Ham`, Snow escalates to `CHEAP HAM!!!`, and Noether eventually returns with `Unsugar hamihami`. Nearby `cheap red packets` and `50 gold` language makes a game-resource / price joke the probable fuel beneath the label machine. Hami's contribution is not a formal correction. He answers the pile-on with cat emotes and lets the room keep packaging him."
+    ],
+    sections: [
+      {
+        period: "2020 – early 2021",
+        title: "Wichita was here before the deli labels",
+        paragraphs: [
+          "HamitteY directly self-files Wichita as his Raja name, and Wichita belongs to the early-member layer. That pushes his social history left of the 2021 Discord intake without inventing an exact admission date, rank, or Staff appointment. When the Bouncer later welcomes him, the software is catching a door event that the human relationship has already outrun.",
+          "The February `get the auuuuu guy` line is tiny but revealing. Hami does not ask who ShiyaX is; he points at the member through a sound the house already associates with him. It does not prove Hami coined AUUUUU or rank their closeness. It proves the recurring bit was usable shorthand in Hami's mouth."
+        ]
+      },
+      {
+        period: "November 2, 2021",
+        title: "The Wall runs Hami through the deli counter",
+        paragraphs: [
+          "The label cascade is almost industrial. `Unsugar hami` becomes `Salty Ham`, then Snow arrives with `CHEAP HAM!!!`, then Noether circles back to `Unsugar hamihami`. The nearby cheap-red-packet / `50 gold` language makes an economic joke the likely engine, but the source image is still uninspected, so the wiki does not invent the exact game mechanic behind it.",
+          "What is already clear without the pixels is the social ease. Four people keep revising Hami's product label in public; Hami answers from inside the joke with cat reactions rather than trying to establish a canonical flavor. The names stay scene language, not permanent aliases. The funny character beat is that Hami's own name has become communal packaging material and he apparently understands the assignment well enough to emote through quality control."
+        ]
+      },
+      {
+        period: "December 2021 – February 2022",
+        title: "When context arrives, use the emergency exit",
+        paragraphs: [
+          "Across three Wall dates Hami reuses the same Peepo walking-out-the-door GIF. The February use is especially clean: Noether tries to explain the scene with `Someone want eat hami, i only said that , context pls`; twenty-eight seconds later Hami posts the exit-door GIF. No counterargument. No revised filing. Due process has arrived and the defendant has left the building.",
+          "The recurrence is enough to call the GIF reusable defense language and not enough to say Hami always fled every embarrassing scene. It also fits the deli episode beautifully: when the room renames him, he reacts from inside the packaging; when somebody tries to explain why he is in evidence, sometimes the only contribution needed is a tiny person walking out a door."
+        ]
+      },
+      {
+        period: "July 2022",
+        title: "Noether and Hami become a renewable Wall commodity",
+        paragraphs: [
+          "By July Anayss tags Noether and HamitteY together and thanks them for `so much material`. Ansun immediately adds another absurd Hami line and Noether keeps the exchange moving. The exact surrounding images stay attribution-fenced, but the peer recognition is explicit: this recurring interaction has become dependable Wall fuel.",
+          "That does not create a duo appointment, romance, or claim that either person authored every exhibit. It gives the relationship a safe public mechanism instead: by then the room expects Noether/Hami interaction to produce evidence. One of UL's earliest members has somehow become a renewable commodity, available in unsugar, salty, cheap, dessert-dispute, and emergency-exit editions."
+        ]
+      }
+    ],
+    closing: [
+      "Hami's file is a nice reminder that longevity does not have to look solemn. The early layer is Wichita and house fluency. The later layer is a group of adults turning his name into a deli-price system and thanking him for the resulting screenshot supply.",
+      "The labels are not aliases. The price jokes are not finances. The fake food economy is not biography. The real character evidence is how comfortably Hami stays inside the bit — sometimes with a cat, sometimes with a Peepo already halfway out the door."
+    ]
+  },
 
   gabu: {
     ...gabu,
