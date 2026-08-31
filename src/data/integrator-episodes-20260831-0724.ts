@@ -18,5 +18,14 @@ export const run64IntegratedEpisodes: Episode[] = [
     kind: "Wall acculturation / the target learns to file back",
     logline: "Zhēnxī's earliest surfaced Wall reaction is immediate horror: `NOOOOOOOOOOO`, then `NOT THE WALL OF SHAME FAME`. Fourteen months later they are the one posting an old Discord screenshot, summoning Ren with `@RΣN so uh-`, laughing through the reaction, and eventually calling the resurfacing `Deserving`. In between, a likely Rummy filing gets another `NOOOOOO`; Rummy true-replies directly to the distress with `I love YoU`, and Zhēnxī answers `I love you too`. The arc is not that embarrassment disappeared. It is better: somebody who once treated the Wall like a trap learned its grammar well enough to become a filer without losing the theatrical panic. The ILY exchange reads as affection and reassurance inside teasing, not romance. Zhēnxī is POSTED BY for the 2022 screenshot; who captured or made it, and who is visibly in it, remain unresolved.",
     cast: ["Zhēnxī", "Rummy", "Ren"]
+  },
+  {
+    id: "ren-kahoot-code-brain-farts",
+    title: "Ren vs. the Kahoot Code",
+    season: "2021",
+    date: "August 7–8, 2021",
+    kind: "Kahoot / organizer self-prosecution",
+    logline: "Ren opens the spelling Kahoot with `OPEN UWUWUWU!!!`, discovers the poster code is wrong, posts `Cause I’m ✨ dumb ✨` with a correction, then has to return the next day because the code is still wrong. This time she calls it `brain farts`, apologizes to the people who already participated, promises a new code and a redo, and follows the confession with an apology GIF. The useful Ren contradiction is not competence versus incompetence. She can turn her own mistake into a joke without making the repair somebody else's problem: public self-roast, direct apology, corrected instructions, rerun the thing.",
+    cast: ["Ren"]
   }
 ];
