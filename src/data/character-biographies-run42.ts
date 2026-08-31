@@ -1,4 +1,6 @@
 import type { CharacterNarrative, NarrativeSection } from "./character-biographies-narrative";
+import { alkeyNarrativeCharacterBios } from "./character-biographies-alkey";
+import { lexiNarrativeCharacterBios } from "./character-biographies-lexi";
 import { deanNarrativeCharacterBios } from "./character-biographies-dean";
 import { taeNarrativeCharacterBios } from "./character-biographies-tae";
 import { run50NarrativeCharacterBios } from "./character-biographies-run50";
@@ -20,6 +22,8 @@ function beforeSection(base: CharacterNarrative, beforeTitle: string, section: N
 export const run42NarrativeCharacterBios: Record<string, CharacterNarrative> = {
   ...run50NarrativeCharacterBios,
   ...run50ExtendedNarrativeCharacterBios,
+  ...alkeyNarrativeCharacterBios,
+  ...lexiNarrativeCharacterBios,
 
   dean: withSection(deanNarrativeCharacterBios.dean, {
     period: "July 2025",
