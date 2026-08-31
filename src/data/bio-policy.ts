@@ -1,26 +1,32 @@
 import { allCharacters } from "./cast";
 
 // Public editorial invariant for every character page and every future integrator pass.
-// The archive is the camera; the biography is the life reconstructed from what it caught.
+// The archive supplies the receipts. The visible biography is about the person.
 export const CHARACTER_BIOGRAPHY_POLICY = {
-  primaryQuestion: "What happened when this person passed through Underlords?",
+  primaryQuestion: "Who is this person, what are they like, how do they move through Underlords, and what makes them unmistakably them?",
   archiveFirst: true,
+  personFirst: true,
+  eventsAreSupportingScenes: true,
   storyBeforeMetadata: true,
+  pettyCrimesLabel: "Petty Crimes",
   requirements: [
-    "Lead with the person's story, not rank, shelf, tags, stats, or a trait list.",
-    "Build the person from archive scenes across time: relationships, recurring behavior, jokes, work, conflict, loyalty, reputation, turning points, absences, returns, and contradictions.",
-    "Treat how other UL members speak to, react to, remember, tease, trust, fight with, or miss the person as biographical evidence when context supports it.",
-    "Keep archive gaps visible. Earliest surviving is not origin; silence is not a personality change; missing evidence does not earn motives or interior states.",
-    "User-confirmed canon may correct or complete archive gaps, but the surviving archive remains the main narrative spine.",
-    "Keep aliases, current roles, era labels, tags, claims ledgers, and canon cautions as supporting reference material rather than substitutes for biography.",
-    "When the archive is thin, publish a short bounded biography instead of filler profile prose.",
+    "Lead with the person: temperament, social style, reputation, recurring behavior, relationships, habits, tastes, contradictions, and how they change over time.",
+    "Use archive events as supporting scenes that reveal character; do not let chronology or receipt order become the default biography structure.",
+    "Several receipts pointing to the same trait or relationship pattern should normally become one synthesized character read.",
+    "Write relationships as lived behavior: who notices absences, checks in, teases, trusts, argues, remembers preferences, gets dragged into bits, or keeps returning to the same person.",
+    "Make formal roles legible through behavior rather than resume bullets.",
+    "Prefer person-shaped section titles about behavior, contradiction, relationship patterns, reputation, or change over year labels and event names.",
+    "Keep provenance, confidence grades, source-method caveats, anti-fanon housekeeping, and technical attribution limits in the supporting layers unless uncertainty materially changes the story.",
+    "Do not use visible archive-report formulations such as evidence shows, archive proves, this receipt establishes, what this does not prove, or repeated source-boundary disclaimers.",
+    "Use Petty Crimes, never Trivia, for small habits, tastes, hobbies, odd details, recurring phrases, tiny humiliations, and miscellaneous person-level lore.",
+    "Keep hard rails hard: user canon, resolved identities, privacy, explicit contradictions, attribution boundaries, and genuinely unresolved conflicts still control publication.",
+    "When material is thin, publish a short specific biography instead of filler or a receipt dump.",
   ],
-  integrationRule: "New person-specific archive evidence should normally enrich that person's biography before spawning duplicate metadata or a detached mini-dossier.",
+  integrationRule: "New person-specific material should normally be folded into an existing trait, relationship, contradiction, character arc, or Petty Crimes section; use a Wiki Episode when the event itself is the better owner.",
 } as const;
 
-// Character biographies do not carry a structured relationship layer. Interpersonal
-// scenes belong inside the life story where they actually happen; the separate Bonds
-// surface keeps its own reference index.
+// Relationship meaning belongs inside the biography where it can be shown in motion.
+// The separate Bonds surface keeps the structured reference index.
 for (const character of allCharacters) {
   delete (character as typeof character & { relationships?: unknown }).relationships;
 }
