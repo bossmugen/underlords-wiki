@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-08-30 22:45 PDT_
+_Last updated: 2026-08-30 23:18 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Earlier run detail remains in Git history and MAIN's dated `archive-intake/INTEGRATION_PASS_*` reports.
 
@@ -9,69 +9,68 @@ This is the current durable dual-surface reconciliation snapshot. Earlier run de
 The lower-evidence project rule remains binding. Hard canon locks, resolved identities, privacy/safety, explicit contradictions, appointment chronology, and attribution fences stay hard; strong ordinary-life, relationship, humor, habit, and social-role reads may publish when the surrounding archive makes them more likely than not.
 
 - **Full census:** 49 tracked miner identities = 28 active remote refs + 21 historical/missing; 0 newly discovered; 0 finite pending review; 0 backlog; 0 overdue.
-- **All Characters** is checkpoint-first reviewed and consumed through `3e2170f6178a53347d580c99f4abc5fcad946891`.
-- **Daycare** is checkpoint-first reviewed and consumed through `f409ec2c65801728183cce73bea9e0f87c896733`.
+- **All Characters** is checkpoint-first reviewed and consumed through `644b861799b3fa9a1268bd39513b181c4541aa9d`.
+- **Daycare** remains consumed through `f409ec2c65801728183cce73bea9e0f87c896733`.
 - **Core Rooms + Events** remains consumed through `0678af091e4b0b610c053f6779330c999a0333e5`.
 - **Louvre / AI Art / Athenaeum / Other Games** remains consumed through `7c540fd7b932e2c2c8b2bab4c47043da07fbd81f`.
 - **Mugen person-first** remains consumed through `4e971f4074f5407f525075d54f6811571bf9108b`.
 - Both **Club-Only** recovery targets remain fully consumed/current: 2021–2026 through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`; 2020 through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`.
-- **Wall** is checkpoint-first reviewed and consumed through `a36bcf3c15de1ea641e292dce65eec2cd33da658`. Its status remains `recovery_in_progress` only because future Wall deltas may still arrive; under the binding consumed-means-reviewed rule, an open cumulative quarry is not a reason to leave an already-reviewed head unconsumed.
+- **Wall** remains reviewed/consumed through `a36bcf3c15de1ea641e292dce65eec2cd33da658` with status `recovery_in_progress` only because future Wall deltas may still arrive.
 - **Whiskey** remains reviewed through `2eb736a93db50aaff812d9ee609e511d3fb71e42`; formal consumed remains `6cd5f9daeb20d77fad20e3cd7465ec938411993d` because older accepted Sye/Life MAIN biography material is still publication-blocked.
 - No miner branch was merged or wholesale cherry-picked into either publishing branch.
 
-## 22:30 Wall recovery review — rails 551–565
+## 23:03 All Characters Run 44 review
 
-`archive-miner-wall-hourly-20260824` advanced from the previously durable review boundary `741d2f3611395962edbcab942e2092d92ec8f53d` to `a36bcf3c15de1ea641e292dce65eec2cd33da658`. MAIN registered the new `last_seen_sha` during the census before deep review. Only changed handoffs under `archive-intake/wall-shame-fame-2020-2026-20260819-1857-pdt/` were read, checkpoint first; raw archives were not re-mined. After successful review and WIKI publication/verification, MAIN advanced Wall's `last_consumed_sha` to the same reviewed head.
+`archive-miner/all-characters-hr-20260828` advanced from consumed `3e2170f6178a53347d580c99f4abc5fcad946891` to `644b861799b3fa9a1268bd39513b181c4541aa9d`. MAIN registered the new head as `pending_review` during the mandatory census before deep review. Only changed handoffs under `archive-intake/all-characters-hr-comprehensive-20260828/` were read, checkpoint first; raw archives were not re-mined.
 
-### The Corpse Logistics Department
+### Aeshleen — reciprocal Van Gogb teasing, already MAIN-owned
 
-The strongest new evidence family starts as retrospective 2020 lore and scales into a 2022 running-joke recurrence. Illien/Euros remembers **every time** he read `we've lost Pride's body` on `cc`; Ren says `I had to make an amber alert`, labels it `For a lost CORPSE`, immediately POSTS an image, then says `I HAVE PROOF`. Sou/Ansun directly tags Pride with `i left you for one sec and you already trying to fucking get away from me`, making it probable/strong that at least one loss involved Pride immediately trying to wander off after Sou looked away.
+Run 44 corroborates that the `aesh van gogb` bit was participatory rather than a one-way nickname pasted onto Aeshleen. Baby Lyssa calls the Aesh/Mugen teasing `bulli with love`; Aeshleen extends the Van Gogh wordplay herself; the next day she explains `that's why mugen calls me aesh van gogb`.
 
-The same-author `I had to make` → label → upload → `I HAVE PROOF` sequence makes **POSTED BY Ren confirmed** and **MADE BY Ren probable/strong**. CAPTURED BY and visual FEATURING remain unresolved because the pixels were not inspected.
+MAIN already carries this richer scene, including the reciprocal teasing and period-nickname boundary. WIKI did not blindly mirror another paragraph merely to make both surfaces match. `aesh van gogb` remains period joke/nickname language, not a permanent alias, art profession, or health claim. The sensitive adjacent material stays private.
 
-On 2022-04-13 Sou POSTS two PNGs under `another Wednesday in UL; losing bodies once again`. Ren announces `He lost THE VAN OF BODIES`; Ricochet explicitly says Snow is losing the bodies; Mugen asks the next morning `We lost bodies again?`; Ricochet says `grandpa snow is misplacing things again`; Anayss says she was misplaced; Tony explains that bodies cannot simply be misplaced; Snow closes with `>_> I Blame DR`.
+### Eos — Childe shorthand and the 2021 `dead` → `dedddd` register
 
-The 2022 scene is confirmed recurrence and participant framing blames Snow. Its continuity with the 2020 Pride-body / Amber Alert material is probable/strong rather than a hard direct callback. No literal corpses, real van, criminal conduct, exact Dragon Raja mechanic, or formal body-tracking responsibility is inferred.
+The WIKI Cast dossier now carries Eos's August 2021 `Context: childe boss fight.............. @Marian Kage` caption as probable Genshin/Childe game texture while preserving all image-attribution fences. The image remains uninspected: who was playing, whose account appears, what happened, and who made/captured the image remain unresolved.
 
-### Ren deliberately re-files Pride's old corpse threat
+The dossier also integrates the May-to-September language shift. Eos first says `so tired that i am a dead corpse`; Mugen pluralizes the bit with a pretty-corpses reply; Eos answers from inside it as a `ded corpse`. Months later two wheeze emotes end in `dedddd`. That supports a same-year death/exhaustion/reaction register, not a permanent Eos persona or an origin claim for every later UL corpse/resurrection joke.
 
-Ren POSTS `Pride bout to kill us for bodies UwU` on 2020-09-07. On 2020-12-29 she says `Let me just bring back the time pride threatened that he was gonna make us into corpses` and POSTS another image sixteen seconds later. The revival itself is confirmed; same threat incident/family is probable/strong; the attachment records are different and are not declared identical.
+The biography keeps the wider person story around those receipts: the stable EnyoCal/Eos account, the computer-science graduation countdown, the recurring Marian Wall dynamic, and Eos's own Two Truths, One Lie statement that Gilli is the reason they joined Underlords while mashed potatoes are the lie. That last sentence is direct relationship evidence, not a license to invent invite mechanics, game-vs-Discord order, or formal recruiter status.
 
-This gives Ren another clean archival-behavior receipt without flattening her into a generic archivist label: she is not merely reacting to old material when it resurfaces; she is explicitly the person hauling it back into court.
+### HamitteY — the Wall opens a deli counter
 
-### Pride and Snow discover operational security for being embarrassing
+The WIKI Cast dossier now carries the November 2, 2021 name-remix cascade: Anayss `Unsugar hami` → Sycee `Salty Ham` → Snow `CHEAP HAM!!!` → Noether `Unsugar hamihami`. Nearby `cheap red packets` and `50 gold` language makes a game-resource / price joke the probable fuel, while the underlying image remains uninspected.
 
-A month before Snow's already-public `best material in vc` scene, Pride watches a screenshot-distribution pocket unfold and says `and this is why Pride stays out of Club chat`, then sips. Together the two scenes support a strong repeated read that some members understood the capture risk changed by venue/medium. Pride avoids one surface; Snow moves the premium material to voice. This is behavior, not a formal privacy/confidentiality rule and not proof VC was screenshot-proof.
+The useful character read is the social ease of the pile-on. Hami answers the evolving product labels with cat reactions instead of a competing canonical explanation. The labels remain scene jokes, not permanent aliases, finance claims, food biography, or romance language. His wider dossier keeps Wichita early-member continuity, `get the auuuuu guy` house fluency, the recurring Peepo exit-door defense, and later peer recognition that Noether/Hami interaction had become dependable Wall material.
 
-The WIKI's existing Snow episode was widened instead of duplicating the same mechanism into a second historical object.
+### Resolver repair — prior accepted Run 43 material is now actually live
 
-### Athena's tiny person beat
+While novelty-checking WIKI, the active character-page resolver exposed a publishing bug: `character-biographies-run43.ts` existed but `character-biographies-run39.ts` did not import/spread it, so accepted Run 43 New, Zoshaa, Mugen, and Ghostt narratives were sitting backstage instead of being selected by the live narrative resolver.
 
-Athena's complete authored Wall footprint in this pocket is only four messages, but it forms a coherent 2022 scene: she loses beauty sleep to a hyped manhwa that turns out `soooo baaaad`, needs a good one to `wash my brain`, then peacefully accepts Mugen routing the discussion to `simp-here` or Whiskey. Historical manhwa interest is publishable; permanent/current taste and sleep routine are not inferred. Athena's two PNGs remain visually uninspected.
-
-The redirect also supplies a bounded room-function receipt: Wall can host the exhibit while longer discussion gets routed elsewhere. One redirect is not inflated into a formal written policy.
+The current reader change imports and spreads `run43NarrativeCharacterBios`. This is not new lore; it is a publication-path repair making previously accepted material genuinely public.
 
 ## Reader publication / verification
 
-Primary reader commit: **`9bf6842876d1eabe3e4b279840fbd8c76bd781cd`** (`wiki: add Wall corpse logistics and Athena scene`).
+Reader commit: **`ebd7405bf8cf8c94de50b18f4c2f6e0ea80eb9b3`** (`wiki: route run43 and deepen Eos/HamitteY dossiers`).
 
-- `src/data/integrator-episodes-20260830-2112.ts` now owns **The Corpse Logistics Department**, **Pride Threatens to Make Corpses, Then Becomes the Missing Corpse**, and **Athena Needs a Manhwa Exorcism**.
-- The existing Snow VC episode was widened to include Pride's earlier Club-chat avoidance, combining the evidence family instead of spawning a duplicate mechanism page.
-- Primary reader **Build Underlords Wiki** run `33361182497` — success.
-- Primary reader **Deploy Underlords Wiki Preview** run `33361182556` — success; Pages build, artifact upload, deployment, and reporting all completed successfully.
+- `src/data/character-biographies-run39.ts` now routes the prior Run 43 narrative layer and adds distinct Eos and HamitteY person-first Cast narratives.
+- **Build Underlords Wiki** run `33363460978` — **success**.
+- **Deploy Underlords Wiki Preview** run `33363460945` — **success**; Pages deployment completed.
 
-A follow-up display fix landed at **`f413317045d01cbafd0b135dc4d75e91c1cc29d1`** (`wiki: fix corpse logistics season label`). The episode detail template expects a numeric season, so the cross-year story keeps its full 2020→2022 date range while the season field is anchored to 2022 instead of rendering `SEASON NaN`.
+Aeshleen's reciprocal Van-Gogb nuance was intentionally left MAIN-owned because MAIN already has the stronger canonical scene and WIKI already has a substantial Aeshleen dossier. This is complementary surface ownership, not evidence rejection.
 
-- Follow-up **Build Underlords Wiki** run `33361278311` — success.
-- Follow-up **Deploy Underlords Wiki Preview** run `33361278374` — success.
+## Bounded negatives / holds from Run 44
 
-The subsequent durable-state head `837e0c20fbc75eb0be255cb0570475a79a6b835f` also passed **Build Underlords Wiki** `33361460503` and **Deploy Underlords Wiki Preview** `33361460483`.
-
-This state revision additionally aligns the Wall consumed SHA with the binding project rule that consumed means reviewed. It does not create a second lore publication event.
+- Tofu and Rooks already have mature public files; this delta did not justify another public layer merely to repeat existing behavior.
+- Nuien's current public material already carries the first-family-tree interpretation; Nuien remains distinct from Illien.
+- Akuma/Matsu's existing public file already owns the identity continuity and later ordinary-life/IT/music-tech texture surfaced by the miner.
+- Crystalia's existing public file already owns the testimonial, water/mermaid language, and game-deletion/social-continuity material. Crystalia is a man.
+- The reverted Noether/HamitteY innocence pocket remains off-limits without independent validation.
+- Uninspected images retain POSTED BY / MADE BY / CAPTURED BY / FEATURING separation.
 
 ## Existing cross-surface holds remain hard
 
-- **Rich / DragonRich is not Ricochet / `dragonrichard`.** WIKI already has the corrected Rich narrative. MAIN still owes removal of its stale collapse once MAIN verification can execute.
+- **Rich / DragonRich is not collapsed into unresolved Ricochet / `dragonrichard`.** A direct bridge is still required.
 - **`sycessences` / `ƐℲı˥` = Sye/Life, not Effie.**
 - Snow was not formally second-in-command / #2.
 - MAIN's Snow biography still owes the direct Wall correction from ShiyaX to **Sou/Ansun** for the screenshot invitation; WIKI already carries the correct attribution.
@@ -81,4 +80,4 @@ This state revision additionally aligns the Wall consumed SHA with the binding p
 
 ## Surface split
 
-WIKI received the reader-facing Wall material because discrete running incidents, callbacks, room behavior, and the Athena scene fit its Episodes layer cleanly. MAIN received no reader prose in this pass: its Wall/history surface already owns the broader editorial story, and its mandatory source/Astro/built-output verifier is still failing before execution. MAIN's Rich identity cleanup and Snow Sou/Ansun attribution correction remain queued rather than being forced around a dead verification gate.
+WIKI received the Eos/HamitteY Cast expansions and the Run 43 resolver repair because those are genuine dossier/publication gaps on this surface. MAIN received no reader prose from Run 44 because its Aeshleen, Eos, and HamitteY pages already contain the same evidence families in richer editorial form. The two repositories remain complementary rather than synchronized copies.
