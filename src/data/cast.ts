@@ -53,7 +53,6 @@ for (const character of extraCharacters) {
 }
 
 export const allCharacters = [...byId.values()];
-export const characterById = new Map(allCharacters.map((character) => [character.id, character]));
 
 export type CastGroup = {
   id: string;
@@ -74,3 +73,6 @@ export const castGroups: CastGroup[] = [
   { id:"vip", label:"VIP", note:"Non-UL visitors / guests with limited access. Not a prestige rank and not adult-only.", characterIds:["zyrcant","rich","woohyuk","syv","woosung","beowulf"] },
   { id:"archive-cast", label:"Archive / Extended Cast", note:"People with real story presence who are not being presented as members of the current living roster.", characterIds:["new","aeshleen","baby-lyssa","panda","rose","may","erys","nothien","akamin","pride","xephy","ciphy","allenne","shiyax","jas","lexi","ricochet","athena","jordayy","mirage"] },
 ];
+
+export const characterById = new Map(allCharacters.map((character) => [character.id, character]));
+export const primaryGroupByCharacterId = new Map(castGroups.flatMap((group) => group.characterIds.map((id) => [id, group] as const)));
