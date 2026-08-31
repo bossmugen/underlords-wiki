@@ -63,5 +63,14 @@ export const late2345IntegratedEpisodes: Episode[] = [
     kind: "Leadership / gratitude ledger with absolutely no escape from house language",
     logline: "Mugen decides that gratitude left unspoken is basically a gift somebody forgot to hand over, so Thanksgiving becomes a public thank-you ledger. Staff-side groups and Tumbleweed family `past and present` are thanked as the club's lifeblood; VIP visitors get their own lane because `You may not be a member but we feel your love through your nightly visits`; Officers get a separate thank-you for `tireless and constant care`, including `Officer work goes mostly unrecognized, but I see your efforts`. The leadership mechanism is recognition: she notices forms of participation that formal membership or visible chat volume can hide, then names the labor and affection publicly. Naturally, the message cannot remain respectable. Covid companionship shares a paragraph with Alabama, kidnapped corpses, newbie-eating, spelling crimes and booty-shaking before Mugen closes with `I love you all` and signs `Your resident plutonian dumdum 👽`. She does not switch into a generic Boss voice to be sincere. The clown register survives because apparently that is also where the sincerity lives. The period `260+ members plus visitors` line is context, not an eternal roster count, and attached role arrays are not appointment chronology.",
     cast: ["Mugen"]
+  },
+  {
+    id: "underlords-kahoot-2021",
+    title: "Do You Really Know Your Club? — Underlords Kahoot",
+    season: "2021",
+    date: "June 4, 2021",
+    kind: "Club game / self-mythology gets a scoreboard",
+    logline: "Leadership plans an Underlords Kahoot built around true/false and quick questions `to see if you really know your club`, with Top 3 prizes and a next-day launch after Defend Boss. Gilli handles the public announcement, and the packaging is aggressively adorable right up until the rules start reading like tournament compliance: one attempt, use your IGN, entrant has to be on the crew list, no alt-account second entry, duplicate-name cheating earns a warning, and the second warning means a ban from future games. The funny part is not that the rules existed; it is that Gilli puts eight hearts around them and somehow makes the threat of future-game exile feel like part of the invitation. The cultural part is even better. Before UL had a formal archive project, it was already turning knowledge of its own people and house culture into competitive quiz material. The club is the subject, and the roster is the checksum. Gilli is the announcement/rules voice here; the announcement credits Leadership with planning the event, so the episode does not quietly promote her to sole creator of the whole thing.",
+    cast: ["Gilli"]
   }
 ];
