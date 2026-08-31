@@ -1,6 +1,8 @@
 ---
 import WikiLayout from "../layouts/WikiLayout.astro";
-import { castGroups, characterById } from "../data/cast";
+import { allCharacters, castGroups } from "../data/cast";
+
+const characterById = new Map(allCharacters.map((character) => [character.id, character]));
 ---
 <WikiLayout title="Orders & Affiliations | Underlords Wiki" description="Underlords orders, ranks, specialist offices, guest affiliations, and historical roster groupings.">
   <section class="hero">
