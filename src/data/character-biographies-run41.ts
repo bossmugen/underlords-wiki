@@ -8,11 +8,12 @@ function withSection(base: CharacterNarrative, section: NarrativeSection): Chara
 
 export const run41NarrativeCharacterBios: Record<string, CharacterNarrative> = {
   moon: withSection(run40NarrativeCharacterBios.moon, {
-    period: "January–August 2022",
+    period: "2022–2026",
     title: "The server keeps sending her back to the front desk",
     paragraphs: [
       "Moon's 2022 continuity is funnier than a clean join-date would be. On January 6 the Lobby newcomer machinery catches the same stable account that is about to become a regular Daycare presence. Moon reacts with `Omg`, says `I was gonna say i joined the wrong server xD`, and supplies the requested identity basics. Her assigned Daycare run begins the next day and continues across the year.",
-      "Then August puts the same account through newcomer machinery again while that Daycare chronology is still alive. Moon asks `What is a ign?`, admits `My brain is trying hard to process ewe`, and keeps filling out the form until Ren says she is settled. The giveaway is Ren's next instruction: keep familiar with the rules and Whiskey, `as you know is our main chat room`. Discord is treating the scene like onboarding; Ren is talking to somebody with prior house knowledge. The safest read is some kind of re-entry or role/server rehydration rather than a genuine first arrival, but the reason is still missing. The little silence around it matters: nobody stops to litigate whether Moon belongs there. They just make her do the paperwork again."
+      "Then August puts the same account through newcomer machinery again while that Daycare chronology is still alive. Moon asks `What is a ign?`, admits `My brain is trying hard to process ewe`, and keeps filling out the form until Ren says she is settled. The giveaway is Ren's next instruction: keep familiar with the rules and Whiskey, `as you know is our main chat room`. Discord is treating the scene like onboarding; Ren is talking to somebody with prior house knowledge. The safest read is some kind of re-entry or role/server rehydration rather than a genuine first arrival, but the reason is still missing. The little silence around it matters: nobody stops to litigate whether Moon belongs there. They just make her do the paperwork again.",
+      "And apparently the paperwork develops a vendetta. The same stable Moon account gets caught in at least seven distinct newcomer/check-in prompts between January 2022 and April 2026. January 18 produces `What?` and a quick DayCare-server check; March 2023 gets another IGN/server/age pass; September 2023 is the clearest self-description because Moon explicitly writes `*returning UL member*` and says she temporarily quit Raja; September 2024 brings another intake; and in April 2026 the bouncer asks again until Moon finally answers `Why 😭` before supplying the fields. The repeated form does not prove one technical cause — rejoin, role loss, permissions churn and bot behavior remain unresolved. Socially, though, seven front-desk encounters are plainly not seven first meetings. The machine keeps asking who Moon is while the people around it keep behaving like they already know."
     ],
   }),
 
@@ -59,6 +60,14 @@ export const run41NarrativeCharacterBios: Record<string, CharacterNarrative> = {
         paragraphs: [
           "In April, an unresolved video prompts one unexpectedly earnest line: `not going to lie i want to try and do this if i ever get married now`. The video itself is not safely resolved, so the archive can keep the aspiration without inventing what the wedding idea actually was or pretending this proves a current relationship.",
           "Then June gives a much more practical affection receipt. Panda reports that `@Ricochet got me my Cheesecake Factory :PandaPERFECTION: (but no cheesecake)`. Whatever the exact pickup/payment/delivery mechanics were, he did something concrete that ended with Panda receiving Cheesecake Factory and immediately filing a customer-service complaint about the missing titular product. Care, but with a ticket number."
+        ],
+      },
+      {
+        period: "July 2021",
+        title: "Panda notices when he goes quiet",
+        paragraphs: [
+          "July gives the Cheesecake Factory favor a social afterimage instead of leaving it as one isolated errand. Panda tells Ricochet `I’ve missed you .. where the heck have you been? 🥺 no response when I asked how you were doing`. Ricochet pushes back gently — `lol...I answered every time I was available` — while Ren adds `I’m glad you’re ok Ric`. Panda then makes the actual concern plain: `Love you Ric 😘 just don’t want to ignore you even if we’re all busy`.",
+          "Nothing in that exchange needs a friendship leaderboard or a merge into somebody else's identity. What it does show is ordinary reciprocal familiarity: Panda notices absence, Ricochet insists he was answering when he could, Ren registers relief, and Panda explicitly frames the check-in as not wanting him to get lost in everybody's busyness. Ricochet later says he hopes things will not be `Just home... like most of the past almost 2 years...`, which gives the quietness some ordinary-life backdrop without supplying a cause the archive never states. The scene is warm precisely because nobody turns it into a ceremony. Somebody went quiet enough to be noticed; the room checks the line is still connected."
         ],
       },
     ],
