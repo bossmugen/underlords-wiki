@@ -1,100 +1,88 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-08-31 11:14 PDT_
+_Last updated: 2026-08-31 11:40 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Earlier run detail remains in Git history and MAIN's dated `archive-intake/INTEGRATION_PASS_*` reports.
 
-## Current boundary — Run 76
+## Current boundary — Run 78, reconciled with concurrent Run 79 census/work
 
 The binding public-bio rule remains: **the person is the spine; events are supporting scenes; the archive stays backstage.** MAIN owns rich person/legend biographies. WIKI owns searchable Cast dossiers plus Episodes, Relationships, Running Gags, Quotes, Locations and Gallery/reference structure. `Petty Crimes` is the public catch-all section name; never `Trivia`.
 
 Hard user canon, resolved identities, privacy/safety, explicit contradictions, appointment chronology and attribution fences remain hard. Outside those rails, strong contextual reads about habits, relationships, humor, care patterns, ordinary life, reputation and social roles may publish when more likely than not.
 
-- Full opening census: **49 tracked miner identities = 28 active refs + 21 historical/missing; 0 newly discovered; 2 finite pending branches at opening; 0 backlog; 0 overdue.**
-- Finite pending review after close: **0**.
-- Both Club-Only recovery priorities remain consumed/current: 2021–2026 through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`; 2020 through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`.
-- Wall recovery was rechecked current/consumed at `7118b5ef4caed4f2a6d31884f48bbf763b0ee861`; quarry remains NOT EXHAUSTED for future movement only.
-- All Characters HR was reviewed from consumed `7f055dc0181883d537cb3f4feac017c49928e84b` through `a5472ad4bd7889c705864b911e17cf9e17c8afc7`.
-- Mugen person-first was reviewed from prior reviewed-through `c8f098ae1647b27b53225c8e8789268bab7083be` through `aa22d5bad16251341b054ed1cfa62418bcf1bd90`.
-- Core Rooms, Daycare, Mugen person-first, Whiskey, and now All Characters remain formal MAIN publication holds because accepted MAIN work cannot clear MAIN's pre-execution verifier. `reviewed_through_sha` prevents rereading those deltas.
+- Full opening census persisted by Run 78: **49 tracked miner identities = 28 active refs + 21 historical/missing; 0 newly discovered; 2 finite pending branches; 0 backlog; 0 overdue.**
+- Run 78 reviewed the advanced Core Rooms and Whiskey suffixes. During the pass, Core gained a checkpoint-only tail through `2314babccfc4cce1da0f7e3f7716e28e36c90280`; it was re-read and contained no new substantive evidence beyond the already reviewed 11:20 package.
+- Recovery-open Wall advanced concurrently to `77450cd0fd0f5bdb418b139cfb4bee125d0ca1d5`; Run 78 also reviewed that intake-only suffix. Its Illien courier/Ren shared-humor and Ghostt `porpcorn` seams are real but were already being integrated by concurrent Run 79, so Run 78 did not duplicate them.
+- Both Club-Only recovery priorities remain current: 2021–2026 through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`; 2020 through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`.
+- Five branch families remain formal MAIN publication holds because accepted MAIN work cannot clear MAIN's pre-execution verifier: All Characters HR, Core Rooms, Daycare, Mugen person-first, Whiskey. Their `reviewed_through_sha` fields prevent rereading reviewed deltas.
 - No miner branch was merged or wholesale cherry-picked; no raw archive was re-mined.
 
-## Run 76 review / reconciliation
+## Run 78 public integration
 
-### Eos recognizes a friend before the infrastructure finishes explaining itself
+### Woohyuk: the roast is part of the affection, not an interruption of it
 
-All Characters HR gives Eos / EnyoCal another relationship that is neither Marian screenshot court nor Gilli origin lore. In January 2021 Milo sees Eos and immediately goes `WAIT EOS HII BESTIE`, says being in the same club is `truly a gift`, and Eos answers at the same temperature: `Milo Chan I didnt know you were here xD` / `life is full of surprises`.
+Whiskey's June 29, 2021 birthday pocket gives Woohyuk a much better social reputation read. Different people independently arrive with `pancake`, `wookie`, `BIG WHALE`, `DIRtY ASS I LOVE YOU`, `WOMB EVICTION DAY`, and Snow's flat-ass prosecution. Woohyuk's answer is sincere — `Thank you everyone, I appreciate the birthday wishes, Love yall sincerely` — and then he signs it `(from the person with the fattest ass) UwU`.
 
-The club reshuffle is background noise. Recognition is the scene. Nobody needs to stop and declare a formal relationship tier; two people are plainly pleased to have landed in the same place.
+That is not a target enduring a roast until the nice part starts. The nice part and the roast are the same dialect, and Woohyuk actively speaks it back. WIKI folds this into his active VIP dossier as relationship/reputation texture rather than a detached birthday-event dump.
 
-By April Milo is talking about going free-to-play and slowly quitting. Eos answers `You finally limiting yourself, u whale ... good`. `Finally` notices the change, `u whale` preserves the roast, and `good` approves it. The line is useful because care does not require Eos to change dialect. Encouragement can stay inside the joke.
+His `Petty Crimes` now also catches the smaller person stuff the structured file was missing: Valentine's chocolate maximalism, craving shave ice cream, calling Why Don't We the `best group` in the immediate male-pop conversation, and the existing watermelon-fraud prosecution. The preference stays contextual rather than being inflated into an eternal exclusive favorite; birthday body language stays joke grammar rather than a literal body dossier; the origin of `pancake` remains unresolved.
 
-WIKI folds this into the active Eos narrative as relationship texture plus a small `PETTY CRIMES` beat rather than adding another timestamped incident card.
+### LilithEl: unsure whether the door is still hers; welcomed before the bureaucracy can answer
 
-### Mugen's newest handoff was already living on the public surfaces
+Core's November 18, 2020 return scene is routed to WIKI as the Episode **LilithEl's Account Was On Vacation**. LilithEl says she has not played in forever and `idk if i'm still in underlords oops`; Gilli immediately answers `OMGGGG` / `WELCOME BACK!`; Mugen replies directly, `Dw bb I saved your account on vacation uwu`.
 
-The Mugen person-first suffix adds three strong relationship reads, but the public system had already caught most of them by the time this pass reconciled current branches.
+The emotional sequence matters more than an invented policy manual. LilithEl doubts her status. Gilli recognizes the person first. Mugen has already preserved continuity and describes the operational act in affectionate house language. `Vacation` is therefore treated as Mugen's language for this individual preservation action, not proof of a universal inactivity policy, threshold, duration or exact technical role state.
 
-- Nobu says `I'm home now uwu`; Mugen answers `Put your slippers on`. MAIN Mugen already had the domestic-return beat. During this run a concurrent WIKI commit also folded the same scene into Nobu's own biography, where it does a different job: the Party Director title gets remembered, then the relationship steps around the title and settles the person back into the house.
-- Ritha's Tower of God / `HIIII RITHA :d` / `and hiii mugs uwu` scene was already person-first on WIKI Ritha: an old friendship visible in shared media talk with no ceremony.
-- Gilli's `LadyMugen` -> `Mug's Husbando` register change was already person-first on WIKI Gilli: formality drains out of the relationship while the joke moves into Gilli's own self-presentation.
+### Concurrent Wall suffix deliberately not duplicated
 
-No duplicate Mugen receipt-stack paragraph was added. Slippers remains social-house language, not literal cohabitation; Ritha is the person explicitly documented following the Tower of God webtoon for years; `Mug's Husbando` remains joke/social language rather than marriage or romance.
+Run 78 reviewed Wall's newly visible `7118b5ef... -> 77450cd0...` suffix after the opening census. Illien is already ferrying receipts into the Wall by its second surviving day, with Ren responding almost instantly; Ghostt later answers a spelling casualty by declaring `porpcorn` the word now. Those are good person seams. A concurrent Run 79 WIKI file, `src/data/character-biographies-run79-wall.ts`, was already adding exactly those Illien/Ghostt reads while Run 78 was closing, so Run 78 left public ownership there rather than stapling on duplicate paragraphs.
 
-### Bounded negatives stayed bounded
-
-The other All Characters qualification targets — Tofu, Rooks, Aeshleen, HamitteY, Nuien, Akuma/Matsu and Crystalia — did not produce enough genuinely new person-level material to justify public filler. They closed as successful no-public-change reviews.
-
-## Public work / verification — Run 76
+## Public work / verification — Run 78
 
 ### MAIN SITE
 
 Reader-facing pages changed: **none this run**.
 
-Eos/Milo is a real complementary MAIN biography deepener, but MAIN's verification infrastructure still fails before commands execute. Run 76 opening-census head `b454fbe83bb4c0833760b5887aaa02609e8527de` triggered `UL Hourly Build + Deploy` run `33422857565`: `Build + verify` failed with `steps: []` and runner ID `0`; Cloudflare deployment was skipped with no steps. Source verification, Astro and built-output verification therefore never ran.
+The Whiskey Woohyuk birthday/Petty-Crimes material is a real complementary MAIN biography deepener, but MAIN's verification infrastructure still fails before commands execute. Run 78's census head `20c6ce38ca35db67bd72ad5462879203728d75fb` triggered `UL Hourly Build + Deploy` run `33424892239`: `Build + verify` failed with runner ID `0` and `steps: []`; Cloudflare deployment was skipped with no steps. Source verification, Astro and built-output verification therefore never ran. No reader content was routed around the dead gate and no Cloudflare deployment is claimed.
 
-MAIN receives the mandatory census, post-review branch ledger and dated Run 76 integration report. No reader content was routed around the dead gate and no Cloudflare deployment is claimed without a successful workflow.
+Core's LilithEl seam was intentionally published only as a WIKI Episode this run rather than appended to Mugen's already-rich MAIN biography. The scene's strongest public job is structured return/inactivity history, not another Mugen receipt paragraph.
 
 ### WIKI
 
-Reader-facing work:
+Reader-facing work at Run 78 reader head `53998f5a790cedfade5089cca470ce24c6db16f1`:
 
-- `src/data/character-biographies-run75.ts`: active Eos narrative gains the Milo recognition / roast-wrapped approval relationship seam and a `PETTY CRIMES` line.
-- `src/data/character-biographies-nobu.ts`: concurrent current-branch work folds `I'm home now uwu` -> `Put your slippers on` into Nobu's return biography instead of leaving it as generic role history.
+- `src/data/character-bios-vip.ts`: Woohyuk gains the birthday mutual-roast relationship/reputation read, a June 29 history beat, `Affection arrives pre-roasted`, and `Petty Crimes`.
+- `src/data/integrator-episodes-20260831-1122.ts`: adds `lilithel-account-on-vacation`.
+- `src/pages/episodes/index.astro` and `src/pages/episodes/[id].astro`: wire the new episode into the index and static routes.
 
-Eos reader head `45e227d0e483cda8974c6d40fc0ba52c59d55f5b` passed:
+Exact reader head verification:
 
-- Build Underlords Wiki `33423465789`: **SUCCESS**.
-- Deploy Underlords Wiki Preview `33423465828`: **SUCCESS**.
+- Build Underlords Wiki `33425725059`: **SUCCESS**.
+- Deploy Underlords Wiki Preview `33425725031`: **SUCCESS**.
 
-Current reader head before this state commit, `b12b692edaa231cf447e9cbac43572a8ea660555`, includes the Nobu slippers fold and passed:
+A concurrent Run 79 commit then added `src/data/character-biographies-run79-wall.ts` on top of the verified reader head. This state update preserves that work rather than overwriting it. Run 78 does not claim Run 79's Wall file as its own publication.
 
-- Build Underlords Wiki `33423681006`: **SUCCESS**.
-- Deploy Underlords Wiki Preview `33423680982`: **SUCCESS**.
+## Reconciliation fences held
 
-This state commit records those publication results and will receive its own exact-head build/Pages verification.
-
-## Hard rails held
-
-- Rich = DragonRich; Ricochet / `dragonrichard` stays separate.
-- Syv is not Sye/Life; `sycessences` / `ƐℲı˥` = Sye/Life, not Effie.
-- Snow is not formal second-in-command / #2.
-- WhitePhoenyx = Xephy, not WolfPhenix.
-- Candy / later Luna is not HyaLuna.
-- Cookie is Staff; Han, not Cookie, is UL Media Director / filmmaker.
-- Mugen founded UL; the other four members of the founding circle do not become five equal co-founders.
-- No appointment chronology from export-time/current role arrays.
-- Joke family language is not literal genealogy; joke flirting/romance is not literal romance without support.
-- `BESTIE`, `Husbando`, `home` and `slippers` are social language unless independent evidence says otherwise.
+- `Vacation` is one confirmed LilithEl preservation action plus a strong person-level read, not a universal inactivity taxonomy.
+- LilithEl's `69 years old` line remains a joke, not age evidence.
+- YozoraRemnant is Cipher's friend/account helper, not Cipher; temporary account use is not identity equivalence.
+- `Kross` remains only a probable same-scene referent for Pyro, not a hard alias.
+- Marsello's Spanish/anime-Japanese banter does not establish nationality, ethnicity or Japanese fluency.
+- Woohyuk's birthday ass/whale/pancake language is mutual roast grammar, not literal body-description canon.
+- Why Don't We is a strong contextual Woohyuk preference in the immediate conversation, not an eternal exclusive favorite.
+- The likely Woohyuk reaction to Mere does not globally resolve the pooled Deleted User account to Mere; Akamin remains separate from Mere.
+- Illien POSTED/LINKED the Wall objects; source author, maker, capturer and people shown remain unresolved.
+- Ghostt's `porpcorn` joke does not assign the original typo to Gilli or establish permanent UL vocabulary.
 - SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct.
 
 ## Consumption / next boundary
 
-MAIN's post-review branch ledger is the controlling consumption record.
+MAIN's branch ledger remains the controlling consumption record.
 
-- All Characters HR: `reviewed_through_sha = a5472ad4bd7889c705864b911e17cf9e17c8afc7`; formal consumed remains `7f055dc0181883d537cb3f4feac017c49928e84b` because the accepted complementary MAIN deepener cannot yet pass verification.
-- Mugen person-first: `reviewed_through_sha = aa22d5bad16251341b054ed1cfa62418bcf1bd90`; formal consumed remains `8240054d3d27235ce9da97269fed033c699f9600` behind older accepted MAIN verification debt.
-- Wall remains current/consumed at `7118b5ef4caed4f2a6d31884f48bbf763b0ee861` and recovery-open only for future suffixes.
+- Core Rooms: reviewed through `2314babccfc4cce1da0f7e3f7716e28e36c90280`; formal consumed remains `c9b33dca5df5fe46b8594a999ac888253a1ff27f` while older accepted MAIN publication debt remains blocked.
+- Whiskey: reviewed through `5f3946fadef021520205635d63f8b8d9bd681f16`; formal consumed remains `e381584248426262d36f254ca275151bdaf69dd9` because the complementary MAIN Woohyuk deepener cannot yet pass verification and older Sye/Life debt remains.
+- Wall: reviewed through concurrent head `77450cd0fd0f5bdb418b139cfb4bee125d0ca1d5`; formal consumed remains `7118b5ef4caed4f2a6d31884f48bbf763b0ee861` while concurrent accepted WIKI Wall publication finishes verification. Recovery remains open for genuinely new future suffixes.
 - Both Club-Only recovery branches remain current.
 
-The Run 76 editorial gain is small and wonderfully human: Milo spots Eos and the club field immediately becomes less important than **oh shit, my friend is here**. Three months later Eos can approve Milo limiting the grind without surrendering the right to call him a whale. Emotional support remains fully operational; dignity remains out of scope.
+Run 78's cleanest character gain is Woohyuk saying `Love yall sincerely` and then refusing to let sincerity have the last word. The affection is real; dignity is still optional.
