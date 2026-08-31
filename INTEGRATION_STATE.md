@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-08-30 21:43 PDT_
+_Last updated: 2026-08-30 21:46 PDT_
 
 This file is the current durable reconciliation snapshot. Earlier run-by-run states remain in Git history and MAIN's dated `archive-intake/INTEGRATION_PASS_*` reports; the live file stays compact so stale summaries do not outrank current branch state.
 
@@ -13,7 +13,7 @@ The lower-evidence project rule remains binding. Hard canon locks, resolved iden
 - **49 tracked miner identities = 28 active remote refs + 21 historical/missing; 0 newly discovered; closing finite pending review: 0; backlog: 0; overdue: 0.** MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` is authoritative for per-branch `last_seen_sha` versus `last_consumed_sha`.
 - **Core Rooms + Events** was checkpoint-first reviewed from `9a08adfe1cd48ce426740d2e5055f82e8f4cdd4d` through `0678af091e4b0b610c053f6779330c999a0333e5`. The accepted family is Seek and Pose, WHOMSTF, the Revolution doorway wave, bounded Ghostt ordinary-life texture, and Oyasumi's newcomer-to-later-onboarding progression. Its current delta is fully reviewed; the miner quarry itself remains open for future advances.
 - **Louvre / AI Art / Athenaeum / Other Games** was checkpoint-first reviewed from `2729233223553a851058805e23776101c198630f` through `7c540fd7b932e2c2c8b2bab4c47043da07fbd81f`. New/Newmal and Zoshaa received substantive public dossier continuations; Torr's QOTD texture remained corroborative rather than a forced standalone profile rewrite.
-- **Mugen person-first** was checkpoint-first reviewed from `d981abba9e390083de7789e1793587f11a0ab690` through `1fa58d236b5866b72548131474828ff29fc69c53`. The accepted addendum is Mugen's live WHOMSTF rule patch, her explicit `take screenshots out of context` comedy-craft advice, New's Gen→Mugs→Dean reverse angle, and Dean naming **Key and Mugs together** as people around whom self-expression became a little easier.
+- **Mugen person-first** was checkpoint-first reviewed from `d981abba9e390083de7789e1793587f11a0ab690` through final current head `4e971f4074f5407f525075d54f6811571bf9108b`. The substantive 21:22 addendum is Mugen's live WHOMSTF rule patch, her explicit `take screenshots out of context` comedy-craft advice, New's Gen→Mugs→Dean reverse angle, and Dean naming **Key and Mugs together** as people around whom self-expression became a little easier. The later `1fa58d23... -> 4e971f40...` suffix only expands that same family into checkpoint/findings/receipts/rabbits/site/public-routing files; it was reviewed and consumed without inventing another discovery.
 - **All Characters** remains consumed through `8946faed42eb4020254083947b36591945294908`; Run 42's Dean/Tae dossiers are now explicitly routed through the public character-biography resolver along with this run's additions.
 - **Daycare** remains consumed through `5e71ecedd5724677208150d5652b4409dd8a5f63`.
 - Both **Club-Only** recovery branches remain fully consumed/current: `archive-miner/club-only-2021-2026-hourly` through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`, and `archive-miner-clubonly-2020-hourly` through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`.
@@ -41,6 +41,7 @@ The lower-evidence project rule remains binding. Hard canon locks, resolved iden
 
 - Mugen's WHOMSTF addendum and Core's WHOMSTF event are one evidence family, not two discoveries. WIKI uses the event for the public game scene and the person-first addendum for Mugen's character mechanism.
 - New's Gen→Mugs→Dean statement appears in Louvre and in Mugen's person-first reverse angle. It is one social-chain receipt, integrated once per distinct narrative purpose rather than counted twice.
+- Mugen's late packaging suffix through `4e971f40...` is derivative handoff structure, not another public lore event.
 - Oyasumi's 2022 newcomer form plus 2023 onboarding work strengthens an existing progression, but exact Officer appointment date remains unresolved and exporter role arrays are not used to invent it.
 - Revolution's mixed S3/S6/S5 labels support merged-server complexity; exact official merge topology remains unresolved. The visitor wave does **not** create another formal alliance.
 - Exact ages of minors in doorway forms are not reproduced publicly. Sensitive Mirage fear/home material was intentionally held.
@@ -51,14 +52,14 @@ The lower-evidence project rule remains binding. Hard canon locks, resolved iden
 
 ### Verification / deployment
 
-Fresh reader head before this state-only close: **`5f2edb630231f013e9c380957e3ba652905bdc32`**.
+Fresh reader head before state-only close: **`5f2edb630231f013e9c380957e3ba652905bdc32`**.
 
 - **Build Underlords Wiki** `33358014891` — **success**.
 - **Deploy Underlords Wiki Preview** `33358014903` — **success**, including Pages deployment.
 
-This state file is committed only after that reader head passed its own build and deployment. The state-only head receives its own exact-head build and Pages close check next.
+The first state-only head was superseded when Mugen's final derivative packaging head was noticed in the already-persisted MAIN census. This corrected state head records the true reviewed boundary and receives its own exact-head build and Pages close check.
 
-MAIN's branch census was persisted before deep review, including late Core, Louvre, and then Mugen movement. MAIN reader files were intentionally not changed in this pass: the strongest accepted material already has clean WIKI dossier/Episode owners, while MAIN's mandatory verifier remains infrastructure-blocked before execution. The exact MAIN consumption-state/report close and workflow result are recorded on MAIN after this WIKI state close.
+MAIN's branch census was persisted before deep review, including late Core, Louvre, and Mugen movement. MAIN reader files were intentionally not changed in this pass: the strongest accepted material already has clean WIKI dossier/Episode owners, while MAIN's mandatory verifier remains infrastructure-blocked before execution. The exact MAIN consumption-state/report close and workflow result are recorded on MAIN after this WIKI state close.
 
 ### Surface split
 
