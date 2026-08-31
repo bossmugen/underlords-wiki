@@ -2,31 +2,24 @@ import { vipCharacterBios } from "./character-bios-vip";
 
 export const deepVipCharacterBios = {
   rich: {
-    ...vipCharacterBios.rich,
-    overview: [
-      ...vipCharacterBios.rich.overview,
-      "The earlier Lobby record makes the later bridge-builder role less ceremonial and more ordinary. On April 7, 2020, the stable dragonrichard / Ricochet account is already fumbling through catch commands at a Steelix — `!!catch steelix`, then `p.catch steelix`, then `P.catch`. A month later Rich drops `FCVTGKN` and immediately explains `today's cdkey`; another player answers `ThX`. The same person who can be the obvious Amaurot contact is also just in the shared room testing bots and passing around something useful. That does not make him a UL officer, game officer, or technical specialist. It does make the interclub bridge feel lived-in rather than diplomatic cosplay.",
-      "The useful continuity is therefore smaller than a grand theory and stronger than a title: Rich repeatedly reduces friction around shared spaces. In 2020 that can be an S10-wide room or a daily code; in 2024 it can be a voice room where somebody wakes up to his voice, watches him cook, or considers downloading the game he is showing. The archive supports the repeated social motion — make something available, people use it — without needing to invent a hospitality department around him."
+    dek:"Amaurot leader, UL VIP, interclub switchboard, and the man whose S10 bridge-building eventually shrank into people hanging out in his digital kitchen.",
+    overview:[
+      "Rich / DragonRich is an UL VIP and the former leader of Amaurot, one of S10's opening-era top three clubs. That old rank is external-club history, not a UL command appointment; the VIP shelf is exactly what lets the wiki preserve both facts without pretending Amaurot leadership transferred into Underlords.",
+      "The 2020 record catches Rich doing something more useful than merely carrying a title. Snow asks him whether anyone else from Amaurot wants to join, treating him as the obvious contact point. Five days later Mugen advertises an S10-wide channel DragonRich created. Before any later merger, people were already moving through doors Rich stood near.",
+      "By late 2024 the scale is almost comically domestic. Richard's Corpse is full of other people reacting to Rich apparently cooking, talking, streaming, and showing games while Rich himself leaves little text. The old interclub bridge has become a living room: people still cross into the space because Rich is there."
     ],
-    history: [
-      { date: "April 7, 2020", title: "The Amaurot leader is already fighting a Steelix bot", text: "The stable Ricochet account cycles through three catch-command variants in Lobby. It is mundane evidence that Rich is already inhabiting the shared server as a participant, not merely appearing later as an external-club contact." },
-      ...vipCharacterBios.rich.history,
-      { date: "May 11, 2020", title: "today's cdkey", text: "Rich posts `FCVTGKN`, labels it `today's cdkey`, and another player answers `ThX`. One small game-help receipt adds a practical layer to the larger bridge-building record without creating a Game Officer appointment." }
+    history:[
+      {date:"April 2020",title:"Amaurot contact point",text:"Snow asks Rich whether anyone else from Amaurot wants in. The word 'else' makes the social assumption visible: Rich is already the person UL asks when it needs to reach that neighboring club."},
+      {date:"April 2020",title:"A room above club boundaries",text:"Mugen announces that DragonRich, identified as Amaurot Leader, created an S10 channel for anyone interested. It proves cross-server infrastructure, not the cause or date of the later merger."},
+      {date:"Later",title:"Amaurot merges under UL",text:"The merger is user-confirmed canon. Rich remains filed as VIP because his outside-club lineage should not be rewritten as a UL Officer career."},
+      {date:"October–December 2024",title:"Richard's Corpse becomes a living room",text:"Sye reacts to an apparent cooking/hangout session, Momo says Rich's voice startled her awake, and Tae considers downloading a game because Rich is showing it. Sparse text from Rich does not mean sparse presence."}
     ],
-    characterNotes: [
-      ...vipCharacterBios.rich.characterNotes,
-      { title: "Infrastructure can be extremely unglamorous", text: "The S10 room is the large version; a daily code dropped into Lobby is the tiny version. Both are evidence of lowering the cost of other people getting somewhere or getting something, not proof of a formal service role." }
+    characterNotes:[
+      {title:"Make a room; people cross into it",text:"A useful continuity from S10 bridge-building to late voice-room hosting. The scale drops from interclub infrastructure to digital-kitchen hanging out; the social motion survives."},
+      {title:"Voice-channel data trap",text:"Rich can be socially central while barely typing. The surrounding text is evidence of attention organized around him."}
     ],
-    claims: [
-      { text: "On April 7, 2020, the stable dragonrichard / Ricochet account used three successive Steelix catch-command variants in Lobby: `!!catch steelix`, `p.catch steelix`, and `P.catch`.", evidence: "lobby", date: "2020-04-07" },
-      { text: "On May 11, 2020, Rich posted `FCVTGKN` in Lobby and immediately identified it as `today's cdkey`; another player replied `ThX`.", evidence: "lobby", date: "2020-05-11" },
-      { text: "The Rich / Ricochet account appears in ordinary Lobby bot and game-help activity before and alongside the better-known Amaurot bridge receipts; export-time role arrays are not used to date a UL appointment.", evidence: "archive-confirmed", date: "2020" }
-    ],
-    canonNotes: [
-      ...vipCharacterBios.rich.canonNotes,
-      "Ordinary Lobby participation does not convert Rich's Amaurot leadership into a UL command role.",
-      "The export's role arrays are not appointment chronology; the new Lobby receipts are used for behavior and account continuity only."
-    ]
+    roleNotes:["Primary shelf: VIP.","Former Amaurot leader; external-club context only."],
+    canonNotes:["Rich = DragonRich. Ricochet / dragonrichard is a separate unresolved identity and must not be merged into Rich without a direct bridge.","Amaurot leadership does not transfer into UL command.","Rich creating an S10 channel does not prove that channel caused the later merger.","Sparse VC text is not evidence of sparse VC participation."]
   },
 
   zyrcant: {
