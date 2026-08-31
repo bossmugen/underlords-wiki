@@ -35,29 +35,33 @@ export const vipCharacterBios = {
     characterNotes:[
       {title:"Old org chart, new house grammar",text:"Her strongest arc is the shift from institutional provenance to ordinary UL social fluency."}
     ],
-    roleNotes:["Primary shelf: VIP.","Former Amaurot deputy; external-club history."],
+    roleNotes:["Primary shelf: VIP.","Former Amaurot deputy; external-club context only."],
     canonNotes:["Zyrcant is a woman; Akariel is the same person.","Former Amaurot deputy does not make her a UL Officer.","'Tackles ppl' is a joke, not violence or a relationship rank."]
   },
 
   woohyuk: {
-    dek:"VIP, Wall-native guest, direct complainer, low-volume worrier, and the man willing to prosecute watermelon as sweet water in disguise.",
+    dek:"VIP, Wall-native guest, direct complainer, low-volume worrier, and the man whose birthday thank-you somehow includes his own ass as closing argument.",
     overview:[
       "Woohyuk / ash_island is a UL VIP whose surviving scenes are useful precisely because he rarely performs guest-ness. In October 2020 an access mistake gets 'BRUH MUGEN LOCKED ME OUT,' a shouted call for Mugen, Ren routing the problem upward, and Mugen answering 'took out wrong tag.' There is almost no hierarchy theater around the error; the room treats the fix like house maintenance.",
       "By 2021 Woohyuk is fluent in Wall procedure. He asks whether they are doing throwback shames and immediately posts an attachment, calls Aeshleen reaching the Wall in under an hour 'a record,' and answers Tofu's request for evidence with 'Sheeet I gotchu.' None of that creates a formal Wall office. It does show a VIP who already knows what kind of stupid legal system this house runs.",
-      "The same compressed register carries concern. 'please sleep' is two words; a possible security warning gets passed toward Staff without becoming a self-appointed cybersecurity job. Comic complaint and care both arrive with very little packaging."
+      "The same compressed register carries concern. 'please sleep' is two words; a possible security warning gets passed toward Staff without becoming a self-appointed cybersecurity job. Comic complaint and care both arrive with very little packaging.",
+      "His June 2021 birthday makes the social dialect around him unusually visible. Different people independently arrive with 'pancake,' 'wookie,' 'BIG WHALE,' 'DIRtY ASS I LOVE YOU,' 'WOMB EVICTION DAY,' and Snow's flat-ass prosecution. Woohyuk does not stand there nobly enduring the roast. His own thank-you ends 'Love yall sincerely (from the person with the fattest ass) UwU.' The affection and the insult grammar are not competing signals; he is speaking the same language back."
     ],
     history:[
       {date:"October 2020",title:"Wrong tag, immediate complaint",text:"Woohyuk says Mugen locked him out; Ren tags Mugen; Mugen says she removed the wrong tag. The scene is socially clear even though exporter role arrays cannot reconstruct the technical chronology."},
       {date:"December 2020",title:"Please sleep",text:"Woohyuk drops a terse sleep nudge into the room and directly reacts when Lilly says goodnight. The exact original addressee remains unresolved."},
       {date:"February 2021",title:"Pass the warning upstairs",text:"Gilli credits a circulating Discord warning to Woohyuk while explicitly keeping its truth uncertain. The receipt proves an information path, not technical expertise."},
       {date:"March–June 2021",title:"Wall fluency",text:"Throwback shames, Aeshleen's speedrun, and Tofu's receipt request all show Woohyuk participating in UL's evidence culture without needing the rules explained."},
+      {date:"June 29, 2021",title:"The birthday roast is mutual",text:"Birthday wishes arrive wrapped in pancake, wookie, whale and ass jokes. Woohyuk answers the entire room with a sincere 'Love yall' and immediately signs it from 'the person with the fattest ass.' He is not merely the target of the house dialect; he actively keeps it going."},
       {date:"July 2021",title:"Watermelon fraud case",text:"Woohyuk reduces watermelon to 'just sweet water' in melon form that is 'tryna play us dumb.' Three messages, one produce indictment."}
     ],
     characterNotes:[
-      {title:"Small sentences, strong social fluency",text:"His archive voice often does a lot with very little: complaint, cooperation, concern, or absurd prosecution."}
+      {title:"Small sentences, strong social fluency",text:"His archive voice often does a lot with very little: complaint, cooperation, concern, or absurd prosecution."},
+      {title:"Affection arrives pre-roasted",text:"The birthday scene is useful because sincerity does not require the room to stop insulting him. Woohyuk's own answer preserves both at once: genuine thanks, then immediate self-directed ass jurisdiction."},
+      {title:"Petty Crimes",text:"Valentine's Day advice includes brushing your teeth with chocolate, bathing in chocolate, and drenching yourself with chocolate. Elsewhere he craves shave ice cream, calls Why Don't We the 'best group' in the immediate male-pop context, and prosecutes watermelon for disguising sweet water as a melon. His food and music opinions rarely arrive at indoor volume."}
     ],
     roleNotes:["Primary shelf: VIP."],
-    canonNotes:["VIP does not become formal UL membership because Woohyuk is socially fluent.","The forwarded warning does not make him a security specialist.","Uninspected Wall attachments remain undescribed."]
+    canonNotes:["VIP does not become formal UL membership because Woohyuk is socially fluent.","The forwarded warning does not make him a security specialist.","Uninspected Wall attachments remain undescribed.","The birthday body-language is mutual joke grammar, not a literal body-description dossier.","The origin of the pancake nickname remains unresolved.","'Best group' supports a strong Why Don't We preference in that immediate conversation, not an eternal exclusive favorite."]
   },
 
   syv: {
