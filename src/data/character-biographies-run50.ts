@@ -1,4 +1,13 @@
-import type { CharacterNarrative } from "./character-biographies-narrative";
+import type { CharacterNarrative, NarrativeSection } from "./character-biographies-narrative";
+import { narrativeCharacterBios } from "./character-biographies-narrative";
+import { moonNarrativeCharacterBios } from "./character-biographies-moon";
+import { renNarrativeCharacterBios } from "./character-biographies-ren";
+import { gilliNarrativeCharacterBios } from "./character-biographies-gilli";
+
+function withSection(base: CharacterNarrative | undefined, fallback: CharacterNarrative, section: NarrativeSection): CharacterNarrative {
+  const source = base ?? fallback;
+  return { ...source, sections: [...source.sections, section] };
+}
 
 export const run50NarrativeCharacterBios: Record<string, CharacterNarrative> = {
   mirage: {
@@ -43,5 +52,57 @@ export const run50NarrativeCharacterBios: Record<string, CharacterNarrative> = {
     closing: [
       "Mirage is a good example of how extended UL cast becomes real without needing a formal rank. A casual Revolution-side doorway, a `hello fam`, a song rec, a game correction, coffee-shop regret and one thoughtful answer about learning are enough to make the outline recognizable. The social house keeps the person even when Dragon Raja itself is not the current activity."
     ]
-  }
+  },
+
+  moon: withSection(moonNarrativeCharacterBios.moon, {
+    intro: ["Moon notices whether a room is alive, then usually says the useful part out loud."],
+    sections: [],
+  }, {
+    period: "2025–2026",
+    title: "The crown is worthless if the room feels empty",
+    paragraphs: [
+      "Two later game rooms make Moon's social instincts look less like endless helpfulness and more like judgment about where effort is actually worth spending. In Sword of Justice, Moon is perfectly comfortable telling Snow that her power looks bad, taking concrete build advice, and coming back with `Thank youu,snowww for the advice and tips`. There is no need to pretend expertise when somebody else clearly has it. Moon asks, listens, and says thanks.",
+      "Where Winds Meet turns the same instinct into a tiny anti-prestige scene. When the game's system drops guild leadership onto Moon, she says she would not be reliable and thinks of Shiki instead. Later the branch gets so empty-feeling that Moon says, flatly, `I left the guild due to loneliness`; when the system keeps boomeranging the crown back, `I yeeted myself out of there`. The title itself has basically negative persuasive power. If the room feels dead, being in charge of the dead room does not magically make it worth staying.",
+      "That sharpens an older Moon pattern without making her responsible for everybody's social weather. She notices atmosphere, keeps rituals moving when she wants the room alive, and can be extremely attentive to other people's presence. But attention is not martyrdom. Moon can ask the person who knows, hand a mechanic to somebody she thinks is more reliable, and leave an empty branch instead of treating a hollow crown like an achievement. Shiki's handoff is game-specific trust, not a secret UL succession chart; the whole leadership sequence belongs to WWM's mechanics, not Underlords governance."
+    ]
+  }),
+
+  ansun: withSection(narrativeCharacterBios.ansun, {
+    intro: [
+      "Ansun / Souta / Sou is one of UL's current Officers and one of the people most capable of turning being publicly exposed into a personal branding opportunity."
+    ],
+    sections: [],
+  }, {
+    period: "2020–2023",
+    title: "Shame goes in; Fame comes out",
+    paragraphs: [
+      "The Wall is supposed to embarrass people. Ansun keeps treating that as a suggestion. In 2020 the distinction is already disposable: `shame fame, same thing 😎`. In 2021, when Baby Lyssa jokes about overtaking his Wall appearances, Sou encourages the competition and upgrades the room on the spot: `BET its our wall of FAME baby`. By 2023 he has gone from surviving the joke to claiming real estate: `no shame all fame`, `this is MY wall`.",
+      "Moon answers that last one with `This is your room in ul then`, which is exactly the kind of peer response that tells you a bit has become recognizable without turning it into a formal title. Ansun then pushes the mythology all the way to `the reason why it says wall of fame is because of me ❤️ you guys have shame`, and when Moon points out that *shame* is still literally in the name, he solves the problem by assigning it to everybody else: `I put shame in there for YOU`; `you guys made it fame for ME`.",
+      "That boast is not rename provenance. It is better used as character evidence. Across several years Ansun repeatedly refuses the Wall's embarrassment economy and treats visibility as clout. The joke works because the room keeps feeding him enough exposure to sustain it, and because he keeps answering exposure as though somebody just renewed his celebrity contract. Being caught is supposed to lower your prestige. Sou's recurring solution is apparently to raise the price."
+    ]
+  }),
+
+  ren: withSection(renNarrativeCharacterBios.ren, {
+    intro: ["Ren turns receipts into social memory and, occasionally, food opinions into wearable evidence."],
+    sections: [],
+  }, {
+    period: "January 2022",
+    title: "Petty Crimes: mint chocolate has merch now",
+    paragraphs: [
+      "Dainyamite says `mint choco is good` and Ren answers so enthusiastically that he has to check whether she is being sarcastic. She is not. `ITS NOOOT!! I love mint choco chip`, Ren insists, and then casually reveals that Gilli had already converted the preference into birthday merchandise: `Gilli got me a mint choco chip socks for my b-day`.",
+      "The socks are a wonderfully small relationship receipt. Ren's taste is specific enough to be remembered, and Gilli apparently knew it well enough to make the birthday gift itself part preference and part bit. It does not need a grand friendship label to mean anything. Somebody noticed the stupid food opinion and bought the socks. In a server that can preserve a screenshot for years, apparently affection also comes with inventory."
+    ]
+  }),
+
+  gilli: withSection(gilliNarrativeCharacterBios.gilli, {
+    intro: ["Gilli is one of the people whose care often arrives disguised as practical nonsense."],
+    sections: [],
+  }, {
+    period: "January 2022",
+    title: "Remember the preference; weaponize it as a birthday present",
+    paragraphs: [
+      "A mint-chocolate argument gives Gilli one of the smallest and nicest care receipts in the file without Gilli even being the person telling the story. Ren is defending mint choco chip and says Gilli got her mint-choco-chip socks for her birthday. In context, the gift was very likely keyed to a preference Gilli already knew about — useful enough to wear, stupid enough to be funny, specific enough that Ren brings it up while finding another mint-chocolate ally.",
+      "That is a good scale for Gilli relationship writing. Not every act of attention needs to become a declaration. Sometimes care looks like remembering which controversial ice-cream flavor your friend will defend and making sure the birthday evidence can go on their feet."
+    ]
+  }),
 };
