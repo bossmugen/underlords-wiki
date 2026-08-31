@@ -3,6 +3,7 @@ import { narrativeCharacterBios } from "./character-biographies-narrative";
 import { richNarrativeCharacterBios } from "./character-biographies-rich";
 import { run42NarrativeCharacterBios } from "./character-biographies-run42";
 import { run43NarrativeCharacterBios } from "./character-biographies-run43";
+import { zoshaaNarrativeCharacterBios } from "./character-biographies-zoshaa";
 
 const gabu = narrativeCharacterBios.gabu;
 const anayss = narrativeCharacterBios.anayss;
@@ -11,6 +12,7 @@ export const run39NarrativeCharacterBios: Record<string, CharacterNarrative> = {
   ...run42NarrativeCharacterBios,
   ...run43NarrativeCharacterBios,
   ...richNarrativeCharacterBios,
+  ...zoshaaNarrativeCharacterBios,
 
   rich: {
     intro: [
