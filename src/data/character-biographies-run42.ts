@@ -1,6 +1,7 @@
 import type { CharacterNarrative, NarrativeSection } from "./character-biographies-narrative";
 import { alkeyNarrativeCharacterBios } from "./character-biographies-alkey";
 import { lexiNarrativeCharacterBios } from "./character-biographies-lexi";
+import { celeNarrativeCharacterBios } from "./character-biographies-cele";
 import { deanNarrativeCharacterBios } from "./character-biographies-dean";
 import { taeNarrativeCharacterBios } from "./character-biographies-tae";
 import { run50NarrativeCharacterBios } from "./character-biographies-run50";
@@ -24,6 +25,7 @@ export const run42NarrativeCharacterBios: Record<string, CharacterNarrative> = {
   ...run50ExtendedNarrativeCharacterBios,
   ...alkeyNarrativeCharacterBios,
   ...lexiNarrativeCharacterBios,
+  ...celeNarrativeCharacterBios,
 
   dean: withSection(deanNarrativeCharacterBios.dean, {
     period: "July 2025",
