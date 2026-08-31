@@ -30,12 +30,12 @@ export const late2112IntegratedEpisodes: Episode[] = [
   },
   {
     id: "snow-best-material-in-vc",
-    title: "Snow Leaves His Best Material in VC",
+    title: "Pride Avoids Club Chat; Snow Moves the Crimes to VC",
     season: "2020",
-    date: "November 4, 2020",
-    kind: "Wall countermeasure / defendant changes medium instead of behavior",
-    logline: "Sou/Ansun tells Snow, `snow if you would literally type so i could ss, you too could be on here too`. Twenty-three seconds later Snow answers, `That is why i leave my best material in vc 😛`. The tongue-out face is doing useful legal work here: Snow understands exactly what Sou is threatening and cheerfully announces the workaround. Typed nonsense can become screenshot evidence, so the premium nonsense stays in voice. This is playful medium selection, not a formal VC privacy policy and not proof voice chat was literally unrecordable. It is also not ShiyaX's line; the direct recovered receipt attributes the screenshot invitation to Sou/Ansun. The scene makes Snow's privacy/security brain much funnier because he is applying evidentiary awareness to the far more important problem of avoiding the Wall. He does not promise to behave better. He moves the alleged crimes off the record.",
-    cast: ["Snow", "Ansun"]
+    date: "October 7 → November 4, 2020",
+    kind: "Wall countermeasures / defendants discover venue selection",
+    logline: "The Wall starts changing behavior almost immediately, just not in the virtuous direction. On October 7 Gilli files a Discord screenshot, Ren realizes the evidence was not forgotten, Gilli says `I sent to Snow too`, and Pride watches the distribution network forming before announcing `and this is why Pride stays out of Club chat`, followed by a sip emote. A month later Sou/Ansun tells Snow, `snow if you would literally type so i could ss, you too could be on here too`; Snow answers, `That is why i leave my best material in vc 😛`. Together the scenes make a strong recurring read: by late 2020 at least two people understood that where and how they said the stupid thing affected how efficiently the stupid thing could become Wall evidence. Pride's strategy is venue avoidance. Snow's is medium-switching. Neither line establishes a formal privacy rule, and neither proves VC was actually screenshot-proof or confidential. The important thing is that UL did not respond to the evidence economy by behaving better. It developed operational security for being embarrassing.",
+    cast: ["Pride", "Gilli", "Ren", "Snow", "Ansun"]
   },
   {
     id: "ansun-ant-genocide-screenshot",
@@ -72,5 +72,32 @@ export const late2112IntegratedEpisodes: Episode[] = [
     kind: "Lobby wave / server merges make the intake form lose an argument",
     logline: "Mugen asks a Revolution visitor the very reasonable question `what server is revolution from`. Kenn answers S3, then adds that Revolution was `Originally s6 but u know server merges`. Within roughly the next day, six more people independently walk through the Lobby self-identifying with Revolution, and their server labels come back as S3, S6 and S5. The archive itself therefore supplies the punchline: there is no clean one-number answer because current-server language and origin-server language are coexisting after merges. The cluster is tight enough to read as a socially linked visitor wave, not seven unrelated coincidences, but the inviter and organizer remain unresolved and social traffic does not manufacture a formal alliance. The Christmas movie marathon is running through the same doorway pocket; Staff routes several of the arrivals straight toward the theatre, while a nearby visitor explicitly says they came for the movies. The marathon very likely helped absorb the wave even where individual motive is not stated. One entrant, Mirage, literally files `Dont play DR atm` while still carrying a Revolution/S3 identity into UL's social door. The game map is already messy. The foyer is doing just fine.",
     cast: ["Mugen", "Gilli"]
+  },
+  {
+    id: "corpse-logistics-department",
+    title: "The Corpse Logistics Department",
+    season: "2020 → 2022",
+    date: "November 4, 2020 → April 14, 2022",
+    kind: "Wall running episode / one missing Pride becomes THE VAN OF BODIES",
+    logline: "In November 2020 Illien says a GIF reminds him of `every time I read \"we've lost Pride's body\" on cc XD`, which is already retrospective enough to kill any origin claim. Ren answers with paperwork: `I had to make an amber alert`, `For a lost CORPSE`, an immediate image filing, then `I HAVE PROOF`. Sou/Ansun supplies the probable mechanism for at least one loss while directly tagging Pride: `i left you for one sec and you already trying to fucking get away from me`. So Pride was apparently not merely missing inventory; Pride was the corpse logistics department's least cooperative inventory item. Ren's same-author make/label/upload/proof sequence makes POSTED BY Ren confirmed and MADE BY Ren probable/strong; CAPTURED BY and visual FEATURING stay unresolved. Then April 2022 scales the problem catastrophically. Sou POSTS two images under `another Wednesday in UL; losing bodies once again`; Ren announces `He lost THE VAN OF BODIES`; Ricochet explicitly says Snow is losing the bodies; Mugen wakes up the next morning to `We lost bodies again?`; Anayss complains that she was misplaced; Tony explains that bodies cannot simply be misplaced; Snow's closing brief is `>_> I Blame DR`. The 2022 scene is confirmed recurrence and the participants blame Snow. Its continuity with the 2020 Pride-body/Amber-Alert family is probable/strong rather than a hard direct callback. The escalation is still magnificent: one missing Pride earns an Amber Alert; two years later apparently somebody has misplaced the whole fucking transport van, and Sou calls it another Wednesday.",
+    cast: ["Pride", "Illien", "Ren", "Ansun", "Snow", "Ricochet", "Mugen", "Anayss", "TonyTonyChopper", "Gabu"]
+  },
+  {
+    id: "pride-corpse-threat-refiled",
+    title: "Pride Threatens to Make Corpses, Then Becomes the Missing Corpse",
+    season: "2020",
+    date: "September 7 → December 29, 2020",
+    kind: "Wall receipt lifecycle / Ren drags the old case back into court",
+    logline: "Ren files `Pride bout to kill us for bodies UwU` in September. On December 29 she explicitly announces `Let me just bring back the time pride threatened that he was gonna make us into corpses` and posts another image sixteen seconds later. The `bring back` wording matters: this is not a fresh incident but deliberate archival resurfacing months later. The September and December attachment records differ, so the files are not declared identical; the same-threat-incident or threat-family read is probable/strong. Put beside November's repeated `we've lost Pride's body` material, the character inversion is almost rude enough to look scripted: Pride is remembered for threatening to create corpses and also for becoming the corpse everybody keeps losing. No causal story is invented between the two. Ren simply had old evidence and, apparently, absolutely no intention of letting it die.",
+    cast: ["Pride", "Ren"]
+  },
+  {
+    id: "athena-manhwa-hangover",
+    title: "Athena Needs a Manhwa Exorcism",
+    season: "2022",
+    date: "October 16, 2022",
+    kind: "Wall ordinary-life beat / maximum fiction betrayal, zero moderation drama",
+    logline: "At 4:39 in the morning Athena reports that she lost her beauty sleep to a hyped manhwa and it was `soooo baaaad`; two minutes later she needs `a good manhwa to wash my brain now`. The language turns one bad comic into contamination requiring a palate cleanser, which is enough for a narrow 2022 taste read without turning manhwa or sleep deprivation into permanent biography. Athena also POSTS two PNGs, but their pixels remain uninspected and the title is unresolved. Mugen TRUE-REPLIES `XD rip`, then redirects the growing discussion to `#🌈│simp-here or #🥃💬｜whiskey-room for discussion!`. Athena answers the redirect with a pat emote. That little ending is what makes the scene feel like a person rather than a preference tag: she is dramatically betrayed by fiction and completely normal about being told where to continue complaining. It also gives the Wall one clean traffic-control receipt — file the exhibit here; take the yapping elsewhere — without pretending one redirect was a formal written policy.",
+    cast: ["Athena", "Mugen"]
   }
 ];
