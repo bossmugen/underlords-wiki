@@ -1,8 +1,8 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-08-30 17:51 PDT_
+_Last updated: 2026-08-30 17:58 PDT_
 
-## Current dual-surface integration state — Wall late-mover close
+## Current dual-surface integration state — Run 41 reconciliation close
 
 The lower-evidence project rule remains binding. Hard canon locks, resolved identities, privacy/safety, explicit contradictions, appointment chronology, and attribution fences stay hard; persuasive ordinary human reads do not need courtroom-proof wording.
 
@@ -11,11 +11,19 @@ The lower-evidence project rule remains binding. Hard canon locks, resolved iden
 - **49 tracked miner identities = 28 active remote refs + 21 historical/missing; 0 newly discovered; 0 finite pending; 0 backlog; 0 overdue.** Both Club-Only recovery branches remain fully consumed/current.
 - All Characters is reviewed and public/consumable through `111851bebb7def0b74912dcc533193a453992232`.
 - Core is reviewed through `8d4ea9f75956eab681c2580d5481f7c03a111f42`; retrieval failures remain runtime/source-access limitations rather than historical negatives.
-- Daycare is reviewed through `3c5e622b6a391c8af8f7f93a3a48f4500e6d5d41`.
-- Whiskey is reviewed through `a54ade5d5d96c6a1d507a8a6ac3519ed05474ed4`; formal consumed remains `6cd5f9daeb20d77fad20e3cd7465ec938411993d` because earlier accepted Sye/Life material remains MAIN-publication-blocked. Hard correction: **`sycessences` / `ƐℲı˥` = Sye/Life, not Effie**. **Meowk = Alkey remains probable; Key ≠ Alkey remains hard.**
-- Mugen person-first is checkpoint-first reviewed and consumed through `24dfa7ec271f847e7bb4a87886511a13575a22b0`.
-- Wall moved twice during this integration run and is now forward-reviewed checkpoint-first through closing head `2ec6af7dc7e49f9fe165507a1ebbcf0cf1623a65`. Formal consumed remains null while historical recovery is open. Historical recovery remains safely through **2026-08-26 15:46 PDT; 16:46 next**; no safe intake-local 16:46 handoff was used and raw archives were not re-mined.
+- Daycare is reviewed and consumed through `d5f4f82679cb8378dba362c33ab94492d8053270`.
+- Whiskey is reviewed through `3d6c00c103c2cae36a707c0452c6c34bc404357b`; formal consumed remains `6cd5f9daeb20d77fad20e3cd7465ec938411993d` because earlier accepted Sye/Life material remains MAIN-publication-blocked. Hard correction: **`sycessences` / `ƐℲı˥` = Sye/Life, not Effie**. **Meowk = Alkey remains probable; Key ≠ Alkey remains hard.**
+- Mugen person-first is checkpoint-first reviewed and consumed through `fea5d27cafda37417c3fbb76de678d05a6b8998c`.
+- Wall is forward-reviewed checkpoint-first through `2ec6af7dc7e49f9fe165507a1ebbcf0cf1623a65`. Formal consumed remains null while historical recovery is open. Historical recovery remains safely through **2026-08-26 15:46 PDT; 16:46 next**; no safe intake-local 16:46 handoff was used and raw archives were not re-mined.
 - No miner branch was merged or wholesale cherry-picked into either publishing branch.
+
+### Current exact-head verification
+
+Durable WIKI head `49b2152c96cf048c66eb824b66dfdc4b643f23b5` completed its native verification chain successfully:
+- **Build Underlords Wiki** `33345752749` — **success**.
+- **Deploy Underlords Wiki Preview** `33345752720` — **success**.
+
+MAIN's corresponding durable report head `7cf7d9b21a79022cddd6409cf9883ff9e9a3392c` triggered **UL Hourly Build + Deploy** `33345714436`; attempt 2 completed **failure before executable verification steps were allocated**. That remains infrastructure/pre-runner failure, not evidence that source verification, Astro build, or built-output verification failed.
 
 ### Reader-facing additions
 
@@ -48,11 +56,9 @@ Reader head `cd2cb2866fa10576051229ebcf4e79192aa8e5ae` added the self-prosecutio
 - **Build Underlords Wiki** `33344664021` — **success**.
 - **Deploy Underlords Wiki Preview** `33344664022` — **success**.
 
-The exact durable-state head created by this update triggers its own native Build + Pages chain; its result belongs to the next verification observation rather than being invented self-referentially inside the commit that starts it.
-
 ### Surface split
 
-WIKI owns these reader changes because they deepen the existing Wall Domain and receipt-culture owner instead of mirroring small incidents into MAIN. BishopThaGuru's June material remains folded into the already-public Tofu/Bishop Episode. MAIN receives no mirrored reader prose in this pass; it receives the authoritative branch-consumption board and durable dual-surface report. MAIN's verifier has repeatedly failed before executable verification steps are allocated, so any repeated infrastructure failure must not be described as a failed source/Astro/built-output check.
+WIKI owns these reader changes because they deepen existing Cast and Wall/Domain owners instead of mirroring small incidents into MAIN. BishopThaGuru's June material remains folded into the already-public Tofu/Bishop Episode. MAIN receives no mirrored reader prose from the Wall material; its richer outstanding obligation remains Sye/Life biography texture once its verifier can actually execute. MAIN's verifier has repeatedly failed before executable verification steps are allocated, so repeated infrastructure failure must not be described as a failed source/Astro/built-output check.
 
 ## Run 41 late-mover reconciliation — 2026-08-30 17:37 PDT
 
@@ -89,8 +95,8 @@ Whiskey's older accepted Sye/Life material is still MAIN-owned/publication-block
 
 ### Consumption decisions
 
-- Daycare may advance consumed through `d5f4f82679cb8378dba362c33ab94492d8053270`.
-- Mugen may advance through `fea5d27cafda37417c3fbb76de678d05a6b8998c`.
+- Daycare consumed through `d5f4f82679cb8378dba362c33ab94492d8053270`.
+- Mugen consumed through `fea5d27cafda37417c3fbb76de678d05a6b8998c`.
 - Whiskey remains formally consumed only through `6cd5f9daeb20d77fad20e3cd7465ec938411993d`, with review-through noted separately at `3d6c00c103c2cae36a707c0452c6c34bc404357b`.
 
 No MAIN reader copy was mirrored from Moon, Mugen or Ricochet. WIKI owns these exact dossier-shaped additions; MAIN's richer outstanding obligation remains Sye/Life biography texture once its verifier can actually execute.
