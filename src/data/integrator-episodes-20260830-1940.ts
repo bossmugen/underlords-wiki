@@ -99,5 +99,14 @@ export const wall1940IntegratedEpisodes: Episode[] = [
     kind: "Network / allied visitor onboarding before the house had settled",
     logline: "The useful clue arrives before Snow's famous Lobby question. On April 3 Mugen says UL has been in `covert alliance with SM and Amaurot` while the server itself is only days old. On April 7 Snow asks Rich, `anyone else want to join from Amaurot?`. The next day Sitama arrives saying he is `from amaurot`; Snow changes his role and checks whether he can see other channels. Later Amaurot visitors continue retaining Amaurot identity inside UL's shared rooms. Put together, `join` most likely means enter UL's Discord-side social floor through an allied side door, not abandon Amaurot and transfer into UL's Dragon Raja roster. The direct `covert alliance` wording stays exactly that and does not overwrite the project's separate formalized-alliance category. Rich remains a probable Amaurot-connected bridge rather than a hard-confirmed Amaurot member, and nothing here proves he personally invited Sitama. The server was barely assembled and it already had a guest entrance.",
     cast: ["Mugen", "Snow", "Rich", "Sitama"]
+  },
+  {
+    id: "my-friend-sent-me-it",
+    title: "MY FRIEND SENT ME IT",
+    season: "2021",
+    date: "September 5, 2021",
+    kind: "Wall provenance / the filer is not the source",
+    logline: "Ren POSTS `image0.png`. Twenty-one seconds later Tae says, `MY FRIEND SENT ME IT, i just wanted to share with you all:gnome:`. That tiny adjacency solves a surprisingly important distinction without needing the pixels: Ren is the confirmed Discord poster, while Tae explicitly identifies an unnamed friend as the upstream source who sent the item to her. The strongest current chain is therefore unnamed friend → Tae → Ren POSTS to the Wall. It does not make the friend a UL member, does not identify the platform or room it came from, and does not promote anybody to CAPTURED BY, MADE BY, or visual FEATURING. A few minutes later Ren jokes that Tae has a `secret lover` and immediately adds `(this be a joke UwU)`, which is not a coy invitation to invent romance; it is the archive installing its own anti-fanon brake. The useful Wall fact is simpler: receipts could cross multiple hands before the public filing, and POSTED BY was already only one stop in the supply chain.",
+    cast: ["Ren", "Tae"]
   }
 ];
