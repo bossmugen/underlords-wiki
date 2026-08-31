@@ -21,3 +21,5 @@ export const run48NarrativeCharacterBios: Record<string, CharacterNarrative> = {
     ],
   }),
 };
+
+export { run49NarrativeCharacterBios } from "./character-biographies-run49";
