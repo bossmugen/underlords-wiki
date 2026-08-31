@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-08-30 19:52 PDT_
+_Last updated: 2026-08-30 20:18 PDT_
 
 This file is the current durable reconciliation snapshot. Earlier run-by-run states remain available in Git history and in MAIN's dated `archive-intake/INTEGRATION_PASS_*` reports; the live file stays compact so stale historical summaries do not outrank current branch state.
 
@@ -17,7 +17,7 @@ The lower-evidence project rule remains binding. Hard canon locks, resolved iden
 - **Mugen person-first** is checkpoint-first reviewed, public-integrated, and consumed through `9e4065cd910a80b2a8703dfafa92c29cadec540a`.
 - **Whiskey** is checkpoint-first reviewed through `800311c117753269699970d169c542e208ea633e`, but formal consumed remains `6cd5f9daeb20d77fad20e3cd7465ec938411993d` because older accepted Sye/Life biography material is still MAIN-publication-blocked. Hard correction: **`sycessences` / `ƐℲı˥` = Sye/Life, not Effie**.
 - Both **Club-Only** recovery branches remain fully consumed/current: `archive-miner/club-only-2021-2026-hourly` through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`, and `archive-miner-clubonly-2020-hourly` through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`.
-- **Wall** is checkpoint-first reviewed through `0c965b76e2caee2f88ec04fe485b1fc5597e9b14`. The quarry explicitly remains **NOT EXHAUSTED**, so formal consumed SHA remains null. Raw archives were not reopened.
+- **Wall** is checkpoint-first forward-reviewed through `0fef9d5949118933c701ac29df448052f097c6c5`. The quarry explicitly remains **NOT EXHAUSTED**, so formal consumed SHA remains null. Raw archives were not reopened.
 - No miner branch was merged or wholesale cherry-picked into either publishing branch.
 
 ### Public additions / reconciliation
@@ -36,6 +36,10 @@ Fresh Core Rooms evidence also confirms that UL really did have vacation continu
 
 **Candy's moo chorus** is kept deliberately small. Candy drops `Moo` into a quiet Wall pocket, Sou/Ansun, Rummy, and Ren answer in kind; three weeks earlier Candy had TRUE-REPLIED Vanness's self-filed merge disaster with `Wad00` and a crying-cat emote. That supports a low-volume, reactive Wall presence who can also seed ambient nonsense. One morning of mooing is not promoted into eternal canon law.
 
+**HamitteY's forgotten receipt finally prosecutes its own owner.** On August 3, 2021 HamitteY POSTED a Dragon Raja screenshot and, twenty-nine seconds later, admitted `forgot i had this`. More than an hour later Ghoulie TRUE-REPLIED the exact file with `you know what` and `i thought you was my friend`; Tae filed `Exposed🤔`; HamitteY answered `Sorry not Sorry` with a heart. The social read is strong enough to publish: the screenshot apparently sat in HamitteY's own retained pile long enough to be forgotten, then resurfaced as affectionate betrayal theater. POSTED BY HamitteY is hard; CAPTURED BY / MADE BY / visual FEATURING remain unresolved, and one recovered cache does not become a lifelong archiving habit.
+
+**Boiled mayo reaches hearsay in ten minutes.** Zoshaa offers `a refreshing glass of boiled mayo`, Gilli gags, and Zoshaa describes the alleged beverage as a warm McDonald's triple-thick milkshake tasting like mayo. Ten minutes later Spicy Hotpot arrives asking Gilli what he has `heard about boiled mayo`. That is enough to treat the phrase as already socially transmissible in this pocket without pretending the earliest surviving targeted hit is the origin or claiming anyone literally drank it. The same exchange then gives a probable Spicy→Josh referent when Ren later complains `Josh won’t fight me`; that stays probable rather than becoming a hard identity merge.
+
 ### Duplicate / held / unresolved
 
 - CookieStream probable familiar-controller recognition does not erase separate stable account IDs or merge message/role histories.
@@ -44,21 +48,20 @@ Fresh Core Rooms evidence also confirms that UL really did have vacation continu
 - MAIN still contains an older Rich alias grouping that includes `Ricochet` / `dragonrichard`; treat it as a correction obligation, not canon, until MAIN's mandatory reader verifier can actually execute.
 - The Aether parent exhibit is missing; specific Aether channel, uploader, capturer, maker, and subjects remain unresolved.
 - Daya's opening fur-suit attachment was not visually inspected; no image-specific description is published from text alone.
+- HamitteY's August 3 screenshot remains visually uninspected; Ghoulie is the strong probable intended exposure target from exact reply topology, not a hard visual FEATURING claim.
+- Spicy Hotpot → Josh in the May 17 boiled-mayo pocket remains a strong probable referent, not a hard identity merge. The later September reply bridge remains stronger.
+- `boiled mayo` has an earlier surviving May 17 hit now, but earliest surviving is still not promoted into an absolute origin claim.
 - Jordayy's `Sama` addressee and exact JJK `He's so handsome` referent remain unresolved.
 - Core's failed retrieval controls remain source-access evidence only, never evidence that people/events were absent.
 
 ### Verification / deployment
 
-The Wall reader commit `741745d673830d9bf3d1c8e78be57af6727fc5b3` added `Where This From? Owo`, `The Thousand-Dollar Fur Suit Startup`, and `Candy Says Moo; the Room Accepts Its New Government` to Episodes.
-- **Build Underlords Wiki** `33351586935` — **success**.
-- **Deploy Underlords Wiki Preview** `33351586933` — **success**, including Pages deployment.
+The current Wall reader commit `0e54ec0e78717e8acdb33fa18ccc1fd6e2cd4ff7` adds `Forgot I Had This` and `A Refreshing Glass of Boiled Mayo` to the existing Wall episode module without duplicating the earlier Aether/fur-suit/Candy owners.
+- **Build Underlords Wiki** `33353301592` — **success**.
+- **Deploy Underlords Wiki Preview** `33353301506` — **success**, including Pages deployment.
 
-The later combined WIKI head `dd3f5e7c2d7bdb400c787e905fad57f78f0d0966` includes those Wall Episodes plus the Mugen returner/vacation dossier deepening.
-- **Build Underlords Wiki** `33351791853` — **success**.
-- **Deploy Underlords Wiki Preview** `33351791805` — **success**, including Pages deployment.
-
-This state update follows those verified reader heads. Its exact-head build/Pages run is the final WIKI close check for this pass.
+This durable state update follows that verified reader head. Its own exact-head build/Pages runs are the final WIKI close check for this pass.
 
 ### Surface split
 
-The fresh Wall incidents and Mugen/Jordayy dossier texture are intentionally WIKI-owned because they fit existing Episodes/Cast/Relationships owners cleanly. MAIN was re-read during reconciliation and receives no photocopied encyclopedia prose merely for symmetry. MAIN's outstanding reader obligation remains the accepted Sye/Life Whiskey biography material plus correction of its stale Ricochet→Rich alias once MAIN's mandatory source/build/output verifier can actually execute.
+The fresh HamitteY and boiled-mayo scenes are intentionally WIKI-owned as discrete Wall Episodes. MAIN was novelty-checked and remains the better home for the broader Boiled Mayo Corp. genealogy rather than a photocopy of the May 17 scene; HamitteY's one excellent recovered episode is not enough to justify padding a new MAIN person page. MAIN's outstanding reader obligation remains the accepted Sye/Life Whiskey biography material plus correction of its stale Ricochet→Rich alias once MAIN's mandatory source/build/output verifier can actually execute.
