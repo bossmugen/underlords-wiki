@@ -54,5 +54,14 @@ export const late2345IntegratedEpisodes: Episode[] = [
     kind: "Wall running bit / the room briefly becomes livestock",
     logline: "Candy's surviving September 1 `Moo` is funny, but it is not where the herd starts. The day before, SaraBunny is already looking around at the room and saying `so much moo`. On August 31 Ren TRUE-REPLIES Ghoulie's baffled `what is` with the much better participant-native diagnosis: `Collective Moo braincell`. That evening Ren drops `MOOOOOOOO` and the room starts answering with cow-labeled GIF/Tenor links; the next morning Candy arrives with `Moo` and `:Cat_Sporkle: :Cat_Sporkle:`, and Ansun, Ren, Gilli, SaraBunny, Cookie, and others keep the call-and-response going. Later Anayss is still using the vocabulary in `we lost a moo!`. The useful correction is that Candy appears to be joining an already-active shared bit rather than inventing it. Even August 30 is only the earliest surviving evidence surfaced here: `so much moo` sounds like SaraBunny has walked into a joke already in progress. For a minute the Wall stops being a prosecution room and becomes something arguably worse—a temporary dialect in which everybody appears to share one bovine braincell.",
     cast: ["SaraBunny", "Ren", "Ghoulie", "Candy", "Ansun", "Gilli", "Cookie", "Anayss"]
+  },
+  {
+    id: "mugen-thanksgiving-2022",
+    title: "Mugen Says the Thank-You Out Loud",
+    season: "2022",
+    date: "November 24, 2022",
+    kind: "Leadership / gratitude ledger with absolutely no escape from house language",
+    logline: "Mugen decides that gratitude left unspoken is basically a gift somebody forgot to hand over, so Thanksgiving becomes a public thank-you ledger. Staff-side groups and Tumbleweed family `past and present` are thanked as the club's lifeblood; VIP visitors get their own lane because `You may not be a member but we feel your love through your nightly visits`; Officers get a separate thank-you for `tireless and constant care`, including `Officer work goes mostly unrecognized, but I see your efforts`. The leadership mechanism is recognition: she notices forms of participation that formal membership or visible chat volume can hide, then names the labor and affection publicly. Naturally, the message cannot remain respectable. Covid companionship shares a paragraph with Alabama, kidnapped corpses, newbie-eating, spelling crimes and booty-shaking before Mugen closes with `I love you all` and signs `Your resident plutonian dumdum 👽`. She does not switch into a generic Boss voice to be sincere. The clown register survives because apparently that is also where the sincerity lives. The period `260+ members plus visitors` line is context, not an eternal roster count, and attached role arrays are not appointment chronology.",
+    cast: ["Mugen"]
   }
 ];
