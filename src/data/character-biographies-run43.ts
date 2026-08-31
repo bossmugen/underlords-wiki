@@ -1,5 +1,6 @@
 import type { CharacterNarrative, NarrativeSection } from "./character-biographies-narrative";
 import { ghosttNarrativeCharacterBios } from "./character-biographies-ghostt";
+import { run41NarrativeCharacterBios } from "./character-biographies-run41";
 
 function beforeSection(base: CharacterNarrative, beforeTitle: string, section: NarrativeSection): CharacterNarrative {
   const index = base.sections.findIndex((candidate) => candidate.title === beforeTitle);
@@ -94,6 +95,17 @@ export const run43NarrativeCharacterBios: Record<string, CharacterNarrative> = {
       "The assigned Louvre and Other Games body still has more middle to recover, especially the media-heavy creative side. But the direction is no longer missing. Zoshaa supplied it herself: didn't talk much. Now she screams."
     ]
   },
+
+  mugen: beforeSection(run41NarrativeCharacterBios.mugen, "Overall character", {
+    period: "2021–2023",
+    title: "Three words? Actually, never mind. Also take it out of context.",
+    paragraphs: [
+      "WHOMSTF gives Mugen a wonderfully low-stakes changed-mind receipt. She launches the game with a three-word rule; Snow asks whether the difficulty just increased; Mugen answers `lol`, then immediately goes `Imma change the three word rule to three phrases lol` because `Three word may be too easy lol`. She edits the actual launch post and keeps the game moving. No face-saving speech, no defense of Authorial Intent, no committee meeting. The rule is barely alive before its creator decides it is weak and patches production in public. Boss status apparently does not make the first draft sacred.",
+      "Daycare later makes the comedy craft itself explicit. While Torr is talking about content and a media-intern role, Mugen says `I suggest taking screenshots out of context if you want media intern @ok`. Torr answers `dont mind if i do`; Gabu predicts `great memeable content`; Mugen signs off with `^`. This is not a formal Media Intern job requirement. It is much funnier as what it actually is: the person who saves, ranks and republishes receipts calmly teaching a junior the ancient editorial technique of removing the context that would make everybody look reasonable.",
+      "Two reverse-angle receipts keep that craftiness from swallowing the person. New remembers the old social chain as `Gen introduced me to Mugs who then introduced me to Dean`, making Mugen a literal bridge between people in that pre-/early-UL network rather than merely one more name on the family diagram. Dean, meanwhile, first warns `don't expect me to express myself o3o` and later names **Key and Mugs together** as people around whom expressing himself gets a little easier. Key stays in that sentence every time; neither person becomes a therapist by archival fanfic. The human point is smaller: two different people remember Mugs not only as Boss, but as somebody who connected them or made talking less hard.",
+      "Put beside the silly rule patch, the out-of-context tutorial and the older consequential NightLife reconsideration, a useful Mugen pattern emerges without needing another paragraph about generic leadership. She can treat procedures as editable, jokes as craft, and people as people. Sometimes that means changing a policy after pushback. Sometimes it means changing `three words` to `three phrases` because the game is too easy. Apparently governance and game night share one dangerous feature: Mugen reserves the right to edit the document."
+    ],
+  }),
 
   ghostt: beforeSection(ghosttNarrativeCharacterBios.ghostt, "Later years / current file", {
     period: "January–February 2022",
