@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-08-31 10:16 PDT_
+_Last updated: 2026-08-31 10:18 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Earlier run detail remains in Git history and MAIN's dated `archive-intake/INTEGRATION_PASS_*` reports.
 
@@ -54,7 +54,12 @@ Its exact-head `UL Hourly Build + Deploy` run `33418437998` completed **FAILURE 
 
 Reader-facing pages changed: **none**.
 
-This Run 72 state-only reconciliation commit is being sent through the WIKI's existing Build and Pages publication workflows. Exact results are recorded in the follow-up state commit once those workflows finish.
+Run 72 reconciliation head `e86ad789a8fe2f28b89ae02b2791dfc14eb2e181` passed both existing publication gates:
+
+- Build Underlords Wiki `33418677589`: **SUCCESS**.
+- Deploy Underlords Wiki Preview `33418677468`: **SUCCESS**, including the Pages deployment.
+
+The no-reader-change state therefore built and deployed cleanly. This follow-up commit records those exact results; its own exact-head checks are verified separately and captured in MAIN's dated Run 72 report.
 
 ## Consumption / next boundary
 
