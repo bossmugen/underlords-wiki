@@ -45,12 +45,12 @@ export const cookieNarrativeCharacterBios: Record<string, CharacterNarrative> = 
         ]
       },
       {
-        title: "MEDIA DIRECTOR IS A VERY PROFESSIONAL TITLE FOR THIS MAN",
+        title: "STAFF IS A VERY PROFESSIONAL LABEL FOR THIS MAN",
         paragraphs: [
-          "Cookie's later Staff / Media Director identity makes more sense when you stop expecting the title to transform him into somebody else. The interesting continuity is not a clean before-and-after where Wall defendant graduates into Responsible Adult. It is that the same person who can package a source-and-response screenshot pair, notice how a joke is framed, and stay alert to shared spaces eventually sits in a role where media and group presentation actually matter.",
-          "His social competence has never required solemnity. Cookie can care about the shape of a thing while making himself look ridiculous inside it. He can understand who supplied a file and still close the exchange with a reaction. He can object to the room's version of him while continuing to feed the room better material. Staff status therefore feels less like a personality replacement than UL doing what UL often does: giving an official label to somebody who was already performing useful little pieces of the job in casual clothes.",
+          "Cookie's later Staff status makes more sense when you stop expecting the label to transform him into somebody else. The interesting continuity is not a clean before-and-after where Wall defendant graduates into Responsible Adult. It is that the same person who can package a source-and-response screenshot pair, notice how a joke is framed, and stay alert to shared spaces can also be useful without acquiring a second, invented title.",
+          "His social competence has never required solemnity. Cookie can care about the shape of a thing while making himself look ridiculous inside it. He can understand who supplied a file and still close the exchange with a reaction. He can object to the room's version of him while continuing to feed the room better material. Staff status therefore feels less like a personality replacement than UL doing what UL often does: giving an official label to somebody who was already useful in casual clothes.",
           "There is a broader group instinct in him too. When Cookie says `i wasnt invited`, the joke lands because participation matters. When he gets tangled in permissions, shared rooms matter. When he distinguishes somebody else's screenshot from `my response`, the exchange matters as a sequence between people. He pays attention to social objects — who is in the activity, who supplied the thing, what the room is currently doing with it — even when his own contribution is a panda running for its life.",
-          "That is a much better fit for Cookie than pretending rank is the story. The title can tell you where UL eventually put him. The person is still the same quick-reacting idiot who knows exactly enough about the scene to make his own defense catastrophically entertaining."
+          "That is a much better fit for Cookie than pretending rank is the story. Staff tells you where UL currently files him. The person is still the same quick-reacting idiot who knows exactly enough about the scene to make his own defense catastrophically entertaining."
         ]
       },
       {
