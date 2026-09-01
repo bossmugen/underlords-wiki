@@ -45,5 +45,23 @@ export const run145CoreIntegratedEpisodes: Episode[] = [
     kind: "Role progression",
     logline: "Mia's responsibility is visible before anyone starts calling her `boss` or `queen`: schedule, poster, posting timing, live calls. Snow then names Mimi in a current president rotation and explicitly gives people room to opt out, later says he moved her within the in-game officer structure, and by February peers are joking `boss Mimi` / `queen mimiiiii` while explaining that responsibility was passed to her. Anayss can then summon `queen` Mimi for luring and get an immediate yes. The role story is maker/helper → operator → rotating lead; the throne language is peer teasing, not a standalone formal title, and the dated messages do not fill every appointment gap.",
     cast: ["Mia", "Snow", "Anayss"]
+  },
+  {
+    id: "anayss-yochan-hug-courier",
+    title: "Anayss Becomes the Hug Courier",
+    season: "2021",
+    date: "January 23 – March 11, 2021",
+    kind: "Daycare friendship / social bridge",
+    logline: "YoChan is already `my yo yo` to Anayss when Beks says she has not met YoChan but wants to hug her. Beks asks Anayss to pass it on; Anayss agrees, summons YoChan into the room, and announces that she is `just sending hugs bitch. Per Beks request 😌`. After YoChan leaves, the joking courier register gives way to something much less protected: Anayss says she loves YoChan `to pieces`, misses her after one day, and later compresses the whole absence into `My yo yo left me 🧍‍♀️`. The scene supports close lived attachment and Anayss acting as a social bridge; it does not date the friendship's origin or turn affectionate language into literal romance, family, or a formal intermediary role.",
+    cast: ["Anayss", "YoChan", "Beks"]
+  },
+  {
+    id: "manolo-first-wall-to-supplier",
+    title: "Manolo Gets the Wall and Immediately Supplies Another Case",
+    season: "2021",
+    date: "February 28, 2021",
+    kind: "Wall defendant → evidence supplier inversion",
+    logline: "The room frames Manolo's Wall appearance as his first taste of the Wall, and Manolo confirms `my first time on the wall of shame`. In the same session he pivots from defendant to willing supplier: `Hey post this screenshot of Xuseio from our private DMs`; Anayss answers `will do`; Manolo follows with `Dam shiii I am causing trouble now` and `opps`. That same-session reversal is the useful part: somebody familiar enough with the Wall to recognize the ritual immediately starts feeding it material once he is inside the game. It does not prove a universal initiation pipeline, who captured or made the screenshot, or any standing prosecutorial role for Manolo.",
+    cast: ["Manolo", "Anayss", "Xuseio"]
   }
 ];
