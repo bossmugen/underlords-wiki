@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-01 00:49 PDT_
+_Last updated: 2026-09-01 00:52 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Older pass detail remains in Git history and MAIN's dated integration reports.
 
@@ -14,12 +14,12 @@ Hard user canon, resolved identities, privacy/safety boundaries, explicit contra
 
 - **49 tracked miner identities = 28 active refs + 21 historical/missing refs.**
 - **0 newly discovered active refs.**
-- Run 119 opening census had 3 finite pending branches plus one Wall recovery suffix; it was persisted on MAIN before deep review.
-- Wall recovery is now reviewed/consumed through `315a33bfad6f18e65d7aac0bf1647fefde8fd892`; the quarry remains recovery-open but is current at that boundary.
-- Core is now reviewed/consumed through `e77d173256d748b001b2fa087dfe6481ef75ac87` after accepted Tofu/Cookie material passed publication checks.
-- Remaining finite pending branches are Mugen person-first `9c256e3e -> ac211faf` and Whiskey `25484a5b -> 11482d5d`.
+- **0 finite pending-review branches, 1 reviewed branch pending accepted publication, 0 backlog, 0 overdue.**
+- Wall recovery is reviewed/consumed through `315a33bfad6f18e65d7aac0bf1647fefde8fd892`; the quarry remains recovery-open but is current at that boundary.
+- Core advanced again after the first close and is now reviewed/consumed through `f016c300c860aca799780d4614f9a830e846553b`.
+- Whiskey is reviewed/consumed through `11482d5de7caca32652a8f5a39844140ddd9d1c4` after accepted Cookie material cleared publication checks.
+- Mugen person-first is reviewed through `ac211fafb16bbc81863ce3e758c45bce724980f5`; accepted MAIN person-first work remains pending publication, so its consumed cursor stays pinned at `9c256e3e21d420cab79763ea3e0c065c6c6993ad`.
 - Daycare remains current through `aac9ef12724b9f4330c57bf6834c48a884c91c36`.
-- **0 backlog, 0 overdue.**
 - Both Club-Only recovery priorities remain current: 2021–2026 through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`; 2020 through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`.
 - No miner branch was merged or wholesale cherry-picked.
 
@@ -33,11 +33,27 @@ The same suffix makes Tofu↔Cookie clearly cumulative rather than three isolate
 
 WIKI updated `src/data/character-biographies-tofu.ts` at `46f6b13f7706e910b8c02d81ec11f5969be5dcb3`. The dossier now has structured reference sections for accidental authority / deliberate menace, Cookie as the recurring designated projectile, and `Petty Crimes` including caramel, the fan + beach noises + PPOMO ASMR sleep stack, and the `2am is me time` paranormal business-hours rule.
 
-A concurrent WIKI update at `1bbd3f2a923180629dc3d09e2cdcf2d38b053812` had already deepened Cookie's re-entry continuity, Gura visual language, and the same Tofu shorthand. The Tofu update committed safely on top rather than overwriting it.
+A WIKI update at `1bbd3f2a923180629dc3d09e2cdcf2d38b053812` deepened Cookie's re-entry continuity, Gura visual language, and the same Tofu shorthand. The later Tofu update committed safely on top rather than overwriting it.
 
 MAIN used the same source differently and more richly. `src/content/people/tofu.md` was rebuilt at `6146e6276107930d9672ef55d3bd0429eb920d16` around work, armor, ordinary-life texture, and Cookie. Cookie then received a complementary person-first rebuild at `adf5875541cc5e4068929846ee3f5a1c8941f518`. WIKI did not mirror those paragraphs or manufacture standalone Episodes for every hypothetical.
 
 An unrelated private relationship detail encountered in the Core source was excluded from public routing entirely.
+
+### Core late suffix — Amexistir / Ame
+
+The late `e77d1732 -> f016c300` Core suffix was reviewed checkpoint-first after the first close. Most of it is corroboration rather than a reason to breed another paragraph: the current public Ame owner already carries the singer-pseudonym origin from `amar existir`, the self-deprecating presentation of his own songs as made `with a lot of love`, the officer-room welcome, and Snow inviting his alliance thoughts into officer discussion.
+
+One clean incremental taste fossil remains banked for `Petty Crimes`: Ame says he fell in love with RPGs through a very handsome Blade Dancer in *Lineage 2*. Valid, specific, and extremely him; not important enough to create a second patch immediately after the richer creative/role synthesis already landed. No appointment date was inferred from room access or later role state.
+
+### Whiskey — Cookie
+
+Whiskey materially changed the Cookie read. The same stable account has a September 2020 Lobby doorway and then receives a fresh MEE6 welcome in April 2021; Gilli answers within seconds with `KUKIII` and `Role assigned bb!`. The bot behaves as though access paperwork restarted while Gilli behaves as though the person never became socially unfamiliar. Exact leave/rejoin/access mechanics remain unresolved.
+
+Whiskey also catches Cookie repeatedly using Gawr Gura / Hololive reaction media across May–June 2021, with Ren joining the same visual vocabulary and Cookie continuing the exchange. That supports a recurring Gura/Hololive interest and, more importantly, a shared reaction-image language with Ren. It does not create favorite-VTuber canon or a claim that Cookie communicated only through images.
+
+A Cookie-posted screenshot filename identifies MediBang Paint. That remains software-footprint texture only: POSTED BY Cookie is not MADE BY Cookie and does not make him the artist.
+
+MAIN rebuilt Cookie person-first at `adf5875541cc5e4068929846ee3f5a1c8941f518`; WIKI used the same source as structured Cast continuity at `1bbd3f2a923180629dc3d09e2cdcf2d38b053812` rather than mirroring MAIN prose.
 
 ### Wall recovery
 
@@ -47,16 +63,27 @@ Queen Shimoko's compact gross/absurd-humor reactions, Aesh's direct `WONHO SUPRE
 
 Ren's image remains POSTED BY Ren only. The temporal proximity makes intended receipt/proof more likely than not, but there is no structural reply edge and the pixels, original source, maker, capturer, and featured people remain unresolved.
 
+### Mugen person-first — reviewed, publication held
+
+The fresh Mugen suffix establishes a durable Jas↔Mugen `Milady` / `messire` ritual across repeated ordinary interactions. Jas addresses Mugen as `Milady`; Mugen learns and returns `Messire`, later initiates her half herself, and eventually uses it while asking about routine event logistics. The value is not fake nobility. It is relationship-specific language that both people can deploy without setup.
+
+This is accepted for MAIN because it deepens the existing pattern where familiar people can have their own grammar with Mugen. It remains pending publication rather than being shoved into WIKI as a duplicate Event card.
+
+A stale miner instruction tried to remove New from Mugen's older pre-Raja circle. Rejected. Hard canon remains: **New is in the older pre-Raja circle with Dean, Key, Zepp, Kal, and GenGrey.** GenGrey may separately be a later recruitment bridge. Recruitment route is not first-acquaintance chronology.
+
 ## Verification / deployment
 
 MAIN Tofu reader commit `6146e6276107930d9672ef55d3bd0429eb920d16` passed exact workflow `33483528384`: source canon/architecture verification, Astro build, built-output verification, and Cloudflare production deployment all succeeded.
 
-MAIN Cookie reader commit `adf5875541cc5e4068929846ee3f5a1c8941f518` passed the full same chain in exact workflow `33483732680`, including production deployment.
+MAIN Cookie reader commit `adf5875541cc5e4068929846ee3f5a1c8941f518` passed the full same chain in exact workflow `33483732680`, including exact production deployment.
 
-WIKI Tofu commit `46f6b13f7706e910b8c02d81ec11f5969be5dcb3` passed Build `33483664940` and Pages deployment `33483664929`.
+WIKI reader head `46f6b13f7706e910b8c02d81ec11f5969be5dcb3`, which contains both the Cookie and Tofu dossier changes, passed Build `33483664940` and Pages deployment `33483664929`.
 
 ## Consumption result
 
-Wall advances consumed to `315a33bfad6f18e65d7aac0bf1647fefde8fd892` as a successful no-public-change review. Core advances consumed to `e77d173256d748b001b2fa087dfe6481ef75ac87` after accepted public changes passed verification. Mugen person-first and Whiskey preserve their earlier consumed cursors until checkpoint-first review succeeds.
+- Wall consumed through `315a33bfad6f18e65d7aac0bf1647fefde8fd892` as a successful no-public-change review.
+- Core consumed through `f016c300c860aca799780d4614f9a830e846553b`; the late suffix was duplicate/corroboration plus one small held Petty Crime.
+- Whiskey consumed through `11482d5de7caca32652a8f5a39844140ddd9d1c4` after accepted Cookie work passed verification.
+- Mugen person-first is reviewed through `ac211fafb16bbc81863ce3e758c45bce724980f5` but consumed remains `9c256e3e21d420cab79763ea3e0c065c6c6993ad` until its accepted MAIN person-first change is published and verified.
 
 Hard rails remain unchanged: similar names do not merge people; export-time role arrays do not create appointment chronology; joke family, romance, or violence language stays figurative unless independently supported; private/sensitive source material remains backstage; exact minor ages remain private; and `SAID BY` / `POSTED BY` / `MADE BY` / `CAPTURED BY` / `FEATURING` remain distinct.
