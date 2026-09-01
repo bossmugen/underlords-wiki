@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-01 03:08 PDT_
+_Last updated: 2026-09-01 03:10 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Older pass detail remains in Git history and MAIN's dated integration reports.
 
@@ -10,7 +10,7 @@ The person is the spine; events are supporting scenes; the archive stays backsta
 
 Hard user canon, resolved identities, privacy/safety boundaries, explicit contradictions, appointment chronology, and attribution fences remain hard. Outside those rails, strong contextual reads about habits, relationships, humor, care patterns, ordinary life, reputation, and social roles may publish when more likely than not.
 
-## 2026-09-01 03:08 PDT — All Characters HR Run 66 close
+## 2026-09-01 03:10 PDT — All Characters HR Run 66 close
 
 The mandatory census closes at **49 tracked miner identities = 28 active refs + 21 historical/missing refs**, with **0 newly discovered, 0 finite pending review, 0 pending publication, 0 backlog, and 0 overdue**. Wall remains recovery-open only for future movement and is current through `1c2104e20ec90d3217a4b32d93b260dd13904661`. Both Club-Only recovery priorities remain current: 2021–2026 through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`; 2020 through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`.
 
@@ -32,4 +32,4 @@ Hard rails remain unchanged: Snow is not formal #2; Kiro was a full Officer, nev
 - Club-Only 2021–2026 — current through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`.
 - Club-Only 2020 — current through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`.
 
-Reader-facing WIKI files changed **0** in this pass by design. The state update records the successful review and consumed boundary without breeding duplicate character copy.
+Reader-facing WIKI files changed **0** for the HR Run-66 delta by design. The first state-only head `1d65b78fa18d136e7ea80931c57fc7de7a8cb5a2` passed Build `33495598740`; its Pages run was superseded by concurrent WIKI work. The current descendant `ae85e7fa3cb6315739309844b608b5b791a86906`, which contains this state plus concurrent Run-126 character data, passed Build `33495670716` and, on retry after concurrency cancellation, Pages `33495670616` including an actual successful GitHub Pages deploy. This state file update is a descendant of that verified public head; its own exact-head workflows must pass before the run is considered finally sealed.
