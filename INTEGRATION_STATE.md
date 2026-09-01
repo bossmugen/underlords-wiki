@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-01 14:49 PDT_
+_Last updated: 2026-09-01 15:19 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Older pass detail remains in Git history and numbered `INTEGRATION_STATE_RUN_*` snapshots. MAIN's controlling branch-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`.
 
@@ -10,47 +10,40 @@ The person is the spine; events are supporting scenes; the archive stays backsta
 
 Hard user-confirmed canon, resolved identities, privacy/safety boundaries, explicit contradictions, formal appointment chronology, and attribution fences remain hard. Outside those rails, strong contextual reads about habits, tastes, relationships, humor, care patterns, ordinary life, reputation, and social roles are publishable when more likely than not.
 
-## 2026-09-01 14:49 PDT — Run 166 close
+## Run 167
 
-Mandatory full miner census: **49 tracked miner identities = 28 active refs + 21 historical/missing refs**, **0 newly discovered**. Four active tails were reviewed checkpoint-first and intake-only:
+Mandatory miner census: **49 tracked miner identities = 28 active refs + 21 historical/missing**, **0 newly discovered**, **0 backlog**, **0 overdue**.
 
-- Louvre: `d4b4eb085a78d74489b46d4aecf6128c727d34fe -> c74d41b865bf2ae4379f55085838db94007a6d67`
-- Whiskey: `3b9d42e024047eed37ba32b117bb994cbb55a4c3 -> 5e521afd19f1f4e4bee0f9209bc417a745774864`
-- Daycare: `0412ddb82aa326e5c8d91e02d094032f1c550882 -> 8dfc5de414ec443fb495338c54f64a1daaec954d`
-- Wall recovery: `4ae134ca74fcdb94cd5f1ae87d96856493260a76 -> 70169eea7b3aec68a3fec9f4cd292d3abd74835d`
+Reviewed checkpoint-first and intake-only:
+- All Characters HR: `7f3121acbba33616cef59f5b45ed9e4a7c4d8f22 -> 638f930e3f1ea0829e68063ebe02a4a21ef2563d`
+- Core Rooms / Events: `fcb419108af040abede6fe47b3a5e6a790dc022a -> a0b3ca1e936e3e2f5d89b66e74fa96a566613735`
 
-Closing recensus found all four heads unchanged. Final queue: **0 pending review, 0 pending publication, 0 backlog, 0 overdue**. Wall remains `recovery_in_progress` only as an open future quarry and is consumed through current `70169eea…`. Both Club-Only recovery priorities remain current at `d10ab558…` and `99d00e8…`.
+Wall remains `recovery_in_progress` only as a future-open quarry and is current through `70169eea7b3aec68a3fec9f4cd292d3abd74835d`. Both Club-Only recovery priorities remain current at `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa` and `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`.
 
-### Rose / DarkAsrai — both sides of Screenshot Court
+### ShiyaX — three copies of the support ticket
 
-The Daycare tail supplies the missing half of Rose's Wall behavior. On April 3, 2023 she is self-aware enough to say `I knew id get in here`. On April 5 Ryoishigh posts two image attachments first; Rose laughs, answers `Beat me to it`, and roughly two minutes later posts two more image attachments herself.
+The All Characters HR tail adds `I pilot 3 accounts :ZenitsuCry:`. WIKI keeps it inside ShiyaX's existing `PETTY CRIMES` rather than creating a standalone event or cloning MAIN prose. The surviving line does not identify the game/platform, so it remains self-created digital administrative burden with the antecedent unresolved.
 
-WIKI now keeps that as a structured role-reversal episode rather than cloning MAIN's biography prose: Rose can be the evidence subject and then the person feeding the evidence machine. Being teased does not eject her from the joke system; she stays inside it and can help operate it.
+WIKI reader commit: `f71503fd272b15d2fedfbe757f43e23a4c778bab`. Exact Build `33564641155` and Pages `33564641234` succeeded.
 
-Attribution remains exact. Rose's two files are **POSTED BY Rose only**; nothing here becomes MADE BY, CAPTURED BY, or FEATURING without media-level support.
+MAIN reader commit: `237f805742035531dfa2bf5c474938349a4c0cc8`. Exact workflow `33564615789` passed source canon/architecture verification, Astro build, built-output verification, and exact Cloudflare production deployment.
 
-MAIN integrated the richer person-first version in `src/content/people/rose.md` at reader commit `59f5006f0dbec66c795254f5b5cd54e60bbd98ae`. Exact workflow `33562706615` passed source canon/architecture verification, Astro build, built-output verification, and exact Cloudflare production deployment.
+### Core Rooms / Events — strong reads, no fake roster entries
 
-WIKI integrated the complementary structured version in `src/data/dossier-snapshots/rose.md` at reader commit `00dbe7cda853d21a9cd24dc11b312be08a2e84c5`. Exact Build `33562744242` and Pages `33562744189` both succeeded.
+**Teri Selsepth** now has a strong cumulative person seed: repeated loophole hunting, practical tinkering, explicit shared-loophole `BESTIES` language with Ren, and reciprocal long-term Moon support expressed through recipes, blunt sleep nagging, comfortable annoyance, and a warm/cozy soup metaphor. Sensitive identity/religion/age/distress clauses remain excluded.
 
-### Louvre / Whiskey — reviewed, already owned publicly
+**DiStratus / Torr** draws unusually explicit trust boundaries between acquaintance, hangout, and the people he can `invest my heart into and open up too`; Mugen and Gilli each answer with `^`. A separate fictional mission shows him mapping capabilities and updating Eos's role when she supplies new information. That careful internal sorting sits beside his own description of a low verbal filter. Fictional mission roles stay fictional; health-adjacent detail stays excluded.
 
-Beowulf's non-fragile swagger / reciprocal affection / willingness to accept correction and Tofu's low-ceremony ordinary-life style / Dehydrated Squad / bee self-styling / Marian mock-combat were already integrated and verified in current public ancestry by the concurrent Run 165 publication. Run 166 reviewed both miner deltas through their current heads and consumes them as duplicate/corroboration instead of manufacturing receipt lasagna.
+**Seth** gains a fast-learner / explainer / newcomer-teacher layer underneath the existing maker/producer read. The source is self-report, does not create a formal trainer title, and still lacks a named UL teaching/helping recipient.
 
-Hard rails remain unchanged: pooled Deleted User identity is unresolved; Beowulf's `my baby's` / `team leader` language is not literal family or governance; one dehydration joke is not a health claim; Tofu's water image remains uninspected; Marian mock-combat is not literal conflict, romance, or a closeness rank; `千恵` is not romanized into a legal name.
+**Dainyamite** adds coffee-shop smell, a demanding cuddly cat who `showed up and never left`, human-head substitution for knocking on wood, and umbrella avoidance. MAIN already carries this material in person-first form, so WIKI does not manufacture a parallel paragraph just to show activity.
 
-### Wall recovery — bank the people, keep the chronology problem honest
+**Nothien** produced no new named care recipient in the current mounted Officers/Events/DR-HQ/SABER/Lobby slice. That is a search/retrieval boundary, not personality absence.
 
-Bailey_Babe now has a coherent future person seed: embarrassment is participatory rather than ejective, Cookie remembers Bailey was meant to be sleeping, Bailey answers `who needs sleep`, keeps riffing, then shortly afterward announces she is actually going to sleep and asks for somebody to take her phone away. One night does not become insomnia or a stable sleep schedule.
+Teri, Torr, and Seth are banked rather than rejected: their person reads clear the lower evidence threshold, but the current public-safe roster does not resolve their UL-member/VIP shelf. WIKI will not invent status to create Cast pages.
 
-BeaEder gains the local contradiction **receipt scavenger / evidence subject**. Bea can forget one incriminating sentence, later dig somebody else's old receipt out of the phone, and elsewhere end up on both sides of Wall filing. This is useful character irony, not a chronic-memory trait.
+### Hard rails / open rabbits
 
-Neither has enough current public body for a responsible Cast dossier, so both stay banked rather than being turned into cardboard pages.
+New/Newmal's user-confirmed pre-Raja chronology remains controlling. ShiyaX's three-account platform remains unresolved. Baby Lyssa = Ghoulie stays the resolved identity bridge without romance/rank/real-money inference. Teri/Moon sensitive clauses remain private. Torr's health-adjacent clause stays excluded. Seth's workplace specifics stay private. `1-3.zip` returning 403 is a retrieval boundary only. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct.
 
-The same suffix proves operational Fame terminology by **2021-03-13**, when Ren applies `*wall of fame*` to a real filing. The attached image remains uninspected and Baby Lyssa immediately wants it deleted. That does **not** establish the earliest positive/wholesome Fame moment and does not erase the later Eos `first Fame moment` participant memory; category semantics remain unresolved.
-
-### Rabbit held
-
-Daycare RH16 narrows the exact endurance-bot identity question to the image attachments on the 234h and ~279h announcements. Neither text announcement names the bot and nearby Saber notices remain adjacency only. Exact bot identity stays unresolved until those images can actually be inspected.
-
-No raw archive was reopened. No miner branch was merged or cherry-picked wholesale. Existing hard identity, privacy, appointment, joke-literalization, earliest-surviving, and attribution rails remain controlling.
+No raw archive was reopened by the integrator. No miner branch was merged or cherry-picked wholesale. See `INTEGRATION_STATE_RUN_167.md` for the durable Run-167 snapshot.
