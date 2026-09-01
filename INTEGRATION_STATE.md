@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-08-31 20:15 PDT_
+_Last updated: 2026-08-31 20:27 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Older pass detail remains in Git history and MAIN's dated integration reports.
 
@@ -10,94 +10,66 @@ The public-bio rule remains: **the person is the spine; events are supporting sc
 
 Hard user canon, resolved identities, privacy/safety, explicit contradictions, appointment chronology and attribution fences remain hard. Outside those rails, strong contextual reads about habits, relationships, humor, care patterns, ordinary life, reputation and social roles may publish when more likely than not.
 
-## Census / review boundary
+## Run 106 closing census / consumption boundary
 
-- Full closing census: **49 tracked miner identities = 28 active refs + 21 historical/missing refs; 0 newly discovered; 0 finite pending review; 0 backlog; 0 overdue**.
-- Wall recovery is consumed/reviewed through `9e101549093e5807030eb8761dc10612c86553c7`; its Panda/Ghoulie return seam is public and verified on WIKI. Keep the recovery quarry open only for future movement.
-- Mugen person-first is consumed/reviewed through `c3848d9cbc15062b55b88c035c3e1f7d3d3f4757`. The final suffix explicitly produced no new A/B Mugen person-level promotion.
-- Whiskey is consumed/reviewed through `f52c9a7bfa93b5161b6162fbca30811a5ca2f6f3`. Its strongest Eos ordinary-life/relationship material is now public on MAIN in a person-first rewrite rather than mirrored here.
-- Daycare is consumed/reviewed through `9e3f02d6920386436a1860f814377fa2b348427a` after its late seven-commit suffix was caught and reviewed.
-- All Characters HR is consumed/reviewed through `bdea101d937a65d37e5c500a9868f8ce04746a10`; its Run-60 Zoshaa refresh was a successful no-public-change review because both public surfaces already contain the stronger synthesis. Core Rooms remains consumed through `65dc030b3c3d203d61c444baffd3cf8caa9f022d`.
+- **49 tracked miner identities = 28 active refs + 21 historical/missing refs.** No new branch identity appeared.
+- **0 finite pending review, 0 backlog, 0 overdue.** The opening census briefly looked fully current; a required late re-census caught new Daycare and Whiskey suffixes before close. Both were reviewed checkpoint-first and intake-only, then consumed after accepted MAIN work passed verification and deployment.
+- Wall recovery remains open only for future movement and is consumed/current through `9e101549093e5807030eb8761dc10612c86553c7`.
+- Daycare is consumed through `f241ee1f81dd3be20362ebe0fd32c9532eed5ece`.
+- Whiskey is consumed through `456d1fdae05fb95dbea108097e322ed31193fe1b`.
+- All Characters HR remains consumed through `bdea101d937a65d37e5c500a9868f8ce04746a10`.
+- Mugen person-first remains consumed through `c3848d9cbc15062b55b88c035c3e1f7d3d3f4757`.
+- Core Rooms remains consumed through `65dc030b3c3d203d61c444baffd3cf8caa9f022d`.
 - Both Club-Only recovery priorities remain current: 2021–2026 through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`; 2020 through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`.
 - No miner branch was merged or wholesale cherry-picked; no raw archive was re-mined by the integrator.
 
-## Run 106 — census-only close
+MAIN's controlling branch-state commit after the two late reviews is `9d7c3fae8f10e777ce93875396066baa11a444c9`.
 
-The next full branch census found **no active miner head beyond the consumed/reviewed boundaries above**. MAIN persisted that census at `19a0e742e7c14355d457ad65516c37b606f294d5`; all 28 active refs still match their recorded heads, the 21 historical/missing identities remain recorded, and there is no finite pending/backlog/overdue work to manufacture into public copy.
+## Daycare late suffix — Nothien can start the fight and still not know where it is
 
-No reader-facing MAIN or WIKI page changed in this pass. Wall remains recovery-open only for future movement; both Club-Only recovery priorities remain current. Because there was no intake delta, the integrator did not reread a consumed checkpoint, re-mine raw archives, or breed another duplicate character paragraph simply to have something to publish.
+Daycare advanced from consumed `9e3f02d6920386436a1860f814377fa2b348427a` to `f241ee1f81dd3be20362ebe0fd32c9532eed5ece` after the opening census.
 
-## All Characters HR Run 60 — Zoshaa moved downstairs, not sideways
+The strongest new seam belongs to **Nothien / `northwards`**. In April 2020, Nothien can say **`Fight, anyone?`**, get Mugen to volunteer, then shortly follow with **`Where?`** and **`Am losttttt`**. Gilli answers **`Forging Swords`** and **`Come up here`**; Nothien replies **`Ohhh thank youuu`**.
 
-The late HR suffix `6b52b105... -> bdea101d...` materially rewrote the comprehensive Zoshaa intake, not the public Zoshaa story. The good material is real: she can fail to notice a multi-day lockout while giving one chosen object six hours of furious attention; she can make twenty minutes of work sound like an industrial accident and still ask Ren **`are you proud?`**; and `Orb` is reciprocal shorthand between Zoshaa and Ren rather than merely a noun other people stick on her.
+That is better character material than another event entry. Nothien is proactive enough to start the activity and unembarrassed enough to admit they cannot locate it. The help transaction is cheap: ask, get directions, thank Gilli, move on. It fits the same practical social style already visible when voice is inconvenient and Nothien simply uses text instead.
 
-Public reconciliation found that MAIN already has the low-drama lockout, Ren approval bid, six-hour Raja-house rage, maker/attention contradiction and Orb reciprocity, while WIKI's active Zoshaa dossier already has the same relationship machinery in its structured character form. Repeating any of it would have turned a good person read back into a receipt pile. The Run-60 public decision is therefore **no reader mutation on either surface**; the consumed cursor advances because the delta was reviewed successfully.
+The 2023 return now lands more cleanly against that personality. Nothien self-files as **`Underlords(?), Member(?), decently old`**, while Ren answers **`NOTHIIIII`**. Human recognition outruns bot/account-state ambiguity without turning the MEE6 welcome state into first-arrival or rejoin chronology.
 
-Seven tranche peers — Ryo, Dean, Tae, Cele, Yelik, Noether and Yassr — were bounded negatives. The rolled-back Cele top-shelf-candy scene remains dead; the reverted Noether innocence package remains dead; Yassr remains a man. Orb origin, lockout mechanics, the twenty-minute image contents and the Orb-anniversary drawing's maker remain unresolved.
+MAIN rewrote `src/content/people/nothien.md` around this lived contradiction and added Gilli's practical wayfinding plus `Petty Crimes`. WIKI intentionally did **not** create a standalone Nothien Episode; the person profile is the better owner and the universal WIKI biography fallback already prevents a bare résumé route.
 
-## WIKI reader change — `Welcome home, panda`
+Held from promotion: the Jan. 13–18, 2023 Lobby quiet window is channel-specific only; one Gilli direction scene does not establish relationship rank; the unseen June 2023 Daycare message remains unseen; the 279-hour bot identity bridge remains unresolved.
 
-The late Wall suffix adds a small but excellent Panda/Ghoulie relationship scene. On June 4, 2021 Marian/Panda reappears; Baby Lyssa/Ghoulie answers within seconds with **`Welcome home, panda`**. Marian responds in panda emote language and acknowledges that he has been away a long time; Ghoulie answers with chaos emotes.
+## Whiskey late suffix — KOREA cares about the little things
 
-The character value is in the timing and shared vocabulary. Ghoulie treats the appearance as a return, not an introduction. Panda immediately answers inside the same panda-language register. The scene therefore gives Panda disappearance/return texture and pushes peer-readable `panda` language earlier than the later Wizard101 costume spree. `Home` remains social-house language, not literal residence or biological/family status; the exact duration and reason for the absence remain unstated.
+Whiskey advanced from consumed `f52c9a7bfa93b5161b6162fbca30811a5ca2f6f3` to `456d1fdae05fb95dbea108097e322ed31193fe1b` after the opening census.
 
-This was folded into Panda's WIKI biography rather than inflated into a standalone Episode. Reader commit: `28bd68cb6faedcab5f12a86a9352987a7605713d`. Exact reader head passed WIKI Build `33462903738` and Pages deploy `33462903757`.
+The new material pushes **KOREA / Milk / `su.myeon`** back to a December 2020 Lobby doorway and gives the person read a much cleaner center: she is loose and reaction-heavy in delivery but surprisingly exact about the little things she notices.
 
-## Wall forensic correction — ants are Sou's
+On January 28, 2021 she asks for her in-game styling **`『KOREA』`** because plain KOREA is **`Weird seeing it without the little things LOL`**, then immediately softens the request with **`if not it’s fine too~ thanks in advance`**. Exact preference, low-pressure delivery. That same pattern shows up socially: **`RV making me cute, I love`** gets Ren's **`We love you too cutie`**; Eos notices her ordinary work-lunch exit and says `byekorea`; and KOREA notices Ghoulie's absence through room habit rather than a relationship declaration: **`wall of shame aint the same without ghoulies daily posts there`**.
 
-The same Wall suffix corrects a stale insect join. The November 4, 2020 sequence is:
+The suffix also adds a probable SHINee/Jonghyun `husbando` referent, mint-green approval, and **`Makes everyone suffer with my poorly made rolls`**. MAIN rebuilt `src/content/people/korea-milk.md` person-first, corrected its public era start from 2021 to 2020, and moved the small taste/embarrassment material into `Petty Crimes` rather than leaving the page as an event ledger.
 
-- Ren: `Ansun`
-- Ren: `I still got your grasshopper ss`
-- **Sou:** `and my ants?`
-- Ren: `Yeth`
+The hard Milk split remains intact: KOREA/Milk is stable Discord ID `724114717182001284`; Miihi/Milk is stable Discord ID `253897195290361856`. Shared display words are not identity bridges.
 
-So the clean split is **Ansun = grasshopper receipt; Sou = ant receipt**. The exact Sou-ant incident/source remains unresolved. Do not fabricate an Ansun ant story, and do not confuse Ren's retained receipt with creator/capturer provenance.
+WIKI intentionally did **not** mirror the MAIN prose or manufacture a Whiskey Episode. The person-level biography is the stronger owner here, while WIKI keeps the source useful for structured Cast/reference expansion later.
 
-## MAIN reader change — Eos is finally a person, not a receipt queue
+Held from promotion: exact nickname-change fulfillment timing; why posting Jonghyun would make KOREA sad; the contents of Ghoulie's absent daily posts; the exact action behind Ren `making me cute`; the contents/appearance of the uninspected rolls attachment. `3 yrs old` at the 2020 doorway remains an obvious joke, not age evidence.
 
-Whiskey's Eos suffix had enough cumulative ordinary-life and relationship texture to justify a MAIN biography rebuild even though no WIKI Episode was needed. MAIN now folds the same evidence into person-shaped behavior rather than event chronology:
+## MAIN publication result
 
-- Milo gets care delivered as roast: **`You finally limiting yourself, u whale ... good`**, followed by Milo's immediate `shush we don’t gotta talk about it`.
-- Ren gets easy cookie/nom warmth and a later **`supa cuteeeee ... tank uuu`** reaction without pretending the uninspected image proves maker credit.
-- Gilli can point at **`this anime that we never finished LOL`** and Eos knows the abandoned shared-history object with no recap required.
-- Eos is impatient at the computer-science finish line, steals a good frog reaction on sight, and has probable theatrical Sovieshu rage from *The Remarried Empress*.
+Reader commits in this pass:
 
-MAIN reader commit `2495604d28ccf7344bb6e620d829506c730a55d2` passed source canon/architecture verification, Astro build, built-output verification and exact Cloudflare deployment in workflow `33463521719`. WIKI intentionally does not photocopy that prose; its structured Eos references remain complementary.
+- Nothien person-first integration: `cad6163349b15b85bd142d402ec0f8f1675db97b`
+- KOREA person-first rebuild / final reader head: `cfacfcf4e0b726bfac6086111619cc13e716c9ee`
 
-## MAIN reader change — Anthos makes the front door feel like a house
-
-The late Daycare handoff materially deepens Anthos as a lived-role character. Across 2020→2021 Lobby scenes she repeatedly handles the practical intake work — role completion, needed info, server-tour wayfinding — but does it as **`welcome bb`**, **`haiii roles assigned!!! glad you could make it!!!`**, and a quick **`no you're not XD`** when a newcomer worries they may be too young to belong.
-
-The cumulative contradiction is useful: **procedural competence without bureaucratic affect**. Anthos can perform a gate function while making the interaction feel conspicuously unlike a gate. MAIN folded that into her existing house-maintenance / Tumbleweed / wayfinding biography rather than creating another onboarding incident. Reader commit `78056d7c518cf56532a498a6f109e5e0019bba9a` is contained in exact-green deployed descendant `e8aba7ba202ba1f858fb9a3d094d3a2b4983ca1b`, whose workflow `33463690065` passed the full MAIN verification/deploy chain.
-
-WIKI does not mirror this biography paragraph. It remains useful structured role/wayfinding context if a future Anthos dossier needs the behavior summarized differently.
-
-## Daycare rabbit / hold decisions
-
-Mugen's March 20, 2023 announcement — **`WE OFFICIALLY BROKE THE BOT FAM! Approx 279 hours is our record before the bot yeeted itself out`**, immediately framed as anniversary-month celebration — materially strengthens her organizer/play contradiction and UL's habit of turning infrastructure failure into measurable group folklore. The announcement does **not** name the bot or channel. Therefore `279-hour bot = Daycare/word-train bot` remains probable/open and is not promoted into a false WIKI Episode.
-
-Beckiie's **`i feel like i don’t say anything that gets me here`** is a useful one-line self-perception but remains too thin for a broad trait/page. A proposed February 1–5, 2022 quiet Wall window was rejected because the same retrieval route failed known-positive controls. Broken retrieval zeroes are not evidence of silence.
-
-## Mugen suffix — successful no-public-change review
-
-The final Mugen miner close through `c3848d9c...` explicitly says there is no new A/B Mugen person-level promotion. Fresh Core, Whiskey, Wall and Daycare movement improves Nelph/Gilli/Ice Man Cree/Nuvel, Eos, Panda/Ghoulie, Sou, Anthos and a bot-culture rabbit rather than requiring another Mugen paragraph. The unresolved Dean raw join, Shy merger retrospective, Woosung/Nobu continuation and underfed 2024–2025 ordinary-life layer remain real rabbits rather than negative evidence.
-
-One miner instruction is rejected as stale canon: its GenGrey/New chronology says New comes later through GenGrey. That is not controlling canon and must not be propagated.
-
-## Hard chronology correction — New remains pre-Raja
-
-**New / Newmal is a man and belongs to Mugen's older pre-Raja online-family circle with Dean, Key, Zepp, Kal, and GenGrey.** A later recruitment/route connection through GenGrey does not define New's first meeting with Mugen and does not remove him from that older circle.
-
-The MAIN canon lock and Mugen public biography are repaired, and WIKI's Mugen narrative source is likewise repaired. A miner handoff that repeats the superseded chronology is a contradiction to reject, not a reason to split the difference in visible prose.
+Exact workflow `33466085504` on `cfacfcf4...` passed **source canon/architecture verification, Astro build, built-output verification, and exact Cloudflare Pages deployment**. No publication debt remains for these two reviewed deltas.
 
 ## Surface split / duplicates combined
 
-- MAIN owns the richer Eos person-first rewrite and Anthos front-door hospitality deepener; WIKI does not mirror those paragraphs.
-- WIKI owns the compact Panda/Ghoulie return deepener because Panda's dossier had the cleanest relationship/change-over-time hole; MAIN already has a substantial Panda biography and did not need another receipt paragraph.
-- All Characters HR Run 60 changed the backstage Zoshaa synthesis only; both public surfaces already own the stronger lived version, so neither got duplicate copy.
-- Mugen's fresh `WASSAAAP`, `welcome enyo!`, and the 279-hour bot announcement remain supporting/rabbit material unless they materially change an existing person read; no new Mugen paragraph was bred just because a checkpoint existed.
-- Beckiie's line remains thin/held rather than converted into cardboard characterization.
+- MAIN owns the richer Nothien and KOREA rewrites because both deltas materially deepen existing person biographies.
+- WIKI gets no duplicate reader paragraphs and no forced Episodes from these same receipts. Its route architecture already narrativizes non-dedicated Cast entries instead of exposing only role cards.
+- Existing Eos, Anthos and Panda/Ghoulie integrations from the immediately preceding pass remain valid and are not recopied here as new work.
+- All Characters HR's final Zoshaa refresh remains a successful no-public-change review: both surfaces already contain the stronger person-first version.
 
 ## Rails held
 
