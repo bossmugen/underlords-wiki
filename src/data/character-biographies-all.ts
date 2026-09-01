@@ -12,9 +12,11 @@ import * as akaminModule from "./character-biographies-akamin";
 import * as alkeyModule from "./character-biographies-alkey";
 import * as ameModule from "./character-biographies-ame";
 import * as anthosModule from "./character-biographies-anthos";
+import * as babyLyssaModule from "./character-biographies-baby-lyssa";
 import * as chibiterasuModule from "./character-biographies-chibiterasu";
 import * as chibiterasuRun37Module from "./character-biographies-chibiterasu-run37";
 import * as celeModule from "./character-biographies-cele";
+import * as clownModule from "./character-biographies-clown";
 import * as cookieModule from "./character-biographies-cookie";
 import * as dayaModule from "./character-biographies-daya";
 import * as feliModule from "./character-biographies-feli";
@@ -28,6 +30,7 @@ import * as hyalunaModule from "./character-biographies-hyaluna";
 import * as illienModule from "./character-biographies-illien";
 import * as kaedeModule from "./character-biographies-kaede";
 import * as keyModule from "./character-biographies-key";
+import * as kiroModule from "./character-biographies-kiro";
 import * as lanModule from "./character-biographies-lan";
 import * as lillyModule from "./character-biographies-lilly";
 import * as lillyRun1306Module from "./character-biographies-lilly-run1306";
@@ -116,9 +119,9 @@ import { extendedCharacterBios } from "./character-bios-extended";
 
 const finishedNarrativeModules = [
   akaminModule,
-  alkeyModule, ameModule, anthosModule, chibiterasuModule, chibiterasuRun37Module, celeModule, cookieModule, dayaModule,
+  alkeyModule, ameModule, anthosModule, babyLyssaModule, chibiterasuModule, chibiterasuRun37Module, celeModule, clownModule, cookieModule, dayaModule,
   feliModule, feliRun38Module, genGreyModule, ghosttModule, gilliModule, hanModule, hishiroCoreModule,
-  hyalunaModule, illienModule, kaedeModule, keyModule, lanModule, lillyModule, lillyRun1306Module, miaModule,
+  hyalunaModule, illienModule, kaedeModule, keyModule, kiroModule, lanModule, lillyModule, lillyRun1306Module, miaModule,
   momoModule, moonModule, mugenModule, nelphModule, nemoModule, newModule, nhouModule, nobuModule,
   noetherModule, nuienModule, oyasumiModule, pandaModule, plateletModule, renModule, rithaModule,
   rooksModule, rummyModule, richModule, shikiModule, shiyaxModule, snowModule, suzimasuModule, syeModule,
