@@ -246,6 +246,12 @@ export const allNarrativeCharacterBios: Record<string, CharacterNarrative> = {
 
 for (const module of finishedNarrativeModules) mergeNarrativeModule(allNarrativeCharacterBios, module);
 
+// Hard-canon repair: Run 107 carried a superseded Ame/Amexistir split. Ame = Amexistir.
+// Reapply the canonical person-first biography after historical overlays and remove the
+// orphan split narrative so a future resolver lookup cannot resurrect the duplicate person.
+mergeNarrativeModule(allNarrativeCharacterBios, ameModule);
+delete allNarrativeCharacterBios.amexistir;
+
 // Universal rule: every public character route resolves to a biography-shaped story.
 // Finished narratives win; deeper legacy profiles are folded into a person-shaped page;
 // thin entries stay short instead of manufacturing a personality out of metadata.
