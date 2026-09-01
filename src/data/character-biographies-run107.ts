@@ -1,5 +1,6 @@
 import type { CharacterNarrative, NarrativeSection } from "./character-biographies-narrative";
 import { mugen1619NarrativeCharacterBios } from "./character-biographies-mugen-1619";
+import { renNarrativeCharacterBios } from "./character-biographies-ren";
 
 function withSection(base: CharacterNarrative, section: NarrativeSection): CharacterNarrative {
   return { ...base, sections: [...base.sections, section] };
@@ -12,6 +13,16 @@ export const run107NarrativeCharacterBios: Record<string, CharacterNarrative> = 
     paragraphs: [
       "On March 20, 2023 Mugen announces, `WE OFFICIALLY BROKE THE BOT FAM! Approx 279 hours is our record before the bot yeeted itself out`, then immediately folds the casualty into Anniversary Month. The organizer in her has apparently been timing the machine closely enough to preserve a number. The gremlin in her sees the machine fail and awards the house a trophy.",
       "The wording does most of the character work. `WE` makes the breakage communal, `OFFICIALLY` mock-certifies it, and `record` turns infrastructure failure into a competitive achievement. Nobody needs a fake formal bot-history page for this. Mugs built systems; Mugs also enjoyed the moment the clowns defeated one. The exact bot remains unnamed in the surviving announcement, which somehow makes the warranty claim funnier rather than less useful."
+    ],
+  }),
+
+  ren: withSection(renNarrativeCharacterBios.ren, {
+    period: "February–March 2022",
+    title: "THE RIDDLE GENIE HAS RULES, ACTUALLY",
+    paragraphs: [
+      "The missing first Officers Challenge dare finally has a body: Ren opens with a whole red-carpet fantasy and then asks what everybody's Raja character autograph would look like. Thirty-four seconds later she supplies her own answer — choco-mint inspired, signed in crayon. A year later, after changing her Raja name, she resurrects the same challenge herself. This was not disposable Staff copy. Ren liked the stupid little thing enough to bring it back.",
+      "The weeks around it make her hosting style much clearer. Ren keeps changing the audience salutation — `materialized stardust`, `crustaceans`, `baguettes`, `juice boxes` — while the mechanics underneath stay annoyingly competent: one reaction means check my answer, another means help me, help goes to DM, do not Google it, do not spoil the answer in public. When people start talking around the solution she redirects them back to the signals. When Rummy supplies one of the puzzles, Ren credits Rummy instead of absorbing authorship into the host role.",
+      "That is the cleaner counterweight to the spelling-Kahoot disaster already living on her page. Ren can put the wrong code on a poster twice and make herself the punchline; she can also run a recurring room where the rules are legible, the help lane is private, contributors get named, and the theatrical nonsense makes procedure feel less like procedure. Clown delivery, real facilitation. The Officer title is lived here in the least résumé-shaped way possible."
     ],
   }),
 
