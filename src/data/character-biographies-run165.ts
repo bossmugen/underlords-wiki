@@ -50,17 +50,30 @@ export const run165NarrativeCharacterBios: Record<string, CharacterNarrative> = 
       "A June 27–29, 2021 Whiskey pocket adds a quieter version of the same social engine. Tofu does not need an incident to make communal material: playlist fatigue, a brother losing an argument with the calendar, dehydration jokes, a sneeze headache, two jobs, and bee nonsense all arrive with almost no ceremony. Ordinary maintenance enters the room already halfway to becoming a bit."
     ],
     sections: [
-      ...tofuBase.sections.map((section) =>
-        section.title === "Petty Crimes"
-          ? {
-              ...section,
-              paragraphs: [
-                ...section.paragraphs,
-                "June 2021 also gives us the Dehydrated Squad: `Where’s my dehydrated squad?!`, then roughly an hour later `Ay…does this count as water?` beside an uninspected image, plus a sneeze powerful enough to produce a headache report. The next day `buzz buzz motherfuckers` turns the bee already carried in `Tofu🐝` into active self-styling. Tiny self-maintenance failures become social comedy; none of this is a health dossier, and the pictured object stays unidentified."
-              ]
-            }
-          : section
-      ),
+      ...tofuBase.sections.map((section) => {
+        if (section.title === "Petty Crimes") {
+          return {
+            ...section,
+            paragraphs: [
+              ...section.paragraphs,
+              "June 2021 also gives us the Dehydrated Squad: `Where’s my dehydrated squad?!`, then roughly an hour later `Ay…does this count as water?` beside an uninspected image, plus a sneeze powerful enough to produce a headache report. The next day `buzz buzz motherfuckers` turns the bee already carried in `Tofu🐝` into active self-styling. Tiny self-maintenance failures become social comedy; none of this is a health dossier, and the pictured object stays unidentified."
+            ]
+          };
+        }
+
+        if (section.title === "Three years later: where is that screenshot") {
+          return {
+            ...section,
+            paragraphs: [
+              "On August 28, 2024, Tofu writes: `This is isn't far off from a convo he and I had a few days ago... where is that screenshot`. The reply edge does not structurally name `he`, but Cookie is now the strong probable referent: the message Tofu is answering is a Dank Memer result about Cookie, and fifty-one minutes later Cookie complains `who gave Tofu access to this channel lmao she bouta expose me` before Tofu reacts to that exact warning. The missing screenshot remains missing; the relationship pattern does not.",
+              "The wording matters because Tofu's memory immediately becomes retrieval. The later Cookie complaint matters because Cookie is not behaving like a random bystander; he is already bracing for Tofu to produce evidence against him. That fits years of the same reciprocal exposure grammar without pretending the missing image has been recovered or that one pronoun has become technically explicit.",
+              "For Tofu and Cookie, screenshots are less an archive job than reusable conversational ammunition. Cookie knows Tofu may have something; Tofu knows Cookie knows; both keep stepping back into the exchange anyway. That is a relationship mechanism, not an Archivist appointment, and the probable antecedent does not authorize any claim about the unseen screenshot's maker, capturer, subjects, or contents."
+            ]
+          };
+        }
+
+        return section;
+      }),
       {
         period: "June 29, 2021",
         title: "RELATIONSHIPS — MARIAN KAGE",
