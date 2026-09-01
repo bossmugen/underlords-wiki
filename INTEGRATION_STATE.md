@@ -1,92 +1,59 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-08-31 16:43 PDT_
+_Last updated: 2026-08-31 17:36 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Older run detail remains in Git history and MAIN's dated integration reports.
 
-## Current boundary — Run 95
+## Current boundary — Run 96
 
-The public-bio rule remains: **the person is the spine; events are supporting scenes; the archive stays backstage.** MAIN owns the richest person/legend biographies. WIKI owns complementary Cast dossiers, role progression, relationships, Episodes, Running Gags, Quotes, Locations, gallery/reference structure, and person-first narrative where the character route uses it. `Petty Crimes` is the public catch-all; never `Trivia`.
+The public-bio rule remains: **the person is the spine; events are supporting scenes; the archive stays backstage.** MAIN owns the richest person/legend biographies. WIKI owns complementary Cast dossiers, role progression, relationships, Episodes, Running Gags, Quotes, Locations, gallery/reference structure, and person-first narrative where the route uses it. `Petty Crimes` is the catch-all; never `Trivia`.
 
 Hard user canon, resolved identities, privacy/safety, explicit contradictions, appointment chronology and attribution fences remain hard. Outside those rails, strong contextual reads about habits, relationships, humor, care patterns, ordinary life, reputation and social roles may publish when more likely than not.
 
 ## Census / review boundary
 
-- Full miner census closes at **49 tracked identities = 28 active refs + 21 historical/missing refs; 0 newly discovered; 0 finite pending review; 0 backlog; 0 overdue**.
-- Reviewed-through boundaries are now: All Characters HR `8c753ac5e0b48fdce1d5507434aefb823c68db4e`; Core Rooms `fe8b3dba35050c930f70abfd56fa1b3ce7ab9761`; Daycare `58fdf37c78d6d420035c5360faa9b1d49211a763`; Wall `df1ed93e9517293c9f73b6b8c4b374f0f0c9e3f5`; Mugen person-first final current head `02e2a153908302072c1cc30e03e6ab9389c214a6`; Whiskey late current head `6b6bb68556a0e2b3d41f0c03c77dcf826dab5708`.
-- The opening Run 95 census temporarily captured an intermediate Mugen SHA and missed Whiskey's later one-commit suffix. Direct branch reads corrected both before close.
-- All Characters' current suffix is checkpoint/exhaustion-ledger bookkeeping only; it creates no new evidence family beyond the already-reviewed package.
-- Wall remains recovery-open only for future movement. Both Club-Only recovery priorities remain fully current: 2021–2026 through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`; 2020 through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`.
-- No miner branch was merged or wholesale cherry-picked; no raw archive was re-mined by the integrator.
+- Full census: **49 tracked miner identities = 28 active refs + 21 historical/missing refs; 0 newly discovered; 0 backlog; 0 overdue**.
+- Run 96 reviewed All Characters HR through `6b52b105995b5f4dffddee2581c3b7977adec043`, Core Rooms through `07b0bd17323d1db93a6deb37270034dca4ba6a6a`, Daycare through `3d15ae8e161d910b64a62d66c857a0279f006fce`, Whiskey through `46239cd2c2ac24f59a5103b04cd0f6be4ac74d80`, and the late Wall recovery suffix through `cb5d17d699fbd9c756595458bc8fb4a48285487a`.
+- Mugen person-first remains reviewed through `02e2a153908302072c1cc30e03e6ab9389c214a6`.
+- Both Club-Only recovery priorities remain current: 2021–2026 through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`; 2020 through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`.
+- Wall remains recovery-open only for future movement. No miner branch was merged or wholesale cherry-picked; no raw archive was re-mined by the integrator.
 
-## Reader integration — Woosung can turn `someday` into an 80-second deadline
+## Reader integration — Rooks can give sane advice while being her own worst case study
 
-Core Rooms surfaced a clean WOO/Snow scene and the existing WIKI identity layer resolves stable account `454708201615523871` to **Woosung**. Woosung reminds Snow about the K-pop game she wants; Snow already knows the request and says `SOMEDAY`, specifically `when I am bored out of my mind`. Roughly eighty seconds later Woosung asks `Are u bored yet`, then keeps coming back with `How about now`, `Now?`, and `now?` while Snow keeps refusing in increasingly theatrical form.
+Whiskey's late person pass finally gave Rooks / Rookie Cookie / `.poogie.` enough ordinary-life material to stop the screenshot legend from eating the rest of the woman. In January 2021 she explains why people worry about somebody else's sleep and says healthy rest matters, then admits she herself is running on roughly four or five hours. Later that month she asks for `me time` from the server during spring-semester classes while leaving DMs open and ending with love. By May she is reporting `3/8 pages done` on an eight-page assignment.
 
-WIKI folds that into Woosung's existing dossier as lived Snow/Woosung texture rather than a dispute card. The joke works because the request is already mutually understood before the repetition begins. Refusal is not rupture; it becomes fresh material for Woosung's return serve. This does not create a formal promise, entitlement, romance, or a new UL role.
+The useful synthesis is not `Rooks is responsible` or `Rooks is chaotic`. It is both. She can identify the sensible rule, make a specific boundary, care enough to explain it, and still wind up as her own exception. That contradiction now lives inside the WIKI biography rather than as a receipt appendix.
 
-Reader commit: `8ab4a376869fd1632b80f208568d3435ef9e66a3`.
+The same stable account later receives fresh MEE6 welcome cards. On May 9 Gilli follows one with `Roles assigned hunbun uwu`; Rooks is in Whiskey a little later answering `thank you my love`. WIKI treats this as a probable leave/re-entry cycle without pretending the exact technical departure date or cause is known. The stronger human point is that the door can reset while the relationship temperature does not.
 
-## Reader integration — Lord of the Shorts
+Rooks also now has a real **Petty Crimes** pocket: the 100-server Discord limit, one committed strawberry-bingsu-plus-strawberry-boba afternoon, Borderlands 3, Monster Hunter Rise interest, one tattoo as of January 2021 without invented visual details, her mother's Jackson chameleon kept correctly separate from Rooks's own pets, a probable GOT7 formative K-pop read, and the `3/8 pages` academic crime scene. `Bok bok I have a glock` stays joke/emote language, not weapon evidence.
 
-Wall's late-2022/early-2023 height argument is now a structured WIKI Legend rather than being scattered across individual biographies. Gabu repeatedly prosecutes Gilli as shortest, Gilli repeatedly files back, Daya turns care into pocket-sized harassment, Rummy redirects the charge toward Cele, Ricochet tries to calculate the imaginary ranking, Ren wheezes at Gilli's clap-delivered `YOU SHORTCAKE`, and Mia eventually compresses the jurisdiction into `Shorties ❤️`.
+Reader commit: `ee32569aba80a90e3e52ed289e0242721354bfdd`. It passed **Build Underlords Wiki** run `33455247094` and **Deploy Underlords Wiki Preview** run `33455247057`, including Pages deployment.
 
-The public owner is **Lord of the Shorts**. The continuity is the argument itself: accusation, appeal, counter-filing, increasingly stupid titles, and everyone behaving as if imaginary vertical rankings deserve appellate review. It does **not** establish anyone's real height.
+## Core Rooms — accepted person deepeners, mostly left to MAIN
 
-Reader commits: `97bba08141e251d6009c8668f72ce3b013a986f8` and route wiring `a2d63908ccf7c2565bf8ed31bb94204d2aeb6b6a`.
+Core's late delta gives current Battle Leader / Underboss / Game Officer **Anayss** much stronger lived-role texture: field coordination around opposing whale movement, private tactical routing when ordinary CC was suspected of leaking, and exact event-calendar translation designed to stop newer people from entering the wrong thing or costing points. The public synthesis is cheerful precision: `Haiii` and hearts can coexist with tactical exactness.
 
-## Reader integration — Candy's `Wad00` finally gets its missing setup
+A stale miner guard claimed Ritha still held Battle Leader. **Rejected. Current hard canon remains Anayss = current Battle Leader; Ritha is retired historical Consigliere / Senior Advisor / Founder.** The 2021 scenes deepen Anayss's behavior but do not date the formal appointment.
 
-Wall recovered the parent behind Candy's August 10, 2021 `Wad00`. Vanness had self-filed `Im putting myself in wall of shame for losing 5 orange dracs for merge. Shame me`; Candy TRUE-REPLIES with `Wad00`.
+Nelph's November 2021 step-back scene is accepted as a relationship/absence-return deepener: peers answer with waiting, home, open arms and a place held rather than treating departure as severance. The sensitive reason for the break stays private. Sye's anatomy-for-art study advice is safe ordinary-life / care-through-knowledge texture, with no professional or medical inference. Anthos's exact-character/case poster hygiene is a tiny data-cleanliness trait. Drink Water Reminder's scene supports competent-without-posturing behavior. These are held primarily for MAIN rather than mirrored into already-rich WIKI biographies.
 
-The structured Candy dossier now removes the stale claim that the parent was unrecovered. In this scene, the tiny reaction reads naturally as baffled/incredulous participation — basically a whole *what the fuck did you do* compressed into one proprietary little sound. That does not turn `Wad00` into a universal dictionary entry or establish a special Candy/Vanness relationship. Candy remains Candy / `— Luna`, never HyaLuna, and historical exact-age material stays private.
+## Daycare / All Characters — successful no-public-change review
 
-Reader commit: `bddbd73ed1229b1a28eca8ea265f76ab915b31aa`.
+Daycare's late Aesh repair scene and HamitteY/Ghoulie receipt ambush are already controlled by earlier evidence families / do-not-rediscover rails. The bounded 13-day Wall-only quiet block remains channel-specific longitudinal texture, not server-wide silence. No duplicate reader prose was created.
 
-## Late reviewed person seams — held proportionately
+All Characters HR Run 59 was also duplicate/corroboration/read-ahead against richer public surfaces. Woosung's persistence/self-own texture and Syv material required no new paragraph. **Zyrcant = Akariel = Akariel™ = `akariel_star` remains resolved hard canon; miner equivocation does not reopen it.**
 
-Wall's 16:11 suffix gives Sou / Ansun a direct self-description of one social mechanism: `i just like teasing you because I like seeing you cry, pat pat ill stop bullying you`. The useful character read is the whole motion — reaction-seeking provocation followed by immediate soft repair — not the incriminating middle fragment by itself. The target remains structurally unresolved, so no Sou↔Anthos/Gabu relationship edge is invented.
+## Wall late suffix — deduped, plus one tiny Akamin taste
 
-The same suffix gives Shiki a deeply stupid domestic contradiction: he worries that metal in a microwave could blow up, then says `i always heat my spoon on fire`. This is self-reported recurring-habit / selective-risk-calibration `Petty Crimes` material only. It is not physical verification, drug-use evidence, or instructions.
+Wall's newest HamitteY/Ghoulie chain is the same evidence family Daycare already surfaced: forgotten screenshot → exact-parent recognition → `i thought you was my friend` → affectionate `Sorry not Sorry` → `welcome back from vacation`. It is good relationship choreography, but not new enough to deserve a second public episode. Screenshot pixels remain uninspected; POSTED BY does not become CAPTURED BY / MADE BY / FEATURING.
 
-Mugen's completed 16:21 package strengthens LilithEl as a specific interruption-not-erasure relationship: Mugen twice describes preserving Lilith's place while she was away rather than making her re-prove herself after returning. That remains dyad-specific, not a universal inactivity policy. The same package finally gives Mugs more off-duty life: she says she and Snow are `chillin in the champagne room listening to rnb`, then tries `Walang anuman!` with Gab, immediately admits she is not sure she got it right, accepts Gab's reassurance, and celebrates. One listening session is not a favorite-genre claim; the room name is not alcohol evidence; one phrase is not ethnicity, nationality, or fluency evidence. These are MAIN-biography / `Petty Crimes` candidates once MAIN can verify safely.
+Akamin adds one clean tiny taste: `Whiskey` followed eight seconds later by `Always gonna be my drink bb`. Keep it as a Petty Crimes-level preference only. **Akamin remains separate from Mere.** No quantity, frequency, intoxication or lifestyle claim is inferred, and no standalone public entity is manufactured from one drink preference.
 
-Whiskey's late 16:18 Akariel / Zyrcant pass confirms first-party Amaurot membership and repeats the excellent `my ign is still Zyrcant` hinge while adding two coffee-themed GIFs eleven minutes apart. The current WIKI Zyrcant biography already owns the important person read — institution fuzzy, identity intact, Mac stripped to Spotify/Chrome/Discord, reaction-native social style — so no duplicate paragraph was bolted on. The coffee pair remains reasonable Petty Crimes support, not a mandatory new taste thesis. Jas's `she didn't join my old club cus of Amaurot` now probably refers to Akariel, but the missing connective text/reply graph keeps that relationship-history edge backstage.
+## Publication debt / next boundary
 
-## No-public-change closures
+The five MAIN publication-debt families remain **All Characters HR, Core Rooms, Daycare, Mugen person-first, and Whiskey** because accepted complementary MAIN reader work still cannot clear MAIN's required verifier. Wall also carries older complementary MAIN debt while remaining recovery-open.
 
-- Core's `gab.` material is a useful newcomer seed: asks how Discord differs from game club chat, keeps talking, and is pointed toward the music hangout. Probable HipHop/Rap taste stays proportional; no nationality is inferred from language fragments. It is too thin for a new public entity by itself.
-- Core's LilithEl return reinforces an already-known return pattern and the Mugen package makes the dyad recurrence stronger. No duplicate WIKI Episode was created.
-- Daycare's AJ material supports a good small contradiction — joke first, paperwork second, structure-ready once the request is concrete — and strengthens the existing front-door read that onboarding happened inside a social room rather than a sterile application portal. It remains too thin for a standalone character entity, and private intake details stay backstage.
-- Whiskey's Abie package is promising person texture: `for my lazy days`, choosing a set because of feathers, indecision, categorical water ranking, and a sudden six-emote knife arsenal. Exact clothing/product pixels remain inaccessible; the unsafe hydration statement remains non-advice and is not public. No public entity is manufactured from a developing file.
-- Whiskey's Rich line is a canon-hierarchy correction, not a discovery that Rich merely *might* know Amaurot. Rich is hard-confirmed as **Amaurot club leader** and UL VIP. Snow asking him whether `anyone else` from Amaurot wants to join shows the already-confirmed leader functioning as a natural cross-club contact. It creates no UL rank and no unsupported direct inviter edge.
-- Akariel's late Whiskey pass is largely duplicate/corroboration against the already-public Zyrcant biography. `Zyrcant = Akariel` stays resolved; the pooled Deleted User is not globally Kimchi; exact age is not public; coffee GIFs do not become a sworn beverage order.
-- All Characters HR's suffix is derivative status bookkeeping and closes without publication.
+Resume only after movement beyond these reviewed boundaries: All Characters `6b52b105…`; Core `07b0bd17…`; Daycare `3d15ae8e…`; Whiskey `46239cd2…`; Wall `cb5d17d6…`; Mugen `02e2a153…`.
 
-## Held rails / rabbits
-
-- `Zyrcant = Akariel = Akariel™ = akariel_star` remains hard canon. Artifact attribution stays separate from identity.
-- **New remains in Mugen's user-confirmed pre-Raja circle with Dean, Key, Zepp, Kal and GenGrey.** The completed Mugen handoff contains stale opposite wording saying New comes later through GenGrey; that instruction is rejected and must never propagate. GenGrey can simultaneously be the later recruitment bridge named by New; recruitment route ≠ first-meeting clock.
-- Rich = DragonRich; Rich ≠ Ricochet. Amaurot leadership is external history, not UL governance.
-- Woosung's K-pop-game lobbying is playful persistence, not a real dispute or contractual obligation.
-- `Lord of the Shorts` is a running joke, not height evidence and not governance.
-- Candy's direct `Wad00` reply resolves one scene, not the universal meaning of the word.
-- Sensitive/minor intake fields remain non-public.
-- Abie's unsafe survival-style statement is not advice and stays out of public copy.
-- Shiki's spoon line is SAID BY / self-report only; no physical-act or drug-use inference.
-- Jas→Akariel is probable referent/context only until raw connective text or reply metadata appears.
-- SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct.
-
-## Verification / deployment
-
-The reader-producing head `bddbd73ed1229b1a28eca8ea265f76ab915b31aa` includes the Woosung deepener, Lord of the Shorts Legend and Candy reply-context repair. It passed **Build Underlords Wiki** run `33451173581` and **Deploy Underlords Wiki Preview** run `33451173602`, including Pages deployment. State-only heads after that preserve the same reader output while advancing reconciliation boundaries.
-
-MAIN reader content received no reader mutation in this close. The durable Run 94 report head `45d61719b033a2e00414e519e847ba309fd9200f` triggered `UL Hourly Build + Deploy` run `33451381185`; `Build + verify` failed before execution with `steps: []`, runner ID `0`, and blank runner name, while Cloudflare deployment was skipped with `steps: []`. Source verification, Astro and built-output verification therefore did not reject reader content — they never ran. No MAIN reader change was routed around the dead gate.
-
-## Consumption / publication debt
-
-Reviewed-through state now reaches All Characters `8c753ac5…`, Core `fe8b3dba…`, Daycare `58fdf37c…`, Wall `df1ed93e…`, Mugen `02e2a153…`, and Whiskey `6b6bb685…`. Formal MAIN consumed cursors for the five existing MAIN-debt families remain pinned until accepted complementary MAIN work can clear the required verifier. Those families remain **All Characters HR, Core Rooms, Daycare, Mugen person-first, and Whiskey**. Wall remains recovery-open with older complementary MAIN verification debt, but the current suffix itself is reviewed.
-
-## Next boundary
-
-Resume Wall only after movement beyond `df1ed93e9517293c9f73b6b8c4b374f0f0c9e3f5`; All Characters only after `8c753ac5e0b48fdce1d5507434aefb823c68db4e`; Core only after `fe8b3dba35050c930f70abfd56fa1b3ce7ab9761`; Daycare only after `58fdf37c78d6d420035c5360faa9b1d49211a763`; Whiskey only after `6b6bb68556a0e2b3d41f0c03c77dcf826dab5708`; Mugen only after `02e2a153908302072c1cc30e03e6ab9389c214a6`.
+SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct. Joke family language stays non-biological; playful relationship wording stays non-romantic unless separately supported; role arrays do not become appointment calendars; sensitive/minor material remains backstage.
