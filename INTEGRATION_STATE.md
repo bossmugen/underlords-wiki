@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-08-31 23:12 PDT_
+_Last updated: 2026-08-31 23:15 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Older pass detail remains in Git history and MAIN's dated integration reports.
 
@@ -9,6 +9,17 @@ This is the current durable dual-surface reconciliation snapshot. Older pass det
 The person is the spine; events are supporting scenes; the archive stays backstage. MAIN owns the richest person/legend biographies, relationship texture, lived chronology and `Petty Crimes`. WIKI owns the complementary searchable/reference layer: Cast dossiers, role progression, Relationships, Episodes, Running Gags, Quotes, Locations, Gallery/media notes, and person-first narrative where useful for lookup. The same source may appear on both surfaces only when it does a different job.
 
 Hard user canon, resolved identities, privacy/safety boundaries, explicit contradictions, appointment chronology and attribution fences remain hard. Outside those rails, strong contextual reads about habits, relationships, humor, care patterns, ordinary life, reputation and social roles may publish when more likely than not.
+
+## Run 115 branch census / no-op boundary
+
+- **49 tracked miner identities = 28 active refs + 21 historical/missing refs.** No new branch identity appeared.
+- **0 finite pending-review tails, 0 backlog, 0 overdue** at census.
+- Every active miner ref still matches the consumed boundary recorded by MAIN. No changed `archive-intake/*` handoff exists to review this run, so no reader-facing mutation is warranted on either public surface.
+- Wall `archive-miner-wall-hourly-20260824` remains recovery-open only for future movement and is current through `5510e7f2888839c944e30ba180f9d3c2a65292ab`.
+- Both Club-Only recovery priorities remain current: 2021–2026 through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`, 2020 through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`.
+- No miner branch was merged or wholesale cherry-picked.
+
+Run 115 is deliberately a deconfliction/state pass. Run 114 had closed only minutes earlier, and none of the quarries moved afterward. The correct integrator behavior is therefore to leave Rooks, Eos, HamitteY, Nhou, Mugen, Core, Wall and the rest of the already-reconciled public material alone rather than manufacture another paragraph because the clock fired.
 
 ## Run 114 branch census / consumption boundary
 
