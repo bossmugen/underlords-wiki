@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-01 13:34 PDT_
+_Last updated: 2026-09-01 13:37 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Older pass detail remains in Git history and numbered `INTEGRATION_STATE_RUN_*` snapshots. MAIN's controlling branch-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`.
 
@@ -9,6 +9,18 @@ This is the current durable dual-surface reconciliation snapshot. Older pass det
 The person is the spine; events are supporting scenes; the archive stays backstage. MAIN owns the richest person/legend biographies, lived chronology, relationship texture, and `Petty Crimes`. WIKI owns the complementary searchable/reference layer: Cast dossiers, role progression, Relationships, Episodes, Running Gags, Quotes, Locations, Gallery/media notes, and structured person-first material where lookup benefits from it. Do not mirror prose between the two surfaces.
 
 Hard user-confirmed canon, resolved identities, privacy/safety boundaries, explicit contradictions, formal appointment chronology, and attribution fences remain hard. Outside those rails, strong contextual reads about habits, tastes, relationships, humor, care patterns, ordinary life, reputation, and social roles are publishable when more likely than not.
+
+## 2026-09-01 13:37 PDT — Run 163 close
+
+Mandatory full miner census: **49 tracked miner identities = 28 active refs + 21 historical/missing refs**, **0 newly discovered**. The one finite advanced tail was `archive-miner/mugen-person-first-20260828`, reviewed checkpoint-first and intake-only from `72e90cebe5084a3ae2e1aaa22064b1ed5d86b49c` through `2fbccd4521118c7f2cac6c2e0bdf4881fccd35e6`.
+
+The 13:21 Mugen close package formalizes the same single promotion already reconciled below in Run 162: Key's `...dont tell mugs` / `shhhh` as reception-side evidence that Mugen's imagined awareness can function as part of a joke even when Mugen is not established as present. No second finding cleared novelty. The correct public handling remains **banked relationship/reputation texture**, not another MAIN receipt paragraph and not a one-receipt WIKI Episode.
+
+MAIN consumption state now advances Mugen through `2fbccd4521118c7f2cac6c2e0bdf4881fccd35e6`. Final queue: **0 pending review, 0 pending publication, 0 backlog, 0 overdue**. Wall remains `recovery_in_progress` only as an open future quarry and is consumed through current `4ae134ca74fcdb94cd5f1ae87d96856493260a76`. Both Club-Only recovery priorities remain current at `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa` and `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`.
+
+No raw archive was reopened. No miner branch was merged or cherry-picked wholesale. Reader-facing MAIN pages changed 0; reader-facing WIKI pages changed 0. The no-public-change reason is durable: this suffix is closure/corroboration for the already-bankable Mugen/Key mechanism, not new public material.
+
+Hard rails remain unchanged: Mugen is not proven present, aware, punitive, feared, or acting formally in Key's exchange. New/Newmal remains male and remains in Mugen's older pre-Raja circle; later recruitment through GenGrey is a later route rather than a first-meeting clock.
 
 ## 2026-09-01 13:34 PDT — Run 162 close
 
