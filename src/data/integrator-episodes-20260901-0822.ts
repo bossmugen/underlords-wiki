@@ -72,5 +72,14 @@ export const run145CoreIntegratedEpisodes: Episode[] = [
     kind: "Pruning / relationship continuity",
     logline: "Mugen notices YｏＣｈａｎ9 is inactive and answers the fact with a depressed-dino reaction. Two days later the admin sentence is `I gotta kick @YｏＣｈａｎ9 for now`; the very next line is `Good luck with school! Hope to see you someday again ＼(٥⁀▽⁀ )／`. The removal is operational, but the wording refuses to turn absence into social finality: `for now` and `someday again` leave a door open even while access changes. School stays exactly what Yochan was wished luck with, not an age inference, and the nearby screenshots remain POSTED BY Yochan rather than silently becoming authorship or subject claims.",
     cast: ["Mugen", "YｏＣｈａｎ9"]
+  },
+  {
+    id: "yassr-patio-furniture-graduation",
+    title: "Yassr Congratulates Mugen for Growing Up Enough to Build Furniture",
+    season: "2019",
+    date: "2019",
+    kind: "Pre-UL friendship / role-direction reversal",
+    logline: "Mugen assembles a new patio table and chairs and Yassr reacts as though a toddler has just achieved a developmental milestone: `wowe you grew up already`, `feels like yesterday you were still in diapers`, `now you're building things`. The ordinary chore is the whole mechanism. Long before later UL `mum` / Boss / caretaker language becomes part of Mugen's public identity, this older friendship can point the joke the opposite way and cast Mugs as the kid. It is old-friend role reversal, not literal kinship, relative-age evidence, residence or property ownership, or proof of a DIY hobby.",
+    cast: ["Mugen", "Yassr"]
   }
 ];
