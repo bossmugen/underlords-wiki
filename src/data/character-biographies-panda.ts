@@ -22,6 +22,13 @@ export const pandaNarrativeCharacterBios: Record<string, CharacterNarrative> = {
         ]
       },
       {
+        title: "RUNNING GAG — THE PANDA DRAWER IS A FULL KEYBOARD",
+        paragraphs: [
+          "The name is not only branding. For several weeks in 2021, Marian keeps reaching into the same Panda/Pan reaction family for completely different emotional jobs: hello, affection, lurking, thought, laughter, embarrassment, mock aggression, celebration. The mascot stays cute while the payload ranges from basically *hug* to basically *fight me*. At that point the panda is less one recurring joke than a personal reaction keyboard.",
+          "That range is what makes the habit useful as character texture. Panda does not need a new aesthetic every time the mood changes; he changes the message inside the same visual dialect. Soft delivery is not the same thing as soft content. A panda can be tender, victorious, mortified, suspicious, or ready to square up depending on which drawer he opened. The individual reaction assets are not being collapsed into one file without pixel comparison, and none of this magically proves a favorite animal, merch collection, or wider panda fandom. The surviving behavior is already funny enough: he found one emotional operating system and kept installing patches."
+        ]
+      },
+      {
         title: "WELCOME HOME, PANDA",
         paragraphs: [
           "June 2021 catches the panda name doing something quieter than branding. Marian drops back into the Wall with a `FeelsReeMan`; twenty seconds later Baby Lyssa answers `Welcome home, panda`. Marian does not ask what she means or reject the name. He answers with `PandaUglyCry` and `damn been away fro so longe`, and Ghoulie fires back a row of chaos emotes. The timing makes the welcome feel lived rather than ceremonial: she recognizes a return, he acknowledges the absence, and both people step straight back into a shared vocabulary that apparently survived the gap.",
@@ -53,7 +60,7 @@ export const pandaNarrativeCharacterBios: Record<string, CharacterNarrative> = {
       {
         title: "Petty Crimes",
         paragraphs: [
-          "Edgelord. Curly hair. Has been defeated by a box of mac & cheese. Once reported receiving Cheesecake Factory with the legally essential clarification `(but no cheesecake)`. Will apparently incriminate himself if Eos is not doing enough Wall prosecution. Owns enough panda vocabulary to require subcategories. Offered an alternate existence for one day and rejected it on administrative-effort grounds. Has independently proposed both an award for a Wall `Fame moment` and a Wall of Shame ranking, because the fake court apparently needed a statistics department."
+          "Edgelord. Curly hair. Has been defeated by a box of mac & cheese. Once reported receiving Cheesecake Factory with the legally essential clarification `(but no cheesecake)`. Will apparently incriminate himself if Eos is not doing enough Wall prosecution. Owns enough panda vocabulary to require subcategories. Offered an alternate existence for one day and rejected it on administrative-effort grounds. Has independently proposed both an award for a Wall `Fame moment` and a Wall of Shame ranking, because the fake court apparently needed a statistics department. Has enough Noragami familiarity to ask somebody else whether they have seen it; that is anime vocabulary, not a Favorite Anime coronation."
         ]
       }
     ],
