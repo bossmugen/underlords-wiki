@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-01 00:04 PDT_
+_Last updated: 2026-09-01 00:06 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Older pass detail remains in Git history and MAIN's dated integration reports.
 
@@ -34,7 +34,7 @@ The strongest still-open material remains where the previous pass left it rather
 
 MAIN census-state commit `b8695fe39889a45e852b3ce29b29deb0bbe8c613` passed the exact required chain in workflow `33480238499`: source canon/architecture verification, Astro build, built-output verification, and exact Cloudflare production deployment all succeeded.
 
-WIKI reader code was intentionally unchanged. This state commit is the only WIKI mutation for the pass and must itself clear the repository's existing Build and Pages/deployment workflows before the pass is considered closed.
+WIKI reader code was intentionally unchanged. State commit `8b9590f6e847bd30648b4686b4d2ad98af3d0c7c` passed **Build Underlords Wiki `33480394645`** and **Deploy Underlords Wiki Preview / Pages `33480394714`**. The Pages workflow's build, deploy, and final report jobs all succeeded. This closing state-only edit records those verified results; no reader prose is being smuggled in after validation.
 
 ## Consumption result
 
