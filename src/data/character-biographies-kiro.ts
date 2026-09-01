@@ -8,11 +8,19 @@ export const kiroNarrativeCharacterBios: Record<string, CharacterNarrative> = {
     ],
     sections: [
       {
+        period: "2021",
+        title: "Before the title, he was already doing the people-work",
+        paragraphs: [
+          "Spring and summer 2021 give Kiro a useful pre-Officer baseline. Hic greets Alkey, pulls Stella into Main Chat HQ and answers her almost immediately, helps Anthos look for Gabu, and turns Anayss saying she will be more active into `that a challenge owo`. None of this is a formal office. It is small-scale social routing: notice the person, keep the thread moving, create one more reason for somebody to stay in the conversation.",
+          "The newcomer scenes make the style clearer. When Zhēnxī needs the right place to post, Hic admits `man am i bad at teaching new members things`, accepts Jas's correction with `preesh`, and gets Zhēnxī pointed the right way anyway. When Zoshaa arrives, he introduces himself, gets recognition back, sends a heart, and later points her toward Mugen because Mugen is more active. The record does not make these scenes the cause of his later promotion. What it does make impossible is pretending Officer invented the behavior: the title arrives after Kiro is already doing the low-key room work."
+        ]
+      },
+      {
         period: "2022",
         title: "Role progression without inventing the missing ladder",
         paragraphs: [
           "On September 8, 2022, HicUUOOOOGH comes through Lobby role-assignment machinery and Mugen greets him with `Hey gummy bear! You know the drill`, then `welcome back gummieeees`. The procedure looks onboarding-shaped; the language is return-shaped. Three weeks later, on October 1, Mugen directly announces HicUUOOOOGH as UL's newest Officer and thanks him for service and for looking after the family.",
-          "That makes the safe progression simple: familiar returnee, then directly announced full Officer. It does not create a Sniper phase, a probationary title, or a reconstructed job description. Kiro was a full Officer and historical Pit Boss; older Sniper filing was wrong."
+          "That makes the safe progression simple: pre-title social connective work, familiar returnee, then directly announced full Officer. It does not create a Sniper phase, a probationary title, a reconstructed promotion rubric, or a complete formal duty list. Kiro was a full Officer and historical Pit Boss; older Sniper filing was wrong."
         ]
       },
       {
@@ -46,7 +54,7 @@ export const kiroNarrativeCharacterBios: Record<string, CharacterNarrative> = {
       }
     ],
     closing: [
-      "Kiro's dossier works best when the title and the personality stop competing for custody. He can be trusted with office, once overthink a Send button, become comfortable enough to communicate in one-word callbacks, go quiet, return, and still feed the room's joke faster than Records can stabilize his display name."
+      "Kiro's dossier works best when the title and the personality stop competing for custody. He is already doing people-work before the badge arrives, can be trusted with office, once overthink a Send button, become comfortable enough to communicate in one-word callbacks, go quiet, return, and still feed the room's joke faster than Records can stabilize his display name."
     ]
   }
 };
