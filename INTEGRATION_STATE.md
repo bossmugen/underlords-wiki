@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-01 04:50 PDT_
+_Last updated: 2026-09-01 05:00 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Older pass detail remains in Git history and MAIN's dated integration reports.
 
@@ -9,6 +9,14 @@ This is the current durable dual-surface reconciliation snapshot. Older pass det
 The person is the spine; events are supporting scenes; the archive stays backstage. MAIN owns the richest person/legend biographies, relationship texture, lived chronology, and `Petty Crimes`. WIKI owns the complementary searchable/reference layer: Cast dossiers, role progression, Relationships, Episodes, Running Gags, Quotes, Locations, Gallery/media notes, and person-first narrative where useful for lookup. The same source may appear on both surfaces only when it does a different job.
 
 Hard user canon, resolved identities, privacy/safety boundaries, explicit contradictions, appointment chronology, and attribution fences remain hard. Outside those rails, strong contextual reads about habits, relationships, humor, care patterns, ordinary life, reputation, and social roles may publish when more likely than not.
+
+## 2026-09-01 05:00 PDT — census-only close
+
+The mandatory full miner census remains **49 tracked identities = 28 active refs + 21 historical/missing refs**. Every active `archive-miner-*` / `archive-miner/*` ref exactly matches its current reviewed/consumed boundary, so there is **0 newly discovered, 0 finite pending review, 0 pending publication, 0 backlog, and 0 overdue**. Wall remains `recovery_in_progress` only for future movement through `74434e5898c32402ce05ca93bf5c7bcf7cd2f107`. Both Club-Only recovery priorities remain current: 2021–2026 through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`; 2020 through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`.
+
+No intake delta advanced this pass. Nothing was re-mined, no miner handoff was reread merely to manufacture activity, and no miner branch was merged or wholesale cherry-picked. Because there is no advanced/unconsumed branch, anti-starvation has no additional candidate to rotate into this pass. MAIN reader-facing pages changed: **0**. WIKI reader-facing pages changed: **0**. No consumed SHA moves this pass.
+
+Run 132's two late handoff tails remain the current consumed boundary and are now reflected here as well: Core Rooms is consumed through `3c833f2ba3acdededdaf60ee1f30178335c56233`; Mugen person-first is consumed through `22336e8586c16244716370858b1ea18e3f65a0f7`. Both tails were formalization/corroboration-only after their underlying evidence had already been integrated and verified. The stale miner-local attempt to remove New from the pre-Raja circle remains rejected: **New is male and pre-Raja**, while later recruitment through GenGrey is a separate later route inside an existing network.
 
 ## 2026-09-01 04:50 PDT — Wall + Core Rooms + Mugen close
 
