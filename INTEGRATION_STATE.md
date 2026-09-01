@@ -1,8 +1,8 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-01 10:14 PDT_
+_Last updated: 2026-09-01 10:53 PDT_
 
-This is the current durable dual-surface reconciliation snapshot. Older pass detail remains in Git history and the numbered `INTEGRATION_STATE_RUN_*` snapshots. MAIN's controlling branch-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`.
+This is the current durable dual-surface reconciliation snapshot. Older pass detail remains in Git history and numbered `INTEGRATION_STATE_RUN_*` snapshots. MAIN's controlling branch-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`.
 
 ## Current boundary
 
@@ -10,74 +10,73 @@ The person is the spine; events are supporting scenes; the archive stays backsta
 
 Hard user-confirmed canon, resolved identities, privacy/safety boundaries, explicit contradictions, formal appointment chronology, and attribution fences remain hard. Outside those rails, strong contextual reads about habits, tastes, relationships, humor, care patterns, ordinary life, reputation, and social roles are publishable when more likely than not.
 
-## 2026-09-01 10:14 PDT — Run 151 reconciliation close
+## 2026-09-01 10:53 PDT — Run 152 reconciliation close
 
-Mandatory full miner census: **49 tracked miner identities = 28 active refs + 21 historical/missing refs**, with **0 newly discovered**, **0 finite pending review**, **0 pending publication**, **0 backlog**, and **0 overdue** at the reviewed close. Wall remains `recovery_in_progress` only because the quarry is expected to move again; it is consumed through `16fd25ba89546e79ac60480e7882fe87133556b2`. Both Club-Only recovery priorities remain current through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa` (2021–2026) and `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff` (2020).
+Mandatory full miner census closed at **49 tracked miner identities = 28 active refs + 21 historical/missing refs**, with **0 newly discovered**, **0 finite pending review**, **0 pending publication**, **0 backlog**, and **0 overdue**. Wall remains `recovery_in_progress` only because the quarry may advance again; the current Wall head is reviewed and consumed. Both Club-Only recovery priorities remain current through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa` (2021–2026) and `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff` (2020).
 
-Reviewed checkpoint-first, intake-only, with no miner branch merged or cherry-picked:
+Reviewed checkpoint-first, intake-only, with no miner branch merged or wholesale cherry-picked:
 
-- `archive-miner/all-characters-hr-20260828`: consumed `68e83c8ad0110eed5fef3de3c0b75609368538d3` → Run-69 evidence/ledger head `e81237a5235ef4cc24200b8545d278d0892847c9`, then closure-only checkpoint suffix → `387fdd7b2c86f00cfdeebd38f1647e239f687755`.
-- `archive-miner/core-rooms-events-a91f-20260824`: `da9a49f708a9fc9992b0639466dedd87f0b8086a` → `47f52e43e8afdadc252dc6ec12767abe9eeac011`.
+- `archive-miner/daycare-2020-2026-hourly`: `cf83bea581b7e4980251146da3f0d88655dc2798` → `6c163b0e17e97c327d8473682f50e96a36f95411`.
+- `archive-miner-wall-hourly-20260824`: `16fd25ba89546e79ac60480e7882fe87133556b2` → `44cede9e1c7785abe7f2fb24d60ef6e2dd331950`.
+- `archive-miner/mugen-person-first-20260828`: `209ee43cd0be5bca1ae25c39169d1de3d957b282` → late closing head `335299db729911707fd0baed6a57c38dc468f004`.
+- Closing census caught a late `archive-miner/all-characters-hr-20260828` Run-70 tail: `387fdd7b2c86f00cfdeebd38f1647e239f687755` → `69c4b6968736f1e10370506dac17f2243cf39816`. It was reviewed in the same run and consumed as miner-lag/corroboration against already-integrated public work rather than left pending.
 
-MAIN's controlling ledger records both heads as consumed after successful review/public verification.
+MAIN's controlling ledger records all four reviewed heads as consumed; Wall alone keeps `recovery_in_progress` status for future movement.
 
-## Cele + Dean — first-friend memory is reciprocal now
+## Anayss + YoChan — the bridge is personal too
 
-Dean's February 2023 line says Cele was his first friend, but it appears inside a fictional Mafia/anime prompt. Cele then independently tags Dean on March 28 as her **`FPRST FREN IN RAJAAAAA`**. That second recollection is why the relationship becomes durable public material instead of one prompt-shaped sentence.
+Daycare gives Anayss a relationship mechanism that is not another front-door receipt. By early 2021 YoChan is already **`my yo yo`**. When Beks says she has not met YoChan but wants to hug her, she asks Anayss to pass it on. Anayss agrees, summons YoChan into the room, and converts logistics into a bit: **`I’m just sending hugs bitch. Per Beks request 😌`**.
 
-The exact first-meeting scene is still missing. The useful fact does not require inventing one: both people later remember the other in first-friend / very-early-Raja territory.
+The departure sequence removes the protective comedy. Anayss opens with **`Seems like I always get left behind lets stop getting attached to people then...`**, then immediately contradicts the defense with **`you know I love you to pieces and Im always here`** and **`I already miss you so much and it’s been a day`**. A week later the whole absence has compressed into **`My yo yo left me 🧍‍♀️`**.
 
-MAIN uses this as biography texture. Cele's current page now shows that the same keyboard-collapse register that appears when Screenshot Jail catches her can also carry straightforward affection and recognition. WIKI routes the relationship differently as the structured Episode `cele-dean-first-friend-memory`.
+MAIN folds this into Anayss's rich biography: the same person who routes people through the server can also route affection between friends, and her jokes frequently do the work of carrying feeling rather than cancelling it. WIKI uses the searchable Episode `anayss-yochan-hug-courier` instead of mirroring that prose.
 
-MAIN Cele reader commit `6b9526df2e65054336c5e7b0f24bcd866fd80a38` is on current master ancestry. Its direct workflow was concurrency-cancelled before deployment when master moved, but descendant MAIN head `322ade1f0cdd7e67361973a8e8f6b693b4bed214` passed the full source verification, Astro build, built-output verification, and production deployment workflow, so the Cele change is verified/deployed on current ancestry.
+This supports close lived attachment and Anayss acting as a social bridge. It does not date the friendship's origin or establish literal romance, family, or a formal intermediary role.
 
-## Mia / Mimi — casual wording, serious follow-through
+A concurrent WIKI descendant also added `mugen-yochan-pruning-open-door`: Mugen's 2021 inactive-person removal says **`for now`** and immediately wishes YoChan luck with school and **`Hope to see you someday again`**. The operational access change therefore does not get rewritten as social finality; school remains only the stated context, not an age inference.
 
-Core Rooms adds a cleaner role story without turning the page into an appointment ledger. Anayss asks whether Mia can make a Blitz Hunger Games poster. Mia answers **`I can tryyy`**; a custom graphic appears 10 minutes 56 seconds later. She keeps going through posting timing and live calls and later supplies another themed invitation.
+## Manolo — defendant to evidence supplier in one sitting
 
-That work precedes the throne jokes. Snow's contemporaneous messages place Mimi in a rotating in-game lead structure while explicitly giving people room to opt out; later peers use `boss Mimi` and `queen mimiiiii` while explaining that responsibility has passed to her. Anayss can then summon `queen` Mimi for luring and get an immediate yes. The structured read is maker/helper → operator → rotating lead. `Boss` and `queen` remain peer address/teasing around real responsibility, not standalone formal offices, and the dated messages do not invent a complete appointment chronology.
+Wall's February 28, 2021 scene gives Manolo a compact Episode rather than a thin MAIN character page. The room frames the appearance as his first taste of the Wall and Manolo confirms **`my first time on the wall of shame`**. In the same session he offers Anayss a screenshot from private DMs to post about Xuseio, then jokes **`Dam shiii I am causing trouble now`** / **`opps`**.
 
-Mia also notices other people's invisible work. During Noether discussion she says Noether is **`really helpful when other ppl are afk ... from what I noticed`**; Anayss independently corroborates the same gap-filling. Days later Mia and Noether greet each other warmly. That supports observational advocacy — Mia notices the person keeping things moving and is willing to say so — without claiming Mia alone caused an appointment or assigning a closeness rank.
+WIKI routes this as `manolo-first-wall-to-supplier`. The useful mechanism is the immediate inversion: somebody who knows what the ritual is becomes willing to feed it material once he is inside the game. It is not proof of a universal Wall-initiation pipeline, a standing prosecutorial role, or who captured/made the screenshot. POSTED BY / MADE BY / CAPTURED BY / FEATURING remain separate.
 
-MAIN already owns the richer Mia person-first biography, including Blitz follow-through, role behavior, fries/potatoes `Petty Crimes`, and `I can tryyy` as a catastrophically unreliable scope estimate. No duplicate MAIN paragraph was added.
+## Yassr + Mugen — later `mum` can still be somebody else's kid in the joke
 
-WIKI owns the searchable reference version. `src/data/integrator-episodes-20260901-0822.ts` now includes:
+The late Mugen close adds one genuinely new old-orbit relationship direction. In recovered 2019 material Mugen assembles a patio table and chairs. Yassr reacts as though a toddler has just reached a developmental milestone: **`wowe you grew up already`**, **`feels like yesterday you were still in diapers`**, **`now you're building things`**.
 
-- `mia-blitz-hunger-games` — the mini-program / rapid poster follow-through;
-- `mia-noether-gap-filling` — Mia noticing and advocating for Noether's quiet operational work;
-- `mia-work-to-rotation` — responsibility visibly growing around work before peers start the `boss` / `queen` language.
+WIKI owns this as `yassr-patio-furniture-graduation`. The ordinary chore is the mechanism. Long before later UL `mum` / Boss / caretaker language becomes part of Mugen's public identity, this older friendship can point the joke the opposite way and cast Mugs as the kid. That is relationship-direction and ordinary-life texture, not literal kinship, relative-age evidence, residence/property ownership, or proof of a DIY hobby.
 
-WIKI reader commit `c96bfdb618adf2d2d364d540d6c38374306a84df` passed exact Build **33536209225** and exact Pages **33536209147**, including build, deployment, and final report.
+MAIN did not receive a dated-event appendix for this one. Mugen's biography is already very large and person-first; the event currently does more useful work as a searchable WIKI relationship object than as another incident paragraph.
 
 ## Reviewed without duplicate reader copy
 
-**Dean:** responsive social calibration, Mugen feedback, Cele reciprocal memory, and coconut-family callback already live more strongly on current public surfaces. No receipt paragraph.
+**Mugen person-first:** Tae bedtime-math care, Nhou peer garbage-café register, Robin recognition, Sammy reciprocal `ride or die`, participatory bot folklore, and related repeats deepen mechanisms already public or already banked more strongly. The superseded `GenGrey, not New` chronology remains rejected.
 
-**Zoshaa:** her first-person quiet→loud retrospective is already public: Luna invited her, she barely talked initially, she especially remembers Ren `just talking to me at the beginning`, and later summarizes herself as `Now I scream a lot and call @Snow old`. Ren is not sole-cause fanfic.
+**All-Characters HR Run 70:** this tail is miner reconciliation against current already-integrated public material rather than a new archive delivery. Churro's work/dinner coverage ask, Ame's singer-name/music/RPG/useful-before-title material, Cookie's Gura/Tofu selective-framing relationship grammar, and Mia's `I can tryyy` scope fraud / role follow-through / visual-association / fry redistribution are already richer on current public surfaces. The tail is consumed as reviewed corroboration, not re-published by receipt mitosis.
 
-**Noether:** Anayss belonging memory and later `ask them if they want` Officer judgment are already public in person-first form. Mia's advocacy is therefore added as a WIKI relationship/episode object rather than pasted into another bio paragraph.
-
-**Yassr:** pre-UL Mugen familiarity, practical humor, ordinary-life texture, `Anything is fine. Just something useful.`, and later Game Officer behavior are already stronger on current pages. No duplicate.
-
-**Ryo / Tae / Yelik:** bounded negatives. No new person domain beat their mature current files.
-
-**Core broad sample:** Narana, prim, LittleFawn, Solarium, Churro, and the immediate Seth reply sweep remain too thin for new public profiles. No cardboard people created to make the queue look productive.
+Bounded negatives remain bounded: Allenne, Panda, Rose and Key did not gain a new person domain in this Run-70 tail. Churro's withdrawn `scruff` interpretation stays dead; Ame's separate `ame._.` account stays unbridged; Cookie/Kuki ≠ Rookie Cookie; Mia = Mimi = Miaka and Han ≠ Mia.
 
 ## Carry-forward rails / rabbits
 
-- Cele ↔ Dean exact first-meeting date remains unresolved. Earliest surviving recollection is not an origin timestamp.
-- Cele ↔ Woosung has hard cousin canon; the next useful addition needs lived cousin behavior, not another metadata sentence.
-- Mia ↔ Anayss has repeated comfortable collaboration, but special closeness or a fixed division of labor remains unproven.
-- `Boss Mimi` / `queen mimiiiii` are peer language around responsibility, not new formal titles.
-- Amexistir / Chubi authored Officer execution remains unresolved outside the exhausted current DR-HQ route. Missing evidence is not proof of inactivity.
-- The historical officer-room permission oops remains a bounded history note, not current security lore.
-- Kahoot payload is retrieval-blocked, not historically absent.
-- Hard identity canon remains intact: Mia = Mimi = Miaka; Han ≠ Mia. New is male and remains part of Mugen's older pre-Raja circle. Similar names do not merge people.
-- SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct. Mia's first Blitz graphic is POSTED BY confirmed and MADE BY probable/high from direct request → `I can tryyy` → custom result; later visuals keep their narrower attribution confidence.
+- **New/Newmal is male and remains in Mugen's older pre-Raja circle** with Dean, Key, Zepp, Kal and GenGrey. Later recruitment through GenGrey is a later route inside an existing social network, not a first-meeting clock. The stale `GenGrey, not New` inversion is superseded.
+- Wall q6 Rich retrieval remains blocked; blocked retrieval is not historical absence.
+- q9/q19 capture attribution remains unresolved.
+- Ren/Zyrcant family-language control is `parents` / `dad`, not mother-only.
+- Yassr patio exact source-native IDs/date/reply topology remain a source-control rabbit; do not invent them.
+- Run-70 reopen conditions remain live for Churro guide/checklist source control, Ame creator/role raw joins, Cookie Gura/Tofu raw joins, Mia follow-through/visual-association raw joins, and the named negative domains for Allenne/Panda/Rose/Key.
 - Export-time/current role arrays do not date appointments. Joke offices are not governance. Joke family/romance language is not literalized. Private/sensitive material stays private.
 
 ## Surface split
 
-**MAIN:** Cele's reciprocal Dean memory lives inside her rich person-first biography. Mia receives no duplicate edit because current MAIN already has the stronger integrated person story. MAIN also owns the controlling branch-consumption ledger and dual-surface Run-151 report.
+**MAIN:** Anayss receives the rich YoChan friendship fold. No thin Manolo page. No dated Yassr incident appendix. MAIN also owns the controlling branch-consumption ledger and `archive-intake/INTEGRATION_PASS_2026-09-01_1052_DUAL.md`.
 
-**WIKI:** Cele gets a structured first-friend Episode. Mia gets structured Blitz, Noether-advocacy, and role-progression Episodes. Same evidence family, different public job; no mirrored prose.
+**WIKI:** structured Episodes `anayss-yochan-hug-courier`, `manolo-first-wall-to-supplier`, `mugen-yochan-pruning-open-door`, and `yassr-patio-furniture-graduation`. Same source families, different public jobs; no mirrored prose.
+
+## Verification / deployment
+
+MAIN reader commit `d84231d600624ae608e3e87c71b6cc767cabef2f` (`people: fold YoChan friendship into Anayss biography`) passed exact workflow **33539615469**: source canon/architecture verification, Astro build, built-output verification, and exact validated Cloudflare production deployment all succeeded. A concurrent add/revert pair around a categorized YoChan People page returned the reader tree to the verified Anayss state rather than inventing role canon.
+
+WIKI reader ancestry culminates at `77f20fb52313e28bc6667b8f9be416bda0f4bbab` (`wiki: add Yassr patio role-reversal episode`). Exact Build **33540093455** succeeded. Exact Pages **33540093394** also succeeded, including the deployment workflow. This head contains the prior Anayss/YoChan, Manolo, and Mugen/YoChan Episodes on ancestry.
+
+Final bookkeeping commits after these reader heads must still pass their own repository workflows; the reader material itself is verified and deployed.
