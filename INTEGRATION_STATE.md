@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-01 03:48 PDT_
+_Last updated: 2026-09-01 04:14 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Older pass detail remains in Git history and MAIN's dated integration reports.
 
@@ -9,6 +9,12 @@ This is the current durable dual-surface reconciliation snapshot. Older pass det
 The person is the spine; events are supporting scenes; the archive stays backstage. MAIN owns the richest person/legend biographies, relationship texture, lived chronology, and `Petty Crimes`. WIKI owns the complementary searchable/reference layer: Cast dossiers, role progression, Relationships, Episodes, Running Gags, Quotes, Locations, Gallery/media notes, and person-first narrative where useful for lookup. The same source may appear on both surfaces only when it does a different job.
 
 Hard user canon, resolved identities, privacy/safety boundaries, explicit contradictions, appointment chronology, and attribution fences remain hard. Outside those rails, strong contextual reads about habits, relationships, humor, care patterns, ordinary life, reputation, and social roles may publish when more likely than not.
+
+## 2026-09-01 04:14 PDT — census-only close
+
+The mandatory full miner census remains **49 tracked identities = 28 active refs + 21 historical/missing refs**. Every active miner head is unchanged from the prior reviewed/consumed boundary, so there is **0 newly discovered, 0 finite pending review, 0 pending publication, 0 backlog, and 0 overdue**. Wall remains recovery-open only for future movement through `1c2104e20ec90d3217a4b32d93b260dd13904661`. Both Club-Only recovery priorities remain current: 2021–2026 through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`; 2020 through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`.
+
+No intake delta advanced this pass. Nothing was re-mined, no miner handoff was reread merely to manufacture activity, no reader-facing MAIN or WIKI prose changed, and no consumed SHA moved because every current active head was already consumed or reviewed through its current boundary. MAIN's branch census ledger was refreshed before any deeper review would have begun; there was simply no deeper review candidate to select.
 
 ## 2026-09-01 03:48 PDT — Core Rooms + Mugen close
 
