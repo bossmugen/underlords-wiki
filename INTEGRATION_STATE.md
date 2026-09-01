@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-08-31 20:44 PDT_
+_Last updated: 2026-08-31 20:48 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Older pass detail remains in Git history and MAIN's dated integration reports.
 
@@ -50,7 +50,9 @@ The surrounding riddle run is the more important Ren material. Her greetings mut
 
 WIKI folds that into Ren's existing contradiction rather than making a second organizer personality: the same woman who put the wrong code on the spelling-Kahoot poster twice can run a recurring activity with clear routes, private help, anti-spoiler norms and contributor credit. **Clown delivery, real facilitation.**
 
-Other Core findings reviewed and retained for later canonical owners rather than dumped publicly in one pass: Amexistir/Chubi's Dec. 19→21, 2023 probable Officer-promotion path and consent-shaped discussion; WOO's listen-before-fixing care/reconnection style; Ricochet↔Snow's recurring Imelda/grandpa long-memory roast; canonical Gilli directly calling RyuuUzu her best friend and valuing his emotional validation; Oyasumi's unusually coherent dark-film/jewelry/fruit/ice-water/old-word taste profile plus quiet QOTD maintenance. Sparse Baby Lyssa/Boba crumbs stayed thin.
+Two additional Core character deepeners landed concurrently before this state close and are now part of the same live Run 107 module rather than waiting backstage. Gilli directly names RyuuUzu as `My best friend` and gives the behavior underneath it: `for always validating my feelings`; that sharpens both the relationship and what Gilli herself values on the receiving end of care. Oyasumi now has a real `Petty Crimes` cluster instead of title-only thinness: dark Victorian / Tim Burton taste, jewelry, movies over social media, the *Goodnight (Oyasumi) Punpun* username source, repeated failed *Demon Slayer* attempts, *Eraserhead*, Skyrim, *Mob Psycho 100*, fruit/grapes, ice water even when cold, old words, and the Dies Irae day-start joke. The same material also catches him quietly maintaining QOTD visibility by adding human `@Staff @VIP` pings.
+
+Still retained for later canonical owners rather than dumped publicly in this pass: Amexistir/Chubi's Dec. 19→21, 2023 probable Officer-promotion path and consent-shaped discussion; WOO's listen-before-fixing care/reconnection style; Ricochet↔Snow's recurring Imelda/grandpa long-memory roast. Sparse Baby Lyssa/Boba crumbs stay thin.
 
 ## Daycare — Nothien already made it to MAIN before this close
 
@@ -69,13 +71,15 @@ The Mugen miner's stale line that treated GenGrey as the older pre-Raja friend a
 Reader-facing Run 107 work lives in `src/data/character-biographies-run107.ts` and is wired last in the biography resolver so the finished integrations win over older fallbacks.
 
 - Initial Erys + Mugen reader head `5b035159bb407c8939c55295bba200f4ca8254e6` passed Build `33466973791` and Pages `33466973804`.
-- Final reader head adding Ren's Core-room hosting deepener is `1aefbe858628eb0d20b013d1d094ae010abfe620`; Build `33467155906` passed and Pages `33467155904` passed.
+- Ren's Core-room hosting deepener landed at `1aefbe858628eb0d20b013d1d094ae010abfe620`; Build `33467155906` and Pages `33467155904` passed.
+- Concurrent Gilli/Ryuu + Oyasumi additions landed at `76c6e5aed9ffedaa49baba6b9ea172d25780a1c8` and are present in the current Run 107 module.
+- The prior durable state head `1fa22a0c24fc5ec4514014465691fcdcd5b01b75`, which already included all reader changes above in its ancestry, passed Build `33467370259` and Pages `33467370218`.
 
 ## Surface split / duplicates combined
 
-- WIKI owns Erys's structured evidence-defense biography, Mugen's compact 279-hour bot-break character scene, and Ren's autograph/riddle-hosting deepener this run.
+- WIKI owns Erys's structured evidence-defense biography, Mugen's compact 279-hour bot-break character scene, Ren's autograph/riddle-hosting deepener, Gilli's Ryuu relationship anchor, and Oyasumi's Petty Crimes / QOTD-maintenance deepener this run.
 - MAIN gets no mirrored copy of those WIKI sections. Its existing Mugen continuity synthesis and Nothien person-first page already own the complementary person-level stories.
-- Core's remaining high-value people/relationship findings are preserved backstage rather than being mass-appended as report paragraphs. They should be folded into their canonical owners when they materially deepen the existing person.
+- The remaining Core high-value findings stay backstage until they materially deepen their canonical owner instead of being mass-appended as report paragraphs.
 
 ## Rails held
 
