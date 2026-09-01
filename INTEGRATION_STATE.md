@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-01 02:52 PDT_
+_Last updated: 2026-09-01 02:55 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Older pass detail remains in Git history and MAIN's dated integration reports.
 
@@ -18,13 +18,13 @@ Run 125 reviewed the late Whiskey delta `34ebe736c55af407a3f26ac21bb4bb49cde9246
 
 **MAIN** already owned the strongest public version before this suffix: the October 2020 doorway, doodle run, April 2021 `i bought the sub` / `Buying shit for when you are able to play` / `Ghoulie carrying me` / `Them long drives with` sequence, and the no-closeness-rank / no-uninspected-media boundaries are already folded into ShiyaX's person-first biography. No duplicate MAIN paragraph was added.
 
-**WIKI** had only a thin Petty Crimes reference to the GTA preparation, so `src/data/character-biographies-shiyax.ts` was deepened at `72074aaee0872bc56dda622323b157d5c5e04105` with a complementary relationship section: Shiya repeatedly points GTA updates at Baby Lyssa, prepares the shared activity before she can play, then remembers the long drives. It stays person-shaped rather than becoming a standalone Episode. Exact Build `33494209180` and exact Pages `33494209105` both succeeded.
+**WIKI** had only a thin Petty Crimes reference to the GTA preparation, so `src/data/character-biographies-shiyax.ts` was deepened at `72074aaee0872bc56dda622323b157d5c5e04105` with a complementary relationship section: Shiya repeatedly points GTA updates at Baby Lyssa, prepares the shared activity before she can play, then remembers the long drives. The first draft still let source-housekeeping language leak into the visible biography, so descendant `16a71efa57a9d59f1e19f7c7089f4f969ee39ce4` rewrote the section person-first: Baby Lyssa is simply the friend whose playground Shiya is already preparing before she arrives, with the care left inside the game logistics where Shiya put it. Descendant state head `b67fd2284e6afa68c26ca676b5f672ec704398ab` then passed exact Build `33494527822` and exact Pages `33494527905`, including deployment.
 
 Held rabbits stay held: `the sub` is unresolved; the media-only derivative does not show Baby Lyssa's complete reciprocal wording; the March 17 `do i look like someone who plays gta ?` line remains context-ambiguous; the game/platform behind `I pilot 3 accounts` is unspecified; and the doodle attachments remain uninspected. No real-money gifting, romance, closeness rank, formal artist role, streamer title, or appointment chronology is inferred.
 
 ### Consumption
 
-- `archive-miner/whiskey-longitudinal-hourly` — reviewed through and ready to consume at `e2a45c5f5426402f1af736dac18fc9f0ab9a2875`; WIKI public change verified.
+- `archive-miner/whiskey-longitudinal-hourly` — consumed through `e2a45c5f5426402f1af736dac18fc9f0ab9a2875` after successful intake-only review and verified WIKI publication.
 - `archive-miner/daycare-2020-2026-hourly` — consumed through `9ba628e234b843a1f779608197c0c75395ce5b51`.
 - `archive-miner-wall-hourly-20260824` — consumed through `1c2104e20ec90d3217a4b32d93b260dd13904661`; status remains recovery-open only for future movement.
 - `archive-miner/all-characters-hr-20260828` — consumed through `b1576dc4483124a1315f88c7de488e5e6db5060e`.
