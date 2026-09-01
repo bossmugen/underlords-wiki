@@ -80,13 +80,13 @@ WIKI intentionally did not mirror the MAIN prose. The scene is a future Relation
 
 No reader-facing MAIN file was changed by the tail-close pass. The previously verified reader work remains Panda's homecoming deepener, Nobu's PDF / creative-system / matching-PFP completion habit, and Ricochet's Snow/Imelda long-memory teasing section.
 
-The tail-close MAIN state/report commits are being verified through the repository's complete source-canon / Astro / built-output / Cloudflare workflow; the exact result is recorded by the closing integration report after workflow completion.
+Exact MAIN tail-close state/report head `c36e08462553275fd2fa36c8db6048d8552a43d2` passed workflow `33469209869` completely: source canon/architecture verification, Astro build, built-output verification and exact Cloudflare production deployment all succeeded.
 
 ### WIKI
 
-No reader-facing WIKI file was changed by the tail-close pass. This state-only commit preserves the complementary Nobu reference treatment and the decision not to turn Sniperr_Wolfxx into a cardboard dossier.
+No reader-facing WIKI file was changed by the tail-close pass. This state-only close preserves the complementary Nobu reference treatment and the decision not to turn Sniperr_Wolfxx into a cardboard dossier.
 
-The exact WIKI state head is being sent through the existing Build and Pages deployment workflows; final result is recorded after completion.
+Exact WIKI tail-close state head `3f968c8c2f9ea56544efb1c79e6c8ee20d05bffa` passed Build `33469246749` and Pages deployment `33469246668` successfully.
 
 ## Surface split / duplicate handling
 
