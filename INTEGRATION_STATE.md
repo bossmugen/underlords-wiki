@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-01 01:12 PDT_
+_Last updated: 2026-09-01 01:14 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Older pass detail remains in Git history and MAIN's dated integration reports.
 
@@ -29,7 +29,7 @@ Hard user canon, resolved identities, privacy/safety boundaries, explicit contra
 
 The All Characters HR suffix repaired the stale `two clocks` interpretation. **New is a man and remains in Mugen's older pre-Raja circle with GenGrey, Dean, Key, Zepp and Kal.** Later New remembers Mugen recruiting him through GenGrey. That later route is an action inside an already-existing social network; it is not New's first meeting with Mugen and does not turn GenGrey into a formal recruiter.
 
-MAIN had already repaired `src/content/people/newmal.md` in commit `6b982193753f9092b127e836d1253dc0b5ce0d00`. WIKI now carries the complementary searchable character treatment in `src/data/character-biographies-new.ts`, routed through the finished narrative registry. A follow-up also repaired stale New pronouns in GenGrey's dossier so the two pages no longer disagree about the same man.
+MAIN had already repaired `src/content/people/newmal.md` in commit `6b982193753f9092b127e836d1253dc0b5ce0d00`. WIKI now carries the complementary searchable character treatment in `src/data/character-biographies-new.ts`, routed through the finished narrative registry. A follow-up repaired stale New pronouns in GenGrey's dossier, and a final reference-layer override at `18c0a1e43f746a9079f6e62c299501d4823a45a4` ensures the corrected New record wins over older stale reference data rather than being silently shadowed by it.
 
 The useful person read survives the correction rather than being flattened by it: New can belong to the old social layer and still ask `who mochi` years later. Old friendship does not ship with a synchronized database of every Raja name, Discord handle and house nickname. He asks, Cele translates Mochi to Rummy, and he updates without pretending he knew all along. By 2026 the person who once needed an alias translated is helping feed QOTD prompts back into the room.
 
@@ -47,8 +47,8 @@ MAIN correctly owns this as biography texture in `src/content/people/mugen.md`. 
 
 - MAIN New chronology repair `6b982193753f9092b127e836d1253dc0b5ce0d00` passed exact workflow `33484475450`: source canon/architecture verification, Astro build, built-output verification, and exact Cloudflare production deployment all succeeded.
 - MAIN Mugen/Jas biography commit `23c6ce9cd4a3adf3de0c5e7f1a2eaf3c3560e873` passed exact workflow `33484644316`, including the same full verify/build chain and exact Cloudflare deployment.
-- WIKI New narrative landed at `4db9d6f4b2ce659871027a7cbcd08982e33835a1`, was routed through the finished narrative registry at `2bcf58b6ab6b6810a85156713e6243f69cb61912`, and the GenGrey dossier's stale New pronouns were repaired at `c12cdb853e99787cbf59f38b1f0ff41c9cfc26d4`.
-- Exact WIKI head `c12cdb853e99787cbf59f38b1f0ff41c9cfc26d4` passed Build `33485539082` and Pages deployment `33485539053`. The earlier Pages run on `4db9d6f4...` was cancelled only because newer WIKI commits superseded it; the final descendant built and deployed successfully.
+- WIKI New narrative landed at `4db9d6f4b2ce659871027a7cbcd08982e33835a1`, was routed through the finished narrative registry at `2bcf58b6ab6b6810a85156713e6243f69cb61912`, the GenGrey dossier's stale New pronouns were repaired at `c12cdb853e99787cbf59f38b1f0ff41c9cfc26d4`, and stale lower-level New reference data was overridden at `18c0a1e43f746a9079f6e62c299501d4823a45a4`.
+- Exact WIKI reader/reference head `18c0a1e43f746a9079f6e62c299501d4823a45a4` passed Build `33485784898` and Pages deployment `33485784916`. Earlier cancelled Pages runs were superseded by newer commits; the final corrected descendant built and deployed successfully.
 
 ## Consumption result
 
