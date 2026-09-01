@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-08-31 22:30 PDT_
+_Last updated: 2026-08-31 22:46 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Older pass detail remains in Git history and MAIN's dated integration reports.
 
@@ -10,65 +10,88 @@ The person is the spine; events are supporting scenes; the archive stays backsta
 
 Hard user canon, resolved identities, privacy/safety boundaries, explicit contradictions, appointment chronology and attribution fences remain hard. Outside those rails, strong contextual reads about habits, relationships, humor, care patterns, ordinary life, reputation and social roles may publish when more likely than not.
 
-## Run 112 branch census / consumption boundary
+## Run 113 branch census / consumption boundary
 
 - **49 tracked miner identities = 28 active refs + 21 historical/missing refs.** No new branch identity appeared.
-- **0 finite pending-review tails, 0 backlog, 0 overdue.**
-- The only advancing active branch was `archive-miner/whiskey-longitudinal-hourly`, from consumed `87a13fd5d3f27e8f6b468db86f304d2cff0680f6` to exact current head `25484a5b469d229a42e761ab9bc959a468fa6d9d`.
-- Whiskey was reviewed checkpoint-first and only through its changed intake handoffs. After both public surfaces passed their verification/deployment gates, the branch was rechecked at exact head and consumed through `25484a5b469d229a42e761ab9bc959a468fa6d9d`.
-- Wall recovery remains current through `f726ca7d1c66b2c9c88564fe6aa1577961bffac6` and stays open only for future movement.
-- Club-Only 2021–2026 remains current through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`; Club-Only 2020 through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`.
+- **0 finite pending-review tails, 0 backlog, 0 overdue** at close.
+- Wall `archive-miner-wall-hourly-20260824` was reviewed checkpoint-first from `f726ca7d1c66b2c9c88564fe6aa1577961bffac6` through exact close head `5510e7f2888839c944e30ba180f9d3c2a65292ab`. Wall remains recovery-open only for future movement.
+- Core `archive-miner/core-rooms-events-a91f-20260824` was reviewed checkpoint-first from `14d900d59169416531c57600d99f8efa3adabf3e` through exact close head `f373ff20d6527a65ad7a26c7852c1d0e1626f856`.
+- Mugen person-first `archive-miner/mugen-person-first-20260828` was reviewed checkpoint-first from `94ed4518c27a908111693a682d34b300fade366a` through moving close head `968a521ffac54a2763a7170d1aa052f4a7d42dd4`; the late suffix was the same Hic evidence family plus Petty Crimes/public handoff consolidation, not a second incident.
+- Both Club-Only recovery priorities remain current: 2021–2026 through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`, 2020 through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`.
 - No miner branch was merged or wholesale cherry-picked.
 
-## Nhou — the door can reset without making him a stranger
+## MAIN — Chuu~tan is a person, not two job titles in a trench coat
 
-The useful new material is not “Nhou joined twice.” Stable Nhou is already active in Lobby on May 11, 2020. On November 26 the Stripclub Bouncer issues another welcome; six minutes later Anayss says **`role assigned uwu wb! ^-^`**. Because the same account is demonstrably present months earlier, that is strong return/access-restoration language. The exact departure date, departure reason, and restored permission object are still unknown.
+Chibiterasu's public page had been almost entirely role metadata. Core finally supplied the ordinary-life/social material needed to fix that without inventing a personality from her office badge.
 
-March 15, 2021 produces another doorway. The Bouncer sends the intake prompt again; thirty-six seconds later Nhou answers with his name and **`underlords`** as the club. There is no surviving human `wb!` attached to this one and no member-event log resolving the plumbing, so WIKI does not call it a proven second literal rejoin. It is another real onboarding/access trigger with continuity in Nhou's own answer.
+In November 2023, Chubi posts her own Spotify-Wrapped screenshot with **`guys didn't see me here, okay?`**. Ren directly answers **`SEVENTEEENNNN`**. The screenshot itself stays visually unresolved; a later explicit Seventeen Tenor post naming Jeonghan and Dino independently supports the fandom read without reconstructing hidden rankings or minutes.
 
-Then June gives the perfect anticlimax: Nhou is in Whiskey saying **`Morninggg`**. No comeback speech. No identity reset. The administrative machinery keeps having episodes; Nhou keeps behaving like his place is ordinary.
+The better character point is social. Chubi performs embarrassment by placing the receipt in public and then requesting witness amnesia. Ren immediately refuses the assignment. By 2024 the same stable account self-files as **Chuu~tan**, Sye answers with **`chu chu`**, and Chubi later summons Souta / Ansun as **`suuusuuuuuuuun`** only to receive **`chuuuuuutannnnnnnnn`** back. The stretched-name exchange is familiar house shorthand, not romance, exclusivity, or a relationship rank.
 
-That pattern fits the rest of his dossier. Nhou's surviving social voice is compact: one line can puncture a status update, turn serious register into nonsense, notice that the room has emptied, or carry old-house shorthand somebody else immediately understands. His own belonging gets very little ceremony.
+MAIN now uses this to make the current Game Officer / Parterre Gardener file feel like the person who actually walks into the room. The 2023 `Nitro Snipers` announcement remains event-recognition language; it is not converted into a formal Sniper appointment.
 
-## Petty Crimes / relationship texture
+## MAIN — Ame had a whole creative life hiding behind the useful-guy file
 
-A May 15, 2020 honorific riff now has the correct scale. Nhou calls Mugen **`Mugs chan senpai`** and shortly afterward says the bit reminds him of *K-On!* / `sawa chan sensei`. That supports likely *K-On!* familiarity and anime-reference fluency. It does **not** create a literal senpai hierarchy, special governance relationship, family role, or favorite-anime field.
+Core also repaired a flatter kind of biography. Ame's existing page correctly told the story of somebody noticed for helping before title discussion, but it was in danger of making competence the whole man.
 
-The Mugen relationship is better shown through recognition than labels. She recognizes Nhou's work-brain language quickly enough to tell him he needs to go home; later they can turn coffee enemas into a cafe menu without translation. Anayss likewise handles access and affection in one sentence at the November return. These are lived interactions, not closeness rankings.
+On January 12, 2024, Amexistir explains that the name began as a **singer pseudonym**, built from `amar existir` — loving existence — and then immediately jokes about how the construction can sound past-tense-ish and how he might have chosen something simpler. In April, during an art-exhibit QOTD, he posts his own YouTube channel, says it contains some of his songs, worries the music may not be especially entertaining, and then describes it as made **`with a lot of love`**.
 
-The dedicated Nhou dossier keeps the other contradictions already worth having: compact chat voice versus a visually expansive 2021 Photo Submissions file, social one-liners versus attention to when a room has gone quiet, current Staff status without inventing appointment chronology, and the existing dark-mode vampire offense under `Petty Crimes`.
+That is now folded into MAIN as one contradiction: practical, compact, useful Ame also chose a name around loving existence for music, made songs, and can be self-conscious about whether anybody wants them while being perfectly willing to admit how much care went into them. The page does not promote him into a professional musician, invent a discography, or manufacture career chronology.
+
+## WIKI — Jas appeals a 4K conviction by measuring the exhibit
+
+A September 1, 2021 Wall scene now lives as a structured Episode rather than another Jas biography paragraph.
+
+Gilli posts `Capture.PNG`, tags Jas and says **`Caught in 4k`**. Jas true-replies with the immediate counter-charge **`YOOO WHAT'S THIS LIGHT MOOODEE`**. Gilli explains that light mode blends into work programs; Jas accepts the practical defense — and then notices a different flaw in the prosecution: **`254x77px ain't 4K tho 😐`**. Gilli answers with a kick GIF.
+
+The joke is not merely that Jas denies being caught. He audits the label on the evidence. The attachment remains visually uninspected: Gilli is POSTED BY; maker, capturer, featured people and exact image contents remain unresolved.
+
+## WIKI — Hic gets to choose the conversational altitude
+
+The Mugen miner produced a genuinely distinct Mugen/Hic relationship mechanism rather than another generic `Mugen banters with people` receipt.
+
+Across direct replies in 2023, Hic can arrive campy, compressed, absurd or overlong and Mugen answers inside that register rather than requiring Founder/Boss ceremony. Hic's ornate **`Maintaining and distributing logistic services in wigs and edges`** gets Mugen's **`Designated slayyyer`**. **`Nuts`** becomes Mugen's **`you`**, Hic's **`Me`**, and then two Raja hearts. A long edited character essay gets **`A full ass essay and I'm here for it`** — roast and acceptance in the same sentence.
+
+WIKI keeps this as a relationship-grammar Episode. It does not become a formal mentorship, friendship rank, romance/sex claim, or proof that Mugen caused Hic's broader comfort in UL. Hic's earlier shyness/overthinking stays Hic's own broader story; this dyad only shows that later unfiltered register being reciprocated.
+
+## Held / deduped / unresolved
+
+- **Torr / DiStratus:** the family euphemism `blackened` for grandmother's repeatedly burnt dinner biscuits is excellent future `Petty Crimes` material; held this pass rather than forcing a new public paragraph.
+- **Aeshleen:** matching ray plushies with a friend and her ray's temporary name `file n°404` are strong person texture; friend identity remains unresolved and the material is banked for a future profile enrichment.
+- **momojipeachi:** Pinterest-board habit, Barnes & Noble boyfriend joke, Voice Challenge performance and Blooming Panic/OC-making form a strong profile candidate, but the stable account is not merged with public Momo by name resemblance. Held until identity/public naming is safe.
+- **Eos:** same-author/same-filename/timing supports a probable source→Wall retrieval/repost habit, but not byte identity or source provenance. POSTED BY does not become MADE/CAPTURED/FEATURING.
+- **Usama:** socially attentive Wall witness/commentator seed remains too thin for a cardboard character page.
+- **Members Only Lounge:** founding-night timing makes it a good future WIKI Location/history candidate. Mugen's hard-locked guild-icon authorship does not prove she created the category, announcements room or Lounge.
+- Broad Core singleton seeds were reviewed and consumed without being inflated into pages.
+
+## Hard conflict rejected
+
+The Mugen handoff again contained stale wording that tried to remove **New** from Mugen's older pre-Raja circle and let GenGrey's later recruitment bridge rewrite first-acquaintance chronology. Rejected. Hard user canon still has **Dean, Key, Zepp, Kal, New and GenGrey** in the older pre-Raja circle. GenGrey can also be a later recruitment route for New in another context; recruitment route is not a time machine.
+
+Likewise, **Ame = Amexistir** remains the canonical identity, while the separate Discord account `ame._.` is not merged into that person merely because both use `Ame`.
 
 ## Surface split
 
-MAIN owns the richer human story in `src/content/people/nhou.md`: the return/disappearance pattern is folded into the biography as **the door can reset; Nhou doesn't**, with the honorific/*K-On!* riff living under `Petty Crimes`.
+MAIN owns the rich reader biographies this pass:
+- `src/content/people/chibiterasu.md` — Chuu~tan / Seventeen / familiar-name shorthand / role lived as a person.
+- `src/content/people/ame.md` — singer-pseudonym origin, songs, self-conscious sharing and `with a lot of love` folded into the existing useful-before-title arc.
 
-WIKI keeps the same evidence as structured character continuity: the November return is separated from the unresolved March doorway mechanism, relationship recognition is explicit, current Staff remains status rather than personality, and the return sequence stays inside Nhou's dossier instead of becoming a standalone Episode. The prose is intentionally not mirrored from MAIN.
+WIKI owns the structured lookup complement:
+- Episode `jas-254x77-4k-appeal` — Wall prosecution, light-mode countercharge, resolution audit.
+- Episode `mugen-hic-conversational-altitude` — repeated direct-reply register matching as relationship grammar.
 
-## Open rabbits / hard rails
-
-- Original UL/server join date remains unresolved. May 11, 2020 is surviving pre-return presence, not guaranteed origin.
-- Exact departure date/reason before November 26 remains unresolved.
-- Exact role/permission restored on November 26 remains unresolved; `role assigned` is not appointment chronology.
-- March 15 mechanism remains unresolved; no second literal leave/rejoin is claimed.
-- The March intake contained an age field. That field was intentionally not propagated publicly.
-- H1 Whiskey media-index thinness is an access/source limitation, not evidence that Nhou was inactive.
-- *K-On!* familiarity is likely; favorite-series status is not claimed.
-- `Mugs chan senpai` remains joke honorific language, not governance, family, romance, or hierarchy.
-- Export-time/current role arrays remain non-chronological.
-- Joke affection, pet names, family language, flirting and fake offices do not become literal romance, biological family, governance or appointment chronology.
-- Earliest surviving evidence is not automatically origin.
-- SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct.
+The prose is intentionally not mirrored across surfaces.
 
 ## Publication / verification result
 
 ### MAIN
 
-Reader commit `d7f814df4d373d22889cecdb1e21577df6e37a65` updates Nhou's person-first biography and backstage claims/anti-fanon. Exact MAIN workflow `33473533504` completed successfully: source canon/architecture verification, Astro build, built-output verification, and exact Cloudflare production deployment all passed.
+The final reader commit for this pass is `c7cbc07d827ce9777bb45efe0df35069fe19373d`; it contains Ame's creative-life integration and descends directly from the Chibiterasu person-first work. Exact MAIN workflow `33474681979` completed successfully. `Build + verify` actually ran source canon/architecture verification, Astro build, and built-output verification; the separate deployment job then checked out the exact validated commit and successfully deployed/verifed it on Cloudflare Pages.
 
 ### WIKI
 
-Reader commit `8d3f7d33b65889a5fc479ca58ea845186c5c0878` rewrites the dedicated Nhou narrative dossier in place rather than adding another overlay or Episode. Build Underlords Wiki `33473593903` completed successfully. Deploy Underlords Wiki Preview / Pages `33473593928` completed successfully through build, deployment and report.
+Reader commit `d76f4c125fb60df17d1f5d215c31abd69dad85b6` adds the two structured Episodes. Build Underlords Wiki `33474575940` completed successfully. Deploy Underlords Wiki Preview / Pages `33474575932` completed successfully for the same exact commit.
 
 ## Consumption result
 
-Whiskey is reviewed and consumed through exact current miner head `25484a5b469d229a42e761ab9bc959a468fa6d9d`. No finite miner tail remains pending at this close. The quarry itself is not exhausted; Wall remains recovery-open and future Whiskey movement may still produce genuinely new person/relationship/ordinary-life material.
+Wall is reviewed/consumed through `5510e7f2888839c944e30ba180f9d3c2a65292ab` and remains recovery-open only for future suffixes. Core is reviewed/consumed through `f373ff20d6527a65ad7a26c7852c1d0e1626f856`. Mugen person-first is reviewed/consumed through `968a521ffac54a2763a7170d1aa052f4a7d42dd4`. No finite miner tail remains pending at this close; the quarries themselves are not exhausted.
