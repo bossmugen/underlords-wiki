@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-01 09:47 PDT_
+_Last updated: 2026-09-01 09:52 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Older pass detail remains in Git history and the numbered `INTEGRATION_STATE_RUN_*` snapshots. MAIN's controlling branch-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`.
 
@@ -10,7 +10,7 @@ The person is the spine; events are supporting scenes; the archive stays backsta
 
 Hard user-confirmed canon, resolved identities, privacy/safety boundaries, explicit contradictions, formal appointment chronology, and attribution fences remain hard. Outside those rails, strong contextual reads about habits, tastes, relationships, humor, care patterns, ordinary life, reputation, and social roles are publishable when more likely than not.
 
-## 2026-09-01 09:47 PDT — Run 150 reconciliation close
+## 2026-09-01 09:52 PDT — Run 150 reconciliation close
 
 Mandatory full miner census: **49 tracked miner identities = 28 active refs + 21 historical/missing refs**, with **0 newly discovered**. After review the close has **0 finite pending review, 0 pending publication, 0 backlog, and 0 overdue**. Wall remains `recovery_in_progress` only because that quarry is expected to move again; it is reviewed and consumed through its current head. Both Club-Only recovery priorities remain current.
 
@@ -31,8 +31,8 @@ WIKI routes this as a structured person/relationship section in Tofu's dossier. 
 
 Reader commits passed independently before consumption advanced:
 
-- MAIN reader commit `2b5ff7876ad6128efb5bd35a907cd792fabadfff`; exact `UL Hourly Build + Deploy` run **33533568634** succeeded, including source canon/architecture verification, Astro build, built-output verification, and Cloudflare deployment.
-- WIKI reader commit `ac332c3d63b2849efe40444fb068c18a19e61699`; exact Build run **33533660105** succeeded and exact Pages run **33533660291** succeeded, including deployment.
+- MAIN Tofu reader commit `2b5ff7876ad6128efb5bd35a907cd792fabadfff`; exact `UL Hourly Build + Deploy` run **33533568634** succeeded, including source canon/architecture verification, Astro build, built-output verification, and Cloudflare deployment.
+- WIKI Tofu reader commit `ac332c3d63b2849efe40444fb068c18a19e61699`; exact Build run **33533660105** succeeded and exact Pages run **33533660291** succeeded, including deployment.
 
 ## Reviewed without duplicate reader copy
 
@@ -40,9 +40,13 @@ Reader commits passed independently before consumption advanced:
 
 **Core Rooms / Seth:** Seth now has strong profile-grade person material: ambitious creative production paired with self-conscious disclaimers, language-learning curiosity, fast-learning/teaching self-reports, and a recurring tendency to do competent things while refusing the flattering label. The public page is held because current roster/membership/status routing is not safely resolved. No VIP, visitor, Staff, or member status was invented merely to make the router happy. nHou's disc-golf bag, dinosaur interest, and `night owl` / `early bird` joke are banked as future person texture.
 
-**Mugen / Gabu:** Gabu's later imagined bar hang with Souta and Mugen strengthens the existing intimidating-at-first → easy-company change in social distance. It does not prove a real outing, alcohol habit, fixed trio, or that the earlier intimidation was fake. MAIN already owns the broader mechanism better, so no duplicate Mugen paragraph was added.
-
 **Wall / Nelph + ShiyaX:** repeated filing and alibi choreography deepens an existing relationship pattern. ShiyaX's own `its an edit looks so real though` remains the authenticity fence; nearby remarks about screenshot crispness do not become CAPTURED BY attribution. The q18 parent was also recovered as Rummy's `IT A PANCAKEEEE`; Torr's `blackened` grandmother-biscuit story is a parallel reply thread, not the parent of Marian's screenshot.
+
+## MAIN-only character deepener: Mugen + Gabu
+
+Gabu's later imagined bar hang with Souta and Mugen strengthens the existing intimidating-at-first → easy-company change in social distance. It does not prove a real outing, alcohol habit, fixed trio, or that the earlier intimidation was fake. The initial Run 150 review banked the scene because MAIN already carried the broader mechanism; a safe concurrent downstream commit then folded the scene directly into Mugen's person-first biography as `c94ad7d3d2d99f918f3da49f7c5551598ae45a57` (`people: deepen Mugen and Gabu social distance`). The published wording keeps the important distinction: familiarity shrinks distance without requiring Mugen to become harmless.
+
+WIKI intentionally does not mirror that paragraph. Its value is primarily biography-level social-distance texture rather than a separate lookup object or independent Episode.
 
 ## Consumption boundary
 
