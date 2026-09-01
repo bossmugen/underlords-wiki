@@ -4,7 +4,7 @@ export const zyrcantNarrativeCharacterBios: Record<string, CharacterNarrative> =
   zyrcant: {
     intro: [
       "Zyrcant / Akariel enters UL with an older org chart behind her. She had been Rich's deputy in Amaurot; by the time the Lobby catches her again in January 2021, the old club itself is fuzzy enough that she is not even sure whether it still exists or what it merged into. Her own identity is much less complicated: `my ign is still Zyrcant`.",
-      "That little `still` does a lot of work. The institution moved, the server geography got blurry, and Zyrcant did not need a committee meeting to remember who she was. Once she is inside the house again, the file stops behaving like a former-deputy dossier anyway. It becomes Kahoot, reaction GIFs, birthday nonsense, self-appointed tackling jurisdiction, and one Mac apparently stripped down to Spotify, Chrome, and Discord. Old rank is provenance. The person who remains is much more fun."
+      "That little `still` does a lot of work. The institution moved, the server geography got blurry, and Zyrcant did not need a committee meeting to remember who she was. Once she is inside the house again, the file stops behaving like a former-deputy dossier anyway. It becomes Kahoot, reaction GIFs, birthday nonsense, self-appointed tackling jurisdiction, voluntary Wall prosecution, and one Mac apparently stripped down to Spotify, Chrome, and Discord. Old rank is provenance. The person who remains is much more fun."
     ],
     sections: [
       {
@@ -22,10 +22,10 @@ export const zyrcantNarrativeCharacterBios: Record<string, CharacterNarrative> =
         ]
       },
       {
-        title: "Former deputy, current participant",
+        title: "Competent enough to place, shameless enough to volunteer",
         paragraphs: [
           "By July, Zyrcant is in the top three of an UL Kahoot pop quiz and the Akariel account is among the `yay` reactions on the result. Later Voice Challenge material has her choosing music and asking Han for editing help. Then October gives the much less administrative self-description: `im the one person who tackles ppl`, with Gabu immediately nominated as the current case.",
-          "That is the useful progression. Her prehistory comes with rank; her UL life comes with participation. She does not need a borrowed office to remain legible. She can show up for the dumb programming, ask the media person for help, weaponize a joke verb against Gabu, and generally let the house replace the old org chart with familiarity."
+          "The Wall supplies the missing contradiction. Zyrcant can ask to be put on it, accept `earn your place` with `fair lmaooo`, and later respond to being `caught in 4k` by running. Competence and shameless participation are not opposite settings for her. Give her something to win and she can place; give the room a humiliation economy and she is perfectly capable of entering that too. The old deputy history does not need to be denied for the self-own to work, and the self-own does not make the competence fake."
         ]
       },
       {
@@ -39,13 +39,14 @@ export const zyrcantNarrativeCharacterBios: Record<string, CharacterNarrative> =
         title: "Petty Crimes",
         paragraphs: [
           "On May 22, 2021: `the only apps now on my mac is spotify chrome and discord 😛`. No cause supplied. No digital-minimalism manifesto inferred. At that moment the machine had apparently been reduced to music, browser, Discord, and a tongue-out emoji announcing that this was survivable.",
+          "On July 1: `word of the day is ass`. On October 14 she suddenly remembers she has the entire Bee Movie saved as a GIF. One deranged saved file does not make Bee Movie her favorite film or establish a generalized media-hoarding habit; it does establish that at some point this woman possessed an emergency Bee Movie GIF and then forgot about it until the archive had the misfortune to hear the confession.",
           "Her reaction-image vocabulary is broad enough to be noticeable and not broad enough to become a fake favorites list. Red Velvet, anime, Avatar, streamer GIFs: the safest conclusion is that when Whiskey gets noisy, Zyrcant is perfectly happy to answer in pictures.",
           "`im the one person who tackles ppl` remains one of the better fake job descriptions in the file. Gabu was simply unfortunate enough to be named next."
         ]
       }
     ],
     closing: [
-      "Zyrcant's character arc is not former deputy becomes UL somebody-important. She was already somebody. What changes is the frame around her. Amaurot becomes uncertain history; `Zyrcant` stays immediate; then the file fills with the smaller things people only accumulate once they have actually settled into a room. Kahoot. GIFs. Birthdays. Gabu getting tackled by declaration. Three surviving Mac apps. The old title tells us where she came from. The stupid little details tell us she stayed long enough to become a person instead of a provenance note."
+      "Zyrcant's character arc is not former deputy becomes UL somebody-important. She was already somebody. What changes is the frame around her. Amaurot becomes uncertain history; `Zyrcant` stays immediate; then the file fills with the smaller things people only accumulate once they have actually settled into a room. Kahoot. GIFs. Birthdays. Voluntary Wall prosecution. Gabu getting tackled by declaration. An emergency Bee Movie. The old title tells us where she came from. The stupid little details tell us she stayed long enough to become a person instead of a provenance note."
     ]
   }
 };
