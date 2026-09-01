@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-01 02:46 PDT_
+_Last updated: 2026-09-01 02:52 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Older pass detail remains in Git history and MAIN's dated integration reports.
 
@@ -9,6 +9,26 @@ This is the current durable dual-surface reconciliation snapshot. Older pass det
 The person is the spine; events are supporting scenes; the archive stays backstage. MAIN owns the richest person/legend biographies, relationship texture, lived chronology, and `Petty Crimes`. WIKI owns the complementary searchable/reference layer: Cast dossiers, role progression, Relationships, Episodes, Running Gags, Quotes, Locations, Gallery/media notes, and person-first narrative where useful for lookup. The same source may appear on both surfaces only when it does a different job.
 
 Hard user canon, resolved identities, privacy/safety boundaries, explicit contradictions, appointment chronology, and attribution fences remain hard. Outside those rails, strong contextual reads about habits, relationships, humor, care patterns, ordinary life, reputation, and social roles may publish when more likely than not.
+
+## Run 125 — Whiskey ShiyaX close
+
+The mandatory census remains **49 tracked miner identities = 28 active refs + 21 historical/missing refs**, with **0 newly discovered, 0 finite pending review after this close, 0 pending publication, 0 backlog, and 0 overdue**. Wall remains recovery-open only for future movement and is reviewed through `1c2104e20ec90d3217a4b32d93b260dd13904661`. Both Club-Only recovery priorities remain current: 2021–2026 through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`; 2020 through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`.
+
+Run 125 reviewed the late Whiskey delta `34ebe736c55af407a3f26ac21bb4bb49cde9246e -> e2a45c5f5426402f1af736dac18fc9f0ab9a2875` checkpoint-first and intake-only. The handoff strengthens ShiyaX as somebody whose chaos often behaves like infrastructure: a terse social doorway, recurring doodling, and—most usefully—future-oriented GTA preparation for Baby Lyssa/Ghoulie. `Buying shit for when you are able to play` plus `Them long drives with` makes planned recurring companionship more likely than a one-way flex. The care is hidden inside game logistics rather than announced as care.
+
+**MAIN** already owned the strongest public version before this suffix: the October 2020 doorway, doodle run, April 2021 `i bought the sub` / `Buying shit for when you are able to play` / `Ghoulie carrying me` / `Them long drives with` sequence, and the no-closeness-rank / no-uninspected-media boundaries are already folded into ShiyaX's person-first biography. No duplicate MAIN paragraph was added.
+
+**WIKI** had only a thin Petty Crimes reference to the GTA preparation, so `src/data/character-biographies-shiyax.ts` was deepened at `72074aaee0872bc56dda622323b157d5c5e04105` with a complementary relationship section: Shiya repeatedly points GTA updates at Baby Lyssa, prepares the shared activity before she can play, then remembers the long drives. It stays person-shaped rather than becoming a standalone Episode. Exact Build `33494209180` and exact Pages `33494209105` both succeeded.
+
+Held rabbits stay held: `the sub` is unresolved; the media-only derivative does not show Baby Lyssa's complete reciprocal wording; the March 17 `do i look like someone who plays gta ?` line remains context-ambiguous; the game/platform behind `I pilot 3 accounts` is unspecified; and the doodle attachments remain uninspected. No real-money gifting, romance, closeness rank, formal artist role, streamer title, or appointment chronology is inferred.
+
+### Consumption
+
+- `archive-miner/whiskey-longitudinal-hourly` — reviewed through and ready to consume at `e2a45c5f5426402f1af736dac18fc9f0ab9a2875`; WIKI public change verified.
+- `archive-miner/daycare-2020-2026-hourly` — consumed through `9ba628e234b843a1f779608197c0c75395ce5b51`.
+- `archive-miner-wall-hourly-20260824` — consumed through `1c2104e20ec90d3217a4b32d93b260dd13904661`; status remains recovery-open only for future movement.
+- `archive-miner/all-characters-hr-20260828` — consumed through `b1576dc4483124a1315f88c7de488e5e6db5060e`.
+- `archive-miner/mugen-person-first-20260828` — consumed through `cd3ce4df739da79302e0c0a1fb7b3973a89c7f45`.
 
 ## Run 124 — close
 
