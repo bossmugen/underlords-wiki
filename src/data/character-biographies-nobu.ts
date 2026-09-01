@@ -17,6 +17,15 @@ export const nobuNarrativeCharacterBios: Record<string, CharacterNarrative> = {
         ]
       },
       {
+        period: "August 2022 – May 2023",
+        title: "QOTD asks for an idea; Nobu returns with production assets",
+        paragraphs: [
+          "August 22, 2022: a Demon Slayer QOTD asks what breathing style people would invent. Xuseio answers that she has **`a whole pdf`** for hers already. By September 7 the file has a name — Space-Time Breathing / Reaper Hollow — plus forms, mechanics, limits, stat requirements and failure conditions. Her own compact explanation is **`Tis my passion.`**",
+          "May 2023 supplies the distribution-side sequel. Xuseio posts a coordinated matching-PFP package for twelve people, answers which images pair together, keeps adding options, and reports **`9 out 12 pfp taken.`** The useful reference fact is not merely that she posted graphics; she is also tracking adoption and closing the loop on the group package.",
+          "Keep the attribution clean: Xuseio is the grounded poster/distributor and completion tracker for the PFP package. The current handoff does not establish that she drew the source art or personally created every underlying edit. Likewise, the scenes sit comfortably beside the Party Director role without turning every creative project into formal office work."
+        ]
+      },
+      {
         period: "2023–2024",
         title: "Praise and prosecution share custody of Rummy",
         paragraphs: [
@@ -54,12 +63,12 @@ export const nobuNarrativeCharacterBios: Record<string, CharacterNarrative> = {
         period: "Petty Crimes",
         title: "Petty Crimes",
         paragraphs: [
-          "Treats **aging** like an avoidable offense the Platelets should stop committing. Can reduce a repeated onboarding request to **`jes.`**. Asked what game people were playing in June 2025, got **`League`**, and her next surviving update was **`I fell asleep broo`** — a concise League of Legends review. Praises Rummy with a wheeze attached."
+          "Treats **aging** like an avoidable offense the Platelets should stop committing. A hypothetical Demon Slayer prompt discovers that she already has **a whole PDF**. Tracks matching-PFP uptake as **`9 out 12 pfp taken.`** Can reduce a repeated onboarding request to **`jes.`**. Asked what game people were playing in June 2025, got **`League`**, and her next surviving update was **`I fell asleep broo`** — a concise League of Legends review. Praises Rummy with a wheeze attached."
         ]
       }
     ],
     closing: [
-      "The current archive is still much richer on Nobu's social voice than on her offline biography, tastes or pre-UL history. That is fine. What survives already makes her recognizable: short boundary lines, affection delivered through shared context, a Party Director role that never sterilizes the banter, nostalgia for people in their earlier Platelet versions, and return scenes where the machinery keeps rediscovering Nobu while the humans plainly do not need to."
+      "The current archive is still much richer on Nobu's social voice than on her offline biography, tastes or pre-UL history. That is fine. What survives already makes her recognizable: short boundary lines, affection delivered through shared context, a Party Director role that never sterilizes the banter, a habit of turning ideas into packages somebody has to actually finish using, nostalgia for people in their earlier Platelet versions, and return scenes where the machinery keeps rediscovering Nobu while the humans plainly do not need to."
     ]
   }
 };
