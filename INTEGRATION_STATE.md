@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-08-31 23:15 PDT_
+_Last updated: 2026-08-31 23:50 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Older pass detail remains in Git history and MAIN's dated integration reports.
 
@@ -10,77 +10,80 @@ The person is the spine; events are supporting scenes; the archive stays backsta
 
 Hard user canon, resolved identities, privacy/safety boundaries, explicit contradictions, appointment chronology and attribution fences remain hard. Outside those rails, strong contextual reads about habits, relationships, humor, care patterns, ordinary life, reputation and social roles may publish when more likely than not.
 
-## Run 115 branch census / no-op boundary
+## Run 116 branch census / reviewed boundary
 
 - **49 tracked miner identities = 28 active refs + 21 historical/missing refs.** No new branch identity appeared.
-- **0 finite pending-review tails, 0 backlog, 0 overdue** at census.
-- Every active miner ref still matches the consumed boundary recorded by MAIN. No changed `archive-intake/*` handoff exists to review this run, so no reader-facing mutation is warranted on either public surface.
-- Wall `archive-miner-wall-hourly-20260824` remains recovery-open only for future movement and is current through `5510e7f2888839c944e30ba180f9d3c2a65292ab`.
+- **0 backlog, 0 overdue.** Opening census caught one Wall recovery suffix; the late census caught one Core Rooms suffix and persisted its `last_seen_sha` before deep review.
+- Wall `archive-miner-wall-hourly-20260824` advanced from consumed `5510e7f2888839c944e30ba180f9d3c2a65292ab` to `285a9287dea770c6ff70a3feb8091364ee52b678` and was reviewed checkpoint-first.
+- Core Rooms `archive-miner/core-rooms-events-a91f-20260824` advanced during the run from consumed `f373ff20d6527a65ad7a26c7852c1d0e1626f856` to `40cd4e80617e6f262edaa27ba364ba7f34d065c9`; the late movement was recorded before review and then reviewed checkpoint-first as the anti-starvation additional branch.
 - Both Club-Only recovery priorities remain current: 2021–2026 through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`, 2020 through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`.
 - No miner branch was merged or wholesale cherry-picked.
 
-Run 115 is deliberately a deconfliction/state pass. Run 114 had closed only minutes earlier, and none of the quarries moved afterward. The correct integrator behavior is therefore to leave Rooks, Eos, HamitteY, Nhou, Mugen, Core, Wall and the rest of the already-reconciled public material alone rather than manufacture another paragraph because the clock fired.
+## Run 116 — Wall material went to MAIN as character mechanics
 
-## Run 114 branch census / consumption boundary
+The Wall suffix was strongest as biography deepening rather than as a second set of WIKI Episodes.
 
-- **49 tracked miner identities = 28 active refs + 21 historical/missing refs.** No new branch identity appeared.
-- **0 finite pending-review tails, 0 backlog, 0 overdue** at close.
-- All Characters HR `archive-miner/all-characters-hr-20260828` advanced from `2df867fe2b423087e899f14f4a225750d8331b9f` to exact close head `489a4199a0d2fe4f4bb862f0fdf99a86201b0d38` and was reviewed checkpoint-first through that head.
-- Wall `archive-miner-wall-hourly-20260824` remains recovery-open only for future movement and is current through `5510e7f2888839c944e30ba180f9d3c2a65292ab`.
-- Both Club-Only recovery priorities remain current: 2021–2026 through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`, 2020 through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`.
-- No miner branch was merged or wholesale cherry-picked.
+Snow openly says he figured he would give Sycee, Kuki, or Anayss `something to post`. Anayss replies that she is used to him saying that kind of thing and ignored it; Snow later calls her `numb from my posts`. The useful contradiction is that Snow can be hunted by the Wall and knowingly feed it at the same time. MAIN folds that into his existing screenshot-exposure / best-material-in-VC material instead of making him either pure victim or mastermind.
 
-## Run 114 — Eos keeps the warmth tiny and the reaction volume enormous
+The same scene gives Ansun a recurring Wall-local reputation rather than a fake office: Snow calls him `always waiting in the wings for it`, and Shiki independently says `ansun always be rdy for post` weeks later. MAIN uses that as reputation/Petty-Crimes texture, not an Archivist or Wall Moderator appointment.
 
-The Run-62 Eos tranche was already substantially present on MAIN, so WIKI uses the same evidence differently instead of mirroring copy.
+A 2022 Daya-posted Dragon Raja screenshot gives Ansun and Anayss another piece of lived shorthand. Ansun notices the profile-picture mismatch because `Anas usually the catto-`, calls it an `alternate timeline`, and Anayss answers `OWO` / `Multiverse is real`. This supports a socially recognized Anayss presentation habit plus easy premise-sharing between them. The screenshot remains **POSTED BY Daya** only; CAPTURED BY / MADE BY / FEATURING are unresolved.
 
-Ren offers Eos a cookie and gets an immediate **`yeeee`**, followed by cookie/nom reaction language. Another Ren share gets **`supa cuteeeee ... tank uuu`**. The media stays attribution-fenced: Ren posted the share; that does not make Ren its maker.
+WIKI intentionally does not mirror those MAIN paragraphs. They currently deepen existing people more cleanly than they create independent lookup objects.
 
-Gilli's shorthand is even more revealing. She can tag Eos with **`Also this anime that we never finished LOL`** and receive **`LMAO`** without naming the anime. The title remains unresolved. The relationship beat does not need the title: Gilli can point at an abandoned shared project and Eos already knows which unfinished crime scene she means.
+## Run 116 — Core produced two new MAIN people, not two cardboard dossiers
 
-The same stretch catches Eos stealing a frog reaction from the room — **`dont mind me taking that frog`** — asking for a hug, then later escalating probable *The Remarried Empress* / Sovieshu fandom talk into **`Permission to kill sovieshit now???`**. That last line stays fictional-character theater, not a real violence claim. The useful character contradiction is simpler: Eos can ask directly for comfort, accept tiny offerings at full volume, steal reaction language on sight, and reopen fandom court without needing a solemn register for any of it.
+### Dainyamite
 
-WIKI now carries that as one person-shaped social-shorthand section, complementary to MAIN's richer Eos biography.
+The Core profile sweep found a coherent Dainy-shaped sensory/social signature: coffee-shop smell, sandalwood lotion, cats + naps, rain followed by a warm shower and bed, and late-night low-lyric / lo-fi / Japanese music. During Officers Challenge, `cat / warm / music` is enough for Ansun to guess Dainy in **5.220 seconds**, with the explanation `saw cat / thought daithi`.
 
-## Run 114 — Hami's emergency-exit defense is live again
+The point is not merely that Dainy likes cozy things. A relatively low-key authored voice has become legible enough that another person can solve her from one tiny cue. MAIN now owns the rich person-first biography and `Petty Crimes`, including the demanding cuddly cat who `showed up and never left` and sits on whatever Dainy is trying to work on.
 
-The HR delta did not uncover a brand-new HamitteY scene. It confirmed that the richer WIKI Hami dossier already existed but had fallen out of the active character-resolver chain.
+`Books` remains Ansun's peer impression rather than a Dainy-confirmed preference. The exporter display `(Retired)` is not used to infer appointment chronology, and `mothman / late night chatter / chaos gremlin` remains Dainy's clue set for Ansun rather than Dainy self-description.
 
-That dossier includes the recurring Peepo walking-out-the-door GIF on three separate Wall dates, including the February 2022 use immediately after Noether tries to supply context. The recurrence is useful as reusable visual defense language: sometimes the explanation arrives and Hami's legal strategy is simply to leave the building in GIF form. It does **not** become a universal `Hami always flees` trait, and the January 2022 trigger remains unresolved.
+### JumanjiBinx
 
-Run 114 restores that richer dossier to the live route. This is a resolver repair, not an invented new incident.
+Jumanji directly describes themself as an introvert comfortable alone or with equally quiet people and likes the idea of anonymous cafe people-watching. In a different answer, Jumanji reports that soccer coaches want them because they keep going when the team is losing and that this persistence lifts teammates' morale. Later somebody calls Jumanji a good role model and Jumanji is visibly surprised by the description.
 
-## Deduped / no-public-change
+MAIN now uses the contradiction rather than flattening it: quiet observer by preference, visible morale engine when a team objective activates persistence. `Always early`, 134 stuffed animals, library work partly for sanctioned shushing, and an unusually detailed restaurant cleanup doctrine live in `Petty Crimes` instead of becoming fake personality metrics.
 
-- **Rooks:** the sleep-advice/self-exemption contradiction, `me time` with DMs still open, warm re-entry, and probable GOT7 gateway were already live on both public surfaces. No duplicate paragraph was added.
-- **MAIN Eos:** cookie/share shorthand, Gilli's unfinished-anime shorthand, frog-reaction appropriation and probable Sovieshu theatrics were already integrated. MAIN reader files therefore did not change this run.
-- **MAIN Hami:** the recurring Peepo exit and broader deli-label/evidence economy were already integrated.
-- **Tofu, Aeshleen, Nuien, Akuma/Matsu, Crystalia:** bounded Run-62 qualification checks closed as successful no-public-change reviews rather than being inflated into filler.
+Coach and role-model language remains Jumanji's report of outside feedback, not a sports credential, captaincy, formal leadership rank, or universal reputation.
 
-## Held / unresolved
+### Jas banked, not lost
 
-- Rooks's exact fresh-welcome/re-entry mechanics remain unresolved; probable GOT7 significance stays probable rather than a hard origin claim.
-- Eos's unfinished anime title remains unresolved. Frog-source provenance remains unresolved. The Sovieshu read remains probable fandom context, not a real-world target or threat.
-- Hami's January 2022 Peepo trigger remains unresolved. Three recurring uses earn a running defense mechanism, not an all-context personality law.
-- `POSTED BY`, `MADE BY`, `CAPTURED BY`, and `FEATURING` remain distinct. No media author/capturer/subject attribution was upgraded by adjacency.
-- Existing hard identity distinctions remain intact, including Nuien ≠ Illien and all previously resolved person bridges.
+The same Core suffix materially deepens Jas but did not need to be forced into this pass after two new biographies landed. The useful relationship mechanism is reciprocal mock courtliness with Mugen: Jas uses `Milady`, Mugen mirrors `messire` and curtsey/bow language, and by December Mugen herself initiates `bonjour messire` before asking about poutine. That reciprocity keeps the bit out of governance/fealty territory.
+
+Acoryuie also directly remembers Jas, known from a prior club, inviting them to Underlords. That is a concrete lived bridge/recruitment act, not a Recruiter appointment. Both pieces are accepted and durably banked for the next Jas person/relationship fold rather than appended as another receipt paragraph.
+
+## Deduped / held
+
+- Miihi's newly surfaced Wall texture was already represented by the richer current MAIN biography, so no duplicate paragraph was added.
+- Alaina's selective-openness / practical-care material is accepted as developing profile texture; the unnamed friend's extra health detail remains private.
+- SaraBunny's `Old Bay on a blueberry muffin` preference is a good `Petty Crimes` seed, not yet a reason to manufacture a broad biography.
+- Baby Lyssa's `how the fuck did you beat me to it already` remains unthreaded with the addressee unresolved.
+- Torr's sibling rabbit remains source-blocked; no substitute identity or scene was invented.
+- `POSTED BY`, `MADE BY`, `CAPTURED BY`, and `FEATURING` remain distinct throughout.
 
 ## Surface split
 
 ### MAIN
 
-Reader pages changed: **0**. The Run-62 Rooks/Eos/Hami person reads were already present. MAIN instead advanced durable branch-consumption state through the reviewed HR head.
+Reader changes:
+- `src/content/people/snow.md` — self-aware Wall-bait contradiction folded into the existing exposure/VC story.
+- `src/content/people/ansun.md` — recurring Wall-tripwire reputation plus Anayss catto shorthand.
+- `src/content/people/anayss.md` — Snow habituation plus easy Ansun presentation shorthand.
+- `src/content/people/dainyamite.md` — new person-first biography.
+- `src/content/people/jumanjibinx.md` — new person-first biography.
+- `src/lib/roster.ts` — both new public profiles routed to the visitor / membership-unconfirmed shelf rather than invented into UL Staff.
 
-State commit `2117b7cd0e2f09f1969a582384e00a754659e17f` passed exact workflow `33476411093`: source canon/architecture verification, Astro build, built-output verification, and the exact Cloudflare production deployment all completed successfully.
+The first Dainyamite push correctly failed the roster-profile verifier because the new public page was not yet represented in the categorized People index. The routing was repaired before publication. Exact reader head `e004d309fff4d9985351ef8d63effa10a3b33e59` then passed source canon/architecture verification, Astro build, built-output verification, and exact Cloudflare production deployment in MAIN workflow `33479168245`.
 
 ### WIKI
 
-Reader changes:
-- `src/data/character-biographies-run114.ts` — complementary Eos social-shorthand section plus restoration of the richer Hami dossier.
-- `src/data/character-biographies-all.ts` — routes the Run-114 overlay through the live resolver.
+Reader changes: **0**. The Wall material does better work as MAIN character mechanics, while Dainyamite and JumanjiBinx currently have richer person-first texture than structured role/episode history. WIKI deliberately does not mirror the new MAIN biographies merely to create duplicate Cast prose.
 
-Reader head `5666c2915a513a5da078d4a602674631148835a5` passed Build Underlords Wiki `33476311419` and Deploy Underlords Wiki Preview / Pages `33476311425`, both successfully.
+This Run-116 state update is the WIKI-side durable reconciliation record. Its exact build / Pages result is recorded by the follow-up state close once this commit has run through the WIKI workflows.
 
-## Consumption result
+## Consumption rule for close
 
-All Characters HR is reviewed/consumed through `489a4199a0d2fe4f4bb862f0fdf99a86201b0d38`. Wall remains reviewed/consumed through `5510e7f2888839c944e30ba180f9d3c2a65292ab` and recovery-open only for future suffixes. Both Club-Only recovery priorities remain current. No finite miner tail remains pending at this close; the quarries themselves are not exhausted.
+Wall may advance formal consumed state through `285a9287dea770c6ff70a3feb8091364ee52b678` because its accepted MAIN changes passed full verification/deployment. Core may advance through `40cd4e80617e6f262edaa27ba364ba7f34d065c9` after the accepted Dainyamite/Jumanji publication is closed durably on both surfaces. Successful held/no-public-change findings inside those reviewed ranges are not reread in future runs simply because they did not become public copy.
