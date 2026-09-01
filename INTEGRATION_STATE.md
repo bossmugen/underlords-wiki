@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-01 15:50 PDT_
+_Last updated: 2026-09-01 15:55 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Older pass detail remains in Git history and numbered `INTEGRATION_STATE_RUN_*` snapshots. MAIN's controlling branch-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`.
 
@@ -33,11 +33,17 @@ WIKI intentionally receives no reader Episode from this source. The material is 
 
 MAIN reader commit `7a25b2dad9a6da6f10883bece473b7169e7ebc90` passed exact workflow `33567802472`: source canon/architecture verification, Astro build, built-output verification, and exact Cloudflare production deployment all succeeded.
 
-### Wall recovery — consumed without breeding paragraphs
+### Wall recovery — Tony finally resolves into a person
 
-The Wall suffix was duplicate/corroboration/unresolved only. Baby Lyssa/Ghoulie's return to older Wall material strengthens the already-public resident/joke-enforcer pattern. Gilli/Zyrcant recognition is lived familiarity already better represented elsewhere. Ren's small `called-out` / `slapped for no reason` filing vocabulary is texture, not a new public argument.
+The actual 15:10 Wall suffix produced one genuinely new person read: **TonyTonyChopper**. Marian files Tony in separate 2022 scenes; Tony answers with `STOPPPP` / `WR DONT NEED TO SHARE THIS WITH THE WORLD`, then months later `NO` → `STOP` → `DONT SHOW THEM`, while staying socially engaged. Rummy twice answers the exposure with `*pat pat*`, and Tony responds warmly. The repetition makes the defendant routine recognizable without converting it into actual distress: Marian is a recurring filer, Rummy a recurring softener, and Tony remains inside the social game.
 
-Held rather than flattened: Styr/Strix remains unresolved; Nyx/Faren is incomplete; Rich's `harlem globe trotter` context is incomplete; Tatta's `I also helped him` establishes contribution only; the Lounge icon/date source remains unhealthy, so false zeroes are not treated as absence. `Sou = Ansun` remains hard canon; the separate stable account currently displayed as `Sou` remains an unresolved display-name collision rather than a canon split.
+Tony later self-authors the better petty offense: `I am actually the real ceo of bad spelling` → `I cant` → `Even spell one letter things right`. `CEO of Bad Spelling` is excellent Petty Crimes material and obviously not governance. A tiny fictional-haircut opinion remains target-unresolved.
+
+Tony is profile-ready as a person, but the current public-safe cast/roster does not resolve Tony's UL-member / visitor / other shelf. WIKI does not invent status to force a Cast page. The material is banked rather than rejected.
+
+The same Wall suffix materially strengthens **Tofu ↔ Cookie**. After Tofu says an earlier Cookie-targeted result resembles a conversation with `he` and starts looking for a screenshot, Cookie later says in the same session `who gave Tofu access to this channel lmao she bouta expose me`, which Tofu evil-reacts to. Cookie is therefore the substantially stronger probable referent, but the missing screenshot and structural `he` join remain unresolved. MAIN already publicly owns the reciprocal-exposure relationship, so no duplicate WIKI Episode was manufactured. The later Aug. 30–31 screenshot war remains separate objects unless structurally joined.
+
+No Wall pixels were inspected. No CAPTURED BY / MADE BY / FEATURING claim was added. Thin-person false zeroes remain source sickness, not absence evidence. HamitteY q22 remains open for an exact parent/source/media join.
 
 Reader-facing WIKI changes for Run 170: **0**. This surface receives durable reconciliation state only.
 
@@ -45,8 +51,8 @@ Reader-facing WIKI changes for Run 170: **0**. This surface receives durable rec
 
 New/Newmal remains male and part of Mugen's older pre-Raja circle with Dean, Key, Zepp, Kal, and GenGrey. Later recruitment through GenGrey is a later route inside an existing network and does not rewrite first acquaintance.
 
-Moon Mouse remains distinct from Moon. Exact endurance-bot identity and exact 279-hour round number remain open. `gilli stole us all` remains referent-unresolved. Tofu↔Marian mock-combat remains one reciprocal exchange, not a relationship rank. Teri/Moon sensitive clauses stay private; Torr's health-adjacent clause stays excluded; Seth's workplace specifics stay private.
+Mugen trust follow-up remains open for her own fuller wording about what earns/loses trust or a relationship visibly crossing that boundary. Tony's public-safe status/shelf remains unresolved. Tofu q9/q19 keeps Cookie at strong-probable referent rather than structural confirmation; the actual mystery screenshot/source/provenance remains open. HamitteY q22 exact parent/source/media remains unresolved.
 
 Joke roles are not formal governance. Joke family language is not biology. Joke romance/flirting is not literal romance or sex without support. Earliest surviving is not guaranteed origin. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct.
 
-Run detail: `INTEGRATION_STATE_RUN_170_2026-09-01-1549.md`.
+No raw archive was reopened by the integrator. No miner branch was merged or cherry-picked wholesale. The corrected Run-170 Wall/Mugen detail is preserved in `INTEGRATION_STATE_RUN_170.md`.
