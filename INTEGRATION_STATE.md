@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-01 10:53 PDT_
+_Last updated: 2026-09-01 10:59 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Older pass detail remains in Git history and numbered `INTEGRATION_STATE_RUN_*` snapshots. MAIN's controlling branch-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`.
 
@@ -10,7 +10,7 @@ The person is the spine; events are supporting scenes; the archive stays backsta
 
 Hard user-confirmed canon, resolved identities, privacy/safety boundaries, explicit contradictions, formal appointment chronology, and attribution fences remain hard. Outside those rails, strong contextual reads about habits, tastes, relationships, humor, care patterns, ordinary life, reputation, and social roles are publishable when more likely than not.
 
-## 2026-09-01 10:53 PDT — Run 152 reconciliation close
+## 2026-09-01 10:59 PDT — Run 152 reconciliation close
 
 Mandatory full miner census closed at **49 tracked miner identities = 28 active refs + 21 historical/missing refs**, with **0 newly discovered**, **0 finite pending review**, **0 pending publication**, **0 backlog**, and **0 overdue**. Wall remains `recovery_in_progress` only because the quarry may advance again; the current Wall head is reviewed and consumed. Both Club-Only recovery priorities remain current through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa` (2021–2026) and `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff` (2020).
 
@@ -19,7 +19,7 @@ Reviewed checkpoint-first, intake-only, with no miner branch merged or wholesale
 - `archive-miner/daycare-2020-2026-hourly`: `cf83bea581b7e4980251146da3f0d88655dc2798` → `6c163b0e17e97c327d8473682f50e96a36f95411`.
 - `archive-miner-wall-hourly-20260824`: `16fd25ba89546e79ac60480e7882fe87133556b2` → `44cede9e1c7785abe7f2fb24d60ef6e2dd331950`.
 - `archive-miner/mugen-person-first-20260828`: `209ee43cd0be5bca1ae25c39169d1de3d957b282` → late closing head `335299db729911707fd0baed6a57c38dc468f004`.
-- Closing census caught a late `archive-miner/all-characters-hr-20260828` Run-70 tail: `387fdd7b2c86f00cfdeebd38f1647e239f687755` → `69c4b6968736f1e10370506dac17f2243cf39816`. It was reviewed in the same run and consumed as miner-lag/corroboration against already-integrated public work rather than left pending.
+- `archive-miner/all-characters-hr-20260828`: `387fdd7b2c86f00cfdeebd38f1647e239f687755` → final Run-70 checkpoint `e0de3bd30420b295d8d34f0048c12bd21a880172`. The closing chain was reviewed through findings/receipts/rabbits, four comprehensive character rewrites, site candidates, coverage delta, exhaustion ledger, and final checkpoint. It is consumed as miner-lag/corroboration against already-richer current public material rather than left pending or re-published.
 
 MAIN's controlling ledger records all four reviewed heads as consumed; Wall alone keeps `recovery_in_progress` status for future movement.
 
@@ -53,7 +53,7 @@ MAIN did not receive a dated-event appendix for this one. Mugen's biography is a
 
 **Mugen person-first:** Tae bedtime-math care, Nhou peer garbage-café register, Robin recognition, Sammy reciprocal `ride or die`, participatory bot folklore, and related repeats deepen mechanisms already public or already banked more strongly. The superseded `GenGrey, not New` chronology remains rejected.
 
-**All-Characters HR Run 70:** this tail is miner reconciliation against current already-integrated public material rather than a new archive delivery. Churro's work/dinner coverage ask, Ame's singer-name/music/RPG/useful-before-title material, Cookie's Gura/Tofu selective-framing relationship grammar, and Mia's `I can tryyy` scope fraud / role follow-through / visual-association / fry redistribution are already richer on current public surfaces. The tail is consumed as reviewed corroboration, not re-published by receipt mitosis.
+**All-Characters HR Run 70:** this is miner reconciliation against current already-integrated public material rather than a new archive delivery. Churro's work/dinner coverage ask, Ame's singer-name/music/RPG/useful-before-title material, Cookie's Gura/Tofu selective-framing relationship grammar, and Mia's `I can tryyy` scope fraud / role follow-through / visual-association / fry redistribution are already richer on current public surfaces. The final site-candidate and checkpoint files explicitly say no public-file mutation is required. The entire chain through `e0de3bd3…` is consumed as reviewed corroboration, not re-published by receipt mitosis.
 
 Bounded negatives remain bounded: Allenne, Panda, Rose and Key did not gain a new person domain in this Run-70 tail. Churro's withdrawn `scruff` interpretation stays dead; Ame's separate `ame._.` account stays unbridged; Cookie/Kuki ≠ Rookie Cookie; Mia = Mimi = Miaka and Han ≠ Mia.
 
@@ -79,4 +79,4 @@ MAIN reader commit `d84231d600624ae608e3e87c71b6cc767cabef2f` (`people: fold YoC
 
 WIKI reader ancestry culminates at `77f20fb52313e28bc6667b8f9be416bda0f4bbab` (`wiki: add Yassr patio role-reversal episode`). Exact Build **33540093455** succeeded. Exact Pages **33540093394** also succeeded, including the deployment workflow. This head contains the prior Anayss/YoChan, Manolo, and Mugen/YoChan Episodes on ancestry.
 
-Final bookkeeping commits after these reader heads must still pass their own repository workflows; the reader material itself is verified and deployed.
+Final bookkeeping heads after this seal are verified by their own exact repository workflows; the reader material itself is already verified and deployed.
