@@ -1,10 +1,10 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-08-31 18:50 PDT_
+_Last updated: 2026-08-31 18:52 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Older run detail remains in Git history and MAIN's dated integration reports.
 
-## Current boundary — Run 101
+## Current boundary
 
 The public-bio rule remains: **the person is the spine; events are supporting scenes; the archive stays backstage.** MAIN owns the richest person/legend biographies. WIKI owns complementary Cast dossiers, role progression, Relationships, Episodes, Running Gags, Quotes, Locations, gallery/reference structure, and person-first narrative where the route uses it. `Petty Crimes` is the catch-all; never `Trivia`.
 
@@ -12,107 +12,53 @@ Hard user canon, resolved identities, privacy/safety, explicit contradictions, a
 
 ## Census / review boundary
 
-- Full census: **49 tracked miner identities = 28 active refs + 21 historical/missing refs; 0 newly discovered; 0 unreviewed active deltas at final Run 101 close; 0 backlog; 0 overdue**.
-- Opening review covered Wall recovery, Daycare, Mugen person-first and Whiskey. Closing census caught a one-commit Core Rooms advance to `65dc030b...`; it was immediately reviewed checkpoint-first rather than left as next-run tail.
+- Full census: **49 tracked miner identities = 28 active refs + 21 historical/missing refs; 0 newly discovered; 0 unreviewed active deltas; 0 backlog; 0 overdue**.
 - Wall recovery is consumed/reviewed through `378f0b3c05368bb12c7500d2801c9f4e93203499` and remains open only for future movement.
-- Daycare is reviewed through `688ee26e142c3801aa9a0e2f15b9ff6db6c62fee`; its formal MAIN-family cursor remains pinned only by older accepted publication debt.
+- Daycare is reviewed through `688ee26e142c3801aa9a0e2f15b9ff6db6c62fee`; older accepted MAIN Daycare publication debt remains.
 - Mugen person-first is consumed/reviewed through `79d8693e4259fa671599e9b25ad294dc4498e88c`.
 - Whiskey is consumed/reviewed through `462bd18a02997a687582a10f7cf622a35d321632`.
-- All Characters HR remains reviewed through `6b52b105995b5f4dffddee2581c3b7977adec043` with final Nelph/Sye novelty closure still open.
-- Core Rooms is reviewed through `65dc030b3c3d203d61c444baffd3cf8caa9f022d`; accepted MAIN publication debt remains open, so its older formal consumed cursor stays pinned.
+- Core Rooms is reviewed through `65dc030b3c3d203d61c444baffd3cf8caa9f022d`; accepted MAIN publication debt remains.
+- All Characters HR remains reviewed through `6b52b105995b5f4dffddee2581c3b7977adec043`; final Nelph/Sye novelty closure remains.
 - Both Club-Only recovery priorities remain current: 2021–2026 through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`; 2020 through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`.
 - No miner branch was merged or wholesale cherry-picked; no raw archive was re-mined by the integrator.
 
-## Run 101 — Zoshaa gets the useful contradiction instead of another incident ledger
+## Zoshaa / NintendoShitcube
 
-Whiskey's current delta materially deepened **Zoshaa / NintendoShitcube**.
+Whiskey's current delta materially deepened Zoshaa without turning her page into another incident ledger. The useful contradiction is attention: she can spend twenty minutes making something and ask Ren `are you proud?`, later spend six hours on a Dragon Raja house and scream at the game, and also fail to notice for days that she is still locked out of part of the server. Intense task focus and spectacular background inattention can coexist in the same person.
 
-The new material does not replace the existing maker/child/orb story; it makes the person underneath it sharper. Zoshaa can spend twenty minutes making something and ask Ren `are you proud?`, later spend six hours on a Dragon Raja house and scream at the game, and also fail to notice for days that she is still locked out of part of the server. That is a much better contradiction than generic `chaotic`: intense task focus can coexist with spectacular background inattention.
+The Ren relationship is stronger as lived behavior rather than a chart label. Existing material already connects them through Orb language; Whiskey adds Zoshaa seeking Ren's creative approval, Ren later summoning `ORB` to `COME DESTROY SHIT WIJT ME`, and Zoshaa later marking `ORB ANNIVERSARY` with affection. Exact Orb origin and exact meaning remain unresolved. `ORB ANNIVERSARY` is not converted into romance, literal family, or a friendship-start date, and `the drawing` in the later exchange is not automatically MADE BY Zoshaa.
 
-The Ren relationship is now stronger as lived behavior rather than a chart label. The Tumbleweed already filed `RV - Zoshaa (orb) - child shield`; Whiskey adds Zoshaa asking Ren for creative approval, Ren later summoning `ORB` to `COME DESTROY SHIT WIJT ME`, and Zoshaa later marking `ORB ANNIVERSARY` with `I L O V E Y O U U W U`. Ren's later reference to `the drawing` is kept attribution-safe: the exchange contains a drawing, but adjacency alone does not make Zoshaa its artist.
+WIKI `src/data/character-biographies-zoshaa.ts` uses this material as relationship/reference structure; MAIN uses the same evidence family as richer person-first biography prose. WIKI reader commit `f823def6920f41f77a5aea480e8606317dec647d` passed Build `33459810912` and Pages deploy `33459810901`. MAIN reader commit `520fd6f21fbaeb4012eaa553080dbe6d273b88c9` passed exact source verification, Astro build, built-output verification, and Cloudflare deployment in workflow `33459761752`.
 
-The exact Orb origin and exact meaning remain unresolved. The earliest surviving accessible person-specific Orb receipt is not treated as guaranteed origin, and `ORB ANNIVERSARY` is not converted into romance, literal family, or a friendship-start date.
+## Reviewed without manufacturing pages
 
-WIKI `src/data/character-biographies-zoshaa.ts` now uses this material as relationship/reference structure: reciprocal Orb shorthand, maker-pride, the attention contradiction, exact attribution fences, and **Petty Crimes**. It deliberately does not mirror MAIN's richer narrative wording.
+Wall's current suffix adds cumulative person color: YuKanada/Reii as a low-verbal gallery witness; Tofu actively remembering and hunting an earlier screenshot; Illien and Ren escalating the undercover-cats bit together; Anayss folding remembered first-corpse-job embarrassment into `Im a pro now`; and broader Corpse.Inc / Corps Co participant-memory mythology. These deepen existing person/motif reads rather than justifying another standalone Event card. Exact corpse mechanics, sealed visuals and authorship remain unresolved.
 
-WIKI reader commit `f823def6920f41f77a5aea480e8606317dec647d` passed **Build Underlords Wiki** run `33459810912` and **Deploy Underlords Wiki Preview** run `33459810901`; both completed successfully, including GitHub Pages deployment.
+Daycare adds a probable Alaina read: economical context-checker / straight-man who can still join a clean bit. It also hardens the technical distinction **Eli ≠ Waifu**; pooled Deleted User is not promoted into Eli's unresolved original bot identity. The Alaina material is still too thin for a standalone public dossier change.
 
-MAIN independently rebuilt `src/content/people/zoshaa.md` around the same evidence family as a person-first biography rather than a year-by-year ledger. MAIN reader commit `520fd6f21fbaeb4012eaa553080dbe6d273b88c9` passed exact workflow `33459761752`: source canon/architecture verification, Astro build, built-output verification, and verified exact-commit Cloudflare deployment all succeeded.
+The Mugen miner suffix produced no new A/B person-level promotion; Corpse.Inc remains supporting-only behind existing peer-owned-joke / anti-pedestal material.
 
-## Run 101 — reviewed without manufacturing pages
+The late Core suffix deepens Nelph as an action-oriented friction reducer who can yell `COME TO CLUB BASE TO SPANK SOME DRAGONS BOOTY` and still give the next usable instruction, and Gilli as a social switchboard who routes arrivals toward where people actually are. Thinner Ice Man Cree / probable `Crit` and Nuvel texture remains person-color rather than a new incident page. These are accepted MAIN-owned deepeners.
 
-### Wall
+## Hard chronology correction — GenGrey first, New later
 
-The Wall recovery delta adds useful but cumulative person color:
+A stale integration state and a pair of public/dormant Mugen narrative lines briefly contradicted the controlling canon lock. They are superseded.
 
-- YuKanada/Reii reads as a low-verbal gallery witness who often reacts rather than prosecutes and eventually says `Sometimes ya'll kill me here`.
-- Tofu recognizes a current joke as resembling an earlier conversation and immediately goes looking for `that screenshot`, strengthening active receipt-memory behavior without resolving the unknown `he` or inventing a recovered object.
-- Illien/Euros resurrects a secret-cat premise hours later and upgrades it into `UL is actually a bunch of undercover cats`, with Ren catching the callback. This is comfortable collaborative absurdity, not romance/sex evidence.
-- Anayss answers Gilli remembering her `first corpse job` with `Im a pro now ok hahaha lets not remember the nakedness and the bushes`: beginner embarrassment and later self-declared competence in one sentence.
-- Corpse.Inc / Corps Co is now better supported as participant-remembered fake-job mythology around losing bodies, including Mugen's corpse. It remains joke-world history, not governance or an appointment system.
+**GenGrey is the supported older pre-Dragon-Raja / pre-Raja friend of Mugen and Key. New / Newmal is GenGrey's friend; New met Mugen later, outside Discord, then eventually joined UL. New is not part of Mugen's older pre-Raja circle.**
 
-No new standalone Episode was created because these strengthen existing person/motif reads more than they justify another incident card.
-
-### Daycare
-
-Alaina now has a probable cumulative social style: she sanity-checks nonsense (`.... so is this just out of context....?`), accepts Marian's `no. that was the context` with a tiny `Okay`, then exits; elsewhere she will join a clean `Sorry not sorry` bit. Useful straight-man/participant contradiction, but still underfed for a new standalone public dossier change this run.
-
-Technical lock advanced: **Eli ≠ Waifu**. The old `Eli ...` action family and Waifu's intact `w/...` action path are distinct. Pooled Deleted User `456226577798135808` is not promoted into Eli's original bot ID.
-
-### Mugen person-first
-
-The latest miner pass explicitly produced no new A/B Mugen person-level promotion. Corpse.Inc is supporting-only behind the already-public peer-owned-Mugen-joke / anti-pedestal read.
-
-The miner also tried to resurrect the bad chronology that removes New from Mugen's older pre-Raja circle. Rejected. See the hard lock below.
-
-### Core Rooms — late closing suffix
-
-The closing census found Core Rooms had moved one commit after opening census, so Run 101 reviewed `07b0bd17... → 65dc030b...` immediately.
-
-Nelph's vague `service` / `hard work` reputation now has concrete lived behavior behind it. Across late 2021 he repeatedly converts ambient state into the next useful verb: come here, place bets, vote now, turn on 2FA, then three minutes later supplies the exact `profile > account > enable 2FA` path. He can write `COME TO CLUB BASE TO SPANK SOME DRAGONS BOOTY` and still be operationally clear. That is a strong person read: procedurally dependable, socially unserious, and habitually interested in reducing friction rather than merely announcing that a problem exists.
-
-Gilli's early doorway scenes similarly deepen an existing trait instead of creating a résumé bullet. She greets arrivals in their own register, tells them which social room is active, distinguishes Fight Club VC from VIP Lounge text, and later advertises the day's Theatre films while finishing the welcome. She acts like a social switchboard: server architecture becomes `where the people are right now`.
-
-Ice Man Cree / probable `Crit` and Nuvel also gained thin but human texture. Ice Man can arrive with `Wassup` or a single `😍` and still get immediate recognition-energy/routing from Mugen or Gilli. `Crit` remains probable rather than hard alias canon. Nuvel's `Tis I on another computer!!` access problem ends with Snow checking and `YESSS OMFG NICE`, which belongs in ordinary-life / Petty Crimes territory, not a technical incident report.
-
-These Core findings are accepted MAIN-owned deepeners and remain in the existing Core publication-debt family rather than becoming new WIKI incident pages. Core's `reviewed_through_sha` advances so the suffix is not reread; its formal consumed cursor stays pinned until the accepted MAIN folds publish and verify.
-
-The miner checkpoint also carries stale wording that Ritha remains the current Battle Leader. Rejected. Current hard user canon is **Anayss = Battle Leader / Underboss / Game Officer**. Old material may describe Ritha's historical battle leadership, but it does not restore Ritha as the current appointment or date Anayss's appointment.
-
-## Hard chronology lock — New stays in the old circle
-
-**Dean, Key, Zepp, Kal, New, and GenGrey are all part of Mugen's older pre-Dragon-Raja / pre-Raja online circle.**
-
-Separately, New later remembers Mugen recruiting New through GenGrey in another setting. That is a later recruitment route, not a first-meeting clock. It does not move New out of the older circle.
-
-Any miner handoff saying `GenGrey, not New, is the supported pre-Raja friend` is subordinate to this user-confirmed canon and must not be propagated publicly.
+MAIN `CANON_LOCKS.md` already held the correct lock, and WIKI's public New dossier already held the correct chronology. MAIN's visible Mugen biography and WIKI's Mugen narrative source have now been restored to match them. The MAIN correction commit `f768decf62b01b3b7dc68dc77eeba96be11f1492` passed the full source-verification → Astro → built-output → Cloudflare chain in workflow `33460226416`. The WIKI correction commit `95a8f0a8666a8468d7993b2859dd7d4cbc39f0ef` passed Build `33460256221` and Pages deploy `33460256227`.
 
 ## Carry-forward publication state
 
-MAIN's verification/deployment chain is healthy again.
-
-- Run 98 published Ansun's person-first MAIN rebuild and verified/deployed it.
-- Prior Run 97 folded Lilith + Nelph into Mugen's `away is not gone` continuity pattern and verified/deployed it.
-- The earlier Whiskey **Rooks / Rookie Cookie / `.poogie.`** MAIN person-first debt was published at `fbd73070092e28616ae630cd4cc6ea0d371f5d27`; exact workflow `33458667560` succeeded.
-- Run 101 now publishes Zoshaa on both surfaces with distinct prose/function.
-
-Remaining named MAIN publication debt is **three families**:
-
-- All Characters HR — Ansun is paid; final Nelph/Sye mutual-credit novelty closure remains.
-- Core Rooms — now including Nelph next-verb service, Gilli social-switchboard continuity, and thinner Ice Man/Nuvel person texture.
-- Daycare.
-
-Wall remains recovery-open for future miner movement, not because the current reviewed suffix is unread. Whiskey and Mugen person-first are consumed through their current Run 101 heads.
+Remaining named MAIN publication debt is **three families**: All Characters HR, Core Rooms, and Daycare. Whiskey is fully consumed after the verified Rooks and Zoshaa work. Mugen person-first is fully consumed through its current miner head. Wall remains recovery-open for future miner movement, not because the current suffix is unread.
 
 ## Rails held
 
-- **New remains in Mugen's user-confirmed older pre-Raja circle alongside Dean, Key, Zepp, Kal, and GenGrey.** Later New-through-GenGrey recruitment is not first-meeting chronology.
-- **Anayss is the current Battle Leader / Underboss / Game Officer.** Stale miner carry-forward language treating Ritha as current Battle Leader is rejected; old scenes do not date Anayss's appointment.
+- **GenGrey is the older pre-Raja friend of Mugen and Key; New met Mugen later through GenGrey's broader social connection.**
+- **Anayss is the current Battle Leader / Underboss / Game Officer.** Historical Ritha battle leadership does not restore her as current or date Anayss's appointment.
 - Zoshaa / NintendoShitcube is one person; Platelet status remains permanent canon.
 - Zoshaa's Orb language with Ren supports reciprocal playful/creative familiarity, not romance, literal family, or an exact friendship-start date.
-- Earliest surviving Orb evidence is not guaranteed origin.
-- `the drawing` in the Orb-anniversary exchange is not automatically MADE BY Zoshaa.
-- Zoshaa's September 2020 lockout scene does not preserve exact permission mechanics or prove punitive moderation.
+- Earliest surviving Orb evidence is not guaranteed origin; `the drawing` is not automatically MADE BY Zoshaa.
 - Corpse.Inc / Corps Co / corpse keeper are joke-world language, not formal UL departments or governance titles.
 - `Crit` for Ice Man Cree remains probable period name/IGN, not a hard identity bridge.
 - Rich / DragonRich remains distinct from Ricochet / `dragonrichard`.
