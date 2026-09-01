@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-08-31 20:27 PDT_
+_Last updated: 2026-08-31 20:44 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Older pass detail remains in Git history and MAIN's dated integration reports.
 
@@ -10,78 +10,79 @@ The public-bio rule remains: **the person is the spine; events are supporting sc
 
 Hard user canon, resolved identities, privacy/safety, explicit contradictions, appointment chronology and attribution fences remain hard. Outside those rails, strong contextual reads about habits, relationships, humor, care patterns, ordinary life, reputation and social roles may publish when more likely than not.
 
-## Run 106 closing census / consumption boundary
+## Run 107 census / consumption boundary
 
 - **49 tracked miner identities = 28 active refs + 21 historical/missing refs.** No new branch identity appeared.
-- **0 finite pending review, 0 backlog, 0 overdue.** The opening census briefly looked fully current; a required late re-census caught new Daycare and Whiskey suffixes before close. Both were reviewed checkpoint-first and intake-only, then consumed after accepted MAIN work passed verification and deployment.
-- Wall recovery remains open only for future movement and is consumed/current through `9e101549093e5807030eb8761dc10612c86553c7`.
-- Daycare is consumed through `f241ee1f81dd3be20362ebe0fd32c9532eed5ece`.
-- Whiskey is consumed through `456d1fdae05fb95dbea108097e322ed31193fe1b`.
-- All Characters HR remains consumed through `bdea101d937a65d37e5c500a9868f8ce04746a10`.
-- Mugen person-first remains consumed through `c3848d9cbc15062b55b88c035c3e1f7d3d3f4757`.
-- Core Rooms remains consumed through `65dc030b3c3d203d61c444baffd3cf8caa9f022d`.
-- Both Club-Only recovery priorities remain current: 2021–2026 through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`; 2020 through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`.
-- No miner branch was merged or wholesale cherry-picked; no raw archive was re-mined by the integrator.
+- **0 finite pending review, 0 backlog, 0 overdue.** Wall remains the one recovery-open quarry, but its reviewed cursor is current; both Club-Only recovery priorities are current.
+- Wall consumed/reviewed through `d142745dc92e5aa0326c267cff1e6032a64f2211`.
+- Daycare consumed/reviewed through `f5977bd70f021c990d8b8c66880afc7a1af26b99`.
+- Mugen person-first consumed/reviewed through `40eb39faf395d1e62e669fd024973614cbc1330c`.
+- Core Rooms consumed/reviewed through `4b7203a03e296182575234829a4bf08c795a137b`.
+- All Characters HR remains current through `bdea101d937a65d37e5c500a9868f8ce04746a10`; Whiskey through `456d1fdae05fb95dbea108097e322ed31193fe1b`.
+- Club-Only 2021–2026 remains current through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`; Club-Only 2020 through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`.
+- No miner branch was merged or wholesale cherry-picked; the integrator reviewed only intake handoffs.
 
-MAIN's controlling branch-state commit after the two late reviews is `9d7c3fae8f10e777ce93875396066baa11a444c9`.
+MAIN's Run 107 consumption-state commit is `30cdf9a0770f4edf0fff68c49c51c5bd5e0d6c98`.
 
-## Daycare late suffix — Nothien can start the fight and still not know where it is
+## Wall — Erys discovers constitutional rights exactly when Erys is on trial
 
-Daycare advanced from consumed `9e3f02d6920386436a1860f814377fa2b348427a` to `f241ee1f81dd3be20362ebe0fd32c9532eed5ece` after the opening census.
+The Wall suffix materially upgrades Erys from a fast early-Wall presence into a recognizable participant with a whole defense style. Ren posts an exhibit and Erys goes from `NOOOO` to `i swear that isnt me` to `its photoshopped`; after Mugen posts screenshots the emergency doctrine becomes `im being hacked`. By May 2022 the bit has graduated into literal courtroom language: Erys says `objection` and `hearsay`; Ren TRUE-replies `Denied, it was your own answer`; Erys immediately continues the appeal.
 
-The strongest new seam belongs to **Nothien / `northwards`**. In April 2020, Nothien can say **`Fight, anyone?`**, get Mugen to volunteer, then shortly follow with **`Where?`** and **`Am losttttt`**. Gilli answers **`Forging Swords`** and **`Come up here`**; Nothien replies **`Ohhh thank youuu`**.
+The important relationship read is that Erys stays inside the game. She can challenge admissibility, lose the motion, and later file an exhibit herself and tag Ren. WIKI now gives Erys a finished person-first biography built around that recurring defense theater rather than reducing her to one screenshot incident. Attribution stays fenced: Erys posting an image does not establish who made it, captured it, or appears in it.
 
-That is better character material than another event entry. Nothien is proactive enough to start the activity and unembarrassed enough to admit they cannot locate it. The help transaction is cheap: ask, get directions, thank Gilli, move on. It fits the same practical social style already visible when voice is inconvenient and Nothien simply uses text instead.
+Held rather than inflated: Bailey_Babe's one-night `who needs sleep` → `Someone take my phone away pls` contradiction is bounded to that night; Dainyamite's mint-chocolate support is a taste, not a favorite-food identity; the Vanness/Gabu exhibit remains visually unresolved; the q8 source-channel join resolves a source-channel ID only, not the source author or artifact ownership.
 
-The 2023 return now lands more cleanly against that personality. Nothien self-files as **`Underlords(?), Member(?), decently old`**, while Ren answers **`NOTHIIIII`**. Human recognition outruns bot/account-state ambiguity without turning the MEE6 welcome state into first-arrival or rejoin chronology.
+## Mugen — organized enough to time the machine, unserious enough to celebrate its death
 
-MAIN rewrote `src/content/people/nothien.md` around this lived contradiction and added Gilli's practical wayfinding plus `Petty Crimes`. WIKI intentionally did **not** create a standalone Nothien Episode; the person profile is the better owner and the universal WIKI biography fallback already prevents a bare résumé route.
+The final Mugen handoff adds one excellent systems-meets-clownery scene. On March 20, 2023 Mugen announces: `WE OFFICIALLY BROKE THE BOT FAM! Approx 279 hours is our record before the bot yeeted itself out`, then immediately folds the casualty into Anniversary Month.
 
-Held from promotion: the Jan. 13–18, 2023 Lobby quiet window is channel-specific only; one Gilli direction scene does not establish relationship rank; the unseen June 2023 Daycare message remains unseen; the 279-hour bot identity bridge remains unresolved.
+WIKI now carries that as character texture, not a fake bot-history article. `WE`, `OFFICIALLY`, `record`, and `FAM` turn infrastructure failure into a communal achievement. The useful contradiction is straightforward: Mugs is keeping enough track of the system to preserve a runtime, and the number's public purpose is to trophy the moment the system dies.
 
-## Whiskey late suffix — KOREA cares about the little things
+The exact bot/channel remains unresolved. Do **not** call it Saber, a word-train bot, or Daycare. The attached image remains uninspected. The negative Saber-control search is a dead end unless changed/new evidence appears.
 
-Whiskey advanced from consumed `f52c9a7bfa93b5161b6162fbca30811a5ca2f6f3` to `456d1fdae05fb95dbea108097e322ed31193fe1b` after the opening census.
+The same miner package also deepens Mugen's continuity habit through Nothien: Lilith can have her account preserved during a known absence, Nelph can be told to `park it right there`, and Nothien can step away from Raja while keeping Discord/social continuity open. MAIN already owns that richer person-shaped synthesis, so WIKI did not mirror it again.
 
-The new material pushes **KOREA / Milk / `su.myeon`** back to a December 2020 Lobby doorway and gives the person read a much cleaner center: she is loose and reaction-heavy in delivery but surprisingly exact about the little things she notices.
+## Core Rooms — Ren's riddle genie has a fucking rulebook
 
-On January 28, 2021 she asks for her in-game styling **`『KOREA』`** because plain KOREA is **`Weird seeing it without the little things LOL`**, then immediately softens the request with **`if not it’s fine too~ thanks in advance`**. Exact preference, low-pressure delivery. That same pattern shows up socially: **`RV making me cute, I love`** gets Ren's **`We love you too cutie`**; Eos notices her ordinary work-lunch exit and says `byekorea`; and KOREA notices Ghoulie's absence through room habit rather than a relationship declaration: **`wall of shame aint the same without ghoulies daily posts there`**.
+The old missing February 2022 Officer dare is now identified: Ren opens with an elaborate red-carpet setup and asks what everybody's Raja-character autograph would look like, then supplies her own choco-mint/crayon example. In 2023 she brings the challenge back after changing her Raja name, showing that she personally liked the premise enough to reuse it.
 
-The suffix also adds a probable SHINee/Jonghyun `husbando` referent, mint-green approval, and **`Makes everyone suffer with my poorly made rolls`**. MAIN rebuilt `src/content/people/korea-milk.md` person-first, corrected its public era start from 2021 to 2020, and moved the small taste/embarrassment material into `Petty Crimes` rather than leaving the page as an event ledger.
+The surrounding riddle run is the more important Ren material. Her greetings mutate into `materialized stardust`, `crustaceans`, `baguettes`, and `juice boxes`, while the participation mechanics stay extremely clear: one reaction means check my answer, another means help, help goes to DM, no Googling, no public spoilers. When people start talking around an answer she redirects them to the signals; when Rummy supplies a puzzle Ren credits Rummy instead of swallowing authorship into the host role.
 
-The hard Milk split remains intact: KOREA/Milk is stable Discord ID `724114717182001284`; Miihi/Milk is stable Discord ID `253897195290361856`. Shared display words are not identity bridges.
+WIKI folds that into Ren's existing contradiction rather than making a second organizer personality: the same woman who put the wrong code on the spelling-Kahoot poster twice can run a recurring activity with clear routes, private help, anti-spoiler norms and contributor credit. **Clown delivery, real facilitation.**
 
-WIKI intentionally did **not** mirror the MAIN prose or manufacture a Whiskey Episode. The person-level biography is the stronger owner here, while WIKI keeps the source useful for structured Cast/reference expansion later.
+Other Core findings reviewed and retained for later canonical owners rather than dumped publicly in one pass: Amexistir/Chubi's Dec. 19→21, 2023 probable Officer-promotion path and consent-shaped discussion; WOO's listen-before-fixing care/reconnection style; Ricochet↔Snow's recurring Imelda/grandpa long-memory roast; canonical Gilli directly calling RyuuUzu her best friend and valuing his emotional validation; Oyasumi's unusually coherent dark-film/jewelry/fruit/ice-water/old-word taste profile plus quiet QOTD maintenance. Sparse Baby Lyssa/Boba crumbs stayed thin.
 
-Held from promotion: exact nickname-change fulfillment timing; why posting Jonghyun would make KOREA sad; the contents of Ghoulie's absent daily posts; the exact action behind Ren `making me cute`; the contents/appearance of the uninspected rolls attachment. `3 yrs old` at the 2020 doorway remains an obvious joke, not age evidence.
+## Daycare — Nothien already made it to MAIN before this close
 
-## MAIN publication result
+The new Daycare suffix strengthens Nothien as somebody who can initiate the activity and still need directions to the activity. `Fight, anyone?` gets Mugen volunteering; Nothien then asks `Where?` / `Am losttttt`; Gilli gives the Forging Swords route; Nothien says `Ohhh thank youuu` and moves on. Voice inconvenience also becomes text rather than disappearance.
 
-Reader commits in this pass:
+That contradiction and the 2023 `Underlords(?), Member(?), decently old` return were already integrated person-first on MAIN by concurrent work. WIKI intentionally did not breed a duplicate Nothien Episode merely because this integrator reviewed the same handoff.
 
-- Nothien person-first integration: `cad6163349b15b85bd142d402ec0f8f1675db97b`
-- KOREA person-first rebuild / final reader head: `cfacfcf4e0b726bfac6086111619cc13e716c9ee`
+The Jan. 13–18, 2023 Lobby quiet block remains channel-specific context only. MEE6 state is not first-arrival chronology. The Daycare search still does not identify the 279-hour bot.
 
-Exact workflow `33466085504` on `cfacfcf4...` passed **source canon/architecture verification, Astro build, built-output verification, and exact Cloudflare Pages deployment**. No publication debt remains for these two reviewed deltas.
+## Hard contradiction rejected this run
+
+The Mugen miner's stale line that treated GenGrey as the older pre-Raja friend and New as somebody who came later through GenGrey is rejected. Controlling canon is explicit: **New / Newmal / `_newplayer` is a man and belongs in Mugen's older pre-Raja online-family circle with Dean, Key, Zepp, Kal, and GenGrey.** A later recruitment/route connection through GenGrey does not define New's first meeting with Mugen.
+
+## WIKI publication result
+
+Reader-facing Run 107 work lives in `src/data/character-biographies-run107.ts` and is wired last in the biography resolver so the finished integrations win over older fallbacks.
+
+- Initial Erys + Mugen reader head `5b035159bb407c8939c55295bba200f4ca8254e6` passed Build `33466973791` and Pages `33466973804`.
+- Final reader head adding Ren's Core-room hosting deepener is `1aefbe858628eb0d20b013d1d094ae010abfe620`; Build `33467155906` passed and Pages `33467155904` passed.
 
 ## Surface split / duplicates combined
 
-- MAIN owns the richer Nothien and KOREA rewrites because both deltas materially deepen existing person biographies.
-- WIKI gets no duplicate reader paragraphs and no forced Episodes from these same receipts. Its route architecture already narrativizes non-dedicated Cast entries instead of exposing only role cards.
-- Existing Eos, Anthos and Panda/Ghoulie integrations from the immediately preceding pass remain valid and are not recopied here as new work.
-- All Characters HR's final Zoshaa refresh remains a successful no-public-change review: both surfaces already contain the stronger person-first version.
+- WIKI owns Erys's structured evidence-defense biography, Mugen's compact 279-hour bot-break character scene, and Ren's autograph/riddle-hosting deepener this run.
+- MAIN gets no mirrored copy of those WIKI sections. Its existing Mugen continuity synthesis and Nothien person-first page already own the complementary person-level stories.
+- Core's remaining high-value people/relationship findings are preserved backstage rather than being mass-appended as report paragraphs. They should be folded into their canonical owners when they materially deepen the existing person.
 
 ## Rails held
 
 - New remains in Mugen's older pre-Raja online-family circle; later GenGrey route evidence is not a first-meeting clock.
-- Anayss is the current Battle Leader / Underboss / Game Officer. Historical Ritha battle leadership does not restore her as current or date Anayss's appointment.
-- Zoshaa / NintendoShitcube is one person; Platelet status remains permanent canon.
+- Anayss remains current Battle Leader / Underboss / Game Officer; historical Ritha battle leadership is not current-role chronology.
 - Zyrcant = Akariel = Akariel™ = `akariel_star` remains resolved hard canon.
-- Baby Lyssa = Ghoulie and Marian = Panda remain resolved identities.
-- Akamin remains separate from Mere.
-- Rich / DragonRich remains distinct from Ricochet / `dragonrichard`.
-- Rooks remains separate from Cookie/Kuki and CookieStream.
-- Eli remains distinct from Waifu; pooled Deleted User is not Eli's resolved original ID.
+- Akamin remains separate from Mere. Rich remains separate from Ricochet. Rooks remains separate from Cookie/Kuki and CookieStream.
 - Joke affection, pet names, family language, flirting and fake offices do not become literal romance, biological family, governance or appointment chronology.
 - Earliest surviving evidence is not automatically origin.
 - SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct.
