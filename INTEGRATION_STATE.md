@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-01 01:45 PDT_
+_Last updated: 2026-09-01 02:24 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Older pass detail remains in Git history and MAIN's dated integration reports.
 
@@ -9,6 +9,46 @@ This is the current durable dual-surface reconciliation snapshot. Older pass det
 The person is the spine; events are supporting scenes; the archive stays backstage. MAIN owns the richest person/legend biographies, relationship texture, lived chronology, and `Petty Crimes`. WIKI owns the complementary searchable/reference layer: Cast dossiers, role progression, Relationships, Episodes, Running Gags, Quotes, Locations, Gallery/media notes, and person-first narrative where useful for lookup. The same source may appear on both surfaces only when it does a different job.
 
 Hard user canon, resolved identities, privacy/safety boundaries, explicit contradictions, appointment chronology, and attribution fences remain hard. Outside those rails, strong contextual reads about habits, relationships, humor, care patterns, ordinary life, reputation, and social roles may publish when more likely than not.
+
+## Run 122 — Whiskey / Jordayy
+
+Run 122 opened with the mandatory full census at **49 tracked miner identities = 28 active refs + 21 historical/missing refs**, with Whiskey as the only finite advanced branch visible to that census. It reviewed `archive-miner/whiskey-longitudinal-hourly` from `11482d5de7caca32652a8f5a39844140ddd9d1c4` through stable head `34ebe736c55af407a3f26ac21bb4bb49cde9246e`, checkpoint-first and intake-only, reading all nine changed handoffs and no raw archive payload.
+
+While Run 122 was publishing, the next independent census detected a new All Characters HR suffix at `1492041b6ffe5eed41465499c17ac7540b0930eb`. Run 122 does not steal that work from the concurrent pass: **All Characters HR remains the sole finite pending review**. Closing queue therefore stands at 49 tracked identities, 28 active refs, 21 historical/missing, **1 pending review, 0 backlog, 0 overdue**. Wall remains recovery-open but current through `af308f5cd377280ef596ff456f10dec330261dec`; both Club-Only recovery priorities remain current.
+
+### Jordayy — presence can shrink without snapping
+
+The useful Whiskey read is not “quiet member.” Jordayy says `I like reading yalls conversions`, then later names her own disappearing/reappearing rhythm, repeatedly announces naps/sleep/work limits, and still finds smaller modes of staying socially attached. The cleanest version is already in bed while arranging to have her Dragon Raja `corpse dragged` along. Low energy changes **how** she participates; it does not automatically mean low investment.
+
+That became a richer MAIN biography rather than another receipt ledger: ordinary chores, package-redelivery fury, dog logistics, sleep/work interruptions, screen-share boundaries, dramatic haircut wording, and the corpse-dragging line now accumulate into one person-shaped read. `Petty Crimes` gets the small nonsense instead of turning every domestic sentence into an Episode.
+
+### Jordayy ↔ Ghost — recognition itself becomes the bit
+
+January preserves `I still want breakfast Ghost`, with the original premise gone. More importantly, Jordayy then repeatedly announces Ghost's arrival across March, April, and May with stretched variants of `Is ghooooost`. Ghost mirrors the grammar once with `Is lunaaaa` less than a minute after the March greeting.
+
+The recurrence supports a small relationship dialect: one person arrives, the other turns recognition into a ceremony. It does **not** establish a closeness rank, technical Discord reply edge, or a global `Jordayy = Luna` alias. `Luna` remains a probable scene-specific address only.
+
+Run 122 also corrected a stale WIKI Cast-card overreach. The old card had quietly drafted Ghost into Jordayy's January dog-cuddle request because a separate next-day breakfast-Ghost callback survived nearby. The dog-cuddle addressee is actually unresolved. The live card now keeps the real repeated Ghost greeting pattern and releases Ghost from historical canine labor he was never proven to have accepted.
+
+### Held / attribution rails
+
+- Jordayy's January dog-cuddle addressee remains unresolved.
+- The older breakfast-Ghost premise remains unresolved.
+- The person/activity/mechanic behind `get my corpse dragged in DR` remains unresolved; the line is not medical evidence.
+- `Sama` in the haircut pocket remains unresolved.
+- `Luna` / `lunaaaa` is contextual-high for the March mirrored greeting but is not a stable alias bridge and cannot merge Jordayy with HyaLuna/original Luna or any other Luna/Loona account.
+- The H1 media index omits text-only messages and lacks raw reply/edit objects, so it cannot establish global activity frequency or technical reply relationships.
+- No media pixels were inspected. `POSTED BY` / `MADE BY` / `CAPTURED BY` / `FEATURING` remain separate.
+
+### Surface routing
+
+- **MAIN:** `src/content/people/jordayy.md` was rebuilt as the richer person-first biography at `9d62090d8ce617e91e981b19d226478c739c0b8d`. Exact workflow `33491253148` passed source canon/architecture verification, Astro build, built-output verification, and exact Cloudflare production deployment.
+- **WIKI:** `src/data/character-biographies-run122.ts` adds the complementary structured Jordayy dossier; `character-biographies-run114.ts` routes it through the active resolver. Routing head `451b7a70ce2b2f879c9a3a7e86945327d310900a` passed Build `33491361199` and Pages `33491361205`.
+- **WIKI Cast correction:** `b74be891f598d9c3075f9dc5f2ee3ec36a0c16c6` removes the unsupported Ghost dog-duty assignment and makes the card about the actually recurring stretched-name recognition dialect. Build `33491801873` and Pages `33491801841` both passed.
+
+### Consumption
+
+`archive-miner/whiskey-longitudinal-hourly` is consumed through `34ebe736c55af407a3f26ac21bb4bb49cde9246e`. A recheck after publication found the miner still on that exact head. The concurrent All Characters HR suffix remains pending for the next pass; Run 122 does not mark it consumed by proximity.
 
 ## Run 121 census / intake boundary
 
