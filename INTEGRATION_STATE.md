@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-01 04:14 PDT_
+_Last updated: 2026-09-01 04:50 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Older pass detail remains in Git history and MAIN's dated integration reports.
 
@@ -9,6 +9,39 @@ This is the current durable dual-surface reconciliation snapshot. Older pass det
 The person is the spine; events are supporting scenes; the archive stays backstage. MAIN owns the richest person/legend biographies, relationship texture, lived chronology, and `Petty Crimes`. WIKI owns the complementary searchable/reference layer: Cast dossiers, role progression, Relationships, Episodes, Running Gags, Quotes, Locations, Gallery/media notes, and person-first narrative where useful for lookup. The same source may appear on both surfaces only when it does a different job.
 
 Hard user canon, resolved identities, privacy/safety boundaries, explicit contradictions, appointment chronology, and attribution fences remain hard. Outside those rails, strong contextual reads about habits, relationships, humor, care patterns, ordinary life, reputation, and social roles may publish when more likely than not.
+
+## 2026-09-01 04:50 PDT — Wall + Core Rooms + Mugen close
+
+The mandatory full miner census remains **49 tracked identities = 28 active refs + 21 historical/missing refs**. Three tails advanced after the prior close and were reviewed checkpoint-first / intake-only: Wall `1c2104e2… -> 74434e58…`, Core Rooms `cd8d1783… -> eeaeec06…`, and Mugen person-first `b1bf2c95… -> 383ccfb3…`. After successful reader verification, all three consumed boundaries advanced to those current heads. There is **0 finite pending review, 0 pending publication, 0 backlog, and 0 overdue**. Wall remains `recovery_in_progress` only for future movement. Both Club-Only recovery priorities remain current: 2021–2026 through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`; 2020 through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`.
+
+### Wall
+
+**Zhēnxī / rhymethero** graduates to a MAIN person page rather than a WIKI Episode. Her surviving Wall arc is unusually clean: in May 2021 Ren tags her and receives `NOOOOOOOOOOO` six seconds later plus `NOT THE WALL OF SHAME FAME`; peer wording immediately turns the embarrassment into a speedrun. In June 2022 Rummy files her and then directly replies to Zhēnxī's `NOOOOOO` with `I love YoU`; Zhēnxī answers `I love you too`. In July Zhēnxī becomes the filer herself, posts a screenshot, tags Ren with `so uh-`, laughs at `STAWP`, and calls the filing `Deserving`. MAIN owns the rich defendant-to-willing-prosecutor biography. WIKI does not duplicate it merely because the source can be indexed.
+
+Candy's repeated `Wad00` / `Wad0.0` reaction dialect was already public and is treated as corroboration. Scar's exact Tofu parent is now recovered as `@Cookies and Juicebox IS A COCHINO!`, but Scar's existing public page already owns the stronger premise-planter / threatened-exposure mechanism; no duplicate incident paragraph was manufactured. q8/q13 and uninspected-media attribution remain open.
+
+### Core Rooms
+
+MAIN now owns new person-first biographies for **Grim Raven** and **Clotho Fate**. Grim's recurring self-description is the useful contradiction: cold/aloof/calm/collected/silent presentation, warmth once comfortable, rational advice that may need a hug attached, and gothic/black/tech/cyberpunk styling strong enough that `kindness and wisdom concealed by edginess` becomes his own boba thesis. Clotho pairs the fantasy self-image of a quiet `cosmic matchmaker` weaving threads around love with a very practical emotional rule: grudges cost the holder, so she tries to forgive or let go before sleep without confusing forgiveness with condoning or forgetting. Health/diagnosis-adjacent material remains excluded.
+
+WIKI gets the relationship-shaped addition instead: **Zoshaa ↔ Ren** now has direct reciprocal continuity, not merely later Orb shorthand. A September 2020 access scene has Ren notice the problem before Zoshaa makes a big announcement and apparently help without ceremony. In February 2022 Ren directly answers Zoshaa's quiet-to-loud self-history with `I love you Orb, you’re the best chaos friend I could have ever asked for`. In March Ren reuses Zoshaa's own long-neck-bug nonsense in a wake-up summon, then greets her with `I GIB HUG`; mutual color descriptions later cast Zoshaa as calming/comforting/lively/creative/mature and Ren as bright/warm/welcoming, while Ren's hypothetical-team answer includes Zoshaa among `my people` / `funsies and besties`. This is reciprocal friendship, remembered-bit fluency, and shared relationship language. It is not romance, literal family, a formal friendship start date, or proof Ren single-handedly caused Zoshaa's social confidence.
+
+Reader head `1125216c25bcddd50710bd953a03441fe32e572e` passed Build workflow `33504257047`; Pages workflow `33504257085` also succeeded, including build, actual GitHub Pages deploy, and report jobs.
+
+### Mugen person-first
+
+The Nov. 25, 2020 reciprocal-care pocket is accepted but produces **no new reader paragraph** because MAIN already owns the stronger person-shaped version: Braindead tells Mugs to sleep, Mugen resists, concern continues, Shiya turns the care into the `Taking mugs to bed` premise, Mugen answers `dont droptjme`, and Sou offers `shell sleep if you sleep`. The new tail is backstage reconciliation / raw-object debt, not an excuse to breed the same care mechanism again. Exact IDs, reply topology, and GIF maker/subject remain unresolved.
+
+**Hard-canon rejection:** the miner-local attempt to say `GenGrey, not New` is pre-Raja is rejected again. User-confirmed canon remains that **New is male and was already in Mugen's older pre-Raja circle alongside Dean, Key, Zepp, Kal, and GenGrey**. New later being recruited through GenGrey is a later route inside an existing network; it is not his first-meeting date and does not appoint GenGrey to a formal Recruiter office.
+
+### Surface ownership / consumption
+
+- MAIN reader head `9794a7d104fa985da6aa12dce16a97a90f6090f5` adds Zhēnxī, Grim Raven, and Clotho Fate and routes them through the membership-unconfirmed / visitor public-profile shelf without inventing formal titles. Its exact workflow `33504133661` passed source canon/architecture verification, Astro build, built-output verification, and exact-commit Cloudflare deployment.
+- WIKI reader head `1125216c25bcddd50710bd953a03441fe32e572e` deepens Zoshaa/Ren relationship continuity and passed the separate Build + Pages deployment suites above.
+- Wall consumed through `74434e5898c32402ce05ca93bf5c7bcf7cd2f107` and remains recovery-open only for future movement.
+- Core Rooms consumed through `eeaeec06ae36839b5f0de3197fbfe322964db0a6`.
+- Mugen person-first consumed through `383ccfb3e2bef79802f5f56186e97d4f65398744`.
+- Grim Raven, Clotho Fate, and Zhēnxī are intentionally MAIN-only this pass because their accepted delta is rich person/temperament/ordinary-life biography material, not independent role progression or Episode machinery.
 
 ## 2026-09-01 04:14 PDT — census-only close
 
