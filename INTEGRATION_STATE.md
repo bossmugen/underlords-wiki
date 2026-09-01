@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-01 17:05 PDT_
+_Last updated: 2026-09-01 17:12 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Older pass detail remains in Git history and numbered `INTEGRATION_STATE_RUN_*` snapshots. MAIN's controlling branch-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`.
 
@@ -12,7 +12,7 @@ Hard user-confirmed canon, resolved identities, privacy/safety boundaries, expli
 
 ## Current close
 
-Mandatory miner census: **49 tracked miner identities = 28 active refs + 21 historical/missing**, **0 newly discovered**, **0 finite pending review**, **0 pending publication**, **0 backlog**, **0 overdue**. Core Rooms advanced again during closing review and is now reviewed through `866ddaf58e7b4fb49b45d5669cdb6b535c219aed`. Mugen person-first is current through `ffcf219811639e4b457bca8c883f56101e4920ae`. Wall remains `recovery_in_progress` only as a future-open quarry and is current through `fde9cc3ffe533690b6fb3ef49b3c18fd529d62ff`. Club-Only 2021–2026 remains current through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`; Club-Only 2020 remains current through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`.
+Mandatory miner census: **49 tracked miner identities = 28 active refs + 21 historical/missing**, **0 newly discovered**, **0 finite pending review**, **0 pending publication**, **0 backlog**, **0 overdue**. Core Rooms advanced twice during closing review and is now reviewed through `b33071fb5e732735db5c16b7a3bef3d580cccd55`. Mugen person-first is current through `ffcf219811639e4b457bca8c883f56101e4920ae`. Wall remains `recovery_in_progress` only as a future-open quarry and is current through `fde9cc3ffe533690b6fb3ef49b3c18fd529d62ff`. Club-Only 2021–2026 remains current through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`; Club-Only 2020 remains current through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`.
 
 ### Run 174 — Kiro was doing the people-work before the title; Jas stays Messire while doing an actual favor; Snow's filing witness gets corrected; Alkey waits for the second punchline
 
@@ -30,7 +30,7 @@ A separate Alkey defense beat addresses the account rendered `༯`. The miner ke
 
 ### Late Core 16:40 people pass
 
-Core moved again after the first close, so the new `aea708f0 → 866ddaf5` suffix was reviewed checkpoint-first and consumed rather than left as tomorrow's fake backlog. It is strong character material but deliberately **no-public-change** this cycle:
+Core moved again after the first close, so the substantive `aea708f0 → 866ddaf5` suffix was reviewed checkpoint-first and consumed rather than left as tomorrow's fake backlog. It is strong character material but deliberately **no-public-change** this cycle:
 
 - porgo! distinguishes Sye being `scary` from being `uncomfortable`, then likely describes the feeling as trying to impress a parent. That supports approval pressure coexisting with comfort/positive regard. `parent` remains metaphorical and the final referent stays probable/high, not structurally explicit.
 - Chubi and Ansun recognize each other through stretched-name calls, `You're still here, I'm chibi hahaha`, a white-heart reaction, and `hiii chibiiii~`. That is relationship continuity after sparse surviving activity, not Officer execution or an exact absence duration.
@@ -38,7 +38,9 @@ Core moved again after the first close, so the new `aea708f0 → 866ddaf5` suffi
 - Katmars repeatedly chooses puzzle-solving as relaxation and names illustration/painting/sewing as a dream cluster: a good solver/maker seed, still developing.
 - Hic/Kiro and Ansun gain named affinity through `best boi (rel)` and the dessert-pizza compliment exchange, but not yet the care/trust mechanics needed to reshape Kiro's stronger relationship section.
 
-porgo!, Chubi, and Amexistir do not yet have canonical MAIN shelves; forcing one or two receipts into brand-new biographies would make them flatter, not richer. WIKI likewise does not create standalone Episodes because the miner itself routes these scenes as relationship/profile evidence. The no-public-change reasons are durable; the consumed Core boundary is now `866ddaf5`.
+porgo!, Chubi, and Amexistir do not yet have canonical MAIN shelves; forcing one or two receipts into brand-new biographies would make them flatter, not richer. WIKI likewise does not create standalone Episodes because the miner itself routes these scenes as relationship/profile evidence. Katmars remains developing; Kiro/Ansun remains banked affinity rather than a new relationship thesis.
+
+Core then advanced again from `866ddaf5 → b33071fb`. That suffix adds only the compact live checkpoint, full 16:40 checkpoint delta, profile candidates, and explicit incident/media non-promotions for the same already-reviewed evidence family. No new human mechanism appears. It is still consumed through `b33071fb` so bookkeeping does not become tomorrow's fake lore.
 
 JumanjiBinx's sole authored Wall `Yes` remains too thin for a personality page. Crystalia's sparse `Woah` likewise stays unpromoted. Unhealthy retrieval zeroes remain source-health problems, not negative evidence. The final Mugen suffix to `ffcf2198` changed checkpoint/source-frontier state only and added no second public mechanism; it is nevertheless reviewed and consumed.
 
@@ -48,7 +50,7 @@ No raw archive was reopened. No miner branch was merged or cherry-picked wholesa
 
 The first Run 174 reader boundary passed its existing exact-head checks: MAIN `e792760f3ed1c1158a183d893c06214d9e3393d6` passed workflow `33571988191`, and WIKI `386cd13185a9e4712454a546214afc98e7534c14` passed Build `33572058762` plus Pages `33572058732`.
 
-A late reconciliation correction then added the hard-canon Kiro routing on both surfaces: MAIN Kiro commit `53acc7277b8bbd0162b4dda6a1803bed9b35bf43`; WIKI Kiro commit `8acab75c3cc28b0422312bfed768cd3c352cd2f5`. MAIN's controlling ledger was corrected so Core no longer treats Hic as unresolved and now consumes the later review-only Core suffix through `866ddaf5`.
+A late reconciliation correction then added the hard-canon Kiro routing on both surfaces: MAIN Kiro commit `53acc7277b8bbd0162b4dda6a1803bed9b35bf43`; WIKI Kiro commit `8acab75c3cc28b0422312bfed768cd3c352cd2f5`. MAIN's controlling ledger was corrected so Core no longer treats Hic as unresolved and now consumes the entire 16:40 family through `b33071fb`.
 
 Exact final publishing-head workflows are re-run after this state correction. The reviewed miner boundaries do not change during that verification pass.
 
