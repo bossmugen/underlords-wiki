@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-08-31 22:14 PDT_
+_Last updated: 2026-08-31 22:30 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Older pass detail remains in Git history and MAIN's dated integration reports.
 
@@ -10,70 +10,51 @@ The person is the spine; events are supporting scenes; the archive stays backsta
 
 Hard user canon, resolved identities, privacy/safety boundaries, explicit contradictions, appointment chronology and attribution fences remain hard. Outside those rails, strong contextual reads about habits, relationships, humor, care patterns, ordinary life, reputation and social roles may publish when more likely than not.
 
-## Run 111 branch census / consumption boundary
+## Run 112 branch census / consumption boundary
 
 - **49 tracked miner identities = 28 active refs + 21 historical/missing refs.** No new branch identity appeared.
 - **0 finite pending-review tails, 0 backlog, 0 overdue.**
-- Core Rooms advanced from `db6dbdd0885abdf4ce6e9d00c1803715e078c4a2` to `14d900d59169416531c57600d99f8efa3adabf3e` and is now reviewed/consumed through the exact current head.
-- Wall recovery remains reviewed/consumed through `f726ca7d1c66b2c9c88564fe6aa1577961bffac6`; recovery stays open only for future movement.
+- The only advancing active branch was `archive-miner/whiskey-longitudinal-hourly`, from consumed `87a13fd5d3f27e8f6b468db86f304d2cff0680f6` to exact current head `25484a5b469d229a42e761ab9bc959a468fa6d9d`.
+- Whiskey was reviewed checkpoint-first and only through its changed intake handoffs. After both public surfaces passed their verification/deployment gates, the branch was rechecked at exact head and consumed through `25484a5b469d229a42e761ab9bc959a468fa6d9d`.
+- Wall recovery remains current through `f726ca7d1c66b2c9c88564fe6aa1577961bffac6` and stays open only for future movement.
 - Club-Only 2021–2026 remains current through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`; Club-Only 2020 through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`.
-- Daycare remains current through `0b2e66fee1a9a93f597bec03e758f0201c66f708`; Mugen person-first through `94ed4518c27a908111693a682d34b300fade366a`; Whiskey through `87a13fd5d3f27e8f6b468db86f304d2cff0680f6`.
-- No miner branch was merged or wholesale cherry-picked. Core was reviewed checkpoint-first and only through changed intake handoffs.
+- No miner branch was merged or wholesale cherry-picked.
 
-## Ame — the work is visible before the title discussion
+## Nhou — the door can reset without making him a stranger
 
-The older WIKI biography said the appointment/promotion bridge was missing. Core Rooms supplied the missing direct sequence, and Run 111 replaces that stale gap instead of leaving the title floating above the person.
+The useful new material is not “Nhou joined twice.” Stable Nhou is already active in Lobby on May 11, 2020. On November 26 the Stripclub Bouncer issues another welcome; six minutes later Anayss says **`role assigned uwu wb! ^-^`**. Because the same account is demonstrably present months earlier, that is strong return/access-restoration language. The exact departure date, departure reason, and restored permission object are still unknown.
 
-On December 3, 2023, Snow raises Ame / Amexistir as somebody worth **watching** for officer potential while explicitly not wanting to pressure him immediately after his return. On December 19 Snow comes back with behavior rather than vibes: he has been seeing Ame help a lot in the club and be very active. Sye separately remembers that Chibiterasu may have declined before; Noether's answer is the useful little brake pedal: **`ask them if they want`**.
+March 15, 2021 produces another doorway. The Bouncer sends the intake prompt again; thirty-six seconds later Nhou answers with his name and **`underlords`** as the club. There is no surviving human `wb!` attached to this one and no member-event log resolving the plumbing, so WIKI does not call it a proven second literal rejoin. It is another real onboarding/access trigger with continuity in Nhou's own answer.
 
-Two days later Snow welcomes Amexistir into the officer room and Wolf welcomes Ame and Chibiterasu. The next morning Ame posts **`Tysm n.n`** there. That is strong contextual acknowledgment, not a fabricated formal acceptance sentence; the export does not preserve a direct reply object. By January 2024 Snow is inviting Ame to bring his alliance thoughts into officer discussion. No Ame-authored alliance response survives in the assigned slice, so this does not become Minister of Foreign Affairs fanfic.
+Then June gives the perfect anticlimax: Nhou is in Whiskey saying **`Morninggg`**. No comeback speech. No identity reset. The administrative machinery keeps having episodes; Nhou keeps behaving like his place is ordinary.
 
-Current canon still files Ame as **Game Officer**. Generic promotion language and officer-room access do not create a separate full-Officer rank or backdate the current appointment. The lived-role story is enough: usefulness gets noticed before the title discussion, pressure is deliberately kept low, and once he is inside the room his thinking is treated as worth hearing.
+That pattern fits the rest of his dossier. Nhou's surviving social voice is compact: one line can puncture a status update, turn serious register into nonsense, notice that the room has emptied, or carry old-house shorthand somebody else immediately understands. His own belonging gets very little ceremony.
 
-MAIN owns the richer biography version; WIKI keeps the role progression compact and searchable.
+## Petty Crimes / relationship texture
 
-## Nothien — friendship has an application process and apparently a loophole
+A May 15, 2020 honorific riff now has the correct scale. Nhou calls Mugen **`Mugs chan senpai`** and shortly afterward says the bit reminds him of *K-On!* / `sawa chan sensei`. That supports likely *K-On!* familiarity and anime-reference fluency. It does **not** create a literal senpai hierarchy, special governance relationship, family role, or favorite-anime field.
 
-Nothien finally has enough self-description to move beyond the excellent old `Fight, anyone?` → `Where?` → `Am losttttt` arc.
+The Mugen relationship is better shown through recognition than labels. She recognizes Nhou's work-brain language quickly enough to tell him he needs to go home; later they can turn coffee enemas into a cafe menu without translation. Anayss likewise handles access and affection in one sentence at the November return. These are lived interactions, not closeness rankings.
 
-Asked how they support people, Nothien answers: **`If you're not good with words like me, just stick around, show them you care, cook them some comfort food`**. A week later they admit their `friend bar` may be too high and say friend status usually takes a couple years — then immediately reveal the exploit: **`sometimes they Speedrun it by claiming me as their friend and they get tentatively put there`**.
+The dedicated Nhou dossier keeps the other contradictions already worth having: compact chat voice versus a visually expansive 2021 Photo Submissions file, social one-liners versus attention to when a room has gone quiet, current Staff status without inventing appointment chronology, and the existing dark-mode vampire offense under `Petty Crimes`.
 
-The combination is the character. Nothien is cautious about the label without being stingy about care. `Couple years` stays a self-described tendency, not a universal chronology for every relationship, and the assigned slice still does not identify a named person who definitively cleared the full bar.
+## Surface split
 
-The same QOTDs add deliberate work/play separation, low-theater anger language, and excellent `Petty Crimes`: proposed dancing technique **`doing the gecko`** against a wall, anti-tomato sentiment, and a villain plan to steal pizza crusts. Work-hour jokes remain ordinary-life self-description, not a profession or diagnosis.
+MAIN owns the richer human story in `src/content/people/nhou.md`: the return/disappearance pattern is folded into the biography as **the door can reset; Nhou doesn't**, with the honorific/*K-On!* riff living under `Petty Crimes`.
 
-MAIN owns the fuller story; WIKI now carries the complementary lookup-friendly character shape.
-
-## Kiro — put a person on the other side of the Send button
-
-MAIN's existing Kiro biography already had the important interior line: ordinary interaction used to be something he could overthink all the way down to whether to press **Send**, and familiarity with `our fam` made that friction matter less.
-
-Run 111 gave that arc a recurring concrete counterpart. In 2023 Hic can offer `logistic services in wigs and edges` and Mugen answers **`Designated slayyyer`**; he can post **`Nuts`**, get **`you`**, return with **`Me`**, and receive hearts; he can also dump a full character essay and Mugen answers **`A full ass essay and I'm here for it`**.
-
-MAIN now shows what the lower-friction register actually looks like with Mugen specifically: one word or the entire essay, the message lands without Kiro having to translate himself into a safer voice first. This does **not** claim Mugen caused Kiro's entire comfort shift, and surrounding adult joke language does not become romance/sex. WIKI does not mirror the prose.
-
-## Strong material banked instead of multiplied
-
-- **DiStratus / Torr ↔ canonical Gilli:** repeated `same person` / `twins` language plus shared-fault/friendship discussion makes Gilli one concrete social click for DiStratus. The language remains figurative and does not prove Gilli occupies DiStratus's highest trust tier. A later unrelated account rendered `Gilli` (`702298276556308480`) remains a separate person/account.
-- **Aeshleen:** the 2023 Mugshots/profile-picture package strongly supports an aesthetic-recognition habit: she repeatedly sees an image and maps its vibe onto somebody she knows. Aesh is POSTED BY only for those images; source artist/maker remains unresolved. The material is banked for a future character fold rather than added as another receipt paragraph tonight.
-- **Erys, Grim Raven, Seth:** useful seeds/corroboration, but not stronger than current public character reads yet.
+WIKI keeps the same evidence as structured character continuity: the November return is separated from the unresolved March doorway mechanism, relationship recognition is explicit, current Staff remains status rather than personality, and the return sequence stays inside Nhou's dossier instead of becoming a standalone Episode. The prose is intentionally not mirrored from MAIN.
 
 ## Open rabbits / hard rails
 
-- Chibiterasu's explicit acceptance sentence for the December promotion sequence remains unresolved. The room's own `ask them if they want` caution is preserved.
-- Nothien's named person who definitively crossed the multi-year friend bar remains unresolved.
-- Hic/Kiro's broader named relationship map beyond the demonstrated Mugen comedy/comfort lane remains open.
-- Aeshleen's visual-archetype habit needs recurrence outside the Mugshots/profile-pic context before being widened into a stronger cross-context trait.
-- Ricochet↔Snow non-joke trust search is exhausted in the assigned trio with no clean trust receipt; do not repeat that same search against the same source slice.
-- Oyasumi appointment language remains absent in the assigned trio; export-time/current role arrays are not chronology.
-- `NEMESIS JANE` has no authored messages/execution proof in this delta.
-- Xuseio source-art maker vs curator remains unresolved.
-- **Ame = Amexistir.** Do not resurrect the historical orphan `amexistir` person.
-- **Daya = Dayadream.**
-- **Zyrcant = Akariel = Akariel™ = `akariel_star`.**
-- **Rich / DragonRich is not Ricochet / `dragonrichard`.**
-- **Yassr is a man** and `Sniperwolfxx` is his locked alias. Stable `Sniperr_Wolfxx` is not merged into Yassr from resemblance alone.
-- Kiro is a full historical Officer / Pit Boss, not a Sniper. Current Ame remains Game Officer unless hard canon changes.
+- Original UL/server join date remains unresolved. May 11, 2020 is surviving pre-return presence, not guaranteed origin.
+- Exact departure date/reason before November 26 remains unresolved.
+- Exact role/permission restored on November 26 remains unresolved; `role assigned` is not appointment chronology.
+- March 15 mechanism remains unresolved; no second literal leave/rejoin is claimed.
+- The March intake contained an age field. That field was intentionally not propagated publicly.
+- H1 Whiskey media-index thinness is an access/source limitation, not evidence that Nhou was inactive.
+- *K-On!* familiarity is likely; favorite-series status is not claimed.
+- `Mugs chan senpai` remains joke honorific language, not governance, family, romance, or hierarchy.
+- Export-time/current role arrays remain non-chronological.
 - Joke affection, pet names, family language, flirting and fake offices do not become literal romance, biological family, governance or appointment chronology.
 - Earliest surviving evidence is not automatically origin.
 - SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct.
@@ -82,18 +63,12 @@ MAIN now shows what the lower-friction register actually looks like with Mugen s
 
 ### MAIN
 
-Reader changes landed in three existing biographies:
-
-- Nothien: `eba2062d30c61e120062f99fe681a54028ba50ef`
-- Ame: `d814cc983035837c4dde59d94e6900d78a39542c`
-- Kiro / final reader head: `18f78cd6d1940401c70ae1814f617ce9e1ef3fca`
-
-Exact MAIN workflow `33472593772` passed source canon/architecture verification, Astro build, built-output verification, and exact Cloudflare production deployment for final reader head `18f78cd6d1940401c70ae1814f617ce9e1ef3fca`.
+Reader commit `d7f814df4d373d22889cecdb1e21577df6e37a65` updates Nhou's person-first biography and backstage claims/anti-fanon. Exact MAIN workflow `33473533504` completed successfully: source canon/architecture verification, Astro build, built-output verification, and exact Cloudflare production deployment all passed.
 
 ### WIKI
 
-`src/data/character-biographies-run111.ts` adds the complementary Ame and Nothien narratives; `src/data/character-biographies-all.ts` activates the Run 111 overlay after the canonical Ame repair. Final reader head `dc5ade07b6606bb06d32071fb6416c249c3c732c` passed Build Underlords Wiki `33472520150` and Pages deployment `33472520162`, both successfully.
+Reader commit `8d3f7d33b65889a5fc479ca58ea845186c5c0878` rewrites the dedicated Nhou narrative dossier in place rather than adding another overlay or Episode. Build Underlords Wiki `33473593903` completed successfully. Deploy Underlords Wiki Preview / Pages `33473593928` completed successfully through build, deployment and report.
 
-## Surface split
+## Consumption result
 
-MAIN gets the fullest Nothien, Ame and Kiro person-shaped storytelling. WIKI gets the compact role/relationship/reference version for Ame and Nothien and deliberately does not duplicate Kiro's MAIN prose. DiStratus/Gilli and Aeshleen remain banked rather than converted into copy multiplication simply because a new handoff exists.
+Whiskey is reviewed and consumed through exact current miner head `25484a5b469d229a42e761ab9bc959a468fa6d9d`. No finite miner tail remains pending at this close. The quarry itself is not exhausted; Wall remains recovery-open and future Whiskey movement may still produce genuinely new person/relationship/ordinary-life material.
