@@ -11,7 +11,7 @@ export const mugenNarrativeCharacterBios: Record<string, CharacterNarrative> = {
         period: "Before Underlords",
         title: "Before Boss, there was Mugs",
         paragraphs: [
-          "UL did not invent Mugen's tendency to turn online relationships into long-lived family language. Before Dragon Raja there was another game and another circle: Dean, Key, Zepp, Kal, and GenGrey. Dean was already her online son and already called her `mum`. New belongs to the later part of that story: New was GenGrey's friend, met Mugen later, and eventually joined UL. When Anthos works on the Tumbleweed and writes `lets add dean to mugs then from there we can add cel and woo etc`, the room is not inventing Dean's placement. It is trying to draw something that already existed. The family map arrived after the family language. So did Boss."
+          "UL did not invent Mugen's tendency to turn online relationships into long-lived family language. Before Dragon Raja there was another game and another circle: Dean, Key, Zepp, Kal, New, and GenGrey. Dean was already her online son and already called her `mum`. Later material can still show New moving through GenGrey's side of that old social world without turning that later route into a first-meeting clock. When Anthos works on the Tumbleweed and writes `lets add dean to mugs then from there we can add cel and woo etc`, the room is not inventing Dean's placement. It is trying to draw something that already existed. The family map arrived after the family language. So did Boss."
         ]
       },
       {
