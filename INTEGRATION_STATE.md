@@ -1,8 +1,8 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-08-31 19:22 PDT_
+_Last updated: 2026-08-31 19:35 PDT_
 
-This is the current durable dual-surface reconciliation snapshot. Older run detail remains in Git history and MAIN's dated integration reports.
+This is the current durable dual-surface reconciliation snapshot. Older pass detail remains in Git history and MAIN's dated integration reports.
 
 ## Current boundary
 
@@ -12,60 +12,59 @@ Hard user canon, resolved identities, privacy/safety, explicit contradictions, a
 
 ## Census / review boundary
 
-- Full census: **49 tracked miner identities = 28 active refs + 21 historical/missing refs; 0 newly discovered; 0 unreviewed active deltas; 0 backlog; 0 overdue**.
-- Wall recovery is consumed/reviewed through `378f0b3c05368bb12c7500d2801c9f4e93203499` and remains open only for future movement.
-- Daycare is now consumed/reviewed through `688ee26e142c3801aa9a0e2f15b9ff6db6c62fee` after its remaining MAIN person-first debt was published and verified.
-- Core Rooms is now consumed/reviewed through `65dc030b3c3d203d61c444baffd3cf8caa9f022d` after its remaining MAIN person-first debt was published and verified.
-- All Characters HR is now consumed/reviewed through `6b52b105995b5f4dffddee2581c3b7977adec043` after the final Nelph/Sye seam was published and verified on MAIN.
-- Mugen person-first remains consumed/reviewed through `79d8693e4259fa671599e9b25ad294dc4498e88c`.
-- Whiskey remains consumed/reviewed through `462bd18a02997a687582a10f7cf622a35d321632`.
+- Full census: **49 tracked miner identities = 28 active refs + 21 historical/missing refs; 0 newly discovered; 0 backlog; 0 overdue**.
+- Wall recovery has now been reviewed through `9e101549093e5807030eb8761dc10612c86553c7`; its new Panda/Ghoulie return seam is public and verified on WIKI. Keep the recovery quarry open only for future movement.
+- Mugen person-first has been reviewed through `c3848d9cbc15062b55b88c035c3e1f7d3d3f4757`. The final suffix explicitly produced **no new A/B Mugen person-level promotion**; generic `WASSAAAP`, Eos/EnyoCal setup and late-Wall material stay with the people who own those stories.
+- Whiskey has been reviewed through `f52c9a7bfa93b5161b6162fbca30811a5ca2f6f3`. Its Eos re-entry/person material is meaning-covered by existing public Eos work; the smaller frog/Sovieshu/anime/reaction texture remains supporting/Petty-Crimes-scale rather than another receipt paragraph.
+- All Characters HR is consumed through `6b52b105995b5f4dffddee2581c3b7977adec043`; Core Rooms through `65dc030b3c3d203d61c444baffd3cf8caa9f022d`; Daycare through `688ee26e142c3801aa9a0e2f15b9ff6db6c62fee`.
 - Both Club-Only recovery priorities remain current: 2021–2026 through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`; 2020 through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`.
-- **Finite pending review: 0. Publication-blocked branch families: 0. Backlog: 0. Overdue: 0.**
 - No miner branch was merged or wholesale cherry-picked; no raw archive was re-mined by the integrator.
 
-## MAIN-only person-first closures this pass
+## WIKI reader change — `Welcome home, panda`
 
-WIKI does not mirror these reader paragraphs because its structured dossiers already carry the relevant relationship/process side. MAIN had the richer-character hole.
+The late Wall suffix adds a small but excellent Panda/Ghoulie relationship scene. On June 4, 2021 Marian/Panda reappears; Baby Lyssa/Ghoulie answers within seconds with **`Welcome home, panda`**. Marian responds in panda emote language and acknowledges that he has been away a long time; Ghoulie answers with chaos emotes.
 
-### Eos — restraint is the setup to the crime
+The character value is in the timing and shared vocabulary. Ghoulie treats the appearance as a return, not an introduction. Panda immediately answers inside the same panda-language register. The scene therefore gives Panda disappearance/return texture and pushes peer-readable `panda` language earlier than the later Wizard101 costume spree. `Home` remains social-house language, not literal residence or biological/family status; the exact duration and reason for the absence remain unstated.
 
-The Daycare handoff fills the missing half of Marian's recurring `too vanilla` joke. Eos can care about the line and still cross it. On July 7, 2021 Eos posts Wall material, admits `Debating on sending more`, and Gilli answers `@Eos donit`. On September 6 Eos protests being caught with `WHYYY` and `I just randomly said it, god damn it`, then later posts another receipt.
+This was folded into Panda's WIKI biography rather than inflated into a standalone Episode. Reader commit: `28bd68cb6faedcab5f12a86a9352987a7605713d`. Exact reader head passed WIKI Build `33462903738` and Pages deploy `33462903757`.
 
-MAIN now treats those scenes as one contradiction instead of another event list: Eos hesitates, recognizes consequences, can be goaded by people comfortable enough to know the button, and can flip from embarrassed target to participant. Gilli's one-word goading is relationship texture, not formal authority. Attachments remain POSTED BY Eos only unless creator/capturer/subject evidence exists.
+## Wall forensic correction — ants are Sou's
 
-MAIN reader commit: `a932449edd4d6bc9db13fe072f94564257130699`.
+The same Wall suffix corrects a stale insect join. The November 4, 2020 sequence is:
 
-### Gabu — house maintenance disguised as `uwu`
+- Ren: `Ansun`
+- Ren: `I still got your grasshopper ss`
+- **Sou:** `and my ants?`
+- Ren: `Yeth`
 
-The front-door record now lives inside Gabu's MAIN biography as behavior. Reusable wayfinding, `The server map so you dont get lost`, `Hai welcome!!`, `Enjoy your stay!! uwu`, and the personal October 2022 Mia orientation show somebody who can be a menace when everybody knows the bit and a dependable housekeeper when a human actually needs directions.
+So the clean split is **Ansun = grasshopper receipt; Sou = ant receipt**. The exact Sou-ant incident/source remains unresolved. Do not fabricate an Ansun ant story, and do not confuse Ren's retained receipt with creator/capturer provenance.
 
-Mia later carrying similar house-map behavior into a 2023 welcome scene is treated as social continuity, not a formal mentorship or proven copy chain. The useful contradiction is that Gabu does not have to stop sounding like Gabu in order to do repetitive infrastructure.
+## Mugen suffix — successful no-public-change review
 
-MAIN reader commit: `1e6e40ed1dbb4ee8d49b5a04a5d50cd04bbabe76`.
+The final Mugen miner close through `c3848d9c...` explicitly says there is **no new A/B Mugen person-level promotion**. Fresh Core, Whiskey and Wall movement improves Nelph/Gilli/Ice Man Cree/Nuvel, Eos, Panda/Ghoulie and Sou rather than Mugen. The unresolved Dean raw join, Shy merger retrospective, Woosung/Nobu continuation and underfed 2024–2025 ordinary-life layer remain real rabbits rather than negative evidence.
 
-MAIN exact reader head `1e6e40ed1dbb4ee8d49b5a04a5d50cd04bbabe76` passed source canon/architecture verification, Astro build, built-output verification, and exact production Cloudflare deployment in workflow `33462061378`.
-
-## Other publication debt closed without duplicate prose
-
-- **All Characters HR:** the final Nelph/Sye mutual-credit seam is public on MAIN; the branch is consumed through `6b52b105...`.
-- **Core Rooms:** Nelph's action-oriented friction reducer / next-verb service and Gilli's social-switchboard wayfinding are public on MAIN; the branch is consumed through `65dc030b...`.
-- **Daycare duplicates:** Mia, Daya, Nobu and Aeshleen were already richer on public biographies; HamitteY was meaning-covered and did not need another receipt paragraph; Alaina remains too thin for a manufactured dossier; Eli remains distinct from Waifu.
-- Thin Ice Man Cree / probable `Crit` doorway familiarity and Nuvel access-relief texture remain supporting color rather than forced pages.
+One miner instruction is rejected as stale canon: its GenGrey/New chronology says New comes later through GenGrey. That is not controlling canon and must not be propagated.
 
 ## Hard chronology correction — New remains pre-Raja
 
-A prior WIKI integration-state edit regressed against the controlling canon lock. It is superseded here.
-
 **New / Newmal is a man and belongs to Mugen's older pre-Raja online-family circle with Dean, Key, Zepp, Kal, and GenGrey.** A later recruitment/route connection through GenGrey does not define New's first meeting with Mugen and does not remove him from that older circle.
 
-`CANON_LOCKS.md` is explicit that any claim equivalent to `New first met Mugen later through GenGrey` is non-canon. Do not resurrect that chronology from a miner handoff, stale integration state, or public/dormant narrative source.
+The MAIN canon lock and Mugen public biography have been repaired, and WIKI's Mugen narrative source was likewise repaired. A miner handoff that repeats the superseded chronology is a contradiction to reject, not a reason to split the difference in visible prose.
+
+## Surface split / duplicates combined
+
+- MAIN owns the richer Eos restraint-to-counterreceipt contradiction and Gabu house-map/Mia handoff; WIKI does not mirror those paragraphs.
+- WIKI owns the compact Panda/Ghoulie return deepener because Panda's dossier had the cleanest relationship/change-over-time hole; MAIN already has a substantial Panda biography and did not need another receipt paragraph this pass.
+- Whiskey's fresh Eos doorway/re-entry material overlaps existing MAIN Eos identity/onboarding texture and WIKI's Milo friendship/whale-conservation deepener, so it closes as corroboration/support rather than duplicate copy.
+- Mugen's fresh `WASSAAAP` and `welcome enyo!` fragments remain supporting-only because doorway warmth/routing is already saturated.
 
 ## Rails held
 
-- **New remains in Mugen's older pre-Raja online-family circle.** Later GenGrey recruitment/route evidence is not a first-meeting clock.
-- **Anayss is the current Battle Leader / Underboss / Game Officer.** Historical Ritha battle leadership does not restore her as current or date Anayss's appointment.
+- New remains in Mugen's older pre-Raja online-family circle; later GenGrey route evidence is not a first-meeting clock.
+- Anayss is the current Battle Leader / Underboss / Game Officer. Historical Ritha battle leadership does not restore her as current or date Anayss's appointment.
 - Zoshaa / NintendoShitcube is one person; Platelet status remains permanent canon.
 - Zyrcant = Akariel = Akariel™ = `akariel_star` remains resolved hard canon.
+- Baby Lyssa = Ghoulie and Marian = Panda remain resolved identities.
 - Akamin remains separate from Mere.
 - Rich / DragonRich remains distinct from Ricochet / `dragonrichard`.
 - Rooks remains separate from Cookie/Kuki and CookieStream.
