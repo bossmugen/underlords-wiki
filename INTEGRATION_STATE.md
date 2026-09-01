@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-01 16:14 PDT_
+_Last updated: 2026-09-01 16:17 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Older pass detail remains in Git history and numbered `INTEGRATION_STATE_RUN_*` snapshots. MAIN's controlling branch-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`.
 
@@ -21,6 +21,14 @@ The 16:14 PDT full branch census found every active miner HEAD exactly equal to 
 Accordingly this run makes **0 reader-facing changes on MAIN and 0 reader-facing changes on WIKI**, advances **0 consumed SHAs**, introduces **0 new findings**, requires **0 duplicate-family reconciliation**, and opens **0 new conflicts/rabbits**. No raw archive was reopened and no miner branch was merged or cherry-picked wholesale.
 
 The prior public/reconciliation boundary remains intact: Mugen's broad-sociability / narrower-trust-door read stays MAIN-owned; Tony's person-first Wall synthesis stays MAIN-owned while his WIKI shelf remains unresolved; Tofu/Cookie keeps Cookie as the strong-probable Wall referent rather than structural certainty; prior Ansun/Panda/Suzimasu/Beowulf and other person-first integrations remain unchanged rather than being restated here.
+
+## Verification / deployment
+
+MAIN exact census/state commit `309860c16cf6b808ef22f41eb633bb3efd85b929` passed workflow `33570242070`: source canon/architecture verification, Astro build, built-output verification, and exact Cloudflare production deployment all succeeded.
+
+WIKI exact state commit `1ae59f5e0a49281200490c25e865326f98392cd0` passed Build workflow `33570271954` and Pages workflow `33570271779`; both completed successfully.
+
+This state-only follow-up records those exact verification results. Its own exact-head workflows are expected to run from the push and do not change the no-delta reconciliation boundary.
 
 ## Carry-forward rails
 
