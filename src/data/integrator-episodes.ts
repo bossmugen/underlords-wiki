@@ -61,8 +61,17 @@ export const integratedEpisodes: Episode[] = [
     season: "2020",
     date: "November 4, 2020",
     kind: "Wall / voice-chat evidence avoidance",
-    logline: "ShiyaX tells Snow that if he would literally type, she could screenshot him onto the Wall. Snow answers `That is why i leave my best material in vc 😛`. Anthos immediately reviews the allegedly premium audio feed as `all u do in vc is monch`; Zoshaa objects that Snow still got on her case for eating `ONE(1) FREEZIE`. The joke is Snow understanding the Wall's evidence mechanics and claiming medium choice as self-defense; it is not a formal privacy policy, proof VC could not be recorded, or proof of the still-missing original freezie incident.",
-    cast: ["Snow", "ShiyaX", "Anthos", "Zoshaa"]
+    logline: "A separate stable Discord account then displayed as `Sou` tells Snow `snow if you would literally type so i could ss, you too could be on here too`; 23.553 seconds later Snow answers `That is why i leave my best material in vc 😛`. The response is not a structured Discord Reply, so the causal join is strong contextual rather than parent-linked. Anthos immediately reviews the allegedly premium audio feed as `all u do in vc is monch`; Zoshaa objects that Snow still got on her case for eating `ONE(1) FREEZIE`. The trigger account's identity remains unresolved and does not override the hard project identity lock Sou = Ansun for Ansun's canonical alias. Snow's joke is evidence literacy and medium-choice self-protection, not a formal privacy policy or proof VC could not be recorded.",
+    cast: ["Snow", "Anthos", "Zoshaa"]
+  },
+  {
+    id: "alkey-sees-all",
+    title: "Alkey Sees All, Slowly",
+    season: "2021",
+    date: "March 13 – April 8, 2021",
+    kind: "Wall timing / the punchline gets one more beat after everybody thinks it ended",
+    logline: "Baby Lyssa writes `you saw nothing`; Rooks answers `I SAW IT`; Alkey then sends `i` / `saw` / `all` as three messages across 1.725 seconds. Less than a month later Ren answers one of Alkey's height roasts with `I’m not uwu`; Alkey lets the denial sit for 1m41s and comes back with `3 foot lookin` plus an emote 1.899 seconds later. The recurrence is the useful part: Alkey can use pacing to turn somebody else's attempted endpoint into the setup for one more jab. The teasing does not establish Ren's literal height, and nearby Wall images remain visually uninspected unless separately joined.",
+    cast: ["Alkey", "Baby Lyssa", "Rooks", "Ren"]
   },
   {
     id: "raining-nude-bush-hours-retelling",
