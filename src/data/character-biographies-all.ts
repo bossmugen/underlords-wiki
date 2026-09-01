@@ -37,6 +37,7 @@ import * as moonModule from "./character-biographies-moon";
 import * as mugenModule from "./character-biographies-mugen";
 import * as nelphModule from "./character-biographies-nelph";
 import * as nemoModule from "./character-biographies-nemo";
+import * as newModule from "./character-biographies-new";
 import * as nhouModule from "./character-biographies-nhou";
 import * as nobuModule from "./character-biographies-nobu";
 import * as noetherModule from "./character-biographies-noether";
@@ -115,7 +116,7 @@ const finishedNarrativeModules = [
   alkeyModule, ameModule, anthosModule, chibiterasuModule, chibiterasuRun37Module, celeModule, cookieModule, dayaModule,
   feliModule, feliRun38Module, genGreyModule, ghosttModule, gilliModule, hanModule, hishiroCoreModule,
   hyalunaModule, illienModule, kaedeModule, keyModule, lanModule, lillyModule, lillyRun1306Module, miaModule,
-  momoModule, moonModule, mugenModule, nelphModule, nemoModule, nhouModule, nobuModule,
+  momoModule, moonModule, mugenModule, nelphModule, nemoModule, newModule, nhouModule, nobuModule,
   noetherModule, nuienModule, oyasumiModule, pandaModule, plateletModule, renModule, rithaModule,
   rooksModule, rummyModule, richModule, shikiModule, shiyaxModule, snowModule, suzimasuModule, syeModule,
   tenModule, tofuModule, xephyModule, yassrModule, yelikModule, yumiModule, zeppModule, zyrcantModule,
