@@ -1,10 +1,10 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-08-31 17:53 PDT_
+_Last updated: 2026-08-31 17:57 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Older run detail remains in Git history and MAIN's dated integration reports.
 
-## Current boundary — Run 97
+## Current boundary — Run 97 hard-canon correction
 
 The public-bio rule remains: **the person is the spine; events are supporting scenes; the archive stays backstage.** MAIN owns the richest person/legend biographies. WIKI owns complementary Cast dossiers, role progression, Relationships, Episodes, Running Gags, Quotes, Locations, gallery/reference structure, and person-first narrative where the route uses it. `Petty Crimes` is the catch-all; never `Trivia`.
 
@@ -28,45 +28,32 @@ The late Mugen person-first suffix supplied the independent comparator the earli
 
 The cumulative character read belongs primarily to MAIN: Mugen seems to distinguish an understood interruption from an ending. Lilith gets a saved place; Nelph gets a parking space. This is not a universal inactivity policy, permanent-membership guarantee, or literal house/property claim. Nelph's sensitive parent-message rationale remains backstage.
 
-MAIN integrated that pattern into the existing `away / gone` character arc rather than adding another chronological event paragraph.
+MAIN integrated that pattern into the existing `away / gone` character arc rather than adding another chronological event paragraph. WIKI did not manufacture a duplicate Episode from it.
 
-## Hard chronology repair — GenGrey / New
+## Hard chronology correction — New stays in the old circle
 
-Both public Mugen biographies had inherited stale wording that placed **New** inside the older pre-Dragon-Raja online circle.
+A concurrent Run 97 close briefly inverted a user-confirmed chronology lock after over-reading a later recruitment route. The correct canon is:
 
-Current hard canon is narrower: **Dean, Key, Zepp, Kal, and GenGrey** belong to Mugen's older pre-Raja circle. **New was GenGrey's friend, met Mugen later, and eventually joined UL.** GenGrey can later be New's bridge into UL without retroactively moving New into the original circle.
+**Dean, Key, Zepp, Kal, New, and GenGrey are all part of Mugen's older pre-Dragon-Raja / pre-Raja online circle.**
 
-WIKI therefore changed only the chronology in `src/data/character-biographies-mugen.ts`; it did not copy MAIN's richer Lilith/Nelph continuity paragraph. The same evidence family is doing different work on the two surfaces, as intended.
+Separately, New later remembers Mugen recruiting New through GenGrey in another setting. That is a later recruitment route, not a first-meeting clock. It does not move New out of the older circle.
 
-WIKI reader commit: `aff2b298a6456b56df68c04948c7c7d4097e5b2f`.
+MAIN's current visible Mugen biography is corrected. WIKI's active structured Mugen dossier was already compatible with the older-circle canon, but the dormant `src/data/character-biographies-mugen.ts` source had been moved in the wrong direction by commit `aff2b298a6456b56df68c04948c7c7d4097e5b2f`. It was restored by superseding commit `9777c4a0f069bfbfe68de7579d264ed41f95926f` so the bad chronology cannot reappear if that narrative source is wired back into the route later.
 
-That exact head passed:
-
-- **Build Underlords Wiki** run `33456161216` — success
-- **Deploy Underlords Wiki Preview** run `33456161190` — success, including Pages deployment
+This is a hard-canon repair, not a new public relationship theory.
 
 ## MAIN reader integration / verification
 
-MAIN's `src/content/people/mugen.md` replaced the stale New chronology in both frontmatter claim and visible biography, then folded Lilith + Nelph into one person-first continuity read.
+MAIN's current `src/content/people/mugen.md` has both parts of the accepted work in the right shape:
 
-MAIN reader commit: `7dd34a7f35c4a71cd567f7fe456432aebf2f3ea4`.
+- the older pre-Raja circle includes Dean, Key, Zepp, Kal, New, and GenGrey;
+- Lilith + Nelph are folded into one person-first `away` versus `gone` continuity pattern instead of separate receipt paragraphs.
 
-Exact workflow `33456043636` passed the complete required chain:
+The MAIN verification gate is healthy again. The earlier Damon visitor-index repair restored the full source-verification → Astro → built-output → Cloudflare chain, and the corrected Mugen chronology head also cleared the real pipeline rather than merely changing source.
 
-- source canon / architecture verification — success
-- Astro build — success
-- built-output verification — success
-- exact validated Cloudflare Pages deployment — success
+## Concurrent identity repair — Rich remains separate from Ricochet
 
-Mugen's miner consumption cursor is therefore allowed to advance through `ade8b985...`.
-
-## MAIN verification gate recovered
-
-The old pre-execution Actions failure is no longer the current condition. The verifier now runs and catches real errors.
-
-It first caught that public `damon.md` had fallen out of the categorized roster index. Damon is a Purgatory visitor/leader, not a UL member, so MAIN restored him to the VIP/visitor shelf at `a2afb1acb0a8b996092b7198390533c783c92136`. Exact workflow `33455490964` then passed source verification, Astro build, built-output verification and verified Cloudflare deployment.
-
-That means remaining MAIN publication debt is content work now, not a permanently dead runner.
+MAIN also corrected a separate identity bleed while Run 97 was closing: **Rich / DragonRich remains distinct from Ricochet / `dragonrichard`.** WIKI already had those identities separated and did not receive duplicate prose. Name resemblance does not do identity work.
 
 ## Carry-forward from Run 96
 
@@ -78,7 +65,7 @@ Daycare + Wall's HamitteY/Ghoulie screenshot ambush remains one evidence family,
 
 ## Remaining MAIN publication debt
 
-The named MAIN debt list is now **four families** because Mugen's accepted reader work cleared verification and deployment:
+The named MAIN debt list is **four families**:
 
 - All Characters HR
 - Core Rooms
@@ -89,8 +76,8 @@ Wall remains recovery-open with older complementary MAIN material, but the curre
 
 ## Rails held
 
-- GenGrey is in the older pre-Raja circle; New is later through GenGrey's side of the story.
-- Rich remains distinct from Ricochet.
+- **New remains in Mugen's user-confirmed older pre-Raja circle alongside Dean, Key, Zepp, Kal, and GenGrey.** A later recruit-through-GenGrey scene is not a first-meeting chronology.
+- Rich / DragonRich remains distinct from Ricochet / `dragonrichard`.
 - Anayss remains current Battle Leader; no appointment date was inferred from behavior or export-time/current role arrays.
 - Ritha remains retired historical Consigliere / Senior Advisor / Founder, not current Battle Leader.
 - Rooks remains separate from Cookie/Kuki and CookieStream.
