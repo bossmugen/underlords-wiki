@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-01 02:24 PDT_
+_Last updated: 2026-09-01 02:43 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Older pass detail remains in Git history and MAIN's dated integration reports.
 
@@ -9,6 +9,36 @@ This is the current durable dual-surface reconciliation snapshot. Older pass det
 The person is the spine; events are supporting scenes; the archive stays backstage. MAIN owns the richest person/legend biographies, relationship texture, lived chronology, and `Petty Crimes`. WIKI owns the complementary searchable/reference layer: Cast dossiers, role progression, Relationships, Episodes, Running Gags, Quotes, Locations, Gallery/media notes, and person-first narrative where useful for lookup. The same source may appear on both surfaces only when it does a different job.
 
 Hard user canon, resolved identities, privacy/safety boundaries, explicit contradictions, appointment chronology, and attribution fences remain hard. Outside those rails, strong contextual reads about habits, relationships, humor, care patterns, ordinary life, reputation, and social roles may publish when more likely than not.
+
+## Run 124 — Daycare / Wall reconciliation
+
+Run 124's mandatory census remains **49 tracked miner identities = 28 active refs + 21 historical/missing refs**, with **0 newly discovered, 0 backlog, 0 overdue**. This pass fully reviewed and consumed Daycare from `aac9ef12724b9f4330c57bf6834c48a884c91c36` through `9ba628e234b843a1f779608197c0c75395ce5b51` and the recovery-open Wall suffix from `af308f5cd377280ef596ff456f10dec330261dec` through `1c2104e20ec90d3217a4b32d93b260dd13904661`, checkpoint-first and intake-only. Two finite pending branches remain: All Characters HR `d0b90fd026df355722f834c6e0e50942218410c2 -> b1576dc4483124a1315f88c7de488e5e6db5060e` and Mugen person-first `2a0e3daf7f3ef141d0bfe5cd4f8fecda3e2116d3 -> 189b78ab1869aa2cc2a38c1b26a9c7b5c0e1181d`. Wall stays recovery-open only for future movement; both Club-Only recovery priorities remain current.
+
+### Woosung — the bot is part of the conversation
+
+Daycare adds a cumulative Woosung read rather than a new role or incident ledger. April 2020 already has WOO using the Lobby bot to catch a Budew. In September she types `eli kill` at Anthos; the bot generates the mock-kill result, then roughly twenty-four seconds later generates the affection turn, and WOO answers that hug/glomp beat **0.180 seconds later** with a love/party Tenor GIF. The pattern is not `Woosung uses bots`. The little server mechanisms become part of how she plays with people: tiny mechanical input, immediate social payoff, mock aggression allowed to flip affectionate without anybody filing an emotional reset form.
+
+The miner used stale he/him language. Hard canon controls: **Woosung is a woman and uses she/her pronouns.** Bot output is not prose authored by her. WOO **POSTED** the GIF; the archive does not establish that she made it. None of the command play is literal violence, hostility, romance, or relationship rank.
+
+MAIN folded the cumulative pattern into `src/content/people/woosung.md` at `f37e36509bb28c1a187396af3486f1f7ea986c25`. Exact workflow `33493278450` passed source canon/architecture verification, Astro build, built-output verification, and Cloudflare production deployment. WIKI intentionally keeps its current structured Woosung dossier rather than minting a second Episode: the dossier already owns the kill-to-affection social-play material and the separate Snow/K-pop persistence scene, so copying MAIN's new person-shaped prose here would blur the surface split.
+
+### Wall — review without breeding pages
+
+Lilly's new Wall suffix strengthens one already-public person pattern: she wants the live mess, complains `where is this convo why am i missing it`, then joins the screenshot filing once she catches up; on two separate dates she POSTS an artifact and directly summons Woohyuk shortly afterward. MAIN had already integrated that cumulative social style at `49ec3a27975264218d85f5fe4355d905d9632da9`; exact workflow `33492295157` passed the full MAIN verification/deployment chain. No duplicate WIKI Episode was needed.
+
+TonyTonyChopper / `yourlocalfiend` now has a promising change-over-time seam rather than scattered reactions. His first surfaced Wall prosecution gets `STOPPPP` and `WR DONT NEED TO SHARE THIS WITH THE WORLD`; peer wording calls it an almost immediate Wall-shaming speedrun. Tony nevertheless stays in the pocket, heart-reacts to Rummy's `*pat pat*`, answers Marian's `bad influence` joke, and two months later is participating in the Dragon Raja corpse-loss bit strongly enough to declare `You gotta be careful with bodies can’t just misplace them like that`. The useful read is embarrassment becoming participation: expressive mock resistance without social exit, then quick uptake of the room's absurd internal rules. It is banked as profile material / possible `Petty Crimes` (`Body Handling Compliance`), not inflated into a formal corpse role, literal body handling, or a thin standalone public page before another person dimension arrives.
+
+Torr's exact Rummy-pancake reply also adds a small domestic-memory beat: his family called grandma's repeatedly burnt special-occasion dinner biscuits `blackened`, and he deploys the story while somebody else's cooking failure is being laughed through. Good future person/Petty-Crimes material; not a broader family biography. The same Wall pass corrected the nearby q18 reply topology backstage: pooled Deleted User `1038447540544208957` is not Torr, Torr's own reply is `1038356553130057738`, and HamitteY/Anayss belong to a different parent thread. No retained-file mythology is inferred from the text-only correction.
+
+No media pixels were inspected in either Wall pass. `POSTED BY` / `MADE BY` / `CAPTURED BY` / `FEATURING` remain separate.
+
+### Consumption / surface routing
+
+- `archive-miner/daycare-2020-2026-hourly` is consumed through `9ba628e234b843a1f779608197c0c75395ce5b51`.
+- `archive-miner-wall-hourly-20260824` is reviewed/consumed through `1c2104e20ec90d3217a4b32d93b260dd13904661`; status remains recovery-open only because the quarry can still grow.
+- All Characters HR and Mugen person-first remain finite pending review and are not advanced by proximity.
+- MAIN reader change this pass: Woosung only. WIKI reader change: none, intentionally; WIKI's structured owner already covered the useful material.
+- MAIN durable branch-state head `e27daa9a6e15a0cc63edcb7cc688225775aff790` passed exact workflow `33493540304`, including source verification, Astro build, built-output verification, and Cloudflare deployment.
 
 ## Run 122 — Whiskey / Jordayy
 
