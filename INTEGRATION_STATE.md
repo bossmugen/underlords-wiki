@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-01 01:39 PDT_
+_Last updated: 2026-09-01 01:45 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Older pass detail remains in Git history and MAIN's dated integration reports.
 
@@ -76,4 +76,11 @@ Run 121 is a reconciliation-and-consumption pass rather than a reader-content re
 
 ## Verification / deployment
 
-This state commit is intentionally exercising the existing WIKI build/Pages workflow even though no reader content changed. The final run report records the exact workflow result after GitHub Actions completes. MAIN's final state/report commit likewise exercises source verification, Astro build, built-output verification, and the existing Cloudflare deployment path.
+The first Run 121 durable WIKI state head `d4f4548059a7a8d58bcdda0aec5cbfe0037f9fcd` passed the repository's existing checks cleanly:
+
+- **Build Underlords Wiki `33488452524`** — Astro build completed successfully.
+- **Deploy Underlords Wiki Preview `33488452915`** — preview build, Pages artifact, deployment, and final report all completed successfully.
+
+MAIN's corresponding durable state/report head `7b81e2c33aeb34419941e8039ec6b5719ec4b2e6` passed **UL Hourly Build + Deploy `33488385676`**: source canon/architecture verification, Astro build, built-output verification, and exact Cloudflare production deployment all succeeded.
+
+This follow-up only records those completed results; it does not add reader content. Its own exact-head WIKI build/Pages result is checked before Run 121 closes.
