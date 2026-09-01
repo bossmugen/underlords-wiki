@@ -33,6 +33,13 @@ export const ansunNarrativeCharacterBios: Record<string, CharacterNarrative> = {
         ]
       },
       {
+        title: "Running Gag — the daycare worker also runs bot torture",
+        paragraphs: [
+          "Daycare gives Sou one of the cleanest versions of his whole operating system because he literally names himself `the daycare worker` while blaming Jas for not feeding the children. The joke never replaces the job. He explains the room as somewhere the kids can be when the adults are busy, cheerfully admits `we invade alot LOL`, calls the room PG, and when a minor asks for one thread to stay clean he says so plainly and backs it with moderation. The boundary arrives in exactly the same voice as the nonsense around it. Sou does not become a different, more official person to protect the room; he just makes the rule legible enough that everybody knows where the line is.",
+          "Then the same man appears in announcements celebrating a 234-hour `first round of bot breakings` and immediately recruiting Staff for round two. The exact bot is still unresolved, and nothing here makes Sou its owner or maintainer. The character beat does not need that promotion. He can be the self-appointed daycare worker and the campaign foreman for an endurance test whose stated objective is apparently to make software give up first. Protective caretaker and organized-chaos administrator are not competing biographies. UL somehow found one man for both shifts."
+        ]
+      },
+      {
         title: "He likes the reaction, then pats you on the head",
         paragraphs: [
           "Sou is not subtle about enjoying a successful tease. In one 2020 exchange he says it himself: `i just like teasing you because I like seeing you cry, pat pat ill stop bullying you`. The line is practically a diagram of his social rhythm. First comes the incriminating confession — yes, the reaction is the fun part — and then, without dropping the joke voice, the soft landing arrives in the same breath: `pat pat`, followed by `ill stop bullying you`.",
@@ -62,7 +69,8 @@ export const ansunNarrativeCharacterBios: Record<string, CharacterNarrative> = {
           "Sou once typed `the toot of al evil LOL` and Ren's immediate instinct was to pin it. This is a reasonable summary of the relationship between Ansun and language: the sentence may fail mechanically, but if it fails hard enough it becomes furniture.",
           "He can also turn breathing into slander. One 2023 Wall reply — `You breathed and I'm sure air came out of both ends` — earns eight skull reactions even though the surrounding joke had already become more memorable than the original offense.",
           "The fake-jurisprudence register has range. `Tae said \"fuck\" July 12 2021` becomes a timestamped Wall case because it was allegedly directed at Ansun. Ants become another old file worth asking Ren about. And when the Wall tries to make *him* the exhibit, he simply calls it fame until everyone else has to live inside his version of the story.",
-          "He has also personally described the teasing workflow as `I like seeing you cry` followed, in the very same sentence, by `pat pat ill stop bullying you`. The prosecution keeps quoting the first clause. Sou keeps behaving like the second clause is why he should be released on his own recognizance."
+          "He has also personally described the teasing workflow as `I like seeing you cry` followed, in the very same sentence, by `pat pat ill stop bullying you`. The prosecution keeps quoting the first clause. Sou keeps behaving like the second clause is why he should be released on his own recognizance.",
+          "Runs the daycare. Also runs the bot torture bracket. Apparently the same résumé supports both."
         ]
       }
     ],
