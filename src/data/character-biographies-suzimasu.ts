@@ -42,11 +42,11 @@ export const suzimasuNarrativeCharacterBios: Record<string, CharacterNarrative> 
         ]
       },
       {
-        title: "RELATIONSHIP CONTINUITY — THE BOT CAN START OVER. THE PEOPLE DO NOT.",
+        title: "RELATIONSHIP CONTINUITY — BAD AT CHECKING IN, EASY TO RECOGNIZE",
         paragraphs: [
+          "The recurrence starts before the 2021 bot scene. In April 2020 Mob tells Snow **`I never check in so ya know w/pat`**; Gilli mirrors a pat back to Mob two minutes later. On June 14 the same stable account surfaces with `Hey`, Mugen immediately answers **`heey suzi welcome back!`**, and Gilli follows with `Suziiiii`. The doorway is doing social history without a formal roll call: low-frequency contact is already something Mob can joke about, and return recognition is already automatic.",
           "In May 2021 the Stripclub Bouncer greets the stable Mob | BAPE account with the ordinary newcomer script. Ren immediately ignores the machine's amnesia. **`UwU Sushiii`** comes first, Suzimasu answers with an emote, then Ren gives the line that actually describes the social situation: **`Welcome home~`**. A moment later comes `You know you ways` before the server tour continues anyway.",
-          "Software begins from zero; the people resume mid-sentence. Ren's language carries familiarity, and Suzimasu does not perform a fresh introduction because nobody human in the exchange seems to require one.",
-          "That pattern is useful later too. Suzimasu does not need a large volume of surviving messages to feel socially established. Sometimes the stronger clue is how little explanation everybody needs. An emote can answer a greeting because the relationship is already there to carry the rest."
+          "Software begins from zero; the people resume mid-sentence. The three doorway moments are stronger together than any one of them alone: Mob can be intermittent enough to joke about never checking in, while Mugen, Gilli and Ren retain him across gaps and aliases with almost no explanatory labor. The archive does not establish why each gap happened or a continuous membership status. It does establish a recurring social fact: absence does not make Suzi socially new."
         ]
       },
       {
@@ -73,13 +73,14 @@ export const suzimasuNarrativeCharacterBios: Record<string, CharacterNarrative> 
           "Answers food prompts with **`SMOKED MEAT ANYKIND GIBBBB`**. Mugen's `Bbq bb` shorthand had evidence behind it.",
           "Has been documented trying to play **two games, text UL, and acquire dinner at once**. Founder status: confirmed. Additional arms: tragically unsupported.",
           "May file an apology *before* committing the offense. `I'm sorry` followed by `I HAD TO TRY IT LMAOOOO` is less remorse than a courtesy notification.",
+          "Has personally announced **`I never check in`** and still accumulated repeated welcome-back language. A deeply inefficient attendance strategy with suspiciously good retention.",
           "Helped start UL and was still remembered for getting freaked out by UL afterhours. The building apparently exceeded one of its own founders' recommended operating conditions.",
           "Can be lured back years later with **fun arc**. Extremely sophisticated retention strategy: become entertaining again."
         ]
       }
     ],
     closing: [
-      "The structured Suzimasu dossier now has a clean through-line: Founder and later Consigliere on paper; initially quiet/scary/dangerous in several peers' memories; then increasingly impossible to keep imposing once familiarity supplies brisket, bathroom-drink failures, alien conversations, remembered laughter, second-move joke escalation, and a return triggered by `fun arc`. The title tells you why he mattered institutionally. The recurring absurdly ordinary details tell you why people remembered the person."
+      "The structured Suzimasu dossier now has a clean through-line: Founder and later Consigliere on paper; initially quiet/scary/dangerous in several peers' memories; socially intermittent enough to joke about never checking in; then repeatedly recognized on return without needing to re-explain himself; and increasingly impossible to keep imposing once familiarity supplies brisket, bathroom-drink failures, alien conversations, remembered laughter, second-move joke escalation, and a return triggered by `fun arc`. The title tells you why he mattered institutionally. The recurring absurdly ordinary details tell you why people remembered the person."
     ]
   }
 };
