@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-08-31 18:46 PDT_
+_Last updated: 2026-08-31 18:50 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Older run detail remains in Git history and MAIN's dated integration reports.
 
@@ -12,13 +12,14 @@ Hard user canon, resolved identities, privacy/safety, explicit contradictions, a
 
 ## Census / review boundary
 
-- Full census: **49 tracked miner identities = 28 active refs + 21 historical/missing refs; 0 newly discovered; 0 unreviewed active deltas at Run 101 close; 0 backlog; 0 overdue**.
+- Full census: **49 tracked miner identities = 28 active refs + 21 historical/missing refs; 0 newly discovered; 0 unreviewed active deltas at final Run 101 close; 0 backlog; 0 overdue**.
+- Opening review covered Wall recovery, Daycare, Mugen person-first and Whiskey. Closing census caught a one-commit Core Rooms advance to `65dc030b...`; it was immediately reviewed checkpoint-first rather than left as next-run tail.
 - Wall recovery is consumed/reviewed through `378f0b3c05368bb12c7500d2801c9f4e93203499` and remains open only for future movement.
 - Daycare is reviewed through `688ee26e142c3801aa9a0e2f15b9ff6db6c62fee`; its formal MAIN-family cursor remains pinned only by older accepted publication debt.
 - Mugen person-first is consumed/reviewed through `79d8693e4259fa671599e9b25ad294dc4498e88c`.
 - Whiskey is consumed/reviewed through `462bd18a02997a687582a10f7cf622a35d321632`.
 - All Characters HR remains reviewed through `6b52b105995b5f4dffddee2581c3b7977adec043` with final Nelph/Sye novelty closure still open.
-- Core Rooms remains reviewed through `07b0bd17323d1db93a6deb37270034dca4ba6a6a` with accepted MAIN publication debt still open.
+- Core Rooms is reviewed through `65dc030b3c3d203d61c444baffd3cf8caa9f022d`; accepted MAIN publication debt remains open, so its older formal consumed cursor stays pinned.
 - Both Club-Only recovery priorities remain current: 2021–2026 through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`; 2020 through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`.
 - No miner branch was merged or wholesale cherry-picked; no raw archive was re-mined by the integrator.
 
@@ -64,6 +65,20 @@ The latest miner pass explicitly produced no new A/B Mugen person-level promotio
 
 The miner also tried to resurrect the bad chronology that removes New from Mugen's older pre-Raja circle. Rejected. See the hard lock below.
 
+### Core Rooms — late closing suffix
+
+The closing census found Core Rooms had moved one commit after opening census, so Run 101 reviewed `07b0bd17... → 65dc030b...` immediately.
+
+Nelph's vague `service` / `hard work` reputation now has concrete lived behavior behind it. Across late 2021 he repeatedly converts ambient state into the next useful verb: come here, place bets, vote now, turn on 2FA, then three minutes later supplies the exact `profile > account > enable 2FA` path. He can write `COME TO CLUB BASE TO SPANK SOME DRAGONS BOOTY` and still be operationally clear. That is a strong person read: procedurally dependable, socially unserious, and habitually interested in reducing friction rather than merely announcing that a problem exists.
+
+Gilli's early doorway scenes similarly deepen an existing trait instead of creating a résumé bullet. She greets arrivals in their own register, tells them which social room is active, distinguishes Fight Club VC from VIP Lounge text, and later advertises the day's Theatre films while finishing the welcome. She acts like a social switchboard: server architecture becomes `where the people are right now`.
+
+Ice Man Cree / probable `Crit` and Nuvel also gained thin but human texture. Ice Man can arrive with `Wassup` or a single `😍` and still get immediate recognition-energy/routing from Mugen or Gilli. `Crit` remains probable rather than hard alias canon. Nuvel's `Tis I on another computer!!` access problem ends with Snow checking and `YESSS OMFG NICE`, which belongs in ordinary-life / Petty Crimes territory, not a technical incident report.
+
+These Core findings are accepted MAIN-owned deepeners and remain in the existing Core publication-debt family rather than becoming new WIKI incident pages. Core's `reviewed_through_sha` advances so the suffix is not reread; its formal consumed cursor stays pinned until the accepted MAIN folds publish and verify.
+
+The miner checkpoint also carries stale wording that Ritha remains the current Battle Leader. Rejected. Current hard user canon is **Anayss = Battle Leader / Underboss / Game Officer**. Old material may describe Ritha's historical battle leadership, but it does not restore Ritha as the current appointment or date Anayss's appointment.
+
 ## Hard chronology lock — New stays in the old circle
 
 **Dean, Key, Zepp, Kal, New, and GenGrey are all part of Mugen's older pre-Dragon-Raja / pre-Raja online circle.**
@@ -81,10 +96,10 @@ MAIN's verification/deployment chain is healthy again.
 - The earlier Whiskey **Rooks / Rookie Cookie / `.poogie.`** MAIN person-first debt was published at `fbd73070092e28616ae630cd4cc6ea0d371f5d27`; exact workflow `33458667560` succeeded.
 - Run 101 now publishes Zoshaa on both surfaces with distinct prose/function.
 
-Remaining named MAIN publication debt is now **three families**:
+Remaining named MAIN publication debt is **three families**:
 
 - All Characters HR — Ansun is paid; final Nelph/Sye mutual-credit novelty closure remains.
-- Core Rooms.
+- Core Rooms — now including Nelph next-verb service, Gilli social-switchboard continuity, and thinner Ice Man/Nuvel person texture.
 - Daycare.
 
 Wall remains recovery-open for future miner movement, not because the current reviewed suffix is unread. Whiskey and Mugen person-first are consumed through their current Run 101 heads.
@@ -92,13 +107,14 @@ Wall remains recovery-open for future miner movement, not because the current re
 ## Rails held
 
 - **New remains in Mugen's user-confirmed older pre-Raja circle alongside Dean, Key, Zepp, Kal, and GenGrey.** Later New-through-GenGrey recruitment is not first-meeting chronology.
+- **Anayss is the current Battle Leader / Underboss / Game Officer.** Stale miner carry-forward language treating Ritha as current Battle Leader is rejected; old scenes do not date Anayss's appointment.
 - Zoshaa / NintendoShitcube is one person; Platelet status remains permanent canon.
 - Zoshaa's Orb language with Ren supports reciprocal playful/creative familiarity, not romance, literal family, or an exact friendship-start date.
 - Earliest surviving Orb evidence is not guaranteed origin.
 - `the drawing` in the Orb-anniversary exchange is not automatically MADE BY Zoshaa.
 - Zoshaa's September 2020 lockout scene does not preserve exact permission mechanics or prove punitive moderation.
-- Anayss is the current Battle Leader / Underboss / Game Officer; old corpse-job or operations scenes do not date appointment.
 - Corpse.Inc / Corps Co / corpse keeper are joke-world language, not formal UL departments or governance titles.
+- `Crit` for Ice Man Cree remains probable period name/IGN, not a hard identity bridge.
 - Rich / DragonRich remains distinct from Ricochet / `dragonrichard`.
 - Rooks remains separate from Cookie/Kuki and CookieStream.
 - Zyrcant = Akariel = Akariel™ = `akariel_star` remains resolved hard canon.
