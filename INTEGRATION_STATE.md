@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-08-31 19:49 PDT_
+_Last updated: 2026-08-31 20:03 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Older pass detail remains in Git history and MAIN's dated integration reports.
 
@@ -16,10 +16,18 @@ Hard user canon, resolved identities, privacy/safety, explicit contradictions, a
 - Wall recovery is consumed/reviewed through `9e101549093e5807030eb8761dc10612c86553c7`; its Panda/Ghoulie return seam is public and verified on WIKI. Keep the recovery quarry open only for future movement.
 - Mugen person-first is consumed/reviewed through `c3848d9cbc15062b55b88c035c3e1f7d3d3f4757`. The final suffix explicitly produced no new A/B Mugen person-level promotion.
 - Whiskey is consumed/reviewed through `f52c9a7bfa93b5161b6162fbca30811a5ca2f6f3`. Its strongest Eos ordinary-life/relationship material is now public on MAIN in a person-first rewrite rather than mirrored here.
-- Daycare advanced after the earlier close and is now consumed/reviewed through `9e3f02d6920386436a1860f814377fa2b348427a`. The opening ledger that still showed `688ee26e...` was stale; a closing full census and the next independent opening census both caught the seven-commit suffix.
-- All Characters HR remains consumed through `6b52b105995b5f4dffddee2581c3b7977adec043`; Core Rooms through `65dc030b3c3d203d61c444baffd3cf8caa9f022d`.
+- Daycare is consumed/reviewed through `9e3f02d6920386436a1860f814377fa2b348427a` after its late seven-commit suffix was caught and reviewed.
+- All Characters HR is consumed/reviewed through `bdea101d937a65d37e5c500a9868f8ce04746a10`; its Run-60 Zoshaa refresh was a successful no-public-change review because both public surfaces already contain the stronger synthesis. Core Rooms remains consumed through `65dc030b3c3d203d61c444baffd3cf8caa9f022d`.
 - Both Club-Only recovery priorities remain current: 2021–2026 through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`; 2020 through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`.
 - No miner branch was merged or wholesale cherry-picked; no raw archive was re-mined by the integrator.
+
+## All Characters HR Run 60 — Zoshaa moved downstairs, not sideways
+
+The late HR suffix `6b52b105... -> bdea101d...` materially rewrote the comprehensive Zoshaa intake, not the public Zoshaa story. The good material is real: she can fail to notice a multi-day lockout while giving one chosen object six hours of furious attention; she can make twenty minutes of work sound like an industrial accident and still ask Ren **`are you proud?`**; and `Orb` is reciprocal shorthand between Zoshaa and Ren rather than merely a noun other people stick on her.
+
+Public reconciliation found that MAIN already has the low-drama lockout, Ren approval bid, six-hour Raja-house rage, maker/attention contradiction and Orb reciprocity, while WIKI's active Zoshaa dossier already has the same relationship machinery in its structured character form. Repeating any of it would have turned a good person read back into a receipt pile. The Run-60 public decision is therefore **no reader mutation on either surface**; the consumed cursor advances because the delta was reviewed successfully.
+
+Seven tranche peers — Ryo, Dean, Tae, Cele, Yelik, Noether and Yassr — were bounded negatives. The rolled-back Cele top-shelf-candy scene remains dead; the reverted Noether innocence package remains dead; Yassr remains a man. Orb origin, lockout mechanics, the twenty-minute image contents and the Orb-anniversary drawing's maker remain unresolved.
 
 ## WIKI reader change — `Welcome home, panda`
 
@@ -81,6 +89,7 @@ The MAIN canon lock and Mugen public biography are repaired, and WIKI's Mugen na
 
 - MAIN owns the richer Eos person-first rewrite and Anthos front-door hospitality deepener; WIKI does not mirror those paragraphs.
 - WIKI owns the compact Panda/Ghoulie return deepener because Panda's dossier had the cleanest relationship/change-over-time hole; MAIN already has a substantial Panda biography and did not need another receipt paragraph.
+- All Characters HR Run 60 changed the backstage Zoshaa synthesis only; both public surfaces already own the stronger lived version, so neither got duplicate copy.
 - Mugen's fresh `WASSAAAP`, `welcome enyo!`, and the 279-hour bot announcement remain supporting/rabbit material unless they materially change an existing person read; no new Mugen paragraph was bred just because a checkpoint existed.
 - Beckiie's line remains thin/held rather than converted into cardboard characterization.
 
