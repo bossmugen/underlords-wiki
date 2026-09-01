@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-08-31 22:46 PDT_
+_Last updated: 2026-08-31 23:12 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Older pass detail remains in Git history and MAIN's dated integration reports.
 
@@ -10,88 +10,66 @@ The person is the spine; events are supporting scenes; the archive stays backsta
 
 Hard user canon, resolved identities, privacy/safety boundaries, explicit contradictions, appointment chronology and attribution fences remain hard. Outside those rails, strong contextual reads about habits, relationships, humor, care patterns, ordinary life, reputation and social roles may publish when more likely than not.
 
-## Run 113 branch census / consumption boundary
+## Run 114 branch census / consumption boundary
 
 - **49 tracked miner identities = 28 active refs + 21 historical/missing refs.** No new branch identity appeared.
 - **0 finite pending-review tails, 0 backlog, 0 overdue** at close.
-- Wall `archive-miner-wall-hourly-20260824` was reviewed checkpoint-first from `f726ca7d1c66b2c9c88564fe6aa1577961bffac6` through exact close head `5510e7f2888839c944e30ba180f9d3c2a65292ab`. Wall remains recovery-open only for future movement.
-- Core `archive-miner/core-rooms-events-a91f-20260824` was reviewed checkpoint-first from `14d900d59169416531c57600d99f8efa3adabf3e` through exact close head `f373ff20d6527a65ad7a26c7852c1d0e1626f856`.
-- Mugen person-first `archive-miner/mugen-person-first-20260828` was reviewed checkpoint-first from `94ed4518c27a908111693a682d34b300fade366a` through moving close head `968a521ffac54a2763a7170d1aa052f4a7d42dd4`; the late suffix was the same Hic evidence family plus Petty Crimes/public handoff consolidation, not a second incident.
+- All Characters HR `archive-miner/all-characters-hr-20260828` advanced from `2df867fe2b423087e899f14f4a225750d8331b9f` to exact close head `489a4199a0d2fe4f4bb862f0fdf99a86201b0d38` and was reviewed checkpoint-first through that head.
+- Wall `archive-miner-wall-hourly-20260824` remains recovery-open only for future movement and is current through `5510e7f2888839c944e30ba180f9d3c2a65292ab`.
 - Both Club-Only recovery priorities remain current: 2021–2026 through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`, 2020 through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`.
 - No miner branch was merged or wholesale cherry-picked.
 
-## MAIN — Chuu~tan is a person, not two job titles in a trench coat
+## Run 114 — Eos keeps the warmth tiny and the reaction volume enormous
 
-Chibiterasu's public page had been almost entirely role metadata. Core finally supplied the ordinary-life/social material needed to fix that without inventing a personality from her office badge.
+The Run-62 Eos tranche was already substantially present on MAIN, so WIKI uses the same evidence differently instead of mirroring copy.
 
-In November 2023, Chubi posts her own Spotify-Wrapped screenshot with **`guys didn't see me here, okay?`**. Ren directly answers **`SEVENTEEENNNN`**. The screenshot itself stays visually unresolved; a later explicit Seventeen Tenor post naming Jeonghan and Dino independently supports the fandom read without reconstructing hidden rankings or minutes.
+Ren offers Eos a cookie and gets an immediate **`yeeee`**, followed by cookie/nom reaction language. Another Ren share gets **`supa cuteeeee ... tank uuu`**. The media stays attribution-fenced: Ren posted the share; that does not make Ren its maker.
 
-The better character point is social. Chubi performs embarrassment by placing the receipt in public and then requesting witness amnesia. Ren immediately refuses the assignment. By 2024 the same stable account self-files as **Chuu~tan**, Sye answers with **`chu chu`**, and Chubi later summons Souta / Ansun as **`suuusuuuuuuuun`** only to receive **`chuuuuuutannnnnnnnn`** back. The stretched-name exchange is familiar house shorthand, not romance, exclusivity, or a relationship rank.
+Gilli's shorthand is even more revealing. She can tag Eos with **`Also this anime that we never finished LOL`** and receive **`LMAO`** without naming the anime. The title remains unresolved. The relationship beat does not need the title: Gilli can point at an abandoned shared project and Eos already knows which unfinished crime scene she means.
 
-MAIN now uses this to make the current Game Officer / Parterre Gardener file feel like the person who actually walks into the room. The 2023 `Nitro Snipers` announcement remains event-recognition language; it is not converted into a formal Sniper appointment.
+The same stretch catches Eos stealing a frog reaction from the room — **`dont mind me taking that frog`** — asking for a hug, then later escalating probable *The Remarried Empress* / Sovieshu fandom talk into **`Permission to kill sovieshit now???`**. That last line stays fictional-character theater, not a real violence claim. The useful character contradiction is simpler: Eos can ask directly for comfort, accept tiny offerings at full volume, steal reaction language on sight, and reopen fandom court without needing a solemn register for any of it.
 
-## MAIN — Ame had a whole creative life hiding behind the useful-guy file
+WIKI now carries that as one person-shaped social-shorthand section, complementary to MAIN's richer Eos biography.
 
-Core also repaired a flatter kind of biography. Ame's existing page correctly told the story of somebody noticed for helping before title discussion, but it was in danger of making competence the whole man.
+## Run 114 — Hami's emergency-exit defense is live again
 
-On January 12, 2024, Amexistir explains that the name began as a **singer pseudonym**, built from `amar existir` — loving existence — and then immediately jokes about how the construction can sound past-tense-ish and how he might have chosen something simpler. In April, during an art-exhibit QOTD, he posts his own YouTube channel, says it contains some of his songs, worries the music may not be especially entertaining, and then describes it as made **`with a lot of love`**.
+The HR delta did not uncover a brand-new HamitteY scene. It confirmed that the richer WIKI Hami dossier already existed but had fallen out of the active character-resolver chain.
 
-That is now folded into MAIN as one contradiction: practical, compact, useful Ame also chose a name around loving existence for music, made songs, and can be self-conscious about whether anybody wants them while being perfectly willing to admit how much care went into them. The page does not promote him into a professional musician, invent a discography, or manufacture career chronology.
+That dossier includes the recurring Peepo walking-out-the-door GIF on three separate Wall dates, including the February 2022 use immediately after Noether tries to supply context. The recurrence is useful as reusable visual defense language: sometimes the explanation arrives and Hami's legal strategy is simply to leave the building in GIF form. It does **not** become a universal `Hami always flees` trait, and the January 2022 trigger remains unresolved.
 
-## WIKI — Jas appeals a 4K conviction by measuring the exhibit
+Run 114 restores that richer dossier to the live route. This is a resolver repair, not an invented new incident.
 
-A September 1, 2021 Wall scene now lives as a structured Episode rather than another Jas biography paragraph.
+## Deduped / no-public-change
 
-Gilli posts `Capture.PNG`, tags Jas and says **`Caught in 4k`**. Jas true-replies with the immediate counter-charge **`YOOO WHAT'S THIS LIGHT MOOODEE`**. Gilli explains that light mode blends into work programs; Jas accepts the practical defense — and then notices a different flaw in the prosecution: **`254x77px ain't 4K tho 😐`**. Gilli answers with a kick GIF.
+- **Rooks:** the sleep-advice/self-exemption contradiction, `me time` with DMs still open, warm re-entry, and probable GOT7 gateway were already live on both public surfaces. No duplicate paragraph was added.
+- **MAIN Eos:** cookie/share shorthand, Gilli's unfinished-anime shorthand, frog-reaction appropriation and probable Sovieshu theatrics were already integrated. MAIN reader files therefore did not change this run.
+- **MAIN Hami:** the recurring Peepo exit and broader deli-label/evidence economy were already integrated.
+- **Tofu, Aeshleen, Nuien, Akuma/Matsu, Crystalia:** bounded Run-62 qualification checks closed as successful no-public-change reviews rather than being inflated into filler.
 
-The joke is not merely that Jas denies being caught. He audits the label on the evidence. The attachment remains visually uninspected: Gilli is POSTED BY; maker, capturer, featured people and exact image contents remain unresolved.
+## Held / unresolved
 
-## WIKI — Hic gets to choose the conversational altitude
-
-The Mugen miner produced a genuinely distinct Mugen/Hic relationship mechanism rather than another generic `Mugen banters with people` receipt.
-
-Across direct replies in 2023, Hic can arrive campy, compressed, absurd or overlong and Mugen answers inside that register rather than requiring Founder/Boss ceremony. Hic's ornate **`Maintaining and distributing logistic services in wigs and edges`** gets Mugen's **`Designated slayyyer`**. **`Nuts`** becomes Mugen's **`you`**, Hic's **`Me`**, and then two Raja hearts. A long edited character essay gets **`A full ass essay and I'm here for it`** — roast and acceptance in the same sentence.
-
-WIKI keeps this as a relationship-grammar Episode. It does not become a formal mentorship, friendship rank, romance/sex claim, or proof that Mugen caused Hic's broader comfort in UL. Hic's earlier shyness/overthinking stays Hic's own broader story; this dyad only shows that later unfiltered register being reciprocated.
-
-## Held / deduped / unresolved
-
-- **Torr / DiStratus:** the family euphemism `blackened` for grandmother's repeatedly burnt dinner biscuits is excellent future `Petty Crimes` material; held this pass rather than forcing a new public paragraph.
-- **Aeshleen:** matching ray plushies with a friend and her ray's temporary name `file n°404` are strong person texture; friend identity remains unresolved and the material is banked for a future profile enrichment.
-- **momojipeachi:** Pinterest-board habit, Barnes & Noble boyfriend joke, Voice Challenge performance and Blooming Panic/OC-making form a strong profile candidate, but the stable account is not merged with public Momo by name resemblance. Held until identity/public naming is safe.
-- **Eos:** same-author/same-filename/timing supports a probable source→Wall retrieval/repost habit, but not byte identity or source provenance. POSTED BY does not become MADE/CAPTURED/FEATURING.
-- **Usama:** socially attentive Wall witness/commentator seed remains too thin for a cardboard character page.
-- **Members Only Lounge:** founding-night timing makes it a good future WIKI Location/history candidate. Mugen's hard-locked guild-icon authorship does not prove she created the category, announcements room or Lounge.
-- Broad Core singleton seeds were reviewed and consumed without being inflated into pages.
-
-## Hard conflict rejected
-
-The Mugen handoff again contained stale wording that tried to remove **New** from Mugen's older pre-Raja circle and let GenGrey's later recruitment bridge rewrite first-acquaintance chronology. Rejected. Hard user canon still has **Dean, Key, Zepp, Kal, New and GenGrey** in the older pre-Raja circle. GenGrey can also be a later recruitment route for New in another context; recruitment route is not a time machine.
-
-Likewise, **Ame = Amexistir** remains the canonical identity, while the separate Discord account `ame._.` is not merged into that person merely because both use `Ame`.
+- Rooks's exact fresh-welcome/re-entry mechanics remain unresolved; probable GOT7 significance stays probable rather than a hard origin claim.
+- Eos's unfinished anime title remains unresolved. Frog-source provenance remains unresolved. The Sovieshu read remains probable fandom context, not a real-world target or threat.
+- Hami's January 2022 Peepo trigger remains unresolved. Three recurring uses earn a running defense mechanism, not an all-context personality law.
+- `POSTED BY`, `MADE BY`, `CAPTURED BY`, and `FEATURING` remain distinct. No media author/capturer/subject attribution was upgraded by adjacency.
+- Existing hard identity distinctions remain intact, including Nuien ≠ Illien and all previously resolved person bridges.
 
 ## Surface split
 
-MAIN owns the rich reader biographies this pass:
-- `src/content/people/chibiterasu.md` — Chuu~tan / Seventeen / familiar-name shorthand / role lived as a person.
-- `src/content/people/ame.md` — singer-pseudonym origin, songs, self-conscious sharing and `with a lot of love` folded into the existing useful-before-title arc.
-
-WIKI owns the structured lookup complement:
-- Episode `jas-254x77-4k-appeal` — Wall prosecution, light-mode countercharge, resolution audit.
-- Episode `mugen-hic-conversational-altitude` — repeated direct-reply register matching as relationship grammar.
-
-The prose is intentionally not mirrored across surfaces.
-
-## Publication / verification result
-
 ### MAIN
 
-The final reader commit for this pass is `c7cbc07d827ce9777bb45efe0df35069fe19373d`; it contains Ame's creative-life integration and descends directly from the Chibiterasu person-first work. Exact MAIN workflow `33474681979` completed successfully. `Build + verify` actually ran source canon/architecture verification, Astro build, and built-output verification; the separate deployment job then checked out the exact validated commit and successfully deployed/verifed it on Cloudflare Pages.
+Reader pages changed: **0**. The Run-62 Rooks/Eos/Hami person reads were already present. MAIN instead advanced durable branch-consumption state through the reviewed HR head.
+
+State commit `2117b7cd0e2f09f1969a582384e00a754659e17f` passed exact workflow `33476411093`: source canon/architecture verification, Astro build, built-output verification, and the exact Cloudflare production deployment all completed successfully.
 
 ### WIKI
 
-Reader commit `d76f4c125fb60df17d1f5d215c31abd69dad85b6` adds the two structured Episodes. Build Underlords Wiki `33474575940` completed successfully. Deploy Underlords Wiki Preview / Pages `33474575932` completed successfully for the same exact commit.
+Reader changes:
+- `src/data/character-biographies-run114.ts` — complementary Eos social-shorthand section plus restoration of the richer Hami dossier.
+- `src/data/character-biographies-all.ts` — routes the Run-114 overlay through the live resolver.
+
+Reader head `5666c2915a513a5da078d4a602674631148835a5` passed Build Underlords Wiki `33476311419` and Deploy Underlords Wiki Preview / Pages `33476311425`, both successfully.
 
 ## Consumption result
 
-Wall is reviewed/consumed through `5510e7f2888839c944e30ba180f9d3c2a65292ab` and remains recovery-open only for future suffixes. Core is reviewed/consumed through `f373ff20d6527a65ad7a26c7852c1d0e1626f856`. Mugen person-first is reviewed/consumed through `968a521ffac54a2763a7170d1aa052f4a7d42dd4`. No finite miner tail remains pending at this close; the quarries themselves are not exhausted.
+All Characters HR is reviewed/consumed through `489a4199a0d2fe4f4bb862f0fdf99a86201b0d38`. Wall remains reviewed/consumed through `5510e7f2888839c944e30ba180f9d3c2a65292ab` and recovery-open only for future suffixes. Both Club-Only recovery priorities remain current. No finite miner tail remains pending at this close; the quarries themselves are not exhausted.
