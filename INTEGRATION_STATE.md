@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-01 05:56 PDT_
+_Last updated: 2026-09-01 05:57 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Older pass detail remains in Git history and MAIN's dated integration reports.
 
@@ -9,6 +9,18 @@ This is the current durable dual-surface reconciliation snapshot. Older pass det
 The person is the spine; events are supporting scenes; the archive stays backstage. MAIN owns the richest person/legend biographies, relationship texture, lived chronology, and `Petty Crimes`. WIKI owns the complementary searchable/reference layer: Cast dossiers, role progression, Relationships, Episodes, Running Gags, Quotes, Locations, Gallery/media notes, and person-first narrative where useful for lookup. The same source may appear on both surfaces only when it does a different job.
 
 Hard user canon, resolved identities, privacy/safety boundaries, explicit contradictions, appointment chronology, and attribution fences remain hard. Outside those rails, strong contextual reads about habits, relationships, humor, care patterns, ordinary life, reputation, and social roles may publish when more likely than not.
+
+## 2026-09-01 05:57 PDT — Run 136 census-only close
+
+Mandatory full miner census: **49 tracked identities = 28 active refs + 21 historical/missing refs**. No new miner identity was discovered. Every active ref matched the `last_seen_sha` already stored on MAIN, and every active stored reviewed/consumed boundary was already current. There is **0 finite pending review, 0 pending publication, 0 backlog, and 0 overdue**.
+
+Wall remains `recovery_in_progress` only for future movement at `16a79360ef0490273e0a6d03b0501abeaee4a2ce`. Both Club-Only recovery priorities remain current: 2021–2026 at `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`; 2020 at `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`.
+
+No miner delta existed beyond a consumed boundary, so there was no checkpoint-first deep review to perform and no anti-starvation branch to rotate. No raw archive was re-mined. No miner branch was merged or wholesale cherry-picked. No reader-facing WIKI object changed, and MAIN likewise received no reader-facing prose change. No consumed SHA moved.
+
+The accepted Run 135 surface split remains current: HamitteY/Baby Lyssa relationship texture belongs to MAIN; bot-breaking endurance and the earliest-surviving Ansun Wall filing remain WIKI Episodes; Alkey/Meowk and Lena/Aelena remain deduped against richer existing MAIN biographies; Support Tech remains resolved publicly to Dean; stale miner-local attempts to remove New from Mugen's pre-Raja circle remain rejected by hard user canon.
+
+Attribution and safety fences are unchanged: POSTED BY / MADE BY / CAPTURED BY / FEATURING remain separate; earliest surviving is not guaranteed origin; current role arrays do not date appointments; similar names do not create identities; joke family/romance language is not literalized; private/sensitive material remains private.
 
 ## 2026-09-01 05:56 PDT — Run 135 close
 
