@@ -35,6 +35,6 @@ export const run91IntegratedEpisodes: Episode[] = [
     date: "May 29 – June 11, 2023",
     kind: "UL event / cute profile pictures acquire mechanics and a winner",
     logline: "Nobu's twelve-person matching-PFP package does not stop at `9 out 12 pfp taken.` She turns it into a live Holder/Seeker game with proof rules, a reward, a deadline and channel routing. When Dayadream reports that people are confused, Nobu rewrites the mechanic into Holder / Seeker / Goal / Bonus / Deadline sections instead of blaming the room for not reading her mind. She answers edge cases, reminds the group, checks on DarkAsrai, explains why holders should keep their PFP stable so seekers do not redo work, closes the event, and announces `RUMMY` as winner. This is excellent Party Director-shaped behavior without being used as an appointment receipt or proof that every creative project she touched was official Party Director work. The matching-PFP assets are POSTED / DISTRIBUTED BY Xuseio; the underlying source art and every edit are not silently credited to her.",
-    cast: ["Nobu", "Daya", "Rummy", "Rose"]
+    cast: ["Nobu", "Rummy", "Rose"]
   }
 ];
