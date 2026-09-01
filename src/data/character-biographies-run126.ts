@@ -88,10 +88,25 @@ export const run126CharacterBios: Record<string, CharacterNarrative> = {
           "The routing habit is not only about channels. Snow's recurring register becomes familiar enough that Anayss can say she ignored one instance because she is used to him saying that kind of thing; Snow jokes that she is `numb from my posts`. The exchange is less about indifference than genre recognition. Not every Snow offense needs a fresh orientation packet.",
           "Ansun catches a different tiny continuity error. He notices a profile-picture mismatch because `Anas usually the catto-`, calls it an `alternate timeline`, and Anayss answers `Multiverse is real`. He remembers the habitual presentation; she understands the premise immediately. By then knowing the house also means knowing the weirdly specific way another person usually appears inside it."
         ]
+      },
+      {
+        period: "Whiskey 2021",
+        title: "Soft procedure, loud affection",
+        paragraphs: [
+          "The Lobby habit and Whiskey register line up nicely. Nhou gets `role assigned uwu wb! ^-^`; when Neli later appears, Anayss already knows the important club fact and asks only for the remaining intake requirement before another greeter closes the assignment. She does not need a fake Gatekeeper title for the behavior to be clear: Anayss knows the procedure, often knows the person, and keeps the voice soft while the work stays real.",
+          "Gilli gets the relationship version on June 15: `Happy birthday my amazing and wonderful waifu ~ I wish you only the best`. The camp label and the sincere wish coexist just fine. `Waifu` stays affectionate joke language rather than romance, sex, or marriage; the four attached media objects remain POSTED BY Anayss unless somebody actually identifies who made them."
+        ]
+      },
+      {
+        title: "Petty Crimes",
+        paragraphs: [
+          "**Dawn Beverage Propaganda:** three separate early mornings in March and April 2021 use coffee, tea, wake-up, or good-morning reaction GIFs. That is enough for recurring reaction vocabulary, not a literal daily coffee regimen.",
+          "**Feb. 26 Jukebox Possession:** Anayss repeatedly feeds the existing Dancefloor with reaction media labeled around Las Ketchup, Ricky Martin, ABBA, Mambo No. 5 and more. This stays character texture, not a duplicate Episode or a favorite-artist chart."
+        ]
       }
     ],
     closing: [
-      "Anayss's role history makes the most sense as accumulated wayfinding rather than a transformation into somebody infallible. She was shown the guides, admitted when maps beat her, learned the rooms, learned the clocks, learned the people, and kept becoming the person who could point at the next usable thing while still sounding unmistakably like herself."
+      "Anayss's role history makes the most sense as accumulated wayfinding rather than a transformation into somebody infallible. She was shown the guides, admitted when maps beat her, learned the rooms, learned the clocks, learned the people, and kept becoming the person who could point at the next usable thing while still sounding unmistakably like herself. Apparently the clipboard can say `uwu` and still get the door open."
     ]
   }
 };
