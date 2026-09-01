@@ -1,11 +1,13 @@
 import type { CharacterNarrative, NarrativeSection } from "./character-biographies-narrative";
 import { run56NarrativeCharacterBios } from "./character-biographies-run56";
 import { run39NarrativeCharacterBios } from "./character-biographies-run39";
+import { rithaNarrativeCharacterBios } from "./character-biographies-ritha";
 
 const eosBase = run56NarrativeCharacterBios.eos;
 const hamiBase = run39NarrativeCharacterBios.hamittey;
+const rithaBase = rithaNarrativeCharacterBios.ritha;
 
-if (!eosBase || !hamiBase) throw new Error("Run 114 biography bases are missing.");
+if (!eosBase || !hamiBase || !rithaBase) throw new Error("Run 114 biography bases are missing.");
 
 function beforePettyCrimes(base: CharacterNarrative, section: NarrativeSection): CharacterNarrative {
   const index = base.sections.findIndex((candidate) => candidate.title.toLowerCase() === "petty crimes");
@@ -26,8 +28,18 @@ const eos = beforePettyCrimes(eosBase, {
   ],
 });
 
+const ritha = beforePettyCrimes(rithaBase, {
+  period: "Early UL startup",
+  title: "MUGEN'S ORIGIN STORY ALSO REMEMBERS WHO CARRIED HER",
+  paragraphs: [
+    "A later Mugen-side Safe House recollection adds a useful direction to the Ritha relationship that the founder chart cannot show. Mugen remembers Ritha doing concrete startup labor for the early group, especially carrying Mugen and the early circle through dungeon content. Founder does not mean self-sufficient; in at least one domain, Ritha is the person Mugen remembers having needed.",
+    "That fits Ritha's user-confirmed strategy reputation without turning the memory into a retroactive Battle Leader appointment. It also keeps the Mugen–Ritha relationship lived rather than symmetrical by title: Mugen founded and organized the club; Ritha could still be the friend doing the carrying when the game demanded a different kind of competence. The exact raw Safe House message join and nearby legacy-role chronology remain open, so the wiki does not manufacture a date, a universal dungeon pattern, or a claim that Mugen was generally bad at the game.",
+  ],
+});
+
 export const run114NarrativeCharacterBios: Record<string, CharacterNarrative> = {
   eos,
+  ritha,
 
   // The richer Hami dossier already existed in run39 but had fallen out of the active
   // resolver chain. Re-export it here so the live route keeps the recurring Peepo exit,
