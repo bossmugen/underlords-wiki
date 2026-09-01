@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-01 11:47 PDT_
+_Last updated: 2026-09-01 12:20 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Older pass detail remains in Git history and numbered `INTEGRATION_STATE_RUN_*` snapshots. MAIN's controlling branch-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`.
 
@@ -9,6 +9,44 @@ This is the current durable dual-surface reconciliation snapshot. Older pass det
 The person is the spine; events are supporting scenes; the archive stays backstage. MAIN owns the richest person/legend biographies, lived chronology, relationship texture, and `Petty Crimes`. WIKI owns the complementary searchable/reference layer: Cast dossiers, role progression, Relationships, Episodes, Running Gags, Quotes, Locations, Gallery/media notes, and structured person-first material where lookup benefits from it. Do not mirror prose between the two surfaces.
 
 Hard user-confirmed canon, resolved identities, privacy/safety boundaries, explicit contradictions, formal appointment chronology, and attribution fences remain hard. Outside those rails, strong contextual reads about habits, tastes, relationships, humor, care patterns, ordinary life, reputation, and social roles are publishable when more likely than not.
+
+## 2026-09-01 12:20 PDT — Run 156 close / Run 157 handoff
+
+Run 156 opened on a mandatory full census of **49 tracked miner identities = 28 active refs + 21 historical/missing refs**, with **0 newly discovered**, **2 pending review**, **0 backlog**, and **0 overdue**. The two opening pending branches were reviewed checkpoint-first through stable heads without re-mining raw archives or merging miner branches wholesale:
+
+- `archive-miner/all-characters-hr-20260828`: `e0de3bd30420b295d8d34f0048c12bd21a880172 -> cb9f3b116429f03901f368035b41bcbaadd84b4d`; reviewed and consumed. Woohyuk/`backpeek` and Ambie/Astartea corroborate hard identity canon; Aeshleen coffee productivity, Churro/Kae familiarity, and Alkey/Meowk return texture were already stronger publicly. Ambie's `Peasan/peach` target remains unresolved and was not assigned by guesswork.
+- `archive-miner/core-rooms-events-a91f-20260824`: `47f52e43e8afdadc252dc6ec12767abe9eeac011 -> e5ef00586ad713585455309b347e0174fbce872f`; reviewed and consumed after verified public integration of the new Suzimasu keeper.
+
+A later concurrent census discovered a **separate Daycare advancement** `6c163b0e17e97c327d8473682f50e96a36f95411 -> 54c3db484c1f7f931061b657c1b572127e0e89b5`. Run 156 intentionally does not claim that later suffix as reviewed; MAIN's shared branch ledger hands it to the later run as the remaining pending branch. Wall remains recovery-open but current through `a17286a4dfe410ba73f8fcabae3a382747e3f274`; both Club-Only recovery priorities remain current at `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa` and `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`.
+
+### Suzimasu / Mob / BAPE
+
+The Core Rooms delta finally gave Suzimasu a genuinely person-shaped reputation file rather than another title paragraph. Several peers independently remember an early Mob as quieter, scary, or straight-up `danger`; the interesting part is how familiarity destroys that silhouette. Tae remembers the scary image collapsing after Mob forgot a drink in a bathroom. Sota remembers an all-night / roughly four-hour conversation about aliens and, years later, Mob's laugh. Ren's first `I sensed danger in you` picture has become playful figurative older-brother imagery. The mechanism is ordinary exposure, not a generic hidden-soft-side reveal.
+
+Food supplies the same kind of lived specificity. Mugen can tag Mob as `Bbq bb`; Mob answers that he is smoking beef brisket. A later prompt gets **`SMOKED MEAT ANYKIND GIBBBB`**. Ricochet later associates Mob with sushi. The senior Founder / retired Consigliere history remains real, but the public person is now also the man whose intimidation campaign apparently lost a jurisdictional dispute with bathroom beverage logistics.
+
+MAIN owns the richest narrative fold in `src/content/people/suzimasu.md`: reputation erosion, BBQ/smoked-meat specificity, the older Yakuza 0 + Dragon Raja + UL chat + dinner multitasking scene, Ren's imagined-vs-real voice moment, the bot-welcome / `Welcome home~` continuity scene, and `Petty Crimes`.
+
+WIKI owns the complementary structured dossier in `src/data/character-biographies-suzimasu.ts`: peer-reputation synthesis, taste/food lane, role context, running-gag behavior, continuity, return pattern, and reference-shaped Petty Crimes material. The copy is not mirrored from MAIN.
+
+### Duplicates / held material
+
+- Xuseio/Nobu ↔ Alkey mirrored `ew` / `Ewwwww` mock-disgust was already public as established joke-ease; no duplicate receipt paragraph was created.
+- Xuseio/Nobu ↔ Aeshleen first-acquaintance pronunciation banter was banked as light social texture, not promoted into special closeness.
+- Existing Nobu whole-PDF / matching-PFP system-builder behavior was already stronger publicly; no duplicate curator paragraph was created.
+- Ren's Suzimasu `big brother` imagery remains figurative social-family language only.
+- Sota's all-night / roughly four-hour duration remains peer recollection, not reconstructed VC telemetry.
+- `Bbq bb` remains playful shorthand, not romance evidence.
+- Mob's risqué peer joking remains peer joking; no literal romance/sex/body claim was derived from it.
+- Ambie's `Peasan/peach` target remains unresolved.
+- SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain separate attribution jobs.
+
+### Run 156 verification
+
+- MAIN reader commit `168286da9c3f3a5113d74f06f5ac6a49156355a1` passed exact workflow `33548091752`: source canon/architecture verification, Astro build, built-output verification, and Cloudflare Pages deployment all completed successfully.
+- WIKI reader commit `80516f7ec597a8e9d0a38ab47c335b9f9173201f` passed exact Build `33548161846` and exact Pages `33548161872`; both completed successfully, including GitHub Pages deployment.
+- MAIN durable report: `archive-intake/INTEGRATION_PASS_RUN_156_2026-09-01.md`.
+- MAIN shared branch state now records All Characters HR consumed through `cb9f3b11` and Core Rooms consumed through `e5ef0058`, while preserving the later Daycare suffix as pending for the concurrent run.
 
 ## 2026-09-01 11:47 PDT — Run 155 close
 
