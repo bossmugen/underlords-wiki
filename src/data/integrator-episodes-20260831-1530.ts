@@ -63,5 +63,14 @@ export const run91IntegratedEpisodes: Episode[] = [
     kind: "Wall friendship scene / embarrassment becomes inclusion",
     logline: "Four days after Ryo comes through Lobby by Moon's friendship route, Moon celebrates his first Wall appearance with `OMFG.YOUR FIRST TIME STARRING AT WALL OF SHAME~♡♡♡` and `Congrats uwu`. Ryo answers `NOOOOO`; Moon true-replies `We go through wall of shame together`. The last line is the whole trick: Moon is not only delighted that her friend got caught; she puts herself inside the embarrassment with him, turning the Wall into shared social language instead of leaving Ryo alone in the stocks. The surviving text does not establish that Moon made, captured, or posted the underlying exhibit, and this one scene is not proof that every Wall filing functioned as onboarding.",
     cast: ["Moon", "Ryo"]
+  },
+  {
+    id: "daya-pocket-gilli-catering",
+    title: "Daya Puts Gilli in Her Pocket and Upgrades the Catering",
+    season: "2022",
+    date: "December 13, 2022",
+    kind: "Wall teasing / affectionate nuisance with a menu",
+    logline: "Daya self-files `why am i @Gilli's height`; Gilli prosecutes `B.O.B CRIIIIMME` and Gabu adds `Very very short`. Daya answers by proposing to put Gilli in her pocket and make her tea and crumpets. Gilli counters with a `passive harassment` reaction GIF, so Daya improves the offer to oxtail and liquor. Then Gabu asks to be called short too. The joke becomes legible through everybody's next move: Daya answers teasing with pampering-shaped escalation, Gilli pushes back inside the same joke register, and Gabu actively opts into the treatment. This is not a literal height, harassment, romance, family, or caregiving claim. Daya is only POSTED BY for the opening screenshot; its maker, capturer, contents, and depicted people remain unresolved.",
+    cast: ["Daya", "Gilli", "Gabu"]
   }
 ];
