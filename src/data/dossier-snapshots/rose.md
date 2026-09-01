@@ -8,7 +8,7 @@ roles:
   - "Historical Staff"
 eraStart: 2021
 eraLabel: "2021–2023 archive"
-summary: "The clean account record says `R O S E`; Gilli later recognizes her return before the role paperwork is redone. By 2023–2024 the archive also catches a strong serious-cooking/equipment streak, but the site keeps that as interest evidence rather than inventing culinary credentials."
+summary: "The clean account record says `R O S E`; Gilli later recognizes her return before the role paperwork is redone. By 2023 the Wall also catches Rose on both sides of Screenshot Court: expecting to become evidence herself, then laughing when somebody beats her to a filing and supplying more receipts a couple of minutes later."
 summaryEvidence: "archive-confirmed"
 publication: "public"
 claims:
@@ -50,6 +50,13 @@ claims:
       - label: "👅 Wall · 2023-04-03"
         href: "/archive/wall"
     note: "The underlying exhibit immediately before this excerpt is not reconstructed here; the safe claim is Rose's self-aware expectation of appearing in the Wall."
+  - text: "On April 5, 2023, Ryoishigh posted two Wall image attachments; Rose laughed, answered `Beat me to it`, and roughly two minutes later posted two more image attachments herself."
+    evidence: "archive-confirmed"
+    date: "2023-04-05"
+    sources:
+      - label: "👅 Wall · 2023-04-05"
+        href: "/archive/wall"
+    note: "This is a role-reversal episode inside the Wall's receipt culture: Rose moves from self-aware target/audience to active filer. Her two attachments are POSTED BY Rose only; maker, capturer, and featured-person attribution remain unassigned."
   - text: "In the 2023 QOTD dream-kitchen thread, DarkAsrai specifies open-plan space, a large island, industrial refrigerator/freezer, blast chiller, dry-aging cabinet, double convection oven, and extensive baking/storage equipment; in July 2023 she proposes teaching Gabu profiteroles / cream puffs / choux à la crème."
     evidence: "archive-confirmed"
     date: "2023-04-05 – 2023-07-14"
@@ -64,6 +71,7 @@ antiFanon:
   - "`Welcome back rose!` proves Gilli recognized a return in November 2022. It does not establish exactly when Rose left, how long she was absent, who recruited her, or what technical access changed."
   - "The New Year combat lines do not prove Rummy was Rose's trainer, rival, close friend, or a fixed sparring partner."
   - "`I knew id get in here` is Wall self-awareness. Do not reconstruct the unseen exhibit, claim who submitted it, or decide the accusation was accurate without the underlying context."
+  - "Rose's April 5 attachments are POSTED BY Rose only. Do not turn that into MADE BY, CAPTURED BY, or FEATURING without media-level support."
   - "Historical Staff metadata does not date Rose's original Staff appointment or establish current office."
   - "Dream-kitchen/choux evidence supports a strong cooking interest, not professional culinary credentials."
 relatedPeople:
@@ -74,6 +82,7 @@ tags:
   - "return-recognition"
   - "combat-reentry"
   - "wall-awareness"
+  - "receipt-culture"
   - "qotd"
   - "cooking"
 ---
@@ -98,10 +107,16 @@ Gilli answers one second later:
 
 Then asks her to repeat the intake fields so she can assign the role.
 
-The order is useful. Recognition first, paperwork second. The archive proves a return scene without giving us permission to invent the exact absence that preceded it.
+The useful order is recognition first, paperwork second. The scene gives Rose a return without requiring a made-up departure date to explain it.
+
+## SCREENSHOT COURT DOES NOT HAVE FIXED ROLES
+
+April 2023 catches Rose understanding the Wall from both directions. On April 3 she wheezes and says **`I knew id get in here`**. Two days later Ryoishigh gets two image attachments onto the Wall first; Rose laughs, says **`Beat me to it`**, and then supplies two more image attachments herself a couple of minutes later.
+
+For the dossier, that is the episode: Rose can anticipate being the evidence and then immediately help file the evidence. The teasing works because she does not treat being caught as social exile; she stays inside the joke machinery and is willing to operate it herself.
 
 ## THE KITCHEN ANSWER HAS TOO MUCH EQUIPMENT TO BE CASUAL VIBES
 
 QOTD later asks for a dream kitchen and Rose starts specifying capacity: industrial cold storage, blast chiller, dry-aging cabinet, double convection oven, large work surfaces, baking storage. Months later, when Gabu asks what recipe people would teach her, Rose chooses profiteroles / cream puffs / choux à la crème.
 
-That is enough to call serious cooking/baking interest. It is not enough to call Rose a chef. The equipment is the receipt; the credential would be fanon.
+That is enough to call serious cooking/baking interest. It is not enough to call Rose a chef.
