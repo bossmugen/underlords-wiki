@@ -76,6 +76,7 @@ import * as run58Module from "./character-biographies-run58";
 import * as run59Module from "./character-biographies-run59";
 import * as run79WallModule from "./character-biographies-run79-wall";
 import * as run107Module from "./character-biographies-run107";
+import * as run111Module from "./character-biographies-run111";
 
 // Existing deep archive-backed bios remain valuable. If a finished long-form narrative
 // has not been written yet, turn the best current deep bio into narrative form rather
@@ -250,6 +251,7 @@ for (const module of finishedNarrativeModules) mergeNarrativeModule(allNarrative
 // Reapply the canonical person-first biography after historical overlays and remove the
 // orphan split narrative so a future resolver lookup cannot resurrect the duplicate person.
 mergeNarrativeModule(allNarrativeCharacterBios, ameModule);
+mergeNarrativeModule(allNarrativeCharacterBios, run111Module);
 delete allNarrativeCharacterBios.amexistir;
 
 // Universal rule: every public character route resolves to a biography-shaped story.
