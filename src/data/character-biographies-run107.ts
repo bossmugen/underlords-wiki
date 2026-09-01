@@ -9,6 +9,55 @@ function withSection(base: CharacterNarrative, section: NarrativeSection): Chara
 }
 
 export const run107NarrativeCharacterBios: Record<string, CharacterNarrative> = {
+  ame: {
+    intro: [
+      "Ame is one of UL's current Game Officers. That is the clean part. Amexistir is somebody else, despite the extremely efficient name collision, so Amexistir's Spanish Lobby scenes, return greetings and 2023 Officer-room sequence do not get borrowed to make Ame look more documented than Ame currently is.",
+      "For now Ame's public story is small on purpose. The title is real; another person's anecdotes are not a substitute for personality. When more Ame-specific scenes surface, this page can grow around the person instead of making a stranger wear Amexistir's biography."
+    ],
+    sections: [
+      {
+        title: "SAME THREE LETTERS. DIFFERENT PERSON.",
+        paragraphs: [
+          "The old public file silently treated `Ame` and `Amexistir` as one identity. The names are close. The accounts are not. Ame keeps the current Game Officer slot; Amexistir now keeps the separate life attached to Amexistir's own stable account.",
+          "That means no Spanish-language preference, Lobby return pattern, December 2023 promotion path, or alliance-room discussion gets assigned to Ame merely because somebody shortened Amexistir to `Ame` in conversation. This page would rather be short than steal."
+        ]
+      }
+    ]
+  },
+
+  amexistir: {
+    intro: [
+      "Amexistir's surviving public story begins with an admirably practical sentence: `Hola entiendo poco inglés, mi nombre en el juego es el mismo que acá`. The room has a language mismatch; Amexistir names it, gives the useful identity answer anyway, and keeps moving. Ren switches the intake exchange into Spanish. Months later the same account comes through again. By November 2023 Anayss is greeting Amexistir with `Bienvenido de vuelta!` while the bot still behaves as if the doorway itself is the whole story.",
+      "Then December changes the scale. Snow asks the game room whether there are concerns with promoting Amexistir and Chubi, explicitly citing how much they help and how active they are. The room does not answer with blind applause: Sye remembers Chubi may have declined before, Noether says they should ask whether the candidates actually want it now, Anayss is fully on board, Wolf says they would be great additions. Two days later Snow welcomes Amexistir into the Officer room. The promotion matters because the discussion around it is recognizably UL: usefulness counts, activity counts, other people's observations count, and willingness still matters."
+    ],
+    sections: [
+      {
+        period: "2022–2023",
+        title: "THE ROOM LEARNS HOW TO TALK TO AMEXISTIR",
+        paragraphs: [
+          "The first strong Lobby scene does not make limited English into a personality. It makes it a solvable interface problem. Amexistir says what is difficult, Ren changes languages, and the form continues. On the later pass Amexistir opens with `Hola, ty`, supplies the requested information, and the room again meets the person where the conversation actually works.",
+          "The human continuity eventually outruns the software. When another generic welcome appears in November 2023, Anayss answers `Hola Ame! Bienvenido de vuelta!`. The nickname in that sentence belongs to Amexistir's stable account in this scene; it is not an identity bridge to the separate current Game Officer Ame. The bot sees a fresh door event. Anayss sees somebody returning."
+        ]
+      },
+      {
+        period: "December 19–21, 2023",
+        title: "THE PROMOTION DISCUSSION HAS AN ACTUAL HUMAN MIDDLE",
+        paragraphs: [
+          "Snow's case is straightforward: Amexistir and Chubi have been helping a lot and are very active. The responses add the part a title list cannot. Sye likes Chubi but remembers the club-visiting habit and a possible earlier no. Noether's answer is basically: ask whether they want it now and whether they can stay around more. Anayss says `Im ok 100%`. Wolf has `nu complaints uwu`.",
+          "Two days later Snow posts `Welcome to officer room @Amexistir`; Chubi gets a corresponding welcome. The discussion plus the welcomes are strong enough to treat this as an executed promotion path, without pretending they prove the absolute first moment either person ever held authority. The useful part is how the group gets there: observed work, practical concern, consent, peer judgment, then the door opens."
+        ]
+      },
+      {
+        period: "January 2024",
+        title: "THE ROOM IS FOR USING",
+        paragraphs: [
+          "The next useful Amexistir scene is not another congratulation. Snow tells Amexistir that alliance thoughts can go into DR Game HQ so `the officers can discuss here`. That is the title becoming behavior: Amexistir is being invited into the place where the group actually talks through game-side decisions.",
+          "The later status story is still incomplete, so the page does not manufacture a retirement date or quietly move Amexistir into today's command roster. What survives cleanly is enough: a returning member the room learned to accommodate, then a person the group explicitly considered for more responsibility and welcomed into the work."
+        ]
+      }
+    ]
+  },
+
   mugen: withSection(mugen1619NarrativeCharacterBios.mugen, {
     period: "March 2023",
     title: "THE BOT DIED. MUGS CALLED IT A RECORD.",
