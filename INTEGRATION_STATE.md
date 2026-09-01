@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-01 13:37 PDT_
+_Last updated: 2026-09-01 14:02 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Older pass detail remains in Git history and numbered `INTEGRATION_STATE_RUN_*` snapshots. MAIN's controlling branch-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`.
 
@@ -9,6 +9,16 @@ This is the current durable dual-surface reconciliation snapshot. Older pass det
 The person is the spine; events are supporting scenes; the archive stays backstage. MAIN owns the richest person/legend biographies, lived chronology, relationship texture, and `Petty Crimes`. WIKI owns the complementary searchable/reference layer: Cast dossiers, role progression, Relationships, Episodes, Running Gags, Quotes, Locations, Gallery/media notes, and structured person-first material where lookup benefits from it. Do not mirror prose between the two surfaces.
 
 Hard user-confirmed canon, resolved identities, privacy/safety boundaries, explicit contradictions, formal appointment chronology, and attribution fences remain hard. Outside those rails, strong contextual reads about habits, tastes, relationships, humor, care patterns, ordinary life, reputation, and social roles are publishable when more likely than not.
+
+## 2026-09-01 14:02 PDT — Run 164 no-delta boundary
+
+Mandatory full miner census: **49 tracked miner identities = 28 active refs + 21 historical/missing refs**, **0 newly discovered**. Every active miner HEAD matched its `last_consumed_sha` at the census boundary. There was therefore no finite `archive-intake/*` delta to review this pass.
+
+Final queue: **0 pending review, 0 pending publication, 0 backlog, 0 overdue**. Wall remains `recovery_in_progress` only as an open future quarry and is fully reviewed through current `4ae134ca74fcdb94cd5f1ae87d96856493260a76`. Both Club-Only recovery priorities remain current at `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa` and `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`.
+
+No raw archive was reopened. No miner branch was merged or cherry-picked wholesale. Reader-facing MAIN pages changed 0; reader-facing WIKI dossiers/Episodes/routes changed 0. No genuinely new finding, duplicate evidence family, identity conflict, appointment-history conflict, attribution conflict, or new rabbit hole entered the integration queue. Consumed SHAs remain unchanged because miner heads remain unchanged.
+
+MAIN's mandatory branch census ledger and durable dual-surface pass report were refreshed on `master`. This WIKI state is the complementary no-delta bookkeeping layer; nothing was mirrored merely to manufacture activity.
 
 ## 2026-09-01 13:37 PDT — Run 163 close
 
