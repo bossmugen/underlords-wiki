@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-01 13:15 PDT_
+_Last updated: 2026-09-01 13:34 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Older pass detail remains in Git history and numbered `INTEGRATION_STATE_RUN_*` snapshots. MAIN's controlling branch-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`.
 
@@ -10,50 +10,61 @@ The person is the spine; events are supporting scenes; the archive stays backsta
 
 Hard user-confirmed canon, resolved identities, privacy/safety boundaries, explicit contradictions, formal appointment chronology, and attribution fences remain hard. Outside those rails, strong contextual reads about habits, tastes, relationships, humor, care patterns, ordinary life, reputation, and social roles are publishable when more likely than not.
 
-## 2026-09-01 13:15 PDT — Run 161 close
+## 2026-09-01 13:34 PDT — Run 162 close
 
-Mandatory full miner census: **49 tracked miner identities = 28 active refs + 21 historical/missing refs**, **0 newly discovered**. One finite branch advanced and was reviewed checkpoint-first and intake-only:
+Mandatory full miner census: **49 tracked miner identities = 28 active refs + 21 historical/missing refs**, **0 newly discovered**. Four intake tails were reviewed checkpoint-first and intake-only during the run:
 
-- `archive-miner/all-characters-hr-20260828`: `cb9f3b116429f03901f368035b41bcbaadd84b4d -> 7f3121acbba33616cef59f5b45ed9e4a7c4d8f22`
+- `archive-miner/daycare-2020-2026-hourly`: `54c3db484c1f7f931061b657c1b572127e0e89b5 -> 0412ddb82aa326e5c8d91e02d094032f1c550882`
+- `archive-miner-wall-hourly-20260824`: `2296cd53de2bb218d67465a9f5182ba1bac6afb2 -> c47ec73fef66ff9cca10134f8b56f7f8e798fe7c`, then late suffix `c47ec73fef66ff9cca10134f8b56f7f8e798fe7c -> 4ae134ca74fcdb94cd5f1ae87d96856493260a76`
+- `archive-miner/mugen-person-first-20260828`: `b0b4ec5a629d8551b960783da3cbed0009db76a9 -> 72e90cebe5084a3ae2e1aaa22064b1ed5d86b49c`
 
-The closing census found no late miner movement. Final queue: **0 pending review, 0 pending publication, 0 backlog, 0 overdue**. Wall remains `recovery_in_progress` only as an open future quarry and is otherwise current through `2296cd53de2bb218d67465a9f5182ba1bac6afb2`. Both Club-Only recovery priorities remain current at `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa` and `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`.
+Final queue at the reconciled boundary: **0 pending review, 0 pending publication, 0 backlog, 0 overdue**. Wall remains `recovery_in_progress` only as an open future quarry; its current reviewed head is `4ae134ca74fcdb94cd5f1ae87d96856493260a76`. Both Club-Only recovery priorities remain current at `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa` and `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`.
 
 No raw archive was reopened. No miner branch was merged or cherry-picked wholesale.
 
-### Ghostt — quitting Raja did not mean quitting games
+### DyingFox — pain apparently improves on the sixth reread
 
-The genuinely new MAIN-sized character beat is small and useful. On May 26, 2021, Ghostt said an unidentified game had accumulated **`so many hours`** across repeat playthroughs. The surrounding recovered context does not safely name the game. Do not force the referent to Dragon Raja or any other title, and do not upgrade one repeat-playthrough admission into a favorite-game claim.
+The Daycare tail adds a sharp taste seed. DyingFox gets excited rather than discouraged by a long chapter count (`let's gooooo`), asks about a title, complains that one work should have leaned even harder into tragedy, and says `cant wait to reread scums wish for the 6th time`.
 
-The person read is still solid without the missing noun: Ghostt had already said she was done playing Raja while remaining in the Discord, yet she was plainly still enough of a gamer to replay something until the cumulative hour count became a joke/confession. MAIN folded that into `Petty Crimes`, where it deepens the existing game-detachment biography instead of becoming another dated archive paragraph.
+The useful read is appetite, not pathology: long-form fiction is a feature, emotional punishment is apparently not a deal-breaker, and at least one tragic favorite has become reread material. No trauma, romance, diagnosis, or exact title normalization is inferred from that.
 
-WIKI intentionally receives **no reader mutation** from this finding. `src/data/character-biographies-ghostt.ts` already owns the same structured clue: it records that one 2021 line says many hours went into an unidentified game while explicitly refusing to invent the title or call it a favorite. Same evidence family, different surface job; duplicating the prose would add nothing.
+Neither public surface currently has enough DyingFox person body to justify a new dossier/profile. The seed is banked rather than turning one excellent taste cluster into a cardboard biography.
 
-### Hishiro and Nhou — consumed as current/corroborating, not respawned
+### Rotini — a joke enters the room; Rotini asks where the utensils go
 
-Run 72 also resurfaced Hishiro's recurring information/correction/verification register (`Lol I only go for info` / `same`, the Reapers erratum, and Mugen asking `accurate or no, thoughts?` followed by `accurate`). MAIN already carries that cumulative read. It remains a lived behavior pattern, not a formal title.
+The first Wall tail deepens Rotini's way of handling bits. When the room invents a border/exile joke around Rotini, the response is not passive acceptance: `we should put a snack on a plate and I'll take it when I leave 👍`. As peers keep adding drink, water, bib, and utensils, Rotini trims the operating spec with `no eating utensils needed`. The same pass also preserves Rotini's awareness that some material would have belonged on Fame instead of Shame if VC context had been supplied.
 
-Nhou's `i got the last thing` followed almost immediately by `i dont remember what it was lol`, the wake-up `z` spam, and the `Nhouwu + duck` Photo Submissions post were also already current on MAIN. The image remains POSTED BY Nhou; MADE BY / CAPTURED BY / FEATURING are not inferred from proximity. No duplicate reader paragraph was added to either surface.
+That is a strong cumulative mechanism: Rotini tends to treat contained joke systems as logistics to optimize. The public surfaces still lack enough Rotini body for a proper person page, so this remains banked. No formal border role, physical co-location, server-causation, sexual inference, or image attribution is manufactured from the surrounding jokes.
 
-### Verification / publication boundary
+### Mugen / Key — her reputation can enter before she does
 
-MAIN reader commit `f5d8907f54b18034f26acf5283cf177b0b8c51b8` passed the exact **UL Hourly Build + Deploy** workflow `33553956391`: source canon/architecture verification, Astro build, built-output verification, and exact Cloudflare production deployment all completed successfully. MAIN then advanced the All Characters HR consumption cursor through `7f3121ac...` in state commit `8cbdeeab1264dfa8c364784b8e51a8c7f32c0110`.
+The Mugen tail adds a reception-side beat from Key's 2021 joke grammar. Key's attempt to contain evidence is not `delete this` or `don't tell staff`; it is `...dont tell mugs` followed by `shhhh`. Mugen is not established as present, seeing it, reacting, punishing anyone, or even knowing it happened.
 
-WIKI reader objects/routes changed **0** because Ghostt's structured reference already contained the accepted habit. This state-only close is the WIKI publication boundary for the pass and is gated by the repository's normal exact-head Build and Pages workflows.
+That absence is the point. Key can use Mugs as the imagined audience whose awareness matters, and the joke apparently expects the room to understand why that is funny without explaining the consequence. It deepens the older Mugen/Key relationship and Mugen's contradiction: she helped create a house where ridiculousness is normal, yet can still become the offstage person a clown jokingly tries to hide the ridiculousness from.
 
-### Carry-forward rails / rabbits
+This is accepted and banked rather than forced into another MAIN receipt paragraph from one invocation. Reopen if the same absent-Mugs consequence recurs independently or if a later scene names the reaction people expect. Do not literalize family discipline, fear, sanction, or fabricate a pre-Raja origin for the joke.
 
-- Ghostt's unidentified repeat-playthrough game remains unidentified. Do not name it, equate it with Raja, or call it a favorite without more context.
-- Hishiro's information/correction/verification behavior remains behavior, not a formal job title.
-- Nhou's Photo Submissions attachment remains POSTED BY Nhou only unless separate evidence resolves creator/capture/subject credit.
-- New/Newmal remains male and remains in Mugen's older pre-Raja circle; later recruitment through GenGrey is a later route, not a first-meeting clock.
-- The Wall's separate stable-account `Sou` collision remains unresolved against hard Ansun/Sou canon; do not split or merge by display-name similarity.
-- Wall source-object / capture / creator provenance rabbits remain fenced. No uninspected media receives MADE BY / CAPTURED BY / FEATURING attribution by proximity.
-- Export-time role arrays do not date appointments. Joke family/romance language is not literalized. Private/sensitive material stays private.
-- Earliest surviving remains earliest surviving, not guaranteed origin.
+### Erys / Emi — theatrical defendant, immediate prosecutor, still looking for everybody afterward
+
+The late Wall suffix gives Erys a coherent person pattern instead of another screenshot list. After Ren posts a receipt, Erys answers within seconds with `NO`, `i swear that isnt me`, `its photoshopped`; after Mugen posts more, the defense escalates to `im being hacked`. Minutes later Erys posts a receipt back, tags Ren, and mirrors Ren's giant scream. When Mugen says there is more evidence, Erys says `no one needs to see the rest mugss` and then `:))`.
+
+The smile is useful. The denials read as performative resistance inside the game, not withdrawal from it. Four days later Rich is already joking that Emi is trying to win the most-shame award. Then a second dimension appears: Erys repeatedly asks where everyone went, says `i missssg yalll`, recognizes Rummy's best-friends hug GIF, thanks Rummy, returns `i lubn u tyoo`, and later gets practical directions from Eos to the room where everybody moved.
+
+So the strong read is emotionally loud, highly reactive, but socially sticky rather than avoidant when embarrassed: deny dramatically, file back, mirror the scream, then go looking for the people when the room empties. No actual hack/Photoshop claim, diagnosis, substance-use inference, romance, or image-maker/capturer/subject attribution is added. Neither surface currently has enough Erys/Emi body for a responsible full profile, so this is banked as a future dossier seed.
 
 ## Surface split
 
-- **MAIN:** `src/content/people/ghostt.md` gained one `Petty Crimes` fold for the repeat-playthrough gaming habit. Hishiro and Nhou remained reader no-ops because their Run-72 material was already stronger/current publicly.
-- **WIKI:** reader data/routes changed 0. Ghostt's structured dossier already owned the unidentified-game repeat-playthrough clue, so WIKI records the reconciliation here instead of manufacturing duplicate prose.
+- **MAIN:** reader-facing pages changed 0. DyingFox, Rotini, and Erys/Emi are strong but under-bodied person seeds; Mugen's Key-side offstage-gravity beat is accepted but banked rather than bolted onto an already-rich biography from one invocation.
+- **WIKI:** reader-facing dossiers/Episodes changed 0 for the same reason. These are person seeds and relationship mechanisms, not excuses to mint thin Cast pages or one-receipt Episodes.
 
-Same lore system, different jobs. The game title stays missing; the character beat does not need it to be good.
+## Carry-forward rails / rabbits
+
+- DyingFox's exact earlier long-work title remains unresolved; tragedy/reread taste does not become trauma or diagnosis.
+- Rotini's media pixels remain uninspected. `tongue maiden` is reported language only; Sou/Satanist relation remains unresolved; no formal border office exists because a snack ritual happened.
+- Mugen is not proven present for Key's `dont tell mugs` exchange. Do not infer actual punishment, fear, or family discipline.
+- Erys's `photoshopped` / `being hacked` language is joke-defense vocabulary, not an actual hack claim. `i lubn u tyoo` with Rummy is warm peer/friendship texture, not romance.
+- New/Newmal remains male and remains in Mugen's older pre-Raja circle; later recruitment through GenGrey is a later route, not a first-meeting clock.
+- Wall source-object / capture / creator provenance remains fenced. POSTED BY never silently becomes MADE BY / CAPTURED BY / FEATURING.
+- Export-time role arrays do not date appointments. Earliest surviving remains earliest surviving, not guaranteed origin. Private/sensitive material stays private.
+
+Same lore system, different jobs. This time the correct public move was restraint: four good character mechanisms entered the reconciled bank, and none deserved a cardboard page just because the miner found them.
