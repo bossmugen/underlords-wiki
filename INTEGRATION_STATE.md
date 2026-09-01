@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-01 06:00 PDT_
+_Last updated: 2026-09-01 06:08 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Older pass detail remains in Git history and MAIN's dated integration reports.
 
@@ -10,7 +10,7 @@ The person is the spine; events are supporting scenes; the archive stays backsta
 
 Hard user canon, resolved identities, privacy/safety boundaries, explicit contradictions, appointment chronology, and attribution fences remain hard. Outside those rails, strong contextual reads about habits, relationships, humor, care patterns, ordinary life, reputation, and social roles may publish when more likely than not.
 
-## 2026-09-01 06:00 PDT — Run 137 census-only close
+## 2026-09-01 06:08 PDT — Run 137 census-only close
 
 Mandatory full miner census: **49 tracked identities = 28 active refs + 21 historical/missing refs**. No new miner identity was discovered. Every active ref matched the `last_seen_sha` already stored on MAIN, and every active stored reviewed/consumed boundary was already current. There is **0 finite pending review, 0 pending publication, 0 backlog, and 0 overdue**.
 
@@ -21,6 +21,8 @@ No miner delta existed beyond a consumed boundary, so there was no checkpoint-fi
 The accepted Run 135 surface split remains current: HamitteY/Baby Lyssa relationship texture belongs to MAIN; bot-breaking endurance and the earliest-surviving Ansun Wall filing remain WIKI Episodes; Alkey/Meowk and Lena/Aelena remain deduped against richer existing MAIN biographies; Support Tech remains resolved publicly to Dean; stale miner-local attempts to remove New from Mugen's pre-Raja circle remain rejected by hard user canon.
 
 Attribution and safety fences are unchanged: POSTED BY / MADE BY / CAPTURED BY / FEATURING remain separate; earliest surviving is not guaranteed origin; current role arrays do not date appointments; similar names do not create identities; joke family/romance language is not literalized; private/sensitive material remains private.
+
+Verification before this durable close: MAIN commit `19ef7483a18a82cd1061b82e07ea436152f654cc` passed workflow `33511263494` end-to-end, including source canon/architecture verification, Astro build, built-output verification, and exact Cloudflare production deployment. WIKI commit `594f9f6e0995717853845c44ead12936f617e079` passed Build `33511342528`; Pages workflow `33511342489` completed build, deploy, and report successfully.
 
 ## 2026-09-01 05:57 PDT — Run 136 census-only close
 
