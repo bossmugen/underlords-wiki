@@ -140,10 +140,25 @@ const additions: Character[] = [
     logline: "Yaza enters by asking the sensible onboarding question about age disclosure; months later Gilli closes the membership question directly: `You are UL member` and therefore `You have a chapter.`",
     tags: ["Staff", "UL member", "Whiskey"],
   },
+  {
+    id: "amexistir",
+    name: "Amexistir",
+    billing: "legacy",
+    role: "Archive-era Officer",
+    era: "2022–2024+",
+    logline: "Separate from Ame. The Lobby learns to meet Amexistir in Spanish; by December 2023 Snow's group has openly discussed the promotion, Amexistir is welcomed into the Officer room, and the next month Snow is routing alliance thoughts into officer deliberation.",
+    tags: ["Archive cast", "Officer", "2023", "Lobby", "DR Game HQ"],
+  },
 ];
 
 const metadataOverrides: Record<string, Partial<Character>> = {
   new: { role: "Staff", tags: ["Staff"] },
+  ame: {
+    aliases: [],
+    role: "Game Officer",
+    logline: "Current Game Officer Ame. Amexistir is a separate person and keeps a separate character file.",
+    tags: ["Game Officer", "Identity split"],
+  },
   zyrcant: {
     aliases: ["Akariel", "Akariel™", "akariel_star"],
     logline: "Former Amaurot deputy and recurring VIP whose Akariel names belong to the same person; the club history can get fuzzy without splitting Zyrcant into a second character.",
