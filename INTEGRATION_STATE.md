@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-08-31 20:03 PDT_
+_Last updated: 2026-08-31 20:15 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Older pass detail remains in Git history and MAIN's dated integration reports.
 
@@ -20,6 +20,12 @@ Hard user canon, resolved identities, privacy/safety, explicit contradictions, a
 - All Characters HR is consumed/reviewed through `bdea101d937a65d37e5c500a9868f8ce04746a10`; its Run-60 Zoshaa refresh was a successful no-public-change review because both public surfaces already contain the stronger synthesis. Core Rooms remains consumed through `65dc030b3c3d203d61c444baffd3cf8caa9f022d`.
 - Both Club-Only recovery priorities remain current: 2021–2026 through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`; 2020 through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`.
 - No miner branch was merged or wholesale cherry-picked; no raw archive was re-mined by the integrator.
+
+## Run 106 — census-only close
+
+The next full branch census found **no active miner head beyond the consumed/reviewed boundaries above**. MAIN persisted that census at `19a0e742e7c14355d457ad65516c37b606f294d5`; all 28 active refs still match their recorded heads, the 21 historical/missing identities remain recorded, and there is no finite pending/backlog/overdue work to manufacture into public copy.
+
+No reader-facing MAIN or WIKI page changed in this pass. Wall remains recovery-open only for future movement; both Club-Only recovery priorities remain current. Because there was no intake delta, the integrator did not reread a consumed checkpoint, re-mine raw archives, or breed another duplicate character paragraph simply to have something to publish.
 
 ## All Characters HR Run 60 — Zoshaa moved downstairs, not sideways
 
