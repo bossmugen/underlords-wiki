@@ -1,10 +1,10 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-08-31 17:59 PDT_
+_Last updated: 2026-08-31 18:13 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Older run detail remains in Git history and MAIN's dated integration reports.
 
-## Current boundary — Run 97 hard-canon correction
+## Current boundary — Run 98 publication-debt paydown
 
 The public-bio rule remains: **the person is the spine; events are supporting scenes; the archive stays backstage.** MAIN owns the richest person/legend biographies. WIKI owns complementary Cast dossiers, role progression, Relationships, Episodes, Running Gags, Quotes, Locations, gallery/reference structure, and person-first narrative where the route uses it. `Petty Crimes` is the catch-all; never `Trivia`.
 
@@ -13,6 +13,7 @@ Hard user canon, resolved identities, privacy/safety, explicit contradictions, a
 ## Census / review boundary
 
 - Full census: **49 tracked miner identities = 28 active refs + 21 historical/missing refs; 0 newly discovered; 0 finite pending review; 0 backlog; 0 overdue**.
+- Closing census matched opening census; no active miner head advanced during Run 98.
 - All Characters HR is reviewed through `6b52b105995b5f4dffddee2581c3b7977adec043`.
 - Core Rooms is reviewed through `07b0bd17323d1db93a6deb37270034dca4ba6a6a`.
 - Daycare is reviewed through `3d15ae8e161d910b64a62d66c857a0279f006fce`.
@@ -21,6 +22,20 @@ Hard user canon, resolved identities, privacy/safety, explicit contradictions, a
 - Mugen person-first is reviewed **and consumed** through `ade8b985f6fb7e19b748325df6ab24bc48ead2d4`.
 - Both Club-Only recovery priorities remain current: 2021–2026 through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`; 2020 through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`.
 - No miner branch was merged or wholesale cherry-picked; no raw archive was re-mined by the integrator.
+
+## Run 98 — Ansun finally gets to be a person on MAIN
+
+No miner branch advanced, so Run 98 did not reread already-reviewed intake for theater. Capacity went to the existing MAIN publication-debt queue.
+
+The reviewed All Characters HR handoff for **Ansun / Souta** was materially richer than MAIN's prior event-forward page. MAIN `src/content/people/ansun.md` was rewritten around the person: his remembered quiet entry and later online loudness; the picture-day habit of diving underwater rather than photobombing; the way Officer work looks like reducing confusion and handing somebody the next usable door; tarot-event comfort checking without killing the joke; Phantom tutoring as adaptive patience; mutual participation in the Anthos merged-being bit; creator-credit boundaries; and ordinary tastes/jokes under **Petty Crimes**.
+
+The important contradiction now survives in public: Ansun can be loose enough to declare `we are one being` with Anthos for comedy and strict enough to care about authorship, evidence, comfort and consequences when those actually matter. Ansun remains categorically distinct from Anthos.
+
+MAIN reader commit `040ef1ded4125a68fae51a859c8789d69d3a42a4` passed exact workflow `33457694840`: source canon/architecture verification, Astro build, built-output verification, and the separate verified Cloudflare deployment all completed successfully.
+
+WIKI did **not** receive duplicate Ansun prose. The richer biography belongs to MAIN; WIKI remains the complementary structured/reference surface.
+
+All Characters HR remains formally publication-open rather than falsely closed. Ansun's accepted slice is now paid; Nelph's current MAIN page already carries most of the reviewed person-first material, but the later Sye↔Nelph mutual-credit handoff still needs a final novelty decision before that family cursor advances.
 
 ## Run 97 — Mugen: away is not the same condition as gone
 
@@ -65,18 +80,19 @@ Daycare + Wall's HamitteY/Ghoulie screenshot ambush remains one evidence family,
 
 ## Remaining MAIN publication debt
 
-The named MAIN debt list is **four families**:
+The named MAIN debt list remains **four families**, with All Characters now partially paid:
 
-- All Characters HR
-- Core Rooms
-- Daycare
-- Whiskey
+- All Characters HR — Ansun published/verified in Run 98; final remaining novelty closure still open.
+- Core Rooms.
+- Daycare.
+- Whiskey.
 
 Wall remains recovery-open with older complementary MAIN material, but the current recovery suffix is already reviewed. Lower-priority Mugen texture such as the off-duty Snow/R&B scene and Gab's low-stakes phrase self-check stays banked rather than being forced into duplicate prose.
 
 ## Rails held
 
 - **New remains in Mugen's user-confirmed older pre-Raja circle alongside Dean, Key, Zepp, Kal, and GenGrey.** A later recruit-through-GenGrey scene is not a first-meeting chronology.
+- Ansun / Souta remains distinct from Anthos; merged-being language is mutual comedy, not identity evidence.
 - Rich / DragonRich remains distinct from Ricochet / `dragonrichard`.
 - Anayss remains current Battle Leader; no appointment date was inferred from behavior or export-time/current role arrays.
 - Ritha remains retired historical Consigliere / Senior Advisor / Founder, not current Battle Leader.
