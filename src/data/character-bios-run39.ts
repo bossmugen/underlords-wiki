@@ -4,8 +4,11 @@ import { lateRetiredOfficerCharacterBios } from "./character-bios-retired-late";
 import { deepArchiveCharacterBios } from "./character-bios-archive-deep";
 import { vipCharacterBios } from "./character-bios-vip";
 import { lateVipCharacterBios } from "./character-bios-vip-late";
+import { newCharacterBios } from "./character-bios-new";
 
 export const run39CharacterBios = {
+  ...newCharacterBios,
+
   rich: {
     ...vipCharacterBios.rich,
     dek: "DragonRich, former Amaurot leader, UL VIP, and the neighboring-club boss who was already building rooms bigger than one club before Amaurot later merged under UL.",
