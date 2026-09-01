@@ -43,7 +43,7 @@ export const shiyaxNarrativeCharacterBios: Record<string, CharacterNarrative> = 
         period: "Petty Crimes",
         title: "PETTY CRIMES",
         paragraphs: [
-          "ShiyaX has yelled `AUUUUU`, lost a fight to one lobster, announced `Not to brag but i have all there is to buy on gta`, bought GTA material `for when you are able to play`, doodled until his own finger revoked the drawing permit, announced `I AM THE CHAOS`, and asked a room full of people with a documented horse problem whether the horses were the toys. This is a perfectly respectable résumé if nobody asks follow-up questions.",
+          "ShiyaX has yelled `AUUUUU`, lost a fight to one lobster, announced `Not to brag but i have all there is to buy on gta`, bought GTA material `for when you are able to play`, doodled until his own finger revoked the drawing permit, announced `I AM THE CHAOS`, and asked a room full of people with a documented horse problem whether the horses were the toys. He also admits `I pilot 3 accounts :ZenitsuCry:`; the surviving line never tells us which game, so the wiki files it under self-created administrative burden instead of inventing a platform. This is a perfectly respectable résumé if nobody asks follow-up questions.",
           "He also has a useful habit of letting the joke hit him back. Old Wall material can be resurrected around him, somebody can ask why so much evidence is about him, and `shh` is apparently considered a sufficient legal defense.",
           "`stop attacking the bus` remains one of the cleaner examples of ShiyaX entering a running joke late and somehow sounding like the exhausted municipal authority assigned to it. He was not. Unfortunately the bus still needed representation."
         ]
