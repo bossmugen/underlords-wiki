@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-01 07:04 PDT_
+_Last updated: 2026-09-01 07:05 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Older pass detail remains in Git history and MAIN's dated integration reports.
 
@@ -10,7 +10,7 @@ The person is the spine; events are supporting scenes; the archive stays backsta
 
 Hard user canon, resolved identities, privacy/safety boundaries, explicit contradictions, appointment chronology, and attribution fences remain hard. Outside those rails, strong contextual reads about habits, relationships, humor, care patterns, ordinary life, reputation, and social roles may publish when more likely than not.
 
-## 2026-09-01 07:04 PDT — Run 140
+## 2026-09-01 07:05 PDT — Run 140 close
 
 Mandatory full miner census: **49 tracked identities = 28 active refs + 21 historical/missing refs**. No new miner identity was discovered.
 
@@ -22,9 +22,9 @@ Closing queue at census: **0 finite pending review, 0 pending publication, 0 bac
 
 ### Public surfaces
 
-**MAIN:** no reader page changed. The pass only refreshed the mandatory branch ledger and added a dated durable integration report.
+**MAIN:** no reader page changed. The pass refreshed the mandatory branch ledger and added/closed a dated durable integration report.
 
-**WIKI:** no reader object, Cast dossier, Episode, Running Gag, quote set, route, or resolver needed a lore change. This state file records the same no-delta boundary without mirroring MAIN prose.
+**WIKI:** no reader object, Cast dossier, Episode, Running Gag, quote set, route, or resolver changed. This state file records the same no-delta boundary without mirroring MAIN prose.
 
 Run 139 therefore remains the latest reader-facing integration boundary: MAIN owns Kiro reciprocal rough-banter and Zyrcant/Akariel's Bee Movie / word-of-day `Petty Crimes`; WIKI owns the compact Kiro deepener plus Mugen-Nhou stakes-sensitive peer register and Mugen's participant-recordkeeper bot correction.
 
@@ -36,7 +36,11 @@ Do not rediscover Run 139 material merely because another scheduled pass occurre
 
 ### Verification / deployment
 
-Run 140 changes are documentation/state-only. Exact final publishing-branch workflow results are checked after these commits and reported in the run close; any failure on one surface does not authorize unsafe publication on the other.
+MAIN Run 140 state/report commit `431b4fec7fdfae32c4a6423c1978329aaa63c3c9` passed exact workflow `33517019816`: source canon/architecture verification, Astro build, built-output verification, and exact-commit Cloudflare production deployment all succeeded.
+
+WIKI Run 140 state commit `2e69d09896b9c9bed6a343e72063c69f37e4096d` passed exact Build workflow `33517104347`; exact Pages workflow `33517104287` also succeeded through preview build and GitHub Pages deployment.
+
+This close update changes documentation only. Its own exact branch workflow is checked separately at close so the publishing head is not assumed green merely because the previous state was.
 
 ## Carry-forward rails / rabbits
 
