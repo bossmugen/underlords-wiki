@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-01 02:43 PDT_
+_Last updated: 2026-09-01 02:46 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Older pass detail remains in Git history and MAIN's dated integration reports.
 
@@ -10,147 +10,51 @@ The person is the spine; events are supporting scenes; the archive stays backsta
 
 Hard user canon, resolved identities, privacy/safety boundaries, explicit contradictions, appointment chronology, and attribution fences remain hard. Outside those rails, strong contextual reads about habits, relationships, humor, care patterns, ordinary life, reputation, and social roles may publish when more likely than not.
 
-## Run 124 — Daycare / Wall reconciliation
+## Run 124 — close
 
-Run 124's mandatory census remains **49 tracked miner identities = 28 active refs + 21 historical/missing refs**, with **0 newly discovered, 0 backlog, 0 overdue**. This pass fully reviewed and consumed Daycare from `aac9ef12724b9f4330c57bf6834c48a884c91c36` through `9ba628e234b843a1f779608197c0c75395ce5b51` and the recovery-open Wall suffix from `af308f5cd377280ef596ff456f10dec330261dec` through `1c2104e20ec90d3217a4b32d93b260dd13904661`, checkpoint-first and intake-only. Two finite pending branches remain: All Characters HR `d0b90fd026df355722f834c6e0e50942218410c2 -> b1576dc4483124a1315f88c7de488e5e6db5060e` and Mugen person-first `2a0e3daf7f3ef141d0bfe5cd4f8fecda3e2116d3 -> 189b78ab1869aa2cc2a38c1b26a9c7b5c0e1181d`. Wall stays recovery-open only for future movement; both Club-Only recovery priorities remain current.
+The mandatory census closes at **49 tracked miner identities = 28 active refs + 21 historical/missing refs**, with **0 newly discovered, 0 finite pending review, 0 pending publication, 0 backlog, 0 overdue**. Wall remains recovery-open only for future movement and is fully reviewed through `1c2104e20ec90d3217a4b32d93b260dd13904661`. Both Club-Only recovery priorities remain current: 2021–2026 through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`; 2020 through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`.
 
-### Woosung — the bot is part of the conversation
+Run 124 reviewed four intake-only deltas checkpoint-first: Daycare `aac9ef12… -> 9ba628e2…`, Wall `af308f5c… -> 1c2104e2…`, All Characters HR `d0b90fd0… -> b1576dc4…`, and Mugen person-first `2a0e3daf… -> cd3ce4df…`. No miner branch was merged or wholesale cherry-picked.
 
-Daycare adds a cumulative Woosung read rather than a new role or incident ledger. April 2020 already has WOO using the Lobby bot to catch a Budew. In September she types `eli kill` at Anthos; the bot generates the mock-kill result, then roughly twenty-four seconds later generates the affection turn, and WOO answers that hug/glomp beat **0.180 seconds later** with a love/party Tenor GIF. The pattern is not `Woosung uses bots`. The little server mechanisms become part of how she plays with people: tiny mechanical input, immediate social payoff, mock aggression allowed to flip affectionate without anybody filing an emotional reset form.
+### Ritha — the founding story includes who carried the Boss
 
-The miner used stale he/him language. Hard canon controls: **Woosung is a woman and uses she/her pronouns.** Bot output is not prose authored by her. WOO **POSTED** the GIF; the archive does not establish that she made it. None of the command play is literal violence, hostility, romance, or relationship rank.
+The genuinely new cross-surface keeper came from the Mugen person-first handoff but belongs most naturally to **Ritha** as lived competence and relationship history. A later Mugen-side Safe House summary remembers Ritha doing concrete startup labor for the early group, especially carrying Mugen and the early circle through dungeon content.
 
-MAIN folded the cumulative pattern into `src/content/people/woosung.md` at `f37e36509bb28c1a187396af3486f1f7ea986c25`. Exact workflow `33493278450` passed source canon/architecture verification, Astro build, built-output verification, and Cloudflare production deployment. WIKI intentionally keeps its current structured Woosung dossier rather than minting a second Episode: the dossier already owns the kill-to-affection social-play material and the separate Snow/K-pop persistence scene, so copying MAIN's new person-shaped prose here would blur the surface split.
+That is useful because the founding chart can make the five names look flatter than the relationship underneath them. Mugen founded and organized the house; Ritha could still be the friend doing the carrying when the game demanded another kind of competence. Mugen's later authority does not retroactively make the opening period self-sufficient. The relationship gets an actual direction of help: **Founder / beneficiary; organizer / carried.**
 
-### Wall — review without breeding pages
+The limits remain hard. The raw Safe House wording/date/message IDs/reply topology are not rejoined. Do not turn the summary into a direct Mugen quote, claim she was generally bad at Dragon Raja, claim Ritha carried every dungeon, or extract appointment chronology from nearby honorary/legacy language. Ritha's real strategy reputation remains separate from any formal Battle Leader appointment chronology and does not collide with Anayss's later/current role.
 
-Lilly's new Wall suffix strengthens one already-public person pattern: she wants the live mess, complains `where is this convo why am i missing it`, then joins the screenshot filing once she catches up; on two separate dates she POSTS an artifact and directly summons Woohyuk shortly afterward. MAIN had already integrated that cumulative social style at `49ec3a27975264218d85f5fe4355d905d9632da9`; exact workflow `33492295157` passed the full MAIN verification/deployment chain. No duplicate WIKI Episode was needed.
+**MAIN** rebuilt `src/content/people/ritha.md` person-first at `8ce1ac81e0d0351c6b8cb236d17ea031eb4eea8b`. The page now holds the carried-us startup memory beside Ritha's old friendship with Mugen, real strategy competence, years-long *Tower of God* investment, and `and hiii mugs uwu` social voice instead of letting Founder / Consigliere paperwork swallow the person. A concurrent child commit then added Woosung material; descendant `f37e36509bb28c1a187396af3486f1f7ea986c25` passed exact workflow `33493278450`: source canon/architecture verification, Astro build, built-output verification, and Cloudflare production deployment all succeeded.
 
-TonyTonyChopper / `yourlocalfiend` now has a promising change-over-time seam rather than scattered reactions. His first surfaced Wall prosecution gets `STOPPPP` and `WR DONT NEED TO SHARE THIS WITH THE WORLD`; peer wording calls it an almost immediate Wall-shaming speedrun. Tony nevertheless stays in the pocket, heart-reacts to Rummy's `*pat pat*`, answers Marian's `bad influence` joke, and two months later is participating in the Dragon Raja corpse-loss bit strongly enough to declare `You gotta be careful with bodies can’t just misplace them like that`. The useful read is embarrassment becoming participation: expressive mock resistance without social exit, then quick uptake of the room's absurd internal rules. It is banked as profile material / possible `Petty Crimes` (`Body Handling Compliance`), not inflated into a formal corpse role, literal body handling, or a thin standalone public page before another person dimension arrives.
+**WIKI** adds the complementary relationship layer through `src/data/character-biographies-run114.ts` at `77f5d5f74ec31ad65f64707bddc452433d0f3a53`, using the Ritha dossier as the reference owner rather than mirroring MAIN prose. Exact Build `33493300067` and exact Pages `33493300018` both succeeded.
 
-Torr's exact Rummy-pancake reply also adds a small domestic-memory beat: his family called grandma's repeatedly burnt special-occasion dinner biscuits `blackened`, and he deploys the story while somebody else's cooking failure is being laughed through. Good future person/Petty-Crimes material; not a broader family biography. The same Wall pass corrected the nearby q18 reply topology backstage: pooled Deleted User `1038447540544208957` is not Torr, Torr's own reply is `1038356553130057738`, and HamitteY/Anayss belong to a different parent thread. No retained-file mythology is inferred from the text-only correction.
+### Woosung — server machinery as social toy
 
-No media pixels were inspected in either Wall pass. `POSTED BY` / `MADE BY` / `CAPTURED BY` / `FEATURING` remain separate.
+Daycare's new cumulative Woosung read is already public on MAIN through the concurrent descendant. April 2020 has WOO catching a Budew through the Lobby bot; September has `eli kill`, then a bot-generated hug/glomp, then WOO answering the affection beat almost instantly with a love/party GIF. The mechanism is not merely `uses bots`: she repeatedly turns little server systems into ways of playing with people.
 
-### Consumption / surface routing
+Hard canon controls **Woosung as a woman using she/her**, despite stale miner pronouns. Bot output is not prose authored by her; the GIF is POSTED BY WOO, not automatically MADE BY her. WIKI intentionally does not mint a duplicate Episode because its existing structured Woosung treatment already owns the useful bot-play and separate Snow/K-pop material.
 
-- `archive-miner/daycare-2020-2026-hourly` is consumed through `9ba628e234b843a1f779608197c0c75395ce5b51`.
-- `archive-miner-wall-hourly-20260824` is reviewed/consumed through `1c2104e20ec90d3217a4b32d93b260dd13904661`; status remains recovery-open only because the quarry can still grow.
-- All Characters HR and Mugen person-first remain finite pending review and are not advanced by proximity.
-- MAIN reader change this pass: Woosung only. WIKI reader change: none, intentionally; WIKI's structured owner already covered the useful material.
-- MAIN durable branch-state head `e27daa9a6e15a0cc63edcb7cc688225775aff790` passed exact workflow `33493540304`, including source verification, Astro build, built-output verification, and Cloudflare deployment.
+### All Characters HR — consume without breeding receipt paragraphs
 
-## Run 122 — Whiskey / Jordayy
+Run 64 strengthens the recurring Mugen/Jas `Milady` / `Messire` relationship dialect. Mugen already owns the reciprocal public scene, so Jas does not get another paragraph simply because another miner handoff restated the same mechanism. The local titles remain socially functional and legally worthless: no nobility, governance, romance, kink, sex, or family inference. The earliest currently joined use remains earliest-surviving, not guaranteed origin.
 
-Run 122 opened with the mandatory full census at **49 tracked miner identities = 28 active refs + 21 historical/missing refs**, with Whiskey as the only finite advanced branch visible to that census. It reviewed `archive-miner/whiskey-longitudinal-hourly` from `11482d5de7caca32652a8f5a39844140ddd9d1c4` through stable head `34ebe736c55af407a3f26ac21bb4bb49cde9246e`, checkpoint-first and intake-only, reading all nine changed handoffs and no raw archive payload.
+Run 65 strengthens the longer Kaede/Wolf line: Kaede notices not only Wolf's giant anniversary portrait but ordinary care-work around the place across years. MAIN had already restored that cumulative read at `6e3f76f9a5d08affba1ba17a72e88bf43b19a193`, with successful exact workflow `33492170626`, so the HR suffix closes as duplicate/corroboration rather than copy-paste offspring.
 
-While Run 122 was publishing, the next independent census detected a new All Characters HR suffix at `1492041b6ffe5eed41465499c17ac7540b0930eb`. Run 122 does not steal that work from the concurrent pass: **All Characters HR remains the sole finite pending review**. Closing queue therefore stands at 49 tracked identities, 28 active refs, 21 historical/missing, **1 pending review, 0 backlog, 0 overdue**. Wall remains recovery-open but current through `af308f5cd377280ef596ff456f10dec330261dec`; both Club-Only recovery priorities remain current.
+### Wall — useful seeds, no cardboard people
 
-### Jordayy — presence can shrink without snapping
-
-The useful Whiskey read is not “quiet member.” Jordayy says `I like reading yalls conversions`, then later names her own disappearing/reappearing rhythm, repeatedly announces naps/sleep/work limits, and still finds smaller modes of staying socially attached. The cleanest version is already in bed while arranging to have her Dragon Raja `corpse dragged` along. Low energy changes **how** she participates; it does not automatically mean low investment.
-
-That became a richer MAIN biography rather than another receipt ledger: ordinary chores, package-redelivery fury, dog logistics, sleep/work interruptions, screen-share boundaries, dramatic haircut wording, and the corpse-dragging line now accumulate into one person-shaped read. `Petty Crimes` gets the small nonsense instead of turning every domestic sentence into an Episode.
-
-### Jordayy ↔ Ghost — recognition itself becomes the bit
-
-January preserves `I still want breakfast Ghost`, with the original premise gone. More importantly, Jordayy then repeatedly announces Ghost's arrival across March, April, and May with stretched variants of `Is ghooooost`. Ghost mirrors the grammar once with `Is lunaaaa` less than a minute after the March greeting.
-
-The recurrence supports a small relationship dialect: one person arrives, the other turns recognition into a ceremony. It does **not** establish a closeness rank, technical Discord reply edge, or a global `Jordayy = Luna` alias. `Luna` remains a probable scene-specific address only.
-
-Run 122 also corrected a stale WIKI Cast-card overreach. The old card had quietly drafted Ghost into Jordayy's January dog-cuddle request because a separate next-day breakfast-Ghost callback survived nearby. The dog-cuddle addressee is actually unresolved. The live card now keeps the real repeated Ghost greeting pattern and releases Ghost from historical canine labor he was never proven to have accepted.
-
-### Held / attribution rails
-
-- Jordayy's January dog-cuddle addressee remains unresolved.
-- The older breakfast-Ghost premise remains unresolved.
-- The person/activity/mechanic behind `get my corpse dragged in DR` remains unresolved; the line is not medical evidence.
-- `Sama` in the haircut pocket remains unresolved.
-- `Luna` / `lunaaaa` is contextual-high for the March mirrored greeting but is not a stable alias bridge and cannot merge Jordayy with HyaLuna/original Luna or any other Luna/Loona account.
-- The H1 media index omits text-only messages and lacks raw reply/edit objects, so it cannot establish global activity frequency or technical reply relationships.
-- No media pixels were inspected. `POSTED BY` / `MADE BY` / `CAPTURED BY` / `FEATURING` remain separate.
-
-### Surface routing
-
-- **MAIN:** `src/content/people/jordayy.md` was rebuilt as the richer person-first biography at `9d62090d8ce617e91e981b19d226478c739c0b8d`. Exact workflow `33491253148` passed source canon/architecture verification, Astro build, built-output verification, and exact Cloudflare production deployment.
-- **WIKI:** `src/data/character-biographies-run122.ts` adds the complementary structured Jordayy dossier; `character-biographies-run114.ts` routes it through the active resolver. Routing head `451b7a70ce2b2f879c9a3a7e86945327d310900a` passed Build `33491361199` and Pages `33491361205`.
-- **WIKI Cast correction:** `b74be891f598d9c3075f9dc5f2ee3ec36a0c16c6` removes the unsupported Ghost dog-duty assignment and makes the card about the actually recurring stretched-name recognition dialect. Build `33491801873` and Pages `33491801841` both passed.
-
-### Consumption
-
-`archive-miner/whiskey-longitudinal-hourly` is consumed through `34ebe736c55af407a3f26ac21bb4bb49cde9246e`. A recheck after publication found the miner still on that exact head. The concurrent All Characters HR suffix remains pending for the next pass; Run 122 does not mark it consumed by proximity.
-
-## Run 121 census / intake boundary
-
-- **49 tracked miner identities = 28 active refs + 21 historical/missing refs.**
-- **0 newly discovered active refs; 0 finite pending-review branches; 0 pending-publication branches; 0 backlog; 0 overdue.**
-- Wall recovery advanced from `315a33bfad6f18e65d7aac0bf1647fefde8fd892` to `af308f5cd377280ef596ff456f10dec330261dec`; Run 121 reviewed that suffix checkpoint-first and intake-only. Wall remains recovery-open but is consumed through the current reviewed head.
-- Mugen person-first advanced from `ac211fafb16bbc81863ce3e758c45bce724980f5` through an opening handoff at `f0cd8c7bf14a5517ba894a841cfbcd97f542be56`, then completed its late close files at `2a0e3daf7f3ef141d0bfe5cd4f8fecda3e2116d3`. Run 121 reviewed the entire suffix and consumes through the final close head.
-- All Characters HR remains current through `d0b90fd026df355722f834c6e0e50942218410c2`; Core through `e7ab828798625c81cbe598f78e4c37d979baa441`; Daycare through `aac9ef12724b9f4330c57bf6834c48a884c91c36`; Whiskey through `11482d5de7caca32652a8f5a39844140ddd9d1c4`.
-- Both Club-Only recovery priorities remain current: 2021–2026 through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`; 2020 through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`.
-- No miner branch was merged or wholesale cherry-picked.
-
-## Run 121 reconciliation
-
-### Wall — no duplicate character pages for people already living there
-
-The late Wall suffix strengthens three existing public character reads without changing their canonical owner.
-
-**Baby Lyssa / Ghoulie** reaches the point where being repeatedly filed on the Wall becomes housing language: peers say it is like she lives there, she mock-packs, then escalates into `this is my wall now` and `it’s official, this is my wall`. MAIN already carries the richer cumulative arc — early record jokes, repeated ownership claims, peer `she lives on the wall`, Mugen asking where the rent is, and later return/context material — so WIKI does not breed another event paragraph from the same mechanism.
-
-**Sou / Ansun** keeps doing the opposite of being shamed correctly. By 2023 he is on `no shame all fame`, `this is MY wall`, then assigning the fame half to himself and the shame half to everybody else while Moon points out that the word *shame* is still visibly in the title. Both surfaces already synthesize this as Sou turning prosecution into branding. It is not literal ownership, creator credit, title-origin proof, or governance.
-
-**Alkey** gains one earlier surviving shortness jab in April 2021 (`3 foot lookin` toward Ren), but the broader performance/timing material — chicken duel, `i / saw / all`, `You all suck`, one-scene `Tsundere: Alkey` characterization — is already public. The earlier shortness line is useful chronology, not a new personality page and not proven origin of later shortness litigation.
-
-Wall q18 parent/source-health work remains backstage. No media pixels were inspected, and no new `MADE BY` / `CAPTURED BY` / `FEATURING` claims were created.
-
-### Mugen / Ansun — Boss can sit in the student chair
-
-The Mugen miner promoted a previously mined Ansun/Phantom teaching pocket into Mugen's synthesis. The controlled read is straightforward: Mugen is the person who is not finding a class/unlock system intuitive while Ansun keeps explaining; Ansun later retells the teaching problem to Wolf through a `rainbow + math` metaphor.
-
-That adds a good Mugen-side contradiction: **authority does not require pretending she knows the thing.** When Ansun understands the system better, Mugen can be the confused student and let him teach. That is more personal than generic delegation because the knowledge gap belongs to Mugen herself.
-
-Run 121 nevertheless makes **no WIKI reader mutation** from this pocket. The incident is already public from Ansun's side, while current Mugen treatment already carries the wider `not oracle` pattern through asking for corrections, using HQ as a filter, permissions failures, wrong-person corrections, and later needing help with Discord mechanics. A second structured Episode would mostly restate the same relationship/competence mechanism.
-
-The raw original Phantom objects remain unjoined. `rainbow + math` belongs to Ansun's retelling, not Mugen. Do not quote the miner's `mostly autos` summary as verbatim Mugen text or invent exact date/message IDs/mechanics until a raw join supplies them.
+Lilly's live-receipt appetite and repeated Woohyuk summons were already integrated on MAIN. TonyTonyChopper adds a promising acclimation line — immediate mock Wall panic, then later comfortable participation in the fake corpse/body-handling bit — but not enough breadth to force a thin standalone page. Torr's family `blackened` biscuit story is banked for a future fuller person/Petty Crimes fold. q18 reply topology remains corrected backstage: pooled Deleted User is not Torr. No media pixels were inspected.
 
 ### Hard canon conflict rejected — New stays in the old circle
 
-The Mugen miner's stale instruction claiming `GenGrey, not New` is the supported pre-Dragon-Raja friend is rejected against controlling user-confirmed canon.
+The Mugen miner again carried stale wording that tries to remove New from Mugen's pre-Dragon-Raja circle. It is rejected.
 
-**New is a man and belongs to Mugen's older pre-Raja circle with Dean, Key, Zepp, Kal, and GenGrey.** A later recollection that Mugen recruited New through GenGrey is a later route inside an already-existing social network. It is not New's first meeting with Mugen and does not create formal recruiter status for GenGrey.
+**New is a man and belongs to Mugen's older pre-Raja circle with Dean, Key, Zepp, Kal, and GenGrey.** A later recollection that Mugen recruited New through GenGrey is a later route inside an already-existing social network, not New's first meeting with Mugen and not a formal Recruiter appointment for GenGrey. Newer miner timestamps do not outrank the hard user lock.
 
-Current MAIN and WIKI already carry the corrected chronology. A newer miner timestamp does not outrank the hard user lock.
+## Consumption
 
-## Surface routing / no-public-change result
+- `archive-miner/daycare-2020-2026-hourly` — consumed through `9ba628e234b843a1f779608197c0c75395ce5b51`.
+- `archive-miner-wall-hourly-20260824` — consumed through `1c2104e20ec90d3217a4b32d93b260dd13904661`; status remains recovery-open only for future movement.
+- `archive-miner/all-characters-hr-20260828` — consumed through `b1576dc4483124a1315f88c7de488e5e6db5060e`.
+- `archive-miner/mugen-person-first-20260828` — consumed through `cd3ce4df739da79302e0c0a1fb7b3973a89c7f45`, including its late close/checkpoint suffix.
 
-Run 121 is a reconciliation-and-consumption pass rather than a reader-content release:
-
-- MAIN keeps its richer Baby Lyssa, Ansun, Alkey, and Mugen biographies unchanged.
-- WIKI keeps the existing complementary dossiers/reference treatment unchanged.
-- No duplicate Mugen Episode was minted from the Ansun/Phantom pocket.
-- Successful no-public-change reviews still advance consumed SHAs so these tails are not reread forever.
-
-## Consumption result
-
-- `archive-miner-wall-hourly-20260824` — consumed through `af308f5cd377280ef596ff456f10dec330261dec`; status remains recovery-open because the Wall quarry is not exhausted.
-- `archive-miner/mugen-person-first-20260828` — consumed through `2a0e3daf7f3ef141d0bfe5cd4f8fecda3e2116d3` after the full opening + late-close handoff was reviewed.
-- All other active miner cursors remain at their previously consumed/current heads.
-
-## Held / unresolved
-
-- Wall q18 reply reconstruction remains open only for source/reply behavior; the known pancake parent is already resolved.
-- Wall q8 source routing, q3 insect source objects, q9/q19 provenance, Pride/corpse lineage, Aesh/Erys visual contradiction, and Lounge/icon creator provenance stay open under their existing narrow rails.
-- Mugen/Ansun Phantom raw message IDs, exact date/mechanic wording, and exact Mugen wording remain unjoined.
-- Similar names still do not merge people; export-time role arrays still do not create appointment chronology; joke family/romance/sex/property language stays figurative unless independently supported; private/sensitive material stays backstage; exact minor ages stay private; and `SAID BY` / `POSTED BY` / `MADE BY` / `CAPTURED BY` / `FEATURING` remain distinct.
-
-## Verification / deployment
-
-The first Run 121 durable WIKI state head `d4f4548059a7a8d58bcdda0aec5cbfe0037f9fcd` passed the repository's existing checks cleanly:
-
-- **Build Underlords Wiki `33488452524`** — Astro build completed successfully.
-- **Deploy Underlords Wiki Preview `33488452915`** — preview build, Pages artifact, deployment, and final report all completed successfully.
-
-MAIN's corresponding durable state/report head `7b81e2c33aeb34419941e8039ec6b5719ec4b2e6` passed **UL Hourly Build + Deploy `33488385676`**: source canon/architecture verification, Astro build, built-output verification, and exact Cloudflare production deployment all succeeded.
-
-This follow-up only records those completed results; it does not add reader content. Its own exact-head WIKI build/Pages result is checked before Run 121 closes.
+Held rabbits: raw Ritha Safe House join; Kaede/Wolf raw IDs for the wider chronology; Jas/Mugen exact earliest surviving local-title use; fuller TonyTonyChopper and Torr person profiles; Wall q18 source/reply reconstruction. Similar names still do not merge people; export-time roles do not create appointment chronology; joke family/romance/sex/property language stays figurative unless independently supported; private/sensitive material stays backstage; and `SAID BY` / `POSTED BY` / `MADE BY` / `CAPTURED BY` / `FEATURING` remain distinct.
