@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-01 03:14 PDT_
+_Last updated: 2026-09-01 03:17 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Older pass detail remains in Git history and MAIN's dated integration reports.
 
@@ -9,6 +9,16 @@ This is the current durable dual-surface reconciliation snapshot. Older pass det
 The person is the spine; events are supporting scenes; the archive stays backstage. MAIN owns the richest person/legend biographies, relationship texture, lived chronology, and `Petty Crimes`. WIKI owns the complementary searchable/reference layer: Cast dossiers, role progression, Relationships, Episodes, Running Gags, Quotes, Locations, Gallery/media notes, and person-first narrative where useful for lookup. The same source may appear on both surfaces only when it does a different job.
 
 Hard user canon, resolved identities, privacy/safety boundaries, explicit contradictions, appointment chronology, and attribution fences remain hard. Outside those rails, strong contextual reads about habits, relationships, humor, care patterns, ordinary life, reputation, and social roles may publish when more likely than not.
+
+## 2026-09-01 03:17 PDT — Daycare Zyrcant reconciliation
+
+The late Daycare suffix `9ba628e234b843a1f779608197c0c75395ce5b51` → `36b00780795539461d47cd341d1917b697bf6145` was reviewed checkpoint-first and intake-only. Its best new material is one cumulative Zyrcant/Akariel person read rather than another Wall episode: she does not merely get teased; in these scenes she actively cooperates with her own prosecution. She asks to be put on the Wall, accepts Ren's `earn your place` mock gatekeeping with `fair lmaooo`, and later answers ShiyaX's `caught in 4k` with `oooh shit *runs*` rather than mounting a defense. The independent Kahoot announcement puts Shinn, Nelphie, and Zyrcant in the event's top three without preserving exact order. Together those receipts make the useful contradiction **competitive enough to place, shameless enough to help prosecute herself**.
+
+MAIN owns the richer cumulative character treatment and folded the Kahoot contradiction into Zyrcant's existing Wall/Amaurot biography at `a8758d8f06c032f2a89bf92cda87a4e4b8496338`. Exact source canon/architecture verification, Astro build, and built-output verification all passed; the exact Cloudflare production deployment step also completed successfully before the superseded workflow was marked cancelled by later master movement. WIKI already had the structured Kahoot top-three fact in Zyrcant's current narrative, so no mirrored reader paragraph or redundant Episode was created here.
+
+The miner repeatedly used he/him for Zyrcant in this suffix. That wording is rejected. Hard canon remains **Zyrcant = Akariel = Akariel™ = `akariel_star`, a woman using she/her**. Exact Kahoot placement remains unknown; the July `caught in 4k` offense/media remains unidentified; volunteering for Wall shame is not a formal application process; and the ShiyaX hunter/prey symmetry is banked as thin profile texture rather than promoted into a new Wall-police role.
+
+Daycare is now reviewed/consumed through `36b00780795539461d47cd341d1917b697bf6145`. The opening census subsequently detected Whiskey advancing from `e2a45c5f5426402f1af736dac18fc9f0ab9a2875` to `58f74662510baf80c33812f37e28fa4351499909`; that Whiskey suffix remains the sole finite pending review at this snapshot. Wall remains recovery-open only for future movement through `1c2104e20ec90d3217a4b32d93b260dd13904661`; both Club-Only recovery priorities remain current.
 
 ## 2026-09-01 03:14 PDT — Run 126 corrective close: Kiro + Anayss
 
@@ -20,11 +30,11 @@ A post-reconciliation public-route check found two WIKI gaps inside the already-
 
 Gabu and Ansun did **not** receive duplicate reader prose from the same intake family because their current WIKI material already owns the useful character reads. Bounded Nelph/Rummy/Shiki/Han checks remain no-public-change. All identity, appointment, family/romance, and attribution rails remain unchanged.
 
-Reader changes landed in `src/data/character-biographies-run126.ts` and the live resolver `src/data/character-biographies-all.ts`. Reader head `ae85e7fa3cb6315739309844b608b5b791a86906` passed Build `33495670716` and Pages `33495670616`, including successful deployment. This final state commit is a descendant and must also pass exact-head WIKI verification before the run is fully sealed.
+Reader changes landed in `src/data/character-biographies-run126.ts` and the live resolver `src/data/character-biographies-all.ts`. Reader head `ae85e7fa3cb6315739309844b608b5b791a86906` passed Build `33495670716` and Pages `33495670616`, including successful deployment. The later corrective state head `20eb9bdab5842d6234ee51bb9a120e8330c578f7` also passed exact-head Build `33496082247` and Pages `33496082200`.
 
 ## 2026-09-01 03:10 PDT — All Characters HR Run 66 close
 
-The mandatory census closes at **49 tracked miner identities = 28 active refs + 21 historical/missing refs**, with **0 newly discovered, 0 finite pending review, 0 pending publication, 0 backlog, and 0 overdue**. Wall remains recovery-open only for future movement and is current through `1c2104e20ec90d3217a4b32d93b260dd13904661`. Both Club-Only recovery priorities remain current: 2021–2026 through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`; 2020 through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`.
+The mandatory census closes at **49 tracked miner identities = 28 active refs + 21 historical/missing refs**, with **0 newly discovered, 0 finite pending review, 0 pending publication, 0 backlog, and 0 overdue** at that snapshot. Wall remains recovery-open only for future movement and is current through `1c2104e20ec90d3217a4b32d93b260dd13904661`. Both Club-Only recovery priorities remain current: 2021–2026 through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`; 2020 through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`.
 
 This pass reviewed `archive-miner/all-characters-hr-20260828` from `b1576dc4483124a1315f88c7de488e5e6db5060e` through `6c3c2ae015131cd01e3d226672075e9b5fdb4b19`, checkpoint-first and intake-only. No raw archive was re-mined and no miner branch was merged or wholesale cherry-picked.
 
@@ -37,8 +47,8 @@ Hard rails remain unchanged: Snow is not formal #2; Kiro was a full Officer, nev
 ### Consumption
 
 - `archive-miner/all-characters-hr-20260828` — consumed through `6c3c2ae015131cd01e3d226672075e9b5fdb4b19` after successful review.
-- `archive-miner/whiskey-longitudinal-hourly` — consumed through `e2a45c5f5426402f1af736dac18fc9f0ab9a2875`.
-- `archive-miner/daycare-2020-2026-hourly` — consumed through `9ba628e234b843a1f779608197c0c75395ce5b51`.
+- `archive-miner/whiskey-longitudinal-hourly` — consumed through `e2a45c5f5426402f1af736dac18fc9f0ab9a2875`; advanced suffix through `58f74662510baf80c33812f37e28fa4351499909` is pending review.
+- `archive-miner/daycare-2020-2026-hourly` — consumed through `36b00780795539461d47cd341d1917b697bf6145`.
 - `archive-miner-wall-hourly-20260824` — consumed through `1c2104e20ec90d3217a4b32d93b260dd13904661`; status remains recovery-open only for future movement.
 - `archive-miner/mugen-person-first-20260828` — consumed through `cd3ce4df739da79302e0c0a1fb7b3973a89c7f45`.
 - Club-Only 2021–2026 — current through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`.
