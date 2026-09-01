@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-01 03:17 PDT_
+_Last updated: 2026-09-01 03:28 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Older pass detail remains in Git history and MAIN's dated integration reports.
 
@@ -10,6 +10,20 @@ The person is the spine; events are supporting scenes; the archive stays backsta
 
 Hard user canon, resolved identities, privacy/safety boundaries, explicit contradictions, appointment chronology, and attribution fences remain hard. Outside those rails, strong contextual reads about habits, relationships, humor, care patterns, ordinary life, reputation, and social roles may publish when more likely than not.
 
+## 2026-09-01 03:28 PDT — Whiskey Anayss close
+
+The late Whiskey suffix `e2a45c5f5426402f1af736dac18fc9f0ab9a2875` → `58f74662510baf80c33812f37e28fa4351499909` was reviewed checkpoint-first and intake-only. Its useful material belongs to Anayss as a person rather than to another Whiskey Episode: practical onboarding keeps arriving in a soft/cute register, relationship affection can wear house-joke language without losing the sincerity underneath, and repeated reaction-media choices finally earn a couple of small `Petty Crimes` instead of another event ledger.
+
+The Lobby behavior is people-aware as well as procedural. Nhou gets `role assigned uwu wb! ^-^`; when Neli later appears, Anayss already knows the relevant club fact and asks only for the remaining intake requirement before another greeter closes the assignment. The public read is **soft procedure, shared work** — not a new Gatekeeper/Recruiter title and not an appointment date. Neli's safety-sensitive intake value remains backstage.
+
+Gilli gets the relationship version on June 15, 2021: `Happy birthday my amazing and wonderful waifu ~ I wish you only the best`. The searchable fact is affection plus camp language. `waifu` is not promoted into romance, sex, marriage, or a closeness ranking. The four attached media objects remain POSTED BY Anayss only; MADE BY / CAPTURED BY / FEATURING remain unresolved.
+
+The recurring dawn coffee/tea/wake-up GIFs are published as reaction vocabulary only, not proof of a literal daily coffee routine. The February 26 Dancefloor media pile is character texture — Las Ketchup, Ricky Martin, ABBA, Mambo No. 5 and more — not a favorite-artist chart and not a duplicate Episode.
+
+MAIN owns the richer biography treatment in `src/content/people/anayss.md` at reader commit `3c6c9bc7fb95a2bbba88976946df5b411685aeed`. Exact workflow `33497173273` passed source canon/architecture verification, Astro build, built-output verification, and the exact Cloudflare production deployment. WIKI owns the complementary searchable/person layer in `src/data/character-biographies-run126.ts` at reader commit `0fb24b4556a98a899b1f9c27579d21634a7d83d7`; Build `33497347922` and Pages `33497348113` both succeeded, including deployment. No mirrored paragraph and no standalone Anayss/Gilli or onboarding Episode was created.
+
+Whiskey is now reviewed/consumed through `58f74662510baf80c33812f37e28fa4351499909`. Daycare is consumed through `36b00780795539461d47cd341d1917b697bf6145`. The closing census remains **49 tracked miner identities = 28 active refs + 21 historical/missing refs**, with **0 newly discovered, 0 finite pending review, 0 pending publication, 0 backlog, and 0 overdue**. Wall remains recovery-open only for future movement through `1c2104e20ec90d3217a4b32d93b260dd13904661`; both Club-Only recovery priorities remain current.
+
 ## 2026-09-01 03:17 PDT — Daycare Zyrcant reconciliation
 
 The late Daycare suffix `9ba628e234b843a1f779608197c0c75395ce5b51` → `36b00780795539461d47cd341d1917b697bf6145` was reviewed checkpoint-first and intake-only. Its best new material is one cumulative Zyrcant/Akariel person read rather than another Wall episode: she does not merely get teased; in these scenes she actively cooperates with her own prosecution. She asks to be put on the Wall, accepts Ren's `earn your place` mock gatekeeping with `fair lmaooo`, and later answers ShiyaX's `caught in 4k` with `oooh shit *runs*` rather than mounting a defense. The independent Kahoot announcement puts Shinn, Nelphie, and Zyrcant in the event's top three without preserving exact order. Together those receipts make the useful contradiction **competitive enough to place, shameless enough to help prosecute herself**.
@@ -18,7 +32,7 @@ MAIN owns the richer cumulative character treatment and folded the Kahoot contra
 
 The miner repeatedly used he/him for Zyrcant in this suffix. That wording is rejected. Hard canon remains **Zyrcant = Akariel = Akariel™ = `akariel_star`, a woman using she/her**. Exact Kahoot placement remains unknown; the July `caught in 4k` offense/media remains unidentified; volunteering for Wall shame is not a formal application process; and the ShiyaX hunter/prey symmetry is banked as thin profile texture rather than promoted into a new Wall-police role.
 
-Daycare is now reviewed/consumed through `36b00780795539461d47cd341d1917b697bf6145`. The opening census subsequently detected Whiskey advancing from `e2a45c5f5426402f1af736dac18fc9f0ab9a2875` to `58f74662510baf80c33812f37e28fa4351499909`; that Whiskey suffix remains the sole finite pending review at this snapshot. Wall remains recovery-open only for future movement through `1c2104e20ec90d3217a4b32d93b260dd13904661`; both Club-Only recovery priorities remain current.
+Daycare is now reviewed/consumed through `36b00780795539461d47cd341d1917b697bf6145`. The opening census subsequently detected Whiskey advancing from `e2a45c5f5426402f1af736dac18fc9f0ab9a2875` to `58f74662510baf80c33812f37e28fa4351499909`; that Whiskey suffix has now been reviewed and consumed as recorded above. Wall remains recovery-open only for future movement through `1c2104e20ec90d3217a4b32d93b260dd13904661`; both Club-Only recovery priorities remain current.
 
 ## 2026-09-01 03:14 PDT — Run 126 corrective close: Kiro + Anayss
 
@@ -47,7 +61,7 @@ Hard rails remain unchanged: Snow is not formal #2; Kiro was a full Officer, nev
 ### Consumption
 
 - `archive-miner/all-characters-hr-20260828` — consumed through `6c3c2ae015131cd01e3d226672075e9b5fdb4b19` after successful review.
-- `archive-miner/whiskey-longitudinal-hourly` — consumed through `e2a45c5f5426402f1af736dac18fc9f0ab9a2875`; advanced suffix through `58f74662510baf80c33812f37e28fa4351499909` is pending review.
+- `archive-miner/whiskey-longitudinal-hourly` — consumed through `58f74662510baf80c33812f37e28fa4351499909`.
 - `archive-miner/daycare-2020-2026-hourly` — consumed through `36b00780795539461d47cd341d1917b697bf6145`.
 - `archive-miner-wall-hourly-20260824` — consumed through `1c2104e20ec90d3217a4b32d93b260dd13904661`; status remains recovery-open only for future movement.
 - `archive-miner/mugen-person-first-20260828` — consumed through `cd3ce4df739da79302e0c0a1fb7b3973a89c7f45`.
