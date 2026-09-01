@@ -54,5 +54,14 @@ export const run91IntegratedEpisodes: Episode[] = [
     kind: "QOTD relationship grammar / the Boss does not require Boss voice",
     logline: "Across several direct-reply exchanges, Hic sets wildly different conversational registers and Mugen keeps answering inside them. Hic's `Maintaining and distributing logistic services in wigs and edges` gets `Designated slayyyer`; `Nuts` becomes Mugen's `you`, Hic's `Me`, then two Raja hearts; and when Hic drops a long edited character essay, Mugen answers `A full ass essay and I'm here for it`. The roast and the welcome are the same sentence. This is not a formal mentorship, friendship rank, romance claim, or proof Mugen caused Hic's broader comfort in UL. It is a specific dyad habit: Hic does not have to climb uphill into ceremony before Mugen will meet the conversation.",
     cast: ["Mugen", "Hic"]
+  },
+  {
+    id: "wall-of-shame-together",
+    title: "We Go Through Wall of Shame Together",
+    season: "2023",
+    date: "March 12, 2023",
+    kind: "Wall friendship scene / embarrassment becomes inclusion",
+    logline: "Four days after Ryo comes through Lobby by Moon's friendship route, Moon celebrates his first Wall appearance with `OMFG.YOUR FIRST TIME STARRING AT WALL OF SHAME~♡♡♡` and `Congrats uwu`. Ryo answers `NOOOOO`; Moon true-replies `We go through wall of shame together`. The last line is the whole trick: Moon is not only delighted that her friend got caught; she puts herself inside the embarrassment with him, turning the Wall into shared social language instead of leaving Ryo alone in the stocks. The surviving text does not establish that Moon made, captured, or posted the underlying exhibit, and this one scene is not proof that every Wall filing functioned as onboarding.",
+    cast: ["Moon", "Ryo"]
   }
 ];
