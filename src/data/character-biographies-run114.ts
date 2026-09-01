@@ -35,3 +35,7 @@ export const run114NarrativeCharacterBios: Record<string, CharacterNarrative> = 
   // to a thinner fallback biography.
   hamittey: hamiBase,
 };
+
+// Run 122 is re-exported through this already-active module so the public resolver sees
+// the new archive-cast dossier without duplicating or reordering the long resolver list.
+export { run122NarrativeCharacterBios } from "./character-biographies-run122";
