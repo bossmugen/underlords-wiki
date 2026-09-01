@@ -36,6 +36,14 @@ export const pandaNarrativeCharacterBios: Record<string, CharacterNarrative> = {
         ]
       },
       {
+        title: "RUNNING GAG — PLEASE FORMALIZE THE STUPIDITY",
+        paragraphs: [
+          "Panda does not merely participate in ridiculous systems; he has a recurring instinct to give the ridiculous thing more infrastructure. In September 2021, after Gilli calls Eos the Wall's first `Fame moment`, Marian immediately says she **`should get an award for that`**. The joke is not just recognition. It is apparently insufficient until somebody has proposed a ceremony.",
+          "Eight months later the same instinct returns from a different angle. Ren mentions that there are different awards; Marian answers **`should do a wall of shame ranking`**. Nothing in the surviving sequence turns that into an actual formal ranking system, and Marian does not acquire a governance office from suggesting one. The useful recurrence is smaller and funnier: when UL invents a stupid social category, Panda's brain sometimes asks whether the stupid category could use awards, rankings, or additional paperwork.",
+          "That sits perfectly beside `Eternally Grounded Panda` and the self-shaming campaign. Panda's relationship to bureaucracy is not simply victimhood. Half the time he is standing at the fake courthouse yelling about jurisdiction; the other half he is apparently inside adding another form."
+        ]
+      },
+      {
         title: "THE MAN IS GENERALLY FINE BEING THE MAN",
         paragraphs: [
           "A later hypothetical asks whether Panda would want to be someone else for a day. He says he has an easy time being himself and does not really want the exchange. Then he supplies the practical reason that makes the answer unmistakably his: filling somebody else's life for a single day sounds like `far too much trouble`.",
@@ -45,12 +53,12 @@ export const pandaNarrativeCharacterBios: Record<string, CharacterNarrative> = {
       {
         title: "Petty Crimes",
         paragraphs: [
-          "Edgelord. Curly hair. Has been defeated by a box of mac & cheese. Once reported receiving Cheesecake Factory with the legally essential clarification `(but no cheesecake)`. Will apparently incriminate himself if Eos is not doing enough Wall prosecution. Owns enough panda vocabulary to require subcategories. Offered an alternate existence for one day and rejected it on administrative-effort grounds."
+          "Edgelord. Curly hair. Has been defeated by a box of mac & cheese. Once reported receiving Cheesecake Factory with the legally essential clarification `(but no cheesecake)`. Will apparently incriminate himself if Eos is not doing enough Wall prosecution. Owns enough panda vocabulary to require subcategories. Offered an alternate existence for one day and rejected it on administrative-effort grounds. Has independently proposed both an award for a Wall `Fame moment` and a Wall of Shame ranking, because the fake court apparently needed a statistics department."
         ]
       }
     ],
     closing: [
-      "Panda's character file works because the contradictions are allowed to sit together. He is loud but comfortable in his own skin, affectionate but fully willing to turn affection into a public court case, constantly targeted but also one of the people feeding the targeting machinery. Give him a premise and he rarely just accepts it. He puts panda ears on it, files the paperwork himself, and asks why everybody else is not committing harder."
+      "Panda's character file works because the contradictions are allowed to sit together. He is loud but comfortable in his own skin, affectionate but fully willing to turn affection into a public court case, constantly targeted but also one of the people feeding the targeting machinery. Give him a premise and he rarely just accepts it. He puts panda ears on it, files the paperwork himself, asks why everybody else is not committing harder, and may propose an awards system while he is there."
     ]
   }
 };
