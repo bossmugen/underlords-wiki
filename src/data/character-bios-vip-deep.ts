@@ -55,25 +55,41 @@ export const deepVipCharacterBios = {
     overview: [
       ...vipCharacterBios.woohyuk.overview,
       "A fresh Wall pass adds a useful warning label to the character file. On December 31, 2020, Lilly posts an attachment and tags Woohyuk; thirty-four minutes later Woohyuk writes `Single forever`. The attachment has not been visually inspected here, and the surviving text does not prove what prompted the line. So the wiki can preserve the self-authored joke without converting it into a permanent relationship-status fact, a rejection scene, or evidence about Lilly. This is exactly the kind of tiny receipt that gets dangerous when somebody wants a character page to be juicier than the source is.",
-      "The same Wall archive is full of Woohyuk using absurdly specific little delivery tags — `In corpse voice uwu` after Gilli tags him in April 2021, for example — but the surrounding exhibit is incomplete. That belongs in the bio as texture with the brakes still attached: he is comfortable annotating how a line should sound; we do not know enough from the surviving text to reconstruct the bit he was voicing."
+      "The same Wall archive is full of Woohyuk using absurdly specific little delivery tags — `In corpse voice uwu` after Gilli tags him in April 2021, for example — but the surrounding exhibit is incomplete. That belongs in the bio as texture with the brakes still attached: he is comfortable annotating how a line should sound; we do not know enough from the surviving text to reconstruct the bit he was voicing.",
+      "Whiskey makes the peer-language around him much easier to index. A May `Pancake ass is woohyuk` jab becomes a full birthday chorus in June, and Woohyuk answers the roast by thanking everybody, writing `Love yall sincerely`, then appending `(from the person with the fattest ass) UwU`. The useful reference fact is not the anatomy joke. It is participation: the room can roast him and he can keep the affection intact while escalating the joke himself.",
+      "ShiyaX gets a separate little relationship lane. Woohyuk says he is craving shaved ice; Shiya answers `On my way!`; Woohyuk supplies the instruction to get whatever the special is; Shiya reports `So close wookie`, then `IM HERE` and `Im going in`. The sequence is easy cooperative improv around an ordinary want. The archive does not establish a literal real-world errand or location, but it does show `wookie` already functioning as familiar peer-language between them."
     ],
     history: [
       ...vipCharacterBios.woohyuk.history,
       { date: "December 31, 2020", title: "Single forever, context pending", text: "After Lilly posts an uninspected attachment and tags him, Woohyuk later writes `Single forever`. The line is safe to quote; the cause and any enduring relationship meaning are not." },
-      { date: "April 21, 2021", title: "In corpse voice uwu", text: "Gilli tags Woohyuk on the Wall; Woohyuk answers `In corpse voice uwu`. The phrasing is authored texture, while the missing surrounding exhibit keeps the actual voiced joke unresolved." }
+      { date: "February 14, 2021", title: "Chocolate hygiene protocol", text: "Woohyuk's Valentine's greeting recommends brushing your teeth with chocolate, bathing in chocolate, and drenching yourself with chocolate before `Happy Valentines ❤️`. Filed under dated joke, not dental guidance." },
+      { date: "February 16, 2021", title: "Why Don't We gets `best group`", text: "Woohyuk posts a Why Don't We guide image and calls them `best group`. That is strong favorable taste in the scene, not a permanent all-time ranking." },
+      { date: "April 21, 2021", title: "In corpse voice uwu", text: "Gilli tags Woohyuk on the Wall; Woohyuk answers `In corpse voice uwu`. The phrasing is authored texture, while the missing surrounding exhibit keeps the actual voiced joke unresolved." },
+      { date: "May 3, 2021", title: "Shave-ice mission with ShiyaX", text: "Woohyuk voices a shaved-ice craving, ShiyaX turns it into an `On my way!` mission, Woohyuk supplies the order instruction, and Shiya progress-reports with `wookie`, `IM HERE`, and `Im going in`. The social exchange is clean; the exact physical setting is not." },
+      { date: "May 6 → June 29, 2021", title: "Pancake becomes birthday jurisdiction", text: "A May `Pancake ass is woohyuk` line becomes recurring birthday roast vocabulary in June. Woohyuk's own closing move is `Love yall sincerely (from the person with the fattest ass) UwU`: gratitude first, self-parody attached before tenderness can leave the room unsabotaged." }
     ],
     characterNotes: [
       ...vipCharacterBios.woohyuk.characterNotes,
-      { title: "He will occasionally provide stage directions to his own nonsense", text: "`In corpse voice uwu` is useful because Woohyuk is not merely delivering a line; he is telling the room how to hear it. One surviving example is enough for texture, not enough to invent a grand performance persona." }
+      { title: "He will occasionally provide stage directions to his own nonsense", text: "`In corpse voice uwu` is useful because Woohyuk is not merely delivering a line; he is telling the room how to hear it. One surviving example is enough for texture, not enough to invent a grand performance persona." },
+      { title: "The roast has participation rights", text: "The pancake/flat-ass chorus works as recurring reputation because Woohyuk does not only endure it. On his birthday he answers sincere affection with sincere affection and then files a counterclaim about having the fattest ass. The peer joke lands because he is helping perform it." },
+      { title: "ShiyaX can turn a craving into a mission", text: "`On my way!` → order instruction → `So close wookie` → arrival report is low-friction cooperative improv. It supports familiar social ease without requiring the wiki to invent a literal delivery route." },
+      { title: "Tiny taste file", text: "Why Don't We earns `best group`; caffeine gets one `:KomaPrayToTheLordAmen:` burst; Valentine's Day becomes chocolate hygiene malpractice; shaved ice gets a craving. These are dated preferences/jokes, not permanent doctrines." }
     ],
     claims: [
       { text: "On December 31, 2020, Lilly posted an uninspected attachment and tagged Woohyuk; later that hour Woohyuk wrote `Single forever`. The visible text does not establish what the attachment showed or a lasting relationship status.", evidence: "wall", date: "2020-12-31" },
-      { text: "On April 21, 2021, after Gilli tagged Woohyuk in the Wall channel, Woohyuk wrote `In corpse voice uwu`; the surrounding exhibit remains incomplete.", evidence: "wall", date: "2021-04-21" }
+      { text: "On February 14, 2021, Woohyuk wrote `Brush your teeth with chocolate, bathe in chocolate, drench yourself with chocolate. Happy Valentines ❤️` in Whiskey.", evidence: "whiskey", date: "2021-02-14" },
+      { text: "On February 16, 2021, Woohyuk posted a Why Don't We guide image and wrote `best group`.", evidence: "whiskey", date: "2021-02-16" },
+      { text: "On April 21, 2021, after Gilli tagged Woohyuk in the Wall channel, Woohyuk wrote `In corpse voice uwu`; the surrounding exhibit remains incomplete.", evidence: "wall", date: "2021-04-21" },
+      { text: "On May 3, 2021, Woohyuk wrote that he craved shaved ice; ShiyaX answered `On my way!`, later used `wookie`, and progress-reported `IM HERE` / `Im going in` while Woohyuk supplied an order instruction.", evidence: "whiskey", date: "2021-05-03" },
+      { text: "On May 6, 2021, `Pancake ass is woohyuk` appears in Whiskey; during Woohyuk's June 29 birthday cluster, several peers independently repeat pancake/flat-ass language and Woohyuk answers `Love yall sincerely (from the person with the fattest ass) UwU`.", evidence: "whiskey", date: "2021-05-06 → 2021-06-29" }
     ],
     canonNotes: [
       ...vipCharacterBios.woohyuk.canonNotes,
       "`Single forever` is preserved as a dated self-authored line, not treated as a permanent relationship-status fact or as proof about Lilly.",
-      "`In corpse voice uwu` does not justify reconstructing the unseen Wall exhibit or assigning a performance role."
+      "`In corpse voice uwu` does not justify reconstructing the unseen Wall exhibit or assigning a performance role.",
+      "Pancake / flat-ass / fattest-ass language is recurring peer/self-parody and is never used as a literal body claim.",
+      "The May 3 ShiyaX exchange supports an easy cooperative bit and the `wookie` nickname in that scene. It does not establish a physical shave-ice shop visit, delivery, location, or nickname origin.",
+      "Why Don't We `best group`, caffeine prayer, chocolate hygiene, and shaved-ice craving are dated taste/joke receipts; they are not promoted into immutable lifelong preferences without recurrence."
     ]
   }
 } as const;
