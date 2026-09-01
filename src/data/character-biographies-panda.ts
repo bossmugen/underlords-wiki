@@ -22,6 +22,13 @@ export const pandaNarrativeCharacterBios: Record<string, CharacterNarrative> = {
         ]
       },
       {
+        title: "WELCOME HOME, PANDA",
+        paragraphs: [
+          "June 2021 catches the panda name doing something quieter than branding. Marian drops back into the Wall with a `FeelsReeMan`; twenty seconds later Baby Lyssa answers `Welcome home, panda`. Marian does not ask what she means or reject the name. He answers with `PandaUglyCry` and `damn been away fro so longe`, and Ghoulie fires back a row of chaos emotes. The timing makes the welcome feel lived rather than ceremonial: she recognizes a return, he acknowledges the absence, and both people step straight back into a shared vocabulary that apparently survived the gap.",
+          "It also pushes the panda-language chronology earlier than the later Wizard101 costume spree. By June, somebody else can call Marian `panda` and Marian can answer in panda without explanation. `Home` is social language here, not literal residence or family status, and nobody gives us an exact length or reason for the absence. The useful bit is smaller: Panda can disappear for a while and come back to somebody already speaking to him as though the room still knows where he fits."
+        ]
+      },
+      {
         title: "EOS CAN MAKE THE JOKE CHANGE SHAPE",
         paragraphs: [
           "The Wall-war version of Panda and Eos is all prosecution, threats and somebody screaming `DELETE THAT`. Elsewhere the same relationship softens without becoming less theatrical. Panda uses Eos as his immediate example when talking about loving somebody, says he does not want to keep playing a shared game without Eos, announces Paris plans, complains about gifts still stuck in AliExpress transit, and eventually posts a song because it makes him think of Eos. Eos answers back instead of leaving Panda to perform into empty space.",
