@@ -63,5 +63,14 @@ export const run145CoreIntegratedEpisodes: Episode[] = [
     kind: "Wall defendant → evidence supplier inversion",
     logline: "The room frames Manolo's Wall appearance as his first taste of the Wall, and Manolo confirms `my first time on the wall of shame`. In the same session he pivots from defendant to willing supplier: `Hey post this screenshot of Xuseio from our private DMs`; Anayss answers `will do`; Manolo follows with `Dam shiii I am causing trouble now` and `opps`. That same-session reversal is the useful part: somebody familiar enough with the Wall to recognize the ritual immediately starts feeding it material once he is inside the game. It does not prove a universal initiation pipeline, who captured or made the screenshot, or any standing prosecutorial role for Manolo.",
     cast: ["Manolo", "Anayss", "Xuseio"]
+  },
+  {
+    id: "mugen-yochan-pruning-open-door",
+    title: "Mugen Kicks Yochan `For Now`",
+    season: "2021",
+    date: "August 9–11, 2021",
+    kind: "Pruning / relationship continuity",
+    logline: "Mugen notices YｏＣｈａｎ9 is inactive and answers the fact with a depressed-dino reaction. Two days later the admin sentence is `I gotta kick @YｏＣｈａｎ9 for now`; the very next line is `Good luck with school! Hope to see you someday again ＼(٥⁀▽⁀ )／`. The removal is operational, but the wording refuses to turn absence into social finality: `for now` and `someday again` leave a door open even while access changes. School stays exactly what Yochan was wished luck with, not an age inference, and the nearby screenshots remain POSTED BY Yochan rather than silently becoming authorship or subject claims.",
+    cast: ["Mugen", "YｏＣｈａｎ9"]
   }
 ];
