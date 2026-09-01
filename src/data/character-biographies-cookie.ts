@@ -5,7 +5,7 @@ export const cookieNarrativeCharacterBios: Record<string, CharacterNarrative> = 
     intro: [
       "Cookie — Kuki, Cookies and Juicebox, and eventually just Cookie — has one of the most recognizable emergency responses in Underlords: deny everything, run immediately, and somehow remain exactly where everyone can keep looking at him. `NO`. `LIES`. `i swear`. `its not how it looks like`. `:PandaRun:`. The vocabulary is compact because Cookie is not trying to win a case. He is trying to survive being perceived for another thirty seconds.",
       "The important part is that he never really leaves. Cookie's embarrassment is participatory. He objects, the objection becomes funnier than the original allegation, everybody gets another round out of it, and he is still there when the room reloads the bit tomorrow. Even his escape emote works less like an exit than a stage direction: panda enters frame, panda flees frame, Cookie continues speaking from approximately three feet away. He is very good at making *please stop looking at me* function as an invitation to keep the scene alive.",
-      "That makes the quieter side of him easy to miss. Cookie notices when he is not included. He remembers shared rooms. He knows who supplied a screenshot and which part of the exchange was his own response. He can be the guy under prosecution and the guy organizing the packet at the same time. Current Staff status suits that contradiction better than a tidy promotion narrative ever could: Cookie is socially unserious without being socially inattentive."
+      "That makes the quieter side of him easy to miss. Cookie notices when he is not included. He remembers shared rooms. He knows who supplied a screenshot and which part of the exchange was his own response. Whiskey adds another version of the same social fluency: he can say very little in prose while being extremely specific in reaction language, and Ren can answer him inside the same visual vocabulary without anybody stopping to explain the dictionary. Current Staff status suits that contradiction better than a tidy promotion narrative ever could: Cookie is socially unserious without being socially inattentive."
     ],
     sections: [
       {
@@ -36,6 +36,20 @@ export const cookieNarrativeCharacterBios: Record<string, CharacterNarrative> = 
         ]
       },
       {
+        title: "THE DOOR RESET BEFORE GILLI DID",
+        paragraphs: [
+          "Cookie's access chronology is useful because the human recognition survives a fresh bot welcome. The same stable account is already at a Lobby doorway on September 29, 2020. Then on April 8, 2021, MEE6 emits another welcome for that same account. Twelve seconds later Gilli is not asking who the stranger is. She is yelling `KUKIII`. Cookie answers with `:cat_awkward:`. Gilli follows with `Role assigned bb!`.",
+          "That makes the April scene much more likely to be re-entry or access restoration than an original social introduction, while leaving the exact leave/rejoin mechanics unresolved. The important reference fact is continuity across administrative discontinuity: the bot can behave like Cookie is new while Gilli's language behaves like Cookie has already been in the family photo for a while. Discord state reset before familiarity did."
+        ]
+      },
+      {
+        title: "THE GURA DICTIONARY",
+        paragraphs: [
+          "Whiskey adds a communication habit the text-heavy Wall file could not show very well. On May 14, 2021, Cookie opens and carries a dense Gawr Gura / Hololive reaction cascade. Ren joins with matching Gura sets. Cookie keeps answering in the same vocabulary. The referent does not vanish after one burst: Cookie reuses Gura reactions on May 17, May 19, May 27, and June 3.",
+          "That is enough for a probable recurring taste and a stronger relationship read with Ren, not enough for favorite-VTuber canon. More importantly, Ren can answer Cookie *inside the same visual language*. Cookie's H1 Whiskey style can be compact in prose while highly articulate through media selection. Low word count is not low expression when somebody else understands the picture sentence and sends one back."
+        ]
+      },
+      {
         title: "HE CAN MAKE A RULE AND BREAK IT BEFORE THE SENTENCE GETS COLD",
         paragraphs: [
           "Cookie's humor is quick rather than elaborate. He does not always need a long story, a character voice, or a complicated setup. Sometimes he just needs enough time to establish a principle and sabotage it himself. April 2022 supplies the ideal specimen: `Man leave the goats alone xD`. Eleven seconds later: `unless we talking about Ganyu here`.",
@@ -54,11 +68,11 @@ export const cookieNarrativeCharacterBios: Record<string, CharacterNarrative> = 
         ]
       },
       {
-        title: "TOFU KNOWS WHERE THE BUTTON IS",
+        title: "TOFU KEEPS SELECTING HIM FOR VIOLENCE, AFFECTION, OR BOTH",
         paragraphs: [
-          "Tofu is one of the clearest recurring counterparts in Cookie's public comedy. The rhythm is almost unfairly efficient: Tofu points, Cookie denies; Tofu files something, Cookie runs; the room watches the defense collapse under the weight of its own emote. Their Wall exchanges work because neither side needs much exposition. Tofu can put Cookie in the defendant chair with a sentence. Cookie knows the assigned role before the gavel hits the table.",
-          "What makes the pattern feel lived is Cookie's willingness to return to it. Repetition only becomes affectionate house language when both people know the choreography well enough to skip setup. Cookie's answers get shorter over time because the premise is already shared. `:PandaRun:` can replace a paragraph. `LIES` can replace a legal team. The space between accusation and reaction shrinks because everybody understands the game.",
-          "That does not make every Tofu/Cookie interaction a referendum on their entire relationship. It does make this one social lane unmistakable: Tofu knows how to make Cookie perform embarrassment, and Cookie is good enough at performing it that the joke survives contact with repetition."
+          "Tofu is one of the clearest recurring counterparts in Cookie's public comedy. The old Wall rhythm is almost unfairly efficient: Tofu points, Cookie denies; Tofu files something, Cookie runs; the room watches the defense collapse under the weight of its own emote. Their exchanges work because neither side needs much exposition. Tofu can put Cookie in the defendant chair with a sentence. Cookie knows the assigned role before the gavel hits the table.",
+          "QOTD shows the same relationship grammar in hypotheticals where there is no Wall at all. In July 2022 Tofu chooses Cookie as the person she would meet in real life so she can both get him out of his bad weather and `fight him`. In February 2023 hypothetical danger gets `Throw @Cookies and Juicebox at them and run.` By August 2024 Tofu calls Cookie `such a little cutie on his own`, immediately downgrades him to `just a man` in a group, watches Cookie answer with `:Fat_Wheeze:`, and returns thirty-two seconds later with `Barely a man* fixed it`.",
+          "That recurrence is why the relationship is better filed as comfortable antagonistic affection than as three unrelated jokes. Tofu keeps choosing Cookie when the hypothetical needs a victim, a weapon, a defendant, or somebody to rescue. Cookie's replies feed the register instead of closing it. None of this creates romance, literal hostility, physical violence, kinship, or a closeness ranking. The scene already has enough texture without fanfic doing unpaid overtime."
         ]
       },
       {
@@ -68,13 +82,15 @@ export const cookieNarrativeCharacterBios: Record<string, CharacterNarrative> = 
           "He once defended himself with `im innocent, not horny`, proving that specificity is not always the friend of the accused.",
           "His goat policy contains an explicit Ganyu exemption created by Cookie approximately eleven seconds after he announced the policy.",
           "When other people were playing VR without him, his concern was not whether VR was good. It was `i wasnt invited`. Correct priorities.",
+          "Gawr Gura / Hololive reactions recur enough across May–June 2021 to function as a probable taste and a recognizable little reaction lexicon. Ren can answer in the same dictionary.",
+          "On April 23, 2021 Cookie posts a screenshot whose archived filename identifies MediBang Paint. That is a software-footprint clue, not an artist credit: POSTED BY Cookie does not become MADE BY Cookie because a filename looked creative.",
           "He is capable of labeling a screenshot from somebody else and then labeling the next screenshot `my response`, which means the man behind `:PandaRun:` has a functioning internal filing cabinet. This feels unfair to everyone who has ever tried to prosecute him."
         ]
       }
     ],
     closing: [
       "Cookie is easiest to recognize in the half-second after somebody looks at him too directly. He denies, narrows the charge, runs, doubles back, throws an emote, and remains fully available for the next stupid thing. The joke is never simply that he gets embarrassed. It is that he has turned embarrassment into a reliable social instrument: a way to protest without leaving, to be teased without becoming passive, and to make everybody else's attention part of his own performance.",
-      "He is also more observant than the getaway routine advertises. Cookie notices missing invitations, closed rooms, source labels, response order, and the little logistics of who supplied what. Underneath the panda sprint is somebody paying attention. Unfortunately for Cookie, paying attention is exactly how you end up with better material for the Wall."
+      "He is also more observant than the getaway routine advertises. Cookie notices missing invitations, closed rooms, source labels, response order, familiar people at the door, and the visual language another person is speaking back to him. Underneath the panda sprint is somebody paying attention. Unfortunately for Cookie, paying attention is exactly how you end up with better material for the Wall."
     ]
   }
 };
