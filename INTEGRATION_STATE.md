@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-08-31 20:48 PDT_
+_Last updated: 2026-08-31 20:52 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Older pass detail remains in Git history and MAIN's dated integration reports.
 
@@ -50,9 +50,11 @@ The surrounding riddle run is the more important Ren material. Her greetings mut
 
 WIKI folds that into Ren's existing contradiction rather than making a second organizer personality: the same woman who put the wrong code on the spelling-Kahoot poster twice can run a recurring activity with clear routes, private help, anti-spoiler norms and contributor credit. **Clown delivery, real facilitation.**
 
-Two additional Core character deepeners landed concurrently before this state close and are now part of the same live Run 107 module rather than waiting backstage. Gilli directly names RyuuUzu as `My best friend` and gives the behavior underneath it: `for always validating my feelings`; that sharpens both the relationship and what Gilli herself values on the receiving end of care. Oyasumi now has a real `Petty Crimes` cluster instead of title-only thinness: dark Victorian / Tim Burton taste, jewelry, movies over social media, the *Goodnight (Oyasumi) Punpun* username source, repeated failed *Demon Slayer* attempts, *Eraserhead*, Skyrim, *Mob Psycho 100*, fruit/grapes, ice water even when cold, old words, and the Dies Irae day-start joke. The same material also catches him quietly maintaining QOTD visibility by adding human `@Staff @VIP` pings.
+Three additional Core integrations landed before the final state close. Gilli directly names RyuuUzu as `My best friend` and gives the behavior underneath it: `for always validating my feelings`; that sharpens both the relationship and what Gilli herself values on the receiving end of care. Oyasumi now has a real `Petty Crimes` cluster instead of title-only thinness: dark Victorian / Tim Burton taste, jewelry, movies over social media, the *Goodnight (Oyasumi) Punpun* username source, repeated failed *Demon Slayer* attempts, *Eraserhead*, Skyrim, *Mob Psycho 100*, fruit/grapes, ice water even when cold, old words, and the Dies Irae day-start joke. The same material also catches him quietly maintaining QOTD visibility by adding human `@Staff @VIP` pings.
 
-Still retained for later canonical owners rather than dumped publicly in this pass: Amexistir/Chubi's Dec. 19→21, 2023 probable Officer-promotion path and consent-shaped discussion; WOO's listen-before-fixing care/reconnection style; Ricochet↔Snow's recurring Imelda/grandpa long-memory roast. Sparse Baby Lyssa/Boba crumbs stay thin.
+The third change fixes an identity problem before the promotion story goes public: **Ame and Amexistir are separate people.** Similar names were never enough to merge them. Ame keeps the current Game Officer slot and a deliberately short page; Amexistir keeps the Spanish-language Lobby scenes, return greetings, and the December 19→21, 2023 executed promotion path supported by Snow's proposal, peer discussion about usefulness/activity/willingness, and the later Officer-room welcome. That sequence is strong enough to publish as the surviving promotion path without claiming it is the absolute first instant of authority or inventing a later retirement date.
+
+Still retained for later canonical owners rather than dumped publicly in this pass: WOO's listen-before-fixing care/reconnection style; Ricochet↔Snow's recurring Imelda/grandpa long-memory roast. Sparse Baby Lyssa/Boba crumbs stay thin.
 
 ## Daycare — Nothien already made it to MAIN before this close
 
@@ -62,9 +64,11 @@ That contradiction and the 2023 `Underlords(?), Member(?), decently old` return 
 
 The Jan. 13–18, 2023 Lobby quiet block remains channel-specific context only. MEE6 state is not first-arrival chronology. The Daycare search still does not identify the 279-hour bot.
 
-## Hard contradiction rejected this run
+## Hard contradictions / identity rails held this run
 
 The Mugen miner's stale line that treated GenGrey as the older pre-Raja friend and New as somebody who came later through GenGrey is rejected. Controlling canon is explicit: **New / Newmal / `_newplayer` is a man and belongs in Mugen's older pre-Raja online-family circle with Dean, Key, Zepp, Kal, and GenGrey.** A later recruitment/route connection through GenGrey does not define New's first meeting with Mugen.
+
+Ame and Amexistir remain separate absent an explicit identity bridge; same/similar display-name language is not enough. WIKI's old silent merge was corrected rather than allowed to propagate Amexistir's life onto Ame.
 
 ## WIKI publication result
 
@@ -72,12 +76,12 @@ Reader-facing Run 107 work lives in `src/data/character-biographies-run107.ts` a
 
 - Initial Erys + Mugen reader head `5b035159bb407c8939c55295bba200f4ca8254e6` passed Build `33466973791` and Pages `33466973804`.
 - Ren's Core-room hosting deepener landed at `1aefbe858628eb0d20b013d1d094ae010abfe620`; Build `33467155906` and Pages `33467155904` passed.
-- Concurrent Gilli/Ryuu + Oyasumi additions landed at `76c6e5aed9ffedaa49baba6b9ea172d25780a1c8` and are present in the current Run 107 module.
-- The prior durable state head `1fa22a0c24fc5ec4514014465691fcdcd5b01b75`, which already included all reader changes above in its ancestry, passed Build `33467370259` and Pages `33467370218`.
+- Gilli/Ryuu + Oyasumi landed at `76c6e5aed9ffedaa49baba6b9ea172d25780a1c8`.
+- Ame/Amexistir split + promotion-path integration landed at `63625aad923c31638f39fcb4bee1b3ab5a25005d`; Build `33467593518` and Pages `33467593529` passed.
 
 ## Surface split / duplicates combined
 
-- WIKI owns Erys's structured evidence-defense biography, Mugen's compact 279-hour bot-break character scene, Ren's autograph/riddle-hosting deepener, Gilli's Ryuu relationship anchor, and Oyasumi's Petty Crimes / QOTD-maintenance deepener this run.
+- WIKI owns Erys's structured evidence-defense biography, Mugen's compact 279-hour bot-break character scene, Ren's autograph/riddle-hosting deepener, Gilli's Ryuu relationship anchor, Oyasumi's Petty Crimes / QOTD-maintenance deepener, and the Ame/Amexistir separation + Amexistir promotion path this run.
 - MAIN gets no mirrored copy of those WIKI sections. Its existing Mugen continuity synthesis and Nothien person-first page already own the complementary person-level stories.
 - The remaining Core high-value findings stay backstage until they materially deepen their canonical owner instead of being mass-appended as report paragraphs.
 
@@ -86,7 +90,7 @@ Reader-facing Run 107 work lives in `src/data/character-biographies-run107.ts` a
 - New remains in Mugen's older pre-Raja online-family circle; later GenGrey route evidence is not a first-meeting clock.
 - Anayss remains current Battle Leader / Underboss / Game Officer; historical Ritha battle leadership is not current-role chronology.
 - Zyrcant = Akariel = Akariel™ = `akariel_star` remains resolved hard canon.
-- Akamin remains separate from Mere. Rich remains separate from Ricochet. Rooks remains separate from Cookie/Kuki and CookieStream.
+- Akamin remains separate from Mere. Rich remains separate from Ricochet. Rooks remains separate from Cookie/Kuki and CookieStream. Ame remains separate from Amexistir.
 - Joke affection, pet names, family language, flirting and fake offices do not become literal romance, biological family, governance or appointment chronology.
 - Earliest surviving evidence is not automatically origin.
 - SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct.
