@@ -3,8 +3,8 @@ import type { CharacterNarrative } from "./character-biographies-narrative";
 export const shiyaxNarrativeCharacterBios: Record<string, CharacterNarrative> = {
   shiyax: {
     intro: [
-      "ShiyaX is a wedding planner whose UL file keeps proving that context is less a boundary than a raw material. He does not need to originate every joke to become part of its machinery. Give him a strange line, a half-explained screenshot, a horse problem, somebody else's bodily disaster, or a normal dinner photo and he is extremely capable of returning it to the room one degree worse.",
-      "That is the useful through-line from the old `I AM THE CHAOS` energy into the later archive. ShiyaX is not only the person things happen around. He keeps choosing the tiny reply that lets a shared bit survive another turn, then another year. The room hands him context. He hands it back damaged."
+      "ShiyaX is a wedding planner who can look like pure chaos because he talks like pure chaos. In practice, he is often the guy making the next thing happen: another joke, another game plan, another doodle, another reason for somebody to come back and join in. He does not need to originate the bit to become part of its machinery. Give him a strange line, a half-explained screenshot, a horse problem, somebody else's bodily disaster, or a normal dinner photo and he is extremely capable of returning it to the room one degree worse.",
+      "That is the useful through-line from the old `I AM THE CHAOS` energy into the later years. ShiyaX is not only the person things happen around. He keeps choosing the tiny reply that lets a shared bit survive another turn, then another year. The room hands him context. He hands it back damaged."
     ],
     sections: [
       {
@@ -19,8 +19,8 @@ export const shiyaxNarrativeCharacterBios: Record<string, CharacterNarrative> = 
         period: "March–April 2021",
         title: "HAVE IT READY WHEN YOU GET HERE",
         paragraphs: [
-          "The Baby Lyssa GTA lane is more useful as relationship behavior than as another game flex. Shiya repeatedly directs GTA updates toward her: back after a long gap and still `filthy rich`, then `i bought the sub`, then the line that explains the effort — `Buying shit for when you are able to play @Baby Lyssa`. Four days later he is remembering `Them long drives with @Baby Lyssa`. Whatever exact object `the sub` was, the social direction is clear: Baby Lyssa is not available yet and Shiya is already preparing the shared activity for her return.",
-          "That is a recurring Shiya trick in miniature: unserious wording sitting on top of behavior that took actual effort. He does not announce care; he hides it inside game logistics. The archive does not establish real-money gifting, a closeness rank, why Baby Lyssa could not play, or a complete reciprocal conversation because the H1 media index can omit text-only messages. Baby Lyssa = Ghoulie remains the project’s resolved identity bridge; the relationship claim here is narrower — Shiya appears to maintain a place for her inside the activity instead of merely showing her what he bought."
+          "Baby Lyssa can be nowhere near the game yet and Shiya is already preparing for her arrival. He comes back to GTA after a long gap and announces that he is still `filthy rich`; the next night he tells her `i bought the sub`, then gives the whole operation away with `Buying shit for when you are able to play @Baby Lyssa`. Four days later he is reminiscing about `Them long drives with @Baby Lyssa`. Whatever `the sub` was, she is clearly not just the audience for his game flexes. He is getting the playground ready before his friend gets there.",
+          "He never pauses to call this care. Of course he does not. He says `Buying shit`, makes the preparation sound like another stupid GTA spending spree, and only then reveals that somebody else's future availability is already shaping what he is doing now. That is very Shiya: unserious wording on top of effortful behavior, affection hidden in logistics, and a shared routine remembered in one throwaway line instead of a speech."
         ]
       },
       {
