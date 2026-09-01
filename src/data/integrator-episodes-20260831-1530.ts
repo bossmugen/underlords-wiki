@@ -36,5 +36,23 @@ export const run91IntegratedEpisodes: Episode[] = [
     kind: "UL event / cute profile pictures acquire mechanics and a winner",
     logline: "Nobu's twelve-person matching-PFP package does not stop at `9 out 12 pfp taken.` She turns it into a live Holder/Seeker game with proof rules, a reward, a deadline and channel routing. When Dayadream reports that people are confused, Nobu rewrites the mechanic into Holder / Seeker / Goal / Bonus / Deadline sections instead of blaming the room for not reading her mind. She answers edge cases, reminds the group, checks on DarkAsrai, explains why holders should keep their PFP stable so seekers do not redo work, closes the event, and announces `RUMMY` as winner. This is excellent Party Director-shaped behavior without being used as an appointment receipt or proof that every creative project she touched was official Party Director work. The matching-PFP assets are POSTED / DISTRIBUTED BY Xuseio; the underlying source art and every edit are not silently credited to her.",
     cast: ["Nobu", "Daya", "Rummy", "Rose"]
+  },
+  {
+    id: "jas-254x77-4k-appeal",
+    title: "Jas Appeals a 4K Charge in 254×77",
+    season: "2021",
+    date: "September 1, 2021",
+    kind: "Wall hearing / the defense audits the resolution",
+    logline: "Gilli posts `Capture.PNG`, says `Caught in 4k`, and tags Jas. Jas true-replies to the filing with the more urgent offense — `YOOO WHAT'S THIS LIGHT MOOODEE` — lets Gilli explain that light mode blends into work programs, then notices the prosecution has another technical problem: `254x77px ain't 4K tho 😐`. Gilli answers with a kick GIF. The scene is Jas in miniature: mock outrage gives way to specification review, and the joke gets funnier because he does not merely deny the charge; he audits the exhibit label. The attachment itself remains visually uninspected here. Gilli is POSTED BY; maker, capturer, featured people, and the exact image contents remain unresolved.",
+    cast: ["Jas", "Gilli"]
+  },
+  {
+    id: "mugen-hic-conversational-altitude",
+    title: "Hic Chooses the Conversational Altitude",
+    season: "2023",
+    date: "March–June 2023",
+    kind: "QOTD relationship grammar / the Boss does not require Boss voice",
+    logline: "Across several direct-reply exchanges, Hic sets wildly different conversational registers and Mugen keeps answering inside them. Hic's `Maintaining and distributing logistic services in wigs and edges` gets `Designated slayyyer`; `Nuts` becomes Mugen's `you`, Hic's `Me`, then two Raja hearts; and when Hic drops a long edited character essay, Mugen answers `A full ass essay and I'm here for it`. The roast and the welcome are the same sentence. This is not a formal mentorship, friendship rank, romance claim, or proof Mugen caused Hic's broader comfort in UL. It is a specific dyad habit: Hic does not have to climb uphill into ceremony before Mugen will meet the conversation.",
+    cast: ["Mugen", "Hic"]
   }
 ];
