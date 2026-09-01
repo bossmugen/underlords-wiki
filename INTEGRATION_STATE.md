@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-08-31 17:57 PDT_
+_Last updated: 2026-08-31 17:59 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Older run detail remains in Git history and MAIN's dated integration reports.
 
@@ -40,7 +40,7 @@ Separately, New later remembers Mugen recruiting New through GenGrey in another 
 
 MAIN's current visible Mugen biography is corrected. WIKI's active structured Mugen dossier was already compatible with the older-circle canon, but the dormant `src/data/character-biographies-mugen.ts` source had been moved in the wrong direction by commit `aff2b298a6456b56df68c04948c7c7d4097e5b2f`. It was restored by superseding commit `9777c4a0f069bfbfe68de7579d264ed41f95926f` so the bad chronology cannot reappear if that narrative source is wired back into the route later.
 
-This is a hard-canon repair, not a new public relationship theory.
+The subsequent durable state head `deb5ee4121eff84f04ecc11294c1616bb7ed98dd` passed **Build Underlords Wiki** run `33456802150` and **Deploy Underlords Wiki Preview** run `33456802112`; both completed successfully, including the GitHub Pages deployment. This is a hard-canon repair, not a new public relationship theory.
 
 ## MAIN reader integration / verification
 
@@ -49,7 +49,7 @@ MAIN's current `src/content/people/mugen.md` has both parts of the accepted work
 - the older pre-Raja circle includes Dean, Key, Zepp, Kal, New, and GenGrey;
 - Lilith + Nelph are folded into one person-first `away` versus `gone` continuity pattern instead of separate receipt paragraphs.
 
-The MAIN verification gate is healthy again. The earlier Damon visitor-index repair restored the full source-verification → Astro → built-output → Cloudflare chain, and the corrected Mugen chronology head also cleared the real pipeline rather than merely changing source.
+The MAIN verification gate is healthy again. The earlier Damon visitor-index repair restored the full source-verification → Astro → built-output → Cloudflare chain, and the corrected Run 97 public/state head `9e7d7d91d0ebde2e56baae1c21d14c33a41d007c` passed exact workflow `33456743397`: source canon/architecture verification succeeded, Astro succeeded, built-output verification succeeded, and the exact validated commit deployed successfully to Cloudflare Pages.
 
 ## Concurrent identity repair — Rich remains separate from Ricochet
 
