@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-08-31 17:36 PDT_
+_Last updated: 2026-08-31 17:47 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Older run detail remains in Git history and MAIN's dated integration reports.
 
@@ -50,10 +50,16 @@ Wall's newest HamitteY/Ghoulie chain is the same evidence family Daycare already
 
 Akamin adds one clean tiny taste: `Whiskey` followed eight seconds later by `Always gonna be my drink bb`. Keep it as a Petty Crimes-level preference only. **Akamin remains separate from Mere.** No quantity, frequency, intoxication or lifestyle claim is inferred, and no standalone public entity is manufactured from one drink preference.
 
+## MAIN verification gate recovered
+
+MAIN's verifier finally ran for real this pass instead of failing before runner assignment. The first exact state head, `5001e157d04f746c0fd0abe54b25f70697bf8825`, reached source verification and correctly failed because public profile `damon.md` had fallen out of the categorized roster index. A concurrent fix restored Damon to the visitor index at `a2afb1acb0a8b996092b7198390533c783c92136`; exact workflow `33455490964` then passed source verification, Astro build, built-output verification, and verified Cloudflare deployment.
+
+MAIN's durable dual-surface close then landed at `a9531eddd3fd39124df0acbe048622f21a734223`. Exact workflow `33455616954` also passed the complete Build + verify chain and verified Cloudflare Pages deployment. The old pre-execution Actions-runner failure is therefore no longer the current blocker.
+
 ## Publication debt / next boundary
 
-The five MAIN publication-debt families remain **All Characters HR, Core Rooms, Daycare, Mugen person-first, and Whiskey** because accepted complementary MAIN reader work still cannot clear MAIN's required verifier. Wall also carries older complementary MAIN debt while remaining recovery-open.
+The five MAIN publication-debt families remain **All Characters HR, Core Rooms, Daycare, Mugen person-first, and Whiskey**, but the reason has changed: the verifier is healthy again. These families now represent accepted complementary MAIN reader work that should be worked down deliberately, with a fresh current-branch re-read and successful exact-head verification, rather than being treated as permanently infrastructure-blocked. Wall also carries older complementary MAIN debt while remaining recovery-open.
 
-Resume only after movement beyond these reviewed boundaries: All Characters `6b52b105…`; Core `07b0bd17…`; Daycare `3d15ae8e…`; Whiskey `46239cd2…`; Wall `cb5d17d6…`; Mugen `02e2a153…`.
+Resume miner review only after movement beyond these reviewed boundaries: All Characters `6b52b105…`; Core `07b0bd17…`; Daycare `3d15ae8e…`; Whiskey `46239cd2…`; Wall `cb5d17d6…`; Mugen `02e2a153…`.
 
 SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct. Joke family language stays non-biological; playful relationship wording stays non-romantic unless separately supported; role arrays do not become appointment calendars; sensitive/minor material remains backstage.
