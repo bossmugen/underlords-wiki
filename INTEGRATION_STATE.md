@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-01 00:52 PDT_
+_Last updated: 2026-09-01 00:57 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Older pass detail remains in Git history and MAIN's dated integration reports.
 
@@ -16,7 +16,7 @@ Hard user canon, resolved identities, privacy/safety boundaries, explicit contra
 - **0 newly discovered active refs.**
 - **0 finite pending-review branches, 1 reviewed branch pending accepted publication, 0 backlog, 0 overdue.**
 - Wall recovery is reviewed/consumed through `315a33bfad6f18e65d7aac0bf1647fefde8fd892`; the quarry remains recovery-open but is current at that boundary.
-- Core advanced again after the first close and is now reviewed/consumed through `f016c300c860aca799780d4614f9a830e846553b`.
+- Core kept advancing during integration and every intake-only suffix through `e7ab828798625c81cbe598f78e4c37d979baa441` has now been reviewed/consumed.
 - Whiskey is reviewed/consumed through `11482d5de7caca32652a8f5a39844140ddd9d1c4` after accepted Cookie material cleared publication checks.
 - Mugen person-first is reviewed through `ac211fafb16bbc81863ce3e758c45bce724980f5`; accepted MAIN person-first work remains pending publication, so its consumed cursor stays pinned at `9c256e3e21d420cab79763ea3e0c065c6c6993ad`.
 - Daycare remains current through `aac9ef12724b9f4330c57bf6834c48a884c91c36`.
@@ -39,11 +39,11 @@ MAIN used the same source differently and more richly. `src/content/people/tofu.
 
 An unrelated private relationship detail encountered in the Core source was excluded from public routing entirely.
 
-### Core late suffix — Amexistir / Ame
+### Core late suffix — Ame
 
-The late `e77d1732 -> f016c300` Core suffix was reviewed checkpoint-first after the first close. Most of it is corroboration rather than a reason to breed another paragraph: the current public Ame owner already carries the singer-pseudonym origin from `amar existir`, the self-deprecating presentation of his own songs as made `with a lot of love`, the officer-room welcome, and Snow inviting his alliance thoughts into officer discussion.
+The late Core chain was reviewed all the way through the profile/checkpoint close at `e7ab828798625c81cbe598f78e4c37d979baa441`. Most of it is corroboration rather than a reason to breed another paragraph: the current public Ame owner already carries the singer-pseudonym origin from `amar existir`, the self-deprecating presentation of his own songs as made `with a lot of love`, the officer-room welcome, and Snow inviting his alliance thoughts into officer discussion. The final Tofu profile-candidate file likewise duplicates the just-published cumulative synthesis.
 
-One clean incremental taste fossil remains banked for `Petty Crimes`: Ame says he fell in love with RPGs through a very handsome Blade Dancer in *Lineage 2*. Valid, specific, and extremely him; not important enough to create a second patch immediately after the richer creative/role synthesis already landed. No appointment date was inferred from room access or later role state.
+One incremental taste fossil did deserve `Petty Crimes`: Ame says he fell in love with RPGs through a very handsome Blade Dancer in *Lineage 2*. MAIN folded that into Ame's existing biography rather than spawning an Episode; WIKI intentionally did not mirror the line because it adds ordinary-life/person texture, not new reference machinery. No favorite-game canon, appointment date, or larger Anayss relationship claim was manufactured from it.
 
 ### Whiskey — Cookie
 
@@ -77,12 +77,14 @@ MAIN Tofu reader commit `6146e6276107930d9672ef55d3bd0429eb920d16` passed exact 
 
 MAIN Cookie reader commit `adf5875541cc5e4068929846ee3f5a1c8941f518` passed the full same chain in exact workflow `33483732680`, including exact production deployment.
 
+MAIN descendant `834f54753eaecadfb0bba70dc918c071bad48246`, which contains the Ame *Lineage 2* `Petty Crimes` fold plus the Run 119 reconciliation state already committed beneath it, passed exact workflow `33484140404`, including source verification, Astro, built-output verification, and Cloudflare production deployment.
+
 WIKI reader head `46f6b13f7706e910b8c02d81ec11f5969be5dcb3`, which contains both the Cookie and Tofu dossier changes, passed Build `33483664940` and Pages deployment `33483664929`.
 
 ## Consumption result
 
 - Wall consumed through `315a33bfad6f18e65d7aac0bf1647fefde8fd892` as a successful no-public-change review.
-- Core consumed through `f016c300c860aca799780d4614f9a830e846553b`; the late suffix was duplicate/corroboration plus one small held Petty Crime.
+- Core consumed through `e7ab828798625c81cbe598f78e4c37d979baa441`; late profile/checkpoint files were duplicate/corroboration after the one incremental Ame `Petty Crimes` line was routed to MAIN.
 - Whiskey consumed through `11482d5de7caca32652a8f5a39844140ddd9d1c4` after accepted Cookie work passed verification.
 - Mugen person-first is reviewed through `ac211fafb16bbc81863ce3e758c45bce724980f5` but consumed remains `9c256e3e21d420cab79763ea3e0c065c6c6993ad` until its accepted MAIN person-first change is published and verified.
 
