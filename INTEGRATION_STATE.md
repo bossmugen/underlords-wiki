@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-01 15:58 PDT_
+_Last updated: 2026-09-01 16:07 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Older pass detail remains in Git history and numbered `INTEGRATION_STATE_RUN_*` snapshots. MAIN's controlling branch-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`.
 
@@ -13,6 +13,10 @@ Hard user-confirmed canon, resolved identities, privacy/safety boundaries, expli
 ## Current close
 
 Mandatory miner census: **49 tracked miner identities = 28 active refs + 21 historical/missing**, **0 newly discovered**, **0 finite pending review after close**, **0 pending publication**, **0 backlog**, **0 overdue**. Wall remains `recovery_in_progress` only as a future-open quarry. Both Club-Only recovery priorities remain current.
+
+### Run 171 — no new intake delta
+
+The 16:05 PDT full branch census found every active miner HEAD exactly equal to the controlling ledger's already-consumed SHA. No finite branch advanced, no late suffix appeared, and no recovery target has an unread tail. This run therefore makes **0 reader-facing changes on MAIN and 0 reader-facing changes on WIKI**, advances **0 consumed SHAs**, and creates no duplicate prose merely to prove the integrator woke up. MAIN's census ledger was refreshed at commit `65d5af326fa763ad06cf265c32b06c2f5b5e60d6` before any deeper review would have begun. No raw archive was reopened and no miner branch was merged or cherry-picked.
 
 Reviewed through:
 
@@ -27,7 +31,7 @@ Torr authored a friendship ladder that separates people one knows or enjoys spen
 
 MAIN owns the new character read. The existing `MUGS ACCORDING TO MUGS` section now lets that tiny caret sit beside Mugen's `distant drifter friend` self-description: she can know people, like them, joke with them, remember them, welcome them back, and still not treat every easy relationship as identical depth. The room can be wide while deeper trust stays a narrower door.
 
-This does **not** become `Mugen has few friends`, secret guardedness, a rigid personal doctrine, or a closeness leaderboard. Torr authored the categories; Mugen contextually endorsed them.
+This does **not** become `Mugen has few friends`, secret guardedness, a rigid doctrine, or a closeness leaderboard. Torr authored the categories; Mugen contextually endorsed them.
 
 WIKI intentionally receives no reader Episode from this source. The material is strongest as biography-level relationship philosophy on MAIN, and manufacturing an Episode from one caret would turn person texture back into receipt filing.
 
