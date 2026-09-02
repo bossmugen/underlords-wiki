@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-01 19:14 PDT_
+_Last updated: 2026-09-01 19:16 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Older pass detail remains in Git history and run-specific integration-state files. MAIN's controlling branch-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`.
 
@@ -64,4 +64,9 @@ The remaining Run-78 tranche — Allenne, Churro/Suora, Panda, Ame/Amexistir, Co
 
 ## Verification state
 
-Run 183 introduces no WIKI reader mutation. This state-bearing commit is the WIKI verification target; the ordinary Astro build and GitHub Pages workflow must complete independently. Exact Run-183 build/deploy results are recorded by the subsequent closing reconciliation state after CI completes.
+Run 183 introduces no WIKI reader mutation.
+
+- WIKI state-bearing commit `5fd20d59a68b4c3c83345ae8d22ee63097eef9df`: Build workflow **33582088644** — **success**; Pages workflow **33582088603** — **success**, including deployment.
+- MAIN state-bearing commit `c5622f37bcbb82da6b4105c34926f70bf7235681`: `UL Hourly Build + Deploy` workflow **33582059607** — **success**, including source canon/architecture verification, Astro build, built-output verification and exact-commit Cloudflare deployment.
+
+This closing WIKI state commit records those successful verification targets. It receives the normal Build and Pages workflows as a documentation-only descendant; their results are checked before the Run-183 user-facing close.
