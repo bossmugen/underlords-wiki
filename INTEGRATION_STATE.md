@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-01 23:10 PDT_
+_Last updated: 2026-09-01 23:14 PDT_
 
 This is the rolling dual-surface reconciliation snapshot. Older detail remains in Git history and run-specific integration records. MAIN's controlling branch-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`.
 
@@ -9,6 +9,16 @@ This is the rolling dual-surface reconciliation snapshot. Older detail remains i
 MAIN owns rich person-first biographies, lived chronology, relationship texture, and `Petty Crimes`. WIKI owns complementary Cast structure, role progression, Relationships, Episodes, Running Gags, Quotes, Locations, Gallery/media notes, and searchable reference. Do not mirror identical prose between surfaces.
 
 User-confirmed canon, resolved identities, privacy/safety boundaries, explicit contradictions, attribution fences, and formal appointment chronology remain hard. Ordinary contextual inference remains publishable under the project standard. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain separate. Earliest surviving material is not automatically origin.
+
+## Run 196 census-only boundary
+
+Mandatory census tracked **49 miner identities = 28 active refs + 21 historical/missing**, with **0 newly discovered**. Every active miner head matched MAIN's controlling consumed SHA at the census boundary. Closing finite queue is **0 pending review, 0 pending publication, 0 backlog, 0 overdue**.
+
+No changed intake handoff existed to review, so Run 196 made **0 reader-facing changes** on MAIN and **0 reader-facing changes** on WIKI. No consumed SHA advanced because no miner SHA advanced. No duplicate family, conflict, rabbit, relationship mechanism, Episode, Running Gag, or person-level deepener was manufactured from already-reviewed material.
+
+Wall remains `recovery_in_progress` only because that quarry may grow again; current Wall head `ec07d0618f198d11995ab612b4a016af2171af0c` is consumed. Both Club-Only recovery priorities remain current: `archive-miner/club-only-2021-2026-hourly` at `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa` and `archive-miner-clubonly-2020-hourly` at `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`.
+
+Run 196 is intentionally bookkeeping-only: unchanged receipts do not become filler biography paragraphs or micro-Episodes merely to make both repositories move.
 
 ## Run 195 reviewed work
 
