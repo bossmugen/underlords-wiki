@@ -1,6 +1,7 @@
 ---
 import WikiLayout from "../../layouts/WikiLayout.astro";
 import { allCharacters } from "../../data/cast";
+import { seasons } from "../../data/wiki";
 import { allEpisodes, episodeFormat } from "../../data/all-content";
 
 export function getStaticPaths() {
@@ -19,6 +20,18 @@ const seasonEpisodes = allEpisodes.filter((item) => item.season === episode.seas
 const index = seasonEpisodes.findIndex((item) => item.id === episode.id);
 const previous = index > 0 ? seasonEpisodes[index - 1] : undefined;
 const next = index >= 0 && index < seasonEpisodes.length - 1 ? seasonEpisodes[index + 1] : undefined;
+const availableSeasonYears = new Set(seasons.map((season) => season.year));
+const mentionedYears = [...episode.season.matchAll(/\b(?:19|20)\d{2}\b/g)].map((match) => match[0]);
+const matchedSeasonYears = [...new Set(mentionedYears.filter((year) => availableSeasonYears.has(year)))];
+const eraHref = matchedSeasonYears.length === 1 ? `/seasons/${matchedSeasonYears[0]}` : "/seasons";
+const eraTitle = matchedSeasonYears.length > 1
+  ? `Across ${episode.season}`
+  : matchedSeasonYears[0] ?? episode.season;
+const eraNote = matchedSeasonYears.length > 1
+  ? "See the eras this story crossed."
+  : matchedSeasonYears.length === 1
+    ? "See what kind of year produced this."
+    : "Start at the surviving public chronology.";
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 const url = (path: string) => `${base}${path}` || path;
 ---
@@ -73,7 +86,7 @@ const url = (path: string) => `${base}${path}` || path;
     <div class="related-module-head"><h2>SINCE YOU'RE SNOOPING</h2><p>The timestamp ends. The people, year, rooms, and callbacks do not.</p></div>
     <div class="related-grid">
       {previous ? <a class="related-card" href={`/episodes/${previous.id}`}><small>PREVIOUSLY</small><strong>{previous.title}</strong><span>{previous.date}</span></a> : null}
-      <a class="related-card" href={`/seasons/${episode.season}`}><small>THE FUCK HAPPENED</small><strong>{episode.season}</strong><span>See what kind of year produced this.</span></a>
+      <a class="related-card" href={eraHref}><small>THE FUCK HAPPENED</small><strong>{eraTitle}</strong><span>{eraNote}</span></a>
       <a class="related-card" href={`/snoop?q=${encodeURIComponent(episode.cast[0] ?? episode.title)}`}><small>KNOWN ASSOCIATES</small><strong>Follow the people</strong><span>Search the names pulled into this story.</span></a>
       {next ? <a class="related-card" href={`/episodes/${next.id}`}><small>THIS COMES BACK LATER</small><strong>{next.title}</strong><span>{next.date}</span></a> : <a class="related-card" href="/rooms"><small>ELSEWHERE IN THE HOUSE</small><strong>Walk the rooms</strong><span>Find the social spaces around the scene.</span></a>}
     </div>
