@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-01 21:00 PDT_
+_Last updated: 2026-09-01 21:10 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Older pass detail remains in Git history and run-specific integration records. MAIN's controlling branch-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`.
 
@@ -45,4 +45,8 @@ Run 189 remains the latest reader-facing lore boundary. MAIN already carries Aco
 
 ## Verification state
 
-Run 190 is state-only. MAIN and WIKI must each pass their repository's exact closing-head workflow/deployment independently before this boundary is considered fully closed. A failure on one surface does not authorize unsafe publication on the other.
+MAIN state/report head `d8c4a66ac4ebe3f4d76a5be2a38b89d90c4ee186` passed exact workflow `33589696957`: source canon/architecture verification, Astro build, built-output verification, and exact-commit Cloudflare production deployment all succeeded.
+
+WIKI state head `0981154a2105b109c8a9bc496c524f20f32b3dc4` passed Build workflow `33589716313` and Pages workflow `33589716297`; the Astro build, Pages preview/artifact work, GitHub Pages deployment, and final report all succeeded.
+
+This verification-note commit is state-only and contains no reader-facing lore mutation. A failure on one surface never authorizes unsafe publication on the other.
