@@ -5,7 +5,7 @@ aliases:
 roles:
   - "VIP"
 eraStart: 2020
-summary: "A VIP who is already fluent enough to call a sub-hour Wall appearance a record, yell at Mugen when the wrong tag locks him out, pass a possible security warning upstairs, and reduce concern to `please sleep`."
+summary: "A VIP who is already fluent enough to call a sub-hour Wall appearance a record, yell at Mugen when the wrong tag locks him out, pass a possible security warning upstairs, and notice when somebody is unexpectedly still awake."
 summaryEvidence: "inferred"
 publication: "public"
 claims:
@@ -33,6 +33,20 @@ claims:
       - label: "👅 Wall · 2020-12-02"
         href: "/channels/wall"
     note: "The messages are adjacent but are not preserved as direct threaded replies. Woohyuk's reaction to Lilly's `Gnight` is direct interaction evidence; it still does not prove Lilly was the sole or original addressee of `please sleep`."
+  - text: "Also on December 2, Woohyuk posted an uninspected `Screenshot_143.png`, later said `i am pure`, and Lilly answered twenty-seven seconds later, `Also that’s the biggest lie you’ve ever told`."
+    evidence: "archive-confirmed"
+    date: "2020-12-02"
+    sources:
+      - label: "👅 Wall · 2020-12-02"
+        href: "/channels/wall"
+    note: "Peer-teasing / reputation indexing only. The image was not inspected and does not establish its contents, maker, capturer, featured people, or literal moral character."
+  - text: "On December 27, 2020, Woohyuk wrote `Wow tae you're awake.`; Tae answered `yeah??`, then `Dw I slept` and `I just randomly woke up`."
+    evidence: "archive-confirmed"
+    date: "2020-12-27"
+    sources:
+      - label: "👅 Wall · 2020-12-27"
+        href: "/channels/wall"
+    note: "There are no threaded reply pointers, but the immediate local sequence strongly supports a Woohyuk→Tae state-check and Tae reassurance. Do not infer a chronic sleep problem, medical history, or fixed sleep schedule."
   - text: "On February 1, 2021, Gilli publicly credited a circulating Discord security warning to Woohyuk and told Staff that, whether the warning was real or not, it was better to be safe than sorry."
     evidence: "archive-confirmed"
     date: "2021-02-01"
@@ -71,6 +85,9 @@ antiFanon:
   - "Woohyuk is VIP in the locked roster. Historical export-time role arrays are not appointment chronology and should not be used to invent a promotion path."
   - "The October 2020 lockout scene proves Mugen later said she removed the wrong tag. It does not reconstruct exact permissions, duration, or a formal disciplinary action."
   - "The December 2 `please sleep` sequence is immediate adjacency, not a threaded reply. Woohyuk's reaction to Lilly's `Gnight` is direct, but Lilly is not declared the sole addressee."
+  - "The December 27 Tae sequence is a strong local state-check/reassurance read, not a medical or chronic sleep claim."
+  - "`i am pure` and Lilly's immediate answer are peer banter; the nearby uninspected screenshot does not become evidence of morality or unseen content."
+  - "Do not map the unresolved nearby `NOOO LUNA` referent onto Lilly."
   - "The February 2021 warning proves an information-sharing path, not the truth of the warning, technical expertise, authorship of the chain message, or a security job for Woohyuk."
   - "The March 13 and April 24 attachments were not visually inspected in this pass. Do not describe the exhibits from filenames, timing, or vibes."
   - "The June 25 rebate exchange proves a direct request and Woohyuk's immediate cooperation; it does not establish the rebate amount, purchase, financial circumstances, or what Gilli later meant by `secret sections unlocked`."
@@ -79,6 +96,7 @@ antiFanon:
 relatedPeople:
   - "tofu"
   - "lilly"
+  - "tae"
   - "aeshleen"
   - "mugen"
   - "ren"
@@ -89,6 +107,7 @@ tags:
   - "wall-fluency"
   - "terse-humor"
   - "low-volume-care"
+  - "peer-reputation"
   - "risk-signal"
 ---
 
@@ -166,9 +185,21 @@ Eight seconds after that, Lilly writes:
 
 Woohyuk gives that `Gnight` the sole recorded **SmugSip** reaction.
 
-There is no preserved reply arrow tying `please sleep` specifically to Lilly, so the site stops short of manufacturing a neat two-person bedside scene. His reaction to Lilly is direct evidence; the original addressee remains unresolved. What survives cleanly is still useful: he has been tracking something repeated across an hour, drops a two-word sleep nudge into the room, then reacts when somebody says goodnight.
+There is no preserved reply arrow tying `please sleep` specifically to Lilly, so the dossier keeps the target open. His reaction to Lilly is direct evidence; the original addressee is not.
 
-No lecture. No paragraph about self-care. No performative panic. **`please sleep`**.
+### Relationship — Tae
+
+December 27 gives the cleaner state-check:
+
+> Woohyuk: `Wow tae you're awake.`
+>
+> Tae: `yeah??`
+>
+> Tae: `Dw I slept`
+>
+> Tae: `I just randomly woke up`
+
+There is no thread pointer, but the sequence is tight enough that Tae's reassurance reads as an answer to the implication in Woohyuk's opener. It is a useful relationship verb: **notice unexpected state → tiny nudge → reassurance accepted**. No medical history is hiding in four messages.
 
 Two months later another kind of concern travels through him. Gilli posts a Staff warning about a circulating Discord friend-request/security chain and opens with:
 
@@ -178,7 +209,17 @@ Gilli herself keeps the uncertainty visible—**whether it is real or not**, bet
 
 That does not make Woohyuk Cybersecurity Department. It does not even prove he believed every technical claim in the original warning. It shows him acting as an **upstream signal**: something potentially risky crosses his path, he passes it toward Staff, and the group decides what public caution to attach to it.
 
-Put beside `please sleep`, the modest pattern is not heroic protection. It is **low-drama forwarding of concern**. A person might need sleep? Say so. A weird warning might matter? Send it upstairs. The archive does not catch him turning either one into a performance about himself.
+## Quote Index — `I AM PURE`
+
+On the same December 2 Wall date, Woohyuk posts `Screenshot_143.png`. The pixels stay sealed. Later he files his own defense:
+
+> `i am pure`
+
+Lilly's review arrives twenty-seven seconds later:
+
+> `Also that’s the biggest lie you’ve ever told`
+
+That is enough to index the peer reputation without pretending the unseen screenshot is Exhibit A for anybody's actual moral character. The joke works because Lilly does not request supporting documentation. She rejects the claim on arrival.
 
 ## THE CHARACTER READ
 
@@ -186,12 +227,12 @@ Woohyuk's useful contradiction is not `VIP but acts like a member`; UL's categor
 
 It is that his **comic register and care register use almost the same amount of language**.
 
-Watermelon is consumer fraud in three messages. A Wall request gets **`Sheeet I gotchu`**. An access failure gets **`BRUH MUGEN LOCKED ME OUT`** and a sad face. Concern gets **`please sleep`**. A possible security problem gets forwarded into the Staff chain rather than inflated into expertise.
+Watermelon is consumer fraud in three messages. A Wall request gets **`Sheeet I gotchu`**. An access failure gets **`BRUH MUGEN LOCKED ME OUT`** and a sad face. Concern gets **`please sleep`** or **`Wow tae you're awake.`**. His own innocence case gets one line before Lilly throws it out. A possible security problem gets forwarded into the Staff chain rather than inflated into expertise.
 
 The sentences stay small. The social fluency underneath them is doing most of the work.
 
 ## SOURCE BOUNDARY
 
-The Lobby, Wall, and Announcements scenes above are archive-confirmed. Reading them together as a contrast between cultural fluency, direct complaint style, and low-volume concern is interpretation, not a formal role claim.
+The Lobby, Wall, and Announcements scenes above are archive-confirmed. Reading them together as a contrast between cultural fluency, peer reputation, direct complaint style, and low-volume concern is interpretation, not a formal role claim.
 
-Woohyuk remains **VIP** in the locked roster. The Wall behavior does not promote him into an invented office, the security warning does not make him a security specialist, and no uninspected attachment gets described merely because the timing is funny enough to tempt us.
+Woohyuk remains **VIP** in the locked roster. The Wall behavior does not promote him into an invented office, the security warning does not make him a security specialist, no sleep exchange creates a health profile, and no uninspected attachment gets described merely because the timing is funny enough to tempt us.
