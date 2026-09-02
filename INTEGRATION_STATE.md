@@ -1,126 +1,69 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-02 12:34 PDT_
+_Last updated: 2026-09-02 13:01 PDT_
 
-MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. This file records the WIKI-side reconciliation boundary and surface-routing decisions.
+MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. This file is the WIKI-side current-state rollup; prior run detail remains preserved in `INTEGRATION_STATE_RUN_*.md`.
 
 ## Current reviewed boundary
 
-Full census: **49 tracked miner identities = 28 active refs + 21 historical/missing**, no newly discovered branches. The only finite delta in Run 243 was Whiskey Longitudinal, which advanced one commit from the previously consumed boundary. That delta has now been reviewed checkpoint-first and intake-only through stable head `5e5fe0b86a5130efa3798bbf0f4097ddcca912ba`. MAIN's controlling ledger closes the finite queue at **0 pending review, 0 pending publication, 0 backlog, 0 overdue**. Wall remains `recovery_in_progress` only because the quarry may grow again.
+Full census: **49 tracked miner identities = 28 active refs + 21 historical/missing refs**, with **0 newly discovered, 0 pending review, 0 pending publication, 0 backlog, and 0 overdue** at this close.
 
-Current reviewed heads:
-- All Characters HR: `8b54baaf8cf3f6cd37afa497367b0382ff5dd32d`
+Current key reviewed heads:
+
+- All Characters HR: `dd500657470b71415cc839832dc5e03ead307e68`
 - Core Rooms: `aac6703622099dd3c96138c59f51b87287d2a92e`
-- Wall recovery: `3739a6943b32f498eace60bf21f77a9c9eaa7dec`
-- Daycare: `ce3b13c236c7720f22c4fa84d9c22e834ae25949`
+- Wall recovery: `b3027f56ee3fff9178746ac4ee88adcb1a618f7d`
+- Daycare: `e80d25323fb73a1b802adb7e71b91d64d5dcff5b`
 - Whiskey Longitudinal: `5e5fe0b86a5130efa3798bbf0f4097ddcca912ba`
 - Louvre / AI Art / Athenaeum / Other Games: `518686748761233d30d01d10f1224ce179dcefe8`
-- Mugen person-first: `e6377ec0cb1ba4a6b9c655afa403b7f6d07e411a`
+- Mugen person-first: `f8065759c98fa6c40aabd3f72d8b48cd55285442`
 - Club-Only 2020: `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`
 - Club-Only 2021–2026: `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`
 
-Both Club-Only recovery priorities remain current.
+Both Club-Only recovery priorities remain current. Wall remains `recovery_in_progress` only because that quarry may grow again; its present head is already reviewed.
 
-### Run 243 — Whiskey / Tae reconciliation
+## Latest reconciliation — Pride appeals the charge
 
-The Whiskey delta supplied a genuinely new person-shaped mechanism for **Tae** rather than a new historical event: **Tae externalizes friction.** She can be loud when she knows and equally loud when she does not know. Answers, questions, reversals, annoyance, and unfinished problems all get put into chat before they have been polished into one seamless performance of competence.
+`archive-miner/all-characters-hr-20260828` advanced from `8b54baaf8cf3f6cd37afa497367b0382ff5dd32d` to `dd500657470b71415cc839832dc5e03ead307e68`. The delta was reviewed checkpoint-first and intake-only and changed exactly one handoff: Pride's comprehensive HR file.
 
-The strongest family combines Jan 2 `HERES YOUR INFO THAT YOU WERE TO LAZY TO LOOK UP` with Apr 23 / Apr 27 repeated help asks. Tae can be the person who did the lookup and the person asking the room what something is. That is not “smart but dumb”; it is information moving both directions through a person who does not appear especially invested in pretending she is permanently the expert.
+The refined mechanism is simple and extremely Pride: the Wall can have the exhibit, but Pride still wants a vote on what the exhibit means. Earlier Pride explains that everyone gets exposed, warns that they are always watching, predicts being plastered for dumb things, and then answers Gilli's `im watching you` with `keep watching baby`. In the December sequence Pride answers a fresh filing with `:sip:` and `i regret nothing`, then explicitly argues that it is not a shame moment but a proud moment before sipping again.
 
-The March 27 pair is the cleanest quote/reference object: `My name is epic` becomes `No actually how do i change this mess` **178.175 seconds later**. The exact profile/name UI remains unresolved, but the social mechanism does not: confidence has a short warranty and Tae publishes the patch notes herself.
+MAIN already owned that exact person-first contradiction and the full December scene, so adding another biography paragraph there would have been receipt mitosis.
 
-**Tae ↔ Gilli** advanced to a direct chosen-witness pattern. Apr 29 repeatedly routes an outside-comment mess to Gilli (`IT GETS WORSE`), and May 10 directly routes a Doki Doki/Natsuki object with `look look`. WIKI indexes that as relationship behavior, not a generic `friends` label. `mama` remains familiar joke-address, not family evidence.
+WIKI did have Pride in Cast with Wall/sip context, but it did not expose this recurring move as searchable reference lore. WIKI now owns the complementary Running Gag:
 
-**Tae ↔ Yaza** advanced but stays probabilistic. The known homework push sits inside a playful same-session media sequence, making comfortable encouragement-shaped nagging / pushy care a strong read. Jordayy's later `best friends` wording remains peer characterization rather than an objective closeness rank, origin, exclusivity, romance, or family claim.
+- `src/data/integrator-gags-20260902-1258.ts`
+- **Pride Appeals the Charge**
+- reader commit `548ee31d12d7b60798c6d6adb3eede995f79cc0e`
 
-WIKI reader commit `b116f1bccf70c169610e3a1fb57579b969082e51` rewrites Tae's structured narrative around **Room Use**, **Relationships — Gilli**, **Relationships — Yaza**, **Running Gags / Wall**, **Quotes / self-reversal**, **Petty Crimes**, and **Continuity**. It does not mirror MAIN's prose and it does not manufacture a standalone Wiki Episode; the value is cumulative character/relationship structure.
+The joke is not that Pride denies everything. The better pattern is that Pride occasionally accepts the prosecution and appeals the classification until embarrassment has been rezoned as an achievement.
 
-Exact reader verification succeeded:
-- Build Underlords Wiki `33673321574`: success.
-- Pages `33673321614`: build success, deploy success, report success.
+## Verification / deployment
 
-Held rabbits remain targeted rather than generic: Jan 2 information recipient; Apr 23 privacy-protective fallback-question semantics; both Apr 27 help objects; exact March 27 naming UI; stronger reciprocal Tae→Yaza material; possible reciprocal Gilli routing. Tae remains distinct from Souta / 颯太 by stable account ID. Weather complaints do not establish exact location. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain separate.
+WIKI exact reader verification on `548ee31d12d7b60798c6d6adb3eede995f79cc0e`:
 
-### Louvre / Rooks / Zoshaa reconciliation
+- Build Underlords Wiki `33676397482`: success.
+- Pages `33676397437`: success.
+- Pages build: success.
+- Deploy to GitHub Pages: success.
+- Pages report: success.
 
-The new Louvre family produced one strong MAIN person-first gain and one corroboration-only lane.
+MAIN's run-246 census commit `dbb10f9e52920a9f17e0e7efc4fec2e3a422e46a` passed `UL Hourly Build + Deploy` workflow `33676040514`: source canon/architecture verification, Astro build, built-output verification, and exact Cloudflare Pages deployment all succeeded. MAIN's final state/report commit is checked separately at run close.
 
-**Rooks:** MAIN now owns the richer workshop read. In September 2020 she promises that what they are making will be posted in the Louvre; in October she explicitly says `I'm gonna share my painting so far in #🎨│the-louvre` and then asks `critique me`. The useful character mechanism is not “Rooks posts art.” She is willing to expose unfinished work and ask other people to push on it. That belongs in the biography because it makes her high-definition attention reciprocal: she notices everyone else's details and can hand her own draft back to the room for inspection. WIKI gets no standalone Episode or Running Gag because the source is trait texture, not a discrete reference object.
+## Held rabbits / rails
 
-**Zoshaa:** Anayss's 2021 invocation of Zoshaa as the person who can help hide the room's whaling, followed twenty-three seconds later by Zoshaa's `Screaming is what I do best😎😎😎`, gives the quiet-to-chosen-volume arc an independent social witness. MAIN already has the stronger arc and the endpoint. WIKI does not breed a new incident merely because the same mechanism has better corroboration.
+- Pride-adjacent media remains uninspected where not explicitly inspected. POSTED BY stays distinct from MADE BY / CAPTURED BY / FEATURING.
+- `keep watching baby` remains playful Wall language, not romance evidence.
+- Pride's boast does not establish literal sexual history, gender, real-world identity, or relationship status.
+- The December `proud moment` wording does not establish the origin of the Wall of Fame concept.
+- Pride/body/corpse language remains social/game joke language rather than literal violence; Ren-posted images retain separate attribution boundaries.
+- Earliest surviving contextual evidence is not silently promoted into an origin claim.
+- Export-time role metadata does not become appointment chronology.
 
-### Whiskey Longitudinal / Anayss reconciliation
+## Surface routing
 
-The earlier Anayss packet is mostly comprehensive catch-up to material already public: Gilli knowing her name; Gilli and Woohyuk birthday care; Ren theatrics; coffee confession; explicit `/S`; Gabu warmth and Boss teasing. The freshest Gabu pair — `many people to have fun with here` and `Take a break Boss Gab!` — strengthens an existing relationship read rather than changing it. No duplicate MAIN paragraph and no WIKI Episode were added.
+MAIN: **0 reader-facing changes** for this delta because the canonical Pride biography already carries the stronger person-shaped read.
 
-### Mugen person-first reconciliation
+WIKI: **1 reader-facing structured change** — the searchable Running Gag `Pride Appeals the Charge`.
 
-A 2020 Bosses Office packet adds a strong backstage Mugen read: during admin/officer-recognition discussion, her `main concern is the burnout for those in admin`; the same controlled context calls Anthos a `hard worker` and has Mugen wanting to check in on him. Reliability can register to Mugen as human cost, not only additional capacity. That is a useful system-builder contradiction, but this run does not add a separate public Mugen paragraph because her mature authority/self-limitation spine already carries the larger mechanism and the exact second-message wording/native neighborhood remain incomplete. The finding is consumed and banked, not discarded. WIKI gets no standalone Burnout Incident™.
-
-### Wall recovery / Bishop / Vanness reconciliation
-
-**BishopThaGuru:** MAIN folded the new text directly into his existing Wall-reputation section. Bishop can tell somebody else `Yeah unfortunately they caught you fam`, then admit he was watching closely because he was wondering `is he talking to me? 🤣`. That sharpens the recurring viewer/judge-to-possible-defendant rotation without inventing formal authority. WIKI does not need a separate Running Gag because Bishop's current public value here is person-shaped social posture rather than a new searchable institution.
-
-**Vanness:** the collector-to-defendant sequence is a strong seed — soliciting Mugen photos, then panicking about a clean record and shouting `NO SELF INCRIMINATION` when the machine swivels. It is still too thin for a public Cast dossier. Banked, not inflated.
-
-Open Wall visual/provenance rabbits remain open. No uninspected image gained MADE BY, CAPTURED BY, or FEATURING through proximity.
-
-### All Characters HR — Run 88 reconciliation
-
-Run 88 materially repaired the comprehensive miner files for **Ten** and **Ghostt**, but the two public surfaces were not equally stale.
-
-**Ten:** MAIN already owned the person-first recurrence in which Ten realizes `i keep forgetting y'all record these`, then roughly thirty-five seconds later bargains the embarrassment into `at least i'll leave some kind of legacy i guess`, before returning two weeks later with `legacy` and an imaginary `heir`. WIKI had only the later `heir` line. `src/data/dossier-snapshots/ten.md` now treats the pair as a searchable Running Gag / character mechanism: Screenshot Court catches Ten, Ten accepts the premise, and the defendant somehow founds a dynasty instead of filing an appeal. `legacy` / `heir` remains social-memory humor, not succession, office, literal family, or appointment evidence; the Aug-27 raw snowflake IDs were not reacquired and no reply arrow was invented.
-
-**Ghostt:** MAIN was already substantially ahead of the old WIKI dossier. The reconciled WIKI file now carries the contradiction instead of reducing Ghostt to Raja-detachment chronology: ordinary work pressure without an occupation claim; the self-filed beard-fire story; `Aye i used to box, wassup?`; low-ceremony concern for Rooks's paper; two-date reciprocal heart-coded affection with Anthos; Mass Effect repeat-playthrough investment; apple-juice law; and the older clean social arc where Raja can leave while Discord/UL remains. The file explicitly keeps **Ghostt ≠ Moon**, avoids boxing/aggression inflation, keeps the Rooks join contextual-high rather than a true-reply claim, and does not turn heart reciprocity into romance/family/rank.
-
-Reader head `1f580f937306d81360886d03d696565e378dc82d` contains both WIKI catch-ups. Exact Build `33665508611` succeeded and exact Pages `33665508362` succeeded, including deployment.
-
-**No-public-change / duplicate-by-meaning:** Hishiro, GenGrey, Nhou, Alkey, and Zepp were rechecked in the miner handoff but produced no stronger reader delta than the mature public material already present. MAIN reader files did not change in this reconciliation because its Ten and Ghostt biographies already carried the stronger person-first versions.
-
-**Held rabbits:** Ten still needs later authored ordinary-life/care/repair material and exact Aug-27 raw IDs only if a forensic exhibit requires them. Ghostt still has the missing Gilli `everyday` phrase, later-adult-life gaps, incoming-care/repair holes, and uninspected visual provenance. None blocks the current character reads.
-
-### Latest census-only pass
-
-The immediately preceding project-wide census found no active miner branch advanced beyond its then-consumed head. No reader-facing MAIN or WIKI lore changed in that quiet pass. MAIN's branch ledger was still refreshed so `last_seen_sha` and `last_consumed_sha` remained explicitly distinct rather than silently assuming quiet meant reviewed.
-
-## Surface routing this close
-
-**Tae:** MAIN owns the rich person-first reorganization around unfinished questions/answers, public reversals, Gilli chosen-witness behavior, Wall contradiction, and Petty Crimes. WIKI owns the structured Room Use / Relationships / Running Gags / Quotes / Petty Crimes / Continuity form at reader commit `b116f1bccf70c169610e3a1fb57579b969082e51`. No WIKI Episode was created because the source does not need a fake historical event wrapper.
-
-**Rooks:** MAIN owns the person-first unfinished-work/workshop fold. WIKI intentionally gets no duplicate Episode; the source changes character texture, not reference topology.
-
-**BishopThaGuru:** MAIN owns the viewer-to-possible-defendant Wall contradiction. WIKI intentionally gets no duplicate Running Gag this pass.
-
-**Zoshaa:** corroboration only. Her existing public quiet-to-chosen-volume arc already owns the stronger story.
-
-**Anayss:** corroboration/duplicate by meaning. Existing MAIN relationship and ordinary-life material already covers the packet's useful mechanisms.
-
-**Mugen:** burnout/Anthos labor-cost mechanism consumed backstage and banked for a future natural fold; no standalone WIKI Episode.
-
-**Ten:** MAIN remains the richer person-first owner and already had the posterity recurrence. WIKI now owns the structured Running Gag/relationship/episode indexing at reader commit `ecca1163806958ef6129aa7cd41d0bd91c3a2fdb`, included in verified reader head `1f580f937306d81360886d03d696565e378dc82d`.
-
-**Ghostt:** MAIN remains the richer person-first owner and already had the ordinary-life/toughness/care package. WIKI now owns the searchable role/relationships/episodes/Petty Crimes structure at reader commit `1f580f937306d81360886d03d696565e378dc82d`.
-
-**Rose / DarkAsrai:** MAIN owns the rich person-first QOTD follow-through and Moon-care texture. WIKI owns the structured Episode **Twenty QOTDs and the Word Document**. Reader verification at `353ba4133423152c4271082e1bebb9723350843e`: Build `33659530841` succeeded and Pages `33659530813` succeeded.
-
-**Zhēnxī:** WIKI owns the cumulative Running Gag **Zhēnxī vs. the Wall** at `f4a914d8c0e337e7a54674fab88c4834bbfa3b3f`; Build `33660655380` and Pages `33660655362` succeeded. MAIN does not force a person page without a resolved public owner. Reply-parent joins close structure only; media contents and creator/capture credit remain unresolved.
-
-**Tony:** stable account `173295352407293952` bridges Tony's historical display handles without name-similarity guessing. MAIN owns the richer prosecutor/defendant contradiction; WIKI keeps the searchable Running Gag/reference form already present on `main`. No second incident page was created.
-
-**Mia:** the 2024 return scene deepens the existing front-door-care arc: Mia quickly shifts from `New person` to welcoming an old returner and then gives that person a live entry point into the room. MAIN already owns that mechanism, so no duplicate paragraph was added. The Oolong Tea → Pu-Erh Tea bot-name continuity strengthens a probable replacement-lineage read but does not prove the cause of replacement or a formal appointment chronology.
-
-**Gabu:** MAIN already owns Gabu's practical-care-with-silly-delivery pattern. WIKI indexes the cumulative motif as **Gabu's Care Has Legs** at reader commit `3705c1b2796fcbb0a53e362a6697b3049ef45a9b`; Build `33661352041` and Pages `33661351855` succeeded. Repeated morning media supports a recurring arrival habit, not a literal every-day schedule.
-
-## No-public-change decisions
-
-The new Tae packet did **not** become a WIKI Episode; it was integrated as character/reference structure. Older Tae algebra, Mugen math-sedative, `I been in here`, Wall-defense, and 2024 Rich/Rummy material were not presented as new discoveries; the new Whiskey family was used to reorganize and deepen the already-public person.
-
-Zoshaa and Anayss were consumed as corroboration/duplicate-by-meaning rather than spawning receipt paragraphs. Mugen's burnout/Anthos mechanism is strong enough to keep, but it is banked backstage until it can deepen the existing authority/self-limitation section naturally rather than creating another report-shaped paragraph. Vanness remains a strong person seed, not enough person for a dossier. Thin people remain thin.
-
-Run 88's Hishiro, GenGrey, Nhou, Alkey, and Zepp checks were consumed as bounded negatives/corroboration rather than spawning receipt paragraphs. MAIN's Ten and Ghostt reader biographies were already ahead of the comprehensive miner, so MAIN reader content stayed unchanged while WIKI caught up structurally.
-
-Mia's 2024 endpoint corroborates an already-public MAIN mechanism. Mugen's two small ordinary-life facts are banked instead of interrupting the biography spine. No extra Gabu Episode was created because the value is cumulative character texture, not a discrete event.
-
-## Hard rails held
-
-User-confirmed canon and resolved identity corrections remain controlling. Current/export-time role arrays do not establish appointment chronology. Reply-parent joins establish parentage, not media contents. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain separate. Similar display names do not merge identities. Earliest surviving is not automatically origin. Joke inheritance is not governance; heart-coded affection is not romance/family/rank; work mentions do not reveal occupation. Exact/minor-age details remain private. Tae remains distinct from Souta / 颯太 by stable account ID.
+Detailed reconciliation: `INTEGRATION_STATE_RUN_246.md`.
