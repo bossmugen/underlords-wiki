@@ -1,44 +1,48 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-02 09:12 PDT_
+_Last updated: 2026-09-02 09:29 PDT_
 
 This is the rolling dual-surface reconciliation snapshot. MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`; older detail remains in Git history and run-specific records.
 
 ## Current reviewed boundary
 
-Run 229 opened with **49 tracked miner identities = 28 active refs + 21 historical/missing**, no newly discovered branches, two advanced branches, no backlog, and no overdue branches. The reviewed boundaries are:
+Run 230 census: **49 tracked miner identities = 28 active refs + 21 historical/missing**, no newly discovered branches, one advanced finite tail, no backlog, and no overdue branches.
 
-- All Characters HR: `aae636d85caea05a2567ae038af68021309beeea`
+Current reviewed boundaries relevant to this pass:
+
+- Daycare: `fcf5666694cb27e940c16a99d435d050b17f232e`
 - Wall recovery: `0ab02105edc746e5ed5960412eb9dd8649055167`
+- Club-Only 2020: `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`
+- Club-Only 2021–2026: `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`
 
-Both Club-Only recovery priorities remain current. Wall remains `recovery_in_progress` because its quarry is still active, not because the reviewed `0ab02105…` boundary is incomplete.
+Wall remains `recovery_in_progress` because its quarry is active, not because the reviewed `0ab02105…` boundary is incomplete. Final reviewed queue for Run 230: **0 pending review, 0 pending publication, 0 backlog, 0 overdue**.
 
-## Run 229 — Eos can receive care without becoming a different character
+## Run 230 — apparently `@Eos` is enough context
 
-All Characters Run 87 corrected a tilted Eos / Marian-Panda relationship read. Wall already gave Eos prosecutor/defendant/caretaker comedy; Daycare adds Panda saying how much he loves Eos, refusing to continue a shared game without Eos, future-shaped house language, a song dedicated to Eos, and the wish to sing it if his voice improves. Eos can answer `you stole my heart a long time ago` inside the same relationship that also contains `too vanilla`, `TELL ME WHY`, panda punishment, and accidental Screenshot Court.
+The new Daycare tail turns an existing Eos line into a recurring social mechanism. Eos has said `no context is needed wym`; across June 2021 through February 2023, multiple people apparently take that as practical guidance.
 
-MAIN had already integrated this person-first correction at `faa570234df94ea5553c4570b1a78d5590689a73` before Run 229. WIKI currently has no dedicated Eos Cast route, so this pass records the reciprocal rail as an architecture gap instead of inventing a thin shelf solely for parity. Romantic-style UL language remains relationship texture, not legal marriage, exclusivity, sexuality, cohabitation, sexual history, or current offline status.
+Ren posts an uninspected image, writes `The Nyan is back`, then sends bare `@Eos`; Eos answers `yuussssssss` and frog reactions about forty-one seconds later. Ansun/Sou later posts another sealed image under `no context eos`. Rummy eventually posts only `@Eos` plus an uninspected JPEG and gets Eos's disappointed-clown reaction about thirty seconds later.
 
-## Run 229 — Cookie can relay the evidence; Hami can probably supply it
+The useful read is shared-reference shorthand: people expect Eos to catch the social packet without everybody rebuilding the runway. That is familiarity, not a closeness ranking, and the sealed pixels do not become content evidence. `no context eos` is Ansun/Sou's authored caption; Eos's own separate line remains `no context is needed wym`.
 
-On 2021-06-04 Cookie posts `Got this from HAM`, then thirteen seconds later `my response`. HamitteY appears in the same pocket less than a minute later with `:HuH:` and Cookie answers with three twerk emotes.
+The February 2023 Rummy exchange also extends Eos's surviving public archive continuity through 2023. MAIN corrected Eos's old `2020–2022 archive` label and folded the recurrence into the existing `LOW-CEREMONY PEOPLE PERSON` section plus Petty Crimes instead of creating another receipt-led paragraph.
 
-Cookie's public WIKI narrative already owns the important structured read: he can distinguish somebody else's source material from his own response and package the sequence for the room. `HAM` is strongest as probable HamitteY in context, not a permanent alias lock. That gives Hami a useful reverse-side contradiction: the recurring Wall target can apparently sit upstream of the receipt pipeline too.
-
-WIKI currently has no dedicated HamitteY Cast route. The Hami-side character deepener therefore lives on MAIN and in this durable WIKI state rather than being forced into an underbuilt dossier. The first object remains POSTED BY Cookie and VIA/SUPPLIED BY probable Hami only; capture, creation, depicted subjects, source room, and posting request remain unresolved.
+WIKI uses the same source differently as the searchable Running Gag **`Eos: Context Optional`** in `src/data/integrator-gags-eos-20260902-run230.ts`. WIKI still does not manufacture a dedicated Eos Cast route solely for parity.
 
 ## Reviewed but intentionally not republished
 
-Rooks, Tofu, Aeshleen, Nuien, Akuma/Matsu, and Crystalia were bounded-negative / corroboration-only in the All Characters tranche. iBwoy's Wall `Eh` chorus is valid ultra-thin microtexture but not enough for a full page or Episode. Cookie's relay behavior was already public on both surfaces. No receipt mitosis.
+SaraBunny / foxcat remains a thin person seed: introduction plus later `so much moo` is not enough dimensions for a public profile. The bounded February 17–19, 2023 Wall quiet window remains control context, not a disappearance or social event. RH16's endurance-bot identity did not materially move; Jockie Music / Oolong Tea remains high-confidence probable, while Saber remains control/background infrastructure rather than convicted bot.
 
 ## Publication / verification
 
-MAIN reader-facing change: `src/content/people/hamittey.md` at `81f4a36ee4e76a969f8eae65f5fe776e5a5fa5a9`. Exact workflow `33652838301` completed successfully: source canon / architecture verification, Astro build, built-output verification, and exact Cloudflare production deployment all passed.
+MAIN reader-facing change: `src/content/people/eos.md` at `e86f16bb4681b3f5588dd2b25f60d43b94bd96ef`. Exact workflow `33654687061` passed source canon / architecture verification, Astro build, built-output verification, and exact Cloudflare production deployment.
 
-WIKI reader-facing changes: **none**. This run changes WIKI integration state only because the relevant Cookie structure already exists and Eos/HamitteY do not yet have dedicated Cast routes.
+WIKI reader-facing structured change: `src/data/integrator-gags-eos-20260902-run230.ts` at `9143a98e50fee62bb01663dadce6e79cdaf0f2e0`. Build `33654711466` succeeded; Pages `33654711618` succeeded, including deployment.
 
-Run-specific detail: `INTEGRATION_STATE_RUN_229.md`. Prior detail remains in `INTEGRATION_STATE_RUN_228.md` and MAIN's run-specific integration records.
+MAIN advanced Daycare consumption only after those reader changes passed verification: `last_seen_sha = last_consumed_sha = fcf5666694cb27e940c16a99d435d050b17f232e`.
+
+Run-specific detail: `INTEGRATION_STATE_RUN_230.md`. Prior detail remains in `INTEGRATION_STATE_RUN_229.md` and MAIN's run-specific integration records.
 
 ## Hard rails held
 
-User-confirmed canon wins. Similar names do not merge people. `HAM` is probable HamitteY only in this scene and is not promoted into hard alias canon. Historical/current role arrays are not appointment chronology. Romantic-style Panda/Eos language remains nonliteral with respect to legal/offline status. Uninspected screenshots stay visually sealed. SAID BY / POSTED BY / VIA/SUPPLIED BY / MADE BY / CAPTURED BY / FEATURING remain distinct. Earliest surviving remains only earliest surviving unless stronger origin evidence earns more.
+User-confirmed canon wins. Similar names do not merge people. Historical/current role arrays are not appointment chronology. Romantic-style language is not automatically legal/offline relationship status. Uninspected screenshots stay visually sealed. SAID BY / POSTED BY / VIA/SUPPLIED BY / MADE BY / CAPTURED BY / FEATURING remain distinct. Shared-reference shorthand does not create a ranked closeness hierarchy. Earliest surviving remains only earliest surviving unless stronger origin evidence earns more.
