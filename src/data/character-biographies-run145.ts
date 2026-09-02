@@ -38,7 +38,7 @@ export const run145NarrativeCharacterBios: Record<string, CharacterNarrative> = 
   eos: {
     intro: [
       "Eos already has a reputation for keeping, reposting, and weaponizing receipts. The `sippp` trail gives that habit a tiny artifact lifecycle: a June 4 `sippp.gif`, an older raw-source URL posted June 5, then an animated custom emoji named `sippp` appearing on June 9. Eos uses the emoji thirty-three minutes later, and every surviving textual `:sippp:` use on the Wall belongs to Eos.",
-      "Around Eos, at least one old reaction object appears to stop being a file somebody can dig up and become reusable room vocabulary. Who created or uploaded the emoji is still unclear, as is whether the later emoji is byte-for-byte the same object. Eos's part is much simpler: once `sippp` becomes summonable, she keeps summoning it."
+      "The deeper Wall file adds the contradiction that makes the evidence habit feel like a person instead of an archive job. Eos can voluntarily file herself, loudly object when somebody else does the filing, laugh at the next exhibit, and even keep time on the prosecution. The defendant keeps wandering back behind the clerk's desk."
     ],
     sections: [
       {
@@ -50,14 +50,36 @@ export const run145NarrativeCharacterBios: Record<string, CharacterNarrative> = 
         ]
       },
       {
+        period: "June–October 2021",
+        title: "RUNNING GAG — SELF-REPORTING FUGITIVE",
+        paragraphs: [
+          "On June 7 Eos removes the prosecutor from the equation entirely: `gonna just put myself here and head out-`, plus a self-posted attachment, with no reply reference and no mention forcing the move. Gilli laughs, Marian smirks, Ren wheezes. Eos has recognized her own Wall material and filed it herself.",
+          "When somebody else owns the evidence, the tone changes but the participation does not disappear. In September Eos wheezes, fires `WHYYY`, explains `I just randomly said it, god damn it`, then posts another image about twenty-three minutes later. In October Marian announces hourly shame until Eos cleans a bag; Eos answers `WHYYYY` → `TELL ME WHY`, later `:Fat_Wheeze:` at another Marian post, and then `Its been 3 hours`. The protest can be genuine embarrassment and still function as part of the bit. The wiki does not reduce that to `Eos likes being embarrassed` or assume every objection is secretly insincere."
+        ]
+      },
+      {
+        title: "RELATIONSHIPS — MARIAN KAGE",
+        paragraphs: [
+          "Marian's recurring `too vanilla` accusation works because Eos keeps making it difficult to enforce. Marian can threaten a whole shame campaign; Eos can object at full volume, laugh at the follow-up, and remain present long enough to audit the clock. Earlier, Eos tags Marian with `You asked for it`; later Marian says he may have to shame himself to get Eos onto the Wall. The traffic goes both directions.",
+          "That supports comfortable adversarial teasing and a shared evidence-game grammar. It does not supply romance, family, guardianship, literal punishment, or a closeness ranking. The June 7 self-submission also matters because it proves the behavior is not merely something Marian pulls out of Eos; Eos can start the machine independently."
+        ]
+      },
+      {
         title: "Artifact notes",
         paragraphs: [
-          "By June 9, an older `sippp` reaction has apparently become a custom emoji and part of Eos's repeat vocabulary. The maker, uploader, original room, and people behind the source visual are still unknown; Eos gets credit here for the reuse, not automatic ownership of the pixels."
+          "By June 9, an older `sippp` reaction has apparently become a custom emoji and part of Eos's repeat vocabulary. The maker, uploader, original room, and people behind the source visual are still unknown; Eos gets credit here for the reuse, not automatic ownership of the pixels.",
+          "The June, September, and October Wall attachments in the self-reporting-fugitive sequence remain visually uninspected. Eos is SAID BY / POSTED BY where the transcript says so; MADE BY / CAPTURED BY / FEATURING stay unresolved."
+        ]
+      },
+      {
+        title: "Petty Crimes",
+        paragraphs: [
+          "Will personally file the exhibit, then demand due process when somebody else finds an exhibit. By three hours into Marian's October campaign, the defendant is also checking the schedule."
         ]
       }
     ],
     closing: [
-      "Eos keeps doing the same useful thing at different scales: something old gets remembered, dragged back into the present, and made socially useful again. `sippp` is just the smallest version — a receipt that apparently learned how to become punctuation."
+      "Eos keeps doing the same useful thing at different scales: old material becomes reusable vocabulary, embarrassment becomes participation, and the evidence table keeps acquiring one more person who can sit on either side of it."
     ]
   }
 };
