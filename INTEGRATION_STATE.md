@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-02 13:10 PDT_
+_Last updated: 2026-09-02 13:48 PDT_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. This file is the WIKI-side current-state rollup; prior run detail remains preserved in `INTEGRATION_STATE_RUN_*.md`.
 
@@ -11,60 +11,50 @@ Full census: **49 tracked miner identities = 28 active refs + 21 historical/miss
 Current key reviewed heads:
 
 - All Characters HR: `dd500657470b71415cc839832dc5e03ead307e68`
-- Core Rooms: `aac6703622099dd3c96138c59f51b87287d2a92e`
-- Wall recovery: `b3027f56ee3fff9178746ac4ee88adcb1a618f7d`
+- Core Rooms: `665180150084fc705d41734572a2d59374d99b48`
+- Wall recovery: `8b7391806dc7505be9c3aa18905e4e32f7590be6`
 - Daycare: `e80d25323fb73a1b802adb7e71b91d64d5dcff5b`
 - Whiskey Longitudinal: `5e5fe0b86a5130efa3798bbf0f4097ddcca912ba`
 - Louvre / AI Art / Athenaeum / Other Games: `518686748761233d30d01d10f1224ce179dcefe8`
-- Mugen person-first: `f8065759c98fa6c40aabd3f72d8b48cd55285442`
+- Mugen person-first: `2e87408b83298b19a70a448d9aefd92db848361c`
 - Club-Only 2020: `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`
 - Club-Only 2021–2026: `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`
 
-Both Club-Only recovery priorities remain current. Wall remains `recovery_in_progress` only because that quarry may grow again; its present head is already reviewed.
+Both Club-Only recovery priorities remain current. Wall remains `recovery_in_progress` only because that quarry may grow again; its present head is already reviewed and consumed.
 
-## Latest reconciliation — zero-delta census
+## Latest reconciliation — Cele + ACORYUIE, with duplicate clown and no-change Mugen
 
-The run-247 full branch census found **no advanced or unconsumed active miner head**. Every active ref still matched the controlling MAIN ledger's `last_consumed_sha` at census time, so there was no legitimate intake delta to reread.
+Run 249 reviewed three advanced active miner tails checkpoint-first and intake-only: Wall `7f8fcb72... -> 8b739180...`, Core Rooms `aac67036... -> 66518015...`, and Mugen person-first `f8065759... -> 2e87408b...`.
 
-That means the correct integration result is pleasantly boring:
+**Cele** gained the strongest cross-surface character deepener. The Wall material sharpens a recurring premise-response mechanism: Ren can hand Cele a grotesque backwards-Marie-Kondo caricature and get one smug emote; Rummy can file against Cele and suddenly Cele discovers `out of context` as mock due process; Mugen can say `Left to get milk, gone 2 years` and Cele immediately asks whether the milk was at least purchased before advancing the fictional logistics to cheese. Mugen exact-replies with `chonky` milk. MAIN owns the person-first version; WIKI indexes defendant behavior, premise-response comedy, relationship rhythm, and Petty Crimes.
 
-- genuinely new findings integrated: **0**;
-- new duplicate evidence families requiring reconciliation: **0**;
-- newly opened conflicts / rabbits: **0**;
-- MAIN reader-facing changes: **0**;
-- WIKI reader-facing changes: **0**;
-- consumed SHA advances: **0**.
+**ACORYUIE / Cinders / Juniper** was promoted to WIKI Archive / Extended Cast. Their own account says they had been club-hopping because nowhere quite fit, that Jas from a previous shared club invited them into Underlords, and that even brief interactions still mattered despite low activity and a later absence. Mugen's `welcome back bb, role assigned, you know your way uwu` adds familiar return texture. This is a social bridge and belonging story, not a formal Jas recruiter appointment or a current living-roster claim. MAIN already had the richer ACORYUIE biography, so no duplicate MAIN paragraph was added.
 
-No raw archive was reopened, no already-consumed tail was re-mined, and no duplicate biography paragraph or reference object was manufactured just to make the hour look busy. The previous Pride reconciliation remains where it belongs: MAIN owns the person-first appellate/self-reclassification story; WIKI owns the searchable `Pride Appeals the Charge` Running Gag.
+**clown⭐ / clownlord** was duplicate/corroboration only. The existing WIKI dossier already owns the exact-person gremlin self-brand, improvised bread-format QOTD, cow-gremlin hypothetical, and funny-only hair-dye prompt as a setup-provider mechanism. No second character or second dossier was created.
+
+**Mugen person-first** closed as deliberate no-public-change maintenance. The latest handoff explicitly recommended no new public mutation, so the reviewed SHA advanced without reader-page churn.
 
 ## Verification / deployment
 
-MAIN census state commit `0f74a1c4bf5861557733cb41da923a45375acd8e` passed exact workflow `33677390141`:
+MAIN Cele reader commit `b075bea0793dfe26a99ea596e8d6a6025089ecb7` passed exact workflow `33680650846`: source canon/architecture verification, Astro build, built-output verification, and exact Cloudflare production deployment all succeeded.
 
-- Verify source canon and architecture: success.
-- Build Astro site: success.
-- Verify built output: success.
-- Deploy and verify exact production commit to Cloudflare Pages: success.
+MAIN consumption-state commit `bcb08b9d1adb17bf86b5f8dbc3c5008c4ae7e675` passed exact workflow `33681093089` through the same complete suite.
 
-WIKI run-detail commit `e5cd5b833a7e5aa8b87e01e674a074ec4977aa3b` passed both existing pipelines:
+WIKI closing reader head `891b461eb6cb55f0b253282fa9915f1030f7b488` passed:
 
-- Build Underlords Wiki `33677486855`: success.
-- Pages `33677486841`: success.
-- Pages preview build: success.
-- Pages artifact upload: success.
-- Deploy to GitHub Pages: success.
-- Pages report: success.
+- Build Underlords Wiki `33681018349`: success.
+- Pages `33681018310`: success through build, artifact upload, deployment, and report.
 
-This rolling-state commit is verified separately at run close so the final WIKI head, not merely its parent, is green.
+This rolling-state commit is verified separately at run close so final WIKI `main`, not merely its reader parent, is green.
 
 ## Held rabbits / rails
 
-No new rabbit was opened this cycle. Existing unresolved identity, attribution, origin, reply-parent, and media-inspection boundaries remain unchanged. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING stay separate; earliest surviving stays distinct from origin; joke family/romance/rank language stays non-literal unless independently supported; export-time role arrays remain unsafe appointment chronology.
+Cele's uninspected Wall images remain undescribed. Ren's animal joke is peer caricature, not literal animal-harm/taxidermy canon. Mugen/Cele milk is fictional premise tennis, not real-world biography. ACORYUIE's sensitive age/private-family material stays private, and Jas's invitation remains a social bridge rather than appointment chronology. clown⭐'s ranch/cow answer remains prompt-bound; funny-only hair-dye replies remain fake reasons. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain separate, and existing unresolved identity/origin/attribution rabbits remain unresolved.
 
 ## Surface routing
 
-MAIN: **0 reader-facing changes** — no new miner material existed to deepen a canonical owner.
+MAIN: Cele receives the lived person-first synthesis. ACORYUIE was already richly owned there. clown⭐ was duplicate/corroboration. Mugen's latest tail was no-public-change.
 
-WIKI: **0 reader-facing changes** — no new miner material existed to justify another dossier, Episode, Running Gag, quote, relationship edge, or location object.
+WIKI: ACORYUIE receives the structured historical-return Cast dossier; Cele receives the complementary structured behavior/relationship/Petty Crimes deepener. No mirrored MAIN prose, fake clown Episode, or redundant Mugen object.
 
-Detailed reconciliation: `INTEGRATION_STATE_RUN_247.md`.
+Detailed reconciliation: `INTEGRATION_STATE_RUN_249.md`. MAIN's matching durable report: `archive-intake/INTEGRATION_REPORT_RUN_249.md`.
