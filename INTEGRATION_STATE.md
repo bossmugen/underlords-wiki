@@ -1,63 +1,62 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-02 16:07 PDT_
+_Last updated: 2026-09-02 16:41 PDT_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. This file is the WIKI-side rolling summary; run detail lives in `INTEGRATION_STATE_RUN_*.md`.
 
 ## Current reviewed boundary
 
-Full census: **49 tracked miner identities = 28 active refs + 21 historical/missing refs**, with **0 newly discovered, 0 pending review, 0 pending publication, 0 backlog, and 0 overdue** at the reviewed Run-258 closure boundary.
+Full census: **49 tracked miner identities = 28 active refs + 21 historical/missing refs**, with **0 newly discovered, 2 pending review, 0 pending publication, 0 backlog, and 0 overdue** after Run 260 consumption was merged into the newer Run 261 census.
 
 Current key heads:
 
 - All Characters HR: consumed through `de10161042b96af894d439e79c7a894b8041fb69`
-- Wall recovery: consumed through `7d597dfae63d46aacf400b69b1749bb436e75543`
-- Core Rooms: consumed through `7d755a5e3d0b68d49769dfe0fd8be29bafc63651`
-- Daycare: consumed through `83062756bcd85ddfc168665e58845d8988c08018`
-- Whiskey Longitudinal: consumed through `98db15160e36db3cffcc67e3d6e404330c03b0e7`
+- Wall recovery: seen through `40fc784e5b0d7843e320ea790f5dfc98c2982745`, consumed through reviewed Run-260 boundary `16812ea08e05b46b902f975b4c5d867bb057e347`; newer tail remains unreviewed
+- Core Rooms: consumed through `0b0214129347fe6fa7abd07062cba0bb2578dc07`
+- Daycare: consumed through `14d74aa37acc9ab7e6650cad96b9d796fc183e03`
+- Whiskey Longitudinal: seen at `8f933681560a65e30b5f35f0a45743df6930dc6b`, consumed through `98db15160e36db3cffcc67e3d6e404330c03b0e7`; pending review
 - Louvre / AI Art / Athenaeum / Other Games: consumed through `5463a709fd5f321100af6249157ec827f828280b`
-- Mugen person-first: consumed through `4ce9f09564d0bc2633a8776b02ef2cefbe9b89dd`
+- Mugen person-first: seen at `4c70d39f7ea64a7daa92ed82aef8ec0919f63575`, consumed through `4ce9f09564d0bc2633a8776b02ef2cefbe9b89dd`; pending review
 - Club-Only 2020: consumed through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`
 - Club-Only 2021–2026: consumed through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`
 
-Both Club-Only recovery priorities remain current. Wall remains `recovery_in_progress` only because its miner can move again; the present Wall head is fully reviewed.
+Both Club-Only recovery priorities remain current. Wall remains `recovery_in_progress`; only its newer post-`16812ea` tail is unreviewed.
 
 ## Latest reader reconciliation
 
-### Zyrcant / Akariel
+### ShiyaX — chaos has an emergency exit button
 
-WIKI now carries the stronger person contradiction rather than leaving Zyrcant primarily as former-Amaurot-deputy provenance plus Wall crimes. Zyrcant says strangers can read her as mean/scary; Ren describes a happy, cheery, lively familiar-person version; Zyrcant names protectiveness as the hidden trait and later summarizes herself as `Quiet at first but a crackhead once I’m comfortable`.
+Daycare gives the older Nelph-targeted version of a pattern ShiyaX later carries into Screenshot Court. Nelph tags him beside an uninspected attachment with `didn’t know you were into that-`; ShiyaX answers `AAAAH its an edit looks so real though`; Nelph returns `Caught you in 4K 📷`; ShiyaX leaves the scene via `:aworryWeirdExit:`. Later that month DarkAsrai / Rose tags him into another teasing beat and he reuses the same exit reaction.
 
-That becomes searchable first-impression / familiar-mode / relationship texture. It does **not** become a caretaker appointment, universal fear reputation, or closeness ranking. A late Core handoff correction identifies the peer in one 2022 exchange as Tae; public copy had already avoided promoting the earlier ambiguous `Tae/Ansun-Sou` label. Hard canon still keeps Tae separate from Ansun / Souta / Sou.
+WIKI files this as relationship / Running-Gag / Petty-Crimes texture rather than a fake incident page. It sharpens the existing contradiction between ShiyaX publicly declaring `I AM THE CHAOS` and theatrically fleeing when the joke gets too specifically Shiya-shaped. The unseen attachment remains unseen: no subject, maker, capturer, featured-person, sexual/romantic preference, or private-behavior inference is published.
 
-### Zhēnxī / rhymethero
+Reader commit `76b4965410df66b534fc99109b7979605b8e9554` passed Build `33695185201` and Pages `33695185061` through deployment.
 
-Zhēnxī now has a dedicated structured relationship dossier instead of a Wall-only thin route. Their own rule is selective closeness: many friends can coexist with only a few deep bonds, and trust/respect matter more than social volume. They define `home` through comfort, safety, care and love around close people.
+### Shiki / Shk — the dangerous method comes with documentation
 
-Rummy is explicitly inside the restricted lane. Zhēnxī says compliments are difficult unless somebody is a `really close friend`, then immediately names Rummy with `You're amazing, though. Love you`; Rummy directly answers `ZHEEENNN I LOVEE YOU TOOOO`. Later, when Zhēnxī says `Having friends irl.`, Rummy answers `I'm your frieeennnddd ... I'll be one irl too`; Zhēnxī returns `SKDJA YES THANK YOU`.
+Core Rooms finally puts a second named learner under Shiki's lived Sensei behavior. He offers to teach Anayss / Ana `aggressive sd`, then immediately says she needs tankiness, calls his own play risky, credits that `She know the way of CC`, and explains how an Assassin should counter it. A day later Anayss directly addresses him as `my master ❤️`.
 
-The dossier keeps the relationship exactly where the wording puts it: reciprocal close friendship and an expressed wish/offer to extend it into IRL terms. It does **not** claim an in-person meeting, romance, or sex. Zhēnxī remains distinct from Ten / Tenzehna.
+The useful searchable contradiction is **aggressive method, cautious explanation**. Shiki is willing to teach the dangerous version while exposing the durability requirement, failure mode, counterplay, and learner's existing competence. `my master` is learner-supplied informal/playful teacher language rather than a new formal appointment, and the surviving cluster does not show the proposed lesson actually happening. No standalone Episode was manufactured because the value is person/relationship behavior.
 
-The older Wall pattern stays useful supporting behavior: first loud defendant, later willing filer against Ren. Screenshot Court fluency is a running social mechanism, not an office.
+Reader commit `4604eae44bab9c254f2e974a66105c4a4acbc79a` passed Build `33695710572` and Pages `33695710724` through deployment.
 
-## Reviewed no-public-change closure
+## Reviewed without duplicate reader churn
 
-All Characters HR advanced from `0ae852062884088413a438959b9ef8609547ff12` to `de10161042b96af894d439e79c7a894b8041fb69`, but the three-commit suffix is checkpoint / exhaustion / coverage closure only. Its Zyrcant and Syv substance was already public. The consumed cursor advances without duplicate cards or prose.
-
-Core's final `410cb347... -> 7d755a5e...` tail only tightens the same handoff and corrects the peer label to Tae. No second reader mutation was warranted after the already-safe Zyrcant wording avoided the ambiguous identity.
-
-Noether's exact authored/direct-mention Officer-execution route remains source-limited; this is not evidence that Noether never did Officer work.
+- Woosung / Nobu betrayal material was corroboration of an already-public cumulative mechanism.
+- Candy's `Wad00` / `Moo` / chorus material corroborated her already-public compact-language / contagious-micro-bit mechanism.
+- Gilli + Jas's work-light-mode / `254x77px ain't 4K tho 😐` chain is already public/searchable through Jas; Gilli's side is banked as reciprocal technical-roast and ordinary-life texture rather than duplicated.
+- Cit's nickname mutations, `All new nicknames are welcome`, and accidental French-accent `Syveon` are useful developing Petty-Crimes/person material, but no public shelf/title was invented from a thin body and the proposed VC performance is not claimed to have happened.
+- `delay` remained body-unavailable.
+- Alaina / AJ / Lena safe residue remained held because the useful source material was privacy-sensitive or insufficient for a new public person read.
 
 ## MAIN / WIKI split
 
-MAIN integrates the Core material into person-first biographies for Zyrcant and Zhēnxī. WIKI uses the same source family differently: searchable character contradiction, Relationships, running behavior, and explicit boundaries. Prose is intentionally not mirrored.
+MAIN folds ShiyaX and Shiki into rich person-first biographies. WIKI uses the same source families differently as searchable relationship, teaching, Running-Gag, and Petty-Crimes structure. No identical prose is mirrored.
 
-## Verification
+Matching MAIN reader commits:
+- ShiyaX `58d4a51a0810d3e5386c1f8ae16b4e090a1a2cb4`, workflow `33695150497` success including source verification, Astro build, built-output verification, and exact Cloudflare production-commit verification.
+- Shiki `0ed2246d97c667630e66c72a67fac14c0704befa`, workflow `33695616639` success including source verification, Astro build, built-output verification, and exact Cloudflare production deployment.
 
-Reader-bearing WIKI head `55683202770856b72ea4adce61429685d32d7a8b`:
-- Build run `33693254603`: **success**.
-- Pages run `33693254627`: **success** through build, artifact upload, deployment, and reporting.
+MAIN's controlling consumption state was merged into the newer census at `90855ce413b88ed5dab2f2fcd5b9fc492f39164f` without regressing later seen heads.
 
-Matching MAIN reader head `cd237140ba0cad531255b335f76cb09c670acd46` passed exact source canon/architecture verification, Astro build, built-output verification, and exact Cloudflare production deployment in run `33693091118`.
-
-Detailed reconciliation: `INTEGRATION_STATE_RUN_258.md`. MAIN's matching durable report is `archive-intake/INTEGRATION_REPORT_RUN_258.md`.
+Detailed reconciliation: `INTEGRATION_STATE_RUN_260.md`. MAIN's matching durable report is `archive-intake/INTEGRATION_REPORT_RUN_260.md`.
