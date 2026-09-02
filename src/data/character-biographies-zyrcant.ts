@@ -4,49 +4,50 @@ export const zyrcantNarrativeCharacterBios: Record<string, CharacterNarrative> =
   zyrcant: {
     intro: [
       "Zyrcant / Akariel enters UL with an older org chart behind her. She had been Rich's deputy in Amaurot; by the time the Lobby catches her again in January 2021, the old club itself is fuzzy enough that she is not even sure whether it still exists or what it merged into. Her own identity is much less complicated: `my ign is still Zyrcant`.",
-      "That little `still` does a lot of work. The institution moved, the server geography got blurry, and Zyrcant did not need a committee meeting to remember who she was. Once she is inside the house again, the file stops behaving like a former-deputy dossier anyway. It becomes Kahoot, reaction GIFs, birthday nonsense, self-appointed tackling jurisdiction, voluntary Wall prosecution, and one Mac apparently stripped down to Spotify, Chrome, and Discord. Old rank is provenance. The person who remains is much more fun."
+      "The useful contradiction is that Zyrcant knows she can read harsher than she actually behaves once people know her. She says strangers can think she is mean or scary; Ren reads her as happy, cheery and party-lively; Zyrcant later names protectiveness as the thing people miss and describes herself as `Quiet at first but a crackhead once I’m comfortable`. The former deputy file keeps getting less résumé-shaped and more human."
     ],
     sections: [
       {
         title: "The club gets fuzzy; the name does not",
         paragraphs: [
-          "January 13, 2021 gives Zyrcant one of the cleaner return lines in the archive. Akariel says she was in Amaurot, adds `if thats still around if not idk what they merged too`, and nine seconds later writes `my ign is still Zyrcant`. The first sentence is uncertainty. The second one is not. She can lose track of what happened to the institution without losing the name she carried through it.",
-          "That matters because her old Amaurot deputy role could easily swallow the rest of the character if we let it. It should not. The role explains where she came from and why Rich belongs in the same pre-UL network. It does not turn into an Underlords Officer appointment, and it does not need to. Zyrcant's later scenes are interesting precisely because they are ordinary house life rather than transferred authority."
+          "January 13, 2021 gives Zyrcant one of the cleaner return lines in the archive. Akariel says she was in Amaurot, adds `if thats still around if not idk what they merged too`, and nine seconds later writes `my ign is still Zyrcant`. The first sentence is uncertainty. The second one is not.",
+          "Her old Amaurot deputy role is provenance, not a transferred Underlords appointment. Later UL life is much more useful for understanding the person than pretending the old org chart followed her through the door."
         ]
       },
       {
-        title: "The old server walks in two deep",
+        title: "First impression vs. familiar mode",
         paragraphs: [
-          "Akariel's doorway is not quite solitary. Barely a minute after her Amaurot line, another intake message self-identifies that scene's speaker as Kimchi and says `also amaurot`; a few minutes later Drink Water Reminder welcomes Akariel and that same intake account together and points them toward the tour.",
-          "Nobody gets upgraded to besties, inviter, recruiter, or secret delegation here. The pooled Deleted User account is especially not being globally renamed Kimchi because one message identifies itself that way. The smaller read is enough: two people carrying the same old-club background arrive close enough together that the room processes them as a little cohort. For a person whose first sentence is uncertainty about whether Amaurot even still exists, having somebody else walk in saying `also amaurot` is a tiny continuity beat all by itself."
+          "Zyrcant says people think she is mean and get scared of her at first glance. Ren independently gives almost the opposite familiar-person read: happy, cheery, lively at a party, nice smile. Another 2022 peer describes her as light/mellow and tells her she gives off nice-person vibes.",
+          "When QOTD asks what is surprising about her, Zyrcant answers `my protectiveness`. She says people can think she only cares about herself, `but im real overprotective`. Asked whether that includes `us too?`, she answers `Yes uwu`. By 2023 she has compressed the whole access rule into one sentence: `Quiet at first but a crackhead once I’m comfortable`.",
+          "The wiki keeps that as a contradiction rather than choosing one adjective. Severe first surface, bright familiar-person mode, protectiveness under the hood. It does not create a caretaker office or a closeness ranking."
         ]
       },
       {
         title: "Competent enough to place, shameless enough to volunteer",
         paragraphs: [
-          "By July, Zyrcant is in the top three of an UL Kahoot pop quiz and the Akariel account is among the `yay` reactions on the result. Later Voice Challenge material has her choosing music and asking Han for editing help. Then October gives the much less administrative self-description: `im the one person who tackles ppl`, with Gabu immediately nominated as the current case.",
-          "The Wall supplies the missing contradiction. Zyrcant can ask to be put on it, accept `earn your place` with `fair lmaooo`, and later respond to being `caught in 4k` by running. Competence and shameless participation are not opposite settings for her. Give her something to win and she can place; give the room a humiliation economy and she is perfectly capable of entering that too. The old deputy history does not need to be denied for the self-own to work, and the self-own does not make the competence fake."
+          "By July 2021, Zyrcant is in the top three of an UL Kahoot pop quiz. Later Voice Challenge material has her choosing music and asking Han for editing help. Then October gives the much less administrative self-description: `im the one person who tackles ppl`, with Gabu immediately nominated as the current case.",
+          "The Wall supplies the opposite half. Zyrcant can ask to be put on it, accept `earn your place` with `fair lmaooo`, respond to being `caught in 4k` by running, and then return two days later carrying her own exhibit. Competence and shameless participation are not mutually exclusive settings."
         ]
       },
       {
-        title: "She speaks fluent reaction image",
+        title: "Relationships",
         paragraphs: [
-          "Whiskey's surviving media layer keeps catching Zyrcant answering the room with reaction culture rather than long explanations: Red Velvet, anime reactions, Avatar, Sykkuno dance GIFs. It is enough recurrence to make the visual shorthand part of how she moves through a busy room, without inventing a sacred fandom ranking from whatever happened to survive in the export.",
-          "By late June she is also dropping `happpy burthmass @Woohyuk` into the birthday pile. That spelling is doing exactly what it needs to do. The former Amaurot deputy has not become less competent; she has simply reached the stage of social integration where birthday English is allowed to suffer."
+          "Ren is one of the clearest peer-read witnesses: when Zyrcant asks what vibe she gives off, Ren answers with brightness rather than intimidation. That does not make Ren the sole authority on Zyrcant; it shows the first-glance reputation is not the only version people actually experience.",
+          "The 2022 protectiveness exchange turns a self-description into a tiny group reassurance. Somebody asks whether `us` counts; Zyrcant says yes. The wiki keeps the reassurance without promoting the speaker-label ambiguity in the miner handoff into a hard identity claim."
         ]
       },
       {
         title: "Petty Crimes",
         paragraphs: [
-          "On May 22, 2021: `the only apps now on my mac is spotify chrome and discord 😛`. No cause supplied. No digital-minimalism manifesto inferred. At that moment the machine had apparently been reduced to music, browser, Discord, and a tongue-out emoji announcing that this was survivable.",
-          "On July 1: `word of the day is ass`. On October 14 she suddenly remembers she has the entire Bee Movie saved as a GIF. One deranged saved file does not make Bee Movie her favorite film or establish a generalized media-hoarding habit; it does establish that at some point this woman possessed an emergency Bee Movie GIF and then forgot about it until the archive had the misfortune to hear the confession.",
-          "Her reaction-image vocabulary is broad enough to be noticeable and not broad enough to become a fake favorites list. Red Velvet, anime, Avatar, streamer GIFs: the safest conclusion is that when Whiskey gets noisy, Zyrcant is perfectly happy to answer in pictures.",
-          "`im the one person who tackles ppl` remains one of the better fake job descriptions in the file. Gabu was simply unfortunate enough to be named next."
+          "On May 22, 2021: `the only apps now on my mac is spotify chrome and discord 😛`. At that moment the machine had apparently been reduced to music, browser, Discord, and confidence.",
+          "On July 1: `word of the day is ass`. On October 14 she suddenly remembers she has the entire Bee Movie saved as a GIF. One deranged saved file does not make Bee Movie her favorite film; it does mean an emergency Bee Movie GIF existed in this woman's possession.",
+          "`im the one person who tackles ppl` remains one of the better fake job descriptions in the file. Gabu was simply unfortunate enough to be named next.",
+          "`Quiet at first but a crackhead once I’m comfortable` is now the shortest available user manual."
         ]
       }
     ],
     closing: [
-      "Zyrcant's character arc is not former deputy becomes UL somebody-important. She was already somebody. What changes is the frame around her. Amaurot becomes uncertain history; `Zyrcant` stays immediate; then the file fills with the smaller things people only accumulate once they have actually settled into a room. Kahoot. GIFs. Birthdays. Voluntary Wall prosecution. Gabu getting tackled by declaration. An emergency Bee Movie. The old title tells us where she came from. The stupid little details tell us she stayed long enough to become a person instead of a provenance note."
+      "Zyrcant's story is not former deputy becomes UL somebody-important. She was already somebody. The better story is what the room eventually gets access to: competitive enough to place, shameless enough to self-file, quiet enough to be misread, protective enough to correct the misread, and comfortable enough that the crackhead setting apparently becomes available."
     ]
   }
 };
