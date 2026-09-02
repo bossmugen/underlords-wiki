@@ -1,14 +1,14 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-02 01:47 PDT_
+_Last updated: 2026-09-02 01:50 PDT_
 
 This is the rolling dual-surface reconciliation snapshot. Older detail remains in Git history and run-specific records. MAIN's controlling branch-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`.
 
 ## Current reviewed boundary
 
-Mandatory census: **49 miner identities = 28 active refs + 21 historical/missing**, **0 newly discovered**, **0 backlog**, **0 overdue**. Run 205's opening queue contained exactly two advanced families: Mugen person-first `5bf1cbad13e7444b7d690f8ef3e64b2c75b46b34 -> 5c7fbc1cbd497de05dfc8d034e2b5d894ed377d9` and Wall recovery `245403178c7599d30571e8fd3561fa7bad1fb730 -> 79de36995a62cc8a87470595b5b9ac781ff3a76a`. Both were reviewed checkpoint-first and intake-only, and the closing census found no further movement on either reviewed branch.
+Mandatory census: **49 miner identities = 28 active refs + 21 historical/missing**, **0 newly discovered**, **0 pending review**, **0 pending publication**, **0 backlog**, **0 overdue**. Run 205's opening queue contained exactly two advanced families: Mugen person-first `5bf1cbad13e7444b7d690f8ef3e64b2c75b46b34 -> 5c7fbc1cbd497de05dfc8d034e2b5d894ed377d9` and Wall recovery `245403178c7599d30571e8fd3561fa7bad1fb730 -> 79de36995a62cc8a87470595b5b9ac781ff3a76a`. Both were reviewed checkpoint-first and intake-only, and the closing census found no further movement on either reviewed branch.
 
-Both Club-Only recovery priorities remain current at `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa` and `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`. Wall remains `recovery_in_progress` only because it may advance again; the current Run-205 head is reviewed.
+Both Club-Only recovery priorities remain current at `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa` and `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`. Wall remains `recovery_in_progress` only because it may advance again; the current Run-205 head is fully reviewed and consumed.
 
 ## Run 205 — Mugen notices who stays
 
@@ -18,7 +18,7 @@ Nine days earlier Illien had said `I'm not talking just to avoid distracting you
 
 The cumulative character read is about Mugen's gaze. She can heckle the considerate impulse in the ordinary room, then get very specific about why that same persistence matters when she is seriously judging the person. What she notices is not merely who can solve something; it is who stays until the other person gets across.
 
-MAIN owns this as person-first biography texture in `src/content/people/mugen.md`, reader commit `3b4180bdb68a265b9f127af0e6c377bf5d991bd8`, section `SHE NOTICES WHO STAYS`. Exact MAIN workflow `33610009546` passed source canon/architecture verification, Astro build, built-output verification, and exact Cloudflare deployment.
+MAIN owns this as person-first biography texture in `src/content/people/mugen.md`, reader commit `3b4180bdb68a265b9f127af0e6c377bf5d991bd8`, section `SHE NOTICES WHO STAYS`. Exact MAIN reader workflow `33610009546` passed source canon/architecture verification, Astro build, built-output verification, and exact Cloudflare deployment. MAIN later closed the controlling consumption ledger and dual-surface run record; exact final MAIN head `fa55240e4ca005dd8dc1cb2eed8f7aa83057d7dd` passed workflow `33610649060`, including the same complete verification suite and exact Cloudflare production deployment.
 
 WIKI intentionally adds no reader-facing Episode or mirrored prose. The material is strongest as Mugen's lived relationship judgment. The June 13 list is peer characterization, not appointment chronology, not a guarantee that Illien never failed somebody, and not proof Mugen personally witnessed every cited act. The June 4 singular `you` remains unresolved.
 
@@ -44,4 +44,4 @@ Hard rails remain unchanged: identity locks and user corrections win; role array
 
 ## Consumption / verification
 
-Run 205 targets consumption of Mugen person-first through `5c7fbc1cbd497de05dfc8d034e2b5d894ed377d9` and Wall recovery through `79de36995a62cc8a87470595b5b9ac781ff3a76a` after the dual-surface state close and exact publishing-head verification. Full detail is in `INTEGRATION_STATE_RUN_205.md` and MAIN's Run-205 integration record.
+Run 205 is closed. MAIN's controlling ledger now records Mugen person-first consumed through `5c7fbc1cbd497de05dfc8d034e2b5d894ed377d9` and Wall recovery consumed through `79de36995a62cc8a87470595b5b9ac781ff3a76a`; Wall keeps `recovery_in_progress` only for future movement. WIKI reader-facing pages changed zero by design. The prior exact WIKI head `8bdcf8126846eb3ce40299c8823633add44d74b9` passed Build `33610235531` and Pages `33610235509`, including the actual GitHub Pages deployment. Full detail remains in `INTEGRATION_STATE_RUN_205.md` and MAIN's Run-205 integration record.
