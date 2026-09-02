@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-02 13:01 PDT_
+_Last updated: 2026-09-02 13:10 PDT_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. This file is the WIKI-side current-state rollup; prior run detail remains preserved in `INTEGRATION_STATE_RUN_*.md`.
 
@@ -22,48 +22,49 @@ Current key reviewed heads:
 
 Both Club-Only recovery priorities remain current. Wall remains `recovery_in_progress` only because that quarry may grow again; its present head is already reviewed.
 
-## Latest reconciliation — Pride appeals the charge
+## Latest reconciliation — zero-delta census
 
-`archive-miner/all-characters-hr-20260828` advanced from `8b54baaf8cf3f6cd37afa497367b0382ff5dd32d` to `dd500657470b71415cc839832dc5e03ead307e68`. The delta was reviewed checkpoint-first and intake-only and changed exactly one handoff: Pride's comprehensive HR file.
+The run-247 full branch census found **no advanced or unconsumed active miner head**. Every active ref still matched the controlling MAIN ledger's `last_consumed_sha` at census time, so there was no legitimate intake delta to reread.
 
-The refined mechanism is simple and extremely Pride: the Wall can have the exhibit, but Pride still wants a vote on what the exhibit means. Earlier Pride explains that everyone gets exposed, warns that they are always watching, predicts being plastered for dumb things, and then answers Gilli's `im watching you` with `keep watching baby`. In the December sequence Pride answers a fresh filing with `:sip:` and `i regret nothing`, then explicitly argues that it is not a shame moment but a proud moment before sipping again.
+That means the correct integration result is pleasantly boring:
 
-MAIN already owned that exact person-first contradiction and the full December scene, so adding another biography paragraph there would have been receipt mitosis.
+- genuinely new findings integrated: **0**;
+- new duplicate evidence families requiring reconciliation: **0**;
+- newly opened conflicts / rabbits: **0**;
+- MAIN reader-facing changes: **0**;
+- WIKI reader-facing changes: **0**;
+- consumed SHA advances: **0**.
 
-WIKI did have Pride in Cast with Wall/sip context, but it did not expose this recurring move as searchable reference lore. WIKI now owns the complementary Running Gag:
-
-- `src/data/integrator-gags-20260902-1258.ts`
-- **Pride Appeals the Charge**
-- reader commit `548ee31d12d7b60798c6d6adb3eede995f79cc0e`
-
-The joke is not that Pride denies everything. The better pattern is that Pride occasionally accepts the prosecution and appeals the classification until embarrassment has been rezoned as an achievement.
+No raw archive was reopened, no already-consumed tail was re-mined, and no duplicate biography paragraph or reference object was manufactured just to make the hour look busy. The previous Pride reconciliation remains where it belongs: MAIN owns the person-first appellate/self-reclassification story; WIKI owns the searchable `Pride Appeals the Charge` Running Gag.
 
 ## Verification / deployment
 
-WIKI exact reader verification on `548ee31d12d7b60798c6d6adb3eede995f79cc0e`:
+MAIN census state commit `0f74a1c4bf5861557733cb41da923a45375acd8e` passed exact workflow `33677390141`:
 
-- Build Underlords Wiki `33676397482`: success.
-- Pages `33676397437`: success.
-- Pages build: success.
+- Verify source canon and architecture: success.
+- Build Astro site: success.
+- Verify built output: success.
+- Deploy and verify exact production commit to Cloudflare Pages: success.
+
+WIKI run-detail commit `e5cd5b833a7e5aa8b87e01e674a074ec4977aa3b` passed both existing pipelines:
+
+- Build Underlords Wiki `33677486855`: success.
+- Pages `33677486841`: success.
+- Pages preview build: success.
+- Pages artifact upload: success.
 - Deploy to GitHub Pages: success.
 - Pages report: success.
 
-MAIN's run-246 census commit `dbb10f9e52920a9f17e0e7efc4fec2e3a422e46a` passed `UL Hourly Build + Deploy` workflow `33676040514`: source canon/architecture verification, Astro build, built-output verification, and exact Cloudflare Pages deployment all succeeded. MAIN's final state/report commit is checked separately at run close.
+This rolling-state commit is verified separately at run close so the final WIKI head, not merely its parent, is green.
 
 ## Held rabbits / rails
 
-- Pride-adjacent media remains uninspected where not explicitly inspected. POSTED BY stays distinct from MADE BY / CAPTURED BY / FEATURING.
-- `keep watching baby` remains playful Wall language, not romance evidence.
-- Pride's boast does not establish literal sexual history, gender, real-world identity, or relationship status.
-- The December `proud moment` wording does not establish the origin of the Wall of Fame concept.
-- Pride/body/corpse language remains social/game joke language rather than literal violence; Ren-posted images retain separate attribution boundaries.
-- Earliest surviving contextual evidence is not silently promoted into an origin claim.
-- Export-time role metadata does not become appointment chronology.
+No new rabbit was opened this cycle. Existing unresolved identity, attribution, origin, reply-parent, and media-inspection boundaries remain unchanged. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING stay separate; earliest surviving stays distinct from origin; joke family/romance/rank language stays non-literal unless independently supported; export-time role arrays remain unsafe appointment chronology.
 
 ## Surface routing
 
-MAIN: **0 reader-facing changes** for this delta because the canonical Pride biography already carries the stronger person-shaped read.
+MAIN: **0 reader-facing changes** — no new miner material existed to deepen a canonical owner.
 
-WIKI: **1 reader-facing structured change** — the searchable Running Gag `Pride Appeals the Charge`.
+WIKI: **0 reader-facing changes** — no new miner material existed to justify another dossier, Episode, Running Gag, quote, relationship edge, or location object.
 
-Detailed reconciliation: `INTEGRATION_STATE_RUN_246.md`.
+Detailed reconciliation: `INTEGRATION_STATE_RUN_247.md`.
