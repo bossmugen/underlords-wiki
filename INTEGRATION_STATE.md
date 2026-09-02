@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-01 22:47 PDT_
+_Last updated: 2026-09-01 22:48 PDT_
 
 This is the rolling dual-surface reconciliation snapshot. Older detail remains in Git history and run-specific `INTEGRATION_STATE_RUN_*.md` records. MAIN's controlling branch-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`.
 
@@ -35,6 +35,14 @@ WIKI intentionally adds **no standalone Episode**. Existing Mugen structured mat
 
 Hard fences: event-title joke language is not literal physical/sexual conduct, romance, punishment, assault, harassment, or Mugen consent/approval. Repeating configuration plus later control-state presence does not prove uninterrupted weekly execution. This event is not identified as the later Daycare endurance target. Snow remains explicitly not formal second-in-command.
 
+## MAIN-only reader integration — Ten bargains with posterity
+
+Wall now gives Ten a repeated person-level mechanism rather than one isolated `legacy` quote. On August 27, 2020 Ten says `i keep forgetting y'all record these`; thirty-five seconds later he has already reclassified the embarrassment as `at least i'll leave some kind of legacy i guess`. On September 10 the same metaphor returns as `i'm leaving a legacy here too apparently. i only hope my heir lives up to this.`
+
+MAIN folds the recurrence into Ten's biography. The important character move is the little self-deflating language around the grand metaphor: `at least`, `i guess`, and `apparently` make Ten laugh at himself while granting the screenshot historical importance. He can forget the receipt machinery, get caught by it, and then turn the catching itself into part of the joke.
+
+MAIN Ten reader commit `5f5a8c821898d17db6017fd182be4d07f35e214d` is in the ancestry of the verified/deployed Mugen reader commit above. WIKI intentionally does **not** create a `Legacy Incident`; the person-shaped recurrence belongs on MAIN. `legacy` / `heir` remains joke mythology, not a formal role, succession system, literal family relationship, or proof Ten invented Wall posterity language. `here too` remains unresolved.
+
 ## Consumed as cumulative deepening, not receipt inflation
 
 **All Characters HR:** Jas/Mugen mock-courtly practical-help texture and ShiyaX material are already present on current public surfaces. No duplicate paragraph.
@@ -42,8 +50,6 @@ Hard fences: event-title joke language is not literal physical/sexual conduct, r
 **Whiskey / Rooks:** current MAIN already owns the spring-semester `me time` boundary and the `3/8 pages` self-own. Bart/Gilli pet-attention, the 100-server ceiling, bingsu→boba double tap, and other ordinary-life/Petty-Crime seeds remain banked. No discrete WIKI Episode.
 
 **Wall / Vanness:** self-filing the failed orange-drac merges deepens self-prosecution, but there is not enough lived person texture for a thin Cast page.
-
-**Wall / Ten! (`dripsy_gk`):** accidental-exposure/legacy language is a good profile seed, still too thin for public architecture.
 
 **Core / Eos ↔ Marian:** Run 193 already consumed the tenderness/correction/mock-combat family as cumulative deepening. No receipt mitosis.
 
