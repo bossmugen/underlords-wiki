@@ -1,49 +1,49 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-02 03:10 PDT_
+_Last updated: 2026-09-02 03:55 PDT_
 
 This is the rolling dual-surface reconciliation snapshot. Older detail remains in Git history and run-specific records. MAIN's controlling branch-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`.
 
 ## Current reviewed boundary
 
-Run 209 completed the mandatory census at **49 miner identities = 28 active refs + 21 historical/missing**, with **0 newly discovered, 0 pending review, 0 pending publication, 0 backlog, and 0 overdue** after review. The only advanced family was Wall recovery, reviewed checkpoint-first and intake-only from `d94693f45376577e8b87d30ffa9312126f4ef672` through `6350da3305c793ca8eac21d991e40277017b866a`. No raw archive was re-mined and no miner branch was merged wholesale.
+Run 211 completed the mandatory census at **49 miner identities = 28 active refs + 21 historical/missing**, with **0 newly discovered, 0 pending review, 0 pending publication, 0 backlog, and 0 overdue** after review. The only finite advanced family was Mugen person-first, reviewed checkpoint-first and intake-only from `5c7fbc1cbd497de05dfc8d034e2b5d894ed377d9` through `55700c45fbb88f529adba750902416183e5a6230`. No raw archive was re-mined and no miner branch was merged wholesale.
 
-Both Club-Only recovery priorities remain current at `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa` and `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`. Wall remains `recovery_in_progress` only because the quarry may advance again; its current head is fully reviewed/consumed.
+Both Club-Only recovery priorities remain current at `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa` and `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`. Wall remains `recovery_in_progress` only because the quarry may advance again; it is currently reviewed/consumed through `6371d2ff92446fb208d6b951bfa6c8c6175b28a2`.
 
-## Run 209 — Eos is apparently too vanilla until challenged with paperwork
+## Run 211 — the Boss can leave the house and the house does not turn off
 
-Marian / Panda openly admits he has said plenty that is Wall-worthy, then names the reason he thinks he has escaped prosecution: **`eos is too vanilla to shame me`**. The next surviving Wall object appears 21m23.399s later with nothing intervening: Eos posts material. Eos then says **`Debating on sending more`**, and later considers another filing after Gilli's `donit`.
+The new Mugen family pairs a mature 2024 retrospective with the already-exact 2026 real-job handoff. Mugen explicitly thanks Wolf and Sye for keeping UL going, says Wolf has been there from the beginning and thanks him for looking after the family; in 2026 she leaves for a real-world meeting and tags Wolf, Gilli and Gabu with `pls babysit halp`, with Wolf answering by salute.
 
-The useful relationship fact is already public on both surfaces: Marian experiences Eos as restrained enough to needle about it, while Eos can hesitate and still become receipt-capable once the bit gets moving. The hesitation is part of the contradiction, not evidence against it. The immediate challenge-response remains a strong contextual read rather than a structural Discord Reply, and the uninspected image is not assigned a subject.
+MAIN owns the rich person-first read: Mugen can acknowledge other people carrying continuity while she is not the center of the room, and she can hand the immediate social floor sideways without pretending founder/Boss status means omnipresence. WIKI does **not** create a duplicate `Entrusted Continuity Episode`; `src/data/character-biographies-mugen.ts` already owns the exact 2026 handoff structurally. The 2024 retrospective is preserved here as relationship/role context until a structured WIKI slot materially improves retrieval.
 
-No reader-facing Wiki change was made. `src/data/character-biographies-panda.ts` already owns this relationship as recurring prosecution, restraint, self-shaming, and affection; MAIN already carries the same mechanism inside person-first Eos and Panda biographies. A new `Too Vanilla Incident` would preserve the receipt while making the character writing worse, so the new tail is consumed as corroboration rather than multiplied into another filing cabinet.
+Hard fences stay hard: Wolf is not formal #2 or successor; Wolf/Sye are not a fixed maintenance unit; Wolf/Gilli/Gabu are not a standing management trio; `babysit` does not create a caretaker office; no exact uninterrupted Mugen absence is invented from a retrospective; missing source-native 2024 IDs/timestamps are not manufactured.
 
-## Small closure, appropriately kept small
+## Run 211 — Mugen ↔ Mia shorthand
 
-Stable account `283290211524411394` / gammaramma is now fully contextualized but remains ultra-thin: one likely-contextual `LMAO` after another person's Wall filing plus an earlier reaction-row appearance. That is enough to preserve audience/reactor texture and nowhere near enough to manufacture a personality or public dossier.
+A structurally exact 2023-10-17 Wall reply chain adds a small but useful relationship mechanism. Mia / Opalite Honey posts `:Fat_Wheeze:`; Mugen replies **`Shukran habibti`**; Mia replies **`Ai wa habibti`**; reciprocal hearts follow. The useful read is the mirroring: affection arrives in one register and comes back in the same register immediately, without explanatory scaffolding.
 
-Wall q18 also closes one exact structural question: Tae's **`fast with it`** is a true Reply to Sou's attachment-only message `908202240685269064`. That solves the reply parent only. Because the attachment pixels remain uninspected, what Tae means by `fast with it` and what the image depicts stay unresolved.
+WIKI indexes this differently from MAIN: `src/data/character-biographies-mia.ts` carries the searchable Mugen relationship note, while MAIN lets the same source breathe inside person-first Mugen relationship texture. The exchange does **not** establish romance, a literal relationship category, ethnicity, nationality, religion, or language fluency.
 
-## Important recent public ownership
+## Recent public ownership still in force
 
-Run 207's Syv ↔ Ren friendship arc remains the latest substantial reader-facing reconciliation before this no-public-change tail. WIKI carries the structured history/relationship version of Syv's self-authored shy-bubble account, Ren's low-pressure inclusion, their later reversal into Syv dragging Ren into kitchens, and the `Syveon` misspelling-origin note. MAIN owns the richer person-first friendship arc and Petty Crimes version rather than mirrored prose.
+Syv ↔ Ren remains split correctly between surfaces: MAIN owns the richer friendship/change arc and `Syveon` Petty Crimes origin; WIKI owns the searchable history/relationship structure. Woosung receiving-side care remains indexed structurally on WIKI. The latest Wall recovery is consumed through `6371d2ff92446fb208d6b951bfa6c8c6175b28a2`; its Syv/Panda retrieval, Mia care-to-cheer, Fame counter-reading, Peacock shame-hammer and related material are already integrated or banked without receipt multiplication.
 
-WOO remains a separate stable account `454708201615523871` / `_woo_woo`, distinct from Woosung and Woohyuk. The person read is strong, but public category/routing remains unresolved; WIKI does not invent a Cast shelf to solve that uncertainty cosmetically.
+WOO remains a separate stable account `454708201615523871` / `_woo_woo`, distinct from Woosung and Woohyuk. Its person read is strong, but public category/routing remains unresolved; WIKI does not invent a Cast shelf to cosmetically solve that uncertainty.
 
 ## Duplicate / already-integrated material
 
-Gilli's Daycare water/feeding mock-discipline remains corroboration of an already-public care-via-enforcement mechanism. Woosung's comfort philosophy, Teri ↔ Moon friendship/support texture, Dainyamite sensory comfort, WOO's Wall defendant behavior, WolfPhenix's mostly audience/reaction Wall mode, Rose/DarkAsrai comparative-height joke, and keptenblad ↔ Sye workday check-in remain already integrated, bounded, or too narrow for duplicate reader growth.
+Daycare music-bot material remains saturated for Mugen. Wall Fame mechanics belong to the already-established Ren/Sou culture/history rather than being re-owned by Mugen. All Characters HR adjacency was already public. The current Core tail supplied no Mugen promotion. No uninspected media received MADE BY / CAPTURED BY / FEATURING upgrades.
 
 ## Held rabbits
 
-Daycare RH16 remains open because the 2023–2026 package is still HTTP 403; the Saber endurance-bot mechanism remains unproven and Carl remains a control only. The keptenblad / `Welcome back @peavaremit !` visible-tag versus reply-target mismatch stays unresolved. Wall q8 `sippp.gif`, q3 insect provenance, q9/q19 Tofu, q4 corpse/Pride lineage, q13 Fame-origin boundary, q10 Officer Country, and Aesh/Erys follow-ups remain open. q18's exact parent is closed while its image semantics remain open. FuentesKaede identity reconciliation remains held.
+The 2024 Mugen continuity retrospective still lacks a native raw message-id/timestamp join in the miner handoff. Trust/reclaim boundaries, peer disappearance/return, and Wolf ordinary-life/conflict/care remain future expansion lanes.
 
-Hard rails remain unchanged: Syv is not Sye; New/Newmal remains male and part of Mugen's older pre-Raja circle; Sou/Souta/颯太 remains Ansun while the separate stable account currently rendered `Sou` stays unresolved; joke family/protection/affection does not become literal family, guardianship, romance, or sex; Eos's joking `might get divorced` line does not establish marriage/spouse canon; role arrays do not establish appointment chronology; earliest surviving is not guaranteed origin; SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain separate.
+Daycare RH16 remains narrowed but open on the exact March 2023 music-bot target; Pulse / `Pu-Erh Tea` is a likely later replacement/interview candidate, not proven to be that March target. The keptenblad / `Welcome back @peavaremit !` visible-tag versus reply-target mismatch stays unresolved. Wall q8 `sippp.gif`, q3 insect provenance, q9/q19 Tofu, q4 corpse/Pride lineage, q13 Fame-origin boundary, q10 Officer Country, and Aesh/Erys follow-ups remain open. FuentesKaede identity reconciliation remains held.
+
+Hard rails remain unchanged: Syv is not Sye; New/Newmal remains male and part of Mugen's older pre-Raja circle; Sou/Souta/颯太 remains Ansun while the separate stable account currently rendered `Sou` stays unresolved; joke family/protection/affection does not become literal family, guardianship, romance, or sex; role arrays do not establish appointment chronology; earliest surviving is not guaranteed origin; SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain separate.
 
 ## Consumption / verification
 
-MAIN's controlling ledger now consumes Wall through `6350da3305c793ca8eac21d991e40277017b866a` as a successful no-public-change review. Reader-facing MAIN changes from this Wall tail: **0**.
+MAIN's controlling ledger now consumes Mugen person-first through `55700c45fbb88f529adba750902416183e5a6230`. Reader-facing MAIN ownership for this delta: Mugen entrusted-continuity/absence-compatible Boss texture plus Mia shorthand integrated into the existing biography rather than appended as event reports.
 
-WIKI reader-facing changes from this Wall tail: **0**. This rolling state plus `INTEGRATION_STATE_RUN_209.md` records the reconciliation rather than duplicating existing Panda/Eos prose.
-
-The exact closing MAIN and WIKI commits must pass their existing build/deploy workflows before this run is reported as green.
+WIKI reader-facing ownership for this delta: Mia's structured Mugen relationship shorthand. No duplicate continuity Episode was created. Reader-bearing MAIN and WIKI commits passed their existing build/deploy workflows before consumption close; final bookkeeping heads are rechecked separately after state persistence.
