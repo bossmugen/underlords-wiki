@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-01 17:56 PDT_
+_Last updated: 2026-09-01 18:02 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Older pass detail remains in Git history. MAIN's controlling branch-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`.
 
@@ -10,17 +10,21 @@ MAIN owns rich person-first biography and `Petty Crimes`; WIKI owns complementar
 
 The controlling MAIN close tracks **49 miner identities = 28 active refs + 21 historical/missing**, with **0 newly discovered**, **0 finite pending review**, **0 pending publication**, **0 backlog**, and **0 overdue**. Wall remains the one `recovery_in_progress` quarry only because it can advance again later; its present tail is consumed. Both Club-Only recovery priorities remain current.
 
-### Run 179 census-only close
+### Run 180 census-only close
 
-The mandatory full branch census found every one of the 28 active miner refs exactly at the `last_consumed_sha` already recorded by MAIN. No branch had a legitimate unconsumed intake suffix, so there was no checkpoint-first deep review to perform and no anti-starvation rotation waiting. No reader-facing MAIN or WIKI copy changed, no duplicate family changed meaning, no conflict/rabbit advanced, and no consumed SHA moved. MAIN persisted the census at `7b643d142eb06d58bb8863b8e701ae5dc7f21e4b`; WIKI records the same zero-queue boundary here without manufacturing a reference object from nothing.
+A fresh mandatory full branch census compared all 28 active miner refs against the controlling MAIN `last_consumed_sha` ledger. Every active ref was identical to its consumed boundary. No legitimate `archive-intake/*` delta existed for checkpoint-first review, no anti-starvation rotation was due, no duplicate family changed meaning, no conflict/rabbit advanced, no reader-facing MAIN or WIKI copy changed, and no consumed SHA moved. MAIN persisted the refreshed census at `ab9345d6065d045abac0d90e28d9930baf606e19`; WIKI records the same zero-queue boundary here without manufacturing an Episode, dossier mutation, or receipt-shaped excuse for growth.
 
-Current reviewed boundaries from this reconciliation:
+Current reviewed boundaries remain:
 
 - `archive-miner/all-characters-hr-20260828` → `37f94adada9095a20fb59735afa1a39b8438b0fd`
 - `archive-miner/whiskey-longitudinal-hourly` → `fd3b3cbe28511fb850cd5281d11e4ce4d181de58`
 - `archive-miner-wall-hourly-20260824` → `ba66343a9067c38b0d41913deccd2f2496235ff1` (`recovery_in_progress`, current tail consumed)
 - `archive-miner/club-only-2021-2026-hourly` remains current at `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`
 - `archive-miner-clubonly-2020-hourly` remains current at `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`
+
+### Run 179 census-only close
+
+The mandatory full branch census found every one of the 28 active miner refs exactly at the `last_consumed_sha` already recorded by MAIN. No branch had a legitimate unconsumed intake suffix, so there was no checkpoint-first deep review to perform and no anti-starvation rotation waiting. No reader-facing MAIN or WIKI copy changed, no duplicate family changed meaning, no conflict/rabbit advanced, and no consumed SHA moved. MAIN persisted the census at `7b643d142eb06d58bb8863b8e701ae5dc7f21e4b`; WIKI records the same zero-queue boundary here without manufacturing a reference object from nothing.
 
 ## Whiskey — Ricochet becomes a person holding a thing
 
@@ -68,9 +72,9 @@ The opening All Characters HR refresh (Woosung bot-machine genre switching, Wooh
 
 ## MAIN consumption close / concurrency
 
-The controlling MAIN state was advanced only after accepted reader material existed on current `master` and exact current-head verification was green. Final controlling state close for the reader-bearing Run 178 reconciliation is `8e5f65b5e568e16cb36749020663f33143e0f99f`; Run 179 then refreshed the census-only ledger at `7b643d142eb06d58bb8863b8e701ae5dc7f21e4b` without moving any consumed boundary.
+The controlling MAIN state was advanced only after accepted reader material existed on current `master` and exact current-head verification was green. Final controlling state close for the reader-bearing Run 178 reconciliation is `8e5f65b5e568e16cb36749020663f33143e0f99f`; Run 179 refreshed the census-only ledger at `7b643d142eb06d58bb8863b8e701ae5dc7f21e4b`; Run 180 refreshed the same zero-delta boundary at `ab9345d6065d045abac0d90e28d9930baf606e19` without moving any consumed boundary.
 
-Current verified MAIN reader head for the preceding reconciliation is `941510384cb5a7c130fec61e59e5956425960cce`; exact workflow `33576555918` completed successfully through source canon/architecture verification, Astro build, built-output verification, and Cloudflare production deployment. The state-only Run 179 commit must pass its own exact-current-head workflow independently; a state-only deployment does not create new reader lore.
+Current verified MAIN reader head for the preceding reconciliation is `941510384cb5a7c130fec61e59e5956425960cce`; exact workflow `33576555918` completed successfully through source canon/architecture verification, Astro build, built-output verification, and Cloudflare production deployment. Census-only state commits must pass their own exact-current-head workflow independently; a state-only deployment does not create new reader lore.
 
 ## Carry-forward hard rails
 
@@ -80,4 +84,4 @@ Miihi is distinct from Korea/Milk. Ricochet / `dragonrichard` is distinct from R
 
 ## Verification / deployment
 
-Run 179 has **0 reader-facing changes on either surface**. MAIN's `INTEGRATOR_BRANCH_STATE.json` and this WIKI state file are the only intended mutations; each repository still must pass its own normal exact-head verification/build/deployment flow before the run is considered closed.
+Run 180 has **0 reader-facing changes on either surface**. MAIN's `INTEGRATOR_BRANCH_STATE.json` and this WIKI state file are the only intended mutations; each repository still must pass its own normal exact-head verification/build/deployment flow before the run is considered closed.
