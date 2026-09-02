@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-01 19:27 PDT_
+_Last updated: 2026-09-01 19:36 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Older pass detail remains in Git history and run-specific integration-state files. MAIN's controlling branch-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`.
 
@@ -8,7 +8,7 @@ This is the current durable dual-surface reconciliation snapshot. Older pass det
 
 MAIN owns rich person-first biography and `Petty Crimes`; WIKI owns complementary structured Cast, role progression, Relationships, Episodes, Running Gags, Quotes, Locations, and media notes. Do not mirror prose between surfaces. User-confirmed canon, resolved identities, privacy/safety boundaries, explicit contradictions, formal appointment chronology, and attribution fences remain hard; ordinary contextual inference remains publishable under the project standard.
 
-Run 184's mandatory census tracked **49 miner identities = 28 active refs + 21 historical/missing**, with **0 newly discovered**. One finite branch advanced and was reviewed checkpoint-first and intake-only: Daycare `18f4d881… -> ec1c8dd5…`. The controlling MAIN close has **0 finite pending review, 0 pending publication, 0 backlog, 0 overdue**. Wall remains `recovery_in_progress` only because the miner can advance again; its current head is consumed. Both Club-Only recovery priorities remain current.
+Run 184's mandatory census tracked **49 miner identities = 28 active refs + 21 historical/missing**, with **0 newly discovered**. Daycare advanced from `18f4d881…` to `ec1c8dd5…` and was reviewed checkpoint-first/intake-only. A post-review refresh caught Wall recovery advancing from `74fd9c0b…` to `eb629eb0…`; that tail was also reviewed checkpoint-first/intake-only. Final reviewed boundary: **0 pending review, 0 pending publication, 0 backlog, 0 overdue** once MAIN's controlling state records the verified consumption close. Both Club-Only recovery priorities remain current.
 
 Current reviewed boundaries:
 
@@ -16,39 +16,37 @@ Current reviewed boundaries:
 - `archive-miner/mugen-person-first-20260828` → `2e656996ef41e67cce2d241d413344a5e6b793e7`
 - `archive-miner/daycare-2020-2026-hourly` → `ec1c8dd532763adef8f709f3baf6d49e52005c52`
 - `archive-miner/whiskey-longitudinal-hourly` → `ef622ea4b22db3e3040b77ae81cab4a3ebb3dfbd`
-- `archive-miner-wall-hourly-20260824` → `74fd9c0b9ba48712ed5e39c4bfe9ad5153c392ea` (`recovery_in_progress`, current head consumed)
+- `archive-miner-wall-hourly-20260824` → `eb629eb0c5ae7c2c3c9527f630379bfba9fa037c` (`recovery_in_progress`; current reviewed head)
 - `archive-miner/club-only-2021-2026-hourly` → `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`
 - `archive-miner-clubonly-2020-hourly` → `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`
 
 ## Run 184 — Jumanji answers the exhibit, not the room
 
-The Daycare miner advanced an underwritten one-message account using support-room evidence rather than pretending the unavailable direct Daycare body was readable.
+JumanjiBinx already had a substantial MAIN biography and a WIKI Cast entry; the first pass briefly under-read that publishing state, and the close corrects it rather than preserving a false `no profile` note.
 
-JumanjiBinx's recovered written style is extremely economical. In Lobby, a request for three intake fields gets three compact fields back. Months later, Gilli posts an unseen Wall screenshot, predicts Cele's judgment, explicitly summons Cele and Jumanji, and the room reacts around the artifact. Torr later says `i don't remember this question`. Nearly three hours after the screenshot went up, Jumanji replies directly to the original image with one word: `Yes`.
+The new support-room material deepens an existing person: Gilli posts an unseen Wall screenshot, predicts Cele's judgment, explicitly summons Cele and Jumanji, and the room reacts around the artifact. Torr later says `i don't remember this question`. Nearly three hours after the screenshot went up, Jumanji true-replies to the original image with one word: `Yes`.
 
-The person-shaped read is **low-word but socially legible**. Jumanji barely contributes text in the recovered support scenes, but Gilli knows exactly when to call them into the room. When Jumanji finally participates, they answer the thing rather than narrating the spectacle around it. That is useful future character texture and a small Gilli↔Jumanji familiarity/relevance crumb without inventing a closeness tier.
+The useful read is **low-word but socially legible**. Gilli knows when Jumanji belongs in the scene. Jumanji does not need to narrate the room to participate in it; they answer the exhibit itself. MAIN folds that into the existing introvert/quiet-company biography and Petty Crimes. WIKI uses it differently in a structured VIP deepener: Wall history beat, Gilli familiarity/relevance note, one-word deposition, and attribution fences. No standalone Episode is created while the central image remains unreadable.
 
-**MAIN:** intentionally no reader mutation. No current Jumanji biography exists, the direct 2023-01-08 Daycare body remains unavailable, and one support pattern is not enough to birth a biography whose personality is effectively `said Yes once`.
+`faoaf` remains onboarding-only and is not promoted.
 
-**WIKI:** intentionally no reader mutation. The screenshot has Episode energy, but the central artifact remains non-renderable and the exact question/speaker/addressee are unresolved. A Cast dossier or Episode now would be too thin. The material is banked for a future Jumanji dossier if another independent behavior/relationship source, direct Daycare body, later change-over-time material, or the artifact itself becomes available.
+## Run 184 — Mugen maintains the label
 
-`faoaf` was deliberately inspected against same-day Lobby onboarding and remained standard intake only; no temperament/relationship claim was promoted from paperwork.
+The late Wall recovery tail adds an early, unusually literal version of Mugen's preservation habit. On December 24, 2020 she posts four attachment-only Wall messages in an uninterrupted run, then 25.348 seconds later posts the final exported caption `Social Media: A Summary by 3am No Sleep Gang @Tae`. The caption message is edited on January 12, 2021, nearly nineteen days later.
 
-## Run 183 material carried forward
+The edit diff is unavailable. What survives is enough for the person read: she did not only save the stupid thing; she packaged it, labeled it, and later revisited the label. MAIN folds that into `DON'T LOSE THE SHIT`, where it bridges `so we dont lose them` to `for posterity uwu` and later `So many character arcs`. WIKI intentionally does not manufacture a duplicate Episode because the new receipt deepens an existing person trait more than it creates a standalone incident.
 
-- Rose's April-5 `Beat me to it` switch-side behavior remains already public on both surfaces: MAIN owns the person-first version; WIKI owns the structured evidence-machine-fluency version. No duplicate Episode is needed.
-- Mugen and ShiyaX retain the context-calibration mechanism: Shiya can predict Mugen's broad editorial reaction; Mugen cuts his context flood when it is too much and supplies the missing sentence when he under-explains. MAIN owns the lived relationship texture; WIKI intentionally did not manufacture another Episode.
-- Cele's April 2021 chemistry panic plus Souta/Ansun's near-immediate molarity guide remains a lived Cele↔Ansun practical-help edge. MAIN owns the person-first homework-help scene; WIKI indexes the relationship as `Whiskey Homework Hotline`, not a standalone Episode.
-- Zoshaa's boiled-mayo escalation remains a humor mechanism: cute/uwu delivery plus deliberately revolting over-specific imagery. MAIN owns the cumulative character contradiction; WIKI already has the ingredients and did not receive a duplicate section.
-- Trebach remains a thin stable-account seed: Daya's `welcome back`, Trebach asking what IGN means, Ren explaining it, and Trebach repairing the form. No cardboard biography was created.
+Abie's sole surviving Wall line is now contextualized as a probable laugh after Mugen explicitly files a `Bonus: @Abie` attachment. It remains thin supporting texture, not a standalone profile.
 
 ## Hard rails carried forward
 
-- Jumanji's screenshot is POSTED BY Gilli only; maker/capturer/featured subjects remain unresolved.
-- Torr's `i don't remember this question` makes a question-bearing artifact probable, but the exact wording, speaker, addressee and incident content remain unresolved.
-- Exact minor ages from intake are not public lore and are not repeated in reader prose.
-- Co-summoning Cele + Jumanji does not create a Cele↔Jumanji dyad.
-- Welcome/intake does not establish origin; historical/current role arrays remain snapshots, not appointment chronology.
+- Jumanji screenshot: POSTED BY Gilli only; maker/capturer/featured subjects unresolved.
+- Torr's `i don't remember this question` makes a question-bearing artifact probable, but exact wording, speaker, addressee and incident content remain unresolved.
+- Co-summoning Cele + Jumanji does not create a Cele↔Jumanji dyad; Gilli's summon supports relevance/familiarity, not a closeness rank.
+- Exact minor ages from intake are not public lore.
+- The Mugen `Social Media: A Summary` caption is likely associated with the immediately preceding four-image run because of uninterrupted timing; there is no structural reply join and no image inspection.
+- The January 12 edit proves later modification of the message, not what text changed.
+- Abie's later `😂😂😂` is probably a reaction in the same sparse pocket, not mechanically joined to the image and not a global personality claim.
 - Allenne does not inherit Illien's `I still get a bit lost here LMAO XD` line.
 - Churro = Suora by direct self-identification; withdrawn `scruff` material stays withdrawn.
 - Mia = Mimi = Miaka = Opalite Honey = `༯`; Mia ≠ Han/Nai; Mia ≠ Momo.
@@ -61,12 +59,13 @@ The person-shaped read is **low-word but socially legible**. Jumanji barely cont
 
 ## Open rabbits
 
-- Jumanji's direct 2023-01-08 Daycare body and screenshot attachment `1029156387781083176` remain the useful next sources; generic Jumanji Lobby/Wall re-search is DNR.
+- Jumanji's direct 2023-01-08 Daycare body and screenshot attachment `1029156387781083176`; generic support-room re-search is DNR.
 - `faoaf` needs a non-onboarding person source or direct Daycare body before promotion.
 - RH16 endurance-bot identity remains attachment-locked; generic Saber adjacency remains bounded.
-- Peer anticipation of Mugen's reactions is strengthened by both Key and Shiya but is not project-closed. Generic future `don't tell Mugs` material is DNR unless it adds a materially different care, trust, repair, behavior, or surprise mechanism.
-- Wall insect-source provenance, q9/q19 capture attribution, and the separate stable account rendered `Sou` remain unresolved under their existing fences.
+- Wall q8 now exposes upstream `sippp.gif` channel snowflake `695871557209292800`, but source-room name/message/author, bytes/hash, visual content and creator remain unresolved.
+- Wall q3 grasshopper/ants original-source provenance remains open under the existing Ansun=grasshopper / Sou=ants split.
+- Peer anticipation of Mugen's reactions remains open only for genuinely different mechanisms; generic `don't tell Mugs` rediscovery is DNR.
 
 ## Verification state
 
-Run 184 introduces no reader mutation on either surface. Exact state-bearing workflow results are recorded in the Run-184 close after both repositories finish their normal verification/deployment pipelines.
+Reader-bearing WIKI commit `a79aa0d70f56cac466f71cee86cf43123a54f1d2` passed both exact Build and Pages workflows. Exact final state-head workflow results are recorded after this rolling state commit finishes its own normal build/deploy pipeline.
