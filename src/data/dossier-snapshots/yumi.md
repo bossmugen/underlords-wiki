@@ -6,7 +6,7 @@ aliases:
 roles:
   - "Retired Officer"
 eraStart: 2020
-summary: "Yumi is an Okinawan attorney and retired UL Pit Boss whose surviving 2020 voice moves between stretched-out casual chat, blunt event hype, deadpan escalation, emerging anime curiosity, and one unusually clear self-reading conversation where she changes her own answer before deciding exactly where the private explanation stops."
+summary: "Yumi is an Okinawan attorney and retired UL Pit Boss whose 2020 record has a sharp register switch: harmless nonsense gets blunt escalation and event hype, while real interpersonal heat gets `calm down both of you`; she can also revise her own self-reading in public without giving the room the private story underneath it."
 summaryEvidence: "archive-confirmed + user-confirmed"
 publication: "public"
 claims:
@@ -31,6 +31,12 @@ claims:
       - label: "💬 Club Only · 2020-04-11"
         href: "/channels/club-only"
     note: "This supports dated anime curiosity and self-described limited familiarity, not a lifelong or expert fandom identity."
+  - text: "During an April 2020 Whiskey exchange between D.I./Jonith and Suzimasu/Mob that Yumi felt was turning wrong, she said `calm down both of you`, reminded both people that they were good guys, warned against letting the exchange worsen, and later explained `something felt off and i didn't like where this was going`."
+    evidence: "archive-confirmed"
+    date: "2020-04"
+    sources:
+      - label: "🥃 Whiskey Room · April 2020"
+    note: "Yumi's wording establishes her perception of the room's trajectory and her attempt to lower it; it does not assign hidden motive or sole fault to either participant."
   - text: "On April 14, 2020, after a chaotic Club Only hangout, Yumi wrote `i'll hop off vs too` and then `it was funnn`."
     evidence: "archive-confirmed"
     date: "2020-04-14"
@@ -67,6 +73,7 @@ claims:
         href: "/channels/club-only"
     note: "This is house-joke/deadpan-escalation evidence, not a literal threat or sexual claim."
 antiFanon:
+  - "The April Whiskey de-escalation supports Yumi noticing and trying to lower interpersonal heat. Do not infer either participant's hidden motive, assign sole blame, or manufacture a complete conflict history from one exchange."
   - "The Enneagram conversation is self-reading evidence, not a diagnosis and not proof that the test accurately describes Yumi."
   - "`people pleasing` remains Yumi's own provisional language in one live self-assessment. Do not convert it into an objective permanent personality trait."
   - "The September 17 image is joined exactly to Yumi's post but was not visually inspected in this pass. Do not describe its contents, reproduce unseen text, or claim which precise trait scared her."
@@ -86,53 +93,41 @@ tags:
   - "controlled-disclosure"
   - "training-arena"
   - "deadpan-escalation"
+  - "de-escalation"
   - "anime-curiosity"
 ---
 
 # Yumi
 
-Yumi / Yummibears is a retired full Officer and historical Pit Boss, but the safer human introduction starts outside the org chart. User-confirmed background identifies her as Okinawan and an attorney. The archive does not preserve enough detail about her practice or exact 2020 location to build a professional biography, so those facts stay context rather than becoming a machine for inventing "lawyer traits."
+## Cast dossier
 
-What the surviving 2020 chats do give us is a compact but recognizable voice. Yumi often types casually and stretches the ends of words — `funnn`, `workkk`, `sleeppp`, `youuu`. When a joke or event needs a punchline, the language suddenly gets much harder and shorter. She can leave a hangout saying it was `funnn`, then elsewhere turn event encouragement into `PUNCH AND DO ME PROUD @everyone`, or reduce Mugen's already absurd `absorb them into us` premise to `so eat them` and then `VORE`.
+Yumi / Yummibears is a retired full Officer and historical **Pit Boss**. User-confirmed background identifies her as Okinawan and an attorney; the wiki keeps that as biography rather than turning it into a personality machine. Her 2020 Discord record is more useful as a register map: stretched casual endings such as `funnn`, `workkk`, `sleeppp`, blunt event hype, deadpan joke escalation, and a noticeably more careful voice when the room stops feeling safely ridiculous.
 
-## APRIL 2020 — SHE DOES NOT PRETEND TO BE AN EXPERT
+## Relationships
 
-On April 11, Yumi says **`i don't watch anime much so no clue`**. A few minutes later she tells Mugen the last thing she watched was **`armed girls Machiavellian`** and that she is **`trying to dig deeper now`**. She remembers one character detail clearly enough to call the blind sword-wielding girl **`neat`**.
+**Mugen.** Yumi's surviving exchanges with Mugen cover several registers: emerging anime curiosity, the `absorb them into us` → `so eat them` → `VORE` escalation, and the September self-reading where Mugen asks whether something hits close to home and Yumi eventually answers `close to home...`. The last scene supports trust enough for controlled disclosure, not permission to invent the private story she does not tell.
 
-This is better evidence than simply labeling her "anime fan." Yumi openly places herself at the edge of the interest rather than pretending fluency: she does not watch much, she is trying more, and one detail stuck with her. It is curiosity in progress.
+**Suzimasu / Mob and D.I. / Jonith.** In an April 2020 Whiskey exchange, Yumi is not preserved as prosecutor for one side. She says `calm down both of you`, reminds both participants that they are good guys, and later explains `something felt off and i didn't like where this was going`. The searchable relationship behavior is de-escalation without pretending she knows everybody's hidden motive.
 
-Three days later, after a chaotic Club Only hangout, she writes **`i'll hop off vs too`** and then **`it was funnn`**. The exact `vs` referent is left alone, but the emotional scale is safe: ordinary social enjoyment, ordinary departure, no ceremony.
+## Episodes
 
-## MAY 2020 — THE PUBLIC VOICE CAN GET VERY LOUD VERY FAST
+**Whiskey temperature check — April 2020.** The important sequence is compact: Yumi perceives the exchange as going somewhere she dislikes, explicitly asks both people to calm down, and gives both a face-saving frame by reminding them they are good guys. Her later explanation names trajectory rather than culprit. This is indexed as interpersonal braking, not as a complete conflict record.
 
-Twenty-five seconds after an unresolved Deleted User announces that Training Arena is about to begin, Yumi posts **`PUNCH AND DO ME PROUD @everyone`**.
+**Training Arena hype — May 13, 2020.** `PUNCH AND DO ME PROUD @everyone` is game-event encouragement. The preceding Deleted User remains unresolved.
 
-The preceding account stays unresolved; only Yumi's own line belongs to her file. In context, the phrase is game-event encouragement, not real-world violence. It is also an efficient contrast with her softer casual typing: no preamble, no motivational essay, just one imperative that turns the room toward the event.
+**Self-reading revision — September 17, 2020.** `i don't think` becomes `okay maybe a little`, then more of the description starts feeling familiar, then the conversation reaches `close to home...`. The episode is useful because Yumi changes her own answer in public and still controls where the private explanation stops.
 
-## 2020 — THE HOUSE-JOKE VERSION OF YUMI LIKES THE SHORTEST ROUTE TO A WORSE PREMISE
+## Running gags / recurring voice
 
-Elsewhere in Club Only, bad premises get returned with very little processing time. **`tonight is lets break suzi`** is one example. Months later Mugen proposes **`absorb them into us`**; Yumi reduces that to **`so eat them`**, then lands on **`VORE`**.
+- **Shortest route to a worse premise:** `break suzi`; `so eat them`; `VORE`.
+- **Compressed hype:** `PUNCH AND DO ME PROUD` rather than a speech.
+- **Stretched casual endings:** `funnn`, `workkk`, `sleeppp`, `youuu`.
+- **Register switch:** harmless nonsense can get gasoline; interpersonal heat can get brakes.
 
-These are joke-language receipts, not literal harm or sexual biography. Their character value is rhythm. Yumi does not need a long roleplay when one blunt escalation will do.
+## Role progression
 
-## SEPTEMBER 2020 — SHE CHANGES HER OWN MIND IN PUBLIC
+The historical Pit Boss / full-Officer status is locked. Exact appointment and retirement dates are not reconstructed from export-time role arrays. The role therefore sits beside the searchable behavior rather than replacing it: Yumi can hype a room, worsen a harmless joke, intervene when a real exchange feels wrong, and revise herself without converting any one of those moments into a permanent office.
 
-During an Enneagram/self-reading conversation, Yumi first says **`i don't think i'm people pleasing and possessive`**. Then comes **`okay maybe a little people pleasing`**. As she keeps reading, she says some of it feels like her **a lot**.
+## Open source questions
 
-After posting an image she writes **`this scares me a bit tho`**. The image is exactly joined to the post but was not visually inspected for this claim, so the bio does not invent what specific text prompted the reaction. Mugen asks whether it is because the material hits close to home. Yumi eventually answers: **`close to home...`**.
-
-The useful progression is inside the conversation itself. Yumi starts by rejecting a description, revises part of that judgment, then acknowledges personal resonance without explaining the private experience underneath it. That is not a diagnosis and does not establish a permanent trait. It is one of the rare places where the archive catches her thinking out loud instead of arriving with a finished self-description.
-
-The ellipsis is also a boundary. Yumi confirms that something touched a nerve and then stops. The archive does not get to convert the silence after that into invented trauma, motive, or biography.
-
-## THE NEXT MORNING — WORK, BOO; SLEEP, YAY
-
-On September 18, Yumi writes **`boo workkk`** and three seconds later **`yay sleeppp`**. It is gloriously ordinary. It does not prove burnout, insomnia, or any medical story. It does give the page another piece of her casual register: stretched endings, playful complaint, and the adult universal of preferring sleep to work in that moment.
-
-## LATER ROLE HISTORY
-
-Later roster canon records Yumi as a retired full Officer whose historical command lane was **Pit Boss**. The current archive does not safely reconstruct the exact appointment or retirement dates, and export-time role arrays are not promotion calendars.
-
-That role therefore arrives after the person. The Pit Boss history belongs to the Okinawan attorney who says when she does not know enough about an interest yet, who can enjoy a room softly and hype it loudly, who reaches the worst joke in one or two words, and who once revised her own self-reading in real time before drawing a clean line around the part she did not want to explain.
-
-The later personal archive remains thin. We do not currently have enough safe material to claim which hobbies followed her for years, how retirement changed her relationships, or what a later return looked like. The gap stays visible rather than being padded with generic Officer behavior.
+The later-life file remains thin. Useful future recovery would be ordinary adult-life texture, care directed toward Yumi, later continuity/return, and peer descriptions of her while absent. The April Whiskey scene would also benefit from reacquired exact raw IDs and fuller parent context, but the current interpretation does not depend on inventing them.
