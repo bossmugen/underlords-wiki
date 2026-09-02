@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-02 07:19 PDT_
+_Last updated: 2026-09-02 07:29 PDT_
 
 This is the rolling dual-surface reconciliation snapshot. Older detail remains in Git history and run-specific records. MAIN's controlling branch-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`.
 
@@ -8,34 +8,36 @@ This is the rolling dual-surface reconciliation snapshot. Older detail remains i
 
 The closing shared census is **49 miner identities = 28 active refs + 21 historical/missing**, with **0 newly discovered, 0 pending review, 0 pending publication, 0 backlog, and 0 overdue**.
 
-The three advanced active refs were reviewed checkpoint-first and intake-only. Wall is consumed through `b09ec5743c5db933444572e90c70aeeb59e80d7e`; Daycare through `cc8bd1812f5ffaa6cde0af3c1e7d8be2b171eac6`; Mugen person-first through `10104ccb1782df0e59c0a0d71eab050b9041b37a`. Wall remains an active recovery quarry, but there is no currently unread Wall delta. Both Club-Only recovery priorities remain current through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa` and `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`.
+Run 224 reviewed the single post-Run-223 Wall recovery delta `b09ec5743c5db933444572e90c70aeeb59e80d7e` → `54e4067a522269e764265ad922f5502206e17779`, checkpoint-first and intake-only. Wall is now consumed through `54e4067a522269e764265ad922f5502206e17779` and remains an active recovery quarry for future movement. Daycare remains current through `cc8bd1812f5ffaa6cde0af3c1e7d8be2b171eac6`; Mugen person-first through `10104ccb1782df0e59c0a0d71eab050b9041b37a`. Both Club-Only recovery priorities remain current through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa` and `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`.
 
-## Current reconciliation — planner mess, Screenshot Court role-switches, and one concurrency correction
+## Run 224 reconciliation — Nobu does not get prosecutor immunity
 
-MAIN deepened **Mugen** by folding the 2021 Photoshoot backroom family into her existing planner self-description: useful external structure can coexist with Mugs personally being in bed, hunting for glasses/contacts, forgetting a winner detail, correcting channels, dumping ideas after `two pots of earl grey`, leaning on Anthos's `Theme tally`, and discovering she is in the wrong chat. `Two pots of Earl Grey` also enters MAIN `Petty Crimes`. The read is planner/personally-chaotic, not general incompetence or tea-habit canon.
+The Wall delta finally gives **Nobu** enough reciprocal Screenshot Court behavior to deepen the person rather than merely count her filings. She can ask Ren what a Panda/cloud joke means instead of bluffing; return to a seven-hours-old pooled-Deleted-User joke and write herself into it with `Nobu and Gabu sound nice together.`; remain in the reaction pile while peers answer `get a room` / `I ship`; then receive WOO's `NOBU` / `TRAITOR` indictment and decorate the exact accusation with wheeze, heart, and dance. Later in the same pocket Nobu posts a sealed screenshot, WOO gets down to `nobu` / `why`, and Nobu wheezes at `why` too.
 
-MAIN deepened **Kiro** as well. Six days after self-filing `Being petty`, he posts `Seraph needs some explaining to do`; the same person can therefore occupy defendant/self-filer and mock-prosecutor positions inside the Wall. His later `Who's kiro` denial is followed by Sou's affectionate `i love you youre so unserious`, which reads as peer recognition of the performance rather than identity uncertainty or romance canon. MAIN synthesizes this as one Kiro mechanism rather than an event ledger.
+MAIN folds those receipts into one biography contradiction: **prolific filer / willing exhibit**. Nobu can operate the Wall from the prosecutor side and still happily become evidence when somebody turns the machine back on her. The existing Party Director / organizer material remains intact; this is not a new event ledger and does not turn the role into a personality substitute. `Light mode gets me every time.` also enters MAIN `Petty Crimes` as a clean ordinary-life joke.
 
-MAIN also deepened **Suzimasu** after the first state draft was composed. The new Wall family now sits inside the person-first biography: `Trying to win the wall of shame awards`, active evidence-sharing, the quick shift into `Aww it’s okay` / `I still wuv you` when Ren's self-roast softens, and the later `I can explainnnnnnn` defendant posture. The useful contradiction is not innocence-versus-wildness; Suzi repeatedly walks into the same embarrassment economy, can prosecute or defend from inside it, and can still notice when the joke should become reassurance.
+WIKI does not mirror the biography paragraph. It now carries **Nobu: Prosecutor Without Immunity** in `src/data/integrator-gags-wall-20260902-run224.ts`, loaded through the existing Running Gag data pattern. That object indexes the translation question, self-implication, WOO reciprocal teasing, and light-mode complaint as a searchable recurring mechanism.
 
-Daycare's new **Eos** pocket is not a new MAIN thesis, but it is useful WIKI structure. `no context is needed wym`, self-filing, `Debating on sending more`, Gilli's `@Eos donit`, and Dayadream coaxing after `i wanna say smth but ima keep quiet` reinforce the existing selective-restraint / defendant-prosecutor / evidence-gremlin contradiction.
+## Reviewed but not promoted
 
-## WIKI surface split
+**KARIT** remains ultra-thin. `What in tarnation` gives a tiny reactive voice, and Erys explicitly tagging KARIT seconds after posting a receipt shows KARIT was deliberately summoned into the room. It does not identify KARIT as the screenshot subject or establish a close Erys relationship, so no standalone card was manufactured.
 
-WIKI now carries **three searchable Running Gags** in `src/data/integrator-gags-wall-20260902-run222.ts`, loaded by the existing `integrator-gags*.ts` runtime glob rather than by mirrored biography prose:
+Wall q9/q19 gained a useful control: another Rich-invoked `stank r8 machine` result in the near window corroborates repeated Rich `rate` activity. It is **not** Tofu's missing screenshot and therefore does not close the rabbit. Rich remains the strongest probable `he`/prior-conversation referent; Cookie remains the strongest probable exposure-target dimension; the actual missing object/source is unresolved.
 
-- **Kiro: Mock Prosecutor, Evasive Witness** — the `Being petty` self-file, `Seraph needs some explaining to do`, `Who's kiro`, and Sou's `so unserious` peer verdict as one recurring anti-straight-answer mechanism.
-- **Eos vs. Context** — self-filing, evidence hesitation, Gilli activation, explicit context-stripping, and later room-coaxed restraint as one reciprocal Screenshot Court pattern.
-- **Suzimasu Enters the Blast Radius** — Wall-award ambition, active filing, reassurance toward Ren, mustard-watermelon participation, and later defendant posture as one recurring social pattern.
+## Hard rails held
 
-This corrects the earlier Run 223 state draft, which was written concurrently and inherited the reader commit in its ancestry while still describing WIKI reader-facing changes as `0`. `INTEGRATION_STATE_RUN_223_CONCURRENCY_ADDENDUM.md` preserves that correction explicitly rather than silently rewriting history.
-
-## Held rabbits and hard rails
-
-Wall q4 did not receive a reliable advance; unreliable negative searching was not promoted into a conclusion. Uninspected media remains opaque. Kiro's October 14 screenshot keeps POSTED BY distinct from MADE BY / CAPTURED BY / FEATURING. Sou's affectionate line does not establish romance. Suzimasu's June 2022 screenshot linkage is strong probable from tag/timing/defense language rather than a true-reply join. The Mugen Photoshoot family does not establish a permanent Anthos/Mugen division of labor, all-last-minute planning, general incompetence, or an Earl Grey preference/habit. Existing Wall provenance/identity rabbits remain unresolved unless a later source actually closes them.
+The Nobu/Gabu exchange is joke/ship teasing only; it does not establish romance, sex, attraction, or a literal relationship. WOO's exact `TRAITOR` charge remains unresolved. Nobu's later screenshot is strongly contextually connected to the same social pocket but is not structurally reply-joined to the accusation; its pixels, creator, capturer, and featured people remain unresolved. POSTED BY stays distinct from MADE BY / CAPTURED BY / FEATURING. No pixels were inspected. KARIT's summon does not identify the screenshot subject. Existing Wall provenance rabbits remain open unless a later source actually resolves them.
 
 ## Surface / verification
 
-MAIN reader pages in the accepted ancestry: `src/content/people/mugen.md`, `src/content/people/kiro.md`, and `src/content/people/suzimasu.md`. WIKI reader-facing objects: the three Running Gags above. Exact final publishing heads are validated by each repository's existing Actions gates: MAIN source canon/architecture verification + Astro build + built-output verification + exact Cloudflare deployment; WIKI Build + Pages deployment.
+MAIN reader change: `src/content/people/nobu.md` at reader-bearing commit `95ed9eb4dc0274753a3e8d2b4771f11f99e9b572`. Its exact Actions run passed source canon/architecture verification, Astro build, built-output verification, and exact Cloudflare production deployment before Wall consumption advanced.
+
+WIKI reader change: `src/data/integrator-gags-wall-20260902-run224.ts` at `2541751b78cb30c5aad9404e5daa68910100f499`. Its Build workflow completed successfully, and its Pages build, deploy, and report jobs all completed successfully.
+
+MAIN's controlling consumption state now records Wall `last_seen_sha` = `last_consumed_sha` = `54e4067a522269e764265ad922f5502206e17779`, with Wall still marked `recovery_in_progress` for future quarry movement. No finite pending-review or pending-publication branch remains at this boundary.
+
+## Recent prior reconciliation
+
+Run 223 deepened Mugen's planner/personally-chaotic contradiction, Kiro's self-filer/mock-prosecutor/evasive-witness mechanism, Suzimasu's evidence-sharing/reassurance/defendant posture, and Eos's selective-restraint / context-stripping Screenshot Court pattern. WIKI carries those as complementary Running Gags rather than mirrored MAIN biography prose. That prior work remains in the accepted ancestry and is not re-expanded here.
 
 Hard rails remain unchanged: user-confirmed canon wins; similar names do not merge people; appointment chronology is not inferred from export-time role arrays; joke family/romance language stays nonliteral; SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct; earliest surviving remains only earliest surviving unless a stronger origin claim is earned.
