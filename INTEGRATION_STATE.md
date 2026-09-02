@@ -1,48 +1,65 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-02 09:29 PDT_
+_Last updated: 2026-09-02 09:49 PDT_
 
 This is the rolling dual-surface reconciliation snapshot. MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`; older detail remains in Git history and run-specific records.
 
 ## Current reviewed boundary
 
-Run 230 census: **49 tracked miner identities = 28 active refs + 21 historical/missing**, no newly discovered branches, one advanced finite tail, no backlog, and no overdue branches.
+Run 231 census: **49 tracked miner identities = 28 active refs + 21 historical/missing**, no newly discovered branches, no backlog, and no overdue branches.
 
-Current reviewed boundaries relevant to this pass:
+Current relevant boundaries:
+- Wall recovery: `95afee7d36d9686e94bf13abbaaa739e6b1acde5` — fully reviewed at this head; status remains `recovery_in_progress` because the quarry may advance later.
+- Core Rooms: `023cd5a0c922df466a08fc19620ccd770c4340a0` — consumed.
+- Whiskey: `f378372a95837f0120520d1511a415bc0f3dd4d3` — consumed.
+- Mugen person-first: seen `5620cbd8b2830255b842de25576f4b183c103fd6`, consumed only through `f2436b11a31102466941b4bcaf72f89039ae0eee`, status `pending_publication`.
+- Club-Only 2020: `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff` — current.
+- Club-Only 2021–2026: `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa` — current.
 
-- Daycare: `fcf5666694cb27e940c16a99d435d050b17f232e`
-- Wall recovery: `0ab02105edc746e5ed5960412eb9dd8649055167`
-- Club-Only 2020: `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`
-- Club-Only 2021–2026: `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`
+Queue after review: **0 pending review, 1 pending publication, 0 backlog, 0 overdue**.
 
-Wall remains `recovery_in_progress` because its quarry is active, not because the reviewed `0ab02105…` boundary is incomplete. Final reviewed queue for Run 230: **0 pending review, 0 pending publication, 0 backlog, 0 overdue**.
+## Run 231 — Ghostt has more going on than leaving Raja
 
-## Run 230 — apparently `@Eos` is enough context
+The strongest integrated character work is Ghostt. Whiskey adds ordinary-life material the old page did not have: `Aye i used to box, wassup?`, repeated work fatigue, the self-filed `Cuz I lit my lighter at work and set some of my beard on fire`, and a soft `Oh I hope that paper doesn’t give you much trouble either` to Rooks.
 
-The new Daycare tail turns an existing Eos line into a recurring social mechanism. Eos has said `no context is needed wym`; across June 2021 through February 2023, multiple people apparently take that as practical guidance.
+That combination is more useful than a neat `tough but sweet` label. Ghostt can carry physical swagger without defending the image from embarrassment; the room is allowed to hear both boxing and beard-fire testimony. Care is similarly low-ceremony. Rooks gets mundane sympathy. Anthos gets paired love/heart emotes on two January dates and rapidly sends paired heart-coded emotes back. That supports a reciprocal low-prose affection register, not romance, family, exclusivity, or a closeness rank.
 
-Ren posts an uninspected image, writes `The Nyan is back`, then sends bare `@Eos`; Eos answers `yuussssssss` and frog reactions about forty-one seconds later. Ansun/Sou later posts another sealed image under `no context eos`. Rummy eventually posts only `@Eos` plus an uninspected JPEG and gets Eos's disappointed-clown reaction about thirty seconds later.
+Wall closes one old Petty Crimes hole. In an uninterrupted May 26, 2021 Mass Effect pocket, Ghostt says `I put so many hours in that game on playthroughs lol`; Mass Effect is therefore the strong conversational referent for the repeat-playthrough confession. Woohyuk's preceding game-romance joke is not Ghostt-authored and is not used as real-life sexuality evidence. June separately supplies Ghostt's beverage ruling: `Apple juice is the superior drink`.
 
-The useful read is shared-reference shorthand: people expect Eos to catch the social packet without everybody rebuilding the runway. That is familiarity, not a closeness ranking, and the sealed pixels do not become content evidence. `no context eos` is Ansun/Sou's authored caption; Eos's own separate line remains `no context is needed wym`.
+The longitudinal line stays intact: January 2021 Ghostt says `Imma still be in discord just not playing raja anymore`; by December the Dragon Raja club label is fuzzy enough to joke about while Ghostt is still standing in UL's Wall. Current Staff canon remains current status, not backdated appointment chronology.
 
-The February 2023 Rummy exchange also extends Eos's surviving public archive continuity through 2023. MAIN corrected Eos's old `2020–2022 archive` label and folded the recurrence into the existing `LOW-CEREMONY PEOPLE PERSON` section plus Petty Crimes instead of creating another receipt-led paragraph.
+WIKI now owns this as a structured person dossier in `src/data/character-biographies-ghostt.ts`, while MAIN owns the richer biography prose. Exact WIKI reader verification at `496c2770cda60afb4e7c5b8b33f304983730872b`: Build `33656556207` succeeded; Pages `33656556094` succeeded, including deployment.
 
-WIKI uses the same source differently as the searchable Running Gag **`Eos: Context Optional`** in `src/data/integrator-gags-eos-20260902-run230.ts`. WIKI still does not manufacture a dedicated Eos Cast route solely for parity.
+## Rotini — evidence ready, category unresolved
 
-## Reviewed but intentionally not republished
+Core + Wall now support a coherent Rotini person read: self-described quiet/selective social entry, genuine excitement about people despite awkward positioning, practical activation once given a task, art persistence, Wall lurking/documentation, reluctance to become the exhibit, and a clean `I did dont worry` after Sou advises blocking strangers.
 
-SaraBunny / foxcat remains a thin person seed: introduction plus later `so much moo` is not enough dimensions for a public profile. The bounded February 17–19, 2023 Wall quiet window remains control context, not a disappearance or social event. RH16's endurance-bot identity did not materially move; Jockie Music / Oolong Tea remains high-confidence probable, while Saber remains control/background infrastructure rather than convicted bot.
+The standout Officers Challenge sequence remains hypothetical: tentative RSVP turns into scratch-pasta logistics after `pasta duty`, including mushroom accommodation despite disliking mushrooms and explicit allergy labeling. This is not an actual trip, dinner, formal Officer appointment, or completed duty.
+
+Two attempts to publish a MAIN Rotini file were rejected by source canon/architecture verification because no public roster/category owner is resolved; both were reverted. WIKI does not invent a separate Cast category merely to bypass that hold. Core and Wall are still consumed because the evidence review is complete and the no-public-change reason is durable.
+
+## Duplicate / thin controls
+
+Core's Tofu↔Cookie affectionate mock-aggression package and Tofu's fan + beach-noises + PPOMO relaxation stack are already public; no duplicate dossier paragraph was added. Miihi remains a thin low-volume Wall evidence participant. Xephy, clown and 暁cit。 remain developing or Petty seeds.
+
+## Mugen — reviewed, accepted, pending surgical publication
+
+The new Mugen handoff contributes a real counterexample to her existing authority/disclosure ethic. In a Wall bit Mugen starts asking/pressing Nobu for a picture; Ren says `he already said no, boss`; WOO reinforces `he said no thanks`, and the mature source says the bit stops.
+
+The useful contradiction is that Mugen's stated anti-coercion principle can be genuine without making her magically infallible in every live joke. Ren keeps `boss` attached to the correction: the role remains visible while another person's prior no remains the substantive limit.
+
+The source does not establish whether Mugen had personally registered Nobu's original refusal before pressing. This must not become `Mugen knowingly ignored consent`, harassment, a sexual/body-image reading, formal Ren oversight, or proof of an apology. It belongs surgically beside MAIN's existing authority/boundary prose rather than as a standalone WIKI Episode. Because that safe reader surgery has not yet been committed and verified, the Mugen consumed cursor intentionally does not advance.
 
 ## Publication / verification
 
-MAIN reader-facing change: `src/content/people/eos.md` at `e86f16bb4681b3f5588dd2b25f60d43b94bd96ef`. Exact workflow `33654687061` passed source canon / architecture verification, Astro build, built-output verification, and exact Cloudflare production deployment.
+MAIN reader-facing Ghostt change: `src/content/people/ghostt.md` at `ba65d18ee96389cf1314136de995cfd1378cd44c`. Exact workflow `33656443281` succeeded through source canon/architecture verification, Astro build, built-output verification, and exact Cloudflare production deployment.
 
-WIKI reader-facing structured change: `src/data/integrator-gags-eos-20260902-run230.ts` at `9143a98e50fee62bb01663dadce6e79cdaf0f2e0`. Build `33654711466` succeeded; Pages `33654711618` succeeded, including deployment.
+WIKI reader-facing Ghostt change: `src/data/character-biographies-ghostt.ts` at `496c2770cda60afb4e7c5b8b33f304983730872b`. Build `33656556207` and Pages `33656556094` both succeeded, including deployment.
 
-MAIN advanced Daycare consumption only after those reader changes passed verification: `last_seen_sha = last_consumed_sha = fcf5666694cb27e940c16a99d435d050b17f232e`.
+MAIN's controlling ledger advanced Wall, Core and Whiskey only after review / verified publication where applicable. Mugen remains pending publication.
 
-Run-specific detail: `INTEGRATION_STATE_RUN_230.md`. Prior detail remains in `INTEGRATION_STATE_RUN_229.md` and MAIN's run-specific integration records.
+Run-specific detail: `INTEGRATION_STATE_RUN_231.md`. Prior detail remains in `INTEGRATION_STATE_RUN_230.md` and MAIN's run-specific integration records.
 
 ## Hard rails held
 
-User-confirmed canon wins. Similar names do not merge people. Historical/current role arrays are not appointment chronology. Romantic-style language is not automatically legal/offline relationship status. Uninspected screenshots stay visually sealed. SAID BY / POSTED BY / VIA/SUPPLIED BY / MADE BY / CAPTURED BY / FEATURING remain distinct. Shared-reference shorthand does not create a ranked closeness hierarchy. Earliest surviving remains only earliest surviving unless stronger origin evidence earns more.
+User-confirmed canon wins. Similar names do not merge people. Current/export-time role arrays are not appointment chronology. Rotini's pasta-duty scene remains hypothetical. Ghostt's work references do not identify an occupation. Anthos heart reciprocity is affection, not romance/family/rank. Game-romance chatter authored by Woohyuk is not Ghostt sexuality evidence. Uninspected screenshots stay visually sealed. SAID BY / POSTED BY / VIA/SUPPLIED BY / MADE BY / CAPTURED BY / FEATURING remain distinct. Mugen's Nobu scene preserves the unresolved question of whether she had registered the original refusal before Ren's correction. Earliest surviving remains only earliest surviving unless stronger origin evidence earns more.
