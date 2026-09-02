@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-01 18:31 PDT_
+_Last updated: 2026-09-01 18:43 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Older pass detail remains in Git history and run-specific integration-state files. MAIN's controlling branch-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`.
 
@@ -8,15 +8,32 @@ This is the current durable dual-surface reconciliation snapshot. Older pass det
 
 MAIN owns rich person-first biography and `Petty Crimes`; WIKI owns complementary structured Cast, role progression, Relationships, Episodes, Running Gags, Quotes, Locations, and media notes. Do not mirror prose between surfaces. User-confirmed canon, resolved identities, privacy/safety boundaries, explicit contradictions, formal appointment chronology, and attribution fences remain hard; ordinary contextual inference remains publishable under the project standard.
 
-Run 181's mandatory census tracked **49 miner identities = 28 active refs + 21 historical/missing**, with **0 newly discovered**. Three unconsumed tails were reviewed checkpoint-first and intake-only: Daycare, Whiskey, and Wall recovery. The controlling MAIN close now has **0 finite pending review, 0 pending publication, 0 backlog, 0 overdue**. Wall remains `recovery_in_progress` only because the miner can advance again; its current head is consumed. Both Club-Only recovery priorities remain current.
+Run 182's mandatory census tracked **49 miner identities = 28 active refs + 21 historical/missing**, with **0 newly discovered**. One unconsumed tail was reviewed checkpoint-first and intake-only: Mugen person-first `ffcf2198… -> 2e656996…`. The final controlling MAIN close has **0 finite pending review, 0 pending publication, 0 backlog, 0 overdue**. Wall remains `recovery_in_progress` only because the miner can advance again; its current head is consumed. Both Club-Only recovery priorities remain current.
 
 Current reviewed boundaries:
 
+- `archive-miner/mugen-person-first-20260828` → `2e656996ef41e67cce2d241d413344a5e6b793e7`
 - `archive-miner/daycare-2020-2026-hourly` → `18f4d881a0468cda93d7cccba573230689b3d2da`
 - `archive-miner/whiskey-longitudinal-hourly` → `ef622ea4b22db3e3040b77ae81cab4a3ebb3dfbd`
 - `archive-miner-wall-hourly-20260824` → `74fd9c0b9ba48712ed5e39c4bfe9ad5153c392ea` (`recovery_in_progress`, current head consumed)
 - `archive-miner/club-only-2021-2026-hourly` → `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`
 - `archive-miner-clubonly-2020-hourly` → `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`
+
+## Run 182 — Mugen and Shiya have a context dosage knob
+
+The new Mugen tail does not need another Episode. It deepens an existing person/relationship mechanism.
+
+In the January 2021 Wall scene, Shiya predicts Mugen's editorial reaction before she speaks — `Expects to be slapped by Mugs` — then keeps escalating the context until Mugen eventually lands on `TOO MUCH CONTEXT`. The word `slapped` stays exactly where it belongs: joke language. It is not violence evidence, fear, abuse, or a formal disciplinary mechanism.
+
+Months later the same relationship runs in reverse. Baby Lyssa asks what `the tree branch drowning ???` means. Shiya contributes only `Tis in slice`; Mugen supplies the missing one-line recap herself: `Yaya's making a bedside aquarium for his pet tree branch`.
+
+The useful read is not `Mugen likes context`. It is calibration. With Shiya, she appears to have a dosage setting: flood the room and she cuts the excess; leave everyone one sentence short of understanding and she fills the gap. Shiya knows her well enough to anticipate the broad genre of her reaction; Mugen knows enough of his serial nonsense to translate it for somebody else.
+
+**MAIN:** `src/content/people/mugen.md` folds this into the existing framing-editor / `This random video is us now` section and adds ShiyaX to Mugen's related-person links. It is relationship texture, not a new dated event appendix. Reader commit `d87b6dcdc6e16ee420546768a8a2ced282d314e7` passed exact source canon/architecture verification, Astro build, built-output verification, and exact Cloudflare production deployment in workflow `33580330349` before the branch consumption SHA advanced.
+
+**WIKI:** intentionally **no new reader block or Episode**. `TOO MUCH CONTEXT` and the tree-branch recap are ingredients of a relationship mechanism already better owned by MAIN's biography. Duplicating them as a standalone WIKI incident would make the reference surface wider without making it more useful. This state record carries the routing decision and consumed boundary instead.
+
+Held/fenced: no literal violence from `slapped`; no formal moderation policy from `TOO MUCH CONTEXT`; no aquarium/tree-branch ownership or maker attribution to Mugen because she explains the joke; no invented raw message join for the miner's handoff; `Yaya` remains period-supported ShiyaX address rather than a newly inferred identity bridge. Hard New/Newmal chronology is unchanged: New is male and belongs to Mugen's older pre-Raja circle; later GenGrey recruitment is a later route, not a first-meeting clock.
 
 ## Run 181 — Cele can ask the room for help
 
@@ -52,6 +69,7 @@ The endurance-bot identity rabbit also remains attachment-locked. Exact announce
 
 ## Hard rails carried forward
 
+- New/Newmal remains male and part of Mugen's older pre-Raja circle. A later GenGrey route does not overwrite first-meeting chronology.
 - NintendoShitcube / `nintendoshitcube_` = Zoshaa under resolved canon.
 - Souta / Sou / 颯太 = Ansun under resolved canon.
 - Trebach remains only the stable account actually evidenced; no identity bridge was invented.
@@ -60,11 +78,12 @@ The endurance-bot identity rabbit also remains attachment-locked. Exact announce
 - `Gilli's Pie` is not relationship history yet.
 - Boiled mayo is a joke premise, not food-preference canon.
 - `orb` referent in that line stays unresolved.
+- `slapped` in Shiya's prediction remains joke language; no violence/fear history was created.
 - SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain separate.
 
 ## Verification state
 
-- MAIN reader-bearing head `275e08d2c5ce3ee2c4b6a061fba9f8bf2651f123`: workflow `33579522470` — **success**, including exact production deploy.
-- WIKI reader head `f4bf56ad9498810b4634f6ffe677a126b0c13f9b`: Build `33579568242` — **success**; Pages `33579568241` — **build + deploy success**.
+- MAIN Run 182 reader head `d87b6dcdc6e16ee420546768a8a2ced282d314e7`: workflow `33580330349` — **source verification + Astro + built-output verification + exact production deploy success**.
+- WIKI Run 181 reader head `f4bf56ad9498810b4634f6ffe677a126b0c13f9b`: Build `33579568242` — **success**; Pages `33579568241` — **build + deploy success**.
 
-The controlling consumption ledger advanced only after these reader checks passed.
+The controlling consumption ledger advanced Mugen only after the accepted MAIN reader change passed its exact verification and production deployment. Run 182 intentionally introduces no WIKI reader mutation; this state commit itself is still subject to WIKI's normal exact Build/Pages verification.
