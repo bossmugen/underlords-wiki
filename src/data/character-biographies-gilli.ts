@@ -25,6 +25,14 @@ export const gilliNarrativeCharacterBios: Record<string, CharacterNarrative> = {
         ]
       },
       {
+        period: "Daycare care loop",
+        title: "PRACTICE — THE CARE COMES BACK AROUND",
+        paragraphs: [
+          "Daycare supplies the reverse-direction version of Gilli's care pattern. On November 24, 2020, ChaoticAsra reminds her to hydrate; Gilli true-replies with `Pours water on head` and then `_**I AM GROUNDED**_`. On February 22, 2021, she thanks Zu with `We feed the platelets, and the platelets water us :heart:`. These are direct conversational edges, but they are useful as a pattern rather than a closeness ranking: Gilli is perfectly willing to be on the receiving end of the same practical care she keeps sending outward.",
+          "Four days later, replying to Zoshaa, Gilli supplies her own reputation note: `but tbf, i am gilli`, `i say weird shit alot`, and `that is basically public record at this point XD`. It belongs beside the care loop because it stops the responsible-person read from becoming saintly. Gilli can accept the reminder, turn hydration into physical comedy, thank the room for watering her, and then openly acknowledge that the resulting public record is already a disaster."
+        ]
+      },
+      {
         period: "Competence",
         title: "SHE WOULD RATHER ASK THE STUPID QUESTION THAN FAKE THE ANSWER",
         paragraphs: [
