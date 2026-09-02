@@ -1,91 +1,78 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-01 22:18 PDT_
+_Last updated: 2026-09-01 22:31 PDT_
 
-This is the current durable dual-surface reconciliation snapshot. Older pass detail remains in Git history and run-specific integration records. MAIN's controlling branch-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`.
+This is the rolling dual-surface reconciliation snapshot. Older detail remains in Git history and run-specific `INTEGRATION_STATE_RUN_*.md` records. MAIN's controlling branch-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`.
 
 ## Current boundary
 
-MAIN owns rich person-first biography and `Petty Crimes`; WIKI owns complementary structured Cast, role progression, Relationships, Episodes, Running Gags, Quotes, Locations, and media notes. Do not mirror prose between surfaces. User-confirmed canon, resolved identities, privacy/safety boundaries, explicit contradictions, formal appointment chronology, and attribution fences remain hard; ordinary contextual inference remains publishable under the project standard.
+MAIN owns rich person-first biographies, lived chronology, relationship texture, and `Petty Crimes`. WIKI owns complementary Cast structure, role progression, Relationships, Episodes, Running Gags, Quotes, Locations, Gallery/media notes, and searchable reference. Do not mirror identical prose between surfaces.
 
-Run 192's mandatory census tracked **49 miner identities = 28 active refs + 21 historical/missing**, with **0 newly discovered**. Opening finite queue was **1 pending review, 0 pending publication, 0 backlog, 0 overdue** because All Characters HR had advanced beyond its consumed cursor. Run 192 reviewed that branch checkpoint-first and intake-only from `7fd0fecb5bebeb1b17777256069815b2fc93d81a` through stable head `b040910eb6072db95c92d19e87ceea18df032a4a`.
+User-confirmed canon, resolved identities, privacy/safety boundaries, explicit contradictions, attribution fences, and formal appointment chronology remain hard. Ordinary contextual inference remains publishable under the project standard. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain separate. Earliest surviving material is not automatically origin.
 
-At the reviewed close, finite queue is **0 pending review, 0 pending publication, 0 backlog, 0 overdue**. Wall remains `recovery_in_progress` only because that quarry may advance again later; it is currently reviewed and consumed through `d13148d2735fb7e82b89d01f41c2d5ff5134e74a`. Both Club-Only recovery priorities remain current through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa` and `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`.
+## Run 193 reviewed work
 
-## Run 192 — Zepp stops being a Staff label with a profession attached
+Mandatory census tracked **49 miner identities = 28 active refs + 21 historical/missing**, **0 newly discovered**.
 
-All Characters Run 80 did not produce a new Alkey story; those receipts were duplicate/corroboration against stronger existing public material and were consumed without another append.
+Run 193 reviewed checkpoint-first/intake-only:
 
-Zepp was different. The tranche sharpened an existing reputation into a coherent person read without inventing a giant event around him. Rooks's `I fucking love Zepp’s quotes` already made Zepp's phrasing a peer-recognized category, and Ren's immediate `Indeed` showed the category was shared. Run 80 adds Mugen's `ZEPP AND HIS 209485 QUESTIONS A DAY`: obvious joke arithmetic, useful because the target underneath it is specific. Zepp apparently asked enough questions that Mugen could reduce the habit to fake telemetry and expect everybody to understand the bit.
+- Core Rooms `fc55d576f2504e6721529fc02ded736bc28f409e` → `740b1c95a78ce575ab98f2e2546463b26cdb57d3`
+- Daycare `79956bd0903f69ea2b0a938014f50e57a65e81e2` → `59ed28bf07261a12e5d0d7d44a15adf07f8974a5`
 
-Tae separately calls him `walmart key` and `A AUTO BOT OF KEY`. WIKI preserves that as peer caricature, not identity, copying, or an invented exact trait. Zepp and Key are separate people in the same older pre-Raja social layer; the dimension Tae was comparing remains unresolved.
+### Hishiro — WIKI reader change
 
-Ren's memory that she **taught Zepp how to fish** supplies the ordinary relationship texture the reputation receipts lacked. She is not merely somebody who recognizes the Zepp-joke category; she remembers doing a mundane game mechanic with him. That supports lived practical familiarity without turning Ren into a formal mentor or ranking their friendship.
+Core Rooms supplies a repeated source-conscious practice. Hishiro asks `who made this, this is so pretty`, asks where the image came from, learns the room's Pinterest sourcing habit, then later adds `credits to pinterest for the pic` and `credits to pixiv for the pic` to her own Mafia posts.
 
-MAIN therefore rebuilt `src/content/people/zepp.md` around the person: old-network friend, memorable talker, apparent question machine, Key-adjacent peer-joke target, and somebody whose relationship with Ren contains both quote recognition and a stupidly ordinary fishing lesson. It kept the existing five-hour co-op-cooking collapse and moved the miscellaneous crimes into the required `Petty Crimes` frame rather than producing a receipt ledger. MAIN reader-bearing commit: `e438cf2502faa6930637eba6a1e0f3a746d14eb8`.
+WIKI folds this into `src/data/character-biographies-hishiro-core.ts` as lived creative/source practice, not a formal role. The useful behavior is simple: ask origin, learn what is known, visibly carry source information forward.
 
-WIKI uses the same material structurally in `src/data/dossier-snapshots/zepp.md`: Cast dossier, Relationships, recurring material, peer shorthand, and open source questions. It does not mirror MAIN prose. WIKI reader-bearing commit: `e457158941cfca858d909c1bfec61062506edbdf`.
+Pinterest/Pixiv remain platform/source labels, not original-artist proof. POSTED BY Hishiro does not become MADE BY Hishiro.
 
-### Run 192 held rabbits / anti-fanon
+Reader-bearing commit: `9bdbb67063fc57b99929c8a5097d7a8094950e35`.
 
-- The complete `Zepp's quotes` corpus is still missing; do not manufacture representative quotes.
-- `209485 QUESTIONS A DAY` is Mugen hyperbole, not a literal frequency count.
-- Tae's Key comparisons are peer caricature. Zepp ≠ Key; the exact resemblance dimension remains unresolved.
-- Ren teaching Zepp to fish supports practical shared-game familiarity, not a formal mentor title, appointment, or relationship hierarchy.
-- The original fishing lesson's exact date/context is not recovered.
-- The December 3 pooled Deleted User identification remains Zepp only for the Mugs-confirmed session; never globalize that bridge.
-- Export-time/current role arrays remain unusable for appointment chronology.
-- SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain separate.
+Exact verification:
+- Build Underlords Wiki `33594662763` — success.
+- Pages `33594662771` — success / deployed.
 
-### Run 192 reader verification
+### New — MAIN reader change, intentionally not mirrored
 
-MAIN reader head `e438cf2502faa6930637eba6a1e0f3a746d14eb8` passed exact Cloudflare workflow `33593559804`, including source canon/architecture verification, Astro build, built-output verification, and deployment.
+Daycare's support material sharpens New / Newmal / `_newplayer` into a low-defensive Wall participant: he needles Ansun then cleanly concedes the counterpoint; files `Cele on rum` then later asks Cele `who mochi` and accepts the identity translation without bluffing; and when Xuseio says `You've been volunteered as a tribute`, New returns with `I've been summoned to be used as tribute`.
 
-WIKI reader head `e457158941cfca858d909c1bfec61062506edbdf` passed exact Build workflow `33593629631` and exact Pages workflow `33593629462`, including GitHub Pages deployment.
+MAIN folds those scenes into one person read: New can poke, concede, ask, learn, prosecute, and become the exhibit without treating every role reversal as a dignity emergency. MAIN reader commit `0d780c026ec4ad096c89506f45cb8e1f20f34c42`; exact `UL Hourly Build + Deploy` workflow `33594609293` succeeded through production deployment.
 
-All Characters HR is consumed through `b040910eb6072db95c92d19e87ceea18df032a4a` only after those reader changes passed their publication checks.
+WIKI already owned the older-network chronology, alias-translation, Wall-premise, and willing-tribute evidence family in structured form, so Run 193 intentionally did not duplicate MAIN's richer synthesis here.
 
-## Run 191 — reader changes
+## Consumed as cumulative deepening, not receipt inflation
 
-### Woosung — THE COMPLAINT BECOMES EVIDENCE
+**Eos ↔ Marian Kage / Panda:** Core adds `i protect your heart`, keep-me-in-check language, calming/soothing presence, teaching bundled with slap jokes, and Marian's `arguing is our love language`. This minimum-closes the cumulative tenderness/correction/mock-combat relationship read but does not justify another reader paragraph because current public material already richly owns the contradiction. Joke husband/divorce/remarry language remains nonliteral; no literal marriage/romance/sex inference.
 
-Daycare's spring-2023 Wall material was folded into Woosung as a recurring social mechanism rather than a stack of receipt episodes. Moon knows the protest register well enough to call it `tsundere Woo`, later hears WOO say she has too much Hall-of-Shame material, and instantly rebrands the same visibility as `No no you famous uwu`. Rich deliberately provokes the stock persona, receives `OMG NO WHY WOULD U`, then answers with a head-pat. Nobu remains the repeated theatrical `TRAITOR` / `why` target, while the unreadable screenshots refuse to tell us what he supposedly did.
+**Mirage:** developing learning-style profile. She declines a simple `smart` label and talks about admitting mistakes, learning from failure, and deliberate study. Coffee reportedly making her sleepier is Petty-Crime-grade only; no medical claim. Hold for lived correction/teaching behavior.
 
-WIKI therefore owns the pattern as Running Gag + Moon/Rich/Nobu relationship structure + Petty Crimes. `tsundere Woo` remains room teasing, not diagnosis, romance, or blanket consent. Reader-bearing commit: `3b300f1a2e5800ebeb19767ee1362bb6936b9547`.
+**momojipeachi:** Voice Challenge MP4 is confirmed POSTED BY and maker/curator orientation is stronger. The file remains media-uninspected; performer/editor/recorder/MADE BY/CAPTURED BY/FEATURING stay unresolved.
 
-### Woohyuk — quiet state-checks
+**Dainyamite / Cit:** ordinary-life and nickname/Petty-Crime seeds only. No thin-profile inflation. No discrete WIKI Episode was promoted from the Core package.
 
-Wall recovery supplied the cleaner recurrence the existing low-volume-care read needed. Woohyuk says `Wow tae you're awake.`; Tae answers `Dw I slept` / `I just randomly woke up`, strongly suggesting Tae heard the concern underneath the observation. The same Wall pocket gives Woohyuk's `i am pure`, which Lilly rejects as `the biggest lie you've ever told`.
+## Successor queue
 
-WIKI indexes the new material as a Tae relationship/state-check, peer-reputation quote material, and further evidence that Woohyuk's care and joke registers both arrive in tiny sentences. There is no medical/chronic sleep claim, the unresolved nearby `NOOO LUNA` is not bridged to Lilly, and `Screenshot_143.png` remains uninspected. Reader-bearing commit: `0b1add8a0113c7b247331f7f95c9851989fd10a1`.
+A newer Run 194 census landed while Run 193 was closing and now owns the shared MAIN cursor. It currently records **5 finite pending branches plus an advanced Wall recovery** because it has not yet consumed Run 193's reviewed Core/Daycare boundaries.
 
-## Banked / no thin-profile inflation
+Run 193's durable handoff says Core is reviewed through `740b1c95…` and Daycare through `59ed28bf…`; the successor should advance those without rereading them. The genuinely fresh post-review tails are:
 
-Zhēnxī is now a strong developing candidate but still stays backstage. The Wall-local sequence is excellent — Ren summons her into `NOOOOO` / `NOT THE WALL OF SHAME FAME`, Rummy answers one protest with `I love YoU` and receives `I love you too`, then Zhēnxī later posts a Ren-relevant old screenshot herself, summons Ren, and calls it `Deserving`. That supports theatrical defendant → willing prosecutor, reciprocal Ren evidence-teasing, and explicit Rummy friendship warmth. It still lives mostly inside one Wall behavior lane, so no premature Cast dossier yet.
+- All Characters HR: consumed `b040910e…` → seen `4afa6e47…`
+- Mugen person-first: consumed `4d1c13ef…` → seen `b4aca034…`
+- Whiskey: consumed `5ac3acca…` → seen `2f55a9ab…`
+- Wall recovery: consumed `d13148d2…` → seen `ec07d061…`
 
-YuKanada/Reii remains ultra-thin: one authored Wall line, no safe direct relationship join, no profile.
+Current successor census reports **0 pending publication, 0 backlog, 0 overdue**. Both Club-Only recovery priorities remain current.
 
-## Backstage provenance / rabbits
+## Held rabbits / hard rails
 
-- Daycare endurance-bot rabbit: Carl-bot / `Snowden` is a probable test/control-mirror candidate around the anniversary endurance campaign, **not** a resolved broken-target identity. Saber remains unproven.
-- Wall q8 `sippp.gif`: upstream Whiskey object timing + Eos's same-named direct Wall upload 8m21.574s later + next-day upstream hotlink make a Whiskey→Wall handoff strong likely. Exact Whiskey source message/uploader/hash/creator/visual remain source-bound. Eos is POSTED BY on Wall only.
-- Screenshot subjects, makers, capturers, posters, and featured people remain distinct unless technically joined.
+- Hishiro source/documentation behavior outside Mafia rooms remains useful; platform credit is not original-artist attribution.
+- Eos care/loyalty outside Marian is the next useful relationship test; stop mining more bicker/care synonyms as novelty.
+- momojipeachi Voice Challenge media needs inspection/provenance before maker/performer attribution.
+- Mirage needs a lived correction/teaching scene before self-description becomes a broader behavioral claim.
+- New's `Cele on rum` screenshot remains visually uninspected; New is POSTED BY only. Pooled Deleted User remains pooled. Historical Staff snapshots do not establish appointment chronology.
+- Daycare endurance-bot identity remains unresolved. Carl-bot / Snowden is only a control-mirror candidate; Saber remains unproven.
 
-## Hard rails carried forward
+Hard identity locks continue unchanged: New/Newmal remains male and part of Mugen's older pre-Raja circle; later recruitment through GenGrey is a later route, not a first-meeting clock. Tofu is current Staff, not VIP. Cookie/Kuki ≠ Rooks/Rookie Cookie. Key ≠ Alkey. Mia = Mimi = Miaka = Opalite Honey = `༯`; Mia ≠ Han/Nai and Mia ≠ Momo. Churro = Suora by direct self-identification. Canonical Ame / Amexistir remains separate from unbridged `ame._.`. NintendoShitcube = Zoshaa. Souta/Sou/颯太 = Ansun under resolved canon while separate display-name collisions stay unresolved. Crystalia is a man. Nuien ≠ Illien/Euros.
 
-- Tofu is current Staff, not VIP; historical/export-time arrays are not appointment chronology.
-- Cookie/Kuki ≠ Rooks/Rookie Cookie; Key ≠ Alkey.
-- Mia = Mimi = Miaka = Opalite Honey = `༯`; Mia ≠ Han/Nai; Mia ≠ Momo.
-- Churro = Suora by direct self-identification.
-- Canonical Ame / Amexistir remains separate from the unbridged `ame._.` account.
-- New/Newmal remains male and part of Mugen's older pre-Raja circle; later recruitment through GenGrey remains a later route, not a first-meeting clock.
-- NintendoShitcube / `nintendoshitcube_` = Zoshaa under resolved canon.
-- Souta / Sou / 颯太 = Ansun under resolved canon; the separate Wall display-name collision stays unresolved.
-- Crystalia is a man.
-- Nuien ≠ Illien/Euros; private/intimate material is never used merely to force public profile growth.
-- SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain separate.
-- Earliest surviving material is not automatically origin.
-
-## Verification state
-
-Run 192 exact reader verification is recorded above. MAIN's exact closing state/deployment is tracked in its controlling branch ledger; WIKI's closing state commit must pass its own Build and Pages checks independently. A failure on one surface never authorizes unsafe publication on the other.
+Run-specific detail: `INTEGRATION_STATE_RUN_193.md`.
