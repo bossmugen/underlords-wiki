@@ -6,15 +6,33 @@ aliases:
   - "Ghosttシ"
 roles:
   - "Staff"
-summary: "Ghostt is current Staff whose surviving file catches one of UL's stranger continuities: the Dragon Raja club label gets fuzzy enough to joke about forgetting, while Ghostt is still standing in UL's Wall. Earlier scenes give the page a compact reaction style — `It’s a conspiracy`, a table flip, a shrug-captioned Photo Submissions post — without pretending missing exhibits are understood."
+summary: "Ghostt is current Staff whose file refuses a tidy persona: she can say `I used to box, wassup?` two days after admitting she set part of her beard on fire at work, notice somebody else's paper stress without turning it into a speech, trade heart-coded affection with Anthos almost entirely through emotes, replay Mass Effect enough for the hours to become a confession, and quit Raja without quitting UL."
 summaryEvidence: "archive-confirmed"
 publication: "public"
 claims:
-  - text: "Current canon places Ghostt on the Staff shelf; the stable recovered account is `ghostt.wicked`, displayed historically as `Ghøstt..`."
+  - text: "Current canon places Ghostt on the Staff shelf; the stable recovered account is `ghostt.wicked`, historically displayed as `Ghøstt..`, with the December 2020 Lobby self-intro `Ghosttシ`."
     evidence: "canon-lock"
   - text: "On December 13, 2020, Ghostt enters the Lobby as `Ghosttシ- Zero wing- 15 -28`; Mugen later says the role is assigned and routes Ghostt to the server map and Christmas movie marathon. The four hyphen-delimited chunks are not forcibly mapped onto the Lobby's standard three requested fields."
     evidence: "archive-confirmed"
     date: "2020-12-13"
+  - text: "On January 3, 2021, Ghostt writes `Imma still be in discord just not playing raja anymore`, directly separating game participation from continued Discord presence."
+    evidence: "archive-confirmed"
+    date: "2021-01-03"
+  - text: "On January 19 and January 24, 2021, Ghostt directly tags Anthos with paired heart/love emotes and Anthos quickly answers both times with heart-coded emotes of her own, once with `haii ghosttt`."
+    evidence: "archive-confirmed"
+    date: "2021-01-19 / 2021-01-24"
+  - text: "Across early 2021 Ghostt repeatedly refers to ordinary work pressure without identifying an occupation; on April 27 she reports `Cuz I lit my lighter at work and set some of my beard on fire`, then on April 29 says `Aye i used to box, wassup?`."
+    evidence: "archive-confirmed"
+    date: "2021-01 – 2021-04"
+  - text: "On May 10, 2021, Ghostt tells Rooks `Oh I hope that paper doesn’t give you much trouble either`; Rooks soon answers with procrastination context and `3/8 pages done`. The joined source is contextual-high rather than a preserved raw Discord reply edge."
+    evidence: "archive-confirmed"
+    date: "2021-05-10"
+  - text: "On May 26, 2021, inside an uninterrupted Mass Effect discussion, Ghostt says `I put so many hours in that game on playthroughs lol`, strongly contextualizing Mass Effect as the repeated-playthrough title."
+    evidence: "archive-confirmed"
+    date: "2021-05-26"
+  - text: "On June 8, 2021, Ghostt declares `Apple juice is the superior drink`."
+    evidence: "archive-confirmed"
+    date: "2021-06-08"
   - text: "On March 23, 2021, Ghostt posts `It’s a conspiracy` followed ten seconds later by a sipping emote on the Wall. The missing referent is not reconstructed."
     evidence: "archive-confirmed"
     date: "2021-03-23"
@@ -31,48 +49,79 @@ claims:
     evidence: "archive-confirmed"
     date: "2022-07-12"
 antiFanon:
+  - "Ghostt ≠ Moon. `ghostt.moon` / `ghosttmoon` is not a Moon identity bridge."
   - "Do not parse `Ghosttシ- Zero wing- 15 -28` into a precise age/club/IGN assignment; the archived line contains four chunks while the standard prompt named three requested fields."
+  - "Generic work references do not identify Ghostt's occupation, employer, worksite, shift type, or job chronology."
+  - "Former boxing is a first-party past-activity statement, not proof of aggression, competition history, credential, or current boxing status."
+  - "Ghostt/Anthos heart reciprocity supports affection in those scenes, not romance, family, exclusivity, sexual orientation, or closeness rank."
+  - "The Rooks paper exchange is contextual-high in the current derivative, not a true-reply claim."
+  - "Mass Effect repeat-playthrough language does not establish favorite-game ranking or a `hardcore gamer` identity; Woohyuk's nearby romance joke is Woohyuk-authored and says nothing about Ghostt's real-life sexuality or preferences."
   - "Photo Submissions or Wall attachments establish POSTED BY Ghostt; uninspected binaries do not establish MADE BY / CAPTURED BY / FEATURING or visual contents."
   - "Reaction counts show response to one post, not friendship rank or closeness."
   - "`She set me up for it` is playful Wall language with missing context, not evidence of real misconduct or a resolved accusation."
   - "The December 23, 2021 messages are chronological, not Discord Replies. Do not force `it` to mean Forsaken or infer a precise game-uninstall/departure timeline from missing context."
-  - "Forgetting the game-side club label does not prove Ghostt left UL socially. The scene is useful precisely because the UL room remains present while the Raja filing gets fuzzy."
   - "Current Staff canon does not reveal appointment start date or gaps; export-time role arrays do not supply chronology."
 relatedPeople:
   - "mugen"
   - "gilli"
+  - "anthos"
+  - "rooks"
   - "marian-kage"
 tags:
   - "staff"
   - "lobby"
+  - "whiskey"
   - "wall"
   - "photo-submissions"
   - "game-detachment"
   - "continuity"
+  - "mass-effect"
+  - "care"
+  - "petty-crimes"
 ---
 
 # Ghostt
 
-Ghostt is current **Staff**, and the strongest reason to keep the full file is that it catches a transition the short card could only gesture at: by late 2021, the Dragon Raja club label is fuzzy enough for Ghostt to joke about forgetting it, while Ghostt is still physically present in UL's Wall. The game-side filing starts to decay before the social room does.
+Ghostt's dossier got much better once it stopped asking which version of her was the real one. The former boxer, the woman who voluntarily tells Whiskey she set part of her beard on fire at work, the friend who notices a paper is going badly, the heart-emote correspondent, the Mass Effect repeat offender, and the person who leaves Raja while staying reachable in UL are all the same file.
 
-The surviving Discord entrance is December 13, 2020. Ghostt posts **`Ghosttシ- Zero wing- 15 -28`** in the Lobby. The normal front-door prompt asked for three fields, but Ghostt's line contains four hyphen-delimited chunks. The wiki therefore preserves the text instead of playing forensic Mad Libs with which number meant what. Two minutes later Mugen says the role is assigned and routes Ghostt toward the server map and the Christmas movie marathon. It is a clean onboarding scene and an equally clean boundary: the exact field mapping stays unresolved.
+## Role progression
 
-March 2021 gives Ghostt a small Wall reaction with no safe antecedent: **`It’s a conspiracy`**, followed ten seconds later by a sipping emote. There is nearby chatter, including Gilli remarking on a quiet Wall, but no reply metadata joins Ghostt's line to a specific object. `It's a conspiracy` remains funny without the wiki inventing the conspiracy.
+Current canon files Ghostt as **Staff**. The archive does not provide a safe appointment date, so exporter role arrays and old `Role assigned!` language do not get promoted into chronology.
 
-September does the same trick with a missing exhibit. Ghostt writes **`Gilli really said I say this everyday`** and follows it with a two-emote table flip. Whatever exact thing Gilli allegedly characterized is not reconstructed from the current source. The social beat survives: Ghostt reports being called out for repetition and responds by flipping the furniture in emoji form.
+The cleaner progression is social. Ghostt enters the Lobby in December 2020. Three weeks later she says **`Imma still be in discord just not playing raja anymore`**. By late 2021 she can joke that she has been away from the game long enough to forget which club she is in while still actively talking inside UL's Wall. The game-side label gets fuzzy before the room does.
 
-Photo Submissions in October adds another compact gesture. Ghostt posts an image under **`:worryShrug1::worryShrug2:`**. Seven `wowghost` reactions land on the post. The image was not visually inspected, so the wiki does not decide what is depicted, who made it, who took it, or who appears in it. The receipt is still usable: shrug, attachment, seven-person room response. Not every visual scene needs a curator inventing alt text from vibes.
+## Relationships
 
-Then December 23 produces the line that makes Ghostt historically useful. While already talking inside UL's Wall, Ghostt says:
+**Anthos.** On two January 2021 dates Ghostt directly tags Anthos with paired heart/love emotes. Anthos quickly returns heart-coded emotes both times, once beginning **`haii ghosttt`**. The recurrence is the useful part: affection with almost all the prose removed. No romance, family, exclusivity, or friendship ranking is inferred.
 
-> `I haven’t been on in so long I forget which club I’m in lol`
+**Rooks.** When Rooks is dealing with a paper, Ghostt offers **`Oh I hope that paper doesn’t give you much trouble either`**. Rooks soon admits procrastination and `3/8 pages done`. The source join is contextual-high rather than a preserved Discord reply arrow, but the relationship verb is still clear enough: Ghostt notices ordinary stress and answers without making concern into a ceremony.
 
-Marian Kage later answers **`well, your name says forsaken`**. Roughly five hours after that, Ghostt writes **`Yeah but I left it and then uninstalled not long after that`**. The archive does not store those later messages as a reply chain, and five hours is plenty of missing room. So the wiki does not force the pronoun `it` to mean Forsaken, identify exactly what was uninstalled through metadata that does not exist, or manufacture a formal departure date.
+**Gilli.** Ghostt reports that Gilli said she says some missing phrase `everyday`, then flips the furniture in emote form. The phrase itself is still missing; the useful fact is that Gilli appears to have noticed a recurring Ghostt habit strongly enough to call it recurring.
 
-The first sentence needs no such rescue. Ghostt cannot confidently supply the game-side club label while actively standing in UL's memory/social room. The `lol` matters: this is not a resignation speech. It is the classification becoming unimportant enough to be funny.
+**Marian / Panda.** Marian answers Ghostt's late-2021 club-memory confusion with the nearest available metadata: `well, your name says forsaken`. Ordinary familiarity, not a closeness rank.
 
-Seven months later, in July 2022, the same stable account is still on the Wall. Ghostt has posted two screenshot attachments and later says **`She set me up for it 😂`**. Again the missing media does not let us identify `she`, reconstruct `it`, or turn playful language into an accusation. What it does show is continued UL-room participation after the December game-detachment joke.
+## Episodes
 
-Current living-roster canon still files Ghostt as Staff. That does **not** prove an uninterrupted appointment from 2020 to now, and old role arrays do not repair the chronology. The page does not need them to. Ghostt's clean progression is social rather than bureaucratic: front-door intake, compact Wall reactions, visual-room participation, then a moment where Dragon Raja's filing system has become hazy while UL itself is still the room Ghostt is talking in.
+**Raja Goes, Discord Stays.** January 3, 2021: **`Imma still be in discord just not playing raja anymore`**. One sentence does the work of separating activity exit from social exit. It does not establish a formal UL-membership ruling or Staff chronology.
 
-The game forgot to stay central. Ghostt did not need to vanish with it.
+**The Cool-Guy Image Has No Legal Department.** April 27: **`Cuz I lit my lighter at work and set some of my beard on fire`**. April 29: **`Aye i used to box, wassup?`**. The point is not `tough but secretly soft`. The swagger and the self-filed embarrassment coexist. Ghostt can carry physical-confidence language without requiring everybody to protect her dignity from information she herself volunteered.
+
+**The Club Label Falls Out of RAM.** December 23: **`I haven’t been on in so long I forget which club I’m in lol`**. Marian later says the name says Forsaken; hours later Ghostt says she left `it` and uninstalled. Those later lines are chronological, not a reply chain, so the pronoun stays unresolved. The first line already does enough: Raja's filing system has become fuzzy while Ghostt is still standing in UL's social room.
+
+## Running Gags / habits
+
+**Low-ceremony reaction style.** `It’s a conspiracy` followed by a sip; a table flip after Gilli's `everyday` accusation; `She set me up for it 😂` after screenshot context that remains visually unresolved. Ghostt is often willing to let one line or an emote do the whole job.
+
+**The toughness keeps getting kneecapped by Ghostt herself.** Former boxing is real first-party history. So is the beard-fire confession. Neither invalidates the other, which is why flattening her into a single tough/soft axis loses the person.
+
+## Petty Crimes
+
+**Mass Effect Repeat Offender.** In a continuous Mass Effect pocket: **`I put so many hours in that game on playthroughs lol`**. Leaving Raja did not apparently cure gaming.
+
+**Apple Juice Supremacy.** **`Apple juice is the superior drink`**. Appeals abolished.
+
+**Beard Fire at Work.** Self-filed. The cool-guy image receives no counsel.
+
+**Daily Saying, Exhibit Missing.** Gilli allegedly knows the recurring line. The archive has misplaced the line itself.
+
+Ghostt's useful through-line is **low-armor continuity**. She can leave one game without vanishing from the people, carry toughness without treating embarrassment as a threat, care without overproducing the care, and let tiny shared gestures carry relationships that do not need formal declarations to be legible.
