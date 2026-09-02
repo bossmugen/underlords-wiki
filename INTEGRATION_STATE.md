@@ -1,24 +1,49 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-02 11:12 PDT_
+_Last updated: 2026-09-02 11:50 PDT_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. This file records the WIKI-side reconciliation boundary and surface-routing decisions.
 
 ## Current reviewed boundary
 
-Full census: **49 tracked miner identities = 28 active refs + 21 historical/missing**, no newly discovered branches. The opening census found **1 pending review, 0 pending publication, 0 backlog, 0 overdue**: `archive-miner/all-characters-hr-20260828` had advanced from consumed `aae636d85caea05a2567ae038af68021309beeea` to `8b54baaf8cf3f6cd37afa497367b0382ff5dd32d`. That intake delta has now been reviewed checkpoint-first and intake-only; MAIN's branch ledger is the authoritative place where the consumed cursor is advanced after final dual-surface verification.
+Full census: **49 tracked miner identities = 28 active refs + 21 historical/missing**, no newly discovered branches. The censused finite queue contained Louvre, Whiskey Longitudinal, and Mugen person-first; Wall also had an active recovery tail. All four deltas have now been reviewed checkpoint-first and intake-only through their censused heads. MAIN's controlling ledger closes the finite queue at **0 pending review, 0 pending publication, 0 backlog, 0 overdue**. Wall remains `recovery_in_progress` only because the quarry may grow again.
 
 Current reviewed heads:
 - All Characters HR: `8b54baaf8cf3f6cd37afa497367b0382ff5dd32d`
 - Core Rooms: `aac6703622099dd3c96138c59f51b87287d2a92e`
-- Wall recovery: `6eceecc6e8b4a741838b9d7ada8d47dcb9ef53c8`
-- Daycare: `d562eb295a4834b943eb80373487777a7f730271`
-- Whiskey: `35d8f84662543ee2e3f77df684f4a65f9ae9f337`
-- Mugen person-first: `5006c460da61782a0c32aebb0a8a03353f1944fa`
+- Wall recovery: `3739a6943b32f498eace60bf21f77a9c9eaa7dec`
+- Daycare: `ce3b13c236c7720f22c4fa84d9c22e834ae25949`
+- Whiskey Longitudinal: `9ad35fd1266a08762d2878c795d0bdee8080d2a6`
+- Louvre / AI Art / Athenaeum / Other Games: `518686748761233d30d01d10f1224ce179dcefe8`
+- Mugen person-first: `e6377ec0cb1ba4a6b9c655afa403b7f6d07e411a`
 - Club-Only 2020: `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`
 - Club-Only 2021–2026: `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`
 
-Wall remains `recovery_in_progress` because the quarry may move again; its current head is reviewed and consumed. Both Club-Only recovery priorities remain current.
+Both Club-Only recovery priorities remain current.
+
+### Louvre / Rooks / Zoshaa reconciliation
+
+The new Louvre family produced one strong MAIN person-first gain and one corroboration-only lane.
+
+**Rooks:** MAIN now owns the richer workshop read. In September 2020 she promises that what they are making will be posted in the Louvre; in October she explicitly says `I'm gonna share my painting so far in #🎨│the-louvre` and then asks `critique me`. The useful character mechanism is not “Rooks posts art.” She is willing to expose unfinished work and ask other people to push on it. That belongs in the biography because it makes her high-definition attention reciprocal: she notices everyone else's details and can hand her own draft back to the room for inspection. WIKI gets no standalone Episode or Running Gag because the source is trait texture, not a discrete reference object.
+
+**Zoshaa:** Anayss's 2021 invocation of Zoshaa as the person who can help hide the room's whaling, followed twenty-three seconds later by Zoshaa's `Screaming is what I do best😎😎😎`, gives the quiet-to-chosen-volume arc an independent social witness. MAIN already has the stronger arc and the endpoint. WIKI does not breed a new incident merely because the same mechanism has better corroboration.
+
+### Whiskey Longitudinal / Anayss reconciliation
+
+The new Anayss packet is mostly comprehensive catch-up to material already public: Gilli knowing her name; Gilli and Woohyuk birthday care; Ren theatrics; coffee confession; explicit `/S`; Gabu warmth and Boss teasing. The freshest Gabu pair — `many people to have fun with here` and `Take a break Boss Gab!` — strengthens an existing relationship read rather than changing it. No duplicate MAIN paragraph and no WIKI Episode were added.
+
+### Mugen person-first reconciliation
+
+A 2020 Bosses Office packet adds a strong backstage Mugen read: during admin/officer-recognition discussion, her `main concern is the burnout for those in admin`; the same controlled context calls Anthos a `hard worker` and has Mugen wanting to check in on him. Reliability can register to Mugen as human cost, not only additional capacity. That is a useful system-builder contradiction, but this run does not add a separate public Mugen paragraph because her mature authority/self-limitation spine already carries the larger mechanism and the exact second-message wording/native neighborhood remain incomplete. The finding is consumed and banked, not discarded. WIKI gets no standalone Burnout Incident™.
+
+### Wall recovery / Bishop / Vanness reconciliation
+
+**BishopThaGuru:** MAIN folded the new text directly into his existing Wall-reputation section. Bishop can tell somebody else `Yeah unfortunately they caught you fam`, then admit he was watching closely because he was wondering `is he talking to me? 🤣`. That sharpens the recurring viewer/judge-to-possible-defendant rotation without inventing formal authority. WIKI does not need a separate Running Gag because Bishop's current public value here is person-shaped social posture rather than a new searchable institution.
+
+**Vanness:** the collector-to-defendant sequence is a strong seed — soliciting Mugen photos, then panicking about a clean record and shouting `NO SELF INCRIMINATION` when the machine swivels. It is still too thin for a public Cast dossier. Banked, not inflated.
+
+Open Wall visual/provenance rabbits remain open. No uninspected image gained MADE BY, CAPTURED BY, or FEATURING through proximity.
 
 ### All Characters HR — Run 88 reconciliation
 
@@ -40,6 +65,16 @@ The immediately preceding project-wide census found no active miner branch advan
 
 ## Surface routing this close
 
+**Rooks:** MAIN owns the person-first unfinished-work/workshop fold. WIKI intentionally gets no duplicate Episode; the source changes character texture, not reference topology.
+
+**BishopThaGuru:** MAIN owns the viewer-to-possible-defendant Wall contradiction. WIKI intentionally gets no duplicate Running Gag this pass.
+
+**Zoshaa:** corroboration only. Her existing public quiet-to-chosen-volume arc already owns the stronger story.
+
+**Anayss:** corroboration/duplicate by meaning. Existing MAIN relationship and ordinary-life material already covers the packet's useful mechanisms.
+
+**Mugen:** burnout/Anthos labor-cost mechanism consumed backstage and banked for a future natural fold; no standalone WIKI Episode.
+
 **Ten:** MAIN remains the richer person-first owner and already had the posterity recurrence. WIKI now owns the structured Running Gag/relationship/episode indexing at reader commit `ecca1163806958ef6129aa7cd41d0bd91c3a2fdb`, included in verified reader head `1f580f937306d81360886d03d696565e378dc82d`.
 
 **Ghostt:** MAIN remains the richer person-first owner and already had the ordinary-life/toughness/care package. WIKI now owns the searchable role/relationships/episodes/Petty Crimes structure at reader commit `1f580f937306d81360886d03d696565e378dc82d`.
@@ -48,19 +83,19 @@ The immediately preceding project-wide census found no active miner branch advan
 
 **Zhēnxī:** WIKI owns the cumulative Running Gag **Zhēnxī vs. the Wall** at `f4a914d8c0e337e7a54674fab88c4834bbfa3b3f`; Build `33660655380` and Pages `33660655362` succeeded. MAIN does not force a person page without a resolved public owner. Reply-parent joins close structure only; media contents and creator/capture credit remain unresolved.
 
-**Tony:** Wall is consumed through `6eceecc6e8b4a741838b9d7ada8d47dcb9ef53c8`. Stable account `173295352407293952` bridges Tony's historical display handles without name-similarity guessing. MAIN owns the richer prosecutor/defendant contradiction; WIKI keeps the searchable Running Gag/reference form already present on `main`. No second incident page was created.
+**Tony:** stable account `173295352407293952` bridges Tony's historical display handles without name-similarity guessing. MAIN owns the richer prosecutor/defendant contradiction; WIKI keeps the searchable Running Gag/reference form already present on `main`. No second incident page was created.
 
-**Mia:** Daycare is consumed through `d562eb295a4834b943eb80373487777a7f730271`. The 2024 return scene deepens the existing front-door-care arc: Mia quickly shifts from `New person` to welcoming an old returner and then gives that person a live entry point into the room. MAIN already owns that mechanism, so no duplicate paragraph was added. The Oolong Tea → Pu-Erh Tea bot-name continuity strengthens a probable replacement-lineage read but does not prove the cause of replacement or a formal appointment chronology.
+**Mia:** the 2024 return scene deepens the existing front-door-care arc: Mia quickly shifts from `New person` to welcoming an old returner and then gives that person a live entry point into the room. MAIN already owns that mechanism, so no duplicate paragraph was added. The Oolong Tea → Pu-Erh Tea bot-name continuity strengthens a probable replacement-lineage read but does not prove the cause of replacement or a formal appointment chronology.
 
-**Gabu:** Whiskey is consumed through `35d8f84662543ee2e3f77df684f4a65f9ae9f337`. MAIN already owns Gabu's practical-care-with-silly-delivery pattern. WIKI indexes the cumulative motif as **Gabu's Care Has Legs** at reader commit `3705c1b2796fcbb0a53e362a6697b3049ef45a9b`; Build `33661352041` and Pages `33661351855` succeeded. Repeated morning media supports a recurring arrival habit, not a literal every-day schedule.
-
-**Mugen:** person-first intake is consumed through `5006c460da61782a0c32aebb0a8a03353f1944fa`. The new gum-laughter line and pre-dawn chicken-nugget craving are valid **Petty Crimes** / ordinary-life texture, but neither improves the mature biography enough to create a new section by itself. They are banked for a future natural Petty Crimes fold. WIKI gets no standalone Episode. The missing Zoshaa/Zepp setup remains unresolved, so their exact trigger is not invented.
+**Gabu:** MAIN already owns Gabu's practical-care-with-silly-delivery pattern. WIKI indexes the cumulative motif as **Gabu's Care Has Legs** at reader commit `3705c1b2796fcbb0a53e362a6697b3049ef45a9b`; Build `33661352041` and Pages `33661351855` succeeded. Repeated morning media supports a recurring arrival habit, not a literal every-day schedule.
 
 ## No-public-change decisions
 
+Zoshaa and Anayss were consumed as corroboration/duplicate-by-meaning rather than spawning receipt paragraphs. Mugen's burnout/Anthos mechanism is strong enough to keep, but it is banked backstage until it can deepen the existing authority/self-limitation section naturally rather than creating another report-shaped paragraph. Vanness remains a strong person seed, not enough person for a dossier. Thin people remain thin.
+
 Run 88's Hishiro, GenGrey, Nhou, Alkey, and Zepp checks were consumed as bounded negatives/corroboration rather than spawning receipt paragraphs. MAIN's Ten and Ghostt reader biographies were already ahead of the comprehensive miner, so MAIN reader content stayed unchanged while WIKI caught up structurally.
 
-Mia's 2024 endpoint corroborates an already-public MAIN mechanism. Mugen's two small ordinary-life facts are banked instead of interrupting the biography spine. Thin people remain thin rather than being inflated into profiles. No extra Gabu Episode was created because the value is cumulative character texture, not a discrete event.
+Mia's 2024 endpoint corroborates an already-public MAIN mechanism. Mugen's two small ordinary-life facts are banked instead of interrupting the biography spine. No extra Gabu Episode was created because the value is cumulative character texture, not a discrete event.
 
 ## Hard rails held
 
