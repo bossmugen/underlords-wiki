@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State — Run 194
 
-_2026-09-01 22:47 PDT_
+_2026-09-01 22:47 PDT; reader-routing close reconciled after MAIN Ten publication._
 
 ## Census
 
@@ -17,14 +17,28 @@ _2026-09-01 22:47 PDT_
 
 ## Public split
 
-MAIN only: Mugen ↔ Snow relationship surgery. Snow can answer `I gotcha boss` and fix permission trouble, then use the event bot to put `Spank Mugs Booty` on the Saturday calendar. The person-level read is competence without ceremony and Boss remaining socially roastable. MAIN reader commit `b9c752ba8eada9c4e0899910f4908151cdc8a178`; workflow `33595656138` succeeded through source verification, Astro build, built-output verification, and exact Cloudflare production deployment.
+### MAIN only — Mugen ↔ Snow
 
-WIKI reader-facing changes: none. No standalone event is promoted because the same evidence works better as MAIN relationship texture and WIKI already owns the searchable status-flexibility/control-not-oracle concept.
+Mugen can route permission trouble to Snow, get `I gotcha boss` and a working system back, then later have the same technically competent man use the event bot to put `Spank Mugs Booty` on the Saturday calendar. The person-level read is competence without ceremony and Boss remaining socially roastable. MAIN reader commit `b9c752ba8eada9c4e0899910f4908151cdc8a178`; workflow `33595656138` succeeded through source verification, Astro build, built-output verification, and exact Cloudflare production deployment.
+
+WIKI intentionally promotes no standalone event. `Spank Mugs Booty` remains joke-event language: no literal physical/sexual conduct, romance, punishment, assault, harassment, or Mugen consent/approval. Repeating configuration and later control-state presence do not prove uninterrupted execution. Snow remains explicitly not formal second-in-command.
+
+### MAIN only — Ten bargains with posterity
+
+Wall gives Ten a recurring mechanism rather than one isolated quote. On August 27, 2020 he says `i keep forgetting y'all record these`; thirty-five seconds later he has already converted the embarrassment into `at least i'll leave some kind of legacy i guess`. Two weeks later the metaphor returns as `i'm leaving a legacy here too apparently. i only hope my heir lives up to this.`
+
+MAIN folds the recurrence into Ten's biography. The tiny qualifiers — `at least`, `i guess`, `apparently` — puncture the grandeur while he is building it, so the social move reads as self-deprecating posterity rather than solemn self-mythology. Ten can forget the receipt machinery and, once caught, immediately turn the screenshot into one more thing worth remembering.
+
+MAIN Ten reader commit `5f5a8c821898d17db6017fd182be4d07f35e214d` is in the ancestry of the successfully verified/deployed Mugen reader commit above. WIKI intentionally does not create a `Legacy Incident`: `legacy` / `heir` is joke mythology, not a formal role, succession system, literal family relationship, or proof Ten invented Wall posterity language. `here too` remains unresolved.
 
 ## Consumed without reader growth
 
-All Characters HR mostly corroborates already-public Jas/Mugen and ShiyaX texture. Whiskey's strongest Rooks school-boundary/paper-self-own material is already in the person-first MAIN page; Bart/Gilli and Petty-Crime seeds remain banked. Wall adds Vanness self-prosecution and Ten accidental-exposure/legacy seeds but neither has enough lived material for a thin Cast page. Core Eos/Marian and Daycare New were already reconciled by Run 193.
+All Characters HR mostly corroborates already-public Jas/Mugen and ShiyaX texture. Whiskey's strongest Rooks school-boundary/paper-self-own material is already in the person-first MAIN page; Bart/Gilli and Petty-Crime seeds remain banked. Wall adds Vanness self-prosecution but not enough lived material for a thin Cast page. Core Eos/Marian and Daycare New were already reconciled by Run 193.
 
 ## Fences
 
-`Spank Mugs Booty` remains joke-event language: no literal physical/sexual conduct, romance, punishment, assault, harassment, or Mugen consent/approval. Repeating configuration and later control-state presence do not prove uninterrupted execution. Snow remains explicitly not formal second-in-command. Wall q8/q9/q18 provenance remains unresolved. Uninspected media does not gain MADE BY / CAPTURED BY / FEATURING attribution by adjacency. New/Newmal remains male and pre-Raja in Mugen's older circle; later GenGrey recruitment is a later social route, not a first-meeting clock. Souta/Sou/颯太 remains Ansun under resolved canon; separate stable display-name collisions stay unresolved.
+Wall q8/q9/q18 provenance remains unresolved. Uninspected media does not gain MADE BY / CAPTURED BY / FEATURING attribution by adjacency. Rooks' Bart bridge remains probable rather than forced into a pet genealogy. New/Newmal remains male and pre-Raja in Mugen's older circle; later GenGrey recruitment is a later social route, not a first-meeting clock. Souta/Sou/颯太 remains Ansun under resolved canon; separate stable display-name collisions stay unresolved.
+
+## WIKI reader result
+
+No reader-facing WIKI file changed in Run 194 by design. This run-specific record and rolling `INTEGRATION_STATE.md` carry the WIKI-side reconciliation; MAIN owns the two new person-first reader integrations.
