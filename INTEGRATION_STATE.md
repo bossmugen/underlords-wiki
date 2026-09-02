@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-01 19:46 PDT_
+_Last updated: 2026-09-01 19:50 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Older pass detail remains in Git history and run-specific integration-state files. MAIN's controlling branch-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`.
 
@@ -8,11 +8,11 @@ This is the current durable dual-surface reconciliation snapshot. Older pass det
 
 MAIN owns rich person-first biography and `Petty Crimes`; WIKI owns complementary structured Cast, role progression, Relationships, Episodes, Running Gags, Quotes, Locations, and media notes. Do not mirror prose between surfaces. User-confirmed canon, resolved identities, privacy/safety boundaries, explicit contradictions, formal appointment chronology, and attribution fences remain hard; ordinary contextual inference remains publishable under the project standard.
 
-Run 185's mandatory census tracked **49 miner identities = 28 active refs + 21 historical/missing**, with **0 newly discovered**. The two advanced branches were reviewed checkpoint-first and intake-only: Wall recovery from `74fd9c0b…` through `6477a5f7…`, and Mugen person-first from `2e656996…` through the final close-state head `4d1c13ef…`. Both Club-Only recovery priorities remain current. Final reviewed boundary: **0 pending review, 0 pending publication, 0 backlog, 0 overdue**; MAIN's controlling ledger now records both reviewed heads as consumed.
+Run 185's mandatory census tracked **49 miner identities = 28 active refs + 21 historical/missing**, with **0 newly discovered**. Wall recovery was reviewed from `74fd9c0b…` through `6477a5f7…`; Mugen person-first from `2e656996…` through `4d1c13ef…`; a closing census then caught All-Characters HR advancing from `800881c4…` through `0a36b64c…`, which was also reviewed checkpoint-first and intake-only. Both Club-Only recovery priorities remain current. Final reviewed boundary: **0 pending review, 0 pending publication, 0 backlog, 0 overdue**; MAIN's controlling ledger records all three reviewed heads as consumed.
 
 Current reviewed boundaries:
 
-- `archive-miner/all-characters-hr-20260828` → `800881c486bfefb529d1ac66dd60b9234e006c93`
+- `archive-miner/all-characters-hr-20260828` → `0a36b64c8927d7f62cf3abce02d2a5a7cc3d3e56`
 - `archive-miner/mugen-person-first-20260828` → `4d1c13efbcb46a1897052aa9fb081575a21fa413`
 - `archive-miner/daycare-2020-2026-hourly` → `ec1c8dd532763adef8f709f3baf6d49e52005c52`
 - `archive-miner/whiskey-longitudinal-hourly` → `ef622ea4b22db3e3040b77ae81cab4a3ebb3dfbd`
@@ -42,11 +42,22 @@ The same Wall family reinforces lived Gilli↔Daya familiarity. Gilli talks abou
 
 MAIN already has both mechanisms in Daya's person-first biography (`THE GUILD GREMLIN VERSION OF A HANDSHAKE`, `CORRECT WORDING, MORALLY INDEFENSIBLE CONTENT`, and `SHE CAN FILE HER OWN CHARGES, THANK YOU`). WIKI intentionally adds no standalone Episode merely because the recovered Wall packet repeats the behavior more cleanly. No screenshot pixels were inspected; Daya is POSTED BY for her own attachments only where the intake says so, not automatically maker/capturer/featured subject.
 
+## Run 185 late tail — Tofu was already ahead of her own HR file
+
+The final branch census caught All-Characters HR Run 79 moving after the first close. The miner's stale layer was its own comprehensive Tofu dossier, not the current MAIN reader page.
+
+The material person read is strong but already public on MAIN: Tofu says new hires mistake her for a manager because she picks up her department's slack; she directly describes herself as `a squishy person irl` and says the scarier image is something she projects so she does not get hurt. The 2024 retail answer gives the same contradiction legs: disrespect can be answered with controlled friction, theatrical delays, equipment trouble and simply withdrawing access to her time rather than a generic confrontation. Then ordinary life keeps her from becoming Work Boundary Woman: `Caramel. Anything caramel`, fan + beach noises + PPOMO ASMR stacked at bedtime, and `Tell the thing to come back during business hours. 2am is me time.`
+
+The useful contradiction is already clean on MAIN: usefulness makes other people read authority upward; intimidating presentation is self-described protection; Tofu herself calls the person underneath both squishy. WIKI already files Tofu correctly as Staff and intentionally does not manufacture a standalone `Accidental Manager Incident` or four tiny Petty-Crimes Episodes out of material whose canonical owner is the person-first biography. Run 79 is therefore a successful no-public-change reconciliation on this surface, not evidence rejection.
+
+The other seven people in the tranche — Rooks, Aeshleen, Eos, HamitteY, Nuien, Akuma/Matsu and Crystalia — remain bounded negatives with named person-changing gaps. Crystalia remains a man. Nuien remains distinct from Illien, and publication-sensitive Nuien material stays behind the public boundary.
+
 ## Duplicates / reconciliations
 
 - Wall's Mugen preservation packet is already public on current MAIN: Mugen reformats a giant Shiya context dump, says she will keep it until there is a channel to dump such material into, and separately returns weeks later to edit a Wall caption. Run 185 does not append another preservation paragraph.
 - Wall's Daya packet is a richer receipt family for already-public Daya behavior, not three new biography sections.
 - Ritha + Ansun were combined into one Mugen status-flexibility mechanism rather than published as two event summaries.
+- All-Characters Run 79 repairs stale comprehensive HR from Tofu material already reader-facing on MAIN; it does not justify receipt mitosis on either public surface.
 
 ## Hard rails carried forward
 
@@ -54,8 +65,10 @@ MAIN already has both mechanisms in Daya's person-first biography (`THE GUILD GR
 - Mugen being confused by Phantom mechanics is a dated game-specific scene, not blanket incompetence.
 - Ansun teaching Mugen does not create a formal tutor role.
 - Raw Ritha Safe House and Phantom message joins remain open; no source-native topology was fabricated.
+- Tofu is current Staff, not VIP; historical/export-time arrays are not appointment chronology.
+- Being mistaken for a manager is not a formal management title.
+- Tofu's scary presentation is self-described protection, not violent intent.
 - Jumanji screenshot: POSTED BY Gilli only; maker/capturer/featured subjects unresolved.
-- Torr's `i don't remember this question` makes a question-bearing artifact probable, but exact wording, speaker, addressee and incident content remain unresolved.
 - Exact minor ages from intake are not public lore.
 - Allenne does not inherit Illien's `I still get a bit lost here LMAO XD` line.
 - Churro = Suora by direct self-identification; withdrawn `scruff` material stays withdrawn.
@@ -65,6 +78,8 @@ MAIN already has both mechanisms in Daya's person-first biography (`THE GUILD GR
 - New/Newmal remains male and part of Mugen's older pre-Raja circle; later recruitment through GenGrey remains a later route, not a first-meeting clock.
 - NintendoShitcube / `nintendoshitcube_` = Zoshaa under resolved canon.
 - Souta / Sou / 颯太 = Ansun under resolved canon; the separate Wall display-name collision stays unresolved.
+- Crystalia is a man.
+- Nuien ≠ Illien/Euros; private/intimate Nuien material is not used merely to force public profile growth.
 - SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain separate.
 
 ## Open rabbits
@@ -72,6 +87,7 @@ MAIN already has both mechanisms in Daya's person-first biography (`THE GUILD GR
 - Raw Ritha Safe House join for exact startup-help / dungeon-carry wording and context.
 - Raw Phantom lesson plus Ansun→Wolf next-day rainbow/math retelling.
 - Another independent status-flexibility scene where Mugen is corrected, carried, directed or taught and lets the asymmetry stand.
+- Tofu: raw IDs for the accidental-manager / `squishy person irl` cluster, exact retail-boundary message, exact IDs for caramel/sleep-audio/2am lines, received care outside receipt games, consequential repair, and `Queen of Vague Questions` origin.
 - Jumanji's direct 2023-01-08 Daycare body and screenshot attachment `1029156387781083176`; generic support-room re-search is DNR.
 - `faoaf` needs a non-onboarding person source or direct Daycare body before promotion.
 - RH16 endurance-bot identity remains attachment-locked; generic Saber adjacency remains bounded.
@@ -84,3 +100,5 @@ MAIN already has both mechanisms in Daya's person-first biography (`THE GUILD GR
 MAIN reader-bearing commit `bf984a251fe7d31410b804cd12bfc4962e19e423` passed exact source canon/architecture verification, Astro build, built-output verification, and exact production deployment in `UL Hourly Build + Deploy` run `33584258850`.
 
 WIKI Run-185 reconciliation commit `64c4845a092b2e8a82b33dc01301d324f6abac6b` is state-only and passed exact Build run `33584407616` plus exact Pages run `33584407578`; the Pages workflow completed build, `Deploy to GitHub Pages`, and report successfully. No Run-185 reader-facing WIKI source data changed.
+
+MAIN late-tail consumption commit `0bd967d6f87ff4876bff8c40953c3d80f62813bb` records All-Characters Run 79 through `0a36b64c…` as reviewed/consumed with no public reader mutation. This WIKI commit is likewise state-only and must pass its own exact Build + Pages workflows before the run is finally closed.
