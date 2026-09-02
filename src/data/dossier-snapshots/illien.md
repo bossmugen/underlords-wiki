@@ -5,8 +5,8 @@ aliases:
   - "eurosabraxas"
 roles:
   - "Retired Officer"
-summary: "Illien's 2020 archive starts with a newcomer waiting patiently for access, then follows him into the house: trying not to distract people, welcoming newer arrivals while admitting he still gets lost, and eventually speaking fluent UL nonsense about robberies, hugs, bot bites, broken bathrooms, and being a secret cat. His later roster history records him as a retired full Officer and historical Pit Boss."
-summaryEvidence: "user-confirmed"
+summary: "Illien / Euros starts as a careful newcomer and grows into a fully acclimated house person, but a 2020 peer description adds the stronger through-line: he `does not leave people behind` — rerunning dailies, helping with builds, explaining mechanics, sparring until people understand, and noticing mood changes."
+summaryEvidence: "archive-confirmed + user-confirmed"
 publication: "public"
 claims:
   - text: "Illien is a retired full Underlords Officer and historical Pit Boss / Minister in the locked roster."
@@ -31,6 +31,12 @@ claims:
       - label: "💬 Club Only · 2020-06-04"
         href: "/channels/club-only"
     note: "The surfaced excerpt does not safely resolve the singular `you`; the claim is limited to Illien's stated reason for staying quiet and Mugen's reply."
+  - text: "On June 13, 2020, while explaining a promotion decision and explicitly rejecting nepotism, Mugen said Illien `does not leave people behind`, describing him rerunning dailies, helping with houses/builds, explaining mechanics, sparring until people understand, and noticing changes in people's moods."
+    evidence: "archive-confirmed"
+    date: "2020-06-13"
+    sources:
+      - label: "Early Officer / Tearoom material · 2020-06-13"
+    note: "This is peer characterization of recurring behavior, not a claim that Illien never failed anyone or that the promotion date can be reconstructed beyond the source's own context."
   - text: "On August 13, 2020, Illien welcomed Allenne in the Lobby and, forty-seven seconds later, asked Ansun and Anthos to help with the tour because he still got lost in the server."
     evidence: "archive-confirmed"
     date: "2020-08-13"
@@ -71,9 +77,10 @@ claims:
         href: "/channels/wall"
     note: "The Wall export identifies Illien as Euros / eurosabraxas. The image attachment's existence is preserved, but its unseen contents are not described and Wall posting alone does not establish who made or captured it."
 antiFanon:
-  - "Euros is Illien, not a separate person."
+  - "Euros is Illien, not a separate person; Nuien is separate."
+  - "`does not leave people behind` is Mugen's peer characterization of recurring behavior, not a perfection claim and not proof Illien never failed someone."
+  - "Do not infer Illien's appointment chronology from export-time role arrays or the June 13 promotion-context wording."
   - "Poster Dump work posted by Euros belongs to Illien under the Mugs-confirmed Poster Dump uploader=creator rule."
-  - "Do not infer Illien's appointment chronology from export-time role arrays."
   - "An ordinary Wall upload means posted by Illien; it does not by itself mean made by or captured by Illien."
   - "The September 24 `pay up` / `more expensive` exchange is house banter, not proof of sex work, a paid service, an actual transaction, or that an in-person lunch occurred."
   - "The October 1 Eli bite command is playful bot syntax, not evidence of literal violence or a romantic relationship with Mugen."
@@ -87,42 +94,54 @@ tags:
   - "retired-officer"
   - "pit-boss"
   - "euros"
+  - "follow-through"
+  - "peer-characterization"
   - "wall"
   - "club-only"
 ---
 
 # Illien
 
-Illien is a retired full Officer and historical Pit Boss. In the 2020 archive he appears under **Euros / eurosabraxas**, and that year gives a surprisingly complete miniature biography: the room first meets him at the door, then watches him become comfortable enough to welcome other people, complain about his bathroom, hug Anthos, deploy bot bites, and attempt a catastrophically short-lived cat cover story.
+## Cast dossier
 
-## MAY–JUNE 2020 — NEWCOMER, CAREFUL WITH HIS PRESENCE
+Illien is a retired full Officer and historical **Pit Boss / Minister**. In the 2020 archive he appears under **Euros / eurosabraxas**. The opening chronology is still useful — careful newcomer, imperfect guide, increasingly fluent house person — but the stronger searchable pattern is follow-through. Mugen's June 13 description says Illien **`does not leave people behind`**, and the examples are concrete enough to keep the phrase from becoming generic praise.
 
-On May 28, Gilli tells Euros to wait while she gets his access together. Illien answers **`I won't move a muscle`**. It is an ordinary onboarding exchange, but it gives the starting posture clearly: patient, cooperative, not yet acting like he owns the building.
+## Role progression
 
-A week later in Club Only, Illien says he can hear the conversation but is deliberately not talking because he does not want to distract someone: **`I'm not talking just to avoid distracting you 🙂`**. The archive cannot safely resolve the singular `you`, so it stops there. Mugen's reply is more general and very UL: **`they can distract themselves just fine illien`**.
+**May 28 — newcomer.** Gilli handles access; Illien answers `I won't move a muscle`.
 
-The useful character beat is the silence Illien was choosing. Before the room becomes familiar enough to absorb every thought, he is still monitoring how much space he takes up.
+**June 4 — self-monitoring participant.** He says he is staying quiet to avoid distracting someone. The singular recipient is unresolved.
 
-## AUGUST 2020 — HE IS WELCOMING PEOPLE BEFORE HE FULLY KNOWS THE MAP
+**June 13 — promotion-context peer description.** Mugen explicitly rejects nepotism, describes the decision as unanimous, and supplies the behavioral case: rerun dailies, help with houses/builds, explain mechanics, spar until the other person understands, notice mood changes. The source is about a promotion decision, but the wiki does not use it to invent an exact appointment timeline.
 
-By August, Illien is on the other side of the Lobby interaction. He welcomes Allenne, then forty-seven seconds later asks Ansun and Anthos to help with the tour because he still gets lost in the server.
+**August 13 — helping before mastery.** Illien welcomes Allenne, then immediately asks Ansun and Anthos to help with the tour because he still gets lost.
 
-That is exactly the kind of progression these bios should preserve. He is no longer merely the person waiting for access; he is trying to help somebody else enter. He just has enough self-awareness to admit that the guide also needs a map.
+**Later 2020 — fully acclimated house person.** Fake rate cards, recurring bot robberies, Anthos hugs, bathroom rage, bite taxonomy, and the nine-second cat cover story show increasing comfort rather than a formal role transformation.
 
-## SEPTEMBER–OCTOBER 2020 — THE HOUSE HAS BECOME ORDINARY ENOUGH TO BE WEIRD
+## Relationships
 
-By late September, Illien is speaking the room's language fluently. A proposed lunch with Sou becomes a joke about paying more for an in-person meeting. On September 30 he surveys another burst of bot-economy nonsense and writes **`I see that everyone is robbing each other again`**.
+**Mugen.** Mugen appears both as somebody who answers Illien's early self-restraint with `they can distract themselves just fine illien` and later as the speaker who characterizes his follow-through while explaining the promotion decision. The second source is peer description, not omniscient certification.
 
-**Again** is the important word. The behavior is no longer an alarming new event. It is a recurring condition of residence.
+**People he helps.** The June 13 characterization is deliberately plural and process-focused: Illien reruns activities, helps with builds, explains, spars until understanding lands, and notices mood changes. The strongest cumulative read is not `helpful Officer`; it is that he seems unwilling to treat his own action as the finish line if the other person is still stuck.
 
-October 1 compresses the mature house version of Illien into a few hours. He says **`I was in a rush to hug anthos uwu`**. Rooks tells him to sleep; Illien says he cannot because people are still **`BREAKING MY FREAKING BATHROOM`**. Elsewhere he corrects the room's terminology—something looks more like a bite than a nom—and twelve seconds later tests the distinction with **`eli bite @Mugen`**.
+**Ansun and Anthos.** The August tour scene shows Illien comfortable asking them to cover what he does not know. Anthos also appears later in direct affectionate play through `I was in a rush to hug anthos uwu`.
 
-The bot command is play, not literal violence. The bathroom complaint is domestic life leaking into the chat. Together they show how far the tone has moved from May's careful newcomer. Illien is fully inside the room now: affectionate, irritated, precise about stupid terminology, and comfortable enough for real-life inconvenience to become shared continuity.
+## Episodes
 
-## DECEMBER 2020 — THE COVER STORY FAILS IN NINE SECONDS
+**Explained until understood — June 13, 2020.** This is the key structured episode for the accompaniment pattern. It bundles the concrete verbs behind `does not leave people behind` and should be read as recurring behavior described by a peer, not as a claim of perfection.
 
-On December 4, Illien posts a Wall attachment and announces **`Day 187, humans still don't suspect I'm a cat`**. Nine seconds later: **`Fuck`**. Later he adds `:Kittysip:` and **`Meowone shall know`**.
+**The guide also needs a guide — August 13, 2020.** Illien welcomes a newcomer while admitting he still gets lost and immediately recruits help. The scene is useful because competence and humility coexist in the same minute.
 
-The image stays unseen and undescribed. The line needs no visual explanation anyway. By the end of the surviving 2020 arc, Illien is not only participating in UL's joke language; he is manufacturing his own tiny mythology for the room to knock over.
+**Secret cat operational failure — December 4, 2020.** `Day 187, humans still don't suspect I'm a cat` survives nine seconds before `Fuck`. The attachment remains POSTED BY Illien; unseen contents and maker/capture attribution remain fenced.
 
-His later Pit Boss / full-Officer history is locked roster canon, but the appointment timeline is not reconstructed. The biography does not need to fake one. The archive already gives the progression that matters: newcomer → considerate participant → imperfect tour guide → completely acclimated house person. The title comes later; the person is already visible.
+## Running gags / recurring behavior
+
+- **Follow-through:** rerun, explain, spar, check whether the person actually got there.
+- **Help without fake mastery:** welcome first, ask for directions second.
+- **Terminology QA for nonsense:** bite versus nom, followed by immediate deployment.
+- **Domestic leakage:** `BREAKING MY FREAKING BATHROOM` becomes shared room continuity.
+- **Cat OPSEC:** historically poor.
+
+## Open source questions
+
+Useful future recovery includes recipient-side testimony about Illien's accompaniment pattern, care directed toward Illien, more later-life texture, consequential disagreement/repair, and exact raw IDs for the June 13 peer characterization. None of those gaps requires downgrading the current behavioral synthesis.
