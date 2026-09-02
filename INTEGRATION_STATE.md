@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-01 19:36 PDT_
+_Last updated: 2026-09-01 19:45 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Older pass detail remains in Git history and run-specific integration-state files. MAIN's controlling branch-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`.
 
@@ -8,45 +8,55 @@ This is the current durable dual-surface reconciliation snapshot. Older pass det
 
 MAIN owns rich person-first biography and `Petty Crimes`; WIKI owns complementary structured Cast, role progression, Relationships, Episodes, Running Gags, Quotes, Locations, and media notes. Do not mirror prose between surfaces. User-confirmed canon, resolved identities, privacy/safety boundaries, explicit contradictions, formal appointment chronology, and attribution fences remain hard; ordinary contextual inference remains publishable under the project standard.
 
-Run 184's mandatory census tracked **49 miner identities = 28 active refs + 21 historical/missing**, with **0 newly discovered**. Daycare advanced from `18f4d881…` to `ec1c8dd5…` and was reviewed checkpoint-first/intake-only. A post-review refresh caught Wall recovery advancing from `74fd9c0b…` to `eb629eb0…`; that tail was also reviewed checkpoint-first/intake-only. Final reviewed boundary: **0 pending review, 0 pending publication, 0 backlog, 0 overdue** once MAIN's controlling state records the verified consumption close. Both Club-Only recovery priorities remain current.
+Run 185's mandatory census tracked **49 miner identities = 28 active refs + 21 historical/missing**, with **0 newly discovered**. The two advanced branches were reviewed checkpoint-first and intake-only: Wall recovery from `74fd9c0b…` through `6477a5f7…`, and Mugen person-first from `2e656996…` through the final close-state head `4d1c13ef…`. Both Club-Only recovery priorities remain current. Final reviewed boundary: **0 pending review, 0 pending publication, 0 backlog, 0 overdue** once MAIN's controlling state records the verified consumption close.
 
 Current reviewed boundaries:
 
 - `archive-miner/all-characters-hr-20260828` → `800881c486bfefb529d1ac66dd60b9234e006c93`
-- `archive-miner/mugen-person-first-20260828` → `2e656996ef41e67cce2d241d413344a5e6b793e7`
+- `archive-miner/mugen-person-first-20260828` → `4d1c13efbcb46a1897052aa9fb081575a21fa413`
 - `archive-miner/daycare-2020-2026-hourly` → `ec1c8dd532763adef8f709f3baf6d49e52005c52`
 - `archive-miner/whiskey-longitudinal-hourly` → `ef622ea4b22db3e3040b77ae81cab4a3ebb3dfbd`
-- `archive-miner-wall-hourly-20260824` → `eb629eb0c5ae7c2c3c9527f630379bfba9fa037c` (`recovery_in_progress`; current reviewed head)
+- `archive-miner-wall-hourly-20260824` → `6477a5f78a737fc9b603a40ed7ca8c719372d6b3` (`recovery_in_progress`; current reviewed head)
 - `archive-miner/club-only-2021-2026-hourly` → `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`
 - `archive-miner-clubonly-2020-hourly` → `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`
 
-## Run 184 — Jumanji answers the exhibit, not the room
+## Run 185 — Boss is not a combat stat
 
-JumanjiBinx already had a substantial MAIN biography and a WIKI Cast entry; the first pass briefly under-read that publishing state, and the close corrects it rather than preserving a false `no profile` note.
+The substantive Mugen tail finally gives a better version of an old contradiction: authority around Mugs does not require every competence hierarchy to reproduce the social hierarchy around her.
 
-The new support-room material deepens an existing person: Gilli posts an unseen Wall screenshot, predicts Cele's judgment, explicitly summons Cele and Jumanji, and the room reacts around the artifact. Torr later says `i don't remember this question`. Nearly three hours after the screenshot went up, Jumanji true-replies to the original image with one word: `Yes`.
+Ritha's older character material already had the actual dungeon-strategy weight. She knew the run, explained the important parts, and could carry Mugen, Luna and older-club people through content. The new person-level synthesis matters because Mugen can simply let the person who knows the fight be the competent center. Founder/Boss does not need to become a universal stat buff the moment the party enters a dungeon.
 
-The useful read is **low-word but socially legible**. Gilli knows when Jumanji belongs in the scene. Jumanji does not need to narrate the room to participate in it; they answer the exhibit itself. MAIN folds that into the existing introvert/quiet-company biography and Petty Crimes. WIKI uses it differently in a structured VIP deepener: Wall history beat, Gilli familiarity/relevance note, one-word deposition, and attribution fences. No standalone Episode is created while the central image remains unreadable.
+Ansun supplies the much less flattering mirror. He patiently tries to teach Mugen Phantom mechanics while Mugs admits that her practical method is mostly auto-attacking, pressing the other attacks and praying. By the next day the lesson has been compressed into `a rainbow` with `basic math` involved. Confusion is not treated as a prestige emergency. She asks, follows, remains visibly baffled, and lets the person who knows more occupy the teacher position without needing to repair the status difference afterward.
 
-`faoaf` remains onboarding-only and is not promoted.
+MAIN therefore owns the rich character read in Mugen's biography under `BOSS IS NOT A COMBAT STAT`. WIKI intentionally does **not** create a standalone Ritha Dungeon Incident or Rainbow Math Episode from the same receipts. The structured surface records the relationship/competence finding here and waits for the still-open raw Ritha/Phantom joins or a materially different recurrence before adding another reader-facing reference object. This is a deliberate surface split, not rejection of the inference.
 
-## Run 184 — Mugen maintains the label
+The late Mugen miner suffix after the substantive handoff was close-state/checkpoint packaging only. It added no second public mechanism and was still reviewed through `4d1c13ef…` so the same paperwork does not return next run wearing a fake mustache.
 
-The late Wall recovery tail adds an early, unusually literal version of Mugen's preservation habit. On December 24, 2020 she posts four attachment-only Wall messages in an uninterrupted run, then 25.348 seconds later posts the final exported caption `Social Media: A Summary by 3am No Sleep Gang @Tae`. The caption message is edited on January 12, 2021, nearly nineteen days later.
+## Run 185 — Daya can prosecute herself
 
-The edit diff is unavailable. What survives is enough for the person read: she did not only save the stupid thing; she packaged it, labeled it, and later revisited the label. MAIN folds that into `DON'T LOSE THE SHIT`, where it bridges `so we dont lose them` to `for posterity uwu` and later `So many character arcs`. WIKI intentionally does not manufacture a duplicate Episode because the new receipt deepens an existing person trait more than it creates a standalone incident.
+Wall recovery adds a clean Daya packet, but it mostly deepens material already public on MAIN rather than creating a new public event.
 
-Abie's sole surviving Wall line is now contextualized as a probable laugh after Mugen explicitly files a `Bonus: @Abie` attachment. It remains thin supporting texture, not a standalone profile.
+Eos files Daya and Daya immediately corrects the spelling of her own name before retreating into `WIt wasn't me`. Marian later files her again; Daya opens with `OH NIOOOOO`, then contributes her own incriminating context: `I just said crackheadedness will continue today at 1pm est`, followed by shock and a keysmashed collapse. The embarrassment is participatory. She does not merely endure Screenshot Court; once the room catches her, she can help the prosecution finish the paperwork.
+
+The same Wall family reinforces lived Gilli↔Daya familiarity. Gilli talks about old Lodestar friends as a `we`; Daya agrees; later Gilli's `INVITe him / illan not daya` recruiter joke gets Daya's immediate `true :awh:` instead of offense. This is old-friend/recruiter comfort, not an appointment chronology claim.
+
+MAIN already has both mechanisms in Daya's person-first biography (`THE GUILD GREMLIN VERSION OF A HANDSHAKE`, `CORRECT WORDING, MORALLY INDEFENSIBLE CONTENT`, and `SHE CAN FILE HER OWN CHARGES, THANK YOU`). WIKI intentionally adds no standalone Episode merely because the recovered Wall packet repeats the behavior more cleanly. No screenshot pixels were inspected; Daya is POSTED BY for her own attachments only where the intake says so, not automatically maker/capturer/featured subject.
+
+## Duplicates / reconciliations
+
+- Wall's Mugen preservation packet is already public on current MAIN: Mugen reformats a giant Shiya context dump, says she will keep it until there is a channel to dump such material into, and separately returns weeks later to edit a Wall caption. Run 185 does not append another preservation paragraph.
+- Wall's Daya packet is a richer receipt family for already-public Daya behavior, not three new biography sections.
+- Ritha + Ansun were combined into one Mugen status-flexibility mechanism rather than published as two event summaries.
 
 ## Hard rails carried forward
 
+- Ritha's actual early strategy/battle-leader function is hard canon; the new Mugen synthesis does not invent a formal command transfer or make Ritha universally senior to Mugen.
+- Mugen being confused by Phantom mechanics is a dated game-specific scene, not blanket incompetence.
+- Ansun teaching Mugen does not create a formal tutor role.
+- Raw Ritha Safe House and Phantom message joins remain open; no source-native topology was fabricated.
 - Jumanji screenshot: POSTED BY Gilli only; maker/capturer/featured subjects unresolved.
 - Torr's `i don't remember this question` makes a question-bearing artifact probable, but exact wording, speaker, addressee and incident content remain unresolved.
-- Co-summoning Cele + Jumanji does not create a Cele↔Jumanji dyad; Gilli's summon supports relevance/familiarity, not a closeness rank.
 - Exact minor ages from intake are not public lore.
-- The Mugen `Social Media: A Summary` caption is likely associated with the immediately preceding four-image run because of uninterrupted timing; there is no structural reply join and no image inspection.
-- The January 12 edit proves later modification of the message, not what text changed.
-- Abie's later `😂😂😂` is probably a reaction in the same sparse pocket, not mechanically joined to the image and not a global personality claim.
 - Allenne does not inherit Illien's `I still get a bit lost here LMAO XD` line.
 - Churro = Suora by direct self-identification; withdrawn `scruff` material stays withdrawn.
 - Mia = Mimi = Miaka = Opalite Honey = `༯`; Mia ≠ Han/Nai; Mia ≠ Momo.
@@ -59,13 +69,18 @@ Abie's sole surviving Wall line is now contextualized as a probable laugh after 
 
 ## Open rabbits
 
+- Raw Ritha Safe House join for exact startup-help / dungeon-carry wording and context.
+- Raw Phantom lesson plus Ansun→Wolf next-day rainbow/math retelling.
+- Another independent status-flexibility scene where Mugen is corrected, carried, directed or taught and lets the asymmetry stand.
 - Jumanji's direct 2023-01-08 Daycare body and screenshot attachment `1029156387781083176`; generic support-room re-search is DNR.
 - `faoaf` needs a non-onboarding person source or direct Daycare body before promotion.
 - RH16 endurance-bot identity remains attachment-locked; generic Saber adjacency remains bounded.
-- Wall q8 now exposes upstream `sippp.gif` channel snowflake `695871557209292800`, but source-room name/message/author, bytes/hash, visual content and creator remain unresolved.
-- Wall q3 grasshopper/ants original-source provenance remains open under the existing Ansun=grasshopper / Sou=ants split.
+- Wall q8 exposes upstream `sippp.gif` channel snowflake `695871557209292800`, but source-room name/message/author, bytes/hash, visual content and creator remain unresolved.
+- Wall q3 grasshopper/ants original-source provenance remains open under the existing Ansun=grasshopper / separate-display-`Sou` collision fence.
 - Peer anticipation of Mugen's reactions remains open only for genuinely different mechanisms; generic `don't tell Mugs` rediscovery is DNR.
 
 ## Verification state
 
-Reader-bearing WIKI commit `a79aa0d70f56cac466f71cee86cf43123a54f1d2` passed both exact Build and Pages workflows. Exact final state-head workflow results are recorded after this rolling state commit finishes its own normal build/deploy pipeline.
+MAIN reader-bearing commit `bf984a251fe7d31410b804cd12bfc4962e19e423` passed exact source canon/architecture verification, Astro build, built-output verification, and exact production deployment in `UL Hourly Build + Deploy` run `33584258850`.
+
+This WIKI commit is state-only: no reader-facing `src/` data changed in Run 185. Its exact Build and Pages results must be checked before the run is closed in MAIN's controlling branch-consumption ledger.
