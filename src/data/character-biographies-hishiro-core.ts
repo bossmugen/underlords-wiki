@@ -18,6 +18,14 @@ export const hishiroNarrativeCharacterBios: Record<string, CharacterNarrative> =
         ]
       },
       {
+        title: "PRACTICE — PRETTY PICTURE, THEN PROVENANCE QUESTION",
+        paragraphs: [
+          "March 2023 adds a small but repeatable source habit to the dossier. In Mafia Mugshots, Hishiro sees an image she likes and does not stop at `pretty`: she asks `who made this, this is so pretty`. When Mugen says the room pulls vibe images from Pinterest, Hishiro follows with the practical question — `where can I get them? Pinterest?` — gets the answer, and thanks her.",
+          "The useful recurrence comes later. When Hishiro contributes her own Mafia material, one post says `credits to pinterest for the pic`; the next day another says `credits to pixiv for the pic`. Those are platform credits, not solved original-artist attribution, so the Wiki does not upgrade Pinterest or Pixiv into MADE BY. What the sequence does establish is behavior: Hishiro notices that an image came from somewhere, asks about source/maker, learns the room's sourcing habit, and then carries visible credit language into her own posts.",
+          "That sits neatly beside `info`, `erratum`, and `accurate` without turning Hishiro into UL's imaginary fact-checking department. The recurring verb is smaller: **check where the thing came from, say what you know, do not silently claim more than you know.** Which is inconveniently sensible behavior for a server whose historical evidence policy is otherwise often *somebody posted a screenshot and God will sort out the provenance later*."
+        ]
+      },
+      {
         title: "CALL HER AND SHE ANSWERS. APPARENTLY THIS COUNTS AS SUMMONING.",
         paragraphs: [
           "Gilli says Hishiro's name. Hishiro appears with `yes? you called my name?`. That could have been the entire exchange, except Hishiro realizes the obvious conclusion is that `Gilli can summon people`. A Fate/Rin summoning GIF enters the situation. By the end of it she is telling Gilli to `summon me again if my service are needed again` and signing off with `always at your service`.",
@@ -64,13 +72,14 @@ export const hishiroNarrativeCharacterBios: Record<string, CharacterNarrative> =
           "She has been caught reading `Record of Ragnarok` and calling Jack the Ripper `sleek`, which is an aggressively specific aesthetic verdict and therefore far more useful than a generic `likes manga` label.",
           "A three-hour Dragon Raja maintenance receives `this better be good`. A bad mic receives `shitty mic` and immediate demotion in favor of text. Hishiro appears to have little interest in granting malfunctioning technology a character arc.",
           "She has a documented fondness for tiny formal nouns in ridiculous places. A wrong game number gets an `erratum`. Mugen asks for accuracy and thoughts and receives `accurate`. Somewhere, an editor is either proud or begging her to elaborate.",
+          "Mafia Mugshots got `who made this, this is so pretty`, followed by a source question. Weeks later her own image posts arrive with `credits to pinterest for the pic` and `credits to pixiv for the pic`. The original artists remain unresolved; Hishiro nevertheless appears physically incapable of letting a pretty picture arrive without at least asking where the hell it came from.",
           "`ClubChat Karaoke` is exactly the kind of Wall caption Hishiro would produce: enough information to identify the crime, not one syllable wasted pretending the prosecution is solemn.",
           "And when she wants to share two pictures, she writes `A small slice of Japan for everyone`. No branding deck. No travel essay. She hands the room the slice and gets on with her day."
         ]
       }
     ],
     closing: [
-      "Hishiro is easiest to recognize by the little transitions. Somebody calls her name and she answers, then turns the ping into summoning magic. The game is down and she checks, complains once, then offers coffee. Her students are less stressed with a format she knows, so that is the format she likes. Her luck is good, so Anthos gets two drops. A correction needs making, so the game gets an `erratum`. Mugen asks for thoughts and, frankly, `accurate` will do.",
+      "Hishiro is easiest to recognize by the little transitions. Somebody calls her name and she answers, then turns the ping into summoning magic. The game is down and she checks, complains once, then offers coffee. Her students are less stressed with a format she knows, so that is the format she likes. Her luck is good, so Anthos gets two drops. A correction needs making, so the game gets an `erratum`. A pretty picture appears and she asks who made it. Mugen asks for thoughts and, frankly, `accurate` will do.",
       "She is practical without feeling managerial, concise without feeling absent, and dry without being detached. Real life slips through in flashes — Japan, the Philippines, television news, former cellphone tech, students — while the rest of her stays stubbornly ordinary: manga, coffee, bad hardware, loot, karaoke, a picture somebody else might enjoy. Hishiro does not need to dominate the room to be memorable in it. She just keeps leaving these tiny, unmistakably Hishiro-shaped answers behind."
     ]
   }
