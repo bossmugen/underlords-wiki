@@ -51,7 +51,7 @@
   },
   {
     "id": "ul-navigation-safeguards-2026-09-01",
-    "finding": "Machine-checkable route, ledger, label, and orphan-page audit",
+    "finding": "Machine-checkable route, ledger, label, orphan-page, and generated-link audits",
     "source": "Approved site organization safeguards",
     "status": "integrated",
     "integratedDate": "2026-09-01",
@@ -61,6 +61,7 @@
     ],
     "files": [
       "scripts/audit-site-graph.mjs",
+      "scripts/audit-built-site.mjs",
       "ops/site-integration-ledger.json",
       "ops/CONTENT_CLEARANCE.md",
       "package.json"
