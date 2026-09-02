@@ -91,5 +91,35 @@ export const deepVipCharacterBios = {
       "The May 3 ShiyaX exchange supports an easy cooperative bit and the `wookie` nickname in that scene. It does not establish a physical shave-ice shop visit, delivery, location, or nickname origin.",
       "Why Don't We `best group`, caffeine prayer, chocolate hygiene, and shaved-ice craving are dated taste/joke receipts; they are not promoted into immutable lifelong preferences without recurrence."
     ]
+  },
+
+  jumanjibinx: {
+    dek:"Introvert, persistent teammate, aggressively early arrival, and the person Gilli can summon into a Wall case only to receive a three-letter deposition.",
+    overview:[
+      "JumanjiBinx is a VIP whose strongest direct self-description is low-volume by choice: introvert, comfortable alone, happiest with equally quiet company, fond of anonymous cafe people-watching, and delighted by the possibility that a library job might come with sanctioned shushing. The soccer file complicates that quietness usefully: Jumanji says multiple coaches wanted them because they did not quit when the team was losing, and that persistence helped lift teammates around them.",
+      "The October 10, 2022 Wall pocket gives the wiki a social version of the same economy. Gilli posts an uninspected screenshot, predicts Cele's judgment, and explicitly summons Cele and Jumanji. The room reacts loudly around the artifact. Nearly three hours later Jumanji true-replies to Gilli's original screenshot with exactly `Yes`. Low authored volume is not the same thing as social invisibility: Gilli knows when Jumanji belongs in the scene, and Jumanji answers the exhibit instead of narrating everybody else's noise."
+    ],
+    history:[
+      {date:"April–July 2022",title:"Quiet company, visible persistence",text:"QOTD answers establish the useful contradiction: Jumanji calls themself an introvert who prefers quiet company, while separately reporting that soccer coaches valued their refusal to fold while losing and somebody else had called them a good role model."},
+      {date:"October 10, 2022",title:"Wall deposition: `Yes`",text:"Gilli posts an uninspected Wall screenshot and explicitly summons Cele + Jumanji. After a loud reaction pocket and Torr later saying `i don't remember this question`, Jumanji eventually true-replies to the original screenshot with one word: `Yes`. The exact question and image content remain unresolved."},
+      {date:"February 16, 2023",title:"Restaurant cleanup constitution",text:"Jumanji says people should `Always always ALWAYS` clean up after themselves at restaurants: stack dishes/cups when possible, consolidate leftovers, and separate trash rather than dismissing the mess as somebody else's job."}
+    ],
+    characterNotes:[
+      {title:"Low-word does not mean socially invisible",text:"The Wall scene matters because Gilli actively calls Jumanji into the case. Jumanji's one-word answer is economical participation, not absence."},
+      {title:"Gilli knows when to summon them",text:"That is a small familiarity/relevance edge, not a closeness rank. The archive does not need a friendship superlative to show that Gilli expects Jumanji to understand why this particular exhibit is relevant."},
+      {title:"Petty Crimes",text:"`Always early, i will be early going to go be early`; 134 stuffed animals on a cute corner shelf; library-job points for the right to shush people; one Wall deposition consisting entirely of `Yes`."}
+    ],
+    roleNotes:["Primary shelf: VIP."],
+    claims:[
+      {text:"On October 10, 2022, Gilli posted an uninspected Wall screenshot, explicitly summoned Cele and Jumanji, and Jumanji later true-replied to the screenshot itself with `Yes`.",evidence:"wall",date:"2022-10-10"}
+    ],
+    canonNotes:[
+      "The October 2022 screenshot is POSTED BY Gilli only. MADE BY / CAPTURED BY / FEATURING remain unresolved.",
+      "Torr's `i don't remember this question` makes a question-bearing artifact probable, but the exact wording, speaker, addressee and incident content remain unresolved.",
+      "Cele and Jumanji being co-summoned does not establish a Cele↔Jumanji relationship.",
+      "Gilli summoning Jumanji supports scene-level familiarity/relevance, not a closeness ranking or formal role.",
+      "Exact minor-age onboarding data is not public character lore and is not reproduced here.",
+      "Jumanji's reported soccer-coach feedback is a direct self-report, not an independently verified sports credential, captaincy or rank."
+    ]
   }
 } as const;
