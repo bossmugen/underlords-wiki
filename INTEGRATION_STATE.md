@@ -1,20 +1,20 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-02 15:20 PDT_
+_Last updated: 2026-09-02 15:29 PDT_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. This file is the WIKI-side rolling summary; run detail lives in `INTEGRATION_STATE_RUN_*.md`.
 
 ## Current reviewed boundary
 
-Full census: **49 tracked miner identities = 28 active refs + 21 historical/missing refs**, with **0 newly discovered, 0 pending review, 0 pending publication, 0 backlog, and 0 overdue** after the Run-254/255 reconciliation boundary.
+Full census: **49 tracked miner identities = 28 active refs + 21 historical/missing refs**, with **0 newly discovered**. At the stable Run-255 close, there are **0 pending review, 0 pending publication, 0 backlog, and 0 overdue**.
 
 Current key heads:
 
-- All Characters HR: consumed `c1541b4f4bf1e6c6d338d24427685e639f31995c`
+- All Characters HR: reviewed through Run 91 at `e7b35ca94d21787119efa24b5ccb8a14760dff83`
+- Wall recovery: reviewed through `7d597dfae63d46aacf400b69b1749bb436e75543`
 - Core Rooms: consumed `665180150084fc705d41734572a2d59374d99b48`
-- Wall recovery: consumed through `1cd1b4e9a3703c02fc07f43d69956fcc6bc7cc83`
-- Daycare: consumed through `83062756bcd85ddfc168665e58845d8988c08018`
-- Whiskey Longitudinal: consumed through `98db15160e36db3cffcc67e3d6e404330c03b0e7`
+- Daycare: consumed `83062756bcd85ddfc168665e58845d8988c08018`
+- Whiskey Longitudinal: consumed `98db15160e36db3cffcc67e3d6e404330c03b0e7`
 - Louvre / AI Art / Athenaeum / Other Games: consumed `518686748761233d30d01d10f1224ce179dcefe8`
 - Mugen person-first: consumed `3a9395d1699c869a4a9a187b674ef162dbf79fb2`
 - Club-Only 2020: consumed `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`
@@ -22,41 +22,37 @@ Current key heads:
 
 Both Club-Only recovery priorities remain current. Wall remains `recovery_in_progress` only because its miner can move again; the present Wall head is fully reviewed.
 
-## Latest pass — All Characters Run 90 closure
+## Latest pass — Run 91 person reconciliation
 
-The All Characters branch moved while it was being reviewed, so the integrator followed the suffix through `c1541b4f4bf1e6c6d338d24427685e639f31995c` rather than stopping at the earlier seen boundary.
+**Anayss / YoChan** is the WIKI-facing gain. Early 2021 adds repeated `my yo yo`, a carried hug, `you know I love you to pieces and Im always here`, `I already miss you so much and it’s been a day`, and `My yo yo left me 🧍‍♀️`. Later summons, waiting and join-path help now read as a lived relationship instead of generic wayfinding. WIKI indexes that relationship/chronology/claim rail; MAIN already carries the richer person-first version. No romance, literal family, exclusivity or first-meeting date is inferred.
 
-**Suzimasu** is the material person read. The useful cumulative mechanism is not merely Wall participation: he can volunteer for the evidence machine (`Trying to win the wall of shame awards`), file (`Since were sharing`), later become defendant (`I can explainnnnnnn`), and still change pressure when Ren's self-roast needs reassurance (`Aww it’s okay` / `I still wuv you`). The joke does not need to end for his interpersonal job to change. That keeps the person more specific than `goofy founder` or `scary guy became nice`.
+**Nelph** is deliberate when stakes are consequential and instant when Mërcy/Koi hands her a low-stakes fake-cookie premise. MAIN already carries that contrast, so no duplicate WIKI incident page was added.
 
-The same packet restores the mustard-watermelon argument as ordinary-life texture: Baby Lyssa reacts to the trend, Suzimasu supplies the Lizzo precedent, Tofu attacks watermelon itself, and Suzi eventually reduces the constitutional ruling to `No`. The MP4 remains visually sealed; POSTED BY never becomes MADE BY / CAPTURED BY / FEATURING.
+**Kiro** already carries the pre-title people-attention, Screenshot Court seat-switch and Sou/Ansun `youre so unserious` reputation rail on MAIN; no duplicate WIKI episode was needed.
 
-MAIN already carried both Suzimasu rails, so it correctly received no duplicate paragraph. WIKI was the stale surface and now has structured Screenshot Court / Petty Crimes treatment rather than copied MAIN prose.
+**Han / Nai** received the MAIN public catch-up: meaning can matter more than decorative crop polish, finite bandwidth is allowed, and `probably last` can become `still have something left hehe` three weeks later. The rewrite is present in successfully deployed MAIN descendant `a88067b0d811c7ac3bad978edc7b8e9fae287480`.
 
-**Nemo / Namo** is a public-reconciliation family rather than new archive discovery. MAIN had already promoted the person-first contradiction from comprehensive HR: Nemo says everyone deserves attention and that welcoming gave him purpose, while later re-entry uncertainty suggests he is better at extending belonging than confidently claiming it inward. Historical Sanrio / Leo / baking / Mandarin-learning texture remains point-in-time only. WIKI does not need a duplicate incident page for that person mechanism.
+Rummy, Shiki, Gabu and Ansun / Souta were reviewed as bounded no-public-change qualifications rather than padded with receipt prose.
 
-Run-89 Pride support was duplicate/corroboration relative to already-public Pride material and is consumed rather than reread.
+## Wall anti-starvation tail
 
-## Public routing
+Queen Shimoko's three authored Wall messages now form a coherent low-volume/high-signal person seed: affectionate public induction from Mugen, `Crab booty omgsh` immediately remixed by Rich, and a compact exact reply to KOREA/Milk's pineapple-screenshot threat. Queen remains architecture-held because MAIN requires a categorized public People owner and the reviewed Wall material does not safely establish one. No role/status was invented to satisfy the UI, and no WIKI Episode was created from person texture.
 
-- **MAIN:** no new reader mutation in the closing pass; current Suzimasu was already ahead, and Nemo's person-first rewrite had already landed at `a3f0862a4fa43a6e5dc96924890ce697237473da` and was verified in successfully deployed successor `c67e97d5904f16cd77094b5ab568fcce6f800052`.
-- **WIKI:** Suzimasu structured dossier catch-up landed in `b690ad64c3b148865d34d3554b1f304c954770dd` and is preserved in successor `b4e59bcb04aed95b5b13273c68a084bfc65161c5`.
-- **No Suzimasu Episode:** the gain is character/relationship/Running Gag texture, not standalone incident architecture.
-- **No filler:** Kaede, HyaLuna, Ritha, Yumi, Illien/Euros, and Feli remain bounded-open until new material actually changes the person.
+The May 11 pineapple reply parent is closed; the promised screenshot itself is not proven recovered or posted. `My koi` remains Mugen's affectionate scene wording only. POSTED BY / MADE BY / CAPTURED BY / FEATURING remain separate.
 
-## Verification
+## Public routing / verification
 
-Reader-bearing WIKI successor `b4e59bcb04aed95b5b13273c68a084bfc65161c5` passed Build `33689170653` and Pages/deploy `33689170696`, both successfully.
+- WIKI structured Anayss/YoChan commit: `ea2189bdd9eb0fc1521d0c79c5e847f1823b3b58`.
+- Exact Build `33690298324`: **success**.
+- Exact Pages/deploy `33690298309`: **success**.
+- MAIN descendant `a88067b0d811c7ac3bad978edc7b8e9fae287480`, containing the Han rewrite and Run-255 close, passed MAIN workflow `33690043240`: **success**.
 
-Run-closing state commit(s) are separately checked through the repository's native Build and Pages workflows before the run is reported closed.
+## Held rails
 
-## Held rabbits / rails
+- Akariel / Akariel™ / `akariel_star` = Zyrcant is hard project canon; stale miner-local contrary brakes remain overridden.
+- Nelph ↔ Mërcy/Koi needs ordinary scenes outside the single cookie-storefront bit before being treated as a recurring dyad.
+- Queen still lacks a safe public roster/category owner.
+- Uninspected media remains sealed; attribution verbs stay distinct.
+- Earliest surviving material is not automatic origin.
 
-- Suzimasu: later adult life, received care, consequential repair, founding-circle ordinary scenes, raw IDs/reference joins, Ricochet sushi prompt.
-- Nemo: recipient-side memories, care directed toward Nemo, later continuity, conflict/repair, peer absent-talk.
-- HyaLuna ≠ Candy/later Luna.
-- Illien = Euros; Nuien remains separate.
-- `I still wuv you` remains affectionate peer language, not romance canon.
-- Suzimasu MP4 / Wall images remain uninspected; POSTED BY does not become MADE BY / CAPTURED BY / FEATURING.
-- Earliest surviving remains earliest surviving, not automatic origin.
-
-Detailed reconciliation: `INTEGRATION_STATE_RUN_254.md`. MAIN's matching durable report is `archive-intake/INTEGRATION_REPORT_RUN_254.md`.
+Detailed reconciliation: `INTEGRATION_STATE_RUN_255.md`. MAIN's matching durable report is `archive-intake/INTEGRATION_REPORT_RUN_255.md`.
