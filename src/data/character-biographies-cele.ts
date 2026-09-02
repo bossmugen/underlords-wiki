@@ -49,9 +49,18 @@ export const celeNarrativeCharacterBios: Record<string, CharacterNarrative> = {
         ]
       },
       {
+        title: "CELE ↔ ANSUN — WHISKEY HOMEWORK HOTLINE",
+        paragraphs: [
+          "April 27, 2021 gives Cele and Ansun / Souta one compact practical-help scene. Cele posts `skskfksjfj whAts solution :BOP2:` with an image. 41.213 seconds later Souta posts a `Find-Molarity-Step-5` instructional image; several minutes later he posts the identical guide again. The available H1 derivative does not preserve raw reply/reference objects, so this stays a strong contextual response rather than a technical reply edge.",
+          "As a relationship object, the scene is useful precisely because nobody gives it ceremony. Cele is comfortable enough to put active confusion in public instead of pretending she has the answer. Souta's contribution is equally practical: put something usable in the room. No closeness rank, tutoring title, or chemistry-expert badge is required for the gesture to count.",
+          "This is not a standalone Episode. It belongs in Relationships / ordinary-life lookup: an existing `In chem` thread becomes behavioral, and Cele's Whiskey usage gains a reciprocal side. The room can be audience, hangout, and apparently an emergency molarity desk in the same civilization."
+        ]
+      },
+      {
         title: "PETTY CRIMES",
         paragraphs: [
           "Cele once discovers the salt emoji and reacts like Discord has handed her classified technology. She announces the discovery in all caps and then immediately sends 🧂 by itself, which is exactly what one should do when entrusted with this level of power.",
+          "`skskfksjfj whAts solution` also belongs in the file. The memorable part is not that chemistry existed; it is that Cele could dump the panic into Whiskey and have a molarity guide appear about forty-one seconds later. Homework hotline, no appointment system.",
           "Ren also has a wonderfully cursed way of describing Cele's apparent animal aesthetic: backwards Marie Kondo. `Dead animal: this sparks joy / Live animal: this does not spark joy`. Cele answers the filing thirteen seconds later with one smug emote. That is enough for a peer-recognizable morbid taste/humor lane and Cele immediately owning the joke; it is not a literal claim that she harms animals, collects dead ones, or operates a taxidermy side business. The point is that Ren can make the accusation in one image-shaped joke and Cele knows exactly how to answer it.",
           "She also contributes `TIKKI SPOTS ON... YEAH!`, giving Miraculous enough room on the page to count as recognizable fandom fluency without requiring a twenty-question favorite-show survey. The same general file has chemistry class, English-only boredom, cookies losing a scheduling dispute to enchiladas, and the long-running Celery problem. None deserves its own era. All of it belongs here because this is the pile of small nonsense that makes Cele look like Cele when no major event is happening.",
           "Her other petty crime is apparently possessing enough internal knowledge of her own possible Wall receipts to say `im glad it was that one`. The page will not inventory the alternatives for her. The line is funnier if Cele alone knows exactly how much worse court could have gone that day."
