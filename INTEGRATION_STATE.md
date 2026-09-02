@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-02 15:47 PDT_
+_Last updated: 2026-09-02 15:52 PDT_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. This file is the WIKI-side rolling summary; run detail lives in `INTEGRATION_STATE_RUN_*.md`.
 
@@ -10,7 +10,7 @@ Full census: **49 tracked miner identities = 28 active refs + 21 historical/miss
 
 Current key heads:
 
-- All Characters HR: consumed through `e7b35ca94d21787119efa24b5ccb8a14760dff83`
+- All Characters HR: consumed through `0ae852062884088413a438959b9ef8609547ff12`
 - Wall recovery: consumed through `7d597dfae63d46aacf400b69b1749bb436e75543`
 - Core Rooms: consumed through `45c235a2b7fe5345ffd61a6ab328f409608b4f57`
 - Daycare: consumed through `83062756bcd85ddfc168665e58845d8988c08018`
@@ -21,6 +21,8 @@ Current key heads:
 - Club-Only 2021–2026: consumed through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`
 
 Both Club-Only recovery priorities remain current. Wall remains `recovery_in_progress` only because its miner can move again; the present Wall head is fully reviewed.
+
+A final closing recheck caught All Characters HR moving again after the first Run-257 reconciliation. The late Run-92 suffix was reviewed immediately rather than being left as silent next-run debt. It materially catches the comprehensive miner layer up to already-public Zyrcant and Syv character work, so the cursor advances without duplicate reader prose.
 
 ## Latest reader reconciliation
 
@@ -44,9 +46,21 @@ No WIKI Cast card or Episode was forced. This is **not** a weak-evidence hold. T
 
 The 65 indexed media objects remain attachment/embed footprint only. They do not become MADE BY / CAPTURED BY / FEATURING attribution. `shopping` remains ambiguous as real-life versus avatar shopping; `sexy fluorescent shrimp gang` remains visually unresolved; the game/task behind the east/west/Sun crisis remains unresolved.
 
+## Late All Characters Run 92
+
+### Zyrcant / Akariel
+
+The miner catches up to an already-public agency beat: after asking for Wall shame and later running from `caught in 4k`, Zyrcant returns with her own exhibit. The private attachment remains sealed. The useful indexed pattern is that she can operate Screenshot Court from both sides—target and voluntary filer—without converting the private conversation, partner identity, sexuality, current relationship status, or media provenance into public canon.
+
+### Syv
+
+The comprehensive layer now matches the already-public Syv spine: earlier shyness, Ren talking enough to help pull her from the `shy bubble`, later lower-friction initiation and affectionate shorthand, and Gilli explicitly valuing Syv's blue-moon appearances without demanding more output. The change is **friction → ease**, not generic shy→confident; low volume survives the change.
+
+The suffix also preserves the hard identity correction that the January 2022 absence/ramen scene belongs to Ricochet / `dragonrichard`, not Rich / DragonRich. Those remain separate people.
+
 ## No-public-change closures
 
-- All Characters HR Run 91 was reviewed through its latest head; its public character work was already integrated by the overlapping pass, so no duplicate reader mutation was added.
+- All Characters HR is consumed through late Run 92 at `0ae852062884088413a438959b9ef8609547ff12`; Zyrcant and Syv material was already public, so no duplicate cards or paragraphs were added.
 - Mugen person-first closed a third consecutive novelty-gate hold with no genuinely new Mugen material.
 - MAIN was already ahead on Dainyamite, so WIKI received the structured catch-up while MAIN did not reproduce the same person read.
 - Mayvis is person-ready/category-not-ready; no fake Staff/VIP/visitor placement was created to satisfy the UI.
@@ -55,7 +69,7 @@ The 65 indexed media objects remain attachment/embed footprint only. They do not
 
 ## Verification
 
-- Run 256 reader lineage remains: MAIN Yelik hard-canon correction `8bc72754caee20345537750857871f1b8fb4766a`, WIKI Dainyamite/Yelik reader lineage through `053d40bd0bf386bd8369d9d5ea50d88fb588f647`, with the previously recorded successful MAIN/WIKI build/deploy runs.
-- Run 257 adds state/reconciliation only; exact closing-head Build/Pages verification is recorded in `INTEGRATION_STATE_RUN_257.md` after workflows settle.
+- MAIN's final held-May reconciliation/deployment lineage is recorded in the matching Run-257 report; the temporary May page did not survive the verified closing head.
+- WIKI exact-head Build and Pages/deploy verification for the final state commit is recorded in `INTEGRATION_STATE_RUN_257.md` after the last state write settles.
 
 Detailed reconciliation: `INTEGRATION_STATE_RUN_257.md`. MAIN's matching durable report is `archive-intake/INTEGRATION_REPORT_RUN_257.md`.
