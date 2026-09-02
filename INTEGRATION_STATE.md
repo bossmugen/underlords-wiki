@@ -1,39 +1,41 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-02 02:17 PDT_
+_Last updated: 2026-09-02 02:52 PDT_
 
 This is the rolling dual-surface reconciliation snapshot. Older detail remains in Git history and run-specific records. MAIN's controlling branch-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`.
 
 ## Current reviewed boundary
 
-Run 206 opened with the mandatory census at **49 miner identities = 28 active refs + 21 historical/missing**, **0 newly discovered**, **1 pending review**, **0 pending publication**, **0 backlog**, **0 overdue**. The one advanced family was `archive-miner/all-characters-hr-20260828`, from consumed `18c3b457cd60af3db0f9ece12cd9300bb84294cc` to stable head `41c00620d9a5885c5302d8ac1797a077ca2949bb`. It was reviewed checkpoint-first and intake-only; no raw archive was re-mined and no miner branch was merged wholesale.
+Run 207 completed the mandatory census at **49 miner identities = 28 active refs + 21 historical/missing**, **0 newly discovered**, **0 pending review**, **0 pending publication**, **0 backlog**, and **0 overdue** after review. The advanced families were Core Rooms, Daycare, and Wall recovery. All were reviewed checkpoint-first and intake-only; no raw archive was re-mined and no miner branch was merged wholesale.
 
-Both Club-Only recovery priorities remain current at `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa` and `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`. Wall remains `recovery_in_progress` only because it may advance again; its current head is fully reviewed/consumed.
+The consumed boundaries now close at Core Rooms `844712e871c9544a5a3878e8233d1ab5d30a6142`, Daycare `d168a4cc5b39f800979663f313dd4325634d923c`, and Wall `d94693f45376577e8b87d30ffa9312126f4ef672`. Closing ref checks matched those heads. Both Club-Only recovery priorities remain current at `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa` and `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`. Wall remains `recovery_in_progress` only because it may advance again; its current head is fully reviewed/consumed.
 
-## Run 206 — Woosung would also like somebody else to press Start sometimes
+## Run 207 — Syv stops being the duckling and starts dragging Ren into kitchens
 
-The strongest still-unpublished cross-surface delta was Woosung's receiving-side care pattern. In May-2023 QOTD material she says `Reaching out` matters when she is struggling, explains `I usually make the effort to talk, and I carry the conversation`, and describes somebody else initiating as making her feel she does not have to do everything on her own.
+The strongest new relationship material belongs to Syv and Ren. Syv says she used to be shy around everyone, still does not talk very much compared with louder people, and credits Ren as the person who talked most to her `shy self`, `dragged me out of my shy bubble`, and helped her talk more in UL. Ren answers with `SyvSyv` and four hug emotes; Syv sends hearts. The important reference fact is not a formal mentorship. It is low-pressure inclusion that Syv herself says changed how easy it was to participate.
 
-The character value is reciprocity, not helplessness. Woo is practiced at crossing the distance first. Precisely because she is practiced at it, somebody else crossing the distance toward her registers. Gilli, Gabu, and Cele appear as different care verbs rather than a ranking: Gilli reaches out and makes her smile; Gabu validates and helps people feel comfortable; Cele is dependable while also pushing independence.
+The later friendship changes the verbs. Early Syv describes herself as a `Small duckling that follows rv`; Ren replies `Imma protecc`. By 2024 Syv is the one announcing there is `no illusion of choice` and that she is dragging Ren into the kitchen to teach her bread. Ren also recognizes Syv's outfit creativity and imagines fashion/costume work from what she has actually seen; Syv calls the thought unusually sweet. By 2026, `You adore me` / `I do` needs no explanatory ceremony. The WIKI files this as longitudinal friendship familiarity, not guardian/family status, romance, or an occupation claim.
 
-MAIN already owned this person-first layer before the comprehensive miner closed Run 84, so MAIN received no duplicate biography paragraph. WIKI was behind and now carries the structured version in `src/data/character-bios-vip-deep-0-run206.ts`: a history beat, character note, receipt claim, related-person indexing, and explicit anti-fanon boundaries. Cele ↔ Woosung remains the user-confirmed real-life cousin edge; Gilli/Gabu are not promoted into kinship or closeness rank.
+The same structured Syv layer also records the username fossil: Syv says `Syveon` came from trying to spell `Sylveon`, dropping the `l`, then being too lazy to remake the name. MAIN uses that as `Petty Crimes`; WIKI indexes it as a searchable character note and receipt claim.
 
-WIKI reader commit `31551a35c8a7f3e3895c77f0aebbc2fe93a992e9` passed exact Build `33612986085` and exact Pages `33612986111`, both successful including deployment.
+WIKI reader source: `src/data/character-bios-vip-deep-0-run207.ts`. MAIN uses the same evidence differently inside `src/content/people/syv.md`, as a lived person-first friendship arc. The two surfaces do not mirror prose and no fake `Shy Bubble Incident` Episode was created.
 
 ## Duplicate / already-integrated material
 
-Woohyuk's December-2020 Tae state-check (`Wow tae you're awake.` followed by Tae reassuring him that he had slept) and the `i am pure` / Lilly rejection pocket were already public on WIKI and MAIN. No duplicate Episode or character paragraph was created. The safe read remains low-volume noticing/care plus peer-reputation banter; no chronic sleep/medical claim and no inference from the uninspected screenshot.
+Gilli's Daycare `ground you all if you didnt drink water yet` / `feed the platelets` material strongly corroborates the already-public care-via-mock-discipline mechanism; no duplicate dossier layer was added. Woosung's QOTD comfort philosophy is already mature on both surfaces. Teri ↔ Moon's best-friend/support texture and Dainyamite's sensory-comfort material were already public. Wall's exact WOO reply joins likewise strengthen an already-indexed mechanism instead of creating another Running Gag.
 
-Acoryuie / Cinders / Juniper's Run-84 package was already substantially integrated on MAIN: Jas as a lived invitation bridge from a previous club, a brief leave/return, low visibility with strong attachment, gratitude for even brief interactions, and Ruby as recurring end-of-day companionship. WIKI currently has no Acoryuie Cast route. Run 206 did not invent a shelf merely to force symmetry; that remains a pre-existing WIKI placement gap rather than a lore conflict. Sensitive family/private material and historical age remain off public surfaces.
-
-Rich, Zyrcant, Syv, Beowulf, and Baby Lyssa were bounded-negative/corroboration-only for this delta. Syv remains distinct from Sye.
+WolfPhenix's Wall recovery strengthens a mode distinction — mostly audience/reaction/ceremonial presence in that room, rare artifact-author shifts — but the current evidence does not justify media-content inference, a favorite-color claim from `purple = wolfie`, or literal height from `wolfie is giant, gilli is ant`. Rose/DarkAsrai's comparative-height quip remains a narrow Petty Crimes seed with literal height unknown. keptenblad ↔ Sye gains one substantive workday check-in without a closeness rank. aesh remains too thin for a public expansion.
 
 ## Held rabbits
 
-Useful follow-ups remain the exact raw QOTD snowflakes for Woosung's reciprocity cluster, more receiving-side examples without flattening them into relationship rank, Woohyuk screenshot provenance, and Acoryuie's exact Cinders→Juniper transition mechanics. None block the current character reads.
+Daycare RH16 remains open because the 2023–2026 package is still HTTP 403; the Saber endurance-bot mechanism remains unproven and Carl remains a control only. The keptenblad / `Welcome back @peavaremit !` visible-tag versus reply-target mismatch stays unresolved. Wall q8 `sippp.gif`, q3 insect provenance, q9/q19 Tofu, q4 corpse/Pride lineage, q13 Fame-origin boundary, q10 officer-country, and Aesh/Erys follow-ups remain open. FuentesKaede identity reconciliation remains held.
 
-Hard rails remain unchanged: identity locks and user corrections win; role arrays do not establish appointment chronology; joke family/romance/governance language stays joke language unless separately supported; earliest surviving is not guaranteed origin; SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain separate.
+Hard rails remain unchanged: Syv is not Sye; New/Newmal remains male and part of Mugen's older pre-Raja circle; Sou/Souta/颯太 remains Ansun while the separate stable account currently rendered `Sou` stays unresolved; joke family/protection/affection does not become literal family, guardianship, romance, or sex; role arrays do not establish appointment chronology; earliest surviving is not guaranteed origin; SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain separate.
 
 ## Consumption / verification
 
-Run 206's All Characters HR delta has been successfully reviewed through `41c00620d9a5885c5302d8ac1797a077ca2949bb`. MAIN's controlling ledger is the authority for the final consumed cursor and is updated after successful public verification. Full run detail is in `INTEGRATION_STATE_RUN_206.md`.
+MAIN reader commit `cf87f500ecb0dee85fe26f38dbce03da68bac96f` passed exact source canon/architecture verification, Astro build, built-output verification, and exact production deployment in workflow `33616039745`.
+
+WIKI reader commit `3e6c3c9178f8f9dee3142150dba3c47c8ff9f5bb` passed exact Build `33616077163` and exact Pages `33616077189`, including deployment.
+
+MAIN's controlling ledger advances Core Rooms to `844712e871c9544a5a3878e8233d1ab5d30a6142`, Daycare to `d168a4cc5b39f800979663f313dd4325634d923c`, and Wall to `d94693f45376577e8b87d30ffa9312126f4ef672` only after those reader verifications. Full run detail is in `INTEGRATION_STATE_RUN_207.md` and MAIN's `archive-intake/INTEGRATION_PASS_2026-09-02_RUN_207.md`.
