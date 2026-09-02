@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-01 18:43 PDT_
+_Last updated: 2026-09-01 18:47 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Older pass detail remains in Git history and run-specific integration-state files. MAIN's controlling branch-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`.
 
@@ -8,7 +8,7 @@ This is the current durable dual-surface reconciliation snapshot. Older pass det
 
 MAIN owns rich person-first biography and `Petty Crimes`; WIKI owns complementary structured Cast, role progression, Relationships, Episodes, Running Gags, Quotes, Locations, and media notes. Do not mirror prose between surfaces. User-confirmed canon, resolved identities, privacy/safety boundaries, explicit contradictions, formal appointment chronology, and attribution fences remain hard; ordinary contextual inference remains publishable under the project standard.
 
-Run 182's mandatory census tracked **49 miner identities = 28 active refs + 21 historical/missing**, with **0 newly discovered**. One unconsumed tail was reviewed checkpoint-first and intake-only: Mugen person-first `ffcf2198… -> 2e656996…`. The final controlling MAIN close has **0 finite pending review, 0 pending publication, 0 backlog, 0 overdue**. Wall remains `recovery_in_progress` only because the miner can advance again; its current head is consumed. Both Club-Only recovery priorities remain current.
+Run 182's mandatory census tracked **49 miner identities = 28 active refs + 21 historical/missing**, with **0 newly discovered**. One unconsumed tail was reviewed checkpoint-first and intake-only: Mugen person-first `ffcf2198… -> 2e656996…`. The controlling MAIN close has **0 finite pending review, 0 pending publication, 0 backlog, 0 overdue**. Wall remains `recovery_in_progress` only because the miner can advance again; its current head is consumed. Both Club-Only recovery priorities remain current.
 
 Current reviewed boundaries:
 
@@ -23,67 +23,46 @@ Current reviewed boundaries:
 
 The new Mugen tail does not need another Episode. It deepens an existing person/relationship mechanism.
 
-In the January 2021 Wall scene, Shiya predicts Mugen's editorial reaction before she speaks — `Expects to be slapped by Mugs` — then keeps escalating the context until Mugen eventually lands on `TOO MUCH CONTEXT`. The word `slapped` stays exactly where it belongs: joke language. It is not violence evidence, fear, abuse, or a formal disciplinary mechanism.
+In the January 2021 Wall scene, Shiya predicts Mugen's editorial reaction before she speaks — `Expects to be slapped by Mugs` — then keeps escalating the context until Mugen eventually lands on `TOO MUCH CONTEXT`. Months later the same relationship runs in reverse. Baby Lyssa asks what `the tree branch drowning ???` means. Shiya contributes only `Tis in slice`; Mugen supplies the missing one-line recap herself: `Yaya's making a bedside aquarium for his pet tree branch`.
 
-Months later the same relationship runs in reverse. Baby Lyssa asks what `the tree branch drowning ???` means. Shiya contributes only `Tis in slice`; Mugen supplies the missing one-line recap herself: `Yaya's making a bedside aquarium for his pet tree branch`.
-
-The useful read is not `Mugen likes context`. It is calibration. With Shiya, she appears to have a dosage setting: flood the room and she cuts the excess; leave everyone one sentence short of understanding and she fills the gap. Shiya knows her well enough to anticipate the broad genre of her reaction; Mugen knows enough of his serial nonsense to translate it for somebody else.
+The useful read is calibration. With Shiya, Mugen appears to have a dosage setting: flood the room and she cuts the excess; leave everyone one sentence short of understanding and she fills the gap. Shiya knows her well enough to anticipate the broad genre of her reaction; Mugen knows enough of his serial nonsense to translate it for somebody else. The relationship feels lived precisely because neither needs to explain the other from zero.
 
 **MAIN:** `src/content/people/mugen.md` folds this into the existing framing-editor / `This random video is us now` section and adds ShiyaX to Mugen's related-person links. It is relationship texture, not a new dated event appendix. Reader commit `d87b6dcdc6e16ee420546768a8a2ced282d314e7` passed exact source canon/architecture verification, Astro build, built-output verification, and exact Cloudflare production deployment in workflow `33580330349` before the branch consumption SHA advanced.
 
-**WIKI:** intentionally **no new reader block or Episode**. `TOO MUCH CONTEXT` and the tree-branch recap are ingredients of a relationship mechanism already better owned by MAIN's biography. Duplicating them as a standalone WIKI incident would make the reference surface wider without making it more useful. This state record carries the routing decision and consumed boundary instead.
+**WIKI:** intentionally **no new reader block or Episode**. `TOO MUCH CONTEXT` and the tree-branch recap are ingredients of a relationship mechanism already better owned by MAIN's biography. Duplicating them as a standalone WIKI incident would make the reference surface wider without making it more useful. WIKI carries the reconciled mechanism and consumed boundary here instead.
 
-Held/fenced: no literal violence from `slapped`; no formal moderation policy from `TOO MUCH CONTEXT`; no aquarium/tree-branch ownership or maker attribution to Mugen because she explains the joke; no invented raw message join for the miner's handoff; `Yaya` remains period-supported ShiyaX address rather than a newly inferred identity bridge. Hard New/Newmal chronology is unchanged: New is male and belongs to Mugen's older pre-Raja circle; later GenGrey recruitment is a later route, not a first-meeting clock.
+## Run 181 material carried forward
 
-## Run 181 — Cele can ask the room for help
-
-The Whiskey tail adds a new ordinary-life behavior rather than another Wall incident. On 2021-04-27 Cele drops `skskfksjfj whAts solution :BOP2:` with an image; 41.213 seconds later Souta / Ansun posts a `Find-Molarity-Step-5` instructional image and later repeats the identical guide. The available H1 derivative does not preserve raw reply/reference objects, so this is kept as strong contextual practical-help behavior rather than a technical reply edge.
-
-The character meaning is broader than `Cele had chemistry homework`. Cele is comfortable being visibly stuck: no polished preamble, no attempt to perform competence first, just frustration-noise plus the question. Ansun's side is equally ordinary and useful: when somebody in the room signals confusion, he reaches for something practical. This deepens Cele's earlier `In chem` ordinary-life thread into behavior and adds a lived Cele↔Ansun relationship edge without inventing a tutoring role or closeness rank.
-
-**MAIN:** Cele's biography now owns the person-first version under `Apparently Whiskey also takes homework tickets.` plus the `Whiskey Homework Hotline` Petty Crime. The exact reader-bearing MAIN head `275e08d2c5ce3ee2c4b6a061fba9f8bf2651f123` passed source canon/architecture verification, Astro, built-output verification, and exact Cloudflare production deployment in workflow `33579522470`.
-
-**WIKI:** `src/data/character-biographies-cele.ts` now indexes **Cele ↔ Ansun — Whiskey Homework Hotline** as relationship / ordinary-life structure, not a standalone Episode. Reader head `f4bf56ad9498810b4634f6ffe677a126b0c13f9b` passed standalone Astro Build `33579568242` and Pages build/deploy `33579568241`.
-
-`Gilli's Pie` remains a backstage constraint: confirmed as export/current nickname state, but the current source lane does not establish coiner, origin, date, meaning, literal relationship, or a safe historical clock from rendered mentions.
-
-## Run 181 — Zoshaa makes the description worse
-
-The Wall recovery tail materially deepens Zoshaa's humor mechanism. `I’d share a refreshing glass of boiled mayo with my orb any day ᵘ ʷ ᵘ` already supplied the cursed cute surface. The new cumulative read comes from what she does after Gilli says the thought makes him gag: Zoshaa adds temperature, texture, brand comparison and flavor until the imaginary drink is a warm McDonald's triple-thick milkshake that tastes like mayo. A separate 2022 `long neck bug` verdict independently rhymes with the same habit of unnecessary aesthetic prosecution.
-
-The contradiction is useful: an earlier Wall remembers Zoshaa as a target of other people's grotesquely specific description; later scenes preserve her as an active author of the same general kind of absurd specificity. That is role contrast, not an origin story or a claim that earlier teasing caused the later humor.
-
-**MAIN:** Zoshaa's biography now owns this as `Uwu is not a warning label.` and folds Gilli's recoil into the humor mechanism instead of appending another event summary. Literal boiled-mayo preference/consumption is explicitly excluded.
-
-**WIKI:** no new Zoshaa reader mutation. The existing dossier already carries the boiled-mayo / cute-delivery and long-neck-bug ingredients in mature structured context. Adding another near-duplicate section would make WIKI wider without making it more searchable.
-
-Held: `orb` in the boiled-mayo line remains unresolved; the long-neck species/object remains unresolved; q3 insect-source provenance remains open. Anthos's `center for ants` reaction is local callback only, not upstream source provenance. No visual attribution was promoted.
-
-## Run 181 — Trebach stays a seed, not a cardboard person
-
-The Daycare tail moves Trebach from an empty one-message ledger shell to thin-but-usable stable-account texture. Daya types `welcome back`; Trebach immediately asks `What is IGN?`, supplies the fields already understood, accepts Ren's definition, and repairs the form cleanly. Probable read: **old face, new paperwork / belonging without performative fluency**.
-
-No MAIN or WIKI reader page was created. The direct 2023-01-06 Daycare body remains unavailable and one support scene is not enough to manufacture a biography whose personality is `asked what an acronym meant once`. Daya's recognition and Ren's practical explanation are useful micro-corroboration only. `Mochi defeated Trebach` remains artifact-locked.
-
-The endurance-bot identity rabbit also remains attachment-locked. Exact announcement attachment IDs are known, but current representation still does not expose renderable bytes; Saber is not promoted by adjacency.
+- Cele's April 2021 chemistry panic plus Souta/Ansun's near-immediate molarity guide remains a lived Cele↔Ansun practical-help edge. MAIN owns the person-first homework-help scene; WIKI indexes the relationship as `Whiskey Homework Hotline`, not a standalone Episode.
+- Zoshaa's boiled-mayo escalation remains a humor mechanism: cute/uwu delivery plus deliberately revolting over-specific imagery. MAIN owns the cumulative character contradiction; WIKI already has the ingredients and did not receive a duplicate section.
+- Trebach remains a thin stable-account seed: Daya's `welcome back`, Trebach asking what IGN means, Ren explaining it, and Trebach repairing the form. No cardboard biography was created.
 
 ## Hard rails carried forward
 
-- New/Newmal remains male and part of Mugen's older pre-Raja circle. A later GenGrey route does not overwrite first-meeting chronology.
+- Shiya's `slapped by Mugs` is joke consequence language, not literal violence, fear, abuse, or formal discipline.
+- `TOO MUCH CONTEXT` is a relationship/editorial behavior in this scene family, not a server moderation policy.
+- Mugen explaining Shiya's aquarium project does not make her maker, owner, capturer, or featured subject of any related media.
+- The dedicated Mugen pass did not reacquire raw message IDs/timestamps for both Shiya scenes; no missing source-native join was invented.
+- `Yaya` is used only as period-supported ShiyaX address, not as a new identity bridge.
+- New/Newmal remains male and part of Mugen's older pre-Raja circle; later recruitment through GenGrey remains a later route, not a first-meeting clock.
 - NintendoShitcube / `nintendoshitcube_` = Zoshaa under resolved canon.
-- Souta / Sou / 颯太 = Ansun under resolved canon.
-- Trebach remains only the stable account actually evidenced; no identity bridge was invented.
-- Daya's `welcome back` is human recognition, not an original-join timestamp or uninterrupted-membership proof.
+- Souta / Sou / 颯太 = Ansun under resolved canon; the separate Wall display-name collision stays unresolved.
+- Trebach remains only the stable account actually evidenced; Daya's `welcome back` is recognition, not an original-join timestamp or uninterrupted-membership proof.
 - Cele's chemistry scene does not establish school level, institution, grade, major, exact assignment, or Souta as a chemistry expert.
-- `Gilli's Pie` is not relationship history yet.
-- Boiled mayo is a joke premise, not food-preference canon.
-- `orb` referent in that line stays unresolved.
-- `slapped` in Shiya's prediction remains joke language; no violence/fear history was created.
+- `Gilli's Pie` remains nickname-state only; coiner, origin, date and meaning are unresolved.
+- Boiled mayo is a joke premise, not food-preference canon; `orb` remains unresolved.
 - SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain separate.
+
+## Open rabbits
+
+- Peer anticipation of Mugen's reactions is strengthened by both Key and Shiya but is not project-closed. Generic future `don't tell Mugs` material is DNR unless it adds a materially different care, trust, repair, behavior, or surprise mechanism.
+- Exact source-native joins for the January Wall context sequence and July tree-branch sequence remain useful forensic/visual targets, not blockers on the person read.
+- Wall insect-source provenance, q9/q19 capture attribution, and the separate stable account rendered `Sou` remain unresolved under their existing fences.
 
 ## Verification state
 
-- MAIN Run 182 reader head `d87b6dcdc6e16ee420546768a8a2ced282d314e7`: workflow `33580330349` — **source verification + Astro + built-output verification + exact production deploy success**.
-- WIKI Run 181 reader head `f4bf56ad9498810b4634f6ffe677a126b0c13f9b`: Build `33579568242` — **success**; Pages `33579568241` — **build + deploy success**.
+- MAIN Run 182 reader commit `d87b6dcdc6e16ee420546768a8a2ced282d314e7`: workflow `33580330349` — **source verification + Astro + built-output verification + exact Cloudflare production deploy success**.
+- MAIN Run 182 closing state/report head `dd5d89fe4870178c1822aa806aa12f2a3f4a9277`: workflow `33580530223` — **source verification + Astro + built-output verification + exact Cloudflare production deploy success**.
+- WIKI Run 182 state-bearing commit `fb83a923f132d7fed6baf61d0a48cf883023f850`: Build `33580665283` — **Astro build success**; Pages `33580665279` — **build + Deploy to GitHub Pages + report success**.
 
-The controlling consumption ledger advanced Mugen only after the accepted MAIN reader change passed its exact verification and production deployment. Run 182 intentionally introduces no WIKI reader mutation; this state commit itself is still subject to WIKI's normal exact Build/Pages verification.
+The controlling consumption ledger advanced Mugen only after the accepted MAIN reader change passed exact verification and production deployment. Run 182 intentionally introduces no WIKI reader mutation; WIKI's state-bearing commit passed its own build and Pages deployment independently.
