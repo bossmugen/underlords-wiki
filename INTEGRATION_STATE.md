@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-02 13:48 PDT_
+_Last updated: 2026-09-02 14:04 PDT_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. This file is the WIKI-side current-state rollup; prior run detail remains preserved in `INTEGRATION_STATE_RUN_*.md`.
 
@@ -22,39 +22,32 @@ Current key reviewed heads:
 
 Both Club-Only recovery priorities remain current. Wall remains `recovery_in_progress` only because that quarry may grow again; its present head is already reviewed and consumed.
 
-## Latest reconciliation — Cele + ACORYUIE, with duplicate clown and no-change Mugen
+## Latest integration pass — Run 250 no-delta close
 
-Run 249 reviewed three advanced active miner tails checkpoint-first and intake-only: Wall `7f8fcb72... -> 8b739180...`, Core Rooms `aac67036... -> 66518015...`, and Mugen person-first `f8065759... -> 2e87408b...`.
+Run 250 repeated the mandatory full branch census directly against MAIN's miner refs and persisted it at MAIN commit `c2acf3c04597013b24922cf50baab49d8c248ed2`.
 
-**Cele** gained the strongest cross-surface character deepener. The Wall material sharpens a recurring premise-response mechanism: Ren can hand Cele a grotesque backwards-Marie-Kondo caricature and get one smug emote; Rummy can file against Cele and suddenly Cele discovers `out of context` as mock due process; Mugen can say `Left to get milk, gone 2 years` and Cele immediately asks whether the milk was at least purchased before advancing the fictional logistics to cheese. Mugen exact-replies with `chonky` milk. MAIN owns the person-first version; WIKI indexes defendant behavior, premise-response comedy, relationship rhythm, and Petty Crimes.
+Every active miner head exactly matched its already-consumed boundary. A closing recheck returned the same active heads again. Therefore there was **no legitimate intake delta to review**, no recovery suffix to continue, and no pending/advanced branch available for anti-starvation rotation.
 
-**ACORYUIE / Cinders / Juniper** was promoted to WIKI Archive / Extended Cast. Their own account says they had been club-hopping because nowhere quite fit, that Jas from a previous shared club invited them into Underlords, and that even brief interactions still mattered despite low activity and a later absence. Mugen's `welcome back bb, role assigned, you know your way uwu` adds familiar return texture. This is a social bridge and belonging story, not a formal Jas recruiter appointment or a current living-roster claim. MAIN already had the richer ACORYUIE biography, so no duplicate MAIN paragraph was added.
+Genuinely new findings integrated: **0**. Reader-facing MAIN changes: **0**. Reader-facing WIKI changes: **0**. Consumed-SHA advances: **0**. No duplicate paragraph, thin Cast object, fake Episode, or invented rabbit was created merely to make the repositories move.
 
-**clown⭐ / clownlord** was duplicate/corroboration only. The existing WIKI dossier already owns the exact-person gremlin self-brand, improvised bread-format QOTD, cow-gremlin hypothetical, and funny-only hair-dye prompt as a setup-provider mechanism. No second character or second dossier was created.
-
-**Mugen person-first** closed as deliberate no-public-change maintenance. The latest handoff explicitly recommended no new public mutation, so the reviewed SHA advanced without reader-page churn.
+The latest accepted reader-facing reconciliation therefore remains Run 249's Cele + ACORYUIE work: MAIN owns Cele's lived premise-literalizer / selective-due-process character synthesis; WIKI owns the complementary structured Cele reference and ACORYUIE / Cinders / Juniper historical-return Cast dossier. The clownlord tranche remains duplicate/corroboration, and Mugen's latest person-first tail remains deliberate no-public-change maintenance.
 
 ## Verification / deployment
 
-MAIN Cele reader commit `b075bea0793dfe26a99ea596e8d6a6025089ecb7` passed exact workflow `33680650846`: source canon/architecture verification, Astro build, built-output verification, and exact Cloudflare production deployment all succeeded.
+Run 250 uses the repositories' existing push workflows as the exact verification/deployment path. MAIN's census-state commit and WIKI's integration-state commits are checked by their native workflows; exact run IDs and conclusions are reported after those heads finish.
 
-MAIN consumption-state commit `bcb08b9d1adb17bf86b5f8dbc3c5008c4ae7e675` passed exact workflow `33681093089` through the same complete suite.
+The previous accepted reader heads remain green from Run 249:
 
-WIKI closing reader head `891b461eb6cb55f0b253282fa9915f1030f7b488` passed:
-
-- Build Underlords Wiki `33681018349`: success.
-- Pages `33681018310`: success through build, artifact upload, deployment, and report.
-
-This rolling-state commit is verified separately at run close so final WIKI `main`, not merely its reader parent, is green.
+- MAIN Cele reader commit `b075bea0793dfe26a99ea596e8d6a6025089ecb7` — workflow `33680650846`, full source verification + Astro build + built-output verification + Cloudflare production deploy successful.
+- MAIN consumption close `bcb08b9d1adb17bf86b5f8dbc3c5008c4ae7e675` — workflow `33681093089`, successful.
+- WIKI reader head `891b461eb6cb55f0b253282fa9915f1030f7b488` — Build `33681018349` and Pages `33681018310`, successful.
 
 ## Held rabbits / rails
 
-Cele's uninspected Wall images remain undescribed. Ren's animal joke is peer caricature, not literal animal-harm/taxidermy canon. Mugen/Cele milk is fictional premise tennis, not real-world biography. ACORYUIE's sensitive age/private-family material stays private, and Jas's invitation remains a social bridge rather than appointment chronology. clown⭐'s ranch/cow answer remains prompt-bound; funny-only hair-dye replies remain fake reasons. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain separate, and existing unresolved identity/origin/attribution rabbits remain unresolved.
+No new conflict was opened this run. Existing unresolved identity, origin, attribution, reply-parent, and uninspected-media questions remain unresolved. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain separate. Sensitive/private facts remain backstage. Joke family, joke romance, joke property, and joke rank language remain non-literal unless independently grounded.
 
 ## Surface routing
 
-MAIN: Cele receives the lived person-first synthesis. ACORYUIE was already richly owned there. clown⭐ was duplicate/corroboration. Mugen's latest tail was no-public-change.
+No material was intentionally published to only one reader surface this run because **no new evidence arrived to route anywhere**.
 
-WIKI: ACORYUIE receives the structured historical-return Cast dossier; Cele receives the complementary structured behavior/relationship/Petty Crimes deepener. No mirrored MAIN prose, fake clown Episode, or redundant Mugen object.
-
-Detailed reconciliation: `INTEGRATION_STATE_RUN_249.md`. MAIN's matching durable report: `archive-intake/INTEGRATION_REPORT_RUN_249.md`.
+Detailed reconciliation: `INTEGRATION_STATE_RUN_250.md`. MAIN's controlling census is `archive-intake/INTEGRATOR_BRANCH_STATE.json`; MAIN's matching durable report is `archive-intake/INTEGRATION_REPORT_RUN_250.md` once recorded.
