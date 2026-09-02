@@ -8,7 +8,7 @@ pronouns: "she/her"
 roles:
   - "VIP"
   - "Platelet"
-summary: "Former ScarletMoon leader whose archive presence predates her later role-add paperwork; by 2023 her own QOTD language describes Mugen as a close friend and older-sister-like guide, while her room voice still favors compact verdicts, relentless little return serves, and practical care followed by immediate denial of being soft about it."
+summary: "Former ScarletMoon leader whose archive presence predates her later role-add paperwork; by 2023 her own QOTD language describes Mugen as a close friend and older-sister-like guide, while her room voice still favors compact verdicts, relentless little return serves, practical care followed by immediate denial of being soft about it, and Wall protests that keep becoming fresh evidence."
 summaryEvidence: "archive-confirmed"
 publication: "public"
 claims:
@@ -49,11 +49,18 @@ claims:
     sources:
       - label: "Whiskey archive"
     note: "This is joke-family language, not literal parentage or romance."
-  - text: "On March 26, 2023, WOO posts `NOBU` and less than two seconds later `TRAITOR`; the surviving text does not establish what alleged betrayal prompted the line."
+  - text: "On March 26, 2023, WOO posts `NOBU` / `TRAITOR`, then later answers another unreadable receipt with `nobu` / `why`; the surviving text supports a recurring theatrical betrayal bit but not an underlying offense by Nobu."
     evidence: "archive-confirmed"
     date: "2023-03-26"
     sources:
       - label: "Wall archive"
+    note: "The screenshot contents are unavailable. Do not infer maker, capturer, depicted people, or alleged offense from WOO's reaction."
+  - text: "Across March 30–April 9, 2023, Moon calls something `the perfect paragraph for tsundere Woo`; Rich later performs the stock bit at WOO, gets `OMG NO WHY WOULD U`, and replies with a head-pat GIF; when WOO says `I need to not talk sm I got so much stuff on the hall of shame`, Moon answers `No no you famous uwu.`"
+    evidence: "archive-confirmed"
+    date: "2023-03-30 – 2023-04-09"
+    sources:
+      - label: "Wall archive"
+    note: "`tsundere Woo` is room teasing vocabulary, not a diagnosis or romance claim. The repeated sequence is better treated as a Running Gag / relationship rhythm than a standalone Episode."
   - text: "Recovered April 10, 2023 Whiskey screenshots show WOO giving practical comfort advice; when Moon teased that WOO cared, WOO answered `shut up moon`, denied being tsun, and finally insisted `I don't not care about anyone here` before the room called her cute."
     evidence: "archive-confirmed"
     date: "2023-04-10"
@@ -73,14 +80,15 @@ antiFanon:
   - "`I found someone to simp` is immediately qualified by `in genshin`; do not promote it into romance canon with Anthos."
   - "The September 2020 kill-command → love-GIF sequence is social play. WOO posted the GIF; do not credit her as its maker or use the scene to infer hostility, romance, or relationship ranking."
   - "`mugs is my daddy granny` is fictive-family language, not literal parentage, romance, or evidence of an ex-partner relationship."
-  - "`NOBU` → `TRAITOR` supports a compressed accusatory joke style; it does not establish an actual betrayal or dispute."
-  - "The April 2023 tsundere framing belongs to Moon/the room's teasing and should not become a fixed diagnosis or personality label."
+  - "The March 2023 `NOBU` / `TRAITOR` / `nobu` / `why` sequence supports a recurring betrayal joke; unreadable receipt contents do not establish actual betrayal, dispute, or misconduct by Nobu."
+  - "`tsundere Woo` is Moon/the room's teasing register, not a fixed diagnosis, romance claim, or blanket consent to embarrassment."
 relatedPeople:
   - "mugen"
   - "snow"
   - "anthos"
   - "nobu"
   - "moon"
+  - "rich"
 tags:
   - "vip"
   - "platelet"
@@ -92,6 +100,7 @@ tags:
   - "whiskey"
   - "qotd"
   - "care-via-denial"
+  - "wall-famous"
 ---
 
 Woosung's surviving file refuses a clean onboarding story. The archive catches WOO in Lobby on April 8, 2020, casually reacting to a bot scene and continuing with ordinary room activity. Months later, on July 28, she produces the much more intake-looking `Hi Woosung.....idk what else`, and Snow follows with `@WOO Role added`. The chronology is useful because it separates presence from paperwork: the later form-like moment did not create the person.
@@ -120,7 +129,31 @@ The useful part is the wording, not a literal family edge. UL's fake-family voca
 
 On March 26, WOO posts `NOBU` and less than two seconds later `TRAITOR`.
 
-The archive does not safely establish what Nobu supposedly betrayed. That missing context is exactly why the character evidence belongs at the level of delivery rather than allegation. Woosung can point at the defendant and issue the ruling before the court has even found the paperwork. The room responds with wheeze reactions, including from Nobu himself, which keeps the scene in joke territory rather than turning it into an undocumented conflict.
+The surviving text does not safely establish what Nobu supposedly betrayed. That missing context is why the useful record is the delivery rather than the allegation. Woosung can point at the defendant and issue the ruling before the court has even found the paperwork. Later the same night another unreadable receipt gets the smaller `nobu` / `why`. The repetition is enough to index a betrayal bit; it is not enough to invent Nobu's crime.
+
+## Running Gag — THE COMPLAINT BECOMES EVIDENCE
+
+By late March and early April, people around WOO know the reaction pattern well enough to summon it on purpose.
+
+Moon supplies the room-native label: `It's the perfect paragraph for tsundere Woo:cat_tease:`. Rich later performs the full stock `B-baka!` paragraph, tags WOO into it, and gets `OMG NO WHY WOULD U`. His immediate reply is a head-pat GIF. The rhythm is compact enough to index cleanly: **provoke → protest → pat**.
+
+Then WOO files the structural complaint herself:
+
+> `I need to not talk sm I got so much stuff on the hall of shame`
+
+Moon's answer is not less exposure. It is a rebrand:
+
+> `No no you famous uwu.`
+
+WOO reacts with crying and skull/dead reactions and remains in the joke. Her proposed solution to over-documentation therefore becomes another documented line about over-documentation. This is a recurring social register, not a rule that every embarrassment is welcome and not a diagnosis hiding behind the word `tsundere`.
+
+### Relationships — Moon, Rich, Nobu
+
+**Moon:** knows WOO's protest register well enough to name it, then hears `too much shame` and converts it into `famous`. Moon's teasing lands because WOO answers it; the same archive separately shows Moon noticing WOO's practical care and teasing that softness into the open.
+
+**Rich:** knows the same persona well enough to drag WOO into the stock bit, gets the loud protest, and immediately softens the poke with a head-pat GIF. It is a tiny but reusable relationship verb: tease, receive outrage, pat.
+
+**Nobu:** repeatedly becomes the named `TRAITOR` / `why` target when Wall receipts surface. That is enough for a bounded recurring-betrayal joke. The underlying screenshots are unreadable, so Nobu's alleged offense, image authorship, capture, and appearance stay unresolved.
 
 ## April 2023 — care arrives before the disclaimer
 
@@ -138,4 +171,9 @@ A QOTD finally gives the relationship direct first-person language. Asked who Mu
 
 That description does more work than any inferred relationship chart could. It tells us what Woo thinks the connection is and how she experiences it: not rank, not obligation, but a durable friendship with guidance built into it.
 
-Taken together, the file is not `serious former leader` versus `chaotic guest`. Woosung is unusually willing to make a preference somebody else's immediate scheduling problem, to compress a judgment into two messages, and to help before she has finished deciding how much softness she wants to admit. Snow says someday; Woo checks eighty seconds later. Somebody hurts; Woo gives the advice first and litigates the feelings afterward. The exact subject changes. The return serve does not.
+## Petty Crimes
+
+- WOO's proposed cure for having too much Hall-of-Shame material is `I need to not talk sm`, delivered in the Hall of Shame and instantly creating more Hall-of-Shame material.
+- On September 18, 2020, she reported playing Among Us `like 14 times` and being `never the imposter`. Fourteen rounds. Zero villain allocation. Bureaucratic injustice.
+
+Taken together, the file is not `serious former leader` versus `chaotic guest`. Woosung is unusually willing to make a preference somebody else's immediate scheduling problem, to compress a judgment into two messages, to help before she has finished deciding how much softness she wants to admit, and to protest being archived in ways that make the archive stronger. Snow says someday; Woo checks eighty seconds later. Somebody hurts; Woo gives the advice first and litigates the feelings afterward. The Wall catches her; she complains in a line worth preserving. The exact subject changes. The return serve does not.
