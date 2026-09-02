@@ -1,8 +1,8 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-01 22:48 PDT_
+_Last updated: 2026-09-01 23:10 PDT_
 
-This is the rolling dual-surface reconciliation snapshot. Older detail remains in Git history and run-specific `INTEGRATION_STATE_RUN_*.md` records. MAIN's controlling branch-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`.
+This is the rolling dual-surface reconciliation snapshot. Older detail remains in Git history and run-specific integration records. MAIN's controlling branch-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`.
 
 ## Current boundary
 
@@ -10,59 +10,60 @@ MAIN owns rich person-first biographies, lived chronology, relationship texture,
 
 User-confirmed canon, resolved identities, privacy/safety boundaries, explicit contradictions, attribution fences, and formal appointment chronology remain hard. Ordinary contextual inference remains publishable under the project standard. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain separate. Earliest surviving material is not automatically origin.
 
-## Run 194 reviewed work
+## Run 195 reviewed work
 
-Mandatory census tracked **49 miner identities = 28 active refs + 21 historical/missing**, **0 newly discovered**. Closing queue is **0 pending review, 0 pending publication, 0 backlog, 0 overdue**. Wall remains `recovery_in_progress` only because that quarry may advance again; its current head is consumed. Both Club-Only recovery priorities remain current.
+Mandatory census tracked **49 miner identities = 28 active refs + 21 historical/missing**, with **0 newly discovered**. Run 195 reviewed `archive-miner/all-characters-hr-20260828` checkpoint-first and intake-only from `4afa6e475cf9325181f9e5742ef4148594fc5aa4` through stable head `c2e167d092468ecda8a87026610703de126edb43`.
 
-Run 194 reviewed/reconciled checkpoint-first and intake-only:
+Closing finite queue is **0 pending review, 0 pending publication, 0 backlog, 0 overdue**. Wall remains `recovery_in_progress` only because that quarry may advance again; current Wall head `ec07d0618f198d11995ab612b4a016af2171af0c` is consumed. Both Club-Only recovery priorities remain current.
 
-- All Characters HR `b040910eb6072db95c92d19e87ceea18df032a4a` → `4afa6e475cf9325181f9e5742ef4148594fc5aa4`
-- Mugen person-first `4d1c13efbcb46a1897052aa9fb081575a21fa413` → `b4aca034bcd368c91c294e50060659e902b663aa`
-- Whiskey `5ac3acca43dbf098304f997c01d2ea3c63949f22` → `2f55a9abb60fb04d4cd1464ce039190e704f9bd4`
-- Wall recovery `d13148d2735fb7e82b89d01f41c2d5ff5134e74a` → `ec07d0618f198d11995ab612b4a016af2171af0c`
+Qualification tranche reviewed: Kaede → HyaLuna → Ritha → Suzimasu → Yumi → Illien / Euros → Feli → Nemo / Namo.
 
-Run 193 had already reviewed/verified Core Rooms through `740b1c95a78ce575ab98f2e2546463b26cdb57d3` and Daycare through `59ed28bf07261a12e5d0d7d44a15adf07f8974a5`; Run 194 advances MAIN's controlling ledger to those durable reviewed boundaries without rereading or republishing them.
+## WIKI reader integration — Yumi's room-temperature switch
 
-## MAIN-only reader integration — Mugen ↔ Snow
+The prior WIKI dossier was stale relative to already-bankable comprehensive HR. Run 82's April 2020 Whiskey scene now lives in structured reference form: Yumi says `calm down both of you`, reminds D.I./Jonith and Suzimasu/Mob that they are good guys, and later explains `something felt off and i didn't like where this was going`.
 
-The new Mugen packet gives a clean relationship contradiction rather than a discrete Wiki Incident. Early permission trouble shows Mugen routing the system problem to Snow; Snow answers `I gotcha boss` and fixes it. On September 22, 2020 Snow then uses Saber to create a repeating Saturday event titled `Spank Mugs Booty`; inherited bot/control state still carries the title in February 2023.
+WIKI routes this as Cast / Relationships / Episodes / Running Gags / Role Progression rather than mirroring MAIN's biography. The searchable person read is a register switch: harmless nonsense can get blunt escalation and event hype; real interpersonal heat can get brakes. Her wording identifies a trajectory she disliked without claiming omniscience about motive.
 
-MAIN folds this into Mugen's existing authority/status-flexibility section. The useful read is not the event title by itself: Mugs can rely on Snow's technical competence without turning the relationship ceremonial, and Snow can use the same system to make the Boss the joke. Technical reliance did not require reverence.
+Reader commit: `99e1dacbcd4347bd588af7501062273c91ff9a9c`.
 
-MAIN reader commit: `b9c752ba8eada9c4e0899910f4908151cdc8a178`. Exact workflow `33595656138` succeeded through source canon/architecture verification, Astro build, built-output verification, and exact Cloudflare production deployment.
+Hard fence: do not assign sole blame or hidden motive from the scene, and do not backdate later `Team Mom` language into appointment chronology.
 
-WIKI intentionally adds **no standalone Episode**. Existing Mugen structured material already owns the searchable control-not-oracle/status-flexibility theme. A `Spank Mugs Booty Incident` would turn relationship texture back into receipt furniture.
+## WIKI reader integration — Illien follows through
 
-Hard fences: event-title joke language is not literal physical/sexual conduct, romance, punishment, assault, harassment, or Mugen consent/approval. Repeating configuration plus later control-state presence does not prove uninterrupted weekly execution. This event is not identified as the later Daycare endurance target. Snow remains explicitly not formal second-in-command.
+The prior WIKI dossier was also stale relative to comprehensive HR. Mugen's June 13, 2020 promotion-context characterization is now indexed in structured form: Illien `does not leave people behind`, with concrete examples of rerunning dailies, helping houses/builds, explaining mechanics, sparring until people understand, and noticing mood changes.
 
-## MAIN-only reader integration — Ten bargains with posterity
+WIKI treats this as recurring follow-through and an `Explained until understood` episode. The useful reference read is that Illien does not seem satisfied merely because his own instruction/action happened if the other person is still stuck. This complements — rather than copies — MAIN's person-first phrase **stubborn accompaniment**.
 
-Wall now gives Ten a repeated person-level mechanism rather than one isolated `legacy` quote. On August 27, 2020 Ten says `i keep forgetting y'all record these`; thirty-five seconds later he has already reclassified the embarrassment as `at least i'll leave some kind of legacy i guess`. On September 10 the same metaphor returns as `i'm leaving a legacy here too apparently. i only hope my heir lives up to this.`
+Final reader commit: `3e076fdeb93aa45a038d97e39ed73301d315f493`.
 
-MAIN folds the recurrence into Ten's biography. The important character move is the little self-deflating language around the grand metaphor: `at least`, `i guess`, and `apparently` make Ten laugh at himself while granting the screenshot historical importance. He can forget the receipt machinery, get caught by it, and then turn the catching itself into part of the joke.
+Hard fences: Illien = Euros remains locked; Nuien is separate. `does not leave people behind` is peer characterization, not perfection. Promotion-context wording does not authorize exact appointment chronology.
 
-MAIN Ten reader commit `5f5a8c821898d17db6017fd182be4d07f35e214d` is in the ancestry of the verified/deployed Mugen reader commit above. WIKI intentionally does **not** create a `Legacy Incident`; the person-shaped recurrence belongs on MAIN. `legacy` / `heir` remains joke mythology, not a formal role, succession system, literal family relationship, or proof Ten invented Wall posterity language. `here too` remains unresolved.
+## MAIN reconciliation
 
-## Consumed as cumulative deepening, not receipt inflation
+MAIN was already ahead of this integrator on the two reader upgrades. Yumi's public biography change is `74d52fdf46a3a3acf4c9aade8238a8bc8e96ffb9`; Illien's successor commit `c218d6c95ebbb41b03d9ee48f54dd66f7512acc9` contains both changes. Exact MAIN workflow `33596656404` completed successfully against `c218d6c9`, including source canon/architecture verification, Astro build, built-output verification, and Cloudflare production deployment.
 
-**All Characters HR:** Jas/Mugen mock-courtly practical-help texture and ShiyaX material are already present on current public surfaces. No duplicate paragraph.
+Suzimasu's only genuinely new Run-82 comprehensive-HR synthesis — Ricochet associating Mob with sushi in a group food prompt — was also already public on MAIN. It remains one more peer food-memory lane beside `Bbq bb`, brisket, and `SMOKED MEAT ANYKIND GIBBBB`; it is not a favorite-food claim, permanent `Sushi`/`Sushiii` alias, or merge with Ren's scene-local `Sushiii` address. No duplicate reader mutation was made.
 
-**Whiskey / Rooks:** current MAIN already owns the spring-semester `me time` boundary and the `3/8 pages` self-own. Bart/Gilli pet-attention, the 100-server ceiling, bingsu→boba double tap, and other ordinary-life/Petty-Crime seeds remain banked. No discrete WIKI Episode.
+Kaede, HyaLuna, Ritha, Feli, and Nemo/Namo remained bounded negatives / already-mature reads. No filler paragraphs were grown.
 
-**Wall / Vanness:** self-filing the failed orange-drac merges deepens self-prosecution, but there is not enough lived person texture for a thin Cast page.
+## Verification / deployment
 
-**Core / Eos ↔ Marian:** Run 193 already consumed the tenderness/correction/mock-combat family as cumulative deepening. No receipt mitosis.
+WIKI final reader head `3e076fdeb93aa45a038d97e39ed73301d315f493` passed Build workflow `33597429766` and Pages workflow `33597429807`, both with conclusion `success`; Pages deployment completed successfully.
 
-**Daycare / New:** Run 193 already published and verified the MAIN person-first fold; WIKI already owns the structured chronology and does not mirror the prose.
+MAIN's controlling branch ledger advances All Characters HR consumed state through `c2e167d092468ecda8a87026610703de126edb43` only after those WIKI accepted changes passed verification.
 
 ## Held rabbits / hard rails
 
-- Wall q8/q9/q18 source objects and creator/capture attribution remain unresolved. Uninspected media stays provenance-fenced.
-- Rooks' Bart bridge remains probable rather than forced into a pet genealogy.
-- Vanness merge failure does not become a global incompetence trait; Ten's legacy joke does not become a formal role.
-- Daycare endurance-bot identity remains unresolved. Carl-bot / Snowden is only a control-mirror candidate; Saber remains unproven as that endurance target.
-- Hishiro platform credit remains source labeling, not original-artist proof. POSTED BY does not become MADE BY.
+- Reacquire exact Ricochet sushi prompt date/raw ID/reply graph if available; current peer-memory synthesis does not need to be downgraded meanwhile.
+- Yumi April Whiskey exact raw IDs/full parent context remain open; no motive invention.
+- Illien June 13 exact raw IDs and recipient-side testimony remain useful future quarry.
+- Kaede: later adult life, received care, repair, absent-talk, Yelik/Daya reciprocity.
+- HyaLuna: later-life person source, received care, ordinary founder-circle scenes, tastes.
+- Ritha: strategy verbs — changed calls, teaching, adaptation, disagreement, failure/recovery.
+- Feli: why Mugen expected him, Tumbleweed relation, initiated care, adult life, repair.
+- Nemo/Namo: received care, recipient memory of welcome/recruiting, later adulthood, dyads where his own needs matter.
+- Historical/current role arrays are not appointment chronology.
+- Missing raw Discord IDs remain missing, never invented.
+- SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain separate.
 
-Hard identity locks continue unchanged: New/Newmal remains male and part of Mugen's older pre-Raja circle; later recruitment through GenGrey is a later route, not a first-meeting clock. Tofu is current Staff, not VIP. Cookie/Kuki ≠ Rooks/Rookie Cookie. Key ≠ Alkey. Mia = Mimi = Miaka = Opalite Honey = `༯`; Mia ≠ Han/Nai and Mia ≠ Momo. Churro = Suora by direct self-identification. Canonical Ame / Amexistir remains separate from unbridged `ame._.`. NintendoShitcube = Zoshaa. Souta/Sou/颯太 = Ansun under resolved canon while separate stable display-name collisions stay unresolved. Crystalia is a man. Nuien ≠ Illien/Euros.
-
-Run-specific detail: `INTEGRATION_STATE_RUN_194.md`.
+Hard identity locks continue unchanged: New/Newmal remains male and part of Mugen's older pre-Raja circle; later recruitment through GenGrey is a later route, not a first-meeting clock. Tofu is current Staff, not VIP. Cookie/Kuki ≠ Rooks/Rookie Cookie. Key ≠ Alkey. Mia = Mimi = Miaka = Opalite Honey = `༯`; Mia ≠ Han/Nai and Mia ≠ Momo. Churro = Suora. Canonical Ame / Amexistir remains separate from unbridged `ame._.`. NintendoShitcube = Zoshaa. Souta/Sou/颯太 = Ansun while separate stable display-name collisions stay unresolved. Crystalia is a man. Nuien ≠ Illien/Euros.
