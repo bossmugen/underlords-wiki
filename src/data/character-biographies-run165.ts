@@ -1,9 +1,12 @@
 import type { CharacterNarrative } from "./character-biographies-narrative";
 import { tofuNarrativeCharacterBios } from "./character-biographies-tofu";
+import { zhenxiNarrativeCharacterBios } from "./character-biographies-zhenxi";
 
 const tofuBase = tofuNarrativeCharacterBios.tofu;
 
 export const run165NarrativeCharacterBios: Record<string, CharacterNarrative> = {
+  ...zhenxiNarrativeCharacterBios,
+
   beowulf: {
     intro: [
       "Beowulf / Jere is filed as VIP, but the useful character read is not the shelf. His early-room style is swagger with remarkably little need to defend the swagger from reality: he can boast about loot, play team leader, call people `my baby's`, get lost in Discord mechanics, accept somebody else's help, return Gilli's affection, and let Snow order him out of the Lobby before answering with `@Snow come and fight me`.",
