@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-01 20:04 PDT_
+_Last updated: 2026-09-01 20:11 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Older pass detail remains in Git history and run-specific integration-state files. MAIN's controlling branch-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`.
 
@@ -8,9 +8,11 @@ This is the current durable dual-surface reconciliation snapshot. Older pass det
 
 MAIN owns rich person-first biography and `Petty Crimes`; WIKI owns complementary structured Cast, role progression, Relationships, Episodes, Running Gags, Quotes, Locations, and media notes. Do not mirror prose between surfaces. User-confirmed canon, resolved identities, privacy/safety boundaries, explicit contradictions, formal appointment chronology, and attribution fences remain hard; ordinary contextual inference remains publishable under the project standard.
 
-Run 186's mandatory census tracked **49 miner identities = 28 active refs + 21 historical/missing**, with **0 newly discovered**. Exactly one active ref had advanced beyond the prior consumed boundary: `archive-miner/all-characters-hr-20260828` from `0a36b64c…` to `7fd0fecb…`. The delta is a single `checkpoint.md` closure commit. It was reviewed checkpoint-first and intake-only and adds no new person mechanism beyond the already-reviewed Run-79 Tofu package. MAIN's Tofu biography already contains the accidental-manager / scary-shell / self-described squishy contradiction, retail-boundary style, caramel preference, stacked sleep audio, and `2am is me time`; WIKI already carries the complementary structured Staff filing. No reader-facing WIKI Episode, Running Gag, or duplicate dossier paragraph was warranted.
+Run 187's mandatory census tracked **49 miner identities = 28 active refs + 21 historical/missing**, with **0 newly discovered**. Every active remote head exactly matched the controlling ledger's `last_seen_sha`, and every active `last_seen_sha` already matched `last_consumed_sha` except the intentionally recovery-open Wall branch, whose current head is nevertheless fully reviewed and consumed.
 
-Successful no-public-change review therefore advances the All-Characters HR consumed boundary to `7fd0fecb5bebeb1b17777256069815b2fc93d81a`. Wall recovery and both Club-Only recovery priorities remain current. Final queue: **0 pending review, 0 pending publication, 0 backlog, 0 overdue**.
+There was therefore **no unconsumed intake delta** in this run. No checkpoint packet was reread simply to manufacture motion, no raw archive was reopened, and no reader-facing WIKI Episode, Running Gag, relationship paragraph, or Cast growth was warranted. MAIN likewise required no reader change.
+
+Final queue: **0 pending review, 0 pending publication, 0 backlog, 0 overdue**.
 
 Current reviewed boundaries:
 
@@ -22,19 +24,19 @@ Current reviewed boundaries:
 - `archive-miner/club-only-2021-2026-hourly` → `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`
 - `archive-miner-clubonly-2020-hourly` → `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`
 
-## Run 186 — closure packet, not new Tofu lore
+## Run 187 — nothing moved, so nothing got photocopied
 
-The miner's final Run-79 checkpoint is housekeeping: it explicitly says the public-site reconciliation was already complete and that no new public reader mutation was required. The changed handoff path contains no new receipt family, no new relationship mechanism, no role correction, no identity correction, and no new ordinary-life material. Re-reading it as a fresh public event would create exactly the kind of receipt mitosis the person-first standard forbids.
+This was a census-and-state run, not a lore run. The active miner refs were enumerated from GitHub and compared against the persistent consumption ledger. All 28 active heads were already known and consumed.
 
-The material remains owned where it already belongs. MAIN tells the lived Tofu contradiction: competence makes strangers read authority upward, while Tofu herself says the scarier presentation is protective armor over a squishy center; the retail answer shows that boundaries often arrive as controlled friction rather than generic confrontation; `Caramel. Anything caramel`, layered sleep audio, and 2 a.m. office hours keep her from becoming a work-behavior diagram. WIKI keeps Staff status and searchable structure without manufacturing an `Accidental Manager Incident` from the same source family.
+That matters editorially. An unchanged receipt family is not a new Episode just because an hourly job woke up. MAIN does not need another paragraph restating an existing person mechanism, and WIKI does not need another structured object describing the same event with a slightly different haircut.
 
-The other Run-79 tranche people — Rooks, Aeshleen, Eos, HamitteY, Nuien, Akuma/Matsu, and Crystalia — remain bounded negatives with named gaps rather than excuses for thin profiles. Crystalia remains a man. Nuien remains distinct from Illien/Euros, and publication-sensitive Nuien material stays behind the public boundary.
+Wall recovery remains open only because the miner may continue moving later; its current head is already reviewed. Both Club-Only recovery priorities are current.
 
 ## Surface split
 
-- **MAIN reader changes this run:** none. Current Tofu prose was already ahead of the miner checkpoint.
-- **WIKI reader changes this run:** none. No Episode/Running Gag/duplicate Cast prose created from a checkpoint-only closure.
-- **State changes:** MAIN branch-consumption ledger advanced All-Characters HR to `7fd0fecb…`; this WIKI state mirrors that reconciliation.
+- **MAIN reader changes this run:** none.
+- **WIKI reader changes this run:** none.
+- **State changes:** MAIN census ledger refreshed to Run 187; this WIKI state mirrors the no-change reconciliation boundary.
 
 ## Hard rails carried forward
 
@@ -63,4 +65,4 @@ The other Run-79 tranche people — Rooks, Aeshleen, Eos, HamitteY, Nuien, Akuma
 
 ## Verification state
 
-Run 186 is state-only on both public surfaces. MAIN exact-head verification/deployment and WIKI exact Build + Pages verification must complete successfully on the final state commits before this run is considered closed.
+Run 187 is state-only on both public surfaces. MAIN exact-head verification/deployment and WIKI exact Build + Pages verification must complete successfully on the final state commits before this run is considered closed.
