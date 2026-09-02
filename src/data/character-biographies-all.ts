@@ -87,6 +87,7 @@ import * as run139Module from "./character-biographies-run139";
 import * as run143Module from "./character-biographies-run143";
 import * as run145Module from "./character-biographies-run145";
 import * as run165Module from "./character-biographies-run165";
+import * as run253SuzimasuModule from "./character-biographies-suzimasu-run253";
 
 // Existing deep archive-backed bios remain valuable. If a finished long-form narrative
 // has not been written yet, turn the best current deep bio into narrative form rather
@@ -269,6 +270,7 @@ for (const module of finishedNarrativeModules) mergeNarrativeModule(allNarrative
 mergeNarrativeModule(allNarrativeCharacterBios, ameModule);
 mergeNarrativeModule(allNarrativeCharacterBios, run111Module);
 mergeNarrativeModule(allNarrativeCharacterBios, run165Module);
+mergeNarrativeModule(allNarrativeCharacterBios, run253SuzimasuModule);
 delete allNarrativeCharacterBios.amexistir;
 
 // Universal rule: every public character route resolves to a biography-shaped story.
