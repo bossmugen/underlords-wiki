@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-01 22:31 PDT_
+_Last updated: 2026-09-01 22:47 PDT_
 
 This is the rolling dual-surface reconciliation snapshot. Older detail remains in Git history and run-specific `INTEGRATION_STATE_RUN_*.md` records. MAIN's controlling branch-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`.
 
@@ -10,69 +10,53 @@ MAIN owns rich person-first biographies, lived chronology, relationship texture,
 
 User-confirmed canon, resolved identities, privacy/safety boundaries, explicit contradictions, attribution fences, and formal appointment chronology remain hard. Ordinary contextual inference remains publishable under the project standard. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain separate. Earliest surviving material is not automatically origin.
 
-## Run 193 reviewed work
+## Run 194 reviewed work
 
-Mandatory census tracked **49 miner identities = 28 active refs + 21 historical/missing**, **0 newly discovered**.
+Mandatory census tracked **49 miner identities = 28 active refs + 21 historical/missing**, **0 newly discovered**. Closing queue is **0 pending review, 0 pending publication, 0 backlog, 0 overdue**. Wall remains `recovery_in_progress` only because that quarry may advance again; its current head is consumed. Both Club-Only recovery priorities remain current.
 
-Run 193 reviewed checkpoint-first/intake-only:
+Run 194 reviewed/reconciled checkpoint-first and intake-only:
 
-- Core Rooms `fc55d576f2504e6721529fc02ded736bc28f409e` → `740b1c95a78ce575ab98f2e2546463b26cdb57d3`
-- Daycare `79956bd0903f69ea2b0a938014f50e57a65e81e2` → `59ed28bf07261a12e5d0d7d44a15adf07f8974a5`
+- All Characters HR `b040910eb6072db95c92d19e87ceea18df032a4a` → `4afa6e475cf9325181f9e5742ef4148594fc5aa4`
+- Mugen person-first `4d1c13efbcb46a1897052aa9fb081575a21fa413` → `b4aca034bcd368c91c294e50060659e902b663aa`
+- Whiskey `5ac3acca43dbf098304f997c01d2ea3c63949f22` → `2f55a9abb60fb04d4cd1464ce039190e704f9bd4`
+- Wall recovery `d13148d2735fb7e82b89d01f41c2d5ff5134e74a` → `ec07d0618f198d11995ab612b4a016af2171af0c`
 
-### Hishiro — WIKI reader change
+Run 193 had already reviewed/verified Core Rooms through `740b1c95a78ce575ab98f2e2546463b26cdb57d3` and Daycare through `59ed28bf07261a12e5d0d7d44a15adf07f8974a5`; Run 194 advances MAIN's controlling ledger to those durable reviewed boundaries without rereading or republishing them.
 
-Core Rooms supplies a repeated source-conscious practice. Hishiro asks `who made this, this is so pretty`, asks where the image came from, learns the room's Pinterest sourcing habit, then later adds `credits to pinterest for the pic` and `credits to pixiv for the pic` to her own Mafia posts.
+## MAIN-only reader integration — Mugen ↔ Snow
 
-WIKI folds this into `src/data/character-biographies-hishiro-core.ts` as lived creative/source practice, not a formal role. The useful behavior is simple: ask origin, learn what is known, visibly carry source information forward.
+The new Mugen packet gives a clean relationship contradiction rather than a discrete Wiki Incident. Early permission trouble shows Mugen routing the system problem to Snow; Snow answers `I gotcha boss` and fixes it. On September 22, 2020 Snow then uses Saber to create a repeating Saturday event titled `Spank Mugs Booty`; inherited bot/control state still carries the title in February 2023.
 
-Pinterest/Pixiv remain platform/source labels, not original-artist proof. POSTED BY Hishiro does not become MADE BY Hishiro.
+MAIN folds this into Mugen's existing authority/status-flexibility section. The useful read is not the event title by itself: Mugs can rely on Snow's technical competence without turning the relationship ceremonial, and Snow can use the same system to make the Boss the joke. Technical reliance did not require reverence.
 
-Reader-bearing commit: `9bdbb67063fc57b99929c8a5097d7a8094950e35`.
+MAIN reader commit: `b9c752ba8eada9c4e0899910f4908151cdc8a178`. Exact workflow `33595656138` succeeded through source canon/architecture verification, Astro build, built-output verification, and exact Cloudflare production deployment.
 
-Exact verification:
-- Build Underlords Wiki `33594662763` — success.
-- Pages `33594662771` — success / deployed.
+WIKI intentionally adds **no standalone Episode**. Existing Mugen structured material already owns the searchable control-not-oracle/status-flexibility theme. A `Spank Mugs Booty Incident` would turn relationship texture back into receipt furniture.
 
-### New — MAIN reader change, intentionally not mirrored
-
-Daycare's support material sharpens New / Newmal / `_newplayer` into a low-defensive Wall participant: he needles Ansun then cleanly concedes the counterpoint; files `Cele on rum` then later asks Cele `who mochi` and accepts the identity translation without bluffing; and when Xuseio says `You've been volunteered as a tribute`, New returns with `I've been summoned to be used as tribute`.
-
-MAIN folds those scenes into one person read: New can poke, concede, ask, learn, prosecute, and become the exhibit without treating every role reversal as a dignity emergency. MAIN reader commit `0d780c026ec4ad096c89506f45cb8e1f20f34c42`; exact `UL Hourly Build + Deploy` workflow `33594609293` succeeded through production deployment.
-
-WIKI already owned the older-network chronology, alias-translation, Wall-premise, and willing-tribute evidence family in structured form, so Run 193 intentionally did not duplicate MAIN's richer synthesis here.
+Hard fences: event-title joke language is not literal physical/sexual conduct, romance, punishment, assault, harassment, or Mugen consent/approval. Repeating configuration plus later control-state presence does not prove uninterrupted weekly execution. This event is not identified as the later Daycare endurance target. Snow remains explicitly not formal second-in-command.
 
 ## Consumed as cumulative deepening, not receipt inflation
 
-**Eos ↔ Marian Kage / Panda:** Core adds `i protect your heart`, keep-me-in-check language, calming/soothing presence, teaching bundled with slap jokes, and Marian's `arguing is our love language`. This minimum-closes the cumulative tenderness/correction/mock-combat relationship read but does not justify another reader paragraph because current public material already richly owns the contradiction. Joke husband/divorce/remarry language remains nonliteral; no literal marriage/romance/sex inference.
+**All Characters HR:** Jas/Mugen mock-courtly practical-help texture and ShiyaX material are already present on current public surfaces. No duplicate paragraph.
 
-**Mirage:** developing learning-style profile. She declines a simple `smart` label and talks about admitting mistakes, learning from failure, and deliberate study. Coffee reportedly making her sleepier is Petty-Crime-grade only; no medical claim. Hold for lived correction/teaching behavior.
+**Whiskey / Rooks:** current MAIN already owns the spring-semester `me time` boundary and the `3/8 pages` self-own. Bart/Gilli pet-attention, the 100-server ceiling, bingsu→boba double tap, and other ordinary-life/Petty-Crime seeds remain banked. No discrete WIKI Episode.
 
-**momojipeachi:** Voice Challenge MP4 is confirmed POSTED BY and maker/curator orientation is stronger. The file remains media-uninspected; performer/editor/recorder/MADE BY/CAPTURED BY/FEATURING stay unresolved.
+**Wall / Vanness:** self-filing the failed orange-drac merges deepens self-prosecution, but there is not enough lived person texture for a thin Cast page.
 
-**Dainyamite / Cit:** ordinary-life and nickname/Petty-Crime seeds only. No thin-profile inflation. No discrete WIKI Episode was promoted from the Core package.
+**Wall / Ten! (`dripsy_gk`):** accidental-exposure/legacy language is a good profile seed, still too thin for public architecture.
 
-## Successor queue
+**Core / Eos ↔ Marian:** Run 193 already consumed the tenderness/correction/mock-combat family as cumulative deepening. No receipt mitosis.
 
-A newer Run 194 census landed while Run 193 was closing and now owns the shared MAIN cursor. It currently records **5 finite pending branches plus an advanced Wall recovery** because it has not yet consumed Run 193's reviewed Core/Daycare boundaries.
-
-Run 193's durable handoff says Core is reviewed through `740b1c95…` and Daycare through `59ed28bf…`; the successor should advance those without rereading them. The genuinely fresh post-review tails are:
-
-- All Characters HR: consumed `b040910e…` → seen `4afa6e47…`
-- Mugen person-first: consumed `4d1c13ef…` → seen `b4aca034…`
-- Whiskey: consumed `5ac3acca…` → seen `2f55a9ab…`
-- Wall recovery: consumed `d13148d2…` → seen `ec07d061…`
-
-Current successor census reports **0 pending publication, 0 backlog, 0 overdue**. Both Club-Only recovery priorities remain current.
+**Daycare / New:** Run 193 already published and verified the MAIN person-first fold; WIKI already owns the structured chronology and does not mirror the prose.
 
 ## Held rabbits / hard rails
 
-- Hishiro source/documentation behavior outside Mafia rooms remains useful; platform credit is not original-artist attribution.
-- Eos care/loyalty outside Marian is the next useful relationship test; stop mining more bicker/care synonyms as novelty.
-- momojipeachi Voice Challenge media needs inspection/provenance before maker/performer attribution.
-- Mirage needs a lived correction/teaching scene before self-description becomes a broader behavioral claim.
-- New's `Cele on rum` screenshot remains visually uninspected; New is POSTED BY only. Pooled Deleted User remains pooled. Historical Staff snapshots do not establish appointment chronology.
-- Daycare endurance-bot identity remains unresolved. Carl-bot / Snowden is only a control-mirror candidate; Saber remains unproven.
+- Wall q8/q9/q18 source objects and creator/capture attribution remain unresolved. Uninspected media stays provenance-fenced.
+- Rooks' Bart bridge remains probable rather than forced into a pet genealogy.
+- Vanness merge failure does not become a global incompetence trait; Ten's legacy joke does not become a formal role.
+- Daycare endurance-bot identity remains unresolved. Carl-bot / Snowden is only a control-mirror candidate; Saber remains unproven as that endurance target.
+- Hishiro platform credit remains source labeling, not original-artist proof. POSTED BY does not become MADE BY.
 
-Hard identity locks continue unchanged: New/Newmal remains male and part of Mugen's older pre-Raja circle; later recruitment through GenGrey is a later route, not a first-meeting clock. Tofu is current Staff, not VIP. Cookie/Kuki ≠ Rooks/Rookie Cookie. Key ≠ Alkey. Mia = Mimi = Miaka = Opalite Honey = `༯`; Mia ≠ Han/Nai and Mia ≠ Momo. Churro = Suora by direct self-identification. Canonical Ame / Amexistir remains separate from unbridged `ame._.`. NintendoShitcube = Zoshaa. Souta/Sou/颯太 = Ansun under resolved canon while separate display-name collisions stay unresolved. Crystalia is a man. Nuien ≠ Illien/Euros.
+Hard identity locks continue unchanged: New/Newmal remains male and part of Mugen's older pre-Raja circle; later recruitment through GenGrey is a later route, not a first-meeting clock. Tofu is current Staff, not VIP. Cookie/Kuki ≠ Rooks/Rookie Cookie. Key ≠ Alkey. Mia = Mimi = Miaka = Opalite Honey = `༯`; Mia ≠ Han/Nai and Mia ≠ Momo. Churro = Suora by direct self-identification. Canonical Ame / Amexistir remains separate from unbridged `ame._.`. NintendoShitcube = Zoshaa. Souta/Sou/颯太 = Ansun under resolved canon while separate stable display-name collisions stay unresolved. Crystalia is a man. Nuien ≠ Illien/Euros.
 
-Run-specific detail: `INTEGRATION_STATE_RUN_193.md`.
+Run-specific detail: `INTEGRATION_STATE_RUN_194.md`.
