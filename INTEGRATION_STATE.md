@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-01 17:50 PDT_
+_Last updated: 2026-09-01 17:56 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Older pass detail remains in Git history. MAIN's controlling branch-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`.
 
@@ -9,6 +9,10 @@ This is the current durable dual-surface reconciliation snapshot. Older pass det
 MAIN owns rich person-first biography and `Petty Crimes`; WIKI owns complementary structured Cast, role progression, Relationships, Episodes, Running Gags, Quotes, Locations, and media notes. Do not mirror prose between surfaces. User-confirmed canon, resolved identities, privacy/safety boundaries, explicit contradictions, formal appointment chronology, and attribution fences remain hard; ordinary contextual inference remains publishable under the project standard.
 
 The controlling MAIN close tracks **49 miner identities = 28 active refs + 21 historical/missing**, with **0 newly discovered**, **0 finite pending review**, **0 pending publication**, **0 backlog**, and **0 overdue**. Wall remains the one `recovery_in_progress` quarry only because it can advance again later; its present tail is consumed. Both Club-Only recovery priorities remain current.
+
+### Run 179 census-only close
+
+The mandatory full branch census found every one of the 28 active miner refs exactly at the `last_consumed_sha` already recorded by MAIN. No branch had a legitimate unconsumed intake suffix, so there was no checkpoint-first deep review to perform and no anti-starvation rotation waiting. No reader-facing MAIN or WIKI copy changed, no duplicate family changed meaning, no conflict/rabbit advanced, and no consumed SHA moved. MAIN persisted the census at `7b643d142eb06d58bb8863b8e701ae5dc7f21e4b`; WIKI records the same zero-queue boundary here without manufacturing a reference object from nothing.
 
 Current reviewed boundaries from this reconciliation:
 
@@ -64,9 +68,9 @@ The opening All Characters HR refresh (Woosung bot-machine genre switching, Wooh
 
 ## MAIN consumption close / concurrency
 
-The controlling MAIN state was advanced only after accepted reader material existed on current `master` and exact current-head verification was green. Final controlling state close is `8e5f65b5e568e16cb36749020663f33143e0f99f`.
+The controlling MAIN state was advanced only after accepted reader material existed on current `master` and exact current-head verification was green. Final controlling state close for the reader-bearing Run 178 reconciliation is `8e5f65b5e568e16cb36749020663f33143e0f99f`; Run 179 then refreshed the census-only ledger at `7b643d142eb06d58bb8863b8e701ae5dc7f21e4b` without moving any consumed boundary.
 
-Current verified MAIN reader head for this reconciliation is `941510384cb5a7c130fec61e59e5956425960cce`; exact workflow `33576555918` completed successfully through source canon/architecture verification, Astro build, built-output verification, and Cloudflare production deployment. The controlling state commit may trigger its own descendant workflow; a concurrency-cancelled older state-only deploy is not evidence that reader material disappeared when a newer exact child is green.
+Current verified MAIN reader head for the preceding reconciliation is `941510384cb5a7c130fec61e59e5956425960cce`; exact workflow `33576555918` completed successfully through source canon/architecture verification, Astro build, built-output verification, and Cloudflare production deployment. The state-only Run 179 commit must pass its own exact-current-head workflow independently; a state-only deployment does not create new reader lore.
 
 ## Carry-forward hard rails
 
@@ -76,4 +80,4 @@ Miihi is distinct from Korea/Milk. Ricochet / `dragonrichard` is distinct from R
 
 ## Verification / deployment
 
-Reader-facing changes from this reconciliation are MAIN-owned: Ricochet, Miihi, plus the current MAIN's already-integrated Ryo, Dean, and Bishop person-first upgrades. WIKI has **0 reader-facing changes** in this reconciliation; this `INTEGRATION_STATE.md` update is the WIKI-side durable synchronization and must pass WIKI's normal Build and Pages workflows independently.
+Run 179 has **0 reader-facing changes on either surface**. MAIN's `INTEGRATOR_BRANCH_STATE.json` and this WIKI state file are the only intended mutations; each repository still must pass its own normal exact-head verification/build/deployment flow before the run is considered closed.
