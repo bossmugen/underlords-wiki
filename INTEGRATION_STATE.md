@@ -1,22 +1,22 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-02 09:49 PDT_
+_Last updated: 2026-09-02 09:53 PDT_
 
 This is the rolling dual-surface reconciliation snapshot. MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`; older detail remains in Git history and run-specific records.
 
 ## Current reviewed boundary
 
-Run 231 census: **49 tracked miner identities = 28 active refs + 21 historical/missing**, no newly discovered branches, no backlog, and no overdue branches.
+Run 232 census: **49 tracked miner identities = 28 active refs + 21 historical/missing**, no newly discovered branches, no backlog, and no overdue branches.
 
 Current relevant boundaries:
 - Wall recovery: `95afee7d36d9686e94bf13abbaaa739e6b1acde5` — fully reviewed at this head; status remains `recovery_in_progress` because the quarry may advance later.
 - Core Rooms: `023cd5a0c922df466a08fc19620ccd770c4340a0` — consumed.
 - Whiskey: `f378372a95837f0120520d1511a415bc0f3dd4d3` — consumed.
-- Mugen person-first: seen `5620cbd8b2830255b842de25576f4b183c103fd6`, consumed only through `f2436b11a31102466941b4bcaf72f89039ae0eee`, status `pending_publication`.
+- Mugen person-first: `5620cbd8b2830255b842de25576f4b183c103fd6` — consumed after verified MAIN publication.
 - Club-Only 2020: `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff` — current.
 - Club-Only 2021–2026: `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa` — current.
 
-Queue after review: **0 pending review, 1 pending publication, 0 backlog, 0 overdue**.
+Queue after close: **0 pending review, 0 pending publication, 0 backlog, 0 overdue**.
 
 ## Run 231 — Ghostt has more going on than leaving Raja
 
@@ -42,13 +42,17 @@ Two attempts to publish a MAIN Rotini file were rejected by source canon/archite
 
 Core's Tofu↔Cookie affectionate mock-aggression package and Tofu's fan + beach-noises + PPOMO relaxation stack are already public; no duplicate dossier paragraph was added. Miihi remains a thin low-volume Wall evidence participant. Xephy, clown and 暁cit。 remain developing or Petty seeds.
 
-## Mugen — reviewed, accepted, pending surgical publication
+## Run 232 — Mugen's rule can apply to Mugen too
 
-The new Mugen handoff contributes a real counterexample to her existing authority/disclosure ethic. In a Wall bit Mugen starts asking/pressing Nobu for a picture; Ren says `he already said no, boss`; WOO reinforces `he said no thanks`, and the mature source says the bit stops.
+The one remaining accepted finding from Run 231 has now reached its correct owner on MAIN. In the November 2020 Wall bit, Mugen is asking/pressing Nobu for a picture when Ren cuts in with `he already said no, boss`; WOO reinforces `he said no thanks`, and the controlled handoff says the bit stops.
 
-The useful contradiction is that Mugen's stated anti-coercion principle can be genuine without making her magically infallible in every live joke. Ren keeps `boss` attached to the correction: the role remains visible while another person's prior no remains the substantive limit.
+MAIN folds this into the existing authority/disclosure section rather than pretending it is a separate incident genre. The contradiction is the useful part: Mugen can genuinely articulate an anti-coercion principle and still need the room to put that principle back in front of her in a live joke. Ren's wording keeps `boss` attached to the correction. The title survives; Nobu's earlier no remains the limit.
 
-The source does not establish whether Mugen had personally registered Nobu's original refusal before pressing. This must not become `Mugen knowingly ignored consent`, harassment, a sexual/body-image reading, formal Ren oversight, or proof of an apology. It belongs surgically beside MAIN's existing authority/boundary prose rather than as a standalone WIKI Episode. Because that safe reader surgery has not yet been committed and verified, the Mugen consumed cursor intentionally does not advance.
+The source still does not establish whether Mugen personally saw or registered Nobu's first refusal before she began asking. The public bio therefore does not turn this into knowingly ignoring consent, harassment, malicious intent, a sexual/body-image reading, or a formal Ren oversight office.
+
+MAIN reader commit: `c31013e3fd3eead752144ff4f52b05f962c65063` (`people: let Mugen need the boundary reminder too`). Exact workflow `33657479464` succeeded through source canon/architecture verification, Astro build, built-output verification, and Cloudflare production deployment.
+
+WIKI intentionally receives **no reader-facing duplicate** for this closure. Run 231 already determined that this evidence family belongs inside Mugen's person-first MAIN authority/boundary narrative, not as a standalone WIKI Episode or a fake formal `Ren ethics officer` role. WIKI's job this run is to keep the structured reconciliation boundary current, not photocopy MAIN prose.
 
 ## Publication / verification
 
@@ -56,10 +60,12 @@ MAIN reader-facing Ghostt change: `src/content/people/ghostt.md` at `ba65d18ee96
 
 WIKI reader-facing Ghostt change: `src/data/character-biographies-ghostt.ts` at `496c2770cda60afb4e7c5b8b33f304983730872b`. Build `33656556207` and Pages `33656556094` both succeeded, including deployment.
 
-MAIN's controlling ledger advanced Wall, Core and Whiskey only after review / verified publication where applicable. Mugen remains pending publication.
+MAIN reader-facing Mugen closure: `src/content/people/mugen.md` at `c31013e3fd3eead752144ff4f52b05f962c65063`. Exact workflow `33657479464` succeeded through source canon/architecture verification, Astro build, built-output verification, and exact Cloudflare production deployment.
 
-Run-specific detail: `INTEGRATION_STATE_RUN_231.md`. Prior detail remains in `INTEGRATION_STATE_RUN_230.md` and MAIN's run-specific integration records.
+MAIN's controlling ledger now consumes Wall, Core, Whiskey, and Mugen through their current reviewed heads. There is no pending finite publication from this evidence family.
+
+Prior full review detail: `INTEGRATION_STATE_RUN_231.md`. Run 232's publication closure is recorded here and in MAIN's controlling branch ledger / Git history.
 
 ## Hard rails held
 
-User-confirmed canon wins. Similar names do not merge people. Current/export-time role arrays are not appointment chronology. Rotini's pasta-duty scene remains hypothetical. Ghostt's work references do not identify an occupation. Anthos heart reciprocity is affection, not romance/family/rank. Game-romance chatter authored by Woohyuk is not Ghostt sexuality evidence. Uninspected screenshots stay visually sealed. SAID BY / POSTED BY / VIA/SUPPLIED BY / MADE BY / CAPTURED BY / FEATURING remain distinct. Mugen's Nobu scene preserves the unresolved question of whether she had registered the original refusal before Ren's correction. Earliest surviving remains only earliest surviving unless stronger origin evidence earns more.
+User-confirmed canon wins. Similar names do not merge people. Current/export-time role arrays are not appointment chronology. Rotini's pasta-duty scene remains hypothetical. Ghostt's work references do not identify an occupation. Anthos heart reciprocity is affection, not romance/family/rank. Game-romance chatter authored by Woohyuk is not Ghostt sexuality evidence. Uninspected screenshots stay visually sealed. SAID BY / POSTED BY / VIA/SUPPLIED BY / MADE BY / CAPTURED BY / FEATURING remain distinct. Mugen's Nobu scene preserves the unresolved question of whether she had registered the original refusal before Ren's correction. Ren's correction is not a formal role, rank inversion, or universal veto. Earliest surviving remains only earliest surviving unless stronger origin evidence earns more.
