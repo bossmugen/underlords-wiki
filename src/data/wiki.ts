@@ -69,7 +69,7 @@ export const characters: Character[] = [
   { id:"candy", name:"Candy", aliases:["~Candy~","— Luna"], billing:"recurring", role:"Platelet", era:"2021–", logline:"Later Luna/Candy. Explicitly not HyaLuna." },
   { id:"woohyuk", name:"Woohyuk", billing:"recurring", role:"VIP", era:"2020–", logline:"Visitor/family-adjacent recurring cast member with a long trail through memes, family-map material, and the wider social house." },
   { id:"booba", name:"Booba", aliases:["MsThiccy","boobaboo"], billing:"recurring", role:"UL member", era:"2022–", logline:"Checks into the Lobby as MsThiccy / Underlords, then shows up on the Wall a month later with another exhibit and seven Fat_Wheeze reactions. The image itself stays undescribed until somebody actually inspects it." },
-  { id:"zyrcant", name:"Zyrcant", billing:"guest", role:"VIP · former Amaurot deputy", era:"2020–", logline:"Amaurot connection, VIP, and recurring extended-family guest. Akariel remains a separate unresolved identity in the current archive work and is not treated as an alias here." },
+  { id:"zyrcant", name:"Zyrcant", aliases:["Akariel","Akariel™","akariel_star"], billing:"guest", role:"VIP · former Amaurot deputy", era:"2020–", logline:"Former Amaurot deputy, UL VIP, and recurring extended-family guest; Akariel / Akariel™ / `akariel_star` are the same person, not a separate cast file." },
   { id:"rich", name:"Rich", aliases:["DragonRich"], billing:"guest", role:"VIP · Amaurot leader", era:"2020–", logline:"External-club leader and long-running guest presence; the old Fight Club VC eventually becomes his couch, then a late-era domestic room." }
 ];
 
