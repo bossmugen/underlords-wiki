@@ -1,0 +1,36 @@
+---
+import WikiLayout from "../layouts/WikiLayout.astro";
+import { GLOSSARY, TYPO_POLICY } from "../data/site";
+---
+<WikiLayout title="Speak Engliah | Underlords Glossary" description="Underlords names, roles, room language, recurring terms, and the fast-typing typo rule.">
+  <section class="hero">
+    <div>
+      <div class="kicker">THE HOUSE DICTIONARY</div>
+      <h1>SPEAK<br/>ENGLIAH</h1>
+      <p class="tagline">The typo stayed because it looks like what it is: one finger landed beside the intended key, everybody understood, and the conversation was already three subjects away before correction could become anybody's problem.</p>
+      <div class="hero-actions"><a class="ul-button secondary" href="/snoop">SNOOP A TERM</a></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head"><h2>Fast fingers. Shared comprehension.</h2><p>UL members are not bad spellers. They type quickly enough for letters, words, punctuation, and whole clauses to collide in transit—and the room reads through it without stopping.</p></div>
+    <div class="typo-policy">
+      <article><small class="module-label">LOOKS RIGHT</small><h3>Velocity damage</h3><ul>{TYPO_POLICY.allowed.map((item) => <li>{item}</li>)}</ul></article>
+      <article><small class="module-label">NO MA'AM</small><h3>Fake stupidity</h3><ul>{TYPO_POLICY.avoid.map((item) => <li>{item}</li>)}</ul></article>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head"><h2>What everybody apparently already knows.</h2><p>Original UL words, room names, roles, and recurring nouns get explained without replacing them with museum labels.</p></div>
+    <div class="glossary-grid">
+      {GLOSSARY.map((entry) => (
+        <article class="glossary-card" id={entry.term.toLowerCase().replaceAll(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")}>
+          <small>HOUSE LANGUAGE</small>
+          <h2>{entry.term}</h2>
+          <p>{entry.definition}</p>
+          {entry.links.length ? <div class="glossary-links">{entry.links.map((link) => <a href={link.href}>{link.label} →</a>)}</div> : null}
+        </article>
+      ))}
+    </div>
+  </section>
+</WikiLayout>

@@ -1,18 +1,48 @@
 ---
 import WikiLayout from "../layouts/WikiLayout.astro";
 ---
-<WikiLayout title="Archive | Underlords Wiki" description="Behind-the-scenes source and provenance layer for the Underlords Wiki.">
-  <section class="hero"><div><div class="kicker">BEHIND THE SCENES</div><h1>Archive</h1><p class="tagline">This is where the production notes live: receipts, transcript sources, provenance, uncertainty, identity joins, and the things the main wiki pages should not have to explain mid-scene.</p></div></section>
+<WikiLayout title="The Basement | Underlords Archive" description="The source, provenance, correction, clearance, and archive-boundary layer beneath the Underlords public site.">
+  <section class="hero">
+    <div>
+      <div class="kicker">YOU WERE NOT EXPECTED TO COME DOWN HERE</div>
+      <h1>THE<br/>BASEMENT</h1>
+      <p class="tagline">Receipts, transcript sources, media provenance, identity joins, uncertainty, archive gaps, corrections, and the machinery the biographies should not have to explain in the middle of a human story.</p>
+      <div class="hero-actions"><a class="ul-button secondary" href="/we-fucked-up">WE FUCKED UP</a></div>
+    </div>
+  </section>
+
   <section class="section detail-layout">
     <article class="detail-main">
-      <h2>Research source</h2><p>The existing <code>bossmugen/underlords</code> repository remains the research vault and canonical source layer. This wiki is a separate presentation project built from that evidence, not a fork of the old site's page architecture.</p>
-      <h2 style="margin-top:4rem">Evidence rules</h2>
+      <div class="bio-label">WHERE THE SHIT CAME FROM</div>
+      <h2>The research vault</h2>
+      <p>The private <code>bossmugen/underlords</code> repository remains the research vault and canonical source layer. This public site is the presentation house built from that material, not a replacement for the archive or a reason to drag source-method housekeeping into every biography.</p>
+
+      <div class="bio-label" style="margin-top:4rem">HOW WE KNOW</div>
+      <h2>Three kinds of certainty</h2>
       <div class="index-list">
-        <div class="index-card"><small>ARCHIVE-CONFIRMED</small><h3>Receipts exist</h3><p>Transcript, media, stable ID, or other primary archive evidence supports the claim.</p></div>
-        <div class="index-card"><small>MUGS-CONFIRMED</small><h3>Owner correction</h3><p>Direct project-owner canon outranks prior assistant synthesis.</p></div>
-        <div class="index-card"><small>INFERRED</small><h3>Interpretation</h3><p>Useful synthesis, clearly separated from a literal source claim.</p></div>
+        <div class="index-card"><small>ARCHIVE-CONFIRMED</small><h3>Receipts exist</h3><p>A transcript, media object, stable ID, or other primary archive source supports the claim.</p></div>
+        <div class="index-card"><small>MUGS-CONFIRMED</small><h3>Owner correction</h3><p>Direct project-owner canon outranks a prior synthesis, identity guess, or assistant hallucination in a blazer.</p></div>
+        <div class="index-card"><small>INFERRED</small><h3>Interpretation</h3><p>A useful contextual read that stays distinguishable from a literal source claim.</p></div>
       </div>
+
+      <div class="bio-label" style="margin-top:4rem">WHAT SURVIVED</div>
+      <h2>Silence is not an exit interview.</h2>
+      <p>A missing message history does not prove somebody left. An export ending does not prove a room died. A person disappearing from one channel is not automatically a social departure. Public prose uses first spotted, last surviving appearance, and the archive goes quiet when that is all the record can honestly say.</p>
+
+      <div class="bio-label" style="margin-top:4rem">CLEARANCE</div>
+      <h2>Upstairs is not the whole basement.</h2>
+      <p>Public storytelling, member-only material, source-level archive custody, and sealed content are separate layers. A public biography may carry the human meaning of a restricted-room scene without exposing the private attachment or the entire source exchange.</p>
     </article>
-    <aside class="infobox"><div class="infobox-title">Credit grammar</div><dl><div class="row"><dt>SAID BY</dt><dd>who said the words</dd></div><div class="row"><dt>POSTED BY</dt><dd>who uploaded / posted the object</dd></div><div class="row"><dt>MADE BY</dt><dd>creator credit</dd></div><div class="row"><dt>CAPTURED BY</dt><dd>who took the screenshot/photo</dd></div><div class="row"><dt>FEATURING</dt><dd>who appears in it</dd></div></dl></aside>
+
+    <aside class="infobox">
+      <div class="infobox-title">Credit grammar</div>
+      <dl>
+        <div class="row"><dt>SAID BY</dt><dd>who said the words</dd></div>
+        <div class="row"><dt>POSTED BY</dt><dd>who uploaded / posted the object</dd></div>
+        <div class="row"><dt>MADE BY</dt><dd>creator credit</dd></div>
+        <div class="row"><dt>CAPTURED BY</dt><dd>who took the screenshot / photo</dd></div>
+        <div class="row"><dt>FEATURING</dt><dd>who appears in it</dd></div>
+      </dl>
+    </aside>
   </section>
 </WikiLayout>

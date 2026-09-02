@@ -1,10 +1,51 @@
 ---
 import WikiLayout from "../layouts/WikiLayout.astro";
+const wallDoors = [
+  { label: "MUGSHOTS", title: "The clowns in frame", text: "Portraits, group shots, game avatars, outfit eras, and images that belong to a person before they belong to a file type.", href: "/snoop?type=STRIPPERS" },
+  { label: "PROPAGANDA", title: "Posters and official-ish graphics", text: "Event art, announcements, banners, banana posters, and things designed with far more care than the underlying decision deserved.", href: "/episodes/doodles-part-2" },
+  { label: "FINE ART", title: "Made by the house", text: "Drawings, profile pictures, films, edits, and visual work credited to the person who made it—not automatically the person who posted it.", href: "/snoop?q=art" },
+  { label: "CRIME SCENES", title: "Screenshots with a body count", text: "Receipts, context disputes, counterevidence, self-prosecution, and the images that turned one dumb line into a permanent exhibit.", href: "/locations#the-wall" },
+  { label: "ANCIENT RELICS", title: "The Dragon Raja years", text: "Old game screenshots and iconography that became reunion archaeology when people pulled them back out in 2026.", href: "/episodes/family-reunion" },
+  { label: "MOVING VIOLATIONS", title: "Video, GIFs, and voice-era residue", text: "Media that moved, spoke, streamed, or survived as the typed aftermath of people sitting together in voice rooms.", href: "/snoop?q=voice" },
+];
 ---
-<WikiLayout title="Relics | Underlords Wiki" description="Surviving Underlords posters, screenshots, art, films, banners, and visual artifacts.">
-  <section class="hero"><div><div class="kicker">RELICS · ARTIFACTS · SURVIVING OBJECTS</div><h1>Relics</h1><p class="tagline">The neon icon. Tumbleweed. Mafia portraits. Banners. Screenshots from crimes nobody expected to become history. If the object survived and carries a story, it belongs in the reliquary.</p></div></section>
+<WikiLayout title="Wall of Shame/Fame | Underlords" description="Underlords screenshots, art, posters, films, banners, game images, and visual memory.">
+  <section class="hero">
+    <div>
+      <div class="kicker">VISUAL MEMORY WITH NO QUALITY CONTROL</div>
+      <h1>WALL OF<br/>SHAME/FAME</h1>
+      <p class="tagline">Screenshots, art, posters, old game images, cursed edits, and preserved messages. The object is never just decoration: who posted it, who made it, who captured it, who appears in it, and why anybody kept it are separate questions.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head"><h2>Fresh off the Wall.</h2><p>The visual archive is organized by what the object did in UL's memory, not only by file extension.</p></div>
+    <div class="crime-grid">
+      {wallDoors.map((door) => (
+        <a class="crime-card" href={door.href}>
+          <small>{door.label}</small>
+          <h2>{door.title}</h2>
+          <p>{door.text}</p>
+        </a>
+      ))}
+    </div>
+  </section>
+
   <section class="section detail-layout">
-    <article class="detail-main"><h2>The objects that survived.</h2><p>Some images became recognizable objects in UL's own history: posters people remember, screenshots that became callbacks, art that represented the server, and visual evidence that can stand beside the story instead of replacing it.</p></article>
-    <aside class="infobox"><div class="infobox-title">Relic record</div><dl><div class="row"><dt>Object</dt><dd>what survived</dd></div><div class="row"><dt>Credit</dt><dd>poster / maker / capture kept distinct</dd></div><div class="row"><dt>Story</dt><dd>why UL remembered it</dd></div></dl></aside>
+    <article class="detail-main">
+      <div class="bio-label">WALL RULE</div>
+      <h2>Do not collapse the credits.</h2>
+      <p>POSTED BY is not automatically MADE BY. MADE BY is not automatically CAPTURED BY. A caption naming somebody is not automatically visual identification. The Wall can stay funny without assigning the wrong clown to the wrong crime.</p>
+    </article>
+    <aside class="infobox">
+      <div class="infobox-title">Wall grammar</div>
+      <dl>
+        <div class="row"><dt>POSTED BY</dt><dd>who uploaded the object</dd></div>
+        <div class="row"><dt>MADE BY</dt><dd>who created it</dd></div>
+        <div class="row"><dt>CAPTURED BY</dt><dd>who took the screenshot / photo</dd></div>
+        <div class="row"><dt>FEATURING</dt><dd>who is visibly in it</dd></div>
+        <div class="row"><dt>WHY IT STAYED</dt><dd>the story that made it memory</dd></div>
+      </dl>
+    </aside>
   </section>
 </WikiLayout>

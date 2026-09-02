@@ -1,0 +1,69 @@
+[
+  {
+    "id": "ul-site-house-flow-2026-09-01",
+    "finding": "Approved person-first site flow and UL-native visible taxonomy",
+    "source": "Direct owner approval",
+    "status": "integrated",
+    "integratedDate": "2026-09-01",
+    "clearance": "PUBLIC",
+    "publicRoutes": [
+      "/",
+      "/characters",
+      "/seasons",
+      "/rooms",
+      "/gallery",
+      "/snoop",
+      "/other-crimes",
+      "/start-here"
+    ],
+    "files": [
+      "src/layouts/WikiLayout.astro",
+      "src/pages/index.astro",
+      "src/pages/characters/index.astro",
+      "src/pages/seasons/index.astro",
+      "src/pages/rooms.astro",
+      "src/pages/gallery.astro",
+      "src/pages/snoop.astro",
+      "src/pages/other-crimes.astro",
+      "src/pages/start-here.astro"
+    ]
+  },
+  {
+    "id": "ul-fast-typing-rule-2026-09-01",
+    "finding": "UL typo energy is fast typing and autocorrect betrayal, not poor spelling",
+    "source": "Direct owner correction",
+    "status": "integrated",
+    "integratedDate": "2026-09-01",
+    "clearance": "PUBLIC",
+    "publicRoutes": [
+      "/speak-engliah",
+      "/gags#spelling-crimes",
+      "/we-fucked-up"
+    ],
+    "files": [
+      "src/data/site.ts",
+      "src/data/all-content.ts",
+      "src/pages/speak-engliah.astro",
+      "src/pages/gags.astro",
+      "src/pages/we-fucked-up.astro",
+      "ops/UL_SITE_LANGUAGE.md"
+    ]
+  },
+  {
+    "id": "ul-navigation-safeguards-2026-09-01",
+    "finding": "Machine-checkable route, ledger, label, and orphan-page audit",
+    "source": "Approved site organization safeguards",
+    "status": "integrated",
+    "integratedDate": "2026-09-01",
+    "clearance": "BASEMENT",
+    "publicRoutes": [
+      "/archive"
+    ],
+    "files": [
+      "scripts/audit-site-graph.mjs",
+      "ops/site-integration-ledger.json",
+      "ops/CONTENT_CLEARANCE.md",
+      "package.json"
+    ]
+  }
+]

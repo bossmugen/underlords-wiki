@@ -1,26 +1,57 @@
 ---
 import WikiLayout from "../layouts/WikiLayout.astro";
 import { relationshipGroups, characters } from "../data/wiki";
-const byName = (name:string) => characters.find((c)=>c.name===name);
+const byName = (name:string) => characters.find((character) => character.name === name);
 ---
-<WikiLayout title="Bonds | Underlords Wiki" description="Underlords family bonds, friendships, old ties, recurring pairings, and social connections with story history.">
-  <section class="hero"><div><div class="kicker">BONDS · KINSHIP · OLD TIES</div><h1>Bonds</h1><p class="tagline">Some ties begin before UL. Some begin in Raja. Some become family nouns, running jokes, work partnerships, or the reason one person's page keeps dragging another person into frame.</p></div></section>
+<WikiLayout title="Entanglements | Underlords" description="Underlords family language, friendships, old ties, recurring pairings, and social connections with story history.">
+  <section class="hero">
+    <div>
+      <div class="kicker">FAMILY NOUNS · OLD TIES · RECURRING PAIRINGS</div>
+      <h1>ENTANGLEMENTS</h1>
+      <p class="tagline">Some ties begin before UL. Some begin in Raja. Some become family language, work partnerships, recurring evidence warfare, or the reason one person's biography keeps dragging another person into frame.</p>
+      <div class="hero-actions"><a class="ul-button secondary" href="/clown-car">OPEN THE CLOWN CAR</a></div>
+    </div>
+  </section>
+
   <section class="section">
-    <div class="section-head"><h2>Relationship-specific language</h2><p>Two-person language that survived long enough to earn its own index card.</p></div>
+    <div class="section-head"><h2>Relationship-specific language</h2><p>Two-person language and repeat behavior that survived long enough to earn its own index card.</p></div>
     <div class="wiki-grid">
       <a class="poster-card" data-initial="A" href="/characters/anayss"><small>Anayss ↔ Gilli · 2020–2021</small><strong>My Amazing and Wonderful Waifu</strong><span>Gilli is already imagining pink on Anayss in June 2020 — “Ana it would look so cute on you in pink ... I want it tooo” — and the register keeps staying soft: a kiss emote in October, Anayss shipping herself with Gilli in December, then the June 2021 birthday line “Happy birthday my amazing and wonderful waifu ~ I wish you only the best ...”. The clean read is warm, playful affection with enough repetition to be relationship texture. “Waifu” stays UL friendship/house language here; it is not evidence of literal romance, exclusivity, marriage, or sexuality.</span></a>
-      <a class="poster-card" data-initial="P" href="/characters/panda"><small>Panda ↔ Eos · 2021–2022</small><strong>You Stole My Heart</strong><span>The Wall first gives them a prosecution problem: Panda says he has plenty of Wall-worthy material but Eos is “too vanilla to shame me,” then starts filing himself. Months later Eos types from Panda’s account by mistake and gets Panda shamed anyway. Daycare turns the same duo openly affectionate: Panda says how much he loves Eos, plans Paris and paired dolls, uses UL marriage language, and Eos answers “you stole my heart a long time ago.” Then the fake-family grammar expands outward: after Rummy and Tony are directly playing off each other on Wall, Eos tags Panda/Marian with “look its our two childs getting along”; the response is not to reject the parent bit but to prosecute the noun until it becomes “it’s *children*.” Reciprocal house-romance, evidence-curator language, and apparently joint custody of two idiots for the duration of one Wall joke; not a real-world marriage, parenthood claim, credential-sharing pattern, or formal family tree.</span></a>
+      <a class="poster-card" data-initial="P" href="/characters/panda"><small>Panda ↔ Eos · 2021–2022</small><strong>You Stole My Heart</strong><span>The Wall first gives them a prosecution problem: Panda says he has plenty of Wall-worthy material but Eos is “too vanilla to shame me,” then starts filing himself. Months later Eos types from Panda’s account by mistake and gets Panda shamed anyway. Daycare turns the same duo openly affectionate: Panda says how much he loves Eos, plans Paris and paired dolls, uses UL marriage language, and Eos answers “you stole my heart a long time ago.” Then the fake-family grammar expands outward: after Rummy and Tony are directly playing off each other on Wall, Eos tags Panda/Marian with “look its our two childs getting along”; the response is not to reject the parent joke but to prosecute the noun until it becomes “it’s *children*.” Reciprocal house-romance, evidence-curator language, and apparently joint custody of two idiots for the duration of one Wall joke; not a real-world marriage, parenthood claim, credential-sharing pattern, or formal family tree.</span></a>
       <a class="poster-card" data-initial="E" href="/characters/gilli"><small>Eos → Gilli · April 18, 2022</small><strong>Why Eos Joined</strong><span>Two Truths, One Lie gives Eos the clean version himself: “Gilli is my reason for joining underlords.” The lie was liking mashed potatoes. Direct relationship evidence; the exact recruitment mechanics are still offscreen.</span></a>
       <a class="poster-card" data-initial="H" href="/characters/hishiro"><small>Hishiro ↔ Gilli · August 19, 2020</small><strong>Summon Me Again</strong><span>Gilli calls Hishiro’s name; Hishiro decides Gilli can “summon people,” supplies a magic-summon GIF, then says “summon me again if my service are needed again” and “always at your service.” Playful availability, not a formal duty, hierarchy, or special Gilli role.</span></a>
       <a class="poster-card" data-initial="S" href="/characters/lilly"><small>Sycee ↔ Lilly · October 9, 2020</small><strong>Mine! ...Wait, Is She Mad?</strong><span>Sycee opens at maximum Wall volume — Lilly is “Mine!” — then five minutes later worries Lilly may be mad about the whole thing. Gilli answers “you just looking out for her,” immediately names Lilly, and Anthos tells Sycee “we can stay up worrying together now.” The useful progression is swagger giving way to concern once Lilly’s actual reaction enters the frame. Scene-specific care; not literal ownership, romance, exclusivity, or a permanent protector title.</span></a>
       <a class="poster-card" data-initial="R" href="/characters/ricochet"><small>Ricochet ↔ Syv · January 13, 2022</small><strong>Welcome Back. Pay the Ramen Tax.</strong><span>Ricochet resurfaces with “first I’ve been in here in a while”; Syv answers “You disappeared for weeks.” Ricochet gives the entire absence explanation as “I’m busy,” then almost immediately asks Syv to send ramen. Syv takes five seconds to answer “I’m broke.” The speed of the turn is the relationship texture: absence gets noticed, explanation stays tiny, and both are comfortable enough to fall straight back into mundane snack extortion. No literal ramen delivery, financial-status claim, or named relationship category required.</span></a>
-      <a class="poster-card" data-initial="K" href="/characters/kaede"><small>Kaede → Yelik · Christmas 2022</small><strong>Inside and Outside the Game</strong><span>In a Christmas 2022 Club-Only scene locally resolved as Kaede by direct `FUENTES` / `kaede` replies, Kaede tells Yelik she is one of his best friendships “inside and outside the game.” That is Kaede’s direct friendship statement, not a reciprocal closeness ranking; the pooled Deleted User account stays unsafe outside this locally identified scene.</span></a>
-      <a class="poster-card" data-initial="R" href="/characters/rummy"><small>Gilli → Rummy · 2021–2024</small><strong>Tummy</strong><span>Gilli goes from "RUMMY TUM TUMMY" to "We'll miss you Tummy" to "It never been blue Tummy". Multi-year nickname rail.</span></a>
-      <a class="poster-card" data-initial="M" href="/characters/momo"><small>Mia ↔ Momo · April 2023</small><strong>Mimi & Momo</strong><span>Mia says "me and momo are twinsss"; Momo answers "Mimi’s twin"; two days later Momo true-replies "you are both Mimi & Momo." UL twin language.</span></a>
-      <a class="poster-card" data-initial="T" href="/characters/tofu"><small>Cookie ↔ Tofu · 2021–2024</small><strong>Mutual Wall Destruction</strong><span>Cookie puts Tofu on blast for promised bee spam; Tofu later prosecutes Cookie. Three years later Cookie warns "she bouta expose me", posts a screenshot at Tofu anyway, and Tofu true-replies with a counter-screenshot and "Oh si? Pues toma". Recurring evidence warfare.</span></a>
+      <a class="poster-card" data-initial="K" href="/characters/kaede"><small>Kaede → Yelik · Christmas 2022</small><strong>Inside and Outside the Game</strong><span>In a Christmas 2022 Club-Only scene locally resolved as Kaede by direct <code>FUENTES</code> / <code>kaede</code> replies, Kaede tells Yelik she is one of his best friendships “inside and outside the game.” That is Kaede’s direct friendship statement, not a reciprocal closeness ranking; the pooled Deleted User account stays unsafe outside this locally identified scene.</span></a>
+      <a class="poster-card" data-initial="R" href="/characters/rummy"><small>Gilli → Rummy · 2021–2024</small><strong>Tummy</strong><span>Gilli goes from “RUMMY TUM TUMMY” to “We'll miss you Tummy” to “It never been blue Tummy.” Multi-year nickname rail.</span></a>
+      <a class="poster-card" data-initial="M" href="/characters/momo"><small>Mia ↔ Momo · April 2023</small><strong>Mimi & Momo</strong><span>Mia says “me and momo are twinsss”; Momo answers “Mimi’s twin”; two days later Momo true-replies “you are both Mimi & Momo.” UL twin language.</span></a>
+      <a class="poster-card" data-initial="T" href="/characters/tofu"><small>Cookie ↔ Tofu · 2021–2024</small><strong>Mutual Wall Destruction</strong><span>Cookie puts Tofu on blast for promised bee spam; Tofu later prosecutes Cookie. Three years later Cookie warns “she bouta expose me,” posts a screenshot at Tofu anyway, and Tofu true-replies with a counter-screenshot and “Oh si? Pues toma.” Recurring evidence warfare.</span></a>
       <a class="poster-card" data-initial="B" href="/characters/tofu"><small>BishopThaGuru ↔ Tofu · June 26–28, 2021</small><strong>Compliment or Warning?</strong><span>Tofu says Bishop will never stop being funny; Bishop asks who she talked to and whether she is with the feds. Mugen claims there is a file in her office. The next day Tofu says anything involving Bishop is bound for the Wall; Bishop asks whether that is a compliment or a warning. Tofu: “Both.” By day three she has recycled his Lobby “Ye?” into evidence. Familiar reciprocal banter, not romance or an actual case file.</span></a>
       <a class="poster-card" data-initial="J" href="/characters/jordayy"><small>Jordayy ↔ Ghostt · January 2021</small><strong>Dog-Cuddler and Breakfast Department</strong><span>Ghostt posts a tired emote; minutes later Jordayy asks whether Ghost wants to cuddle her dog so she can finish the laundry. A few days later Jordayy says “I still want breakfast Ghost,” making a callback to the previous day’s breakfast request likely. The register is gloriously domestic: Ghost gets rhetorically assigned household duties while Jordayy is visibly doing actual household life. No claim Ghost literally dog-sat, delivered breakfast, or occupied some ranked closeness tier. The joke is enough.</span></a>
     </div>
   </section>
-  {relationshipGroups.map((group)=><section class="section"><div class="section-head"><h2>{group.title}</h2><p>{group.note}</p></div><div class="wiki-grid">{group.people.map((name)=>{const c=byName(name); return c ? <a class="poster-card" data-initial={c.name[0]} href={`/characters/${c.id}`}><small>{c.role}</small><strong>{c.name}</strong><span>{c.logline}</span></a> : <div class="poster-card" data-initial={name[0]}><strong>{name}</strong></div>})}</div></section>)}
+
+  {relationshipGroups.map((group) => (
+    <section class="section">
+      <div class="section-head"><h2>{group.title}</h2><p>{group.note}</p></div>
+      <div class="wiki-grid">
+        {group.people.map((name) => {
+          const character = byName(name);
+          return character
+            ? <a class="poster-card" data-initial={character.name[0]} href={`/characters/${character.id}`}><small>{character.role}</small><strong>{character.name}</strong><span>{character.logline}</span></a>
+            : <div class="poster-card" data-initial={name[0]}><strong>{name}</strong></div>;
+        })}
+      </div>
+    </section>
+  ))}
+
+  <section class="related-module">
+    <div class="related-module-head"><h2>SINCE YOU'RE SNOOPING</h2><p>Relationships make more sense in motion than as anonymous lines between nodes.</p></div>
+    <div class="related-grid">
+      <a class="related-card" href="/clown-car"><small>THE CLOWN CAR</small><strong>See the clusters</strong><span>Old networks, work axes, and family language.</span></a>
+      <a class="related-card" href="/characters"><small>STRIPPERS</small><strong>Read the biographies</strong><span>Watch the ties behave inside the person's story.</span></a>
+      <a class="related-card" href="/episodes"><small>EPISODES & INCIDENTS</small><strong>Find the shared scenes</strong><span>The stories that pull several people into frame.</span></a>
+      <a class="related-card" href="/snoop"><small>SNOOP</small><strong>Search two names</strong><span>Old handles and aliases follow the person.</span></a>
+    </div>
+  </section>
 </WikiLayout>

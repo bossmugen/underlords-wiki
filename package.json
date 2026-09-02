@@ -6,9 +6,10 @@
   "engines": { "node": ">=22.12.0" },
   "scripts": {
     "dev": "npm run sync:dossiers && astro dev",
-    "build": "npm run sync:dossiers && astro build",
+    "build": "npm run sync:dossiers && npm run audit:site && astro build",
     "preview": "astro preview",
-    "sync:dossiers": "node scripts/sync-character-dossiers.mjs"
+    "sync:dossiers": "node scripts/sync-character-dossiers.mjs",
+    "audit:site": "node scripts/audit-site-graph.mjs"
   },
   "dependencies": {
     "astro": "^7.2.1"

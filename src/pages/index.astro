@@ -1,49 +1,109 @@
 ---
 import WikiLayout from "../layouts/WikiLayout.astro";
-import { characters, episodes, seasons, gags } from "../data/wiki";
-import { castGroups } from "../data/cast";
-const featured = characters.filter((c) => c.billing === "main").slice(0, 8);
-const featuredEpisodes = episodes.slice(-6).reverse();
-const majorOrders = castGroups.slice(0, 6);
-const replaceComedyTaxonomy = (value: string) => value.replace(/\b(bits?|gags?)\b/gi, (term) => {
-  const replacement = term.toLowerCase().endsWith("s") ? "jokes" : "joke";
-  if (term === term.toUpperCase()) return replacement.toUpperCase();
-  if (term[0] === term[0].toUpperCase()) return replacement[0].toUpperCase() + replacement.slice(1);
-  return replacement;
-});
-const publicText = (value: string) => replaceComedyTaxonomy(value.replace(/`([^`]+)`/g, '"$1"'));
+import { allCharacters } from "../data/cast";
+import { seasons, locations } from "../data/wiki";
+import { allEpisodes, allGags, episodeFormat } from "../data/all-content";
+import {
+  FEATURED_CHARACTER_IDS,
+  FEATURED_EPISODE_IDS,
+  FEATURED_ROOM_IDS,
+  FRESH_DIRT,
+  HOME_DOORS,
+  ROOM_LINEAGE,
+} from "../data/site";
+
+const featuredCharacters = FEATURED_CHARACTER_IDS
+  .map((id) => allCharacters.find((character) => character.id === id))
+  .filter(Boolean);
+const featuredEpisodes = FEATURED_EPISODE_IDS
+  .map((id) => allEpisodes.find((episode) => episode.id === id))
+  .filter(Boolean);
+const featuredRooms = FEATURED_ROOM_IDS
+  .map((id) => locations.find((room) => room.id === id))
+  .filter(Boolean);
+const featuredEpisode = featuredEpisodes[0] ?? allEpisodes[0];
+const featuredGag = allGags.find((gag) => gag.id === "spelling-crimes") ?? allGags[0];
+const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+const today = new Date();
+const monthName = monthNames[today.getUTCMonth()];
+const day = today.getUTCDate();
+const exactDayPattern = new RegExp(`\\b${monthName}\\s+${day}(?:,|\\b)`, "i");
+const exactDayEpisode = allEpisodes.find((episode) => exactDayPattern.test(episode.date));
+const sameMonthEpisode = allEpisodes.find((episode) => episode.date.includes(monthName));
+const onThisDay = exactDayEpisode ?? sameMonthEpisode ?? featuredEpisode;
+const onThisDayNote = exactDayEpisode
+  ? "The archive caught somebody on this exact calendar date."
+  : sameMonthEpisode
+    ? `No exact ${monthName} ${day} hit yet. The archive produced something from the same month instead.`
+    : "The archive declined to cooperate with today's date, so a known offense has been substituted.";
+const base = import.meta.env.BASE_URL === "/" ? "" : import.meta.env.BASE_URL.replace(/\/$/, "");
+const randomTargets = [
+  ...featuredCharacters.map((character) => `/characters/${character?.id}`),
+  ...featuredEpisodes.map((episode) => `/episodes/${episode?.id}`),
+  ...featuredRooms.map((room) => `/locations#${room?.id}`),
+  "/gags",
+  "/relationships",
+].filter(Boolean);
 ---
-<WikiLayout title="Underlords Chronicle & Character Wiki" description="The deeper Underlords reference: characters, eras, incidents, orders, relationships, legends, quotes, relics, and rooms.">
-  <section class="hero">
+<WikiLayout
+  title="Underlords"
+  description="The people, rooms, episodes, relationships, and accumulated nonsense of Underlords from 2020 to the present."
+>
+  <section class="hero home-hero">
     <div>
-      <div class="kicker">THE DEEP INDEX</div>
+      <div class="kicker">THE FRONT DOOR</div>
       <h1>UNDERLORDS</h1>
-      <p class="tagline">Eras, characters, incidents, orders, relationships, legends, relics, and quotes—the deeper index of the same house.</p>
-      <dl class="factbox">
-        <dt>First record</dt><dd>2020</dd>
-        <dt>Origin</dt><dd>Dragon Raja club</dd>
-        <dt>Continuity</dt><dd>2020 → present</dd>
-        <dt>Primary subjects</dt><dd>People · rooms · roles · incidents · rituals · artifacts</dd>
-        <dt>Current era</dt><dd>2026 — Afterlife / Family Reunion</dd>
-      </dl>
+      <p class="tagline">A gaming group accidentally became a place. The place survived the game, accumulated six years of lore, and is now being forced to explain itself.</p>
+      <div class="hero-actions">
+        <a class="ul-button" href="/start-here">NEW HERE? START WITH THE MESS</a>
+        <a class="ul-button secondary" href="/snoop">SNOOP THROUGH EVERYTHING</a>
+      </div>
+      <div class="entry-grid" aria-label="Main ways into the Underlords site">
+        {HOME_DOORS.map((door) => (
+          <a class="entry-card" href={door.href} aria-label={door.ariaLabel}>
+            <small>COME IN THROUGH</small>
+            <strong>{door.label}</strong>
+            <span>{door.description}</span>
+            <b>{door.href === "/rooms" ? "GO IN →" : "OPEN →"}</b>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <div><div class="kicker">FRESH DIRT</div><h2>New business.</h2></div>
+      <p>Newly integrated findings and site changes that actually reached a public destination—not files quietly dying in a branch somewhere.</p>
+    </div>
+    <div class="fresh-dirt-grid">
+      {FRESH_DIRT.map((item) => (
+        <a class="dirt-card" href={item.href}>
+          <time>{item.date}</time>
+          <small>{item.label}</small>
+          <h3>{item.title}</h3>
+          <p>{item.text}</p>
+          <b>{item.cta} →</b>
+        </a>
+      ))}
     </div>
   </section>
 
   <section class="section chronicle-intro">
     <div class="section-head">
       <div>
-        <div class="kicker">THE GREAT CHRONICLE</div>
-        <h2>Seven years.<br/>Seven forms of the same house.</h2>
-        <p>The dates are ordinary. What each year turns UL into is not.</p>
+        <div class="kicker">THE FUCK HAPPENED</div>
+        <h2>A guild became a house and then refused to die correctly.</h2>
+        <p>The years matter because every one leaves UL with different rooms, habits, people, absences, and ways of recognizing itself.</p>
       </div>
     </div>
     <div class="era-stack">
       {seasons.map((season, index) => (
         <a class="era-row" href={`/seasons/${season.year}`}>
-          <span class="era-index">ERA {String(index + 1).padStart(2,"0")}</span>
+          <span class="era-index">ERA {String(index + 1).padStart(2, "0")}</span>
           <span class="era-year">{season.year}</span>
-          <strong>{publicText(season.title)}</strong>
-          <p>{publicText(season.subtitle)}</p>
+          <strong>{season.title.replace(/^Season [^—]+ — /, "")}</strong>
+          <p>{season.subtitle}</p>
           <b>↗</b>
         </a>
       ))}
@@ -51,53 +111,99 @@ const publicText = (value: string) => replaceComedyTaxonomy(value.replace(/`([^`
   </section>
 
   <section class="section">
-    <div class="section-head"><h2>Character Codex</h2><p>The figures who keep reappearing across eras, rooms, incidents, family trees, job titles, and somebody else's screenshots.</p></div>
+    <div class="section-head">
+      <div><div class="kicker">USUAL SUSPECTS</div><h2>Meet the clowns responsible.</h2></div>
+      <p>The biographies are the center of the site. Incidents, rooms, roles, and screenshots matter because somebody lived through them.</p>
+    </div>
     <div class="wiki-grid">
-      {featured.map((character) => (
+      {featuredCharacters.map((character) => character && (
         <a class="poster-card" data-initial={character.name[0]} href={`/characters/${character.id}`}>
-          <small>{publicText(character.role)}</small><strong>{character.name}</strong><span>{publicText(character.logline)}</span>
+          <small>{character.role}</small>
+          <strong>{character.name}</strong>
+          <span>{character.logline}</span>
         </a>
       ))}
     </div>
+    <div class="page-actions"><a class="ul-button secondary" href="/characters">MORE STRIPPERS →</a></div>
   </section>
 
+  {featuredEpisode ? (
+    <section class="section">
+      <div class="section-head">
+        <div><div class="kicker">CURRENT BUSINESS</div><h2>One episode to ruin your evening.</h2></div>
+        <p>An episode is bigger than one timestamp: scenes spread, people get recruited, callbacks form, and the thing keeps returning.</p>
+      </div>
+      <div class="occupied-grid">
+        <a class="feature-panel" href={`/episodes/${featuredEpisode.id}`}>
+          <small class="module-label">{episodeFormat(featuredEpisode)} · {featuredEpisode.season}</small>
+          <h3>{featuredEpisode.title}</h3>
+          <p>{featuredEpisode.logline}</p>
+          <time>{featuredEpisode.date}</time>
+        </a>
+        <a class="feature-panel" href="/gags#spelling-crimes">
+          <small class="module-label">BULLSHIT THAT NEEDED A CORRECTION</small>
+          <h3>{featuredGag?.name}</h3>
+          <p>{featuredGag?.logline}</p>
+        </a>
+      </div>
+    </section>
+  ) : null}
+
   <section class="section">
-    <div class="section-head"><h2>Major Incidents</h2><p>The archive has thousands of scenes. These are the ones that became turning points, named stories, or permanent damage to the vocabulary.</p></div>
-    <div class="episode-list">
-      {featuredEpisodes.map((episode) => (
-        <a class="episode-row" href={`/episodes/${episode.id}`}>
-          <span class="ep-season">{episode.season}</span><strong>{publicText(episode.title)}</strong><p>{publicText(episode.logline)}</p><time>{episode.date}</time>
+    <div class="section-head">
+      <div><div class="kicker">ROOMS</div><h2>Every bad decision needs somewhere to happen.</h2></div>
+      <p>The room names are part of the history. Original UL names stay original; the site adds only enough description to tell you what kind of door you are opening.</p>
+    </div>
+    <div class="mini-door-grid">
+      {featuredRooms.map((room) => room && (
+        <a class="mini-door" href={`/locations#${room.id}`}>
+          <small>{room.type}</small>
+          <strong>{room.name}</strong>
+          <p>{ROOM_LINEAGE[room.id] ?? room.logline}</p>
         </a>
       ))}
     </div>
+    <div class="page-actions"><a class="ul-button secondary" href="/rooms">WALK THE HALLWAY →</a></div>
   </section>
 
   <section class="section">
-    <div class="section-head"><h2>Orders & Affiliations</h2><p>The titles were ridiculous. The permissions were real. The hierarchy is part of the story.</p></div>
-    <div class="portal-grid">
-      {majorOrders.map((group) => (
-        <a class="portal-card" href={`/factions#${group.id}`}>
-          <small>ORDER / AFFILIATION</small><h3>{publicText(group.label)}</h3><p>{publicText(group.note)}</p>
-        </a>
-      ))}
-      <a class="portal-card" href="/factions"><small>FULL INDEX</small><h3>All orders</h3><p>Officers, Snipers, specialists, Game Officers, Staff, Platelets, VIPs, and the rest of the house.</p></a>
+    <div class="section-head">
+      <div><div class="kicker">ON THIS DAY, UNFORTUNATELY</div><h2>The archive has a calendar.</h2></div>
+      <p>{onThisDayNote}</p>
     </div>
+    {onThisDay ? (
+      <a class="random-door" href={`/episodes/${onThisDay.id}`}>
+        <div><small class="module-label">{onThisDay.date}</small><strong>{onThisDay.title}</strong><span>{onThisDay.logline}</span></div>
+        <b>→</b>
+      </a>
+    ) : null}
   </section>
 
   <section class="section">
-    <div class="section-head"><h2>Persistent Legends</h2><p>The jokes, names, rituals, accusations, and tiny disasters that kept surviving long enough to become continuity.</p></div>
-    <div class="index-list">
-      {gags.slice(0,6).map((gag) => <a class="index-card" href={`/gags#${gag.id}`}><small>PERSISTENT LEGEND</small><h3>{publicText(gag.name)}</h3><p>{publicText(gag.logline)}</p></a>)}
+    <div class="section-head">
+      <div><div class="kicker">FRESH OFF THE WALL</div><h2>Show me.</h2></div>
+      <p>Mugshots, propaganda, fine art, crime scenes, ancient game relics, and the screenshots people kept long enough to turn into history.</p>
     </div>
+    <a class="random-door" href="/gallery">
+      <div><small class="module-label">WALL OF SHAME/FAME</small><strong>The visual memory surface</strong><span>The object is never just decoration. Who posted it, who made it, who appears in it, and why anybody kept it are separate questions.</span></div>
+      <b>→</b>
+    </a>
   </section>
 
   <section class="section">
-    <div class="section-head"><h2>Relics & Primary Sources</h2><p>Posters, screenshots, quotes, exports, galleries, and the surviving objects that keep the stories from floating away.</p></div>
-    <div class="portal-grid">
-      <a class="portal-card" href="/gallery"><small>RELICS</small><h3>Gallery</h3><p>The visual objects: art, banners, screenshots, and surviving media.</p></a>
-      <a class="portal-card" href="/quotes"><small>VOICE</small><h3>Quotes</h3><p>Lines that survived because somebody refused to let them die.</p></a>
-      <a class="portal-card" href="/locations"><small>DOMAINS</small><h3>Rooms & places</h3><p>The named spaces where the mythology actually happened.</p></a>
-      <a class="portal-card" href="/archive"><small>PRIMARY SOURCES</small><h3>Archive</h3><p>The source layer beneath the chronicle.</p></a>
-    </div>
+    <a class="random-door" id="random-door" href="/snoop" aria-label="Open a random Underlords page">
+      <div><small class="module-label">OPEN A RANDOM DOOR</small><strong>PUT ME SOMEWHERE</strong><span>No taxonomy exam. Just one click and a new piece of somebody's business.</span></div>
+      <b>↝</b>
+    </a>
   </section>
+
+  <script define:vars={{ randomTargets, base }}>
+    const randomDoor = document.querySelector('#random-door');
+    randomDoor?.addEventListener('click', (event) => {
+      if (!randomTargets.length) return;
+      event.preventDefault();
+      const target = randomTargets[Math.floor(Math.random() * randomTargets.length)];
+      window.location.href = `${base}${target}`;
+    });
+  </script>
 </WikiLayout>

@@ -2,11 +2,27 @@
 import WikiLayout from "../../layouts/WikiLayout.astro";
 import { seasons } from "../../data/wiki";
 ---
-<WikiLayout title="Chronicle | Underlords Wiki" description="The Underlords chronology from 2020 through the current era.">
-  <section class="hero"><div><div class="kicker">THE GREAT CHRONICLE</div><h1>Eras</h1><p class="tagline">The years are not just dates. Each one leaves UL with different rooms, habits, people, and problems.</p></div></section>
+<WikiLayout title="The Fuck Happened | Underlords" description="The Underlords story from its 2020 Dragon Raja formation through its 2026 afterlife and reunion.">
+  <section class="hero">
+    <div>
+      <div class="kicker">UNFORTUNATELY, WE KEPT RECORDS</div>
+      <h1>THE FUCK<br/>HAPPENED</h1>
+      <p class="tagline">A gaming guild became a household, built rituals, started remembering its own lore, outlived the game, dimmed the lights, and then wandered back in during 2026 like the gap had been a commercial break.</p>
+      <div class="hero-actions"><a class="ul-button secondary" href="/start-here">START AT THE FRONT</a></div>
+    </div>
+  </section>
   <section class="section">
+    <div class="section-head"><h2>Pick a year. Regret it.</h2><p>The analytical era names stay useful downstairs. Upstairs, each year is the version of the house people were actually living in.</p></div>
     <div class="era-stack">
-      {seasons.map((season,index)=><a class="era-row" href={`/seasons/${season.year}`}><span class="era-index">ERA {String(index+1).padStart(2,"0")}</span><span class="era-year">{season.year}</span><strong>{season.title}</strong><p>{season.summary}</p><b>↗</b></a>)}
+      {seasons.map((season, index) => (
+        <a class="era-row" href={`/seasons/${season.year}`}>
+          <span class="era-index">ERA {String(index + 1).padStart(2, "0")}</span>
+          <span class="era-year">{season.year}</span>
+          <strong>{season.title.replace(/^Season [^—]+ — /, "")}</strong>
+          <p>{season.summary}</p>
+          <b>↗</b>
+        </a>
+      ))}
     </div>
   </section>
 </WikiLayout>

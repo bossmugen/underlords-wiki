@@ -1,23 +1,25 @@
 ---
 import "../styles/global.css";
+import "../styles/ul-site.css";
 import "../data/bio-policy";
 import "../data/canonicalize-cast";
-const { title = "Underlords Wiki", description = "Underlords character and story wiki." } = Astro.props;
+import { PRIMARY_NAV, SECONDARY_NAV } from "../data/site";
+
+const {
+  title = "Underlords",
+  description = "The people, rooms, episodes, and accumulated bullshit of Underlords.",
+} = Astro.props;
 const path = Astro.url.pathname;
 const base = import.meta.env.BASE_URL === "/" ? "" : import.meta.env.BASE_URL.replace(/\/$/, "");
-const nav = [
-  ["Chronicle","/seasons"],
-  ["Character Codex","/characters"],
-  ["Major Incidents","/episodes"],
-  ["Orders","/factions"],
-  ["Bonds","/relationships"],
-  ["Domains","/locations"],
-  ["Legends","/gags"],
-  ["Quotes","/quotes"],
-  ["Relics","/gallery"],
-  ["Archive","/archive"],
-];
 const hrefFor = (href: string) => `${base}${href}` || "/";
+const currentPath = base && path.startsWith(base) ? path.slice(base.length) || "/" : path;
+const routeAliases: Record<string, string[]> = { "/rooms": ["/locations"] };
+const isActive = (href: string) => {
+  if (href === "/") return currentPath === "/";
+  const candidates = [href, ...(routeAliases[href] ?? [])];
+  return candidates.some((candidate) => currentPath === candidate || currentPath.startsWith(`${candidate}/`));
+};
+const secondaryActive = SECONDARY_NAV.some((item) => isActive(item.href));
 ---
 <!doctype html>
 <html lang="en">
@@ -25,23 +27,73 @@ const hrefFor = (href: string) => `${base}${href}` || "/";
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <meta name="description" content={description} />
+    <meta name="theme-color" content="#07070a" />
     <title>{title}</title>
   </head>
   <body>
-    <header class="site-header">
-      <a class="brand" href={hrefFor("/")}>
-        <span class="brand-sigil">UL</span>
-        <span><b>UNDERLORDS</b><small>CHRONICLE & CHARACTER WIKI</small></span>
+    <a class="skip-link" href="#main-content">Skip to the mess</a>
+    <header class="site-header ul-header">
+      <a class="brand" href={hrefFor("/")} aria-label="Underlords home">
+        <span class="brand-sigil" aria-hidden="true">UL</span>
+        <span><b>UNDERLORDS</b><small>EST. 2020 · STILL A PROBLEM</small></span>
       </a>
-      <nav class="site-nav" aria-label="Main navigation">
-        {nav.map(([label, href]) => <a href={hrefFor(href)} aria-current={path.includes(href) ? "page" : undefined}>{label}</a>)}
+
+      <nav class="site-nav desktop-nav" aria-label="Main navigation">
+        {PRIMARY_NAV.map((item) => (
+          <a
+            href={hrefFor(item.href)}
+            aria-label={item.ariaLabel}
+            aria-current={isActive(item.href) ? "page" : undefined}
+          >{item.label}</a>
+        ))}
+        <details class="other-crimes-menu">
+          <summary aria-label="Open secondary navigation" aria-current={secondaryActive ? "page" : undefined}>OTHER CRIMES</summary>
+          <div class="other-crimes-panel">
+            <div class="other-crimes-heading"><span>OTHER CRIMES</span><small>The useful filing cabinet.</small></div>
+            {SECONDARY_NAV.map((item) => (
+              <a
+                href={hrefFor(item.href)}
+                aria-label={item.ariaLabel}
+                aria-current={isActive(item.href) ? "page" : undefined}
+              >
+                <strong>{item.label}</strong>
+                <span>{item.description}</span>
+              </a>
+            ))}
+          </div>
+        </details>
       </nav>
+
+      <details class="mobile-menu">
+        <summary aria-label="Open site navigation">MENU</summary>
+        <nav aria-label="Mobile navigation">
+          {PRIMARY_NAV.map((item) => (
+            <a href={hrefFor(item.href)} aria-current={isActive(item.href) ? "page" : undefined}>
+              <strong>{item.label}</strong><span>{item.description}</span>
+            </a>
+          ))}
+          <a href={hrefFor("/other-crimes")} aria-current={secondaryActive ? "page" : undefined}>
+            <strong>OTHER CRIMES</strong><span>The useful filing cabinet.</span>
+          </a>
+        </nav>
+      </details>
     </header>
-    <main class="page"><slot /></main>
-    <footer class="page footer">
-      <strong>UNDERLORDS CHRONICLE</strong>
-      <span>est. 2020 · characters, eras, incidents, legends, relics, and continuity</span>
+
+    <main class="page" id="main-content"><slot /></main>
+
+    <footer class="page footer ul-footer">
+      <div>
+        <strong>UNDERLORDS</strong>
+        <span>A gaming group accidentally became a place. The place survived the game.</span>
+      </div>
+      <nav aria-label="Footer navigation">
+        <a href={hrefFor("/start-here")}>START WITH THE MESS</a>
+        <a href={hrefFor("/snoop")}>SNOOP</a>
+        <a href={hrefFor("/archive")}>THE BASEMENT</a>
+        <a href={hrefFor("/we-fucked-up")}>WE FUCKED UP</a>
+      </nav>
     </footer>
+
     <script define:vars={{ base }}>
       if (base) {
         document.querySelectorAll('a[href^="/"]').forEach((link) => {
@@ -52,25 +104,49 @@ const hrefFor = (href: string) => `${base}${href}` || "/";
         });
       }
 
+      document.querySelectorAll('.other-crimes-menu a, .mobile-menu a').forEach((link) => {
+        link.addEventListener('click', () => link.closest('details')?.removeAttribute('open'));
+      });
+
+      document.addEventListener('click', (event) => {
+        document.querySelectorAll('.other-crimes-menu[open]').forEach((menu) => {
+          if (!menu.contains(event.target)) menu.removeAttribute('open');
+        });
+      });
+
       const root = document.querySelector('main.page');
       if (root) {
         const exact = new Map([
+          ['Character Codex', 'Strippers'],
+          ['CHARACTER CODEX', 'STRIPPERS'],
+          ['Major Incidents', 'Episodes & Incidents'],
+          ['MAJOR INCIDENTS', 'EPISODES & INCIDENTS'],
+          ['Orders & Affiliations', 'Employment Fraud'],
+          ['Bonds', 'Entanglements'],
+          ['Domains', 'Rooms'],
+          ['Legends', 'Bullshit'],
+          ['Relics', 'Wall of Shame/Fame'],
+          ['Quotes', 'Mouth Crimes'],
+          ['Archive', 'The Basement'],
+          ['Connections', 'Known Associates'],
+          ['Relationships', 'Known Associates'],
+          ['Archive / Extended Cast', 'More Strippers'],
+          ['Extended Cast', 'More Strippers'],
+          ['Archive / Extended Cast ·', 'More Strippers ·'],
+          ['Directors / Specialists', 'Executives'],
+          ['Game Officers', 'DR Officers'],
+          ['UL Cannot Spell', 'UL Types Too Fast'],
           ['Relationship-specific bits', 'Relationship-specific language'],
           ['Recurring bits & behavior', 'Recurring jokes & behavior'],
           ['The reliquary is still being filled.', 'The objects that survived.'],
           ['No dedicated incident page has been promoted for this era yet. The era exists; the archive is not getting filler mythology.', 'No named incident page yet.'],
-          ['The long-form reference layer behind the main site: eras, characters, incidents, orders, relationships, legends, relics, and archive-backed continuity.', 'Eras, characters, incidents, orders, relationships, legends, relics, and quotes—the deeper index of the same house.'],
-          ['Archive / Extended Cast', 'Character'],
-          ['Extended Cast', 'Character'],
-          ['Archive / Extended Cast ·', 'Character ·'],
-          ['Directors / Specialists', 'Executives'],
-          ['Game Officers', 'DR Officers'],
         ]);
         const phrases = [
           ['recurring bits', 'recurring jokes'],
           ['recurring bit', 'recurring joke'],
           ['running bits', 'running jokes'],
           ['running bit', 'running joke'],
+          ['spelling standards', 'typing-speed standards'],
         ];
         const clean = (value) => {
           const trimmed = value.trim();
@@ -97,23 +173,8 @@ const hrefFor = (href: string) => `${base}${href}` || "/";
           const cleaned = clean(text);
           if (cleaned !== text) node.textContent = cleaned;
         }
-
         document.querySelector('.consolidation-banner')?.remove();
-        document.querySelectorAll('.archive-dossier-block, .receipt-ledger-block, .source-floor').forEach((node) => node.remove());
-        document.querySelectorAll('.character-biography .relationship-list').forEach((node) => node.closest('.bio-block')?.remove());
-        document.querySelectorAll('.character-infobox .row').forEach((row) => {
-          const label = row.querySelector('dt')?.textContent?.trim();
-          if (label === 'Primary shelf' || label === 'Era' || label === 'Aliases' || label === 'Tags') row.remove();
-        });
-        document.querySelectorAll('.character-infobox .infobox-notes').forEach((node) => node.remove());
-        document.querySelectorAll('.wiki-note').forEach((node) => {
-          const text = (node.textContent || '').trim();
-          if (text.startsWith('This page is written from archive-confirmed') || text.startsWith('Relic targets already identified')) node.remove();
-        });
       }
     </script>
-    <style is:global>
-      .consolidation-banner,.archive-dossier-block,.receipt-ledger-block,.source-floor,.character-biography .relationship-list{display:none!important}
-    </style>
   </body>
 </html>

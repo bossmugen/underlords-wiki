@@ -1,0 +1,256 @@
+---
+import WikiLayout from "../layouts/WikiLayout.astro";
+import { allCharacters } from "../data/cast";
+import { seasons, locations, featuredQuotes } from "../data/wiki";
+import { allEpisodes, allGags, episodeFormat } from "../data/all-content";
+
+type SearchItem = {
+  type: string;
+  title: string;
+  eyebrow: string;
+  text: string;
+  href: string;
+  search: string;
+};
+
+type SearchGroup = { type: string; label: string; items: SearchItem[] };
+
+const groups: SearchGroup[] = [
+  {
+    type: "STRIPPERS",
+    label: "STRIPPERS",
+    items: allCharacters.map((character) => ({
+      type: "STRIPPERS",
+      title: character.name,
+      eyebrow: [character.role, character.era].filter(Boolean).join(" · "),
+      text: character.logline,
+      href: `/characters/${character.id}`,
+      search: [character.name, ...(character.aliases ?? []), character.role, character.era, character.logline, ...(character.tags ?? [])].join(" "),
+    })),
+  },
+  {
+    type: "ROOMS",
+    label: "ROOMS",
+    items: locations.map((room) => ({
+      type: "ROOMS",
+      title: room.name,
+      eyebrow: room.type,
+      text: room.logline,
+      href: `/locations#${room.id}`,
+      search: [room.name, room.type, room.logline, room.id].join(" "),
+    })),
+  },
+  {
+    type: "EPISODES",
+    label: "EPISODES & INCIDENTS",
+    items: allEpisodes.map((episode) => ({
+      type: "EPISODES",
+      title: episode.title,
+      eyebrow: `${episodeFormat(episode)} · ${episode.season} · ${episode.date}`,
+      text: episode.logline,
+      href: `/episodes/${episode.id}`,
+      search: [episode.title, episode.kind, episode.season, episode.date, episode.logline, ...episode.cast].join(" "),
+    })),
+  },
+  {
+    type: "BULLSHIT",
+    label: "BULLSHIT",
+    items: allGags.map((gag) => ({
+      type: "BULLSHIT",
+      title: gag.name,
+      eyebrow: "RUNNING LORE",
+      text: gag.logline,
+      href: `/gags#${gag.id}`,
+      search: [gag.name, gag.logline, gag.id].join(" "),
+    })),
+  },
+  {
+    type: "ERAS",
+    label: "ERAS",
+    items: seasons.map((season) => ({
+      type: "ERAS",
+      title: `${season.year} — ${season.title.replace(/^Season [^—]+ — /, "")}`,
+      eyebrow: "THE FUCK HAPPENED",
+      text: season.summary,
+      href: `/seasons/${season.year}`,
+      search: [season.year, season.title, season.subtitle, season.summary].join(" "),
+    })),
+  },
+  {
+    type: "MOUTH CRIMES",
+    label: "MOUTH CRIMES",
+    items: featuredQuotes.map((quote, index) => ({
+      type: "MOUTH CRIMES",
+      title: `“${quote.quote}”`,
+      eyebrow: `${quote.speaker} · ${quote.context}`,
+      text: "A line that survived long enough to make the public quote wall.",
+      href: `/quotes#mouth-crime-${index + 1}`,
+      search: [quote.quote, quote.speaker, quote.context].join(" "),
+    })),
+  },
+];
+
+const filterLabels = ["ALL", ...groups.map((group) => group.type)];
+---
+<WikiLayout title="Snoop | Search Underlords" description="Search Underlords people, aliases, rooms, episodes, running lore, eras, and quotes.">
+  <section class="hero">
+    <div>
+      <div class="kicker">DIG THROUGH THEIR BUSINESS</div>
+      <h1>SNOOP</h1>
+      <p class="tagline">Search a current name, old handle, room, year, incident, quote, family noun, or typo. The index follows the person instead of demanding that you remember which era used which display name.</p>
+    </div>
+  </section>
+
+  <section class="section search-shell">
+    <form class="search-box" id="snoop-form" role="search">
+      <label for="snoop-input">Search the Underlords site</label>
+      <input id="snoop-input" name="q" type="search" autocomplete="off" placeholder="who / what / where are you looking for" />
+      <button type="submit">SNOOP</button>
+    </form>
+    <div class="search-filters" aria-label="Filter search results">
+      {filterLabels.map((label) => (
+        <button class="search-filter" type="button" data-filter={label} aria-pressed={label === "ALL" ? "true" : "false"}>{label}</button>
+      ))}
+    </div>
+    <div class="search-status" aria-live="polite">
+      <span id="snoop-count">Type something. Everybody's business is indexed.</span>
+      <a href="/speak-engliah">SPEAK ENGLIAH →</a>
+    </div>
+
+    <div id="snoop-groups">
+      {groups.map((group) => (
+        <section class="search-group" data-group={group.type}>
+          <div class="search-group-head"><h2>{group.label}</h2><span data-group-count>{group.items.length}</span></div>
+          <div class="search-results">
+            {group.items.map((item) => (
+              <a
+                class="search-card"
+                href={item.href}
+                data-type={item.type}
+                data-search={item.search}
+                data-title={item.title}
+              >
+                <small>{item.eyebrow}</small>
+                <strong>{item.title}</strong>
+                <p>{item.text}</p>
+              </a>
+            ))}
+          </div>
+        </section>
+      ))}
+    </div>
+
+    <div class="empty-state" id="snoop-empty" hidden>
+      <strong>Nothing came up. suspicious.</strong>
+      Try another name, an old handle, fewer words, or the typo you actually saw.
+    </div>
+  </section>
+
+  <script>
+    const form = document.querySelector('#snoop-form');
+    const input = document.querySelector('#snoop-input');
+    const count = document.querySelector('#snoop-count');
+    const empty = document.querySelector('#snoop-empty');
+    const cards = [...document.querySelectorAll('.search-card')];
+    const groups = [...document.querySelectorAll('.search-group')];
+    const filters = [...document.querySelectorAll('.search-filter')];
+    let activeFilter = 'ALL';
+
+    const normalize = (value = '') => value
+      .normalize('NFKD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, ' ')
+      .trim();
+
+    const within = (left, right, maxDistance) => {
+      if (Math.abs(left.length - right.length) > maxDistance) return false;
+      const row = Array.from({ length: right.length + 1 }, (_, index) => index);
+      for (let i = 1; i <= left.length; i += 1) {
+        let previous = row[0];
+        row[0] = i;
+        let rowMinimum = row[0];
+        for (let j = 1; j <= right.length; j += 1) {
+          const saved = row[j];
+          row[j] = Math.min(
+            row[j] + 1,
+            row[j - 1] + 1,
+            previous + (left[i - 1] === right[j - 1] ? 0 : 1),
+          );
+          previous = saved;
+          rowMinimum = Math.min(rowMinimum, row[j]);
+        }
+        if (rowMinimum > maxDistance) return false;
+      }
+      return row[right.length] <= maxDistance;
+    };
+
+    const tokenMatches = (token, words, haystack) => {
+      if (!token) return true;
+      if (haystack.includes(token)) return true;
+      if (token.length < 4) return words.some((word) => word.startsWith(token));
+      const maxDistance = token.length >= 8 ? 2 : 1;
+      return words.some((word) => within(token, word, maxDistance));
+    };
+
+    const update = () => {
+      const query = normalize(input?.value || '');
+      const tokens = query.split(' ').filter(Boolean);
+      let visibleTotal = 0;
+
+      cards.forEach((card) => {
+        const typeMatches = activeFilter === 'ALL' || card.dataset.type === activeFilter;
+        const haystack = normalize(`${card.dataset.title || ''} ${card.dataset.search || ''}`);
+        const words = haystack.split(' ').filter(Boolean);
+        const queryMatches = !tokens.length || tokens.every((token) => tokenMatches(token, words, haystack));
+        const visible = typeMatches && queryMatches;
+        card.hidden = !visible;
+        if (visible) visibleTotal += 1;
+      });
+
+      groups.forEach((group) => {
+        const visibleCards = [...group.querySelectorAll('.search-card')].filter((card) => !card.hidden);
+        group.hidden = visibleCards.length === 0;
+        const groupCount = group.querySelector('[data-group-count]');
+        if (groupCount) groupCount.textContent = String(visibleCards.length);
+      });
+
+      empty.hidden = visibleTotal !== 0;
+      count.textContent = tokens.length
+        ? `Found ${visibleTotal} piece${visibleTotal === 1 ? '' : 's'} of business.`
+        : activeFilter === 'ALL'
+          ? `Everything is open. ${visibleTotal} records are currently in the room.`
+          : `${visibleTotal} ${activeFilter.toLowerCase()} record${visibleTotal === 1 ? '' : 's'}.`;
+
+      const url = new URL(window.location.href);
+      if (input?.value) url.searchParams.set('q', input.value);
+      else url.searchParams.delete('q');
+      if (activeFilter !== 'ALL') url.searchParams.set('type', activeFilter);
+      else url.searchParams.delete('type');
+      window.history.replaceState({}, '', url);
+    };
+
+    form?.addEventListener('submit', (event) => {
+      event.preventDefault();
+      update();
+    });
+    input?.addEventListener('input', update);
+    filters.forEach((button) => {
+      button.addEventListener('click', () => {
+        activeFilter = button.dataset.filter || 'ALL';
+        filters.forEach((candidate) => candidate.setAttribute('aria-pressed', String(candidate === button)));
+        update();
+      });
+    });
+
+    const params = new URLSearchParams(window.location.search);
+    const initialQuery = params.get('q');
+    const initialType = params.get('type');
+    if (input && initialQuery) input.value = initialQuery;
+    if (initialType) {
+      const target = filters.find((button) => button.dataset.filter === initialType);
+      if (target) target.click();
+      else update();
+    } else update();
+  </script>
+</WikiLayout>

@@ -3,61 +3,15 @@ import WikiLayout from "../../layouts/WikiLayout.astro";
 import "../../styles/characters.css";
 import "../../styles/dossiers.css";
 import "../../styles/narrative.css";
-import { episodes } from "../../data/wiki";
+import { allEpisodes } from "../../data/all-content";
 import { allCharacters, primaryGroupByCharacterId } from "../../data/cast";
-import { getCharacterBio } from "../../data/character-bios";
-import { narrativeCharacterBios } from "../../data/character-biographies-narrative";
-import { run39CharacterBios } from "../../data/character-bios-run39";
-import { run39NarrativeCharacterBios } from "../../data/character-biographies-run39";
-import { run75NarrativeCharacterBios } from "../../data/character-biographies-run75";
-import { hishiroNarrativeCharacterBios } from "../../data/character-biographies-hishiro";
-import { renNarrativeCharacterBios } from "../../data/character-biographies-ren";
-import { syeNarrativeCharacterBios } from "../../data/character-biographies-sye";
-import { gilliNarrativeCharacterBios } from "../../data/character-biographies-gilli";
-import { oyasumiNarrativeCharacterBios } from "../../data/character-biographies-oyasumi";
-import { snowNarrativeCharacterBios } from "../../data/character-biographies-snow";
-import { anthosNarrativeCharacterBios } from "../../data/character-biographies-anthos";
-import { dayaNarrativeCharacterBios } from "../../data/character-biographies-daya";
-import { hyalunaNarrativeCharacterBios } from "../../data/character-biographies-hyaluna";
-import { rithaNarrativeCharacterBios } from "../../data/character-biographies-ritha";
-import { suzimasuNarrativeCharacterBios } from "../../data/character-biographies-suzimasu";
-import { yumiNarrativeCharacterBios } from "../../data/character-biographies-yumi";
-import { keyNarrativeCharacterBios } from "../../data/character-biographies-key";
-import { nelphNarrativeCharacterBios } from "../../data/character-biographies-nelph";
-import { kaedeNarrativeCharacterBios } from "../../data/character-biographies-kaede";
-import { deepLeaderCharacterBios } from "../../data/character-bios-leader-deep";
-import { coreDeepOfficerCharacterBios } from "../../data/character-bios-officers-core-deep";
-import { deepAnayssOfficerCharacterBios } from "../../data/character-bios-officers-anayss-deep";
-import { deepAnsunOfficerCharacterBios } from "../../data/character-bios-officers-ansun-deep";
-import { deepWolfOfficerCharacterBios } from "../../data/character-bios-officers-wolf-deep";
-import { officerCharacterBios } from "../../data/character-bios-officers";
-import { deepOfficerCharacterBios } from "../../data/character-bios-officers-deep";
-import { lateOfficerCharacterBios } from "../../data/character-bios-officers-late";
-import { retiredOfficerCharacterBios } from "../../data/character-bios-retired";
-import { lateRetiredOfficerCharacterBios } from "../../data/character-bios-retired-late";
-import { deepRithaCharacterBios } from "../../data/character-bios-ritha-deep";
-import { sniperCharacterBios } from "../../data/character-bios-snipers";
-import { directorCharacterBios } from "../../data/character-bios-directors";
-import { extendedCharacterBios } from "../../data/character-bios-extended";
-import { gameOfficerCharacterBios } from "../../data/character-bios-game-officers";
-import { staffCharacterBios } from "../../data/character-bios-staff";
-import { lateStaffCharacterBios } from "../../data/character-bios-staff-late";
-import { finalStaffCharacterBios } from "../../data/character-bios-staff-last";
-import { plateletCharacterBios } from "../../data/character-bios-platelets";
-import { deepPlateletCharacterBios } from "../../data/character-bios-platelets-deep";
-import { latePlateletCharacterBios } from "../../data/character-bios-platelets-late";
-import { vipCharacterBios } from "../../data/character-bios-vip";
-import { deepVipCharacterBios } from "../../data/character-bios-vip-deep";
-import { lateVipCharacterBios } from "../../data/character-bios-vip-late";
-import { archiveCharacterBios } from "../../data/character-bios-archive";
-import { deepArchiveCharacterBios } from "../../data/character-bios-archive-deep";
+import { resolveCharacterPageData, type CharacterClaim } from "../../data/character-page-data";
 import dossierData from "../../data/character-dossiers.generated.json";
 
-type DossierClaim = { text: string; evidence?: string; date?: string };
 type Dossier = {
   html: string;
   wordCount: number;
-  claims?: DossierClaim[];
+  claims?: CharacterClaim[];
   antiFanon?: string[];
   relatedPeople?: string[];
   sourcePath: string;
@@ -69,101 +23,46 @@ export function getStaticPaths() {
 }
 
 const { character } = Astro.props;
-const richBio = (run39CharacterBios as Record<string, any>)[character.id] ?? (deepLeaderCharacterBios as Record<string, any>)[character.id] ?? (coreDeepOfficerCharacterBios as Record<string, any>)[character.id] ?? (deepAnayssOfficerCharacterBios as Record<string, any>)[character.id] ?? (deepAnsunOfficerCharacterBios as Record<string, any>)[character.id] ?? (deepWolfOfficerCharacterBios as Record<string, any>)[character.id] ?? (lateOfficerCharacterBios as Record<string, any>)[character.id] ?? (deepOfficerCharacterBios as Record<string, any>)[character.id] ?? (officerCharacterBios as Record<string, any>)[character.id] ?? (deepRithaCharacterBios as Record<string, any>)[character.id] ?? (lateRetiredOfficerCharacterBios as Record<string, any>)[character.id] ?? (retiredOfficerCharacterBios as Record<string, any>)[character.id] ?? (sniperCharacterBios as Record<string, any>)[character.id] ?? (directorCharacterBios as Record<string, any>)[character.id] ?? (gameOfficerCharacterBios as Record<string, any>)[character.id] ?? (finalStaffCharacterBios as Record<string, any>)[character.id] ?? (lateStaffCharacterBios as Record<string, any>)[character.id] ?? (staffCharacterBios as Record<string, any>)[character.id] ?? (latePlateletCharacterBios as Record<string, any>)[character.id] ?? (deepPlateletCharacterBios as Record<string, any>)[character.id] ?? (plateletCharacterBios as Record<string, any>)[character.id] ?? (lateVipCharacterBios as Record<string, any>)[character.id] ?? (deepVipCharacterBios as Record<string, any>)[character.id] ?? (vipCharacterBios as Record<string, any>)[character.id] ?? (deepArchiveCharacterBios as Record<string, any>)[character.id] ?? (archiveCharacterBios as Record<string, any>)[character.id] ?? (extendedCharacterBios as Record<string, any>)[character.id];
-const leaderDeepBioGuard = new Set(["mugen"]);
-const leaderDeepBio = (deepLeaderCharacterBios as Record<string, any>)[character.id];
-if (leaderDeepBioGuard.has(character.id) && !leaderDeepBio) throw new Error(`Priority Leader character ${character.id} lost its cross-archive deep bio.`);
-const coreOfficerDeepBioGuard = new Set(["gabu"]);
-const coreOfficerDeepBio = (coreDeepOfficerCharacterBios as Record<string, any>)[character.id];
-if (coreOfficerDeepBioGuard.has(character.id) && !coreOfficerDeepBio) throw new Error(`Priority Officer character ${character.id} lost its cross-archive deep bio.`);
-const anayssDeepBioGuard = new Set(["anayss"]);
-const anayssDeepBio = (deepAnayssOfficerCharacterBios as Record<string, any>)[character.id];
-if (anayssDeepBioGuard.has(character.id) && !anayssDeepBio) throw new Error(`Priority Officer character ${character.id} lost its Anayss cross-archive deep bio.`);
-const ansunDeepBioGuard = new Set(["ansun"]);
-const ansunDeepBio = (deepAnsunOfficerCharacterBios as Record<string, any>)[character.id];
-if (ansunDeepBioGuard.has(character.id) && !ansunDeepBio) throw new Error(`Priority Officer character ${character.id} lost its Ansun cross-archive deep bio.`);
-const wolfDeepBioGuard = new Set(["wolfphenix"]);
-const wolfDeepBio = (deepWolfOfficerCharacterBios as Record<string, any>)[character.id];
-if (wolfDeepBioGuard.has(character.id) && !wolfDeepBio) throw new Error(`Priority Officer character ${character.id} lost its WolfPhenix cross-archive deep bio.`);
-const syeNarrativeGuard = new Set(["sye"]);
-const syeNarrative = (syeNarrativeCharacterBios as Record<string, any>)[character.id];
-if (syeNarrativeGuard.has(character.id) && !syeNarrative) throw new Error(`Priority Officer character ${character.id} lost its person-first narrative biography.`);
-const gilliNarrativeGuard = new Set(["gilli"]);
-const gilliNarrative = (gilliNarrativeCharacterBios as Record<string, any>)[character.id];
-if (gilliNarrativeGuard.has(character.id) && !gilliNarrative) throw new Error(`Priority Officer character ${character.id} lost its person-first narrative biography.`);
-const oyasumiNarrativeGuard = new Set(["oyasumi"]);
-const oyasumiNarrative = (oyasumiNarrativeCharacterBios as Record<string, any>)[character.id];
-if (oyasumiNarrativeGuard.has(character.id) && !oyasumiNarrative) throw new Error(`Priority Officer character ${character.id} lost its person-first narrative biography.`);
-const snowNarrativeGuard = new Set(["snow"]);
-const snowNarrative = (snowNarrativeCharacterBios as Record<string, any>)[character.id];
-if (snowNarrativeGuard.has(character.id) && !snowNarrative) throw new Error(`Priority Officer character ${character.id} lost its person-first narrative biography.`);
-const anthosNarrativeGuard = new Set(["anthos"]);
-const anthosNarrative = (anthosNarrativeCharacterBios as Record<string, any>)[character.id];
-if (anthosNarrativeGuard.has(character.id) && !anthosNarrative) throw new Error(`Priority Officer character ${character.id} lost its person-first narrative biography.`);
-const dayaNarrativeGuard = new Set(["daya"]);
-const dayaNarrative = (dayaNarrativeCharacterBios as Record<string, any>)[character.id];
-if (dayaNarrativeGuard.has(character.id) && !dayaNarrative) throw new Error(`Priority Officer character ${character.id} lost its person-first narrative biography.`);
-const renNarrativeGuard = new Set(["ren"]);
-const renNarrative = (renNarrativeCharacterBios as Record<string, any>)[character.id];
-if (renNarrativeGuard.has(character.id) && !renNarrative) throw new Error(`Priority Officer character ${character.id} lost its person-first narrative biography.`);
-const hyalunaNarrativeGuard = new Set(["hyaluna"]);
-const hyalunaNarrative = (hyalunaNarrativeCharacterBios as Record<string, any>)[character.id];
-if (hyalunaNarrativeGuard.has(character.id) && !hyalunaNarrative) throw new Error(`Priority Retired Officer character ${character.id} lost its person-first narrative biography.`);
-const rithaDeepBioGuard = new Set(["ritha"]);
-const rithaDeepBio = (deepRithaCharacterBios as Record<string, any>)[character.id];
-if (rithaDeepBioGuard.has(character.id) && !rithaDeepBio) throw new Error(`Priority Retired Officer character ${character.id} lost its deep archive-backed bio.`);
-const rithaNarrativeGuard = new Set(["ritha"]);
-const rithaNarrative = (rithaNarrativeCharacterBios as Record<string, any>)[character.id];
-if (rithaNarrativeGuard.has(character.id) && !rithaNarrative) throw new Error(`Priority Retired Officer character ${character.id} lost its person-first narrative biography.`);
-const suzimasuNarrativeGuard = new Set(["suzimasu"]);
-const suzimasuNarrative = (suzimasuNarrativeCharacterBios as Record<string, any>)[character.id];
-if (suzimasuNarrativeGuard.has(character.id) && !suzimasuNarrative) throw new Error(`Priority Retired Officer character ${character.id} lost its person-first narrative biography.`);
-const yumiNarrativeGuard = new Set(["yumi"]);
-const yumiNarrative = (yumiNarrativeCharacterBios as Record<string, any>)[character.id];
-if (yumiNarrativeGuard.has(character.id) && !yumiNarrative) throw new Error(`Priority Retired Officer character ${character.id} lost its person-first narrative biography.`);
-const keyNarrativeGuard = new Set(["key"]);
-const keyNarrative = (keyNarrativeCharacterBios as Record<string, any>)[character.id];
-if (keyNarrativeGuard.has(character.id) && !keyNarrative) throw new Error(`Priority Retired Officer character ${character.id} lost its person-first narrative biography.`);
-const nelphNarrativeGuard = new Set(["nelph"]);
-const nelphNarrative = (nelphNarrativeCharacterBios as Record<string, any>)[character.id];
-if (nelphNarrativeGuard.has(character.id) && !nelphNarrative) throw new Error(`Priority Retired Officer character ${character.id} lost its person-first narrative biography.`);
-const kaedeNarrativeGuard = new Set(["kaede"]);
-const kaedeNarrative = (kaedeNarrativeCharacterBios as Record<string, any>)[character.id];
-if (kaedeNarrativeGuard.has(character.id) && !kaedeNarrative) throw new Error(`Priority Sniper character ${character.id} lost its person-first narrative biography.`);
-const hishiroNarrativeGuard = new Set(["hishiro"]);
-const hishiroNarrative = (hishiroNarrativeCharacterBios as Record<string, any>)[character.id];
-if (hishiroNarrativeGuard.has(character.id) && !hishiroNarrative) throw new Error(`Priority Staff character ${character.id} lost its person-first narrative biography.`);
-const plateletRichBioGuard = new Set(["scar", "dyingfox", "ryo", "dean", "tae", "zoshaa", "candy", "cele"]);
-if (plateletRichBioGuard.has(character.id) && !richBio) throw new Error(`Priority Platelet character ${character.id} fell through to the generic character bio.`);
-const vipDeepBioGuard = new Set(["rich", "zyrcant", "woohyuk", "syv", "woosung", "beowulf"]);
-const vipDeepBio = (lateVipCharacterBios as Record<string, any>)[character.id] ?? (deepVipCharacterBios as Record<string, any>)[character.id];
-if (vipDeepBioGuard.has(character.id) && !vipDeepBio) throw new Error(`Priority VIP character ${character.id} lost its cross-archive deep bio.`);
-const archiveDeepBioGuard = new Set(["new", "aeshleen", "panda", "rose"]);
-const archiveDeepBio = (deepArchiveCharacterBios as Record<string, any>)[character.id];
-if (archiveDeepBioGuard.has(character.id) && !archiveDeepBio) throw new Error(`Priority Archive / Extended Cast character ${character.id} lost its cross-archive deep bio.`);
-
-const bio = richBio ?? getCharacterBio(character);
-const narrative = run75NarrativeCharacterBios[character.id] ?? run39NarrativeCharacterBios[character.id] ?? hishiroNarrativeCharacterBios[character.id] ?? kaedeNarrativeCharacterBios[character.id] ?? nelphNarrativeCharacterBios[character.id] ?? keyNarrativeCharacterBios[character.id] ?? yumiNarrativeCharacterBios[character.id] ?? suzimasuNarrativeCharacterBios[character.id] ?? rithaNarrativeCharacterBios[character.id] ?? hyalunaNarrativeCharacterBios[character.id] ?? renNarrativeCharacterBios[character.id] ?? dayaNarrativeCharacterBios[character.id] ?? anthosNarrativeCharacterBios[character.id] ?? snowNarrativeCharacterBios[character.id] ?? oyasumiNarrativeCharacterBios[character.id] ?? gilliNarrativeCharacterBios[character.id] ?? syeNarrativeCharacterBios[character.id] ?? narrativeCharacterBios[character.id];
+const { bio, narrative } = resolveCharacterPageData(character);
 const dossiers = dossierData as Record<string, Dossier>;
 const dossier = dossiers[character.id];
-const canonNotes = [...new Set([...(bio.canonNotes ?? []), ...(dossier?.antiFanon ?? [])])];
-const receiptClaims: DossierClaim[] = [...(bio.claims ?? []), ...(dossier?.claims ?? [])];
-const dedupedReceiptClaims = receiptClaims.filter((claim, index, all) => all.findIndex((candidate) => `${candidate.date ?? ""}\u0000${candidate.text}` === `${claim.date ?? ""}\u0000${claim.text}`) === index);
+const receiptClaims: CharacterClaim[] = [...(bio.claims ?? []), ...(dossier?.claims ?? [])];
+const dedupedReceiptClaims = receiptClaims.filter((claim, index, all) =>
+  all.findIndex((candidate) => `${candidate.date ?? ""}\u0000${candidate.text}` === `${claim.date ?? ""}\u0000${claim.text}`) === index,
+);
 const primaryGroup = primaryGroupByCharacterId.get(character.id);
-const appearances = episodes.filter((episode) => episode.cast.includes(character.name));
+const identityNames = new Set([character.name, ...(character.aliases ?? [])].map((name) => name.toLowerCase()));
+const appearances = allEpisodes.filter((episode) => episode.cast.some((name) => identityNames.has(name.toLowerCase())));
+const characterByName = new Map<string, any>();
+for (const person of allCharacters) {
+  characterByName.set(person.name.toLowerCase(), person);
+  for (const alias of person.aliases ?? []) characterByName.set(alias.toLowerCase(), person);
+}
+const relatedNames = [
+  ...(character.relationships?.map((relationship) => relationship.name) ?? []),
+  ...(bio.relatedPeople ?? []),
+  ...(dossier?.relatedPeople ?? []),
+];
+const relatedCharacters = [...new Set(relatedNames.map((name) => characterByName.get(name.toLowerCase())?.id).filter(Boolean))]
+  .map((id) => allCharacters.find((person) => person.id === id))
+  .filter(Boolean)
+  .slice(0, 2);
+const [firstRaw = "not established", lastRaw = ""] = character.era.split("–");
+const firstSpotted = firstRaw.trim() || "not established";
+const lastSeen = lastRaw.trim() || "not established";
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 const url = (path: string) => `${base}${path}` || path;
 const evidenceLabel = (value?: string) => value ? value.replaceAll("-", " ").toUpperCase() : "ARCHIVE NOTE";
 ---
-<WikiLayout title={`${character.name} | Underlords Wiki`} description={bio.dek ?? character.logline}>
-  <div class="breadcrumbs"><a href={url("/characters")}>Characters</a> / {primaryGroup?.label ?? "Extended Cast"} / {character.name}</div>
+<WikiLayout title={`${character.name} | Underlords`} description={bio.dek ?? character.logline}>
+  <div class="breadcrumbs"><a href={url("/characters")}>Strippers</a> / {primaryGroup?.label ?? "More Strippers"} / {character.name}</div>
 
   <section class="hero character-hero">
     <div>
-      <div class="kicker">{primaryGroup?.label ?? "CHARACTER FILE"} · {character.era}</div>
+      <div class="kicker">{primaryGroup?.label ?? "STRIPPER FILE"} · {character.era}</div>
       <h1>{character.name}</h1>
       <p class="tagline">{bio.dek ?? character.logline}</p>
-      {character.aliases?.length ? <div class="hero-aliases">AKA {character.aliases.join(" · ")}</div> : null}
+      {character.aliases?.length ? <div class="hero-aliases alias-label"><b>ALSO ANSWERS TO</b> {character.aliases.join(" · ")}</div> : null}
     </div>
   </section>
 
@@ -171,45 +70,33 @@ const evidenceLabel = (value?: string) => value ? value.replaceAll("-", " ").toU
     <article class="detail-main character-biography">
       {narrative ? (
         <section class="bio-block narrative-biography">
-          <div class="narrative-label">BIOGRAPHY</div>
-          <h2>{character.name}'s story</h2>
-          <div class="narrative-intro">
-            {narrative.intro.map((paragraph) => <p>{paragraph}</p>)}
-          </div>
+          <div class="narrative-label">THEIR WHOLE DEAL</div>
+          <h2>{character.name}</h2>
+          <div class="narrative-intro">{narrative.intro.map((paragraph) => <p>{paragraph}</p>)}</div>
           <div class="narrative-sections">
             {narrative.sections.map((section) => (
               <section class="narrative-era">
                 <div class="narrative-period">{section.period ?? ""}</div>
-                <div>
-                  <h3>{section.title}</h3>
-                  {section.paragraphs.map((paragraph) => <p>{paragraph}</p>)}
-                </div>
+                <div><h3>{section.title}</h3>{section.paragraphs.map((paragraph) => <p>{paragraph}</p>)}</div>
               </section>
             ))}
           </div>
-          {narrative.closing?.length ? (
-            <div class="narrative-closing">
-              {narrative.closing.map((paragraph) => <p>{paragraph}</p>)}
-            </div>
-          ) : null}
+          {narrative.closing?.length ? <div class="narrative-closing">{narrative.closing.map((paragraph) => <p>{paragraph}</p>)}</div> : null}
         </section>
       ) : (
         <>
           <section class="bio-block bio-opening">
-            <div class="bio-label">BIOGRAPHY</div>
+            <div class="bio-label">THEIR WHOLE DEAL</div>
             <h2>Who is {character.name}?</h2>
             {bio.overview.map((paragraph: string) => <p>{paragraph}</p>)}
           </section>
           {bio.history?.length ? (
             <section class="bio-block">
-              <div class="bio-label">CHRONOLOGY</div>
+              <div class="bio-label">THE STORY SO FAR</div>
               <h2>Life in Underlords</h2>
               <div class="bio-timeline">
                 {bio.history.map((beat: any) => (
-                  <article class="bio-beat">
-                    {beat.date ? <time>{beat.date}</time> : null}
-                    <div><h3>{beat.title}</h3><p>{beat.text}</p></div>
-                  </article>
+                  <article class="bio-beat">{beat.date ? <time>{beat.date}</time> : null}<div><h3>{beat.title}</h3><p>{beat.text}</p></div></article>
                 ))}
               </div>
             </section>
@@ -219,14 +106,12 @@ const evidenceLabel = (value?: string) => value ? value.replaceAll("-", " ").toU
 
       {character.relationships?.length ? (
         <section class="bio-block">
-          <div class="bio-label">CONNECTIONS</div>
-          <h2>Relationships</h2>
+          <div class="bio-label">KNOWN ASSOCIATES</div>
+          <h2>Who keeps getting dragged into frame</h2>
           <div class="relationship-list">
-            {character.relationships.map((rel) => rel.href ? (
-              <a class="relationship-row" href={url(rel.href)}><span>{rel.name}</span><p>{rel.note}</p><b>→</b></a>
-            ) : (
-              <div class="relationship-row"><span>{rel.name}</span><p>{rel.note}</p></div>
-            ))}
+            {character.relationships.map((relationship) => relationship.href ? (
+              <a class="relationship-row" href={url(relationship.href)}><span>{relationship.name}</span><p>{relationship.note}</p><b>→</b></a>
+            ) : <div class="relationship-row"><span>{relationship.name}</span><p>{relationship.note}</p></div>)}
           </div>
         </section>
       ) : null}
@@ -236,24 +121,19 @@ const evidenceLabel = (value?: string) => value ? value.replaceAll("-", " ").toU
           <div class="bio-label">PETTY CRIMES</div>
           <h2>Petty Crimes</h2>
           <div class="character-note-grid">
-            {bio.characterNotes.map((note: any) => (
-              <article class="character-note"><h3>{note.title}</h3><p>{note.text}</p></article>
-            ))}
+            {bio.characterNotes.map((note: any) => <article class="character-note"><h3>{note.title}</h3><p>{note.text}</p></article>)}
           </div>
         </section>
       ) : null}
 
       {appearances.length ? (
         <section class="bio-block">
-          <div class="bio-label">EPISODES</div>
-          <h2>Notable stories</h2>
+          <div class="bio-label">EPISODES & INCIDENTS</div>
+          <h2>Stories that pull {character.name} into frame</h2>
           <div class="episode-list">
             {appearances.map((episode) => (
               <a class="episode-row" href={url(`/episodes/${episode.id}`)}>
-                <span class="ep-season">{episode.season}</span>
-                <strong>{episode.title}</strong>
-                <p>{episode.logline}</p>
-                <time>{episode.date}</time>
+                <span class="ep-season">{episode.season}</span><strong>{episode.title}</strong><p>{episode.logline}</p><time>{episode.date}</time>
               </a>
             ))}
           </div>
@@ -262,10 +142,24 @@ const evidenceLabel = (value?: string) => value ? value.replaceAll("-", " ").toU
 
       {character.quotes?.length ? (
         <section class="bio-block">
-          <div class="bio-label">QUOTES</div>
-          <h2>Lines that made the cut</h2>
-          <div class="quote-wall">{character.quotes.map((quote) => <div class="quote-card"><blockquote>“{quote}”</blockquote><footer>{character.name}</footer></div>)}</div>
+          <div class="bio-label">MOUTH CRIMES</div>
+          <h2>Things {character.name} sent before rereading</h2>
+          <div class="quote-wall">{character.quotes.map((quote) => <div class="quote-card" data-no-public-cleanup><blockquote>“{quote}”</blockquote><footer>{character.name}</footer></div>)}</div>
         </section>
+      ) : null}
+
+      {dedupedReceiptClaims.length ? (
+        <details class="receipt-drawer" data-no-public-cleanup>
+          <summary>SHOW RECEIPTS</summary>
+          <div class="receipt-list">
+            {dedupedReceiptClaims.map((claim) => (
+              <article class="receipt-item">
+                <header><span>{evidenceLabel(claim.evidence)}</span>{claim.date ? <time>{claim.date}</time> : null}</header>
+                <p>{claim.text}</p>
+              </article>
+            ))}
+          </div>
+        </details>
       ) : null}
     </article>
 
@@ -273,15 +167,23 @@ const evidenceLabel = (value?: string) => value ? value.replaceAll("-", " ").toU
       <div class="infobox-title">{character.name}</div>
       <div class="character-monogram" aria-hidden="true">{character.name[0]}</div>
       <dl>
-        <div class="row"><dt>Primary shelf</dt><dd>{primaryGroup?.label ?? "Archive / Extended Cast"}</dd></div>
-        <div class="row"><dt>Role</dt><dd>{character.role}</dd></div>
-        <div class="row"><dt>Era</dt><dd>{character.era}</dd></div>
-        {character.aliases?.length ? <div class="row"><dt>Aliases</dt><dd>{character.aliases.join(" · ")}</dd></div> : null}
-        {character.tags?.length ? <div class="row"><dt>Tags</dt><dd><div class="chip-row">{character.tags.map((tag) => <span class="chip">{tag}</span>)}</div></dd></div> : null}
+        <div class="row"><dt>Job(s)</dt><dd>{character.role}</dd></div>
+        <div class="row"><dt>First spotted</dt><dd>{firstSpotted}</dd></div>
+        <div class="row"><dt>Last seen</dt><dd title="Latest surviving coverage; not automatically a departure date">{lastSeen}</dd></div>
+        {character.aliases?.length ? <div class="row"><dt>Also answers to</dt><dd>{character.aliases.join(" · ")}</dd></div> : null}
+        {character.tags?.length ? <div class="row"><dt>Known for</dt><dd><div class="chip-row">{character.tags.map((tag) => <span class="chip">{tag}</span>)}</div></dd></div> : null}
       </dl>
-      {bio.roleNotes?.length ? (
-        <div class="infobox-notes"><strong>ROLE NOTES</strong><ul>{bio.roleNotes.map((note: string) => <li>{note}</li>)}</ul></div>
-      ) : null}
+      {bio.roleNotes?.length ? <div class="infobox-notes"><strong>EMPLOYMENT NOTES</strong><ul>{bio.roleNotes.map((note: string) => <li>{note}</li>)}</ul></div> : null}
     </aside>
+  </section>
+
+  <section class="related-module">
+    <div class="related-module-head"><h2>SINCE YOU'RE SNOOPING</h2><p>Every biography should open another door instead of ending at the bottom of a file.</p></div>
+    <div class="related-grid">
+      {relatedCharacters.map((person) => person && <a class="related-card" href={`/characters/${person.id}`}><small>KNOWN ASSOCIATE</small><strong>{person.name}</strong><span>{person.logline}</span></a>)}
+      {appearances[0] ? <a class="related-card" href={`/episodes/${appearances[0].id}`}><small>EPISODE / INCIDENT</small><strong>{appearances[0].title}</strong><span>{appearances[0].date}</span></a> : null}
+      <a class="related-card" href={`/snoop?q=${encodeURIComponent(character.name)}&type=ROOMS`}><small>ELSEWHERE IN THE HOUSE</small><strong>Find the rooms</strong><span>Search where {character.name} keeps appearing.</span></a>
+      <a class="related-card" href={`/snoop?q=${encodeURIComponent(character.name)}`}><small>MUGSHOTS & MORE</small><strong>Snoop the whole file</strong><span>Aliases, quotes, episodes, and Wall-adjacent results.</span></a>
+    </div>
   </section>
 </WikiLayout>

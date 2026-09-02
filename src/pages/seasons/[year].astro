@@ -1,53 +1,70 @@
 ---
 import WikiLayout from "../../layouts/WikiLayout.astro";
-import { seasons, episodes } from "../../data/wiki";
-import { integratedEpisodes } from "../../data/integrator-episodes";
-import { wallIntegratedEpisodes } from "../../data/integrator-episodes-wall-20260828";
-import { whiskeyIntegratedEpisodes } from "../../data/integrator-episodes-whiskey-20260829";
-import { coreIntegratedEpisodes } from "../../data/integrator-episodes-core-20260829";
-import { coreRecovery1535Episodes } from "../../data/integrator-episodes-core-20260829-1535";
-import { allCharactersIntegratedEpisodes } from "../../data/integrator-episodes-allcharacters-20260829";
-import { louvreIntegratedEpisodes } from "../../data/integrator-episodes-louvre-20260829";
-import { lateAugustIntegratedEpisodes } from "../../data/integrator-episodes-20260829-1334";
-import { late1737IntegratedEpisodes } from "../../data/integrator-episodes-20260829-1737";
-import { late2200IntegratedEpisodes } from "../../data/integrator-episodes-20260829-2200";
-import { late2235IntegratedEpisodes } from "../../data/integrator-episodes-20260829-2235";
-import { late2333IntegratedEpisodes } from "../../data/integrator-episodes-20260829-2333";
-import { early0030IntegratedEpisodes } from "../../data/integrator-episodes-20260830-0014";
-import { early0035IntegratedEpisodes } from "../../data/integrator-episodes-20260830-0035";
-import { early0135IntegratedEpisodes } from "../../data/integrator-episodes-20260830-0135";
-import { early0200IntegratedEpisodes } from "../../data/integrator-episodes-20260830-0200";
-import { early0224IntegratedEpisodes } from "../../data/integrator-episodes-20260830-0224";
-import { early0230IntegratedEpisodes } from "../../data/integrator-episodes-20260830-0230";
-import { early0242IntegratedEpisodes } from "../../data/integrator-episodes-20260830-0242";
-import { early0435IntegratedEpisodes } from "../../data/integrator-episodes-20260830-0435";
-import { early0501IntegratedEpisodes } from "../../data/integrator-episodes-20260830-0501";
-import { early0836IntegratedEpisodes } from "../../data/integrator-episodes-20260830-0836";
-import { late1140IntegratedEpisodes } from "../../data/integrator-episodes-20260830-1140";
-import { late1230IntegratedEpisodes } from "../../data/integrator-episodes-20260830-1230";
-import { late1314IntegratedEpisodes } from "../../data/integrator-episodes-20260830-1314";
-import { late1329WallEpisodes } from "../../data/integrator-episodes-20260830-1329-wall";
-import { late1342WallRecoveryEpisodes } from "../../data/integrator-episodes-20260830-1342-wall-recovery";
-import { late1414IntegratedEpisodes } from "../../data/integrator-episodes-20260830-1414";
-import { run57IntegratedEpisodes } from "../../data/integrator-episodes-20260831-0330";
+import { seasons } from "../../data/wiki";
+import { episodesBySeason, episodeFormat } from "../../data/all-content";
+import { ERA_TRANSITIONS } from "../../data/site";
 
 export function getStaticPaths() {
   return seasons.map((season) => ({ params: { year: season.year }, props: { season } }));
 }
 const { season } = Astro.props;
-const allEpisodes = [...episodes, ...integratedEpisodes, ...wallIntegratedEpisodes, ...whiskeyIntegratedEpisodes, ...coreIntegratedEpisodes, ...coreRecovery1535Episodes, ...allCharactersIntegratedEpisodes, ...louvreIntegratedEpisodes, ...lateAugustIntegratedEpisodes, ...late1737IntegratedEpisodes, ...late2200IntegratedEpisodes, ...late2235IntegratedEpisodes, ...late2333IntegratedEpisodes, ...early0030IntegratedEpisodes, ...early0035IntegratedEpisodes, ...early0135IntegratedEpisodes, ...early0200IntegratedEpisodes, ...early0224IntegratedEpisodes, ...early0230IntegratedEpisodes, ...early0242IntegratedEpisodes, ...early0435IntegratedEpisodes, ...early0501IntegratedEpisodes, ...early0836IntegratedEpisodes, ...late1140IntegratedEpisodes, ...late1230IntegratedEpisodes, ...late1314IntegratedEpisodes, ...late1329WallEpisodes, ...late1342WallRecoveryEpisodes, ...late1414IntegratedEpisodes, ...run57IntegratedEpisodes];
-const seasonEpisodes = allEpisodes.filter((episode) => episode.season === season.year);
-const eraNumber = seasons.findIndex((entry) => entry.year === season.year) + 1;
+const seasonEpisodes = episodesBySeason(season.year);
+const eraIndex = seasons.findIndex((entry) => entry.year === season.year);
+const eraNumber = eraIndex + 1;
+const previous = eraIndex > 0 ? seasons[eraIndex - 1] : undefined;
+const next = eraIndex < seasons.length - 1 ? seasons[eraIndex + 1] : undefined;
+const publicTitle = season.title.replace(/^Season [^—]+ — /, "");
 ---
-<WikiLayout title={`${season.title} | Underlords Chronicle`} description={season.summary}>
-  <div class="breadcrumbs"><a href="/seasons">Chronicle</a> / Era {eraNumber} / {season.year}</div>
-  <section class="hero"><div><div class="kicker">ERA {String(eraNumber).padStart(2,"0")} · {season.year}</div><h1>{season.title}</h1><p class="tagline">{season.subtitle}</p></div></section>
+<WikiLayout title={`${season.year}: ${publicTitle} | Underlords`} description={season.summary}>
+  <div class="breadcrumbs"><a href="/seasons">The Fuck Happened</a> / Era {eraNumber} / {season.year}</div>
+  <section class="hero">
+    <div>
+      <div class="kicker">ERA {String(eraNumber).padStart(2, "0")} · {season.year}</div>
+      <h1>{publicTitle}</h1>
+      <p class="tagline">{season.subtitle}</p>
+    </div>
+  </section>
+
   <section class="section detail-layout">
     <article class="detail-main">
-      <h2>What changed</h2><p>{season.summary}</p>
-      <h2 style="margin-top:4rem">Major incidents</h2>
-      {seasonEpisodes.length ? <div class="episode-list">{seasonEpisodes.map((episode)=><a class="episode-row" href={`/episodes/${episode.id}`}><span class="ep-season">{episode.kind}</span><strong>{episode.title}</strong><p>{episode.logline}</p><time>{episode.date}</time></a>)}</div> : <div class="wiki-note">No named incident page yet.</div>}
+      <div class="bio-label">WHAT THE HOUSE BECAME</div>
+      <h2>What changed</h2>
+      <p>{season.summary}</p>
+
+      <div class="bio-label" style="margin-top:4rem">EPISODES & INCIDENTS</div>
+      <h2>What happened in here</h2>
+      {seasonEpisodes.length ? (
+        <div class="episode-list">
+          {seasonEpisodes.map((episode) => (
+            <a class="episode-row" href={`/episodes/${episode.id}`}>
+              <span class="ep-season">{episodeFormat(episode)}</span>
+              <strong>{episode.title}</strong>
+              <p>{episode.logline}</p>
+              <time>{episode.date}</time>
+            </a>
+          ))}
+        </div>
+      ) : <div class="wiki-note">No named incident page yet. The year still exists; filler mythology does not.</div>}
     </article>
-    <aside class="infobox"><div class="infobox-title">{season.title}</div><dl><div class="row"><dt>Era</dt><dd>{eraNumber}</dd></div><div class="row"><dt>Year</dt><dd>{season.year}</dd></div><div class="row"><dt>Theme</dt><dd>{season.subtitle}</dd></div><div class="row"><dt>Incidents</dt><dd>{seasonEpisodes.length} named stories</dd></div></dl></aside>
+
+    <aside class="infobox">
+      <div class="infobox-title">{season.year}</div>
+      <dl>
+        <div class="row"><dt>Era</dt><dd>{eraNumber}</dd></div>
+        <div class="row"><dt>Year</dt><dd>{season.year}</dd></div>
+        <div class="row"><dt>House mood</dt><dd>{season.subtitle}</dd></div>
+        <div class="row"><dt>Named files</dt><dd>{seasonEpisodes.length} episodes / incidents</dd></div>
+      </dl>
+    </aside>
+  </section>
+
+  <section class="related-module era-exit">
+    <div class="related-module-head"><h2>SINCE YOU'RE SNOOPING</h2><p>History is not a hallway with one exit. Follow the cast, rooms, and adjacent years.</p></div>
+    <div class="related-grid">
+      {previous ? <a class="related-card" href={`/seasons/${previous.year}`}><small>PREVIOUSLY</small><strong>{previous.year}</strong><span>{previous.title.replace(/^Season [^—]+ — /, "")}</span></a> : <a class="related-card" href="/start-here"><small>THE FRONT DOOR</small><strong>Start with the mess</strong><span>The six-stop orientation route.</span></a>}
+      <a class="related-card" href={`/snoop?q=${season.year}&type=STRIPPERS`}><small>STRIPPERS</small><strong>Who was in frame?</strong><span>Search people tied to this year.</span></a>
+      <a class="related-card" href="/rooms"><small>ELSEWHERE IN THE HOUSE</small><strong>Walk the rooms</strong><span>See where the year's social life happened.</span></a>
+      {next ? <a class="related-card" href={`/seasons/${next.year}`}><small>NEXT</small><strong>{ERA_TRANSITIONS[season.year] ?? next.year}</strong><span>{next.title.replace(/^Season [^—]+ — /, "")}</span></a> : <a class="related-card" href="/episodes/family-reunion"><small>AFTERLIFE</small><strong>The family reunion</strong><span>The archive catches everybody looking back.</span></a>}
+    </div>
   </section>
 </WikiLayout>

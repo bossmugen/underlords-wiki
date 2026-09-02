@@ -1,26 +1,25 @@
 ---
 import WikiLayout from "../layouts/WikiLayout.astro";
-import { gags } from "../data/wiki";
-import { integratedGags } from "../data/integrator-gags";
-import { wall2126Gags } from "../data/integrator-gags-wall-20260829-2126";
-import { wall0230Gags } from "../data/integrator-gags-wall-20260830-0230";
-import { wall0314Gags } from "../data/integrator-gags-wall-20260830-0314";
-import { wall1414Gags } from "../data/integrator-gags-wall-20260830-1414";
-import { wall0445Gags } from "../data/integrator-gags-wall-20260831-0445";
-import { wall0615Gags } from "../data/integrator-gags-wall-20260831-0615";
-import { wall1530Gags } from "../data/integrator-gags-wall-20260831-1530";
-import { wall1616Gags } from "../data/integrator-gags-wall-20260831-1616";
-
-const allGags = [...gags, ...integratedGags, ...wall2126Gags, ...wall0230Gags, ...wall0314Gags, ...wall1414Gags, ...wall0445Gags, ...wall0615Gags, ...wall1530Gags, ...wall1616Gags];
-const replaceComedyTaxonomy = (value: string) => value.replace(/\b(bits?|gags?)\b/gi, (term) => {
-  const replacement = term.toLowerCase().endsWith("s") ? "jokes" : "joke";
-  if (term === term.toUpperCase()) return replacement.toUpperCase();
-  if (term[0] === term[0].toUpperCase()) return replacement[0].toUpperCase() + replacement.slice(1);
-  return replacement;
-});
-const publicText = (value: string) => replaceComedyTaxonomy(value.replace(/`([^`]+)`/g, '"$1"'));
+import { allGags } from "../data/all-content";
 ---
-<WikiLayout title="Legends | Underlords Wiki" description="Recurring Underlords jokes, rituals, callbacks, names, accusations, and house language that survived long enough to become continuity.">
-  <section class="hero"><div><div class="kicker">LEGENDS · CURSES · CALLBACKS</div><h1>Legends</h1><p class="tagline">First somebody says it. Then it happens again. Then the room starts using the name like everybody was born knowing it. Three years later somebody resurrects it and nobody asks for context.</p></div></section>
-  <section class="section"><div class="index-list">{allGags.map((gag)=><article class="index-card" id={gag.id}><small>PERSISTENT LEGEND</small><h3>{publicText(gag.name)}</h3><p>{publicText(gag.logline)}</p></article>)}</div></section>
+<WikiLayout title="Bullshit | Underlords" description="Recurring Underlords jokes, rituals, callbacks, names, accusations, and house language that survived long enough to become continuity.">
+  <section class="hero">
+    <div>
+      <div class="kicker">NAMES · RITUALS · REPEAT OFFENSES</div>
+      <h1>BULLSHIT</h1>
+      <p class="tagline">First somebody says it. Then it happens again. Then the room uses the name like everybody was born knowing it. Three years later somebody resurrects it and nobody asks for context.</p>
+      <div class="hero-actions"><a class="ul-button secondary" href="/speak-engliah">SPEAK ENGLIAH</a></div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="index-list">
+      {allGags.map((gag) => (
+        <article class="index-card" id={gag.id}>
+          <small>REPEAT OFFENSE</small>
+          <h3>{gag.name}</h3>
+          <p>{gag.logline}</p>
+        </article>
+      ))}
+    </div>
+  </section>
 </WikiLayout>

@@ -4,11 +4,23 @@ import { featuredQuotes } from "../data/wiki";
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 const url = (path: string) => `${base}${path}` || path;
 ---
-<WikiLayout title="Quotes | Underlords Wiki" description="Notable Underlords lines and recurring dialogue.">
-  <section class="hero"><div><div class="kicker">QUOTE BOOK</div><h1>Quotes</h1><p class="tagline">The lines that explain the show faster than a paragraph can.</p></div></section>
-  <section class="section"><div class="quote-wall">
-    {featuredQuotes.map((item)=><article class="quote-card"><blockquote>“{item.quote}”</blockquote><footer>{item.speaker} · {item.context}</footer></article>)}
-    <article class="quote-card"><blockquote>“I nees a good manhwa to wash my brain now”</blockquote><footer><a href={url("/characters/athena")}>Athena</a> · October 2022, after staying up late for an overhyped manhwa she immediately reviewed as <code>soooo baaaad</code>; Mugen redirects the review out of the Wall and toward Whiskey / Simp Here.</footer></article>
-    <article class="quote-card"><blockquote>“I like reading yalls conversions :6squirrelclap:”</blockquote><footer><a href={url("/characters/jordayy")}>Jordayy</a> · January 2021. Almost certainly <em>conversations</em>; the typo stays because the line is better this way. A week earlier she wanted into VC but work got there first. Whiskey could be company even when she was not steering the conversation.</footer></article>
-  </div></section>
+<WikiLayout title="Mouth Crimes | Underlords" description="Notable Underlords lines, fast-finger typos, and recurring dialogue preserved in the speaker's own voice.">
+  <section class="hero">
+    <div>
+      <div class="kicker">THINGS PEOPLE SENT BEFORE REREADING</div>
+      <h1>MOUTH<br/>CRIMES</h1>
+      <p class="tagline">The narrator can use complete sentences. The people get to interrupt in their own voice: fragments, typos, corrections, punctuation crashes, autocorrect betrayal, and all.</p>
+    </div>
+  </section>
+  <section class="section">
+    <div class="quote-wall">
+      {featuredQuotes.map((item, index) => (
+        <article class="quote-card" id={`mouth-crime-${index + 1}`} data-no-public-cleanup>
+          <blockquote>“{item.quote}”</blockquote><footer>{item.speaker} · {item.context}</footer>
+        </article>
+      ))}
+      <article class="quote-card" data-no-public-cleanup><blockquote>“I nees a good manhwa to wash my brain now”</blockquote><footer><a href={url("/characters/athena")}>Athena</a> · October 2022, after staying up late for an overhyped manhwa she immediately reviewed as <code>soooo baaaad</code>; Mugen redirects the review out of the Wall and toward Whiskey / Simp Here.</footer></article>
+      <article class="quote-card" data-no-public-cleanup><blockquote>“I like reading yalls conversions :6squirrelclap:”</blockquote><footer><a href={url("/characters/jordayy")}>Jordayy</a> · January 2021. Almost certainly <em>conversations</em>; the typo stays because the line carries the speed and voice of the scene. A week earlier she wanted into VC but work got there first. Whiskey could be company even when she was not steering the conversation.</footer></article>
+    </div>
+  </section>
 </WikiLayout>

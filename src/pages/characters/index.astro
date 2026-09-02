@@ -33,13 +33,18 @@ const publicGroupLabels: Record<string, string> = {
 const visibleGroups = publicGroupOrder
   .map((id) => castGroups.find((group) => group.id === id))
   .filter((group) => group !== undefined);
+const randomCharacterIds = visibleGroups.flatMap((group) => group?.characterIds ?? []).filter((id) => characterById.has(id));
 ---
-<WikiLayout title="Meet the Strippers | Underlords Wiki" description="Leader, Officers, Retired Officers, DR Officers, Snipers, Executives, Staff, Platelets, and VIPs.">
+<WikiLayout title="Strippers | Underlords" description="The people of Underlords: biographies, aliases, roles, relationships, reputations, habits, and Petty Crimes.">
   <section class="hero cast-hero">
     <div>
-      <div class="kicker">CHARACTER CODEX</div>
-      <h1>Meet the Strippers</h1>
-      <p class="tagline">Leader, Officers, Retired Officers, DR Officers, Snipers, Executives, Staff, Platelets, and VIPs.</p>
+      <div class="kicker">MEET THE CLOWNS RESPONSIBLE</div>
+      <h1>STRIPPERS</h1>
+      <p class="tagline">The archive matters because somebody lived in it. Start with the people; the rooms, incidents, jobs, screenshots, relationships, and six-year mythology will follow them into frame.</p>
+      <div class="hero-actions">
+        <a class="ul-button secondary" href="/clown-car">OPEN THE CLOWN CAR</a>
+        <a class="ul-button secondary" id="random-stripper" href="/snoop?type=STRIPPERS">RANDOM CLOWN</a>
+      </div>
     </div>
   </section>
 
@@ -65,9 +70,9 @@ const visibleGroups = publicGroupOrder
                 <span>{character.era}</span>
               </div>
               <strong>{character.name}</strong>
-              {character.aliases?.length ? <div class="cast-aliases">{character.aliases.slice(0,3).join(" · ")}</div> : null}
+              {character.aliases?.length ? <div class="cast-aliases"><b>ALSO ANSWERS TO</b> {character.aliases.slice(0, 3).join(" · ")}</div> : null}
               <p>{character.logline}</p>
-              <div class="cast-card-footer">OPEN CODEX ENTRY <b>→</b></div>
+              <div class="cast-card-footer">OPEN FILE <b>→</b></div>
             </a>
           ))}
         </div>
@@ -76,6 +81,16 @@ const visibleGroups = publicGroupOrder
   })}
 
   <section class="section cast-rule">
-    <div class="section-head"><h2>One person. One continuity.</h2><p>Ranks change. Accounts change. Display names mutate. The character file follows the person.</p></div>
+    <div class="section-head"><h2>One clown. One continuity.</h2><p>Ranks change. Accounts change. Display names mutate. Corrections and aliases follow the person instead of spawning duplicate people in fake mustaches.</p></div>
   </section>
+
+  <script define:vars={{ randomCharacterIds, base }}>
+    const randomStripper = document.querySelector('#random-stripper');
+    randomStripper?.addEventListener('click', (event) => {
+      if (!randomCharacterIds.length) return;
+      event.preventDefault();
+      const id = randomCharacterIds[Math.floor(Math.random() * randomCharacterIds.length)];
+      window.location.href = `${base}/characters/${id}`;
+    });
+  </script>
 </WikiLayout>
