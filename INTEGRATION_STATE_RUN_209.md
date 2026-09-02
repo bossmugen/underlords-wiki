@@ -47,6 +47,10 @@ Tae's **`fast with it`** is structurally closed as a true Reply to Sou's attachm
 
 **WIKI:** reader-facing changes from this Wall tail: **0**. Existing Panda material already owns the structured relationship pattern; this run records reconciliation and rabbit closure only.
 
-## Verification gate
+## Verification
 
-This run changes integration state only. The exact closing `main` commit must pass the repository's existing Build and Pages workflows, including deployment, before the run is reported as green.
+MAIN state commit `b9ef8e8b1be6d2eb4ace05ba80a75df3f833cf1e` passed exact workflow **33617919346**: source canon/architecture verification, Astro build, built-output verification, and exact Cloudflare Pages production deployment all succeeded.
+
+WIKI state commit `69d54893303ebb97aa2867d6c17df6475fabb71a` passed exact Build **33617998809** and exact Pages **33617998909**, including the actual **Deploy to GitHub Pages** job.
+
+A full closing remote-branch listing still showed the same 28 active miner refs. Wall remained exactly at `6350da3305c793ca8eac21d991e40277017b866a`; both Club-Only recovery heads were unchanged. No unread suffix was present at that verification boundary.
