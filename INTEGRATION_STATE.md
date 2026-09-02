@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-02 00:32 PDT_
+_Last updated: 2026-09-02 00:35 PDT_
 
 This is the rolling dual-surface reconciliation snapshot. Older detail remains in Git history and run-specific integration records. MAIN's controlling branch-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`.
 
@@ -18,6 +18,7 @@ Mandatory census tracked **49 miner identities = 28 active refs + 21 historical/
 - Whiskey `2f55a9abb60fb04d4cd1464ce039190e704f9bd4 → f5ce89640627c9a465bcd3118bc53c483896447b`.
 - Wall first tail `ec07d0618f198d11995ab612b4a016af2171af0c → 253b63b3f7abd7d16e25fc69863faa9eb22341bf`, then late tail `253b63b3f7abd7d16e25fc69863faa9eb22341bf → 245403178c7599d30571e8fd3561fa7bad1fb730`.
 - Daycare late tail `59ed28bf07261a12e5d0d7d44a15adf07f8974a5 → ae2c0df406425518ed62b9a67fa42d94441bc671`.
+- Mugen person-first late tail `b4aca034bcd368c91c294e50060659e902b663aa → d1f979766a5cc480f729022b039cccb837525b6e`.
 
 Closing finite queue after these reviews is **0 pending review, 0 pending publication, 0 backlog, 0 overdue**. Wall remains `recovery_in_progress` only because that quarry may move again; the current reviewed Wall head is consumed. Both Club-Only recovery priorities remain current.
 
@@ -57,6 +58,14 @@ MAIN folds that into Snow's biography at `4b6696ec5b7a2befd0526f1922fcdae640670a
 
 WIKI intentionally gets **no standalone Snow Episode** from this packet. The durable value is lived-role/person texture, while the adjacent Daycare endurance-bot rabbit is still unresolved. Snow issued the configuration commands; Saber created/reported the event object; later Carl-bot/Snowden output carrying the same name does not prove Snow personally maintained it through 2023 or identify the later endurance target. The event title is joke language, not evidence of literal physical or sexual conduct.
 
+### Mugen late tail — consumed as character corroboration, not paragraph mitosis
+
+The Mugen miner joined two 2020 mistakes into a cleaner repair-style read. The already-public Degen Rat scene has Mugen confidently misidentify somebody as Feli, accept the correction, ask `Which one are you?`, recognize `i was dongwoo`, answer `DONGWOOOO`, then `my bad 😄` and restart the welcome. The new comparator is Woohyuk publicly yelling that Mugen locked him out / removed his VIP; when Ren pulls Mugen into the thread, Mugen's surviving explanation is simply `took out wrong tag`.
+
+The cumulative read is strong/probable: around small mistakes, Mugen can let the correction stay small rather than staging a Boss-shaped prestige defense. But current public Mugen already interprets the Degen Rat correction as low-ego, low-friction repair. A second chronology paragraph would add receipt weight more than character. The tail is therefore consumed as corroboration with **no new MAIN paragraph and no WIKI Episode**.
+
+Hard fences: wrong tag is not intentional punishment/demotion and not a proven misclick; caps / `😔` do not prove serious anger; two easy repairs do not establish `always admits mistakes`, `no ego`, `humble`, or `never defensive`. The Woohyuk source-native IDs, exact timestamps/channel, reply topology, and restoration step remain open.
+
 ### WIKI Running Gag — collection before the clean label
 
 The Wall structured gag carries the earlier December 2020 positive-collection language (`One best moments xd`, `1 more for the collection UwU`), Pride's December 9 explicit `not shame` → `proud moment` appeal, Ren's later literal Fame grammar, mercy-clause/belonging behavior, fake jurisdiction, tenancy/speedrun folklore, and Spicy Hotpot's 2021 self-audit (`Nah, you probably put me here ages ago` / `I knew it`). The useful searchable split is now explicit: positive collection culture predates the currently recovered literal live Fame label, and Pride's appeal makes the positive counter-classification explicit without manufacturing an origin story.
@@ -77,6 +86,7 @@ MAIN's controlling ledger closes this cycle with:
 - Whiskey consumed through `f5ce89640627c9a465bcd3118bc53c483896447b`.
 - Wall consumed through `245403178c7599d30571e8fd3561fa7bad1fb730` while retaining `recovery_in_progress` only as an open future quarry.
 - Daycare consumed through `ae2c0df406425518ed62b9a67fa42d94441bc671`.
+- Mugen person-first consumed through `d1f979766a5cc480f729022b039cccb837525b6e` as reviewed corroboration/no-public-change.
 
 No miner branch was merged or cherry-picked wholesale; only changed `archive-intake/*` handoffs were reviewed.
 
@@ -97,6 +107,7 @@ WIKI Pride-gag reader head `55895051059b07589cf5c8ab697b946a8a3f1720` passed Bui
 - `影の戦士` remains an ultra-thin spectator/reactor seed, not a stable temperament or close-relationship claim.
 - Daycare RH16 target bot remains unresolved; routine event persistence is not continuous Snow maintenance.
 - `faoaf` and `evermore` remain inspected but underwritten, not profile-ready.
+- Mugen/Woohyuk raw source-native join remains open; do not upgrade `wrong tag` into a mechanism beyond Mugen's words.
 - Wall visual provenance remains source-specific; POSTED BY / MADE BY / CAPTURED BY / FEATURING do not collapse together.
 - Historical/current role arrays are not appointment chronology.
 - Missing raw Discord IDs remain missing, never invented.
