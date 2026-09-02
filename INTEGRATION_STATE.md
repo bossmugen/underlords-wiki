@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-02 10:50 PDT_
+_Last updated: 2026-09-02 10:56 PDT_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. This file records the WIKI-side reconciliation boundary and surface-routing decisions.
 
@@ -19,6 +19,10 @@ Current reviewed heads:
 
 Wall remains `recovery_in_progress` because the quarry may move again; its current head is reviewed and consumed. Both Club-Only recovery priorities remain current.
 
+### Latest census-only pass
+
+A fresh project-wide miner census found **no active miner branch advanced beyond its already-consumed head**. No reader-facing MAIN or WIKI lore changed in this pass. The MAIN branch ledger was still refreshed so `last_seen_sha` and `last_consumed_sha` remain explicitly distinct and current rather than silently assuming a quiet hour means a completed census.
+
 ## Surface routing this close
 
 **Rose / DarkAsrai:** MAIN owns the rich person-first QOTD follow-through and Moon-care texture. WIKI owns the structured Episode **Twenty QOTDs and the Word Document**. Reader verification at `353ba4133423152c4271082e1bebb9723350843e`: Build `33659530841` succeeded and Pages `33659530813` succeeded.
@@ -36,6 +40,8 @@ Wall remains `recovery_in_progress` because the quarry may move again; its curre
 ## No-public-change decisions
 
 Mia's 2024 endpoint corroborates an already-public MAIN mechanism. Mugen's two small ordinary-life facts are banked instead of interrupting the biography spine. Thin people remain thin rather than being inflated into profiles. No extra Gabu Episode was created because the value is cumulative character texture, not a discrete event.
+
+The latest census-only pass likewise made no reader-facing changes because every active miner branch still matched its recorded consumed SHA. Quiet branches were not re-mined and no duplicate prose was generated merely to prove the integrator ran.
 
 ## Hard rails held
 
