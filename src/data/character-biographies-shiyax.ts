@@ -32,6 +32,22 @@ export const shiyaxNarrativeCharacterBios: Record<string, CharacterNarrative> = 
         ]
       },
       {
+        period: "October–November 2021",
+        title: "RUNNING GAG — WHO WAS ON MY ACCOUNT?",
+        paragraphs: [
+          "ShiyaX discovers an alibi in October and apparently decides it is reusable software. Nelph files evidence; ShiyaX replies `hmm whos on my account ?`. Roughly twenty-four minutes later a separate post lands and the defense returns as `Ok who was on my account :Cat_Gun:`. On November 1 Nelph files again, Ren asks `*fatha what’s this*`, and ShiyaX true-replies `Someone else was on my account bbg`.",
+          "The November sequence supplies the wink without requiring us to inspect the screenshots. Four seconds after the account alibi, ShiyaX answers a nearby accusation from an unresolved Deleted User with `Shhhhh`. He does not deploy the defense and leave the room; he keeps reacting and joking inside the prosecution. The useful recurring mechanism is theatrical authorship-denial: deny, remain present, make the denial part of the entertainment.",
+          "This is not evidence of actual account compromise, credential sharing, or security history. `fatha` remains joke-family language only. Screenshot pixels remain uninspected, and POSTED BY does not become MADE BY / CAPTURED BY / FEATURING."
+        ]
+      },
+      {
+        title: "RELATIONSHIPS — NELPH / REN",
+        paragraphs: [
+          "Nelph is the identifiable repeat filer across both dated alibi pockets, which gives the relationship an actual recurring verb: Nelph brings the case; ShiyaX reaches for the same counterfeit defense. That supports comfortable Wall prosecution/teasing, not a friendship ranking or private-closeness claim.",
+          "Ren's November `*fatha what’s this*` receives ShiyaX's account-alibi reply directly. The family word is part of the joke grammar, not literal kinship. The clean relationship evidence is that Ren knows how to question the defendant and ShiyaX knows exactly which defense to hand back."
+        ]
+      },
+      {
         period: "Ordinary life",
         title: "EVEN DINNER GETS DRAFTED INTO THE BIT",
         paragraphs: [
@@ -44,6 +60,7 @@ export const shiyaxNarrativeCharacterBios: Record<string, CharacterNarrative> = 
         title: "PETTY CRIMES",
         paragraphs: [
           "ShiyaX has yelled `AUUUUU`, lost a fight to one lobster, announced `Not to brag but i have all there is to buy on gta`, bought GTA material `for when you are able to play`, doodled until his own finger revoked the drawing permit, announced `I AM THE CHAOS`, and asked a room full of people with a documented horse problem whether the horses were the toys. He also admits `I pilot 3 accounts :ZenitsuCry:`; the surviving line never tells us which game, so the wiki files it under self-created administrative burden instead of inventing a platform. This is a perfectly respectable résumé if nobody asks follow-up questions.",
+          "`Who Was On My Account?` now has its own repeat-offender status: two October defenses, one November recurrence, and a `Shhhhh` deployed immediately after the later alibi. This is fake-alibi theater, not a security incident. Apparently three accounts were not enough administrative complexity, so counsel has added a mystery operator.",
           "He also has a useful habit of letting the joke hit him back. Old Wall material can be resurrected around him, somebody can ask why so much evidence is about him, and `shh` is apparently considered a sufficient legal defense.",
           "`stop attacking the bus` remains one of the cleaner examples of ShiyaX entering a running joke late and somehow sounding like the exhausted municipal authority assigned to it. He was not. Unfortunately the bus still needed representation."
         ]
