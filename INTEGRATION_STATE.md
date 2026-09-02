@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-01 23:14 PDT_
+_Last updated: 2026-09-02 00:14 PDT_
 
 This is the rolling dual-surface reconciliation snapshot. Older detail remains in Git history and run-specific integration records. MAIN's controlling branch-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`.
 
@@ -9,6 +9,40 @@ This is the rolling dual-surface reconciliation snapshot. Older detail remains i
 MAIN owns rich person-first biographies, lived chronology, relationship texture, and `Petty Crimes`. WIKI owns complementary Cast structure, role progression, Relationships, Episodes, Running Gags, Quotes, Locations, Gallery/media notes, and searchable reference. Do not mirror identical prose between surfaces.
 
 User-confirmed canon, resolved identities, privacy/safety boundaries, explicit contradictions, attribution fences, and formal appointment chronology remain hard. Ordinary contextual inference remains publishable under the project standard. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain separate. Earliest surviving material is not automatically origin.
+
+## Run 199 reviewed work
+
+Mandatory census tracked **49 miner identities = 28 active refs + 21 historical/missing**, with **0 newly discovered**. Run 199 reviewed three advanced refs checkpoint-first and intake-only:
+
+- Core Rooms `740b1c95a78ce575ab98f2e2546463b26cdb57d3 → 4a48146e72528c23530e01f96db5565730c0f633`.
+- Whiskey `2f55a9abb60fb04d4cd1464ce039190e704f9bd4 → f5ce89640627c9a465bcd3118bc53c483896447b`.
+- Wall `ec07d0618f198d11995ab612b4a016af2171af0c → 253b63b3f7abd7d16e25fc69863faa9eb22341bf`.
+
+Closing finite queue is **0 pending review, 0 pending publication, 0 backlog, 0 overdue**. Wall remains `recovery_in_progress` only because the quarry may advance again; its current head is consumed. Both Club-Only recovery priorities remain current.
+
+### MAIN-only person integration — Ryan X
+
+Wall supplied enough repetition for a real person-shaped read rather than another isolated screenshot anecdote. Ryan X / `ryanx3072` says `i talked too much in wc`, later compresses Pride's `They are always watching` into the one-word `CCTV`, gets repeatedly mock-policed by Gilli (`-calls FBI-`, `STFU LOL`), and keeps participating. On April 7 he also facepalms seconds after his own crude punchline, which is almost offensively efficient character writing: offender and quality-control department are the same employee.
+
+MAIN integrated that as a compact-punchline / self-aware-offender biography at reader commit `7c72c9afaea0b7a415d58a899c1e26b5f5b0198c`; `0477cd19a802c454a230db394c0948b1309cf409` keeps unresolved formal roster categorization from leaking into the public index.
+
+WIKI intentionally receives **no new Cast dossier or Episode** from this packet. Ryan's social behavior is publishable; his formal/current roster classification is not clean enough to invent a structured Cast placement just to force symmetry. The existing WIKI architecture can wait for a safer entity boundary.
+
+Hard fences: `wc` remains unresolved; `CCTV` is strong local continuation without a structured reply arrow; Gilli's mock-policing is comfortable banter, not formal discipline, hostility, romance, or rank; the crude punchline is joke language only, not sexual history or preference.
+
+### MAIN-only person integration — Spicy Hotpot / Joshx
+
+Whiskey supplied a compact outsider-insider file. Stable account `_spicyhotpot` self-introduces as `I'm Joshx, I'm not from your server, but I fanboy for Kinou`, while Gilli has already greeted him with `HI JOSH!`. The ordering is the useful part: institutional outside status and social recognition coexist. Later person-targeted links, `Please go easy on me tomorrow`, and drink-water / eat-food reminders continue the same low-exposition habit — he talks as if the relevant person already has the premise loaded.
+
+MAIN integrated that person-first biography at `d574f1447f5e0de499bfbb72df4225f9d4efd2c3`; `0b55d397fef42b16e3ea3d55b83f0ce65f72161e` keeps unresolved formal roster categorization out of the uncategorized public index.
+
+WIKI again gets **no forced Cast dossier**. `I'm not from your server` is a 2020 doorway statement, not a permanent outsider lock, but it is also not permission to invent later UL membership. `fanboy for Kinou` remains admiration/joke language, not romance or formal sponsorship. The unresolved `tomorrow` activity and reminder target stay unresolved; no media-maker provenance was inferred.
+
+### Core Rooms — consumed without receipt mitosis
+
+Core's strongest candidate families were already public or already concurrently reconciled. Beowulf / jeregilgamesh's progression from needing directions to eventually helping route people is already part of his MAIN person arc. Nothien's care-with-boundaries material was already folded into MAIN. FuentesKaede remains held after a short-lived draft because identity reconciliation is not clean enough to bridge safely. The remaining Hic/Kiro, Nelph, Lithium_Darko, Yummibears, and other seeds were corroborative, bounded, or too small to improve current public pages this run.
+
+No WIKI reader mutation was made from Core. That is deliberate review, not starvation.
 
 ## Run 196 census-only boundary
 
@@ -58,12 +92,15 @@ Kaede, HyaLuna, Ritha, Feli, and Nemo/Namo remained bounded negatives / already-
 
 ## Verification / deployment
 
-WIKI final reader head `3e076fdeb93aa45a038d97e39ed73301d315f493` passed Build workflow `33597429766` and Pages workflow `33597429807`, both with conclusion `success`; Pages deployment completed successfully.
+Run 199 verification/deployment details are recorded in the run-specific state snapshot after exact-head CI closes. Prior Run 195 WIKI reader head `3e076fdeb93aa45a038d97e39ed73301d315f493` passed Build workflow `33597429766` and Pages workflow `33597429807`, both with conclusion `success`; Pages deployment completed successfully.
 
-MAIN's controlling branch ledger advances All Characters HR consumed state through `c2e167d092468ecda8a87026610703de126edb43` only after those WIKI accepted changes passed verification.
+MAIN's controlling branch ledger advances Run 199 Core, Whiskey, and Wall consumed state through `4a48146e72528c23530e01f96db5565730c0f633`, `f5ce89640627c9a465bcd3118bc53c483896447b`, and `253b63b3f7abd7d16e25fc69863faa9eb22341bf` respectively.
 
 ## Held rabbits / hard rails
 
+- Ryan X: `wc` remains unresolved; reacquire exact structured reply parents where possible.
+- Spicy Hotpot: later membership state, exact `tomorrow` activity, reminder target, and broader Kinou/Gilli connection remain open.
+- FuentesKaede identity reconciliation remains held; do not bridge from similar naming alone.
 - Reacquire exact Ricochet sushi prompt date/raw ID/reply graph if available; current peer-memory synthesis does not need to be downgraded meanwhile.
 - Yumi April Whiskey exact raw IDs/full parent context remain open; no motive invention.
 - Illien June 13 exact raw IDs and recipient-side testimony remain useful future quarry.
