@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-01 19:45 PDT_
+_Last updated: 2026-09-01 19:46 PDT_
 
 This is the current durable dual-surface reconciliation snapshot. Older pass detail remains in Git history and run-specific integration-state files. MAIN's controlling branch-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`.
 
@@ -8,7 +8,7 @@ This is the current durable dual-surface reconciliation snapshot. Older pass det
 
 MAIN owns rich person-first biography and `Petty Crimes`; WIKI owns complementary structured Cast, role progression, Relationships, Episodes, Running Gags, Quotes, Locations, and media notes. Do not mirror prose between surfaces. User-confirmed canon, resolved identities, privacy/safety boundaries, explicit contradictions, formal appointment chronology, and attribution fences remain hard; ordinary contextual inference remains publishable under the project standard.
 
-Run 185's mandatory census tracked **49 miner identities = 28 active refs + 21 historical/missing**, with **0 newly discovered**. The two advanced branches were reviewed checkpoint-first and intake-only: Wall recovery from `74fd9c0b…` through `6477a5f7…`, and Mugen person-first from `2e656996…` through the final close-state head `4d1c13ef…`. Both Club-Only recovery priorities remain current. Final reviewed boundary: **0 pending review, 0 pending publication, 0 backlog, 0 overdue** once MAIN's controlling state records the verified consumption close.
+Run 185's mandatory census tracked **49 miner identities = 28 active refs + 21 historical/missing**, with **0 newly discovered**. The two advanced branches were reviewed checkpoint-first and intake-only: Wall recovery from `74fd9c0b…` through `6477a5f7…`, and Mugen person-first from `2e656996…` through the final close-state head `4d1c13ef…`. Both Club-Only recovery priorities remain current. Final reviewed boundary: **0 pending review, 0 pending publication, 0 backlog, 0 overdue**; MAIN's controlling ledger now records both reviewed heads as consumed.
 
 Current reviewed boundaries:
 
@@ -83,4 +83,4 @@ MAIN already has both mechanisms in Daya's person-first biography (`THE GUILD GR
 
 MAIN reader-bearing commit `bf984a251fe7d31410b804cd12bfc4962e19e423` passed exact source canon/architecture verification, Astro build, built-output verification, and exact production deployment in `UL Hourly Build + Deploy` run `33584258850`.
 
-This WIKI commit is state-only: no reader-facing `src/` data changed in Run 185. Its exact Build and Pages results must be checked before the run is closed in MAIN's controlling branch-consumption ledger.
+WIKI Run-185 reconciliation commit `64c4845a092b2e8a82b33dc01301d324f6abac6b` is state-only and passed exact Build run `33584407616` plus exact Pages run `33584407578`; the Pages workflow completed build, `Deploy to GitHub Pages`, and report successfully. No Run-185 reader-facing WIKI source data changed.
