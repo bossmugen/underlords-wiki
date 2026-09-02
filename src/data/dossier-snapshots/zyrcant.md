@@ -1,6 +1,7 @@
 ---
 name: "Zyrcant"
 aliases:
+  - "Akariel"
   - "Akariel™"
   - "akariel_star"
 pronouns: "she/her"
@@ -41,6 +42,13 @@ claims:
       - label: "👅 Wall · 2021-07-05"
         href: "/channels/wall"
     note: "The earlier cause of Tofu's soul-taking accusation is not reconstructed. `Satan` is Tofu's scene-level address here, not a proven durable nickname."
+  - text: "On July 25, 2021, the Akariel / Zyrcant account posted an uninspected attachment with `This was a convo I had with my BF xD`; Mugen replied directly to that exact Wall parent with `Tru lub`."
+    evidence: "archive-confirmed"
+    date: "2021-07-25"
+    sources:
+      - label: "👅 Wall · 2021-07-25"
+        href: "/channels/wall"
+    note: "Zyrcant is SAID BY and POSTED BY. The attachment remains uninspected; MADE BY / CAPTURED BY / FEATURING and the other person's identity remain unresolved. This indexes voluntary self-filing, not private-chat contents or sexuality/current relationship status."
   - text: "On October 4, 2021, the same Akariel™ / Zyrcant account wrote `im the one person who tackles ppl` and, seven seconds later, `and im tackling gabu in this case`."
     evidence: "archive-confirmed"
     date: "2021-10-04"
@@ -56,13 +64,14 @@ claims:
         href: "/channels/voice-challenge"
     note: "The song is selected persona material. Asking Han for editing help supports Han's Media Director function; it does not create a special production rank for Zyrcant."
 antiFanon:
-  - "Zyrcant is a woman; Akariel™ / akariel_star are aliases/account forms, not separate people."
+  - "Zyrcant is a woman; Akariel / Akariel™ / akariel_star are aliases/account forms, not separate people."
   - "Zyrcant was Rich's deputy in Amaurot; do not flatten her into a random outside visitor with no institutional history."
   - "Amaurot later merged under UL, but that does not automatically make Zyrcant a UL Officer or transfer her old deputy rank into UL command."
   - "Do not invent an exact merger date until a dated archive source or user correction supplies one."
   - "Mugs-confirmed `adores UL` is relationship/culture canon, not a formal role or closeness ranking."
   - "The Kahoot result is one event result, not a permanent ranking of intelligence, competence, or importance."
   - "Tofu's `Satan` is scene-local. Do not promote it into a stable Zyrcant alias or reconstruct the missing soul-taking premise."
+  - "The July 25 self-filing establishes a voluntary Wall submission. Do not expose the private attachment, identify the other person, infer sexuality/current relationship status, or promote POSTED BY into MADE BY / CAPTURED BY / FEATURING."
   - "`tackles ppl` / `tackling gabu` is Zyrcant's authored joke language in one Wall scene. It does not establish literal physical aggression, a formal tackling role, or unusual closeness to Gabu."
   - "Voice Challenge song selection is self-presentation material, not a literal biography or personality diagnosis."
 relatedPeople:
