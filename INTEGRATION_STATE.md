@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-02 00:26 PDT_
+_Last updated: 2026-09-02 00:32 PDT_
 
 This is the rolling dual-surface reconciliation snapshot. Older detail remains in Git history and run-specific integration records. MAIN's controlling branch-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`.
 
@@ -10,15 +10,16 @@ MAIN owns rich person-first biographies, lived chronology, relationship texture,
 
 User-confirmed canon, resolved identities, privacy/safety boundaries, explicit contradictions, attribution fences, and formal appointment chronology remain hard. Ordinary contextual inference remains publishable under the project standard. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain separate. Earliest surviving material is not automatically origin.
 
-## Run 199 + late Wall continuation
+## Current reviewed boundary
 
-Mandatory census tracked **49 miner identities = 28 active refs + 21 historical/missing**, with **0 newly discovered**. Run 199 reviewed three advanced refs checkpoint-first and intake-only:
+Mandatory census tracked **49 miner identities = 28 active refs + 21 historical/missing**, with **0 newly discovered**. This cycle reviewed changed intake only, checkpoint-first:
 
 - Core Rooms `740b1c95a78ce575ab98f2e2546463b26cdb57d3 → 4a48146e72528c23530e01f96db5565730c0f633`.
 - Whiskey `2f55a9abb60fb04d4cd1464ce039190e704f9bd4 → f5ce89640627c9a465bcd3118bc53c483896447b`.
-- Wall `ec07d0618f198d11995ab612b4a016af2171af0c → 253b63b3f7abd7d16e25fc69863faa9eb22341bf`.
+- Wall first tail `ec07d0618f198d11995ab612b4a016af2171af0c → 253b63b3f7abd7d16e25fc69863faa9eb22341bf`, then late tail `253b63b3f7abd7d16e25fc69863faa9eb22341bf → 245403178c7599d30571e8fd3561fa7bad1fb730`.
+- Daycare late tail `59ed28bf07261a12e5d0d7d44a15adf07f8974a5 → ae2c0df406425518ed62b9a67fa42d94441bc671`.
 
-A fresh Wall suffix landed after that close and was then reviewed checkpoint-first/intake-only: `253b63b3f7abd7d16e25fc69863faa9eb22341bf → 245403178c7599d30571e8fd3561fa7bad1fb730`. It materially advanced Pride and Wall chronology; the ultra-thin `影の戦士` spectator/reactor seed remained below profile threshold.
+Closing finite queue after these reviews is **0 pending review, 0 pending publication, 0 backlog, 0 overdue**. Wall remains `recovery_in_progress` only because that quarry may move again; the current reviewed Wall head is consumed. Both Club-Only recovery priorities remain current.
 
 ### MAIN person-first — Ryan X
 
@@ -42,33 +43,50 @@ The late Wall tail turns Pride's existing spectator / Wall-literacy material int
 
 MAIN integrates the human version at `9ec992712a8d3a962c00b6e9bee8b5feaed72672`: exposure becomes self-ownership, then appeal, then advertising. The little sip after the boast is the tell; Pride is not retreating from the Wall so much as trying to win jurisdiction over what the filing means.
 
-WIKI keeps the complementary chronology in `src/data/integrator-gags-z-run199.ts`. Commit `55895051059b07589cf5c8ab697b946a8a3f1720` records December 9, 2020 as the earliest currently recovered **explicit positive counter-classification in a specific Wall scene** — not shame, proud — while March 13, 2021 remains the earliest currently recovered **literal specific-scene `wall of fame` classification** in this reviewed family. Earliest recovered remains not-origin. Pride did not get crowned inventor of Fame because one excellent defendant found an appellate loophole.
+WIKI keeps the complementary chronology in `src/data/integrator-gags-z-run199.ts`. Reader commit `55895051059b07589cf5c8ab697b946a8a3f1720` records December 9, 2020 as the earliest currently recovered **explicit positive counter-classification in a specific Wall scene** — not shame, proud — while March 13, 2021 remains the earliest currently recovered **literal specific-scene `wall of fame` classification** in this reviewed family. Earliest recovered remains not-origin. Pride did not get crowned inventor of Fame because one excellent defendant found an appellate loophole.
 
-Hard fences: the neighboring media remains uninspected; local chronology is not a stored reply arrow; the boast does not become literal sexual history; the edited message's edit diff is unavailable; no Fame-origin claim is made.
+Hard fences: neighboring media remains uninspected; local chronology is not a stored reply arrow; the boast does not become literal sexual history; the edited message's edit diff is unavailable; no Fame-origin claim is made.
+
+### MAIN-only lived role — Snow makes the joke operational
+
+Daycare's newest person-first packet deepens Snow beyond the generic `technical guy` label. On September 22, 2020 he repeatedly creates, retries, and edits recurring Saber schedules when syntax or timing is wrong: he changes repeat days, start times, checks settings, and simply keeps going. In the same control session he creates the weekly Saturday event `Spank Mugs Booty`; Saber confirms event ID `m1k2w9`.
+
+The character contradiction is the point. Snow's precision does not compete with the clownery; precision is how the clownery becomes durable. Syntax failure does not become a prestige emergency. He fixes the syntax until the stupid thing has a recurrence rule and, eventually, a database identity.
+
+MAIN folds that into Snow's biography at `4b6696ec5b7a2befd0526f1922fcdae640670a0d` under the person-shaped section `HE WILL MAKE THE JOKE OPERATIONAL`.
+
+WIKI intentionally gets **no standalone Snow Episode** from this packet. The durable value is lived-role/person texture, while the adjacent Daycare endurance-bot rabbit is still unresolved. Snow issued the configuration commands; Saber created/reported the event object; later Carl-bot/Snowden output carrying the same name does not prove Snow personally maintained it through 2023 or identify the later endurance target. The event title is joke language, not evidence of literal physical or sexual conduct.
 
 ### WIKI Running Gag — collection before the clean label
 
-The Wall structured gag also carries the earlier December 2020 positive-collection language (`One best moments xd`, `1 more for the collection UwU`), Ren's later explicit Fame grammar, mercy-clause/belonging behavior, fake jurisdiction, tenancy/speedrun folklore, and Spicy Hotpot's 2021 self-audit (`Nah, you probably put me here ages ago` / `I knew it`). The important split is now searchable: positive collection culture appears before the currently recovered literal live Fame label, and Pride's December 9 appeal makes the positive counter-classification explicit without manufacturing an origin story.
+The Wall structured gag carries the earlier December 2020 positive-collection language (`One best moments xd`, `1 more for the collection UwU`), Pride's December 9 explicit `not shame` → `proud moment` appeal, Ren's later literal Fame grammar, mercy-clause/belonging behavior, fake jurisdiction, tenancy/speedrun folklore, and Spicy Hotpot's 2021 self-audit (`Nah, you probably put me here ages ago` / `I knew it`). The useful searchable split is now explicit: positive collection culture predates the currently recovered literal live Fame label, and Pride's appeal makes the positive counter-classification explicit without manufacturing an origin story.
 
 ### Core Rooms — consumed without receipt mitosis
 
 Core's strongest candidate families were already public or concurrently reconciled. Beowulf / jeregilgamesh's progression from needing directions to eventually helping route people is already part of his MAIN person arc. Nothien's care-with-boundaries material was already folded into MAIN. FuentesKaede remains held because identity reconciliation is not clean enough to bridge safely. Remaining Hic/Kiro, Nelph, Lithium_Darko, Yummibears, and other seeds were corroborative, bounded, or too small to improve current public pages in this pass.
 
+### Daycare negatives kept negative
+
+`faoaf` and `evermore` were deliberately inspected but only onboarding material was recoverable in the current representation; neither gets a personality profile from a form. The quiet Wall control on March 2, 2023 is genuinely tiny and produces no synthetic `Wall chaos` story. RH16 remains open: represented `saber_control` traffic through March 4, 2023 is routine Carl-bot/Snowden event output, which weakens adjacency theories rather than identifying the endurance target.
+
 ## Consumption state
 
-MAIN's controlling ledger is expected to close this cycle with:
+MAIN's controlling ledger closes this cycle with:
 
 - Core Rooms consumed through `4a48146e72528c23530e01f96db5565730c0f633`.
 - Whiskey consumed through `f5ce89640627c9a465bcd3118bc53c483896447b`.
 - Wall consumed through `245403178c7599d30571e8fd3561fa7bad1fb730` while retaining `recovery_in_progress` only as an open future quarry.
+- Daycare consumed through `ae2c0df406425518ed62b9a67fa42d94441bc671`.
 
-Closing finite queue after the late Wall review: **0 pending review, 0 pending publication, 0 backlog, 0 overdue**. Both Club-Only recovery priorities remain current. No miner branch was merged or cherry-picked wholesale; only changed `archive-intake/*` handoffs were reviewed.
+No miner branch was merged or cherry-picked wholesale; only changed `archive-intake/*` handoffs were reviewed.
 
 ## Verification / deployment
 
-MAIN Pride reader head `9ec992712a8d3a962c00b6e9bee8b5feaed72672` passed exact workflow `33603073018`: source canon/architecture verification, Astro build, built-output verification, and `Deploy and verify exact production commit` on Cloudflare Pages all succeeded.
+MAIN Pride reader head `9ec992712a8d3a962c00b6e9bee8b5feaed72672` passed exact workflow `33603073018`: source canon/architecture verification, Astro build, built-output verification, and exact Cloudflare production deployment all succeeded.
 
-WIKI Pride-gag reader head `55895051059b07589cf5c8ab697b946a8a3f1720` passed Build workflow `33603416134` and Pages workflow `33603416020`, both successfully. The final WIKI state-only closing commit is verified separately as the repository's exact close head.
+MAIN Snow reader head `4b6696ec5b7a2befd0526f1922fcdae640670a0d` passed exact workflow `33603857506`: source canon/architecture verification, Astro build, built-output verification, and `Deploy and verify exact production commit` on Cloudflare Pages all succeeded.
+
+WIKI Pride-gag reader head `55895051059b07589cf5c8ab697b946a8a3f1720` passed Build workflow `33603416134` and Pages workflow `33603416020`, both successfully. The final state-only WIKI close head is verified separately after this update.
 
 ## Held rabbits / hard rails
 
@@ -77,6 +95,8 @@ WIKI Pride-gag reader head `55895051059b07589cf5c8ab697b946a8a3f1720` passed Bui
 - Spicy Hotpot: later membership state, exact `tomorrow` activity, reminder target, and broader Kinou/Gilli connection remain open.
 - Pride q13 remains open for earlier literal live-Fame, earlier equivalent-positive classification, or a direct structural trigger join; do not rediscover the August 25 naming negotiation.
 - `影の戦士` remains an ultra-thin spectator/reactor seed, not a stable temperament or close-relationship claim.
+- Daycare RH16 target bot remains unresolved; routine event persistence is not continuous Snow maintenance.
+- `faoaf` and `evermore` remain inspected but underwritten, not profile-ready.
 - Wall visual provenance remains source-specific; POSTED BY / MADE BY / CAPTURED BY / FEATURING do not collapse together.
 - Historical/current role arrays are not appointment chronology.
 - Missing raw Discord IDs remain missing, never invented.
