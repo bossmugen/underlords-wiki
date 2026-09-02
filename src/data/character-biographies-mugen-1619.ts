@@ -24,8 +24,17 @@ const withContinuityMachinery = withSection(withAnswerKeyMemory, {
   ],
 });
 
+const withMigrationFit = withSection(withContinuityMachinery, {
+  period: "January 2021 · Blade & Soul planning",
+  title: "Fit was part of the migration criteria",
+  paragraphs: [
+    "When Blade & Soul becomes the next possible playground, Mugen is not merely comparison-shopping servers. She says the point is to get everybody onto `the same server and on the same side`, discusses the move with HyaLuna, and proposes folding both New Samjok and Underlords into Underground Lords on Mushin. Her reason is not only future PvP: `Because both New Samjok and Underlords are friends, I think it will be a good fit.` The technical destination is being judged partly by whether the existing social mesh can survive the move.",
+    "That belongs beside the later continuity machinery without becoming a universal migration doctrine. One January 2021 planning scene does not prove every game move worked this way, a permanent New Samjok/UL organizational merger, or any new formal authority for HyaLuna. It does show Mugen explicitly treating social compatibility as an operational requirement rather than something to hope for after the server choice was already made. The shell was negotiable. Making everybody rebuild the people from scratch apparently was not the preferred plan."
+  ],
+});
+
 export const mugen1619NarrativeCharacterBios: Record<string, CharacterNarrative> = {
-  mugen: withSection(withContinuityMachinery, {
+  mugen: withSection(withMigrationFit, {
     period: "Founding week · April 2020",
     title: "The server was a few days old. Apparently we already had covert alliances.",
     paragraphs: [
