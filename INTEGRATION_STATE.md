@@ -1,93 +1,58 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-03 02:14 PDT_
+_Last updated: 2026-09-03 02:52 PDT_
 
-MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. This file is the WIKI-side rolling summary; detailed reconciliation for the current census-only pass lives in `INTEGRATION_STATE_RUN_297.md`, while the last material integration remains `INTEGRATION_STATE_RUN_296.md`.
+MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. This file is the WIKI-side rolling summary. Detailed reconciliation for the current pass lives in `INTEGRATION_STATE_RUN_298.md`; the prior state-only cycle is `INTEGRATION_STATE_RUN_297.md`, and the last reader-material cycle remains Run 296.
 
 ## Current reviewed boundary
 
-The controlling census tracks **49 miner identities = 28 active refs + 21 historical/missing refs**, with **0 newly discovered, 0 pending review, 0 pending publication, 0 backlog, and 0 overdue**.
+The controlling census tracks **49 miner identities = 28 active refs + 21 historical/missing refs**, with **0 newly discovered, 0 pending review, 0 pending publication, 0 backlog, and 0 overdue** after Run 298 review.
 
-Run 297 found **no active miner ref advanced beyond its Run-296 consumed SHA**. No new evidence family therefore needed reconciliation or publication this cycle. The five most recently reviewed material boundaries remain:
+Run 298 reviewed five advanced intake families checkpoint-first and consumed them through:
 
-- `archive-miner/daycare-2020-2026-hourly` → `ca323c95aabec2e513bae263ba36843b9a127441`
-- `archive-miner/mugen-person-first-20260828` → `f60866b255f6d8be7785bbdd199388f6fd08fe55`
-- `archive-miner/whiskey-longitudinal-hourly` → `47d4d94addec321c8c697b42bdc1d19ab019c4af`
-- `archive-miner-wall-hourly-20260824` → `aa4b37d329a5965f607a52a856df3de90a6ffa8d`
-- `archive-miner/all-characters-hr-20260828` → `46ad74fa10a5d8513157d6029f3b53937619665c`
+- Core Rooms → `3d9c9cfd3f76e77f7d111caa3910fd6fa9d1fc3d`
+- Daycare → `8f9f6f7dde2765be051329152c16b834e235fcae`
+- Louvre / AI Art / Athenaeum / Other Games → `8c21c7f9e7b1149effe94518d8b183850a7aa2a4`
+- Whiskey → `44af6f314c0e239e42fd7a2665f12ed996ec7711`
+- Wall → `161d27a6fd18de82b6aa09ff0f16a4e3c4256cf1`
 
 Both Club-Only recovery priorities remain current:
 
 - `archive-miner/club-only-2021-2026-hourly` → `e45fb11c9239e236231bb65645dfd0285bc0078b`
 - `archive-miner-clubonly-2020-hourly` → `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`
 
-Wall remains `recovery_in_progress` only because more source can arrive later; its current suffix is reviewed through the SHA above.
+Wall remains `recovery_in_progress` only because more source can arrive later; its current reviewed suffix is consumed through the SHA above.
 
-## Run 297 — census-only close
+## Run 298 — five deltas, zero receipt mitosis
 
-No reader-facing WIKI or MAIN page changed. The full branch census was still performed and persisted; every one of the 28 active miner refs matched the controlling ledger's `last_consumed_sha` before publication work was considered.
+Reader-facing WIKI changes: **0**.
 
-No consumed SHA advanced because there was no unconsumed suffix. No duplicate Episode, Running Gag, quote block, relationship row, Cast dossier, gallery attribution, or character paragraph was manufactured merely because the integrator ran again.
+The Noether / Anayss mutual-choice family deepens an existing relationship rather than creating a new one. Noether remembers being picked up when she was drifting in the game-social sense; the newer wording adds `we chose you too, we chose you first`, while `amiga` / reciprocal friendship affection and Anayss's warm/bright/good-friendship description remain explicit. The current Noether biography already owns that belonging → reciprocal warmth → cake continuation, so no duplicate Episode or relationship paragraph was added.
 
-## Latest material reconciliation — Run 296
+Mugen's March 2023 anniversary message places sincere Officer credit and safety/comfort language in the same breath as corpse kidnapping, panic karaoke, music-bot breaking, generalized confusion, and wholesome dumbassery before wishing that people always feel like they belong. It is excellent Mugen and also already the mechanism the WIKI owns: hands-on stewardship, visible attribution, house-building, then refusing to leave sincerity alone without a stupid household noun. The existing Bot Breakings Episode already owns the separate 234h first-round → 279h bot-departure chronology.
 
-### Ghoulie / Baby Lyssa
+Woosung's Anthos bot-play burst / hair aside / Hall self-awareness and Woohyuk's mutual pancake-birthday roast are already present in the current VIP structures. The latter explicitly includes `Love yall sincerely (from the person with the fattest ass) UwU`, so another Running Gag would merely create a second filing cabinet for the same ass.
 
-Daycare deepened an existing contradiction into a recurring mechanism. Ghoulie can complain about Screenshot Court while learning its machinery herself: she imitates `*click*`, says `IM SAVING THAT ONE`, later admits to copying material into notes for later use, then announces she has not been on the Wall lately and answers Ren's tiny `U sure?` with `time to make some mistakes` less than two seconds later.
+Wall likewise produced corroboration rather than a new owner for Spicy Hotpot and Illien / Euros. Spicy's `What Did I Do?` machinery is already indexed from Run 270; Illien's callback-building / secret-cat fluency is already inside his mature narrative.
 
-MAIN owns this as person-first defendant → evidence collector → deliberate recidivist texture. WIKI indexes the distinct searchable running gag rather than copying MAIN prose. The target of the notes line remains unresolved and unseen pixels remain unseen.
+### RotiniLM stays banked
 
-### Yaza / Mugen
+Rotini's small Wall file is still person-shaped enough to notice: `Just lurking the WC:R_stare:` coexists with repeated attachment filing, `One more-`, and a dry `Rip` when somebody says they have been exposed. Sparse prose is not the same thing as sparse participation.
 
-Yaza asks whether the group will ever meet the `real` Mugen. Mugen answers `Nah` first and only afterward cushions the refusal with a joke about the more private/crazier version of herself scaring Yaza away. The order is the useful relationship beat: the joke keeps the room warm after the boundary instead of converting the boundary into a maybe.
-
-MAIN folded the scene into Yaza's biography. WIKI added Yaza to Archive / Extended Cast for structured discoverability rather than mirroring MAIN's paragraph. `real you` stays broad; it is not silently narrowed into face reveal, legal identity, real name, offline meeting, geography, romance, or a closeness hierarchy.
-
-### Whiskey / Rooks
-
-The Rookie Cookie / Rooks package is corroboration, not a public gap. Both surfaces already own the important pattern: Rooks can step out of the server for school / me-time without treating that as leaving the people, then walk back through the door and resume ordinary social life. The homework self-indictment is also already public. Consumed without another paragraph or duplicate Episode.
-
-### Late All Characters HR / Run 102
-
-The late HR tail was caught by the closing census and reviewed through its final checkpoint instead of being left pending for the next cycle. It materially deepens Rooks backstage into a cross-domain **connection ≠ container** person read: she can accept a K-pop group leaving an agency while grieving threatened continuity of the people making music together, then later make her own server-distance boundary while preserving DMs, chat and affection. The miner explicitly forbids claiming causation between those scenes. MAIN already owns both ingredients and the connection-preserving absence/return mechanism, so WIKI does not manufacture a duplicate Episode or dossier paragraph.
-
-Ghoulie is correctly reopened inside authoritative HR state because fresh Daycare material adds evidence-student / collector agency, but the same material is already public on MAIN and already indexed as a WIKI Running Gag. Rose, Mia, Hishiro, Tofu, Jas, ShiyaX and Yaza moved to exhausted-at-current-archive-boundary quarry state after repeated qualification stopped changing their person syntheses. Those are backstage workflow decisions, not public character badges.
-
-### Wall / `novikroeva` / `ничего`
-
-The stable account has good person texture: emotionally transparent but informationally selective self-roasting with Ryo, and a Moon tease → mock scream → compliment → affection/self-own pocket. Public integration remains held because canonical identity/status is unresolved. That hard identity rail outranks the lower contextual threshold. q8 `sippp.gif` remains source provenance only; uploader / creator / capturer / featured subject / source message remain unresolved.
-
-## Verification
-
-Run 297 contains state-only commits. The exact closing WIKI `main` head is checked through the repository's existing Build and Pages workflows before closure is reported. MAIN's exact closing `master` head is checked through its existing full source verification, Astro build, built-output verification, and production deployment workflow.
-
-The last material reader heads remain:
-
-- WIKI Ghoulie reader head `f6c447afca78f4031eca3e0d6630e3fd65355602`: Build `33734262477` success; Pages `33734262289` success through deployment.
-- WIKI Yaza archive-cast reader head `7f72aa6a31e395aa493a4e5bf80d49892b85a3e9`: Build `33735328867` success; Pages `33735328438` success through deployment.
-- MAIN Yaza/Ghoulie reader head `7fda5776cfef44fd576acb546c840991165771ba`: full existing verification/build/deploy workflow `33735164296` success.
+The WIKI still does **not** invent a Cast dossier merely because the texture is cute. The current character index has no Rotini owner and the surviving Wall packet does not safely establish a roster/status shelf. Eleven attachments remain visually uninspected. POSTED BY does not become MADE BY / CAPTURED BY / FEATURING.
 
 ## Hard rails / held rabbits
 
-- `real you` remains broader than any one private fact.
-- `novikroeva` / `ничего` does not receive a canonical identity bridge by vibes.
-- Ghoulie's notes target remains unresolved.
-- Rooks' 2021 Bouncer appearance is re-entry, not origin; the 2020 Bouncer self-ID is earlier.
-- Rooks' K-pop discussion and server break support a repeated person pattern, not a causal claim.
-- Homework panic is not evidence of actual graduation failure.
-- No uninspected media gains MADE BY / CAPTURED BY / FEATURING status.
-- No joke role, romance, literal family, appointment chronology, or earliest-surviving-origin claim was introduced.
+- Noether's belonging story remains game-social; no housing, medical-rescue, literal-family, or romance claim is introduced.
+- Noether completed-Officer-action rabbit remains open.
+- Mugen's anniversary `music bot breaking` is not silently equated with the later endurance campaign.
+- WhitePhoenyx discovering other rooms is not declared origin; brief `w/help` / `u!help` fumbling is not a global incompetence trait.
+- Woohyuk pancake origin / first coiner remains unresolved.
+- Rotini gets no invented membership category or formal role.
+- No uninspected media gains visual content or creator/capturer/featured-subject attribution.
 
-## Consumed SHA
+## Verification
 
-No consumed SHA changed in Run 297. Current key boundaries remain:
+Run 298 is state-only on WIKI. The exact closing `main` head is checked through the repository's existing Build and Pages workflows before the run is reported complete. MAIN's exact closing `master` head is separately checked through its existing source verification, Astro build, built-output verification, and production deployment workflow.
 
-- Daycare → `ca323c95aabec2e513bae263ba36843b9a127441`
-- Mugen person-first → `f60866b255f6d8be7785bbdd199388f6fd08fe55`
-- Whiskey → `47d4d94addec321c8c697b42bdc1d19ab019c4af`
-- Wall → `aa4b37d329a5965f607a52a856df3de90a6ffa8d`
-- All Characters HR → `46ad74fa10a5d8513157d6029f3b53937619665c`
-- Club-Only 2021–2026 recovery → `e45fb11c9239e236231bb65645dfd0285bc0078b`
-- Club-Only 2020 recovery → `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`
-
-Detailed census-only reconciliation: `INTEGRATION_STATE_RUN_297.md`.
+Detailed reconciliation: `INTEGRATION_STATE_RUN_298.md`.
