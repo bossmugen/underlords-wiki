@@ -1,65 +1,79 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-03 00:26 PDT_
+_Last updated: 2026-09-03 00:31 PDT_
 
-MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. This file is the WIKI-side rolling summary; run detail lives in `INTEGRATION_STATE_RUN_*.md`.
+MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. This file is the WIKI-side rolling summary; detailed run reconciliation lives in `INTEGRATION_STATE_RUN_*.md`.
 
 ## Current reviewed boundary
 
-The current census tracks **49 miner identities = 28 active refs + 21 historical/missing refs**, with **0 newly discovered**, **0 pending review**, **0 pending publication**, **0 backlog**, and **0 overdue**.
+The controlling census tracks **49 miner identities = 28 active refs + 21 historical/missing refs**, with **0 newly discovered**. Run 293 reviewed the two advanced branches visible at census: All Characters HR and Wall recovery. The intended closing queue is **0 pending review**, **0 pending publication**, **0 backlog**, **0 overdue**, once MAIN's controlling consumption ledger is advanced to the reviewed heads.
 
-Both Club-Only recovery priorities remain current through:
+Both Club-Only recovery priorities remain current:
 
 - `archive-miner/club-only-2021-2026-hourly` → `e45fb11c9239e236231bb65645dfd0285bc0078b`
 - `archive-miner-clubonly-2020-hourly` → `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`
 
-Wall remains `recovery_in_progress` only because more source can arrive; its current reviewed/consumed head is `3049613453ad7cbeaf6a2febd69cae883350419f`.
+Run-293 reviewed boundaries:
 
-All Characters HR is now reviewed/consumed through finalized Run-100 head `ff53814166f045627dbb149fdb21b8a677b92a11`.
+- `archive-miner/all-characters-hr-20260828` → `91e5f368607bb6d30282273586259b432a6bf110`
+- `archive-miner-wall-hourly-20260824` → `50596bc0a8fc1275e1e23b641c11b9c40ff35f6e`
 
-Daycare is now reviewed/consumed through `418ba8f6e7bfd6d07bf60cbfbdfc2c5c04410c6d`.
+Wall remains `recovery_in_progress` only because more source can arrive later; the present suffix is fully reviewed.
 
 ## Latest reconciliation
 
-### Eos — objection is not the opposite of authorship
+### Usama — context gaps are what make him speak
 
-The Daycare miner's newest support-room pocket sharpens an existing person mechanism instead of creating a new one. On June 17, 2021, after Marian posts an attachment, Eos says **`i said dont look`**. Roughly four minutes later Eos posts an attachment against Marian, says he has been **`sort of spared`**, and closes **`this is war`**.
+The Wall suffix strengthens an already-public Usama pattern. He remembers a prior-day Key/Sushi detail, likely checks a surprising Sailor Moon claim in context, and directly asks whether Suzi is one of the founders. Mugen true-replies `Yus`; Usama later replies `lol` to Mugen's historical riff.
 
-That belongs beside Eos self-filing with `gonna just put myself here and head out-`, later deciding `no context is needed wym`, and the already-public Marian/Eos Wall chair-swapping. The useful character read is not that embarrassment is fake. It is that **compact delivery does not mean passive participation**: Eos can object, retaliate, file evidence, and keep the joke moving without becoming the room's loudest person.
+The useful person read is **low-volume but attentive**. Usama does not pretend to know prequel lore he does not know. When some missing piece matters, he asks, gets the answer, and keeps going.
 
-No new WIKI Episode or Running Gag was created. The wiki already owns the broader Wall self-filing/procedural machinery and the `Eos: Context Optional` shorthand. Another entry would be receipt duplication rather than a distinct searchable phenomenon. The June-17 pocket is banked as stronger support for those existing owners.
+No reader mutation is needed. WIKI's current structured Usama Cast dossier already owns the Key/Sushi memory and Suzi-founder question as the context-tracker mechanism. This suffix is corroboration plus stronger structural support, not a new searchable phenomenon.
 
-Uninspected attachments remain POSTED BY only. `this is war` remains Screenshot Court banter, not literal hostility. Eos's protest is not declared insincere merely because a counterfile follows.
+Critical negative: Ren's nearby `He so innocent` points to the original screenshot object, not Usama. Gilli's nearby line has no secure Usama antecedent.
 
-### All Characters HR Run 100 — final reconciliation
+### Miihi — tiny text footprint, active receipt logistics
 
-The final Run-100 HR handoffs are now consumed. Hard canon controls the identity bridge: **WOO / `_woo_woo` = Woosung; Woohyuk is distinct.** Older temporary quarantine language is superseded.
+The later Wall suffix strengthens Miihi's existing public mechanism. Three of nine surviving authored Wall messages are direct attachment filings. In March 2021 she posts an attachment while tagging Mob and Woohyuk; those tags route attention and do not establish who appears in the image.
 
-The final handoff explicitly says no extra public biography mutation is required merely because qualification state moved. Rich/Woosung, Woosung, Zyrcant, Woohyuk, and Syv already have the meaningful person reads represented; Beowulf, Acoryuie, and Ghoulie's exhaustion changes are backstage workflow state.
+The strongest new structural closure is Anayss reopening her own 46h40m-old two-image filing with `@Miihi evidence`. Miihi answers 67.580 seconds later with `dem snow.. what a ride h e h`. Anayss's self-reply parent is exact; Miihi's uptake remains contextual/probable because her answer has no reply pointer.
 
-During this pass MAIN independently folded Rich's March 2023 Woosung scene into his person-first biography as **teasing with a brake pedal**: Rich pokes with the room's tsundere bit, Woosung true-replies `OMG NO WHY WOULD U`, and Rich answers with a pat-head penguin GIF. WIKI already carries the structured relationship rhythm, so it does not photocopy MAIN's new prose.
+That is enough to keep the existing character read intact: **low-word does not mean passive**. Miihi can file objects, point people toward them, and apparently re-enter old evidence context with almost no briefing.
+
+No WIKI reader mutation is needed. MAIN already owns the rich person-first Miihi Wall biography. WIKI deliberately keeps Miihi's complementary structured Cast dossier focused on other person texture rather than duplicating the same Wall material as a one-off Episode.
+
+### All Characters HR — Run 100 final tail
+
+The finalized HR suffix through `91e5f368607bb6d30282273586259b432a6bf110` is reviewed checkpoint-first and intake-only.
+
+Rich's Woosung tease→protest→pat beat is already public on MAIN. Woosung, Zyrcant, Woohyuk and Syv already own the meaningful Run-100 person reads. Beowulf/Jere, Acoryuie/Cinders/Juniper and Baby Lyssa/Ghoulie crossing to `EXHAUSTED AT CURRENT ARCHIVE BOUNDARY` is workflow state, not a reason to publish filler biography prose.
+
+Hard identity canon controls: **WOO / `_woo_woo` = Woosung; Woohyuk remains separate.** Older quarantine language is superseded.
 
 ## Reader decision
 
-**MAIN:** current lineage includes Rich's tease → protest → pat relationship deepener. No Eos reader mutation was needed because MAIN already says, in person-shaped form, that Eos's protest and participation can be the same move and that Marian/Eos keep swapping the Screenshot Court chairs.
+**MAIN:** no new reader mutation from Run 293. Miihi's current biography already owns the Wall receipt-room mechanism; Usama has no safe MAIN roster shelf and no formal category was invented just to create one; the HR tail is already represented or workflow-only.
 
-**WIKI:** no reader mutation in this close. Existing structured owners already cover the accepted meanings without mirroring MAIN prose.
+**WIKI:** no reader mutation from Run 293. Usama is already indexed through the correct structured Cast owner. Miihi's Wall material stays intentionally MAIN-owned rather than being duplicated into a WIKI Episode merely because the structural parent join improved.
 
 ## Hard rails / held rabbits
 
-- WOO / `_woo_woo` = Woosung; Woohyuk remains separate.
-- Rich's penguin response is POSTED BY Rich; third-party maker/subject are not reassigned.
-- Eos/Marian attachments remain uploader-only where pixels are uninspected; no MADE BY / CAPTURED BY / FEATURING inference.
-- Eos's `i said dont look` does not become a claim that later retaliation cancels embarrassment or privacy boundaries.
-- `this is war` remains Wall banter, not literal hostility.
-- Nori's sparse support/onboarding shell does not justify a public personality profile; sensitive onboarding detail remains private.
-- Current/export-time role arrays do not create appointment chronology.
+- Miihi is distinct from Korea/Milk; shared `(Milk)` display text is not an identity bridge.
+- `@Miihi evidence` summons Miihi into Anayss's old receipt; it does not prove the images are about Miihi.
+- Mob / Woohyuk mentions are attention routing, not FEATURING claims.
+- No uninspected attachment gains MADE BY / CAPTURED BY / FEATURING status.
+- Ren's `He so innocent` is not an Usama character claim.
+- Seth's newly closed exact reply parent remains semantically undercontextualized and does not justify profile promotion.
+- WOO = Woosung; Woohyuk is distinct.
+- `EXHAUSTED AT CURRENT ARCHIVE BOUNDARY` is a mining-state label, not a statement that a person is fully known.
 
 ## Consumed SHAs
 
-- `archive-miner/all-characters-hr-20260828` → `ff53814166f045627dbb149fdb21b8a677b92a11`
-- `archive-miner/daycare-2020-2026-hourly` → `418ba8f6e7bfd6d07bf60cbfbdfc2c5c04410c6d`
+Pending MAIN ledger write after successful review close:
 
-Detailed reconciliation: `INTEGRATION_STATE_RUN_292_HR_DAYCARE_CLOSE.md`.
+- `archive-miner/all-characters-hr-20260828` → `91e5f368607bb6d30282273586259b432a6bf110`
+- `archive-miner-wall-hourly-20260824` → `50596bc0a8fc1275e1e23b641c11b9c40ff35f6e`
 
-Exact final MAIN and WIKI heads must pass their existing build/deploy workflows before this pass is reported green.
+Detailed reconciliation: `INTEGRATION_STATE_RUN_293_WALL_HR_CLOSE.md`.
+
+Exact final WIKI Build and Pages status must pass on the final publishing head before this run is reported green.
