@@ -39,19 +39,32 @@ Run 339 found exactly one advanced active miner: Core Rooms / Events. It was rev
 
 ### Anayss
 
-The new Core packet reinforces a mechanism already richer on both public surfaces: Anayss makes entry socially cheap. Direct invitation, reassurance and playful low-formality welcome are already part of her person-first MAIN read and deep WIKI dossier. The new `join us` family is therefore corroboration, not another event paragraph waiting to happen. These receipts do **not** date or prove appointment chronology; her Underboss/Battle Leader status remains user-known canon from project role locks, not an inference from this scene.
+The September 21, 2022 paired onboarding gives Anayss the same operational skeleton twice without giving the two humans the same greeting. oopygoopy gets `welcome!!! Thank you for the wait`; Shōko gets `haiii shosho!`; both still receive the tour / Biodata / main-chat route and role completion. That sharpens a mechanism both public surfaces already own: Anayss standardizes the route, not the person. It is corroboration, not another event paragraph. `shosho` is probable Anayss-side familiarity/affection only; it does not establish a reciprocal relationship class or any appointment chronology.
 
-### Dhillon
+### Ren ↔ DrakPrince
 
-The public misunderstanding/correction scene is a useful banked trait seed. He appears willing to be wrong in public and reset rather than double down. One clean reset is not yet a durable enough recurrence to rewrite a character page, so it stays banked instead of being inflated into a personality law.
+This suffix produces the one new WIKI reader beat. On September 8, 2022 Ren is running an ordinary Gatekeeper intake. DrakPrince supplies `DrakPrince21`; eleven seconds later Ren detonates `PRINCEEEEE` with three Pog emotes, then immediately resumes the remaining admin fields and completes the orientation. Recognition changes her social register mid-workflow without making her drop the work. That now lives inside Ren's existing `SHE KNOWS PEOPLE IN DIFFERENT DIALECTS` relationship section.
+
+The scene supports familiarity/recognition. It does **not** turn `Prince` into rank, romance, family, club-history proof, or a claim about DrakPrince's personality or reciprocal intensity.
+
+### Lithium / Hic / DiStratus(Torr)
+
+Lithium and Ren cooperatively completing knowingly redundant intake is useful familiar-bureaucracy corroboration, not a standalone incident. Mugen's `gummy bear` / `welcome back gummieeees` exchange with Hic is return/familiarity warmth, not Hic enacting a named care/trust role. DiStratus(Torr)'s one `confusion → check → realize → self-correct` cluster remains a trait seed, not a personality law. Later explicit minor-status Lobby material remains excluded from ordinary public character mining.
 
 ### Snow / Saber / Sye
 
-New Snow/Saber material corroborates the already-owned participant-friction/accountability read rather than creating another WIKI episode. Stable account `488099199938986004` / `sycessences` / displayed `ƐℲı˥` remains **Sye/Life** by resolved stable-account canon; the separate `Drink water reminder` account remains separate. No identity bridge is inferred from similar strings.
+Previously accepted Snow/Saber material remains an already-owned participant-friction/accountability read rather than another WIKI episode. Stable account `488099199938986004` remains Sye/Life by resolved stable-account canon; the separate `Drink water reminder` account remains separate. No identity bridge is inferred from similar strings.
 
-Genuinely new reader-facing findings integrated in Run 339: **0**. New WIKI reader changes: **0**. Meaning-duplicates/corroboration combined: Anayss doorway warmth and Snow/Saber accountability. Dhillon's reset remains banked. Cross-server membership boundaries and provenance/ownership rabbits remain unresolved where the source is genuinely thin.
+**Genuinely new reader-facing finding integrated in Run 339:** Ren's DrakPrince recognition/register switch.  
+**New WIKI reader file:** `src/data/character-biographies-ren.ts`.  
+**Meaning-duplicates/corroboration combined:** Anayss paired onboarding, Lithium familiar bureaucracy, Hic return warmth, Snow/Saber accountability.  
+**Held:** DrakPrince standalone personality or relationship class, DiStratus personality generalization, Hic enacted-care/trust target, provenance/ownership boundaries, and safety-sensitive Lobby material.
 
 ## Current structured reader ownership
+
+### Ren
+
+Ren's dossier now makes the `different dialects` mechanism more literal. A Gatekeeper self-ID can become `PRINCEEEEE` in eleven seconds and then go straight back to the checklist. The point is not a new title for DrakPrince; it is Ren's ability to recognize a person loudly without losing the operational thread.
 
 ### Woosung / Sitama
 
@@ -63,9 +76,7 @@ Sitama's compact April 2020 setup voice flips instantly when WOO recognizes her:
 
 ### Snow + Sye
 
-Snow's Saber setup is structured around people rather than abstract precision: `5 mins early` `just so people can get on`, stacked reminders rejected as a `never ending snooze button`, and `Well partially my fault` when the bot fight gets messy. Stable account `488099199938986004` / `sycessences` / displayed `ƐℲı˥` is **Sye** by already-resolved stable-account canon; the collaboration names her directly. This is not an identity guess from `Sy` or `syen` strings.
-
-The newest Core checkpoint adds no new semantic public beat beyond this existing Snow/Sye structure. `Drink water reminder` `407706805918105602` remains a developing notice → try → correct → finish operator without an invented formal office or appointment chronology.
+Snow's Saber setup is structured around people rather than abstract precision: `5 mins early` `just so people can get on`, stacked reminders rejected as a `never ending snooze button`, and `Well partially my fault` when the bot fight gets messy. Stable account `488099199938986004` is **Sye** by already-resolved stable-account canon. `Drink water reminder` remains a separate stable-ID actor.
 
 ### Mia
 
@@ -94,10 +105,10 @@ LilsatanSir remains a strong comics/superhero person candidate pending safe owne
 
 ## Consumption result
 
-Core Rooms is reviewed through `7bd83fc1428efbc51548cb26b9414b032b298f6d`, but its consumed cursor remains `5d463295095e34836c0b0b1a08c9374f906e9953` because a pre-existing accepted MAIN Snow fold has not cleared MAIN's mandatory verifier. The new suffix itself adds no public debt and is explicitly recorded as reviewed so it is not treated as unread next run. No other consumed SHA advances in Run 339.
+Core Rooms is reviewed through `7bd83fc1428efbc51548cb26b9414b032b298f6d`, but its consumed cursor remains `5d463295095e34836c0b0b1a08c9374f906e9953` because a pre-existing accepted MAIN Snow fold has not cleared MAIN's mandatory verifier. The new suffix is durably reviewed and its Ren material is now structured on WIKI, so it is not unread next run. No other consumed SHA advances in Run 339.
 
 ## Verification / deployment
 
 MAIN census/state head `31e9eea586ac9934fb2d1d9713148c17133d19a3` was exercised by workflow `33815798675`. Both its initial attempt and an explicit failed-job rerun failed before any `Build + verify` steps instantiated; deployment was skipped. This is an infrastructure/setup failure, not a source-verifier, Astro, or built-output failure. No unverified MAIN reader mutation was committed.
 
-WIKI reader source is unchanged in Run 339. Exact WIKI build/Pages verification for the Run 339 state commit is checked after this state write; GitHub Actions remains the durable deployment record.
+WIKI reader commit `851cbbb884154420668a6c1e2db125da7dc45508` passed Build workflow `33816493969`. Its Pages run was cancelled only because later Run 339 state commits superseded it under cancel-in-progress behavior. Exact current-head Build + Pages verification is the closing deployment gate for this run; GitHub Actions remains the durable deployment record.
