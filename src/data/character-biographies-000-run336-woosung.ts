@@ -19,6 +19,15 @@ export const run336WoosungNarrative = {
           "That matters more for WOO than another generic `friendly` label. Her output depends on what is in front of her. Ask for a formal self-description and she can be tiny. Put a familiar person in the doorway and she will apparently become the doorway alarm herself.",
         ],
       },
+      {
+        period: "DAYCARE",
+        title: "SHE DOES NOT NEED A CLOSING ARGUMENT",
+        paragraphs: [
+          "Gilli can summon WOO with essentially no payload at all. Xuseio posts a screenshot; Gilli says `I knew it`, drops only `@WOO`, and leaves the rest sitting in the air. About two minutes later WOO arrives with her entire case: `NOBU`. Then: `TRAITOR`. Nobody explains why Nobu is on trial. Nobody needs to. Gilli seems to trust that WOO will recognize the situation from the bare summons, and WOO trusts that Nobu's name plus one felony-sized noun will carry the joke.",
+          "A later Xuseio post gets the same compressed prosecution in a different shape: `:AUcatstare:`, `nobu`, `why`. WOO is socially economical without being emotionally quiet. Her punchline is often the missing paragraph everyone else is expected to supply from shared context. With Nobu, mock betrayal is practically a two-word legal system; with Gilli, even the summons can be context-light because the familiarity is doing the explanatory work.",
+          "Nothing here turns `traitor` into real conflict. The comedy depends on the opposite: WOO can prosecute Nobu theatrically because the room already knows what register she is using. Tiny payload, enormous implied case file.",
+        ],
+      },
     ],
   },
 };
