@@ -1,20 +1,20 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-02 17:16 PDT_
+_Last updated: 2026-09-02 17:42 PDT_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. This file is the WIKI-side rolling summary; run detail lives in `INTEGRATION_STATE_RUN_*.md`.
 
 ## Current reviewed boundary
 
-Full census: **49 tracked miner identities = 28 active refs + 21 historical/missing refs**, with **0 newly discovered, 0 pending review, 0 pending publication, 0 backlog, and 0 overdue** at the Run 265 close.
+Full census: **49 tracked miner identities = 28 active refs + 21 historical/missing refs**, with **0 newly discovered, 0 pending review, 0 pending publication, 0 backlog, and 0 overdue** at the Run 266 close.
 
 Reviewed/consumed through stable heads:
 
 - All Characters HR: `01da895053d2a2018af5841b73cb48c188ecc6fe`
-- Core Rooms: `2ceab798e5cf7416f435ca38f8aa1b1556d469bb`
+- Core Rooms: `c26485596b03d804c3cc10daf2c5db2c48340ffc`
 - Mugen person-first: `73534766e925d135f808c1af74638c8431384273`
 - Whiskey Longitudinal: `8f933681560a65e30b5f35f0a45743df6930dc6b`
-- Wall recovery: `40fc784e5b0d7843e320ea790f5dfc98c2982745`
+- Wall recovery: `1ab5a55b0ccf452e3f4ea6b41d0bb2ea11e9b9c7`
 - Club-Only 2020: current through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`
 - Club-Only 2021–2026: current through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`
 
@@ -22,45 +22,57 @@ Wall remains `recovery_in_progress` only so future branch growth is not mistaken
 
 ## Latest reader reconciliation
 
-### Syv — shyness has a direction
+### Lobby — the stripclub bit predates the later Bouncer recurrence
 
-Core Rooms adds a useful correction to a flat `shy/quiet` read. Syv has already described wanting to talk to Gilli, not knowing how to begin, and choosing to lurk instead. But when Cit opens with `Ok don’t laugh` and admits pronouncing `Syveon` with a French accent, Syv answers `LMAO I kinda want to hear that now`; when Cit says they might try it in group VC, Syv immediately supplies three hype emotes.
+Core Rooms pushes the same recurring front-door fiction earlier. By May 2020 Mugen can call Ricochet a `regular customer of the stripclub`; in July Snow can pair `please enjoy your stay at the strip club` with the completely real `Role assigned`; in August arrivals riff about watching or being the strippers while Mugen keeps collecting the actual intake data. TinyChungus can announce `im here for the strippers` and then immediately provide IGN and club like the world's most compliant patron at the world's least reputable customs desk.
 
-The useful character fact is not that Syv became extroverted. It is that the social risk matters. Syv can freeze when they have to invent their own opening, then become a very easy audience when somebody else is the one risking harmless embarrassment. WIKI carries this as structured dossier depth, not a standalone Episode.
+WIKI extends the existing Episode **The Lobby Is Not a Strip Club (Until It Is)** back to May 14, 2020 instead of cloning a second incident card. The recurrence is the searchable object: house fiction and real access control share the same doorway. May 14 is the earliest surfaced wording in this pass, not guaranteed origin.
 
-Reader commit: `f2285087c60b587cb03a8a2fc1e8918c1852d625`.
+Reader commit: `73af44929e1738b0f1b81182af13090862ec6da3`.
 
-### Panda / Marian — there is apparently a Pan emote for that
+### Woohyuk — MAIN owns the person, WIKI does not invent four Episodes
 
-Whiskey's repeated Pan-family reaction language remains indexed as the Running Gag **Panda Has a Panda for That**. Across ordinary traffic the reaction family functions like cartoon body language for coffee, lurking, hugs, flowers, tantrums, mock combat, defeat, groove, and celebration. Eos handwriting evaluation, Gilli `found/stole` play, Tofu mock-combat, and the Ricochet Cheesecake Factory beat remain relationship/person texture rather than being split into four miniature Episodes.
+Wall now gives Woohyuk a cleaner human mechanism: he likes deciding what a scene `really is` and issuing the diagnosis with absurd confidence. Gilli's outfit becomes `high school spirit week`, then `sergeants on timeout`; more than two hours later Gilli true-replies to the exact first roast to say it killed her. Mass Effect gets one alleged objective. Watermelon becomes sweet-water fraud.
 
-Reader commit: `46a00576f443149e7bba7ae4c0c65d26bb0d45ff`.
+That belongs to MAIN's biography because it changes how Woohyuk feels around people: compact verdict, social handle, other people grab it. WIKI intentionally does not split spirit week, sergeants, Mass Effect, and watermelon into separate Events.
 
-### Cele — cousin relation with actual behavior attached
+MAIN reader commit: `dfa76fdd7d63316a1b44517b1057a42314a599fa` (carried forward at later verified reader head `3acff50975d11e12a2140e6b5645f78a39a02795`).
 
-All Characters HR gives the hard-canon Cele↔Woosung cousin relation a lived direction: WOO describes Cele as reliable and as someone who pushes WOO toward doing things independently. MAIN already owns the richer person-shaped fold, so WIKI does not mirror another prose block merely because the authoritative HR miner caught up. Direct cousin scenes remain open.
+### Illien — remembering context recreationally
+
+Illien's Wall pattern is now much more specific than `funny Officer who posts receipts`. He can retrieve a Hellfish reference, ask to see Ren's promised incriminating screenshot, reopen Ren's hours-old `We do be licking each other tho` through an exact Reply as `You mean like...CATS`, and then help the room invent undercover cats before later filing `One from our Qweenk, @Anthos` with uninspected images.
+
+The useful contradiction is attention without solemnity: the same person remembered for noticing when people need help can retain context specifically so the next joke lands harder. MAIN owns the rich person-shaped fold; WIKI keeps the structured relationship implication backstage rather than manufacturing a Cat Conspiracy Episode.
+
+MAIN reader commit: `3acff50975d11e12a2140e6b5645f78a39a02795`.
 
 ## Reviewed without duplicate reader churn
 
-- **Tae:** two-way help, quick changed-mind naming, Gilli chosen-witness bids, and Yaza homework nagging were already reader-facing; consumed as synthesis repair/corroboration.
-- **Yelik:** the wrong-room pet-event correction and the nineteen-day Mia flower follow-up were already reader-facing; consumed as synthesis repair/corroboration. Mia remains POSTED BY for the image; maker/capturer/subjects remain unresolved.
-- **Mugen person-first:** Dean says talking to Key and Mugs helps him express feelings. This deepens reciprocal-support texture already represented publicly; it does not make Mugs a therapist, sole confidante, exclusive emotional channel, or literal family.
-- **Wall:** Eos's theatrical defendant/cooperative-witness behavior and Marian↔Eos mutual-prosecution shorthand are already public in substance; no second Screenshot Court object.
-- Sparse secondary Core rotation (Allenne, Oldfieldmouse, Lynneia/lunnely, Spritely/Shurui, Degen Rat) produced no responsible new promotion.
+- **Ren / Mob / Suzimasu:** the 2021 `Welcome home~` + tour return sequence is already public on MAIN and structurally represented in WIKI continuity; consumed as corroboration.
+- **Nhou:** repeated technical arrivals with `wb!`, `weba`, positive reactions, and 2022 `u know already right?` deepen an already-public door-reset continuity arc. Banked for a natural future person fold rather than another event ledger.
+- **Mr. Streamer:** fully contextualized ultra-thin source-relay behavior; still not enough for a public standalone profile.
+- **Jas:** second independent Lobby help/bridge pattern did not advance.
+- **q3 insect provenance:** no source advance.
 
 ## MAIN / WIKI split
 
-MAIN owns Syv's richest person-first version because the new scene changes how Syv feels around people. WIKI carries the same source as structured character depth rather than an Episode. Panda's recurring reaction-language family is the inverse case: recurrence itself is the searchable object, so WIKI owns the Running Gag while MAIN banks the accepted person texture for a natural future biography fold.
+MAIN owns Woohyuk and Illien this pass because the new material changes personality, social rhythm, and relationship texture. WIKI owns the Lobby recurrence because an existing structured Episode already had the correct home and simply needed its historical boundary widened.
 
-Cele's cousin behavior belongs primarily to MAIN's lived biography; WIKI retains the hard cousin relation without duplicating the new prose. Dean/Mugen remains person-shaped relationship material rather than manufactured incident history.
+No identical prose was mirrored between surfaces.
 
 ## Safety / unresolved
 
-- Syv ≠ Sye remains hard.
-- `Marian Kage` remains the resolved Panda identity; generic panda imagery does not resolve to the person.
-- Gilli stable-account boundaries remain intact.
-- `love`, joke-family, mock-combat, and Screenshot Court language were not inflated into romance, literal family, violence, or formal governance.
+- `Euros = Illien` remains the hard identity bridge; no new identity was inferred from display-name similarity.
+- Gilli's delayed true reply to Woohyuk is comfortable roast shorthand, not hostility.
+- Illien/Ren cat/licking language is joke fiction, not romance/sex canon.
+- `Qweenk` is teasing language, not governance.
+- Stripclub/strippers language is house fiction, not literal venue/employment/sexual-activity evidence.
 - Uninspected attachments remain uninspected; POSTED BY is not MADE BY / CAPTURED BY / FEATURING.
 - Earliest surfaced scenes remain archive boundaries, not origin claims.
 
-Detailed reconciliation for this pass is `INTEGRATION_STATE_RUN_265.md`; MAIN's matching durable report is `archive-intake/INTEGRATION_REPORT_RUN_265.md`.
+## Verification / deployment
+
+- MAIN verified reader head `3acff50975d11e12a2140e6b5645f78a39a02795`: workflow `33700359131` passed source canon/architecture verification, Astro build, built-output verification, and exact Cloudflare production deployment.
+- WIKI reader head `73af44929e1738b0f1b81182af13090862ec6da3`: Build `33700273769` succeeded; Pages `33700273728` succeeded including GitHub Pages deployment.
+
+Detailed reconciliation for this pass is `INTEGRATION_STATE_RUN_266.md`; MAIN's matching durable report is `archive-intake/INTEGRATION_REPORT_RUN_266.md`.
