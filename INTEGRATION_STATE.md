@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-02 21:15 PDT_
+_Last updated: 2026-09-02 21:18 PDT_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. This file is the WIKI-side rolling summary; run detail lives in `INTEGRATION_STATE_RUN_*.md`.
 
@@ -60,4 +60,8 @@ Comprehensive-HR boundary: **100/100 canonical non-Mugen people have dedicated H
 
 ## Verification / deployment
 
-Run-280 exact-head verification is pending for the latest state commits. Detailed reconciliation: `INTEGRATION_STATE_RUN_280_WALL_HR.md`. MAIN durable report: `archive-intake/INTEGRATION_REPORT_RUN_280_WALL_HR.md`.
+WIKI state head `e863980d3c41e8651d666f0cbb0e594cc6cd29e6` passed **Build Underlords Wiki** run `33714232698`. Its first Pages run `33714232497` was cancelled by the `pages` concurrency group during the rapid sequential Run-280 state commits, not by an Astro/content failure; GitHub does not allow that cancelled run to be retried. This roll-forward commit intentionally triggers a clean new Build + Pages pair.
+
+MAIN controlling consumption head `48b8610e5f563933f81b3741294a8d28e93f3a76` passed **UL Hourly Build + Deploy** run `33714192464`, including source canon/architecture verification, Astro build, built-output verification, and exact Cloudflare deployment.
+
+Detailed reconciliation: `INTEGRATION_STATE_RUN_280_WALL_HR.md`. MAIN durable report: `archive-intake/INTEGRATION_REPORT_RUN_280_WALL_HR.md`.
