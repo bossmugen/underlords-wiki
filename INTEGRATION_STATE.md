@@ -1,41 +1,37 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-03 Run 315 reconciliation_
+_Last updated: 2026-09-03 Run 316 reconciliation_
 
-MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Detailed reconciliation for this pass lives in `INTEGRATION_STATE_RUN_315.md`.
+MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Detailed reconciliation for this pass lives in `INTEGRATION_STATE_RUN_316.md`.
 
 ## Current census / reviewed tails
-The full census remains **49 miner identities = 28 active refs + 21 historical/missing refs**, with **0 newly discovered**. Both Club-Only recovery priorities remain current through head. Wall remains a recovery target because new source can still arrive.
+The full census remains **49 miner identities = 28 active refs + 21 historical/missing refs**, with **0 newly discovered, 0 backlog, and 0 overdue**. Both Club-Only recovery priorities remain current through head. Wall remains a recovery target because new source can still arrive.
 
-Run 315 reviewed checkpoint-first, changed-intake-only deltas through:
-- All Characters HR → `49190bd0c8a68e0f1df58f119c3846131503d81c`
+Run 316 reviewed checkpoint-first, changed-intake-only deltas through:
+- All Characters HR → `c3286ce44de49c8bfc9c779da4f09ee353c5d5c3`
+- Mugen person-first → `e1f873c132459695f0ce449a6d7eb29c1ab8bac9`
+
+Run 315 had already reviewed these still-current tails:
 - Whiskey → `44ba4b7f6903ed76cb2dc8acb666e9f7f7a44d69`
 - Wall recovery → `eab18e03da6f9704061449ef522e9b88ff02f13d`
 - Core Rooms / Events → `c0221ae959842cf3c32e6b13b02a283d41dbc8a8`
 
-MAIN's canonical consumed boundaries are **not falsely advanced** while its Actions verification provider is failing before workflow steps start. The Run-315 opening census is already persisted in MAIN history; these reviewed deltas are durably recorded here so they should not be treated as unread merely because final MAIN state closure is verification-blocked.
+The Mugen branch advanced after MAIN's opening Run-316 census; this closing reconciliation catches that late tail rather than leaving it invisible until the next pass.
 
-## Accepted character reads
-**Ansun / Sou:** practical/contextual attention can become care, help, creator credit, routing, or nonsense depending on stakes. The Tae check-in, plush/social-casting lane, contextual homework help and Cioccolatodorima credit all strengthen an already-public person rather than requiring source-shaped appendices.
+MAIN's canonical consumed boundaries are **not falsely advanced** while its Actions verification provider is failing before workflow steps start. The reviewed HR/Mugen deltas are durably recorded here so they should not be treated as semantically unread merely because final MAIN state closure is verification-blocked.
 
-**Eos:** direct room routing and immediate person nomination strengthen the existing callable / low-ceremony social-infrastructure read. No formal helpdesk/moderator office is inferred.
+## Accepted / reconciled character reads
+**All Characters HR:** Run 109 is a stability qualification, not a new character harvest. Eos/EnyoCal and Ansun/Souta reached current-boundary qualification; Hami/Wichita and Jas gained exact parentage / relationship choreography without a new person mechanism. The comprehensive non-Mugen HR ledger remains **100 / 100 exhausted at the current archive boundary, 0 in progress, 0 blocked, 0 queued**. Exhaustion is reversible mining state, not a claim that any person is complete forever.
 
-**Jas:** the Wall now gives a clean recurring embarrassment contradiction: contest the damaging line, seize weak cover, collapse when the cover disappears, later tell an old filing `I do not recall that`, then curse the Wall when Ren answers that the Wall remembers. The useful shape is defend reputation → accidentally improve the prosecution → stay in the joke. This is profile connective tissue, not a standalone Episode.
-
-**Teri ↔ Moon:** close-friend/bestie care is now behaviorally strong: practical food help, remembered attention to a recurring self-care pattern, and safe evidence of sustained reciprocal support. Teri's blunt joking wrapper and caretaking function coexist. Sensitive private details remain backstage; `sistah` is joke-family language, not biological kinship, and nothing supports romance.
-
-**Mirage:** a developing process-over-label person read is coherent across separate self-reports: admit mistakes instead of blame-shifting, learn through failure/deliberate effort, revise a social model through conversation. `Not really` to being smart sits beside a concrete learning method. Coffee making Mirage sleepy is Petty Crimes texture only, never a diagnosis.
-
-**Seth:** full current assigned stable-ID audit found no named UL teaching/help recipient. Workplace teaching remains ordinary-life evidence; no UL teaching office is invented.
-
-## HR state
-The authoritative comprehensive non-Mugen HR ledger is now **100 / 100 exhausted at the current archive boundary, 0 in progress, 0 blocked, 0 queued**. Exhaustion is reversible mining state, not a claim that any person is complete forever.
+**Mugen:** the late miner handoff promotes the nurse-to-nurse Kiro exchange `smfh i am that senior nurse` / `11 years of mistakes bb` as a competence-without-prestige character tell. The read is good but already public on both surfaces. MAIN already frames the scene as seniority plus immediate sabotage of the pedestal; WIKI already says essentially the same thing in Mugen's structured biography. This is duplicate/corroboration, not permission for another paragraph or a fake Episode.
 
 ## Reader changes
-**0 WIKI reader-facing mutations this pass.** Ansun/Eos are mature existing mechanisms; Jas's fresh Wall material belongs in existing person/profile structure; Teri/Moon and Mirage are accepted material but do not justify inventing a broad public dossier/shelf from the current architecture. MAIN likewise receives no new reader mutation from this pass.
+**0 WIKI reader-facing mutations this pass. 0 MAIN reader-facing mutations from these deltas.** The HR suffix does not materially change any mature public person read, and Mugen's supposedly new professional-seniority interpretation is already integrated correctly on both surfaces.
 
 ## Verification
-The Run-315 WIKI state commit is verified through the normal Astro Build and Pages deployment workflows. MAIN remains separately verification-blocked: a third retry of `UL Hourly Build + Deploy` again failed the `Build + verify` job at provider/setup level with `steps: []`, no runner assignment, and deployment skipped. WIKI does not launder that into a green MAIN/deployment claim.
+MAIN `master` is at `b3f5272558d92eeadf44a6a3056d601824fd998b` (`Run 316: persist full miner branch census`) at this reconciliation boundary. Its `UL Hourly Build + Deploy` run `33773456398` failed three attempts at provider/setup level: `Build + verify` has no workflow steps (`steps: null`) and deployment is skipped. That is not reported as a source/build failure and is not laundered into a green deployment claim.
+
+This WIKI state is committed independently and must pass the WIKI repository's normal Astro Build and GitHub Pages workflows. No reader-facing Cast code changed.
 
 ## Rails / holds
-`baby tae` is affectionate language, not literal kinship or age evidence. Ansun/Souta remains separate from Anthos. POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct. Jas's old Wall media remains uninspected. Teri/Moon remains friendship, not romance/family. Mirage coffee self-report is not medicalized. No appointment chronology comes from export-time role arrays, and earliest surviving remains non-origin.
+`11 years of mistakes bb` does not establish a career-start year. Sensitive employer/unit/schedule/licensure details remain private. Kiro's healthcare status remains governed by his own controlled file. `baby tae` is affectionate language, not literal kinship or age evidence. Ansun/Souta remains separate from Anthos. The corrected Hami parent is ShiyaX, not Tofu. POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct. One peer-routing scene does not create formal authority. Earliest surviving remains non-origin.
