@@ -1,11 +1,11 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-03 Run 319 reconciliation_
+_Last updated: 2026-09-03 Run 320 reconciliation_
 
-MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Detailed reconciliation for this pass lives in `INTEGRATION_STATE_RUN_319.md`.
+MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Detailed reconciliation for this pass lives in `INTEGRATION_STATE_RUN_320.md`.
 
 ## Current census / reviewed tails
-The full census is **49 miner identities = 28 active refs + 21 historical/missing refs**, with **0 newly discovered, 0 pending review, 0 pending publication, 0 backlog, and 0 overdue**. Both Club-Only recovery priorities remain current through head. Wall remains a recovery target because new source can still arrive, but there is no unread current Wall tail.
+The full census is **49 miner identities = 28 active refs + 21 historical/missing refs**, with **0 newly discovered, 0 pending review, 0 pending publication, 0 backlog, and 0 overdue**. No active miner ref advanced beyond the Run 319 close, so there is no unread intake delta this pass. Both Club-Only recovery priorities remain current through head. Wall remains a recovery target for future source only; its present head is reviewed.
 
 Current reviewed boundaries:
 - All Characters HR → `c3286ce44de49c8bfc9c779da4f09ee353c5d5c3`
@@ -21,16 +21,16 @@ Core Rooms / Events still points behind its preserved reviewed boundary and rema
 Comprehensive non-Mugen HR remains **100 / 100 exhausted at the current archive boundary, 0 in progress, 0 blocked, 0 queued**. Exhaustion is reversible mining state, not a claim that any person is complete forever.
 
 ## Reader changes
-**WIKI:** Woohyuk's structured dossier was deepened with a `Wall Participant / Mock-Defendant` Running Gag plus bounded Ren and Gilli relationship edges. No standalone Episode was created. The useful contradiction is participation under exposure: Woohyuk understands and feeds the Wall machinery, then stays inside the same joke and mock-plea-bargains when the file turns on him.
+**MAIN:** 0 reader-facing changes.
 
-**MAIN:** net reader-facing change **0**. A matching Woohyuk enhancement was attempted, but the MAIN workflow failed before any verification/build/deploy step existed on the original run and rerun. The unverified reader change was reverted. MAIN's existing Woohyuk biography already owns the richer person-first Wall-fluency / reciprocal-roast core.
+**WIKI:** 0 reader-facing changes.
 
-Mugen's newly reviewed Nhou `c/o zofran...` / `U NEED TO GO HOME` scene deepens an existing work-cost/care axis but did not warrant duplicate reader copy because the exact scene and broader synthesis are already public in their canonical owners.
+No new evidence family arrived, so nothing was duplicated, mirrored, or promoted merely to justify the pass. Run 319's Woohyuk structured Wall expansion and prior person-first integrations remain the current public owners.
 
 ## Verification
-WIKI reader commit `49a169d9b4197954a47c9cbae3bb135c5a3649b6` passed Build workflow `33780874671` and Pages workflow `33780874620`; Pages completed preview build, artifact upload, and GitHub Pages deployment successfully.
+MAIN census-state commit `575f80a1a3d3282fc3866022d2141dbf6d6402f0` triggered workflow `33782472715`. `Build + verify` failed with **no steps at all** and runner id `0`; Cloudflare deploy was skipped. This is not a source-verifier or Astro failure because those steps never ran. No MAIN reader content changed.
 
-MAIN workflow `33780729484` failed before steps existed on both the original attempt and rerun; Cloudflare deployment did not run. This is not reported as a source-verifier or Astro failure because those steps never executed. The attempted reader mutation was reverted rather than left unverified.
+WIKI's final Run 320 state commit must pass the repository's Build and Pages workflows before the pass is called green on WIKI.
 
 ## Rails / holds
-All existing user canon, resolved identity corrections, attribution distinctions, privacy/safety boundaries, and non-origin rules remain controlling. POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct. No appointment chronology comes from export-time role arrays. The Woohyuk/Ren witness-money sequence remains joking local choreography rather than literal bribery or a structurally threaded reply chain. Uninspected Wall media stays uninspected. q18 Ghostt reply-parent hunting is closed negative / do-not-rediscover unless new source appears.
+All existing user canon, resolved identity corrections, attribution distinctions, privacy/safety boundaries, and non-origin rules remain controlling. POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct. No appointment chronology comes from export-time role arrays. Uninspected media stays uninspected.
