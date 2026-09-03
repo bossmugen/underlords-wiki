@@ -1,24 +1,24 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-03 00:31 PDT_
+_Last updated: 2026-09-03 00:43 PDT_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. This file is the WIKI-side rolling summary; detailed run reconciliation lives in `INTEGRATION_STATE_RUN_*.md`.
 
 ## Current reviewed boundary
 
-The controlling census tracks **49 miner identities = 28 active refs + 21 historical/missing refs**, with **0 newly discovered**. Run 293 reviewed the two advanced branches visible at census: All Characters HR and Wall recovery. The intended closing queue is **0 pending review**, **0 pending publication**, **0 backlog**, **0 overdue**, once MAIN's controlling consumption ledger is advanced to the reviewed heads.
+The controlling census tracks **49 miner identities = 28 active refs + 21 historical/missing refs**, with **0 newly discovered**, **0 pending review**, **0 pending publication**, **0 backlog**, and **0 overdue**. Run 293 reviewed and MAIN has now consumed the two advanced branches visible at census: All Characters HR and Wall recovery.
 
 Both Club-Only recovery priorities remain current:
 
 - `archive-miner/club-only-2021-2026-hourly` → `e45fb11c9239e236231bb65645dfd0285bc0078b`
 - `archive-miner-clubonly-2020-hourly` → `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`
 
-Run-293 reviewed boundaries:
+Run-293 consumed boundaries:
 
 - `archive-miner/all-characters-hr-20260828` → `91e5f368607bb6d30282273586259b432a6bf110`
 - `archive-miner-wall-hourly-20260824` → `50596bc0a8fc1275e1e23b641c11b9c40ff35f6e`
 
-Wall remains `recovery_in_progress` only because more source can arrive later; the present suffix is fully reviewed.
+Wall remains `recovery_in_progress` only because more source can arrive later; the present suffix is fully reviewed and consumed.
 
 ## Latest reconciliation
 
@@ -69,11 +69,11 @@ Hard identity canon controls: **WOO / `_woo_woo` = Woosung; Woohyuk remains sepa
 
 ## Consumed SHAs
 
-Pending MAIN ledger write after successful review close:
+MAIN controlling ledger now records:
 
 - `archive-miner/all-characters-hr-20260828` → `91e5f368607bb6d30282273586259b432a6bf110`
 - `archive-miner-wall-hourly-20260824` → `50596bc0a8fc1275e1e23b641c11b9c40ff35f6e`
 
 Detailed reconciliation: `INTEGRATION_STATE_RUN_293_WALL_HR_CLOSE.md`.
 
-Exact final WIKI Build and Pages status must pass on the final publishing head before this run is reported green.
+WIKI head `cf03874968edc7404a93fa3d77af20da3232507b` passed Build run `33729164501` and Pages run `33729164458`; this ledger-sync commit is verified again through the same repository-native workflows before the run is reported green.
