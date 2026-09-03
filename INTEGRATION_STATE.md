@@ -1,67 +1,66 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-03 03:30 PDT_
+_Last updated: 2026-09-03 03:42 PDT_
 
-MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. This file is the WIKI-side rolling summary. Detailed reconciliation for the current pass lives in `INTEGRATION_STATE_RUN_301.md`; the previous substantive reconciliation is Run 300.
+MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. This file is the WIKI-side rolling summary. Detailed reconciliation for the current pass lives in `INTEGRATION_STATE_RUN_301.md`.
 
 ## Current reviewed boundary
 
-The controlling census tracks **49 miner identities = 28 active refs + 21 historical/missing refs**, with **0 newly discovered, 0 pending review, 0 pending publication, 0 backlog, and 0 overdue** after Run 301 reconciliation.
+The controlling census tracks **49 miner identities = 28 active refs + 21 historical/missing refs**, with **0 newly discovered, 0 pending review, 0 pending publication, 0 backlog, and 0 overdue** at the reviewed Run 301 boundary.
 
-Run 301's initial full census found every active ref current through its consumed head. A final movement check then caught Wall advancing during the run. The late delta was reviewed checkpoint-first and intake-only, and Wall is consumed through:
+The run began with every active ref current. Wall then advanced twice and was reviewed checkpoint-first both times. The reviewed Wall boundary is now:
 
-- `archive-miner-wall-hourly-20260824` → `f83d1b8824833cbadee5388b7cac7eacb9fe159e`
+- `archive-miner-wall-hourly-20260824` → `c4762f275015dacf016137cab7f9f413477d5f77`
 
 Both Club-Only recovery priorities remain current:
 
 - `archive-miner/club-only-2021-2026-hourly` → `e45fb11c9239e236231bb65645dfd0285bc0078b`
 - `archive-miner-clubonly-2020-hourly` → `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`
 
-Wall remains `recovery_in_progress` only because more source can arrive later; its present head is reviewed and consumed.
+Wall remains `recovery_in_progress` only because more source may arrive later; its present reviewed head is consumed.
 
-## Run 301 — Alaina checks the context, then joins the crime
+## Run 301 — Alaina checks the context; Kiro changes courtroom seats
 
-Reader-facing WIKI changes: **0**.
+The first Wall tail advances **Alaina** into a coherent profile-level read: she repeatedly checks whether context or attribution rescues an exhibit, accepts correction without drama, and still joins the joke. The best contradiction is **context sanity-checker who remains inside the nonsense and can be wrong for one beat**. Marian/Panda↔Alaina gains a bounded low-friction context-arbitration rhythm.
 
-Reader-facing MAIN changes: **0**.
+That material is **banked, not rejected**. Neither public surface currently has a safe canonical Alaina status/shelf, and the Wall packet does not resolve UL member vs Staff vs Platelet vs VIP/visitor vs another historical category. Publishing a person card would therefore invent institutional status even though the personality read itself is strong.
 
-The new Wall handoff advances **Alaina** from thin reaction account to a materially contextualized person read. Her seven authored Wall messages are small but unusually coherent: she repeatedly checks whether context or attribution rescues an exhibit, accepts correction without drama, and still participates in the joke. Rotini's `Sorry not sorry` becomes a sung callback; Marian/Panda's `no. that was the context` gets a defeated `Okay` and immediate BRB; and the later wrong-account pocket gets `:Cute_Catpeek:` / `I think that is tho` before Marian and Eos resolve the attribution.
+The second Wall tail sharpens **Kiro / HicUUOOOOGH** into a recurrent petty mock-prosecutor / theatrical mock-defendant. He files screenshots under `Being petty` and `Seraph needs some explaining to do`; when the Wall turns toward him, the answer tends to be crying, probable fleeing, bang emotes, or `Who's kiro`. Gilli↔Kiro also gains bounded receipt-game shorthand, including an exact October 8 Reply chain around whether Kiro's petty operation got `it`.
 
-The useful contradiction is **context sanity-checker who is still one of the clowns and can be wrong for a beat**. Marian/Panda↔Alaina also gains a bounded low-friction context-arbitration rhythm across two separated scenes.
+### Surface split
 
-The delta also closes the Eos→Marian/Panda q18 reply join around the February wrong-account scene. That improves source structure for an already-public Panda↔Eos rail rather than creating a second Episode.
+**MAIN reader-facing Kiro change: 0.** MAIN already owns the richer person-shaped mechanism and did not need another Wall paragraph.
 
-### Why no reader mutation
+**WIKI reader-facing Kiro change: yes.** The Kiro dossier now has complementary Role Progression, a structured **Petty Prosecutor / Cartoon Defendant** Running Gag, Gilli relationship texture, Quotes, and Gallery/media notes. The same source is being used differently rather than mirrored.
 
-Alaina's personality material clears the contextual-confidence threshold. The hold is institutional ownership, not evidentiary timidity: neither public surface currently has a canonical Alaina person file/status shelf, and this Wall packet does not resolve UL member vs Staff vs Platelet vs VIP/visitor vs another historical category. A new Cast card would silently invent status.
+Reader commit `1c52f072e9e7c34cebc141af7c2903c2a10c1ea7` passed:
 
-Panda already owns the broader February wrong-account scene and a much larger Eos relationship spine, so adding this mini-arbitration to his biography would be receipt mitosis rather than useful resynthesis.
+- Build Underlords Wiki `33744776908` — success.
+- Pages / Deploy Underlords Wiki Preview `33744776922` — success.
 
-## Previous substantive boundary — Run 300
+## Closed joins / hard rails
 
-Run 300 reviewed two advanced intake families checkpoint-first and consumed them through:
-
-- All Characters HR → `7496d8021275c8294113fd3f87b737bc38b31678`
-- Mugen person-first → `ccc451e115feb4108be5f3b6dc05ea9a1b386f69`
-
-All Characters HR Run 103 moved WolfPhenix, Sye / Life, RV / Ren, Gilli, Oyasumi, Snow, Anthos, and Daya / Dayadream to `EXHAUSTED AT CURRENT ARCHIVE BOUNDARY`, bringing the authoritative comprehensive HR quarry to **67 exhausted / 33 in progress** out of 100 non-Mugen character files. That remains workflow state, not reader copy.
-
-The Mugen miner sharpened the March 23, 2023 anniversary sequence into a useful editorial-selection read: Mugen could move from sincere Officer credit and safe/comfortable language straight into selecting `rumfection`, `corpse kidnapping`, `panic karaoke`, `music bot breaking`, `generalized confusion`, and `wholesome dumassery` as the group's official remembered highlights. That nuance remains banked because the current public surfaces already own the preservation/framing mechanism and the native anniversary strip still needs recovery before screenshot-grade presentation.
-
-## Hard rails / held rabbits
-
+- Eos `938190544952242227` → Marian/Panda `938190426274430977`: exact Reply; CLOSED / DO NOT REDISCOVER.
+- Gilli `1028483272914771968` → Kiro `1028482580623937556`: exact Reply; CLOSED / DO NOT REDISCOVER.
+- Kiro `1028490504771485838` → Gilli `1028483272914771968`: exact Reply; CLOSED / DO NOT REDISCOVER.
+- Later Kiro GIF choreography without Reply pointers remains contextual/probable.
+- `FDA` is joke language, not literal regulatory evidence. `Rip Kiro` is joke language, not death evidence.
 - Alaina's Default messages remain contextual joins unless a Reply pointer exists.
-- Marian/Panda↔Alaina remains bounded relationship texture, not a friendship rank.
-- Eos→Marian/Panda q18 parentage above is CLOSED / DO NOT REDISCOVER.
-- Rotini is POSTED BY for `20220125_141332.jpg`; Snow is POSTED BY for the February `unknown.png`; no unseen media gains visual semantics or MADE BY / CAPTURED BY / FEATURING attribution.
-- `our family` remains UL social/family language, not literal biological family.
-- Snow remains never formal #2 / second-in-command.
-- No identity merge by similar names.
-- No appointment chronology from export-time role arrays.
-- SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain separate.
+- Marian/Panda↔Alaina and Gilli↔Kiro remain bounded relationship texture, not closeness rankings.
+- Uninspected media remains POSTED BY-only. No screenshot gains MADE BY / CAPTURED BY / FEATURING attribution from surrounding text.
+
+## Queue
+
+At the reviewed boundary:
+
+- pending review: 0
+- pending publication: 0
+- backlog: 0
+- review overdue: 0
+- recovery in progress: 1 (Wall)
 
 ## Verification
 
-Run 301 is state-only on WIKI. The exact closing `main` head must pass the repository's existing Build and Pages workflows before the run is reported complete. MAIN's exact closing `master` head is separately checked through source verification, Astro build, built-output verification, and production deployment.
+The accepted Kiro reader mutation passed the WIKI's full existing Build and Pages workflows. This rolling-state update triggers the normal closing Build/Pages checks again. MAIN is verified separately through source/canon verification, Astro build, built-output verification, and exact Cloudflare production deployment.
 
 Detailed reconciliation: `INTEGRATION_STATE_RUN_301.md`.
