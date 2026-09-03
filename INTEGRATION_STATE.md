@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-03 Run 326 closing reconciliation_
+_Last updated: 2026-09-03 Run 327 closing reconciliation_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`.
 
@@ -23,6 +23,18 @@ Current important boundaries:
 Wall remains `recovery_in_progress` even though its current seen head is consumed because future Wall source can still arrive.
 
 Comprehensive non-Mugen HR remains **100 / 100 exhausted at the current archive boundary, 0 in progress, 0 blocked, 0 queued**. Exhaustion is reversible mining state, not a claim that any person is complete forever.
+
+## Run 327 — full census + MAIN Yumi publication retry
+
+Run 327 re-enumerated the complete miner surface and found the same **28 active refs** on the same heads recorded by Run 326. There was **no new unconsumed intake delta** to review this cycle, so no miner handoff was reopened and no duplicate/corroboration tail was reread merely to create activity.
+
+The one live queue item remained the already-reviewed Louvre/Yumi MAIN publication debt. The accepted relationship read is unchanged: after Yumi's assigned creative-room trail gets thin, Mugen can still answer 2023 QOTD `WHO IS UR WIFE` with `Mine would be @Yummibears` without reintroducing her. `wife` remains UL house language; the human point is low-ceremony remembered salience, not literal marriage, romance, sex, exclusivity, or proof of continuous intervening activity.
+
+MAIN was reread at current `master` and the person-first Yumi synthesis was retried at reader commit `2d49872920f16245ab715cfec8f0cef4d36f71cb`. Exact workflow **33794225733** completed with failure before any `Build + verify` step instantiated. The jobs endpoint exposes `steps=null` for the failed `Build + verify` job, and the Cloudflare deploy job was skipped. This is again a pre-step Actions/provider boundary, not a demonstrated source-verifier, Astro, content, or built-output failure.
+
+Because the accepted MAIN reader change did not clear verification, it was reverted completely at `429eb8bb4561655cbedd315437f686fbc3107c26`. MAIN therefore has **0 net reader-facing changes** from Run 327. The controlling ledger was updated on MAIN at `688f86860c725bcdaccc0a087f7050ac6efd7a3f`; Louvre remains `pending_publication`, with `last_seen_sha=b7260f500c4ece9a7b95bfaf1b8b4e0512a5f1b8` and `last_consumed_sha=cb7994b08c9a89051df732f27a99c1dd79a5ae93`.
+
+WIKI already owns the Yumi relationship-afterlife in verified structured form, so **no WIKI reader mutation** was justified. This state update exists only to keep both surfaces synchronized about the unresolved MAIN publication gate.
 
 ## Run 326 — Mugen person-first review
 
@@ -52,16 +64,14 @@ The only pending-publication item remains the already-reviewed Louvre/Yumi relat
 
 WIKI already owns that finding in verified structured form. MAIN still does not keep the accepted person-first Yumi section because its verification gate remains broken before workflow steps instantiate.
 
-Run 326 re-read current MAIN and retried the person-first Yumi integration at reader commit `d2d82e96fc03d38e4dd1f071ae0981d61fdf3f5e`. Exact workflow `33791948477` completed with **failure before any build step instantiated**: `Build + verify` exposed `steps=[]` and `runner_id=0`; `Deploy verified master to Cloudflare Pages` was skipped. This is the same pre-step GitHub Actions/provider boundary as prior retries, not a demonstrated canon-verifier, Astro, content, or built-output failure.
-
-The unverified Yumi reader mutation was reverted completely at `b3d72aaa5430c65b70c12fd654721d261c461689`. MAIN therefore has **0 net reader-facing changes** from this retry. Do not re-review the Louvre intake merely because publication is blocked, and do not advance its consumed SHA until the accepted MAIN synthesis can pass normal verification.
+Run 327's latest retry supersedes the older Run-326 retry record for operational state: reader commit `2d49872920f16245ab715cfec8f0cef4d36f71cb`, workflow `33794225733`, revert `429eb8bb4561655cbedd315437f686fbc3107c26`. Do not re-review the Louvre intake merely because publication is blocked, and do not advance its consumed SHA until the accepted MAIN synthesis can pass normal verification.
 
 ## Reader changes
 
-**MAIN:** 0 net reader-facing changes in Run 326. The Mugen and late-Wall deltas were already publicly synthesized; the accepted Yumi retry was reverted because the normal verification workflow never instantiated.
+**MAIN:** 0 net reader-facing changes in Run 327. The accepted Yumi retry was reverted because the normal verification workflow never instantiated.
 
-**WIKI:** 0 reader-facing changes in Run 326. Mugen's care self-report, Yaza's low-escalation Wall register, and Yumi's relationship-afterlife already have public owners here. This update only advances durable reconciliation state.
+**WIKI:** 0 reader-facing changes in Run 327. Yumi's relationship-afterlife already has its structured public owner here. This update only advances durable reconciliation state.
 
 ## Rails / holds
 
-All user-confirmed canon, resolved identity corrections, attribution distinctions, privacy/safety boundaries, and non-origin rules remain controlling. Mugen's love-language line is a casual dated self-report, not a diagnosis, attachment-style claim, romance/sex inference, or universal rule for every relationship. `wife`, `sistah`, and similar house language remain social/joke language unless independently grounded otherwise. Rosario17 / Yazaki resolves to Yaza through the existing alias bridge, not name resemblance. No appointment chronology comes from export-time role arrays. Uninspected media stays uninspected. Snow q12 remains unresolved beyond the already-owned artifact.
+All user-confirmed canon, resolved identity corrections, attribution distinctions, privacy/safety boundaries, and non-origin rules remain controlling. `wife`, `sistah`, and similar house language remain social/joke language unless independently grounded otherwise. No appointment chronology comes from export-time role arrays. Uninspected media stays uninspected. The Louvre/Yumi hold is operational only: the interpretation is accepted, but MAIN's verification runner still fails before source/build checks can execute.
