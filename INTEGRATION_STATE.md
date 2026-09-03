@@ -1,8 +1,8 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-03 Run 333_
+_Last updated: 2026-09-03 Run 334_
 
-MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Per-run files remain authoritative for historical cycles; current run detail is in `INTEGRATION_STATE_RUN_333.md`.
+MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Per-run files remain authoritative for historical cycles; current run detail is in `INTEGRATION_STATE_RUN_334.md`.
 
 ## Current census / queue
 
@@ -15,62 +15,97 @@ Full census: **49 tracked miner identities = 28 active refs + 21 historical/miss
 - overdue: 0
 - Wall recovery quarry: open for future source
 
-Both Club-Only recovery priorities are current through head. All 28 active miner refs were unchanged from the Run 332 heads at the Run 333 opening and closing checks, so Run 333 has **no new or unconsumed intake suffix to review** and no miner consumed cursor advances.
+Both Club-Only recovery priorities are current through head. Run 334 reviewed three opening-census deltas checkpoint-first / intake-only: Daycare through `fb865a0a2c2a23f0483933975c766dcadcd504fc`, Louvre through `892bbd901046a3cc6dfd841602540355de983cb7`, and Wall through `599b2e23c0f7edaf17c48b68051d45f6a7a5f3e0`. Closing census found the same 28 active refs at the same heads.
 
 Important current boundaries:
 
-- All Characters HR → `c3286ce44de49c8bfc9c779da4f09ee353c5d5c3` — 100/100 canonical non-Mugen quarries exhausted at current archive boundary
+- All Characters HR → `c3286ce44de49c8bfc9c779da4f09ee353c5d5c3` consumed
 - Core Rooms / Events → `5d463295095e34836c0b0b1a08c9374f906e9953` consumed
-- Daycare → `9c2ec0892a6fc6447e577b25a7d5c97b0dc742a3` consumed
-- Louvre / AI Art / Athenaeum / Other Games seen/reviewed → `0600ae86f652c119b84a577b3ef205487eb40416`
-- Louvre last consumed → `cb7994b08c9a89051df732f27a99c1dd79a5ae93`
+- Daycare → `fb865a0a2c2a23f0483933975c766dcadcd504fc` reviewed and safe to consume; the new Yaza density read is corroboration, not new reader copy
+- Louvre / AI Art / Athenaeum / Other Games seen/reviewed → `892bbd901046a3cc6dfd841602540355de983cb7`
+- Louvre last consumed remains → `cb7994b08c9a89051df732f27a99c1dd79a5ae93` while accepted MAIN Yumi/Rooks publication debt remains blocked
 - Mugen person-first seen/reviewed → `39d5622a5c11872cfd11158ffe5380981b6fdc60`
-- Mugen last consumed → `89097a386de08c6001cd14165ffb3e5aed289a10`
-- Wall seen/reviewed → `31a8a4a4778993450f743118bec94c7479aaa128`
-- Wall last consumed → `ea893e9ffb682e2cc0007e10c9f6dcc1df36b20d`
+- Mugen last consumed remains → `89097a386de08c6001cd14165ffb3e5aed289a10`
+- Wall seen/reviewed → `599b2e23c0f7edaf17c48b68051d45f6a7a5f3e0`
+- Wall last consumed remains → `ea893e9ffb682e2cc0007e10c9f6dcc1df36b20d` while older accepted ShiyaX MAIN work remains blocked
 - Whiskey seen/reviewed → `ef3ed8d8c0cfa2f8e95096b73cda520e857173fb`
-- Whiskey last consumed → `44ba4b7f6903ed76cb2dc8acb666e9f7f7a44d69`
+- Whiskey last consumed remains → `44ba4b7f6903ed76cb2dc8acb666e9f7f7a44d69`
 - Club-Only 2021–2026 → `e45fb11c9239e236231bb65645dfd0285bc0078b` consumed
 - Club-Only 2020 → `ed66714f8d2c18f23bbb2b951bf305f0fa913f21` consumed
 
 `EXHAUSTED AT CURRENT ARCHIVE BOUNDARY` remains reversible mining state, not a claim that a person is complete forever.
 
+## Run 334 WIKI reader integration — Ghostt
+
+Ghostt's structured file now owns the stronger Wall contradiction instead of leaving it as disconnected incidents: **stale-receipt retriever / compact undercutter / evidence-poster ↔ unserious self-defendant**.
+
+The useful exact structures are:
+
+- More than five hours after Gilli posts a screenshot, Ghostt true-replies the exact object with `No you had it right it’s porpcorn now lmfao`; Gilli later says `I DIDNT SAY IT LOL`. The pixels and original typo author remain unresolved.
+- Ghostt true-replies Mugen's exact `:Cursed:` with `Bless your heart :hAhA:`.
+- Ghostt posts two uninspected images in July 2022; Tae true-replies `BRUH GHOST`; Ghostt replies `She set me up for it 😂`; Tae replies `nah but you right`. The structure is clean. `She`, the image contents, and any literal setup remain unresolved.
+
+This lives in `src/data/character-bios-staff-last-run334.ts`; it is WIKI structure, not copied MAIN biography prose. Reader commit `437db1fa43bd61113fa6e829edab2f4af6ec40a6` passed exact Build workflow `33809359584`, and Pages workflow `33809359454` successfully built/uploaded the Pages artifact and deployed to GitHub Pages.
+
+The miner's incidental pronoun wording does not override the established public Ghostt identity/pronoun file. Current Staff canon remains current Staff; no appointment chronology is inferred.
+
+## Run 334 corroboration / banked findings
+
+### Yaza / Rosario17 — low-verbal is not low-presence
+
+The Daycare suffix adds a real density check: 158 authored messages across 2021-04-27 → 2022-08-10 make the existing small-message style much harder to mistake for absence. Yaza repeatedly participates through laughter strings, little approvals, `Aww so sweet!!`, and warm reactions rather than floor-taking. MAIN and WIKI already own the person mechanism, so this is a consumed corroboration/deepening, not another paragraph or Episode.
+
+### Type-X — recognizable to the house, unresolved to us
+
+Stable archive identity `615280089541771359` / `.ghostazrael` / `Type-X` now has a useful person shape: low-pressure sleep/status check-ins, simple reassurance, mildly vulnerable domestic-joke language, easy fussing with Gilli/Anthos, and a March 2021 roleless return/re-entry scene where Mugen immediately says `It's Type X lol welcome home bb` after the same stable account is already active in 2020.
+
+March 2021 is therefore not origin. It is probable return / re-entry / role repair / access restoration with exact mechanics and the assigned role unresolved. Canonical identity remains unresolved. Do not merge Type-X with Ghostt because `.ghostazrael` contains `ghost`, and do not turn Athenaeum creative writing into autobiography.
+
+No public Type-X page was created this run because safe canonical ownership is not solved.
+
+### Alkey — structural closures, already public
+
+Mugen's popcorn Tenor true-replies Alkey's exact chicken-stage message; Alkey's probable `I aim to please` bow and the later `i / saw / all` witness pacing sharpen his spectator↔performer mechanism. Both public surfaces already own the stronger Alkey read, so no duplicate update.
+
 ## Pending MAIN publication work already represented on WIKI
 
 ### ShiyaX — prosecutor and defendant
 
-WIKI already owns the contradiction: ShiyaX is receipt-literate enough to prosecute other people's Wall crimes with `Busted` / `got caught in 4k`, but when the exhibit turns toward him the defense strategy becomes absence claims, crying GIFs, suspicious exits and fake account-compromise theater. The accepted MAIN person-first deepener remains held behind MAIN verification.
+WIKI owns the contradiction: ShiyaX is receipt-literate enough to prosecute other people's Wall crimes with `Busted` / `got caught in 4k`, but when the exhibit turns toward him the defense strategy becomes absence claims, crying GIFs, suspicious exits and fake account-compromise theater. The accepted MAIN person-first deepener remains held behind MAIN verification.
 
 ### Rooks — process, critique, capacity
 
-WIKI already owns the creator-process deepener: Rooks shares unfinished work, directly asks the room to `critique me`, and when a printmaking step is delayed starts talking about ordering her own supplies so she can make/sell copies herself. The public read is process openness plus a practical impulse to remove production bottlenecks; the sales/supplies remain plans unless later receipts confirm completion. MAIN's richer person-first fold remains held.
+WIKI owns the creator-process deepener: Rooks shares unfinished work, asks the room to `critique me`, and when a printmaking step is delayed starts talking about ordering her own supplies so she can make/sell copies herself. MAIN's richer person-first fold remains held.
 
 ### Yumi — relationship afterlife
 
-WIKI already owns the later Mugs callback: years after the visible trail thins, Mugen can answer a QOTD `WHO IS UR WIFE` prompt with `Mine would be @Yummibears` without reintroducing Yumi. The useful read is remembered social salience, not literal marriage/romance canon. MAIN's person-first relationship fold remains held.
+WIKI owns the later Mugs callback: years after the visible trail thins, Mugen can answer `WHO IS UR WIFE` with `Mine would be @Yummibears` without reintroducing Yumi. Remembered social salience, not literal marriage/romance canon. MAIN's person-first relationship fold remains held.
 
 ### Sye / Life — warmth as room-making
 
-WIKI already owns the Sye deepener: she can be tired and at work and still output `Good Morning Loves !`; `come meet your neighbors` turns arrival into social placement; `I just wanna make sure she was actually joking` shows context discipline beneath the loud affectionate register. Sye remains distinct from Syv. MAIN's person-first warmth section remains held.
+WIKI owns the Sye deepener: tired and at work can still produce `Good Morning Loves !`; `come meet your neighbors` turns arrival into social placement; `I just wanna make sure she was actually joking` shows context discipline beneath the loud affectionate register. MAIN's person-first warmth section remains held.
 
 ### Mugen — invites people to author their own history
 
-WIKI already owns the fifth-anniversary deepener: Mugen starts from founder-time — `It's been 5 years since we founded Underlords` — and then asks members what changed in their lives and how they grew. UL supplies the anniversary clock; the people retain authorship of their own education, work, moves, homes, anxieties, hobbies, travel, savings and other life changes. MAIN's equivalent person-first surgery remains held.
+WIKI owns the fifth-anniversary deepener: Mugen starts from `It's been 5 years since we founded Underlords` and asks members what changed in their lives and how they grew. UL supplies the anniversary clock; members retain authorship of their own life changes. MAIN's equivalent person-first surgery remains held.
 
 ## Banked / unresolved
 
-LilsatanSir remains a strong comics/superhero person candidate pending safe ownership/direct assigned-body recovery. Pride remains identity-unresolved and is not merged by display-name resemblance. Whiskey's uninspected media remains attribution/noun-unresolved. Ricochet / `dragonrichard` remains distinct from Rich / DragonRich. Joke-family, `wife`, flirting, fake alibis and similar house language remain social/joke language unless stronger evidence supports literal relationship claims.
+LilsatanSir remains a strong comics/superhero person candidate pending safe ownership/direct assigned-body recovery. Pride remains identity-unresolved and is not merged by display-name resemblance. Type-X is now another strong stable-archive person candidate whose canonical identity is unresolved. Whiskey's uninspected media remains attribution/noun-unresolved. Ricochet / `dragonrichard` remains distinct from Rich / DragonRich. Joke-family, `wife`, flirting, bed jokes, fake alibis and similar house language remain social/joke language unless stronger evidence supports literal relationship claims.
 
-## Run 333 MAIN operational hold
+## MAIN operational hold
 
-The mandatory census was persisted on MAIN first at `336fab3e5620222c7a2b632d8ea2ba4945b7a0bd`. Exact workflow `33806955732` failed before repository verification could begin: `Build + verify` completed failure with no instantiated steps (`steps: []`), `runner_id: 0`, and an empty runner name; Cloudflare deployment was skipped.
+MAIN's Run 334 opening census commit `dbcd6c52295a818f5311438714512ebef87c952c` triggered `UL Hourly Build + Deploy` workflow `33808784506`. It again failed before repository verification instantiated: the `Build + verify` job returned no steps, and the verified Cloudflare deploy job was skipped.
 
-That does **not** demonstrate a source-verifier, Astro, content, or built-output failure; those checks never ran. It remains a real publication block. MAIN reader pages remain unchanged and the four branch publication cursors remain held.
+That does **not** demonstrate a source-verifier, Astro, content, or built-output failure; those checks did not run. It remains a real publication block. No new MAIN reader mutation was left on `master` this run.
 
-MAIN's durable Run 333 report is `archive-intake/INTEGRATION_PASS_2026-09-03_1414_DUAL.md` at commit `5058ec8b46abd1ab48af3c3cf2ea5bc1ced3db40`.
+## Run 334 surface split
 
-## Run 333 WIKI disposition
+- MAIN reader changes: 0
+- WIKI reader changes: Ghostt structured dossier deepener
+- Daycare/Yaza: corroboration only; no duplicate reader copy
+- Louvre/Type-X: banked because canonical public identity remains unresolved
+- Wall/Alkey: duplicate/corroboration only
+- Wall/Ghostt: structured WIKI integration verified and deployed
 
-No WIKI reader file changes are warranted because no miner branch advanced and the accepted cross-surface findings are already structured here. Run 333 only refreshes durable integration state. Exact Build/Pages status is verified against the final WIKI head after this update completes.
-
-Do not re-review the four pending-publication suffixes merely because MAIN infrastructure is blocked. Review future miner commits only from the recorded seen/reviewed heads forward.
+Do not re-review the four pending-publication suffix families merely because MAIN infrastructure is blocked. Review future miner commits only from the recorded seen/reviewed heads forward.
