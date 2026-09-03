@@ -1,53 +1,46 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-03 03:42 PDT_
+_Last updated: 2026-09-03 04:00 PDT run window_
 
-MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. This file is the WIKI-side rolling summary. Detailed reconciliation for the current pass lives in `INTEGRATION_STATE_RUN_301.md`.
+MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. This file is the WIKI-side rolling summary. Detailed reconciliation for the current pass lives in `INTEGRATION_STATE_RUN_302.md`.
 
 ## Current reviewed boundary
 
-The controlling census tracks **49 miner identities = 28 active refs + 21 historical/missing refs**, with **0 newly discovered, 0 pending review, 0 pending publication, 0 backlog, and 0 overdue** at the reviewed Run 301 boundary.
+The controlling census tracks **49 miner identities = 28 active refs + 21 historical/missing refs**, with **0 newly discovered, 0 pending review, 0 pending publication, 0 backlog, and 0 overdue** at the reviewed Run 302 boundary.
 
-The run began with every active ref current. Wall then advanced twice and was reviewed checkpoint-first both times. The reviewed Wall boundary is now:
+Run 302 found one advanced branch and reviewed it checkpoint-first/intake-only:
 
-- `archive-miner-wall-hourly-20260824` → `c4762f275015dacf016137cab7f9f413477d5f77`
+- `archive-miner/all-characters-hr-20260828` → `8abde8de0962745c23b8b8401032bed5664797a7` (consumed)
 
 Both Club-Only recovery priorities remain current:
 
 - `archive-miner/club-only-2021-2026-hourly` → `e45fb11c9239e236231bb65645dfd0285bc0078b`
 - `archive-miner-clubonly-2020-hourly` → `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`
 
-Wall remains `recovery_in_progress` only because more source may arrive later; its present reviewed head is consumed.
+Wall remains `recovery_in_progress` only because more source may arrive later; its present reviewed head `c4762f275015dacf016137cab7f9f413477d5f77` is consumed.
 
-## Run 301 — Alaina checks the context; Kiro changes courtroom seats
+## Run 302 — eight humans survive without paragraph mitosis
 
-The first Wall tail advances **Alaina** into a coherent profile-level read: she repeatedly checks whether context or attribution rescues an exhibit, accepts correction without drama, and still joins the joke. The best contradiction is **context sanity-checker who remains inside the nonsense and can be wrong for one beat**. Marian/Panda↔Alaina gains a bounded low-friction context-arbitration rhythm.
+All Characters HR Run 104 completed its first stronger longitudinal packet for **Rooks, Ghoulie, Nelph, Rich, Woosung, Zyrcant, Woohyuk, and Syv**.
 
-That material is **banked, not rejected**. Neither public surface currently has a safe canonical Alaina status/shelf, and the Wall packet does not resolve UL member vs Staff vs Platelet vs VIP/visitor vs another historical category. Publishing a person card would therefore invent institutional status even though the personality read itself is strong.
-
-The second Wall tail sharpens **Kiro / HicUUOOOOGH** into a recurrent petty mock-prosecutor / theatrical mock-defendant. He files screenshots under `Being petty` and `Seraph needs some explaining to do`; when the Wall turns toward him, the answer tends to be crying, probable fleeing, bang emotes, or `Who's kiro`. Gilli↔Kiro also gains bounded receipt-game shorthand, including an exact October 8 Reply chain around whether Kiro's petty operation got `it`.
+The material strengthens person mechanisms already public: Rooks can take genuine critique; Ghoulie mixes competence with teacher-mode repair and structured learning; Nelph can be calm practical support and still react at full volume; Rich pokes, gets the protest, then leaves padding around his own teasing; Woosung can struggle to reach out but checks on people once safe; Zyrcant is quiet/intense at first and increasingly animated with trust; Woohyuk prizes sincerity and improvement; Syv may fail to initiate while being excellent at lowering the risk once somebody else goes first.
 
 ### Surface split
 
-**MAIN reader-facing Kiro change: 0.** MAIN already owns the richer person-shaped mechanism and did not need another Wall paragraph.
+**MAIN reader-facing change: 0.** The person-first biographies already own the stronger versions of these reads.
 
-**WIKI reader-facing Kiro change: yes.** The Kiro dossier now has complementary Role Progression, a structured **Petty Prosecutor / Cartoon Defendant** Running Gag, Gilli relationship texture, Quotes, and Gallery/media notes. The same source is being used differently rather than mirrored.
+**WIKI reader-facing change: 0.** The structured dossiers already own the relevant relationship / behavior / running-gag dimensions. No duplicate Episode, quote dump, or second dossier object was created.
 
-Reader commit `1c52f072e9e7c34cebc141af7c2903c2a10c1ea7` passed:
+Run 104 therefore moves all eight backstage to **EXHAUSTED AT CURRENT ARCHIVE BOUNDARY**. Comprehensive HR is now **75 exhausted / 25 open** across the 100 canonical non-Mugen character files. This remains reversible mining state, not a declaration that any person or the archive is globally exhausted.
 
-- Build Underlords Wiki `33744776908` — success.
-- Pages / Deploy Underlords Wiki Preview `33744776922` — success.
+## Hard rails
 
-## Closed joins / hard rails
-
-- Eos `938190544952242227` → Marian/Panda `938190426274430977`: exact Reply; CLOSED / DO NOT REDISCOVER.
-- Gilli `1028483272914771968` → Kiro `1028482580623937556`: exact Reply; CLOSED / DO NOT REDISCOVER.
-- Kiro `1028490504771485838` → Gilli `1028483272914771968`: exact Reply; CLOSED / DO NOT REDISCOVER.
-- Later Kiro GIF choreography without Reply pointers remains contextual/probable.
-- `FDA` is joke language, not literal regulatory evidence. `Rip Kiro` is joke language, not death evidence.
-- Alaina's Default messages remain contextual joins unless a Reply pointer exists.
-- Marian/Panda↔Alaina and Gilli↔Kiro remain bounded relationship texture, not closeness rankings.
-- Uninspected media remains POSTED BY-only. No screenshot gains MADE BY / CAPTURED BY / FEATURING attribution from surrounding text.
+- `WOO` / `_woo_woo` / Woozie = **Woosung**. **Woohyuk is separate.**
+- No appointment chronology was inferred from export/current role arrays.
+- No joke title became formal governance.
+- No teasing/affection became romance, sex, or literal family.
+- No uninspected media gained MADE BY / CAPTURED BY / FEATURING attribution.
+- Boundary exhaustion is backstage workflow state, not public character copy.
 
 ## Queue
 
@@ -61,6 +54,6 @@ At the reviewed boundary:
 
 ## Verification
 
-The accepted Kiro reader mutation passed the WIKI's full existing Build and Pages workflows. This rolling-state update triggers the normal closing Build/Pages checks again. MAIN is verified separately through source/canon verification, Astro build, built-output verification, and exact Cloudflare production deployment.
+No WIKI reader file changed in Run 302. This state lineage runs the WIKI's existing Build and Pages workflows. MAIN is verified separately through source/canon verification, Astro build, built-output verification, and exact Cloudflare production deployment.
 
-Detailed reconciliation: `INTEGRATION_STATE_RUN_301.md`.
+Detailed reconciliation: `INTEGRATION_STATE_RUN_302.md`.
