@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-03 Run 329 closing reconciliation_
+_Last updated: 2026-09-03 Run 329 final late-tail reconciliation_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Per-run detail for this cycle is preserved in `INTEGRATION_STATE_RUN_329.md`; older run-state files remain authoritative for their historical cycles.
 
@@ -20,11 +20,11 @@ Both Club-Only recovery priorities are current through head.
 Important boundaries after Run 329:
 
 - All Characters HR → `c3286ce44de49c8bfc9c779da4f09ee353c5d5c3` — 100/100 canonical non-Mugen quarries exhausted at current archive boundary
-- Core Rooms / Events → `f57d28405733efd274b0fe7a2e3d7a55576f7a3a`
+- Core Rooms / Events → `5dfb15a8a090f84ab8e462d9a66e9d7713d006fa` consumed
 - Daycare → `9c2ec0892a6fc6447e577b25a7d5c97b0dc742a3`
 - Louvre / AI Art / Athenaeum / Other Games seen/reviewed → `517ea697ce8923bf1f609a12fc15cc3b7995a7a5`
 - Louvre last consumed → `cb7994b08c9a89051df732f27a99c1dd79a5ae93`
-- Mugen person-first → `246c15de8d049d4f5b6904bfd43ef55bd452aebb` consumed
+- Mugen person-first → `89097a386de08c6001cd14165ffb3e5aed289a10` consumed
 - Wall seen/reviewed → `6f2252e0ef47ada07c7684410f650d68ccd28afd`
 - Wall last consumed → `ea893e9ffb682e2cc0007e10c9f6dcc1df36b20d`
 - Whiskey → `44ba4b7f6903ed76cb2dc8acb666e9f7f7a44d69`
@@ -35,11 +35,13 @@ Important boundaries after Run 329:
 
 ## Run 329 — Mugen
 
-The latest Mugen handoff joins her 2022 `Acts of Service + Quality Time` self-report to her self-description as a `distant drifter friend` who is also a perspective/gameplan person, dork/hype person and trip/event planner. The useful read is **values presence / accepts intermittence**.
+The substantive Mugen handoff joins her 2022 `Acts of Service + Quality Time` self-report to her self-description as a `distant drifter friend` who is also a perspective/gameplan person, dork/hype person and trip/event planner. The useful read is **values presence / accepts intermittence**.
 
 Both public surfaces already substantially own this. WIKI `character-biographies-mugen.ts` already places the drifter self-description beside the care-language answer and practical/social behavior. No Episode or extra receipt paragraph was added. MAIN likewise already has the same person-first contradiction.
 
-Disposition: duplicate/corroboration; consumed through `246c15de8d049d4f5b6904bfd43ef55bd452aebb` with a stronger DNR against collecting generic drift/return/planning receipts without recipient cost, mismatch or change.
+The closing one-commit tail through `89097a38...` only rolls the same completed package into the checkpoint and adds no independent semantic finding.
+
+Disposition: duplicate/corroboration; consumed through `89097a386de08c6001cd14165ffb3e5aed289a10` with a stronger DNR against collecting generic drift/return/planning receipts without recipient cost, mismatch or change.
 
 ## Run 329 — ShiyaX
 
@@ -73,9 +75,19 @@ The same branch still carries the older Yumi MAIN relationship-afterlife publica
 
 Louvre stays pending publication/ownership rather than being consumed merely because the rolling checkpoint caught up.
 
+## Run 329 — Core Rooms late tail
+
+Closing census caught Core Rooms at `5dfb15a8a090f84ab8e462d9a66e9d7713d006fa`. Noether's Anayss belonging spine plus `ask them if they want` lived-Officer judgment and Nothien's stay/show-care/cook support style plus guarded-but-permeable friend bar are already substantially public person reads. Snow/Prince remains supporting Lobby corroboration.
+
+Noether's completed Officer-action executor, Nothien's named enacted-care recipient, and Cen's Voice Challenge media provenance remain unresolved. No new reader mutation was warranted.
+
+Disposition: duplicate/corroboration; Core Rooms consumed through `5dfb15a8a090f84ab8e462d9a66e9d7713d006fa`.
+
 ## MAIN operational hold
 
-MAIN's mandatory Run-329 census commit `a7421e02bdaceb5e767952ad2cd3f7832ee5fad9` triggered exact workflow `33797060600`. `Build + verify` failed before any steps instantiated (`steps=null`); deployment was skipped. A targeted retry through the connected GitHub action was blocked by the connector safety gate.
+MAIN's mandatory Run-329 census commit `a7421e02bdaceb5e767952ad2cd3f7832ee5fad9` triggered exact workflow `33797060600`. Attempt 1's `Build + verify` failed before any steps instantiated (`steps=[]`, runner id 0); deployment was skipped.
+
+A targeted rerun of the failed job **was successfully dispatched** through the connected GitHub action. Attempt 2 reproduced the same zero-step pre-runner failure, and deployment was skipped again.
 
 This is not a demonstrated source-verifier, Astro, content or built-output failure, because those steps never start. It is nevertheless a real verification block: MAIN cannot be called green or newly deployed, and accepted MAIN reader changes are not committed through that gate.
 
