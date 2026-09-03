@@ -12,7 +12,7 @@ Current important boundaries:
 - All Characters HR → `c3286ce44de49c8bfc9c779da4f09ee353c5d5c3`
 - Core Rooms / Events → `f57d28405733efd274b0fe7a2e3d7a55576f7a3a`
 - Daycare → `9c2ec0892a6fc6447e577b25a7d5c97b0dc742a3`
-- Louvre / AI Art / Athenaeum / Other Games seen head → `b7260f500c4ece9a7b95bfaf1b8b4e0512a5f1b8`
+- Louvre / AI Art / Athenaeum / Other Games seen head → `bd9f1603ce53324125c4950d284458e6646f6e42`
 - Louvre last consumed → `cb7994b08c9a89051df732f27a99c1dd79a5ae93`
 - Mugen person-first → `6c5451edecd0156b954b59e9452b2a99eb2f6e58`
 - Wall → `ea893e9ffb682e2cc0007e10c9f6dcc1df36b20d`
@@ -24,16 +24,17 @@ Wall remains `recovery_in_progress` even though its current seen head is consume
 
 Comprehensive non-Mugen HR remains **100 / 100 exhausted at the current archive boundary, 0 in progress, 0 blocked, 0 queued**. Exhaustion is reversible mining state, not a claim that any person is complete forever.
 
-## Run 328 — full census + closing Daycare / Wall tails
+## Run 328 — full census + closing Daycare / Wall / Louvre tails
 
 Run 328 opened with all 28 active miner refs unchanged from Run 327 and no unconsumed intake delta. The mandatory census was persisted on MAIN at `337721a7d550915a6766935d618281224ebf40e7` before any deeper work.
 
-A closing full branch census then caught **two one-commit advances**:
+Closing full-branch checks then caught three active-branch advances:
 
 - Daycare `987cf27b6b955b4eef7ca9b13acc693fb2f236ce` → `9c2ec0892a6fc6447e577b25a7d5c97b0dc742a3`
 - Wall `f59e2c6abe236d8a0662f895ca2df20df08ed250` → `ea893e9ffb682e2cc0007e10c9f6dcc1df36b20d`
+- Louvre `b7260f500c4ece9a7b95bfaf1b8b4e0512a5f1b8` → `bd9f1603ce53324125c4950d284458e6646f6e42`
 
-Both were reviewed checkpoint-first and intake-only.
+All three were reviewed checkpoint-first and intake-only.
 
 ### Daycare — Ghostt
 
@@ -49,15 +50,29 @@ Again, both public surfaces already own this exact character mechanism. MAIN `zh
 
 The Wall tail also closes three q18 exact reply joins backstage and refines the rapid-arrival record discussion: Sou says `shamed within 6 minutes of entry`, while the recovered MEE6-welcome→Ren-Wall-summon export delta is 6m53.343s. Aesh's existing 2m45.648s comparison remains faster on the same recovered metric, so Zhēnxī is a participant-discussed record attempt, not the reconstructed record holder. No raw pixels were inspected; POSTED BY remains distinct from CAPTURED BY / MADE BY / FEATURING.
 
-Both late tails were consumed on MAIN at ledger commit `0000fccfc5ba869df30dbff9b7f0814e5b3c5ca7` as successful duplicate/corroboration reviews with durable no-public-change reasons.
+Daycare and Wall were consumed on MAIN at ledger commit `0000fccfc5ba869df30dbff9b7f0814e5b3c5ca7` as successful duplicate/corroboration reviews with durable no-public-change reasons.
+
+### Louvre — LilsatanSir finally has a person attached to the two-message ghost
+
+The newest Louvre tail is genuinely new person material rather than another rediscovery. LilsatanSir (`696522814521475092`, `lilsatansir2986`) still has only two assigned Louvre messages in the current ledger, both on 2020-04-30, and the direct bodies remain unrecovered through the current retrieval surface. A narrow stable-account support check nevertheless produces a coherent B+/A- person read without pretending those support messages are the missing Louvre rows.
+
+On 2020-04-14 Lilsatan says they are downloading comics, answers `Marvel`, admits `Nah` when D.I. asks about a new Thor title, names `cosmic ghost rider` as what they are actually reading, says `No` to *Doomsday Clock*, and then gives the wonderfully specific preference `Not a dc fan 😂` immediately followed by exceptions for Batman and the original *Teen Titans* cartoon. When the conversation turns to the Avengers game, the specificity spikes: `Gonna main the fuck out of iron man and Thor`, concern that games cannot balance Hulk properly, `The green world breaker gets no respect in video games;-;`, and interest in Professor Hulk because of Maestro.
+
+The useful character read is **mischievous wrapper + non-bluffing fandom honesty + very specific enthusiasm once activated**. Lilsatan does not perform completionism for D.I.; `Nah` and `No` are apparently perfectly acceptable answers until the topic hits something they actually care about. D.I. repeatedly pitches titles/premises and Lilsatan keeps the nerd lane moving, supporting shared superhero/comics conversational ground with D.I. as recommender/explainer in that scene, not mentorship or a closeness rank.
+
+Two other stable-account lines use `😈` around unresolved secret language — `I’ll get the secret out of you one day 😈` to Mugen and `that’s what my secret room is for 😈` to Gilli. Repetition makes playful/impish social styling probable, especially beside the LilsatanSir handle, but the actual secret/room referents stay unresolved. No governance, literal hidden room, romance/sex, coercion or private-fact reconstruction comes out of those lines.
+
+This finding is **accepted and banked, not evidence-rejected**. Repo search did not surface an existing LilsatanSir public dossier/owner, and the two assigned Louvre bodies are still unavailable. Rather than invent archive membership/role status just to get the comics material onto a Cast page, Run 328 leaves the person candidate backstage until a safe public shelf or direct assigned-body recovery exists. A separate support attachment described as a live view from the user's house was deliberately excluded as unnecessary location/privacy texture.
+
+MAIN's controlling ledger now records Louvre seen through `bd9f1603ce53324125c4950d284458e6646f6e42` while preserving consumed boundary `cb7994b08c9a89051df732f27a99c1dd79a5ae93`, because the same branch still carries accepted publication debt.
 
 ## Run 328 — MAIN verification health probe
 
-The one unresolved publication item remains the already-reviewed Louvre/Yumi MAIN relationship-afterlife synthesis. Before attempting another reader mutation, Run 328 re-ran exact failed workflow `33794225733` as an infrastructure-health probe. Attempt 2 again failed with `Build + verify` exposing `steps=null`; Cloudflare deployment was skipped.
+The unresolved publication item remains the already-reviewed Louvre/Yumi MAIN relationship-afterlife synthesis. Before attempting another reader mutation, Run 328 re-ran exact failed workflow `33794225733` as an infrastructure-health probe. Attempt 2 again failed with `Build + verify` exposing `steps=null`; Cloudflare deployment was skipped.
 
-The first Run-328 census commit then triggered exact workflow `33795703620`, which failed at the same pre-step boundary: `Build + verify` had no instantiated steps and deployment was skipped. Because source verification, Astro and built-output verification still never get a chance to execute, this remains an Actions/provider gate rather than a demonstrated content/build failure.
+Run-328 state commits continued to trigger the same pre-step failure. `33795703620` failed with no instantiated `Build + verify` steps, and the later exact-head state workflow `33796303877` did the same: `Build + verify` failed with `steps=null` and Cloudflare deployment was skipped. Because source verification, Astro and built-output verification still never get a chance to execute, this remains an Actions/provider gate rather than a demonstrated content/build failure.
 
-Run 328 therefore did **not** reapply the Yumi reader section only to revert it again. Louvre remains `pending_publication` with `last_seen_sha=b7260f500c4ece9a7b95bfaf1b8b4e0512a5f1b8` and `last_consumed_sha=cb7994b08c9a89051df732f27a99c1dd79a5ae93`. WIKI already owns the verified structured Yumi relationship-afterlife read.
+Run 328 therefore did **not** reapply the Yumi reader section only to revert it again, and it did not force the newly accepted LilsatanSir candidate into a reader surface that could not be safely owned/verified. Louvre remains `pending_publication`; WIKI already owns the verified structured Yumi relationship-afterlife read.
 
 ## Run 327 — full census + MAIN Yumi publication retry
 
@@ -71,18 +86,18 @@ Because the accepted MAIN reader change did not clear verification, it was rever
 
 ## Existing pending publication — Louvre / Yumi
 
-The only pending-publication item remains the already-reviewed Louvre/Yumi relationship-afterlife synthesis. On May 24, 2023, QOTD asks `WHO IS UR WIFE` and Mugen answers `Mine would be @Yummibears`. `wife` stays UL house language; the useful part is how little setup Yumi needs years after the assigned Louvre trail thins. Her familiar name remains immediately available in Mugen's ordinary social vocabulary.
+The pending-publication branch still contains the already-reviewed Louvre/Yumi relationship-afterlife synthesis. On May 24, 2023, QOTD asks `WHO IS UR WIFE` and Mugen answers `Mine would be @Yummibears`. `wife` stays UL house language; the useful part is how little setup Yumi needs years after the assigned Louvre trail thins. Her familiar name remains immediately available in Mugen's ordinary social vocabulary.
 
-WIKI already owns that finding in verified structured form. MAIN still does not keep the accepted person-first Yumi section because its verification gate remains broken before workflow steps instantiate.
+WIKI already owns that finding in verified structured form. MAIN still does not keep the accepted person-first Yumi section because its verification gate remains broken before workflow steps instantiate. The newer LilsatanSir person candidate now shares the same advanced Louvre branch but does not change the Yumi publication logic.
 
-Do not re-review the Louvre intake merely because publication is blocked, and do not advance its consumed SHA until the accepted MAIN synthesis can pass normal verification.
+Do not re-review the older Louvre/Yumi material merely because publication is blocked, and do not advance the Louvre consumed SHA until the branch's accepted publication debt can clear the normal verification/ownership gates.
 
 ## Reader changes
 
-**MAIN:** 0 reader-facing changes in Run 328. Ghostt and Zhēnxī were already substantially public; Yumi remains held behind the broken MAIN verification gate.
+**MAIN:** 0 reader-facing changes in Run 328. Ghostt and Zhēnxī were already substantially public; LilsatanSir was accepted/banked rather than forced into a roster claim; Yumi remains held behind the broken MAIN verification gate.
 
-**WIKI:** 0 reader-facing changes in Run 328. Ghostt and Zhēnxī already have structured public owners, and Yumi's relationship-afterlife was already verified here. This update advances durable reconciliation state only.
+**WIKI:** 0 reader-facing changes in Run 328. Ghostt and Zhēnxī already have structured public owners, Yumi's relationship-afterlife was already verified here, and LilsatanSir does not yet have a safely established structured owner. This update advances durable reconciliation state only.
 
 ## Rails / holds
 
-All user-confirmed canon, resolved identity corrections, attribution distinctions, privacy/safety boundaries, and non-origin rules remain controlling. `wife`, `sistah`, `dear`, `love you`, and similar house/social language do not become literal marriage, family, romance or sex without support. No appointment chronology comes from export-time role arrays. Uninspected media stays uninspected. The Louvre/Yumi hold is operational only: the interpretation is accepted, but MAIN's verification runner still fails before source/build checks can execute.
+All user-confirmed canon, resolved identity corrections, attribution distinctions, privacy/safety boundaries, and non-origin rules remain controlling. `wife`, `sistah`, `dear`, `love you`, `secret room`, and similar house/social language do not become literal marriage, family, romance, sex, governance or hidden-room history without support. No appointment chronology comes from export-time role arrays. Uninspected media stays uninspected. The Louvre/Yumi hold is operational; the LilsatanSir hold is ownership/direct-source shaped, not a rejection of the person read.
