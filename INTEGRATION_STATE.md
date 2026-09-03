@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-03 Run 327 closing reconciliation_
+_Last updated: 2026-09-03 Run 328 closing reconciliation_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`.
 
@@ -23,6 +23,18 @@ Current important boundaries:
 Wall remains `recovery_in_progress` even though its current seen head is consumed because future Wall source can still arrive.
 
 Comprehensive non-Mugen HR remains **100 / 100 exhausted at the current archive boundary, 0 in progress, 0 blocked, 0 queued**. Exhaustion is reversible mining state, not a claim that any person is complete forever.
+
+## Run 328 — full census + verification health probe
+
+Run 328 re-enumerated the complete miner surface and found the same **28 active refs** on the same heads recorded by Run 327. There was **no new unconsumed intake delta** to review, so no miner handoff was reopened and no duplicate/corroboration tail was reread just to make the run look busy.
+
+The mandatory census was persisted on MAIN at commit `337721a7d550915a6766935d618281224ebf40e7`. The only live queue item remains the already-reviewed Louvre/Yumi MAIN publication debt; its interpretation is unchanged and WIKI already owns the structured version.
+
+Before attempting another reader mutation, Run 328 re-ran the exact failed Run-327 Yumi workflow `33794225733` as an infrastructure-health probe. Attempt 2 again completed with `Build + verify` failed and `steps=null`; the Cloudflare deployment job was skipped. MAIN's new census commit then triggered exact workflow `33795703620`, which failed at the same pre-step boundary. The failure remains outside demonstrated repository source/build execution: neither source verification nor Astro nor built-output checks instantiated.
+
+Because the infrastructure gate is still broken, Run 328 did **not** reapply the Yumi reader section only to revert it again. Louvre remains `pending_publication` with `last_seen_sha=b7260f500c4ece9a7b95bfaf1b8b4e0512a5f1b8` and `last_consumed_sha=cb7994b08c9a89051df732f27a99c1dd79a5ae93`.
+
+No WIKI reader mutation was justified. This state update exists to keep both surfaces synchronized about the unchanged miner queue and the still-broken MAIN verification gate.
 
 ## Run 327 — full census + MAIN Yumi publication retry
 
@@ -64,13 +76,13 @@ The only pending-publication item remains the already-reviewed Louvre/Yumi relat
 
 WIKI already owns that finding in verified structured form. MAIN still does not keep the accepted person-first Yumi section because its verification gate remains broken before workflow steps instantiate.
 
-Run 327's latest retry supersedes the older Run-326 retry record for operational state: reader commit `2d49872920f16245ab715cfec8f0cef4d36f71cb`, workflow `33794225733`, revert `429eb8bb4561655cbedd315437f686fbc3107c26`. Do not re-review the Louvre intake merely because publication is blocked, and do not advance its consumed SHA until the accepted MAIN synthesis can pass normal verification.
+Run 328's health-probe retry of workflow `33794225733` supersedes the prior operational check: attempt 2 failed at the same pre-step boundary. Do not re-review the Louvre intake merely because publication is blocked, and do not advance its consumed SHA until the accepted MAIN synthesis can pass normal verification.
 
 ## Reader changes
 
-**MAIN:** 0 net reader-facing changes in Run 327. The accepted Yumi retry was reverted because the normal verification workflow never instantiated.
+**MAIN:** 0 reader-facing changes in Run 328. No new intake arrived, and the accepted Yumi publication remains held rather than being churned through another unverified apply/revert cycle.
 
-**WIKI:** 0 reader-facing changes in Run 327. Yumi's relationship-afterlife already has its structured public owner here. This update only advances durable reconciliation state.
+**WIKI:** 0 reader-facing changes in Run 328. Yumi's relationship-afterlife already has its structured public owner here. This update advances durable reconciliation state only.
 
 ## Rails / holds
 
