@@ -3,7 +3,7 @@ import type { CharacterNarrative } from "./character-biographies-narrative";
 export const babyLyssaNarrativeCharacterBios: Record<string, CharacterNarrative> = {
   "baby-lyssa": {
     intro: [
-      "Baby Lyssa / Ghoulie's Wall history is not a straight line from victim to immune veteran. She keeps the panic. What changes is fluency. The person who starts with `WHY IS THIS HAPPENING TO ME` eventually knows the ritual well enough to rename the Wall after herself, argue about rent, demand a quote channel, and explain the house logic to somebody else while still being perfectly capable of screaming when the filing system turns back on her.",
+      "Baby Lyssa / Ghoulie's Wall history is not a straight line from victim to immune veteran. She keeps the panic. What changes is fluency. The person who starts with `WHY IS THIS HAPPENING TO ME` eventually knows the ritual well enough to rename the Wall after herself, argue about rent, demand a quote channel, save material for later, and explain the house logic to somebody else while still being perfectly capable of screaming when the filing system turns back on her.",
       "That makes Ghoulie useful as a reference character for how UL's screenshot court actually felt from inside the joke: embarrassment can be real, affection can also be real, and the same person can protest the exhibit while learning how to operate the social grammar around it."
     ],
     sections: [
@@ -13,6 +13,14 @@ export const babyLyssaNarrativeCharacterBios: Record<string, CharacterNarrative>
         paragraphs: [
           "The surviving March run escalates fast: `NOT AGAIN`, then `WHY IS THIS HAPPENING TO ME`, then `MAKE A CHANNEL JUST FOR MY QUOTES WHY DONTCHA`, then `Ghoulies wall of shame`. Ansun answers that if she keeps going she can outdo him. The joke is already peer-recognizable enough that Ghoulie can narrate her own reputation while it is happening.",
           "The archive keeps the record-language in its lane. Mugen's `WE SHOULD HAVE A RECORD` and later competition jokes do not create a literal leaderboard, title, or quantified lifetime count. Ghoulie's own exaggerations remain part of the performance rather than actuarial data."
+        ]
+      },
+      {
+        period: "March–April 2021",
+        title: "Running Gag — defendant starts stocking the evidence locker",
+        paragraphs: [
+          "Ghoulie does not stay on one side of Screenshot Court. On March 13 she asks Ren whether he waits for something to happen and goes `*click*`, then pivots into `say click , take a pic`, `IM SAVING THAT ONE`, and `IM GONNA BULLI WOO`. On April 13 she writes `not me copying and pasting into my notes for later use`. The notes line does not identify the copied material or target; the useful fact is the behavior: a recurring Wall defendant is now retaining future ammunition.",
+          "Two days later Ghoulie remarks that she has not been on the Wall recently. Ren answers `U sure?`; 1.957 seconds later she replies `time to make some mistakes`. There is no formal reply object on that line, so the dossier treats the timing as strong conversational adjacency rather than forged Reply metadata. The running gag has become reciprocal: Ghoulie can resent being evidence and still know how to collect it, save it, and joke about repairing a suspiciously clean record."
         ]
       },
       {
@@ -40,12 +48,12 @@ export const babyLyssaNarrativeCharacterBios: Record<string, CharacterNarrative>
       {
         title: "Petty Crimes",
         paragraphs: [
-          "Has attempted to solve recurring Wall prosecution by demanding her own quote channel. Has claimed Wall property rights without paying Mugen's imaginary rent. Can explain screenshot-court culture as `bulli with love` and still react like a defendant being served papers at dawn."
+          "Has attempted to solve recurring Wall prosecution by demanding her own quote channel. Has claimed Wall property rights without paying Mugen's imaginary rent. Has admitted to copying material into notes `for later use`, and when her Wall record briefly looked too clean, answered the concern with `time to make some mistakes`. Can explain screenshot-court culture as `bulli with love` and still react like a defendant being served papers at dawn."
         ]
       }
     ],
     closing: [
-      "Ghoulie's Wall legend works because she never has to become cool about it. She becomes fluent, not invulnerable. The scream survives; the jokes become reciprocal; eventually she is experienced enough to tell the next defendant what kind of court they have wandered into."
+      "Ghoulie's Wall legend works because she never has to become cool about it. She becomes fluent, not invulnerable. The scream survives; the jokes become reciprocal; eventually she is experienced enough to collect evidence herself and tell the next defendant what kind of court they have wandered into."
     ]
   }
 };
