@@ -1,42 +1,59 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-03 Run 312 close_
+_Last updated: 2026-09-03 Run 313 close_
 
-MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. This file is the WIKI-side rolling summary. Detailed reconciliation for this pass lives in `INTEGRATION_STATE_RUN_312.md`.
+MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. This file is the WIKI-side rolling summary. Detailed reconciliation for this pass lives in `INTEGRATION_STATE_RUN_313.md`.
 
 ## Current reviewed boundary
 
-The controlling census tracks **49 miner identities = 28 active refs + 21 historical/missing refs**, with **0 newly discovered, 0 pending review, 0 pending publication, 0 backlog, and 0 overdue** after Run 312's only advanced tail was reviewed through a stable head.
+The controlling census tracks **49 miner identities = 28 active refs + 21 historical/missing refs**, with **0 newly discovered, 0 pending review, 0 pending publication, 0 backlog, and 0 overdue** after the live late tails were reviewed through stable current heads.
 
 Both Club-Only recovery priorities remain current:
 
 - `archive-miner/club-only-2021-2026-hourly` → `e45fb11c9239e236231bb65645dfd0285bc0078b`
 - `archive-miner-clubonly-2020-hourly` → `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`
 
-Current reviewed advanced boundary:
+Current reviewed moving boundaries:
 
 - All Characters HR → `fb1067428d93d5c66c489b6f68a2c2c2925ebfe6`
+- Wall → `72c69648eb4c019d2d79757935a47ef6551be1f7`
+- Daycare → `987cf27b6b955b4eef7ca9b13acc693fb2f236ce`
+- Louvre / AI Art / Athenaeum / Other Games → `cb7994b08c9a89051df732f27a99c1dd79a5ae93`
+- Whiskey → `822857bb57df74d0339c93173f9dcafac6ab473e`
+- Mugen person-first → `5f3262804f24d5f3491dc7e785fdf8f388d36a2b`
 
-Wall remains `recovery_in_progress` only because future source may arrive; its present tail is consumed through `1f6e053408327c0a4d975d68be5a5b9cd5ef4631`.
+Wall remains `recovery_in_progress` only because future source may arrive; its present tail is consumed through the current head.
 
-## Run 312 — the HR miner caught up with the people
+## Run 313 — three mechanisms finally got searchable owners
 
-All Characters HR Run 107 reviewed Eos, Nobu, TonyTonyChopper, Mido, Nuee, J2m, Slumpito, and Eudoxia. **Eos and Nobu remain/reopen IN PROGRESS** because fresh source still changes how their person mechanisms read. Eos keeps resolving as the quiet practical bridge who absorbs boring middle work and gets loose things to a usable next step without demanding headline credit. Nobu keeps resolving as someone who can protest, joke, or be embarrassed while still doing the follow-through that limits fallout and keeps the practical next move alive.
+**Ansun versus automation** is now indexed as a recurring Running Gag rather than leaving the 2023 bot-torture material floating by itself. Daycare reaches backward to 2020: Ansun manually races Saber event notices, says `Saber works hard but I work harder`, and Snow describes him as trying `to beat the bot`. The later 234-hour `bot breakings` campaign therefore reads like escalation of an old social reflex. The later bot is still not identified as Saber.
 
-Those reads are accepted as meaningful character deepening. They still produced **no new WIKI prose**, because the active dossiers already express richer versions of the same mechanisms. This is exactly the intended difference between accepting inference and stapling every receipt to a reader page.
+**Erys's Wall defense strategy** now has a structured owner too. She can answer receipts with `i swear that isnt me`, `its photoshopped`, `im being hacked`, `objection`, and `hearsay`, while Ren true-replies `Denied, it was your own answer`; days later Erys is asking where everybody went and saying she misses them, Rummy answers with a local hug beat, and Eos points her toward Whiskey after the room has moved. She fights the exhibit, not the belonging. The hacking/photoshop language remains in-scene joking/claims, not proof of compromised accounts or edited media.
 
-TonyTonyChopper, Mido, Nuee, J2m, Slumpito, and Eudoxia produced no materially new person mechanism and now qualify backstage as **EXHAUSTED AT CURRENT ARCHIVE BOUNDARY**. Comprehensive non-Mugen HR is therefore **94 exhausted / 6 in progress / 0 blocked / 0 queued**. The quarry remains open; exhaustion is reversible mining state, not a declaration that a human has been completed and laminated.
+**Pre-Boss Mugen roastability** is now indexed from a controlled May–July 2019 Yassr scene. Mugen reports assembling patio furniture and Yassr congratulates her like a baby who has finally reached furniture-building age. That pushes the later intimidating-Boss / roastable-Mugs contradiction backward before UL existed: authority was layered onto somebody already socially playable. Yassr is broader pre-UL orbit, not part of Mugen's user-confirmed pre-Raja family circle; fake diaper/parent language is not literal kinship or age evidence.
 
-## Surface split
+The combined reader head for these three structured additions is `0a75cec28bb0513ca5c072c25dc10c078050d1bd`. Exact Build `33768524814` succeeded and exact Pages/deployment `33768524823` succeeded.
 
-WIKI reader pages changed: **0**. MAIN reader pages changed: **0**. Nothing was intentionally published to only one surface because nothing cleared the novelty bar on either. Eos/Nobu were meaning-deduped against existing active public synthesis; the other six changes are mining qualification only.
+## Duplicate / banked material
 
-## Rails / held cleanup
+Jordayy's new Whiskey handoff was consumed as duplicate/corroboration because both surfaces already own her disappearance-observer posture, stretched Ghost recognition dialect, chores/work/package/bed texture, and Dragon Raja corpse-drag joke. `Loona` remains one local Alkey address, not a stable alias or identity bridge.
 
-No identity, romance, fictive-family, formal-role, appointment-chronology, origin, privacy, or media-provenance claim changed. Dormant legacy fallback cleanup remains banked rather than being mixed into this no-reader-change pass.
+Rose / DarkAsrai's Daycare expectation and receipt-race material is already public on MAIN, so no duplicate prose was added.
+
+Xerenity is banked as a strong bounded profile candidate rather than stretched into a dossier: the recovered doorway has her checking whether she should leave after a cross-club/wrong-server mismatch, teasing WhitePhoenyx/Xephy with low-friction familiarity, and noticing another newcomer the next day. Direct Louvre bodies and exact invitation mechanics remain unrecovered; visitor access does not become UL membership.
+
+MAIN banks Mugen's patio scene for the next natural biography resynthesis rather than appending a receipt paragraph. No MAIN reader page changed in this pass.
+
+## HR state
+
+The preceding All Characters HR review remains consumed through `fb1067428d93d5c66c489b6f68a2c2c2925ebfe6`: comprehensive non-Mugen HR is **94 exhausted / 6 in progress / 0 blocked / 0 queued** at that boundary. Exhaustion remains reversible mining state, not a declaration that a human has been completed and laminated.
+
+## Rails / holds
+
+Queen Shimoko remains a deliberately narrow Wall profile candidate; reaction-heavy participation and `My koi` do not manufacture romance, kinship, or a larger role. Erys/Aesh attribution remains unresolved where the source is unresolved. Wall media stays uninspected. Earliest surviving wording is not promoted to origin. WhitePhoenyx/Xephy remains a probable route-maker, not proven invitation mechanics. The later Daycare endurance target is not silently identified as Saber.
 
 ## Verification
 
-Run 312 is a state/report-only integration pass. Exact closing-head Build/Pages results are checked after the final state commits and reported with the run closure.
+The three reader-facing WIKI additions passed Build and Pages on exact combined reader head `0a75cec28bb0513ca5c072c25dc10c078050d1bd`. This rolling-state commit is then verified again on the exact final WIKI publishing head by the repository's normal Build and Pages workflows.
 
-Detailed reconciliation: `INTEGRATION_STATE_RUN_312.md`.
+Detailed reconciliation: `INTEGRATION_STATE_RUN_313.md`.
