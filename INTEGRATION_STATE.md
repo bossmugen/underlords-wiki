@@ -1,16 +1,18 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-02 19:00 PDT_
+_Last updated: 2026-09-02 19:28 PDT_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. This file is the WIKI-side rolling summary; run detail lives in `INTEGRATION_STATE_RUN_*.md`.
 
 ## Current reviewed boundary
 
-Run 272 preserves the full census of **49 tracked miner identities = 28 active refs + 21 historical/missing refs**, with **0 newly discovered**, **0 backlog**, and **0 overdue**.
+Run 273 preserves the full census of **49 tracked miner identities = 28 active refs + 21 historical/missing refs**, with **0 newly discovered**, **0 pending review**, **0 pending publication**, **0 backlog**, and **0 overdue**.
 
-The sole advanced active miner was `archive-miner/all-characters-hr-20260828`. Review began from consumed `4fa3f8e3b7bd0a862c7a0ddb34f5f47445029f21`. The branch advanced while the pass was in flight, so Run 272 continued checkpoint-first and intake-only through current reviewed head:
+The sole advanced active miner was reviewed checkpoint-first and intake-only:
 
-- `archive-miner/all-characters-hr-20260828` → `30e55e24b79f87d9af982296bf2ceca6ddcee43a`
+- `archive-miner/daycare-2020-2026-hourly` → `ac538fd1c3e9b4a51b95616dfc76132f501d8033`
+
+MAIN's controlling consumption ledger advances both `last_seen_sha` and `last_consumed_sha` to that reviewed head after accepted WIKI reader verification/deployment.
 
 Both Club-Only recovery priorities remain reviewed through their current heads:
 
@@ -21,49 +23,37 @@ Wall remains reviewed through `6838cbbbcc64824c5cdbb302bfdf5ad26b3077bc` and sta
 
 ## Latest reader reconciliation
 
-### No new reader object this run
+### Torr Knows This Will Be Taken Out of Context
 
-Run 95's only material person change is Rooks's Louvre maker-process rail: she announces a self-described painting-in-progress and asks the room `critique me`.
+Run 273 adds one WIKI Running Gag for **DiStratus(Torr)**.
 
-That materially deepens the comprehensive HR because Rooks's famous scrutiny is reciprocal: she can put unfinished work on the table and invite people to inspect her back. MAIN already owns this exact person-first contradiction, so WIKI does not manufacture a duplicate Episode or Running Gag for the same scene.
+Torr's recurring mechanism is evidence-literacy without self-preservation. Gilli can post an attachment, summon him, and get `XD` followed by `that can be taken out of context XD`; three days later Torr explicitly complains that he keeps producing context-vulnerable sentences when Gilli is around. The later Rummy exchange adds the language contradiction: `the only thing rummy guilty of is the overuse of the semi colon`, followed thirty-six seconds later by `oh no the eglish has become normalized to me`.
 
-Run 95 also moves **Tofu, Aeshleen, Eos, HamitteY, Nuien, Akuma/Matsu, and Crystalia** to `EXHAUSTED AT CURRENT ARCHIVE BOUNDARY` after repeated-pass rechecks produced no materially new person mechanism. WIKI does not expose quarry exhaustion as character lore.
+The useful relationship read is Torr-shaped rather than another generic Gilli screenshot trait: Torr himself names Gilli as the recurring context hazard. Rummy gets a light comfortable defense-teasing edge, not an exclusive bond.
 
-The latest actual WIKI reader addition therefore remains Run 270's **Spicy Hotpot: What Did I Do?** Running Gag at reader head `91139edc22a8a85ce735d9098aa6b71aad841277`.
+Reader commit: `a2644e8f2201598ff7127a468adcc8014590c984`.
 
 ## MAIN / WIKI split
 
-Rooks's `critique me` scene remains strongest on MAIN because it changes how the person reads rather than becoming a communal Episode.
+MAIN gets **no Torr reader page yet**. The character material is rich enough for person-first biography work, but the current public roster has no supported Torr shelf. The integrator will not invent membership/category status merely to expose a card.
 
-Run-95 exhaustion decisions stay backstage. Their mature person layers are already public on stronger owners, so the WIKI gets no ceremonial duplicate furniture.
-
-Spicy's rich person page remains MAIN-owned until a supported People category exists; WIKI owns the searchable Running Gag without inventing a roster category.
-
-Mugen's responsive-catcher / inverse-framer music texture remains banked for future natural MAIN resynthesis rather than duplicated into WIKI.
-
-## Current character-quarry totals
-
-Authoritative All Characters HR after Run 95:
-
-- canonical non-Mugen characters: **100**
-- comprehensive HR files: **100 / 100**
-- `IN PROGRESS`: **83**
-- `EXHAUSTED AT CURRENT ARCHIVE BOUNDARY`: **17**
-- `BLOCKED — MISSING SOURCE`: **0**
-- `ALL CHARACTER QUARRIES EXHAUSTED`: **NO**
+WIKI therefore owns the searchable recurring Wall mechanism without cloning a full biography. Torr is person-ready / MAIN-category-not-ready.
 
 ## Hard rails / dedupe
 
-- Rooks remains distinct from Cookie/Kuki.
-- Rooks's `my painting so far` supports maker credit for that self-described WIP only, not unrelated Louvre assets.
-- Crystalia uses he/him.
-- Nuien remains distinct from Illien.
+- The September and October out-of-context lines are one cumulative Torr↔Gilli mechanism, not separate Episodes.
+- The Rummy semicolon exchange primarily deepens Torr's language-policing / house-assimilation contradiction.
+- `Defense`, `prosecution`, and `defendant` are joke-language descriptions, not formal roles.
+- `Screenshot_20220928_234522.jpg` is established only as **POSTED BY Gilli**. Subject, maker, capturer, and featured people/content remain uninspected.
+- Direct later-Daycare Torr characterization remains open.
+- еuphie remains too thin for a public personality inference from the available support shell.
 - Joke family, affection, mock aggression, and flirt language are not literalized into biology, legal status, sex, or formal office.
-- Uninspected pixels remain sealed.
 - POSTED BY / SAID BY / MADE BY / CAPTURED BY / FEATURING remain distinct.
 
 ## Verification / deployment
 
-Reader content is unchanged this run. Existing Build and GitHub Pages workflows are still required for the Run-272 state commits. Exact results are checked after the final state heads are written.
+WIKI reader commit `a2644e8f2201598ff7127a468adcc8014590c984` passed Build Underlords Wiki `33707567856` and Deploy Underlords Wiki Preview / Pages `33707567794`; Astro build, preview build, artifact upload, and Pages deployment succeeded.
 
-Detailed Run-272 reconciliation: `INTEGRATION_STATE_RUN_272.md`. MAIN durable report: `archive-intake/INTEGRATION_REPORT_RUN_272.md`.
+Final rolling-state commits use the same existing Build and Pages workflows and are checked at close. MAIN state/report commits use the full existing source-verification + Astro + built-output-verification + Cloudflare deployment workflow and are checked at close.
+
+Detailed Run-273 reconciliation: `INTEGRATION_STATE_RUN_273.md`. MAIN durable report: `archive-intake/INTEGRATION_REPORT_RUN_273.md`.
