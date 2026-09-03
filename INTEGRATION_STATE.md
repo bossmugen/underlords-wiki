@@ -1,67 +1,67 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-02 18:38 PDT_
+_Last updated: 2026-09-02 18:47 PDT_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. This file is the WIKI-side rolling summary; run detail lives in `INTEGRATION_STATE_RUN_*.md`.
 
 ## Current reviewed boundary
 
-Run 268 began with a full census of **49 tracked miner identities = 28 active refs + 21 historical/missing refs**, with **0 newly discovered**.
+Run 270 completed a full census of **49 tracked miner identities = 28 active refs + 21 historical/missing refs**, with **0 newly discovered**.
 
-Whiskey Longitudinal's genuine intake delta is reviewed through `c5150ed9937d13d37b934681ebdf57d85528e21d`. Its subsequent branch head `90b19702014618c42eebfca4e3d4e900ffe5af1a` is a project-root `UL-TASK-STANDARD-2026-09-02.1` sync; the `c5150ed9 -> 90b1970` path check contains no `archive-intake/*` changes.
+The project-wide `UL-TASK-STANDARD-2026-09-02.1` propagation advanced every active miner ref. Run 270 path-checked the propagated deltas instead of treating root policy syncs as archive findings. The propagated movements on the ordinary miner branches contained no changed `archive-intake/*` handoff paths.
 
-During this run, that new task standard was propagated across all 28 active miner refs. A successor MAIN census now owns the controlling ledger and has marked those advanced heads for intake-path checks. That pending count is therefore mostly **standard-propagation bookkeeping, not 28 newly discovered lore tails**. Run 268 does not overwrite the successor ledger or move its branch heads backward.
+Both Club-Only recovery priorities are reviewed through their current propagated heads:
 
-At the pre-propagation reviewed boundary, both Club-Only recovery priorities were current. Wall had a newer genuine intake tail already queued by the successor census and remains outside Run 268's reviewed payload.
+- `archive-miner/club-only-2021-2026-hourly` → `e45fb11c9239e236231bb65645dfd0285bc0078b`
+- `archive-miner-clubonly-2020-hourly` → `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`
+
+Whiskey Longitudinal is reviewed through `90b19702014618c42eebfca4e3d4e900ffe5af1a`. Wall is reviewed through `6838cbbbcc64824c5cdb302bfdf5ad26b3077bc` and remains a recovery quarry only because more Wall material may arrive later. Mugen person-first is reviewed through `09c1d2009bf158e103aea3c35ee7a149e9c67b9e`.
+
+Detailed branch/path disposition is in MAIN `archive-intake/INTEGRATION_REPORT_RUN_270.md` and WIKI `INTEGRATION_STATE_RUN_270.md`.
 
 ## Latest reader reconciliation
 
-### ShiyaX — make sure everybody is in the game
+### Spicy Hotpot — What Did I Do?
 
-The new Whiskey material sharpens something already visible in ShiyaX: participation is more important to him than looking like the designated competent one.
+WIKI now owns the new Spicy Hotpot Wall material as a searchable Running Gag.
 
-With Baby Lyssa / Ghoulie, he can say `i bought the sub` and `Buying shit for when you are able to play @Baby Lyssa`, then days later say `Ghoulie carrying me` and remember `Them long drives with @Baby Lyssa`. The relationship is not cleanly provider → recipient. He gets the playground ready before his friend arrives, then happily becomes cargo once she does.
+Spicy's Wall life repeatedly starts with some version of needing the room to explain the charges: `??????`, `What did I do`, then an archival self-audit where `Nah, you probably put me here ages ago` turns into `I knew it` once he finds Gilli's older receipt.
 
-Gabu gets the practical join-instinct. Her account is displayed as `Drink water reminder` when she posts a PUBG / bad-aim Tenor; 3.234 seconds later ShiyaX answers `Reinstalling this for @Drink water reminder`, later tagging her with `how i play :KEKW:`. The relationship verb is **join**. The nickname remains a nickname, not a formal hydration office.
+The fun part is that he is not merely a confused defendant. In May 2021 he posts `stop get some help`; Ren exact-replies `*make me*`. By September he sends twenty-eight consecutive Gilli mentions in one message, five people wheeze-react, Ren laughs, and Gilli answers `SOME EXILE HIM`.
 
-Anthos gets selected as an audience. ShiyaX calls her over with `Jux look at this chonky bee`, and Anthos returns Bee Movie imagery within seconds. He finds the weird object, decides who specifically needs to see it, and the recipient already knows how to return the bit.
+So the recurring mechanism is defendant → nuisance without a costume change. Spicy can genuinely want context and still manufacture the next case himself.
 
-Woohyuk gets the live dispatch. After Woohyuk says he craves shaved ice, ShiyaX later sends `On my way!`, `So close wookie`, `IM HERE`, `Im going in`, and `HELP` while the likely food errand is still unfolding. The exact venue and physical co-location remain unresolved. What survives cleanly is the social habit: Woohyuk gets the stupid little mission while it is happening, not only the story afterward.
+Reader head: **`91139edc22a8a85ce735d9098aa6b71aad841277`**. A first draft accidentally said `September 2020`; that reader head corrects the chronology to May/September **2021** before final verification.
 
-WIKI folds these into ShiyaX's existing structured dossier rather than manufacturing a standalone Episode. Reader commit: **`890eb2da1722b9cb8fdd65848876bbf4d96785d2`**.
+Exact WIKI verification:
 
-Exact WIKI reader verification:
-
-- Build run **33703653660** — success.
-- Pages run **33703653642** — success through build, deployment, and report.
+- Build **33704629947** — success.
+- Pages **33704629958** — success through deployment.
 
 ## MAIN / WIKI split
 
-MAIN receives **no new ShiyaX reader paragraph** from this delta on purpose. Its biography already owns the stronger person-shaped mechanism: ShiyaX builds participation lanes, turns ordinary life into a field desk, buys the playground before Baby Lyssa arrives, and is comfortable being carried once everybody is inside it. Gabu / Anthos / Woohyuk are banked for the next natural biography resynthesis rather than stapled on as three receipt reports.
+MAIN receives **no final Spicy person page yet**. A provisional page was removed because the current People architecture would force an unsupported public category/role classification. The character material is accepted; the shelf is not.
 
-WIKI is the complementary owner for the new structured relationship texture. The same source is not mirrored as identical prose.
+WIKI can safely own the Running Gag because the reference job does not require inventing a roster category.
+
+ShiyaX's Whiskey relationship deepener remains WIKI-owned at `890eb2da1722b9cb8fdd65848876bbf4d96785d2`; MAIN already owns the stronger person-shaped participation story and does not need a receipt duplicate.
+
+The newest Mugen person-first tail is banked for a future MAIN resynthesis rather than duplicated into WIKI. It adds a useful inverse to her `framing editor` habit: ShiyaX can throw a music/artist premise and Mugen can simply catch it within seconds as an ordinary peer. Good texture; not a standalone Episode.
 
 ## Reviewed without duplicate reader churn
 
-- The February collaborative music/dance pulse, `Did the song put yall to sleep ? 🙀`, the doodle pocket, and `I pilot 3 accounts :ZenitsuCry:` were already public and remain corroboration only.
-- Baby Lyssa / Ghoulie is one reciprocal co-play pattern, not separate provisioning and carrying incidents.
-- No `Episode: Shiya Reinstalled PUBG` was created. The human meaning is relationship behavior, not a plot requiring its own plaque.
-
-## Safety / unresolved
-
-- Baby Lyssa = Ghoulie follows the hard identity lock.
-- Exact Woohyuk venue remains unresolved.
-- The messages do not establish that ShiyaX and Woohyuk were physically co-located.
-- `Drink water reminder` remains Gabu's room nickname in this scene, not a formal role.
-- No DJ / music-leader role is inferred from reaction-chain participation.
-- No friendship/closeness ranking is assigned from the Anthos or Woohyuk pockets.
-- Uninspected media remains uninspected.
+- Standard-propagation-only branch movement was consumed as review bookkeeping, not raw archive work.
+- Baby Lyssa = Ghoulie remains hard canon in the ShiyaX material.
+- `Josh` is strong Wall-local first-name support for Spicy's stable visible account, not a preferred-display-name replacement.
+- Zoshaa remains the surviving boiled-mayo author; Gilli's later participation does not transfer authorship.
+- Wall media remains uninspected where the handoff says it is uninspected.
+- No DJ/playback control, song preference, private ShiyaX ritual, friendship ranking, role chronology, joke romance, or media authorship was manufactured.
 - POSTED BY / SAID BY / MADE BY / CAPTURED BY / FEATURING remain distinct.
 
 ## Verification / deployment
 
-- WIKI reader commit `890eb2da1722b9cb8fdd65848876bbf4d96785d2`: Build **33703653660** success; Pages **33703653642** success through deployment.
-- Run 268 state/report commits are being verified on the closing WIKI head with the repository's existing Build + Pages workflows.
-- MAIN has no reader mutation from the Whiskey delta. Its durable Run 268 reconciliation is `archive-intake/INTEGRATION_REPORT_RUN_268.md`; the closing MAIN head remains under the repository's exact-commit verification workflow.
+- WIKI reader head `91139edc22a8a85ce735d9098aa6b71aad841277`: Build **33704629947** success; Pages **33704629958** success through deployment.
+- MAIN reconciliation head `caa3bffe407a9ae78b1caedf1196df90ee487478` passed `UL Hourly Build + Deploy` **33704649963** before the durable Run 270 report commit.
+- Run 270 state/report commits are verified separately by each repository's existing push workflows.
 
-Detailed reconciliation: `INTEGRATION_STATE_RUN_268.md`. MAIN durable report: `archive-intake/INTEGRATION_REPORT_RUN_268.md`.
+Detailed reconciliation: `INTEGRATION_STATE_RUN_270.md`. MAIN durable report: `archive-intake/INTEGRATION_REPORT_RUN_270.md`.
