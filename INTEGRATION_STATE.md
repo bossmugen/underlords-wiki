@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-03 Run 306_
+_Last updated: 2026-09-03 Run 306 close_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. This file is the WIKI-side rolling summary. Detailed reconciliation for the current pass lives in `INTEGRATION_STATE_RUN_306.md`.
 
@@ -29,6 +29,8 @@ This is a valid no-op integration pass: the mandatory branch census ran, the con
 
 MAIN census/state commit `4caae4f5587ba62a2138d1d0cdca66b4ff3ef13d` passed exact workflow **33753282263**: source canon/architecture verification, Astro build, built-output verification, and exact Cloudflare production deployment all succeeded.
 
-WIKI reader-facing changes in Run 306: **0**. This state-only commit must pass the repository's normal Build and Pages workflows before closure.
+MAIN final Run-306 reconciliation commit `0344144ca5372815018de0089b5937698d9d905e` passed exact workflow **33753499943**, including the same source/build/output gates and exact Cloudflare production deployment.
+
+WIKI Run-306 state commit `d79e5090886fdc686b40962718f7a5404958a235` passed **Build Underlords Wiki 33753564003** and **Deploy Underlords Wiki Preview 33753563982**, including GitHub Pages deployment.
 
 Detailed reconciliation: `INTEGRATION_STATE_RUN_306.md`.

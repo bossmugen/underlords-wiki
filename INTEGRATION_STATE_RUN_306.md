@@ -29,6 +29,6 @@ This pass intentionally does not manufacture an Episode, Running Gag, Cast parag
 
 MAIN census/state commit `4caae4f5587ba62a2138d1d0cdca66b4ff3ef13d` passed exact UL Hourly Build + Deploy workflow **33753282263**. Its source canon/architecture verification, Astro build, built-output verification, and exact validated-commit Cloudflare Pages deployment all completed successfully.
 
-The subsequent MAIN Run-306 report commit is `0344144ca5372815018de0089b5937698d9d905e`; its exact workflow must complete before Run 306 is finally closed.
+MAIN final Run-306 reconciliation commit `0344144ca5372815018de0089b5937698d9d905e` passed exact UL Hourly Build + Deploy workflow **33753499943**, including exact production deployment.
 
-WIKI reader-facing changes: **0**. This Run-306 state commit must pass the normal Build and Pages workflows before closure.
+WIKI state commit `d79e5090886fdc686b40962718f7a5404958a235` passed **Build Underlords Wiki 33753564003** and **Deploy Underlords Wiki Preview 33753563982**. Both completed successfully; the Pages workflow deployed the verified state to GitHub Pages.
