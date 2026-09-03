@@ -26,7 +26,7 @@ Comprehensive non-Mugen HR remains **100 / 100 exhausted at the current archive 
 ## Verification
 MAIN census commit `dd392710c8889cdb475ceb05d6416cd16f9c15cc` triggered workflow `33777856533`. Attempts 1 and 2 both failed at provider/setup level: `Build + verify` exposed no workflow steps and Cloudflare deployment was skipped. This is not reported as a source-verifier or Astro failure, and MAIN is not claimed newly verified/deployed by this pass.
 
-WIKI Run-318 state commits are undergoing the repository's existing Build and Pages workflows; exact closing results are recorded in the Run-318 closing state commit once those jobs settle.
+WIKI exact rolling-state commit `d6111fa01068b2027584acf027406ca32646a55b` passed Build workflow `33778042082` and Pages workflow `33778041958`; the Pages run completed preview build, artifact upload, GitHub Pages deployment, and reporting successfully.
 
 ## Rails / holds
 All existing user canon, resolved identity corrections, attribution distinctions, privacy/safety boundaries, and non-origin rules remain controlling. POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct. No appointment chronology comes from export-time role arrays, and earliest surviving remains non-origin.
