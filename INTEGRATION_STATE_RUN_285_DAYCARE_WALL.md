@@ -21,16 +21,21 @@ Hard rails: Tofu remains she/her and current Staff; Zyrcant is POSTED BY only fo
 
 Reader verification: exact WIKI reader head `416227cde2b8e765d2965d6ab233b3c27ef65b7b` passed Build `33720126035` and Pages/deployment `33720126047`.
 
-## Wall — Rosario17 / Yāzaki banked, not inflated
+## Wall — Yaza / Rosario17 warm-gallery deepener
 
-The fresh Wall tail surfaces a coherent but thin Rosario17 / Yāzaki pocket on August 26, 2021: `Slander....`, `Im getting revenge`, `Winning`, then `Kinda` → `But failed`, followed by `Anyway I might work on Sapphy’s thing now`.
+The fresh Wall addendum is stronger than a thin August seed when read through the existing Yaza owner. Rosario17 / Yazaki / Yaza's rarer full-sentence Wall interventions repeatedly soften rather than sharpen screenshot court: `Nice idea 😀😂`, `Aww so sweet!!`, and the exact reply to Rooks' `I’m a child don’t judge me` with `Ahahahva. Ok that nice to know 😄`.
 
-This is useful character seed material—playful scoreboard language, quick self-deflation, then an immediate task switch—but not enough to manufacture a full Cast dossier. It is intentionally unpublished for now. `revenge` is not literal hostility, `Sapphy’s thing` remains unresolved, and no role or relationship rank is inferred.
+The useful character read is **very little explanatory language, very clear warmth**. Yaza still laughs inside the Wall bit; she simply does not need to turn every exhibit into prosecution. MAIN now folds this into the existing Yaza biography beside the Whiskey pattern of morning greetings, homework nudges, and `If you need something. I am here for you !!!`.
+
+The August 26 pocket remains useful supporting contradiction rather than the owner: `Slander....`, `Im getting revenge`, `Winning`, then `Kinda` → `But failed`, followed by `Anyway I might work on Sapphy’s thing now`. Warm does not mean exempt from scoreboard joking; the immediate self-correction keeps it unserious. `Sapphy’s thing` remains unresolved.
 
 ## Surface routing
 
-- MAIN: Tofu's new material is folded into her existing human biography as a deeper version of the premise-catalyst habit.
-- WIKI: the same evidence is structured as searchable Tofu behavior with distinct prose.
-- Rosario17/Yāzaki: neither surface yet; banked as a coherent seed pending enough whole-person material to justify an owner.
+- MAIN: Tofu's new material is folded into her existing human biography as a deeper version of the premise-catalyst habit. Yaza's Wall material is folded into `src/content/people/yaza.md` as the person-shaped `EVEN SCREENSHOT COURT GETS A LENIENT GALLERY` section.
+- WIKI: Tofu is structured as searchable behavior with distinct prose. Yaza is intentionally not added this run because the current WIKI Cast registry has no Yaza/Rosario17/Yazaki character owner. Rather than invent an ad hoc role/category or half-wire a dossier during a Wall-tail review, the structured Wall quote/relationship family is banked for a future Cast-registry expansion. This is routing, not an evidence downgrade.
+
+MAIN Yaza reader commit `6a6633d23354a550bf6f269af93eda4b4332e749` passed exact `UL Hourly Build + Deploy` workflow `33720448021`, including source verification, Astro build, built-output verification, and exact production deployment.
+
+Hard rails: screenshot pixels remain uninspected; Mugen/Rooks are POSTED BY only; the Rooks exchange is playful acceptance rather than romance/family/rank; `revenge` is joke language rather than literal hostility; earliest surviving is not origin.
 
 MAIN's controlling ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`.
