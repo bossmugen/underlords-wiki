@@ -1,20 +1,12 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-03 Run 307 close_
+_Last updated: 2026-09-03 Run 308 close_
 
-MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. This file is the WIKI-side rolling summary. Detailed reconciliation for the current pass lives in `INTEGRATION_STATE_RUN_307.md`.
+MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. This file is the WIKI-side rolling summary. Detailed reconciliation for the current pass lives in `INTEGRATION_STATE_RUN_308.md`.
 
 ## Current reviewed boundary
 
-The controlling census tracks **49 miner identities = 28 active refs + 21 historical/missing refs**, with **0 newly discovered, 0 pending review, 0 pending publication, 0 backlog, and 0 overdue** after Run 307 review.
-
-Run 307 consumed five advanced active refs through:
-
-- Wall → `e0ebf6025c1f5a50474008632b2b10cd467540ba`
-- All Characters HR → `b269d21067a0fb76885eeb2c97df63da44798458`
-- Daycare → `8ebacbd97a691619dcfebf8275af19e53d7e77b7`
-- Mugen person-first → `3629547734241c45420695f681c6d7a2e00c97ac`
-- Core Rooms → `22e1796aa56d18a0e68b1e478faf5d62c632af7a`; this branch advanced during the closing census and was reviewed checkpoint-first instead of being left as next-run debt.
+The controlling census tracks **49 miner identities = 28 active refs + 21 historical/missing refs**, with **0 newly discovered, 0 pending publication, 0 backlog, and 0 overdue**. All Characters HR was the only genuinely unconsumed branch in the reviewed pass and was checkpoint-first/intake-only reviewed from `b269d21067a0fb76885eeb2c97df63da44798458` through stable Run-106 head `534b770a4e00065b2c31f555d8674ce9fc42c515`. The reviewed delta supports advancing that branch's consumed boundary through the same SHA.
 
 Both Club-Only recovery priorities remain current:
 
@@ -23,34 +15,22 @@ Both Club-Only recovery priorities remain current:
 
 Wall remains `recovery_in_progress` only because future source may arrive; its current seen head is consumed.
 
-## Run 307 — the front desk, the red dots, and `uwu~` QA
+## Run 308 — HR catches up; readers do not grow extra limbs
 
-MAIN folded three character deepenings into the people themselves: Cele's red-dot-court contradiction, Gabu's bouncer/concierge front-door rhythm, and Xephy's soft-voice empirical troubleshooting. WIKI uses the same source families differently, indexing them as searchable repeat-offense mechanisms instead of mirroring biography prose.
+Run 106 requalified Candy → Ricochet → BishopThaGuru → Clotho Fate → Dainyamite → Damon → Grim Raven → Jade. Ricochet, BishopThaGuru, and Dainyamite remain **IN PROGRESS** because their HR bodies were catching up to person mechanisms already represented publicly. Candy, Clotho Fate, Damon, Grim Raven, and Jade move to **EXHAUSTED AT CURRENT ARCHIVE BOUNDARY**. Comprehensive non-Mugen HR is now **88 exhausted / 12 in progress / 0 blocked / 0 queued**; the global character quarry remains open.
 
-WIKI reader lineage now includes:
+**WIKI reader-facing changes: none.** Ricochet is already separated from Rich / DragonRich and already has ordinary-life portability, return/familiarity, and teasing-care texture in the active WIKI cast/dossier layers. Dainyamite is already a distinct cast entity with the low-volume preference/social-recognition spine. BishopThaGuru's repaired HR catches up to an already-public MAIN role-rotation read; it does not need a fake standalone WIKI Episode just to mirror biography prose.
 
-- `7c31794e7c2772d916eb35ba0dcef3a314fbc99c` — **Cele's Red-Dot Court**
-- `c451c4a13ce2f1d0b0ed8c7b7c2cb0a7facf0833` — **Gabu's Bouncer Desk**
-- `eb9ecb3c2a56a034414f334a95bc9471fb985f2b` — **Xephy's `uwu~` QA**
-
-Xephy's late Core Rooms tail closes the troubleshooting recurrence cleanly: Xephy checks whether a newcomer can actually see the channels, tests a bot-permission fix rather than trusting `done`, isolates the partial failure, tries another path, and confirms the repair without ever dropping the `uwu~` register. The same package adds the useful wrong-door counterweight: Xerenity says Xephy brought them to the wrong club server, calls Xephy `dummi`, and gets `oh my badddddd sowe`. The probable mistake plus easy apology makes the systems competence human instead of immaculate. This remains lived helper behavior, not a formal technical role or governance claim.
-
-The Wall's fresh Zoshaa receipt-recycling tail was already owned in WIKI by `Zoshaa Recycles the Receipts`, so it was reconciled rather than duplicated. Candy's Moo / `Wad00` family was duplicate-by-meaning. Mugen's latest pass was dry/negative and warranted no reader change.
-
-Queensy's late Core Rooms material is accepted but intentionally banked. Queensy directly rejects the assumption that quiet people cannot stand up for themselves, using `bite` figuratively for self-advocacy when `sunshine and rainbows` will not cut it. Separately, Queensy praises supposedly foolproof kitchen appliances, then admits to microwaving a fork and jokes that fire at least means the food is cooked through. The fork is excellent Petty Crimes material; one self-description plus one kitchen incident is not yet a broad WIKI reputation object. Future upgrade wants enacted pushback, peer reputation, relationship texture, or a safer profile shelf.
-
-All Characters HR Run 105 moved **Lan, Moon, Chibiterasu, Ciphy, Nothien, Xephy, Lena, and Scar** to **EXHAUSTED AT CURRENT ARCHIVE BOUNDARY**. Comprehensive non-Mugen HR is now **83 exhausted / 17 in progress / 0 blocked / 0 queued**; the global character quarry remains open.
+A stale fallback sentence in `character-bios-extended.ts` still contains the superseded phrase `Rich / Ricochet / DragonRich`. It is not the active Rich narrative or active deep-VIP canon owner, both of which keep Ricochet separate. That sentence is logged as cleanup debt rather than rewritten through a large legacy fallback file during a no-reader-change pass.
 
 ## Rails
 
-Uninspected media remains POSTED BY only unless separate wording supports MADE BY / CAPTURED BY / FEATURING. Earliest surviving is not origin. No similar-name identity bridge was invented. `Judge`, `bouncer`, family/romance jokes, and troubleshooting behavior were not promoted into governance, literal kinship/sex, or formal appointments. Xephy's contemporaneous Mugs/Snow server-authority line remains participant perception rather than governance canon. Queensy's `bite` remains figurative self-advocacy, not literal violence.
+Ricochet / `dragonrichard` remains separate from Rich / DragonRich. Candy's later `— Luna` display remains separate from HyaLuna. Jade's `Joy` display remains the same stable account while the meaning of the display stays unresolved. Damon naming himself Purgatory leader does not create UL membership, alliance, subordination, or a UL office. Bishop/Tofu affection and waltz language remain relationship texture, not romance canon. Ren/Dainy shorthand remains friendship/peer familiarity, not romance, exclusivity, or rank. Candy's Winter visual post establishes participation only until direct asset inspection; provenance roles stay distinct. One Ricochet Steelix failure does not become global technical incompetence.
 
 ## Verification
 
-MAIN reader commit `077d272f75b345096bd6366859a17d1f0edebf93` passed exact workflow **33757413519**, including source canon/architecture verification, Astro build, built-output verification, and exact Cloudflare production deployment.
+MAIN reconciliation report commit `c5c43034fa2b69681cd05aa66d15617824dc4ae5` passed exact workflow **33759339822**, including source canon/architecture verification, Astro build, built-output verification, and exact Cloudflare production deployment.
 
-WIKI reader head `eb9ecb3c2a56a034414f334a95bc9471fb985f2b` passed **Build Underlords Wiki 33757435595** and **Deploy Underlords Wiki Preview 33757435634**, including GitHub Pages deployment.
+WIKI reader pages did not change. The final WIKI Run-308 state head is verified with the repository's existing Build and Pages workflows after this rolling-state commit lands.
 
-The final Run-307 MAIN and WIKI state heads are verified separately after their durable state commits land.
-
-Detailed reconciliation: `INTEGRATION_STATE_RUN_307.md`.
+Detailed reconciliation: `INTEGRATION_STATE_RUN_308.md`.
