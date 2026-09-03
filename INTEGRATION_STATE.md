@@ -1,73 +1,67 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-02 23:18 PDT_
+_Last updated: 2026-09-02 23:49 PDT_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. This file is the WIKI-side rolling summary; run detail lives in `INTEGRATION_STATE_RUN_*.md`.
 
 ## Current reviewed boundary
 
-Run 287 closes the mandatory census at **49 tracked miner identities = 28 active refs + 21 historical/missing refs**, with **0 newly discovered**, **0 pending review**, **0 pending publication**, **0 backlog**, and **0 overdue**.
-
-No active miner branch advanced beyond its consumed boundary after Run 286. This run therefore had **no fresh intake delta to review and no reader-facing lore change to publish**.
+Run 289 closes the mandatory census at **49 tracked miner identities = 28 active refs + 21 historical/missing refs**, with **0 newly discovered**, **0 pending review**, **0 pending publication**, **0 backlog**, and **0 overdue**.
 
 Both Club-Only recovery priorities remain current through:
 
 - `archive-miner/club-only-2021-2026-hourly` → `e45fb11c9239e236231bb65645dfd0285bc0078b`
 - `archive-miner-clubonly-2020-hourly` → `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`
 
-Wall stays `recovery_in_progress` at `80f84effa6f8e517b2696d8d3cc9d89eedde37ee` only because more Wall material may arrive; the present head is fully consumed.
+Wall stays `recovery_in_progress` only because more Wall can arrive; its current head `32c846a64d59481ed7a0ca0a4c8d81b091bbed04` has been reviewed and consumed.
+
+Run 289 also consumes:
+
+- Core Rooms → `6005bc939f752d4735f91f26fbd24a4e60ecdd65`
+- Daycare → `69ee94a7a9e2dca9b66f76732a20c038b90201bf`
+- Mugen person-first → `ed128febac83996234dca955f4d1e61acfddf244`
 
 ## Latest substantive reconciliation
 
-Run 286 remains the newest lore-bearing integration family.
+### Zyrcant — she does not have to dominate the room to keep choosing participation
 
-### TonyTonyChopper — the defendant would like the court to stop looking at him; the defendant is also filing himself
+The Daycare tail deepens a mechanism already visible elsewhere: Zyrcant repeatedly opts into public-response house formats rather than existing only as somebody Screenshot Court happens to catch.
 
-The fresh Wall family finally had enough recurrence for Tony to own a proper structured WIKI file.
+Ansun's July 2021 Kahoot announcement places Shinn, Nelphie, and Zyrcant in the top three. Exact order does not survive, so WIKI does not invent one. Zyrcant reacts to her own placement with **two different yay reactions**. One apparently did not clear the celebration requirements.
 
-In February 2022 a Wall filing gets `STOPPPP` and `WR DONT NEED TO SHARE THIS WITH THE WORLD`. In May, another Marian-posted exhibit gets the cleaner progression `NO` → `STOP` → `DONT SHOW THEM`. Tony's language is pure reputational emergency, but the important behavioral detail is that he keeps participating in the scene instead of disappearing from it.
+A few weeks later she posts an attachment-only item to `📬│photo-submissions`, and the room responds positively. The provenance fence stays strict: the attachment is **POSTED BY Zyrcant**. Maker, photographer, subject, and featured identity remain unresolved because the media was not inspected.
 
-Rummy appears in both prosecution pockets with the same tiny move: `*pat pat*`. Tony answers with a heart reaction, `:Cat_Sporkle:`, or nearby blush rather than a sudden sincerity speech. The comfort works because it stays inside the joke. Rummy does not declare court adjourned; she pats the defendant while court is still very much in session, and Tony apparently accepts this procedural innovation.
+Put beside her established Wall volunteering, self-filing, Kahoot competence, first-impression severity, protectiveness, and `quiet at first but a crackhead once I'm comfortable` self-description, the useful character read is cumulative: **Zyrcant keeps choosing visible participation even when she is not the loudest person present.** WIKI owns the searchable structured form of that pattern in `src/data/character-biographies-zyrcant.ts`.
 
-Then June flips the framing. Tony self-files as `I am actually the real ceo of bad spelling`, adds `I cant`, and supplies `Even spell one letter things right`. The same embarrassment that causes all-caps panic when somebody else controls the exhibit becomes a title and evidence packet when Tony controls it himself. **The through-line is less spotless dignity than authorship of the humiliation.**
+MAIN intentionally does not grow another receipt paragraph from the same family. Its current Zyrcant biography already owns the richer person-first contradiction; duplicating the Daycare receipts there would make the person flatter, not fuller.
 
-MAIN already owns that as a person-first biography. WIKI uses the same evidence differently: Tony is an **Archive / Extended Cast** entry with a structured narrative indexing the recurring defendant language, Rummy soft-landing shorthand, Wall location, Bad Spelling running gag, quotes, and Petty Crimes.
+## Successful no-public-change reviews
 
-### All Characters HR — state moved; readers do not need seven graduation ceremonies
+### Woosung
+The new Wall pocket — WOO saying `I need to not talk sm I got so much stuff on the hall of shame`, Moon exact-replying `No no you famous uwu` — is good texture but already public on both surfaces as part of Woosung's self-aware frequent-flyer / embarrassment-softening rhythm. No duplicate Running Gag or Episode.
 
-Run 99's final HR suffix moved seven mature quarries to **EXHAUSTED AT CURRENT ARCHIVE BOUNDARY**: Rummy, Shiki, Han/Nai, Kiro, Anayss, Gabu, and Ansun/Souta. Fresh source automatically reopened Hishiro, Tofu, and Yaza; Nelph remains in progress. The authoritative miner state is **58 in progress / 42 exhausted**, with the global character quarry still open.
+### Mugen
+The new person-first suffix is novelty-gate/search-frontier/checkpoint maintenance. Mugen's current biography already owns the relevant social behavior, so the SHA advances without receipt mitosis.
 
-The reopened material is already public where it belongs: Hishiro's check/report/warn/step-aside behavior, Tofu's premise-catalyst contradiction, Yaza's warm Screenshot Court register, and Nelph's consequence-directed clarity. Run 286 therefore consumed the HR tail as workflow/corroboration rather than reproducing another report-shaped paragraph on the reader site.
-
-## Reader decision
-
-**Run 287 MAIN reader pages changed: 0.** MAIN only refreshed the mandatory branch census / state ledger.
-
-**Run 287 WIKI reader data changed: 0.** Only integration-state files changed.
-
-Run 286's reader routing remains intact: MAIN owns Tony's richer person-first biography; WIKI owns Tony's searchable structured dossier. Reader head `531b1cb57f418aa64e4283f064f111f9df278380` passed Build `33721883835` and Pages/deployment `33721883858`.
-
-## Duplicate / no-public-change decisions
-
-- Run 287 had no changed miner handoff, so there was nothing new to dedupe or publish.
-- Run 286's Tony family remains one cumulative person mechanism rather than several Wall incident summaries.
-- HR archive-boundary exhaustion remains mining-state bookkeeping, not a public personality section.
+### YozoraRemnant
+Core Rooms surfaced a coherent but very thin one-night profile: practical context-setting, an explicit Cipher friendship, then ordinary banter after the immediate issue resolves. Exact anomalous account-use mechanics stay private. There is not yet enough person material for a standalone public owner, so this is banked rather than inflated.
 
 ## Hard rails / held rabbits
 
-No held rabbit changed state this run. Existing rails remain intact:
+- Zyrcant's exact Kahoot rank remains unresolved.
+- Zyrcant's photo-submission attachment is POSTED BY only; maker / photographer / subject / featured remain unresolved.
+- The Gilli-posted screenshot near Woosung's Wall comment is not a reply parent and is not attached to WOO by proximity.
+- YozoraRemnant's private account-use mechanics remain backstage.
+- No identity, formal role chronology, joke relationship, or unseen-media provenance was manufactured to make the public story tidier.
 
-- Marian/Panda and Ren are **POSTED BY** only for the relevant uninspected Wall screenshots. MADE BY / CAPTURED BY / FEATURING remain unresolved.
-- `CEO of Bad Spelling` remains self-roast language, not governance or an actual office.
-- Rummy/Tony is probable comfort-through-teasing friendship texture; no romance, fictive family, dependency, or relationship rank is inferred.
-- Nearby joke-family language remains joke-family language.
-- Hishiro remains Staff; checking servers and warning the room does not create a formal lookout/help-desk/tactical appointment.
-- Tofu's fake auction remains joke logic, not commerce.
-- Yaza's softer Wall replies remain social warmth, not a promotion in relationship rank.
-- Earliest surfaced evidence remains earliest surfaced, not guaranteed origin.
+## Reader decision
+
+**Run 289 MAIN reader pages changed: 0.** MAIN receives state/reconciliation updates only.
+
+**Run 289 WIKI reader data changed: 1 structured character deepener.** `src/data/character-biographies-zyrcant.ts` at reader commit `56600b6d03a5bf0fe4e3d06cec8ea75c813ea959` folds the Daycare family into Zyrcant's existing dossier rather than creating an Episode.
+
+Detailed WIKI reconciliation: `INTEGRATION_STATE_RUN_289.md`. MAIN durable report: `archive-intake/INTEGRATION_REPORT_RUN_289.md`.
 
 ## Verification / durable state
 
-Run 287 is a state-only close. Its MAIN and WIKI state commits must pass the repositories' existing build/deploy workflows before the run is considered complete.
-
-Detailed WIKI reconciliation: `INTEGRATION_STATE_RUN_287_NO_ADVANCE.md`. MAIN durable report: `archive-intake/INTEGRATION_REPORT_RUN_287_NO_ADVANCE.md`.
+Exact final MAIN and WIKI publishing heads are required to pass their existing build/deploy workflows. The automation report records the exact successful closing heads and workflow runs rather than relying on a green ancestor.
