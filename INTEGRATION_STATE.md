@@ -76,3 +76,5 @@ No identical prose was mirrored between surfaces.
 - WIKI reader head `73af44929e1738b0f1b81182af13090862ec6da3`: Build `33700273769` succeeded; Pages `33700273728` succeeded including GitHub Pages deployment.
 
 Detailed reconciliation for this pass is `INTEGRATION_STATE_RUN_266.md`; MAIN's matching durable report is `archive-intake/INTEGRATION_REPORT_RUN_266.md`.
+
+Run 266 closure note: the first Pages run on the reconciliation-only WIKI head was cancelled by the workflow's `pages` concurrency group after its build/artifact steps succeeded. This rolling-state commit intentionally retriggers the existing Build + Pages pipeline without changing reader-facing lore.
