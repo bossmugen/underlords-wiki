@@ -13,18 +13,30 @@
   - Zyrcant's top-three Kahoot result, **two separate yay reactions**, and later photo-submissions post deepen the structured read that she repeatedly opts into public-response/house formats without needing to dominate the room.
   - Exact rank does not survive; the photo-submission attachment is POSTED BY Zyrcant only. Maker/photographer/subject/featured remain unresolved.
 - Wall: `80f84effa6f8e517b2696d8d3cc9d89eedde37ee -> 32c846a64d59481ed7a0ca0a4c8d81b091bbed04`.
-  - Woosung's `I need to not talk sm` and Moon's `No no you famous uwu` sharpen the already-public Wall frequent-flyer / embarrassment-softening rhythm. Duplicate/corroboration only.
+  - **WOO** = stable Discord account `454708201615523871`, username `_woo_woo`. WOO remains distinct from **Woosung** and **Woohyuk**.
+  - WOO's `I need to not talk sm I got so much stuff on the hall of shame` and Moon's exact reply `No no you famous uwu.` deepen the same contradiction visible in earlier Wall/Core scenes: WOO can eagerly join somebody else's prosecution and then complain that their own talking has produced too much evidence.
   - The nearby Gilli-posted screenshot is not a reply parent and remains uninspected/unlinked to WOO.
 - Mugen person-first: `522e68f99e2b121b7dfe524a2b2ebdf89012a0c9 -> ed128febac83996234dca955f4d1e61acfddf244`.
   - Novelty-gate/search-frontier/checkpoint maintenance only. No public mutation warranted.
 
 ## Public routing
-The reader-facing WIKI change is `src/data/character-biographies-zyrcant.ts` at commit `56600b6d03a5bf0fe4e3d06cec8ea75c813ea959`. It uses the Daycare family as structured character deepening: Zyrcant places in the top three, double-yays her own result, later posts to photo submissions, and therefore reads as somebody who keeps opting into public house formats rather than merely being dragged into them.
+### Zyrcant
+`src/data/character-biographies-zyrcant.ts` was deepened at `56600b6d03a5bf0fe4e3d06cec8ea75c813ea959`. The structured owner now keeps the top-three/double-yay participation beat and the Photo Submissions POSTED-BY fence without inventing exact rank, authorship, photographer, subject, or featured identity.
 
-MAIN intentionally receives no new Zyrcant receipt paragraph from this family because her existing person-first biography already owns the broader competence / opt-in / self-exposure contradiction. The two surfaces therefore use the same source differently instead of mirroring prose.
+MAIN does not grow another Zyrcant receipt paragraph from this family because her existing person-first biography already owns the broader competence / opt-in / self-exposure contradiction.
+
+### WOO
+`src/data/cast.ts` was extended at `e344f3793dc8ec8081df36467f709f19c732feed` with a structured **Archive / Extended Cast** entry for WOO. The dossier preserves:
+
+- Moon turning WOO's Hall-of-Shame self-audit into `No no you famous uwu.`;
+- Gilli literally writing down WOO's breakup-comfort advice, then later summoning WOO into the Nobu Wall case;
+- Rich tagging WOO into the tsundere caricature, WOO protesting, and Rich answering with a pat-head GIF;
+- WOO's own contradiction between intimidating/teasing packaging and patient, person-specific comfort behavior.
+
+This is intentionally WIKI-only reader publication in Run 289. MAIN's richer WOO dossier was resynthesized internally but stays private because MAIN's source verifier rejects uncategorized Archive Cast pages from the public People index. No Staff/VIP/member/Officer category was invented just to make a route pass.
 
 ## Dedupe / held rails
-- Woosung Wall self-awareness is already represented on both surfaces; no duplicate Running Gag or Episode.
+- **WOO is not Woosung and not Woohyuk.** An earlier draft state mislabeled WOO as Woosung; that continuity error is corrected here and in MAIN's controlling branch state/report.
 - YozoraRemnant remains banked until there is enough person material for a real owner; privacy-sensitive account-use mechanics stay backstage.
 - Mugen delta is consumed as successful no-public-change review.
 - No exact Kahoot rank was invented. No uninspected attachment gained maker, photographer, subject, or featured identity. No nearby screenshot was attached to WOO by proximity.
@@ -35,4 +47,7 @@ MAIN intentionally receives no new Zyrcant receipt paragraph from this family be
 - Wall -> `32c846a64d59481ed7a0ca0a4c8d81b091bbed04`
 - Mugen person-first -> `ed128febac83996234dca955f4d1e61acfddf244`
 
-Exact final WIKI Build + Pages and exact final MAIN source/build/output/deploy status are verified against the closing publishing heads before the automation reports this run as green.
+## Verification
+- WOO reader commit `e344f3793dc8ec8081df36467f709f19c732feed`: Build workflow `33724906504` succeeded; Pages workflow `33724906511` succeeded.
+- The exact final WIKI state head is separately required to pass Build + Pages before Run 289 is reported green.
+- MAIN exact final source/build/output/deploy is separately required to pass before Run 289 is reported green.
