@@ -8,11 +8,12 @@ export const richNarrativeCharacterBios: Record<string, CharacterNarrative> = {
     ],
     sections: [
       {
-        period: "2020–2022",
+        period: "2020–2023",
         title: "If the nonsense exists, Rich wants the procedure",
         paragraphs: [
           "UL can hand Rich an obviously fake institution and he will still respect the internal logic long enough to make the joke better. Gabu announces a stripping premise; Rich checks venue rules with `Go for this is strip club`. Rich decides it is time to `punish a panda`; instead of inventing a new department, he pages Eos, who already knows which ridiculous social ecology that belongs to. Snow is `losing the bodies`; Rich talks about it like an operational condition already in progress. Nobody needs to stop and explain the ontology first.",
-          "The same reflex gets nerdier on the Wall. When the room starts talking about shame-speed records, Rich calculates the theoretical floor as `the moment you join the server before the lobby`. Later he looks at a person named `Drink water reminder` and concludes `I don’t think @Drink water reminder had enough watah`. The joke is not that Rich secretly held a compliance title. The joke is that UL keeps inventing fake systems and his brain keeps trying to make them internally coherent."
+          "The same reflex gets nerdier on the Wall. When the room starts talking about shame-speed records, Rich calculates the theoretical floor as `the moment you join the server before the lobby`. Later he looks at a person named `Drink water reminder` and concludes `I don’t think @Drink water reminder had enough watah`. The joke is not that Rich secretly held a compliance title. The joke is that UL keeps inventing fake systems and his brain keeps trying to make them internally coherent.",
+          "The interpersonal version is gentler and somehow even dumber. In March 2023 Rich tags Woosung / WOO into a tsundere-style bit. She true-replies `OMG NO WHY WOULD U`; Rich's exact reply is a pat-head penguin GIF. Poke, protest, softener. He does not argue that the label was correct or double down on the prosecution. He keeps the bit playable by cushioning the landing in the same absurd little register. Former Amaurot leader, former ScarletMoon leader, dispute resolved by penguin customer service."
         ]
       },
       {
@@ -42,7 +43,7 @@ export const richNarrativeCharacterBios: Record<string, CharacterNarrative> = {
       {
         title: "Petty Crimes",
         paragraphs: [
-          "Has apparently accepted that `strip club` can be a venue rule. Will calculate the minimum possible time-to-Wall if somebody invents the metric. Once diagnosed the Drink Water Reminder with insufficient watah. Has also described himself as a `ramen butt` likely to sleep through things. Systems brain, couch potato, same citizen."
+          "Has apparently accepted that `strip club` can be a venue rule. Will calculate the minimum possible time-to-Wall if somebody invents the metric. Once diagnosed the Drink Water Reminder with insufficient watah. Has also described himself as a `ramen butt` likely to sleep through things. If Woosung objects to the joke he started, apparently the appeals process is one pat-head penguin. Systems brain, couch potato, same citizen."
         ]
       }
     ],
