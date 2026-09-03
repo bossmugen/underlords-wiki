@@ -1,8 +1,8 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-03 Run 332_
+_Last updated: 2026-09-03 Run 333_
 
-MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Per-run files remain authoritative for historical cycles; current run detail is in `INTEGRATION_STATE_RUN_332.md`.
+MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Per-run files remain authoritative for historical cycles; current run detail is in `INTEGRATION_STATE_RUN_333.md`.
 
 ## Current census / queue
 
@@ -15,7 +15,7 @@ Full census: **49 tracked miner identities = 28 active refs + 21 historical/miss
 - overdue: 0
 - Wall recovery quarry: open for future source
 
-Both Club-Only recovery priorities are current through head. All 28 active miner refs were unchanged from the Run 331 closing heads at the Run 332 opening census, so Run 332 has **no new or unconsumed intake suffix to review** and no miner consumed cursor advances.
+Both Club-Only recovery priorities are current through head. All 28 active miner refs were unchanged from the Run 332 heads at the Run 333 opening and closing checks, so Run 333 has **no new or unconsumed intake suffix to review** and no miner consumed cursor advances.
 
 Important current boundaries:
 
@@ -59,16 +59,18 @@ WIKI already owns the fifth-anniversary deepener: Mugen starts from founder-time
 
 ## Banked / unresolved
 
-LilsatanSir remains a strong comics/superhero person candidate pending safe ownership/direct assigned-body recovery. Pride remains identity-unresolved and is not merged by display-name resemblance. Whiskey's uninspected `My baby...roomie` attachment remains noun-unresolved. Ricochet / `dragonrichard` remains distinct from Rich / DragonRich. Joke-family, `wife`, flirting, fake alibis and similar house language remain social/joke language unless stronger evidence supports literal relationship claims.
+LilsatanSir remains a strong comics/superhero person candidate pending safe ownership/direct assigned-body recovery. Pride remains identity-unresolved and is not merged by display-name resemblance. Whiskey's uninspected media remains attribution/noun-unresolved. Ricochet / `dragonrichard` remains distinct from Rich / DragonRich. Joke-family, `wife`, flirting, fake alibis and similar house language remain social/joke language unless stronger evidence supports literal relationship claims.
 
-## Run 332 MAIN operational hold
+## Run 333 MAIN operational hold
 
-The mandatory census was persisted on MAIN first at `c3e0fec5ca89bbe4f8db3eb62409a983b72caf3b`. Exact workflow `33805855500` failed before repository verification could begin: `Build + verify` completed failure with no instantiated steps (`steps=null`), and Cloudflare deployment was skipped.
+The mandatory census was persisted on MAIN first at `336fab3e5620222c7a2b632d8ea2ba4945b7a0bd`. Exact workflow `33806955732` failed before repository verification could begin: `Build + verify` completed failure with no instantiated steps (`steps: []`), `runner_id: 0`, and an empty runner name; Cloudflare deployment was skipped.
 
-That does **not** demonstrate a source-verifier, Astro, content, or built-output failure; those checks never ran. It is still a real publication block. A direct failed-job rerun attempt through the available connector was rejected by the tool safety gate, so Run 332 does not falsely call MAIN green or newly deployed. MAIN reader pages remain unchanged and the four branch publication cursors remain held.
+That does **not** demonstrate a source-verifier, Astro, content, or built-output failure; those checks never ran. It remains a real publication block. MAIN reader pages remain unchanged and the four branch publication cursors remain held.
 
-## Run 332 WIKI disposition
+MAIN's durable Run 333 report is `archive-intake/INTEGRATION_PASS_2026-09-03_1414_DUAL.md` at commit `5058ec8b46abd1ab48af3c3cf2ea5bc1ced3db40`.
 
-No WIKI reader file changes are warranted because no miner branch advanced and the accepted cross-surface findings are already structured here. Run 332 only refreshes durable integration state. Exact Build/Pages status is verified against the final WIKI head after this update completes.
+## Run 333 WIKI disposition
+
+No WIKI reader file changes are warranted because no miner branch advanced and the accepted cross-surface findings are already structured here. Run 333 only refreshes durable integration state. Exact Build/Pages status is verified against the final WIKI head after this update completes.
 
 Do not re-review the four pending-publication suffixes merely because MAIN infrastructure is blocked. Review future miner commits only from the recorded seen/reviewed heads forward.
