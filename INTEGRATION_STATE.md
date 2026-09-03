@@ -1,70 +1,67 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-02 18:22 PDT_
+_Last updated: 2026-09-02 18:38 PDT_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. This file is the WIKI-side rolling summary; run detail lives in `INTEGRATION_STATE_RUN_*.md`.
 
 ## Current reviewed boundary
 
-Full census: **49 tracked miner identities = 28 active refs + 21 historical/missing refs**, with **0 newly discovered, 0 pending review, 0 pending publication, 0 backlog, and 0 overdue** at the Run 267 close.
+Run 268 began with a full census of **49 tracked miner identities = 28 active refs + 21 historical/missing refs**, with **0 newly discovered**.
 
-Reviewed/consumed through current heads:
+Whiskey Longitudinal's genuine intake delta is reviewed through `c5150ed9937d13d37b934681ebdf57d85528e21d`. Its subsequent branch head `90b19702014618c42eebfca4e3d4e900ffe5af1a` is a project-root `UL-TASK-STANDARD-2026-09-02.1` sync; the `c5150ed9 -> 90b1970` path check contains no `archive-intake/*` changes.
 
-- All Characters HR: `de879eeefd4b71adb35a81ce6a20c463a8513d04`
-- Core Rooms: `c26485596b03d804c3cc10daf2c5db2c48340ffc`
-- Daycare: `e41f936b694254deda77ead46b7f83b78a570f5d`
-- Mugen person-first: `78364d3853b2b1164a0b2be829b27c5ce9f4eeb4`
-- Whiskey Longitudinal: `8f933681560a65e30b5f35f0a45743df6930dc6b`
-- Wall recovery: `662424758e8259434aea9d1071448edf76dc9815`
-- Club-Only 2020: `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`
-- Club-Only 2021–2026: `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`
+During this run, that new task standard was propagated across all 28 active miner refs. A successor MAIN census now owns the controlling ledger and has marked those advanced heads for intake-path checks. That pending count is therefore mostly **standard-propagation bookkeeping, not 28 newly discovered lore tails**. Run 268 does not overwrite the successor ledger or move its branch heads backward.
 
-Wall remains `recovery_in_progress` only so future branch growth is not mistaken for permanent closure; its current tail is fully reviewed. Both Club-Only recovery priorities remain current.
+At the pre-propagation reviewed boundary, both Club-Only recovery priorities were current. Wall had a newer genuine intake tail already queued by the successor census and remains outside Run 268's reviewed payload.
 
 ## Latest reader reconciliation
 
-### Mugen — source access is not ownership; lower availability is not erasure
+### ShiyaX — make sure everybody is in the game
 
-Mugen person-first adds two small early lines that fit together unusually well.
+The new Whiskey material sharpens something already visible in ShiyaX: participation is more important to him than looking like the designated competent one.
 
-On October 16, 2020, while member information is being discussed, Mugen's boundary is only four words: **`if dm then nono`**. Anthos follows with the practical public-knowledge version. The point is not to crown Mugen Privacy Saint of the Server; it is a lived distinction between possessing information and being entitled to reuse it. For somebody whose later reputation includes preservation, screenshots, context retrieval, and remembering everything sideways, that limit is a useful contradiction.
+With Baby Lyssa / Ghoulie, he can say `i bought the sub` and `Buying shit for when you are able to play @Baby Lyssa`, then days later say `Ghoulie carrying me` and remember `Them long drives with @Baby Lyssa`. The relationship is not cleanly provider → recipient. He gets the playground ready before his friend arrives, then happily becomes cargo once she does.
 
-On December 9, during Deputy-work deliberation, Mugen says **`real life always comes first`**. She can acknowledge Anthos and Gabu carrying more current work while still naming Snow's earlier Discord/Aether/HR labor. Current capacity can change without prior contribution turning into failure. The sentence is about availability; it is not an appointment timestamp or demotion receipt.
+Gabu gets the practical join-instinct. Her account is displayed as `Drink water reminder` when she posts a PUBG / bad-aim Tenor; 3.234 seconds later ShiyaX answers `Reinstalling this for @Drink water reminder`, later tagging her with `how i play :KEKW:`. The relationship verb is **join**. The nickname remains a nickname, not a formal hydration office.
 
-MAIN folds both into the existing Mugen biography instead of generating two event-ledger paragraphs. Reader commit: `ccd132baf8dbe62b9e025b06f124cc73f62a306a`.
+Anthos gets selected as an audience. ShiyaX calls her over with `Jux look at this chonky bee`, and Anthos returns Bee Movie imagery within seconds. He finds the weird object, decides who specifically needs to see it, and the recipient already knows how to return the bit.
 
-Exact MAIN reader verification: workflow **33702736643** succeeded on `ccd132ba`, including source canon/architecture verification, Astro build, built-output verification, and exact Cloudflare production deployment.
+Woohyuk gets the live dispatch. After Woohyuk says he craves shaved ice, ShiyaX later sends `On my way!`, `So close wookie`, `IM HERE`, `Im going in`, and `HELP` while the likely food errand is still unfolding. The exact venue and physical co-location remain unresolved. What survives cleanly is the social habit: Woohyuk gets the stupid little mission while it is happening, not only the story afterward.
 
-WIKI reader objects remain unchanged because this is cumulative person-first texture and MAIN is the stronger canonical owner. WIKI already carries structured Mugen authority/boundary material; mirroring the same prose would make the two public surfaces worse, not more complete.
+WIKI folds these into ShiyaX's existing structured dossier rather than manufacturing a standalone Episode. Reader commit: **`890eb2da1722b9cb8fdd65848876bbf4d96785d2`**.
 
-## Reviewed without duplicate reader churn
+Exact WIKI reader verification:
 
-- **All Characters HR:** Run-94 authoritative reconciliation is consumed through `de879eef`. Rose/Mia material was already public; Key's probable historical-account reunion/Dean texture was already public. Six additional quarries reach current-boundary exhaustion, bringing the comprehensive set to 10 exhausted / 90 in progress. The overall character quarry remains open.
-- **Wall recovery:** Alkey's chicken-emote staging → Mugen popcorn reply → `I aim to please` is already public on MAIN as humor/social-style texture. SaraBunny gains New-Year affiliation and a corrected Wall coverage boundary but remains intentionally thin. q18 Mugen→Alkey exact reply parent is closed.
-- **Daycare:** Alaina gains a coherent curiosity / context-check / immediate-regret pattern from support-room Wall material. Strong person seed, but no safe existing public profile shelf, so it is banked rather than orphaned. SaraBunny gains probable quiet-synchronizer moo texture. Reinaa remains a bounded negative.
+- Build run **33703653660** — success.
+- Pages run **33703653642** — success through build, deployment, and report.
 
 ## MAIN / WIKI split
 
-MAIN changed **one reader biography: Mugen**.
+MAIN receives **no new ShiyaX reader paragraph** from this delta on purpose. Its biography already owns the stronger person-shaped mechanism: ShiyaX builds participation lanes, turns ordinary life into a field desk, buys the playground before Baby Lyssa arrives, and is comfortable being carried once everybody is inside it. Gabu / Anthos / Woohyuk are banked for the next natural biography resynthesis rather than stapled on as three receipt reports.
 
-WIKI changed **zero reader objects**. Nothing in this pass beat the existing Episode / Running Gag / Cast structure strongly enough to justify a new public object. The WIKI changes are durable integration-state only.
+WIKI is the complementary owner for the new structured relationship texture. The same source is not mirrored as identical prose.
 
-No identical prose was mirrored between surfaces.
+## Reviewed without duplicate reader churn
+
+- The February collaborative music/dance pulse, `Did the song put yall to sleep ? 🙀`, the doodle pocket, and `I pilot 3 accounts :ZenitsuCry:` were already public and remain corroboration only.
+- Baby Lyssa / Ghoulie is one reciprocal co-play pattern, not separate provisioning and carrying incidents.
+- No `Episode: Shiya Reinstalled PUBG` was created. The human meaning is relationship behavior, not a plot requiring its own plaque.
 
 ## Safety / unresolved
 
-- No private member detail was exposed from the `if dm then nono` context.
-- Anthos is not promoted into Mugen's permanent translator or privacy officer.
-- The December 2020 Deputy discussion remains deliberation, not completed appointment chronology; Snow's lower availability is not failure or erased standing.
-- Alkey remains distinct from Key.
-- SaraBunny is a participant in moo language, not proven originator.
-- No screenshot/sticker pixels were inspected in the new Wall/Daycare tails.
+- Baby Lyssa = Ghoulie follows the hard identity lock.
+- Exact Woohyuk venue remains unresolved.
+- The messages do not establish that ShiyaX and Woohyuk were physically co-located.
+- `Drink water reminder` remains Gabu's room nickname in this scene, not a formal role.
+- No DJ / music-leader role is inferred from reaction-chain participation.
+- No friendship/closeness ranking is assigned from the Anthos or Woohyuk pockets.
+- Uninspected media remains uninspected.
 - POSTED BY / SAID BY / MADE BY / CAPTURED BY / FEATURING remain distinct.
-- Earliest surviving remains an archive boundary, not guaranteed origin.
 
 ## Verification / deployment
 
-- MAIN reader commit `ccd132baf8dbe62b9e025b06f124cc73f62a306a`: workflow **33702736643** succeeded through source verification, Astro build, built-output verification, and exact Cloudflare deployment.
-- WIKI has no reader mutation in Run 267; this state-only closure is built/deployed through the repository's existing Build + Pages workflows on the closing `main` head.
+- WIKI reader commit `890eb2da1722b9cb8fdd65848876bbf4d96785d2`: Build **33703653660** success; Pages **33703653642** success through deployment.
+- Run 268 state/report commits are being verified on the closing WIKI head with the repository's existing Build + Pages workflows.
+- MAIN has no reader mutation from the Whiskey delta. Its durable Run 268 reconciliation is `archive-intake/INTEGRATION_REPORT_RUN_268.md`; the closing MAIN head remains under the repository's exact-commit verification workflow.
 
-Detailed reconciliation: `INTEGRATION_STATE_RUN_267.md`. MAIN durable report: `archive-intake/INTEGRATION_REPORT_RUN_267.md`.
+Detailed reconciliation: `INTEGRATION_STATE_RUN_268.md`. MAIN durable report: `archive-intake/INTEGRATION_REPORT_RUN_268.md`.
