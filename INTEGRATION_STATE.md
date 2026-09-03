@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-03 01:51 PDT_
+_Last updated: 2026-09-03 01:59 PDT_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. This file is the WIKI-side rolling summary; detailed reconciliation for this pass lives in `INTEGRATION_STATE_RUN_296.md`.
 
@@ -8,12 +8,13 @@ MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH
 
 The controlling census tracks **49 miner identities = 28 active refs + 21 historical/missing refs**, with **0 newly discovered, 0 pending review, 0 pending publication, 0 backlog, and 0 overdue** after the current review.
 
-The four active refs advanced and reviewed this pass are:
+The five active refs advanced and reviewed this pass are:
 
 - `archive-miner/daycare-2020-2026-hourly` → `ca323c95aabec2e513bae263ba36843b9a127441`
 - `archive-miner/mugen-person-first-20260828` → `f60866b255f6d8be7785bbdd199388f6fd08fe55`
 - `archive-miner/whiskey-longitudinal-hourly` → `47d4d94addec321c8c697b42bdc1d19ab019c4af`
 - `archive-miner-wall-hourly-20260824` → `aa4b37d329a5965f607a52a856df3de90a6ffa8d`
+- `archive-miner/all-characters-hr-20260828` → `46ad74fa10a5d8513157d6029f3b53937619665c`
 
 Both Club-Only recovery priorities remain current:
 
@@ -38,7 +39,13 @@ MAIN folded the scene into Yaza's biography. WIKI added Yaza to Archive / Extend
 
 ### Whiskey / Rooks
 
-The new Rookie Cookie / Rooks package is corroboration, not a public gap. Both surfaces already own the important pattern: Rooks can step out of the server for school / me-time without treating that as leaving the people, then walk back through the door and resume ordinary social life. The homework self-indictment is also already public. Consumed without another paragraph or duplicate Episode.
+The Rookie Cookie / Rooks package is corroboration, not a public gap. Both surfaces already own the important pattern: Rooks can step out of the server for school / me-time without treating that as leaving the people, then walk back through the door and resume ordinary social life. The homework self-indictment is also already public. Consumed without another paragraph or duplicate Episode.
+
+### Late All Characters HR / Run 102
+
+The late HR tail was caught by the closing census and reviewed through its final checkpoint instead of being left pending for the next cycle. It materially deepens Rooks backstage into a cross-domain **connection ≠ container** person read: she can accept a K-pop group leaving an agency while grieving threatened continuity of the people making music together, then later make her own server-distance boundary while preserving DMs, chat and affection. The miner explicitly forbids claiming causation between those scenes. MAIN already owns both ingredients and the connection-preserving absence/return mechanism, so WIKI does not manufacture a duplicate Episode or dossier paragraph.
+
+Ghoulie is correctly reopened inside authoritative HR state because fresh Daycare material adds evidence-student / collector agency, but the same material is already public on MAIN and already indexed as a WIKI Running Gag. Rose, Mia, Hishiro, Tofu, Jas, ShiyaX and Yaza moved to exhausted-at-current-archive-boundary quarry state after repeated qualification stopped changing their person syntheses. Those are backstage workflow decisions, not public character badges.
 
 ### Wall / `novikroeva` / `ничего`
 
@@ -48,10 +55,11 @@ The stable account has good person texture: emotionally transparent but informat
 
 - WIKI Ghoulie reader head `f6c447afca78f4031eca3e0d6630e3fd65355602`: Build `33734262477` success; Pages `33734262289` success through deployment.
 - WIKI Yaza archive-cast reader head `7f72aa6a31e395aa493a4e5bf80d49892b85a3e9`: Build `33735328867` success; Pages `33735328438` success through deployment.
+- WIKI pre-late-HR rolling head `317312a6d09a4ec5103b54847bba4461ff6c28b1`: Build `33735723020` and Pages `33735722996` success.
 - MAIN Yaza/Ghoulie reader head `7fda5776cfef44fd576acb546c840991165771ba`: full existing verification/build/deploy workflow `33735164296` success.
-- MAIN controlling consumption-state head `4f81835d11c929e3424e33f8e363ddd7535d00ef`: full existing verification/build/deploy workflow `33735429972` success.
+- MAIN report head `43686b0b55c1004599b763e8461b898f582093cf`: full existing verification/build/deploy workflow `33735779777` success.
 
-The exact WIKI head created by this rolling-state update must also pass the existing Build and Pages workflows before closure is claimed.
+The exact final WIKI state head and exact final MAIN state/report head are re-verified before closure is claimed.
 
 ## Hard rails / held rabbits
 
@@ -59,6 +67,7 @@ The exact WIKI head created by this rolling-state update must also pass the exis
 - `novikroeva` / `ничего` does not receive a canonical identity bridge by vibes.
 - Ghoulie's notes target remains unresolved.
 - Rooks' 2021 Bouncer appearance is re-entry, not origin; the 2020 Bouncer self-ID is earlier.
+- Rooks' K-pop discussion and server break support a repeated person pattern, not a causal claim.
 - Homework panic is not evidence of actual graduation failure.
 - No uninspected media gains MADE BY / CAPTURED BY / FEATURING status.
 - No joke role, romance, literal family, appointment chronology, or earliest-surviving-origin claim was introduced.
@@ -69,5 +78,6 @@ The exact WIKI head created by this rolling-state update must also pass the exis
 - Mugen person-first → `f60866b255f6d8be7785bbdd199388f6fd08fe55`
 - Whiskey → `47d4d94addec321c8c697b42bdc1d19ab019c4af`
 - Wall → `aa4b37d329a5965f607a52a856df3de90a6ffa8d`
+- All Characters HR → `46ad74fa10a5d8513157d6029f3b53937619665c`
 
 Detailed reconciliation: `INTEGRATION_STATE_RUN_296.md`.
