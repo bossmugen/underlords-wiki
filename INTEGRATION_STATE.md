@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-02 20:18 PDT_
+_Last updated: 2026-09-02 20:55 PDT_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. This file is the WIKI-side rolling summary; run detail lives in `INTEGRATION_STATE_RUN_*.md`.
 
@@ -10,11 +10,11 @@ Closing reconciliation holds **49 tracked miner identities = 28 active refs + 21
 
 Reviewed checkpoint-first / intake-only through:
 
-- `archive-miner-wall-hourly-20260824` → `9f44d6ef025c3eaa8ac4befa646d1c4fd5b507ba`
+- `archive-miner-wall-hourly-20260824` → `2736beb965cbb025a1a0075eb34d3f788ff481f7`
 - `archive-miner/all-characters-hr-20260828` → `7271d354de17d7ad304e8592dc70faf7eae3b578`
 - `archive-miner/whiskey-longitudinal-hourly` → `b41d5d29a5bd39f459fc656a40457f4ceb5ef406`
 - `archive-miner/core-rooms-events-a91f-20260824` → `fa8948850f1ab351b2b48e89ace53af373b10e92`
-- `archive-miner/mugen-person-first-20260828` → `2b2c6207f551c78df659aec13892d80605d5fdf7`
+- `archive-miner/mugen-person-first-20260828` → `22783437046e8089be3d8ad1661b815ee9af672f`
 
 Both Club-Only recovery priorities remain current through:
 
@@ -25,39 +25,43 @@ Wall stays a recovery quarry only because more Wall material may arrive; its cur
 
 ## Latest reader reconciliation
 
-### Ghostt Keeps the Bit Alive
+### Rose / DarkAsrai
 
-WIKI now indexes Ghostt's recurring Wall habit as a Running Gag rather than cloning MAIN's biography prose.
+Hard user canon controls `DarkAsrai` as Rose, so the fresh Wall handoff deepened Rose rather than creating a second person.
 
-The recurrence is simple: when a joke is already moving, Ghostt often chooses continuation over correction. `porpcorn` gets protected instead of fixed. Mugen's `:Cursed:` gets `Bless your heart :hAhA:` and Cursed reactions back. `Poor ghoulie she lives on the wall lmao` is followed eighteen seconds later by Mugen asking where the rent is. When the screenshot machinery turns toward Ghostt herself, `She set me up for it 😂` becomes another beat instead of an exit from the joke.
+WIKI now carries three complementary pieces of Rose's Wall behavior in her existing structured dossier: she can turn a Rummy combat exchange into a playful rusty-self-test challenge; she can treat evidence-filing itself like a race (`Beat me to it`); and when Xuseio's `children` misread opens an absurd premise, Rose escalates it with `Noo they taste like chicken XD` instead of correcting the room back to sanity.
 
-Reader commit: `f23847ab1dbc58af1c53af5b10fc1ef648da2eaf`.
+Reader commit: `2eb51dfdb347dd3779808268933b3a9aa933c26f`.
 
 ### MAIN stays person-first
 
-MAIN owns the richer character synthesis in `src/content/people/ghostt.md`: the same receipts become one behavior pattern about preserving the funny version, including the role reversal when Ghostt becomes the exhibit herself.
-
-WolfPhenix's direct Wall footprint / `purple = wolfie` shorthand was already represented correctly on MAIN and did not receive duplicate copy here.
+MAIN owns the richer Rose synthesis in `src/content/people/rose.md`: competitive filer, playful challenger, and premise escalator are folded into who Rose is rather than split into chronology cards.
 
 ## No-change review that still consumed
 
-**All Characters HR Run 96:** Hishiro, GenGrey, Nhou, Alkey, Zepp, Ten and Ghostt were requalified to archive-boundary exhaustion/reopen-condition status. No materially new person mechanism survived novelty checking beyond already-reader-facing synthesis. The HR quarry reports **24 exhausted / 76 still in progress** and explicitly does not claim global character completion.
+### Mugen person-first / Key precedent
+
+Closing anti-starvation review caught `archive-miner/mugen-person-first-20260828` advancing during the run. The new handoff centers Key's February 24, 2022 Wall self-audit: Key says Mugs' screenshot work leaves him unsure whether to be `ashamed or impressed`; Mugen true-replies `Litrally started it ^`; Gilli adds `OG wall of shamer here uwu`.
+
+The recipient-side interpretation is useful — Mugen's preservation can be affectionate and incriminating at once — but the underlying scene is already public on both surfaces. MAIN already carries it in Mugen's biography, and WIKI's Key dossier already owns the exact structured Key/Mugen/Gilli sequence plus the formal-office anti-fanon fence. No duplicate WIKI Episode or second MAIN paragraph was added.
 
 ## Hard rails / dedupe
 
-- February 2021 Ghostt attachment: Gilli is **POSTED BY** only. Pixels remain uninspected; MADE BY / CAPTURED BY / FEATURING unresolved.
-- July 2022 screenshots: Ghostt is **POSTED BY** only; `she` in `She set me up for it 😂` remains unresolved.
-- Ghoulie/rent is strong contextual co-riff, not a stored reply chain, literal tenancy, or exclusive origin proof.
-- Ghostt's current Staff status does not establish appointment chronology.
-- All Characters HR exhaustion means current-source saturation, not biographical completeness.
-- Joke family, affection, flirt language, and mock-court language remain joke/social language unless stronger support exists.
+- DarkAsrai is Rose; no split character.
+- Shk remains no-promotion control.
+- Rose's April 5 exact upstream object and `anna` remain unresolved.
+- Uninspected Wall media is not described and does not acquire MADE BY / CAPTURED BY / FEATURING by proximity.
+- Rose/Rummy combat banter remains game/social language, not real violence, rivalry, or trainer canon.
+- `Litrally started it ^` and `OG wall of shamer here uwu` are social reputation, not a formal Wall founder/owner/moderator title for Key.
+- Key's `ashamed or impressed` is Key's own reaction, not a universal account of Mugen's preservation.
+- Native Key snowflakes, millisecond timestamps, edit/reaction state, and a screenshot-grade strip remain upgrade rabbits.
 
 ## Verification / deployment
 
-WIKI reader head `f23847ab1dbc58af1c53af5b10fc1ef648da2eaf` passed Build Underlords Wiki `33710551685` and Deploy Underlords Wiki Preview / Pages `33710551697`, including actual GitHub Pages deployment.
+WIKI Rose reader head `2eb51dfdb347dd3779808268933b3a9aa933c26f` passed Build Underlords Wiki `33712019511` and Deploy Underlords Wiki Preview / Pages `33712019390`, including actual GitHub Pages deployment.
 
-MAIN reader head `e05a205f57415e27426cc6b9bebc61388eadc891` passed UL Hourly Build + Deploy `33710536581`: source canon/architecture verification, Astro build, built-output verification, and exact Cloudflare production deployment all succeeded.
+MAIN Rose reader head `d1c928a2a5a7a31ae01f8b9e8e429883ae1fb7df` passed UL Hourly Build + Deploy `33711964605`, including source/canon/architecture verification, Astro build, built-output verification, and exact Cloudflare production deployment.
 
-Controlling MAIN consumption state advances Wall through `9f44d6ef025c3eaa8ac4befa646d1c4fd5b507ba` and All Characters HR through `7271d354de17d7ad304e8592dc70faf7eae3b578`.
+Controlling MAIN consumption state now advances Wall through `2736beb965cbb025a1a0075eb34d3f788ff481f7` and Mugen person-first through `22783437046e8089be3d8ad1661b815ee9af672f`.
 
-Detailed reconciliation: `INTEGRATION_STATE_RUN_277_GHOSTT_WALL.md`. MAIN durable report: `archive-intake/INTEGRATION_REPORT_RUN_277_GHOSTT_WALL.md`.
+Detailed reconciliation: `INTEGRATION_STATE_RUN_279_ROSE_MUGEN.md`. MAIN durable report: `archive-intake/INTEGRATION_REPORT_RUN_279_ROSE_MUGEN.md`.
