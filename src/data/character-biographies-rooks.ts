@@ -36,15 +36,6 @@ export const rooksNarrativeCharacterBios: Record<string, CharacterNarrative> = {
         ]
       },
       {
-        period: "September–October 2020",
-        title: "The Louvre is a workshop, then she starts pricing the machinery",
-        paragraphs: [
-          "Rooks's creative-room behavior is useful because she does not arrive only with finished objects and wait for applause. She tells people she will post what the group is making in the Louvre, shares `my painting so far`, and asks the room to `critique me`. The phrasing makes the Louvre a workbench in her hands: show the thing while it can still change, let other people look at it, keep making.",
-          "Printmaking pushes that habit one step further. On September 1, after saying the class did not get to do printmaking that day and would try again the following week, Rooks almost immediately starts solving around the delay herself: `I’m gonna order my own personal printmaking supplies so I can sell copies of my work`. The interesting move is not the imagined sale by itself. A workshop bottleneck appears and her brain jumps to personal production capacity — tools she can control, copies she can reproduce, work that does not have to remain one original object.",
-          "That plan stays a plan unless a later receipt confirms the supplies or the sales. `my work` is local authorship for the work she is talking about, not a magic stamp over every Rooks-linked media file. What the scene safely adds is follow-through instinct: the same person willing to expose unfinished work and invite critique is already thinking about how to make the next version independently and physically repeatable."
-        ]
-      },
-      {
         period: "August 2020 – March 2021",
         title: "Screenshot jail becomes self-service and then somehow becomes a reputation",
         paragraphs: [
