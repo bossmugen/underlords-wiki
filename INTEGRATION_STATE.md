@@ -1,39 +1,41 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-03 Run 314 reconciliation_
+_Last updated: 2026-09-03 Run 315 reconciliation_
 
-MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Detailed reconciliation for this pass lives in `INTEGRATION_STATE_RUN_314.md`.
+MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Detailed reconciliation for this pass lives in `INTEGRATION_STATE_RUN_315.md`.
 
-## Current reviewed boundary
+## Current census / reviewed tails
+The full census remains **49 miner identities = 28 active refs + 21 historical/missing refs**, with **0 newly discovered**. Both Club-Only recovery priorities remain current through head. Wall remains a recovery target because new source can still arrive.
 
-The full census remains **49 miner identities = 28 active refs + 21 historical/missing refs**, with **0 newly discovered**. Both Club-Only recovery priorities remain current. Wall remains `recovery_in_progress` only because future source may arrive; its present head is consumed.
-
-Run 314 reviewed the two remaining unconsumed evidence tails through:
-- All Characters HR → `121cd4f23349735275585c364e4093a2ee35f4cd`
+Run 315 reviewed checkpoint-first, changed-intake-only deltas through:
+- All Characters HR → `49190bd0c8a68e0f1df58f119c3846131503d81c`
 - Whiskey → `44ba4b7f6903ed76cb2dc8acb666e9f7f7a44d69`
+- Wall recovery → `eab18e03da6f9704061449ef522e9b88ff02f13d`
+- Core Rooms / Events → `c0221ae959842cf3c32e6b13b02a283d41dbc8a8`
 
-MAIN consumption is intentionally not advanced yet because its exact Actions verification is currently failing before workflow steps are exposed. Those deltas are reviewed, not unread; MAIN's durable Run-314 report records the verification hold so the same evidence should not be re-mined merely because `last_consumed_sha` is still behind.
+MAIN's canonical consumed boundaries are **not falsely advanced** while its Actions verification provider is failing before workflow steps start. The Run-315 opening census is already persisted in MAIN history; these reviewed deltas are durably recorded here so they should not be treated as unread merely because final MAIN state closure is verification-blocked.
 
-## Run 314 — accepted, banked, not duplicated
+## Accepted character reads
+**Ansun / Sou:** practical/contextual attention can become care, help, creator credit, routing, or nonsense depending on stakes. The Tae check-in, plush/social-casting lane, contextual homework help and Cioccolatodorima credit all strengthen an already-public person rather than requiring source-shaped appendices.
 
-**Ansun / Sou** gains a quieter cumulative layer beneath the already-public Officer/process material: he notices Tae is still awake and checks on her; participates in a shared molarity-help lane; turns strawberry-cow scarcity and food plushies into social casting; and keeps Cioccolatodorima's creator credit attached while circulating rooster art. The person read is practical attentiveness plus social curation — care, help, attribution, routing, or nonsense depending on what the moment needs. Existing public Ansun structure already owns that mechanism, so WIKI does not invent four new incidents to celebrate four new receipts.
+**Eos:** direct room routing and immediate person nomination strengthen the existing callable / low-ceremony social-infrastructure read. No formal helpdesk/moderator office is inferred.
 
-**Eos** gains direct confirmation of the practical-callable posture peers already assigned her: when Erys is socially stranded after the room moves, Eos points her to Whiskey with `head heree` / `everyone talking there`. That strengthens the existing callable-operator read without requiring another standalone WIKI object.
+**Jas:** the Wall now gives a clean recurring embarrassment contradiction: contest the damaging line, seize weak cover, collapse when the cover disappears, later tell an old filing `I do not recall that`, then curse the Wall when Ren answers that the Wall remembers. The useful shape is defend reputation → accidentally improve the prosecution → stay in the joke. This is profile connective tissue, not a standalone Episode.
 
-The Whiskey tail also tightens the surviving **Platelet / Cells at Work semantic chronology** without establishing an originator.
+**Teri ↔ Moon:** close-friend/bestie care is now behaviorally strong: practical food help, remembered attention to a recurring self-care pattern, and safe evidence of sustained reciprocal support. Teri's blunt joking wrapper and caretaking function coexist. Sensitive private details remain backstage; `sistah` is joke-family language, not biological kinship, and nothing supports romance.
+
+**Mirage:** a developing process-over-label person read is coherent across separate self-reports: admit mistakes instead of blame-shifting, learn through failure/deliberate effort, revise a social model through conversation. `Not really` to being smart sits beside a concrete learning method. Coffee making Mirage sleepy is Petty Crimes texture only, never a diagnosis.
+
+**Seth:** full current assigned stable-ID audit found no named UL teaching/help recipient. Workplace teaching remains ordinary-life evidence; no UL teaching office is invented.
 
 ## HR state
-
-Authoritative comprehensive non-Mugen HR at the reviewed boundary is **98 exhausted / 2 in progress / 0 blocked / 0 queued**. Nobu/Xuseio, Milo, TonyTonyChopper, Valantina, and Zhēnxī stabilized to exhausted-at-current-boundary. Eos and Ansun remain in progress for stability passes. Exhaustion is reversible mining state, not a declaration that a human being has been completed.
+The authoritative comprehensive non-Mugen HR ledger is now **100 / 100 exhausted at the current archive boundary, 0 in progress, 0 blocked, 0 queued**. Exhaustion is reversible mining state, not a claim that any person is complete forever.
 
 ## Reader changes
-
-**0 final WIKI reader-facing changes.** The new material belongs inside existing character mechanisms rather than as source-shaped appendices. MAIN likewise ends with 0 intended reader changes after a provisional Ansun expansion was rolled back before successful deployment.
-
-## Rails / holds
-
-`baby tae` remains affectionate room language rather than literal kinship, age evidence, or a formal caretaker role. The molarity lane and Eos→Erys routing lack raw Reply pointers, so those joins stay contextual/probable. Sou is POSTED BY for shared art; Cioccolatodorima is MADE BY where explicitly credited. A Photoshop request is not maker credit. Plushie comparison does not prove purchase/ownership/permanent-favorite status. Platelet/Cells at Work timing is chronology, not origin.
+**0 WIKI reader-facing mutations this pass.** Ansun/Eos are mature existing mechanisms; Jas's fresh Wall material belongs in existing person/profile structure; Teri/Moon and Mirage are accepted material but do not justify inventing a broad public dossier/shelf from the current architecture. MAIN likewise receives no new reader mutation from this pass.
 
 ## Verification
+The Run-315 WIKI state commit is verified through the normal Astro Build and Pages deployment workflows. MAIN remains separately verification-blocked: a third retry of `UL Hourly Build + Deploy` again failed the `Build + verify` job at provider/setup level with `steps: []`, no runner assignment, and deployment skipped. WIKI does not launder that into a green MAIN/deployment claim.
 
-WIKI has no reader mutation this pass; the Run-314 reconciliation/state commit is verified independently through the repository's normal Build and Pages workflows. MAIN is separately held on exact verification because its Actions Build + verify job is currently failing before steps/logs are exposed; WIKI does not launder that into a green MAIN claim.
+## Rails / holds
+`baby tae` is affectionate language, not literal kinship or age evidence. Ansun/Souta remains separate from Anthos. POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct. Jas's old Wall media remains uninspected. Teri/Moon remains friendship, not romance/family. Mirage coffee self-report is not medicalized. No appointment chronology comes from export-time role arrays, and earliest surviving remains non-origin.
