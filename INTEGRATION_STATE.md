@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-02 21:18 PDT_
+_Last updated: 2026-09-02 21:20 PDT_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. This file is the WIKI-side rolling summary; run detail lives in `INTEGRATION_STATE_RUN_*.md`.
 
@@ -25,17 +25,19 @@ Wall stays `recovery_in_progress` only because more Wall material may arrive; th
 
 ## Latest reconciliation
 
-### Ren / Baby Lyssa — accepted, not duplicated
+### Ren / Baby Lyssa — Fame was in the room from launch
 
-The fresh Wall suffix strengthens a mechanism WIKI already carries. Ren's launch-day `hall of fame` / `wall of shame` dual frame later becomes lived relationship behavior in Baby Lyssa's March 2021 filing: Baby performs theatrical horror while Ren labels the scene `*wall of fame*`, and the same contiguous pocket later gives Ren's own blunt summary, `not punishment` / `it's love`.
+The fresh Wall suffix materially corrects the chronology of WIKI's existing `Wall of Shame / Fame` Running Gag. On August 25, 2020 Sota writes `wall of shame`; 24.355 seconds later Ren says `Nice I though of this as a hall of fame`, then adds `But wall of shame works too` 4.784 seconds after that.
 
-WIKI's existing `Wall of Shame / Fame` Running Gag already owns the Baby protest scene and the same belonging/affection interpretation, so this is source-family strengthening rather than a second gag or Episode clone.
+Seven months later the alternate label has become relationship grammar. Baby Lyssa performs theatrical horror at a filing; Ren answers `*wall of fame*`, says everybody has a place on the shame-fame Wall, and later answers punishment framing with `not punishment` / `it's love`. Fame does not erase the embarrassment. Ren is selling the public drag as attention and belonging while Baby remains loudly unconvinced by the sales pitch.
+
+WIKI therefore updates the *same* `wall-of-shame-fame` object rather than creating a duplicate gag. The launch-day wording is surviving dual framing, not proof of formal title origin or sole naming authorship.
 
 ### Danny — good person read, no safe shelf yet
 
-Danny's tiny Wall footprint now has a clean mechanism: Ren mock-prosecutes screenshots Danny posted; Danny responds by proposing a better-labeled screenshot against himself. Days later an incidental `Sprite` mention activates specific old Sprite-ad object lore. Source/object-minded, practical about receipts, self-preservation apparently optional when the bit is better.
+Danny's tiny Wall footprint has a clean mechanism: Ren mock-prosecutes screenshots Danny posted; Danny proposes improving the receipt against himself with `a new ss with the persons name added`. Days later an incidental `Sprite` mention activates specific old Sprite-ad object lore. Source-minded, practical about receipts, self-preservation apparently optional when the bit is better.
 
-WIKI currently has no safe Danny Cast status/shelf to assign without inventing membership or role. The person read remains banked backstage instead of being misclassified for symmetry.
+WIKI has no safe Danny Cast status/shelf to assign without inventing membership or role. The person read remains banked backstage instead of being misclassified for symmetry.
 
 ### All Characters HR Run 97
 
@@ -45,9 +47,11 @@ Comprehensive-HR boundary: **100/100 canonical non-Mugen people have dedicated H
 
 ## Reader decision
 
-**WIKI reader data changed: 0.** Existing structured Wall/Fame material already represents the Ren/Baby mechanism; Danny lacks a safe public shelf; HR reader-worthy mechanisms are duplicates by meaning against current public surfaces.
+**WIKI reader data changed: one existing Running Gag plus resolver ordering.** `src/data/integrator-gags-wall-20260903-run280.ts` updates `wall-of-shame-fame` with the launch-day Ren Fame/Shame wording and the later `not punishment` / `it's love` continuation. `src/data/all-content.ts` now gives base integration modules deterministic first precedence so later run-specific same-ID corrections override intentionally rather than depending on glob enumeration order.
 
-**MAIN reader pages changed: 0.** Its current Ren biography already synthesizes Fame/Shame as prosecution plus affection/inclusion, so `not punishment` / `it's love` strengthens the source family without spawning a receipt-shaped paragraph.
+This is one corrected searchable object, not a second gag. Danny remains unshelved; All Characters HR produces no new WIKI dossier prose.
+
+**MAIN reader pages changed: 0.** Ren's current biography already synthesizes the lived Fame/Shame contradiction as prosecution plus affection/inclusion; Danny lacks a safe public shelf; HR reader mechanisms are duplicate by meaning.
 
 ## Hard rails / held rabbits
 
@@ -60,8 +64,10 @@ Comprehensive-HR boundary: **100/100 canonical non-Mugen people have dedicated H
 
 ## Verification / deployment
 
-WIKI state head `e863980d3c41e8651d666f0cbb0e594cc6cd29e6` passed **Build Underlords Wiki** run `33714232698`. Its first Pages run `33714232497` was cancelled by the `pages` concurrency group during the rapid sequential Run-280 state commits, not by an Astro/content failure; GitHub does not allow that cancelled run to be retried. This roll-forward commit intentionally triggers a clean new Build + Pages pair.
+WIKI reader correction first landed at `a8e3ea3e15726d5f929db9be782975084fb77553`; Build `33714159639` succeeded. Subsequent Run-280 state commits preserved it. WIKI state head `a3d5383eaaf0edfb2676344564d4cd2c0287bd5a` passed Build `33714325134` and Pages `33714325204`, including deployment.
 
-MAIN controlling consumption head `48b8610e5f563933f81b3741294a8d28e93f3a76` passed **UL Hourly Build + Deploy** run `33714192464`, including source canon/architecture verification, Astro build, built-output verification, and exact Cloudflare deployment.
+MAIN controlling consumption head `48b8610e5f563933f81b3741294a8d28e93f3a76` passed **UL Hourly Build + Deploy** `33714192464`, including source canon/architecture verification, Astro build, built-output verification, and exact Cloudflare deployment.
+
+The final Run-280 durable-state corrections create later publishing heads on both repositories; exact final-head verification/deployment must pass before closure.
 
 Detailed reconciliation: `INTEGRATION_STATE_RUN_280_WALL_HR.md`. MAIN durable report: `archive-intake/INTEGRATION_REPORT_RUN_280_WALL_HR.md`.
