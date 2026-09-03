@@ -1,18 +1,16 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-02 18:56 PDT_
+_Last updated: 2026-09-02 19:00 PDT_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. This file is the WIKI-side rolling summary; run detail lives in `INTEGRATION_STATE_RUN_*.md`.
 
 ## Current reviewed boundary
 
-Run 271 preserves the full census of **49 tracked miner identities = 28 active refs + 21 historical/missing refs**, with **0 newly discovered**.
+Run 272 preserves the full census of **49 tracked miner identities = 28 active refs + 21 historical/missing refs**, with **0 newly discovered**, **0 backlog**, and **0 overdue**.
 
-Run 270 had already closed the project-wide task-standard propagation, Wall, Whiskey, Mugen person-first, and both Club-Only recovery priorities. During Run 271 a new post-close All Characters HR tail arrived:
+The sole advanced active miner was `archive-miner/all-characters-hr-20260828`. Review began from consumed `4fa3f8e3b7bd0a862c7a0ddb34f5f47445029f21`. The branch advanced while the pass was in flight, so Run 272 continued checkpoint-first and intake-only through current reviewed head:
 
-- `archive-miner/all-characters-hr-20260828` → `067c32df7b6827abdd0f0de133596272f36e2259`
-
-Run 271 reviewed that delta checkpoint-first and intake-only. The changed handoffs were Rooks and Tofu comprehensive HR files.
+- `archive-miner/all-characters-hr-20260828` → `30e55e24b79f87d9af982296bf2ceca6ddcee43a`
 
 Both Club-Only recovery priorities remain reviewed through their current heads:
 
@@ -25,36 +23,47 @@ Wall remains reviewed through `6838cbbbcc64824c5cdbb302bfdf5ad26b3077bc` and sta
 
 ### No new reader object this run
 
-Rooks's fresh comprehensive HR movement is authoritative-layer catch-up to a scene already public on MAIN: her Louvre WIP / `critique me` maker-process contradiction. WIKI does not create a duplicate Episode or Running Gag for it.
+Run 95's only material person change is Rooks's Louvre maker-process rail: she announces a self-described painting-in-progress and asks the room `critique me`.
 
-Tofu's fresh comprehensive HR movement marks the quarry **EXHAUSTED AT CURRENT ARCHIVE BOUNDARY** after a bounded recheck that produced no materially new person-level mechanism. WIKI does not expose quarry exhaustion as character lore.
+That materially deepens the comprehensive HR because Rooks's famous scrutiny is reciprocal: she can put unfinished work on the table and invite people to inspect her back. MAIN already owns this exact person-first contradiction, so WIKI does not manufacture a duplicate Episode or Running Gag for the same scene.
 
-The latest actual WIKI reader addition remains Run 270's **Spicy Hotpot: What Did I Do?** Running Gag at reader head `91139edc22a8a85ce735d9098aa6b71aad841277`, with chronology corrected to May/September 2021 before verification.
+Run 95 also moves **Tofu, Aeshleen, Eos, HamitteY, Nuien, Akuma/Matsu, and Crystalia** to `EXHAUSTED AT CURRENT ARCHIVE BOUNDARY` after repeated-pass rechecks produced no materially new person mechanism. WIKI does not expose quarry exhaustion as character lore.
+
+The latest actual WIKI reader addition therefore remains Run 270's **Spicy Hotpot: What Did I Do?** Running Gag at reader head `91139edc22a8a85ce735d9098aa6b71aad841277`.
 
 ## MAIN / WIKI split
 
-MAIN still holds Spicy's rich person page until a supported People category exists; the evidence is accepted but the shelf is unresolved. WIKI can own the Running Gag without inventing a roster category.
+Rooks's `critique me` scene remains strongest on MAIN because it changes how the person reads rather than becoming a communal Episode.
+
+Run-95 exhaustion decisions stay backstage. Their mature person layers are already public on stronger owners, so the WIKI gets no ceremonial duplicate furniture.
+
+Spicy's rich person page remains MAIN-owned until a supported People category exists; WIKI owns the searchable Running Gag without inventing a roster category.
 
 Mugen's responsive-catcher / inverse-framer music texture remains banked for future natural MAIN resynthesis rather than duplicated into WIKI.
 
-Rooks's maker-process gain remains MAIN person-first material. Tofu's new status is backstage miner state only.
+## Current character-quarry totals
+
+Authoritative All Characters HR after Run 95:
+
+- canonical non-Mugen characters: **100**
+- comprehensive HR files: **100 / 100**
+- `IN PROGRESS`: **83**
+- `EXHAUSTED AT CURRENT ARCHIVE BOUNDARY`: **17**
+- `BLOCKED — MISSING SOURCE`: **0**
+- `ALL CHARACTER QUARRIES EXHAUSTED`: **NO**
 
 ## Hard rails / dedupe
 
 - Rooks remains distinct from Cookie/Kuki.
-- Rooks's `critique me` establishes one self-described painting-in-progress, not authorship of unrelated Louvre media.
-- Tofu's chosen public handle remains Tofu; a more personal intake name stays backstage.
-- Export-time role arrays do not create appointment chronology or override corrected Staff placement.
-- `Josh` remains Wall-local first-name support for Spicy, not a preferred-display-name replacement.
-- No joke romance, formal office, media authorship, or uninspected-media subject was manufactured.
+- Rooks's `my painting so far` supports maker credit for that self-described WIP only, not unrelated Louvre assets.
+- Crystalia uses he/him.
+- Nuien remains distinct from Illien.
+- Joke family, affection, mock aggression, and flirt language are not literalized into biology, legal status, sex, or formal office.
+- Uninspected pixels remain sealed.
 - POSTED BY / SAID BY / MADE BY / CAPTURED BY / FEATURING remain distinct.
 
 ## Verification / deployment
 
-Run 270 reader verification remains valid for the unchanged reader surface:
+Reader content is unchanged this run. Existing Build and GitHub Pages workflows are still required for the Run-272 state commits. Exact results are checked after the final state heads are written.
 
-- WIKI reader head `91139edc22a8a85ce735d9098aa6b71aad841277`: Build **33704629947** success; Pages **33704629958** success through deployment.
-
-Run 271's state-only commits are verified separately by the existing WIKI Build and Pages workflows; exact results are recorded in `INTEGRATION_STATE_RUN_271.md` / the Run-271 verification addendum.
-
-Detailed Run-271 reconciliation: `INTEGRATION_STATE_RUN_271.md`. MAIN durable report: `archive-intake/INTEGRATION_REPORT_RUN_271.md`.
+Detailed Run-272 reconciliation: `INTEGRATION_STATE_RUN_272.md`. MAIN durable report: `archive-intake/INTEGRATION_REPORT_RUN_272.md`.
