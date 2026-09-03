@@ -25,8 +25,9 @@ export const zyrcantNarrativeCharacterBios: Record<string, CharacterNarrative> =
       {
         title: "Competent enough to place, shameless enough to volunteer",
         paragraphs: [
-          "By July 2021, Zyrcant is in the top three of an UL Kahoot pop quiz. Later Voice Challenge material has her choosing music and asking Han for editing help. Then October gives the much less administrative self-description: `im the one person who tackles ppl`, with Gabu immediately nominated as the current case.",
-          "The Wall supplies the opposite half. Zyrcant can ask to be put on it, accept `earn your place` with `fair lmaooo`, respond to being `caught in 4k` by running, and then return two days later carrying her own exhibit. Competence and shameless participation are not mutually exclusive settings."
+          "On July 15, 2021, Ansun's Kahoot announcement names Shinn, Nelphie and Zyrcant as the event's top three. The order does not survive as an exact ranking; Zyrcant's reaction does. She hits the result with both `:yay:` and `:8070_ZeroYay:`. Less than three weeks later she posts an attachment-only item in `📬│photo-submissions` and lets the room react around it. Together with the Wall material, the better pattern is not `likes Kahoot` or `takes photos`; it is active opt-in. Zyrcant keeps choosing house formats built for public response and often needs very few words to do it.",
+          "Later Voice Challenge material has her choosing music and asking Han for editing help. Then October gives the much less administrative self-description: `im the one person who tackles ppl`, with Gabu immediately nominated as the current case.",
+          "The Wall supplies the opposite half. Zyrcant can ask to be put on it, accept `earn your place` with `fair lmaooo`, respond to being `caught in 4k` by running, and then return two days later carrying her own exhibit. Competence and shameless participation are not mutually exclusive settings. Quiet does not mean passive here; sometimes participation is two yays, one attachment, and absolutely no explanatory essay."
         ]
       },
       {
@@ -40,6 +41,7 @@ export const zyrcantNarrativeCharacterBios: Record<string, CharacterNarrative> =
         title: "Petty Crimes",
         paragraphs: [
           "On May 22, 2021: `the only apps now on my mac is spotify chrome and discord 😛`. At that moment the machine had apparently been reduced to music, browser, Discord, and confidence.",
+          "A top-three Kahoot result gets two different yay reactions. Apparently one yay was insufficient paperwork.",
           "On July 1: `word of the day is ass`. On October 14 she suddenly remembers she has the entire Bee Movie saved as a GIF. One deranged saved file does not make Bee Movie her favorite film; it does mean an emergency Bee Movie GIF existed in this woman's possession.",
           "`im the one person who tackles ppl` remains one of the better fake job descriptions in the file. Gabu was simply unfortunate enough to be named next.",
           "`Quiet at first but a crackhead once I’m comfortable` is now the shortest available user manual."
@@ -47,7 +49,7 @@ export const zyrcantNarrativeCharacterBios: Record<string, CharacterNarrative> =
       }
     ],
     closing: [
-      "Zyrcant's story is not former deputy becomes UL somebody-important. She was already somebody. The better story is what the room eventually gets access to: competitive enough to place, shameless enough to self-file, quiet enough to be misread, protective enough to correct the misread, and comfortable enough that the crackhead setting apparently becomes available."
+      "Zyrcant's story is not former deputy becomes UL somebody-important. She was already somebody. The better story is what the room eventually gets access to: competitive enough to place, shameless enough to self-file, quiet enough to be misread, protective enough to correct the misread, and comfortable enough that the crackhead setting apparently becomes available. The newer public-format receipts sharpen one thing further: she does not need to dominate a room to keep opting into it."
     ]
   }
 };
