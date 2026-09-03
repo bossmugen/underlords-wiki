@@ -1,8 +1,12 @@
 import type { CharacterNarrative } from "./character-biographies-narrative";
 import { tofuNarrativeCharacterBios } from "./character-biographies-tofu";
 import { zhenxiNarrativeCharacterBios } from "./character-biographies-zhenxi";
+import { rooksNarrativeCharacterBios } from "./character-biographies-rooks";
+import { syeNarrativeCharacterBios } from "./character-biographies-sye";
 
 const tofuBase = tofuNarrativeCharacterBios.tofu;
+const rooksBase = rooksNarrativeCharacterBios.rooks;
+const syeBase = syeNarrativeCharacterBios.sye;
 
 export const run165NarrativeCharacterBios: Record<string, CharacterNarrative> = {
   ...zhenxiNarrativeCharacterBios,
@@ -85,5 +89,49 @@ export const run165NarrativeCharacterBios: Record<string, CharacterNarrative> = 
         ]
       }
     ]
+  }
+};
+
+// Run 331 overlays. This late-loaded module is already part of the narrative resolver,
+// so these deepen the canonical person pages without forking a second Rooks or Sye dossier.
+export const run331NarrativeCharacterBios: Record<string, CharacterNarrative> = {
+  rooks: {
+    ...rooksBase,
+    sections: rooksBase.sections.flatMap((section) => {
+      if (section.period === "2020" && section.title.startsWith("Display names mutate")) {
+        return [
+          section,
+          {
+            period: "September–October 2020",
+            title: "CREATIVE WORK — SHE SHOWS THE DRAFT, THEN STARTS THINKING ABOUT COPIES",
+            paragraphs: [
+              "Rooks treats the Louvre like a workshop before anybody needs to turn that into an Artist title. She tells people she will post what the group is making, later announces `I'm gonna share my painting so far`, and follows the unfinished work with the unusually clean invitation `critique me`. The phrasing matters: she is not waiting until the object is polished enough to protect her from feedback. She is putting process in public and explicitly giving the room permission to push on it.",
+              "On September 1, a delayed printmaking session produces the same instinct in a more practical direction. Rooks says they did not get to do printmaking that day and will try the next week; twenty-four seconds later she is already talking about ordering her own printmaking supplies `so I can sell copies of my work`. The sale is a plan, not a completed business history. The person-level change is simpler and stronger: when the workshop cannot give her the production step yet, she starts thinking about how to build the capacity herself. Draft → critique → reproducible copies is a small creator arc with actual follow-through machinery under it."
+            ]
+          }
+        ];
+      }
+      return [section];
+    })
+  },
+
+  sye: {
+    ...syeBase,
+    sections: syeBase.sections.flatMap((section) => {
+      if (section.period === "2021") {
+        return [
+          section,
+          {
+            period: "2021",
+            title: "RELATIONSHIPS — SHE MAKES WARMTH DO SOMETHING",
+            paragraphs: [
+              "Sye's affectionate register is not merely decoration around the practical person. In January she can say she is short on sleep and already at work, then pivot in the same message into `Good Morning Loves !` and wish the room a day full of excitement. The contrast matters because the warmth is not evidence that she feels wonderful. She names the tiredness and still chooses to put some energy outward. Later she turns arrival into an actual social instruction with `come meet your neighbors`: not a formal onboarding appointment, just Sye refusing to let server membership stop at technically being in the building.",
+              "The loudness also has brakes. In March, after somebody clarifies a joke, Sye answers `Thanks for clearing that! I just wanna make sure she was actually joking`. That is the useful contradiction beside the giant greetings, kiss/hug stacks and `Foodgasmic Adventures`: she can be high-amplitude without being careless about intent. When the meaning of somebody else's line matters, she checks before hardening the read. Her room-making is active, but it is not indiscriminate; she wants the social temperature warm and the referent right."
+            ]
+          }
+        ];
+      }
+      return [section];
+    })
   }
 };
