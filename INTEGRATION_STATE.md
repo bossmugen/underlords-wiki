@@ -1,24 +1,27 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-03 00:43 PDT_
+_Last updated: 2026-09-03 00:45 PDT_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. This file is the WIKI-side rolling summary; detailed run reconciliation lives in `INTEGRATION_STATE_RUN_*.md`.
 
 ## Current reviewed boundary
 
-The controlling census tracks **49 miner identities = 28 active refs + 21 historical/missing refs**, with **0 newly discovered**, **0 pending review**, **0 pending publication**, **0 backlog**, and **0 overdue**. Run 293 reviewed and MAIN has now consumed the two advanced branches visible at census: All Characters HR and Wall recovery.
+The controlling census tracks **49 miner identities = 28 active refs + 21 historical/missing refs**, with **0 newly discovered**. Run 293 reviewed All Characters HR and Wall recovery, then the mandatory late re-census caught the already-known Mugen person-first branch advancing one commit. MAIN refreshed `last_seen_sha` before that delta was opened, and the late handoff has now also been reviewed.
+
+Closing intended queue after the final MAIN consumption write is **0 pending review**, **0 pending publication**, **0 backlog**, and **0 overdue**.
 
 Both Club-Only recovery priorities remain current:
 
 - `archive-miner/club-only-2021-2026-hourly` → `e45fb11c9239e236231bb65645dfd0285bc0078b`
 - `archive-miner-clubonly-2020-hourly` → `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`
 
-Run-293 consumed boundaries:
+Run-293 reviewed boundaries:
 
 - `archive-miner/all-characters-hr-20260828` → `91e5f368607bb6d30282273586259b432a6bf110`
 - `archive-miner-wall-hourly-20260824` → `50596bc0a8fc1275e1e23b641c11b9c40ff35f6e`
+- `archive-miner/mugen-person-first-20260828` → `766c57c3eae1f93b744539b7dacb7f3aab85f006`
 
-Wall remains `recovery_in_progress` only because more source can arrive later; the present suffix is fully reviewed and consumed.
+Wall remains `recovery_in_progress` only because more source can arrive later; the present suffix is fully reviewed.
 
 ## Latest reconciliation
 
@@ -50,11 +53,19 @@ Rich's Woosung tease→protest→pat beat is already public on MAIN. Woosung, Zy
 
 Hard identity canon controls: **WOO / `_woo_woo` = Woosung; Woohyuk remains separate.** Older quarantine language is superseded.
 
+### Late Mugen tail — successful no-promotion review
+
+After the first close, `archive-miner/mugen-person-first-20260828` advanced exactly one commit from `ed128febac83996234dca955f4d1e61acfddf244` to `766c57c3eae1f93b744539b7dacb7f3aab85f006`. Its only changed intake handoff is `2026-09-03_0023-no-promotion.md`; the branch checkpoint was read first.
+
+The handoff clears no new Mugen novelty bar. Fresh Wall, HR and Daycare movement changes Miihi, Rich/Woosung, Eos and other people, while reverse-mining the mature Mugen relationship orbit returns already-owned Mugen mechanisms or gains whose canonical owner is the other person. Negative/edge searches around refusal, intimidation, care/rest and similar expensive rabbits still yield no usable new scene.
+
+No reader mutation is warranted. The Mugen quarry remains active because native-source and edge-case gaps remain; this reviewed no-promotion pass should be consumed so it is not reread forever.
+
 ## Reader decision
 
-**MAIN:** no new reader mutation from Run 293. Miihi's current biography already owns the Wall receipt-room mechanism; Usama has no safe MAIN roster shelf and no formal category was invented just to create one; the HR tail is already represented or workflow-only.
+**MAIN:** no new reader mutation from Run 293. Miihi's current biography already owns the Wall receipt-room mechanism; Usama has no safe MAIN roster shelf and no formal category was invented just to create one; the HR tail is already represented or workflow-only; Mugen's late delta is explicitly no-promotion.
 
-**WIKI:** no reader mutation from Run 293. Usama is already indexed through the correct structured Cast owner. Miihi's Wall material stays intentionally MAIN-owned rather than being duplicated into a WIKI Episode merely because the structural parent join improved.
+**WIKI:** no reader mutation from Run 293. Usama is already indexed through the correct structured Cast owner. Miihi's Wall material stays intentionally MAIN-owned rather than being duplicated into a WIKI Episode merely because the structural parent join improved. The late Mugen tail adds no structured owner.
 
 ## Hard rails / held rabbits
 
@@ -65,15 +76,17 @@ Hard identity canon controls: **WOO / `_woo_woo` = Woosung; Woohyuk remains sepa
 - Ren's `He so innocent` is not an Usama character claim.
 - Seth's newly closed exact reply parent remains semantically undercontextualized and does not justify profile promotion.
 - WOO = Woosung; Woohyuk is distinct.
+- Mugen's no-promotion pass does not mark her quarry exhausted.
 - `EXHAUSTED AT CURRENT ARCHIVE BOUNDARY` is a mining-state label, not a statement that a person is fully known.
 
 ## Consumed SHAs
 
-MAIN controlling ledger now records:
+The final MAIN controlling ledger is being advanced to:
 
 - `archive-miner/all-characters-hr-20260828` → `91e5f368607bb6d30282273586259b432a6bf110`
 - `archive-miner-wall-hourly-20260824` → `50596bc0a8fc1275e1e23b641c11b9c40ff35f6e`
+- `archive-miner/mugen-person-first-20260828` → `766c57c3eae1f93b744539b7dacb7f3aab85f006`
 
 Detailed reconciliation: `INTEGRATION_STATE_RUN_293_WALL_HR_CLOSE.md`.
 
-WIKI head `cf03874968edc7404a93fa3d77af20da3232507b` passed Build run `33729164501` and Pages run `33729164458`; this ledger-sync commit is verified again through the same repository-native workflows before the run is reported green.
+Earlier WIKI state head `cf03874968edc7404a93fa3d77af20da3232507b` passed Build `33729164501` and Pages `33729164458`. This newer final state head must independently pass Build and Pages before Run 293 is reported green.
