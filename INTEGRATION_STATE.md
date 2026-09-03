@@ -1,103 +1,87 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-03 Run 328 closing reconciliation_
+_Last updated: 2026-09-03 Run 329 closing reconciliation_
 
-MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`.
+MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Per-run detail for this cycle is preserved in `INTEGRATION_STATE_RUN_329.md`; older run-state files remain authoritative for their historical cycles.
 
 ## Current census / queue
 
-The full census is **49 miner identities = 28 active refs + 21 historical/missing refs**, with **0 newly discovered, 0 pending review, 1 pending publication, 0 backlog, and 0 overdue**. Both Club-Only recovery priorities remain current through head.
+Full census: **49 tracked miner identities = 28 active refs + 21 historical/missing refs**.
 
-Current important boundaries:
-- All Characters HR → `c3286ce44de49c8bfc9c779da4f09ee353c5d5c3`
+- newly discovered: 0
+- pending review: 0
+- pending-publication branches: 2
+- backlog: 0
+- overdue: 0
+- Wall recovery quarry: open for future source
+
+Both Club-Only recovery priorities are current through head.
+
+Important boundaries after Run 329:
+
+- All Characters HR → `c3286ce44de49c8bfc9c779da4f09ee353c5d5c3` — 100/100 canonical non-Mugen quarries exhausted at current archive boundary
 - Core Rooms / Events → `f57d28405733efd274b0fe7a2e3d7a55576f7a3a`
 - Daycare → `9c2ec0892a6fc6447e577b25a7d5c97b0dc742a3`
-- Louvre / AI Art / Athenaeum / Other Games seen head → `bd9f1603ce53324125c4950d284458e6646f6e42`
+- Louvre / AI Art / Athenaeum / Other Games seen/reviewed → `517ea697ce8923bf1f609a12fc15cc3b7995a7a5`
 - Louvre last consumed → `cb7994b08c9a89051df732f27a99c1dd79a5ae93`
-- Mugen person-first → `6c5451edecd0156b954b59e9452b2a99eb2f6e58`
-- Wall → `ea893e9ffb682e2cc0007e10c9f6dcc1df36b20d`
+- Mugen person-first → `246c15de8d049d4f5b6904bfd43ef55bd452aebb` consumed
+- Wall seen/reviewed → `6f2252e0ef47ada07c7684410f650d68ccd28afd`
+- Wall last consumed → `ea893e9ffb682e2cc0007e10c9f6dcc1df36b20d`
 - Whiskey → `44ba4b7f6903ed76cb2dc8acb666e9f7f7a44d69`
 - Club-Only 2021–2026 → `e45fb11c9239e236231bb65645dfd0285bc0078b`
 - Club-Only 2020 → `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`
 
-Wall remains `recovery_in_progress` even though its current seen head is consumed because future Wall source can still arrive.
+`EXHAUSTED AT CURRENT ARCHIVE BOUNDARY` remains reversible mining state, not a claim that a person is complete forever.
 
-Comprehensive non-Mugen HR remains **100 / 100 exhausted at the current archive boundary, 0 in progress, 0 blocked, 0 queued**. Exhaustion is reversible mining state, not a claim that any person is complete forever.
+## Run 329 — Mugen
 
-## Run 328 — full census + closing Daycare / Wall / Louvre tails
+The latest Mugen handoff joins her 2022 `Acts of Service + Quality Time` self-report to her self-description as a `distant drifter friend` who is also a perspective/gameplan person, dork/hype person and trip/event planner. The useful read is **values presence / accepts intermittence**.
 
-Run 328 opened with all 28 active miner refs unchanged from Run 327 and no unconsumed intake delta. The mandatory census was persisted on MAIN at `337721a7d550915a6766935d618281224ebf40e7` before any deeper work.
+Both public surfaces already substantially own this. WIKI `character-biographies-mugen.ts` already places the drifter self-description beside the care-language answer and practical/social behavior. No Episode or extra receipt paragraph was added. MAIN likewise already has the same person-first contradiction.
 
-Closing full-branch checks then caught three active-branch advances:
+Disposition: duplicate/corroboration; consumed through `246c15de8d049d4f5b6904bfd43ef55bd452aebb` with a stronger DNR against collecting generic drift/return/planning receipts without recipient cost, mismatch or change.
 
-- Daycare `987cf27b6b955b4eef7ca9b13acc693fb2f236ce` → `9c2ec0892a6fc6447e577b25a7d5c97b0dc742a3`
-- Wall `f59e2c6abe236d8a0662f895ca2df20df08ed250` → `ea893e9ffb682e2cc0007e10c9f6dcc1df36b20d`
-- Louvre `b7260f500c4ece9a7b95bfaf1b8b4e0512a5f1b8` → `bd9f1603ce53324125c4950d284458e6646f6e42`
+## Run 329 — ShiyaX
 
-All three were reviewed checkpoint-first and intake-only.
+The Wall suffix supplies a genuinely new missing half of ShiyaX's public shape. He is not only a recurring defendant. He is also fluent as a prosecutor: `Busted :kek:`, `got caught in 4k`, and a Shiya-posted receipt that immediately sends Vanness into alternate-culprit defense.
 
-### Daycare — Ghostt
+That rotates neatly into the already-owned defendant machinery. When Shiya asks why so many Wall posts are about him, HamitteY true-replies `cuz u do dis`. Hami later says Shiya missed the chaos; Shiya answers `I AM THE CHAOS`; Hami says everybody was lucky he was absent. When the evidence turns toward Shiya, counsel reaches for `im not even online wtf`, `:aworryWeirdExit:`, crying GIFs and `someone else was on my account`.
 
-The Daycare tail deepens Ghostt as **game-lapsed but socially persistent**: by December 2021 Ghostt says they have been away long enough to forget which club they are in and later says they left it and uninstalled not long afterward, while the same stable account continues in Daycare through August 2022 and is still fluent in Wall teasing with Tae in July 2022.
+The structured WIKI contradiction is now **receipt-literate prosecutor / catastrophically unserious self-defense attorney**. HamitteY↔Shiya gets explicit reputation/accountability shorthand; Vanness↔Shiya gets a receipt-defense exchange; Nelph/Ren keep their existing defendant-side relationships.
 
-This is already substantially public on both surfaces. MAIN `ghostt.md` already owns the direct game/Discord split, December club-memory lapse, later Wall continuity, ordinary-life texture and contradiction; WIKI `character-biographies-ghostt.ts` already owns the same longitudinal mechanism. The new miner tail therefore strengthens provenance and DNR rather than creating another biography paragraph or Episode. RH16's exact 2023 broken-bot target remains unresolved; Mob/BAPE's two direct Daycare messages remain unrecovered and were not backfilled from later rooms.
+Reader owner: `src/data/character-biographies-shiyax.ts`.
 
-### Wall — Zhēnxī
+Reader commits:
+- `c18dfe69b032ab1d1ea1e6f3cc7168ec98322262`
+- `f5cf9afd73331c0774859e5ed5c39ddeb9499fbb`
 
-The Wall tail deepens Zhēnxī as a **theatrical defendant who later becomes a willing evidence filer**. In May 2021 the fresh Wall summon produces `NOOOOOOOOOOO` and `NOT THE WALL OF SHAME FAME`; in June 2022 the `NOOOOOO` reflex recurs inside an affectionate Rummy exchange; in July 2022 Zhēnxī personally posts a receipt, summons Ren with `so uh-`, calls the resulting prosecution `Deserving`, and feeds the pile-on.
+Exact reader head `f5cf9afd73331c0774859e5ed5c39ddeb9499fbb` passed Build `33797650667` and Pages/deployment `33797650715`.
 
-Again, both public surfaces already own this exact character mechanism. MAIN `zhenxi.md` already has the defendant→filer arc, Ren role reversal, Rummy close-friend affection, and Petty Crimes. WIKI `character-biographies-zhenxi.ts` already indexes the same material as relationship/episode-pattern/running-gag structure. No reader mutation was justified.
+No standalone Episode was created; the value is cumulative character shape.
 
-The Wall tail also closes three q18 exact reply joins backstage and refines the rapid-arrival record discussion: Sou says `shamed within 6 minutes of entry`, while the recovered MEE6-welcome→Ren-Wall-summon export delta is 6m53.343s. Aesh's existing 2m45.648s comparison remains faster on the same recovered metric, so Zhēnxī is a participant-discussed record attempt, not the reconstructed record holder. No raw pixels were inspected; POSTED BY remains distinct from CAPTURED BY / MADE BY / FEATURING.
+Hard rails remain: uninspected screenshots stay visually unresolved; POSTED BY does not become MADE BY / CAPTURED BY / FEATURING; `who was on my account` is fake-alibi theater, not security history; `fatha` / `bbg` remain joke/social language rather than literal family or romance.
 
-Daycare and Wall were consumed on MAIN at ledger commit `0000fccfc5ba869df30dbff9b7f0814e5b3c5ca7` as successful duplicate/corroboration reviews with durable no-public-change reasons.
+MAIN `shiyax.md` already owns the defendant/alibi/chaos half but not the prosecutor-side contradiction at the same depth. A person-first MAIN deepener is accepted and held behind MAIN's broken verification gate. Wall therefore remains seen/reviewed through `6f2252e0...` but consumed only through `ea893e9f...`; recovery also remains open for future source.
 
-### Louvre — LilsatanSir finally has a person attached to the two-message ghost
+## Run 329 — Louvre / LilsatanSir / Yumi
 
-The newest Louvre tail is genuinely new person material rather than another rediscovery. LilsatanSir (`696522814521475092`, `lilsatansir2986`) still has only two assigned Louvre messages in the current ledger, both on 2020-04-30, and the direct bodies remain unrecovered through the current retrieval surface. A narrow stable-account support check nevertheless produces a coherent B+/A- person read without pretending those support messages are the missing Louvre rows.
+The Louvre suffix through `517ea697...` is derivative handoff consolidation of the LilsatanSir evidence family already accepted in Run 328, not a new independent lore family.
 
-On 2020-04-14 Lilsatan says they are downloading comics, answers `Marvel`, admits `Nah` when D.I. asks about a new Thor title, names `cosmic ghost rider` as what they are actually reading, says `No` to *Doomsday Clock*, and then gives the wonderfully specific preference `Not a dc fan 😂` immediately followed by exceptions for Batman and the original *Teen Titans* cartoon. When the conversation turns to the Avengers game, the specificity spikes: `Gonna main the fuck out of iron man and Thor`, concern that games cannot balance Hulk properly, `The green world breaker gets no respect in video games;-;`, and interest in Professor Hulk because of Maestro.
+LilsatanSir remains a strong banked B+/A- person candidate: probable Marvel-leaning comics/superhero taste, blunt honesty about unread titles instead of completionist bluffing, specific Hulk/Thor/game-adaptation opinions, a shared comics conversation lane with D.I., and probable impish social styling. The two assigned Louvre bodies remain unrecovered and no safe existing public owner is established. Privacy/location texture remains excluded.
 
-The useful character read is **mischievous wrapper + non-bluffing fandom honesty + very specific enthusiasm once activated**. Lilsatan does not perform completionism for D.I.; `Nah` and `No` are apparently perfectly acceptable answers until the topic hits something they actually care about. D.I. repeatedly pitches titles/premises and Lilsatan keeps the nerd lane moving, supporting shared superhero/comics conversational ground with D.I. as recommender/explainer in that scene, not mentorship or a closeness rank.
+The same branch still carries the older Yumi MAIN relationship-afterlife publication debt. WIKI already owns the verified structured Yumi relationship read.
 
-Two other stable-account lines use `😈` around unresolved secret language — `I’ll get the secret out of you one day 😈` to Mugen and `that’s what my secret room is for 😈` to Gilli. Repetition makes playful/impish social styling probable, especially beside the LilsatanSir handle, but the actual secret/room referents stay unresolved. No governance, literal hidden room, romance/sex, coercion or private-fact reconstruction comes out of those lines.
+Louvre stays pending publication/ownership rather than being consumed merely because the rolling checkpoint caught up.
 
-This finding is **accepted and banked, not evidence-rejected**. Repo search did not surface an existing LilsatanSir public dossier/owner, and the two assigned Louvre bodies are still unavailable. Rather than invent archive membership/role status just to get the comics material onto a Cast page, Run 328 leaves the person candidate backstage until a safe public shelf or direct assigned-body recovery exists. A separate support attachment described as a live view from the user's house was deliberately excluded as unnecessary location/privacy texture.
+## MAIN operational hold
 
-MAIN's controlling ledger now records Louvre seen through `bd9f1603ce53324125c4950d284458e6646f6e42` while preserving consumed boundary `cb7994b08c9a89051df732f27a99c1dd79a5ae93`, because the same branch still carries accepted publication debt.
+MAIN's mandatory Run-329 census commit `a7421e02bdaceb5e767952ad2cd3f7832ee5fad9` triggered exact workflow `33797060600`. `Build + verify` failed before any steps instantiated (`steps=null`); deployment was skipped. A targeted retry through the connected GitHub action was blocked by the connector safety gate.
 
-## Run 328 — MAIN verification health probe
+This is not a demonstrated source-verifier, Astro, content or built-output failure, because those steps never start. It is nevertheless a real verification block: MAIN cannot be called green or newly deployed, and accepted MAIN reader changes are not committed through that gate.
 
-The unresolved publication item remains the already-reviewed Louvre/Yumi MAIN relationship-afterlife synthesis. Before attempting another reader mutation, Run 328 re-ran exact failed workflow `33794225733` as an infrastructure-health probe. Attempt 2 again failed with `Build + verify` exposing `steps=null`; Cloudflare deployment was skipped.
+## Current publication debts
 
-Run-328 state commits continued to trigger the same pre-step failure. `33795703620` failed with no instantiated `Build + verify` steps, and the later exact-head state workflow `33796303877` did the same: `Build + verify` failed with `steps=null` and Cloudflare deployment was skipped. Because source verification, Astro and built-output verification still never get a chance to execute, this remains an Actions/provider gate rather than a demonstrated content/build failure.
+1. **Wall / ShiyaX MAIN** — accepted person-first prosecutor↔defendant contradiction; WIKI structured version is live and verified, MAIN version held for verification.
+2. **Louvre / Yumi + LilsatanSir** — Yumi relationship-afterlife already verified on WIKI but MAIN person-first publication is held by the same verification failure; LilsatanSir remains banked pending safe ownership/direct assigned-body recovery.
 
-Run 328 therefore did **not** reapply the Yumi reader section only to revert it again, and it did not force the newly accepted LilsatanSir candidate into a reader surface that could not be safely owned/verified. Louvre remains `pending_publication`; WIKI already owns the verified structured Yumi relationship-afterlife read.
-
-## Run 327 — full census + MAIN Yumi publication retry
-
-Run 327 re-enumerated the complete miner surface and found the same **28 active refs** on the same heads recorded by Run 326. There was **no new unconsumed intake delta** to review this cycle, so no miner handoff was reopened and no duplicate/corroboration tail was reread merely to create activity.
-
-The one live queue item remained the already-reviewed Louvre/Yumi MAIN publication debt. The accepted relationship read is unchanged: after Yumi's assigned creative-room trail gets thin, Mugen can still answer 2023 QOTD `WHO IS UR WIFE` with `Mine would be @Yummibears` without reintroducing her. `wife` remains UL house language; the human point is low-ceremony remembered salience, not literal marriage, romance, sex, exclusivity, or proof of continuous intervening activity.
-
-MAIN was reread at current `master` and the person-first Yumi synthesis was retried at reader commit `2d49872920f16245ab715cfec8f0cef4d36f71cb`. Exact workflow **33794225733** completed with failure before any `Build + verify` step instantiated. The jobs endpoint exposes `steps=null` for the failed `Build + verify` job, and the Cloudflare deploy job was skipped. This is again a pre-step Actions/provider boundary, not a demonstrated source-verifier, Astro, content, or built-output failure.
-
-Because the accepted MAIN reader change did not clear verification, it was reverted completely at `429eb8bb4561655cbedd315437f686fbc3107c26`. MAIN therefore has **0 net reader-facing changes** from Run 327. Louvre remains `pending_publication`.
-
-## Existing pending publication — Louvre / Yumi
-
-The pending-publication branch still contains the already-reviewed Louvre/Yumi relationship-afterlife synthesis. On May 24, 2023, QOTD asks `WHO IS UR WIFE` and Mugen answers `Mine would be @Yummibears`. `wife` stays UL house language; the useful part is how little setup Yumi needs years after the assigned Louvre trail thins. Her familiar name remains immediately available in Mugen's ordinary social vocabulary.
-
-WIKI already owns that finding in verified structured form. MAIN still does not keep the accepted person-first Yumi section because its verification gate remains broken before workflow steps instantiate. The newer LilsatanSir person candidate now shares the same advanced Louvre branch but does not change the Yumi publication logic.
-
-Do not re-review the older Louvre/Yumi material merely because publication is blocked, and do not advance the Louvre consumed SHA until the branch's accepted publication debt can clear the normal verification/ownership gates.
-
-## Reader changes
-
-**MAIN:** 0 reader-facing changes in Run 328. Ghostt and Zhēnxī were already substantially public; LilsatanSir was accepted/banked rather than forced into a roster claim; Yumi remains held behind the broken MAIN verification gate.
-
-**WIKI:** 0 reader-facing changes in Run 328. Ghostt and Zhēnxī already have structured public owners, Yumi's relationship-afterlife was already verified here, and LilsatanSir does not yet have a safely established structured owner. This update advances durable reconciliation state only.
-
-## Rails / holds
-
-All user-confirmed canon, resolved identity corrections, attribution distinctions, privacy/safety boundaries, and non-origin rules remain controlling. `wife`, `sistah`, `dear`, `love you`, `secret room`, and similar house/social language do not become literal marriage, family, romance, sex, governance or hidden-room history without support. No appointment chronology comes from export-time role arrays. Uninspected media stays uninspected. The Louvre/Yumi hold is operational; the LilsatanSir hold is ownership/direct-source shaped, not a rejection of the person read.
+Do not re-review these already-reviewed suffixes merely because publication is blocked. New miner commits should be reviewed only from the recorded seen/reviewed heads forward.
