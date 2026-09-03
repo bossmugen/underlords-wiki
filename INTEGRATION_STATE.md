@@ -1,17 +1,17 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-02 20:55 PDT_
+_Last updated: 2026-09-02 21:15 PDT_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. This file is the WIKI-side rolling summary; run detail lives in `INTEGRATION_STATE_RUN_*.md`.
 
 ## Current reviewed boundary
 
-Closing reconciliation holds **49 tracked miner identities = 28 active refs + 21 historical/missing refs**, with **0 newly discovered**, **0 pending review**, **0 pending publication**, **0 backlog**, and **0 overdue** at the reviewed boundary.
+Closing Run-280 reconciliation holds **49 tracked miner identities = 28 active refs + 21 historical/missing refs**, with **0 newly discovered**, **0 pending review**, **0 pending publication**, **0 backlog**, and **0 overdue** at the reviewed boundary.
 
 Reviewed checkpoint-first / intake-only through:
 
-- `archive-miner-wall-hourly-20260824` → `2736beb965cbb025a1a0075eb34d3f788ff481f7`
-- `archive-miner/all-characters-hr-20260828` → `7271d354de17d7ad304e8592dc70faf7eae3b578`
+- `archive-miner-wall-hourly-20260824` → `a886049700643c624f19d4ec80cdeb523d73b460`
+- `archive-miner/all-characters-hr-20260828` → `a529d593fdb2bd8491fe3e81ba902fc2951f8a3b`
 - `archive-miner/whiskey-longitudinal-hourly` → `b41d5d29a5bd39f459fc656a40457f4ceb5ef406`
 - `archive-miner/core-rooms-events-a91f-20260824` → `fa8948850f1ab351b2b48e89ace53af373b10e92`
 - `archive-miner/mugen-person-first-20260828` → `22783437046e8089be3d8ad1661b815ee9af672f`
@@ -21,47 +21,43 @@ Both Club-Only recovery priorities remain current through:
 - `archive-miner/club-only-2021-2026-hourly` → `e45fb11c9239e236231bb65645dfd0285bc0078b`
 - `archive-miner-clubonly-2020-hourly` → `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`
 
-Wall stays a recovery quarry only because more Wall material may arrive; its current reviewed suffix is consumed.
+Wall stays `recovery_in_progress` only because more Wall material may arrive; the present tail is consumed.
 
-## Latest reader reconciliation
+## Latest reconciliation
 
-### Rose / DarkAsrai
+### Ren / Baby Lyssa — accepted, not duplicated
 
-Hard user canon controls `DarkAsrai` as Rose, so the fresh Wall handoff deepened Rose rather than creating a second person.
+The fresh Wall suffix strengthens a mechanism WIKI already carries. Ren's launch-day `hall of fame` / `wall of shame` dual frame later becomes lived relationship behavior in Baby Lyssa's March 2021 filing: Baby performs theatrical horror while Ren labels the scene `*wall of fame*`, and the same contiguous pocket later gives Ren's own blunt summary, `not punishment` / `it's love`.
 
-WIKI now carries three complementary pieces of Rose's Wall behavior in her existing structured dossier: she can turn a Rummy combat exchange into a playful rusty-self-test challenge; she can treat evidence-filing itself like a race (`Beat me to it`); and when Xuseio's `children` misread opens an absurd premise, Rose escalates it with `Noo they taste like chicken XD` instead of correcting the room back to sanity.
+WIKI's existing `Wall of Shame / Fame` Running Gag already owns the Baby protest scene and the same belonging/affection interpretation, so this is source-family strengthening rather than a second gag or Episode clone.
 
-Reader commit: `2eb51dfdb347dd3779808268933b3a9aa933c26f`.
+### Danny — good person read, no safe shelf yet
 
-### MAIN stays person-first
+Danny's tiny Wall footprint now has a clean mechanism: Ren mock-prosecutes screenshots Danny posted; Danny responds by proposing a better-labeled screenshot against himself. Days later an incidental `Sprite` mention activates specific old Sprite-ad object lore. Source/object-minded, practical about receipts, self-preservation apparently optional when the bit is better.
 
-MAIN owns the richer Rose synthesis in `src/content/people/rose.md`: competitive filer, playful challenger, and premise escalator are folded into who Rose is rather than split into chronology cards.
+WIKI currently has no safe Danny Cast status/shelf to assign without inventing membership or role. The person read remains banked backstage instead of being misclassified for symmetry.
 
-## No-change review that still consumed
+### All Characters HR Run 97
 
-### Mugen person-first / Key precedent
+Jas and ShiyaX materially deepen only at the authoritative miner layer because their reader-facing mechanisms were already public. New/Newmal, NemeMoka, Pride, SaraBunny, Yaza, and Dyingfox newly become exhausted at the current archive boundary, changing miner workflow state rather than dossier prose.
 
-Closing anti-starvation review caught `archive-miner/mugen-person-first-20260828` advancing during the run. The new handoff centers Key's February 24, 2022 Wall self-audit: Key says Mugs' screenshot work leaves him unsure whether to be `ashamed or impressed`; Mugen true-replies `Litrally started it ^`; Gilli adds `OG wall of shamer here uwu`.
+Comprehensive-HR boundary: **100/100 canonical non-Mugen people have dedicated HR files; 30 exhausted, 70 in progress; overall character quarry not exhausted.**
 
-The recipient-side interpretation is useful — Mugen's preservation can be affectionate and incriminating at once — but the underlying scene is already public on both surfaces. MAIN already carries it in Mugen's biography, and WIKI's Key dossier already owns the exact structured Key/Mugen/Gilli sequence plus the formal-office anti-fanon fence. No duplicate WIKI Episode or second MAIN paragraph was added.
+## Reader decision
 
-## Hard rails / dedupe
+**WIKI reader data changed: 0.** Existing structured Wall/Fame material already represents the Ren/Baby mechanism; Danny lacks a safe public shelf; HR reader-worthy mechanisms are duplicates by meaning against current public surfaces.
 
-- DarkAsrai is Rose; no split character.
-- Shk remains no-promotion control.
-- Rose's April 5 exact upstream object and `anna` remain unresolved.
-- Uninspected Wall media is not described and does not acquire MADE BY / CAPTURED BY / FEATURING by proximity.
-- Rose/Rummy combat banter remains game/social language, not real violence, rivalry, or trainer canon.
-- `Litrally started it ^` and `OG wall of shamer here uwu` are social reputation, not a formal Wall founder/owner/moderator title for Key.
-- Key's `ashamed or impressed` is Key's own reaction, not a universal account of Mugen's preservation.
-- Native Key snowflakes, millisecond timestamps, edit/reaction state, and a screenshot-grade strip remain upgrade rabbits.
+**MAIN reader pages changed: 0.** Its current Ren biography already synthesizes Fame/Shame as prosecution plus affection/inclusion, so `not punishment` / `it's love` strengthens the source family without spawning a receipt-shaped paragraph.
+
+## Hard rails / held rabbits
+
+- Danny is POSTED BY for the October 12 screenshots; MADE BY / CAPTURED BY / FEATURING remain unresolved.
+- Ren's `IM GONNA MURDER YOU` to Danny is theatrical joke language, not literal harm.
+- Danny's Sprite-ad recall does not prove a Sprite preference.
+- q13 closes the surviving text/title-history lane, not formal channel-title origin, naming authority, or sole authorship.
+- Baby Lyssa's protest and family-language remain social/joke language; no literal-family inference.
+- Six new HR exhaustion decisions are current-source-boundary workflow state, not claims that those people have no additional lore anywhere.
 
 ## Verification / deployment
 
-WIKI Rose reader head `2eb51dfdb347dd3779808268933b3a9aa933c26f` passed Build Underlords Wiki `33712019511` and Deploy Underlords Wiki Preview / Pages `33712019390`, including actual GitHub Pages deployment.
-
-MAIN Rose reader head `d1c928a2a5a7a31ae01f8b9e8e429883ae1fb7df` passed UL Hourly Build + Deploy `33711964605`, including source/canon/architecture verification, Astro build, built-output verification, and exact Cloudflare production deployment.
-
-Controlling MAIN consumption state now advances Wall through `2736beb965cbb025a1a0075eb34d3f788ff481f7` and Mugen person-first through `22783437046e8089be3d8ad1661b815ee9af672f`.
-
-Detailed reconciliation: `INTEGRATION_STATE_RUN_279_ROSE_MUGEN.md`. MAIN durable report: `archive-intake/INTEGRATION_REPORT_RUN_279_ROSE_MUGEN.md`.
+Run-280 exact-head verification is pending for the latest state commits. Detailed reconciliation: `INTEGRATION_STATE_RUN_280_WALL_HR.md`. MAIN durable report: `archive-intake/INTEGRATION_REPORT_RUN_280_WALL_HR.md`.
