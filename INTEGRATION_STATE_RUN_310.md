@@ -2,35 +2,53 @@
 
 ## Census / current boundary
 
-Full census: **49 tracked miner identities = 28 active refs + 21 historical/missing refs**. No new active miner branch and no advanced/unconsumed active branch was present in this pass. Closing finite queue is **0 pending review / 0 pending publication / 0 backlog / 0 overdue**.
+Full census: **49 tracked miner identities = 28 active refs + 21 historical/missing refs**. No new miner identity.
+
+The pass initially opened clean because Run 309 had already consumed All Characters HR through `534b770a4e00065b2c31f555d8674ce9fc42c515`. A later branch recheck caught `archive-miner-wall-hourly-20260824` moving from consumed `e0ebf6025c1f5a50474008632b2b10cd467540ba` to `aa47f67fab33e30460dd836d6375fb8f4c25650c`. MAIN's controlling ledger registered that seen SHA before review, then the one-commit suffix was read checkpoint-first and intake-only.
 
 Both Club-Only recovery priorities remain current through head:
 
 - `archive-miner/club-only-2021-2026-hourly` → `e45fb11c9239e236231bb65645dfd0285bc0078b`
 - `archive-miner-clubonly-2020-hourly` → `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`
 
-Wall remains `recovery_in_progress` only for future growth and is consumed through current head `e0ebf6025c1f5a50474008632b2b10cd467540ba`.
+Wall is now reviewed and consumed through `aa47f67fab33e30460dd836d6375fb8f4c25650c`. It remains `recovery_in_progress` only because future Wall source can arrive. Finite queue after review: **0 pending review / 0 pending publication / 0 backlog / 0 overdue**.
 
-The overlapping Run-309 close had already consumed All Characters HR through `534b770a4e00065b2c31f555d8674ce9fc42c515` before this pass opened. Run 310 therefore does not reread that suffix or manufacture a second reconciliation from already-consumed receipts.
+## Reconciled Wall tail
 
-## WIKI routing
+### Crystalia
 
-**Reader-facing WIKI mutation: none.** No new searchable Cast relationship, role progression, Episode, Running Gag, Quote, Location, or media-note family arrived after the previous close.
+The late Wall tail adds a repeated relationship/person mechanism rather than a new standalone event: Crystalia's own surviving Wall voice is tiny, but Mugen posts media and then summons/casts him on consecutive February 2021 nights. On February 20 she calls `@Crystalia^-^` less than a minute after her image post; the next night she upgrades the same no-explanation rhythm to `Tune in weekly for The Adventures of Phok the Pool Boy featuring UL's very own mermaid @Crystalia^-^` after another image post.
 
-The latest HR person material remains correctly routed as no-reader-change reconciliation: Ricochet, BishopThaGuru, and Dainyamite's miner-side files caught up to person mechanisms already represented more strongly on MAIN; Candy, Clotho Fate, Damon, Grim Raven, and Jade changed quarry state only. Repeating those receipts in WIKI would not improve reference structure.
+MAIN's existing Crystalia biography already owns the stronger game→community/ocean arc, so this recurrence was folded there as lived contradiction: **microscopic authored Wall presence / conspicuous peer-authored cameo presence**. Quiet does not equal socially invisible; Mugen can apparently draft him straight into the room's mythology without setup.
 
-No material is WIKI-only or MAIN-only this pass because there is no newly publishable material.
+### Athena
+
+Two exact Wall reply joins around Athena's manhwa complaint are now closed: Mugen's `XD rip` answers Athena, and Athena's `:6157_pat:` answers Mugen's redirect. This remains bounded low-friction interaction texture. Athena's stronger manhwa-taste story is already owned publicly, so no new WIKI relationship object or Episode was created.
+
+## MAIN vs WIKI routing
+
+**MAIN reader-facing mutation:** Crystalia biography only. Reader commit `0b4ff5f283b718b427a6b1e9c479a85e7a277ed6` folds the consecutive-night Mugen→Crystalia summon/cast rhythm into the existing mermaid/ocean section rather than appending receipt-shaped incident prose.
+
+**WIKI reader-facing mutation: none.** WIKI already has the structured episode `The Only Reason He Was Still Playing Raja`, which owns the broader Crystalia game→community/ocean/mermaid hinge. The newly recovered repeat-casting rhythm improves biography/relationship texture on MAIN but does not justify a second Episode, Running Gag, or mirrored Cast paragraph here. This pass is intentionally MAIN-only at the reader layer.
 
 ## Rails / duplicates
 
-Existing hard rails remain controlling. Ricochet stays distinct from Rich / DragonRich; Candy's later `— Luna` display stays distinct from HyaLuna; Jade's `Joy` display remains the same stable account without invented human meaning; joke romance/family/governance language stays nonliteral absent stronger support; formal appointment chronology is not inferred from export-time roles; earliest surviving is not guaranteed origin; and SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct.
+- `mermaid`, `ocean king`, and Pool Boy remain house-joke/reputation language, not literal identities, titles, occupations, or gender evidence.
+- The fake `weekly` show copy does not prove a recurring series.
+- The fake-show title does not prove Crystalia is literally `Phok the Pool Boy`.
+- The adjacent images were not visually inspected. They remain POSTED BY Mugen only; no MADE BY / CAPTURED BY / visual FEATURING claim is inferred from timing.
+- Repeated Mugen summoning supports recognizability and bounded interaction texture, not friendship rank, exclusivity, or Crystalia's enjoyment/consent.
+- Athena's exact reply joins close structure only; they do not create a relationship rank.
+- Existing hard identity, role-chronology, privacy, earliest-surviving, and attribution rails remain binding.
 
-The stale legacy fallback phrase `Rich / Ricochet / DragonRich` remains cleanup debt, not an active canon owner and not a reason to mutate a large unrelated fallback file during a clean no-reader-change pass.
+## Consumption
 
-## MAIN state
-
-MAIN's controlling `archive-intake/INTEGRATOR_BRANCH_STATE.json` was refreshed for Run 310 with the same 49-identity census and zero-pending boundary. MAIN reader pages changed 0; its Run-310 reconciliation report records the no-op close.
+MAIN advanced Wall `last_consumed_sha` to `aa47f67fab33e30460dd836d6375fb8f4c25650c` only after the accepted Crystalia reader mutation passed the complete MAIN verification/deployment workflow. The Athena no-reader-change reason is durably recorded with the same consumed suffix so it is not reread next run.
 
 ## Verification
 
-No WIKI reader page changed. This docs/state-only close still must pass the repository's existing Build and Pages workflows on its exact final `main` head. MAIN's exact final Run-310 head must independently pass source/canon verification, Astro build, built-output verification, and Cloudflare deployment.
+MAIN Crystalia reader commit `0b4ff5f283b718b427a6b1e9c479a85e7a277ed6` passed exact workflow **33761104953**: source canon/architecture verification, Astro build, built-output verification, Cloudflare production deployment, and exact production-commit verification all succeeded.
+
+Run 310's final MAIN state/report head is checked again through the same repository workflow after the closing commits.
+
+WIKI reader pages changed 0. This final Run-310 state close must independently pass WIKI's existing Build and Pages workflows on the exact final `main` head.
