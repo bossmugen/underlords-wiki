@@ -1,15 +1,16 @@
-# UNDERLORDS WIKI — Run 293 Wall + HR Close
+# UNDERLORDS WIKI — Run 293 Wall + HR + Late Mugen Close
 
 ## Census
 
-Run 293 tracks **49 miner identities = 28 active refs + 21 historical/missing refs**, with **0 newly discovered**. Opening review queue contained two advanced branches: All Characters HR and Wall recovery. Both Club-Only recovery priorities remained current through their existing heads.
+Run 293 tracks **49 miner identities = 28 active refs + 21 historical/missing refs**, with **0 newly discovered**. Opening review queue contained All Characters HR and Wall recovery. A mandatory late ref recheck then caught the already-known Mugen person-first branch advancing one commit after those reviews; the controlling MAIN census was refreshed before that late delta was opened.
 
 Reviewed current boundaries:
 
 - `archive-miner/all-characters-hr-20260828` → `91e5f368607bb6d30282273586259b432a6bf110`
 - `archive-miner-wall-hourly-20260824` → `50596bc0a8fc1275e1e23b641c11b9c40ff35f6e`
+- `archive-miner/mugen-person-first-20260828` → `766c57c3eae1f93b744539b7dacb7f3aab85f006`
 
-Wall remains `recovery_in_progress` only because future source can arrive; the reviewed suffix itself is complete.
+Both Club-Only recovery priorities remain current. Wall remains `recovery_in_progress` only because future source can arrive; the reviewed suffix itself is complete.
 
 ## Wall reconciliation
 
@@ -47,11 +48,19 @@ Hard identity canon remains controlling: **WOO / `_woo_woo` = Woosung; Woohyuk i
 
 No WIKI reader mutation is warranted from this HR suffix.
 
+## Late Mugen person-first tail
+
+After the first close, `archive-miner/mugen-person-first-20260828` advanced exactly one commit from `ed128febac83996234dca955f4d1e61acfddf244` to `766c57c3eae1f93b744539b7dacb7f3aab85f006`. Its only changed intake path is `2026-09-03_0023-no-promotion.md`; the branch checkpoint was read first.
+
+The handoff is a clean **NO PROMOTION** pass. Fresh Wall, All-Characters HR and Daycare movement changes Miihi, Rich/Woosung, Eos and other people, not Mugen. Reverse-mining across Dean, Key, Gilli, Ren, Daya, Anthos, Snow, GenGrey, Newmal and Rummy returns already-owned Mugen mechanisms or material whose canonical owner is the other person. Expensive negative searches around refusal, intimidation, care/rest and similar edge cases still yield no usable new scene.
+
+No MAIN or WIKI reader mutation is warranted. The Mugen quarry remains active because unresolved edge/native-source gaps still exist; this no-promotion pass is consumed so it is not reread forever.
+
 ## Surface routing
 
-**MAIN reader mutation in this run: none.** Miihi's person-first Wall profile already owns the strengthened receipt-room mechanism; Usama has no safe MAIN roster shelf and no new category was invented. Rich and the other HR reads were already public.
+**MAIN reader mutation in this run: none.** Miihi's person-first Wall profile already owns the strengthened receipt-room mechanism; Usama has no safe MAIN roster shelf and no new category was invented. Rich and the other HR reads were already public. The late Mugen tail clears no novelty bar.
 
-**WIKI reader mutation in this run: none.** Usama already has the structured context-tracker dossier. Miihi's Wall material remains intentionally MAIN-owned rather than duplicated into a one-off WIKI Episode; WIKI already carries Miihi's complementary Cast dossier.
+**WIKI reader mutation in this run: none.** Usama already has the structured context-tracker dossier. Miihi's Wall material remains intentionally MAIN-owned rather than duplicated into a one-off WIKI Episode; WIKI already carries Miihi's complementary Cast dossier. The late Mugen tail adds no structured owner.
 
 ## Held rabbits / rails
 
@@ -62,13 +71,15 @@ No WIKI reader mutation is warranted from this HR suffix.
 - Seth's newly closed reply parent remains semantically undercontextualized; no profile promotion.
 - No uninspected attachment gains MADE BY / CAPTURED BY / FEATURING status.
 - WOO = Woosung; Woohyuk remains separate.
+- Mugen's no-promotion pass does not mark her quarry exhausted.
 - `EXHAUSTED AT CURRENT ARCHIVE BOUNDARY` is a mining-state conclusion, not a claim that a human being is fully known.
 
 ## Consumption decision
 
-After successful checkpoint-first review, Run 293 accepts both deltas as reviewed and safe to consume despite no reader mutation:
+After successful checkpoint-first review, Run 293 accepts all three deltas as reviewed and safe to consume despite no new reader mutation:
 
 - All Characters HR → `91e5f368607bb6d30282273586259b432a6bf110`
 - Wall recovery → `50596bc0a8fc1275e1e23b641c11b9c40ff35f6e`
+- Mugen person-first → `766c57c3eae1f93b744539b7dacb7f3aab85f006`
 
-Exact final WIKI build / Pages status is verified separately on the final publishing head before the run is reported green.
+Exact final WIKI Build / Pages status is verified separately on the final publishing head before the run is reported green.
