@@ -63,6 +63,13 @@ After successful review:
 
 ## Verification
 
-No WIKI reader file changed in this pass. The repository still runs its existing Build and Pages workflows on the Run-302 state lineage; MAIN separately runs source/canon verification, Astro build, built-output verification, and exact Cloudflare production deployment.
+No WIKI reader file changed in this pass.
 
-Exact closing heads and workflow results are reported after those checks complete.
+Rolling-state commit `74fc5bb95e87afd40ab5254751366466803217de` passed:
+
+- **Build Underlords Wiki 33748497065** — success.
+- **Pages / Deploy Underlords Wiki Preview 33748497070** — success, including GitHub Pages deployment.
+
+MAIN consumption/state commit `bb3f57c02723bf9632945e5c5431ffab20a27b2c` separately passed exact workflow **33748439961**: source/canon verification, Astro build, built-output verification, and exact Cloudflare production deployment all succeeded.
+
+This verification-close edit changes state documentation only. The final WIKI state lineage reruns Build and Pages and is checked before completion.
