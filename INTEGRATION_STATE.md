@@ -1,21 +1,25 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-02 21:47 PDT_
+_Last updated: 2026-09-02 22:07 PDT_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. This file is the WIKI-side rolling summary; run detail lives in `INTEGRATION_STATE_RUN_*.md`.
 
 ## Current reviewed boundary
 
-Run 281 closes **49 tracked miner identities = 28 active refs + 21 historical/missing refs**, with **0 newly discovered**, **0 pending review**, **0 pending publication**, **0 backlog**, and **0 overdue** at the reviewed boundary.
+Run 282 closes **49 tracked miner identities = 28 active refs + 21 historical/missing refs**, with **0 newly discovered**, **0 pending review**, **0 pending publication**, **0 backlog**, and **0 overdue** at the reviewed boundary.
 
-Reviewed checkpoint-first / intake-only through:
+Newly reviewed checkpoint-first / intake-only this run:
+
+- `archive-miner/all-characters-hr-20260828` → `94623cecb848bbea4a7a747755f35f9a8b7e0a51`
+- `archive-miner/louvre-ai-art-athenaeum-other-games-hourly` → `028d30496205de45a93fa788d675d236361709e1`
+- `archive-miner/mugen-person-first-20260828` → `522e68f99e2b121b7dfe524a2b2ebdf89012a0c9`
+
+Still current:
 
 - `archive-miner-wall-hourly-20260824` → `c2aa7c648379a4ebeef38893baf9a2c339f6a30c`
 - `archive-miner/core-rooms-events-a91f-20260824` → `a7e5c4abc266235564dfef31ddaaf0d1c82a67d5`
 - `archive-miner/daycare-2020-2026-hourly` → `20c6c626bec2a13beff4653ba9153562e5b42b74`
-- `archive-miner/all-characters-hr-20260828` → `a529d593fdb2bd8491fe3e81ba902fc2951f8a3b`
 - `archive-miner/whiskey-longitudinal-hourly` → `b41d5d29a5bd39f459fc656a40457f4ceb5ef406`
-- `archive-miner/mugen-person-first-20260828` → `22783437046e8089be3d8ad1661b815ee9af672f`
 
 Both Club-Only recovery priorities remain current through:
 
@@ -26,53 +30,51 @@ Wall stays `recovery_in_progress` only because more Wall material may arrive; th
 
 ## Latest reconciliation
 
-### Moon / Ryo — the escape plan becomes plural
+### Hishiro — useful before, during, and after the costume
 
-The Daycare support-room tail materially deepens an already-canonical friendship. Moon turns what she calls Ryo's first Wall appearance into a fake graduation, answers his horror with `We go through wall of shame together`, then later tells him to change his name, wear a wig, and run away. Thirteen seconds later she adds `Wait let me join youu`.
+The Louvre/Athenaeum branch supplied the one material person deepener this run. Hishiro's established Fate-summon joke with Gilli now sits beside the plain-clothes version of the same behavior: she checks whether Dragon Raja is still down and brings the result back; later she warns the room that s13-BlackClover has several high-rating players, gets thanked by Anthos, discovers she cannot enter the activity herself, and answers with `well i wish you the best of luck fam`. Rooks answers `Thank you Hishi :LienLove:`.
 
-The relationship read is cumulative rather than episodic: Moon can make a friend's embarrassment louder while also making sure it is not solitary. The reassurance lives inside the escalation. WIKI folded the continuation into Moon's existing character biography rather than creating a second Wall Episode.
+The cumulative character read is stronger than any one event: **callable, practically useful, theatrical about being summoned, and low-ceremony enough to step back once the useful information has been handed over**. Her inability to join does not become the center of the scene. The room gets the warning first; Hishiro's problem stays hers.
 
-### Nelph — crisp receipt, no tutorial
+MAIN folded that into the existing person-first Hishiro biography. WIKI used distinct copy inside Hishiro's existing `CALL HER AND SHE ANSWERS. APPARENTLY THIS COUNTS AS SUMMONING.` section via `src/data/character-biographies-run282-hishiro.ts`, wired through `src/data/character-biographies-hishiro.ts`. No standalone Episode was created.
 
-Baby Lyssa returns to Nelph's exact earlier Wall screenshot parent to ask `how is your ss so crisp-`; Nelph later answers that exact question with an `idk` emote. MAIN folds the contrast into Nelph's biography: somebody who often supplies routes, settings paths, and next actions becomes remarkably undocumented when asked about the suspiciously clean Screenshot Court paperwork.
+### All Characters HR — qualification, not eight new biographies
 
-WIKI intentionally does not create a one-scene Running Gag or Episode. The image pixels remain uninspected; no device, capture/editing workflow, MADE BY, CAPTURED BY, FEATURING, or literal-4K claim was promoted.
+Run 98 moved Kaede, HyaLuna, Ritha, Suzimasu, Yumi, Illien/Euros, Feli, and Nemo/Namo to `EXHAUSTED AT CURRENT ARCHIVE BOUNDARY`. Comprehensive HR now stands at **38 exhausted / 62 open**. The miner explicitly says the strongest mature mechanisms are already reader-facing and no public biography mutation is warranted. Consumed as a successful no-public-change review.
 
-### Core Rooms — accepted, banked for the right owner
+### Mugen — novelty gate held
 
-Snow's threshold hospitality, Akamin↔Snow comfortable greeting/pretend-drink familiarity, Mugen's repeated tour/map routing, manual-to-reusable onboarding evolution, Ren's small Marsello check-in, and Ayun/Gilli reciprocal gesture-bot warmth were accepted as contextual character/house reads.
-
-No standalone WIKI object is forced this run. The onboarding sequence is better held for a broader Lobby/onboarding chronology than prematurely promoted into a single-scene Episode. **Akamin remains distinct from Mere.**
+The 21:21 person-first pass produced no genuinely new Mugen mechanism. Daya's burst → silence/nap → burst cadence is already public/owned; ShiyaX premise-uptake remains inside the already-saturated catcher lane. Consumed without another chronology paragraph.
 
 ## Reader decision
 
-**WIKI reader data changed: Moon only.** `src/data/character-biographies-moon-person-first.ts` deepens the Ryo relationship section and Petty Crimes using WIKI-native copy. Reader commit `f0473fc82afa8c5b632bd2d1475a4271f1c87953` passed Build `33715871508` and Pages `33715871510`, including deployment.
+**MAIN reader page changed: Hishiro.** `src/content/people/hishiro.md` now folds the maintenance check and cross-server warning/supportive step-back into the existing callable/useful contradiction instead of appending incident summaries. Reader commit `6fe1bd55b0d5436f70420e1d6f20f9b1e7933810` passed exact **UL Hourly Build + Deploy** workflow `33717197850`, including source canon/architecture verification, Astro build, built-output verification, and exact Cloudflare deployment.
 
-**MAIN reader pages changed: Moon and Nelph.** Moon gets the shared-escape/co-conspiracy continuation; Nelph gets the crisp-receipt/no-tutorial contradiction. The combined reader head `243b410db2da87b74ba9178f54324b1103ce85b6` passed the full source-verification / Astro / built-output / Cloudflare workflow `33716027116`.
+**WIKI reader data changed: Hishiro.** `src/data/character-biographies-run282-hishiro.ts` adds the September 3 warning → cannot-enter → `best of luck fam` continuation and `src/data/character-biographies-hishiro.ts` wires it into the public resolver. Reader head `eb3d6c67b9acf98a67ea285948940255a85b3108` passed Build `33717343640` and Pages/deployment `33717343608`.
 
 ## Duplicate / no-public-change decisions
 
-- Lilly's new Wall material duplicates her mature public mechanism by meaning.
-- AJ remains low-volume onboarding-only; no personality was manufactured.
-- Xuseio's quiet-date screenshots remain uninspected and POSTED BY only.
-- Zyrcant/Ghostt rabbit checks produced no material advance.
-- Miihi and Anayss controls produced no new cumulative character axis.
-- Nelph's crispness question is excellent person texture, not a recurring WIKI gag by itself.
+- All Characters HR Run 98 is source-saturation bookkeeping around already mature public people, not eight new reader paragraphs.
+- Mugen's Daya cadence and ShiyaX catcher material are already public/owned.
+- Hishiro's server-down checking had partial public representation; the genuinely useful novelty is the broader warning → blocked from joining → supportive step-back pattern.
+- One cross-server warning does not need its own WIKI Episode.
 
 ## Hard rails / held rabbits
 
-- Akamin ≠ Mere.
-- Affectionate `baby` language does not establish romance.
-- Pretend drinks / bar language do not create a bartender office.
-- Moon/Ryo witness-protection language is social fiction, not literal disguise/flight.
-- Earliest surviving tour/map evidence is not a guaranteed origin date.
-- Export-time role arrays remain non-chronological.
+- Hishiro remains **she/her and a woman** under hard user-confirmed canon. An accidental masculine pronoun in a miner handoff was not propagated.
+- Checking/warning usefulness does not create a formal lookout, help-desk, tactical, fact-checker, editor, or special Staff office.
+- Fate-servant / `milady` language remains social theater, not hierarchy.
+- The initiating task behind the August 19 summon sequence remains unresolved.
 - Uninspected media did not acquire MADE BY / CAPTURED BY / FEATURING through proximity.
+- The September 10 gacha-looking reaction sequence remains held until image/upstream context safely resolves it.
+- Earliest surviving evidence is not a guaranteed origin.
 
-## Verification / deployment
+## Verification / durable state
 
-Run-281 WIKI reader commit `f0473fc82afa8c5b632bd2d1475a4271f1c87953` passed Build `33715871508` and Pages `33715871510`.
+Run-282 MAIN reader commit `6fe1bd55b0d5436f70420e1d6f20f9b1e7933810` passed workflow `33717197850` through exact production deployment.
 
-Run-281 MAIN combined reader commit `243b410db2da87b74ba9178f54324b1103ce85b6` passed **UL Hourly Build + Deploy** `33716027116`, including source canon/architecture verification, Astro build, built-output verification, and exact Cloudflare production deployment.
+Run-282 WIKI reader head `eb3d6c67b9acf98a67ea285948940255a85b3108` passed Build `33717343640` and Pages `33717343608`, including deployment.
 
-Detailed reconciliation: `INTEGRATION_STATE_RUN_281_CORE_DAYCARE_WALL.md`. MAIN durable report: `archive-intake/INTEGRATION_REPORT_RUN_281_CORE_DAYCARE_WALL.md`.
+MAIN controlling consumption close: `558047f0e649a5ee61306095bef12b4a89cde434`.
+
+Detailed reconciliation: `INTEGRATION_STATE_RUN_282_HR_LOUVRE_MUGEN.md`. MAIN durable report: `archive-intake/INTEGRATION_REPORT_RUN_282_HR_LOUVRE_MUGEN.md`.
