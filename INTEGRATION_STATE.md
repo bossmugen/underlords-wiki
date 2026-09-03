@@ -1,62 +1,49 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-02 16:41 PDT_
+_Last updated: 2026-09-02 16:55 PDT_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. This file is the WIKI-side rolling summary; run detail lives in `INTEGRATION_STATE_RUN_*.md`.
 
 ## Current reviewed boundary
 
-Full census: **49 tracked miner identities = 28 active refs + 21 historical/missing refs**, with **0 newly discovered, 2 pending review, 0 pending publication, 0 backlog, and 0 overdue** after Run 260 consumption was merged into the newer Run 261 census.
+Full census: **49 tracked miner identities = 28 active refs + 21 historical/missing refs**, with **0 newly discovered** in this run. The reviewed heads in this pass are:
 
-Current key heads:
+- Wall recovery: `40fc784e5b0d7843e320ea790f5dfc98c2982745`
+- Whiskey Longitudinal: `8f933681560a65e30b5f35f0a45743df6930dc6b`
+- Mugen person-first: `73534766e925d135f808c1af74638c8431384273`
+- Club-Only 2020: current through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`
+- Club-Only 2021–2026: current through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`
 
-- All Characters HR: consumed through `de10161042b96af894d439e79c7a894b8041fb69`
-- Wall recovery: seen through `40fc784e5b0d7843e320ea790f5dfc98c2982745`, consumed through reviewed Run-260 boundary `16812ea08e05b46b902f975b4c5d867bb057e347`; newer tail remains unreviewed
-- Core Rooms: consumed through `0b0214129347fe6fa7abd07062cba0bb2578dc07`
-- Daycare: consumed through `14d74aa37acc9ab7e6650cad96b9d796fc183e03`
-- Whiskey Longitudinal: seen at `8f933681560a65e30b5f35f0a45743df6930dc6b`, consumed through `98db15160e36db3cffcc67e3d6e404330c03b0e7`; pending review
-- Louvre / AI Art / Athenaeum / Other Games: consumed through `5463a709fd5f321100af6249157ec827f828280b`
-- Mugen person-first: seen at `4c70d39f7ea64a7daa92ed82aef8ec0919f63575`, consumed through `4ce9f09564d0bc2633a8776b02ef2cefbe9b89dd`; pending review
-- Club-Only 2020: consumed through `99d00e8eebbf28647e8e24e32d8ce37fbe00f0ff`
-- Club-Only 2021–2026: consumed through `d10ab558f1b65f27e318a85a3b6b24221cc3e4aa`
-
-Both Club-Only recovery priorities remain current. Wall remains `recovery_in_progress`; only its newer post-`16812ea` tail is unreviewed.
+Both Club-Only recovery priorities remain current. Wall remains a recovery branch but its reviewed tail through `40fc784e...` is closed. The three reviewed miner heads were unchanged on the final movement checks performed before publication.
 
 ## Latest reader reconciliation
 
-### ShiyaX — chaos has an emergency exit button
+### Panda — apparently there is a Pan emote for that
 
-Daycare gives the older Nelph-targeted version of a pattern ShiyaX later carries into Screenshot Court. Nelph tags him beside an uninspected attachment with `didn’t know you were into that-`; ShiyaX answers `AAAAH its an edit looks so real though`; Nelph returns `Caught you in 4K 📷`; ShiyaX leaves the scene via `:aworryWeirdExit:`. Later that month DarkAsrai / Rose tags him into another teasing beat and he reuses the same exit reaction.
+The Whiskey H1 2021 handoff gives Panda / Marian a much more searchable social register than `likes panda emotes`. Across ordinary room traffic, the Pan-family reactions repeatedly stand in for coffee, lurking, hugs, flowers, tantrums, mock combat, defeat, groove, and celebration. The recurrence makes them function like cartoon body language: a second conversational layer that can carry mood before or instead of prose.
 
-WIKI files this as relationship / Running-Gag / Petty-Crimes texture rather than a fake incident page. It sharpens the existing contradiction between ShiyaX publicly declaring `I AM THE CHAOS` and theatrically fleeing when the joke gets too specifically Shiya-shaped. The unseen attachment remains unseen: no subject, maker, capturer, featured-person, sexual/romantic preference, or private-behavior inference is published.
+The same pocket gives the register direction. Panda asks Eos `good enough?` and gets a positive handwriting verdict. Tofu calls a knife emote a challenge; Panda answers `bet! :PandaFIGHTME:` and the two continue the mock fight in reaction graphics. Gilli pats Marian, later announces `I found @Marian Kage`, and Panda eventually reports `gilli stole us all`. WIKI files those verbs as ordinary familiarity / finding-and-claiming friend-group language, not literal ownership, recruitment, or a relationship ranking.
 
-Reader commit `76b4965410df66b534fc99109b7979605b8e9554` passed Build `33695185201` and Pages `33695185061` through deployment.
+This is now searchable as the Running Gag **Panda Has a Panda for That**. `Marian Kage` remains the user-confirmed Panda identity; generic panda imagery elsewhere does not auto-resolve to this person. The register is bounded to the observed 2021 material rather than promoted into a forever trait.
 
-### Shiki / Shk — the dangerous method comes with documentation
+Reader commit: `46a00576f443149e7bba7ae4c0c65d26bb0d45ff`.
 
-Core Rooms finally puts a second named learner under Shiki's lived Sensei behavior. He offers to teach Anayss / Ana `aggressive sd`, then immediately says she needs tankiness, calls his own play risky, credits that `She know the way of CC`, and explains how an Assassin should counter it. A day later Anayss directly addresses him as `my master ❤️`.
+### Dean / Mugen — joke-family with actual weight underneath
 
-The useful searchable contradiction is **aggressive method, cautious explanation**. Shiki is willing to teach the dangerous version while exposing the durability requirement, failure mode, counterplay, and learner's existing competence. `my master` is learner-supplied informal/playful teacher language rather than a new formal appointment, and the surviving cluster does not show the proposed lesson actually happening. No standalone Episode was manufactured because the value is person/relationship behavior.
+Mugen person-first adds one small but important reciprocal relationship beat: Dean says talking to **Key and Mugs** helps him express what he is feeling. That sits naturally beside the already-public fact that Dean can hype Mugs up while also telling her when her decisions are bad. The `Mum` / `son` joke-family language therefore has lived two-way texture under the bit: Dean can call Mugs out and also lean on her, alongside Key, when he is trying to put feelings into words.
 
-Reader commit `4604eae44bab9c254f2e974a66105c4a4acbc79a` passed Build `33695710572` and Pages `33695710724` through deployment.
+This was accepted as character/relationship material but not turned into a WIKI Episode. Key remains co-named; Mugs is not recast as therapist, sole confidante, or literal family.
 
 ## Reviewed without duplicate reader churn
 
-- Woosung / Nobu betrayal material was corroboration of an already-public cumulative mechanism.
-- Candy's `Wad00` / `Moo` / chorus material corroborated her already-public compact-language / contagious-micro-bit mechanism.
-- Gilli + Jas's work-light-mode / `254x77px ain't 4K tho 😐` chain is already public/searchable through Jas; Gilli's side is banked as reciprocal technical-roast and ordinary-life texture rather than duplicated.
-- Cit's nickname mutations, `All new nicknames are welcome`, and accidental French-accent `Syveon` are useful developing Petty-Crimes/person material, but no public shelf/title was invented from a thin body and the proposed VC performance is not claimed to have happened.
-- `delay` remained body-unavailable.
-- Alaina / AJ / Lena safe residue remained held because the useful source material was privacy-sensitive or insufficient for a new public person read.
+- Wall `40fc784e...`: Eos's theatrical shirt-defense and clown/jester/calamity reaction are corroboration of behavior already public on Eos; no duplicate page mutation.
+- Whiskey: the one-off Ricochet / Cheesecake Factory line remains an ordinary-life beat, not enough to infer payment, transport, co-location, or a recurring care pattern.
+- The generic 2021 H1 media lane remains sift-complete; no generic media rediscovery was promoted into person claims.
 
 ## MAIN / WIKI split
 
-MAIN folds ShiyaX and Shiki into rich person-first biographies. WIKI uses the same source families differently as searchable relationship, teaching, Running-Gag, and Petty-Crimes structure. No identical prose is mirrored.
+WIKI owns Panda's new material as a searchable Running Gag because the pattern is cumulative register behavior rather than a discrete historical incident. MAIN already has the richer Panda biography and this run did not append another receipt-led paragraph just because a new handoff exists; the material is banked for the next natural person-shaped fold rather than mirrored verbatim.
 
-Matching MAIN reader commits:
-- ShiyaX `58d4a51a0810d3e5386c1f8ae16b4e090a1a2cb4`, workflow `33695150497` success including source verification, Astro build, built-output verification, and exact Cloudflare production-commit verification.
-- Shiki `0ed2246d97c667630e66c72a67fac14c0704befa`, workflow `33695616639` success including source verification, Astro build, built-output verification, and exact Cloudflare production deployment.
+Dean's new Mugen/Key relationship beat is person-shaped MAIN material and is likewise not manufactured into a WIKI Episode. Wall's Eos material stays duplicate/corroboration only on both surfaces.
 
-MAIN's controlling consumption state was merged into the newer census at `90855ce413b88ed5dab2f2fcd5b9fc492f39164f` without regressing later seen heads.
-
-Detailed reconciliation: `INTEGRATION_STATE_RUN_260.md`. MAIN's matching durable report is `archive-intake/INTEGRATION_REPORT_RUN_260.md`.
+Detailed reconciliation for this pass is `INTEGRATION_STATE_RUN_264.md`; MAIN's matching durable report is `archive-intake/INTEGRATION_REPORT_RUN_264.md`.
