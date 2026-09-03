@@ -7,7 +7,7 @@ MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH
 ## Current census / reviewed tails
 The full census remains **49 miner identities = 28 active refs + 21 historical/missing refs**, with **0 newly discovered, 0 pending review, 0 pending publication, 0 backlog, and 0 overdue**. Both Club-Only recovery priorities remain current through head. Wall remains a recovery target because new source can still arrive.
 
-Run 317 found **no active miner ref advanced beyond its recorded consumed boundary**, so there was no unconsumed handoff packet to reread and no raw archive was re-mined.
+Run 317 found **no active miner ref advanced beyond its recorded consumed boundary**. A closing re-census confirmed the same 28 active miner refs and unchanged heads, so there was no unconsumed handoff packet to reread and no raw archive was re-mined.
 
 Current reviewed boundaries remain:
 - All Characters HR → `c3286ce44de49c8bfc9c779da4f09ee353c5d5c3`
@@ -24,9 +24,9 @@ Comprehensive non-Mugen HR remains **100 / 100 exhausted at the current archive 
 **0 WIKI reader-facing mutations this pass. 0 MAIN reader-facing mutations this pass.** No new miner delta entered reconciliation, so no Cast dossier, Relationship, Episode, Running Gag, Quote, Location, Gallery note, biography paragraph, or Petty Crimes item warranted publication.
 
 ## Verification
-MAIN's preceding Run-316 workflow `33774565364` was explicitly retried during Run 317 and reproduced the same provider/setup-level failure: `Build + verify` exposed no workflow steps and deployment remained skipped. This is not reported as a source-verifier or Astro failure.
+MAIN exact Run-317 state/report head `cb95d0399a747ca00c9c42ee0413952cfb9d3fcb` triggered workflow `33776263659`. Two attempts both failed at provider/setup level: `Build + verify` exposed no workflow steps and Cloudflare deployment was skipped. This is not reported as a source-verifier or Astro failure, and MAIN is not claimed newly verified/deployed by this pass.
 
-The Run-317 MAIN census/report commits trigger fresh normal MAIN workflows and must be evaluated independently. This WIKI state is committed independently and must pass the WIKI repository's normal Astro Build and GitHub Pages workflows.
+WIKI exact rolling-state head `6d67d5885a696b9205dc041a9cc1bf5271d5d6f1` passed Build workflow `33776337412` and Pages workflow `33776337444`; Pages completed preview build, artifact upload, actual GitHub Pages deployment, and reporting successfully.
 
 ## Rails / holds
 All existing user canon, resolved identity corrections, attribution distinctions, privacy/safety boundaries, and non-origin rules remain controlling. POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct. No appointment chronology comes from export-time role arrays, and earliest surviving remains non-origin.
