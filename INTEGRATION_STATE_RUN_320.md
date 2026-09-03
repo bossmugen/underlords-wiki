@@ -4,7 +4,7 @@ _Date: 2026-09-03_
 
 ## Census / queue
 
-The mandatory miner census found **49 tracked miner identities = 28 active refs + 21 historical/missing refs**, with **0 newly discovered, 0 pending review, 0 pending publication, 0 backlog, and 0 overdue**. Every active miner ref still points at the exact boundary recorded at the Run 319 close, so there is **no unconsumed `archive-intake/*` delta this pass**.
+The mandatory miner census found **49 tracked miner identities = 28 active refs + 21 historical/missing refs**, with **0 newly discovered, 0 pending review, 0 pending publication, 0 backlog, and 0 overdue**. Opening and closing censuses agree: every active miner ref still points at the exact boundary recorded at the Run 319 close, so there is **no unconsumed `archive-intake/*` delta this pass**.
 
 Both Club-Only recovery priorities remain current through head. Wall remains `recovery_in_progress` only because future Wall source can still arrive; the present Wall head is fully reviewed. Core Rooms / Events remains a preserved ref rewind and is not new work.
 
@@ -22,7 +22,7 @@ Current important boundaries remain:
 
 **WIKI reader-facing change: 0.**
 
-There was nothing new to reconcile, duplicate, hold as a fresh conflict, or route to one surface only. The previous Woohyuk, Mugen/Nhou, Ansun, Erys, pre-Boss Mugen, and other recent integrations remain owned where Run 319 and earlier passes placed them; this run did not manufacture another receipt paragraph merely to make an hourly pass look busy.
+There was nothing new to reconcile, duplicate, hold as a fresh conflict, or route to one surface only. The previous Woohyuk, Mugen/Nhou, Ansun, Erys, pre-Boss Mugen, and other recent integrations remain owned where earlier passes placed them; this run did not manufacture another receipt paragraph merely to make an hourly pass look busy.
 
 Comprehensive non-Mugen HR remains **100 / 100 exhausted at the current archive boundary**. That remains reversible mining state, not a claim that the people are complete forever.
 
@@ -30,7 +30,7 @@ Comprehensive non-Mugen HR remains **100 / 100 exhausted at the current archive 
 
 MAIN's census-state commit is `575f80a1a3d3282fc3866022d2141dbf6d6402f0`. Exact workflow `33782472715` failed before a single `Build + verify` step existed (`steps: []`, runner id `0`); the Cloudflare deploy job was skipped. This is therefore still an infrastructure/runner-level failure, not a source-verifier, Astro, or rendered-output failure. No MAIN reader content changed.
 
-WIKI receives only this durable reconciliation state. Its normal Build and Pages workflows must pass on the exact final state commit before this run is considered green on WIKI.
+WIKI state commit `610a7b26790087bcf938ba9449aad492b89bcf0f` passed exact Build workflow `33782714494` and exact Pages workflow `33782714509`; Pages completed successfully. This final report/state update contains no reader mutation and is followed by the repository's normal exact-head Build and Pages gates as well.
 
 ## Holds
 
