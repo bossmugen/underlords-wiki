@@ -3,10 +3,12 @@ import { tofuNarrativeCharacterBios } from "./character-biographies-tofu";
 import { zhenxiNarrativeCharacterBios } from "./character-biographies-zhenxi";
 import { rooksNarrativeCharacterBios } from "./character-biographies-rooks";
 import { syeNarrativeCharacterBios } from "./character-biographies-sye";
+import { mugenNarrativeCharacterBios } from "./character-biographies-mugen";
 
 const tofuBase = tofuNarrativeCharacterBios.tofu;
 const rooksBase = rooksNarrativeCharacterBios.rooks;
 const syeBase = syeNarrativeCharacterBios.sye;
+const mugenBase = mugenNarrativeCharacterBios.mugen;
 
 export const run165NarrativeCharacterBios: Record<string, CharacterNarrative> = {
   ...zhenxiNarrativeCharacterBios,
@@ -93,7 +95,7 @@ export const run165NarrativeCharacterBios: Record<string, CharacterNarrative> = 
 };
 
 // Run 331 overlays. This late-loaded module is already part of the narrative resolver,
-// so these deepen the canonical person pages without forking a second Rooks or Sye dossier.
+// so these deepen canonical person pages without forking second dossiers.
 export const run331NarrativeCharacterBios: Record<string, CharacterNarrative> = {
   rooks: {
     ...rooksBase,
@@ -133,5 +135,20 @@ export const run331NarrativeCharacterBios: Record<string, CharacterNarrative> = 
       }
       return [section];
     })
+  },
+
+  mugen: {
+    ...mugenBase,
+    sections: [
+      ...mugenBase.sections,
+      {
+        period: "April 20, 2025",
+        title: "HISTORY — THE ANNIVERSARY BECOMES SOMEBODY ELSE'S STORY",
+        paragraphs: [
+          "At the fifth anniversary, Mugen opens from the founder position and then points the camera away from herself: `It's been 5 years since we founded Underlords. What are some changes in your life during this time? How have you grown?` The shared history supplies the clock; the members supply the lives. Answers in the completed QOTD synthesis range across education, work, moves, home life, anxiety, driving, travel, savings, future plans and hobbies. None of those changes become things UL is allowed to claim credit for. The more revealing Mugen move is choosing an institutional milestone as an excuse for people to narrate what happened to them while the institution was aging too.",
+          "That makes her preservation habit less one-directional than screenshots and old-name archaeology can make it look. In 2023 she can select `generalized confusion` and `wholesome dumassery` as house heritage. In 2025 she can ask the humans to say what changed in their own words. Mugs still chooses the frame; she is not magically absent from the act of curation. But the frame has enough room for other people to author their own longitudinal story instead of being reduced to characters in hers."
+        ]
+      }
+    ]
   }
 };
