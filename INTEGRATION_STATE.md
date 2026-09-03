@@ -1,8 +1,8 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-03 Run 329 final late-tail reconciliation_
+_Last updated: 2026-09-03 Run 330 Core Rooms reconciliation_
 
-MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Per-run detail for this cycle is preserved in `INTEGRATION_STATE_RUN_329.md`; older run-state files remain authoritative for their historical cycles.
+MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Older per-run state files remain authoritative for their historical cycles.
 
 ## Current census / queue
 
@@ -17,10 +17,10 @@ Full census: **49 tracked miner identities = 28 active refs + 21 historical/miss
 
 Both Club-Only recovery priorities are current through head.
 
-Important boundaries after Run 329:
+Important boundaries after Run 330:
 
 - All Characters HR → `c3286ce44de49c8bfc9c779da4f09ee353c5d5c3` — 100/100 canonical non-Mugen quarries exhausted at current archive boundary
-- Core Rooms / Events → `5dfb15a8a090f84ab8e462d9a66e9d7713d006fa` consumed
+- Core Rooms / Events → `5b0ac8a132af7f946f4f449d97e1610ef1513485` consumed
 - Daycare → `9c2ec0892a6fc6447e577b25a7d5c97b0dc742a3`
 - Louvre / AI Art / Athenaeum / Other Games seen/reviewed → `517ea697ce8923bf1f609a12fc15cc3b7995a7a5`
 - Louvre last consumed → `cb7994b08c9a89051df732f27a99c1dd79a5ae93`
@@ -32,6 +32,18 @@ Important boundaries after Run 329:
 - Club-Only 2020 → `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`
 
 `EXHAUSTED AT CURRENT ARCHIVE BOUNDARY` remains reversible mining state, not a claim that a person is complete forever.
+
+## Run 330 — late Core Rooms delta
+
+Core Rooms advanced after the opening census from `5dfb15a8a090f84ab8e462d9a66e9d7713d006fa` to `5b0ac8a132af7f946f4f449d97e1610ef1513485`. The suffix was reviewed checkpoint-first and intake-only.
+
+The strongest genuinely new person mechanism is **Type-X returning through a door the software thinks is new while the people do not**. In October 2020 Type-X says `I'm home`; in March 2021, after Gilli asks for a reintroduction because Type-X has no role, Mugen cuts in with `It's Type X lol welcome home bb` and assigns the role. The clean read is continuity across technical access loss: a role can vanish without the person's social address becoming unfamiliar. This does not establish why access lapsed, inactivity, repeated leaving, flakiness, or an origin date. There is not yet enough ordinary-life or relational breadth for a person-first Type-X public owner, so the mechanism is banked rather than inflated into a thin biography.
+
+The same suffix re-surfaces two relationship families already substantially public. FuentesKaede/Ren is already explicit on MAIN and WIKI: the bot restarts intake while Ren recognizes Kaede first, asks `kaede linda eres tuuuu?`, and later says `bienvenida de regreso kaede linda`. WIKI's current Kaede biography already owns the person-level point that software sees an arrival while Ren sees continuity. The hazardous pooled 2021 `Deleted User` remains unbridged to the later stable Fuentes account.
+
+Xerenity/Xephy is likewise already directly represented on MAIN Xephy: a wrong-server landing is cushioned by enough familiarity for Xerenity to call Xephy `dummi`, blame Xephy for the mix-up, and hang around while the access boundary is clarified. One cluster is not enough to manufacture a standalone Xerenity biography or a closeness ranking. WIKI did not duplicate MAIN's scene merely because this miner re-handed it to the integrator.
+
+Disposition: Core Rooms consumed through `5b0ac8a132af7f946f4f449d97e1610ef1513485`. No WIKI reader file changed. Type-X remains a strong banked return/home candidate; Fuentes/Ren and Xerenity/Xephy are duplicate/corroboration.
 
 ## Run 329 — Mugen
 
@@ -85,11 +97,9 @@ Disposition: duplicate/corroboration; Core Rooms consumed through `5dfb15a8a090f
 
 ## MAIN operational hold
 
-MAIN's mandatory Run-329 census commit `a7421e02bdaceb5e767952ad2cd3f7832ee5fad9` triggered exact workflow `33797060600`. Attempt 1's `Build + verify` failed before any steps instantiated (`steps=[]`, runner id 0); deployment was skipped.
+MAIN's mandatory Run-330 state commits continue to trigger the same infrastructure failure: `Build + verify` is created with `steps=[]`, runner id `0`, and no runner name; the Cloudflare deployment job is then skipped. The latest pre-review state head `aae153b29d7b2add4ae47414abfb1f1a9ce74667` failed in exactly that pre-step way in workflow `33801194085`.
 
-A targeted rerun of the failed job **was successfully dispatched** through the connected GitHub action. Attempt 2 reproduced the same zero-step pre-runner failure, and deployment was skipped again.
-
-This is not a demonstrated source-verifier, Astro, content or built-output failure, because those steps never start. It is nevertheless a real verification block: MAIN cannot be called green or newly deployed, and accepted MAIN reader changes are not committed through that gate.
+This is not a demonstrated source-verifier, Astro, content or built-output failure, because those steps never start. It is nevertheless a real verification block: MAIN cannot be called green or newly deployed, and accepted MAIN reader changes remain held behind the gate rather than being committed unverified.
 
 ## Current publication debts
 
