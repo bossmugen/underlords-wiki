@@ -59,7 +59,7 @@ export const shiyaxNarrativeCharacterBios: Record<string, CharacterNarrative> = 
         ]
       },
       {
-        title: "RELATIONSHIPS — HAMITTEY / VANNES / NELPH / REN",
+        title: "RELATIONSHIPS — HAMITTEY / VANNESS / NELPH / REN",
         paragraphs: [
           "HamitteY gets the cleanest reputation shorthand. Shiya asks why so many Wall posts are about him; Hami answers `cuz u do dis`. When Hami later says Shiya missed the chaos, Shiya answers `I AM THE CHAOS`, and Hami immediately says the room was lucky he was not there. Hami is not assigning a role or diagnosing a personality. He is treating Shiya's capacity to generate material as something both of them already understand.",
           "Vanness gets the prosecutor-side shorthand. Shiya files a receipt and Vanness immediately true-replies with an alternate culprit. The actual image remains uninspected, so the wiki does not pretend to know what the exhibit showed. The relationship beat is narrower and better: Shiya can throw a case onto the table, and Vanness knows exactly how to answer the accusation without needing the game explained.",
