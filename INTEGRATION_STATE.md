@@ -54,6 +54,15 @@ At the reviewed boundary:
 
 ## Verification
 
-No WIKI reader file changed in Run 302. This state lineage runs the WIKI's existing Build and Pages workflows. MAIN is verified separately through source/canon verification, Astro build, built-output verification, and exact Cloudflare production deployment.
+No WIKI reader file changed in Run 302.
+
+Rolling-state commit `74fc5bb95e87afd40ab5254751366466803217de` passed:
+
+- **Build Underlords Wiki 33748497065** — success.
+- **Pages / Deploy Underlords Wiki Preview 33748497070** — success, including GitHub Pages deployment.
+
+MAIN consumption/state commit `bb3f57c02723bf9632945e5c5431ffab20a27b2c` passed exact workflow **33748439961**: source/canon verification, Astro build, built-output verification, and exact Cloudflare production deployment all succeeded.
+
+The final Run-302 state-only closure commits rerun normal checks and are verified before completion.
 
 Detailed reconciliation: `INTEGRATION_STATE_RUN_302.md`.
