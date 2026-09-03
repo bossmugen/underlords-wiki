@@ -7,10 +7,17 @@ type Gag = { id: string; name: string; logline: string };
 const episodeModules = import.meta.glob("./integrator-episodes*.ts", { eager: true }) as Record<string, LooseRecord>;
 const gagModules = import.meta.glob("./integrator-gags*.ts", { eager: true }) as Record<string, LooseRecord>;
 
+const integrationModulePriority = (path: string): number =>
+  /\/integrator-(?:episodes|gags)\.ts$/.test(path) ? 0 : 1;
+
 const arraysFrom = <T>(modules: Record<string, LooseRecord>, guard: (value: unknown) => value is T): T[] =>
-  Object.values(modules).flatMap((module) =>
-    Object.values(module).flatMap((value) => (Array.isArray(value) ? value.filter(guard) : [])),
-  );
+  Object.entries(modules)
+    .sort(([left], [right]) =>
+      integrationModulePriority(left) - integrationModulePriority(right) || left.localeCompare(right),
+    )
+    .flatMap(([, module]) =>
+      Object.values(module).flatMap((value) => (Array.isArray(value) ? value.filter(guard) : [])),
+    );
 
 const isEpisode = (value: unknown): value is Episode => {
   if (!value || typeof value !== "object") return false;
