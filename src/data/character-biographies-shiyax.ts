@@ -41,6 +41,15 @@ export const shiyaxNarrativeCharacterBios: Record<string, CharacterNarrative> = 
         ]
       },
       {
+        period: "Wall court",
+        title: "BOTH BENCHES, ZERO ETHICS COMMITTEE",
+        paragraphs: [
+          "ShiyaX is not remotely anti-Wall when somebody else is in the chair. In April 2021 he true-replies to Cookie with `Busted :kek:`. In July he tells Akariel `got caught in 4k`. In August he personally files an uninspected receipt while tagging Vanness; Vanness immediately answers the filing by blaming Gabu instead. The pixels stay sealed. The social role does not: Shiya knows the room's prosecution grammar well enough to use it fluently.",
+          "That is what makes his later defense work so stupidly good. He can recognize evidence, file evidence, and announce that somebody else has been caught — right up until his own name appears on the folder. Then counsel abruptly discovers `im not even online wtf`, emergency-exit reactions, and eventually the reusable `someone else was on my account` doctrine. Competent receipt filer / catastrophically unserious self-defense attorney is a more accurate contradiction than simply calling him chaotic.",
+          "The room knows this too. Shiya asks why so many Wall posts are about him and HamitteY true-replies `cuz u do dis`. Later Hami says he missed the chaos; Shiya answers `I AM THE CHAOS`; Hami's response is that everybody was lucky he was absent. It is familiar accountability in joke form: Shiya knows he keeps supplying material, Hami knows he knows, and neither needs to stop the bit to explain the reputation."
+        ]
+      },
+      {
         period: "October–November 2021",
         title: "RUNNING GAG — WHO WAS ON MY ACCOUNT?",
         paragraphs: [
@@ -50,9 +59,11 @@ export const shiyaxNarrativeCharacterBios: Record<string, CharacterNarrative> = 
         ]
       },
       {
-        title: "RELATIONSHIPS — NELPH / REN",
+        title: "RELATIONSHIPS — HAMITTEY / VANNES / NELPH / REN",
         paragraphs: [
-          "Nelph's filing rhythm actually has an earlier cousin. On August 6, 2021, Nelph tags ShiyaX beside an uninspected attachment with `didn’t know you were into that-`; Shiya immediately answers `AAAAH its an edit looks so real though`. Nelph returns `Caught you in 4K 📷`. Shiya's response is `:aworryWeirdExit:`. Months later Nelph is the identifiable repeat filer across both dated account-alibi pockets. The continuity is not that every image means the same thing; it is that Nelph can point the joke at him and Shiya has a repertoire for becoming the defendant: panic, exit, or counterfeit alibi. That supports comfortable recurring prosecution/teasing, not a friendship ranking or a claim about the unseen attachment.",
+          "HamitteY gets the cleanest reputation shorthand. Shiya asks why so many Wall posts are about him; Hami answers `cuz u do dis`. When Hami later says Shiya missed the chaos, Shiya answers `I AM THE CHAOS`, and Hami immediately says the room was lucky he was not there. Hami is not assigning a role or diagnosing a personality. He is treating Shiya's capacity to generate material as something both of them already understand.",
+          "Vanness gets the prosecutor-side shorthand. Shiya files a receipt and Vanness immediately true-replies with an alternate culprit. The actual image remains uninspected, so the wiki does not pretend to know what the exhibit showed. The relationship beat is narrower and better: Shiya can throw a case onto the table, and Vanness knows exactly how to answer the accusation without needing the game explained.",
+          "Nelph's filing rhythm has an earlier cousin. On August 6, 2021, Nelph tags ShiyaX beside an uninspected attachment with `didn’t know you were into that-`; Shiya immediately answers `AAAAH its an edit looks so real though`. Nelph returns `Caught you in 4K 📷`. Shiya's response is `:aworryWeirdExit:`. Months later Nelph is the identifiable repeat filer across both dated account-alibi pockets. The continuity is not that every image means the same thing; it is that Nelph can point the joke at him and Shiya has a repertoire for becoming the defendant: panic, exit, or counterfeit alibi. That supports comfortable recurring prosecution/teasing, not a friendship ranking or a claim about the unseen attachment.",
           "Ren's November `*fatha what’s this*` receives ShiyaX's account-alibi reply directly. The family word is part of the joke grammar, not literal kinship. The clean relationship evidence is that Ren knows how to question the defendant and ShiyaX knows exactly which defense to hand back."
         ]
       },
@@ -71,7 +82,7 @@ export const shiyaxNarrativeCharacterBios: Record<string, CharacterNarrative> = 
           "ShiyaX has yelled `AUUUUU`, lost a fight to one lobster, announced `Not to brag but i have all there is to buy on gta`, bought GTA material `for when you are able to play`, doodled until his own finger revoked the drawing permit, announced `I AM THE CHAOS`, and asked a room full of people with a documented horse problem whether the horses were the toys. He also admits `I pilot 3 accounts :ZenitsuCry:`; the surviving line never tells us which game, so the wiki files it under self-created administrative burden instead of inventing a platform. On Woohyuk's birthday he contributes `HAPPY WOMB EVICTION DAY @Woohyuk`, because apparently `happy birthday` had become offensively efficient. This is a perfectly respectable résumé if nobody asks follow-up questions.",
           "`:aworryWeirdExit:` is apparently an emergency exit button, not a one-use reaction. It closes Nelph's August `Caught you in 4K` tease, then appears again later that month when DarkAsrai / Rose tags ShiyaX into another teasing beat. The reuse supports a performative flee-the-jurisdiction response when the joke gets too specifically Shiya-shaped. It does not tell us what Nelph's unseen attachment showed, who made or captured it, who appeared in it, or what ShiyaX actually likes.",
           "`Who Was On My Account?` now has its own repeat-offender status: two October defenses, one November recurrence, and a `Shhhhh` deployed immediately after the later alibi. This is fake-alibi theater, not a security incident. Apparently three accounts were not enough administrative complexity, so counsel has added a mystery operator.",
-          "He also has a useful habit of letting the joke hit him back. Old Wall material can be resurrected around him, somebody can ask why so much evidence is about him, and `shh` is apparently considered a sufficient legal defense.",
+          "He also has a useful habit of letting the joke hit him back. Old Wall material can be resurrected around him, somebody can ask why so much evidence is about him, and `cuz u do dis` is apparently a complete peer performance review. His own legal strategy then ranges from `im not even online wtf` to crying GIFs to whichever imaginary account intruder counsel has retained this week.",
           "`stop attacking the bus` remains one of the cleaner examples of ShiyaX entering a running joke late and somehow sounding like the exhausted municipal authority assigned to it. He was not. Unfortunately the bus still needed representation."
         ]
       }
