@@ -1,14 +1,14 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-03 01:59 PDT_
+_Last updated: 2026-09-03 02:14 PDT_
 
-MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. This file is the WIKI-side rolling summary; detailed reconciliation for this pass lives in `INTEGRATION_STATE_RUN_296.md`.
+MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. This file is the WIKI-side rolling summary; detailed reconciliation for the current census-only pass lives in `INTEGRATION_STATE_RUN_297.md`, while the last material integration remains `INTEGRATION_STATE_RUN_296.md`.
 
 ## Current reviewed boundary
 
-The controlling census tracks **49 miner identities = 28 active refs + 21 historical/missing refs**, with **0 newly discovered, 0 pending review, 0 pending publication, 0 backlog, and 0 overdue** after the current review.
+The controlling census tracks **49 miner identities = 28 active refs + 21 historical/missing refs**, with **0 newly discovered, 0 pending review, 0 pending publication, 0 backlog, and 0 overdue**.
 
-The five active refs advanced and reviewed this pass are:
+Run 297 found **no active miner ref advanced beyond its Run-296 consumed SHA**. No new evidence family therefore needed reconciliation or publication this cycle. The five most recently reviewed material boundaries remain:
 
 - `archive-miner/daycare-2020-2026-hourly` → `ca323c95aabec2e513bae263ba36843b9a127441`
 - `archive-miner/mugen-person-first-20260828` → `f60866b255f6d8be7785bbdd199388f6fd08fe55`
@@ -23,7 +23,13 @@ Both Club-Only recovery priorities remain current:
 
 Wall remains `recovery_in_progress` only because more source can arrive later; its current suffix is reviewed through the SHA above.
 
-## Latest reconciliation
+## Run 297 — census-only close
+
+No reader-facing WIKI or MAIN page changed. The full branch census was still performed and persisted; every one of the 28 active miner refs matched the controlling ledger's `last_consumed_sha` before publication work was considered.
+
+No consumed SHA advanced because there was no unconsumed suffix. No duplicate Episode, Running Gag, quote block, relationship row, Cast dossier, gallery attribution, or character paragraph was manufactured merely because the integrator ran again.
+
+## Latest material reconciliation — Run 296
 
 ### Ghoulie / Baby Lyssa
 
@@ -53,13 +59,13 @@ The stable account has good person texture: emotionally transparent but informat
 
 ## Verification
 
+Run 297 contains state-only commits. The exact closing WIKI `main` head is checked through the repository's existing Build and Pages workflows before closure is reported. MAIN's exact closing `master` head is checked through its existing full source verification, Astro build, built-output verification, and production deployment workflow.
+
+The last material reader heads remain:
+
 - WIKI Ghoulie reader head `f6c447afca78f4031eca3e0d6630e3fd65355602`: Build `33734262477` success; Pages `33734262289` success through deployment.
 - WIKI Yaza archive-cast reader head `7f72aa6a31e395aa493a4e5bf80d49892b85a3e9`: Build `33735328867` success; Pages `33735328438` success through deployment.
-- WIKI pre-late-HR rolling head `317312a6d09a4ec5103b54847bba4461ff6c28b1`: Build `33735723020` and Pages `33735722996` success.
 - MAIN Yaza/Ghoulie reader head `7fda5776cfef44fd576acb546c840991165771ba`: full existing verification/build/deploy workflow `33735164296` success.
-- MAIN report head `43686b0b55c1004599b763e8461b898f582093cf`: full existing verification/build/deploy workflow `33735779777` success.
-
-The exact final WIKI state head and exact final MAIN state/report head are re-verified before closure is claimed.
 
 ## Hard rails / held rabbits
 
@@ -74,10 +80,14 @@ The exact final WIKI state head and exact final MAIN state/report head are re-ve
 
 ## Consumed SHA
 
+No consumed SHA changed in Run 297. Current key boundaries remain:
+
 - Daycare → `ca323c95aabec2e513bae263ba36843b9a127441`
 - Mugen person-first → `f60866b255f6d8be7785bbdd199388f6fd08fe55`
 - Whiskey → `47d4d94addec321c8c697b42bdc1d19ab019c4af`
 - Wall → `aa4b37d329a5965f607a52a856df3de90a6ffa8d`
 - All Characters HR → `46ad74fa10a5d8513157d6029f3b53937619665c`
+- Club-Only 2021–2026 recovery → `e45fb11c9239e236231bb65645dfd0285bc0078b`
+- Club-Only 2020 recovery → `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`
 
-Detailed reconciliation: `INTEGRATION_STATE_RUN_296.md`.
+Detailed census-only reconciliation: `INTEGRATION_STATE_RUN_297.md`.
