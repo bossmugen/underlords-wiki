@@ -5,7 +5,7 @@ aliases:
 roles:
   - "VIP"
 eraStart: 2020
-summary: "A VIP who is already fluent enough to call a sub-hour Wall appearance a record, yell at Mugen when the wrong tag locks him out, pass a possible security warning upstairs, and notice when somebody is unexpectedly still awake."
+summary: "A VIP who is already fluent enough to call a sub-hour Wall appearance a record, feed throwback evidence into the machine, and then start plea-bargaining with the witnesses when the file turns around and says Woohyuk."
 summaryEvidence: "inferred"
 publication: "public"
 claims:
@@ -60,6 +60,13 @@ claims:
       - label: "👅 Wall · 2021-03-13"
         href: "/channels/wall"
     note: "The attachment exists in the export but was not visually inspected for this dossier. Its contents are not described."
+  - text: "On April 13, 2021, Woohyuk described Gilli as `the type to never miss out on high school spirit week`; more than two hours later Gilli true-replied to that exact line with `STFU 🤣 BRUH THAT KILLED ME LSNWHX 💀💀`."
+    evidence: "archive-confirmed"
+    date: "2021-04-13"
+    sources:
+      - label: "👅 Wall · 2021-04-13"
+        href: "/channels/wall"
+    note: "Gilli's structural reply targets the spirit-week line, not Woohyuk's later `sergeants on timeout` line. The exchange supports comfortable roast shorthand, not hostility or literal school/military history."
   - text: "On April 24, 2021, Woohyuk called Aeshleen reaching the Wall less than an hour after joining `a record`; Aeshleen reacted 😩 and Mugen replied `IKR`."
     evidence: "archive-confirmed"
     date: "2021-04-24"
@@ -74,6 +81,13 @@ claims:
       - label: "👅 Wall · 2021-06-25"
         href: "/channels/wall"
     note: "The underlying rebate/exhibit is not reconstructed here. The clean claim is that Woohyuk immediately cooperated with a direct request for Wall evidence."
+  - text: "On June 27, 2021, after Ren's `AHEM` / `The calm before the storm` sequence and a three-attachment Wall filing, Woohyuk wrote `Bro- pls delete, I will top up the witnesses`; 10.864 seconds later Ren answered `Money can’t buy my silence`."
+    evidence: "inferred"
+    date: "2021-06-27"
+    sources:
+      - label: "👅 Wall · 2021-06-27"
+        href: "/channels/wall"
+    note: "The local timing strongly supports shared mock-payoff choreography, but no Reply pointer makes either line a threaded parent. The language is joking theater rather than literal bribery, and the attachments remain visually uninspected."
   - text: "On July 2, 2021, Woohyuk described watermelon as `just sweet water`, `in a form of a melon`, and `tryna play us dumb`."
     evidence: "archive-confirmed"
     date: "2021-07-02"
@@ -90,7 +104,9 @@ antiFanon:
   - "Do not map the unresolved nearby `NOOO LUNA` referent onto Lilly."
   - "The February 2021 warning proves an information-sharing path, not the truth of the warning, technical expertise, authorship of the chain message, or a security job for Woohyuk."
   - "The March 13 and April 24 attachments were not visually inspected in this pass. Do not describe the exhibits from filenames, timing, or vibes."
+  - "Gilli's April 13 true reply establishes exactly which Woohyuk roast she returned to; the later `sergeants` line remains adjacent rather than structurally parented."
   - "The June 25 rebate exchange proves a direct request and Woohyuk's immediate cooperation; it does not establish the rebate amount, purchase, financial circumstances, or what Gilli later meant by `secret sections unlocked`."
+  - "The June 27 witness-payoff sequence is probable local co-riff, not literal bribery or a structurally threaded Ren↔Woohyuk reply chain."
   - "Repeated Wall participation does not create a formal archivist, prosecutor, curator, moderator, or Wall office for Woohyuk."
   - "The watermelon sequence is a joke. Counsel declines to infer nutrition doctrine."
 relatedPeople:
@@ -100,6 +116,7 @@ relatedPeople:
   - "aeshleen"
   - "mugen"
   - "ren"
+  - "gilli"
 tags:
   - "vip"
   - "wall"
@@ -163,7 +180,33 @@ Eighteen seconds later:
 
 No jurisdictional objection. No diplomatic pouch. The man receives a request for receipts and answers like production has asked for the next exhibit.
 
-This is not a second Tofu dossier in a trench coat. Tofu's recurring mechanism is reciprocal evidence culture. Woohyuk's useful angle is **social naturalization**: the guest-category member is fluent enough in UL's memory machinery to move inside it without an onboarding speech. By the time the Wall asks for proof, he treats the request as ordinary house business.
+### Running Gag — Wall Participant / Mock-Defendant
+
+Two days later the evidence machine turns around and says **Woohyuk**.
+
+Ren opens with **`AHEM`** and **`The calm before the storm`**. A three-attachment filing lands. Woohyuk's procedure changes instantly:
+
+> `Bro- pls delete, I will top up the witnesses`
+
+Ren answers eleven seconds later:
+
+> `Money can’t buy my silence`
+
+That is the useful contradiction. Woohyuk is perfectly happy recognizing throwback-shame rules, supplying exhibits, timing somebody else's Wall speedrun, and producing receipts on request. When exposure points back at him, he does not leave the game. He changes roles inside it and starts negotiating with the witnesses. Screenshot Court has apparently discovered plea bargaining.
+
+### Relationship — Ren
+
+Ren is one of the people who can meet Woohyuk inside that mock-adversarial register without needing the premise restated. The local June 27 sequence reads like a shared little prosecution scene: Ren supplies the ominous preamble, Woohyuk tries deletion and witness money, Ren refuses the imaginary payoff. The joke works because neither has to explain what court they are pretending to be in.
+
+### Relationship — Gilli
+
+Woohyuk's roast style gets a cleaner structural return from Gilli. On April 13 he calls her **`the type to never miss out on high school spirit week`**. More than two hours later Gilli deliberately true-replies to that exact line:
+
+> `STFU 🤣 BRUH THAT KILLED ME LSNWHX 💀💀`
+
+The delay is part of the relationship texture. She does not merely laugh at whatever Woohyuk is saying two hours later; she comes back to **that specific roast** to tell him it landed. His oddly tailored analogies can apparently sit on the shelf until Gilli returns to collect them.
+
+This is not a second Tofu dossier in a trench coat. Tofu's recurring mechanism is reciprocal evidence culture. Woohyuk's useful angle is **social naturalization**: the guest-category member is fluent enough in UL's memory machinery to move inside it without an onboarding speech. By the time the Wall asks for proof, he treats the request as ordinary house business—and by the time the Wall asks for **him**, he is still playing.
 
 The same compressed register can prosecute much smaller defendants. On July 2 he reduces watermelon to **`just sweet water`**, clarifies that the fraud comes **`in a form of a melon`**, and concludes it is **`tryna play us dumb`**. Three tiny messages. One produce-industry indictment. No supporting brief required.
 
@@ -227,12 +270,12 @@ Woohyuk's useful contradiction is not `VIP but acts like a member`; UL's categor
 
 It is that his **comic register and care register use almost the same amount of language**.
 
-Watermelon is consumer fraud in three messages. A Wall request gets **`Sheeet I gotchu`**. An access failure gets **`BRUH MUGEN LOCKED ME OUT`** and a sad face. Concern gets **`please sleep`** or **`Wow tae you're awake.`**. His own innocence case gets one line before Lilly throws it out. A possible security problem gets forwarded into the Staff chain rather than inflated into expertise.
+Watermelon is consumer fraud in three messages. A Wall request gets **`Sheeet I gotchu`**. A Wall case against himself gets a deletion request and an imaginary witness budget. An access failure gets **`BRUH MUGEN LOCKED ME OUT`** and a sad face. Concern gets **`please sleep`** or **`Wow tae you're awake.`**. His own innocence case gets one line before Lilly throws it out. A possible security problem gets forwarded into the Staff chain rather than inflated into expertise.
 
 The sentences stay small. The social fluency underneath them is doing most of the work.
 
 ## SOURCE BOUNDARY
 
-The Lobby, Wall, and Announcements scenes above are archive-confirmed. Reading them together as a contrast between cultural fluency, peer reputation, direct complaint style, and low-volume concern is interpretation, not a formal role claim.
+The Lobby, Wall, and Announcements scenes above are archive-confirmed or strong local inference where noted. Reading them together as a contrast between cultural fluency, mock-adversarial participation, peer reputation, direct complaint style, and low-volume concern is interpretation, not a formal role claim.
 
 Woohyuk remains **VIP** in the locked roster. The Wall behavior does not promote him into an invented office, the security warning does not make him a security specialist, no sleep exchange creates a health profile, and no uninspected attachment gets described merely because the timing is funny enough to tempt us.
