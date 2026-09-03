@@ -1,17 +1,14 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-03 03:10 PDT_
+_Last updated: 2026-09-03 03:22 PDT_
 
-MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. This file is the WIKI-side rolling summary. Detailed reconciliation for the current pass lives in `INTEGRATION_STATE_RUN_300.md`; the previous completed reconciliation is Run 298.
+MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. This file is the WIKI-side rolling summary. Detailed reconciliation for the current pass lives in `INTEGRATION_STATE_RUN_301.md`; the previous substantive reconciliation is Run 300.
 
 ## Current reviewed boundary
 
-The controlling census tracks **49 miner identities = 28 active refs + 21 historical/missing refs**, with **0 newly discovered, 0 pending review, 0 pending publication, 0 backlog, and 0 overdue** after Run 300 review.
+The controlling census tracks **49 miner identities = 28 active refs + 21 historical/missing refs**, with **0 newly discovered, 0 pending review, 0 pending publication, 0 backlog, and 0 overdue** after the Run 301 full census.
 
-Run 300 reviewed two advanced intake families checkpoint-first and consumed them through:
-
-- All Characters HR → `7496d8021275c8294113fd3f87b737bc38b31678`
-- Mugen person-first → `ccc451e115feb4108be5f3b6dc05ea9a1b386f69`
+Run 301 found **no active branch movement**. Every active miner ref remains at its Run 300 `last_seen_sha`, and every active ref remains consumed through that head. No already-consumed handoff was reread merely to manufacture activity.
 
 Both Club-Only recovery priorities remain current:
 
@@ -20,27 +17,26 @@ Both Club-Only recovery priorities remain current:
 
 Wall remains `recovery_in_progress` only because more source can arrive later; its present head is already consumed through `161d27a6fd18de82b6aa09ff0f16a4e3c4256cf1`.
 
-## Run 300 — two deltas, zero receipt mitosis
+## Run 301 — everybody stayed put for once
 
 Reader-facing WIKI changes: **0**.
 
-### All Characters HR
+Reader-facing MAIN changes: **0**.
 
-Run 103 requalified WolfPhenix, Sye / Life, RV / Ren, Gilli, Oyasumi, Snow, Anthos, and Daya / Dayadream. No target produced a materially new person mechanism after its mature HR was re-read against current source and the fresh-source gate.
+There was no new checkpoint/findings/receipts/site-candidate delta to reconcile. No consumed SHA advances were required. No duplicate lore, unresolved rabbit, identity merge, role chronology, joke-family/romance literalization, or unseen-media attribution was promoted.
 
-All eight therefore move to `EXHAUSTED AT CURRENT ARCHIVE BOUNDARY`. The authoritative comprehensive HR quarry is now **67 exhausted / 33 in progress** out of 100 non-Mugen character files. That is reversible workflow state, not reader copy and not a claim that the human has been exhaustively known.
+The public surfaces therefore remain at the substantive Run 300 boundary rather than receiving state-shaped filler.
 
-The current WIKI biographies already own the useful person mechanisms, so no status-only paragraphs were added.
+## Previous substantive boundary — Run 300
 
-### Mugen — official memory still refuses respectability
+Run 300 reviewed two advanced intake families checkpoint-first and consumed them through:
 
-The Mugen miner sharpened a March 23, 2023 anniversary sequence into a useful person-level read. Mugen first announces three years, credits her `hypercompetent Officers` for keeping the family `safe and comfortable`, then toasts another year of `rumfection`, `corpse kidnapping`, `panic karaoke`, `music bot breaking`, `generalized confusion`, and `wholesome dumassery`.
+- All Characters HR → `7496d8021275c8294113fd3f87b737bc38b31678`
+- Mugen person-first → `ccc451e115feb4108be5f3b6dc05ea9a1b386f69`
 
-The nuance is editorial selection: Mugen does not only retain old material; in an official commemoration she can choose shared absurdity as representative history worth carrying forward.
+All Characters HR Run 103 moved WolfPhenix, Sye / Life, RV / Ren, Gilli, Oyasumi, Snow, Anthos, and Daya / Dayadream to `EXHAUSTED AT CURRENT ARCHIVE BOUNDARY`, bringing the authoritative comprehensive HR quarry to **67 exhausted / 33 in progress** out of 100 non-Mugen character files. That remains workflow state, not reader copy.
 
-That nuance is accepted and banked, but it does not receive another WIKI entry this cycle. Run 298 already reviewed the same source family, and Mugen's current narrative already owns the preservation, framing, house-building, attribution, and sincerity-plus-stupid-house-language mechanisms. A duplicate Quote/Running Gag/Episode would make the structured side worse, not richer.
-
-Reopen the public fold if a second formal commemoration, a deliberate sanitizing counterexample, or recipient-side reaction gives this selection/curation distinction its own movement. The three-message native strip also remains a recovery target before screenshot-grade presentation.
+The Mugen miner sharpened the March 23, 2023 anniversary sequence into a useful editorial-selection read: Mugen could move from sincere Officer credit and safe/comfortable language straight into selecting `rumfection`, `corpse kidnapping`, `panic karaoke`, `music bot breaking`, `generalized confusion`, and `wholesome dumassery` as the group's official remembered highlights. That nuance remains banked because the current public surfaces already own the preservation/framing mechanism and the native anniversary strip still needs recovery before screenshot-grade presentation.
 
 ## Hard rails / held rabbits
 
@@ -55,6 +51,6 @@ Reopen the public fold if a second formal commemoration, a deliberate sanitizing
 
 ## Verification
 
-Run 300 is state-only on WIKI. The exact closing `main` head must pass the repository's existing Build and Pages workflows before the run is reported complete. MAIN's exact closing `master` head is separately checked through source verification, Astro build, built-output verification, and production deployment.
+Run 301 is state-only on WIKI. The exact closing `main` head must pass the repository's existing Build and Pages workflows before the run is reported complete. MAIN's exact closing `master` head is separately checked through source verification, Astro build, built-output verification, and production deployment.
 
-Detailed reconciliation: `INTEGRATION_STATE_RUN_300.md`.
+Detailed reconciliation: `INTEGRATION_STATE_RUN_301.md`.
