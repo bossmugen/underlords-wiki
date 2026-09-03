@@ -33,6 +33,6 @@ Run 303 had already consumed Daycare and Louvre/Other Games. Its genuinely new D
 
 ## Verification
 
-MAIN state/consumption commit `5b42c7dc358a6f5446aee15f0859d112c91f75d4` passed exact workflow **33751976917**: source canon/architecture verification, Astro build, built-output verification, and exact Cloudflare production deployment all succeeded.
+MAIN state/consumption commit `5b42c7dc358a6f5446aee15f0859d112c91f75d4` passed exact workflow **33751976917**: source canon/architecture verification, Astro build, built-output verification, and exact Cloudflare production deployment all succeeded. The subsequent MAIN Run-305 reconciliation head `0741bbf098ee0109a82612c865540bc40d1a3d4c` also passed exact workflow **33752151636**.
 
-WIKI reader-facing changes in Run 305: **0**. This run updates reconciliation/state documentation only; normal Build and Pages workflows must pass on the final WIKI state head before closure.
+WIKI reader-facing changes in Run 305: **0**. Rolling state head `d9b59171d12056ac80f17d8dc1e31baf7881a232` passed **Build Underlords Wiki 33752254624** and **Deploy Underlords Wiki Preview 33752254484**, including build, artifact upload, GitHub Pages deployment, and report.
