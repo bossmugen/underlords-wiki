@@ -1,40 +1,50 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-03 Run 310 close_
+_Last updated: 2026-09-03 Run 311 close_
 
-MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. This file is the WIKI-side rolling summary. Detailed reconciliation for this pass lives in `INTEGRATION_STATE_RUN_310.md`.
+MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. This file is the WIKI-side rolling summary. Detailed reconciliation for this pass lives in `INTEGRATION_STATE_RUN_311.md`.
 
 ## Current reviewed boundary
 
-The controlling census tracks **49 miner identities = 28 active refs + 21 historical/missing refs**, with **0 newly discovered, 0 pending review, 0 pending publication, 0 backlog, and 0 overdue** after the late-Wall review. All Characters HR remains consumed through `534b770a4e00065b2c31f555d8674ce9fc42c515`.
+The controlling census tracks **49 miner identities = 28 active refs + 21 historical/missing refs**, with **0 newly discovered, 0 pending review, 0 pending publication, 0 backlog, and 0 overdue** after Run 311's three advanced tails were reviewed through stable heads.
 
 Both Club-Only recovery priorities remain current:
 
 - `archive-miner/club-only-2021-2026-hourly` → `e45fb11c9239e236231bb65645dfd0285bc0078b`
 - `archive-miner-clubonly-2020-hourly` → `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`
 
-Wall moved late in Run 310 from consumed `e0ebf6025c1f5a50474008632b2b10cd467540ba` to `aa47f67fab33e30460dd836d6375fb8f4c25650c`; MAIN's ledger registered the seen SHA before review, then reviewed the one-commit intake-only suffix checkpoint-first. Wall is now consumed through `aa47f67fab33e30460dd836d6375fb8f4c25650c` and remains `recovery_in_progress` only because future source may arrive.
+Current reviewed advanced boundaries:
 
-## Run 310 — Crystalia is quiet; Mugen apparently cast him anyway
+- Wall recovery → `1f6e053408327c0a4d975d68be5a5b9cd5ef4631`
+- Daycare → `977563879568a31637cd0e8d373e28b00cdab64a`
+- Mugen person-first → `7c9841d7215130b4c46249252b7d49575e42df9c`
 
-The late Wall suffix materially deepened **Crystalia**. His own surviving Wall output is microscopic, but Mugen posts media and then summons/casts him on consecutive February 2021 nights: first a plain `@Crystalia^-^`, then the next night the fake-show copy `Tune in weekly for The Adventures of Phok the Pool Boy featuring UL's very own mermaid @Crystalia^-^`.
+Wall remains `recovery_in_progress` only because future source may arrive; its present tail is consumed.
 
-MAIN folded that recurrence into Crystalia's existing person-first mermaid/ocean section. The useful contradiction is **tiny authored Wall presence / conspicuous peer-authored cameo presence**: quiet does not equal socially invisible, and Mugen can apparently draft him directly into the room's mythology without much setup.
+## Run 311 — Nobu's Wall apparently abolished double jeopardy
 
-**Reader-facing WIKI changes: none.** WIKI already has the structured `The Only Reason He Was Still Playing Raja` episode owning the broader Crystalia game→community/ocean/mermaid hinge. The recovered consecutive-night summon/cast rhythm is stronger as lived biography/relationship texture than as another Episode, Running Gag, or mirrored Cast paragraph. This pass is therefore intentionally MAIN-only at the reader layer.
+The Wall tail adds a recurring Nobu/Xuseio pattern that belongs on WIKI as a searchable gag rather than as another MAIN receipt paragraph. Marian objects that one Nobu filing is about a year old and was probably shamed already; Nobu answers with a delighted dog emote. Rummy can answer another filing with `WHY`, `That ain’t even me`, and `I don’t even make that sound` while Nobu stays in the wheeze pile.
 
-The same Wall tail also closed two exact **Athena** reply joins around her manhwa complaint: Mugen's `XD rip` answers Athena, and Athena's `:6157_pat:` answers Mugen's redirect. That is useful structure but not a new public person mechanism; Athena's stronger manhwa-taste material is already owned.
+WIKI added **`Nobu's Wall Has No Double Jeopardy Clause`** in `src/data/integrator-gags-wall-20260903-run311-nobu.ts`. The joke is the repeat-offense structure: objections are allowed, but the Wall apparently has no freshness rule once Nobu thinks the filing will land.
 
-A stale fallback sentence in `character-bios-extended.ts` still contains the superseded phrase `Rich / Ricochet / DragonRich`. Active Rich/Ricochet owners correctly keep them separate. The fallback line remains targeted cleanup debt rather than a reason to rewrite a large legacy file during this pass.
+MAIN did not mirror this copy. Nobu's existing MAIN biography already owns the broader person-first mechanism—compact high-context filer, willing defendant, and prosecutor without immunity—so the fresh material was meaning-deduped there.
+
+## Corroboration consumed without prose inflation
+
+Daycare sharpened Eos as a low-context callable operator: Gilli's `@Eos donit` and Rich's panda-punishment prompt followed by Eos summoning Marian both show other people expecting Eos to catch a tiny prompt and the rest of the shared grammar. MAIN already contains those exact scenes and the same mechanism, so no duplicate reader mutation was warranted.
+
+The Daycare tail also confirms Jockie Music / `Oolong Tea (m!)` as 2020 music infrastructure with `m!` command help. It remains a rabbit, not a proven bridge to the later 2023 broken-bot target or a direct Groovy/Rythm replacement chain.
+
+Mugen's person-first tail adds a strong BishopThaGuru authority-play scene: Bishop asks `You with the feds?`; Mugen replies `The file in my office says so`; Bishop mock-stammers `W-which file?`. This is accepted character texture, not weak evidence. MAIN is the natural owner, but the current Mugen biography already owns the broader authority-without-prestige-protection contradiction, so the scene is banked for the next natural resynthesis instead of appended as receipt #whatever. No WIKI Episode was created.
 
 ## Rails
 
-`mermaid`, `ocean king`, and Pool Boy remain joke/reputation language, not literal identities, titles, occupations, or gender evidence. `weekly` does not establish a recurring series, and the fake-show title does not prove Crystalia is literally `Phok the Pool Boy`. The adjacent images were not visually inspected and remain POSTED BY Mugen only; no MADE BY / CAPTURED BY / visual FEATURING assignment is inferred. Repeated summoning supports recognizability and bounded relationship texture, not friendship rank, exclusivity, or Crystalia's enjoyment. Formal appointment chronology is not inferred from export-time roles; earliest surviving is not guaranteed origin; hard identity and privacy corrections remain controlling.
+Nobu's screenshots remain uninspected and POSTED BY only; no MADE BY / CAPTURED BY / FEATURING assignment is inferred. Marian/Rummy objections are social-joke texture, not legal facts or proof Nobu knowingly filed false material. Mugen/Bishop's fake file/feds language is banter, not a real file, federal involvement, criminal record, surveillance, formal office, or genuine fear. Oolong/Jockie continuity to later bot-breaking remains unresolved. Hard identity, privacy, relationship, role-chronology, and attribution corrections remain controlling.
 
 ## Verification
 
-MAIN reader commit `0b4ff5f283b718b427a6b1e9c479a85e7a277ed6` passed exact workflow **33761104953**: source canon/architecture verification, Astro build, built-output verification, Cloudflare production deployment, and exact production-commit verification all succeeded. MAIN's final Run-310 state/report head is checked again after the closing commits.
+WIKI reader commit `d5d662c1e597af4a81582531b425cbbb50802c84` passed Build **33763175448** and Pages / preview deployment **33763175540** before the Wall consumed SHA advanced.
 
-WIKI reader pages changed 0. This final rolling-state commit is checked through the repository's existing Build and Pages workflows on the exact final `main` head.
+MAIN reader pages changed 0; the controlling census/consumption ledger and `INTEGRATION_REPORT_RUN_311.md` were updated on `master`. Exact closing-head workflows for both repositories are checked after the final state commits.
 
-Detailed reconciliation: `INTEGRATION_STATE_RUN_310.md`.
+Detailed reconciliation: `INTEGRATION_STATE_RUN_311.md`.
