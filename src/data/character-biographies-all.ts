@@ -60,6 +60,7 @@ import * as suzimasuModule from "./character-biographies-suzimasu";
 import * as syeModule from "./character-biographies-sye";
 import * as tenModule from "./character-biographies-ten";
 import * as tofuModule from "./character-biographies-tofu";
+import * as tonyTonyChopperModule from "./character-biographies-tonytonychopper";
 import * as xephyModule from "./character-biographies-xephy";
 import * as yassrModule from "./character-biographies-yassr";
 import * as yelikModule from "./character-biographies-yelik";
@@ -128,7 +129,7 @@ const finishedNarrativeModules = [
   momoModule, moonModule, mugenModule, nelphModule, nemoModule, newModule, nhouModule, nobuModule,
   noetherModule, nuienModule, oyasumiModule, pandaModule, plateletModule, renModule, rithaModule,
   rooksModule, rummyModule, richModule, shikiModule, shiyaxModule, snowModule, suzimasuModule, syeModule,
-  tenModule, tofuModule, xephyModule, yassrModule, yelikModule, yumiModule, zeppModule, zyrcantModule,
+  tenModule, tofuModule, tonyTonyChopperModule, xephyModule, yassrModule, yelikModule, yumiModule, zeppModule, zyrcantModule,
   run40Module,
   tofu1602Module,
   mugen1619Module,
