@@ -33,8 +33,17 @@ const withMigrationFit = withSection(withContinuityMachinery, {
   ],
 });
 
+const withSelectiveAperture = withSection(withMigrationFit, {
+  period: "Privacy / self-disclosure",
+  title: "You do not get the whole aperture",
+  paragraphs: [
+    "Yaza once asks Mugen, `Will we ever meet the real you?` Mugs gives her a flat `Nah`. That would be easy to file under *secretive woman remains secretive* if Mugen were not also perfectly capable of volunteering `Old pic, lying ded on floor after work` when she chooses the window. She is not especially precious about looking cool once disclosure is her idea. What she guards is access: somebody asking for the whole person does not automatically get it; a ridiculous exhausted older version of herself can still be handed over freely, joke already attached.",
+    "That makes her privacy feel less like a locked vault and more like a camera aperture under her thumb. Mugen can be highly selective and still be extremely willing to make herself the punchline inside a space she trusts. The after-work floor corpse matters because she frames it first: this is the version of me I am choosing to show you, and yes, apparently she is horizontal. It is the same preservation instinct pointed inward — not *know everything about me*, but *here is one piece I decided belongs in the room*."
+  ],
+});
+
 export const mugen1619NarrativeCharacterBios: Record<string, CharacterNarrative> = {
-  mugen: withSection(withMigrationFit, {
+  mugen: withSection(withSelectiveAperture, {
     period: "Founding week · April 2020",
     title: "The server was a few days old. Apparently we already had covert alliances.",
     paragraphs: [
