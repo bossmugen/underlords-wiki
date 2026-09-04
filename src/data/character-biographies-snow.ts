@@ -57,6 +57,15 @@ export const snowNarrativeCharacterBios: Record<string, CharacterNarrative> = {
         ]
       },
       {
+        period: "Creative rooms / game systems",
+        title: "MAKE THE PATH USABLE, THEN ADMIT THE PATH IS A PAIN IN THE ASS",
+        paragraphs: [
+          "Snow's useful-systems habit keeps escaping the rooms where anybody could mistake it for a formal job description. In the 2020 Louvre he pins what people have posted and checks that the pictures actually show up in Pins; a couple of weeks later, while talking through character-building and mini-backstory work, his conclusion is simply that `Everyone should give it a try`. He is not hoarding the trick. He is trying to make the next person less likely to bounce off the doorway.",
+          "AI Art makes the contradiction much better. By 2023 Snow is turning UL Biodata descriptions into a fictionalized anime cast, but he does not protect the process with wizard smoke. He shares prompt and style mechanics, tells Nobu he is `Using your bios appearance for pic`, and is perfectly willing to say the workflow took about six hours, that he is `still learning the shit as well`, and that it is `super exhausting 😅`. The man telling everybody to try the thing is also filing an immediate consumer warning about the thing. Competence, apparently, does not require pretending the wrench is magical or the job is fun.",
+          "The same instinct later shows up around games with even less theater. Moon brings a build worry; Snow answers with concrete gearing and DPS guidance, then points her toward Yuuma's guides where another resource is better. In late 2025 he offers to add game channels around what people actually want: `just tell me what channels your looking for`. That is a recognizable Snow move across wildly different objects. Find the friction. Make the next action legible. If somebody else has the better guide, send the person there. The role-shaped part is not being the only expert in the room; it is refusing to make participation depend on decoding the room first."
+        ]
+      },
+      {
         period: "2024–2025",
         title: "As Dragon Raja recedes, the same attention moves to ordinary technology and the archive itself",
         paragraphs: [
