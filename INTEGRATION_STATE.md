@@ -1,8 +1,8 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-04 Run 363_
+_Last updated: 2026-09-04 Run 364_
 
-MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Historical cycles remain in per-run state files; current detail is in `INTEGRATION_STATE_RUN_363.md`.
+MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Historical cycles remain in per-run state files; current detail is in `INTEGRATION_STATE_RUN_364.md`.
 
 ## Current census / queue
 
@@ -18,31 +18,29 @@ Both Club-Only recovery priorities remain current through head:
 - `archive-miner/club-only-2021-2026-hourly` → `e45fb11c9239e236231bb65645dfd0285bc0078b`
 - `archive-miner-clubonly-2020-hourly` → `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`
 
-Run 363 reviewed Wall through `e3fe863696413b23a65bcf8c0330310b6794c724`, Whiskey through `9a21ff247aea20718e26fd5fe43dd727a669997c`, Mugen person-first through `1fbbeb0e0806469d76f1be13442e27209affeaf5`, and the late Louvre/Athenaeum move through `3c00b784fc4a7c27b1279deb534ede73a5547b1c`. No raw archive was re-mined.
+Run 364 found **no active miner ref advanced beyond Run 363's reviewed heads**. Wall remains at `e3fe863696413b23a65bcf8c0330310b6794c724`, Whiskey at `9a21ff247aea20718e26fd5fe43dd727a669997c`, Mugen person-first at `1fbbeb0e0806469d76f1be13442e27209affeaf5`, Louvre/Athenaeum at `3c00b784fc4a7c27b1279deb534ede73a5547b1c`, Core Rooms / Events at `a0797364529b05c45f22b420f1be6b2661e15ee4`, and Daycare at `14d37ef69503c4001b1ee645371582204403954c`. No raw archive was re-mined.
+
+## Recovery continuation
+
+The integrator re-read `archive-intake/club-only-2021-2026-longitudinal-20260819-1857/checkpoint.md` directly from the recovery miner branch. The checkpoint remains saturated at the current retrieval boundary: its A/B findings, exhausted routes, and do-not-churn rules are unchanged, and no new immutable target-room key exists to justify repeating the failed retrieval families.
 
 ## Public reconciliation
 
-Hishiro and Momo stay inside their existing character owners rather than becoming receipt-led Episodes. Hishiro's Run 363 Wall layer now joins her willingness to self-file embarrassment with a recurring 2020 `Hehe` filing signature: she can do the practical screenshot/helper work, post the attachment, and then stamp the filing with `:Hehe:`. Competent workflow brain and tiny gremlin delight are the same person, not competing versions. Momo's safe public addendum keeps the Ricochet/Ten teasing rebound where she redirects praise, loses the next punchline, answers `damn`, and stays inside the game.
+No new public character, episode, relationship, location, running-gag, quote, or gallery mutation was warranted this run because no miner delta advanced.
 
-Late Louvre/Athenaeum material deepens Anthos with preservation-shaped care: give absent people time without guilt; preserve member work so missed timing does not erase visibility. That read is accepted for her existing owner but was not force-written over concurrent character-owner work at close.
-
-Momo↔Opalite reciprocal `twin` language remains backstage because the current public Momo biography assigns that April twin pocket to Mia. No Opalite=Mia bridge is inferred. Lunnely's adulting-threshold packet is reviewed/banked because no safe canonical public owner exists; `bae` / `taken` remains casual room language rather than literal romance and unresolved `album` semantics stay unresolved. The latest Mugen person-first tail is an explicit negative/saturation pass with no additive public row.
+Run 363 Hishiro and Momo additions remain in their existing character owners. Anthos's accepted preservation-shaped care read remains banked for her existing owner rather than force-written over concurrent ownership history. Lunnely remains banked because no safe canonical public owner exists; casual `bae` / `taken` language remains non-literal and the `album` payload remains unresolved. The latest Mugen person-first tail remains an explicit negative/saturation pass with no additive public row.
 
 The six reviewed-but-publication-held MAIN families remain Wall, Core Rooms / Events, Daycare, Louvre, Mugen person-first, and Whiskey.
 
 ## Verification / deployment
 
-WIKI Hishiro reader commit `01084d996ce59677b2d9affeb5cc6c20f2d02ab4` passed Build `33850418916`.
+Run 364 contains no reader-facing WIKI change; only durable integration state changed. Exact-head Build and Pages results are checked after this state write settles.
 
-Pages workflow `33850419002` completed its preview build and **Deploy to GitHub Pages** jobs successfully. The workflow's final report job was still queued when the Run 363 state write began; deployment success is therefore taken from the completed deploy job itself, not inferred from overall workflow status.
-
-Exact final-head WIKI Build and Pages workflows are checked separately after this rolling-state commit lands.
-
-MAIN Run 363 current head `c550a370cb12c560e910b9f0c140ee07d2e2cbc3` failed its mandatory workflow before repository verification instantiated: `Build + verify` completed failure with no steps, and verified Cloudflare deployment was skipped. Source verification, Astro, and built-output verification therefore did not run and reject content.
+MAIN is independently verified on its own closing `master` head. A MAIN infrastructure failure does not invalidate a green WIKI state-only publication.
 
 ## Consumed cursors
 
-No publication-held `last_consumed_sha` advanced. Exact reviewed heads and no-public-change/publication dispositions are durable in MAIN's branch ledger so these deltas are not to be re-mined from scratch. Both Club-Only recovery branches remain consumed through current head.
+No publication-held `last_consumed_sha` advanced. No miner head advanced either. `last_seen_sha` and `last_consumed_sha` remain distinct, and both Club-Only recovery branches remain consumed through current head.
 
 ## Rails retained
 
