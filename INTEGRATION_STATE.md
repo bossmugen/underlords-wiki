@@ -33,9 +33,17 @@ The six MAIN-held publication families remain Wall, Core Rooms / Events, Daycare
 
 ## Verification
 
-This exact WIKI state commit is intended to run the repository's existing Build and Pages workflows. Final workflow and deployment results will be recorded by the Run 384 close handoff after inspection.
+Exact WIKI state commit `00cff95bbd700e745327e8c8c28e95c6a886b667` passed:
 
-MAIN's matching Run 384 report commit is likewise being verified separately under MAIN's existing source-verification / Astro / built-output / verified-deploy workflow.
+- Build workflow `33883436222`: **success**.
+- Pages workflow `33883436298`: **success**.
+- Pages build, artifact upload, actual `Deploy to GitHub Pages`, and final report: **all success**.
+
+The state handoff is therefore built and deployed even though no reader-facing Cast prose changed.
+
+MAIN's matching exact report commit `cb0e2849f2fc0647b38a76ec2f8f19afb033890f` ran workflow `33883401513`; attempt 1 failed before repository verification steps instantiated. The failed workflow was explicitly rerun and attempt 2 failed in the same pre-execution shape. `Build + verify` exposed no step payload and verified Cloudflare deployment was skipped both times. Source verification, Astro, built-output verification, and Cloudflare deployment therefore did not run. MAIN remains not green and not newly deployed.
+
+This update is `[skip ci]` and reader-neutral; it records the already-completed exact-head workflow results above.
 
 ## Consumed cursors
 
