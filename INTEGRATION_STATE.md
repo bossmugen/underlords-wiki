@@ -1,52 +1,44 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-04 Run 391 reconciliation_
+_Last updated: 2026-09-04 Run 392 reconciliation_
 
-MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. MAIN carries `archive-intake/INTEGRATION_REPORT_RUN_391.md`; this WIKI carries `INTEGRATION_STATE_RUN_391.md`.
+MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. A successor Run 393 census began while Run 392 was closing, so MAIN's newer ledger owns the late Daycare/Louvre/meems review boundaries rather than being overwritten by this state note.
 
 ## Current census / queue
 
-Full closing census: **49 tracked miner identities = 28 active refs + 21 historical/missing refs**.
+Run 392 discovered one new active miner identity, `archive-miner/meems-2020-2025`, taking the tracked census from **49 to 50 identities = 29 active refs + 21 historical/missing refs**. It was registered before deep review. Its initial head was the already-reviewed Run 391 MAIN close, so the one-time safe baseline itself contained no miner-specific public delta.
 
-- newly discovered: 0
-- pending review: 0
-- pending-publication MAIN families: 6
-- backlog: 0
-- overdue: 0
+Run 392 also reviewed the Wall suffix through `db47ea32c8dd1a970d28f2221b9e7550fdb4cb9d`. During closing concurrency, the successor census then caught additional Daycare, Louvre, and meems movement and persisted those heads as pending review. Run 392 deliberately does not overwrite that newer queue state.
 
-Run 391 is a genuine no-delta pass: every active miner ref matched the Run 390 closing head. Wall remains at `17d43862cd40dfcd0e680da14a14fabfc6a77ceb`, Louvre at `39edd54926abe23232143255716780d32c36d9e0`, Mugen person-first at `f9c1fa4ba8362a967e10dfcd3b6c7f6a7817f3a7`, Core Rooms / Events at `4def21e7262a6211b11453fb1e91cc6c39366960`, Daycare at `b925502abd685fa9d17a6e845ce534a5fe589831`, and Whiskey at `d105c5ad606c6b3737734fdd1b95de7c8d74f960`. Both Club-Only recovery priorities remain current through head. The 2021–2026 checkpoint was re-read; its retrieval-locality failure and saturated-route boundary remain unchanged. No raw archive was re-mined.
+Both Club-Only recovery priorities were rechecked checkpoint-first: 2021–2026 remains current through `e45fb11c9239e236231bb65645dfd0285bc0078b`, and 2020 remains current through `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`. Their saturation / retrieval-locality / stop-churn boundaries are unchanged. No raw archive was re-mined.
 
 ## Public reconciliation
 
-No reader-facing WIKI page changed in Run 391, and no Run 390 finding was repackaged as new. The latest reader-facing WIKI owner remains **Snow**, canonical file `src/data/character-biographies-snow.ts`.
+Run 392's new public family is **Kiro ↔ Seth delayed-return teasing**, folded into Kiro's existing person-first dossier at `src/data/character-biographies-kiro.ts` rather than spun into a standalone Episode.
 
-The two complementary Snow folds from Run 390 remain the current public synthesis: practical tolerance for rough tools and malformed generated output, plus his broader pathmaking habit of reducing the distance between another person and the next usable step without pretending he is the sole expert. KARIT and Marsy remain banked without safe canonical Cast owners; Tru Angel's Ultima / FFXIV comments remain B-tier game taste; the late Mugen suffix remains no-promotion because its material is already project-owned or belongs to other people.
+Kiro's Wall filing says `Seraph needs some explaining to do`; more than three days later Seth returns to that exact filing with `Lol,no explanation for you,dear`. Kiro then appears in the laugh reaction set on Seth's comeback. The relationship read is bounded and reciprocal: Kiro mock-prosecutes, Seth accepts the joke frame while refusing the mock jurisdiction, and Kiro can laugh at the refusal. `dear` is treated as joke-softening familiarity, not romance or sex evidence.
 
-No new identity, role, relationship, provenance, privacy, or source contradiction was introduced this pass.
+Seth's broader Wall packet is strong enough to bank as a person read — affectionately evasive when prosecuted, enthusiastic in the gallery later — but WIKI does not yet have a safe canonical Cast owner / role placement for a standalone Seth dossier. That hold is taxonomy/identity-surface discipline, not an attempt to downgrade ordinary contextual inference. Export-time/current role arrays were not used to invent appointment chronology.
+
+The same Wall suffix closes one backstage q18 topology point: Ren's `:Barbara_prays:` message is a true reply to the known Mugen parent about five hours later. That resolves reply structure only. It does not identify screenshot contents, maker, capturer, or featured person. Bubbles' `doegor` reaction support remains a fold-only deepener of already-owned material rather than a duplicate public item. Uninspected media remains POSTED BY only.
 
 ## Verification
 
-WIKI Run 391 verification target: `ea10a0e5b21f7b99f06233c6f387a12ea6956858`.
+WIKI reader commit: `489119f783ff78185fbf36b365243ae74197efc6`.
 
-- Build `33898579064`: **success**, including `Build Astro wiki`.
-- Pages `33898579052`: **success**.
-- GitHub Pages preview build: **success**.
-- Artifact upload: **success**.
+- Build `33900573087`: **success**.
+- Pages `33900573112`: **success**.
+- GitHub Pages build/artifact flow: **success**.
 - `Deploy to GitHub Pages`: **success**.
-- Pages report: **success**.
 
-MAIN Run 391 verification target: `aedd7d56401a1fdb0f84ddf590bcbc0d6066dc31`.
-
-- `UL Hourly Build + Deploy` workflow `33898562444`: **failure**.
-- `Build + verify` failed before repository steps instantiated; the job exposed no step list.
-- Verified Cloudflare deployment was skipped.
-- Failed jobs were explicitly retried once; attempt 2 failed in the same pre-runner form and deployment stayed skipped.
-- Source verification, Astro, built-output verification, and Cloudflare therefore did not run and reject content.
+MAIN reader-facing pages changed **0** in Run 392. Run 392's last direct MAIN bookkeeping head before the successor census was `47abfb44ea34c11e781f506f56e2e3071b2baaf9`. Its `UL Hourly Build + Deploy` run `33900270442` failed on attempt 1 before repository steps instantiated; `Build + verify` exposed no steps and verified Cloudflare deployment was skipped. The failed build job was explicitly retried once while this state was being written; the retry had entered the queue, so no successful MAIN source verification / Astro / built-output verification / Cloudflare deployment is claimed here.
 
 ## Consumed cursors
 
-No `last_consumed_sha` moved because no miner branch advanced. The six MAIN-held families remain Wall, Core Rooms / Events, Daycare, Louvre, Mugen person-first, and Whiskey. Their newer reviewed heads remain durable while older consumed boundaries stay behind accepted MAIN work that has not cleared the mandatory publication gate.
+The new meems branch's initial safe baseline was reviewed as zero-delta at the Run 391 MAIN close. The successor Run 393 census subsequently caught meems moving again and now owns that new suffix.
+
+Wall is reviewed by Run 392 through `db47ea32c8dd1a970d28f2221b9e7550fdb4cb9d`, but its conservative `last_consumed_sha` must not leapfrog older accepted MAIN Wall work that remains behind the mandatory MAIN publication gate. The same publication-held logic continues for Core Rooms / Events, Daycare, Louvre, Mugen person-first, and Whiskey until MAIN verification actually executes successfully.
 
 ## Rails retained
 
-Hard identity, role, family-language, romance, attribution, privacy, source-contradiction, and earliest-surviving rails remain unchanged. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct. Uninspected media remains uninspected. No similar-name identity bridge, hidden-pixel inference, role-array chronology, or private/safety-sensitive detail was promoted.
+Hard identity, role, family-language, romance, attribution, privacy, source-contradiction, and earliest-surviving rails remain unchanged. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct. No similar-name identity bridge, hidden-pixel inference, role-array chronology, or private/safety-sensitive detail was promoted.
