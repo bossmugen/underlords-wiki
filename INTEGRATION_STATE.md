@@ -26,11 +26,11 @@ QOTD / Officers advanced from `0ecfe9ca0f5f8298b5cf48b3381ab842f3370257` to **`b
 
 ## Late Birthdays / PR / VC tail — DarkAsrai / Rose comes back under a new game name
 
-A late full-ref recheck caught `archive-miner/birthdays-pr-vc-deep-2026-08-24-2325` moving from `81fceda93f5d586eff149362527acc841aeb3273` to **`d8b4c0c6575a9712efd069a0b32d13fc58b78907`** after the primary Run 401 close-state snapshot. That suffix was reviewed checkpoint-first rather than left for a later integrator to rediscover.
+A late full-ref recheck caught `archive-miner/birthdays-pr-vc-deep-2026-08-24-2325` moving from `81fceda93f5d586eff149362527acc841aeb3273` to **`d8b4c0c6575a9712efd069a0b32d13fc58b78907`** after the primary Run 401 close-state snapshot. That substantive suffix was reviewed checkpoint-first rather than left for a later integrator to rediscover. The branch then advanced again through **`16b2f25814b53335032cb6349aa178b5bf30f269`** with the checkpoint / manifest / site-candidate packaging for the same finding; that second suffix adds no distinct lore family and is consumed as consolidation.
 
 The stable DarkAsrai account gives a clean identity-evolution / return scene. In the surfaced 2021 Discord onboarding the person answers the requested IGN / club fields as **`R O S E` / `Strategy`**. On the 2022 return their first human line is `Hi gilli`; Gilli answers one second later with `Welcome back rose!`, remembering the old call-name across more than a year. The same account then supplies a later game identity **`Galaxy` / `Dragons`**. The person-level beat is continuity through name churn: the game identity changes, but Gilli still recognizes who just walked back through the door.
 
-This is also an important status boundary, not a membership promotion. The two surfaced onboarding states explicitly name non-UL in-game clubs, so neither scene is rewritten into a UL in-game admission date and later exporter role arrays are not backdated over contemporaneous answers. Nothing here proves DarkAsrai never joined UL in-game later; that remains unresolved. Numeric age fields stay backstage. No safe canonical DarkAsrai WIKI owner exists, so the material is banked rather than turned into a thin dossier. MAIN's controlling ledger consumes this successful no-public-change suffix through `d8b4c0c6...`.
+This is also an important status boundary, not a membership promotion. The two surfaced onboarding states explicitly name non-UL in-game clubs, so neither scene is rewritten into a UL in-game admission date and later exporter role arrays are not backdated over contemporaneous answers. Nothing here proves DarkAsrai never joined UL in-game later; that remains unresolved. Numeric age fields stay backstage. No safe canonical DarkAsrai WIKI owner exists, so the material is banked rather than turned into a thin dossier. MAIN's controlling ledger consumes this successful no-public-change family through `16b2f258...`.
 
 ## MAIN publication gate
 
@@ -41,7 +41,7 @@ MAIN verification target `dae6772b5ff75794c2212f3e841f3aff1eb512f7` launched `UL
 ## Current reconciliation / safety rails
 
 - QOTD / Officers is reviewed and consumed through `b28dc044...`.
-- Birthdays / PR / VC is reviewed and consumed through `d8b4c0c6...`; DarkAsrai / Rose / Galaxy chronology is banked with Discord-social versus in-game-membership status kept separate.
+- Birthdays / PR / VC is reviewed and consumed through `16b2f258...`; DarkAsrai / Rose / Galaxy chronology is banked with Discord-social versus in-game-membership status kept separate.
 - Wall is reviewed through `c4b44d13...`; Yumi is WIKI-published, Rooks is meaning-deduped, and `sippp.gif` remains provenance/rabbit-hole material. Older accepted MAIN Wall work keeps the conservative consumed cursor behind.
 - Core Rooms / Events is reviewed through `a64a9422...`; Spritely / Lilly is banked and older accepted MAIN Core work keeps the conservative consumed cursor behind.
 - No identity bridge was created from similar names. No appointment chronology was inferred from exporter role arrays. No affectionate shorthand was literalized into family or romance. Earliest surviving remains earliest surviving, not guaranteed origin. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct.
