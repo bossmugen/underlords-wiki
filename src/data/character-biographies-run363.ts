@@ -6,9 +6,10 @@ const hishiroBase = hishiroNarrativeCharacterBios.hishiro;
 
 const hishiroSelfFiling: NarrativeSection = {
   period: "Wall of Shame / Fame",
-  title: "SHE DOES NOT NEED A SCREENSHOT TO FILE AGAINST HERSELF",
+  title: "SHE CAN FILE THE RECEIPT AND SIGN IT `:HEHE:`",
   paragraphs: [
     "Hishiro can make herself Wall material without asking a screenshot to do the embarrassing work. By late 2023 she is willing to post a plain-text confession about getting outplayed and let the room react to the sentence itself. There is no image carrying the joke and no somebody-else-caught-me defense available. She has written the charge, submitted it, and left her own reputation sitting on the counter.",
+    "The older Wall version is even smaller and somehow more Hishiro. In September 2020 she is the lone `Hehe` on one of Anthos's screenshot filings; twice more that month, Hishiro posts an attachment of her own and follows it within seconds with `:Hehe:`. The useful part is already done. The tiny grin is the signature. Her practical screenshot-helper brain and her gremlin court-stamp are not competing personalities; sometimes she completes the filing and immediately becomes the menace who seems delighted that the filing exists.",
     "That fits the older Cold/Hishiro habit of turning self-description into self-heckling. `I'm phenomenal at holding doors open :D` can sit beside `I'm also short?` without either becoming a solemn personality claim. The joke is that she can supply an extremely ordinary credential, a physical fact, or a mistake with nearly the same compact delivery she uses for practical answers. Hishiro does not seem especially protective of looking impressive if the less flattering sentence is funnier and true enough for the moment.",
     "Her earlier comment that `the wall feels eternal` lands differently beside that willingness to feed it herself. It is not a date for the Wall's origin and it does not make her its historian. It does make the fatigue sound participant-level: Hishiro knows the machine, knows what it does to people, and can still walk up years later and save everybody the upload bandwidth by prosecuting herself in text."
   ]
