@@ -58,7 +58,7 @@ That file was already a strong finished person-first biography but was not regis
 
 Exact Ryo-publication head:
 - Pages workflow `33869798914`: **success**, including GitHub Pages build, upload, and actual deployment.
-- Dedicated Build workflow `33869798936`: still **in progress** at state close on a real GitHub runner; Pages has independently completed the Astro Pages build/deploy path successfully. No dedicated-Build failure is claimed.
+- Dedicated Build workflow `33869798936`: **success**, including `npm install`, `Build Astro wiki`, and build-status publication.
 
 ## MAIN status
 
