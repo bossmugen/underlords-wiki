@@ -8,7 +8,7 @@ MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH
 
 Run 392 discovered one new active miner identity, `archive-miner/meems-2020-2025`, taking the tracked census from **49 to 50 identities = 29 active refs + 21 historical/missing refs**. It was registered before deep review. Its initial head was the already-reviewed Run 391 MAIN close, so the one-time safe baseline itself contained no miner-specific public delta.
 
-Run 392 also reviewed the Wall suffix through `db47ea32c8dd1a970d28f2221b9e7550fdb4cb9d`. During closing concurrency, the successor census then caught additional Daycare, Louvre, and meems movement and persisted those heads as pending review. Run 392 deliberately does not overwrite that newer queue state.
+Run 392 also reviewed the Wall suffix through `db47ea32c8dd1a970d28f2221b9e7550fdb4cb9d`. During closing concurrency, the successor census then caught additional Daycare, Louvre, and meems movement and persisted pending review state; a still-later Run 392 ref check observed Louvre at `16dea3b274b2545ef583fd6e923f8064f3d9f707` and meems at `793a72958c9b68162e005f3536a903c09baf887b`. Those late heads are handed to the successor rather than being misrepresented as reviewed here.
 
 Both Club-Only recovery priorities were rechecked checkpoint-first: 2021–2026 remains current through `e45fb11c9239e236231bb65645dfd0285bc0078b`, and 2020 remains current through `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`. Their saturation / retrieval-locality / stop-churn boundaries are unchanged. No raw archive was re-mined.
 
@@ -31,11 +31,11 @@ WIKI reader commit: `489119f783ff78185fbf36b365243ae74197efc6`.
 - GitHub Pages build/artifact flow: **success**.
 - `Deploy to GitHub Pages`: **success**.
 
-MAIN reader-facing pages changed **0** in Run 392. Run 392's last direct MAIN bookkeeping head before the successor census was `47abfb44ea34c11e781f506f56e2e3071b2baaf9`. Its `UL Hourly Build + Deploy` run `33900270442` failed on attempt 1 before repository steps instantiated; `Build + verify` exposed no steps and verified Cloudflare deployment was skipped. The failed build job was explicitly retried once while this state was being written; the retry had entered the queue, so no successful MAIN source verification / Astro / built-output verification / Cloudflare deployment is claimed here.
+MAIN reader-facing pages changed **0** in Run 392. Run 392's last direct MAIN bookkeeping head before the successor census was `47abfb44ea34c11e781f506f56e2e3071b2baaf9`. Its `UL Hourly Build + Deploy` run `33900270442` failed on attempt 1 before repository steps instantiated; `Build + verify` exposed no steps and verified Cloudflare deployment was skipped. The failed build job was explicitly retried once; attempt 2 failed in the same pre-runner form with no step list, and deployment again stayed skipped. Source verification, Astro, built-output verification, and Cloudflare therefore never executed and rejected reader content. No new MAIN deployment is claimed.
 
 ## Consumed cursors
 
-The new meems branch's initial safe baseline was reviewed as zero-delta at the Run 391 MAIN close. The successor Run 393 census subsequently caught meems moving again and now owns that new suffix.
+The new meems branch's initial safe baseline was reviewed as zero-delta at the Run 391 MAIN close. A later meems head appeared during closing concurrency and is handed to the successor run for intake-only review.
 
 Wall is reviewed by Run 392 through `db47ea32c8dd1a970d28f2221b9e7550fdb4cb9d`, but its conservative `last_consumed_sha` must not leapfrog older accepted MAIN Wall work that remains behind the mandatory MAIN publication gate. The same publication-held logic continues for Core Rooms / Events, Daycare, Louvre, Mugen person-first, and Whiskey until MAIN verification actually executes successfully.
 
