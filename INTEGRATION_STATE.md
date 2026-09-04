@@ -1,8 +1,8 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-04 Run 367_
+_Last updated: 2026-09-04 Run 368_
 
-MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Historical detail for this cycle is in `INTEGRATION_STATE_RUN_367.md` and `INTEGRATION_REPORT_RUN_367.md`.
+MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Full detail for this cycle is in `INTEGRATION_STATE_RUN_368.md`; MAIN also carries `archive-intake/INTEGRATION_REPORT_RUN_368.md`.
 
 ## Current census / queue
 
@@ -18,36 +18,40 @@ Both Club-Only recovery priorities remain current through head:
 - `archive-miner/club-only-2021-2026-hourly` → `e45fb11c9239e236231bb65645dfd0285bc0078b`
 - `archive-miner-clubonly-2020-hourly` → `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`
 
-The 2021–2026 checkpoint was re-read directly this run. Its existing A/B findings, exhausted retrieval routes, and do-not-churn boundary remain unchanged.
+The 2021–2026 checkpoint was re-read directly. Its saturated retrieval routes and do-not-churn boundary remain controlling.
 
-## Run 367 intake
+## Run 368 intake
 
-Two deltas were ultimately reviewed. **Wall** moved `e553092ea974f65fbb81a1c8eeaf40d5911c4446 -> 9e9ce04277f658c1e618c40165ab26fdbfe5bc19`. A late closing census then caught **Daycare** moving `2e26f1d7a02b7301e68c6d23ee76e5c4d2af2903 -> 3489b514020403cd2038a6ec04366a837fe02d3f`. Both were checkpoint-first, intake-only; no raw archive was re-mined.
+Wall was reviewed checkpoint-first through late head `2bbab436981b32c1e78ceecced01cd7b422bf96e`. Eos's q8 artifact-disappearance lifecycle now has a structured public WIKI owner. S / Oksr gains same-account continuity plus compact receipt-filing/Gilli shorthand but remains banked without a safe substantial public owner. YoChan / foxkanojo now has a strong Wall-specific person read: reaction-first gallery gremlin / low-prose spectator who unexpectedly turns practical when a SEA-side artifact needs moving toward Global, even while admitting `idk how to paste to raja global`; the bounded Candy tease shorthand is retained. Dainyamite's q18 edge closes as old-receipt summon → immediate laugh callback without claiming the uninspected image depicts Dainyamite.
 
-**Ten:** Rookie Cookie's `It’s the morning wood talking` carries `W / O / 🅾️ / D / HELP`, with Ten and Ren on every reaction object. That gives Ten a clean contradiction and Ten↔Ren a clean shared-humor lane: the guy who complains that UL records everything is also willing to help decorate somebody else's evidence. The export does not preserve who reacted first.
+Mugen person-first advanced late to `ff5e18d5f387bf93fbf081dffa4b3e501cb3e39e`. The pass is a bounded negative: fresh reverse-angle and channel checks support already-owned mechanisms but add no new contradiction, relationship grammar, Petty Crime, ordinary-life texture, or public Mugen edit.
 
-**Reinaa / Reiinnaa:** a replacement account explicitly says `(my old acc died sooo new acc)`, and Gilli immediately offers to kick the dead account. This directly repairs the old stable-ID endpoint into person continuity: technical login failure, minimal explanation, practical cleanup, no social reintroduction ceremony. Stable IDs stay distinct and replacement-account Daycare posting is not inferred.
+Daycare's Reinaa/Reiinnaa replacement-account continuity was already reconciled by the concurrent preceding pass and was novelty-checked without duplicate publication.
 
 ## Public reconciliation
 
-`src/data/character-biographies-ten.ts` is the canonical WIKI owner. The first Run-367 note saying no Ten owner existed was incorrect and is superseded. Ten's biography was resynthesized around response-time humor, Screenshot Court self-incrimination, the reaction-bar complicity, Ten↔Ren shorthand, and `Petty Crimes` rather than receiving another receipt-shaped paragraph.
+WIKI reader commit **`f53811db1fd01579ee8a2711d74a0cf97bf8d577`** added `src/data/integrator-episodes-20260904-q8.ts`: **Where Did Q8 Go?** The scene stays person-shaped rather than forensic. Eos notices a shared Wall object is missing, asks where it went, gets Mia's `Mugs killed it`, reacts dramatically, then turns the complaint into a plan to ask Mugs. The useful read is attachment to shared house objects plus a practical urge to trace the decision-maker when one moves.
 
-Reinaa remains banked because neither public surface currently has a safe substantial owner; a strong continuity correction is not permission to manufacture a thin Cast page.
+`src/data/all-content.ts` automatically loads `integrator-episodes*.ts`, so the episode is active public content. Later q8 evidence was reconciled under that owner rather than duplicated.
 
-Wall backstage: gammaramma remains ultra-thin; q3 insect text-recurrence is closed negative; q18 chicken/ribs edge stays bounded by uninspected pixels/referents. Daycare backstage: RH16 now has exact bot-break screenshot attachment coordinates, but the screenshots remain uninspected and Saber remains plausible/unproven.
+YoChan, S/Oksr, and Reinaa remain banked because public ownership/page depth is insufficient, not because the evidence is weak. Dainyamite remains relationship/archive-memory support. No new Mugen WIKI edit was warranted.
 
-MAIN does not mirror WIKI copy. Its current Ten biography already carries the stronger cumulative memory/legacy mechanism; no new MAIN reader mutation was made from either suffix.
+MAIN does not mirror WIKI copy. Its accepted person-first debt remains separately verification-held.
 
 ## Verification / deployment
 
-WIKI reader commit **`87335ada35c6d848a27f7d8d626a3180fdced6e8`** updates Ten. Exact-head Build workflow **33857075297** succeeded through Astro. Exact-head Pages workflow **33857075455** succeeded, including preview build, artifact upload, and **Deploy to GitHub Pages**. The final state-only head's own Build/Pages disposition is checked separately at close.
+Exact reader head `f53811db1fd01579ee8a2711d74a0cf97bf8d577`:
+- Build Underlords Wiki **33858640389** — success
+- Pages / Deploy Underlords Wiki Preview **33858640388** — success, including deployment
 
-MAIN remains independently gated. Workflow **33856803161** on its Run-367 reconciliation head failed before repository verification instantiated; its `Build + verify` job had no steps / no runner, and verified Cloudflare deployment was skipped.
+MAIN remains independently gated. Its Run-368 opening workflow **33858475972** failed before repository verification steps instantiated; the failed jobs were rerun and attempt 2 failed identically with no runner/no steps, while verified Cloudflare deployment stayed skipped.
 
 ## Consumed cursors
 
-No conservative publication-held cursor advances. Wall is reviewed through `9e9ce04277f658c1e618c40165ab26fdbfe5bc19` and Daycare through `3489b514020403cd2038a6ec04366a837fe02d3f`; MAIN's controlling consumed SHAs remain `ea893e9ffb682e2cc0007e10c9f6dcc1df36b20d` and `fb865a0a2c2a23f0483933975c766dcadcd504fc` because older accepted reader debt is still unverified on MAIN.
+No conservative MAIN publication-held cursor advances. Wall is reviewed through `2bbab436981b32c1e78ceecced01cd7b422bf96e` while consumed remains `ea893e9ffb682e2cc0007e10c9f6dcc1df36b20d`. Mugen is reviewed through `ff5e18d5f387bf93fbf081dffa4b3e501cb3e39e` while consumed remains `89097a386de08c6001cd14165ffb3e5aed289a10`. Core, Daycare, Louvre, and Whiskey remain reviewed/current with older MAIN reader debt still verification-held.
+
+Their newer reviewed heads are durably recorded on MAIN so they are not treated as unread.
 
 ## Rails retained
 
-Hard canon and resolved identity bridges remain binding. Ten is not GroxTen. Reaction membership does not identify who started a stack. Reinaa's account continuity is explicit rather than name-inferred; account IDs remain distinct. Joke rank/family/romance/violence language remains non-literal without support. Earliest surviving is not origin. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct. Uninspected media stays uninspected.
+Hard canon and resolved identity bridges remain binding. `ily` is not romance proof. Reaction membership does not identify first mover. Earliest surviving is not origin. Similar names do not merge people. YoChan's screenshot is POSTED BY YoChan only. q8/q18 and other noted media remain uninspected. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct.
