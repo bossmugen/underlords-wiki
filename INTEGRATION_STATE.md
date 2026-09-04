@@ -2,7 +2,7 @@
 
 _Last updated: 2026-09-04 Run 388_
 
-MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. MAIN carries the matching `archive-intake/INTEGRATION_REPORT_RUN_388.md`.
+MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. MAIN carries the matching `archive-intake/INTEGRATION_REPORT_RUN_388.md`; this WIKI also carries `INTEGRATION_STATE_RUN_388.md`.
 
 ## Current census / queue
 
@@ -21,19 +21,23 @@ Both Club-Only recovery priorities remain current through head: `archive-miner/c
 
 ## Public reconciliation
 
-Reader-facing WIKI change: **Gabu**.
+Reader-facing WIKI change: **Gabu** plus a hard-canon identity repair.
 
-Fresh Daycare evidence deepened her systems-care contradiction rather than creating a bot-history ledger. In April 2023 Carl was being tested against Saber's event-alert work; Gabu pinned `Gabu's alerts check`, wrote `If everything works ok, i will try replace saber with carl`, tracked warning/start alerts across the week, and returned to edit the checklist days later. The public read now makes the mechanism explicit: she can be soft with people and methodical with infrastructure because both behaviors are trying to make the next person's experience easier. Carl replacing/testing against Saber's event-alert function does **not** identify Saber as the separate March 2023 bot-breaking casualty.
+Fresh Daycare evidence deepened Gabu's systems-care contradiction rather than creating a bot-history ledger. In April 2023 Carl was being tested against Saber's event-alert work; Gabu pinned `Gabu's alerts check`, wrote `If everything works ok, i will try replace saber with carl`, tracked alerts across the week, and returned to edit the checklist days later. The canonical deep Gabu owner now makes the mechanism explicit: she can be soft with people and methodical with infrastructure because both behaviors are trying to make the next person's experience easier. Carl replacing/testing against Saber's event-alert function does **not** identify Saber as the separate March 2023 bot-breaking casualty.
 
-The first concurrent Run-388 routing pass briefly included a broader 2022→2024 access-continuity paragraph, but commit `6cddd90db546f1188759b8246a6aab16422a6f2c` corrected the public overlay back to the verified QA pattern before close. Do not rediscover or restore the superseded access paragraph from that transient commit history.
+A transient Run-388 overlay briefly duplicated that already-folded material. Commit `c370b00ca8c36226359e0c2388cedb9a1be7b084` emptied the overlay so `src/data/character-bios-officers-core-deep.ts` remains the sole public narrative owner. Do not rediscover or restore the superseded duplicate.
 
-A separate concurrent hard-canon correction on current head `b133af6b23890f9f09d018cb24130d9ca322fbaf` also removes the incorrect Akariel→Zyrcant collapse. Akariel and Zyrcant remain separate people; Akariel's aliases/Wall behavior must not be assigned to Zyrcant.
+The WIKI also carried a stale Akariel→Zyrcant identity collapse. Commit `b133af6b23890f9f09d018cb24130d9ca322fbaf` removed Akariel aliases and Wall receipts from Zyrcant, restoring Zyrcant's own Amaurot/VIP context. `WikiLayout.astro` already imports `canonicalize-cast`, so this correction is in the public page path; commit `fe9585118f9d22fa8097679dbfbed7147517f664` also makes canonicalization explicit on `all-content` load. Akariel and Zyrcant remain separate people. No new Akariel page was invented merely to repair the bridge.
 
-Fresh Wall Crystalia material was meaning-duplicate/corroboration because MAIN already owns the same quiet-self-authorship / high-peer-visibility aquatic mythology. Fresh Type-X↔Gilli reciprocal teasing and Louvre Skully theatrical-entrance→update-fatigue texture were banked because there is no safe canonical public owner yet. The late Mugen close package explicitly produced no public candidate.
+Fresh Wall Crystalia material was meaning-duplicate/corroboration against an existing person read. Fresh Type-X↔Gilli reciprocal teasing and Louvre Skully theatrical-entrance→update-fatigue texture were banked because there is no safe canonical public owner yet. The late Mugen close package explicitly produced no public candidate.
 
 ## Verification
 
-Current WIKI reader head `b133af6b23890f9f09d018cb24130d9ca322fbaf` is green on the repository's existing exact-head checks: Build workflow `33891446383` succeeded and Pages workflow `33891446411` succeeded through deployment.
+Final reader head for this run: `c370b00ca8c36226359e0c2388cedb9a1be7b084`.
+
+- Astro Build workflow `33891845206`: build job **success**.
+- Pages workflow `33891845183`: preview build **success** and `Deploy to GitHub Pages` **success**.
+- The earlier Akariel/Zyrcant repair head `b133af6b23890f9f09d018cb24130d9ca322fbaf` independently passed Build `33891446383` and Pages `33891446411` including deployment.
 
 MAIN report target `27bb108bf7e6c8df49c4aaf1aa1e14ffcc4017ee` triggered workflow `33891409984`. Attempt 1 failed before repository steps instantiated. The failed `Build + verify` job was explicitly rerun once; attempt 2 failed in the same pre-runner shape, and verified Cloudflare deployment was skipped. Source verification, Astro, built-output verification, and Cloudflare deployment therefore did **not** run and reject content. MAIN remains **not green and not newly deployed**.
 
@@ -43,4 +47,4 @@ No conservative consumed cursor advanced across the six MAIN-held families: Wall
 
 ## Rails retained
 
-Hard identity, role, family-language, romance, attribution, privacy, source-contradiction, and earliest-surviving rails remain unchanged. No similar-name identity bridge was inferred. No export-time role array was converted into appointment chronology. Type-X's `kiss me` / `Just kidding hahaha` scene was not turned into romance/sex. Skully's local-clock mismatch was not turned into geography/timezone. No POSTED BY claim was upgraded to MADE BY / CAPTURED BY / FEATURING.
+Hard identity, role, family-language, romance, attribution, privacy, source-contradiction, and earliest-surviving rails remain unchanged. Akariel ≠ Zyrcant. No similar-name identity bridge was inferred. No export-time role array was converted into appointment chronology. Type-X teasing was not turned into romance/sex. Skully's local-clock mismatch was not turned into geography/timezone. No POSTED BY claim was upgraded to MADE BY / CAPTURED BY / FEATURING.
