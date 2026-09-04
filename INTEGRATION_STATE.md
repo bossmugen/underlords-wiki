@@ -1,45 +1,51 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-04 Run 394 reconciliation_
+_Last updated: 2026-09-04 Run 394 final reconciliation_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Run 394 closes at **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 pending review, 0 backlog, 0 overdue**. Eight families are publication-held rather than unread: Wall, Core Rooms / Events, Daycare, Louvre, Mugen person-first, Whiskey, Meems, and Backroom. Both Club-Only recovery priorities remain current through head; no raw archive was re-mined.
 
-## Run 394 public reconciliation
+## Run 394 reader publication — May / Mayvis
 
-**Reader-facing WIKI changes: 0.**
+The Louvre miner's stable archive identity `469625932974391297` / `br4ind34d` / `braindead` is now safely reconciled to the existing **May / Mayvis** character. The bridge is the stable account plus the same-scene `Mayviss` address, not similar-name inference. This prevents a duplicate mystery Cast page and lets the person-first material live with its real public owner.
 
-The only substantive new person material is a Louvre scaffold for stable archive identity `469625932974391297` / `br4ind34d` / `braindead`. It is strong enough to keep but does not yet have a resolved canonical Cast owner. Public search/registry checks found no safe existing owner under that stable identity/name, so no duplicate or mystery person page was fabricated.
+Reader commit **`2246b67c91818177a742518f32972895f5e3dbc0`** folds the material into May: repeated check-in/absence accounting even after Gilli explicitly removes the pressure; the same Gilli relationship switching easily between reassurance and Zepeto teasing; component-level outfit judgment; Anthos summoning May toward a login with very little ceremony; the nonliteral `OUR KID CAN BE EVOLVED` game bit; and Petty Crimes including `doing tings`, `the dress is just,,,,,,`, `heyyyy I'm shopping`, and the east/west/sun navigation collapse.
 
-The cumulative person read is worth preserving for later ownership resolution: braindead repeatedly accounts for absence/check-in in very unserious language (`SOWWY...`, `doing tings`) even after Gilli explicitly removes pressure, while separate outfit discussion shows precise component-level judgment (`the hair is alright` / `it doesn't go with anything else lol` / `the dress is just,,,,,,`). Anthos can also summon braindead into a game-login context quickly and later coordinate the nonliteral `OUR KID CAN BE EVOLVED` game bit. The contradiction is low-ceremony presentation with conscientious participation and visual attention, not a diagnosis or a formal-role claim.
+The useful contradiction is loose, typo-heavy presentation with conscientious participation and precise visual attention. The private cause behind one May absence remains private. Open Louvre rabbits remain `Walter`, `sexy fluorescent shrimp gang`, the exact east/west/sun task, and media attribution/provenance. POSTED BY remains distinct from MADE BY / CAPTURED BY / FEATURING.
 
-Open provenance/context rabbits remain open: `Walter`, `sexy fluorescent shrimp gang`, and the east/west/sun sequence. The later attachment is POSTED BY braindead only; media-bearing-post counts are not maker credits.
+Exact reader commit `2246b67...` passed Build workflow **`33904335197`** and Pages workflow **`33904335191`**. Both completed successfully; Pages completed build, deployment, and report. May's Run-394 fold is therefore green and deployed.
 
-## New branch baseline
+## Raja Photobooth — newly discovered branch, fully reviewed
 
-Run 394 discovered `archive-miner/raja-photobooth-z01-z22-2026-09-04` at `4bf6cbfeee8c47286778f100a8fdcc387988971e` and persisted it to MAIN's branch ledger before deep review. That ref currently points at an inherited Run-393 MAIN state commit and has no unique Raja miner commit or intake-local handoff yet. The empty baseline was reviewed successfully and consumed to that SHA so it will not be reread until the branch actually advances.
+Run 394 discovered `archive-miner/raja-photobooth-z01-z22-2026-09-04`, persisted it before deep review at its inherited baseline, then caught multiple late advances during closing census. The branch is fully reviewed checkpoint-first through final handoff **`77935b187c9c6bc351dff049dd453689a5f79ac7`** and consumed through that same SHA. No raw archive was re-mined; the miner remains physically partial at z22, with z23+ / final ZIP / transcript absent from this quarry.
 
-## Louvre review state
+The strongest direct visual is **Mere / mere15 carrying the Dragon Raja title `Syenitha's troublemaker`** via the visible UI stack `Syenitha's troublemaker → UnderLords → mere15`. Sye/Syenitha and Mere are already separately identified. This is publishable relationship metadata in principle, but the title alone does not define romance, family, sexuality, authority, or even the joke's origin. Subject solved; meaning remains a transcript/callback rabbit.
 
-Louvre is reviewed checkpoint-first through `96c04103deae4736d1ce51c7cb32017cdc00cb7e`, advanced from prior reviewed `16dea3b274b2545ef583fd6e923f8064f3d9f707`. The braindead scaffold above is accepted/banked. No public page was created because canonical ownership is unresolved, not because the evidence threshold was too high. Louvre's older accepted MAIN reader debt remains verifier-held, so its conservative consumed cursor remains behind the reviewed head.
+Rummy / Mochii's 2022 `FASHION RAJA / UNDERLORDS EXCLUSIVE` cover adds a cluster of artifact characterization: `I was kidnapped by Cele and that how I arrive here`, `got adopted:D`, `pro in the kitchen`, and `Known to read a lot of BL`. Celeana/Celery and Rummy/Mochii identity joins are already user-confirmed. Keep the kidnapping/adoption wording as stylized origin/fake-family material pending transcript corroboration; adopter remains unknown; kitchen and BL are strong Petty Crimes seeds rather than clean factual bullets yet.
+
+The same cover prints **`www.Underlords.com/stafflist`**. That is direct 2022 fake-site / staff-directory world-building and a strong cross-era callback candidate, not proof that the URL existed or that the 2026 archive site descends from it. Separate FASHION RAJA covers characterize Ren / Reny V. as a `fashion icon` and Mia / Miaka as `The Diamond Miaka` / `Poster Creator and Model!`; these are creative-reputation scenes, not formal offices. FASHION RAJA is now a strong recurring native visual-format candidate.
+
+Held Raja rabbits: Red Outfit Picture Day organizer/date/native name; RV's `Cutie <3` / `NOODLE` second-person identity; `Siow = Snow` remains probable only; FASHION RAJA creator/editor/authorship; holiday-card authorship; z23+ / final ZIP / transcript joins. Dragon Raja Minister/Executive/Chief/Teamleiter strings remain game-default UI, not UL governance.
+
+No Raja reader copy was added this run. That is a placement/context decision, not a high-proof rejection: the relationship meaning and creator chains are still unresolved, while the Rummy mini-bio explicitly benefits from the missing transcript before it is flattened into biography fact.
+
+## Louvre consumption state
+
+Louvre is reviewed through `96c04103deae4736d1ce51c7cb32017cdc00cb7e`, advanced from prior reviewed `16dea3b274b2545ef583fd6e923f8064f3d9f707`. Its May material is now published safely on WIKI. Its conservative consumed cursor remains `cb7994b08c9a89051df732f27a99c1dd79a5ae93` because older accepted MAIN Louvre reader debt is still verifier-held.
 
 ## Recovery / anti-starvation
 
-`archive-miner/club-only-2021-2026-hourly` was re-read checkpoint-first and remains at its documented saturation / retrieval-failure / do-not-churn boundary with no new delta. `archive-miner-clubonly-2020-hourly` remains current; its head is a shared task-standard sync rather than new miner evidence. No raw archive was re-mined. Run 394 also reviewed the newly discovered Raja ref, so the recovery work did not starve another pending branch.
+`archive-miner/club-only-2021-2026-hourly` was re-read checkpoint-first and remains at its documented saturation / retrieval-failure / do-not-churn boundary with no new delta. `archive-miner-clubonly-2020-hourly` remains current; its head is a shared task-standard sync rather than new miner evidence. Run 394 also completed the newly discovered Raja branch and Louvre advance, so recovery did not starve fresh work.
 
-## Current reader-facing ancestry
+## MAIN publication gate
 
-Run 393 remains the latest reader-facing WIKI publication: Pride's person-first social-evasion / staged-exit deepener plus the Zyrcant/Akariel hard-canon repair. Those changes were built and deployed successfully. Run 394 intentionally adds no new reader copy because the new candidate has no safe canonical owner.
-
-## Run 394 verification / deployment
-
-Exact Run-394 WIKI state commit `08aad91a039ce73e58ce3e59d344c08121c3b96c` passed Build workflow `33904011448` and Pages workflow `33904011396`. The Pages workflow completed build, deploy, and report successfully. This file's later `[skip ci]` close only records those already-completed results; it does not change reader code.
+MAIN reader-facing pages changed: 0. Verification target `bb3af284a74850f3a9cc58511dda31323d43d693` triggered workflow `33903972471`; attempt 1 failed before `Build + verify` instantiated repository steps, and the explicit rerun failed in the same pre-runner shape. Verified Cloudflare deployment was skipped. MAIN therefore remains not green / not newly deployed, with no demonstrated source-verifier, Astro, built-output, or content failure because those steps never executed.
 
 ## Consumed cursors
 
-- Raja Photobooth branch: `null → 4bf6cbfeee8c47286778f100a8fdcc387988971e` after successful empty-baseline review.
-- Louvre: reviewed through `96c04103deae4736d1ce51c7cb32017cdc00cb7e`; consumed cursor remains `cb7994b08c9a89051df732f27a99c1dd79a5ae93` because accepted MAIN Louvre publication debt remains outstanding.
-- Other branch consumption boundaries are unchanged from the controlling MAIN ledger.
+- Raja Photobooth: `null → 77935b187c9c6bc351dff049dd453689a5f79ac7` after all late suffixes were caught and reviewed.
+- Louvre: reviewed through `96c04103deae4736d1ce51c7cb32017cdc00cb7e`; consumed remains `cb7994b08c9a89051df732f27a99c1dd79a5ae93` because older accepted MAIN publication debt remains outstanding.
+- Other branch consumption boundaries remain as recorded in MAIN's controlling ledger.
 
 ## Rails retained
 
-Hard identity, resolved-correction, role, family-language, romance, attribution, privacy, source-contradiction, and earliest-surviving rails remain unchanged. **Akariel / Akariel™ / `akariel_star` remain Zyrcant aliases under controlling canon.** SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct. No similar-name bridge, hidden-pixel inference, export-role chronology, or private/safety-sensitive detail was promoted.
+Hard identity, role, family-language, romance, attribution, privacy, source-contradiction, and earliest-surviving rails remain unchanged. May's reconciliation uses stable account evidence. **Akariel / Akariel™ / `akariel_star` remain Zyrcant aliases under controlling canon.** `Syenitha's troublemaker` remains relationship metadata rather than a relationship-type declaration. Rummy's `kidnapped` / `adopted` wording remains stylized artifact language pending corroboration. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct.
