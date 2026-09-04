@@ -28,7 +28,8 @@ export const kiroNarrativeCharacterBios: Record<string, CharacterNarrative> = {
         title: "The Send button gets smaller",
         paragraphs: [
           "Kiro later explains that he used to think through what to say, how it might land, and whether to hit Send at all. Once he knows the UL `fam`, that social friction matters less. The change is not a personality transplant. The same person who can over-process interaction eventually calls himself `elegantly deranged` and says it like no explanatory footnote is required.",
-          "His rough-banter scenes show the same comfort from another angle. Kiro can throw the joke and, when Gilli says `We are keeping Kiro. He cops the crap`, answer almost immediately with joke reactions instead of defending his dignity. Trusted room, low explanatory burden, no need to turn two scenes into blanket permission for anybody to cross boundaries."
+          "His rough-banter scenes show the same comfort from another angle. Kiro can throw the joke and, when Gilli says `We are keeping Kiro. He cops the crap`, answer almost immediately with joke reactions instead of defending his dignity. Trusted room, low explanatory burden, no need to turn two scenes into blanket permission for anybody to cross boundaries.",
+          "Seth gives Kiro another version of that low-friction teasing. Kiro files `Seraph needs some explaining to do` on the Wall; more than three days later Seth returns to that exact filing with `Lol,no explanation for you,dear`. Kiro is among the people laughing at the comeback. The delayed answer does not require Kiro to rebuild the joke, and Seth's refusal does not end it — Kiro simply joins the laugh track. It is a small reciprocal lane: mock accountability, affectionate refusal, everybody survives. `Dear` stays joke-softening language here, not a romance claim."
         ]
       },
       {
