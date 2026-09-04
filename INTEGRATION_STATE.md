@@ -1,8 +1,8 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-04 Run 390 reconciliation_
+_Last updated: 2026-09-04 Run 391 reconciliation_
 
-MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. MAIN carries `archive-intake/INTEGRATION_REPORT_RUN_390.md`; this WIKI carries `INTEGRATION_STATE_RUN_390.md`.
+MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. MAIN carries `archive-intake/INTEGRATION_REPORT_RUN_391.md`; this WIKI carries `INTEGRATION_STATE_RUN_391.md`.
 
 ## Current census / queue
 
@@ -14,32 +14,38 @@ Full closing census: **49 tracked miner identities = 28 active refs + 21 histori
 - backlog: 0
 - overdue: 0
 
-Run 390 reviewed Wall through `17d43862cd40dfcd0e680da14a14fabfc6a77ceb`, Louvre through `39edd54926abe23232143255716780d32c36d9e0`, and a late-closing Mugen person-first suffix through `f9c1fa4ba8362a967e10dfcd3b6c7f6a7817f3a7`. Both Club-Only recovery priorities remain current through head. No raw archive was re-mined.
+Run 391 is a genuine no-delta pass: every active miner ref matched the Run 390 closing head. Wall remains at `17d43862cd40dfcd0e680da14a14fabfc6a77ceb`, Louvre at `39edd54926abe23232143255716780d32c36d9e0`, Mugen person-first at `f9c1fa4ba8362a967e10dfcd3b6c7f6a7817f3a7`, Core Rooms / Events at `4def21e7262a6211b11453fb1e91cc6c39366960`, Daycare at `b925502abd685fa9d17a6e845ce534a5fe589831`, and Whiskey at `d105c5ad606c6b3737734fdd1b95de7c8d74f960`. Both Club-Only recovery priorities remain current through head. The 2021–2026 checkpoint was re-read; its retrieval-locality failure and saturated-route boundary remain unchanged. No raw archive was re-mined.
 
 ## Public reconciliation
 
-Reader-facing WIKI owner: **Snow**, canonical file `src/data/character-biographies-snow.ts`.
+No reader-facing WIKI page changed in Run 391, and no Run 390 finding was repackaged as new. The latest reader-facing WIKI owner remains **Snow**, canonical file `src/data/character-biographies-snow.ts`.
 
-Two complementary Snow folds now coexist in that one biography instead of becoming duplicate Episodes or overlays. The first adds his practical tolerance for rough tools: janky controls, malformed generated output, accidental lake extension, and continuing to poke the toy anyway. The second broadens the mechanism into pathmaking: he pins other people's work and checks that Pins actually works, tells people `Everyone should give it a try`, explains enough of his AI-art process to make it usable while admitting six-hour exhaustion and `still learning the shit as well`, gives Moon concrete build guidance and routes her to Yuuma's guides, and later offers to make game channels around what people actually want. The person-read is not `Snow is the one true expert`; it is that Snow keeps reducing the distance between a person and the next usable step, including by pointing to somebody else's better resource.
+The two complementary Snow folds from Run 390 remain the current public synthesis: practical tolerance for rough tools and malformed generated output, plus his broader pathmaking habit of reducing the distance between another person and the next usable step without pretending he is the sole expert. KARIT and Marsy remain banked without safe canonical Cast owners; Tru Angel's Ultima / FFXIV comments remain B-tier game taste; the late Mugen suffix remains no-promotion because its material is already project-owned or belongs to other people.
 
-The current Wall handoffs keep **KARIT / `capst3r`** and **Marsy~ / `marsy08_`** banked. KARIT is a tiny, reaction-first gallery participant with dry one-line incredulity (`What in tarnation`) and a probable later audience summon; Marsy has almost no surviving Wall prose but is explicitly summoned by Gilli `for your entertainment` and later answers a receipt with `LOL`. Neither currently has a safe canonical public Cast owner, so no thin dossier was fabricated. Tru Angel's Ultima / FFXIV comments remain B-tier game taste only. The late Mugen person-first suffix explicitly produced no new promotion; Ciphy's `strippers tacos and pizza` recruitment memory is already public/project-owned.
+No new identity, role, relationship, provenance, privacy, or source contradiction was introduced this pass.
 
 ## Verification
 
-First Snow reader commit: `3d6cf15f9f4085e4b68155e429c659dc0a732884`.
-- Build `33896760345`: **success**.
-- Pages `33896760303`: **success**, including deployment.
+WIKI Run 391 verification target: `ea10a0e5b21f7b99f06233c6f387a12ea6956858`.
 
-Second Snow reader commit: `3831a6e2122a471007217142ecdaa7a5ed969e6b`.
-- Build `33897443052`: **success**.
-- Pages `33897443191`: **success**.
-- Pages jobs: preview build **success**, artifact upload **success**, `Deploy to GitHub Pages` **success**, report **success**.
+- Build `33898579064`: **success**, including `Build Astro wiki`.
+- Pages `33898579052`: **success**.
+- GitHub Pages preview build: **success**.
+- Artifact upload: **success**.
+- `Deploy to GitHub Pages`: **success**.
+- Pages report: **success**.
 
-MAIN verification target `7deb4271bbd5fc7053beeef26af7ec5c64b11028` produced workflow `33896997736`. Attempt 1 failed before `Build + verify` instantiated repository steps and skipped verified Cloudflare deployment. Failed jobs were explicitly retried once; attempt 2 failed in the same pre-runner shape and deployment was skipped again. Source verification, Astro, built-output verification, and Cloudflare therefore never actually ran.
+MAIN Run 391 verification target: `aedd7d56401a1fdb0f84ddf590bcbc0d6066dc31`.
+
+- `UL Hourly Build + Deploy` workflow `33898562444`: **failure**.
+- `Build + verify` failed before repository steps instantiated; the job exposed no step list.
+- Verified Cloudflare deployment was skipped.
+- Failed jobs were explicitly retried once; attempt 2 failed in the same pre-runner form and deployment stayed skipped.
+- Source verification, Astro, built-output verification, and Cloudflare therefore did not run and reject content.
 
 ## Consumed cursors
 
-No conservative consumed cursor advanced across the six MAIN-held families: Wall, Core Rooms / Events, Daycare, Louvre, Mugen person-first, and Whiskey. Their newer reviewed heads are durable so those exact suffixes should not be reread; older consumed boundaries stay behind accepted MAIN reader work that has not cleared the mandatory publication gate.
+No `last_consumed_sha` moved because no miner branch advanced. The six MAIN-held families remain Wall, Core Rooms / Events, Daycare, Louvre, Mugen person-first, and Whiskey. Their newer reviewed heads remain durable while older consumed boundaries stay behind accepted MAIN work that has not cleared the mandatory publication gate.
 
 ## Rails retained
 
