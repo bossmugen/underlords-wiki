@@ -1,37 +1,44 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-04 Run 408 final close_
+_Last updated: 2026-09-04 Run 409 final close_
 
-MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. The final Run 408 boundary is **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered, 4 pending review, 0 backlog, and 0 overdue**. Eight older MAIN publication-held families remain Wall, Backroom, Core Rooms / Events, Daycare, Louvre, Meems, Mugen person-first, and Whiskey. Both Club-Only recovery priorities remain current at their established saturation / do-not-churn boundaries; no raw archive was re-mined.
+MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Run 409 closes at **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered, 0 pending review, 0 backlog, and 0 overdue**. Eight older MAIN publication-held families remain Wall, Backroom, Core Rooms / Events, Daycare, Louvre, Meems, Mugen person-first, and Whiskey. Both Club-Only recovery priorities remain current at their established saturation / do-not-churn boundaries; no raw archive was re-mined.
 
-## Illien / Euros — reviewed, already public
+## Reviewed miner deltas
 
-Birthdays / PR / VC advanced through `96f6301a9f1f86c50b8bc761d7ddf21e902b2dc3` and was reviewed checkpoint-first from the previous consumed base. The meaningful May→August 2020 character progression is already public on both surfaces: Gilli handles Illien's first surfaced Discord access/tour scene; by August Illien is welcoming Allenne, trying to help with the tour himself, admitting `I still get a bit lost here LMAO XD`, and asking Ansun / Anthos for backup. WIKI already owns that chronology as a structured person dossier; MAIN already owns the richer person-first version. Another Episode or receipt paragraph would only duplicate the same character read.
+Four exact pending tails were reviewed checkpoint-first and intake-only through current head:
 
-The new packet's smaller extras remain banked rather than forced into public copy: Illien's complaint that Discord emojis look `between sarcastic and deranged`, and the later assigned-PR `speeling bee` QA catch. Both are valid Petty Crimes / lived-role texture, but neither changes the current biography enough to justify another append-only paragraph.
+- Backroom: `fe8f2bad44746cf74815b4e0defe18fe554ea068`
+- Daycare: `ab27514817f3849f0759cd77b295a367d99f9e73`
+- Whiskey: `72b99a9073298637145cb5eead2b63be6b150afd`
+- Mugen person-first: `ac5842b32962851874a760c942c351cc0835183e`
 
-The `GOODBYE UNDERLORDS` deployment rabbit remains unresolved. Exact-text/filename checks in currently indexed Announcements and Wall were locally negative, which narrows those routes only. May 28 remains Discord onboarding rather than exact in-game admission chronology. The probable Allenne display-name-handling step was not rewritten as a confirmed permission action, and no historical Officer appointment date was inferred from role arrays.
+A closing matching-ref census still returned 30 active miner refs, and the four reviewed heads remained unchanged.
 
-## Late Wall suffix — iBwoy catches the chorus immediately
+## Public character integrations
 
-A post-review branch census caught Wall moving from `6df272763ca99088af09da94b1043740018276e8` to `50939cd8efc46b80a5e17f2618f38be6eeb11f2c`. That fresh suffix was reviewed checkpoint-first and intake-only before close.
+Run 409's reader work lives in `src/data/character-biographies-run409.ts`; `src/data/character-page-data.ts` was updated so the new narrative layer is actually the active public owner instead of a decorative file no route reads.
 
-iBwoy's surviving Wall authorship is microscopic: `Eh`, exact exported `Rh`, then `Eh`, all on April 13, 2021. The useful part is the room around those three messages. Sye and Woohyuk are already passing `Eh` around; iBwoy joins; Eos, Ren and Gilli continue the same sound; six minutes later iBwoy's `Rh` is followed 2.625 seconds later by `Eh`. In that live chorus, a one-key wobble followed by immediate repair is more likely than not, but the exported `Rh` stays untouched and the inference stays bounded.
+**Noether:** the December 2023 Raja officer rebuild now gives the late Game Officer role a direct lived transition. Peers nominate her for concrete helpful behavior; Snow says the majority supports her but will ask whether she wants it first; on Dec. 7 he reports `Added noe`. Less than two weeks later Noether is already carrying the same courtesy into the Ame/Chubi discussion: ask whether they want the role and can actually stay around longer. This is period-specific process, not a timeless constitution.
 
-The person read is clean but deliberately small: almost no Wall prose, yet immediately in step with the room's nonsense. None of the three messages is a Reply or mention, so this supports group-level social fluency rather than a specific friendship. Neither MAIN nor WIKI currently has a safe iBwoy public owner, and this packet does not justify manufacturing a thin standalone Episode or a MAIN biography. The profile snippet is therefore banked for the next natural owner rather than padded into a page.
+**Rummy:** the Oct. 2024 recruiting-side beat is now folded into her existing useful-chaos contradiction. Wolf asks for Rummy to receive a role so she can help `sniping peepz applications`; Sye says `i made her agent`, then immediately wonders whether Agent actually grants invite permission. Agent remains direct period work/role text, not an Officer rank, and invite capability remains unresolved.
 
-The same suffix closes five q18 exact-parent checks as negative for surviving structured Reply children in this export only. It does not prove nobody answered by ordinary message, nor does it turn nearby uninspected Ren media into visual evidence. POSTED BY remains POSTED BY.
+**Anthos ↔ Baby Lyssa / Ghoulie:** the April–June 2021 Wall material is now relationship texture on both people instead of one more Screenshot Court incident. Anthos can cat-pun straight through Ghoulie's theatrical protest, exchange direct affection without requiring a solemn repair scene, then later answer `yes` as Ghoulie claims `this ma house` / `ma damn wall`. The read is friendship/social comfort: teasing and affection coexist; it is not romance, family, exclusivity, or blanket consent to every Wall filing.
 
-## Closing queue
+**Mugen:** the Yumi self-reading pass adds a needed correction inside `Control freak, not oracle`. Yumi initially resists parts, revises some of that resistance, and eventually says the material lands `close to home...`. The safe Mugen read is that she can offer a possible person-reading as something the other person may accept, reject, or revise rather than seizing authorship of their interior. Native Mugen message IDs, timestamp, reply edges, and exact wording were not reacquired, so no exact Mugen quote was invented.
 
-After the Wall review, the final ref recheck caught four exact successor boundaries: Backroom **`fe8f2bad44746cf74815b4e0defe18fe554ea068`**, Daycare **`ab27514817f3849f0759cd77b295a367d99f9e73`**, Whiskey **`72b99a9073298637145cb5eead2b63be6b150afd`**, and Mugen person-first **`daaf7cfcb16cf92abf1338f1ce63c3fe7f3fa1cd`**. Backroom had moved again after its first late-seen `49fb0bcc...`; Mugen person-first also advanced after the earlier census. All four exact `last_seen_sha` boundaries are persisted on MAIN before deep review. None is backlog or overdue.
+## Banked / unresolved
 
-Birthdays / PR / VC advances `last_consumed_sha` through `96f6301a9f1f86c50b8bc761d7ddf21e902b2dc3`. Wall is reviewed through `50939cd8efc46b80a5e17f2618f38be6eeb11f2c` but keeps its older conservative consumed cursor because accepted MAIN Wall publication debt predates this suffix and MAIN's verifier remains the gate for that work.
+**Milk / `su.myeon`** now has a coherent enough person read to keep: repeated preservation/reactivation of Woohyuk's `pancake` joke plus an old standardized Lobby answer that gives useful routing information while joking `3 yrs old`. That is a good bureaucratically-unserious / socially-precise contradiction, but neither MAIN nor WIKI has a safe canonical Milk owner yet. No thin mystery page was manufactured.
 
-## Public result / verification
+Backroom's officer-room permissions failure remains an incident candidate: Ren says someone messed up permissions and the room was open to the whole server; Mimi asks `was it snow`, receives no answer, and therefore Snow is not blamed. Start time, duration, cause, repair actor/time, and who may have viewed backlog remain unresolved. `Amexistir` is not merged into earlier-era `Ame` without a hard identity bridge. Daycare's March 2023 Saber timing weakens the shortcut that Saber must have been generally dead throughout the bot-break window but does not identify the failed bot. Whiskey's aPES/Potatocat creator remains unresolved. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct.
 
-Reader-facing WIKI changes: **0**. Exact state head `4d4ee62072945a7e8790f7fd5080ad12ec9e2ea5` passed Build run **`33925310373`** and Pages run **`33925310379`**. The Pages workflow's `deploy` job completed successfully, including `Deploy to GitHub Pages`. The final close commits are `[skip ci]`; they record the newer queue without changing the verified/deployed reader tree.
+## Verification / publication
 
-No identity bridge was created from similar names. No appointment chronology was inferred from exporter role arrays. Earliest surviving remains earliest surviving, not guaranteed origin. Discord access was not converted into game admission. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct. A negative search result was not converted into proof of absence.
+The final reader head for this run is **`96c3524d07a3394ff5e21f1b20239673381141fc`**. Exact Build workflow **`33926408984` succeeded**. Exact Pages workflow **`33926408957` succeeded**, including the `Deploy to GitHub Pages` job. The public WIKI reader work is therefore built and deployed.
+
+MAIN reader-facing pages changed **0** this run. Its verification target `dde2855d9a488e73b7c36fe91fa55b34d168e20e` launched workflow `33926550884`; attempt 1 failed before `Build + verify` acquired any executable steps, the failed workflow was explicitly rerun, and attempt 2 failed in the same no-step pre-runner shape. Verified Cloudflare deployment was skipped. This is not a source-verifier, Astro, or built-output rejection; those checks never instantiated.
+
+The four reviewed families remain publication-held on MAIN because older accepted work in those same evidence families still sits behind the broken MAIN verifier. Their reviewed frontiers are durably recorded on MAIN so the exact suffixes are not reread forever; conservative consumed cursors are not advanced past the older unverified publication debt.
 
 Historical integration detail remains in Git history, per-run reports, and MAIN's durable integration reports; this file is the current WIKI reconciliation boundary.
