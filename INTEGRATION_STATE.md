@@ -1,8 +1,8 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-04 Run 365_
+_Last updated: 2026-09-04 Run 366_
 
-MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Historical cycles remain in per-run state files; current detail is in `INTEGRATION_STATE_RUN_365.md`.
+MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Historical cycles remain in per-run state files; current detail is in `INTEGRATION_STATE_RUN_366.md`.
 
 ## Current census / queue
 
@@ -18,30 +18,34 @@ Both Club-Only recovery priorities remain current through head:
 - `archive-miner/club-only-2021-2026-hourly` → `e45fb11c9239e236231bb65645dfd0285bc0078b`
 - `archive-miner-clubonly-2020-hourly` → `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`
 
-Run 365 found **no active miner ref advanced beyond Run 364's reviewed heads**. Wall remains at `e3fe863696413b23a65bcf8c0330310b6794c724`, Whiskey at `9a21ff247aea20718e26fd5fe43dd727a669997c`, Mugen person-first at `1fbbeb0e0806469d76f1be13442e27209affeaf5`, Louvre/Athenaeum at `3c00b784fc4a7c27b1279deb534ede73a5547b1c`, Core Rooms / Events at `a0797364529b05c45f22b420f1be6b2661e15ee4`, and Daycare at `14d37ef69503c4001b1ee645371582204403954c`. No raw archive was re-mined.
+Run 366 reviewed three intake-only deltas checkpoint-first: Daycare through `2e26f1d7a02b7301e68c6d23ee76e5c4d2af2903`, Wall through `e553092ea974f65fbb81a1c8eeaf40d5911c4446`, and Whiskey through `f9d9fbbc298217284c5855854807260cc5cba4ad`. The closing census found no second-wave miner movement and no raw archive was re-mined.
 
 ## Recovery continuation
 
-The integrator re-read both recovery checkpoints directly from their miner branches. The 2021–2026 checkpoint remains saturated at the current retrieval boundary: its A/B findings, exhausted routes, and do-not-churn rules are unchanged, and no new immutable target-room key exists to justify repeating failed retrieval families. The 2020 checkpoint remains current through head with Danny/Carlene/B-chan follow-ups and the Feli↔Mugs hold unchanged.
+The 2021–2026 Club-Only checkpoint was re-read directly from its miner branch. Its known A/B findings, exhausted routes, do-not-churn rules, and retrieval limitation remain unchanged; no new immutable target-room key justified another failed raw-retrieval sweep. The 2020 recovery branch remains current through its recorded head.
 
 ## Public reconciliation
 
-No new public character, episode, relationship, location, running-gag, quote, or gallery mutation was warranted this run because no miner delta advanced.
+**Akamin:** Wall deepened her as a compact mischievous spectator / receipt-noticer whose reaction punctuation can be louder than her message volume. Her existing biography is now person-first around social style, relationships, reputation, and `Petty Crimes`. Akamin remains hard-separated from Mere.
 
-Run 363 Hishiro and Momo additions remain in their existing character owners. Anthos's accepted preservation-shaped care read remains banked for her existing owner rather than force-written over concurrent ownership history. Lunnely remains banked because no safe canonical public owner exists; casual `bae` / `taken` language remains non-literal and the `album` payload remains unresolved. The latest Mugen person-first tail remains an explicit negative/saturation pass with no additive public row.
+**Jas:** Whiskey supplied the cumulative **Absent Father, Present Maintenance** read. The fake father/old-man reputation stays comedy; the person underneath repeatedly performs small maintenance—welcome-back/home familiarity with Gilli, food nudges for Gabu, remembered Anthos tastes, music and repeat horror-game shorthand with Tae—and Jas actively feeds the father bit himself. A dedicated person-first Jas dossier is now wired into the public resolver.
+
+**Banked:** Alaina's context-lawyer/self-incrimination contradiction and Marian corrective shorthand; Mërcy/probable Koi's small-text/high-gesture profile. Neither warranted manufacturing a thin new public owner. Account-sharing attribution, uninspected media, and q8 channel-object provenance remain backstage/bounded.
 
 The six reviewed-but-publication-held MAIN families remain Wall, Core Rooms / Events, Daycare, Louvre, Mugen person-first, and Whiskey.
 
 ## Verification / deployment
 
-Run 365 contains no reader-facing WIKI change; only durable integration state changed. Exact-head Build and Pages results are checked after this state write settles.
+Akamin reader commit `435997a7081aea0620dedaaf1228a106c405ed93` passed its Astro Build; its same-head Pages run was superseded/cancelled by later WIKI commits, so deployment is evaluated on the later closing head that contains the same reader change.
 
-MAIN is independently verified on its own closing `master` head. A MAIN infrastructure failure does not invalidate a green WIKI state-only publication.
+Jas reader commits are `0dc623786219468a84bff637aba55385d800b37c` and resolver wiring `a86a0f6b5606f3b793deb3c836edca163c001c68`. Exact closing-head Build and Pages outcomes are checked after this state write settles.
+
+MAIN remains independently gated. A MAIN infrastructure failure does not invalidate a green WIKI build/deployment.
 
 ## Consumed cursors
 
-No publication-held `last_consumed_sha` advanced. No miner head advanced either. `last_seen_sha` and `last_consumed_sha` remain distinct, and both Club-Only recovery branches remain consumed through current head.
+No conservative publication-held `last_consumed_sha` advanced. Daycare, Wall, and Whiskey have current reviewed heads / `last_reviewed_at` in MAIN's ledger, while their older accepted MAIN publication debt remains verification-held. The 2021–2026 recovery branch remains consumed through current head.
 
 ## Rails retained
 
-Hard canon and resolved identity bridges remain binding. No identity merging from similar names. No appointment chronology from export-time arrays or event-room behavior. Joke rank/family/romance/violence/property remains non-literal without support. Earliest surviving is not origin. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct. Uninspected media stays uninspected. Safety-sensitive intake material stays backstage.
+Hard canon and resolved identity bridges remain binding. No identity merging from similar names. Exact `Absent father` coinage remains unresolved. Joke rank/family/romance/age/violence/property language remains non-literal without support. Earliest surviving is not origin. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct. Uninspected media stays uninspected. Safety-sensitive intake material stays backstage.
