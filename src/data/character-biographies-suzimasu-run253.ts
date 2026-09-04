@@ -15,7 +15,8 @@ const screenshotCourt: NarrativeSection = {
 
 const pettyAdditions = [
   "**Wall Awards Applicant:** has explicitly announced `Trying to win the wall of shame awards`. Historical Consigliere, volunteer defendant, excellent career planning.",
-  "**Mustard Watermelon, Watermelon Still Innocent:** Suzi labels a July 2021 filing `Me this afternoon`, tells Baby Lyssa to look up Lizzo eating mustard on watermelon, then refuses to dignify Tofu calling watermelon itself gross. Experimental topping: negotiable. Fruit slander: apparently unconstitutional. The posted MP4 remains uninspected, so the dossier does not invent its pixels or attribution beyond POSTED BY Suzimasu."
+  "**Mustard Watermelon, Watermelon Still Innocent:** Suzi labels a July 2021 filing `Me this afternoon`, tells Baby Lyssa to look up Lizzo eating mustard on watermelon, then refuses to dignify Tofu calling watermelon itself gross. Experimental topping: negotiable. Fruit slander: apparently unconstitutional. The posted MP4 remains uninspected, so the dossier does not invent its pixels or attribution beyond POSTED BY Suzimasu.",
+  "**Streetwear Means Streetwear, Not A New Legal Name:** when the conversation turns to BAPE, Suzi answers `Oh all the time! Im a massive BAPE and I enjoy a couple other brands`. That is an actual taste claim: clothes and streetwear are part of the visual-personal palette, not merely something happening near the art desk. A nearby Mob Psycho answer is deliberately smaller — `Ive seen a little bit of Mob Psycho before :0` — so it stays exactly that: some familiarity, not an invented superfan era."
 ];
 
 const suziSections = suziBase.sections.map((section) =>
@@ -33,7 +34,7 @@ export const run253SuzimasuNarrativeCharacterBios: Record<string, CharacterNarra
     ...suziBase,
     sections: suziSections,
     closing: [
-      "The structured Suzimasu dossier now has a cleaner contradiction than `scary founder became goofy`: Founder and later Consigliere on paper; initially quiet/scary/dangerous in several peers' memories; socially intermittent enough to joke about never checking in; repeatedly recognized when he returns; delighted to participate in screenshot court from either side; and still capable of dropping the prosecution voice the moment a friend needs a softer landing. Brisket, bathroom-drink failures, alien conversations, mustard-watermelon litigation, and `fun arc` do the rest. The title explains why he mattered institutionally. The pressure changes explain how he behaved around actual people."
+      "The structured Suzimasu dossier now has a cleaner contradiction than `scary founder became goofy`: Founder and later Consigliere on paper; initially quiet/scary/dangerous in several peers' memories; socially intermittent enough to joke about never checking in; repeatedly recognized when he returns; delighted to participate in screenshot court from either side; capable of dropping the prosecution voice the moment a friend needs a softer landing; and apparently perfectly happy to tell you which streetwear lane he actually likes without turning every anime he has sampled into a personality. Brisket, bathroom-drink failures, alien conversations, mustard-watermelon litigation, BAPE enthusiasm, and `fun arc` do the rest. The title explains why he mattered institutionally. The pressure changes explain how he behaved around actual people."
     ]
   }
 };
