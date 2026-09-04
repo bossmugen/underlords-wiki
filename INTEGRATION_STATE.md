@@ -1,44 +1,40 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-04 Run 409 final close_
+_Last updated: 2026-09-04 Run 410 final close_
 
-MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Run 409 closes at **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered, 0 pending review, 0 backlog, and 0 overdue**. Eight older MAIN publication-held families remain Wall, Backroom, Core Rooms / Events, Daycare, Louvre, Meems, Mugen person-first, and Whiskey. Both Club-Only recovery priorities remain current at their established saturation / do-not-churn boundaries; no raw archive was re-mined.
+MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Run 410 closes at **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered, 0 pending review, 0 backlog, and 0 overdue**. Eight older MAIN publication-held families remain Wall, Backroom, Core Rooms / Events, Daycare, Louvre, Meems, Mugen person-first, and Whiskey. Both Club-Only recovery priorities remain current at their saturation / do-not-churn boundaries; no raw archive was re-mined.
 
 ## Reviewed miner deltas
 
-Four exact pending tails were reviewed checkpoint-first and intake-only through current head:
+The pass reviewed six opening tails checkpoint-first and intake-only through:
 
-- Backroom: `fe8f2bad44746cf74815b4e0defe18fe554ea068`
-- Daycare: `ab27514817f3849f0759cd77b295a367d99f9e73`
-- Whiskey: `72b99a9073298637145cb5eead2b63be6b150afd`
-- Mugen person-first: `ac5842b32962851874a760c942c351cc0835183e`
+- Birthdays / PR / VC: `618c8229200ee837a638cef9722ef8e9bf383b0f`
+- Core Rooms / Events: `ce00f9ab237311fd931539a8e479ce49b79c4c60`
+- Louvre / AI Art / Athenaeum / Other Games: `4e7c1e4f047f2d28dcb9b3818841b404eec275db`
+- Mugen person-first: `79f717380b87c816eae4d342f222dcf6553661eb`
+- Whiskey: `7f012e03f799129c74a01b7d04e63cd1d11c540a`
+- Wall: `4fbc78b9f2e8b2257a92e8bb516f11b19b711e4c`
 
-A closing matching-ref census still returned 30 active miner refs, and the four reviewed heads remained unchanged.
+The closing census then caught one late QOTD / Officers advance and reviewed it in the same run through `8e814f4bbee80844918b3e8473c5eca03a6f755e`. That suffix is corroboration/source recovery only: Alkey's already-known Canada association gained a 2025 Ren-posted Wall parent plus immediate `North America represent` context. The image remains visually uninspected, the scene is later than the 2022 WHOMSTF clue, and it is neither clue-origin evidence nor a new nationality claim. Alkey `ALL CAPS` and Snow `catboy` / glasses routes remained negative and were not promoted.
 
 ## Public character integrations
 
-Run 409's reader work lives in `src/data/character-biographies-run409.ts`; `src/data/character-page-data.ts` was updated so the new narrative layer is actually the active public owner instead of a decorative file no route reads.
+Run 410 reader work lives in `src/data/character-biographies-run410.ts`; `src/data/character-page-data.ts` activates that layer ahead of Run 409 without deleting the older material it builds on.
 
-**Noether:** the December 2023 Raja officer rebuild now gives the late Game Officer role a direct lived transition. Peers nominate her for concrete helpful behavior; Snow says the majority supports her but will ask whether she wants it first; on Dec. 7 he reports `Added noe`. Less than two weeks later Noether is already carrying the same courtesy into the Ame/Chubi discussion: ask whether they want the role and can actually stay around longer. This is period-specific process, not a timeless constitution.
+**Han:** the biography now has an actual pre-title doorway. On Aug. 16, 2021 Mugen greets `nai6965` with `Eyyy you made it`, fumbles the access routine with `I forgot` / `My goldfish brain`, then assigns access and points him at the server tour. The scene supports prior familiarity/expectation without inventing a recruiter, in-game admission path, or Media Director title that early. By late October the Media Director role exists and Mugen is directly calling Han `our Media Director`; exact appointment timing remains unresolved rather than inferred from exporter-current role arrays.
 
-**Rummy:** the Oct. 2024 recruiting-side beat is now folded into her existing useful-chaos contradiction. Wolf asks for Rummy to receive a role so she can help `sniping peepz applications`; Sye says `i made her agent`, then immediately wonders whether Agent actually grants invite permission. Agent remains direct period work/role text, not an Officer rank, and invite capability remains unresolved.
+**Tae:** Wall material is now one behavioral contradiction instead of another event ledger. She can file evidence herself and call it `Caught in 4k`; when somebody else owns the filing she becomes an appellate court with legs; in March 2022 she knows a Ren filing is coming, declares `and im not ashamed`, then escalates into `ITS FOR A GOOD COST` / `I SWEAR` / `I JUST WANT 11$`. In June, Mugen's filing gets `WHY`, a crying-cat collapse, and Marian's true-reply `don't worry, tae, I've done it too`. The read is veteran Wall fluency from both sides of the evidence table, not blanket consent or literal financial lore.
 
-**Anthos ↔ Baby Lyssa / Ghoulie:** the April–June 2021 Wall material is now relationship texture on both people instead of one more Screenshot Court incident. Anthos can cat-pun straight through Ghoulie's theatrical protest, exchange direct affection without requiring a solemn repair scene, then later answer `yes` as Ghoulie claims `this ma house` / `ma damn wall`. The read is friendship/social comfort: teasing and affection coexist; it is not romance, family, exclusivity, or blanket consent to every Wall filing.
+**Mugen:** Fight Club's alternate-medium accommodation and the later minor-friendly Meems room are folded into one lived structure mechanism. In one case she keeps a voice activity intact while giving people a text route; in the other, a content-boundary problem becomes another minor-safe room, followed by Tae's `I am finally allowed`. Mugen can be aggressively structure-brained without requiring everybody to fit one format. This remains bounded behavior, not universal-accessibility sainthood or proof every later room solved every inclusion problem.
 
-**Mugen:** the Yumi self-reading pass adds a needed correction inside `Control freak, not oracle`. Yumi initially resists parts, revises some of that resistance, and eventually says the material lands `close to home...`. The safe Mugen read is that she can offer a possible person-reading as something the other person may accept, reject, or revise rather than seizing authorship of their interior. Native Mugen message IDs, timestamp, reply edges, and exact wording were not reacquired, so no exact Mugen quote was invented.
+## Meaning-deduped / banked
 
-## Banked / unresolved
-
-**Milk / `su.myeon`** now has a coherent enough person read to keep: repeated preservation/reactivation of Woohyuk's `pancake` joke plus an old standardized Lobby answer that gives useful routing information while joking `3 yrs old`. That is a good bureaucratically-unserious / socially-precise contradiction, but neither MAIN nor WIKI has a safe canonical Milk owner yet. No thin mystery page was manufactured.
-
-Backroom's officer-room permissions failure remains an incident candidate: Ren says someone messed up permissions and the room was open to the whole server; Mimi asks `was it snow`, receives no answer, and therefore Snow is not blamed. Start time, duration, cause, repair actor/time, and who may have viewed backlog remain unresolved. `Amexistir` is not merged into earlier-era `Ame` without a hard identity bridge. Daycare's March 2023 Saber timing weakens the shortcut that Saber must have been generally dead throughout the bot-break window but does not identify the failed bot. Whiskey's aPES/Potatocat creator remains unresolved. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct.
+Marian / Panda's repeated re-onboarding versus socially continuous Panda persona is already substantially owned by the current public Panda biography, so no duplicate receipt paragraph was added. NemeMoka / Grimlee Core-room texture remains banked because no safe canonical public owner is routed. The probable Angie / `ceonsayibutt` Louvre scaffold remains banked pending identity ownership; no name-similarity merge was made. Citrinitas / Cit Wall texture likewise remains banked without a safe owner. Uninspected media stayed attribution-fenced: POSTED BY was not upgraded into MADE BY, CAPTURED BY, or FEATURING.
 
 ## Verification / publication
 
-The final reader head for this run is **`96c3524d07a3394ff5e21f1b20239673381141fc`**. Exact Build workflow **`33926408984` succeeded**. Exact Pages workflow **`33926408957` succeeded**, including the `Deploy to GitHub Pages` job. The public WIKI reader work is therefore built and deployed.
+The Run 410 WIKI reader head is **`b4b97b5d45b6827d55869a22decdec16cbfbc369`**. Exact Build workflow **`33930578753` succeeded**. Exact Pages workflow **`33930578787` succeeded**, including deployment. The Han, Tae, and Mugen reader work is therefore public.
 
-MAIN reader-facing pages changed **0** this run. Its verification target `dde2855d9a488e73b7c36fe91fa55b34d168e20e` launched workflow `33926550884`; attempt 1 failed before `Build + verify` acquired any executable steps, the failed workflow was explicitly rerun, and attempt 2 failed in the same no-step pre-runner shape. Verified Cloudflare deployment was skipped. This is not a source-verifier, Astro, or built-output rejection; those checks never instantiated.
+MAIN reader-facing pages changed **0**. MAIN verification target **`1b383bf7b74c424056edf6e47748254ff0a04341`** launched workflow **`33930915277`**. Attempt 1 failed before `Build + verify` acquired executable steps; the failed workflow was explicitly rerun; attempt 2 failed in the same no-step pre-runner shape. `Deploy verified master to Cloudflare Pages` was skipped both times. Source verification, Astro build, and built-output verification therefore did not reject the project; they never instantiated on a runner. No new MAIN deployment is claimed.
 
-The four reviewed families remain publication-held on MAIN because older accepted work in those same evidence families still sits behind the broken MAIN verifier. Their reviewed frontiers are durably recorded on MAIN so the exact suffixes are not reread forever; conservative consumed cursors are not advanced past the older unverified publication debt.
-
-Historical integration detail remains in Git history, per-run reports, and MAIN's durable integration reports; this file is the current WIKI reconciliation boundary.
+The controlling MAIN branch state records every reviewed head, including the late QOTD tail, so those deltas will not be reread merely because they produced corroboration, a WIKI-only integration, a safe bank, or a duplicate-only disposition.
