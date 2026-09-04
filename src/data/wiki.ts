@@ -1,37 +1,39 @@
-export type Character = {
+export interface CharacterRelationship { name: string; note: string; href?: string }
+export interface Character {
   id: string;
   name: string;
   aliases?: string[];
-  billing: "main" | "recurring" | "legacy" | "guest";
+  billing: "main" | "legacy" | "recurring";
   role: string;
   era: string;
   logline: string;
   tags?: string[];
-  relationships?: Array<{ name: string; note: string; href?: string }>;
+  relationships?: CharacterRelationship[];
   quotes?: string[];
-};
+}
 
-export type Season = {
-  year: string;
-  title: string;
-  subtitle: string;
-  summary: string;
-};
-
-export type Episode = {
-  id: string;
-  title: string;
-  season: string;
-  date: string;
+export interface LocationEntry {
+  name: string;
   kind: string;
-  logline: string;
+  note: string;
+}
+
+export interface RunningGagEntry {
+  name: string;
+  firstSeen: string;
+  note: string;
+}
+
+export interface EpisodeEntry {
+  title: string;
+  date: string;
+  note: string;
   cast: string[];
-};
+}
 
 export const characters: Character[] = [
-  { id:"mugen", name:"Mugen", aliases:["Mugs","bossmugen"], billing:"main", role:"Founder · Boss", era:"2020–present", logline:"Starts Underlords, names half the furniture, keeps the receipts, and somehow becomes both narrator and recurring suspect.", tags:["Founder","Boss","Real Leather Papa"], relationships:[{name:"Dean",note:"online son; relationship predates Dragon Raja / UL",href:"/characters/dean"},{name:"GenGrey",note:"older friendship predating UL",href:"/characters/gengrey"},{name:"Han",note:"Biodata / media work",href:"/characters/han"}], quotes:["Family reunion","UL website but only for us lol"] },
-  { id:"snow", name:"Snow", aliases:["Snowfyre"], billing:"main", role:"Pit Boss · Judgemen · Game Officer", era:"2020–present", logline:"Senior adviser, governance specialist, recurring legal department, and permanent target of the old-man allegations.", tags:["Officer","Judgemen","Snow is old"] },
-  { id:"gabu", name:"Gabu", billing:"main", role:"Underboss · Game Officer", era:"2020–present", logline:"Systems brain, hydration department, and the person most likely to make care sound like routine maintenance.", tags:["Underboss","Drink Water Reminder","Hydration Department"] },
+  { id:"mugen", name:"Mugen", aliases:["Mugs","MugenKizuki","LadyMugen"], billing:"main", role:"Founder · Boss", era:"2020–present", logline:"Founder, host, relationship router, and the person most likely to turn private nonsense into shared infrastructure and then make everybody else maintain it.", tags:["Founder","Boss","Archive host"] },
+  { id:"gabu", name:"Gabu", aliases:["Gabumon"], billing:"main", role:"Caporegime · Game Officer", era:"2020–present", logline:"Officer, systems fixer, and one of Mugen's most trusted answer keys when the room needs somebody who actually knows what they're doing.", tags:["Officer","Game Officer","Systems"] },
   { id:"ren", name:"Ren", aliases:["RV","RΣN"], billing:"main", role:"Caporegime", era:"2020–present", logline:"Retrieval engine, relationship index, and one of the people most likely to remember exactly which old thing everyone is talking about.", tags:["Officer","Archive memory"] },
   { id:"wolfphenix", name:"WolfPhenix", aliases:["Wolf Phenix","Wolfie"], billing:"main", role:"Founder · Caporegime · News Editor", era:"2020–present", logline:"Founding-circle witness, screenshot archaeologist, and the person who can casually produce a six-year-old receipt mid-conversation.", tags:["Founder","Officer","News Editor"] },
   { id:"sye", name:"Sye", aliases:["Life","Syenitha","Sadako"], billing:"main", role:"Caporegime · Game Officer", era:"2020–present", logline:"Officer, late-era continuity voice, and one of the clearest bridges between the Dragon Raja club ending and the people not ending with it.", tags:["Officer","Game Officer"] },
@@ -46,7 +48,7 @@ export const characters: Character[] = [
   { id:"anthos", name:"Anthos", billing:"main", role:"Pit Boss", era:"2020–present", logline:"Officer and family-map co-conspirator; one of the people who treats the Tumbleweed as editable social infrastructure instead of a sane diagram.", tags:["Officer","Tumbleweed"] },
 
   { id:"ritha", name:"Ritha", billing:"legacy", role:"Founder · retired Officer", era:"2020–", logline:"Founding-circle member who came with Mugen from Altissa and remains part of the permanent origin cast." },
-  { id:"suzimasu", name:"Suzimasu", aliases:["Suzi"], billing:"legacy", role:"Founder · retired Officer", era:"2020–", logline:"Founding-circle member and early Officer; one of the original five around the moment Underlords becomes Underlords, with a genuine streetwear streak and an openly enthusiastic BAPE preference.", tags:["Founder","Streetwear","BAPE"] },
+  { id:"suzimasu", name:"Suzimasu", aliases:["Suzi","Mob","BAPE"], billing:"legacy", role:"Founder · retired Officer", era:"2020–", logline:"Founding-circle member and early Officer; one of the original five around the moment Underlords becomes Underlords, with a genuine streetwear streak and an openly enthusiastic BAPE preference.", tags:["Founder","Streetwear","BAPE"] },
   { id:"hyaluna", name:"HyaLuna", billing:"legacy", role:"Founder · retired Underboss", era:"2020–", logline:"Original Luna, founding-circle member, and historical Underboss. Distinct from later Candy/Luna." },
   { id:"yumi", name:"Yumi", aliases:["Yummibears"], billing:"legacy", role:"retired Officer", era:"2020–", logline:"Early full Officer and one of the recognizable faces of the 2020 command cast." },
   { id:"illien", name:"Illien", aliases:["Euros"], billing:"legacy", role:"retired Officer", era:"2020–", logline:"Early Officer. Euros is an alias, not a separate character." },
@@ -63,83 +65,42 @@ export const characters: Character[] = [
   { id:"momo", name:"Momo", billing:"recurring", role:"Staff", era:"2021–", logline:"Couch-era recurring cast; sleep, reactions, and domestic UL make more sense once Momo is in frame." },
   { id:"nhou", name:"Nhou", billing:"recurring", role:"Staff", era:"2020–", logline:"Staff and real-life connection point in Mugen's orbit, recurring across ordinary-life UL scenes." },
   { id:"cookie", name:"Cookie", aliases:["Kuki","Cookies and Juicebox"], billing:"recurring", role:"Staff", era:"2020–", logline:"Recurring friend/cast member whose humor frequently arrives as 'I saw this and thought of you' ammunition." },
-  { id:"zepp", name:"Zepp", billing:"recurring", role:"Staff", era:"pre-UL–", logline:"Pre-Raja friend of Mugen and one of the older-network characters who makes UL's social prehistory visible." },
-  { id:"ryo", name:"Ryo", billing:"recurring", role:"Platelet", era:"2020–", logline:"Platelet brought in through Moon's friendship network." },
-  { id:"zoshaa", name:"Zoshaa", aliases:["NintendoShitcube"], billing:"recurring", role:"Platelet", era:"2020–", logline:"Canadian Platelet and recurring archive character with a name history too good to lose." },
-  { id:"candy", name:"Candy", aliases:["~Candy~","— Luna"], billing:"recurring", role:"Platelet", era:"2021–", logline:"Later Luna/Candy. Explicitly not HyaLuna." },
-  { id:"woohyuk", name:"Woohyuk", billing:"recurring", role:"VIP", era:"2020–", logline:"Visitor/family-adjacent recurring cast member with a long trail through memes, family-map material, and the wider social house." },
-  { id:"booba", name:"Booba", aliases:["MsThiccy","boobaboo"], billing:"recurring", role:"UL member", era:"2022–", logline:"Checks into the Lobby as MsThiccy / Underlords, then shows up on the Wall a month later with another exhibit and seven Fat_Wheeze reactions. The image itself stays undescribed until somebody actually inspects it." },
-  { id:"zyrcant", name:"Zyrcant", aliases:["Akariel","Akariel™","akariel_star"], billing:"guest", role:"VIP · former Amaurot deputy", era:"2020–", logline:"Former Amaurot deputy, UL VIP, and recurring extended-family guest; Akariel / Akariel™ / `akariel_star` are the same person, not a separate cast file." },
-  { id:"rich", name:"Rich", aliases:["DragonRich"], billing:"guest", role:"VIP · Amaurot leader", era:"2020–", logline:"External-club leader and long-running guest presence; the old Fight Club VC eventually becomes his couch, then a late-era domestic room." }
+  { id:"rooks", name:"Rooks", billing:"recurring", role:"Staff", era:"2020–", logline:"Louvre regular, screenshot court reporter, and one of the cast members most likely to turn a visual into a social event." },
+  { id:"shiyax", name:"ShiyaX", billing:"recurring", role:"Staff", era:"2020–", logline:"Wedding planner, older cast member, and an extremely willing participant in the guild's evidence-court nonsense." },
+  { id:"snow", name:"Snow", billing:"recurring", role:"Officer · adviser", era:"2020–", logline:"Rules/security/governance specialist with a habit of building systems around messy humans and then remembering the humans are the point." },
+  { id:"rich", name:"Rich", aliases:["DragonRich"], billing:"recurring", role:"Staff", era:"2020–", logline:"Couch creature, self-own specialist, and one of the people who can accept a tiny act of care by immediately making it disgusting." },
+  { id:"candy", name:"Candy", aliases:["Luna"], billing:"recurring", role:"Staff", era:"2020–", logline:"Low-prose, high-precision reaction participant; one noise or emote can be enough to move the room." },
+  { id:"ghostt", name:"Ghostt", billing:"recurring", role:"Staff", era:"2020–", logline:"Receipt necromancer with the patience to revive stale screenshots and the unseriousness to become the defendant when her own evidence bag opens." },
+  { id:"woosung", name:"Woosung", aliases:["WOO"], billing:"recurring", role:"Staff", era:"2020–", logline:"Economical until a familiar person activates the emergency volume setting; then two words can carry an entire mock-betrayal prosecution." },
+  { id:"yaza", name:"Yaza", aliases:["Yazaki","Rosario17"], billing:"recurring", role:"Staff", era:"2020–", logline:"Low-verbal but socially present, with a habit of answering the actual thing in front of her through compact approval, laughter, or soft teasing." },
+  { id:"suzimasu-extra", name:"Suzi", aliases:["Suzimasu","Mob","BAPE"], billing:"recurring", role:"Founder · retired Officer", era:"2020–", logline:"See Suzimasu. Preserved as a searchable alias bridge for older archive spellings." },
 ];
 
-export const seasons: Season[] = [
-  { year:"2020", title:"Season One — Formation", subtitle:"the guild becomes a house faster than anyone can stop it", summary:"Mugen founds Underlords; the founding circle forms, recruitment accelerates, rooms acquire personalities, JAG appears, fake-family language mutates into the Tumbleweed, and the server starts behaving like it has always existed." },
-  { year:"2021", title:"Season Two — Domestication", subtitle:"the cast stops acting like this is only a game", summary:"Biodata, voice challenges, Platelet culture, media work, QOTD precursors, and ordinary-life rituals turn the guild server into a durable social space." },
-  { year:"2022", title:"Season Three — Ritualization", subtitle:"somebody has made this recurring programming now", summary:"Roles stabilize, Officer culture deepens, media and meme systems mature, hydration becomes a department, and repeated events become house tradition." },
-  { year:"2023", title:"Season Four — Self-Mythologization", subtitle:"the show becomes aware it has lore", summary:"The archive starts looking backward while still producing new material. PR, memes, recurring challenges, and cross-room jokes turn memory into a shared production process." },
-  { year:"2024", title:"Season Five — Decoupling", subtitle:"the game is increasingly not the point", summary:"Voice rooms, food, streams, naps, pets, and daily life make the social house legible even when Dragon Raja is no longer the central plot engine." },
-  { year:"2025", title:"Season Six — Decommissioning", subtitle:"the guild gets an ending; the cast does not", summary:"The in-game Dragon Raja club is deliberately wound down, old rooms thin at different speeds, and UL remains portable as a social identity across games and off-channel relationships." },
-  { year:"2026", title:"Season Seven — Afterlife", subtitle:"family reunion / website arc", summary:"The Wall reopens, old screenshots and Tumbleweed come back out, different generations call it a family reunion, and the cast watches its own archive become a website in real time." }
+export const locations: LocationEntry[] = [
+  { name:"Club-Only", kind:"core room", note:"The ambient house room: announcements, domestic chatter, operations, teasing, and years of continuity all run through it." },
+  { name:"Whiskey Room", kind:"social room", note:"Long-form hangout and reunion engine; the 2026 return turns it into a living afterparty for the archive." },
+  { name:"Wall of Shame / Fame", kind:"gallery / court", note:"Screenshot court. Public evidence filing, affectionate prosecution, self-incrimination, appeals, and occasional fame." },
+  { name:"Louvre", kind:"gallery", note:"Visual culture room where drafts, edits, outfits, art, screenshots, and aesthetic opinions become social conversation." },
+  { name:"HQ", kind:"officer room", note:"Officer-only working room: moderation, operations, event planning, staffing, rules, and the ordinary mess behind formal decisions." },
+  { name:"Daycare", kind:"social room", note:"A long-running casual room whose low-stakes chatter often exposes friendship texture more clearly than formal spaces do." },
+  { name:"Backroom Deals", kind:"leadership room", note:"Early leadership deliberation and governance-adjacent discussion, including the unfinished-thought layer before questions reach the wider officer group." },
 ];
 
-export const episodes: Episode[] = [
-  { id:"founding-underlords", title:"The Founding", season:"2020", date:"March 2020", kind:"Origin", logline:"Mugen leaves Altissa to start Underlords; Ritha, WolfPhenix, Suzimasu, and HyaLuna come with her, forming the five-person founding circle.", cast:["Mugen","Ritha","WolfPhenix","Suzimasu","HyaLuna"] },
-  { id:"jag-24-charges", title:"24 Charges for Getting Yeeted", season:"2020", date:"August 2020", kind:"Governance comedy", logline:"UL creates JAG, writes twenty-four 'Yeeting charges,' and simultaneously insists it is in no way a military organization.", cast:["Mugen","Snow"] },
-  { id:"voice-twins", title:"I Found My Doppelganger", season:"2020", date:"September 18, 2020", kind:"Voice Challenge prehistory", logline:"Anthos and Ansun compare voices and immediately agree they sound alike; Ansun calls Anthos his doppelganger, Ren turns it into a same-person bit, and Gabu's twin math ends at `everyone is twin`. This is house joke-language, not literal kinship or one shared identity.", cast:["Anthos","Ansun","Ren","Gabu"] },
-  { id:"tumbleweed", title:"Sweet Home Alabama / Tumbleweed", season:"2020", date:"2020 → 2026", kind:"Running object", logline:"Fictive-family language becomes a gigantic editable relationship map, then returns six years later as reunion archaeology.", cast:["Mugen","Anthos","Rummy","Dean"] },
-  { id:"dean-involuntary-fanfic", title:"Dean's Involuntary Fanfic Department", season:"2021", date:"January 5–February 12, 2021", kind:"Club-Only dream arc", logline:"Dean dreams a whole-club wedding with Mugen in strip-club attire, then returns with a Council battle that mutates into pole-dancing, a beach, a bacon dragon, and Dean plus Anthos singing to baby Underlords. Anthos hears this and immediately tries to turn Dean's sleeping brain into UL fanfic.", cast:["Dean","Mugen","Anthos","Ansun"] },
-  { id:"fish-revolution", title:"Fish Revolution / Fishjail", season:"2021", date:"February 17, 2021", kind:"Club-Only incident", logline:"A SunFish outbreak ends with Snow threatening fishjail, Ren founding the fish revolution, Acoryuie calling everyone fish cultists, and Snow returning to his Chinese drama with instructions to leave messages at the fish pond.", cast:["Snow","Ren","Gabu","Zoshaa","Acoryuie"] },
-  { id:"biodata", title:"Biodata Opens", season:"2021", date:"September 2021", kind:"Character episode", logline:"The server starts formally cataloguing its own people. Han's media/design work turns identity into something the group can edit, display, and remember.", cast:["Mugen","Han"] },
-  { id:"voice-challenge", title:"UL Voice Challenge", season:"2021", date:"2021–2023", kind:"Event arc", logline:"Voice becomes another archive surface: accents, bits, performances, and the weird intimacy of hearing the people behind the text.", cast:["Han"] },
-  { id:"officers-challenge", title:"Officers Challenge", season:"2022", date:"2022–2023", kind:"Event arc", logline:"An Officer-branded challenge that remains open to everyone, because UL naming conventions do not guarantee organizational clarity.", cast:["Ren","Sye"] },
-  { id:"hydration-department", title:"Drink Water Reminder", season:"2022", date:"2022–present", kind:"Running gag / care ritual", logline:"Gabu's hydration behavior stops being a reminder and starts behaving like a department.", cast:["Gabu"] },
-  { id:"fight-club-upholstered", title:"Fight Club Gets Upholstered", season:"2022", date:"December 31, 2022", kind:"Channel genealogy", logline:"Rich remembers all the screaming and yelling from the old Fight Club VC before it was turned into his couch, explicitly bridging the event room to Richard's Corpse On A Cooch. The exact rename date remains unknown.", cast:["Rich"] },
-  { id:"april-fools-starts-in-march", title:"April Fools Starts in March", season:"2023", date:"March 28–April 2, 2023", kind:"PR / prank chronology", logline:"Mia starts making a fake `Goodbye Underlords` obituary on March 28; Mugen does not formally declare `April UL Fools Month!` until April 2. The production scene predates the program, and the exact public deployment route of the finished GIF remains unproved.", cast:["Mia","Oyasumi","Mugen"] },
-  { id:"doodles-part-2", title:"Doodles Part 2: Bananas", season:"2023", date:"June–August 2023", kind:"PR / communal-art episode", logline:"Ren proposes a blank canvas, Mia turns it into an open doodle relay, Gilli demands themed sequels, and the sequel is bananas; by August Daya is asking for the final copy to use as a Raja poster.", cast:["Ren","Mia","Gilli","Daya"] },
-  { id:"domestic-ul", title:"The Living Room Season", season:"2024", date:"2024", kind:"Domestic episode", logline:"Food, streams, naps, pets, and typed residue from voice rooms make it impossible to pretend the group's main function is still a mobile game.", cast:["Sye","Momo"] },
-  { id:"raja-ends", title:"The Game Ends. The House Doesn't.", season:"2025", date:"July–August 2025", kind:"Season finale", logline:"The Dragon Raja club is deliberately wound down. UL survives as the people, rooms, habits, and relationships around it.", cast:["Sye","Mugen"] },
-  { id:"family-reunion", title:"Family Reunion", season:"2026", date:"August 14–18, 2026", kind:"Reunion special", logline:"Different UL generations return to Whiskey, old screenshots and the Tumbleweed come back out, and the room names itself a family reunion.", cast:["Mugen","Nobu","Sye","WolfPhenix","Rummy","Hishiro"] },
-  { id:"website-qa", title:"The Cast QA's Its Own Wiki", season:"2026", date:"August 13–16, 2026", kind:"Meta episode", logline:"Mugen posts the developing Underlords site in Whiskey; the cast reacts, questions identities, and starts correcting its own adaptation while the reunion is still happening.", cast:["Mugen","Nobu","Feli","Oyasumi"] }
+export const runningGags: RunningGagEntry[] = [
+  { name:"Wall of Fame", firstSeen:"2020", note:"The affectionate/competitive inversion of shame: exposure can be punishment, belonging, status, a win, or something people actively try to qualify for." },
+  { name:"Screenshot Court", firstSeen:"2020", note:"The house habit of treating screenshots as exhibits, people as defendants, and reactions as procedural law." },
+  { name:"Tumbleweed", firstSeen:"2021", note:"The giant UL relationship/family map that becomes both social infrastructure and a recurring joke about how impossible the cast is to diagram sanely." },
+  { name:"sippp", firstSeen:"2021", note:"A recovered GIF apparently escapes containment and becomes a custom emoji, then ordinary house vocabulary." },
 ];
 
-export const locations = [
-  { id:"whiskey-room", name:"Whiskey Room", type:"Main hangout", logline:"The late-era living room and the site of the 2026 reunion." },
-  { id:"club-only", name:"Club-Only", type:"Original main room", logline:"The obvious center while Dragon Raja membership still structures daily UL life." },
-  { id:"the-wall", name:"The Wall", type:"Shame/Fame evidence locker", logline:"By August 2020 Ansun was calling it the Wall of Shame while Ren was already arguing Hall of Fame; by March 2021 Ren had fused the problem into `wall of shame-fame`." },
-  { id:"lobby", name:"Lobby", type:"Front porch", logline:"Intake, visitors, bots with jobs, and the first impression of UL's house rules." },
-  { id:"main-hq", name:"Main HQ", type:"Backstage", logline:"Officer governance and operational memory. Main HQ predates the later DR Game HQ split." },
-  { id:"richards-corpse", name:"Richard's Corpse On A Cooch", type:"Voice-room couch", logline:"The old Fight Club VC after it got upholstered: screaming-and-yelling ancestry becomes dinner, naps, streaming, and typed voice residue. Rich directly remembers Fight Club being turned into his couch; the exact rename date stays open." },
-  { id:"panic-room", name:"Panic Room / speeling bee", type:"Core game room", logline:"A core UL room whose name tells you enough about the organization's spelling standards." },
-  { id:"mugs-casino", name:"Mugs Casino", type:"Core game room", logline:"One of the native room concepts that makes the server feel like a neighborhood instead of a category list." }
-];
-
-export const gags = [
-  { id:"snow-is-old", name:"Snow Is Old", logline:"The long-running allegation that Snow is ancient. Evidence quality: emotionally conclusive, chronologically rude." },
-  { id:"alabama", name:"Alabama / Tumbleweed", logline:"The family situation becomes a diagram, then a diagram becomes a recurring object, then the object returns as archaeology." },
-  { id:"fat-wheeze", name:"FAT_WHEEZE", logline:"Cross-room reaction grammar. Sometimes punctuation is an image." },
-  { id:"hydration", name:"Hydration Department", logline:"Gabu tells people to drink water until the behavior becomes infrastructure." },
-  { id:"platelets", name:"Platelets", logline:"Under-18 safety role that becomes permanent once assigned. The name comes from Cells at Work!" },
-  { id:"bots-with-jobs", name:"Bots With Jobs", logline:"Welcome bot? No. Underlords Stripclub Bouncer. QOTD bot? Barista. The software has employment." },
-  { id:"real-leather-papa", name:"Real Leather Papa", logline:"Mugen house signature / recurring trademark. Origin remains open; recurrence does not require inventing a first use." },
-  { id:"spelling-crimes", name:"UL Cannot Spell", logline:"Typos, malformed commands, and room names become part of the native language instead of errors to clean up." }
-];
-
-export const relationshipGroups = [
-  { title:"Founding Circle", people:["Mugen","Ritha","WolfPhenix","Suzimasu","HyaLuna"], note:"Mugen founded UL; the other four came with her from Altissa." },
-  { title:"Pre-UL / older network", people:["Mugen","Dean","Key","Zepp","GenGrey","New"], note:"These relationships begin before Dragon Raja / UL. A later GenGrey-mediated recruitment scene involving New is a separate handoff in another setting, not New's first meeting with Mugen." },
-  { title:"Media axis", people:["Mugen","Han"], note:"Biodata, media production, and the duty that becomes Media Director." },
-  { title:"Party department", people:["Nobu","Rummy"], note:"Party Director → Party Director Apprentice. Apprentice is not co-equal Director." },
-  { title:"Tumbleweed return", people:["Mugen","Rummy","Anthos","Dean"], note:"Family language → map → reunion memory tool." }
+export const episodes: EpisodeEntry[] = [
+  { title:"The 2026 Reunion", date:"2026-08", note:"A multi-day return arc: people recognize the old house, drag out Dragon Raja screenshots, rebuild the family map, and discover that the social grammar survived the game.", cast:["Mugen","Ren","WolfPhenix","Rummy","Hishiro"] },
+  { title:"The Tumbleweed", date:"2021–2026", note:"The relationship map becomes an ongoing communal object: edited, argued over, resurrected, and eventually rebuilt during the reunion.", cast:["Rummy","Anthos","Mugen"] },
 ];
 
 export const featuredQuotes = [
-  { quote:"We are in no way a military organization.", speaker:"UL / JAG", context:"2020 JAG language" },
-  { quote:"It funny", speaker:"Mia", context:"Wall admissibility ruling, April 2023" },
-  { quote:"Family reunion", speaker:"Mugen", context:"Whiskey, August 14, 2026" },
-  { quote:"Ah yes the *trees*", speaker:"Rummy", context:"Tumbleweed returns, August 12, 2026" },
-  { quote:"GAHDAMN", speaker:"Mugen", context:"looking at the Tumbleweed again" },
-  { quote:"UL website but only for us lol", speaker:"Mugen", context:"reunion website QA arc" },
+  { quote:"Ah yes the *trees*", speaker:"Rummy", context:"Tumbleweed / family-map discussion" },
+  { quote:"U can’t even see the name LMFAAOAO", speaker:"Rummy", context:"Tumbleweed / family-map discussion" },
   { quote:"the bots did it", speaker:"Mugen", context:"website / archive-making conversation" }
 ];
 
