@@ -46,7 +46,7 @@ export const characters: Character[] = [
   { id:"anthos", name:"Anthos", billing:"main", role:"Pit Boss", era:"2020–present", logline:"Officer and family-map co-conspirator; one of the people who treats the Tumbleweed as editable social infrastructure instead of a sane diagram.", tags:["Officer","Tumbleweed"] },
 
   { id:"ritha", name:"Ritha", billing:"legacy", role:"Founder · retired Officer", era:"2020–", logline:"Founding-circle member who came with Mugen from Altissa and remains part of the permanent origin cast." },
-  { id:"suzimasu", name:"Suzimasu", aliases:["Suzi","Mob","BAPE"], billing:"legacy", role:"Founder · retired Officer", era:"2020–", logline:"Founding-circle member and early Officer; one of the original five around the moment Underlords becomes Underlords." },
+  { id:"suzimasu", name:"Suzimasu", aliases:["Suzi"], billing:"legacy", role:"Founder · retired Officer", era:"2020–", logline:"Founding-circle member and early Officer; one of the original five around the moment Underlords becomes Underlords, with a genuine streetwear streak and an openly enthusiastic BAPE preference.", tags:["Founder","Streetwear","BAPE"] },
   { id:"hyaluna", name:"HyaLuna", billing:"legacy", role:"Founder · retired Underboss", era:"2020–", logline:"Original Luna, founding-circle member, and historical Underboss. Distinct from later Candy/Luna." },
   { id:"yumi", name:"Yumi", aliases:["Yummibears"], billing:"legacy", role:"retired Officer", era:"2020–", logline:"Early full Officer and one of the recognizable faces of the 2020 command cast." },
   { id:"illien", name:"Illien", aliases:["Euros"], billing:"legacy", role:"retired Officer", era:"2020–", logline:"Early Officer. Euros is an alias, not a separate character." },
