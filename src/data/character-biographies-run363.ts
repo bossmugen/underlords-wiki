@@ -8,6 +8,7 @@ import { mugenNarrativeCharacterBios } from "./character-biographies-mugen";
 import { oyasumiNarrativeCharacterBios } from "./character-biographies-oyasumi";
 import { prideNarrativeCharacterBios } from "./character-biographies-pride";
 import { ryoNarrativeCharacterBios } from "./character-biographies-ryo";
+import { run388GabuCharacterBios } from "./character-biographies-gabu-run388";
 
 const hishiroBase = hishiroNarrativeCharacterBios.hishiro;
 
@@ -157,3 +158,7 @@ export const run379AnayssNarrativeCharacterBios: Record<string, CharacterNarrati
     ],
   },
 };
+
+// Run 388: Gabu's Daycare access continuity lives in its own source file, but this
+// already-registered overlay makes the finished person-shaped version the public owner.
+export const run388GabuNarrativeCharacterBios: Record<string, CharacterNarrative> = run388GabuCharacterBios;
