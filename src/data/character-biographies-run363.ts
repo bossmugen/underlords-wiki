@@ -1,5 +1,6 @@
 import type { CharacterNarrative, NarrativeSection } from "./character-biographies-narrative";
 import { hishiroNarrativeCharacterBios } from "./character-biographies-hishiro-core";
+import { jasNarrativeCharacterBios } from "./character-biographies-jas";
 import { momoNarrativeCharacterBios } from "./character-biographies-momo";
 
 const hishiroBase = hishiroNarrativeCharacterBios.hishiro;
@@ -40,3 +41,8 @@ export const run363MomoNarrativeCharacterBios: Record<string, CharacterNarrative
     sections: [...momoBase.sections, momoRebound],
   }
 };
+
+// Later person-first overlays can ride this already-registered module without turning
+// the resolver into another giant receipt ledger. Jas's source lives in its own file;
+// exporting the map here makes the public route pick it up through run363Module.
+export const run366JasNarrativeCharacterBios: Record<string, CharacterNarrative> = jasNarrativeCharacterBios;
