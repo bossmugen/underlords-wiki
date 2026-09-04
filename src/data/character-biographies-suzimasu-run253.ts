@@ -16,7 +16,7 @@ const screenshotCourt: NarrativeSection = {
 const pettyAdditions = [
   "**Wall Awards Applicant:** has explicitly announced `Trying to win the wall of shame awards`. Historical Consigliere, volunteer defendant, excellent career planning.",
   "**Mustard Watermelon, Watermelon Still Innocent:** Suzi labels a July 2021 filing `Me this afternoon`, tells Baby Lyssa to look up Lizzo eating mustard on watermelon, then refuses to dignify Tofu calling watermelon itself gross. Experimental topping: negotiable. Fruit slander: apparently unconstitutional. The posted MP4 remains uninspected, so the dossier does not invent its pixels or attribution beyond POSTED BY Suzimasu.",
-  "**Streetwear Means Streetwear, Not A New Legal Name:** when the conversation turns to BAPE, Suzi answers `Oh all the time! Im a massive BAPE and I enjoy a couple other brands`. That is an actual taste claim: clothes and streetwear are part of the visual-personal palette, not merely something happening near the art desk. A nearby Mob Psycho answer is deliberately smaller — `Ive seen a little bit of Mob Psycho before :0` — so it stays exactly that: some familiarity, not an invented superfan era."
+  "**BAPE Has Two Jobs:** BAPE is part of Suzi's established name trail, and the person also genuinely likes the brand. When clothes come up, Suzi answers `Oh all the time! Im a massive BAPE and I enjoy a couple other brands`, so streetwear belongs in the actual taste profile too. A nearby Mob Psycho answer is deliberately smaller — `Ive seen a little bit of Mob Psycho before :0` — and stays exactly that: some familiarity, not an invented superfan era."
 ];
 
 const suziSections = suziBase.sections.map((section) =>
