@@ -36,11 +36,13 @@ The six reviewed-but-publication-held MAIN families remain Wall, Core Rooms / Ev
 
 ## Verification / deployment
 
-Akamin reader commit `435997a7081aea0620dedaaf1228a106c405ed93` passed its Astro Build; its same-head Pages run was superseded/cancelled by later WIKI commits, so deployment is evaluated on the later closing head that contains the same reader change.
+Akamin reader commit `435997a7081aea0620dedaaf1228a106c405ed93` passed its Astro Build; its same-head Pages run was superseded by later WIKI commits.
 
-Jas reader commits are `0dc623786219468a84bff637aba55385d800b37c` and resolver wiring `a86a0f6b5606f3b793deb3c836edca163c001c68`. Exact closing-head Build and Pages outcomes are checked after this state write settles.
+Jas reader commits are `0dc623786219468a84bff637aba55385d800b37c` and resolver wiring `a86a0f6b5606f3b793deb3c836edca163c001c68`.
 
-MAIN remains independently gated. A MAIN infrastructure failure does not invalidate a green WIKI build/deployment.
+The combined exact WIKI content/state head `0f5bc028fc87531f4f30bdbbb9e838fd6a312c82` passed Build run `33855424676`. Exact-head Pages run `33855424730` also completed successfully, including preview build, artifact upload, and `Deploy to GitHub Pages`. The deployed site therefore contains both Akamin and Jas changes plus the Run 366 state.
+
+MAIN remains independently gated. Its final Run 366 workflow failed before repository verification instantiated, so that infrastructure failure does not invalidate WIKI's green build/deployment.
 
 ## Consumed cursors
 
