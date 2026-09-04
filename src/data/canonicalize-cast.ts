@@ -155,16 +155,16 @@ const additions: Character[] = [
 
 const metadataOverrides: Record<string, Partial<Character>> = {
   new: { role: "Staff", tags: ["Staff"] },
-  // Hard identity repair: Akariel is a separate person from Zyrcant. Keep Akariel's
-  // aliases, Wall behavior, and relationship receipts off Zyrcant's public file.
+  // Hard canon lock: Akariel / Akariel™ / akariel_star are Zyrcant aliases,
+  // not a separate person. Keep the Amaurot deputy context on the same file.
   zyrcant: {
-    aliases: [],
-    logline: "Former Amaurot deputy and recurring UL VIP from the extended-family cast.",
+    aliases: ["Akariel", "Akariel™", "akariel_star"],
+    role: "VIP · former Amaurot deputy",
+    logline: "Former Amaurot deputy, UL VIP, and recurring extended-family guest; Akariel / Akariel™ / `akariel_star` are the same person, not a separate cast file.",
     tags: ["VIP", "Amaurot"],
     relationships: [
       { name: "Rich", note: "Rich led Amaurot while Zyrcant served as his deputy; that old rank does not transfer into UL command.", href: "/characters/rich" },
     ],
-    quotes: [],
   },
   aeshleen: { role: "Staff", tags: ["Staff", "Wall speedrun"] },
   "baby-lyssa": { role: "VIP", tags: ["VIP", "2021", "Wall", "Wall speedrun", "Screenshot jail"] },
