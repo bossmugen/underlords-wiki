@@ -1,8 +1,8 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-03 Run 345_
+_Last updated: 2026-09-03 Run 348_
 
-MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Per-run files remain authoritative for historical cycles; current detail is in `INTEGRATION_STATE_RUN_345.md`.
+MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Per-run files remain authoritative for historical cycles; current detail is in `INTEGRATION_STATE_RUN_348.md`.
 
 ## Current census / queue
 
@@ -10,7 +10,7 @@ Full census: **49 tracked miner identities = 28 active refs + 21 historical/miss
 
 - newly discovered: 0
 - pending review: 0
-- pending-publication branches: 6
+- pending-publication MAIN families: 6
 - backlog: 0
 - overdue: 0
 - Wall recovery quarry: open for future source
@@ -19,30 +19,32 @@ Both Club-Only recovery priorities remain current through head:
 - `archive-miner/club-only-2021-2026-hourly` → `e45fb11c9239e236231bb65645dfd0285bc0078b`
 - `archive-miner-clubonly-2020-hourly` → `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`
 
-Run 345's mandatory opening census found no active miner head advancement from the Run 344 closing frontier. No intake suffix required checkpoint-first review and no raw archive re-mining occurred.
+Run 348 reviewed checkpoint-first / intake-only deltas from Core Rooms / Events through `fa9023b85c53da7e25647518b30911ac4be0317b`, Mugen person-first through `e5611b5cac0e63505bfaffbccf889febc44607a6`, and Wall through late-closing head `57c4670cfea712266d2b099750f04341633ee708`. No raw archive re-mining occurred.
 
 ## Public reconciliation
 
-Reader-facing change this run: **none**.
+Reader-facing WIKI change this run: **Mugen return / continuity deepener**.
 
-No genuinely new evidence family arrived, no duplicate family required new reconciliation, no conflict/rabbit was newly opened, and no consumed SHA advanced.
+December 2022 now sits in Mugen's structured dossier as a continuity pattern rather than a one-off Episode: Life and Mugen recognize each other instantly after the gap; Mugen admits `I thought I'd get kicked smh`; an old friend rejects the premise and later says it is `nice just having you in the server`; Mugen ducks the direct belonging statement sideways into `my memes are good?`. The absence is acknowledged without requiring social reintroduction, and Mugen's small fear that her place might have expired coexists with the old joke dialect still working immediately.
 
-The six reviewed-but-publication-held MAIN families remain:
-- Wall — ShiyaX prosecutor↔defendant + Shiki witness-erasure MAIN folds.
-- Louvre — Yumi relationship-afterlife + Rooks creator-process + Mia practical-creative/access-help; SimpleXS owner unresolved.
-- Mugen person-first — fifth-anniversary people-history + Tae personalized nuisance-as-care + founding behavior-before-title.
-- Whiskey — Sye/Life active warmth/context-brake.
-- Core Rooms / Events — Snow participant-friction / collaborative-accountability.
-- Daycare — Mia embarrassment-as-propulsion + Woosung compact-prosecution.
+Reader commit `97a5b1f0c7da6e09b40fabf08b7efad2029fa91c` passed exact-head Build `33831030960` and exact-head Pages deployment `33831030953`.
 
-Publication-held `last_consumed_sha` cursors remain behind accepted unverified MAIN work while reviewed heads are recorded durably so the same suffix is not re-mined.
+Other reviewed material was routed without duplicate receipt prose:
+- Core Rooms / Dance With Rain corroborates the already-public Mugen specialist-delegation/usability contradiction; no extra section needed.
+- Wall / Spicy Hotpot deepens the banked self-recognizing/self-incriminating defendant read.
+- Late Wall / BishopThaGuru adds mock-paranoid defendant / self-appointed comedian / attention-reframer texture and comfortable affection-through-teasing with Tofu. No unsupported new Cast owner was created.
+- Joy remains too thin for profile promotion; the Snow/Wattpad wording remains unresolved.
+
+The six reviewed-but-publication-held MAIN families remain Wall, Louvre, Mugen person-first, Whiskey, Core Rooms / Events, and Daycare. Their publication-held `last_consumed_sha` cursors remain behind accepted unverified MAIN work while reviewed heads are recorded durably.
 
 ## Verification / deployment
 
-MAIN census commit `aa2c5130f5409d87902726a383d13fcc21395d6a` triggered workflow `33827938752`. Attempt 1 failed before `Build + verify` instantiated repository steps and skipped verified Cloudflare deployment. The failed jobs were explicitly rerun; attempt 2 failed identically. MAIN Run 345 report commit is `431f1506eb0d0dd38e0dd75dc47c23edb5fc4baa`; its exact-head workflow is checked separately at run close.
+WIKI reader change is already Build-green and deployed at exact reader head `97a5b1f0c7da6e09b40fabf08b7efad2029fa91c` via Build `33831030960` and Pages `33831030953`.
 
-WIKI has state-only changes this cycle. Exact final-head Astro Build and Pages workflows are checked after this rolling-state commit; no reader publication depends on them.
+This rolling-state commit triggers its own exact-head Build and Pages workflows and is checked separately at run close.
+
+MAIN receives no reader-facing mutation this run while its mandatory verification workflow remains structurally unavailable; exact final-head MAIN workflow status is recorded in the MAIN per-run report and final run close.
 
 ## Rails retained
 
-Hard canon and resolved identity bridges remain binding. Earliest surviving is not origin. No identity merging from similar names. No appointment chronology from export-time arrays. Joke family/romance remains non-literal without support. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct. Uninspected media stays uninspected. Safety-sensitive intake material stays backstage.
+Hard canon and resolved identity bridges remain binding. `2 yr catch up` remains conversational shorthand, not an exact hiatus clock. `I thought I'd get kicked` is Mugen's stated fear, not evidence that removal was actually contemplated. Earliest surviving is not origin. No identity merging from similar names. No appointment chronology from export-time arrays. Joke family/romance remains non-literal without support. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct. Uninspected media stays uninspected. Safety-sensitive intake material stays backstage.
