@@ -22,28 +22,32 @@ The 2021–2026 checkpoint was re-read directly this run. Its existing A/B findi
 
 ## Run 367 intake
 
-Only Wall advanced: `archive-miner-wall-hourly-20260824` moved **`e553092ea974f65fbb81a1c8eeaf40d5911c4446 -> 9e9ce04277f658c1e618c40165ab26fdbfe5bc19`**. It was reviewed checkpoint-first, intake-only; no raw archive was re-mined.
+Two deltas were ultimately reviewed. **Wall** moved `e553092ea974f65fbb81a1c8eeaf40d5911c4446 -> 9e9ce04277f658c1e618c40165ab26fdbfe5bc19`. A late closing census then caught **Daycare** moving `2e26f1d7a02b7301e68c6d23ee76e5c4d2af2903 -> 3489b514020403cd2038a6ec04366a837fe02d3f`. Both were checkpoint-first, intake-only; no raw archive was re-mined.
 
-The strongest new person layer is **Ten**. Rookie Cookie's `It’s the morning wood talking` carries `W / O / 🅾️ / D / HELP`, with **Ten and Ren on every reaction object**. That gives Ten a clean contradiction and Ten↔Ren a clean shared-humor lane: the guy who complains that UL records everything is also perfectly willing to help decorate somebody else's evidence. The export does not preserve who reacted first.
+**Ten:** Rookie Cookie's `It’s the morning wood talking` carries `W / O / 🅾️ / D / HELP`, with Ten and Ren on every reaction object. That gives Ten a clean contradiction and Ten↔Ren a clean shared-humor lane: the guy who complains that UL records everything is also willing to help decorate somebody else's evidence. The export does not preserve who reacted first.
+
+**Reinaa / Reiinnaa:** a replacement account explicitly says `(my old acc died sooo new acc)`, and Gilli immediately offers to kick the dead account. This directly repairs the old stable-ID endpoint into person continuity: technical login failure, minimal explanation, practical cleanup, no social reintroduction ceremony. Stable IDs stay distinct and replacement-account Daycare posting is not inferred.
 
 ## Public reconciliation
 
-**Ten:** `src/data/character-biographies-ten.ts` is the canonical WIKI owner. The first Run-367 reconciliation note saying no Ten owner existed was incorrect and is superseded. Ten's biography was resynthesized around response-time humor, Screenshot Court self-incrimination, the new reaction-bar complicity, and `Petty Crimes` rather than receiving another receipt-shaped paragraph.
+`src/data/character-biographies-ten.ts` is the canonical WIKI owner. The first Run-367 note saying no Ten owner existed was incorrect and is superseded. Ten's biography was resynthesized around response-time humor, Screenshot Court self-incrimination, the reaction-bar complicity, Ten↔Ren shorthand, and `Petty Crimes` rather than receiving another receipt-shaped paragraph.
 
-**Banked/backstage:** gammaramma remains ultra-thin; q3's direct Wall-text insect recurrence subquestion is closed negative; q18's chicken/ribs reply edge is structurally closed but the posted screenshot and referents remain unresolved.
+Reinaa remains banked because neither public surface currently has a safe substantial owner; a strong continuity correction is not permission to manufacture a thin Cast page.
 
-MAIN does not mirror the WIKI copy. Its current Ten biography already carries the stronger cumulative memory/legacy mechanism, and no new MAIN reader mutation was made from this suffix.
+Wall backstage: gammaramma remains ultra-thin; q3 insect text-recurrence is closed negative; q18 chicken/ribs edge stays bounded by uninspected pixels/referents. Daycare backstage: RH16 now has exact bot-break screenshot attachment coordinates, but the screenshots remain uninspected and Saber remains plausible/unproven.
+
+MAIN does not mirror WIKI copy. Its current Ten biography already carries the stronger cumulative memory/legacy mechanism; no new MAIN reader mutation was made from either suffix.
 
 ## Verification / deployment
 
-WIKI reader commit **`87335ada35c6d848a27f7d8d626a3180fdced6e8`** updates Ten. Exact-head Pages workflow **33857075455** succeeded, including preview build, artifact upload, and **Deploy to GitHub Pages**. The final state-only head's own Build/Pages disposition is checked separately at close.
+WIKI reader commit **`87335ada35c6d848a27f7d8d626a3180fdced6e8`** updates Ten. Exact-head Build workflow **33857075297** succeeded through Astro. Exact-head Pages workflow **33857075455** succeeded, including preview build, artifact upload, and **Deploy to GitHub Pages**. The final state-only head's own Build/Pages disposition is checked separately at close.
 
 MAIN remains independently gated. Workflow **33856803161** on its Run-367 reconciliation head failed before repository verification instantiated; its `Build + verify` job had no steps / no runner, and verified Cloudflare deployment was skipped.
 
 ## Consumed cursors
 
-No conservative publication-held cursor advances. Wall is reviewed through `9e9ce04277f658c1e618c40165ab26fdbfe5bc19`, while MAIN's controlling `last_consumed_sha` stays `ea893e9ffb682e2cc0007e10c9f6dcc1df36b20d` because older accepted Wall publication debt is still unverified on MAIN.
+No conservative publication-held cursor advances. Wall is reviewed through `9e9ce04277f658c1e618c40165ab26fdbfe5bc19` and Daycare through `3489b514020403cd2038a6ec04366a837fe02d3f`; MAIN's controlling consumed SHAs remain `ea893e9ffb682e2cc0007e10c9f6dcc1df36b20d` and `fb865a0a2c2a23f0483933975c766dcadcd504fc` because older accepted reader debt is still unverified on MAIN.
 
 ## Rails retained
 
-Hard canon and resolved identity bridges remain binding. Ten is not GroxTen. Reaction membership does not identify who started a stack. Joke rank/family/romance/violence language remains non-literal without support. Earliest surviving is not origin. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct. Uninspected media stays uninspected.
+Hard canon and resolved identity bridges remain binding. Ten is not GroxTen. Reaction membership does not identify who started a stack. Reinaa's account continuity is explicit rather than name-inferred; account IDs remain distinct. Joke rank/family/romance/violence language remains non-literal without support. Earliest surviving is not origin. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct. Uninspected media stays uninspected.
