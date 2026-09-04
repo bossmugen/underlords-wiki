@@ -1,60 +1,54 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-04 Run 384_
+_Last updated: 2026-09-04 Run 385_
 
-MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. MAIN carries the matching `archive-intake/INTEGRATION_REPORT_RUN_384.md`.
+MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. MAIN carries the matching `archive-intake/INTEGRATION_REPORT_RUN_385.md`.
 
 ## Current census / queue
 
 Full census: **49 tracked miner identities = 28 active refs + 21 historical/missing refs**.
 
 - newly discovered: 0
-- reviewed this run: 1 — `archive-miner/daycare-2020-2026-hourly`
-- pending review at final close: 2 — `archive-miner/louvre-ai-art-athenaeum-other-games-hourly`, `archive-miner-wall-hourly-20260824`
+- reviewed this run: 3 — Wall, Louvre, Mugen person-first closing suffix
+- pending review at final close: 0
 - pending-publication MAIN families: 6
 - backlog: 0
 - overdue: 0
 
-Daycare advanced from `98af61c1ecc720fd0f31fb245c7a26fb3e01576b` to `e8623feb01f72640d35e296a85af8b32217f624f` and was reviewed checkpoint-first / intake-only through current head. Both Club-Only recovery priorities remain current through head: `e45fb11c9239e236231bb65645dfd0285bc0078b` and `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`. No raw archive was re-mined.
+Wall was reviewed through `4d696ad99f1d1f92a692983cc0283a57ea9b8ab9`; Louvre through `269c578d19ff6cffb552547241d5af55b7b63ec6`. The closing census then caught Mugen person-first advancing `bf4df3cc847b1e3a405e34e7e557ae22253db52c → d9cdce1db83c5419c18756bd49d8a7874d4bd0cf`; that suffix was also reviewed checkpoint-first and produced no new public candidate.
 
-A final ref recheck after reconciliation caught two late movers: Louvre `bcdb588a3fbec7b8fa5d159005132c0b07d2af65 → 269c578d19ff6cffb552547241d5af55b7b63ec6` and Wall `6b08357d7fb4ffea2e36d68ca7fc71ad07f3fa9a → 4d696ad99f1d1f92a692983cc0283a57ea9b8ab9`. MAIN's controlling ledger already carries those new `last_seen_sha` values as `pending_review`. Their fresh suffixes were not partially reviewed after the run had already closed.
+Both Club-Only recovery priorities remain current through head: `e45fb11c9239e236231bb65645dfd0285bc0078b` and `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`. No raw archive was re-mined.
 
 ## Public reconciliation
 
-Reader-facing WIKI changes in Run 384: **0**.
+Reader-facing WIKI change in Run 385: **Suzi**.
 
-The new Daycare family materially characterizes YｏＣｈａｎ9 / `foxkanojo`: his surviving Wall behavior moves from terse `👀` / laughter spectatorship into supplying Wall material himself, including `Another shame:Hehe:` and a screenshot he says came `From server sea`, followed immediately by `But idk how to paste to raja global😂 😂`. The durable read is **spectator → supplier without losing the terse register**; a cheerful evidence scavenger with a very Petty-Crimes-worthy cross-server-sourcing-versus-paste-button contradiction.
+The Louvre suffix adds ordinary-life texture that the current Suzi dossier did not already own. Around AI-art she can give a result `Very realistic` and then, roughly a second later, answer herself with `Eh`. The speed matters more than the art review: Suzi does not seem particularly attached to preserving the dignity of Take One. She can revise herself and move on.
 
-No existing YｏＣｈａｎ9 / foxkanojo Cast owner was found on either public surface. WIKI therefore banks the strong person-shaped finding rather than creating a thin dossier or inventing an identity bridge merely to publish it. The July Candy tag remains one initiated joke, not a promoted reciprocal relationship. The August screenshot is POSTED BY YｏＣｈａｎ9; MADE BY / CAPTURED BY / FEATURING remain unresolved because the pixels were not inspected.
+The same practical streak shows up when old school friends are getting together again after roughly a decade apart and Suzi volunteers as designated driver so the outing can actually happen. The public-safe character read is simple: **fun apparently still passes through Suzi Logistics first**. She can be socially game and fully part of the night while quietly making sure the plan has wheels.
 
-keon / `lemurshark.` was inspected as a low-volume control and did not clear the cumulative-character threshold. The Lobby 2024-02-05 → 2024-04-01 quiet interval remains Lobby-local only. Daycare creator / permission provenance is still unresolved after unrelated Saber `New event created` false positives were rejected.
+This was folded into the active `run75` Suzi narrative as a new ordinary-life section plus a `Petty Crimes` self-review speedrun. Private family/work/geography details were withheld. The older Wall screenshot/reassurance family was meaning-deduped instead of cloned.
 
-Genuinely new findings: **1 person family**. New duplicate/corroboration families: **0**. New conflicts: **0**. Reader changes: **0**.
+Wall produced a banked SaraBunny / `foxcat` profile: terse observer → participant, including joining the room's existing moo relay. No safe canonical Cast owner exists, so WIKI does not manufacture a thin dossier or infer an identity bridge. Uninspected images remain POSTED BY only.
 
-The six MAIN-held publication families remain Wall, Core Rooms / Events, Daycare, Louvre, Mugen person-first, and Whiskey.
+The late Mugen suffix is reviewed/no-public-change. Its fresh source movement was other-person work or recurrence of already-owned mechanisms; joke `wife` language remains nonliteral absent stronger support.
 
 ## Verification
 
-Exact WIKI state commit `00cff95bbd700e745327e8c8c28e95c6a886b667` passed:
+Reader commit `06028f138f591471a61854c0bb38b4f74f497f16` passed:
 
-- Build workflow `33883436222`: **success**.
-- Pages workflow `33883436298`: **success**.
-- Pages build, artifact upload, actual `Deploy to GitHub Pages`, and final report: **all success**.
+- Build workflow `33885461301`: **success**.
+- Pages workflow `33885461343`: **success**.
+- GitHub Pages deployment: **success**.
 
-The state handoff is therefore built and deployed even though no reader-facing Cast prose changed.
+So Suzi's new structured layer is built and deployed, not merely committed.
 
-MAIN's matching exact report commit `cb0e2849f2fc0647b38a76ec2f8f19afb033890f` ran workflow `33883401513`; attempt 1 failed before repository verification steps instantiated. The failed workflow was explicitly rerun and attempt 2 failed in the same pre-execution shape. `Build + verify` exposed no step payload and verified Cloudflare deployment was skipped both times. Source verification, Astro, built-output verification, and Cloudflare deployment therefore did not run. MAIN remains not green and not newly deployed.
-
-This update is `[skip ci]` and reader-neutral; it records the already-completed exact-head workflow results and the late closing census.
+MAIN reader-facing changes in Run 385: **0**. The six held MAIN families remain Wall, Core Rooms / Events, Daycare, Louvre, Mugen person-first, and Whiskey. MAIN's exact final report workflow is recorded in the matching MAIN Run-385 report once that check closes.
 
 ## Consumed cursors
 
-Daycare is reviewed through `e8623feb01f72640d35e296a85af8b32217f624f`, but its sequential consumed cursor remains `fb865a0a2c2a23f0483933975c766dcadcd504fc`: older accepted MAIN Daycare reader work still sits between that cursor and the reviewed head and has not cleared MAIN's mandatory verifier, so the ledger cannot safely leapfrog it.
-
-Wall and Louvre consumed cursors are unchanged because their newly seen closing suffixes are unreviewed.
-
-All other consumed cursors are unchanged.
+No conservative consumed cursor advances across the six MAIN-held families. Wall, Louvre, and Mugen now have their current reviewed heads durably recorded, so those suffixes should not be reread as fresh. Their older consumed boundaries remain because accepted MAIN reader work still sits between the cursor and reviewed head and has not cleared MAIN's mandatory verifier.
 
 ## Rails retained
 
-Hard identity, role, family-language, romance, attribution, privacy, and source-contradiction rails remain unchanged. No reader copy was added this run merely because a new receipt family existed.
+Hard identity, role, family-language, romance, attribution, privacy, and source-contradiction rails remain unchanged. No image authorship/subject claim was inferred from POSTED BY. No private family/work/geography detail from the Louvre source was surfaced simply because it existed.
