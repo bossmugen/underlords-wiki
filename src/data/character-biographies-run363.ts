@@ -4,6 +4,7 @@ import { jasNarrativeCharacterBios } from "./character-biographies-jas";
 import { momoNarrativeCharacterBios } from "./character-biographies-momo";
 import { mugenNarrativeCharacterBios } from "./character-biographies-mugen";
 import { oyasumiNarrativeCharacterBios } from "./character-biographies-oyasumi";
+import { ryoNarrativeCharacterBios } from "./character-biographies-ryo";
 
 const hishiroBase = hishiroNarrativeCharacterBios.hishiro;
 
@@ -48,6 +49,11 @@ export const run363MomoNarrativeCharacterBios: Record<string, CharacterNarrative
 // the resolver into another giant receipt ledger. Jas's source lives in its own file;
 // exporting the map here makes the public route pick it up through run363Module.
 export const run366JasNarrativeCharacterBios: Record<string, CharacterNarrative> = jasNarrativeCharacterBios;
+
+// Ryo's finished person-first biography was deepened from the current Wall pass in its
+// own file. Exporting it through this already-registered module makes that biography an
+// actual public owner instead of leaving a good character file stranded off-route.
+export const run376RyoNarrativeCharacterBios: Record<string, CharacterNarrative> = ryoNarrativeCharacterBios;
 
 const mugenBase = mugenNarrativeCharacterBios.mugen;
 const oyasumiBase = oyasumiNarrativeCharacterBios.oyasumi;
