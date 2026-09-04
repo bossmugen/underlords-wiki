@@ -8,13 +8,25 @@ const mugenCommunicationBandwidth = [
   "The same loophole is visible absurdly early. During an April 2020 Fight Club session, Mugen tells people they can listen in voice and answer from VIP text if talking is inconvenient. Nobody has to perform the room in the same format to count as being in the conversation. It is planner brain used as an exit ramp: keep the session coherent, loosen the route. Jere answers with a heart. Mugs likes structure; she just seems more interested in keeping the human inside it than making the human match it."
 ];
 
+const mugenSectionsWithBandwidth = mugenBase.sections.map((section) =>
+  section.title === "Control freak, not oracle"
+    ? { ...section, paragraphs: [...section.paragraphs, ...mugenCommunicationBandwidth] }
+    : section
+);
+
 export const mugen0500NarrativeCharacterBios: Record<string, CharacterNarrative> = {
   mugen: {
     ...mugenBase,
-    sections: mugenBase.sections.map((section) =>
-      section.title === "Control freak, not oracle"
-        ? { ...section, paragraphs: [...section.paragraphs, ...mugenCommunicationBandwidth] }
-        : section
-    ),
+    sections: [
+      ...mugenSectionsWithBandwidth,
+      {
+        period: "August 2026 · reunion",
+        title: "SHE SAYS ONE NORMAL SENTENCE AND MUGS HERSELF CALLS THE ALARM",
+        paragraphs: [
+          "During the 2026 reunion, Mugen tries an almost suspiciously unarmored opening: `You guys`, then `It's been a while.` No skull. No fake threat. No pet name. No joke already waiting under the sentence. Whatever the room does in the omitted beat, Mugen reads the temperature immediately and protests, `OK WHY ARE YALL SCARED I WAS TRYING TO BE SENTIMENTAL`. The useful detail is not that she has secretly discovered feelings. It is that plain sentiment from Mugs is unusual enough for *her* to notice the social alarm it sets off.",
+          "She does not retreat once sincerity gets awkward. She explains the intent and keeps going: `We're literally 6 years older than when we first met and yall just -`. The all-caps complaint is almost a repair mechanism by itself — exposed feeling, then familiar Mugen volume wrapped around it without cancelling the feeling underneath. Sye answers `Nah I’m still same age`, supplying exactly the kind of stupid side door the room usually uses when a clean emotion has been left sitting in the middle of the floor. Mugen can be sentimental in public. Apparently the startling part is sentimental Mugen arriving before the camouflage."
+        ]
+      }
+    ],
   },
 };
