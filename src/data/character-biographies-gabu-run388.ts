@@ -11,14 +11,14 @@ export const run388GabuCharacterBios: Record<string, CharacterNarrative> = {
         title: "WHAT KEEPS HAPPENING",
         paragraphs: [
           ...gabu.characterNotes.map((note) => `${note.title}. ${note.text}`),
-          "Access is another version of the same habit. When Mugi needed Club access in August 2022, Gabu did not make the room perform a scavenger hunt: she checked whether he was already on the current-members list, said she would scouter him, confirmed the access, and closed the ticket. Two years later, when Kaz said the bot was not updated, Gabu went straight back to IDs and registry state — then discovered the funniest possible continuity bug: `Already have him added from 2022 lol`. The joke only works because the infrastructure remembered what everybody else had forgotten. Gabu's practical care is often like that: make the doorway work now, leave enough behind that Future Gabu has something to find later.",
+          "Gabu's maintenance habit gets even more specific when the house considers replacing Saber with Carl. She does not jump from `new bot exists` to `ship it`. Her own pinned note starts `If everything works ok, i will try replace saber with carl`, then turns the week into a checklist of warning/start alerts and gets edited again days later. The social instinct and the technical one line up almost embarrassingly well: make the thing feel easy for everybody else by being the person who quietly verifies the boring parts before they become everybody else's problem.",
         ],
       },
       {
         title: "SCENES THAT STUCK",
         paragraphs: [
           ...gabu.history.map((beat) => beat.text),
-          "In August 2022, a Daycare access request turns into a tiny Gabu workflow: check the current-members list, scouter the person, grant access, `Closed the ticket`. In July 2024, another bot/registry question sends her through UID and Miyu-net-ID checks until she realizes the person is already present from 2022. Nothing about the exchange is ceremonial. That is exactly why it belongs in her story: Gabu keeps turning belonging into fields somebody can actually use, and sometimes the old machinery gets to deliver the punchline back to her.",
+          "On April 17, 2023, Carl is being tested against Saber's event-alert work. Gabu pins `Gabu's alerts check`, opens with `If everything works ok, i will try replace saber with carl`, and lays out paired alert checks across Monday through Sunday; the post is edited again on April 22. By October, Carl is visibly issuing live event alerts. The interesting part is not bot trivia. It is Gabu refusing to make a migration on vibes: test it, watch it, leave a checklist, come back. Soft delivery; methodical backend brain.",
         ],
       },
     ],
