@@ -3,41 +3,42 @@ import type { CharacterNarrative } from "./character-biographies-narrative";
 export const akaminNarrativeCharacterBios: Record<string, CharacterNarrative> = {
   akamin: {
     intro: [
-      "Akamin is an early UL member whose surviving 2020 scenes already begin in the middle of familiarity: Gilli has just been asking about her, Snow announces that the bar is open for Akamin, and later Akamin insists her name better stay on Tumbleweed. The important correction is equally simple: **Akamin and Mere are two separate people.** An older public alias bridge that merged them was wrong, so Mere's history does not get smuggled into Akamin's biography through name proximity.",
-      "Once the bad bridge is removed, Akamin still has plenty of her own character. She arrives from skating to `Gilliiii😁`; Snow greets her with a text mai tai; months later she looks at the absurd family map and says `My name better stay there`, to which Mugen answers `always`. In December, Mugen announces `Our bb @akamin` on the Dragon Raja throwback streaming schedule. The thread tying those scenes together is not a fake identity merge. It is Akamin-specific belonging: already recognized at the door, invested in being kept on the house map, then invited to feed old game memory back into the room."
+      "Akamin does not need much prose to make herself felt. She turns up from skating calling `Gilliiii😁`; Snow immediately opens the imaginary bar for her; months later she spots a screenshot and answers with `Hehe` before unloading six copies of the same yandere reaction. Her footprint can be small. Her punctuation is not.",
+      "That combination is the useful way into her: easy familiarity, quick side-eye, and a talent for joining the room's nonsense without stopping to explain the joke. She notices receipts, pokes at whatever is already happening, and can turn one reaction into enough commentary for everybody else to understand the assignment."
     ],
     sections: [
       {
-        period: "April 5, 2020",
-        title: "The bar is already open",
+        period: "Social style",
+        title: "Quiet footprint, loud punctuation",
         paragraphs: [
-          "Akamin enters the surviving Lobby scene saying she has just come from skating and calls for Gilli. Gilli says she had just asked about Akamin in club chat. Snow announces `the bar is open for Akamin`, Akamin answers `Snow baby heyyyy`, and the text-mai-tai bit ends with Akamin saying `Going in`. Nobody is behaving like this is first contact. The archive therefore treats the scene as established familiarity by that date, not as proof of the exact recruitment or in-game admission moment."
+          "Akamin is not one of the people who needs a paragraph to enter a bit. On the Wall she can look at somebody's alleged innocence and go `Ooh she innocent huh..tell em snoop`; another time she notices a screenshot, drops `I see the screenshot:Hehe:`, and lets the face do most of the prosecuting. When ordinary reaction size is apparently insufficient, she is also capable of sending `:yandere_hey_hey:` six times in a row. The mechanism is consistent: notice the joke, sharpen it, leave the room with more noise than the word count should permit."
         ]
       },
       {
-        period: "October 14, 2020",
-        title: "My name better stay there",
+        period: "Relationships",
+        title: "She walks in like the room already knows her",
         paragraphs: [
-          "During Tumbleweed discussion, Akamin says `My name better stay there`; Mugen answers `always`. The ridiculous family map is joke genealogy, not literal kinship, but Akamin's own investment in continued placement is real social evidence. The line matters because the map is not only something other people use to classify her. She cares about remaining on it."
+          "Akamin's early UL scenes are comfortable before they are explanatory. She arrives from skating and calls straight for Gilli; Gilli says she had just been asking about her. Snow announces that `the bar is open for Akamin`, gets `Snow baby heyyyy` back, serves a text mai tai, and Akamin says `Going in`. Nobody has to perform the relationship for an audience. The shorthand is already doing the work.",
+          "Mugen gets the same easy register in a different flavor. When Akamin worries about her place on the ridiculous Tumbleweed family map, she says `My name better stay there`; Mugen answers `always`. Later Mugen publicly calls her `Our bb` while putting her on a Dragon Raja throwback streaming schedule. The map is joke genealogy, but Akamin caring about still being on it is very real belonging behavior: she wants her place in the stupid drawing to survive because the stupid drawing means people remembered where to put her."
         ]
       },
       {
-        period: "December 2020",
-        title: "Our bb is on the throwback schedule",
+        period: "Reputation",
+        title: "Receipt court has a spectator section",
         paragraphs: [
-          "Mugen announces that `Our bb @akamin` is scheduled to stream Dragon Raja throwbacks for the community. The safe verb is **scheduled**; the currently surfaced receipt does not independently prove the broadcast completed. What it does show is affectionate public framing and a plan for Akamin to contribute memory back to the same group that had already been preserving her place on its joke-family map."
+          "Akamin's Wall material does not turn her into a full-time prosecutor. It makes her a very efficient spectator. She seems happiest at the moment somebody else's story has already begun wobbling: innocence is being claimed, a screenshot appears, and Akamin supplies the side-eye. That is a different social role from leading the charge. She is the person in the gallery making the case funnier by visibly not buying it."
         ]
       },
       {
-        period: "Canon fence",
-        title: "Mere is not an alias",
+        period: "Petty Crimes",
+        title: "Petty Crimes",
         paragraphs: [
-          "Akamin and Mere remain separate people everywhere on this wiki. Similarity, old filing drift, or a stale derived note cannot bridge them. Any future Mere material needs Mere-specific evidence; any future Akamin material needs Akamin-specific evidence. The correction does not erase Akamin's own established scenes. It simply stops one person's history from being used as counterfeit provenance for the other."
+          "Comes back from skating and immediately asks for Gilli. Accepts imaginary cocktails without requiring the bar to become real first. Has used `tell em snoop` as courtroom accompaniment. Has looked directly at a screenshot and answered with `Hehe`. Once decided one yandere reaction was not enough and sent six. Also has enough investment in Tumbleweed to demand continued map residency, which is a very dignified thing to do about a fake family diagram."
         ]
       }
     ],
     closing: [
-      "Akamin's public file can stay compact without being vague: skating at the doorway, Snow opening the imaginary bar, a demand to stay on Tumbleweed, Mugen answering `always`, then an `Our bb` throwback slot. That is already one person. She does not need Mere's biography stapled to her to become interesting."
+      "Akamin is easiest to recognize by compression. A greeting, a drink, a screenshot, one little `Hehe`, six identical emotes, a demand that nobody erase her from the house map. She does not have to dominate the room to become part of its language. She just has to notice exactly where the joke is and lean on it."
     ]
   }
 };
