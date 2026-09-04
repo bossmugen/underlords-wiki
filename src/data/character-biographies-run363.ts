@@ -4,6 +4,7 @@ import { jasNarrativeCharacterBios } from "./character-biographies-jas";
 import { momoNarrativeCharacterBios } from "./character-biographies-momo";
 import { mugenNarrativeCharacterBios } from "./character-biographies-mugen";
 import { oyasumiNarrativeCharacterBios } from "./character-biographies-oyasumi";
+import { prideNarrativeCharacterBios } from "./character-biographies-pride";
 import { ryoNarrativeCharacterBios } from "./character-biographies-ryo";
 
 const hishiroBase = hishiroNarrativeCharacterBios.hishiro;
@@ -54,6 +55,10 @@ export const run366JasNarrativeCharacterBios: Record<string, CharacterNarrative>
 // own file. Exporting it through this already-registered module makes that biography an
 // actual public owner instead of leaving a good character file stranded off-route.
 export const run376RyoNarrativeCharacterBios: Record<string, CharacterNarrative> = ryoNarrativeCharacterBios;
+
+// Pride's Wall history is its own person-shaped file; export it through the registered
+// overlay module so the corpse mythology replaces the thin Staff fallback on his route.
+export const run378PrideNarrativeCharacterBios: Record<string, CharacterNarrative> = prideNarrativeCharacterBios;
 
 const mugenBase = mugenNarrativeCharacterBios.mugen;
 const oyasumiBase = oyasumiNarrativeCharacterBios.oyasumi;
