@@ -1,8 +1,28 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-04 Run 396 reconciliation_
+_Last updated: 2026-09-04 Run 397 reconciliation_
 
-MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. The current full census is **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 pending review, 0 backlog, 0 overdue**, and eight MAIN publication-held families: Wall, Backroom, Core Rooms / Events, Daycare, Louvre, Meems, Mugen person-first, and Whiskey. Run 396 reviewed Wall through `dccdf7a0fff67127bfce4cfc522d4127fc2f44b9`, Backroom through `030409d7f94c5cc5c3dbebb3e5c933a310b6b3b7`, Daycare through `33a7a684f3137ac93cfa12868f800ec5a485d39f`, Louvre through `5015bf8fca7016956d8862dd434602f719519ec1`, Whiskey through `542f7ddf99aa0d5d05ac8a27f213383bca17f994`, and a run-local Mugen tail through `20265433477ea3f9e6cba21842f59ada611960e3`. Both Club-Only recovery priorities remain current and no raw archive was re-mined.
+MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Run 397 opened on **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with two advanced refs and no backlog or overdue branches. QOTD / Officers advanced to `0ecfe9ca0f5f8298b5cf48b3381ab842f3370257`; Core Rooms / Events advanced first to `d29acf019ba825531af112a18a75b9b862d08bd3` and then, during closing census, to `a5269207c73277375ce80c238ec26f5d4e74c644`. Both Club-Only recovery priorities remain current and no raw archive was re-mined.
+
+## Run 397 — Panda routes the human and the clown problem
+
+Core Rooms / Events finally supplied a compact Panda / Marian Kage beat that adds something the existing dossier did not quite own yet. Haku asks for the orientation document; Marian responds by dropping the route rather than performing an onboarding speech. Haku immediately pivots into `kidnaps a karit`; Marian routes that joke too, follows with `we dont do that no more`, gives one clipped reason, and stops. The interesting part is not generic helpfulness. Marian uses essentially the same compressed social register for literal navigation and joke correction: point at the door, correct the traffic, give only the context necessary to keep the room moving, done.
+
+WIKI folds this into Panda's existing biography under `HE ROUTES PEOPLE AND NONSENSE THE SAME WAY`; it does not create a dated event appendix or invent a Staff / moderator appointment from one useful act. The exact historical names represented by the linked channel IDs remain intentionally unreconstructed because the miner notes migration / rename ambiguity. `kidnaps a karit` remains joke language rather than literal abduction or a newly generalized recruitment motif. The source correction is also retained: this Haku hit belongs to `welcome-and-milestones`, not `club`.
+
+Reader file changed:
+
+- `src/data/character-biographies-panda.ts`
+
+Reader commit **`9f64f4bec06364720d6e3ec313e913d213b7e886`** passed exact-head Build **`33909440422`** and exact-head Pages **`33909440405`**. The Pages run's preview-build, actual `Deploy to GitHub Pages`, and report jobs all succeeded. The Panda deepener is green and deployed.
+
+QOTD / Officers was the successful no-public-change half of the run. Its `62e709898956b1d7bfa28ac1deeecada101a7f05 → 0ecfe9ca0f5f8298b5cf48b3381ab842f3370257` suffix is explicit NO PROMOTION / no-new-source-evidence material; the router / materialization mismatch and existing do-not-rediscover boundaries remain. That delta is reviewed rather than left to churn again.
+
+Closing census caught Core moving once more from `d29acf01...` to `a5269207...`; comparison shows only checkpoint carry-forward, with the same 11:38 substantive pass and no later evidence family. It was therefore reviewed as no-new-public-change after the Panda integration. Core's conservative consumed cursor remains behind because older accepted MAIN Core material is still publication-held by MAIN's verification gate.
+
+A later concurrent integrator census landed on MAIN while Run 397 was closing and discovered a still-newer Birthdays / PR / VC suffix. Run 397 did **not** overwrite that concurrent branch-state commit or pretend to own the later suffix; the newer run owns that review. This is deliberate concurrency hygiene, not an unread Core/QOTD gap.
+
+MAIN reader-facing changes this run remained **0**. The scheduled MAIN workflow at the hour, run **`33908896569`**, failed in the same pre-runner shape already affecting the project: `Build + verify` completed failure with no repository steps materialized, while verified Cloudflare deployment was skipped. Nothing in that result demonstrates a source-verifier, Astro, built-output, or content failure because those checks did not execute. MAIN's richer Panda fold therefore remains publication-held rather than being copied from WIKI prose.
 
 ## Run 396 — Rummy, Moon, Dyingfox
 
