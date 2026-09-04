@@ -15,7 +15,7 @@ Full census: **49 tracked miner identities = 28 active refs + 21 historical/miss
 - backlog: 0
 - overdue: 0
 
-All 28 active miner refs remained exactly on the Run 386 reviewed heads at opening. No `archive-intake/*` delta existed to reopen, so no previously reviewed handoff was reread and no raw archive was re-mined.
+All 28 active miner refs remained exactly on the Run 386 reviewed heads at opening and closing. No `archive-intake/*` delta existed to reopen, so no previously reviewed handoff was reread and no raw archive was re-mined.
 
 Both Club-Only recovery priorities remain current through head: `archive-miner/club-only-2021-2026-hourly` at `e45fb11c9239e236231bb65645dfd0285bc0078b` and `archive-miner-clubonly-2020-hourly` at `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`. The 2021–2026 checkpoint's saturation/retrieval-failure and do-not-churn boundaries remain unchanged.
 
@@ -31,9 +31,9 @@ The six MAIN-held publication families remain Wall, Core Rooms / Events, Daycare
 
 ## Verification
 
-Run-387 MAIN report commit `05d8f291db229cad14dab449ee95f04a58c744fd` triggered workflow `33888555340`. Attempt 1 failed before repository verification instantiated. Failed jobs were explicitly rerun once; attempt 2 failed in the same pre-execution shape. `Build + verify` exposed no steps and `Deploy verified master to Cloudflare Pages` was skipped. Source verification, Astro, built-output verification, and Cloudflare deployment therefore did **not** run and reject content. MAIN remains **not green and not newly deployed**.
+Run-387 MAIN report commit `05d8f291db229cad14dab449ee95f04a58c744fd` triggered workflow `33888555340`. Attempt 1 failed before repository verification instantiated. Failed jobs were explicitly rerun once; attempt 2 failed in the same pre-execution shape. `Build + verify` exposed no instantiated steps and `Deploy verified master to Cloudflare Pages` was skipped. Source verification, Astro, built-output verification, and Cloudflare deployment therefore did **not** run and reject content. MAIN remains **not green and not newly deployed**.
 
-WIKI reader-facing changes in Run 387 remain **0**. This state commit intentionally triggers the repository's existing Build and Pages workflows; their exact results are recorded in the per-run handoff after completion.
+WIKI state commit `3517f107eb0e1f1f84464d41dbbfc8140052d694` passed exact Build workflow `33888631179`: dependency install, Astro build, and status publication all succeeded. Exact Pages workflow `33888631125` also succeeded: preview build, Pages configuration, artifact upload, **Deploy to GitHub Pages**, and reporting all completed successfully. WIKI is green and deployed at that commit.
 
 ## Consumed cursors
 
