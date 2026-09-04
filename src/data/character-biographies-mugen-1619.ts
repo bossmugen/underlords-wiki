@@ -51,8 +51,17 @@ const withReturnContinuity = withSection(withSelectiveAperture, {
   ],
 });
 
+const withCheapVerdictRevision = withSection(withReturnContinuity, {
+  period: "September 2022 · low-stakes verdicts",
+  title: "THE VERDICT CAN CHANGE WITHOUT A CEREMONY",
+  paragraphs: [
+    "Tofu supplies the room with `Wolf noises 🐺` and `*pets the wolf*`; Mugen comes down with `THATS A BAD DOGGO`. Then the ruling changes: `Okay its cute nuuu`. There is no little speech explaining the revision, no attempt to preserve the dignity of the first verdict, and apparently no need to pretend she had secretly meant *cute* all along. Bad doggo becomes cute doggo because she looked again and changed her mind.",
+    "This is deliberately a low-stakes Mugen scene, which is why it earns its keep. Her delivery can sound hilariously final even when the opinion itself is cheap to replace. Decisive tone and deep attachment to the decision are not automatically the same thing. It does not prove she is never stubborn or that serious disagreements dissolve this easily; it gives the biography a useful baseline for the harmless stuff. Sometimes the Boss voice is simply the sound effect attached to whatever she thinks for the next thirty seconds."
+  ],
+});
+
 export const mugen1619NarrativeCharacterBios: Record<string, CharacterNarrative> = {
-  mugen: withSection(withReturnContinuity, {
+  mugen: withSection(withCheapVerdictRevision, {
     period: "Founding week · April 2020",
     title: "The server was a few days old. Apparently we already had covert alliances.",
     paragraphs: [
