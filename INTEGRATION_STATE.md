@@ -1,8 +1,8 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-04 Run 408 late close_
+_Last updated: 2026-09-04 Run 408 final close_
 
-MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. The final Run 408 boundary is **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered, 3 pending review, 0 backlog, and 0 overdue**. Eight older MAIN publication-held families remain Wall, Backroom, Core Rooms / Events, Daycare, Louvre, Meems, Mugen person-first, and Whiskey. Both Club-Only recovery priorities remain current at their established saturation / do-not-churn boundaries; no raw archive was re-mined.
+MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. The final Run 408 boundary is **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered, 4 pending review, 0 backlog, and 0 overdue**. Eight older MAIN publication-held families remain Wall, Backroom, Core Rooms / Events, Daycare, Louvre, Meems, Mugen person-first, and Whiskey. Both Club-Only recovery priorities remain current at their established saturation / do-not-churn boundaries; no raw archive was re-mined.
 
 ## Illien / Euros — reviewed, already public
 
@@ -24,13 +24,13 @@ The same suffix closes five q18 exact-parent checks as negative for surviving st
 
 ## Closing queue
 
-After the Wall review, three late movers remain for successor review: Backroom `49fb0bccae65227bef09cec413db6f0beb2f80bd`, Daycare `ab27514817f3849f0759cd77b295a367d99f9e73`, and Whiskey `72b99a9073298637145cb5eead2b63be6b150afd`. Their exact `last_seen_sha` boundaries are already persisted on MAIN before deep review. None is backlog or overdue.
+After the Wall review, the final ref recheck caught four exact successor boundaries: Backroom **`fe8f2bad44746cf74815b4e0defe18fe554ea068`**, Daycare **`ab27514817f3849f0759cd77b295a367d99f9e73`**, Whiskey **`72b99a9073298637145cb5eead2b63be6b150afd`**, and Mugen person-first **`daaf7cfcb16cf92abf1338f1ce63c3fe7f3fa1cd`**. Backroom had moved again after its first late-seen `49fb0bcc...`; Mugen person-first also advanced after the earlier census. All four exact `last_seen_sha` boundaries are persisted on MAIN before deep review. None is backlog or overdue.
 
 Birthdays / PR / VC advances `last_consumed_sha` through `96f6301a9f1f86c50b8bc761d7ddf21e902b2dc3`. Wall is reviewed through `50939cd8efc46b80a5e17f2618f38be6eeb11f2c` but keeps its older conservative consumed cursor because accepted MAIN Wall publication debt predates this suffix and MAIN's verifier remains the gate for that work.
 
 ## Public result / verification
 
-Reader-facing WIKI changes: **0**. Exact state head `4d4ee62072945a7e8790f7fd5080ad12ec9e2ea5` passed Build run **`33925310373`** and Pages run **`33925310379`**. The Pages workflow's `deploy` job completed successfully, including `Deploy to GitHub Pages`. This late-close state update is `[skip ci]`; it records the newer queue without changing the verified/deployed reader tree.
+Reader-facing WIKI changes: **0**. Exact state head `4d4ee62072945a7e8790f7fd5080ad12ec9e2ea5` passed Build run **`33925310373`** and Pages run **`33925310379`**. The Pages workflow's `deploy` job completed successfully, including `Deploy to GitHub Pages`. The final close commits are `[skip ci]`; they record the newer queue without changing the verified/deployed reader tree.
 
 No identity bridge was created from similar names. No appointment chronology was inferred from exporter role arrays. Earliest surviving remains earliest surviving, not guaranteed origin. Discord access was not converted into game admission. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct. A negative search result was not converted into proof of absence.
 
