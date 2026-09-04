@@ -1,5 +1,6 @@
 import type { Episode } from "./wiki";
 import { episodes as coreEpisodes, gags as coreGags } from "./wiki";
+import "./canonicalize-cast";
 
 type LooseRecord = Record<string, unknown>;
 type Gag = { id: string; name: string; logline: string };
