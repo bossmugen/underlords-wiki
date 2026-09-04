@@ -1,5 +1,6 @@
 import type { CharacterNarrative, NarrativeSection } from "./character-biographies-narrative";
 import { run372NarrativeCharacterBios } from "./character-biographies-run363";
+import { run401NarrativeCharacterBios } from "./character-biographies-run401";
 
 const mugenBase = run372NarrativeCharacterBios.mugen;
 
@@ -23,3 +24,5 @@ export const run400MugenNarrativeCharacterBios: Record<string, CharacterNarrativ
     ],
   },
 };
+
+export { run401NarrativeCharacterBios };
