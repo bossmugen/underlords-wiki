@@ -27,7 +27,7 @@ The 2021–2026 recovery checkpoint was re-read directly; saturation / retrieval
 Reader-facing WIKI changes:
 
 - **Mugen:** `THATS A BAD DOGGO` → `Okay its cute nuuu` is folded into her person-first contradiction as a bounded example of categorical delivery without sunk-cost loyalty to a harmless verdict. Reader commit `96d5d51db7244f36dcf706af2983dc515effcafe` passed exact Build `33869168727` and exact Pages `33869168841`, including deployment.
-- **Ryo:** a concurrent person-first deepener landed in `src/data/character-biographies-ryo.ts`; Run 376 re-read and preserved that work, then wired it into the already-registered `run363Module` so the finished biography is actually public. Publication commit `4a448f54e2eb76fcd41f1e952ad4d0b5ab327e92`. Exact Pages workflow `33869798914` succeeded through actual deployment. Exact dedicated Build `33869798936` was still running on a real GitHub runner at state close; no failure is claimed.
+- **Ryo:** a concurrent person-first deepener landed in `src/data/character-biographies-ryo.ts`; Run 376 re-read and preserved that work, then wired it into the already-registered `run363Module` so the finished biography is actually public. Publication commit `4a448f54e2eb76fcd41f1e952ad4d0b5ab327e92`. Exact Build `33869798936` and exact Pages `33869798914` both succeeded; Pages completed actual deployment.
 
 Core Tofu↔Cookie exposure material was meaning-deduped into the existing reciprocal-roast mechanism rather than appended again. Eos, Booba/MsThiccy, and thin `影の戦士` material remain banked instead of manufacturing weak Cast owners. Sou/Ansun's Fame claims remain participant self-mythology rather than title-origin proof.
 
@@ -46,8 +46,8 @@ WIKI Mugen reader head:
 - Pages `33869168841`: **success**, including actual GitHub Pages deployment.
 
 WIKI Ryo-publication head:
+- Build `33869798936`: **success**, including `Build Astro wiki`.
 - Pages `33869798914`: **success**, including Pages build/upload/deploy.
-- Dedicated Build `33869798936`: **in progress at state close** on a real runner; the Astro Pages build path has independently completed successfully.
 
 MAIN opening-census head `53cc421058b5250908e32306c6709a185c62d9be` ran required workflow `33868629778`. Failed jobs were explicitly rerun; attempt 2 again failed before repository steps instantiated. `Build + verify` had `steps: []`, `runner_id: 0`, and no runner name, while verified Cloudflare deployment was skipped. No source-verifier, Astro, built-output, or reader-content failure was demonstrated because those checks never began. No MAIN deployment is claimed.
 
