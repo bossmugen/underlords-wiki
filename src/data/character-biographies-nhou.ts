@@ -54,12 +54,22 @@ export const nhouNarrativeCharacterBios: Record<string, CharacterNarrative> = {
         ]
       },
       {
+        period: "2021 · Wall",
+        title: "Wall learns how little Nhou needs to say",
+        paragraphs: [
+          "By 2021, the one-line habit has become less a quirk than a working social interface. Mugen posts two old images; Nhou looks at the pile and calls it `old ppl convos`. No recap, no thesis, no nostalgia speech. He labels the whole thing and leaves the room to understand why that is enough.",
+          "Ren seems to know exactly what to do with that economy. In April she drops an image, summons Anayss and Nhou into a Snow/UwU lane, and Nhou answers almost immediately with `uwu`, then `snouwu`. Anayss picks up the word and turns it into `Snouwu` herself. The good part is not who invented which syllable. It is how little translation anybody needs. Ren calls him over, Nhou throws one tiny altered word into the bit, Anayss catches it in flight.",
+          "The same thing happens without the novelty of a new word. Snow summons Gabu, Anayss and Nhou after another Wall filing; Nhou eventually answers with a Crap Elmo embed whose title metadata is simply `poop`. In July Anayss tags Nhou and Snow in the room's `stripper's knowledge` nonsense and Nhou contributes one `uwu`. In August, a Ren filing gets `Lmao` from him and then a `fatlaugh` reaction on the follow-up. Nhou is not carrying these scenes by volume. He is repeatedly being invited into them because the room knows he can enter at exactly the joke's size.",
+          "That makes the September house-memory line land differently too. When somebody asks whether Suzimasu is one of UL's founders, Nhou says `Suzi freaked out since the beginning xD`, and Mugen answers `Yus` directly to the line. The person who can compress old-house history into one sentence is the same person communicating half the time in `uwu`, `snouwu`, `Lmao`, and one cursed embed title. Historical memory and gremlin vocabulary are apparently allowed to share a skull."
+        ]
+      },
+      {
         period: "September 2021",
         title: "The one-liner becomes house memory",
         paragraphs: [
-          "By September, Nhou's compact phrasing is doing something slightly different. Somebody asks whether Suzimasu is one of UL's founders. Nhou answers `Suzi freaked out since the beginning xD`. Mugen later uses a direct Discord Reply to that exact line and answers `Yus`.",
+          "Somebody asks whether Suzimasu is one of UL's founders. Nhou answers `Suzi freaked out since the beginning xD`. Mugen later uses a direct Discord Reply to that exact line and answers `Yus`.",
           "Nhou is not appointed Historian by this exchange. The better read is social familiarity. A year earlier Suzi is simply the person saying goodnight before Nhou notices everybody has gone. Now Nhou can compress a long-running Suzi reaction into one sentence and Mugen recognizes the description immediately. The one-liner is no longer only a live joke; it has become shorthand for somebody the room has known for a while.",
-          "That is how Nhou often feels around recurring people. He does not narrate closeness rankings. He sounds comfortable enough to assume the room will catch the reference. Mugen gets the work-brain mistake without translation. Anayss can fix access and say `wb!` in one sentence. Suzimasu can be reduced to a familiar old-house pattern and Mugen says yes. The relationships live in recognition more than announcement."
+          "That is how Nhou often feels around recurring people. He does not narrate closeness rankings. He sounds comfortable enough to assume the room will catch the reference. Mugen gets the work-brain mistake without translation. Anayss can fix access and say `wb!` in one sentence, then later catch `snouwu` without an instruction manual. Ren can summon him into a Wall bit and get a riff almost on contact. The relationships live in recognition more than announcement."
         ]
       },
       {
@@ -75,13 +85,14 @@ export const nhouNarrativeCharacterBios: Record<string, CharacterNarrative> = {
         title: "Petty Crimes",
         paragraphs: [
           "On May 15, 2020, Nhou calls Mugen `Mugs chan senpai` during an honorific riff and almost immediately says the bit reminds him of *K-On!* / `sawa chan sensei`. This is not a real senpai rank, which would be an extremely stupid thing for the wiki to invent. It is good evidence that anime-reference vocabulary was already sitting close enough to the surface to be deployed on command.",
-          "Other charges: seven-message `z` performance after announcing he had just woken up; participation in the coffee-enema beverage menu; `MY EYES` followed by vampire noises during the dark-mode rescue; captioning a bright-water Photo Submission `Nhouwu + duck`; and managing to turn `i got the last thing` into `i dont remember what it was lol` before the object could even acquire a legacy."
+          "Other charges: seven-message `z` performance after announcing he had just woken up; participation in the coffee-enema beverage menu; `MY EYES` followed by vampire noises during the dark-mode rescue; captioning a bright-water Photo Submission `Nhouwu + duck`; reducing an old-image pile to `old ppl convos`; seeding `snouwu` into an Anayss pickup; answering a Wall summon with a Crap Elmo `poop` embed; and managing to turn `i got the last thing` into `i dont remember what it was lol` before the object could even acquire a legacy."
         ]
       }
     ],
     closing: [
       "Nhou is easy to flatten if you start with Staff and work backward looking for duties. Start with the person instead. He is the guy who can lose the noun fifteen seconds after announcing success, accidentally bring outside-work language into Club Only, help Mugen convert medical-adjacent nonsense into cafe customization, notice when the room has emptied, and make a dark-interface problem everybody else's emergency with `MY EYES`.",
       "He is also the guy whose front-door history keeps making the Bouncer look more confused than he does. Already present in May. `wb!` in November. `underlords` in March. `Morninggg` in June. The exact Discord mechanics are messy; Nhou's social posture is wonderfully plain. The door may need resetting. He does not need reintroducing.",
+      "Wall makes the same point socially. Ren can summon him into a joke, Nhou can answer in four letters or one mangled Snow-name, Anayss can pick the word up immediately, and everybody keeps moving. That is not absence of personality. It is a room fluent enough in Nhou to work at his preferred packet size.",
       "And then the six Photo Submissions blow open the other half of the character: tiny sentences, enormous frame changes. Nhou can be terse without being narrow, old-house without making speeches about belonging, conscientious without becoming solemn, and familiar without advertising the relationship. The room usually knows what he means before he has to add another line."
     ]
   }
