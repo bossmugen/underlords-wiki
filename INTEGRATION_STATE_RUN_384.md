@@ -6,9 +6,10 @@ _Date: 2026-09-04_
 
 - Full miner census: **49 tracked identities = 28 active refs + 21 historical/missing refs**.
 - New branch identities: **0**.
-- One mover: `archive-miner/daycare-2020-2026-hourly`, `98af61c1ecc720fd0f31fb245c7a26fb3e01576b` → `e8623feb01f72640d35e296a85af8b32217f624f`.
-- Reviewed checkpoint-first and intake-only through `e8623feb01f72640d35e296a85af8b32217f624f`.
-- Backlog: **0**. Overdue: **0**.
+- Reviewed mover: `archive-miner/daycare-2020-2026-hourly`, `98af61c1ecc720fd0f31fb245c7a26fb3e01576b` → `e8623feb01f72640d35e296a85af8b32217f624f`.
+- Daycare was reviewed checkpoint-first and intake-only through `e8623feb01f72640d35e296a85af8b32217f624f`.
+- Final closing recheck caught two additional late movers after reconciliation had already closed: Louvre `bcdb588a3fbec7b8fa5d159005132c0b07d2af65 → 269c578d19ff6cffb552547241d5af55b7b63ec6` and Wall `6b08357d7fb4ffea2e36d68ca7fc71ad07f3fa9a → 4d696ad99f1d1f92a692983cc0283a57ea9b8ab9`. Their new `last_seen_sha` values are persisted on MAIN and both fresh suffixes are **pending_review** for the next pass.
+- Final pending review: **2**. Backlog: **0**. Overdue: **0**.
 - Both Club-Only recovery priorities remain current through `e45fb11c9239e236231bb65645dfd0285bc0078b` and `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`; no raw archive re-mined.
 
 ## New family
@@ -30,5 +31,7 @@ Reader-facing MAIN changes: **0**. Exact MAIN report commit `cb0e2849f2fc0647b38
 ## Consumption
 
 Daycare is reviewed through `e8623feb01f72640d35e296a85af8b32217f624f`, but `last_consumed_sha` remains `fb865a0a2c2a23f0483933975c766dcadcd504fc` because older accepted MAIN Daycare work between that cursor and the reviewed head remains verifier-held. The sequential cursor cannot leapfrog unverified accepted publication debt.
+
+Wall and Louvre consumed cursors are unchanged because their newly seen closing suffixes have not yet been reviewed.
 
 The six MAIN-held families remain Wall, Core Rooms / Events, Daycare, Louvre, Mugen person-first, and Whiskey.
