@@ -5,12 +5,12 @@
 Full miner census on MAIN: **49 tracked miner identities = 28 active refs + 21 historical/missing refs**.
 
 - newly discovered: 0
-- pending review: 0
+- pending review after reconciliation: 0
 - pending-publication MAIN families: 6
 - backlog: 0
 - overdue: 0
 
-Every active miner ref matched the Run 377 closing `last_seen_sha`. No new intake delta required review, no public finding family advanced, and no consumed cursor moved.
+Opening census found no movement; the closing recheck caught `archive-miner-wall-hourly-20260824` advancing from `1ec20c42f1619e5c667da66b9053a8198ee741e4` to `774686079891df58fd7cc7dafedf97c4011b956f`. MAIN persisted the new seen head before deep review, then reviewed the delta checkpoint-first and intake-only.
 
 Both Club-Only recovery priorities remain current through head:
 - `archive-miner/club-only-2021-2026-hourly` → `e45fb11c9239e236231bb65645dfd0285bc0078b`
@@ -18,22 +18,26 @@ Both Club-Only recovery priorities remain current through head:
 
 The 2021–2026 checkpoint was re-read directly; saturation / retrieval-failure / do-not-churn boundaries remain unchanged. No raw archive was re-mined.
 
-## Public surfaces
+## Public reconciliation
 
-WIKI reader-facing changes: **0**.
+**WIKI reader-facing change: Pride.**
 
-MAIN reader-facing changes: **0**.
+Pride's new structured biography treats the recurring corpse material as one person-shaped contradiction rather than three Wall receipts: he is both the body everybody supposedly lost and the guy Ren later remembers as threatening to manufacture more corpses. The useful character beat is Pride's own participation—`Aahahahaha`, `I still laugh about that day`, and `bruh` when Ren reopens the Amber Alert file. Ren's repeated callbacks support lived shared-bit fluency without inventing a relationship rank.
 
-The latest WIKI reader publication remains Run 376's Ryo person-first work at `4a448f54e2eb76fcd41f1e952ad4d0b5ab327e92`, which passed Build `33869798936` and Pages `33869798914`, including actual GitHub Pages deployment.
+**MAIN reader-facing changes: 0.** MAIN already contains the richer person-first Pride treatment in `src/content/people/pride.md`, including the November lost-body callback and September/December corpse context. The same family was therefore meaning-deduped rather than copied again.
 
-The six publication-held MAIN families remain Wall, Core Rooms / Events, Daycare, Louvre, Mugen person-first, and Whiskey.
+A second new Wall packet—egotism answering Anthos's `welcome to wall of shame` with `LOL` 2.755 seconds later—was banked. It supports one-scene amused uptake, but WIKI has no safe canonical egotism owner and one laugh is not a license to invent an identity or a whole personality.
+
+Ren- and Anthos-posted screenshots remain POSTED BY only. Their pixels were not inspected; no MADE BY / CAPTURED BY / FEATURING upgrade was made. Pride q4 still lacks original source-room/media provenance.
 
 ## Verification
 
-MAIN workflow `33870641539` was retried again in this run as attempt 3. `Build + verify` failed before repository steps instantiated and the verified Cloudflare deploy job was skipped. No source-verifier, Astro, built-output, or reader-content failure was demonstrated because those checks never began.
+Pride reader head `fa966a80cf3de4093aa8d78542fb7cafbdd956ba` passed exact Build workflow `33872892083`. Exact Pages workflow `33872891913` passed its build and actual `Deploy to GitHub Pages` job. The Pride change is deployed.
 
-No new WIKI reader build/deploy was required because this run made no reader-facing changes. State-only bookkeeping is committed with `[skip ci]`.
+MAIN workflow `33870641539` was retried as attempt 3. `Build + verify` again failed before repository steps instantiated and verified Cloudflare deployment was skipped. No source-verifier, Astro, built-output, or reader-content failure was demonstrated because those checks never began.
+
+No conservative consumed cursor advanced. Wall remains reviewed through `774686079891df58fd7cc7dafedf97c4011b956f` but consumed at `ea893e9ffb682e2cc0007e10c9f6dcc1df36b20d` because older accepted MAIN Wall work remains verifier-held.
 
 ## Safety / provenance
 
-Hard canon and resolved identity bridges remain binding. Similar names do not merge people. Joke family/flirting/violence language remains non-literal without support. Earliest surviving is not origin. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct. Uninspected media remains uninspected. Privacy-held details remain backstage.
+Pride corpse language stays joke/social mythology, not literal violence. Earliest surviving wording is not an origin claim. Ren's repeated callbacks support shared-bit familiarity, not romance/family/closeness rank. egotism remains ownerless rather than identity-guessed. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct.
