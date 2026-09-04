@@ -26,4 +26,18 @@ No `last_consumed_sha` moved because no miner branch advanced. MAIN's six public
 
 ## Verification
 
-This state commit intentionally triggers the existing WIKI Build/Pages workflows so the no-delta pass still exercises the publication surface. Closing workflow results are rolled into `INTEGRATION_STATE.md` after the runs settle.
+WIKI verification target: `ea10a0e5b21f7b99f06233c6f387a12ea6956858`.
+
+- Build workflow `33898579064`: **success**, including `Build Astro wiki`.
+- Pages workflow `33898579052`: **success**.
+- Pages preview build: **success**.
+- `Deploy to GitHub Pages`: **success**.
+- Pages report: **success**.
+
+MAIN verification target: `aedd7d56401a1fdb0f84ddf590bcbc0d6066dc31`.
+
+- Workflow `33898562444`: **failure**, then failed jobs explicitly retried once.
+- Attempt 2 failed in the same pre-runner form: `Build + verify` exposed no repository step list and verified Cloudflare deployment was skipped.
+- Source verification, Astro, built-output verification, and Cloudflare did not run and reject content.
+
+No reader-facing publication was required this pass. WIKI is green and deployed; MAIN remains verifier-blocked rather than content-rejected.
