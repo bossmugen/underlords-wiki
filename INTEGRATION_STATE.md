@@ -24,7 +24,7 @@ The 2021–2026 recovery checkpoint was re-read directly in Run 370. Its locked 
 
 No active miner ref advanced beyond the Run-369 reconciled heads, so Run 370 has **no new unread miner delta** and no branch required a publication or dedupe pass.
 
-Wall remains reviewed through `2bbab436981b32c1e78ceecced01cd7b422bf96e`; Mugen person-first remains reviewed through `ff5e18d5f387bf93fbf081dffa4b3e501cb3e39e`. The previously banked YoChan, Dainyamite, Mugen bounded-negative, and other reviewed material remains exactly where Run 369 left it; no duplicate public copy was manufactured.
+Wall remains reviewed through `2bbab436981b32c1e78ceecced01cd7b422bf96e`; Mugen person-first remains reviewed through `ff5e18d5f387bf93fbf081dffa4b3e501cb3e39e`. Previously banked material remains where Run 369 left it; no duplicate public copy was manufactured.
 
 ## Public reconciliation
 
@@ -47,7 +47,9 @@ Their newer reviewed heads remain durably recorded on MAIN so publication debt i
 
 ## Verification / deployment
 
-Run 370 is a state-only no-delta pass. Exact-head WIKI Astro Build and GitHub Pages status are checked after the Run-370 state commit. MAIN's exact-head workflow is tracked separately in the matching MAIN report and run close.
+WIKI integration-state commit `db2277270d26a01f1727ec540903283fa8a09896` passed its exact-head Build workflow `33861767577`: npm install completed successfully and `Build Astro wiki` completed successfully. Exact-head Pages workflow `33861767574` also succeeded: preview build, Pages configuration, artifact upload, `Deploy to GitHub Pages`, and report all completed successfully. This result-only state update is committed with `[skip ci]` so it records the finished exact-head verification without creating a recursive build loop.
+
+MAIN's Run-370 state and report commits both hit the same pre-runner GitHub Actions failure already tracked there: `Build + verify` instantiated zero steps with `runner_id: 0`; verified Cloudflare deployment was skipped. No reader-facing MAIN mutation was published.
 
 ## Rails retained
 

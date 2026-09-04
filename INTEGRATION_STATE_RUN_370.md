@@ -32,13 +32,13 @@ Previously reviewed/banked material stays in its existing owners. No report-shap
 
 Reader-facing changes: **0**.
 
-Run-370 state files only; exact-head Astro Build and Pages deployment are checked after commit.
+Exact-head commit `db2277270d26a01f1727ec540903283fa8a09896` passed Build workflow `33861767577`; `Build Astro wiki` completed successfully. Pages workflow `33861767574` also succeeded through preview build, artifact upload, `Deploy to GitHub Pages`, and report.
 
 ### MAIN
 
 Reader-facing changes: **0**.
 
-The six accepted MAIN families remain publication-held behind the verifier: Wall, Core Rooms / Events, Daycare, Louvre, Mugen person-first, and Whiskey. No consumed cursor advanced.
+The six accepted MAIN families remain publication-held behind the verifier: Wall, Core Rooms / Events, Daycare, Louvre, Mugen person-first, and Whiskey. MAIN state commit workflow `33861642800` and report commit workflow `33861909651` both failed before repository work instantiated: `Build + verify` had `steps: []`, `runner_id: 0`, blank runner name; verified Cloudflare deployment was skipped.
 
 ## Consumption
 
@@ -47,3 +47,5 @@ No consumed SHA updates in this run.
 ## Rails
 
 Hard user canon, resolved identity corrections, narrow privacy/safety boundaries, and explicit contradictions remain hard. Similar names do not merge people. Joke-family/flirting/property language stays non-literal without support. Earliest surviving is not origin. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain separate. Uninspected media remains uninspected.
+
+_Result-only bookkeeping update uses `[skip ci]` to avoid recursively triggering another verification cycle after the exact-head workflows above already finished._
