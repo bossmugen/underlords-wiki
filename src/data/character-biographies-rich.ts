@@ -34,21 +34,23 @@ export const richNarrativeCharacterBios: Record<string, CharacterNarrative> = {
       },
       {
         period: "2022–2024",
-        title: "Fight Club got upholstered",
+        title: "Fight Club got upholstered — and Rich helped write the furniture lore",
         paragraphs: [
           "By February 2022 Rich is already calling himself the stripclub couch potato. At the end of that year he finally gives the room genealogy in one sentence: he remembers all the screaming from Fight Club VC `before it got turned into my couch`. The old event room does not disappear so much as acquire upholstery and a resident.",
+          "Mugen's answer turns the couch joke briefly soft without changing dialect. She says the room stopped screaming once Rich passed out so they would not wake him. Rich does not stop the scene to receive the care solemnly; he immediately demotes himself to a `ramen butt` who would probably sleep through the noise anyway. That is a useful little relationship rhythm: the care is real enough to alter the room, and Rich is comfortable enough to turn it straight back into a self-own.",
+          "The humiliating couch persona is not merely something everybody else does to him. In March 2023 Rich offers the room more `snoring and tooting asmr`; Mugen answers `always`; Rich replies `Bet time to let it rip`. Then Sou ceremonially files that Rich was swept with a broom and flew to his couch. Rich's response is not a defense. He asks whether this happened before or after he started tooting, and Sou deadpans that air was probably coming out of both ends. Physically, the persona is a couch potato asleep through the chaos. Narratively, Rich keeps getting up just long enough to help the prosecution write better material.",
           "By late 2024 the surrounding chatter makes that couch feel less like a gag and more like a social habitat. Sye reacts to what reads as cooking and hanging out, Momo says Rich's voice startled her awake, and Tae considers downloading a game because Rich is showing it. Rich himself can be relatively quiet in the surviving text while everybody else's sentences keep orbiting him. Presence does not require typing a monologue when the room already knows who it is sitting with."
         ]
       },
       {
         title: "Petty Crimes",
         paragraphs: [
-          "Has apparently accepted that `strip club` can be a venue rule. Will calculate the minimum possible time-to-Wall if somebody invents the metric. Once diagnosed the Drink Water Reminder with insufficient watah. Has also described himself as a `ramen butt` likely to sleep through things. If Woosung objects to the joke he started, apparently the appeals process is one pat-head penguin. Systems brain, couch potato, same citizen."
+          "Has apparently accepted that `strip club` can be a venue rule. Will calculate the minimum possible time-to-Wall if somebody invents the metric. Once diagnosed the Drink Water Reminder with insufficient watah. Has described himself as a `ramen butt`, volunteered `snoring and tooting asmr`, and responded to being commemoratively swept to his couch by checking where the tooting fell in the timeline. If Woosung objects to the joke he started, apparently the appeals process is one pat-head penguin. Systems brain, couch potato, same citizen."
         ]
       }
     ],
     closing: [
-      "Rich starts in UL's orbit as the leader of another club and ends up as the man whose old Fight Club became a couch people cook, nap, listen and game around. The title gets less important over time; the underlying habit does not. Give him a real system and he connects rooms. Give him a stupid system and, unfortunately for everybody, he will still check whether it works."
+      "Rich starts in UL's orbit as the leader of another club and ends up as the man whose old Fight Club became a couch people cook, nap, listen and game around. The title gets less important over time; the underlying habit does not. Give him a real system and he connects rooms. Give him a stupid system and, unfortunately for everybody, he will still check whether it works — even when the incident report concerns his own ass on a couch."
     ]
   }
 };
