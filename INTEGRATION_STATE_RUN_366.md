@@ -17,7 +17,7 @@
 
 Wall deepened Akamin as a low-volume mischievous spectator / receipt-noticer rather than a full-time prosecutor. Her reaction style now has enough repetition to become character: quick side-eye, `Hehe`, and reaction amplification that can make a small footprint feel loud. The existing person-first Akamin biography was rewritten around social style, relationships, reputation, and `Petty Crimes`. Akamin remains separate from Mere; that correction is kept as a hard canon rail rather than visible biography housekeeping.
 
-Reader commit: `435997a7081aea0620dedaaf1228a106c405ed93` (`wiki: deepen Akamin's reaction style`). Its Astro Build completed successfully. Its same-head Pages run was cancelled only after newer WIKI commits superseded it, so deployment is evaluated on the later closing head that contains the same reader change.
+Reader commit: `435997a7081aea0620dedaaf1228a106c405ed93` (`wiki: deepen Akamin's reaction style`). Its Astro Build completed successfully. Its same-head Pages run was cancelled only after newer WIKI commits superseded it; the later closing WIKI head contains the same reader change and completed its exact-head Build and Pages deployment successfully.
 
 ### Jas
 
@@ -25,7 +25,7 @@ Whiskey supplied the stronger cumulative Jas read: **Absent Father, Present Main
 
 Added `src/data/character-biographies-jas.ts` and wired it through the existing narrative resolver. The public dossier keeps exact nickname coinage unresolved and does not literalize fatherhood, children, age, or family roles.
 
-Reader commits: `0dc623786219468a84bff637aba55385d800b37c` and resolver wiring `a86a0f6b5606f3b793deb3c836edca163c001c68`. Exact Build/Pages results are checked on the closing WIKI head after state commits settle.
+Reader commits: `0dc623786219468a84bff637aba55385d800b37c` and resolver wiring `a86a0f6b5606f3b793deb3c836edca163c001c68`.
 
 ## Banked / no-public-change material
 
@@ -48,4 +48,6 @@ No conservative `last_consumed_sha` advanced across the six MAIN-held families. 
 
 ## Verification / deployment
 
-WIKI verification is independent from MAIN. Reader and final-state workflow outcomes are checked on their exact SHAs; a MAIN infrastructure failure does not invalidate a green WIKI publication.
+Exact WIKI content/state head `0f5bc028fc87531f4f30bdbbb9e838fd6a312c82` passed `Build Underlords Wiki` run `33855424676`. The Astro build step completed successfully. Exact-head Pages run `33855424730` also completed successfully: preview build, Pages configuration, artifact upload, `Deploy to GitHub Pages`, and status publication all passed. This deployed the combined Akamin + Jas reader changes and Run 366 state.
+
+MAIN remains independently gated. Its final Run 366 workflow failed before repository verification instantiated, so that failure does not invalidate WIKI's green Build/Pages result.
