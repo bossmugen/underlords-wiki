@@ -46,6 +46,7 @@ const richScore = (path: string): number => {
 };
 
 const narrativeScore = (path: string): number => {
+  if (/run409/.test(path)) return 1010;
   if (/run75/.test(path)) return 1000;
   if (/run39/.test(path)) return 990;
   if (/character-biographies-narrative\.ts$/.test(path)) return 100;
