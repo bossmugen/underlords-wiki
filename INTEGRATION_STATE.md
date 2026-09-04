@@ -15,7 +15,7 @@ Full census: **49 tracked miner identities = 28 active refs + 21 historical/miss
 - backlog: 0
 - overdue: 0
 
-All 28 active ref heads match the Run 372 closing ledger. No branch required another delta review and no reviewed finding was reopened just because another integrator cycle ran.
+All 28 active ref heads match the Run 372 closing ledger at opening and at the final ref recheck. No branch required another delta review and no reviewed finding was reopened just because another integrator cycle ran.
 
 Both Club-Only recovery priorities remain current through head:
 - `archive-miner/club-only-2021-2026-hourly` → `e45fb11c9239e236231bb65645dfd0285bc0078b`
@@ -48,9 +48,13 @@ These are publication holds, not unread mining debt.
 
 ## Verification / deployment
 
-Run 373 is state-only: no reader copy changed. This state commit intentionally exercises the WIKI's existing Build and Pages workflows; exact-run results are recorded in `INTEGRATION_STATE_RUN_373.md` and folded back here after completion.
+WIKI state-only commit `96808ae49c54e23bc13a8a6f8efbd5d761beff4a` passed both existing workflows:
+- Build workflow `33864932802`: **success**, including `npm install` and `Build Astro wiki`.
+- Pages workflow `33864932764`: **success** through preview build, artifact upload, actual `Deploy to GitHub Pages`, and report.
 
-MAIN likewise has no reader mutation. Its Run 373 report commit exercises the existing MAIN verification/deploy workflow; the exact result is recorded after the run completes.
+The later Run 373 report/state commits are `[skip ci]` bookkeeping only and do not change reader output from that verified/deployed state commit.
+
+MAIN Run 373 verification trigger `6b8909c4679c6623a3b3a6cc243ff4f38aa28725` ran workflow `33864901331`. `Build + verify` failed before repository steps instantiated; the verified Cloudflare deploy was skipped. The failed build job was rerun once and failed in the same pre-step condition. No source-verifier, Astro, built-output, or reader-content failure was demonstrated because those checks never began, and no MAIN deployment is claimed.
 
 ## Rails retained
 
