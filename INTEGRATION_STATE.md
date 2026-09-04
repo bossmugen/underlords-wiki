@@ -1,8 +1,8 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-04 Run 362_
+_Last updated: 2026-09-04 Run 363_
 
-MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Per-run files remain authoritative for historical cycles; current detail is in `INTEGRATION_STATE_RUN_362.md`.
+MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Historical cycles remain in per-run state files; current detail is in `INTEGRATION_STATE_RUN_363.md`.
 
 ## Current census / queue
 
@@ -18,31 +18,31 @@ Both Club-Only recovery priorities remain current through head:
 - `archive-miner/club-only-2021-2026-hourly` → `e45fb11c9239e236231bb65645dfd0285bc0078b`
 - `archive-miner-clubonly-2020-hourly` → `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`
 
-Run 362 reviewed Wall through `e4436f5c6403bf64cd60acfbce7688f25164e63f`. The opening mover was Wall only; closing branch enumeration found the same 28 active ref names, and Wall remained on the reviewed head. No raw archive was re-mined.
+Run 363 reviewed Wall through `e3fe863696413b23a65bcf8c0330310b6794c724`, Whiskey through `9a21ff247aea20718e26fd5fe43dd727a669997c`, Mugen person-first through `1fbbeb0e0806469d76f1be13442e27209affeaf5`, and the late Louvre/Athenaeum move through `3c00b784fc4a7c27b1279deb534ede73a5547b1c`. No raw archive was re-mined.
 
 ## Public reconciliation
 
-Nhou's Wall material is public in his existing dossier rather than split into a standalone Episode. The new synthesis keeps the important cumulative mechanism: `old ppl convos`, Ren's summon into the Snow/UwU lane, Nhou's `uwu` → `snouwu`, Anayss's immediate `Snouwu` pickup, the later Crap-Elmo `poop` response, and subsequent tiny `uwu` / `Lmao` / `fatlaugh` participation. The person read is that Nhou's low prose is not low presence; people repeatedly summon him because the room already knows he can enter at exactly the joke's size.
+Hishiro and Momo stay inside their existing character owners rather than becoming receipt-led Episodes. Hishiro's Run 363 Wall layer now joins her willingness to self-file embarrassment with a recurring 2020 `Hehe` filing signature: she can do the practical screenshot/helper work, post the attachment, and then stamp the filing with `:Hehe:`. Competent workflow brain and tiny gremlin delight are the same person, not competing versions. Momo's safe public addendum keeps the Ricochet/Ten teasing rebound where she redirects praise, loses the next punchline, answers `damn`, and stays inside the game.
 
-Reader commit `35ad5b9c6b2e21ab04b400330125e0be99027ee6` added the structured Wall shorthand fold. A concurrent follow-up commit `6c0a40ba4e51f8015804c644fa6802bca73625f6` deepened the same Nhou owner with Phyx Wall theater and was preserved rather than overwritten.
+Late Louvre/Athenaeum material deepens Anthos with preservation-shaped care: give absent people time without guilt; preserve member work so missed timing does not erase visibility. That read is accepted for her existing owner but was not force-written over concurrent character-owner work at close.
 
-Wall `sippp.gif` provenance remains backstage. A later 2023 label for source channel ID `695871557209292800` does not prove the historical 2021 room title; uploader/source message, creator, capturer, featured identity, and binary/visual identity remain unresolved.
+Momo↔Opalite reciprocal `twin` language remains backstage because the current public Momo biography assigns that April twin pocket to Mia. No Opalite=Mia bridge is inferred. Lunnely's adulting-threshold packet is reviewed/banked because no safe canonical public owner exists; `bae` / `taken` remains casual room language rather than literal romance and unresolved `album` semantics stay unresolved. The latest Mugen person-first tail is an explicit negative/saturation pass with no additive public row.
 
-The six reviewed-but-publication-held MAIN families remain Wall, Core Rooms / Events, Daycare, Louvre, Mugen person-first, and Whiskey. MAIN's richer Nhou fold is accepted inside Wall but remains held behind MAIN verification rather than mirrored from WIKI.
+The six reviewed-but-publication-held MAIN families remain Wall, Core Rooms / Events, Daycare, Louvre, Mugen person-first, and Whiskey.
 
 ## Verification / deployment
 
-WIKI Nhou reader commit `35ad5b9c6b2e21ab04b400330125e0be99027ee6` passed Build `33847918543` and Pages `33847918568`, including deployment.
+WIKI Hishiro reader commit `01084d996ce59677b2d9affeb5cc6c20f2d02ab4` passed Build `33850418916`.
 
-Concurrent current-reader head `6c0a40ba4e51f8015804c644fa6802bca73625f6` also passed exact-head Build `33848208502` and Pages `33848208585`, including deployment.
+Pages workflow `33850419002` completed its preview build and **Deploy to GitHub Pages** jobs successfully. The workflow's final report job was still queued when the Run 363 state write began; deployment success is therefore taken from the completed deploy job itself, not inferred from overall workflow status.
 
 Exact final-head WIKI Build and Pages workflows are checked separately after this rolling-state commit lands.
 
-MAIN's Run 362 state/report commits are verified separately on their exact final head. If the known pre-execution runner failure repeats, it is not treated as a source/Astro/content failure because those repository checks never execute.
+MAIN Run 363 current head `c550a370cb12c560e910b9f0c140ee07d2e2cbc3` failed its mandatory workflow before repository verification instantiated: `Build + verify` completed failure with no steps, and verified Cloudflare deployment was skipped. Source verification, Astro, and built-output verification therefore did not run and reject content.
 
 ## Consumed cursors
 
-No publication-held `last_consumed_sha` advanced. Wall is reviewed/seen through `e4436f5c6403bf64cd60acfbce7688f25164e63f` while its conservative consumed cursor remains `ea893e9ffb682e2cc0007e10c9f6dcc1df36b20d` because accepted MAIN reader work remains unverified/unpublished. Both Club-Only recovery branches remain consumed through current head.
+No publication-held `last_consumed_sha` advanced. Exact reviewed heads and no-public-change/publication dispositions are durable in MAIN's branch ledger so these deltas are not to be re-mined from scratch. Both Club-Only recovery branches remain consumed through current head.
 
 ## Rails retained
 
