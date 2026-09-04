@@ -1,50 +1,45 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-04 Run 388_
+_Last updated: 2026-09-04 Run 389_
 
-MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. MAIN carries the matching `archive-intake/INTEGRATION_REPORT_RUN_388.md`; this WIKI also carries `INTEGRATION_STATE_RUN_388.md`.
+MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. MAIN carries the matching `archive-intake/INTEGRATION_REPORT_RUN_389.md`; this WIKI carries `INTEGRATION_STATE_RUN_389.md`.
 
 ## Current census / queue
 
 Full census: **49 tracked miner identities = 28 active refs + 21 historical/missing refs**.
 
 - newly discovered: 0
-- advanced miner branches reviewed this run: 5
+- advanced miner branches reviewed this run: 1 (`archive-miner-wall-hourly-20260824`)
 - pending review at final close: 0
 - pending-publication MAIN families: 6
 - backlog: 0
 - overdue: 0
 
-Reviewed heads: Wall `2c29acfd38ae6fdf283858175e03632546f60a54`; Core Rooms / Events `4def21e7262a6211b11453fb1e91cc6c39366960`; Daycare `b925502abd685fa9d17a6e845ce534a5fe589831`; Louvre `297b618d5b352a4705e80effbbaa63fa352a3464`; Mugen person-first late close `d44184af526b71b6884969c42fd9e0f4107fc4e7`.
-
-Both Club-Only recovery priorities remain current through head: `archive-miner/club-only-2021-2026-hourly` at `e45fb11c9239e236231bb65645dfd0285bc0078b` and `archive-miner-clubonly-2020-hourly` at `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`. Their saturation / do-not-churn boundaries remain unchanged and no raw archive was re-mined.
+Wall is reviewed through `f49c6a765082ebb3015ce913af4164ec2a7d2d76`. All other 27 active miner refs matched the prior closing heads. Both Club-Only recovery priorities remain current through head: `archive-miner/club-only-2021-2026-hourly` at `e45fb11c9239e236231bb65645dfd0285bc0078b` and `archive-miner-clubonly-2020-hourly` at `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`. No raw archive was re-mined.
 
 ## Public reconciliation
 
-Reader-facing WIKI change: **Gabu** plus a hard-canon identity repair.
+Reader-facing WIKI change: **Eos / Marian-Panda reciprocal Wall receipt-play**, published as a structured Running Gag rather than a new Cast dossier.
 
-Fresh Daycare evidence deepened Gabu's systems-care contradiction rather than creating a bot-history ledger. In April 2023 Carl was being tested against Saber's event-alert work; Gabu pinned `Gabu's alerts check`, wrote `If everything works ok, i will try replace saber with carl`, tracked alerts across the week, and returned to edit the checklist days later. The canonical deep Gabu owner now makes the mechanism explicit: she can be soft with people and methodical with infrastructure because both behaviors are trying to make the next person's experience easier. Carl replacing/testing against Saber's event-alert function does **not** identify Saber as the separate March 2023 bot-breaking casualty.
+The useful relationship mechanism is the reversal. The 2021 lane already has low-context recognition, the participant joke that Eos is Marian's `panda caretaker`, and Eos answering a `punish a panda` summons with `yep.... @Marian Kage cmere`. On June 4, 2022 Marian digs up an old bit and asks where it even came from; Eos says it `came out of our asses thinking of a random topic`, notes it has been almost a year, and admits `idk`. Marian immediately threatens to find Eos's old shitposts and put them on the Wall. Eos answers `please no`. The shared joke survives after precise origin memory gets fuzzy, and the fake caretaker/prosecutor is just as available to become the defendant.
 
-A transient Run-388 overlay briefly duplicated that already-folded material. Commit `c370b00ca8c36226359e0c2388cedb9a1be7b084` emptied the overlay so `src/data/character-bios-officers-core-deep.ts` remains the sole public narrative owner. Do not rediscover or restore the superseded duplicate.
+This lives in `src/data/integrator-gags-eos-20260904-run389.ts` as `Eos / Panda: Caretaker, Defendant, Repeat`. WIKI already had an Eos low-context gag but no safe canonical Eos Cast dossier owner in the current shelf, so this is deliberately searchable Running Gag material rather than an invented one-receipt dossier.
 
-The WIKI also carried a stale Akariel→Zyrcant identity collapse. Commit `b133af6b23890f9f09d018cb24130d9ca322fbaf` removed Akariel aliases and Wall receipts from Zyrcant, restoring Zyrcant's own Amaurot/VIP context. `WikiLayout.astro` already imports `canonicalize-cast`, so this correction is in the public page path; commit `fe9585118f9d22fa8097679dbfbed7147517f664` also makes canonicalization explicit on `all-content` load. Akariel and Zyrcant remain separate people. No new Akariel page was invented merely to repair the bridge.
-
-Fresh Wall Crystalia material was meaning-duplicate/corroboration against an existing person read. Fresh Type-X↔Gilli reciprocal teasing and Louvre Skully theatrical-entrance→update-fatigue texture were banked because there is no safe canonical public owner yet. The late Mugen close package explicitly produced no public candidate.
+The August/October/December 2021 Eos/Marian material and February 2022 wrong-account line substantially meaning-dedupe against MAIN's existing Eos biography. The June 4 counter-filing / old-bit archaeology is the additive relationship deepener. No literal caretaker role, romance/sex, family role, account-security story, or media-content attribution was inferred.
 
 ## Verification
 
-Final reader head for this run: `c370b00ca8c36226359e0c2388cedb9a1be7b084`.
+Reader commit: `32052bb73cf39ea764776a90c5e0695cceecebca`.
 
-- Astro Build workflow `33891845206`: build job **success**.
-- Pages workflow `33891845183`: preview build **success** and `Deploy to GitHub Pages` **success**.
-- The earlier Akariel/Zyrcant repair head `b133af6b23890f9f09d018cb24130d9ca322fbaf` independently passed Build `33891446383` and Pages `33891446411` including deployment.
+- Astro Build workflow `33893815714`: **success**.
+- Pages workflow `33893815689`: preview build **success**, artifact upload **success**, and `Deploy to GitHub Pages` **success**.
 
-MAIN report target `27bb108bf7e6c8df49c4aaf1aa1e14ffcc4017ee` triggered workflow `33891409984`. Attempt 1 failed before repository steps instantiated. The failed `Build + verify` job was explicitly rerun once; attempt 2 failed in the same pre-runner shape, and verified Cloudflare deployment was skipped. Source verification, Astro, built-output verification, and Cloudflare deployment therefore did **not** run and reject content. MAIN remains **not green and not newly deployed**.
+MAIN verification trigger `9fd34418fe152c9f0d8842237ae4ac63e02c4e18` produced workflow `33894064143`, which failed before any repository step instantiated. `Build + verify` had `steps: []`, `runner_id: 0`, and a blank runner name; verified Cloudflare deployment was skipped. Source verification, Astro, and built-output verification therefore never ran. The richer MAIN Eos fold remains accepted but unpublished.
 
 ## Consumed cursors
 
-No conservative consumed cursor advanced across the six MAIN-held families: Wall, Core Rooms / Events, Daycare, Louvre, Mugen person-first, and Whiskey. Their current reviewed heads and dispositions are durable so the reviewed suffixes should not be reread as novelty; the older cursors remain behind accepted MAIN reader work that has not cleared MAIN's mandatory publication gate.
+No conservative consumed cursor advanced across the six MAIN-held families: Wall, Core Rooms / Events, Daycare, Louvre, Mugen person-first, and Whiskey. Wall is reviewed through `f49c6a765082ebb3015ce913af4164ec2a7d2d76`, while its consumed cursor remains `ea893e9ffb682e2cc0007e10c9f6dcc1df36b20d` because accepted MAIN Wall work has not cleared the publication gate. Reviewed-through HEAD and consumed cursor remain deliberately separate.
 
 ## Rails retained
 
-Hard identity, role, family-language, romance, attribution, privacy, source-contradiction, and earliest-surviving rails remain unchanged. Akariel ≠ Zyrcant. No similar-name identity bridge was inferred. No export-time role array was converted into appointment chronology. Type-X teasing was not turned into romance/sex. Skully's local-clock mismatch was not turned into geography/timezone. No POSTED BY claim was upgraded to MADE BY / CAPTURED BY / FEATURING.
+Hard identity, role, family-language, romance, attribution, privacy, source-contradiction, and earliest-surviving rails remain unchanged. The June 2022 old-bit parent reply edge is structurally verified but parent author/content remains unresolved. Uninspected Wall media remains POSTED BY only. No similar-name identity bridge or account-security inference was made.
