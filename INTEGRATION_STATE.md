@@ -1,8 +1,8 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-04 Run 370_
+_Last updated: 2026-09-04 Run 371_
 
-MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Full detail for this cycle is in `INTEGRATION_STATE_RUN_370.md`; the preceding cycle is `INTEGRATION_STATE_RUN_369.md`. MAIN carries the matching reconciliation report under `archive-intake/`.
+MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Full detail for this cycle is in `INTEGRATION_STATE_RUN_371.md`; the preceding cycle is `INTEGRATION_STATE_RUN_370.md`. MAIN carries the matching reconciliation report under `archive-intake/`.
 
 ## Current census / queue
 
@@ -18,23 +18,23 @@ Both Club-Only recovery priorities remain current through head:
 - `archive-miner/club-only-2021-2026-hourly` → `e45fb11c9239e236231bb65645dfd0285bc0078b`
 - `archive-miner-clubonly-2020-hourly` → `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`
 
-The 2021–2026 recovery checkpoint was re-read directly in Run 370. Its locked A/B findings, retrieval-failure boundary, active rabbit limits, and do-not-churn routes remain unchanged. No raw archive was re-mined.
+The 2021–2026 recovery checkpoint was re-read directly in Run 371. Its locked A/B findings, retrieval-failure boundary, active rabbit limits, and do-not-churn routes remain unchanged. No raw archive was re-mined.
 
-## Run 370 intake
+## Run 371 intake
 
-No active miner ref advanced beyond the Run-369 reconciled heads, so Run 370 has **no new unread miner delta** and no branch required a publication or dedupe pass.
+Opening and closing branch censuses found every active miner ref unchanged from Run 370, so Run 371 has **no new unread miner delta** and no branch required a publication or dedupe pass.
 
-Wall remains reviewed through `2bbab436981b32c1e78ceecced01cd7b422bf96e`; Mugen person-first remains reviewed through `ff5e18d5f387bf93fbf081dffa4b3e501cb3e39e`. Previously banked material remains where Run 369 left it; no duplicate public copy was manufactured.
+Previously reviewed and banked material remains in its existing canonical owners rather than being re-expanded into duplicate public copy. No new character trait, relationship mechanism, Petty Crime, role read, episode, artifact attribution, contradiction, or ordinary-life detail warranted a reader-facing change.
 
 ## Public reconciliation
 
-Reader-facing WIKI changes in Run 370: **0**.
+Reader-facing WIKI changes in Run 371: **0**.
 
-Reader-facing MAIN changes in Run 370: **0**. Its six accepted person-first families remain publication-held behind the mandatory verifier: Wall, Core Rooms / Events, Daycare, Louvre, Mugen person-first, and Whiskey.
+Reader-facing MAIN changes in Run 371: **0**. Its six accepted person-first families remain publication-held behind the mandatory verifier: Wall, Core Rooms / Events, Daycare, Louvre, Mugen person-first, and Whiskey.
 
 ## Consumed cursors
 
-No consumed SHA changes in Run 370. The six conservative MAIN-held cursors remain:
+No consumed SHA changes in Run 371. The six conservative MAIN-held cursors remain:
 
 - Wall: `ea893e9ffb682e2cc0007e10c9f6dcc1df36b20d`
 - Core Rooms / Events: `5d463295095e34836c0b0b1a08c9374f906e9953`
@@ -47,9 +47,9 @@ Their newer reviewed heads remain durably recorded on MAIN so publication debt i
 
 ## Verification / deployment
 
-WIKI integration-state commit `db2277270d26a01f1727ec540903283fa8a09896` passed its exact-head Build workflow `33861767577`: npm install completed successfully and `Build Astro wiki` completed successfully. Exact-head Pages workflow `33861767574` also succeeded: preview build, Pages configuration, artifact upload, `Deploy to GitHub Pages`, and report all completed successfully. This result-only state update is committed with `[skip ci]` so it records the finished exact-head verification without creating a recursive build loop.
+MAIN Run-371 closing state commit `023074ed26dec5e2fccab96335c2cf997db046ec` triggered workflow `33862702672`, which failed before repository verification could begin: `Build + verify` instantiated zero steps with `runner_id: 0` and blank runner name; verified Cloudflare deployment was skipped. No reader-facing MAIN mutation was published.
 
-MAIN's Run-370 state and report commits both hit the same pre-runner GitHub Actions failure already tracked there: `Build + verify` instantiated zero steps with `runner_id: 0`; verified Cloudflare deployment was skipped. No reader-facing MAIN mutation was published.
+WIKI exact-head Astro Build and GitHub Pages status are checked after this Run-371 canonical state commit and recorded in the result-only bookkeeping update.
 
 ## Rails retained
 
