@@ -1,8 +1,8 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-04 Run 381_
+_Last updated: 2026-09-04 Run 382_
 
-MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Full cycle detail is in `INTEGRATION_STATE_RUN_381.md`; MAIN carries the matching `archive-intake/INTEGRATION_REPORT_RUN_381.md` when the publishing-side close is committed.
+MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Full cycle detail is in `INTEGRATION_STATE_RUN_382.md`; MAIN carries the matching `archive-intake/INTEGRATION_REPORT_RUN_382.md`.
 
 ## Current census / queue
 
@@ -14,28 +14,27 @@ Full census: **49 tracked miner identities = 28 active refs + 21 historical/miss
 - backlog: 0
 - overdue: 0
 
-Run 381 reviewed two advanced intake-only tails checkpoint-first:
-- Wall → `6b08357d7fb4ffea2e36d68ca7fc71ad07f3fa9a`
-- Louvre / AI Art / Athenaeum / Other Games → `bcdb588a3fbec7b8fa5d159005132c0b07d2af65`
+Run 382 reviewed one advanced intake-only tail checkpoint-first:
+- Mugen person-first → `bf4df3cc847b1e3a405e34e7e557ae22253db52c`
 
-Both Club-Only recovery priorities remain current through head: `e45fb11c9239e236231bb65645dfd0285bc0078b` and `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`. No raw archive was re-mined.
+Both Club-Only recovery priorities remain current through head: `e45fb11c9239e236231bb65645dfd0285bc0078b` and `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`. No raw archive was re-mined. Closing census found no additional miner movement.
 
 ## Public reconciliation
 
-Reader-facing WIKI change in Run 381: **Moon**.
+Reader-facing WIKI change in Run 382: **Mugen**.
 
-Moon's active person-first narrative now owns two relationship beats that sharpen an existing contradiction instead of becoming receipt appendices. Sou can call Moon `tsundere` in the middle of mock prosecution and receive `How dare you-` followed by a bunny cheek-poke; HamitteY can protest `do not expose ME` and get `Ily~♡` back. The public read is that Moon can keep the teeth in the joke while letting softness show through it. `Rum's toe arc` also joins Petty Crimes as a tiny example of Moon turning recurring nonsense into serialized house lore.
+The active Mugen dossier now owns the reunion register beat where she opens with the unusually bare `You guys` / `It's been a while.`, then protests `OK WHY ARE YALL SCARED I WAS TRYING TO BE SENTIMENTAL` before continuing into the fact that the room is six years older. The person read is not simply that Mugen is sentimental; it is that unwrapped sentiment is unusual enough for Mugen herself to notice the alarm, while the all-caps complaint lets her restore familiar Mugs volume without withdrawing the feeling. Sye's `Nah I’m still same age` is the room supplying the joke side-door afterward, not literal age information.
 
-Reader commit `bbe43d2530145dc19fcfd7d56006d60c5d1dae9d` passed exact Build workflow `33879125968` and exact Pages workflow `33879125992`; the Pages deploy job itself completed successfully.
+Reader commit `33a4a07049fb4ae4bf431a95b35c8ce562fda4a7` passed exact Build workflow `33880431146` and exact Pages workflow `33880431175`; Astro build, Pages build, actual GitHub Pages deployment, and report all succeeded.
 
-Wall's Mr. Streamer candidate remains banked: almost no prose, two exhibits, and explicit `Via @DiStratus(Torr)` source credit. Torr↔Gilli's `bad influence` line is useful recurring-Wall familiarity but no safe current public Torr owner was found. Louvre's Rosee candidate is also banked: she can be unsure where things go while already behaving like she belongs, asking directly, accepting correction, welcoming another arrival, announcing an absence, and continuing ordinary greetings. No safe public Rosee owner exists, and her direct Louvre message bodies remain unrecovered.
+MAIN already publishes the same scene under `SHE TRIES ONE CLEAN EMOTION AND EVERYBODY PANICS`, so no duplicate MAIN reader paragraph was added. The WIKI treatment is deliberately different: register/reputation texture inside the dossier rather than mirrored MAIN prose.
 
-Reader-facing MAIN changes in Run 381: **0**. Six accepted families remain held behind MAIN's mandatory verifier.
+A later concurrent WIKI commit, `e740dca9ea46693fb5024803d7216d4aa0769453`, added separate Mugen weather/unit-translation texture to the same active module. Run 382 re-read the current head before state writes and confirmed both changes coexist; the concurrent work was not overwritten or claimed as this run's integration.
 
 ## Consumed cursors
 
-No conservative consumed SHA advanced across Wall, Core, Daycare, Louvre, Mugen, or Whiskey. Wall and Louvre are nevertheless durably reviewed through their current heads and no longer sit in `pending_review`; the older consumed boundaries remain because accepted MAIN reader work in those same families has not cleared MAIN's verification gate.
+Mugen is durably reviewed through `bf4df3cc847b1e3a405e34e7e557ae22253db52c` and is no longer pending review. Its conservative MAIN consumed cursor remains `89097a386de08c6001cd14165ffb3e5aed289a10` because older accepted Mugen reader debt in the same family has not cleared MAIN's mandatory verifier. The other five held families remain Wall, Core Rooms / Events, Daycare, Louvre, and Whiskey.
 
 ## Rails retained
 
-Sou is Ansun's locked historical alias; the Moon/Sou exchange is affectionate teasing, not romance/family. HamitteY's `Ily~♡` return stays relationship texture without a closeness ranking. `Rum's toe arc` is callback/storytelling humor, not fetish or sexuality canon. Mr. Streamer does not inherit Torr's identity from a provenance line. `Angieee` does not create an identity bridge. All uninspected media keeps POSTED BY / MADE BY / CAPTURED BY / FEATURING distinct, and the Louvre materialization 403 is treated as tool friction rather than corpus absence.
+No invisible reaction line was invented between `It's been a while.` and Mugen's protest. Her own `yall scared` wording stays her reading of the room rather than a fabricated transcript of omitted messages. Sye's age denial remains a joke. The scene is not inflated into a universal vulnerability diagnosis. Hard identity, family-language, romance, attribution, and privacy rails remain unchanged.
