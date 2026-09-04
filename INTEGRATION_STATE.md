@@ -29,7 +29,7 @@ Reader commit `33a4a07049fb4ae4bf431a95b35c8ce562fda4a7` passed exact Build work
 
 MAIN already publishes the same scene under `SHE TRIES ONE CLEAN EMOTION AND EVERYBODY PANICS`, so no duplicate MAIN reader paragraph was added. The WIKI treatment is deliberately different: register/reputation texture inside the dossier rather than mirrored MAIN prose.
 
-A later concurrent WIKI commit, `e740dca9ea46693fb5024803d7216d4aa0769453`, added separate Mugen weather/unit-translation texture to the same active module. Run 382 re-read the current head before state writes and confirmed both changes coexist; the concurrent work was not overwritten or claimed as this run's integration.
+A later concurrent-looking weather/unit-translation fold (`e740dca9ea46693fb5024803d7216d4aa0769453`) was rechecked against the actual current Mugen miner delta before close and did **not** belong to the reviewed `6a14edd7... → bf4df3cc...` handoff. It was therefore removed rather than allowed to ride on a provenance mismatch. Correction commit `5342118e68d4cbb6feabeabd89bbfbc261eec541` passed Build `33881141420` and Pages `33881141296`, including actual GitHub Pages deployment. The valid sentiment-alarm section was preserved unchanged.
 
 ## Consumed cursors
 
