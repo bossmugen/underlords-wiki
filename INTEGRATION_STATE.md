@@ -15,17 +15,39 @@ Full census: **49 tracked miner identities = 28 active refs + 21 historical/miss
 - overdue: 0
 - Wall recovery quarry: open for future source
 
-Every active miner ref exactly matches Run 340's recorded `last_seen_sha`; no miner branch advanced during Run 341's full census. Both Club-Only recovery priorities remain current through head:
+Both Club-Only recovery priorities remain current through head:
 - `archive-miner/club-only-2021-2026-hourly` → `e45fb11c9239e236231bb65645dfd0285bc0078b`
 - `archive-miner-clubonly-2020-hourly` → `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`
 
-No intake delta existed to review and no raw archive re-mining was performed.
+Opening census found no movement, then closing census caught two late movers and reviewed both checkpoint-first / intake-only:
+- Core Rooms / Events `7bd83fc1428efbc51548cb26b9414b032b298f6d → b7a749f3a5e0c7ddccfa6bae69214a25ff27b989`
+- Wall `65e6f537a00cd5a84dc2e2354a0806a3774df4c1 → b428dfa880ce416c4e6489db1e42ce3c28cfffcb`
+
+No raw archive re-mining was performed.
 
 ## Run 341 reconciliation
 
-There is **no new lore packet this run**. No checkpoint, findings, receipts, rabbit holes, people/motif notes, site candidates, or timeline candidates advanced on any active miner branch. The integrator therefore did not manufacture another biography paragraph from already-consumed receipts.
+### Candy — tiny messages, room-scale consequences
 
-The six reviewed-but-unpublished MAIN families remain unchanged:
+The Wall tail materially contextualizes Candy's low-prose social style. YoChan can ping `oink oink` and Candy answers on the exact message with `Opossum_AAAHH`; Vanness's previously unresolved August 10 parent is now closed as his self-shame over losing five orange dracs, with Candy replying `Wad00` and then `:CatCry:`; on September 1 Candy posts `Moo`, doubles `Cat_Sporkle`, and Sou, Rummy, Ren, Gilli, SaraBunny, and Cookie continue the cow-language lane. Repeated BOP emotes across July/August reinforce the same compact reaction toolkit.
+
+MAIN already carried this cumulative person read, including the resolved Vanness parent and the September relay, so no MAIN reader mutation was needed. WIKI was semantically close but still contained stale text saying the Vanness reply parent was unresolved and under-described the relay. Run 341 updates Candy's WIKI biography as a structured relationship/running-gag/reference refresh rather than copying MAIN prose.
+
+Safe read: low prose does not mean low presence. Candy's messages can be tiny and still socially precise enough for peers to answer in kind. `Moo` is local relay participation, not origin of the wider gag. Animal-language remains room language; no literal nickname/species/relationship inference. `— Luna` remains Candy, never HyaLuna.
+
+### Anayss — late Core delta is already owned
+
+Core adds a 2021 Neli onboarding scene to the 2022 personalized-onboarding pair: Anayss says `I know youre in Underlords` and asks only for the missing intake information instead of restarting the full form. The cumulative read is good — organized procedure without treating people like interchangeable submissions — but it is already public on both surfaces. MAIN already has the June 22 claim and person-aware onboarding framing; WIKI's deep Anayss dossier already has `Known member, missing field`, `Returnees are not blank forms`, and the warm-procedure synthesis. This delta is consumed as duplicate/corroboration only.
+
+Neli remains an Anayss-side recognition/context seed, not a close-friendship claim or Neli personality thesis. Safety-sensitive intake metadata remains omitted. No formal Gatekeeper appointment or Anayss→`Drink water reminder` delegation is inferred.
+
+### Provenance / quiet controls
+
+Wall's Anthos→Tofu q18 handoff closes exact reply topology and reinforces POSTED BY ≠ AUTHOR/MADE BY: Anthos posts the screenshot and then says to ask `the author`. The unnamed author and uninspected pixels remain unresolved. `egotism` gains immediate amused-uptake context for one `LOL`, still too thin for a public profile.
+
+## Pending MAIN publication work
+
+Six miner families remain reviewed but publication-held because MAIN's mandatory verifier is still failing before repository execution:
 - Wall — ShiyaX prosecutor↔defendant + Shiki witness-erasure folds.
 - Louvre — Yumi relationship-afterlife + Rooks creator-process work; SimpleXS remains owner-unresolved.
 - Mugen person-first — fifth-anniversary people-history + Tae personalized-nuisance-as-care folds.
@@ -33,20 +55,14 @@ The six reviewed-but-unpublished MAIN families remain unchanged:
 - Core Rooms / Events — Snow participant-friction / collaborative-accountability fold.
 - Daycare — Mia embarrassment-as-propulsion + Woosung compact-prosecution person-first fold.
 
-No consumed SHA advances were appropriate because no new reviewed delta existed, and publication-held prefixes remain intentionally behind their reviewed heads until MAIN's mandatory verifier actually runs successfully.
+The late Wall/Core deltas are reviewed through their new heads, but their consumed cursors remain behind the older accepted MAIN publication debt. No cursor jumps over unverified accepted public work.
 
-## MAIN verification gate
+## Verification / deployment
 
-Run 341's census commit on MAIN is `d7af7dad80b513466975e119431c2ca35b129635`. Workflow `33821103803` failed twice (initial attempt plus one failed-job retry) before repository execution: `Build + verify` instantiated with `steps=[]`, `runner_id=0`, and an empty runner name; the verified Cloudflare deployment job was skipped. This remains an infrastructure/setup gate failure, not a demonstrated source-verifier, Astro, built-output, or reader-content failure.
+MAIN Run 341's census workflow `33821103803` failed twice before repository steps instantiated: `Build + verify` reported `steps=[]`, `runner_id=0`, empty runner name, and verified Cloudflare deployment was skipped. That remains an infrastructure/setup gate failure, not a demonstrated source/Astro/built-output/content failure.
 
-Because the verifier never executed, no pending MAIN reader debt was published and no publication-held consumed SHA was advanced.
+WIKI reader work this run is Candy only, plus durable state. Exact-head Build and Pages/deployment results are checked after the final Run 341 commit.
 
-## WIKI publication
+## Rails retained
 
-Reader-facing changes: **0**. This state-only Run 341 reconciliation intentionally leaves the structured WIKI corpus unchanged because no miner branch supplied new material. Existing WIKI Run 340 reader work remains current.
-
-The Run 341 state commit triggers the repository's normal Build and Pages workflows. Exact-head results are checked after commit and recorded in the closing run report / rolling state follow-up.
-
-## Safety rails retained
-
-No identity inference from similar names. No appointment chronology from export-time role arrays. Earliest surviving is not origin. Joke roles/family/romance stay non-literal without support. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct. Uninspected media remains uninspected. Safety-sensitive material remains out of ordinary public character mining.
+Hard canon and resolved identity bridges remain binding. Earliest surviving is not origin. No identity merging from similar names. No appointment chronology from export-time arrays. Joke family/romance remains non-literal without support. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct. Uninspected media stays uninspected. Safety-sensitive intake material stays backstage.
