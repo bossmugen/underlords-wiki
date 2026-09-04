@@ -11,7 +11,7 @@ Full miner-branch census: **49 tracked miner identities = 28 active refs + 21 hi
 - backlog: 0
 - overdue: 0
 
-All 28 active miner refs matched the Run 373 closing ledger. No miner branch required a new intake-delta review.
+All 28 active miner refs matched the Run 373 closing ledger at opening and again on the final ref recheck. No miner branch required a new intake-delta review.
 
 Both Club-Only recovery priorities remain current through head:
 - `archive-miner/club-only-2021-2026-hourly` → `e45fb11c9239e236231bb65645dfd0285bc0078b`
@@ -45,9 +45,22 @@ These are publication holds, not unread miner debt.
 
 ## Verification / deployment
 
-This state-only commit intentionally exercises the WIKI's existing Build and Pages workflows. Exact results are folded into the rolling `INTEGRATION_STATE.md` after completion.
+### MAIN
 
-MAIN's matching Run 374 report commit likewise exercises its existing verification/deploy workflow. Its exact result is recorded in the MAIN report and WIKI rolling state after completion.
+Run 374 verification trigger commit: `4b470110746c1ff4437c76c304a0f7c7030b61b6` (`archive-intake: add Run 374 integration report`).
+
+`UL Hourly Build + Deploy` workflow `33866351301` failed before repository verification steps instantiated. `Build + verify` exposed no steps and the verified Cloudflare deployment was skipped. The failed jobs were explicitly rerun once; attempt 2 failed in the same pre-step condition, again with no repository steps and deployment skipped.
+
+Therefore Run 374 does **not** demonstrate a source-verifier, Astro, built-output, or reader-content failure on MAIN. Those checks never began, and no MAIN deployment is claimed.
+
+### WIKI
+
+State-only verification commit: `0e79c885fd64ddb9aea66bedf4f867c086469b41` (`wiki: record Run 374 no-delta integration state`).
+
+- Build workflow `33866369860`: **success**. `npm install`, `Build Astro wiki`, and build-status publication completed successfully.
+- Pages workflow `33866369872`: **success**. Preview build, Pages configuration, artifact upload, `Deploy to GitHub Pages`, and final reporting all completed successfully.
+
+Later Run 374 documentation commits are `[skip ci]` bookkeeping only and do not change reader output from the verified/deployed state commit.
 
 ## Rails retained
 
