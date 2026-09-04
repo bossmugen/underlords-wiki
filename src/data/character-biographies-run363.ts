@@ -162,3 +162,56 @@ export const run379AnayssNarrativeCharacterBios: Record<string, CharacterNarrati
 // Run 388: Gabu's Daycare access continuity lives in its own source file, but this
 // already-registered overlay makes the finished person-shaped version the public owner.
 export const run388GabuNarrativeCharacterBios: Record<string, CharacterNarrative> = run388GabuCharacterBios;
+
+// Run 394 correction: the Louvre miner's `braindead` scaffold already resolves to the
+// existing May / Mayvis character through stable account 469625932974391297 and the
+// same-scene Mayviss address. Keep the public owner person-shaped instead of creating
+// a second mystery person for an alias the wiki already knows.
+export const run394MayNarrativeCharacterBios: Record<string, CharacterNarrative> = {
+  may: {
+    intro: [
+      "May / Mayvis is the person behind the old `br4ind34d` / `braindead` account: casual enough to type `SOWWY`, `doing tings`, or let a dress verdict collapse into commas, and conscientious enough to keep explaining when real life might make her miss a check-in even after somebody has already told her she does not owe the room an apology.",
+      "That is a better contradiction than either half by itself. May's messages often look like they were launched half a second before the sentence finished dressing, but the behavior underneath is attentive: account for an absence, answer a summon, notice whether the hair works with the rest of the outfit, then somehow become the person asking where the sun went."
+    ],
+    sections: [
+      {
+        period: "May–June 2020",
+        title: "CHECK-IN, BUT MAKE IT `SOWWY`",
+        paragraphs: [
+          "On May 27 May says she has been dealing with some bullshit, apologizes for being offline, and promises to try to check in. Mugen answers with a heart reaction. Gilli answers in words: `you have NOTHING to worry about. We are here for you. Take your time okay love <3`. The important gesture is the pressure coming off. May has explained herself; Gilli immediately makes the explanation unnecessary as a price of belonging.",
+          "May keeps doing it anyway. On June 2: `apologies for not checking in tonight i was doing tings`. On June 12: `am going to the beach today sowwy if i don't check in`, followed by warm reactions from Mugen and Rooks. Three notices across a few weeks are enough to make the habit visible. May seems to keep a little mental attendance ledger even when the room around her is explicitly saying, girl, go live your life.",
+          "The private cause behind the first apology stays private because the person-shaped part is already sitting in plain sight. May does not vanish silently when she thinks somebody may expect her. She sends the tiny status update, wounded spelling and all."
+        ]
+      },
+      {
+        period: "Gilli",
+        title: "GILLI CAN REMOVE THE PRESSURE OR YELL ABOUT THE ZEPETO; MAY UNDERSTANDS BOTH DIALECTS",
+        paragraphs: [
+          "Gilli's file with May has range. In May, `Take your time` is care through pressure-removal. By September, Gilli can open a Zepeto exchange with `PUT CLOTHES ON YOU ZEPETO LMAOO` and May answers `heyyyy I'm shopping` / `I will` without asking for the premise in writing. One relationship can apparently contain both *you do not owe us a check-in* and *put pants on your digital little person immediately*.",
+          "The outfit thread sits comfortably between those two registers. May says `the hair is alright` but `it doesn't go with anything else lol`, prefers the male look, and reaches the dress with nothing left except `the dress is just,,,,,,`; Gilli is already looking at the same object closely enough to answer in kind. They do not need a friendship label pasted over every scene. The repeated ease is in the transitions: reassurance, taste, teasing, shared visual nonsense, no ceremony required."
+        ]
+      },
+      {
+        period: "September 2020",
+        title: "ANTHOS CAN SUMMON HER INTO GAME MODE FAST",
+        paragraphs: [
+          "One September exchange begins with May going `I am here` and `for why`. Anthos pings; within roughly forty seconds May is at `I'll log in rn`. The missing middle never gives us a clean description of the task, which almost makes the social beat clearer: Anthos expects the ping to mean something, May responds like logging in is a perfectly normal next verb, and the conversation moves.",
+          "Three days later Anthos announces `OUR KID CAN BE EVOLVED !!! lmk when u r free`. Whatever exact game object had acquired joint custody of the bit, the language assumes a shared routine already underway. May's archive life is full of these low-friction entrances: Gilli can drag her into styling play, Anthos can drag her toward a login, and May rarely wastes bandwidth pretending not to know how the room works."
+        ]
+      },
+      {
+        period: "Petty Crimes",
+        title: "Petty Crimes",
+        paragraphs: [
+          "`apologies for not checking in tonight i was doing tings` is an extraordinary collision between formal guilt and absolutely no elaboration. The activities were Tings. Court adjourned.",
+          "`the dress is just,,,,,,` remains one of May's cleaner visual reviews. Several commas report for duty because an adjective has declined the assignment.",
+          "`heyyyy I'm shopping` is what she says when Gilli asks why the Zepeto is still underdressed. Digital retail apparently had a spokesperson.",
+          "A later September task produces `how TF is east` → `west` → `east? idk` and eventually `where is the SUN`. The exact task can stay mysterious. The sun was still asked to account for its whereabouts."
+        ]
+      }
+    ],
+    closing: [
+      "May is easy to misread if you mistake typing ceremony for effort level. The prose is loose. The participation is not. She can apologize for missing a check-in nobody wants her to feel guilty about, answer Anthos's ping by logging in, and judge a hairstyle by whether the whole look survives it. Then the compass walks into the room and all bets are off."
+    ]
+  }
+};
