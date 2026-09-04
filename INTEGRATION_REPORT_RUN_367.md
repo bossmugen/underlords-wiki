@@ -18,7 +18,7 @@ The genuinely new Wall layer is Ten's reaction-bar hypocrisy, which is much bett
 
 Ten's biography was resynthesized around the contradiction already forming in his Wall story: he can complain that UL records everything, turn his own embarrassment into `legacy` / `heir` mythology, and still cheerfully help decorate somebody else's evidence. The new Ten↔Ren lane is deliberately small and lived: both can understand and extend the same stupid premise through the reaction bar without prose. `Petty Crimes` carries `WOOD HELP`; no separate Episode was manufactured.
 
-Reader commit: **`87335ada35c6d848a27f7d8d626a3180fdced6e8`** (`wiki: deepen Ten as Wall defendant and accomplice`). Exact-head Pages workflow **33857075455** completed successfully, including preview build, artifact upload, and `Deploy to GitHub Pages`.
+Reader commit: **`87335ada35c6d848a27f7d8d626a3180fdced6e8`** (`wiki: deepen Ten as Wall defendant and accomplice`). Exact-head Build workflow **33857075297** succeeded through Astro build. Exact-head Pages workflow **33857075455** also completed successfully, including preview build, artifact upload, and `Deploy to GitHub Pages`.
 
 The same miner packet leaves gammaramma deliberately thin, closes the direct Wall-text recurrence subquestion for q3 ants/grasshopper, and closes the Gilli -> Ren chicken/ribs structural reply edge while keeping the uninspected screenshot/referents unresolved.
 
