@@ -46,6 +46,14 @@ export const moonPersonFirstNarrativeCharacterBios: Record<string, CharacterNarr
         ]
       },
       {
+        title: "PEOPLE KEEP TRYING TO PROMOTE PRECISION INTO A CREDENTIAL",
+        paragraphs: [
+          "Moon can be detailed enough that other people start narrating expertise around her before she does. In 2021, after one of her inventory-categorization requests, Leeao simply says `I think Moon is brilliant`. A few months later Walter asks the much more dangerous question: `Moon are you a doctor?` Moon's answer is immediate — `Whaat no 👀 Why-`.",
+          "That little recoil is useful because it keeps the reputation and the literal fact separate without making either one disappear. People can experience Moon as precise, organized or unusually specific and still be wrong if they turn that feeling into a professional credential. Moon herself does not grab the flattering title and run with it. She looks back at the room like *what the hell did I do to make you ask that.*",
+          "It also fits the larger contradiction in her biography. Moon can build elaborate systems when a problem interests her, then be completely comfortable asking Snow how her own game build works or trying to hand a leadership crown to somebody she thinks is more reliable. Competence does not become a performance of knowing everything. She can be the person somebody calls brilliant and, in the next appropriate context, the person saying thank you because somebody else knew better."
+        ]
+      },
+      {
         title: "SHE NOTICES WHEN THE HOUSE HAS AGED",
         paragraphs: [
           "The 2026 reunion turns Moon's attention away from immediate jokes for just long enough to reveal how much time she has been quietly tracking. Nobu returns and Moon calls it the restaurant reopening. A few minutes later she says `ITS BEEN AGES SINCE IT WAS LIKE THISSSS`, and Rummy agrees that Whiskey has not moved that fast in a long time. Moon is not merely happy to see Nobu. She notices what his return does to the room's speed.",
@@ -78,6 +86,7 @@ export const moonPersonFirstNarrativeCharacterBios: Record<string, CharacterNarr
         paragraphs: [
           "Moon has invoked celestial omniscience on the strength of being named Moon. Astronomy interest: real. Omniscience: still pending peer review.",
           "She can turn left-handedness into witchcraft in one message and get the accused party to upgrade the charge to `DOUBLE WITCH` immediately.",
+          "Half-open closet doors are apparently unacceptable. Anayss says doors are always closed; Moon answers that she does not like half-open closet doors either. This is a tiny household preference, not a diagnosis, but the door has been informed of its obligations.",
           "She likes interior design. Her defense of this fact has, regrettably, involved wanting to be Yinlin's chair and claiming the police should check on her for the greater good.",
           "She has called recurring nonsense `Rum's toe arc`, because apparently ordinary embarrassment becomes serialized television if Moon catches it happening often enough.",
           "She treated Ryo's first Wall of Shame appearance like a celebratory milestone, then advised him to change his name, wear a wig, and run away when dignity became untenable. She invited herself along thirteen seconds later. Friend brings friend into UL; friend then joins friend in witness protection.",
