@@ -21,7 +21,9 @@ MAIN already publishes the same scene under `SHE TRIES ONE CLEAN EMOTION AND EVE
 
 Reader commit `33a4a07049fb4ae4bf431a95b35c8ce562fda4a7` passed exact Build workflow `33880431146` and exact Pages workflow `33880431175`; Astro build, Pages build, actual `Deploy to GitHub Pages`, and report all completed successfully.
 
-A later concurrent WIKI commit (`e740dca9ea46693fb5024803d7216d4aa0769453`) added separate Mugen weather/unit-translation texture to the same active module. Run 382 re-read the current publishing head before state writes and confirmed the sentiment-alarm section remains intact; the concurrent work was not overwritten or claimed as this run's integration.
+## Provenance correction before close
+
+A later weather/unit-translation fold (`e740dca9ea46693fb5024803d7216d4aa0769453`) was checked against the actual current Mugen branch delta before final close. The reviewed `6a14edd7... → bf4df3cc...` handoff contains the **Sentiment Alarm** package, not that weather family. Rather than let a plausible-but-misrouted paragraph survive because it happened to build, the weather fold was removed. Correction commit `5342118e68d4cbb6feabeabd89bbfbc261eec541` passed Build `33881141420` and Pages `33881141296`; the Pages workflow completed actual deployment successfully. The valid sentiment-alarm section remained intact.
 
 ## Rails / dedupe
 
