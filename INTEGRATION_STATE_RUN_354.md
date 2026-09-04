@@ -2,10 +2,12 @@
 
 ## Census / reviewed miner deltas
 
-Opening census: **49 tracked miner identities = 28 active refs + 21 historical/missing refs**. No newly discovered miner branch. Two active refs had advanced beyond their prior reviewed heads and were reviewed checkpoint-first from changed `archive-intake/*` handoffs only:
+Opening census: **49 tracked miner identities = 28 active refs + 21 historical/missing refs**. No newly discovered miner branch. Closing review covered every ref that advanced during the run, checkpoint-first and from changed `archive-intake/*` handoffs only:
 
 - `archive-miner/core-rooms-events-a91f-20260824`: `91778cb855445d5acbb86b08349da2ad7678dfcd` → `f80ada1ab7b6b975f87f00399c36fbe463a2d3b1`.
-- `archive-miner-wall-hourly-20260824`: `6af689c3e4d02fd141be823ca8eb72636e165eeb` → `f4989d89bf4704075a0944983de36710a81651e8`.
+- `archive-miner-wall-hourly-20260824`: `6af689c3e4d02fd141be823ca8eb72636e165eeb` → `1432db36c92c54a8c2a38ae74ccca9b0e6918d58` (including its late closing suffix).
+- `archive-miner/mugen-person-first-20260828`: `99ba6cc521e56da152ed26d65518d869dcc68582` → `e6a4c7d4ec49feefa1f702ebf8d293a23c10db18`.
+- `archive-miner/whiskey-longitudinal-hourly`: `2dac25133e3505c856047021d3573806a1225a21` → `10e14c4186c8c30201550322358504b24db6b97a`.
 
 Both Club-Only recovery priorities remain current through head: 2021–2026 at `e45fb11c9239e236231bb65645dfd0285bc0078b`, 2020 at `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`.
 
@@ -13,29 +15,33 @@ Both Club-Only recovery priorities remain current through head: 2021–2026 at `
 
 ### Snow — integrated on WIKI
 
-The Core suffix deepened Snow's existing event-infrastructure character read rather than creating another event ledger. Other people remembered his early-start habit as deliberate arrival slack: give humans time to get online; later automatic reminders reduced the need. The remembered buffer width differs across recollections, so the public synthesis keeps the motive rather than canonizing a minute count.
+Core deepened Snow's existing event-infrastructure character read. Other people remembered the early-start habit as deliberate arrival slack: give humans time to get online; later automatic reminders reduced the need. The remembered buffer width differs across recollections, so public synthesis keeps the motive rather than manufacturing an exact minute count.
 
-The adjacent reset exchange also strengthens Snow's existing competence-without-omniscience contradiction: `I just dont recall how lol`, then ask Gabu to `fix stupid bot?`. Technical authority here includes admitting when a procedure has left his head and handing the problem to somebody who can solve it.
-
-WIKI integrated this into Snow's existing Saber/event-systems section via `src/data/character-biographies-run75-000-run354-snow.ts`.
+The adjacent reset exchange strengthens Snow's competence-without-omniscience contradiction: `I just dont recall how lol`, then ask Gabu to `fix stupid bot?`. Technical authority here includes admitting when a procedure has left his head and handing the problem to somebody who can solve it. Integrated into `src/data/character-biographies-run75-000-run354-snow.ts`.
 
 ### Wall of Fame — integrated on WIKI
 
-The Wall suffix longitudinally deepened the existing Shame/Fame gag instead of minting a duplicate institution. March 2020 already had the affectionate inversion (`Love you all. 😂😂😂` → `*wall of fame*`). The new value is that days later people were actively trying to get a screenshot into the `hall of fame`, and by June `wall of fame` could simply work as success/win language. Fame is therefore a recurring affectionate/competitive recoding of exposure, not a separate governance structure.
+The Wall suffix longitudinally deepened the existing Shame/Fame gag instead of minting a duplicate institution. Fame recurs as an affectionate/competitive recoding of exposure: something can be punishment, belonging, status, a win, or even something people try to qualify for. Integrated through `src/data/integrator-gags-run354-wall-fame.ts`.
 
-WIKI updated the existing `wall-of-shame-fame` running-gag owner via `src/data/integrator-gags-run354-wall-fame.ts`.
+### Suzimasu — integrated on WIKI
+
+The Whiskey suffix adds floor-level relationship texture rather than another senior-title paragraph. Dean can tease Suzi with `Are you lost baby gorl` and get `TAKE YA ASS TO BED LMAOOOOO` back; the laughter and Dean's immediate return to absurd media keep it in comfortable peer bark-back rather than Officer discipline or caretaking hierarchy. The same packet shows Suzi sparring with Rummy through Naruto/Madara/Might Guy visual shorthand until the mock fight ends with a sleep/good-night GIF. Founder / later Consigliere weight coexists with being one more participant in the room's fandom language. Integrated through `src/data/character-biographies-run75-000-run354-suzi.ts`.
+
+### Mugen ↔ HyaLuna — duplicate, consumed as reconciliation
+
+The late Mugen suffix correctly deepens HyaLuna as a pre-public deliberation companion: Mugen says the two discussed a consequential proposal the night before, then reopens it to the wider leadership for pros/cons. This is already materially public on HyaLuna's dossier as `Mugen is already talking serious club business through with her`, including the same sequence and the trust-loop-without-two-person-government read. No duplicate reader paragraph was created.
 
 ### Banked, not fabricated
 
-- **BeaEder:** developing person candidate. Strong contradiction: wants funny media displayed (`It deserves to be displayed lmao`), then later `plead[s] the fifth` when archived embarrassment points back at her. No safe canonical Cast owner was found, so no thin dossier or identity bridge was invented.
-- **Milo:** developing person candidate. Compact social closer plus theatrical `generals` / `spy circle` joking; no formal rank or governance inference, and no safe Cast owner was found.
-- Embed-only / uninspected Wall media remains attribution-bounded. No POSTED BY → MADE BY/CAPTURED BY/FEATURING promotion.
+- **Ryan X:** strong developing person candidate. `y'all need jesus` survives roughly a minute before Ryan himself escalates to `get that holy cum`, then answers the fast local filing machinery with `too fast`. Useful contradiction: mock moralizer ↔ rapid riff escalator; useful Ren↔Ryan local response grammar. No safe canonical Cast owner was found, so no thin dossier was fabricated. Ren only POSTED the uninspected image; subject/creator/capturer remain unresolved.
+- **BeaEder:** developing display-the-funny-media / later-plead-the-fifth contradiction; no safe Cast owner.
+- **Milo:** compact social closer plus theatrical `generals` / `spy circle` joking; no formal rank inference and no safe Cast owner.
 
 ## MAIN relationship
 
-The richer Snow person-first fold is accepted MAIN biography debt, not rejected evidence. MAIN's existing mandatory verification gate remains the publication dependency. Older ShiyaX/Shiki Wall debt also remains. The controlling cursor ledger therefore keeps publication-held consumed SHAs conservative even though the new Core and Wall suffixes were successfully reviewed.
+The richer Snow and Suzi person-first folds are accepted MAIN biography debt, not rejected evidence. Older Wall, Daycare, Louvre, Mugen and Whiskey reader debt also remains behind MAIN's mandatory verification gate. Publication-held consumed SHAs remain conservative even though these suffixes were successfully reviewed.
 
-## Queue after this review
+## Queue after review
 
 - pending review: 0
 - pending-publication MAIN families: 6
@@ -46,4 +52,4 @@ Publication-held families remain Wall, Core Rooms / Events, Daycare, Louvre, Mug
 
 ## Rails retained
 
-Hard canon and resolved identity bridges remain binding. The 5-vs-15-minute remembered buffer is not flattened into a fake exact value. Event-room activity does not create appointment chronology. `generals` remains joke language. Earliest surviving is not origin. Uninspected media receives no invented creator/capturer/subject attribution. No identity is bridged from similar names.
+Hard canon and resolved identity bridges remain binding. The 5-vs-15-minute remembered buffer is not flattened into a fake exact value. Event-room activity does not create appointment chronology. `generals` remains joke language. Suzi↔Dean bark-back is not discipline, family or romance. Earliest surviving is not origin. Uninspected media receives no invented creator/capturer/subject attribution. No identity is bridged from similar names.
