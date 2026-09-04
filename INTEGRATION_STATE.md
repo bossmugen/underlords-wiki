@@ -30,6 +30,10 @@ Louvre is reviewed checkpoint-first through `96c04103deae4736d1ce51c7cb32017cdc0
 
 Run 393 remains the latest reader-facing WIKI publication: Pride's person-first social-evasion / staged-exit deepener plus the Zyrcant/Akariel hard-canon repair. Those changes were built and deployed successfully. Run 394 intentionally adds no new reader copy because the new candidate has no safe canonical owner.
 
+## Run 394 verification / deployment
+
+Exact Run-394 WIKI state commit `08aad91a039ce73e58ce3e59d344c08121c3b96c` passed Build workflow `33904011448` and Pages workflow `33904011396`. The Pages workflow completed build, deploy, and report successfully. This file's later `[skip ci]` close only records those already-completed results; it does not change reader code.
+
 ## Consumed cursors
 
 - Raja Photobooth branch: `null → 4bf6cbfeee8c47286778f100a8fdcc387988971e` after successful empty-baseline review.
