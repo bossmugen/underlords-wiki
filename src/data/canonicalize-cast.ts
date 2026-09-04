@@ -155,15 +155,16 @@ const additions: Character[] = [
 
 const metadataOverrides: Record<string, Partial<Character>> = {
   new: { role: "Staff", tags: ["Staff"] },
+  // Hard identity repair: Akariel is a separate person from Zyrcant. Keep Akariel's
+  // aliases, Wall behavior, and relationship receipts off Zyrcant's public file.
   zyrcant: {
-    aliases: ["Akariel", "Akariel™", "akariel_star"],
-    logline: "Former Amaurot deputy and recurring VIP whose Akariel names belong to the same person; she can volunteer for Wall shame, run from `caught in 4k`, then come back carrying a self-filed exhibit of her own.",
-    tags: ["VIP", "Amaurot", "Identity continuity", "Wall"],
+    aliases: [],
+    logline: "Former Amaurot deputy and recurring UL VIP from the extended-family cast.",
+    tags: ["VIP", "Amaurot"],
     relationships: [
       { name: "Rich", note: "Rich led Amaurot while Zyrcant served as his deputy; that old rank does not transfer into UL command.", href: "/characters/rich" },
-      { name: "Mugen", note: "Mugen true-replies `Tru lub` to Zyrcant's July 2021 self-file; the attached private conversation stays sealed.", href: "/characters/mugen" },
     ],
-    quotes: ["put me on the wall of shame 😩", "fair lmaooo", "oooh shit *runs*"],
+    quotes: [],
   },
   aeshleen: { role: "Staff", tags: ["Staff", "Wall speedrun"] },
   "baby-lyssa": { role: "VIP", tags: ["VIP", "2021", "Wall", "Wall speedrun", "Screenshot jail"] },
