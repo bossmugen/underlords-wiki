@@ -1,4 +1,6 @@
 import type { CharacterNarrative, NarrativeSection } from "./character-biographies-narrative";
+import { deepAnayssOfficerCharacterBios } from "./character-bios-officers-anayss-deep";
+import { dyingfoxNarrativeCharacterBios } from "./character-biographies-dyingfox";
 import { hishiroNarrativeCharacterBios } from "./character-biographies-hishiro-core";
 import { jasNarrativeCharacterBios } from "./character-biographies-jas";
 import { momoNarrativeCharacterBios } from "./character-biographies-momo";
@@ -100,5 +102,58 @@ export const run372NarrativeCharacterBios: Record<string, CharacterNarrative> = 
         ? { ...section, paragraphs: [...section.paragraphs, mugenKiroBandwidth] }
         : section
     ),
+  },
+};
+
+const dyingfoxBase = dyingfoxNarrativeCharacterBios.dyingfox;
+
+const dyingfoxLilly: NarrativeSection = {
+  period: "December 2020 – February 2021",
+  title: "FOX SAYS GOOD MORNING FIRST; LILLY ANSWERS AT STADIUM VOLUME",
+  paragraphs: [
+    "Dyingfox's low-bandwidth style is easy to mistake for passivity until Lilly enters the file. Fox is the one repeatedly starting the tiny contact: `Morning lilly!` in December, another `Morning lilly!` three days later, the same greeting again in January, then `Eli hug @Lilly👽` in February. Lilly receives those little openings at approximately one hundred times the volume: `FOX OMG HIIIII`, `I LOVE YOU`, later `HI SUNSHINE`. Fox answers `Love you too!`, `Hi!`, and `:Milk_Love:`. Quiet does not mean waiting to be noticed. Fox keeps knocking first.",
+    "That makes the rest of Dyingfox's compact care language feel less like an archive accident and more like a social method. With Lilly, the initiative is often Fox's; the response is just spectacularly louder on the other side. Neither person needs to define the relationship for the rhythm to be obvious. Fox offers a small opening, Lilly turns the porch light into a stadium, Fox answers without suddenly becoming verbose.",
+    "The affection language earns familiar closeness and mutual warmth, not romance, literal family, or a hierarchy of who mattered most. What it does add is agency. Dyingfox is not merely the person other people summon for a pat. In this older relationship, Fox repeatedly creates the contact and seems perfectly comfortable letting Lilly be the one who makes the reunion sound enormous."
+  ]
+};
+
+export const run379DyingfoxNarrativeCharacterBios: Record<string, CharacterNarrative> = {
+  dyingfox: {
+    ...dyingfoxBase,
+    sections: [
+      dyingfoxBase.sections[0],
+      dyingfoxLilly,
+      ...dyingfoxBase.sections.slice(1),
+    ],
+  },
+};
+
+const anayssArchive = deepAnayssOfficerCharacterBios.anayss;
+
+const anayssEvidenceGoblin: NarrativeSection = {
+  period: "Wall of Shame / Fame",
+  title: "THE RECEIPTS ARE APPARENTLY IN HER POCKET",
+  paragraphs: [
+    "Anayss has a second kind of wayfinding problem: sometimes the thing everybody is looking for is an old stupid receipt, and she is alarmingly likely to know where it went. When Momo declares `No receipts noh evidence!` in October 2020, Anayss answers simply `I do`. Mugen soon jokes that Ana will pull old material up again in three months. By winter, other people are not merely noticing the pattern; they are naming the job she keeps accidentally performing. Hishiro calls her `Evidence retriever`. Daya says she `just grab[s] the old evidence of people`, later announces `All these are from Ana's pocket`, and Kaede upgrades the reputation to `Evidence goblin`.",
+    "The funniest part is that Anayss does not behave like a solemn keeper of records. When an old Cuttlefish screenshot comes back, her explanation is `I just wanted @CHIBIᵗᵉʳᵃˢᵘ to see it XD`; when the room starts spawning more evidence while she is at work, she complains about that too. The archive-memory loop is social before it is archival. She remembers an old bit because somebody would laugh at it now, digs it back up, and hands the past to the current room like conversational ammunition.",
+    "That same appetite shows up without prosecution attached. In August 2021 she is loudly asking Mugen for `TBT ART`, then goes `HIGHKEY SALTY` over older 2020 pieces she missed. Anayss does not only remember people through embarrassing screenshots; she wants the old art, the old jokes, the pieces of the house that happened before she saw them. Her map-giving habit helps people find where to go next. This other habit keeps asking what the hell everybody did before she got there.",
+    "None of that creates an Archivist office, and `Evidence goblin` remains exactly what it sounds like: a peer nickname for a recurring menace, not a governance title. The better character read is that Anayss repeatedly turns memory back into live social material. UL does not have to explain to her why an old receipt is funny. More often, everybody else is discovering that Ana already has the fucking thing."
+  ]
+};
+
+export const run379AnayssNarrativeCharacterBios: Record<string, CharacterNarrative> = {
+  anayss: {
+    intro: anayssArchive.overview,
+    sections: [
+      {
+        title: "WHAT KEEPS HAPPENING",
+        paragraphs: anayssArchive.characterNotes.map((note) => `${note.title}. ${note.text}`),
+      },
+      anayssEvidenceGoblin,
+      {
+        title: "SCENES THAT STUCK",
+        paragraphs: anayssArchive.history.map((beat) => beat.text),
+      },
+    ],
   },
 };
