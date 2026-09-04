@@ -1,8 +1,8 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-04 Run 366_
+_Last updated: 2026-09-04 Run 367_
 
-MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Historical cycles remain in per-run state files; current detail is in `INTEGRATION_STATE_RUN_366.md`.
+MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Historical detail for this cycle is in `INTEGRATION_STATE_RUN_367.md` and `INTEGRATION_REPORT_RUN_367.md`.
 
 ## Current census / queue
 
@@ -18,36 +18,32 @@ Both Club-Only recovery priorities remain current through head:
 - `archive-miner/club-only-2021-2026-hourly` → `e45fb11c9239e236231bb65645dfd0285bc0078b`
 - `archive-miner-clubonly-2020-hourly` → `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`
 
-Run 366 reviewed three intake-only deltas checkpoint-first: Daycare through `2e26f1d7a02b7301e68c6d23ee76e5c4d2af2903`, Wall through `e553092ea974f65fbb81a1c8eeaf40d5911c4446`, and Whiskey through `f9d9fbbc298217284c5855854807260cc5cba4ad`. The closing census found no second-wave miner movement and no raw archive was re-mined.
+The 2021–2026 checkpoint was re-read directly this run. Its existing A/B findings, exhausted retrieval routes, and do-not-churn boundary remain unchanged.
 
-## Recovery continuation
+## Run 367 intake
 
-The 2021–2026 Club-Only checkpoint was re-read directly from its miner branch. Its known A/B findings, exhausted routes, do-not-churn rules, and retrieval limitation remain unchanged; no new immutable target-room key justified another failed raw-retrieval sweep. The 2020 recovery branch remains current through its recorded head.
+Only Wall advanced: `archive-miner-wall-hourly-20260824` moved **`e553092ea974f65fbb81a1c8eeaf40d5911c4446 -> 9e9ce04277f658c1e618c40165ab26fdbfe5bc19`**. It was reviewed checkpoint-first, intake-only; no raw archive was re-mined.
+
+The strongest new person layer is **Ten**. Rookie Cookie's `It’s the morning wood talking` carries `W / O / 🅾️ / D / HELP`, with **Ten and Ren on every reaction object**. That gives Ten a clean contradiction and Ten↔Ren a clean shared-humor lane: the guy who complains that UL records everything is also perfectly willing to help decorate somebody else's evidence. The export does not preserve who reacted first.
 
 ## Public reconciliation
 
-**Akamin:** Wall deepened her as a compact mischievous spectator / receipt-noticer whose reaction punctuation can be louder than her message volume. Her existing biography is now person-first around social style, relationships, reputation, and `Petty Crimes`. Akamin remains hard-separated from Mere.
+**Ten:** `src/data/character-biographies-ten.ts` is the canonical WIKI owner. The first Run-367 reconciliation note saying no Ten owner existed was incorrect and is superseded. Ten's biography was resynthesized around response-time humor, Screenshot Court self-incrimination, the new reaction-bar complicity, and `Petty Crimes` rather than receiving another receipt-shaped paragraph.
 
-**Jas:** Whiskey supplied the cumulative **Absent Father, Present Maintenance** read. The fake father/old-man reputation stays comedy; the person underneath repeatedly performs small maintenance—welcome-back/home familiarity with Gilli, food nudges for Gabu, remembered Anthos tastes, music and repeat horror-game shorthand with Tae—and Jas actively feeds the father bit himself. A dedicated person-first Jas dossier is now wired into the public resolver.
+**Banked/backstage:** gammaramma remains ultra-thin; q3's direct Wall-text insect recurrence subquestion is closed negative; q18's chicken/ribs reply edge is structurally closed but the posted screenshot and referents remain unresolved.
 
-**Banked:** Alaina's context-lawyer/self-incrimination contradiction and Marian corrective shorthand; Mërcy/probable Koi's small-text/high-gesture profile. Neither warranted manufacturing a thin new public owner. Account-sharing attribution, uninspected media, and q8 channel-object provenance remain backstage/bounded.
-
-The six reviewed-but-publication-held MAIN families remain Wall, Core Rooms / Events, Daycare, Louvre, Mugen person-first, and Whiskey.
+MAIN does not mirror the WIKI copy. Its current Ten biography already carries the stronger cumulative memory/legacy mechanism, and no new MAIN reader mutation was made from this suffix.
 
 ## Verification / deployment
 
-Akamin reader commit `435997a7081aea0620dedaaf1228a106c405ed93` passed its Astro Build; its same-head Pages run was superseded by later WIKI commits.
+WIKI reader commit **`87335ada35c6d848a27f7d8d626a3180fdced6e8`** updates Ten. Exact-head Pages workflow **33857075455** succeeded, including preview build, artifact upload, and **Deploy to GitHub Pages**. The final state-only head's own Build/Pages disposition is checked separately at close.
 
-Jas reader commits are `0dc623786219468a84bff637aba55385d800b37c` and resolver wiring `a86a0f6b5606f3b793deb3c836edca163c001c68`.
-
-The combined exact WIKI content/state head `0f5bc028fc87531f4f30bdbbb9e838fd6a312c82` passed Build run `33855424676`. Exact-head Pages run `33855424730` also completed successfully, including preview build, artifact upload, and `Deploy to GitHub Pages`. The deployed site therefore contains both Akamin and Jas changes plus the Run 366 state.
-
-MAIN remains independently gated. Its final Run 366 workflow failed before repository verification instantiated, so that infrastructure failure does not invalidate WIKI's green build/deployment.
+MAIN remains independently gated. Workflow **33856803161** on its Run-367 reconciliation head failed before repository verification instantiated; its `Build + verify` job had no steps / no runner, and verified Cloudflare deployment was skipped.
 
 ## Consumed cursors
 
-No conservative publication-held `last_consumed_sha` advanced. Daycare, Wall, and Whiskey have current reviewed heads / `last_reviewed_at` in MAIN's ledger, while their older accepted MAIN publication debt remains verification-held. The 2021–2026 recovery branch remains consumed through current head.
+No conservative publication-held cursor advances. Wall is reviewed through `9e9ce04277f658c1e618c40165ab26fdbfe5bc19`, while MAIN's controlling `last_consumed_sha` stays `ea893e9ffb682e2cc0007e10c9f6dcc1df36b20d` because older accepted Wall publication debt is still unverified on MAIN.
 
 ## Rails retained
 
-Hard canon and resolved identity bridges remain binding. No identity merging from similar names. Exact `Absent father` coinage remains unresolved. Joke rank/family/romance/age/violence/property language remains non-literal without support. Earliest surviving is not origin. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct. Uninspected media stays uninspected. Safety-sensitive intake material stays backstage.
+Hard canon and resolved identity bridges remain binding. Ten is not GroxTen. Reaction membership does not identify who started a stack. Joke rank/family/romance/violence language remains non-literal without support. Earliest surviving is not origin. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct. Uninspected media stays uninspected.

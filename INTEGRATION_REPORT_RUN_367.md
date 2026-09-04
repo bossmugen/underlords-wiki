@@ -4,22 +4,30 @@ Date: 2026-09-04
 
 ## Shared intake state
 
-The reconciled MAIN miner census closes at **49 tracked identities = 28 active refs + 21 historical/missing**, with **0 pending review, 0 backlog, 0 overdue**. Both Club-Only recovery priorities remain current through head.
+The reconciled MAIN miner census closes at **49 tracked identities = 28 active refs + 21 historical/missing**, with **0 pending review, 0 backlog, 0 overdue**, and **6 MAIN publication-held families**. Both Club-Only recovery priorities remain current through head; the 2021–2026 checkpoint was re-read directly and its retrieval boundary is unchanged.
 
-The only miner advance this run was Wall: `archive-miner-wall-hourly-20260824` moved from `e553092ea974f65fbb81a1c8eeaf40d5911c4446` to `9e9ce04277f658c1e618c40165ab26fdbfe5bc19` and was reviewed checkpoint-first, intake-only.
+The only miner advance was Wall: `archive-miner-wall-hourly-20260824` moved from `e553092ea974f65fbb81a1c8eeaf40d5911c4446` to `9e9ce04277f658c1e618c40165ab26fdbfe5bc19`. The suffix was reviewed checkpoint-first, intake-only.
 
-## WIKI disposition
+## Correction to the first Run-367 handoff
 
-The new Wall packet deepens **Ten** as a compact, self-incriminating Screenshot Court participant: protest (`delet`, `why`, `please stop`, `ohgodnotme`), awareness that the house records everything, continued participation, and a 2022 self-post immediately after the protest. Anayss adds low-friction co-complaint / mock-prosecution shorthand through `who bully me` -> `same` and a later `Thats pretty abusive`.
+The first reconciliation note incorrectly said WIKI had no current Ten owner. That discovery pass was incomplete. `src/data/character-biographies-ten.ts` exists on `main` and is imported by `src/data/character-biographies-all.ts`, so Ten has a real public biography owner. This report supersedes the no-owner statement.
 
-No reader-facing WIKI change was made. Current `main` has no safe/current Ten dossier owner discoverable by `Ten` / `dripsy_gk`, and creating a thin dossier just to carry one receipt family would violate the project-wide person-first / no-receipt-dump rule. MAIN already owns the stronger cumulative Ten mechanism, so WIKI intentionally does not mirror it.
+## WIKI integration
 
-Safety rails retained: Ten is not collapsed into GroxTen; `same` does not establish the same external incident; mock `abusive` language is not literal abuse canon; posted attachments remain POSTED BY only while pixels are unseen; earliest surviving remains non-origin.
+The genuinely new Wall layer is Ten's reaction-bar hypocrisy, which is much better character material than another timestamp paragraph. On 2020-09-03 Rookie Cookie says `It’s the morning wood talking`; the message carries `W / O / 🅾️ / D / HELP`, and **Ten and Ren are both users on all five reaction objects**. The export does not retain per-user reaction timestamps, so neither is credited with inventing or starting the stack.
+
+Ten's biography was resynthesized around the contradiction already forming in his Wall story: he can complain that UL records everything, turn his own embarrassment into `legacy` / `heir` mythology, and still cheerfully help decorate somebody else's evidence. The new Ten↔Ren lane is deliberately small and lived: both can understand and extend the same stupid premise through the reaction bar without prose. `Petty Crimes` carries `WOOD HELP`; no separate Episode was manufactured.
+
+Reader commit: **`87335ada35c6d848a27f7d8d626a3180fdced6e8`** (`wiki: deepen Ten as Wall defendant and accomplice`). Exact-head Pages workflow **33857075455** completed successfully, including preview build, artifact upload, and `Deploy to GitHub Pages`.
+
+The same miner packet leaves gammaramma deliberately thin, closes the direct Wall-text recurrence subquestion for q3 ants/grasshopper, and closes the Gilli -> Ren chicken/ribs structural reply edge while keeping the uninspected screenshot/referents unresolved.
 
 ## Surface split
 
-- MAIN: no new reader mutation from this suffix because Ten's existing biography already owns the stronger cumulative behavior. Older accepted MAIN Wall work remains publication-held behind MAIN verification.
-- WIKI: no reader mutation; no thin owner page created.
-- Consumed cursor: no conservative movement across Wall because older accepted MAIN publication work remains unverified.
+- **MAIN:** no reader mutation from this suffix. MAIN's existing Ten biography already owns the stronger person-first memory/legacy mechanism, and MAIN's verification gate remains broken before repository steps instantiate.
+- **WIKI:** Ten receives the reaction-layer contradiction and Ten↔Ren structured relationship/Petty Crimes deepener. This is not copied MAIN prose.
+- **Consumed cursor:** Wall remains conservative because older accepted MAIN Wall publication work is still verification-held.
 
-This file is the WIKI-side durable Run 367 handoff; shared branch consumption remains controlled by MAIN `archive-intake/INTEGRATOR_BRANCH_STATE.json`.
+## Rails retained
+
+Ten is not collapsed into GroxTen. Reaction membership is not first-mover chronology. Uninspected attachments remain POSTED BY only unless authorship/capture/subjects are separately grounded. q3/q18 unresolved referents stay unresolved. Earliest surviving remains non-origin.
