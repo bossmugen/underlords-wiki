@@ -18,11 +18,11 @@ export const prideNarrativeCharacterBios: Record<string, CharacterNarrative> = {
         title: "REN KEEPS REOPENING THE FILE",
         paragraphs: [
           "Ren is one of the clearest keepers of Pride's corpse mythology. In September she is already posting `Pride bout to kill us for bodies UwU`. In November she produces the lost-corpse Amber Alert sequence. In December she announces, `Let me just bring back the time pride threatened that he was gonna make us into corpses`, then drops another image sixteen seconds later.",
-          "The important relationship beat is repetition. Ren expects the old reference to land without rebuilding the whole backstory, and Pride is visibly fluent in at least the lost-body side of it. That is callback familiarity: one person keeps resurrecting the case, the other does not need the joke translated. It is not a closeness ranking, just the much better evidence of two people sharing enough history for an absurd old sentence to remain usable months later."
+          "The important relationship beat is repetition. Ren expects the old reference to land without rebuilding the whole backstory, and Pride is visibly fluent in at least the lost-body side of it. That is callback familiarity: one person keeps resurrecting the case, the other does not need the joke translated. It is not a closeness ranking, just better evidence of two people sharing enough history for an absurd old sentence to remain usable months later."
         ]
       },
       {
-        title: "PETTY CRIMES",
+        title: "Petty Crimes",
         paragraphs: [
           "Pride has been both the missing corpse and the alleged future manufacturer of additional corpses. UL apparently believed in vertical integration.",
           "`I still laugh about that day` may be the cleanest explanation for why the bit survived. The subject himself kept finding it funny.",
