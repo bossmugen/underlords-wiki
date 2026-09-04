@@ -5,13 +5,13 @@ aliases:
   - "cen1129"
 roles:
   - "Staff"
-summary: "Ceen is current Staff with a deliberately compact file: self-files as `shy`, then repeatedly gets socially legible with very little text — two captionless Photo Submissions posts still draw room-sized reaction piles, and `Ron the best boy` gets a frog nod from Han."
+summary: "Ceen is current Staff with a deliberately compact surviving file: Gabu handles her 2021 Discord front-door routing, then Ceen turns up in Photo Submissions twice with attachment-only posts that still get room-sized reactions and drops `Ron the best boy` on the Wall for one Han frog nod."
 summaryEvidence: "archive-confirmed"
 publication: "public"
 claims:
-  - text: "Current canon places Ceen on the Staff shelf. Recovered Discord account `cen1129` appears as `Cen`; the one-off self-introduction form `Сей` is not promoted to a durable alias."
+  - text: "Current canon places Ceen on the Staff shelf. Recovered Discord account `cen1129` appears as `Cen`; the one-off intake-form IGN `Сей` is not promoted to a durable alias."
     evidence: "canon-lock"
-  - text: "On September 9, 2021, Ceen answers Lobby intake with `Сей/shy/20`; Gabu later says `Welcome @Cen !! Role assigned, server map here`. The historical age is unnecessary to the public character read."
+  - text: "On September 9, 2021, Gabu asks Ceen for `ign/club/age`; Ceen answers `Сей/shy/20`. In that form, `shy` is the club field, not a personality description. Gabu later says `Welcome @Cen !! Role assigned, server map here`."
     evidence: "archive-confirmed"
     date: "2021-09-09"
   - text: "On October 10, 2021, Ceen posts `image0.png` in Photo Submissions with no text caption; it receives nine `CS_redHearts` reactions."
@@ -26,8 +26,10 @@ claims:
   - text: "A targeted Ceen↔Han archive sweep found no second clean direct interaction beyond the October 19 Wall frog nod. The known friendship provenance therefore is not inflated into a larger interaction arc."
     evidence: "archive-confirmed"
 antiFanon:
-  - "Ceen's direct self-description is `shy`; do not turn one intake word into clinical anxiety, totalized introversion, or a permanent speech/personality diagnosis."
-  - "Two captionless Photo Submissions posts establish a visible mode in that room, not a rule that Ceen never captions anything."
+  - "`shy` in `Сей/shy/20` is the club field in an IGN / club / age intake prompt. Never turn it into Ceen's personality, shyness, clinical anxiety, introversion, or self-description."
+  - "The September 2021 role-assignment scene is Discord access/onboarding. It does not establish in-game UL admission or appointment chronology; the form itself names `shy` as Ceen's club at that surviving doorway."
+  - "Gabu authors the surviving re-prompt and `Role assigned, server map here` messages. Do not transfer those actions to Dean or another Support Tech account."
+  - "Two captionless Photo Submissions posts establish a visible mode in that room, not a rule that Ceen never captions anything or proof of a shy personality."
   - "The two Photo Submissions images were not visually inspected; POSTED BY Ceen does not establish MADE BY / CAPTURED BY / FEATURING or subject identity."
   - "Han's single `frognod` supports one grounded interaction and related-person link, not a friendship score or closeness ranking."
   - "Do not identify `Ron` as a member, pet, fictional character, or running-bit subject without recovered context."
@@ -46,22 +48,18 @@ tags:
 
 # Ceen
 
-Ceen is current **Staff**, and the correct way to deepen this page is not to pretend a sparse archive is secretly a five-season prestige drama. The useful material is small, direct, and unusually consistent: Ceen says very little in the clean surviving scenes, and the room still understands enough to answer.
+Ceen is current **Staff**, and her surviving file is small enough that every wrong adjective gets very expensive very quickly. The useful material is compact: Gabu gets her through the Discord front door, Ceen later drops two captionless Photo Submissions posts that still make the room react, and one tiny Wall verdict gets a frog nod from Han.
 
-The front-door receipt is almost too perfect. On September 9, 2021, the Lobby intake asks for the usual identifying details. Ceen answers **`Сей/shy/20`**. Gabu later closes the loop with **`Welcome @Cen !! Role assigned, server map here`**. The historical age does no present-day character work and stays out of the public summary. The word that matters is Ceen's own: **`shy`**.
+The front-door line needed one important correction. On September 9, 2021, Gabu asks Ceen for **`ign/club/age`**. Ceen answers **`Сей/shy/20`**. Those slashes are doing paperwork, not psychology: `Сей` fills the IGN slot, **`shy` fills the club slot**, and the final number fills the age slot. The old dossier accidentally read a form field like Ceen had leaned into the microphone and described her temperament. She had not. The form was asking what club she was in.
 
-That is direct self-characterization, but the wiki stops where Ceen stops. `Shy` does not become a diagnosis. It does not authorize `socially anxious`, `introvert`, `quiet person`, or a theory of why Ceen behaves a certain way. One word is allowed to remain one word.
+That distinction changes the doorway without making it dramatic. Gabu later tells her **`Welcome @Cen !! Role assigned, server map here`**. Gabu is doing the visible Discord routing: prompt, role, map, welcome. Ceen's club field at that surviving moment is `shy`, so this scene does not prove she had joined the Underlords in-game. It proves she was being given Discord access and shown where things were. It also does not provide an appointment date for her later Staff status.
 
-A month later Photo Submissions gives the file a better progression than any invented adjective. On October 10, Ceen posts **`image0.png`** with **no text caption**. The post receives nine `CS_redHearts` reactions. Ten days later Ceen does it again: **`1634758743357.png`**, again with **no text caption**, this time receiving nine `HHNHGGG` reactions. The images themselves were not visually inspected in the source pass, so the wiki does not narrate what they depict, who created them, who appears in them, or who took them.
+A month later Photo Submissions gives Ceen a much better bit of character texture than misreading the word `shy` ever did. On October 10 she posts **`image0.png`** with no text caption and gets nine `CS_redHearts` reactions. Ten days later she does it again: **`1634758743357.png`**, again attachment-only, this time with nine `HHNHGGG` reactions. She does not need to narrate either drop for the room to answer. That is a behavior we can actually see; a personality label is not required.
 
-The social beat survives without any of that. One month after self-filing as `shy`, Ceen is participating in a visual room by dropping attachment-only posts that still produce a room-sized response. The file does not need us to put imaginary captions under the images in order to show Ceen was legible there.
+The images themselves were not visually inspected in the source pass, so the wiki does not turn POSTED BY into MADE BY, CAPTURED BY, FEATURING, or subject identity by wishful thinking. The social fact is already enough: Ceen puts something down, says nothing around it in the surviving text, and the room responds anyway.
 
-The Wall then produces four words and one frog. On October 19, Ceen writes **`Ron the best boy :emoji_29:`**. Han answers with a single **`frognod`** reaction. We do not know who or what Ron is from the currently exposed context. Human? Pet? Fictional character? Recurring joke? The archive has not decided for us, so neither does the wiki.
+The Wall then gives us four words and one frog. On October 19, Ceen writes **`Ron the best boy :emoji_29:`**. Han answers with a single **`frognod`** reaction. We still do not know who or what Ron is from the recovered context. Human? Pet? Fictional character? Recurring bit? Nobody gets assigned an ontology because one frog agreed with Ceen.
 
-That frog nod is especially useful because known project provenance already says Ceen is Han's friend. Provenance is not a scene. This is. Ceen submits a tiny verdict; Han frog-nods the verdict. A later direct-interaction sweep through both stable accounts did not recover a second clean Ceen↔Han reply, mention, or callback, which is exactly why this one stays small rather than becoming a friendship biography by force.
+That frog nod is useful precisely because known project provenance already says Ceen is Han's friend. Provenance is not a scene. This is. Ceen offers a tiny verdict; Han frog-nods the verdict. A later direct-interaction sweep did not recover a second clean Ceen↔Han reply, mention, or callback, so the relationship stays grounded in what is actually here instead of being bulked up with proximity.
 
-The same restraint applies to the Photo Submissions room. Han appears elsewhere in the broader export, but the retrieved snippets do not cleanly prove Han is one of the nine reactors on either exact Ceen post. `Both people appear somewhere in the same huge JSON` is not a relationship receipt. Target, reaction, and named reactor all need to resolve together before the wiki says so.
-
-So Ceen's current page is intentionally compact: front door, `shy`; first captionless image, nine reactions; Wall, `Ron the best boy`, one Han frog nod; second captionless image, nine reactions. The recurring verb is **compression**, but even that is carefully bounded to the material we actually have. Ceen uses fewer words in these recovered scenes and remains socially readable anyway.
-
-That is enough to retire the old `Han's friend, personality pending` problem without replacing it with fanon. The page now belongs to Ceen's own archive footprint, not to somebody else's relationship label.
+Ceen's current dossier therefore stays intentionally compact: a Discord doorway handled by Gabu, two low-caption visual drops that still land, and one Wall sentence Han answers with a frog. The recurring thing is **economy**, not `shyness`. Ceen's file gets to be quiet in places without the wiki confusing silence, formatting, and personality ever again.
