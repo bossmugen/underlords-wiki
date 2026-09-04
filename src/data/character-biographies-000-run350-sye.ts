@@ -9,10 +9,10 @@ export const run350SyeNarrative = {
       ...current.sections,
       {
         period: "RELATIONSHIPS",
-        title: "SNOW GETS THE LECTURE",
+        title: "SHE DOESN'T NEED TO LOOK SMART TO BE USEFUL",
         paragraphs: [
-          "One Events-room exchange makes the Sye-and-Snow rhythm almost embarrassingly clear. Sye does not write the lecture herself; she tags Snow: `Snow come lecture everyone on the importance of RSVP and the rules of 😡`. The phrasing assumes he will understand both the problem and the assignment. Snow takes the room-facing part. Sye is perfectly willing to be blunt about process, but she does not seem precious about being the person who has to deliver every correction herself. If somebody else is the better mouth for the moment, she hands them the microphone.",
-          "That directness does not make the relationship chilly. Later Sye tags Snow with `love you 🥺`; when she says she has to fly out, Snow answers `You better!!!`. The affection sits beside the operational friction instead of erasing it. They can disagree about how something should run, hand work sideways, and still sound completely at home with each other. It is one of the cleaner examples of Sye's competence being social rather than solitary: knowing when to fix the thing herself is only half of it. Knowing exactly who to summon is the other half."
+          "Sye's working rhythm with Snow is unusually comfortable with unfinished answers. When Snow is trying to change the event system's timezone globally instead of editing every event one by one, Sye does not stand outside the problem and perform expertise at her. She asks if Snow needs help, climbs into the debugging, guesses wrong, immediately says `oh wait doest not the right command`, laughs, checks GitHub, and keeps trying. Snow is doing the same thing beside her: testing syntax, asking whether they are even in the right channel, throwing possibilities back into the loop. Neither of them needs the other to be infallible for the collaboration to keep working.",
+          "Once Sye lands the working configuration, Snow's response is not just relief. She says `we need to document lol`, pins Sye's successful command, and explains that it is for the next time change. A separated September exchange already has Sye saying she is `just helping snow out` and Snow answering that the help is greatly appreciated. Put together, their competence looks shared rather than hierarchical: Sye is useful because she will stay in somebody else's problem even while being visibly wrong on the way there, and Snow turns the answer they found together into something future-them can reuse."
         ],
       },
     ],
