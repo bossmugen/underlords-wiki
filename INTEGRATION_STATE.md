@@ -1,40 +1,44 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-04 Run 402 reconciliation_
+_Last updated: 2026-09-04 Run 403 late-tail reconciliation_
 
-MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Run 402 opening census registered **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered, 2 pending review, 0 backlog, and 0 overdue**. The two fresh branches were Wall and Louvre; both were reviewed checkpoint-first and intake-only this run. The eight inherited MAIN publication-held families remain Wall, Backroom, Core Rooms / Events, Daycare, Louvre, Meems, Mugen person-first, and Whiskey. Both Club-Only recovery priorities remain current and no raw archive was re-mined.
+MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Closing census remains **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered, 0 pending review, 0 backlog, and 0 overdue**. The eight inherited MAIN publication-held families remain Wall, Backroom, Core Rooms / Events, Daycare, Louvre, Meems, Mugen person-first, and Whiskey. Both Club-Only recovery priorities remain current at their established saturation / do-not-churn boundaries, and no raw archive was re-mined.
 
-## Run 402 — Plushie learns the Wall and immediately starts using the rules as material
+## Late-tail public reconciliations
 
-Wall advanced from `c4b44d13d3593a15cfc62243c624a9fa63c57d38` to **`58547633244421a2fb99778c890643445d5db98c`**. The additive person-shaped material is Plushie / `dylan9399`, whose surfaced Wall footprint is small but coherent. Plushie asks `What’s this channel for?`; Rooks answers `When we catch people say dumb stuff uwu`; Plushie says `Okie doki`. Minutes later Rooks redirects ordinary chatter to Whiskey before Snow comes after everybody, and Plushie has already absorbed enough room grammar to answer `Snow u saw nothing UwU`.
+### Ceen — visitor status corrected, then she quietly keeps showing up
 
-The cumulative read is **beginner question ↔ instant native behavior** and **low verbal volume ↔ recurring reception presence**. Plushie does not become a long-form prosecutor. Five surfaced messages are exactly `Lol`; later come `Lol what`, emoji-sized reactions, `Oof`, and `The panda is both adorable and dangerous`. Rooks functions as the local orienter, while Plushie turns orientation into participation almost immediately. No formal Snow-governance claim is inferred from the joke, and nearby media remains uninspected.
+Backroom's late suffix resolves `cen1129` / Cen to the canonical Ceen owner already present in WIKI aliases. Her September 2021 Lobby answer follows MEE6's exact `ign / club and age` field order: `Сей/shy/20`, so `shy` is her in-game club at that doorway, not a personality adjective. That makes her an outside-club visitor at the surviving boundary, not an UL in-game member by inference. A month later the same account posts one captionless image to NightLife and another to Scary in consecutive Photoshoot rounds. WIKI folds that into Ceen's dossier as action-before-commentary: she does not need to narrate participation in order to keep participating. The media remains POSTED BY Ceen only; creator / photographer / featured-person claims stay unresolved.
 
-WIKI gives Plushie a compact Archive / Extended Cast dossier rather than stretching the scene into an Episode. Public implementation is `src/data/character-biographies-run402.ts` plus the archive-cast entry in `src/data/cast.ts`.
+### Jas — `Milady` / `Messire` is a relationship dialect, not a title system
 
-## Run 402 — t7morrow gets fangirled at and responds with the server field
+Mugen and Jas repeatedly use mock-formal `Milady` / `Messire` address across 2021–2022. The useful late receipt is aggressively ordinary: Mugen asks, `bonjour messire! Do you know how to make poutine?`; Jas answers that he knows a good recipe; Mugen says `Shaaaare pls`; Jas says he will share when home. The bit survives because it can carry mundane favors without dropping character. WIKI gives that relationship texture to Jas rather than inventing nobility, service, governance, romance, or chef credentials. The actual recipe delivery remains unrecovered.
 
-Louvre advanced from `83ca1c3895f46af69bbd7986d7ebd7390023ce19` to **`99ce48c05765d2df90e77d322710c2103a8fd30d`**. The new profile scaffold belongs to stable archive identity `t7morrow`, whose visible self-introduction is `To_morrow; im from s14 sorry`.
+### t7morrow — the room reacts bigger than the introduction
 
-The arrival order is the whole scene. t7morrow opens with `😳` and `helloo`; RV asks for the IGN; Gilli says `HIIII` and then `IM FANGIRLING SO HARD`; only after that does t7morrow provide `To_morrow; im from s14 sorry` and `LOL`. RV immediately flips into `LOL HEWOOOOO` plus hearts, and Mugen adds a plain `Welcome`.
+Louvre's earlier Run 402 suffix gives stable archive identity `t7morrow`, visible IGN `To_morrow`. Gilli says `HIIII` and `IM FANGIRLING SO HARD` before t7morrow finishes the practical self-introduction `To_morrow; im from s14 sorry`; RV shifts from asking for the IGN to `LOL HEWOOOOO` plus hearts, and Mugen adds a plain welcome. WIKI keeps the contrast without inventing the cause: the room treats the arrival like a small event, while t7morrow mostly answers like somebody making sure the server field is correct. Prior fame, friendship, or creator status remains unresolved.
 
-Gilli's fan reaction therefore precedes the surviving formal self-identification. The cause of that recognition is unresolved, but the behavioral contrast is usable: **the room treats the arrival like a small event; t7morrow answers like somebody making sure the form has the right server on it**. Less than seventeen minutes after the first surviving Lobby message, the same stable account has its first indexed Louvre message, and the assigned Louvre/Athenaeum footprint continues through February 2021. The direct first Louvre body is still unrecovered, so no invented description of that post or blanket creator credit is attached to the profile.
+### Wall of Shame / Fame — Fame had two jobs before September 2021
 
-WIKI gives t7morrow a compact Archive / Extended Cast dossier. This is an archive-stable person owner, not a spelling-based bridge to anyone else. The 17 indexed media-bearing posts remain POSTED BY/account-associated only until individual provenance is recovered.
+Wall's newest suffix materially sharpens the existing `Wall of Shame / Fame` Running Gag instead of creating a second event card. By March 2021 Fame could already mean ironic glorification: Baby Lyssa begs for a filing to disappear and Ren answers `*wall of fame*`; Sou later sells escalation with `BET its our wall of FAME baby`. By June Ren can also post `No shame here, only fame and cuteness`, Baby Lyssa answers `AHHHH YESS` and contributes another image, and Ren later marks a different filing `Now that’s def shaming`. The category therefore had at least two participant-native modes — notoriety-as-applause and sincere positive preservation — before a later September line remembers another scene as the `first Fame moment`. WIKI treats that later wording as narrower participant memory, not literal origin chronology. Ren's recurring category-negotiation and Ghoulie/Baby Lyssa's willingness to object, cheer, and participate are lived behavior, not formal Wall offices.
+
+The same Wall suffix also surfaces Abie as a near-silent good-sport cameo: Mugen's final exported caption is `Bonus: @! Aͥbiͣeͫ ☾`, followed by an uninspected image; Abie's only authored Wall line in the surfaced slice is `😂😂😂`. That is banked rather than stretched into a dossier with invented image semantics.
 
 ## Public surface status
 
 ### WIKI
-Reader head **`744bafba931010955eb1d777b771b900bc86b6b0`** adds Plushie and t7morrow to Archive / Extended Cast and registers their person-first narratives through the existing Run 400 bundle. Exact Build run **`33916750221`** completed successfully. Exact Pages run **`33916750376`** completed successfully, including the GitHub Pages deployment. These two compact dossiers are green and deployed.
+Current reader head **`0a50e9cc7b04534ddf62f556b7ed894181ba6a13`** adds the Wall Fame semantic deepener on top of the already-published Ceen, Jas, t7morrow, and Plushie Run 402 work. Exact Build run **`33917546347`** completed successfully. Exact Pages run **`33917546337`** completed successfully, including preview build, artifact upload, the actual **Deploy to GitHub Pages** job, and reporting. The late-tail WIKI reader material is green and deployed.
 
 ### MAIN
-Reader-facing changes for the fresh Run 402 suffixes are intentionally **0**. These are strong WIKI-sized structured dossiers; MAIN's Strippers surface is holding for richer person-first biographies rather than mirroring WIKI copy. The inherited MAIN publication debt remains separate and still requires MAIN's own verifier before publication.
+Reader-facing changes for these late tails remain **0**. Richer MAIN person/history folds — especially the Fame/Ren/Ghoulie synthesis and the Mugen/Jas relationship dialect — remain accepted publication debt behind MAIN's own mandatory verifier. The latest exact MAIN verification target `f85535777662992f23ea7aa7294a64bd9547dedf` failed before repository work instantiated: `Build + verify` had `steps=[]` with `runner_id=0`, and verified Cloudflare deployment was skipped. That is infrastructure failure, not a source-verifier, Astro, or built-output rejection.
 
 ## Current reconciliation / safety rails
 
-- Wall is reviewed through `58547633...`; Plushie is WIKI-published. Older accepted MAIN Wall work keeps the conservative consumed cursor behind.
-- Louvre is reviewed through `99ce48c0...`; t7morrow is WIKI-published. Older accepted MAIN Louvre work keeps the conservative consumed cursor behind.
-- The Club-Only recovery targets remain current at `e45fb11c...` and `ed66714f...`; their saturation / do-not-churn boundaries remain in force.
-- No identity bridge was created from similar names. No appointment chronology was inferred from exporter role arrays. No joke language was literalized into governance, romance, or family. Earliest surviving remains earliest surviving, not guaranteed origin. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct.
+- Wall is reviewed through `67dedda650c1781a72c5a31f128437089475ebb3`; Fame semantics are WIKI-published while the richer MAIN fold remains verifier-held. Abie stays banked.
+- Backroom is reviewed through `2cf15b2a2596d3f29f558911ebd980792d5135cd`; Ceen's visitor-status correction and repeat-Photoshoot deepener are WIKI-published.
+- Louvre is reviewed through `acec063b808b4228cfd65f3caf8844c033c9c5b1`; the late suffix is packaging-only after t7morrow's WIKI publication.
+- Mugen person-first is reviewed through `869ecfe906349404de8ce155e8fac835281c88d7`; Jas owns the structured WIKI relationship dialect while Mugen's richer person-first fold remains MAIN debt.
+- Club-Only recovery targets remain current at `e45fb11c...` and `ed66714f...`; their saturation / do-not-churn boundaries remain in force.
+- No identity bridge was created from similar names. No appointment chronology was inferred from exporter role arrays. No joke language was literalized into governance, romance, sex, or family. Earliest surviving remains earliest surviving, not guaranteed origin. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct.
 
-Historical integration detail remains in Git history and MAIN's durable `archive-intake/INTEGRATION_REPORT_RUN_*.md` reports; this file is the current WIKI reconciliation boundary.
+Historical integration detail remains in Git history and MAIN's durable integration reports; this file is the current WIKI reconciliation boundary.
