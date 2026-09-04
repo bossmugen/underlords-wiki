@@ -20,6 +20,10 @@ Reader-facing WIKI changes: **0**. This run is reconciliation, dedupe, and consu
 
 The substantial Illien material is intentionally not mirrored from MAIN word-for-word: MAIN owns the richer person-first biography treatment; WIKI already owns the structured chronology and role/relationship reference version.
 
+## Verification / deployment
+
+Durable reconciliation commit `d7d405d9ae249c214385371883d1508b940d92c0` passed exact Build run **`33925019111`**. Exact Pages run **`33925019002`** also succeeded: preview build, Pages artifact upload, the actual **Deploy to GitHub Pages** job, and final reporting all completed successfully. This follow-up report update is reader-neutral and uses `[skip ci]`, so `d7d405d9...` remains the verified/deployed boundary for this run.
+
 ## Recovery / safety
 
 Both Club-Only recovery priorities remain current at their established saturation / do-not-churn boundaries. No raw archive was re-mined.
