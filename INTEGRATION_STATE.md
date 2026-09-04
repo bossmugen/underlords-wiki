@@ -9,13 +9,15 @@ MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH
 Full census: **49 tracked miner identities = 28 active refs + 21 historical/missing refs**.
 
 - newly discovered: 0
-- advanced / reviewed this run: 1 — `archive-miner/daycare-2020-2026-hourly`
-- pending review after reconciliation: 0
+- reviewed this run: 1 — `archive-miner/daycare-2020-2026-hourly`
+- pending review at final close: 2 — `archive-miner/louvre-ai-art-athenaeum-other-games-hourly`, `archive-miner-wall-hourly-20260824`
 - pending-publication MAIN families: 6
 - backlog: 0
 - overdue: 0
 
 Daycare advanced from `98af61c1ecc720fd0f31fb245c7a26fb3e01576b` to `e8623feb01f72640d35e296a85af8b32217f624f` and was reviewed checkpoint-first / intake-only through current head. Both Club-Only recovery priorities remain current through head: `e45fb11c9239e236231bb65645dfd0285bc0078b` and `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`. No raw archive was re-mined.
+
+A final ref recheck after reconciliation caught two late movers: Louvre `bcdb588a3fbec7b8fa5d159005132c0b07d2af65 → 269c578d19ff6cffb552547241d5af55b7b63ec6` and Wall `6b08357d7fb4ffea2e36d68ca7fc71ad07f3fa9a → 4d696ad99f1d1f92a692983cc0283a57ea9b8ab9`. MAIN's controlling ledger already carries those new `last_seen_sha` values as `pending_review`. Their fresh suffixes were not partially reviewed after the run had already closed.
 
 ## Public reconciliation
 
@@ -43,11 +45,13 @@ The state handoff is therefore built and deployed even though no reader-facing C
 
 MAIN's matching exact report commit `cb0e2849f2fc0647b38a76ec2f8f19afb033890f` ran workflow `33883401513`; attempt 1 failed before repository verification steps instantiated. The failed workflow was explicitly rerun and attempt 2 failed in the same pre-execution shape. `Build + verify` exposed no step payload and verified Cloudflare deployment was skipped both times. Source verification, Astro, built-output verification, and Cloudflare deployment therefore did not run. MAIN remains not green and not newly deployed.
 
-This update is `[skip ci]` and reader-neutral; it records the already-completed exact-head workflow results above.
+This update is `[skip ci]` and reader-neutral; it records the already-completed exact-head workflow results and the late closing census.
 
 ## Consumed cursors
 
 Daycare is reviewed through `e8623feb01f72640d35e296a85af8b32217f624f`, but its sequential consumed cursor remains `fb865a0a2c2a23f0483933975c766dcadcd504fc`: older accepted MAIN Daycare reader work still sits between that cursor and the reviewed head and has not cleared MAIN's mandatory verifier, so the ledger cannot safely leapfrog it.
+
+Wall and Louvre consumed cursors are unchanged because their newly seen closing suffixes are unreviewed.
 
 All other consumed cursors are unchanged.
 
