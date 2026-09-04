@@ -33,7 +33,7 @@ The sleep/work/timezone tail deepens an already-public contradiction: Mugen can 
 
 Direct self-report adds an ordinary-life taste with excellent specificity: Suzi says she is a massive BAPE fan and likes other streetwear brands. Nearby `Ive seen a little bit of Mob Psycho before :0` stays modest familiarity, not inflated fandom canon. Curry and BNHA-adjacent packets were not assigned to Suzi because the relevant claims were not actually authored by her.
 
-WIKI integrated the streetwear preference into Suzi's structured dossier / Petty Crimes layer. During concurrency, an intermediate edit mistakenly removed `Mob` / `BAPE` from the seeded alias list while trying to prevent the brand preference from being mistaken for a newly inferred alias. **Hard user-confirmed canon is `Mob/BAPE = Suzi`**, so that removal was a continuity error and was corrected on `main` in `4c176a8cabbed23f52d33db6dc141938d1a378e7`. The correct public state is both things at once: `Mob` and `BAPE` are established Suzi aliases, and Suzi also directly likes the BAPE streetwear brand.
+WIKI integrated the streetwear preference into Suzi's structured dossier / Petty Crimes layer. During concurrency, an intermediate edit mistakenly removed `Mob` / `BAPE` from the seeded alias list while trying to prevent the brand preference from being mistaken for a newly inferred alias. **Hard user-confirmed canon is `Mob/BAPE = Suzi`**, so that removal was a continuity error. The correction chain was completed by restoring the current catalog and then reconciling the biography copy at `986ec81c0acc0567522a236b5f7fe2f6b61f9570`. The correct public state is both things at once: `Mob` and `BAPE` are established Suzi aliases, and Suzi also directly likes the BAPE streetwear brand.
 
 ## MAIN relationship
 
@@ -43,7 +43,9 @@ The six reviewed-but-publication-held MAIN families remain Wall, Core Rooms / Ev
 
 ## Verification / deployment
 
-The exact final WIKI publishing head is checked after this state reconciliation lands. WIKI is not called green/deployed unless its existing Build and Pages workflows clear that exact head. MAIN is checked separately and is not called verified/deployed unless its full mandatory verification/deployment workflow actually executes.
+The reconciled reader/catalog head `986ec81c0acc0567522a236b5f7fe2f6b61f9570` passed **Build Underlords Wiki** run `33838297615`. Its **Deploy Underlords Wiki Preview** run `33838297616` also passed through build, Pages configuration, artifact upload, actual **Deploy to GitHub Pages**, and final report. The Suzi alias/taste correction is therefore built and deployed on that reader head.
+
+The state-only commit that records this result is verified separately as the exact final publishing head; final user-facing run reporting names that exact-head result rather than pretending this file can record its own future workflow outcome.
 
 ## Rails retained
 
