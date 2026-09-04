@@ -42,8 +42,17 @@ const withSelectiveAperture = withSection(withMigrationFit, {
   ],
 });
 
+const withReturnContinuity = withSection(withSelectiveAperture, {
+  period: "December 2022 · return / continuity",
+  title: "Long absence, zero reintroduction",
+  paragraphs: [
+    "Mugen's long absence does not come back as a ceremonial Founder Return. Life sees her and goes `mugennnnnnn`; Mugen answers `LIFEEEEE`. Another old friend clocks the gap more directly and asks how long she has been gone. Mugen says `too long`, then lets one small insecurity out: `I thought I'd get kicked smh`. The reply is immediate — `bruh who tf would kick you`. Nobody stops to explain who Mugen is, renegotiate the friendship, or make her repay the missing time with a speech. Recognition arrives first; the accounting never really arrives at all.",
+    "A few days later the same friend says, `ngl, it's nice just having you in the server`. Mugen's response is to duck the naked affection sideways: `my memes are good?` That dodge is useful character texture. She can admit she worried her place might have expired, but when somebody states the belonging plainly she converts the feeling back into the room's joke dialect. The return does not erase the absence; it shows what survived it. Her own `2 yr catch up` line stays conversational shorthand rather than an exact hiatus clock, and the kick line stays her fear rather than evidence that removal was actually being considered."
+  ],
+});
+
 export const mugen1619NarrativeCharacterBios: Record<string, CharacterNarrative> = {
-  mugen: withSection(withSelectiveAperture, {
+  mugen: withSection(withReturnContinuity, {
     period: "Founding week · April 2020",
     title: "The server was a few days old. Apparently we already had covert alliances.",
     paragraphs: [
