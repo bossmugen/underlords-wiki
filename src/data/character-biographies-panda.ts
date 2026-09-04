@@ -43,6 +43,13 @@ export const pandaNarrativeCharacterBios: Record<string, CharacterNarrative> = {
         ]
       },
       {
+        title: "HE ROUTES PEOPLE AND NONSENSE THE SAME WAY",
+        paragraphs: [
+          "Panda also has a wonderfully compressed support voice. When Haku asks for the orientation route, Marian does not perform a welcome speech or explain the server from first principles; he drops the channel and lets the direction do the work. Haku immediately pivots into `kidnaps a karit`, and Marian handles the joke with almost the same economy: another route, `we dont do that no more`, one clipped reason, done.",
+          "That is a much better picture of his practical side than a generic `helpful` badge. Marian can move from actual navigation to clown control without putting on a different personality. He points at the door, corrects the traffic, gives exactly enough context to keep things moving, and gets out of the way. The competence is conversational rather than ceremonial; apparently bureaucracy and nonsense both get the same two-second Panda help desk."
+        ]
+      },
+      {
         title: "RUNNING GAG — PLEASE FORMALIZE THE STUPIDITY",
         paragraphs: [
           "Panda does not merely participate in ridiculous systems; he has a recurring instinct to give the ridiculous thing more infrastructure. In September 2021, after Gilli calls Eos the Wall's first `Fame moment`, Marian immediately says she **`should get an award for that`**. The joke is not just recognition. It is apparently insufficient until somebody has proposed a ceremony.",
