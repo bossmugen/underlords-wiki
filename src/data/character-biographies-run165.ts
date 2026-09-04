@@ -3,12 +3,12 @@ import { tofuNarrativeCharacterBios } from "./character-biographies-tofu";
 import { zhenxiNarrativeCharacterBios } from "./character-biographies-zhenxi";
 import { rooksNarrativeCharacterBios } from "./character-biographies-rooks";
 import { syeNarrativeCharacterBios } from "./character-biographies-sye";
-import { mugenNarrativeCharacterBios } from "./character-biographies-mugen";
+import { mugen1619NarrativeCharacterBios } from "./character-biographies-mugen-1619";
 
 const tofuBase = tofuNarrativeCharacterBios.tofu;
 const rooksBase = rooksNarrativeCharacterBios.rooks;
 const syeBase = syeNarrativeCharacterBios.sye;
-const mugenBase = mugenNarrativeCharacterBios.mugen;
+const mugenBase = mugen1619NarrativeCharacterBios.mugen;
 
 export const run165NarrativeCharacterBios: Record<string, CharacterNarrative> = {
   ...zhenxiNarrativeCharacterBios,
@@ -94,7 +94,7 @@ export const run165NarrativeCharacterBios: Record<string, CharacterNarrative> = 
   }
 };
 
-// Run 331 overlays. This late-loaded module is already part of the narrative resolver,
+// Run 331+ overlays. This late-loaded module is already part of the narrative resolver,
 // so these deepen canonical person pages without forking second dossiers.
 export const run331NarrativeCharacterBios: Record<string, CharacterNarrative> = {
   rooks: {
@@ -119,22 +119,32 @@ export const run331NarrativeCharacterBios: Record<string, CharacterNarrative> = 
 
   sye: {
     ...syeBase,
-    sections: syeBase.sections.flatMap((section) => {
-      if (section.period === "2021") {
-        return [
-          section,
-          {
-            period: "2021",
-            title: "RELATIONSHIPS — SHE MAKES WARMTH DO SOMETHING",
-            paragraphs: [
-              "Sye's affectionate register is not merely decoration around the practical person. In January she can say she is short on sleep and already at work, then pivot in the same message into `Good Morning Loves !` and wish the room a day full of excitement. The contrast matters because the warmth is not evidence that she feels wonderful. She names the tiredness and still chooses to put some energy outward. Later she turns arrival into an actual social instruction with `come meet your neighbors`: not a formal onboarding appointment, just Sye refusing to let server membership stop at technically being in the building.",
-              "The loudness also has brakes. In March, after somebody clarifies a joke, Sye answers `Thanks for clearing that! I just wanna make sure she was actually joking`. That is the useful contradiction beside the giant greetings, kiss/hug stacks and `Foodgasmic Adventures`: she can be high-amplitude without being careless about intent. When the meaning of somebody else's line matters, she checks before hardening the read. Her room-making is active, but it is not indiscriminate; she wants the social temperature warm and the referent right."
-            ]
-          }
-        ];
+    sections: [
+      ...syeBase.sections.flatMap((section) => {
+        if (section.period === "2021") {
+          return [
+            section,
+            {
+              period: "2021",
+              title: "RELATIONSHIPS — SHE MAKES WARMTH DO SOMETHING",
+              paragraphs: [
+                "Sye's affectionate register is not merely decoration around the practical person. In January she can say she is short on sleep and already at work, then pivot in the same message into `Good Morning Loves !` and wish the room a day full of excitement. The contrast matters because the warmth is not evidence that she feels wonderful. She names the tiredness and still chooses to put some energy outward. Later she turns arrival into an actual social instruction with `come meet your neighbors`: not a formal onboarding appointment, just Sye refusing to let server membership stop at technically being in the building.",
+                "The loudness also has brakes. In March, after somebody clarifies a joke, Sye answers `Thanks for clearing that! I just wanna make sure she was actually joking`. That is the useful contradiction beside the giant greetings, kiss/hug stacks and `Foodgasmic Adventures`: she can be high-amplitude without being careless about intent. When the meaning of somebody else's line matters, she checks before hardening the read. Her room-making is active, but it is not indiscriminate; she wants the social temperature warm and the referent right."
+              ]
+            }
+          ];
+        }
+        return [section];
+      }),
+      {
+        period: "2020 · working with Snow",
+        title: "RELATIONSHIPS — WRONG COMMAND, KEEP GOING",
+        paragraphs: [
+          "Sye's working rhythm with Snow is unusually comfortable with unfinished answers. In September she describes herself simply as `just helping snow out`, and Snow answers that the help is appreciated. Two months later, when Snow is trying to change the event system's timezone globally instead of editing every event one by one, Sye does not stand outside the problem and perform expertise at her. She asks if Snow needs help, climbs into the debugging, guesses wrong, immediately says `oh wait doest not the right command`, laughs, checks GitHub, and keeps trying. Snow is doing the same thing beside her: testing syntax, asking whether they are even in the right channel, throwing possibilities back into the loop. Neither of them needs the other to be infallible for the collaboration to keep working.",
+          "Once Sye lands the working `America/New_York` configuration, Snow's response is not just relief. She says `we need to document lol`, pins Sye's successful command, and explains that it is for the next time change. Their competence looks shared rather than hierarchical: Sye is useful because she will stay in somebody else's problem even while being visibly wrong on the way there, and Snow turns the answer they found together into something future-them can reuse. No mentor title is required for either woman to trust the other with the messy middle."
+        ]
       }
-      return [section];
-    })
+    ]
   },
 
   mugen: {
@@ -147,6 +157,14 @@ export const run331NarrativeCharacterBios: Record<string, CharacterNarrative> = 
         paragraphs: [
           "At the fifth anniversary, Mugen opens from the founder position and then points the camera away from herself: `It's been 5 years since we founded Underlords. What are some changes in your life during this time? How have you grown?` The shared history supplies the clock; the members supply the lives. Answers in the completed QOTD synthesis range across education, work, moves, home life, anxiety, driving, travel, savings, future plans and hobbies. None of those changes become things UL is allowed to claim credit for. The more revealing Mugen move is choosing an institutional milestone as an excuse for people to narrate what happened to them while the institution was aging too.",
           "That makes her preservation habit less one-directional than screenshots and old-name archaeology can make it look. In 2023 she can select `generalized confusion` and `wholesome dumassery` as house heritage. In 2025 she can ask the humans to say what changed in their own words. Mugs still chooses the frame; she is not magically absent from the act of curation. But the frame has enough room for other people to author their own longitudinal story instead of being reduced to characters in hers."
+        ]
+      },
+      {
+        period: "Petty Crimes · music",
+        title: "HER FAVORITE CHANGES CONSTANTLY",
+        paragraphs: [
+          "Mugen's music taste refuses to sit still long enough to become a neat Favorite Song field. In April 2021 Kelp recognizes one of her posts as breakup-playlist material; Mugen answers `its on my playlist hush` and then, without much defensive theater, `I like his stuff`. Three days later she declares the Nickelodeon Cast mashup `Leave It All to Shine` the `anthem of our generation`, gets Sou's crying-laughter, and twenty-seven seconds later pivots to `Oh Lullabye`. Sou asks `r u good`; Mugen answers with an okay-hand and then `i just love this song`. She does not deny liking emotional music, but she also does not automatically convert the song into a confession. Sincerity and camp are allowed to sit in the same queue.",
+          "The queue is social, too. `gimme a singer ill find a song by them 👀` turns other people's prompts into a little recommendation game; in June she asks the room for song recommendations because `I need an expansion of my music taste`, immediately bites on a Spotify discovery suggestion, and tells Bun `My favorite changes constantly`. Even her observation that songs get more depressing later at night arrives as a joke about the phenomenon rather than a solemn mood statement. The stable taste is apparently not a genre. It is rotating favorites, discovery, and making somebody else hand her the next track."
         ]
       }
     ]
