@@ -2,6 +2,8 @@ import type { CharacterNarrative, NarrativeSection } from "./character-biographi
 import { hishiroNarrativeCharacterBios } from "./character-biographies-hishiro-core";
 import { jasNarrativeCharacterBios } from "./character-biographies-jas";
 import { momoNarrativeCharacterBios } from "./character-biographies-momo";
+import { mugenNarrativeCharacterBios } from "./character-biographies-mugen";
+import { oyasumiNarrativeCharacterBios } from "./character-biographies-oyasumi";
 
 const hishiroBase = hishiroNarrativeCharacterBios.hishiro;
 
@@ -46,3 +48,46 @@ export const run363MomoNarrativeCharacterBios: Record<string, CharacterNarrative
 // the resolver into another giant receipt ledger. Jas's source lives in its own file;
 // exporting the map here makes the public route pick it up through run363Module.
 export const run366JasNarrativeCharacterBios: Record<string, CharacterNarrative> = jasNarrativeCharacterBios;
+
+const mugenBase = mugenNarrativeCharacterBios.mugen;
+const oyasumiBase = oyasumiNarrativeCharacterBios.oyasumi;
+
+const oyasumiDefenseCollapse: NarrativeSection = {
+  period: "August 2022",
+  title: "HE CAN WIN THE DEFENSE IN ONE WORD AND THEN PERSONALLY REOPEN THE CASE",
+  paragraphs: [
+    "One August 31 Wall filing reduces Oyasumi's entire legal strategy to two messages. Gilli tags him with a screenshot. Oya answers `No 💀`. Seven seconds later, apparently dissatisfied with the dangerous amount of certainty he has accidentally created, he adds `Or did I ?`. The first line could have ended the defense. The second line volunteers reasonable doubt against himself.",
+    "That is the same contradiction already sitting inside `Didn't want to crop me in this mess` followed by `Still hard evidence of your crimes`, only cleaner. Oyasumi likes the witness position and knows the language of the case file, but he is too willing to improve the joke to stay safely outside the exhibit. Gilli barely has to prosecute. Oya can apparently cross-examine his own alibi."
+  ]
+};
+
+const oyasumiPettyCrimes: NarrativeSection = {
+  period: "Petty Crimes",
+  title: "Petty Crimes",
+  paragraphs: [
+    "Oyasumi has a reusable emergency procedure for visual assault: the exact same light-mode-flashbang cat Tenor page turns up under his name in March 2023, September 2023, and October 2024. Nineteen months pass; the cat remains on call. It is less a grand running gag than a personal reaction prop he apparently refuses to retire.",
+    "He also has a habit of making one line do the work of a paragraph. `Most intelligible ul conversation.` `Caught my boy in 4k.` `A face only a mother could love.` `Float like a butterfly, stink like a bee.` Oya's small crimes are mostly crimes of compression: assess disaster, issue sentence, leave before anybody can ask for an essay."
+  ]
+};
+
+const mugenKiroBandwidth = "Kiro gives the structure-person one of her nicer contradictions. He can throw `Nuts` into the room and get `you`; hours later `Me` gets hearts. At the opposite extreme, a full character essay gets `A full ass essay and I'm here for it`. Kiro has separately described how much he once overthought ordinary interaction, right down to whether to hit Send. With Mugs, at least, that pre-processing is hard to see in these scenes. The planner is not asking him to arrive neatly packaged. One-word nonsense can land. So can the whole fucking essay.";
+
+export const run372NarrativeCharacterBios: Record<string, CharacterNarrative> = {
+  oyasumi: {
+    ...oyasumiBase,
+    sections: [
+      oyasumiBase.sections[0],
+      oyasumiDefenseCollapse,
+      ...oyasumiBase.sections.slice(1),
+      oyasumiPettyCrimes,
+    ],
+  },
+  mugen: {
+    ...mugenBase,
+    sections: mugenBase.sections.map((section) =>
+      section.title === "Control freak, not oracle"
+        ? { ...section, paragraphs: [...section.paragraphs, mugenKiroBandwidth] }
+        : section
+    ),
+  },
+};
