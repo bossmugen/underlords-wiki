@@ -2,38 +2,49 @@
 
 ## Census / reviewed miner deltas
 
-Full census: **49 tracked miner identities = 28 active refs + 21 historical/missing refs**. No newly discovered miner branch. No active miner ref advanced beyond the heads already reviewed at Run 354 close, so there was no legitimate intake delta to reread or re-mine this pass.
+Full census: **49 tracked miner identities = 28 active refs + 21 historical/missing refs**. No newly discovered miner branch. Current queue after review: **0 pending review, 6 pending-publication MAIN families, 0 backlog, 0 overdue**.
 
-Current queue after census:
+Run 355 reconciled the current advanced tails checkpoint-first and intake-only:
 
-- pending review: 0
-- pending-publication MAIN families: 6
-- backlog: 0
-- overdue: 0
+- `archive-miner-wall-hourly-20260824` through `1432db36c92c54a8c2a38ae74ccca9b0e6918d58`.
+- `archive-miner/mugen-person-first-20260828` through `e6a4c7d4ec49feefa1f702ebf8d293a23c10db18`.
+- `archive-miner/whiskey-longitudinal-hourly` through `10e14c4186c8c30201550322358504b24db6b97a`.
+
+A closing full-ref census found no further miner movement after those heads.
 
 Both Club-Only recovery priorities remain current through head:
 
 - `archive-miner/club-only-2021-2026-hourly` → `e45fb11c9239e236231bb65645dfd0285bc0078b`
 - `archive-miner-clubonly-2020-hourly` → `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`
 
-Run 354's reviewed boundaries remain current: Core Rooms / Events `f80ada1ab7b6b975f87f00399c36fbe463a2d3b1`; Wall `1432db36c92c54a8c2a38ae74ccca9b0e6918d58`; Mugen person-first `e6a4c7d4ec49feefa1f702ebf8d293a23c10db18`; Whiskey `10e14c4186c8c30201550322358504b24db6b97a`.
+No raw archive was re-mined and no miner branch was merged or cherry-picked wholesale into a publishing branch.
 
 ## Reconciliation / public routing
 
-No genuinely new lore family appeared after Run 354 and no public reader mutation is warranted from miner intake this pass. No duplicate family, new conflict, or new rabbit hole was created.
+### Wall / Ryan X — banked
 
-The six reviewed-but-publication-held MAIN families remain Wall, Core Rooms / Events, Daycare, Louvre, Mugen person-first, and Whiskey. Their reviewed heads are current in MAIN's controlling ledger; conservative consumed cursors remain behind accepted MAIN reader debt until MAIN's mandatory verification/deployment path actually clears it.
+The Wall tail develops Ryan X into a real person-family candidate: practical, low-alarm handling of recurring vehicle/property mishaps plus dry self-own humor, with the same person also able to sit on either side of Screenshot Court. No safe canonical Cast owner exists yet, so no thin dossier or identity bridge was invented. Uninspected media remains POSTED BY rather than silently becoming MADE BY / CAPTURED BY / FEATURING.
 
-No raw archive was re-mined. No miner branch was merged or cherry-picked wholesale into either publishing branch.
+### Mugen — meaning-deduped
 
-## Concurrency note
+The sleep/work/timezone tail deepens an already-public contradiction: Mugen can be highly responsible operationally while personally running on ridiculous sleep, and friends' `MUGS ???`-style exasperation reads as care rather than a new role or diagnosis. WIKI already materially owns the mechanism; richer MAIN texture remains publication-held.
 
-WIKI `main` advanced after Run 354 with Suzi-specific reader corrections (`e4a8b2f…`, `92894bc…`) before this state write. This pass re-read current `main` first and preserves that concurrent work; it does not overwrite or claim it as Run 355 miner output.
+### Suzimasu — integrated
+
+Direct self-report adds an ordinary-life taste with excellent specificity: Suzi says she is a massive BAPE fan and likes other streetwear brands. Nearby `Ive seen a little bit of Mob Psycho before :0` stays modest familiarity, not inflated fandom canon. Curry and BNHA-adjacent packets were not assigned to Suzi because the relevant claims were not actually authored by her.
+
+WIKI integrated the streetwear preference into Suzi's structured dossier / Petty Crimes layer. During concurrency, an intermediate edit mistakenly removed `Mob` / `BAPE` from the seeded alias list while trying to prevent the brand preference from being mistaken for a newly inferred alias. **Hard user-confirmed canon is `Mob/BAPE = Suzi`**, so that removal was a continuity error and was corrected on `main` in `4c176a8cabbed23f52d33db6dc141938d1a378e7`. The correct public state is both things at once: `Mob` and `BAPE` are established Suzi aliases, and Suzi also directly likes the BAPE streetwear brand.
+
+## MAIN relationship
+
+No reader-facing MAIN change was published in this run. Richer Ryan/Mugen/Suzi person-first material remains part of the existing MAIN publication debt until MAIN's source verifier, Astro build, built-output verification, and verified deployment actually execute successfully.
+
+The six reviewed-but-publication-held MAIN families remain Wall, Core Rooms / Events, Daycare, Louvre, Mugen person-first, and Whiskey. Their reviewed heads are current in MAIN's controlling branch ledger; conservative consumed cursors remain behind accepted-but-unverified MAIN reader work.
 
 ## Verification / deployment
 
-No reader-facing WIKI page changed from miner evidence in Run 355. This state-only head is still checked with the repository's existing Build and Pages workflows. MAIN's exact final `master` head is checked separately; no MAIN verification or Cloudflare deployment is claimed unless its source verification, Astro build, built-output verification, and verified deployment actually execute.
+The exact final WIKI publishing head is checked after this state reconciliation lands. WIKI is not called green/deployed unless its existing Build and Pages workflows clear that exact head. MAIN is checked separately and is not called verified/deployed unless its full mandatory verification/deployment workflow actually executes.
 
 ## Rails retained
 
-Hard user canon and resolved identity bridges remain binding. Earliest surviving is not origin. No identity merging from similar names. No appointment chronology from export-time arrays or room participation. Joke rank/family/romance/violence stays non-literal without support. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct. Uninspected media stays uninspected. Safety-sensitive intake stays backstage.
+Hard user canon and resolved identity bridges remain binding. The Suzi `Mob/BAPE` bridge is pre-existing canon, not a similarity-based inference. Earliest surviving is not origin. No appointment chronology from export-time arrays or room participation. Joke rank/family/romance/violence stays non-literal without support. Ryan still lacks a safe public owner. Mob Psycho remains slight familiarity. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct. Uninspected media stays uninspected. Safety-sensitive intake stays backstage.
