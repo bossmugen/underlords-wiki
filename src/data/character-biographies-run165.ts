@@ -167,6 +167,14 @@ export const run331NarrativeCharacterBios: Record<string, CharacterNarrative> = 
           "The queue is social, too. `gimme a singer ill find a song by them 👀` turns other people's prompts into a little recommendation game; in June she asks the room for song recommendations because `I need an expansion of my music taste`, immediately bites on a Spotify discovery suggestion, and tells Bun `My favorite changes constantly`. Even her observation that songs get more depressing later at night arrives as a joke about the phenomenon rather than a solemn mood statement. The stable taste is apparently not a genre. It is rotating favorites, discovery, and making somebody else hand her the next track.",
           "One old playlist also outgrows the private story that named it. In later Music Lounge recollection Mugen calls it her `2020 breakup playlist` and says `UL used it as a lullabye during lockdown 💀`; Sye later revives that same playlist after another listening-session failure. The breakup itself does not become public biography from that sentence, and POSTED/PINNED BY does not automatically become CREATED BY. The person-level thing is better anyway: Mugen can hand the room an object with one small piece of personal history attached, and years later the house remembers the object as communal furniture. The skull emoji does its usual job of keeping sentiment from having to stand there naked."
         ]
+      },
+      {
+        period: "November 2021 · Nelph stepping back",
+        title: "RELATIONSHIPS — SHE MISSES THE CHICKEN PICTURES",
+        paragraphs: [
+          "Nelph is one of the people Mugen can rely on for the useful stuff: judgment, routing, security answers, schedules, notices, the practical machinery that keeps a room from falling over. So when Nelph needs to step back, the revealing thing Mugen says she will miss is not the lost coverage. It is `nelphies chicken pics`.",
+          "The diminutive does the soft work and the subject does the rest. Chicken pictures are gloriously useless as Officer labor, which is exactly why the line lands: Mugen's mental file on Nelph contains the tiny recurring thing that made Nelph feel present, not only the jobs Nelph could perform. It gives their relationship an ordinary-life verb beyond `ask the competent person` and puts a nice crack through Mugen's organizer mode. She notices what people do. She also notices the stupid little thing she will miss when they stop doing anything for a while."
+        ]
       }
     ]
   }
