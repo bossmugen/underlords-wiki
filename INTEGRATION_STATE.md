@@ -1,8 +1,8 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-04 Run 376_
+_Last updated: 2026-09-04 Run 377_
 
-MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Full detail for this cycle is in `INTEGRATION_STATE_RUN_376.md`; MAIN carries the matching `archive-intake/INTEGRATION_REPORT_RUN_376.md`.
+MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Full detail for this cycle is in `INTEGRATION_STATE_RUN_377.md`; MAIN carries the matching `archive-intake/INTEGRATION_REPORT_RUN_377.md`.
 
 ## Current census / queue
 
@@ -14,7 +14,7 @@ Full census: **49 tracked miner identities = 28 active refs + 21 historical/miss
 - backlog: 0
 - overdue: 0
 
-Run 376 reviewed four advanced intake families checkpoint-first: Wall through `1ec20c42f1619e5c667da66b9053a8198ee741e4`, Core Rooms / Events through `cd1902ffffa3d958b8d511385dd0713bb12dfb17`, Daycare through `b2dc4f65ea15837397c40debc4402b2edadb3767`, and Mugen person-first through `553006de29541467d6ca43d6c04078b87a8f2f57`. Louvre and Whiskey did not move. The closing ref census found no second-wave miner movement.
+Run 377 found **no miner branch movement** beyond the Run 376 closing heads. Every active `archive-miner-*` / `archive-miner/*` ref matched its recorded `last_seen_sha`, so no new checkpoint/findings/receipts/site-candidate delta required review and no consumed cursor moved.
 
 Both Club-Only recovery priorities remain current through head:
 - `archive-miner/club-only-2021-2026-hourly` → `e45fb11c9239e236231bb65645dfd0285bc0078b`
@@ -22,34 +22,27 @@ Both Club-Only recovery priorities remain current through head:
 
 The 2021–2026 recovery checkpoint was re-read directly; saturation / retrieval-failure / active-rabbit / do-not-churn boundaries remain unchanged. No raw archive was re-mined.
 
-## Run 376 public reconciliation
+## Public reconciliation
 
-Reader-facing WIKI changes:
+Reader-facing WIKI changes in Run 377: **0**.
 
-- **Mugen:** `THATS A BAD DOGGO` → `Okay its cute nuuu` is folded into her person-first contradiction as a bounded example of categorical delivery without sunk-cost loyalty to a harmless verdict. Reader commit `96d5d51db7244f36dcf706af2983dc515effcafe` passed exact Build `33869168727` and exact Pages `33869168841`, including deployment.
-- **Ryo:** a concurrent person-first deepener landed in `src/data/character-biographies-ryo.ts`; Run 376 re-read and preserved that work, then wired it into the already-registered `run363Module` so the finished biography is actually public. Publication commit `4a448f54e2eb76fcd41f1e952ad4d0b5ab327e92`. Exact Build `33869798936` and exact Pages `33869798914` both succeeded; Pages completed actual deployment.
+No new biography, Episode, Running Gag, Quote, Location, Gallery/media note, role progression, or relationship section was required because no miner family advanced.
 
-Core Tofu↔Cookie exposure material was meaning-deduped into the existing reciprocal-roast mechanism rather than appended again. Eos, Booba/MsThiccy, and thin `影の戦士` material remain banked instead of manufacturing weak Cast owners. Sou/Ansun's Fame claims remain participant self-mythology rather than title-origin proof.
+The latest reader-facing publication remains Run 376's Mugen and Ryo work. Ryo publication commit `4a448f54e2eb76fcd41f1e952ad4d0b5ab327e92` passed exact Build `33869798936` and exact Pages `33869798914`, including actual GitHub Pages deployment.
 
-Reader-facing MAIN changes: **0**.
+Reader-facing MAIN changes in Run 377: **0**.
 
 The six publication-held MAIN families remain Wall, Core Rooms / Events, Daycare, Louvre, Mugen person-first, and Whiskey.
 
 ## Consumed cursors
 
-No conservative consumed SHA advanced across those six MAIN-held families in Run 376 because older accepted reader work in those family ranges remains unable to clear MAIN's mandatory verifier. Current reviewed heads, `last_seen_sha`, `last_reviewed_at`, status, and notes are nevertheless durable in MAIN's branch ledger, so this is publication debt rather than unread mining debt.
+No conservative consumed SHA advanced. Those six families still contain accepted MAIN reader work unable to clear MAIN's mandatory verification gate, while current reviewed heads remain durable in MAIN's branch ledger. This is publication debt, not unread mining debt.
 
 ## Verification / deployment
 
-WIKI Mugen reader head:
-- Build `33869168727`: **success**.
-- Pages `33869168841`: **success**, including actual GitHub Pages deployment.
+MAIN's latest scheduled `UL Hourly Build + Deploy` run on pre-census current head `97fa87fdda27f695618437328e6cd15b4b8d747b` was workflow `33870641539`, attempt 2. It failed before repository steps instantiated: `Build + verify` had `steps: []`, `runner_id: 0`, and an empty runner name; `Deploy verified master to Cloudflare Pages` was skipped. No source-verifier, Astro, built-output, or reader-content failure was demonstrated because those checks never began. The Run 377 census/report commits are state-only `[skip ci]` bookkeeping; no new MAIN reader deployment is claimed.
 
-WIKI Ryo-publication head:
-- Build `33869798936`: **success**, including `Build Astro wiki`.
-- Pages `33869798914`: **success**, including Pages build/upload/deploy.
-
-MAIN opening-census head `53cc421058b5250908e32306c6709a185c62d9be` ran required workflow `33868629778`. Failed jobs were explicitly rerun; attempt 2 again failed before repository steps instantiated. `Build + verify` had `steps: []`, `runner_id: 0`, and no runner name, while verified Cloudflare deployment was skipped. No source-verifier, Astro, built-output, or reader-content failure was demonstrated because those checks never began. No MAIN deployment is claimed.
+WIKI has no new reader commit this run, so no new reader build/deploy was necessary. Its latest reader-facing Ryo publication remains independently Build-green and Pages-deployed from Run 376.
 
 ## Rails retained
 
