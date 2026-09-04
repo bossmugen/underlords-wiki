@@ -110,22 +110,26 @@ export const vipCharacterBios = {
   },
 
   beowulf: {
-    dek:"Beowulf / Jere: VIP on paper, event-ready in practice, and already welcoming people to 'our serve' five weeks into the surviving record.",
+    dek:"Beowulf / Jere: VIP on paper, socially forward enough to pull people toward the house, and procedurally fallible enough to say `I don't know how` when the invite link becomes his problem.",
     overview:[
       "Beowulf / JereGilgamesh / Jere is a UL VIP. His archive file is early and surprisingly domestic: on April 8, 2020 he says his loot is better in Beowulf, trades a hug/pat with Gilli through the bot, and asks where the memes section is. Priorities immaculate.",
-      "Across April and early May event calls, Jere answers with 'Alright!!!', 'Roger', 'Omggg', and 'Oooh going now.' Then on May 12 he is the one posting '@everyone star of Cassell now.' The archive does not promote him into a Game Officer or event director; it simply shows a visitor who has stopped waiting to be summoned and started summoning the room himself.",
-      "Two days later he asks for Shamont to be invited, greets the arrival, and tells another person 'Enjoy our serve.' Mugen performs the visible role assignment, so the bridge behavior stays social rather than turning into a fake Recruiter appointment."
+      "Across April and early May event calls, Jere answers with 'Alright!!!', 'Roger', 'Omggg', and 'Oooh going now.' Then on May 12 he is the one posting '@everyone star of Cassell now.' The useful change is social rather than bureaucratic: he goes from answering the room's summons to making one himself.",
+      "Two days later the contradiction gets perfect. Beo says 'Invite shamont to the server'; Mugen tells him he can share the link himself; Beo answers 'I don't know how', then 'Don't erase' / 'Let me copy' while they sort it out. Roughly fourteen minutes later Beo tags Shamont in Lobby, Shamont tags Beo back, and Mugen handles the visible welcome/role step. Beo does not need to understand the door before deciding somebody else should be inside it.",
+      "Later that evening he tells another newcomer 'Enjoy our serve.' That possessive lands better after the invite-link fumble: Beo can be socially at home, actively pull another person toward the house, admit he has no idea how the mechanism works, accept help, and keep moving. The swagger is not an expert costume he has to defend."
     ],
     history:[
-      {date:"April 2020",title:"Loot, bot affection, memes",text:"Jere's surviving opening has no grand diplomatic speech. He compares loot, trades social-play bot commands, and asks where the memes live."},
+      {date:"April 2020",title:"Loot, bot affection, memes",text:"Jere's surviving opening has no grand diplomatic speech. He compares loot, trades social-play bot commands, admits when voice chat is not working, and asks where the memes live."},
       {date:"April–May 2020",title:"From RSVP to caller",text:"Jere repeatedly answers event notices, then posts his own Star of Cassell call. The change is behavioral, not a promotion receipt."},
-      {date:"May 2020",title:"Our serve",text:"Jere asks for Shamont to be invited and welcomes another arrival using possessive house language. Mugen still performs the actual role assignment."},
+      {date:"May 2020",title:"Invite Shamont, then ask how",text:"Beo asks for Shamont to be invited, immediately admits 'I don't know how' when told he can share the link, waits long enough to copy it, then becomes Shamont's immediate social referent when Shamont arrives. Mugen still performs the visible role assignment."},
+      {date:"May 2020",title:"Our serve",text:"Later the same day Beo welcomes another arrival with 'Enjoy our serve.' Social ownership has arrived before procedural mastery."},
       {date:"May 2020",title:"So far away",text:"A vague 'far away from 95' line becomes repeated text, a Tenor GIF, and a YouTube link. The target '95' stays unresolved; the multi-format escalation is the safe character evidence."}
     ],
     characterNotes:[
-      {title:"Fast social ownership",text:"The useful tension is VIP status beside language like 'our serve.' Social comfort is not the same thing as formal membership."}
+      {title:"Social pull outruns procedural mastery",text:"Beo can be the person trying to bring somebody through the door while openly needing help with the door handle. 'I don't know how' does not end the attempt; it just becomes one step in getting Shamont inside."},
+      {title:"Fast social ownership",text:"The useful tension is VIP status beside language like 'our serve.' Social comfort is not the same thing as formal membership, and Beo does not need a formal role to behave like somebody who knows the house is worth pulling people toward."},
+      {title:"Petty Crimes",text:"'Where is the memes section'; 'I don't know how'; 'Don't erase' → 'Let me copy'; 'Enjoy our serve'; and the unresolved 'Give me your waffle now.' Social confidence has repeatedly survived technical confusion, typo damage, and apparently urgent waffle jurisdiction."}
     ],
     roleNotes:["Primary shelf: VIP."],
-    canonNotes:["Beowulf / JereGilgamesh / Jere are one person.","Inviting or welcoming people does not create a Recruiter appointment.","The unresolved '95' target remains unresolved."]
+    canonNotes:["Beowulf / JereGilgamesh / Jere are one person.","Inviting or welcoming people does not create a Recruiter appointment or prove in-game UL admission authority.","Mugen performs the visible Shamont role-assignment step in the surviving Discord sequence.","The unresolved '95' target remains unresolved.","Language play/code-switching does not establish ethnicity, nationality, heritage, or fluency.","Three Louvre media posts remain POSTED BY only until object-level provenance is recovered."]
   }
 } as const;
