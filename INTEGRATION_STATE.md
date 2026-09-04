@@ -1,8 +1,8 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-04 Run 371_
+_Last updated: 2026-09-04 Run 372_
 
-MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Full detail for this cycle is in `INTEGRATION_STATE_RUN_371.md`; the preceding cycle is `INTEGRATION_STATE_RUN_370.md`. MAIN carries the matching reconciliation report under `archive-intake/`.
+MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Full detail for this cycle is in `INTEGRATION_STATE_RUN_372.md`; the preceding cycle is `INTEGRATION_STATE_RUN_371.md`. MAIN carries the matching reconciliation report under `archive-intake/`.
 
 ## Current census / queue
 
@@ -14,27 +14,52 @@ Full census: **49 tracked miner identities = 28 active refs + 21 historical/miss
 - backlog: 0
 - overdue: 0
 
+Four refs advanced and were reviewed checkpoint-first through stable closing heads:
+- Wall → `0974e2c24202bec82791786cecb57b78d6ec5a4f`
+- Core Rooms / Events → `a685afb7e5fa1070006d0ce0d8acb52caf5d55c4`
+- Daycare → `303377761cf25875a97a85bb4f67d2dbd0f9a48e`
+- Mugen person-first → `aa812ab3062c16b3e089eeca4e0682227685e2df`
+
 Both Club-Only recovery priorities remain current through head:
 - `archive-miner/club-only-2021-2026-hourly` → `e45fb11c9239e236231bb65645dfd0285bc0078b`
 - `archive-miner-clubonly-2020-hourly` → `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`
 
-The 2021–2026 recovery checkpoint was re-read directly in Run 371. Its locked A/B findings, retrieval-failure boundary, active rabbit limits, and do-not-churn routes remain unchanged. No raw archive was re-mined.
+The 2021–2026 recovery checkpoint was re-read directly. Its locked A/B findings, retrieval-failure boundary, active rabbit limits, and do-not-churn routes remain unchanged. No raw archive was re-mined.
 
-## Run 371 intake
+## Run 372 intake
 
-Opening and closing branch censuses found every active miner ref unchanged from Run 370, so Run 371 has **no new unread miner delta** and no branch required a publication or dedupe pass.
+### Published to WIKI
 
-Previously reviewed and banked material remains in its existing canonical owners rather than being re-expanded into duplicate public copy. No new character trait, relationship mechanism, Petty Crime, role read, episode, artifact attribution, contradiction, or ordinary-life detail warranted a reader-facing change.
+**Oyasumi:** the Wall now gives his screenshot-court contradiction a cleaner self-own. Gilli tags him with a screenshot; Oya answers `No 💀`; seven seconds later he volunteers `Or did I ?`. The same delta also surfaces the exact light-mode-flashbang cat Tenor page under his account three times from March 2023 through October 2024, now routed to `Petty Crimes` rather than stretched into an Episode.
+
+**Mugen ↔ Kiro:** one-word nonsense and the full essay can both land. `Nuts` gets `you`; a later `Me` gets hearts; a full character wall gets `A full ass essay and I'm here for it`. This is folded into Mugen's existing organizer/planner contradiction as relationship texture, not turned into a universal listener claim or a claim that she caused Kiro's larger social-ease arc.
+
+### Dedupe / bank
+
+- Tofu's June 2021 reciprocal roast-instigator scene is already substantially owned by the current Tofu biography.
+- Anthos's quote-magnet / self-own reputation is already public in the current Anthos biography.
+- Oyasumi's Ansun unsellable-items callback was already public and was not duplicated.
+- Katmars's temporary-absence / intended-return notice is useful person material but remains banked until there is a safe canonical public owner; the raw relocation destination stays privacy-held.
+- TonyTonyChopper's surfaced Wall panic remains duplicate/corroboration.
+- Uninspected media and source-channel reuse remain provenance/rabbit material only.
 
 ## Public reconciliation
 
-Reader-facing WIKI changes in Run 371: **0**.
+Reader-facing WIKI changes in Run 372: **Oyasumi + Mugen**.
 
-Reader-facing MAIN changes in Run 371: **0**. Its six accepted person-first families remain publication-held behind the mandatory verifier: Wall, Core Rooms / Events, Daycare, Louvre, Mugen person-first, and Whiskey.
+Reader commit: `4c4d50144f8d56e516351dc9907b8eb7dc2957ec`.
+
+Exact-reader verification:
+- Build workflow `33864328157`: **success**.
+- Pages workflow `33864328086`: **success** through build, artifact upload, deployment, and report.
+
+The later integration-state commits are `[skip ci]` documentation-only bookkeeping and do not change reader output from that verified/deployed commit.
+
+Reader-facing MAIN changes in Run 372: **0**. The MAIN verifier remains blocked before repository steps instantiate; no accepted person-first mutation was bypassed around that gate.
 
 ## Consumed cursors
 
-No consumed SHA changes in Run 371. The six conservative MAIN-held cursors remain:
+No consumed SHA changes in Run 372. The six conservative MAIN-held cursors remain:
 
 - Wall: `ea893e9ffb682e2cc0007e10c9f6dcc1df36b20d`
 - Core Rooms / Events: `5d463295095e34836c0b0b1a08c9374f906e9953`
@@ -43,13 +68,13 @@ No consumed SHA changes in Run 371. The six conservative MAIN-held cursors remai
 - Mugen person-first: `89097a386de08c6001cd14165ffb3e5aed289a10`
 - Whiskey: `44ba4b7f6903ed76cb2dc8acb666e9f7f7a44d69`
 
-Their newer reviewed heads remain durably recorded on MAIN so publication debt is not mistaken for unread mining debt.
+Their newer reviewed heads and no-public-change / WIKI-publication dispositions are durable on MAIN, so publication debt is not mistaken for unread mining debt.
 
 ## Verification / deployment
 
-MAIN Run-371 closing state commit `023074ed26dec5e2fccab96335c2cf997db046ec` triggered workflow `33862702672`, which failed before repository verification could begin: `Build + verify` instantiated zero steps with `runner_id: 0` and blank runner name; verified Cloudflare deployment was skipped. No reader-facing MAIN mutation was published.
+MAIN opening state commit `509459df2afa57fb81c0be48af54c48de2363b4f` triggered workflow `33863868247`; its `Build + verify` job failed before repository steps instantiated. The failed job was explicitly rerun once and failed the same way; verified Cloudflare deployment was skipped. Current MAIN state/bookkeeping commits after that are `[skip ci]` only and make no reader-facing mutation.
 
-WIKI exact-head Astro Build and GitHub Pages status are checked after this Run-371 canonical state commit and recorded in the result-only bookkeeping update.
+WIKI reader commit `4c4d50144f8d56e516351dc9907b8eb7dc2957ec` passed both required workflows and was deployed successfully to GitHub Pages.
 
 ## Rails retained
 
