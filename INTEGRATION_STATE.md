@@ -1,8 +1,8 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-04 Run 368_
+_Last updated: 2026-09-04 Run 369_
 
-MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Full detail for this cycle is in `INTEGRATION_STATE_RUN_368.md`; MAIN also carries `archive-intake/INTEGRATION_REPORT_RUN_368.md`.
+MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Full detail for this cycle is in `INTEGRATION_STATE_RUN_369.md`; the preceding lore-bearing cycle is `INTEGRATION_STATE_RUN_368.md`. MAIN carries matching reconciliation reports under `archive-intake/`.
 
 ## Current census / queue
 
@@ -18,40 +18,37 @@ Both Club-Only recovery priorities remain current through head:
 - `archive-miner/club-only-2021-2026-hourly` → `e45fb11c9239e236231bb65645dfd0285bc0078b`
 - `archive-miner-clubonly-2020-hourly` → `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`
 
-The 2021–2026 checkpoint was re-read directly. Its saturated retrieval routes and do-not-churn boundary remain controlling.
+The 2021–2026 checkpoint was re-read in Run 369. Its locked A/B findings, retrieval-failure boundary, live rabbit limits, and do-not-churn routes remain unchanged. No raw archive was re-mined.
 
-## Run 368 intake
+## Run 369 intake
 
-Wall was reviewed checkpoint-first through late head `2bbab436981b32c1e78ceecced01cd7b422bf96e`. Eos's q8 artifact-disappearance lifecycle now has a structured public WIKI owner. S / Oksr gains same-account continuity plus compact receipt-filing/Gilli shorthand but remains banked without a safe substantial public owner. YoChan / foxkanojo now has a strong Wall-specific person read: reaction-first gallery gremlin / low-prose spectator who unexpectedly turns practical when a SEA-side artifact needs moving toward Global, even while admitting `idk how to paste to raja global`; the bounded Candy tease shorthand is retained. Dainyamite's q18 edge closes as old-receipt summon → immediate laugh callback without claiming the uninspected image depicts Dainyamite.
+No active miner ref advanced beyond the late Run-368 reconciled heads, so Run 369 has **no new unread miner delta**.
 
-Mugen person-first advanced late to `ff5e18d5f387bf93fbf081dffa4b3e501cb3e39e`. The pass is a bounded negative: fresh reverse-angle and channel checks support already-owned mechanisms but add no new contradiction, relationship grammar, Petty Crime, ordinary-life texture, or public Mugen edit.
+Wall remains reviewed through `2bbab436981b32c1e78ceecced01cd7b422bf96e`. Its late YoChan / Dainyamite suffix was novelty-checked rather than duplicated: YoChan remains a strong banked Wall person read without a safe substantial public owner; Dainyamite remains old-receipt recognition support with uninspected pixels.
 
-Daycare's Reinaa/Reiinnaa replacement-account continuity was already reconciled by the concurrent preceding pass and was novelty-checked without duplicate publication.
+Mugen person-first remains reviewed through `ff5e18d5f387bf93fbf081dffa4b3e501cb3e39e`. The late suffix remains a bounded negative: corroboration of already-owned Mugen mechanisms without a new contradiction, relationship grammar, Petty Crime, ordinary-life detail, or change-over-time read.
 
 ## Public reconciliation
 
-WIKI reader commit **`f53811db1fd01579ee8a2711d74a0cf97bf8d577`** added `src/data/integrator-episodes-20260904-q8.ts`: **Where Did Q8 Go?** The scene stays person-shaped rather than forensic. Eos notices a shared Wall object is missing, asks where it went, gets Mia's `Mugs killed it`, reacts dramatically, then turns the complaint into a plan to ask Mugs. The useful read is attachment to shared house objects plus a practical urge to trace the decision-maker when one moves.
+Reader-facing WIKI changes in Run 369: **0**. The preceding Eos structured Episode **Where Did Q8 Go?** remains the canonical WIKI owner for the q8 disappearance lifecycle. Reader commit `f53811db1fd01579ee8a2711d74a0cf97bf8d577` had already passed its exact-head Astro Build and Pages deployment.
 
-`src/data/all-content.ts` automatically loads `integrator-episodes*.ts`, so the episode is active public content. Later q8 evidence was reconciled under that owner rather than duplicated.
+Reader-facing MAIN changes in Run 369: **0**. Its six accepted person-first families remain publication-held behind the mandatory verifier.
 
-YoChan, S/Oksr, and Reinaa remain banked because public ownership/page depth is insufficient, not because the evidence is weak. Dainyamite remains relationship/archive-memory support. No new Mugen WIKI edit was warranted.
-
-MAIN does not mirror WIKI copy. Its accepted person-first debt remains separately verification-held.
-
-## Verification / deployment
-
-Exact reader head `f53811db1fd01579ee8a2711d74a0cf97bf8d577`:
-- Build Underlords Wiki **33858640389** — success
-- Pages / Deploy Underlords Wiki Preview **33858640388** — success, including deployment
-
-MAIN remains independently gated. Its Run-368 opening workflow **33858475972** failed before repository verification steps instantiated; the failed jobs were rerun and attempt 2 failed identically with no runner/no steps, while verified Cloudflare deployment stayed skipped.
+Run 369 explicitly retried the failed MAIN `Build + verify` job on workflow `33859392454`. Attempt 2 again failed before repository steps instantiated; verified Cloudflare deployment was skipped. This remains a pre-runner GitHub Actions failure, not a demonstrated source-verifier, Astro, built-output, or content failure.
 
 ## Consumed cursors
 
-No conservative MAIN publication-held cursor advances. Wall is reviewed through `2bbab436981b32c1e78ceecced01cd7b422bf96e` while consumed remains `ea893e9ffb682e2cc0007e10c9f6dcc1df36b20d`. Mugen is reviewed through `ff5e18d5f387bf93fbf081dffa4b3e501cb3e39e` while consumed remains `89097a386de08c6001cd14165ffb3e5aed289a10`. Core, Daycare, Louvre, and Whiskey remain reviewed/current with older MAIN reader debt still verification-held.
+No consumed SHA changes in Run 369. The six conservative MAIN-held cursors remain:
 
-Their newer reviewed heads are durably recorded on MAIN so they are not treated as unread.
+- Wall: `ea893e9ffb682e2cc0007e10c9f6dcc1df36b20d`
+- Core Rooms / Events: `5d463295095e34836c0b0b1a08c9374f906e9953`
+- Daycare: `fb865a0a2c2a23f0483933975c766dcadcd504fc`
+- Louvre: `cb7994b08c9a89051df732f27a99c1dd79a5ae93`
+- Mugen person-first: `89097a386de08c6001cd14165ffb3e5aed289a10`
+- Whiskey: `44ba4b7f6903ed76cb2dc8acb666e9f7f7a44d69`
+
+Their newer reviewed heads remain durably recorded on MAIN so publication debt is not mistaken for unread mining debt.
 
 ## Rails retained
 
-Hard canon and resolved identity bridges remain binding. `ily` is not romance proof. Reaction membership does not identify first mover. Earliest surviving is not origin. Similar names do not merge people. YoChan's screenshot is POSTED BY YoChan only. q8/q18 and other noted media remain uninspected. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct.
+Hard canon and resolved identity bridges remain binding. Similar names do not merge people. Joke family/flirting/violence language stays non-literal without support. Earliest surviving is not origin. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct. Uninspected media remains uninspected.
