@@ -15,7 +15,7 @@ Current controlling MAIN canon was re-read before publication decisions. Older i
 - `Akariel`, `Akariel™`, and `akariel_star` remain aliases of **Zyrcant** under current controlling canon. Later WIKI corrective history restored this bridge after an intermediate mistaken split.
 - **Ame / Amexistir** remains one locked Game Officer identity under current controlling canon. Later WIKI corrective history restored this bridge after an intermediate mistaken split.
 
-No identity change is being made in Run 411. This is continuity housekeeping so superseded intermediate reports do not outrank current canon.
+No identity change was made in Run 411. This is continuity housekeeping so superseded intermediate reports do not outrank current canon.
 
 ## Public integration
 
@@ -23,13 +23,18 @@ Reader-facing WIKI changes: **0**.
 
 No Cast biography, Relationships, Episodes, Running Gags, Quotes, Locations, or Gallery material changed because no miner delta advanced. The current reader-facing Han, Tae, and Mugen work remains the verified Run 410 layer in `src/data/character-biographies-run410.ts`.
 
-MAIN reader-facing changes: **0**. Run 411 only refreshes branch-census / integration bookkeeping on MAIN.
+MAIN reader-facing changes: **0**. Run 411 only refreshed branch-census / integration bookkeeping on MAIN.
 
 ## Verification / publication
 
-Run 411 triggers the existing WIKI build / Pages path for this state update; the exact result is recorded in the Run 411 report after the workflow settles. No new lore publication is claimed from the state-only commit.
+Run 411 WIKI state verification target: `2a381c57666cab0466f2c216d97e74f679127c93`.
 
-The last reader-facing WIKI publication remains Run 410 reader head `b4b97b5d45b6827d55869a22decdec16cbfbc369`, whose exact Build workflow `33930578753` and Pages workflow `33930578787` both succeeded, including deployment.
+- Build workflow `33931866504`: **success**; Astro build completed.
+- Pages workflow `33931866407`: **success**; preview build, artifact upload, **Deploy to GitHub Pages**, and final report all completed successfully.
+
+This was a state-only deployment; no new lore was added. The last reader-facing lore publication remains Run 410 reader head `b4b97b5d45b6827d55869a22decdec16cbfbc369`, whose exact Build workflow `33930578753` and Pages workflow `33930578787` also succeeded.
+
+MAIN verification target `eabd9206257102b1b928afd7ee80b7390e52d96d` ran workflow `33931851264`. Attempt 1 failed before `Build + verify` acquired executable steps; the failed job was explicitly rerun once and attempt 2 failed in the same no-step pre-runner shape. Verified Cloudflare deployment was skipped. MAIN was not newly deployed.
 
 ## Queue
 
