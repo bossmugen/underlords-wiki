@@ -87,29 +87,35 @@ export const deepPlateletCharacterBios = {
   },
 
   tae: {
-    dek: "Permanent Platelet who keeps correcting everybody else's tense: the room says she has become one of them; Tae answers `I been in here`. Then she learns `Caught in 4k`, turns the camera on herself, survives peer allegations about smelling Tae, and years later lets friendship pick the next game.",
+    dek: "Permanent Platelet whose Wall rhythm is basically sting, bandage, self-inclusion: `Caught in 4k`, then `Its ok bestie`, then `Even me so don’t worry`. She can prosecute Ghoulie, volunteer her own old photo, and become dramatically less articulate the second the screenshots start landing near Tae.",
     overview: [
-      "Tae's strongest thread is not one role or one meme. It is how often the archive catches her behaving as though the social question has already been settled. January 2021 opens with `bible study at my house DONT BE LATE HOES`, a sacred-premise/profane-delivery intervention into thirst chat. By March Ren announces `Tae has become one of us`; twenty-nine seconds later Tae corrects the paperwork: `I been in here`.",
-      "The same spring she adopts the Wall's shortest verdict. `Caught in 4k` appears in March and returns in May after Tae posts an attachment herself. By October the evidence instinct turns fully inward: she puts up an older photo because `i just look so funny in it`. The progression is better than a generic 'likes screenshots' label. Tae can be defendant, clerk, and voluntary witness depending on who has the funniest image.",
-      "September 8 gives a useful reminder that not every line about Tae is Tae speaking. Ansun/Souta posts `Tae likes it when you smell Tae`; Sye answers with a shocked custom emote less than a minute later. This is peer-generated nonsense, not a factual claim about Tae's preferences. Its value is social: by late 2021 her name can be dropped into a bizarre one-line premise and the room knows enough to react immediately without requesting minutes from the Smell Committee.",
-      "October's self-submitted old photo is the stronger authored evidence anyway. Tae does not wait to be exposed; she decides an older version of herself is funny enough to exhibit and posts it. That small choice is the difference between merely surviving the Wall and understanding its basic economy: if the receipt is funny, even your own dignity is a renewable resource.",
+      "Tae's strongest thread is not one role or one meme. It is how often she behaves as though the social question has already been settled. January 2021 opens with `bible study at my house DONT BE LATE HOES`, a sacred-premise/profane-delivery intervention into thirst chat. By March Ren announces `Tae has become one of us`; twenty-nine seconds later Tae corrects the paperwork: `I been in here`.",
+      "March 13 makes her Wall style much more specific than a generic `Caught in 4k` catchphrase. Ghoulie is melting down over another filing when Tae drops the verdict — then almost immediately follows with `Its ok bestie we all do mistakes` and, when the room keeps chanting `one of us`, adds `Even me so don’t worry`. The joke lands, but Tae also steps under the same rule herself. That tiny self-inclusion strips the scene of `you alone are embarrassing` energy and turns it back into the house's shared humiliation economy.",
+      "By May she is needling the same person with enough familiarity to call the Wall `ghoulies home` and say she lives there `rent free`. October pushes the evidence instinct inward: Tae posts an older photo because `i just look so funny in it`. Defendant, clerk, witness — she is happy to change jobs depending on who currently has the funniest exhibit.",
+      "June is the useful reversal. Gilli posts four uninspected screenshots across roughly forty-four minutes; Tae's side of the visible conversation contracts into `AGAIN`, `why IS THIS HAPPENING`, `Why im I here`, and `What is this`. The images remain undescribed, but the role reversal is plenty: Tae is eloquent enough when sentencing somebody else and suddenly becomes a sequence of baffled procedural objections when the Wall's blast radius reaches her.",
+      "September 8 adds a different provenance lesson. Ansun/Souta posts `Tae likes it when you smell Tae`; Sye answers with a shocked custom emote less than a minute later. This is peer-generated nonsense, not a factual claim about Tae's preferences. Its value is social: by late 2021 her name can be dropped into a bizarre one-line premise and the room knows enough to react immediately without requesting minutes from the Smell Committee.",
       "December 2024 is quieter and therefore maybe more telling. In voice-channel sidecar text Tae reacts to a game Rich is playing, considers installing it, wonders whether Rummy would like it, and says she can join another day if Rich streams. Dragon Raja is barely relevant anymore. The social network has become portable enough that the next game can be chosen by whoever is already on screen."
     ],
     history: [
       { date: "January 26, 2021", title: "Emergency Bible study, hosted by the problem", text: "Tae redirects thirst chat with `bible study at my house DONT BE LATE HOES`. The joke says plenty about room fluency and nothing reliable about Tae's religion." },
-      { date: "March 13, 2021", title: "`I been in here`", text: "Ren announces Tae has become `one of us`; Tae immediately rejects the timestamp, not the belonging. This cannot be used as a membership-start receipt." },
-      { date: "March–May 2021", title: "Caught in 4k becomes reusable", text: "Tae uses the Wall verdict twice on separate dates; the May instance follows an attachment she posted herself. The unseen images remain unseen." },
+      { date: "March 13, 2021", title: "Caught in 4k, then immediately bandage the defendant", text: "Tae hits Ghoulie with `Caught in 4k`, follows with `Its ok bestie we all do mistakes`, and then volunteers `Even me so don’t worry`. The sequence is teasing with a built-in exit ramp: laugh at the filing, then make sure the target is not standing outside the joke alone." },
+      { date: "May 30, 2021", title: "Ghoulie lives here rent free", text: "After Tae posts another Wall attachment and returns to `Caught in 4k`, she says the channel is `ghoulies home` and that Ghoulie lives there `rent free`. It is affectionate public needling from somebody who already knows the room's recurring defendant grammar." },
+      { date: "June 2, 2021", title: "AGAIN / why IS THIS HAPPENING", text: "Gilli posts four Discord screenshots over roughly forty-four minutes. Tae answers the sequence with escalating bafflement — `AGAIN`, `why IS THIS HAPPENING`, `Why im I here`, `What is this`. The screenshots remain visually unresolved." },
       { date: "September 8, 2021", title: "The Smell Tae allegation enters the public record", text: "Ansun/Souta posts `Tae likes it when you smell Tae`; Sye answers with a shocked emote. This is peer comedy, not Tae self-description or literal preference canon." },
       { date: "October 11, 2021", title: "Tae files Tae", text: "She posts an older photo because `i just look so funny in it`. No prosecutor required; the defendant brought her own exhibit." },
       { date: "December 11, 2024", title: "Friendship picks the next game", text: "Around Rich's stream/voice room, Tae considers installing what he is playing and immediately wonders whether Rummy would like it. The old game is no longer needed as the organizing excuse." }
     ],
     characterNotes: [
-      { title: "Belonging arrives before the announcement", text: "`I been in here` is funny because Tae is not pleading to be included. She is telling Ren his chronology is late." },
-      { title: "Evidence culture goes both directions", text: "Repeated `Caught in 4k` matters more once Tae also volunteers her own old photo. The Wall is not merely something done to her; she can feed it." },
+      { title: "Sting, bandage, self-inclusion", text: "The March Ghoulie sequence is Tae in miniature: make the joke, reassure the person almost immediately, then put herself under the same Wall law. Care does not require her to stop being funny first." },
+      { title: "The prosecutor hates discovery", text: "Tae can say `Caught in 4k` with perfect efficiency; when Gilli keeps posting screenshots near her, the language collapses into `AGAIN`, `why IS THIS HAPPENING`, and `Why im I here`. Participation is enthusiastic right up until the evidence remembers her address." },
+      { title: "Evidence culture goes both directions", text: "The reversal is not pure victimhood either. By October Tae voluntarily posts an old photo because she thinks she looks funny in it. She understands the Wall well enough to donate her own dignity when the exhibit is worth it." },
       { title: "Peer jokes stay peer jokes", text: "The smell-Tae line belongs because it shows how the room talks around her, not because the wiki suddenly believes Ansun was issuing a sensory-profile assessment." },
       { title: "Portable attention", text: "The 2024 scene is ordinary continuity: somebody is playing something, Tae may install it, Rummy enters the thought, and friendship quietly replaces Dragon Raja as infrastructure." }
     ],
     claims: [
+      { text: "On March 13, 2021, Tae posted `Caught in 4k` during Ghoulie's Wall panic, then followed with `Its ok bestie we all do mistakes` and `Even me so don’t worry`.", evidence: "archive-confirmed", date: "2021-03-13" },
+      { text: "On May 30, 2021, Tae described the Wall as `ghoulies home` and said Ghoulie lived there `rent free`.", evidence: "archive-confirmed", date: "2021-05-30" },
+      { text: "On June 2, 2021, Gilli posted four Discord screenshots over roughly forty-four minutes while Tae responded with `AGAIN`, `why IS THIS HAPPENING`, `Why im I here`, and `What is this`; the screenshot contents remain uninspected.", evidence: "archive-confirmed", date: "2021-06-02" },
       { text: "On September 8, 2021, Ansun/Souta posted `Tae likes it when you smell Tae`; less than a minute later Sye answered with a shocked `shiba_shock` custom emote.", evidence: "archive-confirmed", date: "2021-09-08" }
     ],
     roleNotes: [
@@ -120,6 +126,7 @@ export const deepPlateletCharacterBios = {
     canonNotes: [
       "`bible study at my house` does not establish Tae's religion or religious practice.",
       "The March and May Wall attachments remain undescribed where they were not safely inspected.",
+      "Gilli is POSTED BY for the June 2 screenshots; without visual inspection the wiki does not infer who captured or made them, whether they are DMs, or whether they depict Tae.",
       "Ansun's `Tae likes it when you smell Tae` is peer-generated house comedy, not literal preference canon.",
       "Tae's October old-photo post does not establish when the photo was taken or who else appears in it."
     ]
@@ -159,7 +166,7 @@ export const deepPlateletCharacterBios = {
       "Cele's primary shelf is Platelets, not Staff.",
       "Ren's Marie Kondo bit is peer characterization, not Cele's literal beliefs or preferences.",
       "The September 2022 and March 2023 triggering images remain undescribed unless visually inspected.",
-      "Two keyboard-collapse exposure scenes support recurring texture, not a claim that every typo or emote Cele sends has the same cause.",
+      "Two keyboard-collapse exposure scenes support recurring texture, not a claim that every Cele typo or emote Cele sends has the same cause.",
       "The March 14 `Cele on rum` attachment is not described here because the image has not been safely inspected."
     ]
   }
