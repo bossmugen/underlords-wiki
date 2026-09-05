@@ -81,5 +81,44 @@ export const run435NarrativeCharacterBios: Record<string, CharacterNarrative> = 
     closing: [
       "Woohyuk works because the confidence is not protected from consequence. He can roast somebody with forensic specificity, get filed himself, attempt a ridiculous cover-up, and remain in exactly the same social game. The sharp line is only half the character. The other half is what he does when the room sharpens one back."
     ]
+  },
+
+  vanness: {
+    intro: [
+      "Vanness has one of those Wall careers where the prosecution and defense are very obviously the same department. They file receipts, caption them in tiny bursts, answer a summons by throwing Gabu under the comedy bus, and then eventually walk into the channel on their own and ask everybody to shame them for a catastrophic Dragon Raja merge streak.",
+      "The useful contradiction is not that Vanness can dish it out and take it. It is that embarrassment seems to make them more specific. A bad result does not make them hide the story; it produces `Shame me`, a group reaction, and—hours later—a full postmortem with the failed-merge count and the final diagnosis: `my luck is💩`."
+    ],
+    sections: [
+      {
+        title: "THE RECEIPT ARRIVES BEFORE THE EXPLANATION",
+        paragraphs: [
+          "Vanness's Wall grammar is wonderfully economical. One screenshot is followed by `Why`, then `In the world would anyone have this idea`. Another receipt gets `Shame @Deleted User` fifteen seconds later. When Anayss says `kahoot ideas`, Vanness answers with `jack kinhoff`, `moe lester`, and `Hugh Dick` like the house has accidentally outsourced quiz-writing to a middle-school bathroom wall.",
+          "That economy also makes the louder lines hit harder. ShiyaX summons Vanness with an image, and Vanness comes back less than a minute later with `ITS GABU WHO SUCKED IT DRY, NOT MEEE`. Whatever was in the unseen exhibit, the social move is obvious: accusation does not produce silence. It produces a bigger defense and an immediate attempt to widen the suspect pool."
+        ]
+      },
+      {
+        title: "SHAME ME",
+        paragraphs: [
+          "On August 10 Vanness stops waiting to be filed and does the paperwork personally: `Im putting myself in wall of shame for losing 5 orange dracs for merge. Shame me:CatCry:`. Gilli, Candy, and Ren all answer the same post. Vanness says they are too sad to play anymore, but the scene does not end with the embarrassment.",
+          "Ren's `hoW-` sits there for hours before Vanness comes back through a direct reply with the actual damage report: four failed merges in a row, the last two orange dracs collapsing into one. Twenty-four seconds later: `my luck is💩`. That delayed return is the character beat. Vanness does not merely tolerate being the defendant; they come back with discovery materials."
+        ]
+      },
+      {
+        title: "REN, SHIYAX, MUGEN: THE ROOM KNOWS WHAT TO DO WITH THEM",
+        paragraphs: [
+          "Ren gets the cleanest little debrief lane: one incredulous `hoW-`, then the detailed answer hours later. ShiyaX can directly summon Vanness into another receipt and get an immediate theatrical defense. Mugen's side of the Wall is lower-key but recognizable: Vanness pings her while selecting evidence, Mugen soon says `Welcome to the wall @Vanness`, and later answers one of Vanness's attachments with `:Hehe:`.",
+          "None of those exchanges needs a giant friendship label to work. The rhythm is enough. Vanness knows how to enter the room's filing system, the room knows how to answer, and even their worst luck can be handed back as something communal rather than something to conceal."
+        ]
+      },
+      {
+        title: "Petty Crimes",
+        paragraphs: [
+          "Suggested Kahoot identities: `jack kinhoff`, `moe lester`, `Hugh Dick`. Has used `Why` as a complete exhibit caption before deciding the situation required `In the world would anyone have this idea`. When summoned by ShiyaX, immediately filed an emergency motion blaming Gabu. Voluntarily requested `Shame me`. Official self-diagnosis after the merge postmortem: `my luck is💩`."
+        ]
+      }
+    ],
+    closing: [
+      "Vanness's Wall file is short, but it has an extremely clear operating system: find the receipt, sharpen the joke, and if the evidence turns around, submit yourself. Plenty of people survive screenshot jail by protesting innocence. Vanness eventually discovers the more efficient option—become your own prosecutor and bring the postmortem with you."
+    ]
   }
 };
