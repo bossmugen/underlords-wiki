@@ -1,8 +1,34 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-04 Run 428 final handoff_
+_Last updated: 2026-09-04 Run 429 handoff_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. This file is the rolling WIKI handoff; earlier verbose states remain recoverable in git history.
+
+## Run 429 handoff
+
+Full miner census: **51 tracked identities = 30 active matching refs + 21 historical/missing refs**, with **0 newly discovered, 0 unread pending review, 9 MAIN publication-held families, 0 backlog, and 0 overdue** at the reviewed boundary. Both Club-Only recovery priorities remain current at their saturated/do-not-churn heads. No raw archive was re-mined.
+
+The only advanced branch at the opening census was `archive-miner/mugen-person-first-20260828`, moving from consumed `ecbce24786dd378f199f326caf5bf03dc9303a87` to `a15c851fcdcdff64dc675f583feb1c07bac87bca`. The census update was persisted on MAIN before review. The suffix was then reviewed checkpoint-first using only changed `archive-intake/mugen-person-first-20260828/*` handoffs.
+
+### Mugen negative novelty gate
+
+No new reader-facing Mugen mutation is warranted from this suffix.
+
+The fresh candidate material collapses into mechanisms already represented more strongly: Yve room orientation and escape-room planning remain generic practical fit-checking/flexibility without failure or relationship consequence; Torr/Meems repeats already-owned containment/additive-structure behavior; novikroeva/ничего reacts loudly to a Mugen parent whose content is not surfaced, so the Mugen side stays uninterpreted; Yu/Reii reactions to Mugen-posted screenshots remain reaction/provenance only while the media is uninspected; mature-character reverse-angle checks still do not recover Mugen's response to Dean's consequential correction.
+
+The correct integration result is subtraction: **no new biography paragraph, no Petty Crime, no Episode, no role/relationship mutation**. The branch is consumed as reviewed through `a15c851fcdcdff64dc675f583feb1c07bac87bca`. Its `pending_publication` status on MAIN refers only to older accepted Mugen publication debt, not to this negative suffix.
+
+High-value Mugen rabbits remain open: consequential correction with Mugen reception; higher-cost mistake/repair; person-model revision; retrospective deletion/consent after custody; future-self differentiation; reciprocal care under load; care mismatch; accommodation failure; sincerity under consequence; disappearance/return with cost.
+
+### Reader change / verification
+
+Reader-facing WIKI changes in Run 429: **0**.
+
+This state update is reader-neutral and intentionally triggers the existing WIKI build/Pages workflow so the repository's current publishing head is still verified. Final workflow/deploy outcome is recorded in the Run-429 integration report/state once settled.
+
+### MAIN surface
+
+MAIN reader-facing changes in Run 429: **0**. The nine publication-held MAIN families remain **QOTD / Officers, Wall, Backroom, Core Rooms / Events, Daycare, Louvre, Meems, Mugen person-first, and Whiskey**. Their reviewed miner suffixes are not reread merely because older accepted MAIN publication work remains held.
 
 ## Run 428 handoff
 
