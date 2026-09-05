@@ -6,19 +6,19 @@ export const torrCharacter: Character = {
   aliases: ["DiStratus", "torrentstorm"],
   billing: "legacy",
   role: "Archive-era Underlords cast",
-  era: "2021–2022+",
-  logline: "Shows up thinking he was joining a clan, realizes mid-sentence it was Underlords, decides he is glad to be there anyway, then learns the Wall fast enough to accidentally prosecute himself.",
-  tags: ["Archive cast", "Games", "Wall", "Gilli", "Petty Crimes"],
+  era: "2022–",
+  logline: "Arrives through one tiny Lobby misunderstanding, learns the Wall at terrifying speed, explicitly blames Gilli as a bad influence, and discovers that deleting the ambiguous comment does not help if somebody already saved it.",
+  tags: ["Archive cast", "Wall", "Gilli", "Petty Crimes", "Ordinary life"],
   relationships: [
     {
       name: "Gilli",
-      note: "Raja-era friend and recurring partner in a completely unserious jurisdictional dispute over who corrupted whom.",
+      note: "Torr explicitly links Gilli's presence to context-dangerous messages and blames Gilli as a bad influence on rapid Wall acclimation; influence language, not recruiter or romance canon.",
       href: "/characters/gilli",
     },
   ],
   quotes: [
-    "well either way I'm glad to be here :huggies:",
-    "oops i did play myself",
-    "I’m having to make biscuits, this sucks… I don’t know how to make biscuits",
+    "that can be taken out of context XD",
+    "i get on here a lot. i blame Gilli bad influence.",
+    "they are not burnt they are blackened.",
   ],
 };
