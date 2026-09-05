@@ -25,6 +25,15 @@ export const richNarrativeCharacterBios: Record<string, CharacterNarrative> = {
         ]
       },
       {
+        period: "July 2020",
+        title: "Richard is what happens when Rich screws up",
+        paragraphs: [
+          "Ren did not merely decide that Rich needed a longer name. She dropped the `What the fuck, Richard` meme, pinged the room, and supplied operating instructions: `When ever rich screws up let’s just all say that`, followed three seconds later by `In unison`. The joke-name is born here as a communal reprimand button. Rich does something stupid; apparently the room becomes a choir.",
+          "Zoshaa immediately nominates a use case — `When he fucking accept jonith AGAIN` — and Ren's concern is not whether the charge is fair. It is production value: `But we gotta make it fancy`. She and Zoshaa then turn the reprimand into ornate Unicode theater. By April 2021 Ren can casually announce `Richard will be streaming:` without stopping to explain who Richard is. The punishment-name has become ordinary enough to double as a call-name.",
+          "This also gives the later `Richard's Corpse On A Cooch` title a much better family tree. `Richard` was already attached directly to Rich in 2020, and Rich later supplied his own Corpse Husband connection. Whoever finally welded the full room title together — and where the hell `cooch` entered the paperwork — is still off-camera."
+        ]
+      },
+      {
         period: "September 2021",
         title: "Funcle Rich remembers who can see the page",
         paragraphs: [
@@ -45,7 +54,7 @@ export const richNarrativeCharacterBios: Record<string, CharacterNarrative> = {
       {
         title: "Petty Crimes",
         paragraphs: [
-          "Has apparently accepted that `strip club` can be a venue rule. Will calculate the minimum possible time-to-Wall if somebody invents the metric. Once diagnosed the Drink Water Reminder with insufficient watah. Has described himself as a `ramen butt`, volunteered `snoring and tooting asmr`, and responded to being commemoratively swept to his couch by checking where the tooting fell in the timeline. If Woosung objects to the joke he started, apparently the appeals process is one pat-head penguin. Systems brain, couch potato, same citizen."
+          "Was assigned an ornate communal reprimand-name whose intended trigger was, essentially, Rich doing Rich shit. Has apparently accepted that `strip club` can be a venue rule. Will calculate the minimum possible time-to-Wall if somebody invents the metric. Once diagnosed the Drink Water Reminder with insufficient watah. Has described himself as a `ramen butt`, volunteered `snoring and tooting asmr`, and responded to being commemoratively swept to his couch by checking where the tooting fell in the timeline. If Woosung objects to the joke he started, apparently the appeals process is one pat-head penguin. Systems brain, couch potato, same citizen."
         ]
       }
     ],
