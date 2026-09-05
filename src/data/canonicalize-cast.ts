@@ -23,6 +23,27 @@ const additions: Character[] = [
     tags: ["VIP", "Lobby", "Return"],
   },
   {
+    id: "beaeder",
+    name: "BeaEder",
+    aliases: ["beaeder"],
+    billing: "guest",
+    role: "VIP",
+    era: "2021",
+    logline: "Wall receipt scavenger who does not merely file the evidence: she summons the room, drops a `:Hehe:`, gets ambushed by her own old nonsense, and volunteers for `hell chaos` if it sounds like a party.",
+    tags: ["VIP", "Wall", "2021", "Receipt scavenger"],
+    relationships: [
+      { name: "Mugen", note: "Recurring responsive audience to Bea's Wall filings; Mugen directly replies to one July exhibit and keeps turning up in the reaction layer.", href: "/characters/mugen" },
+      { name: "Baby Lyssa", note: "One of the three people Bea directly summons seconds after an August filing; the unseen image subject remains unresolved.", href: "/characters/baby-lyssa" },
+      { name: "Cookie", note: "Summoned into the same August filing sequence, then present in the reaction layer without needing the premise re-explained.", href: "/characters/cookie" },
+      { name: "Zyrcant", note: "Tagged as Akariel in Bea's August summons; the alias is canonical, while the unseen image itself stays unassigned.", href: "/characters/zyrcant" },
+    ],
+    quotes: [
+      "I forgot I told people to rub their booties on me",
+      "Found this gem going thru my phone",
+      "Wait can I be sent there too? Sounds like helluva party",
+    ],
+  },
+  {
     id: "bishopthaguru",
     name: "BishopThaGuru",
     billing: "guest",
@@ -232,7 +253,7 @@ const canonicalGroups: CastGroup[] = [
     note: "Non-UL visitors / guests, plus files whose surviving evidence does not establish UL membership.",
     characterIds: [
       "zyrcant","rich","woohyuk","syv","woosung","beowulf",
-      "baby-lyssa","lexi","acoryuie","bishopthaguru","jade","jordayy","korea-milk","milo","tonytonychopper",
+      "baby-lyssa","lexi","acoryuie","beaeder","bishopthaguru","jade","jordayy","korea-milk","milo","tonytonychopper",
     ],
   },
 ];
