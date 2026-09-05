@@ -8,7 +8,9 @@ Full controlling MAIN census closed at **51 tracked miner identities = 30 active
 
 Reviewed checkpoint-first / intake-only:
 - QOTD / Officers `5cb78a760c2c1fe4381226734904487191768b2e -> 38c2d52a1d9f90264b1a7e81096e63ed9dcc10b6`
-- late Louvre / AI Art / Athenaeum / Other Games `5cd79e0b1fcb86d8597e7504f06fa8c924523d9b -> cf6fc39a73ad30d9b5f04abdb456d98562efb8b8`
+- late Louvre / AI Art / Athenaeum / Other Games `5cd79e0b1fcb86d8597e7504f06fa8c924523d9b -> 4b7f672ca375c646a8430fb9f98d0177da8da539`
+
+The Louvre branch moved in two installments during the run: findings/receipts first, then checkpoint/people/rabbits/site-candidate consolidation. Both tails are one Marsello evidence family and were reviewed through the final observed head rather than counted twice.
 
 Both Club-Only recovery priorities remain current at their saturated / do-not-churn boundaries. No raw archive was re-mined.
 
@@ -45,7 +47,7 @@ The Xuseio family is intentionally WIKI-first because there is no safe canonical
 
 ## Consumption
 
-The controlling MAIN ledger advances QOTD / Officers consumed through `38c2d52a1d9f90264b1a7e81096e63ed9dcc10b6` after successful review/publication and advances the late Louvre suffix consumed through `cf6fc39a73ad30d9b5f04abdb456d98562efb8b8` as a successful no-public-change review. Louvre remains `pending_publication` only because older accepted MAIN Louvre work is still publication debt; that status does not make this new suffix unread.
+The controlling MAIN ledger advances QOTD / Officers consumed through `38c2d52a1d9f90264b1a7e81096e63ed9dcc10b6` after successful review/publication and advances the late Louvre family consumed through `4b7f672ca375c646a8430fb9f98d0177da8da539` as a successful no-public-change review. Louvre remains `pending_publication` only because older accepted MAIN Louvre work is still publication debt; that status does not make this new suffix unread.
 
 ## Held rabbits / rails
 
