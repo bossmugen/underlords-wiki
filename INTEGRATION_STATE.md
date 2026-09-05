@@ -1,50 +1,37 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-05 — Run 470 final close_
+_Last updated: 2026-09-05 — Run 471 verification pass_
 
-MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Detailed reconciliation for this pass is in `INTEGRATION_REPORT_RUN_470.md` here and `archive-intake/INTEGRATION_REPORT_RUN_470.md` on MAIN. Older state remains recoverable in git history.
+MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Detailed reconciliation for this pass is in `INTEGRATION_REPORT_RUN_471.md` here and `archive-intake/INTEGRATION_REPORT_RUN_471.md` on MAIN. Older state remains recoverable in git history.
 
-## Run 470 — the people map beats the floor plan
+## Run 471 — Torr catches himself being the counterexample
 
-Mandatory full census: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**, with **0 newly discovered identities, 0 unread pending review, 10 older MAIN publication-held families, 0 backlog, and 0 overdue**.
+Mandatory full census: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**, with **0 newly discovered identities, 0 unread pending review at close, 10 older MAIN publication-held families, 0 backlog, and 0 overdue**.
 
 Reviewed checkpoint-first from changed intake handoffs only:
 
-- Core Rooms / Events: `5c317367ec96e9e066720f707c65afee620a0b9c -> 61a0c7f0b79a5ed0e59de7bc2123b58419617f02`
-- Louvre / AI Art / Athenaeum / Other Games: `c9b089b9c796ad9718f2d085d379997ecad3e553 -> 90389ec8ebc639d8262b4cd9e5df656aa1a35eb4`
-- Mugen person-first: `1edcf5b5adea2f6b9a90ed0d614d562ee67690dc -> e38c2dec52cb984399c416678f88d87d25127c0c`
+- QOTD / Officers: `9a69ae4a656a96c1460c76c3a52282ed6ef7164e -> 9c9f534138fe35e12fda66d7e2bbed77cab10c41`
 
-All three are consumed through those reviewed heads. Closing full census found those heads stable and no new unread tail.
+The suffix is consumed through the reviewed head. Both Club-Only recovery priorities remain current at saturated/do-not-churn heads `e45fb11c9239e236231bb65645dfd0285bc0078b` and `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`. No raw archive was re-mined.
 
-Both Club-Only recovery priorities remain current at saturated/do-not-churn heads `e45fb11c9239e236231bb65645dfd0285bc0078b` and `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`. No raw archive was re-mined.
+### Fresh character material
 
-### Public integration
+**Torr / DiStratus / torrentstorm** now has a coherent early person file instead of scattered gaming remarks. Torr says he grew up playing Smash and therefore more or less `eat sleep and breathe` these games. He also begins to declare that meeting somebody from Raja would be weird, then realizes mid-thought that this is exactly how he met Gilli: `then I remember / that's how i met gilli / so uh, yea`. Gilli's `You contradicting yourself again?` lands as familiar correction, not formal contradiction management.
 
-**Xephy / WhitePhoenyx** was resynthesized instead of receiving another event paragraph. The central read is now that Xephy can lose the server map without losing the people map: in May 2020 Xephy recognizes Rich, catches RV typing after bedtime, and only afterward realizes there are other rooms; on the September return Xephy asks whether people remember while already recognizing Rooks through a changed display name and greeting Illien immediately. WhitePhoenyx remains Xephy and **not** WolfPhenix.
+The stronger relationship mechanism is mutual contamination blame. Torr says UL are bad influences and immediately sharpens the accusation to `gilli specifically`; Gilli later insists Torr corrupted her; Torr escalates through `NOOOO`, `I HAVE NOT`, then the clipped `we / will disagree.` This is lived Torr↔Gilli teasing, not romance.
 
-**Snow** gains lived practical initiative rather than another technical résumé bullet. Mugen explicitly thanks people for troubleshooting/testing a problem she had not asked them to fix; Anthos immediately redirects the credit with `it was all snow`. The exact broken object remains unresolved and no historical Snow-lookalike account is merged by name.
+### Public integration decision
 
-**Zoshaa / NintendoShitcube** gains **Tiny Font Menace** at Petty Crimes scale. Repeated tiny, ornate, spaced and regional-indicator typography becomes part of the delivery itself — especially when delicate-looking text is carrying profanity, irritation or absurdity. It is styling, not `bad spelling`.
+Reader-facing WIKI files changed **0**. There is no clean existing Torr/DiStratus dossier dense enough to carry this material without creating a four-receipt trench coat. The new person file is banked for a future proper owner instead of being rejected or inflated into a free-floating Episode.
 
-Reader head: `1a4685b867bdb8162df67c0eef9add2e54483e95`.
+Future WIKI routing: Known As / Personality; Relationship — Gilli; and, once a proper owner exists, a compact Running Gag or Episode around `Gilli specifically` and reciprocal corruption blame.
 
-- Build workflow `33987797940`: **success**
-- Astro wiki build: **success**
-- Pages workflow `33987797928`: **success**
-- preview build / artifact upload: **success**
-- actual GitHub Pages deployment: **success**
-
-### Banked / held
-
-Mugen's fresh **QOTD Barista** beat is accepted for MAIN Petty Crimes rather than duplicated here as a skinny incident: when QOTD came online Mugs called it a `New barista on board!` and setup `Onboarding in process`. It deepens infrastructure-as-house-theater without establishing bot authorship, ownership, or a formal role.
-
-Gilli repeatedly summoning Zoshaa/Nintendo into nonsense is retained as bounded recurring-bit familiarity. It does not become a closeness ranking, romance, or literal family from joke language.
+Hard boundaries remain intact: no romance; no recruitment/admission/appointment chronology; no inferred Smash platform/version/rank; no image attribution beyond the exact supported verb; no identity inference from name similarity.
 
 ### MAIN status
 
-Reader-facing MAIN files changed **0**. MAIN received the mandatory opening census and final consumption close only; no new MAIN build or Cloudflare deployment is claimed because no MAIN reader content changed.
+Reader-facing MAIN files changed **0**. MAIN persisted the opening census, closing consumed cursor, and durable Run 471 report. No MAIN reader build or Cloudflare deployment is claimed because no reader content changed and the production path remains manual/scheduled while the current GitHub connection exposes no workflow-dispatch write action.
 
-MAIN opening census commit: `abdf9a52e4fb6feeb57925495f078105c489a42d`.
-MAIN consumption-close commit: `2cc795adc6bc3bf2b402015ee8c6811dfb309d67`.
+### WIKI verification
 
-The verified/deployed WIKI reader is `1a4685b867bdb8162df67c0eef9add2e54483e95`; later report/state/cleanup commits are reader-neutral.
+This state commit is reader-neutral but is being sent through the repository's normal Build + Pages verification path. Final workflow/deployment result will be written back with a `[skip ci]` close once observed.
