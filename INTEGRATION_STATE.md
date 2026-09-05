@@ -1,14 +1,26 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-05 — Run 456 census-only reconciliation_
+_Last updated: 2026-09-05 — Run 456 Daycare + Wall reconciliation_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Earlier verbose run states remain recoverable in git history.
 
-## Run 456 — census only, nobody moved
+## Run 456 — Mavis was already dying before this became a sport
 
-The full branch census found **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**, with **0 newly discovered branches, 0 advanced/unconsumed intake tails, 10 MAIN publication-held families, 0 backlog, and 0 overdue**. Every active miner ref still matches the `last_seen_sha` and `last_consumed_sha` already recorded by Run 455. No intake delta existed to reopen, no raw archive was re-mined, and both Club-Only recovery priorities remain current at their saturated / do-not-churn heads (`e45fb11c…` for 2021–2026, `ed66714f…` for 2020).
+The opening census initially looked quiet, but the closing census caught two real late movers. Final reviewed coverage is **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**, with **0 newly discovered branches, 0 unread pending tails, 10 MAIN publication-held families, 0 backlog, and 0 overdue**. Daycare advanced `88250a54… → 25557667…`; Wall advanced `bdbc6d88… → 88b0dd60…`. Both were reviewed checkpoint-first from changed `archive-intake/*` handoffs only. No raw archive was re-mined. Both Club-Only recovery priorities remain current at their saturated / do-not-churn heads (`e45fb11c…` for 2021–2026, `ed66714f…` for 2020).
 
-No reader-facing MAIN or WIKI files changed in this pass. No new build/deploy claim is made because there was no reader change to verify. Run 455 remains the most recent WIKI reader publication: `7545f90ec0a8bb689daf49521fed698b0b2edf73`, with Build `33973774132` and Pages `33973774137` successful. MAIN's ten publication-held families remain publication debt, not unread miner work.
+The genuinely additive public change is **Music Bot Breaking's prehistory**. On August 15, 2021 Mewgum requests a track and Microwoot immediately asks `Bot ded again?`; Mugen answers `i revive`. Later the same day Mugen reports `Mavis is ded af`, then `i have revived mavis for the 5th time`, cycles through help / `/stop` / `m!join`, addresses the bot as `dear bot`, and true-replies to Mavis's `Incorrect command use` with `care to work?`. Anayss eventually true-replies `MAVIS LET THEM SHUT UP`. This does **not** identify Mavis as Oolong Tea / Jockie. It does establish that bot death, revival, command troubleshooting, and arguing directly with the machinery were already familiar house behavior in 2021. By 2023 the same kind of nuisance has acquired a name, rounds, records, cheerleaders, and an interview process for the next tea. The episode now reads as a recurring household failure ritual that eventually became a sport, not a gag that materialized from nowhere in anniversary month.
+
+Mewgum also gained usable person texture but remains banked rather than inflated into a thin dossier. The stable account moves between `Mewgum`, `Mewgum/Sunrise`, and `sunrise♡︎`; openly self-owns controller/swipe problems (`Cause im noob swipe`, nonsense typing because the controller was involved), and later returns with the wonderfully anchored `I've been here longer than them` / `but i don't speak much`. Fleabiscuit asks `Are you staying with us now 🥺`; Mewgum answers `Yeh`, and the room answers with hearts/hugs. The cumulative read is quiet-but-established, controller-defined, comfortable admitting tool chaos, and warmly reabsorbed after gaps. **Mewgum ↔ Megumen remains unresolved and was not merged.**
+
+The anti-starvation Wall review produced two banked profile/provenance deepeners rather than another public page. **porgo! / `p0rg0`** repeatedly self-files (`putting myself up here cause im very mad at myself`, later `im exposing myself`) while the room answers the first self-criticism with `Cute_patpat` reactions. Daya can both soften the self-directed frustration and keep the absurd bits moving: `Toe jam` becomes `cuisine`, Daya asks `what flavor?`, porgo answers `peach :Cat_Drool:`, and later Daya true-replies to `im gona vomit` with `let it out!!`. That is a bounded Wall-local self-prosecutor / fast-bit / safe-embarrassment pattern, not a reason to invent a larger relationship category. **Mr. Streamer** has an even more compressed Wall career: screenshot → `Via @DiStratus(Torr)` → screenshot. The immediate `Via` supports source-credit wording and Torr's later `i'm giving a lot of material with this stream` supports a stream-derived local batch, but Torr is not promoted to CAPTURED BY / MADE BY / FEATURING. Neither porgo nor Mr. Streamer received a thin dossier this run.
+
+### Reader / verification status
+
+Run 456's WIKI reader commit is **`b258b523233991504f0dbab1e1e0ba518b654ada`**, updating `src/data/integrator-episodes-20260905-music-bot-breaking.ts`. Build workflow **`33974671403`** succeeded. Pages workflow **`33974671319`** also succeeded: preview build, artifact upload, actual **Deploy to GitHub Pages**, and report all completed successfully.
+
+MAIN changed **0 reader-facing files**. Music Bot Breaking is currently better owned as structured WIKI episode continuity than mirrored prose, Mewgum is banked pending a safe public owner, and the fresh porgo/Streamer material remains banked. MAIN's older accepted Daycare and Wall work therefore remains publication-held; no new MAIN deployment is claimed.
+
+Daycare is reviewed/consumed through `25557667f9754709498a400560f4a2c17213cf0b`. Wall is reviewed/consumed through `88b0dd60e79e0c7e29c9d0a00ced6b222d86b276`. Final queue is **0 unread pending review / 10 MAIN publication-held / 0 backlog / 0 overdue**.
 
 ## Run 455 — Tae broadcasts the wobble
 
