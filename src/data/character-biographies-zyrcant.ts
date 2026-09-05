@@ -23,13 +23,6 @@ export const zyrcantNarrativeCharacterBios: Record<string, CharacterNarrative> =
         ]
       },
       {
-        title: "Affection comes with slander; every hypothetical is apparently an election",
-        paragraphs: [
-          "Give Zyrcant a friendship prompt and she answers like a roast. In February 2021 she describes a friend as `bitch, weird, cocky, thief, nerd`, then explains the pileup with `true friends are honest with each other`. The second line matters because she is not backing away from the first one. In her familiar-person register, the insult can be part of the affection: enough comfort to say the rude thing, enough confidence in the relationship to assume everybody understands why she is saying it.",
-          "Give her a leadership hypothetical and the same confidence becomes campaign season. Zyrcant goes from answering the prompt to `PROMOTE AKARIEL TO LEADER`, laughing at herself, insisting `MY ANSWER CAN WIN`, and appealing to Angel (Ash) because Angel had apparently said she won. Nobody appointed her to anything in that exchange. That is almost beside the point. The joke works because Zyrcant can turn a question nobody asked competitively into an election she has already decided she is winning."
-        ]
-      },
-      {
         title: "Competent enough to place, shameless enough to volunteer",
         paragraphs: [
           "On July 15, 2021, Ansun's Kahoot announcement names Shinn, Nelphie and Zyrcant as the event's top three. The order does not survive as an exact ranking; Zyrcant's reaction does. She hits the result with both `:yay:` and `:8070_ZeroYay:`. Less than three weeks later she posts an attachment-only item in `📬│photo-submissions` and lets the room react around it. Together with the Wall material, the better pattern is not `likes Kahoot` or `takes photos`; it is active opt-in. Zyrcant keeps choosing house formats built for public response and often needs very few words to do it.",
@@ -41,7 +34,7 @@ export const zyrcantNarrativeCharacterBios: Record<string, CharacterNarrative> =
         title: "Relationships",
         paragraphs: [
           "Ren is one of the clearest peer-read witnesses: when Zyrcant asks what vibe she gives off, Ren answers with brightness rather than intimidation. That does not make Ren the sole authority on Zyrcant; it shows the first-glance reputation is not the only version people actually experience.",
-          "The 2022 protectiveness exchange turns a self-description into a tiny group reassurance. Somebody asks whether `us` counts; Zyrcant says yes. The friendship-roast answer adds the sharper side of the same familiar-person access: once somebody is safely inside the circle, Zyrcant can be openly rude and openly caring without treating those as opposites."
+          "The 2022 protectiveness exchange turns a self-description into a tiny group reassurance. Somebody asks whether `us` counts; Zyrcant says yes. The wiki keeps the reassurance without promoting the speaker-label ambiguity in the miner handoff into a hard identity claim."
         ]
       },
       {
@@ -56,7 +49,7 @@ export const zyrcantNarrativeCharacterBios: Record<string, CharacterNarrative> =
       }
     ],
     closing: [
-      "Zyrcant's story is not former deputy becomes UL somebody-important. She was already somebody. The better story is what the room eventually gets access to: competitive enough to place and apparently campaign in a hypothetical election, shameless enough to self-file, quiet enough to be misread, protective enough to correct the misread, and comfortable enough that affection can arrive wearing slander. She does not need to dominate a room to keep opting into it; once she is comfortable, she is perfectly capable of making the room accommodate her anyway."
+      "Zyrcant's story is not former deputy becomes UL somebody-important. She was already somebody. The better story is what the room eventually gets access to: competitive enough to place, shameless enough to self-file, quiet enough to be misread, protective enough to correct the misread, and comfortable enough that the crackhead setting apparently becomes available. The newer public-format receipts sharpen one thing further: she does not need to dominate a room to keep opting into it."
     ]
   }
 };
