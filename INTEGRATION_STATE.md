@@ -1,8 +1,30 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-05 — Run 478 close_
+_Last updated: 2026-09-05 — Run 481 close_
 
-MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Detailed Run 478 reconciliation is in `INTEGRATION_REPORT_RUN_478.md` here and the matching MAIN integration report.
+MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Detailed Run 481 reconciliation is in `INTEGRATION_REPORT_RUN_481.md` here and the matching MAIN integration report.
+
+## Run 481 — Ghoulie says the quiet part out loud; Jas appeals the pixel dimensions
+
+Mandatory full census: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**, **0 newly discovered**, **0 backlog**, **0 overdue**. Both Club-Only recovery lanes remain current at saturated/do-not-churn heads `e45fb11c9239e236231bb65645dfd0285bc0078b` and `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`; no raw archive was re-mined.
+
+Opening unread tails Daycare, Mugen person-first, and QOTD / Officers were reviewed checkpoint-first. Closing censuses caught Core Rooms / Events and Wall moving twice while the run was still open; each new head was persisted as seen before review, then reviewed through final observed heads. Final reviewed/consumed boundaries: Daycare `d66eac43ba1b6374477b8481bab950650568dc6c`; Mugen `ec2ec519bc275c75bdff5f530c72d96c1c25529f`; QOTD / Officers `a06a71bfe89752b99e814fe2d2725bfb1eb5b791`; Core `20af14d34e98f38cf19faa950b97f01dcbfdab8e`; Wall `fd798eac129285345829d4d078048db626ee3ff2`. Final unread pending-review count: **0**. Ten families remain MAIN-publication-held only; they are reviewed, not unread.
+
+### Public reconciliation
+
+**Ghoulie / Baby Lyssa:** the July 18, 2021 Wall exchange deepens the existing defendant → receipt-curator story because the affection interpretation comes from Ghoulie herself. She asks `is this y’all’s way of showing me love???`, answers eight seconds later with `cause if that’s the case i love y’all too`, and Ren later TRUE-REPLIES `You’re my idol`; Ghoulie answers `that’s so sweet big thamk🥺`. This was folded into `src/data/character-biographies-baby-lyssa.ts` as lived relationship texture, not romance/family inflation or a universal theory that humiliation equals affection.
+
+Reader commit **`5926ed48d6575b691cfbfb461c2e8d2058c230da`** passed Build **`33998475196`** and Pages **`33998475180`**, including successful GitHub Pages deployment.
+
+**Jas:** the final Wall suffix deepens his existing technicality-lawyer contradiction. Gilli files `Caught in 4k`; Jas protests light mode; when Gilli explains the work context he immediately accepts it with `LMAO okok`; then he changes jurisdictions and objects `254x77px ain't 4K tho 😐`. The useful character read is not generic argumentativeness but a precise little pattern: practical explanation accepted, technical wording still fair game. A momentary `Nitro died-` emoji diagnosis reinforces the tiny-tech streak without becoming subscription-history canon.
+
+This was folded into `src/data/character-biographies-jas.ts` under the existing loophole arc and Petty Crimes. Reader commit **`d5e06438f136837acc8d311560405f7497e75b9c`** passed Build **`33998796091`** and Pages **`33998796145`**; preview build, artifact upload, and **Deploy to GitHub Pages** all succeeded.
+
+### Dedupe / holds
+
+Mugen's battery-vs-screenshot graphics synthesis is already public. Tofu's rebate court and Noether's Hami/dessert pocket are already substantially public. Chubi's re-onboarding continuity and FuentesKaede/Ren return recognition are already owned by current WIKI biographies; the final Core suffix was checkpoint packaging only. Trebach is banked as a socially recognized but procedurally rusty returnee; Booba remains thin; Winter74 remains a one-scene puppy seed; Crystalia's `mermaid` casting stays nonliteral and provenance-bounded. Jas/Gabu animal accusations remain game-joke mutual prosecution. Jas's turtle `she` now has Anthos as a probable textual antecedent backstage only, not hard identity, because there is no Reply pointer and the image is uninspected.
+
+Reader-facing MAIN files changed **0**. Complementary rich Ghoulie/Jas folds and older accepted MAIN material remain publication debt until MAIN's mandatory source-verification + Astro + built-output + production-deploy gate can be safely dispatched. No MAIN reader deployment is claimed.
 
 ## Run 478 — Woohyuk spends very few words very efficiently
 
