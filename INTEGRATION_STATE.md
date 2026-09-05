@@ -1,57 +1,49 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-04 Run 427 final handoff_
+_Last updated: 2026-09-04 Run 428 final handoff_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. This file is the rolling WIKI handoff; earlier verbose states remain recoverable in git history.
 
-## Run 427 handoff
+## Run 428 handoff
 
-Full miner census: **51 tracked identities = 30 active matching refs + 21 historical/missing refs**, with **0 newly discovered, 0 unread pending review, 9 MAIN publication-held families, 0 backlog, and 0 overdue**. QOTD / Officers was reviewed checkpoint-first through `a3a5a90c1070fdbfa4c0e46603a263a424159e19`; a late Core Rooms / Events mover was also caught and reviewed through `0cc926eae5b97640cf631c8e5b56901948ed881a`. Both Club-Only recovery priorities remain current at saturated/do-not-churn heads. No raw archive was re-mined.
+Full miner census: **51 tracked identities = 30 active matching refs + 21 historical/missing refs**, with **0 newly discovered, 0 unread pending review, 9 MAIN publication-held families, 0 backlog, and 0 overdue** at the reviewed boundary. Both Club-Only recovery priorities remain current at their saturated/do-not-churn heads. No raw archive was re-mined.
 
-### Hard identity correction
+A late census caught `archive-miner-wall-hourly-20260824` advancing from consumed `fe19d1fedbcb242675cf4f8e4f304ea423cb893f` to `956b7c1e0487cd13d660e4ec47cdc8b678c95a81`. The suffix was reviewed checkpoint-first using changed `archive-intake/*` handoffs only.
 
-**Akariel is Zyrcant.** MAIN `CANON_LOCKS.md` lists `Akariel`, `Akariel™`, and `akariel_star` as Zyrcant aliases. A concurrent Run-427 state close briefly wrote the opposite; that is a continuity error and must be ignored. Stable account `257294164746698763` belongs to canonical public person **Zyrcant**. Do not create a separate Akariel dossier.
+### Hard identity correction carried forward
 
-### QOTD / Officers reconciliation
+**Akariel is Zyrcant.** MAIN `CANON_LOCKS.md` lists `Akariel`, `Akariel™`, and `akariel_star` as Zyrcant aliases. Any stale `Akariel != Zyrcant` state sentence is a continuity error and must not be resurrected. Do not create a separate Akariel dossier.
 
-**Zyrcant** gains a strong Wall progression. In January 2021 she directly asks to be put on the Wall of Shame; RV/Ren mock-gatekeeps the privilege, then immediately says everybody ends up there eventually. In July she posts an image; Tofu opens bidding at five cents; Zyrcant answers with exaggerated distress; more than half an hour later Mugen is still carrying the premise as `Auction wars`, with RV and Gilli joining the money/bid bit. This is character progression from soliciting public embarrassment to performing outrage when the room actually turns one of her posts into a bargain-bin lot. It is archive irony, not a proven January→July callback. The image pixels remain uninspected.
+### Wall reconciliation — Zhēnxī / Platelet
 
-**Tofu ↔ Kuki** gains a durable reciprocal-exposure mechanism. September 2021 already has Kuki publicly screenshot-filing Tofu, Tofu objecting theatrically and then promising recidivism. In November Anayss directly describes both of them as repeat DM exposers. By August 2024 Kuki still treats Tofu's Wall access as exposure risk and then posts another screenshot at Tofu two days later. Safe read: durable reciprocal ammunition. Do not infer blanket consent, that every exposure was welcome, or that every screenshot was a DM.
+The late Wall suffix adds a strong cumulative person read for stable account `702968421033312275`, **Zhēnxī / Platelet**. The recurring format is image-first and compressed rather than socially absent: a visual or another person's setup arrives, then Zhēnxī supplies the verdict. Representative authored lines include `ITS MY LOFI PLAYLIST SHUSH`, `PUT SOME FURNITURE IN`, `this looks like an emoji`, `i can literally see the pixels`, `HA I GOT U BUTTFACE`, and `im wishing on his downfall`.
 
-Separate concurrent Run-427 character work also added Petty-Crimes-scale Tofu self-debate and Kuki horror-game texture to their existing biographies. Those additions remain in the current reader tree and are not duplicated into the new structured Wall modules.
+The WIKI integration treats those receipts as one character mechanism rather than six event summaries: low prose, quick social synchronization, taste-defense, visual nitpicking, petty competition, and punchlines that work because Zhēnxī does not over-explain them. A dedicated `Petty Crimes` section carries the smaller quirks.
 
-### Core Rooms / Events reconciliation
+Boundaries remain hard. `Hi_6827` is a different stable account and is not merged into Zhēnxī. Gilli/Lunarz adjacency is not promoted into special closeness. The unnamed Afterglow line remains target-agnostic. Export-time/current role arrays do not establish appointment chronology. Uninspected images/GIFs remain POSTED BY/account-associated only unless separate evidence supports MADE BY/CAPTURED BY/FEATURING.
 
-**YveSinclair** gains a developing person seed: Mugen first orients her to general-team voice/text; later, during escape-room-style group planning, Yve opts in, joins the room's silly spooky register, then admits she is doing this while in class and makes the collision itself into a joke. The useful read is quick social buy-in and willingness to match the room's language while ordinary life competes for attention. Do not inflate this into universal horror taste, chronic academic distraction, a dated Staff role, or a membership-start claim. No safe canonical public Yve owner exists yet, so this is banked as future person/Petty-Crimes material.
+### Reader change / verification
 
-**Kuwei** remains held: the surfaced cute/counter-flattery sequence probably reflects playful affectionate register, but the intended counterpart is unresolved. Preceding images remain **POSTED BY Anthos** only. WOO task-help, Grim enacted warmth, and Tae/S42 spy-purpose checks produced no new publishable receipt.
+Reader-facing WIKI change:
+- `src/data/character-biographies-run423.ts` — new person-first **Zhēnxī** narrative and `Petty Crimes` material.
 
-### Reader changes
-
-Current Run-427 WIKI reader tree includes the concurrent Tofu/Kuki biography deepeners plus two additional structured modules:
-
-- `src/data/integrator-episodes-run427-qotd-wall.ts` — **Zyrcant — She Asked for the Wall, Then Got Valued at Five Cents**.
-- `src/data/integrator-gags-run427-qotd-wall.ts` — **Tofu + Kuki: Mutual Assured Screenshot Destruction**.
-
-Verified reader head containing those changes: `933d816d5ce519ed0933e8a7bd4789087518ed7b`.
+Exact reader commit: `1c4cafd176e96378cd8123ad7400e163cf60072d`.
 
 Exact-head verification:
-- Build workflow `33949056480` — **success**.
-- Pages workflow `33949056450` — **success**.
-- Preview build, artifact upload, **Deploy to GitHub Pages**, and report all succeeded.
+- Build workflow `33949734276` — **success**.
+- Pages workflow `33949734281` — **success**.
+- Preview build, artifact upload, and actual **Deploy to GitHub Pages** succeeded.
 
-The later `[skip ci]` state reconciliation commits are reader-neutral descendants of that verified reader head.
+Run 428 intentionally does not mirror this prose onto MAIN. The current material is right-sized for a structured Extended Cast dossier; MAIN should wait until a richer person-first biography can exist without becoming a thin copy of the WIKI.
 
-### MAIN surface split / verification
+### MAIN surface / verification
 
-MAIN reader-facing changes: **0**. The richer Zyrcant Wall progression and Tofu↔Kuki relationship belong eventually inside person-first biographies rather than as mirrored WIKI prose, but MAIN's mandatory publication gate still fails before repository work instantiates.
+MAIN reader-facing changes: **0**.
 
-Verification target `0d8dbf402a9f7f20bd1a4c4ee022c0ccb9db461d`, workflow `33949119763`, failed twice. Attempt 2 again exposed `Build + verify` with `steps=[]`, `runner_id=0`, and no runner name; verified Cloudflare deployment was skipped. MAIN source verification, Astro, built-output verification, and Cloudflare deployment therefore did not execute and reject content. No new MAIN deployment is claimed.
+Verification target `76233ab9f70cab4c6f47b8155635afd7f4b72a0b`, workflow `33949430799`, failed before repository steps instantiated. The failed jobs were rerun once; attempt 2 failed in the same pre-runner shape. `Build + verify` exposed no executable steps and verified Cloudflare deployment was skipped. MAIN source verification, Astro build, built-output verification, and Cloudflare deployment therefore did **not** execute and reject content. No new MAIN deployment is claimed.
 
 ### Consumption / queue
 
-QOTD / Officers is reviewed and consumed through `a3a5a90c1070fdbfa4c0e46603a263a424159e19`; its accepted WIKI changes passed WIKI verification. It remains `pending_publication` because older accepted MAIN Sye material and the richer MAIN person-first folds are still held behind MAIN verification.
+Wall is reviewed and consumed through `956b7c1e0487cd13d660e4ec47cdc8b678c95a81` after the accepted Zhēnxī reader change passed WIKI verification/deployment. Wall remains `pending_publication` only because older accepted MAIN Wall material is still held behind MAIN verification.
 
-Core Rooms / Events is reviewed and consumed through `0cc926eae5b97640cf631c8e5b56901948ed881a`; that fresh suffix is successful no-public-change while older MAIN Core publication debt remains held.
-
-The nine MAIN-held families at close are **QOTD / Officers, Wall, Backroom, Core Rooms / Events, Daycare, Louvre, Meems, Mugen person-first, and Whiskey**. These fresh suffixes are reviewed; `pending_publication` is not permission to reread them next cycle.
+The nine MAIN-held families at close are **QOTD / Officers, Wall, Backroom, Core Rooms / Events, Daycare, Louvre, Meems, Mugen person-first, and Whiskey**. Those miner suffixes are reviewed; `pending_publication` is not permission to reread them next cycle.
