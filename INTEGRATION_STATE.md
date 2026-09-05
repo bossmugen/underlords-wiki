@@ -28,21 +28,21 @@ The actual changed suffix is the miner's 20:19 packet. It explicitly records **N
 
 Public decision: **no Mugen reader change.** This is a successful reviewed-no-public-change suffix and is consumed through head.
 
-### Louvre — Hishiro duplicate, Marsello banked
+### Louvre — Hishiro already owned, Marsello banked
 
-`archive-miner/louvre-ai-art-athenaeum-other-games-hourly` advanced late and was reviewed checkpoint-first and intake-only from `4b7f672ca375c646a8430fb9f98d0177da8da539` through `3d48226a83e0ef4fbd0f80df7545171171c6ec8c`. The branch moved twice during review; both suffixes were closed.
+`archive-miner/louvre-ai-art-athenaeum-other-games-hourly` advanced repeatedly during the run and was reviewed checkpoint-first and intake-only from `4b7f672ca375c646a8430fb9f98d0177da8da539` through `8c47a72827293c07b21f80229c1fdc5334678257`. All three moving suffixes were closed.
 
-The Hishiro packet strengthens a mechanism already public on both surfaces: clipped setup, the room catching the joke, shared escalation, then practical finish. `Snow do know my humor`, the Gilgamesh nuking bit, and the later task-oriented close do not require another public incident paragraph just because a new handoff restated the same person.
+The first Hishiro packet strengthens a mechanism already public on both surfaces: clipped setup, the room catching the joke, shared escalation, then practical finish. The final rabbit-hole-only suffix consolidates a second, stronger Hishiro person read: Gilli can call her and Hishiro turns availability into Fate-servant language; Hishiro says she uses video material partly because it keeps her students' stress low; Mugen can ask for a calibration read and get `accurate`.
 
-The later cumulative handoff adds **Marsello / display `Relentless`** as a sparse person card in `old_guys_lounge`: `to be more stronger every day!!`, then `gg xD`, plus a profile row with blank roles. That is enough for a tiny competitive-improvement texture, not enough to resolve a canonical merge, infer a role, or create a standalone dossier.
+Novelty-check against the current publishing branches found those exact core scenes and mechanisms already substantially public on both Hishiro biographies. WIKI already has the summoning/service section, the lower-stress teaching choice under care, and the concise Mugen calibration. MAIN likewise already owns the same person-first pattern. Public decision: **duplicate/corroboration; no extra incident paragraph merely because `rabbit-holes.md` advanced**.
 
-Public decision: **no Louvre reader change.** Hishiro is duplicate/corroboration; Marsello is banked until there is a safe canonical owner or materially stronger person evidence.
+The middle cumulative handoff adds **Marsello / display `Relentless`** as a sparse person card in `old_guys_lounge`: `to be more stronger every day!!`, then `gg xD`, plus a profile row with blank roles. That is enough for a tiny competitive-improvement texture, not enough to resolve a canonical merge, infer a role, or create a standalone dossier. Public decision: **banked**.
 
 ### Consumption / queue close
 
 - Wall reviewed/consumed through `293c1b34f623107cb71e180bce24d12db1e2c4b0`; status remains `pending_publication` only because older accepted MAIN Wall work is still trapped behind MAIN's publication gate.
 - Mugen person-first reviewed/consumed through `eae8d9ba9fa1340273d4136d918fa6a9d560a3c9`; status remains `pending_publication` only because older accepted MAIN Mugen work is still trapped behind the same gate.
-- Louvre reviewed/consumed through `3d48226a83e0ef4fbd0f80df7545171171c6ec8c`; status remains `pending_publication` only because older accepted MAIN Louvre work is still trapped behind the same gate.
+- Louvre reviewed/consumed through `8c47a72827293c07b21f80229c1fdc5334678257`; status remains `pending_publication` only because older accepted MAIN Louvre work is still trapped behind the same gate.
 - The eight MAIN publication-held families remain **Wall, Backroom, Core Rooms / Events, Daycare, Louvre, Meems, Mugen person-first, and Whiskey**.
 - Closing queue: **0 pending review / 8 publication-held / 0 backlog / 0 overdue**.
 
@@ -63,4 +63,4 @@ WIKI verification target: `dcc6d19334bf473f612719f56444aa915f535ccc`.
 - Pages workflow `33942352680`: **success**.
 - Pages preview build, configuration, artifact upload, `Deploy to GitHub Pages`, and report job: **success**.
 
-No new reader prose was introduced on WIKI. The late Louvre close changed integration bookkeeping only; the already-successful reader verification/deployment remains the controlling public check for this run.
+No new reader prose was introduced on WIKI. The later Louvre closes changed integration bookkeeping and duplicate disposition only; the already-successful reader verification/deployment remains the controlling public check for this run.
