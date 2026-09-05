@@ -6,14 +6,14 @@ MAIN's controlling miner-consumption ledger remains `archive-intake/INTEGRATOR_B
 
 ## Census and intake review
 
-Run 481 completed the mandatory full miner census before deep review: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**, **0 new**, **0 backlog**, **0 overdue**. Both Club-Only recovery lanes remain current at their saturated / do-not-churn heads; no raw archive was re-mined.
+Run 481 completed the mandatory full miner census before deep review: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**, **0 new**, **0 unread pending review**, **0 backlog**, **0 overdue**. Both Club-Only recovery lanes remain current at their saturated / do-not-churn heads; no raw archive was re-mined.
 
-Opening unread tails were Daycare, Mugen person-first, and QOTD / Officers. Closing censuses then caught Core Rooms / Events and Wall moving, and both of those branches moved a second time before the run closed. Every observed head was first persisted as `last_seen_sha`, then reviewed checkpoint-first. Final unread queue: **0**. Ten branch families remain `pending_publication` only because older accepted MAIN work is still held behind MAIN's controlled production gate; these are reviewed, not unread.
+Opening unread tails were Daycare, Mugen person-first, and QOTD / Officers. Closing censuses caught Core Rooms / Events and Wall moving twice, then a final full census caught Mugen person-first moving again to `bd058635...`. Every observed head was persisted as seen before deep review, then reviewed checkpoint-first before consumption advanced. Ten branch families remain `pending_publication` only because older accepted MAIN work is still held behind MAIN's controlled production gate; these are reviewed, not unread.
 
 Final reviewed / consumed heads:
 
 - Daycare `d66eac43ba1b6374477b8481bab950650568dc6c`
-- Mugen person-first `ec2ec519bc275c75bdff5f530c72d96c1c25529f`
+- Mugen person-first `bd0586353d7fff3b890cab1f38fca3bf9badf509`
 - QOTD / Officers `a06a71bfe89752b99e814fe2d2725bfb1eb5b791`
 - Core Rooms / Events `20af14d34e98f38cf19faa950b97f01dcbfdab8e`
 - Wall `fd798eac129285345829d4d078048db626ee3ff2`
@@ -34,13 +34,19 @@ The change was folded into the existing `Defendant becomes interpreter` section 
 
 ### Jas — technical correctness as an escape hatch
 
-A final 16:11 Wall suffix arrived after the first close and was reviewed rather than left as invisible drift. It materially deepened the Jas biography already built around fake custody, evidence suppression, `I do not recall that`, and the smallest available loophole.
+A final 16:11 Wall suffix arrived after the first close and materially deepened the Jas biography already built around fake custody, evidence suppression, `I do not recall that`, and the smallest available loophole.
 
 Gilli posts a `Caught in 4k` filing. Jas answers the visible setup with `YOOO WHAT'S THIS LIGHT MOOODEE`. When Gilli explains that she is at work and the bright setup blends with the programs she uses, Jas immediately accepts the practical reason: `LMAO okok`. He does not keep arguing the big complaint just to win. Instead he preserves the joke by changing jurisdictions: `254x77px ain't 4K tho 😐`. Gilli TRUE-REPLIES with a kick GIF; Jas later answers the kick with a tiny emoji.
 
 That sequence earns a cumulative character read: **dramatic defendant ↔ precise digital nitpicker who will drop the larger complaint when the explanation makes sense, then litigate the surviving wording because the technicality is still funny.** A January `Nitro died-` emoji failure reinforces the tiny-tech streak without becoming a subscription-history claim.
 
 The change was folded into the existing `THE SMALLEST LOOPHOLE IS STILL A LOOPHOLE` section and `Petty Crimes` in `src/data/character-biographies-jas.ts`. Reader commit **`d5e06438f136837acc8d311560405f7497e75b9c`** passed Build **`33998796091`** and Pages **`33998796145`**. The Pages preview build, artifact upload, and **Deploy to GitHub Pages** all succeeded.
+
+### Mugen — planner does not mean neat freak
+
+The final 16:22 Mugen tail was reviewed after the last census mover was persisted as seen. It does not require a WIKI reader mutation, but it closes an important synthesis gap in the reconciled state. Mugen's already-public housemate self-description combines `Aromatherapy 25/7`, late-night pho/boba, Bunbun toys, and a dislike of rooms so perfectly neat that she may deliberately break the effect with something like a painting on the floor.
+
+The useful read is narrower than `Mugen is messy`: **she appears to value structure when structure makes something work, without requiring lived space to look like a showroom.** That deepens the organizer/personally-chaotic contradiction and pairs neatly with her selective screenshot polish. The underlying domestic material is already public on MAIN, and the miner explicitly recommends synthesis rather than duplicate prose, so the tail was consumed with no reader edit.
 
 ## Dedupe / holds
 
@@ -55,8 +61,8 @@ The change was folded into the existing `THE SMALLEST LOOPHOLE IS STILL A LOOPHO
 
 ## MAIN complement
 
-MAIN reader-facing files changed **0**. MAIN already has rich Ghoulie and Jas owners, but the complementary richer folds remain MAIN publication debt until MAIN's required source-verification → Astro build → built-output verification → production deploy gate can be safely dispatched. No MAIN reader build/deploy is claimed in this run.
+MAIN reader-facing files changed **0**. MAIN already has rich Ghoulie and Jas owners, but the complementary richer folds remain MAIN publication debt until MAIN's required source-verification → Astro build → built-output verification → production deploy gate can be safely dispatched. The final Mugen synthesis required no duplicate MAIN reader edit because the underlying domestic material is already present. No MAIN reader build/deploy is claimed in this run.
 
 ## Safety / unresolved rails held
 
-Chubi's intake receipts do not establish lived Officer execution or appointment chronology. FuentesKaede / Ren warmth does not become romance. Trebach return recognition does not establish exact leave/rejoin chronology. Winter's puppy line does not become a durable animal obsession. Ghoulie's Wall affection language is bounded to this relationship/ritual and does not universalize bullying as affection. Crystalia's `mermaid` remains nonliteral comic casting. Jas/Gabu Minecraft animal accusations remain reciprocal game-joke prosecution, not real-world harm. Jas's turtle `she` now has Anthos as a probable textual antecedent backstage only because Gabu's immediately prior filing tags Anthos; no Reply pointer means it stays probable, and the image remains POSTED BY Gabu. POSTED BY / MADE BY / CAPTURED BY / FEATURING remain separate.
+Chubi's intake receipts do not establish lived Officer execution or appointment chronology. FuentesKaede / Ren warmth does not become romance. Trebach return recognition does not establish exact leave/rejoin chronology. Winter's puppy line does not become a durable animal obsession. Ghoulie's Wall affection language is bounded to this relationship/ritual and does not universalize bullying as affection. Crystalia's `mermaid` remains nonliteral comic casting. Mugen's self-described home picture is not a cleanliness, housing, roommate-history, hoarding, or literal routine claim. Jas/Gabu Minecraft animal accusations remain reciprocal game-joke prosecution, not real-world harm. Jas's turtle `she` now has Anthos as a probable textual antecedent backstage only because Gabu's immediately prior filing tags Anthos; no Reply pointer means it stays probable, and the image remains POSTED BY Gabu. POSTED BY / MADE BY / CAPTURED BY / FEATURING remain separate.
