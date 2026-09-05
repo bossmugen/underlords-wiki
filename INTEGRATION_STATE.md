@@ -1,10 +1,10 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-04 Run 421 close_
+_Last updated: 2026-09-04 Run 421 final close_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. This file is the rolling WIKI handoff; earlier verbose run states remain recoverable in git history.
 
-## Run 421 close
+## Run 421 final close
 
 Full miner census: **51 tracked identities = 30 active matching refs + 21 historical/missing refs**, with **0 newly discovered, 0 pending review, 8 MAIN publication-held families, 0 backlog, and 0 overdue** at close.
 
@@ -28,10 +28,21 @@ The actual changed suffix is the miner's 20:19 packet. It explicitly records **N
 
 Public decision: **no Mugen reader change.** This is a successful reviewed-no-public-change suffix and is consumed through head.
 
+### Louvre — Hishiro duplicate, Marsello banked
+
+`archive-miner/louvre-ai-art-athenaeum-other-games-hourly` advanced late and was reviewed checkpoint-first and intake-only from `4b7f672ca375c646a8430fb9f98d0177da8da539` through `3d48226a83e0ef4fbd0f80df7545171171c6ec8c`. The branch moved twice during review; both suffixes were closed.
+
+The Hishiro packet strengthens a mechanism already public on both surfaces: clipped setup, the room catching the joke, shared escalation, then practical finish. `Snow do know my humor`, the Gilgamesh nuking bit, and the later task-oriented close do not require another public incident paragraph just because a new handoff restated the same person.
+
+The later cumulative handoff adds **Marsello / display `Relentless`** as a sparse person card in `old_guys_lounge`: `to be more stronger every day!!`, then `gg xD`, plus a profile row with blank roles. That is enough for a tiny competitive-improvement texture, not enough to resolve a canonical merge, infer a role, or create a standalone dossier.
+
+Public decision: **no Louvre reader change.** Hishiro is duplicate/corroboration; Marsello is banked until there is a safe canonical owner or materially stronger person evidence.
+
 ### Consumption / queue close
 
 - Wall reviewed/consumed through `293c1b34f623107cb71e180bce24d12db1e2c4b0`; status remains `pending_publication` only because older accepted MAIN Wall work is still trapped behind MAIN's publication gate.
 - Mugen person-first reviewed/consumed through `eae8d9ba9fa1340273d4136d918fa6a9d560a3c9`; status remains `pending_publication` only because older accepted MAIN Mugen work is still trapped behind the same gate.
+- Louvre reviewed/consumed through `3d48226a83e0ef4fbd0f80df7545171171c6ec8c`; status remains `pending_publication` only because older accepted MAIN Louvre work is still trapped behind the same gate.
 - The eight MAIN publication-held families remain **Wall, Backroom, Core Rooms / Events, Daycare, Louvre, Meems, Mugen person-first, and Whiskey**.
 - Closing queue: **0 pending review / 8 publication-held / 0 backlog / 0 overdue**.
 
@@ -52,4 +63,4 @@ WIKI verification target: `dcc6d19334bf473f612719f56444aa915f535ccc`.
 - Pages workflow `33942352680`: **success**.
 - Pages preview build, configuration, artifact upload, `Deploy to GitHub Pages`, and report job: **success**.
 
-No new reader prose was introduced on WIKI; the deployment verifies the current public surface plus this Run 421 state handoff.
+No new reader prose was introduced on WIKI. The late Louvre close changed integration bookkeeping only; the already-successful reader verification/deployment remains the controlling public check for this run.
