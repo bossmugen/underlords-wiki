@@ -101,4 +101,61 @@ export const run441WoosungNarrativeCharacterBios: Record<string, CharacterNarrat
   }
 };
 
+export const run464RoseNarrativeCharacterBios: Record<string, CharacterNarrative> = {
+  rose: {
+    intro: [
+      "Rose — **DarkAsrai** in the stable account trail — is historical Staff, a long-running Wall defendant who keeps becoming one of the people carrying evidence into the room, and somebody whose idea of losing a case can include filing another packet anyway. Her Wall arc is almost suspiciously tidy: first **`I had a feeling this would happen`**, later **`I knew id get in here`**, then **`Beat me to it`** before posting her own attachments. Suspicion becomes expectation; expectation becomes participation.",
+      "Outside Screenshot Court, Rose is much less one-note. Gilli recognizes Rose instantly on a 2022 return before the role paperwork catches up. Rose can volunteer twenty QOTD prompts and still have the source Word document months later when one fires out of order. Cooking knowledge sits beside years of food-service fatigue rather than a cute hustle fantasy. The same person who can design an industrial dream kitchen can also say professional cooking made cooking feel like work. Rose is useful, competent, self-roasting, and perfectly capable of becoming the exhibit while holding the evidence bag."
+    ],
+    sections: [
+      {
+        period: "Return",
+        title: "THE PERSON ARRIVES BEFORE THE PAPERWORK",
+        paragraphs: [
+          "On November 7, 2022, Rose writes **`Hi gilli`**. Gilli answers one second later: **`Welcome back rose!`**. Only afterward does the room redo the intake fields and role assignment. Whatever labels the account supplies in that later form, Gilli recognizes Rose first. The bureaucracy is catching up to a person the room already knows.",
+          "That matters because Rose's surviving activity stretches much farther than one doorway scene. The same stable account remains visible across later archive material, including Daycare, Wall and QOTD. A return does not need a dramatic reintroduction when somebody can identify you in one second."
+        ]
+      },
+      {
+        period: "Wall of Shame / Fame",
+        title: "ROSE KNOWS THE WALL IS COMING AND STILL HELPS IT ARRIVE",
+        paragraphs: [
+          "The oldest clean self-awareness beat is August 2021: **`I had a feeling this would happen`**. By April 2023 it has upgraded to **`I knew id get in here`**. Two days later Rose laughs because somebody else reaches the evidence first, writes **`Beat me to it`**, and posts two attachments anyway. Getting scooped does not end the case. It merely establishes that another prosecutor has already clocked in.",
+          "Rose also works as a tiny rerun desk. In September 2021, after posting a screenshot and a video, Rose follows with **`For those who missed this`**. That sentence turns receipt-sharing into social maintenance: not everybody saw the original scene, so Rose brings the scene back around. Later filings make the role messier because Rose is also a recurring defendant. Screenshot Court has no stable seating chart and Rose apparently sees no reason it should.",
+          "The defense style is equally self-destructive. One surviving sequence starts **`But I am innocent`**, downgrades to **`Kind of`**, then lands on **`Okay may be not that much`**. Rose cross-examines her own innocence without requiring opposing counsel. On another filing she answers **`He hit me first`** and then **`Its his fault`**. The instinct is not to leave the bit. It is to litigate from inside it."
+        ]
+      },
+      {
+        period: "Rummy / game combat",
+        title: "RUST IS APPARENTLY A REASON TO FIGHT SOMEONE",
+        paragraphs: [
+          "New Year's Day 2023 catches the game side of Rose in a wonderfully unserious re-entry posture. Rose asks Rummy **`Bet wanna fight me XD`**, then explains **`Lets see how much i remember of the combat`**. Rummy accepts the challenge with **`Yesh- gonna be very swuiShy`**. The exchange reads as reciprocal game-combat play, not hostility: Rose openly admits rust and immediately turns the uncertainty into a social challenge.",
+          "That is a useful little relationship texture with Rummy because neither person needs to formalize what the interaction is. Rose does not perform expertise she is unsure she still has. Rummy does not treat the admission as a reason to soften the premise. The answer is basically yes, come be rusty at me."
+        ]
+      },
+      {
+        period: "QOTD / ordinary life",
+        title: "SHE KEEPS THE SOURCE FILE AND ALSO WANTS NOTHING TO DO WITH YOUR RESTAURANT STARTUP",
+        paragraphs: [
+          "Rose volunteers a structured twenty-question QOTD list in 2023. Months later, when one of those questions appears without the setup it was supposed to have, Rose can still go back to the source and repair the sequence: **`Had to search my word document`**. It is not a formal Archivist title. It is follow-through. Rose kept the thing, noticed the continuity problem, and went and got the missing piece instead of letting the card stay broken.",
+          "Cooking gives the same competence a less romantic ending. Rose's dream kitchen is detailed enough to include an industrial refrigerator/freezer, blast chiller, dry-aging cabinet, double convection oven and serious baking/storage equipment. Separate self-report explains why the knowledge is there: years in food service. It also explains why Rose is not interested in turning every skill into a business. Doing it professionally for so long can make cooking feel like a chore. The dream kitchen is real; so is the anti-hustle clause."
+        ]
+      },
+      {
+        period: "Petty Crimes",
+        title: "Petty Crimes",
+        paragraphs: [
+          "**Wall precognition:** `I had a feeling this would happen` eventually becomes `I knew id get in here`. At some point prophecy is just pattern recognition with worse legal outcomes.",
+          "**Height relief:** `Oh great theres people shorter than me`. No exact height required. The important measurement unit is apparently other people.",
+          "**Premise escalation:** after Nobu says he misread something as `children`, Rose supplies **`Noo they taste like chicken XD`**. This is an absurd co-riff, not testimony before an actual tribunal, thank fuck.",
+          "**Saved the Word document.** QOTD continuity repair powered by the rare and terrifying decision not to delete the source file after submitting it."
+        ]
+      }
+    ],
+    closing: [
+      "Rose's archive personality works because the roles keep crossing. Historical Staff can be useful without becoming management wallpaper. A Wall defendant can be the person re-circulating evidence. Somebody who admits combat rust can turn it into an invitation. Somebody with serious cooking knowledge can want absolutely no restaurant empire. The stable part is not one job. It is the willingness to participate fully enough that even Rose's own contradictions become reusable material."
+    ]
+  }
+};
+
 export { run401NarrativeCharacterBios, run402NarrativeCharacterBios, run406NarrativeCharacterBios, run412NarrativeCharacterBios, run413NarrativeCharacterBios, run423NarrativeCharacterBios, run429NarrativeCharacterBios, run435NarrativeCharacterBios, run438NarrativeCharacterBios, run445NarrativeCharacterBios };
