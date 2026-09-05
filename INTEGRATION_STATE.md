@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-05 — Run 450 close_
+_Last updated: 2026-09-05 — Run 450 final close_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Earlier verbose states remain recoverable in git history.
 
@@ -13,6 +13,7 @@ Reviewed checkpoint-first and intake-only:
 - Louvre / AI Art / Athenaeum / Other Games: reviewed through `f9a97732664c7cba8a892109b33d8b53af6133ee`; its controlling MAIN consumed cursor remains conservative because older accepted MAIN Louvre work is still verification-held.
 - Wall of Shame / Fame: reviewed through late-moving head `98d74a9f6565114e0f4b91757229050704a01c9a`.
 - Daycare: late-moving suffix reviewed through `88250a54014507ab8284daa8f3984e5e39483fb4`.
+- QOTD / Officers: final late suffix reviewed through `e8ed19154e5d92b5cf3c29318d32576b1831063a` and consumed as public-equivalent / corroboration.
 
 No raw archive was re-mined. Both Club-Only recovery priorities remain current at saturated / do-not-churn heads (`e45fb11c…` for 2021–2026, `ed66714f…` for 2020).
 
@@ -31,6 +32,12 @@ Later Tony recognizes recurring house nonsense, remembers that somebody `said th
 ## Akamin — beverage doctrine requires no committee
 
 Akamin's Wall contribution `Whiskey` followed by `Always gonna be my drink bb` is small enough for exactly one place: `Petty Crimes`. No tasting notes, no invented origin, no event page. The preference is already settled in her own language.
+
+## Alkey — late packet, already home
+
+The final QOTD / Officers mover produced good Alkey material, but current WIKI Alkey already substantially owns it: the January 2021 Discord threshold, the tiny `cock fight achieved` → Mugen popcorn → `I aim to please` performance, and the adjacent-day Ren caricature exchange where Alkey reduces Ren to `3 foot lookin` before Ren/Souta/Mugen turn Alkey into `alkitty` with paws. No duplicate biography paragraph was added merely because a new miner handoff rediscovered scenes already living correctly inside the person.
+
+The one useful complication is kept backstage: later WHOMSTF `ALL CAPS` is a socially useful recognition clue, not an always-on historical typing style. Earlier direct Alkey speech is often compact lowercase deadpan. Current public Alkey prose does not claim universal caps, so there was nothing reader-facing to repair. The 2025 Canada reaction remains corroboration only, and all uninspected Alkey-related images remain attribution-held.
 
 ## Banked / held material
 
@@ -56,12 +63,14 @@ Exact final reader commit: **`a1edeb1ea3d5e5e6ec1ddfd91a8835dd236c849f`**.
 - Pages workflow `33969788247` — **success** against that exact reader head.
 - Pages build, artifact upload, actual **Deploy to GitHub Pages**, and report steps completed successfully.
 
+The later Alkey suffix required no reader mutation; therefore the verified/deployed reader head remains the exact public head for Run 450.
+
 MAIN made **0 reader-facing changes** this run. Its production workflow remains intentionally manual / `workflow_dispatch`-only while the runner/account issue is under maintenance. With no MAIN reader change and no connector dispatch action, Run 450 does not claim fresh MAIN source verification, Astro build, built-output verification, or Cloudflare deployment.
 
 ## Surface split / consumption intent
 
 Suzimasu, TonyTonyChopper, and Akamin were intentionally WIKI-only this pass because the new material deepened existing structured character owners there. No thinner MAIN twins were created merely for symmetry.
 
-Wall is fully reviewed through `98d74a9f6565114e0f4b91757229050704a01c9a`; the accepted WIKI reader changes passed verification/deployment, and the final late Wall suffix required no further reader mutation. Daycare is a successful no-public-change review through `88250a54014507ab8284daa8f3984e5e39483fb4`. Louvre is reviewed through `f9a97732664c7cba8a892109b33d8b53af6133ee`, but its older accepted complementary MAIN publication remains held behind the unavailable MAIN verification gate.
+Wall is fully reviewed through `98d74a9f6565114e0f4b91757229050704a01c9a`; the accepted WIKI reader changes passed verification/deployment, and the final late Wall suffix required no further reader mutation. Daycare is a successful no-public-change review through `88250a54014507ab8284daa8f3984e5e39483fb4`. QOTD / Officers is consumed through `e8ed19154e5d92b5cf3c29318d32576b1831063a` as duplicate/public-equivalent plus a held clue complication. Louvre is reviewed through `f9a97732664c7cba8a892109b33d8b53af6133ee`, but its older accepted complementary MAIN publication remains held behind the unavailable MAIN verification gate.
 
 Ten families remain MAIN publication-held: Backroom, Birthdays / PR / VC, Core Rooms / Events, Daycare, Louvre, Meems, Mugen person-first, Whiskey, QOTD / Officers, and Wall.
