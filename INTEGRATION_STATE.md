@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-04 Run 421 review close_
+_Last updated: 2026-09-04 Run 421 close_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. This file is the rolling WIKI handoff; earlier verbose run states remain recoverable in git history.
 
@@ -35,10 +35,21 @@ Public decision: **no Mugen reader change.** This is a successful reviewed-no-pu
 - The eight MAIN publication-held families remain **Wall, Backroom, Core Rooms / Events, Daycare, Louvre, Meems, Mugen person-first, and Whiskey**.
 - Closing queue: **0 pending review / 8 publication-held / 0 backlog / 0 overdue**.
 
-### Public surfaces
+### Public surfaces / verification
 
 Reader-facing MAIN pages changed: **0**.
 
+MAIN verification target: `0cb251e2f8ee7c19962dc184cef884a2fe0ecb05`.
+- Workflow `33942339444`, attempt 1: failed before repository steps instantiated; Cloudflare deployment skipped.
+- The failed `Build + verify` job was explicitly rerun once.
+- Attempt 2 failed in the same pre-runner shape; latest `Build + verify` again had no executable step list (`steps: null`) and Cloudflare remained skipped.
+- MAIN source verification, Astro, built-output verification, and Cloudflare therefore did **not** execute and reject content. No new MAIN deployment is claimed.
+
 Reader-facing WIKI pages changed: **0**.
 
-This state-only WIKI commit is the Run 421 verification target for the repository's existing Build / Pages path. Exact workflow/deployment result is recorded in the subsequent close update.
+WIKI verification target: `dcc6d19334bf473f612719f56444aa915f535ccc`.
+- Build workflow `33942352572`: **success**; Astro build succeeded.
+- Pages workflow `33942352680`: **success**.
+- Pages preview build, configuration, artifact upload, `Deploy to GitHub Pages`, and report job: **success**.
+
+No new reader prose was introduced on WIKI; the deployment verifies the current public surface plus this Run 421 state handoff.
