@@ -24,6 +24,15 @@ Run 414 MAIN verification target: `85d181eebe139f807fee3cc07737c88cbd9d868b`.
 
 Workflow `33934996308` failed before repository execution on attempt 1. The failed jobs were explicitly rerun once. Attempt 2 failed in the same shape: `Build + verify` returned no instantiated steps and `Deploy verified master to Cloudflare Pages` was skipped. Therefore MAIN source verification, Astro build, built-output verification, and Cloudflare deployment did not run and reject reader content. MAIN reader-facing changes remain **0** and no new MAIN deployment is claimed.
 
-## WIKI verification target
+## WIKI verification / deployment
 
-This reader-neutral report commit is the Run 414 WIKI verification target. Existing Build and Pages workflows must both succeed before the run is closed as healthy. No reader prose is changed by this report.
+Run 414 WIKI verification target: `8e4812992385a15d301124e9c19aae0b2deee908`.
+
+- Build workflow `33935055466`: **success**. Astro build completed successfully.
+- Pages workflow `33935055418`: **success**.
+- Pages preview build: **success**.
+- Pages artifact upload: **success**.
+- `Deploy to GitHub Pages`: **success**.
+- Pages report job: **success**.
+
+The target is reader-neutral, so this confirms current WIKI publication health without changing reader prose.
