@@ -17,13 +17,21 @@ const wolfWatchedFirst: NarrativeSection = {
   ]
 };
 
+const birthdayListConsent = "The preservation instinct has a stop condition too. In 2021, while maintaining the house birthday list, Mugen asks Baby Lyssa whether she wants to be added even while calling her `pretty much family now uwu`. When somebody else declines inclusion, Mugs answers plainly: `I won't put anyone's there without their consent`. That is narrower and more useful than making her a generic privacy saint. She can know a personal detail, care enough to remember it, and still treat turning it into shared group memory as a separate permission. Closeness does not automatically make somebody's information communal property.";
+
+const mugenSectionsWithConsent = mugenBase.sections.map((section) =>
+  section.title === "Don't lose the shit"
+    ? { ...section, paragraphs: [...section.paragraphs, birthdayListConsent] }
+    : section
+);
+
 export const run400MugenNarrativeCharacterBios: Record<string, CharacterNarrative> = {
   mugen: {
     ...mugenBase,
     sections: [
-      mugenBase.sections[0],
+      mugenSectionsWithConsent[0],
       wolfWatchedFirst,
-      ...mugenBase.sections.slice(1),
+      ...mugenSectionsWithConsent.slice(1),
     ],
   },
 };
