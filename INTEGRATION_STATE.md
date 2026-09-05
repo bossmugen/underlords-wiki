@@ -18,9 +18,9 @@ Older QOTD rabbits remain open: Anthos-vs-Ren Challenge 2 wording, `JJJ`, the ex
 
 ## Public surface status
 
-Reader-facing MAIN files changed **0**. DyingFox does not yet have enough surrounding life for a rich MAIN biography, and Ren's image referent is unresolved. MAIN's production workflow remains intentionally decoupled from pushes and gated behind manual dispatch / the controlled scheduled window, so no fresh MAIN reader build/deploy claim is made.
+Reader-facing MAIN files changed **0**. DyingFox does not yet have enough surrounding life for a rich MAIN biography, and Ren's image referent is unresolved. MAIN's production workflow remains intentionally decoupled from pushes and gated behind manual dispatch / the controlled scheduled window, so no fresh MAIN reader build/deploy claim is made. MAIN's durable close report is commit `a6e023f4912fd43d4313204895930c28377f36d8`.
 
-Reader-facing WIKI files changed **0**. This run updates durable integration state only; the final WIKI state commit is intentionally allowed through the normal Build + Pages workflows so the exact closing tree is verified and deployed even though reader data did not change.
+Reader-facing WIKI files changed **0**. The exact Run-465 state commit **`88f91b37c44d9128e459fdebbe91a273453b5c96`** passed Build Underlords Wiki workflow **`33983039103`** and Pages workflow **`33983038733`**. Pages completed the preview build, artifact upload, actual **Deploy to GitHub Pages** job, and status reporting successfully. The later `INTEGRATION_REPORT_RUN_465.md` / state-close commits are reader-neutral audit updates and intentionally use `[skip ci]`.
 
 ## Current queue after Run 465
 
@@ -33,4 +33,4 @@ Reader-facing WIKI files changed **0**. This run updates durable integration sta
 
 The QOTD / Officers family remains `pending_publication` only because older accepted MAIN work is still held; the fresh Run-465 suffix itself is fully reviewed and will not be reread as an unread tail.
 
-Detailed reconciliation is in `INTEGRATION_REPORT_RUN_465.md` here and `archive-intake/INTEGRATION_REPORT_RUN_465.md` on MAIN once the run closes.
+Detailed reconciliation is in `INTEGRATION_REPORT_RUN_465.md` here and `archive-intake/INTEGRATION_REPORT_RUN_465.md` on MAIN.
