@@ -26,7 +26,7 @@ Erys already had a public biography. The fresh Wall tail strengthens its core me
 
 More importantly, Run 445 fixes a recipient overassignment in the older biography. The previously visible text said Rummy sent a hug and Erys answered **`i lubn u tyoo`**. The directly tethered Rummy exchange is instead the hug followed by Erys's **`awwwd i just gota hug`** and **`thankgs youh`**. The target of `i lubn u tyoo` is not cleanly resolved in this packet, so it is no longer assigned to Rummy.
 
-The emotional read survives the correction and gets better. Erys does not suddenly become eloquent when she softens; her language falls apart harder. Courtroom Erys can compress a defense into `hearsay`. Hugged Erys can compress delight into typo soup. Same person, different temperature.
+The emotional read survives the correction and gets better. Erys does not suddenly become eloquent when she softens; her language falls apart harder. Courtroom Erys can compress a defense into `hearsay`. Hugged Erys can compress delight into typo soup. Same person, different temperature. The attribution correction itself stays backstage in this file; the visible biography now simply tells the correct scene instead of narrating source housekeeping at the reader.
 
 ## Meaning-deduped / held
 
@@ -40,10 +40,10 @@ The late **Mugen person-first** suffix remains reconciliation-only. Current MAIN
 
 ## Verification / deployment
 
-Run 445 reader head: **`b7268268caadca855a0df3221d9a2effb862f818`**.
+Final Run 445 reader head: **`59262d54ebb5c7ea2d20b4caadd002fe63949908`**.
 
-- Build workflow `33964280404` — **success** on the exact reader head.
-- Pages workflow `33964280410` — **success** on the exact reader head.
+- Build workflow `33964505584` — **success** on the exact reader head.
+- Pages workflow `33964505603` — **success** on the exact reader head.
 - Pages preview build — **success**.
 - artifact upload — **success**.
 - actual `Deploy to GitHub Pages` job — **success**.
