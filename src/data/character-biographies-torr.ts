@@ -3,48 +3,48 @@ import type { CharacterNarrative } from "./character-biographies-narrative";
 export const torrCharacterBiography: Record<string, CharacterNarrative> = {
   torr: {
     intro: [
-      "Torr — also DiStratus / torrentstorm — is one of those archive characters whose personality becomes obvious the second several small scenes are allowed to sit next to each other. Games are native language, self-correction is practically a reflex, and the safest assumption is that if Torr tries to use a joke against somebody else, there is a nonzero chance the joke will circle back and prosecute Torr instead.",
-      "The useful through-line is not that Torr is confused. It is that Torr recovers from being wrong with almost no ego ceremony. He can realize mid-sentence that he misunderstood where he was going, remember that his own friendship with Gilli destroys the argument he was making, or discover that a Wall post has become evidence against himself. The response is usually some version of: oh. Right. Anyway. Keep going."
+      "Torr — also DiStratus / torrentstorm — gets a surprisingly complete person file out of one early month: a small Lobby misunderstanding, an alarmingly fast education in Wall physics, a running tendency to notice context danger only after the sentence already exists, and a family biscuit story that somehow becomes relevant during pancake litigation.",
+      "The useful through-line is adaptation without much ego ceremony. Torr can misunderstand an intake prompt, realize the mistake, and simply answer it. A few days later Torr is already spotting how easily a sentence can be taken out of context; within weeks Torr is openly saying the stream is generating Wall material and learning that deleting an ambiguous comment does not help once somebody saved it."
     ],
     sections: [
       {
         title: "ARRIVAL / ACCLIMATION",
         paragraphs: [
-          "One of Torr's best surviving doorway scenes starts with him thinking Iya told him to join her clan. Then the realization arrives in real time: `NOW I SEE IT WAS DA CLUB` / `UNDERLORDS`. The caps read less like panic than the exact moment the room label finally loads. Torr does not spend the next ten messages defending the mistake; he lands on `well either way I'm glad to be here :huggies:`. That `either way` is the social pivot. Wrong door, right people, apparently good enough.",
-          "Daya welcomes him and says he will fit in perfectly. Torr's immediate social reference point is Gilli: `i hope so since gilli has been a bad influence on me already`. Gilli answers, `Actually I’m a great influence Wtf`. He is already using an existing relationship as a way to locate himself inside the new room, and the room answers in the same joking register instead of making arrival feel ceremonial."
+          "The surviving September 2022 Lobby threshold begins with one tiny administrative wrong turn. Asked for IGN, club and age, Torr starts trying to remember how to change the server name, hits the server's nickname-permission wall, then realizes what the prompt actually wanted: `oh i misunderstood. TorrentStorm - Underlords -32.` Sou immediately explains that Staff can handle the nickname. Problem solved; no grand embarrassment summit required.",
+          "That scene is useful as texture, not chronology. It gives a clean dated self-report and one small misunderstanding. It does not tell us who recruited Torr, who admitted Torr in-game, or the exact beginning of membership."
         ]
       },
       {
         title: "RELATIONSHIPS — GILLI",
         paragraphs: [
-          "Torr and Gilli's recurring language is basically a jurisdictional dispute over who corrupted whom. The arrival scene calls Gilli the bad influence. Elsewhere Torr says UL are bad influences and then specifies `gilli specifically`; Gilli counters that Torr corrupted her; Torr escalates through `NOOOO`, `I HAVE NOT`, and finally the clipped `we / will disagree.` Nobody needs to resolve the charge because the accusation itself is the relationship toy.",
-          "Their older Raja history gives the bit more weight without turning it into romance. Torr once starts to say meeting somebody from Raja would be weird, then catches himself: `then I remember / that's how i met gilli / so uh, yea`. Gilli's answer — `You contradicting yourself again?` — lands like somebody who has seen this operating system before. The intimacy here is familiarity with the other person's logic glitches, not a literal relationship label."
+          "Gilli becomes part of Torr's explanation for why the Wall keeps happening so quickly. After one early screenshot, Torr says it can be taken out of context. A few days later the complaint becomes more specific: why does Torr write so many things that can be taken out of context when Gilli is around? By October 6 the diagnosis is explicit: `i get on here a lot. i blame Gilli bad influence.`",
+          "That wording earns influence-on-behavior, not a recruiter story and not a romance label. The important relationship texture is that Torr can name Gilli as the person around whom context-dangerous sentences keep reproducing, and Gilli is already familiar enough to function as a recurring explanation rather than a formal introduction."
         ]
       },
       {
-        title: "RUNNING GAG — PLAYING HIMSELF",
+        title: "RUNNING GAG — THE WALL LEARNS TORR FAST",
         paragraphs: [
-          "Torr learns the Wall frighteningly fast. Soon after the arrival confusion, he is already asking whether he can post something stupid but funny his sister said. Then he starts presenting his own laptop as evidence: `don’t judge my clean laptop`, immediately corrected by `ITS NOT ACTUALLY CLEAN`, followed by the admission that he has not cleaned or organized the tabs in about six months.",
-          "The best part is the delayed self-own. Daya tells him `u played urself`. Torr initially asks `wait what?`, then the realization catches up: `oops i did play myself` / `lol didnt even realize`. That is extremely Torr. The defense lasts only until comprehension arrives. Once the joke becomes legible, he is willing to join the prosecution against himself."
+          "Four days after the surviving Lobby threshold, Gilli posts an uninspected screenshot and tags Torr. Torr answers `XD`, then twenty-two seconds later: `that can be taken out of context XD`. By October 5, after stream screenshots start landing, Torr is self-aware enough to say `XD i'm giving a lot of material with this stream`. The pixels stay undescribed; the important thing is that Torr already understands the stream is feeding the machine.",
+          "October 24 completes the lesson. After another saved receipt lands, Torr complains that an ambiguous comment had been deleted but somebody saved it anyway: `i tried to delete and they saved my completely ambiguous comment.` Then comes the magnificently doomed insistence: `totally ambiguous`. Less than a month in, Torr has learned the central procedural fact of screenshot court: deletion is not retroactive immunity."
         ]
       },
       {
-        title: "ORDINARY LIFE — BISCUITS",
+        title: "ORDINARY LIFE — BLACKENED, NOT BURNT",
         paragraphs: [
-          "A few days later, the file cuts to family life. Torr says it is his grandmother's birthday, that he has to stay, and that he is being made to deal with biscuits despite one major technical obstacle: `this sucks… I don’t know how to make biscuits`. Later he says he is going to his grandmother's and will meet up with everybody when he gets back.",
-          "Nothing grand needs to be invented around it. The scene is useful because it is so ordinary: family birthday, domestic assignment, sudden competency gap, social plans temporarily routed around real life. Torr can sound completely at home in games and then meet a biscuit like it is an unfamiliar boss mechanic."
+          "Rummy's already-known pancake disaster unlocks a new Torr family story. Torr remembers that grandma needed dinner biscuits on special occasions and would reliably burn them, so the household developed a standing euphemism: `they are not burnt they are blackened.`",
+          "The detail is small and exactly the right size. It gives us a repeated family joke and the kind of culinary failure that survives by getting renamed. It does not tell us the holiday, recipe, cultural tradition, or anything about grandma beyond what Torr actually volunteered."
         ]
       },
       {
         title: "PETTY CRIMES",
         paragraphs: [
-          "Torr says he grew up playing Smash and therefore basically `eat[s], sleep[s], and breathe[s]` these kinds of games. That supports gaming fluency; it does not magically create a competitive rank, favorite Smash title, platform, or tournament career.",
-          "At least one laptop had roughly six months of tab/organization debt before Torr publicly described it as clean and then immediately revoked the claim himself."
+          "First surviving Discord problem: defeating the wrong onboarding boss by trying to change the nickname when the room only wanted three intake fields.",
+          "By the end of the first surviving Wall month, Torr has progressed from `that can be taken out of context XD` to discovering that a deleted comment can still come back because somebody saved it. An education was received. Consent to the curriculum appears to have been irrelevant."
         ]
       }
     ],
     closing: [
-      "Torr's surviving file is compact, but the same reflex keeps showing up: enter quickly, joke quickly, realize something half a beat late, and then absorb the correction instead of freezing the room around the mistake. The result is a person who feels socially fast precisely because being wrong does not seem to cost him very much dignity."
+      "Torr's early UL file is therefore less about one big event than about speed. The room barely has time to learn the name before Torr is already speaking Wall dialect, blaming Gilli for the contamination, supplying material through a stream, and finding out that screenshots have longer memories than deleted comments."
     ]
   }
 };
