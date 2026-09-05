@@ -3,7 +3,7 @@ import type { CharacterNarrative } from "./character-biographies-narrative";
 export const run435NarrativeCharacterBios: Record<string, CharacterNarrative> = {
   aeshleen: {
     intro: [
-      "Aeshleen enters the surviving Discord doorway already socially attached to the house. Her own introduction calls Mugen and HamitteY friends; thirty-two seconds later Mugen is greeting `aesh van gogb`, assigning the roles she needs, and pointing her toward the server map. About a minute after that, Mugen has already put her on the Wall of Shame.",
+      "Aeshleen walks into the Discord already socially attached to the house. Her own introduction calls Mugen and HamitteY friends; thirty-two seconds later Mugen is greeting `aesh van gogb`, assigning the roles she needs, and pointing her toward the server map. About a minute after that, Mugen has already put her on the Wall of Shame.",
       "The speed is funny, but the better character detail is what Aeshleen does with it. She does not go quiet or retreat into newcomer politeness. She announces `im leaving bye`, upgrades the charge to `THATS BULLYING`, then keeps playing inside the Van Gogh riff while Ghoulie diagnoses the whole thing as `bulli with love`. The room is treating her like somebody it can tease almost immediately, and Aeshleen answers like somebody who already knows how to throw the joke back."
     ],
     sections: [
@@ -11,7 +11,7 @@ export const run435NarrativeCharacterBios: Record<string, CharacterNarrative> = 
         period: "April 24, 2021",
         title: "NINETY-THREE SECONDS TO BECOME HOUSE LORE",
         paragraphs: [
-          "The sequence is absurdly compact. Aeshleen checks in from Council S9 and names Mugen and HamitteY as friends. Mugen welcomes her, gets the practical setup out of the way, and sixty seconds later opens Aeshleen's Wall career with `Welcome to the Underlords wall of shame, GOGB`. The attached image is almost beside the point for the biography; everybody's language tells us what happened socially. Ghoulie is already yelling `BRUH ALREADY??`. Aeshleen is already prosecuting the prosecution.",
+          "The sequence is absurdly compact. Aeshleen checks in from Council S9 and names Mugen and HamitteY as friends. Mugen welcomes her, gets the practical setup out of the way, and sixty seconds later opens Aeshleen's Wall career with `Welcome to the Underlords wall of shame, GOGB`. Ghoulie is already yelling `BRUH ALREADY??`. Aeshleen is already prosecuting the prosecution.",
           "The ear-and-painting riff follows because the room refuses to let one joke remain one joke. Aeshleen reaches for Van Gogh melodrama, Mugen answers by offering to buy the painting, and Aeshleen settles the matter with `okAY`. That little exchange is a better introduction than a role list. Aeshleen can object loudly without exiting the relationship, and the people around her can hear the objection as part of the play because she keeps handing them material back."
         ]
       },
@@ -33,7 +33,7 @@ export const run435NarrativeCharacterBios: Record<string, CharacterNarrative> = 
       {
         title: "Petty Crimes",
         paragraphs: [
-          "`aesh van gogb` is already in Mugen's welcome before the later ear joke starts. Aeshleen eventually jokes that the ear business is why Mugen calls her that, but the surviving sequence has the nickname beating the explanation to the scene. The exact first birth of the name is still somewhere off-camera. Also holds the surviving `fastest shame` record long enough for Ren to reopen the case more than a year later, which is an extremely unfortunate thing to be efficient at."
+          "`aesh van gogb` is already in Mugen's welcome before the later ear joke starts. Aeshleen eventually jokes that the ear business is why Mugen calls her that, but the nickname is already in the room before that explanation arrives. Its first birth is still somewhere off-camera. The house keeps treating her ninety-three-second humiliation as the `fastest shame` legend, and Ren is still dragging it back out more than a year later, which is an extremely unfortunate thing to become famous for doing efficiently."
         ]
       }
     ],
