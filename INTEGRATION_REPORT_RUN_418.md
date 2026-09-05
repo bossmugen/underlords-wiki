@@ -16,13 +16,17 @@ Both Club-Only recovery priorities remain current at their saturated / do-not-ch
 
 ### Scar
 
-The new Wall Scar packet is duplicate/corroboration of the already-public Scar spine. The existing WIKI biography already owns the May doorway, August Gilli `harem` premise/denial/callback, October `exposed` language, later emote economy, and the larger person read that Scar gets more socially legible as the sentences get smaller. No second dossier, Running Gag, or timestamp-ledger section was created.
+The new Wall Scar packet is duplicate/corroboration of the already-public Scar evidence family rather than a new incident family. The useful public change was editorial/runtime: Scar's existing long-form WIKI module was rewritten away from archive-report caveats into a person-first read, then registered in the active biography resolver instead of remaining orphaned.
+
+The page now centers Scar's actual social mechanism: low-volume premise seeding, comfortable mock-prosecution with Gilli, Wall sparring with Kuki, delayed callbacks, and the recurring ability to contribute one crooked little sentence that other people can turn into a much larger crime scene. No literal harem, romance, formal governance role, screenshot ownership, maker credit, or other unsupported escalation was introduced.
+
+Reader commit: `16e07dc7b9a06b9dacdbf0ed0bbfd740f8ff15d6`.
 
 ### Mia / Opalite Honey identity correction
 
 The miner handoff labels stable account `opalite.honey` as `Opalite`. Hard project canon already resolves **Opalite Honey as an alias of Mia**. The packet's strongest scenes are already present under Mia: `It funny` as minimum-viable Wall editorial policy; Momo `twin` / `love u twinnn` reciprocal affection; typing chaos paired with practical platform fluency; and the larger contradiction between messy presentation and effective follow-through.
 
-Therefore WIKI must **not** create a separate Opalite character from this handoff. This is a resolved alias reconciliation, not a new-person discovery.
+Therefore WIKI did **not** create a separate Opalite character from this handoff. This is resolved alias reconciliation, not a new-person discovery.
 
 ### Sakura
 
@@ -30,15 +34,18 @@ The Birthdays suffix consolidates the Sakura front-door packet already banked in
 
 No safe standalone Sakura Cast owner exists yet, so no thin one-scene dossier was created.
 
-## Public changes
+## Public change / verification
 
-Reader-facing changes in this Run 418 reconciliation: **0**.
+Reader-facing WIKI change: **Scar's existing biography was rewritten and activated in the public resolver**. This is a stronger person-first use of an already-known evidence family, not a claim that Run 418 discovered a brand-new Scar episode.
 
-A concurrent WIKI commit activated the existing Scar person-first biography before this report was written; this run preserved that work and did not overwrite it.
+Exact reader head `16e07dc7b9a06b9dacdbf0ed0bbfd740f8ff15d6` passed:
+- Build workflow `33939768715`: **success**.
+- Pages workflow `33939768666`: **success**.
+- GitHub Pages build, artifact upload, and `Deploy to GitHub Pages`: **success**.
 
 ## Consumption
 
-The controlling MAIN ledger advances Wall consumed through `9e6f79b7cee5354278a7f2b28875a82c1fe42f60` and Birthdays/PR/VC consumed through `6990d66f01b52c82d48d2870ae3e62af3a03cee3`. Wall remains `pending_publication` only because older accepted MAIN Wall work is still held behind MAIN's publication gate; the reviewed Run 418 delta itself requires no new WIKI reader publication.
+The controlling MAIN ledger advances Wall consumed through `9e6f79b7cee5354278a7f2b28875a82c1fe42f60` and Birthdays/PR/VC consumed through `6990d66f01b52c82d48d2870ae3e62af3a03cee3`. Wall remains `pending_publication` only because older accepted MAIN Wall work is still held behind MAIN's publication gate; `pending_publication` is not unread work.
 
 ## Held rabbits
 
