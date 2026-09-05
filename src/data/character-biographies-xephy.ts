@@ -3,55 +3,70 @@ import type { CharacterNarrative } from "./character-biographies-narrative";
 export const xephyNarrativeCharacterBios: Record<string, CharacterNarrative> = {
   xephy: {
     intro: [
-      "Xephy / WhitePhoenyx has one of UL's cleaner long-gap stories because the archive now preserves both ends of the door. In November 2020, real-life changes are pulling Xephy out of Dragon Raja, but Xephy explicitly hopes to keep connecting with Underlords. Gilli answers with `We'll miss you in game but you're still a UL family member love`, tells Xephy the room will be there whenever there is time to talk, and ends with `dont be a stranger bb`. Mugen adds `keep me posted!`. The important word is **still**: the game relationship is changing, but nobody in the scene treats that as automatic social expulsion.",
-      "Roughly six years later, Xephy actually uses that old future tense. The reunion DM begins `Mugsss it's Xephy from Underlords back in Dragon Raja days`. That wording is almost perfectly calibrated for a long absence: name, relationship, shared world. Xephy does not barge in assuming six years of perfect memory; enough context is supplied to make recognition possible without demanding it. Mugen remembers. That is a real open-door payoff, not evidence that the two were secretly in uninterrupted contact the entire time.",
-      "The same calibration keeps showing up elsewhere. Xephy can say they never played a piece of Dragon Raja content and only saw the video; Ren and Anthos fill in the history. Faced with an old group image, Xephy can identify Mugen, Gilli and Anthos, stall at `and..`, and let Mugen supply Aeshleen. The pattern is refreshingly unheroic: Xephy contributes what they actually remember, names what has actually changed, and leaves the missing parts missing until somebody else can fill them. In an archive full of people—including historians—being tempted by a clean answer, that restraint is a character trait worth keeping."
+      "Xephy / WhitePhoenyx can apparently lose the server map without losing the people map. In May 2020, Xephy is already recognizing DragonRich, catching RV typing after RV is supposed to be asleep, and calling the room beautiful — and then admits, `wao i just now saw the other rooms uwu~`. Months later, after a break, Xephy comes back asking `I hope sum of you guys remember me? uwu~` while immediately recognizing Rooks through a changed display name, greeting Illien at full volume, and asking how everybody has been. The contradiction is very Xephy: unsure whether the room remembers Xephy, already remembering the humans inside it.",
+      "That social memory sits beside another equally recognizable trait: Xephy is soft-voiced without being vague. The `uwu~`, `bb`, stretched vowels and tiny emotive flourishes survive right alongside practical questions about whether somebody can see the channels, whether a bot restriction actually worked, or whether RV is still typing instead of sleeping. Xephy does not switch into a Serious Person costume when something needs checking. The cute voice comes to QA, the wrong door, the reunion, and the sleep-police shift with the rest of the person."
     ],
     sections: [
       {
-        period: "2020",
-        title: "The room already knows Xephy before the goodbye",
+        period: "People before floor plan",
+        title: "The people map works better than the channel map",
         paragraphs: [
-          "The surviving early material catches Xephy in warm, low-friction house language rather than a grand origin scene. There is an earlier return where Xephy says `I rejoined the club` and `I mished everyone`, with Illien among the people greeting the return. That is enough to establish that the November departure is not a stranger leaving a random game. There is already something to miss.",
-          "WhitePhoenyx is a hard identity bridge to Xephy and **not** WolfPhenix. Keeping that fence matters because both names can otherwise collapse into one visually similar phoenix-shaped disaster. Later staff-era or role metadata can describe period state, but it does not manufacture appointment dates."
+          "May 2020 catches Xephy socially oriented before Xephy is structurally oriented. DragonRich is recognizable. RV is recognizable enough that Xephy notices the typing indicator and calls out the failed bedtime twice: `i saw u typing go to shleep uwu~`, then `aren't u spposed to go to bed uwu?`. The room itself gets declared `beautiful`. Only after all of that does Xephy notice there are other rooms.",
+          "That is not the same thing as being helpless in the server. Xephy can track whether an arriving person can actually see the channels, follow up when no answer lands, and test bot permissions after Mugen changes them. When a fix is supposed to work, Xephy pokes it. When it only partly works, Xephy says so. When Xephy appears to have helped send Xerenity into the wrong club server, the response is the wonderfully immediate `oh my badddddd sowe` rather than a defense brief.",
+          "The pattern is less *bad at structure* than *people remain easier to hold onto than infrastructure*. Xephy can ask where the room is, defer when access authority is unclear, or discover another channel late. Familiar humans are different. Their names, habits and little social tells land faster."
         ]
       },
       {
-        period: "November 23, 2020",
-        title: "Leave Raja; keep the people",
+        period: "September 2020 return",
+        title: "Do you remember me? I remember you.",
         paragraphs: [
-          "When real life makes Dragon Raja unsustainable, Xephy separates the two decisions instead of letting one swallow the other: the game has to go, but Xephy hopes to remain connected with Underlords. Gilli answers the distinction directly: `We'll miss you in game but you're still a UL family member love`. The sentence does not pretend nothing is changing. It names the loss—*in game*—and then refuses to upgrade it into loss of the person.",
-          "Gilli's `dont be a stranger bb` is especially useful because it is softer than *stay active*. It leaves room for distance. Mugen's `keep me posted!` does the same thing from another angle: there is no deadline, only an assumption that a future update would still be welcome. The archive does not prove that future update came next week, next month, or at all until the later reunion. It does prove the exit scene leaves the route available rather than sealing it shut."
+          "On September 1, Xephy returns with a sentence that is both cheerful and a little exposed: `I rejoined the club, I hope sum of you guys remember me? uwu~`. The `uwu~` does not cancel the question underneath it. Xephy has been gone long enough to wonder whether the social place is still there.",
+          "Then Rooks appears. Rooks anticipates that the changed display name might be confusing; Xephy answers `I’ve noticed from your user Rooks bb 🥰`. Illien gets `HAIII ILLIEN ✌︎︎✌︎︎` and `How’re you bb?`. Xephy says `I mished everyone ☞︎☜︎`, says the break had been too long, and starts checking how people are doing. The return anxiety and the recognition happen in the same scene: *please remember me* from somebody who is already proving they remember you.",
+          "Xephy calls the absence `my break to myself`. That is enough. The room never needs a melodramatic missing-person theory to make the return matter. Xephy comes back, tests the old social wiring, and finds enough of it still live to start talking normally again."
         ]
       },
       {
-        period: "2024",
-        title: "Old player does not mean fake omniscience",
+        period: "Leaving Raja",
+        title: "Leave the game; keep the address",
         paragraphs: [
-          "Later Raja nostalgia gives Xephy several chances to overstate old-player credentials, and the file is better because they do not. When Dijiang-related material comes up, Xephy says they never played that content and had only seen the video. Ren and Anthos explain. The exchange is tiny, but it tells us the room is safe enough for `I don't know this part` to survive without anybody needing to perform expertise.",
-          "That same habit will recur with old photos. Memory is allowed to have edges. Xephy's history in the group is real; real history apparently does not require pretending every raid, person and artifact stayed perfectly indexed forever."
+          "By November 2020, real life is pulling Xephy away from Dragon Raja. Xephy separates the game from the people instead of letting one decision swallow the other: Raja has to recede, but Xephy still hopes to stay connected to Underlords.",
+          "Gilli answers that distinction directly: `We'll miss you in game but you're still a UL family member love`, then `dont be a stranger bb`. Mugen adds `keep me posted!`. Nobody asks Xephy to maintain a performance of activity in exchange for continued affection. The invitation is looser than that. Go do what life requires. The address still works.",
+          "That makes the later returns feel less like miraculous resurrection and more like somebody eventually using a door people had already told them would remain open."
+        ]
+      },
+      {
+        period: "Memory",
+        title: "Remembering people without pretending to remember everything",
+        paragraphs: [
+          "Xephy's old-player memory is selective in a way that makes the remembered parts more believable. When later Raja material comes up, Xephy can simply say a piece of content was never personally played and that the video was all they knew. Ren and Anthos fill in the rest. There is no need to cosplay omniscience just because the account is old.",
+          "The same thing happens with people and photos. Xephy can identify Mugen, Gilli and Anthos in an old image, trail off at `and..`, and let Mugen supply Aeshleen. The blank is allowed to stay blank for a second. Nobody has to win Oldest Player Jeopardy.",
+          "That restraint fits the people-map pattern. Xephy remembers what Xephy remembers strongly — a person, a tone, a group raid, the group chat — and does not inflate the fuzzy edges just to make the history look cleaner."
         ]
       },
       {
         period: "2026 reunion",
-        title: "The open door gets used",
+        title: "The open door actually gets used",
         paragraphs: [
-          "The reunion finally supplies the payoff: `Mugsss it's Xephy from Underlords back in Dragon Raja days`. It is a self-reintroduction built for uncertainty. Xephy gives Mugen three hooks—name, UL, Raja days—rather than arriving with a test of whether the old relationship deserves to count. Mugen says she remembers. The emotional beat is not that six years disappeared. It is that the gap can be acknowledged without making recognition impossible.",
-          "The surrounding memory work keeps the same register. Xephy remembers old group raids, photos and the group chat. In one relic-photo scene, they begin `mugen gilli anthos and..`; Mugen supplies Aeshleen. That trailing `and..` does a surprising amount of work. Xephy does not grab a likely name to keep the performance smooth. The blank stays visible long enough for another person to complete it.",
-          "None of this proves six years of uninterrupted contact, a secretly active membership state, or that every old screenshot Xephy recognizes was made or captured by Xephy. It proves something more human: a social route explicitly left open in 2020 could still be used years later, and the return did not require either side to pretend the intervening distance never happened."
+          "Six years later, Xephy reaches Mugen with exactly the amount of context a long absence deserves: `Mugsss it's Xephy from Underlords back in Dragon Raja days`. Name, shared group, shared era. It is a self-introduction that leaves room for memory instead of demanding a loyalty test. Mugen remembers.",
+          "Once the reunion gets moving, Xephy starts recovering the old world in pieces: `Bwaaa I just remembered the group raids and photos we took`, followed a minute later by `Those were my favorite moments, and the groupchat`. The things that come back first are not rank labels. They are doing things together and the place where everybody talked.",
+          "Xephy eventually lands on the simplest continuity sentence: `That's alright, we're both UL. Maybe different Generations, pero still same family`. The `Maybe` is doing useful work. Xephy can be fuzzy on old filing and still firm on the social category. Different generation. Same house. The paperwork can stay messier than the feeling."
         ]
       },
       {
-        period: "Overall character",
-        title: "Continuity without counterfeit certainty",
+        period: "Petty Crimes",
+        title: "Petty Crimes",
         paragraphs: [
-          "Xephy's strongest current character read is not simply nostalgia. It is calibrated continuity. The game can end without the relationship being declared dead. A memory can be partial without becoming false. An old player can lack firsthand experience with a specific piece of content. A six-year absence can be named directly instead of dressed up as constant contact.",
-          "That makes the 2020 `still a UL family member` line and the 2026 DM stronger together than either would be alone. The first creates a future in which distance is permitted; the second shows Xephy willing to test that future gently. Mugen remembering supplies the reciprocal half. It is not a fairy tale about nobody ever drifting. It is the much better story where drifting did not automatically revoke the address."
+          "**Typing-Indicator Sleep Police:** RV is supposed to be sleeping; Xephy sees the typing indicator and immediately files a complaint in `uwu~`.",
+          "**Found the People Before the Rooms:** recognized DragonRich, tracked RV's bedtime crimes, admired the room, then discovered the rest of the server existed.",
+          "**QA Voice Pack:** `uwu~`, `senpai`, stretched vowels and command testing coexist without any apparent need to negotiate jurisdiction.",
+          "**Wrong Door, Immediate Apology:** Xerenity appears to have landed in the wrong club server through Xephy's route; Xephy's defense is essentially `oh my badddddd sowe`.",
+          "**Waffles:** `Mm waffles` becomes `Yummies`. No further policy was issued."
         ]
       }
     ],
     closing: [
-      "Xephy's file still needs ordinary life, tastes, middle-era voice, broader peer texture and real conflict/repair before it can pretend to be exhaustive. What it already has is unusually clean: when Raja leaves Xephy's life, UL is explicitly allowed to remain; when years later Xephy comes back, the first move is not entitlement but context. `It's Xephy, from Underlords, back in Dragon Raja days.` Mugen remembers. The old door was not propped open by constant activity. It was simply never declared a wall."
+      "Xephy is easiest to recognize in the mismatch between presentation and attention. The softest possible sentence can contain a systems check. The person who notices another room late may have already noticed who is in it, who changed names, who is still typing after bedtime, and who deserves an overexcited greeting after months away.",
+      "The returns sharpen that into something quieter. In 2020 Xephy asks whether people remember. In 2026 Xephy supplies enough context to make remembering possible, then starts recovering the old humans and old moments without pretending every gap vanished. Xephy may lose the floor plan. Xephy keeps finding the people."
     ]
   }
 };
