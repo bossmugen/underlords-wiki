@@ -1,41 +1,49 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-05 — Run 444 Wall calibration / late Mugen reconciliation_
+_Last updated: 2026-09-05 — Run 445 canonical-owner repair_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Earlier verbose states remain recoverable in git history.
 
 ## Census / queue
 
-Run 444 completed the mandatory full census at **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**. There were **0 newly discovered branches, 2 advanced unread branches at opening, 0 unread pending-review tails at close, 10 MAIN publication-held families, 0 backlog, and 0 overdue**.
+Run 445 re-ran the full miner census after Run 444 closed: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**, with **0 newly discovered branches, 0 unread pending-review tails, 10 MAIN publication-held families, 0 backlog, and 0 overdue**. No miner head advanced between the Run 444 close and this repair pass. Both Club-Only recovery priorities remain current at their saturated / do-not-churn heads (`e45fb11c…` for 2021–2026, `ed66714f…` for 2020). No raw archive was re-mined.
 
-Opening movers were Daycare (`735a276b… → 4f06cd5a…`) and Wall (`eacce9f6… → e086e03f…`). The closing census then caught Mugen person-first moving late (`b8fb98b4… → 80feddac…`) and that suffix was also reviewed before close. A second closing census found Daycare, Wall, and Mugen stable at those reviewed heads. Both Club-Only recovery priorities remain current at their saturated / do-not-churn heads (`e45fb11c…` for 2021–2026, `ed66714f…` for 2020). No raw archive was re-mined.
+This run exists because the first Run 444 reconciliation made an owner-routing mistake while the miner deltas themselves were already correctly consumed. The current WIKI cast already had `DarkAsrai` as an alias of **Rose**, and it already had **Erys / Emi** as a canonical public owner. Those facts were re-read directly from current `main` before publication. The fix therefore routes the already-reviewed Wall material into the people who already exist instead of inventing new humans or leaving strong character texture in a bank for no reason.
 
-## Reader change — Aeshleen's speedrun stays legend, not Olympic timing
+## Reader change — Rose is not only the defendant
 
-The fresh Wall tail complicated one bit of wording on Aeshleen's existing biography. The room itself absolutely remembers her April 24, 2021 onboarding-to-Wall speed as a record: Woohyuk calls it one that day, Mugen says Ghoulie has competition, and more than a year later Ren still says Aeshleen `still holds the fastest shame`. That remains excellent lived character lore because the point is how the house remembers her.
+Rose / DarkAsrai now has a dedicated person-first narrative instead of falling back to a thinner Historical Staff file. The useful contradiction is simple: she knows what it is like to be Wall material and she still brings material into the room herself.
 
-A fresh q7 Wall appearance may, however, predate Aeshleen's famous ninety-three-second sequence. Its exact category and comparison scope are not clean enough to turn either person into a stopwatch winner. The public fix therefore preserves the social truth and drops the archive-ranking implication: Aeshleen's Petty Crimes now says **the house keeps treating her ninety-three-second humiliation as the `fastest shame` legend**. Ren gets to remember the bit exactly as Ren remembers it; the WIKI does not need to award a fucking world record on top.
+Her protest **`He hit me first`** stays what the surrounding Wall context supports: a joking defense inside Screenshot Court, not a claim of literal physical violence. **`I knew id get in here`** gives the more resigned version of the same relationship to the room. Then September 2021 flips the camera. Rose says **`Oh I should show what I got from Shi`** and follows with **`the most perfect emote ever`** plus an image. She is no longer merely somebody being filed; she is a courier of house lore too.
 
-The same edit also removed an archive-report-flavored opening and lets Aeshleen simply walk into Discord already socially attached to the house. Her actual biography remains the important thing: already known to Mugen and HamitteY, immediately processed into roles and orientation, almost instantly shamed, loudly objecting while still feeding the joke, and then discovering that UL can preserve one embarrassing entrance for years.
+The wording keeps the attribution rail intact. Rose says she **got** the material from Shi / ShiyaX. That does not become MADE BY Shi, CAPTURED BY Shi, or FEATURING Shi without visual or textual support. The media remains uninspected.
 
-## Banked / meaning-deduped
+The rest of Rose's biography is folded around the same person rather than turned into receipt rows: clipped practical help (`Download?`, `preserve folders`, `Copy`, `figure it out`), the deadpan `Its called a budget`, affection that can coexist with `Stupid commander`, complaints about her room becoming material, and the ability to find one sentence that makes somebody else's joke worse. Historical Staff remains the role; the biography is the woman underneath it.
 
-**Ghostt** is duplicate/corroboration rather than a new character family. Stable account `ghostt.wicked` and the attachment-led, low-volume gallery pattern are already substantially owned by the current Ghostt biography; a transient display name does not create another human.
+## Reader correction / deepener — Erys gets the right hug
 
-**Erys / Emi** now has a strong enough person seed to keep: emphatic alignment (`I HATED IT` / `WITH EVERY FIBER OF MY BEING`), quick solidarity, quick self-undercutting, DDR3 framed as both problem and addiction, and a practical creative preference for making her own emotes rather than paying for every design. The same account appears as Erys and later is addressed/displayed as Emi, so the safe public label remains Erys / Emi until the canonical display is actually resolved. There is still no clean existing public narrative owner worth opening just to house this packet, so it stays banked rather than becoming a skeletal dossier.
+Erys already had a public biography. The fresh Wall tail strengthens its core mechanism: her self-defense language keeps collapsing into smaller and more theatrical filings — **`no` → `photoshopped` → `objection` → `hearsay`** — while she remains perfectly capable of counterfiling and judging somebody else's story with **`failed`**, **`owo`**, and **`i dont buy your story`**. The less she says, the more the room supplies the missing legal brief.
 
-**DarkAsrai** likewise has real texture — post-exposure cleanup instincts, self-roast, personality-test challenge energy, Snoopi bait — but no safe existing owner. Banked, not invented into a role or mystery profile.
+More importantly, Run 445 fixes a recipient overassignment in the older biography. The previously visible text said Rummy sent a hug and Erys answered **`i lubn u tyoo`**. The directly tethered Rummy exchange is instead the hug followed by Erys's **`awwwd i just gota hug`** and **`thankgs youh`**. The target of `i lubn u tyoo` is not cleanly resolved in this packet, so it is no longer assigned to Rummy.
 
-**Daycare** was a clean no-public-change review. Momo's text gives an exact art credit on one posted attachment, but the media itself remains uninspected; the safe distinction is POSTED BY Momo plus the textual creator credit, not visual authorship inference. Shroom's GIF remains POSTED BY Shroom only.
+The emotional read survives the correction and gets better. Erys does not suddenly become eloquent when she softens; her language falls apart harder. Courtroom Erys can compress a defense into `hearsay`. Hugged Erys can compress delight into typo soup. Same person, different temperature.
 
-The late **Mugen person-first** suffix was reconciliation rather than new public prose. The dedicated miner caught up to a contradiction already present on current MAIN: Mugen can genuinely value boundaries and still need Ren/WOO to re-surface one during a live Nobu picture-request joke. That makes the value practiced and fallible rather than saintly. The miner explicitly says not to duplicate the already-public passage and not to invent that Mugen saw the first refusal, knowingly ignored it, apologized, or always takes correction well.
+## Meaning-deduped / held
+
+**Ghostt** remains duplicate/corroboration. The current Ghostt biography already owns the defendant-to-prosecutor Wall mechanism, Gilli relationship texture, low-volume gallery behavior, and willingness to keep feeding the joke. No second Ghostt family was created from transient display-name drift.
+
+Run 444's **Aeshleen** calibration remains intact: the house can remember her ninety-three-second humiliation as `fastest shame` without the WIKI pretending it has proven an objective all-time archive record against every earlier Wall appearance.
+
+The late **Mugen person-first** suffix remains reconciliation-only. Current MAIN already owns the stronger contradiction: Mugen can value boundaries and still need Ren / WOO to re-surface one during a live Nobu picture-request joke. No duplicate saint-or-sinner paragraph was added.
+
+**Daycare** remains attribution-hardening only: Momo's text can provide an exact creator credit while the media itself stays visually uninspected; Shroom's GIF remains POSTED BY Shroom only.
 
 ## Verification / deployment
 
-WIKI reader commit: **`04acd1937274578cddf223b3156f1c77c8841217`**.
+Run 445 reader head: **`b7268268caadca855a0df3221d9a2effb862f818`**.
 
-- Build workflow `33963911408` — **success**.
-- Pages workflow `33963911433` — **success**.
+- Build workflow `33964280404` — **success** on the exact reader head.
+- Pages workflow `33964280410` — **success** on the exact reader head.
 - Pages preview build — **success**.
 - artifact upload — **success**.
 - actual `Deploy to GitHub Pages` job — **success**.
@@ -43,16 +51,16 @@ WIKI reader commit: **`04acd1937274578cddf223b3156f1c77c8841217`**.
 
 This state-only close uses `[skip ci]`; it does not replace or re-run the already verified reader deployment.
 
-MAIN made **0 reader-facing changes** in Run 444. Its production workflow remains intentionally `workflow_dispatch`-only while the runner/account issue is under maintenance, and the available connector exposes no dispatch action. Run 444 therefore did not bypass the gate or pretend that source verification, Astro, built-output verification, or Cloudflare ran. No new MAIN deployment is claimed.
+MAIN made **0 reader-facing changes** in this repair pass. Its production workflow remains intentionally `workflow_dispatch`-only while the runner/account issue is under maintenance, and the available connector exposes no dispatch action. The repair therefore did not bypass the gate or claim that MAIN source verification, Astro, built-output verification, or Cloudflare ran. No new MAIN deployment is claimed.
 
 ## Consumption boundary
 
-The controlling MAIN ledger now consumes the reviewed suffixes through:
+No miner cursor moved in Run 445 because the relevant Daycare, Wall, and late Mugen suffixes were already successfully reviewed and consumed in Run 444. The controlling MAIN ledger remains current through:
 
 - Daycare — `4f06cd5a15e8346392516ef1e63a6e279a586448`
 - Wall — `e086e03f58c921fd5c114cefb1e58c282b8640d8`
 - Mugen person-first — `80feddacff29cc3b4caf8bfd4e7cea19498de34d`
 
-The **10 MAIN publication-held families** are Backroom; Birthdays / PR / VC; Core Rooms / Events; Daycare; Louvre; Meems; Mugen person-first; Whiskey; QOTD / Officers; and Wall. Those statuses represent older accepted MAIN publication debt, not unread miner archaeology.
+The **10 MAIN publication-held families** remain Backroom; Birthdays / PR / VC; Core Rooms / Events; Daycare; Louvre; Meems; Mugen person-first; Whiskey; QOTD / Officers; and Wall. Those statuses are publication debt, not unread miner archaeology.
 
-No identity merge, appointment chronology, unseen-media attribution, literal family/romance claim, or false absolute origin/record claim was manufactured in this run.
+No new identity merge, appointment chronology, unseen-media attribution, literal family/romance claim, or false absolute origin/record claim was manufactured in this repair.
