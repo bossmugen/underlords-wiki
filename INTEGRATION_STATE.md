@@ -1,8 +1,20 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-05 — Run 466 Shiki + May person-first integration_
+_Last updated: 2026-09-05 — Run 467 zero-delta census_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Detailed per-run reconciliation remains durable in `INTEGRATION_REPORT_RUN_*.md` here and `archive-intake/INTEGRATION_REPORT_RUN_*.md` on MAIN; older state remains recoverable in git history.
+
+## Run 467 — nobody moved; do not re-dig the graveyard
+
+The mandatory full census repeated after Run 466 closed: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**, with **0 newly discovered branches, 0 unread pending-review tails, 10 MAIN publication-held families, 0 backlog, and 0 overdue**. Every active miner ref still matched its known/consumed frontier, so there was no intake delta to review deeply and no raw archive was re-mined.
+
+Both Club-Only recovery priorities remain current at their saturated/do-not-churn heads (`e45fb11c9239e236231bb65645dfd0285bc0078b` for 2021–2026 and `ed66714f8d2c18f23bbb2b951bf305f0fa913f21` for 2020).
+
+Reader-facing MAIN files changed **0**. Reader-facing WIKI files changed **0**. No new publication was manufactured merely to make the repos move.
+
+The current verified/deployed WIKI reader remains `de34f2b631243934d33c3922685d6864c5b77f3c`, which already carries Run 466's Shiki + May work. Its Build and Pages workflows succeeded, including the actual GitHub Pages deployment. MAIN's ten older accepted publication-held families remain publication debt rather than unread evidence.
+
+MAIN persisted this pass's branch census in `archive-intake/INTEGRATOR_BRANCH_STATE.json` at commit `a790ddbf74354b3111571e9f78f1bd36c3f51831`.
 
 ## Run 466 — Shiki says four words; May loses the sun
 
