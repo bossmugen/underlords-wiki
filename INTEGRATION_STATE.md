@@ -1,29 +1,30 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-05 — Run 462 Wall + late Mugen reconciliation_
+_Last updated: 2026-09-05 — Run 463 QOTD / Officers reconciliation_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Detailed per-run reconciliation remains durable in `INTEGRATION_REPORT_RUN_*.md` here and `archive-intake/INTEGRATION_REPORT_RUN_*.md` on MAIN; older state remains recoverable in git history.
 
-## Run 462 — Beansprout already had the evidence badge
+## Run 463 — Oyasumi was already contaminating his own case file
 
-The mandatory opening census was persisted before deep review and the closing re-census resolved **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**, with **0 newly discovered branches, 0 unread pending-review tails, 10 MAIN publication-held families, 0 backlog, and 0 overdue**. Both Club-Only recovery priorities remain current at their saturated/do-not-churn heads (`e45fb11c…` for 2021–2026 and `ed66714f…` for 2020). No raw archive was re-mined.
+The mandatory opening census was persisted before deep review and the closing re-census resolved **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**, with **0 newly discovered branches, 0 unread pending-review tails, 10 MAIN publication-held families, 0 backlog, and 0 overdue**. Both Club-Only recovery priorities were rechecked and remain current at their saturated/do-not-churn heads (`e45fb11c…` for 2021–2026 and `ed66714f…` for 2020). No raw archive was re-mined.
 
-Two deltas were reviewed checkpoint-first from changed `archive-intake/*` handoffs only:
+One advanced delta was reviewed checkpoint-first from changed intake handoffs only: **QOTD / Officers** `eea62ea1ddc336a55b61f13cef7e2c582f7f10ca` → `101c44161c0c5524ce400990fc176eb44bbfed3a`.
 
-- **Wall** `933a8084db532110fa7b9d25aaf5dec45726d0d2` → `88b0586d9baa9b290f885db7bb1923d071abbc53`. Dean / Support Tech / Beansprout gains a clean cumulative Wall read—`Is this where you expose Peopl` → `Ehehehhehe`, later defendant protests, then Dean himself filing evidence and summoning Mugen; by March 2023 he resumes the same house grammar by summoning Mugs and immediately dropping another attachment. The current WIKI Dean biography already explicitly owns this contradiction and continuation, so the fresh packet is duplicate/corroboration + continuity synthesis rather than an excuse for Paragraph Mitosis. Marsy remains a bounded invited-gallery-spectator seed (`for your entertainment`; later `LOL`) without a safe existing public owner and is banked.
-- **Mugen person-first** `9dc5022337a78943dcc54b9d5949db4668556342` → `31e4111e0b2f39de2ab3083859f01d551dbcb3ff`. The late closing mover names a useful received-care mechanism: direct `mugs go to SLEEP` gets `shutjup`; the room changes tactics through concern, reciprocity and an imaginary carry-to-bed bit; Mugen ends at `dont droptjme`. MAIN already explicitly owns that exact person-level mechanism in Mugen's public biography, and the miner's own handoff says consume-as-synthesis. WIKI did not manufacture a duplicate scene.
+The strongest packet is Oyasumi doing exactly what his current WIKI biography already says he does: playing evidence cop while remaining catastrophically willing to become evidence himself. Gilli summons him under an attachment; Oya answers `No 💀`; seven seconds later he reopens his own defense with `Or did I ?`. Nearby handoffs preserve `Still hard evidence of your crimes 😌`, `Caught my boy in 4k`, and Gilli later filing `oya_cheating.png` against him. Current `src/data/character-biographies-oyasumi.ts` already explicitly owns the evidence-cop / self-contaminating-defense contradiction and the seven-second beat, so the fresh packet was consumed as **duplicate/corroboration**, not rewarded with receipt mitosis.
 
-Hard rails stayed hard. Dean's `mum` / mock-family language remains online/social family language rather than biological kinship; the Wall-specific surviving gap is not a server/offline disappearance; unseen attachments remain POSTED BY only; `Feed me Soba` and Mugen's unthreaded `Look who's baaaack` remain unresolved. The Mugen scene does not become literal carrying, a diagnosis, a fixed caregiving role, or proof that joking always makes care acceptable. The higher-cost reciprocity-under-load rabbit remains open.
+Mimi / Opalite, Flask, Xephy, and Lunar / The Astral add bounded character texture but did not materially improve a canonical public owner enough to justify prose churn this pass. Mimi's `going up in the world` reaction to a Gilli filing supports receipt attention as house-joke notoriety; Flask keeps rotating between observer, tagger, defendant and target; Xephy remains a willing participant who answers `Arigatou` and `More will come`; Lunar / The Astral moves cleanly from `resident knight` and frying-pan/head-pat jokes into direct encouragement when Gabu says losing friends stings. Lunar remains The Astral, not HyaLuna.
+
+Hard rails stayed hard. Apollo's `nudes` price exchange remains contextually unresolved rather than becoming a real transaction or sexual-conduct claim. Rummy's `mfw 5 banned` after Ban triggers a bot does not identify a human moderation actor. Lune's Philippines context remains contextual rather than demographic proof. Missing QOTDs q62/q65/q81/q93 remain do-not-churn. Unseen screenshots remain unseen; provenance categories stay distinct; current role arrays are not appointment chronology.
 
 ## Public surface status
 
 Reader-facing WIKI files changed: **0**. No new WIKI reader build or Pages deployment is claimed because the reader tree did not change. The latest verified WIKI reader publication remains Run 461's Momo rewrite at **`64952b99fe4cffc3998e910e991f2a6237b5c74e`**, with Build workflow **`33977935523`** and Pages workflow **`33977935537`** both successful, including actual GitHub Pages deploy.
 
-MAIN likewise changed **0 reader-facing files** in Run 462. Its older accepted publication-held work remains behind MAIN's separate production gate rather than being bypassed by a bookkeeping commit.
+MAIN likewise changed **0 reader-facing files** in Run 463. QOTD / Officers remains `pending_publication` only because older accepted MAIN work in that evidence family is still behind MAIN's separate publication gate; the fresh suffix itself is reviewed through `101c44161c0c5524ce400990fc176eb44bbfed3a` and must not be reread as new work.
 
-Detailed reconciliation is in `INTEGRATION_REPORT_RUN_462.md` here and `archive-intake/INTEGRATION_REPORT_RUN_462.md` on MAIN.
+Detailed reconciliation is in `INTEGRATION_REPORT_RUN_463.md` here and `archive-intake/INTEGRATION_REPORT_RUN_463.md` on MAIN.
 
-## Current queue after Run 462
+## Current queue after Run 463
 
 - unread pending review: **0**
 - MAIN publication-held families: **10** — Backroom, Birthdays / PR / VC, Core Rooms / Events, Daycare, Louvre, Meems, Mugen person-first, Whiskey, QOTD / Officers, Wall
