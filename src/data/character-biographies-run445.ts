@@ -81,7 +81,7 @@ export const run445NarrativeCharacterBios: Record<string, CharacterNarrative> = 
         paragraphs: [
           "A late-room scene catches the other register. Sou tells Erys to get some sleep; Erys answers **`no`**, later asks where everybody went, and the room thins out around her. Rummy sends a hug directly to Erys. The answer is immediate and wonderfully mangled: **`awwwd i just gota hug`** and **`thankgs youh`**.",
           "Nothing has to become a grand care scene. The direct reply is enough. The same person who can compress a courtroom defense into **`hearsay`** can compress being touched by a friend's gesture into typo-riddled delight. Her language does not get more formal when she is sincere. If anything, it falls apart more.",
-          "That matters because an older telling over-assigned **`i lubn u tyoo`** to Rummy's hug. The directly tethered exchange is the hug followed by **`awwwd i just gota hug`** / **`thankgs youh`**. The affection stays; the wrong recipient assignment does not."
+          "Rummy reaches over; Erys visibly brightens; the whole thing stays small enough to feel like theirs. She does not need a polished declaration attached to the moment. The spelling system collapsing on contact is already plenty."
         ]
       },
       {
