@@ -20,18 +20,20 @@ Both Club-Only recovery priorities remain current at their saturated / do-not-ch
 
 ### Zoshaa / Zorb — person-first deepener
 
-The later Birthdays suffix sharpens the room's Zorb joke into a more personal Zoshaa/Ren rhythm instead of creating another generic event paragraph. After the lockout/ball sequence, the surviving handoff reaches Ren's emphatic `Z. O. R. B`; from there Zoshaa keeps treating the fake destination like somewhere with residents, transfers, benefits, progression claims and eventually its own misinformation problem.
+The later Birthdays suffix finally gives the nickname a strong surviving birth scene instead of leaving all Zorb history inside the later fake-economy era. After Zoshaa's multi-day lockout is noticed and handled, she posts `fucking zorb ball`; Ren answers `Z. O. R. B` seven seconds later. By the next day `orb` is already being used as address, other people soon pick up `zorb`, and Ren later refers to `zoshaa’s zorb name` as established shorthand.
 
-The public WIKI keeps the important distinction intact: Zoshaa does not need to invent the premise in order to become one of the people who makes it operational. The exact first spark of Zorb remains fuzzy; the relationship shorthand and Zoshaa's participation do not.
+The public WIKI keeps the important distinction intact: this is the strongest surviving/apparent origin for the **nickname**, not guaranteed absolute first use. The later 2021 fake destination/economy called Zorb is a separate communal escalation whose exact first conversion from nickname into geography remains fuzzy. Zoshaa still becomes one of the people who makes that place operational — residents, transfers, benefits, progression claims and eventually a misinformation problem — without needing sole-inventor credit.
+
+The relationship undercurrent is the better part anyway: Ren notices the missing person, helps with the door, catches one ridiculous phrase almost immediately after re-entry, and the phrase becomes a durable shorthand both people can keep using for years.
 
 Reader commit: `ee2eca39b2ce13e626503bb93d71faa190113e44`.
 
 ### Reviewed without new public copy
 
-- **Wall:** Keon's left-hand-enforcer / dry-heckler material is useful character texture, but Keon still lacks a safe canonical public owner. No thin dossier was manufactured.
+- **Wall:** Keon's stable-ID audit turns a five-authored-message footprint into a fuller person read because twenty-four reaction-user memberships preserve him as a reaction-first gallery regular. His prose stays clipped and dry when activated (`:R_stare:`, `No she didn't lmao`, immediate `:Fat_Wheeze:`, `Nope, you're just unfunny...`). Useful contradiction: near-silent authored prose ↔ persistent reception-layer presence; spectator ↔ occasional heckler. Reaction timestamps do not survive. No safe canonical public owner exists, so no thin dossier was manufactured.
 - **Backroom:** Shimoko now has a real recognized-arrival → adulthood-joke → direct visual-participation scaffold, but likewise lacks a safe canonical public owner. The JAG privacy / consent suffix materially corroborates Snow's already-public self-security/governance spine rather than justifying another duplicate episode.
-- **Louvre:** Julian's maximalist arrival, `Fenty` register and practical event-countdown follow-through remain banked pending a safe identity bridge and recovery of the direct Louvre body. No maker/capturer/featured-person credit was inferred from posted media.
-- **Mugen:** the Woosung recognizable-guidance / older-sister-like / can-talk-about-anything model was already present in the current biography, so the late suffix is duplicate/corroboration rather than a new paragraph.
+- **Louvre:** Julian's maximalist arrival, `Fenty` register and practical event-countdown follow-through remain banked pending a safe identity bridge and recovery of the direct Louvre body. No formal role was inferred from announcements access, and no maker/capturer/featured-person credit was inferred from posted media.
+- **Mugen:** the Woosung recognizable-guidance / older-sister-like / grown-up-version-of-herself / can-talk-about-anything model was already present in the current biography, so the late suffix is duplicate/corroboration rather than a new paragraph.
 
 ## Run 416 verification / publication
 
@@ -49,11 +51,11 @@ Reader commit: `ee2eca39b2ce13e626503bb93d71faa190113e44`.
 
 Reader-facing changes: **0**.
 
-Reader-neutral verification target: `81aa1eab634bc7b2a25c4796131d90c04231b3cf`.
+Concurrent Run 416 close work produced two reader-neutral MAIN verification targets:
+- `6767659ad66d2462b6ab013f07aaddda4b4eebe2` → workflow `33936743295`
+- `81aa1eab634bc7b2a25c4796131d90c04231b3cf` → workflow `33936762342`
 
-Workflow `33936762342` failed before repository execution. Attempt 1 produced `Build + verify` with no step body and skipped verified Cloudflare deployment. Failed jobs were explicitly rerun once; attempt 2 ended in the same pre-runner shape, with `Build + verify` failing at `steps: null` and `Deploy verified master to Cloudflare Pages` skipped at `steps: null`.
-
-MAIN source verification, Astro, built-output verification and Cloudflare therefore did **not** execute and reject content. No new MAIN deployment is claimed for Run 416.
+Both failed before repository execution and both were explicitly rerun once. On the `6767659a...` target, attempt 2 ended with `Build + verify` at `steps: []`, `runner_id: 0`, blank runner name, while verified Cloudflare deployment was skipped. The concurrent `81aa1eab...` target recorded the same pre-runner/no-step shape. MAIN source verification, Astro, built-output verification and Cloudflare therefore did **not** execute and reject content. No new MAIN deployment is claimed for Run 416.
 
 ## Current reviewed / consumption frontiers relevant to this close
 
