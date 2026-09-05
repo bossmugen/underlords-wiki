@@ -1,8 +1,68 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-04 Run 416 close_
+_Last updated: 2026-09-04 Run 417 close_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`.
+
+## Run 417 close
+
+Full census: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**, with **0 newly discovered, 0 pending review, 8 MAIN publication-held, 0 backlog, and 0 overdue** at the reviewed close.
+
+Reviewed checkpoint-first and intake-only through:
+
+- QOTD / Officers → `5cb78a760c2c1fe4381226734904487191768b2e`
+- late Birthdays / PR / VC → `f6e6311f2c7d942d64daee451ef34a2289e05bc8`
+- late Daycare → `d16b1feccc45bf6956ab8f3b32d42d959108238b`
+
+Both Club-Only recovery priorities remain current at their saturated / do-not-churn boundaries. No raw archive was re-mined.
+
+### Sakura — banked doorway, no thin dossier
+
+The late Birthdays suffix produced a genuinely new Sakura doorway rather than another replay of Zoshaa/Zorb. In the 2020-10-13 Lobby support scene, Sakura answers the IGN/club prompt with `hmm thats tricky`, then compresses several names / clubs into one line that includes Underlords. The syntax is too dense to assign every name to an exact club, but it safely places some game-side UL association before this surviving Discord onboarding instead of pretending the Lobby timestamp is an in-game admission date.
+
+The scene becomes much more Sakura-shaped the second eligibility is clarified. Rather than answer a simple age check normally, Sakura supplies absurd giant-number fake ages. Ren then says `Welcome to hell- discord UwU`; Sakura answers `hell is my home so`. The useful person read is the contrast: the form field makes her hesitate, but the room's joke grammar does not. She tone-matches almost immediately.
+
+The contemporaneous doorway carries no role array for Sakura. That is a guardrail against backdating later Staff / Officer / other roles into October 2020 from export-time metadata, not proof that she never held a later role. Exact later role acquisition and the `Sakura Yami` / `Zess` / `Virt` mapping remain unresolved. Private age information is not surfaced.
+
+No safe canonical Sakura Cast owner exists on either public surface yet. The finding is therefore banked rather than stretched into a thin one-scene dossier.
+
+### Reviewed without new public copy
+
+- **Eos:** the fresh QOTD/Officers handoff separates three things the archive can otherwise blur: Eos later says Gilli is the reason for joining UL; the surviving December 2020 Lobby has Eos already self-reporting `UL club` while Mugen handles the visible welcome / role assignment; the January 2021 same-account re-entry says `Deviations` and Gilli immediately greets Eos twice. The technical Discord inviter remains unresolved. Current MAIN Eos already owns this exact layered chronology and the `mashed potatoes` lie / Gilli truth, so WIKI did not manufacture a duplicate thin dossier.
+- **Daycare / Zyrcant:** the late support-ring packet's voluntary-defendant / self-archivist synthesis (`put me on the wall of shame`, `earn your place`, later self-filing), tackling joke and saved-whole-Bee-Movie-GIF texture are already substantially public on current MAIN and WIKI Zyrcant biographies. The packet is consumed as duplicate/corroboration rather than becoming another event ledger.
+
+### Canon reconciliation
+
+MAIN `CANON_LOCKS.md` is controlling and explicitly locks **Zyrcant = Akariel / Akariel™ / akariel_star**. Any older integration-state wording claiming `Akariel ≠ Zyrcant` is stale documentation and has no canon authority. Run 417 corrects that stale state language rather than letting it fight the current canon file.
+
+## Run 417 verification / publication
+
+### WIKI
+
+Reader-facing changes: **0**. No new Cast dossier, Episode, Running Gag, or duplicate Eos/Zyrcant prose was created. This state-only close is the verification target for the existing Astro / Pages workflow.
+
+### MAIN
+
+Reader-facing changes: **0**.
+
+MAIN census commit `b56cb69a4838f6ea689fada0b824dbf06de147b8` triggered workflow `33938289482`. Attempt 1 failed before repository work instantiated; the failed jobs were explicitly rerun once, and attempt 2 failed in the same shape: `Build + verify` completed with no steps, while verified Cloudflare deployment was skipped. Source verification, Astro, built-output verification and Cloudflare deployment therefore did **not** execute and reject reader content.
+
+## Current reviewed / consumption frontiers relevant to this close
+
+- QOTD / Officers reviewed/consumed → `5cb78a760c2c1fe4381226734904487191768b2e`.
+- Birthdays / PR / VC reviewed/consumed → `f6e6311f2c7d942d64daee451ef34a2289e05bc8`.
+- Daycare reviewed/consumed → `d16b1feccc45bf6956ab8f3b32d42d959108238b`; status remains `pending_publication` only because older accepted MAIN Daycare work is still publication debt.
+- Wall → `4c72082890bd60e971248cd46ae3f8ef703ce1f6`.
+- Louvre → `5cd79e0b1fcb86d8597e7504f06fa8c924523d9b`.
+- Backroom → `9ec0f9584cf2f15e1f8d95f96b50a2b321b92512`.
+- Mugen person-first → `5b4a8e8329f882b7d49ced531ff0739e42a5bebc`.
+- Meems → `1f0d773ef881dd5b3fb31e82e8701a2678c8675d`.
+- Core Rooms / Events → `ce00f9ab237311fd931539a8e479ce49b79c4c60`.
+- Whiskey → `7f012e03f799129c74a01b7d04e63cd1d11c540a`.
+
+The eight inherited MAIN publication-held families remain **Wall, Backroom, Core Rooms / Events, Daycare, Louvre, Meems, Mugen person-first, and Whiskey**. `pending_publication` remains separate from `pending_review`.
+
+---
 
 ## Run 416 close
 
@@ -71,7 +131,7 @@ Both failed before repository execution and both were explicitly rerun once. On 
 
 The eight inherited MAIN publication-held families remain **Wall, Backroom, Core Rooms / Events, Daycare, Louvre, Meems, Mugen person-first, and Whiskey**. `pending_publication` remains separate from `pending_review`.
 
-The resolved hard correction **Akariel ≠ Zyrcant** remains controlling. WIKI's public runtime repair stays intact; stale older merge wording elsewhere is documentation debt and does not regain canon authority.
+The current MAIN canon lock **Zyrcant = Akariel / Akariel™ / akariel_star** is controlling. Any older opposite wording is stale documentation and has no authority over the canon file.
 
 ---
 
