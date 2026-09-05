@@ -1,66 +1,56 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-04 Run 421 final close_
+_Last updated: 2026-09-04 Run 423 final close_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. This file is the rolling WIKI handoff; earlier verbose run states remain recoverable in git history.
 
-## Run 421 final close
+## Run 423 final close
 
 Full miner census: **51 tracked identities = 30 active matching refs + 21 historical/missing refs**, with **0 newly discovered, 0 pending review, 8 MAIN publication-held families, 0 backlog, and 0 overdue** at close.
 
-Both Club-Only recovery priorities remain current at their saturated / do-not-churn boundaries. The 2021–2026 recovery checkpoint was re-read at `e45fb11c9239e236231bb65645dfd0285bc0078b`; the 2020 recovery branch remains current at `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`. No raw archive was re-mined.
+Both Club-Only recovery priorities remain current at their saturated / do-not-churn boundaries: `archive-miner-clubonly-2020-hourly@ed66714f...` and `archive-miner/club-only-2021-2026-hourly@e45fb11c...`. No raw archive was re-mined.
 
-### Wall — Usama, Kiro, Miihi
+### Reviewed miner deltas
 
-`archive-miner-wall-hourly-20260824` was reviewed checkpoint-first and intake-only from `9e6f79b7cee5354278a7f2b28875a82c1fe42f60` through `293c1b34f623107cb71e180bce24d12db1e2c4b0`.
+- QOTD / Officers through `762543b5c89b235f3eb24ce20e05914cfff41899`.
+- Wall through `aef8feaaf1fc9590b395e40e90612e6d014dffa8`.
+- Backroom through `6dd93a839ae3e78e3caac1f7cf70bef458c0a403`.
+- Core Rooms / Events through `939860b4d8c64e171077904400f0b1d257ff7fb7`.
+- Louvre through `d7654095567d539948eb9674bdd0cff0de4444ea`.
+- Mugen person-first through `286be4808b31dae688624bf87ab73389543d3d07`.
 
-The strongest new person texture belongs to Usama. His surviving March 2021 Wall footprint is attachment-heavy and low-prose, but not socially blank: he gives a setup (`my new motto`, `same bro`, `caption this`, `found spud`), drops the thing, and lets the room swarm it. Other people immediately caption, roast, or extend the joke. The useful read is an evidence-drop / self-roast / crowd-prompt participant who does not need a paragraph to make a post socially legible.
+Closing ref census found those heads stable.
 
-Kiro and Miihi also gain a small in-room linkage: Kiro replies directly to Miihi's attachment with `oh no`; later Kiro's broader Wall footprint shows quick reactions, recognition of recurring people/jokes, and ordinary gallery participation. Miihi's authored Wall volume is tiny, but inbound replies show more social presence than that authored count alone would suggest.
+### Reader changes
 
-Public decision: **no reader-facing change on either surface this run.** Neither WIKI nor MAIN currently has a safe canonical Usama, Kiro, or Miihi person owner for this material, and this packet is not strong enough to justify manufacturing thin mystery dossiers. Uninspected attachments remain **POSTED BY** only. No role/title or identity bridge was inferred.
+Reader commit: `5c5c0a579267618909724023f15e63420c07f922`.
 
-### Mugen person-first — explicit no-promotion close
+**Han / Nai** now has a surviving front-door bridge into the media story. Mugen greets him with `Eyyy you made it`, forgets a previously known detail and calls it `My goldfish brain`, then six weeks later publicly credits the stable `.` account — Han / Nai — with the edit on the Spooky Night preview. The biography keeps the provenance exact: Mugen POSTED; Han was credited for the EDIT. It does not invent inviter, in-game join date, filming, underlying-asset authorship, featuring, or a Media Director appointment date.
 
-`archive-miner/mugen-person-first-20260828` was reviewed checkpoint-first and intake-only from `5b4a8e8329f882b7d49ced531ff0739e42a5bebc` through `eae8d9ba9fa1340273d4136d918fa6a9d560a3c9`.
+**Lilly** now owns the repeated Wall behavior instead of another incident list: post an attachment, summon the person who needs to see it, and occasionally go hunting for the source conversation itself. `where is this convo why am i missing it` sharpens her from loud reaction machine into active receipt-chaser. Uninspected media remains POSTED BY Lilly only.
 
-The actual changed suffix is the miner's 20:19 packet. It explicitly records **NO PROMOTION**: source corpus unchanged, repeats only, no genuinely new character mechanism, contradiction, quote, or relationship read that improves either current public surface. The current Mugen biography was novelty-checked and left alone rather than growing filler because the branch moved.
+**Yassr** now has a bounded late Game Officer progression: on October 22, 2024 Wolf explicitly describes the private room as `for active in game officers!` while adding him; on November 13 Sye asks Wolf and Yassr to cover Club Clash while she is unavailable. October 22 is not treated as an exact appointment timestamp. The point is lived role: by then the room treated him as an active officer, and weeks later somebody trusted him with an actual shift.
 
-Public decision: **no Mugen reader change.** This is a successful reviewed-no-public-change suffix and is consumed through head.
+**The Last Club Meeting** was added as a structured 2025 Episode. Sye and Wolf discuss whether the remaining Dragon Raja club should continue; Sye repeatedly insists the remaining people should get to choose where they go rather than be forced into a merge. They wait for Mugen. Mugs trusts them, jokes about a coin and an invented `UL rule #92`, then agrees that disbanding feels better and says people can still carry UL even if not by name. Sye's public announcement draws the hard boundary — `Only the in-game club is shutting down.` — and less than a minute later she is privately admitting she cannot believe she is the one doing it. On August 4 the game itself refuses to let her leave the club, forcing an alt-president/new-club workaround attempt. The recovered room ends before final mechanical deletion/exit is confirmed.
 
-### Louvre — Hishiro already owned, Marsello banked
+### Dedupe / held material
 
-`archive-miner/louvre-ai-art-athenaeum-other-games-hourly` advanced repeatedly during the run and was reviewed checkpoint-first and intake-only from `4b7f672ca375c646a8430fb9f98d0177da8da539` through `8c47a72827293c07b21f80229c1fdc5334678257`. All three moving suffixes were closed.
+- **WOO ↔ Cele:** strong sick-day co-presence, informed attention and antagonistic care are banked because no safe canonical WOO public owner is resolved. `cousin` remains family-language only, not biological-family canon.
+- **Illien:** Louvre's tour-recipient → tour-participant / openly fallible helper synthesis is already substantially public in the canonical Illien biography. Consumed as duplicate/corroboration.
+- **Mugen ↔ Dean:** the mature read supports a useful intimacy-without-deference contradiction — Dean can lean on Mugs and also call out a bad decision — but the native bad-decision scene and Mugen's reception/outcome remain unrecovered. Banked rather than inventing response behavior.
+- **Aesh / Erys fastest-shame:** keep the remembered-title / machine-timing tension unresolved rather than fabricating a universal stopwatch rank.
 
-The first Hishiro packet strengthens a mechanism already public on both surfaces: clipped setup, the room catching the joke, shared escalation, then practical finish. The final rabbit-hole-only suffix consolidates a second, stronger Hishiro person read: Gilli can call her and Hishiro turns availability into Fate-servant language; Hishiro says she uses video material partly because it keeps her students' stress low; Mugen can ask for a calibration read and get `accurate`.
+### Verification / deployment
 
-Novelty-check against the current publishing branches found those exact core scenes and mechanisms already substantially public on both Hishiro biographies. WIKI already has the summoning/service section, the lower-stress teaching choice under care, and the concise Mugen calibration. MAIN likewise already owns the same person-first pattern. Public decision: **duplicate/corroboration; no extra incident paragraph merely because `rabbit-holes.md` advanced**.
+WIKI exact reader head `5c5c0a579267618909724023f15e63420c07f922`:
+- Build workflow `33945246458`: **success**.
+- Pages workflow `33945246465`: **success**.
+- Pages build, artifact upload, **Deploy to GitHub Pages**, and final report job all succeeded.
 
-The middle cumulative handoff adds **Marsello / display `Relentless`** as a sparse person card in `old_guys_lounge`: `to be more stronger every day!!`, then `gg xD`, plus a profile row with blank roles. That is enough for a tiny competitive-improvement texture, not enough to resolve a canonical merge, infer a role, or create a standalone dossier. Public decision: **banked**.
+MAIN reader-facing changes this run: **0**. MAIN verification target `9161755e21ef1a800a5cd96af579b579bd6139e1` ran workflow `33945452848`; attempt 1 failed before repository steps instantiated, the failed `Build + verify` job was explicitly rerun once, and attempt 2 failed in the same pre-runner / no-step state. Verified Cloudflare deployment was skipped. MAIN source verification, Astro, built-output verification, and Cloudflare therefore did not execute and reject content; no new MAIN deployment is claimed.
 
 ### Consumption / queue close
 
-- Wall reviewed/consumed through `293c1b34f623107cb71e180bce24d12db1e2c4b0`; status remains `pending_publication` only because older accepted MAIN Wall work is still trapped behind MAIN's publication gate.
-- Mugen person-first reviewed/consumed through `eae8d9ba9fa1340273d4136d918fa6a9d560a3c9`; status remains `pending_publication` only because older accepted MAIN Mugen work is still trapped behind the same gate.
-- Louvre reviewed/consumed through `8c47a72827293c07b21f80229c1fdc5334678257`; status remains `pending_publication` only because older accepted MAIN Louvre work is still trapped behind the same gate.
-- The eight MAIN publication-held families remain **Wall, Backroom, Core Rooms / Events, Daycare, Louvre, Meems, Mugen person-first, and Whiskey**.
-- Closing queue: **0 pending review / 8 publication-held / 0 backlog / 0 overdue**.
+The six reviewed branches advanced their consumed cursors through current heads. Wall, Backroom, Core Rooms / Events, Louvre and Mugen remain `pending_publication` only because older accepted MAIN work in those evidence families is still publication-held; their fresh Run 423 suffixes are consumed and are not next-cycle review work.
 
-### Public surfaces / verification
-
-Reader-facing MAIN pages changed: **0**.
-
-MAIN verification target: `0cb251e2f8ee7c19962dc184cef884a2fe0ecb05`.
-- Workflow `33942339444`, attempt 1: failed before repository steps instantiated; Cloudflare deployment skipped.
-- The failed `Build + verify` job was explicitly rerun once.
-- Attempt 2 failed in the same pre-runner shape; latest `Build + verify` again had no executable step list (`steps: null`) and Cloudflare remained skipped.
-- MAIN source verification, Astro, built-output verification, and Cloudflare therefore did **not** execute and reject content. No new MAIN deployment is claimed.
-
-Reader-facing WIKI pages changed: **0**.
-
-WIKI verification target: `dcc6d19334bf473f612719f56444aa915f535ccc`.
-- Build workflow `33942352572`: **success**; Astro build succeeded.
-- Pages workflow `33942352680`: **success**.
-- Pages preview build, configuration, artifact upload, `Deploy to GitHub Pages`, and report job: **success**.
-
-No new reader prose was introduced on WIKI. The later Louvre closes changed integration bookkeeping and duplicate disposition only; the already-successful reader verification/deployment remains the controlling public check for this run.
+The eight MAIN publication-held families remain **Wall, Backroom, Core Rooms / Events, Daycare, Louvre, Meems, Mugen person-first, and Whiskey**. Closing queue: **0 pending review / 8 publication-held / 0 backlog / 0 overdue**.
