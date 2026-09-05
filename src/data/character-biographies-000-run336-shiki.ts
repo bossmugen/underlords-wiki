@@ -9,11 +9,11 @@ export const run336ShikiNarrative = {
       ...current.sections,
       {
         period: "WALL COURT",
-        title: "HE KEEPS TRYING TO DELETE THE WITNESSES",
+        title: "HE KNOWS EXACTLY WHO IS WATCHING",
         paragraphs: [
-          "Shiki's December `dark mode` refusal is not an isolated anti-receipt mood. On November 19 he opens a Wall pocket with `i did nothing wrong`; when Gilli and Cookie immediately start mock-questioning him, his response lane leans into reaction media instead of a factual defense. Eleven days later he produces the much cleaner policy: `u all see nothing`.",
-          "Then March 2021 hands him another probable local evidence scene and he uses the exact same sentence again: `u all see nothing`. That recurrence is the character beat. Shiki behaves as though witness memory can be revoked by administrative announcement. Unfortunately the announcement is memorable enough to become evidence itself. The man is evasive in the most conspicuous possible way.",
-          "A separate October pocket keeps the bit from eating the whole person. Mugen calls `Love you senseeeei @Shk`; Shiki answers much of the attention through reaction GIFs, then simply says `ok off to work` and leaves the theater for ordinary life. Visual panic, mundane exit, good-day sendoff. He can make himself impossible to quote cleanly and still be extremely easy to recognize."
+          "Shiki's recurring `u all see nothing` defense is funny because it is the loudest possible form of witness suppression. On November 30 he goes from `nani` to `u all see nothing`; in March 2021, after another Wall pocket turns his way, he produces `Nani`, an anime stare GIF, and the exact same sentence again. He keeps trying to revoke the room's memory by announcement, which would work better if the announcement were not itself so memorable.",
+          "December 1 shows the more interesting half of the bit. Rookie Cookie keeps coaxing him toward the expected `dark mode`; Shiki answers `never`. Sou announces that Tae went to bed and it is safe to `go psycho now sensei`; Shiki answers `nope`. Then he notices Rookie lurking, remembers that Ansun is `always be rdy for post`, and starts planning around the audience instead: wait until everybody goes `sleep mode`, move to `jail chat`, and then `kids will not see me`. The room expects chaos from him, but Shiki is the one operating the brake pedal. He knows the persona, knows the audience, and apparently knows exactly when not to perform it.",
+          "That audience-awareness keeps the Sensei joke from becoming one-note. Friends can anticipate the feral version, tease him toward it, or sit ready with the screenshot button; Shiki is comfortable enough to recognize all of those roles and still say no. He can be theatrical about hiding the evidence and surprisingly deliberate about where the theater happens."
         ],
       },
     ],
