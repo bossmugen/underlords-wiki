@@ -33,7 +33,8 @@ export const akaminNarrativeCharacterBios: Record<string, CharacterNarrative> = 
         period: "Petty Crimes",
         title: "Petty Crimes",
         paragraphs: [
-          "Comes back from skating and immediately asks for Gilli. Accepts imaginary cocktails without requiring the bar to become real first. Has used `tell em snoop` as courtroom accompaniment. Has looked directly at a screenshot and answered with `Hehe`. Once decided one yandere reaction was not enough and sent six. Also has enough investment in Tumbleweed to demand continued map residency, which is a very dignified thing to do about a fake family diagram."
+          "Comes back from skating and immediately asks for Gilli. Accepts imaginary cocktails without requiring the bar to become real first. Has used `tell em snoop` as courtroom accompaniment. Has looked directly at a screenshot and answered with `Hehe`. Once decided one yandere reaction was not enough and sent six. Also has enough investment in Tumbleweed to demand continued map residency, which is a very dignified thing to do about a fake family diagram.",
+          "Whiskey appears to have escaped the imaginary-bar category and become an actual opinion. Akamin's contribution to one drink pocket is simply `Whiskey`, followed by `Always gonna be my drink bb`. No tasting notes. No ranking spreadsheet. Beverage loyalty has already been decided."
         ]
       }
     ],
