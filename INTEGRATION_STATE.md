@@ -39,4 +39,6 @@ The nine MAIN publication-held families remain **QOTD / Officers, Wall, Backroom
 
 ### Verification / deployment
 
-This Run 426 WIKI state-only commit is the WIKI verification target; exact Build / Pages result is recorded by the final handoff after Actions settles. MAIN verification target is the Run 426 closing-state commit `cc4706817e4db70e2c91ab27ad89b33d1a6fcf3e`; exact result is likewise recorded after Actions settles. No new reader deployment is claimed until observed.
+**WIKI:** state-only target `d5b06da71b3a3d06421c79f24a8b01997c1000fa` passed Build workflow `33948664714` and Pages workflow `33948664717`. The Pages preview build, artifact upload, **Deploy to GitHub Pages**, and report jobs all succeeded. No reader-facing lore changed; this is a verified state/deployment pass.
+
+**MAIN:** verification target `cc4706817e4db70e2c91ab27ad89b33d1a6fcf3e` ran workflow `33948558775`. Attempt 1 failed before repository steps instantiated; failed jobs were explicitly rerun once; attempt 2 failed in the same pre-runner state. `Build + verify` exposed no executable step list and verified Cloudflare deployment was skipped. MAIN source verification, Astro, and built-output verification therefore did not execute and reject content. No new MAIN deployment is claimed.
