@@ -4,6 +4,7 @@ import { dyingfoxNarrativeCharacterBios } from "./character-biographies-dyingfox
 import { ryoNarrativeCharacterBios } from "./character-biographies-ryo";
 import { deanNarrativeCharacterBios } from "./character-biographies-dean";
 import { taeNarrativeCharacterBios } from "./character-biographies-tae";
+import { taeRun455NarrativeCharacterBios } from "./character-biographies-tae-run455";
 import { zoshaaNarrativeCharacterBios } from "./character-biographies-zoshaa";
 import { candyNarrativeCharacterBios } from "./character-biographies-candy";
 
@@ -13,6 +14,7 @@ export const plateletNarrativeCharacterBios: Record<string, CharacterNarrative> 
   ...ryoNarrativeCharacterBios,
   ...deanNarrativeCharacterBios,
   ...taeNarrativeCharacterBios,
+  ...taeRun455NarrativeCharacterBios,
   ...zoshaaNarrativeCharacterBios,
   ...candyNarrativeCharacterBios
 };
