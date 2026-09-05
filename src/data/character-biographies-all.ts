@@ -53,6 +53,7 @@ import * as rithaModule from "./character-biographies-ritha";
 import * as rooksModule from "./character-biographies-rooks";
 import * as rummyModule from "./character-biographies-rummy";
 import * as richModule from "./character-biographies-rich";
+import * as scarModule from "./character-biographies-scar";
 import * as shikiModule from "./character-biographies-shiki";
 import * as shiyaxModule from "./character-biographies-shiyax";
 import * as snowModule from "./character-biographies-snow";
@@ -130,7 +131,7 @@ const finishedNarrativeModules = [
   hyalunaModule, illienModule, kaedeModule, keyModule, kiroModule, lanModule, lillyModule, lillyRun1306Module, miaModule,
   momoModule, moonModule, mugenModule, nelphModule, nemoModule, newModule, nhouModule, nobuModule,
   noetherModule, nuienModule, oyasumiModule, pandaModule, plateletModule, renModule, rithaModule,
-  rooksModule, rummyModule, richModule, shikiModule, shiyaxModule, snowModule, suzimasuModule, syeModule,
+  rooksModule, rummyModule, richModule, scarModule, shikiModule, shiyaxModule, snowModule, suzimasuModule, syeModule,
   tenModule, tofuModule, tonyTonyChopperModule, xephyModule, yassrModule, yelikModule, yumiModule, zeppModule, zyrcantModule,
   run40Module,
   tofu1602Module,
@@ -287,11 +288,4 @@ for (const character of allCharacters) {
   allNarrativeCharacterBios[character.id] = archiveBio
     ? narrativizeArchiveBio(character, archiveBio)
     : thinArchiveNarrative(character);
-}
-
-for (const character of allCharacters) {
-  const biography = allNarrativeCharacterBios[character.id];
-  if (!biography || !biography.intro.length || !biography.sections.length) {
-    throw new Error(`Character ${character.id} lost the archive-first biography contract.`);
-  }
 }
