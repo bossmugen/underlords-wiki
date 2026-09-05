@@ -1,57 +1,47 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-05 — Run 442 Rooks availability / continuity integration_
+_Last updated: 2026-09-05 — Run 443 Anayss calibration / receipt-hoarding review_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Earlier verbose states remain recoverable in git history.
 
 ## Census / queue
 
-Run 442 completed the mandatory census at **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**. There were **0 newly discovered branches, 0 unread pending-review tails at close, 10 MAIN publication-held families, 0 backlog, and 0 overdue**.
+Run 443 completed the mandatory census at **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**. There were **0 newly discovered branches, 1 advanced unread branch at opening, 0 unread pending-review tails at close, 10 MAIN publication-held families, 0 backlog, and 0 overdue**.
 
-Four advanced miner tails were reviewed checkpoint-first and intake-only:
+The only opening advance was `archive-miner-qotd-officers-20260824`, reviewed checkpoint-first and intake-only from `5f5df586a3e9ab4d50bd04ea1dcbf3228b71bf36` through `23107ad0e90144d07dc66da0b7e12682d64a27fb`. Both Club-Only recovery priorities remain current at their saturated / do-not-churn heads (`e45fb11c…` for 2021–2026, `ed66714f…` for 2020). No raw archive was re-mined.
 
-- `archive-miner/louvre-ai-art-athenaeum-other-games-hourly` through `95c386c5af3073d4c0daa55ac1236c5fd4629d17`;
-- `archive-miner/mugen-person-first-20260828` through `b8fb98b434715c7aa5cf29db96b375a8b2469fea`;
-- `archive-miner/whiskey-longitudinal-hourly` through `9b6d42a855567d38f4054d5c51ab87bd104119cd`;
-- `archive-miner-wall-hourly-20260824` through `eacce9f6590ab2c63554318a74ada26631bd90f4`.
+## Reviewed without new reader copy
 
-Both Club-Only recovery priorities were rechecked at their saturated / do-not-churn heads (`e45fb11c…` for 2021–2026, `ed66714f…` for 2020). No raw archive was re-mined.
+### Anayss — sharp enough to sting, attentive enough to repair
 
-## Public integration
+The new QOTD / Officers handoff materially improves the banked Anayss character read without yet giving either public surface a clean existing narrative owner worth forcing open.
 
-### Rooks — busy is a shape of presence, not a disappearing act
+On 2021-12-14 Anayss answers another person's posted media with `not even supprised tbh` and `Im numb from your posts`. The other person replies only `:c`. Anayss immediately goes `I'm jokin`, then — crucially — does **not** make the room solemn or flee the joke. She follows with `wait let me see if i can do another` and posts media herself. The sequence is useful because the repair is tiny and fast. She notices that the jab may have landed harder than intended, fixes the temperature, and jumps straight back into the shared bit. The apology does not kill the joke; it makes sure the other person is still inside it.
 
-The Whiskey tail materially deepened an existing Rooks pattern rather than creating another event paragraph. Rooks repeatedly translates real-life limits into **how much of the shared evening she can still occupy**.
+Later the same day she openly explains a different petty habit: `Nah i just ss your times when theyre shit bc im petty and need to feel better ab myself`. When the recipient protests that the receipt is months old, Anayss cheerfully admits `Yeah I had to scroll to find it`. Then she supplies her own off-switch: `But whatever` / `I'll let you be`. That makes the stronger cumulative read **receipt-hoarder with brakes** rather than generic cruelty. She will excavate old embarrassment for sport, but she also knows how to stop without needing somebody else to drag her offstage.
 
-Sou tells her `sleep sleep rookie`; Rooks answers `no`. The next day Rooks says she has a twelve-hour shift, then describes the consequence not as a grand exit but as maybe not being on **as late** as the previous night's Jackbox. In September, while building a 3D tetrahedron, she says she will `try to be on time`. Work and school keep becoming logistics around the social plan.
+All attached media in these scenes remains visually uninspected. Public-safe attribution is therefore POSTED BY only; no claim was made about maker, capture, depicted subject, or ownership. The first counterpart was not promoted from a display-name appearance into a resolved identity, and the second counterpart was not silently upgraded into Mugen because a derivative handoff suggested it.
 
-That makes the Sou beat especially useful relationship texture. `sleep sleep rookie` / `no` is low-ceremony care: Sou can prod, Rooks can refuse in one word, and the next day's shift makes the concern legible without turning either person into the other's supervisor. They do not need to stage a care scene because the familiarity is already carrying it.
+The existing Anayss bank already includes her habit of wrapping earnestness in jokes: crying over a teacher-appreciation answer while laughing at herself, family-lake fishing, enjoying her mother's karaoke attempts, `my ass staying single bruh`, and an empathy answer centered on understanding another person's perspective before judging. The new December material deepens the same contradiction rather than creating two new timestamp coffins.
 
-The later material then completes the same mechanism at larger scale. Rooks asks for `me time` during spring semester while keeping DMs open, saying she will remain chatty, and ending with `I love you all`. A fresh automated welcome months later is immediately followed by Gilli's `Roles assigned hunbun uwu` and Rooks's `thank you my love`, so bureaucracy can call it an arrival while the relationship language never returns to zero. The assignment crisis (`3/8 pages done`) and `Can someone carry my corpse while I’m at work pls` keep the contradiction intact: Rooks is sensible about capacity, very capable of becoming her own exception, and still inclined to leave the room instructions for how to continue around her obligations.
+No WIKI dossier was manufactured solely to house this packet. A search of the current public WIKI found no existing Anayss narrative owner, so the stronger character read stays banked for a future dossier or ensemble owner that can carry it properly.
 
-The existing `src/data/character-biographies-rooks.ts` biography was resynthesized **in place** around this pattern. No new Rooks episode or duplicate narrative layer was created.
+## Meaning-deduped / held
 
-## Reviewed without new public copy
+The same miner family also re-surfaced material already handled elsewhere: Panda↔Eos feud/payment texture, the `Pet Names and Thigh Fetish` Anayss meme/reputation joke, and established Officer-room structure. None received duplicate public prose.
 
-**Plushie / `dylan9399`** now has a useful banked person read from the Louvre: asks what a room is for, accepts Rooks's explanation immediately, and within minutes is already using the house's joke-language (`Snow u saw nothing UwU`). Later `The panda is both adorable and dangerous` fits the same quick adaptation. There is still no safe canonical public owner bridge, so no thin mystery dossier was manufactured.
-
-**Mugen person-first** produced a third consecutive deliberate negative novelty gate. The fresh checkpoint did not add a new cost, contradiction, failure, relationship movement, or evolution worth making her biography worse for. No Mugen paragraph mitosis.
-
-**Zoshaa / NintendoShitcube** gained more Wall corroboration — receipt-forward absurdism, shameless willing-defendant energy, `Screaming is what I do best`, boiled-mayo nonsense, and the still-unresolved scrambled-egg-bunny nickname/origin rabbit. The existing public Zoshaa biography already owns the stronger character mechanism, so the tail was meaning-deduped rather than expanded into Screenshot Court Incident #900.
+Still unresolved: Anthos-vs-Ren challenge wording, the `JJJ` artifact, the exact `meeting of officers` reference, the exact `I still have nightmares about it` trail, and the historical relationship between PR and regular Officers. No appointment chronology was inferred from current/export-time roles.
 
 ## Verification / deployment
 
-Verified WIKI reader head: `4338efc9bc86282f8ac6f50528ac936ce4c21912`.
+Reader-facing changes this run: **0**.
 
-- Build workflow `33961398910` — **success**.
-- Pages workflow `33961398868` — **success**.
-- Pages preview build, artifact upload, actual **Deploy to GitHub Pages**, and report all completed successfully.
-- Reader-facing file changed: `src/data/character-biographies-rooks.ts`.
+This state update intentionally triggers the WIKI's normal push workflows so the current `main` tree is still checked by the existing Astro build and Pages pipeline even though no reader file changed. Workflow results are recorded in the subsequent durable close once GitHub reports them.
 
-MAIN made **0 reader-facing changes** this pass. Its production workflow remains intentionally `workflow_dispatch`-only while the runner/account problem is under maintenance, so Run 442 did not bypass that gate or claim a new MAIN deploy.
+MAIN made **0 reader-facing changes** this pass. Its production workflow remains intentionally `workflow_dispatch`-only while the runner/account problem is under maintenance, so Run 443 does not bypass that gate or claim a MAIN deploy.
 
 ## Consumption boundary
 
-The controlling MAIN ledger now records the four reviewed tails through their current heads. `last_consumed_sha` is being used as **reviewed through**, while `pending_publication` separately tracks older accepted MAIN material that still cannot clear the production gate. The previously conservative QOTD reviewed cursor was normalized to its already-reviewed head for the same reason.
+The reviewed QOTD / Officers suffix is eligible to advance the controlling MAIN `last_consumed_sha` through `23107ad0e90144d07dc66da0b7e12682d64a27fb` because this exact suffix has been fully reviewed and no public mutation is being held from it. The branch can remain `pending_publication` separately because older accepted MAIN Panda↔Eos work is still behind the MAIN maintenance gate.
 
 No identity merge, appointment chronology, unseen-media attribution, literal family/romance claim, or origin claim was manufactured in this run.
