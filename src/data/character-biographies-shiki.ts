@@ -13,7 +13,8 @@ export const shikiNarrativeCharacterBios: Record<string, CharacterNarrative> = {
         paragraphs: [
           "The cleanest Shiki rule is also the one that prevents him from becoming a cardboard battle guy: `Most toxic figh, strike back hard`, followed almost immediately by `If they are polite, be polite`. The second line matters more than the first one looks like it should. His instinct is not indiscriminate aggression. It is reciprocity. He adjusts to what the other person actually brought into the interaction.",
           "That conditional thinking shows up everywhere around him. A fight is not simply good or bad; watch the speed, airborne timing and what the other player is doing. A tactic is not sacred; test it, see whether it works, change games or methods if it does not. A person asking for help does not need a motivational TED Talk; they need enough of the pattern to recognize the next attempt themselves.",
-          "The result is a social style that can feel almost compressed. Shiki gives people the frame and expects them to walk the last few feet. There is trust hidden inside that brevity. He talks as though the listener is capable of noticing what he noticed once somebody points at the right part."
+          "The result is a social style that can feel almost compressed. Shiki gives people the frame and expects them to walk the last few feet. There is trust hidden inside that brevity. He talks as though the listener is capable of noticing what he noticed once somebody points at the right part.",
+          "That economy gets funniest when somebody tries to hand him a premise he does not want. Mugen announces a new mission — `start cooking` — and Shiki answers `Nah I'm good`. Joe calls somebody `another Shk`; Shiki quietly upgrades the comparison to `Nah they are better`. Even when Mystery tells him `I am still extremely scared of you`, his eventual defense is the microscopic `nuh uh`. The intimidating reputation does not produce a speech. Shiki treats it like another proposition he is allowed to decline."
         ]
       },
       {
@@ -53,6 +54,7 @@ export const shikiNarrativeCharacterBios: Record<string, CharacterNarrative> = {
         title: "PETTY CRIMES",
         paragraphs: [
           "Shiki has used `Virtual covid` as a diagnosis for contagious room nonsense. The treatment plan was apparently unavailable.",
+          "Asked who Tourmal was, Shiki supplied the complete personnel file in one word: `Twink`.",
           "His coaching vocabulary is wonderfully compressed: study, take note, relax, test again. Somewhere a twenty-slide presentation just died of embarrassment.",
           "He once summarized his own social development as the lone-wolf thing getting old. Character growth, but make it sound like cancelling a subscription.",
           "His `dark mode` has a minor-safe scheduling policy. Even the corruption comes with operating hours.",
