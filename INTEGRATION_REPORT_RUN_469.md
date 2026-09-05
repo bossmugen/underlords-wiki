@@ -1,6 +1,6 @@
 # UL Wiki Integration Report — Run 469
 
-Mandatory miner census remains **51 tracked identities = 30 active refs + 21 historical/missing refs**, with 0 newly discovered identities, 0 backlog and 0 overdue. QOTD / Officers and a late-moving Daycare tail were reviewed checkpoint-first from intake handoffs only. Closing census then caught two new unread tails: Core Rooms / Events `0b8698cc69048e82e8b8ae1c279bea82832e28b1` and Louvre `90389ec8ebc639d8262b4cd9e5df656aa1a35eb4`; both remain seen but unconsumed. Both Club-Only recovery lanes remain current at their saturated/do-not-churn heads.
+Mandatory miner census remains **51 tracked identities = 30 active refs + 21 historical/missing refs**, with 0 newly discovered identities, 0 backlog and 0 overdue. QOTD / Officers and a late-moving Daycare tail were reviewed checkpoint-first from intake handoffs only. Final census has two unread tails: Core Rooms / Events `61a0c7f0b79a5ed0e59de7bc2123b58419617f02` and Louvre `90389ec8ebc639d8262b4cd9e5df656aa1a35eb4`. Core advanced again during close after first surfacing at `0b8698cc69048e82e8b8ae1c279bea82832e28b1`; the later head is recorded as seen but unconsumed. Both Club-Only recovery lanes remain current at their saturated/do-not-churn heads.
 
 ## Jas
 
@@ -26,4 +26,4 @@ Daycare was reviewed through `1430caf014a42635a94b09a5c385a4461c180322`. The rep
 
 Mugen calling the QOTD bot a `New barista on board!` and `Onboarding in process`, while Sye has already written a question, is held as cumulative Petty Crimes / lived-operations texture rather than inflated into a standalone episode.
 
-MAIN changed no reader pages this run because its required production verify/deploy path is decoupled from integrator pushes and cannot be intentionally dispatched through the available connector. MAIN's controlling branch state and the dual-surface report were updated; the Jas local-child interpretation correction remains publication debt there rather than an unverified reader edit.
+MAIN changed no reader pages this run because its required production verify/deploy path is decoupled from integrator pushes and cannot be intentionally dispatched through the available connector. MAIN's final census ledger is at `7aad028a87fb6d123a1f15e449fa6f0b07f497c5`; the Jas local-child interpretation correction remains publication debt there rather than an unverified reader edit.
