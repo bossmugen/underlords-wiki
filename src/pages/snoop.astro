@@ -1,6 +1,7 @@
 ---
 import WikiLayout from "../layouts/WikiLayout.astro";
 import { allCharacters } from "../data/cast";
+import { torrCharacter } from "../data/character-torr";
 import { seasons, locations, featuredQuotes } from "../data/wiki";
 import { allEpisodes, allGags, episodeFormat } from "../data/all-content";
 
@@ -15,11 +16,15 @@ type SearchItem = {
 
 type SearchGroup = { type: string; label: string; items: SearchItem[] };
 
+const searchableCharacters = allCharacters.some((character) => character.id === torrCharacter.id)
+  ? allCharacters
+  : [...allCharacters, torrCharacter];
+
 const groups: SearchGroup[] = [
   {
     type: "STRIPPERS",
     label: "STRIPPERS",
-    items: allCharacters.map((character) => ({
+    items: searchableCharacters.map((character) => ({
       type: "STRIPPERS",
       title: character.name,
       eyebrow: [character.role, character.era].filter(Boolean).join(" · "),
