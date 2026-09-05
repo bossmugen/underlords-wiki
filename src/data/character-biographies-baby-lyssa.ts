@@ -39,6 +39,7 @@ export const babyLyssaNarrativeCharacterBios: Record<string, CharacterNarrative>
         title: "Defendant becomes interpreter",
         paragraphs: [
           "When Aeshleen gets posted almost immediately and protests `THATS BULLYING`, Baby Lyssa answers `it’s bulli with love`. It is funny because she keeps both halves. `bulli` does not pretend the embarrassment disappears; `with love` names the affectionate frame she has learned to recognize from inside the same ritual.",
+          "By July she says the quiet part herself. Summoned into another Wall pocket, Ghoulie asks `is this y’all’s way of showing me love???`; eight seconds later she decides that if so, `i love y’all too`. Ren eventually true-replies to the first question with `You’re my idol`, and Ghoulie comes back with `that’s so sweet big thamk🥺`. The sequence is better than calling Screenshot Court merely friendly. Ghoulie is the one naming the attention as affection, Ren answers from inside the same ridiculous ritual, and neither of them has to make the room stop being embarrassing for the warmth to be obvious.",
           "Later Woohyuk calls Aeshleen's speed `a record`; Mugen agrees and adds `ghoulie got competition`. Ghoulie has gone from fresh defendant to somebody else's comparison point. She does not become immune to the Wall. She becomes experienced enough to tell the next person what kind of stupid court they just wandered into."
         ]
       },
