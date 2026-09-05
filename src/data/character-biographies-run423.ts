@@ -65,4 +65,36 @@ export const run423NarrativeCharacterBios: Record<string, CharacterNarrative> = 
     ...yassrBase,
     sections: yassrSections,
   },
+  zhenxi: {
+    intro: [
+      "Zhēnxī / Platelet has a wonderfully economical Wall operating system: let the image or GIF do the setup, then arrive with one tiny sentence sharp enough to function as the verdict. The surviving file is not actually wordless. It is compressed. Zhēnxī can defend a lofi playlist, diagnose an empty room, inspect somebody's pixels, wish on a rival's downfall, and leave before the prose has time to become a speech.",
+      "That economy is part of the personality rather than a lack of one. Across 2022 and 2023, the same rhythm keeps returning: visual prompt, clipped reaction, room moves on. Sometimes the line is defensive, sometimes petty, sometimes just an extremely practical roast. Zhēnxī does not need to own the whole conversation to put a stamp on it."
+    ],
+    sections: [
+      {
+        period: "2022–2023",
+        title: "THE PICTURE DOES THE SETUP; ZHĒNXĪ ISSUES THE VERDICT",
+        paragraphs: [
+          "The cleanest pattern is how often Zhēnxī's prose arrives after something visual and behaves like a rubber stamp. A lofi exchange gets **`ITS MY LOFI PLAYLIST SHUSH`**. A room/furniture joke gets **`PUT SOME FURNITURE IN`**. Another visual earns **`this looks like an emoji`** and then **`i can literally see the pixels`**. The images themselves stay outside the biography unless separately inspected; the authored reaction is already enough to show what Zhēnxī notices and how quickly the judgment comes out.",
+          "That makes the low word count misleading. Zhēnxī is not disappearing from the room; they are participating in a format where the media carries context and the sentence supplies attitude. The funniest lines have almost no padding because padding would weaken them."
+        ]
+      },
+      {
+        title: "PETTY COMPETITION IS STILL PARTICIPATION",
+        paragraphs: [
+          "Zhēnxī can also turn competition into deliberately childish theater. **`HA I GOT U BUTTFACE`** is immediately followed by **`WE GET NEW ONES`**; months later comes **`im wishing on his downfall`**. The wording matters because none of it sounds like a solemn grudge. `Buttface` and `wishing on his downfall` are performance-petty: rivalry made funnier by announcing the villain posture out loud.",
+          "Gilli and Lunarz recur around some of these Wall pockets, but the room does not need a friendship ranking to make the social comfort legible. Zhēnxī is comfortable enough to defend taste, heckle presentation, and narrate somebody else's impending defeat in public."
+        ]
+      },
+      {
+        title: "Petty Crimes",
+        paragraphs: [
+          "Defends the lofi playlist with **`SHUSH`**. Believes echo can be treated with furniture. Has looked at an image and decided **`i can literally see the pixels`**. Has issued **`ur mom`** as a complete follow-up argument. Has also publicly admitted to **`wishing on his downfall`**, because apparently subtle malice is for people with longer messages."
+        ]
+      }
+    ],
+    closing: [
+      "Zhēnxī's Wall file works because the personality is in the compression. Other people can build the scene; Zhēnxī often shows up for the last six words. Picture first. Verdict second. Exit before anybody can request a paragraph."
+    ]
+  },
 };
