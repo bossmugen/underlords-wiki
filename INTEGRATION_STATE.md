@@ -1,8 +1,26 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-05 — Run 456 Daycare + Wall reconciliation_
+_Last updated: 2026-09-05 — Run 459 QOTD + Louvre reconciliation_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Earlier verbose run states remain recoverable in git history.
+
+## Run 459 — Ansun is apparently the event alarm clock and the art-class menace
+
+The mandatory full census found **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**, with **0 newly discovered branches, 2 advanced/unconsumed tails at opening, 10 MAIN publication-held families, 0 backlog, and 0 overdue**. The opening movers were QOTD / Officers (`9a2ec7fd… → eea62ea1…`) and Louvre / AI Art / Athenaeum / Other Games (`f9a97732… → e26eae21…`). Both were reviewed checkpoint-first from changed `archive-intake/*` handoffs only. During close, Louvre advanced one more commit to `26f39cce…`; that suffix changed only the cumulative `site-candidates.md`, was checked after the checkpoint, and added no evidence beyond the already-reviewed Ansun family. No raw archive was re-mined. Both Club-Only recovery priorities remain current at their saturated / do-not-churn heads (`e45fb11c…` for 2021–2026, `ed66714f…` for 2020).
+
+The Louvre finding gives **Ansun / Souta / Sou** a much cleaner lived-role contradiction. In 2020 he repeatedly acts like the house's human event clock: Haunted Night in fifteen minutes, Hunter Ranger in five, Demo Club in ten, form teams, please join, Yakuza in ten. The messages are tiny and practical; he notices that time has become a coordination problem and makes the next move obvious. Then on 2020-10-01 the same person drops into Club Only from an art-related class/lecture, says he only popped in to say hi, sees the room already doing a ridiculous public bot-kiss / mock-strip bit, and turns the class itself into ammunition within minutes: `you need human touch to make art so how about you lemme turn you into my masterpiece 👀`. Gilli keeps handing the bit back, and Sou keeps it moving. This is easy reciprocal public joke escalation, not literal romance or sex. The person-shaped read is stronger than `organized but goofy`: **practical sequencing outward; fast contextual remix inward**. He can get everybody to the thing on time and then use the nearest lecture concept to make the room worse.
+
+That material is now folded into the existing Ansun WIKI biography rather than added as an event ledger. `src/data/character-biographies-ansun.ts` now carries the countdown behavior inside his lived organizing pattern, the art-class detour inside the `Competence is allowed to look stupid` contradiction, the Gilli exchange as bounded relationship texture, and a Petty Crime for the human countdown timer taking art theory personally. Formal role chronology was not backfilled from the reminders; the class mention was not inflated into a degree/major/profession; the mock-kiss/strip/masterpiece language remains public joke language; and the creative-media corpus remains provenance-bounded.
+
+QOTD / Officers produced a large **Rummy** packet, but concurrent WIKI work had already integrated the same evidence family cleanly before this pass reached publication. The current Rummy biography already contains the named `Rumfection` genealogy, the peer caricature of her recognizable typing/persona, the BL-knowledge reputation and fake `BLING exam`, the burnt/charcoal pancake tribunal, and Rich's recurring light-mode enforcement. The concurrent reader commit was **`a58f798268abb4b84295cd43089bd5eab2579b81`**. Build workflow **`33975426880`** succeeded; Pages workflow **`33975426874`** also succeeded, including preview build, artifact upload, actual **Deploy to GitHub Pages**, and report. This run therefore deduped by meaning and did **not** append a second Rumfection paragraph merely because another handoff existed.
+
+### Reader / verification status
+
+Run 459's Ansun reader commit is **`846b8f9f4490f1a8c3204cbc3aa43c885b203936`**. Build workflow **`33975992203`** succeeded. Pages workflow **`33975992181`** also succeeded: preview build, artifact upload, actual **Deploy to GitHub Pages**, and report all completed successfully.
+
+MAIN changed **0 reader-facing files**. Both Rummy and Ansun have existing rich MAIN owners and the new material is accepted for future complementary folds, but MAIN production is deliberately decoupled from pushes: `.github/workflows/ul-hourly-build-deploy.yml` runs only via manual dispatch or the gated four-hour schedule. The available connector exposes no workflow-dispatch action, so this pass did not push an unverified MAIN reader edit and makes no new MAIN deployment claim. The richer MAIN folds remain publication debt rather than being mirrored from WIKI.
+
+QOTD / Officers is reviewed/consumed through `eea62ea1ddc336a55b61f13cef7e2c582f7f10ca`. Louvre is reviewed/consumed through the closing packaging head `26f39ccea2248def84a9751ed8416fd61e2b3860`. Final queue after the closing census is **0 unread pending review / 10 MAIN publication-held / 0 backlog / 0 overdue**.
 
 ## Run 456 — Mavis was already dying before this became a sport
 
