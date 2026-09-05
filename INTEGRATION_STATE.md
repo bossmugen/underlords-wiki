@@ -1,58 +1,67 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-05 — Run 449 close_
+_Last updated: 2026-09-05 — Run 450 close_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Earlier verbose states remain recoverable in git history.
 
 ## Census / queue
 
-Run 449 completed the full branch census at **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**, with **0 newly discovered branches, 0 unread pending-review tails at close, 0 backlog, and 0 overdue**. Ten evidence families still carry MAIN publication debt; those statuses are not unread miner work.
+Run 450 completed the full branch census at **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**, with **0 newly discovered branches, 0 unread pending-review tails at close, 0 backlog, and 0 overdue**. Ten evidence families still carry MAIN publication debt; those statuses are not unread miner work.
 
 Reviewed checkpoint-first and intake-only:
 
-- QOTD / Officers: `95a349adf53c2d430b05c03f21e9ddfd38228f70` → `a2223f396042c075040fc8be2fb84918d6cfffe5`.
-- Louvre / AI Art / Athenaeum / Other Games: `95c386c5af3073d4c0daa55ac1236c5fd4629d17` → `2fa1b03a4e0bbcd9065d626a38173d7e5b4dcac7`.
+- Louvre / AI Art / Athenaeum / Other Games: reviewed through `f9a97732664c7cba8a892109b33d8b53af6133ee`; its controlling MAIN consumed cursor remains conservative because older accepted MAIN Louvre work is still verification-held.
+- Wall of Shame / Fame: reviewed through late-moving head `98d74a9f6565114e0f4b91757229050704a01c9a`.
+- Daycare: late-moving suffix reviewed through `88250a54014507ab8284daa8f3984e5e39483fb4`.
 
 No raw archive was re-mined. Both Club-Only recovery priorities remain current at saturated / do-not-churn heads (`e45fb11c…` for 2021–2026, `ed66714f…` for 2020).
 
-## Nhou — creative seriousness without the little beret
+## Suzimasu — defendant, courier, and defense counsel share a login
 
-The Louvre suffix adds a clean Nhou mechanism rather than another event list. Nhou can walk into a conversation with **`idk what yall talking about`**, arrive for a bet after it is already solved, or ask to stream drawing while appending **`owo if I ever get to it?`**. He does not bluff missing context or turn creative ambition into ceremony. Mugen's matching answers — `join in nhouuu`, `I'll still take your bet uwu`, and `yus🤟` to the drawing-stream request — repeatedly reopen the participation lane instead of making bad timing disqualifying.
+The Wall suffix deepens Suzi by contradiction rather than event count. `Trying to win the wall of shame awards`, later `Since were sharing`, and then the cursed-experiment sequence `I HAD TO TRY IT LMAOOOO` + `EXPLAINATION` all point at the same person-level mechanism: Suzimasu can actively feed Screenshot Court, become its defendant, and immediately begin preparing a defense without deciding any of those jobs conflict.
 
-The same intake also preserves Nhou self-identifying as **RN BSN**. That is useful ordinary-life biography, not permission to invent workplace, patient, shift, or case details, and not a reason to flatten him into “the nurse who draws.” The professional register is funniest precisely because it sits beside somebody asking permission to draw with `if I ever get to it?` already attached.
+The relationship texture matters more than the filing totals. Suzi can summon Rummy with `help meeee` and get a soft pat; Baby Lyssa can stare at the self-filed catastrophe with `HELP` / `what IS THIS CATASTROPHE`, and Suzi's answer is to apologize while also giving Lyssa directions toward more cursed material. Rescue and distribution happen in the same breath. With Ren the register softens cleanly into `I still wuv you` / `Aweee suziiii`. WIKI folded this into the existing Suzimasu dossier instead of creating another Wall episode.
 
-WIKI integrated this into the existing Nhou biography rather than creating a standalone Episode coffin. `src/data/character-biographies-nhou.ts` now carries the late-entry/context-candor pattern, drawing-stream ambition, and RN BSN field inside the existing person-shaped read. Direct Louvre media remains **POSTED BY** unless object-level evidence establishes MADE BY / CAPTURED BY / FEATURING.
+## TonyTonyChopper — loud objection, continued participation
 
-## Syv — duplicate material, identity rail wins
+Tony's Marian pockets now read as a lived relationship pattern rather than isolated reaction text. Marian can file Tony and get `STOPPPP`; in a later filing Tony goes `NO` → `STOP` → `DONT SHOW THEM`. When Marian calls themself a bad influence, Tony's `Yes you are` does not end the interaction. The accusation is comfortable enough to remain inside the joke.
 
-The QOTD / Officers suffix re-surfaced Syv's organic-chemistry reframing and January Wall/ramen material. Those scenes are already substantially public, so no reader duplication was added.
+Later Tony recognizes recurring house nonsense, remembers that somebody `said this with goats too`, and brings an image into the room. The pixels remain uninspected, but the social change is clear without overclaiming them: the defendant has learned where the filing cabinet is. Tony can still panic when exposed while also remembering callbacks and helping operate the same evidence culture. WIKI folded that change into the existing dossier and added the haircut / soggy-bacon / missing-body oddities to `Petty Crimes`.
 
-The fresh miner handoff also blurred `Rich/Ricochet` around the `dragonrichard` account. Existing public canon already resolved **Ricochet / dragonrichard ≠ Rich / DragonRich**, including a dedicated correction commit. Run 449 therefore consumed the fresh suffix as duplicate/corroboration plus a held label contradiction instead of regressing the identity model. Ren's January Wall image remains POSTED BY only; its pixels, maker, captor, and featured subject remain unresolved.
+## Akamin — beverage doctrine requires no committee
+
+Akamin's Wall contribution `Whiskey` followed by `Always gonna be my drink bb` is small enough for exactly one place: `Petty Crimes`. No tasting notes, no invented origin, no event page. The preference is already settled in her own language.
+
+## Banked / held material
+
+Louvre's stable `blue_wind_boy` account supplies a coherent private working read: practical/reuse-minded help around Switch accessories for a nephew and spare parts for a little sister, collector/customization taste (`I just like decorating shit lmao`), mousepads chosen for image/art, and a later Louvre Art Challenge 2022 post. There is no safe canonical public owner bridge, so the cluster stays banked. The Art Challenge image is **POSTED BY** Blue only; its maker, captor, subject, and placement remain unresolved.
+
+The late Wall tail adds Celeana / Cele being comfortable enough to answer a playful DM accusation with `Gtfo`, later self-filing a dream about Gilli and Mob as a nightmare. No safe existing public Cele owner was resolved this run, and the attachments remain uninspected, so no thin dossier was manufactured. Booba's isolated bleach-LOLCAT line follows an uninspected attachment whose target remains unclear; it did not warrant mutating her existing page. The same late tail further corroborates Suzimasu's self-incrimination arc already integrated above.
+
+The late Daycare tail gives Churro a strong backstage person read across 2019: practical game-systems advice, collaborative optimization, repeated target/range guidance, and the relational promise `As soon as I know anything.... you know I’ll tell you`. That is usable-care behavior rather than mere stats expertise, but no safe canonical public owner/routing was resolved. It remains banked rather than becoming a thin mystery dossier.
+
+Deleted-user identity pools remain unresolved. No uninspected attachment was upgraded beyond POSTED BY. No same-name join, role-array chronology, joke-family literalization, joke-romance literalization, or earliest-surviving origin claim was introduced.
 
 ## Reader / verification status
 
-Run 449 changed **1 WIKI reader file**: `src/data/character-biographies-nhou.ts`.
+Run 450 changed **3 WIKI reader files**:
 
-Exact reader commit: **`90e540956c7bc8054c4e69ad137f42705d86a0f9`**.
+- `src/data/character-biographies-suzimasu.ts`
+- `src/data/character-biographies-tonytonychopper.ts`
+- `src/data/character-biographies-akamin.ts`
 
-- Build workflow `33968079124` — **success**.
-- Pages workflow `33968079101` — **success**.
-- Pages build, artifact upload, actual **Deploy to GitHub Pages**, and report jobs all completed successfully.
+Exact final reader commit: **`a1edeb1ea3d5e5e6ec1ddfd91a8835dd236c849f`**.
 
-MAIN made **0 reader-facing changes** this run. Its production workflow remains intentionally `workflow_dispatch`-only while the runner/account issue is under maintenance, and the available connector exposes no dispatch action. Run 449 therefore does not claim MAIN source verification, Astro build, built-output verification, or Cloudflare deployment for the accepted Nhou fold.
+- Build workflow `33970415366` — **success** against that exact reader head.
+- Pages workflow `33969788247` — **success** against that exact reader head.
+- Pages build, artifact upload, actual **Deploy to GitHub Pages**, and report steps completed successfully.
 
-## Consumption / publication debt
+MAIN made **0 reader-facing changes** this run. Its production workflow remains intentionally manual / `workflow_dispatch`-only while the runner/account issue is under maintenance. With no MAIN reader change and no connector dispatch action, Run 450 does not claim fresh MAIN source verification, Astro build, built-output verification, or Cloudflare deployment.
 
-QOTD / Officers is consumed through **`a2223f396042c075040fc8be2fb84918d6cfffe5`** because the fresh suffix was fully reviewed and no new public change was warranted.
+## Surface split / consumption intent
 
-Louvre is reviewed through **`2fa1b03a4e0bbcd9065d626a38173d7e5b4dcac7`**. Its WIKI change passed verification and deployment, but the controlling MAIN consumed cursor remains conservatively at **`95c386c5af3073d4c0daa55ac1236c5fd4629d17`** because the complementary accepted MAIN Nhou fold cannot clear the mandatory MAIN verifier while dispatch is unavailable.
+Suzimasu, TonyTonyChopper, and Akamin were intentionally WIKI-only this pass because the new material deepened existing structured character owners there. No thinner MAIN twins were created merely for symmetry.
+
+Wall is fully reviewed through `98d74a9f6565114e0f4b91757229050704a01c9a`; the accepted WIKI reader changes passed verification/deployment, and the final late Wall suffix required no further reader mutation. Daycare is a successful no-public-change review through `88250a54014507ab8284daa8f3984e5e39483fb4`. Louvre is reviewed through `f9a97732664c7cba8a892109b33d8b53af6133ee`, but its older accepted complementary MAIN publication remains held behind the unavailable MAIN verification gate.
 
 Ten families remain MAIN publication-held: Backroom, Birthdays / PR / VC, Core Rooms / Events, Daycare, Louvre, Meems, Mugen person-first, Whiskey, QOTD / Officers, and Wall.
-
-Held correctly this run:
-
-- Nhou's 21 Louvre media-bearing posts are not silently upgraded from POSTED BY to MADE BY / CAPTURED BY / FEATURING.
-- The drawing-stream request does not prove the stream occurred.
-- `RN BSN` does not expose or imply private workplace/patient details.
-- Syv's `dragonrichard` material does not undo the resolved Rich/Ricochet separation.
-- No current role array became appointment chronology; no joke family/romance language became literal; no earliest-surviving line became an origin claim.
