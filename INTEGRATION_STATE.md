@@ -1,8 +1,18 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-05 — Run 467 zero-delta census_
+_Last updated: 2026-09-05 — Run 468 zero-delta census_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Detailed per-run reconciliation remains durable in `INTEGRATION_REPORT_RUN_*.md` here and `archive-intake/INTEGRATION_REPORT_RUN_*.md` on MAIN; older state remains recoverable in git history.
+
+## Run 468 — still nobody moved
+
+The mandatory full census repeated after Run 467: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**, with **0 newly discovered branches, 0 unread pending-review tails, 10 MAIN publication-held families, 0 backlog, and 0 overdue**. Every active miner ref still matched its recorded seen/consumed frontier, so there was no intake delta to review deeply and no raw archive was re-mined.
+
+Both Club-Only recovery priorities remain current at their saturated/do-not-churn heads (`e45fb11c9239e236231bb65645dfd0285bc0078b` for 2021–2026 and `ed66714f8d2c18f23bbb2b951bf305f0fa913f21` for 2020).
+
+Reader-facing MAIN files changed **0**. Reader-facing WIKI files changed **0**. No new build or deployment is claimed because the reader trees did not change. The current verified/deployed WIKI reader remains `de34f2b631243934d33c3922685d6864c5b77f3c` from Run 466.
+
+MAIN persisted this pass's branch census in `archive-intake/INTEGRATOR_BRANCH_STATE.json` at commit `03c1fe0e52e54b8b395ae2d0d661ecbcaae45fe7`.
 
 ## Run 467 — nobody moved; do not re-dig the graveyard
 
