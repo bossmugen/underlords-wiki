@@ -1,14 +1,14 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-05 — Run 481 close_
+_Last updated: 2026-09-05 — Run 481 final close_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Detailed Run 481 reconciliation is in `INTEGRATION_REPORT_RUN_481.md` here and the matching MAIN integration report.
 
 ## Run 481 — Ghoulie says the quiet part out loud; Jas appeals the pixel dimensions
 
-Mandatory full census: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**, **0 newly discovered**, **0 backlog**, **0 overdue**. Both Club-Only recovery lanes remain current at saturated/do-not-churn heads `e45fb11c9239e236231bb65645dfd0285bc0078b` and `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`; no raw archive was re-mined.
+Mandatory full census: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**, **0 newly discovered**, **0 unread pending review**, **0 backlog**, **0 overdue**. Both Club-Only recovery lanes remain current at saturated/do-not-churn heads `e45fb11c9239e236231bb65645dfd0285bc0078b` and `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`; no raw archive was re-mined.
 
-Opening unread tails Daycare, Mugen person-first, and QOTD / Officers were reviewed checkpoint-first. Closing censuses caught Core Rooms / Events and Wall moving twice while the run was still open; each new head was persisted as seen before review, then reviewed through final observed heads. Final reviewed/consumed boundaries: Daycare `d66eac43ba1b6374477b8481bab950650568dc6c`; Mugen `ec2ec519bc275c75bdff5f530c72d96c1c25529f`; QOTD / Officers `a06a71bfe89752b99e814fe2d2725bfb1eb5b791`; Core `20af14d34e98f38cf19faa950b97f01dcbfdab8e`; Wall `fd798eac129285345829d4d078048db626ee3ff2`. Final unread pending-review count: **0**. Ten families remain MAIN-publication-held only; they are reviewed, not unread.
+Opening unread tails Daycare, Mugen person-first, and QOTD / Officers were reviewed checkpoint-first. Closing censuses caught Core Rooms / Events and Wall moving twice while the run was still open, then a final full census caught Mugen person-first moving again. Every new head was persisted as seen before review. Final reviewed/consumed boundaries: Daycare `d66eac43ba1b6374477b8481bab950650568dc6c`; Mugen `bd0586353d7fff3b890cab1f38fca3bf9badf509`; QOTD / Officers `a06a71bfe89752b99e814fe2d2725bfb1eb5b791`; Core `20af14d34e98f38cf19faa950b97f01dcbfdab8e`; Wall `fd798eac129285345829d4d078048db626ee3ff2`. Ten families remain MAIN-publication-held only; they are reviewed, not unread.
 
 ### Public reconciliation
 
@@ -20,9 +20,11 @@ Reader commit **`5926ed48d6575b691cfbfb461c2e8d2058c230da`** passed Build **`339
 
 This was folded into `src/data/character-biographies-jas.ts` under the existing loophole arc and Petty Crimes. Reader commit **`d5e06438f136837acc8d311560405f7497e75b9c`** passed Build **`33998796091`** and Pages **`33998796145`**; preview build, artifact upload, and **Deploy to GitHub Pages** all succeeded.
 
+**Mugen:** the final 16:22 person-first tail closed as synthesis-only. Her already-public housemate picture separates useful structure from showroom neatness: `Aromatherapy 25/7`, late-night pho/boba, Bunbun toys, and a dislike of rooms so perfectly neat she may deliberately break the effect with something like a random painting on the floor. The cumulative read is **planner ≠ neat freak**: Mugs seems to like order when it makes something work, without needing a lived room to look embalmed. The miner explicitly recommends no duplicate reader mutation, so the tail was consumed through `bd058635...` with no WIKI or MAIN reader churn.
+
 ### Dedupe / holds
 
-Mugen's battery-vs-screenshot graphics synthesis is already public. Tofu's rebate court and Noether's Hami/dessert pocket are already substantially public. Chubi's re-onboarding continuity and FuentesKaede/Ren return recognition are already owned by current WIKI biographies; the final Core suffix was checkpoint packaging only. Trebach is banked as a socially recognized but procedurally rusty returnee; Booba remains thin; Winter74 remains a one-scene puppy seed; Crystalia's `mermaid` casting stays nonliteral and provenance-bounded. Jas/Gabu animal accusations remain game-joke mutual prosecution. Jas's turtle `she` now has Anthos as a probable textual antecedent backstage only, not hard identity, because there is no Reply pointer and the image is uninspected.
+Mugen's battery-vs-screenshot graphics synthesis is already public. Tofu's rebate court and Noether's Hami/dessert pocket are already substantially public. Chubi's re-onboarding continuity and FuentesKaede/Ren return recognition are already owned by current WIKI biographies; the final Core suffix was checkpoint packaging only. Trebach is banked as a socially recognized but procedurally rusty returnee; Booba remains thin; Winter74 remains a one-scene puppy seed; Crystalia's `mermaid` casting stays nonliteral and provenance-bounded. Jas/Gabu animal accusations remain game-joke mutual prosecution. Jas's turtle `she` now has Anthos as a probable textual antecedent backstage only, not hard identity, because there is no Reply pointer and the image is uninspected. Mugen's domestic self-description is not a home-inspection, cleanliness, housing, roommate-history, hoarding, or literal-routine claim.
 
 Reader-facing MAIN files changed **0**. Complementary rich Ghoulie/Jas folds and older accepted MAIN material remain publication debt until MAIN's mandatory source-verification + Astro + built-output + production-deploy gate can be safely dispatched. No MAIN reader deployment is claimed.
 
