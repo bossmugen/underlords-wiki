@@ -1,35 +1,37 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-05 — Run 463 QOTD / Officers reconciliation_
+_Last updated: 2026-09-05 — Run 464 three-tail reconciliation_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Detailed per-run reconciliation remains durable in `INTEGRATION_REPORT_RUN_*.md` here and `archive-intake/INTEGRATION_REPORT_RUN_*.md` on MAIN; older state remains recoverable in git history.
 
-## Run 463 — Oyasumi was already contaminating his own case file
+## Run 464 — one fake identity wall removed; one real escape routine promoted
 
-The mandatory opening census was persisted before deep review and the closing re-census resolved **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**, with **0 newly discovered branches, 0 unread pending-review tails, 10 MAIN publication-held families, 0 backlog, and 0 overdue**. Both Club-Only recovery priorities were rechecked and remain current at their saturated/do-not-churn heads (`e45fb11c…` for 2021–2026 and `ed66714f…` for 2020). No raw archive was re-mined.
+The mandatory opening and closing census resolve **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**, with **0 newly discovered branches, 0 unread pending-review tails, 10 MAIN publication-held families, 0 backlog, and 0 overdue**. Both Club-Only recovery priorities were rechecked and remain current at their saturated/do-not-churn heads (`e45fb11c…` for 2021–2026 and `ed66714f…` for 2020). No raw archive was re-mined.
 
-One advanced delta was reviewed checkpoint-first from changed intake handoffs only: **QOTD / Officers** `eea62ea1ddc336a55b61f13cef7e2c582f7f10ca` → `101c44161c0c5524ce400990fc176eb44bbfed3a`.
+Three advanced intake families were reviewed checkpoint-first from changed `archive-intake/*` handoffs only. Birthdays / PR / VC `f88cf6e…` → `af2699ef…` was archive-fidelity / repair-state work around malformed Unicode and related artifacts, so it was consumed with no public story. Core Rooms / Events `32ea336e…` → `648a4550…` produced a useful Amexistir practical-signal-booster read, but the miner's local `Amexistir ≠ old Ame` guard conflicts with higher-priority `CANON_LOCKS.md`, which explicitly locks **Ame / Amexistir as one person**. The behavior itself — warm greetings, spare partner-shop slots, repeated pet-event pings, and a dungeon-group invitation — is already substantially public in the current Ame biography, so that delta was consumed as duplicate/corroboration rather than receipt mitosis.
 
-The strongest packet is Oyasumi doing exactly what his current WIKI biography already says he does: playing evidence cop while remaining catastrophically willing to become evidence himself. Gilli summons him under an attachment; Oya answers `No 💀`; seven seconds later he reopens his own defense with `Or did I ?`. Nearby handoffs preserve `Still hard evidence of your crimes 😌`, `Caught my boy in 4k`, and Gilli later filing `oya_cheating.png` against him. Current `src/data/character-biographies-oyasumi.ts` already explicitly owns the evidence-cop / self-contaminating-defense contradiction and the seven-second beat, so the fresh packet was consumed as **duplicate/corroboration**, not rewarded with receipt mitosis.
+Wall advanced from `88b0586d…` through a late-moving final head `af1380ff…`. Rose / DarkAsrai's strongest current packet — rerun-desk behavior such as `For those who missed this`, filing competition, defendant ↔ filer contradiction, and Rummy/game texture — was already folded by the concurrent Run-464 Rose reader commit and preserved. Zyrcant / Akariel gained the genuinely new public deepener: the woman who voluntarily asked to be put on Wall later answers `caught in 4k` with `*runs*`, then eventually writes her own Snow-old setup and supplies `-runs-` herself ten seconds later. The escape is no longer merely reaction; it has become choreography. The same suffix strengthens a recurring Tofu ↔ Zyrcant mock-prosecution shorthand without literalizing auction, `Satan`, souls, distress, or conflict.
 
-Mimi / Opalite, Flask, Xephy, and Lunar / The Astral add bounded character texture but did not materially improve a canonical public owner enough to justify prose churn this pass. Mimi's `going up in the world` reaction to a Gilli filing supports receipt attention as house-joke notoriety; Flask keeps rotating between observer, tagger, defendant and target; Xephy remains a willing participant who answers `Arigatou` and `More will come`; Lunar / The Astral moves cleanly from `resident knight` and frying-pan/head-pat jokes into direct encouragement when Gabu says losing friends stings. Lunar remains The Astral, not HyaLuna.
-
-Hard rails stayed hard. Apollo's `nudes` price exchange remains contextually unresolved rather than becoming a real transaction or sexual-conduct claim. Rummy's `mfw 5 banned` after Ban triggers a bot does not identify a human moderation actor. Lune's Philippines context remains contextual rather than demographic proof. Missing QOTDs q62/q65/q81/q93 remain do-not-churn. Unseen screenshots remain unseen; provenance categories stay distinct; current role arrays are not appointment chronology.
+Hard rails remain intact. Uninspected images are still attribution-limited. The private partner in Zyrcant's self-filed BF conversation remains anonymous and the screenshot remains unnarrated. Earliest surviving Wall messages are not origins. The Core miner's superseded identity guard does not override hard canon.
 
 ## Public surface status
 
-Reader-facing WIKI files changed: **0**. No new WIKI reader build or Pages deployment is claimed because the reader tree did not change. The latest verified WIKI reader publication remains Run 461's Momo rewrite at **`64952b99fe4cffc3998e910e991f2a6237b5c74e`**, with Build workflow **`33977935523`** and Pages workflow **`33977935537`** both successful, including actual GitHub Pages deploy.
+Final verified/deployed WIKI reader head: **`8f0475c853035e762477bab702b74807253c309f`**. It contains both the concurrent Rose person-first Wall fold and the Zyrcant voluntary-defendant / typed-escape / Tofu relationship deepener.
 
-MAIN likewise changed **0 reader-facing files** in Run 463. QOTD / Officers remains `pending_publication` only because older accepted MAIN work in that evidence family is still behind MAIN's separate publication gate; the fresh suffix itself is reviewed through `101c44161c0c5524ce400990fc176eb44bbfed3a` and must not be reread as new work.
+- Build Underlords Wiki workflow **`33981773511`** — successful on exact reader head `8f0475c…`
+- Pages workflow **`33981773525`** — successful on exact reader head `8f0475c…`, including GitHub Pages deployment
 
-Detailed reconciliation is in `INTEGRATION_REPORT_RUN_463.md` here and `archive-intake/INTEGRATION_REPORT_RUN_463.md` on MAIN.
+MAIN changed **0 reader-facing files** this run. MAIN already substantially owns the larger Rose and Zyrcant character mechanisms, and the new material fit WIKI's structured relationship / running-gag surface better than another mirrored paragraph. No fresh MAIN reader build/deploy claim is made because no MAIN reader file changed; the ten older MAIN publication-held families remain a separate publication gate rather than unread miner work.
 
-## Current queue after Run 463
+Detailed reconciliation is in `INTEGRATION_REPORT_RUN_464.md` here and `archive-intake/INTEGRATION_REPORT_RUN_464.md` on MAIN.
+
+## Current queue after Run 464
 
 - unread pending review: **0**
 - MAIN publication-held families: **10** — Backroom, Birthdays / PR / VC, Core Rooms / Events, Daycare, Louvre, Meems, Mugen person-first, Whiskey, QOTD / Officers, Wall
 - backlog: **0**
 - overdue: **0**
 - newly discovered miner identities: **0**
+- consumed this run: Birthdays / PR / VC through `af2699ef7cad5fd4e7e2f239921b026694608cc5`; Core Rooms / Events through `648a45505b92f1bf48dd572bf97a3884c414e9ba`; Wall through `af1380ff3851bf2b1465c3946c14ae2f2898ebe5`
 
 Earlier run detail remains available in the numbered integration reports and git history; this file intentionally tracks the latest controlling cross-surface state rather than growing an infinite audit novella.
