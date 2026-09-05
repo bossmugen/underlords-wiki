@@ -15,38 +15,35 @@ Closing compares confirmed both reviewed heads remained current. Both Club-Only 
 
 ## Reconciliation
 
-### Baby Lyssa / Ghoulie — published
+### Baby Lyssa / Ghoulie — published as structured WIKI running gags
 
-The QOTD / Officers suffix finally gives enough contiguous Wall behavior to deepen Ghoulie as a person rather than merely recording another embarrassment incident.
+The QOTD / Officers suffix gives enough contiguous Wall behavior to clarify two searchable mechanisms without mirroring MAIN biography prose.
 
-The cumulative mechanism is threat -> negotiation -> reputation -> tenancy -> self-filing -> interpretation. Early in the sequence Ghoulie is begging for `no wall` and admitting `Iamsoscared`. Tae does not rescue her out of the joke; Tae answers `Its ok bestie we all do mistakes` and then `Even me so don't worry`, placing herself under the same stupid jurisdiction. That is the relationship beat: the reassurance says *you are not the lone idiot on trial* without making the room suddenly solemn.
+The first is Ghoulie's Wall career changing jobs without becoming a real job: threat -> negotiation -> reputation -> tenancy -> self-filing -> interpretation. Early she is begging for `no wall` and admitting `Iamsoscared`; by late March she is asking for a channel just for her messages, naming `Ghoulies wall of shame`, and joking about first place. By May she says `I live on this wall`; Tae answers `rent free`; by July Ghoulie can simply file herself with `Add this to my wall`. Later continuity already owned by the WIKI includes saving receipts, `time to make some mistakes`, `this is my wall now`, imaginary rent, and explaining the ritual as `bulli with love`.
 
-By May the friendship can run the other direction. Ghoulie admits to cursed Tae pictures; Tae warns Lilly not to get them; Ghoulie immediately goes `Don't you dare snitch` / `Don't you dare drag her into this`. Ghoulie says `I live on this wall`; Tae answers that she lives there `rent free`; Panda starts discussing rent. The embarrassment has become socially reciprocal enough to support property law.
+The second is the Tae/Ghoulie relationship mechanism. Tae does not rescue Ghoulie out of Screenshot Court; she answers `Its ok bestie we all do mistakes` and then `Even me so don't worry`, placing herself under the same stupid jurisdiction. By May the pair can trade cursed-picture threats and `rent free` jokes. The social mechanism is reciprocal embarrassment with a safety valve: roast, notice the sting, include yourself, then keep playing.
 
-By July Ghoulie can simply file herself: `Add this to my wall`. She then pivots straight into Souta's 200-cupcake competition with `aight bet` and begins worrying about whether she can even manufacture enough cupcakes to lose correctly. The public biography therefore treats self-filing and the competition as lived behavior rather than a dated event ledger.
+The final WIKI publication therefore lives in `src/data/integrator-gags-ghoulie-20260905-run475.ts` as structured Running Gags. An intermediate edit had folded the packet into `src/data/character-biographies-baby-lyssa.ts`; that edit was deliberately reverted before final verification because the binding surface split assigns rich person-first biography expansion to MAIN and structured reference material to WIKI. No duplicate narrative prose remains from this run.
 
-The existing `src/data/character-biographies-baby-lyssa.ts` owner was deepened. No duplicate dossier was created. Baby Lyssa / Ghoulie / Lyssa remains the resolved identity; no old MARS confusion was resurrected. Family language stays social. Uninspected media remains attribution-limited.
+Baby Lyssa / Ghoulie / Lyssa remains the resolved identity; no old MARS confusion was resurrected. Family language stays social. Uninspected media remains attribution-limited.
 
 ### MzBwitch — banked, not inflated
 
 Core Rooms / Events produced the first coherent person-shaped MzBwitch pass: playful self-consciousness under attention (`i keep getting head pats!`, `im not that cute!`), practical Discord competence, specialist rhythm-game / HARDCORE TANO*C music taste, graphic-design / drawing / stream-screen work, and curiosity about Blender / 3D modeling. The same person can welcome somebody with `youll fit in, dont worry`, then stop to ask how `/ping` works, learn it, and answer `ooooo` / `poggers`.
 
-This material is strong, but neither public surface has a dense existing MzBwitch character owner. No thin page was created. The packet is banked for future person-first integration.
+This material is strong, but neither public surface has a dense existing MzBwitch character owner. No thin page was created. The packet is banked for future person-first MAIN integration and, when appropriate, a structured WIKI Cast owner.
 
 Boundaries remain explicit backstage: the `community manager` line belongs to the boyfriend's BnS server, not UL; `bf` and `wife` wording does not become relationship chronology; MEE6 welcome + Snow `Added role` is only a surviving Discord threshold; and `MzBwitch` -> `Foxglove` remains a rename clue, not a resolved identity bridge.
 
 ## WIKI publication
 
-Reader-facing file changed:
+Final reader-facing file added:
 
-- `src/data/character-biographies-baby-lyssa.ts`
+- `src/data/integrator-gags-ghoulie-20260905-run475.ts`
 
-Reader commit: **`dd63a508e020b4dd0b42b2b32279b6f41c0c74a3`**.
+The temporary reader-facing changes to `src/data/character-biographies-baby-lyssa.ts` were fully reverted to the pre-run content before final verification.
 
-Verification on that exact reader commit:
-
-- Build workflow **`33992059590`** — success.
-- Pages workflow **`33992059591`** — success. Preview build, artifact upload, **Deploy to GitHub Pages**, and report all completed successfully.
+Final reader tree is the structured-gag publication plus the unchanged pre-run Ghoulie narrative owner. Verification/deployment results are recorded in `INTEGRATION_STATE.md` after the final tree clears Build and Pages.
 
 ## MAIN publication split
 
