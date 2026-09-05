@@ -1,8 +1,24 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-05 — Run 453 census-only close_
+_Last updated: 2026-09-05 — Run 454 close_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Earlier verbose states remain recoverable in git history.
+
+## Run 454 — Shiya knows where the room is; this does not stop him becoming the room problem
+
+The opening full branch census found **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**, with **0 newly discovered branches, 2 advanced/unconsumed intake tails, 0 backlog, and 0 overdue**. The two movers were Mugen person-first (`1ba5b7b9… → 9dc50223…`) and Wall (`98d74a9f… → bdbc6d88…`). Both were reviewed checkpoint-first from changed `archive-intake/*` handoffs only. Both Club-Only recovery priorities remain current at saturated / do-not-churn heads (`e45fb11c…` for 2021–2026, `ed66714f…` for 2020).
+
+Mugen's suffix closed **NO PROMOTION**. The new handoff explicitly rechecked vulnerability/compression, processing pause, gear/style, and newcomer-care material against the current public biography and found those person mechanisms already substantially owned. No duplicate paragraph was manufactured merely because the miner moved.
+
+Wall produced the public winner: ShiyaX's existing dossier now carries the stronger contradiction that he can act like an informal room-flow janitor while remaining a recurring room hazard. In March 2021 he tells stray chatter `Take it to #🥃💬｜whiskey-room guys`; six months later he tells another person to `get your arse to whiskey`. The useful role is lived behavior, not a promotion: Shiya notices what room people are in and says something. That sits beautifully beside the same person's prosecution fluency, `All edits` / `(edited)` counter-lawyering, theatrical `TASUKETE KOI BE BULLYING ME`, and the HamitteY shorthand where `u missed the chaos` gets the immediate answer `I AM THE CHAOS`.
+
+The biography also now keeps `Yall need jesus bad` as Petty Crimes-scale crowd-control theology: the verdict later recurs as a Jesus GIF, which is funnier and more accurate as one of Shiya's recurring room sounds than as any grand belief claim. His Wall role remains person-shaped: file evidence, redirect traffic, become evidence, deny jurisdiction.
+
+The other fresh Wall material stays banked rather than becoming Mystery Dossier Disease. BeaEder has a strong private working read — receipt scavenger, delighted summons-the-room curator, recurring self-defendant, chaos volunteer — but no safe canonical public owner was established in the current WIKI cast. An isolated stable-account attachment post is likewise too thin to route. Uninspected media remains **POSTED BY** only; no MADE BY / CAPTURED BY / FEATURING upgrades were invented.
+
+WIKI changed **1 reader file**: `src/data/character-biographies-shiyax.ts`. Exact reader commit **`dc93183c9e8894df73581f0d115cc35de98953ef`** passed Build workflow **`33972646028`** and Pages workflow **`33972645998`**; the Pages workflow completed successfully, including the deploy chain. MAIN changed **0 reader-facing files**. MAIN therefore has no new reader build/deploy claim this run; only its controlling census/consumption ledger changed.
+
+Consumption advanced through Mugen `9dc5022337a78943dcc54b9d5949db4668556342` and Wall `bdbc6d88a9e81d70648d076c3b4fa61b0fc69208`. Closing checks found Mugen, Wall, QOTD / Officers, and Daycare unchanged from their reviewed/opening heads. Final queue: **0 unread pending review / 10 MAIN publication-held / 0 backlog / 0 overdue**. The intentional surface split is ShiyaX → WIKI now because a substantial existing structured dossier already owned the person and the new material deepened that biography cleanly; MAIN did not get a thin mirror paragraph merely for symmetry.
 
 ## Run 453 — no new miner deltas
 
