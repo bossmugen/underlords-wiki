@@ -1,8 +1,14 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-05 — Run 455 final reconciliation_
+_Last updated: 2026-09-05 — Run 456 census-only reconciliation_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Earlier verbose run states remain recoverable in git history.
+
+## Run 456 — census only, nobody moved
+
+The full branch census found **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**, with **0 newly discovered branches, 0 advanced/unconsumed intake tails, 10 MAIN publication-held families, 0 backlog, and 0 overdue**. Every active miner ref still matches the `last_seen_sha` and `last_consumed_sha` already recorded by Run 455. No intake delta existed to reopen, no raw archive was re-mined, and both Club-Only recovery priorities remain current at their saturated / do-not-churn heads (`e45fb11c…` for 2021–2026, `ed66714f…` for 2020).
+
+No reader-facing MAIN or WIKI files changed in this pass. No new build/deploy claim is made because there was no reader change to verify. Run 455 remains the most recent WIKI reader publication: `7545f90ec0a8bb689daf49521fed698b0b2edf73`, with Build `33973774132` and Pages `33973774137` successful. MAIN's ten publication-held families remain publication debt, not unread miner work.
 
 ## Run 455 — Tae broadcasts the wobble
 
