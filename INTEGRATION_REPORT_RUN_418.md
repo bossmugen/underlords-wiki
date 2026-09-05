@@ -1,0 +1,48 @@
+# UNDERLORDS WIKI — Integration Report Run 418
+
+_Date: 2026-09-04 PDT / 2026-09-05 UTC_
+
+## Intake reviewed
+
+Full controlling MAIN census: **51 tracked miner identities = 30 active matching refs + 21 historical/missing**, 0 newly discovered, 0 closing pending review, 8 inherited MAIN publication-held families, 0 backlog, 0 overdue.
+
+Reviewed checkpoint-first / intake-only:
+- Wall `4c72082890bd60e971248cd46ae3f8ef703ce1f6 -> 9e6f79b7cee5354278a7f2b28875a82c1fe42f60`
+- Birthdays / PR / VC `f6e6311f2c7d942d64daee451ef34a2289e05bc8 -> 6990d66f01b52c82d48d2870ae3e62af3a03cee3`
+
+Both Club-Only recovery priorities remain current at their saturated / do-not-churn boundaries. No raw archive was re-mined.
+
+## Reconciliation
+
+### Scar
+
+The new Wall Scar packet is duplicate/corroboration of the already-public Scar spine. The existing WIKI biography already owns the May doorway, August Gilli `harem` premise/denial/callback, October `exposed` language, later emote economy, and the larger person read that Scar gets more socially legible as the sentences get smaller. No second dossier, Running Gag, or timestamp-ledger section was created.
+
+### Mia / Opalite Honey identity correction
+
+The miner handoff labels stable account `opalite.honey` as `Opalite`. Hard project canon already resolves **Opalite Honey as an alias of Mia**. The packet's strongest scenes are already present under Mia: `It funny` as minimum-viable Wall editorial policy; Momo `twin` / `love u twinnn` reciprocal affection; typing chaos paired with practical platform fluency; and the larger contradiction between messy presentation and effective follow-through.
+
+Therefore WIKI must **not** create a separate Opalite character from this handoff. This is a resolved alias reconciliation, not a new-person discovery.
+
+### Sakura
+
+The Birthdays suffix consolidates the Sakura front-door packet already banked in Run 417. Safe retained read: the 2020-10-13 Discord onboarding follows some game-side UL association, the contemporaneous role-empty author state prevents later-role backdating, and routine intake turns into joke register almost immediately with Ren. Exact compressed IGN/club mapping and exact later role acquisition remain unresolved; private age data stays backstage.
+
+No safe standalone Sakura Cast owner exists yet, so no thin one-scene dossier was created.
+
+## Public changes
+
+Reader-facing changes in this Run 418 reconciliation: **0**.
+
+A concurrent WIKI commit activated the existing Scar person-first biography before this report was written; this run preserved that work and did not overwrite it.
+
+## Consumption
+
+The controlling MAIN ledger advances Wall consumed through `9e6f79b7cee5354278a7f2b28875a82c1fe42f60` and Birthdays/PR/VC consumed through `6990d66f01b52c82d48d2870ae3e62af3a03cee3`. Wall remains `pending_publication` only because older accepted MAIN Wall work is still held behind MAIN's publication gate; the reviewed Run 418 delta itself requires no new WIKI reader publication.
+
+## Held rabbits
+
+- Sakura exact `Sakura Yami` / `Zess` / `Virt` / `Underlords` mapping.
+- Sakura exact historical role acquisition.
+- Uninspected Wall media attribution beyond POSTED BY.
+- Never split `opalite.honey` / Opalite Honey away from Mia absent an explicit user correction to the hard canon lock.
