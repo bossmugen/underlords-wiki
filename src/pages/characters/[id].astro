@@ -5,6 +5,7 @@ import "../../styles/dossiers.css";
 import "../../styles/narrative.css";
 import { allEpisodes } from "../../data/all-content";
 import { allCharacters, primaryGroupByCharacterId } from "../../data/cast";
+import { torrCharacter } from "../../data/character-torr";
 import { resolveCharacterPageData, type CharacterClaim } from "../../data/character-page-data";
 import dossierData from "../../data/character-dossiers.generated.json";
 
@@ -18,8 +19,12 @@ type Dossier = {
   sourceRef: string;
 };
 
+const routeCharacters = allCharacters.some((character) => character.id === torrCharacter.id)
+  ? allCharacters
+  : [...allCharacters, torrCharacter];
+
 export function getStaticPaths() {
-  return allCharacters.map((character) => ({ params: { id: character.id }, props: { character } }));
+  return routeCharacters.map((character) => ({ params: { id: character.id }, props: { character } }));
 }
 
 const { character } = Astro.props;
@@ -30,11 +35,11 @@ const receiptClaims: CharacterClaim[] = [...(bio.claims ?? []), ...(dossier?.cla
 const dedupedReceiptClaims = receiptClaims.filter((claim, index, all) =>
   all.findIndex((candidate) => `${candidate.date ?? ""}\u0000${candidate.text}` === `${claim.date ?? ""}\u0000${claim.text}`) === index,
 );
-const primaryGroup = primaryGroupByCharacterId.get(character.id);
+const primaryGroup = primaryGroupByCharacterId.get(character.id) ?? (character.id === "torr" ? { label: "Archive / Extended Cast" } : undefined);
 const identityNames = new Set([character.name, ...(character.aliases ?? [])].map((name) => name.toLowerCase()));
 const appearances = allEpisodes.filter((episode) => episode.cast.some((name) => identityNames.has(name.toLowerCase())));
 const characterByName = new Map<string, any>();
-for (const person of allCharacters) {
+for (const person of routeCharacters) {
   characterByName.set(person.name.toLowerCase(), person);
   for (const alias of person.aliases ?? []) characterByName.set(alias.toLowerCase(), person);
 }
@@ -44,7 +49,7 @@ const relatedNames = [
   ...(dossier?.relatedPeople ?? []),
 ];
 const relatedCharacters = [...new Set(relatedNames.map((name) => characterByName.get(name.toLowerCase())?.id).filter(Boolean))]
-  .map((id) => allCharacters.find((person) => person.id === id))
+  .map((id) => routeCharacters.find((person) => person.id === id))
   .filter(Boolean)
   .slice(0, 2);
 const [firstRaw = "not established", lastRaw = ""] = character.era.split("–");
