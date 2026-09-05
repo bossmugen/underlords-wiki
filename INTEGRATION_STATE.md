@@ -1,8 +1,39 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-05 Run 435 late-Daycare close_
+_Last updated: 2026-09-05 Run 436 close_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. This file is the rolling WIKI handoff; earlier verbose states remain recoverable in git history.
+
+## Run 436 final
+
+Opening census: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**, 0 newly discovered, 1 unread advanced branch, 0 backlog, 0 overdue. The only opening delta was QOTD / Officers, `ad1de2de7150179e77fe8bdd7deee44c45ca362a -> 53694ef82001258fb7d374fea1bfbf91b39dd468`. It was reviewed checkpoint-first and intake-only; no raw archive was re-mined. Both Club-Only recovery priorities remained current at their saturated/do-not-churn heads.
+
+### Tae — sting, bandage, self-inclusion
+
+The additive family is Tae's 2021 Wall rhythm. On March 13, during Ghoulie's Wall panic, Tae posts `Caught in 4k`, then almost immediately `Its ok bestie we all do mistakes`, then `Even me so don’t worry`. The sequence is more useful than another isolated catchphrase receipt: Tae lands the joke, gives the target an exit ramp, and explicitly puts herself under the same humiliating house law.
+
+By May, the same familiarity lets Tae call the Wall `ghoulies home` and say Ghoulie lives there `rent free`. June reverses the camera. Gilli posts four uninspected Discord screenshots over roughly forty-four minutes while Tae's own language contracts into `AGAIN`, `why IS THIS HAPPENING`, `Why im I here`, and `What is this`. She is an eager prosecutor right up until discovery reaches her own neighborhood.
+
+This was folded into the existing Tae dossier rather than turned into a new chronological report. Gilli remains POSTED BY for the June screenshots only; capture/creator identity, DM status, depicted people, and image contents remain unresolved. Nearby sensitive/personal material stayed out.
+
+Public WIKI file:
+- `src/data/character-bios-platelets-deep.ts`
+
+### Verification and publication
+
+Verified reader head: `8302649e50d36be354ad1c4992b846e3ed259e38`.
+
+- Build workflow `33957219674` — **success**.
+- Pages workflow `33957219655` — **success**.
+- Pages jobs confirm preview build, artifact upload, the actual **Deploy to GitHub Pages** job, and reporting all succeeded.
+
+This state commit is reader-neutral and uses `[skip ci]`; the reader head above is the deployed content target.
+
+### MAIN surface
+
+MAIN reader-facing changes in this pass: **0**. MAIN already owns the broader Tae Wall-defense pattern, so the richer sting/bandage/self-inclusion read belongs there eventually as a person-first fold rather than copied WIKI prose. Its mandatory verification target was `9434cfb40823b0ea43aa960ff370eccbf64473c7`, workflow `33957244589`. Attempt 1 failed before repository steps instantiated; the failed jobs were explicitly rerun once, and attempt 2 failed in the same infrastructure shape: `Build + verify` had `steps=[]`, `runner_id=0`, blank runner name, and verified Cloudflare deployment was skipped. Source verification, Astro build, and built-output verification therefore did not reject a reader change; they never ran. No new MAIN deployment is claimed.
+
+QOTD / Officers is reviewed through `53694ef82001258fb7d374fea1bfbf91b39dd468`. The current Tae WIKI change is verified/deployed; older accepted MAIN QOTD / Officers publication debt remains held separately.
 
 ## Run 435 final
 
