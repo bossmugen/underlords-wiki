@@ -68,3 +68,5 @@ export const shikiNarrativeCharacterBios: Record<string, CharacterNarrative> = {
     ]
   }
 };
+
+export { mayNarrativeCharacterBios } from "./character-biographies-may";
