@@ -9,6 +9,7 @@ import { run423NarrativeCharacterBios } from "./character-biographies-run423";
 import { run429NarrativeCharacterBios } from "./character-biographies-run429";
 import { run435NarrativeCharacterBios } from "./character-biographies-run435";
 import { run438NarrativeCharacterBios } from "./character-biographies-run438";
+import { run445NarrativeCharacterBios } from "./character-biographies-run445";
 
 const mugenBase = run372NarrativeCharacterBios.mugen;
 
@@ -100,4 +101,4 @@ export const run441WoosungNarrativeCharacterBios: Record<string, CharacterNarrat
   }
 };
 
-export { run401NarrativeCharacterBios, run402NarrativeCharacterBios, run406NarrativeCharacterBios, run412NarrativeCharacterBios, run413NarrativeCharacterBios, run423NarrativeCharacterBios, run429NarrativeCharacterBios, run435NarrativeCharacterBios, run438NarrativeCharacterBios };
+export { run401NarrativeCharacterBios, run402NarrativeCharacterBios, run406NarrativeCharacterBios, run412NarrativeCharacterBios, run413NarrativeCharacterBios, run423NarrativeCharacterBios, run429NarrativeCharacterBios, run435NarrativeCharacterBios, run438NarrativeCharacterBios, run445NarrativeCharacterBios };
