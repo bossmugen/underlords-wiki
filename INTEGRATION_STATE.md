@@ -1,8 +1,16 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-05 — Run 452 census-only close_
+_Last updated: 2026-09-05 — Run 453 census-only close_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Earlier verbose states remain recoverable in git history.
+
+## Run 453 — no new miner deltas
+
+The full branch census was rerun against current MAIN refs: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**, with **0 newly discovered branches, 0 advanced/unconsumed intake tails, 0 backlog, and 0 overdue**. All 30 active miner refs still match their recorded `last_seen_sha` values, so no checkpoint delta was reopened and no reader-facing publication was warranted.
+
+Both Club-Only recovery priorities remain current at saturated / do-not-churn heads (`e45fb11c…` for 2021–2026, `ed66714f…` for 2020). Ten evidence families still carry older MAIN publication debt; those are publication-held states, not unread miner work. No raw archive was re-mined, no consumed cursor changed, and no new conflict or identity correction surfaced.
+
+MAIN changed only its controlling census ledger for the run; **0 reader-facing MAIN pages changed**. WIKI changed only this integration-state note; **0 reader-facing WIKI files changed**. No new build/deploy claim is made because no public reader surface changed. The last verified/deployed WIKI reader head remains `a1edeb1ea3d5e5e6ec1ddfd91a8835dd236c849f` from Run 450.
 
 ## Run 452 — no new miner deltas; Louvre cursor normalized
 
