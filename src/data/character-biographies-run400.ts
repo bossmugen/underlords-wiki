@@ -3,6 +3,7 @@ import { run372NarrativeCharacterBios } from "./character-biographies-run363";
 import { run401NarrativeCharacterBios } from "./character-biographies-run401";
 import { run402NarrativeCharacterBios } from "./character-biographies-run402";
 import { run406NarrativeCharacterBios } from "./character-biographies-run406";
+import { run412NarrativeCharacterBios } from "./character-biographies-run412";
 
 const mugenBase = run372NarrativeCharacterBios.mugen;
 
@@ -27,4 +28,4 @@ export const run400MugenNarrativeCharacterBios: Record<string, CharacterNarrativ
   },
 };
 
-export { run401NarrativeCharacterBios, run402NarrativeCharacterBios, run406NarrativeCharacterBios };
+export { run401NarrativeCharacterBios, run402NarrativeCharacterBios, run406NarrativeCharacterBios, run412NarrativeCharacterBios };
