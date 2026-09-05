@@ -7,20 +7,50 @@ const ameBase = ameNarrativeCharacterBios.ame;
 const dyingfoxBase = dyingfoxNarrativeCharacterBios.dyingfox;
 const mugenBase = run410NarrativeCharacterBios.mugen;
 
+const ameIdentityGuard: NarrativeSection = {
+  period: "Identity",
+  title: "THE NAME DOES NOT GET TO DO THE JOIN FOR US",
+  paragraphs: [
+    "Ren and Anayss directly call the stable Amexistir account `Ame`, so `Ame` is a real shorthand for this later person. The useful bridge begins in the stable 2022–2024 account trail. It does not reach backward just because older exports contain the same four letters.",
+    "A separate account, `ame._.`, appears in January 2022 and is not Amexistir. The old 2020 Junior Officer Ame still lacks a stable-ID bridge to either later account. So this page follows Amexistir — the later person directly called Ame — without swallowing every Ame-shaped historical line. Same nickname is not reincarnation."
+  ]
+};
+
 const ameReturnedForChill: NarrativeSection = {
   period: "November 2023 – January 2024",
   title: "HE CAME BACK FOR CHILL AND THE HOUSE FOUND HIM A JOB ANYWAY",
   paragraphs: [
-    "Ame's 2023 return finally gives the current Game Officer story a human middle without pretending the archive has an appointment certificate. On November 17 Anayss greets the same stable account with `Hola Ame! Bienvenido de vuelta!`. A little over two weeks later, in DR GAME HQ, she explains that Amexistir had joined UL back looking for a chill club and says he had only been back about two weeks. The timing lines up closely enough to make the return legible while still leaving the exact admission click offstage.",
+    "Amexistir's 2023 return finally gives the current Game Officer story a human middle. On November 17 Anayss greets the same stable account with `Hola Ame! Bienvenido de vuelta!`. A little over two weeks later, in DR GAME HQ, she explains that he had joined UL back looking for a chill club and says he had only been back about two weeks. The timing makes the return legible while still leaving the exact admission click offstage.",
     "The funny part is what the officers do with that information: they notice potential and deliberately do not pounce on the fresh returnee. Ame has come back for low-pressure company; the room lets that fact matter. By December 21 he is being welcomed into the officer room, and by January 10 Snow is asking for Ame's alliance thoughts so the officers can discuss them. Underlords has apparently discovered the ancient management technique of seeing somebody be useful, giving him a minute, and then eventually asking what he thinks about governance anyway.",
-    "That makes the later title feel lived rather than preordained. The same person whose earlier file is mostly about making the front door linguistically usable eventually becomes somebody whose opinion is solicited inside the room where decisions are being worked out. It does not tell us one universal promotion formula, and it does not turn every helpful act into a leadership audition. It does show that Ame's path into responsibility was visible to other people before the title becomes the only thing a roster can tell us."
+    "That makes the later title feel lived rather than preordained. The same person whose earlier file is mostly about making the front door linguistically usable becomes somebody whose opinion is solicited inside the room where decisions are being worked out. The archive still does not give one magical timestamp for every badge or permission involved; it does give the more useful social transition from returning for chill to being treated like somebody whose judgment belongs in the room."
   ]
 };
 
-const ameSections = [...ameBase.sections];
+const ameRoleSection: NarrativeSection = {
+  period: "Late 2023 onward",
+  title: "THE OFFICE APPEARS BEFORE THE BADGE CLICK DOES",
+  paragraphs: [
+    "The current roster places Amexistir among the Game Officers. The late-2023 record now gives that status an actual lived bridge: people discuss his usefulness without rushing him, he is welcomed into the officer room on December 21, and Snow later asks for his alliance thoughts so the group can discuss them. That is materially more than a role array floating above a sparse biography.",
+    "What remains off-camera is the exact administrative click that attached every later permission or label. That missing timestamp does not erase the transition we can see, and it does not authorize the page to invent a cleaner ceremony than UL apparently bothered to preserve. The useful story is the behavior around the role: somebody returns because he wants a chill place to be, other people notice what he contributes, give him breathing room, then start treating his judgment as part of governance.",
+    "That progression also keeps the title from rewriting the earlier person. Amexistir first enters this reliable trail by saying plainly what he understands, letting the room switch languages, and answering the practical question in front of him. Later authority grows on top of that person; it does not replace him with a generic Officer adjective pack."
+  ]
+};
+
+const ameIntro = [...ameBase.intro];
+if (ameIntro.length >= 3) {
+  ameIntro[2] = "The cleanest human arc is therefore not paperwork magically becoming leadership. In 2022 the room adapts the front door around Amexistir's stated English limitation. In June 2023 the same stable account is still being met in Spanish. By November Anayss is saying `Bienvenido de vuelta!`; a few weeks later the officer room is explicitly welcoming him, and soon Snow is asking for his alliance thoughts. The machine keeps seeing forms. The people increasingly see somebody whose judgment belongs in the conversation. This page starts with that stable later account and does not backfill the unresolved 2020 Junior Officer Ame by nickname alone.";
+}
+
+const ameSections = ameBase.sections.filter(
+  (section) => section.title !== "The current title is real; the missing appointment story stays missing"
+);
+if (!ameSections.some((section) => section.title === ameIdentityGuard.title)) {
+  ameSections.splice(1, 0, ameIdentityGuard);
+}
 if (!ameSections.some((section) => section.title === ameReturnedForChill.title)) {
-  const roleIndex = ameSections.findIndex((section) => section.title === "The current title is real; the missing appointment story stays missing");
-  ameSections.splice(roleIndex >= 0 ? roleIndex : ameSections.length, 0, ameReturnedForChill);
+  const overallIndex = ameSections.findIndex((section) => section.title === "Thin does not mean generic");
+  const insertionIndex = overallIndex >= 0 ? overallIndex : ameSections.length;
+  ameSections.splice(insertionIndex, 0, ameReturnedForChill, ameRoleSection);
 }
 
 const dyingfoxLilly: NarrativeSection = {
@@ -84,7 +114,11 @@ if (!mugenSections.some((section) => section.title === mugenConsent.title)) {
 export const run413NarrativeCharacterBios: Record<string, CharacterNarrative> = {
   ame: {
     ...ameBase,
-    sections: ameSections
+    intro: ameIntro,
+    sections: ameSections,
+    closing: [
+      "Amexistir's file is still compact, but it no longer has to jump from Lobby paperwork to a current title with the whole middle missing. He states what he needs, the room learns how to meet him there, he comes back looking for somewhere chill, and before long the officers are treating his opinion as worth soliciting. The stable later account is real, the shorthand `Ame` is real, and the older name collision is still somebody else's unsolved problem. The office comes after the person. The four letters do not get to rewrite history."
+    ]
   },
   dyingfox: {
     ...dyingfoxBase,
