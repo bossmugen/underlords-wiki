@@ -1,9 +1,27 @@
 import type { CharacterNarrative, NarrativeSection } from "./character-biographies-narrative";
+import { ameNarrativeCharacterBios } from "./character-biographies-ame";
 import { dyingfoxNarrativeCharacterBios } from "./character-biographies-dyingfox";
 import { run410NarrativeCharacterBios } from "./character-biographies-run410";
 
+const ameBase = ameNarrativeCharacterBios.ame;
 const dyingfoxBase = dyingfoxNarrativeCharacterBios.dyingfox;
 const mugenBase = run410NarrativeCharacterBios.mugen;
+
+const ameReturnedForChill: NarrativeSection = {
+  period: "November 2023 – January 2024",
+  title: "HE CAME BACK FOR CHILL AND THE HOUSE FOUND HIM A JOB ANYWAY",
+  paragraphs: [
+    "Ame's 2023 return finally gives the current Game Officer story a human middle without pretending the archive has an appointment certificate. On November 17 Anayss greets the same stable account with `Hola Ame! Bienvenido de vuelta!`. A little over two weeks later, in DR GAME HQ, she explains that Amexistir had joined UL back looking for a chill club and says he had only been back about two weeks. The timing lines up closely enough to make the return legible while still leaving the exact admission click offstage.",
+    "The funny part is what the officers do with that information: they notice potential and deliberately do not pounce on the fresh returnee. Ame has come back for low-pressure company; the room lets that fact matter. By December 21 he is being welcomed into the officer room, and by January 10 Snow is asking for Ame's alliance thoughts so the officers can discuss them. Underlords has apparently discovered the ancient management technique of seeing somebody be useful, giving him a minute, and then eventually asking what he thinks about governance anyway.",
+    "That makes the later title feel lived rather than preordained. The same person whose earlier file is mostly about making the front door linguistically usable eventually becomes somebody whose opinion is solicited inside the room where decisions are being worked out. It does not tell us one universal promotion formula, and it does not turn every helpful act into a leadership audition. It does show that Ame's path into responsibility was visible to other people before the title becomes the only thing a roster can tell us."
+  ]
+};
+
+const ameSections = [...ameBase.sections];
+if (!ameSections.some((section) => section.title === ameReturnedForChill.title)) {
+  const roleIndex = ameSections.findIndex((section) => section.title === "The current title is real; the missing appointment story stays missing");
+  ameSections.splice(roleIndex >= 0 ? roleIndex : ameSections.length, 0, ameReturnedForChill);
+}
 
 const dyingfoxLilly: NarrativeSection = {
   period: "2020–2021",
@@ -64,6 +82,10 @@ if (!mugenSections.some((section) => section.title === mugenConsent.title)) {
 }
 
 export const run413NarrativeCharacterBios: Record<string, CharacterNarrative> = {
+  ame: {
+    ...ameBase,
+    sections: ameSections
+  },
   dyingfox: {
     ...dyingfoxBase,
     sections: dyingfoxSections
