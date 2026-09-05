@@ -1,65 +1,61 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-04 Run 412 close_
+_Last updated: 2026-09-04 Run 413 close_
 
-MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Run 412 completed a full census at **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered**. Wall advanced first; Louvre advanced during closing review and then produced one final condensation-only suffix while MAIN verification was running. All observed Run 412 suffixes were reviewed. Final reviewed queue: **0 pending review / 8 MAIN publication-held / 0 backlog / 0 overdue**. Both Club-Only recovery priorities remain current at their saturation / do-not-churn boundaries.
+MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Run 413 closed at **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**, with **0 newly discovered, 0 pending review, 8 MAIN publication-held, 0 backlog, and 0 overdue**. Both Club-Only recovery priorities remain current at their saturation / do-not-churn boundaries.
 
 ## Miner review
 
-### Wall
+Run 413 reviewed these intake frontiers checkpoint-first and intake-only:
 
-Reviewed `archive-miner-wall-hourly-20260824` from `4fbc78b9f2e8b2257a92e8bb516f11b19b711e4c` through `ae06ad86257c055ceca80c79b11dbe1b31b32e1c`, checkpoint-first and intake-only.
+- Wall → `763deb36d288a9a007fa692f31b52099ac19838a`
+- Birthdays / PR / VC → `a93072214568d5fe8cc0f30cf5f2409c0a9d51dc`
+- Daycare → `7094c21c86c0348b8ca6c93e0d1f05b26e4e76ca`
+- Mugen person-first → late head `580ad113e4254236d2c0c86a783b08e3ca722b61`
+- Backroom → late Pass 54 head `f46776d13e04a16828019fa3eb4d902a92079e6a`
 
-The genuinely new public-grade person read is **RealGameJack / `realgamejack`**. His surfaced Wall authorship is only four messages in late 2022, three delivered as reaction media/emotes and one prose line, `I knew you did`. Daya directly replies to Jack's Frederica / *86 / Eighty-Six* Tenor with `luv this anime`; Jack answers immediately enough that bounded prior familiarity with Daya's taste is more likely than not. A later money-drop Tenor after Daya's coin/bribe joke fits the same media-first riffing style without becoming real-finance biography.
+### What changed publicly
 
-Accepted synthesis: media-first, low-exposition Wall participant; quiet preference-recognizer; almost no prose versus unusually legible social alignment. No global shyness claim, no romance/family/status inflation, and Tenor metadata remains POSTED/VIA-TENOR rather than source-media authorship.
+**Mugen** now carries the May 2021 birthday-list scene as a limit on her preservation instinct. She can know a personal fact, call somebody `pretty much family now uwu`, care about remembering the thing, and still ask before formalizing it into shared house memory. `I won't put anyone's there without their consent` is kept as the little stop button on the archive-goblin instinct, not inflated into generic privacy sainthood. Birth dates and ages stay backstage.
 
-The old q18 child-pointer lane also narrowed backstage; no unseen image gained MADE BY / CAPTURED BY / FEATURING attribution.
+**Amexistir / Ame** now has a lived middle between sparse doorway scenes and the current Game Officer title. Stable-account evidence directly supports `Ame` as a contemporaneous shorthand for Amexistir. His late-2023 return is described as coming back for a chill club; the officers notice usefulness without immediately pouncing; by December 21 he is being welcomed into the officer room, and by January Snow is asking for his alliance thoughts so the officers can discuss them. The public story therefore follows the person from return-to-chill into being treated as somebody whose judgment belongs in governance without inventing one magical badge-click timestamp.
 
-### Louvre
+The identity rail is explicit: stable account `357923467838095361` is Amexistir and is directly addressed as `Ame`; separate account `214085048247386112` / `ame._.` is **not** Amexistir. The 2020 Junior Officer `Ame` remains unresolved and is not backfilled by nickname.
 
-Reviewed `archive-miner/louvre-ai-art-athenaeum-other-games-hourly` from the prior consumed frontier `4e7c1e4f047f2d28dcb9b3818841b404eec275db` through final observed head `1f32279fe8eaf0413c976c59cf69d0417113f2b8`.
+The current Run-413 reader chain also preserves the concurrent **Dyingfox ↔ Lilly** relationship deepener: Fox repeatedly initiates tiny morning greetings while Lilly receives them at stadium volume, making Fox's low-bandwidth style legible as an initiating care style rather than mere passivity.
 
-The substantive suffix promoted an Anayss read built around warm/bubbly delivery plus exact practical follow-through: routing, collaborative mechanics checking, participant-aware scheduling, returnee recognition, and hospitality that stays useful without pretending infallibility. That cumulative pattern is already substantially public in the existing deep Anayss biography — including map-giver progression, warm procedure, the May 2022 returnee/routing scene, countdown behavior, and imperfect-but-useful competence — so the new handoff was meaning-deduped instead of appended as another receipt paragraph. The final two-commit suffix only condensed cumulative `site-candidates.md` and `rabbit-holes.md`; it introduced no new public claim.
+### Meaning-deduped / banked
 
-Result: successful no-public-change Louvre review; consumed through `1f32279fe8eaf0413c976c59cf69d0417113f2b8`.
+Fresh Wall **Ansun** material repeated already-public Screenshot Court wrangler/defendant mechanisms, so no receipt-shaped paragraph was cloned.
 
-## Public integration
+Daycare **Torr / DiStratus** adds useful technical behavior plus familiar `bad influence` teasing with Gilli, but no safe canonical public owner exists yet. It stays banked rather than becoming a mystery dossier. Bot identity / causation remains unresolved.
 
-Reader-facing WIKI change: **one new Archive / Extended Cast owner, RealGameJack**.
+Birthdays / PR / VC corrected an old chronology temptation: an August 2020 row is not enough to date **Gabu's later Chair persona/role**. No stale public Chair-2020 claim was found, so the correction required no reader change.
 
-Run 412 adds:
-- `src/data/character-biographies-run412.ts`
-- RealGameJack wiring through the existing narrative loader
-- RealGameJack Cast registry entry / Archive + Extended Cast placement
-- Daya relationship note
-- quote: `I knew you did`
-- person-first media-first biography and `Petty Crimes`
-
-RealGameJack is intentionally WIKI-only for now. Four Wall posts are enough for a coherent structured reference dossier, but not enough reason to manufacture a grand MAIN biography. MAIN should wait for more life to accumulate instead of mirroring thin prose.
-
-MAIN reader-facing changes: **0**. Anayss likewise received no duplicate MAIN/WIKI receipt paragraph because the strongest person-shaped pattern already exists publicly.
+Backroom recovered Snow's final exported August 2020 Club Conduct line that leadership is rewarded for contribution and time in the club. It is banked as a governance-continuity rhyme with later officer practice, not promoted into a timeless constitution or sole promotion criterion; user-confirmed broader selection canon remains controlling.
 
 ## Verification / publication
 
-Run 412 WIKI reader head: `ad4cc3564298fbc03c6b7d44f7b278430e1b0856`.
+Final Run-413 WIKI reader head: `b6652dc32eb708316b8f6bbaa9583b246b063211`.
 
-- Build workflow `33932495516`: **success**.
-- Pages workflow `33932495522`: **success**.
-- Pages `build`, artifact upload, `deploy`, **Deploy to GitHub Pages**, and final report all completed successfully.
+- Build workflow `33934010695`: **success**.
+- Pages workflow `33934010776`: **success**.
+- Pages preview build, artifact upload, `Deploy to GitHub Pages`, and final report all completed successfully.
 
-MAIN verification target: `0ef4008446debeb0a63cffc0760c3bddf5e5ee45`, workflow `33932741096`.
+Earlier Run-413 Pages attempts were cancelled by concurrent repository writes after successful preview-build work; the final exact reader head above received a clean build and deployment, so the live result is anchored to the reconciled Amexistir identity / lived-role version rather than an earlier intermediate edit.
+
+MAIN verification target: `4fb915236ee32433f74942f39d724efc7992b500`, workflow `33933937602`.
 
 - Attempt 1: `Build + verify` failed before repository steps instantiated (`steps: []`, `runner_id: 0`, blank runner name); verified Cloudflare deployment skipped.
 - The failed workflow was explicitly rerun once.
-- Attempt 2 failed in the exact same pre-runner shape; Cloudflare again skipped.
+- Attempt 2 failed in the same pre-runner shape; Cloudflare again skipped.
 
-Therefore MAIN source verification, Astro build, built-output verification, and Cloudflare deployment did **not execute and reject content**. No new MAIN deployment is claimed; this remains infrastructure/startup failure rather than demonstrated content failure.
+Therefore MAIN source verification, Astro build, built-output verification, and Cloudflare deployment did **not** execute and reject content. MAIN reader-facing changes for Run 413 are **0**, and no new MAIN deployment is claimed.
 
 ## Consumption / queue
 
-- Wall reviewed + consumed through `ae06ad86257c055ceca80c79b11dbe1b31b32e1c`; branch remains `pending_publication` only because older unrelated MAIN Wall debt persists.
-- Louvre reviewed + consumed through `1f32279fe8eaf0413c976c59cf69d0417113f2b8`; branch remains `pending_publication` only because older unrelated MAIN Louvre debt persists.
-- No other consumed cursor changed.
+- Birthdays / PR / VC reviewed and consumed through `a93072214568d5fe8cc0f30cf5f2409c0a9d51dc` after a successful hard-negative review with no public change.
+- Wall, Backroom, Daycare, and Mugen have their current reviewed frontiers durably recorded but retain conservative consumed cursors because older accepted MAIN work in those evidence families remains behind MAIN's mandatory publication gate.
+- The same publication-hold condition remains for Core Rooms / Events, Louvre, Meems, and Whiskey.
 
-Eight inherited MAIN publication-held families remain: **Wall, Backroom, Core Rooms / Events, Daycare, Louvre, Meems, Mugen person-first, Whiskey**.
+Final queue: **0 pending review / 8 MAIN publication-held / 0 backlog / 0 overdue**.
