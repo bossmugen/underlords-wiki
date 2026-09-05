@@ -13,6 +13,7 @@ import * as alkeyModule from "./character-biographies-alkey";
 import * as ameModule from "./character-biographies-ame";
 import * as anthosModule from "./character-biographies-anthos";
 import * as babyLyssaModule from "./character-biographies-baby-lyssa";
+import * as beaederModule from "./character-biographies-beaeder";
 import * as chibiterasuModule from "./character-biographies-chibiterasu";
 import * as chibiterasuRun37Module from "./character-biographies-chibiterasu-run37";
 import * as celeModule from "./character-biographies-cele";
@@ -126,7 +127,7 @@ import { extendedCharacterBios } from "./character-bios-extended";
 
 const finishedNarrativeModules = [
   akaminModule,
-  alkeyModule, ameModule, anthosModule, babyLyssaModule, chibiterasuModule, chibiterasuRun37Module, celeModule, clownModule, cookieModule, dayaModule,
+  alkeyModule, ameModule, anthosModule, babyLyssaModule, beaederModule, chibiterasuModule, chibiterasuRun37Module, celeModule, clownModule, cookieModule, dayaModule,
   feliModule, feliRun38Module, genGreyModule, ghosttModule, gilliModule, hanModule, hishiroCoreModule,
   hyalunaModule, illienModule, kaedeModule, keyModule, kiroModule, lanModule, lillyModule, lillyRun1306Module, miaModule,
   momoModule, moonModule, mugenModule, nelphModule, nemoModule, newModule, nhouModule, nobuModule,
@@ -161,7 +162,6 @@ const richBioSources: Array<Record<string, CharacterBio>> = [
   deepLeaderCharacterBios,
   coreDeepOfficerCharacterBios,
   deepAnayssOfficerCharacterBios,
-  deepAnsunOfficerCharacterBios,
   run37WolfOfficerCharacterBios,
   deepWolfOfficerCharacterBios,
   lateOfficerCharacterBios,
