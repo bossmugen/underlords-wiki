@@ -16,6 +16,15 @@ export const run336SnowNarrative = {
           "The same session also lets Sye help him without turning the handoff into a prestige emergency. Sye — on her `sycessences` account, then displayed as `ƐℲı˥` — notices a duplicate schedule interfering, asks Snow to delete it, keeps trying when a command errors, then closes the loop with `Nvm I did it`. Snow answers `thank Sy`. When the bot keeps fighting them, Mugen laughs that it is `fightin yall`; Snow answers `Well partially my fault`. Technical authority here includes thanking the person who fixed the thing and admitting when part of the mess belongs to him.",
         ],
       },
+      {
+        period: "UNASKED-FOR HELP",
+        title: "IF THE THING IS BROKEN, HE IS ALREADY POKING IT",
+        paragraphs: [
+          "Another September 2020 mess catches a different side of the same instinct. Mugen thanks the people who tried to fix a problem, then gets more specific: `like i never even asked you guys to help fix it and you troubleshooted and tested uhu`. The important part is the lack of assignment. Something in Mugs's orbit was broken; people had already started testing it before she turned the problem into a task.",
+          "Anthos immediately hands the credit away from the group with `it was all snow`. Snow is in the troubleshooting stretch himself. The exact broken object has vanished from the surviving conversation, which almost makes the character beat cleaner: the thing itself is less memorable than the fact that Snow apparently saw a fixable problem and started working on it without waiting for somebody to make a ceremony out of asking.",
+          "That is a useful kind of care for Snow because it does not require softness in presentation. He can be rules-minded, technical, exacting, and still express concern by making somebody else's problem smaller before they have to request the labor. Anthos noticing enough to redirect the praise toward him is the social half of the scene. Snow fixes; somebody else makes sure the room knows who actually carried it.",
+        ],
+      },
     ],
   },
 };
