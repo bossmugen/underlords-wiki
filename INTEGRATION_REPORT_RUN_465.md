@@ -1,6 +1,6 @@
 # UNDERLORDS MAIN + WIKI — Integration Report Run 465
 
-Date: 2026-09-05 11:12 PDT / 18:12 UTC
+Date: 2026-09-05 11:13 PDT / 18:13 UTC
 
 ## Census
 
@@ -19,11 +19,11 @@ No raw archive was re-mined.
 
 Reviewed checkpoint-first from changed `archive-intake/officers-and-voice-challenges/*` handoffs only. Seven commits collapse into two evidence families rather than seven fake discoveries.
 
-**DyingFox** gets a direct 2024-03-11 Officer Challenge voice receipt. Her answer to a prompt about something fun that happened recently is `my ass randomly got chosen for the school musical lmao`. The same exported user-scoped row shows `Admin`, `Officers`, `🪤TRAP🪤`, `Library Moderator`, and `Event Coordinator`. The useful public read is person-level, not bureaucratic: getting picked for a school musical lands as a surprised self-own, which is exactly the kind of ordinary-life texture that can eventually live in a real DyingFox biography / Petty Crimes section. The role array is only later-visible state and is **not** an appointment date or a promotion chronology.
+**DyingFox** gets a direct 2024-03-11 Officer Challenge voice receipt. Her answer to a prompt about something fun that happened recently is `my ass randomly got chosen for the school musical lmao`. The same exported user-scoped row shows `Admin`, `Officers`, `🪤TRAP🪤`, `Library Moderator`, and `Event Coordinator`. The useful public read is person-level, not bureaucratic: getting picked for a school musical lands as a surprised self-own, which is exactly the kind of ordinary-life texture that can eventually live in a real DyingFox biography / Petty Crimes section. The role array is only later-visible state and is **not** an appointment date or promotion chronology.
 
 Neither MAIN nor WIKI currently has a proper DyingFox character owner. Creating a dossier now would produce a title stack plus one funny school-musical line — technically a page, spiritually a filing cabinet. The material is therefore banked for a future person-first owner rather than rewarded with a skeletal public route.
 
-**Ren** has a separate unresolved Wall-style sequence: on 2023-05-06 Ren posts `FB_IMG_1683421471079.jpg` with `caught in 4k`; about nineteen hours later she true-replies to the same post with `i mean..........................`. The media is still uninspected and the delay is too large to safely narrate it as a same-breath self-own or pile-on. The sequence remains backstage until the image/referent resolves. POSTED BY remains distinct from MADE BY / CAPTURED BY / FEATURING.
+**Ren** has a separate unresolved sequence: on 2023-05-06 she posts `FB_IMG_1683421471079.jpg` with `caught in 4k`; about nineteen hours later she true-replies to the same post with `i mean..........................`. The media is still uninspected and the delay is too large to safely narrate it as a same-breath self-own or pile-on. The sequence remains backstage until the image/referent resolves. POSTED BY remains distinct from MADE BY / CAPTURED BY / FEATURING.
 
 Older open QOTD rabbits remain open: Anthos-vs-Ren Challenge 2 wording, `JJJ`, the exact `meeting of officers` reference, the exact `I still have nightmares about it` trail, and historical PR-versus-regular-Officers structure.
 
@@ -31,11 +31,18 @@ Older open QOTD rabbits remain open: Anthos-vs-Ren Challenge 2 wording, `JJJ`, t
 
 ### MAIN
 
-Reader-facing files changed: **0**. DyingFox is not dense enough yet for a person-first MAIN biography, and Ren's image referent is unresolved. MAIN's production workflow is intentionally decoupled from pushes and runs only by manual dispatch or its gated schedule; no reader file changed, so no fresh source-verification / Astro / built-output / Cloudflare claim is made. The ten older MAIN publication-held families remain separate publication debt, not unread miner work.
+Reader-facing files changed: **0**. DyingFox is not dense enough yet for a person-first MAIN biography, and Ren's image referent is unresolved. MAIN's production workflow is intentionally decoupled from pushes and runs only by manual dispatch or its gated schedule. No fresh source-verification / Astro / built-output / Cloudflare claim is made, and no reader content was pushed around that gate. MAIN's durable Run-465 report closes at `a6e023f4912fd43d4313204895930c28377f36d8`.
 
 ### WIKI
 
-Reader-facing files changed: **0**. The same DyingFox packet is a good future Cast/Petty Crimes seed but not enough to justify manufacturing a skeletal dossier. Ren stays backstage. The integration-state commit for this run is intentionally pushed through the normal WIKI Build + Pages workflows so the final state tree itself is verified/deployed even though no reader data changed.
+Reader-facing files changed: **0**. The same DyingFox packet is a good future Cast/Petty Crimes seed but not enough to justify manufacturing a skeletal dossier. Ren stays backstage.
+
+The exact Run-465 state commit **`88f91b37c44d9128e459fdebbe91a273453b5c96`** was verified/deployed through the normal WIKI workflows:
+
+- Build Underlords Wiki workflow **`33983039103`** — **success** on exact head `88f91b37…`
+- Pages workflow **`33983038733`** — **success** on exact head `88f91b37…`, including preview build, Pages artifact upload, the actual **Deploy to GitHub Pages** job, and status reporting
+
+No reader prose was invented merely to make the run look busy.
 
 ## Consumption close
 
