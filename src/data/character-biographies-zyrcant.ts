@@ -34,6 +34,7 @@ export const zyrcantNarrativeCharacterBios: Record<string, CharacterNarrative> =
         title: "Relationships",
         paragraphs: [
           "Ren is one of the clearest peer-read witnesses: when Zyrcant asks what vibe she gives off, Ren answers with brightness rather than intimidation. That does not make Ren the sole authority on Zyrcant; it shows the first-glance reputation is not the only version people actually experience.",
+          "The warmth becomes much less abstract in July 2022. Zyrcant hits the room with `Ren!!`, `I believe`, `I’m gonna cry`, and `Love you`; Ren answers `I miss my zyrcant`. Flask asks `where zyr`, and Dayadream says `I already miss zyrcant`. Nobody needs a speech about whether she matters. The room notices the gap quickly enough to say her name into it, and Zyrcant answers with the same emotional volume once she is back in range.",
           "The 2022 protectiveness exchange turns a self-description into a tiny group reassurance. Somebody asks whether `us` counts; Zyrcant says yes. The wiki keeps the reassurance without promoting the speaker-label ambiguity in the miner handoff into a hard identity claim."
         ]
       },
