@@ -29,17 +29,10 @@ export const babyLyssaNarrativeCharacterBios: Record<string, CharacterNarrative>
         ]
       },
       {
-        title: "Tae can roast her without leaving her outside the joke",
-        paragraphs: [
-          "One March Wall hearing catches the relationship mechanism in miniature. Gilli asks Ghoulie to choose `Wall or no wall?`; Ghoulie answers `I fucking hate it here`, begs `no wall`, and admits `Iamsoscared`. The room keeps doing the usual one-of-us nonsense, but Tae changes the temperature without killing the bit: `Its ok bestie we all do mistakes`, followed by `Even me so don't worry`. The reassurance works because Tae puts herself under the same stupid jurisdiction instead of rescuing Ghoulie from it. Ghoulie can be embarrassed without being exiled from the room that embarrassed her.",
-          "By May the pair can weaponize that comfort in both directions. Ghoulie says she has cursed pictures of Tae; Tae warns her not to let Lilly get them; Ghoulie immediately goes `Don't you dare snitch` and `Don't you dare drag her into this`. Later Ghoulie says `I live on this wall` and Tae answers that she lives there `rent free`. Their friendship keeps turning embarrassment into something reciprocal enough to survive another filing."
-        ]
-      },
-      {
         title: "Defendant starts stocking the evidence locker",
         paragraphs: [
           "Ghoulie refuses to stay on one side of Screenshot Court. She asks Ren whether he waits for something to happen and goes `*click*`, then pivots into `say click , take a pic`, `IM SAVING THAT ONE`, and `IM GONNA BULLI WOO`. A month later she admits, `not me copying and pasting into my notes for later use`. The former exhibit has started keeping ammunition.",
-          "Then comes the cleanest little self-own: Ghoulie remarks that she has not been on the Wall recently. Ren answers `U sure?`; almost immediately she replies `time to make some mistakes`. By July she can simply file herself with `Add this to my wall`, then pivot into Souta's cupcake challenge with `aight bet` and start arguing about whether she can even manufacture enough cupcakes to lose properly. She can resent being evidence and still understand the game well enough to volunteer evidence, accept a wager, and complain about the logistics."
+          "Then comes the cleanest little self-own: Ghoulie remarks that she has not been on the Wall recently. Ren answers `U sure?`; almost immediately she replies `time to make some mistakes`. She can resent being evidence and still understand the game well enough to joke that an suspiciously clean record is a maintenance problem."
         ]
       },
       {
@@ -52,7 +45,7 @@ export const babyLyssaNarrativeCharacterBios: Record<string, CharacterNarrative>
       {
         title: "This is my wall now",
         paragraphs: [
-          "Eventually Ghoulie writes `this is my wall now`, then `it’s official, this is my wall`. Before long the room is treating residence as settled enough for rent jokes: Tae says she lives there `rent free`; Panda argues the Wall should probably start charging her; later Ghostt says she lives there and Mugen asks where the rent is. Ghoulie answers that she does not have it and is broke. Repeated embarrassment has been domesticated into tenancy language because apparently the natural next stage of public humiliation is landlord comedy.",
+          "Eventually Ghoulie writes `this is my wall now`, then `it’s official, this is my wall`. A month later Ghostt says she lives there, Mugen asks where the rent is, and Ghoulie answers that she does not have it and is broke. Repeated embarrassment has been domesticated into tenancy language because apparently the natural next stage of public humiliation is landlord comedy.",
           "The later version is even cleaner: `i step away from discord for ONE SECOND` and she comes back to find herself on the Wall twice. Even absence apparently fails to suspend the lease."
         ]
       },
@@ -66,7 +59,7 @@ export const babyLyssaNarrativeCharacterBios: Record<string, CharacterNarrative>
       {
         title: "Petty Crimes",
         paragraphs: [
-          "Has welcomed a newcomer with `Good morning, welcome to hell.` Has apparently been muted often enough to answer a repeat-warning with `But thats my job`. Has attempted to solve recurring Wall prosecution by demanding her own quote channel. Has claimed Wall property rights without paying Mugen's imaginary rent. Has admitted to copying material into notes `for later use`, and when her Wall record briefly looked too clean, answered the concern with `time to make some mistakes`. Can explain Screenshot Court as `bulli with love` and still react like a defendant being served papers at dawn. Loves emogems because, as she puts it, `They come in hello kitties!`"
+          "Has welcomed a newcomer with `Good morning, welcome to hell.` Has apparently been muted often enough to answer a repeat-warning with `But thats my job`. Has attempted to solve recurring Wall prosecution by demanding her own quote channel. Has claimed Wall property rights without paying Mugen's imaginary rent. Has admitted to copying material into notes `for later use`, and when her Wall record briefly looked too clean, answered the concern with `time to make some mistakes`. Can explain Screenshot Court as `bulli with love` and still react like a defendant being served papers at dawn."
         ]
       }
     ],
