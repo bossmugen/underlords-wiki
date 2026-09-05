@@ -93,6 +93,7 @@ import * as run165Module from "./character-biographies-run165";
 import * as run253SuzimasuModule from "./character-biographies-suzimasu-run253";
 import * as run363Module from "./character-biographies-run363";
 import * as run400Module from "./character-biographies-run400";
+import * as run470Module from "./character-biographies-run470";
 
 // Existing deep archive-backed bios remain valuable. If a finished long-form narrative
 // has not been written yet, turn the best current deep bio into narrative form rather
@@ -156,6 +157,7 @@ const finishedNarrativeModules = [
   run165Module,
   run363Module,
   run400Module,
+  run470Module,
 ] as const;
 
 const richBioSources: Array<Record<string, CharacterBio>> = [
