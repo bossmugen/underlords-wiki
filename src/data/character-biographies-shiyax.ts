@@ -24,6 +24,14 @@ export const shiyaxNarrativeCharacterBios: Record<string, CharacterNarrative> = 
         ]
       },
       {
+        period: "March 13, 2021",
+        title: "YOU JOINING BB?",
+        paragraphs: [
+          "Shiya's social instinct can get ahead of the paperwork. When Ghoulie / Baby Lyssa is hovering around the UL threshold, Shiya blurts `GHOULIE IN UL` and then immediately undercuts his own announcement by asking her `YOU JOINING BB ?`. Ghoulie's `I-`, `MAYBE?`, and screaming reaction keep the answer visibly undecided; Shiya is not recording an admission here. He is treating the possibility of her joining as shared room business because he is already comfortable enough to pull her toward the center of the conversation.",
+          "The best part is that Shiya does not need to know every hallway himself to act socially at home. A couple of months later he can still ask Mugen a basic room question. That is not a contradiction to fix; it is the point. Procedural mastery and belonging are separate skills. Shiya can still be learning where things live while already behaving like the person who notices somebody at the edge, yells their name across the house, and asks whether they are coming in."
+        ]
+      },
+      {
         period: "Whiskey relationships",
         title: "RELATIONSHIPS — GABU / ANTHOS / WOOHYUK",
         paragraphs: [
