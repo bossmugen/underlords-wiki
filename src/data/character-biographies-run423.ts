@@ -67,34 +67,43 @@ export const run423NarrativeCharacterBios: Record<string, CharacterNarrative> = 
   },
   zhenxi: {
     intro: [
-      "Zhēnxī / Platelet has a wonderfully economical Wall operating system: let the image or GIF do the setup, then arrive with one tiny sentence sharp enough to function as the verdict. The surviving file is not actually wordless. It is compressed. Zhēnxī can defend a lofi playlist, diagnose an empty room, inspect somebody's pixels, wish on a rival's downfall, and leave before the prose has time to become a speech.",
-      "That economy is part of the personality rather than a lack of one. Across 2022 and 2023, the same rhythm keeps returning: visual prompt, clipped reaction, room moves on. Sometimes the line is defensive, sometimes petty, sometimes just an extremely practical roast. Zhēnxī does not need to own the whole conversation to put a stamp on it."
+      "Zhēnxī learns the Wall the way a normal person learns a fire alarm: by becoming its problem almost immediately. Ren is still doing the soft front-door routine — `we don’t bite`, server tour, `Don’t get lost now UwU` — when the same Ren summons Zhēnxī into Wall a few minutes later. Zhēnxī's answer is not confusion. It is `NOOOOOOOOOOO`, followed by `NOT THE WALL OF SHAME FAME`. They understand the assignment fast enough to perform being horrified by it.",
+      "That mock-dread becomes one of their best tells. Zhēnxī can scream when the receipt lands, stay warm with the people participating in the joke, and eventually learn the more important trick: how to point the Wall back at somebody else."
     ],
     sections: [
       {
-        period: "2022–2023",
-        title: "THE PICTURE DOES THE SETUP; ZHĒNXĪ ISSUES THE VERDICT",
+        period: "May 2021",
+        title: "REN GIVES THE TOUR AND THEN IMMEDIATELY RINGS THE WALL BELL",
         paragraphs: [
-          "The cleanest pattern is how often Zhēnxī's prose arrives after something visual and behaves like a rubber stamp. A lofi exchange gets **`ITS MY LOFI PLAYLIST SHUSH`**. A room/furniture joke gets **`PUT SOME FURNITURE IN`**. Another visual earns **`this looks like an emoji`** and then **`i can literally see the pixels`**. The images themselves stay outside the biography unless separately inspected; the authored reaction is already enough to show what Zhēnxī notices and how quickly the judgment comes out.",
-          "That makes the low word count misleading. Zhēnxī is not disappearing from the room; they are participating in a format where the media carries context and the sentence supplies attitude. The funniest lines have almost no padding because padding would weaken them."
+          "Zhēnxī's first surviving doorway is all nerves and playful reassurance. They say `*I am scare*`; Ren answers `*uwu*`, says `*we don’t bite*`, checks the name, points them toward the server tour, and finishes with `Don’t get lost now UwU`. Less than six minutes after that tour handoff, Ren tags them in Wall. Zhēnxī produces the full disaster siren: `NOOOOOOOOOOO` and `NOT THE WALL OF SHAME FAME`.",
+          "The speed matters because there is no long apprenticeship between newcomer and local joke grammar. Ren is both orienter and first surviving prosecutor, and Zhēnxī already knows how to make being caught part of the entertainment. The panic reads as performance, not withdrawal."
         ]
       },
       {
-        title: "PETTY COMPETITION IS STILL PARTICIPATION",
+        period: "June 2022",
+        title: "BEING THE DEFENDANT DOES NOT CANCEL THE AFFECTION",
         paragraphs: [
-          "Zhēnxī can also turn competition into deliberately childish theater. **`HA I GOT U BUTTFACE`** is immediately followed by **`WE GET NEW ONES`**; months later comes **`im wishing on his downfall`**. The wording matters because none of it sounds like a solemn grudge. `Buttface` and `wishing on his downfall` are performance-petty: rivalry made funnier by announcing the villain posture out loud.",
-          "Gilli and Lunarz recur around some of these Wall pockets, but the room does not need a friendship ranking to make the social comfort legible. Zhēnxī is comfortable enough to defend taste, heckle presentation, and narrate somebody else's impending defeat in public."
+          "A year later Ren summons Zhēnxī under another Wall filing and gets the familiar `NOOOOOO` plus a choke emote. Rummy answers that exact scream with `I love YoU`; Zhēnxī supplies a mad-cry emote and then `I love you too`. Nobody has to choose between roasting and warmth. The embarrassment bit and the affection sit in the same scene without fighting for custody.",
+          "That is what makes Zhēnxī a good-sport target rather than somebody merely tolerating the room. They can make exposure sound catastrophic while staying emotionally available to the people doing the exposing. Rummy's affection is direct and returned; it stays warm friendship texture, not romance."
+        ]
+      },
+      {
+        period: "July 2022",
+        title: "THE DEFENDANT LEARNS HOW TO FILE CHARGES",
+        paragraphs: [
+          "Then Zhēnxī flips the camera. They post a screenshot, wait ten seconds, and summon Ren with `@RΣN so uh-`. Ren answers the receipt with a skull, `STAWP`, and the complaint that the incident is months old. Zhēnxī laughs and delivers the ruling: `Deserving`.",
+          "That role reversal is the whole little arc. The person who once screamed `NOT THE WALL OF SHAME FAME` is now using the Wall's own grammar on the person who first guided them through the house. Gabu joins the prosecution under the same filing; Zhēnxī later says `Yes, you tell her-`. The attached screenshot itself stays visually uninspected, so the biography does not invent what it shows. The social move is already plenty: defendant became filer."
         ]
       },
       {
         title: "Petty Crimes",
         paragraphs: [
-          "Defends the lofi playlist with **`SHUSH`**. Believes echo can be treated with furniture. Has looked at an image and decided **`i can literally see the pixels`**. Has issued **`ur mom`** as a complete follow-up argument. Has also publicly admitted to **`wishing on his downfall`**, because apparently subtle malice is for people with longer messages."
+          "Arrived saying `*I am scare*`. Can turn a tag into `NOOOOOOOOOOO` at industrial volume. Has said `NOT THE WALL OF SHAME FAME` like the room was a supernatural entity approaching down the hallway. Uses choke and mad-cry emotes as legal defense. Eventually filed Ren anyway and ruled the resulting distress `Deserving`."
         ]
       }
     ],
     closing: [
-      "Zhēnxī's Wall file works because the personality is in the compression. Other people can build the scene; Zhēnxī often shows up for the last six words. Picture first. Verdict second. Exit before anybody can request a paragraph."
+      "Zhēnxī's Wall story is basically socialization by reciprocal incrimination. First Ren shows them the house and drags them into court. Later Zhēnxī learns the procedure well enough to drag Ren back. The screaming never stops being part of the fun; it just stops meaning they are only the defendant."
     ]
   },
 };
