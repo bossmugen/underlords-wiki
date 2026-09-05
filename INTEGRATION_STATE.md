@@ -1,67 +1,67 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-05 Run 434 final handoff_
+_Last updated: 2026-09-05 Run 435 final handoff_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. This file is the rolling WIKI handoff; earlier verbose states remain recoverable in git history.
 
-## Run 434 final
+## Run 435 final
 
-Full miner census: **51 tracked identities = 30 active matching refs + 21 historical/missing refs**, with **0 newly discovered, 4 fresh unread tails at close, 9 MAIN publication-held families, 0 backlog, and 0 overdue**. Both Club-Only recovery priorities remain current at their saturated/do-not-churn heads. No raw archive was re-mined.
+Opening census: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**, 0 newly discovered. Five unread tails were present at opening: Birthdays / PR / VC, QOTD / Officers, Louvre, Wall, and Backroom. Both Club-Only recovery priorities remained current at their saturated/do-not-churn heads; no raw archive was re-mined.
 
-Reviewed intake frontiers this run:
+Reviewed checkpoint-first and intake-only through:
 
-- `archive-miner-qotd-officers-20260824`: reviewed `32bfe92b6f8194fa92a0bb87409a0eed253f9289 -> 0139e403e5696a700ef62dd37a443528c31d15a4` checkpoint-first and intake-only.
-- `archive-miner/birthdays-pr-vc-deep-2026-08-24-2325`: reviewed `f4b9ed5e3add2c86408ed4fc10a57fc52eaa637a -> a5d70fede2ce2be8ca38bf0e1873c032ea8c8bff` checkpoint-first and intake-only.
-- Recovery lanes `archive-miner/club-only-2021-2026-hourly` and `archive-miner-clubonly-2020-hourly` were rechecked at `e45fb11c9239e236231bb65645dfd0285bc0078b` and `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`; both remain saturated/do-not-churn.
+- Birthdays / PR / VC — `723331556b777cd7798e69df18f7d39f68280fd9`
+- QOTD / Officers — `ad1de2de7150179e77fe8bdd7deee44c45ca362a`
+- Louvre / AI Art / Athenaeum / Other Games — `f1289fd1b2cdf9c3195c6f813958332f15053d78`
+- Wall — `2a8fd0e5bca3ad7db3dcfc42c16df9990a5c100f`
+- Backroom — `3d59f36df323e9a070a0edc5e58ed374f0c905f9`
+- Late-closing Mugen person-first tail — `e89ff4e6808c2c05902c36de2eb0d5376fb3ecd9`; negative novelty gate, no public change.
 
-### Ren — the platform can rename you; Ren does not consent to amnesia
+### Aeshleen — ninety-three seconds to become house lore
 
-The Birthdays / PR / VC suffix surfaced a compact old-name recognition scene that deepens Ren's existing social-memory spine instead of creating another event paragraph. Richard's Corpse opens with `RDangar my dear`; Ren answers immediately with `ooo its janzer! :klausLove:`, then `hello hello` and `okiee dokiee`.
+Aeshleen now has a finished person-first WIKI biography instead of surviving primarily as a role/logline. Her April 24, 2021 doorway begins with her already naming Mugen and HamitteY as friends. Thirty-two seconds later Mugen is greeting `aesh van gogb`, assigning roles, and handing over the server map. About a minute after that Mugen has already welcomed her to the Wall of Shame.
 
-The useful thing is not the pet name by itself and it is not a romance claim. It is the lack of friction. Ren does not ask who this is, does not stop the room for an identity briefing, and does not need the current display name to be the only usable label. One older name is enough to snap the person back into focus. That now sits inside Ren's Relationships section alongside the later Rummy-account continuity work: names and accounts can drift; Ren keeps the human attached to them.
+The useful character beat is Aeshleen's response: `im leaving bye`, then `THATS BULLYING`, then continuing straight into the Van Gogh riff while Ghoulie calls it `bulli with love`. Same-day witnesses call the speed a record; in May 2022 Ren says Aeshleen `still holds the fastest shame`, and Aeshleen answers `stop bringing up my past 💔`. The nickname is handled carefully: Mugen is already using `aesh van gogb` before the ear joke, so the later neat explanation is a callback, not a clean origin story.
 
-Public WIKI file changed:
+Public WIKI file:
+- `src/data/character-biographies-run435.ts`
 
-- `src/data/character-biographies-ren.ts`
+### Woohyuk — precision roast, theatrical cover-up
 
-### Zyrcant — people notice the gap before anybody writes a speech about it
+Woohyuk's WIKI page now gets the person-shaped contradiction the Wall tail was actually giving us. He can roast Gilli with absurd specificity — `high school spirit week`, `sergeants on timeout` — and Gilli directly replies that the roast killed her. When Ren later turns evidence toward him, Woohyuk immediately changes departments and offers to `top up the witnesses`; Ren refuses because `Money can’t buy my silence`.
 
-The same miner suffix deepened Zyrcant / Akariel's return texture. In July 2022 Zyrcant comes in with `Ren!!`, `I believe`, `I’m gonna cry`, and `Love you`; Ren answers `I miss my zyrcant`. Flask asks `where zyr`; Dayadream says `I already miss zyrcant`.
+The same social flexibility appears at lower volume with Mugen: `hey Megan!` → `Who dis` → `your simps-` → `admirer` → `affinity`. Petty Crimes keeps the smaller absurdities: Mass Effect as a project to sleep with everybody, watermelon as sweet water in melon disguise, and witness-tampering as a public embarrassment strategy.
 
-That material belongs in Relationships rather than a dated attendance ledger. Several people independently react to her absence or return, and Zyrcant answers with the same emotional volume once she is back in range. It gives the existing `quiet at first / crackhead once comfortable` contradiction a lived social consequence: when she is missing, the room notices.
+Public WIKI file:
+- `src/data/character-biographies-run435.ts`
 
-Public WIKI file changed:
+### Kahoot Season — recurring programming becomes its own incident
 
-- `src/data/character-biographies-zyrcant.ts`
+The Backroom tail is now routed where it belongs: a structured WIKI episode rather than a footnote in somebody's biography. June 2021 establishes a club-knowledge Kahoot with one-attempt rules, identity checks, anti-alt rules and prize intent; the announced results unexpectedly contain four names. July is explicitly the `2nd KAHOOT`. August turns a spelling-themed Kahoot into code-management slapstick: Ren posts a corrected code, apologizes to Staff, then has to announce the next day that the corrected code was still wrong and earlier participants need another one.
 
-### Dedupe / banked / held
+The WIKI episode keeps the unresolved pieces unresolved: why June had four named winners is not stated; the spelling-Kahoot redo outcome is not recovered; the spelling Kahoot is not silently merged into the separate `speeling bee` program. Poster images remain POSTED BY Ren only until inspected.
 
-- **QOTD / Officers:** the reviewed suffix deepens already-owned Anayss, Ren and Zyrcant patterns: practical routing, return warmth, Staff-adjacent onboarding, and joke/body-language fluency. It does not establish any formal appointment chronology. No reader appendage was warranted.
-- **Janzer / Richard's Corpse:** stable-account continuity is now strong enough to bank Janzer = Richard's Corpse for this evidence family, including recurring January 23 birthday acknowledgement. Do **not** merge this person into the WIKI's existing `Rich` / DragonRich owner; that is a different person. No thin new dossier was manufactured from the current packet.
-- **Duck-chan:** unresolved; no identity collapse.
-- **QOTD editor supersession / `I'm in horde` + `Be careful I'm a scammer`:** unresolved; no identity or formal-role inference.
-- `SAID BY`, `POSTED BY`, `MADE BY`, `CAPTURED BY`, and `FEATURING` remain distinct throughout.
+Public WIKI file:
+- `src/data/integrator-episodes-run435.ts`
 
-Verified reader head: `d504cdfc049066971777def9fcbd8fd576f704be`.
+### Reviewed but not promoted as new reader copy
 
-- Build workflow `33955016328` — **success**.
-- Pages workflow `33955016388` — **success through the actual Deploy to GitHub Pages job**.
+- **Birthdays / PR / VC:** Rich / DragonRich posting a Corpse Husband Tenor link in December 2020 creates a real earlier linguistic neighborhood for later corpse-title jokes, but it does not recover the actual `Richard's Corpse On A Cooch` naming ceremony. The exact title-name provenance remains open, so no neat origin story was manufactured. Eos's Dec-2020 EnyoCal/UL → Jan-2021 Eos/Deviations stable-account endpoints are banked without inventing the transition mechanics. Bailey remains contextual only.
+- **Louvre:** Jonith / D.I. gains a strong selective-confidence read — specific comics knowledge, easy uptake when corrected, and no shame about saying `I have no idea what yall are talking bout` when the topic leaves his lane. Good person material, but held rather than opening another large reader rewrite in the same pass. Pooled Deleted User remains pooled.
+- **Wall / RotiniLM:** lurker → exhibit-dropper → reluctant defendant → compact chaos correspondent is strong, as is Ansun's block-advice / Rotini reassurance care beat. Rotini still lacks a safe canonical public owner, so no mystery dossier was created.
+- **Mugen person-first:** the late tail is explicitly a no-promotion pass. Eleven mature reverse-angle surfaces were checked; every near-miss repeats already-owned Mugen mechanisms. Recurrence stays backstage when it adds no cost, contradiction, relationship change, failure state or evolution.
+
+### Verification and publication
+
+Verified reader head: `48ccdad257f3baee163b04ba545242b410f2fbd8`.
+
+- Build workflow `33955739775` — **success**.
+- Pages workflow `33955739770` — **success**, including the actual `Deploy to GitHub Pages` job.
 
 This state commit is reader-neutral and uses `[skip ci]`; the verified reader head immediately beneath it is the public content target described above.
 
 ### MAIN surface
 
-MAIN reader-facing changes in this pass: **0**. The accepted new material fit the WIKI's existing Ren and Zyrcant structured owners; no thin MAIN biography was created for symmetry. Older MAIN publication debt remains separate from miner consumption state.
+MAIN reader-facing changes in this pass: **0**. The strongest fresh material had clean WIKI owners, while MAIN still carries older publication debt behind its verification/deploy gate. No thin mirrored biography was created merely to make both repositories move.
 
-MAIN workflow `33954718599` was exercised against the Run-434 opening census target `ae5b5f4f95a5c6dd962b9af1e09e459db50e8d8e`. Attempt 1 failed before repository work instantiated. The failed workflow was explicitly rerun once; attempt 2 failed in the same pre-runner shape: `Build + verify` had `steps: []`, `runner_id: 0`, and a blank runner name, while verified Cloudflare deployment was skipped. Therefore source verification, Astro build, built-output verification, and verified Cloudflare deployment did not execute and reject any reader change. No new MAIN deployment is claimed.
-
-### Closing concurrency / next queue
-
-Four miner refs advanced after this run's reviewed boundaries and remain deliberately unread/unconsumed for the next pass:
-
-- Birthdays / PR / VC: reviewed through `a5d70fede2ce2be8ca38bf0e1873c032ea8c8bff`; now seen at `723331556b777cd7798e69df18f7d39f68280fd9`.
-- QOTD / Officers: reviewed through `0139e403e5696a700ef62dd37a443528c31d15a4`; now seen at `ad1de2de7150179e77fe8bdd7deee44c45ca362a`.
-- Louvre: consumed through `f57973f9ee8ab6ba9923e0ead2297b404a0fabc7`; now seen at `f1289fd1b2cdf9c3195c6f813958332f15053d78`.
-- Wall: consumed through `0be2f2d0354acc275c3adb92e2ba19fc6a8e9d75`; now seen at `2a8fd0e5bca3ad7db3dcfc42c16df9990a5c100f`.
-
-These are fresh tails, not backlog or overdue work. The nine older MAIN publication-held families remain **QOTD / Officers, Wall, Backroom, Core Rooms / Events, Daycare, Louvre, Meems, Mugen person-first, and Whiskey**.
+The controlling MAIN ledger should consume the six reviewed tails above after this verified WIKI publication, while preserving the older MAIN `pending_publication` families separately from unread review work.
