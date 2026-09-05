@@ -24,6 +24,8 @@ The identity rail is explicit: stable account `357923467838095361` is Amexistir 
 
 The current Run-413 reader chain also preserves the concurrent **Dyingfox ↔ Lilly** relationship deepener: Fox repeatedly initiates tiny morning greetings while Lilly receives them at stadium volume, making Fox's low-bandwidth style legible as an initiating care style rather than mere passivity.
 
+A separate hard-lock repair removes the stale **Akariel → Zyrcant** collapse from the public runtime. Akariel and Zyrcant remain distinct; Akariel does not receive a fabricated dossier merely because the old canonicalizer had swallowed the name.
+
 ### Meaning-deduped / banked
 
 Fresh Wall **Ansun** material repeated already-public Screenshot Court wrangler/defendant mechanisms, so no receipt-shaped paragraph was cloned.
@@ -54,8 +56,16 @@ Therefore MAIN source verification, Astro build, built-output verification, and 
 
 ## Consumption / queue
 
-- Birthdays / PR / VC reviewed and consumed through `a93072214568d5fe8cc0f30cf5f2409c0a9d51dc` after a successful hard-negative review with no public change.
-- Wall, Backroom, Daycare, and Mugen have their current reviewed frontiers durably recorded but retain conservative consumed cursors because older accepted MAIN work in those evidence families remains behind MAIN's mandatory publication gate.
-- The same publication-hold condition remains for Core Rooms / Events, Louvre, Meems, and Whiskey.
+Run 413 closes the bookkeeping bug explicitly: **consumed means reviewed, not published**. MAIN publication debt remains a separate status and no longer forces already-reviewed suffixes to masquerade as unread work.
+
+Consumed through current reviewed head:
+- Wall → `763deb36d288a9a007fa692f31b52099ac19838a`
+- Birthdays / PR / VC → `a93072214568d5fe8cc0f30cf5f2409c0a9d51dc`
+- Daycare → `7094c21c86c0348b8ca6c93e0d1f05b26e4e76ca`
+- Mugen person-first → `580ad113e4254236d2c0c86a783b08e3ca722b61`
+- Backroom → `f46776d13e04a16828019fa3eb4d902a92079e6a`
+- Meems → `1f0d773ef881dd5b3fb31e82e8701a2678c8675d`
+
+Core Rooms / Events, Louvre, and Whiskey were already consumed through current head. All eight can remain `pending_publication` on MAIN without being reread next cycle.
 
 Final queue: **0 pending review / 8 MAIN publication-held / 0 backlog / 0 overdue**.
