@@ -1,36 +1,33 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-05 — Run 465 DyingFox / Ren QOTD-Officers reconciliation_
+_Last updated: 2026-09-05 — Run 465 DyingFox / Ren dinner-jury reconciliation_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Detailed per-run reconciliation remains durable in `INTEGRATION_REPORT_RUN_*.md` here and `archive-intake/INTEGRATION_REPORT_RUN_*.md` on MAIN; older state remains recoverable in git history.
 
-## Run 465 — good DyingFox seed, not enough woman for a filing cabinet
+## Run 465 — DyingFox is sparse, not blank
 
-The mandatory opening and closing census resolve **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**, with **0 newly discovered branches, 0 unread pending-review tails, 10 MAIN publication-held families, 0 backlog, and 0 overdue**. Both Club-Only recovery priorities remain current at their saturated/do-not-churn heads (`e45fb11c…` for 2021–2026 and `ed66714f…` for 2020). No raw archive was re-mined.
+Opening census resolved **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**, with **0 newly discovered branches, 1 advanced QOTD / Officers tail, 10 MAIN publication-held families, 0 backlog, and 0 overdue**. Both Club-Only recovery priorities remain current at their saturated/do-not-churn heads (`e45fb11c…` for 2021–2026 and `ed66714f…` for 2020). No raw archive was re-mined.
 
-QOTD / Officers advanced from `101c44161c0c5524ce400990fc176eb44bbfed3a` to `eb6801f0cde4d95e165f9a08cf7c79b4cacae252`. The seven-commit suffix collapses into two evidence families.
+QOTD / Officers advanced from `101c44161c0c5524ce400990fc176eb44bbfed3a` to `eb6801f0cde4d95e165f9a08cf7c79b4cacae252` and was reviewed checkpoint-first from intake handoffs only.
 
-**DyingFox** gets a direct 2024-03 Officer Challenge voice receipt: asked for something fun that happened recently, she answers `my ass randomly got chosen for the school musical lmao`. The same user-scoped export row shows `Admin`, `Officers`, `🪤TRAP🪤`, `Library Moderator`, and `Event Coordinator`. That gives us useful ordinary-life/personality texture plus a later-visible role state, not an appointment date. Neither public surface currently has a real DyingFox character owner, so no skeletal dossier was created just to staple one school-musical self-own to a title stack. The seed is banked for a future person-first biography / Petty Crimes section.
+**DyingFox ↔ Lilly:** DyingFox's surviving authored voice is terse, but Lilly repeatedly receives morning greetings and compact affection across separated dates: `Morning lilly!`, `Love you too`, Milk_Love reactions, and `Eli hug` / `Eli glomp` commands. The pattern is longitudinal and person-shaped without requiring romance, kinship, best-friend rank, or offline physical behavior.
 
-**Ren** has an unresolved 2023 sequence: she posts an uninspected image with `caught in 4k`, then true-replies about nineteen hours later with `i mean..........................`. The delay and missing image context make the target/mechanism unresolved, so it remains backstage. POSTED BY stays distinct from MADE BY / CAPTURED BY / FEATURING.
+**Ren's dessert-for-dinner jury:** on 2022-08-06 Ren directly calls `fox halp`. DyingFox answers seven seconds later with a pat, then `It's dinner you can eat it`; Ren turns the reassurance into `2 POINTS TO DINNER`. Daya joins with direct validation, Sye's supposed opposition resolves to hydration enforcement, and Rich later proposes a conditional water-for-dessert amendment. The new relationship mechanism is Ren knowing DyingFox as quick sympathetic backup and converting care into an absurd vote tally.
 
-Older QOTD rabbits remain open: Anthos-vs-Ren Challenge 2 wording, `JJJ`, the exact `meeting of officers` reference, the exact `I still have nightmares about it` trail, and historical PR-versus-regular-Officers structure.
+The source screenshot remains uninspected. Do not describe pictured food/people or infer maker/capture/subject attribution. A separate surviving 2020-10-08 Lobby welcome gives DyingFox a Discord setup boundary only; it is not exact in-game admission or role chronology, and exporter nickname `DyingFox(Gilli's Pond)` is not safe nickname-origin evidence.
 
 ## Public surface status
 
-Reader-facing MAIN files changed **0**. DyingFox does not yet have enough surrounding life for a rich MAIN biography, and Ren's image referent is unresolved. MAIN's production workflow remains intentionally decoupled from pushes and gated behind manual dispatch / the controlled scheduled window, so no fresh MAIN reader build/deploy claim is made. MAIN's durable close report is commit `a6e023f4912fd43d4313204895930c28377f36d8`.
+Reader-facing MAIN files changed **0**. Reader-facing WIKI files changed **0**. Neither surface currently has a proper DyingFox person owner dense enough to deserve a skeletal page, so the material is banked for a future real biography / Relationships / Petty Crimes owner rather than published as a receipt stack.
 
-Reader-facing WIKI files changed **0**. The exact Run-465 state commit **`88f91b37c44d9128e459fdebbe91a273453b5c96`** passed Build Underlords Wiki workflow **`33983039103`** and Pages workflow **`33983038733`**. Pages completed the preview build, artifact upload, actual **Deploy to GitHub Pages** job, and status reporting successfully. The later `INTEGRATION_REPORT_RUN_465.md` / state-close commits are reader-neutral audit updates and intentionally use `[skip ci]`.
+MAIN's production verifier remains dispatch-gated and no reader content was pushed around that gate. WIKI's exact corrected Run-465 state commit is verified through the normal Build + Pages workflows.
 
 ## Current queue after Run 465
 
-- unread pending review: **0**
-- MAIN publication-held families: **10** — Backroom, Birthdays / PR / VC, Core Rooms / Events, Daycare, Louvre, Meems, Mugen person-first, Whiskey, QOTD / Officers, Wall
+- QOTD / Officers reviewed/consumed through `eb6801f0cde4d95e165f9a08cf7c79b4cacae252`
+- older MAIN publication-held families: **10** — Backroom, Birthdays / PR / VC, Core Rooms / Events, Daycare, Louvre, Meems, Mugen person-first, Whiskey, QOTD / Officers, Wall
 - backlog: **0**
 - overdue: **0**
 - newly discovered miner identities: **0**
-- consumed this run: QOTD / Officers through `eb6801f0cde4d95e165f9a08cf7c79b4cacae252`
 
-The QOTD / Officers family remains `pending_publication` only because older accepted MAIN work is still held; the fresh Run-465 suffix itself is fully reviewed and will not be reread as an unread tail.
-
-Detailed reconciliation is in `INTEGRATION_REPORT_RUN_465.md` here and `archive-intake/INTEGRATION_REPORT_RUN_465.md` on MAIN.
+A transient audit-state misread during this run was corrected before close; no false reader lore shipped. Detailed reconciliation is in `INTEGRATION_REPORT_RUN_465.md` here and `archive-intake/INTEGRATION_REPORT_RUN_465.md` on MAIN.
