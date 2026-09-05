@@ -42,12 +42,20 @@ export const suzimasuNarrativeCharacterBios: Record<string, CharacterNarrative> 
         ]
       },
       {
+        title: "SCREENSHOT COURT — THE DEFENDANT KEEPS BRINGING EVIDENCE",
+        paragraphs: [
+          "Suzimasu does not merely survive the Wall. Suzi repeatedly helps operate it. In 2020 there is the openly competitive **`Trying to win the wall of shame awards`**; a month later, `Since were sharing` is followed by fresh material from the same day. By 2021 a cursed experiment gets **`I HAD TO TRY IT LMAOOOO`**, a video, and the spectacular heading `EXPLAINATION`. The person filing the evidence and the person preparing the defense are very often the same employee.",
+          "That makes the later panic funnier, not less real. Rummy gets summoned with `help meeee` and answers with a soft pat. Baby Lyssa watches one self-filed catastrophe unfold with `HELP` and `what IS THIS CATASTROPHE`, while Suzi apologizes and then gives Lyssa directions for finding more of the cursed thing. Even rescue can become distribution. The friendships are comfortable enough that embarrassment, care, and escalation can all happen in the same pocket without anybody needing to announce which mode they are in.",
+          "Ren gets the warmer version of the same ease. Suzimasu can offer `Aww it’s okay @RΣN` and `I still wuv you`; Ren immediately meets the register with `Aweee suziiii`. Screenshot Court does not flatten Suzi into the class clown. It shows the contradiction that makes the whole system work: somebody can actively court notoriety, perform a defense when caught, and still use the room as a place for ordinary affection."
+        ]
+      },
+      {
         title: "RELATIONSHIP CONTINUITY — BAD AT CHECKING IN, EASY TO RECOGNIZE",
         paragraphs: [
           "The recurrence starts before the 2021 bot scene. In April 2020 Mob tells Snow **`I never check in so ya know w/pat`**; Gilli mirrors a pat back to Mob two minutes later. On June 14 the same stable account surfaces with `Hey`, Mugen immediately answers **`heey suzi welcome back!`**, and Gilli follows with `Suziiiii`. The doorway is doing social history without a formal roll call: low-frequency contact is already something Mob can joke about, and return recognition is already automatic.",
-          "April 22 adds the line that makes the later homecoming hit harder. Mob says **`Imma miss y’all when quarantine over`**. D.I./Jonith answers **`Bruh, you think people here just cuz of quarantine?`**. As a structured relationship beat, this is not proof that quarantine created UL or that everyone shared Mob's fear. It is Mob putting possible impermanence into words while the group is young, and another person immediately pushing back on the idea that the bond depends on the circumstance.",
+          "April 22 adds the line that makes the later homecoming hit harder. Mob says **`Imma miss y’all when quarantine over`**. D.I./Jonith answers **`Bruh, you think people here just cuz of quarantine?`**. Mob puts possible impermanence into words while the group is young; Jonith immediately pushes back on the idea that the bond depends on the circumstance.",
           "In May 2021 the Stripclub Bouncer greets the stable Mob | BAPE account with the ordinary newcomer script. Ren immediately ignores the machine's amnesia. **`UwU Sushiii`** comes first, Suzimasu answers with an emote, then Ren gives the line that actually describes the social situation: **`Welcome home~`**. A moment later comes `You know you ways` before the server tour continues anyway.",
-          "Software begins from zero; the people resume mid-sentence. The four doorway moments are stronger together than any one of them alone: Mob can be intermittent enough to joke about never checking in, worried enough to say he may miss everybody after quarantine, and still be retained by Mugen, Gilli, Ren, and Jonith as somebody whose bond does not have to expire on schedule. The archive does not establish why each gap happened, the exact leave boundary, or continuous membership status. It does establish a recurring social fact: absence does not make Suzi socially new."
+          "Software begins from zero; the people resume mid-sentence. Mob can be intermittent enough to joke about never checking in, worried enough to say he may miss everybody after quarantine, and still be retained by Mugen, Gilli, Ren, and Jonith as somebody whose bond does not have to expire on schedule. Absence does not make Suzi socially new."
         ]
       },
       {
@@ -76,12 +84,13 @@ export const suzimasuNarrativeCharacterBios: Record<string, CharacterNarrative> 
           "May file an apology *before* committing the offense. `I'm sorry` followed by `I HAD TO TRY IT LMAOOOO` is less remorse than a courtesy notification.",
           "Has personally announced **`I never check in`** and still accumulated repeated welcome-back language. A deeply inefficient attendance strategy with suspiciously good retention.",
           "Helped start UL and was still remembered for getting freaked out by UL afterhours. The building apparently exceeded one of its own founders' recommended operating conditions.",
+          "Has openly tried to **win the Wall of Shame awards** and later supplied `EXPLAINATION` for a self-filed catastrophe. The prosecution and defense share a login.",
           "Can be lured back years later with **fun arc**. Extremely sophisticated retention strategy: become entertaining again."
         ]
       }
     ],
     closing: [
-      "The structured Suzimasu dossier now has a clean through-line: Founder and later Consigliere on paper; initially quiet/scary/dangerous in several peers' memories; socially intermittent enough to joke about never checking in and anxious enough to wonder whether quarantine's end would scatter the room; then repeatedly recognized on return without needing to re-explain himself; and increasingly impossible to keep imposing once familiarity supplies brisket, bathroom-drink failures, alien conversations, remembered laughter, second-move joke escalation, and a return triggered by `fun arc`. The title tells you why he mattered institutionally. The recurring absurdly ordinary details tell you why people remembered the person."
+      "Suzimasu is Founder and later Consigliere on paper, but the person is easier to recognize by the collisions: scary until somebody remembers the bathroom drink; barbecue shorthand and alien conversations where an imposing silhouette used to be; self-filed Wall evidence followed by an immediate defense; long gaps followed by people greeting Suzi like the conversation never really ended; and, years later, a return because the room became fun again. The title explains why Suzi mattered institutionally. The ridiculous ordinary details explain why people kept having a Suzi-shaped place in the room."
     ]
   }
 };
