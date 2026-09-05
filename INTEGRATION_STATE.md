@@ -1,12 +1,12 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-05 Run 435 final handoff_
+_Last updated: 2026-09-05 Run 435 late-Daycare close_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. This file is the rolling WIKI handoff; earlier verbose states remain recoverable in git history.
 
 ## Run 435 final
 
-Opening census: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**, 0 newly discovered. Five unread tails were present at opening: Birthdays / PR / VC, QOTD / Officers, Louvre, Wall, and Backroom. Both Club-Only recovery priorities remained current at their saturated/do-not-churn heads; no raw archive was re-mined.
+Opening census: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**, 0 newly discovered. Five unread tails were present at opening: Birthdays / PR / VC, QOTD / Officers, Louvre, Wall, and Backroom. Mugen person-first and Daycare advanced during the close and were reviewed before final handoff. Both Club-Only recovery priorities remained current at their saturated/do-not-churn heads; no raw archive was re-mined.
 
 Reviewed checkpoint-first and intake-only through:
 
@@ -16,6 +16,7 @@ Reviewed checkpoint-first and intake-only through:
 - Wall — `2a8fd0e5bca3ad7db3dcfc42c16df9990a5c100f`
 - Backroom — `3d59f36df323e9a070a0edc5e58ed374f0c905f9`
 - Late-closing Mugen person-first tail — `e89ff4e6808c2c05902c36de2eb0d5376fb3ecd9`; negative novelty gate, no public change.
+- Late-closing Daycare tail — `735a276bb88271eb2705a833007f17c584894b05`; Tofu evidence-sport reinforcement meaning-deduped against existing public characterization, no reader change.
 
 ### Aeshleen — ninety-three seconds to become house lore
 
@@ -50,6 +51,7 @@ Public WIKI file:
 - **Louvre:** Jonith / D.I. gains a strong selective-confidence read — specific comics knowledge, easy uptake when corrected, and no shame about saying `I have no idea what yall are talking bout` when the topic leaves his lane. Good person material, but held rather than opening another large reader rewrite in the same pass. Pooled Deleted User remains pooled.
 - **Wall / RotiniLM:** lurker → exhibit-dropper → reluctant defendant → compact chaos correspondent is strong, as is Ansun's block-advice / Rotini reassurance care beat. Rotini still lacks a safe canonical public owner, so no mystery dossier was created.
 - **Mugen person-first:** the late tail is explicitly a no-promotion pass. Eleven mature reverse-angle surfaces were checked; every near-miss repeats already-owned Mugen mechanisms. Recurrence stays backstage when it adds no cost, contradiction, relationship change, failure state or evolution.
+- **Daycare / Tofu:** the late tail is corroborative rather than a new character mechanism. Tofu protesting `PUTTING ME ON BLAST!` and, thirty-seven seconds later, announcing `I'll fucking do it again too.` is an excellent extra specimen of the already-public prosecutor/defendant contradiction. Her Bishop/Cookie reciprocity and evidence-sport appetite were already owned, so no second paragraph was appended just because the receipt is funny. Bishop remains relationship-level; media stays uninspected.
 
 ### Verification and publication
 
@@ -58,10 +60,10 @@ Verified reader head: `48ccdad257f3baee163b04ba545242b410f2fbd8`.
 - Build workflow `33955739775` — **success**.
 - Pages workflow `33955739770` — **success**, including the actual `Deploy to GitHub Pages` job.
 
-This state commit is reader-neutral and uses `[skip ci]`; the verified reader head immediately beneath it is the public content target described above.
+This state commit is reader-neutral and uses `[skip ci]`; the verified reader head beneath it is the public content target described above.
 
 ### MAIN surface
 
 MAIN reader-facing changes in this pass: **0**. The strongest fresh material had clean WIKI owners, while MAIN still carries older publication debt behind its verification/deploy gate. No thin mirrored biography was created merely to make both repositories move.
 
-The controlling MAIN ledger should consume the six reviewed tails above after this verified WIKI publication, while preserving the older MAIN `pending_publication` families separately from unread review work.
+The controlling MAIN ledger consumes all seven reviewed tails above while preserving the older MAIN `pending_publication` families separately from unread review work.
