@@ -20,7 +20,7 @@ export const run429NarrativeCharacterBios: Record<string, CharacterNarrative> = 
         title: "APPARENTLY ON CALL",
         paragraphs: [
           "By July, counter-prosecution has become inventory. Eos says she is `Debating on sending more`; Gilli immediately tells her `@Eos donit`. Eos admits she has another receipt and jokes that using it might get her `divorced`. The marriage language stays exactly where UL put it—in the joke—but the comfort underneath it is real enough: Eos can threaten ridiculous relational consequences and nobody has to stop the room to explain that the affection survived.",
-          "By December, Rich does not even bother with a briefing. He writes `@Eos I think it’s time to punish a panda`. Eos answers `yep.... @Marian Kage cmere`. That is reputation in its funniest form. Rich already expects Eos to understand the assignment; Eos already knows which Panda he means; Marian gets summoned like the Wall has developed a tiny freelance enforcement desk."
+          "By December, somebody else does not even bother with a briefing. The call is `@Eos I think it’s time to punish a panda`. Eos answers `yep.... @Marian Kage cmere`. That is reputation in its funniest form. The room already expects Eos to understand the assignment; Eos already knows which Panda is being summoned; Marian gets called in like the Wall has developed a tiny freelance enforcement desk."
         ]
       },
       {
