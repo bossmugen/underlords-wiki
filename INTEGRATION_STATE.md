@@ -1,46 +1,33 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-05 Run 438 final close_
+_Last updated: 2026-09-05 — Panda/Eos family-feud integration_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Earlier verbose states remain recoverable in git history.
 
 ## Census / queue
 
-Run 438 final census: **51 tracked miner identities = 30 active matching refs + 21 historical/missing**, 0 newly discovered, **0 unread pending review**, **10 MAIN publication-held families**, 0 backlog, 0 overdue. Both Club-Only recovery priorities remain current at their saturated/do-not-churn heads; no raw archive was re-mined.
-
-Reviewed through current heads this run:
-- Birthdays / PR / VC — `6c8bbbb79f0c52827b917c27bb2e5615de9eeef8`
-- Core Rooms / Events — `33a1736ba5a323ad610b5834bcb8eb5655671a26`
-- Mugen person-first — `4626ad36a621b8cecc5aed9634fac7e64743dafe`
-- Backroom — `68d2fba7adda1f110a9be57013dd7712c450f82d`
-- Wall — `0790aaac20cb961271a6100958e754d1f4ce90fb`
-- Whiskey — reviewed through `c8c656a16e5656d728408f398e04a9810bd075af`; conservative consumed cursor remains `2fa4c6b6e0185d6b4549eadc80d6098d8dc9d66c` because the accepted MAIN Milo reader change did not pass MAIN's required verification gate.
+Current census: **51 tracked miner identities = 30 active matching refs + 21 historical/missing**, 0 newly discovered. QOTD / Officers advanced from `53694ef82001258fb7d374fea1bfbf91b39dd468` to `5f5df586a3e9ab4d50bd04ea1dcbf3228b71bf36` and was reviewed checkpoint-first from changed `archive-intake/officers-and-voice-challenges/` handoffs only. A later Birthdays / PR / VC advance from `6c8bbbb79f0c52827b917c27bb2e5615de9eeef8` to `ee12246eddabab3cc7e053ae6d079c366b2456b1` was also reviewed checkpoint-first as the anti-starvation second lane; it was a negative/rotation pass with no fresh lore and is safe to consume through head. Both Club-Only recovery priorities remain current at saturated/do-not-churn heads; no raw archive was re-mined.
 
 ## Public integration
 
-**Rich / Richard.** The 2020 Birthdays / PR / VC tail directly maps `Richard` onto Rich as a house reprimand/call-name: Ren posts the meme, instructs the room to say it whenever Rich messes up, and asks for the response in unison; Zoshaa immediately supplies a use case. WIKI now treats `Richard` as a communal consequence-name that later normalizes into ordinary call-name use. It is not presented as Rich's legal/offline name or guaranteed first use. The exact full later room-title coiner, rename date, and remaining title wording are still unresolved.
+**Panda + Eos — Family Feud Means Rematch.** The QOTD / Officers tail adds a recurring relationship mechanism rather than a one-off event. Eos calls being able to fight Panda more the `best part` of an update. Panda answers by inflating the rivalry into mock `sibling feuds`, an `Eos Clan` versus `Panda Clan`, attempted partner conscription, and a promise that Eos will know `true defeat`. Panda later announces `WE SETTLED THE FAMILY FUED`, then schedules a Thanksgiving family-feud rematch thirteen days later. By December 2022 the relationship no longer needs the fake diplomacy: Panda says `Hi fam`, Eos answers `PANDA`, and a hug reaction lands. WIKI owns this as a Running Gag in `src/data/integrator-gags-eos-20260904-run389.ts`, complementing the existing caretaker/counter-filing material without duplicating the MAIN biography voice.
 
-**Booba / MsThiccy.** Core Rooms / Events adds a 2023 return scene: Booba announces she is back, asks to join again, Sota says to reapply and welcomes her back, and Mugen recognizes her as `Ms t`. The WIKI page keeps both halves: socially recognized returnee, procedurally still required to reapply. No successful rejoin is claimed.
+The family/sibling/clan vocabulary remains explicitly nonliteral. It does not establish biological kinship or a literal in-game family mechanic. Parallel December 2021 map-search interest remains separately authored by Panda and Eos; it is not collapsed into joint authorship.
 
-**Milo.** Whiskey deepens MAIN Milo into a clearer cozy-routine / competitive-teeth contradiction, especially through recurring Gilli challenge language. Historical reconciliation blocks the miner's November 2020 Lobby wording from becoming an origin claim because the same stable account is already present in Whiskey in June 2020.
-
-**Mugen.** The latest tail was duplicate/corroborative only; no reader paragraph was added.
-
-**Backroom.** The `Moments submission` side-door pattern strengthened: three surviving labeled posts are carried by Gilli or Anthos for people who locally self-report other clubs. That is useful social-infrastructure evidence, but it does not establish a DM/proxy/import rule. Images remain uninspected; the incident is banked for its canonical owner.
-
-**HamitteY.** The final-closing Wall tail promotes stable `hamittey` into a substantial person scaffold: recurring receipt-keeping, context-stripping humor, repeated visual exit reactions, affectionate mock-betrayal with Baby Lyssa, chaos teasing with Shiya, and a small shared-joke lane around Mugen's `bonus` reputation. No public page was manufactured because neither surface currently has a safe canonical Hamitte owner. The profile is banked as WIKI-ready material. Visual media remains unresolved and attribution boundaries stay intact.
+**Birthdays / PR / VC negative rotation.** The later packet recovered a generic 2020 `Welcum to corpse party` line in a Yennifer/everyone-is-dead scene and correctly excluded it from Rich/Richard/Corpse-Husband/title genealogy. Daya appointment searches remain negative; current/export role arrays are not appointment timestamps. Anayss yielded no new authored person scene. `GOODBYE UNDERLORDS` route checks remained negative. No reader copy was warranted.
 
 ## Verification / deployment
 
-Final verified WIKI reader head: `d0d0a6151682e1936a48db69c8e215174022c887`.
+Verified WIKI reader head: `3f15413214b64b79a636b6441198c8a8e8ebec4b`.
 
-- Build workflow `33958493857` — **success**.
-- Pages workflow `33958493907` — **success**.
-- Preview build, artifact upload, and actual GitHub Pages deployment all succeeded.
+- Build workflow `33959863549` — **success**.
+- Pages workflow `33959863519` — **success**.
+- Pages build, artifact upload, actual `Deploy to GitHub Pages`, and report jobs all succeeded.
+- Reader-facing file changed: `src/data/integrator-gags-eos-20260904-run389.ts`.
 
-WIKI reader-facing files changed in the verified tree:
-- `src/data/character-biographies-rich.ts`
-- `src/data/character-biographies-run438.ts`
-- `src/data/character-biographies-run400.ts` (registration/export)
+MAIN currently has automatic deploy triggers deliberately paused for repository maintenance at publishing head `c9e5d24e790fa4f90b6997b33bfe1ba97acaed2f` (`ci: pause automatic UL deploy triggers`). The richer Panda/Eos material has a natural person-first home inside Panda's existing Eos relationship section, but no MAIN reader edit was made and no verifier/deployment bypass was attempted. MAIN therefore remains publication-held for this accepted fold.
 
-MAIN reader target `1a7b3b37f97b7f9c31a15515696e293e4b4bd169` contains changes to `src/content/people/milo.md` and `src/content/people/rich.md`. Workflow `33958451942` failed before repository execution on attempt 1; the failed jobs were rerun once and attempt 2 failed in the same pre-runner/no-step shape. Verified Cloudflare deployment was skipped. MAIN source verification, Astro build, and built-output verification therefore did not reject the copy; they never executed. **No new MAIN deployment is claimed.**
+## Consumption boundary
+
+- QOTD / Officers is **reviewed/seen through** `5f5df586a3e9ab4d50bd04ea1dcbf3228b71bf36`; its controlling MAIN `last_consumed_sha` must remain `53694ef82001258fb7d374fea1bfbf91b39dd468` until the accepted MAIN person-first fold clears the required MAIN verification/publication gate.
+- Birthdays / PR / VC is reviewed through `ee12246eddabab3cc7e053ae6d079c366b2456b1`; the new suffix is negative/corroborative only and may advance consumed through that head.
