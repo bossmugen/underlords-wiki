@@ -27,7 +27,8 @@ export const zyrcantNarrativeCharacterBios: Record<string, CharacterNarrative> =
         paragraphs: [
           "On July 15, 2021, Ansun's Kahoot announcement names Shinn, Nelphie and Zyrcant as the event's top three. The order does not survive as an exact ranking; Zyrcant's reaction does. She hits the result with both `:yay:` and `:8070_ZeroYay:`. On August 4 she posts an attachment-only submission for DUSK TIL DAWN and lets the room react around it. The theme belongs to the event routing; the image itself is still uninspected, so `POSTED BY Zyrcant` is where the credit stops. Together with the Wall material, the better pattern is not `likes Kahoot` or `takes photos`; it is active opt-in. Zyrcant keeps choosing house formats built for public response and often needs very few words to do it.",
           "Later Voice Challenge material has her choosing music and asking Han for editing help. Then October gives the much less administrative self-description: `im the one person who tackles ppl`, with Gabu immediately nominated as the current case.",
-          "The Wall supplies the opposite half. Zyrcant can ask to be put on it, accept `earn your place` with `fair lmaooo`, respond to being `caught in 4k` by running, and then return two days later carrying her own exhibit. Competence and shameless participation are not mutually exclusive settings. Quiet does not mean passive here; sometimes participation is two yays, one attachment, and absolutely no explanatory essay."
+          "The Wall supplies the opposite half. Zyrcant can ask to be put on it, accept `earn your place` with `fair lmaooo`, respond to being `caught in 4k` by running, and then return two days later carrying her own exhibit. Months later she writes `Everytime someone calls snow old` and supplies `-runs-` ten seconds afterward. At that point the escape is not retreat so much as stage direction. She keeps volunteering for the institution, helping feed it, and then theatrically fleeing the exact social consequences she already knows are coming.",
+          "Competence and shameless participation are not mutually exclusive settings. Quiet does not mean passive here; sometimes participation is two yays, one attachment, one typed evacuation route, and absolutely no explanatory essay."
         ]
       },
       {
@@ -35,6 +36,7 @@ export const zyrcantNarrativeCharacterBios: Record<string, CharacterNarrative> =
         paragraphs: [
           "Ren is one of the clearest peer-read witnesses: when Zyrcant asks what vibe she gives off, Ren answers with brightness rather than intimidation. That does not make Ren the sole authority on Zyrcant; it shows the first-glance reputation is not the only version people actually experience.",
           "The warmth becomes much less abstract in July 2022. Zyrcant hits the room with `Ren!!`, `I believe`, `I’m gonna cry`, and `Love you`; Ren answers `I miss my zyrcant`. Flask asks `where zyr`, and Dayadream says `I already miss zyrcant`. Nobody needs a speech about whether she matters. The room notices the gap quickly enough to say her name into it, and Zyrcant answers with the same emotional volume once she is back in range.",
+          "Tofu knows a completely different button. In recurring Wall bits, Tofu can turn Akariel's presence into mock charges — from auction language to `how about you not take our souls at all *Satan*` — and Zyrcant answers with exaggerated distress or refusal while staying planted inside the joke. The rhythm matters more than the fake indictment: Tofu accuses, Zyrcant performs being endangered, neither treats the premise like an actual conflict, and the bit remains available for reuse.",
           "The 2022 protectiveness exchange turns a self-description into a tiny group reassurance. Somebody asks whether `us` counts; Zyrcant says yes. The wiki keeps the reassurance without promoting the speaker-label ambiguity in the miner handoff into a hard identity claim."
         ]
       },
@@ -44,13 +46,14 @@ export const zyrcantNarrativeCharacterBios: Record<string, CharacterNarrative> =
           "On May 22, 2021: `the only apps now on my mac is spotify chrome and discord 😛`. At that moment the machine had apparently been reduced to music, browser, Discord, and confidence.",
           "A top-three Kahoot result gets two different yay reactions. Apparently one yay was insufficient paperwork.",
           "On July 1: `word of the day is ass`. On October 14 she suddenly remembers she has the entire Bee Movie saved as a GIF. One deranged saved file does not make Bee Movie her favorite film; it does mean an emergency Bee Movie GIF existed in this woman's possession.",
+          "Applied to the Wall of Shame before she had apparently earned the credential, later answered `caught in 4k` with `*runs*`, and eventually began supplying `-runs-` as part of her own setup. If the exit is typed in advance, it is less an escape plan than choreography.",
           "`im the one person who tackles ppl` remains one of the better fake job descriptions in the file. Gabu was simply unfortunate enough to be named next.",
           "`Quiet at first but a crackhead once I’m comfortable` is now the shortest available user manual."
         ]
       }
     ],
     closing: [
-      "Zyrcant's story is not former deputy becomes UL somebody-important. She was already somebody. The better story is what the room eventually gets access to: competitive enough to place, shameless enough to self-file, quiet enough to be misread, protective enough to correct the misread, and comfortable enough that the crackhead setting apparently becomes available. The newer public-format receipts sharpen one thing further: she does not need to dominate a room to keep opting into it."
+      "Zyrcant's story is not former deputy becomes UL somebody-important. She was already somebody. The better story is what the room eventually gets access to: competitive enough to place, shameless enough to self-file, quiet enough to be misread, protective enough to correct the misread, and comfortable enough that the crackhead setting apparently becomes available. The newer Wall material sharpens one thing further: she can volunteer for the evidence economy, act scandalized when it notices her back, and literally type the getaway herself."
     ]
   }
 };
