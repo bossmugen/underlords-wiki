@@ -46,6 +46,7 @@ const richScore = (path: string): number => {
 };
 
 const narrativeScore = (path: string): number => {
+  if (/run427/.test(path)) return 1040;
   if (/run413/.test(path)) return 1030;
   if (/run410/.test(path)) return 1020;
   if (/run409/.test(path)) return 1010;
