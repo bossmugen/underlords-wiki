@@ -1,55 +1,31 @@
 # UNDERLORDS MAIN + WIKI — Integration Report Run 465
 
-Date: 2026-09-05 11:13 PDT / 18:13 UTC
+Date: 2026-09-05 11:20 PDT / 18:20 UTC
 
 ## Census
 
-The mandatory branch census resolves **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**, with **0 newly discovered**, **0 unread pending review at close**, **10 MAIN publication-held families**, **0 backlog**, and **0 overdue**.
+Opening census resolved **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**, with **0 newly discovered**, **1 advanced QOTD / Officers tail**, **10 MAIN publication-held families**, **0 backlog**, and **0 overdue**. Both Club-Only recovery priorities remain current at their saturated/do-not-churn heads (`e45fb11c…` for 2021–2026 and `ed66714f…` for 2020). No raw archive was re-mined.
 
-Both Club-Only recovery priorities were rechecked and remain current at their saturated/do-not-churn heads:
+## QOTD / Officers — `101c44161c0c5524ce400990fc176eb44bbfed3a` → `eb6801f0cde4d95e165f9a08cf7c79b4cacae252`
 
-- `archive-miner/club-only-2021-2026-hourly` → `e45fb11c9239e236231bb65645dfd0285bc0078b`
-- `archive-miner-clubonly-2020-hourly` → `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`
+Reviewed checkpoint-first from changed intake handoffs only.
 
-No raw archive was re-mined.
+**DyingFox ↔ Lilly:** DyingFox's surviving authored text is sparse, but Lilly repeatedly gets the small affection: `Morning lilly!`, `Love you too`, Milk_Love reactions, and `Eli hug` / `Eli glomp` commands across separated dates from December 2020 through February 2021. The useful relationship read is habitual, low-drama affection, not romance/kinship/best-friend rank. The Eli actions are Discord social commands, not offline physical behavior.
 
-## Reviewed intake delta
+**Ren summons Fox into the dinner jury:** on 2022-08-06, after Gilli posts an uninspected screenshot and says `You brat`, Ren calls `fox halp`. DyingFox answers seven seconds later with a pat, then `It's dinner you can eat it`; Ren immediately tallies `2 POINTS TO DINNER`. Daya joins with `i support dessert for dinner tbh`, `u valid rv`, and `ignore the haters`; Sye's objection resolves to hydration rather than dessert prohibition; Rich later offers conditional support if Ren drinks water while surrendering ramen-for-dinner. The new mechanism is Ren knowing DyingFox as a quick sympathetic backup and converting care into absurd vote-counting.
 
-### QOTD / Officers — `101c44161c0c5524ce400990fc176eb44bbfed3a` → `eb6801f0cde4d95e165f9a08cf7c79b4cacae252`
+The screenshot remains uninspected. Do not describe the pictured food, claim Ren ate it, or turn Gilli's POSTED BY into maker/capturer/subject attribution.
 
-Reviewed checkpoint-first from changed `archive-intake/officers-and-voice-challenges/*` handoffs only. Seven commits collapse into two evidence families rather than seven fake discoveries.
-
-**DyingFox** gets a direct 2024-03-11 Officer Challenge voice receipt. Her answer to a prompt about something fun that happened recently is `my ass randomly got chosen for the school musical lmao`. The same exported user-scoped row shows `Admin`, `Officers`, `🪤TRAP🪤`, `Library Moderator`, and `Event Coordinator`. The useful public read is person-level, not bureaucratic: getting picked for a school musical lands as a surprised self-own, which is exactly the kind of ordinary-life texture that can eventually live in a real DyingFox biography / Petty Crimes section. The role array is only later-visible state and is **not** an appointment date or promotion chronology.
-
-Neither MAIN nor WIKI currently has a proper DyingFox character owner. Creating a dossier now would produce a title stack plus one funny school-musical line — technically a page, spiritually a filing cabinet. The material is therefore banked for a future person-first owner rather than rewarded with a skeletal public route.
-
-**Ren** has a separate unresolved sequence: on 2023-05-06 she posts `FB_IMG_1683421471079.jpg` with `caught in 4k`; about nineteen hours later she true-replies to the same post with `i mean..........................`. The media is still uninspected and the delay is too large to safely narrate it as a same-breath self-own or pile-on. The sequence remains backstage until the image/referent resolves. POSTED BY remains distinct from MADE BY / CAPTURED BY / FEATURING.
-
-Older open QOTD rabbits remain open: Anthos-vs-Ren Challenge 2 wording, `JJJ`, the exact `meeting of officers` reference, the exact `I still have nightmares about it` trail, and historical PR-versus-regular-Officers structure.
+**DyingFox threshold:** MEE6 welcomes the stable DyingFox account on 2020-10-08; Snow says `Added role`, then `welcome Dyingfox`. This is a surviving Discord setup boundary only, not exact in-game admission, recruiter proof, or appointment chronology. Export nickname `DyingFox(Gilli's Pond)` is not safe historical nickname/origin evidence.
 
 ## Public surfaces
 
-### MAIN
+Reader-facing MAIN files changed **0**. Reader-facing WIKI files changed **0**. Neither surface currently has a proper DyingFox person owner dense enough to justify manufacturing a skeletal page out of a threshold plus three relationship receipts. The material is banked for a future real biography / Relationships / Petty Crimes owner.
 
-Reader-facing files changed: **0**. DyingFox is not dense enough yet for a person-first MAIN biography, and Ren's image referent is unresolved. MAIN's production workflow is intentionally decoupled from pushes and runs only by manual dispatch or its gated schedule. No fresh source-verification / Astro / built-output / Cloudflare claim is made, and no reader content was pushed around that gate. MAIN's durable Run-465 report closes at `a6e023f4912fd43d4313204895930c28377f36d8`.
+MAIN's production verifier remains dispatch-gated and no reader content was pushed around that gate. WIKI's corrected durable state is verified separately through its normal Build + Pages workflows.
 
-### WIKI
+## Consumption
 
-Reader-facing files changed: **0**. The same DyingFox packet is a good future Cast/Petty Crimes seed but not enough to justify manufacturing a skeletal dossier. Ren stays backstage.
+QOTD / Officers remains fully reviewed/consumed through `eb6801f0cde4d95e165f9a08cf7c79b4cacae252`; the correct no-public-change reason is durable, so the same suffix should not be reread. Older accepted MAIN QOTD / Officers material remains `pending_publication` separately.
 
-The exact Run-465 state commit **`88f91b37c44d9128e459fdebbe91a273453b5c96`** was verified/deployed through the normal WIKI workflows:
-
-- Build Underlords Wiki workflow **`33983039103`** — **success** on exact head `88f91b37…`
-- Pages workflow **`33983038733`** — **success** on exact head `88f91b37…`, including preview build, Pages artifact upload, the actual **Deploy to GitHub Pages** job, and status reporting
-
-No reader prose was invented merely to make the run look busy.
-
-## Consumption close
-
-QOTD / Officers advances its reviewed/consumed frontier through `eb6801f0cde4d95e165f9a08cf7c79b4cacae252`. This is a successful no-public-change review: the DyingFox seed is durably banked, the Ren uncertainty is durably preserved, and there is no reason to reread the same suffix next cycle.
-
-The branch remains `pending_publication` only because **older accepted MAIN QOTD / Officers material** is still publication-held; that status is not an unread-tail marker.
-
-Final queue: **0 unread pending review, 10 MAIN publication-held families, 0 backlog, 0 overdue, 0 newly discovered miner identities**.
-
-MAIN's controlling per-branch cursor ledger remains `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`.
+A transient audit-state misread during this run was corrected before close; no false reader lore shipped.
