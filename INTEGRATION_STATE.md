@@ -1,49 +1,53 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-05 — Run 445 canonical-owner repair_
+_Last updated: 2026-09-05 — Run 447 Han pronoun repair + family/Wall deepening_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Earlier verbose states remain recoverable in git history.
 
 ## Census / queue
 
-Run 445 re-ran the full miner census after Run 444 closed: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**, with **0 newly discovered branches, 0 unread pending-review tails, 10 MAIN publication-held families, 0 backlog, and 0 overdue**. No miner head advanced between the Run 444 close and this repair pass. Both Club-Only recovery priorities remain current at their saturated / do-not-churn heads (`e45fb11c…` for 2021–2026, `ed66714f…` for 2020). No raw archive was re-mined.
+Run 447 completed a full branch census: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**, with **0 newly discovered branches, 1 unread pending-review tail, 0 backlog, and 0 overdue**. Ten families still carry older MAIN publication debt; Daycare is one of them but its status is currently `pending_review` because a newer unread suffix takes precedence.
 
-This run exists because the first Run 444 reconciliation made an owner-routing mistake while the miner deltas themselves were already correctly consumed. The current WIKI cast already had `DarkAsrai` as an alias of **Rose**, and it already had **Erys / Emi** as a canonical public owner. Those facts were re-read directly from current `main` before publication. The fix therefore routes the already-reviewed Wall material into the people who already exist instead of inventing new humans or leaving strong character texture in a bank for no reason.
+Reviewed this pass:
 
-## Reader change — Rose is not only the defendant
+- `archive-miner-qotd-officers-20260824`: `23107ad0e90144d07dc66da0b7e12682d64a27fb` → `95a349adf53c2d430b05c03f21e9ddfd38228f70`.
+- `archive-miner-wall-hourly-20260824`: `e086e03f58c921fd5c114cefb1e58c282b8640d8` → `8e7999dc478c29af161cde2e5e5313c7bdb802e3`.
 
-Rose / DarkAsrai now has a dedicated person-first narrative instead of falling back to a thinner Historical Staff file. The useful contradiction is simple: she knows what it is like to be Wall material and she still brings material into the room herself.
+Both were reviewed checkpoint-first and intake-only; no raw archive was re-mined. Both Club-Only recovery priorities remain current at their saturated / do-not-churn heads (`e45fb11c…` for 2021–2026, `ed66714f…` for 2020).
 
-Her protest **`He hit me first`** stays what the surrounding Wall context supports: a joking defense inside Screenshot Court, not a claim of literal physical violence. **`I knew id get in here`** gives the more resigned version of the same relationship to the room. Then September 2021 flips the camera. Rose says **`Oh I should show what I got from Shi`** and follows with **`the most perfect emote ever`** plus an image. She is no longer merely somebody being filed; she is a courier of house lore too.
+The closing census caught one later mover: Daycare advanced from consumed `4f06cd5a…` to `b743337b…`. That suffix is recorded as seen and unread, not silently consumed.
 
-The wording keeps the attribution rail intact. Rose says she **got** the material from Shi / ShiyaX. That does not become MADE BY Shi, CAPTURED BY Shi, or FEATURING Shi without visual or textual support. The media remains uninspected.
+## Reader correction — Han stops inheriting an unsupported pronoun canon
 
-The rest of Rose's biography is folded around the same person rather than turned into receipt rows: clipped practical help (`Download?`, `preserve folders`, `Copy`, `figure it out`), the deadpan `Its called a budget`, affection that can coexist with `Stupid commander`, complaints about her room becoming material, and the ability to find one sentence that makes somebody else's joke worse. Historical Staff remains the role; the biography is the woman underneath it.
+The fresh QOTD / Officers handoff explicitly withdraws earlier miner use of **he/him for Han/Nai**. No direct self-identification or user-confirmed pronoun lock supports that wording. Sye/Life's 2021-10-12 **`Like mother Like daughter`** is meaningful scene context and strong contextual gender evidence, but Run 447 does not turn one third-party phrase into a new she/her canon lock.
 
-## Reader correction / deepener — Erys gets the right hug
+`src/data/character-biographies-han.ts` therefore now uses Han/name-neutral construction throughout. This is not visible source-method narration; the public page simply stops asserting something the project has not actually resolved.
 
-Erys already had a public biography. The fresh Wall tail strengthens its core mechanism: her self-defense language keeps collapsing into smaller and more theatrical filings — **`no` → `photoshopped` → `objection` → `hearsay`** — while she remains perfectly capable of counterfiling and judging somebody else's story with **`failed`**, **`owo`**, and **`i dont buy your story`**. The less she says, the more the room supplies the missing legal brief.
+The same revision folds the useful new material into Han's existing person story rather than appending another receipt report:
 
-More importantly, Run 445 fixes a recipient overassignment in the older biography. The previously visible text said Rummy sent a hug and Erys answered **`i lubn u tyoo`**. The directly tethered Rummy exchange is instead the hug followed by Erys's **`awwwd i just gota hug`** and **`thankgs youh`**. The target of `i lubn u tyoo` is not cleanly resolved in this packet, so it is no longer assigned to Rummy.
+- Han says a broken toe went unnoticed for roughly a week. Mom asks **`Are you dumb?`**. Han's defense is precedent: Mom once walked on a broken leg/bone for roughly a month before realizing it. Mom's reported **`....`** becomes the punchline.
+- Sye answers the family resemblance with **`Like mother Like daughter`**; Han reacts positively.
+- Another unresolved-ID member later answers with a similar delayed-fracture confession, and Han responds with pats/hugs. The room moves from roast to recognition without needing a tonal reset.
+- On 2021-10-19, after Gilli posts an uninspected Wall screenshot, Han answers with FBI emotes, **`im not saying anything`**, predicts the channel will soon need to become **`Han's wall of shame fame`**, and exits with a walk-away emote. It reads as self-aware public embarrassment turned into performance and naming rights.
 
-The emotional read survives the correction and gets better. Erys does not suddenly become eloquent when she softens; her language falls apart harder. Courtroom Erys can compress a defense into `hearsay`. Hugged Erys can compress delight into typo soup. Same person, different temperature. The attribution correction itself stays backstage in this file; the visible biography now simply tells the correct scene instead of narrating source housekeeping at the reader.
+The page now also has a proper **Petty Crimes** section for the small recurring humiliations: surviving work as Fame, the weirdly seated cat, refusing to crop unnecessary Discord context, walking on the broken toe, and the Wall naming-rights defense.
 
-## Meaning-deduped / held
+Known material was meaning-deduped rather than duplicated. The October 11 Spooky Night editor credit and October 17 Voice Challenge launch were already part of Han's media/facilitator story. Exact Media Director appointment chronology remains unresolved and was not inferred from exporter roles or adjacent dates.
 
-**Ghostt** remains duplicate/corroboration. The current Ghostt biography already owns the defendant-to-prosecutor Wall mechanism, Gilli relationship texture, low-volume gallery behavior, and willingness to keep feeding the joke. No second Ghostt family was created from transient display-name drift.
+## Wall anti-starvation review — Josh banked, Candy already owned
 
-Run 444's **Aeshleen** calibration remains intact: the house can remember her ninety-three-second humiliation as `fastest shame` without the WIKI pretending it has proven an objective all-time archive record against every earlier Wall appearance.
+The fresh Wall suffix gives stable account `186245940699463680`, locally addressed as **Josh / Spicy Hotpot**, a genuinely usable Wall profile: summon-sensitive deadpan defendant, callback hunter, and intermittent escalation gremlin. Tiny defendant noises (`pls pp`, `??????`, `What did I do`) eventually flip into old-receipt retrieval (`I knew it`) and twenty-eight consecutive Gilli pings. Gilli is a recurring mock-prosecution/callback foil; Ren has a bounded mock-defiance lane.
 
-The late **Mugen person-first** suffix remains reconciliation-only. Current MAIN already owns the stronger contradiction: Mugen can value boundaries and still need Ren / WOO to re-surface one during a live Nobu picture-request joke. No duplicate saint-or-sinner paragraph was added.
+No new global Josh Cast owner was minted. The bridge is strong inside the Wall corpus but is not yet a project-wide user-confirmed identity lock, and there is no existing canonical public person owner that can safely absorb it without risking identity overreach. The person material is banked, not rejected.
 
-**Daycare** remains attribution-hardening only: Momo's text can provide an exact creator credit while the media itself stays visually uninspected; Shroom's GIF remains POSTED BY Shroom only.
+Candy's fresh material is duplicate/deepening only. Current WIKI already owns the same low-prose reaction-language mechanism, the Vanness self-shame reply, the Moo relay, and the `— Luna` identity hazard. No duplicate paragraph was added merely because the miner emitted a newer addendum.
 
 ## Verification / deployment
 
-Final Run 445 reader head: **`59262d54ebb5c7ea2d20b4caadd002fe63949908`**.
+Final Run 447 reader head: **`09e14ebd47a2cc8898aa97887931c80f45c92602`**.
 
-- Build workflow `33964505584` — **success** on the exact reader head.
-- Pages workflow `33964505603` — **success** on the exact reader head.
+- Build workflow `33965699073` — **success** on the exact reader head.
+- Pages workflow `33965699098` — **success** on the exact reader head.
 - Pages preview build — **success**.
 - artifact upload — **success**.
 - actual `Deploy to GitHub Pages` job — **success**.
@@ -51,16 +55,28 @@ Final Run 445 reader head: **`59262d54ebb5c7ea2d20b4caadd002fe63949908`**.
 
 This state-only close uses `[skip ci]`; it does not replace or re-run the already verified reader deployment.
 
-MAIN made **0 reader-facing changes** in this repair pass. Its production workflow remains intentionally `workflow_dispatch`-only while the runner/account issue is under maintenance, and the available connector exposes no dispatch action. The repair therefore did not bypass the gate or claim that MAIN source verification, Astro, built-output verification, or Cloudflare ran. No new MAIN deployment is claimed.
+## MAIN split / publication debt
 
-## Consumption boundary
+MAIN made **0 reader-facing changes** in Run 447. Its current `src/content/people/han.md` still carries unsupported `pronouns: "he/him"` frontmatter and he/him prose, so the Han correction is explicitly recorded as MAIN publication debt rather than forgotten.
 
-No miner cursor moved in Run 445 because the relevant Daycare, Wall, and late Mugen suffixes were already successfully reviewed and consumed in Run 444. The controlling MAIN ledger remains current through:
+MAIN's production workflow remains intentionally `workflow_dispatch`-only while the GitHub Actions runner/account problem is under maintenance, and the available connector exposes no dispatch action. The run therefore did not bypass the gate or claim that MAIN source verification, Astro, built-output verification, or Cloudflare ran. No new MAIN deployment is claimed.
 
-- Daycare — `4f06cd5a15e8346392516ef1e63a6e279a586448`
-- Wall — `e086e03f58c921fd5c114cefb1e58c282b8640d8`
-- Mugen person-first — `80feddacff29cc3b4caf8bfd4e7cea19498de34d`
+This asymmetric publication is intentional: WIKI could safely verify and deploy the correction now; MAIN must wait until its required verification/deploy gate is runnable.
 
-The **10 MAIN publication-held families** remain Backroom; Birthdays / PR / VC; Core Rooms / Events; Daycare; Louvre; Meems; Mugen person-first; Whiskey; QOTD / Officers; and Wall. Those statuses are publication debt, not unread miner archaeology.
+## Consumption boundary / held rabbits
 
-No new identity merge, appointment chronology, unseen-media attribution, literal family/romance claim, or false absolute origin/record claim was manufactured in this repair.
+The controlling MAIN ledger is now current through:
+
+- QOTD / Officers — `95a349adf53c2d430b05c03f21e9ddfd38228f70`
+- Wall — `8e7999dc478c29af161cde2e5e5313c7bdb802e3`
+- Daycare — still consumed only through `4f06cd5a15e8346392516ef1e63a6e279a586448`; fresh head `b743337b681034c3e0a74a08b0511d1553112372` is unread.
+
+Held correctly:
+
+- Han pronouns remain unresolved beyond safe name-neutral wording; no she/her lock was manufactured.
+- exact Han Media Director appointment date remains unresolved.
+- stable account `456226577798135808` remains pooled/unresolved outside the specifically supported QOTD Nemo boundary.
+- Oyasumi's `HE DIED ON THE STAIRS AGAIN?!?!` hook remains unresolved because the earlier referent/origin is not readable and the screenshot is uninspected.
+- Josh/Spicy Hotpot remains a Wall-local bridge pending stronger global ownership.
+- Gilli's October 19 screenshot is POSTED BY Gilli only; maker/captor/subject remain unresolved.
+- no joke family/romance/governance language was literalized, and no unseen media was upgraded from POSTED BY to MADE BY / CAPTURED BY / FEATURING.
