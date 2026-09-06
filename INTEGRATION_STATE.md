@@ -1,32 +1,32 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-06 — Run 509 close_
+_Last updated: 2026-09-06 — Run 510 close_
 
-MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Detailed reconciliation for this pass is in `INTEGRATION_REPORT_RUN_509.md`.
+MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Detailed reconciliation for this pass is in `INTEGRATION_REPORT_RUN_510.md`.
 
 ## Current queue
 
 - **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**.
-- **0 newly discovered** in Run 509.
+- **0 newly discovered** in Run 510.
 - **0 unread pending review / 0 backlog / 0 overdue** at close.
 - **10 publication-held branch families** remain in MAIN's branch ledger.
 - Club-Only 2021–2026 remains current/saturated at `e45fb11c9239e236231bb65645dfd0285bc0078b`.
 - Club-Only 2020 remains current/saturated at `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`.
 
-## Run 509 reviewed frontiers
+## Run 510 reviewed frontier
 
-- Daycare reviewed through `f805ed2f0a0611bab2e86ded14f5180ab13e4e7d`; consumed SHA intentionally remains `f7b601a43e58339c00642a556385e65fd8beb3c2` because accepted Eos MAIN enrichment has not cleared MAIN's production gate.
-- Mugen person-first reviewed/consumed through `5f4295f3798ce8bc9c4e5946345ba1ddb703d832`; latest surgical pass is explicit no-public-edit / exhaustion bookkeeping.
-- QOTD / Officers reviewed/consumed through `1f2e2318492e7cc4b8c6a1e75bedfd77c6cffc24`; Anayss's live-joke → Kahoot-programming character deepener was published and verified on WIKI.
-- Wall reviewed through `9f3c79a9eb0b40279140c643b8e726a6dc0e35da`; consumed SHA intentionally remains `6d8e6c53c901a26891025d84f46a7ad7f529d98c` because Korea's A-strength cumulative profile is accepted but publication-held without a settled public owner.
+- Daycare advanced from reviewed `f805ed2f0a0611bab2e86ded14f5180ab13e4e7d` to `915ca4a1e9f672a4c0d3fb195c4b8a33ff1c48b0` and was reviewed checkpoint-first.
+- The fresh ShiyaX package is duplicate/corroboration: `Yall need jesus bad` → `I AM THE CHAOS`, HamitteY's reciprocal teasing, repeated `:aworryWeirdExit:`, and the bounded food-coded support scene are already materially owned by the current WIKI ShiyaX dossier and MAIN ShiyaX people catalog.
+- Daycare `last_consumed_sha` intentionally remains `f7b601a43e58339c00642a556385e65fd8beb3c2` because the older accepted Eos MAIN animal/pet-sharing enrichment still has not cleared MAIN's controlled verification/deploy gate. This does **not** mean the ShiyaX suffix is unread.
+- Wall remains reviewed through `9f3c79a9eb0b40279140c643b8e726a6dc0e35da`; consumed SHA remains `6d8e6c53c901a26891025d84f46a7ad7f529d98c` while Korea's accepted A-strength cumulative profile lacks a settled public owner.
 
 ## Reader result
 
 ### WIKI
 
-`src/data/character-biographies-run470.ts` now deepens **Anayss** inside her existing organizer/producer arc. The July 2021 chain is used as behavior rather than event ledger: she hears Mugen/Snow's ridiculous pasties / fake-entrance-exam joke, true-replies `boss, that's totally giving us kahoot ideas`, tags Gilli, and starts converting ambient nonsense into possible programming before the room has finished laughing.
+Reader-facing files changed: **0**. The existing `src/data/character-biographies-shiyax.ts` already owns the fresh mechanism as person-level contradiction, relationship texture, and Petty Crimes rather than event spam.
 
-Reader commit: `154c86302f3357d483322cd578e743b14e80b0b5`.
+The latest reader publication therefore remains Run 509's Anayss deepener at `154c86302f3357d483322cd578e743b14e80b0b5`:
 
 - Build workflow `34024482845`: **SUCCESS**.
 - Pages workflow `34024482776`: **SUCCESS**.
@@ -35,23 +35,25 @@ Reader commit: `154c86302f3357d483322cd578e743b14e80b0b5`.
 
 ### MAIN
 
-Reader-facing files changed: **0**. Eos's new animal/pet-sharing axis is strong person-first MAIN material but remains publication-held because MAIN's controlled source-verification → Astro → built-output → production deployment workflow cannot be manually dispatched through the available connector. No MAIN reader build/deploy is claimed.
+Reader-facing files changed: **0**. Run 510 persisted the full census and closing review state only. No MAIN source/Astro/dist/production reader deployment is claimed because the reader tree did not change. Eos's accepted animal/pet-sharing enrichment remains publication-held behind the controlled production gate.
 
 ## Reconciliation / banks
 
-- **Eos animal/pet-sharing:** responsive pet-photo supplier; tiny animal-behavior narrator; easy Anayss request/follow-through; mundane Marian pet-story lane. Route to MAIN biography when production gate can run.
-- **Eos / Gilli:** `Gilli is my reason for joining underlords` remains direct truth. Same stable Eos account self-reports `EnyoCal~ ... UL club` in Dec. 2020 and `Eos~ ... Deviations` in Jan. 2021, so technical recruiter/inviter/admitter mechanics remain unresolved.
-- **Akamin:** fresh Wall package is duplicate/corroboration of the already richer current WIKI dossier. Do not append another receipt paragraph.
-- **Korea / su.myeon:** substantial A-strength Cast/profile candidate — amused evidence-room composure / active filer ↔ theatrical exposure; recurring `:v_sip:`; Baby Lyssa filing with Ren cheering; Woohyuk counterpunch; cartoon flight vocabulary. Hold until a real public owner exists rather than creating a one-incident stub.
-- **DiStratus / Torr:** substantial A-strength profile candidate carried from Run 508.
+- **ShiyaX:** current public dossier already owns mock moralizer ↔ self-implicating chaos, HamitteY reciprocal teasing, room literacy, and recurring `:aworryWeirdExit:`. Fresh miner suffix is corroboration, not a reason to append another receipt paragraph.
+- **Eos animal/pet-sharing:** still accepted MAIN biography material: responsive pet-photo supplier; tiny animal-behavior narrator; easy Anayss request/follow-through; mundane Marian pet-story lane. Await MAIN publication gate.
+- **Korea / su.myeon:** substantial A-strength Cast/profile candidate remains held until a settled public owner exists.
+- **DiStratus / Torr:** substantial A-strength profile candidate carried forward.
 - **BishopThaGuru:** substantial developing WIKI candidate carried forward.
 - **Alaina, TonyTonyChopper, Joy, Marsello, Kip:** developing/thin person-shaped banks remain carried forward.
 
 ## Holds / safety rails
 
+- ShiyaX's 02:14 miner material is support-source Wall evidence and is not relabeled as direct Daycare speech.
+- `IMG_3551.png` is POSTED BY ShiyaX only; pixels were not inspected, so no MADE BY / CAPTURED BY / FEATURING / cooked / bought claim is created.
+- `I AM THE CHAOS` stays joking social reputation, not literal misconduct or a governance role.
+- RH16 remains unresolved. Saber adjacency is explicitly rejected as an identity bridge; older Oolong/Jockie evidence remains source-local.
 - Marian's archived final caption on `eos.PNG` was edited after the immediate reactions. Do not claim Eos mechanically replied to the exact final wording. POSTED BY Marian only; pixels uninspected.
 - Korea's Apr. 23 attachment is POSTED BY Korea only; MADE BY / CAPTURED BY / FEATURING remain unresolved.
-- Korea ↔ Woohyuk is playful counterpunch familiarity, not literal rescue behavior or romance.
 - Dated age/profile states stay dated; no DOB/current-age inference.
 - Export-time role arrays do not create appointment chronology.
 - Similar names never bridge identities without stable evidence.
@@ -61,7 +63,7 @@ Reader-facing files changed: **0**. Eos's new animal/pet-sharing axis is strong 
 
 - Birthdays / PR / VC: `4faf5c62503273f43dd54b6a174371ac665aa598`.
 - Core Rooms / Events: `f4c427cda4e78c3e2a9c6e92b392bdffedb8baa1`.
-- Daycare: `f7b601a43e58339c00642a556385e65fd8beb3c2` (reviewed through `f805ed2f…`; publication-held).
+- Daycare: `f7b601a43e58339c00642a556385e65fd8beb3c2` (reviewed through `915ca4a1…`; older Eos MAIN publication hold).
 - Louvre / AI / Athenaeum / Other Games: `644a1d6b76267afe57f42b9a6ad761ccfe21437b`.
 - Mugen person-first: `5f4295f3798ce8bc9c4e5946345ba1ddb703d832`.
 - QOTD / Officers: `1f2e2318492e7cc4b8c6a1e75bedfd77c6cffc24`.
