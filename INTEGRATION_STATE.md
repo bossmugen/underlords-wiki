@@ -1,8 +1,36 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-06 — Run 547_
+_Last updated: 2026-09-06 — Run 549_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. This file records the WIKI side of the same reconciled evidence system; it does not maintain an independent canon.
+
+## Run 549 — Yumi helper brain + Zoshaa tiny-font contradiction
+
+The full branch census again resolves to **51 tracked identities = 30 active matching refs + 21 historical/missing refs**, with **0 newly discovered branches**. Three active refs advanced beyond the opening consumed frontiers: Louvre / AI Art / Athenaeum / Other Games (`9e93bae6... → ebabd4da...`), Wall (`77d268ef... → ffe66cee...`), and Core Rooms / Events. Core first advanced to `6077ead6...`, then moved again during the run and was chased checkpoint-first through stable reviewed head `d81e820d55d614c17b5309540c3c75415d74a1dc`. Both Club-Only recovery lanes remain saturated/current at `e45fb11c9239e236231bb65645dfd0285bc0078b` and `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`; no raw archive was reopened.
+
+Fresh Louvre material gives **Yumi / Yummibears** a cleaner practical-helper dimension. Yu asks for somebody to scour the internet for clothes/reference material. Yumi's first move is not a generic yes: `Ooo what kind of clothes? Same era??`. Once Yu clarifies that he wants generic real-world clothing, she answers `Letsgooo`. A separate Core Rooms handoff later has Yu say he had asked `yummibears` for help on another setup months earlier. Those are not treated as the same project. Together they support a bounded person read: when Yu needs another pair of eyes on a project, Yumi is somebody he thinks to ask, and Yumi's enthusiasm has a requirements-gathering brain attached.
+
+Because Yumi's existing WIKI biography was still visibly source-report-shaped, Run 549 did not bolt another receipt paragraph onto it. `src/data/character-biographies-yumi.ts` was rewritten as a person-first biography: support-with-elbows, curiosity without fake omniscience, project help that begins by clarifying the brief, public self-revision without a dignity crisis, and `Petty Crimes`. Her hard facts remain intact: Okinawan attorney, historical full Officer / Pit Boss, later retired from command; exact appointment/departure chronology is not invented.
+
+The late Core suffix materially deepened **Zoshaa / NintendoShitcube** rather than being left for the next cycle. Her tiny/superscript affectionate register (`uwu`, tiny-text reassurance) now sits against the already-public self-caricature `Screaming is what I do best😎😎😎`. WIKI therefore adds the structured contradiction **Tiny Font, Big Volume**, a Gilli relationship lane grounded in recurring cute-register familiarity, and scoped quotes. `child` remains joke-family language only; the September reassurance is a probable semantic response rather than a mechanical Discord Reply; no closeness rank is manufactured.
+
+Wall's fresh suffix was reviewed without forcing image content. Zoshaa's `bredy` / `Noodle with Wok` posts remain POSTED BY boundaries where pixels are uninspected. Rookie Cookie's `something i made )` supports **MADE BY Rookie Cookie only for that specific attached artifact**; its medium/content remain unresolved. No extra public paragraph was created from those objects.
+
+Nobu's fresh `I got it` → later `@Ryo Doro` sequence reinforces autonomy plus casual consultation and was deduped into the existing person read rather than appended. Ryo yielding a setup task to Kenzaki with `They are better at it lmao` reinforces flexible delegation and recognition of expertise; it is not incompetence, an appointment, or governance chronology. WOO's Pokecord near-miss remains open because the command hints do not close the strict `problem → help → readable result` chain.
+
+Final exact WIKI reader head: **`722c9846b5272a1b8790f088b06aa386a8c20c7d`**, containing the Yumi rewrite plus Zoshaa structured deepener.
+
+- Build workflow `34068025537` — **SUCCESS**; build job `101580141950` — **SUCCESS**.
+- Pages workflow `34068025536` — **SUCCESS**.
+- Pages build/artifact job `101580142114` — **SUCCESS**.
+- Deploy to GitHub Pages job `101580190723` — **SUCCESS**.
+- Pages report job `101580218558` — **SUCCESS**.
+
+The earlier Yumi-only intermediate reader commit `3902c14a1b15ca29092628ae3b00a03b021106a5` also passed Build + Pages, but `722c9846...` is the final reader publication head for this run. Later state/report commits are reader-neutral `[skip ci]` bookkeeping.
+
+MAIN reader source was intentionally unchanged. Yumi's richer MAIN biography fold and Zoshaa's richer contradiction fold remain inside reviewed publication debt because MAIN requires its controlled source-verification → Astro → built-output verification → production deployment sequence, and a fresh manual dispatch is not exposed through the connected GitHub surface. The WIKI wording is not copied into MAIN.
+
+At Run 549 close there are **0 unread active tails, 0 backlog, 0 overdue**. MAIN's controlling ledger advances Louvre to `ebabd4da644ed561e7cafe28ea23a11811885026`, Wall to `ffe66cee63108788eec3dc99763284b7e6615c1e`, and Core Rooms / Events to `d81e820d55d614c17b5309540c3c75415d74a1dc`.
 
 ## Run 547 — Booba deepener banked, Wall consumed
 
@@ -31,15 +59,16 @@ No consumption SHA changed. Current hard holds remain untouched, including the D
 ## Current controlling queue
 
 - **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**.
-- **0 newly discovered, 0 unread pending review, 0 backlog, 0 overdue** at the Run 547 close.
+- **0 newly discovered, 0 unread pending review, 0 backlog, 0 overdue** at the Run 549 close.
 - **10 reviewed MAIN publication-held families** remain publication debt only; WIKI does not reinterpret them as unread miner work.
 - QOTD / Officers — consumed through `c51cd1914f65cb8ae65b850b1d0da85ffccb94ed`.
 - Birthdays / PR / VC — consumed through `001b1322cab810a35cd8bf5e4990db3458e2bc94`.
 - Daycare — consumed through `1eacdc142b990ff283554da2176f5ac82eae45f5`.
 - Mugen person-first — consumed through `dbfc28e1f26ae50bf36b62667d151ff8fc166c0c`.
 - Whiskey — consumed through `3592be0e1550eb125bc8de1975aaaa1b44cdc8d9`.
-- Wall — consumed through `77d268ef94e29af146938e6eb1a13f0470c80545`.
-- Louvre / AI Art / Athenaeum / Other Games — consumed through `9e93bae6dc9dc0ad97e5b9a6c8d2da8015e56e54`.
+- Wall — consumed through `ffe66cee63108788eec3dc99763284b7e6615c1e`.
+- Louvre / AI Art / Athenaeum / Other Games — consumed through `ebabd4da644ed561e7cafe28ea23a11811885026`.
+- Core Rooms / Events — consumed through `d81e820d55d614c17b5309540c3c75415d74a1dc`.
 - Club-Only 2021–2026 remains current/saturated at `e45fb11c9239e236231bb65645dfd0285bc0078b`.
 - Club-Only 2020 remains current/saturated at `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`.
 
