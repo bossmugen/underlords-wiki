@@ -23,6 +23,21 @@ export const hamitteyNarrativeCharacterBios: Record<string, CharacterNarrative> 
         ]
       },
       {
+        title: "Short answers, sharp little verdicts",
+        paragraphs: [
+          "Ham's 2022 QOTD answers are compact enough to look harmless until one of them decides to grow teeth. Space or ocean? `Ocean.` Hated food? `Sinigang.` Favorite element? `Water` — followed, naturally, by `As a water saviour, I believe in you.` She can answer in one word and still somehow leave a tiny self-appointed mythology behind it. Years before the Kool-Aid ocean, water was already getting promoted into Hami jurisdiction.",
+          "Moon chooses enlightenment over money and Ham direct-replies with `u like being poor, noted.` The joke works because she takes a philosophical binary, strips out every noble implication, and returns it as a financial incident report. Nothing in the scene needs a grand Moon/Ham relationship label. The ease is already in the sentence: Moon supplies the earnest premise; Hami finds the driest possible earthly consequence.",
+          "The phone polls get the same treatment. During Apple versus Samsung, Hami asks `I wonder who voted for iPhone 🤔`; a later device poll has her on a Samsung A71. That is enough for 2022 Samsung-side teasing and absolutely not enough to turn a phone model into a lifelong personality trait. Petty Crimes has standards, unfortunately."
+        ]
+      },
+      {
+        title: "Staff work can be one useful little job",
+        paragraphs: [
+          "The historical Staff label matters most when it stops behaving like a résumé line. In November 2022, with voice-chat support being sorted out, Ham offers: `Um... ahdi can sit this one out.. I'll be the ss for vc 🙂`. Whatever exact shorthand the room was using, the lived behavior is simple: somebody needs a small support slot covered and Hami volunteers to take it while somebody else sits out.",
+          "That is a better Staff scene than inventing appointment chronology from exporter roles. Ham is not being turned into a Media Director, photographer, or permanent screenshot officer. She is doing the much more ordinary thing titles are supposed to enable: noticing a little job in front of the group and saying, basically, fine, I got this one."
+        ]
+      },
+      {
         title: "The name is community property with a rollback policy",
         paragraphs: [
           "A March 2024 QOTD asks about misconceptions and HamitteY admits people have thought Ham was a hamster. The room responds by treating the display name like a food counter. Ren asks for bacon and gets **Glazed Bacon**. MOON asks for pork chops and gets **Glazed PorkChop**. Caitlin asks for a five-star loaf and Ham becomes **Five-Star Loaf**, adding `Super size me goddam.` The joke works because Ham does not merely tolerate the substitutions; she performs each order back at the room.",
@@ -70,6 +85,8 @@ export const hamitteyNarrativeCharacterBios: Record<string, CharacterNarrative> 
         title: "Petty Crimes",
         paragraphs: [
           "Has used the same Peepo exit-door GIF often enough for it to qualify as an emergency evacuation protocol. Has informed the room that other people's profile pictures make her uneasy, then returned later to confirm that yes, still uneasy.",
+          "Hates sinigang, chose Ocean over space, chose Water as a favorite element, and then promoted herself into a `water saviour` strongly enough to start believing in somebody on water's behalf. This does not explain the later Kool-Aid ocean. It does make the escalation feel less surprising.",
+          "Side-eyed the iPhone vote during a 2022 Apple-versus-Samsung poll and later identified a Samsung A71 in a device poll. Dated phone-side allegiance; not a blood oath to Samsung Electronics.",
           "Has reduced an unfortunate food object to `itss a charcoal pancake` and separately argued that **cheese deserves to be pixels next**, with Swiss cheese explicitly included in the prosecution.",
           "Rejected a mug as an acceptable Kool-Aid solution because the actual objective was apparently **diving in the beverage**. When MOON later said `that's not how you make koolaid`, Ham answered **`Watch me`**.",
           "Can become Glazed Bacon, Glazed PorkChop, Five-Star Loaf, or Hamshanks without any of those temporary display jokes becoming a new person. The food-counter run even came with a one-day reset policy.",
@@ -79,7 +96,7 @@ export const hamitteyNarrativeCharacterBios: Record<string, CharacterNarrative> 
       }
     ],
     closing: [
-      "HamitteY's public file works because she never chooses between curator, defendant, and premise escalator. She keeps old nonsense because it is worth laughing at later, knows exactly which people can take a roast as shorthand, lets the room turn her own name into communal material, and when somebody brings physics into the fantasy she usually treats physics as a suggestion. Yet there is almost always some tiny piece of structure underneath the nonsense: a reset time, a refillable pen, a relayed hello, an emergency-exit GIF ready to go. The curator and the fugitive were already coworkers. QOTD reveals they also share an office with the woman trying to turn the ocean into punch."
+      "HamitteY's public file works because she never chooses between curator, defendant, dry little QOTD sniper, and premise escalator. She keeps old nonsense because it is worth laughing at later, knows exactly which people can take a roast as shorthand, lets the room turn her own name into communal material, and when somebody brings physics into the fantasy she usually treats physics as a suggestion. Yet there is almost always some tiny piece of structure underneath the nonsense: a reset time, a refillable pen, a relayed hello, a small Staff job quietly taken, an emergency-exit GIF ready to go. The curator and the fugitive were already coworkers. QOTD reveals they also share an office with the woman trying to turn the ocean into punch."
     ]
   }
 };
