@@ -67,11 +67,13 @@ Novelty check found that MAIN already owns this material in richer person-first 
 
 Nothien's new gameplay-helper / selective-formality material is appropriate for a richer MAIN biography fold too, but MAIN reader source was intentionally left unchanged because the full source-verification → Astro → built-output verification → production deployment gate was not run through a safe publishing path in this pass.
 
-WIKI therefore received the searchable person-first deepener now; MAIN keeps the complementary richer fold publication-held rather than mirroring WIKI prose. May required no new WIKI reader mutation because the late Louvre material was already substantially owned across the two surfaces.
+There is also a **hard-canon MAIN cleanup** attached to that same future fold: the current MAIN Nothien frontmatter correctly says `he/him`, while visible body copy still contains stale they/them references. That is a continuity defect, not uncertainty. WIKI's new Nothien page uses he/him; MAIN must correct the visible prose during the next safe production-gated edit rather than reproducing the stale copy.
+
+WIKI therefore received the searchable person-first deepener now; MAIN keeps the complementary richer fold and pronoun repair publication-held rather than mirroring WIKI prose. May required no new WIKI reader mutation because the late Louvre material was already substantially owned across the two surfaces.
 
 ## Boundary decisions
 
-- Nothien uses he/him; this is hard canon.
+- Nothien uses he/him; this is hard canon. Stale MAIN they/them body references are a known continuity error awaiting the safe MAIN production gate.
 - Healing dialogue is enacted help, not proof of a fixed healer class, profession, or permanent game role.
 - `Underlords(?)` / `Member(?)` does not prove a formal departure/rejoin chronology.
 - Ren's `NOTHIIIII` is strong contextual recognition, not a closeness hierarchy or proof of continuous contact.
