@@ -1,18 +1,19 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-06 — Run 524 final close_
+_Last updated: 2026-09-06 — Run 525 final close_
 
-MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Detailed reconciliation for this pass is in `INTEGRATION_REPORT_RUN_524.md`.
+MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Detailed reconciliation for this pass is in `INTEGRATION_REPORT_RUN_525.md`.
 
 ## Current queue
 
 - **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**.
-- **0 newly discovered** at this close.
+- **0 newly discovered** at close.
 - **0 unread active tails**.
 - **9 reviewed MAIN publication-held families** remain; these are publication debt, not unread miner work.
 - **0 backlog / 0 overdue**.
 - Club-Only 2021–2026 remains current/saturated at `e45fb11c9239e236231bb65645dfd0285bc0078b`.
 - Club-Only 2020 remains current/saturated at `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`.
+- Closing full-ref census found every active miner head unchanged from the opening census.
 
 ## Current consumed frontiers
 
@@ -21,74 +22,68 @@ MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH
 - Daycare: `80fefc7da7ac59a94f7fc8f2cf732d3a0f48910b`
 - Louvre / AI / Athenaeum / Other Games: `3563b0fa39d053dc54fb30f524d84710b91ce28e`
 - Mugen person-first: `6832fc9a023235db05a6f6e9b2cf396651cedc6d`
-- QOTD / Officers: `157963c3107dd07424931ad4257e632f77e75b97`
+- QOTD / Officers: `f52eaa65c5b3516635d8b388687582275c20312e`
 - Whiskey: `4e3384e7fde76af0390896065dad1d3040071165`
 - Wall: `98e3aeb337e6236608744a3597d62e375d4bb09a`
 
-Run 524 reviewed all four advanced families checkpoint-first through changed intake handoffs only. Mugen's branch briefly surfaced `a9128997…`, then rewrote/diverged back to the same safe baseline; the current `6832fc9a…` handoffs were re-read rather than treating the stale transient head as authoritative. Both Club-Only recovery lanes were rechecked without reopening raw archives.
+Run 525 reviewed the single advanced QOTD / Officers suffix checkpoint-first through changed intake handoffs only. Both Club-Only recovery lanes were rechecked without reopening raw archives.
 
 ## Reader result
 
 ### WIKI
 
-Run 524 has two reader-facing person-first deepeners.
+Run 525 deepens **Rose / DarkAsrai** with ordinary-life Petty Crimes rather than another event ledger.
 
-**Rooks / Rookie Cookie:** the same evidence-clerk who catches Wall material is also a reaction maximalist. Her older **`uwu i want more stickers`** appetite now pays off in a Pride Wall post where she and Lilly appear across all twenty distinct pout-family reaction keys; Rooks still drops **`:hmphpout:`** into normal chat afterward. Five days later Tae's accusation that everybody is lewd gets a reaction strip ending Y / E / S, with Rooks, Tae and Lilly across the set. The point is not “Rooks likes emoji”; she treats reactions like another conversational surface. With Lilly, the repeated visual matching reads as lived shorthand without inventing click order or hierarchy.
+Her established dream-kitchen/choux material now has a better contradiction beside it: Rose says cooking comes in phases because she is generally too lazy, then warns that she is a pain to cook with. The same packet gives the five-year $70 boots, Converse/New Balance fallback, first-hoverboard five-minute learning claim, anti-name-brand opinion, `Your inner peace`, `MLBB`, and Europe travel interest. The point is the person-shaped collision: serious kitchen specificity without constant industriousness, inner peace beside a sharper public register, and five-year shoe commitment beside very fast hoverboard confidence.
 
-**Mugen:** one 2023 Wall screenshot arrives with Mugs's casual **`posted w permits`**; Aeshleen later adds her own **`for the record...`** context. Folded into Mugen's existing preservation section, this sharpens the curator contradiction: the urge to keep the receipt can coexist with a boundary cue, and being filed does not make Mugs the only narrator of the moment. Hard rail: `posted w permits` is Mugen's statement, not independent verification of grantor/scope or a universal practice; Aeshleen's context is not a refusal or withdrawal.
+Reader-facing files:
 
-Reader-facing files changed through the final reader head:
-
-- `src/data/character-biographies-run524.ts`
+- `src/data/character-biographies-run525.ts`
 - `src/data/character-biographies-run515.ts`
 
-Rooks first landed at `8a1c80cc1fc510659f1424143dbd9103960fa1a8`; Mugen then produced the final exact reader publication commit **`3c2680a3808f5e523520f43e3f08598e3a2cf914`**, which contains both reader changes.
+Exact reader publication commit: **`7daf630d43d5e5a3c1a840b70fab3e8d69010499`**.
 
-Exact-head verification for `3c2680a3…`:
+Exact-head verification:
 
-- Build workflow `34042847364`: **SUCCESS**
-- Pages workflow `34042847404`: **SUCCESS**
-- Pages build/artifact job `101512590056`: **SUCCESS**
-- `Deploy to GitHub Pages` job `101512666120`: **SUCCESS**
-- Pages report job `101512696692`: **SUCCESS**
-- Live surface: `https://bossmugen.github.io/underlords-wiki/`
+- Build workflow **34044903485** — **SUCCESS**
+- Pages workflow **34044903500** — **SUCCESS**
+- Pages build/artifact job **101518167224** — **SUCCESS**
+- Deploy to GitHub Pages job **101518238346** — **SUCCESS**
+- Live surface remains `https://bossmugen.github.io/underlords-wiki/`
 
 ### MAIN
 
 Reader-facing files changed: **0**.
 
-The accepted Rooks and Mugen material belongs in MAIN's richer long-form biographies, but MAIN's complete source-verification → Astro → built-output → production-deployment gate was not safely dispatchable through the connected workflow in this pass. No MAIN reader source was committed and no fresh MAIN build/deploy claim is made. Those folds remain reviewed publication debt rather than unread archaeology.
+Rose's fresh material belongs in the richer MAIN biography together with the already accepted Run 507 selective-social, tastes, Nessa-contact and Mugen-noticing-her-absence material. It should be one synthesized person read, not copied WIKI prose. MAIN's complete source-verification → Astro → built-output → controlled production-deployment gate was not safely dispatchable through the connected repository actions, so no MAIN reader mutation and no fake deployment claim were made.
 
 ## Reviewed and banked future people
 
 ### Abie
 
-Whiskey `aea0279a… → 4e3384e7…` produced a strong future profile center for stable Abie account `122551416349786112`: minor daily facts become socially usable and then Abie commits hard when the room catches a bit; decisive taste coexists with comfortable indecision. No settled Abie public owner exists on MAIN or WIKI, so the packet is banked instead of inflated into a thin page.
-
-Hard rails: Abie is not bridged to `yuki1794` / Shk; privacy-sensitive dating remarks remain backstage; unreadable media does not establish object identity, location, creator, capturer, or subject.
+Whiskey still holds the strong future Abie profile center: minor daily facts become socially usable, then Abie commits hard when a room catches a bit; decisive taste coexists with comfortable indecision. No settled public owner yet. Hard rails remain: Abie is stable ID `122551416349786112`; do not bridge `yuki1794` / Shk; privacy-sensitive dating remarks stay backstage; unreadable media does not establish object identity/location/creator/subject.
 
 ### Teri / kinzokumissu
 
-QOTD `e17c7401… → 157963c3…` produced a strong future dossier: repeated human QOTD contribution, a delayed singing aspiration that becomes **`started singing (mstly as a hoby)`**, direct Moon friendship language (`my bestest bestie`; `moon has been by my side through it all`), and an SAO / Integral Factor fandom-bonding scene with Nemo that includes **`I found a bestie`** and later **`Shut it bot`**.
+The prior QOTD packet remains banked: repeated human QOTD contribution, singing as a hobby, direct Moon best-friend language, and an SAO / Integral Factor bonding scene with Nemo. No settled public owner yet. Do not infer formal QOTD staff/admin status, professional singer status, romance/therapy from Moon closeness, or a permanent Teri/Nemo friendship rank from one fast fandom scene.
 
-No settled Teri public owner exists on MAIN or WIKI, so the material is banked. Do not infer formal QOTD staff/admin status, professional singer status, romance/therapy from Moon closeness, or permanent Teri/Nemo friendship rank from one fast fandom scene.
+## Boundary decisions
 
-## Duplicate / boundary decisions
-
-- Wall q18 selected-parent self-hit and broad no-promote results were consumed as negative/corroboration rather than inflated into lore.
-- Reaction click order/timestamps are unavailable; no Rooks/Lilly leader/follower or copied-whom claim.
-- Reaction use does not establish emote authorship.
-- The Pride attachment pixels were not inspected. It remains **POSTED BY Pride** only; MADE BY / CAPTURED BY / FEATURING remain unresolved.
-- Mugen's `posted w permits` is a permission claim she made, not independent verification.
-- Aeshleen's later context is hers, not Mugen's, and is not treated as withdrawal.
+- Rose's `Studies say...` name-brand sentence remains her own claim/opinion, not a scientific fact asserted by the wiki.
+- First-hoverboard-day / five-minute learning is one self-report, not broad athleticism.
+- `Sasuke` stays a literal unresolved name; no identity bridge was invented.
+- Sensitive sexual QOTD material stays backstage.
+- Europe remains a travel wish, not proof of a visit.
+- Existing Run 507 Rose relationship/taste material remains MAIN-shaped and was not mirrored into WIKI prose.
 - Current hard identity/canon locks remain unchanged; stale miner-local uncertainty does not reopen resolved corrections.
+- SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct.
 
 ## Carried holds
 
-- Reviewed MAIN publication debt remains held for backroom-deals, Birthdays/PR/VC, Core Rooms/Events, Daycare, meems, Wall/Rooks, Mugen, Whiskey/Abie, and QOTD/Teri.
+- Reviewed MAIN publication debt remains held for backroom-deals, Birthdays/PR/VC, Core Rooms/Events, Daycare, meems, Wall/Rooks, Mugen, Whiskey/Abie, and QOTD/Rose plus the earlier Teri packet.
 - Exact Han Media Director appointment remains unresolved. Export-time/current role arrays remain non-dating.
 - Direct ShiyaX Louvre creative-body inspection remains tooling-blocked.
 - Current hard canon resolves Zyrcant = Akariel / Akariel™ / akariel_star; stale miner-local uncertainty does not reopen it.
 - Rich / DragonRich and Ricochet remain separate people.
 - Mr. Streamer controller identity remains unresolved; `Via Torr` is source credit only.
-- Pooled `Deleted User` stays pooled. Similar names do not bridge identities without stable evidence. Joke-family, mock-threat, and romance-coded language stay nonliteral without support. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct.
+- Pooled `Deleted User` stays pooled. Similar names do not bridge identities without stable evidence. Joke-family, mock-threat, and romance-coded language stay nonliteral without support.
