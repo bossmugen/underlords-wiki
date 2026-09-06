@@ -1,8 +1,8 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-05 — Run 485 final close_
+_Last updated: 2026-09-05 — Run 486 census-only close_
 
-MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Detailed per-run reconciliation lives in `INTEGRATION_REPORT_RUN_*.md`; Run 485 is `INTEGRATION_REPORT_RUN_485.md`. Earlier state detail remains preserved in Git history and the matching per-run reports rather than being duplicated indefinitely in this operational file.
+MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Detailed public reconciliation remains in `INTEGRATION_REPORT_RUN_*.md`; Run 485 is the latest substantive integration report. Earlier state detail remains preserved in Git history and matching per-run reports rather than being duplicated indefinitely in this operational file.
 
 ## Current queue
 
@@ -14,14 +14,20 @@ MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH
 - Club-Only recovery lane `archive-miner/club-only-2021-2026-hourly` is current/saturated at `e45fb11c9239e236231bb65645dfd0285bc0078b`.
 - Club-Only 2020 recovery lane `archive-miner-clubonly-2020-hourly` is current/saturated at `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`.
 
-## Run 485 reviewed frontiers
+## Run 486 census-only result
+
+No active miner branch advanced beyond the Run 485 consumed frontiers. The mandatory full branch census was persisted on MAIN; there was therefore no intake delta to review, no new public lore to reconcile, and no reader-facing change on either surface.
+
+No consumption cursor moved in Run 486 because every active branch was already reviewed through its current HEAD. The ten older MAIN publication-held families remain publication debt rather than unread miner work.
+
+## Current reviewed frontiers
 
 - Louvre: `1aa31ba46f57b4482d0eff8f6c095f4730e7ab36` — reviewed/consumed; Jas suffix meaning-deduped.
 - Mugen person-first: `0d5da7259e9074af227eae5b28cd7c441b11b455` — reviewed/consumed; public-equivalent synthesis only.
 - Wall: `8327c31120d9a7b231acc0e337b2240da24c032f` — reviewed/consumed after Daya WIKI publication verified.
-- QOTD / Officers: `52c663a41b0fd0f9b6b750a7caf2badcb65706df` — late mover reviewed/consumed; Lilly support packet already substantially public.
+- QOTD / Officers: `52c663a41b0fd0f9b6b750a7caf2badcb65706df` — reviewed/consumed; Lilly support packet already substantially public.
 
-## Current public result
+## Latest substantive public result — Run 485
 
 ### Daya — WIKI reader change
 
@@ -46,13 +52,13 @@ Verification for exact reader head `2dd7386f15864701b378bc3ecc2d2994a08e398f`:
 ## Surface split
 
 ### WIKI
-- Reader-facing change this run: **Daya only**.
-- Exact reader head `2dd7386f15864701b378bc3ecc2d2994a08e398f` built and deployed successfully.
-- Run report/state commits after that reader head are backstage only.
+- Reader-facing changes in Run 486: **0**.
+- No new Astro/Pages claim is made for the reader-neutral state-only close.
+- Latest verified reader head remains `2dd7386f15864701b378bc3ecc2d2994a08e398f` from Run 485.
 
 ### MAIN
-- Reader-facing changes this run: **0**.
-- MAIN already owns the richer Daya practical-life/investigation/Gilli narrative; no thinner mirror was created.
+- Reader-facing changes in Run 486: **0**.
+- The mandatory branch census is current in `archive-intake/INTEGRATOR_BRANCH_STATE.json`.
 - No fresh MAIN source-verification/Astro/built-output/Cloudflare claim is made because the reader tree did not change.
 - The ten older accepted MAIN publication-held families remain publication debt, not unread miner work.
 
@@ -64,4 +70,4 @@ Verification for exact reader head `2dd7386f15864701b378bc3ecc2d2994a08e398f`:
 - Earliest surviving receipt does not establish origin unless separately supported.
 - Resolved project identity corrections override quarry-local uncertainty; similar names alone never create a bridge.
 
-Previous detailed public integration: `INTEGRATION_REPORT_RUN_484.md` and earlier `INTEGRATION_REPORT_RUN_*.md` files.
+Previous detailed public integration: `INTEGRATION_REPORT_RUN_485.md` and earlier `INTEGRATION_REPORT_RUN_*.md` files.
