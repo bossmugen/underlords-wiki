@@ -65,9 +65,9 @@ for (const character of supplementalCharacters) {
   if (!allCharacters.some((existing) => existing.id === character.id)) allCharacters.push(character);
 }
 
-// Run 545 — Zoshaa's existing long-form biography already owns the maker / Orb / Zorb story.
-// Keep this WIKI-side addition structured: the fresh Louvre/Wall packet adds a collector/exhibit
-// contradiction and an Anayss reputation lane without duplicating that narrative prose.
+// Zoshaa's long-form biography owns the maker / Orb / Zorb story. Keep later
+// intake structured here: receipt-collector behavior, relationship texture, and
+// the gloriously specific tiny-font / big-volume contradiction.
 const zoshaaIndex = allCharacters.findIndex((character) => character.id === "zoshaa");
 if (zoshaaIndex >= 0) {
   const zoshaa = allCharacters[zoshaaIndex];
@@ -75,18 +75,29 @@ if (zoshaaIndex >= 0) {
   if (!relationships.some((relationship) => relationship.name === "Anayss")) {
     relationships.push({
       name: "Anayss",
-      note: "Anayss can invoke Zoshaa's established screaming reputation as shared-known material; Zoshaa immediately signs the characterization herself with `Screaming is what I do best😎😎😎`. Easy teasing, not a closeness rank.",
+      note: "Anayss can invoke Zoshaa's screaming reputation as shared-known material; Zoshaa immediately signs the characterization herself with `Screaming is what I do best😎😎😎`. Easy teasing, not a closeness rank.",
       href: "/characters/anayss",
+    });
+  }
+  if (!relationships.some((relationship) => relationship.name === "Gilli")) {
+    relationships.push({
+      name: "Gilli",
+      note: "Gilli and Zoshaa repeatedly meet each other inside the same cute, exaggerated register: birthday `uwu`, joke-family `C H I L D UWU`, summons answered as `H U H` / `W H A T`, and a probable `do you hate me??` → tiny-text reassurance beat. Familiar teasing, not literal family or a closeness ranking.",
+      href: "/characters/gilli",
     });
   }
 
   const collectorQuote = "Scrolling through photos out of boredom, found a bunch of old ss lmao";
+  const screamingQuote = "Screaming is what I do best😎😎😎";
+  const tinyReassuranceQuote = "ⁱ ᵈᵒⁿᵗ ʰᵃᵗᵉ ʸᵒᵘ ᵘʷ ᵘ";
   const quotes = [...(zoshaa.quotes ?? [])];
   if (!quotes.includes(collectorQuote)) quotes.push(collectorQuote);
+  if (!quotes.includes(screamingQuote)) quotes.push(screamingQuote);
+  if (!quotes.includes(tinyReassuranceQuote)) quotes.push(tinyReassuranceQuote);
 
   allCharacters[zoshaaIndex] = {
     ...zoshaa,
-    tags: [...new Set([...(zoshaa.tags ?? []), "Wall", "Receipt collector"])],
+    tags: [...new Set([...(zoshaa.tags ?? []), "Wall", "Receipt collector", "Tiny Font, Big Volume", "Petty Crimes"])],
     relationships,
     quotes,
   };
