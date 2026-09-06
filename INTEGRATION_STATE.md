@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-06 — Run 533 close_
+_Last updated: 2026-09-06 — Run 534 close_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`.
 
@@ -8,89 +8,69 @@ MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH
 
 - **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**.
 - **0 newly discovered**.
-- **0 unread active miner tails at Run 533 close**.
-- **0 backlog / 0 overdue**.
+- Opening census found Wall advanced; the reviewed Run 534 frontier is now **`e661082b470ae7577166107f8221f4245f6c40db`**.
+- **0 backlog / 0 overdue** at this reviewed frontier.
 - Club-Only 2021–2026 remains current/saturated at `e45fb11c9239e236231bb65645dfd0285bc0078b`.
 - Club-Only 2020 remains current/saturated at `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`.
+- Older reviewed MAIN publication-held families remain publication debt only; WIKI does not reinterpret them as unread miner work.
 
-Run 531 remains the latest material review and closed these frontiers:
+## Run 534 reader publication — SaraBunny
 
-- Core Rooms / Events through `c7ed4b5542a28e2153f95749eae0c1d4cec94981`.
-- Louvre / AI / Athenaeum / Other Games through `bc221de9b9fd3e1088f34af9e92bab76afac8091`.
-- Whiskey through `464956ed6ed750d896458a1fef08058e69dc593b`.
-- Wall through `8b68e6263d318910680ee84c23c38d974181cabf`.
+SaraBunny / `foxcat` now has a settled WIKI Archive / Extended Cast owner.
 
-Run 533's opening and closing remote census found all 30 active miner heads stable at their controlling `last_seen_sha` / `last_consumed_sha` frontiers. No miner delta advanced, no consumption frontier moved, and no raw archive was reopened.
+The public dossier folds the new reaction layer into the already-established person instead of making another Wall incident appendix:
 
-## Run 533 no-delta reconciliation
+- `so much moo` / `Mooo :Cat_Sporkle:` now sit beside Sara's sole final-state `Raja_Heart` membership on Mugen's cow-tagged Tenor metadata post;
+- Gilli's `HAPPY NEW YEAR LOVELIES!! @Staff` has Sara in three final reaction-user rows (`Raja_Heart`, `Raja_cat_kiss`, `WheePan`);
+- Sara then authors `HAPPY NEW YEAR!` and 5.618 seconds later posts the exporter-named `happy` sticker;
+- the cumulative person read is **low-prose, high-signal social participation**: tiny noises, hearts, reactions, stickers, practical notices, and then a 2026 return that opens with `What's up underlords family` rather than a formal reintroduction;
+- Mugen and Gilli relationship notes remain lived but bounded; no closeness hierarchy was invented.
 
-Reader-facing WIKI files changed: **0**.
+Reader files:
+- `src/data/character-biographies-run530.ts`
+- `src/data/cast.ts`
 
-No new character, relationship, episode, running-gag, quote, location, or gallery material arrived from miner branches. No Astro/Pages reader build or deployment is claimed for this run because no reader source changed. Run 531's Jonith publication remains the latest reader-facing WIKI change.
-
-The ten reviewed MAIN publication-held branch families remain publication debt only; WIKI does not reinterpret them as unread.
-
-## Run 531 reader publication — Jonith
-
-Jonith / D.I. / Raven remains one hard-resolved person. Core + Louvre were reconciled into one evidence family rather than two incident appendices.
-
-The existing Jonith dossier now carries a stronger contradiction: **specific and confident on known terrain / openly novice off-terrain**. The fold adds:
-
-- recommendation behavior that asks what LilsatanSir actually reads, then changes the hook after `Not a dc fan 😂` rather than arguing the boundary;
-- willingness to accept the Maestro counterpoint with `Oooooo good point`;
-- public novice language during Demon Slayer/Tanjiro talk (`AAAAAND this is where I become a clueless dork...`; `Cause I have no idea what yall are talking bout`) without withdrawing from the room;
-- the Lobby self-correction after Mugen says `THIS IS THE LOBBY` and Jonith replies `Sorry, wrong chat...leaving`;
-- the easy Gilli teasing lane where her onboarding direction gets `Dont listen to her...RUN` and she returns a punch-text;
-- Petty Crimes for premature Ultimate Alliance elder-gamer indictment and the wrong-room evacuation.
-
-Reader file: `src/data/character-biographies-run530.ts`.
-
-Exact reader commit: **`23b178cbc74c04b201b36a7ffc7ac64dcdb4eb39`**.
+Exact reader commit: **`5e7eb9069f547565ec093f49059509c38dea102a`**.
 
 Verification / deployment:
+- Build workflow **34051529929** — build job **101535911780 SUCCESS**, including Astro build.
+- Pages workflow **34051529705** — build/artifact job **101535911253 SUCCESS**.
+- Deploy to GitHub Pages job **101535978536 SUCCESS**.
+- Pages report job **101536008339 SUCCESS**.
 
-- Build workflow **34049179774** — build job **101529579337 SUCCESS**, including Astro build.
-- Pages workflow **34049179801** — build/artifact job **101529579611 SUCCESS**.
-- Deploy to GitHub Pages job **101529642264 SUCCESS**.
-- Live surface remains `https://bossmugen.github.io/underlords-wiki/`.
+## Run 534 reviewed without public promotion
 
-## Reviewed without another reader paragraph
+### 愛Nuα / `ainua2675`
 
-### Alkey
+Wall's later live suffix produced a real but deliberately tiny profile seed: the account's only surviving authored Wall line is `Tanaka` + `Raja_Heart`, 27.268 seconds after a Mugen Tenor post, with final-state `Raja_dino_heart` co-signs from Mugen and Rummy.
 
-Whiskey's latest packet is duplicate/corroboration against the already-mature Alkey owner. The public dossier already carries the heckling-surface / attentive-check-in contradiction, LEXI affection-with-teeth, Anthos chosen-audience / sleep-check behavior, and hockey identity. The Jan. 31 Lobby sequence remains a confirmed Discord onboarding threshold only; it is not an in-game origin or appointment date.
+The response-to-embed reading is probable. `Tanaka` remains unresolved and the Tenor pixels were not inspected. This is worth retaining as future Petty Crimes/profile texture but still too one-axis for a public person page. No identity bridge to Nuien is permitted.
 
-### Ten
-
-Wall's Ten + Ren `W/O/O/D` reaction-stack finding is already owned publicly as Ten's archived-defendant ↔ reaction-gallery-accomplice contradiction. No click-order / initiator / copier claim is available and none was added.
-
-### Abie
-
-Wall materially strengthens the banked Whiskey candidate: Mugen selectively summons Abie into Wall material, Abie can participate through a laugh reaction or compact shame→fame reframing, and the exchange is socially comfortable without requiring much prose. Still banked until the Whiskey + Wall person read can be published as one real profile instead of a Wall-only shell.
+LEXI's isolated `I-` q18 branch closed negative without a safe trigger. Broad re-samples of Miku, Nekoz, Xephy, Rose, 影の戦士, gammaramma, and LEXI produced no new independent person axis.
 
 ## Surface split / MAIN debt
 
-WIKI received Jonith because a settled Cast owner already existed. MAIN does not yet have a settled Jonith biography owner. A richer person-first Jonith page is now legitimate MAIN publication debt, but this WIKI prose must not be mirrored into it.
+MAIN already has the richer SaraBunny biography. Run 534's reaction/sticker layer genuinely deepens that person-first owner, but MAIN reader source was intentionally left unchanged because the full source-verification → Astro → built-output verification → production deployment gate was not run safely through the connected tooling in this pass.
 
-MAIN's older accepted publication-held work also remains controlled by the shared branch ledger. WIKI does not reinterpret those held branches as unread.
+WIKI therefore received the structured searchable dossier now; MAIN keeps a publication-held richer fold rather than mirrored WIKI prose.
 
 ## Boundary decisions
 
-- Jonith's current public page is a person/taste/play profile, not a creator-credit page. Louvre media with unresolved authorship remains POSTED/attached context only until inspected or explicitly credited.
-- LilsatanSir's Hulk / power-scaling talk is fandom cognition, not a professional expertise credential.
-- Jonith ↔ LilsatanSir is a bounded reciprocal fandom lane, not a closeness rank.
-- Gilli's `w/punch` text is teasing text, not literal physical contact or a confirmed bot-result outcome.
-- Alkey is not Key. Export-time role arrays do not date appointments.
-- Ten ↔ Ren reaction order remains unresolved.
-- Current hard canon resolves **Zyrcant = Akariel / Akariel™ / akariel_star**. Stale miner-local uncertainty does not reopen that identity.
+- Sara reaction rows preserve final exported membership, not click order or click timestamps.
+- Tenor slug metadata is not visual inspection.
+- Sara's Wall silence is not proof of absence from UL or the server.
+- The `happy` sticker is not visually described beyond exporter metadata.
+- 愛Nuα / `ainua2675` is not Nuien. Similar names do not bridge identity.
+- `Tanaka` remains unresolved.
 - SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct.
+- Current hard canon resolves **Zyrcant = Akariel / Akariel™ / akariel_star**; stale miner-local uncertainty cannot reopen it.
 
 ## Carried holds
 
-- Abie is increasingly profile-ready across Whiskey + Wall but has no settled public owner yet.
+- Abie remains increasingly profile-ready across Whiskey + Wall but should be published as one real person rather than a Wall-only shell.
 - Marsy remains a narrow but coherent near-silent Wall appreciator / preselected joke-gallery audience; no forced page yet.
 - Teri / kinzokumissu remains banked with human QOTD contribution, singing-as-hobby, direct Moon best-friend language, and an SAO bonding scene; no formal QOTD staff/professional singer inflation.
-- Direct Jonith creative-media classification remains open; two media-bearing posts do not equal two Jonith artworks.
+- Direct Jonith creative-media classification remains open; media-bearing posts do not equal authored artworks.
 - Exact Han Media Director appointment remains unresolved. Export-time/current role arrays remain non-dating.
 - Direct ShiyaX Louvre creative-body inspection remains tooling-blocked.
 - Rich / DragonRich and Ricochet remain separate people.
