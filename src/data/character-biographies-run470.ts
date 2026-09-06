@@ -4,6 +4,7 @@ import { miaNarrativeCharacterBios } from "./character-biographies-mia";
 import { snowNarrativeCharacterBios } from "./character-biographies-snow";
 import { zoshaaNarrativeCharacterBios } from "./character-biographies-zoshaa";
 import { ricochetNarrativeCharacterBios } from "./character-biographies-ricochet";
+export { aeshleenNarrativeCharacterBios } from "./character-biographies-aeshleen";
 
 const anayss = narrativeCharacterBios.anayss;
 const mia = miaNarrativeCharacterBios.mia;
