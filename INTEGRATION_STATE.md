@@ -1,127 +1,105 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-06 — Run 544 census-only pass_
+_Last updated: 2026-09-06 — Run 545_
 
-MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`.
+MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. This file records the WIKI side of the same reconciled evidence system; it does not maintain an independent canon.
 
 ## Current controlling queue
 
 - **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**.
-- **0 newly discovered, 0 unread pending review, 0 backlog, 0 overdue** at the Run 544 full-census recheck.
+- **0 newly discovered, 0 unread pending review, 0 backlog, 0 overdue** at the Run 545 closing full-ref recheck.
 - **10 reviewed MAIN publication-held families** remain publication debt only; WIKI does not reinterpret them as unread miner work.
-- QOTD / Officers is consumed through `c51cd1914f65cb8ae65b850b1d0da85ffccb94ed`.
-- Birthdays / PR / VC is consumed through `f4845795021c0419914c182c5d4ff22ef682f382`.
-- Daycare is consumed through `1eacdc142b990ff283554da2176f5ac82eae45f5`.
-- Mugen person-first is consumed through `4aeea03f71d0ea25bf95e15c42ad1d47867d6fc0`.
-- Whiskey is consumed through `3592be0e1550eb125bc8de1975aaaa1b44cdc8d9`.
-- Wall is consumed through `e69e97219c5a7f18c3cd37b8eb5472403f3c5734`.
-- Louvre / AI Art / Athenaeum / Other Games is consumed through `bc608b63a296342e17f482ac8a417ea8e2410b9e`.
+- QOTD / Officers — consumed through `c51cd1914f65cb8ae65b850b1d0da85ffccb94ed`.
+- Birthdays / PR / VC — consumed through `001b1322cab810a35cd8bf5e4990db3458e2bc94`.
+- Daycare — consumed through `1eacdc142b990ff283554da2176f5ac82eae45f5`.
+- Mugen person-first — consumed through `dbfc28e1f26ae50bf36b62667d151ff8fc166c0c`.
+- Whiskey — consumed through `3592be0e1550eb125bc8de1975aaaa1b44cdc8d9`.
+- Wall — consumed through `ae347502504dc1ed95ddbda8df3c12d5faf81f40`.
+- Louvre / AI Art / Athenaeum / Other Games — consumed through `9e93bae6dc9dc0ad97e5b9a6c8d2da8015e56e54`.
 - Club-Only 2021–2026 remains current/saturated at `e45fb11c9239e236231bb65645dfd0285bc0078b`.
 - Club-Only 2020 remains current/saturated at `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`.
 
-## Run 544 census-only pass
+## Run 545 public convergence
 
-Full report: `INTEGRATION_REPORT_RUN_544.md`.
+Full report: `INTEGRATION_REPORT_RUN_545.md`.
 
-The mandatory branch census was refreshed on MAIN before any possible deep review. Fresh enumeration found all 30 active miner refs unchanged from their consumed frontiers, so there was no eligible intake delta to inspect. No raw archive was reopened, no recovery lane was churned, and no public page was changed simply to manufacture hourly movement.
+Four active miner tails advanced after the prior clean census and were reviewed checkpoint-first from changed intake handoffs only. No raw archive was reopened.
 
-Reader-facing WIKI files changed: **0**. Reader-facing MAIN files changed: **0**. No new build or deployment was initiated for reader-neutral report/state bookkeeping. The latest verified WIKI reader remains the Run 543 Anthos publication at `133aad7f873020fac303ec1d7d81097e14f35840`; MAIN's already-reviewed publication debt remains held behind its controlled production gate.
+### Zoshaa — active receipt collector ↔ willing receipt herself
 
-## Run 543 public convergence
+Fresh Louvre material adds a new structured axis without replacing Zoshaa's existing long-form maker / Orb / Zorb biography. On 2020-10-30 she says `Scrolling through photos out of boredom, found a bunch of old ss lmao` and releases twelve old JPG screenshots into Wall. Camera-roll boredom is apparently a valid trigger for a mass archival dump.
 
-Full report: `INTEGRATION_REPORT_RUN_543.md`.
+That matters because Zoshaa is already somebody UL turns into collectible reputation: child, Orb, screaming specialist, Zorb resident, target and participant. The fresh scene puts her on the other side of the evidence desk. She does not only get remembered; she actively redistributes dumb old moments herself.
 
-### Rich — Funcle apparently moonlights as the fake chaperone
+WIKI routing is deliberately structured rather than prose-mirrored: `src/data/cast.ts` now gives Zoshaa a `Receipt collector` / Wall dossier signal, adds the camera-roll line to her quotes, and adds an Anayss relationship lane grounded in easy reputation co-creation. Anayss invokes Zoshaa as tactical screaming cover; Zoshaa answers `Screaming is what I do best😎😎😎`. That is shared-known teasing, not a friendship rank.
 
-Fresh Daycare material adds a recurring behavior to the already-public Funcle contradiction. Ren's `Hwhore (affectionate)` gets Rich's `Watch your language young lady:R_stare:`; months later he tags Rummy with `no cursing young lady`.
+Attribution stays object-level: the twelve screenshots are **POSTED BY Zoshaa** only until inspected; `-Gilli` inside a Zoshaa-posted text artifact is internal attribution rather than recovered original SAID BY proof; 53 media-bearing posts do not become 53 Zoshaa artworks.
 
-This is not prudishness, governance, or a childcare role. It is the same raunchy adult who remembers minors can see the page briefly performing fake decorum after the room is already on fire. The relationship texture matters too: Ren and Rummy are comfortable enough to be mock-scolded in that faux-parent voice without anybody treating it as authority.
+### porgo! — concurrent reader change reconciled
 
-The WIKI fold landed inside Rich's existing **Funcle Rich remembers who can see the page** section rather than as a new incident ledger.
+A concurrent reader commit (`18a8109a0195312e443ae443c71ac2dd25b90174`) added porgo! to Archive Cast while this run was reviewing the same Wall tail. The card matches the accepted person read: porgo voluntarily files themself, reacts as though the evidence may physically kill them, turns Feli's `Toe jam` into `cuisine`, answers Daya's `what flavor?` with `peach :Cat_Drool:`, and later gets Daya's `let it out!!` after announcing `im gona vomit`.
 
-Exact reader head: **`4baef10eb14b3430d49556678d1b1d139b35426e`**.
+The public meaning is self-prosecution ↔ embarrassment, with Daya repeatedly meeting the bit in playful-support mode. Run 545 preserved the concurrent work instead of duplicating it and verified it inside the final exact reader build/deployment.
 
-Verification / deployment:
-- Build workflow `34061531310` — **SUCCESS**.
-- Build job `101562804186` — **SUCCESS**.
-- Pages workflow `34061531351` — **SUCCESS**.
-- Pages build/artifact job `101562804333` — **SUCCESS**.
-- Deploy to GitHub Pages job `101562867606` — **SUCCESS**.
-- Pages report job `101562901727` — **SUCCESS**.
+### Queen Shimoko — consumed and banked
 
-### Anthos — the schedule keeper is also already in the front row
+Queen's Wall footprint is tiny but socially legible: Mugen introduces the first surviving appearance with `My koi ... finally made it to the wall`; Queen answers `:Hehe:`. Two days later she joins `crabs on the menu tonight` with `Crab booty omgsh:Laugh:`. Under Korea's threatened pineapple screenshot, Ren says `I REMEMBER THAT` and Queen answers the same parent with two spit emotes.
 
-A late Louvre branch movement supplied a genuine A-/B+ person deepener after Rich's exact reader head had already finished verification/deployment. Rooks announces printmaking class; Anthos asks `do we get to see some of your amazing creations??`; Rooks later quotes the question and promises to post what the class makes in Louvre; Anthos celebrates.
+Current safe read: near-silent punchline reactor / socially pre-familiar Wall defendant who meets exposure with amusement and joins callbacks quickly. `koi` remains participant wording, not literal romance/family. Three authored lines in one narrow room are not enough reason to force a thin public dossier, so Queen is consumed-and-banked pending another person dimension.
 
-The useful mechanism is **audience-building before the object exists**. `we` makes the anticipated audience communal, while `amazing` arrives before there is anything to judge. This deepens Anthos's existing maintenance/house-literacy arc into a better contradiction: **backstage schedule keeper ↔ front-row fan**. She can make both the submission path usable and the maker feel like somebody is waiting on the other side.
+### Mugen / Birthdays — reviewed without paragraph mitosis
 
-The follow-up publication folds this into Anthos's September 2020 relationship texture, connects it to her later Photo Submissions maintenance instead of making a separate Episode, adds Rooks as a lived maker/audience relationship lane, and gives the scene a Petty Crimes charge: Anthos is apparently capable of pre-ordering your printmaking output before class has produced anything. Rooks's creative practice predates the question; no mentorship/origin story is invented. Anthos's 21 media-bearing assigned posts remain posting counts, not 21 artworks, and the later `n-nom` adjacency is still unresolved.
+The fresh Mugen reboot-cycle packet is already fully public. Current MAIN and WIKI Mugen biographies already synthesize Gilli's `probably asleep right now`, Mugen's after-work-floor / nap material, and Daya's `quick outburst, then she goes for a nap` / `SCREAM then *silence* THEN SCREM AGAIN`. The new handoff is corroboration, not a reason to grow the same trait twice.
 
-Exact Anthos reader head: **`133aad7f873020fac303ec1d7d81097e14f35840`**.
+Birthdays / PR / VC cleared no fresh novelty. Sakura's compressed IGN/club line stays unresolved rather than being syntactically forced into a mapping; Jas's assigned-source pass remains negative; Oyasumi/TankHead94 exact in-game admission remains open.
 
-Verification / deployment:
-- Build workflow `34062118885` — **SUCCESS**.
-- Build job `101564369568` — **SUCCESS**.
-- Pages workflow `34062118871` — **SUCCESS**.
-- Pages build/artifact job `101564369623` — **SUCCESS**.
-- Deploy to GitHub Pages job `101564433260` — **SUCCESS**.
-- Pages report job `101564462163` — **SUCCESS**.
+## Run 545 verification / deployment
 
-### Wall — good material, already metabolized
+Exact WIKI reader head: **`c21cdcfa62dbed9fe1f98a122027840823a5ebe8`**.
 
-Zhēnxī's June/July 2022 Wall material reinforces an already-public relationship contradiction: loud embarrassment does not equal interpersonal defensiveness. Rummy can prosecute the scene and then true-reply `I love YoU`; Zhēnxī answers `I love you too`. Existing MAIN and WIKI owners already carry the friendship-affection + defendant-becomes-filer synthesis, so no duplicate paragraph was added.
+This reader head includes both the concurrent porgo Archive Cast addition and the Zoshaa structured deepener.
 
-Nobu's high-volume screenshot behavior and `I legit thought that said children. Which is why I posted it.` sharpen the already-public self-indicting evidence-courier pattern. WIKI already owns that exact mechanism; MAIN already owns the broader no-prosecutor-immunity contradiction. Uninspected screenshots remain POSTED BY only.
+- Build workflow `34064443369` — **SUCCESS**.
+- Pages workflow `34064443463` — **SUCCESS**.
+- Pages build/artifact job `101570625638` — **SUCCESS**.
+- Deploy to GitHub Pages job `101570697236` — **SUCCESS**.
+- Pages report job `101570729092` — **SUCCESS**.
 
-### Birthdays / PR / VC — negative work still counts as reviewed
-
-The Eos transition rabbit was narrowed without inventing chronology. Known Dec-2020 Underlords and Jan-2021 Deviations self-reports remain endpoints; a broader reason/mechanics pass found no direct Eos-authored explanation, Staff/HQ decision record, game-side admission/removal receipt, or audit/admin mechanics. Generic transition-language searching now rotates.
-
-Nhou's Birthday-oriented pass still could not surface the assigned Birthday transcript or a direct assigned-source person scene. Support-room birthday hits were not laundered into Birthday-channel evidence. The assigned PR WOO author bridge remains unresolved.
-
-### ToniTan — keep the seed, do not grow a cardboard person
-
-Daycare gives ToniTan / `toniamocha` a warm 2020 onboarding seed with Ansun/Sota and low-bandwidth reciprocal heart-react participation. That is useful future texture, not enough for a standalone biography. Consumed and banked.
+Later report/state commits are reader-neutral `[skip ci]` bookkeeping and do not replace the verified reader head.
 
 ## MAIN vs WIKI routing
 
-WIKI reader changes are made when an existing searchable dossier can absorb the material without becoming an archive report. MAIN receives the richer person/legend/story-first fold only when its production gate can be run safely.
+WIKI gets structured Cast dossiers, relationships, running gags, quotes, locations and searchable reference texture. MAIN gets the richer person/legend/story-first fold when its full production gate can be run safely. The same evidence does not need identical prose on both surfaces.
 
-Run 543 published Rich's fresh mechanism to WIKI, and the publication follow-up shipped Anthos's audience-builder contradiction to WIKI at `133aad7f873020fac303ec1d7d81097e14f35840`. MAIN Rich already has the broader Funcle arc but not the recurring mock-chaperone detail; MAIN Anthos has the right long-form owner but not the new backstage-schedule-keeper/front-row-fan fold. Both richer MAIN changes remain publication debt. MAIN's production workflow is deliberately decoupled from pushes and requires an intentional `workflow_dispatch`; the connected GitHub surface available here can inspect/re-run workflows but cannot initiate a fresh manual dispatch, so no MAIN reader source was mutated without a runnable production gate.
+Run 545 therefore publishes Zoshaa's fresh mechanism to WIKI now, keeps Queen banked, and leaves the richer Zoshaa MAIN biography fold inside reviewed publication debt. MAIN's production workflow is intentionally decoupled from ordinary pushes and requires a controlled dispatch. The connected GitHub surface available in this run can inspect/re-run workflows but does not expose a fresh manual dispatch for that production gate, so MAIN reader source was not mutated without a runnable release path.
 
-## Boundary decisions / carried holds
+## Current boundary decisions / carried holds
 
+- Current hard canon resolves **Zyrcant = Akariel / Akariel™ / akariel_star**. Stale miner-local uncertainty cannot reopen it.
 - DyingFox stable-ID conflict remains unresolved: fresh QOTD `629467952100982784` vs canonical/current `471370475050762251 / dyingfox`.
 - Eos exact UL→Deviations reason/mechanics remains open; generic transition-word searching rotates.
 - Nhou direct assigned Birthday source remains blocked; support-room birthday hits are not promoted.
 - Assigned PR WOO direct author bridge remains unresolved.
-- Anthos direct creative body remains retrieval-constrained; 21 media-bearing posts do not equal 21 artworks.
-- Anthos `n-nom` 0.197s after Rooks's `critique me` remains adjacency, not a proven critique reply.
-- Rich's `young lady` mock-scolding is social comedy, not governance or literal family authority.
-- ToniTan remains a thin but coherent person seed, not a quota biography.
-- Zhēnxī/Rummy reciprocal `I love you` remains friendship-affection in context, not romance.
-- Wall screenshots remain POSTED BY their posters unless separate MADE BY / CAPTURED BY / FEATURING evidence exists.
-- HamitteY's 2022/2023 edible-name history is earlier continuity, not proof the 2024 counter consciously called it back.
-- HamitteY's casual `adhd brain too loud` self-description is not independently upgraded into a medical diagnosis.
-- Anayss/Gilli/Gabu warmth is reciprocal friendship/social recognition; no formal rank or romance inference.
+- Sakura's compressed IGN/club syntax remains unpaired.
+- Jas exact admission / `Absent father` origin remains open.
+- Oyasumi/TankHead94 formal Discord onboarding is solved; exact in-game admission remains open.
+- Queen Shimoko remains a banked person seed, not a quota biography.
+- Zoshaa direct media classification remains object-level; posting counts are not authored-artwork counts.
+- Ten Wall retrieval remains blocked where the miner explicitly marks it blocked.
+- Nothien uses he/him; stale MAIN they/them body references remain a known continuity error awaiting a safe MAIN production-gated repair.
+- Exact Han Media Director appointment remains unresolved; export-time/current role arrays do not date appointments.
 - Woosung remains consumed-and-banked; no forced thin Cast shell.
-- ничего / novikroeva remains consumed-and-banked; `I LOVE U` is friendship-affection in context and `I WISH I WAS TALL` supplies no numeric height.
-- Wall q18 remains retrieval-blocked/open where explicitly noted by the miner.
-- Skully666 and Grimlee remain banked developing people from Run 538.
+- ничего / novikroeva remains consumed-and-banked; friendship-affection stays friendship-affection and `I WISH I WAS TALL` supplies no numeric height.
+- Skully666 and Grimlee remain developing people rather than thin public shells.
+- Abie remains increasingly profile-ready across Whiskey + Wall but should become one real person rather than a receipt shell.
+- Teri / kinzokumissu remains banked; direct Moon best-friend language is friendship, not formal rank or romance.
+- DiStratus / Torr remains a coherent future person seed; pronouns remain unresolved.
 - Yozora account-access specifics remain privacy/security-sensitive and are not public/site-routed.
 - Jαkie intake-age data remains private and is not surfaced.
-- Abie remains increasingly profile-ready across Whiskey + Wall but should become one real person rather than a receipt shell.
-- Marsy remains a narrow but coherent near-silent Wall appreciator / preselected joke-gallery audience; no forced page yet.
-- Teri / kinzokumissu remains banked with QOTD contribution, singing-as-hobby, direct Moon best-friend language, and an SAO bonding scene; no formal-staff/professional-singer inflation.
-- DiStratus / Torr remains a coherent future person seed; pronouns remain unresolved.
-- Nothien uses he/him; stale MAIN they/them body references are a known continuity error awaiting a safe MAIN production-gated repair.
-- Direct Jonith creative-media classification remains open; media-bearing posts do not equal authored artworks.
-- Exact Han Media Director appointment remains unresolved; export-time/current role arrays do not date appointments.
-- Current hard canon resolves **Zyrcant = Akariel / Akariel™ / akariel_star**; stale miner-local uncertainty cannot reopen it.
 - Pooled `Deleted User` stays pooled. Similar names do not bridge identities without stable evidence.
 - Joke-family, mock-threat, and romance-coded language stay nonliteral without support.
 - SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct.
 
 ## Previous public convergence anchors
 
-Run 543 published Rich's mock-chaperone deepener at `4baef10eb14b3430d49556678d1b1d139b35426e` and then Anthos's audience-builder deepener at `133aad7f873020fac303ec1d7d81097e14f35840`, both with successful Build + Pages deployment. Run 541 published Miihi's low-word/high-context participation at reader head `82564280a6c862358eae0c1517406a07fe19b5ba`. Run 540 published HamitteY's edible-name genealogy and Anayss's reciprocal-warmth deepener at reader head `027e69f7addad6eda348de95b97269ef688c22d9`. Detailed histories remain in the corresponding integration reports.
+Run 543 published Rich's mock-chaperone deepener at `4baef10eb14b3430d49556678d1b1d139b35426e` and Anthos's audience-builder deepener at `133aad7f873020fac303ec1d7d81097e14f35840`, both with successful Build + Pages deployment. Run 541 published Miihi's low-word/high-context participation at `82564280a6c862358eae0c1517406a07fe19b5ba`. Run 540 published HamitteY's edible-name genealogy and Anayss's reciprocal-warmth deepener at `027e69f7addad6eda348de95b97269ef688c22d9`. Detailed histories remain in the corresponding integration reports.
