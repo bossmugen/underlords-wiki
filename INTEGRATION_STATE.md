@@ -1,13 +1,13 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-06 — Run 543 close_
+_Last updated: 2026-09-06 — Run 543 publication follow-up_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`.
 
 ## Current controlling queue
 
 - **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**.
-- **0 newly discovered, 0 unread pending review, 0 backlog, 0 overdue** at Run 543 close.
+- **0 newly discovered, 0 unread pending review, 0 backlog, 0 overdue** at Run 543 close and follow-up recheck.
 - **10 reviewed MAIN publication-held families** remain publication debt only; WIKI does not reinterpret them as unread miner work.
 - QOTD / Officers is consumed through `c51cd1914f65cb8ae65b850b1d0da85ffccb94ed`.
 - Birthdays / PR / VC is consumed through `f4845795021c0419914c182c5d4ff22ef682f382`.
@@ -47,7 +47,17 @@ A late Louvre branch movement supplied a genuine A-/B+ person deepener after Ric
 
 The useful mechanism is **audience-building before the object exists**. `we` makes the anticipated audience communal, while `amazing` arrives before there is anything to judge. This deepens Anthos's existing maintenance/house-literacy arc into a better contradiction: **backstage schedule keeper ↔ front-row fan**. She can make both the submission path usable and the maker feel like somebody is waiting on the other side.
 
-This is accepted and banked for a person-first Anthos fold, not promoted to an Episode and not jammed into the already-verified Rich publication during closing reconciliation. Rooks's creative practice predates the question; no mentorship/origin story is invented. Anthos's 21 media-bearing assigned posts remain posting counts, not 21 artworks, and the later `n-nom` adjacency remains unresolved.
+The follow-up publication folds this into Anthos's September 2020 relationship texture, connects it to her later Photo Submissions maintenance instead of making a separate Episode, adds Rooks as a lived maker/audience relationship lane, and gives the scene a Petty Crimes charge: Anthos is apparently capable of pre-ordering your printmaking output before class has produced anything. Rooks's creative practice predates the question; no mentorship/origin story is invented. Anthos's 21 media-bearing assigned posts remain posting counts, not 21 artworks, and the later `n-nom` adjacency remains unresolved.
+
+Exact Anthos reader head: **`133aad7f873020fac303ec1d7d81097e14f35840`**.
+
+Verification / deployment:
+- Build workflow `34062118885` — **SUCCESS**.
+- Build job `101564369568` — **SUCCESS**.
+- Pages workflow `34062118871` — **SUCCESS**.
+- Pages build/artifact job `101564369623` — **SUCCESS**.
+- Deploy to GitHub Pages job `101564433260` — **SUCCESS**.
+- Pages report job `101564462163` — **SUCCESS**.
 
 ### Wall — good material, already metabolized
 
@@ -69,7 +79,7 @@ Daycare gives ToniTan / `toniamocha` a warm 2020 onboarding seed with Ansun/Sota
 
 WIKI reader changes are made when an existing searchable dossier can absorb the material without becoming an archive report. MAIN receives the richer person/legend/story-first fold only when its production gate can be run safely.
 
-Run 543 published Rich's fresh mechanism to WIKI only. MAIN Rich already has the broader Funcle arc but not this recurring mock-chaperone detail; MAIN Anthos also has the right long-form owner for the new audience-builder contradiction. Both richer MAIN folds remain publication debt. MAIN's production workflow is deliberately decoupled from pushes and requires an intentional `workflow_dispatch`; the connected GitHub surface available in this run can inspect/re-run workflows but cannot initiate a fresh manual dispatch, so no MAIN reader source was mutated without a runnable production gate.
+Run 543 published Rich's fresh mechanism to WIKI, and the publication follow-up shipped Anthos's audience-builder contradiction to WIKI at `133aad7f873020fac303ec1d7d81097e14f35840`. MAIN Rich already has the broader Funcle arc but not the recurring mock-chaperone detail; MAIN Anthos has the right long-form owner but not the new backstage-schedule-keeper/front-row-fan fold. Both richer MAIN changes remain publication debt. MAIN's production workflow is deliberately decoupled from pushes and requires an intentional `workflow_dispatch`; the connected GitHub surface available here can inspect/re-run workflows but cannot initiate a fresh manual dispatch, so no MAIN reader source was mutated without a runnable production gate.
 
 ## Boundary decisions / carried holds
 
@@ -106,4 +116,4 @@ Run 543 published Rich's fresh mechanism to WIKI only. MAIN Rich already has the
 
 ## Previous public convergence anchors
 
-Run 541 published Miihi's low-word/high-context participation at reader head `82564280a6c862358eae0c1517406a07fe19b5ba` with successful Build + Pages deployment. Run 540 published HamitteY's edible-name genealogy and Anayss's reciprocal-warmth deepener at reader head `027e69f7addad6eda348de95b97269ef688c22d9`, also with successful Build + Pages deployment. Detailed histories remain in the corresponding `INTEGRATION_REPORT_RUN_*.md` files.
+Run 543 published Rich's mock-chaperone deepener at `4baef10eb14b3430d49556678d1b1d139b35426e` and then Anthos's audience-builder deepener at `133aad7f873020fac303ec1d7d81097e14f35840`, both with successful Build + Pages deployment. Run 541 published Miihi's low-word/high-context participation at reader head `82564280a6c862358eae0c1517406a07fe19b5ba`. Run 540 published HamitteY's edible-name genealogy and Anayss's reciprocal-warmth deepener at reader head `027e69f7addad6eda348de95b97269ef688c22d9`. Detailed histories remain in the corresponding integration reports.
