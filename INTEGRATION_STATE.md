@@ -1,8 +1,26 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-05 — Run 481 final close_
+_Last updated: 2026-09-05 — Run 484 final close_
 
-MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Detailed Run 481 reconciliation is in `INTEGRATION_REPORT_RUN_481.md` here and the matching MAIN integration report.
+MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Detailed Run 484 reconciliation is in `INTEGRATION_REPORT_RUN_484.md` here and the matching MAIN integration report.
+
+## Run 484 — Tsuchimura can apparently fit a whole social sentence inside one emote
+
+Mandatory full census: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**, **0 newly discovered**, **1 opening unread Daycare tail**, **0 backlog**, **0 overdue**. Both Club-Only recovery lanes remain current at saturated/do-not-churn heads `e45fb11c9239e236231bb65645dfd0285bc0078b` and `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`; no raw archive was re-mined.
+
+Reviewed `archive-miner/daycare-2020-2026-hourly` checkpoint-first from consumed `d66eac43ba1b6374477b8481bab950650568dc6c` through `319cd6931d22b11caf30aa4c5e207f8bfb827f57`, using only its changed intake handoffs. Closing census found no additional mover.
+
+### Reconciliation
+
+**Tsuchimura / Yami-addressed stable account (`587465949272080424`)** now has a stronger cross-source scaffold. The already-banked Louvre material is joined by a 2022 Lobby intake where the account contributes `:Cat_Drool:` and Ren directly addresses the same stable ID `Hi Yami!!!`, plus a 2023 Wall scene where HicUUOOOOGH tags the account into an `afterlife` screenshot bit and the account answers only `:Fat_Wheeze:`. Seven people then mirror that exact wheeze as reactions. The cumulative person read is **emoji-first / low verbal footprint / high social readability**: the room does not experience the tiny responses as absence; familiarity and context carry most of the sentence.
+
+No Cast page was created yet. `Yami` is safe as Ren's scene-bounded address to this stable ID but is not yet a project-wide identity bridge, and neither public surface has a settled canonical owner/display presentation. The richer scaffold is banked rather than turned into a thin page whose title would imply more identity certainty than the project has.
+
+**Shimok0 / Moko (`825953265430691860`)** also gained a real tiny character mechanism. Ren asks the practical role-routing question; Shimok0 says `Wish to not be adult uwu`, then gives the needed confirmation 2.886 seconds later. Gabu laughs, calls them `Mokoooo`, and follows with `Welcome bb!!!`. The read is **playful procedural resistance with zero operational drag**: make the form funny, then complete it immediately. Warm reception is supported; a larger relationship rank is not. This remains thin-to-medium Petty Crimes/profile texture, so no standalone reader page was forced.
+
+RH16's 234-hour and 279-hour bot-break screenshots are now pinned to exact attachment IDs/files, but current access still does not expose their pixels. Bot identity/channel therefore stays unresolved. The Lobby 2023-03-20→03-29 quiet block remains source-specific only. Mugen's `New barista on board!` remains a one-receipt hold; export/member bot nicknames do not supply a second Mugen-authored infrastructure-job example.
+
+Reader-facing WIKI files changed **0** and reader-facing MAIN files changed **0**. No new WIKI Build/Pages or MAIN verification/build/deploy claim is made because neither reader tree changed. MAIN's controlling ledger now consumes Daycare through `319cd6931d22b11caf30aa4c5e207f8bfb827f57`. Final queue: **0 unread / 10 MAIN publication-held families / 0 backlog / 0 overdue**.
 
 ## Run 481 — Ghoulie says the quiet part out loud; Jas appeals the pixel dimensions
 
