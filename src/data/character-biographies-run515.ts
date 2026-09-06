@@ -4,6 +4,7 @@ import { feliNarrativeCharacterBios } from "./character-biographies-feli";
 import { mugenNarrativeCharacterBios } from "./character-biographies-mugen";
 import { run516NarrativeCharacterBios } from "./character-biographies-run516";
 import { run519NarrativeCharacterBios } from "./character-biographies-run519";
+import { run520NarrativeCharacterBios } from "./character-biographies-run520";
 
 const anayss = run470NarrativeCharacterBios.anayss;
 const feli = feliNarrativeCharacterBios.feli;
@@ -55,4 +56,5 @@ export const run515NarrativeCharacterBios: Record<string, CharacterNarrative> = 
   },
   ...run516NarrativeCharacterBios,
   ...run519NarrativeCharacterBios,
+  ...run520NarrativeCharacterBios,
 };
