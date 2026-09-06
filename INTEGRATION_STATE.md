@@ -9,16 +9,18 @@ MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH
 - **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**.
 - **0 newly discovered** in Run 518.
 - **0 unread pending review / 0 backlog / 0 overdue** at the reviewed close.
-- **11 reviewed MAIN publication-held branch families** remain in MAIN's branch ledger after banking the richer Mugen preservation fold; these are publication debts, not unread miner tails.
+- **11 reviewed MAIN publication-held branch families** remain in MAIN's branch ledger; these are publication debts, not unread miner tails.
 - Club-Only 2021–2026 remains current/saturated at `e45fb11c9239e236231bb65645dfd0285bc0078b`.
 - Club-Only 2020 remains current/saturated at `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`.
 
 ## Run 518 reviewed frontier
 
-- Mugen person-first: `6d31eab494316737f855df25fe08399a56f7cb3f` → `f447ca12db8dea4426f1e4ea9012bb415dc4cc98`.
-- The mover landed after the opening census; MAIN persisted `last_seen_sha=f447...` and `status=pending_review` before deep review, then the delta was read checkpoint-first and intake-only.
-- Changed handoffs were only the 05:21 Mugen findings / HR addendum / Petty Crimes addendum / receipts package.
-- Both Club-Only recovery lanes were rechecked at stable saturated heads without raw-archive re-mining.
+Mugen person-first moved twice during the pass and both suffixes were caught with `last_seen_sha` persisted before deep review:
+
+- `6d31eab494316737f855df25fe08399a56f7cb3f` → `f447ca12db8dea4426f1e4ea9012bb415dc4cc98`: genuinely new Key-side preservation reputation.
+- `f447ca12db8dea4426f1e4ea9012bb415dc4cc98` → `92543fd185981b565bf693be0b7d7afca91f0308`: checkpoint/public-integration/rabbit/site-candidate completion for the same finding; reviewed as duplicate/corroboration with no second reader mutation.
+
+Both Club-Only recovery lanes were rechecked at stable saturated heads without raw-archive re-mining.
 
 ## Reader result
 
@@ -38,6 +40,8 @@ Reader commit: **`e1af76c1a7cbb91500ff189b135f5023fcf76f72`**.
 - Pages build/artifact job `101487387459`: **SUCCESS**.
 - `Deploy to GitHub Pages` job `101487459576`: **SUCCESS**.
 
+The later `92543fd...` handoff suffix required **no second WIKI reader change**.
+
 ### MAIN
 
 Reader-facing files changed: **0**.
@@ -52,7 +56,7 @@ No MAIN reader build/deployment is claimed for an unchanged reader tree.
 - Core Rooms / Events: `f4c427cda4e78c3e2a9c6e92b392bdffedb8baa1`.
 - Daycare: `6fd3f4713e17981154bc594f64b88bef97aea9b5`.
 - Louvre / AI / Athenaeum / Other Games: `3838efca8a2ba163fefd3a46bc2a5cbd108f8d38`.
-- Mugen person-first: `f447ca12db8dea4426f1e4ea9012bb415dc4cc98`.
+- Mugen person-first: `92543fd185981b565bf693be0b7d7afca91f0308`.
 - QOTD / Officers: `57e1a65da6354c791faf86fe67ffea9f971aa79d`.
 - Whiskey: `aea0279a452382e81dffd67f6b354d7767bb87e1`.
 - Wall: `1473e64587c3a61cd872a20a916c281d31cdc777`.
@@ -62,6 +66,7 @@ No MAIN reader build/deployment is claimed for an unchanged reader tree.
 - Key's `mugs workin hard on them screenshots` is **SAID BY Key** and supports peer perception of Mugen's screenshot labor. It does not make Mugen CAPTURED BY / MADE BY / POSTED BY every Key-related Wall object.
 - Key's `ashamed or impressed` preserves mixed target-side experience; do not rewrite it as blanket objection, blanket consent, or a universal Wall-subject reaction.
 - Mugen's `Litrally started it ^` has an unresolved referent and does not become `Key founded/started Wall`.
+- The next preservation rabbit is materially higher-cost: explicit remove/stop requests, felt exposure or care-through-keeping, repair after an archival move, or a direct clash between Mugen wanting to keep a moment and somebody else wanting it gone.
 - Key's 2021 Gilli screenshot remains POSTED BY old Gilli only. Pixels were unavailable; maker, capturer, subjects, exact charge and image contents remain unresolved.
 - Key q18 remains open because the 2021 authored parent cannot be safely negative-closed under the established literal-search false-zero failure. The 2022 parent has confirmed structured Reply children from Ren, Mugen and old Gilli.
 - Seth / Seraph remains a durable developing Cast candidate; Kiro's screenshot, Gilli's nearby screenshot and Mugen's later Seth-reaction screenshot remain POSTED BY their respective uploaders only.
