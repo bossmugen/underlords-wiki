@@ -1,6 +1,7 @@
 import type { CharacterNarrative } from "./character-biographies-narrative";
 import { run470NarrativeCharacterBios } from "./character-biographies-run470";
 import { feliNarrativeCharacterBios } from "./character-biographies-feli";
+import { run516NarrativeCharacterBios } from "./character-biographies-run516";
 
 const anayss = run470NarrativeCharacterBios.anayss;
 const feli = feliNarrativeCharacterBios.feli;
@@ -34,10 +35,6 @@ export const run515NarrativeCharacterBios: Record<string, CharacterNarrative> = 
         ]
       }
     ]
-  }
+  },
+  ...run516NarrativeCharacterBios,
 };
-
-// Keep the later Run 516 Tofu/Cookie overlays discoverable without touching the
-// central biography registry in a separate commit. The registry imports this module
-// as a namespace and merges every exported narrative map in declaration order.
-export { run516NarrativeCharacterBios } from "./character-biographies-run516";
