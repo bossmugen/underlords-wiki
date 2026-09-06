@@ -8,15 +8,15 @@ MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH
 
 - **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**.
 - **0 newly discovered** in Run 517.
-- **0 unread pending review / 0 backlog / 0 overdue** at close.
+- **0 unread pending review / 0 backlog / 0 overdue** at the reviewed close.
 - **10 older publication-held branch families** remain in MAIN's branch ledger; these are reviewed publication debts, not unread miner tails.
 - Club-Only 2021–2026 remains current/saturated at `e45fb11c9239e236231bb65645dfd0285bc0078b`.
 - Club-Only 2020 remains current/saturated at `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`.
 
 ## Run 517 reviewed frontier
 
-- Wall: `a2bb3dda8e3f1776acfa7b0c0fc30b182f638461` → `a48d192b361371c603867e2d7e2832533245b274`.
-- The branch advanced once during review; the later root-checkpoint/run-report suffix was inspected before consumption.
+- Wall: `a2bb3dda8e3f1776acfa7b0c0fc30b182f638461` → `1473e64587c3a61cd872a20a916c281d31cdc777`.
+- Wall advanced twice during review; both Key and late Seth/Seraph suffixes were inspected before consumption.
 - Both Club-Only recovery lanes were rechecked at their stable saturated heads without raw-archive re-mining.
 
 ## Reader result
@@ -25,9 +25,11 @@ MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH
 
 Reader-facing files changed: **0**.
 
-The fresh Wall packet develops **Key / Captain Chihuahua** as mock-outraged defendant → voluntary self-auditor → remembered older Wall referent. It includes old Gilli's `Had to document this moment in history` / Key `EYE???` exchange, Key's 2022 return to count his own appearances and `dunno whether to be ashamed or impressed`, Ren noticing the long absence, Gilli's `OG wall of shamer here uwu`, Mugen's ambiguous `Litrally started it ^`, and the 2023 `That's key BTW ehe` / `@Captain Chihuahua` callback.
+**Key / Captain Chihuahua** arrived as a strong Wall packet but a duplicate public finding. The existing Key dossier already owns the same 2021 Gilli filing, `EYE???`, the 2022 self-audit / `ashamed or impressed`, Ren return recognition, Gilli `OG wall of shamer`, Mugen's ambiguous `Litrally started it ^`, and the 2023 name-resolution callback. No duplicate Episode was created.
 
-WIKI already owns this exact person-shaped progression in `src/data/character-biographies-key.ts`, so the delta is accepted as corroboration rather than appended as another dated incident or redundant Episode.
+The later suffix produced genuinely new **Seth / Seraph** material. Accepted cumulative read: **low-prose mock-polite defendant / peer-recognizable `Seraph` suspect ↔ later gallery co-signer**. Kiro files `Seraph needs some explaining to do`; Seth true-replies `Lol,no explanation for you,dear`; Moon, Anayss and Kiro all laugh-react; Sye independently says `seraph susing`; later Seth occupies both laugh-reaction piles on one Mugen filing. Kiro laughing at Seth's refusal upgrades the relationship from one-way filing to a small reciprocal-teasing scene.
+
+Seth is now a **durable developing WIKI Cast/profile candidate**. The contextual read is accepted, but no public route is created yet because the usable person material is still almost entirely one Wall prosecution/gallery axis with one surviving authored sentence. This is an editorial ownership decision, not a higher proof threshold.
 
 No fresh Astro / GitHub Pages build or deployment is claimed because the reader tree did not change.
 
@@ -40,9 +42,7 @@ Latest verified WIKI reader publication remains Run 516 reader head **`2d4578557
 
 Reader-facing files changed: **0**.
 
-MAIN `src/content/people/key.md` already owns the same Wall arc inside a richer biography that also carries Key's pre-Raja continuity, Ren family-language, retired-Officer history, Gilli preservation habit, and Petty Crimes. No reader mutation or duplicate receipt paragraph was warranted.
-
-No MAIN source-verification / Astro / built-output / Cloudflare deployment is claimed for an unchanged reader tree.
+Key is already fully owned. Seth is too Wall-only for MAIN's richer biography standard and is banked until another person dimension appears. No MAIN source-verification / Astro / built-output / Cloudflare deployment is claimed for an unchanged reader tree.
 
 ## Current consumed frontiers
 
@@ -53,14 +53,17 @@ No MAIN source-verification / Astro / built-output / Cloudflare deployment is cl
 - Mugen person-first: `6d31eab494316737f855df25fe08399a56f7cb3f`.
 - QOTD / Officers: `57e1a65da6354c791faf86fe67ffea9f971aa79d`.
 - Whiskey: `aea0279a452382e81dffd67f6b354d7767bb87e1`.
-- Wall: `a48d192b361371c603867e2d7e2832533245b274`.
+- Wall: `1473e64587c3a61cd872a20a916c281d31cdc777`.
 
 ## Carried holds / banks
 
 - Key's 2021 Gilli screenshot remains POSTED BY old Gilli only. Pixels were unavailable; maker, capturer, subjects, exact charge and image contents remain unresolved.
 - Mugen's `Litrally started it ^` is probable older-Wall lineage/blame language only; do not convert it into `Key founded/started Wall`.
 - Key q18 remains open because the 2021 authored parent cannot be safely negative-closed under the established literal-search false-zero failure. The 2022 parent has confirmed structured Reply children from Ren, Mugen and old Gilli.
-- The 2023 source object preceding Mugen's Key identification remains unresolved.
+- Kiro's Seth screenshot, Gilli's nearby screenshot and Mugen's later Seth-reaction screenshot remain POSTED BY their respective uploaders only; pixels are uninspected.
+- `dear` in Seth's refusal does not establish romance or literal intimacy.
+- Sye's `seraph susing` likely refers to Seth from `seraph_000` + Kiro's prior wording, but the exact screenshot/charge referent remains unresolved.
+- Seth's complete authored q18 branch is CLOSED NEGATIVE. Kiro parent `1030429961590423624` is CLOSED POSITIVE with Seth as the sole surviving structured Reply child.
 - A stale miner-local Wall checkpoint says Akariel has no safe Zyrcant bridge. **Do not carry that uncertainty forward. Current hard canon resolves Zyrcant = Akariel / Akariel™ / akariel_star.**
 - Tofu↔Cookie origin remains earlier than the Nov. 1, 2021 `again` line; do not declare that line the absolute beginning.
 - Uninspected Tofu/Cookie screenshots remain POSTED BY only. Do not infer DM contents, maker, capturer or subjects from filenames/adjoining text.
