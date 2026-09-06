@@ -33,13 +33,14 @@ export const yumiNarrativeCharacterBios: Record<string, CharacterNarrative> = {
         ]
       },
       {
-        period: "April–May 2020",
-        title: "Comfort shows up as compression: fewer words, faster escalation",
+        period: "April–September 2020",
+        title: "Support with elbows: fewer words, faster escalation",
         paragraphs: [
           "Yumi's comic register is easiest to recognize when the premise is already stupid. On April 14, a Club Only bit reaches **`tonight is lets break suzi`**. The surrounding room is chaotic and some participants are unresolved Deleted User accounts, so the wiki does not rebuild a clean cast list from proximity. What belongs safely to Yumi is her own participation and the rhythm: she is willing to take the room's nonsense at face value long enough to make it worse.",
           "That same night the archive catches another little social tell after a burst of GIF chaos: Yumi eventually says **`i'll hop off vs too`** and then **`it was funnn`**. Whatever exact voice/VC context the typo refers to, the emotional content is not difficult to preserve at a modest scale. She had been hanging out, she is leaving, and she says it was fun. The extra `nnn` is the opposite of her event-command register. When she is simply being social, the typing softens and stretches.",
-          "A month later that softness can sit right beside volume. On May 13, twenty-five seconds after an unresolved Deleted User announces that Training Arena is about to begin, Yumi posts **`PUNCH AND DO ME PROUD @everyone`**. The previous speaker remains pooled; only Yumi's line belongs to Yumi. In context, this is game-event hype, not literal violence. The character beat is the compression. She does not give a paragraph about teamwork. She converts encouragement into an imperative and lets the room supply the adrenaline.",
-          "This is one of the clearest contradictions in the file. Her casual social language can be drawn-out and soft — `funnn`, later `workkk`, `sleeppp`, `youuu` — while her hype and punchlines tend to get shorter and harder. The archive does not need to decide which one is the 'real' Yumi. They are different registers used for different moments. The person becomes clearer when both survive."
+          "Yumi's encouragement often arrives wearing steel-toe boots. On May 12, Feast does not get a tasteful little reminder; she blasts **`@everyone DON'T FORGET THE POOP PILLS`**. A day later Training Arena gets **`PUNCH AND DO ME PROUD @everyone`**. The practical job gets done, but she refuses to make care ceremonial. If she wants people ready, equipped, or vaguely alive by event time, apparently they are getting the reminder plus whatever verbal elbow she found nearest.",
+          "That style lands just as cleanly when the job is simply wishing somebody well. In September, after Gilli tags the room, Yumi answers **`oh good luck you losers`**; Gilli comes back with a lick emote. Nobody pauses to translate the affection. The insult is the wrapper, not the message. Yumi wants people to do well and seems most comfortable saying so after she has vandalized the sentiment just enough to keep it from becoming a greeting card.",
+          "This is one of the clearest contradictions in the file. Her casual social language can be drawn-out and soft — `funnn`, later `workkk`, `sleeppp`, `youuu` — while her hype, reminders, and punchlines tend to get shorter and harder. She does not need one register to cancel the other. Sometimes support sounds like a soft stretched ending. Sometimes it sounds like being called a loser and ordered not to forget your poop pills."
         ]
       },
       {
