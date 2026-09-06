@@ -11,7 +11,7 @@
 
 - Mugen person-first `92543fd1… → 94121b38…`: duplicate/corroboration only; no new person axis beyond already-public reunion/care/memory mechanisms.
 - Wall `b67aceb8… → 112d7634…`: accepted Aeshleen jokes-as-coping + Anthos warm/sharp friendship texture.
-- Late QOTD / Officers `57b938a7… → 5241c762…`: accepted Panda information-gathering/system-building, Eos teacher/adviser, anti-cheating, dragon-collection, and messy-desk texture.
+- QOTD / Officers `57b938a7… → e17c7401…`: the substantive Panda deep pass through `5241c762…` added information-gathering/system-building, Eos teacher/adviser, anti-cheating, dragon-collection, and messy-desk texture. Two immediate late correction-only suffixes then synchronized the hard canon that Panda is a man and uses he/him. Public copy already used he/him, so no second reader edit was needed.
 
 ## Reader publication
 
@@ -40,11 +40,14 @@ The fresh Wall material was folded into the person already on the page rather th
 
 The QOTD packet deepens existing mechanisms. Panda's demand for context now connects to a broader habit of gathering information before deciding what something means; his statement that he sometimes `feign ignorance` is kept narrow as a way of finding more information or leaving room for another person to contribute, not inflated into manipulation. Eos's joking cheat plan becomes a lived teacher/adviser scene when she asks him to teach her and he tells her to pay attention. His Discord-building hobby stays a systems hobby, not governance. His recurring dragon collection gains its naming logic and personal-meaning layer, while `very organised.... except for my desk. that is a hot mess` preserves the correct contradiction.
 
+The late QOTD checkpoint correction explicitly reasserts the hard current canon: **Panda is a man; he/him**. The reader biography already followed that canon, so the correction changed integration state rather than public prose.
+
 ## Hard rails / holds
 
 - MAIN received no reader change this pass because its controlled verification/deploy chain was not safely available through connected tooling; richer Aeshleen and Panda MAIN folds remain publication-held.
-- No stale QOTD pronouns override current Panda canon.
+- Panda's hard current canon is man / he-him; stale miner-local pronouns do not override it.
 - Panda's Discord hobby does not establish UL admin ownership or appointment chronology.
+- Panda's `feign ignorance` line is not promoted into a manipulation label.
 - Aeshleen/Anthos affection is not converted into romance.
 - Uninspected attachments remain POSTED BY only unless stronger evidence establishes MADE BY / CAPTURED BY / FEATURING.
 - Zyrcant = Akariel stays resolved; Rich / DragonRich and Ricochet stay separate.
@@ -52,5 +55,5 @@ The QOTD packet deepens existing mechanisms. Panda's demand for context now conn
 ## Consumed frontiers
 
 - Mugen person-first: `94121b38b5e363d74363b96d25c23a1109984ac8`
-- QOTD / Officers: `5241c762b530043abb5761927d41de75c1c36486`
+- QOTD / Officers: `e17c74017cb0fa3373f3e7accff95d5cc7f98a30`
 - Wall: `112d7634c3074eedcb4e338417cd8680233d992e`
