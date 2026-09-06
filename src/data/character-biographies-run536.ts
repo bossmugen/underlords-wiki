@@ -55,4 +55,52 @@ export const run536NarrativeCharacterBios: Record<string, CharacterNarrative> = 
       },
     ],
   },
+  hamittey: {
+    intro: [
+      "HamitteY is historical Staff with one extremely reliable QOTD instinct: if the prompt offers a premise, Ham tends to keep enlarging it until somebody else has to ask whether physics, nutrition, or the municipal water supply has been consulted. The running joke is not random chaos. Ham commits to a premise, lets other people add constraints, and then treats those constraints like fresh building materials.",
+      "The same person who wants an ocean full of Kool-Aid can also get weirdly practical about the details. Underlords merch? Refillable pens with different ink colors for different officers, plus stickers. Cheese? Send it to the pixels. A pet thread? Post Aria, pass Anayss's hello along to Ham's mother, return with a hello back. Ham's scale is often absurd; Ham's social follow-through is not.",
+    ],
+    sections: [
+      {
+        title: "THE FOOD COUNTER HAS TEMPORARILY REPLACED THE PERSON",
+        paragraphs: [
+          "A March 2024 QOTD about misconceptions starts with HamitteY admitting that people have thought Ham was a hamster. The room immediately turns the name itself into inventory. Ren asks for bacon and Ham becomes **Glazed Bacon**. MOON asks for pork chops and the display becomes **Glazed PorkChop**. Caitlin asks for a five-star loaf and Ham answers as **Five-Star Loaf**, complete with **`Super size me goddam.`**",
+          "The best line comes when Ren eventually asks what happened to Ham. Ham's answer is basically a temporary closure notice: **`There is no Ham. Only the food the people asked for`**, followed by the assurance that the gluten will go away in one day. That one-day reset is what keeps the bit recognizably Ham-shaped instead of reading like identity confusion. Ham is happily letting the room order replacements off the menu while still writing the rollback policy.",
+          "A later pirate-name prompt produces **Hamshanks** and delighted hamster/blob energy when Daer points out that Ham finally got a pirate name. The joke keeps circling the same useful contradiction: Ham is perfectly willing to turn the public name into communal material, but the transformations are deliberate, temporary, and played from inside the joke rather than imposed from outside it.",
+        ],
+      },
+      {
+        title: "MOON KEEPS BRINGING PHYSICS TO A KOOL-AID FIGHT",
+        paragraphs: [
+          "In March 2025 Ham announces the aspiration to fill an entire ocean with flavored Kool-Aid and drink it. Ignorant.Feline points out that humanity has already invented a mug. Ham rejects the technological breakthrough because **`I want to dive in it feline!!!`**. When pollution comes up, Ham's answer is that nobody can pollute the Kool-Aid ocean. MOON introduces the small matter of everything that actually lives there; Ham concedes exactly enough ground to offer **`just one ocean :(`**.",
+          "The premise refuses to die. In 2026 Ham chooses Atlantis for another prompt and is already considering a bubble around Africa. Asked later what would happen if a magical power took seventy-five percent of the ocean, Ham's response is **`Time to kool aid the fucker`**. MOON once again arrives with reality: that is not how Kool-Aid works. Ham answers **`Watch me`**.",
+          "That recurrence gives Ham and MOON a very specific conversational rhythm without turning it into a fake rivalry. Ham proposes infrastructure on a planetary scale; MOON supplies the physical-world objection; Ham treats the objection less like a stop sign than a design brief. The humor needs both halves. MOON keeps finding the limit, and Ham keeps asking whether it is load-bearing.",
+        ],
+      },
+      {
+        title: "ABSURD SCALE, SUSPICIOUSLY PRACTICAL PRODUCT DESIGN",
+        paragraphs: [
+          "The merch prompt exposes a second setting. Ham genuinely pitches **Underlords pens** as the ultimate merch, then starts specifying refillable ink colors for individual officers and adds stickers to the plan. Tealeaf even has to correct the singular to `Pen.` before Ham comes back with **`Underlords sticker pensssssssss!!`**.",
+          "It is a useful contradiction because the imagination does not only run toward impossible oceans. Sometimes Ham gets hold of a stupid idea and starts doing product requirements. Refillable. Color-coded. Sticker-compatible. The person who will not accept a mug as adequate beverage infrastructure is perfectly capable of becoming oddly grounded when the problem is stationery.",
+        ],
+      },
+      {
+        title: "ANAYSS CAN SAY HI THROUGH THE HOUSE",
+        paragraphs: [
+          "On a pet QOTD, Ham posts a cat. Anayss answers **`I miss seeing Aria ❤️`**, then adds a hello to Ham's mother. Ham carries the greeting outward and comes back with the answer: their mother said hello to Anayss too.",
+          "Nothing about that needs to become literal family language or a closeness ranking. The good part is smaller and warmer: Anayss already knows the pet by name and is familiar enough with Ham's household edge to send a greeting through it; Ham actually passes the greeting along and returns with the response. The room touches ordinary life for a second, and Ham does the tiny social errand all the way through.",
+        ],
+      },
+      {
+        title: "Petty Crimes",
+        paragraphs: [
+          "Has argued that **cheese deserves to be pixels next**, then clarified that Swiss cheese is included in the prosecution.",
+          "Rejected a mug as an acceptable Kool-Aid solution because the actual objective was apparently **diving in the beverage**.",
+          "Can become Glazed Bacon, Glazed PorkChop, Five-Star Loaf, or Hamshanks without any of those temporary display jokes becoming a new person. The food-counter run even came with a one-day reset policy.",
+          "Proposed refillable Underlords sticker pens with officer-specific ink colors. Ocean engineering may ignore material reality; stationery does not.",
+          "When MOON says `that's not how you make koolaid`, Ham's entire rebuttal is **`Watch me`**. This is not a scientific method, but it is a consistent operating system.",
+        ],
+      },
+    ],
+  },
 };
