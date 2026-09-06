@@ -16,13 +16,19 @@ export const run525NarrativeCharacterBios: Record<string, CharacterNarrative> = 
         paragraphs: (rose.history ?? []).map((beat) => beat.text),
       },
       {
+        title: "ACCEPTED A WEIEDO LIKE ME",
+        paragraphs: [
+          "Asked what matters to her, Rose names two kinds of people who let her be imperfect without making her earn the room again: a sister who is **`always there for me even if i mess up`**, and the people she gets to talk to and play games with — **`everyone in Underlords because the accepted a weiedo like me`**. The typo is honestly part of the charm. Rose does not frame belonging as rank, longevity, or being easy to deal with. She frames it as being allowed to be weird and still included.",
+          "That lands especially well beside the later version of Rose who can vanish, reappear, threaten the room with roughly **0.1% of her Rose power**, and still be noticeable enough that people ask where she went. The sharpness is real; so is the fact that acceptance seems to be one of the things she remembers about the place."
+        ],
+      },
+      {
         period: "Petty Crimes",
         title: "Petty Crimes",
         paragraphs: [
-          "Rose's dream-kitchen specificity does **not** mean she wants to cook every day. Asked about cooking, she says it comes in phases because she is **`generally too lazy`**, then volunteers the warning label herself: **`But don’t involve me cause I’m a pain to cook with`**. The woman who can name blast chillers and teach choux is apparently also willing to admit that sharing a kitchen with her may constitute an avoidable operational risk.",
-          "Her footwear policy is gloriously anti-refresh-cycle: **`A single pair of $70 boots that took me 5 years to break`**. If another pair actually has to enter the building, Rose names **Converse or New Balance**. In the same ordinary-life file she reports trying a hoverboard for the first time and getting the hang of it in **five minutes**. Shoes may require a five-year procurement horizon; moving floor witchcraft gets five minutes.",
-          "Prestige consumption does not impress her much either. Rose once announced, **`Studies say people who spend a lot of money on name brands have lower self esteem`**. Whether sociology has signed off on Rose's sweeping brand prosecution is beside the point; her own position on paying for the logo is extremely clear.",
-          "Asked what is important to her right now, Rose answers **`Your inner peace`**. Asked for a game she hates losing, she answers **`MLBB`**. Europe also appears on the travel wish list. That combination is almost suspiciously tidy: protect the inner peace, unless Mobile Legends has just personally interfered with it."
+          "Rose is a **`Cat person`**, but the useful part is the household census: one cat hides in warm places all day, one **`just doesn't care`**, and the last one **`still still has the zoomies`**. Three cats, three operating systems, and one exhausted double-`still` suggesting at least one employee has refused to age out of nonsense.",
+          "Her relationship with controlled suffering is also extremely specific. Rose wants to **`play more horror games even though I might scream because of jump scares`**. Eating ASMR, meanwhile, gets no such grace: she says the one type she will **never** listen to or watch is people eating. Jump scares may terrorize the nervous system; chewing into a microphone is apparently where civilization ends.",
+          "Cheesecake keeps sneaking into the file too. Rose names **mini cheesecakes** in one answer and, much later, casually supplies the existence of Baskin-Robbins strawberry-cheesecake ice cream. This is not a life thesis. It is, however, enough recurring evidence to let cheesecake into Petty Crimes without a warrant."
         ],
       },
     ],
