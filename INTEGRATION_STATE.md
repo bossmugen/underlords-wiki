@@ -1,123 +1,94 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-06 — Run 542 census close_
+_Last updated: 2026-09-06 — Run 543 close_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`.
 
 ## Current controlling queue
 
 - **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**.
-- **0 newly discovered, 0 unread pending review, 0 backlog, 0 overdue** at Run 542 close.
+- **0 newly discovered, 0 unread pending review, 0 backlog, 0 overdue** at Run 543 close.
 - **10 reviewed MAIN publication-held families** remain publication debt only; WIKI does not reinterpret them as unread miner work.
 - QOTD / Officers is consumed through `c51cd1914f65cb8ae65b850b1d0da85ffccb94ed`.
-- Daycare is consumed through `2c529f9f3048c7e0d929e7a5338f4e76c80fb34d`.
+- Birthdays / PR / VC is consumed through `f4845795021c0419914c182c5d4ff22ef682f382`.
+- Daycare is consumed through `1eacdc142b990ff283554da2176f5ac82eae45f5`.
 - Mugen person-first is consumed through `4aeea03f71d0ea25bf95e15c42ad1d47867d6fc0`.
 - Whiskey is consumed through `3592be0e1550eb125bc8de1975aaaa1b44cdc8d9`.
-- Wall is consumed through `472f1969222c82c18310f1e6bd2eeee085511303`.
-- Louvre / AI Art / Athenaeum / Other Games is consumed through `365981f6ba9f904ab75b73afa4adf409b605fc88`.
+- Wall is consumed through `e69e97219c5a7f18c3cd37b8eb5472403f3c5734`.
+- Louvre / AI Art / Athenaeum / Other Games is consumed through `bc608b63a296342e17f482ac8a417ea8e2410b9e`.
 - Club-Only 2021–2026 remains current/saturated at `e45fb11c9239e236231bb65645dfd0285bc0078b`.
 - Club-Only 2020 remains current/saturated at `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`.
 
-## Run 542 census-only close
+## Run 543 public convergence
 
-The mandatory full branch census found every one of the 30 active miner refs at exactly the same HEAD already recorded in the controlling ledger. There was therefore no new `archive-intake/*` delta to re-review, no consumed SHA to advance, and no reason to manufacture a public change from already-reviewed material.
+Full report: `INTEGRATION_REPORT_RUN_543.md`.
 
-Both recovery lanes were rechecked at their saturated heads without reopening raw archives. Because the remaining ten `pending_publication` families are already-reviewed MAIN publication debt rather than unread miner evidence, anti-starvation did not require another branch review this cycle.
+### Rich — Funcle apparently moonlights as the fake chaperone
 
-Reader-facing files changed this run: **0 on MAIN, 0 on WIKI**. No reader build or deployment is claimed for Run 542 because neither reader tree changed. Durable census/report bookkeeping only was refreshed.
+Fresh Daycare material adds a recurring behavior to the already-public Funcle contradiction. Ren's `Hwhore (affectionate)` gets Rich's `Watch your language young lady:R_stare:`; months later he tags Rummy with `no cursing young lady`.
 
-## Run 541 public convergence
+This is not prudishness, governance, or a childcare role. It is the same raunchy adult who remembers minors can see the page briefly performing fake decorum after the room is already on fire. The relationship texture matters too: Ren and Rummy are comfortable enough to be mock-scolded in that faux-parent voice without anybody treating it as authority.
 
-### Miihi — low-word, high-context participation
+The WIKI fold landed inside Rich's existing **Funcle Rich remembers who can see the page** section rather than as a new incident ledger.
 
-Fresh Wall material supplied the missing person-shaped connective tissue for Miihi / `stephany_.`: Anayss can summon her with `evidence`; Baby Lyssa experiences Miihi's arrival speed as part of the joke; Miihi can file an attachment with only chosen-person mentions as caption; and `WHYYYYYY` compresses into `:Cursed:` seconds later. The public owner now reads this as a social style rather than a pile of receipt events: tasks may wait, but apparently nonsense does not.
+Exact reader head: **`4baef10eb14b3430d49556678d1b1d139b35426e`**.
 
-Reader files changed in Run 541:
-- `src/data/character-biographies-miihi.ts`
-- `src/data/character-biographies-all.ts`
+Verification / deployment:
+- Build workflow `34061531310` — **SUCCESS**.
+- Build job `101562804186` — **SUCCESS**.
+- Pages workflow `34061531351` — **SUCCESS**.
+- Pages build/artifact job `101562804333` — **SUCCESS**.
+- Deploy to GitHub Pages job `101562867606` — **SUCCESS**.
+- Pages report job `101562901727` — **SUCCESS**.
 
-Verified reader publication head: **`82564280a6c862358eae0c1517406a07fe19b5ba`**.
+### Anthos — the schedule keeper is also already in the front row
 
-Verification:
-- Build workflow `34059476950` — **SUCCESS**.
-- Build job `101557918053` — **SUCCESS**.
-- Pages workflow `34059477033` — **SUCCESS**.
-- Pages build/artifact job `101557924683` — **SUCCESS**.
-- Deploy to GitHub Pages job `101558005675` — **SUCCESS**.
-- Pages report job `101558036852` — **SUCCESS**.
+A late Louvre branch movement supplied a genuine A-/B+ person deepener after Rich's exact reader head had already finished verification/deployment. Rooks announces printmaking class; Anthos asks `do we get to see some of your amazing creations??`; Rooks later quotes the question and promises to post what the class makes in Louvre; Anthos celebrates.
 
-### DyingFox — identity conflict hold
+The useful mechanism is **audience-building before the object exists**. `we` makes the anticipated audience communal, while `amazing` arrives before there is anything to judge. This deepens Anthos's existing maintenance/house-literacy arc into a better contradiction: **backstage schedule keeper ↔ front-row fan**. She can make both the submission path usable and the maker feel like somebody is waiting on the other side.
 
-Fresh QOTD material remains publication-held because one handoff assigns the surfaced person to stable ID `629467952100982784`, while the same branch's newer cross-quarry checkpoint and the current public Dyingfox owner resolve canonical Dyingfox to `471370475050762251 / dyingfox`. Same-name similarity does not bridge that contradiction. The person material stays banked until provenance is reconciled.
+This is accepted and banked for a person-first Anthos fold, not promoted to an Episode and not jammed into the already-verified Rich publication during closing reconciliation. Rooks's creative practice predates the question; no mentorship/origin story is invented. Anthos's 21 media-bearing assigned posts remain posting counts, not 21 artworks, and the later `n-nom` adjacency remains unresolved.
 
-### Eos — reciprocal Screenshot Court deepener
+### Wall — good material, already metabolized
 
-Fresh Louvre support material sharpens the already-public visual-privacy-reflex ↔ active-counter-archivist contradiction and recurring reciprocal screenshot warfare with Marian. MAIN already substantially owns the larger mechanism, so no duplicate public paragraph was created. Direct Louvre/AI creative bodies remain tooling-blocked; media-bearing posts are not artwork attribution.
+Zhēnxī's June/July 2022 Wall material reinforces an already-public relationship contradiction: loud embarrassment does not equal interpersonal defensiveness. Rummy can prosecute the scene and then true-reply `I love YoU`; Zhēnxī answers `I love you too`. Existing MAIN and WIKI owners already carry the friendship-affection + defendant-becomes-filer synthesis, so no duplicate paragraph was added.
 
-## Run 540 public convergence
+Nobu's high-volume screenshot behavior and `I legit thought that said children. Which is why I posted it.` sharpen the already-public self-indicting evidence-courier pattern. WIKI already owns that exact mechanism; MAIN already owns the broader no-prosecutor-immunity contradiction. Uninspected screenshots remain POSTED BY only.
 
-### HamitteY — the room had been eating her name for years
+### Birthdays / PR / VC — negative work still counts as reviewed
 
-Fresh QOTD material gives the 2024 food-counter bit an earlier history without turning chronology into a fake callback claim. In January 2022 Anayss was already trying `Glazed Ham`, while Nemo helped the room work Hami's name through ham / hamster / pig / `Porkchop Ham`. In 2023 Hami herself answered a five-star-dish prompt with `imma be a loaf of bread`.
+The Eos transition rabbit was narrowed without inventing chronology. Known Dec-2020 Underlords and Jan-2021 Deviations self-reports remain endpoints; a broader reason/mechanics pass found no direct Eos-authored explanation, Staff/HQ decision record, game-side admission/removal receipt, or audit/admin mechanics. Generic transition-language searching now rotates.
 
-That material was folded into the existing **The name is community property with a rollback policy** section. The later `Five-Star Loaf` now has the right historical symmetry: before the room supersized her into bakery inventory, Hami had already volunteered to become bread.
+Nhou's Birthday-oriented pass still could not surface the assigned Birthday transcript or a direct assigned-source person scene. Support-room birthday hits were not laundered into Birthday-channel evidence. The assigned PR WOO author bridge remains unresolved.
 
-A concurrent reader change landed first and added other QOTD HamitteY texture. Run 540 re-read current `main`, preserved those additions, and merged the edible-name history rather than overwriting them.
+### ToniTan — keep the seed, do not grow a cardboard person
 
-### Anayss — the room answers back
-
-Fresh Whiskey material deepens Anayss beyond the useful welcomer / human map role. Gilli tells her she is `welcome anytime` and that she `brightens the room`, putting Anayss on the receiving end of the warmth she normally dispenses. Gabu supplies the better progression: early mutual unfamiliarity eventually becomes spontaneous acknowledgment of Anayss's pet post; Anayss says being acknowledged is a big deal, answers `hi dear ^-^`, and the exchange turns into hugs.
-
-The WIKI synthesis now treats that reciprocity as character behavior: Anayss is highly tuned to whether people feel seen, which makes her equally sensitive to the moment somebody sees her back.
-
-## Prior reader verification / deployment
-
-Run 540 exact reader head: **`027e69f7addad6eda348de95b97269ef688c22d9`**.
-
-- Build workflow `34058527010` — **SUCCESS**.
-- Pages workflow `34058527180` — **SUCCESS**.
-- Pages build/artifact job `101554773724` — **SUCCESS**.
-- Deploy to GitHub Pages job `101554841123` — **SUCCESS**.
-
-Reader files changed:
-- `src/data/character-biographies-hamittey.ts`
-- `src/data/character-biographies-run515.ts`
-
-Later state/report commits are reader-neutral and use `[skip ci]`.
-
-## Reviewed without another public page
-
-### Woosung
-
-The Daycare packet now gives Woosung a coherent seed: sparse but decisive participation, practical explaining/help when useful, comfortable one-line reactions that still alter the room, easy participation in teasing/affection, and recognizable warmth when he reappears after absence. Neither public surface currently has a settled Woosung owner. The material is consumed and banked rather than manufactured into a thin Cast shell.
-
-### Mugen / ShiyaX
-
-Fresh `welcome to your new home` / padded-cell / plushy material lands squarely inside the already-public Mugen↔Shiya context-calibration and affectionate institution-asylum joke lane. The miner handoff itself identifies the MAIN owner as already containing the mechanism. Consumed as duplicate/corroboration; no paragraph mitosis.
-
-### ничего / novikroeva — late Wall mover
-
-The late Wall suffix is person-synthesized but currently has no settled public owner. The useful contradiction is **emotionally obvious / explanation-evasive**: `because im crying` → Ryo `Why` → `im not answering that lol`; later Ryo's `Loser` gets `i am`. With Moon, being named as the shorter-person benchmark gets `SCRWAMING`; Moon softens immediately with `Your too adorable and pretty uwu`; ничего returns `I LOVE U I WISH I WAS TALL`.
-
-Safe relationship reads: Ryo is high-comfort blunt teasing / low-friction self-own; Moon is tease → theatrical protest → softening compliment → reciprocal affection. `I WISH I WAS TALL` is ordinary-life/self-image texture without a numeric height. `I LOVE U` remains friendship-affection here, not romance. Packet is banked rather than forced into a Wall-only dossier.
-
-The miner's exact q18 parent-topology branch remains **retrieval-blocked / open** and was not falsely closed.
+Daycare gives ToniTan / `toniamocha` a warm 2020 onboarding seed with Ansun/Sota and low-bandwidth reciprocal heart-react participation. That is useful future texture, not enough for a standalone biography. Consumed and banked.
 
 ## MAIN vs WIKI routing
 
-WIKI reader changes are made only when a searchable dossier or structured reference owner genuinely needs the material. MAIN receives the richer person/legend/story-first fold when its production gate can be run safely. Already-public mechanisms are deduped by meaning instead of repeated because another miner rediscovered the same receipts.
+WIKI reader changes are made when an existing searchable dossier can absorb the material without becoming an archive report. MAIN receives the richer person/legend/story-first fold only when its production gate can be run safely.
 
-Run 542 reader changes: **0 on both surfaces**. No source was blindly mirrored.
+Run 543 published Rich's fresh mechanism to WIKI only. MAIN Rich already has the broader Funcle arc but not this recurring mock-chaperone detail; MAIN Anthos also has the right long-form owner for the new audience-builder contradiction. Both richer MAIN folds remain publication debt. MAIN's production workflow is deliberately decoupled from pushes and requires an intentional `workflow_dispatch`; the connected GitHub surface available in this run can inspect/re-run workflows but cannot initiate a fresh manual dispatch, so no MAIN reader source was mutated without a runnable production gate.
 
 ## Boundary decisions / carried holds
 
 - DyingFox stable-ID conflict remains unresolved: fresh QOTD `629467952100982784` vs canonical/current `471370475050762251 / dyingfox`.
+- Eos exact UL→Deviations reason/mechanics remains open; generic transition-word searching rotates.
+- Nhou direct assigned Birthday source remains blocked; support-room birthday hits are not promoted.
+- Assigned PR WOO direct author bridge remains unresolved.
+- Anthos direct creative body remains retrieval-constrained; 21 media-bearing posts do not equal 21 artworks.
+- Anthos `n-nom` 0.197s after Rooks's `critique me` remains adjacency, not a proven critique reply.
+- Rich's `young lady` mock-scolding is social comedy, not governance or literal family authority.
+- ToniTan remains a thin but coherent person seed, not a quota biography.
+- Zhēnxī/Rummy reciprocal `I love you` remains friendship-affection in context, not romance.
+- Wall screenshots remain POSTED BY their posters unless separate MADE BY / CAPTURED BY / FEATURING evidence exists.
 - HamitteY's 2022/2023 edible-name history is earlier continuity, not proof the 2024 counter consciously called it back.
 - HamitteY's casual `adhd brain too loud` self-description is not independently upgraded into a medical diagnosis.
 - Anayss/Gilli/Gabu warmth is reciprocal friendship/social recognition; no formal rank or romance inference.
-- Woosung gets no role/governance chronology or romance claim from Daycare.
-- ничего's `I LOVE U` is friendship-affection in context; no romance literalization. `I WISH I WAS TALL` supplies no numeric height.
-- Wall q18 remains retrieval-blocked/open.
+- Woosung remains consumed-and-banked; no forced thin Cast shell.
+- ничего / novikroeva remains consumed-and-banked; `I LOVE U` is friendship-affection in context and `I WISH I WAS TALL` supplies no numeric height.
+- Wall q18 remains retrieval-blocked/open where explicitly noted by the miner.
 - Skully666 and Grimlee remain banked developing people from Run 538.
 - Yozora account-access specifics remain privacy/security-sensitive and are not public/site-routed.
 - Jαkie intake-age data remains private and is not surfaced.
@@ -132,3 +103,7 @@ Run 542 reader changes: **0 on both surfaces**. No source was blindly mirrored.
 - Pooled `Deleted User` stays pooled. Similar names do not bridge identities without stable evidence.
 - Joke-family, mock-threat, and romance-coded language stay nonliteral without support.
 - SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct.
+
+## Previous public convergence anchors
+
+Run 541 published Miihi's low-word/high-context participation at reader head `82564280a6c862358eae0c1517406a07fe19b5ba` with successful Build + Pages deployment. Run 540 published HamitteY's edible-name genealogy and Anayss's reciprocal-warmth deepener at reader head `027e69f7addad6eda348de95b97269ef688c22d9`, also with successful Build + Pages deployment. Detailed histories remain in the corresponding `INTEGRATION_REPORT_RUN_*.md` files.
