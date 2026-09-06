@@ -1,95 +1,92 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-05/06 — Run 490 Cogumelo close_
+_Last updated: 2026-09-05/06 — Run 491 close_
 
-MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Detailed public reconciliation remains in `INTEGRATION_REPORT_RUN_*.md`; Run 490 is the latest substantive reconciliation report. Earlier state detail remains preserved in Git history and matching per-run reports rather than being duplicated indefinitely in this operational file.
+MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Detailed public reconciliation is in `INTEGRATION_REPORT_RUN_491.md`. Earlier run detail remains preserved in Git history and matching per-run reports rather than being duplicated indefinitely here.
 
 ## Current queue
 
 - **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**.
-- **0 newly discovered** this run.
-- **10 older MAIN publication-held families** remain separate from review state.
-- **0 backlog / 0 overdue**.
+- **0 newly discovered** in Run 491.
+- **0 unread pending review / 0 backlog / 0 overdue** at close.
+- **10 older MAIN publication-held families** remain publication debt, separate from review state.
 - Club-Only recovery lane `archive-miner/club-only-2021-2026-hourly` is current/saturated at `e45fb11c9239e236231bb65645dfd0285bc0078b`.
 - Club-Only 2020 recovery lane `archive-miner-clubonly-2020-hourly` is current/saturated at `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`.
 
-## Run 490 result
+## Run 491 reviewed deltas
 
-The mandatory full branch census found one advancing family, `archive-miner-qotd-officers-20260824`. It was reviewed checkpoint-first and intake-only across three successive boundaries:
+- Core Rooms / Events: `92036d71ef5c378853bb55b219f5ee0a6663b5d0` → `e806854f495a9d205e2eb21d0fd2c5471f2cc116`.
+- Louvre / AI Art / Athenaeum / Other Games: `1aa31ba46f57b4482d0eff8f6c095f4730e7ab36` → `47959a2bcec03e1dad5d9f0e36b2d4d881bf9aa3`.
+- Wall of Shame / Fame: `9459bbd2fe5c3338c7bf89819924034285845551` → `da28e8802595990425dede80f84021a77eebc11e`.
 
-- Ghostt: `52c663a41b0fd0f9b6b750a7caf2badcb65706df` → `706abe6cc1a2e416d4aaee93d67e5395c1ef278c`.
-- Cogumelo findings: `706abe6cc1a2e416d4aaee93d67e5395c1ef278c` → `d49d96e03c6e42c558fb308f700d1877f712dd19`.
-- Cogumelo checkpoint/site-candidate packaging: `d49d96e03c6e42c558fb308f700d1877f712dd19` → `2e08419746565f7c014b2ce5f5473aec734a9670`.
+All three were reviewed checkpoint-first and intake-only. No raw archive was re-mined. The closing head check found the branches unchanged at the reviewed SHAs. QOTD / Officers was already consumed through `2e08419746565f7c014b2ce5f5473aec734a9670` by Run 490 and was not reread.
 
-No raw archive was re-mined.
+## Public integration
 
-### Ghostt
+### Yumi — WIKI-only person-first deepener
 
-The Ghostt packet is **corroboration, not missing public story**. MAIN already owns the person-first game-state-goes-stale / social-recognition-persists spine. WIKI already has a substantial Ghostt dossier at `src/data/character-biographies-ghostt.ts`, including the December 2020 `Ghosttシ` / `Zero wing` doorway and December 2021 `Forsaken` nickname / left-and-uninstalled drift. No duplicate paragraph or episode was added.
+The Louvre suffix adds a compact contradiction that improves the existing Yumi biography without turning one receipt into a new event section.
 
-The initial Run 490 close briefly stated that WIKI lacked a Ghostt dossier. That was a reconciliation-state error and has been corrected; no lore or reader copy changed because of that correction.
+Yumi first says `i don't watch anime much so no clue` and that she is `trying to dig deeper now`. Four days later, while Mugen is discussing/posting Decora-related examples, Yumi casually drops `...tfw i was almost full gyaru`.
 
-### Cogumelo
+The public read is deliberately narrow: she can be honestly new to one subject without bluffing, then reveal a surprisingly adjacent almost-lived fashion/subculture side road of her own. Decora and gyaru are not collapsed into the same style, and `almost` is not upgraded into a complete gyaru timeline or expertise claim.
 
-Cogumelo's stable account `625043539276988447` directly self-reports `.月. underlords 20yo` during the December 10, 2023 Lobby intake. The next surviving Wall sample, roughly a day after Snow's human onboarding, is already socially fluent: Cogumelo posts a captionless image and the room does the narration. Twelve `Fat_Wheeze` reactions hit the source; Ren starts the Snow `inner furry` case twenty-two seconds later; Snow insists `FURY .. AS IN ANGRY` / `not FURRY`; Mugen true-replies directly to Cogumelo's source with `ew-no-gross`; Rotini asks for help; and Oyasumi returns to the same source the next morning with `What is he doing 😭` / `Caught my boy in 4k`.
+`src/data/character-biographies-yumi.ts` was deepened in place at exact reader commit **`8d3c25af9df2c2ed2d07da6dfd8756c6ba09a881`**.
 
-The pixels remain unavailable, so the public read is intentionally about **posting rhythm and room response**, not what or who the image depicts. One scene supports a narrow character mechanism — rapid fluency in Wall receipt grammar — but not a broad `chaotic` personality taxonomy.
+Verification for that exact reader head:
+- Build Underlords Wiki workflow **`34007160551`** — **success**.
+- Deploy Underlords Wiki Preview / Pages workflow **`34007160538`** — **success**, including GitHub Pages deployment.
 
-WIKI published this as a structured Episode rather than inventing a formal Cast role group: `src/data/integrator-episodes-cogumelo.ts`, title **Cogumelo Lets One Image Do All the Talking**.
+MAIN intentionally received no mirrored Yumi paragraph; WIKI's existing thematic owner was the cleaner person-shaped fit.
 
-Reader commit **`64828be44ea42d525d36e90ed99dfb339f460978`** verified successfully:
-- Build Underlords Wiki **`34006620387`** — **success**.
-- Deploy Underlords Wiki Preview **`34006620408`** — **success**.
-- Pages build job **`101414899699`** — **success**.
-- Pages deploy job **`101414954938`** — **success**, including `Deploy to GitHub Pages`.
+### Anayss ↔ Hic — accepted MAIN texture, publication-held
 
-MAIN intentionally received no reader paragraph: the material is useful but still too thin for MAIN's rich person/legend surface, and MAIN's controlled production gate is not dispatchable through the available integration connector. The finding is reviewed and banked rather than flattened into a shallow biography.
+The Wall suffix gives a stronger lived teasing rhythm. Hic posts a Wall attachment with `GOT HIM BOYS`; Anayss answers `Mfw Hic is abusing his power to spam my selfies on the wall xd` and then `Blocked, Reported. Banned.` Hic says he found one online; Anayss remains in the bit.
 
-## Current reviewed frontiers
+The relationship read is comfort-through-mock-escalation, not rupture. Attribution stays bounded: Hic is POSTED BY for the attachment; Anayss herself supports calling the images her selfies; photographer/original-source/maker claims are not invented.
 
-- Core Rooms / Events: `92036d71ef5c378853bb55b219f5ee0a6663b5d0` — reviewed/consumed; Hic/Ricochet cumulative person texture banked.
-- Wall: `9459bbd2fe5c3338c7bf89819924034285845551` — reviewed/consumed; Eos/sippp/first-Fame tail reconciled.
-- Louvre: `1aa31ba46f57b4482d0eff8f6c095f4730e7ab36` — reviewed/consumed; Jas suffix meaning-deduped.
-- Mugen person-first: `0d5da7259e9074af227eae5b28cd7c441b11b455` — reviewed/consumed; public-equivalent synthesis only.
-- QOTD / Officers: `2e08419746565f7c014b2ce5f5473aec734a9670` — reviewed through Cogumelo close; Ghostt meaning-deduped and Cogumelo published as WIKI Episode.
+This belongs on MAIN's richer Anayss person page, but MAIN's controlled reader workflow is `workflow_dispatch`-gated and the available GitHub connector does not expose a dispatch write. Run 491 therefore records the material as accepted/publication-held instead of making an unverified reader commit.
 
-## Latest reader publication — Run 490
+### Core Rooms / Events — banked, not inflated
 
-### Cogumelo — WIKI Episode
+- Rosario17 / Yazaki: warm boundary-setting and low-defensiveness about asking for practical help; still too thin and without a safe canonical public owner.
+- Prince Charm: curious half-outsider / bar-tourist texture; promising but not enough for a dossier.
+- Ricochet: corroboration of an existing public owner; no material character change.
 
-`src/data/integrator-episodes-cogumelo.ts` was added at reader commit **`64828be44ea42d525d36e90ed99dfb339f460978`**.
-
-The episode preserves the part we can actually know: a captionless Wall source becomes immediately legible to the room. It does not pretend the uninspected image pixels are known, and it does not turn a single strong scene into a full personality diagnosis.
-
-Verification for exact reader head `64828be44ea42d525d36e90ed99dfb339f460978`:
-- Build Underlords Wiki workflow **`34006620387`** — **success**.
-- Deploy Underlords Wiki Preview workflow **`34006620408`** — **success**.
-- Pages deploy job **`101414954938`**, step `Deploy to GitHub Pages` — **success**.
+Pride's fresh Wall material was also meaning-deduped against his existing precision/taxonomy-inside-nonsense characterization.
 
 ## Surface split
 
 ### WIKI
-- Reader-facing changes in Run 490: **1** (`src/data/integrator-episodes-cogumelo.ts`).
-- Ghostt: no reader change; existing dossier already owns the fresh evidence family.
-- Cogumelo: structured Episode added and successfully built/deployed.
+- Reader-facing changes in Run 491: **1** (`src/data/character-biographies-yumi.ts`).
+- Exact reader commit: `8d3c25af9df2c2ed2d07da6dfd8756c6ba09a881`.
+- Build `34007160551`: success.
+- Pages `34007160538`: success/deployed.
+- Detailed report: `INTEGRATION_REPORT_RUN_491.md`.
 
 ### MAIN
-- Reader-facing changes in Run 490: **0**.
-- Ghostt: duplicate/corroboration of current biography.
-- Cogumelo: reviewed/banked; deliberately not promoted to a thin MAIN biography.
-- No fresh MAIN source-verification/Astro/built-output/Cloudflare reader-deployment claim is made because the reader tree did not change.
+- Reader-facing changes in Run 491: **0**.
+- Anayss ↔ Hic accepted for MAIN but publication-held behind the controlled verification/deploy gate.
+- No fresh MAIN source-verification/Astro/built-output/Cloudflare reader-deployment claim is made.
 - The ten older accepted MAIN publication-held families remain publication debt, not unread miner work.
+
+## Current reviewed frontiers
+
+- Core Rooms / Events: `e806854f495a9d205e2eb21d0fd2c5471f2cc116`.
+- Louvre: `47959a2bcec03e1dad5d9f0e36b2d4d881bf9aa3`.
+- Wall: `da28e8802595990425dede80f84021a77eebc11e`.
+- Mugen person-first: `0d5da7259e9074af227eae5b28cd7c441b11b455`.
+- QOTD / Officers: `2e08419746565f7c014b2ce5f5473aec734a9670`.
 
 ## Hard holds still in force
 
+- Decora and gyaru are not treated as interchangeable; Yumi's `almost full gyaru` remains an `almost`.
 - Uninspected media: POSTED BY does not become MADE BY / CAPTURED BY / FEATURING.
-- Cogumelo's image contents/subject are unresolved; Ren's furry framing does not establish the pixels.
-- Oyasumi's `he` / `my boy` referent remains unresolved.
-- Cogumelo pronouns and exact in-game admission/recruiter chronology remain unresolved; `.月.` and `20yo` remain date-bounded self-report.
-- Joke law, fake jail, fake family, theatrical possession, joking proposal/divorce/corpse language, and joking role language do not become literal governance/family/romance/harm/appointment canon.
+- Anayss calling the images `my selfies` supports the selfie/subject description, not photographer or original-source claims.
+- Rosario17/Yazaki and Prince Charm do not receive invented identity bridges or statuses from thin context.
+- Joke law, blocking/banning language, fake jail, fake family, romance bits, violence bits, and theatrical role language do not become literal governance/relationship/harm canon.
 - Export-time/current role arrays do not establish appointment chronology.
 - Earliest surviving receipt does not establish origin unless separately supported.
-- Resolved project identity corrections override quarry-local uncertainty; similar names alone never create a bridge.
-- Ghostt's `15 -28`, exact Zero Wing→Forsaken transition, screenshot referent, and `porpcorn` origin remain unresolved.
+- Resolved project identity corrections override intake-local uncertainty; similar names alone never create a bridge.
 
-Latest detailed public integration: `INTEGRATION_REPORT_RUN_490.md`.
+Latest detailed public integration: `INTEGRATION_REPORT_RUN_491.md`.
