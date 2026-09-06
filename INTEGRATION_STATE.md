@@ -1,8 +1,8 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-06 — Run 527 final close + concurrency reconciliation_
+_Last updated: 2026-09-06 — Run 528 no-delta census close_
 
-MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Detailed reconciliation for this pass is in MAIN `INTEGRATION_REPORT_RUN_527.md`.
+MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Detailed reconciliation for this pass is in MAIN `INTEGRATION_REPORT_RUN_528.md`; the WIKI-local close is in `INTEGRATION_REPORT_RUN_528.md`.
 
 ## Current queue
 
@@ -13,7 +13,7 @@ MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH
 - **0 backlog / 0 overdue**.
 - Club-Only 2021–2026 remains current/saturated at `e45fb11c9239e236231bb65645dfd0285bc0078b`.
 - Club-Only 2020 remains current/saturated at `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`.
-- Closing full-ref census found all 30 active miner heads stable after review.
+- Run 528's full-ref census found all 30 active miner heads still equal to their consumed frontier. Both recovery lanes were rechecked unchanged; no raw archive was reopened.
 
 ## Current consumed frontiers
 
@@ -26,9 +26,9 @@ MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH
 - Whiskey: `4e3384e7fde76af0390896065dad1d3040071165`
 - Wall: `d6f791661bff7b6a14f11cd7344da2a5ab38203a`
 
-Run 527 reviewed Core Rooms / Events and Wall checkpoint-first through changed `archive-intake/*` handoffs only. Both Club-Only recovery lanes were rechecked without reopening raw archives.
+Run 528 found **no advanced or unconsumed active miner deltas**, so no reader-facing WIKI change was warranted and consumed SHAs remain unchanged. No Astro/Pages reader build or deployment is claimed for an unchanged reader tree.
 
-## Reader result
+## Latest verified reader state — Run 527
 
 ### WIKI
 
