@@ -1,11 +1,33 @@
 import type { CharacterNarrative } from "./character-biographies-narrative";
+import { miaNarrativeCharacterBios } from "./character-biographies-mia";
 import { snowNarrativeCharacterBios } from "./character-biographies-snow";
 import { zoshaaNarrativeCharacterBios } from "./character-biographies-zoshaa";
 
+const mia = miaNarrativeCharacterBios.mia;
 const snow = snowNarrativeCharacterBios.snow;
 const zoshaa = zoshaaNarrativeCharacterBios.zoshaa;
 
 export const run470NarrativeCharacterBios: Record<string, CharacterNarrative> = {
+  mia: {
+    ...mia,
+    sections: mia.sections.flatMap((section) => {
+      if (section.title !== "Maho walks through the front desk and Mugen realizes who she is") return [section];
+
+      return [
+        section,
+        {
+          period: "October 2022–June 2023",
+          title: "SHE COMES IN AS MIAKA, THEN STARTS SHOWING OTHER PEOPLE WHERE TO GO",
+          paragraphs: [
+            "A few weeks after the Maho alias puzzle, the same account gives the Lobby an almost aggressively efficient self-introduction: **`Miaka underlords 16`**. Hic answers **`Haiii miakaaaa`** almost immediately. There is no grand reveal hiding inside the three fields; the useful part is how little social explanation they need. Miaka supplies the form, Hic supplies the familiarity, and the room keeps moving.",
+            "By the following spring, Mia is already standing on the other side of that same front door. A newcomer arrives and Mia true-replies with the house orientation: light-pink names are minors / Platelets and should be treated responsibly, keep sensitive topics out of the room, take drama to DMs, here is Biodata, here is the server map, here is main chat. Then she adds **`roles be assigned soon`**. The funny little reversal is that her own intake had said sixteen only months earlier. The teenager who had just been processed through the doorway is now one of the people explaining the minor-safety warning to everybody else.",
+            "That practical competence does not erase the squealing. When LuCiel appears in June, Mia goes **`Lucielllll:Cute_Opposum:`**; nine seconds later LuCiel answers **`Miaaa`**. Mia immediately pivots from reunion noise to **`hai hai welcome answer the question and someone will get u inn`**, then drops the same safety-and-navigation block. Warmth and logistics are not separate Mia modes here. She can stretch somebody's name across the screen and, without changing rooms, become the person making sure they know what to do next.",
+            "Daya supplies the softest peer description in the same stretch: **`mia the UL honorary sweetheart`**. Mia's account answers with a wheeze and then a blush. Nobody needs to turn `Honorary Sweetheart` into an office for the line to matter. It is simply a tiny piece of reputation from somebody in the room, and Mia's reaction is very Mia: laughter first, embarrassment second, no acceptance speech."
+          ]
+        }
+      ];
+    })
+  },
   snow: {
     ...snow,
     sections: [
