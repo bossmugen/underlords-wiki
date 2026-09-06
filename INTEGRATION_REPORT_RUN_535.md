@@ -68,6 +68,8 @@ Reader-facing changes by this pass: **0**.
 
 Nothien's new material legitimately deepens a richer MAIN person biography, but MAIN's controlled source-verification → Astro → built-output verification → production deployment path was not run through a safe publication path in this pass. The complementary MAIN fold remains publication-held rather than mirroring WIKI prose or claiming an unverified deploy.
 
+**Hard-canon MAIN repair is also publication-held:** MAIN's Nothien frontmatter correctly says `he/him`, but its visible body still contains stale they/them references. This is a continuity error, not unresolved pronouns. WIKI's published Run-535 biography uses he/him; the next safe MAIN production-gated edit must correct the visible prose while folding in the new gameplay-helper material.
+
 May's late Louvre material did not require a new MAIN reader mutation because the current MAIN May owner already contains the same visual-play / Gilli / direction-and-sun synthesis.
 
 ## Consumption close
@@ -80,6 +82,7 @@ May's late Louvre material did not require a new MAIN reader mutation because th
 
 ## Held rabbits / boundaries
 
+- Nothien uses he/him; stale MAIN they/them body references are a known hard-canon continuity error awaiting the safe MAIN production gate.
 - DiStratus/Torr pronouns remain unresolved.
 - `finding peoples pet peeves XD` remains prompt-ambiguous.
 - GOODBYE UNDERLORDS maker remains unresolved.
