@@ -1,8 +1,24 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-06 — Run 546_
+_Last updated: 2026-09-06 — Run 547_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. This file records the WIKI side of the same reconciled evidence system; it does not maintain an independent canon.
+
+## Run 547 — Booba deepener banked, Wall consumed
+
+The full branch census found **51 tracked identities = 30 active matching refs + 21 historical/missing refs**, with **0 newly discovered branches**. One branch had advanced since Run 546: `archive-miner-wall-hourly-20260824`. That delta was reviewed checkpoint-first from `ae347502504dc1ed95ddbda8df3c12d5faf81f40` through stable current head `77d268ef94e29af146938e6eb1a13f0470c80545`. Both Club-Only recovery lanes remain saturated/current at `e45fb11c9239e236231bb65645dfd0285bc0078b` and `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`; no raw archive was reopened.
+
+Fresh Wall material deepens **Booba / MsThiccy**. Her surviving authored footprint remains microscopic — `Oh I forgot to share this one`, then one image six seconds later — but the reaction layer makes the social read much clearer. The image receives seven final-state `Fat_Wheeze` reactions; old Gilli then follows in the uninterrupted sequence with `:Fat_Wheeze:` and `You read me LOL`. The accepted cumulative read is **delayed receipt-dropper / low-volume, high-yield Wall participant**, with probable Booba↔old-Gilli **comfortable callout / amused recognition** texture.
+
+The packet is useful but still only one narrow Wall axis. Run 547 therefore does **not** force Booba into a one-scene Archive Cast shell. She is consumed-and-banked as a future WIKI Cast candidate pending another person dimension. This follows the same quality rule already applied to Queen Shimoko: contextual inference can be strong without requiring the site to manufacture a biography before there is enough person to inhabit it.
+
+Attribution remains strict downstairs: `CC5093CB-4675-4CEB-99E8-A4153E764945.jpg` is **POSTED BY Booba** only; maker/capturer/featured people and exact visual offense remain unresolved. Gilli's targethood is probable from uninterrupted adjacency, not visual confirmation. Booba's complete q18 branch is CLOSED NEGATIVE 0+/2−. Ten parent `783996881645371392` remains OPEN / RETRIEVAL-BLOCKED because it still fails exact self-recovery.
+
+Reader-facing WIKI files changed: **0**. No Build or GitHub Pages deployment is claimed for Run 547. The latest verified reader remains Run 545 head `c21cdcfa62dbed9fe1f98a122027840823a5ebe8`, whose Build and Pages deployment already succeeded. MAIN also receives no reader mutation this pass; older accepted MAIN Wall publication debt remains held behind MAIN's normal production gate.
+
+At Run 547 close there are **0 unread active tails, 0 backlog, 0 overdue**, and Wall `last_seen_sha` / `last_consumed_sha` both close at `77d268ef94e29af146938e6eb1a13f0470c80545`.
+
+Full report: `INTEGRATION_REPORT_RUN_547.md`.
 
 ## Run 546 no-op census
 
@@ -15,14 +31,14 @@ No consumption SHA changed. Current hard holds remain untouched, including the D
 ## Current controlling queue
 
 - **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**.
-- **0 newly discovered, 0 unread pending review, 0 backlog, 0 overdue** at the Run 546 census.
+- **0 newly discovered, 0 unread pending review, 0 backlog, 0 overdue** at the Run 547 close.
 - **10 reviewed MAIN publication-held families** remain publication debt only; WIKI does not reinterpret them as unread miner work.
 - QOTD / Officers — consumed through `c51cd1914f65cb8ae65b850b1d0da85ffccb94ed`.
 - Birthdays / PR / VC — consumed through `001b1322cab810a35cd8bf5e4990db3458e2bc94`.
 - Daycare — consumed through `1eacdc142b990ff283554da2176f5ac82eae45f5`.
 - Mugen person-first — consumed through `dbfc28e1f26ae50bf36b62667d151ff8fc166c0c`.
 - Whiskey — consumed through `3592be0e1550eb125bc8de1975aaaa1b44cdc8d9`.
-- Wall — consumed through `ae347502504dc1ed95ddbda8df3c12d5faf81f40`.
+- Wall — consumed through `77d268ef94e29af146938e6eb1a13f0470c80545`.
 - Louvre / AI Art / Athenaeum / Other Games — consumed through `9e93bae6dc9dc0ad97e5b9a6c8d2da8015e56e54`.
 - Club-Only 2021–2026 remains current/saturated at `e45fb11c9239e236231bb65645dfd0285bc0078b`.
 - Club-Only 2020 remains current/saturated at `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`.
@@ -92,6 +108,7 @@ Run 545 therefore publishes Zoshaa's fresh mechanism to WIKI now, keeps Queen ba
 - Jas exact admission / `Absent father` origin remains open.
 - Oyasumi/TankHead94 formal Discord onboarding is solved; exact in-game admission remains open.
 - Queen Shimoko remains a banked person seed, not a quota biography.
+- **Booba / MsThiccy is now also a banked person seed:** delayed receipt-dropper / low-volume high-yield Wall participant with probable old-Gilli amused-recognition texture; one narrow scene is not yet a dossier.
 - Zoshaa direct media classification remains object-level; posting counts are not authored-artwork counts.
 - Ten Wall retrieval remains blocked where the miner explicitly marks it blocked.
 - Nothien uses he/him; stale MAIN they/them body references remain a known continuity error awaiting a safe MAIN production-gated repair.
