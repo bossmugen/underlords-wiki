@@ -4,7 +4,7 @@
 
 - Full miner census: **51 tracked identities = 30 active matching refs + 21 historical/missing refs**.
 - Newly discovered: **0**.
-- Unread pending review at close: **0**.
+- Unread pending review at final close: **0**.
 - Backlog / overdue: **0 / 0**.
 - Both Club-Only recovery lanes remain current/saturated and were not churned.
 - MAIN controlling ledger closes with **10 reviewed publication-held branch records**; these are publication debt, not unread miner work.
@@ -35,6 +35,15 @@ The page now folds together:
 
 No healer class, exact rejoin chronology, continuous-contact claim, or closeness hierarchy was invented.
 
+### Late Louvre / AI / Athenaeum / Other Games
+`bc221de9b9fd3e1088f34af9e92bab76afac8091` → `0e7745dfa33d895bd724bf9e990ff6d17efacb97`
+
+A full branch recheck caught this branch moving after the first close, so it was reviewed checkpoint-first before the final close instead of being deferred.
+
+The `braindead` / `br4ind34d` stable account is the already-resolved May / Mayvis person. The handoff strengthens the existing read rather than creating a second character: component-level aesthetic judgment turns into shared Zepeto visual play; Gilli can tease/summon May into avatar nonsense with almost no setup; Anthos can summon May into a game session and get an immediate `I'll log in rn`; and the same person who can tell you why the hair does not match the outfit can later lose east, west, and apparently the sun in one bounded task scene.
+
+MAIN already owns this material in a rich May biography, while WIKI already carries the May/Missing Sun dossier. The late delta is therefore consumed as **duplicate/corroboration**. No second `braindead` profile or duplicate paragraph was manufactured.
+
 ## WIKI publication
 
 Reader files:
@@ -51,18 +60,23 @@ Verification against the final reader head:
 - GitHub Pages deploy job `101538730953`: **SUCCESS**.
 - Pages report job `101538762170`: **SUCCESS**.
 
+The late Louvre review produced no additional WIKI reader mutation, so no second deployment was necessary.
+
 ## MAIN surface
 
-Reader-facing changes: **0**.
+Reader-facing changes by this pass: **0**.
 
 Nothien's new material legitimately deepens a richer MAIN person biography, but MAIN's controlled source-verification → Astro → built-output verification → production deployment path was not run through a safe publication path in this pass. The complementary MAIN fold remains publication-held rather than mirroring WIKI prose or claiming an unverified deploy.
+
+May's late Louvre material did not require a new MAIN reader mutation because the current MAIN May owner already contains the same visual-play / Gilli / direction-and-sun synthesis.
 
 ## Consumption close
 
 - QOTD / Officers consumed through `f485808a827c586058bfec098da69959df6abb51`.
 - Birthdays / PR / VC consumed through `45a39c67b257a479b59b97c6dac4cdfbb9749648`.
 - Core Rooms / Events consumed through `559105ccf671253a94bcabafb7768f6e40394a05` after successful WIKI verification/deploy.
-- No late-moving reviewed branch head remained at closing recheck.
+- Louvre / AI / Athenaeum / Other Games consumed through `0e7745dfa33d895bd724bf9e990ff6d17efacb97` after the late-tail review.
+- Final recheck: **0 unread / 0 backlog / 0 overdue**.
 
 ## Held rabbits / boundaries
 
@@ -71,4 +85,6 @@ Nothien's new material legitimately deepens a richer MAIN person biography, but 
 - GOODBYE UNDERLORDS maker remains unresolved.
 - `Suzi sir` is scene-local wording, not an identity bridge.
 - Healing language is enacted behavior, not a fixed game class or profession.
+- May's Zepeto `shopping` is context-bounded and is not silently turned into real-world shopping canon.
+- May's direction/sun sequence stays one unresolved-context game/task scene, not a universal navigation judgment or location clue.
 - SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct.
