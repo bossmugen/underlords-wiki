@@ -1,45 +1,57 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-06 — Run 510 close_
+_Last updated: 2026-09-06 — Run 511 close_
 
-MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Detailed reconciliation for this pass is in `INTEGRATION_REPORT_RUN_510.md`.
+MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Detailed reconciliation for this pass is in `INTEGRATION_REPORT_RUN_511.md`.
 
 ## Current queue
 
 - **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**.
-- **0 newly discovered** in Run 510.
+- **0 newly discovered** in Run 511.
 - **0 unread pending review / 0 backlog / 0 overdue** at close.
 - **10 publication-held branch families** remain in MAIN's branch ledger.
 - Club-Only 2021–2026 remains current/saturated at `e45fb11c9239e236231bb65645dfd0285bc0078b`.
 - Club-Only 2020 remains current/saturated at `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`.
 
-## Run 510 reviewed frontier
+## Run 511 reviewed frontier
 
-- Daycare advanced from reviewed `f805ed2f0a0611bab2e86ded14f5180ab13e4e7d` to `915ca4a1e9f672a4c0d3fb195c4b8a33ff1c48b0` and was reviewed checkpoint-first.
-- The fresh ShiyaX package is duplicate/corroboration: `Yall need jesus bad` → `I AM THE CHAOS`, HamitteY's reciprocal teasing, repeated `:aworryWeirdExit:`, and the bounded food-coded support scene are already materially owned by the current WIKI ShiyaX dossier and MAIN ShiyaX people catalog.
-- Daycare `last_consumed_sha` intentionally remains `f7b601a43e58339c00642a556385e65fd8beb3c2` because the older accepted Eos MAIN animal/pet-sharing enrichment still has not cleared MAIN's controlled verification/deploy gate. This does **not** mean the ShiyaX suffix is unread.
-- Wall remains reviewed through `9f3c79a9eb0b40279140c643b8e726a6dc0e35da`; consumed SHA remains `6d8e6c53c901a26891025d84f46a7ad7f529d98c` while Korea's accepted A-strength cumulative profile lacks a settled public owner.
+- QOTD / Officers advanced from consumed `1f2e2318492e7cc4b8c6a1e75bedfd77c6cffc24` to `affd0744ecf8b5f5933ad4aa03ca1fff4f8373a4` and was reviewed checkpoint-first, intake-only.
+- Fresh Shiya material establishes one direct Discord/social invitation to a person who explicitly no longer played Dragon Raja; Ren then reassures the arrival, preserves local address/name `choco`, and gives the server tour.
+- The Shiya ↔ Tofu Wall scene gives a clean brake-versus-accelerator mechanism: Tofu says Shiya does not stop, Shiya asks `theres a limit ?`, Tofu answers `At least pace yourself`, then says `Shiya can’t be tamed.` The media itself remains uninspected.
+- QOTD / Officers is now consumed through `affd0744ecf8b5f5933ad4aa03ca1fff4f8373a4`; `consumed` means reviewed, not necessarily published on every surface. The branch remains `pending_publication` only because accepted MAIN material still sits behind MAIN's controlled production gate.
+- Daycare remains reviewed through `915ca4a1e9f672a4c0d3fb195c4b8a33ff1c48b0`; its consumed frontier remains `f7b601a43e58339c00642a556385e65fd8beb3c2` while older accepted Eos MAIN material is publication-held.
+- Wall remains reviewed through `9f3c79a9eb0b40279140c643b8e726a6dc0e35da`; consumed SHA remains `6d8e6c53c901a26891025d84f46a7ad7f529d98c` while Korea's accepted profile still lacks a settled public owner.
 
 ## Reader result
 
 ### WIKI
 
-Reader-facing files changed: **0**. The existing `src/data/character-biographies-shiyax.ts` already owns the fresh mechanism as person-level contradiction, relationship texture, and Petty Crimes rather than event spam.
+Reader-facing files changed: **1** — `src/data/character-biographies-shiyax.ts`.
 
-The latest reader publication therefore remains Run 509's Anayss deepener at `154c86302f3357d483322cd578e743b14e80b0b5`:
+The existing Shiya dossier now folds the new material into established person/relationship mechanisms rather than creating receipt spam:
+- the March Ghoulie threshold scene now connects to a directly attested May Discord/social invite outside active gameplay;
+- Ren gains a lived onboarding relationship verb: Shiya opens the social door, Ren handles the landing;
+- the Wall-court section now owns the Tofu rate-limiting scene while preserving the sealed-media boundary;
+- Petty Crimes carries the no-known-speed-limit joke without inventing what the screenshots depict.
 
-- Build workflow `34024482845`: **SUCCESS**.
-- Pages workflow `34024482776`: **SUCCESS**.
+Reader commit: `5bc2db4dfe26fb989ef7441c4b53f36557c8b986`.
+
+- Build workflow `34026366554`: **SUCCESS**.
+- Pages workflow `34026366454`: **SUCCESS**.
 - Pages build/artifact job: **SUCCESS**.
 - `Deploy to GitHub Pages` job: **SUCCESS**.
+- `wiki-build` status: **SUCCESS**.
+- `wiki-preview` status: **SUCCESS**.
 
 ### MAIN
 
-Reader-facing files changed: **0**. Run 510 persisted the full census and closing review state only. No MAIN source/Astro/dist/production reader deployment is claimed because the reader tree did not change. Eos's accepted animal/pet-sharing enrichment remains publication-held behind the controlled production gate.
+Reader-facing files changed: **0**. The same Shiya material is accepted as richer person-first MAIN biography enrichment, but MAIN's production path is deliberately gated through `.github/workflows/ul-hourly-build-deploy.yml` and the available connector does not expose a safe manual workflow-dispatch action. No MAIN source/Astro/dist/production reader deployment is claimed.
+
+The future MAIN fold should deepen the existing Shiya social-usher / chaos-with-room-literacy portrait rather than append a dated report paragraph.
 
 ## Reconciliation / banks
 
-- **ShiyaX:** current public dossier already owns mock moralizer ↔ self-implicating chaos, HamitteY reciprocal teasing, room literacy, and recurring `:aworryWeirdExit:`. Fresh miner suffix is corroboration, not a reason to append another receipt paragraph.
+- **ShiyaX:** WIKI now owns direct social-inviter behavior, Ren landing/onboarding, and Tofu rate-limiting as structured relationship/behavior material. MAIN version remains accepted publication debt.
 - **Eos animal/pet-sharing:** still accepted MAIN biography material: responsive pet-photo supplier; tiny animal-behavior narrator; easy Anayss request/follow-through; mundane Marian pet-story lane. Await MAIN publication gate.
 - **Korea / su.myeon:** substantial A-strength Cast/profile candidate remains held until a settled public owner exists.
 - **DiStratus / Torr:** substantial A-strength profile candidate carried forward.
@@ -48,10 +60,13 @@ Reader-facing files changed: **0**. Run 510 persisted the full census and closin
 
 ## Holds / safety rails
 
-- ShiyaX's 02:14 miner material is support-source Wall evidence and is not relabeled as direct Daycare speech.
-- `IMG_3551.png` is POSTED BY ShiyaX only; pixels were not inspected, so no MADE BY / CAPTURED BY / FEATURING / cooked / bought claim is created.
-- `I AM THE CHAOS` stays joking social reputation, not literal misconduct or a governance role.
-- RH16 remains unresolved. Saber adjacency is explicitly rejected as an identity bridge; older Oolong/Jockie evidence remains source-local.
+- Lobby stable ID `456226577798135808` is **not** resolved to Nemo in the Shiya invite scene. The Nemo bridge is QOTD-boundary scoped; `Choco` is a local Lobby address only.
+- Shiya sending a Discord/social invite does not create a formal recruitment title, in-game admission authority, or appointment chronology.
+- Ghoulie's earlier `GHOULIE IN UL` / `YOU JOINING BB ?` scene remains social pressure toward UL, not proof Shiya technically admitted her.
+- Tofu's September attachments are POSTED BY Tofu only. Pixels were not inspected; no MADE BY / CAPTURED BY / FEATURING or exact-activity claim is created.
+- `Shiya can’t be tamed` stays one peer line, not a formal role or recurring official slogan.
+- ShiyaX's Run 510 `IMG_3551.png` remains POSTED BY ShiyaX only; no cooked / bought / photographed / featured claim.
+- RH16 remains unresolved. Saber adjacency is rejected as an identity bridge; older Oolong/Jockie evidence remains source-local.
 - Marian's archived final caption on `eos.PNG` was edited after the immediate reactions. Do not claim Eos mechanically replied to the exact final wording. POSTED BY Marian only; pixels uninspected.
 - Korea's Apr. 23 attachment is POSTED BY Korea only; MADE BY / CAPTURED BY / FEATURING remain unresolved.
 - Dated age/profile states stay dated; no DOB/current-age inference.
@@ -66,6 +81,6 @@ Reader-facing files changed: **0**. Run 510 persisted the full census and closin
 - Daycare: `f7b601a43e58339c00642a556385e65fd8beb3c2` (reviewed through `915ca4a1…`; older Eos MAIN publication hold).
 - Louvre / AI / Athenaeum / Other Games: `644a1d6b76267afe57f42b9a6ad761ccfe21437b`.
 - Mugen person-first: `5f4295f3798ce8bc9c4e5946345ba1ddb703d832`.
-- QOTD / Officers: `1f2e2318492e7cc4b8c6a1e75bedfd77c6cffc24`.
+- QOTD / Officers: `affd0744ecf8b5f5933ad4aa03ca1fff4f8373a4`.
 - Whiskey: `1efdd9dd62dd1d4ee22dea35cc9e0426a2ea0148`.
 - Wall: `6d8e6c53c901a26891025d84f46a7ad7f529d98c` (reviewed through `9f3c79a9…`; publication-held).
