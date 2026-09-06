@@ -20,11 +20,11 @@ MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH
 - Daycare: `80fefc7da7ac59a94f7fc8f2cf732d3a0f48910b`
 - Louvre / AI / Athenaeum / Other Games: `3563b0fa39d053dc54fb30f524d84710b91ce28e`
 - Mugen person-first: `94121b38b5e363d74363b96d25c23a1109984ac8`
-- QOTD / Officers: `5241c762b530043abb5761927d41de75c1c36486`
+- QOTD / Officers: `e17c74017cb0fa3373f3e7accff95d5cc7f98a30`
 - Whiskey: `aea0279a452382e81dffd67f6b354d7767bb87e1`
 - Wall: `112d7634c3074eedcb4e338417cd8680233d992e`
 
-Run 523 reviewed Mugen person-first `92543fd1… → 94121b38…`, Wall `b67aceb8… → 112d7634…`, and a late-closing QOTD / Officers tail `57b938a7… → 5241c762…`. No raw archive was re-mined.
+Run 523 reviewed Mugen person-first `92543fd1… → 94121b38…`, Wall `b67aceb8… → 112d7634…`, and QOTD / Officers `57b938a7… → e17c7401…`. The QOTD substantive Panda pass landed through `5241c762…`; two immediate correction-only suffixes then synchronized the hard Panda man/he-him canon. No raw archive was re-mined.
 
 ## Reader result
 
@@ -35,6 +35,8 @@ Run 523 deepens **Aeshleen** and **Panda / Marian Kage** in place.
 Aeshleen's fresh Wall material gives a clean person mechanism rather than another incident: she explicitly says joking is how she copes and immediately downgrades her own strategy to `bad jokes`. Her later Anthos exchange keeps the same contradiction alive — `I still love you thooo`, `My favorite anthos`, a pat, then `That sounds like a you problem`. The public read is affectionate familiarity with teeth, not romance.
 
 Panda's QOTD material deepens several existing mechanisms at once. His demand for context now connects to a broader information-gathering habit; Eos's joking plan to copy his Hogwarts classes turns into a teacher/adviser scene when she asks him to teach her and he tells her to pay attention; his Discord-building hobby reads as systems thinking rather than governance; and his long-running dragon collection now has its naming logic and personal-meaning layer. His self-report that he is organized except for a `hot mess` desk preserves the correct contradiction.
+
+The late checkpoint correction explicitly reasserts current hard canon: **Panda is a man; he/him**. The public biography already used he/him, so that tail required no second reader change.
 
 Reader-facing files changed:
 
@@ -63,9 +65,9 @@ The Aeshleen and Panda material is also useful for richer MAIN biographies, but 
 - Mugen's fresh reunion / white-reaction care / Woohyuk-memory packet deepens already-public Mugen mechanisms and was consumed as duplicate/corroboration rather than appended as a report-like paragraph.
 - Aeshleen's school/dropout detail stays backstage; it is unnecessary personal detail for the public character story.
 - Aeshleen/Anthos affection is lived friendship texture, not a romance inference.
+- Panda's hard current canon is **man / he-him**; stale miner-local pronouns do not override it.
 - Panda's `feign ignorance` line is retained narrowly as information-gathering / making room for another person to contribute, not proof of manipulation.
 - Panda's Discord-building side hobby does not establish UL admin ownership, appointment chronology, or governance authority.
-- Stale pronouns in older QOTD material do not override current Panda canon.
 - Uninspected attachments remain **POSTED BY** only unless stronger evidence establishes MADE BY / CAPTURED BY / FEATURING.
 
 ## Carried holds
