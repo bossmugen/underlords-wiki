@@ -36,3 +36,8 @@ export const run515NarrativeCharacterBios: Record<string, CharacterNarrative> = 
     ]
   }
 };
+
+// Keep the later Run 516 Tofu/Cookie overlays discoverable without touching the
+// central biography registry in a separate commit. The registry imports this module
+// as a namespace and merges every exported narrative map in declaration order.
+export { run516NarrativeCharacterBios } from "./character-biographies-run516";
