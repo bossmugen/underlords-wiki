@@ -1,9 +1,11 @@
 import type { CharacterNarrative } from "./character-biographies-narrative";
+import { narrativeCharacterBios } from "./character-biographies-narrative";
 import { miaNarrativeCharacterBios } from "./character-biographies-mia";
 import { snowNarrativeCharacterBios } from "./character-biographies-snow";
 import { zoshaaNarrativeCharacterBios } from "./character-biographies-zoshaa";
 import { ricochetNarrativeCharacterBios } from "./character-biographies-ricochet";
 
+const anayss = narrativeCharacterBios.anayss;
 const mia = miaNarrativeCharacterBios.mia;
 const snow = snowNarrativeCharacterBios.snow;
 const zoshaa = zoshaaNarrativeCharacterBios.zoshaa;
@@ -11,6 +13,20 @@ const ricochet = ricochetNarrativeCharacterBios.ricochet;
 
 export const run470NarrativeCharacterBios: Record<string, CharacterNarrative> = {
   ricochet,
+  anayss: {
+    ...anayss,
+    sections: anayss.sections.map((section) => {
+      if (section.title !== "The same instinct moves from rooms to clocks") return section;
+
+      return {
+        ...section,
+        paragraphs: [
+          ...section.paragraphs,
+          "The same producer reflex could grab **content**, not just schedules. In July 2021 Snow was bragging about UL's `knowledge of pasties ... and there applicationly use`; Mugen joked that everybody had skipped the `entrance exam` but that this was `standard knowledge among our staff`. Anayss true-replied to that exact line: **`boss, that's totally giving us kahoot ideas`**, and tagged Gilli before the joke had even finished cooling off. Vanness immediately offered `jack kinhoff`, `moe lester`, and `Hugh Dick`; Gilli evil-clapped; Mugen answered with dark-side Kermit. There is no surviving proof that those exact questions shipped. The character beat is earlier than publication anyway: Anayss hears the room inventing bullshit and, almost instantly, starts seeing programming."
+        ]
+      };
+    })
+  },
   mia: {
     ...mia,
     sections: mia.sections.flatMap((section) => {
