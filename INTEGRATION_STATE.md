@@ -1,100 +1,88 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-06 — Run 538 close_
+_Last updated: 2026-09-06 — Run 540 close_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`.
 
 ## Current controlling queue
 
 - **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**.
-- **0 newly discovered, 0 unread pending review, 0 backlog, 0 overdue** at Run 538 close.
+- **0 newly discovered, 0 unread pending review, 0 backlog, 0 overdue** at Run 540 close.
 - **10 reviewed MAIN publication-held families** remain publication debt only; WIKI does not reinterpret them as unread miner work.
-- Birthdays / PR / VC is consumed through `bd98e87849d7badc41a5a82b48fcd56d876cae01`.
-- QOTD / Officers is consumed through `77995e7dc21c7868bbce831b348cc191521ae2b5`.
-- Mugen person-first is consumed through `7d2266a5f7a202717cf8a0289c9073cf6ac43dab`.
-- Wall is consumed through `f9c8b2463ef2c3eb0208e10406763aaad5b41790`.
-- Core Rooms / Events moved repeatedly during Run 538 and is consumed through `c88edacf80cdee7ec8c21ebb98423fbaa81dbf9d`.
+- QOTD / Officers is consumed through `88a8e0c53e1dc741248bd214ba7fc57c671c7527`.
+- Daycare is consumed through `2c529f9f3048c7e0d929e7a5338f4e76c80fb34d`.
+- Mugen person-first is consumed through `4aeea03f71d0ea25bf95e15c42ad1d47867d6fc0`.
+- Whiskey is consumed through `3592be0e1550eb125bc8de1975aaaa1b44cdc8d9`.
+- Wall moved late and is consumed through `095617728e1b1030aaa21f84f812af0e5b097b4f`.
 - Club-Only 2021–2026 remains current/saturated at `e45fb11c9239e236231bb65645dfd0285bc0078b`.
 - Club-Only 2020 remains current/saturated at `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`.
 
-## Run 538 public convergence — Aeshleen repair loop
+## Run 540 public convergence
 
-Fresh Wall material sharpened Aeshleen's established coping/repair grammar rather than creating a new incident ledger:
+### HamitteY — the room had been eating her name for years
 
-- Aeshleen replies to Ren's fastest-shame callback with `lemme alone 💔`;
-- Ren answers `ISS OKK AM SOWWY`;
-- Aeshleen returns with `bAHAHHA is oki ILY yall`;
-- Ren answers `WE LOVE U MOREEEE`;
-- elsewhere Ricochet answers Aeshleen's `stop bringing up my past 💔` with the Luffy-hat reward bit.
+Fresh QOTD material gives the 2024 food-counter bit an earlier history without turning chronology into a fake callback claim. In January 2022 Anayss was already trying `Glazed Ham`, while Nemo helped the room work Hami's name through ham / hamster / pig / `Porkchop Ham`. In 2023 Hami herself answered a five-star-dish prompt with `imma be a loaf of bread`.
 
-The person-level value is the speed of the repair. Protest is legible enough that an apology appears immediately, but the exchange does not require a formal rupture hearing: Aeshleen reassures the room and reciprocates affection in the same register. This remains friendship / room grammar, not literal romance or family.
+That material was folded into the existing **The name is community property with a rollback policy** section. The later `Five-Star Loaf` now has the right historical symmetry: before the room supersized her into bakery inventory, Hami had already volunteered to become bread.
 
-A concurrent WIKI reader commit landed while Run 538 was reconciling the same packet: **`4533e01b5034195244db0d6a94005f43bc77bd6e`** (`wiki: deepen Aeshleen repair loop`). The integrator respected that reader change rather than overwriting or duplicating it.
+A concurrent reader change landed first and added other QOTD HamitteY texture. Run 540 re-read current `main`, preserved those additions, and merged the edible-name history rather than overwriting them.
 
-Exact-head verification / deployment succeeded:
-- Build workflow `34054879282` — SUCCESS.
-- Pages workflow `34054879425` — SUCCESS.
-- Pages build/artifact job `101544900822` — SUCCESS.
-- Deploy to GitHub Pages job `101544962434` — SUCCESS.
-- Pages report job `101544993066` — SUCCESS.
+### Anayss — the room answers back
 
-## Run 538 reviewed without another public paragraph
+Fresh Whiskey material deepens Anayss beyond the useful welcomer / human map role. Gilli tells her she is `welcome anytime` and that she `brightens the room`, putting Anayss on the receiving end of the warmth she normally dispenses. Gabu supplies the better progression: early mutual unfamiliarity eventually becomes spontaneous acknowledgment of Anayss's pet post; Anayss says being acknowledged is a big deal, answers `hi dear ^-^`, and the exchange turns into hugs.
 
-### Noether / Anayss
+The WIKI synthesis now treats that reciprocity as character behavior: Anayss is highly tuned to whether people feel seen, which makes her equally sensitive to the moment somebody sees her back.
 
-The QOTD suffix independently re-established Noether's already-public belonging story with Anayss: Anayss picked her up when she was socially alone in-game, friendship language is reciprocal, and their warmth includes Anayss's sunset-bright description against Noether's habit of self-roasting her own nonsense. Recurring bread/pizza/cake/focaccia/cupcake shorthand adds ordinary cooking texture.
+## Reader verification / deployment
 
-Current `character-biographies-noether.ts` already owns those person mechanisms. The fresh suffix is consumed as corroboration, not paragraph mitosis. The QOTD working-body boundary is not treated as a departure date.
+Final exact reader head for Run 540: **`027e69f7addad6eda348de95b97269ef688c22d9`**.
 
-### Rich / DragonRich
+- Build workflow `34058527010` — **SUCCESS**.
+- Pages workflow `34058527180` — **SUCCESS**.
+- Pages build/artifact job `101554773724` — **SUCCESS**.
+- Deploy to GitHub Pages job `101554841123` — **SUCCESS**.
 
-Birthdays / PR / VC again shows Rich as an outsider/other-club regular who nonetheless participates fluently in UL birthday, voice, and house-cast behavior. The `Funcle rich` / `100+ nephews` bit is already public and remains joke-family language, not literal kinship or formal membership proof. No duplicate reader change.
+Reader files changed:
+- `src/data/character-biographies-hamittey.ts`
+- `src/data/character-biographies-run515.ts`
 
-### Mugen / ShiyaX context dosage
+Later state/report commits are reader-neutral and use `[skip ci]`.
 
-The current Mugen person-first package sharpens an already-public contradiction: preservation-minded Mugen is not an information maximalist. She can cut overload with `TOO MUCH CONTEXT`, but when somebody is one connective sentence short she can supply the missing context herself. With ShiyaX, that becomes fluent relationship timing: he can anticipate the overload switch while she remembers enough of his serial ordinary-life nonsense to translate it for somebody else.
+## Run 540 reviewed without another public page
 
-Current public owners already contain this mechanism. Generic context-supply / context-cutting repeats are now DNR unless somebody has to correct or recalibrate Mugen and the relationship actually changes.
+### Woosung
 
-## Run 538 new banked people — Core Rooms / Events
+The Daycare packet now gives Woosung a coherent seed: sparse but decisive participation, practical explaining/help when useful, comfortable one-line reactions that still alter the room, easy participation in teasing/affection, and recognizable warmth when he reappears after absence. Neither public surface currently has a settled Woosung owner. The material is consumed and banked rather than manufactured into a thin Cast shell.
 
-### Skully666
+### Mugen / ShiyaX
 
-Two authored moments give a compact but real contradiction:
+Fresh `welcome to your new home` / padded-cell / plushy material lands squarely inside the already-public Mugen↔Shiya context-calibration and affectionate institution-asylum joke lane. The miner handoff itself identifies the MAIN owner as already containing the mechanism. Consumed as duplicate/corroboration; no paragraph mitosis.
 
-- 2020 arrival: `Skully666, Is here to conquer. Shall there be redemption`.
-- 2021 temporary step-back: `not playing at the moment` because the updates are `quite something😅`.
+### ничего / novikroeva — late Wall mover
 
-Safe read: **theatrical when arriving / matter-of-fact when stepping back**. `at the moment` is explicitly temporary; no permanent quit, continuous inactivity, or appointment/leave chronology. Petty Crimes candidate: **Conquered by Patch Notes**, joke framing only.
+The late Wall suffix is person-synthesized but currently has no settled public owner. The useful contradiction is **emotionally obvious / explanation-evasive**: `because im crying` → Ryo `Why` → `im not answering that lol`; later Ryo's `Loser` gets `i am`. With Moon, being named as the shorter-person benchmark gets `SCRWAMING`; Moon softens immediately with `Your too adorable and pretty uwu`; ничего returns `I LOVE U I WISH I WAS TALL`.
 
-Skully remains banked until another relationship, contribution, taste, care/conflict, or later-return dimension makes a satisfying public owner.
+Safe relationship reads: Ryo is high-comfort blunt teasing / low-friction self-own; Moon is tease → theatrical protest → softening compliment → reciprocal affection. `I WISH I WAS TALL` is ordinary-life/self-image texture without a numeric height. `I LOVE U` remains friendship-affection here, not romance. Packet is banked rather than forced into a Wall-only dossier.
 
-### Grimlee
+The miner's exact q18 parent-topology branch remains **retrieval-blocked / open** and was not falsely closed.
 
-A changed Club-only authored route finally supplies person texture:
+## MAIN vs WIKI routing — Run 540
 
-- `HELP ME`;
-- `i may or may not have exposed myself`;
-- later, `I have saved myself by distracting homie with Honkai impact pictures:Yes:`.
-
-Safe read: **public self-owning / playful evasive improvisation**. Grimlee narrates the embarrassment, then narrates the escape route like a tiny tactical victory. A separate `They have a cat person` → `Toe beans` cluster supports bounded cute-animal-feature enthusiasm.
-
-`my friend`, `homie`, and `alberto` remain unresolved referents. The adjacent attachment is POSTED BY Grimlee only; pixels were not inspected. The Reply target for `Toe beans` is unresolved. Grimlee remains banked until a stronger named relationship/contribution axis develops; enacted warmth with a named recipient remains open.
-
-## MAIN vs WIKI routing — Run 538
-
-Integrator-authored WIKI reader changes this pass: **0**. The Aeshleen reader deepener arrived concurrently and was reconciled/verified as the public owner for the fresh Wall repair material.
+WIKI reader changes were appropriate for two already-mature owners: HamitteY's edible-name genealogy and Anayss's reciprocal-warmth relationship deepener.
 
 MAIN reader changes this pass: **0**. No MAIN reader source was mutated, so no MAIN source-verification / Astro / built-output / production deployment success is claimed. Existing accepted MAIN material remains explicitly publication-held behind the full production gate.
 
-Skully and Grimlee are reviewed-and-banked rather than manufactured into thin Cast shells. Noether, Rich, and Mugen/Shiya were deduped into their existing public owners rather than mirrored or appended.
+Woosung and ничего are reviewed-and-banked until each has a satisfying public owner. Mugen/ShiyaX is duplicate/corroboration only.
 
 ## Boundary decisions / carried holds
 
-- Aeshleen's repair loop is friendship / room grammar; no romance or kinship literalization.
-- Rich / DragonRich and Ricochet remain separate people.
-- Skully `at the moment` is temporary language; no permanent-departure claim.
-- Grimlee's unidentified `friend` / `homie` / `alberto` remain unresolved; no identity bridge by assumption.
+- HamitteY's 2022/2023 edible-name history is earlier continuity, not proof the 2024 counter consciously called it back.
+- HamitteY's casual `adhd brain too loud` self-description is not independently upgraded into a medical diagnosis.
+- Anayss/Gilli/Gabu warmth is reciprocal friendship/social recognition; no formal rank or romance inference.
+- Woosung gets no role/governance chronology or romance claim from Daycare.
+- ничего's `I LOVE U` is friendship-affection in context; no romance literalization. `I WISH I WAS TALL` supplies no numeric height.
+- Wall q18 remains retrieval-blocked/open.
+- Skully666 and Grimlee remain banked developing people from Run 538.
 - Yozora account-access specifics remain privacy/security-sensitive and are not public/site-routed.
 - Jαkie intake-age data remains private and is not surfaced.
 - Abie remains increasingly profile-ready across Whiskey + Wall but should become one real person rather than a receipt shell.
@@ -104,7 +92,6 @@ Skully and Grimlee are reviewed-and-banked rather than manufactured into thin Ca
 - Nothien uses he/him; stale MAIN they/them body references are a known continuity error awaiting a safe MAIN production-gated repair.
 - Direct Jonith creative-media classification remains open; media-bearing posts do not equal authored artworks.
 - Exact Han Media Director appointment remains unresolved; export-time/current role arrays do not date appointments.
-- Mr. Streamer controller identity remains unresolved; `Via Torr` is source credit only.
 - Current hard canon resolves **Zyrcant = Akariel / Akariel™ / akariel_star**; stale miner-local uncertainty cannot reopen it.
 - Pooled `Deleted User` stays pooled. Similar names do not bridge identities without stable evidence.
 - Joke-family, mock-threat, and romance-coded language stay nonliteral without support.
