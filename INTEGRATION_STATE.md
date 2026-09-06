@@ -1,31 +1,33 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-06 — Run 505 close_
+_Last updated: 2026-09-06 — Run 506 close_
 
-MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Detailed reconciliation for this pass is in `INTEGRATION_REPORT_RUN_505.md`.
+MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Detailed reconciliation for this pass is in `INTEGRATION_REPORT_RUN_506.md`.
 
 ## Current queue
 
 - **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**.
-- **0 newly discovered** in Run 505.
+- **0 newly discovered** in Run 506.
 - **0 unread pending review / 0 backlog / 0 overdue** at close.
 - **10 MAIN publication-held families** remain reviewed publication debt.
 - Club-Only 2021–2026 remains current/saturated at `e45fb11c9239e236231bb65645dfd0285bc0078b`.
 - Club-Only 2020 remains current/saturated at `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`.
 
-## Run 505
+## Run 506
 
-The mandatory full branch census was persisted on MAIN before deep review. Two miner families had genuinely advanced since Run 504: Core Rooms / Events and Wall. Both were reviewed checkpoint-first from their prior consumed frontiers and only through changed `archive-intake/*` handoffs. No miner branch was merged or cherry-picked and no raw archive was re-mined.
+The mandatory full branch census was persisted on MAIN before review. All 30 active miner heads matched the consumed frontiers recorded at Run 505 close, so there was no changed `archive-intake/*` handoff delta to inspect and no new public integration family. Both Club-Only recovery lanes were rechecked current/saturated/do-not-churn; no raw archive was re-mined.
+
+Reader-facing files changed: **0** on WIKI and **0** on MAIN. No fresh build/deployment is claimed for this reader-neutral pass. Run 505 therefore remains the latest substantive/verified WIKI reader publication.
+
+## Latest substantive public integration — Run 505
 
 The Core packet produced `The Spirit Thing`, a June 2020 mini-episode that deepens Gilli's lived competence: Rookie Cookie spots somebody in Earth, Gilli says `EVERYONE TO SPIRIT`, Mugen amplifies the call to Staff, and the group moves, fights, dies, leaves, and laughs about confusing the other side. Gilli's own `We all were fighting then left after we died XD` is the useful contradiction — concise live coordination without treating an inelegant result as embarrassment. An unresolved pooled speaker asks if they did the spirit thing `again`, and Mugen confirms yes; that supports prior recurrence, not an origin date or frequency. The exact Dragon Raja mechanic/location called `Spirit` remains unresolved.
 
-The Wall packet substantially deepened canonical Panda / Marian Kage rather than creating a separate Marian owner. Panda's new cumulative axis is **context lawyer / annotated curator / callback prosecutor**: he wants an exhibit framed correctly, but correct context does not need to save the defendant. With Eos he protests that `there's a whole meaning and context missing`; elsewhere, asked if another filing is merely out of context, he answers `no. that was the context`. He supplies `reference:` setup, complains when one of his own many shameful lines is chosen `without context`, reaches for old callbacks, and can promise `might shame later` and actually return later with the filing.
-
-## Public integration
+The Wall packet substantially deepened canonical Panda / Marian Kage rather than creating a separate Marian owner. Panda's cumulative axis is **context lawyer / annotated curator / callback prosecutor**: he wants an exhibit framed correctly, but correct context does not need to save the defendant. With Eos he protests that `there's a whole meaning and context missing`; elsewhere, asked if another filing is merely out of context, he answers `no. that was the context`. He supplies `reference:` setup, complains when one of his own many shameful lines is chosen `without context`, reaches for old callbacks, and can promise `might shame later` and actually return later with the filing.
 
 ### WIKI
 
-Reader-facing files changed:
+Run 505 reader-facing files changed:
 
 - `src/data/character-biographies-gilli.ts`
 - `src/data/character-biographies-panda.ts`
@@ -40,13 +42,11 @@ Exact final reader verification passed:
 - Pages deploy job `101449935199`: **SUCCESS**, including `Deploy to GitHub Pages`.
 - Pages report job `101449962674`: **SUCCESS**.
 
-The later Run-505 report/state commits are reader-neutral.
-
 ### MAIN
 
-Reader-facing changes: **0**.
+Reader-facing changes in Run 505: **0**.
 
-MAIN's controlling ledger closed Run 505 at `eceabc82ba72f8a2af76804c15aa53f01f84f4e5`. Core and Wall were successfully consumed through their current heads, but corresponding richer MAIN Gilli/Panda folds remain publication-held behind MAIN's controlled source-verification → Astro → built-output → production deployment gate. No fresh MAIN reader build/deployment is claimed.
+Corresponding richer MAIN Gilli/Panda folds remain publication-held behind MAIN's controlled source-verification → Astro → built-output → production deployment gate. No fresh MAIN reader build/deployment is claimed in Run 506 either.
 
 ## Duplicate / corroboration
 
@@ -66,7 +66,7 @@ MAIN's controlling ledger closed Run 505 at `eceabc82ba72f8a2af76804c15aa53f01f8
 
 - Exact `Spirit` mechanic/location remains unresolved.
 - `again` supports probable recurrence, not origin date or frequency.
-- Ritha remains user-confirmed Battle Leader because of her strategies; this pass did not recover an enacted tactical scene and therefore neither downgrades nor fabricates one.
+- Ritha remains user-confirmed Battle Leader because of her strategies; Run 505 did not recover an enacted tactical scene and therefore neither downgrades nor fabricates one.
 - `shengsi` is not bridged to Eos from adjacency alone.
 - Panda's account-use/privacy-adjacent Wall pocket remains backstage-only.
 - Uninspected Wall media remains POSTED BY only; tags do not become FEATURING / MADE BY / CAPTURED BY.
@@ -90,4 +90,4 @@ MAIN's controlling ledger closed Run 505 at `eceabc82ba72f8a2af76804c15aa53f01f8
 - Whiskey: `d50558f93c3dc03049802acdcc02b14a8d400318`.
 - Wall: `3f962b605b551adf249d691d514f31af2c844a73`.
 
-Latest verified WIKI reader publication is Run 505 at reader commit `7dbe0e67a03b870d550825c6b25f4dee3ac3b993` (Build workflow `34019701197`; Pages workflow `34019701198`; successful deploy job `101449935199`).
+Latest verified WIKI reader publication remains Run 505 at reader commit `7dbe0e67a03b870d550825c6b25f4dee3ac3b993` (Build workflow `34019701197`; Pages workflow `34019701198`; successful deploy job `101449935199`).
