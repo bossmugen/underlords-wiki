@@ -56,4 +56,50 @@ export const run530CharacterBios: Record<string, CharacterNarrative> = {
       },
     ],
   },
+
+  sarabunny: {
+    intro: [
+      "SaraBunny / foxcat is the kind of person who can occupy a room with almost no prose at all. Her 2021 file is full of tiny signals: a practical contest question, a heads-up that she may be quiet for a couple of days, one emergency hearing about whether saying `brr` when cold is weird, two cow noises, reaction clicks, a holiday shout, and a sticker. None of it is grand. Together it is unmistakably a person using UL like an ordinary social room instead of waiting for a major event to justify speaking.",
+      "That low-prose style makes the 2026 return land harder. After years away from the visible conversation, Sara does not reintroduce herself from scratch; she opens with `What's up underlords family`, Gilli answers by stretching her name across two messages, and the catch-up begins. The long gap belongs to the story, but so does the fact that recognition arrives before explanation.",
+    ],
+    sections: [
+      {
+        title: "SHE DOES NOT NEED A PARAGRAPH TO BE PRESENT",
+        paragraphs: [
+          "The Wall originally made Sara look almost comically small: `so much moo`, then `Mooo :Cat_Sporkle:`, then nothing visible until New Year. The reaction layer changes the silhouette. Between those two authored moo messages, Mugen posts a Tenor link whose own metadata calls it `cow-pet`; Sara is the only listed `Raja_Heart` reactor in the exported final state. The pixels are not needed for the character beat. Sara has already decided the cow-tagged thing deserves a heart, then returns to the room in text and continues communicating in moo.",
+          "That is the useful social habit: co-signing can be enough. Sara does not always need to seize the floor in order to be legible inside the joke. A heart, a tiny noise, an emoji, a sticker—her contribution often lands as a nudge rather than a speech.",
+        ],
+      },
+      {
+        title: "NEW YEAR IN FOUR DIFFERENT BUTTONS",
+        paragraphs: [
+          "On New Year's Eve, Gilli sends `HAPPY NEW YEAR LOVELIES!! @Staff`. Sara appears in the final exported user lists for three different reactions on that one greeting: `Raja_Heart`, `Raja_cat_kiss`, and `WheePan`. The export does not preserve which one she clicked first, which is fine; the interesting part is that one emotional register apparently was not enough.",
+          "Fifteen minutes later Sara writes `HAPPY NEW YEAR!`. Five and a half seconds after that, she sends a sticker whose exporter name is simply `happy`. This is a woman who can say Happy New Year, then apparently look at the sentence and decide it requires a visual aftercare package.",
+        ],
+      },
+      {
+        title: "SHE TELLS THE ROOM WHEN SHE IS GOING QUIET",
+        paragraphs: [
+          "One of Sara's earliest ordinary-life lines is `I'm not sure where to say this but I might not be that active for the next couple of days`. The hesitation is the good part. She is still learning where the house files things, but has already decided the people in it are worth warning before she disappears for forty-eight hours.",
+          "The Wall itself later goes quiet around her for months, then years pass before the reunion brings her back into a much larger conversation. The surviving record cannot turn every silent stretch into an absence from UL, and it does not need to. What matters is the recurring gesture: Sara can leave a room quiet and return without needing to perform a new identity when she comes back.",
+        ],
+      },
+      {
+        title: "MUGEN GETS THE COW HEART; GILLI GETS THE NAME STRETCHED BACK",
+        paragraphs: [
+          "Mugen's cow-tagged Tenor post gets Sara's sole listed heart in 2021, which is enough for a shared-bit lane without inventing a closeness ranking. Gilli's New Year greeting gets Sara's three reaction memberships, but that message is addressed broadly to Staff; it reads as community participation, not a private dyad.",
+          "The more personal Gilli beat arrives in 2026. Sara opens with `What's up underlords family`; Gilli answers `SARAAAAAAA SARA SARA` and `long time no seeeee`. That much stretched spelling is recognition made visible. Sara has questions about what happened while she was gone, but she does not have to ask whether she is remembered first.",
+        ],
+      },
+      {
+        title: "Petty Crimes",
+        paragraphs: [
+          "Brought `brr` to the group chat for peer review after apparently discovering that making cold noises might have social consequences.",
+          "Authored both `so much moo` and `Mooo :Cat_Sporkle:` and also appears as the sole final-state heart reactor on Mugen's cow-tagged Tenor link. The cow file is therefore not confined to one message type.",
+          "Reacted three different ways to one New Year greeting, then wrote `HAPPY NEW YEAR!`, then sent a sticker named `happy` 5.618 seconds later. Redundancy is apparently festive.",
+          "Can leave the room for years and return with `What's up underlords family` instead of a formal reintroduction. Extremely low tolerance for unnecessary onboarding.",
+        ],
+      },
+    ],
+  },
 };
