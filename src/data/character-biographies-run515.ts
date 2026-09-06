@@ -1,10 +1,12 @@
 import type { CharacterNarrative } from "./character-biographies-narrative";
 import { run470NarrativeCharacterBios } from "./character-biographies-run470";
 import { feliNarrativeCharacterBios } from "./character-biographies-feli";
+import { mugenNarrativeCharacterBios } from "./character-biographies-mugen";
 import { run516NarrativeCharacterBios } from "./character-biographies-run516";
 
 const anayss = run470NarrativeCharacterBios.anayss;
 const feli = feliNarrativeCharacterBios.feli;
+const mugen = mugenNarrativeCharacterBios.mugen;
 
 export const run515NarrativeCharacterBios: Record<string, CharacterNarrative> = {
   anayss: {
@@ -35,6 +37,20 @@ export const run515NarrativeCharacterBios: Record<string, CharacterNarrative> = 
         ]
       }
     ]
+  },
+  mugen: {
+    ...mugen,
+    sections: mugen.sections.map((section) =>
+      section.title === "Don't lose the shit"
+        ? {
+            ...section,
+            paragraphs: [
+              ...section.paragraphs,
+              "Long before the current archive project became a project, the people inside Mugs's screenshot habit could already see the labor. In February 2022 Key came back to Wall specifically to **`see how many times i appeared here`**, noticed **`mugs workin hard on them screenshots`**, and landed on **`dunno whether to be ashamed or impressed`**. That sentence is the useful problem. Mugen's preservation can be impressive work and public embarrassment at the same time; the person being preserved can return voluntarily, count their own crimes, and tease the woman maintaining the mirror. The archive instinct was not socially invisible just because nobody had called it an archive yet."
+            ]
+          }
+        : section
+    )
   },
   ...run516NarrativeCharacterBios,
 };
