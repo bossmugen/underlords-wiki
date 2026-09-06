@@ -55,17 +55,17 @@ export const run519NarrativeCharacterBios: Record<string, CharacterNarrative> = 
 
       return [
         {
-          title: "SELF-DEPRECATION HAS A VERY SHORT HALF-LIFE",
+          title: "THE FUZZY-BALLS WOMAN ALSO HAD FAST FINGERS",
           paragraphs: [
-            "Rummy can roast herself and then decide, almost immediately, that the roast has excellent branding potential. In a 2021 speed bit she thanks everybody, admits **`my fingers too fat so maybe i sucked`**, and then—once `the Sniper` gets floated—asks **`is that my new title? 👀`**. Seconds later she is claiming the upside herself: **`im pretty fast 🤣`**, while Nelph answers that she has speed. The embarrassment does not make Rummy smaller. It becomes runway. She hears the room turn a clumsy-fingers self-own into a fast-fingers reputation and starts feeding the new joke before anybody has time to file the paperwork.",
-            "That fits the older Rummy pattern better than a solemn role-history paragraph would. She can be genuinely self-deprecating without surrendering control of the bit; once a nickname or reputation becomes funny enough, she is willing to help author the version of herself everybody will remember. The exchange does not establish an appointment date or prove that this one joke created any formal Sniper role. It does show why role-language sticks to her so easily: Rummy is very good at taking the room's label, trying it on in public, and immediately adding accessories."
+            "Rummy's challenge-brain reputation gets a useful correction from the part of the house that actually needed her to be quick. The same woman whose tennis clue once collapsed into **`FUZZY BALLS AND BALLS AND SMACKING`** was later named one of Mugen's **`Snipers of the Week`**, with the announcement explicitly thanking the Snipers on call for their service. A few months later the anniversary wrap-up lists Rummy again among the **`Nitro Snipers`**, this time at **`x2`**, while congratulating the group for its **`fast fingers`**. Apparently the brain could be soup and the hands could still clock in.",
+            "That contradiction is much more Rummy than a clean competence label. She can be hilariously bad at retrieving one answer under pressure and still become somebody publicly recognized more than once in a speed-and-service lane. The point is not to turn `Sniper` into a personality or reverse-engineer a promotion calendar from announcements. It is that Rummy's clown moments never meant she was generally helpless. When the task fit her, she could apparently be fast enough for the room to keep score."
           ]
         },
         {
           ...section,
           paragraphs: [
             ...section.paragraphs,
-            "EnyoCal once announced **`the stinky is here`** when Rummy arrived. Rummy's answer—**`Oh my god my reputation precedes me`**—is the only sensible way to preserve this: not as a hygiene fact, thank Christ, but as another tiny reputation Rummy recognizes instantly and chooses to perform instead of litigate."
+            "Tae once announced **`rummy U STINK`**; Cookie translated that almost immediately into **`stinky rummy?`**. By the next month Tofu was asking whether Cookie and Rummy were having a **`stink off`**. This is a reputation joke, not an odor finding. No actual smell has been admitted into evidence, thank Christ."
           ]
         }
       ];
