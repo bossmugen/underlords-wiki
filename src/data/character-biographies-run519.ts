@@ -1,10 +1,16 @@
 import type { CharacterNarrative } from "./character-biographies-narrative";
 import { nelphNarrativeCharacterBios } from "./character-biographies-nelph";
+import { rummyNarrativeCharacterBios } from "./character-biographies-rummy";
 
 const nelph = nelphNarrativeCharacterBios.nelph;
+const rummy = rummyNarrativeCharacterBios.rummy;
 
 if (!nelph) {
   throw new Error("Run 519 expected the existing Nelph person-first biography.");
+}
+
+if (!rummy) {
+  throw new Error("Run 519 expected the existing Rummy person-first biography.");
 }
 
 export const run519NarrativeCharacterBios: Record<string, CharacterNarrative> = {
@@ -40,6 +46,29 @@ export const run519NarrativeCharacterBios: Record<string, CharacterNarrative> = 
       }
 
       return section;
+    })
+  },
+  rummy: {
+    ...rummy,
+    sections: rummy.sections.flatMap((section) => {
+      if (section.title !== "PETTY CRIMES") return [section];
+
+      return [
+        {
+          title: "SELF-DEPRECATION HAS A VERY SHORT HALF-LIFE",
+          paragraphs: [
+            "Rummy can roast herself and then decide, almost immediately, that the roast has excellent branding potential. In a 2021 speed bit she thanks everybody, admits **`my fingers too fat so maybe i sucked`**, and then—once `the Sniper` gets floated—asks **`is that my new title? 👀`**. Seconds later she is claiming the upside herself: **`im pretty fast 🤣`**, while Nelph answers that she has speed. The embarrassment does not make Rummy smaller. It becomes runway. She hears the room turn a clumsy-fingers self-own into a fast-fingers reputation and starts feeding the new joke before anybody has time to file the paperwork.",
+            "That fits the older Rummy pattern better than a solemn role-history paragraph would. She can be genuinely self-deprecating without surrendering control of the bit; once a nickname or reputation becomes funny enough, she is willing to help author the version of herself everybody will remember. The exchange does not establish an appointment date or prove that this one joke created any formal Sniper role. It does show why role-language sticks to her so easily: Rummy is very good at taking the room's label, trying it on in public, and immediately adding accessories."
+          ]
+        },
+        {
+          ...section,
+          paragraphs: [
+            ...section.paragraphs,
+            "EnyoCal once announced **`the stinky is here`** when Rummy arrived. Rummy's answer—**`Oh my god my reputation precedes me`**—is the only sensible way to preserve this: not as a hygiene fact, thank Christ, but as another tiny reputation Rummy recognizes instantly and chooses to perform instead of litigate."
+          ]
+        }
+      ];
     })
   }
 };
