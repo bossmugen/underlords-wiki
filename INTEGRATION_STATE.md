@@ -1,67 +1,74 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-06 — Run 534 close_
+_Last updated: 2026-09-06 — Run 535 close_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`.
 
 ## Current controlling queue
 
 - **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**.
-- **0 newly discovered**.
-- Opening census found Wall advanced; the reviewed Run 534 frontier is now **`e661082b470ae7577166107f8221f4245f6c40db`**.
-- **0 backlog / 0 overdue** at this reviewed frontier.
+- **0 newly discovered, 0 unread pending review, 0 backlog, 0 overdue** at close.
+- QOTD / Officers is reviewed through **`f485808a827c586058bfec098da69959df6abb51`**.
+- Birthdays / PR / VC is reviewed through **`45a39c67b257a479b59b97c6dac4cdfbb9749648`**.
+- Core Rooms / Events is reviewed through **`559105ccf671253a94bcabafb7768f6e40394a05`**.
 - Club-Only 2021–2026 remains current/saturated at `e45fb11c9239e236231bb65645dfd0285bc0078b`.
 - Club-Only 2020 remains current/saturated at `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`.
-- Older reviewed MAIN publication-held families remain publication debt only; WIKI does not reinterpret them as unread miner work.
+- Ten reviewed MAIN publication-held branch records remain publication debt only; WIKI does not reinterpret them as unread miner work.
 
-## Run 534 reader publication — SaraBunny
+## Run 535 reader publication — Nothien
 
-SaraBunny / `foxcat` now has a settled WIKI Archive / Extended Cast owner.
+Nothien's existing Archive / Extended Cast owner now has a real person-first biography instead of stopping at the old-return doorway.
 
-The public dossier folds the new reaction layer into the already-established person instead of making another Wall incident appendix:
+The public page folds the Core Rooms material into one character mechanism:
 
-- `so much moo` / `Mooo :Cat_Sporkle:` now sit beside Sara's sole final-state `Raja_Heart` membership on Mugen's cow-tagged Tenor metadata post;
-- Gilli's `HAPPY NEW YEAR LOVELIES!! @Staff` has Sara in three final reaction-user rows (`Raja_Heart`, `Raja_cat_kiss`, `WheePan`);
-- Sara then authors `HAPPY NEW YEAR!` and 5.618 seconds later posts the exporter-named `happy` sticker;
-- the cumulative person read is **low-prose, high-signal social participation**: tiny noises, hearts, reactions, stickers, practical notices, and then a 2026 return that opens with `What's up underlords family` rather than a formal reintroduction;
-- Mugen and Gilli relationship notes remain lived but bounded; no closeness hierarchy was invented.
+- in 2020 he chases an injured player with `lemme heal uuu`, `Suzi sir stop running lemme heal uuuu`, and `Stop running with half health barrrr`;
+- the same session has him repeatedly narrating himself as collateral damage — `Ive taken so much collateral damage`, `And now I ded`, `I didn't even hit themmmm` — so the useful contradiction is **trying to keep somebody else alive while insisting his own suffering be entered into the record**;
+- in 2023 he self-files as `Underlords(?)`, `Member(?)`, but unhedged `decently old`, which reads as selective formal caution rather than uncertainty about his own history;
+- Ren's `NOTHIIIII` lands a few minutes later as probable intended recognition, while Mugen's current-space orientation follows immediately after;
+- the older Raja goodbye remains part of the same arc: `I still have discord if you guys ever need someone to rant to or anything.` Game-side status can become fuzzy without the person becoming socially unrecognizable.
+
+The page does **not** invent a healer class, exact leave/rejoin chronology, continuous contact, or a permanent relationship ranking. `Suzi sir` remains scene-local wording rather than an identity bridge.
 
 Reader files:
-- `src/data/character-biographies-run530.ts`
-- `src/data/cast.ts`
+- `src/data/character-biographies-run525.ts`
+- `src/data/character-biographies-all.ts` (explicit Run-525 wiring added by the follow-up reader commit)
 
-Exact reader commit: **`5e7eb9069f547565ec093f49059509c38dea102a`**.
+Content commit: **`36a69b271175fb0b171d03411ba497d9432302cf`**.
+Final wired reader head: **`c0df06fddc8fe335f8666f95fbc9d7cd1e43e92a`**.
 
-Verification / deployment:
-- Build workflow **34051529929** — build job **101535911780 SUCCESS**, including Astro build.
-- Pages workflow **34051529705** — build/artifact job **101535911253 SUCCESS**.
-- Deploy to GitHub Pages job **101535978536 SUCCESS**.
-- Pages report job **101536008339 SUCCESS**.
+Verification / deployment for the final reader head:
+- Build workflow **34052569834** — build job **101538675474 SUCCESS**, including Astro build.
+- Pages workflow **34052569913** — build/artifact job **101538675904 SUCCESS**.
+- Deploy to GitHub Pages job **101538730953 SUCCESS**.
+- Pages report job **101538762170 SUCCESS**.
 
-## Run 534 reviewed without public promotion
+## Run 535 reviewed without public promotion
 
-### 愛Nuα / `ainua2675`
+### DiStratus / Torr / `torrentstorm`
 
-Wall's later live suffix produced a real but deliberately tiny profile seed: the account's only surviving authored Wall line is `Tanaka` + `Raja_Heart`, 27.268 seconds after a Mugen Tenor post, with final-state `Raja_dino_heart` co-signs from Mugen and Rummy.
+QOTD finally gives this stable account a coherent person seed rather than a username and vibes: thunderstorms are calming because they drown the world out, music mixes are used to cycle through emotions, low-light-pollution stargazing is worth seeking out, crash courses do not work well compared with detailed explanations, `Desolate Era` sits beside a Pokémon fanfic in the reading pile, and fate gets rejected in favor of countless tiny choices and minuscule differences.
 
-The response-to-embed reading is probable. `Tanaka` remains unresolved and the Tenor pixels were not inspected. This is worth retaining as future Petty Crimes/profile texture but still too one-axis for a public person page. No identity bridge to Nuien is permitted.
+That is enough for a strong future person read, but the current public cast has no mature canonical owner for DiStratus/Torr and pronouns remain unresolved. The material is banked rather than forced into a thin page whose only axis is QOTD self-description. No diagnosis, current-home inference, or role inflation is permitted.
 
-LEXI's isolated `I-` q18 branch closed negative without a safe trigger. Broad re-samples of Miku, Nekoz, Xephy, Rose, 影の戦士, gammaramma, and LEXI produced no new independent person axis.
+### Birthdays / PR / VC provenance packet
+
+No headline cleared the novelty gate. The GOODBYE UNDERLORDS maker remains unresolved: general `poster maker` context belongs to stable account `783389804079349800 / opalite.honey / ༯`, while the GOODBYE asset is posted by stable account `439628808545632256 / .miaxxx / m x`. Those accounts are not bridged. Pibs remains unresolved. The assigned voice-sidecar source remains blocked and was not substituted with unrelated material.
 
 ## Surface split / MAIN debt
 
-MAIN already has the richer SaraBunny biography. Run 534's reaction/sticker layer genuinely deepens that person-first owner, but MAIN reader source was intentionally left unchanged because the full source-verification → Astro → built-output verification → production deployment gate was not run safely through the connected tooling in this pass.
+Nothien's new gameplay-helper / selective-formality material is appropriate for a richer MAIN biography fold too, but MAIN reader source was intentionally left unchanged because the full source-verification → Astro → built-output verification → production deployment gate was not run through a safe publishing path in this pass.
 
-WIKI therefore received the structured searchable dossier now; MAIN keeps a publication-held richer fold rather than mirrored WIKI prose.
+WIKI therefore received the searchable person-first deepener now; MAIN keeps the complementary richer fold publication-held rather than mirroring WIKI prose.
 
 ## Boundary decisions
 
-- Sara reaction rows preserve final exported membership, not click order or click timestamps.
-- Tenor slug metadata is not visual inspection.
-- Sara's Wall silence is not proof of absence from UL or the server.
-- The `happy` sticker is not visually described beyond exporter metadata.
-- 愛Nuα / `ainua2675` is not Nuien. Similar names do not bridge identity.
-- `Tanaka` remains unresolved.
+- Nothien uses he/him; this is hard canon.
+- Healing dialogue is enacted help, not proof of a fixed healer class, profession, or permanent game role.
+- `Underlords(?)` / `Member(?)` does not prove a formal departure/rejoin chronology.
+- Ren's `NOTHIIIII` is strong contextual recognition, not a closeness hierarchy or proof of continuous contact.
+- DiStratus/Torr pronouns remain unresolved.
+- `finding peoples pet peeves XD` remains prompt-ambiguous and is not promoted into a hobby/talent claim.
+- GOODBYE UNDERLORDS remains POSTED BY its stable posting account; maker credit is unresolved.
 - SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct.
 - Current hard canon resolves **Zyrcant = Akariel / Akariel™ / akariel_star**; stale miner-local uncertainty cannot reopen it.
 
@@ -70,6 +77,7 @@ WIKI therefore received the structured searchable dossier now; MAIN keeps a publ
 - Abie remains increasingly profile-ready across Whiskey + Wall but should be published as one real person rather than a Wall-only shell.
 - Marsy remains a narrow but coherent near-silent Wall appreciator / preselected joke-gallery audience; no forced page yet.
 - Teri / kinzokumissu remains banked with human QOTD contribution, singing-as-hobby, direct Moon best-friend language, and an SAO bonding scene; no formal QOTD staff/professional singer inflation.
+- DiStratus / Torr is now a coherent future person seed; create an owner when the cast/social axis is strong enough, without inventing pronouns.
 - Direct Jonith creative-media classification remains open; media-bearing posts do not equal authored artworks.
 - Exact Han Media Director appointment remains unresolved. Export-time/current role arrays remain non-dating.
 - Direct ShiyaX Louvre creative-body inspection remains tooling-blocked.
