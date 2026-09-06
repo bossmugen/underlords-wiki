@@ -2,12 +2,15 @@ import type { CharacterNarrative } from "./character-biographies-narrative";
 import { miaNarrativeCharacterBios } from "./character-biographies-mia";
 import { snowNarrativeCharacterBios } from "./character-biographies-snow";
 import { zoshaaNarrativeCharacterBios } from "./character-biographies-zoshaa";
+import { ricochetNarrativeCharacterBios } from "./character-biographies-ricochet";
 
 const mia = miaNarrativeCharacterBios.mia;
 const snow = snowNarrativeCharacterBios.snow;
 const zoshaa = zoshaaNarrativeCharacterBios.zoshaa;
+const ricochet = ricochetNarrativeCharacterBios.ricochet;
 
 export const run470NarrativeCharacterBios: Record<string, CharacterNarrative> = {
+  ricochet,
   mia: {
     ...mia,
     sections: mia.sections.flatMap((section) => {
