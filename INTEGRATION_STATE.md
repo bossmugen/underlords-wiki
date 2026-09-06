@@ -32,10 +32,11 @@ The person-level value is the speed of the repair. Protest is legible enough tha
 A concurrent WIKI reader commit landed while Run 538 was reconciling the same packet: **`4533e01b5034195244db0d6a94005f43bc77bd6e`** (`wiki: deepen Aeshleen repair loop`). The integrator respected that reader change rather than overwriting or duplicating it.
 
 Exact-head verification / deployment succeeded:
-- Build workflow `34054879431` — SUCCESS.
+- Build workflow `34054879282` — SUCCESS.
 - Pages workflow `34054879425` — SUCCESS.
-- Pages build/artifact job `101544373227` — SUCCESS.
-- Deploy to GitHub Pages job `101544401435` — SUCCESS.
+- Pages build/artifact job `101544900822` — SUCCESS.
+- Deploy to GitHub Pages job `101544962434` — SUCCESS.
+- Pages report job `101544993066` — SUCCESS.
 
 ## Run 538 reviewed without another public paragraph
 
