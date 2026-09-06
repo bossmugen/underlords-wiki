@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-06 — Run 527 final close_
+_Last updated: 2026-09-06 — Run 527 final close + concurrency reconciliation_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Detailed reconciliation for this pass is in MAIN `INTEGRATION_REPORT_RUN_527.md`.
 
@@ -38,16 +38,17 @@ Sye asks for help without handing ownership of the problem away. When real-time 
 
 Snow gets the complementary contradiction. His first read is **`dont think we can`**, but he keeps checking rather than defending it. When Sye returns with the command, Snow immediately revises: **`oh nice so we can actually set the real time`**. His competence is more human when the answer is allowed to move. The exchange reads as low-ceremony peer troubleshooting: expertise goes to whoever has the next working piece, and the actual purpose is ordinary attendance support — reminders that help people get on.
 
-The visible reader fold is wired through `src/data/character-biographies-run515.ts`. A concurrent follow-up commit also added `src/data/character-biographies-run526.ts` with another Sye paragraph; that file is **currently unwired** from `character-biographies-all.ts`, so it does not create a second public Sye section in the live resolver.
+The visible reader fold is wired through `src/data/character-biographies-run515.ts`. A concurrent duplicate Sye overlay was briefly created in `src/data/character-biographies-run526.ts`, but it was never wired into the public resolver and was removed at `04e0b067d19fd1a8736333f97011fb61ff3b76f6` before the final close.
 
-The initial reader commit `d193d59af451680275a48ebede751de19d3d5ea4` passed the dedicated Build workflow but its Pages run was cancelled by the concurrent follow-up push. The exact deployed head is therefore **`442966307c04755782436bb64bc9efa29fd66de1`**, which contains the wired Sye/Snow fold plus the unwired Run-526 file.
+The same-family reader then deepened Sye further at **`a62f728a58bf6a11d59c91cce07f748be494b5d8`**, folding the 2021 Snow reunion and Sye's low-ego `I tried I have no idea what iam doing` hosting pattern into the existing person arc rather than a new event ledger.
 
-Exact-head verification:
+Latest exact-head verification:
 
-- Build workflow **34045907477** — **SUCCESS**
-- Pages workflow **34045907571** — **SUCCESS**
-- Pages build/artifact job **101520831697** — **SUCCESS**
-- Deploy to GitHub Pages job **101520924623** — **SUCCESS**
+- Build workflow **34046095989** — **SUCCESS**
+- Build job **101521290971** — **SUCCESS**
+- Pages workflow **34046096067** — **SUCCESS**
+- Pages build/artifact job **101521291506** — **SUCCESS**
+- Deploy to GitHub Pages job **101521367533** — **SUCCESS**
 - Live surface remains `https://bossmugen.github.io/underlords-wiki/`
 
 ### MAIN
