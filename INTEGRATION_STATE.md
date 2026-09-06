@@ -1,8 +1,8 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-06 — Run 522 close_
+_Last updated: 2026-09-06 — Run 523 close_
 
-MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Detailed reconciliation for this pass is in `INTEGRATION_REPORT_RUN_522.md`.
+MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Detailed reconciliation for this pass is in `INTEGRATION_REPORT_RUN_523.md`.
 
 ## Current queue
 
@@ -19,46 +19,54 @@ MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH
 - Core Rooms / Events: `f4c427cda4e78c3e2a9c6e92b392bdffedb8baa1`
 - Daycare: `80fefc7da7ac59a94f7fc8f2cf732d3a0f48910b`
 - Louvre / AI / Athenaeum / Other Games: `3563b0fa39d053dc54fb30f524d84710b91ce28e`
-- Mugen person-first: `92543fd185981b565bf693be0b7d7afca91f0308`
-- QOTD / Officers: `57b938a70d77e432bcca827f1dc78d3a4e93ebc5`
+- Mugen person-first: `94121b38b5e363d74363b96d25c23a1109984ac8`
+- QOTD / Officers: `5241c762b530043abb5761927d41de75c1c36486`
 - Whiskey: `aea0279a452382e81dffd67f6b354d7767bb87e1`
-- Wall: `b67aceb8b7b99ca826115505ccc04c7de40a592e`
+- Wall: `112d7634c3074eedcb4e338417cd8680233d992e`
 
-Run 522 reviewed exactly two advancing miner tails and both remained stable through the closing recheck: Daycare `48405fea… → 80fefc7d…` and Louvre/AI/Athenaeum/Other Games `1ceebc83… → 3563b0fa…`. No raw archive was re-mined.
+Run 523 reviewed Mugen person-first `92543fd1… → 94121b38…`, Wall `b67aceb8… → 112d7634…`, and a late-closing QOTD / Officers tail `57b938a7… → 5241c762…`. No raw archive was re-mined.
 
 ## Reader result
 
 ### WIKI
 
-Run 522 deepens **Han** in place rather than adding another role receipt. The new 2024–2025 material makes Event Coordinator legible as behavior: Han celebrates a clearance, asks Yangshen whether Cei actually did well, returns the next day to ask whether she needs improvements, accepts the critique with `Okiedokie 🫡`, and keeps the answer moving. A separate officer-planning beat with Mugen — `Roger ducky 🫡`, link/pin coordination, casual joking — adds the same low-ceremony competence from another angle. The role works because Han follows through, not because the title exists.
+Run 523 deepens **Aeshleen** and **Panda / Marian Kage** in place.
 
-Reader-facing file changed:
+Aeshleen's fresh Wall material gives a clean person mechanism rather than another incident: she explicitly says joking is how she copes and immediately downgrades her own strategy to `bad jokes`. Her later Anthos exchange keeps the same contradiction alive — `I still love you thooo`, `My favorite anthos`, a pat, then `That sounds like a you problem`. The public read is affectionate familiarity with teeth, not romance.
 
-- `src/data/character-biographies-han.ts`
+Panda's QOTD material deepens several existing mechanisms at once. His demand for context now connects to a broader information-gathering habit; Eos's joking plan to copy his Hogwarts classes turns into a teacher/adviser scene when she asks him to teach her and he tells her to pay attention; his Discord-building hobby reads as systems thinking rather than governance; and his long-running dragon collection now has its naming logic and personal-meaning layer. His self-report that he is organized except for a `hot mess` desk preserves the correct contradiction.
 
-Reader publication commit: **`889bbee6f6da20704e29aa8784c4350c312c34ce`**.
+Reader-facing files changed:
+
+- `src/data/character-biographies-aeshleen.ts`
+- `src/data/character-biographies-panda.ts`
+
+Exact reader publication commit: **`769d003bcb0892cd437c5ec4340bca095354ca94`**.
 
 Verification:
 
-- Build workflow `34039517061`: **SUCCESS**
-- Pages workflow `34039517128`: **SUCCESS**
-- Pages build/artifact job `101504001045`: **SUCCESS**
-- `Deploy to GitHub Pages` job `101504009672`: **SUCCESS**
+- Build workflow `34040436508`: **SUCCESS**
+- Pages workflow `34040436490`: **SUCCESS**
+- Pages build job `101506077494`: **SUCCESS**
+- `Deploy to GitHub Pages` job `101506139891`: **SUCCESS**
+- Pages report job `101506170968`: **SUCCESS**
 - Live surface: `https://bossmugen.github.io/underlords-wiki/`
 
 ### MAIN
 
 Reader-facing files changed: **0**.
 
-Han's fresh material is intentionally WIKI-only this pass because the structured dossier already owns his role progression and could absorb the new scenes as lived coordination rather than mirrored prose. No MAIN reader source changed, so no fresh MAIN source-verification/Astro/built-output/Cloudflare reader deployment is claimed.
+The Aeshleen and Panda material is also useful for richer MAIN biographies, but MAIN's controlled source-verification → Astro build → built-output verification → production-deployment path was not safely available through the connected tooling in this pass. No MAIN reader source was committed and no fresh MAIN build/deploy claim is made. Those richer folds remain publication-held, not unread evidence.
 
 ## Duplicate / developing decisions
 
-- Daycare's fresh **MOMO** packet is good corroboration, not a new biography axis. Ren's `YOU ARE SO CUTE` / `Thank chu!`, Astesia calling Momo supportive, `ALL LOVE FOR YOU`, and the later flower-stab joke all reinforce the public Momo already on WIKI: verbally abundant warmth and support with sudden sharp clown-chaos. The scenes are banked rather than appended as a receipt ledger.
-- **Mimi remains MOMO's twin and a separate person.** The fresh packet states the relationship directly; no identity merge was made from similar names or current display text.
-- MOMO's `_Stabs the flowers in the trash_ Your ass is mine you don't have a choice` is kept as joke/chaos texture. The surviving row does not preserve a direct reply target, so no literal romantic target or relationship claim was manufactured.
-- Louvre's direct creative-room body remains tooling-constrained. The Han deepener comes from adjacent event/backroom handoffs, not from pretending the blocked Louvre material was inspected.
-- Han is not credited with creating WACK Night from this packet. Cele and Cei are not merged merely because both appear in the same clearance thread.
+- Mugen's fresh reunion / white-reaction care / Woohyuk-memory packet deepens already-public Mugen mechanisms and was consumed as duplicate/corroboration rather than appended as a report-like paragraph.
+- Aeshleen's school/dropout detail stays backstage; it is unnecessary personal detail for the public character story.
+- Aeshleen/Anthos affection is lived friendship texture, not a romance inference.
+- Panda's `feign ignorance` line is retained narrowly as information-gathering / making room for another person to contribute, not proof of manipulation.
+- Panda's Discord-building side hobby does not establish UL admin ownership, appointment chronology, or governance authority.
+- Stale pronouns in older QOTD material do not override current Panda canon.
+- Uninspected attachments remain **POSTED BY** only unless stronger evidence establishes MADE BY / CAPTURED BY / FEATURING.
 
 ## Carried holds
 
@@ -66,5 +74,6 @@ Han's fresh material is intentionally WIKI-only this pass because the structured
 - Exact Han Media Director appointment remains unresolved. Export-time/current role arrays remain non-dating.
 - Direct ShiyaX Louvre creative-body inspection remains tooling-blocked.
 - Current hard canon resolves Zyrcant = Akariel / Akariel™ / akariel_star; stale miner-local uncertainty does not reopen it.
+- Rich / DragonRich and Ricochet remain separate people.
 - Mr. Streamer controller identity remains unresolved; `Via Torr` is source credit only.
 - Pooled `Deleted User` stays pooled. Similar names do not bridge identities without stable evidence. Joke-family, mock-threat, and romance-coded language stay nonliteral without support. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct.
