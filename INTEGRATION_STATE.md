@@ -1,8 +1,8 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-06 — Run 529 no-delta census close_
+_Last updated: 2026-09-06 — Run 530 source-boundary close_
 
-MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Detailed reconciliation for this pass is in MAIN `INTEGRATION_REPORT_RUN_529.md`; the WIKI-local close is in `INTEGRATION_REPORT_RUN_529.md`.
+MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Detailed reconciliation for this pass is in MAIN `INTEGRATION_REPORT_RUN_530.md`; the WIKI-local close is in `INTEGRATION_REPORT_RUN_530.md`.
 
 ## Current queue
 
@@ -13,11 +13,11 @@ MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH
 - **0 backlog / 0 overdue**.
 - Club-Only 2021–2026 remains current/saturated at `e45fb11c9239e236231bb65645dfd0285bc0078b`.
 - Club-Only 2020 remains current/saturated at `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`.
-- Run 529's opening and closing full-ref censuses found all 30 active miner heads still equal to their consumed frontier. Both recovery lanes were rechecked unchanged; no raw archive was reopened.
+- Run 530 reviewed the only advanced miner family, Birthdays / PR / VC, through its late packaging head `35f496745511b510307dc46f6ef0e9b3af97def3`. No reader-facing finding cleared integration.
 
 ## Current consumed frontiers
 
-- Birthdays / PR / VC: `445b36c0c8cc1cca6fce33845ec7ec34e127d59f`
+- Birthdays / PR / VC: `35f496745511b510307dc46f6ef0e9b3af97def3`
 - Core Rooms / Events: `0c0d9e592d2eef895ee31a32bbca66c0abb4ac9e`
 - Daycare: `80fefc7da7ac59a94f7fc8f2cf732d3a0f48910b`
 - Louvre / AI / Athenaeum / Other Games: `3563b0fa39d053dc54fb30f524d84710b91ce28e`
@@ -26,23 +26,23 @@ MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH
 - Whiskey: `4e3384e7fde76af0390896065dad1d3040071165`
 - Wall: `d6f791661bff7b6a14f11cd7344da2a5ab38203a`
 
-Run 529 found **no advanced or unconsumed active miner deltas**, so no reader-facing WIKI change was warranted and consumed SHAs remain unchanged. No Astro/Pages reader build or deployment is claimed for an unchanged reader tree.
+## Run 530 review result
+
+Birthdays / PR / VC advanced from `445b36c0c8cc1cca6fce33845ec7ec34e127d59f` through `35f496745511b510307dc46f6ef0e9b3af97def3`.
+
+The new packet is deliberately negative/source-boundary work rather than public lore. The `GOODBYE UNDERLORDS` GIF was reverse-searched through exact source filename, extracted/hash-bearing filename, and distinctive title-string handles; no usable duplicate, maker credit, provenance-bearing repost, or non-PR/public deployment receipt surfaced. Mia remains **POSTED BY** for the assigned PR artifact, while **MADE BY** and non-PR/public deployment remain unresolved. That route now rotates.
+
+Illien / Euros was checked in the private JAG transcript through exact `Illien`, `Euros`, and `eurosabraxas` strings; none occurred there. This is only a source-boundary negative. Illien's exact in-game admission and historical officer appointment remain open for a different private/HQ/Staff source, direct announcement, or admin/audit evidence. The JAG exact-name route now rotates rather than being reread forever.
+
+A DiStratus/Torr onboarding scene resurfaced but was already established by the 2026-09-04 packet and was deduped by meaning. No people, relationship, chronology, media, episode, quote, or location owner warranted reader mutation.
+
+Reader-facing WIKI files changed: **0**. No Astro/Pages reader build or deployment is claimed for an unchanged reader tree.
 
 ## Latest verified reader state — Run 527
 
-### WIKI
+Run 527 remains the latest reader publication. It deepened **Sye** and **Snow** through one September 2020 Saber troubleshooting sequence while giving each person a different job in the story: Sye asks for help but keeps ownership of the problem and goes digging in GitHub/documentation herself; Snow begins with `dont think we can`, keeps checking, and immediately revises when Sye finds the working configuration. The same family later folded Sye's 2021 Snow reunion and low-ego `I tried I have no idea what iam doing` hosting pattern into her existing person arc.
 
-Run 527 deepens **Sye** and **Snow** through one September 2020 Saber troubleshooting sequence, but gives each person a different job in the story.
-
-Sye asks for help without handing ownership of the problem away. When real-time reminder behavior appears unavailable, she says **`I’m look at github`**, keeps digging through the documentation, and returns with the usable configuration. The important continuity is not generic technical competence; it is that asking and self-directing happen in the same motion.
-
-Snow gets the complementary contradiction. His first read is **`dont think we can`**, but he keeps checking rather than defending it. When Sye returns with the command, Snow immediately revises: **`oh nice so we can actually set the real time`**. His competence is more human when the answer is allowed to move. The exchange reads as low-ceremony peer troubleshooting: expertise goes to whoever has the next working piece, and the actual purpose is ordinary attendance support — reminders that help people get on.
-
-The visible reader fold is wired through `src/data/character-biographies-run515.ts`. A concurrent duplicate Sye overlay was briefly created in `src/data/character-biographies-run526.ts`, but it was never wired into the public resolver and was removed at `04e0b067d19fd1a8736333f97011fb61ff3b76f6` before the final close.
-
-The same-family reader then deepened Sye further at **`a62f728a58bf6a11d59c91cce07f748be494b5d8`**, folding the 2021 Snow reunion and Sye's low-ego `I tried I have no idea what iam doing` hosting pattern into the existing person arc rather than a new event ledger.
-
-Latest exact-head verification:
+Latest exact-head verification remains:
 
 - Build workflow **34046095989** — **SUCCESS**
 - Build job **101521290971** — **SUCCESS**
@@ -51,19 +51,13 @@ Latest exact-head verification:
 - Deploy to GitHub Pages job **101521367533** — **SUCCESS**
 - Live surface remains `https://bossmugen.github.io/underlords-wiki/`
 
-### MAIN
-
-Reader-facing files changed: **0**.
-
-Sye and Snow already have mature long-form MAIN biographies, and this new exchange belongs inside those existing person arcs rather than as another timestamped event paragraph. The richer MAIN fold remains with the existing Core publication-held family. MAIN's required source-verification → Astro build → built-output verification → controlled production-deployment gate was not safely dispatchable through the connected repository actions, so no half-published reader source and no fake deployment claim were made.
+MAIN reader-facing files changed **0** in Run 530. Existing richer MAIN folds remain publication-held behind MAIN's required source-verification → Astro build → built-output verification → controlled production-deployment gate.
 
 ## Reviewed and banked future people
 
 ### Marsy
 
-Wall now has a coherent but still narrow Marsy lane. Old Gilli explicitly summons `@Milo @Marsy~ for your entertainment` into a lost-corpse exhibit before Marsy's surviving authored Wall lines. Marsy later answers Wall filings with **`LOL`** and **`That is beautiful`**. The proportionate person read is a near-silent joke-gallery appreciator whom Gilli already treated as somebody likely to enjoy the bit. That is enough for probable audience-selection familiarity; it is not enough to invent a close-friend tier or force a two-line biography into public existence.
-
-Marsy still has no settled public owner on either surface, so the packet is consumed and banked.
+Wall has a coherent but still narrow Marsy lane. Old Gilli explicitly summons `@Milo @Marsy~ for your entertainment` into a lost-corpse exhibit before Marsy's surviving authored Wall lines; Marsy later answers filings with `LOL` and `That is beautiful`. The proportionate read remains a near-silent joke-gallery appreciator whom Gilli already treated as somebody likely to enjoy the bit. No settled public owner yet.
 
 ### Abie
 
@@ -75,6 +69,8 @@ The prior QOTD packet remains banked: repeated human QOTD contribution, singing 
 
 ## Boundary decisions
 
+- `GOODBYE UNDERLORDS`: Mia is **POSTED BY** for the assigned PR artifact; maker and non-PR/public deployment remain unresolved. Exact filename/hash/title-string retrieval is now a rotated route on the current indexed surface.
+- Illien / Euros: exact-name silence in one JAG transcript is not an appointment date, non-officer state, or proof of absence from other private spaces. The exact admission and historical officer-appointment rabbits remain open.
 - The Core packet supports a lateral Sye/Snow troubleshooting relationship, not a formal technical partnership, fixed mentor hierarchy, bot ownership claim, or appointment chronology.
 - Exact `Spirit` mechanics and origin remain unresolved.
 - Marsy's Gilli summon supports probable audience familiarity, not close-friend ranking.
