@@ -20,9 +20,11 @@ The mandatory full branch census found one unread active suffix: `archive-miner-
 
 The fresh Ghostt packet is **corroboration rather than a missing public story**. MAIN's existing Ghostt biography already owns the stronger synthesis: Ghostt's game identity and club bookkeeping can go stale enough to become fuzzy while the Discord room still recognizes the person. Marian checking the displayed `Forsaken` nickname, only for Ghostt to explain that the nickname is stale too because they had already left and uninstalled, is exactly the sort of lived social memory the MAIN page already captures. No paragraph mitosis was warranted.
 
-WIKI intentionally does **not** create a Ghostt dossier from this packet alone. There is not yet enough structured role / relationship / episode / running-gag / quote / media density to justify a thin Cast shell. The same source can be integrated later when there is a real WIKI-shaped owner.
+WIKI also already has a substantial Ghostt owner at `src/data/character-biographies-ghostt.ts`. It already carries the December 2020 `Ghosttシ` / `Zero wing` doorway, the January Discord-without-Raja separation, and the December 2021 `Forsaken` nickname / left-and-uninstalled scene. The fresh handoff therefore deepens confidence in an existing structured dossier rather than creating a missing one. No duplicate episode or mirrored paragraph was added.
 
-Unresolved boundaries remain hard: trailing `15 -28` is not decoded; exact Zero Wing→Forsaken chronology is unrecovered; Discord role setup is not promoted to in-game admission/appointment chronology; the September screenshot is uninspected and its missing `this` referent stays missing; `porpcorn` origin remains unresolved.
+The initial Run 490 close briefly stated that WIKI lacked a Ghostt dossier. That was a reconciliation-state error and has been corrected in both this state file and `INTEGRATION_REPORT_RUN_490.md`; no lore or reader copy changed as a result.
+
+Unresolved boundaries remain hard: trailing `15 -28` is not decoded; exact Zero Wing→Forsaken chronology is unrecovered; Discord role setup is not promoted to in-game admission/appointment chronology; the September screenshot is uninspected and its missing `this` referent stays missing; `porpcorn` origin remains unresolved. The fresh quarry does not independently resolve pronouns, so it introduces no pronoun change to the already-sourced public owner.
 
 QOTD / Officers is now reviewed/consumed through `706abe6cc1a2e416d4aaee93d67e5395c1ef278c`. Its overall MAIN ledger status remains `pending_publication` only because older accepted QOTD / Officers material is still part of the ten-family MAIN publication debt; the fresh Ghostt suffix itself has no remaining public debt.
 
@@ -32,7 +34,7 @@ QOTD / Officers is now reviewed/consumed through `706abe6cc1a2e416d4aaee93d67e53
 - Wall: `9459bbd2fe5c3338c7bf89819924034285845551` — reviewed/consumed; Eos/sippp/first-Fame tail reconciled.
 - Louvre: `1aa31ba46f57b4482d0eff8f6c095f4730e7ab36` — reviewed/consumed; Jas suffix meaning-deduped.
 - Mugen person-first: `0d5da7259e9074af227eae5b28cd7c441b11b455` — reviewed/consumed; public-equivalent synthesis only.
-- QOTD / Officers: `706abe6cc1a2e416d4aaee93d67e5395c1ef278c` — reviewed/consumed; fresh Ghostt suffix is duplicate/corroboration of the current MAIN person-first owner.
+- QOTD / Officers: `706abe6cc1a2e416d4aaee93d67e5395c1ef278c` — reviewed/consumed; fresh Ghostt suffix corroborates existing MAIN and WIKI owners.
 
 ## Latest reader publication — Run 485
 
@@ -51,7 +53,7 @@ Verification for exact reader head `2dd7386f15864701b378bc3ecc2d2994a08e398f`:
 
 ### WIKI
 - Reader-facing changes in Run 490: **0**.
-- `INTEGRATION_REPORT_RUN_490.md` records the Ghostt reconciliation and the deliberate no-dossier decision.
+- `INTEGRATION_REPORT_RUN_490.md` records the Ghostt reconciliation and the corrected existing-dossier check.
 - No new Astro/Pages claim is made for the reader-neutral report/state close.
 - Latest verified reader head remains `2dd7386f15864701b378bc3ecc2d2994a08e398f` from Run 485.
 
