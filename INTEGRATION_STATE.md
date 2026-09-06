@@ -1,93 +1,88 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-06 — Run 506 close_
+_Last updated: 2026-09-06 — Run 507 close_
 
-MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Detailed reconciliation for this pass is in `INTEGRATION_REPORT_RUN_506.md`.
+MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Detailed reconciliation for this pass is in `INTEGRATION_REPORT_RUN_507.md`.
 
 ## Current queue
 
 - **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**.
-- **0 newly discovered** in Run 506.
+- **0 newly discovered** in Run 507.
 - **0 unread pending review / 0 backlog / 0 overdue** at close.
 - **10 MAIN publication-held families** remain reviewed publication debt.
 - Club-Only 2021–2026 remains current/saturated at `e45fb11c9239e236231bb65645dfd0285bc0078b`.
 - Club-Only 2020 remains current/saturated at `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`.
 
-## Run 506
+## Run 507
 
-The mandatory full branch census was persisted on MAIN before review. All 30 active miner heads matched the consumed frontiers recorded at Run 505 close, so there was no changed `archive-intake/*` handoff delta to inspect and no new public integration family. Both Club-Only recovery lanes were rechecked current/saturated/do-not-churn; no raw archive was re-mined.
+The mandatory opening census was persisted on MAIN before deep review. Two active miner refs had advanced and both were reviewed checkpoint-first, intake-only, without raw-archive re-mining:
 
-Reader-facing files changed: **0** on WIKI and **0** on MAIN. No fresh build/deployment is claimed for this reader-neutral pass. Run 505 therefore remains the latest substantive/verified WIKI reader publication.
+- Core Rooms / Events: `3592b538604d4f7b1a0ce4c7595898d2ed298af0` → `2310d4a50f246c505605db57adcc7fb2921af43b`.
+- QOTD / Officers: `b033b696460158570073e164c58909836d1a4a87` → `5b4d2678798eae9243eea7ab549b139c62d71fe1`.
 
-## Latest substantive public integration — Run 505
+### Rose
 
-The Core packet produced `The Spirit Thing`, a June 2020 mini-episode that deepens Gilli's lived competence: Rookie Cookie spots somebody in Earth, Gilli says `EVERYONE TO SPIRIT`, Mugen amplifies the call to Staff, and the group moves, fights, dies, leaves, and laughs about confusing the other side. Gilli's own `We all were fighting then left after we died XD` is the useful contradiction — concise live coordination without treating an inelegant result as embarrassment. An unresolved pooled speaker asks if they did the spirit thing `again`, and Mugen confirms yes; that supports prior recurrence, not an origin date or frequency. The exact Dragon Raja mechanic/location called `Spirit` remains unresolved.
+Core adds strong Rose person-texture that is not yet owned by the current MAIN biography: she directly says she is not very social and usually speaks when the conversation interests her or she feels like it; later she says her joy comes from bashing things she dislikes, then narrows the behavior to a specific conversational relationship and jokes that this is only `0.1%` of her Rose power. The useful cumulative read is **selective social activation**, not generic antisociality or indiscriminate meanness.
 
-The Wall packet substantially deepened canonical Panda / Marian Kage rather than creating a separate Marian owner. Panda's cumulative axis is **context lawyer / annotated curator / callback prosecutor**: he wants an exhibit framed correctly, but correct context does not need to save the defendant. With Eos he protests that `there's a whole meaning and context missing`; elsewhere, asked if another filing is merely out of context, he answers `no. that was the context`. He supplies `reference:` setup, complains when one of his own many shameful lines is chosen `without context`, reaches for old callbacks, and can promise `might shame later` and actually return later with the filing.
+The same packet adds flute, story-bearing horror, Scary Movie 2, sci-fi over high fantasy, Blade Runner / Akira / Cowboy Bebop / The Expanse, husky-or-no-dog, original pancake + butter, food-over-clothes spending, and strong negative anime takes. Mugen notices Rose's absences; Rose turns one reappearance into a `witness protection` joke. Ren/Tae `wife` language stays nonliteral. Rose's Nessa comments support high-frequency contact without manufacturing a closeness ranking.
 
-### WIKI
+WIKI already has Rose as historical cast plus an archive-backed dossier. This pass intentionally did **not** mirror MAIN-shaped Rose prose into WIKI. The fresh packet is banked for a future structured relationships/preferences expansion.
 
-Run 505 reader-facing files changed:
+**Identity rail:** project canon still controls the human identity `Rose = DarkAsrai / darkasrai`. The fresh Core packet also has a separate stable Discord ID displayed as `Rosé` and directly addressed as Rose in 2026. Do not silently collapse the two observed Discord IDs into one account history without a direct account bridge.
 
-- `src/data/character-biographies-gilli.ts`
-- `src/data/character-biographies-panda.ts`
+### Marsello
 
-Gilli's `The Spirit Thing` fold landed at `f5d25b63196f843acba8dfd69b4e39cde93e0cc2`. Panda's context-lawyer fold landed at final reader commit `7dbe0e67a03b870d550825c6b25f4dee3ac3b993`.
+Core adds a developing person packet: practical server help, fast low-ceremony responses, teasing that cushions itself, ticket/role troubleshooting, and familiar Mugen summoning/reappearance grammar. This is enough to bank, not enough to manufacture a thin Cast page. Remembered Italy/wife context remains hearsay/offline-life material; `Marsello (Hawke)` remains contextual gamer-tag text and does not merge Marsello with unrelated Hawke.
 
-Exact final reader verification passed:
+### Zyrcant / Akariel
+
+QOTD / Officers was reconciled under the hard lock **Zyrcant = Akariel**. The current public Zyrcant owner already contains the doorway recognition, Amaurot provenance, Server 1 residue, Officers Challenge enthusiasm / `i got bamboozled`, practical task pickup, Mugen familiarity, and Wall volunteering. This suffix is duplicate/corroboration only. No duplicate Akariel person and no receipt-ledger paragraph were created.
+
+## Public result
+
+Reader-facing files changed: **0 on WIKI / 0 on MAIN**.
+
+No reader source changed, so no fresh WIKI Astro/Pages build or deployment is claimed. Latest verified WIKI reader publication remains Run 505 at reader commit `7dbe0e67a03b870d550825c6b25f4dee3ac3b993`:
 
 - Build workflow `34019701197`: **SUCCESS**.
 - Pages workflow `34019701198`: **SUCCESS**.
-- Pages build job `101449875721`: **SUCCESS**.
-- Pages deploy job `101449935199`: **SUCCESS**, including `Deploy to GitHub Pages`.
-- Pages report job `101449962674`: **SUCCESS**.
+- Pages deploy job `101449935199`: **SUCCESS**.
 
-### MAIN
-
-Reader-facing changes in Run 505: **0**.
-
-Corresponding richer MAIN Gilli/Panda folds remain publication-held behind MAIN's controlled source-verification → Astro → built-output → production deployment gate. No fresh MAIN reader build/deployment is claimed in Run 506 either.
-
-## Duplicate / corroboration
-
-- Mugen's `Spirit Thing` role is amplification and delight, not origin credit; Gilli makes the visible call.
-- Rookie Cookie is a bounded participant/witness in that scene, not promoted into a durable prankster archetype from one episode.
-- Panda's existing Eos Wall war, self-filing, fake-court bureaucracy, awards/ranking instinct, and return/home texture were not duplicated as new event-ledger sections. The new material deepens one person-shaped contradiction: accurate context matters even when accurate context makes the charge worse.
-- Marian Kage is not a separate public character; the canonical owner remains Panda.
+MAIN's richer Rose fold remains accepted but publication-held behind MAIN's controlled source-verification → Astro → built-output → production deployment gate. No MAIN reader deployment is claimed.
 
 ## Banks carried forward
 
-- **Kip** is now more than a doorway card but still only a developing seed: he reports `AH, my game crashed` and remains socially present in the live chat afterward. This does not establish participation in `The Spirit Thing`, a successful game return, or a durable personality trait.
-- **Torr / DiStratus** remains a strong developing public candidate: predicts context collapse, continues creating it, explicitly blames Gilli as a bad influence, remembers Tae preserving an ambiguous deleted comment, catches malformed wording, and admits his own mind often turns a question into a statement halfway through. Direct later-Daycare bodies remain unavailable; support quotes must not be relocated into Daycare.
-- **BishopThaGuru** remains a substantial developing WIKI candidate: mock-suspicious Wall magnet, attention-as-affection converter, comfortable Bishop↔Tofu tease/investigation grammar, occasional receipt filer, and `heiroglyohics` Petty Crime. Affection language remains social/playful, not romance. Screenshot attribution remains POSTED BY Bishop only.
-- **Alaina** remains thin but person-shaped: context-checking skeptic, graceful retreat after context (`I see`), and compact incredulity (`This dude`, `Why are you here`, `Wow`, `Shameful`).
+- **Marsello** — practical helper / low-ceremony familiarity seed; not enough independent dimensions for a standalone public owner yet.
+- **Kip** — developing seed; game crash + continued social presence does not prove participation in `The Spirit Thing`.
+- **Torr / DiStratus** — strong developing candidate; direct later-Daycare bodies remain unavailable.
+- **BishopThaGuru** — substantial developing WIKI candidate; affection language remains social/playful and screenshot credit remains POSTED BY only.
+- **Alaina** — thin but person-shaped context-checking / compact-incredulity seed.
 
 ## Holds / safety rails
 
-- Exact `Spirit` mechanic/location remains unresolved.
-- `again` supports probable recurrence, not origin date or frequency.
-- Ritha remains user-confirmed Battle Leader because of her strategies; Run 505 did not recover an enacted tactical scene and therefore neither downgrades nor fabricates one.
+- Separate Rose Discord IDs are not silently collapsed into one account history.
+- Rose/Ren/Tae `wife` language is joking social language, not literal/legal/romantic status.
+- Marsello's Italy/wife update remains remembered/hearsay.
+- `Marsello (Hawke)` does not create a Hawke identity bridge.
+- Officers Challenge participation does not date Zyrcant's appointment.
+- Amaurot R5 provenance does not transfer rank into UL governance.
+- Export-time role arrays do not create appointment chronology.
+- Uninspected media remains attribution-limited: POSTED BY / MADE BY / CAPTURED BY / FEATURING stay distinct.
+- Exact `Spirit` mechanic/location remains unresolved; `again` supports prior recurrence, not origin/frequency.
 - `shengsi` is not bridged to Eos from adjacency alone.
-- Panda's account-use/privacy-adjacent Wall pocket remains backstage-only.
-- Uninspected Wall media remains POSTED BY only; tags do not become FEATURING / MADE BY / CAPTURED BY.
-- Mock reporting, ranking and demotion language is not formal moderation or appointment evidence.
 - Oyasumi exact in-game admission remains unresolved; later Discord processing is not an origin date.
 - Pibs remains thin; `PIBA` is not an identity bridge.
 - Nemo's `PRENTICE` remains unresolved game/social wording, not formal mentorship.
-- Nemo account-loss/restoration mechanics remain unresolved.
-- Nhou Tenor export metadata is not literal image-content evidence.
-- Gabu's access/role-processing scenes do not establish appointment chronology.
 - Ricochet / `dragonrichard` remains separate from Rich / DragonRich.
-- No appointment chronology was derived from export-time arrays.
 
 ## Consumed frontiers
 
 - Birthdays / PR / VC: `aedcddaa9e9bc0ada2a301bae205c958f9751090`.
-- Core Rooms / Events: `3592b538604d4f7b1a0ce4c7595898d2ed298af0`.
+- Core Rooms / Events: `2310d4a50f246c505605db57adcc7fb2921af43b`.
 - Daycare: `28d7e7b999a58cc596388fbf674db29f908164b9`.
 - Louvre / AI / Athenaeum / Other Games: `644a1d6b76267afe57f42b9a6ad761ccfe21437b`.
-- QOTD / Officers: `b033b696460158570073e164c58909836d1a4a87`.
+- QOTD / Officers: `5b4d2678798eae9243eea7ab549b139c62d71fe1`.
 - Whiskey: `d50558f93c3dc03049802acdcc02b14a8d400318`.
 - Wall: `3f962b605b551adf249d691d514f31af2c844a73`.
 
-Latest verified WIKI reader publication remains Run 505 at reader commit `7dbe0e67a03b870d550825c6b25f4dee3ac3b993` (Build workflow `34019701197`; Pages workflow `34019701198`; successful deploy job `101449935199`).
+Latest verified WIKI reader publication remains Run 505 at reader commit `7dbe0e67a03b870d550825c6b25f4dee3ac3b993`.
