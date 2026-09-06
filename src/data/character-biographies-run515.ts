@@ -7,6 +7,7 @@ import { run519NarrativeCharacterBios } from "./character-biographies-run519";
 import { run520NarrativeCharacterBios } from "./character-biographies-run520";
 import { run521NarrativeCharacterBios } from "./character-biographies-run521";
 import { run524NarrativeCharacterBios } from "./character-biographies-run524";
+import { run525NarrativeCharacterBios } from "./character-biographies-run525";
 
 const anayss = run470NarrativeCharacterBios.anayss;
 const feli = feliNarrativeCharacterBios.feli;
@@ -51,7 +52,7 @@ export const run515NarrativeCharacterBios: Record<string, CharacterNarrative> = 
             paragraphs: [
               ...section.paragraphs,
               "Long before the current archive project became a project, the people inside Mugs's screenshot habit could already see the labor. In February 2022 Key came back to Wall specifically to **`see how many times i appeared here`**, noticed **`mugs workin hard on them screenshots`**, and landed on **`dunno whether to be ashamed or impressed`**. That sentence is the useful problem. Mugen's preservation can be impressive work and public embarrassment at the same time; the person being preserved can return voluntarily, count their own crimes, and tease the woman maintaining the mirror. The archive instinct was not socially invisible just because nobody had called it an archive yet.",
-              "One 2023 Wall post arrives with Mugs's breezy **`posted w permits`**. That is very her: keep the receipt, but apparently put a little boundary wrapper on it when the moment calls for one. Aeshleen adds her own **`for the record...`** context nearby, which gives the scene its other useful half — being filed does not mean Mugs gets sole custody of what the moment meant."
+              "One 2023 Wall post arrives with Mugs's breezy **`posted w permits`**. That is very her: keep the receipt, but apparently put a little boundary wrapper on it when the moment calls for one. Aeshleen adds her own **`for the record...`** context nearby, which gives the scene its other useful half — being filed does not mean Mugs get sole custody of what the moment meant."
             ]
           }
         : section
@@ -62,4 +63,5 @@ export const run515NarrativeCharacterBios: Record<string, CharacterNarrative> = 
   ...run520NarrativeCharacterBios,
   ...run521NarrativeCharacterBios,
   ...run524NarrativeCharacterBios,
+  ...run525NarrativeCharacterBios,
 };
