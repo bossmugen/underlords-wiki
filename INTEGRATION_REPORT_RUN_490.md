@@ -30,11 +30,13 @@ A September 2021 Wall line, `Gilli really said I say this everyday`, sits beside
 
 **MAIN:** no reader mutation. `src/content/people/ghostt.md` already synthesizes the stronger story; another paragraph would be receipt duplication.
 
-**WIKI:** no Ghostt dossier yet. The current packet is too concentrated in one drift/return axis to justify a skeletal Cast shell. WIKI should wait for enough structured relationship, role, running-gag, episode, quote, or media density to make a real reference owner.
+**WIKI:** no reader mutation either. `src/data/character-biographies-ghostt.ts` is already a substantial Ghostt dossier and already owns this exact structured arc: the December 2020 `Ghosttシ` / `Zero wing` doorway, the January separation of Discord from Raja, and the December 2021 `Forsaken`-nickname / left-and-uninstalled scene. The fresh QOTD handoff corroborates that existing owner; it does not justify a second episode or mirrored paragraph.
+
+The initial Run 490 close briefly described WIKI as lacking a Ghostt dossier. That was a reconciliation-state error, not a lore change. This corrected report records the actual current public surface.
 
 ## Hard holds preserved
 
-- Ghostt remains name-neutral here; no pronoun inference was introduced.
+- This fresh quarry does not independently resolve Ghostt's pronouns; it therefore introduces no pronoun change. Existing public pronoun usage is left to its already-integrated source basis rather than being overwritten by quarry-local uncertainty.
 - `15 -28` remains uninterpreted.
 - Exact Zero Wing→Forsaken chronology remains unrecovered.
 - MEE6/Mugen role setup does not establish in-game admission or appointment chronology.
