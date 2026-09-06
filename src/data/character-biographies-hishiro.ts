@@ -4,9 +4,11 @@
 import { allNarrativeCharacterBios } from "./character-biographies-all";
 import { run80NarrativeCharacterBios } from "./character-biographies-run80";
 import { run282HishiroNarrativeCharacterBios } from "./character-biographies-run282-hishiro";
+import { run493HishiroNarrativeCharacterBios } from "./character-biographies-run493-hishiro";
 
 export const hishiroNarrativeCharacterBios = {
   ...allNarrativeCharacterBios,
   ...run80NarrativeCharacterBios,
   ...run282HishiroNarrativeCharacterBios,
+  ...run493HishiroNarrativeCharacterBios,
 };
