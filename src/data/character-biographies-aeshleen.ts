@@ -27,11 +27,20 @@ export const aeshleenNarrativeCharacterBios: Record<string, CharacterNarrative> 
         ]
       },
       {
+        period: "2023 → 2025",
+        title: "JOKES ARE A COPING MECHANISM, UNFORTUNATELY",
+        paragraphs: [
+          "Aeshleen is unusually explicit about where some of the nonsense comes from. In 2023 she says **`making jokes is my way to cope`**, then gives her own strategy the least flattering performance review possible: **`my way of coping is bad jokes`**. The downgrade is extremely her. She is not crowning herself the room comedian or pretending every stressful moment becomes profound because she can make it funny; she is admitting that reaching for a joke is one of her first reflexes and then making the joke partly about how questionable that reflex is.",
+          "Her warmth has the same teeth. With Anthos in 2025 she can go from **`I still love you thooo`** and **`My favorite anthos`** to a pat GIF, hear **`Maybe sorry isn’t enough`**, and answer **`That sounds like a you problem`**. The affection is not cancelled by the snap; the familiarity is what lets both exist in the same pocket. Around people she is comfortable with, care does not require a permanently soft voice. Sometimes it gets a pat. Sometimes it gets roasted while the pat is still warm."
+        ]
+      },
+      {
         title: "PEOPLE WHO CAN APPARENTLY GET AWAY WITH THIS",
         paragraphs: [
           "Mugen is already using **`aesh van gogb`** while Aeshleen is still being routed around the server, then becomes the person who gets her onto the Wall almost immediately and keeps the Van Gogh joke alive by offering to buy the painting. The shorthand predates the surviving scene, so the wiki does not pretend April 24 is the nickname's invention. What survives is familiarity already in motion.",
           "Ren is one of the people willing to exhume the old record a year later, and the repair is almost entirely visible in the wording: **`stop bringing up my past 💔`** becomes Ren apologizing, then Aeshleen saying **`ILY yall`**, then Ren yelling **`WE LOVE U MOREEEE`**. Nobody needs a formal relationship label to explain why the joke can survive that long. The ability to embarrass somebody and then hear the affection underneath the protest is already doing the work.",
-          "Baby Lyssa's **`it’s bulli with love`** lands during the very first surviving Wall mess, which makes her less narrator than translator of the room's existing grammar. Aeshleen's next move is not withdrawal; it is another joke. That timing is the useful part. The reassurance works because it gives Aeshleen somewhere to keep playing rather than asking her to stop being annoyed."
+          "Baby Lyssa's **`it’s bulli with love`** lands during the very first surviving Wall mess, which makes her less narrator than translator of the room's existing grammar. Aeshleen's next move is not withdrawal; it is another joke. That timing is the useful part. The reassurance works because it gives Aeshleen somewhere to keep playing rather than asking her to stop being annoyed.",
+          "Anthos gets a later version of the same permission structure. Aeshleen can call him her favorite, send a pat, and then answer his **`Maybe sorry isn’t enough`** with **`That sounds like a you problem`** without the exchange turning into a rupture. The warmth is explicit; so is the blade. That combination reads as lived familiarity, not a romance label."
         ]
       },
       {
@@ -39,6 +48,7 @@ export const aeshleenNarrativeCharacterBios: Record<string, CharacterNarrative> 
         paragraphs: [
           "**Van Gogh paperwork:** Mugen's **`aesh van gogb`** language is already present before the first surfaced Wall gag. Aeshleen later explains that this is why Mugen calls her that, but the actual coinage remains before the current boundary. Nobody gets to manufacture an origin scene just because the surviving callback is funny.",
           "**WONHO SUPREMACY:** on April 27, 2021 Aeshleen declares exactly that. Baby Lyssa asks **`who’s wonho`**. Aeshleen waits about twelve seconds and answers only **`. . .`**. Three punctuation marks manage to communicate the full spiritual collapse of having to explain your man.",
+          "**Self-reviewed coping strategy:** Aeshleen has openly described joking as a coping reflex and then immediately clarified that the jokes are bad. This is an extraordinarily efficient way to pre-file both the explanation and the complaint.",
           "**Profile whiplash:** older surviving Aeshleen material can look severe enough to produce **`ELITE KILLER`** language, while her own later joke-title pile includes things like **`Retired Mega Whale`** and **`Kidnapper of Noctis`**. Those are period self-presentation and jokes, not governance titles. The fun is that Aeshleen can apparently move from ominous game-card energy to fandom nonsense without feeling any need to pick one brand."
         ]
       }
