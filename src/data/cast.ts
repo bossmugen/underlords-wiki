@@ -33,15 +33,45 @@ const hamitteyCharacter: Character = {
   ],
 };
 
-export const allCharacters: Character[] = baseCharacters.some((character) => character.id === hamitteyCharacter.id)
-  ? [...baseCharacters]
-  : [...baseCharacters, hamitteyCharacter];
+const porgoCharacter: Character = {
+  id: "porgo",
+  name: "porgo!",
+  aliases: ["p0rg0"],
+  billing: "legacy",
+  role: "Archive-era Wall cast",
+  era: "2022",
+  logline: "Self-prosecuting Wall gremlin who brings their own evidence, reacts like it has poisoned them, and can turn toe jam into peach-flavored cuisine in three lines.",
+  tags: ["Archive cast", "2022", "Wall", "Screenshot Court", "Petty Crimes"],
+  relationships: [
+    {
+      name: "Daya",
+      note: "Daya repeatedly meets porgo's self-inflicted embarrassment in playful-support mode: a pat on the first self-filing, `what flavor?` in the toe-jam thread, and `let it out!!` after porgo announces imminent vomiting.",
+      href: "/characters/daya",
+    },
+  ],
+  quotes: [
+    "putting myself up here cause im very mad at myself",
+    "cuisine",
+    "peach :Cat_Drool:",
+    "im exposing myself",
+    "im gona vomit",
+  ],
+};
+
+const supplementalCharacters = [hamitteyCharacter, porgoCharacter];
+
+export const allCharacters: Character[] = [...baseCharacters];
+for (const character of supplementalCharacters) {
+  if (!allCharacters.some((existing) => existing.id === character.id)) allCharacters.push(character);
+}
 
 export const castGroups = baseGroups.map((group) => {
-  if (group.id !== "archive-cast" || group.characterIds.includes(hamitteyCharacter.id)) {
-    return { ...group, characterIds: [...group.characterIds] };
+  if (group.id !== "archive-cast") return { ...group, characterIds: [...group.characterIds] };
+  const characterIds = [...group.characterIds];
+  for (const character of supplementalCharacters) {
+    if (!characterIds.includes(character.id)) characterIds.push(character.id);
   }
-  return { ...group, characterIds: [...group.characterIds, hamitteyCharacter.id] };
+  return { ...group, characterIds };
 });
 
 export const characterById = new Map(allCharacters.map((character) => [character.id, character]));
