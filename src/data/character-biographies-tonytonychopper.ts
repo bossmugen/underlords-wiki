@@ -15,10 +15,11 @@ export const tonyTonyChopperNarrativeCharacterBios: Record<string, CharacterNarr
         ]
       },
       {
-        title: "RELATIONSHIPS — RUMMY PATS THE DEFENDANT",
+        title: "RELATIONSHIPS — THEY KEEP HANDING THE PAT BACK",
         paragraphs: [
-          "Rummy appears in both major prosecution pockets with the same tiny move: `*pat pat*`. After the February speedrun Tony is the sole heart-style reactor on the pat. On May 31 the choreography becomes structural: Rummy true-replies Tony's exact `NO` with `*pat pat*`; Tony true-replies that pat with `:Cat_Sporkle:`. Nearby, another teasing reassurance gets a blush response and a later pat gets another positive reaction.",
-          "The repetition gives Rummy and Tony a comfort-through-teasing shorthand. Rummy does not cancel the joke; she softens the landing from inside it. Tony does not suddenly become verbally sincere; a cute emote is enough to show the volume coming down. One person can keep yelling about the evidence while the other pats the defendant like a distressed housecat, and somehow both languages mean `we're fine`."
+          "Rummy and Tony's `pat pat` shorthand is older and more reciprocal than Tony's later defendant scenes make it look. In July 2020 Tony tags `Rum nya / Iris`; Rummy answers with the tiny evasive `n-no nth`. Tony does not interrogate the denial. Tony answers `Pat pat`, then escalates to `Pats faster`. Rummy starts `W-wait this is p-parental fr-` and the surviving line cuts off there. That fragment stays exactly what it is—a joke breaking off mid-thought, not permission to invent a literal family relationship. The useful thing is the ease of the gesture: Tony can mock-soothe Rummy's fluster without requiring either person to step outside the bit and explain the affection manually.",
+          "By 2022 the gesture has changed hands. After Marian's February speedrun Tony is the sole heart-style reactor on Rummy's `*pat pat*`. On May 31 the choreography becomes structural: Rummy true-replies Tony's exact `NO` with `*pat pat*`; Tony true-replies that pat with `:Cat_Sporkle:`. Nearby, another teasing reassurance gets a blush response and a later pat gets another positive reaction. Whether anybody was consciously calling back to 2020 is not something the chat needs to prove. The relationship still has a lovely mirror: Tony once patted a flustered Rummy; later Rummy can pat a catastrophically prosecuted Tony back down from inside the joke.",
+          "The receipt roles are reciprocal too. In April 2021 Rummy posts `ss? @TonyTonyChopper`; Tony answers `Caught in 4K UHD` with an attachment. Two months later, after another Rummy post, Tony goes straight to `Blackmail i see`. The linked media stays visually unresolved, so the page does not manufacture what anybody was caught doing. Socially, though, the pattern is clear enough: neither person is permanently the prosecutor or the defendant. They can summon each other into Screenshot Court, hand the soothing gesture back and forth, and complain about the evidence while continuing to help operate the machine."
         ]
       },
       {
@@ -60,7 +61,7 @@ export const tonyTonyChopperNarrativeCharacterBios: Record<string, CharacterNarr
       }
     ],
     closing: [
-      "Tony's Wall legend is not that the embarrassment disappears. It becomes navigable. Marian can file him and get the full emergency broadcast; Rummy can pat the defendant back down; Hami can threaten to put him back down and receive bread diplomacy; Tony can remember the house's old nonsense, demand screenshots, add a receipt, and eventually seize the paperwork to prosecute himself better. Screenshot Court does not cure Tony's dignity. It teaches him how to weaponize the appeal."
+      "Tony's Wall legend is not that the embarrassment disappears. It becomes navigable. Marian can file him and get the full emergency broadcast; Tony and Rummy can pass the pat back and forth depending on who is currently being cooked; Hami can threaten to put him back down and receive bread diplomacy; Tony can remember the house's old nonsense, demand screenshots, add a receipt, and eventually seize the paperwork to prosecute himself better. Screenshot Court does not cure Tony's dignity. It teaches him how to weaponize the appeal."
     ]
   }
 };
