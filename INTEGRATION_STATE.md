@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-05/06 — Run 490 Ghostt reconciliation close_
+_Last updated: 2026-09-05/06 — Run 490 Cogumelo close_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Detailed public reconciliation remains in `INTEGRATION_REPORT_RUN_*.md`; Run 490 is the latest substantive reconciliation report. Earlier state detail remains preserved in Git history and matching per-run reports rather than being duplicated indefinitely in this operational file.
 
@@ -8,7 +8,6 @@ MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH
 
 - **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**.
 - **0 newly discovered** this run.
-- **0 unread pending review** at close.
 - **10 older MAIN publication-held families** remain separate from review state.
 - **0 backlog / 0 overdue**.
 - Club-Only recovery lane `archive-miner/club-only-2021-2026-hourly` is current/saturated at `e45fb11c9239e236231bb65645dfd0285bc0078b`.
@@ -16,17 +15,35 @@ MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH
 
 ## Run 490 result
 
-The mandatory full branch census found one unread active suffix: `archive-miner-qotd-officers-20260824`, from consumed `52c663a41b0fd0f9b6b750a7caf2badcb65706df` to `706abe6cc1a2e416d4aaee93d67e5395c1ef278c`. It was reviewed checkpoint-first and intake-only; the branch was rechecked at close and remained at `706abe6c`.
+The mandatory full branch census found one advancing family, `archive-miner-qotd-officers-20260824`. It was reviewed checkpoint-first and intake-only across three successive boundaries:
 
-The fresh Ghostt packet is **corroboration rather than a missing public story**. MAIN's existing Ghostt biography already owns the stronger synthesis: Ghostt's game identity and club bookkeeping can go stale enough to become fuzzy while the Discord room still recognizes the person. Marian checking the displayed `Forsaken` nickname, only for Ghostt to explain that the nickname is stale too because they had already left and uninstalled, is exactly the sort of lived social memory the MAIN page already captures. No paragraph mitosis was warranted.
+- Ghostt: `52c663a41b0fd0f9b6b750a7caf2badcb65706df` → `706abe6cc1a2e416d4aaee93d67e5395c1ef278c`.
+- Cogumelo findings: `706abe6cc1a2e416d4aaee93d67e5395c1ef278c` → `d49d96e03c6e42c558fb308f700d1877f712dd19`.
+- Cogumelo checkpoint/site-candidate packaging: `d49d96e03c6e42c558fb308f700d1877f712dd19` → `2e08419746565f7c014b2ce5f5473aec734a9670`.
 
-WIKI also already has a substantial Ghostt owner at `src/data/character-biographies-ghostt.ts`. It already carries the December 2020 `Ghosttシ` / `Zero wing` doorway, the January Discord-without-Raja separation, and the December 2021 `Forsaken` nickname / left-and-uninstalled scene. The fresh handoff therefore deepens confidence in an existing structured dossier rather than creating a missing one. No duplicate episode or mirrored paragraph was added.
+No raw archive was re-mined.
 
-The initial Run 490 close briefly stated that WIKI lacked a Ghostt dossier. That was a reconciliation-state error and has been corrected in both this state file and `INTEGRATION_REPORT_RUN_490.md`; no lore or reader copy changed as a result.
+### Ghostt
 
-Unresolved boundaries remain hard: trailing `15 -28` is not decoded; exact Zero Wing→Forsaken chronology is unrecovered; Discord role setup is not promoted to in-game admission/appointment chronology; the September screenshot is uninspected and its missing `this` referent stays missing; `porpcorn` origin remains unresolved. The fresh quarry does not independently resolve pronouns, so it introduces no pronoun change to the already-sourced public owner.
+The Ghostt packet is **corroboration, not missing public story**. MAIN already owns the person-first game-state-goes-stale / social-recognition-persists spine. WIKI already has a substantial Ghostt dossier at `src/data/character-biographies-ghostt.ts`, including the December 2020 `Ghosttシ` / `Zero wing` doorway and December 2021 `Forsaken` nickname / left-and-uninstalled drift. No duplicate paragraph or episode was added.
 
-QOTD / Officers is now reviewed/consumed through `706abe6cc1a2e416d4aaee93d67e5395c1ef278c`. Its overall MAIN ledger status remains `pending_publication` only because older accepted QOTD / Officers material is still part of the ten-family MAIN publication debt; the fresh Ghostt suffix itself has no remaining public debt.
+The initial Run 490 close briefly stated that WIKI lacked a Ghostt dossier. That was a reconciliation-state error and has been corrected; no lore or reader copy changed because of that correction.
+
+### Cogumelo
+
+Cogumelo's stable account `625043539276988447` directly self-reports `.月. underlords 20yo` during the December 10, 2023 Lobby intake. The next surviving Wall sample, roughly a day after Snow's human onboarding, is already socially fluent: Cogumelo posts a captionless image and the room does the narration. Twelve `Fat_Wheeze` reactions hit the source; Ren starts the Snow `inner furry` case twenty-two seconds later; Snow insists `FURY .. AS IN ANGRY` / `not FURRY`; Mugen true-replies directly to Cogumelo's source with `ew-no-gross`; Rotini asks for help; and Oyasumi returns to the same source the next morning with `What is he doing 😭` / `Caught my boy in 4k`.
+
+The pixels remain unavailable, so the public read is intentionally about **posting rhythm and room response**, not what or who the image depicts. One scene supports a narrow character mechanism — rapid fluency in Wall receipt grammar — but not a broad `chaotic` personality taxonomy.
+
+WIKI published this as a structured Episode rather than inventing a formal Cast role group: `src/data/integrator-episodes-cogumelo.ts`, title **Cogumelo Lets One Image Do All the Talking**.
+
+Reader commit **`64828be44ea42d525d36e90ed99dfb339f460978`** verified successfully:
+- Build Underlords Wiki **`34006620387`** — **success**.
+- Deploy Underlords Wiki Preview **`34006620408`** — **success**.
+- Pages build job **`101414899699`** — **success**.
+- Pages deploy job **`101414954938`** — **success**, including `Deploy to GitHub Pages`.
+
+MAIN intentionally received no reader paragraph: the material is useful but still too thin for MAIN's rich person/legend surface, and MAIN's controlled production gate is not dispatchable through the available integration connector. The finding is reviewed and banked rather than flattened into a shallow biography.
 
 ## Current reviewed frontiers
 
@@ -34,38 +51,41 @@ QOTD / Officers is now reviewed/consumed through `706abe6cc1a2e416d4aaee93d67e53
 - Wall: `9459bbd2fe5c3338c7bf89819924034285845551` — reviewed/consumed; Eos/sippp/first-Fame tail reconciled.
 - Louvre: `1aa31ba46f57b4482d0eff8f6c095f4730e7ab36` — reviewed/consumed; Jas suffix meaning-deduped.
 - Mugen person-first: `0d5da7259e9074af227eae5b28cd7c441b11b455` — reviewed/consumed; public-equivalent synthesis only.
-- QOTD / Officers: `706abe6cc1a2e416d4aaee93d67e5395c1ef278c` — reviewed/consumed; fresh Ghostt suffix corroborates existing MAIN and WIKI owners.
+- QOTD / Officers: `2e08419746565f7c014b2ce5f5473aec734a9670` — reviewed through Cogumelo close; Ghostt meaning-deduped and Cogumelo published as WIKI Episode.
 
-## Latest reader publication — Run 485
+## Latest reader publication — Run 490
 
-### Daya — WIKI reader change
+### Cogumelo — WIKI Episode
 
-`src/data/character-biographies-daya.ts` was resynthesized in place at reader commit **`2dd7386f15864701b378bc3ecc2d2994a08e398f`**.
+`src/data/integrator-episodes-cogumelo.ts` was added at reader commit **`64828be44ea42d525d36e90ed99dfb339f460978`**.
 
-The biography centers Daya's lived contradiction instead of archive bookkeeping: **real procedure gets simplified; fake procedure gets a department.**
+The episode preserves the part we can actually know: a captionless Wall source becomes immediately legible to the room. It does not pretend the uninspected image pixels are known, and it does not turn a single strong scene into a full personality diagnosis.
 
-Verification for exact reader head `2dd7386f15864701b378bc3ecc2d2994a08e398f`:
-- Build Underlords Wiki workflow **`34002213376`** — **success**.
-- Deploy Underlords Wiki Preview workflow **`34002213359`** — **success**.
-- GitHub Pages deploy job **`101403031836`**, step `Deploy to GitHub Pages` — **success**.
+Verification for exact reader head `64828be44ea42d525d36e90ed99dfb339f460978`:
+- Build Underlords Wiki workflow **`34006620387`** — **success**.
+- Deploy Underlords Wiki Preview workflow **`34006620408`** — **success**.
+- Pages deploy job **`101414954938`**, step `Deploy to GitHub Pages` — **success**.
 
 ## Surface split
 
 ### WIKI
-- Reader-facing changes in Run 490: **0**.
-- `INTEGRATION_REPORT_RUN_490.md` records the Ghostt reconciliation and the corrected existing-dossier check.
-- No new Astro/Pages claim is made for the reader-neutral report/state close.
-- Latest verified reader head remains `2dd7386f15864701b378bc3ecc2d2994a08e398f` from Run 485.
+- Reader-facing changes in Run 490: **1** (`src/data/integrator-episodes-cogumelo.ts`).
+- Ghostt: no reader change; existing dossier already owns the fresh evidence family.
+- Cogumelo: structured Episode added and successfully built/deployed.
 
 ### MAIN
 - Reader-facing changes in Run 490: **0**.
-- The mandatory census and consumed QOTD frontier are persisted in `archive-intake/INTEGRATOR_BRANCH_STATE.json`; no public source file was changed.
-- No fresh MAIN source-verification/Astro/built-output/Cloudflare claim is made because the reader tree did not change.
+- Ghostt: duplicate/corroboration of current biography.
+- Cogumelo: reviewed/banked; deliberately not promoted to a thin MAIN biography.
+- No fresh MAIN source-verification/Astro/built-output/Cloudflare reader-deployment claim is made because the reader tree did not change.
 - The ten older accepted MAIN publication-held families remain publication debt, not unread miner work.
 
 ## Hard holds still in force
 
 - Uninspected media: POSTED BY does not become MADE BY / CAPTURED BY / FEATURING.
+- Cogumelo's image contents/subject are unresolved; Ren's furry framing does not establish the pixels.
+- Oyasumi's `he` / `my boy` referent remains unresolved.
+- Cogumelo pronouns and exact in-game admission/recruiter chronology remain unresolved; `.月.` and `20yo` remain date-bounded self-report.
 - Joke law, fake jail, fake family, theatrical possession, joking proposal/divorce/corpse language, and joking role language do not become literal governance/family/romance/harm/appointment canon.
 - Export-time/current role arrays do not establish appointment chronology.
 - Earliest surviving receipt does not establish origin unless separately supported.
