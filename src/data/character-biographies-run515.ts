@@ -23,6 +23,14 @@ export const run515NarrativeCharacterBios: Record<string, CharacterNarrative> = 
     sections: [
       ...anayss.sections,
       {
+        period: "2020–2021",
+        title: "THE ROOM ANSWERS BACK",
+        paragraphs: [
+          "Anayss does not just dispense warmth; people return it in the same tiny signals she is always watching for. Gilli tells her she is **`welcome anytime`** and that she **`brightens the room`**, leaving Anayss briefly on the receiving end of the social medicine she usually hands out herself. Her response is embarrassed, grateful, and reciprocal rather than ceremonial. She knows how to make a room feel welcoming; she is considerably less armored when the room notices that she is doing it.",
+          "Gabu makes the progression even clearer. Their earliest contact has the mutual little **wait, who is this?** wobble already elsewhere in the dossier. Later Gabu responds to an Anayss pet photo without needing a fresh invitation, clarifies that the acknowledgment was not some request for access, and Anayss says the acknowledgment itself is a big deal before answering **`hi dear ^-^`** and trading hugs. She runs a room by noticing whether people feel seen, which also means she notices immediately when somebody sees her back."
+        ]
+      },
+      {
         period: "Petty Crimes",
         title: "Petty Crimes",
         paragraphs: [
