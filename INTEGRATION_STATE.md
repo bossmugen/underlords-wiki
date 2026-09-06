@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-06 — Run 531 close_
+_Last updated: 2026-09-06 — Run 533 close_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`.
 
@@ -8,19 +8,27 @@ MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH
 
 - **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**.
 - **0 newly discovered**.
-- **0 unread active miner tails at Run 531 close**.
+- **0 unread active miner tails at Run 533 close**.
 - **0 backlog / 0 overdue**.
 - Club-Only 2021–2026 remains current/saturated at `e45fb11c9239e236231bb65645dfd0285bc0078b`.
 - Club-Only 2020 remains current/saturated at `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`.
 
-Run 531 reviewed and closes these frontiers:
+Run 531 remains the latest material review and closed these frontiers:
 
 - Core Rooms / Events through `c7ed4b5542a28e2153f95749eae0c1d4cec94981`.
 - Louvre / AI / Athenaeum / Other Games through `bc221de9b9fd3e1088f34af9e92bab76afac8091`.
 - Whiskey through `464956ed6ed750d896458a1fef08058e69dc593b`.
 - Wall through `8b68e6263d318910680ee84c23c38d974181cabf`.
 
-Closing remote census found all 30 active miner heads stable.
+Run 533's opening and closing remote census found all 30 active miner heads stable at their controlling `last_seen_sha` / `last_consumed_sha` frontiers. No miner delta advanced, no consumption frontier moved, and no raw archive was reopened.
+
+## Run 533 no-delta reconciliation
+
+Reader-facing WIKI files changed: **0**.
+
+No new character, relationship, episode, running-gag, quote, location, or gallery material arrived from miner branches. No Astro/Pages reader build or deployment is claimed for this run because no reader source changed. Run 531's Jonith publication remains the latest reader-facing WIKI change.
+
+The ten reviewed MAIN publication-held branch families remain publication debt only; WIKI does not reinterpret them as unread.
 
 ## Run 531 reader publication — Jonith
 
