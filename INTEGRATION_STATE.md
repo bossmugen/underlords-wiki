@@ -1,16 +1,17 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-06 — Run 535 close_
+_Last updated: 2026-09-06 — Run 535 late close_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`.
 
 ## Current controlling queue
 
 - **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**.
-- **0 newly discovered, 0 unread pending review, 0 backlog, 0 overdue** at close.
+- **0 newly discovered, 0 unread pending review, 0 backlog, 0 overdue** at final close.
 - QOTD / Officers is reviewed through **`f485808a827c586058bfec098da69959df6abb51`**.
 - Birthdays / PR / VC is reviewed through **`45a39c67b257a479b59b97c6dac4cdfbb9749648`**.
 - Core Rooms / Events is reviewed through **`559105ccf671253a94bcabafb7768f6e40394a05`**.
+- Louvre / AI / Athenaeum / Other Games moved after the first close and is now reviewed through **`0e7745dfa33d895bd724bf9e990ff6d17efacb97`**.
 - Club-Only 2021–2026 remains current/saturated at `e45fb11c9239e236231bb65645dfd0285bc0078b`.
 - Club-Only 2020 remains current/saturated at `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`.
 - Ten reviewed MAIN publication-held branch records remain publication debt only; WIKI does not reinterpret them as unread miner work.
@@ -54,11 +55,19 @@ That is enough for a strong future person read, but the current public cast has 
 
 No headline cleared the novelty gate. The GOODBYE UNDERLORDS maker remains unresolved: general `poster maker` context belongs to stable account `783389804079349800 / opalite.honey / ༯`, while the GOODBYE asset is posted by stable account `439628808545632256 / .miaxxx / m x`. Those accounts are not bridged. Pibs remains unresolved. The assigned voice-sidecar source remains blocked and was not substituted with unrelated material.
 
+### Late Louvre / May packet
+
+The late Louvre mover was reviewed after the first close rather than deferred. Stable `469625932974391297 / br4ind34d / braindead` is already the canonical/public May / Mayvis person, not a new profile.
+
+The new handoff deepens the same shape already public on MAIN: May's component-level visual judgment becomes shared Zepeto visual play; Gilli can tease and summon her into avatar nonsense with almost no explanatory ceremony; Anthos can ask her to log in and get an immediate response; and the whole aesthetic-confidence lane still sits beside the bounded `how TF is east` / missing-sun catastrophe.
+
+Novelty check found that MAIN already owns this material in richer person-first form and WIKI already carries the May / Missing Sun dossier. No duplicate biography or second `braindead` entity was created. The delta is consumed as duplicate/corroboration.
+
 ## Surface split / MAIN debt
 
 Nothien's new gameplay-helper / selective-formality material is appropriate for a richer MAIN biography fold too, but MAIN reader source was intentionally left unchanged because the full source-verification → Astro → built-output verification → production deployment gate was not run through a safe publishing path in this pass.
 
-WIKI therefore received the searchable person-first deepener now; MAIN keeps the complementary richer fold publication-held rather than mirroring WIKI prose.
+WIKI therefore received the searchable person-first deepener now; MAIN keeps the complementary richer fold publication-held rather than mirroring WIKI prose. May required no new WIKI reader mutation because the late Louvre material was already substantially owned across the two surfaces.
 
 ## Boundary decisions
 
@@ -69,6 +78,8 @@ WIKI therefore received the searchable person-first deepener now; MAIN keeps the
 - DiStratus/Torr pronouns remain unresolved.
 - `finding peoples pet peeves XD` remains prompt-ambiguous and is not promoted into a hobby/talent claim.
 - GOODBYE UNDERLORDS remains POSTED BY its stable posting account; maker credit is unresolved.
+- May's Zepeto `shopping` remains context-bounded and is not silently turned into real-world shopping canon.
+- May's direction/sun sequence remains one unresolved-context game/task scene, not a global navigation verdict or location clue.
 - SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct.
 - Current hard canon resolves **Zyrcant = Akariel / Akariel™ / akariel_star**; stale miner-local uncertainty cannot reopen it.
 
