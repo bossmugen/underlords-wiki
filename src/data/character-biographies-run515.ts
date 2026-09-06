@@ -2,6 +2,8 @@ import type { CharacterNarrative } from "./character-biographies-narrative";
 import { run470NarrativeCharacterBios } from "./character-biographies-run470";
 import { feliNarrativeCharacterBios } from "./character-biographies-feli";
 import { mugenNarrativeCharacterBios } from "./character-biographies-mugen";
+import { syeNarrativeCharacterBios } from "./character-biographies-sye";
+import { snowNarrativeCharacterBios } from "./character-biographies-snow";
 import { run516NarrativeCharacterBios } from "./character-biographies-run516";
 import { run519NarrativeCharacterBios } from "./character-biographies-run519";
 import { run520NarrativeCharacterBios } from "./character-biographies-run520";
@@ -12,6 +14,8 @@ import { run525NarrativeCharacterBios } from "./character-biographies-run525";
 const anayss = run470NarrativeCharacterBios.anayss;
 const feli = feliNarrativeCharacterBios.feli;
 const mugen = mugenNarrativeCharacterBios.mugen;
+const sye = syeNarrativeCharacterBios.sye;
+const snow = snowNarrativeCharacterBios.snow;
 
 export const run515NarrativeCharacterBios: Record<string, CharacterNarrative> = {
   anayss: {
@@ -64,4 +68,32 @@ export const run515NarrativeCharacterBios: Record<string, CharacterNarrative> = 
   ...run521NarrativeCharacterBios,
   ...run524NarrativeCharacterBios,
   ...run525NarrativeCharacterBios,
+  sye: {
+    ...sye,
+    sections: [
+      ...sye.sections,
+      {
+        period: "2020",
+        title: "ASK FOR HELP, THEN KEEP DIGGING",
+        paragraphs: [
+          "One Saber problem catches Sye's relationship with not-knowing almost too cleanly. She asks how to see the schedule in clock time instead of relative hours and minutes. When the setup appears not to allow what she wants, Snow's first answer is **`dont think we can`**. Sye does not treat that as a handoff where the problem now belongs to somebody more technical. She answers **`I’m look at github`**, goes hunting through the documentation herself, and comes back with the exact reminder example: **`!config #schedule remind \"30, 10, 5 min\"`**. Asking for help and retaining ownership of the problem are apparently the same motion for her.",
+          "Snow does not make being corrected weird either. He keeps checking while Sye digs, then changes his answer immediately when she brings the command back: **`oh nice so we can actually set the real time`**. That tiny exchange makes their technical work feel much less like one expert teaching one subordinate and much more like two people passing the flashlight back and forth. Whoever finds the useful thing gets to move the group forward. The point of the precision is wonderfully ordinary anyway: get the reminder into announcements so people can actually get on."
+        ]
+      }
+    ]
+  },
+  snow: {
+    ...snow,
+    sections: [
+      ...snow.sections,
+      {
+        period: "2020",
+        title: "THE FIRST ANSWER IS NOT SACRED",
+        paragraphs: [
+          "Snow's competence is more convincing when he is wrong in public. During a Saber reminder problem, Sye asks whether the schedule can use real clock time. Snow's first read is **`dont think we can`**. He does not turn that sentence into a hill to die on; he keeps checking while Sye goes into GitHub documentation, and when she returns with an exact config example his response is simply **`oh nice so we can actually set the real time`**. No prestige emergency. The answer changed, so Snow changed with it.",
+          "That is the better version of the technical elder than somebody who always knows first. Snow and Sye can ask, test, contradict the current assumption, and accept the better answer without converting the exchange into hierarchy theater. Even here the machinery is serving a social purpose rather than becoming the whole story: Snow's concern is that reminders land where people will see them **`just so people can get on`**. The system matters because somebody is supposed to arrive at the other end of it."
+        ]
+      }
+    ]
+  },
 };
