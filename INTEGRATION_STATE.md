@@ -1,57 +1,77 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-06 — Run 530 source-boundary close_
+_Last updated: 2026-09-06 — Run 530 late-mover / Jonith publication close_
 
-MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Detailed reconciliation for this pass is in MAIN `INTEGRATION_REPORT_RUN_530.md`; the WIKI-local close is in `INTEGRATION_REPORT_RUN_530.md`.
+MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. A newer Run 531 opening census began while Run 530 was closing; this file therefore preserves Run 530's reviewed/publication work without overwriting Run 531's newer shared queue ownership.
 
-## Current queue
+## Current controlling queue
 
 - **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**.
-- **0 newly discovered** at close.
-- **0 unread active tails**.
-- **9 reviewed MAIN publication-held families** remain; these are publication debt, not unread miner work.
+- **0 newly discovered**.
+- Run 531's opening census currently tracks **4 advanced/unconsumed active branches**: Core Rooms / Events, Louvre / AI / Athenaeum / Other Games, Whiskey, and Wall.
 - **0 backlog / 0 overdue**.
 - Club-Only 2021–2026 remains current/saturated at `e45fb11c9239e236231bb65645dfd0285bc0078b`.
 - Club-Only 2020 remains current/saturated at `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`.
-- Run 530 reviewed the only advanced miner family, Birthdays / PR / VC, through its late packaging head `35f496745511b510307dc46f6ef0e9b3af97def3`. No reader-facing finding cleared integration.
 
-## Current consumed frontiers
+Run 530 itself completed one normal delta and two late-mover slices before the overlapping Run 531 census took ownership of the newer heads:
 
-- Birthdays / PR / VC: `35f496745511b510307dc46f6ef0e9b3af97def3`
-- Core Rooms / Events: `0c0d9e592d2eef895ee31a32bbca66c0abb4ac9e`
-- Daycare: `80fefc7da7ac59a94f7fc8f2cf732d3a0f48910b`
-- Louvre / AI / Athenaeum / Other Games: `3563b0fa39d053dc54fb30f524d84710b91ce28e`
-- Mugen person-first: `6832fc9a023235db05a6f6e9b2cf396651cedc6d`
-- QOTD / Officers: `f52eaa65c5b3516635d8b388687582275c20312e`
-- Whiskey: `4e3384e7fde76af0390896065dad1d3040071165`
-- Wall: `d6f791661bff7b6a14f11cd7344da2a5ab38203a`
+- Birthdays / PR / VC: reviewed and consumed through `35f496745511b510307dc46f6ef0e9b3af97def3`.
+- Louvre / AI / Athenaeum / Other Games: Run 530 reviewed `3563b0fa39d053dc54fb30f524d84710b91ce28e -> fb326b42bd47778b788bf5f68bd61ef79d3d64c4` and published Jonith from that slice. The branch subsequently advanced again to `bc221de9b9fd3e1088f34af9e92bab76afac8091`; Run 531's shared ledger intentionally still owns consumption from the older frontier through the current head.
+- Wall: Run 530 reviewed `d6f791661bff7b6a14f11cd7344da2a5ab38203a -> 5e1931f5c4a37e2e9b8c026a65da028e9fdef463`, then the branch advanced again to `8b68e6263d318910680ee84c23c38d974181cabf`; Run 531 owns the current full tail.
 
-## Run 530 review result
+## Run 530 reader publication — Jonith
 
-Birthdays / PR / VC advanced from `445b36c0c8cc1cca6fce33845ec7ec34e127d59f` through `35f496745511b510307dc46f6ef0e9b3af97def3`.
+Jonith now has a settled WIKI Cast owner instead of remaining a Louvre site-candidate pile.
 
-The new packet is deliberately negative/source-boundary work rather than public lore. The `GOODBYE UNDERLORDS` GIF was reverse-searched through exact source filename, extracted/hash-bearing filename, and distinctive title-string handles; no usable duplicate, maker credit, provenance-bearing repost, or non-PR/public deployment receipt surfaced. Mia remains **POSTED BY** for the assigned PR artifact, while **MADE BY** and non-PR/public deployment remain unresolved. That route now rotates.
+The page folds several independent person dimensions into one dossier:
 
-Illien / Euros was checked in the private JAG transcript through exact `Illien`, `Euros`, and `eurosabraxas` strings; none occurred there. This is only a source-boundary negative. Illien's exact in-game admission and historical officer appointment remain open for a different private/HQ/Staff source, direct announcement, or admin/audit evidence. The JAG exact-name route now rotates rather than being reread forever.
+- self-described `geek/nerd` identity;
+- The Batman Who Laughs as a favorite mainly for the visual design, with Wolverine as the longer-running favorite before that;
+- a blunt Superman / `TrashMan` critique centered on character growth repeatedly sliding backward;
+- Dungeon Quest / Castle Defence grind behavior, including `SO MANY HOURS` and actually beating the final level;
+- casual willingness to jump into Skribbl.io;
+- Demon Slayer as only Jonith's second anime, followed by a two-day catch-up and episode 19 praise;
+- a Gilli voice-comms teasing scene specific enough to read as remembered familiarity without inventing a friendship rank.
 
-A DiStratus/Torr onboarding scene resurfaced but was already established by the 2026-09-04 packet and was deduped by meaning. No people, relationship, chronology, media, episode, quote, or location owner warranted reader mutation.
+The page deliberately does **not** claim that Jonith played The Last of Us 2 from one purchase question, does not promote unseen media into Jonith-made art, and does not turn the Nanatsu no Taizai dialogue fragment into a named-Jonith quote while speaker structure remains incomplete.
 
-Reader-facing WIKI files changed: **0**. No Astro/Pages reader build or deployment is claimed for an unchanged reader tree.
+Reader-facing WIKI files changed:
 
-## Latest verified reader state — Run 527
+- `src/data/character-biographies-run530.ts` — new Jonith narrative;
+- `src/data/cast.ts` — Jonith Cast card, Gilli relationship note, quotes, Archive / Extended Cast routing;
+- `src/data/character-biographies-all.ts` — Run 530 narrative wiring.
 
-Run 527 remains the latest reader publication. It deepened **Sye** and **Snow** through one September 2020 Saber troubleshooting sequence while giving each person a different job in the story: Sye asks for help but keeps ownership of the problem and goes digging in GitHub/documentation herself; Snow begins with `dont think we can`, keeps checking, and immediately revises when Sye finds the working configuration. The same family later folded Sye's 2021 Snow reunion and low-ego `I tried I have no idea what iam doing` hosting pattern into her existing person arc.
+Exact reader publication head: **`75282ce5e88ee9be740e83899694523c23e2c154`**.
 
-Latest exact-head verification remains:
+Verification / deployment:
 
-- Build workflow **34046095989** — **SUCCESS**
-- Build job **101521290971** — **SUCCESS**
-- Pages workflow **34046096067** — **SUCCESS**
-- Pages build/artifact job **101521291506** — **SUCCESS**
-- Deploy to GitHub Pages job **101521367533** — **SUCCESS**
+- Build workflow **34048931025** — **SUCCESS**
+- Build job **101528913658** — **SUCCESS**, including Astro build
+- Pages workflow **34048931006** — build/deploy path completed successfully
+- Pages build/artifact job **101528921034** — **SUCCESS**
+- Deploy to GitHub Pages job **101528983069** — **SUCCESS**
 - Live surface remains `https://bossmugen.github.io/underlords-wiki/`
 
-MAIN reader-facing files changed **0** in Run 530. Existing richer MAIN folds remain publication-held behind MAIN's required source-verification → Astro build → built-output verification → controlled production-deployment gate.
+## Run 530 source-boundary / no-public-change work
+
+### Birthdays / PR / VC
+
+`GOODBYE UNDERLORDS` was checked through exact source filename, extracted/hash-bearing filename, and distinctive title-string retrieval. No usable duplicate, maker credit, provenance-bearing repost, or non-PR/public deployment receipt surfaced. Mia remains **POSTED BY** for the assigned PR artifact; **MADE BY** and non-PR/public deployment remain unresolved. That exact route now rotates.
+
+Illien / Euros was checked in the private JAG transcript through exact `Illien`, `Euros`, and `eurosabraxas` strings. None occurred there. This is a source-boundary negative only; exact in-game admission and historical officer appointment remain open for a materially different private/HQ/Staff/direct-announcement/admin source. The JAG exact-name route now rotates.
+
+DiStratus/Torr onboarding resurfaced but was already established and was deduped by meaning.
+
+### Wall
+
+The late Wall slice materially strengthened **Abie** without forcing a page before the already-banked Whiskey material is reconciled into one person-shaped owner. The new Wall layer adds:
+
+- compact self-mocking recognition when an old Abie line gets reposted (`Im abie 😂😂`);
+- visible role drift from somebody Mugen remembers as previously being `on the other side of this` to asking whether Abie is now the person being shamed;
+- Mugen's `Only my love for you makes me spare the top part of this image`, which reads as public face-saving/care inside the punishment ritual while remaining social affection, not romance;
+- the image itself remains uninspected, so the hidden/cropped top does not generate maker/capturer/subject claims.
+
+The same Wall slice's `New Account` is locally resolved as Gilli by the account's own `Im gilli` line. Its `loyal wall journalist` / `u dont let me live in peace 💔` exchange is good Gilli texture but duplicate/corroboration against the stronger public Wall mechanism, not a new person.
 
 ## Reviewed and banked future people
 
@@ -61,7 +81,9 @@ Wall has a coherent but still narrow Marsy lane. Old Gilli explicitly summons `@
 
 ### Abie
 
-Whiskey still holds the strong future Abie profile center: minor daily facts become socially usable, then Abie commits hard when a room catches a bit; decisive taste coexists with comfortable indecision. No settled public owner yet. Hard rails remain: Abie is stable ID `122551416349786112`; do not bridge `yuki1794` / Shk; privacy-sensitive dating remarks stay backstage; unreadable media does not establish object identity/location/creator/subject.
+Abie is now strong across **Whiskey + Wall** rather than only one room. Whiskey supplies the ordinary-life/personality center: minor daily facts become socially usable, Abie commits hard when a room catches a bit, decisive taste coexists with comfortable indecision. Wall adds self-mocking prosecution behavior, remembered movement from shamer-side to defendant-side, and Mugen's selective crop/spare gesture as teasing care. This is increasingly profile-ready, but the eventual page should reconcile both rooms at once rather than publish a Wall-only shell.
+
+Hard rails remain: Abie is stable ID `122551416349786112`; do not bridge `yuki1794` / Shk; privacy-sensitive dating remarks stay backstage; unreadable media does not establish object identity/location/creator/subject; Mugen's love-language here does not establish romance.
 
 ### Teri / kinzokumissu
 
@@ -69,19 +91,19 @@ The prior QOTD packet remains banked: repeated human QOTD contribution, singing 
 
 ## Boundary decisions
 
-- `GOODBYE UNDERLORDS`: Mia is **POSTED BY** for the assigned PR artifact; maker and non-PR/public deployment remain unresolved. Exact filename/hash/title-string retrieval is now a rotated route on the current indexed surface.
-- Illien / Euros: exact-name silence in one JAG transcript is not an appointment date, non-officer state, or proof of absence from other private spaces. The exact admission and historical officer-appointment rabbits remain open.
-- The Core packet supports a lateral Sye/Snow troubleshooting relationship, not a formal technical partnership, fixed mentor hierarchy, bot ownership claim, or appointment chronology.
-- Exact `Spirit` mechanics and origin remain unresolved.
-- Marsy's Gilli summon supports probable audience familiarity, not close-friend ranking.
-- The old-Gilli authored-parent closure remains duplicate/corroboration only; its human read was already public.
-- Lounge-icon path metadata does not create new MADE BY / CAPTURED BY / FEATURING claims.
+- Jonith's current public page is a person/taste/play profile, **not** a creator-credit page. Louvre media with unresolved authorship remains POSTED/attached context only until inspected or explicitly credited.
+- Jonith asking whether somebody bought The Last of Us 2 does not establish that Jonith played it.
+- The incomplete Nanatsu no Taizai dialogue remains unnamed rather than assigned by wishful speaker reconstruction.
+- `GOODBYE UNDERLORDS`: Mia is **POSTED BY** for the assigned PR artifact; maker and non-PR/public deployment remain unresolved.
+- Illien / Euros: exact-name silence in one JAG transcript is not an appointment date, non-officer state, or proof of absence from other private spaces.
+- Abie's Mugen crop/spare scene is lived affection/care texture, not romance and not image-subject attribution.
 - Current hard canon resolves **Zyrcant = Akariel / Akariel™ / akariel_star**; stale miner-local uncertainty does not reopen it.
 - SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct.
 
 ## Carried holds
 
-- Reviewed MAIN publication debt remains held for backroom-deals, Birthdays/PR/VC, Core Rooms/Events, Daycare, meems, Wall/Rooks, Mugen, Whiskey/Abie, and QOTD/Rose plus the earlier Teri packet.
+- MAIN reader-facing files changed **0** in Run 530. Jonith now creates a legitimate richer MAIN person-first fold, but it remains publication-held behind MAIN's required source-verification → Astro build → built-output verification → controlled production-deployment gate.
+- The overlapping Run 531 census is authoritative for the currently advanced Core/Louvre/Whiskey/Wall tails; Run 530 does not overwrite its shared branch-state file.
 - Exact Han Media Director appointment remains unresolved. Export-time/current role arrays remain non-dating.
 - Direct ShiyaX Louvre creative-body inspection remains tooling-blocked.
 - Rich / DragonRich and Ricochet remain separate people.
