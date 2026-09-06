@@ -34,11 +34,12 @@ export const richNarrativeCharacterBios: Record<string, CharacterNarrative> = {
         ]
       },
       {
-        period: "September 2021",
+        period: "September 2021 – March 2023",
         title: "Funcle Rich remembers who can see the page",
         paragraphs: [
           "Rich gets halfway to an `underlord’s underground strip dungeon` joke and stops himself because the Platelets can see the page. Ren immediately converts the self-filter into house-family language: `Funcle rich thinking of his 100+ nephews`. Zyrcant answers, `thats a lot of nephews`.",
-          "The nickname works because the room has just watched Rich remember the audience without being prompted. It is not literal family and it is not a childcare appointment. It is UL taking one moment of adult self-editing and doing what UL does best: turning responsible behavior into an uncle joke before the responsible adult can escape."
+          "The nickname works because the room has just watched Rich remember the audience without being prompted. It is not literal family and it is not a childcare appointment. It is UL taking one moment of adult self-editing and doing what UL does best: turning responsible behavior into an uncle joke before the responsible adult can escape.",
+          "The fake-adult register keeps coming back after the Funcle label already fits. Ren drops `Hwhore (affectionate)` in July 2022; Rich direct-replies, `Watch your language young lady:R_stare:`. The following March he tags Rummy with `no cursing young lady`. That is an extremely bold decorum policy from one of the people helping make the room indecent in the first place. Rich is not suddenly prudish. He likes briefly playing the chaperone after the party has already caught fire, and Ren and Rummy are comfortable enough to be scolded in exactly that fake-parent voice without anybody mistaking it for actual authority."
         ]
       },
       {
