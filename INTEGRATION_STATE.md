@@ -1,21 +1,58 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-06 — Run 540 close_
+_Last updated: 2026-09-06 — Run 542 census close_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`.
 
 ## Current controlling queue
 
 - **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**.
-- **0 newly discovered, 0 unread pending review, 0 backlog, 0 overdue** at Run 540 close.
+- **0 newly discovered, 0 unread pending review, 0 backlog, 0 overdue** at Run 542 close.
 - **10 reviewed MAIN publication-held families** remain publication debt only; WIKI does not reinterpret them as unread miner work.
-- QOTD / Officers is consumed through `88a8e0c53e1dc741248bd214ba7fc57c671c7527`.
+- QOTD / Officers is consumed through `c51cd1914f65cb8ae65b850b1d0da85ffccb94ed`.
 - Daycare is consumed through `2c529f9f3048c7e0d929e7a5338f4e76c80fb34d`.
 - Mugen person-first is consumed through `4aeea03f71d0ea25bf95e15c42ad1d47867d6fc0`.
 - Whiskey is consumed through `3592be0e1550eb125bc8de1975aaaa1b44cdc8d9`.
-- Wall moved late and is consumed through `095617728e1b1030aaa21f84f812af0e5b097b4f`.
+- Wall is consumed through `472f1969222c82c18310f1e6bd2eeee085511303`.
+- Louvre / AI Art / Athenaeum / Other Games is consumed through `365981f6ba9f904ab75b73afa4adf409b605fc88`.
 - Club-Only 2021–2026 remains current/saturated at `e45fb11c9239e236231bb65645dfd0285bc0078b`.
 - Club-Only 2020 remains current/saturated at `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`.
+
+## Run 542 census-only close
+
+The mandatory full branch census found every one of the 30 active miner refs at exactly the same HEAD already recorded in the controlling ledger. There was therefore no new `archive-intake/*` delta to re-review, no consumed SHA to advance, and no reason to manufacture a public change from already-reviewed material.
+
+Both recovery lanes were rechecked at their saturated heads without reopening raw archives. Because the remaining ten `pending_publication` families are already-reviewed MAIN publication debt rather than unread miner evidence, anti-starvation did not require another branch review this cycle.
+
+Reader-facing files changed this run: **0 on MAIN, 0 on WIKI**. No reader build or deployment is claimed for Run 542 because neither reader tree changed. Durable census/report bookkeeping only was refreshed.
+
+## Run 541 public convergence
+
+### Miihi — low-word, high-context participation
+
+Fresh Wall material supplied the missing person-shaped connective tissue for Miihi / `stephany_.`: Anayss can summon her with `evidence`; Baby Lyssa experiences Miihi's arrival speed as part of the joke; Miihi can file an attachment with only chosen-person mentions as caption; and `WHYYYYYY` compresses into `:Cursed:` seconds later. The public owner now reads this as a social style rather than a pile of receipt events: tasks may wait, but apparently nonsense does not.
+
+Reader files changed in Run 541:
+- `src/data/character-biographies-miihi.ts`
+- `src/data/character-biographies-all.ts`
+
+Verified reader publication head: **`82564280a6c862358eae0c1517406a07fe19b5ba`**.
+
+Verification:
+- Build workflow `34059476950` — **SUCCESS**.
+- Build job `101557918053` — **SUCCESS**.
+- Pages workflow `34059477033` — **SUCCESS**.
+- Pages build/artifact job `101557924683` — **SUCCESS**.
+- Deploy to GitHub Pages job `101558005675` — **SUCCESS**.
+- Pages report job `101558036852` — **SUCCESS**.
+
+### DyingFox — identity conflict hold
+
+Fresh QOTD material remains publication-held because one handoff assigns the surfaced person to stable ID `629467952100982784`, while the same branch's newer cross-quarry checkpoint and the current public Dyingfox owner resolve canonical Dyingfox to `471370475050762251 / dyingfox`. Same-name similarity does not bridge that contradiction. The person material stays banked until provenance is reconciled.
+
+### Eos — reciprocal Screenshot Court deepener
+
+Fresh Louvre support material sharpens the already-public visual-privacy-reflex ↔ active-counter-archivist contradiction and recurring reciprocal screenshot warfare with Marian. MAIN already substantially owns the larger mechanism, so no duplicate public paragraph was created. Direct Louvre/AI creative bodies remain tooling-blocked; media-bearing posts are not artwork attribution.
 
 ## Run 540 public convergence
 
@@ -33,9 +70,9 @@ Fresh Whiskey material deepens Anayss beyond the useful welcomer / human map rol
 
 The WIKI synthesis now treats that reciprocity as character behavior: Anayss is highly tuned to whether people feel seen, which makes her equally sensitive to the moment somebody sees her back.
 
-## Reader verification / deployment
+## Prior reader verification / deployment
 
-Final exact reader head for Run 540: **`027e69f7addad6eda348de95b97269ef688c22d9`**.
+Run 540 exact reader head: **`027e69f7addad6eda348de95b97269ef688c22d9`**.
 
 - Build workflow `34058527010` — **SUCCESS**.
 - Pages workflow `34058527180` — **SUCCESS**.
@@ -48,7 +85,7 @@ Reader files changed:
 
 Later state/report commits are reader-neutral and use `[skip ci]`.
 
-## Run 540 reviewed without another public page
+## Reviewed without another public page
 
 ### Woosung
 
@@ -66,16 +103,15 @@ Safe relationship reads: Ryo is high-comfort blunt teasing / low-friction self-o
 
 The miner's exact q18 parent-topology branch remains **retrieval-blocked / open** and was not falsely closed.
 
-## MAIN vs WIKI routing — Run 540
+## MAIN vs WIKI routing
 
-WIKI reader changes were appropriate for two already-mature owners: HamitteY's edible-name genealogy and Anayss's reciprocal-warmth relationship deepener.
+WIKI reader changes are made only when a searchable dossier or structured reference owner genuinely needs the material. MAIN receives the richer person/legend/story-first fold when its production gate can be run safely. Already-public mechanisms are deduped by meaning instead of repeated because another miner rediscovered the same receipts.
 
-MAIN reader changes this pass: **0**. No MAIN reader source was mutated, so no MAIN source-verification / Astro / built-output / production deployment success is claimed. Existing accepted MAIN material remains explicitly publication-held behind the full production gate.
-
-Woosung and ничего are reviewed-and-banked until each has a satisfying public owner. Mugen/ShiyaX is duplicate/corroboration only.
+Run 542 reader changes: **0 on both surfaces**. No source was blindly mirrored.
 
 ## Boundary decisions / carried holds
 
+- DyingFox stable-ID conflict remains unresolved: fresh QOTD `629467952100982784` vs canonical/current `471370475050762251 / dyingfox`.
 - HamitteY's 2022/2023 edible-name history is earlier continuity, not proof the 2024 counter consciously called it back.
 - HamitteY's casual `adhd brain too loud` self-description is not independently upgraded into a medical diagnosis.
 - Anayss/Gilli/Gabu warmth is reciprocal friendship/social recognition; no formal rank or romance inference.
