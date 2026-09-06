@@ -6,6 +6,7 @@ import { run516NarrativeCharacterBios } from "./character-biographies-run516";
 import { run519NarrativeCharacterBios } from "./character-biographies-run519";
 import { run520NarrativeCharacterBios } from "./character-biographies-run520";
 import { run521NarrativeCharacterBios } from "./character-biographies-run521";
+import { run524NarrativeCharacterBios } from "./character-biographies-run524";
 
 const anayss = run470NarrativeCharacterBios.anayss;
 const feli = feliNarrativeCharacterBios.feli;
@@ -59,4 +60,5 @@ export const run515NarrativeCharacterBios: Record<string, CharacterNarrative> = 
   ...run519NarrativeCharacterBios,
   ...run520NarrativeCharacterBios,
   ...run521NarrativeCharacterBios,
+  ...run524NarrativeCharacterBios,
 };
