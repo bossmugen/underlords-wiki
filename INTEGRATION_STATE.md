@@ -1,13 +1,13 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-06 — Run 543 publication follow-up_
+_Last updated: 2026-09-06 — Run 544 census-only pass_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`.
 
 ## Current controlling queue
 
 - **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**.
-- **0 newly discovered, 0 unread pending review, 0 backlog, 0 overdue** at Run 543 close and follow-up recheck.
+- **0 newly discovered, 0 unread pending review, 0 backlog, 0 overdue** at the Run 544 full-census recheck.
 - **10 reviewed MAIN publication-held families** remain publication debt only; WIKI does not reinterpret them as unread miner work.
 - QOTD / Officers is consumed through `c51cd1914f65cb8ae65b850b1d0da85ffccb94ed`.
 - Birthdays / PR / VC is consumed through `f4845795021c0419914c182c5d4ff22ef682f382`.
@@ -18,6 +18,14 @@ MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH
 - Louvre / AI Art / Athenaeum / Other Games is consumed through `bc608b63a296342e17f482ac8a417ea8e2410b9e`.
 - Club-Only 2021–2026 remains current/saturated at `e45fb11c9239e236231bb65645dfd0285bc0078b`.
 - Club-Only 2020 remains current/saturated at `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`.
+
+## Run 544 census-only pass
+
+Full report: `INTEGRATION_REPORT_RUN_544.md`.
+
+The mandatory branch census was refreshed on MAIN before any possible deep review. Fresh enumeration found all 30 active miner refs unchanged from their consumed frontiers, so there was no eligible intake delta to inspect. No raw archive was reopened, no recovery lane was churned, and no public page was changed simply to manufacture hourly movement.
+
+Reader-facing WIKI files changed: **0**. Reader-facing MAIN files changed: **0**. No new build or deployment was initiated for reader-neutral report/state bookkeeping. The latest verified WIKI reader remains the Run 543 Anthos publication at `133aad7f873020fac303ec1d7d81097e14f35840`; MAIN's already-reviewed publication debt remains held behind its controlled production gate.
 
 ## Run 543 public convergence
 
@@ -47,7 +55,7 @@ A late Louvre branch movement supplied a genuine A-/B+ person deepener after Ric
 
 The useful mechanism is **audience-building before the object exists**. `we` makes the anticipated audience communal, while `amazing` arrives before there is anything to judge. This deepens Anthos's existing maintenance/house-literacy arc into a better contradiction: **backstage schedule keeper ↔ front-row fan**. She can make both the submission path usable and the maker feel like somebody is waiting on the other side.
 
-The follow-up publication folds this into Anthos's September 2020 relationship texture, connects it to her later Photo Submissions maintenance instead of making a separate Episode, adds Rooks as a lived maker/audience relationship lane, and gives the scene a Petty Crimes charge: Anthos is apparently capable of pre-ordering your printmaking output before class has produced anything. Rooks's creative practice predates the question; no mentorship/origin story is invented. Anthos's 21 media-bearing assigned posts remain posting counts, not 21 artworks, and the later `n-nom` adjacency remains unresolved.
+The follow-up publication folds this into Anthos's September 2020 relationship texture, connects it to her later Photo Submissions maintenance instead of making a separate Episode, adds Rooks as a lived maker/audience relationship lane, and gives the scene a Petty Crimes charge: Anthos is apparently capable of pre-ordering your printmaking output before class has produced anything. Rooks's creative practice predates the question; no mentorship/origin story is invented. Anthos's 21 media-bearing assigned posts remain posting counts, not 21 artworks, and the later `n-nom` adjacency is still unresolved.
 
 Exact Anthos reader head: **`133aad7f873020fac303ec1d7d81097e14f35840`**.
 
