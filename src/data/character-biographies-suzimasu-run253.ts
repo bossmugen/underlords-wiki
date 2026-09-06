@@ -1,6 +1,7 @@
 import type { CharacterNarrative, NarrativeSection } from "./character-biographies-narrative";
 import { suzimasuNarrativeCharacterBios } from "./character-biographies-suzimasu";
 import { nemoNarrativeCharacterBios } from "./character-biographies-nemo";
+import { hamitteyNarrativeCharacterBios } from "./character-biographies-hamittey";
 
 const suziBase = suzimasuNarrativeCharacterBios.suzimasu;
 
@@ -65,3 +66,10 @@ export const run254NemoNarrativeCharacterBios: Record<string, CharacterNarrative
     ]
   }
 };
+
+// Resolver precedence repair: character-biographies-all.ts re-merges this late module after
+// historical run165 overlays. Re-export the canonical HamitteY person file here so the
+// character route cannot be silently replaced by the older run165 Ham dossier. This is
+// intentionally a reference to the canonical source, not a second copy of Ham's prose.
+export const run539HamitteYCanonicalPrecedenceRepair: Record<string, CharacterNarrative> =
+  hamitteyNarrativeCharacterBios;
