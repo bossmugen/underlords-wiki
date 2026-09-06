@@ -1,47 +1,48 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-06 — Run 516 close_
+_Last updated: 2026-09-06 — Run 517 close_
 
-MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Detailed reconciliation for this pass is in `INTEGRATION_REPORT_RUN_516.md`.
+MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. Detailed reconciliation for this pass is in `INTEGRATION_REPORT_RUN_517.md`.
 
 ## Current queue
 
 - **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**.
-- **0 newly discovered** in Run 516.
+- **0 newly discovered** in Run 517.
 - **0 unread pending review / 0 backlog / 0 overdue** at close.
 - **10 older publication-held branch families** remain in MAIN's branch ledger; these are reviewed publication debts, not unread miner tails.
 - Club-Only 2021–2026 remains current/saturated at `e45fb11c9239e236231bb65645dfd0285bc0078b`.
 - Club-Only 2020 remains current/saturated at `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`.
 
-## Run 516 reviewed frontier
+## Run 517 reviewed frontier
 
-- QOTD / Officers: `57fe2ed77c50c9be035d9d854e39a16cf4cbcfd7` → `57e1a65da6354c791faf86fe67ffea9f971aa79d`.
+- Wall: `a2bb3dda8e3f1776acfa7b0c0fc30b182f638461` → `a48d192b361371c603867e2d7e2832533245b274`.
+- The branch advanced once during review; the later root-checkpoint/run-report suffix was inspected before consumption.
 - Both Club-Only recovery lanes were rechecked at their stable saturated heads without raw-archive re-mining.
 
 ## Reader result
 
 ### WIKI
 
-Reader-facing files changed:
-- `src/data/character-biographies-run516.ts`
-- `src/data/character-biographies-run515.ts` for deterministic overlay wiring.
+Reader-facing files changed: **0**.
 
-The fresh QOTD / Officers handoff materially deepens **Tofu ↔ Cookie**. Anayss's 2021 `I saw you both exposing your dms again ~` makes the relationship explicitly bidirectional and recurrent. By 2024 Cookie can predict Tofu's exposure instinct, post `forgive me but i had to @Tofu` anyway, and receive Tofu's `OH~ you wanna play that game huh`. The later `Just you wait` → Cookie `:WiggleButt:` → image/emote counterplay keeps the same mechanism alive. Tofu therefore gets a known counterplay system rather than another one-way prosecution beat; Cookie gets the contradiction that he can dread the receipt and personally open the next round anyway.
+The fresh Wall packet develops **Key / Captain Chihuahua** as mock-outraged defendant → voluntary self-auditor → remembered older Wall referent. It includes old Gilli's `Had to document this moment in history` / Key `EYE???` exchange, Key's 2022 return to count his own appearances and `dunno whether to be ashamed or impressed`, Ren noticing the long absence, Gilli's `OG wall of shamer here uwu`, Mugen's ambiguous `Litrally started it ^`, and the 2023 `That's key BTW ehe` / `@Captain Chihuahua` callback.
 
-Final reader head: **`2d45785575df25d784d3d227984c4d6b106d5516`**.
+WIKI already owns this exact person-shaped progression in `src/data/character-biographies-key.ts`, so the delta is accepted as corroboration rather than appended as another dated incident or redundant Episode.
 
-Verification for that exact reader head:
+No fresh Astro / GitHub Pages build or deployment is claimed because the reader tree did not change.
+
+Latest verified WIKI reader publication remains Run 516 reader head **`2d45785575df25d784d3d227984c4d6b106d5516`**:
 - Build workflow `34032158668`: **SUCCESS**.
-- Pages workflow `34032158709`: build/artifact job `101483583308` **SUCCESS**.
+- Pages workflow `34032158709`: **SUCCESS**.
 - `Deploy to GitHub Pages` job `101483650703`: **SUCCESS**.
-- Pages report job `101483686874`: **SUCCESS**.
-- Commit statuses: `wiki-build` **success** and `wiki-preview` **success**.
 
 ### MAIN
 
 Reader-facing files changed: **0**.
 
-MAIN's Tofu and Cookie biographies already own the broader person-first relationship. The newly explicit reciprocal genealogy is accepted as a future fold, especially Cookie's active role in initiating and sustaining the receipt war, but MAIN's exact-master verify/build/deploy production gate cannot be safely manually dispatched through the available repository connection. No reader commit, build or Cloudflare deployment is claimed for Run 516.
+MAIN `src/content/people/key.md` already owns the same Wall arc inside a richer biography that also carries Key's pre-Raja continuity, Ren family-language, retired-Officer history, Gilli preservation habit, and Petty Crimes. No reader mutation or duplicate receipt paragraph was warranted.
+
+No MAIN source-verification / Astro / built-output / Cloudflare deployment is claimed for an unchanged reader tree.
 
 ## Current consumed frontiers
 
@@ -52,10 +53,15 @@ MAIN's Tofu and Cookie biographies already own the broader person-first relation
 - Mugen person-first: `6d31eab494316737f855df25fe08399a56f7cb3f`.
 - QOTD / Officers: `57e1a65da6354c791faf86fe67ffea9f971aa79d`.
 - Whiskey: `aea0279a452382e81dffd67f6b354d7767bb87e1`.
-- Wall: `a2bb3dda8e3f1776acfa7b0c0fc30b182f638461`.
+- Wall: `a48d192b361371c603867e2d7e2832533245b274`.
 
 ## Carried holds / banks
 
+- Key's 2021 Gilli screenshot remains POSTED BY old Gilli only. Pixels were unavailable; maker, capturer, subjects, exact charge and image contents remain unresolved.
+- Mugen's `Litrally started it ^` is probable older-Wall lineage/blame language only; do not convert it into `Key founded/started Wall`.
+- Key q18 remains open because the 2021 authored parent cannot be safely negative-closed under the established literal-search false-zero failure. The 2022 parent has confirmed structured Reply children from Ren, Mugen and old Gilli.
+- The 2023 source object preceding Mugen's Key identification remains unresolved.
+- A stale miner-local Wall checkpoint says Akariel has no safe Zyrcant bridge. **Do not carry that uncertainty forward. Current hard canon resolves Zyrcant = Akariel / Akariel™ / akariel_star.**
 - Tofu↔Cookie origin remains earlier than the Nov. 1, 2021 `again` line; do not declare that line the absolute beginning.
 - Uninspected Tofu/Cookie screenshots remain POSTED BY only. Do not infer DM contents, maker, capturer or subjects from filenames/adjoining text.
 - Cookie's `who gave Tofu access` is reputation/context, not role-assignment chronology or proof of a specific grantor.
