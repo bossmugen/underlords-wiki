@@ -4,7 +4,7 @@ _Last updated: 2026-09-06 — Run 558_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. This file records the WIKI side of the same reconciled evidence system; it does not maintain an independent canon. Historical run detail is preserved in `INTEGRATION_REPORT_RUN_*.md` on WIKI and `archive-intake/INTEGRATION_REPORT_RUN_*.md` on MAIN.
 
-## Run 558 — Ghoulie Wall-reputation deepener + Sara/Mugen review
+## Run 558 — Ghoulie + SaraBunny reader deepeners; Mugen duplicate review
 
 The mandatory full miner census closes at **51 tracked identities = 30 active matching refs + 21 historical/missing refs**, with **0 newly discovered branches, 0 unread/advanced active tails, 0 backlog, and 0 overdue**.
 
@@ -22,20 +22,26 @@ Run 558 deepens the existing Ghoulie dossier instead of creating another inciden
 
 The WIKI fold adds Ren reputation-affection texture, Ansun mutual Wall escalation, the Notes habit, Wall-resident/receipt-keeper tags, and stronger Petty Crimes while preserving the earlier Gilli fast-reaction/correction mechanism. No romance, friendship rank, literal housing/rent, literal idol status, or blanket-consent claim was inferred. Uninspected media remains POSTED BY only; two Louvre media-bearing posts are not automatically two Ghoulie artworks.
 
-Exact verified reader head: **`55347115c23a3b26173b8f7498996159a615c034`**.
+Ghoulie's first Run-558 reader commit was `55347115c23a3b26173b8f7498996159a615c034` and built/deployed successfully.
 
-Verification:
-- Build workflow `34073513168` — **SUCCESS**; build job `101595155170` — **SUCCESS**.
-- Pages workflow `34073513132` — **SUCCESS**.
-- Pages build/artifact job `101595155104` — **SUCCESS**.
-- Deploy to GitHub Pages job `101595237560` — **SUCCESS**.
-- Pages report job `101595273628` — **SUCCESS**.
+### Reader publication — SaraBunny
 
-### Reviewed without reader mutation
+Sara's Daycare/support-room material was folded into her existing Archive Cast owner rather than being banked behind a future quota page. The useful contradiction is **self-monitoring without social withdrawal**: she checks the photo-contest rule before participating, gives notice before a short absence, quietly receives Ren/Mugen reassurance with hearts, and then spends roughly forty minutes checking whether saying `brr` when cold is socially weird. Anayss says she does the same thing—little shake included—and Sara goes straight to `oh I’m so happy` / `yesss`. The same careful person later joins communal `Mooo` once the footing is clear.
 
-**SaraBunny / Daycare:** Sara now has a developing person axis: tiny-rule checking, conscientious notice before a short absence, quiet reception of Ren/Mugen reassurance, an extended `brr` social-norm panic that resolves the second Anayss says she does it too, and later willingness to join communal `Mooo`. Best contradiction: **self-monitoring without social withdrawal**. Strong future Petty Crime: the `brr` standards hearing. Sara remains banked rather than receiving a thin quota biography because direct Daycare characterization is still limited and neither surface has a mature owner.
+The dossier now deepens Mugen from cow-bit-only into return-security plus tiny-norm adjudication, adds Ren's immediate `We gotchu!!` / `Real life first!!!` reassurance lane, adds Anayss as the peer-normalizer who ends the `brr` standards hearing, and carries the `brr` habit into Petty Crimes. This is not an anxiety diagnosis, and Sara is not credited with originating the moo bit.
 
-**Mugen person-first:** the 2021 NightLife public guideline reversal is now promoted backstage as a participant-facing changed-mind mechanism—Mugen can care about structure without defending every structure she authored—but current MAIN already owns the exact scene and broader public read. No duplicate WIKI Episode or Mugen receipt paragraph was created. The cheap rule-reversal rabbit is closed; the expensive changed-mind rabbit remains open for trust, relationship, invested labor, embarrassment, real resistance, or other personal cost.
+Final Run-558 reader head: **`89ad49ac9f5d4ce32d1b9700947fada78af49a96`**, which contains both the Ghoulie and SaraBunny changes.
+
+Verification for that exact final reader head:
+- Build workflow `34073606337` — **SUCCESS**; build job `101595412553` — **SUCCESS**.
+- Pages workflow `34073606359` — **SUCCESS**.
+- Pages build/artifact job `101595412979` — **SUCCESS**.
+- Deploy to GitHub Pages job `101595515453` — **SUCCESS**.
+- Pages report job `101595553873` — **SUCCESS**.
+
+### Reviewed without reader mutation — Mugen person-first
+
+The 2021 NightLife public guideline reversal is now promoted backstage as a participant-facing changed-mind mechanism—Mugen can care about structure without defending every structure she authored—but current MAIN already owns the exact scene and broader public read. `We hear your concerns...` becomes `SHOOTS ARE NOW OPEN TO ANY LOCATION`, then the room immediately gets `LEGGO STRIPPEEEERS`; acknowledgment becomes action without a prestige-defense detour. No duplicate WIKI Episode or Mugen receipt paragraph was created. The cheap rule-reversal rabbit is closed; the expensive changed-mind rabbit remains open for trust, relationship, invested labor, embarrassment, real resistance, or other personal cost.
 
 ## Current controlling queue — Run 558
 
@@ -67,9 +73,9 @@ Verification:
 - Oyasumi/TankHead94 formal Discord onboarding is solved; exact in-game admission remains open.
 - Queen Shimoko and Booba / MsThiccy remain banked person seeds rather than quota biographies.
 - Mr. Streamer / `ulstreamer` remains a banked developing person seed: provenance-conscious receipt-courier axis and bounded Torr source-handoff, not yet a multi-dimensional dossier. The exporter nickname `Mr. Streamer (Gabu's Chair)` does not establish a literal Gabu relationship or role.
-- **SaraBunny is now a banked developing person seed**: self-monitoring without withdrawal, Ren/Mugen reassurance reception, Anayss peer-normalization, and `brr` Petty Crimes texture. Do not convert this into a diagnosis or claim she originated the `moo` bit.
 - Woosung, ничего / novikroeva, Skully666, Grimlee, Abie, Teri / kinzokumissu, and DiStratus / Torr remain developing/banked people pending enough additional person-shaped texture for the appropriate surface.
 - Ghoulie direct Louvre object classification remains open; current Wall images are POSTED BY only until stronger object-level attribution. Gilli↔Ghoulie exposure remains a rabbit rather than a promoted repeated screenshot-war relationship.
+- SaraBunny's public dossier now owns the self-monitoring / reassurance / Anayss-normalization axis; do not convert it into a diagnosis or claim she originated the `moo` bit. Her photo-submission image remains POSTED BY only until inspected.
 - Mugen's cheap participant-facing changed-mind rabbit is closed by NightLife; reopen only for higher-cost revision or refusal with personal/relational consequence.
 - Yozora account-access specifics remain privacy/security-sensitive and are not public/site-routed.
 - Jαkie intake-age data remains private and is not surfaced.
@@ -81,8 +87,8 @@ Verification:
 
 ## Surface ownership
 
-Run 558's Ghoulie deepener is intentionally WIKI-only because the existing structured dossier could absorb the relationship and reputation mechanics cleanly. MAIN reader source was unchanged; no mirrored prose was created. Sara remains banked. Mugen was duplicate/backstage synthesis. MAIN's controlling ledger and `archive-intake/INTEGRATION_REPORT_RUN_558.md` own branch consumption and the MAIN-side publication decision.
+Run 558's Ghoulie and SaraBunny deepeners are intentionally WIKI-only because existing structured dossiers could absorb their relationship/reputation/personality mechanics cleanly. MAIN reader source was unchanged and no mirrored prose was created. Mugen was duplicate/backstage synthesis. MAIN's controlling ledger and `archive-intake/INTEGRATION_REPORT_RUN_558.md` own branch consumption and the MAIN-side publication decision.
 
 ## Historical reports
 
-Per-run integration history remains available in the existing `INTEGRATION_REPORT_RUN_*.md` files. Recent public convergence anchors include Run 558 (Ghoulie), Run 554 (Kuki / Cookie), Run 553 (Ghoulie + Woohyuk), Run 549 (Yumi + Zoshaa), Run 545 (Zoshaa + porgo!), Run 543 (Rich + Anthos), Run 541 (Miihi), and Run 540 (HamitteY + Anayss). Those reports remain the detailed durable record; this file stays the rolling current-state owner.
+Per-run integration history remains available in the existing `INTEGRATION_REPORT_RUN_*.md` files. Recent public convergence anchors include Run 558 (Ghoulie + SaraBunny), Run 554 (Kuki / Cookie), Run 553 (Ghoulie + Woohyuk), Run 549 (Yumi + Zoshaa), Run 545 (Zoshaa + porgo!), Run 543 (Rich + Anthos), Run 541 (Miihi), and Run 540 (HamitteY + Anayss). Those reports remain the detailed durable record; this file stays the rolling current-state owner.
