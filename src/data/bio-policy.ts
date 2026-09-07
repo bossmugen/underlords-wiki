@@ -9,6 +9,7 @@ import "./cast-run604-wall";
 import "./cast-run607-intake";
 import "./cast-run608-intake";
 import "./cast-run608-canon";
+import "./cast-run609-core";
 
 // Public editorial invariant for every character page and every future integrator pass.
 // The archive supplies the receipts. The visible biography is about the person.
