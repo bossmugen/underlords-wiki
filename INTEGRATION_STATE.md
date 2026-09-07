@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-07 — Run 613 stable close_
+_Last updated: 2026-09-07 — Run 614 stable close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks remain the highest-priority identity/role correction layer.
 
@@ -9,6 +9,16 @@ MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:ma
 Mandatory full census: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**. Closing state: **0 newly discovered branches, 0 unread pending-review tails, 8 reviewed `pending_publication` MAIN families, 0 backlog, and 0 overdue**.
 
 Both Club-Only recovery lanes remain current/saturated at `e45fb11c9239e236231bb65645dfd0285bc0078b` and `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`; neither was churned.
+
+## Run 614 — stable census
+
+The full miner census was repeated against fresh GitHub refs. No active miner branch advanced beyond its recorded consumed frontier; all 30 active matching refs still match `last_consumed_sha` in MAIN's controlling branch ledger.
+
+There was therefore no changed `archive-intake/*` handoff to review, no recovery delta to continue, no anti-starvation branch available for rotation, no new/reframed lore to publish, no conflict changing state, and no consumed SHA movement.
+
+WIKI reader-facing files changed **0**. The latest verified/deployed reader remains Run 612 SHA **`8bca39aca870184a94cdf1b8eea73ad7dc45a01d`**. No Astro/Pages build or deployment is claimed for this stable documentation-only close.
+
+MAIN reader-facing files also changed **0**. The eight reviewed `pending_publication` families remain publication debt rather than unread mining work; no MAIN source-verification/Astro/built-output/deployment run is claimed for an unchanged reader tree.
 
 ## Run 613 — stable census
 
