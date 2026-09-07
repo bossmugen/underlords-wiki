@@ -22,6 +22,8 @@ This is **already owned on WIKI** by `src/data/character-biographies-hamittey.ts
 
 MAIN already owns the August 2021 stored-receipt + Ghoulie mock-betrayal / welcome-back scene. The later ShiyaX/context-light curator dimension remains a richer MAIN-only publication-held fold rather than WIKI prose copied across surfaces.
 
+**Pronoun hold:** current MAIN prose uses he/him for HamitteY while current WIKI prose uses she/her. There is no hard project lock in the reconciled canon resolving that difference, and the fresh Wall handoff itself stays pronoun-neutral. Do not infer a winner from either public surface. Resolve or neutrally rewrite both surfaces together once a reliable pronoun source or user lock exists and the normal verification gates can run.
+
 Attribution remains strict: the screenshot is POSTED BY HamitteY unless/until the binary is independently inspected; MADE BY / CAPTURED BY / FEATURING remain unresolved. The Wall q18 retrieval block remains open.
 
 ### Mugen appetite pass
@@ -61,7 +63,7 @@ Both Club-Only lanes are current/saturated and are not counted as unread or publ
 
 ## Carried holds
 
-Hard canon still resolves **Zyrcant = Akariel / Akariel™ / akariel_star** and **Candy ≠ HyaLuna**. DyingFox's stable-ID conflict remains unresolved. Nothien uses he/him; stale MAIN they/them body references remain a known production-gated repair. Export-time/current role arrays still cannot date appointments, including Han's exact Media Director appointment. Eos's exact UL→Deviations transition mechanics remain open. Nhou direct assigned Birthday evidence, assigned PR WOO author bridge, Sakura's compressed IGN/club mapping, Jas exact admission/`Absent father` origin, and Oyasumi's exact in-game admission remain open. Queen Shimoko and Booba/MsThiccy remain banked seeds. Neme remains developing pending another person dimension. Xephy's command-prefix sequence does not prove which prefix technically succeeded without a readable bot result.
+Hard canon still resolves **Zyrcant = Akariel / Akariel™ / akariel_star** and **Candy ≠ HyaLuna**. HamitteY's cross-surface he/him (MAIN) vs she/her (WIKI) pronoun mismatch is unresolved; fresh Wall mining is pronoun-neutral until resolved. DyingFox's stable-ID conflict remains unresolved. Nothien uses he/him; stale MAIN they/them body references remain a known production-gated repair. Export-time/current role arrays still cannot date appointments, including Han's exact Media Director appointment. Eos's exact UL→Deviations transition mechanics remain open. Nhou direct assigned Birthday evidence, assigned PR WOO author bridge, Sakura's compressed IGN/club mapping, Jas exact admission/`Absent father` origin, and Oyasumi's exact in-game admission remain open. Queen Shimoko and Booba/MsThiccy remain banked seeds. Neme remains developing pending another person dimension. Xephy's command-prefix sequence does not prove which prefix technically succeeded without a readable bot result.
 
 Mr. Streamer / `ulstreamer` still has hard account-state anchors but no solved human owner: stable `615878...` was bot-labeled `Gilli#8635` in 2020, later human-called `Gabu's chair`, and later used as a stream-derived relay. Separate stable Gilli `585466...` must not be merged with it. Ownership/transfer/operator/rename origin remain open. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain separate.
 
@@ -69,4 +71,4 @@ Jumanji remains a hard-canon **Platelet** with a banked scene-bounded one-word s
 
 ## Surface split
 
-No reader publication was made on either surface in Run 564. WIKI already owns the stronger HamitteY synthesis; MAIN already owns Mugen's appetite shorthand and the core Ham/Ghoulie receipt scene. Richer MAIN-only folds remain behind MAIN's controlled production gate rather than being mirrored from WIKI without verification.
+No reader publication was made on either surface in Run 564. WIKI already owns the stronger HamitteY synthesis; MAIN already owns Mugen's appetite shorthand and the core Ham/Ghoulie receipt scene. Richer MAIN-only folds remain behind MAIN's controlled production gate rather than being mirrored from WIKI without verification. HamitteY's pronoun mismatch is a reconciliation hold, not a license to choose a side from stale public copy.
