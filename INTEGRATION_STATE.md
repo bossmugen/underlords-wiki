@@ -1,8 +1,46 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-06 — Run 550_
+_Last updated: 2026-09-06 — Run 553_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. This file records the WIKI side of the same reconciled evidence system; it does not maintain an independent canon.
+
+## Run 553 — Ghoulie updates fast; Woohyuk prosecutes fruit
+
+The full miner census resolves to **51 tracked identities = 30 active matching refs + 21 historical/missing refs**, with **0 newly discovered branches, 0 unread active tails, 0 backlog, and 0 overdue** at close. Five branches were advanced at opening and were reviewed checkpoint-first from changed `archive-intake/*` handoffs only: Core Rooms / Events through `bb81b4f63e3178e22aa6155593d1cd50735f9ad5`, Daycare through `f317c664b5b379d91f0dfa4330f355f8e7168b25`, Louvre / AI Art / Athenaeum / Other Games through `ff056055cb3fdbeba016ed74c280b5b62922b68d`, Mugen person-first through final late-moving head `ed7b2f616398299edd7c1e4e9c6c1b3ca7f6fbd0`, and Wall through `c823be66c8ea028ad02092c600f69c3868aa0b0b`. No raw archive was reopened. The ten MAIN publication-held families remain reviewed release debt, not unread miner work.
+
+**Baby Lyssa = Ghoulie** remains hard canon. Daycare adds a better person mechanism than another generic Wall-resident receipt: Ghoulie can react at emergency speed and correct herself at almost the same speed. Gilli's ambiguous `A father and his daughter` caption gets `I-` → `GILLI`; when he clarifies the scene is innocent, Ghoulie pivots to `yes it’s so adorable` and then diagnoses her own bad first read with `when you watch too much gore`. WIKI folds that into the existing `baby-lyssa` owner as fast-reactive / fast-corrigible, adds Gilli relationship texture, and keeps the gore line as Petty Crimes rather than turning a joke into a diagnosis.
+
+Fresh Louvre support material gives **Woohyuk / ash_island** enough person for a structured Archive Cast owner. His emerging contradiction is **petty certainty / quiet care**: `yea watermelon is just sweet water` → `in a form of a melon` → `tryna play us dumb`, while probable concern for Lilly can collapse to the tiny `please sleep`. Lilly also tags him into visual nonsense and immediately fact-checks his `i am pure` claim. The public lane is easy teasing plus low-ceremony concern. `please sleep` remains a strong contextual Lilly target, not a formal Discord Reply; image objects remain POSTED BY only until inspected.
+
+Core materially deepens the **Spirit** rabbit without over-solving it: a later `contest` / `which fields` sequence has Rookie Cookie say `Spirit sounds like a fun place to go`, Ren answer `It be locked`, and Rookie answer `NOOOOOOO`. Spirit is therefore probably a selectable field/location with an availability state. The exact event identity is still unresolved; shared `Fields` vocabulary does not license a Land of Conquest bridge. The same Core delta also gives Rooks open eagerness and Gilli practical-help texture through `You need dailies blueberry?` → `Omg yes pls` → Gilli offering to run them. No new Wiki Episode was created.
+
+Mugen's fresh **away ≠ gone / collector-not-jailer** synthesis is already owned by current public prose: Nothien, Aeshleen, Lilith, Nelph and the reunion return grammar already establish that Mugen can miss people and want them back without making attendance the price of belonging. The Mugen branch moved again after opening, but the late commit only refreshed the rolling checkpoint with the same reviewed 17:18 pass, so the integrator chased it through `ed7b2f61...` and did not grow the same character read twice. Wall likewise produced no new reader paragraph: DarkAsrai's self-aware defendant → evidence-race filer and Vanness's selective self-prosecutor are already public owners, while Aesh q18 closure remains backstage topology.
+
+Exact WIKI reader head: **`30dafd365e6b61fdd852d4f9bd022319123709c3`**, changing `src/data/cast.ts` for Ghoulie and Woohyuk.
+
+- Build workflow `34070495003` — **SUCCESS**; build job `101586812834` — **SUCCESS**.
+- Pages workflow `34070494997` — **SUCCESS**.
+- Pages build/artifact job `101586812944` — **SUCCESS**.
+- Deploy to GitHub Pages job `101586924940` — **SUCCESS**.
+- Pages report job `101586963045` — **SUCCESS**.
+
+MAIN reader source stayed unchanged. Daycare/Louvre/Core material has richer MAIN-biography potential, but MAIN still requires its controlled source-verification → Astro → built-output verification → production deployment sequence; a fresh manual dispatch is not exposed through the connected repository surface. WIKI wording was not copied across. Full dual-surface report: `INTEGRATION_REPORT_RUN_553.md` here and `archive-intake/INTEGRATION_REPORT_RUN_553.md` on MAIN.
+
+## Current controlling queue — Run 553
+
+- **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**.
+- **0 newly discovered, 0 unread pending review, 0 backlog, 0 overdue**.
+- **10 reviewed MAIN publication-held families** remain publication debt only; WIKI does not reinterpret them as unread miner work.
+- QOTD / Officers — consumed through `c51cd1914f65cb8ae65b850b1d0da85ffccb94ed`.
+- Birthdays / PR / VC — consumed through `001b1322cab810a35cd8bf5e4990db3458e2bc94`.
+- Daycare — consumed through `f317c664b5b379d91f0dfa4330f355f8e7168b25`.
+- Mugen person-first — consumed through `ed7b2f616398299edd7c1e4e9c6c1b3ca7f6fbd0`.
+- Whiskey — consumed through `3592be0e1550eb125bc8de1975aaaa1b44cdc8d9`.
+- Wall — consumed through `c823be66c8ea028ad02092c600f69c3868aa0b0b`.
+- Louvre / AI Art / Athenaeum / Other Games — consumed through `ff056055cb3fdbeba016ed74c280b5b62922b68d`.
+- Core Rooms / Events — consumed through `bb81b4f63e3178e22aa6155593d1cd50735f9ad5`.
+- Club-Only 2021–2026 remains current/saturated at `e45fb11c9239e236231bb65645dfd0285bc0078b`.
+- Club-Only 2020 remains current/saturated at `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`.
 
 ## Run 550 — no-op census
 
@@ -64,7 +102,7 @@ Because no miner handoff advanced, Run 546 did not re-open raw archives, did not
 
 No consumption SHA changed. Current hard holds remain untouched, including the DyingFox stable-ID contradiction, Queen Shimoko's banked thin profile, Zoshaa object-level media attribution, Nothien's stale MAIN pronoun debt, and the existing SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING boundaries.
 
-## Current controlling queue
+## Run 550 queue snapshot (historical)
 
 - **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**.
 - **0 newly discovered, 0 unread pending review, 0 backlog, 0 overdue** at the Run 550 close.
