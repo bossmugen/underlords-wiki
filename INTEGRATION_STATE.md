@@ -1,72 +1,49 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-07 — Run 583 reconciled close_
+_Last updated: 2026-09-07 — Run 584 reconciled close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` remains the controlling miner-consumption ledger. `bossmugen/underlords:master` `CANON_LOCKS.md` is the highest-priority identity/role correction layer and wins over miner-local hypotheses, integration prose, site alias drift, or account-level ambiguity until Mugs explicitly changes it.
 
 ## Current census
 
-Mandatory full census remains **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**. No newly discovered miner branch. Run 583 currently closes with **0 unread pending-review tails, 8 reviewed `pending_publication` families, 0 backlog, 0 overdue** after servicing one publication-debt family and consuming two late-arriving tails. Both Club-Only recovery lanes remain current/saturated at `e45fb11c9239e236231bb65645dfd0285bc0078b` and `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`; no raw archive was reopened.
+Mandatory full census is **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**. Run 584 closes with **0 newly discovered branches, 0 unread pending-review tails, 8 reviewed `pending_publication` families, 0 backlog, and 0 overdue**. Both Club-Only recovery lanes remain current/saturated at `e45fb11c9239e236231bb65645dfd0285bc0078b` and `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`; no raw archive was reopened.
 
-Opening census had no unread tail. During the run Wall advanced from `3bbe9d4043e8972372e0a57827b49a00b1b916cb` to `c1a23636ee66aa26bcd23f2b5147980746832e61`; Run 583 reviewed that delta checkpoint-first/intake-only under anti-starvation and advanced the controlling consumed frontier through the new head. A later census then found Daycare advanced from `266fb0d4eda74863e2dc5bcabd04be701c589031` to `9188d73fa4fc3ba3722d1d30a10191dee55c7eee`; it was first persisted as seen/pending, then reviewed checkpoint-first/intake-only and consumed.
+Run 584's only opening advanced tail was Daycare: `archive-miner/daycare-2020-2026-hourly` moved from consumed `9188d73fa4fc3ba3722d1d30a10191dee55c7eee` to `5e20a9fe1f16bb86e17c62ca7a9d837f0e8df151`. It was reviewed checkpoint-first through changed `archive-intake/*` handoffs only and is now consumed through that head. Closing branch census found no later miner movement.
 
-Current major consumed frontiers include Core Rooms / Events `8c5b10227a6a62992c3e898f0669cb7f675d01c3`; Daycare `9188d73fa4fc3ba3722d1d30a10191dee55c7eee`; Birthdays / PR / VC `a66d90814ea333f00022d9c8e8a9b93e9b31ef1e`; Whiskey `e77df7e809e4ff5bf47cadff3fafe6bb9840aa63`; Wall `c1a23636ee66aa26bcd23f2b5147980746832e61`; Mugen person-first `5013800cdaaebbccd7b925f0d7ce0849960b9ae8`.
+Current major consumed frontiers include Core Rooms / Events `8c5b10227a6a62992c3e898f0669cb7f675d01c3`; Daycare `5e20a9fe1f16bb86e17c62ca7a9d837f0e8df151`; Birthdays / PR / VC `a66d90814ea333f00022d9c8e8a9b93e9b31ef1e`; Whiskey `e77df7e809e4ff5bf47cadff3fafe6bb9840aa63`; Wall `c1a23636ee66aa26bcd23f2b5147980746832e61`; Mugen person-first `5013800cdaaebbccd7b925f0d7ce0849960b9ae8`.
 
-## Run 583 — Suzi owner repaired and published
+## Run 584 — Booba / MsThiccy published to WIKI
 
-Hard project canon controls identity: **Suzi = Suzimasu = Mob = BAPE = Sushi = `mob_bape` = `Mob | BAPE`**. The route key remains `id: suzimasu` for URL stability; the visible canonical owner is now **Suzi**. No second Mob/BAPE dossier exists.
+The Daycare tail turns Booba from a one-message shell into a usable person-shaped read through exact-stable-ID support material from healthy UL exports. The cumulative mechanism is **episodic but not timid**: Booba makes confusion public enough for other people to help, routes her own embarrassment into the joke, disappears and returns without a social reintroduction ceremony, and can be visibly confused while still caring enough to make deliberate resource choices and fuss over avatar customization.
 
-The WIKI owner now carries the cumulative person read rather than just a founder/streetwear stub: scary first impression collapsing under ordinary exposure, food/smoked-meat behavior, voluntary Wall self-incrimination, and the easy shift into Ren reassurance without leaving the joke register. Structured Ren/Mugen/Tofu relationship texture and bounded quotes now live with the same owner. Founding Circle and founding-episode visible references also use Suzi.
+The recurring `WAAAH` now appears on the same stable account across three separate support scenes. Treat it as recurring expressive punctuation, not a locked catchphrase. The Wall screenshot remains POSTED BY Booba only unless separate evidence establishes maker/capturer/subjects.
 
-The core new Wall mechanism remains **competitive self-incrimination + playful soft landing**: `Trying to win the wall of shame awards` belongs to somebody actively volunteering for Screenshot Court; later `Aww it’s okay @RΣN` / `I still wuv you` shows the same ridiculous social register bending toward reassurance when Ren's self-roast goes soft. That is affection/easy peer familiarity, not romance or sex.
+WIKI now has a compact Archive Cast dossier for **Booba / MsThiccy** in `src/data/cast.ts`. The public dossier emphasizes the Wall-side contradiction already strong enough for WIKI structure: she can drop a receipt with almost no explanation, become the teased defendant, then pivot almost immediately toward finding counter-screenshots. It does not pretend the inaccessible Daycare body says things we cannot read.
 
-Exact WIKI reader commit: **`f323605d9db8cc4dcab25e532b3d85467f9eb02d`**.
+Exact WIKI reader commit: **`5afdad7687557b1317a232a765daecdd323936d9`**.
 
 Verification on that reader SHA:
-- Build workflow `34111448216`; Astro build job `101708393564`: **success**.
-- Pages workflow `34111448238`; Pages build/artifact job `101708394346`: **success**.
-- Actual GitHub Pages deploy job `101708515689`: **success**.
-- Pages report/status job `101708583749`: **success**.
+- Build workflow `34114398368`; Astro build job `101717729253`: **success**.
+- Pages workflow `34114398401`; Pages build/artifact job `101717730589`: **success**.
+- Actual GitHub Pages deploy job `101717870168`: **success**.
+- Pages report/status job `101717943086`: **success**.
 
-MAIN did not need mirrored prose: its existing rich `src/content/people/suzimasu.md` already owned the same Wall self-incrimination / Ren reassurance mechanism in person-first form. Core Rooms / Events therefore moves from `pending_publication` to `consumed` in the controlling MAIN ledger.
+The richer help-seeking / return / coin-hoarding / avatar-customization material remains better suited to a future MAIN person-first biography and possibly a later WIKI deepening than to receipt-by-receipt expansion now. MAIN therefore remains publication-held for Booba rather than receiving mirrored WIKI prose.
 
-## Run 583 — late Wall anti-starvation review
+## Run 584 — Baby Lyssa / Ghoulie membership rabbit tightened, not closed
 
-Wall advanced while this run was open. The delta `3bbe9d4043e8972372e0a57827b49a00b1b916cb` → `c1a23636ee66aa26bcd23f2b5147980746832e61` was reviewed through changed `archive-intake/*` handoffs only, with `checkpoint.md` first.
+Hard canon remains **Baby Lyssa = Ghoulie**. New chronology narrows the membership question without inventing an admission date:
 
-### WolfPhenix
+- `2021-03-04`: Ghoulie self-identifies in Lobby as being in Ethereal. The historical age field stays private/publicly unnecessary.
+- `2021-03-13`: ShiyaX posts `GHOULIE IN UL`, immediately asks `YOU JOINING BB ?`, and Ghoulie answers `MAYBE?` in the same exchange.
 
-The miner adds a coherent thin Wall texture: Wolf's five surviving authored messages are mostly social punctuation — New Year greeting/cheers, a meme, `XD`, and a double wheeze — while Mugen reports Dean seeing purple and thinking `wolfie`. The useful contradiction is near-silent authored Wall prose versus strong enough recognizability to become abstract shorthand in somebody else's head.
-
-This did **not** get a duplicate WIKI Episode. MAIN already publicly owns the stronger September 2022 `purple = wolfie` association inside WolfPhenix's richer person biography and explicitly brakes it against favorite-color/personal-brand canon. Wolf q18 closes **0+/5−**.
-
-### Akariel / Zyrcant
-
-Akariel q18 remains **OPEN / PARTIAL — 3+/17− across 20/48 trustworthy-classified; 28 unaudited**. The new value is backstage retrieval forensics: exact-find false zeroes reappeared while semantic retrieval recovered known parent objects, so no new negatives were certified.
-
-A miner-local checkpoint line saying Akariel is not safely Zyrcant is **not propagated**. Hard project canon resolves **Akariel = Zyrcant** and remains controlling. Corpus-local retrieval/account uncertainty cannot split the canonical person.
-
-## Run 583 — later Daycare anti-starvation review
-
-Daycare then advanced again late in the same run: `266fb0d4eda74863e2dc5bcabd04be701c589031` → `9188d73fa4fc3ba3722d1d30a10191dee55c7eee`. That tail was also reviewed checkpoint-first/intake-only and is consumed.
-
-### Candy
-
-The new Daycare handoff characterizes Candy as **highly legible at low verbal bandwidth**: `Wad00`, paired BOP emotes, animal-noise shorthand, and the `Moo` + `Cat_Sporkle` burst that Ansun and Rummy immediately echo. YoChan's `oink oink` summon and Candy's reaction fit the same compressed register.
-
-This is useful corroboration, not fresh public debt. MAIN's existing Candy biography already owns the full person-first mechanism — minimal words, strong social pickup, the `Moo` propagation chain, Vanness sympathy and the YoChan animal-noise exchange. WIKI's existing Candy dossier already owns the same reaction-first / emote-native character read and its Vanness/YoChan relationship texture. Run 583 therefore does **not** append another Candy paragraph or invent four separate traits from four tiny noises.
-
-The direct post-2020 Daycare body remains inaccessible, so the support axis stays same-stable-ID Wall characterization rather than a claim about Daycare-specific frequency.
-
-### RH16 — ~279h broken word-train bot
-
-Same-date Announcements adjacency adds only a boundary: known Saber performs its documented Yakuza Peak event-alert function about twenty minutes before Mugen announces the broken ~279h bot. Proximity does not identify Saber as the word-train bot and does not exclude Saber from having other functions. RH16 remains unresolved and stays backstage; the repeated raw source route remains access-blocked.
+The more-likely-than-not read is that UL membership was still prospective/undecided in that March 13 exchange. This does **not** establish the later acceptance date, accepting person, or exact club-admission mechanism. Discord presence, event invitations, Wall participation, and export-time role arrays remain invalid shortcuts for dating admission.
 
 ## MAIN surface
 
-Run 583 changed **0 MAIN reader-facing files**. Suzi's accepted Run-582 material was already live in the richer MAIN biography, the strongest Wolf tail point was already represented there, and Candy's late tail is already fully metabolized in MAIN's existing Candy biography. No duplicate receipt prose was appended.
+Run 584 changed **0 MAIN reader-facing files**. Booba has enough material for richer MAIN treatment, but MAIN publication requires the exact-master verification/build/built-output/deployment chain. The available connected GitHub action surface does not expose a safe manual workflow dispatch for the production workflow, so no undeployed source mutation was made and no fake MAIN deploy was claimed.
 
-No fresh MAIN source-verification, Astro build, built-output verification or production deployment is claimed for an unchanged MAIN reader tree. MAIN changed only integrator state/report bookkeeping with `[skip ci]`.
+The controlling MAIN ledger was advanced after successful review/publication reconciliation. Run 584's state commit is `1a94ef6a91f0c9fa52029d61a0f4d7798ed78750`.
 
 ## Carried identity / safety rails
 
@@ -75,6 +52,7 @@ No fresh MAIN source-verification, Astro build, built-output verification or pro
 - WOO = Woosung.
 - Akariel = Zyrcant; stale/miner-local uncertainty does not reopen this lock.
 - Mia = Mimi = Miaka = Opalite Honey = `༯`; account-level provenance cannot split this person.
+- Baby Lyssa = Ghoulie.
 - Candy / later `— Luna` is distinct from HyaLuna.
 - Ricochet is not Rich / DragonRich.
 - Nui is not Nuien.
@@ -84,11 +62,11 @@ No fresh MAIN source-verification, Astro build, built-output verification or pro
 - Export-time/current role arrays do not date appointments.
 - Earliest surviving evidence is not guaranteed origin.
 - SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct.
-- `purple = wolfie` is reported social shorthand, not favorite-color canon or formal branding.
 - Final-export reactions do not establish click timing.
 
 ## Carried unresolved rabbits
 
+- Baby Lyssa / Ghoulie exact UL admission date/person/mechanism remains open despite the new March 2021 lower-bound sequence.
 - WOO strict task-help remains open.
 - Chubi lived Sniperr/Officer execution remains open.
 - Hic concrete help remains open.
@@ -97,7 +75,7 @@ No fresh MAIN source-verification, Astro build, built-output verification or pro
 - Grimlee enacted warmth remains open.
 - WOO/Nobu screenshot contents remain visually unresolved.
 - Ten inverse-reply topology remains partial/retrieval-blocked; a parent that fails to self-recover is not certified negative.
-- Akariel q18 has 28 unaudited parents.
+- Akariel q18 retains unaudited parents.
 - Erys/Cele/nothing/YuKanada/Woohyuk/HamitteY and other recorded inverse-reply branches remain open/partial as tracked backstage.
 - RH16 / ~279h broken word-train bot identity remains unresolved; Saber adjacency is not an identity bridge.
 - `ulstreamer` / Gabu-chair human owner/operator history remains unresolved.
@@ -111,4 +89,4 @@ No fresh MAIN source-verification, Astro build, built-output verification or pro
 
 ## Verified reader history
 
-Run 583's current verified reader is **`f323605d9db8cc4dcab25e532b3d85467f9eb02d`** (Suzi owner repair), with both Astro Build and GitHub Pages build/deploy/report successful. Run 581 previously published Ten; Run 580 published braindead / br4ind34d and Churro / Suora; Run 579 published Nui, Erys, ничего / novikroeva, and YuKanada / Reii. Later Run-583 state/report commits are reader-neutral bookkeeping and do not supersede the verified reader SHA.
+Run 584's current verified reader is **`5afdad7687557b1317a232a765daecdd323936d9`** (Booba / MsThiccy Archive Cast dossier), with both Astro Build and GitHub Pages build/deploy/report successful. Run 583 previously repaired/published Suzi; Run 581 published Ten; Run 580 published braindead / br4ind34d and Churro / Suora; Run 579 published Nui, Erys, ничего / novikroeva, and YuKanada / Reii. Later state/report commits are reader-neutral bookkeeping and do not supersede the verified reader SHA.
