@@ -1,14 +1,14 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-07 — Run 592 stable census_
+_Last updated: 2026-09-07 — Run 593 stable census_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. `bossmugen/underlords:master` `CANON_LOCKS.md` remains the highest-priority identity/role correction layer and wins over miner-local hypotheses, integration prose, site alias drift, or account-level ambiguity until Mugs explicitly changes it. Earlier detailed run history remains in durable per-run reports; this file is the current operational snapshot.
 
 ## Current census
 
-Mandatory full census: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**. Run 592 closes with **0 newly discovered branches, 0 unread pending-review tails, 8 reviewed `pending_publication` families, 0 backlog, and 0 overdue**.
+Mandatory full census: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**. Run 593 closes with **0 newly discovered branches, 0 unread pending-review tails, 8 reviewed `pending_publication` families, 0 backlog, and 0 overdue**.
 
-Every active miner head still matches its Run 591 consumed frontier. There was therefore no intake delta to review and no consumed SHA moved in Run 592.
+Every active miner head still matches its Run 592 consumed frontier. There was therefore no intake delta to review and no consumed SHA moved in Run 593.
 
 Both Club-Only recovery lanes remain current/saturated at `e45fb11c9239e236231bb65645dfd0285bc0078b` and `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`; no raw archive was reopened.
 
@@ -16,9 +16,9 @@ Current major consumed frontiers: Core Rooms / Events `62a0f3a1dc81e533db5a15639
 
 The eight reviewed publication-held families are Backroom, Birthdays / PR / VC, Daycare, Louvre / AI / Athenaeum / Other Games, Meems, Whiskey, QOTD / Officers, and Wall. `pending_publication` means reviewed debt, not unread mining.
 
-## Run 592 — stable census
+## Run 593 — stable census
 
-No miner branch advanced beyond the Run 591 consumption boundaries. There was no new lore packet to reconcile, no duplicate family to collapse, no conflict whose state changed, and no accepted finding requiring a reader-source edit on either public surface.
+No miner branch advanced beyond the Run 592 consumption boundaries. There was no new lore packet to reconcile, no duplicate family to collapse, no conflict whose state changed, and no accepted finding requiring a reader-source edit on either public surface.
 
 Reader-facing MAIN files changed: **0**. Reader-facing WIKI files changed: **0**. No new reader build or deployment is claimed for unchanged reader trees.
 
@@ -55,7 +55,7 @@ Later state/report commits are reader-neutral `[skip ci]` and do not supersede `
 
 ## Current unresolved rabbits
 
-Run 592 closes none of these merely because the census is stable:
+Run 593 closes none of these merely because the census is stable:
 - iBwoy inverse-reply topology remains open / retrieval-blocked.
 - Torr q18 remains OPEN / PARTIAL / RETRIEVAL-BLOCKED.
 - ShiyaX account-intruder recurrence remains open.
