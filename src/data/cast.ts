@@ -256,6 +256,56 @@ if (ghoulieIndex >= 0) {
   };
 }
 
+// SaraBunny already existed as a small but recognizable reunion/Wall presence.
+// The Daycare longitudinal pass gives the quieter 2021 version a cleaner person
+// mechanism: she checks tiny rules and social norms, visibly cares about whether
+// her behavior is legible, and relaxes into silliness as soon as the footing is clear.
+const saraIndex = allCharacters.findIndex((character) => character.id === "sarabunny");
+if (saraIndex >= 0) {
+  const sara = allCharacters[saraIndex];
+  const relationships = [...(sara.relationships ?? [])];
+
+  const mugenIndex = relationships.findIndex((relationship) => relationship.name === "Mugen");
+  const mugenRelationship = {
+    name: "Mugen",
+    note: "When Sara announces she may be less active for a couple of days, Mugen answers `Take care Sara! Dw we'll be here when u come back!`; Sara receives it with a heart. Weeks later Mugen also answers Sara's microscopic `is saying brr weird?` standards hearing completely straight-faced. Return-security and tiny-norm adjudication can apparently share one lane.",
+    href: "/characters/mugen",
+  };
+  if (mugenIndex >= 0) relationships[mugenIndex] = mugenRelationship;
+  else relationships.push(mugenRelationship);
+
+  if (!relationships.some((relationship) => relationship.name === "Ren")) {
+    relationships.push({
+      name: "Ren",
+      note: "Sara's short-absence notice gets immediate `We gotchu!!` and `Real life first!!!`; Sara heart-reacts the reassurance rather than turning the moment into a speech. Ren makes the door-back explicit before Sara has even gone anywhere.",
+      href: "/characters/ren",
+    });
+  }
+  if (!relationships.some((relationship) => relationship.name === "Anayss")) {
+    relationships.push({
+      name: "Anayss",
+      note: "Sara spends the better part of an hour wondering whether saying `brr` when cold is socially weird. Anayss says she does it too—`With a lil shake added too`—and Sara immediately lands on `oh I’m so happy` / `yesss`. One matching peer is enough to end the standards hearing.",
+      href: "/characters/anayss",
+    });
+  }
+
+  const brrQuestion = "random question but when it’s cold would you find it weird if someone said “brr”";
+  const brrRelief = "oh I’m so happy";
+  const absenceQuote = "I’m not sure where to say this but I might not be that active for the next couple of days";
+  const quotes = [...(sara.quotes ?? [])];
+  for (const quote of [brrQuestion, brrRelief, absenceQuote]) {
+    if (!quotes.includes(quote)) quotes.push(quote);
+  }
+
+  allCharacters[saraIndex] = {
+    ...sara,
+    logline: "Low-volume but socially conscientious: SaraBunny checks the rule before submitting, gives notice before a two-day disappearance, can hold a forty-minute hearing on whether saying `brr` is weird, and becomes perfectly happy to moo with everybody once the social footing feels clear.",
+    tags: [...new Set([...(sara.tags ?? []), "Social norm checker", "Low-ceremony care", "Petty Crimes"])],
+    relationships,
+    quotes,
+  };
+}
+
 export const castGroups = baseGroups.map((group) => {
   if (group.id !== "archive-cast") return { ...group, characterIds: [...group.characterIds] };
   const characterIds = [...group.characterIds];
