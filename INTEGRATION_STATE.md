@@ -1,16 +1,22 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-07 — Run 584 reconciled close_
+_Last updated: 2026-09-07 — Run 585 census-only close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` remains the controlling miner-consumption ledger. `bossmugen/underlords:master` `CANON_LOCKS.md` is the highest-priority identity/role correction layer and wins over miner-local hypotheses, integration prose, site alias drift, or account-level ambiguity until Mugs explicitly changes it.
 
 ## Current census
 
-Mandatory full census is **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**. Run 584 closes with **0 newly discovered branches, 0 unread pending-review tails, 8 reviewed `pending_publication` families, 0 backlog, and 0 overdue**. Both Club-Only recovery lanes remain current/saturated at `e45fb11c9239e236231bb65645dfd0285bc0078b` and `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`; no raw archive was reopened.
+Mandatory full census is **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**. Run 585 closes with **0 newly discovered branches, 0 unread pending-review tails, 8 reviewed `pending_publication` families, 0 backlog, and 0 overdue**. Every active miner ref matched its recorded `last_consumed_sha`, so there was no new checkpoint/intake delta to reread or publish. Both Club-Only recovery lanes remain current/saturated at `e45fb11c9239e236231bb65645dfd0285bc0078b` and `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`; no raw archive was reopened.
 
-Run 584's only opening advanced tail was Daycare: `archive-miner/daycare-2020-2026-hourly` moved from consumed `9188d73fa4fc3ba3722d1d30a10191dee55c7eee` to `5e20a9fe1f16bb86e17c62ca7a9d837f0e8df151`. It was reviewed checkpoint-first through changed `archive-intake/*` handoffs only and is now consumed through that head. Closing branch census found no later miner movement.
+Current major consumed frontiers remain Core Rooms / Events `8c5b10227a6a62992c3e898f0669cb7f675d01c3`; Daycare `5e20a9fe1f16bb86e17c62ca7a9d837f0e8df151`; Birthdays / PR / VC `a66d90814ea333f00022d9c8e8a9b93e9b31ef1e`; Whiskey `e77df7e809e4ff5bf47cadff3fafe6bb9840aa63`; Wall `c1a23636ee66aa26bcd23f2b5147980746832e61`; Mugen person-first `5013800cdaaebbccd7b925f0d7ce0849960b9ae8`.
 
-Current major consumed frontiers include Core Rooms / Events `8c5b10227a6a62992c3e898f0669cb7f675d01c3`; Daycare `5e20a9fe1f16bb86e17c62ca7a9d837f0e8df151`; Birthdays / PR / VC `a66d90814ea333f00022d9c8e8a9b93e9b31ef1e`; Whiskey `e77df7e809e4ff5bf47cadff3fafe6bb9840aa63`; Wall `c1a23636ee66aa26bcd23f2b5147980746832e61`; Mugen person-first `5013800cdaaebbccd7b925f0d7ce0849960b9ae8`.
+## Run 585 — census-only close
+
+No miner branch advanced beyond its consumed frontier. The mandatory project-wide branch census was persisted on MAIN at `fb6786811c3187114258b408cda20559dc9a3f94`, and the durable MAIN no-change report is `archive-intake/INTEGRATION_PASS_2026-09-07_0414_RUN585.md`.
+
+Reader-facing WIKI files changed: **0**. No Astro Build or Pages deployment was warranted because there was no reader mutation. No consumed SHA moved. No new lore, duplicate family, identity conflict, or attribution rabbit was introduced. The eight reviewed publication-debt families remain Backroom, Birthdays / PR / VC, Daycare, Louvre / AI / Athenaeum / Other Games, Meems, Whiskey, QOTD / Officers, and Wall.
+
+The latest verified WIKI reader therefore remains Run 584's Booba / MsThiccy publication at **`5afdad7687557b1317a232a765daecdd323936d9`**, with successful Build and Pages deployment already recorded below.
 
 ## Run 584 — Booba / MsThiccy published to WIKI
 
@@ -41,9 +47,9 @@ The more-likely-than-not read is that UL membership was still prospective/undeci
 
 ## MAIN surface
 
-Run 584 changed **0 MAIN reader-facing files**. Booba has enough material for richer MAIN treatment, but MAIN publication requires the exact-master verification/build/built-output/deployment chain. The available connected GitHub action surface does not expose a safe manual workflow dispatch for the production workflow, so no undeployed source mutation was made and no fake MAIN deploy was claimed.
+Run 585 changed **0 MAIN reader-facing files**. With no miner delta, there was nothing legitimate to route into MAIN; source verification, Astro, built-output verification, and production deployment were therefore not run. The Run 585 census/state bookkeeping and report are reader-neutral `[skip ci]` commits.
 
-The controlling MAIN ledger was advanced after successful review/publication reconciliation. Run 584's state commit is `1a94ef6a91f0c9fa52029d61a0f4d7798ed78750`.
+Run 584 likewise changed 0 MAIN reader files while Booba's richer biography treatment remained publication-held behind the exact-master release gate.
 
 ## Carried identity / safety rails
 
@@ -89,4 +95,4 @@ The controlling MAIN ledger was advanced after successful review/publication rec
 
 ## Verified reader history
 
-Run 584's current verified reader is **`5afdad7687557b1317a232a765daecdd323936d9`** (Booba / MsThiccy Archive Cast dossier), with both Astro Build and GitHub Pages build/deploy/report successful. Run 583 previously repaired/published Suzi; Run 581 published Ten; Run 580 published braindead / br4ind34d and Churro / Suora; Run 579 published Nui, Erys, ничего / novikroeva, and YuKanada / Reii. Later state/report commits are reader-neutral bookkeeping and do not supersede the verified reader SHA.
+Run 585 is reader-neutral. The current verified reader remains **`5afdad7687557b1317a232a765daecdd323936d9`** (Booba / MsThiccy Archive Cast dossier), with both Astro Build and GitHub Pages build/deploy/report successful. Run 583 previously repaired/published Suzi; Run 581 published Ten; Run 580 published braindead / br4ind34d and Churro / Suora; Run 579 published Nui, Erys, ничего / novikroeva, and YuKanada / Reii. Later state/report commits are reader-neutral bookkeeping and do not supersede the verified reader SHA.
