@@ -31,6 +31,7 @@ Reader-facing files:
 
 Checks:
 - Astro Build workflow `34148549299`: success.
+- Astro build job `101825717654`: success.
 - Pages workflow `34148549279`: success.
 - Pages build/artifact job `101825717798`: success.
 - Pages deploy job `101825822971`: success.
