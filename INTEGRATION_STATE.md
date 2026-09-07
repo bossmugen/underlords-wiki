@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-07 — Run 609 intake reconciliation_
+_Last updated: 2026-09-07 — Run 609 final close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN `CANON_LOCKS.md` remains the highest-priority identity/role correction layer and wins over miner-local hypotheses, integration prose, site alias drift, or account-level ambiguity until Mugs explicitly changes it. Detailed run history lives in durable per-run reports; this file is the current operational snapshot.
 
@@ -49,33 +49,39 @@ Two weeks later she effectively sentences Sou to Wall; Sou claims the `fame` hal
 
 Moon therefore likes the observer/prosecutor seat without staying outside the incident. She sees the joke, names it, assigns mock jurisdiction, then climbs into it. Moon↔Sou supports comfortable direct counter-teasing, not a friendship rank. The fake clinic is theatrical chat play, not a medical role, and the nurse GIF is POSTED BY Moon rather than authored by her.
 
+## Julian — entrance music, then actually reads the instructions
+
+The Core Lobby packet is thin but person-shaped enough for a compact dossier. Julian opens with `HEY GIRLIES! its ya girl fenty, hoppin on with the undalords girlies and wanna get to know yall! muah`; when Gilli gives practical room/function orientation, Julian answers `period period, noted` instead of dropping the performance or ignoring the information. Later direct welcomes from Ren and Mugen receive warm reciprocity.
+
+The useful contradiction is theatrical arrival plus practical receptiveness. Julian wants to be socially legible and entertaining, but the camp register is not cover for disengagement. The page stays short rather than inventing chronology. Sensitive demographic onboarding detail is excluded; `ya girl fenty` is performed wording, not a second identity; nearby media is POSTED BY Julian only.
+
 ## Broken-bot rabbit materially advanced, not solved
 
 A 2022 Lobby source now directly labels a separately added account/function `(word chain bot^)`. The export has collapsed the mentioned account into a pooled Deleted User object, so the original bot identity is not recoverable there. This independently confirms a word-chain bot existed by August 2022 but still does **not** bridge that exact account to the March 2023 `Approx 279 hours` breakage. Saber is not inferred from adjacency.
 
 ## Publication / verification
 
-Run 609 intake reader work touched the Run 608/609 deepener layer, including:
-- `src/data/character-bios-run608-intake.ts`
-- `src/data/cast-run608-intake.ts`
-- `src/data/bio-policy.ts`
-- `src/data/character-page-data.ts`
-- canon-preserving Run 608 overlays that keep Noether and Nobu on their locked current roles.
+The Mia / Noether / Nobu / Moon bundle was independently verified/deployed at reader SHA **`32b13a78cb3083b9562c0f2feed59cb8dcfc4443`**.
 
-Exact verified/deployed reader SHA for the Mia / Noether / Nobu / Moon bundle: **`32b13a78cb3083b9562c0f2feed59cb8dcfc4443`**.
+Julian was then added through:
+- `src/data/cast-run609-core.ts`
+- the activation import in `src/data/bio-policy.ts`.
 
-Verification/deployment:
-- Build workflow `34158934464`: **success**.
-- Pages workflow `34158934468`: **success**.
-- Pages build/artifact job `101856493388`: **success**.
-- Actual Pages deploy job `101856569019`: **success**.
-- Pages report/status job `101856605652`: **success**.
+Exact latest verified/deployed WIKI reader SHA: **`6243776c52e96d7a4c2fdd149cabdc6c49fbfee7`**.
 
-`main` subsequently advanced with a separate Run 609 Julian reader change. That later change is not claimed as part of this intake review; `32b13a78...` is the exact independently verified receipt for the four-person bundle above. This state/report update is reader-neutral.
+Verification/deployment for the latest reader:
+- Build workflow `34159079052`: **success**.
+- Astro build job `101856924945`: **success**.
+- Pages workflow `34159079005`: **success**.
+- Pages build/artifact job `101856988638`: **success**.
+- Actual Pages deploy job `101857068553`: **success**.
+- Pages report/status job `101857108693`: **success**.
+
+Later Run 609 report/state commits are reader-neutral `[skip ci]`; `6243776c...` remains the exact latest reader receipt.
 
 ## MAIN split
 
-MAIN reader-facing files changed **0** in this reconciliation. Noether's Core delta was already owned there and was deduped. Mia's newsroom correction loop, Moon's witness/prosecutor contradiction, and Nobu's ambiguity-powered filing are accepted richer MAIN biography debt. The controlled MAIN source-verification → Astro → built-output verification → production deployment workflow is deliberately decoupled from ordinary pushes and was not safely dispatchable through the available repository action surface, so no unverified MAIN reader edit was made.
+MAIN reader-facing files changed **0** in this reconciliation. Noether's Core delta was already owned there and was deduped. Mia's newsroom correction loop, Moon's witness/prosecutor contradiction, and Nobu's ambiguity-powered filing are accepted richer MAIN biography debt. Julian is intentionally WIKI-only for now: one strong doorway scene is enough for a compact dossier but not a reason to manufacture a skinny MAIN biography. The controlled MAIN source-verification → Astro → built-output verification → production deployment workflow is deliberately decoupled from ordinary pushes and was not safely dispatchable through the available repository action surface, so no unverified MAIN reader edit was made.
 
 ## Attribution / safety rails applied
 
@@ -83,6 +89,7 @@ MAIN reader-facing files changed **0** in this reconciliation. Noether's Core de
 - Mia = Mimi / Miaka / Opalite Honey / `༯` remains one person.
 - Noether is current Game Officer.
 - Nobu = Xuseio and is UL Party Director, not Officer.
+- Julian's sensitive demographic self-report stays private; `ya girl fenty` is performance, not identity.
 - `Unsugar`, `sugar daddy`, infection/doctor, ship/marriage, and mock-lawsuit language remains theatrical unless separately supported.
 - SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct.
 - Final-export reactions do not establish click timing.
@@ -91,4 +98,4 @@ MAIN reader-facing files changed **0** in this reconciliation. Noether's Core de
 
 ## Carried unresolved rabbits
 
-Still open: DyingFox stable-ID conflict; `ulstreamer` / Mr. Streamer owner; Ghoulie's exact admission date/person/mechanism and unidentified `sama`; Nothien's MAIN repair; q18 partial/retrieval-blocked branches; ShiyaX account-intruder recurrence; `#PROTECCtheASSETS` recurrence; exact 2023 broken word-chain bot identity; unresolved Wall/Louvre/Daycare media attribution; Ritha lived Battle Leader execution; Chubi lived Officer/Sniper execution; Spirit event identity/rules.
+Still open: DyingFox stable-ID conflict; `ulstreamer` / Mr. Streamer owner; Ghoulie's exact admission date/person/mechanism and unidentified `sama`; Nothien's MAIN repair; q18 partial/retrieval-blocked branches; ShiyaX account-intruder recurrence; `#PROTECCtheASSETS` recurrence; exact 2023 broken word-chain bot identity; unresolved Wall/Louvre/Daycare media attribution; Ritha lived Battle Leader execution; Chubi lived Officer/Sniper execution; Spirit event identity/rules; stylized `ƐℲı˥` public-owner routing remains identity-sensitive rather than being guessed from name shape alone.
