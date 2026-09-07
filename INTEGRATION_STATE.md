@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-07 — Run 615 close_
+_Last updated: 2026-09-07 — Run 616 close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks remain the highest-priority identity/role correction layer.
 
@@ -9,6 +9,22 @@ MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:ma
 Mandatory full census: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**. Closing state: **0 newly discovered branches, 0 unread pending-review tails, 8 reviewed `pending_publication` MAIN families, 0 backlog, and 0 overdue**.
 
 Both Club-Only recovery lanes remain current/saturated at `e45fb11c9239e236231bb65645dfd0285bc0078b` and `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`; neither was churned.
+
+## Run 616 — Louvre / AI Art / Athenaeum / Other Games
+
+`archive-miner/louvre-ai-art-athenaeum-other-games-hourly` advanced from `bc186592bf4e3a060246ce9594f91da9ac67c5fe` to `fbaff899c211d97eca7e76bc3625645545ae0da8` and was reviewed checkpoint-first, intake-only. The branch remained stable at that head after review.
+
+No genuinely new A/B public route cleared threshold. The pass was useful duplicate prevention and coverage accounting instead:
+
+- **Jas**: the help-seeking / light-mode / `254x77px ain't 4K tho 😐` / Nitro-emote material deepens an already-owned technical-defense / object-resolution route. No second Jas dossier.
+- **t7morrow**: support still clusters around the already-owned onboarding/fangirl scene; no independent second leg.
+- **Seth / `seraph_000`**: `Lol,no explanation for you,dear` is good playful-withholding texture, but the 34-message assigned Louvre/AI Art/Where Winds Meet body is still direct-retrieval blocked. `seraph_000` is Seth's stable-account username, not a second person. Media-bearing posts remain posting events until object-level attribution is recovered.
+- **Mike**: practical troubleshooting, humor through failure, willingness to contact support, and explicit thanks to Anthos remain a strong B-seed. One Blitz troubleshooting setting is still too concentrated for a public person route.
+- **aishi** and the persistent direct-first names remain undercovered. Retrieval silence is tooling, not personality.
+
+WIKI reader-facing files changed **0**. No new Cast dossier, Episode, Running Gag, relationship record, or gallery item was justified, so no Astro/Pages build or deployment is claimed for this documentation-only close. Latest verified/deployed WIKI reader remains Run 615 SHA **`8acd0f662843bd328132c3027d7b76b2180845b9`**.
+
+MAIN reader-facing files also changed **0**. The broader Louvre family remains reviewed MAIN publication debt, but this particular delta was duplicate/coverage work rather than a new biography fold. MAIN's controlling ledger advances the consumed frontier through `fbaff899c211d97eca7e76bc3625645545ae0da8` with the no-public-change reason recorded.
 
 ## Run 615 — Daycare
 
