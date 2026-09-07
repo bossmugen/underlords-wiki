@@ -2,30 +2,29 @@
 
 _Last updated: 2026-09-07 — Run 561_
 
-MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. This file records the WIKI side of the same reconciled evidence system; it does not maintain an independent canon. Historical run detail is preserved in `INTEGRATION_REPORT_RUN_*.md` on WIKI and `archive-intake/INTEGRATION_REPORT_RUN_*.md` on MAIN.
+MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. WIKI uses the same reconciled evidence/canon system; historical detail remains in `INTEGRATION_REPORT_RUN_*.md` here and `archive-intake/INTEGRATION_REPORT_RUN_*.md` on MAIN.
 
-## Run 561 — Eos reader deepener; late Mr. Streamer provenance tail chased
+## Run 561 close
 
-The mandatory full miner census closes at **51 tracked identities = 30 active matching refs + 21 historical/missing refs**, with **0 newly discovered branches, 0 unread active tails, 0 backlog, and 0 overdue** after review. Both Club-Only recovery lanes remain current/saturated at `e45fb11c9239e236231bb65645dfd0285bc0078b` and `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`; neither was churned without a delta.
+Mandatory census: **51 tracked identities = 30 active matching refs + 21 historical/missing refs**. Close state: **0 newly discovered, 0 unread pending review, 0 backlog, 0 overdue**. Both Club-Only recovery lanes remain current/saturated at `e45fb11c9239e236231bb65645dfd0285bc0078b` and `ed66714f8d2c18f23bbb2b951bf305f0fa913f21` and were not churned without a delta.
 
-Four active families advanced beyond the Run-560 consumed frontier and were reviewed checkpoint-first from changed `archive-intake/*` handoffs only. The closing branch census caught one additional Birthdays / PR / VC suffix and it was reviewed before close:
-
-- Birthdays / PR / VC: `001b1322cab810a35cd8bf5e4990db3458e2bc94` → `5dabd4d4bd31240987c67e661d9bdcd332c8b1ac` → late final `1f31b2ebb5fa64c68955e58306e7d3644eca6fa6`.
+Reviewed frontiers:
+- Birthdays / PR / VC: `001b1322cab810a35cd8bf5e4990db3458e2bc94` → `5dabd4d4bd31240987c67e661d9bdcd332c8b1ac` → provenance packet `1f31b2ebb5fa64c68955e58306e7d3644eca6fa6` → final manifest-only refresh `e1163860e83fad5231d5b8cf88aea25a4ef285f4`.
 - Daycare: `91fa4d4099c7682a314de14bb9ffc56a0eef221e` → `c2676fd70132c7a27cc7b83ba55170cef9b688e6`.
 - Louvre / AI Art / Athenaeum / Other Games: `cac45f4206e957c7770a388bc0aafa7d6d7a21dc` → `796622a48d3297303e35a42c25aefbe3482a2505`.
 - Mugen person-first: `21dadfb878923d4b0761e262df428e7a157fd84a` → `89a480a61d42e49a7705c20a796c451ba18f6628`.
 
+The final Birthdays commit changed only `manifest.md` to point at the already-reviewed 19:28 packet; it carried no additional evidence and was consumed so the same handoff will not be reread next cycle.
+
 ### Reader publication — Eos
 
-Eos's existing public seed already knew the low-word / high-consequence Daycare-Wall regular. Run 561 turns two small mistakes into one person mechanism instead of two archive bullets: **easy to catch, hard to embarrass out of the room**.
+Eos's seeded dossier now has the cumulative person mechanism **easy to catch, hard to embarrass out of the room**. In 2021 she can simply admit `forgot i had safari open`. In 2022 Rummy prosecutes her spelling; Eos answers `IT WORSE ON MAH PHONE`, then 12.505 seconds later returns fire with `but lets not talk about *your* spelling`.
 
-In 2021 Eos can simply admit `forgot i had safari open`. In 2022 Rummy prosecutes Eos's spelling; Eos answers `IT WORSE ON MAH PHONE`, then 12.505 seconds later turns the same charge around with `but lets not talk about *your* spelling`. The useful read is not that embarrassment never lands. It lands and does not eject Eos from play. The local mistake can be owned while the relationship stays comfortable enough for an immediate counter-roast.
+The public fold treats those as one character read, not two archive incidents: mistakes land, Eos owns them, and the social footing is comfortable enough for an immediate counter-roast. Rummy is lived reciprocal-roast texture rather than a generic relationship label. `Petty Crimes` carries the Safari-left-open and phone-spelling misdemeanors without exposing private page contents or inventing a diagnosis.
 
-Rummy is therefore folded as lived reciprocal-roast texture rather than a generic Related People label. `Petty Crimes` carries the Safari-left-open and phone-spelling misdemeanors without exposing the private page, diagnosing anything, or treating the exchange as conflict.
+Reader file: `src/data/character-biographies-run552.ts`.
 
-Reader file changed: `src/data/character-biographies-run552.ts`.
-
-Exact reader commit: **`01e7b25136712278017a3865b938cdf66c454af4`**.
+Exact reader head: **`01e7b25136712278017a3865b938cdf66c454af4`**.
 
 Verification for that exact head:
 - Build workflow `34077245518` — **SUCCESS**; build job `101605684640` — **SUCCESS**.
@@ -36,57 +35,38 @@ Verification for that exact head:
 
 ### Reviewed without reader mutation — Mr. Streamer / `ulstreamer`
 
-The first Birthdays / PR / VC suffix materially sharpened the account-purpose read: by 2022-10-05 stable `615878920583249920` is directly shown posting stream-derived Wall media, then explicitly credits `@DiStratus(Torr)` as source; Torr later says the stream is giving a lot of material. The safe functional read is **stream-derived media relay / receipt courier**.
+The first suffix grounds stable `615878920583249920` as a stream-derived Wall media relay by 2022, with bounded Torr source credit. The 19:28 packet then materially advances provenance: on 2020-11-10 separate stable Gilli account `585466495757451284` issues the jail command against `615878...`; the contemporaneous bot identifies the target as **`Gilli#8635`** and records target ID `615878...`. Both stable IDs are present at once and must remain distinct. By 2021-09-15 authored human chat calls `615878...` `Gabu's chair`; by 2022 it is doing stream-relay work.
 
-The late 19:28 suffix then materially advanced provenance without safely solving the human behind the account. On 2020-11-10, stable known Gilli account `585466495757451284` issues the jail command against stable `615878920583249920`; the contemporaneous bot calls the target **`Gilli#8635`** and records target ID `615878920583249920`. Both stable IDs are present at once, so they remain two distinct Discord accounts. By 2021-09-15 authored human chat directly calls `615878...` `Gabu's chair`; by 2022 the same stable account is doing the stream-relay work.
-
-Safe cumulative read: **account identity/presentation drift** from a 2020 Gilli-labeled state to the later Gabu-chair / streamer presentation. An old/alternate Gilli-account reading is strong contextual inference, especially beside the other account being rendered `New Account Gilli`, but ownership/transfer/operator history is not directly stated. Do not merge the two stable IDs. POSTED BY, source credit, CAPTURED BY and operator identity remain separate. Exact rename mechanics and chair-joke origin remain open.
-
-WIKI already held Mr. Streamer as a developing account/function seed, so this advances the provenance map without creating a quota person page or inventing a literal Gabu relationship.
+Safe cumulative read: **account identity/presentation drift**, not solved human ownership. An old/alternate Gilli-account reading is strong contextual inference, but ownership, transfer, operator history, exact rename mechanics, capture authorship and chair-joke origin remain unresolved. No identity merge and no literal Gabu relationship are published. Mr. Streamer stays a developing account/function seed rather than a quota person page.
 
 ### Reviewed without reader mutation — Xephy
 
-The fresh Louvre packet independently reinforces Xephy's mature public contradiction: soft/cutesy surface register plus pragmatic checking, troubleshooting, routing and trial-and-error. The current Xephy biography already owns `uwu~` beside access checks, bot testing, sleep-policing, wrong-door apology, people-memory and return recognition. Command-prefix roulette and Xerenity's easy-teasing lane remain useful support, but another paragraph would be receipt landfill rather than character growth.
+Fresh Louvre material reinforces the mature public contradiction already on Xephy's page: cutesy/soft register beside practical checking, routing, command testing, sleep-policing, wrong-door apology and people-memory. Command-prefix roulette and Xerenity's teasing lane deepen support but do not justify another paragraph saying the same thing.
 
 ### Reviewed without reader mutation — Mugen
 
-The Keon / `Last Train Home` cue-memory suffix is duplicate/corroborative against current MAIN. MAIN already owns the person-shaped fold: Mugen can store people in associative sensory/media cues as well as records. No second WIKI/Mugen paragraph was created. Native-row provenance repair and a higher-cost associative-memory example remain open.
+The Keon / `Last Train Home` cue-memory handoff is already publicly owned by MAIN. It reinforces Mugen's associative people-memory without requiring a duplicate WIKI paragraph. Native-row provenance repair and a higher-cost associative-memory example remain open.
 
-## Current controlling queue — Run 561
+## Current queue
 
-- **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**.
-- **0 newly discovered, 0 unread pending review, 0 backlog, 0 overdue** at Run-561 close.
-- **10 reviewed MAIN publication-held families** remain release debt only; WIKI does not reinterpret them as unread mining.
-- QOTD / Officers — consumed through `c51cd1914f65cb8ae65b850b1d0da85ffccb94ed`.
-- Birthdays / PR / VC — consumed through `1f31b2ebb5fa64c68955e58306e7d3644eca6fa6`.
-- Daycare — consumed through `c2676fd70132c7a27cc7b83ba55170cef9b688e6`.
-- Mugen person-first — consumed through `89a480a61d42e49a7705c20a796c451ba18f6628`.
-- Whiskey — consumed through `cdec6f6a597fbc75c424dcdaef880e87e11e698f`.
-- Wall — consumed through `853fd312ccc383aeb071086eee871b46dfad992a`.
-- Louvre / AI Art / Athenaeum / Other Games — consumed through `796622a48d3297303e35a42c25aefbe3482a2505`.
-- Core Rooms / Events — consumed through `955269792150a3f4f9d6c2802e5a53fb7d1fffb9`.
-- Club-Only 2021–2026 — current/saturated at `e45fb11c9239e236231bb65645dfd0285bc0078b`.
-- Club-Only 2020 — current/saturated at `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`.
+- **10 reviewed MAIN publication-held families** remain release debt, not unread mining.
+- QOTD / Officers — `c51cd1914f65cb8ae65b850b1d0da85ffccb94ed`.
+- Birthdays / PR / VC — `e1163860e83fad5231d5b8cf88aea25a4ef285f4`.
+- Daycare — `c2676fd70132c7a27cc7b83ba55170cef9b688e6`.
+- Mugen person-first — `89a480a61d42e49a7705c20a796c451ba18f6628`.
+- Whiskey — `cdec6f6a597fbc75c424dcdaef880e87e11e698f`.
+- Wall — `853fd312ccc383aeb071086eee871b46dfad992a`.
+- Louvre / AI Art / Athenaeum / Other Games — `796622a48d3297303e35a42c25aefbe3482a2505`.
+- Core Rooms / Events — `955269792150a3f4f9d6c2802e5a53fb7d1fffb9`.
+- Club-Only 2021–2026 — `e45fb11c9239e236231bb65645dfd0285bc0078b` current/saturated.
+- Club-Only 2020 — `ed66714f8d2c18f23bbb2b951bf305f0fa913f21` current/saturated.
 
-## Current boundary decisions / carried holds
+## Carried holds
 
-- Hard canon resolves **Zyrcant = Akariel / Akariel™ / akariel_star**. Stale miner-local uncertainty cannot reopen it.
-- **Candy ≠ HyaLuna**.
-- DyingFox stable-ID conflict remains unresolved: fresh QOTD `629467952100982784` vs canonical/current `471370475050762251 / dyingfox`.
-- Nothien uses he/him; stale MAIN they/them body references remain a known continuity error awaiting a safe MAIN production-gated repair.
-- Exact Han Media Director appointment remains unresolved; export-time/current role arrays do not date appointments.
-- Eos exact UL→Deviations reason/mechanics remains open. Run 561 character texture does not resolve club-transition mechanics.
-- Nhou direct assigned Birthday source remains blocked; support-room birthday hits are not promoted.
-- Assigned PR WOO direct author bridge remains unresolved.
-- Sakura's compressed IGN/club syntax remains unpaired.
-- Jas exact admission / `Absent father` origin remains open.
-- Oyasumi/TankHead94 formal Discord onboarding is solved; exact in-game admission remains open.
-- Queen Shimoko and Booba / MsThiccy remain banked person seeds rather than quota biographies.
-- Mr. Streamer / `ulstreamer` remains a developing **account/function** seed. Stable `615878...` is hard-grounded as `Gilli#8635` in a 2020 contemporaneous bot response, later human-called `Gabu's chair`, and later used as a stream-derived Wall relay; operator, ownership/transfer, capture authorship, rename mechanics and chair-joke origin remain unresolved. Separate stable Gilli account `585466...` must not be merged with it.
-- NemeMoka remains developing after the information-relay → annual-return arc; another relationship, taste, ordinary-life, conflict, care or contribution dimension should arrive before a dedicated shell.
-- Xephy's command-prefix roulette does not establish which prefix was technically successful unless a readable bot result appears.
-- Mugen / Keon cue-memory native-row provenance remains worth reacquiring; public character read is already owned.
+Hard canon still resolves **Zyrcant = Akariel / Akariel™ / akariel_star** and **Candy ≠ HyaLuna**. DyingFox's stable-ID conflict remains unresolved. Nothien uses he/him; stale MAIN they/them body references remain a known production-gated repair. Export-time/current role arrays still cannot date appointments, including Han's exact Media Director appointment. Eos's exact UL→Deviations transition mechanics remain open. Nhou direct assigned Birthday evidence, assigned PR WOO author bridge, Sakura's compressed IGN/club mapping, Jas exact admission/`Absent father` origin, and Oyasumi's exact in-game admission remain open. Queen Shimoko and Booba/MsThiccy remain banked seeds. Neme remains developing pending another person dimension. Xephy's command-prefix sequence does not prove which prefix technically succeeded without a readable bot result.
+
+Mr. Streamer / `ulstreamer` now has hard account-state anchors but still not a solved human owner: `615878...` was bot-labeled `Gilli#8635` in 2020, later human-called `Gabu's chair`, and later used as a stream-derived relay. Separate stable Gilli `585466...` must not be merged with it. Ownership/transfer/operator/rename origin remain open.
 
 ## Surface split
 
-WIKI published Eos because the new material fits a structured, searchable person dossier and could be safely verified/deployed on the exact reader head. MAIN reader-facing files changed **0 intentionally**. A richer MAIN Eos fold should be written as a distinct person-first biography treatment, not copied from WIKI, and must wait for MAIN's controlled source-verification → Astro → built-output verification → production-deploy gate rather than bypassing it.
+WIKI published Eos because the material cleanly deepens an existing searchable character owner and could be verified/deployed on the exact reader head. MAIN reader-facing files changed **0 intentionally**. A richer MAIN Eos fold should be written differently from WIKI and must go through MAIN's controlled source-verification → Astro → built-output verification → production-deploy gate rather than bypassing it.
