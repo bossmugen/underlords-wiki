@@ -1,49 +1,76 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-07 — Run 595 Wall reconciliation_
+_Last updated: 2026-09-07 — Run 596_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. `bossmugen/underlords:master` `CANON_LOCKS.md` remains the highest-priority identity/role correction layer and wins over miner-local hypotheses, integration prose, site alias drift, or account-level ambiguity until Mugs explicitly changes it. Earlier detailed run history remains in durable per-run reports; this file is the current operational snapshot.
 
 ## Current census
 
-Mandatory full census: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**. Run 595 closes with **0 newly discovered branches, 0 unread pending-review tails, 8 reviewed `pending_publication` families, 0 backlog, and 0 overdue**.
+Mandatory full census: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**. Run 596 closes with **0 newly discovered branches, 0 unread pending-review tails, 8 reviewed `pending_publication` families, 0 backlog, and 0 overdue**.
 
-Wall was the only advanced family. It moved from consumed `89c514db8483ecced3fdad32d07e826e23eee4b5` to final reviewed/consumed head **`fc86b3f1991610036befea36c4cb6c341c8e7ec9`** in one intake-only commit under `archive-intake/wall-shame-fame-2020-2026-20260819-1857-pdt/*`. MAIN's controlling ledger already records that exact frontier as consumed.
+Reviewed checkpoint-first, intake-only frontiers this run:
+- Louvre / AI Art / Athenaeum / Other Games: `74873e9f0150f070c467594ef3685379a33f857a` -> `ac56e3f61d781d50672cf56148447743118052da`. The branch grew a late intake-only suffix after the opening census; it was reviewed before close.
+- Whiskey: `1eb55fdac39604a16361139adf065af0bb9704f6` -> `c1da934e3109d37576429ea52000208e60737185`.
+- Wall: `fc86b3f1991610036befea36c4cb6c341c8e7ec9` -> `9f2244dd25d51fe8fcb3ca94ff650b9941b2725f`.
+
+All three selected branch heads were rechecked after WIKI publication and remained stable at those consumed SHAs.
 
 Both Club-Only recovery lanes remain current/saturated at `e45fb11c9239e236231bb65645dfd0285bc0078b` and `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`; no raw archive was reopened.
 
-Current major consumed frontiers: Core Rooms / Events `62a0f3a1dc81e533db5a15639b475fc8a5c03089`; Daycare `84007128dbec0072a0b8592bea1d57d002020e79`; Birthdays / PR / VC `a66d90814ea333f00022d9c8e8a9b93e9b31ef1e`; Louvre / AI / Athenaeum / Other Games `74873e9f0150f070c467594ef3685379a33f857a`; Whiskey `1eb55fdac39604a16361139adf065af0bb9704f6`; Wall `fc86b3f1991610036befea36c4cb6c341c8e7ec9`; Mugen person-first `5013800cdaaebbccd7b925f0d7ce0849960b9ae8`.
+The eight reviewed publication-held MAIN families remain Backroom, Birthdays / PR / VC, Daycare, Louvre / AI / Athenaeum / Other Games, Meems, Whiskey, QOTD / Officers, and Wall. `pending_publication` means reviewed debt, not unread mining.
 
-The eight reviewed publication-held families remain Backroom, Birthdays / PR / VC, Daycare, Louvre / AI / Athenaeum / Other Games, Meems, Whiskey, QOTD / Officers, and Wall. `pending_publication` means reviewed debt, not unread mining.
+## Run 596 — new WIKI people
 
-## Run 595 — Wall: iBwoy dedupes; q18 closes
+### Jade
 
-The new Wall packet makes **iBwoy** legible in the smallest possible amount of language: `Eh`, then `Rh`, then `Eh` 2.625 seconds later, all inside the same room-wide echo chain. The useful character read is microscopic vocabulary with completely fluent group timing — participation by call-and-response rather than explanation.
+Jade's file is built around low-pressure inclusion plus decisive taste. She can make a Get Out watch easy to join (`dm for link if you would like to come watch`), treat recurring competition casually enough to admit the group has not planned for weeks, and then become beautifully unsubtle about Prince Caspian: `IDC HES HOT AF`.
 
-WIKI does **not** add another reader paragraph for this. Run 589 already published essentially the same compact iBwoy dossier through `src/data/cast-run589-wall.ts`, and `WikiLayout.astro` already registers that overlay. The new handoff is therefore duplicate/corroboration, not an excuse for paragraph mitosis or a second character card.
+The March 5, 2021 doorway stays bounded. Jade first-party identifies **Dragon** during UL Discord intake and Mugen confirms a server-role handoff. That dates her UL Discord presence; it does not manufacture an in-game Underlords membership event or backdate a later role array.
 
-The packet does close one backstage rabbit: iBwoy's assigned inverse-reply branch is now **CLOSED NEGATIVE 0+/3−** after all three authored parent IDs self-recover and none is used as another message's structured parent.
+### Plushie
 
-The surrounding `Eh` chorus is banked for a future Culture / Running Gag owner if later material gives it enough shape. It is not being inflated into a standalone incident page from one echo pocket.
+Plushie asks `What’s this channel for?`; Rookie Cookie explains the Wall; Plushie answers `Okie doki`. Roughly eight and a half minutes after the original question, Plushie is already answering a Snow/room-boundary warning with `Snow u saw nothing UwU`.
 
-The same packet broadens guild-icon provenance: the exact exporter asset filename recurs as `guild.iconUrl` metadata across at least ten Underlords channel exports. That strengthens server-wide asset provenance only. It does not establish install chronology, visible pixels, or maker from exporter metadata; Mugen-created status remains controlled by user-confirmed canon.
+The dossier therefore centers a compact mechanism: explicit local-rule curiosity -> very fast playful uptake. Rookie Cookie is a small local-guide / easy-handoff relationship seed, not a recruitment or closeness claim. Plushie's direct creative-room chronology remains retrieval-constrained, and one indexed media post is not converted into one Plushie artwork without attribution.
+
+### Miihi
+
+Miihi is more visible in reactions than prose, but the authored footprint is unmistakably Wall-literate: screenshot filing, direct summons, `WHYYYYYY` -> `:Cursed:` in 4.715 seconds, and a later Anayss true-reply that needs essentially one word — `evidence` — for Miihi to know what kind of summons just arrived.
+
+Miihi answers quickly enough that Baby Lyssa complains about losing the race. The account remains the stable Wall identity `253897195290361856` / `程瀟 Miihi (Milk)` and is not merged with the separate Korea `(Milk)` stable ID.
+
+## Dedupe / canon reconciliation
+
+- Zoshaa gains another scrambled-egg-bunny recurrence: Ren reposts an old screenshot; Ansun complains it has been brought up again and says Zoshaa suffers another week of that label. The image binary remains uninspected, so this stays a probable local callback rather than a pixel-level maker/capturer/subject claim.
+- Hard project canon continues to resolve **NintendoShitcube = Zoshaa** and **Akariel = Zyrcant**. Miner-local corpus caution cannot reopen those resolved identities.
+- Ren's and Zoshaa's respective Wall image posts remain **POSTED BY** only until object-level attribution.
+- Plushie's `The panda is both adorable and dangerous` referent remains unresolved.
+- Jade's exact Prince Caspian actor/referent is not hard-locked from the partial surrounding conversation.
 
 ## Latest verified reader
 
-Run 595 makes **no reader-facing WIKI change**. Latest verified deployed reader therefore remains Run 594 SHA **`f0642b7931f2b67a60439d3e1053aa0b6511ecfb`**.
+Run 596 reader SHA: **`1b93dac5f0a0818580447b998bee3097117474cd`**.
 
-Verification on that exact reader SHA remains:
-- Build workflow `34134524649`: success.
-- Pages workflow `34134524675`: success.
-- Pages build/artifact job `101782224379`: success.
-- Actual Pages deploy job `101782665564`: success.
-- Pages report/status job `101782728523`: success.
+Reader material:
+- `src/data/cast-run596-intake.ts`
+- `src/data/character-bios-run596-intake.ts`
+- `src/data/bio-policy.ts`
 
-Run 595 state/report commits are reader-neutral `[skip ci]` and do not supersede `f0642b7931f2b67a60439d3e1053aa0b6511ecfb` as the verified deployed reader.
+Verification/deployment on that exact reader SHA:
+- Build workflow `34139470561`: success.
+- Astro build job `101797960706`: success.
+- Pages workflow `34139470677`: success.
+- Pages build/artifact job `101797961186`: success.
+- Actual Pages deploy job `101798177376`: success.
+- Pages report/status job `101798241672`: success.
+
+Later Run 596 report/state commits are reader-neutral `[skip ci]` and do not supersede `1b93dac5f0a0818580447b998bee3097117474cd` as the verified deployed reader.
 
 ## MAIN vs WIKI split
 
-No public copy changed from the Run 595 delta. WIKI already owns the right-sized iBwoy dossier; MAIN would gain only a quota-thin biography from the same three-message axis. Older accepted MAIN Wall publication debt remains held separately. The guild-icon advancement stays backstage until an inspectable binary supports visual treatment.
+Jade, Plushie, and Miihi are intentionally WIKI-sized person files right now. MAIN's richer biography surface would need distinct person-first folds with more relationship/ordinary-life depth; duplicating these dossiers there would be quota biography. The Louvre / Whiskey / Wall MAIN families therefore remain reviewed `pending_publication` debt.
+
+No MAIN reader file changed in Run 596, so no fresh MAIN source-verification / Astro / built-output verification / production deployment is claimed.
 
 ## Carried identity / safety rails
 
@@ -54,11 +81,13 @@ No public copy changed from the Run 595 delta. WIKI already owns the right-sized
 - Mia = Mimi = Miaka = Opalite Honey = `༯`.
 - Baby Lyssa = Ghoulie.
 - Candy / later `— Luna` is distinct from HyaLuna.
+- NintendoShitcube = Zoshaa.
 - Ricochet is not Rich / DragonRich.
 - Nui is not Nuien.
 - Oyasumi is not TankHead94.
 - Crystalia uses he/him.
 - WhitePhoenix / Xephy remains distinct from Wolf Phenix.
+- Miihi `253897195290361856` remains distinct from the separate Korea `(Milk)` stable ID.
 - Joke-family language is not biological kinship.
 - Joke flirting/romance language is not literal romance or sex without support.
 - Export-time/current role arrays do not date appointments.
@@ -68,7 +97,6 @@ No public copy changed from the Run 595 delta. WIKI already owns the right-sized
 
 ## Current unresolved rabbits
 
-- **iBwoy q18 is closed 0+/3− and leaves the open queue.**
 - Tae q18 remains OPEN / RETRIEVAL-BLOCKED; failed exact-ID retrieval is not a certified negative.
 - Ten, Erys / Wall-local Emi, ничего, YuKanada / Reii, Cele, Woohyuk, Zyrcant/Akariel, HamitteY, Torr, Rookie and other larger inverse-reply branches remain open at their recorded states unless a later sidecar closes them.
 - ShiyaX account-intruder recurrence remains open.
@@ -82,5 +110,6 @@ No public copy changed from the Run 595 delta. WIKI already owns the right-sized
 - Nothien's stale MAIN pronoun/body-copy repair remains production-gated.
 - Oyasumi exact in-game admission mechanics remain open.
 - Richard rename / `cooch` mechanics remain open.
-- Ansun ant origin remains open beyond the already-owned possession callback; Zoshaa's scrambled-egg-bunny origin remains open.
+- Ansun ant origin and Zoshaa scrambled-egg-bunny ultimate origin remain open.
+- Plushie's creative chronology, panda referent, and media-object attribution remain open.
 - Guild-icon visual inspection, `GOODBYE UNDERLORDS`, `IMG_2720`, Wolf's February screenshot internals, Crystalia's uninspected Wall images, and other unresolved media remain attribution-bounded until inspected.
