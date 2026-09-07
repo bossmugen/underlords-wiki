@@ -1,26 +1,30 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-06 — Run 556_
+_Last updated: 2026-09-06 — Run 557_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. This file records the WIKI side of the same reconciled evidence system; it does not maintain an independent canon. Historical run detail is preserved in `INTEGRATION_REPORT_RUN_*.md` on WIKI and `archive-intake/INTEGRATION_REPORT_RUN_*.md` on MAIN.
 
-## Run 556 — Daycare micro-detail review
+## Run 557 — Wall / Mr. Streamer provenance-handoff review
 
 The mandatory full miner census resolves to **51 tracked identities = 30 active matching refs + 21 historical/missing refs**, with **0 newly discovered branches, 0 unread/advanced active tails at close, 0 backlog, and 0 overdue**.
 
-One branch advanced after Run 555 and was reviewed checkpoint-first and intake-only:
+One branch advanced after Run 556 and was persisted as `pending_review` in MAIN's controlling ledger before checkpoint-first intake review:
 
-- `archive-miner/daycare-2020-2026-hourly`: `f317c664b5b379d91f0dfa4330f355f8e7168b25` → `e5859a78e0cae8d1ce63f62286f534209e9c0c50`
+- `archive-miner-wall-hourly-20260824`: `c823be66c8ea028ad02092c600f69c3868aa0b0b` → `e7ef48d0d49394c197593ed7af984e6b154603b8`
 
-Fresh person texture: Ansun's 2021 Kahoot announcement already-publicly places Zyrcant / Akariel in the top-three group; the same canonical stable account belongs to **two distinct `yay` reactions on the winner announcement**. This supports compact playful self-celebration, not an exact rank, a blanket trivia-expert label, or universal competitiveness.
+Fresh person texture: Mr. Streamer / `615878920583249920` has exactly three surviving Wall messages, all authored inside 3m46.812s on 2022-10-05: screenshot → `Via @DiStratus(Torr)` → screenshot. Torr later says `XD i'm giving a lot of material with this stream`. The compact human read is **provenance-conscious receipt courier**: almost no prose, but the one surviving sentence names the handoff. Mr. Streamer↔Torr supports a bounded source-handoff / collaborative-filing lane.
 
-MAIN already owns the top-three scene. WIKI currently has no established Zyrcant dossier, so no thin Cast page was created solely to house one micro-detail. wisp onboarding and Saber's event-alert role are duplicate/corroboration only; exact identity behind the 2023 `279h` word-train artifact remains unresolved.
+Attribution stays narrow. The first JPG is POSTED BY Mr. Streamer and explicitly CREDITED/VIA Torr; the second is POSTED BY Mr. Streamer only. CAPTURED BY / MADE BY / FEATURING remain unresolved because no independently inspectable binary surfaced.
 
-No reader-facing MAIN or WIKI source changed. Therefore Run 556 claims **no new MAIN source-verification/Astro/built-output/deployment run and no new WIKI Build/Pages deployment**. The latest verified WIKI reader publication remains Run 554 exact reader head **`0dab3da50cc5fa06d2d11331f30a135795d2bac0`**, whose Build and GitHub Pages deployment already succeeded.
+Mr. Streamer's complete q18 branch closes NEGATIVE 0+/3−. Ten parent `783996881645371392` remains OPEN / RETRIEVAL-BLOCKED.
 
-Full dual-surface report: `INTEGRATION_REPORT_RUN_556.md` here and `archive-intake/INTEGRATION_REPORT_RUN_556.md` on MAIN.
+WIKI currently has no established Mr. Streamer dossier and Torr remains developing/banked. This packet is strong enough to preserve as a developing person axis and Petty Crimes seed—`entire surviving Wall oeuvre: two screenshots and a citation`—but still too one-axis and three-message-thin for a quota biography. No standalone Episode was created.
 
-## Current controlling queue — Run 556
+No reader-facing MAIN or WIKI source changed. Therefore Run 557 claims **no new MAIN source-verification/Astro/built-output/deployment run and no new WIKI Build/Pages deployment**. The latest verified WIKI reader publication remains Run 554 exact reader head **`0dab3da50cc5fa06d2d11331f30a135795d2bac0`**, whose Build and GitHub Pages deployment already succeeded.
+
+Full dual-surface report: `INTEGRATION_REPORT_RUN_557.md` here and `archive-intake/INTEGRATION_REPORT_RUN_557.md` on MAIN.
+
+## Current controlling queue — Run 557
 
 - **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**.
 - **0 newly discovered, 0 unread pending review, 0 backlog, 0 overdue**.
@@ -30,7 +34,7 @@ Full dual-surface report: `INTEGRATION_REPORT_RUN_556.md` here and `archive-inta
 - Daycare — consumed through `e5859a78e0cae8d1ce63f62286f534209e9c0c50`.
 - Mugen person-first — consumed through `ed7b2f616398299edd7c1e4e9c6c1b3ca7f6fbd0`.
 - Whiskey — consumed through `cdec6f6a597fbc75c424dcdaef880e87e11e698f`.
-- Wall — consumed through `c823be66c8ea028ad02092c600f69c3868aa0b0b`.
+- Wall — consumed through `e7ef48d0d49394c197593ed7af984e6b154603b8`.
 - Louvre / AI Art / Athenaeum / Other Games — consumed through `ff056055cb3fdbeba016ed74c280b5b62922b68d`.
 - Core Rooms / Events — consumed through `bb81b4f63e3178e22aa6155593d1cd50735f9ad5`.
 - Club-Only 2021–2026 — current/saturated at `e45fb11c9239e236231bb65645dfd0285bc0078b`.
@@ -61,13 +65,19 @@ Verification for `0dab3da50cc5fa06d2d11331f30a135795d2bac0`:
 - Jas exact admission / `Absent father` origin remains open.
 - Oyasumi/TankHead94 formal Discord onboarding is solved; exact in-game admission remains open.
 - Queen Shimoko and Booba / MsThiccy remain banked person seeds rather than quota biographies.
+- **Mr. Streamer / `ulstreamer` is now a banked developing person seed**: Wall supports a compact provenance-conscious receipt-courier axis and bounded Torr source-handoff, but not yet a multi-dimensional dossier. The exporter nickname `Mr. Streamer (Gabu's Chair)` does not establish a literal Gabu relationship or role.
 - Woosung, ничего / novikroeva, Skully666, Grimlee, Abie, Teri / kinzokumissu, and DiStratus / Torr remain developing/banked people pending enough additional person-shaped texture for the appropriate surface.
 - Yozora account-access specifics remain privacy/security-sensitive and are not public/site-routed.
 - Jαkie intake-age data remains private and is not surfaced.
 - Exact identity behind the 2023 `279h` word-train bot artifact remains unresolved; event-bot similarity is not an identity bridge.
+- Ten parent `783996881645371392` remains retrieval-blocked; zero literal hits do not certify a negative branch.
 - Pooled `Deleted User` stays pooled. Similar names do not bridge identities without stable evidence.
 - Joke-family, mock-threat, and romance-coded language stay nonliteral without support.
 - SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct.
+
+## Previous run — 556
+
+Run 556 reviewed Daycare from `f317c664b5b379d91f0dfa4330f355f8e7168b25` through `e5859a78e0cae8d1ce63f62286f534209e9c0c50`. Ansun's 2021 Kahoot announcement already-publicly places Zyrcant / Akariel in the top-three group; the same canonical stable account belongs to two distinct `yay` reactions on the winner announcement. MAIN already owns the top-three scene, WIKI has no established Zyrcant dossier, and no thin page was created solely to house the micro-detail. wisp onboarding and Saber's event-alert role were duplicate/corroboration only; exact identity behind the 2023 `279h` word-train artifact remains unresolved.
 
 ## Historical reports
 
