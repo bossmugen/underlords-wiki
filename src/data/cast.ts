@@ -379,6 +379,39 @@ if (kiroIndex >= 0) {
   };
 }
 
+// Kaede's locked Sniper / On Call role already had a roster owner. This pass
+// gives that file a lived social axis without inventing appointment mechanics:
+// RV recognizes the return warmly, and Kaede later aims the same personalized
+// greeting / celebration energy back outward.
+const kaedeIndex = allCharacters.findIndex((character) => character.id === "kaede");
+if (kaedeIndex >= 0) {
+  const kaede = allCharacters[kaedeIndex];
+  const relationships = [...(kaede.relationships ?? [])];
+  if (!relationships.some((relationship) => relationship.name === "RV")) {
+    relationships.push({
+      name: "RV",
+      note: "RV recognizes Kaede before the doorway can make her generic: `kaede linda eres tuuuu?`, then `bienvenida de regreso kaede linda`. The stretched question and repeated `linda` read like delighted welcome-back recognition; the surviving conversation never says how long Kaede had been away.",
+      href: "/characters/ren",
+    });
+  }
+
+  const quotes = [...(kaede.quotes ?? [])];
+  for (const quote of [
+    "¡Pequeña RV! ¡Hola!",
+    "¡Many Many Congratulations Lil Rummy!",
+  ]) {
+    if (!quotes.includes(quote)) quotes.push(quote);
+  }
+
+  allCharacters[kaedeIndex] = {
+    ...kaede,
+    logline: "On-call Sniper whose surviving person file is finally more than the job title: RV clocks Kaede's return with `kaede linda`, and Kaede later sends small personalized greetings and emphatic congratulations back outward.",
+    tags: [...new Set([...(kaede.tags ?? []), "Return", "Celebratory warmth"])],
+    relationships,
+    quotes,
+  };
+}
+
 // Eos already has a compact Daycare / Wall owner. The new material is useful
 // because it explains what happens when the joke lands on her: she is extremely
 // catchable and remarkably hard to shame, with the counter-charge already loading.
