@@ -164,57 +164,58 @@ if (miaIndex >= 0) {
   };
 }
 
-// Run 575: WOO finally has enough Wall recurrence to be a person rather than a
-// loose handful of reaction lines. Keep the three chairs together: scandalized
-// witness, willing prosecutor, and self-aware repeat defendant.
-const wooCharacter: Character = {
-  id: "woo",
-  name: "WOO",
-  aliases: ["_woo_woo"],
-  billing: "legacy",
-  role: "Archive-era Wall cast",
-  era: "2020–2023+",
-  logline: "Wall regular who can treat `im gabriel` like breaking news, become a prosecutor the second Gilli summons her into somebody else's receipt, and then propose talking less because her own mouth keeps generating Hall-of-Shame material.",
-  tags: ["Archive cast", "Wall", "Screenshot Court", "Repeat defendant", "Petty Crimes"],
-  relationships: [
-    {
-      name: "Moon",
-      note: "WOO says she needs to talk less because she has so much Hall-of-Shame material; Moon true-replies `No no you famous uwu.` Embarrassment gets reframed as mock celebrity, and WOO stays inside the gag instead of retreating from it.",
-      href: "/characters/moon",
-    },
-    {
-      name: "Gabu",
-      note: "Gabu says `im gabriel`; WOO answers with `gabu....`, `I see you`, `in a whole different light`, then Kirby. No formal reply edge, just an extremely probable four-message comic reappraisal.",
-      href: "/characters/gabu",
-    },
-    {
-      name: "Gilli",
-      note: "Gilli can summon WOO straight into screenshot evidence and get immediate prosecutorial uptake. The useful part is the low setup: WOO already understands what kind of room she has been called into.",
-      href: "/characters/gilli",
-    },
-    {
-      name: "Nobu",
-      note: "When Gilli brings WOO into Nobu evidence, WOO goes straight to `NOBU` / `TRAITOR`, later `nobu` / `why`. The screenshot itself stays visually unresolved; the prosecution does not.",
-      href: "/characters/nobu",
-    },
-  ],
-  quotes: [
+// Run 576 hard identity repair: WOO / `_woo_woo` is Woosung. The prior
+// supplemental `woo` card violated project canon by turning an alias/account trail
+// into a second person. Fold the Wall material into Woosung's existing dossier.
+const woosungIndex = allCharacters.findIndex((character) => character.id === "woosung");
+if (woosungIndex >= 0) {
+  const woosung = allCharacters[woosungIndex];
+  const relationships = [...(woosung.relationships ?? [])];
+  upsertRelationship(relationships, {
+    name: "Moon",
+    note: "WOO says she needs to talk less because she has so much Hall-of-Shame material; Moon true-replies `No no you famous uwu.` Embarrassment gets reframed as mock celebrity, and Woosung stays inside the gag instead of retreating from it.",
+    href: "/characters/moon",
+  });
+  upsertRelationship(relationships, {
+    name: "Gabu",
+    note: "Gabu says `im gabriel`; WOO answers with `gabu....`, `I see you`, `in a whole different light`, then Kirby. No formal reply edge, just an extremely probable four-message comic reappraisal.",
+    href: "/characters/gabu",
+  });
+  upsertRelationship(relationships, {
+    name: "Gilli",
+    note: "Gilli can summon WOO straight into screenshot evidence and get immediate prosecutorial uptake. The useful part is the low setup: Woosung already understands what kind of room she has been called into.",
+    href: "/characters/gilli",
+  });
+  upsertRelationship(relationships, {
+    name: "Nobu",
+    note: "When Gilli brings WOO into Nobu evidence, WOO goes straight to `NOBU` / `TRAITOR`, later `nobu` / `why`. The screenshot itself stays visually unresolved; the prosecution does not.",
+    href: "/characters/nobu",
+  });
+
+  const quotes = [...new Set([
+    ...(woosung.quotes ?? []),
     "gabu....",
     "I see you",
     "in a whole different light",
     "NOBU",
     "TRAITOR",
     "I need to not talk sm I got so much stuff on the hall of shame",
-  ],
-};
-if (!allCharacters.some((character) => character.id === wooCharacter.id)) allCharacters.push(wooCharacter);
+  ])];
 
-export const castGroups = previousGroups.map((group) => {
-  if (group.id !== "archive-cast") return { ...group, characterIds: [...group.characterIds] };
-  const characterIds = [...group.characterIds];
-  if (!characterIds.includes(wooCharacter.id)) characterIds.push(wooCharacter.id);
-  return { ...group, characterIds };
-});
+  allCharacters[woosungIndex] = {
+    ...woosung,
+    aliases: [...new Set([...(woosung.aliases ?? []), "WOO", "Woo Woo", "_woo_woo"])],
+    logline: "Former ScarletMoon leader, VIP and permanent Platelet who can be tiny in self-description and enormous in recognition, prosecute Nobu from two words, treat `im gabriel` like breaking news, and then consider talking less because her own mouth keeps manufacturing Wall material.",
+    tags: [...new Set([...(woosung.tags ?? []), "Wall", "Screenshot Court", "Repeat defendant", "Petty Crimes"])],
+    relationships,
+    quotes,
+  };
+}
+
+export const castGroups = previousGroups.map((group) => ({
+  ...group,
+  characterIds: [...group.characterIds],
+}));
 
 export const characterById = new Map(allCharacters.map((character) => [character.id, character]));
 export const primaryGroupByCharacterId = new Map(
