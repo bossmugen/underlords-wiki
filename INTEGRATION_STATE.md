@@ -1,23 +1,26 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-07 — Run 598 late Wall close_
+_Last updated: 2026-09-07 — Run 599 stable census_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. `bossmugen/underlords:master` `CANON_LOCKS.md` remains the highest-priority identity/role correction layer and wins over miner-local hypotheses, integration prose, site alias drift, or account-level ambiguity until Mugs explicitly changes it. Earlier detailed run history remains in durable per-run reports; this file is the current operational snapshot.
 
 ## Current census
 
-Mandatory full census: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**. Run 598 late-close remains at **0 newly discovered branches, 0 unread pending-review tails, 8 reviewed `pending_publication` MAIN families, 0 backlog, and 0 overdue**.
+Mandatory full census: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**. Run 599 closes at **0 newly discovered branches, 0 unread pending-review tails, 8 reviewed `pending_publication` MAIN families, 0 backlog, and 0 overdue**.
 
-Opening census found Louvre / AI / Athenaeum / Other Games and Wall advanced. A late branch sweep caught Core Rooms / Events; after the first close Wall moved once more from `25c38e2c...` to `28d9b717...`. That suffix was also reviewed checkpoint-first and intake-only. No raw archive was re-mined. Both Club-Only recovery lanes remain current/saturated at `e45fb11c9239e236231bb65645dfd0285bc0078b` and `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`.
-
-Consumed frontiers are now:
-- Core Rooms / Events: `5b0a45e78790acc3b5e54e16916bc4564ec13661`.
-- Louvre / AI / Athenaeum / Other Games: `bc186592bf4e3a060246ce9594f91da9ac67c5fe`.
-- Wall: `28d9b71778a33a40f4e1bd395fb8b9e64f405184`.
+Every active miner ref still exactly matches the Run 598 consumed frontier. There was therefore no legitimate new intake delta to review in Run 599, no raw archive was re-mined, and no consumed SHA moved. Both Club-Only recovery lanes remain current/saturated at `e45fb11c9239e236231bb65645dfd0285bc0078b` and `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`.
 
 The eight reviewed publication-held MAIN families remain Backroom, Birthdays / PR / VC, Daycare, Louvre / AI / Athenaeum / Other Games, Meems, Whiskey, QOTD / Officers, and Wall. `pending_publication` means reviewed debt, not unread mining.
 
-## Run 598 — final reader publication
+## Run 599 — stable census / no reader mutation
+
+No miner branch advanced beyond its consumed SHA. No new lore, duplicate evidence family, identity correction, attribution change, conflict resolution, or rabbit-hole movement arrived after the final Run 598 close.
+
+Reader-facing WIKI files changed **0**. Latest verified/deployed WIKI reader remains Run 598 SHA **`e064f7a6661af20e2d0320cbd3187e1469fa1e3b`**. Because Run 599 changed only integration-state/report documentation, no fresh Astro build or Pages deployment is claimed.
+
+MAIN reader-facing files also changed **0**. No fresh MAIN source-verification / Astro / built-output verification / production deployment is claimed for an unchanged reader tree.
+
+## Run 598 — latest verified reader publication
 
 Final verified/deployed WIKI reader SHA: **`e064f7a6661af20e2d0320cbd3187e1469fa1e3b`**.
 
@@ -37,21 +40,19 @@ Verification / deployment on exact reader SHA `e064f7a...`:
 - Actual Pages deploy job `101815536327`: **success**.
 - Pages report/status job `101815583573`: **success**.
 
-The earlier Julian reader SHA `78e44dc5f2737d296c5f5b8b7fbd71dfd0a3c479` and Rooks repair SHA `e96c4e9a565f23d30a52816647635e5de7297f6c` both independently passed their own Build and Pages deployments; `e064f7a...` supersedes them and includes both.
-
 ## Latest public person integration
 
 ### BishopThaGuru
 
-Bishop's Wall reputation is funny because everybody else can name the danger and Bishop immediately helps them prove it. Tofu says Bishop will never stop being funny; Bishop answers by asking who has been talking and **`You with the feds?`**. Mugen adds **`The file in my office says so`**; Bishop's tiny **`W-which file?`** accepts the imaginary dossier so fast that the defendant manufactures fresh evidence against himself.
+Bishop's Wall reputation is funny because everybody else can name the danger and Bishop immediately helps them prove it. Tofu says Bishop will never stop being funny; Bishop answers by asking who has been talking and `You with the feds?`. Mugen adds `The file in my office says so`; Bishop's tiny `W-which file?` accepts the imaginary dossier so fast that the defendant manufactures fresh evidence against himself.
 
-The same rhythm repeats when Tofu says anything involving Bishop is bound for the Wall. Bishop asks whether that is **`a compliment, or a warning?`**; Tofu answers **`Both`**. Bishop then turns being watched into another joke about personal attention instead of leaving the bit. By July he is posting his own disputed screenshot and announcing **`Time to find my gloves 🥊🥊`**. The useful contradiction is not simply defendant versus prosecutor: Bishop is a **self-aware Wall magnet who enjoys the courtroom enough to co-author the case**.
+The same rhythm repeats when Tofu says anything involving Bishop is bound for the Wall. Bishop asks whether that is `a compliment, or a warning?`; Tofu answers `Both`. Bishop then turns being watched into another joke about personal attention instead of leaving the bit. By July he is posting his own disputed screenshot and announcing `Time to find my gloves 🥊🥊`. The useful contradiction is not simply defendant versus prosecutor: Bishop is a **self-aware Wall magnet who enjoys the courtroom enough to co-author the case**.
 
 Tofu↔Bishop stays bounded to comfortable repeat heckling, dry reassurance, and shared Wall literacy. Joke-love, `like me?`, and sex-wordplay remain jokes unless stronger support changes that. Bishop is intentionally **WIKI-only** at this boundary: several coherent Wall scenes make him searchable and recognizable, but they do not yet justify a rich MAIN biography without padding.
 
 ### Julian
 
-Julian's April 16, 2020 Lobby entrance remains a compact WIKI dossier rather than a padded MAIN biography. The social mechanism is the contradiction: an entrance delivered like the Lobby handed over a microphone — `HEY GIRLIES! ... wanna get to know yall! muah` — followed by Gilli giving practical server navigation and Julian answering **`period period, noted`**. The camp register survives contact with useful instructions. Direct welcomes from Ren and Mugen receive warm reciprocal thanks.
+Julian's April 16, 2020 Lobby entrance remains a compact WIKI dossier rather than a padded MAIN biography. The social mechanism is the contradiction: an entrance delivered like the Lobby handed over a microphone — `HEY GIRLIES! ... wanna get to know yall! muah` — followed by Gilli giving practical server navigation and Julian answering `period period, noted`. The camp register survives contact with useful instructions. Direct welcomes from Ren and Mugen receive warm reciprocal thanks.
 
 The public read is **performative entrance + socially eager + theatrically expressive but practically receptive**. It does not establish a closeness ranking or totalize Julian's whole personality from one doorway. `ya girl fenty` remains performed wording, not an identity alias. A sensitive demographic self-report in the source remains intentionally redacted and unpublished. `video0.mp4` remains POSTED BY Julian only; its pixels were not inspected.
 
@@ -82,9 +83,7 @@ The Wall miner's corpus-local line saying Akariel is “not safely Zyrcant” do
 
 ## MAIN vs WIKI split
 
-MAIN reader-facing files changed **0** in Run 598, including the late Wall suffix. No fresh MAIN source-verification / Astro / built-output verification / production deployment is claimed for an unchanged reader tree.
-
-Julian and Bishop are WIKI-sized at this boundary. Zhēnxī was already ahead on both surfaces. Louvre's new memory read remains held to the **Ricochet** owner pending exact-context backfill rather than being mirrored into Rich or published prematurely. The eight MAIN publication-held families remain reviewed debt.
+MAIN reader-facing files changed **0** in Runs 598 and 599. Julian and Bishop remain WIKI-sized at this boundary. Zhēnxī was already ahead on both surfaces. Louvre's new memory read remains held to the **Ricochet** owner pending exact-context backfill rather than being mirrored into Rich or published prematurely. The eight MAIN publication-held families remain reviewed debt.
 
 Known production-gated MAIN maintenance, including Nothien's stale visible body-copy pronouns, remains held for a run that can execute the required MAIN reader verification/deploy path.
 
