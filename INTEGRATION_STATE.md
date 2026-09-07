@@ -1,73 +1,94 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-07 — Run 604 final close_
+_Last updated: 2026-09-07 — Run 609 intake reconciliation_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN `CANON_LOCKS.md` remains the highest-priority identity/role correction layer and wins over miner-local hypotheses, integration prose, site alias drift, or account-level ambiguity until Mugs explicitly changes it. Detailed run history lives in durable per-run reports; this file is the current operational snapshot.
 
 ## Current census
 
-Mandatory full census: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**. Run 604 closes at **0 newly discovered branches, 0 unread pending-review tails, 8 reviewed `pending_publication` MAIN families, 0 backlog, and 0 overdue**.
+Mandatory full census: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**. Closing state: **0 newly discovered branches, 0 unread pending-review tails, 8 reviewed `pending_publication` MAIN families, 0 backlog, and 0 overdue**.
 
-Run 604 reviewed checkpoint-first/intake-only:
-- Wall `58662586352c33933dc4a2e06e12274b1bf87cec` → **`4f08501576f20f63865a17eb56386ec026bba19f`**.
+This reconciliation reviewed checkpoint-first/intake-only:
+- Core Rooms / Events `5b0a45e78790acc3b5e54e16916bc4564ec13661` → **`3ae83b1f6aa92e8a3332137c17c227340c4ff668`**.
+- Daycare `41659e4b9dd16854b574517e59bb7bf790b00b96` → `4832ee23410851f218331641577cf474d28d5ed8`, then the late suffix → **`28d85eb899568a7e021e392c8fd069275ca835fa`**.
+- Wall `4f08501576f20f63865a17eb56386ec026bba19f` → **`ac6de06ea0030047eabae636587393087688ded4`**.
 
-Both Club-Only recovery lanes remain current/saturated at `e45fb11c9239e236231bb65645dfd0285bc0078b` and `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`; neither was churned. Closing census found all active miner refs stable.
+Both Club-Only recovery lanes remain current/saturated at `e45fb11c9239e236231bb65645dfd0285bc0078b` and `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`; neither was churned and no raw archive was reopened.
 
-The eight reviewed publication-held MAIN families remain Backroom, Birthdays / PR / VC, Daycare, Louvre / AI / Athenaeum / Other Games, Meems, Whiskey, QOTD / Officers, and Wall. `pending_publication` means reviewed debt, not unread mining.
+The eight reviewed publication-held MAIN families are Backroom, Birthdays / PR / VC, Daycare, Louvre / AI / Athenaeum / Other Games, Meems, Whiskey, QOTD / Officers, and Wall. `pending_publication` means reviewed debt, not unread mining.
 
-## Run 604 — Shiki: self-incrimination as a lifestyle choice
+## Mia — newsroom confidence includes surviving the correction
 
-The new Wall packet strengthens an already-visible Shiki contradiction instead of creating another incident ledger. Shiki can supply his own proof with `The proof. I ain't cropping shit out.`, accept the room's reaction with `I am now iconic`, and later try the magnificently doomed defense `u all see nothing` on people whose entire hobby is saving the screenshot.
+The Daycare packet deepens an existing Mia behavior rather than inventing a Reporter job. On March 6, 2023 she packages the missing-Nitro mystery as `underlords news for today`, posts the project-report video, announces `WE FOUND IT`, then publicly corrects herself with `NOPE NOT ANTHOS`. Anthos answers `I AM GONNA SUE`; Mia gives the prosecution one `AHHH` and keeps the scene moving with `reward for find 1million fake dollars!`.
 
-The structured dossier now carries the lived relationship texture around that mechanism:
-- **Mugen:** Sensei shorthand is ordinary social language between them — `You're welcome, Sensei`, `I love you senseei`, later being pulled into a similarly cursed AI-prompt pocket. It does not create a new governance rank.
-- **Gilli:** heckling, embarrassed explanation, and see-nothing recovery all fit inside shared Wall fluency rather than a one-off witness scene.
-- **Mia:** reposting Shiki lines and receiving `nyaBaka` / `nyaThonking` back makes the defendant/prosecutor grammar legible without pretending either person holds a literal court office.
+The person read is low-ego public correction. Mia is comfortable enough with the room that a wrong call does not require defensiveness or a repair ceremony; it becomes Act Two. The video is **POSTED BY Mia**. Sye's `yall made a video` / Mia's `Yesss` supports group-made framing, not sole maker credit. Reporter / Newscaster remains joke-shaped behavior, not Mia's formal specialist title.
 
-Shiki's existing long-form WIKI narrative remains the broader character owner. Run 604 adds searchable dossier structure rather than duplicating the same prose.
+## Noether — the joke gets a reusable handle too
 
-## Run 604 — Milo: chaos with a brake pedal
+Core adds a second expression of Noether's existing practical instinct. Anayss repeatedly summons Noether into Hami-centered Wall nonsense; Noether moves from laughing at `Unsugar hami` to `Unsugar hamihami`, then expands the same vocabulary a month later into `Unsugared snow, history of a sugar daddy and unsugar boiii...`.
 
-Milo's fresh layer is not generic friendliness. Gilli can occupy prosecutor position while Milo reacts from the gallery; Mia can repost Milo's own comments and get `nyaSodramatic`; and when Mugen gives the tiny `🐹...` comfort/stop marker, Milo backs off and apologizes instead of making the correction another bit.
+That is useful because it is the same reusable-handle instinct already visible when Noether turns fuzzy process into a person, form, or next action. Sometimes the reusable handle is administrative. Sometimes the institution being maintained is an entirely unnecessary `Unsugar` taxonomy. MAIN already had the stronger version of this synthesis, so Core was duplicate/corroboration there while WIKI received the structured relationship/callback deepener.
 
-That makes the contradiction useful: Milo is comfortable being evidence and audience, but the joke is not more important than somebody else's comfort. No formal prosecutor/gallery role is inferred.
+Hard canon wins: **Noether is current Game Officer**. Old Junior-Officer wording is historical context only and does not replace the current role.
+
+## Nobu — evidence filing with a delightfully compromised chain of custody
+
+Wall deepens Nobu / Xuseio as a mostly-silent visual filer. She can post an exhibit with almost no caption and let the room prosecute it, then later admit: `I legit thought that said children. Which is why I posted it.`
+
+That contradiction is the point. Nobu likes receipts without pretending the first interpretation is sacred. A misunderstanding can itself be the reason the item is funny enough to file. Rummy recurs as a familiar exhibit/observer counterpart who objects loudly from inside the same joke lane.
+
+`Light mode gets me every time.` stays a UI grievance / Petty Crime, not a medical diagnosis. `My favorite food.` remains visually unresolved. Screenshots are **POSTED BY Nobu** unless maker, capturer, or depicted subject credit is separately established.
+
+Hard canon wins: **Nobu = Xuseio; UL Party Director; not Officer.**
+
+## Moon — all-seeing witness, wrong-room physician
+
+The late Daycare suffix adds a clean contradiction to Moon's existing observer role. She catches Dream `HIDING SHROOMS!!` and declares `I am a moon,so i see all`; months later she joins the `rumfection` / `gillifection` bit as a fake vaccinator, reassures the patients `It will hurt alittle ~♡`, and only after completing the treatment plan realizes: `Wait this isn't main chat`.
+
+Two weeks later she effectively sentences Sou to Wall; Sou claims the `fame` half for herself; Moon immediately points out `But the word shame is right there`.
+
+Moon therefore likes the observer/prosecutor seat without staying outside the incident. She sees the joke, names it, assigns mock jurisdiction, then climbs into it. Moon↔Sou supports comfortable direct counter-teasing, not a friendship rank. The fake clinic is theatrical chat play, not a medical role, and the nurse GIF is POSTED BY Moon rather than authored by her.
+
+## Broken-bot rabbit materially advanced, not solved
+
+A 2022 Lobby source now directly labels a separately added account/function `(word chain bot^)`. The export has collapsed the mentioned account into a pooled Deleted User object, so the original bot identity is not recoverable there. This independently confirms a word-chain bot existed by August 2022 but still does **not** bridge that exact account to the March 2023 `Approx 279 hours` breakage. Saber is not inferred from adjacency.
+
+## Publication / verification
+
+Run 609 intake reader work touched the Run 608/609 deepener layer, including:
+- `src/data/character-bios-run608-intake.ts`
+- `src/data/cast-run608-intake.ts`
+- `src/data/bio-policy.ts`
+- `src/data/character-page-data.ts`
+- canon-preserving Run 608 overlays that keep Noether and Nobu on their locked current roles.
+
+Exact verified/deployed reader SHA for the Mia / Noether / Nobu / Moon bundle: **`32b13a78cb3083b9562c0f2feed59cb8dcfc4443`**.
+
+Verification/deployment:
+- Build workflow `34158934464`: **success**.
+- Pages workflow `34158934468`: **success**.
+- Pages build/artifact job `101856493388`: **success**.
+- Actual Pages deploy job `101856569019`: **success**.
+- Pages report/status job `101856605652`: **success**.
+
+`main` subsequently advanced with a separate Run 609 Julian reader change. That later change is not claimed as part of this intake review; `32b13a78...` is the exact independently verified receipt for the four-person bundle above. This state/report update is reader-neutral.
+
+## MAIN split
+
+MAIN reader-facing files changed **0** in this reconciliation. Noether's Core delta was already owned there and was deduped. Mia's newsroom correction loop, Moon's witness/prosecutor contradiction, and Nobu's ambiguity-powered filing are accepted richer MAIN biography debt. The controlled MAIN source-verification → Astro → built-output verification → production deployment workflow is deliberately decoupled from ordinary pushes and was not safely dispatchable through the available repository action surface, so no unverified MAIN reader edit was made.
 
 ## Attribution / safety rails applied
 
-- Sensei language is not promoted into a new formal governance title.
-- q18 gap work remains partial; no identity or relationship closure was manufactured from sparse results.
-- An independent image route was backed off because the visual could not support safe subject/attribution claims.
+- Current role canon beats old role snapshots and miner-local wording.
+- Mia = Mimi / Miaka / Opalite Honey / `༯` remains one person.
+- Noether is current Game Officer.
+- Nobu = Xuseio and is UL Party Director, not Officer.
+- `Unsugar`, `sugar daddy`, infection/doctor, ship/marriage, and mock-lawsuit language remains theatrical unless separately supported.
 - SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct.
 - Final-export reactions do not establish click timing.
 - Earliest surviving evidence is not automatically origin.
-- Joke family / romance language remains joke language unless stronger support says otherwise.
+- q18 remains partial.
 
-## Run 604 publication / verification
+## Carried unresolved rabbits
 
-Reader-facing files:
-- `src/data/cast-run604-wall.ts`
-- `src/data/bio-policy.ts`
-
-Exact verified/deployed WIKI reader SHA: **`062e2e4b39a6de0c9f29e170c608da3221e5a58d`**.
-
-Verification/deployment:
-- Astro Build workflow `34154322479`: **success**
-- Astro build job `101842864367`: **success**
-- Pages workflow `34154322487`: **success**
-- Pages build/artifact job `101842933825`: **success**
-- Actual Pages deploy job `101843035774`: **success**
-- Pages report/status job `101843076130`: **success**
-
-Later Run 604 state/report commits are reader-neutral `[skip ci]`; `062e2e4b...` is the exact live reader receipt.
-
-MAIN reader-facing files changed **0**. Shiki/Milo now carry accepted MAIN-biography debt, but MAIN's controlled exact-master verification/build/deploy workflow is deliberately decoupled from pushes and was not safely dispatchable from this run's available connector write surface. Run 604 therefore did not reintroduce an unverified reader edit and call it publication.
-
-## Surface split still controlling
-
-MAIN owns rich person-shaped biographies, lived relationship arcs, recurring behavior, chronology as connective tissue, and `Petty Crimes`. WIKI owns structured Cast dossiers, role progression, Relationships, Episodes, Running Gags, Quotes, Locations, and gallery/reference structure. The same source may support both only when each surface uses it differently.
-
-## Carried hard rails / unresolved rabbits
-
-Hard identity locks remain controlling, including Akariel = Zyrcant; Mia = Mimi = Miaka = Opalite Honey = `༯`; Baby Lyssa = Ghoulie; NintendoShitcube = Zoshaa; WOO = Woosung; Ricochet / `dragonrichard` is not Rich / DragonRich; Candy / later `— Luna` is not HyaLuna; WhitePhoenix / Xephy is not Wolf Phenix; Nui is not Nuien; Oyasumi is not TankHead94.
-
-Still open: DyingFox stable-ID conflict; `ulstreamer` / Mr. Streamer owner; Ghoulie's exact admission date/person/mechanism and unidentified `sama`; Nothien's MAIN repair; WOO/Nobu screenshot contents; q18 partial/retrieval-blocked branches; ShiyaX account-intruder recurrence; `#PROTECCtheASSETS` recurrence; RH16 broken word-train bot identity; unresolved Wall/Louvre/Daycare media attribution; Ritha lived Battle Leader execution; Chubi lived Officer/Sniper execution; Spirit event identity/rules.
+Still open: DyingFox stable-ID conflict; `ulstreamer` / Mr. Streamer owner; Ghoulie's exact admission date/person/mechanism and unidentified `sama`; Nothien's MAIN repair; q18 partial/retrieval-blocked branches; ShiyaX account-intruder recurrence; `#PROTECCtheASSETS` recurrence; exact 2023 broken word-chain bot identity; unresolved Wall/Louvre/Daycare media attribution; Ritha lived Battle Leader execution; Chubi lived Officer/Sniper execution; Spirit event identity/rules.
