@@ -1,52 +1,48 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-07 — Run 577 identity repair_
+_Last updated: 2026-09-07 — Run 577 canon reconciliation_
 
-MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` remains the controlling miner-consumption ledger. WIKI uses the same reconciled canon/evidence system. Detailed run history lives in `INTEGRATION_REPORT_RUN_*.md` here and `archive-intake/INTEGRATION_REPORT_RUN_*.md` on MAIN.
+MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` remains the controlling miner-consumption ledger. `bossmugen/underlords:master` `CANON_LOCKS.md` is the highest-priority identity/role correction layer and wins over miner-local hypotheses, integration prose, site alias drift, or account-level ambiguity until Mugs explicitly changes it.
 
 ## Current census
 
-Mandatory closing census: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**. No newly discovered miner branch. Closing state remains **0 unread pending-review tails, 9 reviewed MAIN `pending_publication` families, 0 backlog, 0 overdue**. Both Club-Only recovery lanes remain current/saturated at `e45fb11c9239e236231bb65645dfd0285bc0078b` and `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`; no raw archive was reopened.
+Mandatory full census remains **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**. No newly discovered miner branch. Closing state remains **0 unread pending-review tails, 9 reviewed MAIN `pending_publication` families, 0 backlog, 0 overdue**. Both Club-Only recovery lanes remain current/saturated at `e45fb11c9239e236231bb65645dfd0285bc0078b` and `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`; no raw archive was reopened.
 
 The active frontiers consumed by the immediately preceding reconciliation remain unchanged: Core Rooms / Events through `6b6e509b8856ff458a9a6f7dbd03f0eb542c90dd`; Daycare through `33de3b4ce4e8d4d0347c72a2f4eac3c9f1aa6674`; Birthdays / PR / VC through `ea270681401aa603cf785b73b9160e03be807ad9`; Wall through `a4d5a4a0bf1d60d7143cb9afa6600625cd0433a3`; Mugen person-first through `5013800cdaaebbccd7b925f0d7ce0849960b9ae8`.
 
-## HARD CORRECTION — Mimi is not Mia
+## HARD CANON — Mia / Mimi
 
-Run 576's Mimi/Mia interpretation is superseded.
+The controlling canon remains **Mia = Mimi / Miaka / Opalite Honey / `༯`**. This is explicit in MAIN `CANON_LOCKS.md`, whose header states that it is the highest-priority correction layer and wins until Mugs explicitly changes it.
 
-Exact stable author objects in the Birthdays / PR / VC intake separate two Discord accounts:
+The Birthdays / PR / VC miner surfaced distinct Discord author IDs associated with different account records. Those records remain useful provenance, but **distinct account IDs do not by themselves create a second human identity when hard canon already resolves the aliases to one person**. The project safety rule against inferring identity from similar names prevents unsupported bridges; it does not erase an existing explicit canon lock.
 
-- **Mimi / Opalite Honey / `༯`** — stable author ID `783389804079349800`.
-- **Mia / `.miaxxx` / `m x`** — stable author ID `439628808545632256`.
+Accordingly:
 
-Do **not** bridge these stable IDs without explicit account-history evidence. Similar names and older site alias drift are not an identity bridge.
+- the reciprocal `me and momo are twinsss` / `Mimi's twin` / `love u twinnn` / `you are both Mimi & Momo` material remains Mia/Momo matching-name twin shorthand under the canonical Mia owner;
+- the twin language is playful peer shorthand, not biological kinship;
+- account-level POSTED BY provenance remains account-specific backstage, while person-level public identity follows the hard canon owner;
+- POSTED BY still does not silently become MADE BY / CAPTURED BY / FEATURING.
 
-Consequences now locked across WIKI publication:
-
-- April 7–9, 2023 `me and momo are twinsss` / `Mimi's twin` / `love u twinnn` / `you are both Mimi & Momo` belongs to **Mimi ↔ Momo**, not Mia ↔ Momo. The twin language is playful peer shorthand, not biological kinship or a same-person claim.
-- Mugen's April 2 `LMFAOO SAID THE POSTER MAKER` reply targets the **Mimi / Opalite Honey** stable account. The attached image remains POSTED BY that account; MADE BY / CAPTURED BY / FEATURING remain unresolved unless separately sourced.
-- The PR-room `GOODBYE UNDERLORDS` item is POSTED BY **Mia's** distinct stable account. That establishes posting provenance, not maker/capture/subject provenance or exact downstream deployment.
-- Mia keeps independently supported aliases such as **Maho / Miaka**; Mimi / Opalite Honey / `༯` are removed from Mia's public identity trail.
+A temporary WIKI reader change at `8c7992a05a031e486b30f7243647295482904496` incorrectly split Mimi from Mia by treating distinct account IDs as a second public person despite the hard canon lock. That reader change was reverted at **`d7964ce097627a9135fc9ae32cec443690ca0ab2`** (`revert(identity): restore hard Mia alias canon`). The incorrect Run-577 split narrative is superseded by this state.
 
 ## WIKI reader publication
 
-Reader commit **`8c7992a05a031e486b30f7243647295482904496`** repairs the cast metadata and adds corrected person-first narratives for Mia and Momo. Mia's public read now stays with her own material: Maho recognition, learned-and-reproduced house routing, adaptable concern, fake-departure humor, and lived responsibility. Momo now owns the Mimi twin scene alongside her sideways-answer habit, Screenshot Court reciprocity, and voice-room `ONE PIECE` wake-up energy.
+Current reader canon is the post-revert tree at `d7964ce097627a9135fc9ae32cec443690ca0ab2`; later Run-577 commits are documentation-only.
 
-Verification on that exact reader SHA:
+Verification on the revert reader SHA:
 
-- Build workflow `34098203835` — **SUCCESS**.
-- Pages workflow `34098203828` — **SUCCESS**.
-- Pages build/artifact job `101666447641` — **SUCCESS**.
-- Actual Deploy to GitHub Pages job `101666564078` — **SUCCESS**.
-- Pages report job `101666616646` — **SUCCESS**.
-- Commit statuses `wiki-build` and `wiki-preview` — **success**.
+- Build workflow `34098599365` — **SUCCESS**; Astro build job `101667661648` — **SUCCESS**.
+- Pages workflow `34098599376` — **SUCCESS**.
+- Pages build/artifact job `101667662225` — **SUCCESS**.
+- Actual Deploy to GitHub Pages job `101667797573` — **SUCCESS**.
+- Pages report job `101667853228` — **SUCCESS**.
 
 ## MAIN surface
 
-MAIN's current public `mia.md` / `momo.md` still contain the stale conflation at this exact close because MAIN's production procedure requires the full exact-master verification → Astro build → built-output verification → deployment gate, and the connected GitHub action surface available to this integrator does not expose safe manual workflow dispatch.
+MAIN's current reader identity shape already follows `CANON_LOCKS.md`; **do not promote** `integrator/mimi-mia-identity-repair-20260907` or commit `176d48afc3e9bb35c8923109f7293c20b3f1814e`. That staging branch was created from the now-rejected account-split interpretation and is invalid publication debt, not a pending canonical repair.
 
-A corrected MAIN reader tree is staged on branch `integrator/mimi-mia-identity-repair-20260907` at commit **`176d48afc3e9bb35c8923109f7293c20b3f1814e`**. It is **not** promoted to `master` until MAIN's complete existing verification/deploy gate can run successfully. This is publication debt, not unresolved identity canon.
+No MAIN reader mutation is required for Mimi/Mia in this reconciliation. Because MAIN reader source did not change, no new MAIN source-verification / Astro / built-output-verification / production-deploy success is claimed here.
 
 ## Carried holds / rails
 
-The Mimi/Mia split is a hard source correction. Do not let stale integration reports or old alias arrays reopen it by inertia. `ulstreamer` / Gabu-chair human owner/operator history remains unresolved. DyingFox's stable-ID conflict remains unresolved. Nothien's stale MAIN he/him repair remains production-gated. Wall q18 retrieval gaps remain open. Akariel/Zyrcant stays hard-resolved as one person. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain separate, and export-time/current role arrays do not date appointments.
+`ulstreamer` / Gabu-chair human owner/operator history remains unresolved. DyingFox's stable-ID conflict remains unresolved. Nothien's stale MAIN he/him repair remains production-gated. Wall q18 retrieval gaps remain open. Akariel/Zyrcant stays hard-resolved as one person. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain separate, and export-time/current role arrays do not date appointments.
