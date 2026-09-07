@@ -1,75 +1,80 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-07 — Run 601 final close_
+_Last updated: 2026-09-07 — Run 602 final close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN `CANON_LOCKS.md` remains the highest-priority identity/role correction layer and wins over miner-local hypotheses, integration prose, site alias drift, or account-level ambiguity until Mugs explicitly changes it. Detailed run history remains in durable per-run reports; this file is the current operational snapshot.
 
 ## Current census
 
-Mandatory full census: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**. Run 601 closes at **0 newly discovered branches, 0 unread pending-review tails, 8 reviewed `pending_publication` MAIN families, 0 backlog, and 0 overdue**.
+Mandatory full census: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**. Run 602 closes at **0 newly discovered branches, 0 unread pending-review tails, 8 reviewed `pending_publication` MAIN families, 0 backlog, and 0 overdue**.
 
-Reviewed checkpoint-first/intake-only:
-- Daycare `84007128dbec0072a0b8592bea1d57d002020e79` → **`ac17d1227d7814c67225462a4d6834821b32653b`**.
-- Wall `28d9b71778a33a40f4e1bd395fb8b9e64f405184` → `2fd97d3291d2d7cfca425ff93538ecb8fec6c6d6`, then late suffix → **`58662586352c33933dc4a2e06e12274b1bf87cec`**.
+Run 602 reviewed checkpoint-first/intake-only:
+- Daycare `ac17d1227d7814c67225462a4d6834821b32653b` → **`41659e4b9dd16854b574517e59bb7bf790b00b96`**.
 
 Both Club-Only recovery lanes remain current/saturated at `e45fb11c9239e236231bb65645dfd0285bc0078b` and `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`; neither was churned.
 
-The eight reviewed publication-held MAIN families remain Backroom, Birthdays / PR / VC, Daycare, Louvre / AI / Athenaeum / Other Games, Meems, Whiskey, QOTD / Officers, and Wall. `pending_publication` means reviewed debt, not unread mining.
+The eight reviewed publication-held MAIN families are Backroom, Birthdays / PR / VC, Daycare, Louvre / AI / Athenaeum / Other Games, Meems, Whiskey, QOTD / Officers, and Wall. `pending_publication` means reviewed debt, not unread mining.
 
-## Run 601 — corrected public owners
+## Run 602 — AJ and Ghoulie's quieter creative lane
 
-### Akuma / .M a t s u.
+### AJ / `lordaj911`
 
-The consumed Daycare owner is the same stable account that self-identifies through **Sebno** in December 2020 and later returns under changed game-facing details in November 2021. Anthos answers the first introduction with `haiii seb!!!`; months later Mugen leads with `WEBA bb sebs!` before handling routine server-role/navigation chores.
+Ghoulie tells AJ `u have an wonderful artstyle btw aj`. AJ later returns to that exact parent with `TY GHOULIEEE`. The delay matters: this is not merely a reflexive thank-you buried in a fast exchange; AJ comes back to the compliment and still answers at full emotional volume.
 
-The useful person read is **administrative re-onboarding without a social reset**. The game-facing label changes; older `Seb` shorthand remains socially available. This does not establish an exact leave/rejoin boundary or appointment chronology, and private source details remain unpublished.
+A separate Daycare exchange sharpens the same person read. When Mugen likes AJ's work, AJ answers `i am SOUPER happy that u love them both,i really do appreciate it mugs ilysm`. `SOUPER`, the run-on gratitude, and the direct `ilysm` all pull in one direction: AJ does not play creative approval cool once it lands.
 
-`Mr. Streamer` / username `ulstreamer` remains identity-unresolved. Miner context makes an old/former Gilli account plausible, but no hard identity bridge exists and no public merge was made. The stale `nerimity` label is not carried forward.
+The public WIKI owner therefore treats AJ as an artist with loud, warm gratitude rather than as a timestamped archive event. This does not establish AJ's join date or broader membership status.
 
-### Yochan / YｏＣｈａｎ9 / foxkanojo
+### Baby Lyssa = Ghoulie
 
-The consumed Wall owner is a low-verbiage participant whose involvement becomes increasingly active across 2021. A July piggy bit moves from `i see babi=piggy🐷` to a direct `@~Candy~ oink oink`; August adds `Another shame:Hehe:` and a screenshot introduced as `From server sea🤣 🤣`, immediately followed by `But idk how to paste to raja global😂 😂`.
+Hard user-confirmed identity remains controlling: **Baby Lyssa = Ghoulie**. Run 602 deepens the existing owner instead of spawning a duplicate character.
 
-The public read is **spectator-sized prose with filer-sized participation**: Yochan can watch, laugh, tease directly, source an exhibit across server contexts, and then get flattened by the final paste logistics. Candy's final-export scream reaction supports the teasing beat without timestamping the click or establishing a closeness ranking.
+The useful contradiction is now visible. Ghoulie already has the old Wall / Screenshot Court / running-gag lane; in Daycare, the same person simply notices AJ's art style and says it is wonderful. The line is small, but it gives Ghoulie a direct creative-kindness axis that does not depend on being the defendant in somebody else's joke.
 
-Yochan's attachments remain **POSTED BY Yochan only**; maker, capturer, subjects, and pixels were not independently inspected. Yochan q18 remains partial/retrieval-blocked.
+AJ's later `TY GHOULIEEE` makes the pocket reciprocal without turning it into romance, family, or a closeness ranking.
 
-### Late Wall tail — Candy held under safety boundary
+### AJ ↔ Mugen
 
-The final Wall suffix advances **Candy / ~Candy~ / candy_172** as a recurring Wall participant with clipped, self-directed embarrassment and responsive group play. One of the strongest new receipts contains safety-sensitive self-harm language. That wording is intentionally withheld from public narration and is not stylized as lore. The safe remainder was banked rather than inflated into a dossier during Run 601.
+Mugen's creative approval gets a notably affectionate answer from AJ. The relationship note is bounded to **warm expressive gratitude around creative recognition**. It does not claim a formal creative role, a special rank, or a broader relationship tier.
 
-Candy remains distinct from HyaLuna. Similar display text does not create an alias bridge. Candy q18 remains partial; uninspected media remains POSTED BY Candy only.
+## Attribution / safety rails applied in Run 602
 
-## Run 601 identity-safety correction
+- The nearby image is **POSTED BY AJ** only. MADE BY / CAPTURED BY / FEATURING remain unresolved.
+- Final-export reactions do not establish click timing.
+- Earliest surviving Daycare material is not treated as AJ's origin or join date.
+- Ghoulie's authored-message identity is sufficient for this bounded social read even though the current member-list row was not recovered.
+- Sensitive demographic/onboarding source detail remains intentionally excluded from derivative/public copy.
+- Exact parent backfill, `Dragons.audio`, `party-to-remember`, media-occurrence probes, and the sampled high-variance speakers produced no independent A/B uplift; those routes should not be immediately re-run as though untouched.
 
-A pre-close audit caught stale staging that had attached similarly named but wrong account records to the Akuma and Yochan owners. Those records were removed before final close. The live public copy now follows the consumed Daycare and Wall handoffs above. This is exactly the hard identity rail in practice: matching or similar names do not get to manufacture continuity.
+## Run 602 publication / verification
 
-## Run 601 publication / verification
+Exact verified/deployed WIKI reader SHA: **`96899e44d680180dade47f0b6804e0ce609b5d2c`**.
 
-Exact corrected verified/deployed WIKI reader SHA: **`a02eae66ede028c416f19ad101cc530e82c08b4c`**.
+Reader-facing file:
+- `src/data/cast-base.ts`
 
-Reader-facing files:
-- `src/data/cast-run601-intake.ts`
-- `src/data/character-bios-run601-intake.ts`
-- `src/data/bio-policy.ts`
+Public changes:
+- added AJ to Archive / Extended Cast;
+- deepened Baby Lyssa / Ghoulie with the Daycare creative-recognition lane;
+- added AJ ↔ Ghoulie and AJ ↔ Mugen relationship texture and quotes;
+- preserved identity, attribution, reaction-timing, and earliest-surviving rails.
 
-Verification / deployment on exact corrected reader:
-- Astro Build workflow `34148995083`: **success**.
-- Astro build job `101827050120`: **success**.
-- Pages workflow `34148995136`: **success**.
-- Pages build/artifact job `101827050859`: **success**.
-- Actual Pages deploy job `101827186445`: **success**.
-- Pages report/status job `101827215851`: **success**.
+Verification / deployment on the exact reader:
+- Astro Build workflow `34151786981`: **success**.
+- Astro build job `101835413336`: **success**.
+- Pages workflow `34151786948`: **success**.
+- Pages build/artifact job `101835413544`: **success**.
+- Actual Pages deploy job `101835496663`: **success**.
 
-Later Run 601 state/report commits are reader-neutral `[skip ci]`; `a02eae66...` remains the exact live reader receipt.
+Later Run 602 report/state commits are reader-neutral `[skip ci]`; `96899e44...` remains the exact live reader receipt.
 
-MAIN reader-facing files changed **0** in Run 601. Akuma's broader MAIN owner already contains richer Daycare texture; Yochan remains Wall-specific and dossier-sized; Candy's late tail is held under the safety boundary. No fresh MAIN source-verification / Astro / built-output verification / production deployment is claimed for an unchanged reader tree.
+MAIN reader-facing files changed **0** in Run 602. AJ/Ghoulie now carry accepted richer MAIN-biography material, but no MAIN source-verification / Astro / built-output verification / controlled production deployment is claimed for an unchanged reader tree. Daycare remains `pending_publication` only for that reviewed MAIN debt.
 
 ## Surface split still controlling
 
 MAIN owns rich person-shaped biographies, lived relationship arcs, recurring behavior, chronology as connective tissue, and `Petty Crimes`. WIKI owns structured Cast dossiers, role progression, Relationships, Episodes, Running Gags, Quotes, Locations, and gallery/reference structure. The same source may support both surfaces only when each uses it differently; no mirror-copy publication.
 
-Recent WIKI-only compact owners remain intentionally WIKI-sized at their current evidence boundaries, including Julian, BishopThaGuru, Akuma, and Yochan. Zhēnxī remains ahead on both surfaces. Louvre's newer memory/context material remains held to the **Ricochet** owner pending exact-context backfill rather than being mirrored into Rich or published prematurely.
+Recent compact WIKI-only owners remain intentionally WIKI-sized at their current evidence boundaries. Zhēnxī remains ahead on both surfaces. Louvre's newer memory/context material remains held to the **Ricochet** owner pending exact-context backfill rather than being mirrored into Rich or published prematurely.
 
 ## Carried identity / safety rails
 
@@ -123,4 +128,5 @@ Recent WIKI-only compact owners remain intentionally WIKI-sized at their current
 - Richard rename / `cooch` mechanics remain open.
 - Ansun ant origin and Zoshaa scrambled-egg-bunny ultimate origin remain open.
 - Plushie's creative chronology, panda referent, and media-object attribution remain open.
+- AJ's nearby image maker/capturer/subjects remain unresolved; the current public owner carries POSTED BY only.
 - Guild-icon visual inspection, `GOODBYE UNDERLORDS`, `IMG_2720`, Wolf's February screenshot internals, Crystalia's uninspected Wall images, Julian's uninspected `video0.mp4`, Bishop's self-filed screenshot, Yochan's uninspected Wall attachments, Candy's uninspected Wall media, and other unresolved media remain attribution-bounded until inspected.
