@@ -17,19 +17,23 @@ The eight reviewed publication-held MAIN families remain Backroom, Birthdays / P
 
 ## Panda — already knows what court she walked into
 
-The new Wall packet finally gives Panda / Marian Kage enough specific behavior to replace the stale generic archive-role treatment. When `PANDA DUNGEON GIRL ZD` lands, her next surviving line is `I'm guessing wall of shamed...or famed.` The adjacency is not a formal reply edge, so the page keeps that distinction backstage while preserving the obvious social instinct: Panda already knows what kind of room this is and where the nonsense is headed.
+The new Wall packet gives Panda / Marian Kage enough specific behavior to replace the stale generic WIKI layer. When `PANDA DUNGEON GIRL ZD` lands, her next surviving line is `I'm guessing wall of shamed...or famed.` The adjacency is not a formal reply edge, but the social instinct is clear: Panda already knows what kind of room this is and where the nonsense is headed.
 
 Mugen can later ping her into Wall bait and Panda's first move is a bare `wait` while she catches up on what happened. Once she understands the scene, she does not become ceremonious. Anayss asks whether Panda is claiming she beat Nexia better; Panda gives `Nope`, then returns the boast to sender with `You said that about yourself.` Months later Mugen announces that not even Panda is safe, and Panda's defense is effectively that finding weird stuff from her is not surprising anyway.
 
-That combination is the useful person read: quick recognition, compact skepticism, dry boundary-setting, and enough self-awareness that the Wall cannot exactly blackmail her with the existence of her own weirdness. When a spoiler attempt fails in 2021 she immediately says `:( i tried putting those in spoiler` and `sorry >.<` — tiny embarrassment, quick accountability, no theatrical escape attempt.
+The useful person read is quick recognition, compact skepticism, dry boundary-setting, and enough self-awareness that the Wall cannot exactly blackmail her with the existence of her own weirdness. When a spoiler attempt fails in 2021 she immediately says `:( i tried putting those in spoiler` and `sorry >.<` — tiny embarrassment, quick accountability, no theatrical escape attempt.
 
 WIKI now carries this as lived Panda material: aliases `Marian`, `Marian Kage`, and `PanPan`; Wall / dry-refusal / self-aware-weirdness tags; specific Mugen and Anayss relationship texture; exact quotes; and four compact timeline scenes. It does **not** turn the Nexia joke into a gameplay ranking.
 
 ## Alkey — corroboration, not paragraph mitosis
 
-The same Wall tail adds more Meowk / Alkey reaction-first receipts: asking for the incriminating picture, `YO WTF >:C`, `Wait should i be mad or sad lol`, `Fs in chat bois`, mention-bait keyboard smash, and the gloriously efficient avocado-soy-sauce `Bet`.
+The same Wall tail adds more Meowk / Alkey reaction-first receipts: asking for the incriminating picture, `YO WTF >:C`, `Wait should i be mad or sad lol`, `Fs in chat bois`, mention-bait reaction, and the avocado-soy-sauce `Bet`.
 
-Both public surfaces already own the stronger person-shaped version of this mechanism. The packet therefore counts as duplicate/corroboration rather than earning another public Alkey layer. No new media maker/capturer/subject credit was inferred from the surrounding uploads.
+Both public surfaces already own the stronger person-shaped version of this mechanism. The packet therefore counts as duplicate/corroboration rather than earning another public Alkey layer. No new media maker/capturer/subject credit was inferred from surrounding uploads.
+
+## Concurrency cleanup
+
+A concurrent WIKI commit landed after the first verified Panda publication and appended older Panda/Alkey material that was outside this reviewed Wall delta. That hitchhiking material was removed before close rather than being silently blessed by proximity. The final reader is therefore the narrow Run 610 Panda reconciliation only; Alkey remains deduped.
 
 ## Attribution / unresolved rails
 
@@ -46,19 +50,17 @@ Run 610 reader code/data changed through:
 - `src/data/cast-run610-wall.ts`
 - the activation import in `src/data/bio-policy.ts`.
 
-An initial Run 610 module was tightened before close so only the reviewed Panda Wall material remained; unrelated older Alkey/Panda material was not allowed to hitchhike into the publication.
+The final exact verified/deployed WIKI reader SHA is **`8255c86e70b65a98556cdd075584ca13e1622eb6`**.
 
-Exact verified/deployed WIKI reader SHA: **`bc7e324f30901ed3d882868f55437cfbc8689396`**.
+Verification/deployment for that exact reader:
+- `Build Underlords Wiki` workflow `34160740407`: **success**.
+- Astro build job `101861905010`: **success**.
+- `Deploy Underlords Wiki Preview` workflow `34160740392`: **success**.
+- Pages build/artifact job `101861905279`: **success**.
+- Actual Pages deploy job `101862005145`: **success**.
+- Pages report/status job `101862049751`: **success**.
 
-Verification/deployment:
-- `Build Underlords Wiki` workflow `34160467928`: **success**.
-- Astro build job `101861062015`: **success**.
-- `Deploy Underlords Wiki Preview` workflow `34160467829`: **success**.
-- Pages build/artifact job `101861093259`: **success**.
-- Actual Pages deploy job `101861174921`: **success**.
-- Pages report/status job `101861229326`: **success**.
-
-This integration-state commit is reader-neutral `[skip ci]`; `bc7e324f...` remains the exact reader receipt.
+This integration-state commit is reader-neutral `[skip ci]`; `8255c86e...` remains the exact reader receipt.
 
 ## MAIN split
 
