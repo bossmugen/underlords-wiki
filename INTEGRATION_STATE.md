@@ -1,65 +1,67 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-07 — Run 578_
+_Last updated: 2026-09-07 — Run 579_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` remains the controlling miner-consumption ledger. `bossmugen/underlords:master` `CANON_LOCKS.md` is the highest-priority identity/role correction layer and wins over miner-local hypotheses, integration prose, site alias drift, or account-level ambiguity until Mugs explicitly changes it.
 
 ## Current census
 
-Mandatory full census remains **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**. No newly discovered miner branch. Run 578 closes with **0 unread pending-review tails, 9 reviewed MAIN `pending_publication` families, 0 backlog, 0 overdue**. Both Club-Only recovery lanes remain current/saturated at `e45fb11c9239e236231bb65645dfd0285bc0078b` and `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`; no raw archive was reopened.
+Mandatory full census remains **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**. No newly discovered miner branch. Run 579 closes with **0 unread pending-review tails, 9 reviewed MAIN `pending_publication` families, 0 backlog, 0 overdue**. Both Club-Only recovery lanes remain current/saturated at `e45fb11c9239e236231bb65645dfd0285bc0078b` and `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`; no raw archive was reopened.
 
-The sole opening mover was Birthdays / PR / VC. It was reviewed checkpoint-first from consumed `ea270681401aa603cf785b73b9160e03be807ad9` through stable branch HEAD **`a66d90814ea333f00022d9c8e8a9b93e9b31ef1e`**. Its eight-commit delta changed only intake-local handoffs. No other active miner head was unread at the closing census.
+The two opening movers were reviewed checkpoint-first from their consumed frontiers through stable closing heads:
 
-Current major consumed frontiers include Core Rooms / Events `6b6e509b8856ff458a9a6f7dbd03f0eb542c90dd`; Daycare `33de3b4ce4e8d4d0347c72a2f4eac3c9f1aa6674`; Birthdays / PR / VC `a66d90814ea333f00022d9c8e8a9b93e9b31ef1e`; Wall `a4d5a4a0bf1d60d7143cb9afa6600625cd0433a3`; Mugen person-first `5013800cdaaebbccd7b925f0d7ce0849960b9ae8`.
+- Core Rooms / Events: `6b6e509b8856ff458a9a6f7dbd03f0eb542c90dd` → **`070e14894b7950a0b9224a2b3f3773f196714f8b`**.
+- Wall: `a4d5a4a0bf1d60d7143cb9afa6600625cd0433a3` → **`f754a10ea834f47f37ba8d800b3931b157a64958`**.
 
-## Run 578 — Birthdays / PR / VC reconciliation
+Current major consumed frontiers include Core Rooms / Events `070e14894b7950a0b9224a2b3f3773f196714f8b`; Daycare `33de3b4ce4e8d4d0347c72a2f4eac3c9f1aa6674`; Birthdays / PR / VC `a66d90814ea333f00022d9c8e8a9b93e9b31ef1e`; Wall `f754a10ea834f47f37ba8d800b3931b157a64958`; Mugen person-first `5013800cdaaebbccd7b925f0d7ce0849960b9ae8`.
 
-The new miner tail is a cumulative-handoff repair plus negative/rotated rabbit work. It does **not** produce a new WIKI reader change.
+## Run 579 — Erys and Nothien
 
-Fresh useful routing:
+Run 579 changed the existing WIKI Cast owners for **Erys** and **Nothien** in `src/data/cast.ts`; no duplicate people and no standalone Episodes were created.
 
-- **Oyasumi / TankHead94 exact game admission** remains open. A materially different Club Manager / accepted-application / game-side / admin search found only the known Jan. 25 social-orbit recognition and Feb. 25 self-reported `Club: Underlords` state. No join transaction surfaced, so that semantic route is now rotated until actual game/admin evidence appears.
-- **Richard room rename / `cooch` mechanics** remains open. Exact room-ID plus audit/rename wording did not surface an admin rename receipt; exact renamer, intermediate title(s), and the final `cooch` weld remain unresolved.
-- **Feli** produced no direct assigned Birthdays/PR/VC authored scene, relationship beat, reply chain, or media/provenance credit. The 2020-09-27 Lobby welcome remains supporting identity context only; generic Feli quarry searching rotates.
+### Erys
 
-These are successful no-public-change review results and the controlling MAIN ledger now consumes the branch through `a66d90814ea333f00022d9c8e8a9b93e9b31ef1e` so the same dead routes are not reread indefinitely.
+Erys now carries the recurring Wifman lane as relationship texture rather than three disconnected Wall incidents. Across 2020–2021 the same relationship can hold callback memory (`Why'd you post this again :suscry:`), a real concern-check (`You okay there? 👀`), and immediate innuendo (`Daddy's belt, you say? :LipBite:`). The public read is attention plus comfortable range. It is not a closeness ranking, and quoted Wifman material is not reassigned to Erys.
 
-## HARD CANON — Mia / Mimi
+### Nothien
 
-The controlling canon remains **Mia = Mimi / Miaka / Opalite Honey / `༯`**. This is explicit in MAIN `CANON_LOCKS.md`, whose header states that it is the highest-priority correction layer and wins until Mugs explicitly changes it.
+Nothien now carries the public-chat economy that the Core Rooms tail makes legible: `:NonDebatable:` can serve as the whole answer, while a rare serious message draws `Logical King Noth` treatment before the room returns to comfortable ribbing (`if only noth hooped out`). That is temperament/reputation texture, not a formal mediator, officer, or governance role.
 
-The Birthdays / PR / VC miner continues to distinguish Discord account IDs in its provenance layer and, in this newest cumulative handoff, again phrases those accounts as separate Mimi/Mia people. That human-identity split remains overridden by hard canon. Distinct author IDs are useful account-level provenance; they do **not** create a second public human identity against the explicit lock.
+### Banked / held
 
-Accordingly:
-
-- the reciprocal `me and momo are twinsss` / `Mimi's twin` / `love u twinnn` / `you are both Mimi & Momo` material remains **Mia ↔ Momo** matching-name twin shorthand under the canonical Mia owner;
-- the twin language is playful peer shorthand, not biological kinship;
-- account-level POSTED BY provenance remains account-specific backstage, while person-level public identity follows the hard canon owner;
-- `IMG_2720.png` remains POSTED BY the exact account that posted it; MADE BY / CAPTURED BY / FEATURING remain unresolved;
-- `GOODBYE UNDERLORDS` maker/deployment remains unresolved; generic poster-maker reputation is not artifact-specific credit.
-
-A temporary WIKI reader change at `8c7992a05a031e486b30f7243647295482904496` incorrectly split Mimi from Mia by allowing account-ID separation to override the hard canon lock. It was reverted safely at **`d7964ce097627a9135fc9ae32cec443690ca0ab2`** (`revert(identity): restore hard Mia alias canon`). The invalid account-split interpretation remains superseded.
+- **Nui**: recurring warm-reentry recognition is a good developing-person seed — independent 2020 arrivals draw peer check-ins and Nui reciprocates — but there is not yet a mature public owner worth padding into existence.
+- **YuKanada**: concise social timing plus an occasional direct emotional check-in is banked for a later person build.
+- **ничего**: short-form/reactive style is useful, but identity remains unresolved; no public identity inference.
+- **Ricochet**: this tail is corroboration-only; existing public material already owns the useful character read.
+- Image-only parent messages remain visually unresolved unless separately classified. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct.
 
 ## WIKI reader publication
 
-Run 578 changed **0 reader-facing files**. Current reader canon therefore remains the post-revert tree at `d7964ce097627a9135fc9ae32cec443690ca0ab2`; later Run-577 and Run-578 commits are documentation-only.
+Exact Run-579 reader commit: **`2b0ccf2b3ae401841c606294d47c51defdce8db0`** (`feat(cast): deepen Erys and Nothien dossiers`).
 
-Verification on the current reader SHA remains:
+Verification on that exact reader SHA:
 
-- Build workflow `34098599365` — **SUCCESS**; Astro build job `101667661648` — **SUCCESS**.
-- Pages workflow `34098599376` — **SUCCESS**.
-- Pages build/artifact job `101667662225` — **SUCCESS**.
-- Actual Deploy to GitHub Pages job `101667797573` — **SUCCESS**.
-- Pages report job `101667853228` — **SUCCESS**.
+- Build workflow `34101862025` — **SUCCESS**.
+- Astro build job `101677881677` — **SUCCESS**.
+- Pages workflow `34101861862` — **SUCCESS**.
+- Pages build/artifact job `101677881013` — **SUCCESS**.
+- Actual Deploy to GitHub Pages job `101678001591` — **SUCCESS**.
+- Pages report job `101678072153` — **SUCCESS**.
 
-No fresh Build/Pages run is claimed for Run 578 because no WIKI reader source changed.
+Later Run-579 state/report commits are reader-neutral `[skip ci]`; they do not replace the verified reader SHA above.
 
 ## MAIN surface
 
-Run 578 changed **0 MAIN reader-facing files**. The Birthdays delta contained no new public promotion once hard canon and attribution rails were applied. No new MAIN source-verification / Astro / built-output-verification / production-deploy success is claimed for an unchanged reader tree.
+Run 579 changed **0 MAIN reader-facing files**. Erys/Nothien/Nui/YuKanada were compared against MAIN, but no reader mutation was made without completing MAIN's full source-verification → Astro → built-output verification → controlled production deployment gate. Existing richer MAIN publication debt remains recorded as publication debt rather than unread mining.
 
-The staging branch `integrator/mimi-mia-identity-repair-20260907` remains invalid under current canon and must not be promoted.
+No MAIN source-verification, Astro, built-output-verification, or deployment success is claimed for an unchanged reader tree.
+
+## HARD CANON — Mia / Mimi
+
+The controlling canon remains **Mia = Mimi / Miaka / Opalite Honey / `༯`**. Distinct Discord account IDs remain useful account-level provenance; they do **not** create a second public human identity against the explicit lock. The reciprocal Mimi/Momo `twin` language remains playful matching-name peer shorthand, not biological kinship. Account-specific POSTED BY provenance stays backstage while person-level identity follows the hard canon owner.
+
+The temporary WIKI split at `8c7992a05a031e486b30f7243647295482904496` remains invalid and superseded by the safe revert at `d7964ce097627a9135fc9ae32cec443690ca0ab2`.
 
 ## Carried holds / rails
 
-`ulstreamer` / Gabu-chair human owner/operator history remains unresolved. DyingFox's stable-ID conflict remains unresolved. Nothien's stale MAIN he/him repair remains production-gated. Wall q18 retrieval gaps remain open. Oyasumi exact game admission remains open. Richard rename/`cooch` mechanics remain open. Feli has no promoted assigned-quarry material from this pass. `GOODBYE UNDERLORDS` maker/deployment and `IMG_2720` maker/capturer/subjects remain unresolved. Akariel/Zyrcant stays hard-resolved as one person. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain separate, and export-time/current role arrays do not date appointments.
+`ulstreamer` / Gabu-chair human owner/operator history remains unresolved. DyingFox's stable-ID conflict remains unresolved. Nothien's stale MAIN he/him body-copy repair remains production-gated; Run 579 does not silently rewrite MAIN. Wall q18 retrieval gaps remain open. Oyasumi exact game admission remains open. Richard rename/`cooch` mechanics remain open. `GOODBYE UNDERLORDS` maker/deployment and `IMG_2720` maker/capturer/subjects remain unresolved. Akariel/Zyrcant stays hard-resolved as one person. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain separate, and export-time/current role arrays do not date appointments.
