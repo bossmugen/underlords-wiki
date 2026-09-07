@@ -1,14 +1,14 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-07 — Run 591 final close_
+_Last updated: 2026-09-07 — Run 592 stable census_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. `bossmugen/underlords:master` `CANON_LOCKS.md` remains the highest-priority identity/role correction layer and wins over miner-local hypotheses, integration prose, site alias drift, or account-level ambiguity until Mugs explicitly changes it. Earlier detailed run history remains in durable per-run reports; this file is the current operational snapshot.
 
 ## Current census
 
-Mandatory full census: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**. Run 591 closes with **0 newly discovered branches, 0 unread pending-review tails, 8 reviewed `pending_publication` families, 0 backlog, and 0 overdue**.
+Mandatory full census: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**. Run 592 closes with **0 newly discovered branches, 0 unread pending-review tails, 8 reviewed `pending_publication` families, 0 backlog, and 0 overdue**.
 
-Run 591 reviewed two advanced tails. Core Rooms / Events advanced from `4eddd002649a889930db69d194ec426963656203` to `62a0f3a1dc81e533db5a15639b475fc8a5c03089`. A late full-census recheck then caught Daycare advancing from `5e20a9fe1f16bb86e17c62ca7a9d837f0e8df151` to `84007128dbec0072a0b8592bea1d57d002020e79`. Both are now consumed through current head after checkpoint-first, intake-only review.
+Every active miner head still matches its Run 591 consumed frontier. There was therefore no intake delta to review and no consumed SHA moved in Run 592.
 
 Both Club-Only recovery lanes remain current/saturated at `e45fb11c9239e236231bb65645dfd0285bc0078b` and `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`; no raw archive was reopened.
 
@@ -16,27 +16,15 @@ Current major consumed frontiers: Core Rooms / Events `62a0f3a1dc81e533db5a15639
 
 The eight reviewed publication-held families are Backroom, Birthdays / PR / VC, Daycare, Louvre / AI / Athenaeum / Other Games, Meems, Whiskey, QOTD / Officers, and Wall. `pending_publication` means reviewed debt, not unread mining.
 
-## Run 591 — Core Rooms / Events
+## Run 592 — stable census
 
-The Core delta's strongest handoff is Ritha's April 11, 2020 `Tower of God` material: Ritha recommends the series after following the webtoon for years while waiting for an adaptation, then exchanges `HIIII RITHA :d` / `and hiii mugs uwu` with Mugen before the adaptation conversation continues.
+No miner branch advanced beyond the Run 591 consumption boundaries. There was no new lore packet to reconcile, no duplicate family to collapse, no conflict whose state changed, and no accepted finding requiring a reader-source edit on either public surface.
 
-That person/relationship read was already public on both surfaces. MAIN already folds it into Ritha's person-first founder/strategist biography; WIKI already structures it as long-horizon fandom attachment, low-ceremony Mugen familiarity, and a counterweight to résumé-first Battle Leader flattening. Run 591 therefore consumed the Core delta as duplicate/corroboration rather than creating another Episode or prose layer.
-
-`phenomenal_lamb_14960` and Support Tech remain HOLD seeds from recurring photo-submission participation. WOO strict task-help remains OPEN; `📬│photo-submissions` is now a tried route. Ritha lived Battle Leader execution remains OPEN because fandom texture does not supply tactical verbs.
-
-## Run 591 — late Daycare tail
-
-The Daycare suffix materially deepens Baby Lyssa / Ghoulie's March 13, 2021 joining scene. ShiyaX announces `GHOULIE IN UL`, asks `YOU JOINING BB ?`, and Ghoulie answers `I-`, `MAYBE?`, a scream, then later explains `sama is like fuck you you’re joining` and follows it with a dancing emote.
-
-WIKI folds this into Ghoulie's existing long-term mechanism: **mock-resistance is often still participation**. The scene is not treated as a formal admission timestamp. `sama` remains unidentified, ShiyaX's announcement is not an appointment/admission record, and pooled `Deleted User` wording does not settle chronology.
-
-Mërcy's same-tail troubleshooting scene adds a probable small contradiction — self-deprecating wording (`dumb question`, `my memory is plain terrible`) paired with methodical verification through an image, a comparison video, and clean acceptance of Sye's rule-level answer. The packet is banked as a strong low-volume profile seed rather than inflated into a thin one-scene dossier. Attachment ownership remains POSTED BY Mërcy only.
-
-Reader-facing MAIN files changed: **0**. Baby Lyssa's richer MAIN person-first fold remains publication-held because MAIN's controlled source-verification → Astro → built-output verification → production deployment gate was not bypassed.
+Reader-facing MAIN files changed: **0**. Reader-facing WIKI files changed: **0**. No new reader build or deployment is claimed for unchanged reader trees.
 
 ## Latest verified reader
 
-Run 591 WIKI reader SHA **`38d7a16b1f7c5c3f3f7e48fe91df795780960f78`** deepens Baby Lyssa / Ghoulie with the recruitment-pressure / theatrical-resistance arc.
+The latest verified/deployed WIKI reader remains Run 591 SHA **`38d7a16b1f7c5c3f3f7e48fe91df795780960f78`**, which deepens Baby Lyssa / Ghoulie with the recruitment-pressure / theatrical-resistance arc.
 
 Verification on that exact reader SHA succeeded:
 - Build workflow `34129546764`; build job `101766095160`: success.
@@ -67,7 +55,7 @@ Later state/report commits are reader-neutral `[skip ci]` and do not supersede `
 
 ## Current unresolved rabbits
 
-Run 591 closes none of these merely by corroboration:
+Run 592 closes none of these merely because the census is stable:
 - iBwoy inverse-reply topology remains open / retrieval-blocked.
 - Torr q18 remains OPEN / PARTIAL / RETRIEVAL-BLOCKED.
 - ShiyaX account-intruder recurrence remains open.
