@@ -1,8 +1,46 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-06 — Run 553_
+_Last updated: 2026-09-06 — Run 554_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. This file records the WIKI side of the same reconciled evidence system; it does not maintain an independent canon.
+
+## Run 554 — the bot keeps forgetting Kuki; the room increasingly does not
+
+The full miner census resolves to **51 tracked identities = 30 active matching refs + 21 historical/missing refs**, with **0 newly discovered branches**. Exactly one active miner tail was unread at opening: Whiskey longitudinal, reviewed checkpoint-first from `3592be0e1550eb125bc8de1975aaaa1b44cdc8d9` through stable head `cdec6f6a597fbc75c424dcdaef880e87e11e698f`. No raw archive was reopened. Both Club-Only recovery lanes remain saturated/current at `e45fb11c9239e236231bb65645dfd0285bc0078b` and `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`.
+
+Fresh Whiskey material gives **Kuki / Cookie / Juicy Cookie** a clean change-over-time spine: repeated onboarding machinery keeps asking who just arrived while the humans increasingly already know. In the currently located 2020 doorway Kuki answers `yellow` and Mugen still asks `yellow, who u pls`. In 2021 the Bouncer asks again, but Gilli reaches `KUKIII` 12.349 seconds later and `Role assigned bb!` 15.316 seconds after the bot prompt. In 2022 the same form repeats and Sou / Ansun answers with `LMAO WELCOME BACK JUICY LEMME GRAB YOU YOUR ROLES`. The useful contradiction is **administratively recurrent newcomer / socially recognized regular**, with **low self-explanation / high social legibility** as the secondary mechanism. The repeated welcome events establish onboarding thresholds, not why Kuki crossed them again.
+
+The same packet upgrades reaction media from inventory to interaction method. Kuki and user-confirmed pre-hack Rummy sustain several minutes of semantically matched fight-media before Kuki lands on `I'll be back`; this is easy visual sparring / shared reaction grammar, not a claim that every adjacent object is a technical Discord Reply. Concentrated Gura/Hololive-coded media supports likely VTuber familiarity, while bird/chicken reactions and a three-coffee-GIF burst remain Petty Crimes texture rather than creator attribution, favorite ranking, or proof she was literally drinking coffee.
+
+A concurrent WIKI reader commit landed while this run was reviewing the same Whiskey packet: **`0dab3da50cc5fa06d2d11331f30a135795d2bac0`** (`wiki: add Cookie return-and-reaction dossier`). It was re-read and preserved rather than duplicated. `src/data/cast.ts` now gives Kuki a structured Archive Cast owner with the return-memory spine, Gilli and Rummy relationship texture, existing Ren/Tofu texture, scoped quotes, and searchable Petty Crimes/reference material. MAIN keeps the richer future biography fold; WIKI does not mirror MAIN prose.
+
+Verification for exact reader head `0dab3da50cc5fa06d2d11331f30a135795d2bac0`:
+
+- Build workflow `34070883233` — **SUCCESS**; build job `101587872284` — **SUCCESS**.
+- Pages workflow `34070883146` — **SUCCESS**.
+- Pages build/artifact job `101587872464` — **SUCCESS**.
+- Deploy to GitHub Pages job `101587958210` — **SUCCESS**.
+- Pages report job `101587987563` — **SUCCESS**.
+
+MAIN reader source stayed unchanged. MAIN already owns Kuki's hard identity/alias/Staff roster record, but the richer return arc remains publication-held behind MAIN's controlled source-verification → Astro → built-output verification → production deployment gate. No unverifiable MAIN reader mutation or deployment claim was made.
+
+Full dual-surface report: `INTEGRATION_REPORT_RUN_554.md` here and `archive-intake/INTEGRATION_REPORT_RUN_554.md` on MAIN.
+
+## Current controlling queue — Run 554
+
+- **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**.
+- **0 newly discovered, 0 unread pending review, 0 backlog, 0 overdue**.
+- **10 reviewed MAIN publication-held families** remain publication debt only; WIKI does not reinterpret them as unread miner work.
+- QOTD / Officers — consumed through `c51cd1914f65cb8ae65b850b1d0da85ffccb94ed`.
+- Birthdays / PR / VC — consumed through `001b1322cab810a35cd8bf5e4990db3458e2bc94`.
+- Daycare — consumed through `f317c664b5b379d91f0dfa4330f355f8e7168b25`.
+- Mugen person-first — consumed through `ed7b2f616398299edd7c1e4e9c6c1b3ca7f6fbd0`.
+- Whiskey — consumed through `cdec6f6a597fbc75c424dcdaef880e87e11e698f`.
+- Wall — consumed through `c823be66c8ea028ad02092c600f69c3868aa0b0b`.
+- Louvre / AI Art / Athenaeum / Other Games — consumed through `ff056055cb3fdbeba016ed74c280b5b62922b68d`.
+- Core Rooms / Events — consumed through `bb81b4f63e3178e22aa6155593d1cd50735f9ad5`.
+- Club-Only 2021–2026 remains current/saturated at `e45fb11c9239e236231bb65645dfd0285bc0078b`.
+- Club-Only 2020 remains current/saturated at `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`.
 
 ## Run 553 — Ghoulie updates fast; Woohyuk prosecutes fruit
 
