@@ -8,9 +8,9 @@ The MAIN controlling census found one genuinely unread active tail at opening: `
 
 ## Public WIKI owner — Kuki / Cookie
 
-The fresh Whiskey pass supplies a clean change-over-time spine for Kuki: repeated Discord onboarding thresholds keep asking for identification while the people around her increasingly do not need it.
+The fresh Whiskey pass supplies a clean change-over-time spine for Kuki: repeated Discord onboarding thresholds keep asking for identification while the people around him increasingly do not need it.
 
-- In the currently located 2020 doorway, Kuki answers `yellow` and Mugen still asks who she is.
+- In the currently located 2020 doorway, Kuki answers `yellow` and Mugen still asks who he is.
 - In 2021, Bouncer asks again; Gilli is already at `KUKIII` within seconds and `Role assigned bb!` almost immediately after.
 - In 2022, the same form repeats and Sou / Ansun answers with `WELCOME BACK JUICY LEMME GRAB YOU YOUR ROLES`.
 
