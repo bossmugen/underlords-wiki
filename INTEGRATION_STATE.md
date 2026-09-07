@@ -1,20 +1,20 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-07 — Run 565_
+_Last updated: 2026-09-07 — Run 566_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. WIKI uses the same reconciled evidence/canon system; detailed history remains in `INTEGRATION_REPORT_RUN_*.md` here and `archive-intake/INTEGRATION_REPORT_RUN_*.md` on MAIN.
 
-## Run 565 close
+## Run 566 close
 
 Mandatory census: **51 tracked identities = 30 active matching refs + 21 historical/missing refs**. Close state: **0 newly discovered, 0 unread pending review, 0 backlog, 0 overdue**.
 
-All 30 active miner heads exactly match their recorded `last_consumed_sha`. No intake branch advanced during this pass, so no checkpoint/findings/receipts delta required deep review and no consumption frontier moved. Both Club-Only recovery lanes remain current/saturated at `e45fb11c9239e236231bb65645dfd0285bc0078b` and `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`.
+Opening and closing censuses both found all 30 active miner heads exactly equal to their recorded `last_consumed_sha`. No intake branch advanced during this pass, so no checkpoint/findings/receipts delta required deep review and no consumption frontier moved. Both Club-Only recovery lanes remain current/saturated at `e45fb11c9239e236231bb65645dfd0285bc0078b` and `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`.
 
 No genuinely new lore arrived, no duplicate family required another synthesis pass, and no held contradiction changed state.
 
 ## Reader publication
 
-Reader-facing WIKI files changed: **0** in Run 565.
+Reader-facing WIKI files changed: **0** in Run 566.
 
 No Build/Pages deploy was rerun for unchanged reader source. The latest verified reader publication remains exact head **`01e7b25136712278017a3865b938cdf66c454af4`**:
 - Build workflow `34077245518` — **SUCCESS**; build job `101605684640` — **SUCCESS**.
@@ -23,7 +23,7 @@ No Build/Pages deploy was rerun for unchanged reader source. The latest verified
 - Deploy to GitHub Pages job `101605759423` — **SUCCESS**.
 - Pages report job `101605798254` — **SUCCESS**.
 
-MAIN reader-facing files also changed **0** in Run 565. With no reader-source mutation, no MAIN source-verification/Astro/built-output/deployment run was necessary or claimed.
+MAIN reader-facing files also changed **0** in Run 566. With no reader-source mutation, no MAIN source-verification/Astro/built-output/deployment run was necessary or claimed.
 
 ## Current queue
 
@@ -51,4 +51,4 @@ Jumanji remains a hard-canon **Platelet** with a banked scene-bounded one-word s
 
 ## Surface split
 
-No reader publication was made on either surface in Run 565. Existing WIKI and MAIN ownership remains unchanged; richer MAIN-only folds remain behind MAIN's controlled production gate rather than being mirrored from WIKI without verification.
+No reader publication was made on either surface in Run 566. Existing WIKI and MAIN ownership remains unchanged; richer MAIN-only folds remain behind MAIN's controlled production gate rather than being mirrored from WIKI without verification.
