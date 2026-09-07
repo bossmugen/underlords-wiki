@@ -326,6 +326,28 @@ if (!allCharacters.some((character) => character.id === "yukanada")) {
   });
 }
 
+// Run 580 Whiskey tail: the useful braindead contradiction is not generic
+// kindness versus chaos. The same person who types in `GUESS WHAT`, `wahoo`,
+// `yayyyyy` mode is unusually practical about making communication usable.
+if (!allCharacters.some((character) => character.id === "braindead")) {
+  allCharacters.push({
+    id: "braindead",
+    name: "braindead",
+    aliases: ["br4ind34d"],
+    billing: "legacy",
+    role: "Archive-era UL member",
+    era: "2020–2021",
+    logline: "Maker-brain chaos goblin who can spend a project session yelling `GUESS WHAT IM BUILDING` and `yayyyyyyyyyyyyy`, then turn around and post tone tags, offer to change how they communicate, widen the help lane to anyone somebody is comfortable with, and ask for the resource to be pinned.",
+    tags: ["Archive cast", "2020–2021", "Maker brain", "Tone tags", "Sims", "Petty Crimes"],
+    quotes: [
+      "GUESS WHAT IM BUILDING",
+      "uwu just thought it might be helpful if I posted this! they are tone tags!",
+      "nope the only cheats I use is for building we live for the grind",
+      "the suns risiing :Surprisedpikachu:",
+    ],
+  });
+}
+
 export const castGroups = previousGroups.map((group) => ({
   ...group,
   characterIds: [...group.characterIds],
@@ -333,7 +355,7 @@ export const castGroups = previousGroups.map((group) => ({
 
 const archiveCastGroup = castGroups.find((group) => group.id === "archive-cast");
 if (archiveCastGroup) {
-  for (const id of ["nui", "nothing", "yukanada"]) {
+  for (const id of ["nui", "nothing", "yukanada", "braindead"]) {
     if (!archiveCastGroup.characterIds.includes(id)) archiveCastGroup.characterIds.push(id);
   }
 }
