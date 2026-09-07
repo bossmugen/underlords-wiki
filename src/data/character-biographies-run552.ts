@@ -63,5 +63,48 @@ export const run552NarrativeCharacterBios: Record<string, CharacterNarrative> = 
         ]
       }
     ]
+  },
+  eos: {
+    intro: [
+      "Eos is easy to catch and surprisingly hard to embarrass out of a room. Tiny mistakes absolutely land — an open browser tab, mangled phone spelling, whatever fresh misdemeanor the group has noticed — but the usual result is not retreat. Eos owns the local charge, laughs with everybody, and then starts looking for somebody else's exposed flank.",
+      "That makes the older low-word / high-consequence reputation more specific. Eos does not need a long defense to stay socially upright. A few words can admit the problem, preserve the joke, and reopen prosecution in the opposite direction. Embarrassment gets to happen. It just does not get exclusive custody of the conversation."
+    ],
+    sections: [
+      {
+        title: "CAUGHT, OWNS IT, COUNTER-FILES",
+        paragraphs: [
+          "In July 2021, after the room is already laughing, Eos simply says **`forgot i had safari open`**. The line does not try to restore competence or explain the mystery tab into innocence. The mistake has happened; Eos names it; everybody can keep moving.",
+          "December 2022 gives the cleaner version of the same reflex. Rummy drags Eos directly for the spelling — **`@Eos ur SpellINg PFFFF ...`** — and Eos first concedes the immediate disaster with **`IT WORSE ON MAH PHONE`**. Then, 12.505 seconds later: **`but lets not talk about *your* spelling`**. That twelve-second turn is basically the whole mechanism. The charge is accepted just long enough to become ammunition.",
+          "The useful contradiction is not *Eos never gets embarrassed*. The embarrassment plainly exists. Eos is just unusually willing to remain available to the joke after being caught, which lets a self-own become participation instead of social exit."
+        ]
+      },
+      {
+        title: "RUMMY CAN DRAG HER BECAUSE EOS DRAGS BACK",
+        paragraphs: [
+          "Rummy's spelling jab works as relationship texture because Eos does not answer it like an attack from outside the circle. She gives the phone excuse, then immediately turns the same topic back toward Rummy. The exchange reads like reciprocal-roast comfort: both people can use the other's visible failure without needing a peace treaty afterward.",
+          "That sits neatly beside Eos's already-established Marian lane, where affection, screenshot retaliation, joking consequences and compact threats can occupy the same relationship without forcing one emotional register to cancel the others. With Eos, closeness often looks less like softness than confidence that the other person will understand the counter-shot."
+        ]
+      },
+      {
+        title: "SMALL SENTENCES, VERY FAST RECOVERY",
+        paragraphs: [
+          "Eos's surviving social style is economical enough that the pivots matter more than the speeches. **`this is war`**, **`Debating on sending more`**, **`yep.... @Marian Kage cmere`**: the room learns quickly that a short line can contain a decision, a threat, an invitation to continue, or all three at once.",
+          "The Safari and spelling scenes add one more use for that economy. Eos can acknowledge being the idiot without becoming *the idiot* for the rest of the interaction. The correction is small because the social footing is already sturdy enough to hold it."
+        ]
+      },
+      {
+        title: "Petty Crimes",
+        paragraphs: [
+          "Left Safari open long enough for the resulting realization to become public material: **`forgot i had safari open`**. The page itself remains none of our business.",
+          "Entered **the phone did it** as a character witness after Rummy prosecuted the spelling.",
+          "Took 12.505 seconds to turn the spelling case back on Rummy. Extremely poor respect for prosecutorial immunity.",
+          "Can apparently survive being caught without filing for a new identity. Embarrassment has jurisdiction; shame does not have a monopoly."
+        ]
+      }
+    ],
+    closing: [
+      "Eos is not hard to embarrass because nothing lands. Things land. That is what makes the pattern funny. She can get caught, admit the tiny failure, and stay playful enough to notice somebody else's next mistake almost immediately.",
+      "The result is a person whose compactness never reads like disengagement. Eos may only need one sentence to concede the case — and roughly one more to reopen court against you."
+    ]
   }
 };
