@@ -380,6 +380,35 @@ if (!allCharacters.some((character) => character.id === "churro")) {
   });
 }
 
+// Run 584 Daycare + earlier Wall: Booba finally has more than one joke axis.
+// She can drop a receipt almost without prose, but when teasing points at her she
+// performs the wounded defendant for about two seconds before threatening counter-evidence.
+if (!allCharacters.some((character) => character.id === "booba")) {
+  allCharacters.push({
+    id: "booba",
+    name: "Booba",
+    aliases: ["MsThiccy"],
+    billing: "legacy",
+    role: "Archive-era UL member",
+    era: "2022",
+    logline: "Low-volume, high-yield receipt gremlin who can remember one screenshot late, drop it with almost no explanation, then answer being teased herself with `is that what we doin?` and pivot 2.395 seconds later to `Let me go find some screenshots`. Defendant and prosecutor are apparently the same shift.",
+    tags: ["Archive cast", "2022", "Wall", "Daycare", "Screenshot Court", "Receipt dropper", "Petty Crimes"],
+    relationships: [
+      {
+        name: "Gilli",
+        note: "A Wall image Booba drops becomes a seven-person `Fat_Wheeze` pile; old-Gilli then adds a wheeze and `You read me LOL`. The messages are not structurally reply-linked, so the exact screenshot target stays technically unbound, but the no-intervening-message sequence reads as comfortable callout and amused recognition rather than defensive distance.",
+        href: "/characters/gilli",
+      },
+    ],
+    quotes: [
+      "Oh I forgot to share this one",
+      "Ha-ha 🥲.. is that what we doin?",
+      "Ok i see how it is. Let me go find some screenshots 🤔",
+      "Whatever I'm tired of going up...you can have me *sits on the floor*",
+    ],
+  });
+}
+
 export const castGroups = previousGroups.map((group) => ({
   ...group,
   characterIds: [...group.characterIds],
@@ -387,7 +416,7 @@ export const castGroups = previousGroups.map((group) => ({
 
 const archiveCastGroup = castGroups.find((group) => group.id === "archive-cast");
 if (archiveCastGroup) {
-  for (const id of ["nui", "nothing", "yukanada", "braindead", "churro"]) {
+  for (const id of ["nui", "nothing", "yukanada", "braindead", "churro", "booba"]) {
     if (!archiveCastGroup.characterIds.includes(id)) archiveCastGroup.characterIds.push(id);
   }
 }
