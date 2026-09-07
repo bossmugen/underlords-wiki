@@ -348,6 +348,38 @@ if (!allCharacters.some((character) => character.id === "braindead")) {
   });
 }
 
+// Run 580 Daycare late tail: Churro's two Daycare messages make them look nearly
+// absent until same-stable-ID Lobby context shows two different recognition keys.
+// Gilli knows Churro before the form is answered; Ren lights up at Suora afterward.
+if (!allCharacters.some((character) => character.id === "churro")) {
+  allCharacters.push({
+    id: "churro",
+    name: "Churro",
+    aliases: ["Suora", "chursu"],
+    billing: "legacy",
+    role: "Archive-era UL member",
+    era: "2022",
+    logline: "Low-volume Daycare member who is much less socially invisible than the message count suggests: Gilli recognizes `Churro` before the intake fields are filled, Ren recognizes `Suora` afterward, and Churro themselves handle the doorway by clarifying the paperwork first and returning the warmth second.",
+    tags: ["Archive cast", "2022", "Lobby", "Two-name recognition", "Practical first", "Petty Crimes"],
+    relationships: [
+      {
+        name: "Gilli",
+        note: "Before Churro has supplied the requested in-game name, Gilli is already at `CHURRO :EmoJi_omgIly:`. Whatever their earlier history was, the account-facing name is enough for recognition; Churro answers the situation by checking what the intake form actually wants.",
+        href: "/characters/gilli",
+      },
+      {
+        name: "Ren",
+        note: "Once Churro supplies `Suora`, Ren immediately answers `SUORAA!!!!` / `Haiii`; Churro returns `hii!` seconds later and Ren moves straight into getting them set up. The in-game name is a second social key, and the reunion needs almost no explanation.",
+        href: "/characters/ren",
+      },
+    ],
+    quotes: [
+      "main club or alts?",
+      "hii!",
+    ],
+  });
+}
+
 export const castGroups = previousGroups.map((group) => ({
   ...group,
   characterIds: [...group.characterIds],
@@ -355,7 +387,7 @@ export const castGroups = previousGroups.map((group) => ({
 
 const archiveCastGroup = castGroups.find((group) => group.id === "archive-cast");
 if (archiveCastGroup) {
-  for (const id of ["nui", "nothing", "yukanada", "braindead"]) {
+  for (const id of ["nui", "nothing", "yukanada", "braindead", "churro"]) {
     if (!archiveCastGroup.characterIds.includes(id)) archiveCastGroup.characterIds.push(id);
   }
 }
