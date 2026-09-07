@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-07 — Run 602 final close_
+_Last updated: 2026-09-07 — Run 602 final close + canon repair_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN `CANON_LOCKS.md` remains the highest-priority identity/role correction layer and wins over miner-local hypotheses, integration prose, site alias drift, or account-level ambiguity until Mugs explicitly changes it. Detailed run history remains in durable per-run reports; this file is the current operational snapshot.
 
@@ -25,9 +25,9 @@ A separate Daycare exchange sharpens the same person read. When Mugen likes AJ's
 
 The public WIKI owner therefore treats AJ as an artist with loud, warm gratitude rather than as a timestamped archive event. This does not establish AJ's join date or broader membership status.
 
-### Baby Lyssa = Ghoulie
+### Ghoulie / historical Baby Lyssa
 
-Hard user-confirmed identity remains controlling: **Baby Lyssa = Ghoulie**. Run 602 deepens the existing owner instead of spawning a duplicate character.
+Hard user-confirmed identity remains controlling: **Baby Lyssa = Ghoulie**, with **Ghoulie** as the public primary name and Baby Lyssa retained as a historical alias. Run 602 deepens the existing owner instead of spawning a duplicate character.
 
 The useful contradiction is now visible. Ghoulie already has the old Wall / Screenshot Court / running-gag lane; in Daycare, the same person simply notices AJ's art style and says it is wonderful. The line is small, but it gives Ghoulie a direct creative-kindness axis that does not depend on being the defendant in somebody else's joke.
 
@@ -37,36 +37,59 @@ AJ's later `TY GHOULIEEE` makes the pocket reciprocal without turning it into ro
 
 Mugen's creative approval gets a notably affectionate answer from AJ. The relationship note is bounded to **warm expressive gratitude around creative recognition**. It does not claim a formal creative role, a special rank, or a broader relationship tier.
 
+## Run 602 — 11:02 Daycare tail accounting
+
+The newly added `2026-09-07-1102` handoff itself contained a different evidence family from the creative-recognition material published above. The distinction is now durably recorded so consumption does not become source confusion.
+
+### AJ onboarding
+
+Immediately before the thin Daycare shell, AJ notices Mugen's welcome graphic with `That emoji 😳`, then stops on an ambiguous intake field with the smallest possible question: `Club?`. After Mugen explains, AJ answers `I am in a random club lol`, says `I will include that`, completes the requested fields, and tags Mugen.
+
+Accepted read: **procedurally literal, socially casual**. AJ asks for clarification without bluffing or turning uncertainty into drama, then finishes the task. The welcome-emoji detour is Petty Crimes-grade texture rather than a major personality pillar.
+
+This exact onboarding scene was reviewed and consumed through `41659e4b...` but was **not separately published** in Run 602.
+
+### Ghoulie recruitment pile-on
+
+The dated handoff also deepens the March 13 joining/recruitment scene. ShiyaX says `GHOULIE IN UL`, then asks `YOU JOINING BB ?`; Ghoulie answers `I-` / `MAYBE?` / a screaming emoji. After a pooled Deleted User says `welcome`, Ghoulie says `sama is like fuck you you’re joining` and posts a dancing emoji.
+
+Accepted relationship read: **Ghoulie was being actively and affectionately pulled toward UL, and she joined the pressure as a joke while keeping the literal answer open.** Exact in-game admission remains unresolved. `sama` is not safely identified from this scene, and pooled Deleted User `welcome` is not an admission transaction.
+
+This exact recruitment deepener was reviewed and consumed but **not separately published**. It remains banked to Ghoulie's existing owner and the open admission chronology rabbit.
+
 ## Attribution / safety rails applied in Run 602
 
-- The nearby image is **POSTED BY AJ** only. MADE BY / CAPTURED BY / FEATURING remain unresolved.
+- The nearby AJ image is **POSTED BY AJ** only. MADE BY / CAPTURED BY / FEATURING remain unresolved.
 - Final-export reactions do not establish click timing.
 - Earliest surviving Daycare material is not treated as AJ's origin or join date.
-- Ghoulie's authored-message identity is sufficient for this bounded social read even though the current member-list row was not recovered.
+- Ghoulie's authored-message identity is sufficient for the bounded social read even though the current member-list row was not recovered.
 - Sensitive demographic/onboarding source detail remains intentionally excluded from derivative/public copy.
 - Exact parent backfill, `Dragons.audio`, `party-to-remember`, media-occurrence probes, and the sampled high-variance speakers produced no independent A/B uplift; those routes should not be immediately re-run as though untouched.
 
 ## Run 602 publication / verification
 
-Exact verified/deployed WIKI reader SHA: **`96899e44d680180dade47f0b6804e0ce609b5d2c`**.
+The first Run 602 reader publication, `96899e44d680180dade47f0b6804e0ce609b5d2c`, added AJ's structured dossier and deepened the existing Ghoulie owner using previously reviewed Daycare creative-recognition material. A final hard-canon audit then caught two public identity drifts in the runtime overlay stack: Baby Lyssa was still reclaiming Ghoulie's headline, and a stale historical layer still tried to separate Akariel from Zyrcant.
 
-Reader-facing file:
-- `src/data/cast-base.ts`
+Final exact verified/deployed WIKI reader SHA: **`199c7626cde461beed2b47586f398c3bccbe59f7`**.
 
-Public changes:
-- added AJ to Archive / Extended Cast;
-- deepened Baby Lyssa / Ghoulie with the Daycare creative-recognition lane;
-- added AJ ↔ Ghoulie and AJ ↔ Mugen relationship texture and quotes;
-- preserved identity, attribution, reaction-timing, and earliest-surviving rails.
+Reader-facing files present in the final publication path:
+- `src/data/cast-base.ts` — AJ dossier + Ghoulie creative-recognition texture from the first publication;
+- `src/data/hard-canon-run602.ts` — final hard-canon repair layer;
+- `src/data/bio-policy.ts` — loads the repair layer last so stale historical overlays cannot reclaim resolved identity state.
 
-Verification / deployment on the exact reader:
-- Astro Build workflow `34151786981`: **success**.
-- Astro build job `101835413336`: **success**.
-- Pages workflow `34151786948`: **success**.
-- Pages build/artifact job `101835413544`: **success**.
-- Actual Pages deploy job `101835496663`: **success**.
+Final public identity repair:
+- **Ghoulie** is the public primary name; **Baby Lyssa** remains an alias on the same owner.
+- **Akariel / Akariel™ / `akariel_star` = Zyrcant** remains one person; stale separation copy is overridden in the final runtime layer.
 
-Later Run 602 report/state commits are reader-neutral `[skip ci]`; `96899e44...` remains the exact live reader receipt.
+Verification / deployment on exact final reader `199c7626...`:
+- Astro Build workflow `34152243016`: **success**.
+- Astro build job `101836737944`: **success**.
+- Pages workflow `34152243014`: **success**.
+- Pages build/artifact job `101836738273`: **success**.
+- Actual Pages deploy job `101836846876`: **success**.
+- Pages report/status job `101836896385`: **success**.
+
+Later Run 602 report/state commits are reader-neutral `[skip ci]`; `199c7626...` is the exact final live reader receipt.
 
 MAIN reader-facing files changed **0** in Run 602. AJ/Ghoulie now carry accepted richer MAIN-biography material, but no MAIN source-verification / Astro / built-output verification / controlled production deployment is claimed for an unchanged reader tree. Daycare remains `pending_publication` only for that reviewed MAIN debt.
 
@@ -81,9 +104,9 @@ Recent compact WIKI-only owners remain intentionally WIKI-sized at their current
 - Mugen hard identity lock remains controlling.
 - Suzi = Suzimasu = Mob = BAPE = Sushi = `mob_bape`.
 - WOO = Woosung.
-- **Akariel = Zyrcant.** Miner-local corpus uncertainty does not reopen this resolved identity.
+- **Akariel = Zyrcant.** Miner-local corpus uncertainty or stale overlay code does not reopen this resolved identity.
 - Mia = Mimi = Miaka = Opalite Honey = `༯`.
-- Baby Lyssa = Ghoulie.
+- **Ghoulie** is the public primary name; **Baby Lyssa** is a historical alias on the same person.
 - Candy / later `— Luna` is distinct from HyaLuna.
 - NintendoShitcube = Zoshaa.
 - **Rooks = Rookie Cookie = `.poogie.`**; historical aliases stay attached to the one canonical person.
@@ -118,7 +141,7 @@ Recent compact WIKI-only owners remain intentionally WIKI-sized at their current
 - Akariel / Zyrcant q18 stands at 4+/24− across 28/48 trustworthy-classified parents, with 19 unaudited and one sampled retrieval-blocked.
 - ShiyaX account-intruder recurrence remains open.
 - `#PROTECCtheASSETS` / `protectbutt` cross-room/later recurrence remains open.
-- Baby Lyssa / Ghoulie exact UL admission date/person/mechanism remains open; `sama` is unidentified.
+- Ghoulie's exact UL admission date/person/mechanism remains open; `sama` is unidentified.
 - WOO/Nobu screenshot contents remain visually unresolved.
 - RH16 / ~279h broken word-train bot identity remains unresolved; Saber adjacency is not an identity bridge.
 - `ulstreamer` / `Mr. Streamer` human owner history remains unresolved; old/former-Gilli remains probable only, not hard canon.
