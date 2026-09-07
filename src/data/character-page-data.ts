@@ -15,6 +15,7 @@ const narrativeModules = import.meta.glob("./character-biographies*.ts", { eager
 
 const richScore = (path: string): number => {
   const ranking: Array<[RegExp, number]> = [
+    [/character-bios-run581\.ts$/, 1500],
     [/character-bios-run572\.ts$/, 1400],
     [/character-bios-run571\.ts$/, 1300],
     [/character-bios-run39\.ts$/, 1000],
