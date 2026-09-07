@@ -16,17 +16,13 @@ const upsertRelationship = (
   else relationships.push(relationship);
 };
 
-// Run 579: preserve the concurrent Wifman deepener and fold the newer Wall
-// prosecutor/defendant material into the same person. Erys pays attention closely
-// enough to remember old bits, check on people, litigate evidence, and file it.
+// Run 579 Wall tail: Erys's older card already had the escalating alibi stack.
+// The new packet supplies the better contradiction: the defendant who insists the
+// evidence is fake is also perfectly happy to file evidence and summon people into it.
 const erysIndex = allCharacters.findIndex((character) => character.id === "erys");
 if (erysIndex >= 0) {
   const erys = allCharacters[erysIndex];
   const relationships = [...(erys.relationships ?? [])];
-  upsertRelationship(relationships, {
-    name: "Wifman",
-    note: "Their Wall lane has range without needing much setup: Erys remembers an old `CHEESUS IS GOOD FOR THE SOUL` bit well enough to ask why it is being posted again, checks `You okay there? 👀` when Wifman says `I'm fine * eye twitch *`, and later turns `Daddy's Belt` into `Daddy's belt, you say? :LipBite:`. Callback memory, actual concern and innuendo all fit comfortably in the same relationship.",
-  });
   upsertRelationship(relationships, {
     name: "Ren",
     note: "Erys can marvel at Ren's `FASTEST EDITING IN THE SOUTH`, get an `objection` denied with `Denied, it was your own answer`, and also post a receipt before summoning Ren directly into it. Editor, judge and occasional evidence target all fit inside the same easy Wall shorthand.",
@@ -40,9 +36,6 @@ if (erysIndex >= 0) {
 
   const quotes = [...new Set([
     ...(erys.quotes ?? []),
-    "Why'd you post this again :suscry:",
-    "You okay there? 👀",
-    "Daddy's belt, you say? :LipBite:",
     "its photoshopped",
     "im being hacked",
     "no one needs to see the rest mugss",
@@ -50,29 +43,9 @@ if (erysIndex >= 0) {
 
   allCharacters[erysIndex] = {
     ...erys,
-    logline: "Quick to remember an old bit, quick to check whether somebody is actually okay, and equally quick to escalate a Wall defense from `not me` to photoshopped, hacked, objection and hearsay — while filing receipts herself when the chair turns around.",
-    tags: [...new Set([...(erys.tags ?? []), "Wall", "Callback memory", "Check-in reflex", "Mock defense counsel", "Evidence courier", "Petty Crimes"])],
+    logline: "Archive-era Wall litigant whose defenses escalate from `not me` to photoshopped, hacked, objection and hearsay — while the same Erys is perfectly capable of posting a receipt first and summoning somebody into the evidence second.",
+    tags: [...new Set([...(erys.tags ?? []), "Mock defense counsel", "Evidence courier", "Petty Crimes"])],
     relationships,
-    quotes,
-  };
-}
-
-// Run 579: preserve the concurrent Nothien deepener. One reaction can stand in
-// for a speech; when the serious mode does surface, peers notice immediately and
-// then go right back to teasing. Reputation texture, not a governance title.
-const nothienIndex = allCharacters.findIndex((character) => character.id === "nothien");
-if (nothienIndex >= 0) {
-  const nothien = allCharacters[nothienIndex];
-  const quotes = [...new Set([
-    ...(nothien.quotes ?? []),
-    ":NonDebatable:",
-    "This is one of my only messages Im serious",
-  ])];
-
-  allCharacters[nothienIndex] = {
-    ...nothien,
-    logline: "Old-timer returnee with an economical public-chat style: sometimes one reaction is the whole argument, which makes the rare serious message hit harder — and makes Ren's `NOTHIIIII` recognition louder than any administrative label.",
-    tags: [...new Set([...(nothien.tags ?? []), "Economical replies", "Logical King Noth", "Comfortable teasing", "Petty Crimes"])],
     quotes,
   };
 }
@@ -273,9 +246,9 @@ if (woosungIndex >= 0) {
   };
 }
 
-// Run 579: Nui is distinct from Nuien. Two separate 2020 scenes are enough for
-// a compact Archive Cast dossier: logistics or nonsense, Nui's instinct is to
-// turn participation into momentum and get the room moving with it.
+// Run 579 Core tail: Nui is distinct from Nuien. Two separate 2020 scenes are
+// enough for a compact Archive Cast dossier: logistics or nonsense, Nui's instinct
+// is to turn participation into momentum and get the room moving with it.
 if (!allCharacters.some((character) => character.id === "nui")) {
   allCharacters.push({
     id: "nui",
@@ -302,9 +275,9 @@ if (!allCharacters.some((character) => character.id === "nui")) {
   });
 }
 
-// Run 579: `ничего` gets a Wall-shaped profile because the same small mechanism
-// repeats across different people: use the exact reaction object, decline the
-// unnecessary explanation, and remain completely willing to be the punchline.
+// Run 579 Wall tail: `ничего` is a stable account-level public label, not an
+// inferred bridge to somebody else. The profile stays pronoun-neutral while the
+// repeated reaction/banter mechanism is already person-shaped enough to publish.
 if (!allCharacters.some((character) => character.id === "nothing")) {
   allCharacters.push({
     id: "nothing",
@@ -336,9 +309,9 @@ if (!allCharacters.some((character) => character.id === "nothing")) {
   });
 }
 
-// Run 579: YuKanada / Reii is intentionally thin. Four final-state laughter
-// reactions plus one authored sentence are enough for a gallery-profile snippet,
-// not a full personality thesis or any invented reaction timing.
+// Run 579 Wall tail: YuKanada / Reii is intentionally thin. Four final-state
+// laughter reactions plus one authored sentence support a gallery-profile snippet,
+// not a full personality thesis or invented reaction timing.
 if (!allCharacters.some((character) => character.id === "yukanada")) {
   allCharacters.push({
     id: "yukanada",
