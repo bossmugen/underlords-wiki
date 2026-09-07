@@ -31,7 +31,7 @@ The March 5, 2021 doorway stays bounded. Jade first-party identifies **Dragon** 
 
 Plushie asks `What’s this channel for?`; Rookie Cookie explains the Wall; Plushie answers `Okie doki`. Roughly eight and a half minutes after the original question, Plushie is already answering a Snow/room-boundary warning with `Snow u saw nothing UwU`.
 
-The dossier therefore centers a compact mechanism: explicit local-rule curiosity -> very fast playful uptake. Rookie Cookie is a small local-guide / easy-handoff relationship seed, not a recruitment or closeness claim. Plushie's direct creative-room chronology remains retrieval-constrained, and one indexed media post is not converted into one Plushie artwork without attribution.
+The dossier therefore centers a compact mechanism: explicit local-rule curiosity -> very fast playful uptake. Rookie Cookie is a small local-guide / easy-handoff relationship seed, not a recruitment or closeness claim. **Rookie Cookie remains unbridged to Rooks; similar names are not identity evidence.** Plushie's direct creative-room chronology remains retrieval-constrained, and one indexed media post is not converted into one Plushie artwork without attribution.
 
 ### Miihi
 
@@ -44,27 +44,28 @@ Miihi answers quickly enough that Baby Lyssa complains about losing the race. Th
 - Zoshaa gains another scrambled-egg-bunny recurrence: Ren reposts an old screenshot; Ansun complains it has been brought up again and says Zoshaa suffers another week of that label. The image binary remains uninspected, so this stays a probable local callback rather than a pixel-level maker/capturer/subject claim.
 - Hard project canon continues to resolve **NintendoShitcube = Zoshaa** and **Akariel = Zyrcant**. Miner-local corpus caution cannot reopen those resolved identities.
 - Ren's and Zoshaa's respective Wall image posts remain **POSTED BY** only until object-level attribution.
+- A pre-close identity audit caught an unsupported Rookie Cookie -> Rooks link in the first Run 596 WIKI staging pass. That link was removed before final close/deploy verification; Rookie Cookie stays unbridged.
 - Plushie's `The panda is both adorable and dangerous` referent remains unresolved.
 - Jade's exact Prince Caspian actor/referent is not hard-locked from the partial surrounding conversation.
 
 ## Latest verified reader
 
-Run 596 reader SHA: **`1b93dac5f0a0818580447b998bee3097117474cd`**.
+Final Run 596 reader SHA: **`28977edfae3245a91ee2f3af8ef6db069abc1274`**.
 
 Reader material:
 - `src/data/cast-run596-intake.ts`
 - `src/data/character-bios-run596-intake.ts`
 - `src/data/bio-policy.ts`
 
-Verification/deployment on that exact reader SHA:
-- Build workflow `34139470561`: success.
-- Astro build job `101797960706`: success.
-- Pages workflow `34139470677`: success.
-- Pages build/artifact job `101797961186`: success.
-- Actual Pages deploy job `101798177376`: success.
-- Pages report/status job `101798241672`: success.
+Verification/deployment on that exact final reader SHA:
+- Build workflow `34140109345`: success.
+- Astro build job `101799943566`: success.
+- Pages workflow `34140109360`: success.
+- Pages build/artifact job `101799944950`: success.
+- Actual Pages deploy job `101800099062`: success.
+- Pages report/status job `101800159843`: success.
 
-Later Run 596 report/state commits are reader-neutral `[skip ci]` and do not supersede `1b93dac5f0a0818580447b998bee3097117474cd` as the verified deployed reader.
+Later Run 596 report/state commits are reader-neutral `[skip ci]` and do not supersede `28977edfae3245a91ee2f3af8ef6db069abc1274` as the verified deployed reader.
 
 ## MAIN vs WIKI split
 
@@ -88,6 +89,7 @@ No MAIN reader file changed in Run 596, so no fresh MAIN source-verification / A
 - Crystalia uses he/him.
 - WhitePhoenix / Xephy remains distinct from Wolf Phenix.
 - Miihi `253897195290361856` remains distinct from the separate Korea `(Milk)` stable ID.
+- Rookie Cookie remains unbridged to Rooks unless a future hard identity receipt resolves it.
 - Joke-family language is not biological kinship.
 - Joke flirting/romance language is not literal romance or sex without support.
 - Export-time/current role arrays do not date appointments.
