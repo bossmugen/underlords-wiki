@@ -121,7 +121,47 @@ const woohyukCharacter: Character = {
   ],
 };
 
-const supplementalCharacters = [hamitteyCharacter, porgoCharacter, vannessCharacter, darkAsraiCharacter, woohyukCharacter];
+const cookieCharacter: Character = {
+  id: "cookie",
+  name: "Kuki",
+  aliases: ["Cookie", "Juice Box", "Juicy Cookie", "Cookies and Juicebox", "juicy.cookie"],
+  billing: "legacy",
+  role: "Staff",
+  era: "2020–2024+",
+  logline: "Staff, running-panda defendant, and recurring returnee whose Discord paperwork can reset long before the people around him forget who just walked back in.",
+  tags: ["Staff", "Archive cast", "Whiskey", "Wall", "Return", "Visual language", "Petty Crimes"],
+  relationships: [
+    {
+      name: "Gilli",
+      note: "The 2021 doorway is bureaucracy versus human memory in miniature: the bot asks for the form again, while Gilli is already at `KUKIII` and `Role assigned bb!`. The reset looks administrative; her recognition does not.",
+      href: "/characters/gilli",
+    },
+    {
+      name: "Ren",
+      note: "Ren can answer Cookie inside the same Gura/Hololive reaction vocabulary. Cookie's low-prose style is not low-expression when somebody else already speaks the picture language.",
+      href: "/characters/ren",
+    },
+    {
+      name: "Rummy",
+      note: "A 2021 Whiskey sequence turns into several minutes of matched fight-media: attacks, counters, dodges, and Cookie eventually landing on `I'll be back`. Easy visual sparring; not a literal fight or a technical reply graph for every move.",
+      href: "/characters/rummy",
+    },
+    {
+      name: "Tofu",
+      note: "Tofu repeatedly chooses Cookie for prosecution, fake combat, hypothetical danger, or compliments that she immediately repairs by making meaner. Cookie keeps answering in the register instead of leaving it.",
+      href: "/characters/tofu",
+    },
+  ],
+  quotes: [
+    "yellow",
+    "im innocent, not horny",
+    "i wasnt invited",
+    "Man leave the goats alone xD",
+    "unless we talking about Ganyu here",
+  ],
+};
+
+const supplementalCharacters = [hamitteyCharacter, porgoCharacter, vannessCharacter, darkAsraiCharacter, woohyukCharacter, cookieCharacter];
 
 export const allCharacters: Character[] = [...baseCharacters];
 for (const character of supplementalCharacters) {
