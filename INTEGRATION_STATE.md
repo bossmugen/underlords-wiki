@@ -1,55 +1,63 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-07 — Run 582 reconciled close_
+_Last updated: 2026-09-07 — Run 583 reconciled close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` remains the controlling miner-consumption ledger. `bossmugen/underlords:master` `CANON_LOCKS.md` is the highest-priority identity/role correction layer and wins over miner-local hypotheses, integration prose, site alias drift, or account-level ambiguity until Mugs explicitly changes it.
 
 ## Current census
 
-Mandatory full census is **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**. No newly discovered miner branch. Run 582 closes with **0 unread pending-review tails, 9 reviewed `pending_publication` families, 0 backlog, 0 overdue**. Both Club-Only recovery lanes remain current/saturated at `e45fb11c9239e236231bb65645dfd0285bc0078b` and `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`; no raw archive was reopened.
+Mandatory full census remains **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**. No newly discovered miner branch. Run 583 closes with **0 unread pending-review tails, 8 reviewed `pending_publication` families, 0 backlog, 0 overdue** after servicing one publication-debt family. Both Club-Only recovery lanes remain current/saturated at `e45fb11c9239e236231bb65645dfd0285bc0078b` and `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`; no raw archive was reopened.
 
-Run 582 reviewed Core Rooms / Events checkpoint-first from `070e14894b7950a0b9224a2b3f3773f196714f8b` through stable head **`8c5b10227a6a62992c3e898f0669cb7f675d01c3`**. Current major consumed frontiers include Core Rooms / Events `8c5b10227a6a62992c3e898f0669cb7f675d01c3`; Daycare `266fb0d4eda74863e2dc5bcabd04be701c589031`; Birthdays / PR / VC `a66d90814ea333f00022d9c8e8a9b93e9b31ef1e`; Whiskey `e77df7e809e4ff5bf47cadff3fafe6bb9840aa63`; Wall `3bbe9d4043e8972372e0a57827b49a00b1b916cb`; Mugen person-first `5013800cdaaebbccd7b925f0d7ce0849960b9ae8`.
+Opening census had no unread tail. During the run Wall advanced from `3bbe9d4043e8972372e0a57827b49a00b1b916cb` to `c1a23636ee66aa26bcd23f2b5147980746832e61`; Run 583 reviewed that delta checkpoint-first/intake-only under anti-starvation and advanced the controlling consumed frontier through the new head.
 
-## Run 582 — accepted material
+Current major consumed frontiers include Core Rooms / Events `8c5b10227a6a62992c3e898f0669cb7f675d01c3`; Daycare `266fb0d4eda74863e2dc5bcabd04be701c589031`; Birthdays / PR / VC `a66d90814ea333f00022d9c8e8a9b93e9b31ef1e`; Whiskey `e77df7e809e4ff5bf47cadff3fafe6bb9840aa63`; Wall `c1a23636ee66aa26bcd23f2b5147980746832e61`; Mugen person-first `5013800cdaaebbccd7b925f0d7ce0849960b9ae8`.
 
-### Suzi / Mob / BAPE
+## Run 583 — Suzi owner repaired and published
 
-Hard project canon controls identity: **Suzi = Mob = BAPE = mob_bape = Sushi = Suzimasu**. The new Core Rooms / Wall packet therefore deepens Suzi; it must not become a separate Mob/BAPE character.
+Hard project canon controls identity: **Suzi = Suzimasu = Mob = BAPE = Sushi = `mob_bape` = `Mob | BAPE`**. The route key remains `id: suzimasu` for URL stability; the visible canonical owner is now **Suzi**. No second Mob/BAPE dossier exists.
 
-The useful cumulative person read is **competitive self-incrimination plus playful soft landing**. On 2020-09-02 Suzi/Mob says `Trying to win the wall of shame awards`, explicitly participating in the room's embarrassment economy rather than merely being its target. On 2020-10-07 the same ridiculous register moves through `Thick Muggies` / `🤤lmao` into direct Ren reassurance: `Aww it’s okay @RΣN` and `I still wuv you`.
+The WIKI owner now carries the cumulative person read rather than just a founder/streetwear stub: scary first impression collapsing under ordinary exposure, food/smoked-meat behavior, voluntary Wall self-incrimination, and the easy shift into Ren reassurance without leaving the joke register. Structured Ren/Mugen/Tofu relationship texture and bounded quotes now live with the same owner. Founding Circle and founding-episode visible references also use Suzi.
 
-That contradiction is stronger than two incident cards: somebody willing to clown themself in public can also become gently reassuring without abandoning the joke's register. The Ren lane supports easy playful reassurance in that scene, not romance, sex, ranked closeness or body/health canon. The Wall line is a good future `Petty Crimes` seed around competitive self-incrimination; it does not establish a formal award system.
+The core new Wall mechanism remains **competitive self-incrimination + playful soft landing**: `Trying to win the wall of shame awards` belongs to somebody actively volunteering for Screenshot Court; later `Aww it’s okay @RΣN` / `I still wuv you` shows the same ridiculous social register bending toward reassurance when Ren's self-roast goes soft. That is affection/easy peer familiarity, not romance or sex.
 
-WIKI currently still carries the canonical owner at `id: suzimasu` with visible primary name `Suzimasu`. Because hard canon says the public primary identity should be **Suzi**, this run deliberately does **not** create a second Mob/BAPE dossier or append new prose under a stale duplicate identity surface. The accepted material is held for one coordinated owner update/rename so aliases, roles, relationships, running gags and quotes remain attached to one person.
+Exact WIKI reader commit: **`f323605d9db8cc4dcab25e532b3d85467f9eb02d`**.
 
-### WOO / Woosung
+Verification on that reader SHA:
+- Build workflow `34111448216`; Astro build job `101708393564`: **success**.
+- Pages workflow `34111448238`; Pages build/artifact job `101708394346`: **success**.
+- Actual GitHub Pages deploy job `101708515689`: **success**.
+- Pages report/status job `101708583749`: **success**.
 
-The changed packet also reproduces a good Gilli→WOO social-routing lane: Gilli replies `I knew it` to an Xuseio-posted screenshot, separately summons WOO, and WOO answers `NOBU` / `TRAITOR`; a later screenshot gets `nobu` / `why`.
+MAIN did not need mirrored prose: its existing rich `src/content/people/suzimasu.md` already owned the same Wall self-incrimination / Ren reassurance mechanism in person-first form. Core Rooms / Events therefore moves from `pending_publication` to `consumed` in the controlling MAIN ledger.
 
-That is useful lived relationship texture — Gilli appears to know exactly whom to drag into this Nobu-triggered bit — but the current WIKI Woosung dossier already owns this mechanism. Run 582 treats it as duplicate/corroboration rather than creating another paragraph or another person.
+## Run 583 — late Wall anti-starvation review
 
-The screenshots remain **POSTED BY Xuseio** only. Pixels were not inspected; MADE BY / CAPTURED BY / FEATURING stay unresolved. `TRAITOR` remains theatrical joke language, not literal betrayal. WOO's strict task-help rabbit remains open because this is reaction/social-routing material, not `task → WOO help → readable result`.
+Wall advanced while this run was open. The delta `3bbe9d4043e8972372e0a57827b49a00b1b916cb` → `c1a23636ee66aa26bcd23f2b5147980746832e61` was reviewed through changed `archive-intake/*` handoffs only, with `checkpoint.md` first.
 
-## Run 582 — reader state
+### WolfPhenix
 
-WIKI reader-facing files changed: **0**.
+The miner adds a coherent thin Wall texture: Wolf's five surviving authored messages are mostly social punctuation — New Year greeting/cheers, a meme, `XD`, and a double wheeze — while Mugen reports Dean seeing purple and thinking `wolfie`. The useful contradiction is near-silent authored Wall prose versus strong enough recognizability to become abstract shorthand in somebody else's head.
 
-No Astro/Pages build or deployment was rerun because the reader tree did not change. The current verified reader history therefore remains Run 581's deployed Ten state underneath this documentation-only close.
+This did **not** get a duplicate WIKI Episode. MAIN already publicly owns the stronger September 2022 `purple = wolfie` association inside WolfPhenix's richer person biography and explicitly brakes it against favorite-color/personal-brand canon. Wolf q18 closes **0+/5−**.
 
-The Suzi material is intentionally publication-held for a coordinated existing-owner repair, not rejected. WOO/Woosung was already publicly metabolized and therefore not duplicated.
+### Akariel / Zyrcant
+
+Akariel q18 remains **OPEN / PARTIAL — 3+/17− across 20/48 trustworthy-classified; 28 unaudited**. The new value is backstage retrieval forensics: exact-find false zeroes reappeared while semantic retrieval recovered known parent objects, so no new negatives were certified.
+
+A miner-local checkpoint line saying Akariel is not safely Zyrcant is **not propagated**. Hard project canon resolves **Akariel = Zyrcant** and remains controlling. Corpus-local retrieval/account uncertainty cannot split the canonical person.
 
 ## MAIN surface
 
-Run 582 changed **0 MAIN reader-facing files**. The Suzi material belongs eventually in the richer person-first biography/relationship/Petty Crimes owner rather than as a dated receipt appendix. No fresh MAIN source-verification, Astro build, built-output verification or production deployment is claimed for an unchanged reader tree.
+Run 583 changed **0 MAIN reader-facing files**. Suzi's accepted Run-582 material was already live in the richer MAIN biography, and the strongest Wolf tail point was also already represented there. No duplicate receipt prose was appended.
 
-The controlling MAIN ledger consumes Core Rooms / Events through `8c5b10227a6a62992c3e898f0669cb7f675d01c3` and marks the family `pending_publication`, meaning reviewed through that SHA while the coordinated public fold remains release debt.
+No fresh MAIN source-verification, Astro build, built-output verification or production deployment is claimed for an unchanged MAIN reader tree. MAIN changed only integrator state/report bookkeeping with `[skip ci]`.
 
 ## Carried identity / safety rails
 
 - Mugen hard identity lock remains controlling.
-- Suzi = Mob = BAPE = mob_bape = Sushi = Suzimasu; do not create a second Mob/BAPE person.
+- Suzi = Suzimasu = Mob = BAPE = Sushi = `mob_bape` = `Mob | BAPE`; do not create a second Mob/BAPE person.
 - WOO = Woosung.
-- Akariel = Zyrcant.
+- Akariel = Zyrcant; stale/miner-local uncertainty does not reopen this lock.
 - Mia = Mimi = Miaka = Opalite Honey = `༯`; account-level provenance cannot split this person.
 - Ricochet is not Rich / DragonRich.
 - Nui is not Nuien.
@@ -59,6 +67,8 @@ The controlling MAIN ledger consumes Core Rooms / Events through `8c5b10227a6a62
 - Export-time/current role arrays do not date appointments.
 - Earliest surviving evidence is not guaranteed origin.
 - SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct.
+- `purple = wolfie` is reported social shorthand, not favorite-color canon or formal branding.
+- Final-export reactions do not establish click timing.
 
 ## Carried unresolved rabbits
 
@@ -71,14 +81,16 @@ The controlling MAIN ledger consumes Core Rooms / Events through `8c5b10227a6a62
 - WOO/Nobu screenshot contents remain visually unresolved.
 - Ten inverse-reply topology remains partial/retrieval-blocked; a parent that fails to self-recover is not certified negative.
 - Akariel q18 has 28 unaudited parents.
+- Erys/Cele/nothing/YuKanada/Woohyuk/HamitteY and other recorded inverse-reply branches remain open/partial as tracked backstage.
 - `ulstreamer` / Gabu-chair human owner/operator history remains unresolved.
 - DyingFox stable-ID conflict remains unresolved.
 - Nothien's stale MAIN pronoun/body-copy repair remains production-gated.
 - Oyasumi exact in-game admission mechanics remain open.
 - Richard rename / `cooch` mechanics remain open.
 - `GOODBYE UNDERLORDS` maker/deployment and `IMG_2720` maker/capturer/subjects remain unresolved.
+- Wolf's February screenshot remains POSTED BY Mugen only; visual/maker/capturer/subject claims remain unresolved without binary inspection.
 - Wall media uploader provenance remains separate from creator/capturer/subject provenance.
 
-## Prior verified reader history still current underneath Run 582
+## Verified reader history
 
-Run 581 published Ten to WIKI with successful Build and Pages deployments at exact reader commit `d17ffd7d6bc536036d902cbe34f4cf2135260e92`. Run 580 published braindead / br4ind34d and Churro / Suora. Run 579 published Nui, Erys, ничего / novikroeva, and YuKanada / Reii. Run 582 is documentation/consumption state only and does not supersede or revert those reader states.
+Run 583's current verified reader is **`f323605d9db8cc4dcab25e532b3d85467f9eb02d`** (Suzi owner repair), with both Astro Build and GitHub Pages build/deploy/report successful. Run 581 previously published Ten; Run 580 published braindead / br4ind34d and Churro / Suora; Run 579 published Nui, Erys, ничего / novikroeva, and YuKanada / Reii. Later Run-583 state/report commits are reader-neutral bookkeeping and do not supersede the verified reader SHA.
