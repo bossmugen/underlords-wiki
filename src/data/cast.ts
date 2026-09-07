@@ -136,31 +136,28 @@ if (celeIndex >= 0) {
   };
 }
 
-// Run 576: hard project canon already resolves Mimi / Opalite Honey / ༯ to Mia.
-// The Birthdays packet therefore adds relationship texture, not a second person:
-// Mia and Momo turn the matching names into a reciprocal twin bit.
+// Run 577 hard identity repair: exact stable author objects split Mimi / Opalite
+// Honey / `༯` (783389804079349800) from Mia's `.miaxxx / m x` account
+// (439628808545632256). The older alias collapse is therefore unsafe. Remove the
+// Mimi/Momo twin scene, its quotes, and its matching-name tags from Mia rather than
+// inventing a bridge between two Discord IDs. Miaka remains on the Mia file; broader
+// Mimi biography work waits for a clean cross-surface reconciliation of 783389....
 const miaIndex = allCharacters.findIndex((character) => character.id === "mia");
 if (miaIndex >= 0) {
   const mia = allCharacters[miaIndex];
-  const relationships = [...(mia.relationships ?? [])];
-  upsertRelationship(relationships, {
-    name: "Momo",
-    note: "Mia and Momo turn the matching Mimi/Momo names into a reciprocal twin bit: Mia announces `me and momo are twinsss`, Momo calls her `Mimi's twin`, Mia answers `love u twinnn`, and Momo later lands on `you are both Mimi & Momo.` Matching-name affection becomes its own little house shorthand.",
-    href: "/characters/momo",
-  });
-
-  const quotes = [...new Set([
-    ...(mia.quotes ?? []),
-    "me and momo are twinsss",
-    "love u twinnn",
-  ])];
+  const unsafeAliases = new Set(["Mimi", "Opalite Honey", "༯"]);
+  const unsafeQuotes = new Set(["me and momo are twinsss", "love u twinnn"]);
+  const unsafeTags = new Set(["Mimi & Momo", "Twin bit"]);
+  const relationships = (mia.relationships ?? []).filter((relationship) =>
+    !(relationship.name === "Momo" && /twin|Mimi|matching-name/i.test(relationship.note)),
+  );
 
   allCharacters[miaIndex] = {
     ...mia,
-    aliases: [...new Set([...(mia.aliases ?? []), "Mimi", "Miaka", "Opalite Honey", "༯"])],
-    tags: [...new Set([...(mia.tags ?? []), "Mimi & Momo", "Twin bit"])],
+    aliases: [...new Set([...(mia.aliases ?? []).filter((alias) => !unsafeAliases.has(alias)), "Miaka"])],
+    tags: [...new Set([...(mia.tags ?? []).filter((tag) => !unsafeTags.has(tag))])],
     relationships,
-    quotes,
+    quotes: (mia.quotes ?? []).filter((quote) => !unsafeQuotes.has(quote)),
   };
 }
 
