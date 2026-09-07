@@ -40,27 +40,54 @@ if (dainyamiteIndex >= 0) allCharacters[dainyamiteIndex] = dainyamite;
 else allCharacters.push(dainyamite);
 characterById.set(dainyamiteId, dainyamite);
 
-// Kiro's full narrative already owns the petty-filer / self-incriminator axis.
-// The new Wall tail adds one useful structured relationship edge: Sou can leave
-// an affectionate asynchronous breadcrumb and summarize Kiro in four words.
+// Run 615 — Kiro. Hard canon already resolves Gum / HicUUOOOOGH to Kiro and
+// keeps Kiro a retired full Officer (historical Pit Boss / Minister), never a
+// Sniper. The Wall packet adds the lived mechanism: Kiro files evidence, enjoys
+// the pettiness, and then mock-denies even being Kiro once the room recognizes him.
 const kiroIndex = allCharacters.findIndex((character) => character.id === "kiro");
 if (kiroIndex >= 0) {
   const kiro = allCharacters[kiroIndex];
   const relationships = [...(kiro.relationships ?? [])];
-  if (!relationships.some((relationship) => relationship.name === "Ansun")) {
-    relationships.push({
-      name: "Ansun",
-      note: "Sou leaves `Hi kiro if you see this i love you youre so unserious` on the Wall. The `if you see this` makes it an asynchronous breadcrumb rather than a demand for immediate attention; the affection is warm peer language, and `youre so unserious` matches Kiro's own habit of escalating a joke until somebody else can only answer `I-`.",
-      href: "/characters/ansun",
-    });
-  }
 
-  const quotes = [...new Set([...(kiro.quotes ?? []), "N-n-n-no..", "Who's kiro", "Being petty"])]
+  const upsertRelationship = (name: string, note: string, href?: string) => {
+    const index = relationships.findIndex((relationship) => relationship.name === name);
+    const next = href ? { name, note, href } : { name, note };
+    if (index >= 0) relationships[index] = next;
+    else relationships.push(next);
+  };
+
+  upsertRelationship(
+    "Ansun",
+    "Sou leaves `Hi kiro if you see this i love you youre so unserious` on the Wall. The `if you see this` makes it an asynchronous breadcrumb rather than a demand for immediate attention; the affection is easy peer language, and `youre so unserious` fits Kiro's habit of making the case against himself funnier instead of escaping it.",
+    "/characters/ansun",
+  );
+  upsertRelationship(
+    "Daya",
+    "Daya asks whether `HicUUOOOOGH` is Kiro; Kiro answers `N-n-n-no..`, Momo immediately confirms it, and Kiro follows with `Who's kiro`. Daya is recognizing the person through display-name chaos while Kiro turns recognition itself into another denial bit.",
+    "/characters/daya",
+  );
+  upsertRelationship(
+    "Gilli",
+    "Kiro can post an exhibit labeled `Being petty`; Gilli's immediate question is whether Kiro actually got the thing being chased. Kiro's later `No` leaves the evidence-room rhythm intact: the filing mattered enough to post even when the mission apparently failed.",
+    "/characters/gilli",
+  );
+
+  const quotes = [...new Set([
+    ...(kiro.quotes ?? []),
+    "Being petty",
+    "N-n-n-no..",
+    "Who's kiro",
+    "Body = deceased / Wig = still living",
+  ])];
+
   allCharacters[kiroIndex] = {
     ...kiro,
+    role: "retired Officer · former Pit Boss / Minister",
+    logline:
+      "Retired full Officer who can file an exhibit under `Being petty`, enjoy the public evidence game, and then answer recognition with `N-n-n-no..` / `Who's kiro`. Kiro understands Screenshot Court well enough to become both filer and self-incriminator on purpose.",
     relationships,
     quotes,
-    tags: [...new Set([...(kiro.tags ?? []), "Wall", "Petty Crimes", "Self-incrimination"])],
+    tags: [...new Set([...(kiro.tags ?? []), "Wall", "Petty Crimes", "Evidence filer", "Self-incrimination", "Display-name chaos"])],
   };
   characterById.set("kiro", allCharacters[kiroIndex]);
 }
