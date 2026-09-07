@@ -16,10 +16,9 @@ const upsertRelationship = (
   else relationships.push(relationship);
 };
 
-// Run 579: Erys keeps enough old conversational context in reach that a callback
-// can land a year later, but the same lane also shows a direct check-in reflex and
-// an easy willingness to turn the room back toward innuendo. Keep all three modes
-// in one person instead of flattening Erys into either "nice" or "chaos."
+// Run 579: preserve the concurrent Wifman deepener and fold the newer Wall
+// prosecutor/defendant material into the same person. Erys pays attention closely
+// enough to remember old bits, check on people, litigate evidence, and file it.
 const erysIndex = allCharacters.findIndex((character) => character.id === "erys");
 if (erysIndex >= 0) {
   const erys = allCharacters[erysIndex];
@@ -28,28 +27,39 @@ if (erysIndex >= 0) {
     name: "Wifman",
     note: "Their Wall lane has range without needing much setup: Erys remembers an old `CHEESUS IS GOOD FOR THE SOUL` bit well enough to ask why it is being posted again, checks `You okay there? 👀` when Wifman says `I'm fine * eye twitch *`, and later turns `Daddy's Belt` into `Daddy's belt, you say? :LipBite:`. Callback memory, actual concern and innuendo all fit comfortably in the same relationship.",
   });
+  upsertRelationship(relationships, {
+    name: "Ren",
+    note: "Erys can marvel at Ren's `FASTEST EDITING IN THE SOUTH`, get an `objection` denied with `Denied, it was your own answer`, and also post a receipt before summoning Ren directly into it. Editor, judge and occasional evidence target all fit inside the same easy Wall shorthand.",
+    href: "/characters/ren",
+  });
+  upsertRelationship(relationships, {
+    name: "Mugen",
+    note: "When Mugen admits more screenshots exist, Erys tries `good` / `no one needs to see the rest mugss` / `:))`. Mugen posts more anyway and Erys answers with a keyboard smash. Mock evidence-suppression bargaining from somebody who is still very much participating in the case.",
+    href: "/characters/mugen",
+  });
 
   const quotes = [...new Set([
     ...(erys.quotes ?? []),
     "Why'd you post this again :suscry:",
     "You okay there? 👀",
     "Daddy's belt, you say? :LipBite:",
+    "its photoshopped",
+    "im being hacked",
+    "no one needs to see the rest mugss",
   ])];
 
   allCharacters[erysIndex] = {
     ...erys,
-    summary: "Quick to remember an old bit, quick to check whether somebody is actually okay, and equally quick to turn the room back toward innuendo.",
-    details: "Erys does not need a fresh setup every time. With Wifman, an old joke can come back as a puzzled callback, a strained `I'm fine` can get an immediate check-in, and a phrase like `Daddy's Belt` can be seized for exactly the reason everyone knew it would be. The useful through-line is attention: Erys is following the person and the joke closely enough to know when to ask a real question and when to make the situation worse on purpose.",
-    tags: [...new Set([...(erys.tags ?? []), "Wall", "Callback memory", "Check-in reflex", "Petty Crimes"])],
+    logline: "Quick to remember an old bit, quick to check whether somebody is actually okay, and equally quick to escalate a Wall defense from `not me` to photoshopped, hacked, objection and hearsay — while filing receipts herself when the chair turns around.",
+    tags: [...new Set([...(erys.tags ?? []), "Wall", "Callback memory", "Check-in reflex", "Mock defense counsel", "Evidence courier", "Petty Crimes"])],
     relationships,
     quotes,
   };
 }
 
-// Run 579: Nothien's public-chat economy is part of the character. One reaction
-// can stand in for a speech; when the serious mode does surface, peers notice it
-// immediately, then go right back to teasing. That is reputation texture, not a
-// governance title or a claim that Nothien formally mediated anything.
+// Run 579: preserve the concurrent Nothien deepener. One reaction can stand in
+// for a speech; when the serious mode does surface, peers notice immediately and
+// then go right back to teasing. Reputation texture, not a governance title.
 const nothienIndex = allCharacters.findIndex((character) => character.id === "nothien");
 if (nothienIndex >= 0) {
   const nothien = allCharacters[nothienIndex];
@@ -61,8 +71,7 @@ if (nothienIndex >= 0) {
 
   allCharacters[nothienIndex] = {
     ...nothien,
-    summary: "Usually economical in public chat: sometimes one reaction is the whole argument, which makes the rare serious message hit harder.",
-    details: "Nothien can answer agreement with nothing but `:NonDebatable:` and let the reaction do the work. When a genuinely serious take appears, the room is quick to notice — `Logical King Noth` lands as reputation shorthand — and just as quick to return to comfortable ribbing with lines like `if only noth hooped out`. Reserved does not mean socially distant here; the teasing works because nobody has to rebuild the rapport first.",
+    logline: "Old-timer returnee with an economical public-chat style: sometimes one reaction is the whole argument, which makes the rare serious message hit harder — and makes Ren's `NOTHIIIII` recognition louder than any administrative label.",
     tags: [...new Set([...(nothien.tags ?? []), "Economical replies", "Logical King Noth", "Comfortable teasing", "Petty Crimes"])],
     quotes,
   };
@@ -264,10 +273,97 @@ if (woosungIndex >= 0) {
   };
 }
 
+// Run 579: Nui is distinct from Nuien. Two separate 2020 scenes are enough for
+// a compact Archive Cast dossier: logistics or nonsense, Nui's instinct is to
+// turn participation into momentum and get the room moving with it.
+if (!allCharacters.some((character) => character.id === "nui")) {
+  allCharacters.push({
+    id: "nui",
+    name: "Nui",
+    billing: "legacy",
+    role: "Archive-era UL member",
+    era: "2020–",
+    logline: "Momentum-maker who can turn an unresolved limited-slot activity into `TWO SPOTS` → `ONE SPOT` → `SOLD OUT`, then turn `TOIT NUPS` into a five-minute Anthos call-and-response and an emergency-services problem.",
+    tags: ["Archive cast", "2020", "Momentum", "Shared-reference bit", "Petty Crimes"],
+    relationships: [
+      {
+        name: "Anthos",
+        note: "Nui starts `TOIT NUPS`; Anthos mirrors it almost immediately, turns it into an explicit `WHEN I SAY TOIT U SAY` call-and-response, and both keep escalating the Brooklyn Nine-Nine bit into wheezing / send-help language. They can hand the same joke back and forth with almost no explanation; shared-reference ease, not a closeness ranking.",
+        href: "/characters/anthos",
+      },
+    ],
+    quotes: [
+      "Hurry hurry TWO SPOTS KEFT",
+      "ONE SPOT HURRYYYY",
+      "SOLD OUT",
+      "TOIT NUPS",
+      "c a l l a m o l a n c e",
+    ],
+  });
+}
+
+// Run 579: `ничего` gets a Wall-shaped profile because the same small mechanism
+// repeats across different people: use the exact reaction object, decline the
+// unnecessary explanation, and remain completely willing to be the punchline.
+if (!allCharacters.some((character) => character.id === "nothing")) {
+  allCharacters.push({
+    id: "nothing",
+    name: "ничего",
+    aliases: ["novikroeva"],
+    billing: "legacy",
+    role: "Archive-era Wall cast",
+    era: "2023",
+    logline: "Reaction-first Wall sniper who can answer `Why` with a König GIF and `im not answering that lol`, accept `Loser` with `i am`, then answer a height tease and compliment with `I LOVE U I WISH I WAS TALL`.",
+    tags: ["Archive cast", "2023", "Wall", "Reaction-first", "Petty Crimes"],
+    relationships: [
+      {
+        name: "Ryo",
+        note: "Ryo can challenge a crying reaction, ask `Why`, receive a mirrored GIF plus `im not answering that lol`, then call ничего a `Loser`; the answer is simply `i am`. Comfortable challenge and self-own permission, with no need to over-explain the bit.",
+        href: "/characters/ryo",
+      },
+      {
+        name: "Moon",
+        note: "Moon's short-person tease gets `SCRWAMING`; Moon follows with `Your too adorable and pretty uwu`, and ничего answers `I LOVE U I WISH I WAS TALL`. Teasing can turn into reassurance and reciprocal affection in the same breath without becoming a romance filing.",
+        href: "/characters/moon",
+      },
+    ],
+    quotes: [
+      "im not answering that lol",
+      "i am",
+      "SCRWAMING",
+      "I LOVE U I WISH I WAS TALL",
+    ],
+  });
+}
+
+// Run 579: YuKanada / Reii is intentionally thin. Four final-state laughter
+// reactions plus one authored sentence are enough for a gallery-profile snippet,
+// not a full personality thesis or any invented reaction timing.
+if (!allCharacters.some((character) => character.id === "yukanada")) {
+  allCharacters.push({
+    id: "yukanada",
+    name: "YuKanada",
+    aliases: ["Reii", "reiiyukii"],
+    billing: "legacy",
+    role: "Archive-era Wall cast",
+    era: "2022",
+    logline: "Near-silent Wall gallery regular whose surviving footprint is mostly laughter reactions; when the account finally says the experience out loud, it is `Sometimes ya'll kill me here`.",
+    tags: ["Archive cast", "2022", "Wall", "Gallery witness", "Reaction-first"],
+    quotes: ["Sometimes ya'll kill me here"],
+  });
+}
+
 export const castGroups = previousGroups.map((group) => ({
   ...group,
   characterIds: [...group.characterIds],
 }));
+
+const archiveCastGroup = castGroups.find((group) => group.id === "archive-cast");
+if (archiveCastGroup) {
+  for (const id of ["nui", "nothing", "yukanada"]) {
+    if (!archiveCastGroup.characterIds.includes(id)) archiveCastGroup.characterIds.push(id);
+  }
+}
 
 export const characterById = new Map(allCharacters.map((character) => [character.id, character]));
 export const primaryGroupByCharacterId = new Map(
