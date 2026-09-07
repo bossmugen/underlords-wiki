@@ -41,7 +41,7 @@ Reader-facing source files changed:
 
 Verification / deployment on exact reader SHA `5b106346...`:
 - Astro Build workflow `34148549299`: **success**.
-- Astro build job `101826270657`: **success**.
+- Astro build job `101825717654`: **success**.
 - Pages workflow `34148549279`: **success**.
 - Pages build/artifact job `101825717798`: **success**.
 - Actual Pages deploy job `101825822971`: **success**.
