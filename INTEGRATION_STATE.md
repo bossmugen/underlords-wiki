@@ -1,60 +1,61 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-06 — Run 557_
+_Last updated: 2026-09-06 — Run 558_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. This file records the WIKI side of the same reconciled evidence system; it does not maintain an independent canon. Historical run detail is preserved in `INTEGRATION_REPORT_RUN_*.md` on WIKI and `archive-intake/INTEGRATION_REPORT_RUN_*.md` on MAIN.
 
-## Run 557 — Wall / Mr. Streamer provenance-handoff review
+## Run 558 — Ghoulie Wall-reputation deepener + Sara/Mugen review
 
-The mandatory full miner census resolves to **51 tracked identities = 30 active matching refs + 21 historical/missing refs**, with **0 newly discovered branches, 0 unread/advanced active tails at close, 0 backlog, and 0 overdue**.
+The mandatory full miner census closes at **51 tracked identities = 30 active matching refs + 21 historical/missing refs**, with **0 newly discovered branches, 0 unread/advanced active tails, 0 backlog, and 0 overdue**.
 
-One branch advanced after Run 556 and was persisted as `pending_review` in MAIN's controlling ledger before checkpoint-first intake review:
+Three branches advanced beyond the Run-557 consumed frontier and were persisted as `pending_review` in MAIN's controlling ledger before checkpoint-first intake review:
 
-- `archive-miner-wall-hourly-20260824`: `c823be66c8ea028ad02092c600f69c3868aa0b0b` → `e7ef48d0d49394c197593ed7af984e6b154603b8`
+- `archive-miner/daycare-2020-2026-hourly`: `e5859a78e0cae8d1ce63f62286f534209e9c0c50` → `91fa4d4099c7682a314de14bb9ffc56a0eef221e`
+- `archive-miner/louvre-ai-art-athenaeum-other-games-hourly`: `ff056055cb3fdbeba016ed74c280b5b62922b68d` → `cac45f4206e957c7770a388bc0aafa7d6d7a21dc`
+- `archive-miner/mugen-person-first-20260828`: `ed7b2f616398299edd7c1e4e9c6c1b3ca7f6fbd0` → `21dadfb878923d4b0761e262df428e7a157fd84a`
 
-Fresh person texture: Mr. Streamer / `615878920583249920` has exactly three surviving Wall messages, all authored inside 3m46.812s on 2022-10-05: screenshot → `Via @DiStratus(Torr)` → screenshot. Torr later says `XD i'm giving a lot of material with this stream`. The compact human read is **provenance-conscious receipt courier**: almost no prose, but the one surviving sentence names the handoff. Mr. Streamer↔Torr supports a bounded source-handoff / collaborative-filing lane.
+All three were reviewed from changed `archive-intake/*` handoffs only. No raw archive was re-mined. Closing ref checks found the reviewed heads stable.
 
-Attribution stays narrow. The first JPG is POSTED BY Mr. Streamer and explicitly CREDITED/VIA Torr; the second is POSTED BY Mr. Streamer only. CAPTURED BY / MADE BY / FEATURING remain unresolved because no independently inspectable binary surfaced.
+### Reader publication — Ghoulie / Baby Lyssa
 
-Mr. Streamer's complete q18 branch closes NEGATIVE 0+/3−. Ten parent `783996881645371392` remains OPEN / RETRIEVAL-BLOCKED.
+Run 558 deepens the existing Ghoulie dossier instead of creating another incident page. The new person-shaped center is **visibly embarrassed ↔ active keeper/co-author of the evidence**. Ghoulie's Wall embarrassment lands, but she repeatedly stays socially inside the moment: `At this point just name it Ghoulies wall of shame`; Ansun's `outdo me` gets `wanna bet?` and then `SHIII SAY LESS`; she explicitly keeps material in Notes `for later use`; she locally calls the Wall practice `bulli with love`; peers independently turn the Wall into her joking home/address; and Ren's `the Icon we need` exchange eventually reaches Ghoulie's `is this y’all’s way of showing me love???` / `i love y’all too` and Ren's direct `You’re my idol` reply.
 
-WIKI currently has no established Mr. Streamer dossier and Torr remains developing/banked. This packet is strong enough to preserve as a developing person axis and Petty Crimes seed—`entire surviving Wall oeuvre: two screenshots and a citation`—but still too one-axis and three-message-thin for a quota biography. No standalone Episode was created.
+The WIKI fold adds Ren reputation-affection texture, Ansun mutual Wall escalation, the Notes habit, Wall-resident/receipt-keeper tags, and stronger Petty Crimes while preserving the earlier Gilli fast-reaction/correction mechanism. No romance, friendship rank, literal housing/rent, literal idol status, or blanket-consent claim was inferred. Uninspected media remains POSTED BY only; two Louvre media-bearing posts are not automatically two Ghoulie artworks.
 
-No reader-facing MAIN or WIKI source changed. Therefore Run 557 claims **no new MAIN source-verification/Astro/built-output/deployment run and no new WIKI Build/Pages deployment**. The latest verified WIKI reader publication remains Run 554 exact reader head **`0dab3da50cc5fa06d2d11331f30a135795d2bac0`**, whose Build and GitHub Pages deployment already succeeded.
+Exact verified reader head: **`55347115c23a3b26173b8f7498996159a615c034`**.
 
-Full dual-surface report: `INTEGRATION_REPORT_RUN_557.md` here and `archive-intake/INTEGRATION_REPORT_RUN_557.md` on MAIN.
+Verification:
+- Build workflow `34073513168` — **SUCCESS**; build job `101595155170` — **SUCCESS**.
+- Pages workflow `34073513132` — **SUCCESS**.
+- Pages build/artifact job `101595155104` — **SUCCESS**.
+- Deploy to GitHub Pages job `101595237560` — **SUCCESS**.
+- Pages report job `101595273628` — **SUCCESS**.
 
-## Current controlling queue — Run 557
+### Reviewed without reader mutation
+
+**SaraBunny / Daycare:** Sara now has a developing person axis: tiny-rule checking, conscientious notice before a short absence, quiet reception of Ren/Mugen reassurance, an extended `brr` social-norm panic that resolves the second Anayss says she does it too, and later willingness to join communal `Mooo`. Best contradiction: **self-monitoring without social withdrawal**. Strong future Petty Crime: the `brr` standards hearing. Sara remains banked rather than receiving a thin quota biography because direct Daycare characterization is still limited and neither surface has a mature owner.
+
+**Mugen person-first:** the 2021 NightLife public guideline reversal is now promoted backstage as a participant-facing changed-mind mechanism—Mugen can care about structure without defending every structure she authored—but current MAIN already owns the exact scene and broader public read. No duplicate WIKI Episode or Mugen receipt paragraph was created. The cheap rule-reversal rabbit is closed; the expensive changed-mind rabbit remains open for trust, relationship, invested labor, embarrassment, real resistance, or other personal cost.
+
+## Current controlling queue — Run 558
 
 - **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**.
 - **0 newly discovered, 0 unread pending review, 0 backlog, 0 overdue**.
-- **10 reviewed MAIN publication-held families** remain publication debt only; WIKI does not reinterpret them as unread miner work.
+- **10 reviewed MAIN publication-held families** remain release debt only; WIKI does not reinterpret them as unread miner work.
 - QOTD / Officers — consumed through `c51cd1914f65cb8ae65b850b1d0da85ffccb94ed`.
 - Birthdays / PR / VC — consumed through `001b1322cab810a35cd8bf5e4990db3458e2bc94`.
-- Daycare — consumed through `e5859a78e0cae8d1ce63f62286f534209e9c0c50`.
-- Mugen person-first — consumed through `ed7b2f616398299edd7c1e4e9c6c1b3ca7f6fbd0`.
+- Daycare — consumed through `91fa4d4099c7682a314de14bb9ffc56a0eef221e`.
+- Mugen person-first — consumed through `21dadfb878923d4b0761e262df428e7a157fd84a`.
 - Whiskey — consumed through `cdec6f6a597fbc75c424dcdaef880e87e11e698f`.
 - Wall — consumed through `e7ef48d0d49394c197593ed7af984e6b154603b8`.
-- Louvre / AI Art / Athenaeum / Other Games — consumed through `ff056055cb3fdbeba016ed74c280b5b62922b68d`.
+- Louvre / AI Art / Athenaeum / Other Games — consumed through `cac45f4206e957c7770a388bc0aafa7d6d7a21dc`.
 - Core Rooms / Events — consumed through `bb81b4f63e3178e22aa6155593d1cd50735f9ad5`.
 - Club-Only 2021–2026 — current/saturated at `e45fb11c9239e236231bb65645dfd0285bc0078b`.
 - Club-Only 2020 — current/saturated at `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`.
 
-## Latest verified public convergence
-
-Run 554 published Kuki / Cookie / Juicy Cookie's structured WIKI return-and-reaction dossier at exact reader head **`0dab3da50cc5fa06d2d11331f30a135795d2bac0`**. The core contradiction is administratively recurrent newcomer / socially recognized regular: repeated onboarding machinery keeps asking for an introduction while Gilli and later Sou / Ansun increasingly treat Kuki as somebody already known. The same packet adds shared visual-sparring texture with user-confirmed pre-hack Rummy and bounded VTuber/reaction-media Petty Crimes. MAIN keeps the richer future biography fold rather than mirroring WIKI prose.
-
-Verification for `0dab3da50cc5fa06d2d11331f30a135795d2bac0`:
-
-- Build workflow `34070883233` — **SUCCESS**; build job `101587872284` — **SUCCESS**.
-- Pages workflow `34070883146` — **SUCCESS**.
-- Pages build/artifact job `101587872464` — **SUCCESS**.
-- Deploy to GitHub Pages job `101587958210` — **SUCCESS**.
-- Pages report job `101587987563` — **SUCCESS**.
-
 ## Current boundary decisions / carried holds
 
-- Current hard canon resolves **Zyrcant = Akariel / Akariel™ / akariel_star**. Stale miner-local uncertainty cannot reopen it. Run 556 adds only the double-`yay` self-celebration detail.
+- Current hard canon resolves **Zyrcant = Akariel / Akariel™ / akariel_star**. Stale miner-local uncertainty cannot reopen it.
 - DyingFox stable-ID conflict remains unresolved: fresh QOTD `629467952100982784` vs canonical/current `471370475050762251 / dyingfox`.
 - Nothien uses he/him; stale MAIN they/them body references remain a known continuity error awaiting a safe MAIN production-gated repair.
 - Exact Han Media Director appointment remains unresolved; export-time/current role arrays do not date appointments.
@@ -65,8 +66,11 @@ Verification for `0dab3da50cc5fa06d2d11331f30a135795d2bac0`:
 - Jas exact admission / `Absent father` origin remains open.
 - Oyasumi/TankHead94 formal Discord onboarding is solved; exact in-game admission remains open.
 - Queen Shimoko and Booba / MsThiccy remain banked person seeds rather than quota biographies.
-- **Mr. Streamer / `ulstreamer` is now a banked developing person seed**: Wall supports a compact provenance-conscious receipt-courier axis and bounded Torr source-handoff, but not yet a multi-dimensional dossier. The exporter nickname `Mr. Streamer (Gabu's Chair)` does not establish a literal Gabu relationship or role.
+- Mr. Streamer / `ulstreamer` remains a banked developing person seed: provenance-conscious receipt-courier axis and bounded Torr source-handoff, not yet a multi-dimensional dossier. The exporter nickname `Mr. Streamer (Gabu's Chair)` does not establish a literal Gabu relationship or role.
+- **SaraBunny is now a banked developing person seed**: self-monitoring without withdrawal, Ren/Mugen reassurance reception, Anayss peer-normalization, and `brr` Petty Crimes texture. Do not convert this into a diagnosis or claim she originated the `moo` bit.
 - Woosung, ничего / novikroeva, Skully666, Grimlee, Abie, Teri / kinzokumissu, and DiStratus / Torr remain developing/banked people pending enough additional person-shaped texture for the appropriate surface.
+- Ghoulie direct Louvre object classification remains open; current Wall images are POSTED BY only until stronger object-level attribution. Gilli↔Ghoulie exposure remains a rabbit rather than a promoted repeated screenshot-war relationship.
+- Mugen's cheap participant-facing changed-mind rabbit is closed by NightLife; reopen only for higher-cost revision or refusal with personal/relational consequence.
 - Yozora account-access specifics remain privacy/security-sensitive and are not public/site-routed.
 - Jαkie intake-age data remains private and is not surfaced.
 - Exact identity behind the 2023 `279h` word-train bot artifact remains unresolved; event-bot similarity is not an identity bridge.
@@ -75,10 +79,10 @@ Verification for `0dab3da50cc5fa06d2d11331f30a135795d2bac0`:
 - Joke-family, mock-threat, and romance-coded language stay nonliteral without support.
 - SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct.
 
-## Previous run — 556
+## Surface ownership
 
-Run 556 reviewed Daycare from `f317c664b5b379d91f0dfa4330f355f8e7168b25` through `e5859a78e0cae8d1ce63f62286f534209e9c0c50`. Ansun's 2021 Kahoot announcement already-publicly places Zyrcant / Akariel in the top-three group; the same canonical stable account belongs to two distinct `yay` reactions on the winner announcement. MAIN already owns the top-three scene, WIKI has no established Zyrcant dossier, and no thin page was created solely to house the micro-detail. wisp onboarding and Saber's event-alert role were duplicate/corroboration only; exact identity behind the 2023 `279h` word-train artifact remains unresolved.
+Run 558's Ghoulie deepener is intentionally WIKI-only because the existing structured dossier could absorb the relationship and reputation mechanics cleanly. MAIN reader source was unchanged; no mirrored prose was created. Sara remains banked. Mugen was duplicate/backstage synthesis. MAIN's controlling ledger and `archive-intake/INTEGRATION_REPORT_RUN_558.md` own branch consumption and the MAIN-side publication decision.
 
 ## Historical reports
 
-Per-run integration history remains available in the existing `INTEGRATION_REPORT_RUN_*.md` files. Recent public convergence anchors include Run 554 (Kuki / Cookie), Run 553 (Ghoulie + Woohyuk), Run 549 (Yumi + Zoshaa), Run 545 (Zoshaa + porgo!), Run 543 (Rich + Anthos), Run 541 (Miihi), and Run 540 (HamitteY + Anayss). Those reports remain the detailed durable record; this file stays the rolling current-state owner.
+Per-run integration history remains available in the existing `INTEGRATION_REPORT_RUN_*.md` files. Recent public convergence anchors include Run 558 (Ghoulie), Run 554 (Kuki / Cookie), Run 553 (Ghoulie + Woohyuk), Run 549 (Yumi + Zoshaa), Run 545 (Zoshaa + porgo!), Run 543 (Rich + Anthos), Run 541 (Miihi), and Run 540 (HamitteY + Anayss). Those reports remain the detailed durable record; this file stays the rolling current-state owner.
