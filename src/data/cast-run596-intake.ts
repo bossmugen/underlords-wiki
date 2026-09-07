@@ -31,7 +31,8 @@ addIfMissing({
 // familiarity, then starts using the grammar almost immediately. Direct creative-room
 // chronology is still retrieval-constrained, so the public file stays anchored to the
 // Wall acclimation scene rather than inventing an art portfolio from one media post.
-// Rookie Cookie remains unbridged: name similarity is not enough to identify them as Rooks.
+// Current hard canon resolves Rookie Cookie as Rooks; keep the historical alias in-scene
+// while routing the relationship to the one canonical Rooks person.
 addIfMissing({
   id: "plushie",
   name: "Plushie",
@@ -44,8 +45,9 @@ addIfMissing({
   tags: ["Wall", "Creative rooms", "Fast acclimation", "Petty Crimes"],
   relationships: [
     {
-      name: "Rookie Cookie",
-      note: "Rookie Cookie gives Plushie the plain-language Wall explanation, later routes the room toward Whiskey, and Plushie absorbs the local grammar quickly enough to answer from inside the joke. A small guide-to-co-conspirator handoff, not a friendship ranking.",
+      name: "Rooks",
+      note: "Rooks / Rookie Cookie gives Plushie the plain-language Wall explanation, later routes the room toward Whiskey, and Plushie absorbs the local grammar quickly enough to answer from inside the joke. A small guide-to-co-conspirator handoff, not a friendship ranking.",
+      href: "/characters/rooks",
     },
   ],
   quotes: ["What’s this channel for?", "Okie doki", "Snow u saw nothing UwU"],
