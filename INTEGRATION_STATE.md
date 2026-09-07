@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-07 — Run 611 stable census_
+_Last updated: 2026-09-07 — Run 612 close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks remain the highest-priority identity/role correction layer.
 
@@ -8,9 +8,25 @@ MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:ma
 
 Mandatory full census: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**. Closing state: **0 newly discovered branches, 0 unread pending-review tails, 8 reviewed `pending_publication` MAIN families, 0 backlog, and 0 overdue**.
 
-Run 611 found no miner head beyond its recorded consumed frontier. No changed `archive-intake/*` handoff required review, no consumed SHA moved, and neither public reader tree changed. Both Club-Only recovery lanes remain current/saturated at `e45fb11c9239e236231bb65645dfd0285bc0078b` and `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`; neither was churned.
+Both Club-Only recovery lanes remain current/saturated at `e45fb11c9239e236231bb65645dfd0285bc0078b` and `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`; neither was churned.
 
-The latest verified/deployed WIKI reader therefore remains Run 610 SHA **`61b60e64b3281402ea26ff4c9c9f4bc651c9a67e`**.
+## Run 612 — Gabu / Gilli — the height case will not die
+
+Daycare advanced from `28d85eb899568a7e021e392c8fd069275ca835fa` to `8c3d222d32e8f153cc55208bbaf95f6f05fb6b28` and was reviewed checkpoint-first, intake-only. The useful public synthesis is a recurring reciprocal height case rather than a pile of dated receipts: in September 2022 Gabu calls Wolfie giant and Gilli an ant; Gilli true-replies `YOU SPECK OF SAND`; Ren immediately adopts `speck of sand pls`; and Gabu answers `Excuse me! I'm perfect size!`. Gabu reopens the same case in December with `Gilli is shorter!!!!` and again in February 2023 with `GILLI IS SHORTEST`, where Gilli answers with `YOU SHORTCAKE`.
+
+WIKI publishes that as the structured Running Gag **Gilli Is Shortest**. The mechanism matters more than any literal measurement: Gabu is not a passive target of short jokes. She actively counter-files, insists on her own perfect dimensions, and repeatedly tries to transfer jurisdiction to Gilli. No physiological height ranking is inferred.
+
+Exact WIKI reader SHA **`a5c3b45dfc67fe6d57e39cb7ac6891d7b8933a07`** is built and live. `Build Underlords Wiki` workflow `34164102365` succeeded; Astro build job `101872565419` succeeded. Pages workflow `34164102341` succeeded; actual Pages deploy job `101872665707` succeeded.
+
+## Run 612 — SaraBunny — moo, again, correctly not multiplied into a second biography
+
+Wall advanced from `fe3561350b4c7011ae92026fdb6bbe7f5bc4b358` to `e9d8f7acfec43bfb61abeca1f9cfac8b76770476` and was reviewed checkpoint-first, intake-only. The new packet gives more low-verbiage cow/moo participation plus compact greeting/New Year texture for SaraBunny, but it corroborates the WIKI's existing SaraBunny treatment instead of changing the public character read. No extra page or receipt paragraph was created.
+
+The boundary remains important: the recurrence supports SaraBunny being comfortable inside the room's cow-language shorthand; it does not establish that she invented `moo`, and adjacency does not become a closeness ranking. Uninspected media attribution remains uploader-only unless independently resolved.
+
+## MAIN split — Run 612
+
+MAIN reader-facing files changed **0**. Gabu's richer Daycare material is accepted for a future person-first fold rather than mirrored WIKI prose; SaraBunny's Wall packet is corroboration while broader Wall material remains publication-held. No MAIN source-verification/Astro/built-output/deployment run is claimed for an unchanged reader tree.
 
 ## Run 610 — Alkey / Meowk — tiny messages, deliberate timing
 
@@ -41,19 +57,11 @@ A concurrent Run 610 staging layer had attached unrelated older Panda/Alkey mate
 
 ## Publication / verification
 
-Run 610 WIKI reader data is in `src/data/cast-run610-wall.ts`, activated through the existing `src/data/bio-policy.ts` import.
+Latest verified/deployed reader SHA: **`a5c3b45dfc67fe6d57e39cb7ac6891d7b8933a07`**.
 
-Latest verified/deployed reader SHA: **`61b60e64b3281402ea26ff4c9c9f4bc651c9a67e`**.
+- `Build Underlords Wiki` workflow `34164102365`: **success**.
+- Astro build job `101872565419`: **success**.
+- Pages workflow `34164102341`: **success**.
+- Actual Pages deploy job `101872665707`: **success**.
 
-- `Build Underlords Wiki` workflow `34160952817`: **success**.
-- Astro build job `101862522511`: **success**.
-- `Deploy Underlords Wiki Preview` workflow `34160952799`: **success**.
-- Pages build/artifact job `101862522532`: **success**.
-- Actual Pages deploy job `101862620760`: **success**.
-- Pages report/status job `101862657538`: **success**.
-
-Run 611 is documentation/state-only `[skip ci]`; no new build/deploy is claimed for an unchanged reader tree.
-
-## MAIN split
-
-MAIN reader-facing files changed **0** in Run 611. The eight reviewed `pending_publication` families remain publication debt rather than unread mining work. No MAIN source-verification/Astro/built-output/deployment run is claimed for an unchanged reader tree.
+The Run 612 integration-state commit is documentation-only `[skip ci]`; the exact reader SHA above remains the deployed public build.
