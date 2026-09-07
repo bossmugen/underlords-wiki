@@ -96,7 +96,32 @@ const darkAsraiCharacter: Character = {
   ],
 };
 
-const supplementalCharacters = [hamitteyCharacter, porgoCharacter, vannessCharacter, darkAsraiCharacter];
+const woohyukCharacter: Character = {
+  id: "woohyuk",
+  name: "Woohyuk",
+  aliases: ["ash_island"],
+  billing: "legacy",
+  role: "Archive-era UL cast",
+  era: "2020–2021+",
+  logline: "Low-ceremony care on one side, magnificent certainty about stupid things on the other: Woohyuk can tell somebody to please sleep and also prosecute watermelon for being sweet water in a melon costume.",
+  tags: ["Archive cast", "2020", "2021", "Wall", "Petty Crimes"],
+  relationships: [
+    {
+      name: "Lilly",
+      note: "Lilly can puncture Woohyuk's `i am pure` claim on sight, tag him into visual nonsense, and—probably—receive his tiny `please sleep` nudge before answering `Gnight`. Easy teasing and low-ceremony concern; the sleep target is contextual rather than a formal reply edge.",
+      href: "/characters/lilly",
+    },
+  ],
+  quotes: [
+    "yea watermelon is just sweet water",
+    "in a form of a melon",
+    "tryna play us dumb",
+    "please sleep",
+    "i am pure",
+  ],
+};
+
+const supplementalCharacters = [hamitteyCharacter, porgoCharacter, vannessCharacter, darkAsraiCharacter, woohyukCharacter];
 
 export const allCharacters: Character[] = [...baseCharacters];
 for (const character of supplementalCharacters) {
@@ -136,6 +161,37 @@ if (zoshaaIndex >= 0) {
   allCharacters[zoshaaIndex] = {
     ...zoshaa,
     tags: [...new Set([...(zoshaa.tags ?? []), "Wall", "Receipt collector", "Tiny Font, Big Volume", "Petty Crimes"])],
+    relationships,
+    quotes,
+  };
+}
+
+// Ghoulie already has a mature Wall-shaped owner in cast-base. The Daycare
+// longitudinal pass adds a better human mechanism: she can alarm at full speed,
+// accept new context just as fast, and then roast the lens that produced the
+// first read instead of defending it to death.
+const ghoulieIndex = allCharacters.findIndex((character) => character.id === "baby-lyssa");
+if (ghoulieIndex >= 0) {
+  const ghoulie = allCharacters[ghoulieIndex];
+  const relationships = [...(ghoulie.relationships ?? [])];
+  if (!relationships.some((relationship) => relationship.name === "Gilli")) {
+    relationships.push({
+      name: "Gilli",
+      note: "Gilli can trigger Ghoulie's alarm register with one ambiguous receipt and then clarify it without starting a face-saving war: `I-` becomes `GILLI`, then `yes it’s so adorable`, then Ghoulie makes herself the punchline with `when you watch too much gore`. Surprise is loud; correction is easy.",
+      href: "/characters/gilli",
+    });
+  }
+
+  const gilliQuote = "GILLI";
+  const goreQuote = "when you watch too much gore";
+  const quotes = [...(ghoulie.quotes ?? [])];
+  if (!quotes.includes(gilliQuote)) quotes.push(gilliQuote);
+  if (!quotes.includes(goreQuote)) quotes.push(goreQuote);
+
+  allCharacters[ghoulieIndex] = {
+    ...ghoulie,
+    logline: "Wall regular and high-speed reactor whose first response can arrive at emergency volume; the funnier part is how quickly she updates when context changes, then turns the bad first read into a joke on herself.",
+    tags: [...new Set([...(ghoulie.tags ?? []), "Fast-reactive", "Petty Crimes"])],
     relationships,
     quotes,
   };
