@@ -1,8 +1,18 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-06 — Run 558_
+_Last updated: 2026-09-07 — Run 559_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. This file records the WIKI side of the same reconciled evidence system; it does not maintain an independent canon. Historical run detail is preserved in `INTEGRATION_REPORT_RUN_*.md` on WIKI and `archive-intake/INTEGRATION_REPORT_RUN_*.md` on MAIN.
+
+## Run 559 — stable census / no reader mutation
+
+The mandatory full miner census closes at **51 tracked identities = 30 active matching refs + 21 historical/missing refs**, with **0 newly discovered branches, 0 unread/advanced active tails, 0 backlog, and 0 overdue**.
+
+All 30 active miner heads still exactly match the controlling `last_consumed_sha` frontiers from Run 558, so there was no intake delta to deep-review and no raw archive was re-mined. Both Club-Only recovery lanes remain current/saturated at `e45fb11c9239e236231bb65645dfd0285bc0078b` and `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`.
+
+No new lore, duplicate family, identity resolution, rabbit-hole resolution, or public-safe media attribution arrived this run. No consumption SHA moved. The ten reviewed MAIN publication-held families remain release debt only rather than unread miner work.
+
+Reader-facing MAIN files changed **0** and reader-facing WIKI files changed **0**. Because there was no reader-source mutation on either surface, no build or deployment was triggered. The latest verified/deployed WIKI reader remains Run 558 head **`89ad49ac9f5d4ce32d1b9700947fada78af49a96`**.
 
 ## Run 558 — Ghoulie + SaraBunny reader deepeners; Mugen duplicate review
 
@@ -43,7 +53,7 @@ Verification for that exact final reader head:
 
 The 2021 NightLife public guideline reversal is now promoted backstage as a participant-facing changed-mind mechanism—Mugen can care about structure without defending every structure she authored—but current MAIN already owns the exact scene and broader public read. `We hear your concerns...` becomes `SHOOTS ARE NOW OPEN TO ANY LOCATION`, then the room immediately gets `LEGGO STRIPPEEEERS`; acknowledgment becomes action without a prestige-defense detour. No duplicate WIKI Episode or Mugen receipt paragraph was created. The cheap rule-reversal rabbit is closed; the expensive changed-mind rabbit remains open for trust, relationship, invested labor, embarrassment, real resistance, or other personal cost.
 
-## Current controlling queue — Run 558
+## Current controlling queue — Run 559
 
 - **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**.
 - **0 newly discovered, 0 unread pending review, 0 backlog, 0 overdue**.
@@ -87,7 +97,7 @@ The 2021 NightLife public guideline reversal is now promoted backstage as a part
 
 ## Surface ownership
 
-Run 558's Ghoulie and SaraBunny deepeners are intentionally WIKI-only because existing structured dossiers could absorb their relationship/reputation/personality mechanics cleanly. MAIN reader source was unchanged and no mirrored prose was created. Mugen was duplicate/backstage synthesis. MAIN's controlling ledger and `archive-intake/INTEGRATION_REPORT_RUN_558.md` own branch consumption and the MAIN-side publication decision.
+Run 559 made no reader-facing changes on either public surface. The stable census and no-op reconciliation are intentionally bookkeeping-only. Run 558's Ghoulie and SaraBunny deepeners remain WIKI-only because existing structured dossiers could absorb their relationship/reputation/personality mechanics cleanly; MAIN reader source remains unchanged. MAIN's controlling ledger and `archive-intake/INTEGRATION_REPORT_RUN_559.md` own branch consumption state for this pass.
 
 ## Historical reports
 
