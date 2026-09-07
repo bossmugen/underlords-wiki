@@ -17,7 +17,7 @@ export const run552NarrativeCharacterBios: Record<string, CharacterNarrative> = 
         ]
       },
       {
-        title: "REN SAYS HOW; VANNess PRODUCES THE INCIDENT REPORT",
+        title: "REN SAYS HOW; VANNESS PRODUCES THE INCIDENT REPORT",
         paragraphs: [
           "The room answers Vanness's self-filing less like a hostile mob than a table of people watching somebody step on the same rake four times. Gilli replies **`:freezedr:`**. Candy gives him **`Wad00`**. Ren's entire contribution is **`hoW-`**. Vanness is sad enough in the moment to say **`Im too sad to play anymore:Cursed:`**, but the social scene stays incredulous and commiserating rather than punitive.",
           "Hours later Ren's one-word **`hoW-`** is still enough to summon the full postmortem. Vanness true-replies with **`I failed merge 4 times in a row, and the last 2 orange merged into 1:Raja_cat_frustrates:`**, then closes twenty-four seconds later with **`my luck is💩`**. Ren does not need a questionnaire. One syllable and a dash are enough to get the technical failure report.",
