@@ -87,6 +87,83 @@ if (zhenxiIndex >= 0) {
   };
 }
 
+// Run 576: Cele is not just a generic reaction person. Wall peers can predict
+// the judgment before Cele arrives; Cele then improves nonsense with one practical
+// question or dry consequence and is perfectly willing to wheeze when the filing
+// turns around. Keep the judge and the defendant in the same chair.
+const celeIndex = allCharacters.findIndex((character) => character.id === "cele");
+if (celeIndex >= 0) {
+  const cele = allCharacters[celeIndex];
+  const relationships = [...(cele.relationships ?? [])];
+  upsertRelationship(relationships, {
+    name: "Gilli",
+    note: "Gilli can announce `Cue Cel judging right away LMAO` before summoning Cele into cursed Wall material. Cele arrives with a wheeze. The useful thing is the forecast: Gilli already knows the reaction pattern well enough to call it before Cele is in the scene.",
+    href: "/characters/gilli",
+  });
+  upsertRelationship(relationships, {
+    name: "Mugen",
+    note: "Mugen can hand Cele an absurd `left to get milk, gone 2 years` premise and get the practical audit back: `Did u at least buy the milk tho`, then `It probably cheese by now`. The same pair can argue role housekeeping and end in a skull reaction instead of a board meeting.",
+    href: "/characters/mugen",
+  });
+  upsertRelationship(relationships, {
+    name: "New",
+    note: "New can file `Cele on rum`, tag Cele, and get an `I-` that collapses into a wheeze thirteen seconds later. Cele's defense is brief because joining the joke is apparently more interesting than winning the case.",
+    href: "/characters/new",
+  });
+  upsertRelationship(relationships, {
+    name: "Ren",
+    note: "When Ren says the internet may be dying, Cele is on `What happened?` within seconds. It is a tiny check-in, but that speed is the point: the same person known for instant judgment is also instantly paying attention when something might actually be wrong.",
+    href: "/characters/ren",
+  });
+
+  const quotes = [...new Set([
+    ...(cele.quotes ?? []),
+    "What happened?",
+    "I gotta clean the roles here lol",
+    "You guys are dumb lol",
+    "Did u at least buy the milk tho",
+    "It probably cheese by now",
+    "I-",
+    "_(:3 」∠)_ IT LIVES!!!",
+  ])];
+
+  allCharacters[celeIndex] = {
+    ...cele,
+    logline: "Platelet whose admin brain, expected-judge reputation and chaos participation all occupy the same chair: Cele can clean roles, audit a two-year milk premise into cheese, then lose the defense at `I-` when Screenshot Court turns around.",
+    tags: [...new Set([...(cele.tags ?? []), "Wall", "Expected judge", "Dry heightener", "Role housekeeping", "Petty Crimes"])],
+    relationships,
+    quotes,
+  };
+}
+
+// Run 576: hard project canon already resolves Mimi / Opalite Honey / ༯ to Mia.
+// The Birthdays packet therefore adds relationship texture, not a second person:
+// Mia and Momo turn the matching names into a reciprocal twin bit.
+const miaIndex = allCharacters.findIndex((character) => character.id === "mia");
+if (miaIndex >= 0) {
+  const mia = allCharacters[miaIndex];
+  const relationships = [...(mia.relationships ?? [])];
+  upsertRelationship(relationships, {
+    name: "Momo",
+    note: "Mia and Momo turn the matching Mimi/Momo names into a reciprocal twin bit: Mia announces `me and momo are twinsss`, Momo calls her `Mimi's twin`, Mia answers `love u twinnn`, and Momo later lands on `you are both Mimi & Momo.` Matching-name affection becomes its own little house shorthand.",
+    href: "/characters/momo",
+  });
+
+  const quotes = [...new Set([
+    ...(mia.quotes ?? []),
+    "me and momo are twinsss",
+    "love u twinnn",
+  ])];
+
+  allCharacters[miaIndex] = {
+    ...mia,
+    aliases: [...new Set([...(mia.aliases ?? []), "Mimi", "Miaka", "Opalite Honey", "༯"])],
+    tags: [...new Set([...(mia.tags ?? []), "Mimi & Momo", "Twin bit"])],
+    relationships,
+    quotes,
+  };
+}
+
 // Run 575: WOO finally has enough Wall recurrence to be a person rather than a
 // loose handful of reaction lines. Keep the three chairs together: scandalized
 // witness, willing prosecutor, and self-aware repeat defendant.
