@@ -348,9 +348,9 @@ if (!allCharacters.some((character) => character.id === "braindead")) {
   });
 }
 
-// Run 580 Daycare late tail: Churro's two Daycare messages make them look nearly
-// absent until same-stable-ID Lobby context shows two different recognition keys.
-// Gilli knows Churro before the form is answered; Ren lights up at Suora afterward.
+// Run 580 Daycare late tail: same-account Lobby context supplies the human part
+// that the tiny Daycare footprint cannot: two different names, two recognitions,
+// and Churro calmly doing the form in between them.
 if (!allCharacters.some((character) => character.id === "churro")) {
   allCharacters.push({
     id: "churro",
@@ -359,12 +359,12 @@ if (!allCharacters.some((character) => character.id === "churro")) {
     billing: "legacy",
     role: "Archive-era UL member",
     era: "2022",
-    logline: "Low-volume Daycare member who is much less socially invisible than the message count suggests: Gilli recognizes `Churro` before the intake fields are filled, Ren recognizes `Suora` afterward, and Churro themselves handle the doorway by clarifying the paperwork first and returning the warmth second.",
-    tags: ["Archive cast", "2022", "Lobby", "Two-name recognition", "Practical first", "Petty Crimes"],
+    logline: "Quiet on Daycare but apparently very easy to recognize: Gilli clocks `Churro` before the intake fields are filled, Ren lights up at `Suora` afterward, and Churro handles the doorway by clarifying the paperwork first and returning the warmth second.",
+    tags: ["Archive cast", "2022", "Lobby", "Two-name recognition", "Practical first"],
     relationships: [
       {
         name: "Gilli",
-        note: "Before Churro has supplied the requested in-game name, Gilli is already at `CHURRO :EmoJi_omgIly:`. Whatever their earlier history was, the account-facing name is enough for recognition; Churro answers the situation by checking what the intake form actually wants.",
+        note: "Before the in-game name is even supplied, Gilli is already at `CHURRO :EmoJi_omgIly:`. Churro's answer is not a reunion speech; it is `main club or alts?` — recognized first, paperwork immediately afterward.",
         href: "/characters/gilli",
       },
       {
