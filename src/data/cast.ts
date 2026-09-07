@@ -168,6 +168,42 @@ for (const character of supplementalCharacters) {
   if (!allCharacters.some((existing) => existing.id === character.id)) allCharacters.push(character);
 }
 
+// Candy is already a seeded recurring character. The Wall pass gives her a
+// person-shaped mechanism instead of just a bag of emotes: she can make tiny
+// noises do the work of whole reactions, then mirror somebody else's bad luck
+// with one surprised syllable and one crying cat.
+const candyIndex = allCharacters.findIndex((character) => character.id === "candy");
+if (candyIndex >= 0) {
+  const candy = allCharacters[candyIndex];
+  const relationships = [...(candy.relationships ?? [])];
+  if (!relationships.some((relationship) => relationship.name === "Vanness")) {
+    relationships.push({
+      name: "Vanness",
+      note: "When Vanness files himself for losing five orange dracs in a merge, Candy true-replies `Wad00` and follows four seconds later with `:CatCry:`. Surprise turns into sympathy without requiring a speech; she is mirroring the disaster, not piling onto the prosecution.",
+      href: "/characters/vanness",
+    });
+  }
+  if (!relationships.some((relationship) => relationship.name === "YoChan")) {
+    relationships.push({
+      name: "YoChan",
+      note: "YoChan can summon Candy with `oink oink`; Candy remains the sole listed final-state `Opossum_AAAHH` reactor on the post. The export preserves shared teasing shorthand, not the time or order of the reaction click.",
+    });
+  }
+
+  const quotes = [...(candy.quotes ?? [])];
+  for (const quote of ["Wad00", "Wad0.0", "Moo", ":CatCry:"]) {
+    if (!quotes.includes(quote)) quotes.push(quote);
+  }
+
+  allCharacters[candyIndex] = {
+    ...candy,
+    logline: "Tiny authored footprint, very legible social presence: Candy can turn `Wad00`, a crying cat, a sip, or one strategic `Moo` into most of a sentence and still make the room understand exactly which emotional lane she is in.",
+    tags: [...new Set([...(candy.tags ?? []), "Wall", "Reaction-first", "Emote-native", "Petty Crimes"])],
+    relationships,
+    quotes,
+  };
+}
+
 // Zoshaa's long-form biography owns the maker / Orb / Zorb story. Keep later
 // intake structured here: receipt-collector behavior, relationship texture, and
 // the gloriously specific tiny-font / big-volume contradiction.
