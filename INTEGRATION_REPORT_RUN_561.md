@@ -5,7 +5,7 @@ Date: 2026-09-07
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` remains the controlling miner-consumption ledger. Run 561 closed at **51 tracked identities = 30 active matching refs + 21 historical/missing refs**, with **0 newly discovered, 0 unread pending review, 0 backlog, and 0 overdue**.
 
 Reviewed intake frontiers:
-- Birthdays / PR / VC through late-moving final head `1f31b2ebb5fa64c68955e58306e7d3644eca6fa6`.
+- Birthdays / PR / VC through final `e1163860e83fad5231d5b8cf88aea25a4ef285f4`. The final commit was a manifest-only pointer refresh to the already-reviewed 19:28 packet and added no new evidence.
 - Daycare through `c2676fd70132c7a27cc7b83ba55170cef9b688e6`.
 - Louvre / AI Art / Athenaeum / Other Games through `796622a48d3297303e35a42c25aefbe3482a2505`.
 - Mugen person-first through `89a480a61d42e49a7705c20a796c451ba18f6628`.
@@ -31,7 +31,7 @@ Exact-head verification:
 
 ## Reviewed without reader mutation
 
-**Mr. Streamer / `ulstreamer`:** the first suffix directly grounds a 2022 stream-derived Wall relay function with bounded Torr source credit. The late 19:28 suffix then advances provenance: on 2020-11-10 stable `615878920583249920` is contemporaneously bot-labeled **`Gilli#8635`** while separate stable Gilli account `585466495757451284` issues the jail command. By 2021-09-15 authored human chat calls `615878...` `Gabu's chair`; by 2022 the same stable account is functioning as stream-derived media relay. The safe cumulative read is account identity/presentation drift, not solved human ownership. The two stable IDs remain distinct; ownership/transfer/operator, exact rename mechanics, capture authorship and chair-joke origin remain unresolved. No identity merge or literal Gabu relationship was published.
+**Mr. Streamer / `ulstreamer`:** the first suffix directly grounds a 2022 stream-derived Wall relay function with bounded Torr source credit. The later 19:28 suffix advances provenance: on 2020-11-10 stable `615878920583249920` is contemporaneously bot-labeled **`Gilli#8635`** while separate stable Gilli account `585466495757451284` issues the jail command. By 2021-09-15 authored human chat calls `615878...` `Gabu's chair`; by 2022 the same stable account is functioning as stream-derived media relay. The safe cumulative read is account identity/presentation drift, not solved human ownership. The two stable IDs remain distinct; ownership/transfer/operator, exact rename mechanics, capture authorship and chair-joke origin remain unresolved. No identity merge or literal Gabu relationship was published.
 
 **Xephy:** fresh Louvre material independently reinforces the already-public soft-register/pragmatic-QA contradiction. The mature Xephy biography already owns this exact person mechanism, including `uwu~` beside access checks, command testing, sleep-policing, wrong-door apology and return recognition. No duplicate paragraph was added.
 
