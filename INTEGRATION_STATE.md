@@ -1,14 +1,20 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-07 — Run 586 close_
+_Last updated: 2026-09-07 — Run 587 close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` remains the controlling miner-consumption ledger. `bossmugen/underlords:master` `CANON_LOCKS.md` is the highest-priority identity/role correction layer and wins over miner-local hypotheses, integration prose, site alias drift, or account-level ambiguity until Mugs explicitly changes it.
 
 ## Current census
 
-Mandatory full census is **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**. Run 586 closes with **0 newly discovered branches, 0 unread pending-review tails, 8 reviewed `pending_publication` families, 0 backlog, and 0 overdue**. Both Club-Only recovery lanes remain current/saturated at `e45fb11c9239e236231bb65645dfd0285bc0078b` and `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`; no raw archive was reopened.
+Mandatory full census is **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**. Run 587 closes with **0 newly discovered branches, 0 unread pending-review tails, 8 reviewed `pending_publication` families, 0 backlog, and 0 overdue**. Both Club-Only recovery lanes remain current/saturated at `e45fb11c9239e236231bb65645dfd0285bc0078b` and `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`; no raw archive was reopened.
 
 Current major consumed frontiers are Core Rooms / Events `4eddd002649a889930db69d194ec426963656203`; Daycare `5e20a9fe1f16bb86e17c62ca7a9d837f0e8df151`; Birthdays / PR / VC `a66d90814ea333f00022d9c8e8a9b93e9b31ef1e`; Louvre / AI / Athenaeum / Other Games `74873e9f0150f070c467594ef3685379a33f857a`; Whiskey `1eb55fdac39604a16361139adf065af0bb9704f6`; Wall `8c9d19a09438d2beb35be43114f4a765f5540956`; Mugen person-first `5013800cdaaebbccd7b925f0d7ce0849960b9ae8`.
+
+## Run 587 — stable census / no reader mutation
+
+The full miner census was rerun against current remote heads. No active miner branch advanced beyond its recorded consumed frontier, so there was no new checkpoint/findings/receipts delta to review, no consumed SHA to move, and no public lore change to manufacture.
+
+Reader-facing WIKI files changed: **0**. No Astro Build or Pages deployment was warranted for an unchanged reader tree. Run 586's Lilly reader `deff7049fce50179034d65fd8977b54f1e2e478d` remains the latest verified WIKI reader. MAIN reader files also changed 0; the durable dual-surface Run 587 no-change report is `archive-intake/INTEGRATION_PASS_2026-09-07_0457_RUN587.md`.
 
 ## Run 586 — Lilly gets the person-shaped rewrite; three other deltas dedupe cleanly
 
@@ -75,6 +81,8 @@ The more-likely-than-not read is that UL membership was still prospective/undeci
 
 ## MAIN surface
 
+Run 587 changed **0 MAIN reader-facing files**. No MAIN source-verification/Astro/built-output/deployment claim is made for an unchanged reader tree. The eight reviewed publication-debt families remain publication debt rather than unread miner work. The durable Run 587 report is `archive-intake/INTEGRATION_PASS_2026-09-07_0457_RUN587.md`.
+
 Run 586 changed **0 MAIN reader-facing files**. Yumi and Rooks were already ahead on their core mechanisms; Nhou's exact new side-door sequence is already public on WIKI and remains eligible for a distinct richer MAIN fold; Lilly's strongest MAIN FOMO/affection mechanism is already public while wider Whiskey debt remains held. No MAIN source-verification/Astro/built-output/deployment claim is made for an unchanged reader tree. The durable dual-surface Run 586 report is `archive-intake/INTEGRATION_PASS_2026-09-07_0436_RUN586.md`.
 
 Run 585 changed 0 MAIN reader-facing files. Run 584 likewise changed 0 MAIN reader files while Booba's richer biography treatment remained publication-held behind the exact-master release gate.
@@ -123,4 +131,4 @@ Run 585 changed 0 MAIN reader-facing files. Run 584 likewise changed 0 MAIN read
 
 ## Verified reader history
 
-Run 586's current verified reader is **`deff7049fce50179034d65fd8977b54f1e2e478d`** (Lilly person-first lived-social-style rewrite), with Astro Build and GitHub Pages build/deploy/report successful. Run 585 was reader-neutral. Run 584 published Booba / MsThiccy; Run 583 repaired/published Suzi; Run 581 published Ten; Run 580 published braindead / br4ind34d and Churro / Suora; Run 579 published Nui, Erys, ничего / novikroeva, and YuKanada / Reii. Later state/report commits are reader-neutral bookkeeping and do not supersede the verified reader SHA.
+Run 586's current verified reader is **`deff7049fce50179034d65fd8977b54f1e2e478d`** (Lilly person-first lived-social-style rewrite), with Astro Build and GitHub Pages build/deploy/report successful. Run 587 is reader-neutral and does not supersede that reader SHA. Run 585 was reader-neutral. Run 584 published Booba / MsThiccy; Run 583 repaired/published Suzi; Run 581 published Ten; Run 580 published braindead / br4ind34d and Churro / Suora; Run 579 published Nui, Erys, ничего / novikroeva, and YuKanada / Reii. Later state/report commits are reader-neutral bookkeeping and do not supersede the verified reader SHA.
