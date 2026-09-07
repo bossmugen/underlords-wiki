@@ -7,12 +7,12 @@ export const torrCharacter: Character = {
   billing: "legacy",
   role: "Archive-era Underlords cast",
   era: "2022–",
-  logline: "Blunt practical fixer: learns the Wall fast enough to blame Gilli, calls broken systems what they are, and still tends to leave the room with a correction, a usable link, or an honest expectation instead of just the complaint.",
-  tags: ["Archive cast", "Wall", "Daycare", "Gilli", "ShiyaX", "Petty Crimes", "Ordinary life"],
+  logline: "Blunt practical fixer: learns the Wall fast enough to blame Gilli, treats context like something worth litigating, calls broken systems what they are, and has absolutely no patience for light mode or unread red dots.",
+  tags: ["Archive cast", "Wall", "Daycare", "Gilli", "ShiyaX", "Petty Crimes", "Ordinary life", "Dark mode"],
   relationships: [
     {
       name: "Gilli",
-      note: "Torr explicitly links Gilli's presence to context-dangerous messages and blames Gilli as a bad influence on rapid Wall acclimation; influence language, not recruiter or romance canon.",
+      note: "Torr repeatedly links Gilli's presence to context-dangerous wording and eventually blames Gilli's `bad influence` for how often Torr lands on the Wall. It reads as comfortable evidence-room familiarity: mock blame that keeps feeding the bit, not a friendship rank, recruiter story, or romance canon.",
       href: "/characters/gilli",
     },
     {
@@ -23,7 +23,10 @@ export const torrCharacter: Character = {
   ],
   quotes: [
     "that can be taken out of context XD",
+    "why do right so many things that can be taken out of context when Gilli is around",
     "i get on here a lot. i blame Gilli bad influence.",
+    "the light mode is evil",
+    "please mark as read. i hate the red dots almost as much as i hate light mode.",
     "correction",
     "It'll take a few days if you're lucky. It'll take forever if you're not.",
     "Well he isn't that bad.",
