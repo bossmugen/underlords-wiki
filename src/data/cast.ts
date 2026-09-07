@@ -206,10 +206,10 @@ if (zoshaaIndex >= 0) {
   };
 }
 
-// Ghoulie already has a mature Wall-shaped owner in cast-base. The Daycare
-// longitudinal pass adds a better human mechanism: she can alarm at full speed,
-// accept new context just as fast, and then roast the lens that produced the
-// first read instead of defending it to death.
+// Ghoulie already has a mature Wall-shaped owner in cast-base. Later Daycare
+// and Louvre passes deepen the person instead of spawning incident pages: she
+// can react at emergency volume, update without a face-saving war, and turn
+// repeated public embarrassment into a reputation she actively co-authors.
 const ghoulieIndex = allCharacters.findIndex((character) => character.id === "baby-lyssa");
 if (ghoulieIndex >= 0) {
   const ghoulie = allCharacters[ghoulieIndex];
@@ -221,17 +221,36 @@ if (ghoulieIndex >= 0) {
       href: "/characters/gilli",
     });
   }
+  if (!relationships.some((relationship) => relationship.name === "Ren")) {
+    relationships.push({
+      name: "Ren",
+      note: "Ren can publicly frame Ghoulie as `the Icon we need`, tag her into visual Wall material, and answer Ghoulie's `is this y’all’s way of showing me love???` with a direct `You’re my idol`. Ghoulie answers the room with `i love y’all too`; reputation and affection can occupy the same joke without becoming a romance filing.",
+      href: "/characters/ren",
+    });
+  }
+  if (!relationships.some((relationship) => relationship.name === "Ansun")) {
+    relationships.push({
+      name: "Ansun",
+      note: "Ansun can challenge Ghoulie to `outdo me` on the Wall; Ghoulie answers `wanna bet?`, Ansun upgrades it to `our wall of FAME`, and Ghoulie says `SHIII SAY LESS`. Embarrassment becomes shared competitive ownership of the bit, not a formal contest.",
+      href: "/characters/ansun",
+    });
+  }
 
   const gilliQuote = "GILLI";
   const goreQuote = "when you watch too much gore";
+  const wallNameQuote = "At this point just name it Ghoulies wall of shame";
+  const notesQuote = "not me copying and pasting into my notes for later use";
+  const bulliQuote = "it’s bulli with love";
+  const loveQuestionQuote = "is this y’all’s way of showing me love???";
   const quotes = [...(ghoulie.quotes ?? [])];
-  if (!quotes.includes(gilliQuote)) quotes.push(gilliQuote);
-  if (!quotes.includes(goreQuote)) quotes.push(goreQuote);
+  for (const quote of [gilliQuote, goreQuote, wallNameQuote, notesQuote, bulliQuote, loveQuestionQuote]) {
+    if (!quotes.includes(quote)) quotes.push(quote);
+  }
 
   allCharacters[ghoulieIndex] = {
     ...ghoulie,
-    logline: "Wall regular and high-speed reactor whose first response can arrive at emergency volume; the funnier part is how quickly she updates when context changes, then turns the bad first read into a joke on herself.",
-    tags: [...new Set([...(ghoulie.tags ?? []), "Fast-reactive", "Petty Crimes"])],
+    logline: "Wall regular whose embarrassment is real but rarely ejects her from the joke: Ghoulie can cry, argue, claim naming rights, keep notes for later, and eventually ask whether the room's filing is love before loving them back.",
+    tags: [...new Set([...(ghoulie.tags ?? []), "Fast-reactive", "Wall resident", "Receipt keeper", "Petty Crimes"])],
     relationships,
     quotes,
   };
