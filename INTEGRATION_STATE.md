@@ -1,8 +1,16 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-06 — Run 549_
+_Last updated: 2026-09-06 — Run 550_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. This file records the WIKI side of the same reconciled evidence system; it does not maintain an independent canon.
+
+## Run 550 — no-op census
+
+The full miner census was repeated against current remote heads. **All 30 active miner refs are unchanged from the Run 549 closing frontiers.** The controlling queue therefore remains **51 tracked identities = 30 active + 21 historical/missing**, with **0 newly discovered branches, 0 unread/advanced tails, 0 backlog, and 0 overdue**. The ten older MAIN publication-held families remain reviewed publication debt, not unread miner work.
+
+Because no miner handoff advanced, Run 550 did not re-open any intake delta, did not re-mine raw archives, and did not manufacture a review target simply to make the hour look busy. No MAIN or WIKI reader source changed. No build or deployment is claimed for this bookkeeping-only pass. The latest verified WIKI reader remains Run 549 head `722c9846b5272a1b8790f088b06aa386a8c20c7d`, whose Build and GitHub Pages deployment already passed.
+
+No consumption SHA changed. Both Club-Only recovery lanes remain saturated/current at `e45fb11c9239e236231bb65645dfd0285bc0078b` and `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`. Existing hard holds remain untouched, including the DyingFox stable-ID contradiction, banked thin-profile candidates, Nothien's stale MAIN pronoun debt, and the SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING boundaries.
 
 ## Run 549 — Yumi helper brain + Zoshaa tiny-font contradiction
 
@@ -59,7 +67,7 @@ No consumption SHA changed. Current hard holds remain untouched, including the D
 ## Current controlling queue
 
 - **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**.
-- **0 newly discovered, 0 unread pending review, 0 backlog, 0 overdue** at the Run 549 close.
+- **0 newly discovered, 0 unread pending review, 0 backlog, 0 overdue** at the Run 550 close.
 - **10 reviewed MAIN publication-held families** remain publication debt only; WIKI does not reinterpret them as unread miner work.
 - QOTD / Officers — consumed through `c51cd1914f65cb8ae65b850b1d0da85ffccb94ed`.
 - Birthdays / PR / VC — consumed through `001b1322cab810a35cd8bf5e4990db3458e2bc94`.
