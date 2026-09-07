@@ -3,7 +3,7 @@ import type { CharacterNarrative } from "./character-biographies-narrative";
 export const babyLyssaNarrativeCharacterBios: Record<string, CharacterNarrative> = {
   "baby-lyssa": {
     intro: [
-      "Baby Lyssa / Ghoulie has two talents installed remarkably early: welcoming people like a menace and making her own nuisance reputation part of the joke. The same person who can greet a newcomer with `Good morning, welcome to hell.` later panics at Screenshot Court, learns the ritual well enough to stock her own evidence locker, renames the Wall after herself, argues about imaginary rent, and eventually explains the house logic to somebody else.",
+      "Baby Lyssa / Ghoulie has two talents installed remarkably early: welcoming people like a menace and making her own nuisance reputation part of the joke. The same person who can greet a newcomer with `Good morning, welcome to hell.` later gets playfully dragged toward UL while still yelling `MAYBE?`, panics at Screenshot Court, learns the ritual well enough to stock her own evidence locker, renames the Wall after herself, argues about imaginary rent, and eventually explains the house logic to somebody else.",
       "She never has to become cool about any of it. That is the important part. Ghoulie gets more fluent without becoming less Ghoulie: embarrassment still makes her scream, familiarity makes the screaming funnier, and affection often arrives wearing the exact same clown shoes as public humiliation."
     ],
     sections: [
@@ -19,6 +19,14 @@ export const babyLyssaNarrativeCharacterBios: Record<string, CharacterNarrative>
         paragraphs: [
           "A year later, after a quiet stretch, Ghoulie drops a tiny greeting and Mugen answers `We alive again bois`. Cele follows with `U didn’t tell me 👀`. Nobody needs a speech about what Ghoulie has returned to. Her presence is familiar enough that one small noise can be treated like permission for the room to start making noise back.",
           "That does not make Ghoulie the sole engine of anybody's revival. It says something smaller and more personal: people notice when a familiar person reappears, and Ghoulie's return can be greeted as a change in the room's temperature almost immediately."
+        ]
+      },
+      {
+        title: "She gets dragged toward UL while still saying MAYBE?",
+        paragraphs: [
+          "March 13 catches the joining question in exactly the register Ghoulie seems to prefer: nobody is behaving like an admissions office. ShiyaX first announces `GHOULIE IN UL`, then asks `YOU JOINING BB ?`. Ghoulie answers `I-`, then `MAYBE?`, then screams. If the scene stopped there, `MAYBE?` could look like a clean little administrative shrug. It does not stop there.",
+          "Ghoulie eventually explains the social weather herself: `sama is like fuck you you’re joining`, and then immediately drops a dancing emote. That is a much better picture of what the moment feels like. She is being playfully hauled toward UL by people already talking as though resistance is part of the entertainment, and her response is not to leave the room. She screams, narrates the pressure, dances, and keeps participating. The mock escape attempt is part of the interaction.",
+          "That pattern becomes very Ghoulie later. Screenshot Court closes in; she screams and stays. Somebody else joins the pile-on; she goes `GOD DAMNIT YOU TOO??` and remains in the bit. The joining scene is an early version of the same motor: social pressure gets converted into theatrical resistance instead of actual disappearance. The exact formal admission point is still fuzzy; this scene is much better at telling us how being pulled toward UL felt than when any paperwork flipped."
         ]
       },
       {
@@ -66,7 +74,7 @@ export const babyLyssaNarrativeCharacterBios: Record<string, CharacterNarrative>
       }
     ],
     closing: [
-      "Ghoulie's legend works because she never outgrows the reaction. She just learns how many things can be done with it. The scream survives; the jokes become reciprocal; nuisance becomes a fake job title; embarrassment becomes tenancy; and eventually the person once asking why this keeps happening to her is saving material for later and translating the ritual for the next defendant."
+      "Ghoulie's legend works because she never outgrows the reaction. She just learns how many things can be done with it. The scream survives; the jokes become reciprocal; nuisance becomes a fake job title; embarrassment becomes tenancy; and eventually the person once asking why this keeps happening to her is saving material for later and translating the ritual for the next defendant. Even one of her earliest joining scenes runs on the same logic: `MAYBE?` is followed by screaming, a complaint that somebody is basically making her join, and a dance emote. Ghoulie has been turning mock-resistance into participation for a very long time."
     ]
   }
 };
