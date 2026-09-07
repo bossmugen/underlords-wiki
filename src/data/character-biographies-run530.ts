@@ -104,4 +104,4 @@ export const run530CharacterBios: Record<string, CharacterNarrative> = {
   },
 };
 
-export { run536NarrativeCharacterBios } from "./character-biographies-run536";
+export { run552NarrativeCharacterBios } from "./character-biographies-run552";
