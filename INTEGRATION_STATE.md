@@ -1,32 +1,33 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-06 — Run 555_
+_Last updated: 2026-09-06 — Run 556_
 
 MAIN's controlling miner-consumption ledger is `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master`. This file records the WIKI side of the same reconciled evidence system; it does not maintain an independent canon. Historical run detail is preserved in `INTEGRATION_REPORT_RUN_*.md` on WIKI and `archive-intake/INTEGRATION_REPORT_RUN_*.md` on MAIN.
 
-## Run 555 — census-only close
+## Run 556 — Daycare micro-detail review
 
-The mandatory full miner census resolves to **51 tracked identities = 30 active matching refs + 21 historical/missing refs**, with **0 newly discovered branches, 0 unread/advanced active tails, 0 backlog, and 0 overdue**.
+The mandatory full miner census resolves to **51 tracked identities = 30 active matching refs + 21 historical/missing refs**, with **0 newly discovered branches, 0 unread/advanced active tails at close, 0 backlog, and 0 overdue**.
 
-All 30 active miner HEADs are unchanged from the Run 554 consumed frontiers. No raw archive was reopened, no intake delta was re-reviewed just to make the hour look busy, and no consumption SHA changed.
+One branch advanced after Run 555 and was reviewed checkpoint-first and intake-only:
 
-Both Club-Only recovery lanes remain saturated/current:
+- `archive-miner/daycare-2020-2026-hourly`: `f317c664b5b379d91f0dfa4330f355f8e7168b25` → `e5859a78e0cae8d1ce63f62286f534209e9c0c50`
 
-- `archive-miner/club-only-2021-2026-hourly` → `e45fb11c9239e236231bb65645dfd0285bc0078b`
-- `archive-miner-clubonly-2020-hourly` → `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`
+Fresh person texture: Ansun's 2021 Kahoot announcement already-publicly places Zyrcant / Akariel in the top-three group; the same canonical stable account belongs to **two distinct `yay` reactions on the winner announcement**. This supports compact playful self-celebration, not an exact rank, a blanket trivia-expert label, or universal competitiveness.
 
-No reader-facing MAIN or WIKI source changed. Therefore Run 555 claims **no new MAIN source-verification/Astro/built-output/deployment run and no new WIKI Build/Pages deployment**. The latest verified WIKI reader publication remains Run 554 exact reader head **`0dab3da50cc5fa06d2d11331f30a135795d2bac0`**, whose Build and GitHub Pages deployment already succeeded.
+MAIN already owns the top-three scene. WIKI currently has no established Zyrcant dossier, so no thin Cast page was created solely to house one micro-detail. wisp onboarding and Saber's event-alert role are duplicate/corroboration only; exact identity behind the 2023 `279h` word-train artifact remains unresolved.
 
-Full dual-surface report: `INTEGRATION_REPORT_RUN_555.md` here and `archive-intake/INTEGRATION_REPORT_RUN_555.md` on MAIN.
+No reader-facing MAIN or WIKI source changed. Therefore Run 556 claims **no new MAIN source-verification/Astro/built-output/deployment run and no new WIKI Build/Pages deployment**. The latest verified WIKI reader publication remains Run 554 exact reader head **`0dab3da50cc5fa06d2d11331f30a135795d2bac0`**, whose Build and GitHub Pages deployment already succeeded.
 
-## Current controlling queue — Run 555
+Full dual-surface report: `INTEGRATION_REPORT_RUN_556.md` here and `archive-intake/INTEGRATION_REPORT_RUN_556.md` on MAIN.
+
+## Current controlling queue — Run 556
 
 - **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**.
 - **0 newly discovered, 0 unread pending review, 0 backlog, 0 overdue**.
 - **10 reviewed MAIN publication-held families** remain publication debt only; WIKI does not reinterpret them as unread miner work.
 - QOTD / Officers — consumed through `c51cd1914f65cb8ae65b850b1d0da85ffccb94ed`.
 - Birthdays / PR / VC — consumed through `001b1322cab810a35cd8bf5e4990db3458e2bc94`.
-- Daycare — consumed through `f317c664b5b379d91f0dfa4330f355f8e7168b25`.
+- Daycare — consumed through `e5859a78e0cae8d1ce63f62286f534209e9c0c50`.
 - Mugen person-first — consumed through `ed7b2f616398299edd7c1e4e9c6c1b3ca7f6fbd0`.
 - Whiskey — consumed through `cdec6f6a597fbc75c424dcdaef880e87e11e698f`.
 - Wall — consumed through `c823be66c8ea028ad02092c600f69c3868aa0b0b`.
@@ -49,7 +50,7 @@ Verification for `0dab3da50cc5fa06d2d11331f30a135795d2bac0`:
 
 ## Current boundary decisions / carried holds
 
-- Current hard canon resolves **Zyrcant = Akariel / Akariel™ / akariel_star**. Stale miner-local uncertainty cannot reopen it.
+- Current hard canon resolves **Zyrcant = Akariel / Akariel™ / akariel_star**. Stale miner-local uncertainty cannot reopen it. Run 556 adds only the double-`yay` self-celebration detail.
 - DyingFox stable-ID conflict remains unresolved: fresh QOTD `629467952100982784` vs canonical/current `471370475050762251 / dyingfox`.
 - Nothien uses he/him; stale MAIN they/them body references remain a known continuity error awaiting a safe MAIN production-gated repair.
 - Exact Han Media Director appointment remains unresolved; export-time/current role arrays do not date appointments.
@@ -63,10 +64,11 @@ Verification for `0dab3da50cc5fa06d2d11331f30a135795d2bac0`:
 - Woosung, ничего / novikroeva, Skully666, Grimlee, Abie, Teri / kinzokumissu, and DiStratus / Torr remain developing/banked people pending enough additional person-shaped texture for the appropriate surface.
 - Yozora account-access specifics remain privacy/security-sensitive and are not public/site-routed.
 - Jαkie intake-age data remains private and is not surfaced.
+- Exact identity behind the 2023 `279h` word-train bot artifact remains unresolved; event-bot similarity is not an identity bridge.
 - Pooled `Deleted User` stays pooled. Similar names do not bridge identities without stable evidence.
 - Joke-family, mock-threat, and romance-coded language stay nonliteral without support.
 - SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct.
 
 ## Historical reports
 
-Per-run integration history remains available in the existing `INTEGRATION_REPORT_RUN_*.md` files. Recent public convergence anchors include Run 553 (Ghoulie + Woohyuk), Run 549 (Yumi + Zoshaa), Run 545 (Zoshaa + porgo!), Run 543 (Rich + Anthos), Run 541 (Miihi), and Run 540 (HamitteY + Anayss). Those reports remain the detailed durable record; this file stays the rolling current-state owner.
+Per-run integration history remains available in the existing `INTEGRATION_REPORT_RUN_*.md` files. Recent public convergence anchors include Run 554 (Kuki / Cookie), Run 553 (Ghoulie + Woohyuk), Run 549 (Yumi + Zoshaa), Run 545 (Zoshaa + porgo!), Run 543 (Rich + Anthos), Run 541 (Miihi), and Run 540 (HamitteY + Anayss). Those reports remain the detailed durable record; this file stays the rolling current-state owner.
