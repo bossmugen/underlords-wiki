@@ -28,6 +28,8 @@ The 2021-03-05 doorway is fenced correctly: Jade first-party identifies Dragon d
 
 Plushie asks what the Wall is for, accepts Rookie Cookie's explanation with `Okie doki`, and roughly eight and a half minutes later answers a Snow/room-boundary warning with `Snow u saw nothing UwU`. The dossier therefore centers low-ego clarity-seeking -> fast playful uptake, with Rookie Cookie as a small local-guide / easy-handoff relationship seed.
 
+A pre-close identity audit caught an unsupported Rookie Cookie -> Rooks bridge in the first staging pass. It was removed before final reader verification. Rookie Cookie remains unbridged unless a future hard identity receipt resolves the relationship.
+
 The assigned Louvre/Athenaeum creative body remains retrieval-constrained. One indexed media post is not converted into one Plushie artwork without object attribution.
 
 ### Miihi
@@ -41,6 +43,7 @@ The account stays distinct from the separate Korea `(Milk)` stable ID. No identi
 - Zoshaa's scrambled-egg-bunny callback gains another recurrence, but the image binary remains uninspected. WIKI does not convert a probable local referent into pixel-level maker/capturer/subject claims.
 - Hard project canon continues to resolve **NintendoShitcube = Zoshaa** and **Akariel = Zyrcant**, overriding miner-local corpus caution.
 - Ren's and Zoshaa's respective Wall image posts remain **POSTED BY** records only until object-level attribution.
+- Rookie Cookie remains distinct/unresolved relative to Rooks; no similarity-based identity bridge is published.
 - Plushie's panda referent remains unresolved.
 - Jade's exact Prince Caspian actor/referent is not hard-locked from the partial surrounding conversation.
 
@@ -51,14 +54,14 @@ Reader material:
 - `src/data/character-bios-run596-intake.ts`
 - `src/data/bio-policy.ts`
 
-Exact verified reader SHA: **`1b93dac5f0a0818580447b998bee3097117474cd`**.
+Final exact verified reader SHA: **`28977edfae3245a91ee2f3af8ef6db069abc1274`**.
 
-Verification/deployment:
-- Build workflow `34139470561`: **success**.
-- Astro build job `101797960706`: **success**.
-- Pages workflow `34139470677`: **success**.
-- Pages build/artifact job `101797961186`: **success**.
-- Actual Pages deploy job `101798177376`: **success**.
-- Pages report/status job `101798241672`: **success**.
+Verification/deployment on that exact final reader:
+- Build workflow `34140109345`: **success**.
+- Astro build job `101799943566`: **success**.
+- Pages workflow `34140109360`: **success**.
+- Pages build/artifact job `101799944950`: **success**.
+- Actual Pages deploy job `101800099062`: **success**.
+- Pages report/status job `101800159843`: **success**.
 
 The WIKI publication is intentionally structured dossier/reference prose. MAIN reader files were not changed this run; richer distinct MAIN folds remain publication-held rather than copied from these pages.
