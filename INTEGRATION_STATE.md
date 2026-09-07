@@ -1,28 +1,63 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-07 — Run 600 stable census_
+_Last updated: 2026-09-07 — Run 601_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. `bossmugen/underlords:master` `CANON_LOCKS.md` remains the highest-priority identity/role correction layer and wins over miner-local hypotheses, integration prose, site alias drift, or account-level ambiguity until Mugs explicitly changes it. Earlier detailed run history remains in durable per-run reports; this file is the current operational snapshot.
 
 ## Current census
 
-Mandatory full census: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**. Run 600 closes at **0 newly discovered branches, 0 unread pending-review tails, 8 reviewed `pending_publication` MAIN families, 0 backlog, and 0 overdue**.
+Mandatory full census: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**. Run 601 closes at **0 newly discovered branches, 0 unread pending-review tails, 8 reviewed `pending_publication` MAIN families, 0 backlog, and 0 overdue**.
 
-Every active miner ref still exactly matches the Run 599 consumed frontier. There was therefore no legitimate new intake delta to review in Run 600, no raw archive was re-mined, and no consumed SHA moved. Both Club-Only recovery lanes remain current/saturated at `e45fb11c9239e236231bb65645dfd0285bc0078b` and `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`.
+Two miner refs advanced and were reviewed checkpoint-first/intake-only: Daycare `84007128dbec0072a0b8592bea1d57d002020e79` → **`ac17d1227d7814c67225462a4d6834821b32653b`** and Wall `28d9b71778a33a40f4e1bd395fb8b9e64f405184` → **`2fd97d3291d2d7cfca425ff93538ecb8fec6c6d6`**. Both consumed cursors now advance through those heads after successful review and WIKI verification. Final reviewed-head recheck was stable. Both Club-Only recovery lanes remain current/saturated at `e45fb11c9239e236231bb65645dfd0285bc0078b` and `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`; neither was churned.
 
 The eight reviewed publication-held MAIN families remain Backroom, Birthdays / PR / VC, Daycare, Louvre / AI / Athenaeum / Other Games, Meems, Whiskey, QOTD / Officers, and Wall. `pending_publication` means reviewed debt, not unread mining.
 
+## Run 601 — Akuma + Yochan
+
+### Akuma
+
+Daycare now gives Akuma (`sebno6720`, stable ID `505072964900880390`) a compact but coherent public shape. Akuma writes `@Mugs @Gilli enter vc fellow newbies`, putting all three people on the same newcomer rung, then about eighteen seconds later escalates the ordinary VC invite into `Or else I quit... permanently`.
+
+The useful contradiction is social confidence without invented seniority. Akuma does not posture as Staff, recruiter, or veteran; the whole joke starts by calling themself a fellow newbie. The mock-resignation works because the leverage is transparently self-invented and the invitation is still peer social behavior. This is sufficient for a compact searchable WIKI dossier, not enough for a rich MAIN biography without padding.
+
+The same Daycare delta contains `Mr. Streamer` / `nerimity` material with miner-local identity speculation. That account remains **identity-unresolved**. It was not bridged to Gilli, and sensitive/private source wording was not published.
+
+### Yochan
+
+Wall gives Yochan (`foxkanojo`, `YｏＣｈａｎ9`, stable ID `669219936985956371`) a repeated filing style: attachment + tiny caption. `Another shame`, `Hunter spotted`, a lone 🤔, and `That person is gonna be on it everyday 👀` all do the same social work with almost no prose. Yochan posts the exhibit, classifies the offense, and trusts the room to understand the rest.
+
+The public read is **media-first, low-verbiage Screenshot Court participation with high social legibility**. It does not establish Yochan as the Wall's inventor/origin or totalize the person from one channel. The attachments remain **POSTED BY Yochan only**; maker, capturer, and featured subjects were not independently inspected. Yochan's q18 inverse-reply topology remains unresolved/open.
+
+Yochan is also intentionally WIKI-only at this boundary: several coherent Wall filings make the person searchable and recognizable, but they do not yet sustain the richer MAIN person-first treatment without filler.
+
+## Run 601 public publication
+
+Exact verified/deployed WIKI reader SHA: **`5b10634630bd05939fb18a1b214d99fb4fcfd5f6`**.
+
+Reader-facing source files changed:
+- `src/data/cast-run601-intake.ts` — registers compact Akuma and Yochan cast owners.
+- `src/data/character-bios-run601-intake.ts` — adds person-first dossier overlays with relationship/quote/context boundaries.
+- `src/data/bio-policy.ts` — registers the Run 601 cast module.
+
+Verification / deployment on exact reader SHA `5b106346...`:
+- Astro Build workflow `34148549299`: **success**.
+- Astro build job `101826270657`: **success**.
+- Pages workflow `34148549279`: **success**.
+- Pages build/artifact job `101825717798`: **success**.
+- Actual Pages deploy job `101825822971`: **success**.
+- Pages report/status job `101825863492`: **success**.
+
+MAIN reader-facing files changed **0** in Run 601. Akuma and Yochan remain WIKI-sized at this boundary; MAIN's richer Daycare and Wall publication debt remains reviewed and held. No fresh MAIN source-verification / Astro / built-output verification / production deployment is claimed for an unchanged reader tree.
+
 ## Run 600 — stable census / no reader mutation
 
-No miner branch advanced beyond its consumed SHA. No new lore, duplicate evidence family, identity correction, attribution change, conflict resolution, or rabbit-hole movement arrived after Run 599.
+No miner branch advanced beyond its consumed SHA during Run 600. No new lore, duplicate evidence family, identity correction, attribution change, conflict resolution, or rabbit-hole movement arrived after Run 599.
 
-Reader-facing WIKI files changed **0**. Latest verified/deployed WIKI reader remains Run 598 SHA **`e064f7a6661af20e2d0320cbd3187e1469fa1e3b`**. Because Run 600 changed only integration-state/report documentation, no fresh Astro build or Pages deployment is claimed.
+Reader-facing WIKI files changed **0** in Run 600. The then-latest verified/deployed WIKI reader was Run 598 SHA `e064f7a6661af20e2d0320cbd3187e1469fa1e3b`. MAIN reader-facing files also changed **0**. No fresh builds/deployments were claimed for unchanged reader trees.
 
-MAIN reader-facing files also changed **0**. No fresh MAIN source-verification / Astro / built-output verification / production deployment is claimed for an unchanged reader tree.
+## Run 598 — previous verified reader publication
 
-## Run 598 — latest verified reader publication
-
-Final verified/deployed WIKI reader SHA: **`e064f7a6661af20e2d0320cbd3187e1469fa1e3b`**.
+Previous verified/deployed WIKI reader SHA: **`e064f7a6661af20e2d0320cbd3187e1469fa1e3b`**.
 
 Reader-facing changes in that ancestry:
 - `src/data/cast-run596-intake.ts` — repaired Plushie's historical `Rookie Cookie` relationship to canonical **Rooks**.
@@ -40,7 +75,7 @@ Verification / deployment on exact reader SHA `e064f7a...`:
 - Actual Pages deploy job `101815536327`: **success**.
 - Pages report/status job `101815583573`: **success**.
 
-## Latest public person integration
+## Recent public person integration still controlling
 
 ### BishopThaGuru
 
@@ -48,42 +83,39 @@ Bishop's Wall reputation is funny because everybody else can name the danger and
 
 The same rhythm repeats when Tofu says anything involving Bishop is bound for the Wall. Bishop asks whether that is `a compliment, or a warning?`; Tofu answers `Both`. Bishop then turns being watched into another joke about personal attention instead of leaving the bit. By July he is posting his own disputed screenshot and announcing `Time to find my gloves 🥊🥊`. The useful contradiction is not simply defendant versus prosecutor: Bishop is a **self-aware Wall magnet who enjoys the courtroom enough to co-author the case**.
 
-Tofu↔Bishop stays bounded to comfortable repeat heckling, dry reassurance, and shared Wall literacy. Joke-love, `like me?`, and sex-wordplay remain jokes unless stronger support changes that. Bishop is intentionally **WIKI-only** at this boundary: several coherent Wall scenes make him searchable and recognizable, but they do not yet justify a rich MAIN biography without padding.
+Tofu↔Bishop stays bounded to comfortable repeat heckling, dry reassurance, and shared Wall literacy. Joke-love, `like me?`, and sex-wordplay remain jokes unless stronger support changes that. Bishop remains intentionally **WIKI-only** at this boundary.
 
 ### Julian
 
 Julian's April 16, 2020 Lobby entrance remains a compact WIKI dossier rather than a padded MAIN biography. The social mechanism is the contradiction: an entrance delivered like the Lobby handed over a microphone — `HEY GIRLIES! ... wanna get to know yall! muah` — followed by Gilli giving practical server navigation and Julian answering `period period, noted`. The camp register survives contact with useful instructions. Direct welcomes from Ren and Mugen receive warm reciprocal thanks.
 
-The public read is **performative entrance + socially eager + theatrically expressive but practically receptive**. It does not establish a closeness ranking or totalize Julian's whole personality from one doorway. `ya girl fenty` remains performed wording, not an identity alias. A sensitive demographic self-report in the source remains intentionally redacted and unpublished. `video0.mp4` remains POSTED BY Julian only; its pixels were not inspected.
+The public read is **performative entrance + socially eager + theatrically expressive but practically receptive**. It does not establish a closeness ranking or totalize Julian's whole personality from one doorway. `ya girl fenty` remains performed wording, not an identity alias. A sensitive demographic self-report in the source remains intentionally redacted and unpublished. `video0.mp4` remains POSTED BY Julian only; its pixels were not inspected. Julian remains intentionally **WIKI-only** at this boundary.
 
-Julian is intentionally **WIKI-only** at this boundary: one strong doorway scene is enough to make a person searchable and recognizable, not enough to sustain a rich MAIN biography without filler.
-
-## Run 598 reconciliation / duplicates
+## Recent reconciliation / duplicate controls
 
 ### Louvre — identity correction before publication
 
-The miner handoff called stable account `459696170759880745` `Rich` while also carrying `dragonrichard` / Ricochet. Hard project canon controls: **Ricochet / `dragonrichard` is a separate person from Rich / DragonRich**. The delta was therefore not allowed to deepen Rich.
+A miner handoff called stable account `459696170759880745` `Rich` while also carrying `dragonrichard` / Ricochet. Hard project canon controls: **Ricochet / `dragonrichard` is a separate person from Rich / DragonRich**. The delta was therefore not allowed to deepen Rich.
 
 The useful possible Ricochet axis is cue-dependent social memory: vivid memory for an emotionally/socially chaotic club-war story while another old institutional detail is admitted forgotten. The strongest new WWM material still needs exact message-ID/context backfill before new public wording. The Louvre recruitment-poster precedent is context transfer, not organizer/judge credit; Snow retains direct pinning credit where the intake names Snow as pin actor. Uninspected media stays POSTED BY only.
 
-### Wall — Zhēnxī duplicate plus late Bishop / topology tail
+### Wall — Zhēnxī duplicate plus Bishop / topology tail
 
-The earlier Wall delta further supported Zhēnxī's defendant↔filer reciprocity with Ren and affectionate teasing with Rummy, but those exact person mechanisms were already owned on both public surfaces. No duplicate public paragraph was added. Zhēnxī's bounded q18 topology closes mixed at 2 positive / 9 negative across 11 authored parents.
+Recent Wall material further supported Zhēnxī's defendant↔filer reciprocity with Ren and affectionate teasing with Rummy, but those exact person mechanisms were already owned on both public surfaces. No duplicate public paragraph was added. Zhēnxī's bounded q18 topology closes mixed at 2 positive / 9 negative across 11 authored parents.
 
-The late Wall suffix adds Bishop's public person axis and advances Akariel's q18 bookkeeping to **4 positive / 24 negative across 28 of 48 trustworthy-classified parents**, with one newly sampled retrieval-blocked and 19 still unaudited. A second child edge on an already-positive parent also confirms that positive-parent classification does not guarantee exhaustive child enumeration. This remains backstage topology, not personality copy.
+Akariel's q18 bookkeeping stands at **4 positive / 24 negative across 28 of 48 trustworthy-classified parents**, with one sampled retrieval-blocked and 19 still unaudited. A second child edge on an already-positive parent confirms that positive-parent classification does not guarantee exhaustive child enumeration. This remains backstage topology, not personality copy.
 
-The Wall miner's corpus-local line saying Akariel is “not safely Zyrcant” does not reopen identity. **Hard project canon remains Akariel = Zyrcant.** SaraBunny's coverage likewise corrects to **at least 4 authored Wall messages through 2021-12-31** without inflating generic New Year's material into a personality thesis.
+The Wall miner's corpus-local line saying Akariel is “not safely Zyrcant” does not reopen identity. **Hard project canon remains Akariel = Zyrcant.**
 
-### Core — other material held
+### Core — held material
 
 - ƐℲı˥→Chubi `so you won’t get lost` deepens anticipatory wayfinding / practical warmth. Passive `Your Role has been assigned` does not identify the assigning actor.
 - Chubi's 2022 and 2024 same-account `Underlords` self-identifications support repeated self-described affiliation across changed names, not uninterrupted membership or appointment chronology. Lived Sniperr/Officer execution remains open.
 - Spirit's exact event identity remains unresolved; scheduler-control resemblance does not rename the Sept. 1 `contest` / `fields` / Spirit scene `Land of Conquest`.
-- Sitama, gab, braindead, and res remain bounded seeds / continuity notes at their recorded confidence. gab clock-time material is not location/timezone evidence.
 
 ## MAIN vs WIKI split
 
-MAIN reader-facing files changed **0** in Runs 598–600. Julian and Bishop remain WIKI-sized at this boundary. Zhēnxī was already ahead on both surfaces. Louvre's new memory read remains held to the **Ricochet** owner pending exact-context backfill rather than being mirrored into Rich or published prematurely. The eight MAIN publication-held families remain reviewed debt.
+MAIN reader-facing files changed **0** in Runs 598–601. Julian, Bishop, Akuma, and Yochan are WIKI-sized at their current evidence boundaries. Zhēnxī was already ahead on both surfaces. Louvre's new memory read remains held to the **Ricochet** owner pending exact-context backfill rather than being mirrored into Rich or published prematurely. The eight MAIN publication-held families remain reviewed debt.
 
 Known production-gated MAIN maintenance, including Nothien's stale visible body-copy pronouns, remains held for a run that can execute the required MAIN reader verification/deploy path.
 
@@ -104,6 +136,7 @@ Known production-gated MAIN maintenance, including Nothien's stale visible body-
 - Crystalia uses he/him.
 - WhitePhoenix / Xephy remains distinct from Wolf Phenix.
 - Miihi `253897195290361856` remains distinct from the separate Korea `(Milk)` stable ID.
+- `Mr. Streamer` / `nerimity` is **not** identity-bridged to Gilli in Run 601; unresolved stays unresolved.
 - Joke-family language is not biological kinship.
 - Joke flirting/romance language is not literal romance or sex without support.
 - Export-time/current role arrays do not date appointments.
@@ -121,8 +154,9 @@ Known production-gated MAIN maintenance, including Nothien's stale visible body-
 - Spirit exact event identity/rules remains open.
 - Grimlee enacted warmth remains open.
 - Tae q18 remains OPEN / RETRIEVAL-BLOCKED; failed exact-ID retrieval is not a certified negative.
+- Yochan q18 inverse-reply topology remains unresolved/open.
 - Ten, Erys / Wall-local Emi, ничего, YuKanada / Reii, Cele, Woohyuk, Zyrcant/Akariel, HamitteY, Torr, Rookie and other larger inverse-reply branches remain open at their recorded states unless a later sidecar closes them.
-- Akariel / Zyrcant q18 currently stands at 4+/24− across 28/48 trustworthy-classified parents, with 19 unaudited and one newly sampled retrieval-blocked.
+- Akariel / Zyrcant q18 currently stands at 4+/24− across 28/48 trustworthy-classified parents, with 19 unaudited and one sampled retrieval-blocked.
 - ShiyaX account-intruder recurrence remains open.
 - `#PROTECCtheASSETS` / `protectbutt` cross-room/later recurrence remains open.
 - Baby Lyssa / Ghoulie exact UL admission date/person/mechanism remains open; `sama` is unidentified.
@@ -135,4 +169,4 @@ Known production-gated MAIN maintenance, including Nothien's stale visible body-
 - Richard rename / `cooch` mechanics remain open.
 - Ansun ant origin and Zoshaa scrambled-egg-bunny ultimate origin remain open.
 - Plushie's creative chronology, panda referent, and media-object attribution remain open.
-- Guild-icon visual inspection, `GOODBYE UNDERLORDS`, `IMG_2720`, Wolf's February screenshot internals, Crystalia's uninspected Wall images, Julian's uninspected `video0.mp4`, Bishop's self-filed screenshot, and other unresolved media remain attribution-bounded until inspected.
+- Guild-icon visual inspection, `GOODBYE UNDERLORDS`, `IMG_2720`, Wolf's February screenshot internals, Crystalia's uninspected Wall images, Julian's uninspected `video0.mp4`, Bishop's self-filed screenshot, Yochan's uninspected Wall attachments, and other unresolved media remain attribution-bounded until inspected.
