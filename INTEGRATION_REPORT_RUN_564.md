@@ -21,6 +21,8 @@ This is **already owned on WIKI** by `src/data/character-biographies-hamittey.ts
 
 MAIN already owns the August 2021 stored-receipt + Ghoulie mock-betrayal/welcome-back scene. A richer MAIN-only fold of the later ShiyaX/context-light dimension remains publication-held rather than copied from the WIKI.
 
+A cross-surface pronoun conflict is now explicitly held: MAIN currently uses he/him for HamitteY while WIKI currently uses she/her, and there is no hard project lock resolving that difference. The fresh Wall handoff deliberately stays pronoun-neutral. Do not infer a winner from either public surface; repair both coherently once a reliable pronoun source or user lock exists, using each surface's verification gate.
+
 Attribution remains narrow: the surviving screenshot is POSTED BY HamitteY unless/until its binary is independently inspected; MADE BY / CAPTURED BY / FEATURING remain unresolved. The Wall q18 retrieval block remains open.
 
 ### Mugen
@@ -45,7 +47,7 @@ HamitteY's existing receipt-curator synthesis is already inside that verified re
 
 ## Surface split / holds
 
-WIKI made no reader change because its canonical HamitteY owner already contains the stronger Wall synthesis and Mugen's appetite tail belongs more naturally to the existing MAIN biography treatment.
+WIKI made no reader change because its canonical HamitteY owner already contains the stronger Wall synthesis and Mugen's appetite tail belongs more naturally to the existing MAIN biography treatment. HamitteY's unresolved he/him-vs-she/her public mismatch is now a reconciliation hold rather than something the integrator silently chooses by vibes.
 
 The controlling MAIN ledger now has **10 reviewed `pending_publication` families**. These are release debt, not unread miner work. Both Club-Only lanes remain saturated/current.
 
