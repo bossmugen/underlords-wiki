@@ -15,6 +15,7 @@ const narrativeModules = import.meta.glob("./character-biographies*.ts", { eager
 
 const richScore = (path: string): number => {
   const ranking: Array<[RegExp, number]> = [
+    [/character-bios-run571\.ts$/, 1300],
     [/character-bios-run39\.ts$/, 1000],
     [/leader-deep/, 980],
     [/officers-core-deep/, 970],
@@ -46,6 +47,7 @@ const richScore = (path: string): number => {
 };
 
 const narrativeScore = (path: string): number => {
+  if (/character-biographies-run571\.ts$/.test(path)) return 1300;
   if (/run427/.test(path)) return 1040;
   if (/run413/.test(path)) return 1030;
   if (/run410/.test(path)) return 1020;
@@ -76,14 +78,14 @@ const resolveFromModules = <T>(modules: Record<string, LooseModule>, id: string,
 
 const richRequired = new Set([
   "mugen", "gabu", "anayss", "ansun", "wolfphenix", "ritha",
-  "scar", "dyingfox", "ryo", "dean", "tae", "zoshaa", "candy", "cele",
+  "scar", "dyingfox", "ryo", "dean", "tae", "zoshaa", "candy", "cele", "eos",
   "rich", "zyrcant", "woohyuk", "syv", "woosung", "beowulf",
   "new", "aeshleen", "panda", "rose",
 ]);
 
 const narrativeRequired = new Set([
   "sye", "gilli", "oyasumi", "snow", "anthos", "daya", "ren",
-  "hyaluna", "ritha", "suzimasu", "yumi", "key", "nelph", "kaede", "hishiro",
+  "hyaluna", "ritha", "suzimasu", "yumi", "key", "nelph", "kaede", "hishiro", "eos",
 ]);
 
 export const resolveCharacterPageData = (character: Character) => {
