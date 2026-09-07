@@ -1,8 +1,18 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-07 — Run 573_
+_Last updated: 2026-09-07 — Run 574_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. WIKI uses the same reconciled evidence/canon system; detailed history remains in `INTEGRATION_REPORT_RUN_*.md` here and `archive-intake/INTEGRATION_REPORT_RUN_*.md` on MAIN.
+
+## Run 574 close
+
+Mandatory census: **51 tracked identities = 30 active matching refs + 21 historical/missing refs**. No newly discovered branch. All **30 active matching refs remain exactly at their Run 573 recorded and consumed heads**, so there was no advanced or unconsumed miner delta to deep-review this run. Close state remains **0 unread pending review, 0 backlog, 0 overdue**.
+
+Both Club-Only recovery lanes remain current/saturated at `e45fb11c9239e236231bb65645dfd0285bc0078b` and `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`; no raw archive was reopened.
+
+The controlling MAIN ledger still carries **10 reviewed `pending_publication` families**. These remain publication debt, not unread mining.
+
+Reader-facing MAIN files changed **0** and reader-facing WIKI files changed **0**. No new lore, duplicate synthesis, conflict resolution, or consumed-SHA advance occurred. Because neither reader tree changed, no fresh Astro/Pages or MAIN verification/deployment success is claimed. The latest verified WIKI reader publication remains Run 573's Kaede integration at `58ae9588b74c6b51ac980021abd48a298007574f`.
 
 ## Run 573 close
 
