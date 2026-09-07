@@ -6,11 +6,11 @@ MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:ma
 
 ## Current census
 
-Mandatory full census remains **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**. No newly discovered miner branch. Run 583 closes with **0 unread pending-review tails, 8 reviewed `pending_publication` families, 0 backlog, 0 overdue** after servicing one publication-debt family. Both Club-Only recovery lanes remain current/saturated at `e45fb11c9239e236231bb65645dfd0285bc0078b` and `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`; no raw archive was reopened.
+Mandatory full census remains **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**. No newly discovered miner branch. Run 583 currently closes with **0 unread pending-review tails, 8 reviewed `pending_publication` families, 0 backlog, 0 overdue** after servicing one publication-debt family and consuming two late-arriving tails. Both Club-Only recovery lanes remain current/saturated at `e45fb11c9239e236231bb65645dfd0285bc0078b` and `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`; no raw archive was reopened.
 
-Opening census had no unread tail. During the run Wall advanced from `3bbe9d4043e8972372e0a57827b49a00b1b916cb` to `c1a23636ee66aa26bcd23f2b5147980746832e61`; Run 583 reviewed that delta checkpoint-first/intake-only under anti-starvation and advanced the controlling consumed frontier through the new head.
+Opening census had no unread tail. During the run Wall advanced from `3bbe9d4043e8972372e0a57827b49a00b1b916cb` to `c1a23636ee66aa26bcd23f2b5147980746832e61`; Run 583 reviewed that delta checkpoint-first/intake-only under anti-starvation and advanced the controlling consumed frontier through the new head. A later census then found Daycare advanced from `266fb0d4eda74863e2dc5bcabd04be701c589031` to `9188d73fa4fc3ba3722d1d30a10191dee55c7eee`; it was first persisted as seen/pending, then reviewed checkpoint-first/intake-only and consumed.
 
-Current major consumed frontiers include Core Rooms / Events `8c5b10227a6a62992c3e898f0669cb7f675d01c3`; Daycare `266fb0d4eda74863e2dc5bcabd04be701c589031`; Birthdays / PR / VC `a66d90814ea333f00022d9c8e8a9b93e9b31ef1e`; Whiskey `e77df7e809e4ff5bf47cadff3fafe6bb9840aa63`; Wall `c1a23636ee66aa26bcd23f2b5147980746832e61`; Mugen person-first `5013800cdaaebbccd7b925f0d7ce0849960b9ae8`.
+Current major consumed frontiers include Core Rooms / Events `8c5b10227a6a62992c3e898f0669cb7f675d01c3`; Daycare `9188d73fa4fc3ba3722d1d30a10191dee55c7eee`; Birthdays / PR / VC `a66d90814ea333f00022d9c8e8a9b93e9b31ef1e`; Whiskey `e77df7e809e4ff5bf47cadff3fafe6bb9840aa63`; Wall `c1a23636ee66aa26bcd23f2b5147980746832e61`; Mugen person-first `5013800cdaaebbccd7b925f0d7ce0849960b9ae8`.
 
 ## Run 583 — Suzi owner repaired and published
 
@@ -46,9 +46,25 @@ Akariel q18 remains **OPEN / PARTIAL — 3+/17− across 20/48 trustworthy-class
 
 A miner-local checkpoint line saying Akariel is not safely Zyrcant is **not propagated**. Hard project canon resolves **Akariel = Zyrcant** and remains controlling. Corpus-local retrieval/account uncertainty cannot split the canonical person.
 
+## Run 583 — later Daycare anti-starvation review
+
+Daycare then advanced again late in the same run: `266fb0d4eda74863e2dc5bcabd04be701c589031` → `9188d73fa4fc3ba3722d1d30a10191dee55c7eee`. That tail was also reviewed checkpoint-first/intake-only and is consumed.
+
+### Candy
+
+The new Daycare handoff characterizes Candy as **highly legible at low verbal bandwidth**: `Wad00`, paired BOP emotes, animal-noise shorthand, and the `Moo` + `Cat_Sporkle` burst that Ansun and Rummy immediately echo. YoChan's `oink oink` summon and Candy's reaction fit the same compressed register.
+
+This is useful corroboration, not fresh public debt. MAIN's existing Candy biography already owns the full person-first mechanism — minimal words, strong social pickup, the `Moo` propagation chain, Vanness sympathy and the YoChan animal-noise exchange. WIKI's existing Candy dossier already owns the same reaction-first / emote-native character read and its Vanness/YoChan relationship texture. Run 583 therefore does **not** append another Candy paragraph or invent four separate traits from four tiny noises.
+
+The direct post-2020 Daycare body remains inaccessible, so the support axis stays same-stable-ID Wall characterization rather than a claim about Daycare-specific frequency.
+
+### RH16 — ~279h broken word-train bot
+
+Same-date Announcements adjacency adds only a boundary: known Saber performs its documented Yakuza Peak event-alert function about twenty minutes before Mugen announces the broken ~279h bot. Proximity does not identify Saber as the word-train bot and does not exclude Saber from having other functions. RH16 remains unresolved and stays backstage; the repeated raw source route remains access-blocked.
+
 ## MAIN surface
 
-Run 583 changed **0 MAIN reader-facing files**. Suzi's accepted Run-582 material was already live in the richer MAIN biography, and the strongest Wolf tail point was also already represented there. No duplicate receipt prose was appended.
+Run 583 changed **0 MAIN reader-facing files**. Suzi's accepted Run-582 material was already live in the richer MAIN biography, the strongest Wolf tail point was already represented there, and Candy's late tail is already fully metabolized in MAIN's existing Candy biography. No duplicate receipt prose was appended.
 
 No fresh MAIN source-verification, Astro build, built-output verification or production deployment is claimed for an unchanged MAIN reader tree. MAIN changed only integrator state/report bookkeeping with `[skip ci]`.
 
@@ -59,6 +75,7 @@ No fresh MAIN source-verification, Astro build, built-output verification or pro
 - WOO = Woosung.
 - Akariel = Zyrcant; stale/miner-local uncertainty does not reopen this lock.
 - Mia = Mimi = Miaka = Opalite Honey = `༯`; account-level provenance cannot split this person.
+- Candy / later `— Luna` is distinct from HyaLuna.
 - Ricochet is not Rich / DragonRich.
 - Nui is not Nuien.
 - Oyasumi is not TankHead94.
@@ -82,6 +99,7 @@ No fresh MAIN source-verification, Astro build, built-output verification or pro
 - Ten inverse-reply topology remains partial/retrieval-blocked; a parent that fails to self-recover is not certified negative.
 - Akariel q18 has 28 unaudited parents.
 - Erys/Cele/nothing/YuKanada/Woohyuk/HamitteY and other recorded inverse-reply branches remain open/partial as tracked backstage.
+- RH16 / ~279h broken word-train bot identity remains unresolved; Saber adjacency is not an identity bridge.
 - `ulstreamer` / Gabu-chair human owner/operator history remains unresolved.
 - DyingFox stable-ID conflict remains unresolved.
 - Nothien's stale MAIN pronoun/body-copy repair remains production-gated.
