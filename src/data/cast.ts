@@ -16,6 +16,58 @@ const upsertRelationship = (
   else relationships.push(relationship);
 };
 
+// Run 579: Erys keeps enough old conversational context in reach that a callback
+// can land a year later, but the same lane also shows a direct check-in reflex and
+// an easy willingness to turn the room back toward innuendo. Keep all three modes
+// in one person instead of flattening Erys into either "nice" or "chaos."
+const erysIndex = allCharacters.findIndex((character) => character.id === "erys");
+if (erysIndex >= 0) {
+  const erys = allCharacters[erysIndex];
+  const relationships = [...(erys.relationships ?? [])];
+  upsertRelationship(relationships, {
+    name: "Wifman",
+    note: "Their Wall lane has range without needing much setup: Erys remembers an old `CHEESUS IS GOOD FOR THE SOUL` bit well enough to ask why it is being posted again, checks `You okay there? 👀` when Wifman says `I'm fine * eye twitch *`, and later turns `Daddy's Belt` into `Daddy's belt, you say? :LipBite:`. Callback memory, actual concern and innuendo all fit comfortably in the same relationship.",
+  });
+
+  const quotes = [...new Set([
+    ...(erys.quotes ?? []),
+    "Why'd you post this again :suscry:",
+    "You okay there? 👀",
+    "Daddy's belt, you say? :LipBite:",
+  ])];
+
+  allCharacters[erysIndex] = {
+    ...erys,
+    summary: "Quick to remember an old bit, quick to check whether somebody is actually okay, and equally quick to turn the room back toward innuendo.",
+    details: "Erys does not need a fresh setup every time. With Wifman, an old joke can come back as a puzzled callback, a strained `I'm fine` can get an immediate check-in, and a phrase like `Daddy's Belt` can be seized for exactly the reason everyone knew it would be. The useful through-line is attention: Erys is following the person and the joke closely enough to know when to ask a real question and when to make the situation worse on purpose.",
+    tags: [...new Set([...(erys.tags ?? []), "Wall", "Callback memory", "Check-in reflex", "Petty Crimes"])],
+    relationships,
+    quotes,
+  };
+}
+
+// Run 579: Nothien's public-chat economy is part of the character. One reaction
+// can stand in for a speech; when the serious mode does surface, peers notice it
+// immediately, then go right back to teasing. That is reputation texture, not a
+// governance title or a claim that Nothien formally mediated anything.
+const nothienIndex = allCharacters.findIndex((character) => character.id === "nothien");
+if (nothienIndex >= 0) {
+  const nothien = allCharacters[nothienIndex];
+  const quotes = [...new Set([
+    ...(nothien.quotes ?? []),
+    ":NonDebatable:",
+    "This is one of my only messages Im serious",
+  ])];
+
+  allCharacters[nothienIndex] = {
+    ...nothien,
+    summary: "Usually economical in public chat: sometimes one reaction is the whole argument, which makes the rare serious message hit harder.",
+    details: "Nothien can answer agreement with nothing but `:NonDebatable:` and let the reaction do the work. When a genuinely serious take appears, the room is quick to notice — `Logical King Noth` lands as reputation shorthand — and just as quick to return to comfortable ribbing with lines like `if only noth hooped out`. Reserved does not mean socially distant here; the teasing works because nobody has to rebuild the rapport first.",
+    tags: [...new Set([...(nothien.tags ?? []), "Economical replies", "Logical King Noth", "Comfortable teasing", "Petty Crimes"])],
+    quotes,
+  };
+}
+
 // Run 575: Ricochet's existing file already had tank-game complaints, weather,
 // Cheesecake Factory absurdity and the sleepy-Ren care lane. Core Rooms adds a
 // different dimension: ordinary life keeps leaking into the room, and he is
