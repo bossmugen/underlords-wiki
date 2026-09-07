@@ -1,8 +1,53 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-07 — Run 572_
+_Last updated: 2026-09-07 — Run 573_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. WIKI uses the same reconciled evidence/canon system; detailed history remains in `INTEGRATION_REPORT_RUN_*.md` here and `archive-intake/INTEGRATION_REPORT_RUN_*.md` on MAIN.
+
+## Run 573 close
+
+Mandatory census: **51 tracked identities = 30 active matching refs + 21 historical/missing refs**. No newly discovered branch. Exactly one active miner advanced at opening: Core Rooms / Events, from consumed `955269792150a3f4f9d6c2802e5a53fb7d1fffb9` to stable head **`4f43e0b90f58838cab39f4bf0c6c8b19dc6dfc27`**. Run 573 reviewed that intake-only delta through its checkpoint/findings/receipts/people/site/rabbit handoffs and did not re-mine raw archives. Close state: **0 unread pending review, 0 backlog, 0 overdue**.
+
+Both Club-Only recovery lanes remain current/saturated at `e45fb11c9239e236231bb65645dfd0285bc0078b` and `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`.
+
+The controlling MAIN ledger returns to **10 reviewed `pending_publication` families** after Core Rooms / Events review. These are release debt, not unread mining.
+
+## Reader publication — Kaede
+
+Run 573 deepened **Kaede / FuentesKaede** in her existing structured Cast owner instead of turning one fresh social axis into a quota biography or standalone Episode.
+
+The person-level keeper is **recognized return → individualized warmth outward**. On January 19, 2023, RV mechanically mentions stable Fuentes with `kaede linda eres tuuuu?`, then later `bienvenida de regreso kaede linda`. The stretched question and repeated `linda` read like delighted welcome-back recognition while staying silent on how long Kaede had been gone or how the relationship should be ranked.
+
+By March, stable Fuentes is herself using personalized greeting/celebration language: `¡Pequeña RV! ¡Hola!` and `¡Many Many Congratulations Lil Rummy!`. The first is mechanically a Reply but the recovered parsed slice does not expose the target identity; the second does not resolve the exact event or stable addressee. WIKI therefore keeps those as Kaede-authored social texture without silently mapping names that the source did not mechanically bridge.
+
+Reader-facing file changed **1**:
+
+- `src/data/cast.ts`
+
+Verified reader commit: **`58ae9588b74c6b51ac980021abd48a298007574f`**.
+
+Verification:
+
+- Build workflow **34093035835** — Astro build job **101650404762** succeeded.
+- Pages workflow **34093035820** — build/artifact job **101650405022** succeeded; actual Deploy to GitHub Pages job **101650511192** succeeded; report job **101650564097** succeeded.
+
+## No-uplift / held from Core Rooms
+
+Ritha's full exact stable-ID `club-only` route surfaced only the already-known *Tower of God* / greeting cluster. Hard-canon Battle Leader status remains unchanged; lived tactical execution remains OPEN, and that exact source route is now saturated for that rabbit.
+
+Changed Lobby exact-ID zeros for randomlyze, Thailie, YozoraRemnant, Ada/Alice and fawn remain retrieval facts only. They do not become `quiet`, `inactive`, `peripheral`, or importance judgments.
+
+The older pooled Deleted User self-ID-looking object is not bridged to stable Fuentes. Kaede's March Reply target remains unresolved; textual `Lil Rummy` does not automatically become a stable identity or event. No appointment chronology is inferred from export-time/current role arrays.
+
+## MAIN surface
+
+MAIN reader-facing files changed **0**. Kaede already has a locked roster owner but no mature MAIN biography page, and this packet adds one strong social dimension rather than enough person breadth to justify manufacturing a thin biography. The new material is accepted as richer future MAIN biography debt rather than rejected or left unread. No MAIN source-verification/Astro/built-output/deployment success is claimed for the unchanged reader tree.
+
+## Consumption
+
+- `archive-miner/core-rooms-events-a91f-20260824`: `955269792150a3f4f9d6c2802e5a53fb7d1fffb9` → **`4f43e0b90f58838cab39f4bf0c6c8b19dc6dfc27`** after successful review and verified WIKI publication.
+
+A post-publication census found the active matching miner refs stable at the closing heads.
 
 ## Run 572 close
 
@@ -43,12 +88,6 @@ Verification:
 
 Mugen's `e00e28198e398c9560ec0aaefd8361485248f304..d410a11501970336b7589771fcb08aad5b841cab` delta was a dry surgical audit. Dean corrective standing, Anthos reliability cost, Yumi's question-shaped disclosure mirror, and Woohyuk's wrong-tag correction were already owned. Phrase-search misses remain search misses rather than archive-absence claims. No new Mugen paragraph was created merely because another handoff existed.
 
-## MAIN surface
-
-MAIN reader-facing files changed **0**. Lilly had a mature WIKI owner ready for structured/person-first surgery; LilsatanSir and Usama are still developing; Mugen was duplicate/corroboration-only. MAIN therefore received consumption state and Run-572 report bookkeeping only. No MAIN source-verification/Astro/built-output/deployment success is claimed for the unchanged reader tree.
-
-The new Lilly material and later mature Lilsatan/Usama synthesis remain legitimate MAIN biography debt behind the controlled production gate rather than unread mining.
-
 ## Carried holds
 
 Hard canon still resolves **Syv and Sevynn as distinct people/accounts**, **Zyrcant = Akariel / Akariel™ / akariel_star**, and **Candy ≠ HyaLuna**. A stale Wall miner-local line attempting to leave Akariel/Zyrcant unresolved does not override the hard project lock.
@@ -58,11 +97,3 @@ HamitteY's cross-surface he/him vs she/her mismatch remains unresolved; DyingFox
 Wall q18 remains open where the miner explicitly marks it open/retrieval-blocked. Lilly and Usama are closed mixed at the current corpus boundary; Woohyuk, Akariel, HamitteY, Ten and other named larger branches retain their documented open/partial state.
 
 SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain separate. Export-time/current role arrays still cannot date appointments. Lilsatan's comics-before-sleep habit is ordinary-life texture, not medical-treatment canon. Joke jail and affectionate language remain joke/social language rather than discipline or romance canon.
-
-## Consumption
-
-- `archive-miner/louvre-ai-art-athenaeum-other-games-hourly`: `bad43496ae19777f8bfbeb67bb881c7b1e1521cf` → **`f92b1b5c1e041dfe50c5ed92e3576391f91af83f`** after successful review; LilsatanSir banked, no public page forced.
-- `archive-miner/mugen-person-first-20260828`: `e00e28198e398c9560ec0aaefd8361485248f304` → **`d410a11501970336b7589771fcb08aad5b841cab`** through the overlapping late Run-571 anti-starvation review; dry no-public-change delta.
-- `archive-miner-wall-hourly-20260824`: `2db93bf015894fed29b8d9cdda3c08d2ad0cde19` → **`e1a30eaab2b94904768a969da2efe80f2a1a8c4d`** only after Lilly's exact WIKI reader head passed Astro build and GitHub Pages deployment.
-
-A post-publication census found all 30 active matching miner refs stable at those closing heads.
