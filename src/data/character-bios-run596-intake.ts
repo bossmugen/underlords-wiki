@@ -71,7 +71,6 @@ export const run596IntakeBios = {
         text: "The entire orientation ceremony is basically one question, one answer, `Okie doki`, move on. Extremely low paperwork for what follows.",
       },
     ],
-    relatedPeople: ["Rooks"],
     claims: [
       { date: "2020-10-19", evidence: "archive-confirmed", text: "Plushie asks `What’s this channel for?`; Rookie Cookie explains the Wall; Plushie answers `Okie doki`." },
       { date: "2020-10-19", evidence: "archive-confirmed", text: "After Rookie routes continued chatter toward Whiskey and invokes Snow, Plushie answers `Snow u saw nothing UwU`." },
