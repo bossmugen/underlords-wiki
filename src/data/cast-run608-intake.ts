@@ -119,3 +119,41 @@ if (nobuIndex >= 0) {
     ]),
   };
 }
+
+const moonIndex = allCharacters.findIndex((character) => character.id === "moon");
+if (moonIndex >= 0) {
+  const moon = allCharacters[moonIndex];
+  const relationships = [...(moon.relationships ?? [])];
+  upsertRelationship(relationships, {
+    name: "Ansun",
+    note: "Moon can effectively sentence Sou to the Wall, Sou can claim the `fame` half for herself, and Moon immediately points to the word `shame` still sitting on the sign. The exchange works as comfortable counter-teasing, not a closeness ranking.",
+    href: "/characters/ansun",
+  });
+
+  allCharacters[moonIndex] = {
+    ...moon,
+    logline:
+      "Night Shift Barista and self-appointed witness who likes spotting the room's nonsense, naming it, and then climbing directly into the incident — sometimes long enough to finish the vaccination plan before realizing she is in the wrong channel.",
+    tags: mergeUnique([...(moon.tags ?? []), "Wall", "Mock authority", "Witness-prosecutor", "Petty Crimes"]),
+    relationships,
+    quotes: mergeUnique([
+      ...(moon.quotes ?? []),
+      "I am a moon,so i see all",
+      "TIME FOR VACINATION FOR RUMFECTION AND GILLFECTION",
+      "It will hurt alittle ~♡",
+      "Wait this isn't main chat",
+      "But the word shame is right there",
+    ]),
+    claims: [
+      ...(moon.claims ?? []),
+      "Across 2022–2023 Moon repeatedly turns observation into mock jurisdiction: cosmic surveillance, a fake infection clinic, and literal enforcement of the `shame` half of Wall of Shame/Fame.",
+      "On March 19, 2023 Moon joined the rumfection/gillifection bit as a fake vaccinator, then realized after the treatment routine that she was not in main chat.",
+    ],
+    antiFanon: mergeUnique([
+      ...(moon.antiFanon ?? []),
+      "The vaccination / doctor wording is theatrical chat play, not a medical role or procedure.",
+      "Moon POSTED the nurse/doctor reaction GIF; source-media authorship is not attributed to Moon.",
+      "The Sou exchange supports direct teasing and counterargument, not a friendship rank or literal jurisdiction over Wall.",
+    ]),
+  };
+}
