@@ -58,7 +58,45 @@ const porgoCharacter: Character = {
   ],
 };
 
-const supplementalCharacters = [hamitteyCharacter, porgoCharacter];
+const vannessCharacter: Character = {
+  id: "vanness",
+  name: "Vanness",
+  aliases: ["vanness0492"],
+  billing: "legacy",
+  role: "Archive-era Wall cast",
+  era: "2021",
+  logline: "Screenshot Court litigant who redirects blame at full volume when the charge is wrong and files himself when the disaster is unquestionably his.",
+  tags: ["Archive cast", "2021", "Wall", "Screenshot Court", "Petty Crimes"],
+  relationships: [
+    {
+      name: "Ren",
+      note: "Ren can answer Vanness's merge catastrophe with a one-word `hoW-`; Vanness later comes back to that exact reply with the full four-failed-merges postmortem. Tiny prompt, very complete incident report.",
+      href: "/characters/ren",
+    },
+  ],
+  quotes: [
+    "Im putting myself in wall of shame for losing 5 orange dracs for merge. Shame me:CatCry:",
+    "ITS GABU WHO SUCKED IT DRY, NOT MEEE",
+    "my luck is💩",
+  ],
+};
+
+const darkAsraiCharacter: Character = {
+  id: "darkasrai",
+  name: "DarkAsrai",
+  aliases: ["darkasrai"],
+  billing: "legacy",
+  role: "Archive-era Wall cast",
+  era: "2021–2023",
+  logline: "Self-aware Wall defendant who can accept the incoming charge, complain that somebody beat them to a receipt, and file the evidence anyway.",
+  tags: ["Archive cast", "Wall", "Screenshot Court", "Receipt filer", "Petty Crimes"],
+  quotes: [
+    "I knew id get in here",
+    "Beat me to it",
+  ],
+};
+
+const supplementalCharacters = [hamitteyCharacter, porgoCharacter, vannessCharacter, darkAsraiCharacter];
 
 export const allCharacters: Character[] = [...baseCharacters];
 for (const character of supplementalCharacters) {
