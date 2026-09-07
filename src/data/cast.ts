@@ -379,6 +379,70 @@ if (kiroIndex >= 0) {
   };
 }
 
+// Eos already has a compact Daycare / Wall owner. The new material is useful
+// because it explains what happens when the joke lands on her: she is extremely
+// catchable and remarkably hard to shame, with the counter-charge already loading.
+const eosIndex = allCharacters.findIndex((character) => character.id === "eos");
+if (eosIndex >= 0) {
+  const eos = allCharacters[eosIndex];
+  const relationships = [...(eos.relationships ?? [])];
+  if (!relationships.some((relationship) => relationship.name === "Rummy")) {
+    relationships.push({
+      name: "Rummy",
+      note: "Rummy can drag Eos's spelling directly; Eos concedes `IT WORSE ON MAH PHONE` and, twelve seconds later, returns `but lets not talk about *your* spelling`. The joke lands and comes back armed: comfortable reciprocal roast, not conflict.",
+      href: "/characters/rummy",
+    });
+  }
+
+  const quotes = [...(eos.quotes ?? [])];
+  for (const quote of ["forgot i had safari open", "IT WORSE ON MAH PHONE", "but lets not talk about *your* spelling"]) {
+    if (!quotes.includes(quote)) quotes.push(quote);
+  }
+
+  allCharacters[eosIndex] = {
+    ...eos,
+    logline: "Low-word, high-consequence regular who is extremely catchable and surprisingly hard to shame: Eos can admit the Safari or spelling fail, take the laugh, and have a counter-charge ready before the room finishes exhaling.",
+    tags: [...new Set([...(eos.tags ?? []), "Reciprocal roast", "Petty Crimes"])],
+    relationships,
+    quotes,
+  };
+}
+
+// Xephy's old owner knew the returns. The creative-family pass adds the thing
+// that makes the everyday version recognizable: the practical answer can still
+// arrive wrapped in uwu, and failed syntax does not trigger a dignity hearing.
+const xephyIndex = allCharacters.findIndex((character) => character.id === "xephy");
+if (xephyIndex >= 0) {
+  const xephy = allCharacters[xephyIndex];
+  const relationships = [...(xephy.relationships ?? [])];
+  if (!relationships.some((relationship) => relationship.name === "Xerenity")) {
+    relationships.push({
+      name: "Xerenity",
+      note: "Xerenity can hit Xephy with `really...` and `I blame ya for this lolz`; Xephy answers from inside the same plush register instead of turning the blame into a defense brief. Repeated easy needling, not a friendship rank.",
+    });
+  }
+  if (!relationships.some((relationship) => relationship.name === "Ren")) {
+    relationships.push({
+      name: "Ren",
+      note: "Xephy can ask Ren `aren't u spposed to go to bed uwu?`—a direct practical nudge with the social temperature turned way down. One bedtime check is familiarity, not a caregiving résumé.",
+      href: "/characters/ren",
+    });
+  }
+
+  const quotes = [...(xephy.quotes ?? [])];
+  for (const quote of ["u all beautiful uwu~", "aren't u spposed to go to bed uwu?", "oop", "But how has everyone been?"]) {
+    if (!quotes.includes(quote)) quotes.push(quote);
+  }
+
+  allCharacters[xephyIndex] = {
+    ...xephy,
+    logline: "Soft enough to put `uwu~` on the practical answer, pragmatic enough to keep trying after the wrong command: Xephy routes questions, nudges bedtime, absorbs teasing, and comes back from absences by asking how everybody else has been.",
+    tags: [...new Set([...(xephy.tags ?? []), "Practical softness", "Easy teasing", "Petty Crimes"])],
+    relationships,
+    quotes,
+  };
+}
+
 export const castGroups = baseGroups.map((group) => {
   if (group.id !== "archive-cast") return { ...group, characterIds: [...group.characterIds] };
   const characterIds = [...group.characterIds];
