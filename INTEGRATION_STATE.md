@@ -1,67 +1,54 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-07 — Run 610 final close_
+_Last updated: 2026-09-07 — Run 610 corrected close_
 
-MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN `CANON_LOCKS.md` remains the highest-priority identity/role correction layer and wins over miner-local hypotheses, integration prose, site alias drift, or account-level ambiguity until Mugs explicitly changes it. Detailed run history lives in durable per-run reports; this file is the current operational snapshot.
+MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks remain the highest-priority identity/role correction layer.
 
 ## Current census
 
 Mandatory full census: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**. Closing state: **0 newly discovered branches, 0 unread pending-review tails, 8 reviewed `pending_publication` MAIN families, 0 backlog, and 0 overdue**.
 
-Run 610 reviewed one advanced miner tail checkpoint-first/intake-only:
-- Wall `ac6de06ea0030047eabae636587393087688ded4` → **`fe3561350b4c7011ae92026fdb6bbe7f5bc4b358`**.
+Run 610 reviewed Wall checkpoint-first/intake-only from `ac6de06ea0030047eabae636587393087688ded4` through stable head **`fe3561350b4c7011ae92026fdb6bbe7f5bc4b358`**. Both Club-Only recovery lanes remain current/saturated at `e45fb11c9239e236231bb65645dfd0285bc0078b` and `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`; neither was churned.
 
-Both Club-Only recovery lanes remain current/saturated at `e45fb11c9239e236231bb65645dfd0285bc0078b` and `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`; neither was churned and no raw archive was reopened.
+## Alkey / Meowk — tiny messages, deliberate timing
 
-The eight reviewed publication-held MAIN families remain Backroom, Birthdays / PR / VC, Daycare, Louvre / AI / Athenaeum / Other Games, Meems, Whiskey, QOTD / Officers, and Wall. `pending_publication` means reviewed debt, not unread mining.
+The reviewed 13:04 Wall handoff deepens Alkey as an economical performer rather than merely a short-message person. On February 3, 2021 two chicken emotes plus crossed swords become `cock fight achieved`; Mugen true-replies with popcorn and Alkey bows with `I aim to please`. On March 13, Baby Lyssa tries `you saw nothing` and Alkey releases `i` / `saw` / `all` as three separate messages over 1.725 seconds. The formatting is part of the punchline.
 
-## Panda — already knows what court she walked into
+MAIN already owns the richer person-first synthesis, so WIKI uses the same source differently: Mugen and Baby Lyssa relationship texture, comic-timing tags, and compact quote/reference structure. `Meowk 💖✨` remains Alkey; Alkey remains distinct from Key.
 
-The new Wall packet gives Panda / Marian Kage enough specific behavior to replace the stale generic WIKI layer. When `PANDA DUNGEON GIRL ZD` lands, her next surviving line is `I'm guessing wall of shamed...or famed.` The adjacency is not a formal reply edge, but the social instinct is clear: Panda already knows what kind of room this is and where the nonsense is headed.
+## Panda / Marian Kage — the Panda thing is a whole operating system
 
-Mugen can later ping her into Wall bait and Panda's first move is a bare `wait` while she catches up on what happened. Once she understands the scene, she does not become ceremonious. Anayss asks whether Panda is claiming she beat Nexia better; Panda gives `Nope`, then returns the boast to sender with `You said that about yourself.` Months later Mugen announces that not even Panda is safe, and Panda's defense is effectively that finding weird stuff from her is not surprising anyway.
+The reviewed 13:11 Wall handoff is not simply `Marian likes pandas`. Baby Lyssa greets a return with `Welcome home, panda`; Marian answers inside the same language with a crying-panda emote and `damn been away fro so longe`. In July Marian actively writes Panda into a shared bit; Eos later tags him to `look now` and gets `:PandaPERFECTION:` back. In October Wizard101 releases a panda set and Marian equips panda ears, a panda-covered outfit, and a panda mount before announcing `livin the panda dream`; Ansun answers that he really does be a panda.
 
-The useful person read is quick recognition, compact skepticism, dry boundary-setting, and enough self-awareness that the Wall cannot exactly blackmail her with the existence of her own weirdness. When a spoiler attempt fails in 2021 she immediately says `:( i tried putting those in spoiler` and `sorry >.<` — tiny embarrassment, quick accountability, no theatrical escape attempt.
+WIKI therefore carries Panda as a self-authored social persona: repeated affect vocabulary, return-recognition shorthand with Baby Lyssa, probable low-setup Panda-bit familiarity with Eos, peer recognition from Ansun, and the magnificently unnecessary Wizard101 full-panda loadout as Petty Crimes. `panda caretaker` remains joke language only.
 
-WIKI now carries this as lived Panda material: aliases `Marian`, `Marian Kage`, and `PanPan`; Wall / dry-refusal / self-aware-weirdness tags; specific Mugen and Anayss relationship texture; exact quotes; and four compact timeline scenes. It does **not** turn the Nexia joke into a gameplay ranking.
+## Correction made during close
 
-## Alkey — corroboration, not paragraph mitosis
-
-The same Wall tail adds more Meowk / Alkey reaction-first receipts: asking for the incriminating picture, `YO WTF >:C`, `Wait should i be mad or sad lol`, `Fs in chat bois`, mention-bait reaction, and the avocado-soy-sauce `Bet`.
-
-Both public surfaces already own the stronger person-shaped version of this mechanism. The packet therefore counts as duplicate/corroboration rather than earning another public Alkey layer. No new media maker/capturer/subject credit was inferred from surrounding uploads.
-
-## Concurrency cleanup
-
-A concurrent WIKI commit landed after the first verified Panda publication and appended older Panda/Alkey material that was outside this reviewed Wall delta. That hitchhiking material was removed before close rather than being silently blessed by proximity. The final reader is therefore the narrow Run 610 Panda reconciliation only; Alkey remains deduped.
+A concurrent Run 610 staging layer had attached unrelated older Panda/Alkey material to this delta and used Panda pronouns inconsistent with the current MAIN public owner. That staging was removed and replaced with the actual changed handoffs above before the final reader was accepted. No 2020 Panda material from that unrelated staging is being blessed by this Run 610 close.
 
 ## Attribution / unresolved rails
 
-- q18 zero-result topology probes remain unresolved where retrieval limitations can produce false zeroes; no negative relationship claim was promoted from tool failure.
-- Wall media in this tail remains **POSTED BY** unless maker, capturer, or depicted-subject credit is independently established.
-- The Panda `PANDA DUNGEON GIRL ZD` adjacency is useful contextual inference, not an invented reply edge.
-- Anayss ↔ Panda supports teasing/boundary texture, not a closeness rank or gameplay hierarchy.
+- Akariel = Zyrcant remains resolved project canon; miner-local corpus caution does not reopen identity.
+- Ansun's ant-origin rabbit remains open; November 4 stays earliest surviving callback, not origin.
+- q18 zero-result probes remain unresolved when a retrieval route cannot self-recover its parent.
+- Uninspected media remains **POSTED BY** only unless maker, capturer, or subjects are independently established.
 - Earliest surviving evidence is not automatically origin.
-- Carried rabbits remain open where previously unresolved: DyingFox stable-ID conflict; `ulstreamer` / Mr. Streamer owner; Ghoulie's exact admission mechanics and unidentified `sama`; q18 partial/retrieval-blocked branches; ShiyaX account-intruder recurrence; `#PROTECCtheASSETS` recurrence; exact 2023 broken word-chain bot identity; unresolved Wall/Louvre/Daycare media attribution; Ritha lived Battle Leader execution; Chubi lived Officer/Sniper execution; Spirit event identity/rules; stylized `ƐℲı˥` public-owner routing.
 
 ## Publication / verification
 
-Run 610 reader code/data changed through:
-- `src/data/cast-run610-wall.ts`
-- the activation import in `src/data/bio-policy.ts`.
+Run 610 WIKI reader data is in `src/data/cast-run610-wall.ts`, activated through the existing `src/data/bio-policy.ts` import.
 
-The final exact verified/deployed WIKI reader SHA is **`8255c86e70b65a98556cdd075584ca13e1622eb6`**.
+Final corrected verified/deployed reader SHA: **`61b60e64b3281402ea26ff4c9c9f4bc651c9a67e`**.
 
-Verification/deployment for that exact reader:
-- `Build Underlords Wiki` workflow `34160740407`: **success**.
-- Astro build job `101861905010`: **success**.
-- `Deploy Underlords Wiki Preview` workflow `34160740392`: **success**.
-- Pages build/artifact job `101861905279`: **success**.
-- Actual Pages deploy job `101862005145`: **success**.
-- Pages report/status job `101862049751`: **success**.
+- `Build Underlords Wiki` workflow `34160952817`: **success**.
+- Astro build job `101862522511`: **success**.
+- `Deploy Underlords Wiki Preview` workflow `34160952799`: **success**.
+- Pages build/artifact job `101862522532`: **success**.
+- Actual Pages deploy job `101862620760`: **success**.
+- Pages report/status job `101862657538`: **success**.
 
-This integration-state commit is reader-neutral `[skip ci]`; `8255c86e...` remains the exact reader receipt.
+This state update is reader-neutral `[skip ci]`; `61b60e64...` remains the exact reader receipt.
 
 ## MAIN split
 
-MAIN reader-facing files changed **0** in Run 610. Alkey's packet was duplicate/corroboration there, and `src/content/people/panda.md` already owns the stronger person-first version of the new Panda scenes, so copying the WIKI structure into MAIN would only create duplicate prose. Broader Wall material remains reviewed `pending_publication` debt. No source-verification/Astro/built-output/deployment run is claimed for an unchanged MAIN reader tree.
+MAIN reader-facing files changed **0**. `src/content/people/alkey.md` already owns the timing/stagecraft scenes in richer person-first form, and `src/content/people/panda.md` already owns the Panda-return / Wizard101 / relationship synthesis at greater depth. Copying WIKI structure into MAIN would be duplicate prose. No MAIN source-verification/Astro/built-output/deployment run is claimed for an unchanged reader tree.
