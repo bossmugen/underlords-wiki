@@ -10,67 +10,107 @@ const upsertRelationship = (
   else relationships.push(relationship);
 };
 
+const mergeUnique = (values: string[]) => [...new Set(values)];
+
+// Run 610 — Wall. Alkey / Meowk is a resolved stable-account identity. MAIN
+// already owns the richer person story; WIKI keeps the structured mechanism:
+// economical prose, deliberate timing, and low-setup public prosecution.
+const alkeyIndex = allCharacters.findIndex((character) => character.id === "alkey");
+if (alkeyIndex >= 0) {
+  const alkey = allCharacters[alkeyIndex];
+  const relationships = [...(alkey.relationships ?? [])];
+
+  upsertRelationship(relationships, {
+    name: "Mugen",
+    note: "Alkey turns two chicken emotes and crossed swords into `cock fight achieved`; Mugen true-replies with popcorn, and Alkey bows with `I aim to please`. The audience cue is tiny and Alkey catches it immediately.",
+    href: "/characters/mugen",
+  });
+  upsertRelationship(relationships, {
+    name: "Baby Lyssa",
+    note: "Lyssa tries `you saw nothing`; Alkey answers `i` / `saw` / `all` as three separate messages over 1.725 seconds. The message boundaries do half the joke: comfortable public prosecution staged one word at a time.",
+    href: "/characters/baby-lyssa",
+  });
+
+  allCharacters[alkeyIndex] = {
+    ...alkey,
+    aliases: mergeUnique([...(alkey.aliases ?? []), "Meowk 💖✨"]),
+    logline:
+      "Staff, hockey devotee and economical bit-builder: Alkey can turn three pictographs into live poultry combat, notice when Mugen has taken the audience seat, then make `i saw all` funny by releasing one word at a time.",
+    tags: mergeUnique([...(alkey.tags ?? []), "Wall", "Comic timing", "Economical prose", "Petty Crimes"]),
+    relationships,
+    quotes: mergeUnique([
+      ...(alkey.quotes ?? []),
+      "cock fight achieved",
+      "I aim to please :8_bow:",
+      "i",
+      "saw",
+      "all",
+    ]),
+  };
+  characterById.set("alkey", allCharacters[alkeyIndex]);
+}
+
+// Run 610 — Wall. Marian Kage = Panda / PanPan is resolved project canon. The
+// packet is about the Panda persona itself: repeated self-expression, friends
+// recognizing a return through the nickname, and Wizard101 panda-maximalism.
+const pandaRelationships: NonNullable<Character["relationships"]> = [
+  {
+    name: "Baby Lyssa",
+    note: "Lyssa marks Marian's return with `Welcome home, panda`; Marian answers with a crying-panda emote and says he has been away a long time. Later Lyssa can simply address him as `panda`. Recognition arrives in the house nickname before anybody needs an explanation.",
+    href: "/characters/baby-lyssa",
+  },
+  {
+    name: "Eos",
+    note: "Marian writes Panda into a shared July bit; Eos later tags him to `look now`, and Marian answers with `:PandaPERFECTION:`. Ansun eventually calls Eos the `panda caretaker`; that phrase stays joke language, while the low-setup collaborative Panda shorthand is real.",
+    href: "/characters/eos",
+  },
+  {
+    name: "Ansun",
+    note: "When Marian reports that Wizard101 gave him panda ears, a panda-covered outfit and a panda mount, Ansun answers `you really do be a panda`. Peer recognition lands because Marian has already done the branding work himself.",
+    href: "/characters/ansun",
+  },
+];
+
 const pandaIndex = allCharacters.findIndex((character) => character.id === "panda");
 if (pandaIndex >= 0) {
   const panda = allCharacters[pandaIndex];
   const relationships = [...(panda.relationships ?? [])];
-
-  upsertRelationship(relationships, {
-    name: "Mugen",
-    note: "Mugen can ping Panda into Wall bait and Panda's first move is sometimes a bare `wait` while she figures out what the hell happened. Months later, when Mugen announces that not even Panda is safe, Panda does not plead innocence; she basically shrugs that finding weird stuff from her is not surprising. The familiarity is in how little ceremony either of them needs.",
-    href: "/characters/mugen",
-  });
-  upsertRelationship(relationships, {
-    name: "Anayss",
-    note: "Anayss asks whether Panda is claiming she beat Nexia better; Panda answers `Nope` and then hands the boast straight back with `You said that about yourself.` It is teasing with a very Panda boundary: she will play, but she is not carrying somebody else's flex for them.",
-  });
+  for (const relationship of pandaRelationships) upsertRelationship(relationships, relationship);
 
   allCharacters[pandaIndex] = {
     ...panda,
-    aliases: [...new Set([...(panda.aliases ?? []), "Marian", "Marian Kage", "PanPan"])],
+    aliases: mergeUnique([...(panda.aliases ?? []), "PanPan", "Marian Kage", "mariankage"]),
+    role: "Historical Staff",
     logline:
-      "Panda can smell Wall trouble almost immediately, stop a confusing bit with one tiny `wait`, and hand a boast straight back to whoever tried to pin it on her. She already knows her own reputation is weird; the room does not need to break the news.",
-    tags: [...new Set([...(panda.tags ?? []), "Wall", "Dry refusal", "Self-aware weirdness", "Petty Crimes"])],
+      "Historical Staff member whose Panda thing became a whole social vocabulary: friends can greet a return as `panda`, Marian writes Panda into shared bits, and one Wizard101 panda set somehow becomes ears + outfit + mount because restraint has left the building.",
+    tags: mergeUnique([...(panda.tags ?? []), "Historical Staff", "Wall", "Panda persona", "Wizard101", "Petty Crimes"]),
     relationships,
-    quotes: [
-      ...new Set([
-        ...(panda.quotes ?? []),
-        "I'm guessing wall of shamed...or famed.",
-        "wait",
-        "Nope",
-        "You said that about yourself.",
-        "It's not that surprising to find weird stuff from me though.",
-        ":( i tried putting those in spoiler",
-        "sorry >.<",
-      ]),
-    ],
-    timeline: [
-      ...(panda.timeline ?? []),
-      {
-        date: "2020-09-23",
-        title: "She already knows where this is going",
-        description:
-          "A `PANDA DUNGEON GIRL ZD` post lands and Panda's next surviving line is `I'm guessing wall of shamed...or famed.` The preserved sequence is enough to catch the instinct even though it is not a formal reply edge.",
-      },
-      {
-        date: "2020-09-26",
-        title: "Wait. Then prosecute accurately.",
-        description:
-          "Mugen pings Panda into a Wall scene; Panda says `wait` and follows the removed-video discussion until she knows what happened. Later that day Anayss tries to hand her a Nexia boast and Panda returns it: `Nope` / `You said that about yourself.`",
-      },
-      {
-        date: "2020-11-02",
-        title: "Weirdness, already self-certified",
-        description:
-          "Mugen says not even Panda is safe. Panda's defense is not innocence: `It's not that surprising to find weird stuff from me though.` She knows the file on herself and appears broadly at peace with it.",
-      },
-      {
-        date: "2021-03-31",
-        title: "The spoiler button betrays her",
-        description:
-          "Something meant for spoiler formatting lands badly and Panda immediately goes `:( i tried putting those in spoiler` and `sorry >.<`. Tiny embarrassment, quick accountability, no theatrical escape attempt.",
-      },
-    ],
+    quotes: mergeUnique([
+      ...(panda.quotes ?? []),
+      "should change it to 'with Panda'",
+      ":PandaPERFECTION:",
+      "livin the panda dream",
+    ]),
   };
   characterById.set("panda", allCharacters[pandaIndex]);
+} else {
+  const panda: Character = {
+    id: "panda",
+    name: "Panda",
+    aliases: ["PanPan", "Marian Kage", "mariankage"],
+    billing: "legacy",
+    role: "Historical Staff",
+    era: "2021–2023+",
+    logline:
+      "Historical Staff member whose Panda thing became a whole social vocabulary: friends can greet a return as `panda`, Marian writes Panda into shared bits, and one Wizard101 panda set somehow becomes ears + outfit + mount because restraint has left the building.",
+    tags: ["Historical Staff", "Wall", "Panda persona", "Wizard101", "Petty Crimes"],
+    relationships: pandaRelationships,
+    quotes: [
+      "should change it to 'with Panda'",
+      ":PandaPERFECTION:",
+      "livin the panda dream",
+    ],
+  };
+  allCharacters.push(panda);
+  characterById.set("panda", panda);
 }
