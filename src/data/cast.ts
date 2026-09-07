@@ -342,6 +342,43 @@ if (saraIndex >= 0) {
   };
 }
 
+// Kiro's seeded entry knows the formal history; the Wall pass finally makes the
+// person legible. Kiro can prosecute with receipts, get summoned into somebody
+// else's nonsense almost on command, and then escalate the premise until the
+// defendant/prosecutor distinction has stopped being useful.
+const kiroIndex = allCharacters.findIndex((character) => character.id === "kiro");
+if (kiroIndex >= 0) {
+  const kiro = allCharacters[kiroIndex];
+  const relationships = [...(kiro.relationships ?? [])];
+  if (!relationships.some((relationship) => relationship.name === "Daya")) {
+    relationships.push({
+      name: "Daya",
+      note: "Daya repeatedly summons Kiro into visual jokes with almost no setup; Kiro can answer `is ... Kiro` with `N-n-n-no..` / `Who's kiro`, true-reply `Hi yes` to a later summon, and eventually counter-file Daya back on the Wall. Easy evidence-room familiarity, not hierarchy or romance.",
+      href: "/characters/daya",
+    });
+  }
+
+  const quotes = [...(kiro.quotes ?? [])];
+  for (const quote of [
+    "Being petty:R_damn:",
+    "Body = deceased / Wig = still living:z_sus:",
+    "N-n-n-no..",
+    "Who's kiro",
+    "Im a cerberus breed coz i got three holes like a pretzel",
+    "Then it will be my mission to make it our primary home",
+  ]) {
+    if (!quotes.includes(quote)) quotes.push(quote);
+  }
+
+  allCharacters[kiroIndex] = {
+    ...kiro,
+    logline: "Retired Officer whose Wall personality is much less retired: Kiro files petty evidence, is absurdly easy to summon into somebody else's bit, and tends to answer a premise by making it structurally stupider.",
+    tags: [...new Set([...(kiro.tags ?? []), "Wall", "Receipt filer", "Escalation artist", "Petty Crimes"])],
+    relationships,
+    quotes,
+  };
+}
+
 export const castGroups = baseGroups.map((group) => {
   if (group.id !== "archive-cast") return { ...group, characterIds: [...group.characterIds] };
   const characterIds = [...group.characterIds];
