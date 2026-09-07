@@ -5,53 +5,60 @@ const addIfMissing = (character: Character) => {
   if (!allCharacters.some((candidate) => candidate.id === character.id)) allCharacters.push(character);
 };
 
-// Run 601 — Daycare. Akuma's surviving scene is tiny but person-shaped: peer-newbie
-// language, an immediate VC invitation, and a mock-stakes ultimatum that stays social
-// rather than becoming fake authority or a documented departure.
+// Run 601 — Daycare. Same stable account across Sebno/Akuma/.M a t s u. support:
+// game-facing identity changes, but Anthos and Mugen still greet the older Seb shorthand.
+// The onboarding-shaped scenes are not used to invent exact leave/rejoin or role chronology.
 addIfMissing({
   id: "akuma",
-  name: "Akuma",
-  aliases: ["sebno6720"],
+  name: "Akuma / .M a t s u.",
+  aliases: ["Sebno", "akuma3518", "神Nyx道"],
   billing: "legacy",
   role: "Archive-era Daycare cast",
-  era: "2021–",
+  era: "2020–2022",
   logline:
-    "Calls Mugs and Gilli `fellow newbies`, summons both toward voice chat, then waits about eighteen seconds before upgrading the invitation to `Or else I quit... permanently.` Fake leverage; extremely real commitment to the bit.",
-  tags: ["Daycare", "Voice chat", "Newcomer", "Mock stakes"],
+    "The game-facing label changes and the admin paperwork happens again; the social recognition does not. Anthos gets `seb` immediately, and months later Mugen gets `sebs` before the server housekeeping is even finished.",
+  tags: ["Daycare", "Return", "Alias continuity", "Re-entry"],
   relationships: [
     {
-      name: "Mugen",
-      note: "Akuma addresses Mugs as one of the `fellow newbies` in the same voice-chat summons, keeping the interaction peer-level rather than pretending to seniority.",
-      href: "/characters/mugen",
+      name: "Anthos",
+      note: "When the account self-identifies through Sebno in late 2020, Anthos answers `haiii seb!!!` immediately — familiar shorthand without a reunion speech.",
+      href: "/characters/anthos",
     },
     {
-      name: "Gilli",
-      note: "Gilli receives the same `fellow newbies` invitation and theatrical follow-up. The scene is a shared social summons, not evidence that Akuma recruited or managed Gilli.",
-      href: "/characters/gilli",
+      name: "Mugen",
+      note: "When the same stable account returns with different game-facing details in late 2021, Mugen leads with `WEBA bb sebs!` and only then handles the ordinary server-role/navigation chores.",
+      href: "/characters/mugen",
     },
   ],
   quotes: [
-    "@Mugs @Gilli enter vc fellow newbies",
-    "Or else I quit... permanently",
+    "Sebno/S10- Underlords or previously Rebellation (merge)",
+    "神Nyx道, Abaddon",
   ],
 });
 
-// Run 601 — Wall. Yochan's authored Wall style is radically economical: post the
-// exhibit, classify the offense in a few words, trust the room to understand the rest.
-// Attached images remain POSTED BY Yochan only; maker/capturer/subjects are uninspected.
+// Run 601 — Wall. Yochan's authored Wall footprint is low-verbiage but increasingly
+// active: gallery bursts, direct Candy teasing, then screenshot sourcing from SEA.
+// Attached media remains POSTED BY Yochan only; maker/capturer/subjects are uninspected.
 addIfMissing({
   id: "yochan",
-  name: "Yochan",
-  aliases: ["foxkanojo", "YｏＣｈａｎ9"],
+  name: "YｏＣｈａｎ9",
+  aliases: ["Yochan", "foxkanojo"],
   billing: "legacy",
   role: "Archive-era Wall cast",
-  era: "2020–",
+  era: "2021",
   logline:
-    "A media-first Wall filer whose captions can be `Another shame`, `Hunter spotted`, a lone 🤔, or a prediction that somebody is about to become a repeat customer. Almost no closing argument; apparently the exhibit already knows its charges.",
-  tags: ["Wall", "Screenshot Court", "Media-first", "Low-verbiage"],
+    "A Wall regular with spectator-sized prose and filer-sized participation: `👀`, quick laughs, a direct `oink oink` at Candy, then a SEA-sourced screenshot followed by immediate defeat at the paste-to-Global step.",
+  tags: ["Wall", "Screenshot Court", "Low-verbiage", "Evidence runner"],
+  relationships: [
+    {
+      name: "Candy",
+      note: "A July piggy bit ends in Yochan directly tagging Candy with `oink oink`; Candy is the sole final-export scream-reactor on that ping. It reads as easy teasing, not a closeness ranking.",
+    },
+  ],
   quotes: [
-    "Another shame",
-    "Hunter spotted",
-    "That person is gonna be on it everyday 👀",
+    "@~Candy~ oink oink",
+    "Another shame:Hehe:",
+    "From server sea🤣 🤣",
+    "But idk how to paste to raja global😂 😂",
   ],
 });
