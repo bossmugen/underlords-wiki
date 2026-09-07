@@ -1,22 +1,22 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-07 — Run 599 stable census_
+_Last updated: 2026-09-07 — Run 600 stable census_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. `bossmugen/underlords:master` `CANON_LOCKS.md` remains the highest-priority identity/role correction layer and wins over miner-local hypotheses, integration prose, site alias drift, or account-level ambiguity until Mugs explicitly changes it. Earlier detailed run history remains in durable per-run reports; this file is the current operational snapshot.
 
 ## Current census
 
-Mandatory full census: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**. Run 599 closes at **0 newly discovered branches, 0 unread pending-review tails, 8 reviewed `pending_publication` MAIN families, 0 backlog, and 0 overdue**.
+Mandatory full census: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**. Run 600 closes at **0 newly discovered branches, 0 unread pending-review tails, 8 reviewed `pending_publication` MAIN families, 0 backlog, and 0 overdue**.
 
-Every active miner ref still exactly matches the Run 598 consumed frontier. There was therefore no legitimate new intake delta to review in Run 599, no raw archive was re-mined, and no consumed SHA moved. Both Club-Only recovery lanes remain current/saturated at `e45fb11c9239e236231bb65645dfd0285bc0078b` and `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`.
+Every active miner ref still exactly matches the Run 599 consumed frontier. There was therefore no legitimate new intake delta to review in Run 600, no raw archive was re-mined, and no consumed SHA moved. Both Club-Only recovery lanes remain current/saturated at `e45fb11c9239e236231bb65645dfd0285bc0078b` and `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`.
 
 The eight reviewed publication-held MAIN families remain Backroom, Birthdays / PR / VC, Daycare, Louvre / AI / Athenaeum / Other Games, Meems, Whiskey, QOTD / Officers, and Wall. `pending_publication` means reviewed debt, not unread mining.
 
-## Run 599 — stable census / no reader mutation
+## Run 600 — stable census / no reader mutation
 
-No miner branch advanced beyond its consumed SHA. No new lore, duplicate evidence family, identity correction, attribution change, conflict resolution, or rabbit-hole movement arrived after the final Run 598 close.
+No miner branch advanced beyond its consumed SHA. No new lore, duplicate evidence family, identity correction, attribution change, conflict resolution, or rabbit-hole movement arrived after Run 599.
 
-Reader-facing WIKI files changed **0**. Latest verified/deployed WIKI reader remains Run 598 SHA **`e064f7a6661af20e2d0320cbd3187e1469fa1e3b`**. Because Run 599 changed only integration-state/report documentation, no fresh Astro build or Pages deployment is claimed.
+Reader-facing WIKI files changed **0**. Latest verified/deployed WIKI reader remains Run 598 SHA **`e064f7a6661af20e2d0320cbd3187e1469fa1e3b`**. Because Run 600 changed only integration-state/report documentation, no fresh Astro build or Pages deployment is claimed.
 
 MAIN reader-facing files also changed **0**. No fresh MAIN source-verification / Astro / built-output verification / production deployment is claimed for an unchanged reader tree.
 
@@ -83,7 +83,7 @@ The Wall miner's corpus-local line saying Akariel is “not safely Zyrcant” do
 
 ## MAIN vs WIKI split
 
-MAIN reader-facing files changed **0** in Runs 598 and 599. Julian and Bishop remain WIKI-sized at this boundary. Zhēnxī was already ahead on both surfaces. Louvre's new memory read remains held to the **Ricochet** owner pending exact-context backfill rather than being mirrored into Rich or published prematurely. The eight MAIN publication-held families remain reviewed debt.
+MAIN reader-facing files changed **0** in Runs 598–600. Julian and Bishop remain WIKI-sized at this boundary. Zhēnxī was already ahead on both surfaces. Louvre's new memory read remains held to the **Ricochet** owner pending exact-context backfill rather than being mirrored into Rich or published prematurely. The eight MAIN publication-held families remain reviewed debt.
 
 Known production-gated MAIN maintenance, including Nothien's stale visible body-copy pronouns, remains held for a run that can execute the required MAIN reader verification/deploy path.
 
