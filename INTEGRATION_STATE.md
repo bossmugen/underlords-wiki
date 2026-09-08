@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-08 — Run 637_
+_Last updated: 2026-09-08 — Run 638_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks remain the highest-priority identity/role correction layer. Per-run history is durable in `INTEGRATION_REPORT_RUN_*.md`; this file tracks the current reconciled frontier.
 
@@ -8,7 +8,7 @@ MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:ma
 
 Mandatory full census: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**.
 
-At Run 637 close:
+At Run 638 close:
 
 - newly discovered refs: **0**
 - unread active tails: **0**
@@ -28,6 +28,14 @@ Current reviewed frontiers relevant to the latest rounds:
 - Daycare — `9abed7c002bbd98af88003e7c43b3cc7f0992d4a`
 - Whiskey — `613f87c05eb6659bb0b9a4a720ca7a1bf106b748`
 - Wall — `c0570df165d8797123423ce99eb925adfa333206`
+
+## Run 638 — stable census
+
+All 30 active miner refs remained exactly at their Run 637 consumed frontiers in both the opening census and the later re-check. No branch had a changed `archive-intake/*` handoff, so there was no checkpoint-first review candidate, no anti-starvation branch to rotate into, and no raw archive was reopened.
+
+No new lore, relationship read, duplicate family, conflict, rabbit-hole movement, Cast dossier, Episode, Running Gag, Quote, Location, or Gallery/media note was warranted. MAIN and WIKI both changed **0 reader-facing files**.
+
+No build/deploy cycle was triggered for reader-neutral bookkeeping. The latest exact verified/deployed WIKI reader therefore remains Run 637 SHA **`8b8ff0317a5e416afa032f59a6e8d76c2c0068e1`**.
 
 ## Run 637 — Pride Wall deepener + canonical-name repair
 
@@ -58,7 +66,7 @@ Later Run 637 report/state commits are reader-neutral `[skip ci]`; the exact liv
 
 ## MAIN split
 
-MAIN changed **0 reader-facing files** in Run 637. Its existing Pride biography already owns the major surveillance/exposure character spine, including the Wall orientation, capture-risk awareness, Gilli watcher exchange, and the later shame-to-proud reclassification. The newly reviewed fake escape, Rooks/RV pursuit, self-filing, and sticker-stash details remain accepted Wall publication debt for a future intentional person-first MAIN fold rather than mirrored WIKI prose.
+MAIN changed **0 reader-facing files** in Runs 637 and 638. Its existing Pride biography already owns the major surveillance/exposure character spine, including the Wall orientation, capture-risk awareness, Gilli watcher exchange, and the later shame-to-proud reclassification. The newly reviewed fake escape, Rooks/RV pursuit, self-filing, and sticker-stash details remain accepted Wall publication debt for a future intentional person-first MAIN fold rather than mirrored WIKI prose.
 
 No MAIN source-verification/Astro/built-output/deployment result is claimed for an unchanged reader tree. MAIN production is deliberately decoupled from integrator pushes.
 
