@@ -24,12 +24,23 @@ const upsertRelationship = (
   }
 };
 
-// Run 680 Daycare support handoff: Oyasumi's useful contradiction is volume
-// versus recognizability. He can say almost nothing and still leave a signature:
-// one dry verdict, or the same flashbang-cat response whenever light mode appears.
+// Run 680 Daycare + late-Wall support handoff: Oyasumi's useful contradiction is
+// volume versus recognizability. He can say almost nothing and still leave a
+// signature: one dry verdict, or the same flashbang-cat response whenever light
+// mode appears. Wall's later exact pass upgrades that from a loose recurrence to
+// three recovered uses of the same reaction asset plus a direct Rummy verdict.
 const oyasumiIndex = allCharacters.findIndex((character) => character.id === "oyasumi");
 if (oyasumiIndex >= 0) {
   const oyasumi = allCharacters[oyasumiIndex];
+  const relationships = [...(oyasumi.relationships ?? [])];
+
+  upsertRelationship(relationships, {
+    name: "Rummy",
+    note:
+      "Rummy repeatedly supplies the light-mode evidence that activates Oyasumi's otherwise dry courtroom voice. In May 2024 Rummy tags him in a screenshot packet and Oyasumi answers, `The only thing shameful here is the fact that you're on light mode`; in October another Rummy screenshot is followed by Oyasumi deploying the same flashbang-cat GIF again. Rich's next-day `dark side` callback and Rummy's answer show the theme had become remembered group history, without establishing an exact origin or closeness ranking.",
+    href: "/characters/rummy",
+  });
+
   allCharacters[oyasumiIndex] = {
     ...oyasumi,
     logline:
@@ -41,19 +52,25 @@ if (oyasumiIndex >= 0) {
       "Recurring reaction GIF",
       "Petty Crimes",
     ]),
+    relationships,
     quotes: appendUnique(oyasumi.quotes, [
       "This is such a cursed image",
       "The ultimate betrayal",
       "A face only a mother could love",
       "Most intelligible ul conversation",
       "There’s just some shameful stuff out here",
+      "The only thing shameful here is the fact that you're on light mode",
     ]),
     claims: appendUnique(oyasumi.claims, [
       "Across separate 2022 Wall scenes Oyasumi repeatedly compresses his reaction into short dry verdicts, and from 2023 into 2024 he repeatedly reuses the same blind-cat / flashbang GIF around light-mode screenshots; the May 2024 recurrence is explicitly inside a light-mode discussion.",
+      "The same exact `cat-blind-flashbang-light-mode` Tenor reaction is recovered under Oyasumi's account on 2023-03-19, 2023-09-25, and 2024-10-10. On 2024-05-08, after Rummy tags him in a screenshot packet, Oyasumi says `The only thing shameful here is the fact that you're on light mode`.",
+      "On 2024-10-11 Rich true-replies to Rummy's prior screenshot with `I thought we made you switch to the dark side one day`; Rummy answers `We did....that was 7 months ago....`. This is participant memory that the light-mode dispute already had history, not an exact switch date or origin receipt.",
     ]),
     antiFanon: appendUnique(oyasumi.antiFanon, [
       "The repeated light-mode reaction is a running UI-preference joke; it does not establish medical light sensitivity.",
       "Oyasumi calling Cogumelo `my boy` supports familiar joking ease only; it is not treated as literal family, romance, or a closeness ranking.",
+      "Oyasumi and Rummy's repeated light-mode teasing supports a bounded recurring joke lane, not an exact origin, formal enforcement role, or closeness hierarchy.",
+      "Rummy's screenshots are confirmed only as POSTED BY Rummy in this handoff; their pixels were not inspected, so MADE BY / CAPTURED BY / FEATURING and exact visual subject remain unresolved. Oyasumi posts the Tenor reaction but did not make the third-party GIF.",
     ]),
   };
   characterById.set("oyasumi", allCharacters[oyasumiIndex]);
