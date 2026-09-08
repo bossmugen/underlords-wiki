@@ -116,7 +116,6 @@ const alainaCharacter: Character = {
     {
       name: "Marian",
       note: "Across two Wall scenes Alaina can question Marian's framing and Marian can correct her back without either exchange becoming a fight. `I think that is tho` gets a direct account-level explanation; the useful texture is ordinary corrective familiarity, not a closeness ranking.",
-      href: "/characters/marian",
     },
   ],
   quotes: [
