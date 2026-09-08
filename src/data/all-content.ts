@@ -3,6 +3,7 @@ import { episodes as coreEpisodes, gags as coreGags } from "./wiki";
 import "./canonicalize-cast";
 import "./integrator-cast-run658-wall";
 import "./integrator-cast-run661-wall";
+import "./integrator-cast-run663-wall";
 
 type LooseRecord = Record<string, unknown>;
 type Gag = { id: string; name: string; logline: string };
@@ -12,7 +13,7 @@ const run661Gags: Gag[] = [
     id: "wall-fame-moment",
     name: "The Wall Tries Fame",
     logline:
-      "The room had been calling shame `fame` since 2020, but by September 2021 somebody finally asks for a genuinely positive `FAME moment`. Marian remembers Eos's proposal; Gilli immediately calls it their first; Marian says it deserved an award. The word was old. The wholesome category was the new joke.",
+      "The room had been calling shame `fame` since 2020, but by September 2021 somebody finally asks for a genuinely positive `FAME moment`. Marian remembers Eos's proposal; Gilli immediately calls it their first; Marian says Eos has earned a fame award. The word was old. The wholesome category was the new joke.",
   },
 ];
 
