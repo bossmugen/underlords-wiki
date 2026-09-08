@@ -209,51 +209,32 @@ if (alainaIndex >= 0) {
   allCharacters.push(alainaCharacter);
 }
 
-const supportTechIndex = allCharacters.findIndex((character) => character.id === "support-tech");
-const supportTechCharacter: Character = {
-  id: "support-tech",
-  name: "Support Tech",
-  aliases: ["✔️ Support Tech", "supporttech900"],
-  billing: "legacy",
-  role: "Archive-era Wall cast",
-  era: "2021–2023+",
-  logline: "Wall participant who learns the room's prosecution ritual almost in real time and immediately decides being exposed is fun. Confusion becomes `Is this where you expose Peopl` and then `Ehehehhehe`; a month later getting caught is `Me UH gOt EXpOsE WEE`, while a later filing gets the mock-victim version, `WhY U expOse Me`. The useful contradiction is that the same chaos-noise register can go abruptly soft when Snow may be hurting: `Bee stink hurt you 😔`.",
-  tags: ["Archive cast", "Wall", "Rapid acclimation", "Mock defendant", "Exposure-positive", "Self-incrimination", "Kinetic humor", "Mugen summons", "Soft concern", "Disappearance / return", "Petty Crimes"],
-  relationships: [
-    {
-      name: "Mugen",
-      note: "Support Tech can summon Mugen with almost no setup right beside Wall media on both sides of a long authored gap: 2021 goes attachment → `@Mugen`; 2023 goes `@Mugen` → attachment. The recurrence supports persistent low-setup Wall familiarity, not a closeness ranking or formal role.",
-      href: "/characters/mugen",
-    },
-    {
-      name: "Snow",
-      note: "Snow posts an image, tags Support Tech shortly afterward, and Support Tech later true-replies to that exact image parent with `Bee stink hurt you 😔`. The direct edge supports a small soft-check-in register inside the room's bee-pun mess; the uninspected image does not tell us what happened to Snow.",
-      href: "/characters/snow",
-    },
-  ],
-  quotes: [
-    "I'm confused myself 😨",
-    "Is this where you expose Peopl",
-    "Ehehehhehe",
-    "Me UH gOt EXpOsE WEE",
-    "WhY U expOse Me",
-    "Feed me Soba",
-    "Bee stink hurt you 😔",
-  ],
-};
-
-if (supportTechIndex >= 0) {
-  const supportTech = allCharacters[supportTechIndex];
-  allCharacters[supportTechIndex] = {
-    ...supportTech,
-    ...supportTechCharacter,
-    aliases: [...new Set([...(supportTech.aliases ?? []), ...supportTechCharacter.aliases!])],
-    tags: [...new Set([...(supportTech.tags ?? []), ...supportTechCharacter.tags!])],
-    relationships: supportTechCharacter.relationships,
-    quotes: [...new Set([...(supportTech.quotes ?? []), ...supportTechCharacter.quotes!])],
+const deanIndex = allCharacters.findIndex((character) => character.id === "dean");
+if (deanIndex >= 0) {
+  const dean = allCharacters[deanIndex];
+  allCharacters[deanIndex] = {
+    ...dean,
+    aliases: [...new Set([...(dean.aliases ?? []), "Support Tech", "✔️ Support Tech", "supporttech900", "SEU"])],
+    logline: "Mugen's online son whose relationship with her predates Dragon Raja, and the same person later wearing the Support Tech display name on the Wall. As Support Tech, Dean learns Screenshot Court almost in real time, celebrates being exposed, complains theatrically when exposed again, then can abruptly go soft with `Bee stink hurt you 😔` when Snow may be hurting.",
+    tags: [...new Set([...(dean.tags ?? []), "Wall", "Rapid acclimation", "Mock defendant", "Exposure-positive", "Soft concern", "Petty Crimes"])],
+    relationships: [
+      ...(dean.relationships ?? []),
+      {
+        name: "Snow",
+        note: "Under the Support Tech display name, Dean true-replies to Snow's exact image parent with `Bee stink hurt you 😔`. The direct edge supports a small soft-check-in register inside the room's bee-pun mess; the uninspected image does not tell us what happened to Snow.",
+        href: "/characters/snow",
+      },
+    ],
+    quotes: [...new Set([
+      ...(dean.quotes ?? []),
+      "Is this where you expose Peopl",
+      "Ehehehhehe",
+      "Me UH gOt EXpOsE WEE",
+      "WhY U expOse Me",
+      "Feed me Soba",
+      "Bee stink hurt you 😔",
+    ])],
   };
-} else {
-  allCharacters.push(supportTechCharacter);
 }
 
 const zhenxiIndex = allCharacters.findIndex((character) => character.id === "zhenxi");
@@ -398,13 +379,128 @@ if (momoIndex >= 0) {
   };
 }
 
+const eosIndex = allCharacters.findIndex((character) => character.id === "eos");
+if (eosIndex >= 0) {
+  const eos = allCharacters[eosIndex];
+  const relationships = [...(eos.relationships ?? [])];
+  const renIndex = relationships.findIndex((relationship) => relationship.name === "Ren");
+  const renRelationship = {
+    name: "Ren",
+    note: "Ren publicly calls Eos `the bestie` in July 2021, then months later directly replies to Eos's Wall verdict `it was very necessary` with `I agree with this statement`. The label and the later backing land as easy, publicly acknowledged friendship with a lightly conspiratorial support reflex inside the joke — not romance, family, or a closeness leaderboard.",
+    href: "/characters/ren",
+  };
+  if (renIndex >= 0) relationships[renIndex] = renRelationship;
+  else relationships.push(renRelationship);
+  allCharacters[eosIndex] = {
+    ...eos,
+    logline: "Low-ceremony without being low-warmth: Eos can counter-prosecute Marian when Screenshot Court comes for her, while Ren gets a softer lane — public `bestie` language, cookies, cute shares and the kind of direct `I agree with this statement` backing that needs almost no setup.",
+    tags: [...new Set([...(eos.tags ?? []), "Ren friendship", "Public affiliation", "Easy backing"])],
+    relationships,
+    quotes: [...new Set([...(eos.quotes ?? []), "it was very necessary"])],
+  };
+}
+
+const baileyIndex = allCharacters.findIndex((character) => character.id === "bailey-babe");
+const baileyCharacter: Character = {
+  id: "bailey-babe",
+  name: "Bailey_Babe",
+  aliases: ["tripwire1419", "Tipp"],
+  billing: "legacy",
+  role: "Archive-era 2021 cast",
+  era: "2021+",
+  logline: "Mock authority with a built-in self-own button: Bailey can announce `Am still your master`, declare `who needs sleep`, or insist she is a ghost, then cheerfully let Cookie or reality puncture the pose and turn the collapse into the next joke. Being caught is not a threat to the bit; being caught is usually Act Two.",
+  tags: ["Archive cast", "Lobby", "Wall", "Club Only", "Mock authority", "Self-owning transparency", "Bedtime litigation", "Exposure culture", "Petty Crimes"],
+  relationships: [
+    {
+      name: "Cookie",
+      note: "Cookie repeatedly catches Bailey's claims and answers in the same joke language: `TIPP` when Bailey is still awake, Ghostbusters for `I'm a ghost 👻`, and a tongue-out reaction for `Am still your master`. Bailey laughs, resists, then usually supplies the evidence against herself. Comfortable reciprocal teasing; not literal hierarchy or romance.",
+      href: "/characters/cookie",
+    },
+    {
+      name: "Ren",
+      note: "Ren recognizes `tipp? UwU` during Bailey's delayed intake and later appears in room-routing contact. It is a real recognition/contact lane, but the current receipts do not justify inflating it into a close dyad.",
+      href: "/characters/ren",
+    },
+    {
+      name: "Gilli",
+      note: "Gilli closes Bailey's delayed onboarding with `gotcha in hun`. Practical access help is supported; recruitment origin, formal appointment, and exact in-game membership chronology are not.",
+      href: "/characters/gilli",
+    },
+  ],
+  quotes: [
+    "Am still your master",
+    "who needs sleep",
+    "I’m a ghost 👻",
+    "I actually am going to sleep rn",
+    "Someone take my phone away pls",
+    "I forgot to do that Sowwy",
+    "You really trying to expose us lmao",
+  ],
+};
+
+if (baileyIndex >= 0) {
+  const bailey = allCharacters[baileyIndex];
+  allCharacters[baileyIndex] = {
+    ...bailey,
+    ...baileyCharacter,
+    aliases: [...new Set([...(bailey.aliases ?? []), ...baileyCharacter.aliases!])],
+    tags: [...new Set([...(bailey.tags ?? []), ...baileyCharacter.tags!])],
+    relationships: baileyCharacter.relationships,
+    quotes: [...new Set([...(bailey.quotes ?? []), ...baileyCharacter.quotes!])],
+  };
+} else {
+  allCharacters.push(baileyCharacter);
+}
+
+const anayssIndex = allCharacters.findIndex((character) => character.id === "anayss");
+const anayssCharacter: Character = {
+  id: "anayss",
+  name: "Anayss",
+  billing: "legacy",
+  role: "Archive-era Wall / Lobby cast",
+  era: "2020–2022+",
+  logline: "Selective receipt-hunter, not a firehose: Anayss can needle Snow, settle in with popcorn while the room spirals, ignore some of his routine nonsense because she is already used to it, then personally file the material that actually clears her threshold. Later, when she lands on the defendant side, she simply asks for a lawyer.",
+  tags: ["Archive cast", "Wall", "Lobby", "Selective prosecutor", "Instigator-spectator", "Snow familiarity", "Role reversal", "Petty Crimes"],
+  relationships: [
+    {
+      name: "Snow",
+      note: "Snow explicitly treats `ana` as one of the people he expects might post his nonsense; Anayss can tell him she is so used to the kind of things he says that she ignored one candidate, and when she does file something she tags him with `let me post this -laughs-`. Familiar teasing/evidence procedure, not a closeness rank.",
+      href: "/characters/snow",
+    },
+    {
+      name: "Mugen",
+      note: "When Anayss later becomes the subject of the Wall joke, she true-replies to Mugen's lawyer GIF with `I need a lawyer ~ I was misplaced`. The prosecutor can sit in the defendant chair without leaving the ritual.",
+      href: "/characters/mugen",
+    },
+  ],
+  quotes: [
+    "@Snow is that how you choke on nuts too? (:",
+    "Im used to you saying that kinda things so I just ignored it 😛",
+    "@Drink water reminder let me post this -laughs- @Snow",
+    "I need a lawyer ~ I was misplaced :Cute_Catpeek:",
+  ],
+};
+
+if (anayssIndex >= 0) {
+  const anayss = allCharacters[anayssIndex];
+  allCharacters[anayssIndex] = {
+    ...anayss,
+    ...anayssCharacter,
+    tags: [...new Set([...(anayss.tags ?? []), ...anayssCharacter.tags!])],
+    relationships: anayssCharacter.relationships,
+    quotes: [...new Set([...(anayss.quotes ?? []), ...anayssCharacter.quotes!])],
+  };
+} else {
+  allCharacters.push(anayssCharacter);
+}
+
 export const castGroups = previousGroups.map((group) => ({
   ...group,
   characterIds: [...group.characterIds],
 }));
 
 const archiveCastGroup = castGroups.find((group) => group.id === "archive-cast");
-for (const characterId of ["rose", "alaina", "support-tech", "zhenxi", "nekoz"]) {
+for (const characterId of ["rose", "alaina", "zhenxi", "nekoz", "bailey-babe", "anayss"]) {
   if (archiveCastGroup && !archiveCastGroup.characterIds.includes(characterId)) {
     archiveCastGroup.characterIds.push(characterId);
   }
