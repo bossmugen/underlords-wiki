@@ -116,6 +116,57 @@ if (zyrcantIndex >= 0) {
   };
 }
 
+const shikiIndex = allCharacters.findIndex((character) => character.id === "shiki");
+if (shikiIndex >= 0) {
+  const shiki = allCharacters[shikiIndex];
+  const relationships = [...(shiki.relationships ?? [])];
+  const upsert = (name: string, note: string, href?: string) => {
+    const index = relationships.findIndex((relationship) => relationship.name === name);
+    const next = href ? { name, note, href } : { name, note };
+    if (index >= 0) relationships[index] = next;
+    else relationships.push(next);
+  };
+
+  upsert(
+    "Mugen",
+    "`Sensei being sensei after 5 years` is recognition-through-behavior, not a ceremonial title dump: names and games have changed, but Mugen still recognizes Shiki by the fact that he is explaining how the system works. The callback supports long continuity without inventing an appointment date.",
+    "/characters/mugen",
+  );
+  upsert(
+    "Moon",
+    "When Where Winds Meet auto-promotes Shiki into guild leadership, Moon supplies the mechanical explanation and Shiki simply acts on it. The scene is practical context exchange, not a prestige dispute or friendship ranking.",
+    "/characters/moon",
+  );
+
+  allCharacters[shikiIndex] = {
+    ...shiki,
+    logline: "Sensei by behavior more than ceremony: Shiki can spend years explaining builds and systems, survive enough alias drift to joke that UL has too many names and rooms, accidentally inherit a WWM guild crown, ask `wat how im guild leader lol`, pass it on, do his dailies and go back to HoK.",
+    tags: [...new Set([...(shiki.tags ?? []), "Where Winds Meet", "Teaching", "Systems help", "Alias drift", "Accidental guild leader", "HoK", "Petty Crimes"])],
+    relationships,
+    quotes: [...new Set([
+      ...(shiki.quotes ?? []),
+      "i got many name in this discord",
+      "just so many room in UL you get lost",
+      "wat how im guild leader lol",
+      "i pass to rich",
+      "I log in wwm then go daily and then back to HoK",
+    ])],
+    claims: [
+      ...(shiki.claims ?? []),
+      "In the 2025–2026 Where Winds Meet return, Shiki's actual teaching/helping behavior is recognizable enough that Mugen calls it `Sensei being sensei after 5 years` despite alias drift.",
+      "WWM mechanics unexpectedly put guild leadership on Shiki; his response is `wat how im guild leader lol`, followed by the game-local handoff `i pass to rich`.",
+      "Shiki later describes WWM as a daily-stop before returning to HoK, so game expertise and exclusive game devotion are not treated as the same trait.",
+    ],
+    antiFanon: [
+      ...(shiki.antiFanon ?? []),
+      "WWM Guild Leader is an in-game mechanic, not a UL promotion, succession, or appointment.",
+      "`Sensei being sensei after 5 years` supports behavioral reputation; it does not date a formal Sensei appointment from current/export role arrays.",
+      "`i pass to rich` stays game-local here and does not establish UL hierarchy, friendship rank, or command succession.",
+      "Shiki's HoK-over-WWM routine is a dated play habit, not a permanent preference.",
+    ],
+  };
+}
+
 const alainaIndex = allCharacters.findIndex((character) => character.id === "alaina");
 const alainaCharacter: Character = {
   id: "alaina",
@@ -205,13 +256,55 @@ if (supportTechIndex >= 0) {
   allCharacters.push(supportTechCharacter);
 }
 
+const nekozIndex = allCharacters.findIndex((character) => character.id === "nekoz");
+const nekozCharacter: Character = {
+  id: "nekoz",
+  name: "Nekoz",
+  aliases: [".notouch", "Nekoz (orsaken)"],
+  billing: "legacy",
+  role: "Archive-era Wall cast",
+  era: "2020",
+  logline: "Microscopic surviving Wall footprint, immaculate comic timing: Rooks says `I’ll walk myself out`; 4.213 seconds later Nekoz's entire authored Wall bibliography answers with one sleepy emote. Almost no prose, but the placement does all the heckling.",
+  tags: ["Archive cast", "Wall", "Deadpan drive-by", "Low-verbiage", "Timing", "Petty Crimes"],
+  relationships: [
+    {
+      name: "Rooks",
+      note: "Historical Rookie Cookie says `I’ll walk myself out`; Nekoz drops a sleepy emote 4.213 seconds later. The chronology makes a deadpan tag more likely than not, but there is no structured Reply pointer and no closeness claim.",
+      href: "/characters/rooks",
+    },
+  ],
+  quotes: [":7063_homu_zzzz:"],
+  claims: [
+    "Nekoz has exactly one surviving authored Wall message in the current census: a sleepy emote 4.213 seconds after Rooks says `I’ll walk myself out`.",
+  ],
+  antiFanon: [
+    "One sleepy emote does not establish that Nekoz is habitually sleepy, lazy, bored, dismissive, or socially distant.",
+    "The Nekoz/Rooks connection is a probable timing-based response, not a structured Discord Reply edge or closeness ranking.",
+    "Gilli posted the screenshot preceding the pocket; MADE BY, CAPTURED BY, and FEATURING remain unresolved without separate visual attribution.",
+  ],
+};
+
+if (nekozIndex >= 0) {
+  const nekoz = allCharacters[nekozIndex];
+  allCharacters[nekozIndex] = {
+    ...nekoz,
+    ...nekozCharacter,
+    aliases: [...new Set([...(nekoz.aliases ?? []), ...nekozCharacter.aliases!])],
+    tags: [...new Set([...(nekoz.tags ?? []), ...nekozCharacter.tags!])],
+    relationships: nekozCharacter.relationships,
+    quotes: [...new Set([...(nekoz.quotes ?? []), ...nekozCharacter.quotes!])],
+  };
+} else {
+  allCharacters.push(nekozCharacter);
+}
+
 export const castGroups = previousGroups.map((group) => ({
   ...group,
   characterIds: [...group.characterIds],
 }));
 
 const archiveCastGroup = castGroups.find((group) => group.id === "archive-cast");
-for (const characterId of ["rose", "alaina", "support-tech"]) {
+for (const characterId of ["rose", "alaina", "support-tech", "nekoz"]) {
   if (archiveCastGroup && !archiveCastGroup.characterIds.includes(characterId)) {
     archiveCastGroup.characterIds.push(characterId);
   }
