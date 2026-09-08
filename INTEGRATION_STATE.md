@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-08 — Run 655 Suzimasu review_
+_Last updated: 2026-09-08 — Run 656 no-delta census_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks remain the highest-priority identity/role correction layer.
 
@@ -8,7 +8,7 @@ MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:ma
 
 Closing census: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**.
 
-Run 655 closes with:
+Run 656 closes with:
 
 - newly discovered refs: **0**
 - unread active tails: **0**
@@ -16,21 +16,27 @@ Run 655 closes with:
 - overdue: **0**
 - reviewed MAIN publication-held families: **6**
 
-The six MAIN publication-held families are Backroom; Birthdays/PR/VC; Daycare; Meems; Whiskey; and QOTD/Officers. These are reviewed publication debt, not unread mining.
+The six MAIN publication-held families remain Backroom; Birthdays/PR/VC; Daycare; Meems; Whiskey; and QOTD/Officers. These are reviewed publication debt, not unread mining.
 
 Both Club-Only recovery lanes remain current / saturated:
 
 - `archive-miner/club-only-2021-2026-hourly` — `e45fb11c9239e236231bb65645dfd0285bc0078b`
 - `archive-miner-clubonly-2020-hourly` — `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`
 
-Latest reviewed moving frontiers:
+Latest reviewed moving frontiers remain:
 
 - Louvre / AI Art / Athenaeum / Other Games — `e069ae53ff8feb02c6f5969b42b044d030591246`
 - Wall — `e0884ece0523ee3bee93c7837a98bb9bc40c7b33`
 
+## Run 656 — no-delta census
+
+The full branch census was read twice against MAIN's controlling ledger. Every active miner head still matches its `last_consumed_sha`; no new branch or advanced/unconsumed suffix exists. No miner handoff was eligible for checkpoint-first review this run, so no consumed SHA changed and no recovery lane was churned for ceremony.
+
+No new lore family entered reconciliation. Existing unresolved identity, reply-topology, visual-context, and media-provenance rabbits carry forward unchanged.
+
 ## Latest exact reader publication
 
-Exact reader SHA remains **`3b1ea82135e950068821f5dabfea5731234e4efa`** from Run 654. Run 655 changes no reader-facing WIKI files, so it does not manufacture a new reader receipt.
+Exact reader SHA remains **`3b1ea82135e950068821f5dabfea5731234e4efa`** from Run 654. Runs 655 and 656 changed no reader-facing WIKI files, so neither manufactures a new reader receipt.
 
 Run 654 verification remains the latest reader verification:
 
@@ -41,24 +47,11 @@ Run 654 verification remains the latest reader verification:
   - actual Pages deploy job `102042241569` — success
   - report/status job `102042312464` — success
 
-## Run 655 review reconciliation — Suzimasu / Mob | BAPE / Suzi
+## Latest reviewed person reconciliation — Suzimasu / Mob | BAPE / Suzi
 
-Reviewed checkpoint-first and intake-only:
+Run 655 reviewed Louvre-family `e019a342649ee8d9a7c4a7b91ede3d01b6ba28ff` -> `e069ae53ff8feb02c6f5969b42b044d030591246` and Wall `9cb7043dbbbea3b8358ea236a15128f50a9b5632` -> `e0884ece0523ee3bee93c7837a98bb9bc40c7b33`, checkpoint-first and intake-only.
 
-- Louvre-family delta `e019a342649ee8d9a7c4a7b91ede3d01b6ba28ff` -> `e069ae53ff8feb02c6f5969b42b044d030591246`
-- Wall delta `9cb7043dbbbea3b8358ea236a15128f50a9b5632` -> `e0884ece0523ee3bee93c7837a98bb9bc40c7b33`
-
-Hard identity canon remains **Mob | BAPE / Suzimasu / Mob / BAPE = Suzi**.
-
-The Louvre-family handoff is currently a support-built scaffold because its assigned Louvre/Athenaeum rows remain retrieval-constrained. Its strongest safe person mechanism is familiar rather than new: when a small mistake, cursed experiment, or receipt catches Suzi, his recurring move is closer to **own / laugh / explain** than deny / retreat. `I HAD TO TRY IT LMAOOOO` is the cleanest articulation, but the direct reply target is Anayss's `:OkButWhy:` and does not by itself identify the underlying act.
-
-The Wall handoff strengthens the same axis with `Trying to win the wall of shame awards`, voluntary same-day filing after `Since were sharing`, the mustard-watermelon experiment, and later explanatory chatter. It also preserves the contradiction with Suzi's direct reassurance of Ren: `Aww it’s okay` / `I still wuv you`.
-
-### Why WIKI did not change
-
-The canonical WIKI `suzimasu` dossier already owns the structured version of this person: Founder / retired Consigliere, Wall self-incrimination, Ren reassurance, Tofu/mustard-watermelon contradiction, Petty Crimes, and representative quotes. Baby Lyssa and Anayss add bounded scene texture but do not materially improve the dossier enough to justify another overlay that simply says the same thing with more receipts.
-
-MAIN is also already materially richer on this axis, so Run 655 is a successful reviewed/no-public-change consumption pass rather than a publication pass.
+Hard identity canon remains **Mob | BAPE / Suzimasu / Mob / BAPE = Suzi**. The accepted person mechanism is already public on both surfaces: low-cost self-incrimination and cursed curiosity tend to resolve as **own / laugh / explain**, while direct reassurance and social repair remain part of the same person. No duplicate reader prose was added.
 
 ## Identity / provenance rails carried forward
 
@@ -66,7 +59,7 @@ MAIN is also already materially richer on this axis, so Run 655 is a successful 
 - Baby Lyssa's `image0.jpg` is POSTED BY Baby Lyssa only; maker, capturer and depicted subjects remain unresolved.
 - `I HAD TO TRY IT LMAOOOO` does not identify the action tried by itself.
 - Gemini/exorcism stays joke texture, not astrology-belief canon.
-- The Anthos 2020-08-25 candidate is now a four-image package introduced by `Behold. Anthos`; pixels remain uninspected, so it stays OPEN / PRE-WAVE-CANDIDATE / FOUR-IMAGE-VISUAL-CONTEXT-BLOCKED rather than clone-origin proof.
+- The Anthos 2020-08-25 candidate is a four-image package introduced by `Behold. Anthos`; pixels remain uninspected, so it stays OPEN / PRE-WAVE-CANDIDATE / FOUR-IMAGE-VISUAL-CONTEXT-BLOCKED rather than clone-origin proof.
 - Akariel remains Zyrcant by hard canon.
 - Rich / DragonRich and Ricochet / dragonrichard remain separate hard-canon people.
 - Earliest surviving wording is not guaranteed origin.
@@ -86,9 +79,7 @@ MAIN is also already materially richer on this axis, so Run 655 is a successful 
 
 ## MAIN routing
 
-Run 655 leaves **0 net reader-facing MAIN changes**. `src/content/people/suzimasu.md` already has the stronger person-first synthesis: voluntary Wall participation, mustard-watermelon field testing, Ren reassurance, Tofu's fruit argument, food/domesticity, first-impression collapse, and founder-with-no-dignity texture. No duplicate paragraph was warranted.
-
-No MAIN source-verification/Astro/built-output/deployment success is claimed for an unchanged reader tree.
+Run 656 leaves **0 reader-facing MAIN changes**. No source-verification/Astro/built-output/deployment success is claimed for an unchanged reader tree.
 
 ## Publication invariant
 
