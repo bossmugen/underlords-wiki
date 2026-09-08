@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-08 — Run 646 Support Tech / Zyrcant / late negative routing_
+_Last updated: 2026-09-08 — Run 647 no-tail census after Run 646 Support Tech / Zyrcant / late negative routing_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks remain the highest-priority identity/role correction layer. Per-run history is durable in `INTEGRATION_REPORT_RUN*.md`; this file is intentionally a compact current-state snapshot rather than a duplicate run ledger.
 
@@ -8,13 +8,15 @@ MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:ma
 
 Mandatory full census: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**.
 
-Run 646 closes with:
+Run 647 census-only close:
 
 - newly discovered refs: **0**
 - unread active tails: **0**
 - backlog: **0**
 - overdue: **0**
 - reviewed MAIN publication-held families: **8**
+
+The immediately preceding Run 646 pass consumed the late Wall tail through `7895a7a056ab5f5953e8b4b3acb02e63d172d3a6` after publishing Support Tech on WIKI. Run 647 re-enumerated every matching miner ref after that reconciliation and found no newer miner movement, so there was no reader-facing integration to perform.
 
 The eight publication-held families remain Backroom; Birthdays/PR/VC; Daycare; Louvre/AI/Athenaeum/Other Games; Meems; Whiskey; QOTD/Officers; Wall. These are reviewed MAIN publication debt, not unread mining.
 
