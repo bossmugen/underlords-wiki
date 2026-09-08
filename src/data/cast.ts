@@ -360,6 +360,44 @@ if (nekozIndex >= 0) {
   allCharacters.push(nekozCharacter);
 }
 
+const momoIndex = allCharacters.findIndex((character) => character.id === "momo");
+if (momoIndex >= 0) {
+  const momo = allCharacters[momoIndex];
+  const relationships = [...(momo.relationships ?? [])];
+  const miaIndex = relationships.findIndex((relationship) => relationship.name === "Mia");
+  const miaRelationship = {
+    name: "Mia",
+    note: "A mundane `U gottt raja??` gets a candid answer instead of a yes/no: Momo says she deleted Raja the previous year because she was burnt out and because `the one running my account quit too`. It is a useful game-history exchange, not by itself a closeness ranking or a license to identify the account-runner.",
+    href: "/characters/mia",
+  };
+  if (miaIndex >= 0) relationships[miaIndex] = miaRelationship;
+  else relationships.push(miaRelationship);
+
+  allCharacters[momoIndex] = {
+    ...momo,
+    logline: "Selective participant rather than loyalist to the machine: Momo can delete Raja when burnout makes maintaining it not worth the trouble, stay socially and creatively present in UL anyway, then use AI/filter toys while bluntly vetoing the recurring bad likeness with `It always makes me pale`. She will use the tool; the tool does not get final authority over whether it still looks like her.",
+    tags: [...new Set([...(momo.tags ?? []), "AI Art", "Dragon Raja", "Burnout", "Self-recognition", "Selective participation", "Creative continuity", "Petty Crimes"])],
+    relationships,
+    quotes: [...new Set([
+      ...(momo.quotes ?? []),
+      "I used too but last year I deleted it. Was burnt out and the one running my account quit too.",
+      "It always makes me pale",
+    ])],
+    claims: [
+      ...(momo.claims ?? []),
+      "In an April 18, 2023 AI Art-era exchange with Mia, Momo says she had deleted Dragon Raja the previous year because she was burnt out and because `the one running my account quit too`; her assigned UL creative participation continues after that deletion.",
+      "In AI Art, Momo says a transformation/filter process `always makes me pale`, identifying a recurring self-representation mismatch rather than one isolated render.",
+    ],
+    antiFanon: [
+      ...(momo.antiFanon ?? []),
+      "`It always makes me pale` is Momo's self-recognition complaint about a generated/filter result. It is not permission to infer her race, ethnicity, real-world complexion, or biometric appearance from the artifact.",
+      "The identity and relationship of `the one running my account` remain unresolved; do not convert the phrase into friend, partner, paid pilot, account manager, or any other specific role without a separate bridge.",
+      "Deleting Raja after burnout does not establish that Momo permanently left the game or left UL; the reviewed creative-room record instead shows continued UL participation after the deletion.",
+      "Momo's indexed media-bearing posts remain POSTED events until each object earns MADE BY, CAPTURED BY, or FEATURING attribution separately.",
+    ],
+  };
+}
+
 export const castGroups = previousGroups.map((group) => ({
   ...group,
   characterIds: [...group.characterIds],
