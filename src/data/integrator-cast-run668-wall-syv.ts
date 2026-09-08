@@ -5,24 +5,24 @@ const syvIndex = allCharacters.findIndex((character) => character.id === "syv");
 const existing = syvIndex >= 0 ? allCharacters[syvIndex] : undefined;
 const relationships = [...(existing?.relationships ?? [])];
 
-const richRelationship = {
-  name: "Rich",
-  note: "Syv can resume a probable recurring needle with almost no setup — `I responded I like reminding you every now and then` — and later tells Rich simply `You disappeared for weeks`. The flat delivery understates the attention required to notice the absence. This is familiar teasing and absence-tracking, not a closeness rank.",
-  href: "/characters/rich",
+const ricochetRelationship = {
+  name: "Ricochet",
+  note: "Syv can resume a probable recurring needle with almost no setup — `I responded I like reminding you every now and then` — and later tells Ricochet simply `You disappeared for weeks`. The flat delivery understates the attention required to notice the absence. This is familiar teasing and absence-tracking, not a closeness rank.",
+  href: "/characters/ricochet",
 };
-const richIndex = relationships.findIndex((relationship) => relationship.name === "Rich");
-if (richIndex >= 0) relationships[richIndex] = richRelationship;
-else relationships.push(richRelationship);
+const ricochetIndex = relationships.findIndex((relationship) => relationship.name === "Ricochet");
+if (ricochetIndex >= 0) relationships[ricochetIndex] = ricochetRelationship;
+else relationships.push(ricochetRelationship);
 
 const syvCharacter: Character = {
   id: "syv",
   name: "Syv",
-  aliases: ["syveon", "🍃Syv the Adorable🍃"],
-  billing: "legacy",
-  role: "Archive-era Wall cast",
-  era: "2021–2023+",
-  logline: "Dry pragmatic observer with the emotional presentation of a status report: a bad grade becomes recovery math, Rich disappearing for weeks becomes one flat sentence, and her own dumb moment becomes `admittedly not my brightest moment in life` with the exhibit personally attached.",
-  tags: ["Archive cast", "Wall", "Pragmatic damage control", "Low-drama attentiveness", "Absence tracker", "Self-filing", "Petty Crimes"],
+  aliases: ["syveon", "Syv the Adorable", "🍃Syv the Adorable🍃"],
+  billing: existing?.billing ?? "guest",
+  role: existing?.role ?? "VIP · Amaurot",
+  era: existing?.era ?? "2020–present",
+  logline: "Amaurot-side VIP with the emotional presentation of a status report: a bad grade becomes recovery math, Ricochet disappearing for weeks becomes one flat observation, and her own dumb moment becomes `admittedly not my brightest moment in life` with the exhibit personally attached.",
+  tags: ["VIP", "Amaurot", "Wall", "Pragmatic damage control", "Low-drama attentiveness", "Absence tracker", "Self-filing", "Petty Crimes"],
   relationships,
   quotes: [
     "I’m counting that as a pass",
@@ -34,9 +34,9 @@ const syvCharacter: Character = {
   ],
   antiFanon: [
     "Syv saying this may be the first time she has been `mildly shown` on the Wall is her own perception, not a guaranteed first surviving or original appearance.",
-    "The January 2022 Rich callback is probable from conversational context; surrounding screenshot pixels were not inspected and are not used to identify the pictured offense or featured people.",
+    "The January 2022 callback and noticed-absence pocket belongs to Ricochet / `dragonrichard`, not Rich / DragonRich. The probable callback comes from conversational context; surrounding screenshot pixels were not inspected and are not used to identify the pictured offense or featured people.",
     "The July 2023 attachment is POSTED BY Syv only unless separate media evidence establishes who made, captured, or appears in it.",
-    "`You disappeared for weeks` supports a bounded noticed-absence scene; it does not establish why Rich was away from UL generally.",
+    "`You disappeared for weeks` supports a bounded noticed-absence scene; it does not establish why Ricochet was away from UL generally.",
   ],
 };
 
