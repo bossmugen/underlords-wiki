@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-08 — Run 640_
+_Last updated: 2026-09-08 — Run 641_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks remain the highest-priority identity/role correction layer. Per-run history is durable in `INTEGRATION_REPORT_RUN_*.md`; this file tracks the current reconciled frontier.
 
@@ -8,7 +8,7 @@ MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:ma
 
 Mandatory full census: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**.
 
-At Run 640 close:
+At Run 641 close:
 
 - newly discovered refs: **0**
 - unread active tails: **0**
@@ -16,7 +16,7 @@ At Run 640 close:
 - overdue: **0**
 - reviewed MAIN publication-held families: **8**
 
-The eight `pending_publication` families are Backroom; Birthdays/PR/VC; Daycare; Louvre/AI/Athenaeum/Other Games; Meems; Whiskey; QOTD/Officers; Wall. This is reviewed MAIN publication debt, not unread miner work.
+The eight `pending_publication` families remain Backroom; Birthdays/PR/VC; Daycare; Louvre/AI/Athenaeum/Other Games; Meems; Whiskey; QOTD/Officers; Wall. This is reviewed MAIN publication debt, not unread miner work.
 
 Both Club-Only recovery lanes remain current / saturated:
 
@@ -27,42 +27,46 @@ Current reviewed frontiers relevant to the latest rounds:
 
 - Daycare — `9abed7c002bbd98af88003e7c43b3cc7f0992d4a`
 - Whiskey — `613f87c05eb6659bb0b9a4a720ca7a1bf106b748`
-- Wall — `c0570df165d8797123423ce99eb925adfa333206`
+- Louvre / AI Art / Athenaeum / Other Games — `30051464a2d2b1364ffb308459d037f9e061cfa7`
+- Wall — `0ff1f080c5e90426267eac7dc7189a09df3bbd5b`
 
-## Run 640 — stable census
+## Run 641 — Seth correction + Zoshaa deepener
 
-All 30 active miner refs remained exactly at their Run 639 consumed frontiers in the opening census and closing sweep. No branch had a changed `archive-intake/*` handoff, so there was no checkpoint-first review candidate, no anti-starvation branch to rotate into, and no raw archive was reopened.
+Two unread intake-only tails existed at opening and both were reviewed checkpoint-first and consumed.
 
-No new lore, relationship read, duplicate family, conflict, rabbit-hole movement, Cast dossier, Episode, Running Gag, Quote, Location, or Gallery/media note was warranted. MAIN and WIKI both changed **0 reader-facing files**.
+Louvre corrected Seth / `seraph_000`'s Wall reply topology. The parent is Kiro under hard-canon alias HicUUOOOOGH asking `Seraph needs some explaining to do`; Seth answers `Lol,no explanation for you,dear`. Combined with a mundane Lobby handoff where Seth supplies requested role fields, the compact person read is operationally forthcoming versus theatrically withholding when Screenshot Court asks for explanations. Seth is now a WIKI archive-cast dossier, intentionally not a padded MAIN biography.
 
-No build/deploy cycle was triggered for reader-neutral bookkeeping. The latest exact verified/deployed WIKI reader therefore remains Run 637 SHA **`8b8ff0317a5e416afa032f59a6e8d76c2c0068e1`**.
+Wall deepened Zoshaa / NintendoShitcube's cursed-premise mechanism. Gilli says the thought of boiled mayo makes him gag; Zoshaa treats the recoil as an editing note and makes the imaginary drink warmer, thicker and more McDonald's-specific; RV joins the premise. WIKI now carries that peer-made-target ↔ enthusiastic-co-author contradiction. MAIN already had the stronger person-first version, so no duplicate paragraph was added there.
 
-## Latest reader publication — Run 637
+The Louvre checkpoint's retained Ricochet / `dragonrichard` → Rich merge proposal conflicts with the current canonical/public entity model and was not used. Shiki q18 advanced backstage to `0+/25−` across 25 trustworthy-audited parents with 28/53 unaudited; it remains OPEN / PARTIAL.
 
-Run 637 published the Pride Wall deepener and repaired the historical `Rookie Cookie` relationship label to hard-canon primary name **Rooks**. Exact verified/deployed WIKI reader SHA: **`8b8ff0317a5e416afa032f59a6e8d76c2c0068e1`**.
+## Latest reader publication — Run 641
 
-Verification remains:
+Exact verified/deployed WIKI reader SHA: **`43a1fdc787f9b202d3d23eb4416171df3740d3bc`**.
 
-- Build Underlords Wiki run `34191312775` — success
-  - Astro job `101949784171` — success
-- Deploy Underlords Wiki Preview run `34191312773` — success
-  - build/artifact job `101949813430` — success
-  - deploy job `101949888012` — success
-  - report/status job `101949929550` — success
+Verification:
+
+- Build Underlords Wiki run `34195900717` — success
+  - Astro job `101963434928` — success
+- Deploy Underlords Wiki Preview run `34195900759` — success
+  - build/artifact job `101963435198` — success
+  - deploy job `101963525954` — success
+  - report/status job `101963574193` — success
 
 Later integration report/state commits are reader-neutral `[skip ci]`; they do not replace the exact live reader receipt above.
 
 ## MAIN split
 
-MAIN changed **0 reader-facing files** in Run 640. The eight publication-held families remain reviewed debt awaiting intentional person-first folds; they are not unread mining.
+MAIN changed **0 reader-facing files** in Run 641. Zoshaa's accepted Wall material was already person-first and public there; Seth remains too narrow for a rich biography. The eight publication-held families remain reviewed debt awaiting intentional MAIN folds; they are not unread mining.
 
 No MAIN source-verification/Astro/built-output/deployment result is claimed for an unchanged reader tree. MAIN production is deliberately decoupled from integrator pushes.
 
 ## Open / held rabbits
 
-- Ten q18 parent `783996881645371392` remains **OPEN / PARTIAL / RETRIEVAL-BLOCKED**; the zero-match retry cannot certify absence.
+- Shiki q18 is **OPEN / PARTIAL** at `0+/25−` across 25 trustworthy-audited parents; 28/53 remain unaudited.
+- Ten q18 parent `783996881645371392` remains **OPEN / PARTIAL / RETRIEVAL-BLOCKED**.
 - Pride / Illien `we've lost Pride's body` remains **WALL-TEXT-EXHAUSTED / SIBLING-CC-NOT-SURFACED**; origin/day/count unresolved.
-- Shiki's `0+/20−` result belongs to an earlier run and was not re-claimed here.
+- Ricochet / `dragonrichard` and Rich remain separate public entities; the Louvre miner-local merge proposal is held as a conflict rather than applied.
 
 ## Publication invariant
 
