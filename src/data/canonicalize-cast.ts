@@ -49,8 +49,19 @@ const additions: Character[] = [
     billing: "guest",
     role: "VIP",
     era: "2021",
-    logline: "Mugen hands Bishop a server map; two minutes later Bishop announces `I get lost easily`, and the Wall immediately begins manufacturing an office file around him.",
-    tags: ["VIP", "Lobby", "Wall"],
+    logline: "Mugen hands Bishop a server map; two minutes later he says `I get lost easily`. Tofu then turns his awkward/funny moments into recurring Wall material, and Bishop's instinct is not to retreat but to ask whether the attention is a compliment, a warning, or evidence that somebody likes him.",
+    tags: ["VIP", "Lobby", "Whiskey", "Wall", "Photo Submissions", "Mock paranoia", "Petty Crimes"],
+    relationships: [
+      { name: "Tofu", note: "Tofu notices, archives and reuses Bishop's funny/awkward moments; Bishop repeatedly converts being watched into another joke instead of getting defensive. Three weeks later his own caption softens the same thread: teaching Tofu to waltz turned out `a lot cuter than expected`.", href: "/characters/tofu" },
+      { name: "Mugen", note: "Mugen handles Bishop's surviving Lobby routing and hands him the server map; later, when Bishop mock-interrogates Tofu about who has been talking, Mugen heightens it with `The file in my office says so` and Bishop immediately folds into `W-which file?`.", href: "/characters/mugen" },
+    ],
+    quotes: [
+      "I get lost easily",
+      "Why? What have you heard? Who you talk to? You with the feds?",
+      "Is that a compliment, or a warning?",
+      "Teaching @Tofu🐝 to Waltz turned out to be a lot cuter than expected... ☺️",
+      "Personally, I think we should bring back heiroglyohics.... Or... Yeah that word ....",
+    ],
   },
   {
     id: "churro",
