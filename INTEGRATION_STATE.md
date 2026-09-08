@@ -1,14 +1,14 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-08 — Run 645 Daycare / Alaina_
+_Last updated: 2026-09-08 — Run 646 Zyrcant / late Birthdays negative routing_
 
-MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks remain the highest-priority identity/role correction layer. Per-run history is durable in `INTEGRATION_REPORT_RUN_*.md`; this file tracks the current reconciled frontier.
+MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks remain the highest-priority identity/role correction layer. Per-run history is durable in `INTEGRATION_REPORT_RUN*.md`; this file tracks the current reconciled frontier.
 
 ## Current census
 
 Mandatory full census: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**.
 
-At Run 645 close:
+At Run 646 close:
 
 - newly discovered refs: **0**
 - unread active tails: **0**
@@ -25,10 +25,29 @@ Both Club-Only recovery lanes remain current / saturated:
 
 Current reviewed frontiers relevant to the latest rounds:
 
-- Daycare — `8ee75b62e0b4137da2b854c90598ac3dbffa84d2`
+- Daycare — `7ee59da4bfe71e4560e4ee16be9945156458b09b`
+- Birthdays / PR / VC — `ca4730329160cb86be28c6512962000a7a355444`
 - Whiskey — `613f87c05eb6659bb0b9a4a720ca7a1bf106b748`
 - Louvre / AI Art / Athenaeum / Other Games — `30051464a2d2b1364ffb308459d037f9e061cfa7`
 - Wall — `a6df3fc2bcd75146c1ac712be996e5432f7f926f`
+
+## Run 646 — Zyrcant requests incarceration, then discovers running
+
+Daycare advanced again immediately after the prior close. The suffix was reviewed checkpoint-first and intake-only from consumed `8ee75b62e0b4137da2b854c90598ac3dbffa84d2` through stable head `7ee59da4bfe71e4560e4ee16be9945156458b09b`.
+
+The additive person axis is canonical Zyrcant / Akariel. The useful pattern is not merely that she gets caught in Wall jokes. She **volunteers** for the institution. She asks `put me on the wall of shame 😩`; Ren answers `You got to e a r n your place here`; Zyrcant accepts with `fair lmaooo`. Months later ShiyaX says she was `caught in 4k`, and the defense is `oooh shit *runs*`. She later self-files material, narrates herself tackling Gabu, and eventually presses the familiar Snow-is-old room button with `-runs-` already waiting as the exit animation.
+
+The structure matters more than any single receipt: Zyrcant is comfortable enough to help author her own prosecution. That sits neatly beside her own `Quiet at first but a crackhead once I’m comfortable` self-read and the already-established protective/familiar-person side. Quiet is the default setting; familiarity is where the kinetic nonsense boots.
+
+WIKI deepened the existing Zyrcant owner rather than creating a duplicate. The structured layer now carries bounded relationship texture with Rich, Ren, ShiyaX, Gabu and Snow; ritual-play / self-incrimination / kinetic-humor tags; and representative quotes including the Snow-age bait and immediate escape. The Snow relationship remains joke ecology, not a special dyad. The Gabu tackle remains authored stage direction, not literal physical contact.
+
+Direct later-Daycare Zyrcant body is still source-gated. These supporting same-ID scenes were **not** relabeled as Daycare events merely because the Daycare miner surfaced them.
+
+MAIN intentionally received no new Zyrcant paragraph. Its existing biography already owns the richer person-first former-Amaurot-deputy → intimidating-first-read / protective familiar self → volunteer-defendant → caught/fleeing → self-filing mechanism. The new Snow-old beat is useful WIKI structure but not worth receipt-bloating an already coherent MAIN biography.
+
+A second miner moved during the closing sweep: Birthdays/PR/VC advanced from consumed `a66d90814ea333f00022d9c8e8a9b93e9b31ef1e` to `ca4730329160cb86be28c6512962000a7a355444`. Its `last_seen_sha` was persisted before review. The checkpoint then confirmed a serious negative-routing pass, not new lore. GOODBYE UNDERLORDS raw-image/EXIF hunting failed to expose a materializable `unknown-11.jpg`; that route is rotated, but the failure does **not** mean the file had no metadata. Stable Mia remains POSTED BY only. Wren's generic assigned-room/title/known-phrase route also produced no direct source object and is rotated until a new exact handle appears. Main-chat Daycare remains disqualified as a substitute for the Daycare voice sidecar.
+
+The 279-hour bot rabbit also narrowed materially. The exact announcement/attachment object route now resolves one known Announcements textual home for Mugen's `WE OFFICIALLY BROKE THE BOT FAM! Approx 279 hours...` report. A nearby Saber Yakuza Peak event is chronology only, not bot identity evidence. No second repost or bot-identifying source surfaced; the rabbit remains OPEN / MATERIALLY NARROWED.
 
 ## Run 645 — Alaina checks whether sanity is still an option
 
@@ -36,15 +55,15 @@ Daycare was the only opening advanced miner branch. It was reviewed checkpoint-f
 
 Alaina / `alaina_iris_k` now has enough repeated behavior for a compact WIKI dossier. Her best surviving Wall beat starts with `.... so is this just out of context....?`; Marian answers `no. that was the context`; Alaina simply says `Okay` and follows with a BRB emote. In a later scene she challenges Marian's first denial with `I think that is tho`, then accepts the more specific explanation that Eos is on Marian's account. The person read is not generic confusion. Alaina checks the referent, tests the sane explanation, and updates immediately when a better one arrives. She is literal without being stiff, and the reaction emote after the cursed answer reads like an exit sign after sanity has failed inspection.
 
-A concurrent WIKI reader commit then deepened the same canonical Alaina dossier with additional Daycare texture rather than creating a duplicate person. That concurrent work was reconciled and retained. The first Run-645 implementation briefly supplied `/characters/marian` as a relationship route; the built-site audit correctly failed because Marian does not currently have that public route. The link was removed rather than guessed or redirected to a different identity, and the repaired reader passed the full WIKI build/deploy suite.
+A concurrent WIKI reader commit then deepened the same canonical Alaina dossier with additional Daycare texture rather than creating a duplicate person. The first Run-645 implementation briefly supplied `/characters/marian` as a relationship route; the built-site audit correctly failed because Marian does not currently have that public route. The link was removed rather than guessed or redirected to a different identity, and the repaired reader passed the full WIKI build/deploy suite.
 
 Backstage Daycare work also pinned the exact Discord object creation timestamp for channel ID `836032785490771968`: **2021-04-26 00:15:48.799 UTC / 2021-04-25 17:15:48.799 PDT**. The human creator remains unresolved. Baby Lyssa linking Daycare on 2021-06-02 is navigation, not creation evidence; no creator claim was published. Alaina's exact Lobby age remains private/sensitive and was omitted. `Eos is on my account` does not become Eos = Marian identity canon. Uninspected media keeps its existing attribution verbs.
 
-MAIN intentionally received no Alaina reader paragraph this round. The material is coherent but still compact; it is banked for a future person-first Daycare fold rather than padded into a faux-rich biography.
+MAIN intentionally received no Alaina reader paragraph that round. The material is coherent but still compact; it is banked for a future person-first Daycare fold rather than padded into a faux-rich biography.
 
 ## Run 644 — Tony recurrence, Athena media catastrophe
 
-Wall was the only advanced miner branch. It was reviewed checkpoint-first and intake-only from consumed `6edcbd465f6ebbc8685b4cc6c3245c61f9f3e160` through stable head `a6df3fc2bcd75146c1ac712be996e5432f7f926f`.
+Wall was reviewed checkpoint-first and intake-only from consumed `6edcbd465f6ebbc8685b4cc6c3245c61f9f3e160` through stable head `a6df3fc2bcd75146c1ac712be996e5432f7f926f`.
 
 TonyTonyChopper's new value was recurrence, not a new event. Marian/Panda files Tony in February and again in May 2022; Tony repeats the theatrical STOP / DON'T-SHOW-THEM defense while remaining inside the social exchange. Rummy supplies `*pat pat*` in both exposure pockets, and Tony later turns the same embarrassment register into self-authored material with `I am actually the real ceo of bad spelling` / `Even spell one letter things right`. MAIN already owns the richer person-first version of this mechanism, so the tail was meaning-deduped there. WIKI deepened Tony's structured Panda and Rummy relationships, repeat-defendant / care-tease / self-roast tags, and representative quotes.
 
@@ -70,32 +89,35 @@ A final miner-head recheck then caught a late intake-only Wall suffix. Mr. Strea
 
 The Louvre checkpoint's retained Ricochet / `dragonrichard` → Rich merge proposal conflicts with the current canonical/public entity model and was not used. Shiki q18 advanced backstage to `0+/30−` across 30 trustworthy-audited parents with 23/53 unaudited; it remains OPEN / PARTIAL.
 
-## Latest reader publication — Run 645
+## Latest reader publication — Run 646
 
-Final exact verified/deployed WIKI reader SHA: **`5770a6091ed2acc1c92ce0274ff5eb6515ceb26c`**.
+Final exact verified/deployed WIKI reader SHA: **`279d22c3d8ef4989cbbbd29a30be76bd8ade8c2d`**.
 
 Verification:
 
-- Build Underlords Wiki run `34202789281` — success
-  - Astro job `101985216630` — success
-- Deploy Underlords Wiki Preview run `34202789252` — success
-  - build/artifact job `101985216177` — success
-  - deploy job `101985364019` — success
-  - report/status job `101985437428` — success
+- Build Underlords Wiki run `34203817733` — success.
+- Deploy Underlords Wiki Preview run `34203817807` — success.
+  - build/artifact job `101988544630` — success.
+  - deploy job `101988686180` — success.
+  - report/status job `101988746993` — success.
 
-The earlier Run-645 reader attempt failed the built-site audit on a nonexistent Marian character route; that was a real verification failure, not ignored. The relationship remains published without a fabricated link. The subsequent repair passed, and concurrent reader SHA `5770a609...` then deepened Alaina while preserving the repair. Later integration state/report commits are reader-neutral `[skip ci]`; they do not replace the exact live reader receipt above.
+The Zyrcant reader change was concurrent with integration review and was reconciled rather than overwritten. It deepens the existing active Cast owner and preserves the MAIN/WIKI surface split. Later report/state commits are reader-neutral `[skip ci]`; they do not replace the exact live reader receipt above.
 
 ## MAIN split
 
-MAIN changed **0 reader-facing files** in Run 645. Alaina's new material is coherent WIKI-scale character texture and accepted future MAIN Daycare debt, not a reason to manufacture a padded biography. The broader eight publication-held families remain reviewed debt awaiting intentional MAIN folds; they are not unread mining.
+MAIN changed **0 reader-facing files** in Run 646. Zyrcant's current MAIN biography already owns the strong person-first story, so the new same-ID support packet was deduped there rather than appended. Birthdays/PR/VC produced only rotated negative routes and no publishable reader delta. The broader eight publication-held families remain reviewed debt awaiting intentional MAIN folds; they are not unread mining.
 
 No MAIN source-verification/Astro/built-output/deployment result is claimed for an unchanged reader tree. MAIN production is deliberately decoupled from integrator bookkeeping pushes.
 
 ## Open / held rabbits
 
-- Daycare channel ID `836032785490771968` has an exact object-creation timestamp — **2021-04-25 17:15:48.799 PDT** — but the human creator remains unresolved; naming one requires audit-log/executor evidence or user canon.
+- Direct later-Daycare Zyrcant body remains source-gated; same-ID support-room material is not relabeled as Daycare scenes.
+- The 279-hour bot identity is **OPEN / MATERIALLY NARROWED**. Exact announcement/attachment objects resolve one known Announcements home; Saber adjacency is not identity evidence. Reopen on screenshot pixels/readable bot ID, stable bot logs, explanatory repost, or user canon.
+- GOODBYE UNDERLORDS maker/deployment remains **OPEN**. Stable Mia is POSTED BY; MADE BY / CAPTURED BY / FEATURING remain unresolved. The current Library raw-binary/EXIF route is ROTATED until actual bytes surface.
+- Wren's generic assigned-room/title/known-phrase route is ROTATED; reopen on exact sidecar/source access, stable-ID hit, resolved reply/mention, or direct quarry artifact.
+- Daycare channel ID `836032785490771968` has exact object-creation timestamp **2021-04-25 17:15:48.799 PDT**, but the human creator remains unresolved.
 - Shiki q18 is **OPEN / PARTIAL** at `0+/35−` across 35 trustworthy-audited parents; 18/53 remain unaudited.
-- Woohyuk q18 is **OPEN / PARTIAL / ROUTE-UNSTABLE**. Authored-parent denominator is 95; a first-25 negative tranche is held separate until overlap against the older seven negatives is proven; the positive replay revalidated.
+- Woohyuk q18 is **OPEN / PARTIAL / ROUTE-UNSTABLE**. Authored-parent denominator is 95; the first-25 negative tranche remains separate until overlap against the older seven negatives is proven.
 - Ten q18 parent `783996881645371392` remains **OPEN / PARTIAL / RETRIEVAL-BLOCKED**.
 - Pride / Illien `we've lost Pride's body` remains **WALL-TEXT-EXHAUSTED / SIBLING-CC-NOT-SURFACED**; origin/day/count unresolved.
 - Ricochet / `dragonrichard` and Rich remain separate public entities; the Louvre miner-local merge proposal is held as a conflict rather than applied.
