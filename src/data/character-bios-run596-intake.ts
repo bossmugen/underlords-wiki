@@ -44,10 +44,11 @@ export const run596IntakeBios = {
   },
 
   plushie: {
-    dek: "Plushie asks what the Wall is for, accepts the answer, and eight and a half minutes later is already participating in a fake cover-up from Snow. Local orientation was apparently a speedrun.",
+    dek: "Plushie asks what the Wall is for, accepts the answer, and eight minutes later is already participating in a fake cover-up from Snow. Most of the rest of the file is `Lol`, emotes and tiny verdicts. Local orientation was apparently a speedrun.",
     overview: [
       "Plushie has one of the cleaner tiny acclimation scenes in the old Wall. They do not bluff. `What’s this channel for?` Rookie Cookie explains: this is where people get caught saying dumb stuff. Plushie answers `Okie doki`. That could have been the whole scene.",
       "It is not. Minutes later Rookie warns the room that Snow will come after them if they keep chatting there and points everybody toward Whiskey. Plushie immediately answers `Snow u saw nothing UwU`. The useful thing is the speed: uncertainty is not treated like embarrassment or a status problem. Ask for the grammar, get the grammar, start speaking it. One week later Plushie is back inside Rookie's self-submitted Wall mess without needing the premise explained again.",
+      "And that is basically how Plushie talks once they are in. Five of the thirteen surviving authored Wall messages are exactly `Lol`; another is `Lol what`, another is `Oof`, and two are emote-only. The low word count is not much of a barrier when the timing is this legible. Laugh, register the room, occasionally issue one tiny verdict — including `The panda is both adorable and dangerous` — and move on. Plushie does not need a paragraph when one `Lol` will apparently do.",
     ],
     history: [
       {
@@ -58,7 +59,7 @@ export const run596IntakeBios = {
       {
         date: "Oct. 26, 2020",
         title: "No second orientation required",
-        text: "Rookie posts `I’m telling on myself` with a Wall image and Plushie joins the chain with `Lol what`, emotes and another little comment. By the next week the room's basic evidence-joke premise is already ordinary enough to use.",
+        text: "Rookie posts `I’m telling on myself` with a Wall image and Plushie joins the chain with `Lol what`, emotes and `The panda is both adorable and dangerous`. By the next week the room's basic evidence-joke premise is ordinary enough to use without another explanation.",
       },
     ],
     characterNotes: [
@@ -70,11 +71,16 @@ export const run596IntakeBios = {
         title: "Okie doki",
         text: "The entire orientation ceremony is basically one question, one answer, `Okie doki`, move on. Extremely low paperwork for what follows.",
       },
+      {
+        title: "Five Lols and a panda verdict",
+        text: "Five of thirteen surviving authored Wall messages are exactly `Lol`; another is `Lol what`. The conversational instrument is apparently a very small percussion section. Also: `The panda is both adorable and dangerous`.",
+      },
     ],
     claims: [
       { date: "2020-10-19", evidence: "archive-confirmed", text: "Plushie asks `What’s this channel for?`; Rookie Cookie explains the Wall; Plushie answers `Okie doki`." },
       { date: "2020-10-19", evidence: "archive-confirmed", text: "After Rookie routes continued chatter toward Whiskey and invokes Snow, Plushie answers `Snow u saw nothing UwU`." },
-      { date: "2020-10-26", evidence: "archive-confirmed", text: "Plushie participates in Rookie Cookie's self-submitted Wall chain without another orientation exchange." },
+      { date: "2020-10-26", evidence: "archive-confirmed", text: "Plushie participates in Rookie Cookie's self-submitted Wall chain without another orientation exchange, adding `Lol what`, emotes and `The panda is both adorable and dangerous`." },
+      { date: "2020-10-27", evidence: "archive-confirmed", text: "Across Plushie's complete thirteen-message authored Wall footprint from Oct. 16–27, five messages are exactly `Lol`; the same footprint also includes `Lol what`, `Oof`, emote-only posts and the panda verdict." },
     ],
   },
 

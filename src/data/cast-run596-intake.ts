@@ -27,12 +27,12 @@ addIfMissing({
   ],
 });
 
-// Run 596 — Louvre/Wall support. Plushie asks for local grammar instead of bluffing
-// familiarity, then starts using the grammar almost immediately. Direct creative-room
-// chronology is still retrieval-constrained, so the public file stays anchored to the
-// Wall acclimation scene rather than inventing an art portfolio from one media post.
-// Current hard canon resolves Rookie Cookie as Rooks; keep the historical alias in-scene
-// while routing the relationship to the one canonical Rooks person.
+// Run 596 + Run 620 Wall deepener. Plushie asks for local grammar instead of bluffing
+// familiarity, then starts using the grammar almost immediately. The complete authored
+// Wall footprint sharpens the style: very small output, lots of `Lol`, and tiny verdicts
+// once the room is understood. Direct creative-room chronology is still constrained, so
+// keep the public file anchored to the Wall acclimation scene rather than inventing an art
+// portfolio from media-bearing posts. Rookie Cookie remains Rooks by hard canon.
 addIfMissing({
   id: "plushie",
   name: "Plushie",
@@ -41,16 +41,22 @@ addIfMissing({
   role: "Archive-era Wall / creative-room cast",
   era: "2020–",
   logline:
-    "Asks `What’s this channel for?`, accepts the answer with `Okie doki`, and eight and a half minutes later is already telling Snow `u saw nothing UwU`. Apparently local orientation was a speedrun.",
-  tags: ["Wall", "Creative rooms", "Fast acclimation", "Petty Crimes"],
+    "Asks `What’s this channel for?`, accepts the answer with `Okie doki`, and eight minutes later is already telling Snow `u saw nothing UwU`. The rest of the Wall file is mostly laughs, emotes, and tiny verdicts: ask for the grammar, learn it, become a gremlin.",
+  tags: ["Wall", "Creative rooms", "Fast acclimation", "Low-verbiage reactor", "Petty Crimes"],
   relationships: [
     {
       name: "Rooks",
-      note: "Rooks / Rookie Cookie gives Plushie the plain-language Wall explanation, later routes the room toward Whiskey, and Plushie absorbs the local grammar quickly enough to answer from inside the joke. A small guide-to-co-conspirator handoff, not a friendship ranking.",
+      note: "Rooks / Rookie Cookie gives Plushie the plain-language Wall explanation, later routes the room toward Whiskey, and one week later self-files evidence that Plushie meets with `Lol what` and the same easy room fluency. A small orientation-to-shared-bit handoff, not a friendship ranking.",
       href: "/characters/rooks",
     },
   ],
-  quotes: ["What’s this channel for?", "Okie doki", "Snow u saw nothing UwU"],
+  quotes: [
+    "What’s this channel for?",
+    "Okie doki",
+    "Snow u saw nothing UwU",
+    "Lol what",
+    "The panda is both adorable and dangerous",
+  ],
 });
 
 // Run 596 — Wall. Miihi's authored prose is tiny compared with the reaction footprint,
