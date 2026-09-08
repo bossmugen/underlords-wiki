@@ -187,6 +187,20 @@ const additions: Character[] = [
 
 const metadataOverrides: Record<string, Partial<Character>> = {
   new: { role: "Staff", tags: ["Staff"] },
+  illien: {
+    aliases: ["Euros", "eurosabraxas"],
+    role: "retired Officer",
+    logline: "Early Officer with a systems-reader streak: Illien clarifies the threshold, spots the hidden penalty, calls busted design busted, and still tells everybody how not to lose points. Skeptical about the machinery; useful inside it anyway.",
+    tags: ["Retired Officer", "Euros", "Dragon Raja", "Systems reader", "Practical help"],
+    relationships: [
+      { name: "Gilli", note: "A small 2020 warmth beat around useful information: after Gilli posts new CD keys, Illien answers with a heart and Gilli later returns one. It is easy reciprocal thanks, not a closeness ranking.", href: "/characters/gilli" },
+    ],
+    quotes: [
+      "Yeah, nothing to do about it -sips tea-",
+      "a useless contest is a good time to do it",
+      "if you don't get your reward from Anjou at the end, you don't only lose the reward, but the activity points",
+    ],
+  },
   // Hard canon lock: Akariel / Akariel™ / akariel_star are Zyrcant aliases,
   // not a separate person. Keep the Amaurot deputy context on the same file.
   zyrcant: {
