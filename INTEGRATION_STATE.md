@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-08 — Run 653 five-tail close_
+_Last updated: 2026-09-08 — Run 654 Wall Key/Ten close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks remain the highest-priority identity/role correction layer.
 
@@ -8,7 +8,7 @@ MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:ma
 
 The closing census is **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**.
 
-Run 653 closes with:
+Run 654 closes with:
 
 - newly discovered refs: **0**
 - unread active tails: **0**
@@ -23,100 +23,78 @@ Both Club-Only recovery lanes remain current / saturated:
 - `archive-miner/club-only-2021-2026-hourly` — `e45fb11c9239e236231bb65645dfd0285bc0078b`
 - `archive-miner-clubonly-2020-hourly` — `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`
 
-Current consumed/reviewed frontiers:
+Current reviewed frontiers relevant to the latest moving families:
 
 - Birthdays / PR / VC — `9cfb96e2e4f50bc41a70b6c00eedeeb58da743ad`
 - Daycare — `a528bc3351fdcb9e52a703588c3465794193f28c`
 - Louvre / AI Art / Athenaeum / Other Games — `e019a342649ee8d9a7c4a7b91ede3d01b6ba28ff`
 - Whiskey — `2354b3d743835a6baa950b5e1be698ff3ae65b53`
-- Wall — `f67a67b85a576e8fc42988979faeecb0512425ef`
-
-A final full active-branch check found those five heads unchanged at close; all other active miners likewise remain on their recorded consumed frontiers.
+- Wall — `9cb7043dbbbea3b8358ea236a15128f50a9b5632`
 
 ## Latest exact reader publication
 
-Exact reader SHA: **`01326a81eafff53407730b695a65a5089342c015`**.
+Exact reader SHA: **`3b1ea82135e950068821f5dabfea5731234e4efa`**.
 
-That reader contains the earlier Momo structured deepener plus the later Eos, Bailey_Babe/Tipp and Anayss integrations, and repairs the hard-canon identity mistake by merging the prior Support Tech public owner into **Dean / Beansprout / SEU** rather than preserving Support Tech as a separate person.
+That reader adds/reconciles Key / Captain Chihuahua as a structured retired-cast owner and folds the newest Wall archival-recall material into the person rather than creating another receipt dump. Key's WIKI shape is now: pre-Raja Mugen context; Ren's recurring `BroBro` / brother-style joke-family vocabulary; Gilli treating his nonsense as material worth preserving; Key returning in 2022 to audit how many times he appears on the Wall; and Mugen still able to identify and summon `@Captain Chihuahua` in a 2023 Wall pocket after more than five hundred authored-Wall-silent days.
 
 Verification on the exact reader SHA:
 
-- Build Underlords Wiki run `34215963788` — **success**
-  - Astro build job `102027648769` — success
-- Deploy Underlords Wiki Preview run `34215963790` — **success**
-  - build/artifact job `102027649668` — success
-  - actual Pages deploy job `102027796412` — success
-  - report/status job `102027856384` — success
+- Build Underlords Wiki run `34220461227` — **success**
+  - Astro build job `102042108279` — success
+- Deploy Underlords Wiki Preview run `34220461099` — **success**
+  - build/artifact job `102042108022` — success
+  - actual Pages deploy job `102042241569` — success
+  - report/status job `102042312464` — success
 
-Reader-neutral state/report commits after `01326a81...` do not replace it as the exact live reader receipt.
+Reader-neutral `[skip ci]` state/report commits after `3b1ea821...` do not replace it as the exact live reader receipt.
 
-## Run 653 review reconciliation
+## Run 654 review reconciliation
 
-### Birthdays / PR / VC — negative checkpoint consumed
+### Wall — Key / Captain Chihuahua
 
-The final unread tail was one checkpoint file on `archive-miner/birthdays-pr-vc-deep-2026-08-24-2325`, reviewed from `ca4730329160cb86be28c6512962000a7a355444` through `9cfb96e2e4f50bc41a70b6c00eedeeb58da743ad`.
+Reviewed checkpoint-first from consumed `f67a67b85a576e8fc42988979faeecb0512425ef` through branch head `9cb7043dbbbea3b8358ea236a15128f50a9b5632`, inspecting changed `archive-intake/*` handoffs only.
 
-No new public lore cleared:
+The genuinely additive public read is not another Key event. It is continuity of **archival recall**. In 2021 Gilli posts an uninspected screenshot and says `Had to document this moment in history`; Key answers `EYE???`; Gilli doubles down that it is important. In 2022 Key returns after enough absence for Ren to notice and visibly audits how many times he appears on the Wall, while Mugen and Gilli remember his old Screenshot Court reputation. In 2023 Mugen posts another uninspected screenshot, says `That's key BTW ehe`, and tags `@Captain Chihuahua` after 532 authored-Wall-silent days. Key has no surviving reply in that local pocket. That silence is not promoted into departure or social absence; the durable point is that his reputation remains legible enough to summon without reintroduction.
 
-- Mimi↔Momo: April 7/9, 2023 remains the earliest surviving **direct** twin-language scene currently surfaced, not the relationship's origin. Older 2022 shared reactions are proximity, not a direct relationship scene.
-- Akariel: assigned-quarry searches did not surface a direct authored scene, resolved reply, or assigned media/provenance item. That route is rotated, not converted into proof of absence.
-- `Gabu's Chair`: an older DiscordChatExporter-rendered mention label cannot safely date the nickname because resolved/export-time mention state is not historical nickname chronology.
-- several assigned source surfaces remain blocked.
+WIKI now owns that as a structured person dossier rather than mirroring MAIN's rich biography prose. MAIN already had the strongest person-first Key material, so this delta was duplicate/corroboration there and no new MAIN reader paragraph was warranted.
 
-No reader change was warranted. Consumed means reviewed; the older accepted MAIN Birthdays/PR/VC material remains publication debt.
+### Ten q18 correction / closure
 
-### Eos ↔ Ren
+Ten's inverse-Reply topology is now **CLOSED 0+/14− across the exact 14 stable-ID-authored Wall parents** in the assigned source. Historical blocker `783996881645371392` is not one of those 14 Ten-authored parent objects and is removed from the Ten parent set rather than counted as a negative.
 
-Ren publicly tags Eos as `the bestie` in July 2021 and months later directly replies to Eos's `it was very necessary` with `I agree with this statement`. WIKI treats those as one cumulative friendship lane: publicly named closeness plus later easy backing. It is friendship texture, not romance/family/exclusivity or a leaderboard.
+This remains backstage topology. It must not become public characterization such as `nobody replies to Ten`.
 
-This Daycare material was already incorporated by the concurrent reader commit `01326a81...`; Run 653 re-read and reconciled it rather than adding duplicate prose.
+### Concurrent WIKI reconciliation
 
-### Bailey_Babe / Tipp
+A concurrent Run 654 Key biography handoff landed while this pass was publishing. Its public direction was useful, but claims not supported by the authoritative reviewed Wall rail were removed/reframed before final publication. The exact live reader `3b1ea821...` therefore follows the checkpoint-first Key archival-recall axis and the project's attribution/identity rails rather than preserving conflicting synthesis as canon.
 
-Bailey has a compact Archive Cast dossier built around **mock authority / self-owning transparency**. `Am still your master` survives Cookie's tongue-out rebuttal; `who needs sleep` becomes `I'm a ghost 👻`, Ghostbusters, `I actually am going to sleep rn`, and finally `Someone take my phone away pls`. The contradiction is the point: being caught becomes Act Two instead of ending the bit.
+## Identity / provenance rails carried forward
 
-The newest Whiskey correction makes `Tipp` first-party Bailey identity text and a strong probable period IGN. Exact onboarding age encountered in source remains private. The club field remains unresolved; no recruitment origin, formal role, admission chronology, literal master/apprentice hierarchy, romance, or screenshot-pixel content is inferred.
-
-This Whiskey material was already incorporated by `01326a81...`; Run 653 reconciled it rather than creating Bailey II.
-
-### Anayss
-
-Anayss now has a structured selective-prosecutor read: she can needle Snow, drop popcorn while the room spirals, explicitly say she ignored one routine Snow offense because she is already used to his nonsense, and personally file something when it actually clears her threshold. The 2022 `I need a lawyer ~ I was misplaced` true reply supplies the reverse chair: prosecutor when the receipt is funny, defendant when the ritual points back at her.
-
-Snow familiarity is repeated tease/evidence procedure, not a closeness rank. Anayss's 2020 screenshot is POSTED BY Anayss only; pixels, maker, capturer and featured people remain unresolved.
-
-This Wall material was already incorporated by `01326a81...`; Run 653 reconciled it rather than duplicating the character.
-
-### Momo
-
-Momo's already-published deepener remains active: she says she deleted Raja after burnout while continuing in UL creative/social spaces, and separately says an AI/filter process `It always makes me pale`. The useful synthesis is selective participation and self-recognition veto, not `anti-AI` or a claim about real-world complexion. The follow-on Louvre handoff was duplicate/corroboration and therefore consumed without another reader paragraph.
-
-## Identity / safety reconciliation
-
-- **Dean / Support Tech:** hard canon says Support Tech / SEU / Beansprout is Dean. The earlier separate Support Tech WIKI owner was wrong; `01326a81...` folds the Wall material into Dean's canonical owner instead of preserving a duplicate human.
-- **Rich / Ricochet:** Rich / DragonRich and Ricochet / dragonrichard remain separate hard-canon people. Miner-local conflation around stable account `459696170759880745` stays held; no couch/Wall/Other-Games texture crosses that identity boundary.
-- **Bailey:** exact minor-age source value stays private. `Tipp` is not a separate person.
-- **Momo:** `It always makes me pale` is a self-recognition complaint about generated/filter output, not race, ethnicity, complexion, or biometric evidence.
-- POSTED BY / SAID BY remain distinct from MADE BY / CAPTURED BY / FEATURING across all uninspected media.
+- Key / Captain Chihuahua is **not** Alkey / itsalkey / Meowk and is **not** the separate visitor account displayed as Key (FireLegacy).
+- Ren's `BroBro` / brother language remains joke-family continuity, not biological kinship or a closeness ranking.
+- Key's retired Officer / historical Pit Boss-MInister status does not authorize appointment-date reconstruction from export-time role arrays.
+- `Screenshot_20210429-134555_Discord.jpg` is **POSTED BY Gilli** only in this pass.
+- `Screenshot_20230807_073829_Gallery.jpg` is **POSTED BY Mugen** only. Mugen's follow-up text supports contextual identification of Key, while MADE BY / CAPTURED BY / visual FEATURING remain unresolved without object-level inspection.
+- Earliest surviving Wall wording is not guaranteed origin.
 
 ## Current held rabbits / rails
 
 - Shiki q18: `0+/40−` across 40 trustworthy-audited parents; 13/53 unaudited; OPEN / PARTIAL. Do not turn this into `nobody replies to Shiki`.
-- Momo account-runner identity, later possible Raja reinstall, exact AI Art row metadata and object-level media attribution remain unresolved.
-- Bailey screenshot pixels and pooled Deleted User identity remain unresolved; exact age stays private.
+- Nobu/Xuseio q18 remains OPEN / RETRIEVAL-BLOCKED with known positive edges.
+- Erys/Emi, Cele, HamitteY, Ghostt, Woohyuk, Akariel and larger inverse branches remain open at their recorded states.
+- Anthos clone origin remains OPEN / PRE-WAVE-CANDIDATE / VISUAL-CONTEXT-BLOCKED.
+- Illien / `we've lost Pride's body` remains WALL-TEXT-EXHAUSTED / SIBLING-CC-NOT-SURFACED.
+- Ansun ants remains TEXT-EXHAUSTED / MEDIA-BLOCKED.
+- Zoshaa `scrambled egg bunny fursona` remains media-blocked.
+- Ghostt media-context rabbits remain blocked.
 - Rich / DragonRich and Ricochet / dragonrichard remain separate hard-canon people; miner-local conflation stays held.
-- Akariel inverse-reply topology remains OPEN / PARTIAL / SET-RECONCILIATION-REQUIRED, while the Birthdays/PR/VC assigned-quarry route is rotated after a clean negative checkpoint rather than treated as absence proof.
-- Ten inverse-reply topology remains OPEN / PARTIAL / RETRIEVAL-BLOCKED.
 - 279-hour bot identity remains OPEN / MATERIALLY NARROWED.
-- Anthos clone origin remains unresolved.
-- Mimi↔Momo direct `twin` language is currently surfaced from April 7/9, 2023; earliest surviving is not origin.
-- `Gabu's Chair` nickname chronology remains unresolved; exporter-resolved mention labels do not date historical nickname state.
 
 ## MAIN routing
 
-Run 653 leaves **0 net reader-facing MAIN changes**. Momo, Eos, Bailey and Anayss all have accepted person-first MAIN routing, and older Birthdays/PR/VC material remains accepted publication debt, but the connector runtime cannot safely execute MAIN's mandatory source-verification → Astro → built-output verification → production deploy gate. Their MAIN folds therefore remain publication debt rather than being pushed around the gate.
+Run 654 leaves **0 net reader-facing MAIN changes**. MAIN already owns Key's richer person-first biography and the newest Wall material deepens an existing axis rather than demanding duplicate prose. Older accepted Wall material and the other seven reviewed families remain MAIN publication debt.
 
-No MAIN build/deployment success is claimed for an unchanged reader tree.
+No MAIN source-verification/Astro/built-output/deployment success is claimed for an unchanged reader tree.
 
 ## Publication invariant
 
