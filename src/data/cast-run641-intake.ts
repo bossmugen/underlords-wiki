@@ -2,9 +2,10 @@ import "./canonicalize-cast";
 import type { Character } from "./wiki";
 import { allCharacters, castGroups, characterById } from "./cast";
 
-// Run 641 — Louvre correction + Wall deepener.
+// Run 641 — Louvre correction + Wall deepenings.
 // Seth clears the compact-dossier threshold after the corrected reply target;
-// Zoshaa's boiled-mayo pocket belongs inside the person, not as another incident.
+// Zoshaa's boiled-mayo pocket belongs inside the person, not as another incident;
+// Mr. Streamer is tiny but specific: two receipts and an explicit source-credit note.
 
 const upsertRelationship = (
   relationships: NonNullable<Character["relationships"]>,
@@ -111,7 +112,54 @@ if (sethIndex >= 0) allCharacters[sethIndex] = seth;
 else allCharacters.push(seth);
 characterById.set(sethId, seth);
 
+const streamerId = "mr-streamer";
+const streamerIndex = allCharacters.findIndex((character) => character.id === streamerId);
+const previousStreamer = streamerIndex >= 0 ? allCharacters[streamerIndex] : characterById.get(streamerId);
+const streamerRelationships = [...(previousStreamer?.relationships ?? [])];
+
+upsertRelationship(
+  streamerRelationships,
+  "Torr",
+  "Mr. Streamer's surviving Wall pocket is almost entirely evidence delivery: screenshot, `Via @DiStratus(Torr)`, then another screenshot. Torr shortly afterward jokes that the stream is giving `a lot of material`. It reads like practical source-and-relay familiarity, not a formal media partnership or hierarchy.",
+  "/characters/torr",
+);
+
+const streamer: Character = {
+  ...(previousStreamer ?? {}),
+  id: streamerId,
+  name: "Mr. Streamer",
+  billing: previousStreamer?.billing ?? "legacy",
+  role: previousStreamer?.role ?? "Archive-era Wall participant",
+  era: previousStreamer?.era ?? "2022–",
+  logline:
+    "Almost no surviving prose, but the one sentence is provenance: Mr. Streamer drops Wall receipts, writes `Via @DiStratus(Torr)`, and returns with another exhibit. Nearly silent participant, weirdly conscientious chain-of-custody clerk.",
+  tags: [
+    ...new Set([
+      ...(previousStreamer?.tags ?? []),
+      "Archive cast",
+      "2022",
+      "Wall",
+      "Evidence courier",
+      "Source-conscious",
+      "Petty Crimes",
+    ]),
+  ],
+  relationships: streamerRelationships,
+  quotes: [
+    ...new Set([
+      ...(previousStreamer?.quotes ?? []),
+      "Via @DiStratus(Torr)",
+    ]),
+  ],
+};
+
+if (streamerIndex >= 0) allCharacters[streamerIndex] = streamer;
+else allCharacters.push(streamer);
+characterById.set(streamerId, streamer);
+
 const archiveCastGroup = castGroups.find((group) => group.id === "archive-cast");
-if (archiveCastGroup && !archiveCastGroup.characterIds.includes(sethId)) {
-  archiveCastGroup.characterIds.push(sethId);
+for (const characterId of [sethId, streamerId]) {
+  if (archiveCastGroup && !archiveCastGroup.characterIds.includes(characterId)) {
+    archiveCastGroup.characterIds.push(characterId);
+  }
 }
