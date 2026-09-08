@@ -15,14 +15,13 @@ if (eosIndex >= 0) {
   const eos = allCharacters[eosIndex];
   const relationships = [...(eos.relationships ?? [])];
   upsertRelationship(relationships, {
-    name: "Panda",
-    note: "Panda / Marian repeatedly goes receipt-hunting for Eos; Eos protests at full volume, then counter-files, tells Panda she has been `sort of spared`, and eventually calls the exchange `this is war`. Months later Panda is also the one who remembers Eos's proposal when the room asks for a genuinely positive `FAME moment`. Prosecution, retaliation and fond recognition all live in the same lane.",
-    href: "/characters/panda",
+    name: "Marian Kage",
+    note: "Marian repeatedly goes receipt-hunting for Eos; Eos protests at full volume, then counter-files, tells Marian she has been `sort of spared`, and eventually calls the exchange `this is war`. Months later Marian is also the one who remembers Eos's proposal when the room asks for a genuinely positive `FAME moment`. Prosecution, retaliation and fond recognition all live in the same lane.",
   });
 
   allCharacters[eosIndex] = {
     ...eos,
-    logline: "Low-ceremony without being low-warmth: Eos can object theatrically when Screenshot Court comes for them, counter-file on Panda without leaving the joke, and still wind up remembered by the room as its first genuinely positive `FAME moment`. Ren gets the softer bestie-and-backing lane; Panda gets reciprocal evidence war.",
+    logline: "Low-ceremony without being low-warmth: Eos can object theatrically when Screenshot Court comes for them, counter-file on Marian without leaving the joke, and still wind up remembered by the room as its first genuinely positive `FAME moment`. Ren gets the softer bestie-and-backing lane; Marian gets reciprocal evidence war.",
     tags: [...new Set([...(eos.tags ?? []), "Wall", "Reciprocal receipt war", "First Fame moment", "Petty Crimes"])],
     relationships,
     quotes: [...new Set([

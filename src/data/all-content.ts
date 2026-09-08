@@ -12,7 +12,7 @@ const run661Gags: Gag[] = [
     id: "wall-fame-moment",
     name: "The Wall Tries Fame",
     logline:
-      "The room had been calling shame `fame` since 2020, but by September 2021 somebody finally asks for a genuinely positive `FAME moment`. Panda remembers Eos's proposal; Gilli immediately calls it their first; Panda says it deserved an award. The word was old. The wholesome category was the new joke.",
+      "The room had been calling shame `fame` since 2020, but by September 2021 somebody finally asks for a genuinely positive `FAME moment`. Marian remembers Eos's proposal; Gilli immediately calls it their first; Marian says it deserved an award. The word was old. The wholesome category was the new joke.",
   },
 ];
 
