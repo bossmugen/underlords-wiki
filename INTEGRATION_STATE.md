@@ -1,82 +1,64 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-08 — Run 631 stable census_
+_Last updated: 2026-09-08 — Run 632 review merged against Run 633 opening census_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks remain the highest-priority identity/role correction layer. Per-run history remains durable in `INTEGRATION_REPORT_RUN_*.md`; this file tracks the current reconciled frontier rather than duplicating every old run.
 
 ## Current census
 
-Mandatory full census: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**. Run 631 discovered **0** new refs and closes with **0 unread pending-review tails, 0 backlog, 0 overdue**. Eight active evidence families remain `pending_publication` because reviewed MAIN material is still release-held; this is publication debt, not unread miner work.
+Mandatory full census: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**. There are **0 new refs, 1 unread active tail, 0 backlog, 0 overdue** after Run 632's Daycare and Whiskey reviews. The unread tail is Wall at `baa7fa1cd73fa37f04fc1e726a194aef2504f2a3` unless a later concurrent integrator consumes it first.
 
-All 30 active miner heads match their Run 630 consumed frontiers. No intake delta existed this run, so no raw archive was reopened and no consumed SHA moved.
+Seven active evidence families remain `pending_publication` because reviewed MAIN material is still release-held; this is publication debt, not unread miner work: Backroom; Birthdays/PR/VC; Daycare; Louvre/AI/Athenaeum/Other Games; Meems; Whiskey; QOTD/Officers. Wall is currently an unread tail rather than counted in that publication-held set.
 
 Both Club-Only recovery lanes remain current/saturated:
-
 - `archive-miner/club-only-2021-2026-hourly` — `e45fb11c9239e236231bb65645dfd0285bc0078b`
 - `archive-miner-clubonly-2020-hourly` — `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`
 
-Current reviewed frontiers relevant to the latest publication remain:
+Reviewed frontiers from Run 632:
+- Daycare — `d1bc3fe898496fa2019f44d25fa795ff10465b63`
+- Whiskey — `613f87c05eb6659bb0b9a4a720ca7a1bf106b748`
+- Wall — still consumed only through `f3d9f972b856eee10b8592b8eacf9da110dcdc17`; seen at `baa7fa1cd73fa37f04fc1e726a194aef2504f2a3`
 
-- Daycare — `bee70f3bf3dab5122d9c201c30fd7d68850fbad3`
-- Wall — `f3d9f972b856eee10b8592b8eacf9da110dcdc17`
+## Run 632 — Rose / Zyrcant
 
-## Run 631 — stable census
+### Rose / Mochi / DarkAsrai
+Hard identity remains one person. Daycare adds the softer ordinary-life register missing from the prior WIKI Cast surface: Rose can arrive low-energy but still socially open, say returning to working out helps and she missed it, tell Mugs she feels better than the last time they hung out, take Jan's `star struck` officer tease in stride, call Mugs a `crazy fool` over giant headphones, and answer an apology with `No need to apologize silly`.
 
-No miner intake delta existed. Reader-facing files changed **0** on both public surfaces. No Astro/Pages build or deployment was run for WIKI because the reader tree is unchanged; no MAIN verification/build/deploy cycle was run for the same reason. No identity, attribution, relationship, chronology, episode, running-gag, quote, gallery, or consumed-frontier state changed.
+This is person texture, not medical inference. The officer tease does not make Rose an officer in that scene. The WIKI now owns the searchable relationship/ordinary-life layer while MAIN's richer biography keeps the broader narrative contradiction.
 
-The eight MAIN publication-held families remain: Backroom; Birthdays/PR/VC; Daycare; Louvre/AI/Athenaeum/Other Games; Meems; Whiskey; QOTD/Officers; Wall.
+### Zyrcant / Akariel™
+Hard canon remains: Zyrcant is a woman, a **UL VIP**, and Rich's former deputy in Amaurot. Whiskey confirms the `Akariel™` / `akariel_star` Discord container through Zyrcant's own `my ign is still Zyrcant` wording and sharpens the person read to **outside-club VIP / inside the bit**.
 
-## Latest reader integration — Run 630
-
-### Ghostt
-
-The previously-created Run-629 Ghostt sidecar was not reader-wired. Run 630 fixed that at the active Cast layer instead of pretending an unreferenced module was public. Ghostt now has a structured dossier/deepener built around the cumulative person mechanism the Wall supports: reaction-first participation, visual shorthand, dry one-line commentary, comfortable low-setup ribbing with Tofu and HamitteY, and the useful longitudinal contradiction that game disengagement/uninstall did not immediately erase social Wall presence.
-
-The watermelon exchange remains an emote duel, not a fruit-preference claim. The July 2022 media stays attribution-limited; POSTED BY does not become MADE BY/CAPTURED BY/FEATURING.
-
-### Yaza / Yazaki / Rosario17
-
-Hard identity remains one file: **Yaza = Yazaki = Rosario17**. The final Run-630 reader targets canonical `yaza` directly and has no fallback path that could manufacture a separate Rosario-shaped character. Historical `Rookie Cookie` wording routes to canonical **Rooks**.
-
-Yaza's compact Wall read stays local and proportionate: approval-first gallery spectator / warm validator whose tiny prose is unusually explicit about affect. Posting as Rosario17, she answers Mugen's filing with `Nice idea 😀😂`, then `😂😂😂`; `Cool 😀.` and `Aww so sweet!!` reinforce the same tiny positive-review-desk mechanism. A later Rooks reply remains warm acknowledgement only because the parent wording is unresolved.
-
-### Woosung
-
-Woosung's existing canonical Cast owner now carries the Daycare small-game layer rather than spawning a second Woo-shaped person. Snow's `when I am bored out of my mind` becomes an eighty-second service-level agreement when Woosung asks `Are u bored yet`; fourteen Among Us games with `never the imposter` becomes a tiny injustice report; `I can fly in genshin` is delivered like social news because Woosung does not need a discovery to be impressive before sharing it.
-
-This deepens ordinary hobby/social style and lightly deepens Woosung↔Snow as playful lobbying. It does not create romance or a new formal role.
-
-### SaraBunny
-
-`so much moo` / `Mooo :Cat_Sporkle:` remains duplicate/corroboration of the already-public recurring sound-bit characterization. No duplicate dossier prose was added. Sensitive onboarding material remains excluded.
+Four days after the doorway Zyrcant asks `put me on the wall of shame 😩`; Ren answers `You got to e a r n your place here`; Zyrcant replies `fair lmaooo`. The WIKI routes this as ritual-play fluency and low defensiveness, not UL membership or a closeness ranking. `the only apps now on my mac is spotify chrome and discord 😛` is ordinary-life / Petty Crimes texture; reaction-media fluency stays broad culture familiarity rather than favorite-fandom canon.
 
 ## Rabbit/source state
-
-- Illien/Pride `we've lost Pride's body` is **WALL-TEXT-EXHAUSTED / SIBLING-CC-NOT-SURFACED**. The Wall supports a repeated `cc` phrase tied to one remembered day, not a first occurrence or origin source.
-- Ghostt's full q18 branch remains partial/partly retrieval-blocked; the sampled branch is 3 positive / 4 trustworthy negative across seven selected parents.
-- Yaza's Wall-local synthesis is strong; do not globalize it into a universally-sunny personality claim.
-- Ryan X and Akamin did not clear promotion from the latest Wall delta. Akamin remains canonically distinct from Mere.
+- Kiro q6: **CLOSED 1+/0−** after structural parent recovery (`Moving to Florida` → MVLA `so what are you guys doing`).
+- Daycare q2/q3 remain source-image dependent; q5 DyingFox message-only blocked; q9 Marie/model media-dependent; q12 Noether baby-naga subject unresolved; q14 Nobu source-dependent; q16 another-file dependent; q17 partial; q18 mixed/partial.
+- Illien/Pride `we've lost Pride's body` remains **WALL-TEXT-EXHAUSTED / SIBLING-CC-NOT-SURFACED** from the prior Wall review.
 - The 279-hour word-chain bot remains unresolved/source-gated.
-- DyingFox remains underwritten beyond already-known food/reaction material.
+- Sensitive onboarding material remains excluded. POSTED BY remains distinct from MADE BY / CAPTURED BY / FEATURING.
 
 ## Publication / verification
 
-Latest reader files changed during Run 630:
+Run 632 active reader pipeline:
+- `src/data/cast-pre632.ts` — preserved prior active Cast stack
+- `src/data/cast.ts` — active wrapper carrying Rose plus the Zyrcant deepener
 
-- `src/data/cast-run630-intake.ts`
-- `src/data/bio-policy.ts`
+Final exact reader commit: **`b0e94e3872c13f7019247997302236d88b46c6af`**.
 
-Final exact verified/deployed reader commit: **`449c700c0ae9d9d1d8a8f0b54868bee60acefc78`**.
+Verification/deployment:
+- `Build Underlords Wiki` run **34187450353** — **success** on the exact reader SHA.
+- `Deploy Underlords Wiki Preview` / Pages run **34187450347** — **success**.
+- Pages build/artifact job **101938537386** — success.
+- Actual Pages deploy job **101938643426** — success.
+- Report/status job **101938681806** — success.
 
-Verification/deployment for that reader:
+Later report/state commits are reader-neutral and use `[skip ci]`.
 
-- `Build Underlords Wiki` workflow **34184598862** — success; Astro build job **101930282184** succeeded.
-- `Deploy Underlords Wiki Preview` / Pages workflow **34184599009** — success; Pages build/artifact job **101930283055**, deploy job **101930569331**, and report/status job **101930612578** all succeeded.
-
-Later integration-state/report commits are reader-neutral and use `[skip ci]`.
+## Surface split / MAIN
+MAIN reader files changed **0** in Run 632. Existing Rose and Zyrcant biographies already own the stronger cumulative person reads, so the WIKI received the structured searchable additions while MAIN avoided duplicate archive-shaped paragraphs. No MAIN verification/build/deploy claim is made for an unchanged reader tree.
 
 ## Controls
-
 Hard canon and resolved identity corrections remain controlling. No identity-by-name guessing, no appointment chronology from export/current role arrays, no joke family/romance inflation, no earliest-surviving=origin claim, and no POSTED BY → MADE BY/CAPTURED BY/FEATURING promotion. Uninspected media remains attribution-limited. Sensitive material stays backstage.
 
-Recent report: `INTEGRATION_REPORT_RUN_631_STABLE_CENSUS.md`.
+Recent report: `INTEGRATION_REPORT_RUN_632.md`.
