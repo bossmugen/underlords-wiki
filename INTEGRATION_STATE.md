@@ -40,9 +40,10 @@ The attachment pixels were not inspected. Public wording therefore stays at **PO
 
 Eos's 44 authored parents and Beckiie's 3 authored parents were audited for structured child-reply topology with no positive child links in those bounded sets. Those are topology guards only, not claims that nobody answered them or that either person was socially ignored.
 
+Shiki q18 is now **CLOSED at `0+/53−` across all 53/53 trustworthy-audited authored Wall parents**. Each audited parent resolves exactly once in the full Wall JSON and none has a surviving structured child Reply. This is topology only; it is not a personality, popularity, isolation, or conversational-neglect claim. This supersedes the earlier partial `0+/40−` state and removes Shiki from the active q18 rabbit queue.
+
 Still held:
 
-- Shiki q18 remains **OPEN / PARTIAL** at `0+/40−`, with 13 of 53 authored parents still unaudited.
 - Illien / `we've lost Pride's body` remains **WALL-TEXT-EXHAUSTED / SIBLING-CLUB-ONLY-EXACT-NOT-RECOVERED / UNRESOLVED**.
 - Anthos clone origin remains **OPEN / PRE-WAVE-CANDIDATE / FOUR-IMAGE-VISUAL-CONTEXT-BLOCKED**. Sou's 2020-08-25 `Behold. Anthos` package remains POSTED BY Sou only until the four images are actually inspected.
 - DyingFox q16 and other previously open inverse-reply branches remain open at their recorded states.
