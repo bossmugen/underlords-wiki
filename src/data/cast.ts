@@ -110,8 +110,8 @@ const alainaCharacter: Character = {
   billing: "legacy",
   role: "Archive-era Daycare / Wall cast",
   era: "2021–2022+",
-  logline: "Straight-person participant who treats UL nonsense like a referent problem: first check whether the screenshot is merely out of context, challenge the first denial if it still looks wrong, accept the better explanation, then leave with an `Okay` and a BRB emote once sanity has officially been denied.",
-  tags: ["Archive cast", "Daycare", "Wall", "Lobby", "Sanity checker", "Reaction-emoji fluent", "Petty Crimes"],
+  logline: "Straight-person participant with a practical little operating system: check the actual referent, challenge the first answer if it still looks wrong, accept the better explanation, say when something is messed up, and get genuinely excited by an idea because everybody gets the option to participate. Even tired, her bedside manner can remain spectacularly economical: `I can't sleep` receives `Did you try`.",
+  tags: ["Archive cast", "Daycare", "Wall", "Lobby", "Sanity checker", "Participation-positive", "Dry practical humor", "Light correction", "Reaction-emoji fluent", "Petty Crimes"],
   relationships: [
     {
       name: "Marian",
@@ -123,6 +123,10 @@ const alainaCharacter: Character = {
     "Okay",
     "I think that is tho",
     "why? Just... why?",
+    "He should know better",
+    "It’ll be a really cool channel I love that it lets everybody have the option to participate 😤",
+    "I’m still tired",
+    "Did you try",
   ],
 };
 
