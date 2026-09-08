@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-08 — Run 639_
+_Last updated: 2026-09-08 — Run 640_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks remain the highest-priority identity/role correction layer. Per-run history is durable in `INTEGRATION_REPORT_RUN_*.md`; this file tracks the current reconciled frontier.
 
@@ -8,7 +8,7 @@ MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:ma
 
 Mandatory full census: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**.
 
-At Run 639 close:
+At Run 640 close:
 
 - newly discovered refs: **0**
 - unread active tails: **0**
@@ -29,39 +29,19 @@ Current reviewed frontiers relevant to the latest rounds:
 - Whiskey — `613f87c05eb6659bb0b9a4a720ca7a1bf106b748`
 - Wall — `c0570df165d8797123423ce99eb925adfa333206`
 
-## Run 639 — stable census
+## Run 640 — stable census
 
-All 30 active miner refs remained exactly at their Run 638 consumed frontiers. No branch had a changed `archive-intake/*` handoff, so there was no checkpoint-first review candidate, no anti-starvation branch to rotate into, and no raw archive was reopened.
-
-No new lore, relationship read, duplicate family, conflict, rabbit-hole movement, Cast dossier, Episode, Running Gag, Quote, Location, or Gallery/media note was warranted. MAIN and WIKI both changed **0 reader-facing files**.
-
-No build/deploy cycle was triggered for reader-neutral bookkeeping. The latest exact verified/deployed WIKI reader therefore remains Run 637 SHA **`8b8ff0317a5e416afa032f59a6e8d76c2c0068e1`**.
-
-## Run 638 — stable census
-
-All 30 active miner refs remained exactly at their Run 637 consumed frontiers in both the opening census and the later re-check. No branch had a changed `archive-intake/*` handoff, so there was no checkpoint-first review candidate, no anti-starvation branch to rotate into, and no raw archive was reopened.
+All 30 active miner refs remained exactly at their Run 639 consumed frontiers in the opening census and closing sweep. No branch had a changed `archive-intake/*` handoff, so there was no checkpoint-first review candidate, no anti-starvation branch to rotate into, and no raw archive was reopened.
 
 No new lore, relationship read, duplicate family, conflict, rabbit-hole movement, Cast dossier, Episode, Running Gag, Quote, Location, or Gallery/media note was warranted. MAIN and WIKI both changed **0 reader-facing files**.
 
 No build/deploy cycle was triggered for reader-neutral bookkeeping. The latest exact verified/deployed WIKI reader therefore remains Run 637 SHA **`8b8ff0317a5e416afa032f59a6e8d76c2c0068e1`**.
 
-## Run 637 — Pride Wall deepener + canonical-name repair
+## Latest reader publication — Run 637
 
-The sole unread opening tail was Wall `7f35ce86cb6fb19706545592ebc63f190b3ac137 -> c0570df165d8797123423ce99eb925adfa333206`. It was reviewed checkpoint-first and intake-only; no raw archive was reopened.
+Run 637 published the Pride Wall deepener and repaired the historical `Rookie Cookie` relationship label to hard-canon primary name **Rooks**. Exact verified/deployed WIKI reader SHA: **`8b8ff0317a5e416afa032f59a6e8d76c2c0068e1`**.
 
-Pride's new cumulative WIKI read is the contradiction, not a pile of dated receipts: Pride can explain that everybody gets exposed, file evidence five minutes later, worry about being plastered everywhere, stage `-dips-`, return under two minutes after the room turns the exit into pursuit, and tell the same people supposedly watching them to keep watching. The huge sticker stash — `for every occasion` / `EVERY` — is Petty Crimes texture rather than an Episode.
-
-Relationship routing:
-
-- Gilli — mock watcher/target teasing (`im watching you` -> `keep watching baby`).
-- Rooks — playful hunter/escapee routine after Pride's `-dips-`.
-- RV — surveillance/meta banter and the sticker-room routing joke.
-
-A concurrent reader commit `ef848306931301c180a94e820913e3ddbc934001` had already integrated the Pride deepener while Run 637 was reviewing the tail. It correctly reused canonical Pride but used the historical label `Rookie Cookie` as a current relationship label. Run 637 repaired that to hard-canon primary name **Rooks**, linked `/characters/rooks`, and filters both old/current labels so no duplicate relationship survives.
-
-Exact verified/deployed WIKI reader SHA: **`8b8ff0317a5e416afa032f59a6e8d76c2c0068e1`**.
-
-Verification:
+Verification remains:
 
 - Build Underlords Wiki run `34191312775` — success
   - Astro job `101949784171` — success
@@ -70,11 +50,11 @@ Verification:
   - deploy job `101949888012` — success
   - report/status job `101949929550` — success
 
-Later Run 637 report/state commits are reader-neutral `[skip ci]`; the exact live reader remains the SHA above.
+Later integration report/state commits are reader-neutral `[skip ci]`; they do not replace the exact live reader receipt above.
 
 ## MAIN split
 
-MAIN changed **0 reader-facing files** in Runs 637 through 639. Its existing Pride biography already owns the major surveillance/exposure character spine, including the Wall orientation, capture-risk awareness, Gilli watcher exchange, and the later shame-to-proud reclassification. The newly reviewed fake escape, Rooks/RV pursuit, self-filing, and sticker-stash details remain accepted Wall publication debt for a future intentional person-first MAIN fold rather than mirrored WIKI prose.
+MAIN changed **0 reader-facing files** in Run 640. The eight publication-held families remain reviewed debt awaiting intentional person-first folds; they are not unread mining.
 
 No MAIN source-verification/Astro/built-output/deployment result is claimed for an unchanged reader tree. MAIN production is deliberately decoupled from integrator pushes.
 
@@ -82,7 +62,7 @@ No MAIN source-verification/Astro/built-output/deployment result is claimed for 
 
 - Ten q18 parent `783996881645371392` remains **OPEN / PARTIAL / RETRIEVAL-BLOCKED**; the zero-match retry cannot certify absence.
 - Pride / Illien `we've lost Pride's body` remains **WALL-TEXT-EXHAUSTED / SIBLING-CC-NOT-SURFACED**; origin/day/count unresolved.
-- Shiki's `0+/20−` result belongs to the preceding run and was not re-claimed here.
+- Shiki's `0+/20−` result belongs to an earlier run and was not re-claimed here.
 
 ## Publication invariant
 
