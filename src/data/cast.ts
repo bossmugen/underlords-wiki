@@ -102,14 +102,55 @@ if (zyrcantIndex >= 0) {
   };
 }
 
+const alainaIndex = allCharacters.findIndex((character) => character.id === "alaina");
+const alainaCharacter: Character = {
+  id: "alaina",
+  name: "Alaina",
+  aliases: ["alaina_iris_k"],
+  billing: "legacy",
+  role: "Archive-era Daycare / Wall cast",
+  era: "2021–2022+",
+  logline: "Straight-person participant who treats UL nonsense like a referent problem: first check whether the screenshot is merely out of context, challenge the first denial if it still looks wrong, accept the better explanation, then leave with an `Okay` and a BRB emote once sanity has officially been denied.",
+  tags: ["Archive cast", "Daycare", "Wall", "Lobby", "Sanity checker", "Reaction-emoji fluent", "Petty Crimes"],
+  relationships: [
+    {
+      name: "Marian",
+      note: "Across two Wall scenes Alaina can question Marian's framing and Marian can correct her back without either exchange becoming a fight. `I think that is tho` gets a direct account-level explanation; the useful texture is ordinary corrective familiarity, not a closeness ranking.",
+      href: "/characters/marian",
+    },
+  ],
+  quotes: [
+    ".... so is this just out of context....?",
+    "Okay",
+    "I think that is tho",
+    "why? Just... why?",
+  ],
+};
+
+if (alainaIndex >= 0) {
+  const alaina = allCharacters[alainaIndex];
+  allCharacters[alainaIndex] = {
+    ...alaina,
+    ...alainaCharacter,
+    aliases: [...new Set([...(alaina.aliases ?? []), ...alainaCharacter.aliases!])],
+    tags: [...new Set([...(alaina.tags ?? []), ...alainaCharacter.tags!])],
+    relationships: alainaCharacter.relationships,
+    quotes: [...new Set([...(alaina.quotes ?? []), ...alainaCharacter.quotes!])],
+  };
+} else {
+  allCharacters.push(alainaCharacter);
+}
+
 export const castGroups = previousGroups.map((group) => ({
   ...group,
   characterIds: [...group.characterIds],
 }));
 
 const archiveCastGroup = castGroups.find((group) => group.id === "archive-cast");
-if (archiveCastGroup && !archiveCastGroup.characterIds.includes("rose")) {
-  archiveCastGroup.characterIds.push("rose");
+for (const characterId of ["rose", "alaina"]) {
+  if (archiveCastGroup && !archiveCastGroup.characterIds.includes(characterId)) {
+    archiveCastGroup.characterIds.push(characterId);
+  }
 }
 
 export const characterById = new Map(allCharacters.map((character) => [character.id, character]));
