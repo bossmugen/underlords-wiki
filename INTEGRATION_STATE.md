@@ -1,12 +1,12 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-08 — Run 629 Wall + Daycare reconciliation_
+_Last updated: 2026-09-08 — Run 630 Wall + Daycare publication_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks remain the highest-priority identity/role correction layer. Per-run history remains durable in `INTEGRATION_REPORT_RUN_*.md`; this file tracks the current reconciled frontier rather than duplicating every old run.
 
 ## Current census
 
-Mandatory full census: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**. Run 629 discovered **0** new refs. The run reviewed the Daycare tail through `bee70f3bf3dab5122d9c201c30fd7d68850fbad3` and Wall through the newer `f3d9f972b856eee10b8592b8eacf9da110dcdc17` frontier that appeared while reconciliation was in progress.
+Mandatory full census: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**. Run 630 discovered **0** new refs and closes with **0 unread pending-review tails, 0 backlog, 0 overdue**. Eight active evidence families remain `pending_publication` because reviewed MAIN material is still release-held; this is publication debt, not unread miner work.
 
 Both Club-Only recovery lanes remain current/saturated:
 
@@ -15,52 +15,62 @@ Both Club-Only recovery lanes remain current/saturated:
 
 No raw archive was reopened.
 
-A newer MAIN integrator census became the authoritative branch-state writer before Run 629 closed. Run 629 therefore did not replace that newer `INTEGRATOR_BRANCH_STATE.json` snapshot with an older local copy; its durable review scope is recorded in `INTEGRATION_REPORT_RUN_629.md` for the controlling writer to reconcile safely.
+Run 630 consumed:
 
-## Run 629 — Wall + Daycare
+- Daycare through `bee70f3bf3dab5122d9c201c30fd7d68850fbad3`
+- Wall through `f3d9f972b856eee10b8592b8eacf9da110dcdc17`
+
+## Run 630 — reader integration
 
 ### Ghostt
 
-The Wall packet strengthens Ghostt's existing person read: reaction-first gallery regular, visual shorthand, dry one-line commentary, mock prosecution/alibi, and continued social Wall presence after explicit game/club disengagement. MAIN already owns the richer synthesis, so the packet is largely duplicate/corroboration.
+The previously-created Run-629 Ghostt sidecar was not reader-wired. Run 630 fixes that at the active Cast layer instead of pretending an unreferenced module was public. Ghostt now has a structured dossier/deepener built around the cumulative person mechanism the Wall supports: reaction-first participation, visual shorthand, dry one-line commentary, comfortable low-setup ribbing with Tofu and HamitteY, and the useful longitudinal contradiction that game disengagement/uninstall did not immediately erase social Wall presence.
 
-Concurrent work added `src/data/character-bios-run629-intake.ts` with a good Ghostt structured dossier. **That module is not imported or merged by the active `src/data/cast.ts` pipeline.** Its successful Build/Pages run therefore proves the repository still builds, not that Ghostt's new dossier is visible to readers. Do not count the module as a public reader integration until it is explicitly wired.
+The watermelon exchange remains an emote duel, not a fruit-preference claim. The July 2022 media stays attribution-limited; POSTED BY does not become MADE BY/CAPTURED BY/FEATURING.
 
 ### Rosario17 / Yazaki
 
-Rosario now clears a thin but useful person synthesis as **approval-first gallery spectator / warm validator**. Strongest join: `Nice idea 😀😂` true-replies to a Mugen screenshot filing, followed by `😂😂😂`; other surviving positive evaluatives include `Cool 😀.`, `Aww so sweet!!`, and a warm Rookie-directed reply whose parent body remains unresolved. This is WIKI-sized profile texture and a Petty-Crimes candidate, not enough breadth for a rich MAIN biography by itself.
+Rosario17/Yazaki / `rosayaz` now has a compact structured Cast dossier. The public read stays Wall-local and proportionate: approval-first gallery spectator / warm validator whose tiny prose is unusually explicit about affect. `Nice idea 😀😂` directly answers a Mugen-filed exhibit, followed by `😂😂😂`; `Cool 😀.` and `Aww so sweet!!` reinforce the same small positive-review-desk mechanism.
+
+The Rookie Cookie reply is kept as warm acknowledgement only because the parent body remains unresolved. No closeness rank or invented topic was supplied.
 
 ### Woosung
 
-Daycare adds **small-game enthusiasm / tiny-grievance narrator** texture. Snow says she might make a K-pop game `when I am bored out of my mind`; about eighty seconds later Woosung posts a crying anime GIF and asks `Are u bored yet`. The same lane includes `I only played among us like 14 times` → `never the imposter` and `I can fly in genshin`. MAIN already owns the broader hobby/tiny-news mechanism and already has the Among Us beat; K-pop/Snow and Genshin are useful structured-WIKI deepeners for the existing Woosung owner.
+Woosung's existing canonical Cast owner now carries the Daycare small-game layer rather than spawning a second Woo-shaped person. Snow's `when I am bored out of my mind` becomes an eighty-second service-level agreement when Woosung asks `Are u bored yet`; fourteen Among Us games with `never the imposter` becomes a tiny injustice report; `I can fly in genshin` is delivered like social news because Woosung does not need a discovery to be impressive before sharing it.
 
-Hard identity rail preserved: current canonical Woo and Woosung owners remain distinct; no name-shape merge.
+This deepens ordinary hobby/social style and lightly deepens Woosung↔Snow as playful lobbying. It does not create romance or a new formal role.
 
 ### SaraBunny
 
-`so much moo` / `Mooo :Cat_Sporkle:` is corroboration of the existing recurring sound-bit characterization. No duplicate public copy. Sensitive onboarding age material remains excluded.
+`so much moo` / `Mooo :Cat_Sporkle:` remains duplicate/corroboration of the already-public recurring sound-bit characterization. No duplicate dossier prose was added. Sensitive onboarding material remains excluded.
 
 ## Rabbit/source state
 
-- Illien/Pride `we've lost Pride's body` is now **WALL-TEXT-EXHAUSTED / SIBLING-CC-NOT-SURFACED**. `every time ... on cc` plus Pride's `I still laugh about that day` supports a repeated `cc` phrase tied to a remembered incident/day, not an origin date/source.
-- Ghostt `actual definition of trolling` / `Bullying Mugen` remain media-context blocked.
+- Illien/Pride `we've lost Pride's body` is **WALL-TEXT-EXHAUSTED / SIBLING-CC-NOT-SURFACED**. The Wall supports a repeated `cc` phrase tied to one remembered day, not a first occurrence or origin source.
+- Ghostt's full q18 branch remains partial/partly retrieval-blocked; the sampled branch is 3 positive / 4 trustworthy negative across seven selected parents.
+- Rosario's Wall-local synthesis is strong; do not globalize it into a universally-sunny personality claim.
+- Ryan X and Akamin did not clear promotion from this delta. Akamin remains canonically distinct from Mere.
 - The 279-hour word-chain bot remains unresolved/source-gated.
 - DyingFox remains underwritten beyond already-known food/reaction material.
 
 ## Publication / verification
 
-Reader-facing WIKI files changed by Run 629 itself: **0**.
+Reader files changed:
 
-Concurrent commit `b2ff3a2bec7f186eb54f44eb97616eb14817e319` (`Add Ghostt Wall character dossier`) passed:
+- `src/data/cast-run630-intake.ts`
+- `src/data/bio-policy.ts`
 
-- `Build Underlords Wiki` workflow **34182768725** — success.
-- `Deploy Underlords Wiki Preview` / Pages workflow **34182768701** — success.
+Exact verified/deployed reader commit: **`c8bb325d7aec32ca96d3e882dbf5c036001090a2`**.
 
-However, because the new Run-629 Ghostt module is not wired into `cast.ts`, those successful workflows do **not** establish visible Ghostt reader publication. Run 629 therefore does not claim a new live Cast dossier from that commit.
+Verification/deployment for that reader:
 
-No additional Astro/Pages run was triggered for reader-neutral report/state bookkeeping.
+- `Build Underlords Wiki` workflow **34184300021** — success; Astro build job **101929437656** succeeded.
+- `Deploy Underlords Wiki Preview` / Pages workflow **34184300022** — success; Pages build/artifact job **101929520607**, deploy job **101929603117**, and report/status job **101929639139** all succeeded.
+
+Later integration-state/report commits are reader-neutral and use `[skip ci]`.
 
 ## Controls
 
 Hard canon and resolved identity corrections remain controlling. No identity-by-name guessing, no appointment chronology from export/current role arrays, no joke family/romance inflation, no earliest-surviving=origin claim, and no POSTED BY → MADE BY/CAPTURED BY/FEATURING promotion. Uninspected media remains attribution-limited. Sensitive material stays backstage.
 
-Recent report: `INTEGRATION_REPORT_RUN_629.md`.
+Recent report: `INTEGRATION_REPORT_RUN_630.md`.
