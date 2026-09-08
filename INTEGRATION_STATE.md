@@ -1,12 +1,12 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-08 — Run 622 stable census_
+_Last updated: 2026-09-08 — Run 623 stable census_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks remain the highest-priority identity/role correction layer.
 
 ## Current census
 
-Mandatory full census: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**. Run 622 discovered **0** new refs and closes with **0 unread pending-review tails, 8 reviewed `pending_publication` MAIN families, 0 backlog, and 0 overdue**.
+Mandatory full census: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**. Run 623 discovered **0** new refs and closes with **0 unread pending-review tails, 8 reviewed `pending_publication` MAIN families, 0 backlog, and 0 overdue**.
 
 Both Club-Only recovery lanes remain current/saturated:
 
@@ -14,6 +14,16 @@ Both Club-Only recovery lanes remain current/saturated:
 - `archive-miner-clubonly-2020-hourly` — `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`
 
 No raw archive was reopened.
+
+## Run 623 — stable census
+
+The full miner universe was re-enumerated against current GitHub refs after re-reading both publishing branches and the controlling project standards/state. All **30 active** refs remain at their controlling MAIN ledger `last_seen_sha` and `last_consumed_sha`; none advanced beyond its reviewed frontier. The **21 historical/missing** refs remain recorded, and the eight MAIN `pending_publication` families remain reviewed publication debt rather than unread mining work.
+
+There was no advanced `archive-intake/*` handoff to review, no new lore family, no duplicate family newly combined, no conflict/rabbit state change, and no consumed SHA movement. MAIN and WIKI reader trees therefore remain unchanged.
+
+No fresh MAIN source-verification/Astro/built-output/deployment or WIKI Astro/Pages deployment was triggered for reader-neutral census/report bookkeeping. The latest verified/deployed WIKI reader remains Run 621 SHA **`9b4fd1e1eee38d814bc8c8ed35cf0e0f400b1ca1`**.
+
+Run report: `INTEGRATION_REPORT_RUN_623.md`.
 
 ## Run 622 — stable census
 
