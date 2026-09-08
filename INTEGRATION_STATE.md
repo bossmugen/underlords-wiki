@@ -1,8 +1,18 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-08 — Run 675 Wall / Cele integration_
+_Last updated: 2026-09-08 — Run 676 stable census_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity / role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
+
+## Run 676 stable census
+
+Run 676 completed the required full miner census at **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 unread active tails at close, 0 backlog, and 0 overdue branches**. Both Club-Only recovery lanes remain current / saturated.
+
+All 30 active miner heads remain exactly on their Run 675 reviewed / consumed frontiers. There is therefore no legitimate checkpoint-first `archive-intake/*` delta to review, no raw archive was reopened, and no consumed SHA moved. The six reviewed MAIN `pending_publication` families remain Backroom, Birthdays/PR/VC, Daycare, Meems, QOTD/Officers, and Wall; those are publication debt rather than unread mining.
+
+Reader-facing WIKI files changed **0**. No Astro / Pages build or deployment was triggered for this reader-neutral state refresh. The latest exact verified/deployed WIKI reader remains Run 675 SHA **`80f4c3b22bbaa23394456e25ec186a426075de59`**. MAIN reader-facing files also changed **0**, so no source-verification / Astro / built-output / production-deploy cycle is claimed there either.
+
+No identity, role chronology, privacy, joke-literalization, attribution, duplicate-family, or unresolved-rabbit state changed. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING boundaries remain unchanged.
 
 ## Run 675 Wall / Cele integration
 
@@ -153,6 +163,6 @@ Run 670's final reader commit was **`87c51263eb4b3283923da3b3a8e067e233e9ab92`**
 
 HamitteY q18 remains CLOSED at `6+/60−` across all 66/66 exact-audited authored Wall parents; Shiki q18 remains CLOSED at `0+/53−`. Those are reply-topology statements only, never personality, popularity, or closeness claims. Nhou's private age/workplace specifics and the private interpersonal casework behind Nelph/Wolf remain backstage. Booba's attachment pixels remain uninspected.
 
-## Publication invariant
+## publication invariant
 
 WIKI gets structured reference structure; MAIN gets the richer biography. Shared evidence may appear on both only when each surface uses it for its own job. New receipts deepen an existing person whenever possible; they do not earn automatic incident paragraphs. Hard identity, role, attribution, privacy, and explicit contradiction rails override ordinary contextual inference.
