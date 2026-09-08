@@ -1,8 +1,42 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-08 — Run 676 stable census_
+_Last updated: 2026-09-08 — Run 678 Wall / Danny integration_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity / role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
+
+## Run 678 Wall / Danny integration
+
+Run 678 completed the required full miner census at **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 unread active tails at close, 0 backlog, and 0 overdue branches**. Both Club-Only recovery lanes remain current / saturated.
+
+The sole active mover was `archive-miner-wall-hourly-20260824`, reviewed checkpoint-first and intake-only from consumed `4067a5abb394690b115a2f197a3a0b8a71cdd64d` through stable `68a78632df4e7ac4e2b529690b3ec0a8a5d2c314`. The closing head check found no suffix beyond that reviewed SHA.
+
+The new public-worthy person axis is **Danny / `danny_ftm` as low-volume artifact-first wit**. On 2020-10-12 Danny files two screenshots; Ren theatrically objects; Danny answers `Sorry youre right, I should get a new ss with the persons name added 😝😝`. The mock concession is really escalation: the evidence stays and the proposed improvement is clearer defendant labeling. A separate same-pocket Sprite tangent reinforces the same object-first social style when Danny posts exporter-titled media `Sprite - All-Nighter (2006, UK)` and asks `But what sprite?`. Because there is no structured Reply edge to Rookie's preceding Sprite line, that second beat remains a probable callback rather than a direct Danny↔Rookie relationship claim.
+
+WIKI therefore gives Danny one compact structured Cast owner rather than a standalone Episode or inflated biography. Ren gets a bounded evidence-room teasing lane; representative quotes and Petty Crimes capture the joke mechanism. The sample supports playful artifact specificity, not a broad archivist / collector identity. Danny's screenshot binaries remain uninspected and are POSTED BY Danny only; MADE BY / CAPTURED BY / FEATURING / exact visual content remain unresolved. Ren's mock-threat wording remains comic Wall language, not literal violence. The old Sprite advert does not support age, nationality, location, or childhood inference about Danny.
+
+Zoshaa's `scrambled egg bunny fursona` q2 advanced backstage only to **OPEN / NOV-04 REPLAY OBJECT ANCHORED / EXPLICIT-LABEL TEXT EXHAUSTED / ORIGIN-MEDIA-BLOCKED**. The exact surviving replay object is Ren message `773642269210312735`, attachment `773642269005709322` / `image0-9bd84fdb1b19569b.jpg`, 31,522 bytes. A same-sized 2020-08-22 Ren asset is not identity proof without binary comparison. No duplicate Zoshaa public prose was added.
+
+Reader-facing WIKI files changed:
+
+- `src/data/integrator-cast-run678-wall.ts`
+- `src/data/all-content.ts`
+
+Exact verified/deployed reader: **`8bf12f5c1c98f593479068c51610dec9d41a39a8`**.
+
+- Build Underlords Wiki run **34270172015** — success
+  - Astro build job **102209477015** — success
+- Deploy Underlords Wiki Preview run **34270172033** — success
+  - build/artifact job **102209577023** — success
+  - actual Pages deploy job **102209750271** — success
+  - report/status job **102209833850** — success
+
+MAIN reader-facing files changed **0**. Danny remains too narrow for a person-first MAIN biography without padding; older accepted Wall material also remains controlled publication debt. No MAIN source-verification / Astro / built-output / production-deploy success is claimed for an unchanged reader tree.
+
+The controlling MAIN ledger advances Wall `last_consumed_sha` through `68a78632df4e7ac4e2b529690b3ec0a8a5d2c314` and restores status to `pending_publication`, solely because accepted MAIN Wall material remains held for MAIN's controlled release path. The six reviewed MAIN publication-held families are Backroom, Birthdays/PR/VC, Daycare, Meems, QOTD/Officers, and Wall. Consumed means reviewed, not necessarily published on every surface.
+
+## Run 677 stable census
+
+Run 677 was reader-neutral: all active miner heads remained on reviewed / consumed frontiers, both Club-Only recovery lanes remained current / saturated, and no identity, role, attribution, privacy, duplicate-family, or rabbit state moved. No reader build/deploy claim was made for that state-only pass.
 
 ## Run 676 stable census
 
