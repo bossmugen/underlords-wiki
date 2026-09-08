@@ -158,13 +158,60 @@ if (alainaIndex >= 0) {
   allCharacters.push(alainaCharacter);
 }
 
+const supportTechIndex = allCharacters.findIndex((character) => character.id === "support-tech");
+const supportTechCharacter: Character = {
+  id: "support-tech",
+  name: "Support Tech",
+  aliases: ["✔️ Support Tech", "supporttech900"],
+  billing: "legacy",
+  role: "Archive-era Wall cast",
+  era: "2021–2023+",
+  logline: "Wall participant who learns the room's prosecution ritual almost in real time and immediately decides being exposed is fun. Confusion becomes `Is this where you expose Peopl` and then `Ehehehhehe`; a month later getting caught is `Me UH gOt EXpOsE WEE`, while a later filing gets the mock-victim version, `WhY U expOse Me`. The useful contradiction is that the same chaos-noise register can go abruptly soft when Snow may be hurting: `Bee stink hurt you 😔`.",
+  tags: ["Archive cast", "Wall", "Rapid acclimation", "Mock defendant", "Exposure-positive", "Self-incrimination", "Kinetic humor", "Mugen summons", "Soft concern", "Disappearance / return", "Petty Crimes"],
+  relationships: [
+    {
+      name: "Mugen",
+      note: "Support Tech can summon Mugen with almost no setup right beside Wall media on both sides of a long authored gap: 2021 goes attachment → `@Mugen`; 2023 goes `@Mugen` → attachment. The recurrence supports persistent low-setup Wall familiarity, not a closeness ranking or formal role.",
+      href: "/characters/mugen",
+    },
+    {
+      name: "Snow",
+      note: "Snow posts an image, tags Support Tech shortly afterward, and Support Tech later true-replies to that exact image parent with `Bee stink hurt you 😔`. The direct edge supports a small soft-check-in register inside the room's bee-pun mess; the uninspected image does not tell us what happened to Snow.",
+      href: "/characters/snow",
+    },
+  ],
+  quotes: [
+    "I'm confused myself 😨",
+    "Is this where you expose Peopl",
+    "Ehehehhehe",
+    "Me UH gOt EXpOsE WEE",
+    "WhY U expOse Me",
+    "Feed me Soba",
+    "Bee stink hurt you 😔",
+  ],
+};
+
+if (supportTechIndex >= 0) {
+  const supportTech = allCharacters[supportTechIndex];
+  allCharacters[supportTechIndex] = {
+    ...supportTech,
+    ...supportTechCharacter,
+    aliases: [...new Set([...(supportTech.aliases ?? []), ...supportTechCharacter.aliases!])],
+    tags: [...new Set([...(supportTech.tags ?? []), ...supportTechCharacter.tags!])],
+    relationships: supportTechCharacter.relationships,
+    quotes: [...new Set([...(supportTech.quotes ?? []), ...supportTechCharacter.quotes!])],
+  };
+} else {
+  allCharacters.push(supportTechCharacter);
+}
+
 export const castGroups = previousGroups.map((group) => ({
   ...group,
   characterIds: [...group.characterIds],
 }));
 
 const archiveCastGroup = castGroups.find((group) => group.id === "archive-cast");
-for (const characterId of ["rose", "alaina"]) {
+for (const characterId of ["rose", "alaina", "support-tech"]) {
   if (archiveCastGroup && !archiveCastGroup.characterIds.includes(characterId)) {
     archiveCastGroup.characterIds.push(characterId);
   }
