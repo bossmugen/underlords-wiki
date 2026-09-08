@@ -8,10 +8,10 @@ MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:ma
 
 Mandatory full census: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**.
 
-Current close state after Run 646 review:
+Run 646 closes with:
 
 - newly discovered refs: **0**
-- unread active tails: **0** once MAIN advances the reviewed Wall suffix through `7895a7a056ab5f5953e8b4b3acb02e63d172d3a6`
+- unread active tails: **0**
 - backlog: **0**
 - overdue: **0**
 - reviewed MAIN publication-held families: **8**
@@ -23,7 +23,7 @@ Both Club-Only recovery lanes remain current / saturated:
 - `archive-miner/club-only-2021-2026-hourly` — `e45fb11c9239e236231bb65645dfd0285bc0078b`
 - `archive-miner-clubonly-2020-hourly` — `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`
 
-Latest reviewed frontiers:
+Latest consumed/reviewed frontiers:
 
 - Daycare — `7ee59da4bfe71e4560e4ee16be9945156458b09b`
 - Birthdays / PR / VC — `ca4730329160cb86be28c6512962000a7a355444`
