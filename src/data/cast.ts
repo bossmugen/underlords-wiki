@@ -65,6 +65,43 @@ if (roseIndex >= 0) {
   allCharacters.push(roseCharacter);
 }
 
+const zyrcantIndex = allCharacters.findIndex((character) => character.id === "zyrcant");
+if (zyrcantIndex >= 0) {
+  const zyrcant = allCharacters[zyrcantIndex];
+  allCharacters[zyrcantIndex] = {
+    ...zyrcant,
+    aliases: [...new Set([...(zyrcant.aliases ?? []), "Akariel", "Akariel™", "akariel_star"])],
+    role: "VIP · former Amaurot deputy",
+    era: "2021–",
+    logline: "Former Amaurot deputy and UL VIP whose administrative outside-club status never stopped her from becoming fluent in the house joke grammar: four days after the Lobby doorway she asks to be put on the Wall, accepts Ren's fake `earn your place` requirement with `fair lmaooo`, and later keeps showing up for the same communal nonsense.",
+    tags: [...new Set([...(zyrcant.tags ?? []), "VIP", "Amaurot", "Wall", "Ritual play", "Visual shorthand", "Ordinary life", "Petty Crimes"])],
+    relationships: [
+      {
+        name: "Rich",
+        note: "Zyrcant was Rich's deputy in Amaurot before the later merger lineage brought that older org-chart history into UL's orbit. The old deputy title is not silently converted into UL command.",
+        href: "/characters/rich",
+      },
+      {
+        name: "Ren",
+        note: "Zyrcant asks `put me on the wall of shame 😩`; Ren mock-gatekeeps the ritual with `You got to e a r n your place here`; Zyrcant answers `fair lmaooo` and stays in the bit. Fast acclimation through teasing, not a closeness ranking.",
+        href: "/characters/ren",
+      },
+      {
+        name: "Gabu",
+        note: "Gabu is practical doorway help, pointing Akariel/Zyrcant to the UL server tour. Useful onboarding contact, not a promoted dyad.",
+        href: "/characters/gabu",
+      },
+    ],
+    quotes: [...new Set([
+      ...(zyrcant.quotes ?? []),
+      "put me on the wall of shame 😩",
+      "fair lmaooo",
+      "the only apps now on my mac is spotify chrome and discord 😛",
+      "Quiet at first but a crackhead once I’m comfortable",
+    ])],
+  };
+}
+
 export const castGroups = previousGroups.map((group) => ({
   ...group,
   characterIds: [...group.characterIds],
