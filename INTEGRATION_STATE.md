@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-08 — Run 658 Wall / Scar + Daya reconciliation_
+_Last updated: 2026-09-08 — Run 659 quiet full-census close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks remain the highest-priority identity/role correction layer.
 
@@ -8,7 +8,7 @@ MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:ma
 
 Closing census: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**.
 
-Run 658 closes with:
+Run 659 closes with:
 
 - newly discovered refs: **0**
 - unread active tails: **0**
@@ -16,18 +16,17 @@ Run 658 closes with:
 - overdue: **0**
 - reviewed MAIN publication-held families: **7**
 
-The seven MAIN publication-held families are Backroom; Birthdays/PR/VC; Daycare; Meems; Whiskey; QOTD/Officers; and Wall. These are reviewed publication debt, not unread mining.
+All 30 active miner heads exactly matched their Run 658 consumed frontiers. No miner branch advanced, no new intake delta existed to review, and no `last_consumed_sha` changed. Both Club-Only recovery lanes remain current / saturated.
 
-Both Club-Only recovery lanes remain current / saturated:
+The seven MAIN publication-held families remain Backroom; Birthdays/PR/VC; Daycare; Meems; Whiskey; QOTD/Officers; and Wall. These are reviewed publication debt, not unread mining.
 
-- `archive-miner/club-only-2021-2026-hourly` — `e45fb11c9239e236231bb65645dfd0285bc0078b`
-- `archive-miner-clubonly-2020-hourly` — `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`
+## Run 659 — quiet census
 
-Latest reviewed moving frontiers:
+No reader-facing WIKI material changed because there was no new miner delta. No Cast dossier, role progression, Relationship, Episode, Running Gag, Quote, Location, or Gallery/media note was added merely to manufacture activity.
 
-- Daycare — `08fc777ea998d4dfa453d4257b48b4e6d0125bca`
-- Louvre / AI Art / Athenaeum / Other Games — `e069ae53ff8feb02c6f5969b42b044d030591246`
-- Wall — `2d83dff8d44e625aa1c894d9b977878e90baa526`
+No Astro/Pages build or deployment is claimed for an unchanged reader tree. The latest exact verified/deployed reader remains Run 658 SHA `f8a0e4813f6cead83eb5480f92483934b0c40486`.
+
+No conflicts/rabbits changed state. Existing identity, attribution, q18, media-context, and earliest-surviving/origin rails remain held at their prior states.
 
 ## Run 658 — Scar + Daya / Wall
 
@@ -82,9 +81,9 @@ This later `INTEGRATION_STATE.md` commit is reader-neutral and `[skip ci]`; it d
 
 ## MAIN routing
 
-Run 658 leaves **0 reader-facing MAIN changes**. Daya's canonical MAIN biography is already substantially richer and should absorb this Wall material as a person-first deepening when MAIN's controlled verification/deploy path is available; Scar remains too thin for a padded MAIN biography and should accumulate further ordinary-life / relationship material first. Wall remains reviewed MAIN publication debt.
+Run 659 leaves **0 reader-facing MAIN changes**. No source-verification, Astro, built-output, or Cloudflare deployment success is claimed for an unchanged MAIN reader tree. The seven reviewed MAIN publication-held families remain publication debt.
 
-No source-verification, Astro, built-output, or Cloudflare deployment success is claimed for an unchanged MAIN reader tree.
+Run 658 likewise left **0 reader-facing MAIN changes**. Daya's canonical MAIN biography is already substantially richer and should absorb the Wall material as a person-first deepening when MAIN's controlled verification/deploy path is available; Scar remains too thin for a padded MAIN biography and should accumulate further ordinary-life / relationship material first.
 
 ## Publication invariant
 
