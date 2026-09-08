@@ -1,12 +1,12 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-08 — Run 627 late Wall tail consumed_
+_Last updated: 2026-09-08 — Run 628 stable census_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks remain the highest-priority identity/role correction layer. Per-run history remains durable in `INTEGRATION_REPORT_RUN_*.md`; this file tracks the current reconciled frontier rather than duplicating every old run.
 
 ## Current census
 
-Mandatory full census: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**. Run 627 discovered **0** new refs and closes with **0 unread pending-review tails, 8 reviewed `pending_publication` MAIN families, 0 backlog, and 0 overdue**.
+Mandatory full census: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**. Run 628 discovered **0** new refs and closes with **0 unread pending-review tails, 8 reviewed `pending_publication` MAIN families, 0 backlog, and 0 overdue**.
 
 Both Club-Only recovery lanes remain current/saturated:
 
@@ -15,17 +15,15 @@ Both Club-Only recovery lanes remain current/saturated:
 
 No raw archive was reopened.
 
-## Run 627 — late Wall tail
+## Run 628 — stable census
 
-The opening census was stable, but the closing sweep caught `archive-miner-wall-hourly-20260824` advancing from `d0db208c349e8e6f947c67f63978d3a9a2dc3fe8` to `4a1cd20186fa5e362ea6c6ef6c01eef6e6f513d0`. MAIN persisted the new `last_seen_sha` before deep review. The changed intake-local handoffs were then reviewed checkpoint-first through the new head and Wall was consumed through `4a1cd20186fa5e362ea6c6ef6c01eef6e6f513d0`.
+The live branch census found every active miner ref still exactly at the Run 627 reviewed frontier. MAIN persisted that census in `archive-intake/INTEGRATOR_BRANCH_STATE.json` with census commit `85049cc0da5e5c97bf8b1df74e43aaedd73f661d` before this WIKI state update.
 
-The packet deepens Hishiro's compact Wall mechanism rather than changing the public owner: six attachment filings, practical screenshot/device-workflow help to Anthos (`oh emulator`), and two authored `:Hehe:` follow-ups within seconds of filings. WIKI already carries the right-sized Hishiro dossier around receipts, technical side-comments, `ClubChat Karaoke`, `oh emulator`, and near-zero narration, so no reader mutation was warranted solely to restate a more fully counted version of the same character read. MAIN still lacks enough breadth for a non-quota biography.
+There is no changed `archive-intake/*` handoff to review this run, no recovery suffix to continue, and no additional advanced branch to rotate through. No genuinely new finding family arrived; no meaning-level duplicate merge, identity correction, attribution state, unresolved rabbit, or consumed SHA changed.
 
-Queen Shimoko q18 is now **closed `0+/3−`**, superseding the prior retrieval-blocked/open state. Hishiro q18 is also closed `0+/10−`; Ten remains partial/open. No media was visually inspected, so POSTED BY / MADE BY / CAPTURED BY / FEATURING remain separated.
+MAIN and WIKI reader trees are therefore unchanged. No fresh MAIN source-verification/Astro/built-output/deployment or WIKI Astro/Pages deployment is triggered for reader-neutral census/report bookkeeping.
 
-MAIN and WIKI reader trees are unchanged. No fresh MAIN source-verification/Astro/built-output/deployment or WIKI Astro/Pages deployment is triggered for reader-neutral state/report bookkeeping.
-
-Run report: `INTEGRATION_REPORT_RUN_627.md`.
+Run report: `INTEGRATION_REPORT_RUN_628.md`.
 
 ## Current reviewed frontiers / publication debt
 
@@ -68,6 +66,6 @@ Latest verified/deployed WIKI reader SHA remains Run 625 **`7d6328c59badfa5ba5c3
 - Pages deploy job `101909896244`: **success**.
 - Pages report/status job `101909929957`: **success**.
 
-Run 627 changes are reader-neutral documentation/state only. Documentation/state commits after `7d6328c5...` do not replace that SHA as the verified/deployed reader receipt.
+Run 628 changes are reader-neutral documentation/state only. Documentation/state commits after `7d6328c5...` do not replace that SHA as the verified/deployed reader receipt.
 
-Recent reports: `INTEGRATION_REPORT_RUN_627.md`, `INTEGRATION_REPORT_RUN_626.md`, `INTEGRATION_REPORT_RUN_625.md`, `INTEGRATION_REPORT_RUN_624.md`.
+Recent reports: `INTEGRATION_REPORT_RUN_628.md`, `INTEGRATION_REPORT_RUN_627.md`, `INTEGRATION_REPORT_RUN_626.md`, `INTEGRATION_REPORT_RUN_625.md`.
