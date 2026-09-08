@@ -1,3 +1,4 @@
+import "./canonicalize-cast";
 import { allCharacters, characterById } from "./cast";
 
 // Run 625 — Wall. Core already sharpened Illien's systems-reader side. This pass
