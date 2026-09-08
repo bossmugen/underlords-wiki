@@ -1,12 +1,12 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-08 — Run 623 stable census_
+_Last updated: 2026-09-08 — Run 624 Whiskey / Bishop_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks remain the highest-priority identity/role correction layer.
 
 ## Current census
 
-Mandatory full census: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**. Run 623 discovered **0** new refs and closes with **0 unread pending-review tails, 8 reviewed `pending_publication` MAIN families, 0 backlog, and 0 overdue**.
+Mandatory full census: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**. Run 624 discovered **0** new refs and closes with **0 unread pending-review tails, 8 reviewed `pending_publication` MAIN families, 0 backlog, and 0 overdue**.
 
 Both Club-Only recovery lanes remain current/saturated:
 
@@ -15,13 +15,36 @@ Both Club-Only recovery lanes remain current/saturated:
 
 No raw archive was reopened.
 
+## Run 624 — Whiskey / BishopThaGuru
+
+The only opening advanced tail was `archive-miner/whiskey-longitudinal-hourly`, reviewed checkpoint-first / intake-only from `c1da934e3109d37576429ea52000208e60737185` through `32dda21265e0e7c534bde5dbc31a5e5af13c31d6`.
+
+The Bishop packet sharpens a person-shaped contradiction: practical navigation can be a mess while social navigation is fast. Mugen hands Bishop the server map and the next surfaced Whiskey beat is `I get lost easily`; Tofu then repeatedly files his funny/awkward moments into Wall material, and Bishop responds by turning the scrutiny itself into the joke — mock-feds interrogation, `Is that a compliment, or a warning?`, and playful reframes of Tofu paying attention to him. Mugen's imaginary office file lands because Bishop immediately plays the fear beat back with `W-which file?`.
+
+Three weeks later the Bishop–Tofu lane changes temperature without changing category: Bishop posts that teaching Tofu to waltz turned out `a lot cuter than expected... ☺️`. This remains warm shared-activity texture, not romance/dating proof.
+
+MAIN already owns the stronger person-first Bishop biography with this material, so Run 624 does not append duplicate reader prose there. WIKI's thinner Bishop owner in `src/data/canonicalize-cast.ts` was deepened with lived Tofu/Mugen relationships, the Whiskey/Wall/Photo Submissions axes, and quotes that expose the `needs directions / catches social cues` mechanism.
+
+Safety rails remain intact: the Lobby doorway does not establish Bishop's first-ever arrival, in-game membership, recruiter, or exact assigned role; `Kay` remains unresolved; `IMG_0402.PNG` is **POSTED BY Bishop** while maker/capturer/subjects remain unresolved; affectionate banter is not literal romance.
+
+Verified/deployed WIKI reader SHA: **`2b0a335512a159509e3d2cf54630cb20ec5e72fa`**.
+
+- `Build Underlords Wiki` workflow `34176572350`, build job `101907051109`: **success**.
+- Pages workflow `34176572326`, build/artifact job `101907051344`: **success**.
+- Pages deploy job `101907142530`: **success**.
+- Pages report/status job `101907180323`: **success**.
+
+The Whiskey branch is consumed through `32dda21265e0e7c534bde5dbc31a5e5af13c31d6` in MAIN's controlling ledger. Its branch status remains `pending_publication` only because broader previously accepted MAIN Whiskey debt remains held; this Bishop tail itself is reviewed and published where it changed the public product.
+
+Run report: `INTEGRATION_REPORT_RUN_624.md`.
+
 ## Run 623 — stable census
 
 The full miner universe was re-enumerated against current GitHub refs after re-reading both publishing branches and the controlling project standards/state. All **30 active** refs remain at their controlling MAIN ledger `last_seen_sha` and `last_consumed_sha`; none advanced beyond its reviewed frontier. The **21 historical/missing** refs remain recorded, and the eight MAIN `pending_publication` families remain reviewed publication debt rather than unread mining work.
 
 There was no advanced `archive-intake/*` handoff to review, no new lore family, no duplicate family newly combined, no conflict/rabbit state change, and no consumed SHA movement. MAIN and WIKI reader trees therefore remain unchanged.
 
-No fresh MAIN source-verification/Astro/built-output/deployment or WIKI Astro/Pages deployment was triggered for reader-neutral census/report bookkeeping. The latest verified/deployed WIKI reader remains Run 621 SHA **`9b4fd1e1eee38d814bc8c8ed35cf0e0f400b1ca1`**.
+No fresh MAIN source-verification/Astro/built-output/deployment or WIKI Astro/Pages deployment was triggered for reader-neutral census/report bookkeeping. The latest verified/deployed WIKI reader at that point remained Run 621 SHA **`9b4fd1e1eee38d814bc8c8ed35cf0e0f400b1ca1`**.
 
 Run report: `INTEGRATION_REPORT_RUN_623.md`.
 
@@ -31,7 +54,7 @@ The full miner universe was re-enumerated against current GitHub refs. All **30 
 
 There was no advanced `archive-intake/*` handoff to review, no new lore family, no duplicate family newly combined, no conflict/rabbit state change, and no consumed SHA movement. MAIN and WIKI reader trees therefore remain unchanged.
 
-No fresh MAIN source-verification/Astro/built-output/deployment or WIKI Astro/Pages deployment was triggered for reader-neutral census/report bookkeeping. The latest verified/deployed WIKI reader remains Run 621 SHA **`9b4fd1e1eee38d814bc8c8ed35cf0e0f400b1ca1`**.
+No fresh MAIN source-verification/Astro/built-output/deployment or WIKI Astro/Pages deployment was triggered for reader-neutral census/report bookkeeping. The latest verified/deployed WIKI reader remained Run 621 SHA **`9b4fd1e1eee38d814bc8c8ed35cf0e0f400b1ca1`**.
 
 Run report: `INTEGRATION_REPORT_RUN_622.md`.
 
@@ -88,22 +111,19 @@ Shiki q18 advances backstage to **0+/15− across 15 audited**, with **38/53 una
 
 ## Publication / verification
 
-Final verified reader SHA containing all Run 621 reader changes: **`9b4fd1e1eee38d814bc8c8ed35cf0e0f400b1ca1`**.
+Latest verified/deployed reader SHA: **`2b0a335512a159509e3d2cf54630cb20ec5e72fa`**.
 
-Reader-facing changes:
+Run 624 reader-facing change:
 
-- `src/data/cast-run621-wall.ts` — merges Jumanji Wall texture into the existing richer owner.
-- `src/data/cast-run621-daycare.ts` — deepens Eos and the existing Panda relationship.
-- `src/data/cast-run621-han.ts` — deepens Han's Wall self-mythology and lived Ren/Mugen notes.
-- `src/layouts/WikiLayout.astro` — wires all Run 621 overlays after canonical cast setup.
+- `src/data/canonicalize-cast.ts` — deepens BishopThaGuru's existing dossier with lived Tofu/Mugen relationship texture, Whiskey/Wall/Photo Submissions tags, and representative quotes.
 
-Verification/deployment:
+Run 624 verification/deployment:
 
-- `Build Underlords Wiki` workflow `34173653411`, build job `101898689829`: **success**.
-- Pages workflow `34173653392`, build/artifact job `101898733009`: **success**.
-- Pages deploy job `101898805370`: **success**.
-- Pages report/status job `101898848989`: **success**.
+- `Build Underlords Wiki` workflow `34176572350`, build job `101907051109`: **success**.
+- Pages workflow `34176572326`, build/artifact job `101907051344`: **success**.
+- Pages deploy job `101907142530`: **success**.
+- Pages report/status job `101907180323`: **success**.
 
-Run report: `INTEGRATION_REPORT_RUN_621.md`.
+Run report: `INTEGRATION_REPORT_RUN_624.md`.
 
-Documentation/state commits after `9b4fd1e1...` are `[skip ci]`; they do not replace that SHA as the verified/deployed reader receipt.
+Documentation/state commits after `2b0a3355...` are `[skip ci]`; they do not replace that SHA as the verified/deployed reader receipt.
