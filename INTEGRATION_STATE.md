@@ -1,12 +1,12 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-08 — Run 634 stable census_
+_Last updated: 2026-09-08 — Run 635 stable census_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks remain the highest-priority identity/role correction layer. Per-run history remains durable in `INTEGRATION_REPORT_RUN_*.md`; this file tracks the current reconciled frontier rather than duplicating every old run.
 
 ## Current census
 
-Mandatory full census: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**. There are **0 new refs, 0 unread active tails, 0 backlog, 0 overdue** at Run 634 close.
+Mandatory full census: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**. There are **0 new refs, 0 unread active tails, 0 backlog, 0 overdue** at Run 635 close.
 
 Eight active evidence families remain `pending_publication` because reviewed MAIN material is still release-held; this is publication debt, not unread miner work: Backroom; Birthdays/PR/VC; Daycare; Louvre/AI/Athenaeum/Other Games; Meems; Whiskey; QOTD/Officers; Wall.
 
@@ -18,6 +18,14 @@ Current reviewed frontiers:
 - Daycare — `d1bc3fe898496fa2019f44d25fa795ff10465b63`
 - Whiskey — `613f87c05eb6659bb0b9a4a720ca7a1bf106b748`
 - Wall — `baa7fa1cd73fa37f04fc1e726a194aef2504f2a3`
+
+## Run 635 — Stable census
+
+Fresh branch enumeration again found every active miner HEAD exactly equal to the controlling consumed frontier. No changed `archive-intake/*` handoff exists this run, so there is no new lore to integrate, no duplicate evidence family to collapse, no conflict to reopen, and no consumed SHA movement. No raw archive was reopened.
+
+Reader-facing WIKI files changed **0**. No new Cast dossier, Relationships, Episodes, Running Gags, Quotes, Locations, or Gallery/media notes are warranted from a stable census. The latest exact verified/deployed reader remains Run 633 commit `1eb3736757e8d81a3291a799eb67c7e217d19d61`. Run 635 is documentation-only and makes no new Astro/Pages build or deploy claim.
+
+MAIN reader-facing files also changed **0**. The eight reviewed `pending_publication` families remain publication debt rather than unread mining. No MAIN source-verification/Astro/built-output/deployment run is claimed for an unchanged reader tree.
 
 ## Run 634 — Stable census
 
@@ -69,12 +77,12 @@ Verification/deployment:
 - Actual Pages deploy job **101941270764** — success.
 - Report/status job **101941310877** — success.
 
-Run 634 report/state commits are reader-neutral and use `[skip ci]`.
+Run 634-635 report/state commits are reader-neutral and use `[skip ci]`.
 
 ## Surface split / MAIN
-MAIN reader files changed **0** in Run 634. Broader reviewed MAIN material remains publication-held. No MAIN source-verification/Astro/built-output/deploy claim is made for an unchanged MAIN reader tree.
+MAIN reader files changed **0** in Run 635. Broader reviewed MAIN material remains publication-held. No MAIN source-verification/Astro/built-output/deploy claim is made for an unchanged MAIN reader tree.
 
 ## Controls
 Hard canon and resolved identity corrections remain controlling. No identity-by-name guessing, no appointment chronology from export/current role arrays, no joke family/romance inflation, no earliest-surviving=origin claim, and no POSTED BY → MADE BY/CAPTURED BY/FEATURING promotion. A quiet census does not manufacture closure for existing rabbits.
 
-Recent report: `INTEGRATION_REPORT_RUN634_STABLE_CENSUS.md`.
+Recent report: `INTEGRATION_REPORT_RUN635_STABLE_CENSUS.md`.
