@@ -46,7 +46,6 @@ if (hamitteyIndex >= 0) {
     ...hamittey,
     tags: [...new Set([...(hamittey.tags ?? []), "Wall", "Recurring reputation", "Bewildered wake-up register", "Petty Crimes"])],
     relationships,
-    quotes: [...new Set([...(hamittey.quotes ?? []), "https://tenor.com/view/muppets-sam-the-eagle-weird-weirdo-who-are-you-gif-22038916"])],
   };
   characterById.set(hamittey.id, allCharacters[hamitteyIndex]);
 }
