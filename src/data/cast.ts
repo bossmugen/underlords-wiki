@@ -256,6 +256,68 @@ if (supportTechIndex >= 0) {
   allCharacters.push(supportTechCharacter);
 }
 
+const zhenxiIndex = allCharacters.findIndex((character) => character.id === "zhenxi");
+const zhenxiCharacter: Character = {
+  id: "zhenxi",
+  name: "Zhēnxī",
+  billing: "legacy",
+  role: "Archive-era Daycare / Wall cast",
+  era: "2021–2022+",
+  logline: "Converted Wall prosecutor: Zhēnxī enters the ritual from the defendant's chair screaming `NOT THE WALL OF SHAME FAME`, stays affectionate with the people roasting her, then learns the machinery well enough to exhume months-old evidence on Ren, rule it `Deserving`, and encourage another witness. The embarrassment never disappears; she just becomes dangerous too.",
+  tags: ["Archive cast", "Daycare", "Wall", "Converted prosecutor", "Theatrical embarrassment", "Affectionate teasing", "Cold-case receipts", "Co-conspirator", "Petty Crimes"],
+  relationships: [
+    {
+      name: "Rummy",
+      note: "Rummy can post material that gets an immediate `NOOOOOO` out of Zhēnxī, then answer the panic with `I love YoU`; Zhēnxī replies `I love you too` instead of leaving the bit. Embarrassment and affection coexist comfortably here without being turned into romance canon.",
+      href: "/characters/rummy",
+    },
+    {
+      name: "Ren",
+      note: "Zhēnxī first meets the Wall with Ren in the room joking about how quickly she got shamed; by 2022 she can tag Ren with old evidence, laugh through `STAWP`, and pronounce the receipt `Deserving`. Familiarity is lived as public evidence warfare, not a closeness ranking.",
+      href: "/characters/ren",
+    },
+    {
+      name: "Gabu",
+      note: "When Gabu piles onto Zhēnxī's Ren filing, Zhēnxī answers `Yes, you tell her-`. It is a small but wonderfully clear co-conspirator beat: once she owns the prosecutor chair, she is happy to call another witness.",
+      href: "/characters/gabu",
+    },
+  ],
+  quotes: [
+    "NOOOOOOOOOOO",
+    "NOT THE WALL OF SHAME FAME",
+    "I love you too",
+    "@RΣN so uh-",
+    "AKDJHASJD LMAO",
+    "Deserving",
+    "Yes, you tell her-",
+  ],
+  claims: [
+    "The same stable account is visible first as a theatrically horrified Wall defendant and later as an active filer of old evidence against Ren.",
+    "Ren says the receipt Zhēnxī posts is roughly four months old; Zhēnxī answers the age objection with `Deserving` rather than apology.",
+  ],
+  antiFanon: [
+    "The Wall scenes used for this person-level arc are support-room receipts, not relabeled Daycare dialogue.",
+    "Rummy posted the June attachment; Zhēnxī posted the July screenshot. POSTED BY does not establish MADE BY, CAPTURED BY, or FEATURING.",
+    "Reciprocal `I love you` language here is affectionate teasing and does not establish romance, family, or an exclusive relationship category.",
+    "The July screenshot contents were not visually inspected; the social use of the receipt is supported by surrounding dialogue, not guessed pixels.",
+  ],
+};
+
+if (zhenxiIndex >= 0) {
+  const zhenxi = allCharacters[zhenxiIndex];
+  allCharacters[zhenxiIndex] = {
+    ...zhenxi,
+    ...zhenxiCharacter,
+    tags: [...new Set([...(zhenxi.tags ?? []), ...zhenxiCharacter.tags!])],
+    relationships: zhenxiCharacter.relationships,
+    quotes: [...new Set([...(zhenxi.quotes ?? []), ...zhenxiCharacter.quotes!])],
+    claims: [...new Set([...(zhenxi.claims ?? []), ...zhenxiCharacter.claims!])],
+    antiFanon: [...new Set([...(zhenxi.antiFanon ?? []), ...zhenxiCharacter.antiFanon!])],
+  };
+} else {
+  allCharacters.push(zhenxiCharacter);
+}
+
 const nekozIndex = allCharacters.findIndex((character) => character.id === "nekoz");
 const nekozCharacter: Character = {
   id: "nekoz",
@@ -304,7 +366,7 @@ export const castGroups = previousGroups.map((group) => ({
 }));
 
 const archiveCastGroup = castGroups.find((group) => group.id === "archive-cast");
-for (const characterId of ["rose", "alaina", "support-tech", "nekoz"]) {
+for (const characterId of ["rose", "alaina", "support-tech", "zhenxi", "nekoz"]) {
   if (archiveCastGroup && !archiveCastGroup.characterIds.includes(characterId)) {
     archiveCastGroup.characterIds.push(characterId);
   }
