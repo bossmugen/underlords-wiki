@@ -1,8 +1,36 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-08 — Run 673 stable census_
+_Last updated: 2026-09-08 — Run 674 Daycare integration_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity / role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
+
+## Run 674 Daycare integration
+
+Run 674 completed the required full miner census at **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 unread active tails at close, 0 backlog, and 0 overdue branches**. Both Club-Only recovery lanes remain current / saturated.
+
+The sole active mover was `archive-miner/daycare-2020-2026-hourly`, reviewed checkpoint-first and intake-only from `7b6115ba25cab313b87b9f600ec969bb6fe6bb8b` through `b2274014a731e059f1d9e5e8782b5ae234d9c9d6`. The closing branch sweep found no late advancement beyond that reviewed head.
+
+The new public-worthy axis is **Eos ↔ Rummy reciprocal embarrassment/counterplay** outside the already-owned Marian and Ren lanes. Rummy mocks Eos's spelling; Eos admits `IT WORSE ON MAH PHONE`, then immediately returns `but lets not talk about *your* spelling`. Months later Eos becomes the evidence courier, posting at Rummy with `…sorry rums i had to`; Rummy's direct `I-` / keyboard-smash / wheeze makes the reversal legible as shared play rather than conflict. WIKI folds this into Eos's existing dossier as relationship texture, representative quotes, tags, and backstage claims/anti-fanon rather than a standalone episode.
+
+The March attachment remains **POSTED BY Eos** only; its pixels were not inspected in the reviewed handoff, so MADE BY / CAPTURED BY / FEATURING and exact visual content remain unresolved. The Eos/Rummy lane is not promoted to romance, family, or a closeness ranking. Nori's stable-ID onboarding support stayed too thin for a personality promotion. The bounded Sep 2–3, 2023 Wall gap remains coverage-only.
+
+Reader-facing WIKI files changed:
+
+- `src/data/integrator-cast-run674-daycare.ts`
+- `src/data/all-content.ts`
+
+Exact verified/deployed reader: **`b447e3e34232447bba79812e4fb28f6857dc19d5`**.
+
+- Build Underlords Wiki run **34262172504** — success; build job **102182576275**.
+- Deploy Underlords Wiki Preview run **34262172514** — success.
+  - build/artifact job **102182581867** — success
+  - actual Pages deploy job **102182763042** — success
+  - report/status job **102182851515** — success
+- Exact commit contexts: `wiki-build` success and `wiki-preview` success (`GitHub Pages preview deployed`).
+
+MAIN reader-facing files changed **0**. Its Eos biography is already the richer person-first owner; the Rummy spelling/prosecution texture is accepted for a future resynthesis/Petty Crimes fold. MAIN's production workflow is intentionally decoupled from pushes and requires an intentional manual dispatch for verify/build/built-output/deploy; the available connector action set cannot safely trigger that path, so no unverified MAIN reader commit was made.
+
+The controlling MAIN ledger advances Daycare `last_consumed_sha` through `b2274014a731e059f1d9e5e8782b5ae234d9c9d6` after the successful WIKI reader verification/deployment. Daycare remains `pending_publication` solely because the accepted MAIN fold is still held for MAIN's controlled release path. Consumed means reviewed, not necessarily published on every surface.
 
 ## Run 673 stable census
 
