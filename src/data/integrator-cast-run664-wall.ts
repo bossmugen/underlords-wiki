@@ -80,36 +80,24 @@ if (babyLyssaIndex >= 0) {
 const scarIndex = allCharacters.findIndex((character) => character.id === "scar");
 if (scarIndex >= 0) {
   const scar = allCharacters[scarIndex];
-  const relationships = [...(scar.relationships ?? [])];
-  const mugenRelationship = {
-    name: "Mugen",
-    note:
-      "Scar's September 2020 Whiskey arrival already has the easy guest-room rhythm: Scar asks `Where the meeting? @MUGEN`; Mugen answers with a fake `Meet my parents` before immediately switching to `Lol jk were happy to have you with us xD`. The joke-family line stays a joke; the useful part is how quickly formal guest context turns conversational.",
-    href: "/characters/mugen",
-  };
-  const mugenIndex = relationships.findIndex((relationship) => relationship.name === "Mugen");
-  if (mugenIndex >= 0) relationships[mugenIndex] = mugenRelationship;
-  else relationships.push(mugenRelationship);
-
   allCharacters[scarIndex] = {
     ...scar,
-    tags: [...new Set([...(scar.tags ?? []), "Whiskey", "Lumina guest (2020)", "Dry skepticism"])],
-    relationships,
+    tags: [...new Set([...(scar.tags ?? []), "Whiskey", "Council guest (May 2021)", "Premise extension", "Progression itch"])],
     quotes: [...new Set([
       ...(scar.quotes ?? []),
-      "Where the meeting? @MUGEN",
       "Why not you?",
-      "So i was just pinged just to see a bot ripoff ?",
+      "god damn I need be mythic soon :catscream:",
+      "wow shiya :pocky_teal_sweat: :pocky_teal_walkaway:",
     ])],
     claims: [
       ...(scar.claims ?? []),
-      "In a September 2020 intake Scar directly supplied `GAME USERNAME: Scar` and `GUILD: Lumina (Guest)`. This is a dated game/guild self-description, not a permanent membership label.",
+      "On 2021-05-15 Scar directly answered the Lobby intake with `Scar ; Council ; guest` (age withheld). This is a dated Discord visitor/status receipt, not a UL recruitment or in-game admission event.",
     ],
     antiFanon: [
       ...(scar.antiFanon ?? []),
-      "Scar's `GUILD: Lumina (Guest)` self-description is preserved as dated 2020 context; it does not override later Platelet/UL canon or invent a permanent Lumina status.",
-      "Mugen's `Meet my parents` is joke-family language, not literal kinship or proof that Scar met anybody's parents.",
-      "The Gilli `harem` exchange stays flirt/teasing humor and does not establish literal romance, sex, or harem structure.",
+      "Scar's May 2021 `Council ; guest` self-description is dated doorway context. It does not erase later user-confirmed Platelet canon, imply a secret UL membership at that moment, or establish appointment chronology from exporter roles.",
+      "The Gilli `harem` exchange stays teasing humor and does not establish literal romance, sex, polyamory, or harem structure.",
+      "`wow shiya` appears in a progression-heavy Whiskey burst, but the exact object of Scar's reaction remains unresolved.",
     ],
   };
   characterById.set("scar", allCharacters[scarIndex]);
