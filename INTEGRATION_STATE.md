@@ -1,8 +1,40 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-08 — Run 674 Daycare integration_
+_Last updated: 2026-09-08 — Run 675 Wall / Cele integration_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity / role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
+
+## Run 675 Wall / Cele integration
+
+Run 675 completed the required full miner census at **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 unread active tails at close, 0 backlog, and 0 overdue branches**. Both Club-Only recovery lanes remain current / saturated.
+
+The sole active mover was `archive-miner-wall-hourly-20260824`, reviewed checkpoint-first and intake-only from `d4b5c9850f9796ffeb4c5dca71c7876fc9c9b632` through stable `4067a5abb394690b115a2f197a3a0b8a71cdd64d`. The closing head check found no late suffix beyond that reviewed SHA.
+
+The new public-worthy axis is **Cele's notice-first attentiveness spanning comic fuss and low-drama care**. Her older dossier already owned the expected-judge / red-dot reputation. The new recurrence makes that behavior more human rather than merely louder: Cele sees 906 unread messages and demands the red dot be cleared; Moon's 285 unread count triggers another intervention and Moon answers by volunteering Cele to `go lecture rum,rv and uncle Rice uwu`; Rich's larger unread count gets `CHECK THE REDT DOT`. Then, in a separate March 2023 Gilli pocket, Cele asks `Gilli… is u okay`, sends a bear hug after his joke-heavy `NO AM LOSING MY MIND LMAO`, and true-replies `want mine I’ll share half my braincell`.
+
+WIKI folds those receipts into one mechanism: Cele notices something that looks wrong and intervenes quickly. Trivial UI disorder gets theatrical emergency-response volume; a person sounding overwhelmed gets the same reflex in a softer register. The Gilli relationship therefore now carries both earlier expected-judge familiarity and later direct care, while Moon carries the peer-recognition lane. This is profile / relationship / Petty Crimes texture, not a standalone Episode.
+
+Cele remains **Platelet**. Moon's `go lecture` is social joke language, not a formal role. Cele's `literally hack into ur acct` line is obvious hyperbole about clearing notifications, not real unauthorized access. Gilli's wording does not support a medical diagnosis. Moon and Rich remain POSTED BY for their respective uninspected media only; MADE BY / CAPTURED BY / FEATURING remain unresolved.
+
+The assigned Ansun `and my ants?` rabbit produced no independent second ant story. The known 2020 exchange plus Anthos's Zoolander ants GIF remains one response/pun pocket; `SECOND ANT STORY` stays unconfirmed.
+
+Reader-facing WIKI files changed:
+
+- `src/data/integrator-cast-run675-wall.ts`
+- `src/data/all-content.ts`
+
+Exact verified/deployed reader: **`80f4c3b22bbaa23394456e25ec186a426075de59`**.
+
+- Build Underlords Wiki run **34264239045** — success; Astro build job **102189485215**.
+- Deploy Underlords Wiki Preview run **34264179959**, attempt 2 — success after the initially cancelled deploy job was rerun.
+  - build/artifact job **102189594277** — success
+  - actual Pages deploy job **102189593568** — success
+  - report/status job **102189674712** — success
+- Exact commit contexts finish at `wiki-build` success and `wiki-preview` success (`GitHub Pages preview deployed`).
+
+MAIN reader-facing files changed **0**. Cele's MAIN biography is already the richer person-first owner and already carries permanent-Platelet canon, red-dot reputation, Wall-defendant behavior, Dean, Woosung, chemistry-help texture, and other lived material. The genuinely new Gilli-care contradiction is accepted for a future resynthesis / Petty Crimes / relationship fold rather than another dated archive paragraph. MAIN's controlled production workflow was not bypassed.
+
+The controlling MAIN ledger advances Wall `last_consumed_sha` through `4067a5abb394690b115a2f197a3a0b8a71cdd64d` after successful WIKI reader verification/deployment. Wall remains `pending_publication` solely because accepted MAIN Cele texture and older reviewed MAIN Wall debt still await MAIN's controlled release path. Consumed means reviewed, not necessarily published on every surface.
 
 ## Run 674 Daycare integration
 
