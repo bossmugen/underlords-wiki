@@ -1,12 +1,12 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-08 — Run 624 Whiskey / Bishop_
+_Last updated: 2026-09-08 — Run 625 Core Rooms / Wall_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks remain the highest-priority identity/role correction layer.
 
 ## Current census
 
-Mandatory full census: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**. Run 624 discovered **0** new refs and closes with **0 unread pending-review tails, 8 reviewed `pending_publication` MAIN families, 0 backlog, and 0 overdue**.
+Mandatory full census: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**. Run 625 discovered **0** new refs and closes with **0 unread pending-review tails, 8 reviewed `pending_publication` MAIN families, 0 backlog, and 0 overdue**.
 
 Both Club-Only recovery lanes remain current/saturated:
 
@@ -14,6 +14,32 @@ Both Club-Only recovery lanes remain current/saturated:
 - `archive-miner-clubonly-2020-hourly` — `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`
 
 No raw archive was reopened.
+
+## Run 625 — Core Rooms / Wall
+
+Two advanced tails were reviewed checkpoint-first / intake-only and consumed after successful reconciliation and WIKI verification:
+
+- `archive-miner/core-rooms-events-a91f-20260824`: `3ae83b1f6aa92e8a3332137c17c227340c4ff668` → `72d55a6bbf29330853af42eba6c0cb382dc58dc8`.
+- `archive-miner-wall-hourly-20260824`: `5b560fa151c0c86e3fee8f711e658e8f73b73f57` → `d0db208c349e8e6f947c67f63978d3a9a2dc3fe8`.
+
+**Illien / Euros** was reconciled across both miners as one person instead of two receipt piles. Core adds the systems-reader side: he spots thresholds, hidden penalties and bad incentives, preserves uncertainty when he is guessing, and still gives the practical instruction that keeps people from losing points. Wall adds the social version of the same brain: old context sticks, incomplete evidence invites `We want to see that one`, Anthos becomes `Queenk`, and Ren's stray line becomes an undercover-cat conspiracy. Dry about busted machinery, offensively unserious about courtroom standards.
+
+MAIN already owns the stronger person-first Illien biography, including the practical-help spine and Wall callback/cat material, so no duplicate MAIN paragraph was appended. WIKI keeps the searchable structured version: systems-reader tags/quotes plus lived Anthos, RV/Ren and Pride relationship notes.
+
+**Queen Shimoko / `shimok05290`** advances from earlier broad-sample no-promotion to a deliberately compact Wall dossier. Her surviving authored voice is three messages — `:Hehe:`, `Crab booty omgsh`, and a TRUE-REPLY made entirely of two spit emotes — but they cohere into one clear mechanism: low-verbiage gallery presence with very exact comic timing. Korea is a confirmed reply counterpart; Ricochet's `Pancake crab booty??` is a probable same-pocket riff rather than a fabricated Reply edge. Queen stays WIKI-only because three good Wall posts justify a searchable dossier and Petty Crimes, not a padded MAIN biography.
+
+Hard rails remain intact: Queen q18 is OPEN / retrieval-blocked; Ten and Shiki remain partial/open at their trustworthy frontiers; `we've lost Pride's body` is a callback with origin unresolved; `GS` remains unresolved shorthand; Ritha's lived Battle Leader execution remains open while her Battle Leader title remains hard canon; and miner-local uncertainty does not reopen project canon **Akariel = Zyrcant**. Uninspected images remain POSTED BY only unless maker/capturer/subjects are independently established.
+
+Verified/deployed WIKI reader SHA: **`7d6328c59badfa5ba5c3ab65577f0c057401d534`**.
+
+- `Build Underlords Wiki` workflow `34177517687`, build job `101909782667`: **success**.
+- Pages workflow `34177517668`, build/artifact job `101909806020`: **success**.
+- Pages deploy job `101909896244`: **success**.
+- Pages report/status job `101909929957`: **success**.
+
+Any later `[skip ci]` documentation/state commit is reader-neutral; `7d6328c5...` is the exact verified/deployed reader receipt for Run 625.
+
+Run report: `INTEGRATION_REPORT_RUN_625.md`.
 
 ## Run 624 — Whiskey / BishopThaGuru
 
