@@ -28,7 +28,7 @@ Current reviewed frontiers relevant to the latest rounds:
 - Daycare — `8ee75b62e0b4137da2b854c90598ac3dbffa84d2`
 - Whiskey — `613f87c05eb6659bb0b9a4a720ca7a1bf106b748`
 - Louvre / AI Art / Athenaeum / Other Games — `30051464a2d2b1364ffb308459d037f9e061cfa7`
-- Wall — `a6df3fc1c705667fe0dce6f3dd0e2d00fba1f6e3`
+- Wall — `a6df3fc2bcd75146c1ac712be996e5432f7f926f`
 
 ## Run 645 — Alaina checks whether sanity is still an option
 
