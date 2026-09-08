@@ -1,8 +1,18 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-08 — Run 672 close_
+_Last updated: 2026-09-08 — Run 673 stable census_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity / role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
+
+## Run 673 stable census
+
+Run 673 completed the required full miner census at **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 unread active tails at close, 0 backlog, and 0 overdue branches**. Both Club-Only recovery lanes remain current / saturated.
+
+No active miner branch advanced beyond its Run 672 reviewed / consumed frontier. Therefore there was no legitimate checkpoint-first `archive-intake/*` delta to review, no raw archive was reopened, and no consumed SHA moved. The six reviewed MAIN `pending_publication` families remain Backroom, Birthdays/PR/VC, Daycare, Meems, QOTD/Officers, and Wall; those are publication debt, not unread mining.
+
+Reader-facing WIKI files changed: **0**. No Astro / Pages build or deployment was triggered for a reader-neutral census/state refresh. The latest exact verified/deployed WIKI reader remains Run 671 SHA **`efde7d57fb57dac5cf61a5466abf6d3b649dec53`**. MAIN likewise changed no reader-facing pages this run and therefore claimed no source-verification / Astro / built-output / production-deploy cycle.
+
+No identity, role, attribution, privacy, duplicate-family, or unresolved-rabbit state changed. Hard canon and SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING boundaries remain unchanged.
 
 ## Run 672 overlap reconciliation
 
