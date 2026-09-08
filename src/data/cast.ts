@@ -73,8 +73,8 @@ if (zyrcantIndex >= 0) {
     aliases: [...new Set([...(zyrcant.aliases ?? []), "Akariel", "Akariel™", "akariel_star"])],
     role: "VIP · former Amaurot deputy",
     era: "2021–",
-    logline: "Former Amaurot deputy and UL VIP whose administrative outside-club status never stopped her from becoming fluent in the house joke grammar: four days after the Lobby doorway she asks to be put on the Wall, accepts Ren's fake `earn your place` requirement with `fair lmaooo`, and later keeps showing up for the same communal nonsense.",
-    tags: [...new Set([...(zyrcant.tags ?? []), "VIP", "Amaurot", "Wall", "Ritual play", "Visual shorthand", "Ordinary life", "Petty Crimes"])],
+    logline: "Former Amaurot deputy and UL VIP who turns public embarrassment into a two-act bit: first volunteer for prosecution, then flee the sentence. She asks to be put on the Wall, accepts Ren's fake `earn your place` rule with `fair lmaooo`, answers a later `caught in 4k` with `oooh shit *runs*`, and eventually starts baiting the Snow-is-old joke with the escape already preloaded.",
+    tags: [...new Set([...(zyrcant.tags ?? []), "VIP", "Amaurot", "Wall", "Ritual play", "Visual shorthand", "Ordinary life", "Self-incrimination", "Kinetic humor", "Snow-is-old ecology", "Petty Crimes"])],
     relationships: [
       {
         name: "Rich",
@@ -83,19 +83,33 @@ if (zyrcantIndex >= 0) {
       },
       {
         name: "Ren",
-        note: "Zyrcant asks `put me on the wall of shame 😩`; Ren mock-gatekeeps the ritual with `You got to e a r n your place here`; Zyrcant answers `fair lmaooo` and stays in the bit. Fast acclimation through teasing, not a closeness ranking.",
+        note: "Zyrcant asks `put me on the wall of shame 😩`; Ren mock-gatekeeps the ritual with `You got to e a r n your place here`; Zyrcant answers `fair lmaooo` and stays in the bit. The correction itself becomes the joke rather than a defensive moment.",
         href: "/characters/ren",
       },
       {
+        name: "ShiyaX",
+        note: "ShiyaX can publicly call Akariel/Zyrcant `caught in 4k`; Zyrcant's contextual answer is `oooh shit *runs*`. Comfortable public teasing is supported; exceptional closeness is not being manufactured from it.",
+      },
+      {
         name: "Gabu",
-        note: "Gabu is practical doorway help, pointing Akariel/Zyrcant to the UL server tour. Useful onboarding contact, not a promoted dyad.",
+        note: "Gabu is practical doorway help, pointing Akariel/Zyrcant to the UL server tour. Elsewhere Zyrcant narrates himself as the person who `tackles ppl`, specifically Gabu in that bit; keep the stage direction as chat slapstick, not literal physical contact or a closeness ranking.",
         href: "/characters/gabu",
+      },
+      {
+        name: "Snow",
+        note: "Zyrcant knows calling Snow old is a reliable room button well enough to press it deliberately: `Everytime someone calls snow old` is followed ten seconds later by `-runs-`. Better evidence for her self-aware troublemaking and the running-gag ecology than for a special Snow dyad.",
+        href: "/characters/snow",
       },
     ],
     quotes: [...new Set([
       ...(zyrcant.quotes ?? []),
       "put me on the wall of shame 😩",
       "fair lmaooo",
+      "oooh shit *runs*",
+      "im the one person who tackles ppl",
+      "and im tackling gabu in this case",
+      "Everytime someone calls snow old",
+      "-runs-",
       "the only apps now on my mac is spotify chrome and discord 😛",
       "Quiet at first but a crackhead once I’m comfortable",
     ])],
