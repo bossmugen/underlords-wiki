@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-08 — Run 642 stable census_
+_Last updated: 2026-09-08 — Run 643 stable census_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks remain the highest-priority identity/role correction layer. Per-run history is durable in `INTEGRATION_REPORT_RUN_*.md`; this file tracks the current reconciled frontier.
 
@@ -8,7 +8,7 @@ MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:ma
 
 Mandatory full census: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**.
 
-At Run 642 close:
+At Run 643 close:
 
 - newly discovered refs: **0**
 - unread active tails: **0**
@@ -29,6 +29,12 @@ Current reviewed frontiers relevant to the latest rounds:
 - Whiskey — `613f87c05eb6659bb0b9a4a720ca7a1bf106b748`
 - Louvre / AI Art / Athenaeum / Other Games — `30051464a2d2b1364ffb308459d037f9e061cfa7`
 - Wall — `6edcbd465f6ebbc8685b4cc6c3245c61f9f3e160`
+
+## Run 643 — stable census
+
+The full branch census found no advanced or unconsumed miner tail. All 30 active heads exactly matched their consumed frontiers, including both Club-Only recovery lanes. No handoff was reopened, no raw archive was touched, no consumed SHA moved, and no reader-facing MAIN or WIKI source changed.
+
+The eight reviewed MAIN `pending_publication` families remain publication debt rather than unread mining. Existing held rabbits remain unchanged.
 
 ## Run 642 — stable census
 
@@ -63,7 +69,7 @@ Later integration report/state commits are reader-neutral `[skip ci]`; they do n
 
 ## MAIN split
 
-MAIN changed **0 reader-facing files** in Run 642. The eight publication-held families remain reviewed debt awaiting intentional MAIN folds; they are not unread mining.
+MAIN changed **0 reader-facing files** in Run 643. The eight publication-held families remain reviewed debt awaiting intentional MAIN folds; they are not unread mining.
 
 No MAIN source-verification/Astro/built-output/deployment result is claimed for an unchanged reader tree. MAIN production is deliberately decoupled from integrator pushes.
 
