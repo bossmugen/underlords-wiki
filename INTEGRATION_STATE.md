@@ -1,22 +1,31 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-08 — Run 661 Wall / Eos + Beckiie_
+_Last updated: 2026-09-08 — Run 662 stable census_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks remain the highest-priority identity/role correction layer.
 
 ## Current census
 
-Closing target after successful review/publication: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**.
+Current closing state: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**.
 
-Run 661 opened with one advanced active tail and otherwise no backlog:
+Run 662 repeated the full branch census against fresh GitHub refs and found no unread active tail:
 
 - newly discovered refs: **0**
-- advanced/unconsumed active tails at opening: **1** — `archive-miner-wall-hourly-20260824`
+- advanced/unconsumed active tails at opening: **0**
+- advanced/unconsumed active tails at closing: **0**
 - backlog: **0**
 - overdue: **0**
 - reviewed MAIN publication-held families: **7**
 
-The Wall branch advanced from consumed `2d83dff8d44e625aa1c894d9b977878e90baa526` to `62eb7c5af0fc3b22c53077aaebbc6a67fcf732d3`. It was reviewed checkpoint-first and intake-only. Both Club-Only recovery lanes remained current / saturated.
+All 30 active miner heads still match their recorded reviewed/consumed frontiers. Both Club-Only recovery lanes remain current / saturated, so there was no recovery delta or anti-starvation branch available to review. No consumed SHA moved and no raw archive was reopened.
+
+## Run 662 — stable census
+
+No changed `archive-intake/*` handoff entered through active miner branches. Accordingly there is no genuinely new lore, relationship reframe, duplicate evidence family, identity conflict, attribution conflict, or new rabbit to publish this run.
+
+Reader-facing WIKI files changed: **0**. No Cast dossier, role progression, Relationship, Episode, Running Gag, Quote, Location, or Gallery/media note was warranted. The latest exact verified/deployed WIKI reader remains Run 661 SHA **`41512d52e55c3d0f7b4cb7779d0a091fe2376e0e`**. No new Astro/Pages build or deployment is claimed for an unchanged reader tree.
+
+MAIN reader-facing files also changed **0**. The seven `pending_publication` families remain reviewed MAIN biography/story debt rather than unread mining work, so no MAIN source-verification/Astro/built-output/deployment success is claimed for this documentation-only run.
 
 ## Run 661 — Eos + Beckiie / Wall
 
@@ -69,13 +78,13 @@ Verification / deployment:
   - actual Pages deploy job `102088275066` — **success**
   - report/status job `102088353785` — **success**
 
-This `INTEGRATION_STATE.md` update is reader-neutral and `[skip ci]`; it does not replace `41512d52...` as the exact reader receipt.
+The later `INTEGRATION_STATE.md` commits are reader-neutral and `[skip ci]`; they do not replace `41512d52...` as the exact reader receipt.
 
 ## MAIN routing
 
 Run 661 intentionally leaves **0 reader-facing MAIN changes**. Eos already has richer public person material; this Wall delta is accepted as a future person-first fold rather than another receipt paragraph. Beckiie's three-post, attachment-dependent footprint is coherent enough for WIKI but too thin for a padded MAIN biography.
 
-Accordingly no MAIN source-verification, Astro, built-output, or production deployment success is claimed for an unchanged MAIN reader tree. Wall remains reviewed MAIN publication debt, not unread mining.
+Run 662 also leaves **0 reader-facing MAIN changes** because no miner handoff advanced.
 
 ## Publication invariant
 
