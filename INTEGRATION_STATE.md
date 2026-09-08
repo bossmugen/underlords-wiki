@@ -28,11 +28,11 @@ The previously-created Run-629 Ghostt sidecar was not reader-wired. Run 630 fixe
 
 The watermelon exchange remains an emote duel, not a fruit-preference claim. The July 2022 media stays attribution-limited; POSTED BY does not become MADE BY/CAPTURED BY/FEATURING.
 
-### Rosario17 / Yazaki
+### Yaza / Yazaki / Rosario17
 
-Rosario17/Yazaki / `rosayaz` now has a compact structured Cast dossier. The public read stays Wall-local and proportionate: approval-first gallery spectator / warm validator whose tiny prose is unusually explicit about affect. `Nice idea 😀😂` directly answers a Mugen-filed exhibit, followed by `😂😂😂`; `Cool 😀.` and `Aww so sweet!!` reinforce the same small positive-review-desk mechanism.
+Hard identity remains one file: **Yaza = Yazaki = Rosario17**. The final Run-630 reader targets canonical `yaza` directly and has no fallback path that could manufacture a separate Rosario-shaped character. Historical `Rookie Cookie` wording routes to canonical **Rooks**.
 
-The Rookie Cookie reply is kept as warm acknowledgement only because the parent body remains unresolved. No closeness rank or invented topic was supplied.
+Yaza's compact Wall read stays local and proportionate: approval-first gallery spectator / warm validator whose tiny prose is unusually explicit about affect. Posting as Rosario17, she answers Mugen's filing with `Nice idea 😀😂`, then `😂😂😂`; `Cool 😀.` and `Aww so sweet!!` reinforce the same tiny positive-review-desk mechanism. A later Rooks reply remains warm acknowledgement only because the parent wording is unresolved.
 
 ### Woosung
 
@@ -48,24 +48,26 @@ This deepens ordinary hobby/social style and lightly deepens Woosung↔Snow as p
 
 - Illien/Pride `we've lost Pride's body` is **WALL-TEXT-EXHAUSTED / SIBLING-CC-NOT-SURFACED**. The Wall supports a repeated `cc` phrase tied to one remembered day, not a first occurrence or origin source.
 - Ghostt's full q18 branch remains partial/partly retrieval-blocked; the sampled branch is 3 positive / 4 trustworthy negative across seven selected parents.
-- Rosario's Wall-local synthesis is strong; do not globalize it into a universally-sunny personality claim.
+- Yaza's Wall-local synthesis is strong; do not globalize it into a universally-sunny personality claim.
 - Ryan X and Akamin did not clear promotion from this delta. Akamin remains canonically distinct from Mere.
 - The 279-hour word-chain bot remains unresolved/source-gated.
 - DyingFox remains underwritten beyond already-known food/reaction material.
 
 ## Publication / verification
 
-Reader files changed:
+Reader files changed during Run 630:
 
 - `src/data/cast-run630-intake.ts`
 - `src/data/bio-policy.ts`
 
-Exact verified/deployed reader commit: **`c8bb325d7aec32ca96d3e882dbf5c036001090a2`**.
+Final exact verified/deployed reader commit: **`449c700c0ae9d9d1d8a8f0b54868bee60acefc78`**.
 
 Verification/deployment for that reader:
 
-- `Build Underlords Wiki` workflow **34184300021** — success; Astro build job **101929437656** succeeded.
-- `Deploy Underlords Wiki Preview` / Pages workflow **34184300022** — success; Pages build/artifact job **101929520607**, deploy job **101929603117**, and report/status job **101929639139** all succeeded.
+- `Build Underlords Wiki` workflow **34184598862** — success; Astro build job **101930282184** succeeded.
+- `Deploy Underlords Wiki Preview` / Pages workflow **34184599009** — success; Pages build/artifact job **101930283055**, deploy job **101930569331**, and report/status job **101930612578** all succeeded.
+
+The earlier `c8bb325d7aec32ca96d3e882dbf5c036001090a2` reader also passed and deployed; `449c700c…` supersedes it after the final canonical-owner hardening.
 
 Later integration-state/report commits are reader-neutral and use `[skip ci]`.
 
