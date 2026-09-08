@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-08 — Run 650 Shiki / Nekoz / Zhēnxī_
+_Last updated: 2026-09-08 — Run 652 stable census_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks remain the highest-priority identity/role correction layer. Per-run history is durable in MAIN `archive-intake/INTEGRATION_REPORT_RUN*.md`; this file is intentionally a compact current-state snapshot rather than a duplicate run ledger.
 
@@ -8,7 +8,7 @@ MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:ma
 
 Mandatory closing census: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**.
 
-Run 650 closes with:
+Run 652 closes with:
 
 - newly discovered refs: **0**
 - unread active tails: **0**
@@ -80,7 +80,7 @@ A miner-local Wall synthesis labels stable account `459696170759880745` as `Rich
 
 ## MAIN close
 
-Run 650 made **0 net reader-facing MAIN changes**. Temporary Shiki reader commit `75b46ea9f6d9f2b9a90bd694651bcefb216007ff` was reverted by `01274d638e4b40fc21155a0605d1a3bebf1a828e`; comparing the opening census commit `090935ecc510d78560fb133f6040b3bfd35bdee2` to that revert commit yields no changed files. No MAIN build/deployment success is claimed for an unchanged closing reader tree.
+Run 652 made **0 reader-facing MAIN changes**. Every active miner ref still matched its recorded `last_seen_sha` / `last_consumed_sha` frontier, so no intake delta existed and no reader mutation was warranted. No MAIN build/deployment success is claimed for an unchanged reader tree.
 
 ## Publication invariant
 
