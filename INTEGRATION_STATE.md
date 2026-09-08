@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-08 — Run 644 Wall / Tony / Athena_
+_Last updated: 2026-09-08 — Run 645 Daycare / Alaina_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks remain the highest-priority identity/role correction layer. Per-run history is durable in `INTEGRATION_REPORT_RUN_*.md`; this file tracks the current reconciled frontier.
 
@@ -8,7 +8,7 @@ MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:ma
 
 Mandatory full census: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**.
 
-At Run 644 close:
+At Run 645 close:
 
 - newly discovered refs: **0**
 - unread active tails: **0**
@@ -25,10 +25,22 @@ Both Club-Only recovery lanes remain current / saturated:
 
 Current reviewed frontiers relevant to the latest rounds:
 
-- Daycare — `9abed7c002bbd98af88003e7c43b3cc7f0992d4a`
+- Daycare — `8ee75b62e0b4137da2b854c90598ac3dbffa84d2`
 - Whiskey — `613f87c05eb6659bb0b9a4a720ca7a1bf106b748`
 - Louvre / AI Art / Athenaeum / Other Games — `30051464a2d2b1364ffb308459d037f9e061cfa7`
-- Wall — `a6df3fc2bcd75146c1ac712be996e5432f7f926f`
+- Wall — `a6df3fc1c705667fe0dce6f3dd0e2d00fba1f6e3`
+
+## Run 645 — Alaina checks whether sanity is still an option
+
+Daycare was the only opening advanced miner branch. It was reviewed checkpoint-first and intake-only from consumed `59376c677848e69dc514d95bed5cd22d0c2fc7b6` through stable head `8ee75b62e0b4137da2b854c90598ac3dbffa84d2`. No miner branch was merged or cherry-picked wholesale.
+
+Alaina / `alaina_iris_k` now has enough repeated behavior for a compact WIKI dossier. Her best surviving Wall beat starts with `.... so is this just out of context....?`; Marian answers `no. that was the context`; Alaina simply says `Okay` and follows with a BRB emote. In a later scene she challenges Marian's first denial with `I think that is tho`, then accepts the more specific explanation that Eos is on Marian's account. The person read is not generic confusion. Alaina checks the referent, tests the sane explanation, and updates immediately when a better one arrives. She is literal without being stiff, and the reaction emote after the cursed answer reads like an exit sign after sanity has failed inspection.
+
+A concurrent WIKI reader commit then deepened the same canonical Alaina dossier with additional Daycare texture rather than creating a duplicate person. That concurrent work was reconciled and retained. The first Run-645 implementation briefly supplied `/characters/marian` as a relationship route; the built-site audit correctly failed because Marian does not currently have that public route. The link was removed rather than guessed or redirected to a different identity, and the repaired reader passed the full WIKI build/deploy suite.
+
+Backstage Daycare work also pinned the exact Discord object creation timestamp for channel ID `836032785490771968`: **2021-04-26 00:15:48.799 UTC / 2021-04-25 17:15:48.799 PDT**. The human creator remains unresolved. Baby Lyssa linking Daycare on 2021-06-02 is navigation, not creation evidence; no creator claim was published. Alaina's exact Lobby age remains private/sensitive and was omitted. `Eos is on my account` does not become Eos = Marian identity canon. Uninspected media keeps its existing attribution verbs.
+
+MAIN intentionally received no Alaina reader paragraph this round. The material is coherent but still compact; it is banked for a future person-first Daycare fold rather than padded into a faux-rich biography.
 
 ## Run 644 — Tony recurrence, Athena media catastrophe
 
@@ -44,13 +56,9 @@ Shiki q18 advanced backstage to `0+/35−` across 35 trustworthy-audited parents
 
 The full branch census found no advanced or unconsumed miner tail. All 30 active heads exactly matched their consumed frontiers, including both Club-Only recovery lanes. No handoff was reopened, no raw archive was touched, no consumed SHA moved, and no reader-facing MAIN or WIKI source changed.
 
-The eight reviewed MAIN `pending_publication` families remain publication debt rather than unread mining. Existing held rabbits remain unchanged.
-
 ## Run 642 — stable census
 
 The full branch census found no advanced or unconsumed miner tail. All 30 active heads exactly matched their Run 641 consumed frontiers, including both Club-Only recovery lanes. No handoff was reopened, no raw archive was touched, no consumed SHA moved, and no reader-facing MAIN or WIKI source changed.
-
-The eight reviewed MAIN `pending_publication` families remain publication debt rather than unread mining. Existing held rabbits remain unchanged.
 
 ## Run 641 — Seth, Zoshaa, and the post-credits Streamer packet
 
@@ -62,30 +70,30 @@ A final miner-head recheck then caught a late intake-only Wall suffix. Mr. Strea
 
 The Louvre checkpoint's retained Ricochet / `dragonrichard` → Rich merge proposal conflicts with the current canonical/public entity model and was not used. Shiki q18 advanced backstage to `0+/30−` across 30 trustworthy-audited parents with 23/53 unaudited; it remains OPEN / PARTIAL.
 
-## Latest reader publication — Run 644
+## Latest reader publication — Run 645
 
-Final exact verified/deployed WIKI reader SHA: **`d5216007894118fe79191aef7aa993068798a01d`**.
+Final exact verified/deployed WIKI reader SHA: **`5770a6091ed2acc1c92ce0274ff5eb6515ceb26c`**.
 
 Verification:
 
-- Build Underlords Wiki run `34200338494` — success
-  - Astro job `101977432223` — success
-- Deploy Underlords Wiki Preview run `34200338495` — success
-  - build/artifact job `101977432774` — success
-  - deploy job `101977571420` — success
-  - report/status job `101977622276` — success
-- Pages artifact `10045550578` is tied to reader SHA `d5216007894118fe79191aef7aa993068798a01d`; generated output inspection confirmed both `characters/athena/index.html` and `characters/tonytonychopper/index.html` contain the Run-644 material.
+- Build Underlords Wiki run `34202789281` — success
+  - Astro job `101985216630` — success
+- Deploy Underlords Wiki Preview run `34202789252` — success
+  - build/artifact job `101985216177` — success
+  - deploy job `101985364019` — success
+  - report/status job `101985437428` — success
 
-Later integration report/state commits are reader-neutral `[skip ci]`; they do not replace the exact live reader receipt above.
+The earlier Run-645 reader attempt failed the built-site audit on a nonexistent Marian character route; that was a real verification failure, not ignored. The relationship remains published without a fabricated link. The subsequent repair passed, and concurrent reader SHA `5770a609...` then deepened Alaina while preserving the repair. Later integration state/report commits are reader-neutral `[skip ci]`; they do not replace the exact live reader receipt above.
 
 ## MAIN split
 
-MAIN changed **0 reader-facing files** in Run 644. Tony's MAIN biography is already materially richer than this new Wall handoff, and Athena's compact surviving day is WIKI-sized rather than a reason to manufacture a padded MAIN biography. The broader eight publication-held families remain reviewed debt awaiting intentional MAIN folds; they are not unread mining.
+MAIN changed **0 reader-facing files** in Run 645. Alaina's new material is coherent WIKI-scale character texture and accepted future MAIN Daycare debt, not a reason to manufacture a padded biography. The broader eight publication-held families remain reviewed debt awaiting intentional MAIN folds; they are not unread mining.
 
-No MAIN source-verification/Astro/built-output/deployment result is claimed for an unchanged reader tree. MAIN production is deliberately decoupled from integrator pushes.
+No MAIN source-verification/Astro/built-output/deployment result is claimed for an unchanged reader tree. MAIN production is deliberately decoupled from integrator bookkeeping pushes.
 
 ## Open / held rabbits
 
+- Daycare channel ID `836032785490771968` has an exact object-creation timestamp — **2021-04-25 17:15:48.799 PDT** — but the human creator remains unresolved; naming one requires audit-log/executor evidence or user canon.
 - Shiki q18 is **OPEN / PARTIAL** at `0+/35−` across 35 trustworthy-audited parents; 18/53 remain unaudited.
 - Woohyuk q18 is **OPEN / PARTIAL / ROUTE-UNSTABLE**. Authored-parent denominator is 95; a first-25 negative tranche is held separate until overlap against the older seven negatives is proven; the positive replay revalidated.
 - Ten q18 parent `783996881645371392` remains **OPEN / PARTIAL / RETRIEVAL-BLOCKED**.
