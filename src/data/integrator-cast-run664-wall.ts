@@ -1,6 +1,15 @@
 import type { Character } from "./wiki";
 import { allCharacters, characterById } from "./cast";
 
+const upsertRelationship = (
+  relationships: NonNullable<Character["relationships"]>,
+  incoming: NonNullable<Character["relationships"]>[number],
+) => {
+  const index = relationships.findIndex((relationship) => relationship.name === incoming.name);
+  if (index >= 0) relationships[index] = { ...relationships[index], ...incoming };
+  else relationships.push(incoming);
+};
+
 const babyLyssaIndex = allCharacters.findIndex(
   (character) => character.id === "baby-lyssa" || character.aliases?.some((alias) => alias === "Ghoulie"),
 );
@@ -42,14 +51,15 @@ const babyLyssaCharacter: Character = {
         "Wafta gets a brisk `@waftaraider denied`, answers back, and Baby Lyssa escalates with `How dare you!?`. The exchange is compact counter-banter: refusal is the opening move, not the end of the interaction.",
     },
     {
-      name: "Sou",
+      name: "Ansun",
       note:
-        "Sou turns Baby Lyssa's repeat Wall exposure into a scoreboard: `if you keep going you can outdo me Ghoulie`; Lyssa answers `wanna bet?`; Sou calls it `our wall of FAME`; Lyssa comes back with `SHIII SAY LESS`. Competitive shame with zero hostility, not literal channel co-ownership.",
+        "Under the Sou name in this Wall scene, Ansun turns Baby Lyssa's repeat exposure into a scoreboard: `if you keep going you can outdo me Ghoulie`; Lyssa answers `wanna bet?`; Ansun calls it `our wall of FAME`; Lyssa comes back with `SHIII SAY LESS`. Competitive shame with zero hostility, not literal channel co-ownership.",
+      href: "/characters/ansun",
     },
     {
       name: "Ren",
       note:
-        "Ren asks whether Baby Lyssa even flinches at the Wall anymore. Lyssa says `no i don’t`, waits barely four seconds, then claims `this is my wall now`. Ren is functioning as a peer witness to a reputation Lyssa has already decided to wear.",
+        "Ren can both witness and inflate Ghoulie's Wall reputation: he asks whether she even flinches anymore, gets `no i don’t` followed seconds later by `this is my wall now`, and elsewhere upgrades the same public notoriety into `the Icon we need` / `You’re my idol`. The joke works because Lyssa keeps wearing the attention rather than fleeing it.",
       href: "/characters/ren",
     },
     {
@@ -89,6 +99,7 @@ const babyLyssaCharacter: Character = {
   ],
   antiFanon: [
     "Baby Lyssa and Ghoulie are the same stable Discord account under the user's resolved canon; do not split them into separate people.",
+    "Sou in the Wall scene resolves to Ansun / Souta under project canon; do not create a second relationship lane or person from that display name.",
     "Saved or posted Wall attachments are POSTED BY their transcript authors unless separate media evidence establishes who made, captured, or appears in them.",
     "Wall ownership, residence, rent, royalty, and `am broke` are joke-context only. They are not governance, housing, debt, or financial-status evidence.",
     "The `eats people` line is joke text and does not describe literal behavior.",
@@ -101,11 +112,7 @@ const babyLyssaCharacter: Character = {
 if (babyLyssaIndex >= 0) {
   const babyLyssa = allCharacters[babyLyssaIndex];
   const relationships = [...(babyLyssa.relationships ?? [])];
-  for (const incoming of babyLyssaCharacter.relationships ?? []) {
-    const index = relationships.findIndex((relationship) => relationship.name === incoming.name);
-    if (index >= 0) relationships[index] = { ...relationships[index], ...incoming };
-    else relationships.push(incoming);
-  }
+  for (const incoming of babyLyssaCharacter.relationships ?? []) upsertRelationship(relationships, incoming);
 
   allCharacters[babyLyssaIndex] = {
     ...babyLyssa,
@@ -126,18 +133,28 @@ const scarIndex = allCharacters.findIndex((character) => character.id === "scar"
 if (scarIndex >= 0) {
   const scar = allCharacters[scarIndex];
   const relationships = [...(scar.relationships ?? [])];
-  const mugenRelationship = {
+  upsertRelationship(relationships, {
     name: "Mugen",
     note:
       "Scar's September 2020 Whiskey arrival already has the easy guest-room rhythm: Scar asks `Where the meeting? @MUGEN`; Mugen answers with a fake `Meet my parents` before immediately switching to `Lol jk were happy to have you with us xD`. The joke-family line stays a joke; the useful part is how quickly formal guest context turns conversational.",
     href: "/characters/mugen",
-  };
-  const mugenIndex = relationships.findIndex((relationship) => relationship.name === "Mugen");
-  if (mugenIndex >= 0) relationships[mugenIndex] = mugenRelationship;
-  else relationships.push(mugenRelationship);
+  });
+  upsertRelationship(relationships, {
+    name: "Gilli",
+    note:
+      "Scar can throw a fake-harem accusation at Gilli, let Gilli reject it at full volume, and answer the denial with `Why not you?` instead of treating the objection as a stop sign. The premise changes shape and keeps moving; comfortable teasing, not literal romance or a closeness ranking.",
+    href: "/characters/gilli",
+  });
+  upsertRelationship(relationships, {
+    name: "ShiyaX",
+    note:
+      "Two minutes after Scar says they need to be mythic soon, `wow shiya` lands with sweat / walk-away emotes. A progression or comparison reaction is more likely than not, but the media-selected handoff does not preserve the exact thing ShiyaX had just done.",
+  });
 
   allCharacters[scarIndex] = {
     ...scar,
+    logline:
+      "Platelet whose surviving guest-era snapshots never make them socially timid: Scar can walk into Whiskey asking where the meeting is, turn Gilli's denial into `Why not you?`, re-enter when the room extends the premise, and be urgently `mythic soon` about a progression threshold the surviving slice never bothers to explain. Formal category and comfort in the room are not the same thing.",
     tags: [...new Set([
       ...(scar.tags ?? []),
       "Whiskey",
