@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-08 — Run 664_
+_Last updated: 2026-09-08 — Run 665_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks remain the highest-priority identity/role correction layer.
 
@@ -8,18 +8,21 @@ MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:ma
 
 Closing state: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**.
 
-Run 664's mandatory opening census found two advanced intake-only tails and persisted their new `last_seen_sha` values before deep review:
-
-- `archive-miner/whiskey-longitudinal-hourly`: `2354b3d743835a6baa950b5e1be698ff3ae65b53` → `86bda768938322032b370aa764f7350d9a2285ac`
-- `archive-miner-wall-hourly-20260824`: `10c17c764cbb69984c2e28e03114e84199bf931a` → `7c37f6d9ffeff586f8cc2cd5b31734a7df3dd7d5`
-
-Both were reviewed checkpoint-first using only changed `archive-intake/*` handoffs. Final head rechecks remained stable at those exact SHAs. Both Club-Only recovery lanes remain current / saturated, so no raw archive was reopened.
+Run 665 repeated the mandatory full branch census against fresh matching refs. Every active miner head still matches the reviewed frontier recorded by Run 664. No new branch was discovered, no `archive-intake/*` handoff advanced, no anti-starvation candidate existed, and no consumed SHA moved. Both Club-Only recovery lanes remain current/saturated.
 
 - newly discovered refs: **0**
 - advanced/unconsumed active tails after review: **0**
 - backlog: **0**
 - overdue: **0**
 - reviewed MAIN publication-held families: **7**
+
+## Run 665 — stable census
+
+No genuinely new lore, relationship reframe, duplicate evidence family, identity conflict, attribution conflict, or new rabbit entered through active miner intake this run.
+
+Reader-facing WIKI files changed: **0**. The latest exact verified/deployed WIKI reader remains Run 664 SHA **`4c4f801d0bfd4736cf29db92cfcc1f83a2a38388`**. No new Astro/Pages build or deployment is claimed for an unchanged reader tree.
+
+MAIN also changed **0 reader-facing files**. Its seven `pending_publication` families remain reviewed publication debt, not unread mining work. No MAIN source-verification/build/deployment success is claimed for an unchanged reader tree.
 
 ## Run 664 — Baby Lyssa / Ghoulie + Scar
 
@@ -166,6 +169,6 @@ Still held:
 - Akariel remains Zyrcant by hard canon.
 - Earliest surviving wording remains distinct from guaranteed origin.
 
-## Publication invariant
+## publication invariant
 
 WIKI owns structured Cast dossiers, role progression, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes. MAIN owns richer biographies and lived character narrative. Shared evidence may appear on both only when each surface uses it for its own job; identical prose is not the goal.
