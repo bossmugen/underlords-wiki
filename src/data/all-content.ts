@@ -4,6 +4,7 @@ import "./canonicalize-cast";
 import "./integrator-cast-run658-wall";
 import "./integrator-cast-run661-wall";
 import "./integrator-cast-run663-wall";
+import "./integrator-cast-run664-wall";
 
 type LooseRecord = Record<string, unknown>;
 type Gag = { id: string; name: string; logline: string };
