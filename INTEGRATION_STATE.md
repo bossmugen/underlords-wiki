@@ -1,99 +1,80 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-08 — Run 660 quiet full-census close_
+_Last updated: 2026-09-08 — Run 661 Wall / Eos + Beckiie_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks remain the highest-priority identity/role correction layer.
 
 ## Current census
 
-Closing census: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**.
+Closing target after successful review/publication: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**.
 
-Run 660 closes with:
+Run 661 opened with one advanced active tail and otherwise no backlog:
 
 - newly discovered refs: **0**
-- unread active tails: **0**
+- advanced/unconsumed active tails at opening: **1** — `archive-miner-wall-hourly-20260824`
 - backlog: **0**
 - overdue: **0**
 - reviewed MAIN publication-held families: **7**
 
-All 30 active miner heads exactly matched their Run 659 consumed frontiers. No miner branch advanced, no new intake delta existed to review, and no `last_consumed_sha` changed. Both Club-Only recovery lanes remain current / saturated.
+The Wall branch advanced from consumed `2d83dff8d44e625aa1c894d9b977878e90baa526` to `62eb7c5af0fc3b22c53077aaebbc6a67fcf732d3`. It was reviewed checkpoint-first and intake-only. Both Club-Only recovery lanes remained current / saturated.
 
-The seven MAIN publication-held families remain Backroom; Birthdays/PR/VC; Daycare; Meems; Whiskey; QOTD/Officers; and Wall. These are reviewed publication debt, not unread mining.
+## Run 661 — Eos + Beckiie / Wall
 
-## Run 660 — quiet census
+### Eos
 
-No reader-facing WIKI material changed because there was no new miner delta. No Cast dossier, role progression, Relationship, Episode, Running Gag, Quote, Location, or Gallery/media note was added merely to manufacture activity.
+Eos's Wall material deepens an existing person rather than creating a second dossier. When Screenshot Court comes for Eos, the defense is theatrical rather than evasive: `i said dont look`, `A VALID EXCUSE`, `WHYYY`, and `I just randomly said it, god damn it`. Marian Kage then starts deliberately hunting Eos receipts; Eos protests, counter-files, tells Marian she is `sort of spared`, and eventually reduces the exchange to `this is war`.
 
-No Astro/Pages build or deployment is claimed for an unchanged reader tree. The latest exact verified/deployed reader remains Run 658 SHA `f8a0e4813f6cead83eb5480f92483934b0c40486`.
+The later `FAME moment` scene matters because it changes the joke's direction without changing the relationship grammar. When the room asks for something genuinely positive, Marian remembers Eos's proposal, Gilli calls it their first fame moment, and Marian says Eos has earned a fame award. The word `fame` was already old Wall language; the wholesome category is the newer joke.
 
-No conflicts/rabbits changed state. Existing identity, attribution, q18, media-context, and earliest-surviving/origin rails remain held at their prior states.
+WIKI therefore keeps Marian Kage as the recurring receipt-war relationship, preserves Ren as Eos's softer bestie/backing lane, adds representative quotes, and records the positive-Fame running gag. No serious hostility, romance, governance, or literal legal role is inferred.
 
-## Run 659 — quiet census
+A concurrent reader commit had mapped this Marian lane to `Panda` and supplied a Panda route. That identity bridge is unsupported by the reviewed handoff. Run 661 corrected the live reader back to **Marian Kage** rather than inferring identity from a name association.
 
-No reader-facing WIKI material changed because there was no new miner delta. No Cast dossier, role progression, Relationship, Episode, Running Gag, Quote, Location, or Gallery/media note was added merely to manufacture activity.
+### Beckiie
 
-No Astro/Pages build or deployment is claimed for an unchanged reader tree. The latest exact verified/deployed reader remains Run 658 SHA `f8a0e4813f6cead83eb5480f92483934b0c40486`.
+Beckiie's reviewed Wall footprint is tiny but coherent: three surviving authored Wall posts, three attachments, and only one sentence of prose — `i feel like i don’t say anything that gets me here` — written while filing an image. The other two posts are attachment-only. That is enough for a compact searchable dossier built around attachment-first / low-verbiage participation, not enough to manufacture a rich biography.
 
-No conflicts/rabbits changed state. Existing identity, attribution, q18, media-context, and earliest-surviving/origin rails remain held at their prior states.
+The attachment pixels were not inspected. Public wording therefore stays at **POSTED BY Beckiie** only; no MADE BY / CAPTURED BY / FEATURING claim and no visual description is invented. Current alias `beckiieboo` is retained.
 
-## Run 658 — Scar + Daya / Wall
+### q18 / rabbits
 
-Wall was the sole advanced/unconsumed active miner branch at opening. It was reviewed checkpoint-first, intake-only from `e0884ece0523ee3bee93c7837a98bb9bc40c7b33` through `2d83dff8d44e625aa1c894d9b977878e90baa526`; final head recheck remained stable.
+Eos's 44 authored parents and Beckiie's 3 authored parents were audited for structured child-reply topology with no positive child links in those bounded sets. Those are topology guards only, not claims that nobody answered them or that either person was socially ignored.
 
-### Scar
+Still held:
 
-Scar / `s.car.` already has the canonical Platelet owner. The new Wall synthesis turns a generic file into an actual person: a sparse poster who becomes a playful provocateur when activated. `Also Gilli must have some harem here` gets a direct Gilli protest, then Sou and Marian amplify the premise; Scar returns later with `I knew it all time` and `LMFAO`. A separate Cookie/Tofu pocket repeats the same short-form escalation with `IT’S TRUE`, `100%`, and `want me to exposed?`.
+- Shiki q18 remains **OPEN / PARTIAL** at `0+/40−`, with 13 of 53 authored parents still unaudited.
+- Illien / `we've lost Pride's body` remains **WALL-TEXT-EXHAUSTED / SIBLING-CLUB-ONLY-EXACT-NOT-RECOVERED / UNRESOLVED**.
+- Anthos clone origin remains **OPEN / PRE-WAVE-CANDIDATE / FOUR-IMAGE-VISUAL-CONTEXT-BLOCKED**. Sou's 2020-08-25 `Behold. Anthos` package remains POSTED BY Sou only until the four images are actually inspected.
+- DyingFox q16 and other previously open inverse-reply branches remain open at their recorded states.
+- Rich / DragonRich and Ricochet / `dragonrichard` remain separate hard-canon people.
+- Akariel remains Zyrcant by hard canon.
+- Earliest surviving wording remains distinct from guaranteed origin.
 
-WIKI keeps the lived Gilli teasing lane and the sparse-footprint / high-provocation contradiction. `harem` remains joke language only; it does not establish romance, sex, or literal relationship structure.
+## Exact reader publication
 
-### Daya
+Exact verified/deployed WIKI reader SHA: **`41512d52e55c3d0f7b4cb7779d0a091fe2376e0e`**.
 
-Daya's existing Officer / Recruiter owner is deepened rather than replaced. The new cumulative Wall read is **evidence-aware chaos participant → opportunistic receipt filer / scene narrator**. In 2022 she calls herself `caught in 4k`, laughs when Mugen says the visible receipts were only one morning's worth, and schedules more `crackheadedness`. Her media-rec pocket adds `foor yk... research`, quick help from Rummy, love of a free reading option, and the Petty Crime of Googling `"(NAME) manga free"` while admitting the virus problem.
+Reader files changed for Run 661:
 
-By 2024 Daya is doing the filing herself: `walked into a crime being committed`, posts the screenshot, summons RotiniLM + Snow, and follows Rotini's `SHH EVERYTHING'S FINE` with an FBI GIF. That creates a bounded Rotini mock-prosecution lane and reinforces Mugen evidence-sharing familiarity and Rummy recommendation trust without inventing a closeness ranking.
-
-The screenshot is **POSTED BY Daya** only. Pixels were not inspected, so MADE BY / CAPTURED BY / FEATURING stay unresolved. Media-title banter is not used to infer sexuality or sex life.
-
-## Latest exact reader publication
-
-Exact verified/deployed reader SHA: **`f8a0e4813f6cead83eb5480f92483934b0c40486`**.
-
-Reader files:
-
-- `src/data/integrator-cast-run658-wall.ts`
+- `src/data/integrator-cast-run661-wall.ts`
 - `src/data/all-content.ts`
 
 Verification / deployment:
 
-- Build Underlords Wiki run `34227673812` — success
-  - Astro build job `102065696044` — success
-- Deploy Underlords Wiki Preview run `34227673836` — success
-  - build/artifact job `102065696046` — success
-  - actual Pages deploy job `102065902484` — success
-  - report/status job `102065971398` — success
+- Build Underlords Wiki run `34234338433` — **success**
+  - Astro build job `102088069716` — **success**
+- Deploy Underlords Wiki Preview run `34234338452` — **success**
+  - build/artifact job `102088070585` — **success**
+  - actual Pages deploy job `102088275066` — **success**
+  - report/status job `102088353785` — **success**
 
-This later `INTEGRATION_STATE.md` commit is reader-neutral and `[skip ci]`; it does not replace `f8a0e481...` as the exact live reader receipt.
-
-## Current held rabbits / rails
-
-- Illien / `we've lost Pride's body` is now **WALL-TEXT-EXHAUSTED / SIBLING-CLUB-ONLY-EXACT-NOT-RECOVERED / UNRESOLVED**. The route-changed exact check returned zero, but zero does not prove absence or establish an origin.
-- Anthos clone origin remains **OPEN / PRE-WAVE-CANDIDATE / FOUR-IMAGE-VISUAL-CONTEXT-BLOCKED**. Sou's 2020-08-25 `Behold. Anthos` four-image package is a candidate; pixels remain uninspected. The 2020-09-18 text remains earliest confirmed surviving clone language, not guaranteed origin.
-- Shiki q18 remains OPEN / PARTIAL at the recorded frontier; inverse-reply topology is not social characterization.
-- Nobu/Xuseio q18 remains OPEN / RETRIEVAL-BLOCKED with known positive edges.
-- Erys/Emi, Cele, HamitteY, Ghostt, Woohyuk, Akariel and larger inverse branches remain open at their recorded states.
-- Ansun ants remains TEXT-EXHAUSTED / MEDIA-BLOCKED.
-- Zoshaa `scrambled egg bunny fursona` remains media-blocked.
-- Rich / DragonRich and Ricochet / `dragonrichard` remain separate hard-canon people; miner-local conflation stays held.
-- Akariel remains Zyrcant by hard canon.
-- Earliest surviving wording is not guaranteed origin.
+This `INTEGRATION_STATE.md` update is reader-neutral and `[skip ci]`; it does not replace `41512d52...` as the exact reader receipt.
 
 ## MAIN routing
 
-Run 660 leaves **0 reader-facing MAIN changes**. No source-verification, Astro, built-output, or Cloudflare deployment success is claimed for an unchanged MAIN reader tree. The seven reviewed MAIN publication-held families remain publication debt.
+Run 661 intentionally leaves **0 reader-facing MAIN changes**. Eos already has richer public person material; this Wall delta is accepted as a future person-first fold rather than another receipt paragraph. Beckiie's three-post, attachment-dependent footprint is coherent enough for WIKI but too thin for a padded MAIN biography.
 
-Run 659 likewise left **0 reader-facing MAIN changes** for the same reason: no miner branch advanced.
-
-Run 658 likewise left **0 reader-facing MAIN changes**. Daya's canonical MAIN biography is already substantially richer and should absorb the Wall material as a person-first deepening when MAIN's controlled verification/deploy path is available; Scar remains too thin for a padded MAIN biography and should accumulate further ordinary-life / relationship material first.
+Accordingly no MAIN source-verification, Astro, built-output, or production deployment success is claimed for an unchanged MAIN reader tree. Wall remains reviewed MAIN publication debt, not unread mining.
 
 ## Publication invariant
 
