@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-08 — Run 663 stable census_
+_Last updated: 2026-09-08 — Run 663 late Wall review_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks remain the highest-priority identity/role correction layer.
 
@@ -8,32 +8,57 @@ MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:ma
 
 Current closing state: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**.
 
-Run 663 repeated the full branch census against fresh GitHub refs and found no unread active tail:
+Run 663's opening census was initially stable, but the mandatory closing sweep caught `archive-miner-wall-hourly-20260824` advancing from `62eb7c5af0fc3b22c53077aaebbc6a67fcf732d3` to `10c17c764cbb69984c2e28e03114e84199bf931a`.
 
 - newly discovered refs: **0**
 - advanced/unconsumed active tails at opening: **0**
-- advanced/unconsumed active tails at closing: **0**
+- late advanced tail caught at close: **1 Wall tail**
+- advanced/unconsumed active tails after review/publication: **0**
 - backlog: **0**
 - overdue: **0**
 - reviewed MAIN publication-held families: **7**
 
-All 30 active miner heads still match their recorded reviewed/consumed frontiers. Both Club-Only recovery lanes remain current / saturated, so there was no recovery delta or anti-starvation branch available to review. No consumed SHA moved and no raw archive was reopened.
+The late Wall `last_seen_sha` was persisted before deep review. The delta was then reviewed checkpoint-first using only its changed `archive-intake/*` handoffs. Both Club-Only recovery lanes remain current / saturated, so there was no recovery delta or additional anti-starvation branch available. No raw archive was reopened.
 
-## Run 663 — stable census
+## Run 663 — Yumi / Yummibears + late Wall tail
 
-No changed `archive-intake/*` handoff entered through active miner branches. Accordingly there is no genuinely new lore, relationship reframe, duplicate evidence family, identity conflict, attribution conflict, or new rabbit to publish this run.
+### Yumi
 
-Reader-facing WIKI files changed: **0**. No Cast dossier, role progression, Relationship, Episode, Running Gag, Quote, Location, or Gallery/media note was warranted. The latest exact verified/deployed WIKI reader remains Run 661 SHA **`41512d52e55c3d0f7b4cb7779d0a091fe2376e0e`**. No new Astro/Pages build or deployment is claimed for an unchanged reader tree.
+Stable account `415352848855859200` gives Yumi/Yummibears a compact Wall person-shape across ten surviving authored posts in 2020–2021. Her filing register is attachment-first and low-verbiage: the exhibit usually does the talking, while tiny captions like `welp...` and `Yep` supply the aftertaste.
 
-MAIN reader-facing files also changed **0**. The seven `pending_publication` families remain reviewed MAIN biography/story debt rather than unread mining work, so no MAIN source-verification/Astro/built-output/deployment success is claimed for this documentation-only run.
+The important contradiction is what happens when Screenshot Court turns toward her. Yumi does not step out of the ritual; she true-replies to Anthos with `i mean at least I get to be famous`, converting exposure into status comedy, and elsewhere answers `This is me` with the same low-friction acknowledgment style. The dossier therefore keeps her as somebody who can both file the evidence and take her own turn under the lamp without needing a speech.
+
+WIKI now owns this as a compact Cast dossier with bounded Mugen and Anthos relationship lanes, representative quotes, hard-confirmed 2020 Officer status, and provenance guards. The Wall attachments remain **POSTED BY Yumi** only unless separate media inspection establishes MADE BY / CAPTURED BY / FEATURING. The Wall slice is not used to invent an officer appointment date or a formal screenshot/archive job.
+
+### HamitteY q18
+
+The first 20 of 27 trustworthy HamitteY authored Wall parents were audited for surviving structured child Reply topology: **`0+/20−`**. Seven remain unaudited, so the rabbit stays **OPEN / PARTIAL**. This is a bounded topology guard only and is not evidence that HamitteY was ignored, unpopular, peripheral, or unanswered in ordinary conversation.
+
+## Exact reader publication — Run 663
+
+Exact verified/deployed WIKI reader SHA: **`413d737c3af62c28d19282e1b053b5babd4ef6da`**.
+
+Reader files changed:
+
+- `src/data/integrator-cast-run663-wall.ts`
+- `src/data/all-content.ts`
+
+Verification / deployment:
+
+- Build Underlords Wiki run `34238692877` — **success**
+  - Astro build job `102102974481` — **success**
+- Deploy Underlords Wiki Preview run `34238692900` — **success**
+  - build/artifact job `102103112575` — **success**
+  - actual Pages deploy job `102103335631` — **success**
+  - report/status job `102103519969` — **success**
+
+Later `INTEGRATION_STATE.md` bookkeeping commits are reader-neutral and `[skip ci]`; they do not replace `413d737c...` as the exact reader receipt.
 
 ## Run 662 — stable census
 
-No changed `archive-intake/*` handoff entered through active miner branches. Accordingly there is no genuinely new lore, relationship reframe, duplicate evidence family, identity conflict, attribution conflict, or new rabbit to publish this run.
+No changed `archive-intake/*` handoff entered through active miner branches. Accordingly there was no genuinely new lore, relationship reframe, duplicate evidence family, identity conflict, attribution conflict, or new rabbit to publish in Run 662.
 
-Reader-facing WIKI files changed: **0**. No Cast dossier, role progression, Relationship, Episode, Running Gag, Quote, Location, or Gallery/media note was warranted. The latest exact verified/deployed WIKI reader remains Run 661 SHA **`41512d52e55c3d0f7b4cb7779d0a091fe2376e0e`**. No new Astro/Pages build or deployment is claimed for an unchanged reader tree.
-
-MAIN reader-facing files also changed **0**. The seven `pending_publication` families remain reviewed MAIN biography/story debt rather than unread mining work, so no MAIN source-verification/Astro/built-output/deployment success is claimed for this documentation-only run.
+Reader-facing WIKI files changed: **0**. The then-latest exact verified/deployed WIKI reader remained Run 661 SHA **`41512d52e55c3d0f7b4cb7779d0a091fe2376e0e`**. MAIN reader-facing files also changed **0**.
 
 ## Run 661 — Eos + Beckiie / Wall
 
@@ -57,7 +82,7 @@ The attachment pixels were not inspected. Public wording therefore stays at **PO
 
 Eos's 44 authored parents and Beckiie's 3 authored parents were audited for structured child-reply topology with no positive child links in those bounded sets. Those are topology guards only, not claims that nobody answered them or that either person was socially ignored.
 
-Shiki q18 is now **CLOSED at `0+/53−` across all 53/53 trustworthy-audited authored Wall parents**. Each audited parent resolves exactly once in the full Wall JSON and none has a surviving structured child Reply. This is topology only; it is not a personality, popularity, isolation, or conversational-neglect claim. This supersedes the earlier partial `0+/40−` state and removes Shiki from the active q18 rabbit queue.
+Shiki q18 is **CLOSED at `0+/53−` across all 53/53 trustworthy-audited authored Wall parents**. Each audited parent resolves exactly once in the full Wall JSON and none has a surviving structured child Reply. This is topology only; it is not a personality, popularity, isolation, or conversational-neglect claim.
 
 Still held:
 
@@ -68,33 +93,13 @@ Still held:
 - Akariel remains Zyrcant by hard canon.
 - Earliest surviving wording remains distinct from guaranteed origin.
 
-## Exact reader publication
-
-Exact verified/deployed WIKI reader SHA: **`41512d52e55c3d0f7b4cb7779d0a091fe2376e0e`**.
-
-Reader files changed for Run 661:
-
-- `src/data/integrator-cast-run661-wall.ts`
-- `src/data/all-content.ts`
-
-Verification / deployment:
-
-- Build Underlords Wiki run `34234338433` — **success**
-  - Astro build job `102088069716` — **success**
-- Deploy Underlords Wiki Preview run `34234338452` — **success**
-  - build/artifact job `102088070585` — **success**
-  - actual Pages deploy job `102088275066` — **success**
-  - report/status job `102088353785` — **success**
-
-The later `INTEGRATION_STATE.md` commits are reader-neutral and `[skip ci]`; they do not replace `41512d52...` as the exact reader receipt.
-
 ## MAIN routing
 
-Run 661 intentionally leaves **0 reader-facing MAIN changes**. Eos already has richer public person material; this Wall delta is accepted as a future person-first fold rather than another receipt paragraph. Beckiie's three-post, attachment-dependent footprint is coherent enough for WIKI but too thin for a padded MAIN biography.
+Run 661 intentionally left **0 reader-facing MAIN changes**. Eos already had richer public person material; this Wall delta is accepted as a future person-first fold rather than another receipt paragraph. Beckiie's three-post, attachment-dependent footprint is coherent enough for WIKI but too thin for a padded MAIN biography.
 
-Run 662 also leaves **0 reader-facing MAIN changes** because no miner handoff advanced.
+Run 662 also left **0 reader-facing MAIN changes** because no miner handoff advanced.
 
-Run 663 also leaves **0 reader-facing MAIN changes** because no miner handoff advanced.
+Run 663 also leaves **0 reader-facing MAIN changes**. Yumi's new material is coherent enough for a structured WIKI dossier but still heavily Wall-shaped; it does not justify manufacturing a rich MAIN biography from one social axis. Wall remains a MAIN `pending_publication` family because previously accepted Eos person-first material is still held for the proper MAIN release path.
 
 ## Publication invariant
 
