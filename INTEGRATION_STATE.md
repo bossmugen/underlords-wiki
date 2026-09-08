@@ -1,30 +1,36 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-08 — Run 630 Wall + Daycare publication_
+_Last updated: 2026-09-08 — Run 631 stable census_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks remain the highest-priority identity/role correction layer. Per-run history remains durable in `INTEGRATION_REPORT_RUN_*.md`; this file tracks the current reconciled frontier rather than duplicating every old run.
 
 ## Current census
 
-Mandatory full census: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**. Run 630 discovered **0** new refs and closes with **0 unread pending-review tails, 0 backlog, 0 overdue**. Eight active evidence families remain `pending_publication` because reviewed MAIN material is still release-held; this is publication debt, not unread miner work.
+Mandatory full census: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**. Run 631 discovered **0** new refs and closes with **0 unread pending-review tails, 0 backlog, 0 overdue**. Eight active evidence families remain `pending_publication` because reviewed MAIN material is still release-held; this is publication debt, not unread miner work.
+
+All 30 active miner heads match their Run 630 consumed frontiers. No intake delta existed this run, so no raw archive was reopened and no consumed SHA moved.
 
 Both Club-Only recovery lanes remain current/saturated:
 
 - `archive-miner/club-only-2021-2026-hourly` — `e45fb11c9239e236231bb65645dfd0285bc0078b`
 - `archive-miner-clubonly-2020-hourly` — `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`
 
-No raw archive was reopened.
+Current reviewed frontiers relevant to the latest publication remain:
 
-Run 630 consumed:
+- Daycare — `bee70f3bf3dab5122d9c201c30fd7d68850fbad3`
+- Wall — `f3d9f972b856eee10b8592b8eacf9da110dcdc17`
 
-- Daycare through `bee70f3bf3dab5122d9c201c30fd7d68850fbad3`
-- Wall through `f3d9f972b856eee10b8592b8eacf9da110dcdc17`
+## Run 631 — stable census
 
-## Run 630 — reader integration
+No miner intake delta existed. Reader-facing files changed **0** on both public surfaces. No Astro/Pages build or deployment was run for WIKI because the reader tree is unchanged; no MAIN verification/build/deploy cycle was run for the same reason. No identity, attribution, relationship, chronology, episode, running-gag, quote, gallery, or consumed-frontier state changed.
+
+The eight MAIN publication-held families remain: Backroom; Birthdays/PR/VC; Daycare; Louvre/AI/Athenaeum/Other Games; Meems; Whiskey; QOTD/Officers; Wall.
+
+## Latest reader integration — Run 630
 
 ### Ghostt
 
-The previously-created Run-629 Ghostt sidecar was not reader-wired. Run 630 fixes that at the active Cast layer instead of pretending an unreferenced module was public. Ghostt now has a structured dossier/deepener built around the cumulative person mechanism the Wall supports: reaction-first participation, visual shorthand, dry one-line commentary, comfortable low-setup ribbing with Tofu and HamitteY, and the useful longitudinal contradiction that game disengagement/uninstall did not immediately erase social Wall presence.
+The previously-created Run-629 Ghostt sidecar was not reader-wired. Run 630 fixed that at the active Cast layer instead of pretending an unreferenced module was public. Ghostt now has a structured dossier/deepener built around the cumulative person mechanism the Wall supports: reaction-first participation, visual shorthand, dry one-line commentary, comfortable low-setup ribbing with Tofu and HamitteY, and the useful longitudinal contradiction that game disengagement/uninstall did not immediately erase social Wall presence.
 
 The watermelon exchange remains an emote duel, not a fruit-preference claim. The July 2022 media stays attribution-limited; POSTED BY does not become MADE BY/CAPTURED BY/FEATURING.
 
@@ -49,13 +55,13 @@ This deepens ordinary hobby/social style and lightly deepens Woosung↔Snow as p
 - Illien/Pride `we've lost Pride's body` is **WALL-TEXT-EXHAUSTED / SIBLING-CC-NOT-SURFACED**. The Wall supports a repeated `cc` phrase tied to one remembered day, not a first occurrence or origin source.
 - Ghostt's full q18 branch remains partial/partly retrieval-blocked; the sampled branch is 3 positive / 4 trustworthy negative across seven selected parents.
 - Yaza's Wall-local synthesis is strong; do not globalize it into a universally-sunny personality claim.
-- Ryan X and Akamin did not clear promotion from this delta. Akamin remains canonically distinct from Mere.
+- Ryan X and Akamin did not clear promotion from the latest Wall delta. Akamin remains canonically distinct from Mere.
 - The 279-hour word-chain bot remains unresolved/source-gated.
 - DyingFox remains underwritten beyond already-known food/reaction material.
 
 ## Publication / verification
 
-Reader files changed during Run 630:
+Latest reader files changed during Run 630:
 
 - `src/data/cast-run630-intake.ts`
 - `src/data/bio-policy.ts`
@@ -67,12 +73,10 @@ Verification/deployment for that reader:
 - `Build Underlords Wiki` workflow **34184598862** — success; Astro build job **101930282184** succeeded.
 - `Deploy Underlords Wiki Preview` / Pages workflow **34184599009** — success; Pages build/artifact job **101930283055**, deploy job **101930569331**, and report/status job **101930612578** all succeeded.
 
-The earlier `c8bb325d7aec32ca96d3e882dbf5c036001090a2` reader also passed and deployed; `449c700c…` supersedes it after the final canonical-owner hardening.
-
 Later integration-state/report commits are reader-neutral and use `[skip ci]`.
 
 ## Controls
 
 Hard canon and resolved identity corrections remain controlling. No identity-by-name guessing, no appointment chronology from export/current role arrays, no joke family/romance inflation, no earliest-surviving=origin claim, and no POSTED BY → MADE BY/CAPTURED BY/FEATURING promotion. Uninspected media remains attribution-limited. Sensitive material stays backstage.
 
-Recent report: `INTEGRATION_REPORT_RUN_630.md`.
+Recent report: `INTEGRATION_REPORT_RUN_631_STABLE_CENSUS.md`.
