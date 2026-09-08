@@ -1,82 +1,73 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-08 — Run 670 close / Run 671 handoff_
+_Last updated: 2026-09-08 — Run 671 close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity / role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
 
-## Run 670 substantive integration
+## Run 671 substantive integration
 
-Run 670 began with a clean census, then three miner branches advanced in sequence while the pass was live. Each new `last_seen_sha` was persisted before deep review. The pass reviewed Wall through `492573db7627e8053234242220a6888e35544afe`, Whiskey through `09e307e882441cb5c9a2acdec8468231bfb1b714`, and Core Rooms / Events through `6b3b5357807be8fa6aaada6bf427b7b933ad0a9c`.
+Run 671 completed the required full miner census at **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with no newly discovered miner refs, no backlog, and no overdue branches. Both Club-Only recovery lanes remained current / saturated.
 
-The final reader commit for Run 670 is **`87c51263eb4b3283923da3b3a8e067e233e9ab92`**. It includes the earlier Wall and Whiskey integrations plus the final Core Rooms structured deepeners.
+The run reviewed two newly advanced intake deltas checkpoint-first and intake-only:
 
-Verification / deployment on that exact reader SHA:
+- Core Rooms / Events: `72d55a6bbf29330853af42eba6c0cb382dc58dc8 -> 6f647d27c197714f0bd6a14cf17aec32cedaeb06`
+- Wall: `492573db7627e8053234242220a6888e35544afe -> d4b5c9850f9796ffeb4c5dca71c7876fc9c9b632`
 
-- Build Underlords Wiki run **`34258014006`** — success
-  - Astro build job **`102168600815`** — success
-- Deploy Underlords Wiki Preview run **`34258014065`** — success
-  - build/artifact job **`102168735650`** — success
-  - actual Pages deploy job **`102168893316`** — success
-  - report/status job **`102168969883`** — success
+It also closed the prior Whiskey verification hold. Whiskey's Nhou reader `426edfcd637fbedbee67a71afd8666eef3a3bff8` had already been reviewed through miner head `09e307e882441cb5c9a2acdec8468231bfb1b714`; Build run `34257462134` and Pages run `34257462211` are both successful, and the Pages run's build/artifact `102165955443`, deploy `102166102079`, and report `102166180370` jobs are all green. That miner frontier is therefore safe to mark consumed.
 
-The immediately preceding Whiskey reader `426edfcd637fbedbee67a71afd8666eef3a3bff8` also passed Build `34257462255` and Pages `34257462211`; Run 670's final Core reader supersedes it as the current exact live-reader receipt.
+### Tomas
 
-## What changed on WIKI
+Tomas now has a structured Cast owner whose role is written as behavior rather than a title ledger. The useful continuity is standards plus practical competence: in the 2020 promotion discussion he argues that a role is not a political or feel-good placement; in 2021 he explains Royal Chest mechanics clearly enough that Tommy answers `#stillmyfavoriteofficer` and Sarah teases `When will you be pro?`, getting `Soon` back. WIKI keeps the Officer label while explicitly refusing to manufacture an appointment date from export-time/current role arrays.
 
-### Booba / MsThiccy / boobaboo
+### LunaBelle / MoonDoll
 
-The existing Booba Cast owner now carries the September 2022 delayed-receipt beat: `Oh I forgot to share this one`, followed 6.605 seconds later by the attachment filing. The public read is intentionally small and person-shaped: tiny prose budget, excellent memory for a forgotten exhibit, already fluent in Screenshot Court grammar. The image itself remains uninspected and therefore POSTED BY Booba only.
+LunaBelle and MoonDoll are bridged here because the reviewed slices carry the exact same stable account ID `884244048279580703`, not because the names resemble each other. The dossier keeps the Staff / Archivist labels but lets the person read come from two small behaviors: she greets a long-gone veteran with an unceremonious `Hey hey ☺️`, and when a recruiting-advice prompt catches her in the wrong headspace she says she was not in a frame of mind to give a decent answer rather than filling the room with one anyway. Recognition without ceremony; advice without pretending certainty.
 
-### HamitteY
+### Mia
 
-HamitteY's q18 audit is now **CLOSED at `6+/60−` across all 66/66 exact-audited authored Wall parents**. That stays topology-only backstage. The public dossier uses only the bounded reputation texture from Mugen's true reply to HamitteY's bewildered Sam-the-Eagle GIF: `Litrally u everyday for the past 2 years when u wake up in UL`. The line is treated as affectionate hyperbole / recurring-recognition, not a literal daily count.
+Mia's existing owner was deepened instead of duplicated. Her Wall footprint is low-volume but socially quick: she true-replies to Snow's `Does this count?` with `Well they were right`, tells Poot `So you lied`, and tags Mugen with `Why are you like this 😂 I would've bopped you lmao`. The Mugen beat is framed as familiar playful confrontation because Mugen answers through reactions; it is not literal violence, romance, or a new closeness rank. The uninspected GIF remains POSTED BY Mugen only.
 
-### Nhou
+## Run 671 verification / deployment
 
-Nhou's structured dossier now reflects the stronger cumulative pattern already owned richly by MAIN: Nhou can enter with `hii` or `i just wokeup` while somebody else supplies the fanfare (`@nhou NHOU BB`). Repeated front-door processing is treated as administrative recurrence inside social continuity, never as proof of kick, ban, leave, membership lapse, or appointment chronology. Anayss's `role assigned` + `wb!` is bounded to access handling / welcome-back; the exact historical role and reason remain unresolved. Private workplace and age details remain backstage.
+The exact Run 671 reader commit is **`efde7d57fb57dac5cf61a5466abf6d3b649dec53`**.
 
-### Nelph
+- Build Underlords Wiki run **`34258978768`** — success
+  - Astro build job **`102171865201`** — success
+- Deploy Underlords Wiki Preview run **`34258978721`** — success
+  - build/artifact job **`102172004521`** — success
+  - actual Pages deploy job **`102172167917`** — success
+  - report/status job **`102172239202`** — success
 
-Nelph's dossier now reflects fast but calibratable case-building: collect what is known, name what is missing, pursue the follow-up, let the room read, and accept a slower tempo when Mugen says the situation is not urgent. The private interpersonal matter that produced the pattern is not exposed and did not become a WIKI Episode.
+The state commit that follows this section is reader-neutral and does not replace `efde7d57...` as the exact verified/deployed reader receipt.
 
-### Wolf Phenix
+## Run 671 MAIN routing
 
-Wolfie's dossier now carries the cumulative documentation-minded organizer axis: calendars, event comms, written detail when accuracy matters, and a preference for work other people can actually find and use. `my potato for a brain` survives as harmless Petty Crimes texture because the self-deprecation is funny precisely beside the documentation discipline. The private case that also supports the record-minded pattern remains backstage.
+MAIN reader-facing files changed **0** in this run.
 
-## MAIN routing
-
-MAIN reader-facing files changed **0** during Run 670. That was deliberate, not a failure to route material.
-
-- MAIN already owns the richer Nhou biography, including the low-ceremony entrances and repeated front-door continuity.
-- MAIN already owns Nelph's lived Officer case-building behavior with the underlying complaint held private.
-- MAIN already owns Wolfie's planner / event-comms / artist role richly enough that the Core handoff did not justify another report-shaped paragraph.
-- Booba remains too single-axis for a rich MAIN biography.
-- HamitteY q18 is backstage topology and does not belong in visible biography prose.
+- Tomas and LunaBelle now have enough bounded behavior for useful WIKI dossiers, but not enough ordinary-life / relationship breadth to justify inventing padded MAIN biographies from two clean scenes each.
+- Mia already has a richer public owner; the new Wall material is future fold / Petty Crimes texture rather than another dated incident paragraph.
+- Nhou's Whiskey material was already richer on MAIN; Run 671 only closes its previously verified consumption bookkeeping.
 
 No MAIN source-verification / Astro / built-output / production-deploy success is claimed for an unchanged reader tree.
 
-## Closing census / handoff
+## Run 671 held rails / rabbits
 
-Run 670's own final census still contained **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 backlog, and 0 overdue**. Both Club-Only recovery lanes remained current / saturated.
-
-After Run 670's verified reader was already complete, a newer integrator began Run 671 and became the authoritative MAIN branch-state writer. Its opening census caught fresh post-verification tails on Core Rooms and Wall. Run 670 therefore did not overwrite Run 671's newer controlling ledger merely to stamp its own bookkeeping. Those late tails belong to the newer run's review frontier.
-
-At handoff:
-
-- Wall was reviewed by Run 670 through `492573db7627e8053234242220a6888e35544afe`; a newer tail at `d4b5c9850f9796ffeb4c5dca71c7876fc9c9b632` is now owned by Run 671.
-- Whiskey was reviewed and verified through `09e307e882441cb5c9a2acdec8468231bfb1b714`; Run 671's controlling ledger may finalize consumption bookkeeping after observing the successful reader verification.
-- Core Rooms / Events was reviewed and verified through `6b3b5357807be8fa6aaada6bf427b7b933ad0a9c`; a newer tail at `6f647d27c197714f0bd6a14cf17aec32cedaeb06` is now owned by Run 671.
-
-## Held rails
-
-- HamitteY q18 closure is reply topology only, never popularity, closeness, or personality proof.
-- Shiki q18 remains CLOSED at its prior authoritative `0+/53−` frontier.
-- Nhou's private age and workplace specifics remain backstage.
-- Nelph and Wolfie's private interpersonal-case identities / allegations remain backstage; no WIKI Episode was created from them.
-- Booba's attachment pixels remain uninspected; POSTED BY does not become MADE BY / CAPTURED BY / FEATURING.
+- Tomas's exact title transition chronology remains unresolved. Current/export-time arrays do not date appointments.
+- LunaBelle / MoonDoll may be bridged in these reviewed slices by exact stable account ID; broader naming still follows account-level reconciliation, never name similarity.
+- A 2018 QOTD receiving replies again in 2021 is a useful latent-thread candidate, but one example does not justify a site-wide resurfacing rule yet.
+- Mia's Wall attachment pixels remain uninspected; POSTED BY does not become MADE BY / CAPTURED BY / FEATURING.
+- Mia's q18/inverse-reply rabbit remains partial and is not turned into popularity or relationship fanfic.
 - Rich / DragonRich and Ricochet / `dragonrichard` remain separate hard-canon people.
 - Akariel remains Zyrcant by hard canon.
 - earliest surviving material remains distinct from guaranteed origin.
+
+## Run 670 historical receipt
+
+Run 670's final reader commit was **`87c51263eb4b3283923da3b3a8e067e233e9ab92`**. It carried the preceding Wall, Whiskey, and Core integrations: Booba's delayed receipt filing, HamitteY's q18 closure, Nhou's low-ceremony return continuity, Nelph's calibratable case-building, and Wolf Phenix's documentation-minded organizer axis.
+
+Verification on that exact reader SHA succeeded via Build `34258014006` / Astro job `102168600815` and Pages `34258014065` / build `102168735650` / deploy `102168893316` / report `102168969883`.
+
+HamitteY q18 remains CLOSED at `6+/60−` across all 66/66 exact-audited authored Wall parents; Shiki q18 remains CLOSED at `0+/53−`. Those are reply-topology statements only, never personality, popularity, or closeness claims. Nhou's private age/workplace specifics and the private interpersonal casework behind Nelph/Wolf remain backstage. Booba's attachment pixels remain uninspected.
 
 ## Publication invariant
 
