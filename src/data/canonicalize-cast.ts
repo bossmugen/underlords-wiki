@@ -155,6 +155,21 @@ const additions: Character[] = [
     tags: ["VIP", "Whiskey", "Dragon Raja"],
   },
   {
+    id: "queen-shimoko",
+    name: "Queen Shimoko",
+    aliases: ["shimok05290"],
+    billing: "guest",
+    role: "Archive-era Wall gallery",
+    era: "2021",
+    logline: "Three surviving Wall posts and somehow the operating system is clear: `:Hehe:`, `Crab booty omgsh`, and a true reply made entirely of two spit emotes. Queen participates like punctuation—tiny signal, exact referent, no briefing deck.",
+    tags: ["Wall", "2021", "Low-verbiage", "Petty Crimes"],
+    relationships: [
+      { name: "KOREA / Milk", note: "Queen true-replies to Korea's pineapple-screenshot callback with two spit emotes and no prose. The reply edge makes the high-context reaction legible without inflating it into a closeness rank.", href: "/characters/korea-milk" },
+      { name: "Ricochet", note: "A probable same-pocket comic handoff: Queen says `Crab booty omgsh`; Ricochet answers about a minute later with `Pancake crab booty??`. Chronology supports the riff, not a formal reply edge.", href: "/characters/ricochet" },
+    ],
+    quotes: [":Hehe:", "Crab booty omgsh:Laugh:", ":EmoJi_Spit: :EmoJi_Spit:"],
+  },
+  {
     id: "sarabunny",
     name: "SaraBunny",
     aliases: ["foxcat"],
@@ -278,7 +293,7 @@ const canonicalGroups: CastGroup[] = [
     note: "Non-UL visitors / guests, plus files whose surviving evidence does not establish UL membership.",
     characterIds: [
       "zyrcant","rich","woohyuk","syv","woosung","beowulf",
-      "baby-lyssa","lexi","acoryuie","beaeder","bishopthaguru","jade","jordayy","korea-milk","milo","tonytonychopper",
+      "baby-lyssa","lexi","acoryuie","beaeder","bishopthaguru","jade","jordayy","korea-milk","milo","queen-shimoko","tonytonychopper",
     ],
   },
 ];
