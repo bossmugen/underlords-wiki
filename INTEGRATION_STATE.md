@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-07 — Run 616 close_
+_Last updated: 2026-09-07 — Run 620 close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks remain the highest-priority identity/role correction layer.
 
@@ -9,6 +9,31 @@ MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:ma
 Mandatory full census: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**. Closing state: **0 newly discovered branches, 0 unread pending-review tails, 8 reviewed `pending_publication` MAIN families, 0 backlog, and 0 overdue**.
 
 Both Club-Only recovery lanes remain current/saturated at `e45fb11c9239e236231bb65645dfd0285bc0078b` and `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`; neither was churned.
+
+## Run 620 — Plushie learns the Wall and then barely needs words
+
+`archive-miner-wall-hourly-20260824` advanced from `63a9e2fb06919a90d50b1c77321557569977b5d7` to `595812c68632cedcade328726b5c7905f0f521b8` and was reviewed checkpoint-first, intake-only. The branch remained stable at that head after review.
+
+The public gain is a deepener for the existing Plushie / `dylan9399` owner, not another Episode. Plushie's complete surviving authored Wall footprint is thirteen messages across Oct. 16–27, 2020. Five are exactly `Lol`; the remaining tiny file includes `Lol what`, `Oof`, emote-only posts, and `The panda is both adorable and dangerous`. That makes the existing acclimation scene more specific: Plushie asks `What’s this channel for?`, accepts Rooks / Rookie Cookie's answer with `Okie doki`, then eight minutes later answers Rooks's Snow warning with `Snow u saw nothing UwU`. One week later Plushie participates in Rooks's self-file without another orientation ritual. The relationship lane is bounded orientation -> shared-bit familiarity; Snow is invoked, not upgraded into a direct Plushie relationship.
+
+WIKI reader-facing files changed at exact reader SHA **`8c4f8f6864f016d06b4c50d88db17e602561b02f`**:
+
+- `src/data/cast-run596-intake.ts`
+- `src/data/character-bios-run596-intake.ts`
+
+Verification / deployment:
+
+- `Build Underlords Wiki` workflow `34172385210`: **success**.
+- Pages workflow `34172385212`: **success**.
+- Pages build/artifact job `101895042802`: **success**.
+- Pages deploy job `101895120187`: **success**.
+- Pages report/status job `101895160470`: **success**.
+
+Kiro's q18 topology closes backstage at 5 positive / 22 negative authored parents across all 27, with six surviving child Reply edges. The new reply magnets deepen the already-public unserious/absurdist narrator mechanism, so no second Kiro profile was created. Danny and joy remain no-promotion controls.
+
+MAIN reader-facing files changed **0**. Plushie's packet is good WIKI profile support but still too concentrated to justify a thin MAIN biography; broader Wall biography debt remains publication-held. MAIN's controlling ledger advances Wall consumption through `595812c68632cedcade328726b5c7905f0f521b8` only after the successful WIKI build/deploy. No MAIN source-verification/Astro/built-output/deployment run is claimed for an unchanged reader tree.
+
+The existing wrong-room incident remains the Episode owner. Rooks = Rookie Cookie and Kiro = Gum / HicUUOOOOGH remain hard canon. The Oct. 26 image is still uninspected: Plushie's panda sentence is authored text, not permission to infer image subject, maker, capturer, or featured people. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain separate.
 
 ## Run 616 — Louvre / AI Art / Athenaeum / Other Games
 
