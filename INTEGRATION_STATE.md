@@ -1,12 +1,12 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-08 — Run 625 Core Rooms / Wall_
+_Last updated: 2026-09-08 — Run 626 stable census_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks remain the highest-priority identity/role correction layer.
 
 ## Current census
 
-Mandatory full census: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**. Run 625 discovered **0** new refs and closes with **0 unread pending-review tails, 8 reviewed `pending_publication` MAIN families, 0 backlog, and 0 overdue**.
+Mandatory full census: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**. Run 626 discovered **0** new refs and closes with **0 unread pending-review tails, 8 reviewed `pending_publication` MAIN families, 0 backlog, and 0 overdue**.
 
 Both Club-Only recovery lanes remain current/saturated:
 
@@ -14,6 +14,23 @@ Both Club-Only recovery lanes remain current/saturated:
 - `archive-miner-clubonly-2020-hourly` — `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`
 
 No raw archive was reopened.
+
+## Run 626 — stable census
+
+The full miner universe was re-enumerated after reading current MAIN/WIKI publishing state and the controlling standards. All **30 active** refs still exactly match the `last_seen_sha` and `last_consumed_sha` recorded after Run 625; none advanced beyond its reviewed frontier. The **21 historical/missing** refs remain durably recorded.
+
+There was therefore no changed `archive-intake/*` handoff to inspect, no recovery tail to continue, no genuinely new lore family, no duplicate family newly combined, no conflict/rabbit state change, and no consumed SHA movement. The eight MAIN `pending_publication` families remain reviewed publication debt rather than unread miner work.
+
+MAIN and WIKI reader trees are unchanged. No fresh MAIN source-verification/Astro/built-output/deployment or WIKI Astro/Pages deployment is triggered for reader-neutral census/report bookkeeping.
+
+The latest verified/deployed WIKI reader remains Run 625 SHA **`7d6328c59badfa5ba5c3ab65577f0c057401d534`**:
+
+- `Build Underlords Wiki` workflow `34177517687`, build job `101909782667`: **success**.
+- Pages workflow `34177517668`, build/artifact job `101909806020`: **success**.
+- Pages deploy job `101909896244`: **success**.
+- Pages report/status job `101909929957`: **success**.
+
+Run report: `INTEGRATION_REPORT_RUN_626.md`.
 
 ## Run 625 — Core Rooms / Wall
 
@@ -137,19 +154,15 @@ Shiki q18 advances backstage to **0+/15− across 15 audited**, with **38/53 una
 
 ## Publication / verification
 
-Latest verified/deployed reader SHA: **`2b0a335512a159509e3d2cf54630cb20ec5e72fa`**.
+Latest verified/deployed reader SHA: **`7d6328c59badfa5ba5c3ab65577f0c057401d534`**.
 
-Run 624 reader-facing change:
+Run 625 verification/deployment remains the latest reader-changing gate:
 
-- `src/data/canonicalize-cast.ts` — deepens BishopThaGuru's existing dossier with lived Tofu/Mugen relationship texture, Whiskey/Wall/Photo Submissions tags, and representative quotes.
+- `Build Underlords Wiki` workflow `34177517687`, build job `101909782667`: **success**.
+- Pages workflow `34177517668`, build/artifact job `101909806020`: **success**.
+- Pages deploy job `101909896244`: **success**.
+- Pages report/status job `101909929957`: **success**.
 
-Run 624 verification/deployment:
+Run report: `INTEGRATION_REPORT_RUN_626.md`.
 
-- `Build Underlords Wiki` workflow `34176572350`, build job `101907051109`: **success**.
-- Pages workflow `34176572326`, build/artifact job `101907051344`: **success**.
-- Pages deploy job `101907142530`: **success**.
-- Pages report/status job `101907180323`: **success**.
-
-Run report: `INTEGRATION_REPORT_RUN_624.md`.
-
-Documentation/state commits after `2b0a3355...` are `[skip ci]`; they do not replace that SHA as the verified/deployed reader receipt.
+Documentation/state commits after `7d6328c5...` are `[skip ci]`; they do not replace that SHA as the verified/deployed reader receipt.
