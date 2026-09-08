@@ -114,7 +114,7 @@ const prideIndex = allCharacters.findIndex((character) => character.id === pride
 const previousPride = prideIndex >= 0 ? allCharacters[prideIndex] : characterById.get(prideId);
 
 const preservedPrideRelationships = (previousPride?.relationships ?? []).filter(
-  (relationship) => !["Gilli", "Ren", "RV", "Rookie Cookie"].includes(relationship.name),
+  (relationship) => !["Gilli", "Ren", "RV", "Rookie Cookie", "Rooks"].includes(relationship.name),
 );
 
 const pride: Character = {
@@ -150,8 +150,9 @@ const pride: Character = {
       href: "/characters/ren",
     },
     {
-      name: "Rookie Cookie",
-      note: "When Pride performs `-dips-`, Rookie answers `i’ll catch you pride uwu` and `you can’t hide`; Pride is back under two minutes later. The escape works because both sides understand it as a chase bit, not an actual disappearance.",
+      name: "Rooks",
+      note: "When Pride performs `-dips-`, Rooks answers `i’ll catch you pride uwu` and `you can’t hide`; Pride is back under two minutes later. The escape works because both sides understand it as a chase bit, not an actual disappearance.",
+      href: "/characters/rooks",
     },
   ],
   quotes: [
