@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-08 — Run 662 stable census_
+_Last updated: 2026-09-08 — Run 663 stable census_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks remain the highest-priority identity/role correction layer.
 
@@ -8,7 +8,7 @@ MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:ma
 
 Current closing state: **51 tracked miner identities = 30 active matching refs + 21 historical/missing refs**.
 
-Run 662 repeated the full branch census against fresh GitHub refs and found no unread active tail:
+Run 663 repeated the full branch census against fresh GitHub refs and found no unread active tail:
 
 - newly discovered refs: **0**
 - advanced/unconsumed active tails at opening: **0**
@@ -18,6 +18,14 @@ Run 662 repeated the full branch census against fresh GitHub refs and found no u
 - reviewed MAIN publication-held families: **7**
 
 All 30 active miner heads still match their recorded reviewed/consumed frontiers. Both Club-Only recovery lanes remain current / saturated, so there was no recovery delta or anti-starvation branch available to review. No consumed SHA moved and no raw archive was reopened.
+
+## Run 663 — stable census
+
+No changed `archive-intake/*` handoff entered through active miner branches. Accordingly there is no genuinely new lore, relationship reframe, duplicate evidence family, identity conflict, attribution conflict, or new rabbit to publish this run.
+
+Reader-facing WIKI files changed: **0**. No Cast dossier, role progression, Relationship, Episode, Running Gag, Quote, Location, or Gallery/media note was warranted. The latest exact verified/deployed WIKI reader remains Run 661 SHA **`41512d52e55c3d0f7b4cb7779d0a091fe2376e0e`**. No new Astro/Pages build or deployment is claimed for an unchanged reader tree.
+
+MAIN reader-facing files also changed **0**. The seven `pending_publication` families remain reviewed MAIN biography/story debt rather than unread mining work, so no MAIN source-verification/Astro/built-output/deployment success is claimed for this documentation-only run.
 
 ## Run 662 — stable census
 
@@ -85,6 +93,8 @@ The later `INTEGRATION_STATE.md` commits are reader-neutral and `[skip ci]`; the
 Run 661 intentionally leaves **0 reader-facing MAIN changes**. Eos already has richer public person material; this Wall delta is accepted as a future person-first fold rather than another receipt paragraph. Beckiie's three-post, attachment-dependent footprint is coherent enough for WIKI but too thin for a padded MAIN biography.
 
 Run 662 also leaves **0 reader-facing MAIN changes** because no miner handoff advanced.
+
+Run 663 also leaves **0 reader-facing MAIN changes** because no miner handoff advanced.
 
 ## Publication invariant
 
