@@ -23,4 +23,8 @@ No build or Pages deployment is claimed because the reader tree did not change. 
 
 Ghostt screenshot contents remain uninspected and `She` unresolved. ShiyaX's recurring alibis remain theatrical defendant language, not proof of account compromise or credential sharing. Pooled Deleted User stays unresolved. Nelph's cookie/local-business language stays a joke, not literal commerce. POSTED BY does not become MADE BY / CAPTURED BY / FEATURING.
 
-Shared consumption state is advanced on MAIN through the reviewed Daycare and Wall heads after this durable no-reader-change reconciliation.
+Shared consumption state on MAIN advances Daycare through `2cc4b33d38b13912d32657fad27d0bc573477710` and Wall only through the reviewed boundary `d5ef0c131d15cd19a65406033503a34e7ddb067a`.
+
+## Late frontier after review
+
+The final branch recheck detected two newer miner heads **after** the reviewed boundary: Wall seen `72256657d446e80e6b1667f6610fd6f1cae1829a` and Whiskey seen `26535e9113f5523ada4a9bdb6eb1cb0e02c62c2a`. They are deliberately left pending review with their prior consumed SHAs intact. No later evidence was silently folded into Run 735 and no consumed SHA was advanced past what was actually reviewed.
