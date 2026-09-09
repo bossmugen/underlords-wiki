@@ -146,10 +146,56 @@ if (ansunIndex >= 0) {
   characterById.set("ansun", allCharacters[ansunIndex]);
 }
 
-// Run 706 Daycare: Keon's sample is compact but person-shaped. Cute-animal taste
-// and the recurring habit of assigning people breeds/animals form a usable little
-// social mechanism without pretending a 2021 Daycare packet is a whole biography.
-if (!allCharacters.some((character) => character.id === "keon")) {
+// Run 706 Daycare overlaps a concurrent Keon dossier. Keep that person's existing
+// low-word / sharp-roast axis and layer the earlier animal-shorthand material onto
+// the same file instead of replacing it or creating Keon II.
+const keonIndex = allCharacters.findIndex((character) => character.id === "keon");
+if (keonIndex >= 0) {
+  const keon = allCharacters[keonIndex] as ExtendedCharacter;
+  allCharacters[keonIndex] = {
+    ...keon,
+    aliases: [...new Set([...(keon.aliases ?? []), "keon7063"])],
+    era: keon.era.includes("2021") ? keon.era : "2021–2023+",
+    tags: [
+      ...new Set([
+        ...(keon.tags ?? []),
+        "Animal shorthand",
+        "Cute things",
+        "Petty Crimes",
+      ]),
+    ],
+    quotes: [
+      ...new Set([
+        ...(keon.quotes ?? []),
+        "bonggo cat is so cute .. that’s my spirit animal",
+        "ice cream ice cream ice cream .. where ??",
+        "i cant taste it ...",
+        "Gilli = Pug",
+        "Mugen = Golden Retriever",
+        "Cele = Bulldog",
+        "Ace = PUG",
+      ]),
+    ],
+    claims: [
+      ...new Set([
+        ...(keon.claims ?? []),
+        "In 2021 Daycare Keon directly calls bonggo cat cute, then repeatedly maps familiar people onto dog breeds or animal labels: Gilli and Ace as Pugs, Mugen as a Golden Retriever, Cele as a Bulldog, and Zer0 as a Labrador Retriever. The repeated mechanism supports playful person-reading through animal shorthand rather than one isolated animal joke.",
+        "A separate Daycare pocket has Keon rushing toward `ice cream ice cream ice cream .. where ??` before landing on `i cant taste it ...`, preserving the same quick, conversational comedy instead of a formal anecdote.",
+        "Later carryover includes `bonk cause you been bonking everyone when I compliment everyone` and a sleepy `Caek ... nighhht`, giving the small file both teasing continuity and softer late-room texture.",
+      ]),
+    ],
+    antiFanon: [
+      ...new Set([
+        ...(keon.antiFanon ?? []),
+        "Keon's phrase `spirit animal` is quoted as 2021 chat language only. Do not infer religion, ethnicity, spirituality, or cultural identity from it.",
+        "Animal/breed assignments are playful social metaphors, not claims about literal identity, appearance, diagnosis, or hierarchy.",
+        "The `spree murderer` / bonking language in the supporting pocket is joke hyperbole and not evidence of literal violence.",
+        "Current/export role arrays are not used to infer Keon's appointment history or formal UL role.",
+      ]),
+    ],
+  } as ExtendedCharacter;
+  characterById.set("keon", allCharacters[keonIndex]);
+} else {
   const keon: ExtendedCharacter = {
     id: "keon",
     name: "Keon",
@@ -172,7 +218,6 @@ if (!allCharacters.some((character) => character.id === "keon")) {
     claims: [
       "In 2021 Daycare Keon directly calls bonggo cat cute, then repeatedly maps familiar people onto dog breeds or animal labels: Gilli and Ace as Pugs, Mugen as a Golden Retriever, Cele as a Bulldog, and Zer0 as a Labrador Retriever. The repeated mechanism supports playful person-reading through animal shorthand rather than one isolated animal joke.",
       "A separate Daycare pocket has Keon rushing toward `ice cream ice cream ice cream .. where ??` before landing on `i cant taste it ...`, preserving the same quick, conversational comedy instead of a formal anecdote.",
-      "Later carryover includes `bonk cause you been bonking everyone when I compliment everyone` and a sleepy `Caek ... nighhht`, giving the small file both teasing continuity and softer late-room texture.",
     ],
     antiFanon: [
       "Keon's phrase `spirit animal` is quoted as 2021 chat language only. Do not infer religion, ethnicity, spirituality, or cultural identity from it.",
@@ -181,7 +226,6 @@ if (!allCharacters.some((character) => character.id === "keon")) {
       "Current/export role arrays are not used to infer Keon's appointment history or formal UL role.",
     ],
   };
-
   allCharacters.push(keon);
   characterById.set("keon", keon);
 }
