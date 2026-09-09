@@ -1,8 +1,40 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-09 — Run 736 close_
+_Last updated: 2026-09-09 — Run 738 close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` remains the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity / role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
+
+## Run 738 — Alaina is room-selective, not just quiet
+
+The mandatory full census closes at **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 unread active tails, 0 backlog, and 0 overdue branches**. Both Club-Only recovery-priority lanes remain current / saturated. Daycare was the sole opening unread branch and is now consumed through `ceb8272cda3332fd26273b763438b11c21d4c15a`. Nine reviewed MAIN families remain `pending_publication`; that is person-first resynthesis debt rather than unread mining.
+
+Run 738 reviewed the Daycare delta `2cc4b33d38b13912d32657fad27d0bc573477710 -> ceb8272cda3332fd26273b763438b11c21d4c15a` checkpoint-first and intake-only. The useful character correction is **Alaina's presence is room-selective**. The same stable account has 670 authored Daycare messages from 2021-12-31 through 2022-12-29, but only three exact authored Club-Only messages and seven exact authored Wall messages in the support sources checked. Her already-public compact Wall sanity-checking style remains real; it no longer gets to impersonate a whole-person `quiet` label.
+
+The new Club-Only scraps stay proportionate: `Happy New Year:8070_ZeroYay:`, attachment-only `unknown.gif`, and `Bleh :Cute_catskrunky:`. The GIF is POSTED BY Alaina only; pixels are uninspected, and its chronological proximity to iku+'s preceding bond question does not create a reply edge. Direct Daycare dialogue is still needed before the WIKI claims why Daycare fit Alaina better, who her closest Daycare relationships were, or that her Daycare prose was longer/chatty.
+
+Shimoko's inverse room pattern remains a hold rather than a promotion: one Daycare-ledger message versus 22 exact Club-Only authored messages, with `I want Ritter chocolate now:HuH:` banked for future **Petty Crimes**. German-language banter does not become nationality/background inference. Nekoz's zero exact Club-Only authored matches remain source-local negative only.
+
+### Public result
+
+Reader-facing Run-738 files:
+- `src/data/integrator-cast-run738-daycare-alaina.ts`
+- `src/data/all-content.ts`
+
+The Alaina overlay updates the existing canonical Cast owner and deliberately fails the build rather than create a duplicate if that owner cannot be resolved. The build passed.
+
+Exact verified/deployed WIKI reader: **`6a42e7ecb30e32b045fa3a90fb319bc264961abb`**.
+
+- Build Underlords Wiki run **34388660305** — success; build job **102591253920** — success.
+- Deploy Underlords Wiki Preview / Pages run **34388660304** — success.
+  - build/artifact job **102591367690** — success;
+  - deploy job **102591578034** — success;
+  - report/status job **102591666080** — success.
+
+MAIN reader-facing changes this run: **0**. Alaina is intentionally WIKI-first at current depth because the archive now corrects a personality distortion but still lacks enough direct Daycare relationships, ordinary-life texture, and change-over-time material for a rich MAIN biography. No MAIN source-verification / Astro / built-output / production-deploy success is claimed for an unchanged reader tree.
+
+Alaina profile depth remains open for direct Daycare characterization. The 2022-01-05 Club-Only quiet block is sampled; do not generically re-mine it. Uninspected media remains POSTED BY unless MADE BY / CAPTURED BY / FEATURING is independently established.
+
+---
 
 ## Run 736 — t7morrow + Wall checkpoint compaction
 
