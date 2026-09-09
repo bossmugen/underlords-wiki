@@ -10,29 +10,13 @@ const appendUnique = (items: string[] | undefined, additions: string[]) => [
   ...new Set([...(items ?? []), ...additions]),
 ];
 
-const upsertRelationship = (
-  relationships: NonNullable<Character["relationships"]>,
-  relationship: NonNullable<Character["relationships"]>[number],
-) => {
-  const index = relationships.findIndex((candidate) => candidate.name === relationship.name);
-  if (index >= 0) relationships[index] = relationship;
-  else relationships.push(relationship);
-};
-
 // Run 714 Daycare: Mia's new formatting pocket deepens an existing pattern instead of
-// creating a receipt-shaped Episode. She answers an unaddressed practical question,
-// tries syntax live until it visibly works, and absorbs the minor collateral damage.
+// creating a receipt-shaped Episode or manufacturing a relationship from one exchange.
+// She answers an unaddressed practical question, tries syntax live until it visibly works,
+// and absorbs the minor collateral damage.
 const miaIndex = allCharacters.findIndex((character) => character.id === "mia");
 if (miaIndex >= 0) {
   const mia = allCharacters[miaIndex] as ExtendedCharacter;
-  const relationships = [...(mia.relationships ?? [])];
-
-  upsertRelationship(relationships, {
-    name: "Cele",
-    note:
-      "Cele asks Ren how to make giant letters; Mia jumps in without being summoned, iterates the `#` syntax in public, then demonstrates it with `# See`. Cele's `Well now I cant` and Mia's final `._.` make the exchange feel like ordinary practical tinkering with a little collateral chaos, not a formal support assignment.",
-    href: "/characters/cele",
-  });
 
   allCharacters[miaIndex] = {
     ...mia,
@@ -46,7 +30,6 @@ if (miaIndex >= 0) {
       "Chaos-positive",
       "Petty Crimes",
     ]),
-    relationships,
     quotes: appendUnique(mia.quotes, [
       "Hastag then space",
       "# space",
@@ -60,7 +43,7 @@ if (miaIndex >= 0) {
     ]),
     antiFanon: appendUnique(mia.antiFanon, [
       "The Daycare formatting exchange shows quick practical help and live experimentation. It does not establish a formal support/technical role, broad technical expertise, or ownership of Discord's formatting system.",
-      "Cele's `Well now I cant` is a reaction inside this small demonstration pocket; do not inflate the exchange into a conflict or a closeness ranking.",
+      "Cele's `Well now I cant` is a reaction inside this small demonstration pocket; do not inflate the exchange into a conflict, relationship claim, or closeness ranking.",
       "The nearby March 2023 `WE OFFICIALLY BROKE THE BOT FAM!` announcement does not name the bot or channel in surviving text and its attachment was not inspected here, so it is not folded into Mia's character claims.",
     ]),
   } as ExtendedCharacter;
@@ -69,17 +52,10 @@ if (miaIndex >= 0) {
 
 // Run 714 Wall: Candy is canonically Candy / — Luna / harumasasgf, not HyaLuna.
 // Her Wall sample is tiny in prose but socially legible enough to support a compact dossier.
+// Vanness remains an incident-level interaction here, not a relationship lane from one reply.
 const candyIndex = allCharacters.findIndex((character) => character.id === "candy");
 if (candyIndex >= 0) {
   const candy = allCharacters[candyIndex] as ExtendedCharacter;
-  const relationships = [...(candy.relationships ?? [])];
-
-  upsertRelationship(relationships, {
-    name: "Vanness",
-    note:
-      "When Vanness publicly self-files a Dragon Raja merge catastrophe, Candy true-replies `Wad00` and follows 4.700 seconds later with `:CatCry:`. It reads as quick responsive teasing/mock-sympathy inside one Wall pocket, not a friendship ranking.",
-    href: "/characters/vanness",
-  });
 
   allCharacters[candyIndex] = {
     ...candy,
@@ -96,7 +72,6 @@ if (candyIndex >= 0) {
       "Moo",
       "Petty Crimes",
     ]),
-    relationships,
     quotes: appendUnique(candy.quotes, [
       "Wad00",
       "Wad0.0",
@@ -105,13 +80,14 @@ if (candyIndex >= 0) {
     ]),
     claims: appendUnique(candy.claims, [
       "Candy's stable 2021 account is 784063021579239435 / `harumasasgf`; project canon keeps the later `— Luna` display on Candy and distinct from HyaLuna, the original 2020 Luna.",
-      "Across July and August 2021, Candy repeatedly uses `Wad00`/`Wad0.0` plus custom emotes as compact Wall reactions; the August 10 `Wad00` is a true reply to Vanness self-shaming over five lost orange dracs.",
+      "Across July and August 2021, Candy repeatedly uses `Wad00`/`Wad0.0` plus custom emotes as compact Wall reactions; the August 10 `Wad00` is a true reply to Vanness self-shaming over five lost orange dracs, followed 4.700 seconds later by `:CatCry:`.",
       "On 2021-09-01, after a long Wall lull, Candy posts `Moo` and two `Cat_Sporkle` emotes. Sou, Rummy, Ren, Gilli, SaraBunny and Cookie continue the moo/Cat_Sporkle register afterward, making Candy the first surviving local cue in this recovered chain rather than the proven origin of the joke.",
     ]),
     antiFanon: appendUnique(candy.antiFanon, [
       "Candy / `— Luna` / `harumasasgf` is not HyaLuna. The shared Luna display is an identity trap, not continuity.",
       "Candy starts the surviving September 1, 2021 moo/Cat_Sporkle run recovered here, but earlier moo material exists elsewhere. Do not call her the inventor or originator of `moo`.",
       "The eleven-message Wall sample supports a low-verbiage, socially responsive style in this room; it is not a whole-person activity measure or a claim that Candy always communicated this way.",
+      "The Vanness true-reply is a bounded Wall interaction, not evidence of exceptional closeness or a standalone relationship lane.",
       "Animal noises and custom emotes are room-language evidence, not literal nicknames, species bits, relationship ranks or identity claims.",
     ]),
   } as ExtendedCharacter;
