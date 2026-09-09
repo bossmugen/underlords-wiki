@@ -1,8 +1,45 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-09 — Run 728 Wall close_
+_Last updated: 2026-09-09 — Run 734 close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` remains the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity / role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
+
+## Run 734 — Ansun, Ten, Aria
+
+The mandatory full census closes at **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 unread active tails, 0 backlog, and 0 overdue branches**. Both Club-Only recovery-priority lanes remain current / saturated. Three branches were reviewed checkpoint-first and intake-only and are consumed through closing heads: Core Rooms / Events `502ced911f57bdda6b35b3989f0f470700266508`, Louvre / AI Art / Athenaeum / Other Games `8eff2941a54f66738e003d8f0cb7b2b29c1fc93a`, and Whiskey longitudinal `721fd5bbfae4d33c80a3ee4b2f90af54ef97e7d3`. Core's last suffix was checkpoint/derivative handoff compaction around the already reviewed Ansun family, not a new public finding. Nine reviewed MAIN families remain publication-held; that is person-first resynthesis debt rather than unread mining.
+
+### Ansun / Sou
+
+Hard canon keeps Sou / Souta / 颯太 / `sou.san` inside canonical **Ansun**. Run 734 deepens the same person instead of creating Sou II. The useful person read is **severe about specifics / quietly practical about people / personally chaotic enough to undermine his own lecture**. Ansun can point Anthos straight to the manual, volunteer him to defuse Snow's next bomb, include himself in `we obviously have a hard time reading LOL`, tell a confused mobile user `here buddy, you got it right`, and tell people when to join or go sleep. Anthos can answer in the same register and later tell Ansun himself to go sleep. Ansun then describes waking halfway off his own bed with the pillow fallen and his body at a stupid angle. The man is apparently a human server map whose own bedtime geometry is not supported.
+
+The Anthos lane is working familiarity rather than hierarchy or a closeness rank: they can hand tasks back and forth, joke about their own reading, and correct each other without expertise theater. `if i become godfather one more time in mafia im changing my name to godfather` stays Petty Crimes / in-game Mafia nonsense. It is not a UL appointment, governance title, criminal role, or chronology claim. The odd sleep anecdote remains ordinary self-report, not medical inference.
+
+### Ten
+
+Ten's new lane is **uncertainty as coordination instead of status defense**. Asked what Tumbleweed role he wants, he goes `mystery box me?`, tries `can i just go with anthos apprentice like in game`, and explains the delegation with `cos head empty rn`. In another bot exchange he asks `so what is that like. a claiming maneuver now?` rather than pretending he already understands the category. Once a premise becomes usable, the delivery can snap right back to Ten's deadpan register: `if they die they die`.
+
+The Anthos wording is deliberately bounded. `anthos apprentice like in game` is Ten borrowing familiar game shorthand as a fallback choice, not a formal mentorship, appointment, role chronology, or governance claim. `if they die they die` is nonliteral room/game banter with an unresolved local antecedent, not real-world harm or intent. The Louvre miner's direct creative body remains tiny and unresolved; this run makes no creative-style claim from those media events, which remain POSTED BY unless MADE BY / CAPTURED BY / FEATURING is independently established.
+
+### Aria
+
+Run 734 adds a compact **Aria** owner rather than pretending eight surviving messages can carry a full MAIN biography. Across March 3–7, 2021 she repeatedly enters Whiskey with aggressively pleasant communal weather — `Good morning underlords ... time for a new day`, `make each day a masterpiece`, `have a wonderful day ahead everyone` — and independently lights up at cute visual material with `omg that is such a cute emoji`, `THIS IS SO CUTE`, and `cutest doggo`. Then the inspirational-poster register hits the best possible mundane exit: `:keke: time to walk my iguana`.
+
+The cumulative shard is **active delight as a social contribution**, with the tiny contradiction **storybook-soft room-brightening / concrete reptile logistics**. The iguana line supports exactly what it says: Aria had an iguana she walked. No species, sex, name, housing, or wider pet biography is invented. The Rosario greeting target remains identity-unresolved, so reciprocal warmth is not inflated into a named relationship. Aria's `cutest doggo` follows Anthos's dog GIF in the same local scene but is not a technical Reply edge; it supports scene-level attention, not a friendship rank. Lobby doorway searches returned zero through the available route, which is a retrieval result rather than proof of absence, origin, or join chronology.
+
+### Public result
+
+Reader-facing Run-734 module: `src/data/integrator-cast-run734-intake.ts`, activated from `src/data/all-content.ts`.
+
+Final exact verified WIKI reader: **`3f7fd9e151933989f7f2d2e651892c7f95a8c19d`**. The follow-up reader-neutral source-routing correction is part of that exact commit: it correctly records that Ten's person scaffold comes from supporting Club Only material reviewed by the Louvre miner, adds Aria to the Archive Cast group, and keeps media attribution strict.
+
+- Build Underlords Wiki run **34378826976** — success on exact reader `3f7fd9e...`.
+- Deploy Underlords Wiki Preview / Pages run **34378826969** — first workflow conclusion was cancelled even though its build, deploy, and report jobs all individually completed successfully; a targeted rerun of the deploy path was started to obtain a clean overall workflow receipt. The exact-reader Pages jobs from the completed first attempt were build/artifact **102558402607** — success, deploy **102558597431** — success, report/status **102558670272** — success.
+
+MAIN reader-facing changes this run: **0**. No MAIN source-verification / Astro / built-output / production-deploy success is claimed for an unchanged reader tree. Ansun and Ten are held for natural whole-person MAIN resynthesis rather than receipt appendices. Aria remains intentionally WIKI-first because the current surviving body is coherent but only eight messages across three days.
+
+No WIKI Episode was created. Grimlee warmth, Ritha lived Battle Leader behavior, WOO strict task-help, Chubi lived Sniperr/Officer execution, Hic concrete help, the Spirit-event route, unresolved Nui cc identity, and several media-attribution routes remain open. Literal-ID false-zero behavior continues to block absence claims where noted. Joke roles, joke family/flirting, and game-role language remain nonliteral unless independently supported.
+
+---
 
 ## Run 728 — Dainyamite + Athena
 
