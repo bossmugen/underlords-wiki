@@ -42,12 +42,12 @@ Relationships remain deliberately empty at this boundary. `Rosario` is a typed t
 Reader **`3f7fd9e151933989f7f2d2e651892c7f95a8c19d`**:
 
 - Build Underlords Wiki run `34378826976`: **success**
-- Astro build job `102558309453`: **success**
-- Pages workflow `34378826969` wrapper: `cancelled` after concurrency cleanup, but all actual jobs completed successfully:
-  - build/artifact `102558402607`: **success**
-  - deploy `102558597431`: **success**
-  - report/status `102558670272`: **success**
-- The report job posted exact-commit `wiki-preview` **success** and named the deployed Pages target.
+  - Astro build job `102558309453`: **success**
+- Deploy Underlords Wiki Preview / Pages run `34378826969`: **success on attempt 2**
+  - build/artifact job `102560100544`: **success**
+  - deploy job `102560100249`: **success**
+  - report/status job `102560173909`: **success**
+- The first Pages attempt had already completed all three actual jobs successfully but the workflow wrapper ended `cancelled` during concurrency cleanup. The deploy path was rerun so the final workflow receipt itself is also cleanly **success** on the same exact reader SHA.
 
 ## MAIN split
 
