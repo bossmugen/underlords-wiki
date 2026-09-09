@@ -1,44 +1,61 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-09 — Run 705 close_
+_Last updated: 2026-09-09 — Run 706 close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity / role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
 
 This file is a **current integration snapshot**. Earlier run-by-run prose remains in Git history and durable integration reports; this snapshot supersedes stale reader SHAs, queue counts, or identity interpretations from older state text.
 
-## Run 705 — Reconciled close
+## Run 706 — Reconciled close
 
 The mandatory full miner census is **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 advanced/unconsumed active tails at close, 0 backlog, and 0 overdue branches**. Both Club-Only recovery-priority lanes remain current / saturated.
 
-Run 705 reviewed one advanced handoff family checkpoint-first and intake-only:
+Run 706 reviewed three advanced handoff families checkpoint-first and intake-only:
 
-- `archive-miner-wall-hourly-20260824`: consumed `80e71fbadd175fb8b8caf8b670fd0e3a613edf93` → stable head `77cdb0854f5b28324416fe82f626752434ef85a0`.
+- `archive-miner/core-rooms-events-a91f-20260824`: `3d9145a62b95ae70c9e83badec101ddff4cc8651` → `72e234af5895d166d2654ea1a81a55d95509a949`
+- `archive-miner/daycare-2020-2026-hourly`: `6b3820b79bb3fe84f4826ff9513dc4c56e8219f3` → `b3235b1fff1cbd2ebd784fc71faf570c2bbef249`
+- `archive-miner-wall-hourly-20260824`: `77cdb0854f5b28324416fe82f626752434ef85a0` → `a34aa0d4048ab88f33a9942f3cfd27237bd3d286`
 
-MAIN's controlling ledger now has `last_seen_sha == last_consumed_sha` at the reviewed Wall head. Wall remains `pending_publication` only because accepted MAIN person-first resynthesis debt remains; there is no unread Wall tail at this close. Eight MAIN families are reviewed publication debt overall.
+A closing full branch sweep found those heads stable. MAIN's controlling ledger has `last_seen_sha == last_consumed_sha` at all three reviewed frontiers. Eight MAIN families remain reviewed publication debt; none is unread mining.
 
-## Run 705 WIKI publication
+## Run 706 WIKI publication
 
-Run 705 activates `src/data/integrator-cast-run705-wall-snow.ts` through `src/data/all-content.ts` and deepens canonical **Snow** without creating a duplicate identity.
+Run 706 preserves a concurrent Keon dossier and layers `src/data/integrator-cast-run706-intake.ts` after it through `src/data/all-content.ts`, so overlapping character work becomes one canonical owner rather than dueling cards.
 
-The structured dossier now owns Snow's recurring label-defense mechanism: an unwanted label lands, Snow supplies a conspicuously exact correction or etymology, and the correction itself becomes the next joke. The old-person lane includes `Whipper snapper origin  1700  =_= not that old lol`; the later furry tease gets the rapid `THATS  FURY .. AS IN ANGRY` → `not FURRY` → `like NEMO` correction packet. The useful contradiction is participatory correction: Snow rejects the category while staying inside the bit long enough to improve everybody's material.
+### Zoshaa
 
-Relationship texture is kept bounded. Ren is a repeat button-pusher/callback partner in this ecology; Akariel/Zyrcant explicitly describes the Snow-is-old reaction as familiar enough to predict. Neither becomes a closeness ranking. `old`, `furry`, `furry king`, FURY/FURRY, catboy/catgirl and related labels remain joke language only. Ren's `finally` supports prior callback history but does not locate an origin. Uninspected media remains poster-attributed only.
+The structured dossier now has a bounded authority/delegation mechanism from the 2020 LGS tournament room. Zoshaa asks for control back because she has agreed on more rules, threatens to `yeet everyone`, then hands hosting to Booba and immediately celebrates being `free of responsibility`. The useful contradiction is practical control plus comic relief at giving control away: she will take the wheel when the room needs it, then happily stop holding the wheel once the job can move sideways.
 
-Meaning-level dedupe collapses the overlapping Snow checkpoint/findings/people/profile/receipts/site-candidate handoffs into one evidence family. MAIN already has the richer Snow biography and substantial old-man/Wall material, so the new taxonomy-defense recurrence is banked there for a cleaner future fold rather than copied as another receipt-led paragraph.
+`boob you host now` remains one event-room handoff, not a Discord-wide appointment, succession, or leadership claim. Uninspected nearby screenshots remain poster-attributed only.
+
+### Ansun / Sou
+
+Sou is folded into canonical **Ansun**; no second Sou character exists. The Wall material deepens Ansun as a standards critic whose categorical language still has a soft lane. `I just HATE Tifa trash. But yes Tifa is very good` is the cleanest little self-correction: the offending category can be trash while the broader thing remains good. `But also as the left hand chef I’m all about the attention to detail` gives the same standards-heavy voice an ordinary-life self-description instead of leaving him as pure roast machinery.
+
+The recurring Zoshaa / `scrambled egg bunny fursona` callback is treated as familiar teasing grammar, not nickname-origin proof. `siblings are worst` has an unresolved screenshot referent and does not establish literal family. `left hand chef` is self-description / joke language, not formal governance.
+
+Daycare adds Petty Crimes texture—absurdly polite grape-juice wording, `Almost spat my coca cola`, `Bring the rabbit everywhere`, and blunt body-failure observations—without creating a separate Ansun report-persona.
+
+### Keon
+
+The existing low-word / sharp-roast Keon dossier was preserved and extended rather than replaced. The new 2021 Daycare axis is playful person-reading through animals: bonggo cat is `so cute`; Mugen becomes a Golden Retriever, Cele a Bulldog, Gilli and Ace Pugs, and Zer0 a Labrador Retriever. The repetition makes it a tiny social mechanism instead of one random animal joke. The ice-cream pocket (`ice cream ice cream ice cream .. where ??` → `i cant taste it ...`) keeps the same fast, conversational timing.
+
+The dated phrase `spirit animal` is not used to infer religion, ethnicity, spirituality, or cultural identity. Breed labels are playful metaphors, not literal identity, diagnosis, appearance, or hierarchy.
 
 ## Current verified WIKI reader
 
-Exact reader SHA: **`c2091e062d3ac4a055960b6fa71a64591a769990`**.
+Exact reader SHA: **`39a1bb1c431dd81b743eacae9829b40c96629487`**.
 
 Verification on that exact reader:
 
-- Build Underlords Wiki run **34323045663** — success
-- Deploy Underlords Wiki Preview run **34323045601** — success
-  - Pages build/artifact job **102373912548** — success
-  - deploy job **102374050050** — success
-  - report/status job **102374257655** — success
+- Build Underlords Wiki run **34325471670** — success
+  - Astro build job **102381602274** — success
+- Deploy Underlords Wiki Preview / Pages run **34325471657** — success
+  - Pages build/artifact job **102381605714** — success
+  - deploy job **102381819735** — success
+  - report/status job **102381888005** — success
 
-Later Run 705 report/state commits are reader-neutral and do not replace `c2091e062d3…` as the exact verified/deployed reader receipt.
+Later Run 706 report/state commits are reader-neutral and do not replace `39a1bb1c…` as the exact verified/deployed reader receipt.
 
 ## MAIN routing / publication debt
 
@@ -53,10 +70,10 @@ MAIN currently has eight reviewed publication-held families:
 7. QOTD / Officers
 8. Wall
 
-These are publication debt, not unread miner work. Run 705 made **0 MAIN reader-facing changes**. MAIN already owns Snow's technical competence, access/boundary instinct, Wall self-awareness, old-man ecology, and `Whipper snapper` material; the new FURY/FURRY recurrence is accepted future person-first resynthesis material. MAIN's production workflow is deliberately decoupled from pushes and requires controlled dispatch/schedule gating, so no unsafe reader mutation or fake deploy claim was made.
+These are publication debt, not unread miner work. Run 706 made **0 MAIN reader-facing changes**. Zoshaa's control/delegation contradiction is banked for a future natural person-first fold; Ansun/Sou's standards/soft-lane material is banked for coherent biography resynthesis instead of copied WIKI dossier prose; Keon's combined sample remains better suited to structured WIKI than a padded MAIN biography. No MAIN source-verification / Astro / built-output / production-deployment success is claimed for an unchanged reader tree.
 
 ## Current identity / safety rails
 
 Hard canon and resolved identity corrections override contextual inference. Export-time role arrays do not date appointments. Joke roles do not become governance. Joke family language does not become biological family. Joke romance/flirting does not become literal romance or sex. Earliest surviving is not automatically origin. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct. Uninspected media does not receive invented pixels.
 
-Run 705-specific holds: Snow's old-person language is not a literal age record; furry/cat/FURY labels are not literal identity claims; q12 remains open for the first safe furry/FURY antecedent; Ren's `finally` is callback language but not an origin receipt; relationship teasing does not establish exceptional closeness; Tenor/media assets remain poster-attributed unless maker/capturer/subject is independently established.
+Run 706-specific holds: Erys q18 remains at its existing partial-audit boundary and is not a popularity measure; Ritha's lived Battle Leader rabbit remains open; Hash31 exact-account identity remains unresolved; Ansun's second-ant-story rabbit remains unresolved; Ren's `siblings are worst` screenshot referent remains unresolved; Zoshaa/Booba hosting remains bounded to the event-room scene.
