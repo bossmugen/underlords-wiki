@@ -1,8 +1,20 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-09 — Run 720 Core + Wall final_
+_Last updated: 2026-09-09 — Run 721 stable census_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` remains the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity / role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
+
+## Run 721 — Stable census
+
+The mandatory full branch census closes at **51 tracked miner identities = 30 active refs + 21 historical/missing refs**. There are **0 newly discovered refs, 0 unread active tails, 0 backlog, and 0 overdue branches**. Every active miner HEAD matches the controlling MAIN ledger's `last_seen_sha` and `last_consumed_sha`.
+
+Both Club-Only recovery-priority lanes remain current / saturated. Because no miner HEAD advanced, there was no changed `archive-intake/*` handoff delta to review and no reason to re-read already-consumed intake or re-mine raw archives. Nine reviewed MAIN families remain `pending_publication`; that is publication/resynthesis debt, not unread miner work.
+
+Reader-facing changes this run: **0 on WIKI and 0 on MAIN**. No Astro/build/Pages or MAIN source/build/deploy cycle is claimed because neither reader tree changed. Run 720 exact verified/deployed WIKI reader **`47db5e679984f0ac460e965eacd7813435dab7ce`** remains the controlling reader receipt. No consumed SHA changed.
+
+No new conflicts or rabbits were opened. Existing hard rails remain unchanged: canonical identities and pronouns stay authoritative; joke-family/flirting/governance language does not become literal canon; SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct; unresolved topology/media rabbits remain backstage.
+
+---
 
 ## Run 720 — Closing census
 
