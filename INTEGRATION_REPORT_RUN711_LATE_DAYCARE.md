@@ -50,6 +50,6 @@ MAIN's production workflow is deliberately decoupled from integrator pushes and 
 
 After successful WIKI verification and deployment, the controlling MAIN ledger advances Daycare `last_consumed_sha` to **`b739ee86733079618ed5c73b90f9fe58f31afa56`** and returns that branch to `pending_publication` for MAIN resynthesis debt.
 
-A concurrent Run 712 opening census has since found Wall advanced separately from consumed `a8f619040fc6c64072011d637dfc57317d90772c` to `65292b680dee234e1ffca8b57574e871bae6f264`. That Wall delta belongs to Run 712 and remains unread by Run 711; it was not silently marked consumed.
+A concurrent Run 712 census found Wall advancing separately from consumed `a8f619040fc6c64072011d637dfc57317d90772c`; the final Run 711 active-ref sweep sees Wall at **`359bb941e21c66c39aa2638e36b1ed9bee428085`**. That Wall delta belongs to Run 712 and remains unread by Run 711; it was not silently marked consumed.
 
 Both Club-Only recovery-priority lanes remain current / saturated. Hard identity, privacy, role-chronology, joke-family/joke-romance, earliest-surviving-origin, and attribution-verb rails remain intact.
