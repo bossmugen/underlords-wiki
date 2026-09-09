@@ -6,12 +6,18 @@ type ExtendedCharacter = Character & {
   antiFanon?: string[];
 };
 
-const moonId = "moon-kugata";
+// MAIN canon owns the public identity: Moon is the canonical display name and
+// UL Night Shift Barista is the locked specialist title. The Wall handoff adds
+// character texture to that one existing person; it does not create Moon II.
+const moonId = "moon";
 const moonIndex = allCharacters.findIndex(
   (character) =>
     character.id === moonId ||
+    character.name === "Moon" ||
     character.name === "Moon久方" ||
-    (character.aliases ?? []).some((alias) => ["Moon久方", "Moon", "_marrrmarrr__"].includes(alias)),
+    (character.aliases ?? []).some((alias) =>
+      ["Moon久方", "Moon", "_marrrmarrr__", "_m__a__r__c_y_y_y_", "_marmarrr__"].includes(alias),
+    ),
 );
 
 const moonRelationshipRummy = {
@@ -31,7 +37,7 @@ const moonQuotes = [
 ];
 
 const moonClaims = [
-  "Moon久方 is stable account 646026925760053258; the selected Wall receipts use archive-authored username `_marrrmarrr__`.",
+  "Moon is stable account 646026925760053258; Moon久方 and the archived marcy/marmar handles belong to the same user-confirmed person.",
   "Moon repeatedly frames herself as watchful and socially retentive: `I am a moon,so i see all` in 2022 and `This moment will always be engraved in my single brain cell` in 2023. The `single brain cell` line is self-deprecating humor, not a cognitive or medical claim.",
   "On 2023-03-19 Moon explicitly stops herself from saying something because `I feel like its too mean`, supporting a real meanness brake inside an otherwise joke-forward style.",
   "Later the same day Moon extends the room's existing `-fection` wordplay, keeps the bit going, then realizes `Wait this isn't main chat`; the context slip is part of the contradiction, not evidence that she originated `gillifection`.",
@@ -39,6 +45,8 @@ const moonClaims = [
 ];
 
 const moonAntiFanon = [
+  "Moon is the canonical public name. Moon久方 and the old marcy/marmar handles are aliases/account history, not separate cast files.",
+  "UL Night Shift Barista is Moon's locked specialist title; this Wall packet does not date the appointment.",
   "`I am a moon,so i see all` is self-styled watchfulness/social-radar humor, not literal omniscience, surveillance, or a formal monitoring role.",
   "The local referent `Dream` remains unresolved and is not mapped to Daya/Dayadream or any other person by similar naming.",
   "The pooled Deleted User parent in the `too mean` receipt remains pooled/unidentified.",
@@ -49,15 +57,15 @@ const moonAntiFanon = [
 
 const moonCharacter: ExtendedCharacter = {
   id: moonId,
-  name: "Moon久方",
-  aliases: ["Moon", "_marrrmarrr__"],
-  billing: "legacy",
-  role: "Member",
-  era: "2022–2024+",
+  name: "Moon",
+  aliases: ["Moon久方", "_marrrmarrr__", "_m__a__r__c_y_y_y_", "_marmarrr__"],
+  billing: "recurring",
+  role: "UL Night Shift Barista",
+  era: "2020–present",
   logline:
-    "An all-seeing social-memory gremlin with a functioning meanness brake: Moon remembers the dumb shit, calls the storage medium one brain cell, can stop a joke when it feels too mean, and can also get so invested in a bit that she notices almost a minute late that she is in the wrong chat.",
+    "The all-seeing night-shift barista who remembers the stupidest moments, calls the storage medium one brain cell, catches herself when a joke would be too mean, and can still get forty-seven seconds into a vaccination bit before noticing she is in the wrong chat.",
   tags: [
-    "Archive cast",
+    "UL Night Shift Barista",
     "Wall",
     "Social memory",
     "Self-deprecating humor",
