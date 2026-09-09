@@ -43,10 +43,10 @@ if (eosIndex >= 0) {
   });
 
   appendRelationshipNote(relationships, {
-    name: "Marian Kage",
+    name: "Panda",
     note:
       "By December 2023 the evidence war is openly reciprocal. Eos calls Panda's move betrayal; Panda true-replies `fucking betrayerrrr`; Eos answers `wrong. payback`, later adds `get betrayed nerd`, and then jokes `_mugs will have fun with my file one day_` while Panda promises `I got more, a lot more`. Eos knows the receipt machine can boomerang onto her and keeps feeding it anyway.",
-    href: "/characters/marian-kage",
+    href: "/characters/panda",
   });
 
   appendRelationshipNote(relationships, {
