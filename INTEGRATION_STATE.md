@@ -1,8 +1,42 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-09 — Run 738 close_
+_Last updated: 2026-09-09 — Run 744 close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` remains the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity / role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
+
+## Run 744 — Noether requests context and then opens a dessert counterclaim
+
+The mandatory full census closes at **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 unread active tails, 0 backlog, and 0 overdue branches**. Both Club-Only recovery-priority lanes remain current / saturated. Wall was the sole opening unread branch and is now consumed through `e8c920af459decc8e54897ba45fc02b606997168`. Nine reviewed MAIN families remain `pending_publication`; that is person-first resynthesis debt rather than unread mining.
+
+Run 744 reviewed the Wall delta `8d2c7ff13e32c6c5940416d54696171f6a4b950b -> e8c920af459decc8e54897ba45fc02b606997168` checkpoint-first and intake-only. The substantive person gain is **Noether**. Hard canon keeps Noether in the existing Game Officer owner; no duplicate was created. Across recurring 2021–2022 Wall pockets, Noether keeps doing something more specific than merely appearing in screenshots: they care about what the filing technically says, object when context gets flattened, and then continue the exact bit long enough to generate more material.
+
+The cleanest pocket starts with `Someone want eat hami, i only said that , context pls`. That is not really an exit from the charge; it is a scope objection. Noether then spends the same scene prosecuting HamitteY for allegedly hiding desserts, demanding that Hami share, and eventually writing `I made strawberry ice cream, since you didn't share desserts`. The recurring `Unsugar hamihami` language across earlier pockets turns the food nonsense into a shared grammar rather than one stray line.
+
+The relationships now have lived shape. HamitteY repeatedly answers the sugar/dessert premise. Anayss repeatedly amplifies the pair on Wall and eventually thanks Noether + Hami for `so much material`. Eos calls Noether `very innocent`; Noether later TRUE-replies to that exact defense with `Im innocent , hamcito  dont believe in me`, and Eos backs the joke again. The useful contradiction is **context precision / innocence performance ↔ active repeat bit-feeder**. Noether wants the record correct but absolutely does not want the nonsense dead.
+
+The strawberry-ice-cream line is retained as ordinary-life / Petty Crimes texture because Noether authored the sentence. The associated image remains visually uninspected and therefore POSTED BY Noether only. `sugar daddy`, `eat hami`, dessert prosecution, and innocence language remain room jokes rather than literal romance, sex, money, violence, cannibalism, or governance.
+
+A Tae q18 correction stays backstage. A floated third Tae parent was re-resolved: the structured child Reply edge is real, but the parent belongs to stable account `homethey_`, not Tae. Tae therefore remains OPEN at **>=2 confirmed positive parent→Reply parents**; denominator and negative classification remain blocked by known false-zero retrieval behavior. No popularity / closeness inference was published.
+
+### Public result
+
+Reader-facing Run-744 files:
+- `src/data/integrator-cast-run744-wall-noether.ts`
+- `src/data/all-content.ts`
+
+The overlay deepens the existing canonical Noether owner and deliberately fails rather than manufacture a duplicate if that owner is missing. Noether remains a Game Officer; the new public material is lived personality, relationships, quotes, and Petty Crimes rather than invented role chronology.
+
+Exact verified/deployed WIKI reader: **`5bb437ec6cabe4fb387ad93599cc9cc059e063fa`**.
+
+- Build Underlords Wiki run **34401879615** — success; build job **102635488087** — success.
+- Deploy Underlords Wiki Preview / Pages run **34401879687** — success.
+  - build/artifact job **102635591278** — success;
+  - deploy job **102635775588** — success;
+  - report/status job **102635864416** — success.
+
+MAIN reader-facing changes this run: **0**. Noether's Wall packet is strong enough for the structured WIKI owner now, but MAIN is intentionally held for a broader whole-person fold with lived-role and non-Wall context rather than a Wall-only dossier wearing biography clothes. No MAIN source-verification / Astro / built-output / production-deploy success is claimed for an unchanged reader tree.
+
+---
 
 ## Run 738 — Alaina is room-selective, not just quiet
 
@@ -258,4 +292,4 @@ Erys q18 remains partial backstage topology; denominator / negative classificati
 
 ## Run 719 — prior close
 
-Run 719 closed at **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with Wall consumed through `6a0f8b9d6f8cde995a1631c5f91c0de7aee04468` and Daycare through `82550a6cf6d0e852865c19606b4fcd72ec3eca7f`. WIKI published Usama plus an Eos support-chronology deepener; exact verified/deployed reader was `3730e814b220dcd06af1fa1b2a2b9b491f3b0799` with Build run `34350500186` and Pages run `34350500193` green. MAIN reader tree did not change in that close.
+Run 719 closed at **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with Wall consumed through `6a0f8b9d6f8cde995a1631c5f91c0de7aee04468` and Daycare through `82550a6cf6d0e852865c19606b4fcd72ec3eca7f`. WIKI published Usama plus an Eos support-chronology deepener; exact verified/deployed reader was `3730e814b220dcd06af1fa1b2a2b9b491f3b0799` with Build run `34350500186` and Pages run `34350500193` green. MAIN reader tree did not change.
