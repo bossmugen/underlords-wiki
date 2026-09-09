@@ -53,6 +53,7 @@ import "./integrator-cast-run722-intake";
 import "./integrator-cast-run728-wall";
 import "./integrator-cast-run730-core";
 import "./integrator-cast-run734-intake";
+import "./integrator-cast-run736-whiskey-t7morrow";
 
 type LooseRecord = Record<string, unknown>;
 type Gag = { id: string; name: string; logline: string };
