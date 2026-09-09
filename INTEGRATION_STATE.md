@@ -1,259 +1,93 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-08 — Run 695 concurrent Wall + Daycare close_
+_Last updated: 2026-09-08 — Run 698 identity-correction close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity / role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
 
-## Run 695 concurrent Wall + Daycare close
+This file is a **current integration snapshot**. Earlier run-by-run state prose remains available in Git history and in MAIN's durable `archive-intake/INTEGRATION_PASS_*` reports; this snapshot supersedes stale reader SHAs or identity interpretations from older state text.
 
-Run 695 completed the required full miner census at **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 unread active tails at close, 0 backlog, and 0 overdue branches**. Both Club-Only recovery lanes remain current / saturated.
+## Run 698 — Core Rooms / Events, corrected close
 
-The two moving frontiers were reviewed checkpoint-first and intake-only:
+Full miner census at close: **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 unread active tails, 0 backlog, and 0 overdue branches**. Both Club-Only recovery lanes remain current / saturated.
 
-- `archive-miner-wall-hourly-20260824`: `c7fa6398858e98f9790577eb98ba137692cd85bb` -> stable `4ec4fb6c11ce4f294f1a9f563d94dfe5c75f71c9`
-- `archive-miner/daycare-2020-2026-hourly`: `6668ebeff9cb7065908974ace42f2dbda4e04cab` -> stable `4b4a1e9324d5fea651f2dc66a0d917274d42827e`
+The sole Run 698 mover was `archive-miner/core-rooms-events-a91f-20260824`, reviewed checkpoint-first and intake-only from consumed `d2da9ab42625ec1f0907825a7c071b56d4713768` through stable `cc5fcce6bf4d988c4096df0c6e7b1fd3f489d1cd`. No raw archive was re-mined and no miner branch was merged wholesale.
 
-The Wall packet carries useful Crystalia and Moon character work. Crystalia's repeated control-confiscation joke is sharpened by the practical contradiction that, when a lounge bot actually needs repair, Mugen can still point the problem at him and he calmly diagnoses what has to happen. Moon's new layer is the better person read: `I am a moon,so i see all`; `I feel like its too mean`; a stupid moment `engraved in my single brain cell`; extending `RUMFECTION AND GILLFECTION` before realizing `Wait this isn't main chat`; and `i like interior design,so whaT` as safe taste plus bounded Rummy teasing.
+### Identity correction: Drink water reminder is Gabu
 
-A concurrent Run 694 writer published those same structured WIKI additions while Run 695 was independently reviewing the handoff. The first Moon activation accidentally created a second cast owner (`moon-kugata` / `Moon久方`) and replaced the locked specialist role with generic `Member`. Run 695 corrected the reader instead of creating yet another overlay: the canonical public person remains **Moon** at id `moon`, `Moon久方` and the user-confirmed marcy/marmar handles remain aliases/account history, and the locked role remains **UL Night Shift Barista**.
+The first Run 698 reader incorrectly created a separate Cast owner for stable account `407706805918105602` / `whoamii_9` / display `Drink water reminder`.
 
-Final exact verified/deployed WIKI reader: **`02bd527f45ad2daeaa5ada65dddad7e8ac48d311`**.
+That is a continuity error. MAIN's canonical Gabu owner already resolves `whoamii_9` and `Drink water reminder` to **Gabu**, and Club-Only material independently uses `Gabu / Drink water reminder`. The duplicate person has been removed. The Core receipts now deepen Gabu's existing systems / hydration / care-as-infrastructure character.
 
-- Build Underlords Wiki run **34303748570** — success
-  - Astro build job **102315998780** — success
-- Deploy Underlords Wiki Preview run **34303748673** — success
-  - build/artifact job **102315999378** — success
-  - actual Pages deploy job **102316129491** — success
-  - report/status job **102316175717** — success
-- Exact reader contexts finish at `wiki-build` success and `wiki-preview` success.
+The new Gabu mechanism is **systems-level caution without immaculate syntax**:
 
-The Daycare suffix is semantic duplicate / corroboration. Aeshleen's `for the record` / `FOR THE CONTEXT` behavior, the 2023 One Piece context correction, and the 2024 SatōSugu / Omniscient Reader's Viewpoint correction already live on the richer MAIN person page and the canonical WIKI Aeshleen owner. No duplicate reader prose was added. The Saber event-bot receipt remains backstage rabbit progress because it does not bridge the unresolved deleted/broken Daycare word-train bot identity.
+- 2021-09-28: `starte-date` is rejected; about ten seconds later Gabu repairs it to `start-date` and completes the White Emperor Palace edit.
+- 2022-04-05: `thrusday` fails; correctly spelled `thursday` still fails; the parser-friendly `"tue, thu"` form succeeds.
+- 2023-01-22: after configuring a week as a test, Gabu moves from `hopefully it will work right` to `but there is a restriction`. She identifies a collaboration hazard: scheduler records appear to inherit the editor's timezone while hiding creator/editor provenance across roughly thirty records. She explains the risk, recommends one maintainer for that specific schedule, and volunteers because she already configured the announcements.
 
-MAIN reader-facing files changed **0**. Crystalia and Moon both gain accepted future person-first fold material, but MAIN's controlled source-verification -> Astro -> built-output -> production-deploy gate was not bypassed. No MAIN build/deploy success is claimed for an unchanged reader tree.
+This is not “bot expert” boilerplate. Gabu can fat-finger the command, recover quickly, notice the deeper failure mode that can confuse everybody later, and then volunteer to own the boring maintenance because ownership itself reduces ambiguity.
 
-The controlling MAIN ledger was concurrently closed through the same reviewed heads: Wall `last_seen_sha = last_consumed_sha = 4ec4fb6c11ce4f294f1a9f563d94dfe5c75f71c9`; Daycare `last_seen_sha = last_consumed_sha = 4b4a1e9324d5fea651f2dc66a0d917274d42827e`. Both remain `pending_publication` only because accepted MAIN material remains held for MAIN's controlled release path. Seven reviewed MAIN publication-held families remain Backroom, Birthdays/PR/VC, Daycare, Louvre/AI Art/Athenaeum/Other Games, Meems, QOTD/Officers, and Wall.
+Hard rails remain: no formal scheduler office, no appointment chronology, no permanent exclusive bot ownership, no private-location inference from operational timezone notation, and the January 2023 image remains POSTED BY Gabu only.
 
-No raw archive was re-mined. Hard canon, resolved identity corrections, role chronology brakes, privacy boundaries, joke-literalization brakes, and SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING separation remain intact.
+### Sye identity remains valid
 
-## Run 689 Louvre / Jas semantic dedupe
+The second Core owner is **Sye**, and this is not inferred from a similar-looking display name. Project identity mapping explicitly resolves stable account `488099199938986004` / `sycessences` / display `ƐℲı˥` to **Sye / Life / Syenitha**. Do not split this account from Sye and do not merge it with Syv.
 
-Run 689 completed the required full miner census at **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 unread active tails at close, 0 backlog, and 0 overdue branches**. Both Club-Only recovery lanes remain current / saturated.
+The Run 698 Sye packet therefore remains integrated:
 
-The sole active mover was `archive-miner/louvre-ai-art-athenaeum-other-games-hourly`, reviewed checkpoint-first and intake-only from `d43ac12cf5475d3903682f5f5f08589007d23527` through stable `a8ef898028308747d2271e51d4692fb6ba19135a`. The closing head check found no suffix beyond that reviewed SHA.
+- direct Saber use in 2020;
+- `you okay there snow? need help?` followed by the dry workaround `yeah its call making a new schedule`;
+- a pinned DST/EDST command reference in 2022;
+- remembering clock-change maintenance even when the Events command is failing;
+- openly saying a newer bot is outside her confident knowledge in 2023;
+- and by 2025, `i forgot how to uses this bot xD` before help is invoked.
 
-The handoff packages Jas / `king_jas` around a strong recurring mechanism: when embarrassment points at him, he tries deletion, selective memory, or literal evidentiary technicalities, then stays in the room and lets the failed defense become the next joke. The April Minecraft `Delete that-` collapse, September `254x77px ain't 4K tho 😐` technicality, and May 2022 `I do not recall that` / Wall-remembers / `Damned wall` sequence are all useful character material.
+The recurring obligation survives tool-specific fluency. The syntax can rust while the maintenance problem stays memorable enough that Sye keeps noticing it. That is institutional memory with human rust, not decline.
 
-They are also **not genuinely new public material**. MAIN already owns that exact evidence-humor arc in `src/content/people/jas.md`, and WIKI already owns it in Jas's existing narrative dossier, including the failed Minecraft appeal, the 4K technicality, and the Wall outremembering him. A first concurrent Run 689 WIKI overlay (`be919da458c9691ef4098f0d9389fe6b106cd700`, activated by `8b2661693385d93996b0300622f1d07593421ea5`) duplicated and narrowed the already-richer public owner, so it was removed rather than allowed to become another receipt-shaped layer.
+## WIKI publication result
 
-Final corrective reader: **`93b0860192ab8a112c6b6f5eee4be6495115dedd`** (`wiki: dedupe Run 689 Jas overlay`).
+Final corrected reader: **`d27afac73f1353642a49ff1f3803279e73b2adc6`**.
 
-- Build Underlords Wiki run **34294378466** — success
-  - Astro build job **102287680172** — success
-- Deploy Underlords Wiki Preview run **34294378457** — success
-  - build/artifact job **102287680288** — success
-  - actual Pages deploy job **102287797975** — success
-  - report/status job **102287852415** — success
-- Exact commit contexts finish at `wiki-build` success and `wiki-preview` success.
+Reader-facing file: `src/data/integrator-cast-run698-core.ts`, activated through `src/data/all-content.ts`.
 
-Net reader result for Run 689: **no new Jas prose is necessary on either public surface**. Existing richer MAIN and WIKI owners remain authoritative. MAIN reader-facing files changed 0; no MAIN source-verification / Astro / built-output / production-deploy success is claimed for an unchanged reader tree.
+Verification on the exact corrected reader:
 
-The controlling MAIN ledger correctly advances Louvre `last_seen_sha = last_consumed_sha = a8ef898028308747d2271e51d4692fb6ba19135a` and returns it to `pending_publication` only because older accepted MAIN Louvre material remains held for MAIN's controlled release path. The earlier ledger note naming `8b266169...` as the final Jas reader is superseded by MAIN's Run 689 integration report and this state section; `93b086019...` is the verified/deployed deduped reader.
+- Build Underlords Wiki run **34308155008** — success
+  - Astro build job **102329066761** — success
+- Deploy Underlords Wiki Preview run **34308155034** — success
+  - build/artifact job **102329067096** — success
+  - actual Pages deploy job **102329168795** — success
+  - report/status job **102329215913** — success
 
-Media and inference rails remain unchanged: Ren's old `image0.png` is POSTED BY Ren only in this handoff; maker/capturer/subjects remain unresolved. `I do not recall that` is local, not a global memory trait. `once rich` is joke-level wording, not financial biography. The exact object behind `254x77px` remains unresolved in this handoff. Indexed Jas media-bearing Louvre posts are posting events, not automatically Jas artworks.
+Superseded readers:
 
-## Run 678 Wall / Danny integration
+- `c057125ba4a8bce2ef87c6347ca818e0e8acc291` — superseded because it split Gabu's `Drink water reminder` identity into a second Cast owner.
+- `ac4393f1d247b8311b04a3c5a36afbab668455e5` — intermediate correction, superseded because it temporarily omitted the valid Sye deepening while the identity bridge was rechecked.
 
-Run 678 completed the required full miner census at **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 unread active tails at close, 0 backlog, and 0 overdue branches**. Both Club-Only recovery lanes remain current / saturated.
+## MAIN routing / publication debt
 
-The sole active mover was `archive-miner-wall-hourly-20260824`, reviewed checkpoint-first and intake-only from consumed `4067a5abb394690b115a2f197a3a0b8a71cdd64d` through stable `68a78632df4e7ac4e2b529690b3ec0a8a5d2c314`. The closing head check found no suffix beyond that reviewed SHA.
+MAIN reader-facing files changed **0** in this correction pass. Sye's existing rich biography already owns the broader competence-with-rust mechanism. Gabu's newly sharpened risk-aware scheduler / failure-mode behavior is accepted for future person-first folding into her existing biography rather than appended as a dated receipt report.
 
-The new public-worthy person axis is **Danny / `danny_ftm` as low-volume artifact-first wit**. On 2020-10-12 Danny files two screenshots; Ren theatrically objects; Danny answers `Sorry youre right, I should get a new ss with the persons name added 😝😝`. The mock concession is really escalation: the evidence stays and the proposed improvement is clearer defendant labeling. A separate same-pocket Sprite tangent reinforces the same object-first social style when Danny posts exporter-titled media `Sprite - All-Nighter (2006, UK)` and asks `But what sprite?`. Because there is no structured Reply edge to Rookie's preceding Sprite line, that second beat remains a probable callback rather than a direct Danny↔Rookie relationship claim.
+Because that Gabu material is accepted MAIN biography debt, Core Rooms / Events remains `pending_publication` despite being fully reviewed and consumed through `cc5fcce6bf4d988c4096df0c6e7b1fd3f489d1cd`.
 
-WIKI therefore gives Danny one compact structured Cast owner rather than a standalone Episode or inflated biography. Ren gets a bounded evidence-room teasing lane; representative quotes and Petty Crimes capture the joke mechanism. The sample supports playful artifact specificity, not a broad archivist / collector identity. Danny's screenshot binaries remain uninspected and are POSTED BY Danny only; MADE BY / CAPTURED BY / FEATURING / exact visual content remain unresolved. Ren's mock-threat wording remains comic Wall language, not literal violence. The old Sprite advert does not support age, nationality, location, or childhood inference about Danny.
+The **eight** reviewed MAIN publication-held families are now:
 
-Zoshaa's `scrambled egg bunny fursona` q2 advanced backstage only to **OPEN / NOV-04 REPLAY OBJECT ANCHORED / EXPLICIT-LABEL TEXT EXHAUSTED / ORIGIN-MEDIA-BLOCKED**. The exact surviving replay object is Ren message `773642269210312735`, attachment `773642269005709322` / `image0-9bd84fdb1b19569b.jpg`, 31,522 bytes. A same-sized 2020-08-22 Ren asset is not identity proof without binary comparison. No duplicate Zoshaa public prose was added.
+1. Backroom
+2. Birthdays / PR / VC
+3. Core Rooms / Events
+4. Daycare
+5. Louvre / AI Art / Athenaeum / Other Games
+6. Meems
+7. QOTD / Officers
+8. Wall
 
-Reader-facing WIKI files changed:
+These are publication debt, not unread miner work.
 
-- `src/data/integrator-cast-run678-wall.ts`
-- `src/data/all-content.ts`
+No MAIN source-verification / Astro / built-output / production-deploy success is claimed for an unchanged reader tree.
 
-Exact verified/deployed reader: **`8bf12f5c1c98f593479068c51610dec9d41a39a8`**.
+## Held Core rabbits
 
-- Build Underlords Wiki run **34270172015** — success
-  - Astro build job **102209477015** — success
-- Deploy Underlords Wiki Preview run **34270172033** — success
-  - build/artifact job **102209577023** — success
-  - actual Pages deploy job **102209750271** — success
-  - report/status job **102209833850** — success
+The Core review did not falsely promote its unresolved routes. Ritha's lived Battle Leader execution, Chubi's lived recruiting / Officer execution, WOO's strict task-help mechanism, Grimlee's enacted warmth, Hic's concrete-help axis, Zoshaa's next person dimension, Spirit event identity/rules, Nui's May `cc` mechanic identity, and WOO/Nobu screenshot context remain open at their recorded boundaries. Exact-ID zero routes remain retrieval facts only, never personality or social-rank claims.
 
-MAIN reader-facing files changed **0**. Danny remains too narrow for a person-first MAIN biography without padding; older accepted Wall material also remains controlled publication debt. No MAIN source-verification / Astro / built-output / production-deploy success is claimed for an unchanged reader tree.
+## Current safety rails
 
-The controlling MAIN ledger advances Wall `last_consumed_sha` through `68a78632df4e7ac4e2b529690b3ec0a8a5d2c314` and restores status to `pending_publication`, solely because accepted MAIN Wall material remains held for MAIN's controlled release path. The six reviewed MAIN publication-held families are Backroom, Birthdays/PR/VC, Daycare, Meems, QOTD/Officers, and Wall. Consumed means reviewed, not necessarily published on every surface.
-
-## Run 677 stable census
-
-Run 677 was reader-neutral: all active miner heads remained on reviewed / consumed frontiers, both Club-Only recovery lanes remained current / saturated, and no identity, role, attribution, privacy, duplicate-family, or rabbit state moved. No reader build/deploy claim was made for that state-only pass.
-
-## Run 676 stable census
-
-Run 676 completed the required full miner census at **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 unread active tails at close, 0 backlog, and 0 overdue branches**. Both Club-Only recovery lanes remain current / saturated.
-
-All 30 active miner heads remain exactly on their Run 675 reviewed / consumed frontiers. There is therefore no legitimate checkpoint-first `archive-intake/*` delta to review, no raw archive was reopened, and no consumed SHA moved. The six reviewed MAIN `pending_publication` families remain Backroom, Birthdays/PR/VC, Daycare, Meems, QOTD/Officers, and Wall; those are publication debt rather than unread mining.
-
-Reader-facing WIKI files changed **0**. No Astro / Pages build or deployment was triggered for this reader-neutral state refresh. The latest exact verified/deployed WIKI reader remains Run 675 SHA **`80f4c3b22bbaa23394456e25ec186a426075de59`**. MAIN reader-facing files also changed **0**, so no source-verification / Astro / built-output / production-deploy cycle is claimed there either.
-
-No identity, role chronology, privacy, joke-literalization, attribution, duplicate-family, or unresolved-rabbit state changed. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING boundaries remain unchanged.
-
-## Run 675 Wall / Cele integration
-
-Run 675 completed the required full miner census at **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 unread active tails at close, 0 backlog, and 0 overdue branches**. Both Club-Only recovery lanes remain current / saturated.
-
-The sole active mover was `archive-miner-wall-hourly-20260824`, reviewed checkpoint-first and intake-only from `d4b5c9850f9796ffeb4c5dca71c7876fc9c9b632` through stable `4067a5abb394690b115a2f197a3a0b8a71cdd64d`. The closing branch sweep found no late advancement beyond that reviewed head.
-
-The new public-worthy axis is **Cele's notice-first attentiveness spanning comic fuss and low-drama care**. Her older dossier already owned the expected-judge / red-dot reputation. The new recurrence makes that behavior more human rather than merely louder: Cele sees 906 unread messages and demands the red dot be cleared; Moon's 285 unread count triggers another intervention and Moon answers by volunteering Cele to `go lecture rum,rv and uncle Rice uwu`; Rich's larger unread count gets `CHECK THE REDT DOT`. Then, in a separate March 2023 Gilli pocket, Cele asks `Gilli… is u okay`, sends a bear hug after his joke-heavy `NO AM LOSING MY MIND LMAO`, and true-replies `want mine I’ll share half my braincell`.
-
-WIKI folds those receipts into one mechanism: Cele notices something that looks wrong and intervenes quickly. Trivial UI disorder gets theatrical emergency-response volume; a person sounding overwhelmed gets the same reflex in a softer register. The Gilli relationship therefore now carries both earlier expected-judge familiarity and later direct care, while Moon carries the peer-recognition lane. This is profile / relationship / Petty Crimes texture, not a standalone Episode.
-
-Cele remains **Platelet**. Moon's `go lecture` is social joke language, not a formal role. Cele's `literally hack into ur acct` line is obvious hyperbole about clearing notifications, not real unauthorized access. Gilli's wording does not support a medical diagnosis. Moon and Rich remain POSTED BY for their respective uninspected media only; MADE BY / CAPTURED BY / FEATURING remain unresolved.
-
-The assigned Ansun `and my ants?` rabbit produced no independent second ant story. The known 2020 exchange plus Anthos's Zoolander ants GIF remains one response/pun pocket; `SECOND ANT STORY` stays unconfirmed.
-
-Reader-facing WIKI files changed:
-
-- `src/data/integrator-cast-run675-wall.ts`
-- `src/data/all-content.ts`
-
-Exact verified/deployed reader: **`80f4c3b22bbaa23394456e25ec186a426075de59`**.
-
-- Build Underlords Wiki run **34264239045** — success; Astro build job **102189485215**.
-- Deploy Underlords Wiki Preview run **34264179959**, attempt 2 — success after the initially cancelled deploy job was rerun.
-  - build/artifact job **102189594277** — success
-  - actual Pages deploy job **102189593568** — success
-  - report/status job **102189674712** — success
-- Exact commit contexts finish at `wiki-build` success and `wiki-preview` success (`GitHub Pages preview deployed`).
-
-MAIN reader-facing files changed **0**. Cele's MAIN biography is already the richer person-first owner and already carries permanent-Platelet canon, red-dot reputation, Wall-defendant behavior, Dean, Woosung, chemistry-help texture, and other lived material. The genuinely new Gilli-care contradiction is accepted for a future resynthesis / Petty Crimes / relationship fold rather than another dated archive paragraph. MAIN's controlled production workflow was not bypassed.
-
-The controlling MAIN ledger advances Wall `last_consumed_sha` through `4067a5abb394690b115a2f197a3a0b8a71cdd64d` after successful WIKI reader verification/deployment. Wall remains `pending_publication` solely because accepted MAIN Cele texture and older reviewed MAIN Wall debt still await MAIN's controlled release path. Consumed means reviewed, not necessarily published on every surface.
-
-## Run 674 Daycare integration
-
-Run 674 completed the required full miner census at **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 unread active tails at close, 0 backlog, and 0 overdue branches**. Both Club-Only recovery lanes remain current / saturated.
-
-The sole active mover was `archive-miner/daycare-2020-2026-hourly`, reviewed checkpoint-first and intake-only from `7b6115ba25cab313b87b9f600ec969bb6fe6bb8b` through `b2274014a731e059f1d9e5e8782b5ae234d9c9d6`. The closing branch sweep found no late advancement beyond that reviewed head.
-
-The new public-worthy axis is **Eos ↔ Rummy reciprocal embarrassment/counterplay** outside the already-owned Marian and Ren lanes. Rummy mocks Eos's spelling; Eos admits `IT WORSE ON MAH PHONE`, then immediately returns `but lets not talk about *your* spelling`. Months later Eos becomes the evidence courier, posting at Rummy with `…sorry rums i had to`; Rummy's direct `I-` / keyboard-smash / wheeze makes the reversal legible as shared play rather than conflict. WIKI folds this into Eos's existing dossier as relationship texture, representative quotes, tags, and backstage claims/anti-fanon rather than a standalone episode.
-
-The March attachment remains **POSTED BY Eos** only; its pixels were not inspected in the reviewed handoff, so MADE BY / CAPTURED BY / FEATURING and exact visual content remain unresolved. The Eos/Rummy lane is not promoted to romance, family, or a closeness ranking. Nori's stable-ID onboarding support stayed too thin for a personality promotion. The bounded Sep 2–3, 2023 Wall gap remains coverage-only.
-
-Reader-facing WIKI files changed:
-
-- `src/data/integrator-cast-run674-daycare.ts`
-- `src/data/all-content.ts`
-
-Exact verified/deployed reader: **`b447e3e34232447bba79812e4fb28f6857dc19d5`**.
-
-- Build Underlords Wiki run **34262172504** — success; build job **102182576275**.
-- Deploy Underlords Wiki Preview run **34262172514** — success.
-  - build/artifact job **102182581867** — success
-  - actual Pages deploy job **102182763042** — success
-  - report/status job **102182851515** — success
-- Exact commit contexts: `wiki-build` success and `wiki-preview` success (`GitHub Pages preview deployed`).
-
-MAIN reader-facing files changed **0**. Its Eos biography is already the richer person-first owner; the Rummy spelling/prosecution texture is accepted for a future resynthesis/Petty Crimes fold. MAIN's production workflow is intentionally decoupled from pushes and requires an intentional manual dispatch for verify/build/built-output/deploy; the available connector action set cannot safely trigger that path, so no unverified MAIN reader commit was made.
-
-The controlling MAIN ledger advances Daycare `last_consumed_sha` through `b2274014a731e059f1d9e5e8782b5ae234d9c9d6` after the successful WIKI reader verification/deployment. Daycare remains `pending_publication` solely because the accepted MAIN fold is still held for MAIN's controlled release path. Consumed means reviewed, not necessarily published on every surface.
-
-## Run 673 stable census
-
-Run 673 completed the required full miner census at **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 unread active tails at close, 0 backlog, and 0 overdue branches**. Both Club-Only recovery lanes remain current / saturated.
-
-No active miner branch advanced beyond its Run 672 reviewed / consumed frontier. Therefore there was no legitimate checkpoint-first `archive-intake/*` delta to review, no raw archive was reopened, and no consumed SHA moved. The six reviewed MAIN `pending_publication` families remain Backroom, Birthdays/PR/VC, Daycare, Meems, QOTD/Officers, and Wall; those are publication debt, not unread mining.
-
-Reader-facing WIKI files changed: **0**. No Astro / Pages build or deployment was triggered for a reader-neutral census/state refresh. The latest exact verified/deployed WIKI reader remains Run 671 SHA **`efde7d57fb57dac5cf61a5466abf6d3b649dec53`**. MAIN likewise changed no reader-facing pages this run and therefore claimed no source-verification / Astro / built-output / production-deploy cycle.
-
-No identity, role, attribution, privacy, duplicate-family, or unresolved-rabbit state changed. Hard canon and SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING boundaries remain unchanged.
-
-## Run 672 overlap reconciliation
-
-Run 672 completed the required full miner census at **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 unread active tails at close, 0 backlog, and 0 overdue branches**. Both Club-Only recovery lanes remained current / saturated.
-
-Run 672 reviewed the following active frontiers checkpoint-first and intake-only:
-
-- Core Rooms / Events: `72d55a6bbf29330853af42eba6c0cb382dc58dc8 -> 6f647d27c197714f0bd6a14cf17aec32cedaeb06`
-- Wall: `492573db7627e8053234242220a6888e35544afe -> d4b5c9850f9796ffeb4c5dca71c7876fc9c9b632`
-- Whiskey verification hold closed through `09e307e882441cb5c9a2acdec8468231bfb1b714`
-
-Run 671 completed concurrently from the same Core / Wall evidence family and became the authoritative WIKI reader writer. Run 672 therefore reconciled rather than duplicated reader prose.
-
-### Core Rooms / Events
-
-Nelph's new case-routing receipts corroborate the existing public mechanism: she is quick to gather missing details and ready to move, but can be slowed by Mugen without making calibration into a status fight. The underlying interpersonal matter remains private, and `first case` is not treated as appointment chronology.
-
-Wolf Phenix's new receipts likewise corroborate the existing documentation-minded organizer axis. `my potato for a brain` lands precisely because his practical answer to imperfect memory is calendars, written detail, visible work, and records other people can retrieve. Sensitive case content remains backstage.
-
-Both were already publicly owned from Run 670; no duplicate WIKI edit was warranted.
-
-### Mia
-
-The newest Wall handoff adds a useful wordplay mechanism without requiring Mia II. Mia repeatedly treats tiny phrases as reusable objects: `GILLIFECTION`, clipped refusals, name mutations, and `NEVER` when Gilli says `Stop killing my class.` Gilli works as a recurring rhetorical foil whose protests become material; Snow is a quick participatory foil in the same wordplay pocket. Momo remains the reciprocal `twin` / `twinnie` joke-sibling lane, never literal biology.
-
-Run 671 already deepened Mia's active WIKI owner from the same Wall frontier with Snow / Poot / Mugen quick-confrontation material and successfully built/deployed that reader. Run 672 therefore did not append another receipt-shaped paragraph. The additional Gilli / wordplay texture is recorded as accepted future structured deepening and MAIN biography / Petty Crimes material rather than unread evidence.
-
-Uninspected Mia media remains POSTED BY only; MADE BY / CAPTURED BY / FEATURING were not promoted. Reply-topology checks remain topology only, not popularity or closeness evidence.
-
-### Whiskey close
-
-The prior Nhou consumption hold is closed. Run 670's exact reader `87c51263eb4b3283923da3b3a8e067e233e9ab92` passed Build `34258014006` and Pages `34258014065`, including build/artifact `102168735650`, deploy `102168893316`, and report/status `102168969883`. Run 671 independently recorded the Nhou verification close as well.
-
-## Run 672 reader / deployment result
-
-Reader-facing WIKI files changed by Run 672: **0**.
-
-No redundant Astro / Pages build was triggered for reader-neutral reconciliation. The latest exact verified/deployed WIKI reader remains Run 671 SHA **`efde7d57fb57dac5cf61a5466abf6d3b649dec53`**:
-
-- Build Underlords Wiki run **`34258978768`** — success
-  - Astro build job **`102171865201`** — success
-- Deploy Underlords Wiki Preview run **`34258978721`** — success
-  - build/artifact job **`102172004521`** — success
-  - actual Pages deploy job **`102172167917`** — success
-  - report/status job **`102172239202`** — success
-
-The Run 672 state commit is reader-neutral and does not replace `efde7d57...` as the live-reader receipt.
-
-## Run 672 MAIN routing
-
-MAIN reader-facing files changed **0**.
-
-Nelph and Wolf were already richer there. Mia's new Gilli / Snow / wordplay material is accepted for folding into the existing person-first biography rather than another dated incident paragraph; it remains controlled publication debt because MAIN's full source-verification -> Astro -> built-output -> production-deploy gate was not run in this connector pass. No unverified MAIN reader commit or deployment claim was made.
-
-## Run 672 branch consumption close
-
-The controlling MAIN ledger now advances:
-
-- Core Rooms / Events through `6f647d27c197714f0bd6a14cf17aec32cedaeb06` — consumed as duplicate / corroboration, private case details held backstage.
-- Whiskey through `09e307e882441cb5c9a2acdec8468231bfb1b714` — consumed after verified reader close.
-- Wall through `d4b5c9850f9796ffeb4c5dca71c7876fc9c9b632` — reviewed / consumed, status remains `pending_publication` because accepted MAIN Mia texture still awaits the controlled MAIN release path.
-
-Consumed means reviewed, not necessarily published.
-
-## Run 671 historical reader receipt
-
-Run 671's substantive WIKI integration added structured owners / deepeners for Tomas, LunaBelle / MoonDoll, and Mia while preserving hard rails around appointment chronology, stable-ID identity, joke language, and media attribution.
-
-- Tomas: standards plus practical competence; Officer label retained without inventing an appointment date.
-- LunaBelle / MoonDoll: bridged by exact stable account ID `884244048279580703`, not name resemblance; low-ceremony recognition plus willingness not to fake advice when she is not in the right headspace.
-- Mia: low-volume but socially quick Wall confrontation with Snow / Poot / Mugen, framed as familiar play rather than romance, literal violence, or a new closeness rank.
-
-Exact reader: **`efde7d57fb57dac5cf61a5466abf6d3b649dec53`**, verified/deployed by the successful runs listed above.
-
-## Run 670 historical receipt
-
-Run 670's final reader commit was **`87c51263eb4b3283923da3b3a8e067e233e9ab92`**. It carried Booba's delayed receipt filing, HamitteY's q18 closure, Nhou's low-ceremony return continuity, Nelph's calibratable case-building, and Wolf Phenix's documentation-minded organizer axis.
-
-HamitteY q18 remains CLOSED at `6+/60−` across all 66/66 exact-audited authored Wall parents; Shiki q18 remains CLOSED at `0+/53−`. Those are reply-topology statements only, never personality, popularity, or closeness claims. Nhou's private age/workplace specifics and the private interpersonal casework behind Nelph/Wolf remain backstage. Booba's attachment pixels remain uninspected.
-
-## publication invariant
-
-WIKI gets structured reference structure; MAIN gets the richer biography. Shared evidence may appear on both only when each surface uses it for its own job. New receipts deepen an existing person whenever possible; they do not earn automatic incident paragraphs. Hard identity, role, attribution, privacy, and explicit contradiction rails override ordinary contextual inference.
+Hard canon and resolved identity corrections override contextual inference. Export-time role arrays do not date appointments. Joke roles do not become governance. Joke family language does not become biological family. Joke romance/flirting does not become literal romance or sex. Earliest surviving is not automatically origin. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct. Uninspected media does not receive invented pixels.
