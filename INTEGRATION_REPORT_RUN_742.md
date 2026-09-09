@@ -2,12 +2,14 @@
 
 ## Reader
 
-Exact verified/deployed reader: `88b4bb73398b98b245eca36708b01c6070fe6a90`.
+Exact verified/deployed reader: `83ac3be3bf5d2565cc1d4b28f324944c00dcdf74`.
 
 Reader-facing changes:
 
 - `src/data/integrator-cast-run742-intake.ts`
 - activation in `src/data/all-content.ts`
+
+Before closure, a hard-canon pronoun error in Cas's Mugen relationship copy was caught (`his own` for Mugen) and corrected to she/her. The earlier reader `88b4bb73398b98b245eca36708b01c6070fe6a90` had passed build + Pages, but is superseded. The corrected reader `83ac3be3bf5d2565cc1d4b28f324944c00dcdf74` was rebuilt and redeployed end-to-end before being accepted as the controlling public receipt.
 
 ## Cast integration
 
@@ -26,11 +28,13 @@ Reader-facing changes:
 
 ## Verification / deployment
 
-- Build Underlords Wiki run `34396597776`: success.
-  - Astro build job `102617749924`: success.
-- Deploy Underlords Wiki Preview / Pages run `34396597882`: success.
-  - build/artifact `102617863208`: success.
-  - deploy `102618011238`: success.
-  - report/status `102618096023`: success.
+Corrected exact reader `83ac3be3bf5d2565cc1d4b28f324944c00dcdf74`:
 
-The exact public reader receipt remains `88b4bb73398b98b245eca36708b01c6070fe6a90`; this report commit is documentation-only.
+- Build Underlords Wiki run `34397033336`: success.
+  - Astro build job `102619183639`: success.
+- Deploy Underlords Wiki Preview / Pages run `34397033401`: success.
+  - build/artifact `102619184506`: success.
+  - deploy `102619356085`: success.
+  - report/status `102619434101`: success.
+
+The exact public reader receipt is `83ac3be3bf5d2565cc1d4b28f324944c00dcdf74`; this report correction is documentation-only.
