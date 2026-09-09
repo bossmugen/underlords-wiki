@@ -1,10 +1,15 @@
 import { allCharacters, characterById } from "./cast";
 import type { Character } from "./wiki";
 
+type ExtendedCharacter = Character & {
+  claims?: string[];
+  antiFanon?: string[];
+};
+
 const shadowId = "lilgrinchy6058";
 const shadowIndex = allCharacters.findIndex((character) => character.id === shadowId);
 
-const shadowCharacter: Character = {
+const shadowCharacter: ExtendedCharacter = {
   id: shadowId,
   name: "影の戦士",
   aliases: ["lilgrinchy6058"],
@@ -44,7 +49,7 @@ const shadowCharacter: Character = {
 };
 
 if (shadowIndex >= 0) {
-  const shadow = allCharacters[shadowIndex];
+  const shadow = allCharacters[shadowIndex] as ExtendedCharacter;
   allCharacters[shadowIndex] = {
     ...shadow,
     ...shadowCharacter,
@@ -52,9 +57,9 @@ if (shadowIndex >= 0) {
     tags: [...new Set([...(shadow.tags ?? []), ...(shadowCharacter.tags ?? [])])],
     relationships: shadowCharacter.relationships,
     quotes: [...new Set([...(shadow.quotes ?? []), ...(shadowCharacter.quotes ?? [])])],
-    claims: [...((shadow as Character & { claims?: string[] }).claims ?? []), ...(shadowCharacter as Character & { claims?: string[] }).claims ?? []],
-    antiFanon: [...((shadow as Character & { antiFanon?: string[] }).antiFanon ?? []), ...(shadowCharacter as Character & { antiFanon?: string[] }).antiFanon ?? []],
-  } as Character;
+    claims: [...(shadow.claims ?? []), ...(shadowCharacter.claims ?? [])],
+    antiFanon: [...(shadow.antiFanon ?? []), ...(shadowCharacter.antiFanon ?? [])],
+  } as ExtendedCharacter;
 } else {
   allCharacters.push(shadowCharacter);
 }
