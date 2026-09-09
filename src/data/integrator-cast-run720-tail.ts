@@ -32,9 +32,9 @@ if (ghoulieIndex >= 0) {
     href: "/characters/ansun",
   });
   upsertRelationship(relationships, {
-    name: "Ren",
+    name: "RV",
     note:
-      "Ren can get `bc you love mee` from Ghoulie and, half a minute later, summon her straight back into the running prosecution; Ghoulie answers that she has been `sold to the wall of shame`. Affection and embarrassment are allowed to occupy the same exchange without either one cancelling the joke.",
+      "RV can get `bc you love mee` from Ghoulie and, half a minute later, summon her straight back into the running prosecution; Ghoulie answers that she has been `sold to the wall of shame`. Affection and embarrassment are allowed to occupy the same exchange without either one cancelling the joke.",
     href: "/characters/ren",
   });
   upsertRelationship(relationships, {
@@ -60,12 +60,12 @@ if (ghoulieIndex >= 0) {
     claims: unique([
       ...(ghoulie.claims ?? []),
       "By 2024 Ghoulie is not merely surviving Screenshot Court; she can tag somebody else into the Wall with `letmehavethisonce` and then get hauled back onto the defendant side herself soon afterward. The turnabout is the useful character beat.",
-      "Across 2021–2024, recurring Wall exchanges with Ansun/Sou, Ren and Tofu show the same familiarity from different angles: challenge, affection, blame, summons and counter-prosecution all land without the room needing to rebuild the joke each time.",
+      "Across 2021–2024, recurring Wall exchanges with Ansun/Sou, RV and Tofu show the same familiarity from different angles: challenge, affection, blame, summons and counter-prosecution all land without the room needing to rebuild the joke each time.",
     ]),
     antiFanon: unique([
       ...(ghoulie.antiFanon ?? []),
       "Ghoulie's Wall prosecutor/defendant turnabout is social ritual, not formal authority, rank or channel ownership.",
-      "Ghoulie's `bc you love mee` exchange with Ren is affectionate teasing in context and is not a romance claim.",
+      "Ghoulie's `bc you love mee` exchange with RV is affectionate teasing in context and is not a romance claim.",
       "The River `momma` / `newmommy` sequence is joke-family language only and must not be literalized.",
     ]),
   } as ExtendedCharacter;
