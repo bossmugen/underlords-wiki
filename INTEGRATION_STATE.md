@@ -1,8 +1,40 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-09 — Run 734 close_
+_Last updated: 2026-09-09 — Run 736 close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` remains the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity / role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
+
+## Run 736 — t7morrow + Wall checkpoint compaction
+
+The mandatory full census closes at **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 unread active tails, 0 backlog, and 0 overdue branches**. Both Club-Only recovery-priority lanes remain current / saturated. Wall is consumed through `72256657d446e80e6b1667f6610fd6f1cae1829a`; Whiskey is consumed through `26535e9113f5523ada4a9bdb6eb1cb0e02c62c2a`. Nine reviewed MAIN families remain `pending_publication`; that is person-first resynthesis debt rather than unread mining.
+
+### t7morrow
+
+Run 736 adds a compact **t7morrow** Cast owner for a thin but unusually coherent 2020 Whiskey person shard. The useful person read is **one foot near the exit, one hand on the punchline**. t7morrow repeatedly performs retreat, distance, mock innocence, or selective blindness while still participating: `leaving 😫`; a polite gamenight visit and sign-off; `🚪 🚶 ⬅️`; then commentary on what was supposedly left behind. The exit keeps becoming part of the joke rather than the end of the scene.
+
+The strongest contradiction is mock-innocent observer / active chaos contributor. `im a CHILD to you guys🤧🤧` is comparative joke language, not an age receipt; minutes later the bit has escalated into `finna play Mario kart in the roads 🥰` and `pedestrians? I only see item boxes 🚶‍♂️🚶‍♀️`. The road lines remain nonliteral game-to-world joking, the bot-bank complaint remains bot-economy play rather than real finance, and `horndogs` remains t7morrow's joking read of room atmosphere rather than evidence of real sexual conduct.
+
+Relationship handling stays proportionate. t7morrow explicitly notices `@douxjinn` missing on August 15. Two days later `doux was right...` is a likely local callback to the same person, but the shorter name is not technically identity-bridged and does not become a closeness rank. Attachment-only later posts remain POSTED BY t7morrow until their exact pixels are independently inspected.
+
+### Wall suffix
+
+The Wall delta after Run 735 changed only the root `checkpoint.md`, compacting/rerouting the already reviewed Nelph person synthesis and ShiyaX recurring account/alibi-defense rails. It adds no new finding, receipt, site candidate, rabbit resolution, or public claim. No duplicate Nelph or ShiyaX reader change was made. The stronger reconciled public Nelph owner remains authoritative where it already knows more context than the narrow miner checkpoint.
+
+### Public result
+
+Reader-facing Run-736 module: `src/data/integrator-cast-run736-whiskey-t7morrow.ts`, activated from `src/data/all-content.ts`.
+
+Exact verified/deployed WIKI reader: **`6455642d85a0d4c7e495312c27472e13b2eec071`**.
+
+- Build Underlords Wiki run **34383696112** — success; build job **102574512166** — success.
+- Deploy Underlords Wiki Preview / Pages run **34383696179** — success.
+  - build/artifact job **102574521067** — success;
+  - deploy job **102574678831** — success;
+  - report/status job **102574758726** — success.
+
+MAIN reader-facing changes this run: **0**. t7morrow is intentionally WIKI-first because the current person shard is coherent enough for structured ownership but still too thin and media-selected for a rich MAIN biography. No MAIN source-verification / Astro / built-output / production-deploy success is claimed for an unchanged reader tree. No WIKI Episode was created; the person dossier is the stronger owner.
+
+---
 
 ## Run 734 — Ansun, Ten, Aria
 
