@@ -33,10 +33,10 @@ if (prideIndex >= 0) {
   const relationships = [...(pride.relationships ?? [])];
 
   upsertRelationship(relationships, {
-    name: "Mugs",
+    name: "Mugen",
     note:
       "Mugs can tease `antisocial pride uwu`; Pride rejects the label and, two seconds later, amends the objection with `anymore`. It is a tiny self-authored change arc rather than a permanent personality diagnosis: old distance was real enough for Pride to remember, but Pride also says they were doing better.",
-    href: "/characters/mugs",
+    href: "/characters/mugen",
   });
 
   upsertRelationship(relationships, {
