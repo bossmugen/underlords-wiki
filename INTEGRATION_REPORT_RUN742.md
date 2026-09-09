@@ -32,13 +32,17 @@ No standalone Episode was created; all three gains are stronger as character own
 
 ## Verification / deployment
 
-Exact verified/deployed WIKI reader: **`88b4bb73398b98b245eca36708b01c6070fe6a90`**.
+A follow-up hard-canon correction fixed Mugen's pronoun in the Cas relationship note (`his own` -> `her own`). That correction supersedes the first successful Run-742 reader and is the final exact reader.
 
-- Build Underlords Wiki run **34396597776** — success; build job **102617749924** — success.
-- Deploy Underlords Wiki Preview / Pages run **34396597882** — success.
-  - build/artifact job **102617863208** — success;
-  - deploy job **102618011238** — success;
-  - report/status job **102618096023** — success.
+Exact verified/deployed WIKI reader: **`83ac3be3bf5d2565cc1d4b28f324944c00dcdf74`**.
+
+- Build Underlords Wiki run **34397033336** — success; build job **102619183639** — success.
+- Deploy Underlords Wiki Preview / Pages run **34397033401** — success.
+  - build/artifact job **102619184506** — success;
+  - deploy job **102619356085** — success;
+  - report/status job **102619434101** — success.
+
+The earlier Run-742 reader `88b4bb73398b98b245eca36708b01c6070fe6a90` also built/deployed successfully but is superseded by this hard-canon correction and is not the final live reader receipt.
 
 ## Held / unresolved
 
