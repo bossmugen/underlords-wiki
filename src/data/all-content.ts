@@ -23,6 +23,7 @@ import "./integrator-cast-run687-daycare";
 import "./integrator-cast-run688-core-wall";
 import "./integrator-cast-run690-wall";
 import "./integrator-cast-run690-wall-aesh";
+import "./integrator-cast-run690-daycare";
 
 type LooseRecord = Record<string, unknown>;
 type Gag = { id: string; name: string; logline: string };
