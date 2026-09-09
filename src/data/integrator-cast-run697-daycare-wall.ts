@@ -161,3 +161,67 @@ if (beaIndex >= 0) {
 
 const resolvedBea = allCharacters.find((character) => character.id === beaId)!;
 characterById.set(beaId, resolvedBea);
+
+// Sye — care that is loud enough to be funny, self-aware enough to check itself,
+// and capable of growing teeth when a "care" justification reads as mistreatment.
+const syeIndex = allCharacters.findIndex((character) => character.id === "sye");
+if (syeIndex >= 0) {
+  const sye = allCharacters[syeIndex] as ExtendedCharacter;
+  const relationships = [...(sye.relationships ?? [])];
+
+  upsertRelationship(relationships, {
+    name: "Lilly",
+    note:
+      "Sye can go theatrically huge with affection — `@Lilly👽 is Mine! And I Love Her more then all of y’all.` — then immediately clarify the competitive-joke meaning, openly admit `I’m a worry wort`, and, after the room joins her concern, ask `I feel like she’s going to get mad by all this?`. The care is demonstrative, but the recipient's possible reaction is still on Sye's mind. Keep the affection social and nonliteral.",
+  });
+  upsertRelationship(relationships, {
+    name: "Gilli",
+    note:
+      "When Sye worries out loud, Gilli does not swat the feeling away. `We protec`, `We shall do our best to watch over her with you`, and `you just looking out for her. Its awesome` turn the fuss into joined concern; Gilli even jokes that they can stay up worrying together. It is peer validation and emotional scaffolding, not a formal caretaker arrangement.",
+    href: "/characters/gilli",
+  });
+
+  const syeClaims = [
+    "On 2020-10-09 Sye's exaggerated affection toward Lilly is followed by her own `worry wort` self-description and then a direct check on whether all the fuss could annoy Lilly. Gilli repeatedly answers in collective, validating language, supporting a care style that is demonstrative but not entirely unexamined.",
+    "On 2023-08-15 Sye says `Don’t excuses bullying with parenting` inside an already-owned dispute. Used at person level, the line adds a harder boundary register to the earlier soft-worry axis without creating a duplicate incident.",
+  ];
+
+  const syeAntiFanon = [
+    "Sye's `Mine!` / love language toward Lilly is affectionate joking language here, not evidence of romance, sex, biological family, literal ownership, or an exclusive relationship.",
+    "`worry wort` and `keeps me up` are Sye's own phrases and are not a medical or sleep diagnosis.",
+    "The private subject of Sye's concern for Lilly stays unspecified on the public surface; do not infer or expose medical details.",
+    "Gilli's joined-care language is relationship behavior, not a formal caretaker role, appointment, governance fact, or closeness ranking.",
+  ];
+
+  allCharacters[syeIndex] = {
+    ...sye,
+    logline:
+      "Officer, late-era continuity voice, and a spectacularly demonstrative worrier: Sye can love somebody at courtroom volume, immediately check whether the fuss itself is too much, accept Gilli turning worry into a group project, and later draw a blunt line when a care-shaped excuse sounds wrong.",
+    tags: [
+      ...new Set([
+        ...(sye.tags ?? []),
+        "Wall",
+        "Worry-wart",
+        "Protective care",
+        "Self-monitoring",
+        "Boundary voice",
+        "Petty Crimes",
+      ]),
+    ],
+    relationships,
+    quotes: [
+      ...new Set([
+        ...(sye.quotes ?? []),
+        "By all of y’all, I meant , I love her more then y’all love her ...",
+        "But I’m a worry wort! And that keeps me up !",
+        "I feel like she’s going to get mad by all this?",
+        "Don’t excuses bullying with parenting",
+        "Hey that eating two pretzels at once isn’t that dumb is it...",
+      ]),
+    ],
+    claims: [...new Set([...(sye.claims ?? []), ...syeClaims])],
+    antiFanon: [...new Set([...(sye.antiFanon ?? []), ...syeAntiFanon])],
+  } as ExtendedCharacter;
+
+  characterById.set("sye", allCharacters[syeIndex]);
+}
