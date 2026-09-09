@@ -1,4 +1,4 @@
-import { allCharacters, characterById } from "./cast";
+import { allCharacters, castGroups, characterById } from "./cast";
 import type { Character } from "./wiki";
 
 type ExtendedCharacter = Character & {
@@ -54,7 +54,7 @@ if (ansunIndex >= 0) {
       "if i become godfather one more time in mafia im changing my name to godfather",
     ]),
     claims: appendUnique(ansun.claims, [
-      "Across the recovered Core-room sample, Ansun repeatedly turns uncertainty into the next concrete action: point to the manual, tell someone when to join, confirm that a confused mobile user got it right, or tell Gilli and another participant to sleep.",
+      "Across the recovered Core-room support sample, Ansun repeatedly turns uncertainty into the next concrete action: point to the manual, tell someone when to join, confirm that a confused mobile user got it right, or tell Gilli and another participant to sleep.",
       "Ansun and Anthos can joke about their own reading while still using each other as practical task partners; the pattern supports easy working familiarity, not a closeness rank.",
       "In the Mafia game on 2020-07-28, Ansun joked that if he became Godfather one more time he would change his name to Godfather.",
     ]),
@@ -67,8 +67,9 @@ if (ansunIndex >= 0) {
   characterById.set("ansun", allCharacters[ansunIndex]);
 }
 
-// Run 734 Louvre: Ten is most useful here as somebody who refuses to bluff his way through
-// uncertainty. He asks, delegates, borrows a familiar anchor, and becomes deadpan once the premise is clear.
+// Run 734 Louvre miner handoff: the person scaffold was built from supporting 2020
+// Club Only receipts while Ten's tiny direct creative body remains unresolved. The
+// useful character advance is therefore social style, not a creative-style claim.
 const tenIndex = allCharacters.findIndex((character) => character.id === "ten");
 if (tenIndex >= 0) {
   const ten = allCharacters[tenIndex] as ExtendedCharacter;
@@ -77,7 +78,7 @@ if (tenIndex >= 0) {
   upsertRelationship(relationships, {
     name: "Anthos",
     note:
-      "Anthos is one of Ten's easy anchors when Ten does not feel like pretending to have an answer. Asked what role he wants, Ten goes from `mystery box me?` to `can i just go with anthos apprentice like in game` because his `head empty rn`; the wording borrows their game shorthand, not a formal UL mentorship appointment.",
+      "Anthos is one of Ten's easy anchors when Ten does not feel like pretending to have an answer. Asked what Tumbleweed role he wants, Ten goes from `mystery box me?` to `can i just go with anthos apprentice like in game` because his `head empty rn`; the wording borrows their game shorthand, not a formal UL mentorship appointment.",
     href: "/characters/anthos",
   });
 
@@ -102,13 +103,13 @@ if (tenIndex >= 0) {
       "I FINALLT GOT MY FUCKIN PHONE RESET",
     ]),
     claims: appendUnique(ten.claims, [
-      "When asked what role he wanted in the recovered Louvre-era pocket, Ten openly deferred the choice with `mystery box me?`, then reached for an Anthos-apprentice-like-in-game option because his `head empty rn`.",
-      "In a separate bot-action exchange, Ten asks whether the behavior is a `claiming maneuver` rather than bluffing that he understands it; once the room supplies context, his tone flips into the deadpan `if they die they die`.",
+      "In supporting 2020 Club Only material reviewed by the Louvre/Athenaeum miner, Ten openly deferred a Tumbleweed role choice with `mystery box me?`, then reached for an `anthos apprentice like in game` option because his `head empty rn`.",
+      "In an October 1 bot-action exchange, Ten asks whether the behavior is a `claiming maneuver` rather than bluffing that he understands it; Mugen supplies the local meaning and the room keeps joking. In a separate September 24 game/avatar-banter scene, Ten lands the crisp deadpan `if they die they die`. Together the scenes show open uncertainty when a category is unclear and bluntness once a premise is usable.",
     ]),
     antiFanon: appendUnique(ten.antiFanon, [
       "`anthos apprentice like in game` is Ten's game-flavored fallback wording, not a UL appointment, governance chronology, or formal mentorship claim.",
       "`if they die they die` is preserved as nonliteral room banter with an unresolved local antecedent; it is not evidence of real-world harm, intent, or violence.",
-      "Ten's recovered media in this lane remains POSTED BY only unless separate inspection establishes MADE BY / CAPTURED BY / FEATURING.",
+      "Ten's three unresolved creative media-bearing events in this miner's assigned body remain POSTED BY only unless separate inspection establishes MADE BY / CAPTURED BY / FEATURING; this integration makes no creative-style claim from them.",
     ]),
   } as ExtendedCharacter;
   characterById.set("ten", allCharacters[tenIndex]);
@@ -156,6 +157,7 @@ const ariaCharacter: ExtendedCharacter = {
     "The Rosario target in one greeting remains identity-unresolved in this pass, so reciprocal warmth is not promoted into a named relationship dossier.",
     "Aria's `cutest doggo` follows Anthos's dog GIF in the same scene but is not a technical Discord Reply edge; it supports scene-level attention, not a friendship rank.",
     "Lobby doorway searches by Aria's stable ID, account name, and display name returned zero through the available route. That is a retrieval result, not proof of absence or origin.",
+    "The associated media-bearing posts remain POSTED BY Aria unless maker, capturer, or depicted subjects are independently established.",
   ],
 };
 
@@ -174,3 +176,8 @@ if (ariaIndex >= 0) {
   allCharacters.push(ariaCharacter);
 }
 characterById.set(ariaId, allCharacters.find((character) => character.id === ariaId)!);
+
+const archiveCastGroup = castGroups.find((group) => group.id === "archive-cast");
+if (archiveCastGroup && !archiveCastGroup.characterIds.includes(ariaId)) {
+  archiveCastGroup.characterIds.push(ariaId);
+}
