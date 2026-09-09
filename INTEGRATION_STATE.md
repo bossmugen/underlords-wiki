@@ -1,64 +1,58 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-09 — Run 718 Whiskey / Wall reconciliation_
+_Last updated: 2026-09-09 — Run 719 Wall + Daycare_
 
-MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity / role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
+MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` remains the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity / role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
 
-This file is the current integration snapshot. Earlier run-by-run prose remains in Git history and durable integration reports; this snapshot supersedes stale queue counts while preserving the exact latest verified reader receipt.
-
-## Run 718 — Closing census
+## Run 719 — Closing census
 
 The mandatory full branch census closes at **51 tracked miner identities = 30 active refs + 21 historical/missing refs**. There are **0 newly discovered refs, 0 unread active tails, 0 backlog, and 0 overdue branches**. Both Club-Only recovery-priority lanes remain current / saturated.
 
-Run 718 opened with Whiskey and Wall advanced. A concurrent Run 716 completed the Whiskey review/publication first and reconciled the shared MAIN ledger without overwriting Run 718's newer Wall frontier. Run 718 re-read the current state, accepted the verified Whiskey publication, reviewed the still-unconsumed Wall tail intake-only, and closed all active heads against stable SHAs.
+Run 719 opened on Wall, then caught late Wall and Daycare movement before close. Wall is consumed through `6a0f8b9d6f8cde995a1631c5f91c0de7aee04468`; Daycare is consumed through `82550a6cf6d0e852865c19606b4fcd72ec3eca7f`. Nine reviewed MAIN families remain `pending_publication`; that is publication debt, not unread miner work.
 
-Nine reviewed MAIN families are now `pending_publication`: Backroom; Birthdays / PR / VC; Core Rooms / Events; Daycare; Louvre / AI Art / Athenaeum / Other Games; Meems; QOTD / Officers; Wall; Whiskey. These are accepted person-first resynthesis / publication debt, not unread miner debt.
+## Wall — Usama
 
-## Whiskey — Spicy Hotpot / Joshx
+Usama / `usama1.` now has a compact structured Cast owner. His surviving Wall footprint is tiny and mostly reaction-sized, but the longer lines disproportionately appear when the room needs continuity or context: `key was asking Sushi yesterday too lol`, `wait , really !!!` followed by `👀`, and `ooo Suzzi one of founders ???`, which Mugen TRUE-replies to with `Yus` before Usama later TRUE-replies `lol` to the follow-up Suzi lore riff.
 
-Whiskey is consumed through `8e5ab2326de7379553dc8ffb09726fb88df8e6c3`.
+The WIKI read is intentionally narrow: low-verbiage regular whose specificity spikes around callbacks, context checks, and old-room facts. This is not a formal historian title, not a romance inference from the Key/Sushi wording, and not an anime-preference profile from one surprise question.
 
-Run 716 created the WIKI owner for Spicy Hotpot / Joshx from the new Whiskey packet: formal outsider who says `I'm not from your server`, Gilli-recognized `JOSH`, doorway procedure converted into a bit (`yes, I'm 5'7 actually.` / `I am a US citizen.` before compliance), mock-threatening hydration/food care, and a substantial Gilli receipt-memory / deliberate-nuisance lane.
+## Daycare support chronology — Eos
 
-Run 718 made one visible-copy correction in `src/data/integrator-cast-run716-whiskey-spicy.ts`: the public Gilli relationship note now stays inside lived behavior instead of ending with an anti-fanon-style `not a closeness ranking` caveat. The safety rail remains backstage in the dossier's `antiFanon` layer.
+The existing Eos owner is deepened rather than replaced. Rich/Ricochet repeatedly gives Eos almost no setup—`Looks at @Eos`, `I think it’s time to punish a panda`, later `I think that’s a job for panda`—and Eos catches the cue immediately. The repeated mechanism is low-bandwidth shared context: he assumes she knows the bit; she does.
 
-Hard boundaries stay unchanged: social fluency does not establish UL in-game membership; `fanboy for Kinou` is first-party fandom/admiration only; `GROUND YOU` is joke-care rather than authority/parenting/governance; Gilli's April screenshot is POSTED BY Gilli only; the nickname-change actor and portable hydration-target identity remain unresolved.
+Rummy's spelling roast adds the counterpunch: Eos first self-owns with `IT WORSE ON MAH PHONE`, then twelve seconds later fires back `but lets not talk about *your* spelling`. Rummy is the probable referent from immediate context, but the second Eos line is not a structured Reply and remains bounded accordingly. These are Wall support receipts used to deepen Eos; they are not relabeled as direct Daycare dialogue.
 
-## Wall — Woohyuk q18
+## Late Wall suffix — Bishop + Cele q18
 
-Wall is consumed through `ab7288e899afbe2dce27dab2e564937427e31559`.
+Bishop's new line—`I'm not sure who's in the wrong here, or if we're both right. Either way... Time to find my gloves 🥊🥊`—deepens his existing MAIN person read as ambiguity-parser / mock referee who can carefully withhold certainty and then theatrically escalate the bit anyway. Tofu TRUE-replies with `:nyasSmack1:`. This is held for a natural MAIN Bishop resynthesis rather than turned into a second Bishop dossier, a Wiki Episode, governance, or a literal-fight claim.
 
-The new Wall tail changes backstage reply-topology only. Woohyuk q18 advances from **OPEN / ≥3 confirmed positive parents** to **OPEN / ≥5 confirmed positive parents** after two additional structured parent → Reply joins:
-
-- Woohyuk `857407619730898944` → pooled Deleted User `857437524657438772`;
-- Woohyuk `858137807830908958` → Ren/RV `858138437093294100`.
-
-The complete authored-parent denominator and negative classification remain blocked. Literal exact-ID lookup has false-zeroed known-positive objects, and a candidate count of 95 Woohyuk-authored objects came through unstable pagination. Neither may be turned into reply-rate arithmetic. The pooled Deleted User child saying `mere` does not identify that account as Mere. No new Woohyuk person-profile or public character claim is warranted from this topology delta.
+Cele q18 advances backstage to **at least three confirmed positive parents** in the 99-parent branch after another independently joined Rummy Reply. Negative classification remains retrieval-blocked. q18 stays topology only; it is not personality, popularity, intimacy, or relationship ranking.
 
 ## Public-surface result
 
 ### WIKI
 
-Reader-facing file changed by Run 718:
-- `src/data/integrator-cast-run716-whiskey-spicy.ts`
+Reader-facing files added/changed by Run 719:
+- `src/data/integrator-cast-run719-wall-usama.ts`
+- `src/data/integrator-cast-run719-daycare-eos.ts`
+- `src/data/all-content.ts`
 
-Exact verified/deployed WIKI reader: **`5f3a0c22a55f980bdcb1b3fec6f89745921550b3`**.
+Final exact verified/deployed WIKI reader: **`3730e814b220dcd06af1fa1b2a2b9b491f3b0799`**. It includes the prior Usama commit `ff7b4d4f903e67d4b6a87d3a0277e41e86968d85`.
 
-- Build Underlords Wiki run **34346295776** — success; build job **102448561218** — success.
-- Deploy Underlords Wiki Preview / Pages run **34346295785** — success.
-  - build/artifact job **102448561051** — success;
-  - deploy job **102448706405** — success;
-  - report/status job **102448781468** — success.
-- Combined statuses on the exact reader: `wiki-build=success`, `wiki-preview=success`.
+- Build Underlords Wiki run **34350500186** — success; build job **102462309311** — success.
+- Deploy Underlords Wiki Preview / Pages run **34350500193** — success.
+  - build/artifact job **102462309797** — success;
+  - deploy job **102462498961** — success;
+  - report/status job **102462583234** — success.
 
-Documentation-only commits may advance WIKI `main`; `5f3a0c22...` remains the exact reader receipt for the latest public correction.
+Documentation-only commits may advance WIKI `main`; `3730e814...` remains the exact reader receipt for the latest public content.
 
 ### MAIN
 
-MAIN reader-facing files changed: **0**. No MAIN source-verification, Astro build, built-output verification, production deployment, or live-reader claim is made for Run 718 because the MAIN reader tree did not change.
+MAIN reader-facing files changed: **0**. No MAIN source-verification, Astro build, built-output verification, production deployment, or live-reader claim is made because the MAIN reader tree did not change.
 
-Spicy remains MAIN publication debt for a future whole-person biography rather than a receipt-shaped event ledger. The new Wall q18 delta is backstage-only and creates no MAIN reader work by itself.
+Usama remains WIKI-only pending broader person-first material. Eos and Bishop already have substantial MAIN biographies; their new material is accepted for later whole-person resynthesis rather than appended as dated archive-report paragraphs.
 
 ## Held rails / rabbits
 
-Woohyuk q18 remains OPEN at ≥5 confirmed positive parents with denominator/negative classification blocked. Parent `858151674606387200` remains unclassified. Tae q18 remains OPEN with its bounded positive set and blocked denominator. The March 2023 unidentified bot failure remains unresolved. Earliest surviving local cues are not automatically origins, and uninspected media receives no invented pixels. Hard rails remain unchanged: user-confirmed canon and resolved identity corrections win; similar names do not establish identity; export-time role arrays do not date appointments; joke roles/family/flirting do not become literal governance/biology/romance; SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct.
+Direct-Daycare Rabbit 7 remains open for Eos; the new material is support chronology. Rabbit 16's screenshot pixels remain unavailable and therefore uninspected. Cele q18 is OPEN at ≥3 confirmed positive parents with negative classification blocked. Uninspected media remains POSTED BY only unless maker/capturer/subject is independently established. Hard rails remain unchanged: user-confirmed canon and resolved identity corrections win; similar names do not establish identity; export-time role arrays do not date appointments; joke roles/family/flirting do not become literal governance/biology/romance; SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct.
