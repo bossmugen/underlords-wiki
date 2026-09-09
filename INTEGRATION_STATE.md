@@ -1,58 +1,63 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-09 — Run 719 Wall + Daycare_
+_Last updated: 2026-09-09 — Run 720 Core + Wall_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` remains the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity / role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
 
-## Run 719 — Closing census
+## Run 720 — Closing census
 
-The mandatory full branch census closes at **51 tracked miner identities = 30 active refs + 21 historical/missing refs**. There are **0 newly discovered refs, 0 unread active tails, 0 backlog, and 0 overdue branches**. Both Club-Only recovery-priority lanes remain current / saturated.
+The mandatory full branch census remains **51 tracked miner identities = 30 active refs + 21 historical/missing refs**. There are **0 newly discovered refs, 0 closing unread active tails, 0 backlog, and 0 overdue branches**. Both Club-Only recovery-priority lanes remain current / saturated.
 
-Run 719 opened on Wall, then caught late Wall and Daycare movement before close. Wall is consumed through `6a0f8b9d6f8cde995a1631c5f91c0de7aee04468`; Daycare is consumed through `82550a6cf6d0e852865c19606b4fcd72ec3eca7f`. Nine reviewed MAIN families remain `pending_publication`; that is publication debt, not unread miner work.
+Two tails were reviewed checkpoint-first and intake-only this pass. Core Rooms / Events is reviewed through `43b824e230e5e4b6026c71dca503f23fd27af1cc`; Wall is reviewed through `c58f48d6d6c0b3cf3ec5f26994c3233ea847bd37`. Both heads were rechecked after publication and remained stable.
 
-## Wall — Usama
+## Core Rooms / Events — Ten + Mike
 
-Usama / `usama1.` now has a compact structured Cast owner. His surviving Wall footprint is tiny and mostly reaction-sized, but the longer lines disproportionately appear when the room needs continuity or context: `key was asking Sushi yesterday too lol`, `wait , really !!!` followed by `👀`, and `ooo Suzzi one of founders ???`, which Mugen TRUE-replies to with `Yus` before Usama later TRUE-replies `lol` to the follow-up Suzi lore riff.
+Ten's new 2020 scene adds staged sarcasm rather than another Screenshot-Court incident: `A gun.` becomes `Wait.. a compound bow.`; Aya says she hears the sarcasm; Ten answers `Good. Then you can understand this:` and leaves roughly five seconds before the bird emote closer. WIKI folds that into Ten's existing owner as timing, revision and visual-punchline behavior. The weapon wording stays joke context, not real-world weapon biography.
 
-The WIKI read is intentionally narrow: low-verbiage regular whose specificity spikes around callbacks, context checks, and old-room facts. This is not a formal historian title, not a romance inference from the Key/Sushi wording, and not an anime-preference profile from one surprise question.
+Mike's existing Run-720 seed also gets a 2025 counterweight. He notices the unusual VC return directly — `for reals when’s the last time we were all on vc together` / `This is actually a good time for everyone to be on vc lol` — while a later doubles-help scene keeps the same low-ego practical register: `No problem mugs haha`, `Just revive`, then `Okay okay haha` when Mugen corrects the target. This is peer help and return nostalgia, not a formal support role or complete attendance chronology.
 
-## Daycare support chronology — Eos
+## Wall — Ghoulie, not Baby Lyssa II
 
-The existing Eos owner is deepened rather than replaced. Rich/Ricochet repeatedly gives Eos almost no setup—`Looks at @Eos`, `I think it’s time to punish a panda`, later `I think that’s a job for panda`—and Eos catches the cue immediately. The repeated mechanism is low-bandwidth shared context: he assumes she knows the bit; she does.
+Hard canon keeps Baby Lyssa folded into canonical **Ghoulie**. No second owner was created.
 
-Rummy's spelling roast adds the counterpunch: Eos first self-owns with `IT WORSE ON MAH PHONE`, then twelve seconds later fires back `but lets not talk about *your* spelling`. Rummy is the probable referent from immediate context, but the second Eos line is not a structured Reply and remains bounded accordingly. These are Wall support receipts used to deepen Eos; they are not relabeled as direct Daycare dialogue.
+The new Wall packet makes the defendant/prosecutor contradiction more lived. Ghoulie can challenge Ansun/Sou, trade affectionate prosecution shorthand with Ren, repeatedly hand screenshot pressure back and forth with Tofu, and by 2024 tag somebody else into the Wall with `letmehavethisonce` before getting dragged back onto the defendant side herself. The point is not another Wall count; it is that the repeat defendant has learned the ritual well enough to switch sides without stopping being embarrassable.
 
-## Late Wall suffix — Bishop + Cele q18
-
-Bishop's new line—`I'm not sure who's in the wrong here, or if we're both right. Either way... Time to find my gloves 🥊🥊`—deepens his existing MAIN person read as ambiguity-parser / mock referee who can carefully withhold certainty and then theatrically escalate the bit anyway. Tofu TRUE-replies with `:nyasSmack1:`. This is held for a natural MAIN Bishop resynthesis rather than turned into a second Bishop dossier, a Wiki Episode, governance, or a literal-fight claim.
-
-Cele q18 advances backstage to **at least three confirmed positive parents** in the 99-parent branch after another independently joined Rummy Reply. Negative classification remains retrieval-blocked. q18 stays topology only; it is not personality, popularity, intimacy, or relationship ranking.
+The River `momma` / `newmommy` language remains joke-family only. Ghoulie's `bc you love mee` exchange with Ren remains affectionate teasing, not romance canon. Uninspected media remains POSTED BY only unless maker/capturer/subject is independently established.
 
 ## Public-surface result
 
 ### WIKI
 
-Reader-facing files added/changed by Run 719:
-- `src/data/integrator-cast-run719-wall-usama.ts`
-- `src/data/integrator-cast-run719-daycare-eos.ts`
+Reader-facing files added/changed by the final Run-720 tail publication:
+- `src/data/integrator-cast-run720-tail.ts`
 - `src/data/all-content.ts`
 
-Final exact verified/deployed WIKI reader: **`3730e814b220dcd06af1fa1b2a2b9b491f3b0799`**. It includes the prior Usama commit `ff7b4d4f903e67d4b6a87d3a0277e41e86968d85`.
+The existing concurrent `src/data/integrator-cast-run720-intake.ts` remains active underneath it; the tail module reconciles later Core/Wall handoffs into the same Ten, Mike and Ghoulie owners instead of duplicating people.
 
-- Build Underlords Wiki run **34350500186** — success; build job **102462309311** — success.
-- Deploy Underlords Wiki Preview / Pages run **34350500193** — success.
-  - build/artifact job **102462309797** — success;
-  - deploy job **102462498961** — success;
-  - report/status job **102462583234** — success.
+Final exact verified/deployed WIKI reader: **`1b9132fdf2862aff83ea6b9c8ee90ee944d571c5`**.
 
-Documentation-only commits may advance WIKI `main`; `3730e814...` remains the exact reader receipt for the latest public content.
+- Build Underlords Wiki run **34352814581** — success; build job **102469992661** — success.
+- Deploy Underlords Wiki Preview / Pages run **34352814551** — success.
+  - build/artifact job **102470151656** — success;
+  - deploy job **102470356762** — success;
+  - report/status job **102470426589** — success.
+
+Documentation-only commits may advance WIKI `main`; `1b9132fd...` remains the exact reader receipt for this Run-720 tail.
 
 ### MAIN
 
-MAIN reader-facing files changed: **0**. No MAIN source-verification, Astro build, built-output verification, production deployment, or live-reader claim is made because the MAIN reader tree did not change.
+A concurrent Run-720 MAIN pass changed `src/content/people/ten.md` at `113b08a96bce6504ff422ebc92b40fb4317e7f9c`, deepening Ten's tiredness / care-reception side beyond Screenshot Court. This integrator did not overwrite that concurrent reader work. The later staged-sarcasm beat is banked for a future natural person-first fold rather than appended as a second dated report paragraph.
 
-Usama remains WIKI-only pending broader person-first material. Eos and Bishop already have substantial MAIN biographies; their new material is accepted for later whole-person resynthesis rather than appended as dated archive-report paragraphs.
+No additional MAIN reader mutation was made for Ghoulie or Mike in this tail pass. Ghoulie's existing MAIN biography is already substantial and the new defendant↔prosecutor / Sou-Ren-Tofu texture is publication-held for whole-person resynthesis; Mike remains better served by the structured WIKI dossier until more ordinary-life/person material accumulates.
+
+No new MAIN verification/deployment claim is made here for this tail publication: the MAIN production workflow is intentionally decoupled from integrator pushes and current scheduled production runs are disabled/skipped unless explicitly enabled or dispatched. Do not treat the WIKI green checks as MAIN verification.
 
 ## Held rails / rabbits
 
-Direct-Daycare Rabbit 7 remains open for Eos; the new material is support chronology. Rabbit 16's screenshot pixels remain unavailable and therefore uninspected. Cele q18 is OPEN at ≥3 confirmed positive parents with negative classification blocked. Uninspected media remains POSTED BY only unless maker/capturer/subject is independently established. Hard rails remain unchanged: user-confirmed canon and resolved identity corrections win; similar names do not establish identity; export-time role arrays do not date appointments; joke roles/family/flirting do not become literal governance/biology/romance; SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct.
+Wall q18 remains topology-only where denominator routes are unreliable; no popularity, intimacy or relationship-ranking metric is published from it. Exact-ID false zeros remain a retrieval warning, not personality evidence. Uninspected media remains POSTED BY only unless maker/capturer/subject is independently established. Hard rails remain unchanged: user-confirmed canon and resolved identity corrections win; similar names do not establish identity; export-time role arrays do not date appointments; joke roles/family/flirting do not become literal governance/biology/romance; SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct.
+
+---
+
+## Run 719 — prior close
+
+Run 719 closed at **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with Wall consumed through `6a0f8b9d6f8cde995a1631c5f91c0de7aee04468` and Daycare through `82550a6cf6d0e852865c19606b4fcd72ec3eca7f`. WIKI published Usama plus an Eos support-chronology deepener; exact verified/deployed reader was `3730e814b220dcd06af1fa1b2a2b9b491f3b0799` with Build run `34350500186` and Pages run `34350500193` green. MAIN reader tree did not change in that close.
