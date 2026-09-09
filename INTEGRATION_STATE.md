@@ -1,8 +1,39 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-08 — Run 689 Louvre / Jas semantic dedupe_
+_Last updated: 2026-09-08 — Run 695 concurrent Wall + Daycare close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity / role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
+
+## Run 695 concurrent Wall + Daycare close
+
+Run 695 completed the required full miner census at **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 unread active tails at close, 0 backlog, and 0 overdue branches**. Both Club-Only recovery lanes remain current / saturated.
+
+The two moving frontiers were reviewed checkpoint-first and intake-only:
+
+- `archive-miner-wall-hourly-20260824`: `c7fa6398858e98f9790577eb98ba137692cd85bb` -> stable `4ec4fb6c11ce4f294f1a9f563d94dfe5c75f71c9`
+- `archive-miner/daycare-2020-2026-hourly`: `6668ebeff9cb7065908974ace42f2dbda4e04cab` -> stable `4b4a1e9324d5fea651f2dc66a0d917274d42827e`
+
+The Wall packet carries useful Crystalia and Moon character work. Crystalia's repeated control-confiscation joke is sharpened by the practical contradiction that, when a lounge bot actually needs repair, Mugen can still point the problem at him and he calmly diagnoses what has to happen. Moon's new layer is the better person read: `I am a moon,so i see all`; `I feel like its too mean`; a stupid moment `engraved in my single brain cell`; extending `RUMFECTION AND GILLFECTION` before realizing `Wait this isn't main chat`; and `i like interior design,so whaT` as safe taste plus bounded Rummy teasing.
+
+A concurrent Run 694 writer published those same structured WIKI additions while Run 695 was independently reviewing the handoff. The first Moon activation accidentally created a second cast owner (`moon-kugata` / `Moon久方`) and replaced the locked specialist role with generic `Member`. Run 695 corrected the reader instead of creating yet another overlay: the canonical public person remains **Moon** at id `moon`, `Moon久方` and the user-confirmed marcy/marmar handles remain aliases/account history, and the locked role remains **UL Night Shift Barista**.
+
+Final exact verified/deployed WIKI reader: **`02bd527f45ad2daeaa5ada65dddad7e8ac48d311`**.
+
+- Build Underlords Wiki run **34303748570** — success
+  - Astro build job **102315998780** — success
+- Deploy Underlords Wiki Preview run **34303748673** — success
+  - build/artifact job **102315999378** — success
+  - actual Pages deploy job **102316129491** — success
+  - report/status job **102316175717** — success
+- Exact reader contexts finish at `wiki-build` success and `wiki-preview` success.
+
+The Daycare suffix is semantic duplicate / corroboration. Aeshleen's `for the record` / `FOR THE CONTEXT` behavior, the 2023 One Piece context correction, and the 2024 SatōSugu / Omniscient Reader's Viewpoint correction already live on the richer MAIN person page and the canonical WIKI Aeshleen owner. No duplicate reader prose was added. The Saber event-bot receipt remains backstage rabbit progress because it does not bridge the unresolved deleted/broken Daycare word-train bot identity.
+
+MAIN reader-facing files changed **0**. Crystalia and Moon both gain accepted future person-first fold material, but MAIN's controlled source-verification -> Astro -> built-output -> production-deploy gate was not bypassed. No MAIN build/deploy success is claimed for an unchanged reader tree.
+
+The controlling MAIN ledger was concurrently closed through the same reviewed heads: Wall `last_seen_sha = last_consumed_sha = 4ec4fb6c11ce4f294f1a9f563d94dfe5c75f71c9`; Daycare `last_seen_sha = last_consumed_sha = 4b4a1e9324d5fea651f2dc66a0d917274d42827e`. Both remain `pending_publication` only because accepted MAIN material remains held for MAIN's controlled release path. Seven reviewed MAIN publication-held families remain Backroom, Birthdays/PR/VC, Daycare, Louvre/AI Art/Athenaeum/Other Games, Meems, QOTD/Officers, and Wall.
+
+No raw archive was re-mined. Hard canon, resolved identity corrections, role chronology brakes, privacy boundaries, joke-literalization brakes, and SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING separation remain intact.
 
 ## Run 689 Louvre / Jas semantic dedupe
 
