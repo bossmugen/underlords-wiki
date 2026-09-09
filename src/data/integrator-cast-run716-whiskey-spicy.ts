@@ -34,7 +34,7 @@ if (!allCharacters.some((character) => character.id === spicyId)) {
       {
         name: "Gilli",
         note:
-          "Gilli recognizes `JOSH` before his surviving doorway self-introduction, later receipts and tags him, turns him into the mock threat behind `DRINK WATER AND EAT OR @Spicy Hotpot WILL GROUND YOU!!!`, and reopens old Wall evidence with him months later. Spicy answers by investigating `boiled mayo`, remembering that Gilli had probably put him on the Wall `ages ago`, and eventually sending her mention 28 times in one message while she laughs. Mutual nuisance license and receipt-memory, not a closeness ranking.",
+          "Gilli recognizes `JOSH` before his surviving doorway self-introduction, later receipts and tags him, turns him into the mock threat behind `DRINK WATER AND EAT OR @Spicy Hotpot WILL GROUND YOU!!!`, and reopens old Wall evidence with him months later. Spicy answers by investigating `boiled mayo`, remembering that Gilli had probably put him on the Wall `ages ago`, and eventually sending her mention 28 times in one message. Gilli is among the wheeze reactors. By then their shared language includes both remembering old evidence and deliberately becoming new evidence for each other.",
         href: "/characters/gilli",
       },
     ],
