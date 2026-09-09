@@ -1,8 +1,34 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-08 — Run 678 Wall / Danny integration_
+_Last updated: 2026-09-08 — Run 689 Louvre / Jas semantic dedupe_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity / role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
+
+## Run 689 Louvre / Jas semantic dedupe
+
+Run 689 completed the required full miner census at **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 unread active tails at close, 0 backlog, and 0 overdue branches**. Both Club-Only recovery lanes remain current / saturated.
+
+The sole active mover was `archive-miner/louvre-ai-art-athenaeum-other-games-hourly`, reviewed checkpoint-first and intake-only from `d43ac12cf5475d3903682f5f5f08589007d23527` through stable `a8ef898028308747d2271e51d4692fb6ba19135a`. The closing head check found no suffix beyond that reviewed SHA.
+
+The handoff packages Jas / `king_jas` around a strong recurring mechanism: when embarrassment points at him, he tries deletion, selective memory, or literal evidentiary technicalities, then stays in the room and lets the failed defense become the next joke. The April Minecraft `Delete that-` collapse, September `254x77px ain't 4K tho 😐` technicality, and May 2022 `I do not recall that` / Wall-remembers / `Damned wall` sequence are all useful character material.
+
+They are also **not genuinely new public material**. MAIN already owns that exact evidence-humor arc in `src/content/people/jas.md`, and WIKI already owns it in Jas's existing narrative dossier, including the failed Minecraft appeal, the 4K technicality, and the Wall outremembering him. A first concurrent Run 689 WIKI overlay (`be919da458c9691ef4098f0d9389fe6b106cd700`, activated by `8b2661693385d93996b0300622f1d07593421ea5`) duplicated and narrowed the already-richer public owner, so it was removed rather than allowed to become another receipt-shaped layer.
+
+Final corrective reader: **`93b0860192ab8a112c6b6f5eee4be6495115dedd`** (`wiki: dedupe Run 689 Jas overlay`).
+
+- Build Underlords Wiki run **34294378466** — success
+  - Astro build job **102287680172** — success
+- Deploy Underlords Wiki Preview run **34294378457** — success
+  - build/artifact job **102287680288** — success
+  - actual Pages deploy job **102287797975** — success
+  - report/status job **102287852415** — success
+- Exact commit contexts finish at `wiki-build` success and `wiki-preview` success.
+
+Net reader result for Run 689: **no new Jas prose is necessary on either public surface**. Existing richer MAIN and WIKI owners remain authoritative. MAIN reader-facing files changed 0; no MAIN source-verification / Astro / built-output / production-deploy success is claimed for an unchanged reader tree.
+
+The controlling MAIN ledger correctly advances Louvre `last_seen_sha = last_consumed_sha = a8ef898028308747d2271e51d4692fb6ba19135a` and returns it to `pending_publication` only because older accepted MAIN Louvre material remains held for MAIN's controlled release path. The earlier ledger note naming `8b266169...` as the final Jas reader is superseded by MAIN's Run 689 integration report and this state section; `93b086019...` is the verified/deployed deduped reader.
+
+Media and inference rails remain unchanged: Ren's old `image0.png` is POSTED BY Ren only in this handoff; maker/capturer/subjects remain unresolved. `I do not recall that` is local, not a global memory trait. `once rich` is joke-level wording, not financial biography. The exact object behind `254x77px` remains unresolved in this handoff. Indexed Jas media-bearing Louvre posts are posting events, not automatically Jas artworks.
 
 ## Run 678 Wall / Danny integration
 
@@ -52,7 +78,7 @@ No identity, role chronology, privacy, joke-literalization, attribution, duplica
 
 Run 675 completed the required full miner census at **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 unread active tails at close, 0 backlog, and 0 overdue branches**. Both Club-Only recovery lanes remain current / saturated.
 
-The sole active mover was `archive-miner-wall-hourly-20260824`, reviewed checkpoint-first and intake-only from `d4b5c9850f9796ffeb4c5dca71c7876fc9c9b632` through stable `4067a5abb394690b115a2f197a3a0b8a71cdd64d`. The closing head check found no late suffix beyond that reviewed SHA.
+The sole active mover was `archive-miner-wall-hourly-20260824`, reviewed checkpoint-first and intake-only from `d4b5c9850f9796ffeb4c5dca71c7876fc9c9b632` through stable `4067a5abb394690b115a2f197a3a0b8a71cdd64d`. The closing branch sweep found no late advancement beyond that reviewed head.
 
 The new public-worthy axis is **Cele's notice-first attentiveness spanning comic fuss and low-drama care**. Her older dossier already owned the expected-judge / red-dot reputation. The new recurrence makes that behavior more human rather than merely louder: Cele sees 906 unread messages and demands the red dot be cleared; Moon's 285 unread count triggers another intervention and Moon answers by volunteering Cele to `go lecture rum,rv and uncle Rice uwu`; Rich's larger unread count gets `CHECK THE REDT DOT`. Then, in a separate March 2023 Gilli pocket, Cele asks `Gilli… is u okay`, sends a bear hug after his joke-heavy `NO AM LOSING MY MIND LMAO`, and true-replies `want mine I’ll share half my braincell`.
 
