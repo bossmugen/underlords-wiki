@@ -1,8 +1,46 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-09 — Run 721 stable census_
+_Last updated: 2026-09-09 — Run 722 reconciled close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` remains the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity / role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
+
+## Run 722 — Hishiro + canonical Zyrcant
+
+The mandatory full census closes at **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 unread active tails, 0 backlog, and 0 overdue branches**. Both Club-Only recovery-priority lanes remain current / saturated.
+
+Three miner tails were reviewed checkpoint-first and intake-only and are now consumed through stable heads: Wall `ca730a094f972ecb3f330b0630be063b3bf7c66c`, Daycare `0b014c88cc9e9ad5e97239688ac9016eff384d7d`, and Whiskey `decee39c37b7c44d73c10875516d79d9f05369fc`. Nine reviewed MAIN families remain publication-held; that is person-first resynthesis debt rather than unread mining.
+
+### Hishiro
+
+Run 722 deepens the existing `hishiro` owner instead of creating a new person. The person read is **summonable competence with nerdy delivery**: Hishiro can publish server-status information, speak from former cellphone-tech experience, switch to text when her mic is bad, and describe choosing teaching media partly because it keeps her students less stressed. With Gilli, practical availability becomes a Fate / Holy Grail bit: `yes? you called my name?`, `Gilli can summon people`, `summon me again if my service are needed again`, and `always at your service`.
+
+The joke language stays joke language. `Servant`, `summon`, and `at your service` do not establish hierarchy, employment, ownership, governance, or appointment chronology. Student-stress wording does not identify an employer, school, course, credential, or formal role.
+
+### Akariel remains Zyrcant
+
+Hard project canon overrides miner-local hesitation: Akariel / Akariel™ / `akariel_star` remain the canonical **Zyrcant** owner. No Akariel II was created. The existing self-enlist → theatrical-escape Wall mechanism was already public, so Run 722 keeps only two additive scraps: Tofu mock-casting Zyrcant as `Satan` and getting the wonderfully unrepentant `naaah`, plus Zyrcant remembering she had **a GIF of the whole Bee Movie saved**. The former is mock-villain shorthand, not religion/occult/morality canon; the latter is Petty Crimes-level digital-hoarding nonsense.
+
+### Daycare / Woosung
+
+The new Daycare WOO packet is semantic corroboration of material already public for canonical **Woosung**: `NOBU` / `TRAITOR`, lowercase `nobu` / `why`, Rich provoking `OMG NO WHY WOULD U`, and Woosung realizing she should talk less because the Wall has too much material on her. No reader copy was added. Hard canon overrides miner pronoun noise: WOO / `_woo_woo` is Woosung, a woman using she/her; no duplicate WOO owner exists.
+
+### Public result
+
+Reader-facing Run-722 module: `src/data/integrator-cast-run722-intake.ts`, activated from `src/data/all-content.ts`.
+
+Exact verified/deployed WIKI reader: **`ba04e3279bd21eb315613b353c98f18f5e2d6fad`**.
+
+- Build Underlords Wiki run **34359083974** — success; build job **102491136200** — success.
+- Deploy Underlords Wiki Preview / Pages run **34359083941** — success.
+  - build/artifact job **102491265891** — success;
+  - deploy job **102491483838** — success;
+  - report/status job **102491561721** — success.
+
+MAIN reader-facing changes this run: **0**. No MAIN source-verification / Astro / built-output / production-deploy success is claimed for an unchanged reader tree. Hishiro remains WIKI-first until there is enough broader person material for a rich MAIN biography; accepted Wall, Daycare, and Whiskey material remains publication-held for natural resynthesis rather than receipt appendices.
+
+Nobu/Xuseio q18 remains backstage positive-only topology with negatives retrieval-blocked; it does not become personality, popularity, intimacy, or relationship ranking. Uninspected media remains POSTED BY unless MADE BY / CAPTURED BY / FEATURING is independently established.
+
+---
 
 ## Run 721 — Stable census
 
