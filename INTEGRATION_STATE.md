@@ -1,8 +1,50 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-09 — Run 722 reconciled close_
+_Last updated: 2026-09-09 — Run 728 Wall close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` remains the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity / role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
+
+## Run 728 — Dainyamite + Athena
+
+The mandatory full census closes at **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 unread active tails, 0 backlog, and 0 overdue branches**. Both Club-Only recovery-priority lanes remain current / saturated.
+
+Wall was the sole opening unread branch. The substantive packet was reviewed checkpoint-first and intake-only from `7d8e72f3fe7f0520815d22044202ec4d28d6a0f7` through `70cd63ef00c337c4e21ffc55fe74eee35bbbd4b6`. During close, Wall advanced once more to `4311b570cafd6387913c5914c68c8272d9b61a82`; that one-commit suffix only compacts/reroutes the root checkpoint around the same reviewed rails and adds no new finding, receipt, candidate, rabbit result, or public claim. MAIN's controlling ledger therefore consumes Wall through `4311b570cafd6387913c5914c68c8272d9b61a82`. Nine reviewed MAIN families remain publication-held; that is person-first resynthesis debt rather than unread mining.
+
+### Dainyamite
+
+Run 728 adds a compact `dainyamite` owner rather than leaving a seven-message person trapped in intake notes. The useful contradiction is **strong taste / cautious social reading / immediate exuberance once sincerity is clear**. Dainyamite states `mint choco is good 😮`; RV answers `ThANKSSSSS`; Dainyamite pauses with `uhhh i can't tell if this is sarcasm or not 😅`. Once RV explicitly confirms the shared preference, the caution switches off: mint-choco socks get `oooooooooooooooooo :Cat_Sporkle:`. Gilli later says she hates mint and chocolate together; Dainyamite answers with a themed Tenor link and complains that mint-choco GIF search is apparently all Cookie Run.
+
+The relationship lanes stay proportionate. RV is shared-taste solidarity plus an explicit sincerity check. Gilli is easy taste-opposition banter, not conflict. `Dainyamite (Retired)` remains rendered nickname state rather than retirement chronology, and the Tenor pixels remain uninspected.
+
+### Athena
+
+Run 728 also adds a compact `athena` owner for a deliberately bounded one-morning person scene. Athena says she `lost my beauty sleep` to a hyped manhwa, declares it `soooo baaaad`, posts two PNGs, and less than three minutes later wants `a good manhwa to wash my brain now`. The person-shaped read is **high-investment media enthusiasm → ruthless disappointment → immediate palate-cleanser instinct**, with the small contradiction **dramatic about media / low-friction with people**.
+
+Mugen TRUE-replies `XD rip`, then redirects discussion to Simp Here or Whiskey Room. Athena later TRUE-replies to the redirect with a pat emote instead of turning the channel nudge into another crisis. The two PNGs remain POSTED BY Athena only; CAPTURED BY / MADE BY / FEATURING / subjects are unresolved because the pixels were not inspected.
+
+### Provenance / no-promotion controls
+
+The exact guild icon key `a_68c57a53499595f0a13c8a5173c238b1-1f332b350f429550.gif` is now surfaced in Lobby guild metadata exported **2026-08-03 22:51:55.5737889 PDT**, moving the earliest surfaced exact-key snapshot from Aug. 5 to Aug. 3. This remains backstage provenance: it does not establish install chronology, originality, continuous use, or pixel content. Mugen creator credit remains user-confirmed.
+
+`Mr. Streamer (Gabu's Chair)` / `ulstreamer` remains NO PROMOTION / ROTATE. Two attachment-only posts plus `Via @DiStratus(Torr)` with uninspected pixels are not enough for a differentiated person dossier, and the rendered nickname is not literal ownership/family/role canon.
+
+### Public result
+
+Reader-facing Run-728 module: `src/data/integrator-cast-run728-wall.ts`, activated from `src/data/all-content.ts`.
+
+Exact verified/deployed WIKI reader: **`56107f00316ef86618a6884c8b962125b99090dd`**.
+
+- Build Underlords Wiki run **34369624566** — success; build job **102527183003** — success.
+- Deploy Underlords Wiki Preview / Pages run **34369624822** — success.
+  - build/artifact job **102527272069** — success;
+  - deploy job **102527489793** — success;
+  - report/status job **102527663073** — success.
+
+MAIN reader-facing changes this run: **0**. No MAIN source-verification / Astro / built-output / production-deploy success is claimed for an unchanged reader tree. Dainyamite and Athena remain intentionally WIKI-first at current depth; prior accepted MAIN Wall material remains publication-held for natural resynthesis rather than receipt appendices.
+
+No WIKI Episode was created. Nobu/Xuseio q18 and the other inverse-Reply branches remain backstage topology rather than personality, popularity, intimacy, or relationship ranking.
+
+---
 
 ## Run 722 — Hishiro + canonical Zyrcant
 
