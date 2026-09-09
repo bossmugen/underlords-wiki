@@ -100,7 +100,7 @@ if (!allCharacters.some((character) => character.id === casId)) {
       {
         name: "Mugen",
         note:
-          "Cas brings in the planter-box glitch; Mugen gives the boring useful answer first — restart — then later normalizes the absurdity with his own screen-glitch memory and the fact that other people had seen the planter problem. Fix first, laugh about the machinery second.",
+          "Cas brings in the planter-box glitch; Mugen gives the boring useful answer first — restart — then later normalizes the absurdity with her own screen-glitch memory and the fact that other people had seen the planter problem. Fix first, laugh about the machinery second.",
         href: "/characters/mugen",
       },
     ],
