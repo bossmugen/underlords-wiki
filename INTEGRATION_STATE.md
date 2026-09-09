@@ -1,89 +1,52 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-09 — Run 707 stable census_
+_Last updated: 2026-09-09 — Run 708 reconciled close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity / role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
 
 This file is a **current integration snapshot**. Earlier run-by-run prose remains in Git history and durable integration reports; this snapshot supersedes stale reader SHAs, queue counts, or identity interpretations from older state text.
 
-## Run 707 — Stable census
+## Run 708 — Reconciled close
 
-The mandatory full miner census is **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 advanced/unconsumed active tails, 0 backlog, and 0 overdue branches**. Both Club-Only recovery-priority lanes remain current / saturated.
+The mandatory full miner census is **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 unread active tails after review, 0 backlog, and 0 overdue branches**. Both Club-Only recovery-priority lanes remain current / saturated.
 
-All 30 active remote miner heads exactly matched their controlling `last_consumed_sha` frontiers at the opening census, and the closing matching-ref sweep found no new miner movement. Therefore Run 707 had no legitimate checkpoint-first intake delta to review, no consumed SHA advanced, and no reader-facing WIKI or MAIN lore change was warranted.
+Run 708 reviewed three miner deltas checkpoint-first and intake-only:
 
-Eight MAIN families remain reviewed `pending_publication` debt: Backroom; Birthdays / PR / VC; Core Rooms / Events; Daycare; Louvre / AI Art / Athenaeum / Other Games; Meems; QOTD / Officers; Wall. They are publication debt, not unread mining, and were not reopened merely to manufacture activity.
+- Daycare: `b3235b1fff1cbd2ebd784fc71faf570c2bbef249` → `6c5f3dffd616a66d86c5c290dbb9a74a7faf02fe`
+- Louvre / AI Art / Athenaeum / Other Games: `e2b9fbd12f39efcf3f79fda961b0f32aa23dbae9` → `6853bacd6e0d0eacc1a106a86e8d4555c623516d`
+- Wall: `a34aa0d4048ab88f33a9942f3cfd27237bd3d286` → `a8f619040fc6c64072011d637dfc57317d90772c`
 
-Reader-facing changes this run: **0 MAIN, 0 WIKI**. No MAIN source-verification / Astro / built-output / production deployment and no WIKI Astro / Pages deployment are claimed for an unchanged reader tree. The latest exact verified/deployed WIKI reader remains Run 706 SHA **`39a1bb1c431dd81b743eacae9829b40c96629487`**.
+The final full active-ref sweep found all three heads stable at those SHAs.
 
-## Run 706 — Reconciled close
+## Public WIKI integration
 
-The mandatory full miner census is **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 advanced/unconsumed active tails at close, 0 backlog, and 0 overdue branches**. Both Club-Only recovery-priority lanes remain current / saturated.
+**Eos:** canonical Eos now carries the recurring guilty-accomplice / apologetic-snitch mechanism. Across multiple Wall scenes Eos can dislike being exposed, participate in exposure anyway, and ship the conscience with the crime: `i had to, im sorry` / `sorry rums i had to`. The apology is social cushioning inside the joke, not a claim of innocence. Rummy's direct response remains one bounded teasing pocket; uninspected images remain POSTED BY only.
 
-Run 706 reviewed three advanced handoff families checkpoint-first and intake-only:
+**Pride:** canonical Pride now carries an explicit change-over-time mechanism rather than a frozen `antisocial` label. Pride says `Im doing better tho`, rejects `antisocial pride uwu` with `I am not antisocial`, then two seconds later adds `anymore`. Low historical visibility coexists with quick activation once addressed: Snow's first-meeting line gets `Yo whats up`; Sou only needs `Pride` to get `wot`. `BYE` / `-dips-` stays performed escape inside ongoing play, not literal disappearance. The unresolved `council` reference is not turned into governance chronology.
 
-- `archive-miner/core-rooms-events-a91f-20260824`: `3d9145a62b95ae70c9e83badec101ddff4cc8651` → `72e234af5895d166d2654ea1a81a55d95509a949`
-- `archive-miner/daycare-2020-2026-hourly`: `6b3820b79bb3fe84f4826ff9513dc4c56e8219f3` → `b3235b1fff1cbd2ebd784fc71faf570c2bbef249`
-- `archive-miner-wall-hourly-20260824`: `77cdb0854f5b28324416fe82f626752434ef85a0` → `a34aa0d4048ab88f33a9942f3cfd27237bd3d286`
+**Zhēnxī:** the Wall delta was meaning-level duplicate/corroboration against a concurrent canonical WIKI owner. No second Zhēnxī card was created. The existing owner keeps the useful defendant→prosecutor arc, bounded Ren evidence-room teasing, and bounded Rummy affection.
 
-A closing full branch sweep found those heads stable. MAIN's controlling ledger has `last_seen_sha == last_consumed_sha` at all three reviewed frontiers. Eight MAIN families remain reviewed publication debt; none is unread mining.
+## Verification / concurrency repair
 
-## Run 706 WIKI publication
+Exact verified/deployed Run-708 WIKI reader: **`b33e47b93cef25747a0fda2055d32fbe457a052b`**.
 
-Run 706 preserves a concurrent Keon dossier and layers `src/data/integrator-cast-run706-intake.ts` after it through `src/data/all-content.ts`, so overlapping character work becomes one canonical owner rather than dueling cards.
+- Build Underlords Wiki run **34330728214** — success; Astro build job **102398437356** — success.
+- Deploy Underlords Wiki Preview / Pages run **34330728300** — success; build/artifact **102398505414**, deploy **102398701789**, and report/status **102398764862** — all success.
 
-### Zoshaa
+A concurrent `integrator-cast-run708-daycare-boundaries.ts` overlay was activated after the first verified Eos reader and caused both WIKI build and Pages workflows to fail. Run 708 removed only that overlay's import, leaving its source module available for later repair/reconciliation. The final good reader preserves verified Eos, Pride, and Zhēnxī publication while refusing to treat a broken tree as deployed canon.
 
-The structured dossier now has a bounded authority/delegation mechanism from the 2020 LGS tournament room. Zoshaa asks for control back because she has agreed on more rules, threatens to `yeet everyone`, then hands hosting to Booba and immediately celebrates being `free of responsibility`. The useful contradiction is practical control plus comic relief at giving control away: she will take the wheel when the room needs it, then happily stop holding the wheel once the job can move sideways.
-
-`boob you host now` remains one event-room handoff, not a Discord-wide appointment, succession, or leadership claim. Uninspected nearby screenshots remain poster-attributed only.
-
-### Ansun / Sou
-
-Sou is folded into canonical **Ansun**; no second Sou character exists. The Wall material deepens Ansun as a standards critic whose categorical language still has a soft lane. `I just HATE Tifa trash. But yes Tifa is very good` is the cleanest little self-correction: the offending category can be trash while the broader thing remains good. `But also as the left hand chef I’m all about the attention to detail` gives the same standards-heavy voice an ordinary-life self-description instead of leaving him as pure roast machinery.
-
-The recurring Zoshaa / `scrambled egg bunny fursona` callback is treated as familiar teasing grammar, not nickname-origin proof. `siblings are worst` has an unresolved screenshot referent and does not establish literal family. `left hand chef` is self-description / joke language, not formal governance.
-
-Daycare adds Petty Crimes texture—absurdly polite grape-juice wording, `Almost spat my coca cola`, `Bring the rabbit everywhere`, and blunt body-failure observations—without creating a separate Ansun report-persona.
-
-### Keon
-
-The existing low-word / sharp-roast Keon dossier was preserved and extended rather than replaced. The new 2021 Daycare axis is playful person-reading through animals: bonggo cat is `so cute`; Mugen becomes a Golden Retriever, Cele a Bulldog, Gilli and Ace Pugs, and Zer0 a Labrador Retriever. The repetition makes it a tiny social mechanism instead of one random animal joke. The ice-cream pocket (`ice cream ice cream ice cream .. where ??` → `i cant taste it ...`) keeps the same fast, conversational timing.
-
-The dated phrase `spirit animal` is not used to infer religion, ethnicity, spirituality, or cultural identity. Breed labels are playful metaphors, not literal identity, diagnosis, appearance, or hierarchy.
-
-## Current verified WIKI reader
-
-Exact reader SHA: **`39a1bb1c431dd81b743eacae9829b40c96629487`**.
-
-Verification on that exact reader:
-
-- Build Underlords Wiki run **34325471670** — success
-  - Astro build job **102381602274** — success
-- Deploy Underlords Wiki Preview / Pages run **34325471657** — success
-  - Pages build/artifact job **102381605714** — success
-  - deploy job **102381819735** — success
-  - report/status job **102381888005** — success
-
-Later Run 706/707 report/state commits are reader-neutral and do not replace `39a1bb1c…` as the exact verified/deployed reader receipt.
+Later report/state commits are reader-neutral and do not replace `b33e47b9…` as the exact verified/deployed reader receipt.
 
 ## MAIN routing / publication debt
 
-MAIN currently has eight reviewed publication-held families:
+MAIN changed **0 reader-facing files** this run. Eos's current biography already owns the broader restraint/complicity contradiction; Pride's current biography already has a richer person-first spine. Their new mechanisms are banked for later natural biography / `Petty Crimes` resynthesis rather than appended as receipt reports. Zhēnxī remains appropriately WIKI-first at current depth.
 
-1. Backroom
-2. Birthdays / PR / VC
-3. Core Rooms / Events
-4. Daycare
-5. Louvre / AI Art / Athenaeum / Other Games
-6. Meems
-7. QOTD / Officers
-8. Wall
+The eight reviewed MAIN publication-held families are: Backroom; Birthdays / PR / VC; Core Rooms / Events; Daycare; Louvre / AI Art / Athenaeum / Other Games; Meems; QOTD / Officers; Wall. They are publication debt, not unread mining.
 
-These are publication debt, not unread miner work. Run 707 made **0 MAIN reader-facing changes**. No MAIN source-verification / Astro / built-output / production-deployment success is claimed for an unchanged reader tree.
+No MAIN source-verification / Astro / built-output / production-deployment success is claimed for an unchanged MAIN reader tree.
 
 ## Current identity / safety rails
 
 Hard canon and resolved identity corrections override contextual inference. Export-time role arrays do not date appointments. Joke roles do not become governance. Joke family language does not become biological family. Joke romance/flirting does not become literal romance or sex. Earliest surviving is not automatically origin. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct. Uninspected media does not receive invented pixels.
 
-Existing holds remain unchanged: Erys q18 remains at its existing partial-audit boundary and is not a popularity measure; Ritha's lived Battle Leader rabbit remains open; Hash31 exact-account identity remains unresolved; Ansun's second-ant-story rabbit remains unresolved; Ren's `siblings are worst` screenshot referent remains unresolved; Zoshaa/Booba hosting remains bounded to the event-room scene.
+Current holds remain bounded: Snow's furry-antecedent route is OPEN with the broad semantic route spent; Pride's `council` referent is unresolved; Zhēnxī's surviving MEE6→Wall interval is 6m53.343s and does not beat Aesh's surviving benchmark; Kiro's Daycare support was duplicate/corroboration only; Daycare's generic collapse/migration lexical route is spent.
