@@ -28,20 +28,20 @@ const relationships = [...(alkey.relationships ?? [])];
 upsertRelationship(relationships, {
   name: "Ambi",
   note:
-    "When Alkey realizes she has caused an inconvenience, the repair is almost aggressively uncomplicated: she apologizes plainly, Ambi answers `Nooo it’s really fine`, and the scene does not need a guilt opera afterward. Alkey can care about getting things right without making a mistake everybody else’s emotional homework.",
+    "When Alkey realizes he has caused an inconvenience, the repair is almost aggressively uncomplicated: he apologizes plainly, Ambi answers `Nooo it’s really fine`, and the scene does not need a guilt opera afterward. Alkey can care about getting things right without making a mistake everybody else’s emotional homework.",
 });
 
 upsertRelationship(relationships, {
   name: "Eos",
   note:
-    "A height thread turns into easy relative-scale comedy. Alkey can call herself tall in one comparison, short beside Pride in the next, then land on `Smol eos` once Eos joins in. The useful thing is the ease of the pivot: nobody needs a serious self-image conversation for the comparison to become a bit.",
+    "A height thread turns into easy relative-scale comedy. Alkey can call himself tall in one comparison, short beside Pride in the next, then land on `Smol eos` once Eos joins in. The useful thing is the ease of the pivot: nobody needs a serious self-image conversation for the comparison to become a bit.",
   href: "/characters/eos",
 });
 
 allCharacters[alkeyIndex] = {
   ...alkey,
   logline:
-    "Staff and hockey devotee with a verification-first reflex: Alkey will slow down a rule claim with `I dunno if it is limited to two though owo`, help once the route is clear, apologize cleanly when she gets something wrong, and still find time to become tall, short and the person calling Eos `Smol eos` in the same conversation.",
+    "Staff and hockey devotee with a verification-first reflex: Alkey will slow down a rule claim with `I dunno if it is limited to two though owo`, help once the route is clear, apologize cleanly when he gets something wrong, and still find time to become tall, short and the person calling Eos `Smol eos` in the same conversation.",
   tags: unique([
     ...(alkey.tags ?? []),
     "Wall",
@@ -62,7 +62,7 @@ allCharacters[alkeyIndex] = {
     "In a Wall rules pocket, Alkey resists treating an uncertain participation limit as settled fact, writing `I dunno if it is limited to two though owo`; the correction is cautious without becoming confrontational.",
     "In a separate event-coordination pocket, Alkey helps with timing/location and reads the event deck closely enough to support execution rather than merely comment from the side.",
     "When an Alkey mistake causes inconvenience, Alkey apologizes directly and Ambi answers with immediate reassurance; the exchange resolves without prolonged face-saving theater.",
-    "In an April 2022 height thread, Alkey frames her own height as relative — tall where she is, short beside Pride — before turning the same comparison into `Smol eos` banter with Eos.",
+    "In an April 2022 height thread, Alkey frames his own height as relative — tall where he is, short beside Pride — before turning the same comparison into `Smol eos` banter with Eos.",
   ]),
   antiFanon: unique([
     ...(alkey.antiFanon ?? []),
