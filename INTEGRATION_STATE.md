@@ -1,10 +1,38 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-09 — Run 708 reconciled close_
+_Last updated: 2026-09-09 — Run 709 reconciliation close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity / role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
 
 This file is a **current integration snapshot**. Earlier run-by-run prose remains in Git history and durable integration reports; this snapshot supersedes stale reader SHAs, queue counts, or identity interpretations from older state text.
+
+## Run 709 — Reconciliation close
+
+Mandatory full census: **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 unread active tails at close, 0 backlog, and 0 overdue branches**. Both Club-Only recovery-priority lanes remain current / saturated.
+
+Run 709 independently reviewed the two opening unread frontiers checkpoint-first and intake-only:
+
+- Louvre / AI Art / Athenaeum / Other Games: `e2b9fbd12f39efcf3f79fda961b0f32aa23dbae9` → `6853bacd6e0d0eacc1a106a86e8d4555c623516d`
+- Wall: `a34aa0d4048ab88f33a9942f3cfd27237bd3d286` → `a8f619040fc6c64072011d637dfc57317d90772c`
+
+Both heads remained stable on the closing recheck. A concurrent Run 708 reached the same frontiers first and had already published the accepted structured character material into canonical WIKI owners. Run 709 therefore performed semantic reconciliation and **did not create Pride II, Zhēnxī II, or another receipt-shaped overlay**.
+
+**Pride:** the accepted layer is self-authored change over time, not a frozen `antisocial` label: `I am not antisocial` → two seconds later `anymore`; lower historical visibility coexists with quick response when addressed; `BYE` / `-dips-` remains performed escape inside play. `council` remains unresolved and does not become governance chronology.
+
+**Zhēnxī:** the accepted layer is theatrical defendant → willing filer/prosecutor without losing the same dramatic voice. Ren's evidence-room teasing stays bounded; Rummy's `I love YoU...` / `I love you too` remains friendly Wall affection, not romance canon. The surviving welcome→Wall interval does not beat Aesh's surviving benchmark. Uninspected screenshots remain POSTED BY only.
+
+Exact verified/deployed WIKI reader remains **`b33e47b93cef25747a0fda2055d32fbe457a052b`**:
+
+- Build Underlords Wiki run **34330728214** — success; Astro build job **102398437356** — success.
+- Deploy Underlords Wiki Preview / Pages run **34330728300** — success; build/artifact **102398505414**, deploy **102398701789**, report/status **102398764862** — all success.
+
+Run 709 changed **0 reader-facing WIKI files**. This state update is reader-neutral and does not replace the exact verified reader receipt above.
+
+MAIN changed **0 reader-facing files** in this reconciliation. Pride's richer MAIN biography already owns the person spine, so the new `anymore` / performed-exit material is banked for natural future resynthesis / `Petty Crimes`; Zhēnxī remains WIKI-first at current depth. No MAIN reader build/deploy is claimed for an unchanged tree.
+
+The controlling MAIN ledger has Louvre consumed through `6853bacd6e0d0eacc1a106a86e8d4555c623516d` and Wall through `a8f619040fc6c64072011d637dfc57317d90772c`. Eight reviewed MAIN publication-held families remain: Backroom; Birthdays / PR / VC; Core Rooms / Events; Daycare; Louvre / AI Art / Athenaeum / Other Games; Meems; QOTD / Officers; Wall. These are publication debt, not unread mining.
+
+Snow's furry-antecedent q12 rabbit remains OPEN with the broad semantic route spent. Attribution, identity, governance, romance, family-language, and earliest-surviving/origin rails remain unchanged.
 
 ## Run 708 — Reconciled close
 
