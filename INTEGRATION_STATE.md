@@ -1,46 +1,44 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-08 — Run 704 close_
+_Last updated: 2026-09-09 — Run 705 close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity / role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
 
 This file is a **current integration snapshot**. Earlier run-by-run prose remains in Git history and durable integration reports; this snapshot supersedes stale reader SHAs, queue counts, or identity interpretations from older state text.
 
-## Run 704 — Reconciled close
+## Run 705 — Reconciled close
 
 The mandatory full miner census is **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 advanced/unconsumed active tails at close, 0 backlog, and 0 overdue branches**. Both Club-Only recovery-priority lanes remain current / saturated.
 
-Run 704 reviewed two advanced handoff families checkpoint-first and intake-only:
+Run 705 reviewed one advanced handoff family checkpoint-first and intake-only:
 
-- `archive-miner/core-rooms-events-a91f-20260824`: consumed `cc5fcce6bf4d988c4096df0c6e7b1fd3f489d1cd` → stable head `3d9145a62b95ae70c9e83badec101ddff4cc8651`.
-- `archive-miner/louvre-ai-art-athenaeum-other-games-hourly`: consumed `a8ef898028308747d2271e51d4692fb6ba19135a` → stable head `e2b9fbd12f39efcf3f79fda961b0f32aa23dbae9`.
+- `archive-miner-wall-hourly-20260824`: consumed `80e71fbadd175fb8b8caf8b670fd0e3a613edf93` → stable head `77cdb0854f5b28324416fe82f626752434ef85a0`.
 
-MAIN's controlling ledger now has `last_seen_sha == last_consumed_sha` at both reviewed heads. Both remain `pending_publication` only because accepted MAIN material in those families is still publication-held; there is no unread Core or Louvre tail at this close.
+MAIN's controlling ledger now has `last_seen_sha == last_consumed_sha` at the reviewed Wall head. Wall remains `pending_publication` only because accepted MAIN person-first resynthesis debt remains; there is no unread Wall tail at this close. Eight MAIN families are reviewed publication debt overall.
 
-## Run 704 WIKI publication
+## Run 705 WIKI publication
 
-Run 704 activates `src/data/integrator-cast-run704-intake.ts` through `src/data/all-content.ts` and deepens three canonical people without creating duplicate identities:
+Run 705 activates `src/data/integrator-cast-run705-wall-snow.ts` through `src/data/all-content.ts` and deepens canonical **Snow** without creating a duplicate identity.
 
-- **Mugen** — the existing Decora fact gains the actual contradiction inside it: selected high-school Decora days, stuffed frogs and bears tacked to a tulle skirt, and Mugen's own immediate `straight A 4.0 perfect student` counter-image. Keep the academic statement as self-report; do not infer school/location/chronology.
-- **Lilly** — direct correction and overt warmth sit in one social register, while visual posts repeatedly become targeted summons. Woohyuk gets the repeated summon lane; Anayss gets a smaller receipt-play lane. Uninspected images remain POSTED BY Lilly only.
-- **Chubi** — `Nitro Sniper` / `fast fingers` is retained as bounded 2023 anniversary/event reputation and not backported into historical Sniperr / Officer governance or appointment chronology.
+The structured dossier now owns Snow's recurring label-defense mechanism: an unwanted label lands, Snow supplies a conspicuously exact correction or etymology, and the correction itself becomes the next joke. The old-person lane includes `Whipper snapper origin  1700  =_= not that old lol`; the later furry tease gets the rapid `THATS  FURY .. AS IN ANGRY` → `not FURRY` → `like NEMO` correction packet. The useful contradiction is participatory correction: Snow rejects the category while staying inside the bit long enough to improve everybody's material.
 
-Meaning-level dedupe keeps MAIN and WIKI complementary. MAIN already owns Lilly's richer cumulative receipt-hunt / summons mechanism, and Mugen's MAIN biography already owns the `MENACE WITH GLITTER ON IT` Decora/aesthetic spine. The new Mugen specifics are accepted future MAIN resynthesis material rather than another receipt-led appendage. Prince Charm stays a one-line seed; Lilly's 11 unrecovered direct creative-room rows remain a live quarry boundary.
+Relationship texture is kept bounded. Ren is a repeat button-pusher/callback partner in this ecology; Akariel/Zyrcant explicitly describes the Snow-is-old reaction as familiar enough to predict. Neither becomes a closeness ranking. `old`, `furry`, `furry king`, FURY/FURRY, catboy/catgirl and related labels remain joke language only. Ren's `finally` supports prior callback history but does not locate an origin. Uninspected media remains poster-attributed only.
+
+Meaning-level dedupe collapses the overlapping Snow checkpoint/findings/people/profile/receipts/site-candidate handoffs into one evidence family. MAIN already has the richer Snow biography and substantial old-man/Wall material, so the new taxonomy-defense recurrence is banked there for a cleaner future fold rather than copied as another receipt-led paragraph.
 
 ## Current verified WIKI reader
 
-Exact reader SHA: **`671d7c3788bc049ff0297af1d3a27a5e6e186454`**.
+Exact reader SHA: **`c2091e062d3ac4a055960b6fa71a64591a769990`**.
 
 Verification on that exact reader:
 
-- Build Underlords Wiki run **34319912719** — success
-  - Astro build job **102364034245** — success
-- Deploy Underlords Wiki Preview run **34319912728** — success
-  - Pages build/artifact job **102364034610** — success
-  - deploy job **102364156268** — success
-  - report/status job **102364215361** — success
+- Build Underlords Wiki run **34323045663** — success
+- Deploy Underlords Wiki Preview run **34323045601** — success
+  - Pages build/artifact job **102373912548** — success
+  - deploy job **102374050050** — success
+  - report/status job **102374257655** — success
 
-Later Run 704 report/state commits are reader-neutral and do not replace `671d7c378…` as the exact verified/deployed reader receipt.
+Later Run 705 report/state commits are reader-neutral and do not replace `c2091e062d3…` as the exact verified/deployed reader receipt.
 
 ## MAIN routing / publication debt
 
@@ -55,10 +53,10 @@ MAIN currently has eight reviewed publication-held families:
 7. QOTD / Officers
 8. Wall
 
-These are publication debt, not unread miner work. Run 704 made **0 MAIN reader-facing changes**: Lilly's cumulative mechanism is already public there, Mugen's new Decora/tulle-skirt/academic contradiction is banked for a cleaner person-first resynthesis, and Chubi's Nitro-speed label is too bounded to justify another MAIN paragraph. No MAIN source-verification, Astro build, built-output verification, or production deployment is claimed for an unchanged reader tree.
+These are publication debt, not unread miner work. Run 705 made **0 MAIN reader-facing changes**. MAIN already owns Snow's technical competence, access/boundary instinct, Wall self-awareness, old-man ecology, and `Whipper snapper` material; the new FURY/FURRY recurrence is accepted future person-first resynthesis material. MAIN's production workflow is deliberately decoupled from pushes and requires controlled dispatch/schedule gating, so no unsafe reader mutation or fake deploy claim was made.
 
 ## Current identity / safety rails
 
 Hard canon and resolved identity corrections override contextual inference. Export-time role arrays do not date appointments. Joke roles do not become governance. Joke family language does not become biological family. Joke romance/flirting does not become literal romance or sex. Earliest surviving is not automatically origin. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct. Uninspected media does not receive invented pixels.
 
-Run 704-specific holds: Mugen's grades stay self-report only; school/location/academic chronology remain unclaimed; `spirit days` is ordinary school-spirit context, not Dragon Raja Spirit-field evidence; Prince Charm remains a one-line taste seed; Chubi's historical lived-role rabbit remains open; Lilly's 11 direct creative-room rows remain unrecovered; visual-object maker/capture/depiction claims remain blocked without inspection.
+Run 705-specific holds: Snow's old-person language is not a literal age record; furry/cat/FURY labels are not literal identity claims; q12 remains open for the first safe furry/FURY antecedent; Ren's `finally` is callback language but not an origin receipt; relationship teasing does not establish exceptional closeness; Tenor/media assets remain poster-attributed unless maker/capturer/subject is independently established.
