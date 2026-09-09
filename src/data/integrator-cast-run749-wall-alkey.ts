@@ -35,7 +35,7 @@ upsertRelationship(relationships, {
 upsertRelationship(relationships, {
   name: "Baby Lyssa",
   note:
-    "Baby Lyssa says `you saw nothing`; Alkey turns the denial into mock witness testimony by sending `i` / `saw` / `all` as three separate beats. The comedy is timing: he could answer in one line and deliberately makes the reveal take longer.",
+    "Baby Lyssa says `you saw nothing`; Alkey turns the denial into mock witness testimony by sending `i`, then `saw`, then `all` as three separate beats. The comedy is timing: he could answer in one line and deliberately makes the reveal take longer.",
   href: "/characters/baby-lyssa",
 });
 
@@ -70,7 +70,6 @@ allCharacters[alkeyIndex] = {
   quotes: unique([
     ...(alkey.quotes ?? []),
     "I dunno if it is limited to two though owo",
-    "i / saw / all",
     "3 foot lookin",
     "You all suck :myv_Reeeeee:",
     "I’m tall where I am :z_laughter:",
@@ -82,7 +81,7 @@ allCharacters[alkeyIndex] = {
     "In a Wall rules pocket, Alkey resists treating an uncertain participation limit as settled fact, writing `I dunno if it is limited to two though owo`; the correction is cautious without becoming confrontational.",
     "In a separate event-coordination pocket, Alkey helps with timing/location and reads the event deck closely enough to support execution rather than merely comment from the side.",
     "When an Alkey mistake causes inconvenience, Alkey apologizes directly and Ambi answers with immediate reassurance; the exchange resolves without prolonged face-saving theater.",
-    "Across independent 2021 Wall scenes, Alkey turns Baby Lyssa's `you saw nothing` into packetized `i` / `saw` / `all` testimony, roasts Ren with `3 foot lookin`, and later absorbs the room's `alkitty` / paws pile-on with `You all suck`; compact instigation and good-sport target behavior coexist.",
+    "Across independent 2021 Wall scenes, Alkey turns Baby Lyssa's `you saw nothing` into three-message `i` / `saw` / `all` testimony, roasts Ren with `3 foot lookin`, and later absorbs the room's `alkitty` / paws pile-on with `You all suck`; compact instigation and good-sport target behavior coexist.",
     "In a separate height thread, Alkey frames his own height as relative — tall where he is, short beside Pride — before turning the same comparison into `Smol eos` banter with Eos.",
   ]),
   antiFanon: unique([
