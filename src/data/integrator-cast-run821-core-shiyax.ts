@@ -44,7 +44,7 @@ const relationships = [...(shiya.relationships ?? [])];
 upsertRelationship(
   relationships,
   "Han",
-  "The Voice Challenge catches a very Shiya/Han little creative lane: Shiya names Han as the benchmark in `Not as good as @. but heres mine`, comes back with another submission the next day, and when Han narrates it as inspiration she directly replies `I got bored :Cat_Gun:`. Comfortable enough to compare, participate, and puncture the grander explanation of her own motive.",
+  "The Voice Challenge catches a very Shiya/Han little creative lane: Shiya names Han as the benchmark in `Not as good as @. but heres mine`, comes back with another submission the next day, and when Han narrates it as inspiration he directly replies `I got bored :Cat_Gun:`. Comfortable enough to compare, participate, and puncture the grander explanation of his own motive.",
   "I got bored",
   "/characters/han",
 );
@@ -54,7 +54,7 @@ allCharacters[index] = {
   aliases: appendUnique(shiya.aliases, ["Yaya", "shiyaracle"]),
   logline: appendOnce(
     shiya.logline,
-    "Her self-roasts do not remove her from the action: she can lead with `Not as good as... but heres mine`, return with another submission anyway, call herself the `walmart version`, then later offer `Never Say Why Me , Always Say Try Me 😎` as her own advice. Shiya lowers the billing and still walks onstage.",
+    "His self-roasts do not remove him from the action: he can lead with `Not as good as... but heres mine`, return with another submission anyway, call himself the `walmart version`, then later offer `Never Say Why Me , Always Say Try Me 😎` as his own advice. Shiya lowers the billing and still walks onstage.",
     "lowers the billing",
   ),
   tags: appendUnique(shiya.tags, ["Voice Challenge", "QOTD", "Self-roast / follow-through"]),
@@ -69,9 +69,9 @@ allCharacters[index] = {
   ]),
   claims: appendUnique(shiya.claims, [
     "Stable Discord account 341219730025349130 anchors ShiyaX / Yaya / shiyaracle in this intake family.",
-    "On 2021-10-18 Shiya says `Not as good as @. but heres mine` while mechanically mentioning Han, then posts a song-labelled MOV; on 2021-10-19 she returns with another MOV and directly replies `I got bored` when Han says she got inspired.",
+    "On 2021-10-18 Shiya says `Not as good as @. but heres mine` while mechanically mentioning Han, then posts a song-labelled MOV; on 2021-10-19 he returns with another MOV and directly replies `I got bored` when Han says he got inspired.",
     "On 2022-04-29 Shiya posts a Jason Momoa Tenor response to a spirit-celebrity prompt and self-replies `I feel like this me , but the walmart version, agree ?`; the prompt explicitly says the answer need not physically resemble the respondent.",
-    "On 2022-05-15 Shiya gives `Never Say Why Me , Always Say Try Me 😎` as her own advice. Its character value comes from recurrence with earlier try-anyway behavior, not from treating one QOTD answer as a universal life motto.",
+    "On 2022-05-15 Shiya gives `Never Say Why Me , Always Say Try Me 😎` as his own advice. Its character value comes from recurrence with earlier try-anyway behavior, not from treating one QOTD answer as a universal life motto.",
   ]),
   antiFanon: appendUnique(shiya.antiFanon, [
     "Self-deprecating joke language is not a mental-health diagnosis, insecurity diagnosis, or body/appearance canon.",
