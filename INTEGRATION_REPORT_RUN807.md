@@ -16,24 +16,28 @@ Public owner files:
 
 No duplicate Dayadream owner and no standalone Episode were created. Adjacent sensitive restricted-room material stays excluded. Uninspected media stays POSTED BY Daya only. The Ansun bit is teasing, not romance, sex, literal employment, governance, or a closeness ranking.
 
-Exact verified/deployed reader: **`f054fc9e7daec162bf05a5a9af7de750787e03eb`**.
-
-- Build Underlords Wiki run **34516049449** — success; build job **103001610142** success.
-- Deploy Underlords Wiki Preview / Pages run **34516049000** — success.
-  - build/artifact job **103001609484** success;
-  - deploy job **103001777473** success;
-  - report/status job **103001858197** success.
-
 ## Cookie / Kuki
 
-Birthdays/PR/VC resolves stable account `249351359290277890` / `juicy.cookie` / `Cookies and Juicebox` to existing canonical `cookie`. The September 2020 scene makes the nickname dynamic legible: Cookie reacts as somebody being saddled with a ridiculous name; Mugen directly says she named the fuller nickname. The later Richard/VC-title lexical resemblance remains unresolved and is not promoted into callback lineage.
+Birthdays/PR/VC resolves stable account `249351359290277890` / `juicy.cookie` / `Cookies and Juicebox` to existing canonical `cookie`. The September 2020 scene makes the nickname dynamic legible: Cookie reacts as somebody being saddled with a ridiculous name; Mugen directly says she named the fuller `JuicyCoochie` nickname. The later Richard/VC-title lexical resemblance remains unresolved and is not promoted into callback lineage.
 
-A concurrent `src/data/integrator-cast-run807-core-birthdays.ts` handoff was staged after Daya's verified reader and then deliberately reduced to Cookie-only so it would not duplicate the already-live Daya fold. As of this report it is **not imported by `src/data/all-content.ts`**, so it is not claimed as part of the exact reader above. This staging is concurrency housekeeping, not a second Cookie or Daya identity.
+A concurrent `src/data/integrator-cast-run807-core-birthdays.ts` handoff originally duplicated Daya and Cookie. The Daya portion was removed once the already-live `integrator-cast-run807-core-daya.ts` owner was noticed, leaving a Cookie-only patch. That Cookie-only patch was then activated from `src/data/all-content.ts`. Concurrency therefore resolves to one Daya owner and one Cookie owner, not duplicate organisms.
 
-MAIN keeps the richer eventual Cookie resynthesis owner; no duplicate WIKI card should be created. Earliest surviving nickname wording is not guaranteed absolute origin, and the Richard/`cooch` route remains unresolved.
+Earliest surviving nickname wording is not guaranteed absolute origin, and the Richard/`cooch` route remains unresolved. The scene supports familiar teasing and nickname culture, not sexuality, romance, exclusivity, or a relationship rank.
+
+## Verification / deployment
+
+Final exact verified/deployed reader for Run 807: **`cfc4f7025fcd89ba2ad7e66ba860ebf0a5c9283f`**. This reader contains both the Daya fold and the activated Cookie nickname fold.
+
+- Build Underlords Wiki run **34516351467** — success; build job **103002615093** success.
+- Deploy Underlords Wiki Preview / Pages run **34516351484** — success.
+  - build/artifact job **103002615294** success;
+  - deploy job **103002784207** success;
+  - report/status job **103002851561** success.
+
+The earlier Daya-only reader `f054fc9e7daec162bf05a5a9af7de750787e03eb` also built and deployed successfully, but it is superseded for this run by `cfc4f702...` after the Cookie activation passed the same build/Pages path.
 
 ## Surface split / consumption
 
-MAIN reader changes for these two packets: **0**; both are banked for whole-person biography folds rather than receipt appendages. Core advances consumed through `7d244db056bccda21e3dbcaeb8b14df3784352cf` after Daya's verified WIKI publication. Birthdays advances reviewed/consumed through `b46f521edb8f0ba7c43a0a89c5f543dae987dd1b`; its public Cookie staging is explicitly not treated as deployed.
+MAIN reader changes for these two packets: **0**; both are banked for whole-person biography folds rather than receipt appendages. Core advances consumed through `7d244db056bccda21e3dbcaeb8b14df3784352cf`. Birthdays advances consumed through `b46f521edb8f0ba7c43a0a89c5f543dae987dd1b` after the final WIKI reader passed verification and deployment.
 
 Wall and Whiskey remain older publication-held reviewed tails behind their respective MAIN exact-reader gates. Neither is unread evidence.
