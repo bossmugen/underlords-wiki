@@ -1,3 +1,4 @@
+import "./integrator-cast-run814-core-rotini-wall-nelph";
 import { allCharacters, characterById } from "./cast";
 import type { Character } from "./wiki";
 
