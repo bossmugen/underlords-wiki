@@ -5,6 +5,7 @@
 - Full miner census: **51 tracked identities = 30 active refs + 21 historical/missing refs**; no newly discovered refs; no backlog or overdue branch.
 - Both Club-Only recovery lanes remain current/saturated.
 - Opening pending review: Core Rooms / Events and Daycare. Core advanced again during the run; review followed the moving intake frontier through `78bc6296580f58f5c5e3fe76199bf36ed2df7395`.
+- Closing pending review: **0**. Pending-publication families: **8**.
 
 ## Reviewed intake
 ### Core Rooms / Events
@@ -31,7 +32,7 @@ WIKI reader changes are deliberately structured rather than MAIN-style biography
 - new bounded **Mr. Streamer** Cast seed added;
 - no standalone incident was invented for any of these packets.
 
-The exact verified reader SHA is **`8c264aea020be727f0d5f6eff66dddcc1d6edcdf`**. Build workflow **34459681948** completed successfully. Pages workflow **34459681963** completed successfully for the same SHA.
+The exact verified/deployed reader SHA is **`8c264aea020be727f0d5f6eff66dddcc1d6edcdf`**. Build workflow **34459681948** completed successfully. Pages workflow **34459681963** completed successfully for the same SHA.
 
 MAIN reader files were intentionally unchanged in this run. Kuki already has a rich person-first biography and this packet belongs in a future whole-person fold rather than a receipt appendix. Beckiie and Mr. Streamer do not yet have enough breadth for MAIN biographies. MAIN's existing accepted Woosung March 30 counterpart correction (Rich → Ricochet) remains publication-gated pending the controlled MAIN verification/deployment path, so the Wall branch's consumed SHA remains pinned behind that older gate.
 
@@ -44,5 +45,8 @@ MAIN reader files were intentionally unchanged in this run. Kuki already has a r
 - Spirit exact event identity remains open; Saber exact-date route was tried and did not supply a bridge.
 - Daycare bot-break identity remains open/bounded.
 
-## State coordination
-A concurrent integrator opened Run 783 on MAIN while this run was closing, so this run did **not** overwrite Run 783's newer controlling census ledger. Run 782's review frontier and public outcome are durably recorded here; the next controlling ledger update should reconcile Core through `78bc6296580f58f5c5e3fe76199bf36ed2df7395` and Daycare through `8733b342da6e73895b4a6be319a963a9e2cb7424` without rediscovering these packets.
+## Consumption state
+A concurrent Run 783 integrator opened a newer MAIN census while this run was closing. Run 782 safely rebased its completed review frontiers onto that newer controlling ledger rather than overwriting it with stale state:
+- Core Rooms / Events is consumed through `78bc6296580f58f5c5e3fe76199bf36ed2df7395` and remains `pending_publication` only for a future MAIN Kuki whole-person fold.
+- Daycare is consumed through `8733b342da6e73895b4a6be319a963a9e2cb7424`.
+- Wall remains review-known through `4f384b079d6a70d24b16d439c49423933e826a05` but consumption is intentionally pinned at `ce04b5baae00245024d7f24de190630a2d645390` behind the older MAIN Rich→Ricochet publication gate.
