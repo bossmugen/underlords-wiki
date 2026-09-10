@@ -80,7 +80,7 @@ const sara: ExtendedCharacter = {
   ]),
   claims: appendUnique(base.claims, [
     "Stable account 250001036251627520 / `foxcat` is SaraBunny in the reviewed June 2021 support-room material.",
-    "On June 4, 2021 Sara asked the Photoshoot submission limit; Gilli answered `1 :nyaWalk:` and Sara true-replied `Thank you (`.",
+    "On June 4, 2021 Sara asked the Photoshoot submission limit; Gilli answered `1 :nyaWalk:` and Sara true-replied `Thank you (:`, closing the rule-clarification loop.",
     "On June 7, 2021 Sara said she might be less active for `the next couple of days`. RV true-replied `We gotchu!!`, followed with `Real life first!!!`, and Mugen later true-replied `Take care Sara! Dw we'll be here when u come back!`. Sara heart-reacted to both direct reassurances.",
     "The cumulative character read is ask when unclear / tell people when availability changes / acknowledge the answer or care / move on: a quiet footprint paired with conspicuous consideration for the shared room.",
   ]),
