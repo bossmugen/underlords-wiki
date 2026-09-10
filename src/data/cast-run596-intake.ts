@@ -5,14 +5,16 @@ const addIfMissing = (character: Character) => {
   if (!allCharacters.some((candidate) => candidate.id === character.id)) allCharacters.push(character);
 };
 
-// Run 596 — Whiskey. Jade's stable account walks through the UL Discord door while
-// first-party identifying her club as Dragon, then becomes socially legible in
-// Whiskey through low-pressure invitations, casual competition, and extremely
-// unambiguous taste. Keep the doorway distinct from a UL in-game membership claim.
+// Run 596 + Run 754 — Whiskey / Lobby. Jade's stable account walks through the UL Discord
+// door while first-party identifying her club as Dragon, then becomes socially legible in
+// Whiskey through low-pressure invitations, casual competition, and extremely unambiguous
+// taste. The same stable account later renders as Joy. Keep the doorway distinct from a UL
+// in-game membership claim and keep the historical name bridge searchable without inventing
+// a rename reason or transition date.
 addIfMissing({
   id: "jade",
   name: "Jade",
-  aliases: ["jdiana", "蛋挞吃多了"],
+  aliases: ["jdiana", "蛋挞吃多了", "Joy"],
   billing: "guest",
   role: "Dragon visitor · Whiskey cast",
   era: "2021",
@@ -20,6 +22,7 @@ addIfMissing({
     "Makes joining things easy, treats recurring competition like it does not need a press conference, and can go from a soft `if you would like to come watch` to `IDC HES HOT AF` without changing personalities.",
   tags: ["Whiskey", "Dragon", "Invitation bridge", "Casual competition", "Petty Crimes"],
   quotes: [
+    "hellos!:mochi_cute:",
     "dm for link if you would like to come watch",
     "tbh we havent been planning for the past couple weeks",
     "he's forever prince caspian in my heart",
