@@ -18,11 +18,11 @@ const relationships = [...(torr.relationships ?? [])];
 
 const rummyIndex = relationships.findIndex((relationship) => relationship.name === "Rummy");
 const rummyDeepening =
-  "A September 2022 Daycare exchange makes the affection inside Torr's punctuation heckling especially obvious: he starts by saying he was going to defend Rummy, abandons the defense over one semicolon, calls her guilty only of `cri-imes against grammar`, then answers Ren's `There is the shame` with a heart and `Sorry Rummy XD`. The prosecution is reversible social play, not cold correction.";
+  "Torr's punctuation heckling is familiar enough to be answered in kind. In January 2023 he declares `the only thing rummy guilty of is the overuse of the semi colon`, then immediately admits `oh no the eglish has become normalized to me`; Rummy later TRUE-replies to the semicolon jab with `:EmoJi_stupid:`. He notices her habits, she can mock-retaliate directly, and the correction stays inside the joke rather than becoming a lecture.";
 
 if (rummyIndex >= 0) {
   const current = relationships[rummyIndex];
-  if (!current.note.includes("cri-imes against grammar")) {
+  if (!current.note.includes("overuse of the semi colon")) {
     relationships[rummyIndex] = {
       ...current,
       note: `${current.note} ${rummyDeepening}`,
@@ -36,12 +36,12 @@ if (rummyIndex >= 0) {
   });
 }
 
-if (!relationships.some((relationship) => relationship.name === "Ren")) {
+if (!relationships.some((relationship) => relationship.name === "Gilli")) {
   relationships.push({
-    name: "Ren",
+    name: "Gilli",
     note:
-      "Ren can summon Torr directly when the room needs his particular brand of wording trouble: `@Torr you are needed 😂😂`. Minutes later she catches his grammar prosecution of Rummy with `There is the shame`, and Torr answers with a heart before apologizing to Rummy. Ren knows exactly what role he is about to play in the joke; this is social familiarity, not a formal editing assignment.",
-    href: "/characters/ren",
+      "Gilli can summon Torr with nothing but `@DiStratus(Torr)`. Torr arrives with `XD`, then twenty-two seconds later clocks that the unseen wording `can be taken out of context XD`; Gilli answers `:YEETH:`. The bare tag works like shorthand between people who already know what kind of nonsense Torr is useful for: spotting when phrasing itself has become Wall-ready.",
+    href: "/characters/gilli",
   });
 }
 
@@ -49,26 +49,28 @@ allCharacters[torrIndex] = {
   ...torr,
   tags: unique([
     ...(torr.tags ?? []),
-    "Summonable copy-desk heckling",
-    "Defense-to-prosecution pivot",
-    "Warm nitpick",
+    "Context mechanic",
+    "Quote-mining conscience",
+    "Mercy reflex",
   ]),
   relationships,
   quotes: unique([
     ...(torr.quotes ?? []),
-    "I was gonna help defend you... and then you used a semi-colon instead of a comma. For shame 👀",
-    "The only thing Rummy guilty of is cri-imes against grammar.",
-    "Sorry Rummy XD",
+    "that can be taken out of context XD",
+    "the only thing rummy guilty of is the overuse of the semi colon",
+    "oh no the eglish has become normalized to me",
+    "well. we don't have to take a screenshot and post it in wall of shame now",
   ]),
   claims: unique([
     ...(torr.claims ?? []),
-    "On 2022-09-22/23 Torr is explicitly summoned by Ren, says he was going to defend Rummy, then flips into punctuation prosecution over one semicolon. After Ren calls the exchange `the shame`, Torr responds with a heart and `Sorry Rummy XD`. This sharpens the existing language-auditor read into affectionate, reversible heckling: correction is part of the room's play rather than social exile.",
-    "Torr's `Nah, only in the officer chat. XD` is safe as observed room-language in this exchange. It must not be used to infer appointment chronology, formal officer tenure, or a governance title from an exporter-era label or a joke-adjacent remark.",
+    "Across stable-ID Wall support tied to the Daycare miner, Torr repeatedly notices the mechanics of receipt-making itself: Gilli can summon him with a bare tag and he immediately spots phrasing that can be taken out of context; later he prosecutes Rummy's semicolon habit while admitting UL's mangled speed-typing has become normal to him; still later he jokes that a pooled Deleted User's self-own no longer needs a separate Wall screenshot. The useful contradiction is pedant and acclimated local in the same person.",
+    "On 2023-09-01 Torr first `Fat_Wheeze` reacts to a pooled Deleted User's `I MISUNDERSTOOD SORRY`, then replies that there is no need to screenshot it for Wall, and later `Raja_Heart` reacts when the same unresolved account says their brain is not okay. That shift from wheeze to heart supports a small mercy reflex once the target starts clowning themselves.",
   ]),
   antiFanon: unique([
     ...(torr.antiFanon ?? []),
-    "The 2022-09-22 `officer chat` wording does not establish when or whether Torr held any formal appointment. Keep appointment chronology independent from current/exported role arrays and room-language jokes.",
-    "The separate `you definitely need to rephrase that message` line is not assigned to Rummy, Ren, or any other named target here because this reviewed handoff does not bind its referent tightly enough.",
+    "Gilli's 2022-09-28 bare summon does not recover the unseen line Torr says can be taken out of context. Do not reconstruct the missing joke from implication.",
+    "The pooled Deleted User in the 2023-09-01 Wall sequence remains identity-unresolved. Torr's reactions do not identify that account or establish a specific relationship category.",
+    "These stable-ID Wall receipts deepen Torr's Daycare-era person texture, but they do not by themselves establish a formal editor, moderation, or officer appointment.",
   ]),
 } as ExtendedCharacter;
 
