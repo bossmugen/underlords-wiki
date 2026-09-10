@@ -33,7 +33,6 @@ const tonySeed: ExtendedCharacter = {
     {
       name: "Marian",
       note: "Marian files Tony on independent dates and barely needs setup; Tony recognizes the danger immediately and launches into caps-lock anti-publication campaigns. Their lane reads as recurring comfortable filer ↔ theatrical-defendant teasing, not literal wrongdoing or a closeness ranking.",
-      href: "/characters/marian",
     },
   ],
   quotes: [
