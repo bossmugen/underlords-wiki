@@ -97,6 +97,7 @@ import "./integrator-identity-repair-run802";
 import "./integrator-cast-run806-wall-yochan";
 import "./integrator-cast-run807-late-wall-momo-mimi";
 import "./integrator-cast-run807-core-daya";
+import "./integrator-cast-run807-core-birthdays";
 
 type LooseRecord = Record<string, unknown>;
 type Gag = { id: string; name: string; logline: string };
