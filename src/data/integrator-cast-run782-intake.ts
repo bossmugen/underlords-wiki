@@ -110,7 +110,77 @@ if (beckiieIndex >= 0) {
 }
 characterById.set(beckiieId, allCharacters.find((character) => character.id === beckiieId)!);
 
+// Closing Core tail: Mr. Streamer gets a deliberately small WIKI-first seed.
+// The recurring axis is media/tool handling and explicit provenance, not a
+// formal streamer job inferred from a display name.
+const mrStreamerId = "mr-streamer";
+const mrStreamerCharacter: ExtendedCharacter = {
+  id: mrStreamerId,
+  name: "Mr. Streamer",
+  billing: "legacy",
+  role: "Archive-era UL / Wall cast",
+  era: "2021–2022+",
+  logline:
+    "Media tinkerer with a small source-conscious streak: Mr. Streamer can buy the full version of a tool just to play around with it socially, then later relay somebody else's stream-derived Wall material while explicitly saying where it came from.",
+  tags: [
+    "Archive cast",
+    "Wall",
+    "Media tinkering",
+    "Source-conscious sharing",
+    "Stream-to-Wall",
+    "Petty Crimes",
+  ],
+  relationships: [
+    {
+      name: "DiStratus",
+      note:
+        "Mr. Streamer posts Wall screenshots and immediately writes `Via @DiStratus(Torr)`; DiStratus soon jokes that the stream is giving the room a lot of material. That is a probable stream-to-Wall sharing lane with explicit credit, not proof that DiStratus captured or made the screenshots.",
+      href: "/characters/torr",
+    },
+    {
+      name: "Eos",
+      note:
+        "Mr. Streamer tells Eos he bought the full version and was playing around with it; Eos formally replies to that exact message with `ahh ok XD` and says `i like it tho`. Comfortable experiment-sharing, not a closeness rank.",
+      href: "/characters/eos",
+    },
+  ],
+  quotes: [
+    "I bought the full version and I was paying around with it @Eos",
+    "Via @DiStratus(Torr)",
+  ],
+  claims: [
+    "Stable account 615878920583249920 appears as Mr. Streamer in the reviewed Core Rooms / Events packet; this dossier owns that stable account only and does not infer a bridge from the display name.",
+    "On May 18, 2021 Mr. Streamer says he bought the full version of an unnamed tool/effect and was playing around with it; Eos directly replies and says she likes it. The surrounding context is voice/audio effects, but the exact software remains unresolved.",
+    "On October 5, 2022 Mr. Streamer posts two Wall screenshots and explicitly credits the first with `Via @DiStratus(Torr)`; minutes later DiStratus jokes that their stream is producing a lot of material.",
+  ],
+  antiFanon: [
+    "`Mr. Streamer` is display-name texture, not proof of a formal profession, UL role, platform, audience size, or ownership of the stream in every scene.",
+    "The 2022 screenshots are POSTED BY Mr. Streamer. `Via @DiStratus(Torr)` is authored provenance language, not automatic MADE BY, CAPTURED BY, or FEATURING attribution.",
+    "The exact 2021 full-version software/tool is unresolved. Voice/audio-effect context is probable but does not identify a product.",
+    "The Eos and DiStratus scenes support bounded sharing/feedback lanes, not romance, family, exceptional closeness, or relationship ranking.",
+    "Earliest surviving evidence is not treated as origin, join date, role appointment, or governance history.",
+  ],
+};
+
+const mrStreamerIndex = allCharacters.findIndex((character) => character.id === mrStreamerId);
+if (mrStreamerIndex >= 0) {
+  const current = allCharacters[mrStreamerIndex] as ExtendedCharacter;
+  allCharacters[mrStreamerIndex] = {
+    ...current,
+    ...mrStreamerCharacter,
+    tags: appendUnique(current.tags, mrStreamerCharacter.tags ?? []),
+    quotes: appendUnique(current.quotes, mrStreamerCharacter.quotes ?? []),
+    claims: appendUnique(current.claims, mrStreamerCharacter.claims ?? []),
+    antiFanon: appendUnique(current.antiFanon, mrStreamerCharacter.antiFanon ?? []),
+  } as ExtendedCharacter;
+} else {
+  allCharacters.push(mrStreamerCharacter);
+}
+characterById.set(mrStreamerId, allCharacters.find((character) => character.id === mrStreamerId)!);
+
 const archiveCastGroup = castGroups.find((group) => group.id === "archive-cast");
-if (archiveCastGroup && !archiveCastGroup.characterIds.includes(beckiieId)) {
-  archiveCastGroup.characterIds.push(beckiieId);
+for (const id of [beckiieId, mrStreamerId]) {
+  if (archiveCastGroup && !archiveCastGroup.characterIds.includes(id)) {
+    archiveCastGroup.characterIds.push(id);
+  }
 }
