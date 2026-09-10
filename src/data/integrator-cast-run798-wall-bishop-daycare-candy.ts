@@ -198,7 +198,7 @@ allCharacters[tofuIndex] = {
   quotes: appendUnique(tofu.quotes, [
     "Shame. Shaaaaaaaaame",
     "Wall of shame, wall of shame. Post the rebate 😝",
-    "Maybe ^ ^",
+    "Maybe ^^",
     "Bet! I got nothing to hide",
     "I am a shrimp at best. 😘",
     "Quality content we strive for here in UL.",
