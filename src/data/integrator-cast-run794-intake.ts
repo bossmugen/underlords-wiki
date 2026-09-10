@@ -58,16 +58,17 @@ upsertCharacter({
   name: "Mërcy",
   aliases: ["mercuryplanett", ".mercuryplanet"],
   billing: "legacy",
-  role: "Archive-era Daycare cast",
-  era: "2023–",
+  role: "Archive-era cast",
+  era: "2021–2023+",
   logline:
-    "New to the doorway, not new to the people: Mërcy answers a newcomer check with `Yeah, but I’ve worked w/ everyone before`, points at LilSatan as somebody who has known her for a while, and then drops back into the room with the compact confidence of `Valid 👍🏻`.",
+    "Low message count, high room fluency: Mërcy can compress an old social history into two sentences, then surface elsewhere with a cookie pitch, one mirrored 😌, and the confidence to let everybody else catch the joke without an explanatory memo.",
   tags: [
     "Archive cast",
     "Daycare",
+    "Wall",
     "Prior-server familiarity",
     "Compressed self-introduction",
-    "Low-friction continuity",
+    "Low-verbiage bit fluency",
     "Petty Crimes",
   ],
   relationships: [
@@ -76,21 +77,30 @@ upsertCharacter({
       note:
         "Instead of narrating a whole prehistory, Mërcy tags LilSatan with `Known me for awhile. Old server member 🖤`. In that moment LilSatan is the human shorthand for `I may be new here, but I am not a stranger`.",
     },
+    {
+      name: "N E L P H",
+      note:
+        "Mërcy drops a `Get your fresh box of cookies !` pitch at N E L P H, mirrors the answering 😌, and reacts as N E L P H extends the bit into `Support your local business`. The exchange barely needs words because both people already know how to keep the joke moving.",
+    },
   ],
   quotes: [
     "Yeah, but I’ve worked w/ everyone before",
     "Known me for awhile. Old server member 🖤",
     "Valid 👍🏻",
+    "Get your fresh box of cookies !",
+    "😌",
   ],
   claims: [
     "Mërcy is anchored to stable account 906809263995908096; the same account is preserved across `mercuryplanett` and `.mercuryplanet` handle states.",
     "On 2023-01-07, when Shiro asks whether Mërcy is new, Mërcy answers `Yeah, but I’ve worked w/ everyone before`, then tags LilSatan with `Known me for awhile. Old server member 🖤`. The useful person read is compressed continuity: Mërcy can acknowledge being new to the immediate doorway without presenting herself as socially unknown.",
     "Later in the same Daycare sequence Mërcy answers a tagged person with `Valid 👍🏻`; it fits the same terse, socially fluent register without being promoted into a universal judgment about that person.",
+    "The same stable account is active on Wall on 2021-11-19: Mërcy posts `Get your fresh box of cookies !` at N E L P H, mirrors N E L P H's 😌, and reacts after N E L P H continues the premise as `Support your local business`. The useful cumulative read is low-verbiage in-group fluency, not social absence.",
   ],
   antiFanon: [
     "Mërcy's statements about prior work and old-server familiarity are her own contemporaneous self-description. They do not by themselves reconstruct a formal UL role, appointment date, original join date, or complete prior-server chronology.",
     "`Known me for awhile` supports prior familiarity with LilSatan in Mërcy's own words; it does not establish family, romance, exclusivity, or a ranked closeness claim.",
-    "`Valid 👍🏻` is situational slang in this exchange, not a permanent character evaluation of the tagged person.",
+    "The N E L P H cookie exchange supports playful familiarity in that scene, not a literal business, formal partnership, or ranked relationship. Mërcy's reaction is not authorship of N E L P H's line.",
+    "Mërcy's 2021 Wall presence is surviving chronology, not an origin date.",
   ],
 });
 
@@ -102,7 +112,7 @@ upsertCharacter({
   role: "Archive-era Whiskey cast",
   era: "2020–2021+",
   logline:
-    "Sharp eye, soft witness: Lena will correct the room count, catch the care hiding inside a joke with one `awww`, throw sentiment back with `no u`, and make sure the right person notices when Whiskey changes temperature.",
+    "Sharp eye, soft witness: Lena notices the tiny thing everybody else could have ignored — a room count, nail length, brutal Photoshop, a `moss friend`, an animal folding its feet under itself — and then has a habit of making somebody else look too.",
   tags: [
     "Archive cast",
     "Whiskey",
@@ -110,6 +120,8 @@ upsertCharacter({
     "Soft witness",
     "Light correction",
     "Care radar",
+    "Tiny-animal witness",
+    "Nail calibration",
     "Petty Crimes",
   ],
   relationships: [
@@ -125,19 +137,85 @@ upsertCharacter({
         "When Anthos asks whether the room is sparing Hayden from having to watch clips, Lena TRUE-replies `awww`. She catches the care hidden inside the joke and labels it without forcing the scene to become sincere for five straight minutes.",
       href: "/characters/anthos",
     },
+    {
+      name: "Ansun",
+      note:
+        "Lena directly summons 颯太 and Ren for one tiny animal emergency — `HES SITTING ON HIS FEET` — rather than keeping the cute observation to herself. The gesture fits her broader habit of noticing a detail and immediately recruiting witnesses.",
+    },
+    {
+      name: "Ren",
+      note:
+        "Lena tags Ren alongside 颯太 for `HES SITTING ON HIS FEET`; Ren answers the same scene with a cute-cat emote. It is a small shared-witness beat, not a closeness ranking.",
+    },
   ],
-  quotes: ["I see 11", "awww", "no u", "Hayden"],
+  quotes: [
+    "I see 11",
+    "awww",
+    "no u",
+    "Hayden",
+    "they photoshopped this poor cat’s face so bad",
+    "HES SITTING ON HIS FEET",
+    "Maybe a little shorter than these",
+    "My little moss friend",
+  ],
   claims: [
     "Lena is anchored to stable account 442167443272630273 / historical handle `.aelena`; this same account is already active in Whiskey by November 2020, before the later February 2021 Lobby intake scene.",
     "On 2020-11-14 Mugen writes that nine people are viewing Whiskey and Lena answers `I see 11`. The useful character beat is small-scale precision: Lena notices the room itself and corrects the count without making a production out of it.",
     "On 2020-11-24 Anthos asks whether the room is saving Hayden from having to watch clips; Lena TRUE-replies `awww`. The response reads the exchange as care and names the softness in one syllable.",
     "On 2020-12-22 Lena answers Mugen's `whiskey is cool but` with `no u`, keeping affection in the same compact, anti-speech register.",
     "On 2021-01-11, after a Whiskey sequence about bot commands, logs, and Renton's apology, Lena posts `Hayden`. It is retained as a quiet audience cue at a tonal seam, not as authorship, endorsement, or governance.",
+    "March-April 2021 Whiskey deepens the same observational habit: Lena calibrates a preferred nail length against reference images, comments on badly Photoshopped animal media, calls something a `moss friend`, and repeatedly notices tiny living-thing behavior worth showing the room.",
+    "On 2021-04-05 Lena directly tags 颯太 and Ren with `HES SITTING ON HIS FEET`; Ren posts a cute-cat emote in the same scene. Lena's action is the useful relationship beat: she summons specific people to witness the tiny moment instead of merely recording it.",
   ],
   antiFanon: [
     "The November 2020 Whiskey presence means the February 2021 Lobby intake cannot be treated as Lena's first surviving Discord/UL-room appearance. It still does not recover her original UL join date or explain why the later intake occurred.",
     "`awww` is a direct reply to Anthos in a care-shaped local scene; it does not establish exceptional closeness or a formal relationship category.",
     "The January 2021 `Hayden` tag is a local audience cue only. It does not prove endorsement, responsibility for the preceding bot/log sequence, or a governance role.",
+    "The April 2-5 `baby` / `he` sequence is probably one recurring male pet and a cat is plausible from Ren's same-scene emote, but species and same-pet continuity are not hard-confirmed; the page therefore keeps the visible read at tiny-animal witness rather than manufacturing a pet dossier.",
+    "The March `moss friend` referent and April `My new babies` referent remain unresolved. Private housing, dating, and third-party screenshot details stay backstage.",
     "Exact-ID q18 retrieval remains unreliable for negative classification in this source family; no reply rate, popularity score, or closeness metric is inferred from missing exact-ID results.",
+  ],
+});
+
+upsertCharacter({
+  id: "support-tech",
+  name: "Support Tech",
+  aliases: ["supporttech900"],
+  billing: "legacy",
+  role: "Archive-era Wall cast",
+  era: "2021–2023+",
+  logline:
+    "Support Tech learns Screenshot Court from both sides of the bench: first asking whether this is where people get exposed, then protesting when the room exposes them, then quietly learning the machinery well enough to start filing exhibits and summoning Mugen personally.",
+  tags: [
+    "Archive cast",
+    "Wall",
+    "Screenshot Court",
+    "Learned filer",
+    "Mugen summons",
+    "Petty Crimes",
+  ],
+  relationships: [
+    {
+      name: "Mugen",
+      note:
+        "Support Tech's two surviving direct filing pockets both pair the exhibit with Mugen almost immediately: in 2021 the attachment comes first and Mugen is summoned seconds later; in 2023 the order flips. Whatever the local filing ritual is, Support Tech learns that Mugen belongs in the choreography.",
+      href: "/characters/mugen",
+    },
+  ],
+  quotes: [
+    "Is this where you expose Peopl",
+    "Me UH gOt EXpOsE WEE",
+    "WhY U expOse Me",
+  ],
+  claims: [
+    "Support Tech is anchored to stable account 770767336780070913 / username `supporttech900`; exact Wall authorship currently spans 36 messages and two attachments from 2021-03-23 through 2023-03-23.",
+    "In March 2021 Support Tech asks `Is this where you expose Peopl`; by April and June they are joking from the receiving end with `Me UH gOt EXpOsE WEE` and `WhY U expOse Me`.",
+    "By 2021-06-26 Support Tech is the one posting a screenshot and summoning Mugen less than five seconds later. On 2023-03-23 they again pair a Mugen summon with an attachment, this time in the opposite order. The useful change-over-time read is newcomer/defendant becoming a participant who operates the room's filing ritual personally.",
+  ],
+  antiFanon: [
+    "`Support Tech` is the account's displayed/archive name here, not a formal UL appointment inferred from the phrase. No role chronology or governance authority is manufactured from it.",
+    "The two attachments are POSTED BY Support Tech only. Their pixels were not inspected, so MADE BY / CAPTURED BY / FEATURING remain unresolved.",
+    "The 2021-to-2023 Wall authorship gap is surviving source chronology, not proof that Support Tech left and returned to the server.",
+    "The recurring Mugen summon supports filing-ritual familiarity, not hierarchy, family, romance, or a ranked closeness claim.",
   ],
 });
