@@ -163,7 +163,7 @@ upsertCharacter({
     "On 2020-11-14 Mugen writes that nine people are viewing Whiskey and Lena answers `I see 11`. The useful character beat is small-scale precision: Lena notices the room itself and corrects the count without making a production out of it.",
     "On 2020-11-24 Anthos asks whether the room is saving Hayden from having to watch clips; Lena TRUE-replies `awww`. The response reads the exchange as care and names the softness in one syllable.",
     "On 2020-12-22 Lena answers Mugen's `whiskey is cool but` with `no u`, keeping affection in the same compact, anti-speech register.",
-    "On 2020-01-11, after a Whiskey sequence about bot commands, logs, and Renton's apology, Lena posts `Hayden`. It is retained as a quiet audience cue at a tonal seam, not as authorship, endorsement, or governance.",
+    "On 2021-01-11, after a Whiskey sequence about bot commands, logs, and Renton's apology, Lena posts `Hayden`. It is retained as a quiet audience cue at a tonal seam, not as authorship, endorsement, or governance.",
     "March-April 2021 Whiskey deepens the same observational habit: Lena calibrates a preferred nail length against reference images, comments on badly Photoshopped animal media, calls something a `moss friend`, and repeatedly notices tiny living-thing behavior worth showing the room.",
     "On 2021-04-05 Lena directly tags 颯太 and Ren with `HES SITTING ON HIS FEET`; Ren posts a cute-cat emote in the same scene. Lena's action is the useful relationship beat: she summons specific people to witness the tiny moment instead of merely recording it.",
   ],
