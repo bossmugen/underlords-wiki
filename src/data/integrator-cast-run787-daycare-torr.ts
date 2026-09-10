@@ -36,11 +36,22 @@ if (rummyIndex >= 0) {
   });
 }
 
-if (!relationships.some((relationship) => relationship.name === "Gilli")) {
+const gilliIndex = relationships.findIndex((relationship) => relationship.name === "Gilli");
+const gilliDeepening =
+  "Gilli can summon Torr with nothing but `@DiStratus(Torr)`. Torr arrives with `XD`, then twenty-two seconds later clocks that the unseen wording `can be taken out of context XD`; Gilli answers `:YEETH:`. The bare tag works like shorthand between people who already know what kind of nonsense Torr is useful for: spotting when phrasing itself has become Wall-ready.";
+
+if (gilliIndex >= 0) {
+  const current = relationships[gilliIndex];
+  if (!current.note.includes("@DiStratus(Torr)")) {
+    relationships[gilliIndex] = {
+      ...current,
+      note: `${current.note} ${gilliDeepening}`,
+    };
+  }
+} else {
   relationships.push({
     name: "Gilli",
-    note:
-      "Gilli can summon Torr with nothing but `@DiStratus(Torr)`. Torr arrives with `XD`, then twenty-two seconds later clocks that the unseen wording `can be taken out of context XD`; Gilli answers `:YEETH:`. The bare tag works like shorthand between people who already know what kind of nonsense Torr is useful for: spotting when phrasing itself has become Wall-ready.",
+    note: gilliDeepening,
     href: "/characters/gilli",
   });
 }
