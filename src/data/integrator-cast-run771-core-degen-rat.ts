@@ -37,7 +37,6 @@ const degenCharacter: ExtendedCharacter = {
       name: "Alya",
       note:
         "Alya repeatedly answers Degen's setup questions and catches the follow-up while Degen is working through room mechanics. The ease of the back-and-forth reads as ordinary working familiarity: ask, answer, adjust, keep going.",
-      href: "/characters/alya",
     },
     {
       name: "Gabu",
@@ -49,13 +48,11 @@ const degenCharacter: ExtendedCharacter = {
       name: "Ghost",
       note:
         "Ghost sits in the same December lane where Degen is swapping track-buff mechanics and trying person-by-person recruiting approaches; the exchange is practical enough to be useful and loose enough to become reciprocal clap banter.",
-      href: "/characters/ghost",
     },
     {
       name: "Alina",
       note:
         "Degen can yell `ALINA WITH THE SHORTCUTS` at her and then immediately return to reordering tracks. The joke lands inside shared room work rather than replacing it.",
-      href: "/characters/alina",
     },
     {
       name: "Mugen",
