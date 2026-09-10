@@ -1,33 +1,46 @@
 # UL Site + Wiki Integrator — Run 824
 
+> The opening census was stable. A late Daycare miner commit landed during the run; this corrected close supersedes the initial census-only snapshot.
+
 ## Census
 
-MAIN's controlling miner ledger closes at **51 tracked identities = 30 active refs + 21 historical/missing refs**. No new miner ref was discovered, and no active branch advanced beyond its Run 823 reviewed/DNR frontier. The closing state is **0 pending review, 8 pending publication, 0 backlog, 0 overdue**.
+MAIN's controlling ledger closes at **51 tracked miner identities = 30 active refs + 21 historical/missing refs**. No new branch identity appeared. `archive-miner/daycare-2020-2026-hourly` was the sole late mover, advancing `2f3fef6d805bc08fdbcbae4f62919cb656b98c2d → aa4f35f27f5c8a2f6054b34dde27baae87c66181`; that tail was reviewed and consumed in this run. Final state is **0 pending review, 8 pending publication, 0 backlog, 0 overdue**.
 
-Both recovery-priority Club-Only lanes remain current/saturated. No raw archive was re-mined.
+Both recovery-priority Club-Only lanes remain current/saturated.
 
 ## Intake / reconciliation
 
-No new `archive-intake/*` delta existed this run, so no branch needed checkpoint-first review and no consumed SHA advanced. No genuinely new character finding, relationship read, role behavior, callback, quote family, location, episode, running gag, or media note crossed the publication line.
+The Daycare delta was one commit and touched only six allowed handoff files under its assigned intake folder. It was read checkpoint-first, then findings, people, rabbit holes, receipts and site candidates. No raw archive was re-mined and no miner branch was merged/cherry-picked.
 
-No duplicate family was newly combined and no unresolved conflict/rabbit changed state. Existing hard identity rails, joke-family/romance rails, q18 false-zero/denominator limits, role-chronology limits, and media attribution boundaries remain unchanged.
+The genuinely new character gain is SaraBunny / `foxcat` / stable account `250001036251627520`: a quiet archive footprint paired with visible social accountability. She asks the exact Photoshoot rule, true-replies `Thank you (:` after Gilli gives the one-number answer, then three days later warns that she may be less active for only `the next couple of days`. RV answers `We gotchu!!` / `Real life first!!!`; Mugen later says `Take care Sara! Dw we'll be here when u come back!`; Sara heart-reacts to both direct reassurances.
 
-Wall remains reviewed/DNR through `afe6d766749bf9a046d3b67e8b4e902bbbf9c088`, with formal consumed pinned at `ce04b5baae00245024d7f24de190630a2d645390` behind the older accepted MAIN Woosung-scene **Rich → Ricochet** publication gate.
+The cumulative read is **ask when unclear / tell people when availability changes / acknowledge the answer or care / move on**. Low output does not behave like detachment here; the room removes guilt and treats her return as expected.
 
-Whiskey remains reviewed/DNR through `eaf7f79a0d3e0a43e16d5cb0777d71e0f13647d3`, with formal consumed pinned at `05486cc56fab449551399f08f64a342f0bbf41c8` behind the older accepted MAIN Lena chronology publication gate.
+Nori remained a source-specific no-promote. A candidate September 2024 Wall quiet interval was rejected because the retrieval route was semantic/ranked rather than contiguous. Rabbit 16 remains open: a fresh Wall same-date semantic route did not produce a bot/channel naming bridge, and a non-exhaustive miss was not promoted into a hard negative.
 
-## Public result
+Wall and Whiskey remain reviewed/DNR at their already-recorded frontiers, with formal consumed pointers still pinned behind their older MAIN exact-reader publication gates.
 
-### WIKI
+## WIKI
 
-Reader-facing changes: **0**. No new Cast dossier, Relationship, Episode, Running Gag, Quote, Location, or Gallery/media entry was warranted. No fresh Astro/Pages build or deployment is claimed for an unchanged reader tree.
+Reader-facing change: **SaraBunny now has a structured Cast owner/deepening** in `src/data/integrator-cast-run824-daycare-sarabunny.ts`, activated by `src/data/all-content.ts`.
 
-The latest exact verified/deployed WIKI reader remains the Run 822 ShiyaX reader lineage; this census-only bookkeeping commit does not supersede that reader receipt.
+The WIKI treatment is deliberately different from MAIN: compact character contradiction, Relationships for Gilli / RV / Mugen, selected Quotes, and backstage claims/anti-fanon rails rather than a second biography narrative.
 
-### MAIN
+Exact verified/deployed reader SHA: **`1ab56e093b40d83df0e4663f355b964061432b5c`**.
 
-Reader-facing changes: **0**. The eight reviewed MAIN `pending_publication` families remain banked for proper person-first resynthesis rather than receipt-shaped appendices. No MAIN source-verification, Astro build, built-output verification, or production deployment is claimed because the reader tree did not change.
+- `Build Underlords Wiki` run **34541925400** — success.
+- `Deploy Underlords Wiki Preview` run **34541925470** — success.
+- Pages build/artifact job **103086360270** — success.
+- Pages deploy job **103086485837** — success.
+- Pages report/status job **103086536252** — success.
+- Commit statuses: `wiki-build=success`, `wiki-preview=success`.
+
+## MAIN
+
+Reader-facing changes: **0 intentionally**. MAIN already has a mature SaraBunny biography whose June section owns the Photoshoot question and `I’m not sure where to say this...` short-absence behavior, then carries her through `brr`, Wall nonsense and the 2026 return. Adding another dated June paragraph would over-weight the receipt rather than improve the person.
+
+MAIN's durable state now consumes Daycare through `aa4f35f27f5c8a2f6054b34dde27baae87c66181`. No MAIN source-verification, Astro build, built-output verification or production deploy is claimed because no MAIN reader tree changed.
 
 ## Surface split
 
-Nothing was published to only one surface. Both public repositories remain aligned to the same reconciled intake state.
+The new reader material is intentionally **WIKI-only**. MAIN already owns the same underlying Sara behavior as biography; WIKI was missing the structured person/relationship layer. Both surfaces now say different useful things about the same person instead of mirroring copy.
