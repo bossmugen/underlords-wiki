@@ -34,12 +34,12 @@ if (rose) {
   ]);
 
   if (!rose.logline.includes("He hit me first")) {
-    rose.logline = `${rose.logline} Getting filed can flip her straight into comic defense—\`He hit me first\`, then \`Its his fault\` three seconds later—without actually making her leave the joke.`;
+    rose.logline = `${rose.logline} Getting filed can flip her straight into comic defense—\`He hit me first\`, then \`Its his fault\` barely two seconds later—without actually making her leave the joke.`;
   }
 
   const mugenIndex = (rose.relationships ?? []).findIndex((relationship) => relationship.name === "Mugen");
   const mugenNote =
-    "When Mugen drops a Wall exhibit on her, Rose's reflex is not wounded retreat but instant comic lawyering: `He hit me first`, followed 3.809 seconds later by `Its his fault`. The speed matters; she knows the ritual well enough to start arguing the case while still feeding it. In later Wall exchanges she is just as willing to turn the joke back toward Mugen—`Yea Mugen is very sus`, then `She corrupting me help`—so the filing ritual reads as something Rose can actively play from both sides rather than a thing that only happens to her.";
+    "When Mugen drops a Wall exhibit on her, Rose's reflex is not wounded retreat but instant comic lawyering: `He hit me first`, followed barely two seconds later by `Its his fault`. The speed matters; she knows the ritual well enough to start arguing the case while still feeding it. In later Wall exchanges she is just as willing to turn the joke back toward Mugen—`Yea Mugen is very sus`, then `She corrupting me help`—so the filing ritual reads as something Rose can actively play from both sides rather than a thing that only happens to her.";
 
   if (mugenIndex >= 0) {
     const current = rose.relationships![mugenIndex];
@@ -63,7 +63,7 @@ if (rose) {
   }
 
   rose.claims = appendUnique(rose.claims, [
-    "In the March 8, 2023 Wall pocket, Mugen posts an image and DarkAsrai/Rose answers `He hit me first`; 3.809 seconds later Rose follows with `Its his fault`. The scene supports reflexive comic blame transfer and comfortable participation in the Wall ritual.",
+    "In the March 8, 2023 Wall pocket, Mugen posts an image and DarkAsrai/Rose answers `He hit me first`; 1.984 seconds later Rose follows with `Its his fault`. The scene supports reflexive comic blame transfer and comfortable participation in the Wall ritual.",
     "On April 16, 2023 Rose writes `Oh great theres people shorter than me :Cat_Drool:`. It is useful short-person-joke texture but does not establish Rose's exact height or anybody else's.",
     "The April 5, 2023 `Beat me to it` line is consistent with a filing-race read, but its exact target remains unresolved and is not promoted as a named incident here.",
     "In the later DarkAsrai/Rose Wall suffix, Rose returns after hours, asks for context, and then falls directly back into compact roast and blame-play. The context check is part of knowing participation, not evidence that she is withdrawing from the room's joke grammar.",
