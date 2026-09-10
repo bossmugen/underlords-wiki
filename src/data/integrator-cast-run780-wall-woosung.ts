@@ -41,7 +41,7 @@ const woosungRelationships = [...(woosung.relationships ?? [])].filter(
 upsertRelationship(woosungRelationships, {
   name: "Ricochet",
   note:
-    "Ricochet tags WOO into a March 2023 Wall poke; she TRUE-replies `OMG NO WHY WOULD U`, and Ricochet answers that exact message with a pat-head penguin GIF. The useful rhythm is poke → theatrical outrage → immediate softening gag. WOO stays in the joke; Ricochet is the counterpart here, not Rich / DragonRich.",
+    "Ricochet tags WOO into a March 2023 Wall poke; she fires back `OMG NO WHY WOULD U`, and he answers that exact message with a pat-head penguin GIF. Poke → theatrical outrage → immediate softening gag. WOO stays in the joke; Ricochet is the person across from her here.",
   href: "/characters/ricochet",
 });
 
@@ -64,7 +64,7 @@ const ricochetRelationships = [...(ricochet.relationships ?? [])];
 upsertRelationship(ricochetRelationships, {
   name: "Woosung",
   note:
-    "A March 2023 Wall poke gets WOO's `OMG NO WHY WOULD U`; Ricochet immediately TRUE-replies with a pat-head penguin GIF. He can needle somebody and then soften the landing without requiring either of them to leave the bit.",
+    "A March 2023 Wall poke gets WOO's `OMG NO WHY WOULD U`; Ricochet immediately answers with a pat-head penguin GIF. He can needle somebody and then soften the landing without requiring either of them to leave the bit.",
   href: "/characters/woosung",
 });
 
