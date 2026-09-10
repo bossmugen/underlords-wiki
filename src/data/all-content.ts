@@ -90,7 +90,6 @@ import "./integrator-cast-run790-wall-ibwoy";
 import "./integrator-cast-run790-wall-tonytonychopper";
 import "./integrator-cast-run791-daycare-gabu";
 import "./integrator-cast-run794-intake";
-import "./integrator-cast-run794-dean-support-tech";
 
 type LooseRecord = Record<string, unknown>;
 type Gag = { id: string; name: string; logline: string };
