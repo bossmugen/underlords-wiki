@@ -34,11 +34,11 @@ Exact verified/deployed reader: **`6b548cd60748a562c31a0a4cb5f558cc7446e997`**.
 
 Verification/deployment:
 
-- Build Underlords Wiki run **`34457007347`** — success; Build job **`102802943439`** — success.
+- Build Underlords Wiki run **`34457007347`** — success; Build job **`102805637960`** — success.
 - Build + Deploy Underlords Wiki (Preview) run **`34457007342`** — success.
-  - build/artifact job **`102802943070`** — success
-  - deploy job **`102802974947`** — success
-  - report/status job **`102803030635`** — success
+  - build/artifact job **`102805702048`** — success
+  - deploy job **`102805880621`** — success
+  - report/status job **`102806001522`** — success
 
 This run intentionally uses Anthos differently across surfaces. WIKI gets the structured dossier deepener now. MAIN gets no mirrored copy and holds the material for a future whole-person biography fold.
 
