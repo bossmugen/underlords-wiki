@@ -93,6 +93,7 @@ import "./integrator-cast-run794-intake";
 import "./integrator-cast-run798-wall-bishop-daycare-candy";
 import "./integrator-cast-run801-intake";
 import "./integrator-cast-run802-intake";
+import "./integrator-identity-repair-run802";
 
 type LooseRecord = Record<string, unknown>;
 type Gag = { id: string; name: string; logline: string };
