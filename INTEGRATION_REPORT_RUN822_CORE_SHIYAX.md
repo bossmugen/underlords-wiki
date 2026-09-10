@@ -16,16 +16,18 @@ The same mechanism travels. A 2022 spirit-celebrity QOTD gets Jason Momoa follow
 
 `A WHOLE GALLERY` remains the Voice Challenge episode owner; no duplicate episode was created. Voice Challenge MOVs remain POSTED BY Shiya only, with no invented MADE BY / CAPTURED BY / FEATURING claims. A privacy-sensitive unrelated support-room line stays excluded from public use.
 
-## Cross-surface repair
+## Cross-surface repair and verification
 
-The first Run-821 Core ShiyaX overlay accidentally used she/her wording. MAIN's current canonical ShiyaX biography uses he/him throughout. The integration pass caught that cross-surface regression and repaired the WIKI overlay before the miner delta was consumed.
+The first Core ShiyaX overlay accidentally used she/her wording. MAIN's current canonical ShiyaX biography uses he/him throughout. The integration pass caught that cross-surface regression and repaired the WIKI overlay at `ffce0812daea340a0809268b12b6c38416d92d92`; that commit passed Build `34539071636` and Pages `34539071652`.
 
-Final exact reader: **`ffce0812daea340a0809268b12b6c38416d92d92`**.
+A concurrent Run-822 ShiyaX care overlay was then activated at `c3556d57d333a49b0fbebaf20eae7b8823f8e8f1`. Both WIKI workflows correctly failed because the module imported nonexistent `./content`. That unverified overlay was not accepted as publication. Its activation was removed immediately; the source file remains inert/unreferenced for later provenance and architecture reconciliation rather than being allowed to break the live reader.
 
-- Build Underlords Wiki run **34539071636** — success.
-- Deploy Underlords Wiki Preview / Pages run **34539071652** — success.
-  - build/artifact **103077337037** — success;
-  - deploy **103077479989** — success;
-  - report/status **103077534075** — success.
+Final exact verified/deployed reader: **`cc03a84b1fb09da3d86aca34c7927d45e048c2d7`**.
+
+- Build Underlords Wiki run **34539606927** — success.
+- Deploy Underlords Wiki Preview / Pages run **34539606973** — success.
+  - build/artifact **103079068972** — success;
+  - deploy **103079214914** — success;
+  - report/status **103079302917** — success.
 
 MAIN receives no new ShiyaX reader paragraph from this packet. Its existing biography already has the richer whole-person spine, while this material is strongest as WIKI relationships/quotes/character mechanism. Main's controlling ledger advances Core Rooms consumption through `e97bf621ade1927a79e9895a84e808ebefdb5129`; prior Daya/Rotini MAIN publication/resynthesis debt remains banked, so Core stays `pending_publication` rather than becoming a clean `consumed` family.
