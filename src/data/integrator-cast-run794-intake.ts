@@ -177,49 +177,47 @@ upsertCharacter({
   ],
 });
 
-const deanIndex = allCharacters.findIndex((character) => character.id === "dean");
-if (deanIndex < 0) {
-  throw new Error("Run 794 expected canonical Dean / Support Tech owner; refusing to create a duplicate Support Tech person.");
-}
-
-const dean = allCharacters[deanIndex] as ExtendedCharacter;
-allCharacters[deanIndex] = {
-  ...dean,
-  aliases: unique([...(dean.aliases ?? []), "Support Tech", "supporttech900"]),
-  tags: unique([
-    ...(dean.tags ?? []),
+upsertCharacter({
+  id: "support-tech",
+  name: "Support Tech",
+  aliases: ["supporttech900"],
+  billing: "legacy",
+  role: "Archive-era Wall cast",
+  era: "2021–2023+",
+  logline:
+    "Support Tech learns Screenshot Court from both sides of the bench: first asking whether this is where people get exposed, then protesting when the room exposes them, then quietly learning the machinery well enough to start filing exhibits and summoning Mugen personally.",
+  tags: [
+    "Archive cast",
     "Wall",
     "Screenshot Court",
     "Learned filer",
     "Mugen summons",
     "Petty Crimes",
-  ]),
-  relationships: mergeRelationships(dean.relationships ?? [], [
+  ],
+  relationships: [
     {
       name: "Mugen",
       note:
-        "As Support Tech, Dean's two surviving direct Wall filing pockets both pair the exhibit with Mugen almost immediately: in 2021 the attachment comes first and Mugen is summoned seconds later; in 2023 the order flips. The rhythm survives the gap because he has learned exactly whom to pull into the filing bit.",
+        "Support Tech's two surviving direct filing pockets both pair the exhibit with Mugen almost immediately: in 2021 the attachment comes first and Mugen is summoned seconds later; in 2023 the order flips. Whatever the local filing ritual is, Support Tech learns that Mugen belongs in the choreography.",
       href: "/characters/mugen",
     },
-  ]),
-  quotes: unique([
-    ...(dean.quotes ?? []),
+  ],
+  quotes: [
     "Is this where you expose Peopl",
     "Me UH gOt EXpOsE WEE",
     "WhY U expOse Me",
-  ]),
-  claims: unique([
-    ...(dean.claims ?? []),
-    "Hard canon resolves Support Tech as Dean. The Support Tech account is stable Discord ID 770767336780070913 / username `supporttech900`; this Wall material belongs to Dean's existing owner rather than a separate Support Tech biography.",
-    "In March 2021, under the Support Tech name, Dean asks `Is this where you expose Peopl`; by April and June he is joking from the receiving end with `Me UH gOt EXpOsE WEE` and `WhY U expOse Me`.",
-    "By 2021-06-26 Dean/Support Tech is the one posting a screenshot and summoning Mugen less than five seconds later. On 2023-03-23 he again pairs a Mugen summon with an attachment, this time in the opposite order. The useful change-over-time read is newcomer/defendant becoming a participant who operates the room's filing ritual personally.",
-  ]),
-  antiFanon: unique([
-    ...(dean.antiFanon ?? []),
-    "Support Tech is an alias of Dean under project canon, not a separate person and not a formal UL appointment inferred from the phrase.",
-    "The two Wall attachments are POSTED BY Dean/Support Tech only. Their pixels were not inspected, so MADE BY / CAPTURED BY / FEATURING remain unresolved.",
-    "The 2021-to-2023 Wall authorship gap is surviving source chronology, not proof that Dean left and returned to the server.",
+  ],
+  claims: [
+    "Support Tech is anchored to stable account 770767336780070913 / username `supporttech900`; exact Wall authorship currently spans 36 messages and two attachments from 2021-03-23 through 2023-03-23.",
+    "In March 2021 Support Tech asks `Is this where you expose Peopl`; by April and June they are joking from the receiving end with `Me UH gOt EXpOsE WEE` and `WhY U expOse Me`.",
+    "By 2021-06-26 Support Tech is the one posting a screenshot and summoning Mugen less than five seconds later. On 2023-03-23 they again pair a Mugen summon with an attachment, this time in the opposite order. The useful change-over-time read is newcomer/defendant becoming a participant who operates the room's filing ritual personally.",
+  ],
+  antiFanon: [
+    "`Support Tech` is the account's displayed/archive name here, not a formal UL appointment inferred from the phrase. No role chronology or governance authority is manufactured from it.",
+    "The two attachments are POSTED BY Support Tech only. Their pixels were not inspected, so MADE BY / CAPTURED BY / FEATURING remain unresolved.",
+    "The 2021-to-2023 Wall authorship gap is surviving source chronology, not proof that Support Tech left and returned to the server.",
     "The recurring Mugen summon supports filing-ritual familiarity, not hierarchy, family, romance, or a ranked closeness claim.",
-  ]),
-} as ExtendedCharacter;
-characterById.set("dean", allCharacters[deanIndex]);
+    "A second Wall account later displaying `Support Tech` is stable account 451712961667006465 / `diamondwarriors` → `yeppers720`; shared display text does not bridge that account to this one or to Dean.",
+    "No independent hard bridge currently identifies stable account 770767336780070913 / `supporttech900` as Dean / Beansprout. Keep the identities separate unless later user-confirmed canon or account-level evidence resolves them.",
+  ],
+});
