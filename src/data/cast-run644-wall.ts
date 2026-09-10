@@ -46,18 +46,20 @@ if (tonyIndex >= 0) {
   characterById.set(tony.id, allCharacters[tonyIndex]);
 }
 
-// Run 644 Wall tail: Athena's footprint is only one surviving day, but the
-// contradiction is coherent enough for a compact WIKI file. She narrates bad
-// manhwa like bodily catastrophe, then accepts Mugen's room redirect with one pat.
+// Athena's Wall taste crisis was already public. Run 804 folds in the nearby
+// practical counterweight instead of creating another receipt-shaped dossier:
+// entertainment gets a monologue; logistics get a direct question and thanks.
 const athenaIndex = allCharacters.findIndex((character) => character.id === "athena");
 const mugenRelationship = {
   name: "Mugen",
-  note: "Mugen first meets Athena's manhwa catastrophe with `XD rip`, then gently routes the discussion to Simp/Whiskey. Athena later true-replies to the redirect itself with one pat emote. Sympathy first, correction second, no visible friction afterward.",
+  note: "Athena brings Mugen two completely different small problems and gets two matching answers. A Clash schedule worry gets the weekly planner and a `Thank youuu`; the manhwa catastrophe gets `XD rip`, then a gentle redirect to Simp/Whiskey that Athena answers with one pat. The recurring texture is easy ask/answer familiarity: Athena can be theatrical without making what she needs mysterious.",
   href: "/characters/mugen",
 };
 const athenaQuotes = [
   "I lost my beauty sleep to read a manhwa it was so hiped, but wtf... It was soooo baaaad, My head is hurting...",
   "I nees a good manhwa to wash my brain now:Raja_Happy: :R_JerryCry:",
+  "I just saw something fck up. When is our schedule for clash ce?",
+  "Thank youuu :Cute_jigglywow:",
 ];
 
 if (athenaIndex >= 0) {
@@ -67,9 +69,10 @@ if (athenaIndex >= 0) {
   allCharacters[athenaIndex] = {
     ...athena,
     aliases: [...new Set([...(athena.aliases ?? []), "ꨄÅthenåꨄ", "athena3805."])],
+    role: "Archive-era cast",
     logline:
-      "Tiny Wall footprint, extremely clear taste crisis: Athena loses `beauty sleep` to a hyped manhwa, needs another comic to `wash my brain`, then answers Mugen's channel redirect with a single pat. Maximum drama for media; almost none for being redirected.",
-    tags: [...new Set([...(athena.tags ?? []), "Wall", "Manhwa", "Taste maximalist", "Easy redirection", "Petty Crimes"])],
+      "Athena will lose `beauty sleep` to a hyped manhwa, call the result `soooo baaaad`, and immediately hunt for another one to `wash my brain`. Give her a practical problem, though, and the theater disappears: she asks for the Clash schedule, gets the planner, says thanks. Loud feelings, very clear asks.",
+    tags: [...new Set([...(athena.tags ?? []), "Wall", "Club Only", "Manhwa", "Taste maximalist", "Practical asker", "Easy redirection", "Petty Crimes"])],
     relationships,
     quotes: [...new Set([...(athena.quotes ?? []), ...athenaQuotes])],
   };
@@ -80,11 +83,11 @@ if (athenaIndex >= 0) {
     name: "Athena",
     aliases: ["ꨄÅthenåꨄ", "athena3805."],
     billing: "guest",
-    role: "Archive-era Wall gallery",
+    role: "Archive-era cast",
     era: "2022",
     logline:
-      "Tiny Wall footprint, extremely clear taste crisis: Athena loses `beauty sleep` to a hyped manhwa, needs another comic to `wash my brain`, then answers Mugen's channel redirect with a single pat. Maximum drama for media; almost none for being redirected.",
-    tags: ["Wall", "Manhwa", "Taste maximalist", "Easy redirection", "Petty Crimes"],
+      "Athena will lose `beauty sleep` to a hyped manhwa, call the result `soooo baaaad`, and immediately hunt for another one to `wash my brain`. Give her a practical problem, though, and the theater disappears: she asks for the Clash schedule, gets the planner, says thanks. Loud feelings, very clear asks.",
+    tags: ["Wall", "Club Only", "Manhwa", "Taste maximalist", "Practical asker", "Easy redirection", "Petty Crimes"],
     relationships: [mugenRelationship],
     quotes: athenaQuotes,
   };
