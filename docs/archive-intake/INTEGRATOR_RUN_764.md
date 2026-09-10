@@ -12,7 +12,7 @@ The accepted reader material had already landed under overlapping Run 763 while 
 The Daycare/Wall packet deepens the existing Tofu owner rather than creating another dossier. Tofu’s useful contradiction is soft steering from inside the chaos: `At least pace yourself`, followed later by the self-own `I posted it@so@quick I didn’t crop it wells`. `No context.` and later visual/reaction appearances reinforce a visual-first, under-explained social style. Cookie/ShiyaX material stays relationship texture, not a closeness leaderboard.
 
 ## Torr
-The Wall packet deepens the existing Torr owner: context auditor and willing context-loss spectator at once; language proofreader who is also self-aware about his own sentence glitches. The clean recurring tells include `that can be taken out of context XD`, `the lack of context is great`, `No context be like.`, semicolon/poll-grammar corrections, plus light-mode hatred, unread red-dot irritation, bad puns, and the family `blackened` biscuit story as Petty Crimes-grade texture.
+The Wall packet deepens the existing Torr owner: context auditor and willing context-loss spectator at once; language proofreader who is also self-aware about their own sentence glitches. The clean recurring tells include `that can be taken out of context XD`, `the lack of context is great`, `No context be like.`, semicolon/poll-grammar corrections, plus light-mode hatred, unread red-dot irritation, bad puns, and the family `blackened` biscuit story as Petty Crimes-grade texture.
 
 Torr q18 remains backstage: at least six confirmed positive parent->TRUE_REPLY parents, but no trustworthy denominator/negative class due false-zero retrieval. No popularity, intimacy, closeness, or reply-rate conclusion is exposed.
 
