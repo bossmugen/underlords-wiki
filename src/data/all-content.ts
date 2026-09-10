@@ -111,7 +111,7 @@ const run661Gags: Gag[] = [
     id: "wall-fame-moment",
     name: "The Wall Tries Fame",
     logline:
-      "The room had been calling shame `fame` since 2020, but by September 2021 somebody finally asks for a genuinely positive `FAME moment`. Marian remembers Eos's proposal; Gilli immediately calls it their first; Marian says Eos has earned a fame award. The word was old. The wholesome category was the new joke.",
+      "The room is already calling shame `fame` in 2020, and by June 16, 2021 RV directly files two images with `No shame here, only fame and cuteness`. By September, Nai can ask when the last `FAME moment` was, the room can argue over Eos's wholesome precedent, and Nai can crown `I survived another day at work` as a Fame moment. The word was old; the positive-category ritual kept evolving.",
   },
 ];
 
