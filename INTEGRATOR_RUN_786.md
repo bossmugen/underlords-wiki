@@ -12,24 +12,26 @@ Three advanced families were reconciled checkpoint-first and intake-only:
 
 ## Reader change
 
-Run 786 deepens canonical **Rose** only. `DarkAsrai` remains an account/name form of Rose rather than a separate Cast owner. The useful character mechanism is how quickly Rose turns a filing into her own defense brief: Mugen posts the exhibit, Rose answers `He hit me first`, then roughly three seconds later `Its his fault`. She is not retreating from Screenshot Court; she is participating from the defense table while continuing to feed the case.
+Run 786 deepens canonical **Rose** only. `DarkAsrai` remains an account/name form of Rose rather than a separate Cast owner. The useful character mechanism is how quickly Rose turns a filing into her own defense brief: Mugen posts the exhibit, Rose answers `He hit me first`, then **3.809 seconds** later `Its his fault`. She is not retreating from Screenshot Court; she is participating from the defense table while continuing to feed the case.
 
-`Oh great theres people shorter than me :Cat_Drool:` is kept as tiny self-aware height-joke texture, not an exact measurement. `Noo they taste like chicken XD` remains absurd joke language rather than literal food/harm lore. Mugen's screenshot remains **POSTED BY Mugen** only unless separate media inspection resolves any stronger attribution.
+The chronology is now pinned correctly: the blame-transfer scene is **March 8, 2023**; `Oh great theres people shorter than me :Cat_Drool:` is **April 16, 2023**; and the bounded `Beat me to it` filing-race read is **April 5, 2023**. The height line stays tiny self-aware joke texture, not an exact measurement. `Noo they taste like chicken XD` remains absurd joke language rather than literal food/harm lore. Mugen's screenshot remains **POSTED BY Mugen** only unless separate media inspection resolves any stronger attribution.
 
 Files:
 
 - `src/data/integrator-cast-run786-wall-rose.ts`
 - `src/data/all-content.ts`
 
-Exact reader commit: **`06d47f6ba5739707db0fa8bcaa42fa780ece03e9`**.
+The first activated Run-786 reader `06d47f6ba5739707db0fa8bcaa42fa780ece03e9` passed, but a post-close audit caught three wrong year/date labels and one wrong sub-second timing value inside the Rose overlay. Those were corrected at `e405500b680c897f7036d7072da7d83f070a2b40`; a subsequent Rose deepener retained the corrected chronology and added the later `Yea Mugen is very sus` / `She corrupting me help`, `SHORTZ`, `didnt ask`, and quick roast-chorus texture without changing the safety rails.
+
+Final exact verified/deployed reader for this Run-786 lineage: **`8123470bc0d25ba6968c11ec867539edaa952e43`**.
 
 Verification/deploy:
 
-- Build Underlords Wiki run **`34467504538` — success**.
-- Pages run **`34467504582` — success**.
-- Pages build/artifact job **`102839415987` — success**.
-- Pages deploy job **`102839562512` — success**.
-- Pages report/status job **`102839632201` — success**.
+- Build Underlords Wiki run **`34467793655` — success**; build job **`102840337078` — success**.
+- Pages run **`34467793587` — success**.
+- Pages build/artifact job **`102840338223` — success**.
+- Pages deploy job **`102840458891` — success**.
+- Pages report/status job **`102840528141` — success**.
 
 ## Identity hold — Mr. Streamer
 
@@ -37,7 +39,7 @@ The new Wall candidate uses stable account **`887424241946120223`**, username `u
 
 ## MAIN split
 
-No MAIN reader file was changed in this run. Nothien and Hishiro are held for future whole-person biography folds rather than appended as dated receipt paragraphs. The older accepted Rich -> Ricochet correction on MAIN remains behind the required verification/deploy gate; the available connector actions still do not expose a workflow-dispatch write for MAIN's decoupled deploy workflow, so no unsafe reader commit or fake verification claim was made.
+No MAIN reader file was changed in this run. Nothien and Hishiro are held for future whole-person biography folds rather than appended as dated receipt paragraphs. Rose's new Wall fragment is semantic deepening of an already richer MAIN receipt-court / challenge / self-defense arc, so MAIN did not get a redundant receipt paragraph. The older accepted Rich -> Ricochet correction on MAIN remains behind the required verification/deploy gate; the available connector actions still do not expose a workflow-dispatch write for MAIN's decoupled deploy workflow, so no unsafe reader commit or fake verification claim was made.
 
 ## Consumption handoff
 
