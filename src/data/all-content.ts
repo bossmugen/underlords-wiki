@@ -74,6 +74,7 @@ import "./integrator-cast-run767-wall-bea";
 import "./integrator-cast-run771-core-degen-rat";
 import "./integrator-cast-run775-wall-rookie-cookie-uwu";
 import "./integrator-cast-run777-daycare-woosung";
+import "./integrator-cast-run777-wall-booba";
 
 type LooseRecord = Record<string, unknown>;
 type Gag = { id: string; name: string; logline: string };
