@@ -33,7 +33,7 @@ if (rose) {
 
   const mugenIndex = (rose.relationships ?? []).findIndex((relationship) => relationship.name === "Mugen");
   const mugenNote =
-    "When Mugen drops a Wall exhibit on her, Rose's reflex is not wounded retreat but instant comic lawyering: `He hit me first`, followed three seconds later by `Its his fault`. The speed matters; she knows the ritual well enough to start arguing the case while still feeding it.";
+    "When Mugen drops a Wall exhibit on her, Rose's reflex is not wounded retreat but instant comic lawyering: `He hit me first`, followed 3.809 seconds later by `Its his fault`. The speed matters; she knows the ritual well enough to start arguing the case while still feeding it.";
 
   if (mugenIndex >= 0) {
     const current = rose.relationships![mugenIndex];
@@ -55,9 +55,9 @@ if (rose) {
   }
 
   rose.claims = appendUnique(rose.claims, [
-    "In the March 8, 2021 Wall pocket, Mugen posts an image and DarkAsrai/Rose answers `He hit me first`; 3.040 seconds later Rose follows with `Its his fault`. The scene supports reflexive comic blame transfer and comfortable participation in the Wall ritual.",
-    "On March 8, 2021 Rose also writes `Oh great theres people shorter than me :Cat_Drool:`. It is useful short-person-joke texture but does not establish Rose's exact height or anybody else's.",
-    "The April 5, 2021 `Beat me to it` line is consistent with a filing-race read, but its exact target remains unresolved and is not promoted as a named incident here.",
+    "In the March 8, 2023 Wall pocket, Mugen posts an image and DarkAsrai/Rose answers `He hit me first`; 3.809 seconds later Rose follows with `Its his fault`. The scene supports reflexive comic blame transfer and comfortable participation in the Wall ritual.",
+    "On April 16, 2023 Rose writes `Oh great theres people shorter than me :Cat_Drool:`. It is useful short-person-joke texture but does not establish Rose's exact height or anybody else's.",
+    "The April 5, 2023 `Beat me to it` line is consistent with a filing-race read, but its exact target remains unresolved and is not promoted as a named incident here.",
   ]);
 
   rose.antiFanon = appendUnique(rose.antiFanon, [
