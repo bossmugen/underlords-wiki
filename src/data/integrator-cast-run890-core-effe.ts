@@ -64,7 +64,6 @@ const next: ExtendedCharacter = {
     ...(base.antiFanon ?? []),
     "The April 17 troubleshooting pocket does not safely identify every addressee or mention target. Saber is a neighboring responder in the preserved context, but adjacency alone is not upgraded into a verified direct dyad.",
     "Do not infer the exact game title from the preserved troubleshooting lines alone.",
-    "A 2020 age-band self-description is intentionally not reproduced here. Do not calculate or publish an exact or current age from historical age-language.",
     "No private-life background should be inferred from `same as you kinda`, regional/server talk, or gameplay-session wording.",
   ]),
 };
