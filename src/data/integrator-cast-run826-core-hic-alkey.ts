@@ -39,6 +39,13 @@ const hicBase: ExtendedCharacter =
         logline: "",
       };
 
+const hicRelationships = [...(hicBase.relationships ?? [])];
+upsertRelationship(hicRelationships, {
+  name: "Mugen",
+  note: "The weeks before Hic's own `really comfy` explanation show what familiarity looks like in ordinary motion. Mugen greets them as `gummy bear`, later says `You know the drill`, and when Hic bluntly admits they lost what they needed to copy, Mugen just goes `Lolol` / `Issok found it` and returns to `gummieeees`. Hic can fumble without building an apology ceremony around it; that low-friction register is the relationship texture.",
+  href: "/characters/mugen",
+});
+
 const hic: ExtendedCharacter = {
   ...hicBase,
   id: hicId,
@@ -47,26 +54,37 @@ const hic: ExtendedCharacter = {
   role: hicBase.role || "Archive-era UL cast",
   era: hicBase.era || "2022–2024+",
   logline:
-    "A careful sender who says they used to get `very shy` and think hard before pressing Send, then describes getting genuinely comfortable once the people stopped feeling unfamiliar. A year of barely playing later, the language gets bigger rather than colder: `never ending party`, gratitude for everyone they met, and an extremely sincere request that nobody change their hearts.",
+    "A careful sender who says they used to get `very shy` and think hard before pressing Send, then describes getting genuinely comfortable once the people stopped feeling unfamiliar. The nice part is how mundane that change can look: around familiar people, even losing something and admitting it stops needing a whole social defense. A year of barely playing later, the language gets bigger rather than colder: `never ending party`, gratitude for everyone they met, and an extremely sincere request that nobody change their hearts.",
   tags: appendUnique(hicBase.tags, [
     "Archive cast",
     "QOTD",
+    "Lobby",
     "Change over time",
     "Belonging",
     "Reduced gameplay",
     "Careful sender",
+    "Familiarity lowers the guard",
   ]),
+  relationships: hicRelationships,
   quotes: appendUnique(hicBase.quotes, [
+    "Wait",
+    "I had to copy and paste them",
+    "cuz i lost it",
     "Me being extra careful when interacting, I get very shy and have a lot of thoughts in my head when I press the send button. Now, I feel really comfy that I got to know more about our fam:Milk_Love:",
     "Its like a never ending party.",
     "I love everyone here pls dont ever change ur hearts really make someone happy. U guys deserve the world🫶🫶",
   ]),
   claims: appendUnique(hicBase.claims, [
+    "On August 31, 2022 Mugen greets Hic as `gummy bear` and Hic answers `Ty tyty!`; on September 8 the nickname recurs alongside `You know the drill`, and Hic plainly says they had to copy/paste something because they lost it. Mugen resolves the fumble casually and immediately returns to the nickname. The repeated scene gives Hic's later comfort shift a named example without assigning Mugen sole causation.",
+    "On October 14, 2022 Hic greets Miaka with `Haiii miakaaaa`, a small reciprocal doorway beat showing Hic participating socially rather than only being welcomed. The surrounding operational onboarding is handled by another account and is not attributed to Hic.",
     "On 2022-11-11, Hic described being extra careful when interacting, getting very shy, and having many thoughts before pressing Send; in the same answer they said that getting to know more of the group had made them feel really comfortable.",
     "On 2023-12-11, Hic described being `a corpse for a whole year` while also saying they wanted to `go back playing`; the wording bounds the corpse metaphor most safely to reduced/absent gameplay rather than a proven Discord disappearance.",
     "Hic's late-2023 appreciation answer remains collectively addressed: everyone they met, the group's welcoming quality, and the wish that people not change their hearts. It supports durable group attachment, not a closeness ranking among individual members.",
   ]),
   antiFanon: appendUnique(hicBase.antiFanon, [
+    "The repeated `gummy bear` / `gummieeees` wording is Mugen's familiar nickname for Hic in these receipts, not an identity bridge, literal-family label, or friendship ranking.",
+    "MEE6 welcome events and Mugen's `welcome back` wording do not establish why Hic entered/re-entered the Lobby or exact leave/rejoin chronology.",
+    "The October Miaka greeting is social participation, not proof that Hic performed Staff/onboarding labor in that scene.",
     "Hic's own words `very shy` and `a lot of thoughts` are social self-description, not a mental-health diagnosis or a license to label them globally introverted/anxious.",
     "The 2022→2023 change is familiarity reducing the need for extra caution, not a `shy to extrovert` transformation.",
     "`our fam` is affectionate community language, not biological or legal family.",
