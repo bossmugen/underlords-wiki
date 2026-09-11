@@ -105,6 +105,7 @@ import "./integrator-cast-run824-daycare-sarabunny";
 import "./integrator-cast-run826-daycare-nintendo";
 import "./integrator-cast-run826-core-hic-alkey";
 import "./integrator-cast-run836-core-wall";
+import "./integrator-cast-run840-daycare";
 
 type LooseRecord = Record<string, unknown>;
 type Gag = { id: string; name: string; logline: string };
