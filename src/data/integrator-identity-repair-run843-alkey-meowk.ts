@@ -7,15 +7,11 @@ type ExtendedCharacter = Character & {
 };
 
 const alkeyIndex = allCharacters.findIndex((character) => character.id === "alkey");
-const meowkIndex = allCharacters.findIndex((character) => character.id === "meowk");
-
-if (alkeyIndex < 0 || meowkIndex < 0) {
-  throw new Error("Run 843 identity repair expected separate canonical Alkey and Meowk owners.");
+if (alkeyIndex < 0) {
+  throw new Error("Run 843 identity repair expected the canonical Alkey owner.");
 }
 
 const alkey = allCharacters[alkeyIndex] as ExtendedCharacter;
-const meowk = allCharacters[meowkIndex] as ExtendedCharacter;
-
 const contaminated = (text: string) =>
   /Meowk|booli|booly|You all suck|cock fight|chicken-emote|catif|orca|pom|sunshine|deep voice|childlike excitement/i.test(text);
 
@@ -44,7 +40,32 @@ allCharacters[alkeyIndex] = {
 } as ExtendedCharacter;
 characterById.set("alkey", allCharacters[alkeyIndex]);
 
-// Re-assert the separate Meowk owner after older overlays that had conflated the names.
+// Import evaluation can reach this repair before the later Meowk deepening overlay.
+// If so, seed the stable owner now; Run 836 will enrich the same id rather than create a duplicate.
+let meowkIndex = allCharacters.findIndex((character) => character.id === "meowk");
+if (meowkIndex < 0) {
+  const meowk: ExtendedCharacter = {
+    id: "meowk",
+    name: "Meowk",
+    aliases: ["Meowk"],
+    billing: "recurring",
+    role: "Member",
+    era: "2021–2025+",
+    logline:
+      "Mock-aggrieved participant whose recurring `booli` protests are part of staying in the joke: people characterize him, Meowk complains theatrically, and the bit keeps moving.",
+    tags: ["Wall", "QOTD", "Mock-aggrieved banter", "Petty Crimes"],
+    claims: [
+      "Meowk is stable account 264889543365230614 and remains separate from Alkey unless a stable account-level bridge is produced.",
+    ],
+    antiFanon: [
+      "Do not merge Meowk into Alkey from display-name similarity or contextual wording alone; stable account 264889543365230614 controls this dossier.",
+    ],
+  };
+  allCharacters.push(meowk);
+  meowkIndex = allCharacters.length - 1;
+}
+
+const meowk = allCharacters[meowkIndex] as ExtendedCharacter;
 allCharacters[meowkIndex] = {
   ...meowk,
   aliases: [...new Set([...(meowk.aliases ?? []), "Meowk"])],
