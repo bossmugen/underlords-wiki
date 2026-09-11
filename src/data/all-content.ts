@@ -116,6 +116,7 @@ import "./integrator-cast-run860-wall-miihi";
 import "./integrator-cast-run863-wall-erys";
 import "./integrator-cast-run863-wall-aeshleen";
 import "./integrator-cast-run864-wall-hishiro";
+import "./integrator-cast-run864-wall-nelph";
 import "./integrator-identity-repair-run864-woo";
 
 type LooseRecord = Record<string, unknown>;
