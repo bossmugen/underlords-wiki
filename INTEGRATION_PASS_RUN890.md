@@ -54,3 +54,7 @@ Exact reader commit containing both accepted public integrations: `c3e2bbc1c8233
   - report/status `103454226599`: success
 
 The final Wall tail required no reader change. This report is docs-only and sits above the exact verified reader commit.
+
+## Shared-state concurrency handoff
+
+A newer Run 891 opening census became the controlling writer of MAIN `archive-intake/INTEGRATOR_BRANCH_STATE.json` after Run 890's first close write and marked Wall `02d9756c... -> d83cbe3b...` as its pending tail. Run 890 had already completed the checkpoint-first review of that exact tail, but did not overwrite the newer shared snapshot. Accordingly, this report records the reviewed Wall frontier `d83cbe3b...`, while Run 891 owns the eventual shared `last_consumed_sha` mutation. Core and Daycare remain consumed at their Run 890 reviewed heads in the controlling state.
