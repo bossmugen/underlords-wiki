@@ -190,15 +190,15 @@ if (archiveCastGroup && !archiveCastGroup.characterIds.includes(queenId)) {
   archiveCastGroup.characterIds.push(queenId);
 }
 
-// Spicy Hotpot has only a small surviving Wall footprint, but it repeats cleanly enough
-// for WIKI: punctuation and keyboard-smash reactions do most of the social work.
+// Spicy Hotpot / Josh is a different stable account from similarly named archive users.
+// Keep the Wall-local first-name bridge bounded and build the person from the ten-row
+// Wall sample: low volume, maximal commitment once activated, especially with Gilli.
 const spicyId = "spicy-hotpot";
 const spicyIndex = allCharacters.findIndex(
   (character) =>
     character.id === spicyId ||
     character.name === "Spicy Hotpot" ||
-    character.aliases?.includes("t7d1213") ||
-    character.aliases?.includes("t.7"),
+    character.aliases?.includes("_spicyhotpot"),
 );
 
 const spicyBase: ExtendedCharacter =
@@ -207,60 +207,63 @@ const spicyBase: ExtendedCharacter =
     : {
         id: spicyId,
         name: "Spicy Hotpot",
-        aliases: ["t7d1213", "t.7"],
+        aliases: ["_spicyhotpot"],
         billing: "legacy",
         role: "Archive-era UL cast",
-        era: "2021–2022",
+        era: "2021",
         logline: "",
       };
 
 const spicyRelationships = [...(spicyBase.relationships ?? [])];
 upsertRelationship(spicyRelationships, {
-  name: "Mugen",
+  name: "Gilli",
   note:
-    "Spicy TRUE-replies `... Why....` to Mugen's `@Torr :ShamedFace:` Wall filing. The reaction is direct; the attached screenshot's subject and pixels remain uninspected.",
-  href: "/characters/mugen",
-});
-upsertRelationship(spicyRelationships, {
-  name: "ShiyaX",
-  note:
-    "When Shiya says `I've been caught` with a GIF in 2022, Spicy's TRUE_REPLY is a full keyboard collapse: `aowvhdzlagorwnahkf...`. Direct reaction, yes; independent proof of whatever Shiya was caught doing, no.",
+    "Gilli and Spicy keep landing in the same comfortable nuisance loop: he summons her over `boiled mayo`, later tells her she probably put him on the Wall ages ago, helps dig up the old receipt that proves it, then eventually sends a message containing 28 straight Gilli mentions. The joke is reciprocal archival sparring, not a closeness ranking.",
+  href: "/characters/gilli",
 });
 
 const spicy: ExtendedCharacter = {
   ...spicyBase,
   id: spicyId,
   name: "Spicy Hotpot",
-  aliases: appendUnique(spicyBase.aliases, ["t7d1213", "t.7"]),
+  aliases: appendUnique(
+    (spicyBase.aliases ?? []).filter((alias) => alias !== "t7d1213" && alias !== "t.7"),
+    ["_spicyhotpot", "Josh"],
+  ),
   billing: spicyBase.billing || "legacy",
   role: spicyBase.role || "Archive-era UL cast",
-  era: spicyBase.era || "2021–2022",
+  era: "2021",
   logline:
-    "Spicy Hotpot's Wall language is mostly punctuation with consequences. `... Why....`, `... too much information...`, and one complete keyboard failure do the job of paragraphs: a compact spectator who lets everybody else supply the disaster, then adds exactly enough reaction to make the disaster louder.",
+    "Spicy Hotpot has the footprint of a background character and the commitment level of somebody billing by the bit. He asks Gilli about boiled mayo, gets derailed by his own nickname, calmly assumes she probably put him on the Wall before, then helps locate the old receipt proving his own shame. Tiny volume; catastrophic follow-through.",
   tags: appendUnique(spicyBase.tags, [
     "Archive cast",
-    "2021–2022",
+    "2021",
     "Wall",
-    "Reaction language",
-    "Punctuation",
+    "Repeat defendant",
+    "Receipt archaeology",
+    "Nuisance teasing",
     "Petty Crimes",
   ]),
   relationships: spicyRelationships,
   quotes: appendUnique(spicyBase.quotes, [
-    "... Why....",
-    "... too much information...",
-    "aowvhdzlagorwnahkf...",
+    "so what's this I heard about boiled mayo?",
+    "wait wtf my nickname",
+    "Nah, you probably put me here ages ago",
+    "I knew it",
   ]),
   claims: appendUnique(spicyBase.claims, [
-    "On 2021-01-04 Spicy TRUE-replies `... Why....` to Mugen's `@Torr :ShamedFace:` Wall post with an attachment; the reply edge is direct, but the attached pixels were not inspected.",
-    "On 2021-04-08 Spicy adds `... too much information...` after Ren's `MY EYES`, Ghoulie's and Mugen's Kermit-eww reactions, and before Ansun's later escalation. This is scene adjacency, not a reply edge.",
-    "On 2022-02-15 Spicy TRUE-replies `aowvhdzlagorwnahkf...` to Shiya's `I've been caught` plus GIF, preserving a direct reaction without proving what media or offense Shiya meant.",
-    "Across the small surviving sample, punctuation-heavy compressed reactions recur often enough to describe a Wall participation style; they are not promoted into a broad off-Wall temperament claim.",
+    "Stable account 186245940699463680 / `_spicyhotpot` has ten surviving Wall messages from 2021-04-14 through 2021-09-18; `Josh` is retained only as a Wall-local first-name bridge.",
+    "On 2021-05-17 Spicy directly summons Gilli with `so what's this I heard about boiled mayo?`, then nine seconds later notices `wait wtf my nickname`; the food line is gossip/bit material, not a mayo preference.",
+    "On 2021-09-08, when Gilli asks whether this is Josh's first time on the Wall, Spicy TRUE-replies `Nah, you probably put me here ages ago`; under twenty seconds later his `I knew it` TRUE_REPLY is tied to Gilli's older 2021-04-14 screenshot parent.",
+    "On 2021-09-18 Spicy posts a Default message containing 28 consecutive Gilli mentions and no other text. It receives five final-state Fat_Wheeze reactions; reaction timing is unknown.",
+    "The recurring contradiction is Wall-local but strong: low overall volume, high commitment when activated, including helping the room recover evidence against himself.",
   ]),
   antiFanon: appendUnique(spicyBase.antiFanon, [
-    "A six-row Wall sample is enough for a bounded reaction-language read, not an introvert/quiet-person diagnosis or a whole-life personality claim.",
-    "The 2021-01-04 screenshot and 2022-02-15 GIF were not visually inspected here; preserve reply/post attribution and do not infer MADE BY, CAPTURED BY, FEATURING, or hidden media content.",
-    "Spicy reacting to `I've been caught` is not independent proof of what Shiya was caught doing.",
+    "`Josh` is a Wall-local first-name bridge from this quarry, not a user-confirmed project-wide identity lock.",
+    "The boiled-mayo question does not establish that Spicy likes, dislikes, eats, or makes boiled mayo.",
+    "The 28-ping Gilli message is not a structured Reply; linkage to nearby Gilli media is probable scene context only.",
+    "Comfortable nuisance-teasing with Gilli does not establish romance, exclusivity, or a friendship ranking.",
+    "Keep screenshot claims at POSTED BY / reply-topology level unless the pixels or authorship are independently recovered.",
   ]),
 };
 
