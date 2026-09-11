@@ -3,6 +3,16 @@ import type { Episode } from "./wiki";
 
 export const run838WallZoshaaEpisodes: Episode[] = [
   {
+    id: "wall-fame-aug-2020",
+    title: "Shame Fame, Same Thing",
+    season: "2020",
+    date: "2020-08-25",
+    kind: "incident",
+    logline:
+      "Snow posts three images in a tight burst; seconds later Sou/Ansun says `wall of shame`, Ren says `Nice I though of this as a hall of fame` and `But wall of shame works too`, and Sou closes with `shame fame, same thing 😎`. It is the earliest surviving probable sequence-level media Fame framing currently known—not a one-image attribution, rename audit, or guaranteed origin.",
+    cast: ["snow", "ren", "ansun"],
+  },
+  {
     id: "wall-zoshaa-screw-appeal",
     title: "Some People Need Screws",
     season: "2021",
