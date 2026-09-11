@@ -12,7 +12,7 @@ No new character texture, relationship change, role progression, Episode, Runnin
 
 Reader-facing changes: **0**.
 
-No new overlay or dossier change was warranted. Because the reader tree did not change, this run does not claim a fresh Astro/Pages verification or deployment. The exact verified/deployed reader from Run 833 remains the current reader receipt until a later reader mutation passes the normal WIKI build/Pages path.
+No new overlay or dossier change was warranted. Because the reader tree did not change, this run does not claim a fresh Astro/Pages verification or deployment. The exact verified/deployed reader remains Run 833 SHA **`357db91fd781c860c9240e455b755db4f65c3ae7`**: Build Underlords Wiki run **34555525473** succeeded, and Pages/Preview run **34555525406** succeeded end-to-end.
 
 ## MAIN coordination
 
