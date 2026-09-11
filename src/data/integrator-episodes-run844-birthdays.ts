@@ -1,4 +1,5 @@
 import type { Episode } from "./wiki";
+import "./integrator-cast-run844-wall";
 
 export const run844BirthdayEpisodes: Episode[] = [
   {
