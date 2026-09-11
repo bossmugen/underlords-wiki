@@ -19,16 +19,53 @@ const upsertRelationship = (
   else relationships.push(relationship);
 };
 
-// Daycare's new support material does not create a second Usama owner. It deepens
-// the existing one-line-room-spotter read with human-recognized familiarity and a
-// small return/continuity beat that the old Wall-only layer could not carry.
-const usamaIndex = allCharacters.findIndex((character) => character.id === "usama");
-if (usamaIndex < 0) {
-  throw new Error("Run 833 expected the canonical Usama owner to exist.");
-}
+// This overlay can execute before the older Run 719 module because static imports are
+// hoisted. If that happens, seed the same canonical Usama owner here; Run 719 will then
+// see the owner already exists and leave the deeper Run 833 version intact.
+const usamaId = "usama";
+const usamaIndex = allCharacters.findIndex((character) => character.id === usamaId);
+const usamaBase: ExtendedCharacter =
+  usamaIndex >= 0
+    ? (allCharacters[usamaIndex] as ExtendedCharacter)
+    : {
+        id: usamaId,
+        name: "Usama",
+        aliases: ["usama1."],
+        billing: "legacy",
+        role: "Wall regular · archive-era cast",
+        era: "2021",
+        logline:
+          "Mostly `lol` until the room drops a continuity problem: Usama's tiny Wall footprint gets specific exactly when somebody needs yesterday remembered, a surprising detail checked, or founder lore located. He barely spends words, but when he does there is usually a filing-cabinet reason.",
+        tags: ["Archive cast", "2021", "Wall", "Low-verbiage", "Context memory", "Callbacks", "Petty Crimes"],
+        relationships: [
+          {
+            name: "Mugen",
+            note:
+              "Usama asks `ooo Suzzi one of founders ???`; Mugen TRUE-replies `Yus`. Minutes later, when Mugen escalates into a Suzi lore riff, Usama TRUE-replies with the much more native historical method: `lol`.",
+            href: "/characters/mugen",
+          },
+        ],
+        quotes: [
+          "key was asking Sushi yesterday too lol",
+          "wait , really !!!",
+          "ooo Suzzi one of founders ???",
+        ],
+        claims: [
+          "On 2021-07-21 Usama remembers a prior-day social detail with `key was asking Sushi yesterday too lol`; Gilli and Mugen are present in the final reaction membership on that message.",
+          "On 2021-07-27 Usama asks `wait , really !!!` during a surprising context pocket and follows it nine seconds later with `👀`.",
+          "On 2021-09-11 Usama asks whether Suzi is one of the founders; Mugen TRUE-replies `Yus`, and Usama later TRUE-replies `lol` to Mugen's follow-up Suzi lore riff.",
+          "His assigned Wall footprint is low-verbiage: most surviving authored messages are laughter, emotes, or short reactions, while the longer lines disproportionately surface callbacks or context questions.",
+        ],
+        antiFanon: [
+          "Context/memory spotting is a social behavior read, not a formal historian role.",
+          "`key was asking Sushi yesterday too lol` is a callback only; it does not establish romance or sex.",
+          "One Sailor Moon surprise question does not establish an anime preference profile.",
+          "Usama's `lol thats Shiya` line does not identify the subject of an uninspected image.",
+          "Usama's closed q18 topology branch is separate backstage structure and is not used as personality, popularity, or closeness evidence.",
+        ],
+      };
 
-const usama = allCharacters[usamaIndex] as ExtendedCharacter;
-const usamaRelationships = [...(usama.relationships ?? [])];
+const usamaRelationships = [...(usamaBase.relationships ?? [])];
 upsertRelationship(usamaRelationships, {
   name: "Anayss",
   note:
@@ -37,25 +74,38 @@ upsertRelationship(usamaRelationships, {
 });
 
 const nextUsama: ExtendedCharacter = {
-  ...usama,
+  ...usamaBase,
+  id: usamaId,
+  name: "Usama",
+  aliases: appendUnique(usamaBase.aliases, ["usama1."]),
+  billing: usamaBase.billing || "legacy",
+  role: usamaBase.role || "Wall regular · archive-era cast",
+  era: usamaBase.era || "2021",
   logline:
     "Mostly `lol` until the room drops a continuity problem: Usama's tiny footprint gets specific exactly when somebody needs yesterday remembered, a person recognized, or old-house lore checked. He barely spends words, but he is paying attention—and Anayss's casual `wb Usa uwu!` makes clear that the room already knew who had walked back in.",
-  tags: appendUnique(usama.tags, ["Lobby", "Daycare", "Return/familiarity"]),
+  tags: appendUnique(usamaBase.tags, ["Lobby", "Daycare", "Return/familiarity"]),
   relationships: usamaRelationships,
-  quotes: appendUnique(usama.quotes, ["lol thats Shiya", "Usama , underlords , 20"]),
-  claims: appendUnique(usama.claims, [
+  quotes: appendUnique(usamaBase.quotes, ["lol thats Shiya", "Usama , underlords , 20"]),
+  claims: appendUnique(usamaBase.claims, [
     "On 2021-06-16, three days before the indexed direct-Daycare span begins, Usama self-identifies in Lobby as `Usama\\n20, from Underlords`; Anayss answers `wb Usa uwu!`, directly showing human-recognized familiarity/return.",
     "On 2021-07-25 Usama supplies `lol thats Shiya` in Wall. The line is usable as authored person recognition even though the referenced Wall object itself is unrecovered.",
     "On 2021-10-20 the same stable account fills the Lobby form again as `Usama , underlords , 20`. That is continuity texture, not enough to reconstruct a leave/rejoin mechanism.",
   ]),
-  antiFanon: appendUnique(usama.antiFanon, [
+  antiFanon: appendUnique(usamaBase.antiFanon, [
     "Anayss's `wb Usa uwu!` supports familiarity/return in ordinary social terms; it does not establish an exact first join, leave date, rejoin date, or game-club admission mechanism.",
     "The June and October Lobby forms belong to the same stable account but do not by themselves establish a leave/rejoin cycle.",
     "Wall/Lobby support lines deepen Usama's social style; they are not rewritten as direct Daycare dialogue.",
   ]),
 };
-allCharacters[usamaIndex] = nextUsama;
-characterById.set("usama", nextUsama);
+
+if (usamaIndex >= 0) allCharacters[usamaIndex] = nextUsama;
+else allCharacters.push(nextUsama);
+characterById.set(usamaId, nextUsama);
+
+const archiveCastGroup = castGroups.find((group) => group.id === "archive-cast");
+if (archiveCastGroup && !archiveCastGroup.characterIds.includes(usamaId)) {
+  archiveCastGroup.characterIds.push(usamaId);
+}
 
 // Queen Shimoko is too thin for a MAIN biography, but the surviving Wall shard is
 // coherent enough for a structured WIKI owner: very few words, very little hesitation
@@ -136,7 +186,6 @@ if (queenIndex >= 0) allCharacters[queenIndex] = queen;
 else allCharacters.push(queen);
 characterById.set(queenId, queen);
 
-const archiveCastGroup = castGroups.find((group) => group.id === "archive-cast");
 if (archiveCastGroup && !archiveCastGroup.characterIds.includes(queenId)) {
   archiveCastGroup.characterIds.push(queenId);
 }
