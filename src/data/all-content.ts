@@ -125,6 +125,7 @@ import "./integrator-cast-run875-wall-akamin";
 import "./integrator-cast-run881-birthdays-ren";
 import "./integrator-cast-run881-daycare-rummy";
 import "./integrator-cast-run882-louvre-gilli";
+import "./integrator-cast-run886-wall-athena";
 
 type LooseRecord = Record<string, unknown>;
 type Gag = { id: string; name: string; logline: string };
@@ -137,7 +138,6 @@ const run661Gags: Gag[] = [
       "The room is already calling shame `fame` in 2020. By March 13, 2021, Ren posts an image and says `*wall of fame*` eleven seconds later inside the same uninterrupted Ghoulie protest pocket—close enough to read as a probable Fame filing, even without a stored reply edge. June 16 gives the harder version: two images directly captioned `No shame here, only fame and cuteness`. By September, Nai can ask when the last `FAME moment` was and nominate `I survived another day at work`; in a separate September 22 memory check, Gilli and Marian remember Eos's proposal-language filing as their first Fame moment and basically the rare exception to a room that was usually Shame. That is participant memory, not an origin certificate, and the proposal wording stays inside the joke rather than becoming a literal engagement claim. The word was old; the positive category kept becoming more explicit and memorable.",
   },
 ];
-
 const episodeModules = import.meta.glob("./integrator-episodes*.ts", { eager: true }) as Record<string, LooseRecord>;
 const gagModules = import.meta.glob("./integrator-gags*.ts", { eager: true }) as Record<string, LooseRecord>;
 
