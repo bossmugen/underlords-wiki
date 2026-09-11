@@ -63,3 +63,7 @@ if (!allCharacters.some((character) => character.id === usamaId)) {
     archiveCastGroup.characterIds.push(usamaId);
   }
 }
+
+// Run 833 deepens this canonical owner and adds Queen Shimoko. Keep the activation
+// here so older all-content import order still resolves Usama before the new overlay.
+import "./integrator-cast-run833-daycare-usama-wall-queen";
