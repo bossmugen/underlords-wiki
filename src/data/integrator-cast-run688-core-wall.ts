@@ -10,9 +10,9 @@ const upsertRelationship = (
   else relationships.push(relationship);
 };
 
-// Core Rooms: hard canon resolves Shk / yuki1794 to Shiki. The new scene family
-// finally gives the Sensei title behavior: classroom theater plus a bounded instinct
-// to cover a knowledge gap when nobody else is teaching it.
+// Core Rooms + later Wall deepening: hard canon resolves Shk / yuki1794 to Shiki.
+// The Sensei title has lived teaching behavior, while the Wall side keeps exposing a
+// second register: dry, visibility-conscious, and catastrophically quotable anyway.
 const shikiIndex = allCharacters.findIndex((character) => character.id === "shiki");
 if (shikiIndex >= 0) {
   const shiki = allCharacters[shikiIndex];
@@ -34,7 +34,7 @@ if (shikiIndex >= 0) {
   allCharacters[shikiIndex] = {
     ...shiki,
     logline:
-      "Sensei in the lived sense: Shiki can turn ordinary chat into classroom theater—`study first`, `take note`, `it could be in ur test`—then notice an uncovered teaching lane and volunteer a one-time patch instead of making the role about himself.",
+      "Sensei in the lived sense: Shiki turns chat into classroom theater, notices uncovered teaching lanes and patches them without making the role about himself. Off duty, that same flat practical delivery makes spoon physics and Screenshot Court evasions memorable enough to defeat his own attempts at staying less visible.",
     tags: [
       ...new Set([
         ...(shiki.tags ?? []),
@@ -42,6 +42,10 @@ if (shikiIndex >= 0) {
         "Knowledge sharing",
         "Core Rooms",
         "Classroom theater",
+        "Wall",
+        "Visibility",
+        "Deadpan absurdism",
+        "Spoon physics",
         "Petty Crimes",
       ]),
     ],
@@ -53,6 +57,9 @@ if (shikiIndex >= 0) {
         "@here hope u all studying",
         "take note",
         "it could be in ur test",
+        "i always heat my spoon on fire",
+        "i did nothing wrong",
+        "ok off to work",
       ]),
     ],
     claims: [
@@ -60,6 +67,9 @@ if (shikiIndex >= 0) {
         ...(shiki.claims ?? []),
         "Shiki repeatedly plays teacher in Club Only with study reminders, note-taking prompts and the mock warning `it could be in ur test`.",
         "When he notices there is no teacher in Dojo for Puppet, Shiki tells Mugen he can get the build to everyone and explicitly calls it a `1 time visit`.",
+        "The 2020 Wall material sharpens Shiki's visibility contradiction rather than creating a new persona: the same person who later talks about waiting for `sleep mode` can casually produce `i always heat my spoon on fire`, then meet prosecution with `i did nothing wrong` and see/hear/know-nothing evasion.",
+        "Shiki's spoon/microwave exchange works because he treats absurdity as a practical engineering matter. `i always heat my spoon on fire` lands like ordinary information, making the deadpan delivery itself part of why the line becomes Wall-ready.",
+        "A separate `ok off to work` followed by a work-stress reaction adds mundane texture without resolving what job Shiki had; the useful character beat is how quickly ordinary logistics can turn into one more compact visual joke.",
       ]),
     ],
     antiFanon: [
@@ -68,6 +78,8 @@ if (shikiIndex >= 0) {
         "Anayss's `my master ❤️` is playful teacher/master-shaped social language, not proof of a formal hierarchy.",
         "The Puppet / Dojo offer is prospective and explicitly bounded as a `1 time visit`; do not turn it into permanent Dojo ownership, a formal appointment, or proof that the visit later occurred.",
         "Do not infer appointment chronology from export-time or current role arrays.",
+        "`ok off to work` establishes only that Shiki was going to work in that moment; it does not establish an occupation, employer, schedule, or career history.",
+        "The see/hear/know-nothing and work-stress reaction images are joke delivery, not literal real-life behavior. Default adjacency in the Wall export is not a structured Reply edge.",
       ]),
     ],
   };
