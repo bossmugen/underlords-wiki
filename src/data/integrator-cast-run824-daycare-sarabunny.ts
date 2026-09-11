@@ -50,7 +50,7 @@ upsertRelationship(relationships, {
 });
 upsertRelationship(relationships, {
   name: "Mugen",
-  note: "Mugen returns to the same short-absence notice later with `Take care Sara! Dw we'll be here when u come back!`; Sara heart-reacts. The sentence treats the return as expected, not something Sara has to negotiate.",
+  note: "Mugen welcomes Sara at the server door, later returns to Sara's short-absence notice with `Take care Sara! Dw we'll be here when u come back!`, and Sara heart-reacts. The pattern is low-drama inclusion: arrive, get oriented, disappear briefly if needed, come back when you come back.",
   href: "/characters/mugen",
 });
 
@@ -63,13 +63,15 @@ const sara: ExtendedCharacter = {
   role: base.role || "Archive-era UL member",
   era: base.era || "2021–2026+",
   logline:
-    "Low-volume does not mean socially absent. Sara asks the exact rule, says thanks, warns the room before going quieter for a couple of days, then receives `Real life first!!!` and `we'll be here when u come back!` with one heart apiece. Apparently even a forty-eight-hour-ish disappearance deserves a tiny filing notice.",
+    "Low-volume does not mean socially absent. Sara tends to arrive in compact bursts: ask the exact rule, say thanks, warn the room before going quieter, drop an image that gets showered in reactions, say `so much moo`, yell `HAPPY NEW YEAR!`, add a sticker, and keep moving. The footprint is small; the social signal is not.",
   tags: appendUnique(base.tags, [
     "Archive cast",
     "Club Only",
     "Low-volume",
     "Social accountability",
     "Loop closer",
+    "Visual participant",
+    "Short-burst humor",
     "Petty Crimes",
   ]),
   relationships,
@@ -77,15 +79,22 @@ const sara: ExtendedCharacter = {
     "I have a question how many shots can we post for the photo shoot contest?",
     "Thank you (:",
     "I’m not sure where to say this but I might not be that active for the next couple of days",
+    "so much moo",
+    "HAPPY NEW YEAR!",
   ]),
   claims: appendUnique(base.claims, [
-    "Stable account 250001036251627520 / `foxcat` is SaraBunny in the reviewed June 2021 support-room material.",
+    "Stable account 250001036251627520 / `foxcat` is SaraBunny in the reviewed 2021 support-room material.",
+    "On May 25, 2021 Sara answered the Lobby intake prompt warmly and concisely: `thank you!! My ign is SaraBunny my club is Underlords and I’m 19 (:`.",
     "On June 4, 2021 Sara asked the Photoshoot submission limit; Gilli answered `1 :nyaWalk:` and Sara true-replied `Thank you (:`, closing the rule-clarification loop.",
+    "On June 6, 2021 Sara posted an image-only Photo Submissions entry that drew broad positive reactions from multiple familiar UL members. The current route preserves attachment metadata and reactions but not readable pixels.",
     "On June 7, 2021 Sara said she might be less active for `the next couple of days`. RV true-replied `We gotchu!!`, followed with `Real life first!!!`, and Mugen later true-replied `Take care Sara! Dw we'll be here when u come back!`. Sara heart-reacted to both direct reassurances.",
-    "The cumulative character read is ask when unclear / tell people when availability changes / acknowledge the answer or care / move on: a quiet footprint paired with conspicuous consideration for the shared room.",
+    "On August 30, 2021 Sara contributed the tiny Wall line `so much moo`; on December 31 she followed `HAPPY NEW YEAR!` with a `happy` sticker five seconds later.",
+    "The cumulative character read is compact but conspicuous participation: ask when unclear, acknowledge answers and care, contribute visually or affectively without needing long prose, and move on. A thin Daycare ledger does not equal social absence.",
   ]),
   antiFanon: appendUnique(base.antiFanon, [
-    "These June 2021 scenes come from same-ID Club-Only support material. Do not rewrite them as direct Daycare dialogue.",
+    "These 2021 scenes come from same-ID Club-Only support material, Lobby, Photo Submissions, and Wall. Do not rewrite them as direct Daycare dialogue.",
+    "Sara's June 6 image is POSTED BY SaraBunny only. Uninspected pixels do not establish MADE BY, CAPTURED BY, FEATURING, or visual content.",
+    "Reaction counts and reactor lists establish visible reception, not authorship, depicted identities, a closeness ranking, or contest placement.",
     "Sara's short reduced-activity notice does not establish anxiety, illness, work, school, family circumstances, formal attendance duty, or another private-life cause.",
     "Current/export role arrays do not establish Sara's appointment chronology or duties.",
     "Sye's later `:animethumbsup:` is source-order adjacency, not a reply to Sara, and is not counted as direct reassurance.",
