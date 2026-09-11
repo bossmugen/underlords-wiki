@@ -16,8 +16,6 @@ const requireIndex = (id: string, label: string): number => {
   return index;
 };
 
-// Wall: hard project canon keeps Sou / Souta / 颯太 / sou.san inside Ansun.
-// The new material is reputation + self-participation, not a second Sou dossier.
 const ansunIndex = requireIndex("ansun", "Ansun / Sou");
 const ansun = allCharacters[ansunIndex] as ExtendedCharacter;
 allCharacters[ansunIndex] = {
@@ -35,8 +33,6 @@ allCharacters[ansunIndex] = {
 } as ExtendedCharacter;
 characterById.set("ansun", allCharacters[ansunIndex]);
 
-// Louvre/QOTD: tiny direct preferences belong in structured Petty Crimes, not a
-// biography rewrite. Both answers are stable-account authored in the same prompt.
 const dayaIndex = requireIndex("daya", "Daya");
 const daya = allCharacters[dayaIndex] as ExtendedCharacter;
 allCharacters[dayaIndex] = {
@@ -49,21 +45,10 @@ allCharacters[dayaIndex] = {
 } as ExtendedCharacter;
 characterById.set("daya", allCharacters[dayaIndex]);
 
-const nemuIndex = requireIndex("nemu", "Nemu");
-const nemu = allCharacters[nemuIndex] as ExtendedCharacter;
-allCharacters[nemuIndex] = {
-  ...nemu,
-  tags: appendUnique(nemu.tags, ["Color preference", "Petty Crimes"]),
-  quotes: appendUnique(nemu.quotes, ["Blue and Black"]),
-  claims: appendUnique(nemu.claims, [
-    "In QOTD #338 (`Favorite color?`), Nemu directly answers `Blue and Black`. Keep it as a tiny preference, not personality symbolism.",
-  ]),
-} as ExtendedCharacter;
-characterById.set("nemu", allCharacters[nemuIndex]);
+// Nemu also directly answers `Blue and Black` in the same QOTD, but there is no
+// canonical public Nemu owner on this surface. Bank the fact rather than creating
+// a dossier from one preference answer.
 
-// Hard source-routing guard: a legacy pasted display-label block reading
-// `--Mimi 🥂|| Mia` is actually authored by stable account 255129891775102976
-// (annuh / ConfuLuna / mari). The visible label is not authorship.
 for (const id of ["mimi", "mia"]) {
   const index = allCharacters.findIndex((character) => character.id === id);
   if (index < 0) continue;
@@ -71,7 +56,7 @@ for (const id of ["mimi", "mia"]) {
   allCharacters[index] = {
     ...character,
     antiFanon: appendUnique(character.antiFanon, [
-      "Do not attribute `Yellow! 🌻🥂` from the legacy `--Mimi 🥂|| Mia` QOTD block to Mimi/Mia. The underlying message is authored by stable account 255129891775102976 (annuh / ConfuLuna / mari); pasted display labels are not identity proof.",
+      "Do not attribute `Yellow! 🌻🥂` from the legacy `--Mimi 🥂|| Mia` QOTD block to Mimi/Mia. The underlying message belongs to the annuh / ConfuLuna / mari account; pasted display labels are not authorship.",
     ]),
   } as ExtendedCharacter;
   characterById.set(id, allCharacters[index]);
