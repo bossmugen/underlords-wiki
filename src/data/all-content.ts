@@ -113,7 +113,7 @@ const run661Gags: Gag[] = [
     id: "wall-fame-moment",
     name: "The Wall Tries Fame",
     logline:
-      "The room is already calling shame `fame` in 2020, and by June 16, 2021 RV directly files two images with `No shame here, only fame and cuteness`. By September, Nai can ask when the last `FAME moment` was, the room can argue over Eos's wholesome precedent, and Nai can crown `I survived another day at work` as a Fame moment. The word was old; the positive-category ritual kept evolving.",
+      "The room is already calling shame `fame` in 2020. By March 13, 2021, Ren posts an image and says `*wall of fame*` eleven seconds later inside the same uninterrupted Ghoulie protest pocket—close enough to read as a probable Fame filing, even without a stored reply edge. June 16 gives the harder version: two images directly captioned `No shame here, only fame and cuteness`. By September, Nai can ask when the last `FAME moment` was and nominate `I survived another day at work`. The word was old; the positive category kept becoming more explicit.",
   },
 ];
 
