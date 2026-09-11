@@ -23,7 +23,7 @@ relationships.push(...(existing?.relationships ?? []));
 
 upsertRelationship({
   name: "Mugen",
-  note: "Nothien's 2020 departure scene leaves the door open in both directions: `I still have discord if you guys ever need someone to rant to or anything`; Mugen answers `You're welcome back anytime 🙂`. Care on the way out, return permission from the house; no closeness ranking required.",
+  note: "Mugen and Nothien have a recurring low-drama practical register. When Nothien says they can't put voice on because other people are around, Mugen answers `issok! that's exactly why we have this channel and club chat lol` instead of making them explain further. Later, Nothien leaves the human door open with `I still have discord if you guys ever need someone to rant to or anything`; Mugen answers `You're welcome back anytime 🙂`. The care is practical on both ends, not ceremonious.",
   href: "/characters/mugen",
 });
 upsertRelationship({
@@ -52,6 +52,7 @@ const next: ExtendedCharacter = {
   tags: appendUnique(existing?.tags, [
     "Whiskey",
     "Club Only",
+    "VC sidecar",
     "Lobby",
     "Return",
     "Practical care",
@@ -60,6 +61,7 @@ const next: ExtendedCharacter = {
   ]),
   relationships,
   quotes: appendUnique(existing?.quotes, [
+    "Can't put voice on, others here haha",
     "NO ONE CHECK WHISKY ROOM FOR TWO MINUTES PLEASE",
     "Please",
     "I still have discord if you guys ever need someone to rant to or anything",
@@ -67,6 +69,7 @@ const next: ExtendedCharacter = {
     "Nothien, Underlords(?), Member(?), decently old\nhello",
   ]),
   claims: appendUnique(existing?.claims, [
+    "On April 6, 2020, minutes after the Club Only text sidecar appears, Nothien says `Can't put voice on, others here haha`; Mugen replies eighteen seconds later that this is exactly why the text channel and club chat exist. The scene shows Nothien staying in the social event when speaking aloud is inconvenient, with no drama around the workaround.",
     "On April 6, 2020 Nothien asks Club Only not to check Whiskey for two minutes, repeats `Please`, then less than half a minute later posts the outward-facing care offer `I still have discord if you guys ever need someone to rant to or anything`. The staging supports sincere availability paired with comic embarrassment about being watched saying it.",
     "Gilli's `Nuuuuuu` and LilsatanSir's `Ok I did NOT see that last comment...` land inside the requested two-minute window. Timing and wording make same-scene peeking more likely than not, but neither surfaced message is a technical Reply to the Whiskey post.",
     "Mugen answers Nothien's open door with another one: `Thanks for the good times, Noth. You're welcome back anytime 🙂`.",
@@ -74,6 +77,7 @@ const next: ExtendedCharacter = {
     "On the 2023 return the same account uses literal question marks around `Underlords(?)` and `Member(?)`; Ren responds with immediate name recognition instead of resolving the category.",
   ]),
   antiFanon: appendUnique(existing?.antiFanon, [
+    "The Club Only voice-sidecar scene supports one ordinary real-life constraint and a low-drama workaround. Do not inflate it into a formal accessibility policy, a claim that Nothien was in voice at that exact moment, or a broader diagnosis/background inference.",
     "The two-minute-embargo scene supports embarrassment around visible earnestness in that scene; do not inflate it into global shyness, anxiety, or a diagnosis.",
     "Apr 4 is an earlier stable-ID server pin, not Nothien's join/origin date. Targeted failure to find an earlier Bouncer/onboarding object is not proof none existed.",
     "Gilli and LilsatanSir are probable same-scene reactions to the embargo/goodbye, not surfaced technical Discord Replies.",
