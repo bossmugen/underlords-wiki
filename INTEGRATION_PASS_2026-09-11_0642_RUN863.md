@@ -30,7 +30,7 @@ The existing Aeshleen owner was deepened rather than duplicated. `WONHO SUPREMAC
 - DarkAsrai was reconciled into canonical **Rose**; no duplicate owner was created.
 - Wall-local `Emi` remains unresolved and is not treated as an Erys alias.
 - Rookie q18 advanced backstage to **>=4 confirmed positive parents**. Denominator, negatives and rate remain unestablished; no leaderboard/ranking was published.
-- The Birthdays photoshoot packet tightened July 18, 2021 session/scheduling context but still does not identify the exact result artifact. No WIKI event was fabricated from that gap.
+- The Birthdays Photoshoot packet instead exposes a Jan. 17, 2021 result gap: the Dec. 29 schedule promises a winner / next-theme announcement on Jan. 17, but the current `photo-submissions` export has no Jan. 17 message and the surviving Jan. 17 `announcements` are unrelated. The Jan. 14 February-cycle notice shows the recurring machinery continuing, but does not prove cancellation, no winner, or no announcement elsewhere. Nhou's Jan. 8 entry/reactions are reception only, not judging evidence. No WIKI event was fabricated from the missing handoff.
 
 ## Surface split
 
