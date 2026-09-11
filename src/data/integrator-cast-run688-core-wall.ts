@@ -30,17 +30,11 @@ if (shikiIndex >= 0) {
       "When Shiki notices there is no teacher in Dojo for Puppet, he tells Mugen he can get the build to everyone as a `1 time visit`. The useful part is the instinct to cover the gap—and the fact that he explicitly bounds the offer instead of claiming the lane forever.",
     href: "/characters/mugen",
   });
-  upsertRelationship(relationships, {
-    name: "Nobu",
-    note:
-      "Shiki's self-appointed `Nobu's Manservant` bit works by immediately sabotaging its own hierarchy. Shiki talks about obeying his `master`, then admits he is a bad manservant; Nobu fires back that Shiki smacks him, uses him as a shield, and has no authority to stop him from anything. The comfort is in both of them arguing the premise while continuing it, not in a literal master/servant relationship.",
-    href: "/characters/nobu",
-  });
 
   allCharacters[shikiIndex] = {
     ...shiki,
     logline:
-      "Sensei in the lived sense: Shiki turns chat into classroom theater, notices uncovered teaching lanes and patches them without making the role about himself. Off duty, that same flat practical delivery makes spoon physics, Screenshot Court evasions, and a deliberately terrible `manservant` routine memorable enough to defeat his own attempts at staying less visible.",
+      "Sensei in the lived sense: Shiki turns chat into classroom theater, notices uncovered teaching lanes and patches them without making the role about himself. Off duty, that same flat practical delivery makes spoon physics and Screenshot Court evasions memorable enough to defeat his own attempts at staying less visible.",
     tags: [
       ...new Set([
         ...(shiki.tags ?? []),
@@ -52,7 +46,6 @@ if (shikiIndex >= 0) {
         "Visibility",
         "Deadpan absurdism",
         "Spoon physics",
-        "Nobu's Manservant",
         "Petty Crimes",
       ]),
     ],
@@ -67,8 +60,6 @@ if (shikiIndex >= 0) {
         "i always heat my spoon on fire",
         "i did nothing wrong",
         "ok off to work",
-        "I didn't say I am a good Manservant",
-        "I am doing my work as a manservant very poorly",
       ]),
     ],
     claims: [
@@ -79,17 +70,12 @@ if (shikiIndex >= 0) {
         "The 2020 Wall material sharpens Shiki's visibility contradiction rather than creating a new persona: the same person who later talks about waiting for `sleep mode` can casually produce `i always heat my spoon on fire`, then meet prosecution with `i did nothing wrong` and see/hear/know-nothing evasion.",
         "Shiki's spoon/microwave exchange works because he treats absurdity as a practical engineering matter. `i always heat my spoon on fire` lands like ordinary information, making the deadpan delivery itself part of why the line becomes Wall-ready.",
         "A separate `ok off to work` followed by a work-stress reaction adds mundane texture without resolving what job Shiki had; the useful character beat is how quickly ordinary logistics can turn into one more compact visual joke.",
-        "Shiki's 2020 `Nobu's Manservant` routine is self-authored roleplay whose punchline is that Shiki is visibly awful at the supposed job. `If my master tells me to hush` is followed by Shiki admitting he is a bad manservant, while Nobu lists the ways Shiki bonks, shields and argues with him. The contradiction is the character beat: Shiki declares a hierarchy mainly so both of them can break it in public.",
-        "In the same 2020 pocket Shiki says he stopped counting his age but `should be 24`; that is a historical self-report for that moment, not a current-age calculation.",
       ]),
     ],
     antiFanon: [
       ...new Set([
         ...(shiki.antiFanon ?? []),
         "Anayss's `my master ❤️` is playful teacher/master-shaped social language, not proof of a formal hierarchy.",
-        "Shiki's `Nobu's Manservant` / `master` language is a joke-role and recurring bit, not a formal UL role, governance relationship, employment arrangement, dependency claim, romance/sex claim, or BDSM dynamic.",
-        "The possible boyfriend wording in the same Wall pocket is not sufficient to identify a partner or create romance canon.",
-        "The screenshot in the Nobu pocket is POSTED BY Shiki only unless separate evidence resolves MADE BY, CAPTURED BY, or FEATURING.",
         "The Puppet / Dojo offer is prospective and explicitly bounded as a `1 time visit`; do not turn it into permanent Dojo ownership, a formal appointment, or proof that the visit later occurred.",
         "Do not infer appointment chronology from export-time or current role arrays.",
         "`ok off to work` establishes only that Shiki was going to work in that moment; it does not establish an occupation, employer, schedule, or career history.",
