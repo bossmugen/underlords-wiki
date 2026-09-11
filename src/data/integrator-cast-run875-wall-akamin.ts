@@ -26,7 +26,7 @@ const base: ExtendedCharacter =
         role: "Archive-era Wall cast",
         era: "2020–",
         logline:
-          "Low-volume Wall heckler whose few surviving lines arrive already pointed: spot the receipt, enjoy the prosecution, then turn a room-choice prompt into the extremely unambiguous `Whiskey` / `Always gonna be my drink bb`.",
+          "Low-volume Wall receipt gremlin whose few surviving lines arrive already pointed: notice the screenshot, enjoy the prosecution, drop the artifact, tag the accused, and keep the explanation short enough that everybody else has to deal with it.",
       };
 
 const relationships = [...(base.relationships ?? [])];
@@ -48,12 +48,14 @@ const next: ExtendedCharacter = {
   role: base.role || "Archive-era Wall cast",
   era: base.era || "2020–",
   logline:
-    "Low-volume Wall heckler whose few surviving lines arrive already pointed: spot the receipt, enjoy the prosecution, then turn a room-choice prompt into the extremely unambiguous `Whiskey` / `Always gonna be my drink bb`.",
+    "Low-volume Wall receipt gremlin whose few surviving lines arrive already pointed: notice the screenshot, enjoy the prosecution, drop the artifact, tag the accused, and keep the explanation short enough that everybody else has to deal with it.",
   tags: unique([
     ...(base.tags ?? []),
     "Archive cast",
     "Wall",
     "Receipt-noticer",
+    "Artifact-first",
+    "Direct tagger",
     "Low-volume heckler",
     "Whiskey",
     "Petty Crimes",
@@ -65,16 +67,19 @@ const next: ExtendedCharacter = {
     "Whiskey",
     "Always gonna be my drink bb",
     "I see the screenshot:Hehe:",
+    "recorded it, pls don't ban me",
   ]),
   claims: unique([
     ...(base.claims ?? []),
     "On October 14, 2020, Akamin joins a Wall prosecution pocket with `Ooh she innocent huh..tell em snoop`; when Mugen routes the conversation toward whiskey-room or club-only, Akamin answers `Whiskey` and follows with `Always gonna be my drink bb`. A later `I see the screenshot:Hehe:` reinforces the same compact receipt-aware mischievousness.",
+    "The same economy survives later Wall years. Across scattered 2022–2024 appearances, Akamin repeatedly enters through the artifact itself: a URL or video, a direct tag for whoever is now involved, then a tiny caption or reaction instead of a speech. January 2024 gets the cleanest self-aware version — `recorded it, pls don't ban me` — followed by more links. By December, a Google Drive video plus direct tags and an amused reaction is enough to restart the mechanism. Low message volume does not make Akamin passive; a lot of the participation is the filing.",
   ]),
   antiFanon: unique([
     ...(base.antiFanon ?? []),
     "Akamin and Mere / Merameshi are separate people. Never merge them from name proximity or source-local display labels.",
     "`Whiskey` / `Always gonna be my drink bb` is a direct stated preference. It does not establish drinking frequency, intoxication, dependence, or any medical/behavioral diagnosis.",
     "`tell em snoop` is mock-prosecution language, not a formal role or governance title.",
+    "Akamin's later URLs and videos are POSTED BY Akamin. Do not upgrade them to MADE BY / CAPTURED BY / FEATURING without object-level support, and do not infer a relationship rank from who gets tagged into a filing.",
   ]),
 };
 
