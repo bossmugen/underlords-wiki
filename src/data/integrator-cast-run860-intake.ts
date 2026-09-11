@@ -156,3 +156,43 @@ if (hamiIndex >= 0) {
   } as ExtendedCharacter;
   characterById.set("hamittey", allCharacters[hamiIndex]);
 }
+
+upsert({
+  id: "xanthos",
+  name: "Xanthos",
+  aliases: [],
+  billing: "legacy",
+  role: "Archive-era event / game-side cast",
+  era: "2020–2021+",
+  logline:
+    "A human alarm bell with enough social permeability to let the alarm become the joke: Xanthos repeatedly turns event timing into an immediate next move—log on, place bets, buff up, use this route, check these rules—then, when `Dragon Lure` gets misread as `dragon lube`, checks whether the typo was actually theirs and joins the derail with a lube emote anyway.",
+  tags: ["Archive cast", "Announcements", "Lived role", "Event activation", "Practical routing", "Petty Crimes"],
+  relationships: [
+    {
+      name: "Drink water reminder",
+      note:
+        "After Xanthos announces Dragon Lure, Drink water reminder admits reading it as `dragon lube`. Xanthos first checks `did i say lube????`; once told no, Xanthos posts `:5332_lube:` anyway. The exchange is quick derail-and-join banter: useful information does not need to be defended from becoming stupid.",
+    },
+  ],
+  quotes: [
+    "Land of Conquest in 15 mins!!!",
+    "DEMO CLUB NOW!!",
+    "PLACE YA BETS",
+    "BUFF UP AND CLAIM DUCKYYY",
+    "LOG ON TO GET REWARDS",
+    "did i say lube????",
+    ":5332_lube:",
+  ],
+  claims: [
+    "Across surviving Announcements from April 2020 through July 2021, Xanthos repeatedly writes action-shaped event reminders, deadline routing, practical game clarification, and at least one audience-interest check before a possible Luca stream.",
+    "The cumulative person read is activation-first communication: Xanthos tends not merely to say that something exists, but to make the next move legible enough that people can act on it.",
+    "On 2020-11-07, a Dragon Lure reminder becomes a `dragon lube` misread; Xanthos verifies that the typo was not actually theirs and then joins the joke with `:5332_lube:`. The scene supports operational usefulness without social stiffness.",
+  ],
+  antiFanon: [
+    "Announcement authorship does not establish that Xanthos created every event, contest, or game activity being announced.",
+    "Recurring event activation and routing are lived behavior; they are not used to infer appointment chronology from export-time/current role arrays.",
+    "The Luca reaction-interest check is an audience-interest prompt, not proof that a stream happened or that any reactor attended.",
+    "`Dragon Lube` is a misread/joke chain, not an event name, identity label, sexual claim, or recurring trait beyond this scene.",
+    "Earliest surviving reminder is not guaranteed origin.",
+  ],
+});
