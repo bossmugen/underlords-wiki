@@ -5,7 +5,7 @@
 Run 890 reconciled three advanced miner frontiers from the shared MAIN intake system:
 
 - Core `archive-miner/core-rooms-events-a91f-20260824`: reviewed through `f71322cf53c402c023547f34d8fd517e2accae1d`.
-- Wall `archive-miner-wall-hourly-20260824`: reviewed through `02d9756c342216393aa971bbbb80253ab12bad38`.
+- Wall `archive-miner-wall-hourly-20260824`: reviewed through `d83cbe3b098b4cfc433eea2aedc7a0223a9f1d37`, including the final late Plushie/Woohyuk tail caught by closing census.
 - Daycare `archive-miner/daycare-2020-2026-hourly`: reviewed through `ae661e1c018bf7c985b57f0f25e8d7153507ccaa`.
 
 All were handled checkpoint-first and intake-only. No miner branch was merged wholesale and no raw archive was re-mined.
@@ -24,6 +24,14 @@ Deepened the existing canonical Bishop owner with the recurring Bishop↔Tofu Wa
 
 The relationship stays reciprocal teasing/prosecution texture. It is not promoted into romance, sexual history, hostility or a closeness ranking. Unknown screenshot contents remain unattributed beyond their safe posting provenance.
 
+### Late Wall tail — banked, not forced
+
+Plushie / Amaurot gained a compact person-shaped arc: `What’s this channel for?` → Rookie Cookie explains the Wall → `Okie doki` → minutes later `Snow u saw nothing UwU` when the room is told to move the chatter elsewhere. The useful read is literal newcomer orientation turning almost immediately into playful participation once the local rule is legible. `The panda is both adorable and dangerous` adds a second flash of dry phrasing, but the nearby Rookie attachment remains uninspected.
+
+The entire surviving Wall footprint is only 13 Plushie-authored messages, so no standalone Cast owner was manufactured. This stays banked for a future person-first owner if surrounding material grows.
+
+Woohyuk q18 gained two exact structured positive-parent IDs, but the historical lower bound remains **≥5** until older set membership is reconciled. No fake ≥6/≥7 arithmetic and no rate.
+
 ### Daycare duplicate handling
 
 The Yochan pocket was already represented in the canonical WIKI owner: oink voice, SEA-server answer, Europe kindness read, food/pumpkin preferences, and Candy's mundane check-in/banter. No duplicate prose was added. CookieStream identity searching did not justify a new identity bridge, and quiet-window material stayed backstage.
@@ -31,6 +39,7 @@ The Yochan pocket was already represented in the canonical WIKI owner: oink voic
 ## Held rabbits
 
 - Pride corpse/body-loss material advanced but remains unresolved on the unseen object/person/medium and exact trigger. No public unknown-media reconstruction.
+- Woohyuk q18 remains open at ≥5 positives; newly named positives are provenance, not permission to inflate the historical set.
 - CookieStream identity remains at its prior safe state; no merge from similarity/noisy search.
 - Quiet-window results remain channel-local and do not establish a communal disappearance.
 
@@ -44,4 +53,4 @@ Exact reader commit containing both accepted public integrations: `c3e2bbc1c8233
   - deploy `103454145282`: success
   - report/status `103454226599`: success
 
-This report is docs-only and sits above the exact verified reader commit.
+The final Wall tail required no reader change. This report is docs-only and sits above the exact verified reader commit.
