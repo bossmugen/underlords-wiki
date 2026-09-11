@@ -1,4 +1,4 @@
-import { allCharacters, characterById } from "./cast";
+import { allCharacters, castGroups, characterById } from "./cast";
 import type { Character } from "./wiki";
 
 type ExtendedCharacter = Character & {
@@ -8,6 +8,17 @@ type ExtendedCharacter = Character & {
 
 const appendUnique = (items: string[] | undefined, additions: string[]) =>
   [...new Set([...(items ?? []), ...additions])];
+
+const mergeRelationships = (
+  first: Character["relationships"] | undefined,
+  second: Character["relationships"] | undefined,
+) => {
+  const merged = [...(first ?? [])];
+  for (const relationship of second ?? []) {
+    if (!merged.some((current) => current.name === relationship.name)) merged.push(relationship);
+  }
+  return merged;
+};
 
 // DAYCARE — BishopThaGuru
 // Deepens the existing canonical Bishop owner with ordinary-life texture rather
@@ -61,3 +72,55 @@ allCharacters[gilliIndex] = {
   ]),
 } as ExtendedCharacter;
 characterById.set("gilli", allCharacters[gilliIndex]);
+
+// LATE WALL — Alkey / Meowk identity reconciliation + person-shaped deepening
+// Stable account 264889543365230614 / username `itsalkey` is canonical Alkey.
+// MAIN already carries Meowk as the same person's display name. A prior WIKI
+// overlay accidentally materialized `meowk` as a second card; fold it home here.
+let alkeyIndex = allCharacters.findIndex((character) => character.id === "alkey");
+if (alkeyIndex < 0) {
+  throw new Error("Run 840 expected canonical Alkey; refusing to keep Meowk as a separate person.");
+}
+
+const duplicateMeowkIndex = allCharacters.findIndex((character) => character.id === "meowk");
+if (duplicateMeowkIndex >= 0) {
+  const alkey = allCharacters[alkeyIndex] as ExtendedCharacter;
+  const meowk = allCharacters[duplicateMeowkIndex] as ExtendedCharacter;
+  const mergedAlkey: ExtendedCharacter = {
+    ...alkey,
+    aliases: appendUnique(alkey.aliases, ["Meowk", "Meowk 💖✨", ...(meowk.aliases ?? [])]),
+    tags: appendUnique(alkey.tags, meowk.tags ?? []),
+    relationships: mergeRelationships(alkey.relationships, meowk.relationships),
+    quotes: appendUnique(alkey.quotes, meowk.quotes ?? []),
+    claims: appendUnique(alkey.claims, meowk.claims ?? []),
+    antiFanon: appendUnique(alkey.antiFanon, [
+      ...(meowk.antiFanon ?? []),
+      "Meowk / `itsalkey` is Alkey, not a second Cast member. Alkey remains distinct from Key / Captain Chihuahua.",
+    ]),
+  };
+  allCharacters[alkeyIndex] = mergedAlkey;
+  allCharacters.splice(duplicateMeowkIndex, 1);
+  for (const group of castGroups) {
+    group.characterIds = group.characterIds.filter((id) => id !== "meowk");
+  }
+  characterById.delete("meowk");
+  alkeyIndex = allCharacters.findIndex((character) => character.id === "alkey");
+}
+
+const alkey = allCharacters[alkeyIndex] as ExtendedCharacter;
+allCharacters[alkeyIndex] = {
+  ...alkey,
+  aliases: appendUnique(alkey.aliases, ["Meowk", "Meowk 💖✨", "itsalkey"]),
+  tags: appendUnique(alkey.tags, ["Nostalgia", "Petty heckler", "Petty Crimes"]),
+  quotes: appendUnique(alkey.quotes, ["The good ol' days", "3 foot lookin", "You all suck :myv_Reeeeee:"]),
+  claims: appendUnique(alkey.claims, [
+    "Stable account 264889543365230614 / username `itsalkey` is canonical Alkey, whose later Meowk display belongs to the same person. The WIKI must not split Meowk into a second character.",
+    "A March–April 2021 Wall set adds a compact contradiction to Alkey's existing tough-soft file: he can simply say `The good ol' days` in an old-memory pocket, then switch days later into a rapid RV-directed height roast and the whole-room `You all suck :myv_Reeeeee:`. The useful pattern is nostalgia-soft callback participation beside efficient petty clowning.",
+  ]),
+  antiFanon: appendUnique(alkey.antiFanon, [
+    "The RV-directed height roast is teasing language, not literal height, medical description, or a special relationship rank.",
+    "`The good ol' days` supports a sentimental callback register but does not identify the exact remembered origin or prove every old-memory scene has the same emotional weight.",
+    "Alkey / Meowk is not Key / Captain Chihuahua; similar names never bridge those two people.",
+  ]),
+} as ExtendedCharacter;
+characterById.set("alkey", allCharacters[alkeyIndex]);
