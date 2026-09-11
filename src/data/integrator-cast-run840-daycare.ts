@@ -20,10 +20,20 @@ const mergeRelationships = (
   return merged;
 };
 
+const upsertRelationship = (
+  relationships: Character["relationships"] | undefined,
+  relationship: NonNullable<Character["relationships"]>[number],
+) => {
+  const merged = [...(relationships ?? [])];
+  const index = merged.findIndex((current) => current.name === relationship.name);
+  if (index >= 0) merged[index] = { ...merged[index], ...relationship };
+  else merged.push(relationship);
+  return merged;
+};
+
 // DAYCARE — BishopThaGuru
-// Deepens the existing canonical Bishop owner with ordinary-life texture rather
-// than creating another event blob. East Coast is already public and therefore
-// remains corroboration rather than a second claim family.
+// The actual late-Daycare handoff deepens Bishop's existing Tofu relationship:
+// Wall-liability comedy sits beside a genuinely softer shared-practice moment.
 const bishopIndex = allCharacters.findIndex((character) => character.id === "bishopthaguru");
 if (bishopIndex < 0) {
   throw new Error("Run 840 expected the existing canonical BishopThaGuru owner; refusing to create Bishop II.");
@@ -32,26 +42,36 @@ if (bishopIndex < 0) {
 const bishop = allCharacters[bishopIndex] as ExtendedCharacter;
 allCharacters[bishopIndex] = {
   ...bishop,
-  tags: appendUnique(bishop.tags, ["Petty Crimes", "Food & drink", "Tiny preferences"]),
+  tags: appendUnique(bishop.tags, ["Tofu", "Waltz teacher", "Self-aware comedian", "Petty Crimes"]),
+  relationships: upsertRelationship(bishop.relationships, {
+    name: "Tofu",
+    note:
+      "Their rhythm works even outside Screenshot Court. Bishop once called teaching Tofu to waltz `a lot cuter than expected`; Tofu was among the blush reactions, and the same stretch of conversation has the two of them batting Bishop's Wall-liability jokes back and forth. Soft little practice moment, same two idiots immediately turning attention into a bit.",
+    href: "/characters/tofu",
+  }),
   quotes: appendUnique(bishop.quotes, [
-    "I hate black mirrors but glass ones I can tolerate",
+    "Why? What have you heard? Who you talk to? You with the feds?",
+    "I am something of a comedian myself. 😏",
+    "Is that a compliment, or a warning?",
+    "Teaching @Tofu🐝 to Waltz turned out to be a lot cuter than expected... ☺️",
+    "Personally, I think we should bring back heiroglyohics.... Or... Yeah that word ....",
   ]),
   claims: appendUnique(bishop.claims, [
-    "On February 4, 2021, Bishop's self-posted `A list` mixed orange, apple, and pineapple juice with Red Bull, water, lemon-pepper chicken wings, and Smirnoff Ice. It is useful ordinary-life taste texture, not a complete diet, shopping list, or health profile.",
-    "Later the same day Bishop wrote `I hate black mirrors but glass ones I can tolerate`, a wonderfully specific little preference that belongs in Petty Crimes more than in any grand personality theory.",
-    "Bishop also answered `East Coast` when asked where he was from on May 13, 2021. This was already public in the canonical Bishop dossier before Run 840 and is retained as corroboration, not duplicated as a new discovery.",
+    "In late June 2021, Tofu tells Bishop he will never stop being funny and that anything involving him is bound to end up on the Wall. Bishop feeds the reputation instead of retreating from it: `Why? What have you heard? Who you talk to? You with the feds?`, `I am something of a comedian myself`, and `Is that a compliment, or a warning?` all turn being watched/postable into material for the next joke.",
+    "On July 19, 2021, stable account 362396877502808064 / `bishopthaguru` posts `Teaching @Tofu🐝 to Waltz turned out to be a lot cuter than expected... ☺️` with an attachment. Bishop SAID he was teaching Tofu and POSTED the image; maker/capturer/depicted-subject claims remain unassigned.",
+    "Bishop's `Personally, I think we should bring back heiroglyohics.... Or... Yeah that word ....` turns his own spelling stumble into the joke instead of quietly correcting it — useful Petty Crimes texture, not a literacy claim.",
   ]),
   antiFanon: appendUnique(bishop.antiFanon, [
-    "Bishop's February `A list` is one dated self-posted list. Do not inflate it into a complete diet, routine, medical inference, or claim that every listed item was consumed together.",
-    "The black-mirror versus glass-mirror line is a tiny stated preference, not a diagnosis, phobia label, or broader sensory profile.",
+    "Bishop and Tofu's affectionate/flirt-shaped joking plus the waltz post support comfortable teasing and shared-practice warmth. They do not establish romance, sex, exclusivity, or a formal relationship label.",
+    "Bishop's waltz attachment remains POSTED BY Bishop only. The handoff did not visually establish who made or captured it or who is depicted beyond Bishop's own statement that he was teaching Tofu to waltz.",
+    "The `heiroglyohics` self-own is humor texture, not a broad claim about intelligence or literacy.",
   ]),
 } as ExtendedCharacter;
 characterById.set("bishopthaguru", allCharacters[bishopIndex]);
 
 // DAYCARE — Gilli historical-account bridge
-// Stable account 531846053179736074 rendered as Mr. Streamer / Watch_My_Thrust.
-// A lowercased `gilli69` Spotify username in the same account trail provides the
-// direct identity bridge into canonical Gilli. `uwuconner` remains unresolved.
+// A moderation-bot response directly binds Gilli#8635 to stable account
+// 615878920583249920 / `ulstreamer` / `Mr. Streamer (Gabu's Chair)`.
 const gilliIndex = allCharacters.findIndex((character) => character.id === "gilli");
 if (gilliIndex < 0) {
   throw new Error("Run 840 expected the existing canonical Gilli owner; refusing to create an old-account duplicate.");
@@ -60,15 +80,17 @@ if (gilliIndex < 0) {
 const gilli = allCharacters[gilliIndex] as ExtendedCharacter;
 allCharacters[gilliIndex] = {
   ...gilli,
-  aliases: appendUnique(gilli.aliases, ["Mr. Streamer", "Watch_My_Thrust"]),
+  aliases: appendUnique(gilli.aliases, ["Gilli#8635", "Mr. Streamer (Gabu's Chair)", "ulstreamer"]),
   tags: appendUnique(gilli.tags, ["Historical account"]),
   claims: appendUnique(gilli.claims, [
-    "Stable Discord account 531846053179736074, historically rendered `Mr. Streamer` / `Watch_My_Thrust`, belongs to canonical Gilli. The account trail includes the lowercased Spotify username `gilli69`, providing the direct bridge rather than a same-name guess.",
+    "Gilli's older Discord account is stable ID 615878920583249920, rendered in the export as username `ulstreamer`, nickname `Mr. Streamer (Gabu's Chair)`, and historical tag `Gilli#8635`. The bridge is direct: on November 10, 2020, Gilli's separately indexed newer account 585466495757451284 / `gilli06016` targets that exact older account with `Eli jail`, and the immediate moderation-bot response reports `Jailed Gilli#8635` while naming `@Mr. Streamer (Gabu's Chair) (ID: 615878920583249920)` as the jailed user.",
+    "The old Gilli account also appears in an August 2020 Lobby welcome, later Club-Only activity, and 2022 Wall screenshot posts. These are account-history waypoints, not first-arrival or appointment chronology.",
   ]),
   antiFanon: appendUnique(gilli.antiFanon, [
-    "Do not create a separate Mr. Streamer or Watch_My_Thrust person from stable account 531846053179736074; it is a resolved historical Gilli account.",
-    "The nearby `uwuconner` route remains unresolved. Do not merge it into Gilli without an independent stable bridge.",
-    "Historical display names and account identifiers do not establish appointment dates, role chronology, or a change in Gilli's underlying identity.",
+    "Do not create a separate Mr. Streamer (Gabu's Chair) person from stable account 615878920583249920; the moderation response resolves it as Gilli's older Discord account.",
+    "Keep Gilli's old stable ID 615878920583249920 and newer stable ID 585466495757451284 distinct in forensic/account-history records even though they belong to the same person.",
+    "The origin or meaning of the nickname `Gabu's Chair` remains unresolved; it is not literal ownership, kinship, romance, or role evidence.",
+    "The pooled Deleted User / bot-surrogate ID in the moderation export is not promoted as Eli's original bot identity, and export-time role arrays do not establish appointment chronology.",
   ]),
 } as ExtendedCharacter;
 characterById.set("gilli", allCharacters[gilliIndex]);
