@@ -21,8 +21,9 @@ const upsertRelationship = (
 
 // Run 945 late-tail integration. Ren's Kahoot packet is a compact operations repair
 // scene; Kiro's Daycare/Wall packet turns a tiny direct-room footprint into a coherent
-// anti-defensive humor read. MAIN deliberately waits rather than manufacturing narrow
-// receipt paragraphs where the person-level biographies already need broader synthesis.
+// anti-defensive humor read. A later Wall tail deepens Mimi / Opalite's practical-helper
+// contradiction. MAIN deliberately waits rather than manufacturing narrow receipt
+// paragraphs where the person-level biographies already need broader synthesis.
 
 const renIndex = allCharacters.findIndex((character) => character.id === "ren");
 if (renIndex < 0) {
@@ -98,3 +99,49 @@ allCharacters[kiroIndex] = {
   ]),
 } as ExtendedCharacter;
 characterById.set("kiro", allCharacters[kiroIndex]);
+
+const mimiIndex = allCharacters.findIndex((character) => character.id === "mimi");
+if (mimiIndex < 0) {
+  throw new Error("Run 945 expected repaired canonical Mimi owner; stable account 783389804079349800 must not be folded into Mia.");
+}
+
+const mimi = allCharacters[mimiIndex] as ExtendedCharacter;
+const mimiRelationships = [...(mimi.relationships ?? [])];
+
+upsertRelationship(mimiRelationships, {
+  name: "Mugen",
+  note:
+    "Mimi's practical instinct is fast and conditional rather than preachy. During Mugen's music-marathon experiment she first says `take a break for a day`; when Mugen replies that they are deliberately testing how long they can keep it going, Mimi pivots thirteen seconds later to `you can do dis`. She checks the human first, then happily joins the nonsense once she knows the nonsense is intentional.",
+  href: "/characters/mugen",
+});
+
+allCharacters[mimiIndex] = {
+  ...mimi,
+  logline:
+    "Practical micro-helper with a very short runway from concern to chaos: Mimi will tell you to take a break, learn the ridiculous thing is intentional, and be cheering it on thirteen seconds later.",
+  tags: appendUnique(mimi.tags, [
+    "Practical helper",
+    "Care-first",
+    "Fast-turn chaos cheerleader",
+    "Petty Crimes",
+  ]),
+  relationships: mimiRelationships,
+  quotes: appendUnique(mimi.quotes, [
+    "take a break for a day",
+    "you can do dis",
+    "Hastag then space",
+    "Omg why does it say designer- I’m lawyer",
+  ]),
+  claims: appendUnique(mimi.claims, [
+    "Mimi / Opalite's February 2023 music-marathon exchange catches her practical-care reflex and her willingness to pivot with context. She tells Mugen `take a break for a day`; after Mugen explains the all-night music is a deliberate endurance experiment, Mimi answers `you can do dis` thirteen seconds later. The reversal is the point: check first, then cheer once the intent is clear.",
+    "A separate September 2023 formatting pocket likely has Mimi answering Cele's `How to u make giAnt letters :0` with hash-and-space instructions including `Hastag then space`. The messages are adjacent rather than structured Replies, so the helper read is strong contextual inference rather than a reply-edge claim.",
+    "In April 2023 Mimi protests a `designer` label with `Omg why does it say designer- I’m lawyer`; Mugen later true-replies to that exact parent with `Sir you made the banner I -`. The safe read is a peer-attributed, unspecified banner contribution plus Mimi laughing at the label mismatch—not creator credit for any specific UL asset.",
+  ]),
+  antiFanon: appendUnique(mimi.antiFanon, [
+    "Hard identity lock: Mimi / Opalite Honey / `opalite.honey` / `༯` is stable account 783389804079349800 and is not Mia. The miner packet's `Opalite / Mia / Mimi / Miaka / ༯` label is a continuity error; Mia remains stable account 439628808545632256 and her aliases stay separate.",
+    "Mugen's `Sir you made the banner I -` attributes an unspecified banner to Mimi. Do not identify that banner as the UL guild/server icon, the nearby IMG_2830.png, or any other specific asset without a provenance join; Mugen's user-confirmed creator credit for the guild visual remains untouched.",
+    "`I’m lawyer` is Mimi's scene-level self-description in this Wall pocket, not enough by itself to publish a formal real-world occupation.",
+    "The break-advice-to-cheerleader pivot is context-sensitive behavior, not a blanket sleep/health rule or a general endorsement of all-nighters.",
+  ]),
+} as ExtendedCharacter;
+characterById.set("mimi", allCharacters[mimiIndex]);
