@@ -47,6 +47,7 @@ if (eosIndex >= 0) {
       "Counter-roast",
       "Self-prosecution",
       "Receipt-dealer contradiction",
+      "Caught-in-4K continuity",
       "Petty Crimes",
     ]),
     relationships,
@@ -62,6 +63,9 @@ if (eosIndex >= 0) {
       "Take zhenyan :sippp:",
       "@Marian Kage you’ve been… sort of spared",
       "Debating on sending more",
+      "The moment you pinged me I knew I was gonna get caught in 4k lmaooo",
+      "I have a habit in finding people caught in 4k huh?",
+      "Got him again",
     ]),
     claims: appendUnique(eos.claims, [
       "Across 2021-09-07, 2021-12-09, and 2022-09-05, Rich/Ricochet repeatedly cues Eos with minimal setup and she immediately co-signs the bit, supporting a recurring low-bandwidth shared-context rhythm.",
@@ -70,6 +74,7 @@ if (eosIndex >= 0) {
       "On 2021-06-07 Eos self-starts a Wall post with `gonna just put myself here and head out-`, reinforcing a recurring mock-surrender / active-authorship pattern rather than a passive-only Wall-target role.",
       "On 2021-06-17 Eos answers Marian's Wall post with `i said dont look`, then about four minutes later posts an image herself with `Take zhenyan` and tells Marian `you’ve been… sort of spared`; this is a particularly clean target-to-filer pivot.",
       "On 2021-07-07, after Baby Lyssa reacts to the current material with `bruh` / `what did i just read`, Eos says `Debating on sending more`; Gilli answers `@Eos donit`. By December, Rich can simply tell Eos it is time to `punish a panda` and Eos directly replies by summoning Marian.",
+      "The `caught in 4k` language is longitudinal rather than a one-night joke: on 2021-03-31 Eos says a ping made her know she was about to get caught; on 2021-07-15 she calls finding other people caught in 4k a habit; and on 2022-12-05 she is still filing another catch with `Got him again`. The durable contradiction is target and catcher at once.",
     ]),
     antiFanon: appendUnique(eos.antiFanon, [
       "Rich/Eos co-signing is comfortable shared-context comedy, not romance or a formal enforcer role.",
@@ -78,6 +83,7 @@ if (eosIndex >= 0) {
       "The `dead_corpse.png`, `Untitled.png`, Marian's 2021-06-17 image, and Eos's `Take zhenyan` image are only attributed at POSTED BY level here unless another source independently establishes MADE BY / CAPTURED BY / FEATURING.",
       "Eos's `divorced` language in the July receipt pocket is UL joke/social language, not evidence of a legal marriage, sexuality, or real-world relationship status.",
       "Being repeatedly recruitable into Wall teasing is social reputation, not a formal Wall role, office, or governance authority.",
+      "The recurring `caught in 4k` pattern is social reputation and joke behavior, not a formal moderation, surveillance, or archival role; unseen exhibits remain uninspected.",
       "These support receipts are Wall chronology used to deepen Eos; they are not relabeled as direct Daycare dialogue.",
     ]),
   } as ExtendedCharacter;
