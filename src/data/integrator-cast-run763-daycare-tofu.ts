@@ -74,7 +74,7 @@ allCharacters[tofuIndex] = {
     ...(tofu.quotes ?? []),
     "No context.",
     "At least pace yourself",
-    "Maybe ^^^",
+    "Maybe ^^",
     "Bet! I got nothing to hide",
     "I posted it@so@quick I didn’t crop it wells",
     "PUTTING ME ON BLAST!",
