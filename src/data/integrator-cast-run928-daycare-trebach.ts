@@ -43,7 +43,6 @@ const trebachCharacter: ExtendedCharacter = {
       name: "Cely",
       note:
         "Cely gets an easy, affectionate friendship lane: check-ins, teasing, playful compliments, and the December 2020 attention pocket where Cely keeps asking about the birthday situation while Trebach goes `waaa` and admits `dont focus on me im not good with attention.` The warmth is real; the archive does not require turning casual affection into romance.",
-      href: "/characters/cely",
     },
     {
       name: "Gilli",
@@ -55,7 +54,6 @@ const trebachCharacter: ExtendedCharacter = {
       name: "Ham",
       note:
         "Ham reads Trebach as `tee bark` in June 2021. Trebach says they had never even thought of it; when Cely asks whether they dislike `tee bark`, Trebach answers `i love it.` One pocket, one accepted stupid little name joke, no need to manufacture a larger nickname mythology.",
-      href: "/characters/ham",
     },
   ],
   quotes: [
@@ -79,6 +77,7 @@ const trebachCharacter: ExtendedCharacter = {
     "The Sims art room, skills, strip club, and 98k belong to the game. Do not translate them into real-world work, money, or biography.",
     "The June 2021 removal exchange is lived social friction, not enough by itself to assign formal governance blame, disciplinary procedure, or an officer decision chain.",
     "No authored Daycare Trebach message survives after 2021-06-18 in the assigned stable-account slice. That is a source boundary, not proof that Trebach disappeared from UL entirely after that date.",
+    "Cely and Ham stay as Daycare display-name relationships here without WIKI hrefs; this pass does not infer an account-identity bridge from similar names or nearby public owners.",
   ],
 };
 
