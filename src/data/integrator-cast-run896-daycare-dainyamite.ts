@@ -1,0 +1,105 @@
+import { allCharacters, castGroups, characterById } from "./cast";
+import type { Character } from "./wiki";
+
+type ExtendedCharacter = Character & {
+  claims?: string[];
+  antiFanon?: string[];
+};
+
+const appendUnique = (items: string[] | undefined, additions: string[]) => [
+  ...new Set([...(items ?? []), ...additions]),
+];
+
+const upsertRelationship = (
+  relationships: NonNullable<Character["relationships"]>,
+  relationship: NonNullable<Character["relationships"]>[number],
+) => {
+  const index = relationships.findIndex((candidate) => candidate.name === relationship.name);
+  if (index >= 0) relationships[index] = relationship;
+  else relationships.push(relationship);
+};
+
+const dainId = "dainyamite";
+const aliases = ["Daithi", "gnocchi_arron"];
+const existingIndex = allCharacters.findIndex(
+  (character) =>
+    character.id === dainId ||
+    character.name === "Dainyamite" ||
+    (character.aliases ?? []).some((alias) => aliases.includes(alias)),
+);
+
+const base: ExtendedCharacter =
+  existingIndex >= 0
+    ? (allCharacters[existingIndex] as ExtendedCharacter)
+    : {
+        id: dainId,
+        name: "Dainyamite",
+        aliases,
+        billing: "legacy",
+        role: "Archive-era UL member",
+        era: "2021–2022+",
+        logline: "",
+      };
+
+const relationships = [...(base.relationships ?? [])];
+upsertRelationship(relationships, {
+  name: "Ren",
+  note: "Dain plants the mint-chocolate flag, then immediately checks whether Ren's enthusiastic answer is sarcasm instead of deciding he has been mocked. Once Ren confirms she genuinely loves mint-choco chip, the caution vanishes into delighted keyboard-noise. Strong opinion, careful read of the person in front of him.",
+  href: "/characters/ren",
+});
+upsertRelationship(relationships, {
+  name: "Gilli",
+  note: "Gilli tells him directly that mint and chocolate together are terrible. Dain answers with a mint-ice-cream GIF and then complains that the GIF search is mostly Cookie Run. The disagreement survives by becoming a bit rather than a fight.",
+  href: "/characters/gilli",
+});
+
+const dain: ExtendedCharacter = {
+  ...base,
+  id: base.id || dainId,
+  name: base.name || "Dainyamite",
+  aliases: appendUnique(base.aliases, aliases),
+  billing: base.billing || "legacy",
+  role: base.role || "Archive-era UL member",
+  era: base.era || "2021–2022+",
+  logline:
+    "Opinionated enough to defend mint chocolate in public, socially careful enough to stop and ask whether somebody is actually being sarcastic. Once the tone is clear, Dainyamite gets openly delighted; when challenged, he reaches for a GIF and a joke instead of turning dessert into a blood feud.",
+  tags: appendUnique(base.tags, [
+    "Archive cast",
+    "Daycare",
+    "Club Only",
+    "Tone-reader",
+    "Food opinions",
+    "Reaction GIFs",
+    "Petty Crimes",
+  ]),
+  relationships,
+  quotes: appendUnique(base.quotes, [
+    "mint choco is good 😮",
+    "uhhh i can't tell if this is sarcasm or not 😅",
+    "oooooooooooooooooo :Cat_Sporkle:",
+    "lmao you look up minto choco in gifs and its all cookie run 😂",
+  ]),
+  claims: appendUnique(base.claims, [
+    "Stable account 280227622645006336 bridges Dainyamite / Daithi / `gnocchi_arron` across the reviewed support material. His surviving Daycare ledger contains 83 authored messages from August 2021 through December 2022.",
+    "On January 4, 2022 Dainyamite states `mint choco is good 😮`. When Ren replies enthusiastically, he asks whether she is being sarcastic rather than assuming the answer's tone. Ren explicitly says she is sincere and also likes mint-choco chip; Dain's response flips immediately into delighted keyboard-noise.",
+    "Later in the same room, Gilli tells Dainyamite she hates mint and chocolate together. He true-replies with a mint-ice-cream GIF, then jokes that searching for mint-choco GIFs mostly returns Cookie Run.",
+    "The cumulative person read is confident taste paired with careful social reading. Dain is willing to have a categorical opinion without manufacturing hostility out of ambiguous tone, and his food-defense style here is playful/media-driven rather than argumentative.",
+  ]),
+  antiFanon: appendUnique(base.antiFanon, [
+    "The Ren and Gilli exchanges support easy moment-level banter and Dainyamite's social style; they do not establish ranked closeness or a broader relationship hierarchy.",
+    "The mint-ice-cream GIF is POSTED/REPLIED BY Dainyamite. It is an external GIF and does not establish that he made the media.",
+    "The careful-tone read is cumulative/probable character texture, not a claim that Dainyamite always avoids conflict or universally behaves this way.",
+    "Rendered role arrays and the later `Dainyamite (Retired)` nickname do not establish appointment chronology, formal duties, or the date that nickname began.",
+    "The onboarding line `Hiya, it's Daithi from Forsaken!` is an identity/context anchor; it does not establish an origin date for Dainyamite's UL relationships beyond what the surviving source can show.",
+  ]),
+};
+
+if (existingIndex >= 0) allCharacters[existingIndex] = dain;
+else allCharacters.push(dain);
+
+characterById.set(dain.id, dain);
+
+const archiveCastGroup = castGroups.find((group) => group.id === "archive-cast");
+if (archiveCastGroup && !archiveCastGroup.characterIds.includes(dain.id)) {
+  archiveCastGroup.characterIds.push(dain.id);
+}
