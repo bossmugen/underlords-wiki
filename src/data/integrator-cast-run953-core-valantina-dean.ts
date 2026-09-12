@@ -1,4 +1,4 @@
-import { allCharacters, characterById } from "./cast";
+import { allCharacters, castGroups, characterById } from "./cast";
 import type { Character } from "./wiki";
 
 type ExtendedCharacter = Character & {
@@ -7,6 +7,19 @@ type ExtendedCharacter = Character & {
 };
 
 const unique = <T>(items: T[]): T[] => [...new Set(items)];
+
+const mergeRelationships = (
+  current: Character["relationships"] | undefined,
+  additions: NonNullable<Character["relationships"]>,
+) => {
+  const merged = [...(current ?? [])];
+  for (const addition of additions) {
+    const index = merged.findIndex((relationship) => relationship.name === addition.name);
+    if (index >= 0) merged[index] = { ...merged[index], ...addition };
+    else merged.push(addition);
+  }
+  return merged;
+};
 
 // Hard canon repair: Support Tech / SEU / Beansprout / Deansprout are Dean,
 // not a second person. Run 894 created a source-label owner before that bridge was
@@ -121,3 +134,109 @@ const valantinaNext: ExtendedCharacter = {
 
 allCharacters[valantinaIndex] = valantinaNext;
 characterById.set("valantina", valantinaNext);
+
+// Hard canon repair: the old Wall-only `rookie-cookie-uwu` owner is Rooks.
+// Merge the good scene texture into the canonical Staff dossier and retire the
+// duplicate instead of letting one person occupy two cast cards.
+const rooksIndex = allCharacters.findIndex((character) => character.id === "rooks");
+if (rooksIndex < 0) {
+  throw new Error("Run 953 expected the canonical Rooks owner.");
+}
+
+const rooks = allCharacters[rooksIndex] as ExtendedCharacter;
+const rookieCookie = allCharacters.find((character) => character.id === "rookie-cookie-uwu") as ExtendedCharacter | undefined;
+const rooksNext: ExtendedCharacter = {
+  ...rooks,
+  aliases: unique([
+    ...(rooks.aliases ?? []),
+    ...(rookieCookie?.aliases ?? []),
+    "Rookie Cookie",
+    "Rookie Cookie uwu",
+    ".poogie.",
+    "Blueberry",
+    "Roo",
+    "rooberry uwu",
+  ]),
+  logline:
+    "Rooks handles logistics in an `uwu` font. She can turn a disappointing printmaking class into a buy-my-own-tools plan in under half a minute, call work before a dealership delay becomes a crisis, explain a baren before anybody has to ask, and then sleep through every alarm like competence has never met her personally.",
+  tags: unique([
+    ...(rooks.tags ?? []),
+    ...(rookieCookie?.tags ?? []),
+    "Staff",
+    "Printmaking",
+    "Maker follow-through",
+    "Ordinary life",
+    "Anticipatory clarification",
+    "Petty Crimes",
+  ]),
+  relationships: mergeRelationships(rooks.relationships, [
+    ...(rookieCookie?.relationships ?? []),
+    {
+      name: "Sou",
+      note:
+        "Their Wall teasing is comfortable enough for Rooks to edit Sou's reassurance into the funniest possible prosecution exhibit. Outside Screenshot Court, the care gets much quieter: after Rooks says a dealership delay may make them late for work, Sou comes back later and asks whether they made it on time. Somebody remembered the boring unresolved problem and checked back.",
+    },
+  ]),
+  quotes: unique([
+    ...(rooks.quotes ?? []),
+    ...(rookieCookie?.quotes ?? []),
+    "Rooks, UnderLords, member uwu",
+    "I’m gonna order my own personal printmaking supplies so I can sell copies of my work",
+    "baren (helps ink stick to paper)",
+    "I slept passed all of my alarms and missed class",
+  ]),
+  claims: unique([
+    ...(rooks.claims ?? []),
+    ...(rookieCookie?.claims ?? []),
+    "By May 17, 2020 the stable `.poogie.` account directly self-identifies as `Rooks, UnderLords, member uwu` and then receives Discord permissions/channel orientation. That is a surviving threshold, not guaranteed absolute origin or recruiter proof.",
+    "Rooks's creative life has practical follow-through. On September 1, 2020 they return from a printmaking class disappointed that no printmaking happened; 23.821 seconds later they say they will order personal supplies so they can sell copies of their work. Eleven days later the tools are arriving and Rooks explains `baren (helps ink stick to paper)` inline.",
+    "That printmaking lane fits a wider communication habit: Rooks anticipates likely confusion and supplies the bridge. The same day they tell the room `This is Rooks btw I don’t want my name to confuse you lol`; later the unfamiliar tool gets its own parenthetical glossary before anyone asks.",
+    "Practical follow-through does not make Rooks frictionless. During a dealership delay they have already warned work and arranged an update point; in a separate family disruption they stay home to keep siblings on track with school; later that month they report sleeping through every alarm and missing class. Keep the competence and the ordinary failure together.",
+  ]),
+  antiFanon: unique([
+    ...(rooks.antiFanon ?? []),
+    ...(rookieCookie?.antiFanon ?? []),
+    "Rooks / Rookie Cookie / Rookie Cookie uwu / `.poogie.` are one person in project canon. Do not retain a second `rookie-cookie-uwu` person owner.",
+    "The May 17 permissions message comes from a pooled Deleted User account; do not identify the welcoming human or turn Discord provisioning into an exact in-game admission timestamp.",
+    "Rooks's printmaking receipts support practice, self-provisioning, and intent to sell copies. They do not establish a major, formal business, actual sales, commissions, or income.",
+    "Private family medical/location context adjacent to the sibling-school message remains excluded. The public-safe fact is the practical school-monitoring behavior only.",
+    "The 2021 repeated MEE6 welcomes may reflect leave/rejoin mechanics, but the departure cause and interval remain unresolved; do not publish a solved disappearance-return arc from bot greetings alone.",
+  ]),
+};
+
+allCharacters[rooksIndex] = rooksNext;
+const duplicateRookieIndex = allCharacters.findIndex((character) => character.id === "rookie-cookie-uwu");
+if (duplicateRookieIndex >= 0) allCharacters.splice(duplicateRookieIndex, 1);
+characterById.delete("rookie-cookie-uwu");
+characterById.set("rooks", rooksNext);
+for (const group of castGroups) {
+  group.characterIds = group.characterIds.filter((id) => id !== "rookie-cookie-uwu");
+}
+
+// The Sep. 22 Saber repair scene was already public on ƐℲı˥'s dossier. The
+// Birthdays/PR pass adds the ordinary-life reason the reminders mattered.
+const effeIndex = allCharacters.findIndex((character) => character.id === "effe");
+if (effeIndex >= 0) {
+  const effe = allCharacters[effeIndex] as ExtendedCharacter;
+  const effeNext: ExtendedCharacter = {
+    ...effe,
+    tags: unique([...(effe.tags ?? []), "Notification habits", "Muted server"]),
+    quotes: unique([
+      ...(effe.quotes ?? []),
+      "I use them. I like the reminders",
+      "Good for my scatter brain",
+      "I have server on mute all the time 😂 only tag notifications",
+    ]),
+    claims: unique([
+      ...(effe.claims ?? []),
+      "The event-announcement repair has a personal use case, not just a technical one: ƐℲı˥ says they like the reminders, calls them `Good for my scatter brain`, and keeps the server muted except for tag notifications. The infrastructure they are fixing is exactly the kind of infrastructure that can still reach them.",
+    ]),
+    antiFanon: unique([
+      ...(effe.antiFanon ?? []),
+      "The Sep. 22 PR packet preserves stable account 488099199938986004 as `sycessences / ƐℲı˥`. This pass does not create an identity bridge to the separately published Sye/Life dossier; hold that conflict until an independent hard bridge resolves it.",
+      "`Good for my scatter brain` is the person's casual wording about reminders, not a clinical diagnosis receipt.",
+    ]),
+  };
+  allCharacters[effeIndex] = effeNext;
+  characterById.set("effe", effeNext);
+}
