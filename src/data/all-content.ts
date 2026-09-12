@@ -144,6 +144,7 @@ import "./integrator-cast-run934-daycare-wall-woosung-yumi";
 import "./integrator-cast-run936-core-dwr";
 import "./integrator-cast-run943-core-daycare-snow-anthos";
 import "./integrator-cast-run945-birthdays-daycare-ren-kiro";
+import "./integrator-cast-run948-birthdays-daycare-wall";
 
 type LooseRecord = Record<string, unknown>;
 type Gag = { id: string; name: string; logline: string };
