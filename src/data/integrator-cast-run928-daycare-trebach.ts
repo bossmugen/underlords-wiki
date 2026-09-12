@@ -11,7 +11,9 @@ const unique = <T>(items: T[]): T[] => [...new Set(items)];
 // Daycare longitudinal synthesis: Trebach's surviving footprint is concentrated in one
 // room, but it is broad enough for a compact WIKI owner—practical help, easy social
 // warmth, attention discomfort, creative-game habits, and a recurring instinct not to
-// add weight to other people's plates. MAIN deliberately waits for more cross-context breadth.
+// add weight to other people's plates. A later Lobby return adds a useful contradiction:
+// socially remembered, perfectly willing to ask what a basic intake acronym means.
+// MAIN deliberately waits for more cross-context breadth.
 const trebachId = "trebach";
 const trebachIndex = allCharacters.findIndex((character) => character.id === trebachId);
 
@@ -21,14 +23,15 @@ const trebachCharacter: ExtendedCharacter = {
   aliases: ["SkeletonChair", "Slice"],
   billing: "legacy",
   role: "Daycare cast / practical helper",
-  era: "2020–2021",
+  era: "2020–2022",
   logline:
-    "Quietly useful and socially warm: Trebach can fix the annoying Tupper problem without making anybody feel stupid, flirt with the room as a joke, duck attention the second it lands too hard, and then worry that bringing up a real problem would put one more thing on somebody else's plate.",
+    "Quietly useful and socially warm: Trebach can fix the annoying Tupper problem without making anybody feel stupid, flirt with the room as a joke, duck attention the second it lands too hard, worry about adding to somebody else's plate, and still stop a welcome-back form to ask what `IGN` means rather than bluffing through it.",
   tags: [
     "Archive cast",
     "Daycare",
     "Practical helper",
     "Attention-avoidant",
+    "Low-ego",
     "Sims builder",
     "Petty Crimes",
   ],
@@ -55,6 +58,16 @@ const trebachCharacter: ExtendedCharacter = {
       note:
         "Ham reads Trebach as `tee bark` in June 2021. Trebach says they had never even thought of it; when Cely asks whether they dislike `tee bark`, Trebach answers `i love it.` One pocket, one accepted stupid little name joke, no need to manufacture a larger nickname mythology.",
     },
+    {
+      name: "Dayadream",
+      note:
+        "In December 2022 Dayadream greets Trebach with an immediate `yooo welcome back` before asking for the intake fields. The useful part is the human recognition: Trebach is an old enough face to be remembered warmly even though the exact earlier-return mechanics stay unknown.",
+    },
+    {
+      name: "Ren",
+      note:
+        "When Trebach stops the 2022 intake to ask `What is IGN?`, Ren answers the exact question—`In game name`—and Trebach immediately repairs the form with `Ohh - Trebach - Underlords - 28`. It is a tiny, frictionless help exchange: ask, translate, done.",
+    },
   ],
   quotes: [
     "give me a few mins and i gotchu",
@@ -62,6 +75,8 @@ const trebachCharacter: ExtendedCharacter = {
     "dont focus on me im not good with attention",
     "everyone is so amazing and so cute",
     "i dont want to add to anyones plates is what i meannn",
+    "What is IGN?",
+    "Ohh - Trebach - Underlords - 28",
   ],
   claims: [
     "Trebach's helpfulness is low-ceremony. When Mugen says the old setup no longer works, Trebach offers to add it to Tupper, accepts the `oh fuck im old help` joke without condescension, and says they will handle it in a few minutes.",
@@ -69,6 +84,7 @@ const trebachCharacter: ExtendedCharacter = {
     "Trebach notices other people's small social landmarks too: the Daycare footprint includes direct late-birthday and birthday wishes rather than only reacting when attention lands on Trebach.",
     "A March 2021 Sims check-in gives the cleanest Petty Crimes material: Trebach had finished a house and its decorating, was working on an art room and building skills, and also reported a strip club that had gifted them 98k. The useful ordinary-life read is creative Sims building/decorating plus delighted participation in the game's absurd economy.",
     "The June 2021 removal conversation shows a recurring self-effacing edge. Trebach says they were never asked whether they wanted to leave, but immediately minimizes the problem because everyone seems to have a lot on their plates. The concern for other people's burdens is genuine enough that Mugen has to push back and say Trebach's own problem still matters.",
+    "A December 2022 Lobby return adds a small but excellent contradiction: Dayadream recognizes Trebach with `welcome back`, while Trebach openly asks what `IGN` means. Ren translates the acronym, Trebach says `Ohh`, and immediately reposts the requested fields. Being remembered by the room does not require knowing every piece of game/server shorthand; Trebach is comfortable exposing a tiny knowledge gap and moving straight to the practical fix.",
   ],
   antiFanon: [
     "SkeletonChair and Slice are Trebach aliases resolved inside the stable-account Daycare slice; do not use similar names outside that bridge to merge unrelated people.",
@@ -76,7 +92,9 @@ const trebachCharacter: ExtendedCharacter = {
     "`It's good to have u back though` establishes that Gilli noticed Trebach's return; it does not establish how long Trebach had been gone or why.",
     "The Sims art room, skills, strip club, and 98k belong to the game. Do not translate them into real-world work, money, or biography.",
     "The June 2021 removal exchange is lived social friction, not enough by itself to assign formal governance blame, disciplinary procedure, or an officer decision chain.",
-    "No authored Daycare Trebach message survives after 2021-06-18 in the assigned stable-account slice. That is a source boundary, not proof that Trebach disappeared from UL entirely after that date.",
+    "The December 2022 `welcome back` establishes human recognition, not exact leave/rejoin mechanics or dates. MEE6's generic welcome is automation, not a first-arrival receipt.",
+    "Trebach asking what `IGN` means is one public vocabulary gap, not evidence that Trebach was generally inexperienced, not a gamer, or unfamiliar with UL. The joke is old face / missing glossary entry, not incompetence.",
+    "The assigned Daycare slice still has no authored Trebach body after 2021-06-18; the 2022 material comes from stable-ID Lobby chronology. Do not reconstruct the unseen 2023 Daycare body from it.",
     "Cely and Ham stay as Daycare display-name relationships here without WIKI hrefs; this pass does not infer an account-identity bridge from similar names or nearby public owners.",
   ],
 };
