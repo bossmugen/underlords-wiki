@@ -1,4 +1,4 @@
-import { allCharacters, characterById } from "./cast";
+import { allCharacters, castGroups, characterById } from "./cast";
 import type { Character } from "./wiki";
 
 type ExtendedCharacter = Character & {
@@ -21,9 +21,10 @@ const upsertRelationship = (
 
 // Run 945 late-tail integration. Ren's Kahoot packet is a compact operations repair
 // scene; Kiro's Daycare/Wall packet turns a tiny direct-room footprint into a coherent
-// anti-defensive humor read. A later Wall tail deepens Mimi / Opalite's practical-helper
-// contradiction. MAIN deliberately waits rather than manufacturing narrow receipt
-// paragraphs where the person-level biographies already need broader synthesis.
+// anti-defensive humor read. Later Wall tails deepen Mimi / Opalite's practical-helper
+// contradiction and surface S as a tiny but coherent apologetic filer. MAIN deliberately
+// waits rather than manufacturing narrow receipt paragraphs where whole-person synthesis
+// needs broader evidence.
 
 const renIndex = allCharacters.findIndex((character) => character.id === "ren");
 if (renIndex < 0) {
@@ -145,3 +146,77 @@ allCharacters[mimiIndex] = {
   ]),
 } as ExtendedCharacter;
 characterById.set("mimi", allCharacters[mimiIndex]);
+
+const sId = "s-wall";
+const sIndex = allCharacters.findIndex(
+  (character) => character.id === sId || character.name === "S",
+);
+const sCharacter: ExtendedCharacter = {
+  id: sId,
+  name: "S",
+  billing: "legacy",
+  role: "Archive-era Wall cast",
+  era: "2022",
+  logline:
+    "The kind of receipt filer who says sorry and `ily` before hitting send anyway, then sticks around to enjoy the room laughing. Affection is damage control, not a cancellation button.",
+  tags: [
+    "Archive cast",
+    "2022",
+    "Wall",
+    "Apologetic filer",
+    "Phrase seeder",
+    "Petty Crimes",
+  ],
+  relationships: [
+    {
+      name: "Gilli",
+      note:
+        "S opens the exhibit with `im sry gilli ily`, posts it anyway, and later gets Gilli's structured-reply `PLEAS ELMAOO` on the exact parent. S stays present in the reaction layer too. The pocket reads as comfortable, mutually amused receipt familiarity: soften the blow, file the evidence, remain for sentencing.",
+      href: "/characters/gilli",
+    },
+    {
+      name: "Dayadream",
+      note:
+        "Eight seconds after the Gilli exhibit, S drops `yaght`; Daya repeats the exact word a little over a minute later. Tiny interaction, but enough to give S's nonsense word one round of social afterlife without pretending it became server-wide vocabulary.",
+      href: "/characters/daya",
+    },
+  ],
+  quotes: ["im sry gilli ily", "yaght"],
+  claims: [
+    "S's surviving Wall pocket is tiny but coherent: apologize affectionately to Gilli, post the exhibit anyway, seed `yaght`, and stay in the gallery while Gilli laughs at the exact parent. The contradiction is the person read—affectionate enough to soften the hit, mischievous enough not to cancel it.",
+    "Daya's immediate reuse of `yaght` gives the word a small social echo, making it useful Petty Crimes texture rather than a typo that only existed for one message.",
+  ],
+  antiFanon: [
+    "Stable account 480184783540977684 is the source-local S owner used here. Do not bridge S to another person from a similar display name without independent identity evidence.",
+    "`ily` is affectionate social language in a teasing receipt pocket. It does not establish romance, family, sex, exclusivity, or a ranked closeness claim.",
+    "The Imgur-backed exhibit and later screenshots were not visually inspected. Keep LINKED/POSTED BY separate from MADE BY, CAPTURED BY, and FEATURING.",
+    "`yaght` is a tiny phrase-seeding moment because Daya echoes it once. It is not promoted to a server-wide catchphrase.",
+  ],
+};
+
+if (sIndex >= 0) {
+  const current = allCharacters[sIndex] as ExtendedCharacter;
+  const relationships = [...(current.relationships ?? [])];
+  for (const relationship of sCharacter.relationships ?? []) {
+    upsertRelationship(relationships, relationship);
+  }
+  allCharacters[sIndex] = {
+    ...current,
+    ...sCharacter,
+    aliases: appendUnique(current.aliases, sCharacter.aliases ?? []),
+    tags: appendUnique(current.tags, sCharacter.tags ?? []),
+    relationships,
+    quotes: appendUnique(current.quotes, sCharacter.quotes ?? []),
+    claims: appendUnique(current.claims, sCharacter.claims ?? []),
+    antiFanon: appendUnique(current.antiFanon, sCharacter.antiFanon ?? []),
+  } as ExtendedCharacter;
+  characterById.set(allCharacters[sIndex].id, allCharacters[sIndex]);
+} else {
+  allCharacters.push(sCharacter);
+  characterById.set(sId, sCharacter);
+}
+
+const archiveCastGroup = castGroups.find((group) => group.id === "archive-cast");
+if (archiveCastGroup && !archiveCastGroup.characterIds.includes(sId)) {
+  archiveCastGroup.characterIds.push(sId);
+}
