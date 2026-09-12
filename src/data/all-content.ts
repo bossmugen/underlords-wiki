@@ -134,6 +134,7 @@ import "./integrator-cast-run894-wall-crystalia-support-tech";
 import "./integrator-cast-run896-daycare-dainyamite";
 import "./integrator-cast-run910-birthdays-wall";
 import "./integrator-cast-run913-birthdays-gilli";
+import "./integrator-cast-run915-whiskey-yumi-ansun";
 
 type LooseRecord = Record<string, unknown>;
 type Gag = { id: string; name: string; logline: string };
