@@ -1,4 +1,5 @@
 import "./integrator-cast-run937-daycare-nobu";
+import "./integrator-cast-run939-intake";
 import { allCharacters, castGroups, characterById } from "./cast";
 import type { Character } from "./wiki";
 
