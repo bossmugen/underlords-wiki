@@ -56,8 +56,8 @@ allCharacters[gilliIndex] = {
 characterById.set(allCharacters[gilliIndex].id, allCharacters[gilliIndex]);
 
 // Wall: Ghoulie is the primary person; Baby Lyssa remains a legacy/display alias.
-// The new material deepens taste, joke delivery, and low-ceremony Mugen rapport without
-// turning one room lane into a role claim or a closeness ranking.
+// The reviewed tail deepens her self-aware Wall notoriety and the way recurring public
+// teasing becomes an affectionate belonging language rather than a one-note victim gag.
 let ghoulieIndex = allCharacters.findIndex(
   (character) =>
     character.id === "ghoulie" ||
@@ -79,10 +79,16 @@ upsertRelationship(ghoulieRelationships, {
   href: "/characters/torr",
 });
 upsertRelationship(ghoulieRelationships, {
-  name: "Mugen",
+  name: "Ren",
   note:
-    "Mugen can casually ping Ghoulie toward VC with `hop in vc if you can owo`; Ghoulie later circles back and admits she saw the @ and was simply too lazy to answer until then. The funny part is the lack of ceremony: no elaborate excuse, just a candid confession that the notification absolutely reached her.",
-  href: "/characters/mugen",
+    "Ren repeatedly treats Ghoulie's Wall reputation as affectionate shared language: `Love u ghoulie UwU`, later `Ghoulie back to claim her wall`, then `Pls ghoulie is the Icon we need`. Ghoulie eventually asks whether all this filing is everyone's way of showing her love and answers the premise herself with `i love y’all too`. The recurring teasing lands as affection without becoming romance or a closeness ranking.",
+  href: "/characters/ren",
+});
+upsertRelationship(ghoulieRelationships, {
+  name: "Ansun",
+  note:
+    "In the March 2021 Wall pocket, Ansun/Sou challenges Ghoulie to outdo him in notoriety; she answers `wanna bet?`, he upgrades the premise to `our wall of FAME baby`, and she fires back `SHIII SAY LESS`. It is a bounded competitive co-conspirator bit, not a formal rivalry or relationship rank.",
+  href: "/characters/ansun",
 });
 
 allCharacters[ghoulieIndex] = {
@@ -95,7 +101,8 @@ allCharacters[ghoulieIndex] = {
     "Light-mode enjoyer",
     "Dry commentary",
     "Roast participant",
-    "Short-form self-own",
+    "Wall resident jokes",
+    "Affection through teasing",
     "Petty Crimes",
   ]),
   relationships: ghoulieRelationships,
@@ -107,7 +114,11 @@ allCharacters[ghoulieIndex] = {
     "Such mundane language",
     "you look like my pp",
     "30 yo rusty spoon",
-    "I saw the message @ me, I was just lazy and didn't answer till now",
+    "At this point just name it Ghoulies wall of shame",
+    "wanna bet?",
+    "SHIII SAY LESS",
+    "is this y’all’s way of showing me love???",
+    "cause if that’s the case i love y’all too",
   ]),
   claims: unique([
     ...(ghoulie.claims ?? []),
@@ -115,14 +126,18 @@ allCharacters[ghoulieIndex] = {
     "Ghoulie explicitly says she likes Discord light mode and explains the preference in visibility terms: the full-screen redesign lets her see more clearly. This is a dated interface/taste preference, not a universal accessibility diagnosis.",
     "In a separate Wall exchange she calls a cleaned-up rewrite `Such mundane language`; Torr's `Thanks for the topic shift` reply preserves the same dry economy. The cumulative read is humor that can land in one short line and then move on.",
     "Ghoulie also participates directly in a 2022 roast pocket with lines including `you look like my pp` and `30 yo rusty spoon`, adding active humiliation-game participation to the quieter reaction-layer side of her Wall presence.",
-    "When Mugen pings `hop in vc if you can owo`, Ghoulie later acknowledges the missed social beat with `I saw the message @ me, I was just lazy and didn't answer till now`. It is unusually clean personality texture: she does not manufacture a noble reason for the silence; she just admits she saw it and ignored it for a while.",
+    "By March 2021 Ghoulie is self-aware enough about her Wall reputation to mock-cry and then propose `Ghoulies wall of shame`; when Ansun/Sou challenges her to outdo him, she answers `wanna bet?` and accepts the rebrand from shame to fame with `SHIII SAY LESS`. The theatrical victim pose and the appetite for the bit coexist.",
+    "By late May, Ghostt, Mugen, and Hami independently joke that Ghoulie lives on the Wall or owes rent there. Ren later calls her return `back to claim her wall`. The repeated home/rent/return language makes her Wall-regular status a peer-recognized reputation, not literal residence or ownership.",
+    "The affectionate undercurrent becomes explicit in July 2021: after Ren calls Ghoulie `the Icon we need`, Ghoulie asks `is this y’all’s way of showing me love???` and follows with `cause if that’s the case i love y’all too`. Around Ghoulie, recurring public filing can function as a social language of recognition and belonging rather than simple punishment.",
   ]),
   antiFanon: unique([
     ...(ghoulie.antiFanon ?? []),
     "The light-mode preference is Ghoulie's stated interface taste in the reviewed scene. Do not infer a medical condition or permanent accessibility need from it.",
     "Ghoulie's roast lines are participation in an existing joke pocket, not literal sexual/body claims, hostility, or a relationship rank.",
     "The Ghoulie↔Torr exchange supports room-level banter and timing; it does not establish exceptional closeness or a broader off-Wall relationship history.",
-    "The Mugen↔Ghoulie VC ping supports casual familiarity and Ghoulie's candid response style; it is not a closeness ranking, romance claim, or evidence of a formal VC duty.",
+    "Wall-home, rent, ownership, and fame language around Ghoulie are recurring social jokes, not literal residence, channel ownership, governance, office, or appointment claims.",
+    "Ren↔Ghoulie affection-through-teasing is directly supported, but it does not establish romance, exclusivity, or a closeness ranking. Ansun/Sou↔Ghoulie remains a bounded competitive Wall bit unless other material independently deepens it.",
+    "Ren's July 2021 attachments remain uninspected and are POSTED BY Ren only; do not infer MADE BY, CAPTURED BY, FEATURING, or guild-icon provenance from the pixels or the word `Icon`.",
     "Current/export role arrays are not used here to infer appointment chronology or formal duties.",
   ]),
 } as ExtendedCharacter;
