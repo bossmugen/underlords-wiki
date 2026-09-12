@@ -130,6 +130,7 @@ import "./integrator-cast-run886-wall-rummy";
 import "./integrator-cast-run887-core-hishiro-anthos";
 import "./integrator-cast-run890-core-effe";
 import "./integrator-cast-run890-wall-bishop";
+import "./integrator-cast-run894-wall-crystalia-support-tech";
 
 type LooseRecord = Record<string, unknown>;
 type Gag = { id: string; name: string; logline: string };
