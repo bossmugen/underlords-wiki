@@ -240,3 +240,60 @@ if (effeIndex >= 0) {
   allCharacters[effeIndex] = effeNext;
   characterById.set("effe", effeNext);
 }
+
+// BeaEder finally has enough reciprocal Wall behavior for a small structured
+// owner: she is both the person digging receipts out of storage and the person
+// willing to stay in the room when somebody else files one against her.
+if (!allCharacters.some((character) => character.id === "beaeder")) {
+  const beaEder: ExtendedCharacter = {
+    id: "beaeder",
+    name: "BeaEder",
+    aliases: ["beaeder"],
+    billing: "legacy",
+    role: "Archive-era Wall cast",
+    era: "2021–",
+    logline:
+      "BeaEder treats Wall evidence as a reciprocal sport: dig an old gem out of the phone, summon an audience with `:Hehe:`, then answer somebody else's direct filing with `I-` / `Dem` and count the night's damage instead of demanding immunity.",
+    tags: [
+      "Archive cast",
+      "Wall",
+      "Receipt curator",
+      "Audience summoner",
+      "Good-sport defendant",
+      "Petty Crimes",
+    ],
+    relationships: [
+      {
+        name: "HamitteY",
+        note:
+          "HamitteY directly tags Bea under an uninspected screenshot with `:Hehe:`; Bea answers `I-` and then `Dem`. It is bounded filing/defendant familiarity, not a closeness rank.",
+      },
+    ],
+    quotes: [
+      "Found this gem going thru my phone",
+      ":Hehe:",
+      "I-",
+      "Dem",
+      "Oh god two in one night",
+      "At least it was just those two",
+    ],
+    claims: [
+      "BeaEder's Wall behavior is reciprocal rather than one-directional. In July 2021 she posts an old phone find; on August 9 she posts another uninspected image, deliberately tags Baby Lyssa, Cookies and Juicebox, and Akariel, then adds `:Hehe:`. The behavior is deliberate audience-summoning around a receipt, not proof that any tagged person appears in the image.",
+      "On August 24 HamitteY posts an uninspected Dragon Raja screenshot, directly mentions Bea with `:Hehe:`, and Bea answers 41 seconds later `I-` followed by `Dem`. The messages are adjacent/contextually linked rather than stored as a structured Reply edge.",
+      "The next morning Bea says `Oh god two in one night` and `At least it was just those two`. In Wall context that probably reads as self-aware counting of a bad night of exposure, while the exact two referents remain unresolved.",
+      "The cumulative person read is receipt curator ↔ good-sport defendant. Bea helps stage the archive and does not treat getting caught as a reason to leave the joke.",
+    ],
+    antiFanon: [
+      "All cited images are POSTED BY only. Their maker, capturer, depicted subjects, and exact contents remain unresolved because the pixels were not inspected.",
+      "The August 9 multi-tag is audience-summoning behavior, not FEATURING evidence and not a closeness ranking for the tagged people.",
+      "`two in one night` is a probable Wall-catch count only; the exact two referents are unresolved.",
+      "Sensitive-domain self-quote material found nearby is deliberately excluded. Do not infer sex life, sexual preference, or other private identity facts from Wall jokes or quotes.",
+    ],
+  };
+  allCharacters.push(beaEder);
+  characterById.set("beaeder", beaEder);
+  const archiveCastGroup = castGroups.find((group) => group.id === "archive-cast");
+  if (archiveCastGroup && !archiveCastGroup.characterIds.includes("beaeder")) {
+    archiveCastGroup.characterIds.push("beaeder");
+  }
+}
