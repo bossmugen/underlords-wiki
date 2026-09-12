@@ -42,7 +42,7 @@ Exact inclusive WIKI reader: **`77193847b74203fab9e047d24b520852c18faed3`**.
 
 Wall is therefore consumed through `629a508e3e7bb403e98bd21e41a96be6579c4600` in MAIN's controlling ledger.
 
-Birthdays is reviewed through `98957fd2c28daf869c612e87f2628d59023b486f`, but MAIN's exact production verification for its Ricochet biography change failed pre-steps twice in run `34666889666`; MAIN therefore keeps Birthdays' formal consumed SHA pinned at `5713666b8a74aa4cce31f8db799c71d8611e30f7` until that separate surface verifies successfully. WIKI itself is green.
+Birthdays is reviewed through `98957fd2c28daf869c612e87f2628d59023b486f`, but MAIN verification remains publication-gated. Original exact-reader workflow run `34666889666` failed pre-steps on both attempts; a fresh exact-current-master retry at `4c996c2d1cd7376f1c8d17973bbce2ea5e09306d`, run `34667353120`, also failed pre-steps with zero job steps. MAIN therefore keeps Birthdays' formal consumed SHA pinned at `5713666b8a74aa4cce31f8db799c71d8611e30f7`. WIKI itself is green.
 
 ## Held / deduped
 
