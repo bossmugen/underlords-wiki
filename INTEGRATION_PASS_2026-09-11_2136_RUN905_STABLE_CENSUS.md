@@ -16,12 +16,18 @@ Date: 2026-09-11 PDT
 - No new Cast dossier, Relationship, Episode, Running Gag, Quote, Location, or Gallery/media owner was justified by a stable census.
 - Run 904's current structured Yaza and Seth integrations remain authoritative; no duplicate was created.
 - Existing unresolved rabbits remain bounded backstage, including q18 denominator/negative-classification problems, Fame chronology/provenance tension, and uninspected-media attribution.
-- This report commit is allowed to exercise the normal WIKI build and Pages pipeline even though the reader tree is unchanged.
+- Exact verified/deployed WIKI commit for this stable-census pass: `4b2098b84a408c9838a7b171df0caf98c80584aa`.
+- `Build Underlords Wiki` run `34673464752`: success; build job `103499037686`: success, including Astro.
+- `Deploy Underlords Wiki Preview` run `34673464681`: success.
+  - build/artifact job `103499037467`: success;
+  - deploy job `103499091072`: success;
+  - report/status job `103499123358`: success.
 
 ## MAIN coordination
 - MAIN reader-facing pages changed: 0 in this pass.
 - MAIN's mandatory branch census was refreshed in `archive-intake/INTEGRATOR_BRANCH_STATE.json`.
-- The older accepted Ricochet MAIN publication remains production-unverified at opening state. `UL Production Build + Deploy` run `34667353120`, attempt 6, again failed before workflow steps were allocated; this still does not identify a source-verifier, Astro, built-output, or deployment-command failure.
+- The older accepted Ricochet MAIN publication remains production-unverified. `UL Production Build + Deploy` run `34667353120`, attempt 6, again failed before workflow steps were allocated; this still does not identify a source-verifier, Astro, built-output, or deployment-command failure.
+- The Run 905 MAIN state/report-only commits did not spawn a new production workflow because the existing workflow path filters do not trigger on those bookkeeping paths.
 
 ## Consumption state
 - No miner `last_seen_sha` changed.
