@@ -1,5 +1,6 @@
 import "./integrator-cast-run937-daycare-nobu";
 import "./integrator-cast-run939-intake";
+import "./integrator-cast-run940-wall-queen-jas";
 import { allCharacters, castGroups, characterById } from "./cast";
 import type { Character } from "./wiki";
 
