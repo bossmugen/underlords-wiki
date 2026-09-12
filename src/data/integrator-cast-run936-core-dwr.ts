@@ -1,3 +1,4 @@
+import "./integrator-cast-run937-daycare-nobu";
 import { allCharacters, castGroups, characterById } from "./cast";
 import type { Character } from "./wiki";
 
