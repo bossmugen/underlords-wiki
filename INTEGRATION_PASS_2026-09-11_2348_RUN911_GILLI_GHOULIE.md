@@ -19,13 +19,17 @@ The public keeper is the person-shaped part of the mess. Gilli successfully jail
 
 The reason the separate stream account carried the Gilli tag remains unresolved. Ownership, operator identity, credentials, transfer/handoff history, and who changed the account name remain backstage unknowns. The WIKI Run-910 overlay was corrected so it no longer manufactures a human-Gilli alias bridge.
 
-## Ghoulie — saw the ping, simply did not answer
+## Ghoulie — Wall defendant who starts competing for the trophy
 
 Hard naming stays intact: **Ghoulie is the primary public person; Baby Lyssa is a legacy/display alias**.
 
-Wall adds a clean Mugen↔Ghoulie social beat. Mugen posts `hop in vc if you can owo`; Ghoulie later circles back with `I saw the message @ me, I was just lazy and didn't answer till now`. The value is the low ceremony. Ghoulie does not invent a respectable excuse for the silence; she openly admits the notification worked and she simply did not answer yet. That deepens her compact, candid response style and gives the Mugen relationship one small lived gesture without turning it into a closeness ranking, romance claim, or formal VC duty.
+The Wall tail deepens a much better person read than simple `frequent defendant`. Ghoulie mock-cries, says the room might as well be called `Ghoulies wall of shame`, then immediately accepts Ansun/Sou's challenge to outdo him with `wanna bet?`; when he reframes the room as `our wall of FAME baby`, she answers `SHIII SAY LESS`. The embarrassment performance is part of the play. She is not withdrawing from the reputation; she is actively competing inside it.
 
-The same overlay keeps existing Torr banter, light-mode preference, roast participation, and short-form self-own texture. Media attribution remains POSTED BY unless stronger object-level support exists.
+By late May, Ghostt, Mugen, and Hami independently joke that Ghoulie lives on the Wall or owes rent there, and Ren later says `Ghoulie back to claim her wall`. The repeated home/rent/return language makes the reputation socially recognizable without becoming literal residence, ownership, office, or governance.
+
+Ren supplies the strongest relationship-through-behavior lane: `Love u ghoulie UwU`, then `back to claim her wall`, then `Pls ghoulie is the Icon we need`. Ghoulie eventually asks `is this y’all’s way of showing me love???`, answers the premise with `cause if that’s the case i love y’all too`, and turns recurring public filing into an explicitly affectionate belonging language. This remains affection-through-public-teasing, not romance, exclusivity, or a closeness ranking. The Ansun/Sou lane remains a bounded competitive Wall bit.
+
+A transient reconciliation draft briefly folded in an unrelated VC-ping sentence that was not part of this miner delta. It was removed before close, the branch ledger was corrected, and the final reader below is aligned to the actual checkpoint/findings/profile handoff.
 
 ## Held unresolved
 
@@ -33,19 +37,21 @@ The same overlay keeps existing Torr banter, light-mode preference, roast partic
 - q18 still lacks a safe denominator / negative classification; no reply percentages or closeness scores were published.
 - Current/export role arrays remain non-chronological.
 - The old 234h→279h bot identity remains unresolved.
+- Ren's July images remain uninspected and strictly POSTED BY Ren. `Icon` is colloquial/ambiguous and does not establish guild-icon provenance, MADE BY, CAPTURED BY, or FEATURING.
+- The Wall-local guild-icon text route remains bounded/media-source-only; hard user-confirmed Mugen creator credit is untouched.
 
 ## Surface result
 
-**MAIN reader-facing changes: 0.** Gilli's new scene and Ghoulie's new relationship beat are strong structured WIKI material but not a reason to bolt another narrow receipt paragraph onto MAIN biographies. MAIN's controlling branch ledger records Wall as consumed and Birthdays as reviewed through current head.
+**MAIN reader-facing changes: 0.** Gilli's new scene and Ghoulie's Wall-belonging synthesis are strong structured WIKI material but not a reason to bolt another narrow receipt paragraph onto MAIN biographies. MAIN's controlling branch ledger records Wall as consumed and Birthdays as reviewed through current head.
 
 Birthdays' formal `last_consumed_sha` remains pinned at `5713666b8a74aa4cce31f8db799c71d8611e30f7` because an older accepted Ricochet/Cookie MAIN publication still has not cleared production verification. `UL Production Build + Deploy` run `34667353120`, attempt 11, again failed before any workflow steps were allocated; that is not evidence that source verification, Astro, built-output verification, or the deploy script itself failed.
 
 **WIKI reader-facing file:** `src/data/integrator-cast-run910-birthdays-wall.ts`.
 
-Exact verified/deployed WIKI reader: **`f16047c01952e250bb4b793e90e89920d1566f11`**.
+Final exact verified/deployed WIKI reader: **`4ec40e60b6c8f22e8ef8a40e98964efed32aed2c`**.
 
-- Build Underlords Wiki run **34678890539** — success; build job **103513653057** — success, including Astro.
-- Deploy Underlords Wiki Preview / Pages run **34678890510** — success.
-  - build/artifact job **103513653139** — success;
-  - deploy job **103513710144** — success;
-  - report/status job **103513734208** — success.
+- Build Underlords Wiki run **34679132357** — success; build job **103514327960** — success, including Astro.
+- Deploy Underlords Wiki Preview / Pages run **34679132415** — success.
+  - build/artifact job **103514328142** — success;
+  - deploy job **103514392791** — success;
+  - report/status job **103514421454** — success.
