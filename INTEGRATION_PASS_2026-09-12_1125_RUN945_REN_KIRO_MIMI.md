@@ -4,11 +4,12 @@
 
 Controlling MAIN census closes at **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 pending review, 0 backlog, 0 overdue**, and **8 reviewed `pending_publication` families**.
 
-Three late miner tails advanced and were reviewed checkpoint-first from changed `archive-intake/*` handoffs only:
+Four late intake advances were reviewed checkpoint-first from changed `archive-intake/*` handoffs only:
 
 - Birthdays/PR/VC `74804f722afb61040b55311fad1afda73fe52922` → `0fa1eae0fe1865e187813b490dc6479367e7c99c`
 - Daycare `b20bc8649b4ab6c4d9cd032d78298e5a3e00594c` → `e66cfa431da2ba1715a7de794016657744c84caf`
-- Wall `42559853b41373f899f6832651d056306acc268c` → `24ae17482e936a0ffdcf32a5a8842f0b21f5c398`
+- Wall first tail `42559853b41373f899f6832651d056306acc268c` → `24ae17482e936a0ffdcf32a5a8842f0b21f5c398`
+- Wall closing tail `24ae17482e936a0ffdcf32a5a8842f0b21f5c398` → `2e84d544b36381abf51fcd6dbfb30b65b0a3e108`
 
 Both recovery-priority Club-Only lanes remain current. No raw archive was re-mined and no miner branch was merged wholesale.
 
@@ -33,20 +34,28 @@ Deepened canonical Mimi stable account `783389804079349800` as a practical micro
 
 A miner-local continuity error grouped Mia/Miaka into the same identity. WIKI explicitly rejects that. Mimi / Opalite Honey / `༯` remains separate from Mia / Maho / Miaka / `.miaxxx` / `m x` under the user-confirmed hard lock.
 
+### S
+
+The final Wall tail supplied enough context for an intentionally tiny WIKI owner for stable account `480184783540977684`. S apologizes to Gilli with `im sry gilli ily`, files the exhibit anyway, drops `yaght`, and remains around while Gilli structured-replies `PLEAS ELMAOO`. Daya's immediate `yaght` echo gives the nonsense word one small round of social afterlife.
+
+The person-shaped read stays narrow: **apologetic exhibit-dropper / anticipatory defendant ↔ phrase-seeder and delighted gallery continuer**. S↔Gilli is bounded mutually amused receipt familiarity. `ily` remains nonliteral affectionate social language; uninspected media gets no MADE BY / CAPTURED BY / FEATURING claims.
+
+The same Wall tail closes Woohyuk q18 backstage at **13 positive / 82 negative across 95 authored parents = 13.7%**, correcting an older 94-parent count. That topology percentage remains source bookkeeping, not a popularity or closeness score.
+
 ## Verification / deployment
 
 Final exact WIKI reader:
 
-`a40d2c19fd900ad80b896ca57dcc6f4c70f3ccaf`
+`da7592fd64b54d93a37bd96311cbed0232f17027`
 
-- `Build Underlords Wiki` **34710903695** — success.
-- `Deploy Underlords Wiki Preview` **34710903622** — build/artifact success, deploy success, report/status success.
+- `Build Underlords Wiki` **34711173457** — success; Astro build succeeded.
+- `Deploy Underlords Wiki Preview` **34711173438** — build/artifact, deploy, and report/status all succeeded.
 
-The earlier intermediate Ren/Kiro reader `cf7fd29facc9c2d7c4d1664318bba5ab0dcc21ba` also passed its build and Pages cycle, but the controlling reader is the later Mimi-inclusive `a40d2c19...` commit above.
+Earlier intermediate Run 945 readers also passed their own build/Pages cycles, but `da7592fd...` is the controlling reader because it includes the final S tail.
 
 ## Cross-surface split
 
-MAIN received **0 reader-facing changes intentionally**. These packets are strongest as structured WIKI person/relationship/provenance deepening; mirroring them to MAIN as another dated receipt paragraph would weaken the person-first biographies rather than improve them.
+MAIN received **0 reader-facing changes intentionally**. These packets are strongest as structured WIKI person/relationship/provenance deepening; mirroring them to MAIN as dated receipt paragraphs would weaken person-first biographies rather than improve them.
 
 MAIN's older accepted Daya reader at `a5b4d5e088c00cea0c4d9abeec3c64e1b76034c1` remains production-verification-gated. `UL Production Build + Deploy` run **34691433077**, attempt **13**, job **103598277087** failed before runner allocation with `steps: null`; source verification, Astro, built-output verification, and deployment never started.
 
@@ -54,10 +63,11 @@ MAIN's older accepted Daya reader at `a5b4d5e088c00cea0c4d9abeec3c64e1b76034c1` 
 
 - Daycare advances consumed through `e66cfa431da2ba1715a7de794016657744c84caf`.
 - Birthdays/PR/VC is reviewed through `0fa1eae0fe1865e187813b490dc6479367e7c99c`; its formal consumed pointer remains pinned behind older MAIN publication debt.
-- Wall is reviewed through `24ae17482e936a0ffdcf32a5a8842f0b21f5c398`; its formal consumed pointer remains pinned behind the older Daya MAIN publication gate.
+- Wall is reviewed through `2e84d544b36381abf51fcd6dbfb30b65b0a3e108`; its formal consumed pointer remains pinned behind the older Daya MAIN publication gate.
 - Ren poster maker/editor provenance and exact codes remain unresolved.
 - Deleted User `456226577798135808` remains unresolved.
 - Aesh's missing 2024 direct-Daycare body remains open.
 - Mimi↔Momo twin language was already public and was treated as corroboration rather than duplicated.
+- Woohyuk q18 is CLOSED/DNR unless the source boundary changes.
 
 Controlling branch-consumption state is the MAIN `archive-intake/INTEGRATOR_BRANCH_STATE.json` close for Run 945.
