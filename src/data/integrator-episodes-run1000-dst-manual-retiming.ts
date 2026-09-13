@@ -1,3 +1,4 @@
+import "./integrator-cast-run1000-wall-abie";
 import type { Episode } from "./wiki";
 
 export const integratorEpisodesRun1000DstManualRetiming: Episode[] = [
