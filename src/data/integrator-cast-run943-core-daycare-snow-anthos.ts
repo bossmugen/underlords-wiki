@@ -86,48 +86,30 @@ upsertRelationship(anthosRelationships, {
 allCharacters[anthosIndex] = {
   ...anthos,
   description:
-    "Anthos keeps getting funnier the more useful she turns out to be. The soft-host/casual-fixer lane already had doors, games, setup, reminders and Photo Submissions scaffolding; Daycare adds the ordinary version. She can watch somebody else's exchange closely enough to say `The interaction between you and anayss is amazing to see`, toss out `Classic`, mock-complain that everybody is waiting on Taimi, clock `Rookie flexing on us`, admit `I tryharded for that >:c`, and then discover there are cookies somewhere and demand to know why nobody informed her. The throughline is attention: Anthos notices the practical lane, the social lane, the game lane and apparently the snack lane. She can quietly organize the room and loudly refuse to present herself as the responsible adult. Both are real Anthos.",
+    "Anthos keeps getting funnier the more useful she turns out to be. The soft-host/casual-fixer lane already had doors, games, setup, reminders and social glue; Photo Submissions catches the fiddly visual version. In January 2021 she lays down an `Example Photos` divider, supplies the example bundle, then separates out `Official Submissions for photos`; in August she is back posting the example scaffold again. Meanwhile the Wall version of Anthos can say `i'm not smart enough to know how to spell it 😎` and let the sunglasses turn self-deprecation into swagger. She can quietly organize the room and loudly refuse to present herself as the responsible adult. Both are real Anthos.",
   logline:
-    "Soft host, casual fixer, resident gamer gremlin and suspiciously attentive room-watcher: Anthos can organize the lane, notice everybody else's bit, compete hard enough to admit it, then detect an undisclosed cookie situation from across the server.",
+    "Soft host, casual fixer, resident gremlin, and suspiciously competent event scaffolder: Anthos can organize everybody else's lane and then put on sunglasses to claim she cannot spell.",
   tags: appendUnique(anthos.tags, [
     "Photo Submissions",
     "Event scaffolding",
     "Visual organization",
     "Self-deprecating swagger",
-    "Dry one-liners",
-    "Gamer shorthand",
-    "Competitive streak",
-    "Social observer",
-    "Snack radar",
     "Petty Crimes",
   ]),
   relationships: anthosRelationships,
   quotes: appendUnique(anthos.quotes, [
     "i'm not smart enough to know how to spell it 😎",
-    "The interaction between you and anayss is amazing to see",
-    "Classic",
-    "Who's gonna be the genji to my mercy",
-    "Rookie flexing on us",
-    "I tryharded for that >:c",
-    "Wait theres baking and cookies here and why was I not informed",
   ]),
   claims: appendUnique(anthos.claims, [
     "On January 6, 2021 Anthos structures Photo Submissions with an `Example Photos` divider, a five-attachment example bundle, and an `Official Submissions for photos` divider; on August 1 she repeats the `Example Photos` scaffold. The recurrence supports lived visual/event organization rather than a one-off formatting accident.",
     "In a February 2, 2021 Wall sequence Tae says `Shame on you anthos`; shortly afterward Anthos says `i'm not smart enough to know how to spell it 😎`. The records are not a technical Reply pair, but the same-scene self-deprecation fits Anthos's unserious presentation beside visibly competent connective work.",
     "The January example bundle drew four heart reactions from Gabu, Suzi/Mob/BAPE, Rosario/Yazaki and Anayss. The useful public read is that the material landed as communal event scaffolding; reaction presence is not a closeness ranking.",
-    "A late-September / early-October 2020 Daycare pocket gives Anthos a compact ordinary-social register beside the event scaffolding: dry one-liners, mock impatience, gamer shorthand, competitive recognition, and enough attention to other people's interactions to call one Anayss exchange `amazing to see`.",
-    "Anthos's `Who's gonna be the genji to my mercy` is Overwatch-role joke language inside the same gamer-social register. It is useful taste/voice texture, not a literal romance solicitation or relationship claim.",
-    "Her `Rookie flexing on us` followed by `I tryharded for that >:c` gives the competent-host side a competitive underside: she notices other people's flexes and is perfectly willing to admit when she worked for her own result.",
-    "`Wait theres baking and cookies here and why was I not informed` is tiny Petty Crimes material with unusually clean character value: Anthos can move from practical/event work to immediate food-alert outrage without changing registers.",
   ]),
   antiFanon: appendUnique(anthos.antiFanon, [
     "Anthos uses she/her by Mugs-confirmed canon. Any source or miner wording that uses another pronoun does not override that lock.",
     "Photo Submissions attachments in this intake were not visually inspected. Anthos is confirmed as POSTED BY for the example bundle/scaffolding; do not upgrade those files to MADE BY, CAPTURED BY, or FEATURING without independent support.",
     "Photo-event scaffolding is lived behavior, not a formal Photo Director / Media Director appointment or appointment chronology.",
     "Tae's `Shame on you anthos` and Anthos's spelling line occur in the same Wall sequence but are not connected by Discord Reply metadata; treat the teasing connection contextually rather than as a mechanically confirmed reply edge.",
-    "`Who's gonna be the genji to my mercy` is game-role banter. Do not turn it into romance, sex, or a relationship ranking without independent support.",
-    "The 2020 Daycare pocket expands Anthos's lived social voice; it does not create an officer appointment, event title, or appointment chronology.",
-    "Low later Daycare authorship is channel-local. Do not convert it into a whole-server disappearance or inactivity claim when other-channel activity exists.",
   ]),
 } as ExtendedCharacter;
 characterById.set("anthos", allCharacters[anthosIndex]);
