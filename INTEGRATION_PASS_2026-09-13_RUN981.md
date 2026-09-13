@@ -35,7 +35,7 @@ Reader-facing files:
 - `src/data/all-content.ts`
 - `src/data/character-biographies-momo.ts`
 
-Exact verified/deployed reader commit: **`68e1f62f705cbd95504aaa8697901d1d0a6bff`**.
+Exact verified/deployed reader commit: **`68e1f62f705a5b80806a3eea44d200440e0d75c4`**.
 
 - `Build Underlords Wiki` run **34743440056** — success.
 - `Deploy Underlords Wiki Preview` / Pages run **34743440062** — success.
