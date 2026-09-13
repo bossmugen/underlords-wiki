@@ -28,10 +28,10 @@ const upsertCharacter = (base: ExtendedCharacter, aliases: string[]) => {
     era: current?.era ?? base.era,
     logline: base.logline,
     tags: unique([...(current?.tags ?? []), ...(base.tags ?? [])]),
-    relationships: current?.relationships ?? base.relationships,
+    relationships: base.relationships ?? current?.relationships,
     quotes: unique([...(current?.quotes ?? []), ...(base.quotes ?? [])]),
-    claims: unique([...(current?.claims ?? []), ...(base.claims ?? [])]),
-    antiFanon: unique([...(current?.antiFanon ?? []), ...(base.antiFanon ?? [])]),
+    claims: unique([...(base.claims ?? [])]),
+    antiFanon: unique([...(base.antiFanon ?? [])]),
   };
 
   if (existingIndex >= 0) allCharacters[existingIndex] = next;
@@ -48,17 +48,41 @@ upsertCharacter(
     role: "Archive-era Wall cast",
     era: "2020–",
     logline:
-      "Low-volume, high-impact Wall depositor who barely needs prose to change the room's trajectory: put the artifact down, add one tiny reaction, and let everybody else discover they are now participating in Screenshot Court.",
-    tags: ["Archive cast", "Wall", "Artifact depositor", "Compact reactions", "Screenshot Court", "Petty Crimes"],
-    quotes: ["what is this...."],
+      "Crystalia can be almost silent on Wall and still be unmistakably part of the room: he contributes one tiny `Woah`, Mugen can drag him straight into fake weekly-show billing, and Anthos later remembers him in the successful-dungeon roll call. Quiet does not read as stranger here. The room already knows where to put him.",
+    tags: [
+      "Archive cast",
+      "Wall",
+      "Compact reactions",
+      "Quiet but socially legible",
+      "Summoned into bits",
+      "Shared play",
+      "Petty Crimes",
+    ],
+    relationships: [
+      {
+        name: "Mugen",
+        note:
+          "Mugen can summon Crystalia into a public bit with almost no setup. In February 2021 she tags him directly, then mock-bills him as `UL's very own mermaid` in a fake weekly-show promo. The joke lands like familiar room shorthand: he is recognizable enough to be cast into the nonsense without an introduction.",
+        href: "/characters/mugen",
+      },
+      {
+        name: "Anthos",
+        note:
+          "Anthos later includes Crystalia in a successful dungeon-run roll call with three other people. It is a small shared-play edge, but a useful one: even when Crystalia contributes almost no surviving Wall prose, other people still remember him as part of the group that was there.",
+        href: "/characters/anthos",
+      },
+    ],
+    quotes: ["what is this....", "Woah"],
     claims: [
-      "Crystalia has only three surviving authored Wall rows in the longitudinal corpus, but two are attachment deposits. Her June 5, 2020 post opens the pocket that becomes Nahdea's self-own filing sequence; her August 2 attachment lands immediately before Akamin reacts to `the screenshot`. Tiny prose footprint does not equal passive presence here: the artifact itself is often the participation.",
-      "The useful person read is compact intervention. Crystalia can post first, react briefly, and then disappear back out of the transcript while the room keeps running with what she dropped.",
+      "In the current complete stable-ID Wall census, Crystalia's visible authorship is almost comically small: one surviving line, `Woah`. The same source still gives him three direct mentions, so low posting volume is not the same thing as social invisibility.",
+      "Mugen tags Crystalia twice in February 2021. One of those pulls him into fake serial billing as `UL's very own mermaid`, turning him into part of the joke without needing to explain who he is first.",
+      "On May 9, 2021, Anthos names Crystalia alongside three others in `just another successful dungeon run ...`. The useful person read is quiet presence plus recognizability: he can leave almost no prose in the room and still get summoned, cast into bits, and remembered in shared play.",
     ],
     antiFanon: [
-      "Crystalia's two Wall attachments are POSTED BY Crystalia only. Their maker, capturer, depicted subjects, and visual contents are not upgraded without object-level support.",
-      "Akamin reacting after Crystalia's August attachment supports a local shared Screenshot Court pocket, not a special Crystalia↔Akamin closeness rank.",
-      "Three surviving authored Wall rows are a source-bound footprint, not a claim that Crystalia was inactive elsewhere in UL.",
+      "The current complete stable-ID Wall census does not reproduce the older Run-894 three-authored-row / two-attachment footprint. Treat that count discrepancy as unresolved source-package variance; do not turn either count into a claim about Crystalia's total UL activity.",
+      "The nearby February 20 and May 9 images are uninspected. Preserve their recorded POSTED BY attribution only; do not infer MADE BY, CAPTURED BY, depicted subject, or FEATURING from adjacency.",
+      "`UL's very own mermaid` is one-off mock-show billing, not a formal role, governance title, literal identity, or persistent nickname unless recurrence surfaces.",
+      "Mugen's summons and Anthos's dungeon-run acknowledgment support bounded familiarity and shared-room/shared-play inclusion, not a friendship or closeness ranking.",
     ],
   },
   ["Pink Hana", "jeeebus"],
