@@ -26,23 +26,27 @@ allCharacters[bishopIndex] = {
   ...bishop,
   logline:
     "Bishop treats scrutiny like stage lighting. He can act hunted by the Wall — feds, secret files, warnings — and then immediately make himself more conspicuous by turning the attention into teasing, innuendo, or a boxing entrance. The room watches him; Bishop's preferred defense is apparently to give it another line.",
-  tags: appendUnique(bishop.tags, ["Attention hijacker", "Mock-paranoid defendant", "Innuendo", "Self-filing"]),
+  tags: appendUnique(bishop.tags, ["Attention hijacker", "Mock-paranoid defendant", "Innuendo", "Self-filing", "Petty Crimes"]),
   relationships,
   quotes: appendUnique(bishop.quotes, [
     "Why? What have you heard? Who you talk to? You with the feds?",
     "Too bad you don't love me no more. 🤷🏾‍♂️",
     "Or does it mean that your watching me closely and paying attention cause you like me? 🤔🤔🤔",
     "Usually means sex, occasionally. lol",
+    "Personally, I think we should bring back heiroglyohics.... Or... Yeah that word ....",
+    "I am something of a comedian myself. 😏",
   ]),
   claims: appendUnique(bishop.claims, [
     "Bishop's late-June/early-July 2021 Wall material turns the old mock-procedure joke into a stable social move: when scrutiny lands on him, he performs alarm and then hijacks the framing rather than retreating from it.",
     "Tofu's repeated filing/callout rhythm makes the Bishop contradiction especially clear. Tofu can call him reliably funny and Wall-bound; Bishop answers by asking about the feds, worrying about Mugen's imaginary office file, reframing observation as attraction, detouring into innuendo, and eventually filing his own ambiguous screenshot with boxing gloves ready.",
     "The useful person read is defensive theater paired with voluntary conspicuousness: Bishop acts as though the receipt machine is dangerous while continuously increasing the amount of quotable material available to it.",
+    "Bishop's `heiroglyohics.... Or... Yeah that word ....` line is a self-aware typo joke: he notices the word got away from him inside the sentence and makes the failure part of the bit. Keep the joke specific instead of turning it into a claim that he cannot spell.",
   ]),
   antiFanon: appendUnique(bishop.antiFanon, [
     "Bishop's `you like me`, `love me`, and sex-definition lines are teasing/innuendo inside the Wall bit. They do not establish romance, sexual history, exclusivity, or a relationship label with Tofu.",
     "The recurring Bishop/Tofu lane supports comfortable reciprocal teasing, not literal hostility or a closeness hierarchy.",
     "The June/July screenshots remain POSTED BY their respective posters only unless maker, capturer, depicted subjects, or visual content are independently established.",
+    "The `heiroglyohics` line is one self-aware typo joke, not evidence of a stable spelling problem or lack of literacy.",
   ]),
 } as ExtendedCharacter;
 characterById.set("bishopthaguru", allCharacters[bishopIndex]);
