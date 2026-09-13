@@ -30,7 +30,11 @@ SaraBunny's `Mooo` remains shared-room echo, not a promoted personal catchphrase
 
 Reader-facing changes: **0 intentionally**. The current canonical Rose and Woosung owners are already stronger than the narrow miner handoffs and use the accepted material person-first / relationship-first rather than as receipt ledgers.
 
-This Run 1011 file is documentation-only. The normal WIKI build + Pages workflows are allowed to verify the unchanged reader tree on this close; final workflow status is recorded in the follow-up documentation close if needed.
+Documentation close commit `381283146665b630452f3899bf6a48727e93fa04` verified the unchanged reader tree successfully:
+- `Build Underlords Wiki` run **34772331980**: success, including Astro build and status publication.
+- `Deploy Underlords Wiki Preview` / Pages run **34772331988**: build success, Pages artifact success, deployment success, report success.
+
+No new reader copy was required, but the current WIKI tree is green and the Pages deployment for the documentation close succeeded.
 
 ## MAIN cross-surface result
 
