@@ -147,6 +147,7 @@ import "./integrator-cast-run945-birthdays-daycare-ren-kiro";
 import "./integrator-cast-run948-birthdays-daycare-wall";
 import "./integrator-cast-run953-core-valantina-dean";
 import "./integrator-cast-run958-wall-mr-streamer";
+import "./integrator-cast-run967-daycare-aeshleen";
 
 type LooseRecord = Record<string, unknown>;
 type Gag = { id: string; name: string; logline: string };
