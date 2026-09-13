@@ -1,5 +1,6 @@
 import "./integrator-cast-run990-daycare-wall";
 import "./integrator-cast-run994-birthdays-saber";
+import "./integrator-cast-run994-core-dayadream";
 import { allCharacters, characterById } from "./cast";
 import type { Character } from "./wiki";
 
