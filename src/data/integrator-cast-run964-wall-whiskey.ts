@@ -16,42 +16,45 @@ const upsertRelationship = (
   else relationships.push(relationship);
 };
 
-// Woohyuk / Rookie / 안순찰 is the existing canonical Ansun owner. Keep him
-// completely separate from Rooks / Rookie Cookie / .poogie. and deepen the
-// person instead of creating another near-name duplicate.
-const ansunIndex = allCharacters.findIndex((character) => character.id === "ansun");
-if (ansunIndex < 0) {
-  throw new Error("Run 964 expected the canonical Ansun/Woohyuk owner; refusing to create a duplicate Rookie.");
+// Woohyuk is his own canonical owner. Hard project identity keeps Ansun as
+// Sou / Souta / 颯太; similar archive-era names must not collapse these people.
+const woohyukIndex = allCharacters.findIndex((character) => character.id === "woohyuk");
+if (woohyukIndex < 0) {
+  throw new Error("Run 965 expected the canonical Woohyuk owner; refusing to merge him into Ansun or create a duplicate.");
 }
 
-const ansun = allCharacters[ansunIndex] as ExtendedCharacter;
-const ansunRelationships = [...(ansun.relationships ?? [])];
-upsertRelationship(ansunRelationships, {
+const woohyuk = allCharacters[woohyukIndex] as ExtendedCharacter;
+const woohyukRelationships = [...(woohyuk.relationships ?? [])];
+upsertRelationship(woohyukRelationships, {
   name: "Luna",
   note:
     "In a December 2020 Wall pocket, Woohyuk goes from `NOOO LUNA` into a likely same-scene reminder that she said that an hour ago and `please sleep`. The last two lines do not preserve a technical reply edge, so the recipient stays likely rather than absolute; socially, the pocket reads like light nagging care instead of a lecture.",
 });
-upsertRelationship(ansunRelationships, {
-  name: "Yazaki",
+upsertRelationship(woohyukRelationships, {
+  name: "Yaza",
   note:
     "Woohyuk directly tags Rosario17/Yazaki with a YouTube share in Whiskey on January 19, 2021. It is a small but chosen-recipient gesture: enough to show he sometimes sends media outward to a specific person, not enough to manufacture a closeness rank from one link.",
+  href: "/characters/yaza",
 });
 
-allCharacters[ansunIndex] = {
-  ...ansun,
+allCharacters[woohyukIndex] = {
+  ...woohyuk,
+  aliases: unique([...(woohyuk.aliases ?? []), "ash_island"]),
   logline:
-    "Woohyuk—also Rookie/Ansun—is a willing Screenshot Court specimen with a surprisingly earnest center: he can classify everybody else's nonsense, check whether a running premise is real before repeating it, tell the room he loves them sincerely, and then immediately give the sincerity a clown exit so nobody has to stand there being solemn about it.",
+    "A recurring VIP with a surprisingly earnest center: Woohyuk can check whether a running premise is real before repeating it, tell the room he loves them sincerely, and then immediately give the sincerity a clown exit so nobody has to stand there being solemn about it.",
   tags: unique([
-    ...(ansun.tags ?? []),
+    ...(woohyuk.tags ?? []),
+    "VIP",
+    "Whiskey",
     "Sincerity with a clown exit",
     "Affectionate absurdity",
     "Checks the premise",
     "Media sharing",
     "Petty Crimes",
   ]),
-  relationships: ansunRelationships,
+  relationships: woohyukRelationships,
   quotes: unique([
-    ...(ansun.quotes ?? []),
+    ...(woohyuk.quotes ?? []),
     "Love yall sincerely",
     "(from the person with the fattest ass) UwU",
     "Brush your teeth with chocolate, bathe in chocolate, drench yourself with chocolate. Happy Valentines ❤️",
@@ -59,23 +62,23 @@ allCharacters[ansunIndex] = {
     "Crave some shavee ice cream",
   ]),
   claims: unique([
-    ...(ansun.claims ?? []),
-    "Whiskey gives Woohyuk a consistent delivery habit beyond his Screenshot Court reputation: he says warm things directly, then often makes the landing ridiculous. His June 29, 2021 birthday thank-you moves from explicit appreciation and `Love yall sincerely` straight into a self-directed body joke and `UwU`; the joke lightens the moment without retracting the affection.",
+    ...(woohyuk.claims ?? []),
+    "Whiskey gives Woohyuk a consistent delivery habit beyond his meme-heavy archive presence: he says warm things directly, then often makes the landing ridiculous. His June 29, 2021 birthday thank-you moves from explicit appreciation and `Love yall sincerely` straight into a self-directed body joke and `UwU`; the joke lightens the moment without retracting the affection.",
     "The same warmth-through-escalation shows up on Valentine's Day 2021, when Woohyuk turns a normal holiday greeting into instructions to brush, bathe, and drench yourself in chocolate before wishing the room a happy Valentine's Day.",
     "On May 25, 2021 Woohyuk pauses over a Panda color-blindness premise and asks whether it is real or whether everybody is joking. That tiny check matters: he participates in bits freely, but does not automatically literalize the room's premise just because everybody else is running with it.",
     "Ordinary-life texture around the same Whiskey lane includes a shave-ice craving, probable Why Don't We enthusiasm around a `best group` media post, and caffeine chatter. These are tastes and scraps, not a complete lifestyle profile.",
     "Lobby pins the same stable account present by July 27, 2020. That is a presence point only; it does not establish join date or role chronology.",
   ]),
   antiFanon: unique([
-    ...(ansun.antiFanon ?? []),
-    "Woohyuk / Rookie / 안순찰 (Ansun), stable account 282643269438144513, is not Rooks / Rookie Cookie / .poogie. Similar Rookie-shaped names must not be merged.",
+    ...(woohyuk.antiFanon ?? []),
+    "Woohyuk / ash_island, stable account 282643269438144513, is his own person. Do not merge him with Ansun / Sou / Souta / 颯太, Woosung / WOO, or Rooks / Rookie Cookie from name resemblance or old shorthand.",
     "The `please sleep` pocket is likely directed at Luna from immediate scene chronology, but the surfaced final lines do not preserve a technical mention/reply edge. Keep the care read probable rather than turning adjacency into hard topology.",
     "A Why Don't We-referencing media filename plus `best group` supports probable enthusiasm, not an exhaustive favorite ranking or a claim that every later music share represents the same taste.",
     "`Single forever`, `i am pure`, `In corpse voice uwu`, and the birthday body joke are scene-level social texture. They are not stable relationship-status, identity, medical, or body claims.",
-    "Woohyuk's direct presence by July 27, 2020 and the later `MUGEN LOCKED ME OUT` / VIP joke do not establish recruitment, join, promotion, demotion, or appointment chronology.",
+    "Woohyuk's direct presence by July 27, 2020 and the later `MUGEN LOCKED ME OUT` / VIP complaint do not establish recruitment, join, promotion, demotion, or appointment chronology.",
   ]),
 } as ExtendedCharacter;
-characterById.set(allCharacters[ansunIndex].id, allCharacters[ansunIndex]);
+characterById.set("woohyuk", allCharacters[woohyukIndex]);
 
 // 影の戦士 has only two stable-ID Wall occurrences, but both are socially
 // specific. The useful contradiction is tiny prose volume with confident,
