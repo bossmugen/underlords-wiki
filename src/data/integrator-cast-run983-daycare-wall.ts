@@ -169,3 +169,103 @@ const upsertRelationship = (
     ]),
   });
 }
+
+// Run 985 — Noether's older social/body-of-life material finally sits beside the Wall lawyer.
+// The same person who wants context preserved also wants to be recognized, repairs quickly,
+// and moves from theatrical complaint to reciprocal warmth without pretending the complaint never happened.
+{
+  const [index, noether] = requireCharacter("noether", "Noether");
+  const relationships = [...(noether.relationships ?? [])];
+
+  const appendRelationship = (name: string, note: string, href?: string) => {
+    const relationshipIndex = relationships.findIndex((candidate) => candidate.name === name);
+    if (relationshipIndex >= 0) {
+      const existing = relationships[relationshipIndex];
+      relationships[relationshipIndex] = {
+        ...existing,
+        note: `${existing.note} ${note}`,
+        ...(href && !existing.href ? { href } : {}),
+      };
+    } else {
+      relationships.push({ name, note, ...(href ? { href } : {}) });
+    }
+  };
+
+  appendRelationship(
+    "Panda",
+    "On Panda's birthday Noether theatrically complains that Panda has a birthday-hat role while Noether does not. Panda answers with an immediate `NOETHER NOOOOO TE AMOOO SORRY`; Noether softens just as fast — `its okay TT`, `te amo too and feliz cumpleanos panda :'>` — and then says they made an IA on Panda's image. The useful rhythm is status-sensitive joking followed by easy reciprocal repair, not a literal romance or role dispute.",
+    "/characters/panda",
+  );
+  appendRelationship(
+    "Ren",
+    "The same birthday pocket includes Noether's abrupt `HELLO ANGURY IM NOETHER`, Ren's plain `hey noether`, and Noether's equally plain `hi ren`. It reads like a small bid to be seen getting answered without ceremony — a useful counterweight to Noether's much louder Wall-lawyer mode.",
+    "/characters/ren",
+  );
+
+  save(index, {
+    ...noether,
+    logline:
+      "Game Officer with a technical relationship to nonsense and a very human desire to be seen: Noether wants the context preserved, the dessert categories correct, and the birthday-role slight acknowledged — then softens immediately when Panda apologizes and goes right back to making things for people.",
+    tags: unique([
+      ...(noether.tags ?? []),
+      "Belonging",
+      "Reciprocal warmth",
+      "Creative follow-through",
+      "Petty Crimes",
+    ]),
+    relationships,
+    quotes: unique([
+      ...(noether.quotes ?? []),
+      "BRUH SO PANDAS BIRTHDAY HAT ROLE AND NOT MY BDAY ROLE OMG",
+      "HELLO ANGURY IM NOETHER",
+      "its okay TT",
+      "te amo too and feliz cumpleanos panda :'>",
+      "@PANDA i made an IA on your image lol",
+    ]),
+    claims: unique([
+      ...(noether.claims ?? []),
+      "A 2022 Panda-birthday pocket adds a softer belonging axis to Noether's already-public context-lawyer persona. Noether complains theatrically about Panda having a birthday-hat role while Noether does not, introduces themself loudly to Ren, accepts Panda's apology almost immediately, reciprocates Panda's affectionate Spanish, wishes Panda a happy birthday, and then says they made an IA on Panda's image.",
+      "Taken beside the recurring Wall material, Noether's social mechanism is not simply `likes context`. Recognition matters; once somebody meets the bid, Noether repairs quickly and often follows the exchange with participation or making something rather than nursing the slight.",
+    ]),
+    antiFanon: unique([
+      ...(noether.antiFanon ?? []),
+      "The birthday-hat role is decorative/social status in this scene, not governance, rank, appointment chronology, or evidence of a formal office.",
+      "Panda's `TE AMOOO` and Noether's `te amo too` are affectionate room language in context and are not enough to establish literal romance or sex.",
+      "`i made an IA on your image` supports Noether's authored claim that they made an IA using Panda's image. It does not establish who originally MADE BY / CAPTURED BY the source image.",
+    ]),
+  });
+}
+
+// Run 985 — NintendoShitcube is an alias-era surface of the existing Zoshaa owner.
+// Do not create Nintendo II. This pass adds the cross-room reputation the newer Daycare handoff clarified.
+{
+  const [index, zoshaa] = requireCharacter("zoshaa", "Zoshaa");
+
+  save(index, {
+    ...zoshaa,
+    aliases: unique([...(zoshaa.aliases ?? []), "NintendoShitcube", "Nintendo"]),
+    tags: unique([
+      ...(zoshaa.tags ?? []),
+      "Cursed-cute",
+      "Fact-checker",
+      "Shared room nickname",
+      "Petty Crimes",
+    ]),
+    quotes: unique([
+      ...(zoshaa.quotes ?? []),
+      "The tablets came out in the 70s but actual tide pods came out 2012",
+      "I’d share a refreshing glass of boiled mayo with my orb any day ᵘ ʷ ᵘ",
+    ]),
+    claims: unique([
+      ...(zoshaa.claims ?? []),
+      "Under the NintendoShitcube display-name era, the same stable account develops a recurring `child` reputation across rooms: Gilli directly calls Nintendo `C H I L D UWU` in June 2020, and Anayss is still invoking `the c h i l d` toward Nintendo in August 2021. The persistence makes it a shared social bit rather than one person's stray nickname.",
+      "Nintendo/Zoshaa actively feeds the reputation rather than merely receiving it. Cute or superscript delivery can carry cursed premises (`I’d share a refreshing glass of boiled mayo with my orb any day ᵘ ʷ ᵘ`), while a Tide Pod tangent suddenly gets precise release-history pedantry. The useful contradiction is room-babied / willing accomplice and absurdist / weirdly specific fact-checker.",
+    ]),
+    antiFanon: unique([
+      ...(zoshaa.antiFanon ?? []),
+      "NintendoShitcube / Nintendo in this packet is stable account 703429467082719344 and stays inside the existing canonical Zoshaa owner. Similar Nintendo-like display names must not be merged without the stable-account bridge.",
+      "Gilli's `C H I L D UWU` and Anayss's later `the c h i l d` are shared joke-family/reputation language only. They do not establish literal age, family, guardianship, rank, or governance.",
+      "The boiled-mayo line is used here only as Zoshaa/Nintendo character texture. It does not reassign Boiled Mayo motif origin or ownership.",
+    ]),
+  });
+}
