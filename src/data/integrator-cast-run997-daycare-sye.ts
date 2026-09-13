@@ -51,14 +51,14 @@ const relationships = [...(sye.relationships ?? [])];
 upsertRelationship(
   relationships,
   "Lilly",
-  "In an October 2020 Wall pocket, Sye's loud `I Love Her` joke keeps revealing a real care reflex. After the room turns the mock possessiveness into protection banter, Sye says the part that is actually keeping them up: `Okie , but I’m worrying about her health!` The exact relationship label stays untyped; the worry itself is not subtle.",
-  "worrying about her health",
+  "In an October 2020 Wall pocket, Sye's loud `I Love Her` joke keeps revealing a real care reflex. The room turns mock possessiveness into protection banter; Sye keeps the joke moving while making it clear the underlying worry is real. The specific private reason for the worry stays off the public profile.",
+  "underlying worry is real",
 );
 
 upsertRelationship(
   relationships,
   "Gilli",
-  "Gilli recognizes Sye's Lilly bit as devotion, then tries to reassure the worry without forcing everybody out of the joke: `Please no worry!` and `We protec`. Sye accepts the affection but clarifies the concrete concern anyway. It is a clean little example of Gilli meeting Sye in the room's language while Sye refuses to let comedy erase care.",
+  "Gilli recognizes Sye's Lilly bit as devotion, then answers the worry without forcing everybody out of the joke: `Please no worry!` and `We protec`. It is a clean little example of Gilli meeting Sye in the room's language while Sye can be both openly affectionate and genuinely anxious at the same time.",
   "We protec",
   "/characters/gilli",
 );
@@ -77,14 +77,13 @@ const next: ExtendedCharacter = {
     "@Lilly👽 is Mine! And I Love Her more then all of y’all.",
     "DW I love y’all too!",
     "But I’m a worry wort! And that keeps me up !",
-    "Okie , but I’m worrying about her health!",
     "Let me be your maid for cuddles and love!",
     "Snow lays eggs filled with bunnies",
     "so it's a neck fetish then",
   ]),
   claims: appendUnique(sye.claims, [
     "Resolved project canon maps stable account 488099199938986004 / username `sycessences` / display `ƐℲı˥` to Sye / Life; this is a carried canonical identity bridge rather than a similar-name inference.",
-    "On October 9, 2020 Sye moves from mock-competitive affection for Lilly into explicit self-description — `But I’m a worry wort! And that keeps me up !` — and then distinguishes the real concern from the room's protection joke with `Okie , but I’m worrying about her health!`.",
+    "On October 9, 2020 Sye moves from mock-competitive affection for Lilly into explicit self-description — `But I’m a worry wort! And that keeps me up !` — while the surrounding exchange makes clear that the concern underneath the joke is genuine. The private reason for the worry is intentionally omitted from public copy.",
     "The same social register can swing from care into nonsense without a personality change: later Sye offers `cuddles and love`, declares that Snow lays eggs filled with bunnies, and deadpans `so it's a neck fetish then`.",
     "The useful cumulative read is worrywart care and gremlin humor occupying the same person. Sye can be emotionally demonstrative, anxious on somebody else's behalf, and still communicate through the room's absurd register.",
     "Petty Crimes: absurd biology, immediate deadpan diagnosis, and a demonstrated ability to turn `Snow lays eggs filled with bunnies` into a sentence other people simply have to live with.",
@@ -93,7 +92,7 @@ const next: ExtendedCharacter = {
     "The previously staged Run 997 claim that stable account 266511482554974208 was the `sycessences` / `ƐℲı˥` Sye owner conflicted with resolved project canon and was removed. Do not restore that account bridge without a separate hard identity resolution.",
     "Sye's `Mine!` / `I Love Her` language confirms affection and care toward Lilly in this scene; it does not independently establish romance, sex, or a specific relationship label.",
     "Gilli's `family` framing in the surrounding joke is social/family-language texture, not evidence of biological family.",
-    "Sye worrying about Lilly's health supports Sye's care behavior; it does not authorize publishing a diagnosis, condition, or private medical detail about Lilly.",
+    "The source exchange contains a private reason for Sye's worry about Lilly. Public copy intentionally withholds that detail; do not restore or elaborate it from the intake receipt.",
   ]),
 };
 
