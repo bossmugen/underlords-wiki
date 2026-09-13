@@ -1,3 +1,4 @@
+import "./integrator-cast-run990-daycare-wall";
 import { allCharacters, characterById } from "./cast";
 import type { Character } from "./wiki";
 
