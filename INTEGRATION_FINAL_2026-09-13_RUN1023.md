@@ -40,4 +40,6 @@ This file is documentation-only and does not alter the verified reader tree.
 
 MAIN reader-facing changes are intentionally **0** this run. Mimi's packet is strong structured-dossier material but still does not warrant inventing a thin rich biography just to make MAIN change; Bishop's substantive Wall synthesis was already public and the additive lines are WIKI-scale Petty Crimes texture. MAIN's controlling branch ledger records both reviewed frontiers and the unresolved Daycare channel-history caveat.
 
+The outstanding MAIN production workflow `34777557193` was retried once this run. Job `103795160875` again failed before any runner steps were allocated (`steps: null`), so source verification, Astro, built-output verification, and deployment did not execute. No green MAIN claim is made.
+
 Per the current consumption rule, Daycare is reviewed/consumed through `8b05f0c8ef355c0d001c9ffea92e71a5ce631c26` and Wall through `fa4e97218e393b88052aabdffb1bdb7da25c413f`. Older unrelated MAIN publication debts remain separate `pending_publication` work instead of forcing these suffixes to be reread.
