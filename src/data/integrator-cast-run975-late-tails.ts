@@ -1,3 +1,6 @@
+import "./integrator-cast-run801-intake";
+import "./integrator-identity-repair-run802";
+import "./integrator-cast-run807-late-wall-momo-mimi";
 import "./integrator-cast-run936-core-dwr";
 import "./integrator-cast-run934-daycare-wall-woosung-yumi";
 import { allCharacters, characterById } from "./cast";
