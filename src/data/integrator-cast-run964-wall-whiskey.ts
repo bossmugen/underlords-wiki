@@ -118,3 +118,73 @@ if (!allCharacters.some((character) => character.id === "shadow-warrior")) {
     archiveCastGroup.characterIds.push("shadow-warrior");
   }
 }
+
+// The later Birthdays/PR/VC tail corrects the Kahoot lineage and Ren's own
+// repair story. Remove the now-stale July-earliest claim before adding the
+// stronger June chronology and the next-day second correction.
+const renIndex = allCharacters.findIndex((character) => character.id === "ren");
+if (renIndex < 0) {
+  throw new Error("Run 964 expected the canonical Ren owner; refusing to create a duplicate.");
+}
+const ren = allCharacters[renIndex] as ExtendedCharacter;
+const renAntiFanon = (ren.antiFanon ?? []).filter(
+  (item) => !item.includes("surviving announcements already contain an earlier July 2021 Kahoot-style challenge"),
+);
+allCharacters[renIndex] = {
+  ...ren,
+  tags: unique([...(ren.tags ?? []), "Kahoot", "Public repair", "Owns the mistake"]),
+  quotes: unique([
+    ...(ren.quotes ?? []),
+    "Due to brain farts :bbfart: the code provided on the Kahoot poster is the Incorrect one QwQ",
+    "a new code will be provided so you all can do the Kahoot again",
+  ]),
+  claims: unique([
+    ...(ren.claims ?? []),
+    "Ren's August 7, 2021 `Here is the poster with the right code` was not the final repair after all. On August 8 she comes back herself, says `Due to brain farts` the poster code is still incorrect, apologizes to participants, and tells them a new code will be provided so they can do the Kahoot again. The second correction makes the existing character read stronger: she does not protect yesterday's confident claim once she knows it is wrong; she reopens the mistake in public and gives the room the next step.",
+  ]),
+  antiFanon: unique([
+    ...renAntiFanon,
+    "Ren's August 7 `right code` line records what she believed at the time. Her August 8 correction supersedes it as the archival conclusion: the poster code was still wrong enough that participants were invited to redo the Kahoot. The actual code, designer, editor, and exact error mechanism remain unresolved.",
+    "The August spelling-Kahoot sequence is not UL's Kahoot origin. Readable announcements now push the explicit surviving Kahoot chronology back to June 4–6, 2021, and July 14 explicitly calls itself the `2nd KAHOOT`; June is still earliest surviving, not guaranteed origin.",
+  ]),
+} as ExtendedCharacter;
+characterById.set("ren", allCharacters[renIndex]);
+
+// Antho is kept as its own stable-account owner. The name is too close to
+// Anthos for any identity bridge to be safe, and no bridge is required to
+// publish the recurring behavior that the source actually gives us.
+if (!allCharacters.some((character) => character.id === "antho-logy")) {
+  const antho: ExtendedCharacter = {
+    id: "antho-logy",
+    name: "Antho",
+    aliases: ["antho.logy."],
+    billing: "legacy",
+    role: "Archive-era event communications",
+    era: "2021",
+    logline:
+      "Antho is one of the people repeatedly standing at the public microphone for early UL events: calling for Photoshoot Contest entries, reminding everybody where the rules and prizes live, yelling `POSE POSE POSE!`, and packaging the second Kahoot for the room without needing a formal title to make the work visible.",
+    tags: ["Archive cast", "Event communications", "Photoshoot Contest", "Kahoot", "Public announcements"],
+    quotes: [
+      "Could you be the face of Underlords next poster?",
+      "Grab your avatars! Get your cameras and POSE POSE POSE!",
+      "Unerlords 2nd **KAHOOT** game will begin at 12.30pm SVT",
+    ],
+    claims: [
+      "Across January through November 2021, stable account 695394317921026121 repeatedly handles public-facing event messaging: submission calls and reminders across the early Photoshoot Contest series, plus the July 14 announcement for UL's `2nd KAHOOT`.",
+      "The recurrence matters more than any one announcement. Antho keeps doing the practical public-facing part of events—tell people what is happening, where to submit, how much time is left, and what happens next—so the lived social role is event communications even without a proven formal appointment title.",
+      "For the July second-Kahoot announcement Antho also posts a four-image announcement package. POSTED BY is secure; the image package does not by itself establish who designed, edited, captured, or appears in those images.",
+    ],
+    antiFanon: [
+      "Antho / antho.logy. is stable account 695394317921026121. Do not merge this owner with Anthos or any similarly named person from name resemblance alone.",
+      "Recurring public-event messaging does not independently prove a formal historical PR appointment, appointment date, exclusive responsibility for events, birthday authority, or VC authority.",
+      "Antho's event-media uploads establish POSTED BY only. They do not establish MADE BY, EDITED BY, CAPTURED BY, or FEATURING without a separate provenance join.",
+      "The January 31 phrase `2nd annual photoshoot contest` appears only weeks after a January 9 announcement calling another contest `our very first`; treat `annual` as contemporary hype language rather than literal yearly chronology.",
+    ],
+  };
+  allCharacters.push(antho);
+  characterById.set("antho-logy", antho);
+  const archiveCastGroup = castGroups.find((group) => group.id === "archive-cast");
+  if (archiveCastGroup && !archiveCastGroup.characterIds.includes("antho-logy")) {
+    archiveCastGroup.characterIds.push("antho-logy");
+  }
+}
