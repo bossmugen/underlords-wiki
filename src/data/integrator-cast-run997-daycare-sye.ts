@@ -1,3 +1,4 @@
+import "./integrator-cast-run997-wall-vanness";
 import { allCharacters, characterById } from "./cast";
 import type { Character } from "./wiki";
 
