@@ -157,6 +157,7 @@ import "./integrator-cast-run983-daycare-wall";
 import "./integrator-cast-run987-daycare-shiyax";
 import "./integrator-cast-run1008-core-woo-hic";
 import "./integrator-identity-run1014-kiro-hic";
+import "./integrator-cast-run1028-wall-bubblessenpai";
 
 type LooseRecord = Record<string, unknown>;
 type Gag = { id: string; name: string; logline: string };
