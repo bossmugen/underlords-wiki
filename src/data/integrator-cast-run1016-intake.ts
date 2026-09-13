@@ -63,11 +63,23 @@ characterById.set("snow", allCharacters[snowIndex]);
 
 // DAYCARE + WALL support — Meowk
 // Stable account 264889543365230614. The March 13 `i` / `saw` / `all` beat
-// belongs here, not to Alkey. Run 843 already separated the two owners; this
-// pass repairs the remaining public episode attribution and deepens Meowk.
-const meowkIndex = allCharacters.findIndex((character) => character.id === "meowk");
+// belongs here, not to Alkey. Evaluation order can reach this module before the
+// older Run 843/836 Meowk modules, so seed the canonical id when necessary; the
+// later overlays merge into this owner rather than creating a duplicate.
+let meowkIndex = allCharacters.findIndex((character) => character.id === "meowk");
 if (meowkIndex < 0) {
-  throw new Error("Run 1016 expected canonical Meowk owner after Run 843 repair.");
+  allCharacters.push({
+    id: "meowk",
+    name: "Meowk",
+    aliases: [],
+    billing: "recurring",
+    role: "Member",
+    era: "2021–2025+",
+    logline:
+      "A tiny-verdict witness who is equally good at becoming the room's target: Meowk can slow-release `i` / `saw` / `all`, then get cute-cast themself and complain while everybody treats the protest as fresh fuel.",
+    tags: ["Wall", "Daycare", "Petty Crimes"],
+  });
+  meowkIndex = allCharacters.length - 1;
 }
 
 const meowk = allCharacters[meowkIndex] as ExtendedCharacter;
