@@ -153,6 +153,7 @@ import "./integrator-cast-run975-wall-torr-gilli";
 import "./integrator-cast-run978-wall-kiro";
 import "./integrator-cast-run979-wall-rotini";
 import "./integrator-cast-run981-louvre-wall-rooks-momo";
+import "./integrator-cast-run983-daycare-wall";
 
 type LooseRecord = Record<string, unknown>;
 type Gag = { id: string; name: string; logline: string };
