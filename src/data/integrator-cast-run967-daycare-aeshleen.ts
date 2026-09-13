@@ -1,3 +1,4 @@
+import "./integrator-cast-run973-daycare-mimi";
 import "./integrator-cast-run970-wall-wolf";
 import "./integrator-cast-run967-wall-zyrcant";
 import { allCharacters, characterById } from "./cast";
