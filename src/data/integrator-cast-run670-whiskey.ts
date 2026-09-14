@@ -37,6 +37,7 @@ if (nhouIndex >= 0) {
         "Low-ceremony presence",
         "Return continuity",
         "House rhythm",
+        "Birthday privacy",
         "Petty Crimes",
       ]),
     ],
@@ -48,6 +49,8 @@ if (nhouIndex >= 0) {
         "i just wokeup",
         "everyone gone just like that",
         "gnightt",
+        "happy birthday gilli ur cool",
+        "Not sayinggg",
       ]),
     ],
   };
