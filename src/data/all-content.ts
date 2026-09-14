@@ -164,6 +164,7 @@ import "./integrator-cast-run1051-late-tails";
 import "./integrator-cast-run1067-daycare-damon";
 import "./integrator-cast-run1067-core-daycare";
 import "./integrator-cast-run1071-louvre-qin-mu";
+import "./integrator-cast-run1079-wall-hishiro";
 
 type LooseRecord = Record<string, unknown>;
 type Gag = { id: string; name: string; logline: string };
