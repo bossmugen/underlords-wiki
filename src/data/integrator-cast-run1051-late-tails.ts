@@ -6,47 +6,56 @@ type ExtendedCharacter = Character & {
   antiFanon?: string[];
 };
 
+const unique = <T>(items: T[]): T[] => [...new Set(items)];
+
+const upsertRelationship = (
+  relationships: NonNullable<Character["relationships"]>,
+  relationship: NonNullable<Character["relationships"]>[number],
+) => {
+  const index = relationships.findIndex((candidate) => candidate.name === relationship.name);
+  if (index >= 0) relationships[index] = relationship;
+  else relationships.push(relationship);
+};
+
 const archiveCastGroup = castGroups.find((group) => group.id === "archive-cast");
 
-// opalite — later social shorthand makes the creative-labor association usable without inventing a title.
-if (!allCharacters.some((character) => character.id === "opalite")) {
-  const opalite: ExtendedCharacter = {
-    id: "opalite",
-    name: "opalite",
-    aliases: ["opalite.honey", "༯"],
-    billing: "legacy",
-    role: "Archive-era UL member",
-    era: "2023",
-    logline:
-      "opalite can suggest that something belongs on a poster and immediately get the suggestion thrown back at them as `SAID THE POSTER MAKER`. The useful part is how little explanation Mugen needs: poster-making was already a recognizable enough association to work as casual teasing, giving opalite a small but clean creative-labor footprint without turning the joke into a formal office.",
-    tags: ["Archive cast", "Creative labor", "Poster-making", "Mugen teasing", "2023"],
-    relationships: [
-      {
-        name: "Mugen",
-        note:
-          "When opalite says something `should be on a poster`, Mugen directly fires back `LMFAOO SAID THE POSTER MAKER`; opalite answers by laughing. The speed and lack of explanation make the association feel socially preloaded rather than newly assigned in that moment.",
-        href: "/characters/mugen",
-      },
-    ],
-    quotes: ["^ should be on a poster", "LMAFOOO"],
-    claims: [
-      "Stable account 783389804079349800 anchors the reviewed opalite.honey material and the surfaced Wall nickname ༯.",
-      "On 2023-04-02 Mugen directly replies to opalite's poster suggestion with `LMFAOO SAID THE POSTER MAKER`, supporting a person-level read that poster-making was already a recognizable association with opalite by that date.",
-      "The exchange supports creative-labor texture and a recurring-enough social association; it does not establish a formal PR/Marketing appointment or authorship of a specific poster asset.",
-    ],
-    antiFanon: [
-      "`THE POSTER MAKER` is teasing/social shorthand here, not a formal title, appointment, exclusive responsibility, or appointment date.",
-      "Do not backdate the 2023 poster-maker association into authorship of 2021 Photoshoot assets. Specific MADE BY / EDITED BY / CAPTURED BY / FEATURING credits remain object-specific and unresolved unless separately earned.",
-      "A separate 2023 self-report gives an age on that date; this public dossier intentionally does not surface it as a birthday, birth year, or current-age fact.",
-    ],
-  };
-
-  allCharacters.push(opalite);
-  characterById.set("opalite", opalite);
-  if (archiveCastGroup && !archiveCastGroup.characterIds.includes("opalite")) {
-    archiveCastGroup.characterIds.push("opalite");
-  }
+// Mimi / opalite.honey — hard canon keeps the poster-maker callback on the existing Mimi owner.
+const mimiIndex = allCharacters.findIndex((character) => character.id === "mimi");
+if (mimiIndex < 0) {
+  throw new Error("Run 1051 expected canonical Mimi / opalite.honey owner; refusing to create a duplicate opalite person.");
 }
+
+const mimi = allCharacters[mimiIndex] as ExtendedCharacter;
+const mimiRelationships = [...(mimi.relationships ?? [])];
+
+upsertRelationship(mimiRelationships, {
+  name: "Mugen",
+  note:
+    "When Mimi / opalite.honey says something `should be on a poster`, Mugen directly fires back `LMFAOO SAID THE POSTER MAKER`; Mimi answers by laughing. The speed and lack of explanation make poster-making feel like a socially preloaded association, not a title being assigned in that moment.",
+  href: "/characters/mugen",
+});
+
+allCharacters[mimiIndex] = {
+  ...mimi,
+  aliases: unique([...(mimi.aliases ?? []), "opalite.honey", "༯"]),
+  tags: unique([...(mimi.tags ?? []), "Creative labor", "Poster-making", "Mugen teasing"]),
+  relationships: mimiRelationships,
+  quotes: unique([...(mimi.quotes ?? []), "^ should be on a poster", "LMAFOOO"]),
+  claims: unique([
+    ...(mimi.claims ?? []),
+    "Stable Mimi account 783389804079349800 / `opalite.honey` is the account in the reviewed 2023 poster-maker callback; hard canon keeps this material on Mimi rather than creating a separate opalite person.",
+    "On 2023-04-02 Mugen directly replies to Mimi / opalite.honey's poster suggestion with `LMFAOO SAID THE POSTER MAKER`, supporting a person-level read that poster-making was already a recognizable association with Mimi by that date.",
+    "The exchange supports creative-labor texture and a socially recognizable poster-making association; it does not establish a formal PR/Marketing appointment or authorship of a specific poster asset.",
+  ]),
+  antiFanon: unique([
+    ...(mimi.antiFanon ?? []),
+    "Mimi / opalite.honey remains distinct from Mia. Do not split opalite.honey into a separate person or transfer this poster-maker material onto Mia.",
+    "`THE POSTER MAKER` is teasing/social shorthand here, not a formal title, appointment, exclusive responsibility, or appointment date.",
+    "Do not backdate the 2023 poster-maker association into authorship of 2021 Photoshoot assets. Specific MADE BY / EDITED BY / CAPTURED BY / FEATURING credits remain object-specific and unresolved unless separately earned.",
+    "A separate 2023 self-report gives an age on that date; this public dossier intentionally does not surface it as a birthday, birth year, or current-age fact.",
+  ]),
+} as ExtendedCharacter;
+characterById.set("mimi", allCharacters[mimiIndex]);
 
 // Reinaa / Reiinnaa — small Daycare count, fast participation, and an explicit old-account -> new-account continuity bridge.
 if (!allCharacters.some((character) => character.id === "reinaa")) {
