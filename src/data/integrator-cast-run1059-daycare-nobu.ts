@@ -28,7 +28,7 @@ const baseNobu: ExtendedCharacter = {
   role: "UL Party Director",
   era: "2022–present",
   logline:
-    "Party Director with a compact delivery and an organizer brain that keeps escaping into the joke: Nobu can build an entire breathing-style PDF, count matching-PFP uptake, prosecute a burnt pancake in one sentence, then seed a ship joke herself and calmly stay in the blast radius when everybody turns it back on her.",
+    "Party Director with a compact delivery and an organizer brain that keeps escaping into the joke: Nobu can build an entire breathing-style PDF, count matching-PFP uptake, prosecute a burnt pancake in one sentence, then push back on somebody else's premise just enough to rewrite it before calmly staying in the blast radius.",
   tags: [
     "Party Director",
     "Creative systems",
@@ -36,6 +36,7 @@ const baseNobu: ExtendedCharacter = {
     "Daycare",
     "Counter-narrator",
     "Reciprocal teasing",
+    "High-context banter",
     "Petty Crimes",
   ],
   relationships: [],
@@ -44,6 +45,8 @@ const baseNobu: ExtendedCharacter = {
     "9 out 12 pfp taken.",
     "No cursing, this the daycare.",
     "No drunk texting, this is a daycare.",
+    "Okay now whAT",
+    "People ship me for the memes",
     ":excusemewot: Nobu and Gabu sound nice together.",
     "Oyasumi in denial that I broke free from being kidnapped and took him for bounty instead. :cattohmph:",
     "Quit aging. You make me feel old. Last I recall you a smol platelet.",
@@ -55,6 +58,13 @@ const baseNobu: ExtendedCharacter = {
 
 const current = nobuIndex >= 0 ? (allCharacters[nobuIndex] as ExtendedCharacter) : baseNobu;
 const relationships = [...(current.relationships ?? [])];
+
+upsertRelationship(relationships, {
+  name: "Mugen",
+  note:
+    "Mugen can hand Nobu a teasing premise and Nobu does not need a briefing deck before answering it. In a March 2021 Daycare pocket, Nobu reacts to the setup with `Okay now whAT`, then scopes the joke as `People ship me for the memes`; Mugen broadens it to `everybody ships for the meme`, and Nobu simply answers `True`. The correction is part of the participation, not an exit from it.",
+  href: "/characters/mugen",
+});
 
 upsertRelationship(relationships, {
   name: "Rummy",
@@ -99,6 +109,7 @@ const next: ExtendedCharacter = {
   claims: unique([
     ...(current.claims ?? []),
     "Nobu and Xuseio are one canonical person. Nobu is UL Party Director and is not an Officer; Rummy is her Party Director Apprentice rather than a co-equal director.",
+    "On 2021-03-20 in Daycare, Mugen's teasing setup gets `Okay now whAT` from Nobu; when Mugen notes that people were shipping her, Nobu answers `People ship me for the memes`, Mugen generalizes that everybody ships for the meme, and Nobu answers `True`. Nobu corrects the frame without abandoning the bit.",
     "On 2023-03-20 Nobu true-replied to an older Wall joke with `Nobu and Gabu sound nice together.` Peers answered `get a room` and `I ship`; Nobu remained in the reaction layer, making the scene a clean example of a joke she starts becoming a joke she is also willing to absorb.",
     "Seventy-four minutes later on 2023-03-20, Nobu posted two screenshots under `Oyasumi in denial that I broke free from being kidnapped and took him for bounty instead. :cattohmph:`; Oyasumi answered with `:Clown_Disappointed:`. The authored caption supports Nobu's counter-narrator/reversal habit without requiring the screenshot pixels to be inspected.",
     "Across the surviving Nobu file, creative excess repeatedly comes with tracking and structure: a full original breathing-style PDF and later mechanics, plus a matching-PFP package whose uptake she counted as `9 out 12 pfp taken.`",
@@ -106,7 +117,8 @@ const next: ExtendedCharacter = {
   antiFanon: unique([
     ...(current.antiFanon ?? []),
     "Nobu is Party Director, not an Officer. Rummy is her Party Director Apprentice, not a co-equal Party Director.",
-    "The Gabu `get a room` / `I ship` exchange is communal joke-shipping. It does not establish romance, attraction, sex, or a literal relationship.",
+    "The 2021 Mugen exchange and the 2023 Gabu `get a room` / `I ship` exchange are communal joke-shipping. They do not establish romance, attraction, sex, or a literal relationship.",
+    "Mugen's nearby 2021 image is POSTED BY Mugen only unless MADE BY, CAPTURED BY, or FEATURING is independently established from inspected media or direct attribution.",
     "Nobu's Oyasumi caption is game/room-bit language. `kidnapped` and `bounty` are not treated as literal real-world abduction, violence, crime, or coercion.",
     "The two Oyasumi screenshots remain POSTED BY Nobu unless their pixels and provenance are independently inspected. The caption does not establish MADE BY, CAPTURED BY, or FEATURING.",
     "Creative/organizing behavior is character texture and does not automatically become formal Party Director duty or appointment chronology.",
