@@ -21,8 +21,8 @@ const character: ExtendedCharacter = {
   role: 'Archive-era cast',
   era: '2021',
   logline:
-    'A low-prose Wall regular whose surviving footprint is mostly amusement: one reaction-state appearance, one full-capital LMAO, and very little interest in explaining the joke.',
-  bio: `gammaramma barely needs a sentence to register in the room. One October Wall thread ends with gammaramma among the final \`frognod\` reactors; a few weeks later, \`LMAO\` is the entire authored contribution. The second beat lands near a crying-cat post, but it is structurally standalone, so the exact target of the laugh stays open. What survives is smaller and more useful than a manufactured episode: somebody quiet in prose who still shows up when the room turns ridiculous.`,
+    'A low-prose Wall regular who can register an entire opinion with one reaction or one full-capital LMAO and apparently sees no reason to explain the joke twice.',
+  bio: `gammaramma barely needs a sentence to be socially legible. One Wall moment gets a \`frognod\`; another gets the full authored statement \`LMAO\`. That is basically the operating system. While everybody else is busy turning nonsense into a hearing, gammaramma can stay almost silent and still make the amusement obvious. Quiet in prose, visibly entertained, and apparently perfectly happy to let the louder clowns explain themselves.`,
   currentStatus: 'Archive-era cast',
   featured: false,
   tags: ['Wall', 'low-prose presence', 'reaction shorthand', 'Petty Crimes'],
