@@ -32,7 +32,7 @@ const mimiRelationships = [...(mimi.relationships ?? [])];
 upsertRelationship(mimiRelationships, {
   name: "Mugen",
   note:
-    "When Mimi / opalite.honey says something `should be on a poster`, Mugen directly fires back `LMFAOO SAID THE POSTER MAKER`; Mimi answers by laughing. The speed and lack of explanation make poster-making feel like a socially preloaded association, not a title being assigned in that moment.",
+    "Mugen's `LMFAOO SAID THE POSTER MAKER` already treats Mimi / opalite.honey's poster work like a preloaded social fact. Ten days later the joke gets a receipt: Mimi posts an image, Mugen replies directly to that exact post with `Sir you made the banner I -`, and Mimi answers `LMAOO I JUST NOTICED THATTT`. Mugen is teasing her and crediting her at the same time; the direct reply binds the maker claim to that specific banner without inventing a formal title or appointment date.",
   href: "/characters/mugen",
 });
 
@@ -41,18 +41,21 @@ allCharacters[mimiIndex] = {
   aliases: unique([...(mimi.aliases ?? []), "opalite.honey", "༯"]),
   tags: unique([...(mimi.tags ?? []), "Creative labor", "Poster-making", "Mugen teasing"]),
   relationships: mimiRelationships,
-  quotes: unique([...(mimi.quotes ?? []), "^ should be on a poster", "LMAFOOO"]),
+  quotes: unique([...(mimi.quotes ?? []), "^ should be on a poster", "LMAFOOO", "LMAOO I JUST NOTICED THATTT"]),
   claims: unique([
     ...(mimi.claims ?? []),
-    "Stable Mimi account 783389804079349800 / `opalite.honey` is the account in the reviewed 2023 poster-maker callback; hard canon keeps this material on Mimi rather than creating a separate opalite person.",
+    "Stable Mimi account 783389804079349800 / `opalite.honey` is the account in the reviewed poster-maker callbacks; hard canon keeps this material on Mimi rather than creating a separate opalite person or moving it onto Mia.",
     "On 2023-04-02 Mugen directly replies to Mimi / opalite.honey's poster suggestion with `LMFAOO SAID THE POSTER MAKER`, supporting a person-level read that poster-making was already a recognizable association with Mimi by that date.",
-    "The exchange supports creative-labor texture and a socially recognizable poster-making association; it does not establish a formal PR/Marketing appointment or authorship of a specific poster asset.",
+    "On 2023-04-12 Mimi / opalite.honey posts an image message and Mugen later replies directly to that exact post with `Sir you made the banner I -`; the reply object makes this a direct creator attribution for that specific banner rather than an inference from conversational proximity.",
+    "The Apr. 2 callback plus the Apr. 12 object-bound reply support creative-labor texture and an actual behavior-backed banner-maker reputation. They do not establish a formal PR/Marketing appointment, exclusive responsibility, or authorship of unrelated assets.",
   ]),
   antiFanon: unique([
     ...(mimi.antiFanon ?? []),
     "Mimi / opalite.honey remains distinct from Mia. Do not split opalite.honey into a separate person or transfer this poster-maker material onto Mia.",
     "`THE POSTER MAKER` is teasing/social shorthand here, not a formal title, appointment, exclusive responsibility, or appointment date.",
-    "Do not backdate the 2023 poster-maker association into authorship of 2021 Photoshoot assets. Specific MADE BY / EDITED BY / CAPTURED BY / FEATURING credits remain object-specific and unresolved unless separately earned.",
+    "The Apr. 12 direct reply credits Mimi with one specific banner only. Do not generalize it into authorship of every UL poster or backdate it into authorship of 2021 Photoshoot assets.",
+    "The Apr. 12 attachment pixels are not separately exposed at the current source boundary. Keep visual description, EDITED BY, CAPTURED BY, FEATURING, and official/public-asset status unresolved.",
+    "`I’m lawyer` / `designer` banter in the same scene is not verified external occupation evidence.",
     "A separate 2023 self-report gives an age on that date; this public dossier intentionally does not surface it as a birthday, birth year, or current-age fact.",
   ]),
 } as ExtendedCharacter;
