@@ -19,6 +19,23 @@ const upsertRelationship = (
   else relationships.push(relationship);
 };
 
+const extendRelationship = (
+  relationships: NonNullable<Character["relationships"]>,
+  relationship: NonNullable<Character["relationships"]>[number],
+) => {
+  const index = relationships.findIndex((candidate) => candidate.name === relationship.name);
+  if (index >= 0) {
+    const current = relationships[index];
+    relationships[index] = {
+      ...current,
+      note: `${current.note} ${relationship.note}`,
+      href: current.href ?? relationship.href,
+    };
+  } else {
+    relationships.push(relationship);
+  }
+};
+
 const eosIndex = allCharacters.findIndex((character) => character.id === "eos");
 if (eosIndex >= 0) {
   const eos = allCharacters[eosIndex] as ExtendedCharacter;
@@ -45,10 +62,24 @@ if (eosIndex >= 0) {
     href: "/characters/mugen",
   });
 
+  extendRelationship(relationships, {
+    name: "Gilli",
+    note:
+      "Whiskey adds the plain-spoken version of that affection: on Gilli's 2021 birthday Eos cycles through `chigli/gilli/chilli` and then calls Gilli `one of the most amazing persons i've met`, wishing them an amazing birthday or simply a good day. The joke names do not dilute the praise; they are how Eos packages it.",
+    href: "/characters/gilli",
+  });
+
+  extendRelationship(relationships, {
+    name: "Marian",
+    note:
+      "Late June Whiskey keeps selecting Marian as Eos's direct partner for tiny repeatable bits—`w/hug @Marian Kage`, another tagged hug command the next day, then `Maybe a 5th time it’ll be different` before a quick `thee u go`. The exact command premise is incomplete, but the recurrence makes the comfortable retry-and-continue rhythm visible outside a single Wall receipt.",
+    href: "/characters/marian",
+  });
+
   allCharacters[eosIndex] = {
     ...eos,
     logline:
-      "Low-word, high-consequence regular: Eos can understand a whole plan from one look, howl when the Wall catches her, then turn around and become the person with another receipt ready. She does not flood every room, but when she arrives she can absolutely hit the doorway at full volume.",
+      "Low-word, high-consequence regular: Eos can literally keep the mic muted and still stay socially in the room, understand a whole plan from one look, howl when the Wall catches her, then turn around and become the person with another receipt ready. She does not flood every room; when she chooses a contribution or a piece of affection, it lands.",
     tags: appendUnique(eos.tags, [
       "Shared-context shorthand",
       "Counter-roast",
@@ -57,6 +88,11 @@ if (eosIndex >= 0) {
       "Caught-in-4K continuity",
       "Loud arrival",
       "Cross-room recognition",
+      "Muted mic active room",
+      "Selective participation",
+      "Direct affection",
+      "Ordinary life",
+      "Computer science",
       "Petty Crimes",
     ]),
     relationships,
@@ -79,6 +115,11 @@ if (eosIndex >= 0) {
       "HIIIII MUGS",
       "GN BABIESSS",
       "HI MUGEN !!! YES WE ARE, FOR NOW😭",
+      "im keeping my ass on mute:yoda:",
+      "if i have \"big brain\" ideas ill just say em XD",
+      "Computer science. I almost done:tableflip_lnd:",
+      "i really should cut my hair too... its stupid long:dead:",
+      "o chigli/gilli/chilli/to one of the most amazing persons i've met",
     ]),
     claims: appendUnique(eos.claims, [
       "Across 2021-09-07, 2021-12-09, and 2022-09-05, Rich/Ricochet repeatedly cues Eos with minimal setup and she immediately co-signs the bit, supporting a recurring low-bandwidth shared-context rhythm.",
@@ -90,6 +131,11 @@ if (eosIndex >= 0) {
       "The `caught in 4k` language is longitudinal rather than a one-night joke: on 2021-03-31 Eos says a ping made her know she was about to get caught; on 2021-07-15 she calls finding other people caught in 4k a habit; and on 2022-12-05 she is still filing another catch with `Got him again`. The durable contradiction is target and catcher at once.",
       "On 2021-09-23 Eos enters Daycare with `HELLO DAYCARE`; Mugen answers `EOS HI` 53.168 seconds later, and Eos returns `HIIIII MUGS`. Eos signs off the next day with `GN BABIESSS`, supporting a low-volume-but-audible social style rather than quiet disappearance.",
       "On 2021-09-27 in b-lounge, Mugen asks `HI EOS ARE WE SAFE`; Eos answers 12.672 seconds later, `HI MUGEN !!! YES WE ARE, FOR NOW😭`. Together with the Daycare hello, this supports quick cross-room recognition and familiar ease between them without manufacturing a closeness rank.",
+      "On 2021-03-01 Eos says `im keeping my ass on mute` inside a dense reaction-heavy pocket, and the next night says that if she has `big brain` ideas she will just say them. The useful person read is muted audio without social disappearance: selective contribution, not quietness as absence.",
+      "On 2021-04-29 Eos says `Computer science. I almost done`; the same ordinary-life pocket has her calling school fights weird and contrasting a fun, friend-heavy first-grade memory with an eighth-grade year full of drama and fights.",
+      "On 2021-06-14 Eos directly tags Gilli with a birthday message that calls them `one of the most amazing persons i've met`, wrapped in playful Gilli-name mutations and a wish for an amazing birthday or simply a good day.",
+      "Across 2021-06-27 through 2021-06-29, Eos repeatedly chooses Marian as the direct tag/partner for tiny hug-command and retry bits, adding a cross-room recurrence to their already-established teasing relationship.",
+      "Eos also supplies small ordinary-life texture in Whiskey with `i really should cut my hair too... its stupid long`; it is a Petty Crimes-sized self-description, not a health or identity inference.",
     ]),
     antiFanon: appendUnique(eos.antiFanon, [
       "Rich/Eos co-signing is comfortable shared-context comedy, not romance or a formal enforcer role.",
@@ -101,6 +147,10 @@ if (eosIndex >= 0) {
       "The recurring `caught in 4k` pattern is social reputation and joke behavior, not a formal moderation, surveillance, or archival role; unseen exhibits remain uninspected.",
       "These support receipts are Wall chronology used to deepen Eos; they are not relabeled as direct Daycare dialogue.",
       "The Daycare and b-lounge greeting pockets support recognition and familiar ease between Eos and Mugen, not a ranked intimacy claim. A separate Myno-mapped `Eos <3` account remains a different stable account and is not merged into this Eos dossier.",
+      "`im keeping my ass on mute` is a choice inside one recovered social pocket, not evidence that Eos is shy, anxious, socially absent, or generally unwilling to speak in voice chat.",
+      "The 2021 computer-science line supports current study/work context and an approaching finish in Eos's own wording; it does not establish a school, exact credential, later career, or a permanent professional identity.",
+      "Eos's direct birthday praise for Gilli supports strong affection and peer regard, not a ranked `best friend` claim by itself.",
+      "The late-June Marian tags and chat commands support repeated playful selection of the same partner; typed hug commands are not literal physical contact, romance, or a closeness leaderboard.",
     ]),
   } as ExtendedCharacter;
 
