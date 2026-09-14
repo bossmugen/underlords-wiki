@@ -20,7 +20,7 @@ The cumulative read is fast participation and continuity without fuss. Attributi
 
 Final corrected reader: `2546d2fbc564c023e08b1b8af20f45e944d9059e`.
 
-- Build Underlords Wiki run `34814382034` — success.
+- Build Underlords Wiki run `34814382073` — success.
 - Deploy Underlords Wiki Preview / Pages run `34814382026` — success.
 
 The earlier Run-1051 reader `829abe6f06d1c20aff2b8eda2668772bace9968c` is superseded for identity interpretation because it contained the temporary separate-Opalite split.
