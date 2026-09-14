@@ -1,3 +1,4 @@
+import "./integrator-cast-run1043-birthdays-koralina";
 import { allCharacters, castGroups, characterById } from "./cast";
 import type { Character } from "./wiki";
 
