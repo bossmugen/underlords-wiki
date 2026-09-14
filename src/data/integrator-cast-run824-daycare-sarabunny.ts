@@ -40,7 +40,7 @@ const base: ExtendedCharacter =
 const relationships = [...(base.relationships ?? [])];
 upsertRelationship(relationships, {
   name: "Gilli",
-  note: "Sara asks exactly how many photoshoot entries are allowed; Gilli gives her the one-number ruling and Sara true-replies `Thank you (:`. Practical clarification, clean loop close, no bureaucracy cosplay required.",
+  note: "Sara asks exactly how many photoshoot entries are allowed; Gilli gives her the one-number ruling and Sara true-replies `Thank you (`. Months later the same easy cue-taking turns silly: Gilli posts `Mooo`, then `:Cat_Sporkle:`, and Sara returns twenty-seven minutes later with the combined `Mooo :Cat_Sporkle:`. One exchange is a direct clarification loop, the other is shared-room bit uptake rather than reply topology or a friendship rank.",
   href: "/characters/gilli",
 });
 upsertRelationship(relationships, {
@@ -63,7 +63,7 @@ const sara: ExtendedCharacter = {
   role: base.role || "Archive-era UL member",
   era: base.era || "2021–2026+",
   logline:
-    "Low-volume does not mean socially absent. Sara tends to arrive in compact bursts: ask the exact rule, say thanks, warn the room before going quieter, drop an image that gets showered in reactions, say `so much moo`, yell `HAPPY NEW YEAR!`, add a sticker, and keep moving. The footprint is small; the social signal is not.",
+    "Low-volume does not mean socially absent. Sara tends to arrive in compact bursts: ask the exact rule, say thanks, warn the room before going quieter, drop an image that gets showered in reactions, catch a running joke twenty-seven minutes late and still speak it in the room's exact dialect, yell `HAPPY NEW YEAR!`, add a sticker, and keep moving. The footprint is small; the social signal is not.",
   tags: appendUnique(base.tags, [
     "Archive cast",
     "Club Only",
@@ -72,6 +72,7 @@ const sara: ExtendedCharacter = {
     "Loop closer",
     "Visual participant",
     "Short-burst humor",
+    "Room chorus",
     "Petty Crimes",
   ]),
   relationships,
@@ -80,22 +81,24 @@ const sara: ExtendedCharacter = {
     "Thank you (:",
     "I’m not sure where to say this but I might not be that active for the next couple of days",
     "so much moo",
+    "Mooo :Cat_Sporkle:",
     "HAPPY NEW YEAR!",
   ]),
   claims: appendUnique(base.claims, [
     "Stable account 250001036251627520 / `foxcat` is SaraBunny in the reviewed 2021 support-room material.",
-    "On May 25, 2021 Sara answered the Lobby intake prompt warmly and concisely: `thank you!! My ign is SaraBunny my club is Underlords and I’m 19 (:`.",
-    "On June 4, 2021 Sara asked the Photoshoot submission limit; Gilli answered `1 :nyaWalk:` and Sara true-replied `Thank you (:`, closing the rule-clarification loop.",
+    "On May 25, 2021 Sara answered the Lobby intake prompt warmly and concisely: `thank you!! My ign is SaraBunny my club is Underlords and I’m 19 (`.",
+    "On June 4, 2021 Sara asked the Photoshoot submission limit; Gilli answered `1 :nyaWalk:` and Sara true-replied `Thank you (:` , closing the rule-clarification loop.",
     "On June 6, 2021 Sara posted an image-only Photo Submissions entry that drew broad positive reactions from multiple familiar UL members. The current route preserves attachment metadata and reactions but not readable pixels.",
     "On June 7, 2021 Sara said she might be less active for `the next couple of days`. RV true-replied `We gotchu!!`, followed with `Real life first!!!`, and Mugen later true-replied `Take care Sara! Dw we'll be here when u come back!`. Sara heart-reacted to both direct reassurances.",
-    "On August 30, 2021 Sara contributed the tiny Wall line `so much moo`; on December 31 she followed `HAPPY NEW YEAR!` with a `happy` sticker five seconds later.",
-    "The cumulative character read is compact but conspicuous participation: ask when unclear, acknowledge answers and care, contribute visually or affectively without needing long prose, and move on. A thin Daycare ledger does not equal social absence.",
+    "The corrected exact Wall census gives Sara four authored messages spanning August 30 through December 31, 2021. She starts with `so much moo`; on September 1 she echoes Gilli's earlier `Mooo` plus `:Cat_Sporkle:` as the combined `Mooo :Cat_Sporkle:` twenty-seven minutes later; on New Year's Eve she follows `HAPPY NEW YEAR!` with the `happy` sticker five seconds later. The useful through-line is compact room synchronization across both joke and celebration registers.",
+    "The cumulative character read is compact but conspicuous participation: ask when unclear, acknowledge answers and care, contribute visually or affectively without needing long prose, and move on. A thin Daycare or Wall ledger does not equal social absence.",
   ]),
   antiFanon: appendUnique(base.antiFanon, [
     "These 2021 scenes come from same-ID Club-Only support material, Lobby, Photo Submissions, and Wall. Do not rewrite them as direct Daycare dialogue.",
     "Sara's June 6 image is POSTED BY SaraBunny only. Uninspected pixels do not establish MADE BY, CAPTURED BY, FEATURING, or visual content.",
     "Reaction counts and reactor lists establish visible reception, not authorship, depicted identities, a closeness ranking, or contest placement.",
     "Sara's short reduced-activity notice does not establish anxiety, illness, work, school, family circumstances, formal attendance duty, or another private-life cause.",
+    "Sara's September `Mooo :Cat_Sporkle:` is a Default message, not a structured Reply. Its unusually specific echo supports shared-room bit uptake, not a privileged Gilli↔Sara friendship tier or private joke ownership.",
     "Current/export role arrays do not establish Sara's appointment chronology or duties.",
     "Sye's later `:animethumbsup:` is source-order adjacency, not a reply to Sara, and is not counted as direct reassurance.",
     "The 2024-09-02 through 2024-09-25 Wall candidate is not a valid quiet interval because the retrieval route was semantic/ranked rather than contiguous export order.",
