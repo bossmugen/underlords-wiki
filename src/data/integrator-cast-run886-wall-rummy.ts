@@ -30,6 +30,7 @@ const next: ExtendedCharacter = {
     ...(rummy.tags ?? []),
     "Wall defendant",
     "Context restoration",
+    "Context lawyer",
     "Prepared chaos",
     "Reputation benchmark",
     "Petty Crimes",
@@ -39,6 +40,8 @@ const next: ExtendedCharacter = {
     ...(rummy.quotes ?? []),
     "Say no more I have a whole list of yaoi ready",
     "I can throw in some pics too",
+    "In context, this was not an insult 😂",
+    "Out of context however, you look real bad",
     "U DOROGT THE CORNEXT PLS",
     "bro u need hte context",
     "THAT WASN'T JUST A RANDOM THINIG",
@@ -48,6 +51,7 @@ const next: ExtendedCharacter = {
   claims: unique([
     ...(rummy.claims ?? []),
     "Rummy's Wall reputation has two halves that keep feeding each other: prepared chaos supplier and frantic context-restoration defendant. In April 2021 Rummy TRUE-replies that there is already `a whole list of yaoi ready` and volunteers pictures too; when later screenshot filings crop the setup away, Rummy's defense is repeatedly not `I never said that` but `you forgot the context`.",
+    "A 2023-04-10 Daycare exchange sharpens that habit into something more self-aware than simple denial: `In context, this was not an insult 😂` is followed immediately by `Out of context however, you look real bad`. Rummy can defend what the room actually meant while also admitting that the detached line has already lost the optics case. That makes the later context-restoration panic feel less like random protesting and more like a recurring way she reads social meaning.",
     "That context fight becomes part of Rummy's reputation rather than an isolated defense. Gilli can use `Rummy level` as a shorthand benchmark on somebody else's 2024 receipt and get a mock-offended TRUE_REPLY from Rummy, while Momo later says she is `desensitized to what rums says`. The useful contradiction is wild bit-maker / community cursedness benchmark ↔ footnote-demanding defendant once the bit is Walled without its setup.",
     "The December 2023 Marian filing is the purest emergency version: `bro u need hte context` becomes `THAT WASN'T JUST A RANDOM THINIG`, `i did not say that randomly`, and finally `it the bobA bALlS`. Marian is a scene-level receipt ambusher here; the recurring relationship lane in this packet is Gilli↔Rummy.",
   ]),
@@ -55,6 +59,7 @@ const next: ExtendedCharacter = {
     ...(rummy.antiFanon ?? []),
     "`Rummy level` is participant shorthand for a recurring Wall reputation, not a formal rank, role, score, or universal opinion held by every UL member.",
     "The Gilli and Marian screenshots remain POSTED BY those filers unless independent object-level support establishes who MADE / CAPTURED / appears in them. Rummy's text defenses do not license reconstruction of uninspected pixels.",
+    "The 2023-04-10 context joke supports Rummy's habit of distinguishing in-room intent from screenshot optics; it is not blanket absolution for every suspicious-looking line, and it does not license reconstruction of missing setup beyond what the surviving text states.",
     "Rummy's yaoi list / offered pictures are joke-and-taste behavior in the quoted scene. Do not infer sexual conduct or relationships from the bit.",
   ]),
 };
