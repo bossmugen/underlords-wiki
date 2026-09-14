@@ -38,16 +38,25 @@ if (eosIndex >= 0) {
     href: "/characters/rummy",
   });
 
+  upsertRelationship(relationships, {
+    name: "Mugen",
+    note:
+      "Mugen and Eos do not need much runway. In Daycare, Eos arrives with `HELLO DAYCARE`; Mugen answers `EOS HI` less than a minute later and Eos comes back `HIIIII MUGS`. Four days later in b-lounge, Mugen can jump straight to `HI EOS ARE WE SAFE` and Eos answers within seconds: `HI MUGEN !!! YES WE ARE, FOR NOW😭`. Add the older corpse joke and the pattern is easy recognition across rooms, not a relationship rank: Mugen knows who just walked in, and Eos is comfortable answering at full volume.",
+    href: "/characters/mugen",
+  });
+
   allCharacters[eosIndex] = {
     ...eos,
     logline:
-      "Low-word, high-consequence regular: Eos can understand a whole plan from one look, howl when the Wall catches her, then turn around and become the person with another receipt ready. She can sound theatrically defeated while still co-authoring the joke.",
+      "Low-word, high-consequence regular: Eos can understand a whole plan from one look, howl when the Wall catches her, then turn around and become the person with another receipt ready. She does not flood every room, but when she arrives she can absolutely hit the doorway at full volume.",
     tags: appendUnique(eos.tags, [
       "Shared-context shorthand",
       "Counter-roast",
       "Self-prosecution",
       "Receipt-dealer contradiction",
       "Caught-in-4K continuity",
+      "Loud arrival",
+      "Cross-room recognition",
       "Petty Crimes",
     ]),
     relationships,
@@ -66,6 +75,10 @@ if (eosIndex >= 0) {
       "The moment you pinged me I knew I was gonna get caught in 4k lmaooo",
       "I have a habit in finding people caught in 4k huh?",
       "Got him again",
+      "HELLO DAYCARE",
+      "HIIIII MUGS",
+      "GN BABIESSS",
+      "HI MUGEN !!! YES WE ARE, FOR NOW😭",
     ]),
     claims: appendUnique(eos.claims, [
       "Across 2021-09-07, 2021-12-09, and 2022-09-05, Rich/Ricochet repeatedly cues Eos with minimal setup and she immediately co-signs the bit, supporting a recurring low-bandwidth shared-context rhythm.",
@@ -75,6 +88,8 @@ if (eosIndex >= 0) {
       "On 2021-06-17 Eos answers Marian's Wall post with `i said dont look`, then about four minutes later posts an image herself with `Take zhenyan` and tells Marian `you’ve been… sort of spared`; this is a particularly clean target-to-filer pivot.",
       "On 2021-07-07, after Baby Lyssa reacts to the current material with `bruh` / `what did i just read`, Eos says `Debating on sending more`; Gilli answers `@Eos donit`. By December, Rich can simply tell Eos it is time to `punish a panda` and Eos directly replies by summoning Marian.",
       "The `caught in 4k` language is longitudinal rather than a one-night joke: on 2021-03-31 Eos says a ping made her know she was about to get caught; on 2021-07-15 she calls finding other people caught in 4k a habit; and on 2022-12-05 she is still filing another catch with `Got him again`. The durable contradiction is target and catcher at once.",
+      "On 2021-09-23 Eos enters Daycare with `HELLO DAYCARE`; Mugen answers `EOS HI` 53.168 seconds later, and Eos returns `HIIIII MUGS`. Eos signs off the next day with `GN BABIESSS`, supporting a low-volume-but-audible social style rather than quiet disappearance.",
+      "On 2021-09-27 in b-lounge, Mugen asks `HI EOS ARE WE SAFE`; Eos answers 12.672 seconds later, `HI MUGEN !!! YES WE ARE, FOR NOW😭`. Together with the Daycare hello, this supports quick cross-room recognition and familiar ease between them without manufacturing a closeness rank.",
     ]),
     antiFanon: appendUnique(eos.antiFanon, [
       "Rich/Eos co-signing is comfortable shared-context comedy, not romance or a formal enforcer role.",
@@ -85,6 +100,7 @@ if (eosIndex >= 0) {
       "Being repeatedly recruitable into Wall teasing is social reputation, not a formal Wall role, office, or governance authority.",
       "The recurring `caught in 4k` pattern is social reputation and joke behavior, not a formal moderation, surveillance, or archival role; unseen exhibits remain uninspected.",
       "These support receipts are Wall chronology used to deepen Eos; they are not relabeled as direct Daycare dialogue.",
+      "The Daycare and b-lounge greeting pockets support recognition and familiar ease between Eos and Mugen, not a ranked intimacy claim. A separate Myno-mapped `Eos <3` account remains a different stable account and is not merged into this Eos dossier.",
     ]),
   } as ExtendedCharacter;
 
