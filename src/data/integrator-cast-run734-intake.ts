@@ -33,6 +33,13 @@ if (ansunIndex >= 0) {
     href: "/characters/anthos",
   });
 
+  upsertRelationship(relationships, {
+    name: "Anayss",
+    note:
+      "Anayss can pull Ansun into a Wall bit and trust him to catch the premise without an instruction manual. When her `#PROTECCtheASSETS` post directly summons Sou, he comes back 43 seconds later with `protectbutt`; elsewhere he notices her usual `catto` profile habit and she walks straight into his `alternate timeline` joke. The recurring texture is shortcut fluency and fast bit-uptake, not a closeness ranking.",
+    href: "/characters/anayss",
+  });
+
   allCharacters[ansunIndex] = {
     ...ansun,
     logline:
@@ -42,6 +49,8 @@ if (ansunIndex >= 0) {
       "Human server map",
       "Sleep hypocrisy",
       "Mafia",
+      "Wall",
+      "Quick bit-catcher",
       "Petty Crimes",
     ]),
     relationships,
@@ -52,16 +61,20 @@ if (ansunIndex >= 0) {
       "here buddy, you got it right",
       "Specifically gilli but both you should sleep",
       "if i become godfather one more time in mafia im changing my name to godfather",
+      "protectbutt",
     ]),
     claims: appendUnique(ansun.claims, [
       "Across the recovered Core-room support sample, Ansun repeatedly turns uncertainty into the next concrete action: point to the manual, tell someone when to join, confirm that a confused mobile user got it right, or tell Gilli and another participant to sleep.",
       "Ansun and Anthos can joke about their own reading while still using each other as practical task partners; the pattern supports easy working familiarity, not a closeness rank.",
       "In the Mafia game on 2020-07-28, Ansun joked that if he became Godfather one more time he would change his name to Godfather.",
+      "On 2021-10-13 Anayss posted `#PROTECCtheASSETS` while directly summoning Sou/Ansun among the tagged participants. Ansun answered `protectbutt` 43.135 seconds later. His message is a Default post rather than a structured Reply, but the direct summons, timing, and semantic rewrite make the scene a strong contextual example of him catching a premise quickly and finishing it economically.",
     ]),
     antiFanon: appendUnique(ansun.antiFanon, [
       "Sou / Souta / 颯太 / sou.san material in this integration belongs to the existing canonical Ansun owner; it does not create a second person.",
       "Godfather is an in-game Mafia role in this receipt, not a UL governance title, criminal role, or appointment.",
       "The odd sleeping-position anecdote is ordinary self-report and is not used to infer a medical condition.",
+      "`protectbutt` is SAID BY Ansun in a strongly contextual response to Anayss's summons; it is not a structured Reply edge and does not establish anything about the unseen attachment's subject, body owner, maker, capturer, or featured people. The image remains POSTED BY Anayss only.",
+      "The Anayss summons-to-bit-uptake beat supports familiar shortcut humor, not romance, family, governance, or a ranked closeness claim.",
     ]),
   } as ExtendedCharacter;
   characterById.set("ansun", allCharacters[ansunIndex]);
