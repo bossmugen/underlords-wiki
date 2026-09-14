@@ -24,13 +24,16 @@ if (!allCharacters.some((character) => character.id === "yazaki")) {
       "Main Lobby",
       "Wall",
       "Warm reactions",
+      "Sincere-soft register",
+      "ZeroWow",
       "Clear boundaries",
+      "Petty Crimes",
     ],
     relationships: [
       {
         name: "Mugen",
         note:
-          "A December 2020 Wall exchange catches Yazaki in her natural register: Mugen posts a screenshot, Yazaki answers `Nice idea 😀😂`, then follows with more laughter. The image itself is unresolved, so the point is the social motion—she sees the premise, likes it, and joins in without needing a speech.",
+          "A December 2020 Wall exchange catches Yazaki in her natural register: Mugen posts a screenshot, Yazaki TRUE-replies `Nice idea 😀😂`, then follows with more laughter. The image itself is unresolved, so the point is the social motion—she sees the premise, likes it, and joins in without needing a speech.",
       },
       {
         name: "Rooks",
@@ -42,17 +45,20 @@ if (!allCharacters.some((character) => character.id === "yazaki")) {
       "Hello!",
       "Nice idea 😀😂",
       "Ahahahva. Ok that nice to know 😄",
+      "Aww so sweet!!",
     ],
     claims: [
       "Yazaki's doorway energy is notably low-friction. A misunderstanding over `IGN` briefly sends the conversation toward Instagram; once Gilli clarifies that she means the Dragon Raja name, Yazaki laughs, apologizes, and gives `Yazaki`. She is comfortable being a little embarrassed without making the room pay for it.",
       "Her friendliness has an edge to it in the best way: access is still hers to set. During onboarding, when the room asks for a personal detail she does not want to provide, she keeps the refusal light, holds it anyway, and remains socially present after the question is dropped. She does not need a dramatic exit in order for `no` to count.",
       "That same ease carries into Wall traffic: a plain `Hello!`, appreciative reactions, laughter, and quick replies. The footprint is still developing, but the voice is already recognizable—warm, concise, and perfectly capable of keeping something for herself.",
+      "A January 2021 soft-reaction pocket adds `Aww so sweet!!` followed by a `Milk_smile` reaction, while Jan. 19 and Jan. 21 both preserve `8046_ZeroWow`. The exact Jan. 6 referent remains unresolved, but the cumulative pattern sharpens her sincere-soft register and gives her a tiny recurring reaction habit instead of reducing her to generic laughter.",
     ],
     antiFanon: [
       "Stable account 694305194476830720 is the identity bridge for Rosario17 / Yazaki in this reviewed packet. Do not infer additional identity bridges from similar names alone.",
       "Do not publish or infer Yazaki's age, age bracket, club, or reason for declining the onboarding question. Export-time/current role arrays are not appointment chronology and do not fill those gaps.",
       "Yazaki's soft refusal supports a person-level boundary read. It does not establish anxiety, a diagnosis, secrecy as a defining trait, or any specific motive for withholding the detail.",
-      "The December 2020 Mugen screenshot was not visually inspected in this run. Keep POSTED BY separate from MADE BY, CAPTURED BY, and FEATURING, and do not describe the unseen image.",
+      "The December 2020 Mugen screenshot and January 2021 soft-pocket screenshots were not visually inspected. Keep POSTED BY separate from MADE BY, CAPTURED BY, and FEATURING, and do not describe unseen images.",
+      "The Jan. 6 `Aww so sweet!!` / `Milk_smile` sequence is same-pocket soft reaction, not a structured Reply. Do not manufacture an exact referent from chronology alone.",
       "A prior Whiskey pass has Woohyuk directly sharing a YouTube link to Yazaki, but no provenance-safe Yazaki response was recovered here. Keep that as a one-way media-sharing seam unless later material supplies reciprocity.",
       "The current Lobby threshold and first surfaced Wall line are surviving-record boundaries, not guaranteed absolute origins. Do not manufacture a join date or disappearance arc from them.",
       "This packet supports no formal UL role for Yazaki.",
