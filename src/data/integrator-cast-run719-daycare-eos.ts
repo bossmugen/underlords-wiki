@@ -73,7 +73,7 @@ if (eosIndex >= 0) {
     name: "Marian",
     note:
       "Late June Whiskey keeps selecting Marian as Eos's direct partner for tiny repeatable bits—`w/hug @Marian Kage`, another tagged hug command the next day, then `Maybe a 5th time it’ll be different` before a quick `thee u go`. The exact command premise is incomplete, but the recurrence makes the comfortable retry-and-continue rhythm visible outside a single Wall receipt.",
-    href: "/characters/marian",
+    href: "/characters/panda",
   });
 
   allCharacters[eosIndex] = {
