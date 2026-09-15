@@ -20,6 +20,8 @@ if (rose) {
     "Receipt ritual",
     "Context checker",
     "Compact roast chorus",
+    "Volunteer prosecutor",
+    "Visual participation",
     "Petty Crimes",
   ]);
 
@@ -31,10 +33,14 @@ if (rose) {
     "She corrupting me help",
     "SHORTZ",
     "didnt ask",
+    "Beat me to it",
   ]);
 
   if (!rose.logline.includes("He hit me first")) {
     rose.logline = `${rose.logline} Getting filed can flip her straight into comic defense—\`He hit me first\`, then \`Its his fault\` barely two seconds later—without actually making her leave the joke.`;
+  }
+  if (!rose.logline.includes("Beat me to it")) {
+    rose.logline = `${rose.logline} She can also lose the filing race by seconds, say \`Beat me to it\`, and then add two screenshots of her own. Rose does not merely survive Screenshot Court; sometimes she is annoyed somebody else reached the prosecution table first.`;
   }
 
   const mugenIndex = (rose.relationships ?? []).findIndex((relationship) => relationship.name === "Mugen");
@@ -65,12 +71,13 @@ if (rose) {
   rose.claims = appendUnique(rose.claims, [
     "In the March 8, 2023 Wall pocket, Mugen posts an image and DarkAsrai/Rose answers `He hit me first`; 1.984 seconds later Rose follows with `Its his fault`. The scene supports reflexive comic blame transfer and comfortable participation in the Wall ritual.",
     "On April 16, 2023 Rose writes `Oh great theres people shorter than me :Cat_Drool:`. It is useful short-person-joke texture but does not establish Rose's exact height or anybody else's.",
-    "The April 5, 2023 `Beat me to it` line is consistent with a filing-race read, but its exact target remains unresolved and is not promoted as a named incident here.",
+    "The April 5, 2023 `Beat me to it` line is followed by two additional screenshots from Rose herself. That sharpens the older filing-race read into active Screenshot Court participation: Rose can be the defendant, the receipt courier, and the person adding exhibits when somebody else reaches the prosecution table first.",
     "In the later DarkAsrai/Rose Wall suffix, Rose returns after hours, asks for context, and then falls directly back into compact roast and blame-play. The context check is part of knowing participation, not evidence that she is withdrawing from the room's joke grammar.",
     "Rose's `Yea Mugen is very sus` / `She corrupting me help` sequence flips comic blame toward Mugen. It is familiar adversarial play inside the Wall ritual, not a literal coercion or corruption allegation.",
     "Rose's `SHORTZ` toward Xuseio/Cyle belongs to the room's familiar short-person teasing. It does not establish anyone's exact height, a relationship rank, or durable hostility.",
     "Rose's `didnt ask` toward Aster is a situational blunt jab in the recovered Wall pocket, not enough by itself to define an ongoing feud or personality-wide hostility.",
     "A quick Rose/Rain roast echo in the recovered suffix shows Rose comfortable joining a compact chorus when somebody else opens the lane; it is useful interaction texture, not a closeness score.",
+    "The reviewed Daycare handoff gives Rose a visually economical social style as well as the verbal one already public: short reactions, screenshots, and compact lines can carry the room bit without requiring a speech. This deepens her existing Staff / recruiting / retention history rather than replacing it.",
   ]);
 
   rose.antiFanon = appendUnique(rose.antiFanon, [
@@ -80,7 +87,10 @@ if (rose) {
     "The joking `Noo they taste like chicken XD` line stays a joke; do not literalize it into food preference, harm, or cannibalism lore.",
     "`Yea Mugen is very sus` / `She corrupting me help` is joking blame-transfer; do not turn it into literal coercion, corruption, abuse, or a serious allegation.",
     "`SHORTZ`, `didnt ask`, and quick roast echoes are situational social-play texture. Do not use them to invent exact height, permanent hostility, or relationship ranking.",
-    "DarkAsrai belongs to the canonical Rose owner through stable-account continuity; do not create a second person from the historical handle.",
+    "DarkAsrai / darkasrai belong to the canonical Rose owner. Stable account 659305268684783628 in the reviewed Daycare handoff does not create a second DarkAsrai person or justify an invented account-migration chronology.",
+    "Rose's ferris-wheel media and the two screenshots in the reviewed Daycare handoff are POSTED BY Rose only. Do not upgrade them to MADE BY, CAPTURED BY, or FEATURING without independent attribution.",
+    "The one-emote ShiyaX revival/callback is room-level interaction texture only; it does not establish a friendship tier, romance, family relation, or special dyad.",
+    "`Beat me to it` plus the two screenshots supports comfortable participation in the room's public-embarrassment filing ritual. It does not make Screenshot Court a formal governance process or establish the underlying screenshot subjects from uninspected media.",
     "Mixed response-circle or q18 counts are recurrence/context tools only; do not convert them into popularity, intimacy, or friendship rankings.",
   ]);
 
