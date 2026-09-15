@@ -25,25 +25,28 @@ const yumi = allCharacters[yumiIndex] as ExtendedCharacter;
 const yumiRelationships = [...(yumi.relationships ?? [])];
 upsertRelationship(yumiRelationships, {
   name: "Mugen",
-  note: "Yumi is comfortable enough with Mugen to notice the profiling impulse and say it out loud: `muggie trying to keep a folder on everyoneee`. When Mugen immediately asks Yumi to take the personality test too, Yumi protests from the middle of painting her nails, jokes that she will obviously be 100% compatible with Muggie, complains that this was not in the joke-marriage contract, and does the test anyway. The warmth is real; so is Yumi keeping her own interpretation of herself.",
+  note: "Yumi is comfortable enough with Mugen to notice the profiling impulse and say it out loud: `muggie trying to keep a folder on everyoneee`. When Mugen immediately asks Yumi to take the personality test too, Yumi protests from the middle of painting her nails, jokes that she will obviously be 100% compatible with Muggie, complains that this was not in the joke-marriage contract, and does the test anyway. Months earlier, when Yumi simply asks whether a mic is required for Fight Club, Mugen answers with a no-pressure listen-in / VIP Lounge text option instead of asking Yumi to justify the question. The warmth is real; so is Yumi keeping her own terms for participation and self-interpretation.",
   href: "/characters/mugen",
 });
 
 allCharacters[yumiIndex] = {
   ...yumi,
   logline:
-    "Retired full Officer with sharp social radar and selective self-exposure: Yumi can notice where a room is drifting, call out Mugen's urge to keep a folder on everybody, complain theatrically when the interpretive camera turns on her, then participate without surrendering the right to say which parts actually feel like her.",
+    "Retired full Officer with sharp social radar and selective self-exposure: Yumi can yell when the joke wants volume, ask `is mic required?` when she needs the participation rule, notice where a room is drifting, and join Mugen's profiling games without surrendering the right to say which parts actually feel like her.",
   tags: unique([
     ...(yumi.tags ?? []),
     "Retired Officer",
     "Social radar",
     "Selective self-exposure",
     "Mugen banter",
+    "Fight Club",
+    "Hybrid VC/text",
     "Petty Crimes",
   ]),
   relationships: yumiRelationships,
   quotes: unique([
     ...(yumi.quotes ?? []),
+    "is mic required?",
     "muggie trying to keep a folder on everyoneee",
     "painting my nailsss",
     "i didn't sign up for this when we agreed to get married",
@@ -52,11 +55,13 @@ allCharacters[yumiIndex] = {
   ]),
   claims: unique([
     ...(yumi.claims ?? []),
+    "On April 14, 2020, after Mugen invites members into Fight Club VC for Land of Conquest, Yumi asks `is mic required?`; SailorLuna says she can just listen, Mugen says people can listen in Fight Club and type replies in VIP Lounge when speaking is inconvenient, and Yumi answers with a heart. The scene supports a concise practical question and an accepted low-pressure participation option; it does not establish why Yumi asked or a standing preference against voice chat.",
     "On September 17, 2020, Yumi immediately recognized Mugen's personality-test post as another attempt to `keep a folder on everyoneee`; when Mugen asked her to do it too, Yumi protested while painting her nails, joined anyway, and actively negotiated which result language did or did not fit her.",
     "Yumi is directly present in the Lobby by April 11, 2020, where she says hello, fumbles a Pokétwo catch attempt, receives Mugen's welcome, and later acknowledges Snow's orientation/routing. This is a presence point, not a proven join or appointment date.",
   ]),
   antiFanon: unique([
     ...(yumi.antiFanon ?? []),
+    "Yumi's `is mic required?` question does not establish disability, diagnosis, social anxiety, why she asked, whether she personally remained muted during that event, or a permanent preference against voice chat.",
     "Yumi and Mugen's marriage/compatibility language in the September 2020 personality-test thread is joke-language and affectionate banter, not literal marriage or romance canon.",
     "Personality-test labels and Yumi's reactions to them are self-reflection inside a casual test scene, not psychological diagnosis or a permanent clinical profile.",
     "April 11, 2020 Lobby presence does not establish Yumi's recruitment, join, promotion, or Officer-appointment chronology.",
