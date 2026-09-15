@@ -32,7 +32,7 @@ Exact verified/deployed WIKI reader: **`cc5035037e0444ed4c6c7424c39980f26ce1feea
 
 MAIN reader-facing changes: **0**. Queen Shimoko is intentionally WIKI-only at current depth, and Alaina's new packet is already substantially owned by the canonical WIKI dossier.
 
-The older accepted Kuki MAIN publication remains verification-held. MAIN workflow **34928736842**, attempt **12**, job **104294850622**, again failed before runner allocation with `steps=null`; source verification, Astro, built-output verification, deployment, and live confirmation did not execute.
+The older accepted Kuki MAIN publication remains verification-held. MAIN workflow **34928736842** was retried again after the initial close, reaching attempt **13**; job **104294999263** again failed before runner allocation with `steps=null`, so source verification, Astro, built-output verification, deployment, and live confirmation did not execute.
 
 ## Consumption close
 
