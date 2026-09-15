@@ -1,6 +1,6 @@
 # Underlords Wiki — Integration Run 1136
 
-MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` remains the controlling miner-consumption ledger. The mandatory opening census was persisted on MAIN before any branch review at `9be74f29f95b785bde6d23679edbd9b94644f4b5`.
+MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` remains the controlling miner-consumption ledger. The mandatory opening census was persisted on MAIN before any branch review at `e03b9c0289f5e49d5c18d3ee3e28540f360e7494`.
 
 ## Census and intake
 
@@ -18,4 +18,4 @@ Nothing was intentionally published to only one surface this run.
 
 ## Closing state
 
-The controlling MAIN census commit for this run is `9be74f29f95b785bde6d23679edbd9b94644f4b5`. This WIKI close records the stable frontier and leaves all existing consumed pointers and the four reviewed `pending_publication` families unchanged.
+The controlling MAIN census commit for this run is `e03b9c0289f5e49d5c18d3ee3e28540f360e7494`. This WIKI close records the stable frontier and leaves all existing consumed pointers and the four reviewed `pending_publication` families unchanged.
