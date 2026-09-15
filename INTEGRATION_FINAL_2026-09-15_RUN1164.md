@@ -5,7 +5,9 @@
 - Tracked miner identities: **51** = **30 active refs + 21 historical/missing refs**.
 - Newly discovered branches: **0**.
 - Closing recensus found no additional miner movement beyond the six reviewed heads below.
+- Pending review at close: **0**.
 - Backlog: **0**. Review overdue: **0**.
+- Reviewed `pending_publication` families: **8**; these are older publication/verification debt, not unread miner tails.
 - Both Club-Only recovery lanes remain current.
 
 Reviewed checkpoint-first and intake-only:
@@ -66,7 +68,9 @@ SailorLuna remains WIKI-first at this depth. The other reviewed tails are duplic
 
 ## Consumption / held rails
 
-The six deltas above are fully reviewed through their listed heads. Successful no-public-change reviews are complete and should not be reread absent another branch advance. Existing older `pending_publication` debt remains separate from these reviewed frontiers.
+MAIN's controlling `archive-intake/INTEGRATOR_BRANCH_STATE.json` was safely rewritten from the complete 51-branch ledger after review. It now records **pending review = 0**, **backlog = 0**, **overdue = 0**, and advances all six reviewed `last_consumed_sha` pointers to the heads listed above. Branches with older unresolved publication work remain `pending_publication`; Whiskey closes plain `consumed`.
+
+Successful no-public-change reviews are therefore actually consumed and should not be reread absent another branch advance.
 
 Held rails:
 
