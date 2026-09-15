@@ -1,3 +1,4 @@
+import "./integrator-cast-run1163-birthdays-sailorluna";
 import { allCharacters, characterById } from "./cast";
 import type { Character } from "./wiki";
 
