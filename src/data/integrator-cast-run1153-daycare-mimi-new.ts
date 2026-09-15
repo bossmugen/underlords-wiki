@@ -105,3 +105,55 @@ const newNext: ExtendedCharacter = {
 
 allCharacters[newIndex] = newNext;
 characterById.set("new", newNext);
+
+// Run 1156 Daycare: the dry roast and the practical help are the same person.
+// Oyasumi can arrange sane-hour runs, troubleshoot commands, and check on somebody
+// feeling sick without ever surrendering the right to call them a menace five seconds later.
+const oyasumiIndex = allCharacters.findIndex((character) => character.id === "oyasumi");
+if (oyasumiIndex < 0) throw new Error("Run 1156 Daycare expected the canonical Oyasumi owner.");
+
+const oyasumi = allCharacters[oyasumiIndex] as ExtendedCharacter;
+const oyasumiNext: ExtendedCharacter = {
+  ...oyasumi,
+  logline:
+    "Dry roast, practical help, no ceremony between them: Oyasumi can line runs up at reasonable hours, explain bot prefixes, work through launcher trouble without bluffing certainty, check whether Maeve is feeling better, and still decide light mode makes her a menace.",
+  tags: unique([
+    ...(oyasumi.tags ?? []),
+    "Daycare",
+    "Practical help",
+    "Troubleshooting",
+    "Dry roast",
+    "Low-drama care",
+    "Petty Crimes",
+  ]),
+  relationships: mergeRelationships(oyasumi.relationships, [
+    {
+      name: "Maeve",
+      note:
+        "Oyasumi's care around Maeve rarely arrives dressed up as care. He notices their matching EET timezone and offers runs at reasonable hours, immediately resumes the light-mode `menace` roast, and later opens a sick-day check with `Boy what the hell boy` before asking `You feel better by now, right?` The joke does not cancel the check-in; it is how the check-in travels.",
+    },
+  ]),
+  quotes: unique([
+    ...(oyasumi.quotes ?? []),
+    "EET, same as yas, so it's pretty easy to offer you runs at reasonable times",
+    "Wait, this is light mode? Well, maybe you are a menace after all...",
+    "Bot prefixes crash course:",
+    "most intelligible ul conversation",
+    "Boy what the hell boy",
+    "You feel better by now, right?",
+  ]),
+  claims: unique([
+    ...(oyasumi.claims ?? []),
+    "A concentrated 2022 Daycare pocket makes Oyasumi's useful-person rhythm visible: he schedules runs around Maeve's timezone, gives a bot-prefix crash course and command troubleshooting, works through a Steam/launcher question while openly revising his answer when edge cases appear, and checks on Maeve when they are sick. The help sits directly beside dry teasing rather than replacing it.",
+    "In BJN nickname chaos, Oyasumi participates in the fish-counter exchange and later deadpans `most intelligible ul conversation`, a compact example of joining the nonsense while also narrating how unreadable it has become.",
+  ]),
+  antiFanon: unique([
+    ...(oyasumi.antiFanon ?? []),
+    "Repeated practical help supports an informal useful-person / low-drama-care pattern; it does not create a formal caretaker, support, or technical role.",
+    "Oyasumi's Steam/launcher help includes visible uncertainty and self-correction. Do not upgrade that scene into blanket technical expertise.",
+    "Maeve's sick-day exchange supports a check-in pattern only; do not infer medical details beyond what Maeve directly says in the conversation.",
+  ]),
+};
+
+allCharacters[oyasumiIndex] = oyasumiNext;
+characterById.set("oyasumi", oyasumiNext);
