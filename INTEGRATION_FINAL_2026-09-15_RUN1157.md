@@ -58,3 +58,28 @@ Exact verified/deployed WIKI reader: **`6963a81e1e6bd35e07a32c0e4654c9e7a285c2f4
 MAIN attempted a person-first Yumi fold, but its production verification failed before runner allocation (`UL Production Build + Deploy` run 35021212183; job 104557053053; `steps = null`). The unverified MAIN reader edit was reverted. WIKI's structured changes are independent, passed their own build/Pages suite, and deployed safely.
 
 Run 1156's Zoshaa WIKI reader `b55894d3f70b3435efd779518f2683c5544ed37b` also finished green after the prior close (Build 35019376142; Pages 35019376152), so the controlling MAIN ledger can now close Whiskey longitudinal consumption through `1ea0a74520708bd6456870859fe9731a5f79d679`.
+
+## Fresh-tail correction — October 30 post-event backchannel
+
+A follow-up reconciliation of the actual `9921c865… → 9148190c…` handoff family found that the fresh suffix itself carries a later Fight Club pocket that deserved its own public owner rather than being silently represented by older April–May material.
+
+Six days after the October 24 Fight Club event, Harlot writes `+1 for yummi`. Yumi answers, `Bitch you know damn well we can't buy votes`; Harlot immediately gives an `ok` and then `*high five*`. The useful cumulative read is **rule-literate teasing inside the bit**. Yumi is not stepping outside the joke to become a compliance officer; she makes the joke funnier by briefly enforcing its fake procedural integrity. The event also has a social afterlife: Fight Club language and nomination/vote shorthand are still alive in the text room after the matches themselves are over.
+
+The packet remains tightly bounded. The exact thing being `+1`'d is unresolved. Harlot's later high-five target is unresolved because adjacency is not a reply edge. `+1 for yummi` is Harlot-authored text, not a reaction-ledger entry. The exchange does not prove literal vote-buying, and current/export `Fighter` role arrays are not used to infer appointment chronology or synchronize role assignment to the October 24 event.
+
+Reader-facing correction:
+
+- `src/data/integrator-cast-run915-whiskey-yumi-ansun.ts`
+  - Yumi now carries the October 30 line, rule-literate teasing tag, bounded claim, and explicit anti-fanon guard.
+- `src/data/integrator-episodes-run1157-birthdays-postevent.ts`
+  - New structured Episode: **Absolutely No Buying Votes**.
+
+Corrected exact verified/deployed WIKI reader: **`363b97772c277b78377b6731cc3c7ff8bf7fa9c5`**.
+
+- Build Underlords Wiki run **35022126508** — success; build job **104560147167** — success.
+- Deploy Underlords Wiki Preview / Pages run **35022126613** — success.
+  - build/artifact job **104560297176** — success;
+  - deploy job **104560500731** — success;
+  - report/status job **104560589936** — success.
+
+This correction does not reopen or re-mine the Birthdays tail. The handoff family is reviewed through `9148190c8fab51f414d78cfaa4e5713802ae3908`. MAIN receives no additional October 30 reader change in this correction pass: the stronger owner at current depth is the WIKI episode plus Yumi dossier, while MAIN already carries unresolved publication debt behind its failed production gate.
