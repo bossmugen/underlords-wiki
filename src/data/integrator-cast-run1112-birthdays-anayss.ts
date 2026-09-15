@@ -6,6 +6,10 @@ type ExtendedCharacter = Character & {
   antiFanon?: string[];
 };
 
+const appendUnique = (items: string[] | undefined, additions: string[]) => [
+  ...new Set([...(items ?? []), ...additions]),
+];
+
 const anayssId = "anayss";
 
 if (!allCharacters.some((character) => character.id === anayssId)) {
@@ -59,3 +63,52 @@ if (!allCharacters.some((character) => character.id === anayssId)) {
     archiveCastGroup.characterIds.push(anayssId);
   }
 }
+
+const patchExisting = (
+  id: string,
+  additions: { tags?: string[]; quotes?: string[]; claims?: string[]; antiFanon?: string[] },
+) => {
+  const index = allCharacters.findIndex((character) => character.id === id);
+  if (index < 0) return;
+  const current = allCharacters[index] as ExtendedCharacter;
+  allCharacters[index] = {
+    ...current,
+    tags: appendUnique(current.tags, additions.tags ?? []),
+    quotes: appendUnique(current.quotes, additions.quotes ?? []),
+    claims: appendUnique(current.claims, additions.claims ?? []),
+    antiFanon: appendUnique(current.antiFanon, additions.antiFanon ?? []),
+  } as ExtendedCharacter;
+  characterById.set(id, allCharacters[index]);
+};
+
+patchExisting("snow", {
+  tags: ["Marketing", "Media pipeline"],
+  quotes: ["and the discord icon"],
+  claims: [
+    "On November 7, 2021, when Anthos asks what the Marketing role does, Snow answers that it changes the server banner in the upper-left corner and the Discord icon when people submit material to the club-media folder. The useful lived-role detail is concrete maintenance of visible club surfaces from member submissions, not generic resume language.",
+  ],
+  antiFanon: [
+    "Snow's November 2021 Marketing explanation is a contemporaneous description of that role's banner/icon workflow, not proof those were its only duties in every era and not an appointment date for Snow or anybody else.",
+    "Changing a banner or icon from club-media submissions does not establish who made, edited, captured, or appears in the underlying submitted media.",
+  ],
+});
+
+patchExisting("anthos", {
+  tags: ["Promo posters", "Photoshoot"],
+  claims: [
+    "At Photoshoot's December 12, 2021 year-end close, Mugen gives Anthos category-level credit `for the promo posters` while thanking the people who kept the event working across the year. That credit strengthens Anthos's existing event-scaffolding/visual-organization lane without turning one surviving poster into hers by assumption.",
+  ],
+  antiFanon: [
+    "Mugen's category-level `anthos for the promo posters` credit does not identify the maker/editor of every specific surviving Photoshoot poster or establish a formal Media/Photo Director appointment date.",
+  ],
+});
+
+patchExisting("gabu", {
+  tags: ["Schedule reminders", "Photoshoot"],
+  claims: [
+    "At Photoshoot's December 12, 2021 year-end close, Mugen gives Gabu category-level credit `for the schedule reminder bots`. The line corroborates Gabu's practical contribution to keeping the event on time; it does not replace more specific bot provenance or establish that Gabu created every underlying bot system.",
+  ],
+  antiFanon: [
+    "The Photoshoot shoutout is category-level contribution credit, not proof that Gabu originated Saber, owned every scheduling bot, or received a formal appointment at that date.",
+  ],
+});
