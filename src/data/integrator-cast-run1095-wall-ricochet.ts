@@ -1,6 +1,7 @@
 import "./integrator-cast-run1106-daycare-asphodel";
 import "./integrator-cast-run1110-anthos";
 import "./integrator-cast-run1114-daycare-zyrcant";
+import "./integrator-cast-run1122-daycare-shimoko";
 import { allCharacters, characterById } from "./cast";
 import type { Character } from "./wiki";
 
