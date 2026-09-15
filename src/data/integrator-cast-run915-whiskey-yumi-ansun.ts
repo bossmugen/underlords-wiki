@@ -118,3 +118,57 @@ allCharacters[ansunIndex] = {
   ]),
 } as ExtendedCharacter;
 characterById.set(allCharacters[ansunIndex].id, allCharacters[ansunIndex]);
+
+// Run 1156 Whiskey: Zoshaa can be lost at the door and still be the person who makes the sign.
+const zoshaaIndex = allCharacters.findIndex((character) => character.id === "zoshaa");
+if (zoshaaIndex < 0) {
+  throw new Error("Run 1156 Whiskey expected the canonical Zoshaa owner; refusing to create a duplicate NintendoShitcube.");
+}
+
+const zoshaa = allCharacters[zoshaaIndex] as ExtendedCharacter;
+const zoshaaRelationships = [...(zoshaa.relationships ?? [])];
+upsertRelationship(zoshaaRelationships, {
+  name: "Mugen",
+  note: "Zoshaa says Mugen told her to introduce herself for a role, immediately admits `I also have no idea wot I’m doing`, and later gets low-pressure reassurance from Mugen when Wi-Fi is fighting her. Months after Zoshaa makes the recruitment banner, Mugen points back toward her during the reuse/dimensions discussion. The thread is routing, reassurance and maker recognition—not a reconstructed appointment history.",
+  href: "/characters/mugen",
+});
+upsertRelationship(zoshaaRelationships, {
+  name: "Ren",
+  note: "When Zoshaa finally notices she has been locked out for days, Ren asks about it, laughs with her at the non-notice, and says `There u go` less than a minute after the problem is named. The timing supports a probable quick access fix; the exact permission or action is never named. Ren later edits/reposts Zoshaa's earlier banner for square recruitment while Zoshaa remains the original maker.",
+  href: "/characters/ren",
+});
+
+allCharacters[zoshaaIndex] = {
+  ...zoshaa,
+  logline:
+    "Administrative bewilderment beside very visible creative ownership: Zoshaa can admit `I also have no idea wot I’m doing` while trying to get through the door, then spend June making the pink-and-black recruitment banner that UL is still editing and reusing months later. Lost at the door; makes the sign.",
+  tags: unique([
+    ...(zoshaa.tags ?? []),
+    "Whiskey",
+    "Recruitment art",
+    "Creative ownership",
+    "Administrative chaos",
+    "Petty Crimes",
+  ]),
+  relationships: zoshaaRelationships,
+  quotes: unique([
+    ...(zoshaa.quotes ?? []),
+    "I also have no idea wot I’m doing",
+    "McFucking banner",
+    "Wi-Fi is fucking stupid",
+  ]),
+  claims: unique([
+    ...(zoshaa.claims ?? []),
+    "In June 2020 Zoshaa makes and posts a finished UL recruitment banner; by September Ren is editing/reposting the existing poster for square recruitment. Preserve the credit split: Zoshaa is the maker/original poster in the June scene; Ren is a later editor/reposter of the shared asset.",
+    "Zoshaa's recurring contradiction is administrative looseness beside creative ownership. She openly says she has no idea what she is doing around the role/platform layer, yet produces a public-facing recruitment asset durable enough for later reuse. Do not globalize the first half into incompetence.",
+    "On September 20 Zoshaa says Gilli locked her out days earlier and laughs that she only just noticed she was not back. Ren's `There u go` arrives 37.817 seconds after the problem is named, supporting a probable quick fix while leaving the exact permission/action unresolved.",
+  ]),
+  antiFanon: unique([
+    ...(zoshaa.antiFanon ?? []),
+    "Do not infer Zoshaa's historical role, recruiter status, admission chronology, or appointment from exporter/current role arrays or from Mugen telling her to introduce herself for a role.",
+    "Making recruitment art does not create a formal PR office or governance title.",
+    "The September lockout is directly attributed by Zoshaa to Gilli, but the cause is unresolved; do not manufacture a disciplinary narrative or bind a later `LMAO MY BAD` to this incident without a direct edge.",
+    "The June banner is MADE BY + POSTED BY Zoshaa at catalog level; Ren's September version is a later edit/repost. Keep maker and later editor credit distinct.",
+  ]),
+} as ExtendedCharacter;
+characterById.set(allCharacters[zoshaaIndex].id, allCharacters[zoshaaIndex]);
