@@ -53,6 +53,7 @@ if (!allCharacters.some((character) => character.id === wolfId)) {
       "The earliest surviving authored Wall message is not treated as WolfPhenix's UL entry, first-ever participation, or relationship origin.",
       "Reaction clicks are untimestamped. Do not invent click chronology around the Gabu `wolfie` joke.",
       "`wolfie` is a probable local Wolf referent in this pocket, not a proven nickname origin, body-size fact, literal family label, or closeness rank with Gabu, Gilli, Dean, or Mugen.",
+      "Do not merge stable account 543284829391945728 with the separate same-name/similar-name Wolf Phenix account 148529748934164480 without an independent identity bridge. Similar display names alone are not enough.",
       "Export-time role arrays are source state only and do not establish appointment chronology.",
       "The Tenor GIF is POSTED BY WolfPhenix in the reviewed message; do not turn it into MADE BY, CAPTURED BY, or FEATURING attribution without independent provenance.",
     ],
