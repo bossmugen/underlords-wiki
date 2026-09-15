@@ -1,3 +1,4 @@
+import "./integrator-cast-run1106-daycare-asphodel";
 import { allCharacters, characterById } from "./cast";
 import type { Character } from "./wiki";
 
