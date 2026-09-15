@@ -24,9 +24,6 @@ allCharacters[snowIndex] = {
     "Unsolicited troubleshooting",
     "Anthos",
   ]),
-  quotes: appendUnique(snow.quotes, [
-    "it was all snow",
-  ]),
   claims: appendUnique(snow.claims, [
     "A September 17, 2020 troubleshooting lane now resolves the previously vague broken-object scene to Oolong. Snow narrows the failure mode, tests the tool, gives Anthos a reusable recovery step, and—once Mugen says the dead bot can stay dead—pivots to reducing the remaining migration work by looking for an easier Google-playlist-to-Spotify route. The cumulative read is practical persistence rather than a one-command miracle fix.",
     "The same Oolong lane shows reciprocal credit rather than solo-hero framing: Snow thanks Anthos for helping with the bot; after Mugen thanks the helpers for troubleshooting and testing without being asked, Anthos redirects the praise with `it was all snow`. Snow carried the primary troubleshooting weight in this bounded scene while Anthos still visibly participated.",
