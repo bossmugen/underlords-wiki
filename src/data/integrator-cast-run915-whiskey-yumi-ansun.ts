@@ -32,7 +32,7 @@ upsertRelationship(yumiRelationships, {
 allCharacters[yumiIndex] = {
   ...yumi,
   logline:
-    "Retired full Officer with sharp social radar and selective self-exposure: Yumi can yell when the joke wants volume, ask `is mic required?` when she needs the participation rule, notice where a room is drifting, and join Mugen's profiling games without surrendering the right to say which parts actually feel like her.",
+    "Retired full Officer with sharp social radar and selective self-exposure: Yumi can yell when the joke wants volume, ask `is mic required?` when she needs the participation rule, and answer a suspicious `+1 for yummi` with a mock anti-corruption notice before going right back to the joke.",
   tags: unique([
     ...(yumi.tags ?? []),
     "Retired Officer",
@@ -41,12 +41,14 @@ allCharacters[yumiIndex] = {
     "Mugen banter",
     "Fight Club",
     "Hybrid VC/text",
+    "Rule-literate teasing",
     "Petty Crimes",
   ]),
   relationships: yumiRelationships,
   quotes: unique([
     ...(yumi.quotes ?? []),
     "is mic required?",
+    "Bitch you know damn well we can't buy votes",
     "muggie trying to keep a folder on everyoneee",
     "painting my nailsss",
     "i didn't sign up for this when we agreed to get married",
@@ -56,12 +58,14 @@ allCharacters[yumiIndex] = {
   claims: unique([
     ...(yumi.claims ?? []),
     "On April 14, 2020, after Mugen invites members into Fight Club VC for Land of Conquest, Yumi asks `is mic required?`; SailorLuna says she can just listen, Mugen says people can listen in Fight Club and type replies in VIP Lounge when speaking is inconvenient, and Yumi answers with a heart. The scene supports a concise practical question and an accepted low-pressure participation option; it does not establish why Yumi asked or a standing preference against voice chat.",
+    "On October 30, 2020, six days after the October 24 Fight Club event, Harlot writes `+1 for yummi`; Yumi fires back `Bitch you know damn well we can't buy votes`, and Harlot follows with `ok` and `*high five*`. The pocket supports post-event nomination/vote-style banter and Yumi's rule-literate teasing. It does not identify exactly what the +1 was counting, who the high-five targeted, or when any visible Fighter role was assigned.",
     "On September 17, 2020, Yumi immediately recognized Mugen's personality-test post as another attempt to `keep a folder on everyoneee`; when Mugen asked her to do it too, Yumi protested while painting her nails, joined anyway, and actively negotiated which result language did or did not fit her.",
     "Yumi is directly present in the Lobby by April 11, 2020, where she says hello, fumbles a Pokétwo catch attempt, receives Mugen's welcome, and later acknowledges Snow's orientation/routing. This is a presence point, not a proven join or appointment date.",
   ]),
   antiFanon: unique([
     ...(yumi.antiFanon ?? []),
     "Yumi's `is mic required?` question does not establish disability, diagnosis, social anxiety, why she asked, whether she personally remained muted during that event, or a permanent preference against voice chat.",
+    "The October 30 `+1 for yummi` / `can't buy votes` exchange is post-event joke-and-vote language; it does not establish the exact nomination target, a literal attempt to buy votes, the target of Harlot's later `*high five*`, or appointment chronology from exporter/current Fighter-role arrays.",
     "Yumi and Mugen's marriage/compatibility language in the September 2020 personality-test thread is joke-language and affectionate banter, not literal marriage or romance canon.",
     "Personality-test labels and Yumi's reactions to them are self-reflection inside a casual test scene, not psychological diagnosis or a permanent clinical profile.",
     "April 11, 2020 Lobby presence does not establish Yumi's recruitment, join, promotion, or Officer-appointment chronology.",
