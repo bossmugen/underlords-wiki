@@ -1,3 +1,4 @@
+import "./integrator-cast-run1162-daycare-ghoulie";
 import { allCharacters, characterById } from "./cast";
 import type { Character } from "./wiki";
 
