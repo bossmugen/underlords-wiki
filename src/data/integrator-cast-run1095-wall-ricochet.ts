@@ -5,6 +5,7 @@ import "./integrator-cast-run1114-daycare-zyrcant";
 import "./integrator-cast-run1122-daycare-shimoko";
 import "./integrator-cast-run1132-daycare-rosario";
 import "./integrator-cast-run1138-wall-wolfphenix";
+import "./integrator-cast-run1138-daycare-beckiie";
 import { allCharacters, characterById } from "./cast";
 import type { Character } from "./wiki";
 
