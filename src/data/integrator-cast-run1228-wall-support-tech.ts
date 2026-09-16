@@ -32,10 +32,7 @@ const upsertRelationship = (
   return relationships;
 };
 
-const relationships: Relationship[] = [
-  ...(dean.relationships ?? []),
-  ...(legacySupportTech?.relationships ?? []),
-];
+const relationships: Relationship[] = [...(dean.relationships ?? [])];
 
 upsertRelationship(relationships, {
   name: "Mugen",
@@ -44,9 +41,6 @@ upsertRelationship(relationships, {
   href: "/characters/mugen",
 });
 
-const migratedLegacyClaims = legacySupportTech?.claims ?? [];
-const migratedLegacyAntiFanon = legacySupportTech?.antiFanon ?? [];
-
 const nextDean: ExtendedCharacter = {
   ...dean,
   aliases: unique([
@@ -54,13 +48,11 @@ const nextDean: ExtendedCharacter = {
     "Support Tech",
     "✔️ Support Tech",
     "supporttech900",
-    ...(legacySupportTech?.aliases ?? []),
   ]),
   logline:
     "Dean's Support Tech era turns an official-sounding display name into camouflage for somebody who learns Screenshot Court almost immediately. Dean starts by asking whether this is where people get exposed, celebrates when the answer is yes, protests theatrically once the receipts point back, starts filing screenshots and summoning Mugen, and later walks back into Wall already speaking the room's language.",
   tags: unique([
     ...(dean.tags ?? []),
-    ...(legacySupportTech?.tags ?? []),
     "Wall",
     "Fast socialization",
     "Theatrical defendant",
@@ -72,7 +64,6 @@ const nextDean: ExtendedCharacter = {
   relationships,
   quotes: unique([
     ...(dean.quotes ?? []),
-    ...(legacySupportTech?.quotes ?? []),
     "Is this where you expose Peopl",
     "Ehehehhehe",
     "Me UH gOt EXpOsE WEE",
@@ -83,7 +74,6 @@ const nextDean: ExtendedCharacter = {
   ]),
   claims: unique([
     ...(dean.claims ?? []),
-    ...migratedLegacyClaims,
     "Under the Support Tech display name, Dean's surviving Wall chronology moves from asking what the exposure channel is for on 2021-03-23 to openly celebrating being exposed on 2021-04-23. It reads as rapid socialization into the room's joke, not an origin date for Dean's UL membership or Discord habits.",
     "On 2021-06-03, after Ren posts an attachment and tags Dean under the Support Tech display name, Dean answers `WhY U expOse Me`. By 2021-06-26 Dean is on the filing side too: a screenshot is posted from the same Support Tech account and Mugen is summoned 4.924 seconds later. The mock complaint and the filing behavior belong to the same participatory Wall persona.",
     "The June 2021 pizza-man / `mum` exchange gives Dean and Mugen a compact easy-banter lane: Dean pulls Mugen into the joke, Mugen answers `Try again next year bb`, and the conversation keeps moving. The family wording is social shorthand inside the scene.",
@@ -91,8 +81,8 @@ const nextDean: ExtendedCharacter = {
   ]),
   antiFanon: unique([
     ...(dean.antiFanon ?? []),
-    ...migratedLegacyAntiFanon,
     "Hard canon resolves Support Tech as Dean. Do not create or preserve a separate Support Tech person from the display name, `✔️ Support Tech`, or `supporttech900` account trail.",
+    "The retired separate Support Tech owner is removed under the Dean hard lock; unverified legacy account aliases or old micro-profile content are not automatically identity-bridged into Dean merely because that duplicate once existed.",
     "`mum`, `sis`, and related family-tree wording in these Wall pockets are joke-family language. Do not derive biological/adoptive kinship, hierarchy, governance, or romance from those words alone.",
     "Ren's `he crashing` line is scene wording and does not establish health, intoxication, impairment, gender canon, or another private state for Dean.",
     "The June 2021 and March 2023 screenshots are POSTED BY the Support Tech account only unless separate object-level evidence establishes MADE BY, CAPTURED BY, FEATURING, or exact subject.",
@@ -108,5 +98,5 @@ if (nextDeanIndex < 0) {
 withoutDuplicate[nextDeanIndex] = nextDean;
 allCharacters.splice(0, allCharacters.length, ...withoutDuplicate);
 
-characterById.delete("support-tech");
+if (legacySupportTech) characterById.delete("support-tech");
 characterById.set(nextDean.id, nextDean);
