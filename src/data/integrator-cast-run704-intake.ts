@@ -137,26 +137,39 @@ if (lillyIndex >= 0) {
   characterById.set("lilly", allCharacters[lillyIndex]);
 }
 
-// Small Core reputation deepener only. `Nitro Sniper` is an anniversary-month
-// gift-claiming label and must stay miles away from Chubi's historical Sniperr /
-// Officer governance role.
+// Small Core reputation deepener. `Nitro Sniper` is an anniversary-month
+// gift-claiming label and must stay miles away from Chibiterasu's historical
+// Sniperr / Officer governance history. The later Lobby packet adds stable-account
+// return/name chronology without pretending repeated onboarding means a departure.
 const chubiIndex = allCharacters.findIndex((character) => character.id === "chubi");
 if (chubiIndex >= 0) {
   const chubi = allCharacters[chubiIndex] as ExtendedCharacter;
 
   allCharacters[chubiIndex] = {
     ...chubi,
-    tags: [...new Set([...(chubi.tags ?? []), "Nitro fast fingers", "Petty Crimes"])],
+    tags: [
+      ...new Set([
+        ...(chubi.tags ?? []),
+        "Nitro fast fingers",
+        "Lobby return chronology",
+        "Name drift",
+        "Petty Crimes",
+      ]),
+    ],
     claims: [
       ...new Set([
         ...(chubi.claims ?? []),
         "In Mugen's 2023-03-31 anniversary closeout Chubi is named among the month's `Nitro Snipers`, with the group praised for `fast fingers`. Use as bounded playful speed reputation in that Nitro context.",
+        "Stable Discord account 559670680287969281 self-reports `chibiterasu`, `Underlords`, and age 22 during Lobby onboarding on 2022-03-09, then appears in the Lobby onboarding flow again 796 days later on 2024-05-13 and self-reports `Chuu~tan, Underlords and I'm 25`. The durable reference value is one account resurfacing in two onboarding moments with changed self-reported in-game naming.",
       ]),
     ],
     antiFanon: [
       ...new Set([
         ...(chubi.antiFanon ?? []),
-        "`Nitro Sniper` is an anniversary/event label about fast Nitro claiming. It is not evidence for Chubi's historical junior-officer / Sniperr governance duties and does not establish appointment chronology.",
+        "`Nitro Sniper` is an anniversary/event label about fast Nitro claiming. It is not evidence for Chibiterasu's historical junior-officer / Sniperr governance duties and does not establish appointment chronology.",
+        "The 2022 and 2024 Lobby self-identifications do not establish that Chibiterasu left and rejoined UL, was expelled and re-admitted, disappeared for 796 days, or continuously used either in-game name between the two dated scenes.",
+        "ƐℲı˥'s 2024 `chu chu` line is contextual adjacency rather than a stored reply/reference or mention. Keep it as a possible familiarity clue, not a relationship-rank claim or a technical reply edge.",
+        "This Lobby packet shows Chibiterasu as the onboarding subject. Do not inherit ƐℲı˥'s role-assignment/routing verbs as Chibiterasu's lived Sniperr or Officer activity.",
       ]),
     ],
   } as ExtendedCharacter;
