@@ -66,7 +66,6 @@ if (eosIndex >= 0) {
     name: "Samuel",
     note:
       "Eos can summon Samuel with almost nothing but his name and `I have court today`; when he asks what he did, the charge is simply `Love me`. Later she calls him the `light of UL` and then folds his Rick Astley suffering back into the compliment. With Samuel, affection rarely arrives without a bit attached.",
-    href: "/characters/samuel",
   });
 
   upsertRelationship(relationships, {
