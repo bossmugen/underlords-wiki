@@ -176,7 +176,7 @@ if (tonyIndex < 0) throw new Error("Run 1221 expected canonical TonyTonyChopper 
     "Marian",
     "The filing lane is reciprocal, not a permanent prosecutor/defendant assignment. Marian repeatedly puts Tony on the Wall, but on June 12 Tony posts an attachment while tagging Marian and Marian immediately protests `oi` / `that'ssprivate`. The attachment remains visually unresolved, yet the reversal is socially legible: Tony is willing to counter-file the person who keeps catching her.",
     "counter-file",
-    "/characters/marian",
+    "/characters/panda",
   );
   allCharacters[tonyIndex] = {
     ...tony,
