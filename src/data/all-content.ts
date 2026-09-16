@@ -223,5 +223,34 @@ const isGag = (value: unknown): value is Gag => {
   return Boolean(typeof gag.id === "string" && typeof gag.name === "string" && typeof gag.logline === "string");
 };
 
-export const episodes: Episode[] = [...coreEpisodes, ...arraysFrom(episodeModules, isEpisode)];
-export const gags: Gag[] = [...coreGags, ...run661Gags, ...arraysFrom(gagModules, isGag)];
+const dedupeById = <T extends { id: string }>(items: T[]): T[] => {
+  const index = new Map<string, T>();
+  for (const item of items) index.set(item.id, item);
+  return [...index.values()];
+};
+
+export const allEpisodes = dedupeById([
+  ...coreEpisodes,
+  ...arraysFrom(episodeModules, isEpisode),
+]);
+
+export const allGags = dedupeById([
+  ...coreGags,
+  ...arraysFrom(gagModules, isGag),
+  ...run661Gags,
+]).map((gag) =>
+  gag.id === "spelling-crimes"
+    ? {
+        ...gag,
+        name: "UL Types Too Fast",
+        logline:
+          "Letters transpose, words disappear, sentences collide, autocorrect makes executive decisions, and the room understands anyway. The signature is typing velocity—not an inability to spell.",
+      }
+    : gag,
+);
+
+export const episodeFormat = (episode: Episode): "EPISODE" | "INCIDENT" =>
+  /arc|episode|season|special|running|reunion|chronology/i.test(episode.kind) ? "EPISODE" : "INCIDENT";
+
+export const episodesBySeason = (season: string): Episode[] =>
+  allEpisodes.filter((episode) => episode.season === season);
