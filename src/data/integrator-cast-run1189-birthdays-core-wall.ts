@@ -162,44 +162,50 @@ allCharacters[pandaIndex] = {
 } as ExtendedCharacter;
 characterById.set("panda", allCharacters[pandaIndex]);
 
-// porgo / p0rg0 is a new small owner, intentionally kept small. The recurring
-// thing is self-submission to the Wall, not a universal personality claim.
-if (allCharacters.some((character) => character.id === "porgo")) {
-  throw new Error("Run 1189 found an unexpected existing porgo owner; refusing to create a duplicate.");
-}
+// porgo / p0rg0 stays a small owner. The recurring thing is self-submission to
+// the Wall, not a universal personality claim. If another integration already
+// created the owner, deepen it in place rather than creating Porgo II.
+const porgoIndex = allCharacters.findIndex((character) => character.id === "porgo");
+const porgoRelationships = porgoIndex >= 0 ? [...(allCharacters[porgoIndex].relationships ?? [])] : [];
+upsertRelationship(
+  porgoRelationships,
+  "Dayadream",
+  "After porgo posts `im exposing myself` and follows with `im gona vomit`, Dayadream exact-replies `let it out!!`. The response matches theatrical embarrassment with theatrical encouragement; it is one friendly Wall beat, not a closeness ranking.",
+  "let it out!!",
+);
+const porgoExisting = (porgoIndex >= 0 ? allCharacters[porgoIndex] : undefined) as ExtendedCharacter | undefined;
 const porgo: ExtendedCharacter = {
+  ...(porgoExisting ?? {}),
   id: "porgo",
-  name: "porgo",
-  aliases: ["p0rg0"],
-  billing: "legacy",
-  role: "Archive-era Wall cast",
-  era: "2022+",
-  logline:
-    "Wall participant who repeatedly brings their own case file. porgo can post `putting myself up here cause im very mad at myself`, return weeks later with `im exposing myself`, immediately dramatize the regret, and still be the person who put the receipt into circulation before anybody else had to.",
-  tags: ["Archive cast", "Wall", "Self-incrimination", "Voluntary exposure", "Room affection", "Petty Crimes"],
-  relationships: [
-    {
-      name: "Dayadream",
-      note:
-        "After porgo posts `im exposing myself` and follows with `im gona vomit`, Dayadream exact-replies `let it out!!`. The response matches theatrical embarrassment with theatrical encouragement; it is one friendly Wall beat, not a closeness ranking.",
-    },
-  ],
-  quotes: [
+  name: porgoExisting?.name ?? "porgo",
+  aliases: appendUnique(porgoExisting?.aliases, ["p0rg0"]),
+  billing: porgoExisting?.billing ?? "legacy",
+  role: porgoExisting?.role ?? "Archive-era Wall cast",
+  era: porgoExisting?.era ?? "2022+",
+  logline: appendOnce(
+    porgoExisting?.logline ?? "Wall participant who repeatedly brings their own case file.",
+    "porgo can post `putting myself up here cause im very mad at myself`, return weeks later with `im exposing myself`, immediately dramatize the regret, and still be the person who put the receipt into circulation before anybody else had to.",
+    "put the receipt into circulation",
+  ),
+  tags: appendUnique(porgoExisting?.tags, ["Archive cast", "Wall", "Self-incrimination", "Voluntary exposure", "Room affection", "Petty Crimes"]),
+  relationships: porgoRelationships,
+  quotes: appendUnique(porgoExisting?.quotes, [
     "putting myself up here cause im very mad at myself",
     "im exposing myself",
     "im gona vomit",
-  ],
-  claims: [
+  ]),
+  claims: appendUnique(porgoExisting?.claims, [
     "On June 20, 2022 porgo posts an attachment under `putting myself up here cause im very mad at myself`; the post collects five `Cute_patpat` reactions. On July 9 porgo again supplies an attachment under `im exposing myself`, then says `im gona vomit`, and Dayadream exact-replies `let it out!!`. Separate dates make self-submission a repeat Wall behavior rather than a one-off filing.",
     "The useful person read is narrow: porgo can cringe at their own embarrassing evidence while voluntarily making the embarrassment communal. The room's visible response in these scenes is soothing/playful rather than purely punitive.",
     "Petty Crimes: SELF-INCRIMINATION AS A SERVICE — repeatedly placing one's own embarrassing Wall material into circulation before somebody else has to.",
-  ],
-  antiFanon: [
+  ]),
+  antiFanon: appendUnique(porgoExisting?.antiFanon, [
     "The June and July attachments were not visually inspected. porgo is POSTED BY only; do not infer MADE BY, CAPTURED BY, FEATURING, or the embarrassing content itself.",
     "`mad at myself` / `im gona vomit` is exaggerated social wording in context. Do not medicalize it or infer self-harm intent.",
     "`Figgy` remains unresolved; do not infer identity, relationship, species, or literal emotional state from porgo's nearby line `figgy is mad at me`.",
     "Self-submission is a Wall-specific recurring behavior here, not a claim that porgo overshares universally.",
-  ],
+  ]),
 };
-allCharacters.push(porgo);
+if (porgoIndex >= 0) allCharacters[porgoIndex] = porgo;
+else allCharacters.push(porgo);
 characterById.set("porgo", porgo);
