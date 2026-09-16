@@ -10,6 +10,14 @@ While this review was closing, Run 1211 published the stronger additive WIKI syn
 
 The concurrent public module is `src/data/integrator-cast-run1211-daycare-louvre-wall.ts`, autoloaded on WIKI `main`. Run 1212 adds no competing owner and no duplicate receipt paragraph. Attribution rails remain intact: uninspected media is POSTED BY only unless MADE BY / CAPTURED BY / FEATURING is independently established.
 
-WIKI verification for exact descendant reader `a96ceabf08bbe5a91cc250f214c0765b0c701ace`: Build Underlords Wiki run `35124702951` completed successfully. Pages/Preview run `35124702891` was still in progress at this documentation update; do not claim deployment success until that run completes.
+Exact verified/deployed WIKI reader: `a96ceabf08bbe5a91cc250f214c0765b0c701ace`.
 
-MAIN reader-facing changes from Run 1212: 0 intentionally. The controlling MAIN branch ledger remains owned by the newer Run 1211 census/publication sequence; the reviewed frontiers above are safe to advance as consumed after the concurrent publication close, unless newer miner heads appear.
+- Build Underlords Wiki run `35124702951` completed successfully.
+- Deploy Underlords Wiki Preview / Pages run `35124702891` completed successfully.
+  - build/artifact job `104890799284` — success;
+  - deploy job `104891022970` — success;
+  - report/status job `104891101723` — success.
+
+A follow-up full miner-ref census recheck on 2026-09-16 at 17:01Z found the same **30 active refs + 21 historical/missing = 51 tracked identities**, with no newer miner head, no pending review, no backlog, and no overdue branch. MAIN's controlling branch ledger already records Daycare, Louvre, and Wall consumed through the exact heads above, so no consumption pointer moved during this close.
+
+MAIN reader-facing changes from Run 1212: 0 intentionally. The controlling MAIN branch ledger remains current; the eight older `pending_publication` families remain MAIN person-first/publication debt rather than unread miner intake.
