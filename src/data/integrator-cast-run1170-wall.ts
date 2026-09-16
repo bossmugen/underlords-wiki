@@ -19,8 +19,8 @@ const upsertRelationship = (
   else relationships.push(relationship);
 };
 
-// Run 1170 Wall: fold new material into the existing people. The point is
-// cumulative character shape, not one more receipt paragraph per screenshot.
+// Run 1170 folds fresh intake into existing people. The point is cumulative
+// character shape, not one more receipt paragraph per screenshot.
 
 const jasIndex = allCharacters.findIndex((character) => character.id === "jas");
 if (jasIndex < 0) throw new Error("Run 1170 expected canonical Jas owner");
@@ -144,4 +144,56 @@ if (erysIndex < 0) throw new Error("Run 1170 expected canonical Erys owner");
     ]),
   } as ExtendedCharacter;
   characterById.set("erys", allCharacters[erysIndex]);
+}
+
+const eosIndex = allCharacters.findIndex((character) => character.id === "eos");
+if (eosIndex < 0) throw new Error("Run 1170 expected canonical Eos owner");
+{
+  const eos = allCharacters[eosIndex] as ExtendedCharacter;
+  const relationships = [...(eos.relationships ?? [])];
+
+  upsertRelationship(relationships, {
+    name: "Marian",
+    note:
+      "Eos repeatedly chooses Marian/Panda as a partner for tiny hug-command and retry bits, then the Wall turns that comfort into mutually assured screenshot destruction. Eos can accept Marian-posted evidence with `i accet my fate this time`, counter-file minutes later, call Marian `sort of spared`, declare `this is war`, and in 2022 race her to the room with `BEATING U TO IT, PANDA`—only to beg `NONO look at my shame` when Marian counters. Mock outrage never actually ends the game.",
+    href: "/characters/panda",
+  });
+
+  upsertRelationship(relationships, {
+    name: "Daya",
+    note:
+      "The receipt instinct is not only a Marian thing. Eos files `IMG_2983.png` at Dayadream with `it had to be done 😭😭`; Daya answers `AW MAN`, and the room keeps laughing. It is the same familiar nuisance register operating outside Eos's longest screenshot rivalry.",
+    href: "/characters/daya",
+  });
+
+  allCharacters[eosIndex] = {
+    ...eos,
+    tags: appendUnique(eos.tags, [
+      "Mutually assured screenshot destruction",
+      "Competitive receipt instinct",
+      "Self-snitch speedrun",
+    ]),
+    relationships,
+    quotes: appendUnique(eos.quotes, [
+      "i accet my fate this time",
+      "this is war",
+      "BEATING U TO IT, PANDA",
+      "NONO look at my shame",
+      "revenge",
+      "sorry rums i had to",
+      "it had to be done 😭😭",
+    ]),
+    claims: appendUnique(eos.claims, [
+      "Across 2021–2023 Eos repeatedly turns Wall embarrassment into participation: accepting Marian-posted evidence, self-filing, counter-filing, declaring `this is war`, racing Panda to a receipt with `BEATING U TO IT, PANDA`, and later filing `revenge` / `i had to` receipts against other people. The person-shaped pattern is mock mortification plus competitive receipt instinct plus willingness to become her own punchline.",
+      "Eos and Marian's recurring Wall lane is reciprocal rather than one-way prosecution. Eos can accept the hit, retaliate, threaten mock war, and immediately re-enter as defendant when Marian returns fire; this deepens their familiar nuisance register without turning surrounding divorce/relationship jokes literal.",
+      "By 2023 Eos applies the same receipt habit beyond Marian: she answers one account's filing with `revengeshame.png` / `revenge`, later posts at the same account with `sorry rums i had to`, and separately files at Dayadream with `it had to be done 😭😭`; the latter answers `AW MAN` while the room continues the joke.",
+    ]),
+    antiFanon: appendUnique(eos.antiFanon, [
+      "Run 1170 uses Wall behavior to deepen the canonical Eos owner because later direct Daycare bodies were not exposed in the miner route; the Wall lines are not relabeled as Daycare dialogue.",
+      "`Rums` is preserved only as Eos's address in the recovered scene unless independently identity-bridged; no new identity mapping is created from the nickname alone.",
+      "The screenshot-war language is reciprocal room comedy, not real hostility, surveillance authority, formal Wall office, romance, or literal war.",
+      "The Run-1170 Wall images remain POSTED BY their surviving posters only unless MADE BY / CAPTURED BY / FEATURING is independently established.",
+    ]),
+  } as ExtendedCharacter;
+  characterById.set("eos", allCharacters[eosIndex]);
 }
