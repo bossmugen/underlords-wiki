@@ -14,7 +14,7 @@ const sailorLunaIndex = allCharacters.findIndex(
 );
 
 if (sailorLunaIndex < 0) {
-  throw new Error("Run 1166 identity correction expected the canonical SailorLuna owner.");
+  throw new Error("Run 1176 identity correction expected the canonical SailorLuna owner.");
 }
 
 const sailorLuna = allCharacters[sailorLunaIndex] as ExtendedCharacter;
@@ -56,18 +56,18 @@ allCharacters[sailorLunaIndex] = {
     "Bye video",
   ],
   claims: [
-    "On June 5, 2020, account 456226577798135808 directly self-identifies as `SailorLuna#2873`. That is strong date-local identity evidence, not a permanent person bridge for every later message ever sent by the account.",
+    "On June 5, 2020, a message rendered under Discord's pooled Deleted User identity directly self-identifies as `SailorLuna#2873`. That self-identification resolves SailorLuna for the local scene; the pooled deleted-user numeric identity does not preserve her original account ID and cannot bridge unrelated deleted-user messages.",
     "On June 5, 2020, SailorLuna announced an indefinite Dragon Raja hiatus, said she hoped to return to Underlords if she returned to the game, and explicitly offered her Discord handle so people could stay in touch. Anthos, Snow, and Ren answered with home / visit / family language.",
-    "Across June 14–16, 2020, SailorLuna identifies a temporary birthday video as `my video` for Gilli, waits for Gilli to watch it, receives Gilli's delighted all-caps reaction and Snow's `love it luna`, then remembers to delete it after Mugen asks about `Luna's video`. This safely resolves MADE BY to SailorLuna; the original link/media bytes are gone.",
+    "Across June 14–16, 2020, the birthday-video sequence is locally identified as Luna's work by the surrounding people: Snow answers `love it luna`, Mugen later asks `Is it Luna's video?`, and Luna's own sequence ends with `Bye video` after the planned deletion. This safely resolves MADE BY to SailorLuna even though the original media object is gone.",
   ],
   antiFanon: [
-    "Account 456226577798135808 is not a safe global person identity. June 2020 is directly SailorLuna; later states include Kevin / PeePeePunch and Eltarkos / Eltarkosite, so same-account continuity must not be rewritten as one uninterrupted SailorLuna biography.",
-    "The Dec. 13, 2020 Kevin / PeePeePunch intake is an account-state receipt, not proof that SailorLuna returned under another IGN or club. Do not turn Kevin into an offline/legal name or infer gender from it.",
-    "The Nov. 2, 2021 Chris Brown Club VC sequence is attributed only to account 456226577798135808. Do not assign that joke, artist choice, or VC behavior to SailorLuna without a date-local human bridge.",
-    "The April 2020 Whiskey Room / unnamed lounge language also remains account-authored rather than person-attributed. Do not use the stable account ID alone to backfill SailorLuna before the June self-identification.",
+    "Discord ID 456226577798135808 is a coalesced Deleted User ghost identity shared by unrelated deleted accounts. It is not SailorLuna's preserved account ID, not an alias, and never supplies cross-date person continuity by itself.",
+    "The Dec. 13, 2020 Kevin / PeePeePunch intake is a different date-local deleted-user self-presentation unless an independent bridge identifies the person. Do not attach it to SailorLuna or turn Kevin into her offline/legal name.",
+    "The Nov. 2, 2021 Chris Brown Club VC sequence has no safe named speaker after the deleted-user correction. Do not assign that joke, artist choice, or VC behavior to SailorLuna without a separate local bridge.",
+    "The April 2020 Whiskey Room / unnamed lounge, movie-lounge, and Fight Club announcement scenes remain useful room history with an unresolved deleted speaker. Do not backfill SailorLuna merely because the export renders the same pooled Deleted User ID.",
     "Do not merge SailorLuna with the later Luna account 784063021579239435. Shared `Luna` language is not identity evidence.",
     "The room's `home` and `family` replies are social belonging language, not literal biological kinship or a codified permanent-membership rule.",
-    "The birthday video is safely MADE BY SailorLuna. CAPTURED BY, EDITED BY, FEATURING, exact contents, song, length, filename, software, and capture source remain unresolved. Gilli being the birthday recipient does not prove she appears on screen.",
+    "The birthday video is safely MADE BY SailorLuna through contemporaneous naming. CAPTURED BY, EDITED BY, FEATURING, exact contents, song, length, filename, software, and capture source remain unresolved. Gilli being the birthday recipient does not prove she appears on screen.",
     "These June scenes do not create a PR, Marketing, birthday-organizer, VC-host, or DJ appointment for SailorLuna.",
   ],
 } as ExtendedCharacter;
@@ -77,29 +77,29 @@ const eltarkosIndex = allCharacters.findIndex(
   (character) =>
     character.id === "eltarkos" ||
     character.name === "Eltarkos" ||
-    (character.aliases ?? []).some((alias) => alias === "Eltarkos" || alias === "Eltarkosite"),
+    (character.aliases ?? []).some((alias) => alias === "Eltarkos" || alias === "Eltarkos 2.0"),
 );
 
 const eltarkosPatch: ExtendedCharacter = {
   id: eltarkosIndex >= 0 ? allCharacters[eltarkosIndex].id : "eltarkos",
   name: "Eltarkos",
-  aliases: ["Eltarkosite", "Eltarkos 2.0"],
+  aliases: ["Eltarkos 2.0"],
   billing: "legacy",
   role: "Archive-era UL cast",
-  era: "2021–2022",
+  era: "2021",
   logline:
-    "Eltarkos enters the surviving record with the kind of account weirdness UL notices immediately: two separate Discord accounts are visibly tied to the same Eltarkos person-context in one December 2021 lobby scene, and the room promptly asks the only sensible question—why do you have two accounts?",
-  tags: ["Archive cast", "2021", "2022", "Identity trail", "Petty Crimes"],
+    "Eltarkos enters the surviving record with the kind of account weirdness UL notices immediately: a deleted-origin message locally introduces Eltarkos, a separate live account called `Eltarkos 2.0` replies `it's me`, and the room promptly asks the only sensible question—why do you have two accounts?",
+  tags: ["Archive cast", "2021", "Identity trail", "Petty Crimes"],
   quotes: ["it's me"],
   claims: [
-    "On Dec. 27, 2021, two distinct Discord account IDs are directly tied to the same contemporaneous Eltarkos person-context: account 456226577798135808 introduces itself as Eltarkos, and account 774678831196930080 / `Eltarkos 2.0` later replies directly to that introduction with `it's me`. A staff member then asks why Eltarkos has two accounts.",
-    "By Aug. 27, 2022, account 456226577798135808 is still locally presenting as Eltarkosite. This is date-local identity evidence, not permission to stitch the account's entire earlier history into Eltarkos.",
+    "On Dec. 27, 2021, a ghost-rendered deleted-user message locally self-identifies as Eltarkos; live account 774678831196930080 / `Eltarkos 2.0` directly replies `it's me`, and whoamii asks `Why u have 2 acc? Lmao`. The scene locally ties both visible account-presences to Eltarkos, but the pooled deleted-user ID does not recover the original account's numeric ID.",
   ],
   antiFanon: [
-    "Do not invent why Eltarkos had two visible Discord accounts. The archive does not establish account sharing, transfer, theft, loss, recovery, or a real/fake hierarchy between them.",
-    "Do not merge SailorLuna, Kevin, and Eltarkos into one person merely because account 456226577798135808 appears in all three dated account states.",
-    "The archive contains contradictory self-reported ages across these account states. Keep that contradiction backstage; do not repair it with birthday arithmetic, deception theories, or account-transfer fanon.",
-    "`Eltarkos 2.0` is an account label tied to the same person-context, not evidence of a second Eltarkos person.",
+    "Discord ID 456226577798135808 is a coalesced Deleted User ghost identity, not Eltarkos's old/original account ID. Never use it to bridge Eltarkos across unrelated deleted-user messages.",
+    "Do not invent why Eltarkos had two visible account-presences in the Dec. 27, 2021 scene. The archive does not establish account sharing, transfer, theft, loss, recovery, or a real/fake hierarchy between them.",
+    "Do not merge SailorLuna, Kevin, Tony, Eltarkos, Eltarkosite, siggy, ku lo sa, Eyja, or Selene Eve because their exports can render the same Deleted User ghost ID. Each deleted-user self-identification remains local unless another bridge exists.",
+    "The later ghost-rendered `Eltarkosite` self-presentation is not enough by itself to make `Eltarkosite` a cross-date alias for Eltarkos. Keep it unresolved unless independent local evidence bridges it.",
+    "`Eltarkos 2.0` is a live account label directly tied to the same local Eltarkos person-context, not evidence of a second Eltarkos person.",
   ],
 };
 
@@ -108,10 +108,16 @@ if (eltarkosIndex >= 0) {
   allCharacters[eltarkosIndex] = {
     ...existing,
     ...eltarkosPatch,
-    aliases: [...new Set([...(existing.aliases ?? []), ...(eltarkosPatch.aliases ?? [])])],
+    aliases: [
+      ...new Set(
+        [...(existing.aliases ?? []), ...(eltarkosPatch.aliases ?? [])].filter(
+          (alias) => alias !== "Eltarkosite",
+        ),
+      ),
+    ],
     tags: [...new Set([...(existing.tags ?? []), ...(eltarkosPatch.tags ?? [])])],
     quotes: [...new Set([...(existing.quotes ?? []), ...(eltarkosPatch.quotes ?? [])])],
-    claims: [...new Set([...(existing.claims ?? []), ...(eltarkosPatch.claims ?? [])])],
+    claims: eltarkosPatch.claims,
     antiFanon: [...new Set([...(existing.antiFanon ?? []), ...(eltarkosPatch.antiFanon ?? [])])],
   } as ExtendedCharacter;
   characterById.set(allCharacters[eltarkosIndex].id, allCharacters[eltarkosIndex]);
