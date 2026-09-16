@@ -87,9 +87,9 @@ if (dyingFoxIndex < 0) {
 // immediately dissolves the office himself: he is there to help newer players,
 // then points them toward the whole Fame-role knowledge pool. Earlier Wall pockets
 // add the other side of him: once he is caught, he can turn the charge into his own bit.
-const bishopIndex = allCharacters.findIndex((character) => character.id === "bishop");
+const bishopIndex = allCharacters.findIndex((character) => character.id === "bishopthaguru");
 if (bishopIndex < 0) {
-  throw new Error("Run 1214 expected canonical Bishop owner; refusing to create Bishop II.");
+  throw new Error("Run 1214 expected canonical BishopThaGuru owner; refusing to create Bishop II.");
 }
 {
   const bishop = allCharacters[bishopIndex] as ExtendedCharacter;
@@ -137,7 +137,7 @@ if (bishopIndex < 0) {
       "Bishop-posted links and attachments in these Wall pockets are POSTED BY Bishop only unless maker, capture, or featured-subject attribution is independently established.",
     ]),
   } as ExtendedCharacter;
-  characterById.set("bishop", allCharacters[bishopIndex]);
+  characterById.set("bishopthaguru", allCharacters[bishopIndex]);
 }
 
 // Wall: Cele gets prosecuted, protests, participates anyway, then accidentally
