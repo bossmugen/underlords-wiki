@@ -1,3 +1,4 @@
+import "./integrator-cast-run1214-daycare-wall";
 import { allCharacters, characterById } from "./cast";
 
 type ExtendedCharacter = (typeof allCharacters)[number] & {
