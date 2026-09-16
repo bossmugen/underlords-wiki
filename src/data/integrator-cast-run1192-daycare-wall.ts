@@ -4,6 +4,7 @@ import "./integrator-cast-run1195-wall-ghostt";
 import "./integrator-cast-run1197-daycare-wall";
 import "./integrator-cast-run1203-core-ansun";
 import "./integrator-cast-run1206-core-daycare-wall";
+import "./integrator-cast-run1206-reconcile";
 
 type ExtendedCharacter = Character & {
   claims?: string[];
