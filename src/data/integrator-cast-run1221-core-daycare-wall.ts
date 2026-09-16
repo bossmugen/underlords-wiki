@@ -1,4 +1,4 @@
-import { allCharacters, castGroups, characterById } from "./cast";
+import { allCharacters, characterById } from "./cast";
 import type { Character } from "./wiki";
 
 type ExtendedCharacter = Character & {
@@ -94,47 +94,44 @@ if (snowIndex < 0) throw new Error("Run 1221 expected canonical Snow owner.");
   characterById.set("snow", allCharacters[snowIndex]);
 }
 
-// Core: Nui is a distinct small Lobby seed. Keep the stable account bounded and
-// never use the short name to fuse this person with Nuien or anybody else.
-const nuiId = "nui";
-if (allCharacters.some((character) => character.id === nuiId)) {
-  throw new Error("Run 1221 found an unexpected pre-existing Nui owner; refusing to overwrite it silently.");
+// Core: Nui already has a canonical compact owner from the earlier Core pass.
+// Deepen that person; never turn the short name into a second Nui or into Nuien.
+const nuiIndex = allCharacters.findIndex((character) => character.id === "nui");
+if (nuiIndex < 0) throw new Error("Run 1221 expected canonical Nui owner; refusing to manufacture a duplicate.");
+{
+  const nui = allCharacters[nuiIndex] as ExtendedCharacter;
+  const relationships = [...(nui.relationships ?? [])];
+  upsertRelationship(
+    relationships,
+    "Mugen",
+    "Their May 2020 Lobby shorthand is immediate and reciprocal: `BITCHHHHH` meets `BITCH`, then Mugen yells for Nui to get into the Whiskey room and Nui answers `ON IT BITCHHHHH` less than nine seconds later. High-volume familiarity plus fast uptake; no rank, romance, or family claim.",
+    "High-volume familiarity",
+    "/characters/mugen",
+  );
+  allCharacters[nuiIndex] = {
+    ...nui,
+    logline: appendOnce(
+      nui.logline,
+      "The same momentum works in both directions: Mugen can yell for Nui and get an immediate `ON IT BITCHHHHH`, while Nui can turn open slots into a live countdown until the room reaches `SOLD OUT`.",
+      "ON IT BITCHHHHH",
+    ),
+    tags: appendUnique(nui.tags, ["Lobby", "Mugen", "Fast response", "Mobilizing urgency", "High-volume shorthand"]),
+    relationships,
+    quotes: appendUnique(nui.quotes, ["BITCHHHHH", "ON IT BITCHHHHH"]),
+    claims: appendUnique(nui.claims, [
+      "Stable Discord account 709974359866998786 is rendered `Nui` in the reviewed Lobby source. This deepens the existing Nui owner and is intentionally bounded to that stable account rather than inferred from similar names.",
+      "On May 14, 2020, Nui and Mugen trade reciprocal all-caps `BITCH` shorthand; when Mugen loudly summons Nui to the Whiskey room, Nui answers `ON IT BITCHHHHH` 8.627 seconds later.",
+      "On May 18, Nui turns open spots into a live countdown with `TWO SPOTS`, `ONE SPOT`, and `SOLD OUT` over about six minutes and forty-eight seconds. The person-shaped read is mobilizing urgency: shouty presentation paired with visible movement, not a formal recruiter or event-leader appointment.",
+    ]),
+    antiFanon: appendUnique(nui.antiFanon, [
+      "Nui stable account 709974359866998786 is not merged with Nuien or any similarly named person without an explicit identity bridge. Name resemblance is not identity evidence.",
+      "The meaning of Nui's `cc` shorthand remains unresolved and is not expanded on the public owner.",
+      "Current/export role arrays do not establish that Nui formally owned recruitment, events, or the May 18 signup.",
+      "The Mugen/Nui `BITCH` exchange is reciprocal familiar banter in the observed scene, not literal hostility, romance, family, governance, or a general permission claim.",
+    ]),
+  } as ExtendedCharacter;
+  characterById.set("nui", allCharacters[nuiIndex]);
 }
-const nuiSeed: ExtendedCharacter = {
-  id: nuiId,
-  name: "Nui",
-  aliases: [],
-  billing: "legacy",
-  role: "Archive-era Lobby cast",
-  era: "2020+",
-  logline:
-    "Nui runs hot and fast: loud enough to answer a Mugen summons with `ON IT BITCHHHHH`, practical enough to turn open spots into a live two-spots / one-spot / sold-out countdown minutes later. The volume is real; so is the follow-through.",
-  tags: ["Archive cast", "Lobby", "Mugen", "Fast response", "Mobilizing urgency", "High-volume shorthand"],
-  relationships: [
-    {
-      name: "Mugen",
-      note:
-        "Their May 2020 Lobby shorthand is immediate and reciprocal: `BITCHHHHH` meets `BITCH`, then Mugen yells for Nui to get into the Whiskey room and Nui answers `ON IT BITCHHHHH` less than nine seconds later. High-volume familiarity plus fast uptake; no rank, romance, or family claim.",
-      href: "/characters/mugen",
-    },
-  ],
-  quotes: ["BITCHHHHH", "ON IT BITCHHHHH", "Hurry hurry TWO SPOTS KEFT", "ONE SPOT HURRYYYY", "SOLD OUT"],
-  claims: [
-    "Stable Discord account 709974359866998786 is rendered `Nui` in the reviewed Lobby source. This owner is intentionally bounded to that stable account rather than inferred from similar names.",
-    "On May 14, 2020, Nui and Mugen trade reciprocal all-caps `BITCH` shorthand; when Mugen loudly summons Nui to the Whiskey room, Nui answers `ON IT BITCHHHHH` 8.627 seconds later.",
-    "On May 18, Nui turns open spots into a live countdown with `TWO SPOTS`, `ONE SPOT`, and `SOLD OUT` over about six minutes and forty-eight seconds. The person-shaped read is mobilizing urgency: shouty presentation paired with visible movement, not a formal recruiter or event-leader appointment.",
-  ],
-  antiFanon: [
-    "Nui stable account 709974359866998786 is not merged with Nuien or any similarly named person without an explicit identity bridge. Name resemblance is not identity evidence.",
-    "The meaning of Nui's `cc` shorthand remains unresolved and is not expanded on the public owner.",
-    "Current/export role arrays do not establish that Nui formally owned recruitment, events, or the May 18 signup.",
-    "The Mugen/Nui `BITCH` exchange is reciprocal familiar banter in the observed scene, not literal hostility, romance, family, governance, or a general permission claim.",
-  ],
-};
-allCharacters.push(nuiSeed);
-characterById.set(nuiId, nuiSeed);
-const archiveCastGroup = castGroups.find((group) => group.id === "archive-cast");
-if (archiveCastGroup && !archiveCastGroup.characterIds.includes(nuiId)) archiveCastGroup.characterIds.push(nuiId);
 
 // Daycare support-source synthesis: Candy's tiny-language owner already exists.
 // The genuinely additive piece is the trajectory from tentative arrival to a
