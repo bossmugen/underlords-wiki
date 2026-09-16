@@ -62,6 +62,20 @@ if (eosIndex >= 0) {
     href: "/characters/mugen",
   });
 
+  upsertRelationship(relationships, {
+    name: "Samuel",
+    note:
+      "Eos can summon Samuel with almost nothing but his name and `I have court today`; when he asks what he did, the charge is simply `Love me`. Later she calls him the `light of UL` and then folds his Rick Astley suffering back into the compliment. With Samuel, affection rarely arrives without a bit attached.",
+    href: "/characters/samuel",
+  });
+
+  upsertRelationship(relationships, {
+    name: "Snow",
+    note:
+      "Snow turns Eos's foot size into the Tiny Feet case and jokes that she totally did not supply the nickname. Eos answers elsewhere that she is afraid of Snow and that they have a `very complicated relationship`: less confession than both of them acknowledging how reliably Snow can turn Eos into a defendant.",
+    href: "/characters/snow",
+  });
+
   extendRelationship(relationships, {
     name: "Gilli",
     note:
@@ -91,6 +105,8 @@ if (eosIndex >= 0) {
       "Muted mic active room",
       "Selective participation",
       "Direct affection",
+      "Court-summons affection",
+      "Complicated relationship banter",
       "Ordinary life",
       "Computer science",
       "Petty Crimes",
@@ -120,6 +136,8 @@ if (eosIndex >= 0) {
       "Computer science. I almost done:tableflip_lnd:",
       "i really should cut my hair too... its stupid long:dead:",
       "o chigli/gilli/chilli/to one of the most amazing persons i've met",
+      "Love me",
+      "we have a very complicated relationship",
     ]),
     claims: appendUnique(eos.claims, [
       "Across 2021-09-07, 2021-12-09, and 2022-09-05, Rich/Ricochet repeatedly cues Eos with minimal setup and she immediately co-signs the bit, supporting a recurring low-bandwidth shared-context rhythm.",
@@ -136,6 +154,8 @@ if (eosIndex >= 0) {
       "On 2021-06-14 Eos directly tags Gilli with a birthday message that calls them `one of the most amazing persons i've met`, wrapped in playful Gilli-name mutations and a wish for an amazing birthday or simply a good day.",
       "Across 2021-06-27 through 2021-06-29, Eos repeatedly chooses Marian as the direct tag/partner for tiny hug-command and retry bits, adding a cross-room recurrence to their already-established teasing relationship.",
       "Eos also supplies small ordinary-life texture in Whiskey with `i really should cut my hair too... its stupid long`; it is a Petty Crimes-sized self-description, not a health or identity inference.",
+      "On 2020-08-24 Eos repeatedly summons Samuel by name, says `I have court today`, and answers his `What have I done?` with `Love me`; this is affectionate mock-prosecution and deepens their existing joke-plus-reassurance rhythm.",
+      "On 2020-09-17 Eos and Snow explicitly frame their own banter through a nickname callback and Eos's `we have a very complicated relationship`; the surrounding joking register supports recurring adversarial-affectionate comedy, not literal fear or a formal relationship label.",
     ]),
     antiFanon: appendUnique(eos.antiFanon, [
       "Rich/Eos co-signing is comfortable shared-context comedy, not romance or a formal enforcer role.",
@@ -151,6 +171,9 @@ if (eosIndex >= 0) {
       "The 2021 computer-science line supports current study/work context and an approaching finish in Eos's own wording; it does not establish a school, exact credential, later career, or a permanent professional identity.",
       "Eos's direct birthday praise for Gilli supports strong affection and peer regard, not a ranked `best friend` claim by itself.",
       "The late-June Marian tags and chat commands support repeated playful selection of the same partner; typed hug commands are not literal physical contact, romance, or a closeness leaderboard.",
+      "Eos's `I have court today` / `Love me` exchange with Samuel is mock-prosecution inside their social register, not literal court, legal process, or proof of romance.",
+      "DiStratus calling Eos `my mommy`, and nearby `mom` language, stays joke kinship; it does not establish a biological or legal family relationship.",
+      "Eos saying she is `afraid of snow` and has a `very complicated relationship` with Snow is read inside their nickname/prosecution banter, not as a literal fear claim, romantic label, or real-world identity clue.",
     ]),
   } as ExtendedCharacter;
 
