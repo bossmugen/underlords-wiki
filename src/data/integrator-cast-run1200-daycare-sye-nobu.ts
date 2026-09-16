@@ -110,3 +110,5 @@ nobu.antiFanon = appendUnique(nobu.antiFanon, [
   "The September 2024 scene establishes a socially recognized return only. It does not establish why Nobu was absent, how long he was absent, whether he formally left the server/club/game, or any appointment/status chronology.",
   "Mugen's shorthand, pat reaction, and Sye's welcome-back language support lived familiarity; they do not by themselves establish romance, sex, literal family, or a ranked closeness tier.",
 ]);
+
+import "./integrator-cast-run1201-whiskey-wall";
