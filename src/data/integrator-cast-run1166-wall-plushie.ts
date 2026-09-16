@@ -1,3 +1,4 @@
+import "./integrator-cast-run1179-core-gabu-shiyax";
 import "./integrator-cast-run1166-wall-akariel";
 import { allCharacters, castGroups, characterById } from "./cast";
 import type { Character } from "./wiki";
