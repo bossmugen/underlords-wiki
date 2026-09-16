@@ -72,3 +72,5 @@ if (ten) {
     "`h y d r a t e` is minor language texture unless it recurs elsewhere; do not promote it into a stable habit from one line.",
   ]);
 }
+
+import "./integrator-cast-run1200-daycare-sye-nobu";
