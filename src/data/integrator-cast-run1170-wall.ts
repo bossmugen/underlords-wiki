@@ -19,11 +19,11 @@ const upsertRelationship = (
   else relationships.push(relationship);
 };
 
-// Run 1170 folds fresh intake into existing people. The point is cumulative
+// Fresh intake is folded into existing people. The point is cumulative
 // character shape, not one more receipt paragraph per screenshot.
 
 const jasIndex = allCharacters.findIndex((character) => character.id === "jas");
-if (jasIndex < 0) throw new Error("Run 1170 expected canonical Jas owner");
+if (jasIndex < 0) throw new Error("Run 1195 expected canonical Jas owner");
 {
   const jas = allCharacters[jasIndex] as ExtendedCharacter;
   const relationships = [...(jas.relationships ?? [])];
@@ -45,12 +45,13 @@ if (jasIndex < 0) throw new Error("Run 1170 expected canonical Jas owner");
   allCharacters[jasIndex] = {
     ...jas,
     logline:
-      "Former Caelum leader with an extremely selective relationship to evidence: Jas can inspect a Wall filing closely enough to concede the practical explanation and still prosecute the literal pixel dimensions, then become the man saying `I do not recall that` when Ren resurfaces an old exhibit against him.",
+      "Former Caelum leader with an extremely selective relationship to evidence: Jas can inspect a Wall filing closely enough to concede the practical explanation and still prosecute the literal pixel dimensions, then become the man saying `I do not recall that` when Ren resurfaces an old exhibit against him. Away from the courtroom bit, he also turns up in early server-tooling discussions as someone other people check with rather than somebody performing certainty from the sidelines.",
     tags: appendUnique(jas.tags, [
       "Wall",
       "Evidence literalist",
       "Archival amnesia",
       "Reciprocal heckling",
+      "Server-tooling familiarity",
       "Petty Crimes",
     ]),
     relationships,
@@ -59,6 +60,7 @@ if (jasIndex < 0) throw new Error("Run 1170 expected canonical Jas owner");
       "LMAO okok",
       "254x77px ain't 4K tho 😐",
       "I do not recall that",
+      "I think you can.",
       "Man",
       "ihyall",
     ]),
@@ -66,11 +68,13 @@ if (jasIndex < 0) throw new Error("Run 1170 expected canonical Jas owner");
       "On 2021-09-01 Gilli directly summons Jas into a Wall filing. Jas true-replies to the screenshot parent with a light-mode complaint, accepts Gilli's work-context explanation with `LMAO okok`, then reopens the joke twenty-eight seconds later by pointing out that `254x77px ain't 4K tho 😐`; Gilli true-replies to that nitpick with a mock-kick GIF.",
       "On 2022-05-10 Ren true-replies to an exact 2020 Wall parent with `@Jas (Absent father) explain`; Jas true-replies to the same historical parent with `I do not recall that`, and Ren answers `The wall does` / `The wall remembers`. The useful contradiction is evidence-literalist prosecutor versus memory-defense defendant.",
       "Jas's 2021-01-18 standalone `Man` -> `ihyall` -> exit-emote burst is retained only as Petty Crimes / voice texture because the immediate target of the micro-exit is unresolved.",
+      "Run 1195 adds an earlier operational beat: while Snow is setting up server roles, he says he has checked the role-management question with Revan and Jas and believes Officers can manage roles; Jas answers `I think you can.` The useful character read is modest but real—Jas is part of the behind-the-scenes tooling conversation and somebody Snow checks with—without pretending that one exchange dates Jas's appointment or proves his exact title that day.",
     ]),
     antiFanon: appendUnique(jas.antiFanon, [
       "The 2021 Gilli screenshot and 2020 Ren attachment remain visually uninspected here. Preserve POSTED BY attribution only; do not infer subject, MADE BY, CAPTURED BY, or FEATURING from the banter.",
       "Gilli/Jas and Ren/Jas Wall sparring supports comfortable argument-as-play, not romance, family, hostility, or an off-Wall closeness rank. `Dad` / `Absent father` remains fake-family language.",
-      "Jas's former Caelum role remains whatever is independently established elsewhere; this Wall packet does not infer appointment chronology from export-time role arrays.",
+      "Jas's former Caelum role remains whatever is independently established elsewhere; neither the Wall packet nor Run 1195's server-role-management discussion may be used to infer appointment chronology from export-time roles or one historical exchange.",
+      "The BeanKing doxx-threat exchange from the same Whiskey delta remains private/safety-sensitive and is not part of Jas's public characterization.",
     ]),
   } as ExtendedCharacter;
   characterById.set("jas", allCharacters[jasIndex]);
