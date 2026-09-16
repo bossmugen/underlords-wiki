@@ -6,49 +6,73 @@ type ExtendedCharacter = Character & {
   antiFanon?: string[];
 };
 
+type Relationship = NonNullable<Character["relationships"]>[number];
+
 const unique = <T>(items: T[]): T[] => [...new Set(items)];
 
-const supportTechIndex = allCharacters.findIndex((character) =>
-  character.id === "support-tech" ||
-  character.name.toLowerCase() === "support tech" ||
-  (character.aliases ?? []).some((alias) =>
-    ["jk031", "supporttech900", "✔️ support tech"].includes(alias.toLowerCase()),
-  ),
-);
-
-if (supportTechIndex < 0) {
-  throw new Error("Run 1228 expected the existing canonical Support Tech Cast owner; refusing to create a duplicate.");
+const deanIndex = allCharacters.findIndex((character) => character.id === "dean");
+if (deanIndex < 0) {
+  throw new Error("Run 1228 expected canonical Dean; refusing to publish Support Tech as a separate person.");
 }
 
-const supportTech = allCharacters[supportTechIndex] as ExtendedCharacter;
+const dean = allCharacters[deanIndex] as ExtendedCharacter;
+const legacySupportTech = allCharacters.find(
+  (character) => character.id === "support-tech" && character.id !== dean.id,
+) as ExtendedCharacter | undefined;
 
-const relationships = [
-  ...(supportTech.relationships ?? []).filter((relationship) => relationship.name.toLowerCase() !== "mugen"),
-  {
-    name: "Mugen",
-    note:
-      "Support Tech gets comfortable enough with the Wall to summon Mugen directly after filing a screenshot, ask `Don't you agree mum` in the middle of a pizza-man bit, absorb Mugen's `Try again next year bb` without losing the thread, and later return to Wall by tagging Mugen before posting media. Mugen answers that later return with `Look who's baaaack`. The lane is easy summons, joke-family shorthand, and recognized familiarity—not literal family or hierarchy.",
-    href: "/characters/mugen",
-  },
+const upsertRelationship = (
+  relationships: Relationship[],
+  next: Relationship,
+): Relationship[] => {
+  const index = relationships.findIndex(
+    (relationship) => relationship.name.toLowerCase() === next.name.toLowerCase(),
+  );
+  if (index >= 0) relationships[index] = next;
+  else relationships.push(next);
+  return relationships;
+};
+
+const relationships: Relationship[] = [
+  ...(dean.relationships ?? []),
+  ...(legacySupportTech?.relationships ?? []),
 ];
 
-allCharacters[supportTechIndex] = {
-  ...supportTech,
-  aliases: unique([...(supportTech.aliases ?? []), "supporttech900", "✔️ Support Tech"]),
+upsertRelationship(relationships, {
+  name: "Mugen",
+  note:
+    "Dean's Support Tech-era Wall banter with Mugen is extremely low-friction: Dean can file a screenshot, summon Mugen seconds later, ask `Don't you agree mum` in the middle of a pizza-man bit, take Mugen's `Try again next year bb` without dropping the joke, then return much later by tagging Mugen before posting media. Mugen answers that return with `Look who's baaaack`. The `mum` language is part of the room's joke-family shorthand; the useful relationship signal here is recognition, direct summons, and easy banter.",
+  href: "/characters/mugen",
+});
+
+const migratedLegacyClaims = legacySupportTech?.claims ?? [];
+const migratedLegacyAntiFanon = legacySupportTech?.antiFanon ?? [];
+
+const nextDean: ExtendedCharacter = {
+  ...dean,
+  aliases: unique([
+    ...(dean.aliases ?? []),
+    "Support Tech",
+    "✔️ Support Tech",
+    "supporttech900",
+    ...(legacySupportTech?.aliases ?? []),
+  ]),
   logline:
-    "Support Tech learns Screenshot Court alarmingly fast. They start by literally asking whether Wall is where people get exposed, delight in the answer, complain theatrically once the receipts point back at them, then start filing their own screenshots and summoning Mugen. By a later return, nobody needs to explain the room again; Support Tech walks straight back in speaking fluent Wall.",
+    "Dean's Support Tech era turns an official-sounding display name into camouflage for somebody who learns Screenshot Court almost immediately. Dean starts by asking whether this is where people get exposed, celebrates when the answer is yes, protests theatrically once the receipts point back, starts filing screenshots and summoning Mugen, and later walks back into Wall already speaking the room's language.",
   tags: unique([
-    ...(supportTech.tags ?? []),
+    ...(dean.tags ?? []),
+    ...(legacySupportTech?.tags ?? []),
+    "Wall",
     "Fast socialization",
     "Theatrical defendant",
     "Receipt filer",
     "Direct summons",
-    "Mugen familiarity",
+    "Recognized return",
     "Petty Crimes",
   ]),
   relationships,
   quotes: unique([
-    ...(supportTech.quotes ?? []),
+    ...(dean.quotes ?? []),
+    ...(legacySupportTech?.quotes ?? []),
     "Is this where you expose Peopl",
     "Ehehehhehe",
     "Me UH gOt EXpOsE WEE",
@@ -58,20 +82,31 @@ allCharacters[supportTechIndex] = {
     "Feed me Soba",
   ]),
   claims: unique([
-    ...(supportTech.claims ?? []),
-    "Support Tech's surviving Wall chronology moves from asking what the exposure channel is for on 2021-03-23 to openly celebrating being exposed on 2021-04-23. The useful read is rapid socialization into the room's joke, not an origin date for their UL membership or Discord habits.",
-    "On 2021-06-03, after Ren posts an attachment and tags Support Tech, Support Tech answers `WhY U expOse Me`. By 2021-06-26 Support Tech is on the filing side too: they post a screenshot and directly summon Mugen 4.924 seconds later. The mock complaint and the filing behavior belong to the same participatory Wall persona.",
-    "The June 2021 pizza-man / `mum` exchange gives Support Tech and Mugen a compact easy-banter lane: Support Tech solicits Mugen into the joke, Mugen mock-rejects them with `Try again next year bb`, and Support Tech keeps the bit alive. The family wording is social shorthand only.",
-    "After a long gap in the surviving Support-Tech-authored Wall footprint, their first surviving authored return in March 2023 begins with a direct Mugen summon and then media; Mugen answers `Look who's baaaack`. That supports recognized return and retained room fluency, not proof that Support Tech had been absent from UL itself.",
+    ...(dean.claims ?? []),
+    ...migratedLegacyClaims,
+    "Under the Support Tech display name, Dean's surviving Wall chronology moves from asking what the exposure channel is for on 2021-03-23 to openly celebrating being exposed on 2021-04-23. It reads as rapid socialization into the room's joke, not an origin date for Dean's UL membership or Discord habits.",
+    "On 2021-06-03, after Ren posts an attachment and tags Dean under the Support Tech display name, Dean answers `WhY U expOse Me`. By 2021-06-26 Dean is on the filing side too: a screenshot is posted from the same Support Tech account and Mugen is summoned 4.924 seconds later. The mock complaint and the filing behavior belong to the same participatory Wall persona.",
+    "The June 2021 pizza-man / `mum` exchange gives Dean and Mugen a compact easy-banter lane: Dean pulls Mugen into the joke, Mugen answers `Try again next year bb`, and the conversation keeps moving. The family wording is social shorthand inside the scene.",
+    "After a long gap in the surviving Support-Tech-authored Wall footprint, the account's first surviving authored return in March 2023 begins with a direct Mugen summon and then media; Mugen answers `Look who's baaaack`. That supports recognized return and retained room fluency, not proof that Dean had been absent from UL itself.",
   ]),
   antiFanon: unique([
-    ...(supportTech.antiFanon ?? []),
-    "The same stable Support Tech account appears under `supporttech900`; do not split this into a second Support Tech profile. The display label remains a name, not a formal technical/support/governance role.",
-    "`mum`, `sis`, and related family-tree wording are joke-family language only. Do not literalize them into biological/adoptive family, hierarchy, governance, or romance.",
-    "Ren's `he crashing` line is scene wording and does not establish health, intoxication, impairment, gender canon, or any private state for Support Tech.",
-    "Support Tech's June 2021 and March 2023 screenshots remain POSTED BY Support Tech only unless separate object-level evidence establishes MADE BY, CAPTURED BY, FEATURING, or exact subject.",
-    "The long surviving Wall-authorship gap before the March 2023 return is not proof of absence from UL, departure, rejoin, or any role chronology.",
+    ...(dean.antiFanon ?? []),
+    ...migratedLegacyAntiFanon,
+    "Hard canon resolves Support Tech as Dean. Do not create or preserve a separate Support Tech person from the display name, `✔️ Support Tech`, or `supporttech900` account trail.",
+    "`mum`, `sis`, and related family-tree wording in these Wall pockets are joke-family language. Do not derive biological/adoptive kinship, hierarchy, governance, or romance from those words alone.",
+    "Ren's `he crashing` line is scene wording and does not establish health, intoxication, impairment, gender canon, or another private state for Dean.",
+    "The June 2021 and March 2023 screenshots are POSTED BY the Support Tech account only unless separate object-level evidence establishes MADE BY, CAPTURED BY, FEATURING, or exact subject.",
+    "The long surviving Wall-authorship gap before March 2023 is not proof of absence from UL, departure, rejoin, or any role chronology.",
   ]),
-} as ExtendedCharacter;
+};
 
-characterById.set(allCharacters[supportTechIndex].id, allCharacters[supportTechIndex]);
+const withoutDuplicate = allCharacters.filter((character) => character.id !== "support-tech");
+const nextDeanIndex = withoutDuplicate.findIndex((character) => character.id === "dean");
+if (nextDeanIndex < 0) {
+  throw new Error("Run 1228 lost canonical Dean while removing the obsolete Support Tech duplicate.");
+}
+withoutDuplicate[nextDeanIndex] = nextDean;
+allCharacters.splice(0, allCharacters.length, ...withoutDuplicate);
+
+characterById.delete("support-tech");
+characterById.set(nextDean.id, nextDean);
