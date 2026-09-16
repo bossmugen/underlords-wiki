@@ -142,3 +142,4 @@ allCharacters[ricochetIndex] = {
 characterById.set("ricochet", allCharacters[ricochetIndex]);
 
 // Run 1197 reader activation is intentionally chained from the existing Run 1192 intake module.
+import "./integrator-cast-run1198-wall";
