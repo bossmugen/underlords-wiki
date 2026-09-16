@@ -177,6 +177,7 @@ import "./integrator-cast-run1164-core-snow";
 import "./integrator-cast-run1166-wall-plushie";
 import "./integrator-cast-run1170-wall";
 import "./integrator-cast-run1184-wall-lilly";
+import "./integrator-cast-run1192-daycare-wall";
 
 type LooseRecord = Record<string, unknown>;
 type Gag = { id: string; name: string; logline: string };
@@ -222,34 +223,5 @@ const isGag = (value: unknown): value is Gag => {
   return Boolean(typeof gag.id === "string" && typeof gag.name === "string" && typeof gag.logline === "string");
 };
 
-const dedupeById = <T extends { id: string }>(items: T[]): T[] => {
-  const index = new Map<string, T>();
-  for (const item of items) index.set(item.id, item);
-  return [...index.values()];
-};
-
-export const allEpisodes = dedupeById([
-  ...coreEpisodes,
-  ...arraysFrom(episodeModules, isEpisode),
-]);
-
-export const allGags = dedupeById([
-  ...coreGags,
-  ...arraysFrom(gagModules, isGag),
-  ...run661Gags,
-]).map((gag) =>
-  gag.id === "spelling-crimes"
-    ? {
-        ...gag,
-        name: "UL Types Too Fast",
-        logline:
-          "Letters transpose, words disappear, sentences collide, autocorrect makes executive decisions, and the room understands anyway. The signature is typing velocity—not an inability to spell.",
-      }
-    : gag,
-);
-
-export const episodeFormat = (episode: Episode): "EPISODE" | "INCIDENT" =>
-  /arc|episode|season|special|running|reunion|chronology/i.test(episode.kind) ? "EPISODE" : "INCIDENT";
-
-export const episodesBySeason = (season: string): Episode[] =>
-  allEpisodes.filter((episode) => episode.season === season);
+export const episodes: Episode[] = [...coreEpisodes, ...arraysFrom(episodeModules, isEpisode)];
+export const gags: Gag[] = [...coreGags, ...run661Gags, ...arraysFrom(gagModules, isGag)];
