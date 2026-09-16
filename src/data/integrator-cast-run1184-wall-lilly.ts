@@ -1,4 +1,5 @@
 import "./integrator-cast-run1185-intake";
+import "./integrator-cast-run1189-birthdays-core-wall";
 import { allCharacters, characterById } from "./cast";
 import type { Character } from "./wiki";
 
