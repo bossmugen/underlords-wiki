@@ -140,3 +140,5 @@ allCharacters[ricochetIndex] = {
   relationships: ricochetRelationships,
 } as ExtendedCharacter;
 characterById.set("ricochet", allCharacters[ricochetIndex]);
+
+// Run 1197 reader activation is intentionally chained from the existing Run 1192 intake module.
