@@ -2,6 +2,7 @@ import { allCharacters, characterById } from "./cast";
 import type { Character } from "./wiki";
 import "./integrator-cast-run1195-wall-ghostt";
 import "./integrator-cast-run1197-daycare-wall";
+import "./integrator-cast-run1203-core-ansun";
 
 type ExtendedCharacter = Character & {
   claims?: string[];
