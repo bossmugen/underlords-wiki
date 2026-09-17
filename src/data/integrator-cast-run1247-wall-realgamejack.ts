@@ -29,64 +29,99 @@ const upsertRelationship = (
 
 // Run 1247 banked RealGameJack after one tiny social axis. The Run 1248 Wall
 // tail supplies a materially different second axis: Jack actively recruits Mugen
-// to file his own material and keeps pushing the filing through. That is enough
-// breadth for a compact structured WIKI owner without pretending it is a rich
-// MAIN biography.
+// to file his own material and keeps pushing the filing through. A committed
+// dossier may already have promoted Jack before this overlay executes, so deepen
+// that canonical owner when present and only create the compact fallback when it
+// truly does not exist.
 const jackId = "realgamejack";
-if (allCharacters.some((character) => character.id === jackId)) {
-  throw new Error("Run 1248 found an unexpected RealGameJack owner; refusing to duplicate it.");
-}
+const jackIndex = allCharacters.findIndex((character) => character.id === jackId);
 
-const jack: ExtendedCharacter = {
-  id: jackId,
-  name: "RealGameJack",
-  billing: "legacy",
-  role: "Archive-era Wall cast",
-  era: "2022",
-  logline:
-    "Sparse with words but not shy about steering the bit: Jack can remember one friend's anime taste, recruit Mugen to post his own material, and then keep asking why the filing has not happened yet.",
-  tags: [
-    "Archive cast",
-    "2022",
-    "Wall",
-    "Self-filing",
-    "Media-first",
-    "Anime",
-    "Petty Crimes",
-  ],
-  relationships: [
-    {
-      name: "Daya",
-      note:
-        "Jack posts a Frederica / Eighty-Six reaction GIF; Daya directly replies `luv this anime`; less than a minute later Jack says `I knew you did`. The exchange is tiny but specific: Jack appears to have remembered or expected this one Daya preference. It is familiarity, not a closeness ranking.",
-      href: "/characters/daya",
-    },
-    {
-      name: "Mugen",
-      note:
-        "Jack treats Mugen like somebody who already understands the Wall filing desk. He asks `Mugen couple you post smth for me`, gets `Got you`, supplies the image, then follows with `post it`, `Why not`, and `I don't care post it`. Ten days later he can greet another Mugen filing with `Probably the best post on the hall of shame`. The useful read is comfort with the ritual, not governance or friendship rank.",
-    },
-  ],
-  quotes: [
-    "I knew you did",
-    "post it",
-    "I don't care post it",
-    "Probably the best post on the hall of shame",
-  ],
-  claims: [
-    "Jack's surviving Wall presence now has two different social modes instead of one thin media footprint. He can use reaction media as most of the sentence and still become oddly specific when another person's taste is involved.",
-    "On January 9-10, 2022, Jack actively self-files: he asks Mugen to post something for him, posts the image himself after Mugen agrees, then keeps escalating the request with `post it`, `Why not`, and `I don't care post it`. The joke is not embarrassment happening to him; he is trying to get the paperwork processed.",
-    "On January 19, after Mugen posts another image, Jack calls it `Probably the best post on the hall of shame`. He is not merely a Wall defendant. He is an enthusiastic consumer of the institution and, when necessary, his own filing clerk.",
-  ],
-  antiFanon: [
-    "The screenshots in Jack's self-filing packet were not visually inspected. The public character read comes from Jack's authored request/escalation and Mugen's authored response; do not infer screenshot subject, maker, capturer, or featured people from adjacency.",
-    "Daya's `luv this anime` is a direct reply to Jack's Eighty-Six/Frederica post. Jack's later `I knew you did` is contextual rather than a structured reply edge, so keep the remembered-taste read proportionate.",
-    "Jack asking Mugen to post material shows familiarity with the Wall ritual. It does not establish staff authority, formal role hierarchy, romance, family, or a closeness rank.",
-  ],
+const jackDayaRelationship = {
+  name: "Daya",
+  note:
+    "Jack posts a Frederica / Eighty-Six reaction GIF; Daya directly replies `luv this anime`; less than a minute later Jack says `I knew you did`. The exchange is tiny but specific: Jack appears to have remembered or expected this one Daya preference. It is familiarity, not a closeness ranking.",
+  href: "/characters/daya",
 };
 
-allCharacters.push(jack);
-characterById.set(jackId, jack);
+const jackMugenRelationship = {
+  name: "Mugen",
+  note:
+    "Jack treats Mugen like somebody who already understands the Wall filing desk. He asks `Mugen couple you post smth for me`, gets `Got you`, supplies the image, then follows with `post it`, `Why not`, and `I don't care post it`. Ten days later he can greet another Mugen filing with `Probably the best post on the hall of shame`. The useful read is comfort with the ritual, not governance or friendship rank.",
+};
+
+const jackClaims = [
+  "Jack's surviving Wall presence now has two different social modes instead of one thin media footprint. He can use reaction media as most of the sentence and still become oddly specific when another person's taste is involved.",
+  "On January 9-10, 2022, Jack actively self-files: he asks Mugen to post something for him, posts the image himself after Mugen agrees, then keeps escalating the request with `post it`, `Why not`, and `I don't care post it`. The joke is not embarrassment happening to him; he is trying to get the paperwork processed.",
+  "On January 19, after Mugen posts another image, Jack calls it `Probably the best post on the hall of shame`. He is not merely a Wall defendant. He is an enthusiastic consumer of the institution and, when necessary, his own filing clerk.",
+];
+
+const jackAntiFanon = [
+  "The screenshots in Jack's self-filing packet were not visually inspected. The public character read comes from Jack's authored request/escalation and Mugen's authored response; do not infer screenshot subject, maker, capturer, or featured people from adjacency.",
+  "Daya's `luv this anime` is a direct reply to Jack's Eighty-Six/Frederica post. Jack's later `I knew you did` is contextual rather than a structured reply edge, so keep the remembered-taste read proportionate.",
+  "Jack asking Mugen to post material shows familiarity with the Wall ritual. It does not establish staff authority, formal role hierarchy, romance, family, or a closeness rank.",
+];
+
+if (jackIndex >= 0) {
+  const currentJack = allCharacters[jackIndex] as ExtendedCharacter;
+  const relationships = [...(currentJack.relationships ?? [])];
+  upsertRelationship(relationships, jackDayaRelationship);
+  upsertRelationship(relationships, jackMugenRelationship);
+
+  allCharacters[jackIndex] = {
+    ...currentJack,
+    tags: unique([
+      ...(currentJack.tags ?? []),
+      "Wall",
+      "Self-filing",
+      "Media-first",
+      "Anime",
+      "Petty Crimes",
+    ]),
+    relationships,
+    quotes: unique([
+      ...(currentJack.quotes ?? []),
+      "I knew you did",
+      "post it",
+      "I don't care post it",
+      "Probably the best post on the hall of shame",
+    ]),
+    claims: unique([...(currentJack.claims ?? []), ...jackClaims]),
+    antiFanon: unique([...(currentJack.antiFanon ?? []), ...jackAntiFanon]),
+  } as ExtendedCharacter;
+
+  characterById.set(jackId, allCharacters[jackIndex]);
+} else {
+  const jack: ExtendedCharacter = {
+    id: jackId,
+    name: "RealGameJack",
+    billing: "legacy",
+    role: "Archive-era Wall cast",
+    era: "2022",
+    logline:
+      "Sparse with words but not shy about steering the bit: Jack can remember one friend's anime taste, recruit Mugen to post his own material, and then keep asking why the filing has not happened yet.",
+    tags: [
+      "Archive cast",
+      "2022",
+      "Wall",
+      "Self-filing",
+      "Media-first",
+      "Anime",
+      "Petty Crimes",
+    ],
+    relationships: [jackDayaRelationship, jackMugenRelationship],
+    quotes: [
+      "I knew you did",
+      "post it",
+      "I don't care post it",
+      "Probably the best post on the hall of shame",
+    ],
+    claims: jackClaims,
+    antiFanon: jackAntiFanon,
+  };
+
+  allCharacters.push(jack);
+  characterById.set(jackId, jack);
+}
 
 const archiveCastGroup = castGroups.find((group) => group.id === "archive-cast");
 if (archiveCastGroup && !archiveCastGroup.characterIds.includes(jackId)) {
