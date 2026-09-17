@@ -1,10 +1,10 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-17 — Run 1279 close_
+_Last updated: 2026-09-17 — Run 1280 close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
 
-## Current close — Run 1279
+## Current close — Run 1280
 
 The mandatory full miner census closed at **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 pending review, 0 backlog, and 0 overdue branches**.
 
