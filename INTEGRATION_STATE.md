@@ -1,10 +1,10 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-17 — Run 1274 close_
+_Last updated: 2026-09-17 — Run 1275 close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
 
-## Current close — Run 1274
+## Current close — Run 1275
 
 The mandatory full miner census found **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 pending review, 0 backlog, and 0 overdue**. Every active miner ref still matched its durable consumed frontier, so there was no advanced/unconsumed intake delta to review this run. Both Club-Only recovery-priority lanes remain current.
 
@@ -20,7 +20,7 @@ The controlling MAIN ledger has **5 `pending_publication` families**. They are o
 - Consumed SHA advances: **0**.
 - Intentionally one-surface publication: **none**.
 
-Reader bytes did not change on either public surface. MAIN source verification / Astro build / built-output verification / deployment and WIKI Astro/Pages build/deployment were therefore **not run**, and no deployment success is claimed for Run 1274.
+Reader bytes did not change on either public surface. MAIN source verification / Astro build / built-output verification / deployment and WIKI Astro/Pages build/deployment were therefore **not run**, and no deployment success is claimed for Run 1275.
 
 ## Recovery / consumption state
 
