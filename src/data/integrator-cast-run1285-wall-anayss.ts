@@ -1,3 +1,4 @@
+import "./integrator-identity-repair-run1285-akariel-zyrcant";
 import { allCharacters, characterById } from "./cast";
 import type { Character } from "./wiki";
 
