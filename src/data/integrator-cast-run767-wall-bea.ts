@@ -29,23 +29,33 @@ if (beaIndex < 0) throw new Error("Run 767 expected canonical BeaEder owner `bea
   allCharacters[beaIndex] = {
     ...bea,
     logline:
-      "Wall receipt scavenger with the dangerous ability to recover from becoming the receipt: Bea can dig an old `gem` out of her phone, short-circuit at `I-` when HamitteY catches her, count two Wall hits by morning, decide `At least it was just those two`, and then keep volunteering for the next ridiculous premise anyway.",
-    tags: appendUnique(bea.tags, ["Low-shame defendant", "Damage counting", "Petty Crimes"]),
+      "Wall phone archaeologist with the dangerous ability to preserve everybody's past and then get ambushed by her own: Bea can dig an old `gem` out of her camera roll, realize she forgot telling people to rub their booties on her, short-circuit at `I-` when HamitteY files her, count the damage by morning, and keep participating anyway.",
+    tags: appendUnique(bea.tags, [
+      "Phone archaeology",
+      "Selective memory",
+      "Low-shame defendant",
+      "Damage counting",
+      "Petty Crimes",
+    ]),
     relationships,
     quotes: appendUnique(bea.quotes, [
+      "Found this gem going thru my phone",
+      "I forgot I told people to rub their booties on me",
       "I-",
       "Dem",
       "Oh god two in one night",
       "At least it was just those two",
     ]),
     claims: appendUnique(bea.claims, [
+      "Bea's Wall instinct works in both directions. She explicitly resurfaces old material with `Found this gem going thru my phone`, yet in a separate July 2021 scene she reacts `Oh god` and then admits `I forgot I told people to rub their booties on me`. The recurring contradiction is useful character texture: she is good at keeping old nonsense alive without necessarily remembering her own part in it.",
       "On 2021-08-24 HamitteY directly tagged BeaEder with a Wall screenshot and `:Hehe:`; Bea answered `I-` after 41 seconds and `Dem` seven seconds later. The next morning Bea said `Oh god two in one night`, then `At least it was just those two` eleven seconds later.",
-      "Beside Bea's existing receipt-scavenger behavior—`Found this gem going thru my phone`—the defendant sequence supports a recurring contradiction: she can preserve somebody else's embarrassment, get caught herself, register the hit, and keep participating rather than abandoning the Wall bit.",
+      "Across the phone-scavenger, self-forgetting, and HamitteY-filing scenes, Bea reads less like a dedicated prosecutor than a willing participant in the same receipt economy that can turn around and prosecute her. She can preserve the past, rediscover herself inside it, register the hit, and keep the bit moving.",
     ]),
     antiFanon: appendUnique(bea.antiFanon, [
       "Bea's quick recovery inside these Wall scenes does not mean she lacks boundaries or enjoys every exposure; it is a bounded social-comedy pattern.",
       "The HamitteY screenshot and other Bea-posted media in this packet were not visually inspected. POSTED BY remains distinct from MADE BY / CAPTURED BY / FEATURING.",
       "The `underground underlord stripclub`, `rub their booties on me`, and related lines are joke texture only; do not literalize them into sex work, sexual behavior, a physical venue, or romance.",
+      "Bea's `I forgot...` line establishes her own recollection about an old joke, not the identities of the unspecified `people`, the circumstances of the original exchange, or a broader memory trait outside this bounded Wall pattern.",
     ]),
   } as ExtendedCharacter;
 
