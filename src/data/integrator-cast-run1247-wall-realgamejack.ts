@@ -1,6 +1,7 @@
 import { allCharacters, castGroups, characterById } from "./cast";
 import type { Character } from "./wiki";
 import "./integrator-cast-run1253-daycare-whiskey-wall";
+import "./integrator-cast-run1256-daycare-whiskey";
 
 type ExtendedCharacter = Character & {
   claims?: string[];
