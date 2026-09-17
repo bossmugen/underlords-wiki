@@ -22,6 +22,7 @@
 
 - **Daycare / Booba:** exact quiet-setup/high-impact receipt-dropper scene already materially owned by canonical Booba; consumed as duplicate/corroboration.
 - **Louvre-family / Jas:** strong inherited Jas scenes traced to Wall/Lobby rather than assigned Louvre recurrence; source-custody repair only.
+- **Joy:** tiny Wall footprint supports a bounded reaction-first archive-browser/context-chaser read — mostly emotes plus prose about decoding an old Snow/Wattpad reference and browsing the Wall when bored — but it is still too thin for a forced canonical dossier. No Wattpad preference or Snow relationship is inferred.
 
 ## Holds
 
