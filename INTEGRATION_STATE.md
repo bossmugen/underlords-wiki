@@ -1,14 +1,14 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-17 — Run 1280 close_
+_Last updated: 2026-09-17 — Run 1281 close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
 
-## Current close — Run 1280
+## Current close — Run 1281
 
 The mandatory full miner census closed at **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 pending review, 0 backlog, and 0 overdue branches**.
 
-No active miner branch advanced beyond its durable `last_consumed_sha`. There was therefore no legitimate intake delta to reread, no additional pending/advanced branch for anti-starvation rotation, and no consumed cursor to advance. Closing spot checks kept the recently active longitudinal lanes at their already-consumed heads: Daycare `df5b9ab4f48a3c919fb2bfc5a432f86dd4af69fe`, Louvre/AI Art/Athenaeum/Other Games `ce01a3dfe8dfa1f04534d2c301bee76a6ab8dda0`, Whiskey `ff6559e239147e84b8258f30f61f15522ac777c4`, and Wall `e0d26c703c81dc1d4fd1f94a4442a991dd777a97`.
+No active miner branch advanced beyond its durable `last_consumed_sha`. There was therefore no legitimate intake delta to reread, no additional pending/advanced branch for anti-starvation rotation, and no consumed cursor to advance. A closing recensus found no late miner movement. Recently active longitudinal lanes remain at their already-consumed heads: Daycare `df5b9ab4f48a3c919fb2bfc5a432f86dd4af69fe`, Louvre/AI Art/Athenaeum/Other Games `ce01a3dfe8dfa1f04534d2c301bee76a6ab8dda0`, Whiskey `ff6559e239147e84b8258f30f61f15522ac777c4`, and Wall `e0d26c703c81dc1d4fd1f94a4442a991dd777a97`.
 
 Both Club-Only recovery-priority lanes remain current. The controlling MAIN ledger has **5 `pending_publication` families**, all older reviewed MAIN person-first resynthesis debt rather than unread mining.
 
