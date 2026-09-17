@@ -17,7 +17,16 @@ const rummy = allCharacters[rummyIndex] as ExtendedCharacter;
 
 allCharacters[rummyIndex] = {
   ...rummy,
-  tags: unique([...(rummy.tags ?? []), "Wall defendant", "Context lawyer", "Light mode", "Petty Crimes"]),
+  aliases: unique([...(rummy.aliases ?? []), "phenomenal_lamb"]),
+  tags: unique([
+    ...(rummy.tags ?? []),
+    "Wall defendant",
+    "Context lawyer",
+    "Light mode",
+    "Sniper service",
+    "Fast fingers",
+    "Petty Crimes",
+  ]),
   quotes: unique([
     ...(rummy.quotes ?? []),
     "**l i g h t**",
@@ -34,6 +43,8 @@ allCharacters[rummyIndex] = {
     "Two tiny Petty Crimes survive the larger Wall pattern especially well: Rummy uses light mode more than once even after Rich tells her to put it back in dark mode, and Torr's wonderfully specific verdict is that `the only thing rummy guilty of is the overuse of the semi colon`.",
     "A 2022 screenshot thread gives the pancake version of the same public-defense instinct: Rummy insists `IT A PANCAKEEEE` while the room escalates through burnt, blackened and charcoal commentary. The funny part is Rummy defending the pictured object; the archive does not establish that she cooked it.",
     "A separate `rummy U STINK` / `stinky rummy?` / `stink off` chain is a tiny room reputation gag, not literal hygiene commentary.",
+    "Under the confirmed phenomenal_lamb identity, Rummy is publicly welcomed as one of that week's `@Snipers` on 2022-11-10 and named again among the `Snipers of the Week` on 2022-12-12, when Mugen thanks the Snipers on call for their service. Repetition makes this lived participation in the recurring service lane rather than a static-role artifact.",
+    "The same phenomenal_lamb identity appears in Mugen's 2023-03-31 anniversary closeout with `x2` under the separate `Nitro Snipers` / `fast fingers` category. That is a bounded speed-event reputation layered onto Rummy's service history, not a renamed continuation of the weekly Sniper system.",
   ]),
   antiFanon: unique([
     ...(rummy.antiFanon ?? []),
@@ -42,6 +53,9 @@ allCharacters[rummyIndex] = {
     "Uninspected screenshot pixels remain uninspected; the dossier preserves what participants said and how Rummy answered without reconstructing unseen media.",
     "The pancake receipt does not establish that Rummy made, cooked, captured, or posted the pictured pancake; only her defense of the pictured object and the room's response are used publicly.",
     "The stinky-Rummy chain is a recurring joke and must not be converted into a hygiene claim.",
+    "phenomenal_lamb is Rummy. Never create a separate phenomenal_lamb person or profile from the 2022–2023 Sniper acknowledgments.",
+    "Weekly `Snipers` / `Snipers of the Week` and anniversary `Nitro Snipers` are distinct systems. Do not merge them into one role chronology or infer appointment date, first service date, exclusivity, or continuous activity.",
+    "The `x2` in the 2023 anniversary post is preserved as written and does not establish two specific wins without the underlying giveaway receipts. Mugen authored the recognition posts; their wording is not Rummy-authored dialogue.",
   ]),
 } as ExtendedCharacter;
 characterById.set("rummy", allCharacters[rummyIndex]);
