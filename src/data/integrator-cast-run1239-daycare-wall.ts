@@ -98,3 +98,29 @@ allCharacters[woohyukIndex] = {
   ]),
 } as ExtendedCharacter;
 characterById.set("woohyuk", allCharacters[woohyukIndex]);
+
+const yochanIndex = allCharacters.findIndex((character) => character.id === "yochan");
+if (yochanIndex < 0) throw new Error("Run 1239 expected canonical YoChan owner");
+const yochan = allCharacters[yochanIndex] as ExtendedCharacter;
+allCharacters[yochanIndex] = {
+  ...yochan,
+  logline:
+    "YoChan's Wall minimalism hides an excellent competence-to-catastrophe streak: he can volunteer his own material with `pls post that one Chief`, ask the room how to set up a macro, thank everybody, announce that it works, and wake up to Jeff observing that he apparently did it wrong anyway. The willingness to ask, try, and self-file survives the failure just fine.",
+  tags: appendUnique(yochan.tags, ["Self-filing", "Asks for the manual", "Competence-to-catastrophe", "Petty Crimes"]),
+  quotes: appendUnique(yochan.quotes, [
+    "pls post that one Chief",
+    "how to set up macro",
+    "ok thanks guys",
+    "PezOut",
+  ]),
+  claims: appendUnique(yochan.claims, [
+    "YoChan posts an attachment, edits the message, then about 4.4 seconds later asks `pls post that one Chief`, making the self-filing intent explicit without establishing anything about the uninspected pixels.",
+    "In a separate macro pocket, YoChan asks `how to set up macro`, thanks the room, reports success, then gets roasted the following morning for apparently doing it wrong. The useful character read is follow-through plus comic execution failure, not technical incompetence as a general trait.",
+  ]),
+  antiFanon: appendUnique(yochan.antiFanon, [
+    "`Chief` is direct-address/joke language here, not evidence of a formal rank or governance role.",
+    "YoChan's posted attachment remains POSTED BY YoChan only unless separate evidence establishes maker, capturer, subject, or exact contents.",
+    "One failed macro setup is a comic ordinary-life beat, not a stable claim that YoChan is bad with technology.",
+  ]),
+} as ExtendedCharacter;
+characterById.set("yochan", allCharacters[yochanIndex]);
