@@ -41,20 +41,28 @@ upsertRelationship(
 allCharacters[dyingFoxIndex] = {
   ...dyingFox,
   logline:
-    "Dry enough to make tiny sentences carry the whole joke, affectionate enough to keep greeting and nickname rituals alive, and apparently familiar enough with her people that `Faye put go to rehab in my status for a night` can be delivered like routine household weather: DyingFox's low-word style keeps hiding how much social continuity is packed into it.",
-  tags: appendUnique(dyingFox.tags, ["Low-key affection", "Recurring nicknames", "Faye", "Petty Crimes"]),
+    "Dry enough to make tiny sentences carry the whole joke, affectionate enough to keep greeting and nickname rituals alive, and economical even when she is being warm: DyingFox's short replies are social style, not social distance. Lilly gets a clean `Love you too`; Jordayy learns snacks are apparently acceptable hiding-place paperwork; Queen Elsa sends a feed command and gets a hug back. The grumble and the affection both run on very few words.",
+  tags: appendUnique(dyingFox.tags, ["Low-key affection", "Recurring nicknames", "Faye", "Petty Crimes", "Compact reciprocity", "Low-word social style"]),
   relationships: foxRelationships,
   quotes: appendUnique(dyingFox.quotes, [
     "faye put ‘go to rehab’ in my status for a night",
     "Lilly calls me baby fox sometimes",
+    "Did you bring snacks",
+    "Then yes",
+    "W/hug @Queen Elsa",
   ]),
   claims: appendUnique(dyingFox.claims, [
     "DyingFox later says Faye changed her status to `go to rehab` for one night; the bounded read is casual prank-access/familiarity, not authority over Fox's account or identity.",
     "DyingFox says Lilly sometimes calls her `baby fox`, extending the already-public Lilly greeting/affection lane with a recurring nickname.",
+    "Across separate Daycare/Club pockets, DyingFox often answers direct affection or play in the same emotional register with very little verbal overhead: Lilly's `FOX I LOVE YOU` gets `Love you too`, Jordayy's request to hide in Daycare gets a joking snack condition and then `Then yes`, and Queen Elsa's `w/feed` gets `W/hug` back.",
+    "The Jordayy snack exchange is playful social logic, not evidence that DyingFox formally admitted or governed Daycare membership.",
+    "The Queen Elsa command exchange supports one compact reciprocal-play beat only; the human-authored command strings are the usable dialogue, not any bot-generated action prose.",
   ]),
   antiFanon: appendUnique(dyingFox.antiFanon, [
     "Faye's one-night status prank supports familiarity only. Do not turn it into account-control, coercion, romance, biological family, or a formal role.",
     "`baby fox` is affectionate nickname language. It does not establish romance, kinship, or a formal relationship category.",
+    "DyingFox's short message style should not be read as low engagement or emotional distance when the surrounding exchange shows direct reciprocity.",
+    "Do not turn the Jordayy snack joke into a formal admission role, or the single Queen Elsa feed/hug exchange into a ranked or formal relationship category.",
   ]),
 } as ExtendedCharacter;
 characterById.set("dyingfox", allCharacters[dyingFoxIndex]);
