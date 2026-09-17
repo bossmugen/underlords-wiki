@@ -180,6 +180,7 @@ import "./integrator-cast-run1184-wall-lilly";
 import "./integrator-cast-run1192-daycare-wall";
 import "./integrator-cast-run1228-wall-support-tech";
 import "./integrator-cast-run1239-daycare-wall";
+import "./integrator-cast-run1247-wall-realgamejack";
 
 type LooseRecord = Record<string, unknown>;
 type Gag = { id: string; name: string; logline: string };
