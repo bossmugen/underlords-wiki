@@ -1,4 +1,5 @@
 import "./integrator-cast-run1273-wall-torr-hamittey";
+import "./integrator-cast-run1276-wall-panda";
 import { allCharacters, characterById } from "./cast";
 import type { Character } from "./wiki";
 
