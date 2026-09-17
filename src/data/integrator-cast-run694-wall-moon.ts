@@ -7,8 +7,8 @@ type ExtendedCharacter = Character & {
 };
 
 // MAIN canon owns the public identity: Moon is the canonical display name and
-// UL Night Shift Barista is the locked specialist title. The Wall handoff adds
-// character texture to that one existing person; it does not create Moon II.
+// UL Night Shift Barista is the locked specialist title. The Wall/Daycare-adjacent
+// handoffs add character texture to that one existing person; they do not create Moon II.
 const moonId = "moon";
 const moonIndex = allCharacters.findIndex(
   (character) =>
@@ -29,6 +29,9 @@ const moonRelationshipRummy = {
 
 const moonQuotes = [
   "I am a moon,so i see all",
+  "Just being a bystander, duhh",
+  "Leave me be ,so I can eat my fruit pebbles cereal:(",
+  "Ily~♡",
   "I want to say it,but I feel like its too mean",
   "This moment will always be engraved in my single brain cell",
   "TIME FOR VACINATION FOR RUMFECTION AND GILLFECTION",
@@ -39,6 +42,7 @@ const moonQuotes = [
 const moonClaims = [
   "Moon is stable account 646026925760053258; Moon久方 and the archived marcy/marmar handles belong to the same user-confirmed person.",
   "Moon repeatedly frames herself as watchful and socially retentive: `I am a moon,so i see all` in 2022 and `This moment will always be engraved in my single brain cell` in 2023. The `single brain cell` line is self-deprecating humor, not a cognitive or medical claim.",
+  "On 2023-04-01 Moon doubles down on the observer seat with `Just being a bystander, duhh`, after mock-deflecting an accusation with `Leave me be ,so I can eat my fruit pebbles cereal:(`. Four days later the same account can answer a social reply with `Ily~♡`. The cumulative contradiction is observer/bystander self-framing without emotional detachment: Moon watches from inside the mess and stays affectionate when the room pulls her in.",
   "On 2023-03-19 Moon explicitly stops herself from saying something because `I feel like its too mean`, supporting a real meanness brake inside an otherwise joke-forward style.",
   "Later the same day Moon extends the room's existing `-fection` wordplay, keeps the bit going, then realizes `Wait this isn't main chat`; the context slip is part of the contradiction, not evidence that she originated `gillifection`.",
   "On 2024-06-05 Moon tells Rummy `i like interior design,so whaT`, supporting a safe ordinary-life interior-design taste and bounded teasing texture.",
@@ -46,8 +50,8 @@ const moonClaims = [
 
 const moonAntiFanon = [
   "Moon is the canonical public name. Moon久方 and the old marcy/marmar handles are aliases/account history, not separate cast files.",
-  "UL Night Shift Barista is Moon's locked specialist title; this Wall packet does not date the appointment.",
-  "`I am a moon,so i see all` is self-styled watchfulness/social-radar humor, not literal omniscience, surveillance, or a formal monitoring role.",
+  "UL Night Shift Barista is Moon's locked specialist title; this Wall/Daycare-adjacent packet does not date the appointment.",
+  "`I am a moon,so i see all` and `Just being a bystander, duhh` are self-styled watchfulness/bystander humor, not literal omniscience, surveillance, neutrality, disengagement, or a formal monitoring role.",
   "The local referent `Dream` remains unresolved and is not mapped to Daya/Dayadream or any other person by similar naming.",
   "The pooled Deleted User parent in the `too mean` receipt remains pooled/unidentified.",
   "Moon participates in `RUMFECTION AND GILLFECTION`; this dossier does not credit her with originating the earlier `gillifection` wordplay.",
@@ -63,15 +67,17 @@ const moonCharacter: ExtendedCharacter = {
   role: "UL Night Shift Barista",
   era: "2020–present",
   logline:
-    "The all-seeing night-shift barista who remembers the stupidest moments, calls the storage medium one brain cell, catches herself when a joke would be too mean, and can still get forty-seven seconds into a vaccination bit before noticing she is in the wrong chat.",
+    "The all-seeing night-shift barista who insists she is `just being a bystander` while remaining emotionally stuck inside the room: she remembers the stupidest moments, calls the storage medium one brain cell, catches herself when a joke would be too mean, and can still get forty-seven seconds into a vaccination bit before noticing she is in the wrong chat.",
   tags: [
     "UL Night Shift Barista",
     "Wall",
     "Social memory",
+    "Bystander humor",
     "Self-deprecating humor",
     "Meanness brake",
     "Rummy",
     "Interior design",
+    "Fruity Pebbles",
     "Wrong chat",
     "Petty Crimes",
   ],
