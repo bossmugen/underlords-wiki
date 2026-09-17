@@ -24,7 +24,7 @@ const rotiniCharacter: ExtendedCharacter = {
   role: "Archive-era Wall cast",
   era: "2022–2024",
   logline:
-    "Calls it lurking while showing up with exhibits. RotiniLM's Wall rhythm is dry and economical: drop the receipt, make almost no speech about the receipt, handle the practical boundary underneath the joke, then snap straight back into the room's bit when somebody summons them much later.",
+    "Calls it lurking while showing up with exhibits, then answers `Nah I'm good` when the room tries to make the watcher the exhibit. RotiniLM's Wall rhythm is dry and economical: drop the receipt, make almost no speech about the receipt, handle the practical boundary underneath the joke, then snap straight back into the room's bit when somebody summons them much later.",
   tags: [
     "Archive cast",
     "Wall",
@@ -49,6 +49,7 @@ const rotiniCharacter: ExtendedCharacter = {
   quotes: [
     "Just lurking the WC",
     "One more-",
+    "Nah I'm good",
     "Chats with strangers",
     "I did dont worry",
     "This is what you miss when you're gone send help",
@@ -56,15 +57,17 @@ const rotiniCharacter: ExtendedCharacter = {
   ],
   claims: [
     "On January 24, 2022 Rotini posts `Just lurking the WC` with an attachment, then returns 1:23:38 later with another attachment and `One more-`. The cumulative person read is self-described lurker / active receipt-dropper rather than passive observer.",
+    "When the Wall turns the camera back around and tells Rotini it is their turn to be the center of attention, Rotini's whole defense is `Nah I'm good`. It sharpens the running contradiction without changing the voice: they are perfectly willing to participate in the gallery and considerably less enthusiastic about becoming the gallery's subject.",
     "On June 8, 2022 Rotini posts `Chats with strangers` with six attachments. Sou true-replies to the exact parent telling Rotini to block the people involved; Rotini true-replies 21.259 seconds later, `I did dont worry`, with a heart. This supports bounded care / boundary-check familiarity and the contradiction of turning a weird interaction into Wall material after already taking the practical boundary step.",
     "After a 551-day surviving Rotini-authored Wall gap, Rotini re-enters on December 11, 2023 with `This is what you miss when you're gone send help`. On January 3, 2024 Dayadream directly tags Rotini and Snow; 36.904 seconds later Rotini replies `SHH EVERYTHING'S FINE`, followed by a heart. The authored gap gives return texture without becoming a claim of social absence from UL.",
-    "Rotini's Petty Crimes keeper is the contradiction in miniature: `Just lurking the WC` while filing the receipt, followed later by `One more-` and another exhibit.",
+    "Rotini's Petty Crimes keeper is the contradiction in miniature: `Just lurking the WC` while filing the receipt, `Nah I'm good` when somebody volunteers them for center stage, and `SHH EVERYTHING'S FINE` when summoned back into the defendant chair later.",
   ],
   antiFanon: [
     "All Rotini-linked Wall screenshots in this packet remain visually uninspected. Preserve POSTED BY exactly; do not infer MADE BY, CAPTURED BY, or FEATURING from captions, tags, reactions, filenames, or adjacency.",
     "The 551-day interval is a surviving authored Wall gap only. It does not establish that Rotini left UL, Discord, or the room socially during that period.",
     "Sou's `bb`, pat-pat, Rotini's heart, and the boundary-check exchange support familiar care behavior; they do not establish romance, family, exclusivity, or a closeness rank.",
     "Dayadream's nearby screenshot is POSTED BY Dayadream and remains visually uninspected. The direct tag plus Rotini's fast denial supports summon/defendant banter, not an inference about who appears in the image.",
+    "Rotini's `Nah I'm good` is a joke-boundary response to being made center of attention, not evidence that they disliked the Wall, disliked attention generally, or withdrew from the group.",
     "Export-time role arrays are not appointment chronology.",
   ],
 };
