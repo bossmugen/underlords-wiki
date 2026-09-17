@@ -4,7 +4,7 @@
 
 The shared miner census closes at **51 tracked identities = 30 active refs + 21 historical/missing refs**, with **0 new refs, 0 unread active tails, 0 backlog, and 0 overdue branches**. Both Club-Only recovery-priority lanes remain current. MAIN's controlling ledger advanced Core, Daycare, Whiskey, and Wall through their unchanged reviewed heads after checkpoint-first, intake-only reconciliation.
 
-Six reviewed families remain `pending_publication`; these are MAIN person-first/resynthesis debts rather than unread mining.
+Eight reviewed families remain `pending_publication`; these are MAIN person-first/resynthesis debts rather than unread mining.
 
 ## WIKI public result
 
