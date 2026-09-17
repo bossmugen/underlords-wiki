@@ -1,3 +1,4 @@
+import "./integrator-cast-run1285-wall-anayss";
 import { allCharacters, characterById } from "./cast";
 import type { Character } from "./wiki";
 
