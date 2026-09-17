@@ -1,58 +1,62 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-17 — Run 1286 final close_
+_Last updated: 2026-09-17 — Run 1287 final close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
 
-## Current close — Run 1286
+## Current close — Run 1287
 
-The mandatory full miner census closed at **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 pending review, 0 backlog, and 0 overdue branches**. One miner lane advanced and was reviewed checkpoint-first/intake-only: Whiskey `ff6559e239147e84b8258f30f61f15522ac777c4` → `53ef7524ca12a6380f008c9f972cdbf259a381ea`. Closing branch enumeration found the reviewed Whiskey head unchanged. Both Club-Only recovery-priority lanes remain current.
+The mandatory full miner census closed at **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 pending review, 0 backlog, and 0 overdue branches**. Three advanced lanes were reviewed checkpoint-first/intake-only:
 
-The controlling MAIN ledger has **5 `pending_publication` families**, all older reviewed MAIN person-first resynthesis debt rather than unread mining.
+- Daycare `fd782f6fdc94747d0746b1aed62d7d9109fb49b5` → `e6cc7a660016940255926f437e55e20f49f5bc95`.
+- Louvre / AI Art / Athenaeum / Other Games `95eb3b91342ca0fdec4463221ae0180b7034734b` → `b419ae32f6e879dc4bed4240013dfbd39ee8e276`.
+- Wall `0590e4a19aa955b404fc394c392a2efc24661c21` → `b598e74f742e438894358ec57d5b6b40535c2b1c`.
+
+Closing comparisons found all three reviewed heads unchanged. Both Club-Only recovery-priority lanes remain current. The controlling MAIN ledger still has **5 `pending_publication` families**, all older reviewed MAIN person-first resynthesis debt rather than unread mining.
 
 ## Reconciled result
 
 ### Published to WIKI
 
-- **Olenka:** the Whiskey handoff gives Olenka her first canonical structured owner. The useful person spine is narrow but real: she arrives socially before she arrives administratively. After MEE6 asks for the intake fields, her first surfaced authored Lobby turn is an emote rather than paperwork. Gilli later directly pings her; Olenka returns with `Hiii Guys` plus the requested fields; 6.873 seconds later Gilli says `There we go, Role assigned!`; Gilli then routes Olenka and Yazaki/Rosario17 to the Discord tour. WIKI keeps the cumulative contradiction **emote-first / low-formality arrival ↔ clean practical follow-through** rather than flattening one doorway scene into shy, resistant, confused, chaotic, inattentive, or obedient.
-- **Gilli ↔ Olenka:** preserved as lived procedural follow-through: direct ping → completed intake → immediate completion language → tour routing. This is not recruiter proof, closeness, or formal appointment chronology.
-- **Petty Crimes:** `Emote First, Paperwork Later` is kept as tiny threshold texture only. One doorway does not make it a recurring global habit.
+- **Moon:** canonical Moon was deepened in place rather than duplicated. The new Daycare-adjacent material sharpens an existing contradiction: Moon can call herself `Just being a bystander, duhh` while remaining socially and emotionally inside the room. In the same packet she mock-deflects with `Leave me be ,so I can eat my fruit pebbles cereal:(`, and the same stable account can answer with `Ily~♡` days later. The useful read is **observer/bystander self-framing ↔ affectionate participation**, not distance or neutrality.
+- **Petty Crimes:** Fruity Pebbles joins Moon's small ordinary-life texture. It is a dated cereal preference/joke, not an all-time favorite claim.
+- The existing `I am a moon,so i see all` / social-memory material remains the broader spine. The new wording deepens it instead of replacing it with a second Moon packet.
 
-### Reviewed without MAIN reader copy
+### Reviewed as duplicate / custody repair
 
-- MAIN intentionally receives **0 reader-facing changes** from this packet. A single well-shaped onboarding scene is enough for WIKI's structured dossier but still too thin for the rich longitudinal biography MAIN requires. The material is not lost; it is simply not being stapled into a fake whole-person page.
+- **Gilli:** the Louvre maker-seat workshop is already materially owned by the canonical WIKI dossier: Cookie and Sye give concrete visual feedback, Gilli applies it, publicly credits the help with `would have been lost`, and immediately moves on to the server banner. No duplicate paragraph or episode was added.
+- **Suzi / Mob | BAPE:** the `Aww it’s okay @RΣN` / `I still wuv you` material is broader-project Wall texture, not assigned Louvre/Athenaeum recurrence. The false corpus ownership stays repaired backstage pending assigned direct-first recovery.
+- **Illien / Euros:** the new Wall synthesis—callback collector, receipt participant, fast-riff absurdist, cute delivery next to macabre premises, bounded Anthos riff familiarity—is already materially owned by the canonical Illien dossier. No Illien II or receipt sequel was created.
 
 ### Holds
 
-- November 27, 2020 is a surviving onboarding threshold, not guaranteed origin, join date, or recruiter identity.
-- Gilli's first `There we go, Role assigned!` is strongly contextualized as closing Olenka's just-finished intake because it follows by 6.873 seconds; the exact historical role remains unresolved.
-- A later generic `Role assigned!` in the same pocket remains untargeted and is not assigned to Olenka or Yazaki by sequence alone.
-- Shared tour routing with Yazaki/Rosario17 is shared context only, not proof of prior acquaintance, joint recruitment, or closeness.
-- Olenka's historical age-at-message remains backstage; it is not needed for the public person read.
-- Current negative retrieval for direct Whiskey/Wall/Club Only prose is source-boundary information only and must not become a later-absence/disappearance claim.
+- **JumanjiBinx identity/provenance conflict:** the new Wall packet identifies stable account `571081454843330560` under `jumanjibinx`, while the current canonical Jumanji dossier owns a separate provenance lane, stable account `297042845099229195`, also under JumanjiBinx/jumanji labels. Similar naming alone is not an identity bridge. The new `Yes` / Gilli-summons packet is therefore held unresolved rather than merged into canonical Jumanji or used to create a thin duplicate person.
+- Gilli's October object remains POSTED BY Gilli; Jumanji is only SUMMONED / RESPONDS TO EXACT OBJECT in the new packet. MADE BY / CAPTURED BY / FEATURING remain unresolved because pixels were not inspected.
+- Daycare decline remains unresolved. Source-local token negatives and Lobby quiet blocks do not become global absence/disappearance claims.
 
 ## Public result
 
-- Genuinely new WIKI material: **first canonical Olenka Cast dossier**, with the social-first / paperwork-second contradiction, bounded Gilli procedural relationship edge, shared-tour context, and one Petty Crimes texture item.
-- Duplicate families combined this run: **0**.
-- Reader-facing MAIN changes: **0 intentionally**.
+- Reader-facing MAIN changes: **0 intentionally**. Moon's rich MAIN biography already owns the observer-inside-the-mess character spine; this packet's small bystander/cereal addition is useful structured WIKI depth without needing another dated receipt in MAIN.
 - MAIN source verification / Astro / built-output verification / deployment: **not run**, because MAIN reader bytes did not change.
-- Exact verified/deployed WIKI reader: `d70d1f1f8f40535173d6987c5f1f07b7916ccf83`.
-- Build Underlords Wiki run `35268423537`: **success**.
-- Deploy Underlords Wiki Preview / Pages run `35268423707`: **success**, including build/artifact, deploy, and report.
-- One-surface-only publication: **WIKI only**, intentionally. The packet clears the threshold for a structured dossier but not for a rich MAIN biography.
+- WIKI reader changed: `src/data/integrator-cast-run694-wall-moon.ts` deepened in place.
+- Exact verified/deployed WIKI reader: `c702611df9ece48931d901fac18a95d8d15bb627`.
+- Build Underlords Wiki run `35273069928`: **success**.
+- Deploy Underlords Wiki Preview / Pages run `35273070124`: **success**, including deployment.
+- One-surface-only publication: **WIKI only**, intentionally. The new material adds searchable structured Moon texture while MAIN already carries the richer character mechanism.
 
 ## Recovery / consumption state
 
 - `archive-miner/club-only-2021-2026-hourly` remains current through `e45fb11c9239e236231bb65645dfd0285bc0078b`.
 - `archive-miner-clubonly-2020-hourly` remains current through `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`.
-- `archive-miner/whiskey-longitudinal-hourly` is now consumed through `53ef7524ca12a6380f008c9f972cdbf259a381ea`.
+- Daycare is consumed through `e6cc7a660016940255926f437e55e20f49f5bc95`.
+- Louvre-family is consumed through `b419ae32f6e879dc4bed4240013dfbd39ee8e276`.
+- Wall is consumed through `b598e74f742e438894358ec57d5b6b40535c2b1c`.
 - Five `pending_publication` families remain older reviewed MAIN resynthesis debt, not unread miner intake.
 
 ## Holds / rails carried forward
 
 - **Akariel is not Zyrcant.** Do not restore the older alias/account bridge or reuse Akariel-authored Wall receipts as Zyrcant characterization.
-- Similar names do not merge people.
+- Similar names do not merge people. The unresolved JumanjiBinx account conflict is now an explicit live example of this rail.
 - Export/current role arrays do not establish appointment chronology.
 - Joke roles, family language, flirting, ships, and mock-procedural language do not become literal governance, biology, romance, sex, or treatment without support.
 - Earliest surviving material is not silently promoted to origin.
