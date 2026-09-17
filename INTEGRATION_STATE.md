@@ -1,14 +1,14 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-17 — Run 1268 close_
+_Last updated: 2026-09-17 — Run 1269 close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
 
-## Current close — Run 1268
+## Current close — Run 1269
 
 The mandatory full miner census found **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 pending review, 0 backlog, and 0 overdue**. Every active miner HEAD matched its recorded `last_consumed_sha`, so there were **no unconsumed intake deltas** to review this cycle. Both Club-Only recovery-priority lanes remain current.
 
-MAIN persisted the Run 1268 census before any review decision at commit `9c0d15cafa1b1ff6ff9fa88b3c560237c87e9ca7`. No miner branch required a checkpoint-first delta review because none had advanced beyond the consumed frontier.
+MAIN persisted the Run 1269 census before any review decision at commit `eabf734a820cd12fc2a7936cc8c208705776359d`. The closing recensus found the same 30 active miner heads, so no late mover appeared after the opening census.
 
 Eight reviewed families remain `pending_publication` on MAIN. They are whole-person/person-first resynthesis debt, not unread mining, and therefore were not reopened merely to manufacture activity.
 
