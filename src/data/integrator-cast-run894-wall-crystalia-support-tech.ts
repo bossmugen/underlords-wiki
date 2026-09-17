@@ -43,7 +43,7 @@ upsertCharacter(
   {
     id: "crystalia",
     name: "Crystalia",
-    aliases: ["Pink Hana", "jeeebus"],
+    aliases: ["Pink Hana", "jeeebus", "Crystalia^-^", "phokingyouup6617"],
     billing: "legacy",
     role: "Archive-era Wall cast",
     era: "2020–",
@@ -74,6 +74,7 @@ upsertCharacter(
     ],
     quotes: ["what is this....", "Woah"],
     claims: [
+      "Stable account 671496969646112769 appears in the current Wall handoff as `Crystalia^-^` / `phokingyouup6617`; both are searchable aliases for the canonical Crystalia owner.",
       "In the current complete stable-ID Wall census, Crystalia's visible authorship is almost comically small: one surviving line, `Woah`. The same source still gives him three direct mentions, so low posting volume is not the same thing as social invisibility.",
       "Mugen tags Crystalia twice in February 2021. One of those pulls him into fake serial billing as `UL's very own mermaid`, turning him into part of the joke without needing to explain who he is first.",
       "On May 9, 2021, Anthos names Crystalia alongside three others in `just another successful dungeon run ...`. The useful person read is quiet presence plus recognizability: he can leave almost no prose in the room and still get summoned, cast into bits, and remembered in shared play.",
@@ -85,7 +86,7 @@ upsertCharacter(
       "Mugen's summons and Anthos's dungeon-run acknowledgment support bounded familiarity and shared-room/shared-play inclusion, not a friendship or closeness ranking.",
     ],
   },
-  ["Pink Hana", "jeeebus"],
+  ["Pink Hana", "jeeebus", "Crystalia^-^", "phokingyouup6617"],
 );
 
 upsertCharacter(
