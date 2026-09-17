@@ -1,3 +1,4 @@
+import "./integrator-cast-run1234-daycare-wall-mercy-plushie";
 import { allCharacters, characterById } from "./cast";
 import type { Character } from "./wiki";
 
