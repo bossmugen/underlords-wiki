@@ -1,55 +1,53 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-17 — Run 1260 close_
+_Last updated: 2026-09-17 — Run 1261 close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
 
-## Current close — Run 1260
+## Current close — Run 1261
 
 The mandatory census closes at **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered, 0 pending review, 0 backlog, and 0 overdue**. Both Club-Only recovery-priority lanes are current. Eight reviewed MAIN families remain `pending_publication`; that is whole-person resynthesis debt rather than unread mining.
 
-Whiskey advanced from consumed `2a6fb15f98cefe0568797878222bccc9d237b1bc` to `2a041af5d13d0dabe50e38669452ad7903c341de`. The delta was reviewed checkpoint-first through its changed `archive-intake/*` handoffs only and is now consumed through the stable current head after the accepted WIKI publication passed verification and Pages deployment. Daycare remains consumed through `2b093789a52d9897c77f6208516bb053dd8d5dc1`, Wall through `a40dbd1fb3776217d7ad7a40701ae9a617715f26`, Club-Only 2021–2026 through `e45fb11c9239e236231bb65645dfd0285bc0078b`, and Club-Only 2020 through `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`.
+`archive-miner/birthdays-pr-vc-deep-2026-08-24-2325` advanced from consumed `c5c1d7ed76a32e9f244d38710d46c9774133b630` to `527b3fc88357bc25641b59cc5b49f8bdec434ffc`. The delta was reviewed checkpoint-first through changed `archive-intake/*` handoffs only, without raw archive re-mining or wholesale branch merging. The reviewed branch was rechecked unchanged before close and is now consumed through `527b3fc88357bc25641b59cc5b49f8bdec434ffc` after accepted WIKI reader changes passed build and Pages deployment.
 
-## New structured owner — Shiki
+## New structured Episodes
 
-Run 1260 adds Shiki as a structured archive-era Cast owner rather than an Episode. The useful cumulative contradiction is **low verbal visibility / stubborn activity presence**: Cece notices that Shiki does not talk to her, while a later Whiskey scene finds Shiki still farming for hours. That is kept narrower than generic labels such as shy, antisocial, mysterious, absent, or inactive.
+### The Photoshoot Almost Starts at Christmas
 
-Relationship texture now owned on WIKI:
+On December 10, 2020 Mugen asks whether enough people want the Dragon Raja Photoshoot Contest to justify moving it forward from the team's January plan. The fast-track version floated tentative December 14 submissions and Christmas results. The reaction list is unusable as a neat vote tally because Mugen appears under both yes and no. The December sprint does not become a separate public round: Mugen later says submissions open in five days on December 30, Anthos opens them January 4, and on January 9 Anthos calls it `our very first Photoshoot Contest`.
 
-- **Cece ↔ Shiki:** Cece's `She don’t talk to me` makes the missing conversation relational. Somebody notices the silence and expects or wants more exchange.
-- **ed ↔ Shiki:** ed encounters Shiki already deep in the farming activity and the scene eventually reaches `Sorry Shiki :lul:`. Exact game mechanics, initiator, instruction, annoyance, and apology target remain unresolved.
-- **Mugen ↔ Shiki:** Mugen deliberately includes Shiki in the August 2026 old-member summon chain. This preserves Shiki in long social memory; it does not prove Shiki answered, attended, rejoined, or resumed active UL life.
+WIKI owns this as planning/history prehistory: public demand-testing and a movable launch schedule, not a lost December contest and not an absolute-origin claim.
 
-Identity rail: **Shiki ≠ Shk/Tomoe ≠ ShiyaX** unless future stable-account evidence establishes otherwise. `Sensei`, similar names, exporter roles, and bot-action display strings are not identity bridges.
+### The Wall Has Three Editing Workflows
+
+On September 12, 2020 Ren posts an image and Anthos asks how Ren is so fast. Ren explains the iPad quick-edit route — take it, post it, delete it. Anthos contrasts that with opening Photoshop on a Mac/laptop. Hishiro later points out Android's immediate screenshot-editing tools, and Anthos confirms the Mac workflow.
+
+The scene gives the WIKI useful media-practice texture months before the first public Photoshoot round: Ren, Anthos, and Hishiro already comparing devices, shortcuts, and posting speed. It establishes workflow/tool use only; it does not assign maker/editor/capturer/subject credit for uninspected attachments.
 
 ## Public result
 
-Reader-facing Run-1260 changes:
+Reader-facing Run-1261 changes:
 
-- MAIN: **0 intentionally**. The current Shiki packet is useful for a structured WIKI dossier but remains too thin and identity-light to manufacture a rich person-first MAIN biography.
-- WIKI: **1 structured Cast owner added** via `src/data/integrator-cast-run1260-whiskey-shiki.ts`, wired into the existing integration chain.
+- MAIN: **0 intentionally**. The accepted material is event/history and media-practice reference; turning it into fresh dated MAIN paragraphs would make person-first biographies more archive-shaped rather than more human.
+- WIKI: **2 Episodes added** via `src/data/integrator-episodes-run1261-birthdays-pr.ts`.
 
-Exact verified/deployed WIKI reader commit: **`a2418e59518ad35e752497f2b71469bf720ec11a`**.
+Exact verified/deployed WIKI reader commit: **`a07386f42e8d47989fc799478b751849dd5c3ab2`**.
 
 Verification/deployment:
 
-- Build Underlords Wiki run **35213551965** — success.
-- Pages/Preview run **35213552023** — success.
-- Pages build/artifact job **105176562971** — success.
-- Pages deploy job **105176708582** — success.
-- Pages report/status job **105176898843** — success.
+- Build Underlords Wiki run **35216451641** — success.
+- Pages/Preview / Deploy Underlords Wiki Preview run **35216451672** — success.
+- Exact reader SHA for both workflows: `a07386f42e8d47989fc799478b751849dd5c3ab2`.
 
 ## Holds / rails carried forward
 
+- January 2021 remains the first actual/public Photoshoot Contest in the current surviving record; December 10 is pre-launch fast-track/public-demand testing.
+- The December reaction state is not treated as a clean referendum tally.
+- September editing-tool talk does not backdate a formal PhotoShop program or role.
+- Uninspected images remain attribution-neutral: POSTED BY is not silently upgraded to MADE BY / EDITED BY / CAPTURED BY / FEATURING.
+- Earliest surviving material is not asserted as absolute origin.
 - Eight `pending_publication` families remain reviewed MAIN resynthesis debt, not unread miner intake.
 - Both Club-Only recovery lanes remain current.
-- Shiki remains separate from Shk/Tomoe and ShiyaX; the Whiskey quarry remains open for stable account evidence and raw May turn order.
-- Candy / `~Candy~` / `— Luna` / `harumasasgf` remains distinct from HyaLuna.
-- `faoaf` remains backstage-only until behaviorally rich material appears.
-- `RH-MIGRATION` favors peer habit as a mechanism but remains causally unresolved.
-- q11 remains a pinned local collaborative mutation graph, not yet a durable/cross-room motif.
-- Lobby quietness remains source-bounded.
-- Akamin remains separate from Mere.
 - Existing identity, role-chronology, privacy, joke-role, unresolved-provenance, joke-family, romance, and media-attribution boundaries remain unchanged.
 
 ## Historical state
