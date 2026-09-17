@@ -86,7 +86,7 @@ upsertRelationship(
   shiyaxRelationships,
   "Ghoulie",
   "ShiyaX goes straight for the playful nudge — `GHOULIE IN UL`, then `YOU JOINING BB ?` — and Ghoulie answers with `MAYBE?`. Later in the same broader social lane, ShiyaX is also the person who says to take the chatter to Whiskey and Ghoulie immediately apologizes. Invitation and room-routing coexist without turning ShiyaX into a formal recruiter or gatekeeper.",
-  "/characters/ghoulie",
+  "/characters/baby-lyssa",
 );
 
 allCharacters[shiyaxIndex] = {
