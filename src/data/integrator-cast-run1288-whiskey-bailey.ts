@@ -35,7 +35,7 @@ const baileySeed: ExtendedCharacter = {
       name: "Kuki",
       note:
         "Bailey twice picks Kuki — then appearing as Cookies/Juicebox — as the audience for the sleep/ghost nonsense. `who needs sleep` turns into `I’m a ghost 👻`; Kuki stays inside the premise and answers with a Ghostbusters GIF thirty-three seconds later. It is a small, comfortable same-scene riff, not a closeness ranking.",
-      href: "/characters/kuki",
+      href: "/characters/cookie",
     },
     {
       name: "Gilli",
