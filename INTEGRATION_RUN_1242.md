@@ -11,10 +11,10 @@ MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` remains the controlling min
 Two tails were reviewed this run:
 
 1. **Wall** `86d6827ca562687f3ec41e6ef1c6657220d4fed3 -> 73ad4f51051b507f3d572ae07ad61166d5cabe33`.
-2. **Louvre / AI Art / Athenaeum / Other Games** `c22a21064d37b85873b21b93474fe7a73a133c94 -> a38710224ec993b2d8f0789fb70fb7aba347d0ff`, caught by the closing recensus and reviewed under anti-starvation as one scope-repair family.
+2. **Louvre / AI Art / Athenaeum / Other Games** `c22a21064d37b85873b21b93474fe7a73a133c94 -> 8f36cab84e40c21c7f16bc24e4d4e699fbaa6bd5`, caught by the closing recensus and reviewed under anti-starvation as one scope-repair family.
 
 ## Vanness — dedupe, do not staple on another receipt paragraph
-The Wall suffix's strongest person synthesis is Vanness as **evidence pointer / mock-defendant / willing self-prosecutor when the disaster is unmistakably his own**. The new handoff centers `Im putting myself in wall of shame ... Shame me`, his failed-merge postmortem, `my luck is💩`, and the fact that he stays in the scene while Gilli, Candy, and Ren answer the self-file.
+The Wall suffix's strongest person synthesis is Vanness as **evidence pointer / mock-defendant / willing self-prosecutor when the disaster is unmistakably his own**. The handoff centers `Im putting myself in wall of shame ... Shame me`, his failed-merge postmortem, `my luck is💩`, and the fact that he stays in the scene while Gilli, Candy, and Ren answer the self-file.
 
 WIKI already owns this exact cumulative read in canonical `src/data/integrator-cast-run760-wall-vanness.ts`, including the same self-file, the same merge-loss sequence, and the same contradiction. The current dossier is stronger than the new handoff because it already combines that material with the earlier Mugen pointer and ShiyaX mock-defense lane.
 
@@ -25,7 +25,7 @@ The same Wall review keeps q22 Erys provenance backstage: the Lobby welcome is n
 ## braindead — scope repair, not public characterization
 The late Louvre suffix does not supply a new WIKI character scene. It repairs an upstream source-boundary error: a plausible braindead person synthesis had been built from true announcements rows and then treated as if they were Louvre/Athenaeum character evidence.
 
-That route is now quarantined inside the miner. The later commits add the direct-first rabbits, people coverage, no-integration site route, and final checkpoint for the same repair; they do not create a new public candidate. The correction matters precisely because the synthesis sounded human and coherent: true scenes can still make a false corpus-specific biography when they are joined to the wrong room family. The assigned creative-room body therefore returns to direct-first/open rather than inheriting `SOWWY`/check-in, Gilli reassurance, dress-opinion, or beach material from announcements.
+That route is now quarantined inside the miner. The suffix adds direct-first rabbits, people coverage, a no-integration site route, and the final checkpoint for the same repair; the last one-commit suffix simply updates cumulative `site-candidates.md` to explicitly quarantine the contaminated candidate. The correction matters precisely because the synthesis sounded human and coherent: true scenes can still make a false corpus-specific biography when they are joined to the wrong room family. The assigned creative-room body therefore returns to direct-first/open rather than inheriting `SOWWY`/check-in, Gilli reassurance, dress-opinion, or beach material from announcements.
 
 No public WIKI braindead owner using that invalid Louvre-owned synthesis was found, so there is nothing reader-facing to delete or rewrite.
 
@@ -35,4 +35,4 @@ No public WIKI braindead owner using that invalid Louvre-owned synthesis was fou
 - WIKI Astro / Pages build and deploy: **not run / not claimed**, because reader bytes did not change.
 - MAIN source verification / Astro / built-output / deploy: **not run / not claimed**, because reader bytes did not change.
 
-The reviewed Wall and Louvre frontiers are consumed through `73ad4f51051b507f3d572ae07ad61166d5cabe33` and `a38710224ec993b2d8f0789fb70fb7aba347d0ff` in MAIN's controlling ledger. Older MAIN person-first resynthesis debt remains separate from these no-reader-change reviews.
+The reviewed Wall and Louvre frontiers are consumed through `73ad4f51051b507f3d572ae07ad61166d5cabe33` and `8f36cab84e40c21c7f16bc24e4d4e699fbaa6bd5` in MAIN's controlling ledger. Older MAIN person-first resynthesis debt remains separate from these no-reader-change reviews.
