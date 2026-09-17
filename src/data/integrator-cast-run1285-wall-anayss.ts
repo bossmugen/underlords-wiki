@@ -1,5 +1,6 @@
 import "./integrator-identity-repair-run1285-akariel-zyrcant";
 import "./integrator-cast-run1286-whiskey-olenka";
+import "./integrator-cast-run1288-whiskey-bailey";
 import { allCharacters, characterById } from "./cast";
 import type { Character } from "./wiki";
 
