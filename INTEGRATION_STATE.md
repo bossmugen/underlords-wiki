@@ -22,24 +22,26 @@ This delta was source-custody repair, not new public character lore. Hishiro's i
 
 ### Wall — `5e635797... -> 5dd31171...`
 
-Ten's archive-self-aware legacy joke and Wolf Phenix's peer-recognizable low-prose presence were duplicate-by-meaning of existing public owners. The genuinely additive material was Torr / DiStratus with HamitteY: Torr understands the Wall's receipt machine well enough to worry about context and delete a comment, then immediately keeps litigating that the comment was `totally ambiguous`; Hami's saved-receipt role turns the attempted cleanup into more scene. The bounded relationship read is comfortable mock prosecution / receipt familiarity, not a closeness rank.
+Ten's archive-self-aware legacy joke and Wolf Phenix's peer-recognizable low-prose presence were duplicate-by-meaning of existing public owners. The genuinely additive material belongs to Torr / DiStratus: he understands the Wall's receipt machine well enough to worry about context, tries to delete a comment, then immediately keeps litigating that the saved comment was `totally ambiguous`. The attempted cleanup becomes new material because Torr keeps feeding the same room mechanic he understands.
 
-Attribution stayed strict. HamitteY's attachment is POSTED BY HamitteY. Torr's wording supports a probable saved-copy referent, not MADE BY / CAPTURED BY / FEATURING or any uninspected visual-content claim.
+A hard identity correction matters here. The adjacent attachment was posted by separate account `homethey_` (`592243050722492424`). That account is **not merged** into canonical HamitteY / Wichita (`400116637266870273`, `hamittey`). Similar-looking names are not an identity bridge, so canonical HamitteY receives no Run 1273 relationship or character claim from this pocket.
+
+Attribution stays strict. The attachment is POSTED BY `homethey_`. Torr's wording supports a probable saved-copy referent, not MADE BY / CAPTURED BY / FEATURING or any uninspected visual-content claim.
 
 ## Public result
 
 - MAIN reader-facing changes: **0**.
-- WIKI reader-facing changes: **1 structured cast deepening** covering canonical Torr and HamitteY owners.
+- WIKI reader-facing changes: **1 structured Torr deepening**.
 - Duplicate dossiers created: **0**.
-- Exact WIKI reader commit: `6c1acb235e6f43d637e222f6d8e21fb02e002778`.
-- Build Underlords Wiki run `35241506621`: **success**.
-- Deploy Underlords Wiki Preview run `35241506481`: **success**, including Pages deployment.
+- Final corrected WIKI reader commit: `3f0e9213cb2a68c3549bdbeeae57ae12d56de210`.
+- Build Underlords Wiki run `35242344995`: **success**.
+- Deploy Underlords Wiki Preview run `35242344978`: **success**, including Pages deployment.
 - MAIN source verification / Astro build / built-output verification / deployment: **not run**, because MAIN reader bytes did not change.
-- Intentionally one-surface publication: **WIKI only**. The Torr/HamitteY packet is strong structured relationship/quote/claim depth, while MAIN would need a whole-person biography resynthesis rather than another dated receipt paragraph.
+- Intentionally one-surface publication: **WIKI only**. Torr's packet is strong structured quote/claim depth now; MAIN should receive it only through whole-person biography resynthesis rather than another dated receipt paragraph.
 
 ## Consumption close
 
-MAIN's controlling ledger was advanced only after the successful WIKI verification/deployment and the no-public-change reviews were durably reconciled.
+MAIN's controlling ledger was advanced after successful review and the corrected identity-safe WIKI publication was verified.
 
 - `archive-miner/daycare-2020-2026-hourly` is now consumed through `b66e5b245976f8b61f6478062d213b3bb314acdf`.
 - `archive-miner/louvre-ai-art-athenaeum-other-games-hourly` is now consumed through `18efd5416294b2495d384915b39a4cb1185e0c5a`.
@@ -54,6 +56,7 @@ The reviewed Daycare, Louvre, and Wall heads were rechecked after publication an
 
 - Five `pending_publication` families remain reviewed MAIN resynthesis debt, not unread miner intake.
 - Both Club-Only recovery lanes remain current.
+- `homethey_` and canonical HamitteY remain separate unless a future hard identity bridge resolves them.
 - Hard user-confirmed canon and resolved identity corrections remain controlling.
 - Similar names do not merge people.
 - Export-time/current role arrays do not establish appointment chronology.
