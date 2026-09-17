@@ -23,6 +23,7 @@ The controlling MAIN ledger has **5 `pending_publication` families**, all older 
 
 - **Daycare / Booba:** the `Oh I forgot to share this one` quiet-setup/high-impact receipt-dropper scene was already materially owned by canonical WIKI Booba with the same attribution boundary, so the tail is duplicate/corroboration rather than a second Booba paragraph.
 - **Louvre-family / Jas:** inherited strong Jas scenes were traced to Wall/Lobby rather than assigned Louvre recurrence. Jas resets direct-first inside the Louvre quarry; broader person texture remains with the owning sources. This is source-custody repair, not a public character rollback.
+- **Joy:** the tiny Wall footprint supports a plausible reaction-first archive-browser/context-chaser read — four emote-only messages plus prose about asking what an old Snow/Wattpad reference means and the Wall being something to scroll when bored — but it is still too thin for a forced canonical owner. Banked for future person-shaped accumulation; no Wattpad preference or Snow relationship is inferred.
 
 ### Holds
 
