@@ -1,3 +1,4 @@
+import "./integrator-cast-run1273-wall-torr-hamittey";
 import { allCharacters, characterById } from "./cast";
 import type { Character } from "./wiki";
 
