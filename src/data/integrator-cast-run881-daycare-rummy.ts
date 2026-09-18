@@ -25,6 +25,9 @@ allCharacters[rummyIndex] = {
     "Light mode",
     "Sniper service",
     "Fast fingers",
+    "Soft landing",
+    "Return recognition",
+    "Practical care",
     "Petty Crimes",
   ]),
   quotes: unique([
@@ -35,6 +38,11 @@ allCharacters[rummyIndex] = {
     "i did not say that randomly",
     "THAT NOT THE FULL CONVO",
     "IT A PANCAKEEEE",
+    "Welcome friend",
+    "you got this!!",
+    "oh no, hectic how?",
+    "oof, well at least youre hanging in there!",
+    "eat your veggies and take your damn vitamins",
   ]),
   claims: unique([
     ...(rummy.claims ?? []),
@@ -45,6 +53,8 @@ allCharacters[rummyIndex] = {
     "A separate `rummy U STINK` / `stinky rummy?` / `stink off` chain is a tiny room reputation gag, not literal hygiene commentary.",
     "Under the confirmed phenomenal_lamb identity, Rummy is publicly welcomed as one of that week's `@Snipers` on 2022-11-10 and named again among the `Snipers of the Week` on 2022-12-12, when Mugen thanks the Snipers on call for their service. Repetition makes this lived participation in the recurring service lane rather than a static-role artifact.",
     "The same phenomenal_lamb identity appears in Mugen's 2023-03-31 anniversary closeout with `x2` under the separate `Nitro Snipers` / `fast fingers` category. That is a bounded speed-event reputation layered onto Rummy's service history, not a renamed continuation of the weekly Sniper system.",
+    "Rummy's Daycare history adds a much softer lane to the public-defendant persona. On 2020-09-28 Tony points her toward Daycare as the place people hang out during work or school; Rummy calls the room chill and, almost immediately, answers Dean's account of health and work trouble with uncomplicated warmth. The useful character beat is how quickly she treats the room like a social space rather than merely a channel she was shown.",
+    "Across 2021–2022, Rummy repeatedly notices people coming back and asks about the actual thing that changed: how they have been, what made a week hectic, whether a server problem calmed down, whether somebody is at least hanging in there. `Welcome friend`, `you got this!!`, `oh no, hectic how?` and even `eat your veggies and take your damn vitamins` all live on the same axis — practical care kept compact enough to sound like Rummy instead of a formal check-in script.",
   ]),
   antiFanon: unique([
     ...(rummy.antiFanon ?? []),
@@ -56,6 +66,7 @@ allCharacters[rummyIndex] = {
     "phenomenal_lamb is Rummy. Never create a separate phenomenal_lamb person or profile from the 2022–2023 Sniper acknowledgments.",
     "Weekly `Snipers` / `Snipers of the Week` and anniversary `Nitro Snipers` are distinct systems. Do not merge them into one role chronology or infer appointment date, first service date, exclusivity, or continuous activity.",
     "The `x2` in the 2023 anniversary post is preserved as written and does not establish two specific wins without the underlying giveaway receipts. Mugen authored the recognition posts; their wording is not Rummy-authored dialogue.",
+    "Daycare's soft-landing pattern is ordinary social care, not a formal moderator, support, wellness, or onboarding assignment. Tony pointing Rummy toward Daycare does not make Daycare an official onboarding channel, and these scenes do not establish when or why later social traffic shifted toward Whiskey Room.",
   ]),
 } as ExtendedCharacter;
 characterById.set("rummy", allCharacters[rummyIndex]);
