@@ -1,47 +1,54 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-18 — Run 1347_
+_Last updated: 2026-09-18 — Run 1348_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
 
-## Current close — Run 1347
+## Current close — Run 1348
 
-The mandatory full branch census closes at **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 pending review, 0 backlog, and 0 overdue branches**. Both Club-Only recovery-priority lanes remain current. **6 `pending_publication` families** remain reviewed MAIN whole-person resynthesis debt rather than unread mining.
+The mandatory full branch census closes at **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 backlog, and 0 overdue branches**. Both Club-Only recovery-priority lanes remain current. **6 `pending_publication` families** remain reviewed MAIN whole-person resynthesis debt rather than unread mining.
 
-Every active miner HEAD still matches its already-consumed frontier. Run 1347 therefore had **0 new intake deltas, 0 genuinely new findings, 0 duplicate-family changes, 0 conflict/rabbit movement, and 0 consumed-SHA advances**. No raw archive re-mining and no miner-branch merge/cherry-pick was needed because there was no unconsumed tail.
+Two miner families advanced and were reviewed checkpoint-first from their prior consumed frontiers: Wall from `03136c1553d2786f7eeaf176d8962f51104094e9` through `493e3dd285b78b35b7b12a48353dc50e5484dc9d`, and Daycare from `470d5da0c11229f88ada1d251595d0c555c65c25` through `c1df4e69ca422e08302e90e48672d58f134fe924`. Only changed `archive-intake/*` handoffs were reviewed; no raw archive re-mining or miner-branch merge/cherry-pick was used.
 
 ## Public-surface result
 
 ### MAIN
 
-Reader-facing changes: **0**. MAIN changed only the controlling census/consumption ledger for the quiet close. No fresh MAIN source-verification/Astro/built-output/deployment success is claimed for unchanged reader bytes.
+Reader-facing changes: **0**. MAIN changed only the controlling census/consumption ledger. No fresh MAIN source-verification/Astro/built-output/deployment success is claimed for unchanged reader bytes.
 
 ### WIKI
 
-Reader-facing changes: **0**. This file is the only WIKI state synchronization for Run 1347. No fresh WIKI build/Pages/deployment success is claimed for unchanged reader bytes.
+Two existing canonical dossiers were deepened; no duplicate person owners were created.
 
-Nothing was intentionally published to only one public surface because there was no new miner delta to integrate.
+- **Eos / astarosa**: Wall's repeated prosecutor/defendant contradiction is now explicit. Eos can tell Marian `no context is needed wym`, then later become the defendant and plead `ps there is some context to why i said that-` while actually supplying `prooooooof.png`; the later `BEATING U TO IT, PANDA` / `NONO look at my shame` sequence folds that same relationship into competitive filing rather than a pile of receipt summaries. Reader commit: `6aa8528fc2f73ee7ddc5305a917ce706489137f2`.
+- **Torr / DiStratus**: the already-public Gilli receipt-awareness axis was not duplicated. The additive material deepens his dry-observer/self-own contradiction: he prosecutes Rummy for `overuse of the semi colon`, immediately catches his own `eglish`, and later announces that he is `inside table kun where it's nice and warm` while the room knows exactly how to answer the nonsense. Reader commit: `251552ab359913a4d305b788b461bd36c8793255`.
+
+Queen Shimoko's three-message Wall packet was banked rather than inflated into a skinny standalone owner. Zhēnxī's target-to-filer packet is duplicate/corroboration by meaning against the existing dossier. keon remains a thin probable dry-roast note without a fabricated named relationship. Lobby 2022-09-25 remains a source-local quiet date only.
+
+Eos and Torr were intentionally WIKI-only this run: the material is excellent structured relationship/behavior/Petty Crimes texture, but adding source-shaped Wall/support paragraphs to MAIN would work against whole-person biography architecture.
+
+## Verification / deployment
+
+- Eos reader commit `6aa8528fc2f73ee7ddc5305a917ce706489137f2` cleared its WIKI build/Pages workflow and was deployed successfully.
+- Torr reader commit `251552ab359913a4d305b788b461bd36c8793255` cleared **Build Underlords Wiki** run `35386445685` successfully.
+- The first Pages attempt for the Torr commit built and uploaded the preview artifact successfully but its deploy job was cancelled; a direct rerun did not produce a deploy. This Run 1348 state synchronization commit intentionally triggers a fresh full current-site build/deploy gate containing both reader changes. The controlling MAIN consumed frontiers are finalized only after that gate clears.
 
 ## Recovery / consumption state
 
-- `archive-miner/club-only-2021-2026-hourly` current/consumed at `e45fb11c9239e236231bb65645dfd0285bc0078b`.
-- `archive-miner-clubonly-2020-hourly` current/consumed at `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`.
-- Daycare current/consumed at `470d5da0c11229f88ada1d251595d0c555c65c25`; older MAIN resynthesis debt remains.
-- Louvre-family current/consumed at `6af52aa2b922b54e3a19262f649d3fbb9bdb2811`; older MAIN resynthesis debt remains.
-- Whiskey current/consumed at `71e948a9bbda40361ff7856f5bf05087ba5a27f3`.
-- Wall current/consumed at `03136c1553d2786f7eeaf176d8962f51104094e9`.
+- `archive-miner/club-only-2021-2026-hourly` remains current at `e45fb11c9239e236231bb65645dfd0285bc0078b`.
+- `archive-miner-clubonly-2020-hourly` remains current at `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`.
+- Wall reviewed through `493e3dd285b78b35b7b12a48353dc50e5484dc9d`.
+- Daycare reviewed through `c1df4e69ca422e08302e90e48672d58f134fe924`; older MAIN whole-person resynthesis debt remains.
+- Louvre-family remains current at `6af52aa2b922b54e3a19262f649d3fbb9bdb2811`; older MAIN resynthesis debt remains.
+- Whiskey remains current at `71e948a9bbda40361ff7856f5bf05087ba5a27f3`.
 - Six `pending_publication` families remain reviewed MAIN resynthesis debt, not unread miner intake.
 
 ## Hard holds
 
-Erys's May 6 `IMG_5905.png` is **POSTED BY Erys**; the direct Ren tag makes Ren a strong social target, but MADE BY / CAPTURED BY / FEATURING and the depicted subject remain unresolved. The exact-handle q9 route for that asset is sample-stop / DNR; do not keep rediscovering it mechanically. Erys's May 14 Whiskey-room typos do not establish alcohol use or intoxication. Ricochet's `most shame award` line is reputation language, not a literal award or verified rank.
+Queen Shimoko's media remains **POSTED BY** the surrounding filer where that is all the source establishes; her `My koi` welcome language is not romance/family/rank. Eos's `prooooooof.png` is mechanically **POSTED BY Eos** as supporting material, but MADE BY / CAPTURED BY / FEATURING remain unresolved. Mock marriage/divorce and `ily` language in the Eos/Marian lane remain peer-play rather than literal romance, marriage, sexuality, family, or relationship rank. Torr's support receipts are Wall/Lobby support used to deepen a Daycare-assigned person; they are not relabeled as unseen direct-Daycare dialogue.
 
-The Pride threat/body mythology has an earlier surviving direct Pride-named reference in Ren's 2020-09-07 line, but the original Pride-authored threat wording/origin remains unresolved. Do not promote the earliest surviving callback to origin.
+The Pride threat/body mythology still lacks the original Pride-authored threat wording/origin; the earlier surviving Ren callback is not promoted to origin. The q9/richer-media route remains sample-stop/DNR without new native pixels.
 
 Akariel remains separate from Zyrcant. Rich / DragonRich remains separate from Ricochet. Meowk remains separate from Alkey. Mia remains separate from Mimi; Momo remains separate from Mimi. Tae remains separate from Ansun / sou.san / 颯太. Support Tech remains Dean / Beansprout. Akamin remains separate from Mere. Nuien remains separate from Illien. Fake Aoi remains separate from Aoi / Asphodel. Similar display names never create an identity bridge by themselves.
 
 Joke roles, family language, flirting, ships, mock-procedural language, game-account language, and joke wealth do not become literal governance, biology, romance, sex, identity, or financial claims without support. Earliest surviving material is not silently promoted to origin. Privacy-sensitive material stays backstage. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct.
-
-## Previous close — Run 1346
-
-Run 1346 was a quiet census with all active miner HEADs already consumed and no public reader changes. The controlling MAIN ledger and this WIKI state were synchronized only; no fresh reader build or deployment success was claimed. Earlier integration history remains preserved in Git history; this file stays compact as the current authoritative WIKI state rather than becoming another receipt ledger.
