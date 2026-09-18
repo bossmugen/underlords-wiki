@@ -1,4 +1,5 @@
 import "./integrator-cast-run1313-kuki-woohyuk";
+import "./integrator-cast-run1338-wall-realgamejack-daya";
 import { allCharacters, characterById } from "./cast";
 import type { Character } from "./wiki";
 
