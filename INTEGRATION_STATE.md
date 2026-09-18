@@ -1,14 +1,14 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-18 — Run 1334 quiet census_
+_Last updated: 2026-09-18 — Run 1335 quiet census_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
 
-## Current close — Run 1334
+## Current close — Run 1335
 
 The mandatory full branch census closes at **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 pending review, 0 backlog, and 0 overdue branches**. Both Club-Only recovery-priority lanes remain current. **6 `pending_publication` families** remain reviewed MAIN whole-person resynthesis debt rather than unread mining.
 
-Every active `archive-miner-*` and `archive-miner/*` HEAD matched its already-consumed frontier. Run 1334 therefore had **0 intake deltas, 0 genuinely new findings, 0 duplicate-family changes, 0 conflict/rabbit movement, and 0 consumed-SHA advances**.
+Every active `archive-miner-*` and `archive-miner/*` HEAD matched its already-consumed frontier. Run 1335 therefore had **0 intake deltas, 0 genuinely new findings, 0 duplicate-family changes, 0 conflict/rabbit movement, and 0 consumed-SHA advances**.
 
 No reader-facing bytes changed on either public surface. MAIN source verification / Astro build / built-output verification and WIKI Astro / Pages build were **not run or claimed** for unchanged reader content. No deployment is claimed.
 
@@ -17,7 +17,7 @@ No reader-facing bytes changed on either public surface. MAIN source verificatio
 - **MAIN reader-facing changes:** 0.
 - **WIKI reader-facing changes:** 0.
 - **Material intentionally published to only one surface:** none; there was no new miner delta to publish.
-- MAIN durable state: Run 1334 census persisted plus `INTEGRATION_FINAL_2026-09-18_RUN1334.md`.
+- MAIN durable state: Run 1335 census persisted plus `INTEGRATION_FINAL_2026-09-18_RUN1335.md`.
 - WIKI durable state: this integration-state synchronization only.
 
 ## Recovery / consumption state
@@ -40,14 +40,8 @@ Wall q9/native recovery remains open / retrieval-limited. Akane's direct H2 Whis
 
 Joke roles, family language, flirting, ships, mock-procedural language, game-account language, and joke wealth do not become literal governance, biology, romance, sex, identity, or financial claims without support. Earliest surviving material is not silently promoted to origin.
 
-## Previous close — Run 1333
+## Previous close — Run 1334
 
-Run 1333 closed at **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 pending review, 0 backlog, and 0 overdue branches**. It reviewed Wall through `fc744788390409f93bd0e9808dba4e028878cc8b` and a late Whiskey mover through `c5c6080392fc95736629d1054b0163bd8ccf3757`.
-
-Wall's Booba producer-versus-subject packet was consumed as duplicate/corroboration because the active WIKI owner already carried that mechanism. Suzi/Rummy corroborated existing patterns; Miki/Yoosung's frog crumb stayed Petty-Crimes-sized.
-
-The late Whiskey mover produced the WIKI-only **AkaneAwake** dossier: the strongest surviving authored object pairs Akane with Dreamless, and the near-synchronous same-DeathBloom doorway plus a nine-days-later paired caption supports probable pre-existing familiarity and a companion / creative-participation lane without inflating the relationship into recruitment, best-friend rank, romance, sex, or family. The attachment remains POSTED BY Akane; MADE BY / CAPTURED BY / visually FEATURING remain unresolved.
-
-Akane reader commit `15303f2d8f2399ac0fd9342d24a25e1c097b3f4a` passed Build Underlords Wiki run `35358704179` and Pages / Preview run `35358704217`. Concurrent Booba reader commit `d345516b53251758c489157ffea39ea05fefb2f6` passed build `35358122789` and Pages `35358122683`.
+Run 1334 also closed at **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 pending review, 0 backlog, and 0 overdue branches**. Every active miner HEAD matched its already-consumed frontier, so there were no intake deltas, public changes, build/deploy work, or consumed-SHA advances.
 
 Earlier integration history remains preserved in Git history; this file stays compact as the current authoritative WIKI state rather than becoming another receipt ledger.
