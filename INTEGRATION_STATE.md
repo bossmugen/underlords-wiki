@@ -1,14 +1,14 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-18 — Run 1343 quiet census_
+_Last updated: 2026-09-18 — Run 1344 quiet census_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
 
-## Current close — Run 1343
+## Current close — Run 1344
 
 The mandatory full branch census closes at **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 pending review, 0 backlog, and 0 overdue branches**. Both Club-Only recovery-priority lanes remain current. **6 `pending_publication` families** remain reviewed MAIN whole-person resynthesis debt rather than unread mining.
 
-Every active miner HEAD matched its already-consumed frontier. Run 1343 therefore had **0 new intake deltas, 0 genuinely new findings, 0 duplicate-family changes, 0 conflict/rabbit movement, and 0 consumed-SHA advances**. No raw archive re-mining and no miner-branch merge/cherry-pick was needed because there was no unconsumed tail.
+Every active miner HEAD still matches its already-consumed frontier. Run 1344 therefore had **0 new intake deltas, 0 genuinely new findings, 0 duplicate-family changes, 0 conflict/rabbit movement, and 0 consumed-SHA advances**. No raw archive re-mining and no miner-branch merge/cherry-pick was needed because there was no unconsumed tail.
 
 ## Public-surface result
 
@@ -18,7 +18,7 @@ Reader-facing changes: **0**. MAIN changed only durable census state. No fresh M
 
 ### WIKI
 
-Reader-facing changes: **0**. This file is the only WIKI state synchronization for Run 1343. No fresh WIKI build/Pages/deployment success is claimed for unchanged reader bytes.
+Reader-facing changes: **0**. This file is the only WIKI state synchronization for Run 1344. No fresh WIKI build/Pages/deployment success is claimed for unchanged reader bytes.
 
 Nothing was intentionally published to only one public surface because there was no new miner delta to integrate.
 
@@ -40,6 +40,6 @@ Akariel remains separate from Zyrcant. Rich / DragonRich remains separate from R
 
 Joke roles, family language, flirting, ships, mock-procedural language, game-account language, and joke wealth do not become literal governance, biology, romance, sex, identity, or financial claims without support. Earliest surviving material is not silently promoted to origin. Privacy-sensitive material stays backstage. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct.
 
-## Previous close — Run 1342 follow-up
+## Previous close — Run 1343
 
-Run 1342 follow-up published the already-reviewed Kiro boundary material to the existing WIKI owner, left MAIN reader bytes unchanged, and made no second miner-consumption advance. Earlier integration history remains preserved in Git history; this file stays compact as the current authoritative WIKI state rather than becoming another receipt ledger.
+Run 1343 was also a quiet census with all active miner HEADs already consumed and no public reader changes. Earlier integration history remains preserved in Git history; this file stays compact as the current authoritative WIKI state rather than becoming another receipt ledger.
