@@ -4,7 +4,7 @@ aliases: []
 pronouns: "she/her"
 roles:
   - "Staff"
-summary: "Japanese Staff member and TV news journalist whose surviving UL voice keeps making tiny information moves: `same` to going somewhere for info, `erratum` when a game figure needs correcting, and `accurate` when Mugen asks for a check. Coffee, karaoke, loot, and a small slice of Japan keep the file from becoming a newsroom."
+summary: "Japanese Staff member and TV news journalist whose surviving UL voice keeps making tiny information moves: `same` to going somewhere for info, `erratum` when a game figure needs correcting, and `accurate` when Mugen asks for a check. On the Wall she is just as economical: sometimes the receipt lands almost captionless and the only editorial aftercare is a tiny `:Hehe:`. Coffee, karaoke, loot, and a small slice of Japan keep the file from becoming a newsroom."
 summaryEvidence: "inferred"
 publication: "public"
 claims:
@@ -37,6 +37,13 @@ claims:
     sources:
       - label: "Wall of Shame/Fame · 2020-08-30"
         href: "/archive/wall"
+  - text: "On September 12 and September 22, 2020, Hishiro twice posted a blank-caption Wall attachment and followed it within seconds with `:Hehe:`."
+    evidence: "archive-confirmed"
+    date: "2020-09-12 – 2020-09-22"
+    sources:
+      - label: "Wall of Shame/Fame · 2020-09-12 and 2020-09-22"
+        href: "/archive/wall"
+    note: "The surviving sequence supports POSTED BY Hishiro and a recurring caption-light filing rhythm. The media itself was not inspected here; MADE BY / CAPTURED BY / FEATURING remain unresolved."
   - text: "On September 3, 2020, Hishiro corrected a Dragon Raja number statement with `sorry erratum multiple 400k+, as usual reapers`."
     evidence: "archive-confirmed"
     date: "2020-09-03"
@@ -76,6 +83,7 @@ antiFanon:
   - "Hishiro's user-confirmed television-news background and her archive use of `info`, `erratum`, and `accurate` can be read together as character texture, but the messages do not prove she was acting professionally in UL, importing newsroom workflow into the server, or holding a formal editor/fact-checker function."
   - "The August 20 `same` message is an exporter quote-render. Do not silently upgrade it into a true Discord reply arrow unless source metadata establishes one."
   - "Posting a screenshot or photo in Club-Only, Wall, or Slice proves POSTED BY Hishiro. It does not by itself prove CAPTURED BY or MADE BY."
+  - "The repeated attachment → `:Hehe:` sequences are Wall-local humor texture, not proof that Hishiro is universally quiet, shy, or a prankster."
   - "Coffee, loot, replies, and reactions are interaction evidence, not friendship or closeness rankings."
 relatedPeople:
   - "anthos"
@@ -87,6 +95,8 @@ tags:
   - "club-only"
   - "information-register"
   - "accuracy"
+  - "wall"
+  - "caption-light-filing"
 ---
 
 ## THE NEWSROOM DID NOT GET AN APPOINTMENT. THE VOCABULARY CAME ANYWAY.
@@ -137,11 +147,21 @@ That is not enough to invent a formal fact-checker title, and the page refuses t
 
 Read beside `same` and `erratum`, the recurrence is modest but specific: Hishiro's surviving chat voice repeatedly treats information as something that can be sought, corrected, or checked. Her real-life television-news background makes that vocabulary recognizable; the archive does not get to reverse the arrow and claim the profession caused every sentence.
 
+## THE WALL GETS THE ARTIFACT. HISHIRO ADDS `:HEHE:`.
+
+Her information register is compact. Her Wall humor may be even more economical.
+
+On August 30 she files `ClubChat Karaoke`, then ends up among the `Hehe` reactors on her own exhibit. September makes the rhythm harder to miss. Twice, Hishiro drops a Wall attachment with no explanatory caption and follows it within seconds with the same tiny editorial flourish:
+
+> `:Hehe:`
+
+That is practically the entire prosecution. No dramatic opening statement. No paragraph telling everybody why the screenshot is funny. The object lands; Hishiro adds the little laugh; the room is trusted to perform the rest of the autopsy itself.
+
+There is a satisfying contradiction in it. The same person who can be practical and exact about information does not need to over-explain a social receipt once it reaches the Wall. **Useful detail when the detail matters; one mischievous emote when it does not.** The file does not need to turn that into universal shyness or prankster mythology. It is simply Hishiro's recurring Wall-local economy: post first, `:Hehe:` second.
+
 ## GOOD. NOW GET HER OUT OF THE NEWSROOM.
 
 The same file also offers coffee.
-
-It files **`ClubChat Karaoke`** into the Wall.
 
 It celebrates a lucky streak and says she gave Anthos two good drops.
 
@@ -149,8 +169,13 @@ It posts two images to Slice with:
 
 > `A small slice of Japan for everyone`
 
-That range is the point. Hishiro does not need to become the site's tiny newsroom mascot merely because three information words line up nicely. The archive catches a working journalist speaking in a register that sometimes glints with correction/checking language, then immediately catches the rest of the person doing ordinary UL life: coffee, game loot, karaoke, pictures, people.
+That range is the point. Hishiro does not need to become the site's tiny newsroom mascot merely because three information words line up nicely. The archive catches a working journalist speaking in a register that sometimes glints with correction/checking language, then immediately catches the rest of the person doing ordinary UL life: coffee, game loot, karaoke, pictures, receipts, people.
 
 The quieter character read is therefore not **Hishiro fact-checks UL**.
 
-It is: when the room needs a check, Hishiro often seems perfectly happy to use fewer words than the question.
+It is: when the room needs a check, Hishiro often seems perfectly happy to use fewer words than the question. When the Wall needs context, sometimes she uses fewer words than that too.
+
+## Petty Crimes
+
+- Has apparently concluded that a blank-caption receipt followed by `:Hehe:` is a complete legal filing.
+- `ClubChat Karaoke` is both a caption and, spiritually, enough paperwork.
