@@ -1,10 +1,27 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-18 — Run 1350_
+_Last updated: 2026-09-18 — Run 1351_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
 
-## Current close — Run 1350
+## Current close — Run 1351
+
+The mandatory full branch census closes at **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 pending review, 0 backlog, and 0 overdue branches**. Two branches were advanced at opening (Daycare and Wall), and Louvre advanced after the opening snapshot; the late mover was persisted pending before deep review rather than hidden behind stale `last_seen_sha` state. Both Club-Only recovery-priority lanes remain current. **6 `pending_publication` families** remain reviewed MAIN whole-person resynthesis debt rather than unread mining.
+
+### Reviewed frontiers
+
+- **Daycare**: reviewed checkpoint-first/intake-only through `ccffd374809ba201b8f757a8bfdc12c3cd0942a0`. Eos / `astarosa` adds practical, low-theater helper texture: when somebody is blocked or confused, Eos tends to turn the situation into the next usable step without turning help into a rank performance. This is useful person material, but there is no mature public owner that would justify a skinny receipt dossier, so it is banked rather than inflated.
+- **Wall**: reviewed checkpoint-first/intake-only through `1c4c4b028867a9138bc1faa7ee0648ab2589e248`. Marsy supplied additive person texture, but the packet remains too narrow for a standalone public owner and was banked. No identity, role, romance, family, or media-provenance promotion was made from adjacency.
+- **Louvre / AI Art / Athenaeum / Other Games**: reviewed checkpoint-first/intake-only from `6af52aa2b922b54e3a19262f649d3fbb9bdb2811` through `81b763dd4c030bbe593da0fad5585e95cecf8636`. WolfPhenix and Kaede add useful belonging/visual-grammar/creative-room texture, but neither has enough mature cross-context public material here to justify a thin dossier. The final `34ab5ac0... -> 81b763dd...` advance changed only `checkpoint.md` and consolidated the same finding family; it did not add a new reader claim. The older Louvre MAIN resynthesis debt therefore remains `pending_publication`, while the miner delta itself is fully consumed.
+
+### Public-surface result
+
+- **MAIN reader-facing changes: 0.** The controlling ledger was closed at commit `0b817aa32e1f0dca49f332a06ad2117fe28bea6c` with `[skip ci]`. No fresh MAIN source-verification/Astro/built-output/deployment success is claimed for unchanged reader bytes.
+- **WIKI reader-facing changes: 0.** This file is the only WIKI change for Run 1351 and is state-only with `[skip ci]`; no fresh reader build/deployment is claimed.
+- **Consumed SHA updates:** Daycare `ccffd374809ba201b8f757a8bfdc12c3cd0942a0`; Wall `1c4c4b028867a9138bc1faa7ee0648ab2589e248`; Louvre-family `81b763dd4c030bbe593da0fad5585e95cecf8636`. Whiskey remains current at `71e948a9bbda40361ff7856f5bf05087ba5a27f3`.
+- **Duplicates / held material:** the final Louvre tail was checkpoint-only consolidation. Rich / DragonRich **remains separate from Ricochet**; the earlier conflicting miner statement is still rejected. Eos, Marsy, WolfPhenix, and Kaede are banked for future whole-person synthesis rather than converted into report-shaped micro-pages.
+
+## Previous close — Run 1350
 
 The mandatory full branch census closes at **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 pending review, 0 backlog, and 0 overdue branches**. Every active miner HEAD still matches the `last_seen_sha` and `last_consumed_sha` frontiers already recorded at the end of Run 1349; there were **no advanced or unconsumed miner deltas to review** this pass. Both Club-Only recovery-priority lanes remain current. **6 `pending_publication` families** remain reviewed MAIN whole-person resynthesis debt rather than unread mining.
 
@@ -60,9 +77,9 @@ Eos and Torr were intentionally WIKI-only this run: the material is excellent st
 
 - `archive-miner/club-only-2021-2026-hourly` remains current at `e45fb11c9239e236231bb65645dfd0285bc0078b`.
 - `archive-miner-clubonly-2020-hourly` remains current at `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`.
-- Wall is reviewed and consumed through `493e3dd285b78b35b7b12a48353dc50e5484dc9d`.
-- Daycare is reviewed and consumed through `c1df4e69ca422e08302e90e48672d58f134fe924`; older MAIN whole-person resynthesis debt remains.
-- Louvre-family remains current at `6af52aa2b922b54e3a19262f649d3fbb9bdb2811`; older MAIN resynthesis debt remains.
+- Wall is reviewed and consumed through `1c4c4b028867a9138bc1faa7ee0648ab2589e248`.
+- Daycare is reviewed and consumed through `ccffd374809ba201b8f757a8bfdc12c3cd0942a0`; older MAIN whole-person resynthesis debt remains where separately tracked.
+- Louvre-family is reviewed and consumed through `81b763dd4c030bbe593da0fad5585e95cecf8636`; older MAIN resynthesis debt remains.
 - Whiskey remains current at `71e948a9bbda40361ff7856f5bf05087ba5a27f3`.
 - Six `pending_publication` families remain reviewed MAIN resynthesis debt, not unread miner intake.
 
