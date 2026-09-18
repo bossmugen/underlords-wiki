@@ -1,3 +1,4 @@
+import "./integrator-cast-run1313-kuki-woohyuk";
 import { allCharacters, characterById } from "./cast";
 import type { Character } from "./wiki";
 
@@ -16,7 +17,7 @@ const upsertRelationship = (
 ) => {
   const index = relationships.findIndex((relationship) => relationship.name === name);
   const next = href ? { name, note, href } : { name, note };
-  if (index >= 0) relationships[index] = next;
+  if (index >= 0) relationships[index] = { ...relationships[index], ...next };
   else relationships.push(next);
 };
 
