@@ -1,30 +1,30 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-18 — Run 1342 close_
+_Last updated: 2026-09-18 — Run 1342 follow-up close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
 
-## Current close — Run 1342
+## Current close — Run 1342 follow-up
 
-The mandatory full branch census closes at **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 pending review, 0 backlog, and 0 overdue branches**. Both Club-Only recovery-priority lanes remain current. **6 `pending_publication` families** remain reviewed MAIN whole-person resynthesis debt rather than unread mining.
+The mandatory full branch census remains **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 pending review, 0 backlog, and 0 overdue branches**. Both Club-Only recovery-priority lanes remain current. **6 `pending_publication` families** remain reviewed MAIN whole-person resynthesis debt rather than unread mining.
 
-Two intake families moved during the run. Daycare was reviewed checkpoint-first through `470d5da0c11229f88ada1d251595d0c555c65c25`; its Aesh material is banked for future whole-person synthesis rather than padded into a skinny public owner. Wall was reviewed checkpoint-first through stable HEAD `7e1a104165153b56b52fc7e063ad621369dff174`.
+The controlling MAIN ledger already consumed Wall checkpoint-first through stable HEAD `7e1a104165153b56b52fc7e063ad621369dff174` in Run 1342. This follow-up is therefore a publication catch-up on that already-reviewed frontier, not new raw-archive mining and not a second consumption advance.
 
 ## Public-surface result
 
 ### MAIN
 
-Reader-facing changes: **0**. MAIN changed only durable census / consumption state. No fresh MAIN source-verification/Astro/built-output/deployment success is claimed for unchanged reader bytes.
+Reader-facing changes: **0**. There is still no mature MAIN Kiro owner that benefits from another receipt-shaped insertion, so the boundary material is intentionally left for a future whole-person biography resynthesis. No fresh MAIN source-verification/Astro/built-output/deployment success is claimed for unchanged reader bytes.
 
 ### WIKI
 
-Kiro's existing structured Cast owner was deepened rather than duplicated. The update keeps the already-owned petty receipt-filer / theatrical-defendant contradiction and adds Sou's direct peer read — `youre so unserious` — as lived reputation rather than a new incident card. Reader commit: `419eedfa8dff5662d924d8fee32f6831d467e67a`.
+Kiro's existing structured Cast owner was deepened in place. The already-public petty receipt-filer / theatrical-defendant / `youre so unserious` reputation now has a boundary edge: Kiro can keep Crystalia inside the Wall joke while also deciding she no longer gets direct access, later reporting `i blocked you` and `so sucks to be you` with the same flat finality. The person-shaped contradiction is reciprocal filer plus decisive boundary-setter; participating in the bit does not imply indefinite access.
 
-Verification is green: **Build Underlords Wiki `35375061754` succeeded** and **Deploy Underlords Wiki Preview / Pages `35375061834` succeeded**.
+Exact reader commit: `a4766c2ea41393f89cc5e2a924f4358d5fe396a9`.
 
-The newest Wall tail also strengthened Kiro's recurrent artifact-plus-verdict filing, but that mechanism was already public and was deduped into the same owner. Crystalia^-^ remains an ultra-thin person micro — near-silent authored Wall footprint but repeatedly socially invoked by Mugen and Anthos — and is banked rather than inflated into a thin dossier. Ren's September 7, 2020 `Pride bout to kill us for bodies UwU` is retained only as an earlier surviving Pride-threat reference; it is not promoted to the original threat.
+Verification is green on that exact reader SHA: **Build Underlords Wiki `35368067254` succeeded** and **Deploy Underlords Wiki Preview / Pages `35368067252` succeeded**.
 
-The Kiro deepening is intentionally **WIKI-only**. MAIN's richer biography standard does not benefit from another receipt-shaped insertion; the material can be folded into a later whole-person resynthesis instead.
+The update is intentionally **WIKI-only**. The WIKI already has a mature structured Kiro owner, while MAIN would become a thin receipt biography if this scene were forced public there now.
 
 ## Recovery / consumption state
 
@@ -38,10 +38,12 @@ The Kiro deepening is intentionally **WIKI-only**. MAIN's richer biography stand
 
 ## Hard holds
 
+Crystalia is supported here only as the person/handle Kiro tags, says annoys him, and later says he blocked. That exchange does not establish romance, family, exclusivity, relationship rank, or a broader identity bridge. Kiro's two September 2020 Wall attachments remain **POSTED BY Kiro** only at the current provenance ceiling; creator, capturer, and depicted subjects remain unresolved. q9 media provenance remains unresolved.
+
 Akariel remains separate from Zyrcant. Rich / DragonRich remains separate from Ricochet. Meowk remains separate from Alkey. Mia remains separate from Mimi; Momo remains separate from Mimi. Tae remains separate from Ansun / sou.san / 颯太. Support Tech remains Dean / Beansprout. Akamin remains separate from Mere. Nuien remains separate from Illien. Fake Aoi remains separate from Aoi / Asphodel. Similar display names never create an identity bridge by themselves.
 
 Joke roles, family language, flirting, ships, mock-procedural language, game-account language, and joke wealth do not become literal governance, biology, romance, sex, identity, or financial claims without support. Earliest surviving material is not silently promoted to origin. Privacy-sensitive material stays backstage. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct.
 
-## Previous close — Run 1341
+## Previous close — Run 1342
 
-Run 1341 was a quiet census with 51 tracked identities, no unread miner tail, no reader-facing changes, and no consumed-SHA advances. Earlier integration history remains preserved in Git history; this file stays compact as the current authoritative WIKI state rather than becoming another receipt ledger.
+Run 1342 closed the Daycare and Wall frontiers, deepened Kiro with Sou's direct `youre so unserious` peer read, and left MAIN reader bytes unchanged. Earlier integration history remains preserved in Git history; this file stays compact as the current authoritative WIKI state rather than becoming another receipt ledger.
