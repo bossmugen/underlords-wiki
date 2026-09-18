@@ -112,6 +112,38 @@ if (mrStreamerIndex >= 0) {
   allCharacters.push(mrStreamerCharacter);
 }
 
+const boobaIndex = allCharacters.findIndex((character) => character.id === "booba");
+if (boobaIndex >= 0) {
+  const booba = allCharacters[boobaIndex];
+  allCharacters[boobaIndex] = {
+    ...booba,
+    logline: "An early Wall regular who could hand the room its own nickname ammunition, shrug when `MsThiccy` stuck, then pivot straight into aesthetic prosecution when somebody committed the greater crime: light mode. The same mouth that happily feeds the bit can also ease off the pressure with `only if you want buuuut~` and `no need to force it kek`, giving her a softer edge underneath the receipt-ready teasing.",
+    tags: [...new Set([...(booba.tags ?? []), "Light-mode slander", "Permission-giving", "Petty Crimes"])],
+    relationships: [
+      ...(booba.relationships ?? []).filter((relationship) => relationship.name !== "Gilli"),
+      {
+        name: "Gilli",
+        note: "Booba checks whether Gilli is catching her reference, escalates to `alexa play despacito 2`, and after Gilli answers with `get the bonl` plus an attachment, Booba's next textual verdict is simply `... lightmode//`. The exchange reads like easy shared-bit fluency plus instant aesthetic policing; Gilli is POSTED BY for the attachment, while its creator, capture source, and depicted subjects stay unresolved.",
+        href: "/characters/gilli",
+      },
+    ],
+    quotes: [...new Set([...(booba.quotes ?? []), "wouldnt be the worst nickname here", "only if you want buuuut~", "no need to force it kek", "... lightmode//"])],
+    claims: [
+      ...(booba.claims ?? []),
+      "The same stable Wall account is rendered Booba and later boobaboo across the reviewed seam. `b00ba` appears as an export/filter token and is kept provenance-bounded rather than treated as a confirmed authored self-ID.",
+      "When Tarage asks `do we just call you Ms thiccy now?`, Booba answers `wouldnt be the worst nickname here`; the nickname works because she recognizes the joke and supplies no resistance whatsoever to it becoming room vocabulary.",
+      "A May 2021 exchange with Gilli runs from reference-checking to `alexa play despacito 2` to Booba's compact `... lightmode//` reaction, supporting a lived shared-bit/aesthetic-policing lane without upgrading Gilli's posted attachment beyond POSTED BY.",
+      "In another joke pocket Booba says `only if you want buuuut~` and `no need to force it kek`, adding a permission-giving counterweight to the roast-ready Wall persona.",
+    ],
+    antiFanon: [
+      ...(booba.antiFanon ?? []),
+      "The substring `MAL_TOMBOY` is not an identity bridge and is not used to merge Booba with anyone else.",
+      "`b00ba` is preserved as a source/export filter token unless an authored handle claim turns up; do not rewrite it into a confirmed self-chosen alias from this packet alone.",
+      "Gilli's nearby attachment is POSTED BY Gilli only at this review level. MADE BY, CAPTURED BY, and FEATURING remain unresolved without media-specific support.",
+    ],
+  };
+}
+
 export const castGroups = previousGroups.map((group) => ({
   ...group,
   characterIds: [...group.characterIds],
