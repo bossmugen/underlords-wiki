@@ -85,7 +85,7 @@ if (eosIndex >= 0) {
   extendRelationship(relationships, {
     name: "Marian",
     note:
-      "Late June Whiskey keeps selecting Marian as Eos's direct partner for tiny repeatable bits—`w/hug @Marian Kage`, another tagged hug command the next day, then `Maybe a 5th time it’ll be different` before a quick `thee u go`. The exact command premise is incomplete, but the recurrence makes the comfortable retry-and-continue rhythm visible outside a single Wall receipt.",
+      "Late June Whiskey keeps selecting Marian as Eos's direct partner for tiny repeatable bits—`w/hug @Marian Kage`, another tagged hug command the next day, then `Maybe a 5th time it’ll be different` before a quick `thee u go`. The exact command premise is incomplete, but the recurrence makes the comfortable retry-and-continue rhythm visible outside a single Wall receipt. Wall makes the same familiarity hilariously procedural: when Marian says one of Eos's filings is missing context, Eos answers `no context is needed wym`; months later Marian files Eos and Eos immediately pleads `ps there is some context to why i said that-` and actually brings `prooooooof.png`. By June they are racing filings and mock-threatening retaliation. They know the fake courtroom well enough to argue both sides of the same standard without leaving the bit.",
     href: "/characters/panda",
   });
 
@@ -98,6 +98,8 @@ if (eosIndex >= 0) {
       "Counter-roast",
       "Self-prosecution",
       "Receipt-dealer contradiction",
+      "Context litigation",
+      "Competitive filing",
       "Caught-in-4K continuity",
       "Loud arrival",
       "Cross-room recognition",
@@ -122,6 +124,11 @@ if (eosIndex >= 0) {
       "i said dont look:HissMadExplosionPan:",
       "Take zhenyan :sippp:",
       "@Marian Kage you’ve been… sort of spared",
+      "no context is needed wym",
+      "ps there is some context to why i said that-",
+      "......since we're here ima shame rq",
+      "BEATING U TO IT, PANDA",
+      "NONO look at my shame",
       "Debating on sending more",
       "The moment you pinged me I knew I was gonna get caught in 4k lmaooo",
       "I have a habit in finding people caught in 4k huh?",
@@ -144,6 +151,8 @@ if (eosIndex >= 0) {
       "On 2021-05-02 Eos calls herself a `dead corpse`; after Mugen and Gabu explicitly reply into the corpse joke, Eos returns with `this ded corpse always around for the taking` instead of retreating from the bit.",
       "On 2021-06-07 Eos self-starts a Wall post with `gonna just put myself here and head out-`, reinforcing a recurring mock-surrender / active-authorship pattern rather than a passive-only Wall-target role.",
       "On 2021-06-17 Eos answers Marian's Wall post with `i said dont look`, then about four minutes later posts an image herself with `Take zhenyan` and tells Marian `you’ve been… sort of spared`; this is a particularly clean target-to-filer pivot.",
+      "Eos's Wall standards flip with the chair she is sitting in: in July 2021 she answers Marian's complaint about missing context with `no context is needed wym`; when Marian files Eos in March 2022, Eos answers `ps there is some context to why i said that-` and mechanically replies with the supporting artifact `prooooooof.png`. The prosecutor/defendant double standard is part of the joke and a durable character contradiction, not something to smooth away.",
+      "By June 2022 Eos is treating prosecution as an opportunistic competitive sport: `......since we're here ima shame rq`, `BEATING U TO IT, PANDA`, and then `NONO look at my shame` when Marian's counter-filing starts stealing the room's attention. The pattern deepens her from frequent Wall target into somebody actively managing the spectacle.",
       "On 2021-07-07, after Baby Lyssa reacts to the current material with `bruh` / `what did i just read`, Eos says `Debating on sending more`; Gilli answers `@Eos donit`. By December, Rich can simply tell Eos it is time to `punish a panda` and Eos directly replies by summoning Marian.",
       "The `caught in 4k` language is longitudinal rather than a one-night joke: on 2021-03-31 Eos says a ping made her know she was about to get caught; on 2021-07-15 she calls finding other people caught in 4k a habit; and on 2022-12-05 she is still filing another catch with `Got him again`. The durable contradiction is target and catcher at once.",
       "On 2021-09-23 Eos enters Daycare with `HELLO DAYCARE`; Mugen answers `EOS HI` 53.168 seconds later, and Eos returns `HIIIII MUGS`. Eos signs off the next day with `GN BABIESSS`, supporting a low-volume-but-audible social style rather than quiet disappearance.",
@@ -161,7 +170,8 @@ if (eosIndex >= 0) {
       "Rummy is the probable referent of `your` in the spelling counterpunch from immediate context, but the second Eos line is not a structured Reply and is not upgraded to mechanical certainty.",
       "Eos's corpse language is joke/exhaustion language, not literal death or harm; Mugen/Gabu joining the bit does not establish romance or violence.",
       "The `dead_corpse.png`, `Untitled.png`, Marian's 2021-06-17 image, and Eos's `Take zhenyan` image are only attributed at POSTED BY level here unless another source independently establishes MADE BY / CAPTURED BY / FEATURING.",
-      "Eos's `divorced` language in the July receipt pocket is UL joke/social language, not evidence of a legal marriage, sexuality, or real-world relationship status.",
+      "Eos's `prooooooof.png` is mechanically attached to her reply to Marian's invitation to share context, so it is safely Eos's POSTED supporting artifact in that argument. Its creator, capturer, and visual subjects remain unresolved.",
+      "Eos's `divorced` language, Marian's mock-divorce framing, and their affectionate `ily` language stay playful peer vocabulary; they do not establish a legal marriage, romance, sexuality, family, or an exclusive relationship rank.",
       "Being repeatedly recruitable into Wall teasing is social reputation, not a formal Wall role, office, or governance authority.",
       "The recurring `caught in 4k` pattern is social reputation and joke behavior, not a formal moderation, surveillance, or archival role; unseen exhibits remain uninspected.",
       "These support receipts are Wall chronology used to deepen Eos; they are not relabeled as direct Daycare dialogue.",
