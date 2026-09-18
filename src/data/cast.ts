@@ -400,6 +400,55 @@ if (eosIndex >= 0) {
   };
 }
 
+const oyasumiIndex = allCharacters.findIndex((character) => character.id === "oyasumi");
+if (oyasumiIndex >= 0) {
+  const oyasumi = allCharacters[oyasumiIndex];
+  const relationships = [...(oyasumi.relationships ?? [])];
+  const upsert = (name: string, note: string, href?: string) => {
+    const index = relationships.findIndex((relationship) => relationship.name === name);
+    const next = href ? { name, note, href } : { name, note };
+    if (index >= 0) relationships[index] = next;
+    else relationships.push(next);
+  };
+  upsert(
+    "Moon",
+    "Moon briefly switches Discord into light mode and Oyasumi reacts like she has committed an offense — `LMAO LIGHT`, `I hate`, `Even if it's for a second` — only for later Wall material to reveal that Oyasumi keeps Discord in light mode himself. The callback works as a self-own, not a serious dispute.",
+    "/characters/moon",
+  );
+  upsert(
+    "Suzi",
+    "When Oyasumi eventually admits `i keep light mode on discord`, Suzi answers `LIGHT MODE? 😭`. Days later Oyasumi turns the reaction into a continuing bit by describing himself as `furiously checking discord in light mode to make amends with suzi`. The repeat is comfortable callback humor, not evidence of romance or an intimacy ranking.",
+    "/characters/suzi",
+  );
+
+  allCharacters[oyasumiIndex] = {
+    ...oyasumi,
+    aliases: [...new Set([...(oyasumi.aliases ?? []), "sleepytokyo", "sleepytokyo 🌸"])],
+    logline: "Wall regular with an excellent hypocrisy arc: Oyasumi can post receipts, treat Moon's momentary switch to light mode like a moral emergency, then later casually confess that he keeps Discord in light mode himself and turn Suzi's horror into a running `make amends` bit. Screenshot Court did not merely catch him; it found the prosecutor using the cursed theme at home.",
+    tags: [...new Set([...(oyasumi.tags ?? []), "Wall", "Receipt culture", "Self-owning callbacks", "Light mode", "Moon banter", "Suzi banter", "Petty Crimes"])],
+    relationships,
+    quotes: [...new Set([
+      ...(oyasumi.quotes ?? []),
+      "LMAO LIGHT",
+      "I hate",
+      "Even if it's for a second",
+      "nothing would happen cause i keep light mode on discord idiot",
+      "Me furiously checking discord in light mode to make amends with suzi",
+    ])],
+    claims: [
+      ...(oyasumi.claims ?? []),
+      "Oyasumi participates from the filer side of the Wall as well as the reaction side, including media-bearing Wall posts in April 2021.",
+      "Light mode becomes a recurring self-own across years: Oyasumi mocks Moon's brief light-mode use, later admits keeping Discord in light mode, then explicitly calls back Suzi's reaction while still using it.",
+    ],
+    antiFanon: [
+      ...(oyasumi.antiFanon ?? []),
+      "Oyasumi's media-bearing Wall posts establish POSTED BY Oyasumi only; MADE BY, CAPTURED BY, and FEATURING require separate support.",
+      "Current/export role labels do not date a Staff appointment or authorize a promotion chronology.",
+      "The Moon and Suzi light-mode exchanges are recurring social jokes, not romance, family, or a closeness ranking.",
+    ],
+  };
+}
+
 const baileyIndex = allCharacters.findIndex((character) => character.id === "bailey-babe");
 const baileyCharacter: Character = {
   id: "bailey-babe",
