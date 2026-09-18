@@ -1,6 +1,7 @@
 import "./integrator-cast-run1273-wall-torr-hamittey";
 import "./integrator-cast-run1276-wall-panda";
 import "./integrator-cast-run1294-wall-nobu-zhenxi";
+import "./integrator-cast-run1299-daycare-louvre-whiskey";
 import { allCharacters, characterById } from "./cast";
 import type { Character } from "./wiki";
 
@@ -34,9 +35,9 @@ const mimi = allCharacters[mimiIndex] as ExtendedCharacter;
 const mimiNext: ExtendedCharacter = {
   ...mimi,
   description:
-    "Mimi is easy to mistake for the soft one right up until she is holding the folder. She calls Gilli a jewel between heart emotes, takes Dayadream calling her UL's honorary sweetheart with a wheeze and a blush, and is also perfectly happy to feed the Wall herself. The warmth is real; so is the appetite for communal nonsense. Mimi can be affectionate, curious, publicly delighted by other people, and still be the person dropping a packet of receipts and laughing first.",
+    "Mimi is easy to mistake for the soft one right up until she is holding the folder. She calls Gilli a jewel between heart emotes, takes Dayadream calling her UL's honorary sweetheart with a wheeze and a blush, and is also perfectly happy to feed the Wall herself. The warmth is real; so is the appetite for communal nonsense. It also travels into practical care for the room: after first arriving on the receiving end of a newcomer handoff, Mimi later becomes one of the people greeting newcomers, laying out safety rules, pointing them toward the server map and Whiskey, and getting them settled. Soft is not passive here. Mimi can be affectionate, procedural, curious, and still be the person dropping a packet of receipts and laughing first.",
   logline:
-    "Affectionate sweetheart with an active filing habit: Mimi can blush when the room praises her, call somebody a jewel, and then cheerfully become part of the machinery that keeps everybody's nonsense public.",
+    "Affectionate sweetheart with an active filing habit and a steward streak: Mimi can blush when the room praises her, call somebody a jewel, drop a Wall packet, then turn around and make sure the next newcomer knows the rules and where everybody actually hangs out.",
   tags: unique([
     ...(mimi.tags ?? []),
     "Wall",
