@@ -67,15 +67,63 @@ if (asphodelIndex >= 0) {
   allCharacters.push(asphodelCharacter);
 }
 
+const mrStreamerIndex = allCharacters.findIndex((character) => character.id === "mr-streamer");
+const mrStreamerCharacter: Character = {
+  id: "mr-streamer",
+  name: "Mr. Streamer",
+  aliases: ["ulstreamer"],
+  billing: "guest",
+  role: "Archive-era cast",
+  era: "2022",
+  logline: "A three-message Wall footprint with an absurdly specific job description: post the receipt, come back 4.759 seconds later to say `Via @DiStratus(Torr)`, then post another receipt. The streamer-coded name is almost a fake-out here; Torr is the one explicitly talking about his stream, while Mr. Streamer is the quiet courier making sure at least one artifact reaches Wall with its source attached.",
+  tags: ["Archive cast", "Wall", "Receipt relay", "Source credit", "Artifact-first", "Low-verbiage", "Petty Crimes"],
+  relationships: [
+    {
+      name: "Torr",
+      note: "Mr. Streamer posts a Wall screenshot and returns 4.759 seconds later with `Via @DiStratus(Torr)`. Torr later says he is giving the room a lot of material with his stream. That supports a bounded source-to-relay handoff lane: Torr supplies or generates material; Mr. Streamer moves at least one explicitly credited receipt into Wall. It does not establish friendship rank, media-office responsibility, MADE BY, CAPTURED BY, or FEATURING.",
+      href: "/characters/torr",
+    },
+  ],
+  quotes: ["Via @DiStratus(Torr)"],
+  claims: [
+    "Mr. Streamer's surviving authored Wall footprint is three messages on October 5, 2022: two direct attachment posts and the source-credit line `Via @DiStratus(Torr)` between them.",
+    "The first source credit arrives 4.759 seconds after the preceding screenshot, making Torr a strong local SOURCE / RELAY route for that object while leaving MADE BY, CAPTURED BY, and FEATURING unresolved.",
+    "Torr later says `i'm giving a lot of material with this stream`, which supports the same-pocket stream-to-receipt context without proving that every nearby object came from Torr.",
+  ],
+  antiFanon: [
+    "`Mr. Streamer` and the surviving nickname `Mr. Streamer (Gabu's Chair)` do not establish a formal media title, appointment, or that he was the broadcaster in this scene.",
+    "`Via @DiStratus(Torr)` is SOURCE / RELAY credit. It does not by itself establish MADE BY Torr, CAPTURED BY Torr, or FEATURING Torr.",
+    "The second posted object lacks its own `Via` line, so Torr as source for that object remains contextual rather than object-bound confirmed.",
+    "Three surviving Wall messages support a coherent micro-profile, not universal claims about how Mr. Streamer behaved in every room.",
+  ],
+};
+
+if (mrStreamerIndex >= 0) {
+  const mrStreamer = allCharacters[mrStreamerIndex];
+  allCharacters[mrStreamerIndex] = {
+    ...mrStreamer,
+    ...mrStreamerCharacter,
+    aliases: [...new Set([...(mrStreamer.aliases ?? []), ...mrStreamerCharacter.aliases!])],
+    tags: [...new Set([...(mrStreamer.tags ?? []), ...mrStreamerCharacter.tags!])],
+    relationships: mrStreamerCharacter.relationships,
+    quotes: [...new Set([...(mrStreamer.quotes ?? []), ...mrStreamerCharacter.quotes!])],
+  };
+} else {
+  allCharacters.push(mrStreamerCharacter);
+}
+
 export const castGroups = previousGroups.map((group) => ({
   ...group,
   characterIds: [...group.characterIds],
 }));
 
 // Public taxonomy has no catch-all group. Until a formal UL role/membership lane is
-// established, keep Aoi visible under the existing VIP/insufficient-membership-evidence bucket.
+// established, keep these archive-era files visible under the existing
+// VIP/insufficient-membership-evidence bucket rather than inventing a role history.
 const vipGroup = castGroups.find((group) => group.id === "vip");
-if (vipGroup && !vipGroup.characterIds.includes("asphodel")) vipGroup.characterIds.push("asphodel");
+for (const characterId of ["asphodel", "mr-streamer"]) {
+  if (vipGroup && !vipGroup.characterIds.includes(characterId)) vipGroup.characterIds.push(characterId);
+}
 
 export const characterById = new Map(allCharacters.map((character) => [character.id, character]));
 export const primaryGroupByCharacterId = new Map(
