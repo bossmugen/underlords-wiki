@@ -1,12 +1,12 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-18 — Run 1324 close_
+_Last updated: 2026-09-18 — Run 1325 close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
 
-## Current close — Run 1324
+## Current close — Run 1325
 
-The mandatory full branch census resolves to **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 pending review, 0 backlog, and 0 overdue branches**. Every active miner HEAD exactly matched its Run 1323 `last_seen_sha` and `last_consumed_sha`, so there was no intake delta to review and no consumed frontier to advance.
+The mandatory full branch census resolves to **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 pending review, 0 backlog, and 0 overdue branches**. Every active miner HEAD exactly matched its Run 1324 `last_seen_sha` and `last_consumed_sha`, so there was no intake delta to review and no consumed frontier to advance.
 
 Both Club-Only recovery-priority lanes remain current. **5 `pending_publication` families** remain older reviewed MAIN whole-person resynthesis debt rather than unread mining.
 
@@ -16,7 +16,7 @@ Both Club-Only recovery-priority lanes remain current. **5 `pending_publication`
 - Reader-facing WIKI change: **0**.
 - No source/canon verifier, Astro build, rendered-output verification, Pages build, browser check, or deployment is run or claimed because reader-facing bytes did not change.
 - No consumed SHA advanced because no miner branch advanced.
-- MAIN persisted the Run 1324 full census at commit `fe5500cc23856662f1b22c96d1ae997f785e185d`.
+- MAIN persisted the Run 1325 full census at commit `38011affed0e32ddd79e6c35f4afbd22bebf3bc1`.
 
 ## Reconciliation / holds
 
