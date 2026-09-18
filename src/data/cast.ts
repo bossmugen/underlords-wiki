@@ -191,6 +191,36 @@ if (boobaIndex >= 0) {
   };
 }
 
+const roseIndex = allCharacters.findIndex((character) => character.id === "rose");
+if (roseIndex >= 0) {
+  const rose = allCharacters[roseIndex];
+  const relationships = [...(rose.relationships ?? [])];
+  const rummyIndex = relationships.findIndex((relationship) => relationship.name === "Rummy");
+  const rummyRelationship = {
+    name: "Rummy",
+    note: "Under the phenomenal_lamb handle, Rummy and Rose can turn Wall filing into reciprocal sport: Rose challenges her to a mock fight, later tags her into receipts, gets `NAAUUUUUURRR` and keyboard-smash resistance back, and keeps prosecuting anyway. It reads as comfortable public antagonism-for-fun, not rank, romance, or literal violence.",
+    href: "/characters/rummy",
+  };
+  if (rummyIndex >= 0) relationships[rummyIndex] = rummyRelationship;
+  else relationships.push(rummyRelationship);
+
+  allCharacters[roseIndex] = {
+    ...rose,
+    logline: "Historical Staff whose softer ordinary register shares a desk with a full Wall prosecutor-defendant complex: Rose can talk plainly about feeling better, working out and missing it, tell somebody `No need to apologize silly`, then circulate receipts, repost a moment `For those who missed this`, race other people to the filing cabinet and immediately accept that she is also going to end up on the Wall herself.",
+    tags: [...new Set([...(rose.tags ?? []), "Receipt circulation", "Wall prosecutor", "Mock defendant", "Self-aware filing", "Petty Crimes"])],
+    relationships,
+    quotes: [...new Set([
+      ...(rose.quotes ?? []),
+      "For those who missed this",
+      "He hit me first",
+      "Its his fault",
+      "I knew id get in here",
+      "Its only going to get worse",
+      "Beat me to it",
+    ])],
+  };
+}
+
 export const castGroups = previousGroups.map((group) => ({
   ...group,
   characterIds: [...group.characterIds],
