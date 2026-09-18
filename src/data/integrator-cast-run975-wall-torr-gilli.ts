@@ -27,12 +27,26 @@ const gilliRelationship = {
 if (gilliIndex >= 0) relationships[gilliIndex] = gilliRelationship;
 else relationships.push(gilliRelationship);
 
+const rummyRelationship = {
+  name: "Rummy",
+  note:
+    "Torr can join a room-wide guilt bit by half-defending and half-roasting Rummy: `the only thing rummy guilty of is the overuse of the semi colon`. Thirty-six seconds later he notices his own `eglish` and turns the language policing back on himself; Rummy later directly replies to the semicolon line with `:EmoJi_stupid:`. The exchange is compact mutual teasing, not a closeness ranking.",
+  href: "/characters/rummy",
+};
+const rummyIndex = relationships.findIndex((relationship) => relationship.name === "Rummy");
+if (rummyIndex >= 0) relationships[rummyIndex] = rummyRelationship;
+else relationships.push(rummyRelationship);
+
 allCharacters[torrIndex] = {
   ...torr,
   tags: unique([
     ...(torr.tags ?? []),
     "Receipt-generator self-awareness",
     "Gilli context hazard",
+    "Dry observation",
+    "Self-own",
+    "Absurdist humor",
+    "Petty Crimes",
   ]),
   relationships,
   quotes: unique([
@@ -40,16 +54,23 @@ allCharacters[torrIndex] = {
     "why do right so many things that can be taken out of context when @New Account Gilli#3226 is around",
     "XD i'm giving a lot of material with this stream",
     "i get on here a lot. i blame @New Account Gilli#3226 bad influence.",
+    "the only thing rummy guilty of is the overuse of the semi colon",
+    "oh no the eglish has become normalized to me",
+    "table kun fine\ni'm inside table kun where it's nice and warm",
   ]),
   claims: unique([
     ...(torr.claims ?? []),
     "Late September through October 2022 turns Torr's context-awareness into a recurring self-observation rather than a single reaction. Gilli can post/summon him and get `that can be taken out of context XD`; Torr later explicitly wonders why he writes so many context-collapsible things when she is around, says he is giving the room material with his stream, and jokes that her bad influence is why he lands on the Wall so often. He can see the receipt-production mechanism while he is still feeding it.",
     "The repeated Gilli lane deepens an existing contradiction instead of replacing it: Torr dislikes having context collapse onto him, becomes fluent at spotting exactly how it happens, and eventually treats his own tendency to manufacture Wall material as part of the joke. The familiarity is social and recurring, not evidence of a formal role or an off-Wall relationship rank.",
+    "The same dry self-awareness survives beyond the first Gilli receipt run. In January 2023 Torr prosecutes Rummy for `overuse of the semi colon`, then almost immediately catches his own `eglish` and makes himself the joke; Rummy later replies directly to the semicolon line. The snark lands lightly because Torr is willing to turn the knife around on himself.",
+    "By May 2023 Torr can drop a lazy-anime GIF and announce that he is `inside table kun where it's nice and warm`; four people answer with the same stare reaction and Moon later directly `:BONKED:` the line. The room does not need an explanation before joining the nonsense, which adds absurdist room-fluency to the receipt-aware straight-man side of him.",
   ]),
   antiFanon: unique([
     ...(torr.antiFanon ?? []),
     "Gilli's repeated screenshot/summon rhythm and Torr's `bad influence` joke support recurring Wall familiarity; do not convert that into a best-friend ranking, romance, or a claim about their entire relationship outside the surviving scenes.",
     "Mr Streamer's 2022 `Via @DiStratus(Torr)` wording can support supplied-through attribution only. Without inspected pixels or independent provenance, it does not make Torr MADE BY, CAPTURED BY, or FEATURING for the screenshot.",
+    "The semicolon/`eglish` and `table kun` material comes from Wall support used to deepen Torr's person profile; it is not relabeled as direct Daycare dialogue while the direct Daycare message body remains unreadable.",
+    "Rummy's direct reply and Moon's `:BONKED:` support local joke uptake. Neither scene establishes friendship rank, romance, family, governance, or a formal social role.",
   ]),
 } as ExtendedCharacter;
 
