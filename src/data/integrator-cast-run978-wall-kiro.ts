@@ -13,7 +13,8 @@ const appendUnique = (items: string[] | undefined, additions: string[]) =>
 // Run 978 folds the latest Wall synthesis into the existing Kiro owner. This is
 // cumulative person material, not a standalone incident: Kiro repeatedly frames
 // other people's receipts with captions, then becomes a theatrically evasive
-// defendant when the room points the filing system back at him.
+// defendant when the room points the filing system back at him. Run 1342 adds a
+// peer-reputation receipt rather than creating another incident or second owner.
 const kiroIndex = allCharacters.findIndex((character) => character.id === "kiro");
 if (kiroIndex < 0) {
   throw new Error("Run 978 expected canonical Kiro owner; stable account 754128584498610178 must not become a duplicate character.");
@@ -23,7 +24,7 @@ const kiro = allCharacters[kiroIndex] as ExtendedCharacter;
 allCharacters[kiroIndex] = {
   ...kiro,
   description:
-    "Kiro is both one of Screenshot Court's caption writers and one of its easiest defendants. He can file `Being petty`, demand that Seraph explain himself, publish `Body = deceased / Wig = still living`, or turn Daya into `the holy divine light of raja`; when the room identifies Kiro in somebody else's exhibit, the same man answers `N-n-n-no..` and then `Who's kiro`. The throughline is not simply embarrassment tolerance. Kiro likes making the receipt funnier from whichever side of the desk he happens to occupy.",
+    "Kiro is both one of Screenshot Court's caption writers and one of its easiest defendants. He can file `Being petty`, demand that Seraph explain himself, publish `Body = deceased / Wig = still living`, or turn Daya into `the holy divine light of raja`; when the room identifies Kiro in somebody else's exhibit, the same man answers `N-n-n-no..` and then `Who's kiro`. The throughline is not simply embarrassment tolerance. Kiro likes making the receipt funnier from whichever side of the desk he happens to occupy. Sou eventually supplies the peer review in one sentence: `youre so unserious`.",
   logline:
     "Petty receipt-captioner, mock prosecutor, and catastrophically unserious defendant: Kiro will frame the exhibit, get caught by the exhibit, then help the room make the filing worse.",
   tags: appendUnique(kiro.tags, [
@@ -44,12 +45,14 @@ allCharacters[kiroIndex] = {
     "The useful contradiction is how quickly Kiro changes seats. On April 2, 2023 Momo posts an uninspected image while directly tagging him; Daya asks whether `HicUUOOOOGH` is Kiro, Kiro answers `N-n-n-no..`, Momo says `Yeppers`, and Kiro follows with `Who's kiro`. The person who likes framing other people's exhibits becomes a mock-amnesiac defendant the second the room points at him, then stays in the joke instead of withdrawing.",
     "Kiro and Gilli have recurring bounded receipt familiarity. Gilli true-replies to Kiro's `Being petty` parent with `DID YOU GET IT?`; Kiro true-replies `No` with a crying emoji. Months later Kiro true-replies to a Gilli screenshot with `I JUST REALIZED YOURE GILLI`, then `OH GOD` and crying. The repeated ease is useful relationship texture without becoming a closeness hierarchy.",
     "Kiro's supporting voice stays aggressively image-heavy even outside the main receipts: he calls RV `the fountain of youth itself`, volunteers to make Jail the group's `primary home`, and ends one true-reply to Mugen with `Fishball dipped in vinegar🕊️`. These are Petty Crimes / voice texture, not separate governance or relationship claims.",
+    "Kiro's unseriousness is not only an integrator read from his own punchlines. On April 4, 2023, Sou addresses him directly with `Hi kiro if you see this i love you youre so unserious`. The useful part is the peer reputation: somebody who knows the room's Kiro already treats `so unserious` as an instantly legible description of him.",
   ]),
   antiFanon: appendUnique(kiro.antiFanon, [
     "The Wall screenshots used for Kiro's receipt-captioning pattern remain visually uninspected. Preserve POSTED BY exactly; do not infer MADE BY, CAPTURED BY, or FEATURING from captions, tags, reactions, or adjacency.",
     "Momo's April 2, 2023 image is POSTED BY Momo. Daya and Momo's in-scene identification supports the theatrical Kiro-denial exchange, but it does not independently establish who appears in the image.",
     "Kiro↔Gilli is bounded recurring receipt/display-name familiarity. The archive does not turn those exchanges into romance, family, exclusivity, or a ranked closeness claim.",
     "`primary home` is Kiro extending Moon's Jail joke. It is not a formal housing, governance, or membership-status statement.",
+    "Sou's `i love you youre so unserious` is affectionate peer language plus a direct character read. It does not establish romance, sex, exclusivity, or a ranked relationship between Sou and Kiro.",
   ]),
 } as ExtendedCharacter;
 
