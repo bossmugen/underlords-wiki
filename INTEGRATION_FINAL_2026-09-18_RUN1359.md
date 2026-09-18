@@ -14,28 +14,37 @@ All three closing miner heads remained stable after review.
 
 ## WIKI reader changes
 
-Reader commit: `a167a2c6b7018466bbfb08e6262eb3bfe7c5ff17`.
+Final corrected reader commit: `42f3bb69ce6f51900092d9115014d9a05edb2323`.
 
 The live structured Cast surface now:
 
-- keeps **Akariel** separate from **Zyrcant**, gives Akariel her own Wall-shaped dossier, and removes Akariel account forms from Zyrcant;
+- keeps **Akariel** separate from **Zyrcant**, gives Akariel her own Wall-shaped dossier, and removes Akariel account forms / Wall receipts from Zyrcant;
 - keeps **Alkey** separate from **Meowk** instead of routing Meowk account labels / Wall receipts into Alkey;
 - deepens **Gabu** from tentative Saber learner with ƐℲı˥ / Sye backup into the person Snow can eventually dismiss the room with: `Gabu has this`, plus later multi-day alert validation and conditional migration planning;
-- deepens **Shiki / Shk / yuki1794** around game exit without social exile: `quit long ago` can coexist with still telling Crystalia she is `always free to chill or hang out`.
+- deepens the existing **Shiki** owner with the Shk / yuki1794 Whiskey material around game exit without social exile: `quit long ago` can coexist with still telling Crystalia she is `always free to chill or hang out`;
+- preserves **Jas** as Staff / recurring cast rather than letting the new Wall slice downgrade him to an archive-only guest.
 
-Jas's newest Wall material was duplicate/corroboration against the mature existing person read and did not get another receipt-shaped public owner.
+A concurrent Run 1359 module briefly created a second `shk` character owner after the first reader pass. That violated the hard identity lock **Shiki = Shk = yuki1794**. The final reader commit removes that duplicate owner, routes the new material into canonical `shiki`, and preserves current role/billing metadata instead of letting an intake-local slice overwrite the person's established public identity.
+
+Jas's newest Wall material remains mostly duplicate/corroboration against the mature person read; the final module preserves his canonical Staff metadata while folding only the useful structured texture.
 
 ## Verification / deployment
 
-- **Build Underlords Wiki** run `35406598055` — completed successfully for exact reader SHA `a167a2c6b7018466bbfb08e6262eb3bfe7c5ff17`.
-- **Deploy Underlords Wiki Preview / Pages** run `35406598047` — completed successfully for the same reader SHA, including deployment.
+The first Run 1359 reader frontier `a167a2c6b7018466bbfb08e6262eb3bfe7c5ff17` passed both build and Pages deployment, but later concurrent WIKI changes required the hard-canon Shiki repair described above.
+
+For the final corrected reader SHA `42f3bb69ce6f51900092d9115014d9a05edb2323`:
+
+- **Build Underlords Wiki** run `35407267780` — completed successfully.
+- **Deploy Underlords Wiki Preview / Pages** run `35407267786` — Pages build completed successfully, but the deploy job was cancelled; rerunning the cancelled deployment job produced the same cancellation. No successful deployment of the final corrected reader SHA is claimed from that run.
+
+This state-only report update intentionally triggers one fresh WIKI build + Pages attempt so the final corrected reader can receive a clean deployment verification without changing reader content again.
 
 ## MAIN cross-surface result
 
-MAIN attempted a person-first Akariel owner, corrected Zyrcant page, and Alkey/Meowk roster repair. Its required production verifier/deployer, run `35406800629`, failed before runner steps on attempt 1 and again on attempt 2. MAIN therefore rolled every reader-facing change back instead of leaving unverified public bytes on `master`. The hard-canon correction is live on WIKI but remains a durable MAIN publication blocker for a later verified pass.
+MAIN attempted a person-first Akariel owner, corrected Zyrcant page, and Alkey/Meowk roster repair. Its required production verifier/deployer, run `35406800629`, failed before runner steps on attempt 1 and again on attempt 2. MAIN therefore rolled every reader-facing change back instead of leaving unverified public bytes on `master`. The hard-canon correction is live in WIKI source but remains a durable MAIN publication blocker for a later verified pass.
 
 ## Rails held
 
-Akariel ≠ Zyrcant. Alkey ≠ Meowk. Rich / DragonRich ≠ Ricochet. Gabu's Saber→Carl wording remains conditional planning, not completed migration. Shiki's Dragon Raja exit is not a UL departure. Lilly/Shiki Jail language remains a joke. Vanness/ShiyaX's `GABU` screenshot referent remains unresolved without pixels. Akariel's `tackles ppl` wording remains chat slapstick. POSTED BY never silently becomes MADE BY / CAPTURED BY / FEATURING.
+Akariel ≠ Zyrcant. Alkey ≠ Meowk. Shiki = Shk = yuki1794. Rich / DragonRich ≠ Ricochet. Gabu's Saber→Carl wording remains conditional planning, not completed migration. Shiki's Dragon Raja exit is not a UL departure. Lilly/Shiki Jail language remains a joke. Vanness/ShiyaX's `GABU` screenshot referent remains unresolved without pixels. Akariel's `tackles ppl` wording remains chat slapstick. POSTED BY never silently becomes MADE BY / CAPTURED BY / FEATURING.
 
 The person-shaped payoff is clean: Gabu's competence gets more convincing because the uncertainty never disappears into a superhero rewrite; people simply start trusting her with more. Shiki's `quit long ago` lands the opposite way—less game, same doorway. And Akariel's Wall personality is basically `post exhibit, get prosecuted, contribute to prosecution anyway`, which is an extremely UL method of self-preservation.
