@@ -1,3 +1,4 @@
+import "./integrator-cast-run1359-wall-whiskey";
 import { allCharacters, characterById } from "./cast";
 import type { Character } from "./wiki";
 
