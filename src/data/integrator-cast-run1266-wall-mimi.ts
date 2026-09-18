@@ -2,6 +2,7 @@ import "./integrator-cast-run1273-wall-torr-hamittey";
 import "./integrator-cast-run1276-wall-panda";
 import "./integrator-cast-run1294-wall-nobu-zhenxi";
 import "./integrator-cast-run1299-daycare-louvre-whiskey";
+import "./integrator-cast-run1303-daycare-whiskey";
 import { allCharacters, characterById } from "./cast";
 import type { Character } from "./wiki";
 
