@@ -1,18 +1,18 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-18 — Run 1331 close + canon-repair supplement_
+_Last updated: 2026-09-18 — Run 1332 quiet close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
 
-## Current close — Run 1331
+## Current close — Run 1332
 
-The mandatory full branch census resolves to **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 pending review, 0 backlog, and 0 overdue branches**. Four advanced miner deltas were reviewed checkpoint-first and intake-only, then rechecked at stable closing heads: Wall through `6475148ad0177a5abe10c5c0b4668536c44e51cd`, Core Rooms / Events through `1b89080d4af74a416f9b4432a4d81ebc5349d8ee`, Daycare through `1bf14f367f2e799a68e3a85c15f41624b42f035c`, and Louvre-family through `061394015ebe14adce0d386d5f51df274bde8939`.
+The mandatory full branch census resolves to **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 pending review, 0 backlog, and 0 overdue branches**. Every active miner HEAD still matches its durable consumed frontier, so there was no unconsumed intake delta to review this run.
 
-Both Club-Only recovery-priority lanes remain current. **6 `pending_publication` families** remain reviewed MAIN whole-person resynthesis debt rather than unread mining.
+Both Club-Only recovery-priority lanes remain current. **6 `pending_publication` families** remain reviewed MAIN whole-person resynthesis debt rather than unread mining. No reader-facing bytes changed on either public surface, so no MAIN verifier/Astro/built-output run or WIKI build/deploy was necessary.
 
-## Strongest new accepted character read — Anthos
+## Most recent substantive accepted character read — Anthos
 
-The Louvre/Athenaeum delta adds a useful Anthos axis that belongs to a future MAIN whole-person resynthesis rather than a new WIKI receipt card. Anthos repeatedly asks what creative material can *do*: a quote prompt can make room for both emo and inspirational moods; member originals should be pinned so late arrivals can still find and support them; and existing art can become recruitment material. The pattern is practical curation as care — chaotic/casual delivery paired with a surprisingly steady interest in retrievability, usefulness, and keeping other people's work socially alive.
+The Louvre/Athenaeum delta from Run 1331 adds a useful Anthos axis that belongs to a future MAIN whole-person resynthesis rather than a new WIKI receipt card. Anthos repeatedly asks what creative material can *do*: a quote prompt can make room for both emo and inspirational moods; member originals should be pinned so late arrivals can still find and support them; and existing art can become recruitment material. The pattern is practical curation as care — chaotic/casual delivery paired with a surprisingly steady interest in retrievability, usefulness, and keeping other people's work socially alive.
 
 Ren's immediate response to the recruitment idea — volunteering to change and share the poster daily, then announcing she needs to get to work — adds a clean Anthos-idea -> Ren-implementation rhythm without turning either person into a formal office-holder. This texture is intentionally banked for MAIN instead of mirrored here.
 
@@ -26,7 +26,7 @@ Ren's immediate response to the recruitment idea — volunteering to change and 
 
 ## Canon-repair supplement — identity rails now enforced in the public owner layer
 
-The intake review surfaced a publication-layer problem that outranks ordinary additive lore: current WIKI canonicalization still carried stale pre-correction identity contamination. The public owner layer now explicitly enforces the resolved splits instead of allowing those stale aliases to leak back in.
+The Run 1331 intake review surfaced a publication-layer problem that outranks ordinary additive lore: current WIKI canonicalization still carried stale pre-correction identity contamination. The public owner layer now explicitly enforces the resolved splits instead of allowing those stale aliases to leak back in.
 
 - **Akariel ≠ Zyrcant.** Akariel / Akariel™ / `akariel_star` aliases are stripped from Zyrcant, identity-dependent deputy/relationship contamination is not carried onto Zyrcant, and Akariel's separate owner receives the Akariel aliases and an explicit anti-merge rail when present. BeaEder's Akariel-tagged Wall summon is no longer routed to Zyrcant.
 - **Rich / DragonRich / `dragonrichard` ≠ Ricochet.** The `dragonrichard` alias is stripped from Ricochet and retained with Rich's separate owner. The stale miner-side bridge remains rejected.
@@ -37,11 +37,10 @@ This is a hard-canon correction, not a new inference layer. No scene ownership i
 ## Public-surface result
 
 - Reader-facing MAIN change this close: **0**.
-- Reader-facing WIKI change this close: **yes — hard identity-owner repair only**.
-- Exact WIKI reader commit: `ac1b05e8df273f4e5ac507ae6ac6a997c7999562`.
-- Build Underlords Wiki run `35352867237` succeeded on that exact SHA.
-- Deploy Underlords Wiki Preview / Pages run `35352867016` succeeded on that exact SHA, including the deploy and report jobs.
-- MAIN did not receive receipt-shaped reader copy from these deltas. Anthos's additive creative-utility read remains banked for future person-first MAIN resynthesis; the identity correction is WIKI owner-routing hygiene, not a reason to rewrite MAIN biographies this hour.
+- Reader-facing WIKI change this close: **0**.
+- MAIN state-only census commit: `e5757458c124e10bdb9ccfe4231c0e487cb5aeae`.
+- No fresh reader build or deploy was required because reader bytes did not change.
+- Latest verified reader-facing WIKI commit remains `ac1b05e8df273f4e5ac507ae6ac6a997c7999562`, whose Build Underlords Wiki run `35352867237` and Deploy Underlords Wiki Preview / Pages run `35352867016` both succeeded.
 
 ## Reconciliation / holds
 
@@ -69,4 +68,4 @@ The most recent additive lore publication remains the Run 1328 Birthdays/PR/VC F
 
 ## Historical state
 
-Run 1331 reviewed four advanced miner tails, banked the strongest additive Anthos read for future MAIN synthesis, and then corrected stale identity-owner contamination in WIKI. Run 1329 was a quiet census-only close. Run 1328 published the early Fight Club social-purpose Episode WIKI-only and reviewed Daycare, Louvre-family, and Wall tails. Run 1326 closed a Daycare Rose corroboration-only tail without reader changes. Run 1325 published the Nobu/Xuseio full Wall sweep WIKI-only. Run 1323 verified the prior Annie/Kuwei publication and repaired Meowk/Alkey dossier routing. Run 1321 published structured Gabby and egotism dossiers. Run 1313 published Kuki's collaborator-side creative-peer / authorship-boundary depth and Woohyuk's structured person-shaped dossier. Older integration history remains preserved in Git history and durable close reports; this file stays intentionally compact as the current authoritative WIKI state rather than becoming another receipt ledger.
+Run 1332 was a quiet census-only close: no miner branch advanced and no reader-facing bytes changed. Run 1331 reviewed four advanced miner tails, banked the strongest additive Anthos read for future MAIN synthesis, and then corrected stale identity-owner contamination in WIKI. Run 1329 was a quiet census-only close. Run 1328 published the early Fight Club social-purpose Episode WIKI-only and reviewed Daycare, Louvre-family, and Wall tails. Run 1326 closed a Daycare Rose corroboration-only tail without reader changes. Run 1325 published the Nobu/Xuseio full Wall sweep WIKI-only. Run 1323 verified the prior Annie/Kuwei publication and repaired Meowk/Alkey dossier routing. Run 1321 published structured Gabby and egotism dossiers. Run 1313 published Kuki's collaborator-side creative-peer / authorship-boundary depth and Woohyuk's structured person-shaped dossier. Older integration history remains preserved in Git history and durable close reports; this file stays intentionally compact as the current authoritative WIKI state rather than becoming another receipt ledger.
