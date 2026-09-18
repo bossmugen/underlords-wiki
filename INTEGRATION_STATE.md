@@ -1,35 +1,26 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-18 — Run 1345_
+_Last updated: 2026-09-18 — Run 1346_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
 
-## Current close — Run 1345
+## Current close — Run 1346
 
 The mandatory full branch census closes at **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 pending review, 0 backlog, and 0 overdue branches**. Both Club-Only recovery-priority lanes remain current. **6 `pending_publication` families** remain reviewed MAIN whole-person resynthesis debt rather than unread mining.
 
-One branch advanced and was reviewed checkpoint-first/intake-only: `archive-miner-wall-hourly-20260824` from `7e1a104165153b56b52fc7e063ad621369dff174` through stable closing HEAD `03136c1553d2786f7eeaf176d8962f51104094e9`. The consumed frontier now matches that HEAD.
-
-Most of the Erys packet was corroboration of already-public WIKI material: fast Wall prosecution/defense timing with Ren, escalating impossible alibis, counter-filing, direct room-presence seeking, and the room-level `most shame award` reputation joke were already owned. The genuinely additive pieces were folded into the existing canonical Erys dossier rather than spawning another Episode or Erys II.
+Every active miner HEAD still matches its already-consumed frontier. Run 1346 therefore had **0 new intake deltas, 0 genuinely new findings, 0 duplicate-family changes, 0 conflict/rabbit movement, and 0 consumed-SHA advances**. No raw archive re-mining and no miner-branch merge/cherry-pick was needed because there was no unconsumed tail.
 
 ## Public-surface result
 
 ### MAIN
 
-Reader-facing changes: **0**. MAIN has no mature Erys person biography owner, so Run 1345 did not manufacture a thin one-receipt biography just to mirror WIKI. MAIN changed only durable branch-consumption state. No fresh MAIN source-verification/Astro/built-output/deployment success is claimed for unchanged reader bytes.
+Reader-facing changes: **0**. MAIN changed only the controlling census/consumption ledger for the quiet close. No fresh MAIN source-verification/Astro/built-output/deployment success is claimed for unchanged reader bytes.
 
 ### WIKI
 
-Reader-facing change: **existing Erys Cast dossier deepened** at commit `8bb1e51b2577b73ef79427d08b2e608ec937d676`.
+Reader-facing changes: **0**. This file is the only WIKI state synchronization for Run 1346. No fresh WIKI build/Pages/deployment success is claimed for unchanged reader bytes.
 
-- `Emi` is now treated as an Erys alias because the reviewed handoff ties that peer address to the same stable Erys account, replacing the older WIKI-only unresolved-Emi fence without using a similar-name inference.
-- The dossier now preserves the May 11 second Wall filing / direct KARIT summon as recurrence for Erys's counter-filer side rather than a one-morning accident.
-- `**twerks on the wall**` joins the existing Petty Crimes / active-participant texture.
-- Existing Ren receipt-rivalry, escalating alibis, room-presence need, and shame-award reputation were deduped rather than restapled as new event paragraphs.
-
-Verification passed separately on the WIKI reader commit: **Build Underlords Wiki `35380893012` succeeded**, and **Pages/Preview `35380893021` succeeded**, including successful Pages build, deploy, and report jobs.
-
-This material is intentionally WIKI-only for now because it deepens an already-mature structured dossier while MAIN lacks a person-shaped Erys owner substantial enough to meet the richer biography standard.
+Nothing was intentionally published to only one public surface because there was no new miner delta to integrate.
 
 ## Recovery / consumption state
 
@@ -51,6 +42,6 @@ Akariel remains separate from Zyrcant. Rich / DragonRich remains separate from R
 
 Joke roles, family language, flirting, ships, mock-procedural language, game-account language, and joke wealth do not become literal governance, biology, romance, sex, identity, or financial claims without support. Earliest surviving material is not silently promoted to origin. Privacy-sensitive material stays backstage. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct.
 
-## Previous close — Run 1344
+## Previous close — Run 1345
 
-Run 1344 was a quiet census with all active miner HEADs already consumed and no public reader changes. Earlier integration history remains preserved in Git history; this file stays compact as the current authoritative WIKI state rather than becoming another receipt ledger.
+Run 1345 reviewed the Wall delta through `03136c1553d2786f7eeaf176d8962f51104094e9`, deepened the existing Erys WIKI dossier with the stable-account `Emi` peer address, second-filing/KARIT-summon recurrence, and `**twerks on the wall**` active-participant texture, and intentionally left MAIN reader bytes unchanged because no mature Erys biography owner exists there yet. The WIKI reader commit `8bb1e51b2577b73ef79427d08b2e608ec937d676` passed Build Underlords Wiki `35380893012` and Pages/Preview `35380893021`. Earlier integration history remains preserved in Git history; this file stays compact as the current authoritative WIKI state rather than becoming another receipt ledger.
