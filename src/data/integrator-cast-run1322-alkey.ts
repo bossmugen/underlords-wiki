@@ -35,14 +35,14 @@ const upsertCharacter = (seed: ExtendedCharacter) => {
 };
 
 upsertCharacter({
-  id: "alkey",
-  name: "Alkey",
+  id: "meowk",
+  name: "Meowk",
   aliases: ["Meowk"],
-  billing: "guest",
-  role: "Archive-era Wall cast",
-  era: "2021+",
+  billing: "recurring",
+  role: "Member",
+  era: "2021–2025+",
   logline:
-    "Alkey can turn almost no material into a full little stage production. Two chicken emotes and crossed swords become a duel; Mugen arrives with popcorn; Alkey bows with `I aim to please`. When Baby Lyssa insists nobody saw anything, Alkey spends three separate messages delivering `i / saw / all` over less than two seconds because apparently one message lacked sufficient entrance music. The same roast-friendly gremlin can get openly sentimental when old receipts resurface. He is not above Screenshot Court; he is one of the people helping it have better timing.",
+    "Meowk can turn almost no material into a full little stage production. Two chicken emotes and crossed swords become a duel; Mugen arrives with popcorn; Meowk bows with `I aim to please`. When Baby Lyssa insists nobody saw anything, Meowk spends three separate messages delivering `i / saw / all` over less than two seconds because apparently one message lacked sufficient entrance music. The same roast-friendly gremlin can get openly sentimental when old receipts resurface. He is not above Screenshot Court; he is one of the people helping it have better timing.",
   tags: [
     "Archive cast",
     "Wall",
@@ -55,19 +55,19 @@ upsertCharacter({
     {
       name: "Ren / RV",
       note:
-        "Their strongest surviving Wall lane is reciprocal and tease-safe. Alkey height-roasts Ren one day; the next night Ren directly pulls him into a cat/paws pile-on with Sou and Mugen, and Alkey answers the group with mock outrage instead of leaving the bit. The material supports comfortable two-way teasing, not a friendship ranking.",
+        "Their strongest surviving Wall lane is reciprocal and tease-safe. Meowk height-roasts Ren one day; the next night Ren directly pulls him into a cat/paws pile-on with Sou and Mugen, and Meowk answers the group with mock outrage instead of leaving the bit. The material supports comfortable two-way teasing, not a friendship ranking.",
       href: "/characters/ren",
     },
     {
       name: "Mugen",
       note:
-        "Mugen mechanically replies to Alkey's chicken duel with popcorn; Alkey answers with a bow and `I aim to please`. It is a tiny but very clean audience/performer loop: she recognizes the bit, he notices the audience and gives it a curtain call.",
+        "Mugen mechanically replies to Meowk's chicken duel with popcorn; Meowk answers with a bow and `I aim to please`. It is a tiny but very clean audience/performer loop: she recognizes the bit, he notices the audience and gives it a curtain call.",
       href: "/characters/mugen",
     },
     {
       name: "Baby Lyssa",
       note:
-        "Alkey tags Baby Lyssa into the March witness pileup, then turns her `you saw nothing` into his three-beat `i / saw / all`. Scene-local shared-witness teasing is clear; broader closeness is not assigned from one pocket.",
+        "Meowk tags Baby Lyssa into the March witness pileup, then turns her `you saw nothing` into his three-beat `i / saw / all`. Scene-local shared-witness teasing is clear; broader closeness is not assigned from one pocket.",
     },
   ],
   quotes: [
@@ -78,17 +78,18 @@ upsertCharacter({
     "You all suck :myv_Reeeeee:",
   ],
   claims: [
-    "Across independent February–April 2021 Wall pockets, Alkey repeatedly uses emotes, very short lines, and timing to co-build jokes rather than merely react to them.",
-    "The Ren lane is reciprocal: Alkey initiates a height roast, then comfortably survives a Ren/Sou/Mugen catification pile-on the following night with mock protest.",
+    "Across independent February–April 2021 Wall pockets, Meowk repeatedly uses emotes, very short lines, and timing to co-build jokes rather than merely react to them.",
+    "The Ren lane is reciprocal: Meowk initiates a height roast, then comfortably survives a Ren/Sou/Mugen catification pile-on the following night with mock protest.",
     "His Wall register has a sentimental seam. `The good ol' days` plus repeated Cozy_Cry participation around an old-receipt pocket supports nostalgia for old room chaos; the exact object join is probable rather than mechanically guaranteed.",
     "Petty Crimes: stages a chicken duel, gives himself a bow when Mugen supplies popcorn, spends three messages saying `i saw all`, and gets publicly catified after roasting Ren.",
   ],
   antiFanon: [
-    "Alkey / stable account 264889543365230614 is not Key / 445845564119187456. Similar names do not bridge identities.",
-    "`alkitty` is a scene-local joke, not a locked alias.",
+    "Meowk is stable account 264889543365230614 and remains separate from Alkey unless a stable account-level bridge is produced.",
+    "Meowk is not Key / 445845564119187456. Similar names do not bridge identities.",
+    "`alkitty` is a scene-local joke, not a locked alias and not an identity bridge to Alkey.",
     "The Mar. 24 pooled Deleted User poster remains unresolved.",
     "Final-state reaction membership has no click timestamps.",
-    "Adjacent uninspected images do not establish Alkey as FEATURING, MADE BY, or CAPTURED BY; POSTED BY remains separate.",
-    "The Alkey↔Ren material supports reciprocal teasing, not literal conflict or a ranked friendship claim.",
+    "Adjacent uninspected images do not establish Meowk as FEATURING, MADE BY, or CAPTURED BY; POSTED BY remains separate.",
+    "The Meowk↔Ren material supports reciprocal teasing, not literal conflict or a ranked friendship claim.",
   ],
 } as ExtendedCharacter);
