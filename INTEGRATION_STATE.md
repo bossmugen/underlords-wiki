@@ -1,10 +1,10 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-18 — Run 1314 close_
+_Last updated: 2026-09-18 — Run 1315 close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
 
-## Current close — Run 1314
+## Current close — Run 1315
 
 The mandatory full branch census resolved to **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 closing pending review, 0 backlog, and 0 overdue branches**. Every active miner HEAD already matched its recorded `last_consumed_sha`, so there were **0 unread intake deltas** to review this run. Both Club-Only recovery-priority lanes remain current, and **5 `pending_publication` families** remain older reviewed MAIN whole-person resynthesis debt rather than unread mining.
 
@@ -17,7 +17,7 @@ The mandatory full branch census resolved to **51 tracked miner identities = 30 
 - Conflicts/rabbits newly advanced: **0**.
 - Consumed-SHA advances: **0**.
 - No material was intentionally routed to only one public surface this run.
-- MAIN's controlling census ledger was persisted at commit `e293164682f6e347011c5c9158de42e6386c2025`.
+- MAIN's controlling census ledger was persisted at commit `b32961ff40af9454b91ee0941ace58a8a6564f8a`.
 - No fresh MAIN source-verification/Astro/built-output verification or deployment is claimed because MAIN reader bytes did not change.
 - No fresh WIKI Astro/Pages build or deployment is claimed because WIKI reader bytes did not change.
 - This file is reader-neutral state documentation only.
