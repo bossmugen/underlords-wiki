@@ -1,22 +1,33 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-18 — Run 1348_
+_Last updated: 2026-09-18 — Run 1349_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
 
-## Current close — Run 1348
+## Current close — Run 1349
 
-The mandatory full branch census closes at **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 pending review, 0 backlog, and 0 overdue branches**. Both Club-Only recovery-priority lanes remain current. **6 `pending_publication` families** remain reviewed MAIN whole-person resynthesis debt rather than unread mining.
+The mandatory full branch census closes at **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 pending review, 0 backlog, and 0 overdue branches**. Every active miner HEAD still matches the `last_seen_sha` already recorded at the end of Run 1348; there were **no advanced or unconsumed miner deltas to review** this pass. Both Club-Only recovery-priority lanes remain current. **6 `pending_publication` families** remain reviewed MAIN whole-person resynthesis debt rather than unread mining.
+
+### Public-surface result
+
+- **MAIN reader-facing changes: 0.** Only the controlling census timestamp/run note changed at commit `b2683e90616bb9227678048fbcf50b5d7b8f67d9` with `[skip ci]`; no reader build/deploy success is claimed for unchanged reader bytes.
+- **WIKI reader-facing changes: 0.** This file is the only WIKI change for Run 1349 and is state-only with `[skip ci]`; no fresh reader build/deployment is claimed.
+- **Consumed SHA changes: 0.** Wall remains consumed through `493e3dd285b78b35b7b12a48353dc50e5484dc9d`; Daycare remains consumed through `c1df4e69ca422e08302e90e48672d58f134fe924`; Louvre-family remains current at `6af52aa2b922b54e3a19262f649d3fbb9bdb2811`; Whiskey remains current at `71e948a9bbda40361ff7856f5bf05087ba5a27f3`.
+- **New findings integrated: 0.** No duplicate/corroboration packet, conflict, or rabbit-hole decision changed because no miner advanced.
+
+## Previous public close — Run 1348
+
+The mandatory full branch census closed at **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 pending review, 0 backlog, and 0 overdue branches**. Both Club-Only recovery-priority lanes remained current. **6 `pending_publication` families** remained reviewed MAIN whole-person resynthesis debt rather than unread mining.
 
 Two miner families advanced and were reviewed checkpoint-first from their prior consumed frontiers: Wall from `03136c1553d2786f7eeaf176d8962f51104094e9` through `493e3dd285b78b35b7b12a48353dc50e5484dc9d`, and Daycare from `470d5da0c11229f88ada1d251595d0c555c65c25` through `c1df4e69ca422e08302e90e48672d58f134fe924`. Only changed `archive-intake/*` handoffs were reviewed; no raw archive re-mining or miner-branch merge/cherry-pick was used.
 
-## Public-surface result
+### Public-surface result
 
-### MAIN
+#### MAIN
 
 Reader-facing changes: **0**. MAIN changed only the controlling census/consumption ledger. No fresh MAIN source-verification/Astro/built-output/deployment success is claimed for unchanged reader bytes.
 
-### WIKI
+#### WIKI
 
 Two existing canonical dossiers were deepened; no duplicate person owners were created.
 
@@ -27,12 +38,12 @@ Queen Shimoko's three-message Wall packet was banked rather than inflated into a
 
 Eos and Torr were intentionally WIKI-only this run: the material is excellent structured relationship/behavior/Petty Crimes texture, but adding source-shaped Wall/support paragraphs to MAIN would work against whole-person biography architecture.
 
-## Verification / deployment
+### Verification / deployment
 
 - Eos reader commit `6aa8528fc2f73ee7ddc5305a917ce706489137f2` cleared its WIKI build/Pages workflow and was deployed successfully.
 - Torr reader commit `251552ab359913a4d305b788b461bd36c8793255` cleared **Build Underlords Wiki** run `35386445685` successfully. Its first Pages attempt was cancelled after a successful preview build/artifact upload, so the final state sync intentionally triggered a clean current-site gate instead of treating that partial attempt as deployment.
-- Current-site verification/deployment commit `aebfba61bdfbe9537bf1b0a370677d9efb9d7314` contains both Eos and Torr reader changes plus this Run 1348 integration state. **Build Underlords Wiki** run `35386879865` completed successfully, and **Deploy Underlords Wiki Preview / Pages** run `35386879868` completed successfully, including the Pages deploy job. That is the verified live reader frontier for this run.
-- After that gate cleared, MAIN's controlling ledger was closed at `d01a0a9307736a535ec7bab27a3268ef78562335`; both reviewed miner frontiers now have matching `last_seen_sha` and `last_consumed_sha`.
+- Current-site verification/deployment commit `aebfba61bdfbe9537bf1b0a370677d9efb9d7314` contains both Eos and Torr reader changes plus this Run 1348 integration state. **Build Underlords Wiki** run `35386879865` completed successfully, and **Deploy Underlords Wiki Preview / Pages** run `35386879868` completed successfully, including the Pages deploy job. That is the verified live reader frontier for that run.
+- After that gate cleared, MAIN's controlling ledger was closed at `d01a0a9307736a535ec7bab27a3268ef78562335`; both reviewed miner frontiers had matching `last_seen_sha` and `last_consumed_sha`.
 
 ## Recovery / consumption state
 
