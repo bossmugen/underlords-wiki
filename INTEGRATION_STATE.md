@@ -1,71 +1,75 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-18 — Run 1332 quiet close_
+_Last updated: 2026-09-18 — Run 1332 close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
 
 ## Current close — Run 1332
 
-The mandatory full branch census resolves to **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 pending review, 0 backlog, and 0 overdue branches**. Every active miner HEAD still matches its durable consumed frontier, so there was no unconsumed intake delta to review this run.
+The mandatory full branch census closes at **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 pending review, 0 backlog, and 0 overdue branches**. Both Club-Only recovery-priority lanes are current. **6 `pending_publication` families** remain reviewed MAIN whole-person resynthesis debt rather than unread mining.
 
-Both Club-Only recovery-priority lanes remain current. **6 `pending_publication` families** remain reviewed MAIN whole-person resynthesis debt rather than unread mining. No reader-facing bytes changed on either public surface, so no MAIN verifier/Astro/built-output run or WIKI build/deploy was necessary.
+Three late miner deltas were reviewed checkpoint-first and intake-only this run:
 
-## Most recent substantive accepted character read — Anthos
+- Daycare through `b83147672dbca7eacd85e76acaba268f3c8c0399`.
+- Core Rooms / Events through `2d1d6c10f53475f83c1760fa51ffa3cd214c0277`.
+- Wall through `333c5169cc1785b2fa310dfe2e2a89689db68495`.
 
-The Louvre/Athenaeum delta from Run 1331 adds a useful Anthos axis that belongs to a future MAIN whole-person resynthesis rather than a new WIKI receipt card. Anthos repeatedly asks what creative material can *do*: a quote prompt can make room for both emo and inspirational moods; member originals should be pinned so late arrivals can still find and support them; and existing art can become recruitment material. The pattern is practical curation as care — chaotic/casual delivery paired with a surprisingly steady interest in retrievability, usefulness, and keeping other people's work socially alive.
+## Published WIKI-only — Asphodel / Aoi
 
-Ren's immediate response to the recruitment idea — volunteering to change and share the poster daily, then announcing she needs to get to work — adds a clean Anthos-idea -> Ren-implementation rhythm without turning either person into a formal office-holder. This texture is intentionally banked for MAIN instead of mirrored here.
+Aoi / Asphodel now has a structured WIKI owner. The useful person read is not merely that she appears in Daycare: other people notice her competence before she does any self-selling. During Wonderland mount farming, Mugen points out that Aoi is one of the only people still alive at the end and Anthos answers with `Aoi quick on her toes`; Aoi's own contribution is the tiny `factss`. The social signal is in who does the bragging for her.
 
-## Reviewed / intentionally not duplicated
+The same stable person later explains the name confusion herself: `Aoki` was the temporary backup-account name she used while locked out of her main, and the room separately recognizes Aoi as Asphodel. `Aoki` is therefore not promoted into a permanent alias chronology. A separate fake/joke Aoi account remains separate.
 
-**Ritha**: the Tower of God packet (following the webtoon for a few years, hoping for an anime adaptation, then recommending it) is already public on both surfaces. No duplicate event or dossier copy was added. The wording stays at `a few years`; no hard start date or `OG fan` promotion is invented.
+Music is another visible habit: Woosung asks what on earth she listens to, Bao points toward her status, and Aoi admits she has been stuck on one band `for a longg time`. The exact band is unresolved in the textual handoff and is not guessed.
 
-**DyingFox + Lilly**: recurring morning greetings, hugs/glomps, and mutual `love you` language deepen a pattern WIKI already owns as recurring non-romantic group affection. No second relationship block was added, and MAIN did not receive a receipt mirror; the material is saved for later person-first synthesis.
+This material belongs WIKI-first because it is strong structured character evidence but still too concentrated in one room/game slice for a rich MAIN biography. MAIN banks it for future whole-person synthesis rather than receiving a receipt-shaped paragraph.
 
-**ShiyaX + Lilly / Wall**: the new Wall tail reinforces already-owned mechanisms. ShiyaX remains both chaos participant and active receipt-filer/defendant while still being capable of practical room-boundary nudges; Lilly's command/pet-name/food-demand language continues to read as familiar affection without being promoted into literal romance. Danny's Sprite/media tidbit is too thin to justify a public owner change.
+## Published WIKI-only — Mr. Streamer
 
-## Canon-repair supplement — identity rails now enforced in the public owner layer
+Mr. Streamer / `ulstreamer` now has a WIKI micro-profile built around a very specific lived behavior: **artifact-first receipt relay with source credit**. His entire surviving authored Wall footprint in the reviewed pocket is three messages — screenshot, `Via @DiStratus(Torr)` 4.759 seconds later, then another screenshot.
 
-The Run 1331 intake review surfaced a publication-layer problem that outranks ordinary additive lore: current WIKI canonicalization still carried stale pre-correction identity contamination. The public owner layer now explicitly enforces the resolved splits instead of allowing those stale aliases to leak back in.
+The five-second postscript matters more than the username. He does not let the first object simply sit under his own name; he comes back and names the route it came through. Torr later says he is giving the room a lot of material with his stream, so the bounded social lane is Torr generating/supplying stream material while Mr. Streamer relays at least one explicitly credited receipt into Wall.
 
-- **Akariel ≠ Zyrcant.** Akariel / Akariel™ / `akariel_star` aliases are stripped from Zyrcant, identity-dependent deputy/relationship contamination is not carried onto Zyrcant, and Akariel's separate owner receives the Akariel aliases and an explicit anti-merge rail when present. BeaEder's Akariel-tagged Wall summon is no longer routed to Zyrcant.
-- **Rich / DragonRich / `dragonrichard` ≠ Ricochet.** The `dragonrichard` alias is stripped from Ricochet and retained with Rich's separate owner. The stale miner-side bridge remains rejected.
-- **Alkey ≠ Meowk.** The existing runtime repair remains active: Meowk aliases and Meowk-owned `booli` / cute-casting material stay out of Alkey's file, while Meowk remains a separate public owner.
+A new provenance rail is now explicit: **SOURCE / RELAY CREDIT is separate from SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING.** `Via @X` can establish a source/relay edge without establishing creator, photographer, or depicted subject. Torr as source for Mr. Streamer's second object remains contextual rather than object-bound confirmed.
 
-This is a hard-canon correction, not a new inference layer. No scene ownership is transferred merely because names look similar.
+The `Mr. Streamer` name and surviving `Mr. Streamer (Gabu's Chair)` nickname do not become a formal office or proof that he was the broadcaster in this scene. In this pocket, Torr is the person explicitly using the stream language while Mr. Streamer is the courier.
+
+## Reviewed but intentionally not published — New Account Gilli#3226
+
+Core Rooms / Events surfaced a strong backstage profile seed for stable account `585466495757451284`: **practical broadcaster / soft-hearted mobilizer**. The account repeatedly turns announcements into next steps — movie-room routing, live-event activation, key/code relay, deadline/resource routing, and a random pizza-topping assignment — while also removing social debt from an absence apology with `you have NOTHING to worry about ... Take your time` and amplifying a stranger's fundraiser around the idea that somebody should know even a stranger cares.
+
+The same useful bulletin-board voice is personally exuberant enough to issue `P.S: Pineapple Pizza is the best Pizza` as if the matter had been administratively settled. Strong Petty Crimes candidate, unfortunately for everyone with standards.
+
+Public ownership is held because **stable `585466495757451284` and stable `702298276556308480` are separate accounts that both surface with Gilli-like display names in the source, and no identity bridge exists.** Similar names are not permission to fuse people. The fundraiser stays POSTED / AMPLIFIED, not ORGANIZED; the movie-room route stays POSTED / ROUTED, not CREATED.
 
 ## Public-surface result
 
-- Reader-facing MAIN change this close: **0**.
-- Reader-facing WIKI change this close: **0**.
-- MAIN state-only census commit: `e5757458c124e10bdb9ccfe4231c0e487cb5aeae`.
-- No fresh reader build or deploy was required because reader bytes did not change.
-- Latest verified reader-facing WIKI commit remains `ac1b05e8df273f4e5ac507ae6ac6a997c7999562`, whose Build Underlords Wiki run `35352867237` and Deploy Underlords Wiki Preview / Pages run `35352867016` both succeeded.
-
-## Reconciliation / holds
-
-Hard rails remain active. The miner-side `Rich / DragonRich = Ricochet` bridge is rejected: they remain separate people. q9 remains unresolved. Uninspected Wall media stays attribution-bounded: POSTED BY does not become MADE BY / CAPTURED BY / FEATURING. Daycare RH16 attribution remains unresolved. wisp / SolterVy stays no-pad from a two-message sample, with no title, role, or age inference. The Daycare Lobby quiet stretch is a source-specific archive gap only. The Louvre packet's `remember u always have a home here okayy` belongs to Announcements custody, not Louvre/Athenaeum/AI Art.
-
-Other standing identity/safety rails carry forward unchanged: Tae remains separate from Ansun / sou.san / 颯太. Mia remains separate from Mimi. Momo and Mimi remain separate. Akariel remains separate from Zyrcant. Rich / DragonRich remains separate from Ricochet. Meowk remains separate from Alkey. Support Tech remains Dean / Beansprout. Akamin remains separate from Mere. Nuien remains separate from Illien. Joke roles, family language, flirting, ships, mock-procedural language, game-account language, and joke wealth do not become literal governance, biology, romance, sex, identity, or financial claims without support. Earliest surviving material is not silently promoted to origin.
+- **MAIN reader-facing changes:** 0. MAIN received durable census/consumption state only; no reader verifier/Astro/built-output/deploy was needed for unchanged reader bytes.
+- **MAIN final state commit:** `13e83750f70a6c8ea5b4f54ac2c39a6431175fa4`.
+- **WIKI reader-facing changes:** Asphodel / Aoi dossier + Mr. Streamer micro-profile.
+- **Latest reader-facing WIKI commit:** `d36088b8681271be92d38227563504a014d64adc`.
+- **Build Underlords Wiki:** run `35356309108` — success.
+- **Deploy Underlords Wiki Preview / Pages:** run `35356309148` — success.
+- This state-file commit is bookkeeping only and intentionally uses `[skip ci]`; the verified/deployed reader is the commit above.
 
 ## Recovery / consumption state
 
 - `archive-miner/club-only-2021-2026-hourly` current/consumed at `e45fb11c9239e236231bb65645dfd0285bc0078b`.
 - `archive-miner-clubonly-2020-hourly` current/consumed at `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`.
+- Daycare current/consumed at `b83147672dbca7eacd85e76acaba268f3c8c0399`.
+- Core Rooms / Events current/consumed at `2d1d6c10f53475f83c1760fa51ffa3cd214c0277`.
+- Wall current/consumed at `333c5169cc1785b2fa310dfe2e2a89689db68495`.
 - Whiskey current/consumed at `6160f6a7c527b90f386ac8e75f84d64dc311c7fa`.
 - Birthdays/PR/VC current/consumed at `bdf96529637b138857315809e8e86ebbd6516a5d`.
-- Wall current/consumed at `6475148ad0177a5abe10c5c0b4668536c44e51cd`.
-- Core Rooms / Events current/consumed at `1b89080d4af74a416f9b4432a4d81ebc5349d8ee`.
-- Daycare current/consumed at `1bf14f367f2e799a68e3a85c15f41624b42f035c`.
 - Louvre-family current/consumed at `061394015ebe14adce0d386d5f51df274bde8939`.
-- Six `pending_publication` families are reviewed MAIN resynthesis debt, not unread miner intake.
+- Six `pending_publication` families remain reviewed MAIN resynthesis debt, not unread miner intake.
 
-## Latest reader-facing WIKI addition
+## Reconciliation / holds
 
-The latest reader-facing WIKI change is the Run 1331 identity-owner repair at `ac1b05e8df273f4e5ac507ae6ac6a997c7999562`: Akariel stays out of Zyrcant, Rich / DragonRich stays out of Ricochet, and the existing Meowk / Alkey separation remains enforced at runtime. This is intentionally backstage-facing public correctness rather than a new lore episode.
+Hard identity and safety rails remain active. Akariel remains separate from Zyrcant. Rich / DragonRich remains separate from Ricochet. Meowk remains separate from Alkey. Mia remains separate from Mimi; Momo remains separate from Mimi. Tae remains separate from Ansun / sou.san / 颯太. Support Tech remains Dean / Beansprout. Akamin remains separate from Mere. Nuien remains separate from Illien. Similar display names never create an identity bridge by themselves.
 
-The most recent additive lore publication remains the Run 1328 Birthdays/PR/VC Fight Club social-purpose Episode. On April 25, 2020, while Simple was still figuring out a server with `so much` going on, Gilli explained that UL also had a Fight Club channel for game events `to chat and laugh and stuff`. WIKI owns that as structured early-room culture rather than as an absolute channel-origin claim. Reader commit: `915118f3a97092ca928dfd5d747c085081cded40`.
+Wall q9/native recovery remains open/retrieval-limited. Mr. Streamer's second-object Torr source relation remains contextual only. Daycare's exact band for Aoi remains unresolved. Core's two Gilli-like stable accounts remain separate absent explicit proof. Joke roles, family language, flirting, ships, mock-procedural language, game-account language, and joke wealth do not become literal governance, biology, romance, sex, identity, or financial claims without support. Earliest surviving material is not silently promoted to origin.
 
 ## Historical state
 
-Run 1332 was a quiet census-only close: no miner branch advanced and no reader-facing bytes changed. Run 1331 reviewed four advanced miner tails, banked the strongest additive Anthos read for future MAIN synthesis, and then corrected stale identity-owner contamination in WIKI. Run 1329 was a quiet census-only close. Run 1328 published the early Fight Club social-purpose Episode WIKI-only and reviewed Daycare, Louvre-family, and Wall tails. Run 1326 closed a Daycare Rose corroboration-only tail without reader changes. Run 1325 published the Nobu/Xuseio full Wall sweep WIKI-only. Run 1323 verified the prior Annie/Kuwei publication and repaired Meowk/Alkey dossier routing. Run 1321 published structured Gabby and egotism dossiers. Run 1313 published Kuki's collaborator-side creative-peer / authorship-boundary depth and Woohyuk's structured person-shaped dossier. Older integration history remains preserved in Git history and durable close reports; this file stays intentionally compact as the current authoritative WIKI state rather than becoming another receipt ledger.
+Run 1332 began as a clean census, then caught Daycare, Core Rooms / Events, and Wall moving late. The late heads were persisted before review rather than hidden behind stale `last_seen_sha`s. Aoi / Asphodel and Mr. Streamer were published WIKI-only after successful verification/deployment; the separate Gilli-like account remained backstage because the identity rail is unresolved. Earlier integration history remains preserved in Git history; this file stays compact as the current authoritative WIKI state rather than becoming another receipt ledger.
