@@ -1,3 +1,4 @@
+import "./integrator-cast-run1321-gabby-egotism";
 import { allCharacters, castGroups, characterById } from "./cast";
 import type { Character } from "./wiki";
 
