@@ -35,7 +35,7 @@ const upsertCharacter = (seed: ExtendedCharacter) => {
 };
 
 upsertCharacter({
-  id: "alkey-meowk",
+  id: "alkey",
   name: "Alkey",
   aliases: ["Meowk"],
   billing: "guest",
@@ -56,7 +56,7 @@ upsertCharacter({
       name: "Ren / RV",
       note:
         "Their strongest surviving Wall lane is reciprocal and tease-safe. Alkey height-roasts Ren one day; the next night Ren directly pulls him into a cat/paws pile-on with Sou and Mugen, and Alkey answers the group with mock outrage instead of leaving the bit. The material supports comfortable two-way teasing, not a friendship ranking.",
-      href: "/characters/ren-rv",
+      href: "/characters/ren",
     },
     {
       name: "Mugen",
