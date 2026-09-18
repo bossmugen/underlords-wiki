@@ -112,6 +112,53 @@ if (mrStreamerIndex >= 0) {
   allCharacters.push(mrStreamerCharacter);
 }
 
+const akaneIndex = allCharacters.findIndex((character) => character.id === "akaneawake");
+const akaneCharacter: Character = {
+  id: "akaneawake",
+  name: "AkaneAwake",
+  aliases: ["Akane Deathbloom"],
+  billing: "guest",
+  role: "Archive-era cast",
+  era: "2021",
+  logline: "Akane's clearest surviving contribution is not a personality speech; it is a paired frame. Within days of arriving from the same DeathBloom context as Dreamless, she posts a Photo Submissions entry naming the two of them together: `Dancing in the moonlight with @Dreamless (Deathbloom) - @AkaneAwake`. Her archive footprint is thin, but the strongest thing she chooses to put forward makes companionship part of the participation instead of treating the creative object like a solo showcase.",
+  tags: ["Archive cast", "Photo Submissions", "DeathBloom", "Paired participation", "Creative participation", "Relationship texture"],
+  relationships: [
+    {
+      name: "Dreamless",
+      note: "Dreamless and Akane independently identify the same DeathBloom context at the July 2021 doorway within roughly twelve minutes of each other. Nine days later Akane authors a Photo Submissions caption that explicitly names Dreamless and herself together. The combined pattern supports probable pre-existing familiarity and a companion / creative-participation lane; it does not establish recruitment, best-friend status, romance, sex, or family.",
+    },
+  ],
+  quotes: [
+    "Akane Deathbloom",
+    "Dancing in the moonlight with @Dreamless (Deathbloom) - @AkaneAwake",
+  ],
+  claims: [
+    "Stable Discord account 140660635061977089 self-identifies as `Akane Deathbloom` in the reviewed Lobby material and later authors the paired Photo Submissions caption naming Dreamless and herself.",
+    "Dreamless and Akane enter the surviving UL record close together under the same DeathBloom context, then appear in Akane's explicitly paired creative submission nine days later; prior familiarity is therefore more likely than incidental co-presence.",
+    "The paired submission drew reactions from multiple known UL accounts, supporting that the object landed socially without turning reaction emoji into closeness rankings, romance evidence, or contest placement.",
+  ],
+  antiFanon: [
+    "Do not flatten Akane's sparse surviving prose into `shy` or `quiet`; the usable person read is paired / relational creative framing, not a universal temperament label.",
+    "The DeathBloom doorway plus paired caption supports probable pre-existing familiarity with Dreamless, not a claim that they joined UL together, recruited each other, were best friends, dated, had sex, or were family.",
+    "The attached image is POSTED BY Akane. MADE BY, CAPTURED BY, and visually FEATURING remain unresolved because the native pixels were not inspected in this review.",
+    "`Dancing in the moonlight` is a submission caption and does not establish music taste, nightlife habits, dancing habits, or romance style.",
+  ],
+};
+
+if (akaneIndex >= 0) {
+  const akane = allCharacters[akaneIndex];
+  allCharacters[akaneIndex] = {
+    ...akane,
+    ...akaneCharacter,
+    aliases: [...new Set([...(akane.aliases ?? []), ...akaneCharacter.aliases!])],
+    tags: [...new Set([...(akane.tags ?? []), ...akaneCharacter.tags!])],
+    relationships: akaneCharacter.relationships,
+    quotes: [...new Set([...(akane.quotes ?? []), ...akaneCharacter.quotes!])],
+  };
+} else {
+  allCharacters.push(akaneCharacter);
+}
+
 const boobaIndex = allCharacters.findIndex((character) => character.id === "booba");
 if (boobaIndex >= 0) {
   const booba = allCharacters[boobaIndex];
@@ -153,7 +200,7 @@ export const castGroups = previousGroups.map((group) => ({
 // established, keep these archive-era files visible under the existing
 // VIP/insufficient-membership-evidence bucket rather than inventing a role history.
 const vipGroup = castGroups.find((group) => group.id === "vip");
-for (const characterId of ["asphodel", "mr-streamer"]) {
+for (const characterId of ["asphodel", "mr-streamer", "akaneawake"]) {
   if (vipGroup && !vipGroup.characterIds.includes(characterId)) vipGroup.characterIds.push(characterId);
 }
 
