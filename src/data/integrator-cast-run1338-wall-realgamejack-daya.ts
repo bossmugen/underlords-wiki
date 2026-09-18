@@ -1,4 +1,5 @@
 import "./integrator-cast-run1359-wall-whiskey";
+import "./integrator-identity-repair-run1359-shiki-shk";
 import { allCharacters, characterById } from "./cast";
 import type { Character } from "./wiki";
 
