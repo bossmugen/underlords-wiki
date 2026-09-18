@@ -32,13 +32,14 @@ Eos and Torr were intentionally WIKI-only this run: the material is excellent st
 - Eos reader commit `6aa8528fc2f73ee7ddc5305a917ce706489137f2` cleared its WIKI build/Pages workflow and was deployed successfully.
 - Torr reader commit `251552ab359913a4d305b788b461bd36c8793255` cleared **Build Underlords Wiki** run `35386445685` successfully. Its first Pages attempt was cancelled after a successful preview build/artifact upload, so the final state sync intentionally triggered a clean current-site gate instead of treating that partial attempt as deployment.
 - Current-site verification/deployment commit `aebfba61bdfbe9537bf1b0a370677d9efb9d7314` contains both Eos and Torr reader changes plus this Run 1348 integration state. **Build Underlords Wiki** run `35386879865` completed successfully, and **Deploy Underlords Wiki Preview / Pages** run `35386879868` completed successfully, including the Pages deploy job. That is the verified live reader frontier for this run.
+- After that gate cleared, MAIN's controlling ledger was closed at `d01a0a9307736a535ec7bab27a3268ef78562335`; both reviewed miner frontiers now have matching `last_seen_sha` and `last_consumed_sha`.
 
 ## Recovery / consumption state
 
 - `archive-miner/club-only-2021-2026-hourly` remains current at `e45fb11c9239e236231bb65645dfd0285bc0078b`.
 - `archive-miner-clubonly-2020-hourly` remains current at `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`.
-- Wall is reviewed and publication-gated through `493e3dd285b78b35b7b12a48353dc50e5484dc9d`.
-- Daycare is reviewed and publication-gated through `c1df4e69ca422e08302e90e48672d58f134fe924`; older MAIN whole-person resynthesis debt remains.
+- Wall is reviewed and consumed through `493e3dd285b78b35b7b12a48353dc50e5484dc9d`.
+- Daycare is reviewed and consumed through `c1df4e69ca422e08302e90e48672d58f134fe924`; older MAIN whole-person resynthesis debt remains.
 - Louvre-family remains current at `6af52aa2b922b54e3a19262f649d3fbb9bdb2811`; older MAIN resynthesis debt remains.
 - Whiskey remains current at `71e948a9bbda40361ff7856f5bf05087ba5a27f3`.
 - Six `pending_publication` families remain reviewed MAIN resynthesis debt, not unread miner intake.
