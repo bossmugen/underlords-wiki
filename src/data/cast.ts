@@ -221,6 +221,182 @@ if (roseIndex >= 0) {
   };
 }
 
+// Run 1359 hard-canon repair + new intake synthesis.
+// Akariel and Zyrcant are separate people. Never restore Akariel's account forms
+// as Zyrcant aliases just because an old in-game-name string overlaps.
+const zyrcantIndex1359 = allCharacters.findIndex((character) => character.id === "zyrcant");
+if (zyrcantIndex1359 >= 0) {
+  const zyrcant = allCharacters[zyrcantIndex1359];
+  allCharacters[zyrcantIndex1359] = {
+    ...zyrcant,
+    name: "Zyrcant",
+    aliases: (zyrcant.aliases ?? []).filter((alias) => !["Akariel", "Akariel™", "akariel_star"].includes(alias)),
+    billing: "guest",
+    role: "VIP · former Amaurot deputy",
+    logline: "UL VIP and Rich's former deputy in Amaurot. Zyrcant carries an older org chart into the extended-family orbit, but that old deputy rank does not silently become UL command—and Akariel is a different person entirely.",
+    tags: ["VIP", "Amaurot", "Former deputy", "Identity-safe"],
+    relationships: [
+      {
+        name: "Rich",
+        note: "Rich led Amaurot while Zyrcant served as his deputy. That older relationship survives as history, not as an automatic UL rank transfer.",
+        href: "/characters/rich",
+      },
+    ],
+    quotes: [],
+    claims: [
+      "Mugs-confirmed canon keeps Zyrcant and Akariel as two separate people.",
+      "Zyrcant is a UL VIP and Rich's former deputy in Amaurot; the Amaurot title does not establish a UL command appointment.",
+    ],
+    antiFanon: [
+      "Akariel, Akariel™, and `akariel_star` belong to Akariel, not Zyrcant.",
+      "A historical Akariel-account line using the in-game string `Zyrcant` is a name collision under current user-confirmed canon, not permission to merge the two people.",
+      "Do not transfer Akariel's Wall scenes, quotes, attachments, relationships, or Petty Crimes onto Zyrcant.",
+    ],
+  };
+}
+
+const akarielIndex1359 = allCharacters.findIndex((character) => character.id === "akariel");
+const akarielCharacter1359: Character = {
+  id: "akariel",
+  name: "Akariel",
+  aliases: ["Akariel™", "akariel_star"],
+  billing: "guest",
+  role: "Archive-era Wall cast",
+  era: "2021",
+  logline: "Economical on setup, wildly cooperative on payoff: Akariel can drop an exhibit with almost no caption, let Tofu auction it for five cents, answer being called Satan with a deadpan `naaah`, and pre-load the escape whenever somebody presses the Snow-is-old button. She is not merely somebody the Wall catches; she repeatedly helps the joke survive contact with herself.",
+  tags: ["Archive cast", "Wall", "Self-meme", "Mock defendant", "Artifact-first", "Reciprocal teasing", "Petty Crimes"],
+  relationships: [
+    {
+      name: "Tofu",
+      note: "Two separate July pockets run on the same easy premise: Akariel posts or talks, Tofu turns it into prosecution, and Akariel heightens rather than retreats. `Starting bid: 5¢` gets a five-emote alarm stack; `how about you not take our souls at all *Satan*` gets `naaah`. Shared theatrical teasing, not a closeness rank.",
+      href: "/characters/tofu",
+    },
+    {
+      name: "ShiyaX",
+      note: "ShiyaX can announce that Akariel got `caught in 4k`; Akariel's later `oooh shit *runs*` fits the same consequence-comedy register, although the gap and lack of a reply edge keep that specific response contextual rather than mechanically bound.",
+    },
+    {
+      name: "Gabu",
+      note: "Akariel jokes that she is the person who `tackles ppl` and specifies Gabu in that case. Keep the line as chat slapstick, not literal physical contact or an intimacy ranking.",
+      href: "/characters/gabu",
+    },
+  ],
+  quotes: [
+    "whaat you dont want me to say thank you?",
+    "naaah",
+    "Everytime someone calls snow old",
+    "-runs-",
+    "im the one person who tackles ppl",
+    "and im tackling gabu in this case",
+    "lmao i remember i have  a gif saved of the whole bee movie",
+  ],
+  claims: [
+    "Stable Discord account 257294164746698763, username `akariel_star`, rendered `Akariel™`, belongs to Akariel under current user-confirmed identity canon.",
+    "Across the reviewed 2021 Wall span, Akariel repeatedly pairs sparse exhibit/self-meme setup with theatrical uptake once peers turn the joke back on her.",
+    "Akariel and Tofu have at least two independent mechanically anchored teasing/prosecution exchanges in July 2021, supporting a recurring shared-bit lane without ranking the relationship.",
+    "Akariel directly says she remembers having the whole Bee Movie saved as a GIF; that is one wonderfully specific remembered file, not proof of a general hoarding habit.",
+  ],
+  antiFanon: [
+    "Akariel is not Zyrcant. Similar or overlapping game-name strings do not merge the two people.",
+    "`tackles ppl` / `tackling gabu` is authored joke language, not evidence of real-world physical aggression.",
+    "The July `caught in 4k` pocket lacks a mechanical reply edge from Akariel's later `oooh shit *runs*`; preserve it as contextual support, not a forced exact-parent reply.",
+    "Akariel's Wall attachments remain POSTED BY Akariel unless stronger provenance exists; do not silently upgrade them to MADE BY, CAPTURED BY, or FEATURING claims.",
+    "The Bee Movie line proves one remembered saved file, not a permanent media-collection identity.",
+  ],
+};
+if (akarielIndex1359 >= 0) allCharacters[akarielIndex1359] = akarielCharacter1359;
+else allCharacters.push(akarielCharacter1359);
+
+// Run 1359 identity cleanup: Meowk and Alkey remain separate. The old base card
+// inherited Meowk account labels and Wall receipts into Alkey; remove that bridge.
+const alkeyIndex1359 = allCharacters.findIndex((character) => character.id === "alkey");
+if (alkeyIndex1359 >= 0) {
+  const alkey = allCharacters[alkeyIndex1359];
+  allCharacters[alkeyIndex1359] = {
+    ...alkey,
+    aliases: (alkey.aliases ?? []).filter((alias) => !["itsalkey", "Meowk 💖✨"].includes(alias)),
+    role: "Staff",
+    logline: "Hockey-devoted Staff whose intimidation branding keeps getting sabotaged by the person underneath it: compact heckling, practical care, direct repair, and a pout emote attached to the threat assessment.",
+    tags: ["Staff", "Hockey", "Care", "Compact humor", "Anti-conflation", "Petty Crimes"],
+    quotes: ["I am intimidating :pout:", "Can I legally marry hockey"],
+    claims: [
+      "Alkey and Meowk are separate public owners under the current identity lock.",
+      "Alkey's person file centers on hockey, compact teasing, and practical care; Meowk's stable-account Wall receipts do not belong here.",
+    ],
+    antiFanon: [
+      "Do not merge Alkey with Meowk or route stable account 264889543365230614's receipts to Alkey.",
+      "Do not route Meowk's chicken-emote spectacle, Ren cute-casting, or `i / saw / all` witness beat into Alkey.",
+    ],
+  };
+}
+
+// Core Rooms 1359: Gabu learns in public, keeps the backup nearby, and becomes
+// the person peers trust to keep the alert machinery alive.
+const gabuIndex1359 = allCharacters.findIndex((character) => character.id === "gabu");
+if (gabuIndex1359 >= 0) {
+  const gabu = allCharacters[gabuIndex1359];
+  const gabuRelationships = [...(gabu.relationships ?? [])].filter((relationship) => !["Snow", "Sye / ƐℲı˥"].includes(relationship.name));
+  gabuRelationships.push(
+    {
+      name: "Snow",
+      note: "The Saber lane changes over time from guidance and permission to direct trust: Snow asks Gabu to repair the schedule, thanks her, and later tells the room `Gabu has this`. The point is earned operational confidence, not an appointment date.",
+      href: "/characters/snow",
+    },
+    {
+      name: "Sye / ƐℲı˥",
+      note: "Gabu initially keeps ƐℲı˥ as the person to call if she gets lost while editing Saber. Later ƐℲı˥ stays available as backup while the room lets Gabu continue independently: coaching becoming standby rather than disappearing.",
+      href: "/characters/sye",
+    },
+  );
+  allCharacters[gabuIndex1359] = {
+    ...gabu,
+    logline: "Underboss whose competence is funniest when it arrives wearing uncertainty: Gabu can ask whether she should try the edit, keep a backup person nearby, succeed anyway, then become the one Snow can dismiss the room with—`Gabu has this`—before graduating to multi-day alert checks and migration planning.",
+    tags: [...new Set([...(gabu.tags ?? []), "Saber", "Systems maintenance", "Operational trust", "Troubleshooting"])],
+    relationships: gabuRelationships,
+    quotes: [...new Set([...(gabu.quotes ?? []), "should i try to add yakuza event? .=.", "i think i can do it ... if i get lost i call you XD", "oh i did it", "i can fix one by one ... i think its more easy"])],
+    claims: [
+      ...(gabu.claims ?? []),
+      "Across 2020–2023 Saber-control material, Gabu develops from tentative public learner to trusted fixer and whole-week alert validator; peers increasingly stand back while she owns the practical work.",
+      "Snow's `Gabu has this` and ƐℲı˥ remaining available as backup support lived operational trust without dating a formal role appointment.",
+      "Gabu's 2023 Saber/Carl note is conditional migration planning; it does not establish that Saber was actually replaced by Carl.",
+    ],
+    antiFanon: [...new Set([...(gabu.antiFanon ?? []), "Do not turn Saber maintenance into a formal office or use exporter role arrays to date Gabu's appointment chronology.", "The 2023 Saber→Carl line is conditional; replacement completion remains unresolved."])],
+  };
+}
+
+// Whiskey 1359: Shiki's game-exit history becomes part of how he reassures other
+// people that leaving Raja does not require leaving the social room.
+const shikiIndex1359 = allCharacters.findIndex((character) => character.id === "shiki");
+if (shikiIndex1359 >= 0) {
+  const shiki = allCharacters[shikiIndex1359];
+  const shikiRelationships = [...(shiki.relationships ?? [])].filter((relationship) => !["Crystalia", "Lilly"].includes(relationship.name));
+  shikiRelationships.push(
+    {
+      name: "Crystalia",
+      note: "When real life may push Crystalia out of Raja, Shiki does not sell her on staying in the game. He says he quit long ago and she is still `always free to chill or hang out`, using his own reduced game relationship as reassurance that the social door stays open.",
+      href: "/characters/crystalia",
+    },
+    {
+      name: "Lilly",
+      note: "One December jail-chat joke has Lilly volunteering `ill join you in jail bb` and Shiki continuing the premise. Comfortable bit-participation only; not literal jail, romance, family, or a closeness rank.",
+      href: "/characters/lilly",
+    },
+  );
+  allCharacters[shikiIndex1359] = {
+    ...shiki,
+    logline: "Sensei by behavior more than ceremony, and apparently capable of leaving the game without leaving the room: Shiki can teach systems, joke about going back to SD `til fighter come out`, later say he quit Raja long ago, and use that fact to tell somebody else they are still free to chill or hang out.",
+    tags: [...new Set([...(shiki.tags ?? []), "Dragon Raja", "Game-exit continuity", "Social availability", "Petty Crimes"])],
+    relationships: shikiRelationships,
+    quotes: [...new Set([...(shiki.quotes ?? []), "welp im back to SD again", "til fighter come out", "study first", "@here hope u all studying", "ok night all gl UL fight hard learn header surpass ur enemy"])],
+    claims: [
+      ...(shiki.claims ?? []),
+      "Shiki's surviving 2020–2021 trail separates game attachment from social belonging: IGN/class changes and eventual `quit long ago` coexist with continued room presence and reassurance toward Crystalia.",
+      "Shiki's March 24, 2021 reassurance to Crystalia is catalog-grounded Whiskey evidence; the raw message ID/timestamp was not recovered in this pass and is not invented.",
+    ],
+    antiFanon: [...new Set([...(shiki.antiFanon ?? []), "Shiki saying he quit Raja does not establish a UL departure or disappearance; the useful read is game exit without social exile.", "The Crystalia reassurance does not establish a closeness rank, and the Lilly jail-chat bit is not literal jail/romance/family language."])],
+  };
+}
+
 export const castGroups = previousGroups.map((group) => ({
   ...group,
   characterIds: [...group.characterIds],
@@ -230,7 +406,7 @@ export const castGroups = previousGroups.map((group) => ({
 // established, keep these archive-era files visible under the existing
 // VIP/insufficient-membership-evidence bucket rather than inventing a role history.
 const vipGroup = castGroups.find((group) => group.id === "vip");
-for (const characterId of ["asphodel", "mr-streamer", "akaneawake"]) {
+for (const characterId of ["asphodel", "mr-streamer", "akaneawake", "akariel"]) {
   if (vipGroup && !vipGroup.characterIds.includes(characterId)) vipGroup.characterIds.push(characterId);
 }
 
