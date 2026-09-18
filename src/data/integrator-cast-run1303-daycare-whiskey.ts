@@ -112,3 +112,22 @@ allCharacters[tofuIndex] = {
   ]),
 } as ExtendedCharacter;
 characterById.set("tofu", allCharacters[tofuIndex]);
+
+// Reader-audit repair carried with Run 1303: the canonical Suzi dossier route is
+// /characters/suzimasu. Run 1302's Oyasumi relationship text used /characters/suzi,
+// which produced a broken built-site reference even though the Oyasumi synthesis itself
+// was valid. Repair the href in-place without changing the relationship read.
+const oyasumiIndex = allCharacters.findIndex((character) => character.id === "oyasumi");
+if (oyasumiIndex >= 0) {
+  const oyasumi = allCharacters[oyasumiIndex];
+  const relationships = [...(oyasumi.relationships ?? [])];
+  const suziRelationshipIndex = relationships.findIndex((relationship) => relationship.name === "Suzi");
+  if (suziRelationshipIndex >= 0) {
+    relationships[suziRelationshipIndex] = {
+      ...relationships[suziRelationshipIndex],
+      href: "/characters/suzimasu",
+    };
+  }
+  allCharacters[oyasumiIndex] = { ...oyasumi, relationships };
+  characterById.set("oyasumi", allCharacters[oyasumiIndex]);
+}
