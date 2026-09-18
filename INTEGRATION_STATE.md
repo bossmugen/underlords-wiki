@@ -1,18 +1,29 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-18 — Run 1349_
+_Last updated: 2026-09-18 — Run 1350_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
 
-## Current close — Run 1349
+## Current close — Run 1350
 
-The mandatory full branch census closes at **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 pending review, 0 backlog, and 0 overdue branches**. Every active miner HEAD still matches the `last_seen_sha` already recorded at the end of Run 1348; there were **no advanced or unconsumed miner deltas to review** this pass. Both Club-Only recovery-priority lanes remain current. **6 `pending_publication` families** remain reviewed MAIN whole-person resynthesis debt rather than unread mining.
+The mandatory full branch census closes at **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 pending review, 0 backlog, and 0 overdue branches**. Every active miner HEAD still matches the `last_seen_sha` and `last_consumed_sha` frontiers already recorded at the end of Run 1349; there were **no advanced or unconsumed miner deltas to review** this pass. Both Club-Only recovery-priority lanes remain current. **6 `pending_publication` families** remain reviewed MAIN whole-person resynthesis debt rather than unread mining.
 
 ### Public-surface result
 
-- **MAIN reader-facing changes: 0.** Only the controlling census timestamp/run note changed at commit `b2683e90616bb9227678048fbcf50b5d7b8f67d9` with `[skip ci]`; no reader build/deploy success is claimed for unchanged reader bytes.
-- **WIKI reader-facing changes: 0.** This file is the only WIKI change for Run 1349 and is state-only with `[skip ci]`; no fresh reader build/deployment is claimed.
+- **MAIN reader-facing changes: 0.** Only the controlling census timestamp/run note changed at commit `3097a0c0f9ef6cfc6719cb4afd87992482870f04` with `[skip ci]`; no reader build/deploy success is claimed for unchanged reader bytes.
+- **WIKI reader-facing changes: 0.** This file is the only WIKI change for Run 1350 and is state-only with `[skip ci]`; no fresh reader build/deployment is claimed.
 - **Consumed SHA changes: 0.** Wall remains consumed through `493e3dd285b78b35b7b12a48353dc50e5484dc9d`; Daycare remains consumed through `c1df4e69ca422e08302e90e48672d58f134fe924`; Louvre-family remains current at `6af52aa2b922b54e3a19262f649d3fbb9bdb2811`; Whiskey remains current at `71e948a9bbda40361ff7856f5bf05087ba5a27f3`.
+- **New findings integrated: 0.** No duplicate/corroboration packet, conflict, rabbit-hole decision, relationship read, identity bridge, or public owner changed because no miner advanced.
+
+## Previous close — Run 1349
+
+The mandatory full branch census closed at **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 pending review, 0 backlog, and 0 overdue branches**. Every active miner HEAD still matched the `last_seen_sha` already recorded at the end of Run 1348; there were **no advanced or unconsumed miner deltas to review** that pass. Both Club-Only recovery-priority lanes remained current. **6 `pending_publication` families** remained reviewed MAIN whole-person resynthesis debt rather than unread mining.
+
+### Public-surface result
+
+- **MAIN reader-facing changes: 0.** Only the controlling census timestamp/run note changed at commit `b2683e90616bb9227678048fbcf50b5d7b8f67d9` with `[skip ci]`; no reader build/deploy success was claimed for unchanged reader bytes.
+- **WIKI reader-facing changes: 0.** `INTEGRATION_STATE.md` was the only WIKI change for Run 1349 and was state-only with `[skip ci]`; no fresh reader build/deployment was claimed.
+- **Consumed SHA changes: 0.** Wall remained consumed through `493e3dd285b78b35b7b12a48353dc50e5484dc9d`; Daycare through `c1df4e69ca422e08302e90e48672d58f134fe924`; Louvre-family at `6af52aa2b922b54e3a19262f649d3fbb9bdb2811`; Whiskey at `71e948a9bbda40361ff7856f5bf05087ba5a27f3`.
 - **New findings integrated: 0.** No duplicate/corroboration packet, conflict, or rabbit-hole decision changed because no miner advanced.
 
 ## Previous public close — Run 1348
