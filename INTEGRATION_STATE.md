@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-18 — Run 1331 close_
+_Last updated: 2026-09-18 — Run 1331 close + canon-repair supplement_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
 
@@ -24,18 +24,30 @@ Ren's immediate response to the recruitment idea — volunteering to change and 
 
 **ShiyaX + Lilly / Wall**: the new Wall tail reinforces already-owned mechanisms. ShiyaX remains both chaos participant and active receipt-filer/defendant while still being capable of practical room-boundary nudges; Lilly's command/pet-name/food-demand language continues to read as familiar affection without being promoted into literal romance. Danny's Sprite/media tidbit is too thin to justify a public owner change.
 
+## Canon-repair supplement — identity rails now enforced in the public owner layer
+
+The intake review surfaced a publication-layer problem that outranks ordinary additive lore: current WIKI canonicalization still carried stale pre-correction identity contamination. The public owner layer now explicitly enforces the resolved splits instead of allowing those stale aliases to leak back in.
+
+- **Akariel ≠ Zyrcant.** Akariel / Akariel™ / `akariel_star` aliases are stripped from Zyrcant, identity-dependent deputy/relationship contamination is not carried onto Zyrcant, and Akariel's separate owner receives the Akariel aliases and an explicit anti-merge rail when present. BeaEder's Akariel-tagged Wall summon is no longer routed to Zyrcant.
+- **Rich / DragonRich / `dragonrichard` ≠ Ricochet.** The `dragonrichard` alias is stripped from Ricochet and retained with Rich's separate owner. The stale miner-side bridge remains rejected.
+- **Alkey ≠ Meowk.** The existing runtime repair remains active: Meowk aliases and Meowk-owned `booli` / cute-casting material stay out of Alkey's file, while Meowk remains a separate public owner.
+
+This is a hard-canon correction, not a new inference layer. No scene ownership is transferred merely because names look similar.
+
 ## Public-surface result
 
 - Reader-facing MAIN change this close: **0**.
-- Reader-facing WIKI change this close: **0**.
-- No MAIN source verification/Astro/output build or WIKI Pages build/deployment is claimed because reader-facing bytes did not change.
-- The only intentional surface routing is future-facing: Anthos's new creative-utility synthesis is banked for MAIN, while the already-structured DyingFox/Lilly relationship remains WIKI-owned.
+- Reader-facing WIKI change this close: **yes — hard identity-owner repair only**.
+- Exact WIKI reader commit: `ac1b05e8df273f4e5ac507ae6ac6a997c7999562`.
+- Build Underlords Wiki run `35352867237` succeeded on that exact SHA.
+- Deploy Underlords Wiki Preview / Pages run `35352867016` succeeded on that exact SHA, including the deploy and report jobs.
+- MAIN did not receive receipt-shaped reader copy from these deltas. Anthos's additive creative-utility read remains banked for future person-first MAIN resynthesis; the identity correction is WIKI owner-routing hygiene, not a reason to rewrite MAIN biographies this hour.
 
 ## Reconciliation / holds
 
 Hard rails remain active. The miner-side `Rich / DragonRich = Ricochet` bridge is rejected: they remain separate people. q9 remains unresolved. Uninspected Wall media stays attribution-bounded: POSTED BY does not become MADE BY / CAPTURED BY / FEATURING. Daycare RH16 attribution remains unresolved. wisp / SolterVy stays no-pad from a two-message sample, with no title, role, or age inference. The Daycare Lobby quiet stretch is a source-specific archive gap only. The Louvre packet's `remember u always have a home here okayy` belongs to Announcements custody, not Louvre/Athenaeum/AI Art.
 
-Other standing identity/safety rails carry forward unchanged: Tae remains separate from Ansun / sou.san / 颯太. Mia remains separate from Mimi. Momo and Mimi remain separate. Akariel remains separate from Zyrcant. Support Tech remains Dean / Beansprout. Akamin remains separate from Mere. Nuien remains separate from Illien. Joke roles, family language, flirting, ships, mock-procedural language, game-account language, and joke wealth do not become literal governance, biology, romance, sex, identity, or financial claims without support. Earliest surviving material is not silently promoted to origin.
+Other standing identity/safety rails carry forward unchanged: Tae remains separate from Ansun / sou.san / 颯太. Mia remains separate from Mimi. Momo and Mimi remain separate. Akariel remains separate from Zyrcant. Rich / DragonRich remains separate from Ricochet. Meowk remains separate from Alkey. Support Tech remains Dean / Beansprout. Akamin remains separate from Mere. Nuien remains separate from Illien. Joke roles, family language, flirting, ships, mock-procedural language, game-account language, and joke wealth do not become literal governance, biology, romance, sex, identity, or financial claims without support. Earliest surviving material is not silently promoted to origin.
 
 ## Recovery / consumption state
 
@@ -51,8 +63,10 @@ Other standing identity/safety rails carry forward unchanged: Tae remains separa
 
 ## Latest reader-facing WIKI addition
 
-The most recent reader-facing WIKI addition remains the Run 1328 Birthdays/PR/VC Fight Club social-purpose Episode. On April 25, 2020, while Simple was still figuring out a server with `so much` going on, Gilli explained that UL also had a Fight Club channel for game events `to chat and laugh and stuff`. WIKI owns that as structured early-room culture rather than as an absolute channel-origin claim. Reader commit: `915118f3a97092ca928dfd5d747c085081cded40`. Build Underlords Wiki run `35346536051` and Pages/Preview run `35346535952` both succeeded.
+The latest reader-facing WIKI change is the Run 1331 identity-owner repair at `ac1b05e8df273f4e5ac507ae6ac6a997c7999562`: Akariel stays out of Zyrcant, Rich / DragonRich stays out of Ricochet, and the existing Meowk / Alkey separation remains enforced at runtime. This is intentionally backstage-facing public correctness rather than a new lore episode.
+
+The most recent additive lore publication remains the Run 1328 Birthdays/PR/VC Fight Club social-purpose Episode. On April 25, 2020, while Simple was still figuring out a server with `so much` going on, Gilli explained that UL also had a Fight Club channel for game events `to chat and laugh and stuff`. WIKI owns that as structured early-room culture rather than as an absolute channel-origin claim. Reader commit: `915118f3a97092ca928dfd5d747c085081cded40`.
 
 ## Historical state
 
-Run 1329 was a quiet census-only close. Run 1328 published the early Fight Club social-purpose Episode WIKI-only and reviewed Daycare, Louvre-family, and Wall tails. Run 1326 closed a Daycare Rose corroboration-only tail without reader changes. Run 1325 published the Nobu/Xuseio full Wall sweep WIKI-only. Run 1323 verified the prior Annie/Kuwei publication and repaired Meowk/Alkey dossier routing. Run 1321 published structured Gabby and egotism dossiers. Run 1313 published Kuki's collaborator-side creative-peer / authorship-boundary depth and Woohyuk's structured person-shaped dossier. Older integration history remains preserved in Git history and durable close reports; this file stays intentionally compact as the current authoritative WIKI state rather than becoming another receipt ledger.
+Run 1331 reviewed four advanced miner tails, banked the strongest additive Anthos read for future MAIN synthesis, and then corrected stale identity-owner contamination in WIKI. Run 1329 was a quiet census-only close. Run 1328 published the early Fight Club social-purpose Episode WIKI-only and reviewed Daycare, Louvre-family, and Wall tails. Run 1326 closed a Daycare Rose corroboration-only tail without reader changes. Run 1325 published the Nobu/Xuseio full Wall sweep WIKI-only. Run 1323 verified the prior Annie/Kuwei publication and repaired Meowk/Alkey dossier routing. Run 1321 published structured Gabby and egotism dossiers. Run 1313 published Kuki's collaborator-side creative-peer / authorship-boundary depth and Woohyuk's structured person-shaped dossier. Older integration history remains preserved in Git history and durable close reports; this file stays intentionally compact as the current authoritative WIKI state rather than becoming another receipt ledger.
