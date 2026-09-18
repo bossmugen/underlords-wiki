@@ -56,6 +56,9 @@ const momoNext: ExtendedCharacter = {
     "Wall gallery",
     "Cursed gallery",
     "Wall memories",
+    "Attachment-first filer",
+    "Deadpan captions",
+    "Reciprocal defendant",
   ]),
   quotes: unique([
     ...(momo.quotes ?? []),
@@ -65,15 +68,25 @@ const momoNext: ExtendedCharacter = {
     "My pride is forever tarnished",
     "The wall holds many memories!",
     "Whoever posted here is best waifu",
+    "shame",
+    "Not surprised",
+    "Bruh He deleted it",
+    "Lets start here",
+    "I look shocked",
   ]),
   claims: unique([
     ...(momo.claims ?? []),
     "Across 2021 Momo treats the Wall less like a static feed than a room she helps keep alive: she checks whether posting is still open, asks the room for an idea, offers cursed gallery material, laughs at her own ruined pride, calls out the Wall's memories, and praises whoever posted as `best waifu`. The pattern reads as reciprocal gallery participation rather than a one-way prosecution role.",
+    "The older 2020–2021 Wall pocket makes Momo's filing style much more specific. She often lets an attachment do most of the work, then adds a tiny caption — `shame`, `Not surprised`, `Bruh He deleted it`, `Lets start here` — and leaves the room to finish the prosecution. The deadpan economy is the point: Momo does not need a speech when one upload and two words will do.",
+    "Momo is also comfortably catchable by the same machine she feeds. Chord can greet an early attachment with `i see you like suffering momo`; later Kiro can post back at her, ping her into the exchange, and keep the filing chain moving until Momo is supplying another attachment and `I look shocked`. That reciprocal filing rhythm reads as familiar Screenshot Court play, not a formal Wall job and not one-way victimhood.",
   ]),
   antiFanon: unique([
     ...(momo.antiFanon ?? []),
     "Mimi / opalite.honey is separate from Mia. Momo's reciprocal twin bit belongs to Mimi and Momo; never transfer it onto Mia because of stale display-name prose.",
     "Wall reply/reaction topology is room-specific interaction texture, not a friendship ranking. Uninspected media stays POSTED BY Momo only unless maker, capturer, or featured subjects are independently established.",
+    "Momo and Mimi are separate people. Never use similar display names, twin jokes, or Wall proximity to merge their accounts, dialogue, relationships, or media.",
+    "The 2020 phrase `kiko made mi` is preserved as a local joke/context fragment only. It is not an identity bridge, and Kiko and Kiro must not be merged from similar names without independent support.",
+    "Momo's reciprocal Kiro filing/callback lane supports lived teasing familiarity inside Screenshot Court. It does not establish romance, a formal court role, creator ownership of the attached media, or equal intimacy outside the room.",
   ]),
 };
 allCharacters[momoIndex] = momoNext;
