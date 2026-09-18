@@ -1,38 +1,41 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-17 — Run 1311 close_
+_Last updated: 2026-09-17 — Run 1313 close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
 
-## Current close — Run 1311
+## Current close — Run 1313
 
-The mandatory full branch census resolved to **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 advanced/unconsumed active branches, 0 backlog, and 0 overdue branches**. Every active miner head still matches the controlling ledger's recorded `last_consumed_sha`, so there was no new `archive-intake/*` delta to review this pass. Both Club-Only recovery-priority lanes remain current, and **5 `pending_publication` families** remain older reviewed MAIN whole-person resynthesis debt rather than unread mining.
+The mandatory full branch census resolved to **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 closing pending review, 0 backlog, and 0 overdue branches**. Three advanced tails were reviewed checkpoint-first and intake-only: Daycare, Louvre-family, and Wall. Both Club-Only recovery-priority lanes remain current, and **5 `pending_publication` families** remain older reviewed MAIN whole-person resynthesis debt rather than unread mining.
 
 ## Public-surface result
 
 - Reader-facing MAIN change: **0**.
-- Reader-facing WIKI change: **0**.
-- No new findings were integrated because no miner branch advanced.
-- No duplicate evidence family required reconciliation this pass; all previously carried holds remain in force.
-- No fresh MAIN source-verification/Astro/built-output verification is claimed for unchanged reader bytes.
-- No fresh WIKI Astro/Pages build or deployment is claimed for unchanged reader bytes.
-- The most recent verified/deployed WIKI reader remains Run 1303 commit `6babbd71a643bc8d22ea3a1230c62e9642dbebba`, with Build Underlords Wiki run `35301486859` and Deploy Underlords Wiki Preview / Pages run `35301486927` both successful.
-- This Run 1311 change is reader-neutral integration-state documentation only.
+- Reader-facing WIKI change: **yes** — Kuki gained a collaborator-side creative-peer / authorship-boundary deepening, and Woohyuk gained a structured dossier built around person-specific attention, active Wall instigation, low-key check-ins, theatrical defendant behavior, and Petty Crimes.
+- Queen Shimoko's reviewed Wall micro-profile was already materially public and was consumed as duplicate/corroboration instead of duplicated.
+- Daycare's Torr / Mr Streamer packet was already substantially owned by existing Torr synthesis and attribution rails; no reader change.
+- The Louvre miner's stale `Rich/DragonRich = Ricochet` bridge conflicts with current hard identity state and was rejected. Rich/DragonRich remains separate from Ricochet unless explicit new canon supersedes that lock.
+- No fresh MAIN source-verification/Astro/built-output verification or deployment is claimed because MAIN reader bytes did not change.
+- Exact WIKI reader commit: `0110caf23a0121bbf30f67d381af054b33cb6923`.
+- Build Underlords Wiki run `35316281176`: **success**.
+- Deploy Underlords Wiki Preview / Pages run `35316281329`: **success**, including deployment.
+- This file is reader-neutral state documentation after the verified reader commit.
 
-No one-surface-only reader publication was made this pass.
+The WIKI-only publication is intentional. Kuki and Woohyuk gained strong structured dossier depth now; MAIN should absorb those gains later through broader whole-person biography resynthesis rather than another dated receipt paragraph.
 
 ## Recovery / consumption state
 
-No consumed SHA changed in Run 1311 because no active branch moved. Current notable frontiers remain:
+Run 1313 advanced these reviewed frontiers after successful WIKI verification/deployment:
 
-- `archive-miner/birthdays-pr-vc-deep-2026-08-24-2325` → `3729ac02b125de8f888d284498f8ae14cb5d257e`.
-- `archive-miner/daycare-2020-2026-hourly` → `fc6ce8bf0fd64a8d7cd47400d5762c11a8680236`.
-- `archive-miner/louvre-ai-art-athenaeum-other-games-hourly` → `bd20c80b9c5497893567ef7c3c2b8702ecb37349`.
-- `archive-miner/whiskey-longitudinal-hourly` → `8dfe77d6da4fa37464073b2e655627c39478fbe7`.
-- `archive-miner-wall-hourly-20260824` → `a980d316007a3f251fd6f3467e8a11f6418b703a`.
+- `archive-miner/daycare-2020-2026-hourly` → `63c9935630ed6a69cd3c4da4d56bdbc762cd391a`.
+- `archive-miner/louvre-ai-art-athenaeum-other-games-hourly` → `9c251ba2b63f51b6dd9805225b852cbe5f77af29`.
+- `archive-miner-wall-hourly-20260824` → `291f9c70f64652815d711530cadce0e06aec8381`.
+- `archive-miner/whiskey-longitudinal-hourly` remains current at `8dfe77d6da4fa37464073b2e655627c39478fbe7`.
 - `archive-miner/club-only-2021-2026-hourly` remains current at `e45fb11c9239e236231bb65645dfd0285bc0078b`.
 - `archive-miner-clubonly-2020-hourly` remains current at `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`.
 - Five `pending_publication` families remain older reviewed MAIN resynthesis debt, not unread miner intake.
+
+Post-publication head checks confirmed all three reviewed miner refs remained on the reviewed SHAs.
 
 ## Holds / rails carried forward
 
@@ -40,4 +43,4 @@ Rich/DragonRich remains separate from Ricochet unless hard canon is explicitly c
 
 ## Historical state
 
-Run 1310 was a no-reader-change full-census close. Run 1309 reviewed and consumed Birthdays/PR/VC, Daycare, Whiskey, and Wall without reader-facing publication; it banked early Photoshoot history and additional Anthos/Nobu/Anayss/Vanness/Athena/Sye/Han/Eos texture while keeping privacy, identity, joke-language, and media-attribution rails intact. Run 1304 was a no-reader-change full-census close. Run 1303 published Eos's performative-embarrassment/self-filing contradiction and Tofu's lurker-to-receipt-activation axis to WIKI, held a Louvre Rich=Ricochet bridge against hard canon, and repaired Oyasumi's Suzi link to the canonical `/characters/suzimasu` route before verified deployment. Run 1301 was a no-reader-change full-census close. Run 1299 published Mimi / Opalite Honey's recipient-to-steward newcomer-help axis, Ren / RV's earlier excitement-to-implementation reflex, and the first structured Cookies and Juicebox owner to WIKI; Wall's Miihi/Danny/Kiro additions were duplicate-by-meaning and Anthos corroborated an already-public fixer/recruiter lane. Run 1296 published the Rummy Daycare soft-landing axis and Momo's attachment-first / reciprocal Screenshot Court texture to WIKI while leaving MAIN for later whole-person resynthesis. Older integration history remains preserved in Git history and durable close reports. This file stays intentionally compact as the current authoritative WIKI state rather than becoming another receipt ledger.
+Run 1311 was a no-reader-change full-census close. Run 1309 reviewed and consumed Birthdays/PR/VC, Daycare, Whiskey, and Wall without reader-facing publication; it banked early Photoshoot history and additional Anthos/Nobu/Anayss/Vanness/Athena/Sye/Han/Eos texture while keeping privacy, identity, joke-language, and media-attribution rails intact. Run 1303 published Eos's performative-embarrassment/self-filing contradiction and Tofu's lurker-to-receipt-activation axis to WIKI, held a Louvre Rich=Ricochet bridge against hard canon, and repaired Oyasumi's Suzi link to the canonical `/characters/suzimasu` route before verified deployment. Run 1299 published Mimi / Opalite Honey's recipient-to-steward newcomer-help axis, Ren / RV's earlier excitement-to-implementation reflex, and the first structured Cookies and Juicebox owner to WIKI. Run 1296 published the Rummy Daycare soft-landing axis and Momo's attachment-first / reciprocal Screenshot Court texture to WIKI while leaving MAIN for later whole-person resynthesis. Older integration history remains preserved in Git history and durable close reports. This file stays intentionally compact as the current authoritative WIKI state rather than becoming another receipt ledger.
