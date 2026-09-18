@@ -1,10 +1,10 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-17 — Run 1300 close_
+_Last updated: 2026-09-17 — Run 1301 close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
 
-## Current close — Run 1300
+## Current close — Run 1301
 
 The mandatory full miner census closes at **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 pending review, 0 backlog, and 0 overdue branches**. Every active miner HEAD matched its controlling `last_consumed_sha`, so there were **0 unread intake deltas** to review this run. Both Club-Only recovery-priority lanes remain current. The controlling MAIN ledger still carries **5 `pending_publication` families**, all older reviewed MAIN whole-person resynthesis debt rather than unread mining.
 
@@ -30,4 +30,4 @@ No unresolved lane changed this run. Mia remains separate from Mimi. Cookies and
 
 ## Historical state
 
-Run 1299 published Mimi / Opalite Honey's recipient-to-steward newcomer-help axis, Ren / RV's earlier excitement-to-implementation reflex, and the first structured Cookies and Juicebox owner to WIKI; Wall's Miihi/Danny/Kiro additions were duplicate-by-meaning and Anthos corroborated an already-public fixer/recruiter lane. Run 1298 was a no-reader-change full-census close. Run 1296 published the Rummy Daycare soft-landing axis and Momo's attachment-first / reciprocal Screenshot Court texture to WIKI while leaving MAIN for later whole-person resynthesis. Run 1294's Zhēnxī/Nobu q24 correction, Run 1292's Beckiie WIKI publication, Run 1290's no-reader-change close, Run 1289's Akariel/Zyrcant hard-lock synchronization, Run 1288's Bailey_Babe WIKI publication, and older integration history remain preserved in Git history and durable close reports. This file stays intentionally compact as the current authoritative WIKI state rather than becoming another receipt ledger.
+Run 1300 was a no-reader-change full-census close. Run 1299 published Mimi / Opalite Honey's recipient-to-steward newcomer-help axis, Ren / RV's earlier excitement-to-implementation reflex, and the first structured Cookies and Juicebox owner to WIKI; Wall's Miihi/Danny/Kiro additions were duplicate-by-meaning and Anthos corroborated an already-public fixer/recruiter lane. Run 1298 was a no-reader-change full-census close. Run 1296 published the Rummy Daycare soft-landing axis and Momo's attachment-first / reciprocal Screenshot Court texture to WIKI while leaving MAIN for later whole-person resynthesis. Run 1294's Zhēnxī/Nobu q24 correction, Run 1292's Beckiie WIKI publication, Run 1290's no-reader-change close, Run 1289's Akariel/Zyrcant hard-lock synchronization, Run 1288's Bailey_Babe WIKI publication, and older integration history remain preserved in Git history and durable close reports. This file stays intentionally compact as the current authoritative WIKI state rather than becoming another receipt ledger.
