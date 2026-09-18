@@ -1,3 +1,4 @@
+import "./integrator-cast-run1322-annie-kuwei";
 import { allCharacters, castGroups, characterById } from "./cast";
 import type { Character } from "./wiki";
 
