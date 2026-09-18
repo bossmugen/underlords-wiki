@@ -1,19 +1,30 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-18 — Run 1352_
+_Last updated: 2026-09-18 — Run 1353_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
 
-## Current close — Run 1352
+## Current close — Run 1353
 
-The mandatory full branch census closes at **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 pending review, 0 backlog, and 0 overdue branches**. Every active miner HEAD still matches the `last_seen_sha` and `last_consumed_sha` frontiers recorded at Run 1351 close, so there were **no advanced or unconsumed miner deltas to review** this pass. Both Club-Only recovery-priority lanes remain current. **6 `pending_publication` families** remain reviewed MAIN whole-person resynthesis debt rather than unread mining.
+The mandatory full branch census closes at **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 pending review, 0 backlog, and 0 overdue branches**. Every active miner HEAD still matches the `last_seen_sha` and `last_consumed_sha` frontiers recorded at Run 1352 close, so there were **no advanced or unconsumed miner deltas to review** this pass. Both Club-Only recovery-priority lanes remain current. **6 `pending_publication` families** remain reviewed MAIN whole-person resynthesis debt rather than unread mining.
 
 ### Public-surface result
 
-- **MAIN reader-facing changes: 0.** The mandatory census was persisted on `master` at commit `274534768697920015afc15673c5b64529f2bd09` with `[skip ci]`; no reader build/deployment is claimed for unchanged reader bytes.
-- **WIKI reader-facing changes: 0 in Run 1352.** The immediately preceding Run 1351 hard-canon repair remains the verified live reader frontier: Eos's dossier attributes the low-bandwidth panda cues to **Rich**, not Ricochet, at reader commit `54b631242d05c43293f26ba7bb3de4d653ce89ed`. **Build Underlords Wiki** run `35392077112` and **Deploy Underlords Wiki Preview / Pages** run `35392077142` both completed successfully for that exact reader SHA.
+- **MAIN reader-facing changes: 0.** The mandatory census was persisted on `master` at commit `ee158e60feb9c4616955603488b1de02c5168cca` with `[skip ci]`; no reader build/deployment is claimed for unchanged reader bytes.
+- **WIKI reader-facing changes: 0 in Run 1353.** The verified live reader frontier remains the Run 1351 hard-canon repair at `54b631242d05c43293f26ba7bb3de4d653ce89ed`, where Eos's dossier attributes the low-bandwidth panda cues to **Rich**, not Ricochet. **Build Underlords Wiki** run `35392077112` and **Deploy Underlords Wiki Preview / Pages** run `35392077142` remain the latest verified reader build/deploy pair for that exact reader SHA.
 - **Consumed SHA changes: 0.** Daycare remains consumed through `ccffd374809ba201b8f757a8bfdc12c3cd0942a0`; Wall through `1c4c4b028867a9138bc1faa7ee0648ab2589e248`; Louvre-family through `81b763dd4c030bbe593da0fad5585e95cecf8636`; Whiskey through `71e948a9bbda40361ff7856f5bf05087ba5a27f3`.
 - **New findings / duplicates / conflicts this pass: 0.** No miner advanced, so no new person read, relationship claim, identity bridge, duplicate family, rabbit-hole decision, or attribution change was introduced. Existing hard holds remain unchanged.
+
+## Previous close — Run 1352
+
+The mandatory full branch census closed at **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 pending review, 0 backlog, and 0 overdue branches**. Every active miner HEAD still matched the `last_seen_sha` and `last_consumed_sha` frontiers recorded at Run 1351 close, so there were **no advanced or unconsumed miner deltas to review** that pass. Both Club-Only recovery-priority lanes remained current. **6 `pending_publication` families** remained reviewed MAIN whole-person resynthesis debt rather than unread mining.
+
+### Public-surface result
+
+- **MAIN reader-facing changes: 0.** The mandatory census was persisted on `master` at commit `274534768697920015afc15673c5b64529f2bd09` with `[skip ci]`; no reader build/deployment was claimed for unchanged reader bytes.
+- **WIKI reader-facing changes: 0 in Run 1352.** The immediately preceding Run 1351 hard-canon repair remained the verified live reader frontier: Eos's dossier attributes the low-bandwidth panda cues to **Rich**, not Ricochet, at reader commit `54b631242d05c43293f26ba7bb3de4d653ce89ed`. **Build Underlords Wiki** run `35392077112` and **Deploy Underlords Wiki Preview / Pages** run `35392077142` both completed successfully for that exact reader SHA.
+- **Consumed SHA changes: 0.** Daycare remained consumed through `ccffd374809ba201b8f757a8bfdc12c3cd0942a0`; Wall through `1c4c4b028867a9138bc1faa7ee0648ab2589e248`; Louvre-family through `81b763dd4c030bbe593da0fad5585e95cecf8636`; Whiskey through `71e948a9bbda40361ff7856f5bf05087ba5a27f3`.
+- **New findings / duplicates / conflicts this pass: 0.** No miner advanced, so no new person read, relationship claim, identity bridge, duplicate family, rabbit-hole decision, or attribution change was introduced. Existing hard holds remained unchanged.
 
 ## Previous close — Run 1351
 
