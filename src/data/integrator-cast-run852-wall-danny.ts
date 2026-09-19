@@ -14,76 +14,51 @@ const dannyIndex = allCharacters.findIndex((character) => character.id === danny
 
 const wallRelationships = [
   {
-    name: "Anthos",
+    name: "Ren",
     note:
-      "Anthos can tease Danny straight into the plushie panic zone and then pivot just as easily into reassurance. After Danny looks back at an old receipt and calls it `back in my cringe days.`, Anthos answers `Don't worry Danny` and `We still love you`; Danny's first response is `No`, then `_hugs_`. The warmth lives inside the teasing rhythm rather than replacing it.",
-  },
-  {
-    name: "Mugen",
-    note:
-      "Mugen and Danny have an easy callback-and-gamer-banter lane. `Think danny Think!` gets reused around him years after the older Wall material, and by 2025 Danny can insist `I am a gamer` / `It's in my name` while Mugen laughs at the exchange. It reads as familiar responsive teasing, not a claim that every adjacent receipt is about Danny.",
-  },
-  {
-    name: "Deleted User",
-    note:
-      "A pooled Deleted User and Danny trade the `think danny think!` callback back and forth in 2024. The recurrence is real; the person's identity is not. Keep the relationship lane bounded to the pooled account instead of assigning it to a named member by guesswork.",
+      "Danny can throw a receipt into the room, get an immediate `DANNY I SWEAR TO GOD` / `IM GONNA MURDER YOU` from Ren, and answer the mock outrage by improving the premise instead of retreating: `I should get a new ss with the persons name added 😝😝`. The useful relationship texture is receipt-provocation and escalation banter where both people understand the bit; the threat language is theatrical, not literal hostility.",
   },
 ];
 
 const dannyCharacter: ExtendedCharacter = {
   id: dannyId,
   name: "Danny",
-  aliases: ["danny_ftm", "Danny🟥⬜", "Danny UwU", "xXx_gamer_kid_xXx", "danny1056"],
+  aliases: ["danny_ftm", "Danny🟥⬜"],
   billing: "guest",
   role: "Member",
   era: "2020+",
   logline:
-    "Danny has the useful Wall habit of realizing exactly how incriminating something is and then staying in the bit anyway. An old self-post can earn a tiny `Oh...`; a later receipt becomes `back in my cringe days.`; plushie teasing gets a full `NOOOO` followed by Danny filing an image anyway. By 2025 even the ridiculous `xXx_gamer_kid_xXx` handle has become material: `I am a gamer`, `It's in my name`, then `Sounds like a skill issue`. Embarrassment rarely removes Danny from the joke. It usually gives Danny something new to joke with.",
+    "Danny's tiny surviving Wall footprint manages to make one contradiction extremely clear: socially chaotic filer, weirdly conscientious receipt-quality-control brain. He can apparently carry a live screenshot from Club-only into Wall, add another image, get mock-threatened by Ren, and respond by proposing a *better* screenshot with the person's name visible. Then, because one tangent is never enough, he can drop a 2006 Sprite-goblin advert into the room and explain that there were loads of them. The instinct is rarely to retreat from the bit. Danny improves it, labels it, or finds another odd piece of media to make everybody deal with.",
   tags: [
     "Wall",
     "Screenshot filing",
-    "Self-roast",
-    "Self-filing",
-    "Callback target",
-    "Callback participant",
-    "Gamer bit",
-    "Context preservation",
-    "Callback tangents",
+    "Cross-room receipt porter",
+    "Receipt legibility",
+    "Joke escalation",
+    "Odd-media callbacks",
     "Petty Crimes",
   ],
   relationships: wallRelationships,
   quotes: [
     "Sorry youre right, I should get a new ss with the persons name added 😝😝",
-    "Oh...",
-    "NOOOO",
-    "back in my cringe days.",
-    "_hugs_",
-    "THINK DANNY THINK",
-    "I am a gamer",
-    "It's in my name",
-    "Sounds like a skill issue",
     "But what sprite?",
     "There was loads of sprite goblin adverts lol",
   ],
   claims: [
-    "Danny is stable account 497107210200154153. The reviewed Wall display-name chain `Danny UwU#8248` → `Danny FtM#3367` → `xXx_gamer_kid_xXx#3367` → `Danny#3367` → `danny1056` belongs to that one account only; it does not bridge any other account merely named Danny.",
-    "In an October 2020 Wall pocket, Danny posts two images and later jokes that the fix is to get a new screenshot `with the persons name added`; the useful character texture is a mischievous filer who still cares about preserving enough context for the receipt to make sense.",
-    "Later that month Danny answers a Sprite mishap by dropping a Sprite-goblin advert link and then explaining there were many such adverts, a small example of how quickly Danny will take an available tangent and make it the room's problem.",
-    "On 2021-10-15 Danny posts an image and follows it with `Oh...`; the same tiny acknowledgement later survives as a callback target. The useful read is not avoidance but compact recognition that Danny knows exactly what has just been filed.",
-    "On 2022-01-11 Anthos replies to a Danny parent with `When u look at danny's plushies :Kapp:`. Danny answers `NOOOO` and then self-posts an image. The scene supports embarrassment plus self-filing: Danny protests the roast while still feeding the room another exhibit.",
-    "On 2022-01-23 Danny replies to an older self-post with `back in my cringe days.` Anthos answers `Don't worry Danny` and `We still love you`; Danny says `No` and then `_hugs_`. That sequence supports a teasing-safe relationship with visible reassurance and affection, not romance.",
-    "Across 2024, `Think danny Think!` becomes a shared callback that Mugen and a pooled Deleted User can throw at Danny, and Danny later throws it back at the pooled account. The joke has become participatory rather than something merely done to him.",
-    "In March 2025 Danny turns the then-current `xXx_gamer_kid_xXx` name into authored self-description: `I am a gamer`, `It's in my name`, followed by `Sounds like a skill issue`. The gamer identity is a present-tense bit tied to that era, not something to backdate into 2021 or 2022.",
-    "Petty Crimes: LOOKS AT HIS OWN OLD RECEIPTS AND SENTENCES HIMSELF WITH `back in my cringe days.`; PROTESTS PLUSHIE SLANDER THEN CONTRIBUTES ANOTHER EXHIBIT; PARTICIPATES IN HIS OWN RECURRING `THINK DANNY THINK` CALLBACK; AND DEFENDS `I am a gamer` WITH THE EVIDENTIARY STANDARD `It's in my name`.",
+    "Danny is anchored here to stable account 497107210200154153 / username `danny_ftm` / rendered `Danny🟥⬜`; this owner must not absorb other Danny-named accounts by string similarity.",
+    "On October 12, 2020 Danny posts a screenshot in Club-only and, 3m50.566s later, posts two attachments in Wall. One Wall attachment shares the earlier object's raw filename and exact byte size, making cross-room reuse/repost strongly probable even though byte-level identity is not claimed without a checksum.",
+    "Ren's immediate mock outrage at the Wall filing is followed by Danny's `Sorry youre right, I should get a new ss with the persons name added 😝😝`. The useful person read is a chaotic filer who answers social heat by improving the receipt premise rather than backing out of it.",
+    "Danny's role in this pocket is lived behavior, not an office: cross-room receipt porter / provenance-minded joke escalator. Nothing here creates a formal archivist, moderator, or governance title.",
+    "On October 21, 2020 Danny posts a YouTube embed for `Sprite - All-Nighter (2006, UK)`, follows it with `But what sprite?`, and later says `There was loads of sprite goblin adverts lol`. It is good weird-media recall and callback texture, not evidence of nationality, location, or drink preference.",
+    "Petty Crimes: MOVES A RECEIPT ACROSS ROOMS AND APPARENTLY DECIDES THE REAL PROBLEM IS THAT THE PERSON'S NAME IS NOT VISIBLE ENOUGH; RESPONDS TO MOCK THREATS WITH BETTER FILING STANDARDS; AND BRINGS A 2006 SPRITE GOBLIN ADVERT INTO WALL BECAUSE THE TANGENT WAS AVAILABLE.",
   ],
   antiFanon: [
-    "This owner is anchored to stable account 497107210200154153. Do not merge other Danny-named accounts into it by display-name similarity alone.",
-    "The 2021 and 2022 Danny attachments are POSTED BY Danny only unless separate media evidence establishes who made, captured, or appears in them. The plushie attachment's subject is unresolved in this handoff.",
-    "Anthos's teasing → reassurance → Danny hug supports affectionate peer banter. It does not establish romance, exclusivity, family, or ranked closeness.",
-    "The pooled Deleted User in the 2024 callback chain remains a pooled unidentified account. Do not bridge it to a named member from this exchange.",
-    "`Think danny Think!` is a recurring Wall callback in the reviewed material, not proof of the phrase's original source, first use, or off-platform origin.",
-    "The 2025 gamer exchange does not diagnose Danny's computer or establish hardware facts beyond what the surrounding conversation explicitly says, and the `xXx_gamer_kid_xXx` handle must not be backdated into earlier eras.",
-    "The Sprite-goblin link is a conversational tangent, not evidence of Danny's geography, nationality, or personal history with the advert.",
+    "Stable account 497107210200154153 is the identity anchor for this owner. Do not merge other Danny-named accounts into it by display-name similarity alone.",
+    "A newer miner handoff contains a contradictory much-larger 2021–2025 message-count/display-name-chain claim for the same stable ID while the current checkpoint says the assigned Wall footprint is five messages and two attachments in October 2020. Until that source-custody contradiction is reconciled, do not publish the larger chronology, later aliases, or later callback/gamer scenes as this owner's canon.",
+    "The October 12 cross-room object is a PROBABLE sibling/repost based on same raw filename, exact byte size, same stable author, and a 3m50.566s interval. Do not call the binaries identical without bytes/checksum confirmation.",
+    "Danny's Wall attachments are POSTED BY Danny only. MADE BY / CAPTURED BY / FEATURING remain unresolved without separate media support; filename timestamps are not capture proof.",
+    "Ren's `IM GONNA MURDER YOU` is joke-language inside the receipt-escalation pocket, not evidence of literal violence, hostility, romance, family, governance, or a ranked closeness claim.",
+    "The Sprite-goblin link is conversational weird-media recall, not evidence of Danny's geography, nationality, beverage preference, or personal history with the advert.",
     "Earliest surviving support is not guaranteed origin, and export-time role arrays are not appointment chronology.",
   ],
 };
@@ -91,7 +66,7 @@ const dannyCharacter: ExtendedCharacter = {
 if (dannyIndex >= 0) {
   const danny = allCharacters[dannyIndex] as ExtendedCharacter;
   const relationships = [...(danny.relationships ?? [])].filter(
-    (relationship) => !["Anthos", "Mugen", "Deleted User"].includes(relationship.name),
+    (relationship) => relationship.name !== "Ren",
   );
   relationships.push(...wallRelationships);
 
