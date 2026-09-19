@@ -1,12 +1,12 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-19 — Run 1425_
+_Last updated: 2026-09-19 — Run 1426_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling live miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies. Prior run history remains available in git history and the paired MAIN `integration-runs/` records; this file tracks the current durable frontier.
 
-## Run 1425 durable close
+## Run 1426 durable close
 
-The full branch census closes at **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 unread pending review, 0 backlog, and 0 overdue**. No active miner head advanced beyond the Run 1424 reviewed/consumed frontiers during this pass. Both Club-Only recovery-priority lanes remain current. There are still **9 reviewed pending-publication families**, all MAIN whole-person/resynthesis/source-custody or verification debt rather than unread mining.
+The full branch census closes at **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 unread pending review, 0 backlog, and 0 overdue**. No active miner head advanced beyond the Run 1425 reviewed/consumed frontiers during this pass. Both Club-Only recovery-priority lanes remain current. There are still **9 reviewed pending-publication families**, all MAIN whole-person/resynthesis/source-custody or verification debt rather than unread mining.
 
 ### WIKI reader result
 
@@ -17,7 +17,7 @@ Verification for that latest reader frontier remains:
 - **Build Underlords Wiki `35473475922`: success.**
 - **Deploy Underlords Wiki Preview / Pages `35473475930`: success**, including build, deployment, and report.
 
-No fresh WIKI Astro/Pages build or deployment was necessary for unchanged reader bytes in Run 1425.
+No fresh WIKI Astro/Pages build or deployment was necessary for unchanged reader bytes in Run 1426.
 
 ### Reviewed frontier
 
@@ -29,7 +29,7 @@ The carried Wall decisions remain unchanged: canonical Han/Nai is already materi
 
 ### MAIN verification blocker
 
-Dedicated MAIN verifier run **`35458657320`** was retried again. **Attempt 18 failed before any source-verification, Astro-build, or built-output-verification step was created or executed**; latest job **`106021069311`** returned `runner_id=0` and `steps=null`. This is still runner/provisioning debt, not a source-verification, Astro, built-output, or WIKI content failure. Retry verification, not Wall mining.
+Dedicated MAIN verifier run **`35458657320`** was retried again. **Attempt 19 failed before any source-verification, Astro-build, or built-output-verification step was created or executed**; latest job **`105982709036`** returned `steps=null`. This is still runner/provisioning debt, not a source-verification, Astro, built-output, or WIKI content failure. Retry verification, not Wall mining.
 
 ## Hard identity / role rails carried forward
 
