@@ -88,46 +88,6 @@ const zhenxiNext: ExtendedCharacter = {
 allCharacters[zhenxiIndex] = zhenxiNext;
 characterById.set("zhenxi", zhenxiNext);
 
-// Run 1401 Wall: Celeee does not merely survive Screenshot Court; she eventually feeds it.
-const celeeeIndex = allCharacters.findIndex((character) => character.id === "celeee");
-if (celeeeIndex < 0) {
-  throw new Error("Run 1401 expected the existing Celeee owner; refusing to create a duplicate person.");
-}
-
-const celeee = allCharacters[celeeeIndex] as ExtendedCharacter;
-const celeeeNext: ExtendedCharacter = {
-  ...celeee,
-  aliases: unique([...(celeee.aliases ?? []), "celeyster"]),
-  stableDiscordIds: unique([...(celeee.stableDiscordIds ?? []), "310986721121337344"]),
-  logline:
-    "Celeee has a very specific way of surviving Screenshot Court: stay in the room, let the embarrassment land, laugh when somebody else gets filed, and eventually help feed the courthouse yourself. A `:smug:` when caught can become `LMFAOOOOOOOOOO` at another exhibit and, one pocket later, her own attachment plus `She's after me`.",
-  tags: unique([
-    ...(celeee.tags ?? []),
-    "Receipt filer",
-    "Gallery laughter",
-    "Role reversal",
-    "Petty Crimes",
-  ]),
-  quotes: unique([
-    ...(celeee.quotes ?? []),
-    "LMFAOOOOOOOOOO",
-    "THAT FACE IM DEADDD",
-    "She's after me",
-  ]),
-  claims: unique([
-    ...(celeee.claims ?? []),
-    "The reviewed Wall account is stable Discord ID 310986721121337344 / source username `celeyster`, continuing the existing Celeee owner rather than creating a second person.",
-    "Across the March 28–April 1, 2021 Wall packet, Celeee laughs loudly at posted material, then directly posts an attachment herself and says `She's after me`. The useful change is target/spectator becoming participant/filer without dropping the joke.",
-  ]),
-  antiFanon: unique([
-    ...(celeee.antiFanon ?? []),
-    "`She's after me` is local teasing / social dramatization in the reviewed Wall pocket, not evidence of stalking, threat, harassment, or literal pursuit.",
-    "Celeee's attachment establishes POSTED BY Celeee only. MADE BY, CAPTURED BY, and FEATURING remain unresolved because the object was not visually inspected in this review.",
-  ]),
-};
-allCharacters[celeeeIndex] = celeeeNext;
-characterById.set("celeee", celeeeNext);
-
 // Run 1401 Wall: Oyasumi is surprised the courthouse is alive while actively participating in it.
 const oyasumiId = "oyasumi";
 const oyasumiIndex = allCharacters.findIndex((character) => character.id === oyasumiId);
