@@ -2,6 +2,7 @@ import "./integrator-cast-run1375-wall-lilly";
 import "./integrator-cast-run1380-daycare-eos-rummy";
 import "./integrator-cast-run1383-core-efli";
 import "./integrator-cast-run1386-daycare-wall";
+import "./integrator-cast-run1393-daycare-louvre";
 import { allCharacters, castGroups, characterById } from "./cast";
 import type { Character } from "./wiki";
 
