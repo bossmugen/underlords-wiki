@@ -1,3 +1,4 @@
+import "./integrator-cast-run1380-wall-shiyax";
 import { allCharacters, characterById } from "./cast";
 import type { Character } from "./wiki";
 
