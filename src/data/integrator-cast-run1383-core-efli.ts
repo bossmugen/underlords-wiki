@@ -1,3 +1,4 @@
+import "./integrator-cast-run1392-daycare-mimi";
 import { allCharacters, castGroups, characterById } from "./cast";
 import type { Character } from "./wiki";
 
