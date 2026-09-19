@@ -1,53 +1,54 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-19 — Run 1399 close_
+_Last updated: 2026-09-19 — Run 1404 close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` remains the controlling live miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
 
-## Current durable close — Run 1399
+## Current durable close — Run 1404
 
-Mandatory full census: **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 pending review, 0 backlog, and 0 overdue** at close. Both Club-Only recovery-priority lanes remain current. Eight reviewed MAIN publication-debt families remain banked.
+Mandatory full census: **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 pending review, 0 backlog, and 0 overdue** at close. Both Club-Only recovery-priority lanes remain current. Eight reviewed MAIN publication-debt families remain banked and are not unread mining.
 
-No miner branch advanced beyond the already-consumed Run 1398 frontier. Opening census and closing recheck both found every active ref unchanged, so Run 1399 had **0 intake deltas, 0 consumed-SHA advances, 0 new findings, 0 duplicate-family changes, and 0 conflict/rabbit movement**.
+Three miner branches advanced from the prior durable frontier and were reviewed checkpoint-first from changed `archive-intake/*` handoffs only. Final post-write census found all three reviewed heads unchanged:
+
+- `archive-miner/whiskey-longitudinal-hourly`: `70c8a47c50130bc09e52b484555a1090f54fbf4f` — consumed as `reviewed_no_publish`.
+- `archive-miner/louvre-ai-art-athenaeum-other-games-hourly`: `2e974014b802f20828eda033a4f8bca3fe8539cd` — consumed; branch remains `pending_publication` only for older MAIN Rooks source-custody / whole-person resynthesis debt.
+- `archive-miner-wall-hourly-20260824`: `01cf4664d8e5130052874789adbfda382935b1a3` — consumed as `reviewed_no_publish`.
+
+## Reviewed material
+
+### Plushie / Whiskey
+
+The fast-orientation packet corroborates Plushie's stable identity continuity and the already-public Wall pattern: asks the room rule directly, accepts the answer, then turns the newly learned etiquette into `Snow u saw nothing UwU` almost immediately. The active WIKI owner already contains this exact social mechanism, so another receipt paragraph would be duplication. q9 remains retrieval-limited.
+
+### Nobu / Xuseio
+
+The Louvre-family delta adds one AI Art row: `step 1 of a wip`, with one uninspected attachment. Safe ceiling remains **POSTED BY Nobu**. A single starter post does not improve the already-richer maker profile enough to justify a new WIKI Episode, Running Gag, or Cast rewrite. Hold for a repeated WIP / revision / finished-state pattern.
+
+### Wall
+
+HamitteY's `*KaChing*` / `Added to the list`, later return to an old Wall row, and adjacent prosecution material are cumulative with the already-public receipt-archaeologist / mock-defendant synthesis. Jas's `small things` defense remains a self-report with no verified origin. Wolf Phenix remains narrow and includes PRIVATE/FILTERED material that was not inspected, described, inferred, reproduced, or summarized. Miico remains too thin.
 
 ## Public surface result
 
 **WIKI reader changes: 0. MAIN reader changes: 0.**
 
-No new reader verification/deployment was run or claimed on either surface because no reader-facing bytes changed. WIKI's verified reader frontier therefore remains Run 1398's **`27c2bab97b7452d8798445813502df0ca4b0a885`**, which passed **Build Underlords Wiki `35449252707`** and **Deploy Underlords Wiki Preview / Pages `35449252800`**; the Pages build, artifact, deploy, and report jobs completed successfully.
-
-MAIN's controlling Run 1399 branch census is persisted separately in `archive-intake/INTEGRATOR_BRANCH_STATE.json`. No material was intentionally published to only one surface this run because there was no new material to publish.
-
-## Current miner frontiers of note
-
-- `archive-miner-wall-hourly-20260824`: `1e6b491f44775e8606866d1f0f502561e9f28c00` — consumed.
-- `archive-miner/louvre-ai-art-athenaeum-other-games-hourly`: `9dfcd9be992b2b3eb78c3035b10a0f40b75bb2eb` — reviewed/consumed; older MAIN wording/resynthesis debt remains banked.
-- `archive-miner/daycare-2020-2026-hourly`: `0dbce126e3fbe65ed17b328f3b26ece7449267e1` — consumed.
-- `archive-miner/whiskey-longitudinal-hourly`: `0e5f15de2a2d1a2404efe53d8181089f47d1a1a6` — consumed.
-- `archive-miner/club-only-2021-2026-hourly`: `e45fb11c9239e236231bb65645dfd0285bc0078b` — recovery lane current.
-- `archive-miner-clubonly-2020-hourly`: `ed66714f8d2c18f23bbb2b951bf305f0fa913f21` — recovery lane current.
+No fresh reader verification/deployment is claimed on either surface because no reader-facing bytes changed. WIKI's most recently verified reader frontier therefore remains the last reader-changing run rather than this reader-neutral state close. Run 1404 durable state is recorded in `integration-runs/RUN_1404.md` and here; MAIN records the controlling close in `archive-intake/INTEGRATOR_BRANCH_STATE.json` and `archive-intake/INTEGRATION_FINAL_2026-09-19_RUN1404.md`.
 
 ## Duplicate / corroboration / held material
 
-No duplicate/corroboration family changed this run. Existing Run 1398 holdings carry forward:
-
-- Akariel's Tofu auction/theatrical-defendant material mostly corroborates already-public behavior.
-- Wall micro-packets that only repeat direct filing, short captions, or established Screenshot Court mechanics remain backstage unless they deepen a person read.
-- Louvre's Gallery Rail #164 negative scan does not globally resolve q9.
-- The broader Rooks critique/printmaking person read survives; only the quarry/source-custody framing changed. Rooks remains distinct from Kuki/Cookie.
-- The privacy-sensitive Wall hold remains excluded from public lore. Pooled `Deleted User` remains unresolved and unmerged.
+- Plushie's Whiskey orientation material is already represented by the active Plushie Cast owner; do not append it again.
+- HamitteY's new Wall rows deepen an already-public mechanism rather than creating a second receipt ledger.
+- Nobu's single `step 1 of a wip` post stays banked until recurrence makes a WIP/revision pattern worth surfacing.
+- Louvre retains older MAIN-only Rooks source-custody / whole-person resynthesis debt as `pending_publication`; that debt is reviewed and must not be confused with unread miner work.
 
 ## Held / unresolved material
 
 - q9 remains retrieval-limited / unresolved.
-- Torr's old-IGN field does not merge him with a separate Kyr person.
-- A one-character Daycare `J` does not identify Zhēnxī or anyone else by itself.
-- `2nd annual` remains loose event wording, not proof of a literal annual cadence or hidden prior event.
-- Eos's mixed Vanness/Deca packet does not make every image Vanness.
-- DarkAsrai's private-sensitive visual pocket remains excluded from public lore.
+- Wolf's PRIVATE/FILTERED Wall material remains excluded from public lore.
+- Jas's `2 years ago` remains Jas's own chronology claim, not a verified origin.
+- Attachments remain attribution-bounded: POSTED BY does not establish MADE BY, CAPTURED BY, or FEATURING.
 - Pooled `Deleted User` remains unresolved and unmerged.
 - Earliest surviving remains earliest surviving, not guaranteed origin. Current/export role arrays do not establish appointment chronology.
-- POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct attribution claims.
 
 ## Hard identity rails carried forward
 
@@ -55,14 +56,14 @@ No duplicate/corroboration family changed this run. Existing Run 1398 holdings c
 - **Nuien ≠ Illien.**
 - **Mimi ≠ Mia.**
 - **Akariel ≠ Zyrcant.**
-- **Alkey = stable `264889543365230614`; Meowk = stable `1227942597410328606`; Alkey ≠ Meowk; both ≠ Key / Captain Chihuahua.**
+- **Alkey ≠ Meowk; both ≠ Key / Captain Chihuahua.**
 - **Ghostt ≠ Ghoulie / Baby Lyssa.**
-- **WOO = Woosung. Woosung is the female cousin of Mugen's ex and is not Mugen's ex.**
+- **WOO = Woosung.**
 - **Nobu = Xuseio. Nobu is UL Party Director, not Officer.**
-- **Rummy = phenomenal_lamb_14960; Rummy is Nobu's Party Director Apprentice.**
+- **Rummy is Nobu's Party Director Apprentice.**
 - **Rich / DragonRich / dragonrichard ≠ Ricochet.**
 - **Shiki = Shk = yuki1794. Shiki ≠ ShiyaX.** Tomoe is not bridged to Shiki without separate support.
 - **Han was never an Officer.**
 - **Kiro was a full Officer, not a Sniper.**
 
-Run 1399 closes review-current across all active miner refs. WIKI's reader frontier remains verified from Run 1398; MAIN and WIKI are both reader-neutral this run, with reviewed publication debt kept separate from miner-consumption state.
+Run 1404 closes review-current across all active miner refs. The shared queue is **0 unread pending review, 0 backlog, 0 overdue**; reader-neutral state changes do not reset or falsely claim a new reader verification frontier.
