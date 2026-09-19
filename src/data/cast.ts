@@ -7,6 +7,7 @@ export type { CastGroup } from "./cast-base";
 
 export const allCharacters: Character[] = [...previousCharacters];
 
+// Run 1362 Wall synthesis: keep one Vanness continuity across surviving handles.
 const vannessIndex = allCharacters.findIndex((character) => character.id === "vanness");
 const vannessCharacter: Character = {
   id: "vanness",
