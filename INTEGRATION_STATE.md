@@ -1,14 +1,14 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-19 — Run 1387 close_
+_Last updated: 2026-09-19 — Run 1388 close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling live miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
 
-## Current durable WIKI close — Run 1387
+## Current durable WIKI close — Run 1388
 
 The mandatory full census closes **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs**, **0 pending review**, **0 backlog**, and **0 overdue**. Both Club-Only recovery-priority lanes remain current. Six older reviewed MAIN whole-person resynthesis families remain `pending_publication`; these are publication debt, not unread mining.
 
-No active miner branch advanced beyond the Run 1386 consumed frontiers during this cycle. Daycare remains consumed through **`a3fdf031b5c65b3e12ec0cfcaeb37e611ecd3e41`**. Wall remains consumed through **`6d5937dbf882e03b484f5154e91200df49876ef2`**. No new intake delta required review, reconciliation, or publication.
+No active miner branch advanced beyond the Run 1387 controlling ledger during this cycle. Daycare remains consumed through **`a3fdf031b5c65b3e12ec0cfcaeb37e611ecd3e41`**. Wall remains consumed through **`6d5937dbf882e03b484f5154e91200df49876ef2`**. No new intake delta required review, reconciliation, or publication.
 
 ### Public result
 
@@ -50,4 +50,4 @@ The latest verified reader publication remains Run 1386 at **`ac702e0d3184dc4901
 - **Kiro was a full Officer, not a Sniper.**
 - POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct attribution claims.
 
-Run 1387 closes review-current with no new public changes; MAIN's controlling ledger and this WIKI state both record the unchanged miner frontier cleanly.
+Run 1388 closes review-current with no new public changes; MAIN's controlling ledger and this WIKI state both record the unchanged miner frontier cleanly.
