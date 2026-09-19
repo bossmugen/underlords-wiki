@@ -7,6 +7,7 @@ import "./integrator-cast-run1401-daycare-wall";
 import "./integrator-cast-run1406-daycare-nintendoshitcube";
 import "./integrator-cast-run1406-wall-shiki";
 import "./integrator-cast-run1406-wall-momo";
+import "./integrator-cast-run1407-whiskey-ghostt";
 import "./integrator-identity-repair-run1406-alkey-meowk";
 import { allCharacters, castGroups, characterById } from "./cast";
 import type { Character } from "./wiki";
