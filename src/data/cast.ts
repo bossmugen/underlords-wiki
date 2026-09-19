@@ -1,415 +1,68 @@
 import {
   allCharacters as previousCharacters,
   castGroups as previousGroups,
-} from "./cast-pre1332";
+} from "./cast-pre1362";
 import type { Character } from "./wiki";
 export type { CastGroup } from "./cast-base";
 
 export const allCharacters: Character[] = [...previousCharacters];
 
-const asphodelIndex = allCharacters.findIndex((character) => character.id === "asphodel");
-const asphodelCharacter: Character = {
-  id: "asphodel",
-  name: "Asphodel / Aoi",
-  aliases: ["Aoi"],
+const vannessIndex = allCharacters.findIndex((character) => character.id === "vanness");
+const vannessCharacter: Character = {
+  id: "vanness",
+  name: "Vanness",
+  aliases: ["vanness0492"],
   billing: "guest",
   role: "Archive-era cast",
-  era: "2022–2023+",
-  logline: "Quick on her feet in the literal boss-fight sense and unbothered about explaining the account-name mess afterward: Aoi can be one of the last people alive in Wonderland, get singled out by Anthos for fast reactions, then months later calmly explain that `Aoki` was only the backup-account name she used while locked out of her main. Her music is equally hard to miss; people know to look at her status, and she admits she can stay stuck on one band for a long time.",
-  tags: ["Archive cast", "Daycare", "Dragon Raja", "Wonderland", "Mechanical skill", "Music", "Status culture", "Petty Crimes"],
+  era: "2021",
+  logline: "Vanness understands Screenshot Court from both sides of the table. He can route an exhibit to Mugen, drop his own receipts, then follow an attachment with a bare `Why` like the image itself has offended him; the second somebody files on him, counsel immediately identifies another suspect in all caps.",
+  tags: ["Archive cast", "2021", "Wall", "Receipt routing", "Direct filer", "Mock defendant", "Petty Crimes"],
   relationships: [
     {
       name: "Mugen",
-      note: "During Wonderland mount farming, Mugen points out that Aoi is one of the only people still alive with her at the end. It reads as peer recognition of survivability under pressure, not a formal rank or appointment.",
+      note: "Vanness can route a specific Wall item straight to Mugen, get welcomed onto the Wall by Mugen minutes later, and later receive Mugen's exact-object `:Hehe:` reply on one of his own filings. It reads as comfortable receipt-routing / prosecution-audience familiarity, not a friendship rank, governance hierarchy, or appointment history.",
       href: "/characters/mugen",
     },
-    {
-      name: "Anthos",
-      note: "Anthos's compact verdict is `Aoi quick on her toes` after the same Wonderland survival pocket. The line backs the mechanically-fast read without turning one dungeon into a permanent job title.",
-      href: "/characters/anthos",
-    },
-    {
-      name: "Woosung",
-      note: "Woosung asks what on earth Aoi listens to after her status/music becomes conspicuous enough to notice. Aoi answers with links and admits she has been stuck on the same band for a long time; the exact band is not named in the surviving textual handoff.",
-      href: "/characters/woosung",
-    },
   ],
   quotes: [
-    "factss",
-    "You don't even want to know",
-    "I've been stuck on this band in general for a longg time",
-    "nah it's cause i switched to a backup account til i could get back into my main",
+    "This one @Mugen",
+    "ITS GABU WHO SUCKED IT DRY, NOT MEEE:Raja_cat_frustrates:",
+    "Why",
+    "In the world would anyone have this idea",
+    "My name is jack kinhoff? Or moe lester? Or Hugh Dick?",
+    "Im too sad to play anymore:Cursed:",
   ],
   claims: [
-    "Aoi / Asphodel is the same stable person across the reviewed Daycare material: the account self-explains the temporary `Aoki` backup name, and the room later explicitly recognizes `Aoi` as Asphodel.",
-    "In Wonderland mount farming, Mugen says Aoi is one of the only people alive at the end and Anthos says `Aoi quick on her toes`, supporting a recurring-read of fast mechanical reactions under pressure.",
-    "Aoi's music taste is visible enough through status/links to prompt room commentary, and she says she has been stuck on one band `for a longg time`; the band itself is not identified in the text handoff.",
+    "Stable account 714781719357554718 / vanness0492 authors fifteen surviving Wall messages and directly posts all three surviving attachments in the reviewed July 28 to August 10, 2021 span.",
+    "Across multiple pockets Vanness behaves as a receipt router and direct filer: he points Mugen toward a Wall item, posts his own media, and repeatedly supplies immediate textual framing around the object.",
+    "When ShiyaX posts a tagged Wall object, Vanness mechanically replies `ITS GABU WHO SUCKED IT DRY, NOT MEEE`, giving the filing instinct a matching theatrical-defendant side without independently establishing Gabu's conduct.",
+    "On August 9 Vanness posts an attachment, follows it 2.866 seconds later with `Why`, then continues with `In the world would anyone have this idea`; the timing and same-author continuity make same-pocket framing strongly probable even though those follow-ups are Default messages rather than Reply edges.",
+    "The Kahoot fake-name lineup and `Im too sad to play anymore:Cursed:` belong to his Petty Crimes / ordinary social-comedy layer, not literal aliases or a durable mood claim.",
   ],
   antiFanon: [
-    "`Aoki` is self-explained here as a temporary backup-account name used while Aoi was locked out of her main; do not promote it into a permanent identity history without more context.",
-    "A separate fake/joke Aoi account is explicitly called fake in the room and is not merged into Asphodel / Aoi.",
-    "The exact band behind Aoi's long-running fixation is unresolved in the textual handoff; do not guess from neighboring links or other people's music tastes.",
-    "Current/export role arrays do not establish an appointment date or formal role chronology for Aoi.",
+    "Pooled `Deleted User` remains unresolved and is not merged into another person.",
+    "Vanness's Gabu line is his mock accusation / defense, not independent corroboration of what Gabu did or what the associated image shows.",
+    "The August 2 and August 9 adjacent captions are probable local framing; they are not mechanical Reply edges unless explicitly noted.",
+    "The August 9 object is POSTED BY Vanness. MADE BY, CAPTURED BY, and FEATURING remain unresolved because the native pixels were not inspected.",
+    "Timestamp-looking attachment filenames are retrieval handles, not certified capture chronology or device ownership.",
   ],
 };
 
-if (asphodelIndex >= 0) {
-  const asphodel = allCharacters[asphodelIndex];
-  allCharacters[asphodelIndex] = {
-    ...asphodel,
-    ...asphodelCharacter,
-    aliases: [...new Set([...(asphodel.aliases ?? []), ...asphodelCharacter.aliases!])],
-    tags: [...new Set([...(asphodel.tags ?? []), ...asphodelCharacter.tags!])],
-    relationships: asphodelCharacter.relationships,
-    quotes: [...new Set([...(asphodel.quotes ?? []), ...asphodelCharacter.quotes!])],
+if (vannessIndex >= 0) {
+  const vanness = allCharacters[vannessIndex];
+  allCharacters[vannessIndex] = {
+    ...vanness,
+    ...vannessCharacter,
+    aliases: [...new Set([...(vanness.aliases ?? []), ...vannessCharacter.aliases!])],
+    tags: [...new Set([...(vanness.tags ?? []), ...vannessCharacter.tags!])],
+    relationships: vannessCharacter.relationships,
+    quotes: [...new Set([...(vanness.quotes ?? []), ...vannessCharacter.quotes!])],
   };
 } else {
-  allCharacters.push(asphodelCharacter);
+  allCharacters.push(vannessCharacter);
 }
 
-const mrStreamerIndex = allCharacters.findIndex((character) => character.id === "mr-streamer");
-const mrStreamerCharacter: Character = {
-  id: "mr-streamer",
-  name: "Mr. Streamer",
-  aliases: ["ulstreamer"],
-  billing: "guest",
-  role: "Archive-era cast",
-  era: "2022",
-  logline: "A three-message Wall footprint with an absurdly specific job description: post the receipt, come back 4.759 seconds later to say `Via @DiStratus(Torr)`, then post another receipt. The streamer-coded name is almost a fake-out here; Torr is the one explicitly talking about his stream, while Mr. Streamer is the quiet courier making sure at least one artifact reaches Wall with its source attached.",
-  tags: ["Archive cast", "Wall", "Receipt relay", "Source credit", "Artifact-first", "Low-verbiage", "Petty Crimes"],
-  relationships: [
-    {
-      name: "Torr",
-      note: "Mr. Streamer posts a Wall screenshot and returns 4.759 seconds later with `Via @DiStratus(Torr)`. Torr later says he is giving the room a lot of material with his stream. That supports a bounded source-to-relay handoff lane: Torr supplies or generates material; Mr. Streamer moves at least one explicitly credited receipt into Wall. It does not establish friendship rank, media-office responsibility, MADE BY, CAPTURED BY, or FEATURING.",
-      href: "/characters/torr",
-    },
-  ],
-  quotes: ["Via @DiStratus(Torr)"],
-  claims: [
-    "Mr. Streamer's surviving authored Wall footprint is three messages on October 5, 2022: two direct attachment posts and the source-credit line `Via @DiStratus(Torr)` between them.",
-    "The first source credit arrives 4.759 seconds after the preceding screenshot, making Torr a strong local SOURCE / RELAY route for that object while leaving MADE BY, CAPTURED BY, and FEATURING unresolved.",
-    "Torr later says `i'm giving a lot of material with this stream`, which supports the same-pocket stream-to-receipt context without proving that every nearby object came from Torr.",
-  ],
-  antiFanon: [
-    "`Mr. Streamer` and the surviving nickname `Mr. Streamer (Gabu's Chair)` do not establish a formal media title, appointment, or that he was the broadcaster in this scene.",
-    "`Via @DiStratus(Torr)` is SOURCE / RELAY credit. It does not by itself establish MADE BY Torr, CAPTURED BY Torr, or FEATURING Torr.",
-    "The second posted object lacks its own `Via` line, so Torr as source for that object remains contextual rather than object-bound confirmed.",
-    "Three surviving Wall messages support a coherent micro-profile, not universal claims about how Mr. Streamer behaved in every room.",
-  ],
-};
-
-if (mrStreamerIndex >= 0) {
-  const mrStreamer = allCharacters[mrStreamerIndex];
-  allCharacters[mrStreamerIndex] = {
-    ...mrStreamer,
-    ...mrStreamerCharacter,
-    aliases: [...new Set([...(mrStreamer.aliases ?? []), ...mrStreamerCharacter.aliases!])],
-    tags: [...new Set([...(mrStreamer.tags ?? []), ...mrStreamerCharacter.tags!])],
-    relationships: mrStreamerCharacter.relationships,
-    quotes: [...new Set([...(mrStreamer.quotes ?? []), ...mrStreamerCharacter.quotes!])],
-  };
-} else {
-  allCharacters.push(mrStreamerCharacter);
-}
-
-const akaneIndex = allCharacters.findIndex((character) => character.id === "akaneawake");
-const akaneCharacter: Character = {
-  id: "akaneawake",
-  name: "AkaneAwake",
-  aliases: ["Akane Deathbloom"],
-  billing: "guest",
-  role: "Archive-era cast",
-  era: "2021",
-  logline: "Akane's clearest surviving contribution is not a personality speech; it is a paired frame. Within days of arriving from the same DeathBloom context as Dreamless, she posts a Photo Submissions entry naming the two of them together: `Dancing in the moonlight with @Dreamless (Deathbloom) - @AkaneAwake`. Her archive footprint is thin, but the strongest thing she chooses to put forward makes companionship part of the participation instead of treating the creative object like a solo showcase.",
-  tags: ["Archive cast", "Photo Submissions", "DeathBloom", "Paired participation", "Creative participation", "Relationship texture"],
-  relationships: [
-    {
-      name: "Dreamless",
-      note: "Dreamless and Akane independently identify the same DeathBloom context at the July 2021 doorway within roughly twelve minutes of each other. Nine days later Akane authors a Photo Submissions caption that explicitly names Dreamless and herself together. The combined pattern supports probable pre-existing familiarity and a companion / creative-participation lane; it does not establish recruitment, best-friend status, romance, sex, or family.",
-    },
-  ],
-  quotes: [
-    "Akane Deathbloom",
-    "Dancing in the moonlight with @Dreamless (Deathbloom) - @AkaneAwake",
-  ],
-  claims: [
-    "Stable Discord account 140660635061977089 self-identifies as `Akane Deathbloom` in the reviewed Lobby material and later authors the paired Photo Submissions caption naming Dreamless and herself.",
-    "Dreamless and Akane enter the surviving UL record close together under the same DeathBloom context, then appear in Akane's explicitly paired creative submission nine days later; prior familiarity is therefore more likely than incidental co-presence.",
-    "The paired submission drew reactions from multiple known UL accounts, supporting that the object landed socially without turning reaction emoji into closeness rankings, romance evidence, or contest placement.",
-  ],
-  antiFanon: [
-    "Do not flatten Akane's sparse surviving prose into `shy` or `quiet`; the usable person read is paired / relational creative framing, not a universal temperament label.",
-    "The DeathBloom doorway plus paired caption supports probable pre-existing familiarity with Dreamless, not a claim that they joined UL together, recruited each other, were best friends, dated, had sex, or were family.",
-    "The attached image is POSTED BY Akane. MADE BY, CAPTURED BY, and visually FEATURING remain unresolved because the native pixels were not inspected in this review.",
-    "`Dancing in the moonlight` is a submission caption and does not establish music taste, nightlife habits, dancing habits, or romance style.",
-  ],
-};
-
-if (akaneIndex >= 0) {
-  const akane = allCharacters[akaneIndex];
-  allCharacters[akaneIndex] = {
-    ...akane,
-    ...akaneCharacter,
-    aliases: [...new Set([...(akane.aliases ?? []), ...akaneCharacter.aliases!])],
-    tags: [...new Set([...(akane.tags ?? []), ...akaneCharacter.tags!])],
-    relationships: akaneCharacter.relationships,
-    quotes: [...new Set([...(akane.quotes ?? []), ...akaneCharacter.quotes!])],
-  };
-} else {
-  allCharacters.push(akaneCharacter);
-}
-
-const boobaIndex = allCharacters.findIndex((character) => character.id === "booba");
-if (boobaIndex >= 0) {
-  const booba = allCharacters[boobaIndex];
-  allCharacters[boobaIndex] = {
-    ...booba,
-    logline: "An early Wall regular who could hand the room its own nickname ammunition, shrug when `MsThiccy` stuck, then pivot straight into aesthetic prosecution when somebody committed the greater crime: light mode. The same mouth that happily feeds the bit can also ease off the pressure with `only if you want buuuut~` and `no need to force it kek`, giving her a softer edge underneath the receipt-ready teasing.",
-    tags: [...new Set([...(booba.tags ?? []), "Light-mode slander", "Permission-giving", "Petty Crimes"])],
-    relationships: [
-      ...(booba.relationships ?? []).filter((relationship) => relationship.name !== "Gilli"),
-      {
-        name: "Gilli",
-        note: "Booba checks whether Gilli is catching her reference, escalates to `alexa play despacito 2`, and after Gilli answers with `get the bonl` plus an attachment, Booba's next textual verdict is simply `... lightmode//`. The exchange reads like easy shared-bit fluency plus instant aesthetic policing; Gilli is POSTED BY for the attachment, while its creator, capture source, and depicted subjects stay unresolved.",
-        href: "/characters/gilli",
-      },
-    ],
-    quotes: [...new Set([...(booba.quotes ?? []), "wouldnt be the worst nickname here", "only if you want buuuut~", "no need to force it kek", "... lightmode//"])],
-    claims: [
-      ...(booba.claims ?? []),
-      "The same stable Wall account is rendered Booba and later boobaboo across the reviewed seam. `b00ba` appears as an export/filter token and is kept provenance-bounded rather than treated as a confirmed authored self-ID.",
-      "When Tarage asks `do we just call you Ms thiccy now?`, Booba answers `wouldnt be the worst nickname here`; the nickname works because she recognizes the joke and supplies no resistance whatsoever to it becoming room vocabulary.",
-      "A May 2021 exchange with Gilli runs from reference-checking to `alexa play despacito 2` to Booba's compact `... lightmode//` reaction, supporting a lived shared-bit/aesthetic-policing lane without upgrading Gilli's posted attachment beyond POSTED BY.",
-      "In another joke pocket Booba says `only if you want buuuut~` and `no need to force it kek`, adding a permission-giving counterweight to the roast-ready Wall persona.",
-    ],
-    antiFanon: [
-      ...(booba.antiFanon ?? []),
-      "The substring `MAL_TOMBOY` is not an identity bridge and is not used to merge Booba with anyone else.",
-      "`b00ba` is preserved as a source/export filter token unless an authored handle claim turns up; do not rewrite it into a confirmed self-chosen alias from this packet alone.",
-      "Gilli's nearby attachment is POSTED BY Gilli only at this review level. MADE BY, CAPTURED BY, and FEATURING remain unresolved without media-specific support.",
-    ],
-  };
-}
-
-const roseIndex = allCharacters.findIndex((character) => character.id === "rose");
-if (roseIndex >= 0) {
-  const rose = allCharacters[roseIndex];
-  const relationships = [...(rose.relationships ?? [])];
-  const rummyIndex = relationships.findIndex((relationship) => relationship.name === "Rummy");
-  const rummyRelationship = {
-    name: "Rummy",
-    note: "Under the phenomenal_lamb handle, Rummy and Rose can turn Wall filing into reciprocal sport: Rose challenges her to a mock fight, later tags her into receipts, gets `NAAUUUUUURRR` and keyboard-smash resistance back, and keeps prosecuting anyway. It reads as comfortable public antagonism-for-fun, not rank, romance, or literal violence.",
-    href: "/characters/rummy",
-  };
-  if (rummyIndex >= 0) relationships[rummyIndex] = rummyRelationship;
-  else relationships.push(rummyRelationship);
-
-  allCharacters[roseIndex] = {
-    ...rose,
-    logline: "Historical Staff whose softer ordinary register shares a desk with a full Wall prosecutor-defendant complex: Rose can talk plainly about feeling better, working out and missing it, tell somebody `No need to apologize silly`, then circulate receipts, repost a moment `For those who missed this`, race other people to the filing cabinet and immediately accept that she is also going to end up on the Wall herself.",
-    tags: [...new Set([...(rose.tags ?? []), "Receipt circulation", "Wall prosecutor", "Mock defendant", "Self-aware filing", "Petty Crimes"])],
-    relationships,
-    quotes: [...new Set([
-      ...(rose.quotes ?? []),
-      "For those who missed this",
-      "He hit me first",
-      "Its his fault",
-      "I knew id get in here",
-      "Its only going to get worse",
-      "Beat me to it",
-    ])],
-  };
-}
-
-// Run 1359 hard-canon repair + new intake synthesis.
-// Akariel and Zyrcant are separate people. Never restore Akariel's account forms
-// as Zyrcant aliases just because an old in-game-name string overlaps.
-const zyrcantIndex1359 = allCharacters.findIndex((character) => character.id === "zyrcant");
-if (zyrcantIndex1359 >= 0) {
-  const zyrcant = allCharacters[zyrcantIndex1359];
-  allCharacters[zyrcantIndex1359] = {
-    ...zyrcant,
-    name: "Zyrcant",
-    aliases: (zyrcant.aliases ?? []).filter((alias) => !["Akariel", "Akariel™", "akariel_star"].includes(alias)),
-    billing: "guest",
-    role: "VIP · former Amaurot deputy",
-    logline: "UL VIP and Rich's former deputy in Amaurot. Zyrcant carries an older org chart into the extended-family orbit, but that old deputy rank does not silently become UL command—and Akariel is a different person entirely.",
-    tags: ["VIP", "Amaurot", "Former deputy", "Identity-safe"],
-    relationships: [
-      {
-        name: "Rich",
-        note: "Rich led Amaurot while Zyrcant served as his deputy. That older relationship survives as history, not as an automatic UL rank transfer.",
-        href: "/characters/rich",
-      },
-    ],
-    quotes: [],
-    claims: [
-      "Mugs-confirmed canon keeps Zyrcant and Akariel as two separate people.",
-      "Zyrcant is a UL VIP and Rich's former deputy in Amaurot; the Amaurot title does not establish a UL command appointment.",
-    ],
-    antiFanon: [
-      "Akariel, Akariel™, and `akariel_star` belong to Akariel, not Zyrcant.",
-      "A historical Akariel-account line using the in-game string `Zyrcant` is a name collision under current user-confirmed canon, not permission to merge the two people.",
-      "Do not transfer Akariel's Wall scenes, quotes, attachments, relationships, or Petty Crimes onto Zyrcant.",
-    ],
-  };
-}
-
-const akarielIndex1359 = allCharacters.findIndex((character) => character.id === "akariel");
-const akarielCharacter1359: Character = {
-  id: "akariel",
-  name: "Akariel",
-  aliases: ["Akariel™", "akariel_star"],
-  billing: "guest",
-  role: "Archive-era Wall cast",
-  era: "2021",
-  logline: "Economical on setup, wildly cooperative on payoff: Akariel can drop an exhibit with almost no caption, let Tofu auction it for five cents, answer being called Satan with a deadpan `naaah`, and pre-load the escape whenever somebody presses the Snow-is-old button. She is not merely somebody the Wall catches; she repeatedly helps the joke survive contact with herself.",
-  tags: ["Archive cast", "Wall", "Self-meme", "Mock defendant", "Artifact-first", "Reciprocal teasing", "Petty Crimes"],
-  relationships: [
-    {
-      name: "Tofu",
-      note: "Two separate July pockets run on the same easy premise: Akariel posts or talks, Tofu turns it into prosecution, and Akariel heightens rather than retreats. `Starting bid: 5¢` gets a five-emote alarm stack; `how about you not take our souls at all *Satan*` gets `naaah`. Shared theatrical teasing, not a closeness rank.",
-      href: "/characters/tofu",
-    },
-    {
-      name: "ShiyaX",
-      note: "ShiyaX can announce that Akariel got `caught in 4k`; Akariel's later `oooh shit *runs*` fits the same consequence-comedy register, although the gap and lack of a reply edge keep that specific response contextual rather than mechanically bound.",
-    },
-    {
-      name: "Gabu",
-      note: "Akariel jokes that she is the person who `tackles ppl` and specifies Gabu in that case. Keep the line as chat slapstick, not literal physical contact or an intimacy ranking.",
-      href: "/characters/gabu",
-    },
-  ],
-  quotes: [
-    "whaat you dont want me to say thank you?",
-    "naaah",
-    "Everytime someone calls snow old",
-    "-runs-",
-    "im the one person who tackles ppl",
-    "and im tackling gabu in this case",
-    "lmao i remember i have  a gif saved of the whole bee movie",
-  ],
-  claims: [
-    "Stable Discord account 257294164746698763, username `akariel_star`, rendered `Akariel™`, belongs to Akariel under current user-confirmed identity canon.",
-    "Across the reviewed 2021 Wall span, Akariel repeatedly pairs sparse exhibit/self-meme setup with theatrical uptake once peers turn the joke back on her.",
-    "Akariel and Tofu have at least two independent mechanically anchored teasing/prosecution exchanges in July 2021, supporting a recurring shared-bit lane without ranking the relationship.",
-    "Akariel directly says she remembers having the whole Bee Movie saved as a GIF; that is one wonderfully specific remembered file, not proof of a general hoarding habit.",
-  ],
-  antiFanon: [
-    "Akariel is not Zyrcant. Similar or overlapping game-name strings do not merge the two people.",
-    "`tackles ppl` / `tackling gabu` is authored joke language, not evidence of real-world physical aggression.",
-    "The July `caught in 4k` pocket lacks a mechanical reply edge from Akariel's later `oooh shit *runs*`; preserve it as contextual support, not a forced exact-parent reply.",
-    "Akariel's Wall attachments remain POSTED BY Akariel unless stronger provenance exists; do not silently upgrade them to MADE BY, CAPTURED BY, or FEATURING claims.",
-    "The Bee Movie line proves one remembered saved file, not a permanent media-collection identity.",
-  ],
-};
-if (akarielIndex1359 >= 0) allCharacters[akarielIndex1359] = akarielCharacter1359;
-else allCharacters.push(akarielCharacter1359);
-
-// Run 1359 identity cleanup: Meowk and Alkey remain separate. The old base card
-// inherited Meowk account labels and Wall receipts into Alkey; remove that bridge.
-const alkeyIndex1359 = allCharacters.findIndex((character) => character.id === "alkey");
-if (alkeyIndex1359 >= 0) {
-  const alkey = allCharacters[alkeyIndex1359];
-  allCharacters[alkeyIndex1359] = {
-    ...alkey,
-    aliases: (alkey.aliases ?? []).filter((alias) => !["itsalkey", "Meowk 💖✨"].includes(alias)),
-    role: "Staff",
-    logline: "Hockey-devoted Staff whose intimidation branding keeps getting sabotaged by the person underneath it: compact heckling, practical care, direct repair, and a pout emote attached to the threat assessment.",
-    tags: ["Staff", "Hockey", "Care", "Compact humor", "Anti-conflation", "Petty Crimes"],
-    quotes: ["I am intimidating :pout:", "Can I legally marry hockey"],
-    claims: [
-      "Alkey and Meowk are separate public owners under the current identity lock.",
-      "Alkey's person file centers on hockey, compact teasing, and practical care; Meowk's stable-account Wall receipts do not belong here.",
-    ],
-    antiFanon: [
-      "Do not merge Alkey with Meowk or route stable account 264889543365230614's receipts to Alkey.",
-      "Do not route Meowk's chicken-emote spectacle, Ren cute-casting, or `i / saw / all` witness beat into Alkey.",
-    ],
-  };
-}
-
-// Core Rooms 1359: Gabu learns in public, keeps the backup nearby, and becomes
-// the person peers trust to keep the alert machinery alive.
-const gabuIndex1359 = allCharacters.findIndex((character) => character.id === "gabu");
-if (gabuIndex1359 >= 0) {
-  const gabu = allCharacters[gabuIndex1359];
-  const gabuRelationships = [...(gabu.relationships ?? [])].filter((relationship) => !["Snow", "Sye / ƐℲı˥"].includes(relationship.name));
-  gabuRelationships.push(
-    {
-      name: "Snow",
-      note: "The Saber lane changes over time from guidance and permission to direct trust: Snow asks Gabu to repair the schedule, thanks her, and later tells the room `Gabu has this`. The point is earned operational confidence, not an appointment date.",
-      href: "/characters/snow",
-    },
-    {
-      name: "Sye / ƐℲı˥",
-      note: "Gabu initially keeps ƐℲı˥ as the person to call if she gets lost while editing Saber. Later ƐℲı˥ stays available as backup while the room lets Gabu continue independently: coaching becoming standby rather than disappearing.",
-      href: "/characters/sye",
-    },
-  );
-  allCharacters[gabuIndex1359] = {
-    ...gabu,
-    logline: "Underboss whose competence is funniest when it arrives wearing uncertainty: Gabu can ask whether she should try the edit, keep a backup person nearby, succeed anyway, then become the one Snow can dismiss the room with—`Gabu has this`—before graduating to multi-day alert checks and migration planning.",
-    tags: [...new Set([...(gabu.tags ?? []), "Saber", "Systems maintenance", "Operational trust", "Troubleshooting"])],
-    relationships: gabuRelationships,
-    quotes: [...new Set([...(gabu.quotes ?? []), "should i try to add yakuza event? .=.", "i think i can do it ... if i get lost i call you XD", "oh i did it", "i can fix one by one ... i think its more easy"])],
-    claims: [
-      ...(gabu.claims ?? []),
-      "Across 2020–2023 Saber-control material, Gabu develops from tentative public learner to trusted fixer and whole-week alert validator; peers increasingly stand back while she owns the practical work.",
-      "Snow's `Gabu has this` and ƐℲı˥ remaining available as backup support lived operational trust without dating a formal role appointment.",
-      "Gabu's 2023 Saber/Carl note is conditional migration planning; it does not establish that Saber was actually replaced by Carl.",
-    ],
-    antiFanon: [...new Set([...(gabu.antiFanon ?? []), "Do not turn Saber maintenance into a formal office or use exporter role arrays to date Gabu's appointment chronology.", "The 2023 Saber→Carl line is conditional; replacement completion remains unresolved."])],
-  };
-}
-
-// Whiskey 1359: Shiki's game-exit history becomes part of how he reassures other
-// people that leaving Raja does not require leaving the social room.
-const shikiIndex1359 = allCharacters.findIndex((character) => character.id === "shiki");
-if (shikiIndex1359 >= 0) {
-  const shiki = allCharacters[shikiIndex1359];
-  const shikiRelationships = [...(shiki.relationships ?? [])].filter((relationship) => !["Crystalia", "Lilly"].includes(relationship.name));
-  shikiRelationships.push(
-    {
-      name: "Crystalia",
-      note: "When real life may push Crystalia out of Raja, Shiki does not sell her on staying in the game. He says he quit long ago and she is still `always free to chill or hang out`, using his own reduced game relationship as reassurance that the social door stays open.",
-      href: "/characters/crystalia",
-    },
-    {
-      name: "Lilly",
-      note: "One December jail-chat joke has Lilly volunteering `ill join you in jail bb` and Shiki continuing the premise. Comfortable bit-participation only; not literal jail, romance, family, or a closeness rank.",
-      href: "/characters/lilly",
-    },
-  );
-  allCharacters[shikiIndex1359] = {
-    ...shiki,
-    logline: "Sensei by behavior more than ceremony, and apparently capable of leaving the game without leaving the room: Shiki can teach systems, joke about going back to SD `til fighter come out`, later say he quit Raja long ago, and use that fact to tell somebody else they are still free to chill or hang out.",
-    tags: [...new Set([...(shiki.tags ?? []), "Dragon Raja", "Game-exit continuity", "Social availability", "Petty Crimes"])],
-    relationships: shikiRelationships,
-    quotes: [...new Set([...(shiki.quotes ?? []), "welp im back to SD again", "til fighter come out", "study first", "@here hope u all studying", "ok night all gl UL fight hard learn header surpass ur enemy"])],
-    claims: [
-      ...(shiki.claims ?? []),
-      "Shiki's surviving 2020–2021 trail separates game attachment from social belonging: IGN/class changes and eventual `quit long ago` coexist with continued room presence and reassurance toward Crystalia.",
-      "Shiki's March 24, 2021 reassurance to Crystalia is catalog-grounded Whiskey evidence; the raw message ID/timestamp was not recovered in this pass and is not invented.",
-    ],
-    antiFanon: [...new Set([...(shiki.antiFanon ?? []), "Shiki saying he quit Raja does not establish a UL departure or disappearance; the useful read is game exit without social exile.", "The Crystalia reassurance does not establish a closeness rank, and the Lilly jail-chat bit is not literal jail/romance/family language."])],
-  };
-}
-
-export const castGroups = previousGroups.map((group) => ({
-  ...group,
-  characterIds: [...group.characterIds],
-}));
-
-// Public taxonomy has no catch-all group. Until a formal UL role/membership lane is
-// established, keep these archive-era files visible under the existing
-// VIP/insufficient-membership-evidence bucket rather than inventing a role history.
-const vipGroup = castGroups.find((group) => group.id === "vip");
-for (const characterId of ["asphodel", "mr-streamer", "akaneawake", "akariel"]) {
-  if (vipGroup && !vipGroup.characterIds.includes(characterId)) vipGroup.characterIds.push(characterId);
-}
-
+export const castGroups = previousGroups;
 export const characterById = new Map(allCharacters.map((character) => [character.id, character]));
 export const primaryGroupByCharacterId = new Map(
   castGroups.flatMap((group) => group.characterIds.map((id) => [id, group] as const)),
