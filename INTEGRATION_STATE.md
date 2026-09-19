@@ -1,14 +1,14 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-19 — Run 1411, reconciled with concurrent Run 1412 census_
+_Last updated: 2026-09-19 — Run 1413_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` remains the controlling live miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
 
 ## Current durable close
 
-Mandatory census remains **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 unread pending review, 0 backlog, and 0 overdue**. Both Club-Only recovery-priority lanes remain current.
+Mandatory census remains **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 unread pending review, 0 backlog, and 0 overdue**. Every active miner HEAD matched its Run 1412 `last_seen_sha` frontier at the Run 1413 census. Both Club-Only recovery-priority lanes remain current.
 
-There are **9 reviewed pending-publication families**, all MAIN whole-person/resynthesis/source-custody or verification debt rather than unread mining.
+There are **9 reviewed pending-publication families**, all MAIN whole-person/resynthesis/source-custody or verification debt rather than unread mining. No intake delta required review this run and no consumed SHA advanced.
 
 Current reviewed/consumption frontiers:
 - Birthdays/PR/VC consumed through `980f8325d75df6e43c5be4e0f16c988c354cb632`.
@@ -18,16 +18,18 @@ Current reviewed/consumption frontiers:
 
 ## Current WIKI reader frontier
 
-Final reader frontier: **`74677844e91e432c8a42dbb46bf816617d2ed19c`**.
+Final reader frontier remains **`74677844e91e432c8a42dbb46bf816617d2ed19c`**.
 
-Run 1411 corrected the June 2020 Gilli birthday sequence in two active WIKI owners:
-- `src/data/integrator-episodes-run844-birthdays.ts` now preserves the three-stage announcements-room sequence instead of flattening it into one event. Stable account `456226577798135808` first says `Can’t send my video`, moves setup chatter elsewhere, and labels it for Gilli's birthday post; the next afternoon the same account guards a temporary link until Gilli watches. The missing object means the link may be the failed-video workaround, but it is **not** certified as the same media object.
-- `src/data/integrator-cast-run1149-birthdays-sailorluna.ts` keeps SailorLuna's stable-account/self-identification continuity while removing the stale claim that MADE BY was safely resolved for the missing birthday object. The public relationship read is now care-through-logistics: keep pushing the delivery until Gilli finally gets it. Gilli's `AAAAAAAAAAH SI CUUUUUTE` is a recipient reaction, not visual FEATURING evidence.
-- Mugen's nearby pin action belongs to an older Clash of Swords announcement and is no longer rhetorically attached to the birthday scene.
+The latest WIKI reader change corrected the June 2020 Gilli birthday sequence in two active owners:
+- `src/data/integrator-episodes-run844-birthdays.ts` preserves the three-stage announcements-room sequence instead of flattening it into one event. Stable account `456226577798135808` first says `Can’t send my video`, moves setup chatter elsewhere, and labels it for Gilli's birthday post; the next afternoon the same account guards a temporary link until Gilli watches. The missing object means the link may be the failed-video workaround, but it is **not** certified as the same media object.
+- `src/data/integrator-cast-run1149-birthdays-sailorluna.ts` keeps SailorLuna's stable-account/self-identification continuity while removing the stale claim that MADE BY was safely resolved for the missing birthday object. The public relationship read is care-through-logistics: keep pushing the delivery until Gilli finally gets it. Gilli's `AAAAAAAAAAH SI CUUUUUTE` is a recipient reaction, not visual FEATURING evidence.
+- Mugen's nearby pin action belongs to an older Clash of Swords announcement and is not attached to the birthday scene.
 
 Verification on exact reader SHA `74677844e91e432c8a42dbb46bf816617d2ed19c`:
 - Build Underlords Wiki `35461675588` — **success**.
 - Deploy Underlords Wiki Preview / Pages `35461675624` — **success**.
+
+Run 1413 made **no WIKI reader change**, so no gratuitous rebuild or redeploy was run.
 
 ## Reviewed without new public copy
 
@@ -39,7 +41,7 @@ Verification on exact reader SHA `74677844e91e432c8a42dbb46bf816617d2ed19c`:
 
 ## MAIN verification debt
 
-No new MAIN reader publication is claimed from Run 1411. The inherited accepted Shiki reader deepener remains blocked by MAIN runner infrastructure. Dedicated source/Astro/built-output verification run `35458657320` failed again on **attempt 5** before test steps began; latest job `105946246924` completed failure with `steps:null`. Source verification, Astro build, and built-output verification therefore did not run on that attempt.
+No new MAIN reader publication is claimed from Run 1413. The inherited accepted Shiki reader deepener remains blocked by MAIN runner infrastructure. Dedicated source/Astro/built-output verification run `35458657320` was retried as **attempt 6** and again failed before any test step began. Job `105950185399` completed failure with `steps:null`; source verification, Astro build, and built-output verification therefore did not execute.
 
 Wall review is complete; only verification/publication debt remains. Keep Wall's consumed cursor behind current reviewed head until the accepted Shiki change clears its gate.
 
