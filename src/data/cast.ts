@@ -215,6 +215,55 @@ if (woosungIndex >= 0) {
   };
 }
 
+// Run 1416 Daycare synthesis: Booba asks to come back carefully, then immediately resumes being loudly specific.
+const boobaIndex = allCharacters.findIndex((character) => character.id === "booba");
+if (boobaIndex >= 0) {
+  const booba = allCharacters[boobaIndex];
+  const relationships = [...(booba.relationships ?? [])];
+
+  upsertRelationship(
+    relationships,
+    "Mugen",
+    "Booba returns with `Omg I’m back and alive` and `Can I join again`; Mugen answers `Welcome back Ms t!`. The shorthand lands as recognition of a returning person, not an introduction to a stranger or a claim of uninterrupted membership.",
+    "/characters/mugen",
+  );
+  upsertRelationship(
+    relationships,
+    "Ansun",
+    "When Booba asks to rejoin, 颯太/Ansun tells her to reapply and follows it with `Welcome backk`. It is practical door-holding plus familiarity, not proof of a special gatekeeping role or a closeness ranking.",
+    "/characters/ansun",
+  );
+
+  allCharacters[boobaIndex] = {
+    ...booba,
+    stableDiscordIds: [...new Set([...(booba.stableDiscordIds ?? []), "199399438391705600"])],
+    logline: "A returning member who can ask to come back with surprising caution, get recognized immediately, then resume exactly the kind of hyper-specific game chatter that makes the caution look temporary: coin hoarding, avatar engineering, and declaring the missing masculine chest slider `a crime`.",
+    tags: [...new Set([...(booba.tags ?? []), "Return arc", "Wall", "Game chatter", "Petty Crimes"])],
+    relationships,
+    quotes: [...new Set([
+      ...(booba.quotes ?? []),
+      "Omg I’m back and alive",
+      "Can I join again",
+      "I hoard coin to level up skill",
+      "But I now don’t have enough coin for ace trip",
+      "CHEST SLIDER DOES NOT WORK ON MASCULINE FIGURES",
+      "is a crime",
+    ])],
+    claims: [...(booba.claims ?? []),
+      "Booba's small Daycare footprint sits inside a wider return-and-reintegration pattern: Wall participation in 2022, an explicit February 2023 request to come back, recognition from established members, then ordinary game-social chatter again within weeks.",
+      "Her social contradiction is useful precisely because it is not a personality flip: she approaches re-entry carefully, then becomes direct, specific, and shamelessly opinionated once she is back in the room.",
+      "On the Wall, Booba is safely POSTED BY for a September 2022 image that drew room-wide wheezing; the image contents and its maker, capture source, and featured people remain unclaimed.",
+    ],
+    antiFanon: [...new Set([
+      ...(booba.antiFanon ?? []),
+      "`Welcome back` supports return/recognition context but does not establish Booba's original join date, uninterrupted membership, or why she had been away.",
+      "Booba's Wall image is POSTED BY only; MADE BY, CAPTURED BY, and FEATURING remain unresolved until separate evidence supports them.",
+      "`I hoard coin to level up skill` is game-resource behavior and is not a real-world money or spending trait.",
+      "The careful re-entry request does not make Booba generally timid; later same-account chatter is conspicuously direct and comfortable.",
+    ])],
+  };
+}
+
 export const castGroups = previousGroups;
 export const characterById = new Map(allCharacters.map((character) => [character.id, character]));
 export const primaryGroupByCharacterId = new Map(
