@@ -228,6 +228,50 @@ if (prideIndex >= 0) {
   allCharacters.push(prideCharacter);
 }
 
+// Run 1368 Wall synthesis: Nobu's tiny sentences coexist with increasingly elaborate receipt packets, competitive filing, and a willingness to put her own misread on the record.
+const nobuIndex = allCharacters.findIndex((character) => character.id === "nobu");
+if (nobuIndex >= 0) {
+  const nobu = allCharacters[nobuIndex];
+  const relationships = [...(nobu.relationships ?? [])];
+  const rummyRelationship = {
+    name: "Rummy",
+    note: "Rummy is Nobu's Party Director Apprentice on paper; on the Wall they also have enough shared context for Nobu to summon Rummy into a receipt packet and later write `The fact we spoke about this the other day` with another object. The title is real, while the lived rhythm is callback-heavy receipt banter, praise and shorthand rather than a sterile reporting line.",
+    href: "/characters/rummy",
+  };
+  const rummyIndex = relationships.findIndex((relationship) => relationship.name === "Rummy");
+  if (rummyIndex >= 0) relationships[rummyIndex] = rummyRelationship;
+  else relationships.push(rummyRelationship);
+
+  allCharacters[nobuIndex] = {
+    ...nobu,
+    aliases: [...new Set([...(nobu.aliases ?? []), "Xuseio"])],
+    stableDiscordIds: [...new Set([...(nobu.stableDiscordIds ?? []), "864346521351880714"])],
+    logline: "Party Director whose organizer brain also colonized Screenshot Court: Nobu can say almost nothing, drop a whole packet, complain when somebody beats her to the filing cabinet, and then cheerfully admit one prosecution existed because she read the exhibit wrong.",
+    tags: [...new Set([...(nobu.tags ?? []), "Wall", "Competitive filer", "Self-correction", "Callback shorthand", "Petty Crimes"])],
+    relationships,
+    quotes: [...new Set([
+      ...(nobu.quotes ?? []),
+      "Dang, beat me to it.",
+      "Ngl, I legit thought that said children. Which is why I posted it.",
+      "The fact we spoke about this the other day. @phenomenal_lamb_14960",
+    ])],
+    claims: [
+      ...(nobu.claims ?? []),
+      "Stable account 864346521351880714 / xusei is the Xuseio account resolved by project canon to Nobu; its reviewed Wall footprint contains 77 authored messages across the surviving August 2022 to April 2024 span.",
+      "On April 4, 2023, Nobu true-replies to Sou's Wall screenshot with `Dang, beat me to it.` twelve seconds later and posts another screenshot roughly two minutes afterward, making the filing-race instinct explicit.",
+      "On May 30, 2023, Nobu posts a nine-screenshot packet and seconds later directly tags Rummy and Ren; on May 31 she true-replies to one of her own earlier screenshots with `Ngl, I legit thought that said children. Which is why I posted it.`, turning a filing mistake into part of the joke instead of retroactively pretending the case was airtight.",
+      "On January 2, 2024, Nobu posts a Co–Star screenshot with `The fact we spoke about this the other day. @phenomenal_lamb_14960`, explicitly invoking a prior conversation with Rummy and using it as receipt shorthand.",
+    ],
+    antiFanon: [
+      ...(nobu.antiFanon ?? []),
+      "Nobu's reviewed direct Wall attachments establish POSTED BY Nobu. MADE BY, CAPTURED BY, and FEATURING remain separate unless independently supported.",
+      "The May 30 Rummy/Ren tag follows the nine-screenshot packet within seconds and is strong probable same-pocket routing, but it is a Default message rather than a mechanical Reply edge.",
+      "The shift from low-caption Wall drops toward larger narrated packets, competitive filing and prior-conversation callbacks is a change in surviving Wall expression, not a total-personality chronology.",
+      "Rummy / phenomenal_lamb_14960 is a hard project identity bridge; the January 2024 line establishes a prior conversation with Rummy but does not establish where that earlier conversation happened.",
+    ],
+  };
+}
+
 export const castGroups = previousGroups;
 export const characterById = new Map(allCharacters.map((character) => [character.id, character]));
 export const primaryGroupByCharacterId = new Map(
