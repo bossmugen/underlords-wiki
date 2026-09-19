@@ -1,45 +1,22 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-19 — Run 1404 close_
+_Last updated: 2026-09-19 — Run 1405 close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` remains the controlling live miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
 
-## Current durable close — Run 1404
+## Current durable close — Run 1405
 
 Mandatory full census: **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 pending review, 0 backlog, and 0 overdue** at close. Both Club-Only recovery-priority lanes remain current. Eight reviewed MAIN publication-debt families remain banked and are not unread mining.
 
-Three miner branches advanced from the prior durable frontier and were reviewed checkpoint-first from changed `archive-intake/*` handoffs only. Final post-write census found all three reviewed heads unchanged:
-
-- `archive-miner/whiskey-longitudinal-hourly`: `70c8a47c50130bc09e52b484555a1090f54fbf4f` — consumed as `reviewed_no_publish`.
-- `archive-miner/louvre-ai-art-athenaeum-other-games-hourly`: `2e974014b802f20828eda033a4f8bca3fe8539cd` — consumed; branch remains `pending_publication` only for older MAIN Rooks source-custody / whole-person resynthesis debt.
-- `archive-miner-wall-hourly-20260824`: `01cf4664d8e5130052874789adbfda382935b1a3` — consumed as `reviewed_no_publish`.
-
-## Reviewed material
-
-### Plushie / Whiskey
-
-The fast-orientation packet corroborates Plushie's stable identity continuity and the already-public Wall pattern: asks the room rule directly, accepts the answer, then turns the newly learned etiquette into `Snow u saw nothing UwU` almost immediately. The active WIKI owner already contains this exact social mechanism, so another receipt paragraph would be duplication. q9 remains retrieval-limited.
-
-### Nobu / Xuseio
-
-The Louvre-family delta adds one AI Art row: `step 1 of a wip`, with one uninspected attachment. Safe ceiling remains **POSTED BY Nobu**. A single starter post does not improve the already-richer maker profile enough to justify a new WIKI Episode, Running Gag, or Cast rewrite. Hold for a repeated WIP / revision / finished-state pattern.
-
-### Wall
-
-HamitteY's `*KaChing*` / `Added to the list`, later return to an old Wall row, and adjacent prosecution material are cumulative with the already-public receipt-archaeologist / mock-defendant synthesis. Jas's `small things` defense remains a self-report with no verified origin. Wolf Phenix remains narrow and includes PRIVATE/FILTERED material that was not inspected, described, inferred, reproduced, or summarized. Miico remains too thin.
+No active miner HEAD advanced beyond its recorded consumed frontier this run. There were therefore **0 changed `archive-intake/*` deltas to review, 0 new findings to reconcile, 0 duplicate-family changes, 0 conflict/rabbit-hole changes, and 0 consumed-SHA advances**. Anti-starvation had no additional pending or advanced branch to rotate into review.
 
 ## Public surface result
 
 **WIKI reader changes: 0. MAIN reader changes: 0.**
 
-No fresh reader verification/deployment is claimed on either surface because no reader-facing bytes changed. WIKI's most recently verified reader frontier therefore remains the last reader-changing run rather than this reader-neutral state close. Run 1404 durable state is recorded in `integration-runs/RUN_1404.md` and here; MAIN records the controlling close in `archive-intake/INTEGRATOR_BRANCH_STATE.json` and `archive-intake/INTEGRATION_FINAL_2026-09-19_RUN1404.md`.
+No fresh reader verification or deployment is claimed on either surface because no reader-facing bytes changed. WIKI's most recently verified reader frontier remains the prior successful reader-changing publication path rather than this reader-neutral state close. MAIN records the controlling Run 1405 census in `archive-intake/INTEGRATOR_BRANCH_STATE.json` and the close in `archive-intake/INTEGRATION_FINAL_2026-09-19_RUN1405.md`.
 
-## Duplicate / corroboration / held material
-
-- Plushie's Whiskey orientation material is already represented by the active Plushie Cast owner; do not append it again.
-- HamitteY's new Wall rows deepen an already-public mechanism rather than creating a second receipt ledger.
-- Nobu's single `step 1 of a wip` post stays banked until recurrence makes a WIP/revision pattern worth surfacing.
-- Louvre retains older MAIN-only Rooks source-custody / whole-person resynthesis debt as `pending_publication`; that debt is reviewed and must not be confused with unread miner work.
+Run 1404's reviewed Plushie / Whiskey, Nobu / Xuseio, and Wall material remains consumed exactly as recorded in `integration-runs/RUN_1404.md`; nothing in Run 1405 reopens or duplicates those evidence families.
 
 ## Held / unresolved material
 
@@ -49,6 +26,7 @@ No fresh reader verification/deployment is claimed on either surface because no 
 - Attachments remain attribution-bounded: POSTED BY does not establish MADE BY, CAPTURED BY, or FEATURING.
 - Pooled `Deleted User` remains unresolved and unmerged.
 - Earliest surviving remains earliest surviving, not guaranteed origin. Current/export role arrays do not establish appointment chronology.
+- Nobu's single `step 1 of a wip` object remains banked until recurrence supports a WIP/revision/finished-state pattern.
 
 ## Hard identity rails carried forward
 
@@ -66,4 +44,4 @@ No fresh reader verification/deployment is claimed on either surface because no 
 - **Han was never an Officer.**
 - **Kiro was a full Officer, not a Sniper.**
 
-Run 1404 closes review-current across all active miner refs. The shared queue is **0 unread pending review, 0 backlog, 0 overdue**; reader-neutral state changes do not reset or falsely claim a new reader verification frontier.
+Run 1405 closes review-current across all active miner refs. The shared queue is **0 unread pending review, 0 backlog, 0 overdue**; reader-neutral state changes do not reset or falsely claim a new reader verification frontier.
