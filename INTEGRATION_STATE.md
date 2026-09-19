@@ -1,16 +1,18 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-19 — Run 1417_
+_Last updated: 2026-09-19 — Run 1418_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` remains the controlling live miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
 
-## Current durable close
+## Run 1418 durable close
 
-Mandatory opening census found **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 4 advanced refs, 0 backlog, and 0 overdue**. The reviewed refs were Birthdays/PR/VC, Daycare, Whiskey, and Wall. Both Club-Only recovery-priority lanes remain current.
+The mandatory opening and closing censuses agree: **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 unread pending review, 0 backlog, and 0 overdue**. No active miner ref advanced beyond the Run 1417 reviewed heads, so there was no intake delta to reread and no raw archive re-mining. Both Club-Only recovery-priority lanes remain current at their consumed heads.
 
-The miner refs moved while review was in progress, so the close used the later stable heads rather than pretending the opening census was frozen in amber. Birthdays remained at `de5d633239552cae06c54df028b262950c480adf`; Whiskey remained at `1d5b625135fd9d1280cf62841dedf022f69f399a`; Daycare advanced again and was reviewed through `bdfe46a3d2786e351f5d085f54a418f47ec588df`; Wall advanced again and was reviewed through `10c61839bb661e0accf1b9c13d382a4116192830`.
+The stable reviewed heads remain Birthdays/PR/VC `de5d633239552cae06c54df028b262950c480adf`, Daycare `bdfe46a3d2786e351f5d085f54a418f47ec588df`, Whiskey `1d5b625135fd9d1280cf62841dedf022f69f399a`, and Wall `10c61839bb661e0accf1b9c13d382a4116192830`. There are still **9 reviewed pending-publication families**, all MAIN whole-person/resynthesis/source-custody or verification debt rather than unread mining.
 
-There are still **9 reviewed pending-publication families**, all MAIN whole-person/resynthesis/source-custody or verification debt rather than unread mining. Wall remains the special case: the intake is reviewed through its current head, but its contiguous consumed cursor cannot pass the older accepted Shiki MAIN reader until MAIN verification succeeds.
+Wall remains fully reviewed through current HEAD but its contiguous `last_consumed_sha` stays at `01cf4664d8e5130052874789adbfda382935b1a3` solely because the inherited accepted MAIN Shiki reader is still verification-blocked. Dedicated MAIN source/Astro/built-output verifier run `35458657320` was retried again and reached **attempt 12**; latest job `106041558176` failed before any steps were created or executed (`runner_id: 0`). This remains runner/provisioning failure rather than a content failure, so Shiki remains unpublished and the Wall consumed cursor does not advance.
+
+**Reader changes this run: 0 on MAIN, 0 on WIKI.** No build/deployment success is claimed for either public surface because reader bytes did not move. Consumed SHAs are unchanged. No finding was intentionally routed to only one public surface this run because there was no new intake finding to publish.
 
 ## Run 1417 public WIKI result
 
@@ -27,7 +29,7 @@ Verification passed separately on both existing WIKI workflows:
 
 These are intentionally WIKI-only structured culture owners. MAIN does not need three extra event-shaped paragraphs stapled onto person-first biographies.
 
-## Reviewed but not newly published this cycle
+## Reviewed but not newly published in Run 1417
 
 ### Daycare — Candy / `harumasasgf`
 
@@ -45,7 +47,7 @@ The immediately preceding Wall tail's Hami social-yardstick finding **was** publ
 
 ## MAIN verification debt
 
-No new MAIN reader publication is claimed from Run 1417. The inherited accepted Shiki reader deepener remains blocked by MAIN runner infrastructure. Dedicated source/Astro/built-output verification run `35458657320` was retried during this cycle and reached **attempt 11**; it again completed `failure` before verification steps became available. Therefore no MAIN build/deployment success is invented and Wall's consumed cursor must stay behind the blocked accepted reader even though review itself is current.
+No new MAIN reader publication is claimed from Run 1418. The inherited accepted Shiki reader deepener remains blocked by MAIN runner infrastructure. Dedicated source/Astro/built-output verification run `35458657320` reached **attempt 12** during Run 1418 and again failed before verification steps were created or executed. Therefore no MAIN build/deployment success is invented and Wall's consumed cursor must stay behind the blocked accepted reader even though review itself is current.
 
 ## Held / unresolved material
 
@@ -74,4 +76,4 @@ No new MAIN reader publication is claimed from Run 1417. The inherited accepted 
 - **Han was never an Officer.**
 - **Kiro was a full Officer, not a Sniper.**
 
-Run 1417 is review-current through the heads recorded above. Candy and Rosario are deliberately banked for person-shaped dossier folding rather than receipt dumping; the only remaining Wall hold is publication verification debt, not unread intake.
+Run 1418 is review-current through the stable heads recorded above. Candy and Rosario remain deliberately banked for person-shaped dossier folding rather than receipt dumping; the only remaining Wall hold is publication verification debt, not unread intake.
