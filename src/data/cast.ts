@@ -172,6 +172,49 @@ if (lyssaIndex >= 0) {
   };
 }
 
+// Run 1403 Daycare synthesis: Woosung can see the receipt coming and keep talking anyway.
+const woosungIndex = allCharacters.findIndex((character) => character.id === "woosung");
+if (woosungIndex >= 0) {
+  const woosung = allCharacters[woosungIndex];
+  const relationships = [...(woosung.relationships ?? [])];
+
+  upsertRelationship(
+    relationships,
+    "Ren",
+    "Ren can tell Woosung to stop talking while Woosung is actively realizing that her own chatter is manufacturing future screenshots. Woosung's answer is to treat `pls` as negotiable wording and keep going. The speed of the correction and counterargument reads as comfortable tease-and-argue fluency, not hostility or a closeness rank.",
+    "/characters/ren",
+  );
+
+  allCharacters[woosungIndex] = {
+    ...woosung,
+    stableDiscordIds: [...new Set([...(woosung.stableDiscordIds ?? []), "454708201615523871"])],
+    logline: "Mugen's IRL female cousin and a Screenshot Court dual citizen who can be quiet in one room and spectacularly chatty in the next: Woosung knows when she is talking herself into future exhibits, notices it in real time, and still finds a loophole in `pls stop talking` so she can continue.",
+    tags: [...new Set([...(woosung.tags ?? []), "Chatty when activated", "Self-incrimination", "Ren", "Ordinary media", "Petty Crimes"])],
+    relationships,
+    quotes: [...new Set([
+      ...(woosung.quotes ?? []),
+      "im chatty ok",
+      "omfg im already opening myself up to more screenshots of me arent i",
+      "you said pls so",
+      "thats an asking question",
+      "i watch a lot of videos",
+      "IM SO DUMB",
+    ])],
+    claims: [...(woosung.claims ?? []),
+      "In Daycare on March 18, 2021, Woosung explicitly calls herself chatty, immediately realizes continued talking is opening her to more screenshots, and keeps talking anyway.",
+      "When Ren answers `PLS STOP TALKING`, Woosung treats `pls` as a semantic loophole rather than an order, which turns self-incrimination into a shared argument bit instead of a retreat from the room.",
+      "The same Daycare pocket gives ordinary-life texture without a grand character thesis: Woosung says she watches a lot of videos and later remembers, mid-conversation, that she had personally visited during the snowstorm being discussed, then immediately self-roasts the lapse.",
+    ],
+    antiFanon: [...new Set([
+      ...(woosung.antiFanon ?? []),
+      "WOO is Woosung, Mugen's IRL female cousin, under the resolved project identity lock.",
+      "The shorthand `kb` in Woosung's K-pop comment remains unresolved and is not expanded into a person, place, event, or chronology without an independent bridge.",
+      "Woosung's self-described `chatty` mode is context-dependent character texture, not a claim that she is equally loud or talkative in every room.",
+      "Nearby archive attachments remain attribution-bounded: POSTED BY does not establish MADE BY, CAPTURED BY, or FEATURING.",
+    ])],
+  };
+}
+
 export const castGroups = previousGroups;
 export const characterById = new Map(allCharacters.map((character) => [character.id, character]));
 export const primaryGroupByCharacterId = new Map(
