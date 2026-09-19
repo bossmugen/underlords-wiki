@@ -1,4 +1,3 @@
-import "./integrator-cast-run1427-whiskey-rookie-cookie";
 import type { Character } from "./wiki";
 import { allCharacters, castGroups, characterById } from "./cast";
 
