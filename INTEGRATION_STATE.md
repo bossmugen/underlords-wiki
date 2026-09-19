@@ -1,8 +1,18 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-19 — Run 1418_
+_Last updated: 2026-09-19 — Run 1419_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` remains the controlling live miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
+
+## Run 1419 durable close
+
+The mandatory full branch census remains **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 unread pending review, 0 backlog, and 0 overdue**. Every active miner HEAD matched the Run 1418 reviewed frontier, so there was no new intake delta to reread, no raw archive re-mining, and no consumed-SHA advance. Both Club-Only recovery-priority lanes remain current at their consumed heads. The stable reviewed heads remain Birthdays/PR/VC `de5d633239552cae06c54df028b262950c480adf`, Daycare `bdfe46a3d2786e351f5d085f54a418f47ec588df`, Whiskey `1d5b625135fd9d1280cf62841dedf022f69f399a`, and Wall `10c61839bb661e0accf1b9c13d382a4116192830`.
+
+There are still **9 reviewed pending-publication families**, all MAIN whole-person/resynthesis/source-custody or verification debt rather than unread mining. Candy / `harumasasgf` and Rosario17 / Yazaki remain deliberately banked for person-shaped dossier folding rather than receipt-shaped event dumping.
+
+Wall remains fully reviewed through current HEAD but its contiguous `last_consumed_sha` stays at `01cf4664d8e5130052874789adbfda382935b1a3` solely because the inherited accepted MAIN Shiki reader is still verification-blocked. Dedicated MAIN source/Astro/built-output verifier run `35458657320` was retried again and reached **attempt 13**; latest job `105966581482` failed with no step list, so the verifier/build suite never actually began. This remains runner/provisioning failure rather than a content-test failure. Shiki remains unpublished and the Wall consumed cursor does not advance.
+
+**Reader changes this run: 0 on MAIN, 0 on WIKI.** No build/deployment success is claimed for either public surface because reader bytes did not move. Nothing was intentionally routed to only one surface because there was no new intake finding to publish.
 
 ## Run 1418 durable close
 
@@ -47,7 +57,7 @@ The immediately preceding Wall tail's Hami social-yardstick finding **was** publ
 
 ## MAIN verification debt
 
-No new MAIN reader publication is claimed from Run 1418. The inherited accepted Shiki reader deepener remains blocked by MAIN runner infrastructure. Dedicated source/Astro/built-output verification run `35458657320` reached **attempt 12** during Run 1418 and again failed before verification steps were created or executed. Therefore no MAIN build/deployment success is invented and Wall's consumed cursor must stay behind the blocked accepted reader even though review itself is current.
+No new MAIN reader publication is claimed from Run 1419. The inherited accepted Shiki reader deepener remains blocked by MAIN runner infrastructure. Dedicated source/Astro/built-output verification run `35458657320` reached **attempt 13** during Run 1419 and again failed before verification steps were created or executed. Therefore no MAIN build/deployment success is invented and Wall's consumed cursor must stay behind the blocked accepted reader even though review itself is current.
 
 ## Held / unresolved material
 
@@ -76,4 +86,4 @@ No new MAIN reader publication is claimed from Run 1418. The inherited accepted 
 - **Han was never an Officer.**
 - **Kiro was a full Officer, not a Sniper.**
 
-Run 1418 is review-current through the stable heads recorded above. Candy and Rosario remain deliberately banked for person-shaped dossier folding rather than receipt dumping; the only remaining Wall hold is publication verification debt, not unread intake.
+Run 1419 is review-current through the stable heads recorded above. Candy and Rosario remain deliberately banked for person-shaped dossier folding rather than receipt dumping; the only remaining Wall hold is publication verification debt, not unread intake.
