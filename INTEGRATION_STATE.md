@@ -1,57 +1,55 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-19 — Run 1413_
+_Last updated: 2026-09-19 — Run 1414_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` remains the controlling live miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
 
 ## Current durable close
 
-Mandatory census remains **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 unread pending review, 0 backlog, and 0 overdue**. Every active miner HEAD matched its Run 1412 `last_seen_sha` frontier at the Run 1413 census. Both Club-Only recovery-priority lanes remain current.
+Mandatory census remains **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 unread pending review, 0 backlog, and 0 overdue** after this pass. Both Club-Only recovery-priority lanes remain current.
 
-There are **9 reviewed pending-publication families**, all MAIN whole-person/resynthesis/source-custody or verification debt rather than unread mining. No intake delta required review this run and no consumed SHA advanced.
+There are **9 reviewed pending-publication families**, all MAIN whole-person/resynthesis/source-custody or verification debt rather than unread mining.
 
-Current reviewed/consumption frontiers:
+Current reviewed/consumption frontiers relevant to this close:
 - Birthdays/PR/VC consumed through `980f8325d75df6e43c5be4e0f16c988c354cb632`.
 - Daycare consumed through `93e53e77865a553089790cf4b9c00a980be5cb6e`.
 - Whiskey consumed through `cfadf0ea211cd4226c8167273a4c51fb780daefa`.
-- Wall fully reviewed through `39254cac9d215812296c4541e30f7c770a1ec260`. Its consumed cursor remains at `01cf4664d8e5130052874789adbfda382935b1a3` only because the accepted MAIN Shiki reader change still has not cleared MAIN verification. Do **not** re-review Wall through `39254cac9d215812296c4541e30f7c770a1ec260`.
+- Wall fully reviewed through `73f834834f6928ccdb4fd80706597dfe5745a59b`. Its consumed cursor remains at `01cf4664d8e5130052874789adbfda382935b1a3` only because the accepted MAIN Shiki reader change still has not cleared MAIN verification. Do **not** re-review Wall through `73f834834f6928ccdb4fd80706597dfe5745a59b`.
+
+## Run 1414 Wall review
+
+The Wall delta `39254cac9d215812296c4541e30f7c770a1ec260 -> 73f834834f6928ccdb4fd80706597dfe5745a59b` was reviewed checkpoint-first and intake-only. The new sidecars synthesize TonyTonyChopper, Alaina, and Erys/Emi.
+
+**TonyTonyChopper:** new material reinforces the already-public theatrical `DON'T SHOW THEM` defendant ↔ active participant / receipt-carrying witness contradiction. Marian's recurring exposure routine and the April 27 `He said this with goats too` + Tony-posted attachment deepen the same person read already owned by current WIKI and MAIN pages. No duplicate public paragraph was added.
+
+**Alaina:** new material reinforces the already-public context-sensitive gallery participant ↔ phrase-riff player contradiction: she checks whether something is merely out of context, accepts Marian's answer, and can turn `Sorry not sorry` into a music-framed callback. Current WIKI already owns this exact mechanism and the Marian / Rotini texture. MAIN still lacks enough broad whole-person material for a safe new biography.
+
+**Erys / Emi:** new material reinforces the already-public theatrical plausible-deniability defendant ↔ counter-filer / presence-seeker read. Ren prosecution speed, `photoshopped` / `im being hacked`, mock courtroom grammar, counter-filing, room-seeking, and open affection are already represented in the active Erys owner. No Erys II and no standalone Episode were created.
 
 ## Current WIKI reader frontier
 
-Final reader frontier remains **`74677844e91e432c8a42dbb46bf816617d2ed19c`**.
+The final reader frontier remains **`74677844e91e432c8a42dbb46bf816617d2ed19c`** from the prior Gilli birthday provenance correction. Run 1414 made **no WIKI reader-facing change**, because the active owners already contain the reviewed Tony / Alaina / Erys character mechanisms:
+- `src/data/integrator-cast-run790-wall-tonytonychopper.ts`
+- `src/data/integrator-cast-run738-daycare-alaina.ts`
+- `src/data/integrator-cast-run863-wall-erys.ts`
 
-The latest WIKI reader change corrected the June 2020 Gilli birthday sequence in two active owners:
-- `src/data/integrator-episodes-run844-birthdays.ts` preserves the three-stage announcements-room sequence instead of flattening it into one event. Stable account `456226577798135808` first says `Can’t send my video`, moves setup chatter elsewhere, and labels it for Gilli's birthday post; the next afternoon the same account guards a temporary link until Gilli watches. The missing object means the link may be the failed-video workaround, but it is **not** certified as the same media object.
-- `src/data/integrator-cast-run1149-birthdays-sailorluna.ts` keeps SailorLuna's stable-account/self-identification continuity while removing the stale claim that MADE BY was safely resolved for the missing birthday object. The public relationship read is care-through-logistics: keep pushing the delivery until Gilli finally gets it. Gilli's `AAAAAAAAAAH SI CUUUUUTE` is a recipient reaction, not visual FEATURING evidence.
-- Mugen's nearby pin action belongs to an older Clash of Swords announcement and is not attached to the birthday scene.
-
-Verification on exact reader SHA `74677844e91e432c8a42dbb46bf816617d2ed19c`:
-- Build Underlords Wiki `35461675588` — **success**.
-- Deploy Underlords Wiki Preview / Pages `35461675624` — **success**.
-
-Run 1413 made **no WIKI reader change**, so no gratuitous rebuild or redeploy was run.
-
-## Reviewed without new public copy
-
-**Daycare / Nobu:** the low-verbal receipt-sniper ↔ impulsive self-own mechanism, WOO mock-betrayal lane, and `children` misread are already materially public. New intake is duplicate/corroboration; bot attribution and the 17-day Wall gap remain held.
-
-**Whiskey / DyingFox:** soft greeting language, mock-danger shorthand, and dry one-line room diagnosis reinforce the existing low-word social style. `Haii ghostie` / `Hi fox` and `Starting fights again` are already public. The remaining Gilli/Snapple texture is too small to justify another receipt-shaped paragraph.
-
-**Wall / Nobu, Dean, Rotini:** the new tails are cumulative support for already-public person reads. Dean's theatrical-defendant ↔ active-filer contradiction and Mugen/Ren lanes are already owned; Rotini's lurker ↔ receipt-conveyor-belt contradiction is already owned; Nobu is already owned. q9 stays retrieval-limited and attribution-bounded.
+No new build/deploy was run for WIKI because no reader bytes changed. Durable Run 1414 details are in `integration-runs/RUN_1414.md`.
 
 ## MAIN verification debt
 
-No new MAIN reader publication is claimed from Run 1413. The inherited accepted Shiki reader deepener remains blocked by MAIN runner infrastructure. Dedicated source/Astro/built-output verification run `35458657320` was retried as **attempt 6** and again failed before any test step began. Job `105950185399` completed failure with `steps:null`; source verification, Astro build, and built-output verification therefore did not execute.
+No new MAIN reader publication is claimed from Run 1414. The inherited accepted Shiki reader deepener remains blocked by MAIN runner infrastructure. Dedicated source/Astro/built-output verification run `35458657320` was retried again during this pass; latest job `105954625908` failed before any test step began and reports `steps:null`. Source verification, Astro build, and built-output verification therefore did not execute.
 
-Wall review is complete; only verification/publication debt remains. Keep Wall's consumed cursor behind current reviewed head until the accepted Shiki change clears its gate.
+Wall review is complete through the new head; only verification/publication debt prevents the consumed cursor from advancing.
 
 ## Held / unresolved material
 
 - q9 remains retrieval-limited / unresolved.
-- The June 2020 Gilli birthday missing object does not earn MADE BY, CAPTURED BY, EDITED BY, or FEATURING. The later temporary link may be the failed-video workaround, but the object-level bridge is gone.
+- Erys's `its photoshopped` / `im being hacked` wording remains theatrical Wall defense, not a forensic claim.
+- Erys's `i lke wishjey` does not establish alcohol preference or intoxication; the immediate pocket is migrating to the Whiskey room.
+- Tony / Marian / Erys attachments remain attribution-bounded: POSTED BY does not establish MADE BY, CAPTURED BY, or FEATURING.
+- Alaina's tentative screenshot/context comments do not certify unresolved visual identities.
 - Wolf's PRIVATE/FILTERED Wall material remains excluded from public lore.
 - Jas's `2 years ago` remains Jas's own chronology claim, not a verified origin.
-- Attachments remain attribution-bounded: POSTED BY does not establish MADE BY, CAPTURED BY, or FEATURING.
 - Pooled `Deleted User` remains unresolved unless a stable-account identity bridge is independently established.
 - Earliest surviving remains earliest surviving, not guaranteed origin.
 
