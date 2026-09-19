@@ -1,181 +1,173 @@
 import {
   allCharacters as previousCharacters,
   castGroups as previousGroups,
-} from "./cast-pre1371";
+} from "./cast-pre1384";
 import type { Character } from "./wiki";
-export type { CastGroup } from "./cast-pre1371";
+export type { CastGroup } from "./cast-pre1384";
 
 export const allCharacters: Character[] = [...previousCharacters];
 
-// Run 1371 hard identity repair: Alkey and Meowk are separate public owners.
-// Older generated layers accidentally attached Meowk's Wall account and scenes to Alkey;
-// the resolved project correction wins over username/display-name resemblance.
-const alkeyIndex = allCharacters.findIndex((character) => character.id === "alkey");
-if (alkeyIndex >= 0) {
-  const alkey = allCharacters[alkeyIndex];
-  allCharacters[alkeyIndex] = {
-    ...alkey,
-    aliases: (alkey.aliases ?? []).filter((alias) => alias !== "itsalkey" && alias !== "Meowk 💖✨" && alias !== "Meowk"),
-    logline: "Staff and hockey devotee whose intimidation branding keeps getting sabotaged by the actual person underneath it: compact heckling, practical care, direct check-ins, and the immortal self-assessment `I am intimidating :pout:`.",
-    tags: [...new Set([...(alkey.tags ?? []).filter((tag) => tag !== "Wall"), "Staff", "Hockey", "Care", "Compact humor", "Anti-conflation"])],
-    quotes: (alkey.quotes ?? []).filter((quote) => quote !== "I aim to please :8_bow:"),
-    claims: (alkey.claims ?? []).filter((claim) => !/Meowk|chicken duel|chicken-emote|alkitty|i` \/ `saw` \/ `all/i.test(claim)),
-    antiFanon: [...new Set([
-      ...(alkey.antiFanon ?? []),
-      "Alkey and Meowk are separate people under the resolved project identity correction.",
-      "Alkey is not Key / Captain Chihuahua.",
-      "Meowk's chicken-duel, `i` / `saw` / `all`, Alkitty/paws, and Mugen receipt-filing scenes do not belong to Alkey.",
-    ])],
-  };
-}
-
-const meowkIndex = allCharacters.findIndex((character) => character.id === "meowk");
-const meowkCharacter: Character = {
-  id: "meowk",
-  name: "Meowk",
-  aliases: ["Meowk 💖✨"],
-  billing: "guest",
-  role: "Archive-era Wall participant",
-  era: "2021–2022+",
-  logline: "A tiny-stage specialist who can turn two chicken emotes into armed theater, pace three words like witness testimony, roast Ren one day and get turned into `Alkitty` with paws the next. Meowk likes the room watching right up until the room decides he is the exhibit.",
-  tags: ["Archive cast", "Wall", "2021", "Bit-setter", "Witness heckler", "Receipt target", "Ren", "Mugen", "Petty Crimes"],
-  stableDiscordIds: ["264889543365230614"],
-  relationships: [
-    {
-      name: "Ren",
-      note: "Their Wall rhythm runs both directions. Meowk can roast Ren with `3 foot lookin`; the next day Ren helps turn Sou's `Tsundere: Alkey` joke into `Alkitty` with paws and directly summons Meowk into the pile-on. Reciprocal teasing familiarity is the useful read, not literal height, romance, family, or a closeness rank.",
-      href: "/characters/ren",
-    },
-    {
-      name: "Mugen",
-      note: "Mugen can be Meowk's audience and later his prosecutor: she true-replies to the chicken-duel setup with popcorn, later files a screenshot under `shows his true colors`, and in 2022 follows another screenshot with a direct Meowk pat summon. The objects stay attribution-bounded; the recurring social grammar is amused audience / receipt-target familiarity.",
-      href: "/characters/mugen",
-    },
-  ],
-  quotes: [
-    "cock fight achieved",
-    "I aim to please :8_bow:",
-    "i",
-    "saw",
-    "all",
-    "3 foot lookin",
-    "You all suck :myv_Reeeeee:",
-    "The good ol' days",
-  ],
-  claims: [
-    "The reviewed Wall account at stable Discord ID 264889543365230614 is rendered `Meowk 💖✨`; current project identity correction keeps this Meowk owner separate from Alkey even though the source username string is `itsalkey` and one local joke says `Tsundere: Alkey`.",
-    "Twenty surviving authored Wall messages span February 3 through April 9, 2021, with later direct receipt-targeting appearances through at least May 4, 2022.",
-    "Meowk repeatedly turns tiny textual or emote setups into a performance: the February chicken duel earns Mugen's mechanically linked popcorn reply, and the March `i` / `saw` / `all` sequence stretches one witness line across 1.725 seconds.",
-    "Ren and Meowk trade public teasing in both directions, while Mugen repeatedly occupies the audience / receipt-prosecutor side of Meowk's Wall life.",
-  ],
-  antiFanon: [
-    "Meowk is not Alkey under the resolved project identity correction, and neither person is Key / Captain Chihuahua.",
-    "The source username `itsalkey` and the one-night `Tsundere: Alkey` wording do not override the resolved Alkey / Meowk split.",
-    "The Ren height jokes are jokes, not literal height records.",
-    "Sou's `Tsundere` and `Alkitty` language is peer teasing, not a diagnosis or a canonical alias for Alkey.",
-    "Mugen's November 2021 and May 2022 screenshots are POSTED BY Mugen. MADE BY, CAPTURED BY, and visual FEATURING remain unresolved without independent support.",
-    "The end of Meowk's surviving authored Wall messages in April 2021 does not establish UL departure, inactivity, or off-Wall silence.",
-  ],
+const upsertRelationship = (
+  relationships: Array<{ name: string; note: string; href?: string }>,
+  name: string,
+  note: string,
+  href?: string,
+) => {
+  const index = relationships.findIndex((relationship) => relationship.name === name);
+  const next = href ? { name, note, href } : { name, note };
+  if (index >= 0) relationships[index] = next;
+  else relationships.push(next);
 };
 
-if (meowkIndex >= 0) {
-  const meowk = allCharacters[meowkIndex];
-  allCharacters[meowkIndex] = {
-    ...meowk,
-    ...meowkCharacter,
-    aliases: [...new Set([...(meowk.aliases ?? []), ...meowkCharacter.aliases!])],
-    tags: [...new Set([...(meowk.tags ?? []), ...meowkCharacter.tags!])],
-    relationships: meowkCharacter.relationships,
-    quotes: [...new Set([...(meowk.quotes ?? []), ...meowkCharacter.quotes!])],
-  };
-} else {
-  allCharacters.push(meowkCharacter);
-}
-
-// Run 1371 Wall synthesis: WOO is Woosung, and Screenshot Court works both ways on her.
-const woosungIndex = allCharacters.findIndex((character) => character.id === "woosung");
-if (woosungIndex >= 0) {
-  const woosung = allCharacters[woosungIndex];
-  const relationships = [...(woosung.relationships ?? [])];
-  const upsertRelationship = (name: string, note: string, href?: string) => {
-    const index = relationships.findIndex((relationship) => relationship.name === name);
-    const next = href ? { name, note, href } : { name, note };
-    if (index >= 0) relationships[index] = next;
-    else relationships.push(next);
-  };
+// Run 1384 Wall synthesis: Woohyuk treats Screenshot Court like communal memory
+// right up until the communal memory remembers him.
+const woohyukIndex = allCharacters.findIndex((character) => character.id === "woohyuk");
+if (woohyukIndex >= 0) {
+  const woohyuk = allCharacters[woohyukIndex];
+  const relationships = [...(woohyuk.relationships ?? [])];
 
   upsertRelationship(
-    "Ricochet",
-    "Ricochet can summon WOO into a public bit, get the mechanically linked `OMG NO WHY WOULD U`, then true-reply to that protest with a head-pat GIF. The rhythm reads as comfortable public teasing with an immediate softener, not romance, family, or a closeness rank.",
-    "/characters/ricochet",
+    relationships,
+    "Gilli",
+    "Woohyuk writes bespoke public roasts at Gilli; Gilli can true-reply with `STFU 🤣 BRUH THAT KILLED ME` and later summon him into a receipt pocket with almost no setup. Their shorthand reads as comfortable roast-and-response familiarity, not hostility or a closeness rank.",
+    "/characters/gilli",
   );
   upsertRelationship(
-    "Moon",
-    "When WOO complains that talking keeps generating Hall of Shame material, Moon true-replies `No no you famous uwu.` WOO answers with crying/skull reactions instead of leaving the bit. Moon turns accumulated embarrassment into reputation in one line.",
-    "/characters/moon",
+    relationships,
+    "Mugen",
+    "Woohyuk can call Mugen `Megan`, get `Who dis`, answer `your simps-`, then publicly revise himself through `admirer` to `affinity`. The joke survives the self-edit because both already know the bit; it carries no governance significance.",
+    "/characters/mugen",
   );
   upsertRelationship(
-    "Nobu",
-    "Gilli can summon WOO into a Nobu pocket and WOO immediately produces `NOBU` / `TRAITOR`; later the same night another Nobu filing gets `nobu` / `why`. It is same-evening prosecution/callback familiarity, not literal betrayal or relationship rank.",
-    "/characters/nobu",
+    relationships,
+    "Tofu",
+    "Woohyuk can tell Tofu to post the material right now; Tofu answers `Bet! I got nothing to hide` and joins the filing. It is playful Wall pressure answered competitively, not formal authority.",
+    "/characters/tofu",
   );
 
-  allCharacters[woosungIndex] = {
-    ...woosung,
-    aliases: [...new Set([...(woosung.aliases ?? []), "WOO", "Woo Woo", "_woo_woo"])],
-    stableDiscordIds: [...new Set([...(woosung.stableDiscordIds ?? []), "454708201615523871"])],
-    logline: "Former ScarletMoon leader, comfort-giver and Screenshot Court dual citizen: Woosung can be summoned into somebody else's prosecution with a two-word verdict, file an exhibit herself, then act betrayed when the courthouse rotates back toward her — all while openly admitting that being the one somebody else reaches out to first matters more than she usually says.",
-    tags: [...new Set([...(woosung.tags ?? []), "Wall", "Receipt filer", "Mock defendant", "Self-aware filing", "Care", "Reciprocity", "Petty Crimes"])],
+  allCharacters[woohyukIndex] = {
+    ...woohyuk,
+    aliases: [...new Set([...(woohyuk.aliases ?? []), "ash_island"])],
+    stableDiscordIds: [...new Set([...(woohyuk.stableDiscordIds ?? []), "282643269438144513"])],
+    logline: "A Wall-native VIP who treats Screenshot Court like communal memory: digs up old shame, clocks records, prods other people to post, and writes bespoke roasts — then reaches for bro code and jokes about topping up the witnesses when the file turns around on him.",
+    tags: [...new Set([...(woohyuk.tags ?? []), "VIP", "Wall", "Receipt archaeology", "Roast economy", "Mock defendant", "Petty Crimes"])],
     relationships,
     quotes: [...new Set([
-      ...(woosung.quotes ?? []),
-      "NOBU",
-      "TRAITOR",
-      "OMG NO WHY WOULD U",
-      "I need to not talk sm I got so much stuff on the hall of shame",
+      ...(woohyuk.quotes ?? []),
+      "yall said worse things, thought we had bro code bro",
+      "Bro- pls delete, I will top up the witnesses",
+      "The goal of mass effect IS sleeping with every character PERIODT",
+      "yea watermelon is just sweet water",
+      "tryna play us dumb",
     ])],
-    claims: [
-      ...(woosung.claims ?? []),
-      "Project canon resolves WOO / `_woo_woo` and Woosung as the same woman at stable Discord ID 454708201615523871.",
-      "In the reviewed Wall slice, Woosung is not only a repeat target: on March 28, 2023 she directly posts a screenshot herself, giving the mock-defendant reputation a matching active-filer side.",
-      "The surviving Wall expression shifts from mostly summoned reaction in 2020 toward explicit filing, mock prosecution/defense, and self-aware `I got so much stuff on the hall of shame` reputation by spring 2023.",
+    claims: [...(woohyuk.claims ?? []),
+      "Across the surviving Wall sample, Woohyuk repeatedly notices the archive as an archive: old material being dug up, throwback shame, speed records, and the act of filing itself.",
+      "His Wall contradiction is recurrent rather than one-scene: he helps feed the receipt culture and prompts other people to post, then becomes a theatrical defense attorney when he is the exhibit.",
+      "The Gilli lane is mechanically anchored by a true reply to Woohyuk's spirit-week roast and by later summon shorthand around a separate receipt pocket.",
     ],
     antiFanon: [...new Set([
-      ...(woosung.antiFanon ?? []),
-      "WOO is Woosung. She is the female cousin of Mugen's ex and is not Mugen's ex.",
-      "Woosung's March 28 screenshot establishes POSTED BY Woosung only; MADE BY, CAPTURED BY, and FEATURING remain unresolved because the pixels were not inspected in this review.",
-      "The Nobu / `TRAITOR` language is Screenshot Court play, not literal betrayal, romance, hostility rank, or formal authority.",
-      "Current/export role arrays do not establish Woosung's appointment chronology.",
+      ...(woohyuk.antiFanon ?? []),
+      "Woohyuk's Wall scorekeeping is an informal social behavior, not a formal archivist, prosecutor, or moderation title.",
+      "`top up the witnesses` is game-flavored courtroom joking, not evidence of real bribery, payment, or witness tampering.",
+      "Woohyuk's posted attachments establish POSTED BY only unless separate evidence earns MADE BY, CAPTURED BY, or FEATURING.",
+      "The Mass Effect line is game-play humor, not real-world sexual behavior or sexuality evidence.",
     ])],
   };
 }
 
-// Hard-lock cleanup discovered while reconciling this Wall delta: Akariel and Zyrcant are separate.
-// Keep the current Akariel dossier intact and strip Akariel-only material from Zyrcant's older merged shell.
-const zyrcantIndex = allCharacters.findIndex((character) => character.id === "zyrcant");
-if (zyrcantIndex >= 0) {
-  const zyrcant = allCharacters[zyrcantIndex];
-  allCharacters[zyrcantIndex] = {
-    ...zyrcant,
-    aliases: (zyrcant.aliases ?? []).filter((alias) => alias !== "Akariel" && alias !== "Akariel™" && alias !== "akariel_star"),
-    logline: "VIP and former Amaurot deputy whose current public file stays deliberately compact until more clean Zyrcant-specific scene material is synthesized.",
-    tags: [...new Set((zyrcant.tags ?? []).filter((tag) => !["Self-incrimination", "Kinetic humor", "Snow-is-old ecology"].includes(tag)))],
-    relationships: (zyrcant.relationships ?? []).filter((relationship) => !["Ren", "ShiyaX", "Gabu", "Snow"].includes(relationship.name)),
-    quotes: (zyrcant.quotes ?? []).filter((quote) => ![
-      "put me on the wall of shame 😩",
-      "fair lmaooo",
-      "oooh shit *runs*",
-      "im the one person who tackles ppl",
-      "and im tackling gabu in this case",
-      "Everytime someone calls snow old",
-      "-runs-",
-      "the only apps now on my mac is spotify chrome and discord 😛",
-      "Quiet at first but a crackhead once I’m comfortable",
-    ].includes(quote)),
-    claims: (zyrcant.claims ?? []).filter((claim) => !/Akariel|wall of shame|caught in 4k|tackles ppl|snow old/i.test(claim)),
+// Run 1384 Wall synthesis: Tony is a reciprocal filer, not only the person yelling STOP.
+const tonyIndex = allCharacters.findIndex((character) => character.id === "tonytonychopper");
+if (tonyIndex >= 0) {
+  const tony = allCharacters[tonyIndex];
+  const relationships = [...(tony.relationships ?? [])];
+
+  upsertRelationship(
+    relationships,
+    "Panda",
+    "Marian/Panda files Tony in separate Wall pockets and Tony later returns the filing himself. That role reversal makes the relationship reciprocal receipt-targeting familiarity rather than a one-way prosecution; the later attachment itself stays deliberately undescribed.",
+    "/characters/panda",
+  );
+  upsertRelationship(
+    relationships,
+    "Rummy",
+    "When Tony's publication panic hits, Rummy can true-reply with `*pat pat*`; Tony answers with Cat_Sporkle instead of leaving the bit. The repeated pat-response rhythm is care-through-teasing, not romance, family, or a closeness ranking.",
+    "/characters/rummy",
+  );
+
+  allCharacters[tonyIndex] = {
+    ...tony,
+    stableDiscordIds: [...new Set([...(tony.stableDiscordIds ?? []), "851264843306631168"])],
+    tags: [...new Set([...(tony.tags ?? []), "Reciprocal filing", "Mock consolation", "Privacy boundary"])],
+    relationships,
+    claims: [...(tony.claims ?? []),
+      "Tony's repeated `STOP` / `DONT SHOW THEM` defense is only half the Wall pattern: he later directly files Marian/Panda, making defendant and filer the same person.",
+      "Tony and Marian/Panda have recurring reciprocal receipt-targeting across independent pockets; the relationship read does not require describing the later private-marked attachment.",
+    ],
     antiFanon: [...new Set([
-      ...(zyrcant.antiFanon ?? []),
-      "Zyrcant and Akariel are separate people. Akariel / Akariel™ / akariel_star material belongs to Akariel, not Zyrcant.",
+      ...(tony.antiFanon ?? []),
+      "The June 12 Tony-to-Marian attachment is PRIVATE / VISUAL HOLD and must not be inspected, inferred, reproduced, or publicly summarized.",
+      "For that object, Tony is POSTED BY and Marian/Panda is the explicit conversational target/respondent; MADE BY, CAPTURED BY, and FEATURING remain unresolved.",
+    ])],
+  };
+}
+
+// Run 1384 Wall synthesis: Scar says very little and can still hand the room an entire premise.
+const scarIndex = allCharacters.findIndex((character) => character.id === "scar");
+if (scarIndex >= 0) {
+  const scar = allCharacters[scarIndex];
+  const relationships = [...(scar.relationships ?? [])];
+
+  upsertRelationship(
+    relationships,
+    "Gilli",
+    "Scar can drop one provocative line, get Gilli's exact `WHY ME AND NO I DO NOT` reply, poke `Why not you?`, and later return after the room has inflated the joke. Comfortable teasing is supported; the joke premise is not literal relationship canon.",
+    "/characters/gilli",
+  );
+
+  allCharacters[scarIndex] = {
+    ...scar,
+    aliases: [...new Set([...(scar.aliases ?? []), "s.car."])],
+    stableDiscordIds: [...new Set([...(scar.stableDiscordIds ?? []), "706565495956176946"])],
+    logline: "A Platelet with a tiny-message, high-blast-radius Wall style: Scar can toss in one sentence, let the room build a whole case around it, then come back later with `I knew it all time` like this was the plan from the beginning.",
+    tags: [...new Set([...(scar.tags ?? []), "Wall", "Compact reactor", "Provocation starter", "Mock evidence", "Gilli"])],
+    relationships,
+    quotes: [...new Set([
+      ...(scar.quotes ?? []),
+      "Also Gilli must have some harem here :kermsad:",
+      "Why not you?",
+      "IT’S TRUE",
+      "100%",
+      "want me to exposed?",
+    ])],
+    claims: [...(scar.claims ?? []),
+      "Scar's surviving Wall footprint is sparse in prose but recurrent in function: tiny reactions, one-line provocations, and rhetorical evidence escalation can seed a larger room-wide bit.",
+      "Scar does not directly post an attachment in the reviewed authored Wall footprint, so the useful role is gallery reactor / mock-evidence escalator rather than receipt filer.",
+    ],
+    antiFanon: [...new Set([
+      ...(scar.antiFanon ?? []),
+      "The Gilli `harem` exchange is a communal joke and does not establish romance, sex, or relationship rank.",
+      "Scar's `want me to exposed?` is rhetorical escalation; no direct attachment authorship was recovered in the reviewed Wall footprint.",
+    ])],
+  };
+}
+
+// Run 1384 Daycare synthesis: Ghoulie was claiming the Wall as home while still protesting the exhibits.
+const lyssaIndex = allCharacters.findIndex((character) => character.id === "baby-lyssa");
+if (lyssaIndex >= 0) {
+  const lyssa = allCharacters[lyssaIndex];
+  allCharacters[lyssaIndex] = {
+    ...lyssa,
+    stableDiscordIds: [...new Set([...(lyssa.stableDiscordIds ?? []), "537786238665621504"])],
+    logline: "Ghoulie can yell `NOT AGAIN` at Screenshot Court, declare `this ma house` and `ma damn wall`, later keep receipts for future use, and still stop in Daycare to tell AJ their art style is wonderful. Embarrassment and belonging were never opposites for her.",
+    tags: [...new Set([...(lyssa.tags ?? []), "Wall resident", "Counter-archivist", "Petty Crimes"])],
+    quotes: [...new Set([...(lyssa.quotes ?? []), "this ma house", "ma damn wall"])],
+    claims: [...(lyssa.claims ?? []),
+      "On June 2, 2021, Xanthos jokes that Ghoulie is `leaving your mark`; she answers `you know what you damn right`, escalates from `this ma house` to `ma damn wall`, then follows it with dancing emojis.",
+      "That scene complicates a simple target-to-receipt-hunter progression: Ghoulie's genuine embarrassment and her proprietary sense of belonging to the Wall coexist before her later counter-filing habits mature.",
+    ],
+    antiFanon: [...new Set([
+      ...(lyssa.antiFanon ?? []),
+      "`this ma house` / `ma damn wall` is social-residency humor, not literal channel ownership, moderation authority, housing, or a claim that Ghoulie enjoyed every receipt filed on her.",
     ])],
   };
 }
