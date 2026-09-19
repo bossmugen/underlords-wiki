@@ -175,6 +175,59 @@ if (akarielIndex >= 0) {
   allCharacters.push(akarielCharacter);
 }
 
+// Run 1364 Whiskey synthesis: Pride is less an onboarding official than the friend who gives you the house warning label and then keeps talking.
+const prideIndex = allCharacters.findIndex((character) => character.id === "pride");
+const prideCharacter: Character = {
+  id: "pride",
+  name: "Pride",
+  aliases: ["neffiegames"],
+  billing: "legacy",
+  role: "Archive-era UL cast",
+  era: "2020–",
+  logline: "Tea-sipping Screenshot Court defendant and affectionate chaos translator: Pride can welcome people to the madhouse, explain that everybody gets exposed, then describe the Tumbleweed family tree as something you do not understand so much as survive.",
+  tags: ["Archive cast", "2020", "Whiskey", "Wall", "Culture translator", "Screenshot Court", "Fictive-family grammar", "Sip", "Petty Crimes"],
+  stableDiscordIds: ["380825199836266497"],
+  relationships: [
+    {
+      name: "Mugen",
+      note: "Pride can explain the house's family language as `Mugs is the mom/daddy to everyone here`, then warn that the Tumbleweed family tree is not something worth trying to understand. It reads as fluent social shorthand, not literal parenthood, guardianship, romance, or a formal Mugen-appointed role.",
+      href: "/characters/mugen",
+    },
+  ],
+  quotes: [
+    "Welcome to the madhouse @Marsy~ @Milo",
+    "Mugs is the mom/daddy to everyone here",
+    "Don’t try to understand our tumbleweed of a family tree is all kinda fucked up",
+    "This is where everyone gets exposed",
+    "They are always watching",
+  ],
+  claims: [
+    "Stable account 380825199836266497 / neffiegames is Pride across the reviewed Lobby, Club Only, Wall, and Whiskey material.",
+    "Across November and December 2020 Whiskey, Pride repeatedly orients other people through informal house language: welcome to the madhouse, Mugs as the room's joke parent, and the Tumbleweed as a family tree nobody should expect to make normal sense.",
+    "Combined with Pride's Wall explanation that everyone gets exposed and `They are always watching`, the recurring social role is best kept informal: a peer who makes UL legible by naming the chaos, not an onboarding officer or governance post.",
+  ],
+  antiFanon: [
+    "`Welcome to the madhouse` is an informal peer welcome and does not establish recruiting, onboarding authority, or formal Staff responsibility.",
+    "`Mugs is the mom/daddy to everyone here` and the Tumbleweed line are fictive-family/social language, not literal parenthood, guardianship, romance, biological family, or governance.",
+    "The reviewed Whiskey receipts are a bounded late-2020 culture-translation cluster, not proof that Pride always served this function in every room or era.",
+    "Pride's Wall surveillance language is Screenshot Court humor, not literal surveillance or stalking.",
+  ],
+};
+
+if (prideIndex >= 0) {
+  const pride = allCharacters[prideIndex];
+  allCharacters[prideIndex] = {
+    ...pride,
+    ...prideCharacter,
+    aliases: [...new Set([...(pride.aliases ?? []), ...prideCharacter.aliases!])],
+    tags: [...new Set([...(pride.tags ?? []), ...prideCharacter.tags!])],
+    relationships: prideCharacter.relationships,
+    quotes: [...new Set([...(pride.quotes ?? []), ...prideCharacter.quotes!])],
+  };
+} else {
+  allCharacters.push(prideCharacter);
+}
+
 export const castGroups = previousGroups;
 export const characterById = new Map(allCharacters.map((character) => [character.id, character]));
 export const primaryGroupByCharacterId = new Map(
