@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-18 — Run 1374_
+_Last updated: 2026-09-18 — Run 1374 late close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling live miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
 
@@ -12,7 +12,7 @@ The mandatory full census closes **51 tracked miner identities = 30 active refs 
 
 - `archive-miner/daycare-2020-2026-hourly`: reviewed `0ebd5762ab2986faebac6998bac6c4f8acb47cc4 -> 3e078562a5f859ddd933eae99367baafa3383e3e` checkpoint-first/intake-only. Alaina's relief-after-help, targeted trust, `I knew I could count on you`, and ordinary food/care texture were already owned in the existing run738 dossier. Duplicate/corroboration only; no reader change.
 - `archive-miner/louvre-ai-art-athenaeum-other-games-hourly`: reviewed `c4bea07fbbaad7dac4705de21922687683ee2a4e -> d9b16f8ad99b58a5a8b356a209bdbb4b0360968d` checkpoint-first/intake-only. Qin-Mu's strategic color/game talk, willingness to give materials away, and good-humored acceptance when the trick comes back around were already owned in the run1071 dossier. Duplicate/corroboration only; no reader change.
-- `archive-miner/whiskey-longitudinal-hourly`: reviewed `3384a700fa6bfb6e88ac0ed2335b6a29315de672 -> 5c6d9c701992117ee3056b84f36f56606a82537e` checkpoint-first/intake-only. Meowk's scene-namer / nostalgia-instigator / reluctant-subject contradiction was already public in the current Cast owner. Duplicate/corroboration only; no reader change.
+- `archive-miner/whiskey-longitudinal-hourly`: first reviewed `3384a700fa6bfb6e88ac0ed2335b6a29315de672 -> 5c6d9c701992117ee3056b84f36f56606a82537e` checkpoint-first/intake-only; Meowk's scene-namer / nostalgia-instigator / reluctant-subject contradiction was already public in the current Cast owner. A late census recheck then found one additional intake-only commit and reviewed `5c6d9c701992117ee3056b84f36f56606a82537e -> 8dce2a1cf8483c3cd2da09d7a5629e30aea6deb9`. That packet gives Celeee a strong **reaction-not-defense / publicly-caught-still-playing-the-room** read, but the current profile remains comedy-heavy and no existing public Celeee owner was found. The miner itself prioritizes a non-comedy care/taste/task/conflict/routine scene before biography promotion, so the late tail was successfully consumed with no reader change.
 - `archive-miner-wall-hourly-20260824`: reviewed the full moving tail `5ad177057c11424bc592db62ef2521ed2c0275c8 -> 6af3232fd72a1538e58d8edca4f5a97711aa5b96` checkpoint-first/intake-only. The earlier Danny/Plushie packet was already owned publicly. The late Ghostt packet was genuinely additive and cleared WIKI's structured dossier threshold.
 
 ### Material integrated
@@ -27,11 +27,12 @@ Verification for that reader commit passed:
 - Build Underlords Wiki **`35425662072`** — Astro build successful.
 - Pages/Preview **`35425662091`** — preview build, Pages deployment, and report all successful.
 
-**MAIN reader-facing change: 0 intentionally.** Ghostt now clears WIKI's structured-reference threshold, but this Wall-heavy packet still does not justify manufacturing a MAIN biography before there is enough whole-person material to sustain the richer person-first surface. Daycare/Louvre/Whiskey were duplicate/corroboration only. No MAIN reader build/deployment was run or claimed.
+**MAIN reader-facing change: 0 intentionally.** Ghostt now clears WIKI's structured-reference threshold, but this Wall-heavy packet still does not justify manufacturing a MAIN biography before there is enough whole-person material to sustain the richer person-first surface. Daycare/Louvre and the first Whiskey tail were duplicate/corroboration only; the late Celeee Whiskey tail is banked until a broader non-comedy person axis exists. No MAIN reader build/deployment was run or claimed.
 
 ### Duplicates / held material
 
 - Alaina, Qin-Mu, Meowk, Danny, and Plushie material was reconciled against current public owners and collapsed into existing evidence families rather than republished.
+- Celeee's June 4 Wall scene is strong character material but not enough by itself to manufacture a public owner. The safe read is that communal embarrassment can produce a compact joke-feeding reaction (`:smug:`) rather than explanation or withdrawal. Ren's Marie Kondo/dead-animal caricature remains Ren's peer joke, never a factual animal-preference or conduct claim. Celeee↔Ren remains one strong teasing scene; Celeee↔Anthos remains a developing public-callout lane pending another technically linked response.
 - Lilly's Wall control sample remains developing; no fresh A/B person synthesis was manufactured.
 - q9 remains open. Ghostt's June 2021 image is POSTED BY Ghostt; Baby Lyssa is the strong social target/respondent, while MADE BY / CAPTURED BY / visual FEATURING stay unresolved.
 - Ghostt's `She set me up for it 😂` does not identify `she` without stronger context.
@@ -46,10 +47,10 @@ Verification for that reader commit passed:
 - **Nobu = Xuseio. Nobu is UL Party Director, not Officer.**
 - **Rummy = phenomenal_lamb_14960; Rummy is Nobu's Party Director Apprentice.**
 - **Rich / DragonRich / dragonrichard ≠ Ricochet.**
-- **Shiki ≠ Shk / Tomoe; Shiki ≠ ShiyaX.** Similar names and `Sensei` language do not bridge those people.
+- **Shiki = Shk = yuki1794. Shiki ≠ ShiyaX.** Tomoe is not bridged to Shiki without separate support. This corrects the stale contradictory `Shiki ≠ Shk / Tomoe` wording that had leaked into prior integration-state text; resolved user canon wins.
 - Earliest surviving is not guaranteed origin; current/export role arrays do not establish appointment chronology; pooled `Deleted User` remains unresolved; POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct; and joke-family or joke-romance language does not become literal relationship canon without separate support.
 
-Run 1374 closes review-current through Daycare `3e078562a5f859ddd933eae99367baafa3383e3e`, Louvre-family `d9b16f8ad99b58a5a8b356a209bdbb4b0360968d`, Whiskey `5c6d9c701992117ee3056b84f36f56606a82537e`, and Wall `6af3232fd72a1538e58d8edca4f5a97711aa5b96`. MAIN's controlling ledger close is `d08a6fd508b56a4f07699aa27505c902dbce50ed`; this WIKI state commit is reader-neutral.
+Run 1374 closes review-current through Daycare `3e078562a5f859ddd933eae99367baafa3383e3e`, Louvre-family `d9b16f8ad99b58a5a8b356a209bdbb4b0360968d`, Whiskey `8dce2a1cf8483c3cd2da09d7a5629e30aea6deb9`, and Wall `6af3232fd72a1538e58d8edca4f5a97711aa5b96`. MAIN's controlling late-close ledger commit is `005525541dd788ed6cfc2e9c8cc07719ead4bb6e`; this WIKI state update is reader-neutral.
 
 ## Previous durable WIKI close — Run 1373
 
@@ -59,7 +60,7 @@ Every active miner HEAD matched both `last_seen_sha` and `last_consumed_sha` in 
 
 **WIKI reader-facing changes: 0. MAIN reader-facing changes: 0.** No reader-facing bytes changed, so no new WIKI Astro/Pages build or deployment and no MAIN source-verification/Astro/built-output build or deployment were run or claimed. Nothing was intentionally routed to only one public surface.
 
-The verified WIKI reader frontier remained **`15f6e6c60772c2546fc484f5d28c93cba9254ea8`** from Run 1372. Attribution and identity rails remained unchanged: earliest surviving is not guaranteed origin; pooled `Deleted User` remains unresolved; current/export role arrays do not establish appointment chronology; POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct; and joke-family or joke-romance language does not become literal relationship canon without separate support.
+The verified WIKI reader frontier remained **`15f6e6c60772c2546fc484f5d28c93cba9254ea8`** from Run 1372. Attribution and identity rails remained unchanged at that close; where historical wording conflicts with later resolved user canon, the current hard-rail section above controls.
 
 ## Previous durable WIKI close — Run 1372
 
@@ -113,7 +114,7 @@ Verification for the final reader commit passed:
 - **Nobu = Xuseio. Nobu is UL Party Director, not Officer.**
 - **Rummy = phenomenal_lamb_14960; Rummy is Nobu's Party Director Apprentice.**
 - **Rich / DragonRich / dragonrichard ≠ Ricochet.**
-- **Shiki ≠ Shk / Tomoe; Shiki ≠ ShiyaX.**
+- **Shiki = Shk = yuki1794. Shiki ≠ ShiyaX.** Tomoe is not bridged to Shiki without separate support.
 - Joke-family and joke-romance language does not become literal relationship canon without separate support.
 
-Run 1372 closed review-current on WIKI through the two reviewed miner frontiers above. The verified reader frontier is **`15f6e6c60772c2546fc484f5d28c93cba9254ea8`**; this integration-state close is reader-neutral.
+Run 1372 closed review-current on WIKI through the two reviewed miner frontiers above. The verified reader frontier is **`15f6e6c60772c2546fc484f5d28c93cba9254ea8`**; this historical integration-state section is retained for continuity, with current hard-canon corrections controlling where older wording differed.
