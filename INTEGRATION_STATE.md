@@ -1,35 +1,39 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-19 — Run 1398 close_
+_Last updated: 2026-09-19 — Run 1399 close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` remains the controlling live miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
 
-## Current durable close — Run 1398
+## Current durable close — Run 1399
 
 Mandatory full census: **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 pending review, 0 backlog, and 0 overdue** at close. Both Club-Only recovery-priority lanes remain current. Eight reviewed MAIN publication-debt families remain banked.
 
-Two miner branches advanced this run and were reviewed checkpoint-first/intake-only:
-
-- `archive-miner/louvre-ai-art-athenaeum-other-games-hourly`: `fcde64a420aa95ec47c0dbcaab5854f2764d205f` → **`9dfcd9be992b2b3eb78c3035b10a0f40b75bb2eb`**. The source-custody audit corrects the broader Rooks `critique me` / printmaking route to Club Only rather than the assigned Louvre/Athenaeum quarry. The broader Rooks person read survives project-wide; WIKI no longer carries the stale Louvre-workshop framing, so no WIKI reader correction was required. MAIN visible wording cleanup remains reviewed publication debt rather than unread mining.
-- `archive-miner-wall-hourly-20260824`: `fc42c8bf230c0edfe20010a7fe162eca26cc9472` → **`1e6b491f44775e8606866d1f0f502561e9f28c00`** in two waves. The strongest still-unpublished gains were folded into existing Zoshaa and Akariel owners rather than appended as receipt ledgers.
+No miner branch advanced beyond the already-consumed Run 1398 frontier. Opening census and closing recheck both found every active ref unchanged, so Run 1399 had **0 intake deltas, 0 consumed-SHA advances, 0 new findings, 0 duplicate-family changes, and 0 conflict/rabbit movement**.
 
 ## Public surface result
 
-**WIKI reader changes: Zoshaa and Akariel. MAIN reader changes: 0.**
+**WIKI reader changes: 0. MAIN reader changes: 0.**
 
-WIKI reader commit **`a1458360f89fd52751c717d2b4ccfc7339e9eeaf`** deepens Zoshaa as an old-screenshot scavenger with a stable compressed-cute ↔ all-caps register, plus lived Ren and Snow lanes. The additions synthesize repeated behavior: she can answer a summons with three glyphs, revive old screenshots because they are funny, and later demand answers at full volume without becoming a different person.
+No new reader verification/deployment was run or claimed on either surface because no reader-facing bytes changed. WIKI's verified reader frontier therefore remains Run 1398's **`27c2bab97b7452d8798445813502df0ca4b0a885`**, which passed **Build Underlords Wiki `35449252707`** and **Deploy Underlords Wiki Preview / Pages `35449252800`**; the Pages build, artifact, deploy, and report jobs completed successfully.
 
-WIKI reader commit **`27c2bab97b7452d8798445813502df0ca4b0a885`** deepens Akariel's self-aware Screenshot Court participation. When Anayss files her directly under `:mortfeet:`, Akariel reacts to the same exhibit with the same emote; the useful read is that she can be named by the filing and still join the reaction layer herself. The unseen attachment remains unseen, and the scene does not create image-subject, maker, capturer, or relationship-rank claims.
+MAIN's controlling Run 1399 branch census is persisted separately in `archive-intake/INTEGRATOR_BRANCH_STATE.json`. No material was intentionally published to only one surface this run because there was no new material to publish.
 
-The cumulative reader frontier **`27c2bab97b7452d8798445813502df0ca4b0a885`** passed **Build Underlords Wiki `35449252707`** and **Deploy Underlords Wiki Preview / Pages `35449252800`**. The Pages workflow's build, deploy, and report jobs all completed successfully, including `Deploy to GitHub Pages`.
+## Current miner frontiers of note
 
-The WIKI-only split is intentional. These gains are strongest as structured relationship/running-gag/person-mechanism updates; forcing the same receipt-shaped material into MAIN biographies would weaken the person-first surface. MAIN's controlling Run 1398 consumption close is **`1c7a1fc45ffed023f24d1144666f53bb2a95e2a9`** and records both reviewed branch frontiers as consumed.
+- `archive-miner-wall-hourly-20260824`: `1e6b491f44775e8606866d1f0f502561e9f28c00` — consumed.
+- `archive-miner/louvre-ai-art-athenaeum-other-games-hourly`: `9dfcd9be992b2b3eb78c3035b10a0f40b75bb2eb` — reviewed/consumed; older MAIN wording/resynthesis debt remains banked.
+- `archive-miner/daycare-2020-2026-hourly`: `0dbce126e3fbe65ed17b328f3b26ece7449267e1` — consumed.
+- `archive-miner/whiskey-longitudinal-hourly`: `0e5f15de2a2d1a2404efe53d8181089f47d1a1a6` — consumed.
+- `archive-miner/club-only-2021-2026-hourly`: `e45fb11c9239e236231bb65645dfd0285bc0078b` — recovery lane current.
+- `archive-miner-clubonly-2020-hourly`: `ed66714f8d2c18f23bbb2b951bf305f0fa913f21` — recovery lane current.
 
 ## Duplicate / corroboration / held material
 
-- Akariel's Tofu auction/theatrical-defendant material mostly corroborated already-public behavior and was not multiplied into another public event stack.
-- Wall micro-packets that only repeated direct filing, short captions, or existing Screenshot Court mechanics stayed backstage unless they materially deepened a person read.
-- Louvre's expanded Gallery Rail #164 scan remained negative for viable same-room native anchors; q9 remains unresolved rather than globally disproven.
+No duplicate/corroboration family changed this run. Existing Run 1398 holdings carry forward:
+
+- Akariel's Tofu auction/theatrical-defendant material mostly corroborates already-public behavior.
+- Wall micro-packets that only repeat direct filing, short captions, or established Screenshot Court mechanics remain backstage unless they deepen a person read.
+- Louvre's Gallery Rail #164 negative scan does not globally resolve q9.
 - The broader Rooks critique/printmaking person read survives; only the quarry/source-custody framing changed. Rooks remains distinct from Kuki/Cookie.
 - The privacy-sensitive Wall hold remains excluded from public lore. Pooled `Deleted User` remains unresolved and unmerged.
 
@@ -61,4 +65,4 @@ The WIKI-only split is intentional. These gains are strongest as structured rela
 - **Han was never an Officer.**
 - **Kiro was a full Officer, not a Sniper.**
 
-Run 1398 closes review-current across all active miner refs. WIKI's reader frontier is verified and deployed; MAIN remains reader-neutral this run, with its reviewed publication-debt queue carried forward separately from miner-consumption state.
+Run 1399 closes review-current across all active miner refs. WIKI's reader frontier remains verified from Run 1398; MAIN and WIKI are both reader-neutral this run, with reviewed publication debt kept separate from miner-consumption state.
