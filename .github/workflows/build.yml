@@ -2,7 +2,7 @@ name: Build Underlords Wiki
 
 on:
   push:
-    branches: [main]
+    branches: [main, integrator-validate-eos-rummy-20260919-0115]
   workflow_dispatch:
 
 permissions:
