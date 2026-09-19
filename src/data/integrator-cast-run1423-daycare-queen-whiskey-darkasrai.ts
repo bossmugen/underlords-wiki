@@ -118,7 +118,6 @@ const upsertRelationship = (
     relationships,
     "Aizzy",
     "DarkAsrai's Photo Submissions caption `Posing with @Aizzy on the ferris wheel` preserves an ordinary shared in-game moment instead of an embarrassing receipt. It adds a modest shared-photo lane and shows the documenting instinct is not exclusively prosecutorial; who made or captured the image remains unresolved.",
-    "/characters/aizzy",
   );
 
   allCharacters[index] = {
