@@ -1,44 +1,48 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-18 — Run 1371_
+_Last updated: 2026-09-18 — Run 1372_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling live miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
 
-## Current durable WIKI close — Run 1371
+## Current durable WIKI close — Run 1372
 
-The mandatory full census closes **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs**, **0 pending review**, **0 backlog**, and **0 overdue** after the Wall delta was reviewed through stable HEAD `751cbd210498426baf9c0df21d851bdd8c28c68d`. Both Club-Only recovery-priority lanes remain current. Six older reviewed MAIN whole-person resynthesis families remain `pending_publication`; these are publication debt, not unread mining.
+The mandatory full census closes **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs**, **0 pending review**, **0 backlog**, and **0 overdue**. Both Club-Only recovery-priority lanes remain current. Six older reviewed MAIN whole-person resynthesis families remain `pending_publication`; these are publication debt, not unread mining.
+
+### Branches reviewed
+
+- `archive-miner/birthdays-pr-vc-deep-2026-08-24-2325`: reviewed `bdf96529637b138857315809e8e86ebbd6516a5d -> c3476820c4e94517e726ed2e64f4d097e1bdce56` checkpoint-first/intake-only. Anthos's January 2021 `very first Photoshoot Contest` followed only 22 days later by `2nd annual photoshoot contest` makes `annual` loose numbered-event language here, not evidence of a hidden 2020 annual, yearly cadence, or anniversary. Current public surfaces did not over-literalize it, so this was a successful no-public-change review. Ryoko remained too thin for a stable person bridge; the first-winner/media and Fight Club→My Couch rabbits remain open.
+- `archive-miner-wall-hourly-20260824`: reviewed from `751cbd210498426baf9c0df21d851bdd8c28c68d` through late-moving stable head `5ad177057c11424bc592db62ef2521ed2c0275c8`. The first packet deepened RotiniLM; the late tail materially deepened HamitteY. RealGameJack and thin control account `S` did not earn separate promotion.
 
 ### Material integrated
 
-**Meowk** now has a separate WIKI owner built from the reviewed Wall account at stable ID `264889543365230614`. The useful person read is compact performance ↔ recurrent receipt target: chicken-emote theater that earns Mugen's popcorn, `i` / `saw` / `all` paced like witness testimony, reciprocal roast/cuteification with Ren, and later Mugen receipt-targeting. The authored Wall gap after April 2021 remains a bounded source fact, not a departure claim.
+**RotiniLM** was deepened in the existing canonical owner instead of duplicated. The dossier now centers the person-shaped contradiction: self-described lurker / artifact-heavy receipt curator ↔ mock-reluctant defendant when the Wall turns the spotlight back. The small captions are part of the voice — `Just lurking the WC`, `One more-`, `Sorry not sorry`, `Noble sacrifices`, `Chats with strangers` — while the Sou pocket gives the joke a practical underside: Sou tells Rotini to block the strangers in the exact screenshot thread and Rotini answers twenty-one seconds later, `I did dont worry :Raja_Heart:`. Ren's `Chicken pasta` → `Yummy`, Mugen's `reverse card` reading, and Daya's direct crime-summon/FBI bit now live as bounded relationship texture rather than disconnected receipts.
 
-The miner labeled this stable account `Meowk / Alkey` because the source username is `itsalkey` and one local joke says `Tsundere: Alkey`. **That merge was rejected.** Current project reconciliation keeps **Alkey ≠ Meowk**, and the WIKI data layer was repaired accordingly: Meowk's Wall scenes no longer sit on Alkey's owner.
-
-**Woosung / WOO** was deepened in-place rather than duplicated. The new March 28, 2023 direct filing matters because it sharpens the existing contradiction: Woosung is not only a repeated Screenshot Court target who mock-protests when filed; she also carries an exhibit into court herself. Ricochet's protest→head-pat chain, Moon reframing accumulated shame as `famous uwu`, and the Nobu `NOBU` / `TRAITOR` pocket remain lived relationship texture rather than ranked intimacy.
-
-A second hard-lock cleanup was made while reconciling the current WIKI layer: **Akariel ≠ Zyrcant**. Akariel's Wall scenes stay with Akariel; Akariel-only aliases, quotes, relationship beats, and Wall mechanisms were stripped from Zyrcant's older merged shell.
+**HamitteY** was deepened in-place rather than receiving another event-shaped paragraph. The durable read is receipt scavenger / chaos recap / context-optional gallery commentator ↔ serial exit-GIF mock-defendant. Hami uses the exact same exit-door GIF in three authored Wall messages across December 2021–February 2022; by the third use, theatrical flight has become a recognizable reaction habit. Later material strengthens persistence rather than inventing a transformation: a sparse October 2023 filing still draws Ren/Mugen reactions, and in February 2024 Hami says `No context required, it's hilarious as it is lol`, making the long-running artifact-first comedy rule unusually explicit. Existing ShiyaX blame/chaos familiarity, Ghoulie mock-betrayal friendship language, and Noether dessert litigation remain bounded, non-ranked relationship lanes.
 
 ### Public result
 
-**WIKI reader-facing change:** Meowk added as a separate Cast owner; Woosung deepened; Alkey/Meowk and Akariel/Zyrcant identity contamination repaired. Canonical reader commit: **`240c32e3beca1b495a69822262bb20922c673023`**.
+**WIKI reader-facing changes:** existing RotiniLM and HamitteY Cast owners deepened. Final canonical reader commit: **`15f6e6c60772c2546fc484f5d28c93cba9254ea8`**. Rotini first landed in parent reader commit `8bd149a71498c02ab393611219ce29e1b815bcf5`; the final HamitteY commit contains both changes.
 
-Verification for that exact reader commit passed:
-- Build Underlords Wiki **`35419115828`** — Astro build successful.
-- Pages/Preview **`35419115834`** — Pages build, deploy, and status-report jobs all successful.
+Verification for the final reader commit passed:
+- Build Underlords Wiki **`35421536432`** — Astro build successful.
+- Pages/Preview **`35421536429`** — preview build, Pages deploy, and status report all successful.
 
-**MAIN reader-facing change: 0.** MAIN's existing Woosung biography already owns the richer person-first WOO contradiction and relationship texture; Meowk remains too concentrated in one Wall-era source family for a good MAIN biography. MAIN did receive a backstage Alkey catalog repair so the old Meowk→Alkey continuity error is not reintroduced by later integration.
+**MAIN reader-facing change: 0.** Both packets are structured Wall-heavy dossier deepeners. MAIN would get worse, not better, if these were stapled on as fresh receipt paragraphs instead of waiting for whole-person resynthesis. The Photoshoot cadence correction likewise required no reader edit because neither public surface had promoted `annual` into a literal yearly chronology.
 
 ### Duplicates / held material
 
-- Most of the WOO packet corroborates material already public in MAIN: Nobu prosecution, Ricochet teasing/softener, Moon fame framing, and Woosung's self-aware Hall of Shame reputation. The genuinely new structured deepener is WOO directly filing a screenshot herself.
-- Feli and `мoo` / `nixin.` controls yielded no independent person promotion.
-- The 2020 Mugen/Shiki/Snow, 2022 Rummy/Dayadream, and 2025 Mugen/Teri broad samples remain controls rather than repackaged novelty.
+- RealGameJack and thin `S` controls produced no independent A/B person advancement worth publishing.
+- Ryoko's birthday-reminder pass remains too weak for a stable account/person bridge.
+- HamitteY↔Noether dessert material was already substantially owned from Noether's side; Hami only received the person-level reaction habit and relationship support rather than a duplicate Episode.
+- No new discrete Wall Episode was created for Rotini or HamitteY. Their value is cumulative behavior, contradiction, relationships, and Petty Crimes.
 
 ### Attribution / unresolved rails carried forward
 
-- q9 remains globally unresolved / retrieval-limited. The exact WOO March 28 and Mugen→Meowk November 30 attachment routes are sampled-negative/rotate, not global absence claims.
-- WOO's March 28 screenshot establishes POSTED BY WOO only; MADE BY, CAPTURED BY, and FEATURING remain unresolved.
-- Mugen's November 30, 2021 and May 4, 2022 Meowk screenshot pockets establish POSTED BY Mugen plus Meowk as the social target; visual FEATURING remains unresolved.
+- Rotini's linked screenshots remain POSTED BY Rotini only. MADE BY / CAPTURED BY / FEATURING stay unresolved without visual inspection.
+- `Pasta` / `Chicken pasta` remain situational wordplay, not aliases or literal food-preference canon.
+- HamitteY's August 2021 and October 2023 screenshot objects establish POSTED BY Hami only; depicted subjects and creation/capture provenance remain unresolved.
+- Hami's February 2024 `No context required` line is strongly local to the surrounding context offer but has no mechanical Reply edge; the person-level read is safe, a precise reply edge is not.
+- q9 remains globally unresolved / retrieval-limited.
 - Earliest surviving receipts remain earliest surviving, not guaranteed origins.
 - Pooled `Deleted User` remains unresolved and unmerged.
 - Current/export role arrays do not establish appointment chronology.
@@ -55,4 +59,4 @@ Verification for that exact reader commit passed:
 - **Shiki = Shk = yuki1794.**
 - Joke-family and joke-romance language does not become literal relationship canon without separate support.
 
-Run 1371 closes fully review-current on WIKI. The verified reader frontier is **`240c32e3beca1b495a69822262bb20922c673023`**; this integration-state close is reader-neutral.
+Run 1372 closes review-current on WIKI through the two reviewed miner frontiers above. The verified reader frontier is **`15f6e6c60772c2546fc484f5d28c93cba9254ea8`**; this integration-state close is reader-neutral.
