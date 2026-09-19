@@ -1,5 +1,5 @@
 import type { Character } from "./wiki";
-import { allCharacters, castGroups, characterById } from "./cast";
+import { allCharacters, characterById } from "./cast";
 
 type ExtendedCharacter = Character & {
   stableDiscordIds?: string[];
@@ -9,11 +9,16 @@ type ExtendedCharacter = Character & {
 
 const unique = <T>(items: T[]): T[] => [...new Set(items)];
 
-const id = "nintendoshitcube";
+// Hard identity repair: NintendoShitcube is Zoshaa, not a second person.
+// Keep the archive-era Nintendo voice on Zoshaa's canonical Platelet owner.
+const id = "zoshaa";
 const index = allCharacters.findIndex((character) => character.id === id);
-const previous = index >= 0 ? (allCharacters[index] as ExtendedCharacter) : undefined;
+if (index < 0) {
+  throw new Error("Run 1408 expected canonical Zoshaa; refusing to create a separate NintendoShitcube person.");
+}
+const previous = allCharacters[index] as ExtendedCharacter;
 
-const relationships = [...(previous?.relationships ?? [])];
+const relationships = [...(previous.relationships ?? [])];
 const upsertRelationship = (name: string, note: string, href?: string) => {
   const relationshipIndex = relationships.findIndex((relationship) => relationship.name === name);
   const nextRelationship = href ? { name, note, href } : { name, note };
@@ -23,34 +28,34 @@ const upsertRelationship = (name: string, note: string, href?: string) => {
 
 upsertRelationship(
   "Ricochet",
-  "When Ricochet becomes the subject of room chatter, NintendoShitcube can compress the social weather into short instructions — `Quiet @everyone`, `Don’t link, just leave it`, `It’s a one person show` — and then offer the blunt personal read that `He’s known to intimidate`. The useful relationship texture is contextual familiarity with the situation, not authority over Ricochet and not an objective verdict on him.",
+  "When Ricochet becomes the subject of room chatter, Zoshaa can compress the social weather into short instructions — `Quiet @everyone`, `Don’t link, just leave it`, `It’s a one person show` — and then offer the blunt personal read that `He’s known to intimidate`. The useful relationship texture is contextual familiarity with the situation, not authority over Ricochet and not an objective verdict on him.",
   "/characters/ricochet",
 );
 upsertRelationship(
   "Anayss",
-  "Anayss can summon Nintendo with almost no setup as `the c h i l d ~`, joke that Nintendo would help `hide our whaling`, and get the reputation validated when Nintendo answers `Screaming is what I do best😎😎😎`. The rhythm is fluent teasing plus willing escalation, not literal age, wrongdoing, or family rank.",
+  "Anayss can summon Zoshaa's NintendoShitcube-era persona with almost no setup as `the c h i l d ~`, joke that Nintendo would help `hide our whaling`, and get the reputation validated when Zoshaa answers `Screaming is what I do best😎😎😎`. The rhythm is fluent teasing plus willing escalation, not wrongdoing or family rank.",
   "/characters/anayss",
 );
 upsertRelationship(
   "Snow",
-  "Snow can step into the same noise script with `~mutes the child~` after Nintendo proudly announces the screaming specialty. Nintendo's role in the bit is collaborative rather than defensive: the room labels the noise and Nintendo feeds it.",
+  "Snow can step into the same noise script with `~mutes the child~` after Zoshaa proudly announces the screaming specialty. Zoshaa's role in the bit is collaborative rather than defensive: the room labels the noise and Zoshaa feeds it.",
   "/characters/snow",
 );
 
 const next: ExtendedCharacter = {
-  ...(previous ?? {}),
+  ...previous,
   id,
-  name: "NintendoShitcube",
-  aliases: unique([...(previous?.aliases ?? []), "NintendoShitcube"]),
-  stableDiscordIds: unique([...(previous?.stableDiscordIds ?? []), "703429467082719344"]),
-  billing: previous?.billing ?? "guest",
-  role: previous?.role ?? "Archive-era Daycare / Lobby participant",
-  era: previous?.era ?? "2020–2022+",
+  name: "Zoshaa",
+  aliases: unique([...(previous.aliases ?? []), "NintendoShitcube", "nintendoshitcube_"]),
+  stableDiscordIds: unique([...(previous.stableDiscordIds ?? []), "703429467082719344"]),
+  billing: previous.billing,
+  role: previous.role,
+  era: previous.era,
   logline:
-    "A blunt little social-weather station who can reduce a messy room to three useful sentences, then become the noise complaint personally. Peers can cast Nintendo as `the child`; Nintendo answers by advertising the screaming, mock-threatening the elderly, and serving cursed wholesome nonsense with complete confidence.",
+    "Platelet whose NintendoShitcube era can reduce a messy room to three useful sentences and then become the noise complaint personally: Zoshaa gets child-framed by peers, advertises the screaming, mock-threatens the elderly, and serves cursed wholesome nonsense with complete confidence.",
   tags: unique([
-    ...(previous?.tags ?? []),
-    "Archive cast",
+    ...(previous.tags ?? []),
+    "Platelet",
     "Daycare",
     "Lobby",
     "Wall",
@@ -64,7 +69,7 @@ const next: ExtendedCharacter = {
   ]),
   relationships,
   quotes: unique([
-    ...(previous?.quotes ?? []),
+    ...(previous.quotes ?? []),
     "Quiet @everyone",
     "Don’t link, just leave it",
     "It’s a one person show",
@@ -76,34 +81,29 @@ const next: ExtendedCharacter = {
     "I’d share a refreshing glass of boiled mayo with my orb any day ᵘ ʷ ᵘ",
   ]),
   claims: unique([
-    ...(previous?.claims ?? []),
-    "Stable Discord account 703429467082719344 is the reviewed NintendoShitcube owner across the assigned support work, with direct voice spanning the August 2020 Daycare / Lobby pocket and later continuity through 2022.",
-    "NintendoShitcube repeatedly compresses messy live context into short summaries or instructions, but will also say `I don’t even know what they are doing` when the available context runs out instead of pretending omniscience.",
+    ...(previous.claims ?? []),
+    "Hard project canon resolves NintendoShitcube / nintendoshitcube_ as historical aliases of Zoshaa, so stable Discord account 703429467082719344 and this Daycare/Lobby/Wall packet belong to the canonical Zoshaa owner rather than a duplicate person page.",
+    "Zoshaa repeatedly compresses messy live context into short summaries or instructions, but will also say `I don’t even know what they are doing` when the available context runs out instead of pretending omniscience.",
     "A Fall Guys exploit retelling starts as a compact hypothetical and then detonates into all-caps commentary when the moderator joins the exploit, giving the same person both briefing voice and chaos-broadcast voice.",
-    "Anayss and Snow both participate in a recurring child/noise script around Nintendo; Nintendo's own `Screaming is what I do best😎😎😎` turns the peer caricature into self-aware collaborative performance rather than a one-way label.",
-    "Petty Crimes: Nintendo can pair mock menace with cursed-wholesome absurdity — `I ain’t afraid to hit the elderly` on one side, boiled mayo shared with an orb on the other — without either line becoming literal biography.",
+    "Anayss and Snow both participate in a recurring child/noise script around Zoshaa's Nintendo-era voice; `Screaming is what I do best😎😎😎` turns the peer caricature into self-aware collaborative performance rather than a one-way label.",
+    "Petty Crimes: Zoshaa can pair mock menace with cursed-wholesome absurdity — `I ain’t afraid to hit the elderly` on one side, boiled mayo shared with an orb on the other — without either line becoming literal biography.",
   ]),
   antiFanon: unique([
-    ...(previous?.antiFanon ?? []),
-    "NintendoShitcube's `He’s known to intimidate` is NintendoShitcube's direct social read of Ricochet in that local conversation, not an objective canon finding about Ricochet's behavior everywhere.",
-    "The `:nintendoshitcube:` custom emoji is not identity, authorship, or appointment evidence by itself; this dossier is anchored to stable account 703429467082719344 and direct authored text.",
-    "Anayss / Snow calling Nintendo `the child` is social joke-language in these scenes, not independent proof of age, kinship, or a formal Daycare role.",
+    ...(previous.antiFanon ?? []),
+    "NintendoShitcube is Zoshaa under hard project canon. Do not create or preserve a separate NintendoShitcube character owner from this archive packet.",
+    "Zoshaa's `He’s known to intimidate` is a direct social read of Ricochet in that local conversation, not an objective canon finding about Ricochet's behavior everywhere.",
+    "The `:nintendoshitcube:` custom emoji is not identity, authorship, or appointment evidence by itself; the identity bridge comes from hard project canon plus the stable-account archive work.",
+    "Anayss / Snow calling Zoshaa `the child` is social joke-language in these scenes. Zoshaa is independently a canon Platelet; do not use these jokes to manufacture an exact age, kinship, or a formal Daycare role.",
     "The `hide our whaling` line is a joke scenario, not evidence of wrongdoing. The boiled-mayo line is absurdist language, not proof of actual food preference. An unidentified long-neck animal remains unidentified because the preceding media was not inspected.",
-    "The Fall Guys story is an authored retelling. It does not establish ownership of any game account, exploit participation, moderation status, or a separate in-game identity for NintendoShitcube.",
+    "The Fall Guys story is an authored retelling. It does not establish ownership of any game account, exploit participation, moderation status, or a separate in-game identity for Zoshaa.",
     "References to Gren and Galahad are planning-context references only and do not establish relationship closeness, hierarchy, or responsibility for their choices.",
     "Stable account 459696170759880745 belongs to Ricochet / dragonrichard in current hard identity canon. Miner shorthand that calls that account `Rich` does not merge Ricochet with the separate Rich / DragonRich owner.",
     "Any nearby attachment establishes POSTED BY only unless independent support earns MADE BY, CAPTURED BY, or FEATURING. q9 remains retrieval-limited.",
   ]),
 };
 
-if (index >= 0) allCharacters[index] = next;
-else allCharacters.push(next);
+allCharacters[index] = next;
 characterById.set(id, next);
-
-const archiveCastGroup = castGroups.find((group) => group.id === "archive-cast");
-if (archiveCastGroup && !archiveCastGroup.characterIds.includes(id)) {
-  archiveCastGroup.characterIds.push(id);
-}
 
 // Same Daycare tail advances the Funcle / food-care role for stable account
 // 459696170759880745. Current hard canon files that account under Ricochet /
