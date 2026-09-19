@@ -1,3 +1,4 @@
+import "./integrator-cast-run1390-intake";
 import { allCharacters, characterById } from "./cast";
 import type { Character } from "./wiki";
 
