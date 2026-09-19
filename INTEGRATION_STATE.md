@@ -1,51 +1,37 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-18 — Run 1361_
+_Last updated: 2026-09-18 — Run 1362_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling **live** miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
 
-## Current durable WIKI close — Run 1361
+## Current durable WIKI close — Run 1362
 
-Run 1361 enumerated **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 backlog, and 0 overdue branches**. Both Club-Only recovery-priority lanes were current. **6 `pending_publication` families** remained reviewed MAIN whole-person resynthesis debt rather than unread mining.
+Run 1362 enumerated **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 backlog, and 0 overdue branches**. Both Club-Only recovery-priority lanes remained current. **6 `pending_publication` families** remained reviewed MAIN whole-person resynthesis debt rather than unread mining.
 
-The controlling MAIN ledger may already show a later run's opening census; that newer census controls live pending status. This file records the WIKI reader/publication result and reviewed material completed in Run 1361.
+The only opening unconsumed lane was Wall. It was reviewed checkpoint-first and intake-only from `7527df63ba7c7637184a79c33d4696ec32a0ae5c` through `5fd57ccae28259593e5469d3575e1a3d61e6f463`. MAIN's controlling ledger now records that frontier as consumed.
 
 ### Reviewed miner material
 
-- **Daycare** reviewed through `f5a086581e2e5250d22023cd72a54ddb022b1858`: Moon's mature owner gained recurrence for the all-seeing-observer / wrong-room-self-own contradiction plus Ansun's comfortable mock-menace → cute-soft-landing teasing. Churro familiarity remains a seed; Lobby quiet remains Lobby-only; no generic Daycare→Whiskey migration thesis was published.
-- **Wall** reviewed through `7527df63ba7c7637184a79c33d4696ec32a0ae5c` for the published Alkey deepener: audience-aware curtain-call timing with Mugen, reciprocal roast safety with Ren, and sincere old-chaos nostalgia. Alkey remains `264889543365230614` and **Alkey ≠ Meowk ≠ Key**.
-- **Louvre** reviewed through `c4bea07fbbaad7dac4705de21922687683ee2a4e`: Sye can be useful while another person's creative work is mutable, but the secure packet supports one-workshop feedback texture only. The stronger 2023 communal-doodle/version-control thesis remains held behind source-custody recovery.
-- **Late Wall tail** reached `5fd57ccae28259593e5469d3575e1a3d61e6f463` after the verified reader publication. Vanness / `varshoo` (`714781719357554718`) has a useful emerging Wall read — gentle disapproval, warm acceptance, self-aware receipt-court participation, and self-deprecation once caught — but still lacks enough non-Wall breadth for a person-first public owner. Banked, not published. Pooled Deleted User media provenance remains unresolved.
+**Vanness** — stable account `714781719357554718`, username `vanness0492`, rendered `Vanness` — gains a materially stronger Wall-local person read across 15 authored messages and 3 direct attachments in the surviving 2021-07-28 → 2021-08-10 span.
 
-### WIKI public result
+The cumulative axis is **receipt router / direct filer / incredulous captioner ↔ theatrical blame-redirecting defendant**. Vanness can route an exhibit to Mugen, personally drop Wall objects, frame them with short setup/outro lines, and then perform immediate alternate-suspect defense when ShiyaX turns the Wall onto him. The Aug. 2 object gets exact-object uptake from Mugen via a mechanical Reply `:Hehe:`. The bounded Vanness↔Mugen lane is therefore receipt-routing / prosecution-audience familiarity, non-ranked.
 
-The canonical Run 1361 reader frontier is **`7b80b3f034ae2da93d4285e83ca1fefacf4333f9`**.
+Petty Crimes candidates banked for future person-first ownership include the Kahoot fake-name lineup, `ITS GABU WHO SUCKED IT DRY, NOT MEEE`, object-first `Why` / `In the world would anyone have this idea`, and theatrical `Im too sad to play anymore:Cursed:` game despair.
 
-**Moon** now carries the recurrent contradiction cleanly: `I am a moon,so i see all` energy can coexist with `Wait this isn't main chat`. Ansun's `What a tsundere lol` → Moon's `How dare you-` → bunny-poke landing is recorded as comfortable teasing, not romance, diagnosis, or relationship rank.
+### Public result
 
-**Alkey** now carries the audience-aware side of his comedy: after the chicken-duel line, Mugen's popcorn becomes a cue and `I aim to please` plus the penguin bow becomes a deliberate curtain call. Ren's next-day counter-roast stays reciprocal play rather than feud, while `The good ol' days` / `Omg Nostalgia` keeps the roast-gremlin from flattening into permanent deadpan.
+**WIKI reader-facing changes: 0 intentionally.** The new packet is useful and publishable-quality character texture, but the current public record still leaves Vanness narrowly concentrated in a short Wall span. Creating a Cast owner now would turn receipt mechanics into the organizing spine of the person rather than a supporting scene. The material is therefore banked for a future owner once another surface or materially broader person axis gives the dossier a whole-person center.
 
-Public modules:
+**MAIN reader-facing changes: 0 intentionally.** The same reason applies even more strongly to MAIN's richer biography surface. No source-verification/Astro/built-output/deployment success is claimed for unchanged reader bytes on either surface.
 
-- `src/data/integrator-cast-run1361-daycare-moon.ts`
-- `src/data/integrator-cast-run1361-wall-alkey.ts`
+### Attribution / unresolved rails
 
-**Verification:**
-
-- Build Underlords Wiki **`35409238080`** — **SUCCESS**
-- Deploy Underlords Wiki Preview / Pages **`35409238059`** — **SUCCESS**
-
-### MAIN result
-
-**MAIN reader-facing changes: 0 intentionally.** Moon and Alkey already have mature MAIN owners, and another dated receipt append would work against whole-person biography synthesis. Sye and Vanness are banked. No MAIN reader build/deployment success is claimed for unchanged reader bytes.
-
-### Held / unresolved
-
-- `RH-2026-09-18-DONT-LOSE-THE-DOODLE-SOURCE-CUSTODY` remains open; do not relabel the stronger 2023 communal-doodle scene as Louvre evidence until custody is recovered.
-- Vanness authored the reactions in the late Wall packet; pooled Deleted User attachments remain pooled-user posts. MADE BY / CAPTURED BY / FEATURING and identity undercarriage remain unresolved.
-- Moon POSTED the bunny-poke GIF; no maker/capture/featuring inference was added.
-- Ansun's `tsundere` line remains teasing, not a diagnosis.
-- The prior MAIN Alkey/Meowk identity-routing repair remains separate MAIN retry debt; WIKI's canonical owner split is already correct.
+- Vanness's three direct objects are **POSTED BY Vanness**. MADE BY / CAPTURED BY / FEATURING remain unresolved.
+- The Aug. 9 attachment's immediate `Why` / `In the world would anyone have this idea` sequence is strong probable same-object framing by timing and author continuity, not a mechanical Reply edge.
+- `ITS GABU WHO SUCKED IT DRY, NOT MEEE` is Vanness's mock defense/accusation only; it does not independently establish Gabu conduct or image contents.
+- Pooled `Deleted User` remains unresolved and unmerged.
+- q9 exact Vanness-object lane is sampled-negative / rotate; no global uniqueness or native-original claim was made.
+- Timestamp-looking filenames remain retrieval handles rather than certified capture chronology.
 
 ### Hard rails carried forward
 
@@ -57,4 +43,4 @@ Public modules:
 - POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct attribution claims.
 - Current/export role arrays do not establish appointment chronology.
 
-`INTEGRATION_FINAL_2026-09-18_RUN1361.md` is the durable WIKI close note for this run. A subsequent MAIN census may legitimately be newer; where live miner pending state differs, MAIN's current ledger controls.
+`INTEGRATION_FINAL_2026-09-18_RUN1362.md` is the durable WIKI close note for this run. MAIN's current ledger controls live miner pending/consumption state.
