@@ -182,6 +182,7 @@ import "./integrator-cast-run1228-wall-support-tech";
 import "./integrator-cast-run1239-daycare-wall";
 import "./integrator-cast-run1247-wall-realgamejack";
 import "./integrator-cast-run1266-wall-mimi";
+import "./integrator-cast-run1360-daycare-zoshaa";
 
 type LooseRecord = Record<string, unknown>;
 type Gag = { id: string; name: string; logline: string };
