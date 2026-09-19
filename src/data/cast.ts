@@ -63,6 +63,55 @@ if (vannessIndex >= 0) {
   allCharacters.push(vannessCharacter);
 }
 
+// Run 1364 Wall synthesis: Miihi's tiny prose footprint still has a very clear job.
+const miihiIndex = allCharacters.findIndex((character) => character.id === "miihi");
+const miihiCharacter: Character = {
+  id: "miihi",
+  name: "Miihi",
+  aliases: ["stephany_.", "程瀟 Miihi (Milk)"],
+  billing: "guest",
+  role: "VIP · archive-era Wall participant",
+  era: "2020–2021",
+  logline: "Miihi is a low-prose receipt carrier with excellent gallery instincts: she can drop the artifact with almost no narration, tag the people who need to see it, then become one of the loudest people in the room when somebody else files theirs.",
+  tags: ["VIP", "Wall", "Receipt filer", "Low prose", "Reaction timing", "Shared-context handoff", "Petty Crimes"],
+  stableDiscordIds: ["253897195290361856"],
+  relationships: [
+    {
+      name: "Anayss",
+      note: "Anayss can reply to an older filing with little more than `@Miihi evidence`, and Miihi answers as though the missing setup is already mutually understood. It reads as comfortable receipt-handoff / shared-context familiarity, not a friendship rank.",
+      href: "/characters/anayss",
+    },
+  ],
+  quotes: ["LMFAOOOO", "WHYYYYYY", ":Cursed:", "dem snow.. what a ride h e h"],
+  claims: [
+    "Stable account 253897195290361856 / stephany_. authors nine surviving Wall messages and directly posts three surviving attachments in the reviewed December 2020 to August 2021 span.",
+    "Miihi repeatedly uses the artifact itself as the social sentence: a December filing is posted blank, a March filing directly tags Mob/BAPE and Woohyuk, and a third direct attachment follows in April without turning the room into a narrated case report.",
+    "In the May 27 reaction pocket, Mugen's `:BOP2:`, Baby Lyssa's keyboard smash, and Miihi's `WHYYYYYY` then `:Cursed:` form a strongly probable shared uptake wave around Ren's attachment; Miihi's messages are not mechanical Reply edges.",
+    "Anayss's August 24 true reply `@Miihi evidence` and Miihi's later `dem snow.. what a ride h e h` support a lived shared-context handoff without establishing relationship rank or the visual contents of the underlying media.",
+  ],
+  antiFanon: [
+    "Miihi and Korea are separate stable accounts. Their shared `(Milk)` display-name suffix is not an identity bridge.",
+    "Miihi's three direct attachments establish POSTED BY Miihi. MADE BY, CAPTURED BY, and FEATURING remain unresolved unless separately supported.",
+    "The May 27 timing supports probable same-pocket uptake, not a mechanical reply relationship that is absent from the export.",
+    "Current/export VIP or 18+ role arrays do not establish appointment chronology or personality.",
+    "Timestamp-looking filenames are retrieval handles, not certified capture dates or device ownership.",
+  ],
+};
+
+if (miihiIndex >= 0) {
+  const miihi = allCharacters[miihiIndex];
+  allCharacters[miihiIndex] = {
+    ...miihi,
+    ...miihiCharacter,
+    aliases: [...new Set([...(miihi.aliases ?? []), ...miihiCharacter.aliases!])],
+    tags: [...new Set([...(miihi.tags ?? []), ...miihiCharacter.tags!])],
+    relationships: miihiCharacter.relationships,
+    quotes: [...new Set([...(miihi.quotes ?? []), ...miihiCharacter.quotes!])],
+  };
+} else {
+  allCharacters.push(miihiCharacter);
+}
+
 export const castGroups = previousGroups;
 export const characterById = new Map(allCharacters.map((character) => [character.id, character]));
 export const primaryGroupByCharacterId = new Map(
