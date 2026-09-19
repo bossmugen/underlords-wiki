@@ -1,3 +1,4 @@
+import "./integrator-cast-run1361-wall-alkey";
 import { allCharacters, characterById } from "./cast";
 import type { Character } from "./wiki";
 
