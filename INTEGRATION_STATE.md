@@ -1,12 +1,22 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-18 — Run 1372_
+_Last updated: 2026-09-18 — Run 1373_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling live miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
 
-## Current durable WIKI close — Run 1372
+## Current durable WIKI close — Run 1373
 
 The mandatory full census closes **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs**, **0 pending review**, **0 backlog**, and **0 overdue**. Both Club-Only recovery-priority lanes remain current. Six older reviewed MAIN whole-person resynthesis families remain `pending_publication`; these are publication debt, not unread mining.
+
+Every active miner HEAD matched both `last_seen_sha` and `last_consumed_sha` in MAIN's controlling ledger. There were therefore **0 advanced/unconsumed intake deltas**, **0 consumed-SHA advances**, **0 genuinely new findings**, **0 duplicate-family changes**, and **0 conflict/rabbit movements** this run.
+
+**WIKI reader-facing changes: 0. MAIN reader-facing changes: 0.** No reader-facing bytes changed, so no new WIKI Astro/Pages build or deployment and no MAIN source-verification/Astro/built-output build or deployment were run or claimed. Nothing was intentionally routed to only one public surface.
+
+The verified WIKI reader frontier remains **`15f6e6c60772c2546fc484f5d28c93cba9254ea8`** from Run 1372. Attribution and identity rails remain unchanged: earliest surviving is not guaranteed origin; pooled `Deleted User` remains unresolved; current/export role arrays do not establish appointment chronology; POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct; and joke-family or joke-romance language does not become literal relationship canon without separate support.
+
+## Previous durable WIKI close — Run 1372
+
+The mandatory full census closed **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs**, **0 pending review**, **0 backlog**, and **0 overdue**. Both Club-Only recovery-priority lanes remained current. Six older reviewed MAIN whole-person resynthesis families remained `pending_publication`; these were publication debt, not unread mining.
 
 ### Branches reviewed
 
@@ -59,4 +69,4 @@ Verification for the final reader commit passed:
 - **Shiki = Shk = yuki1794.**
 - Joke-family and joke-romance language does not become literal relationship canon without separate support.
 
-Run 1372 closes review-current on WIKI through the two reviewed miner frontiers above. The verified reader frontier is **`15f6e6c60772c2546fc484f5d28c93cba9254ea8`**; this integration-state close is reader-neutral.
+Run 1372 closed review-current on WIKI through the two reviewed miner frontiers above. The verified reader frontier is **`15f6e6c60772c2546fc484f5d28c93cba9254ea8`**; this integration-state close is reader-neutral.
