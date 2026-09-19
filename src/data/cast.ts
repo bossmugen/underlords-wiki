@@ -11,7 +11,7 @@ const vannessIndex = allCharacters.findIndex((character) => character.id === "va
 const vannessCharacter: Character = {
   id: "vanness",
   name: "Vanness",
-  aliases: ["vanness0492"],
+  aliases: ["vanness0492", "varshoo"],
   billing: "guest",
   role: "Archive-era cast",
   era: "2021",
@@ -33,7 +33,7 @@ const vannessCharacter: Character = {
     "Im too sad to play anymore:Cursed:",
   ],
   claims: [
-    "Stable account 714781719357554718 / vanness0492 authors fifteen surviving Wall messages and directly posts all three surviving attachments in the reviewed July 28 to August 10, 2021 span.",
+    "Stable account 714781719357554718 / vanness0492, also previously rendered `varshoo` in the reconciled public state, authors fifteen surviving Wall messages and directly posts all three surviving attachments in the reviewed July 28 to August 10, 2021 span.",
     "Across multiple pockets Vanness behaves as a receipt router and direct filer: he points Mugen toward a Wall item, posts his own media, and repeatedly supplies immediate textual framing around the object.",
     "When ShiyaX posts a tagged Wall object, Vanness mechanically replies `ITS GABU WHO SUCKED IT DRY, NOT MEEE`, giving the filing instinct a matching theatrical-defendant side without independently establishing Gabu's conduct.",
     "On August 9 Vanness posts an attachment, follows it 2.866 seconds later with `Why`, then continues with `In the world would anyone have this idea`; the timing and same-author continuity make same-pocket framing strongly probable even though those follow-ups are Default messages rather than Reply edges.",
