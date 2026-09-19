@@ -1,3 +1,4 @@
+import "./integrator-cast-run1421-whiskey-milo-wall-bea";
 import type { Character } from "./wiki";
 import { allCharacters, castGroups, characterById } from "./cast";
 
