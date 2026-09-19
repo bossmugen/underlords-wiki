@@ -1,12 +1,12 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-19 — Run 1408 / reconciled Run 1407 close_
+_Last updated: 2026-09-19 — Run 1409_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` remains the controlling live miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
 
 ## Current durable close
 
-Mandatory full census: **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 unread pending review, 0 backlog, and 0 overdue**. Both Club-Only recovery-priority lanes remain current.
+Mandatory full census: **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 unread pending review, 0 backlog, and 0 overdue**. Opening and closing active-ref checks were stable. Both Club-Only recovery-priority lanes remain current.
 
 There are **9 reviewed pending-publication families**: eight older MAIN whole-person/resynthesis debts plus the current Wall/MAIN Shiki verification debt. They are not unread mining.
 
@@ -15,21 +15,25 @@ Current reviewed/consumption frontiers:
 - Whiskey consumed through `81131208e30dae5b30d1d1861c5ec3dc860ba61c`.
 - Wall fully reviewed through `5f468701888e65bf1a4d886269ce6209d5d545e6`, with no evidence re-review required; its consumed cursor remains behind current head only because the accepted MAIN Shiki reader change has not cleared MAIN verification.
 
+No miner head advanced during Run 1409 and no consumed SHA advanced.
+
 ## Current WIKI reader frontier
 
 Final combined reader frontier: **`c6df175a529c0b38c3d3aca677d27ce74a4d6403`**.
 
-It contains two hard-canon-aligned reader changes:
-- **Zoshaa = NintendoShitcube / `nintendoshitcube_`**. The archive-era Nintendo packet is folded into canonical Zoshaa / Platelet ownership; the active integration path no longer creates a standalone NintendoShitcube person.
+It contains the latest hard-canon-aligned reader changes, including:
+- **Zoshaa = NintendoShitcube / `nintendoshitcube_`**. The archive-era Nintendo packet is folded into canonical Zoshaa / Platelet ownership; the active integration path does not create a standalone NintendoShitcube person.
 - **Ghøstt / Ghostt** has a structured dossier aligned to hard canon that Ghøstt is current **Staff**, without inventing an appointment date from current/export role arrays.
 
-Verification on that exact SHA:
+Verification on that exact SHA remains:
 - Build Underlords Wiki `35459255766` — **success**;
 - Deploy Underlords Wiki Preview / Pages `35459255724` — **success**.
 
+Run 1409 made **no WIKI reader change**, so no new WIKI build or Pages deployment was required or claimed.
+
 The same Daycare family keeps stable account `459696170759880745` on **Ricochet / dragonrichard, not Rich / DragonRich**. Momo's Wall deepener remains public under the canonical owner.
 
-## Person-level gains
+## Person-level gains already current
 
 **Zoshaa / NintendoShitcube:** terse social-weather summaries coexist with willing noise escalation. Anayss and Snow can cast the Nintendo-era persona as `the child`; Zoshaa answers by advertising the screaming and feeding the bit. The material belongs to Zoshaa's existing Platelet owner, not a second NintendoShitcube page.
 
@@ -39,7 +43,9 @@ The same Daycare family keeps stable account `459696170759880745` on **Ricochet 
 
 ## MAIN verification debt
 
-No new MAIN reader publication is claimed in this reconciled close. The inherited accepted Shiki reader deepener remains blocked by MAIN runner infrastructure: production run `35458337741` failed, and dedicated source/Astro/built-output verification run `35458657320` repeatedly failed before test steps began with no executed steps. Wall review is complete; only verification/publication debt remains.
+No new MAIN reader publication is claimed in Run 1409. The inherited accepted Shiki reader deepener remains blocked by MAIN runner infrastructure: production run `35458337741` failed, and dedicated source/Astro/built-output verification run `35458657320` has now failed **four attempts** before test steps began. Run 1409 retried it as attempt 4; latest job `105941685816` completed failure with `steps:null`. Source verification, Astro build, and built-output verification therefore never began on that attempt.
+
+Wall review is complete; only verification/publication debt remains. Do not re-review the Wall delta. The controlling MAIN ledger must keep Wall's consumed cursor behind current head until the accepted Shiki change clears its gate.
 
 ## Held / unresolved material
 
