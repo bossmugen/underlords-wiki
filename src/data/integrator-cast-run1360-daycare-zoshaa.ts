@@ -1,3 +1,4 @@
+import "./integrator-cast-run1361-daycare-moon";
 import { allCharacters, characterById } from "./cast";
 import type { Character } from "./wiki";
 
