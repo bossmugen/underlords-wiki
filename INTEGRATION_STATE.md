@@ -1,35 +1,39 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-19 — Run 1426_
+_Last updated: 2026-09-19 — Run 1427_
 
-MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling live miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies. Prior run history remains available in git history and the paired MAIN `integration-runs/` records; this file tracks the current durable frontier.
+MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling live miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies. Prior run history remains available in git history and the paired MAIN `integration-runs/` records; this file tracks the current durable WIKI frontier.
 
-## Run 1426 durable close
+## Run 1427 durable close
 
-The full branch census closes at **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 unread pending review, 0 backlog, and 0 overdue**. No active miner head advanced beyond the Run 1425 reviewed/consumed frontiers during this pass. Both Club-Only recovery-priority lanes remain current. There are still **9 reviewed pending-publication families**, all MAIN whole-person/resynthesis/source-custody or verification debt rather than unread mining.
+The full miner census remains **51 tracked identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 backlog, and 0 overdue**. Both Club-Only recovery-priority lanes remain current. Four moving intake families were reviewed through stable heads in this run: Daycare `a2116d21c9a74aa456884b252ed2db38eeb3208f`, Louvre `d1989a06999bc80e04a089f011b1d95677365ee8`, Whiskey `bb23802341cda0eefcbbb56b6b31a5f35cba0015`, and Wall `090994aa355efab22c2d7369369cb339d2f668a8`.
+
+A newer MAIN census (Run 1428) landed concurrently while this review was closing, so Run 1427 did not overwrite that controlling ledger wholesale. MAIN `integration-runs/RUN_1427.md` is the durable handoff for the reviewed frontiers. Daycare, Louvre, and Whiskey are review-complete and eligible for consumed-SHA advancement; Wall is fully reviewed through `090994aa...` but its contiguous consumed cursor remains parked behind the inherited accepted MAIN Shiki verification gate. **Do not reread the reviewed Wall tail.**
 
 ### WIKI reader result
 
-**Reader-facing changes this run: 0.** No new WIKI copy was justified and no duplicate/corroboration material was appended. The latest verified reader frontier remains **`383eb5bc5e9753d309065f9776784d1c36c9dea4`**, where Queen Elsa / Vuvnel / Nel received a compact structured owner and DarkAsrai received the replay-department / ordinary-documentarian deepener.
+The final verified/deployed reader frontier is **`4a69fe66e0ccf076277645330e729c78887fe222`**.
 
-Verification for that latest reader frontier remains:
+Queen Shimoko (`825953265430691860`) was reconciled into the existing owner rather than duplicated. Her reviewed Wall shape is deliberately compact: low-volume, emote-forward gallery riffer ↔ tease-safe filing target. Mugen can file her with `My koi @Queen Shimoko finally made it to the wall`, Shimoko stays inside the bit and later answers `:Hehe:`, then contributes `Crab booty omgsh:Laugh:` to another screenshot pocket. A Korea `pineapple buttplug ss` message receives Shimoko's exact true-reply of two spit emotes. `My koi` remains affectionate social wording only; it is not romance, family, ownership, exclusivity, or a closeness rank. Uninspected images remain attribution-bounded.
 
-- **Build Underlords Wiki `35473475922`: success.**
-- **Deploy Underlords Wiki Preview / Pages `35473475930`: success**, including build, deployment, and report.
+Rookie Cookie / `.poogie.` / contextual `Rooks` (`348307948566478867`) was deepened in her existing canonical owner rather than split into a sequel. The new Whiskey-navigation material gives her a clean change-over-time line: first she is oriented to Whiskey as general chat; later she explains Wall as `When we catch people say dumb stuff uwu`; then she reassures Efi's two-pretzel anxiety with `No it’s not dumb cause I’d do it myself` before redirecting the room to Whiskey; by December an emote plus the channel link is enough. The person-level mechanism is **validate the person, correct the venue**. That is social fluency and house-language competence, not proof of moderator / Officer / Staff authority. The RV `ily for saving these` beat supports warmth toward shared embarrassing/funny history in that scene, not blanket archival consent or a global closeness rank.
 
-No fresh WIKI Astro/Pages build or deployment was necessary for unchanged reader bytes in Run 1426.
+Daycare's TonyTonyChopper, Louvre's Snow/Moon help sequence, and Wall's Miihi tail were duplicate/corroboration by meaning: their person reads are already materially public. They were not rewarded with new receipt paragraphs merely because the miner produced new sidecars.
 
-### Reviewed frontier
+### Verification / deployment
 
-- Daycare remains consumed through **`5ada265195239bf9acbe4df43de8b55aaf50c454`**.
-- Whiskey remains consumed through **`771bd333de3a4895dbbdfa46e95414d97bf889db`**.
-- Wall remains fully reviewed through **`8d518389da220a5f146b6ad956d38c987772038f`**. **Do not reread through that head.** Its contiguous `last_consumed_sha` remains **`01cf4664d8e5130052874789adbfda382935b1a3`** solely because the inherited accepted MAIN Shiki reader is still verification-blocked.
+Final reader verification passed:
 
-The carried Wall decisions remain unchanged: canonical Han/Nai is already materially public; the Sou `protectbutt` → `#PROTECTBUTT2021` callback is banked for future person-shaped folding; Ainu / 愛Nuα remains a bounded one-scene media-reference recognizer / concise-labeler micro-profile candidate; Jumanji and Lithium remain HOLD; global q9 remains open.
+- **Build Underlords Wiki `35476444116`: success.**
+- **Deploy Underlords Wiki Preview / Pages `35476444128`: success**, including build, deployment, and report jobs.
 
-### MAIN verification blocker
+Two intermediate failures were protective architecture guards, not final publication failures. The first caught an existing Queen Shimoko owner before a Queen Shimoko II could be created. The second exposed import-order timing before a Rookie Cookie sequel could be created. The final implementation reconciles Queen in place and deepens Rookie's existing canonical owner directly; the final reader then passed the full build/deploy suite.
 
-Dedicated MAIN verifier run **`35458657320`** was retried again. **Attempt 19 failed before any source-verification, Astro-build, or built-output-verification step was created or executed**; latest job **`105982709036`** returned `steps=null`. This is still runner/provisioning debt, not a source-verification, Astro, built-output, or WIKI content failure. Retry verification, not Wall mining.
+### MAIN surface result
+
+**MAIN reader-facing changes from Run 1427: 0.** Tony, Snow/Moon, and Miihi were duplicate/corroboration; Queen Shimoko is too Wall-bounded and low-volume to justify a rich MAIN biography; Rookie's new material is excellent structured WIKI relationship/social-navigation material but does not justify another receipt-shaped MAIN paragraph. No MAIN reader build/deployment is claimed for unchanged bytes.
+
+The inherited accepted MAIN Shiki reader remains verification-blocked by runner/provisioning infrastructure. Dedicated verifier run `35458657320` was retried again; **attempt 20**, job **`105985550414`**, failed before any verification step existed (`steps=null`). This is not a source-verification, Astro-build, built-output-verification, or WIKI content failure. Retry verification, not Wall mining.
 
 ## Hard identity / role rails carried forward
 
