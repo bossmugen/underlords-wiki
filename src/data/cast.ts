@@ -112,6 +112,69 @@ if (miihiIndex >= 0) {
   allCharacters.push(miihiCharacter);
 }
 
+// Run 1364 late Wall synthesis: Akariel volunteers for Screenshot Court, then flees theatrically from the institution she joined on purpose.
+const akarielIndex = allCharacters.findIndex((character) => character.id === "akariel");
+const akarielCharacter: Character = {
+  id: "akariel",
+  name: "Akariel",
+  aliases: ["Akariel™", "akariel_star"],
+  billing: "guest",
+  role: "Archive-era Wall participant",
+  era: "2021",
+  logline: "Akariel is the Wall participant who asked to be admitted, spent the year filing her own life scraps, and then developed a recurring `*runs*` escape animation whenever the room got dangerous enough to be funny.",
+  tags: ["Wall", "Self-filer", "Life-scrap curator", "Mock fugitive", "Tofu", "Petty Crimes"],
+  stableDiscordIds: ["257294164746698763"],
+  relationships: [
+    {
+      name: "Tofu",
+      note: "Their Wall rhythm is rapid bit-extension: Akariel supplies a premise or receipt, Tofu makes it worse, and Akariel immediately accepts the new frame. `Starting bid: 5¢` and the joking `Satan` / soul-taking exchange belong to teasing familiarity, not literal ownership, religion, or relationship rank.",
+      href: "/characters/tofu",
+    },
+    {
+      name: "Mugen",
+      note: "Mugen true-replies to separate Akariel filings months apart, including `Tru lub` on Akariel's own boyfriend-conversation filing and `:Opossum_AAAHH:` on a later object. Safe ceiling: repeat receipt-audience / amused-responder familiarity.",
+      href: "/characters/mugen",
+    },
+  ],
+  quotes: [
+    "put me on the wall of shame 😩",
+    "fair lmaooo",
+    "The word of the day is ass",
+    "naaah",
+    "Everytime someone calls snow old",
+    "-runs-",
+    "lmao i remember i have  a gif saved of the whole bee movie",
+  ],
+  claims: [
+    "Stable account 257294164746698763 / akariel_star authors 48 surviving Wall messages across the reviewed January to December 2021 span, including nine direct attachment-bearing posts.",
+    "Akariel explicitly asks to be put on the Wall on January 17, accepts Ren's joking `earn your place` gatekeeping with `fair lmaooo`, and later repeatedly supplies Wall objects herself.",
+    "The Tofu lane repeats across several scenes as reciprocal phrase-completion, receipt-banter, and teasing escalation, supporting comfortable shared-bit familiarity without establishing relationship rank.",
+    "Akariel's later repeated stage-direction flight (`*runs*`, `-runs-`) sits in comic tension with her earlier voluntary Wall self-nomination and ongoing self-filing.",
+    "On July 25 Akariel posts an object she labels as a conversation with `my BF`; that scene-local self-description is not extended into an identity or relationship timeline beyond the scene.",
+  ],
+  antiFanon: [
+    "January 17, 2021 is the earliest surviving self-nomination used here, not guaranteed Wall or account origin.",
+    "`my BF` is Akariel's own scene-local label. The other person's identity, duration of the relationship, and current status remain unresolved.",
+    "Tofu's `Satan`, soul-taking, and `Starting bid` lines are jokes, not religion, supernatural canon, ownership, governance, or formal role language.",
+    "Akariel's direct objects establish POSTED BY Akariel. MADE BY, CAPTURED BY, and FEATURING remain separate and unresolved absent independent support.",
+    "Generic `image0.png` / `image1.png` filenames are non-bridging provenance collisions.",
+  ],
+};
+
+if (akarielIndex >= 0) {
+  const akariel = allCharacters[akarielIndex];
+  allCharacters[akarielIndex] = {
+    ...akariel,
+    ...akarielCharacter,
+    aliases: [...new Set([...(akariel.aliases ?? []), ...akarielCharacter.aliases!])],
+    tags: [...new Set([...(akariel.tags ?? []), ...akarielCharacter.tags!])],
+    relationships: akarielCharacter.relationships,
+    quotes: [...new Set([...(akariel.quotes ?? []), ...akarielCharacter.quotes!])],
+  };
+} else {
+  allCharacters.push(akarielCharacter);
+}
+
 export const castGroups = previousGroups;
 export const characterById = new Map(allCharacters.map((character) => [character.id, character]));
 export const primaryGroupByCharacterId = new Map(
