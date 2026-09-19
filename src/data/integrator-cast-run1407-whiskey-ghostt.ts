@@ -44,12 +44,13 @@ const next: ExtendedCharacter = {
   aliases: unique([...(previous?.aliases ?? []), "Ghostt", "Ghøstt..", "ghostt.wicked"]),
   stableDiscordIds: unique([...(previous?.stableDiscordIds ?? []), "315245494051930113"]),
   billing: previous?.billing ?? "legacy",
-  role: previous?.role ?? "Archive-era UL cast",
+  role: "Staff",
   era: previous?.era ?? "2021+",
   logline:
     "Ghøstt treats correction like an opening bid. A mangled word can become canon instead of getting fixed, a peer can accuse him of saying something every day and receive table flips instead of a rebuttal, and a stretched-out `ghooooost` can apparently carry enough recognition to work on sight.",
   tags: unique([
     ...(previous?.tags ?? []),
+    "Staff",
     "Archive cast",
     "Whiskey",
     "Wall",
@@ -71,6 +72,7 @@ const next: ExtendedCharacter = {
   claims: unique([
     ...(previous?.claims ?? []),
     "Stable Discord account 315245494051930113 / source username `ghostt.wicked` is the reviewed Ghøstt owner for this packet; Ghostt remains a separate person from Ghoulie / Baby Lyssa.",
+    "Current Staff is hard project canon for Ghøstt. This is a present-role filing only; the reviewed packet does not establish an appointment date or promotion chronology.",
     "Ghøstt's strongest current person mechanism is `too late, it's canon now`: low-stakes correction, verbal distortion, and peer reputation often become material to extend rather than records he urgently cleans up.",
     "On February 20, 2021, Ghøstt technically replies to Gilli's exact screenshot with `No you had it right it’s porpcorn now lmfao`; Gilli later protests `I DIDNT SAY IT LOL`. The humor is Ghøstt ratifying the disputed form as the new correct one.",
     "On September 10, 2021, Ghøstt writes `Gilli really said I say this everyday` and follows 15.305 seconds later with two table-flip emotes. The unidentified habit is left unidentified; the useful continuity is that Gilli can make Ghøstt's mannerisms public joke material and Ghøstt stays in the same comic register.",
@@ -82,6 +84,7 @@ const next: ExtendedCharacter = {
   antiFanon: unique([
     ...(previous?.antiFanon ?? []),
     "Ghostt / Ghøstt is not Ghoulie / Baby Lyssa. Similar-looking ghost-language does not merge their identities.",
+    "Ghøstt is current Staff under hard project canon. Do not infer when that appointment happened from export-time/current-role arrays or this room-local packet.",
     "The February 20 screenshot pixels are not independently inspectable in the current retrieval layer. Ghøstt's technical reply supports the word-game; do not claim the image visibly contains `porpcorn`.",
     "`Gilli really said I say this everyday` does not identify what `this` was. Keep the specific habit unresolved.",
     "The direct Ghøstt-authored prose advanced in this pass comes from Wall. Whiskey contributes the previously persisted Jordayy recognition lane and the attempted neighborhood recovery; do not relabel Wall-authored rows as Whiskey-authored scenes.",
