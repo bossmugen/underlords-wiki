@@ -1,29 +1,35 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-19 — Run 1385 close_
+_Last updated: 2026-09-19 — Run 1386 close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling live miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
 
-## Current durable WIKI close — Run 1385
+## Current durable WIKI close — Run 1386
 
 The mandatory full census closes **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs**, **0 pending review**, **0 backlog**, and **0 overdue**. Both Club-Only recovery-priority lanes remain current. Six older reviewed MAIN whole-person resynthesis families remain `pending_publication`; these are publication debt, not unread mining.
 
-Every active miner HEAD matched its already-consumed frontier. No branch delta required checkpoint-first review in Run 1385, no `last_consumed_sha` advanced, no duplicate evidence family needed recombination, and no conflict/rabbit changed state.
+Daycare is consumed through **`a3fdf031b5c65b3e12ec0cfcaeb37e611ecd3e41`**. Wall is consumed through the late stable head **`6d5937dbf882e03b484f5154e91200df49876ef2`**.
 
 ### Public result
 
-**WIKI reader-facing change: 0.** The verified reader frontier remains Run 1384 commit **`ff2c3c358f1f8d16a66ec67381a8121833a81b1e`** (`integrator: deepen Woohyuk Tony Scar and Ghoulie`). That reader SHA already passed:
+**WIKI reader-facing changes:**
 
-- **Build Underlords Wiki `35435143416` — succeeded.**
-- **Deploy Underlords Wiki Preview / Pages `35435143460` — succeeded**, including Pages deployment.
+- **Akariel** gained her Academy-side contradiction: the same stable account that volunteers for Screenshot Court can be almost aggressively low-drama in mechanics talk, directly introducing herself as `Akariel#4316` and giving the scene-local `Member of the Royal Guard, Level: 45` without turning competence into a performance.
+- The hard **Akariel ≠ Zyrcant** partition was reinforced in reader data. A stale Bea relationship note that still treated Akariel as a Zyrcant alias was repaired to point to Akariel.
+- **DarkAsrai** was added as a structured Cast owner around the cumulative contradiction **receipt-stockpiler / competitive filer ↔ self-aware defendant who expects the Wall to rotate back toward them**. The Rummy / `phenomenal_lamb_14960` lane is published as bounded playful game-challenge / willing-sparring familiarity.
 
-Run 1385 only refreshes this reader-neutral integration state. No new WIKI build or deployment is claimed for unchanged reader bytes.
+Final verified reader commit: **`ac702e0d3184dc4901e5f0a400488324a7220729`**.
 
-**MAIN reader-facing change: 0.** MAIN's Run 1385 census/state update is reader-neutral; no new MAIN source-verification / Astro / built-output / deployment success is claimed for unchanged reader bytes.
+- **Build Underlords Wiki `35437284117` — succeeded.**
+- **Deploy Underlords Wiki Preview / Pages `35437284131` — succeeded**, including Pages deployment and the report job.
+
+**MAIN reader-facing change: 0.** Akariel and DarkAsrai are better served by structured WIKI ownership at this stage, while the new Hishiro/Heemshiro packet is identity-held. No MAIN source-verification / Astro / built-output / deployment success is claimed for unchanged reader bytes.
 
 ### Held / unresolved material
 
-- Tony's Jun. 12 Marian-targeted attachment remains **PRIVATE / VISUAL HOLD**. SAID BY / POSTED BY Tony and Marian as explicit target/respondent are supported; MADE BY / CAPTURED BY / visual FEATURING remain unresolved.
+- The newest Wall Hishiro/Heemshiro packet is stable account **`280484571382071296`**. The canonical WIKI Hishiro owner is anchored to different stable account **`289208784065069057`**. Similar rendered names do not bridge identities, so the packet is held rather than merged.
+- DarkAsrai's March 13, 2023 personal-image / `feet pics` pocket remains **PRIVATE-SENSITIVE / VISUAL HOLD** and is intentionally excluded from public lore.
+- DarkAsrai's direct attachments establish POSTED BY DarkAsrai only unless separate evidence earns MADE BY / CAPTURED BY / FEATURING.
 - q9 remains retrieval-limited / sampled-negative where recorded, never globally disproven.
 - Pooled `Deleted User` remains unresolved and unmerged.
 - Earliest surviving remains earliest surviving, not guaranteed origin. Current/export role arrays do not establish appointment chronology. Joke family / romance / property language remains joke language unless separately supported.
@@ -45,4 +51,4 @@ Run 1385 only refreshes this reader-neutral integration state. No new WIKI build
 - **Kiro was a full Officer, not a Sniper.**
 - POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct attribution claims.
 
-Run 1385 closes with the same consumed frontiers recorded in MAIN's controlling ledger; no new public lore was introduced this run.
+Run 1386 closes with both reviewed miner frontiers durably consumed in MAIN's controlling ledger and the WIKI reader changes verified/deployed.
