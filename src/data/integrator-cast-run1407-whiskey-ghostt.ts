@@ -1,4 +1,5 @@
 import "./integrator-cast-run1421-whiskey-milo-wall-bea";
+import "./integrator-cast-run1423-daycare-queen-whiskey-darkasrai";
 import type { Character } from "./wiki";
 import { allCharacters, castGroups, characterById } from "./cast";
 
