@@ -1,10 +1,10 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-18 — Run 1365_
+_Last updated: 2026-09-18 — Run 1366_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling live miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
 
-## Current durable WIKI close — Run 1365
+## Current durable WIKI close — Run 1366
 
 The mandatory full census reconfirmed **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs**, **0 pending review**, **0 backlog**, and **0 overdue**. All 30 active miner HEADs exactly matched MAIN's recorded `last_consumed_sha`; therefore there was **no unconsumed intake delta to review this run**. Both Club-Only recovery-priority lanes remain current. Six older reviewed MAIN whole-person resynthesis families remain `pending_publication`; these are publication debt, not unread mining.
 
@@ -38,4 +38,4 @@ No branch consumed SHA advanced. No previously reviewed delta was re-read to man
 - Joke-family and joke-romance language does not become literal relationship canon without separate support.
 - POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct attribution claims.
 
-Run 1365 is a reader-neutral no-delta close only; Run 1364's Miihi/Akariel/Pride structured integration remains the latest public WIKI content change.
+Run 1366 is a reader-neutral no-delta close only; Run 1364's Miihi/Akariel/Pride structured integration remains the latest public WIKI content change.
