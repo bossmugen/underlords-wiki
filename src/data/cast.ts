@@ -296,6 +296,39 @@ mergeCharacter({
   ],
 });
 
+// Run 1462 Whiskey: Tofu can tap the brakes for somebody else and floor it when the charge is hers.
+mergeCharacter({
+  id: "tofu",
+  name: "Tofu",
+  aliases: ["j_kirizami", "Tofu🐝"],
+  billing: "recurring",
+  role: "Staff",
+  era: "2021–",
+  logline: "Staff with extremely situational brakes: Tofu can egg a premise on, answer ShiyaX's `theres a limit ?` with the gentler `At least pace yourself`, then react to being put on blast by announcing `I'll fucking do it again too.` The same file also contains a completely uncomplicated opinion: watermelon is disgusting.",
+  tags: ["Staff", "Wall", "Whiskey", "Contextual calibrator", "Receipt culture", "Cookie teasing", "Watermelon hater", "Petty Crimes"],
+  stableDiscordIds: ["775957299717734402"],
+  relationships: [
+    { name: "ShiyaX", note: "Shiya asks Tofu directly whether there is a limit; Tofu answers `At least pace yourself`. It reads as peer calibration — Tofu's situational read is worth asking for — without turning her into a rule-maker, safety officer, or standing advisor.", href: "/characters/shiyax" },
+    { name: "Cookie", note: "Cookie's public tease gets `PUTTING ME ON BLAST!`; thirty-seven seconds later Tofu follows it with `I'll fucking do it again too.` A later `Take the hint Cookie` keeps the direct-address teasing lane alive. Comfortable antagonistic-affection, not a closeness ranking or literal hostility.", href: "/characters/cookie" },
+    { name: "Mugen", note: "Tofu's `Shhhh!!!!!!!` is a technical reply to one exact Mugen message whose content remains unresolved. The hush belongs to their visible interaction; whatever prompted it does not get invented.", href: "/characters/mugen" }
+  ],
+  quotes: ["At least pace yourself", "PUTTING ME ON BLAST!", "I'll fucking do it again too.", "Watermelon is gross, fight me", "Watermelon is disgusting!"],
+  claims: [
+    "Stable Discord account 775957299717734402 / j_kirizami / Tofu🐝 is the canonical Tofu owner; Tofu is Staff under the corrected living roster.",
+    "Across separate 2021 scenes, Tofu can encourage escalation, offer a soft pacing limit when ShiyaX asks for one, and answer her own public callout with comic repeat-offender bravado. The person-shaped read is context-sensitive calibration, not a blanket `responsible`, `reckless`, `chaotic`, or `hypocritical` label.",
+    "Tofu directly says `Watermelon is gross, fight me` and later `Watermelon is disgusting!`; this is ordinary taste texture suitable for Petty Crimes.",
+    "The Mugen `Shhhh!!!!!!!` reply edge is confirmed, but the exact target content remains unresolved and is not converted into a secret narrative."
+  ],
+  antiFanon: [
+    "`At least pace yourself` is peer-calibration language in one scene, not governance authority, safety expertise, medical advice, or a formal moderation role.",
+    "`I'll fucking do it again too` is comic recidivism inside receipt culture, not evidence of actual wrongdoing, dangerous behavior, or a stable recklessness trait.",
+    "The Tofu↔Cookie teasing lane is reciprocal social texture, not romance, family, literal hostility, physical violence, or a closeness leaderboard.",
+    "The exact Mugen message behind `Shhhh!!!!!!!` remains unresolved; do not infer a real secret or what Tofu wanted hidden.",
+    "`Watermelon is disgusting!` supports a dated direct food dislike, not a broader dietary rule or permanent identity category.",
+    "Uninspected attachments remain POSTED BY-only where authorship is known; MADE BY, CAPTURED BY, and visual FEATURING are not inferred."
+  ],
+});
+
 export const castGroups = previousGroups;
 export const characterById = new Map(allCharacters.map((character) => [character.id, character]));
 export const primaryGroupByCharacterId = new Map(
