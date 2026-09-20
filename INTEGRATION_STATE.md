@@ -1,8 +1,35 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-19 — Run 1430_
+_Last updated: 2026-09-19 — Run 1432_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling live miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies. Prior run history remains available in git history and the paired MAIN `integration-runs/` records; this file tracks the current durable WIKI frontier.
+
+## Run 1432 durable close
+
+The required full miner census remains **51 tracked identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 backlog, and 0 overdue**. Both Club-Only recovery-priority lanes remain current. Run 1432 reviewed the advanced Whiskey delta `bb23802341cda0eefcbbb56b6b31a5f35cba0015..8463baf5351a885a7b12cc9034b56d88b9d90ca7`, the Birthday planning delta `de5d633239552cae06c54df028b262950c480adf..5f85344deef60149ce9594fc4a93ccba935c6e78`, and the newly advanced Wall tail `090994aa355efab22c2d7369369cb339d2f668a8..75655916a8a5301df5e2663da7cb1a1c4f8c7bcd`, all checkpoint-first and intake-only.
+
+### WIKI reader result
+
+The verified/deployed reader frontier is **`604db4c6b0893e706f0600d60211c52616d2739e`**.
+
+**Efi** (`488099199938986004`) now has a compact Cast owner built around the right mechanism instead of a fake personality verdict: tiny messages as complete social moves. `Come join`, `Welp`, one emote, `Just started`, and `Excited :BlobParty:` are short, but they greet, invite, register disappointment, and mark progression. The July-to-December competitive-chat line is preserved as aspiration becoming participation; Cassina's `I just made the connection to your name` → Efi `p coo` gives the profile one direct recognition beat. Short-message style is not converted into `shy` or `quiet`, gender remains unstated, and birthday-room co-presence / the Gilli water line remain bounded rather than inflated into habits or ranked relationships.
+
+**Zhēnxī** (`702968421033312275`) now has the Wall contradiction the handoff was actually pointing at: theatrical summoned defendant ↔ reciprocal receipt filer. Ren can summon Zhēnxī into two exposure pockets and get `NOOOOOOOOOOO` / `NOT THE WALL OF SHAME FAME`; Rummy/phenomenal_lamb can true-reply to the protest with `I love YoU` and get `I love you too`; then Zhēnxī later posts a screenshot, waits ten seconds, summons Ren with `@RΣN so uh-`, laughs at Ren's direct objection, and lands on `Deserving`. The relationship language stays social and non-ranked. The screenshots remain attribution-bounded, and `I love you` remains affectionate teasing rather than romance canon.
+
+**Illien / Euros** (`679943266090614843`) was deepened in the existing owner rather than split. The Wall pattern is precise social targeting ↔ absurdist elaboration: Illien can drop an exhibit with only `@Mugen`, remember to summon Mugen seconds later, ask her to `post the rest`, or call Gabu/Sou straight to the evidence table; once the audience arrives the same person is doing `tacocat`, `racecar`, backwards-theology wordplay, and `Day 187, humans still don't suspect I'm a cat`. Mugen and Anthos receive bounded receipt/riff relationship notes without converting summons into visual FEATURING or relationship rank. Woohyuk's new watermelon packet was deduped by meaning because the current public owner already carries the `sweet water` / `tryna play us dumb` lines.
+
+The Birthday delta produced a genuine **WIKI Episode/history candidate**: on December 28–29, 2020 the room goes from Snow proposing a birthday page to the group having time and Anthos reporting a new channel already ready by morning. It was reviewed and banked for Episode/history integration rather than being stuffed into a character dossier. The scene remains collaborative logistics; no single person is credited with creating the channel without a stronger handoff.
+
+### Verification / deployment
+
+- **Build Underlords Wiki `35479688638`: success.**
+- **Deploy Underlords Wiki Preview / Pages `35479688628`: success**, including successful Pages build and deploy.
+
+### MAIN surface result
+
+**MAIN reader-facing changes from Run 1432: 0.** Efi remains too sparse for a rich MAIN biography; Zhēnxī's new packet is Wall-shaped enough that WIKI is the cleaner current owner; Illien's new material is best used as structured dossier/relationship/Petty Crimes enrichment rather than another receipt-shaped MAIN paragraph. The Birthday scene is being held as WIKI Episode/history material, not forced onto MAIN.
+
+The inherited accepted MAIN Shiki reader remains verification-blocked by runner/provisioning infrastructure. Dedicated verifier run `35458657320` was retried again; latest job **`105995021435`** failed before any verification step existed (`steps=null`). This remains infrastructure failure, not a source-verification, Astro-build, built-output-verification, or WIKI content failure. Retry verification, not Wall mining.
 
 ## Run 1430 durable close
 
