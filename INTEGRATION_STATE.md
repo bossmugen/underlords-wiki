@@ -1,8 +1,38 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-20 — Run 1460 close_
+_Last updated: 2026-09-20 — Run 1461 close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` remains the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies. Earlier run detail remains available in git history and MAIN integration handoffs.
+
+## Run 1461 close
+
+Full branch census: **51 tracked miner identities = 30 active refs + 21 historical/missing**, with **0 newly discovered refs, 0 unread pending review at close, 0 backlog, and 0 overdue**. Both Club-Only recovery lanes remain current. No active miner head advanced beyond the Run 1460 reviewed frontier, so there were **0 changed intake deltas**, **0 genuinely new findings**, **0 duplicate-family changes**, **0 conflict/rabbit movement**, and **0 consumed-SHA advances**.
+
+### Reconciliation / public changes
+
+**WIKI reader-facing changes: 0.** No new miner material required a dossier, Relationship, Episode, Running Gag, Quote, Location, or Gallery change. Existing hard canon, identity corrections, and unresolved rails remain unchanged.
+
+**MAIN reader-facing changes: 0.** No new miner material required a person-first biography change or other reader-facing edit.
+
+No fresh WIKI build or Pages deployment was launched for unchanged reader bytes. The latest verified/deployed reader frontier remains **`9d52e2b0f9dbeef2c4d8fdc6f22e43e342805d61`**: Build Underlords Wiki **`35504975115` — success** and Deploy Underlords Wiki Preview / Pages **`35504975132` — success**.
+
+The inherited dedicated MAIN source/Astro/built-output verifier `35458657320` was retried. It reached **attempt 46**; job **`106067918552`** again completed `failure` before any verification step existed (`steps=null`). That remains runner/provisioning failure, not a failed source verifier, Astro build, built-output check, or reader-content test. No MAIN deployment is claimed.
+
+### Consumption handoff
+
+No branch consumption cursor moved this run.
+
+- **Louvre / Other Games:** remains consumed through `dae15dba41b6378169683c4f617136d4f2f60da4`. **DO NOT REREAD through `dae15dba`.**
+- **Daycare:** remains consumed through `078b0523b673849dc2dca85c3a776daf486e0634`.
+- **Whiskey:** remains consumed through `06060b937512956a209dc8352c79854da9058739`.
+- **Wall:** remains fully reviewed through `e6e76cdb88f00a2d784d67f5872805d285e8cec4`; contiguous consumed cursor remains `01cf4664d8e5130052874789adbfda382935b1a3` behind inherited MAIN publication/verification debt. **DO NOT REREAD through `e6e76cdb`.**
+- **Birthdays/PR/VC:** remains fully reviewed through `1c39bde860314d4e03360738a15a60899420ee29`; contiguous consumed cursor remains `de5d633239552cae06c54df028b262950c480adf` behind older accepted publication debt. **DO NOT REREAD through `1c39bde`.**
+
+The ledger still carries **10 reviewed `pending_publication` families**. Those are publication/resynthesis/verification debt rather than unread mining.
+
+### Hard rails carried forward
+
+Hard user-confirmed canon and resolved identity corrections override archive inference. Earliest surviving evidence is never automatically origin, recruitment, appointment, or first contact. Export/current role arrays are not appointment chronology. Joke family, romance, marriage, flirting, parenthood, punishment, and sexual language stay nonliteral unless independently supported. `SAID BY`, `POSTED BY`, `MADE BY`, `CAPTURED BY`, and `FEATURING` remain distinct. Private/safety-sensitive onboarding fields stay backstage. Genuinely unresolved identities, reply parents, media provenance, and channel-history gaps remain unresolved rather than being solved by vibes.
 
 ## Run 1460 close
 
