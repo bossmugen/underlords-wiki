@@ -1,3 +1,4 @@
+import "./integrator-cast-run1447-wall-tae";
 import type { Character } from "./wiki";
 import { allCharacters, castGroups, characterById } from "./cast";
 
