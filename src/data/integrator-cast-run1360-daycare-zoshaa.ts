@@ -45,12 +45,17 @@ upsertRelationship(
   "Zoshaa is comfortable remembering Snow's statements, calling him on tiny double standards, and demanding explanations in caps. The surviving Wall line runs from the one-freezie grievance to `WHAT DOES IT MEAN` / `@Snow I NEED ANSWERS` and later `DIDNT YOU SAY YOU WERE GOING TO SLEEP`; Snow answers in the same casual register. It is peer banter and old-lore familiarity, not role or age evidence.",
   "/characters/snow",
 );
+upsertRelationship(
+  relationships,
+  "Rich",
+  "Rich can recognize Zoshaa after a gap and pick the conversation back up without ceremony: `was wondering who the hell that was. Lmao` gets `Oye was good been a bit lmao`. It is a tiny Whiskey reunion beat, useful mostly because neither person has to rebuild the premise before talking normally again.",
+);
 
 allCharacters[zoshaaIndex] = {
   ...zoshaa,
   aliases: appendUnique(zoshaa.aliases, ["NintendoShitcube", "nintendoshitcube_"]),
   logline:
-    "Permanent Platelet whose cute register has teeth: Zoshaa can keep `O W O` alive across years, boredom-scroll old screenshots straight into the Wall, wrap boiled-mayo horror in `ᵘ ʷ ᵘ`, then switch from three-glyph reaction to `I NEED ANSWERS` volume without changing character at all. Cute is not the opposite of menace here. It is the packaging.",
+    "Permanent Platelet whose cute register has teeth: Zoshaa can keep `O W O` alive across years, boredom-scroll old screenshots straight into the Wall, join cursed Whiskey escalation on sight, then abruptly become the room's quality-control department when somebody slurps too loudly. Cute is not the opposite of menace here. It is the packaging — and apparently menace has sensory limits.",
   tags: appendUnique(zoshaa.tags, [
     "Platelet",
     "NintendoShitcube",
@@ -58,6 +63,8 @@ allCharacters[zoshaaIndex] = {
     "Mock menace",
     "Receipt culture",
     "Old-screenshot scavenger",
+    "Ready accomplice",
+    "Sensory off-switch",
     "Ren",
     "Snow",
     "Petty Crimes",
@@ -73,6 +80,10 @@ allCharacters[zoshaaIndex] = {
     "Screaming is what I do best😎😎😎",
     "@Snow I NEED ANSWERS",
     "📸📸📸📸📸📸📸📸📸",
+    "This is extremely cursed",
+    "Take there card too...",
+    "Why you slurping so loudly",
+    "Stop it",
   ]),
   claims: appendUnique(zoshaa.claims, [
     "Across separate 2020–2022 Wall and support-room dates, Zoshaa repeatedly uses `O W O` / `O w O` / `O w o`, tiny `uwu` typography, and cute notation beside deliberately absurd or mock-aggressive lines. The recurrence supports a stable humor mechanism: register whiplash, not a pile of unrelated quotes.",
@@ -80,6 +91,8 @@ allCharacters[zoshaaIndex] = {
     "Gilli mirrors Zoshaa's `uwu` register in a birthday exchange and later recoils at the boiled-mayo bit while Zoshaa escalates the description, showing that other people can recognize and play inside the same language.",
     "Ren repeatedly activates Zoshaa's signature reaction register with direct summons or reply mentions, while Snow repeatedly becomes the target of Zoshaa's remembered grievances and all-caps answer demands. The two lanes are distinct forms of familiar public bit-participation rather than formal relationship ranks.",
     "On March 16, 2022, Zoshaa posts `IMG_2382.jpg` to Wall and follows 2.849 seconds later with nine camera emojis, adding receipt-theater instinct to the same high-commitment comic style.",
+    "Whiskey adds a useful limit to Zoshaa's chaos appetite. She is a ready accomplice to cursed framing — `Medium rare`, `This is extremely cursed`, `Yes!`, `thicc booty`, and the suggestion to take somebody's card too — but a loud slurping bit flips her almost instantly into `Why you slurping so loudly` and then `Stop it`. The off-switch makes the larger pattern funnier: she likes escalation when she is helping steer it; sensory gross-out can make her become the adult in under ten seconds.",
+    "An October 22, 2021 Whiskey exchange with Rich gives Zoshaa a small reconnection beat: Rich says he was wondering who she was, and Zoshaa answers `Oye was good been a bit lmao`. The wording supports easy prior familiarity and re-entry after some time apart, without establishing a relationship rank.",
   ]),
   antiFanon: appendUnique(zoshaa.antiFanon, [
     "NintendoShitcube / `nintendoshitcube_` is Zoshaa, not a second person.",
@@ -89,6 +102,7 @@ allCharacters[zoshaaIndex] = {
     "Zoshaa's old-screenshot and `very funni` Wall packets establish POSTED BY Zoshaa. MADE BY, CAPTURED BY, and FEATURING remain unresolved unless independently supported.",
     "The March 16, 2022 `WHAT DOES IT MEAN` object is POSTED BY Zoshaa and Snow is an explicit explanation target in the same pocket. The pixels were not inspected, so Snow is not automatically a visual subject, maker, or capturer.",
     "The March 2022 image followed by nine camera emojis was POSTED BY Zoshaa. Its pixels were not inspected in this review, so MADE BY, CAPTURED BY, and FEATURING remain unresolved.",
+    "Whiskey's cursed-object and gross-out jokes are social bit material, not evidence of literal food, sex, violence, or sensory/medical claims. Zoshaa's attachment posts establish POSTED BY only unless another source resolves authorship or depiction.",
   ]),
 } as ExtendedCharacter;
 
