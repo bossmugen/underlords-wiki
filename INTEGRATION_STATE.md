@@ -1,42 +1,42 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-20 — Run 1453 close_
+_Last updated: 2026-09-20 — Run 1454 close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` remains the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies. Earlier run detail remains available in git history and MAIN integration handoffs.
 
-## Run 1453 close
+## Run 1454 close
 
-Opening census: **51 tracked miner identities = 30 active refs + 21 historical/missing**, with **0 newly discovered refs, 0 backlog, and 0 overdue**. Both Club-Only recovery lanes were already current. Daycare was the opening mover; closing recensus also found advanced Whiskey, Birthdays/PR/VC, and Wall tails. All four families were reviewed checkpoint-first from changed `archive-intake/*` handoffs only; no raw archive was re-mined.
-
-A newer concurrent MAIN Run 1454 opening census landed after this review and already sees the same four branch heads. Run 1453 therefore does **not** overwrite that newer shared branch-state snapshot. Its reader publication and review handoff are durable here; the newer MAIN run can reconcile the same exact reviewed frontiers without losing a newer census.
+Opening census: **51 tracked miner identities = 30 active refs + 21 historical/missing**, with **0 newly discovered refs, 0 backlog, and 0 overdue**. Both Club-Only recovery lanes were current. Opening movers were Birthdays/PR/VC, Daycare, Whiskey, and Wall; all were reviewed checkpoint-first from changed `archive-intake/*` handoffs only. Wall then advanced again during the run from `9cdeb4e753cd2844370675c519a476ff58d1eb56` to **`5253e993b62ff4b2b8070e1da8ec76de3928c61e`**, and that intake-only Vanness/Nhou tail was reviewed before close. No raw archive was re-mined.
 
 ### WIKI reader publication
 
-The exact verified/deployed reader frontier is **`6afa01275e20acf3e3bec5cfe4216eede89c24a0`**.
+The exact verified/deployed reader frontier is **`3d6f5394e84541cd5e499c6e6bdf311b68323409`**.
 
-- **Anthos / `antho.logy` / stable account `695394317921026121`:** deepened in the existing canonical Anthos owner rather than creating a second person. The canonical **Pit Boss / main / 2020–present** identity is preserved. Repeated `W/wave` greetings make acknowledgment itself part of his social style; `No problemm` keeps practical help low-drama; a May 2025 return goes straight to Mugen with `how u been boss man` and later `Long time...`, giving the existing helper texture an easy-reconnection lane. The unresolved role mention does not create a new formal title or appointment chronology.
-- **Bailey_Babe / `tripwire1419` / stable account `830904434388500570`:** new structured dossier built around the recurring caught-out-without-withdrawing mechanism. `I forgot to do that Sowwy` becomes completed housekeeping; resurfaced media gets `You really trying to expose us lmao`; and Cookie's sleep callout turns into `who needs sleep` → `I’m a ghost 👻` → Ghostbusters GIF before Bailey defeats her own premise 2m13.106s later with `Someone take my phone away pls`. No health, addiction, insomnia, or `always online` inference is made.
-- **Yumi / Yummibears / stable account `415352848855859200`:** the existing canonical Yumi owner now carries the April 2020 Fight Club / VIP Lounge hybrid-comms scene. Yummibears asks `is mic required?`; the room answers no, and Mugen generalizes a listen-in-voice / type-in-text workaround for people who cannot conveniently speak. A May event line, `PUNCH AND DO ME PROUD @everyone`, keeps Yumi's practical-question / loud-event-hype contradiction visible. The source does not tell us *why* she asked about a mic and does not prove she ultimately joined voice.
+- **Anthos / `antho.logy` / stable account `695394317921026121`:** the existing canonical owner is deepened rather than duplicated. Run 1454 folds the stronger Daycare/Wall contradiction into the dossier: Anthos can help find the target and summon Mugen into the bit, then become the caught-out participant herself with `Fuck forgot about that day` / `remember that duel? lol`. The Sye pocket adds bounded mutual-worry companionship: `we can stay up worrying together now` / `Don’t have to do it by myself now`. The dossier also corrects Run 1453's accidental masculine pronouns back to canonical **she/her**. Friendly concern, greetings, and shared worry are not promoted into romance or closeness ranks; unresolved role IDs still do not create appointment chronology.
+- **Vanness / `vanness0492` / stable account `714781719357554718`:** new structured Wall dossier. The useful contradiction is **correct the charge ↔ file the charge yourself**. Vanness can loudly defend attribution when he thinks somebody else owns the embarrassing premise, then voluntarily post `Im putting myself in wall of shame ... Shame me` after losing five orange dracs in a merge, stay in the humiliation, and later true-reply Ren's `hoW-` with the four-failed-merges postmortem plus `my luck is💩`. The Aug. 9 screenshot is POSTED BY Vanness only; its visual contents, maker, capturer, and depicted subjects remain unresolved.
+- **Nhou / `nhougat` / stable account `158594223371845632`:** the existing Staff owner gets one compact Petty Crimes/relationship deepener rather than a second profile. Nhou posts `uwu` then `snouwu`; Anayss picks up `Snouwu` 24.833 seconds later and repeats it again minutes later. This supports **compact wordplay seeder / shared-shorthand participant** texture and a bounded Nhou↔Anayss pickup lane. It does not establish global origin of the word or make `Snouwu` a durable Snow alias.
 
-Verification/deployment for exact reader `6afa01275e20acf3e3bec5cfe4216eede89c24a0`:
+Verification/deployment for exact reader `3d6f5394e84541cd5e499c6e6bdf311b68323409`:
 
-- Build Underlords Wiki **`35498472689` — success**.
-- Deploy Underlords Wiki Preview / Pages **`35498472691` — success**, including deployment/report.
+- Build Underlords Wiki **`35500379735` — success**; Astro build and published `wiki-build` status passed.
+- Deploy Underlords Wiki Preview / Pages **`35500379723` — success**, including preview build, Pages deployment, and final report.
 
-### Reviewed but intentionally not forced onto WIKI
+### Reconciled carry-forward from concurrent Run 1453
 
-- **Wall / Cele / Celeana / stable account `745353665149141144`:** reviewed through **`9cdeb4e753cd2844370675c519a476ff58d1eb56`**. Cele repeatedly treats old embarrassment like an exhibit: `Osiris's best casting memories.`, `That's ready for being framed.`, `We gotta get that on the server wall of pictures.`, and the broader `I take that as permission to keep 🙈` posture. The strongest synthesis is **performative museum guide / receipt curator** — somebody who turns old artifacts into communal display objects. This is primarily MAIN biography / Petty Crimes material, so it was not shoved into WIKI just to make the diff larger. Media maker/capturer/visual-subject provenance remains unresolved; `MMmmmmmmmm.` remains only tentatively tied to the nearby teammate-embarrassment pocket; q9 remains a weak sampled negative.
+The immediately preceding Run 1453 publication at `6afa01275e20acf3e3bec5cfe4216eede89c24a0` had already integrated Bailey_Babe and Yummibears and an initial Anthos greeting/reconnection deepener. Run 1454 did not republish those packets as sequels. It consumed Whiskey through `7fd6ebc44d54d6e8387e406c171062d740634337` after the already-verified Bailey publication, kept Birthdays reviewed through `e493ae6e654b9c664054fdaec278e7dedb841699` while respecting the older structured-history publication debt that still blocks that branch's contiguous consumed cursor, and folded the genuinely new Anthos material into the same owner.
 
-### Surface split / consumption handoff
+### MAIN-only / held material
 
-MAIN reader-facing changes in Run 1453: **0**. No MAIN build/deployment is claimed for unchanged reader bytes. Cele is held for a safe person-first MAIN fold rather than a receipt-shaped append.
+**Cele / Celeana / stable account `745353665149141144`** remains a MAIN person-first fold rather than a WIKI receipt append. Her current MAIN biography already owns the broader Screaming-Cat / red-dot-court / reliable-cousin shape; the new Wall packet strengthens the contradiction with receipt-curator behavior, repeated red-dot tidiness policing, reciprocal prosecution with Rummy, and affectionate mock-care toward Gilli. This should be synthesized into the existing biography rather than duplicated as a timestamp ledger.
 
-Recommended reviewed frontiers for the controlling MAIN ledger:
+MAIN reader-facing changes in Run 1454: **0**. The inherited dedicated MAIN source/Astro/built-output verification run `35458657320` was retried and reached **attempt 39**; latest job `106050393601` again completed failure before any verification step existed (`steps=null`). That remains runner/provisioning failure, not a failing source verifier, Astro build, or built-output check. Accordingly no fresh MAIN reader commit or deployment is claimed, and Cele remains accepted-but-held behind the same publication gate.
 
-- **Daycare:** reviewed/publication-cleared through `ffcbfca426061b7685d8bcb43c56672682ca4e6f` after Anthos cleared WIKI verification.
-- **Whiskey:** reviewed/publication-cleared through `7fd6ebc44d54d6e8387e406c171062d740634337` after Bailey cleared WIKI verification.
-- **Birthdays/PR/VC:** current Yumi delta reviewed through `e493ae6e654b9c664054fdaec278e7dedb841699` and WIKI-verified, but the branch's contiguous consumed cursor should remain at `de5d633239552cae06c54df028b262950c480adf` because older accepted birthday-history publication debt still precedes it.
-- **Wall:** fully reviewed through `9cdeb4e753cd2844370675c519a476ff58d1eb56`; **DO NOT REREAD** that tail unless the branch advances. Its contiguous consumed cursor remains `01cf4664d8e5130052874789adbfda382935b1a3` behind inherited accepted MAIN Shiki publication debt, now with Cele's accepted MAIN fold also pending.
+### Consumption handoff
+
+- **Daycare:** consumed through `ffcbfca426061b7685d8bcb43c56672682ca4e6f` after Anthos's combined WIKI deepener cleared build/deploy.
+- **Whiskey:** consumed through `7fd6ebc44d54d6e8387e406c171062d740634337`; Bailey was already publication-cleared on WIKI and required no duplicate paragraph.
+- **Birthdays/PR/VC:** reviewed through `e493ae6e654b9c664054fdaec278e7dedb841699`; contiguous consumed cursor remains `de5d633239552cae06c54df028b262950c480adf` because older accepted structured-history/running-gag publication debt still precedes the current Yumi delta. **DO NOT REREAD** through `e493ae6e`.
+- **Wall:** fully reviewed through late advance `5253e993b62ff4b2b8070e1da8ec76de3928c61e`; Vanness/Nhou are WIKI-published and verified, while Cele remains MAIN-held. Contiguous consumed cursor remains `01cf4664d8e5130052874789adbfda382935b1a3` behind inherited MAIN Shiki verification debt. **DO NOT REREAD** through `5253e993`; retry the MAIN publication gate / Cele fold instead.
 
 ### Hard rails carried forward
 
