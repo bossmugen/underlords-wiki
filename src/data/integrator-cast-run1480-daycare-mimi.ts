@@ -81,9 +81,9 @@ const mimiNext: ExtendedCharacter = {
 allCharacters[mimiIndex] = mimiNext;
 characterById.set("mimi", mimiNext);
 
-// Hard-canon repair: Beo = JereGilgamesh / Jere. Fold Run 1480's Jere packet into Beo instead of manufacturing a second person.
+// Hard-canon repair: Beo = JereGilgamesh / Jere. Fold Run 1480's Jere packet into one canonical Beo owner.
 const jereStableId = "337448323395092481";
-const beoIndex = allCharacters.findIndex(
+let beoIndex = allCharacters.findIndex(
   (character) =>
     character.id === "beo" ||
     character.name === "Beo" ||
@@ -91,7 +91,24 @@ const beoIndex = allCharacters.findIndex(
 );
 
 if (beoIndex < 0) {
-  throw new Error("Hard canon requires Beo = JereGilgamesh / Jere, but no canonical Beo owner was found.");
+  const canonicalBeo: ExtendedCharacter = {
+    id: "beo",
+    name: "Beo",
+    aliases: ["JereGilgamesh", "Jere", "Gilga [UL-M]"],
+    stableDiscordIds: [jereStableId],
+    billing: "supporting",
+    role: "Archive-era core cast",
+    era: "2017–2022+",
+    logline:
+      "Beo's Jere-era chat style is tiny in wording and generous in attention: he can arrive with `lol`, then immediately ask what everybody is playing, which server they picked, whether Steam supports it, or how their day is going.",
+    tags: ["Core Rooms", "Conversation starter", "Returning presence", "Cross-game chatter", "Practical game-hopper", "Travel chatter", "Food shorthand", "Petty Crimes"],
+    relationships: [],
+    quotes: [],
+    claims: ["Hard canon resolves Beo, JereGilgamesh, and Jere as the same person; stable account 337448323395092481 belongs to Beo."],
+    antiFanon: ["Beo = JereGilgamesh = Jere is a hard identity lock. Never split the Jere handle into a second character."],
+  };
+  allCharacters.push(canonicalBeo);
+  beoIndex = allCharacters.length - 1;
 }
 
 const beo = allCharacters[beoIndex] as ExtendedCharacter;
@@ -153,7 +170,7 @@ const beoNext: ExtendedCharacter = {
 };
 
 allCharacters[beoIndex] = beoNext;
-characterById.set(beoNext.id, beoNext);
+characterById.set("beo", beoNext);
 characterById.delete("jeregilgamesh");
 
 // Canonicalize any older relationship label that still names the Jere handle as though it were a separate person.
