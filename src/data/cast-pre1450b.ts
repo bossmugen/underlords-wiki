@@ -104,6 +104,39 @@ allCharacters.push({
   ],
 } as ArchiveCharacter);
 
+// Run 1465 Whiskey reconciliation: Noether gets summoned as the audience and leaves as the caption writer.
+allCharacters.push({
+  id: "noether",
+  name: "Noether",
+  aliases: ["noether88"],
+  billing: "guest",
+  role: "Archive-era Wall / Lobby cast",
+  era: "2021+",
+  logline: "Summoned witness turned tiny headline desk: people bring Noether a receipt, she laughs, then compresses the room's existing joke into something like `Unsugar hamihami` or `Unsugared snow, history of a sugar daddy and unsugar boiii`. She is less the inventor of every bit than the person who can give shared nonsense a label everybody immediately understands.",
+  tags: ["Wall", "Receipt culture", "Compact captioner", "Language remixer", "Shared-context fluency", "Petty Crimes"],
+  stableDiscordIds: ["690373720665096193"],
+  relationships: [
+    { name: "Anayss", note: "Anayss repeatedly includes Noether in public media/receipt scenes and later greets the same stable account with `wb ❤️` after a mechanical re-welcome. Noether answers the shared material in shorthand rather than needing the premise rebuilt. This is developing public-bit fluency and social continuity, not a closeness rank." },
+    { name: "Snow", note: "Snow directly summons Noether alongside HamitteY and Anayss into a November image scene; Noether later turns the local `unsugar` language into `Unsugar hamihami`. It is enough for public-bit familiarity, not intimacy, governance, or phrase ownership.", href: "/characters/snow" },
+    { name: "HamitteY", note: "Hami is repeatedly one of the people inside the same `unsugar` receipt pockets, and his near-immediate scream-emote after `Unsugar hamihami` keeps the remix socially alive. The joking labels stay scene language, not romance, sex, family, or a closeness claim.", href: "/characters/hamittey" }
+  ],
+  quotes: ["50 gold", "Unsugar hamihami", "Unsugared snow, history of a sugar daddy and unsugar boiii"],
+  claims: [
+    "Stable Discord account 690373720665096193 / noether88 is Noether in the reviewed 2021 Lobby/Wall chronology.",
+    "Across independent November and December 2021 receipt scenes, Noether is deliberately included or summoned, signals uptake with laughter, and then reshapes the running joke into a compact label or title. The cumulative person read is summoned audience ↔ active narrator / language remixer.",
+    "Anayss has the earlier surviving `Unsugar hami` caption in the reviewed sequence. Noether expands and recombines the language; current evidence does not establish her as its originator.",
+    "A later `wb ❤️` from Anayss after a mechanical re-welcome supports social continuity only; it does not establish why the doorway reset or a departure/rejoin chronology."
+  ],
+  antiFanon: [
+    "Do not credit Noether with originating `Unsugar hami`; the earlier surviving reviewed use is Anayss's caption.",
+    "`hami x snow`, `sugar daddy`, `unsugar boiii`, and related labels are public joke language, not literal romance, sex, family, or relationship status.",
+    "Anayss and Snow are POSTED BY for their reviewed attachments. MADE BY, CAPTURED BY, and visual FEATURING remain unresolved without direct pixel/source evidence.",
+    "The current direct-Whiskey retrieval seam does not prove that Noether never used Whiskey or preferred other rooms.",
+    "Repeat MEE6 welcomes do not establish absence, removal, re-recruitment, or account problems; current role arrays do not establish appointment chronology.",
+    "Private onboarding/demographic material is intentionally excluded from the public dossier."
+  ],
+} as ArchiveCharacter);
+
 export const castGroups = previousGroups;
 export const characterById = new Map(allCharacters.map((character) => [character.id, character]));
 export const primaryGroupByCharacterId = new Map(
