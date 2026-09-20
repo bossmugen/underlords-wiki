@@ -214,6 +214,20 @@ mergeCharacter({
   antiFanon: ["The current Wall delta deepens an already-owned defendant↔filer pattern; do not create a duplicate Episode or convert affection/teasing into romance or a closeness rank."],
 });
 
+// Run 1448 Daycare: Rummy's semicolon is punctuation until Rummy decides it is a social club.
+const rummySemicolonIndex = allCharacters.findIndex((character) => character.id === "rummy");
+if (rummySemicolonIndex >= 0) {
+  const rummy = allCharacters[rummySemicolonIndex] as ArchiveCharacter;
+  allCharacters[rummySemicolonIndex] = {
+    ...rummy,
+    tags: [...new Set([...(rummy.tags ?? []), "Semicolon bit", "Mock exclusivity", "Petty Crimes"])],
+    stableDiscordIds: [...new Set([...(rummy.stableDiscordIds ?? []), "557683854472478721"])],
+    quotes: [...new Set([...(rummy.quotes ?? []), "I like cabbage, only with ;", "I like Fruit Loops, only with ;", "Your not in the ; club?", "Are the ; club members not important?"])],
+    claims: [...new Set([...(rummy.claims ?? []), "In the reviewed October 2020 Daycare pocket, Rummy turns a semicolon into a recurring mock-exclusive social object: food preferences become `only with ;`, then the punctuation itself becomes a `; club` whose members can apparently demand recognition."])],
+    antiFanon: [...new Set([...(rummy.antiFanon ?? []), "The `; club` is joke/social language, not a formal UL subgroup or governance unit.", "This fresh slice supports Rummy's semicolon behavior but does not establish where the bit originated or whether the later archive label `Rumfection` already existed at this point."])],
+  } as ArchiveCharacter;
+}
+
 export const castGroups = previousGroups;
 export const characterById = new Map(allCharacters.map((character) => [character.id, character]));
 export const primaryGroupByCharacterId = new Map(
