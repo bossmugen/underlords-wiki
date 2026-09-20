@@ -132,6 +132,43 @@ mergeCharacter({
   ],
 });
 
+// Run 1453 Daycare: Anthos' social footprint is built out of tiny, repeated acts of acknowledgement.
+mergeCharacter({
+  id: "anthos",
+  name: "Anthos",
+  aliases: ["antho.logy"],
+  billing: "guest",
+  role: "Archive-era Daycare cast",
+  era: "2024–2025+",
+  logline: "Practical helper with a deceptively tiny social signature: repeated `W/wave` greetings turn routine arrivals into acknowledgements, `No problemm` keeps help low-drama, and after a long gap he can re-enter by asking Mugen `how u been boss man` before quietly naming the distance himself — `Long time...`.",
+  tags: ["Daycare", "Practical helper", "Greeting ritual", "Check-ins", "Low-drama support", "Social continuity"],
+  stableDiscordIds: ["695394317921026121"],
+  relationships: [
+    { name: "Mugen", note: "In May 2025 Anthos reappears in Daycare and goes straight to `@Mugen Gaming how u been boss man`, then later adds `Long time...` while Mugen answers that he has been good and busy. It reads as easy reconnection after distance, not a rank, formal reporting line, or proof of exceptional closeness.", href: "/characters/mugen" },
+    { name: "Daycare regulars", note: "Across February 2024 Anthos repeatedly answers arrivals and familiar names with `W/wave`, including Wheezy and Val. The repetition makes greeting itself part of his social style: small, visible acknowledgements that keep him participating without needing to dominate the room." },
+  ],
+  quotes: [
+    "W/wave wheezy",
+    "No problemm",
+    "W/wave val",
+    "@Mugen Gaming how u been boss man",
+    "Long time...",
+  ],
+  claims: [
+    "Stable Discord account 695394317921026121 / antho.logy is Anthos in the reviewed Daycare chronology.",
+    "Repeated direct `W/wave` greetings across February 2024 support a recurring acknowledgement ritual rather than a one-off greeting.",
+    "The May 2025 Mugen check-in extends the same social pattern across time: Anthos re-enters through a direct personal check-in rather than a grand announcement.",
+    "Anthos' reviewed Daycare material supports practical-helper / low-drama support texture alongside the greeting pattern, but does not establish a formal role from unresolved role mentions.",
+  ],
+  antiFanon: [
+    "The unresolved role ID <@&829582687974866994> does not create a formal title, appointment, or role chronology for Anthos.",
+    "The October 4–18, 2022 no-surviving-message interval is a bounded archive gap, not proof that Anthos or Daycare was absent.",
+    "The cause of the later Daycare-to-Main-HQ activity shift remains unresolved.",
+    "The generic image0/q9 blind spot remains unresolved; no maker, capturer, or visual-subject credit is inferred from it.",
+    "Friendly greeting/check-in behavior does not establish a closeness hierarchy, romance, family relation, or governance relationship.",
+  ],
+});
+
 export const castGroups = previousGroups;
 export const characterById = new Map(allCharacters.map((character) => [character.id, character]));
 export const primaryGroupByCharacterId = new Map(
