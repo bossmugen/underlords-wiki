@@ -169,6 +169,46 @@ mergeCharacter({
   ],
 });
 
+// Run 1453 Whiskey: Bailey's favorite response to being caught out is apparently to keep the bit alive.
+mergeCharacter({
+  id: "bailey-babe",
+  name: "Bailey_Babe",
+  aliases: ["tripwire1419", "Bailey"],
+  billing: "guest",
+  role: "Archive-era Lobby / Wall cast",
+  era: "2021+",
+  logline: "Bailey is remarkably willing to leave a small contradiction visible and keep socializing anyway: `I forgot to do that Sowwy` becomes completed housekeeping, resurfaced media gets `You really trying to expose us lmao`, and `who needs sleep` survives barely two minutes before `Someone take my phone away pls` defeats the entire platform.",
+  tags: ["Wall", "Lobby", "Caught out", "Self-aware humor", "Reciprocal bits", "Petty Crimes"],
+  stableDiscordIds: ["830904434388500570"],
+  relationships: [
+    { name: "Cookie", note: "Cookie notices Bailey is still present after expecting her to be asleep. Bailey answers with `who needs sleep`, upgrades herself to `I’m a ghost 👻`, and Cookie returns the premise with a Ghostbusters GIF. The useful mechanism is absence noticed → callout → playful answer → returned bit, not a closeness rank or caretaker dynamic." },
+    { name: "Gilli", note: "After Bailey returns to finish delayed onboarding housekeeping, Gilli answers `gotcha in hun`. It is a small warm completion signal, not proof of recruitment authority, role appointment, or exceptional closeness.", href: "/characters/gilli" },
+    { name: "Woohyuk / shared lore", note: "Bailey recognizes `corpse voice` after Woohyuk uses it in the room. That supports callback/shared-language recognition by April 2021, not phrase origin or a major relationship claim.", href: "/characters/woohyuk" },
+  ],
+  quotes: [
+    "I forgot to do that Sowwy",
+    "when did you take those lmao",
+    "You really trying to expose us lmao",
+    "who needs sleep",
+    "I’m a ghost 👻",
+    "Altho I actually am going to sleep rn",
+    "Someone take my phone away pls",
+  ],
+  claims: [
+    "Stable Discord account 830904434388500570 / tripwire1419 is Bailey_Babe in the reviewed 2021 Lobby and Wall chronology.",
+    "Across a missed onboarding task, resurfaced-media exposure, and a bedtime callout, Bailey repeatedly acknowledges being caught in a small mismatch and stays socially engaged instead of withdrawing or trying to erase the contradiction.",
+    "Cookie's direct `thought u be sleeping` callout and Ghostbusters return support a bounded absence-noticing / reciprocal-bit lane with Bailey.",
+    "The anti-bedtime sequence is a Petty Crimes-grade self-own: `who needs sleep` lasts 2m13.106s before `Someone take my phone away pls`.",
+  ],
+  antiFanon: [
+    "Do not generalize one missed onboarding task into Bailey being forgetful, or the bedtime joke into insomnia, phone addiction, sleep-health claims, or `always online` behavior.",
+    "The pooled Deleted User identity and the people visually depicted in the resurfaced media remain unresolved. `expose us` does not identify image subjects, maker, capturer, or poster beyond the known pooled account.",
+    "Bailey recognizing `corpse voice` does not establish phrase origin, ownership, or special closeness with Woohyuk.",
+    "Onboarding demographic values remain private/backstage and are intentionally excluded from this dossier.",
+    "The reviewed welcome is an earliest surviving doorway floor, not guaranteed first contact, recruitment origin, or relationship origin.",
+  ],
+});
+
 export const castGroups = previousGroups;
 export const characterById = new Map(allCharacters.map((character) => [character.id, character]));
 export const primaryGroupByCharacterId = new Map(
