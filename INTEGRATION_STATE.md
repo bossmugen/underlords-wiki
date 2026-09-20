@@ -1,58 +1,48 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-20 — Run 1490 final close_
+_Last updated: 2026-09-20 — Run 1491 final close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies. Earlier run detail remains preserved in git history and MAIN integration handoffs.
 
-## Run 1490 final close
+## Run 1491 final close
 
-Full miner census: **51 tracked miner identities = 30 active refs + 21 historical/missing**, with **0 newly discovered refs, 0 unread pending review, 0 backlog, and 0 overdue**. Every active miner HEAD matched the Run 1489 reviewed frontier at both opening and closing census. There were therefore **0 intake deltas, 0 new findings, 0 duplicate-family changes, 0 conflict/rabbit movement, and 0 consumed-SHA advances**. Both Club-Only recovery lanes remain current. Ten reviewed `pending_publication` families remain publication/resynthesis/verification debt rather than unread mining.
+Full miner census: **51 tracked miner identities = 30 active refs + 21 historical/missing**, with **0 newly discovered refs, 0 unread pending review, 0 backlog, and 0 overdue** after the late-census sweep. Both Club-Only recovery lanes remain current. The opening mover was Wall; a later census caught another Wall checkpoint-only advance plus Louvre / Other Games. All selected deltas were reviewed checkpoint-first from changed `archive-intake/*` handoffs only. Ten reviewed `pending_publication` families remain publication/resynthesis/verification debt rather than unread mining.
 
-**WIKI reader-facing pages changed: 0 intentionally.** No new Cast, Relationships, Episodes, Running Gags, Quotes, Locations, or Gallery/media material arrived this cycle. The verified/deployed reader frontier therefore remains `c8fa9fb3e36421717a0a697fa04d1712906f498b` from Run 1489, with Build Underlords Wiki `35536565394` successful and Deploy Underlords Wiki Preview / Pages `35536565381` successful, including deployment. No ceremonial rebuild was started for unchanged reader bytes.
+### Wall — Danny / Dainyamite
 
-**MAIN reader-facing pages changed: 0 intentionally.** The inherited Shiki verifier `35458657320` was retriggered at `2026-09-20T20:59:39Z`; GitHub again returned `startup_failure` with zero jobs created, so source verification, Astro, and built-output verification did not execute. This remains infrastructure failure rather than a reader-content rejection, and no MAIN deployment is claimed for unchanged reader bytes.
+Wall was reviewed from the prior frontier `2db4603f05ff8632424e844d721be367223beec5` through closing head `3f297455b39c3e130c8917dc349bc279f854164c`. The final `37fee369 -> 3f297455` movement changed only `checkpoint.md` and introduced no new finding beyond the already-reviewed 14:03 sidecars.
 
-Consumption/review frontiers remain unchanged: Louvre / Other Games consumed through `47164866c167cc9a41d61d955ee66ddfba65ac50`; Daycare through `c79dbec3c458884cd3c94a2a8769e9e3d639522b`; Whiskey through `810dbcccebdaa9de64356fa2ac687f8203e8185f`; Birthdays fully reviewed through `31b7cf7a7de5e46520b49062886ff6b32d9f6a15` with its older contiguous cursor still held by structured-history publication debt; Wall fully reviewed through `2db4603f05ff8632424e844d721be367223beec5` with its contiguous cursor still held behind inherited MAIN publication debt; Core Rooms fully reviewed through `4c5a1d550098d9701b27b6d3dac513659499aa40` with its older cursor likewise held by publication debt. **Do not reread reviewed tails.**
+**Danny** was duplicate/corroboration only. The current WIKI Danny owner already contains the exact useful person shape from this packet: context-minded screenshot filer who answers mock heat by wanting a better-labeled receipt, plus the 2006 Sprite-goblin tangent / odd-media-memory brain. No second Danny paragraph was added. The Oct. 8 Lilly `stop simping` antecedent remains unresolved and is not romance/sex/personality canon.
 
-Open rails remain unchanged: the same-name Qin-Mu accounts stay separate absent an explicit identity bridge; RH-16 bot identity remains unresolved; Akariel remains distinct from Zyrcant; current/export role arrays are non-chronological; joke family/romance/governance stays nonliteral; earliest surviving is not origin; and `SAID BY`, `POSTED BY`, `MADE BY`, `CAPTURED BY`, and `FEATURING` remain distinct.
+**Dainyamite / Arron** received the one genuine structured deepener. On 2022-05-10 Ren true-replies the exact 2020-08-22 opening Wall receipt with only `@Dainyamite (Retired)`; Dain true-replies Ren's summons **28.263 seconds later** with `:Fat_Wheeze:`. The old parent is **625 days, 16h27m40.687s** older than Ren's tag. This adds summon-responsive scrollback/archive fluency and materially deepens the Ren lane: in January Dain stops to ask whether Ren's mint-chocolate agreement is sarcasm; in May one tag attached to concrete shared Wall context needs no explanation. The person-level contradiction is **asks when tone is ambiguous ↔ needs almost nothing when the shared premise is concrete**. `(Retired)` remains display text, not appointment or retirement chronology; the old attachment remains POSTED BY Ren only.
 
-## Run 1489 final close
+**WIKI reader frontier:** `cb7d91f88dab86aa4078513a5101eba6bdc13517`.
 
-Full branch census: **51 tracked miner identities = 30 active refs + 21 historical/missing**, with **0 newly discovered refs, 0 unread pending review, 0 backlog, and 0 overdue** after cross-surface reconciliation and the closing miner sweep. Both Club-Only recovery lanes remain current. The opening MAIN ledger temporarily made five already/recently reviewed lanes look pending; WIKI's durable Run 1488 state established that Birthdays, Daycare, Whiskey, and Wall were already reviewed through their current heads, so they were not reread. The only genuinely new reader lane this pass was Louvre / Other Games.
+- **Build Underlords Wiki `35538225247`: succeeded.**
+- **Deploy Underlords Wiki Preview / Pages `35538225268`: succeeded through deployment.**
 
-### Louvre / Other Games — Qin-Mu
+### Louvre / Other Games — Beo source-custody reset
 
-Louvre / Other Games was reviewed through `47164866c167cc9a41d61d955ee66ddfba65ac50`. The current checkpoint's Qin-Mu return owner is **stable account `489482344869396490` / `yoza6592`**, not the separate same-name account `235487421488562176`. Same display-name resemblance is not an identity bridge.
+Louvre / Other Games was reviewed from consumed frontier `47164866c167cc9a41d61d955ee66ddfba65ac50` through `94d9b0dced40ecc4059ef96ec1a5d73a03373429`.
 
-The publishable person read is **long absence ↔ uncomplicated belonging language**. On 2025-12-21 Qin-Mu asks whether UL has a Where Winds Meet branch after being away since the OG Dragon Raja era, then follows the practical need with `I need a guild lol I miss you guys`. Mugen's reply is simple and present-tense: UL does have a guild. The `lol` lowers the pressure after the exposed feeling without deleting the feeling. This supports a return / low-ceremony belonging beat, not continuous closeness through the gap, a Raja quit chronology, guaranteed durable renewed participation, or special Qin-Mu↔Mugen intimacy.
+The new packet is a **source-custody correction, not a new public Beo personality claim**. The inherited Louvre route `Doesn't Know the Link, Knows Who He Wants Inside` was audited back to **Club Only / Announcements**, where the direct raw rows actually live: Beo asks to invite Shamont, admits `I don't know how`, then says `Don't erase` / `Let me copy` while the link exchange remains mutually fallible. The broader-project read — social intent outruns procedural confidence — remains good under its owning Announcements source, but Louvre has **not** independently earned that pattern yet. Beo's assigned Louvre body is reset to OPEN / DIRECT-FIRST: 22 Louvre rows / 3 media-bearing events still need assigned-room reconstruction and individual provenance classification.
 
-The first Run 1489 WIKI attempt accidentally attached an older same-name art-room packet to the Qin-Mu owner. That collision was caught before accepted publication. Reader commit `c8fa9fb3e36421717a0a697fa04d1712906f498b` repairs the owner to stable account `489482344869396490` and keeps the wider Louvre body as provenance work rather than silently merging same-name accounts.
+No public correction was required because current MAIN/WIKI Beo material already uses the broader doorway/invitation behavior as global/Announcements-era biography rather than claiming those lines were Louvre receipts. The stale Louvre intake route is quarantined backstage so it cannot be re-imported later as fake creative-room recurrence.
 
-The same reader repair also keeps the earlier **Efi** deepener on Efi's actual stable account `214487205636210689` rather than Sye's `488099199938986004`, and removes the broken `/characters/rv` route from Efi's relationship line. `RV` remains Ren's alias in the relationship prose; the stale nonexistent route no longer breaks built-output verification.
+Minor Louvre probes for iBwoy, Prince Charm, and DaeDae produced no clean assigned-room neighborhood; no personality or authorship was inferred from retrieval silence or media counts.
 
-### Reader verification / deployment
+### Surface split / held work
 
-**WIKI reader frontier:** `c8fa9fb3e36421717a0a697fa04d1712906f498b`.
+**MAIN reader-facing pages changed: 0 intentionally.** Dain's current MAIN biography already owns the richer whole-person story — quiet recognizability, cats/naps/music, Ren's serious-until-talking contrast, reciprocal nickname shorthand, and ordinary-life texture. The new old-receipt mechanics are much better as structured WIKI relationship/reference material than as another receipt paragraph bolted onto that biography. Danny was duplicate; Louvre was source-custody cleanup. No fresh MAIN reader build/deployment is claimed for unchanged reader bytes.
 
-- **Build Underlords Wiki `35536565394`: succeeded.**
-- **Deploy Underlords Wiki Preview / Pages `35536565381`: build succeeded and deployment succeeded.**
-
-An earlier reader attempt, `27e4fe77a70f1327781f1d7ee5681c39cfe014c4`, was correctly rejected by built-output verification because the newly activated Efi relationship emitted a dead `/characters/rv` link. That attempt is not the accepted reader frontier.
-
-**MAIN reader-facing pages changed: 0 intentionally.** Qin-Mu's return is strong enough for structured WIKI reference but not yet broad enough for a richer person-first MAIN biography. The other apparent movers were already reviewed/corroborative rather than reasons to bolt receipt paragraphs onto current MAIN owners. No fresh MAIN reader build or deployment is claimed for unchanged reader bytes.
+Open rails remain: Lilly is queued for a dedicated full-footprint Wall synthesis rather than partial promotion; Aesh first-coining and Grasshopper origin remain open; Milo native-asset visual review remains held; RH-16 bot identity remains unresolved; same-name Qin-Mu accounts remain separate absent a direct identity bridge; Beo's assigned Louvre 22-row body remains direct-first; current/export role arrays remain non-chronological; joke family/romance/governance stays nonliteral; earliest surviving is not origin; and `SAID BY`, `POSTED BY`, `MADE BY`, `CAPTURED BY`, and `FEATURING` remain distinct.
 
 ### Consumption handoff
 
-- **Louvre / Other Games:** consume through `47164866c167cc9a41d61d955ee66ddfba65ac50`. **DO NOT REREAD through this SHA.**
-- **Daycare:** consume through `c79dbec3c458884cd3c94a2a8769e9e3d639522b`. Already reviewed/published in Run 1488; **DO NOT REREAD.**
-- **Whiskey:** consume through `810dbcccebdaa9de64356fa2ac687f8203e8185f`. Already reviewed/published in Run 1488; **DO NOT REREAD.**
-- **Wall:** fully reviewed through `2db4603f05ff8632424e844d721be367223beec5`; older contiguous consumed cursor remains held behind inherited MAIN Shiki/publication verification debt. **DO NOT REREAD through `2db4603f`.**
-- **Birthdays / PR / VC:** fully reviewed through `31b7cf7a7de5e46520b49062886ff6b32d9f6a15`; older structured-history publication debt still holds the contiguous consumed cursor. **DO NOT REREAD through `31b7cf7a`.**
-- **Core Rooms:** remains fully reviewed through `4c5a1d550098d9701b27b6d3dac513659499aa40`; older contiguous consumed cursor remains held behind inherited MAIN publication debt. **DO NOT REREAD.**
-- **Club-Only 2021–2026** and **Club-Only 2020:** remain recovery-current at their prior reviewed frontiers.
-
-### Open rails / rabbits
-
-The separate same-name Qin-Mu account `235487421488562176` is **not** merged into the return owner without an explicit identity bridge. Wider Qin-Mu Louvre provenance, the exact five-row WWM return timing graph, and durable post-return participation remain open mining work. RH-16 bot identity remains unresolved. Akariel remains distinct from unresolved Zyrcant bridging. Current/export role arrays remain non-chronological; joke family/romance/governance stays nonliteral; earliest surviving is not origin; and `SAID BY`, `POSTED BY`, `MADE BY`, `CAPTURED BY`, and `FEATURING` remain distinct.
-
-Run 1489 closes with **0 unread pending branches, 0 backlog, and 0 overdue**. Reader-facing publication was intentionally WIKI-only: Qin-Mu got the structured return owner he has actually earned, and the same-name collision got thrown out before it could become canon soup.
+- **Wall:** fully reviewed through `3f297455b39c3e130c8917dc349bc279f854164c`. Its older contiguous consumed cursor remains held behind inherited MAIN publication/verification debt. **DO NOT REREAD through `3f297455`.**
+- **Louvre / Other Games:** reviewed with no reader change required through `94d9b0dced40ecc4059ef96ec1a5d73a03373429`; safe to advance its consumed SHA there. **DO NOT REREAD.**
+- **Daycare:** remains consumed through `c79dbec3c458884cd3c94a2a8769e9e3d639522b`.
+- **Whiskey:** remains consumed through `810dbcccebdaa9de64356fa2ac687f8203e8185f`.
+- **Birthdays / PR / VC:** remains fully reviewed through `31b7cf7a7de5e46520b49062886ff6b32d9f6a15`, with its older contiguous cursor held by structured-history publication debt.
+- **Core Rooms:** remains fully reviewed through `4c5a1d550098d9701b27b6d3dac513659499aa40`, with its older contiguous cursor held behind inherited MAIN publication debt.
+- **Club-Only 2021–2026** and **Club-Only 2020:** recovery-current at their prior reviewed frontiers.
