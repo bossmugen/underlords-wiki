@@ -79,7 +79,7 @@ allCharacters.push({
   aliases: ["._."],
   billing: "guest",
   role: "Archive-era Wall cast",
-  era: "Archive era",
+  era: "2021+",
   logline: "Aesh discovers that the room has compressed an unwieldy version of his name into the world's most economical nickname: `._.`. His response is not outrage but laughter — apparently `aesh van gobg` takes too long to type, so punctuation wins. It is less a rename than UL solving character count with a face.",
   tags: ["Wall", "Nickname lore", "Social shorthand", "Fast-typing culture", "Petty Crimes"],
   stableDiscordIds: ["188738539962548225"],
@@ -97,6 +97,36 @@ allCharacters.push({
     "`so I became ._.` is social joke-language in the nickname conversation; do not turn it into a formal display-name change, account rename chronology, or identity-transfer event.",
     "Do not infer that Mugen invented the nickname merely because she is present in the conversation; the surviving material establishes shared discussion and laughter, not sole authorship.",
     "Punctuation resemblance is not an identity bridge to any other account or person."
+  ],
+} as ArchiveCharacter);
+
+allCharacters.push({
+  id: "tonytonychopper",
+  name: "TonyTonyChopper",
+  aliases: ["Tony"],
+  billing: "guest",
+  role: "Archive-era Wall cast",
+  era: "2022+",
+  logline: "Tony's Wall instinct is to react to public evidence like somebody has kicked open the bathroom door — `STOPPPP`, `DONT SHOW THEM`, immediate caps-lock emergency — and then keep standing in the doorway. He takes the pats, sends back hearts and blushes, and eventually files Marian right back. Privacy panic and participation are apparently allowed to coexist.",
+  tags: ["Wall", "Receipt war", "Privacy panic", "Affectionate re-entry", "Bad spelling", "Petty Crimes"],
+  stableDiscordIds: ["851264843306631168"],
+  relationships: [
+    { name: "Marian", note: "Marian files Tony more than once; Tony's protest grammar repeats, and then Tony eventually turns around and directly summons Marian with his own screenshot. Marian answers `oi` and `that'ssprivate`, mirroring the privacy objection back at him. Reciprocal receipt-war familiarity, not hostility and not a claim about whoever appears inside the uninspected image." },
+    { name: "phenomenal_lamb", note: "When Tony gets exposed, lamb's rhythm is laugh first, pat afterward. On May 31 lamb mechanically replies to Tony's exact `NO` with `*pat pat*`; Tony answers the pat with `:Cat_Sporkle:` and keeps accepting the softer aftermath. The teasing does not eject him from the room — it gives him a way back into the joke." },
+  ],
+  quotes: ["WR DONT NEED TO SHARE THIS WITH THE WORLD", "NO / STOP / DONT SHOW THEM", "I am actually the real ceo of bad spelling", "SOGGY BACON?? THAT EXISTS??"],
+  claims: [
+    "Stable Discord account 851264843306631168 is TonyTonyChopper / Tony in the reviewed 2022 Wall material.",
+    "Tony's repeated person-level pattern is dramatic evidence suppression without social withdrawal: caps-lock protest, affectionate uptake, then eventual reciprocal filing.",
+    "Marian and Tony have a documented reciprocal receipt-war / privacy-mirroring lane: Marian files Tony in February and May; Tony directly summons Marian with a June 12 filing and receives `that'ssprivate` in return.",
+    "phenomenal_lamb has a repeated laugh-then-pat aftermath around Tony exposure, with Tony answering through heart/sporkle/blush-style uptake rather than disengaging."
+  ],
+  antiFanon: [
+    "Tony calling himself `ceo of bad spelling` is a joke self-description, not governance, appointment, staff authority, or a formal title.",
+    "`our two childs`, `sibling`, and `crazy family tree` in the same Wall ecology are joke-family language only; do not literalize biological or adoptive kinship.",
+    "Tony's June 12 attachment is confirmed POSTED BY Tony and directly targets Marian socially. MADE BY, CAPTURED BY, and visual FEATURING remain unresolved because the pixels were not inspected for those claims.",
+    "The privacy-panic contradiction is a recurring Wall mechanism, not evidence of genuine hostility, trauma, or a global personality diagnosis.",
+    "Tony's food and haircut lines are small taste/humor texture; the visual subjects of uninspected attachments remain unresolved."
   ],
 } as ArchiveCharacter);
 
