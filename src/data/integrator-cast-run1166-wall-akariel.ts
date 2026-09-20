@@ -6,13 +6,34 @@ type ExtendedCharacter = Character & {
   antiFanon?: string[];
 };
 
+// Hard canon repair: Akariel and Zyrcant are separate people. Older base/canonicalize
+// layers still carry Akariel aliases on Zyrcant, so clean that contamination before
+// locating the Akariel owner. Never use the contaminated aliases as an identity bridge.
+const zyrcantIndex = allCharacters.findIndex((character) => character.id === "zyrcant");
+if (zyrcantIndex >= 0) {
+  const zyrcant = allCharacters[zyrcantIndex] as ExtendedCharacter;
+  const akarielAliases = new Set(["Akariel", "Akariel™", "akariel_star"]);
+  allCharacters[zyrcantIndex] = {
+    ...zyrcant,
+    aliases: (zyrcant.aliases ?? []).filter((alias) => !akarielAliases.has(alias)),
+    logline:
+      "UL VIP and recurring extended-family guest whose file remains distinct from Akariel; older fused Akariel labels are a superseded identity error, not an alias chain.",
+    antiFanon: [
+      ...new Set([
+        ...(zyrcant.antiFanon ?? []),
+        "Akariel and Zyrcant are separate people under current hard canon. Do not restore Akariel / Akariel™ / akariel_star as Zyrcant aliases from older public layers.",
+      ]),
+    ],
+  } as ExtendedCharacter;
+  characterById.set("zyrcant", allCharacters[zyrcantIndex]);
+}
+
 const akarielId = "akariel";
 const existingIndex = allCharacters.findIndex(
   (character) =>
     character.id === akarielId ||
     character.name === "Akariel" ||
-    character.name === "Akariel™" ||
-    (character.aliases ?? []).some((alias) => alias === "akariel_star"),
+    character.name === "Akariel™",
 );
 
 const patch: ExtendedCharacter = {
@@ -50,7 +71,7 @@ const patch: ExtendedCharacter = {
     "The July `oooh shit *runs*` follows a `caught in 4k` callout after a long gap and is best treated as likely contextual uptake, not a hard structured-reply edge.",
     "The Ren exchange is a bounded Wall-orientation / challenge-acceptance beat, not evidence of off-Wall closeness, governance authority, or a literal Wall admissions process.",
     "Do not turn Akariel's repeated Wall posting into a formal filer, moderator, media, or governance role.",
-    "No Akariel↔Zyrcant identity bridge is established here; stable IDs and user-confirmed identity rails remain controlling.",
+    "Akariel and Zyrcant are separate people under current hard canon; similar names or older fused public metadata do not bridge them.",
   ],
 };
 
