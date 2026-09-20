@@ -5,7 +5,7 @@ aliases:
 roles:
   - "Archive-era Whiskey cast"
 eraStart: 2020
-summary: "Ricochet's surviving file is ordinary-life and game-world texture rather than office-holding: a family puppy plan, South Texas cold, a tank-game account with nearly 100k battles, a hypothetical wedding idea, Cheesecake Factory with one critical missing cheesecake, and a 2022 return where Syv notices he vanished for weeks before he immediately asks her for ramen."
+summary: "Ricochet's surviving file is ordinary-life and game-world texture rather than office-holding: a family puppy plan, South Texas cold, a tank-game account with nearly 100k battles, a hypothetical wedding idea, Cheesecake Factory with one critical missing cheesecake, a very `Funcle rich` attempt at remembering the Platelets can see the Wall, and a 2022 return where Syv notices he vanished for weeks before he immediately asks her for ramen."
 summaryEvidence: "archive-confirmed"
 publication: "public"
 claims:
@@ -37,23 +37,31 @@ claims:
     evidence: "archive-confirmed"
     date: "2021-06-18"
     note: "`got me` does not establish who paid, ordered, drove, picked up, delivered, cooked, or photographed the food. The attached image remains uninspected."
+  - text: "On September 18, 2021, stable Ricochet account 459696170759880745 stopped himself from using a sexualized room-title joke because Platelets could see the page; Ren answered `Funcle rich thinking of his 100+ nephews`, Snow pointed out he had said the phrase anyway, and Zyrcant extended the nephew joke."
+    evidence: "archive-confirmed"
+    date: "2021-09-18"
+    note: "The scene supports a socially legible `Funcle rich` / audience-awareness joke around Ricochet. It does not bridge Ricochet to canonical Rich / DragonRich, establish nickname origin, literal uncle-nephew kinship, or a formal safeguarding role."
   - text: "On January 13, 2022, Ricochet said it was probably his first time in the Wall `in a while`; Syv answered `You disappeared for weeks`. Ricochet replied `I’m busy`, then five seconds later asked `Also syv send me ramen`; Syv answered `I’m broke`."
     evidence: "archive-confirmed"
     date: "2022-01-13"
     note: "The exchange supports a Wall-local return and comfortable low-friction familiarity between Ricochet and Syv. It does not establish why Ricochet was busy, a server-wide absence, a food-delivery obligation, completed ramen delivery, or a recurring ramen preference."
 antiFanon:
   - "May 16, 2020 is surfaced Whiskey presence, not Ricochet's proven entry, admission, or recruitment date."
-  - "Ricochet / `dragonrichard` is not canonical Rich / DragonRich. Keep the identities separate unless a direct bridge is recovered."
+  - "Ricochet / `dragonrichard` is not canonical Rich / DragonRich. Keep the identities separate unless a direct bridge is recovered. The September 2021 phrase `Funcle rich` is scene-level address/joke language attached to stable Ricochet account 459696170759880745, not an identity merge."
   - "South Texas is first-party scene context, not a complete residence history or nationality claim."
   - "The September puppy image, January tank-game screenshot, and June food image remain visually uninspected; posting does not automatically establish maker, capturer, subject, or ownership."
   - "The April wedding line is hypothetical and does not establish a relationship, engagement, spouse, or wedding plan."
   - "Panda's Cheesecake Factory line supports an ordinary-life favor visible through Panda's wording; it does not establish the logistics behind `got me`."
+  - "`Funcle`, `nephews`, and Snow's text-action `-finger flicks-` are social/joke language. Do not literalize biological family, physical contact, governance, or a formal child-safety duty from the scene."
   - "`I’m busy` does not establish employment, school, travel, health, care work, or any other cause for Ricochet's weeks-long Wall absence."
   - "One ramen request is not a durable food preference, and Syv's `I’m broke` is not a lasting financial-status claim."
 relatedPeople:
   - "panda"
   - "gilli"
+  - "ren"
+  - "snow"
   - "syv"
+  - "zyrcant"
 tags:
   - "archive-cast"
   - "whiskey"
@@ -62,10 +70,12 @@ tags:
   - "2021"
   - "2022"
   - "dragon-raja"
+  - "funcle"
+  - "audience-awareness"
   - "return"
 ---
 
-Ricochet's file does not need a title to become a person. The useful material is almost aggressively ordinary: a family dog plan, a freezing day, games bleeding into other games, one hypothetical wedding thought, somebody else reporting that he got them Cheesecake Factory while also filing a complaint against the missing cheesecake, and eventually a return from absence that survives for less than a minute before becoming a ramen request.
+Ricochet's file does not need a title to become a person. The useful material is almost aggressively ordinary: a family dog plan, a freezing day, games bleeding into other games, one hypothetical wedding thought, somebody else reporting that he got them Cheesecake Factory while also filing a complaint against the missing cheesecake, one failed attempt to keep a filthy joke away from younger eyes, and eventually a return from absence that survives for less than a minute before becoming a ramen request.
 
 ## ALREADY IN THE ROOM, FUTURE PUPPY PENDING
 
@@ -111,6 +121,26 @@ The parenthetical is magnificent because it arrives as mandatory consumer disclo
 
 `got me` stays exactly that broad. We do not know who paid, ordered, drove, picked up, delivered, cooked, or photographed the food. What survives cleanly is simpler: Ricochet did something Panda understood as getting him the meal, and Panda thought the absence of cheesecake was important enough to notarize immediately.
 
+## FUNCLE IS APPARENTLY A BEHAVIOR
+
+September 18 gives the file a contradiction that is much more useful than treating `Funcle` as decorative family-language. Ricochet starts toward a deliberately filthy room-title joke, then remembers the actual audience:
+
+> `I was going to put in underlord’s underground strip dungeon but then I remember platelets can view this page`
+
+Ren reads the reflex instantly:
+
+> `Funcle rich thinking of his 100+ nephews`
+
+Snow, meanwhile, notices the fatal flaw in Ricochet's censorship strategy:
+
+> `you said it anyways  -finger flicks-`
+
+And Zyrcant, because apparently one imaginary family census was not enough, adds that this is a lot of nephews.
+
+That is the whole mechanism in miniature. Ricochet is dirty-minded enough to invent the joke, aware enough to remember who can see the page, and chaotic enough to repeat the exact phrase while explaining why he should not put it there. `Funcle` lands as lived reputation because Ren uses it to explain what Ricochet is **doing**, and the room immediately understands the premise.
+
+The wording does not merge Ricochet with canonical Rich / DragonRich. It is a Wall-local joke attached to stable Ricochet account `459696170759880745`. Nor does it create literal nephews or a formal safeguarding job. It gives us something much smaller and more human: a guy trying to apply an audience filter after his own brain has already supplied the stripper dungeon.
+
 ## BACK FROM THE DEAD, REQUESTS RAMEN
 
 January 13, 2022 gives Ricochet a return scene that he absolutely refuses to let become a return **speech**.
@@ -137,9 +167,10 @@ It is one scene, so it does not become a diagnosis that Ricochet is always disap
 
 ## PETTY CRIMES
 
+- Tried to self-censor a stripper-dungeon joke for the Platelets and defeated the censorship by saying the entire thing while explaining the censorship.
 - Returned after a peer-described weeks-long disappearance and requested ramen almost immediately.
 - Has used Dragon Raja itself as the benchmark for explaining that another game's grind can, in fact, be worse.
 - South Texas weather personally offended him in February 2021.
 - Appears in the historical record of Cheesecake Factory procurement with a formally noted cheesecake deficit.
 
-Taken together, Ricochet's surviving texture is portability. He keeps bringing whatever is directly around him into the room — games, weather, family plans, hypothetical futures, food — and the room is familiar enough to answer at the same scale. Sometimes that means Panda filing a cheesecake deficiency. Sometimes it means Syv noticing he vanished and, less than a minute later, denying the ramen budget.
+Taken together, Ricochet's surviving texture is portability. He keeps bringing whatever is directly around him into the room — games, weather, family plans, hypothetical futures, food, even the moment his own joke needs an audience check — and the room is familiar enough to answer at the same scale. Sometimes that means Panda filing a cheesecake deficiency. Sometimes it means Ren calling the failed self-censorship `Funcle` behavior. Sometimes it means Syv noticing he vanished and, less than a minute later, denying the ramen budget.
