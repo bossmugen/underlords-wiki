@@ -1,39 +1,53 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-19 — Run 1439 close_
+_Last updated: 2026-09-19 — Run 1440 close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies. Earlier run detail remains available in git history and MAIN `integration-runs/`.
 
-## Run 1439 close
+## Run 1440 close
 
-The full miner census remains **51 tracked identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 unread pending review, 0 backlog, and 0 overdue**. Opening and closing censuses found every active miner HEAD unchanged from the already-reviewed Run 1438 frontier. Both Club-Only recovery lanes remain current.
+The full miner census remains **51 tracked identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 unread pending review, 0 backlog, and 0 overdue** at close. Both Club-Only recovery lanes remain current. Opening review selected Core Rooms, Wall, and Whiskey; a closing sweep caught Core Rooms and Wall advancing again, and both late intake-only tails were reviewed before close rather than being left as surprise work for the next integrator.
 
-No miner branch advanced, so there were **0 intake deltas, 0 genuinely new findings, 0 duplicate-family changes, 0 rabbit/conflict movement, and 0 consumed-SHA advances**. The controlling MAIN ledger still carries **10 pending-publication families**; these are reviewed publication/resynthesis/verification debt or accepted candidates, not unread mining.
+The final reviewed frontiers are:
 
-**MAIN reader changes: 0. WIKI reader changes: 0.** Nothing was newly routed to only one surface. Because reader bytes did not change, no MAIN source-verification/Astro/built-output run and no WIKI Astro/Pages rebuild were triggered merely for ceremony. No deployment is claimed for either repository this run.
+- **Core Rooms** `bddb2379722b716951ee8d496baae320edd6347e` — fully reviewed through the completed Shiki handoff family. The strong new read is one cumulative mechanism: hard-edged game/PvP language ↔ opponents treated as methods to study; learner ↔ helper; confidence ↔ candid acknowledgment of losing. WIKI carries the structured deepener. MAIN still has a richer Shiki person-first fold accepted but publication-blocked by the inherited verifier problem, so the Core consumed cursor does not advance yet. **Do not reread through `bddb2379`.**
+- **Wall** `748ea82f5e37a871d27c1347c49ae7b9ab065baf` — fully reviewed. The first tail reconciled **Alkey = itsalkey = Meowk 💖✨** at stable account `264889543365230614`, while preserving the hard **Alkey ≠ Key / Captain Chihuahua** boundary; it also deepened Alkey as fast-premise riffer / anti-coverup witness / nostalgic old-lore reader. The late tail added RotiniLM as a structured Cast owner: self-described lurker / receipt curator ↔ unrepentant filer who dodges the spotlight, with practical boundaries under the joke presentation. WIKI carries both. MAIN still needs the stale Alkey/Meowk split corrected and Alkey's whole-person fold reconciled once MAIN verification is usable. Wall's contiguous consumed cursor remains behind the inherited accepted MAIN Shiki gate. **Do not reread through `748ea82f`.**
+- **Whiskey** `df1c66884ce76e3bae07ce8dc0106c267ba9c9cc` — fully reviewed and WIKI-verified through Marsy. Marsy moves from explicitly invited audience → generous visual/social appreciator → contributor, while sparse prose remains compatible with deliberate participation rather than a shyness label. MAIN intentionally stays unchanged because Marsy's current material is still strongest as structured Cast depth.
 
-The verified WIKI reader frontier therefore remains Run 1438's Kiro reader commit **`e725fa1dce5e899bfa60551b537de5ddd4f40288`**. Build Underlords Wiki **`35484349613`** and Deploy Underlords Wiki Preview / Pages **`35484349592`** remain the latest successful verification/deployment pair carried forward by state.
+The controlling MAIN ledger carries **11 reviewed pending-publication families** at close: prior debt plus the newly accepted MAIN Alkey identity/person reconciliation. These are reviewed publication/resynthesis/verification debt or accepted candidates, not unread mining.
 
-## Reviewed / stable frontiers at close
+## WIKI reader publication
 
-- **Wall** `dd0076a405d76e66c85aa86d1f1518df9b17e434` — fully reviewed; Kiro WIKI deepener remains live and verified. The contiguous consumed cursor remains `01cf4664d8e5130052874789adbfda382935b1a3` only because of the inherited accepted MAIN Shiki publication gate. **Do not reread through `dd0076a4`.**
-- **Daycare** `f0ec6d62e528fdc28312ca1b40688a6aa26835fb` — consumed; Mërcy and SaraBunny remain live from reader `778857f2cdecb0f583a98bf9534630a7e82e33a2`.
-- **Whiskey** `9e85decae3816ea9931f71cadb31303471da88ab` — consumed; Olenka's Yaza shared-doorway → `friendO` relationship chronology remains live from reader `778857f2cdecb0f583a98bf9534630a7e82e33a2`.
-- **Birthdays** `5f85344deef60149ce9594fc4a93ccba935c6e78` — review-current; accepted Dec. 28–29, 2020 birthday-page proposal → ready-channel-by-morning material remains a WIKI Episode/history candidate. Its consumed cursor stays `de5d633239552cae06c54df028b262950c480adf`. **Do not reread the reviewed delta.**
-- **Club-Only 2021–2026** `e45fb11c9239e236231bb65645dfd0285bc0078b` — recovery lane current.
-- **Club-Only 2020** `ed66714f8d2c18f23bbb2b951bf305f0fa913f21` — recovery lane current.
+The verified/deployed reader frontier is **`725bccb4b5022624cb1331698d916c75e30d6ab7`**.
+
+That descendant contains all Run 1440 reader work:
+
+- **Shiki:** method-minded PvP / combat-as-study, learner↔helper, confidence↔candid-loss contradiction, bounded Mugen recognition/support lane.
+- **Alkey:** stable-account reconciliation with `itsalkey` / `Meowk 💖✨`, Wall fast-premise humor, Baby Lyssa anti-coverup familiarity, Mugen audience/performer uptake, old-lore nostalgia.
+- **Marsy:** new structured Cast owner with Gilli early-inclusion lane and invited-audience → appreciator → contributor micro-arc.
+- **RotiniLM:** new structured Cast owner with lurker/filer ↔ spotlight-dodger contradiction, practical boundary-setting, and bounded Ansun/Mugen/Daya relationship texture.
+
+The final descendant passed **Build Underlords Wiki `35486644056`** and **Deploy Underlords Wiki Preview / Pages `35486644050`**; Pages succeeded through build, deploy, and report. Its parent reader `d2ed50536532480e9143f25d938fefafe711586f` had independently passed Build `35486497260` and Pages `35486497240` before the Rotini late-tail descendant landed.
 
 ## MAIN publication gate
 
-MAIN reader-facing changes in Run 1439: **0**.
+MAIN reader-facing changes in Run 1440: **0**.
 
-The inherited accepted Shiki MAIN reader remains behind the required source/Astro/built-output verification gate already documented in Run 1438. The most recent recorded retry remains dedicated workflow `35458657320`, attempt **30**, job `106007891249`, which failed before any verification step existed with `steps=[]` and `runner_id=0`. This remains runner/provisioning failure rather than a source-verification, Astro-build, built-output-verification, or reader-content failure. No additional retry was fired for an otherwise reader-neutral run. Retry the gate when appropriate; do not remine already-reviewed Wall material.
+The inherited accepted Shiki MAIN reader remains behind the required source/Astro/built-output verification gate. Dedicated workflow `35458657320` was retried again in this run and reached **attempt 31**, job `106013484219`; it again failed before any verification step existed (`steps=null`). This remains runner/provisioning failure rather than a source-verification, Astro-build, built-output-verification, or reader-content failure.
+
+That gate now also blocks two newly accepted MAIN reconciliations from being published safely:
+
+- Shiki's method-minded PvP / learning-opponents / candid-loss deepener should fold into the existing person-first biography rather than become a receipt paragraph.
+- MAIN's current Alkey biography still contains an older archive-only split that says Alkey and Meowk are separate. Stable account `264889543365230614`, username `itsalkey`, and nickname `Meowk 💖✨` now reconcile them as one person; the hard separation that remains is **Alkey ≠ Key / Captain Chihuahua**. Correct the MAIN bio only when the required verifier can actually run.
+
+No MAIN build or deployment is claimed for unchanged reader bytes.
 
 ## Attribution / q9 rails carried forward
 
-- Kiro's October 2022 Wall attachment is recovered strongly enough to establish the exact post and caption, but q9 exact-search zeroes are a known index false negative and do not become global absence evidence.
-- Kiro's Wall attachments remain **POSTED BY Kiro** where supported. MADE BY / CAPTURED BY / visual FEATURING remain unresolved unless separately established.
-- FDA, `spicy`, and Kirk Franklin wording remain scene-local joke/context texture and do not create literal regulatory, sexuality, religion, or broad taste claims.
+- Marsy's January 2021 image is **POSTED BY Marsy**; MADE BY / CAPTURED BY / visual FEATURING remain unresolved without independent media inspection. Reaction-user arrays are final-state membership and do not preserve click order.
+- Rotini's Wall attachments are **POSTED BY Rotini** where supported. MADE BY / CAPTURED BY / visual FEATURING remain unresolved; `WC` stays unresolved. The sampled Club-Only q9 negative is not global absence.
+- Alkey's Wall joke participation does not identify screenshot subjects and does not upgrade POSTED BY to MADE BY / CAPTURED BY / FEATURING.
+- Kiro's earlier attachment rails remain unchanged.
 - Earliest surviving is not guaranteed origin. Current/export role arrays do not create appointment chronology. Joke family language is not biological-family canon; joke romance/flirting is not literal romance/sex without support.
 
 ## Hard identity / role rails carried forward
@@ -43,7 +57,7 @@ The inherited accepted Shiki MAIN reader remains behind the required source/Astr
 - **Ghostt / Ghøstt ≠ Ghoulie / Baby Lyssa. Ghøstt is current Staff.** Current/export role arrays do not create appointment chronology.
 - **Akamin ≠ Mere.** Akamin calls Mugen `mama`; that does not create literal biological-family canon.
 - **Nuien ≠ Illien. Mimi ≠ Mia. Akariel ≠ Zyrcant.**
-- **Alkey ≠ Meowk; both ≠ Key / Captain Chihuahua.**
+- **Alkey = itsalkey = Meowk 💖✨. Alkey ≠ Key / Captain Chihuahua.**
 - **WOO = Woosung.**
 - **Nobu = Xuseio. Nobu is UL Party Director, not Officer.**
 - **Rummy is Nobu's Party Director Apprentice.**
