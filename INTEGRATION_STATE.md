@@ -1,14 +1,14 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-20 — Run 1464 close_
+_Last updated: 2026-09-20 — Run 1465 close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` remains the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies. Earlier run detail remains available in git history and MAIN integration handoffs.
 
-## Run 1464 close
+## Run 1465 close
 
-Full branch census: **51 tracked miner identities = 30 active refs + 21 historical/missing**, with **0 newly discovered refs, 0 unread pending review, 0 backlog, and 0 overdue**. All 30 active miner heads matched the Run 1463 reviewed frontier, so there were **0 intake deltas to inspect**, **0 genuinely new findings**, **0 duplicate-family changes**, **0 conflict/rabbit movement**, and **0 consumed-SHA advances**. Both Club-Only recovery lanes remain current.
+Full branch census: **51 tracked miner identities = 30 active refs + 21 historical/missing**, with **0 newly discovered refs, 0 unread pending review, 0 backlog, and 0 overdue**. All 30 active miner heads matched the Run 1464 reviewed frontier, so there were **0 intake deltas to inspect**, **0 genuinely new findings**, **0 duplicate-family changes**, **0 conflict/rabbit movement**, and **0 consumed-SHA advances**. Both Club-Only recovery lanes remain current.
 
-The controlling ledger still carries **10 reviewed `pending_publication` families**. These remain publication/resynthesis/verification debt rather than unread mining. MAIN persisted the Run 1464 census/state checkpoint in `6863c049c47c0be3d0ffcaeeb32370f30e7b4ca6`.
+The controlling ledger still carries **10 reviewed `pending_publication` families**. These remain publication/resynthesis/verification debt rather than unread mining. MAIN persisted the Run 1465 census/state checkpoint in `19cb90936b7fbb1513e4bc4304baf32eba8241d4`.
 
 ### Public surfaces
 
@@ -19,7 +19,7 @@ WIKI's latest verified/deployed reader frontier therefore remains **`b055d750782
 - Build Underlords Wiki `35508403847` — **success**.
 - Deploy Underlords Wiki Preview / Pages `35508403813` — **success**.
 
-The inherited dedicated MAIN verifier `35458657320` was retried once more. It reached **attempt 49**; latest job `106074595345` completed `failure` with `steps=null`, before source verification, Astro build, or built-output verification could execute. This remains runner/provisioning failure rather than a failed content check. No MAIN reader deployment is claimed.
+The inherited dedicated MAIN verifier `35458657320` was retried once more. It reached **attempt 50**; latest job `106076123759` completed `failure` with `steps=null`, before source verification, Astro build, or built-output verification could execute. This remains runner/provisioning failure rather than a failed content check. No MAIN reader deployment is claimed.
 
 ### Consumption handoff
 
