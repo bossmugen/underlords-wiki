@@ -137,3 +137,43 @@ allCharacters[shikiIndex] = {
   ]),
 } as ExtendedCharacter;
 characterById.set("shiki", allCharacters[shikiIndex]);
+
+const akarielIndex = allCharacters.findIndex((candidate) => candidate.id === "akariel");
+if (akarielIndex >= 0) {
+  const akariel = allCharacters[akarielIndex] as ExtendedCharacter;
+  const relationships = [...(akariel.relationships ?? [])];
+  upsertRelationship(
+    relationships,
+    "Ren",
+    "Akariel's Wall participation is voluntary enough to be funny: `put me on the wall of shame 😩` gets Ren's mock gatekeeping answer, `You got to e a r n your place here`. The joke treats the Wall like somewhere you can petition to enter, not governance or literal consent to future filings.",
+    "e a r n your place",
+    "/characters/ren",
+  );
+  upsertRelationship(
+    relationships,
+    "Tofu",
+    "Months later Tofu true-replies Akariel's exact media parent with `Starting bid: 5¢`; Akariel answers with gasp/worry and three CatCry emojis while the room keeps auctioning the exhibit. Eager participant, instant theatrical victim once the joke turns the receipt back on her.",
+    "Starting bid: 5¢",
+    "/characters/tofu",
+  );
+  allCharacters[akarielIndex] = {
+    ...akariel,
+    logline: appendOnce(akariel.logline, "The longer Wall pattern makes the contradiction cleaner: Akariel can explicitly volunteer for the room's attention, then perform absolute catastrophe once her own filed exhibit starts getting auctioned for pocket change.", "volunteer for the room's attention"),
+    tags: appendUnique(akariel.tags, ["Wall participation", "Dramatic uptake", "Receipt-auction teasing"]),
+    relationships,
+    quotes: appendUnique(akariel.quotes, [
+      "put me on the wall of shame 😩",
+      ":Raja_gasp: :8046_ZeroWorried: :CatCry: :CatCry: :CatCry:",
+    ]),
+    claims: appendUnique(akariel.claims, [
+      "On 2021-01-17 Akariel says `put me on the wall of shame 😩`; Ren answers `You got to e a r n your place here`. This is voluntary participation in the Wall joke, not a formal admission rule or blanket consent to future receipts.",
+      "On 2021-07-03 Akariel POSTS `image0.png`; Tofu true-replies the exact media parent with `Starting bid: 5¢`, and Akariel answers 43.389 seconds later with gasp/worry plus three CatCry emojis while the auction-money bit continues.",
+    ]),
+    antiFanon: appendUnique(akariel.antiFanon, [
+      "Akariel stable account 257294164746698763 is not safely bridged to Zyrcant; keep them separate.",
+      "Akariel's July 3 attachment is POSTED BY Akariel only. MADE BY, CAPTURED BY, and visual FEATURING remain unresolved.",
+      "`put me on the wall` is joke participation, not literal blanket consent, a role, or a governance rule.",
+    ]),
+  } as ExtendedCharacter;
+  characterById.set("akariel", allCharacters[akarielIndex]);
+}
