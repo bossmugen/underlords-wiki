@@ -3,6 +3,7 @@ import { allCharacters, castGroups, characterById } from "./cast";
 import type { Character } from "./wiki";
 
 type ExtendedCharacter = Character & {
+  stableDiscordIds?: string[];
   claims?: string[];
   antiFanon?: string[];
 };
@@ -129,4 +130,71 @@ characterById.set(dain.id, dain);
 const archiveCastGroup = castGroups.find((group) => group.id === "archive-cast");
 if (archiveCastGroup && !archiveCastGroup.characterIds.includes(dain.id)) {
   archiveCastGroup.characterIds.push(dain.id);
+}
+
+// Run 1491 late Wall: Lilly's dedicated full-footprint pass sharpens an already-public filing habit
+// into a cleaner audience/filer contradiction and corrects the old partial count.
+const lillyIndex = allCharacters.findIndex(
+  (character) =>
+    character.id === "lilly" ||
+    (character as ExtendedCharacter).stableDiscordIds?.includes("695476732630925402"),
+);
+
+if (lillyIndex >= 0) {
+  const lilly = allCharacters[lillyIndex] as ExtendedCharacter;
+  const lillyRelationships = [...(lilly.relationships ?? [])];
+
+  upsertRelationship(lillyRelationships, {
+    name: "Woohyuk",
+    note: "This is Lilly's strongest recurring Wall lane. In November she drops a blank-caption receipt, summons Woohyuk less than a minute later, and gets `:ANIdelete:` back. In December she repeats the screenshot→summons rhythm, probably punctures his `i am pure` with `Also that’s the biggest lie you’ve ever told`, then ends the month by posting `@Woohyuk` and the attachment in the same message. The useful relationship grammar is comfortable receipt-summons / mock-exposure familiarity: Lilly expects him to understand why he has been called to the exhibit, and the surviving replies show participation rather than confusion. None of this identifies the unseen screenshot subject or creates romance, sex, or a closeness rank.",
+    href: "/characters/woohyuk",
+  });
+  upsertRelationship(lillyRelationships, {
+    name: "Ren",
+    note: "Ren's 2020 Wall welcome is maximum-volume affection: `LILLYYYY`, sparkle spam, direct tag; Lilly answers `I LOVE YOU`, and Ren returns `I LOVE YOU MOREEEEEEEEEEEE!!!!`. The scene is strong reciprocal arrival excitement and affection, not romance or a relationship ranking.",
+    href: "/characters/ren",
+  });
+  upsertRelationship(lillyRelationships, {
+    name: "Anayss",
+    note: "On December 3 Lilly posts a screenshot, pings Anayss about thirteen seconds later, and gets `:Hehe:` back after another eighteen seconds. It matters mostly as a control case: Lilly's receipt→bare-summons habit is broader than Woohyuk. Keep it as one-scene fluency rather than a recurring relationship tier.",
+  });
+
+  const lillyUpdated: ExtendedCharacter = {
+    ...lilly,
+    logline:
+      "When somebody else has the receipt, Lilly wants the missing conversation immediately — `where is this convo why am i missing it`. When she is the filer, she often supplies almost none of that context herself: blank screenshot, bare @mention, next clown please report to the exhibit. Context-hungry audience member and caption-minimal prosecutor are somehow the same job.",
+    tags: appendUnique(lilly.tags, [
+      "Context-hungry",
+      "Social FOMO",
+      "Caption-minimal filer",
+      "Receipt summons",
+      "Mock exposure",
+      "Petty Crimes",
+    ]),
+    relationships: lillyRelationships,
+    quotes: appendUnique(lilly.quotes, [
+      "where is this convo why am i missing it",
+      "Also that’s the biggest lie you’ve ever told",
+      "OOP WRONG PLACE",
+      "i wanna see this tiktok",
+    ]),
+    claims: appendUnique(lilly.claims, [
+      "Exact stable-ID accounting for Lilly / Lilly👽 / lilly1303 (695476732630925402) returns 30 authored Wall messages and 8 direct attachments across the surviving October 8–December 31, 2020 authored span. This supersedes the earlier partial 29-message estimate; the endpoints are survival bounds, not membership or origin dates.",
+      "The cumulative Wall contradiction is audience/filer asymmetry: Lilly asks `where is this convo why am i missing it` when somebody else's screenshot reaches Wall before she finds the source conversation, yet repeatedly posts her own receipts with blank captions and solves context by summoning a person directly to the exhibit.",
+      "The receipt-summons habit recurs with Woohyuk on November 14, December 1 and December 31, with probable reputation-ribbing on December 2. That repetition supports comfortable mock-exposure familiarity without revealing who or what appears inside the uninspected images.",
+      "On December 3 Lilly uses the same screenshot→summons rhythm with Anayss, supporting the habit as part of Lilly's own social filing style rather than a Woohyuk-only ritual.",
+      "A December 18 `OOP WRONG PLACE` followed almost immediately by Ren's keyboard-smash/laughter is usable as tiny self-caught embarrassment texture; the missing or misposted content itself remains unreconstructed.",
+    ]),
+    antiFanon: appendUnique(lilly.antiFanon, [
+      "All eight direct attachments in the reviewed Lilly Wall ledger are POSTED BY Lilly only. MADE BY, CAPTURED BY, visual FEATURING, and screenshot contents remain unresolved unless separately established.",
+      "A bare @mention after a receipt establishes social target/audience, not who is depicted in the image.",
+      "Woohyuk's `i am pure` → Lilly's `biggest lie` direction is probable from tight adjacency, not a structured Reply pointer.",
+      "Ren/Lilly `I LOVE YOU` language is exuberant scene-bounded affection, not literal romance, sex, exclusivity, or a friendship ranking.",
+      "The October 8 earliest surviving authored Wall message does not establish Lilly's join date, origin, or first meeting with anybody.",
+      "The corrected 30-message count is source-bounded and does not measure Lilly's total UL activity or importance.",
+    ]),
+  };
+
+  allCharacters[lillyIndex] = lillyUpdated;
+  characterById.set(lillyUpdated.id, lillyUpdated);
 }
