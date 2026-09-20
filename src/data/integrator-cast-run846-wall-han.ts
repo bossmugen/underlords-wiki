@@ -33,6 +33,12 @@ upsertRelationship(relationships, {
   href: "/characters/mugen",
 });
 
+upsertRelationship(relationships, {
+  name: "Sou",
+  note:
+    "Sou can drop the entire premise as `protectbutt`; Han mechanically returns to that exact line about an hour later with `#PROTECTBUTT2021`. Han does not just recognize the bit — he upgrades it into a campaign slogan. Keep this as bounded callback-amplification / shared-bit fluency, not a relationship rank.",
+});
+
 allCharacters[hanIndex] = {
   ...han,
   aliases: unique([...(han.aliases ?? []), "Nai", "nai6965", "."]),
@@ -59,14 +65,18 @@ allCharacters[hanIndex] = {
     "but im concerned about my name popping up in this channel pretty often",
     "Of course, its a shame fame wall",
     "Soon u guys will need to rename this channel to Han's wall of shame fame",
+    "#PROTECTBUTT2021",
+    "Can anyone explain salt meme?",
   ]),
   claims: unique([
     ...(han.claims ?? []),
     "Across August–October 2021 Han repeatedly reframes Wall exposure as fame or a mixed `shame fame` category, while also directly saying he is concerned about how often his name is appearing there; the person-shaped contradiction is self-branding plus recurrence-awareness, not simple shamelessness or simple embarrassment.",
     "On 2021-08-24 Han asks `Is it fame or shame lol`; Mugen true-replies `both uwu`, a bounded shared-framing beat that does not establish hierarchy or exceptional closeness.",
     "On 2021-09-22 Han asks when the Wall last had a Fame moment, then offers `I survived another day at work` as one. In the same Fame/Shame discussion he posts an attachment with `It also stays here` / `Im lazy to crop`. He can care quite a lot about what the Wall category means while openly refusing unnecessary clerical polish on an informal filing.",
+    "On 2021-10-12 Han tells his mom that he had apparently been walking on a broken toe for a week, then answers her `Are you dumb?` by reminding her she once walked on a broken leg for a month before realizing it. The useful texture is ordinary-life family humor about mutually terrible injury detection, not a medical or global recklessness claim.",
+    "On 2021-10-13 Han true-replies to Sou's `protectbutt` with `#PROTECTBUTT2021` roughly an hour later. The delay makes the callback funnier rather than weaker: Han remembers the bit and returns with the sloganized version.",
     "By 2021-10-19 Han jokes that the room will soon need to become `Han's wall of shame fame`, then follows it with a walk-away emote; this extends the same self-aware Wall reputation rather than creating a separate episode.",
-    "Petty Crimes: litigating Fame versus Shame, declaring ordinary workday survival a Fame moment, admitting `Im lazy to crop`, and predicting the Wall will eventually need his name in the title.",
+    "Petty Crimes: litigating Fame versus Shame, declaring ordinary workday survival a Fame moment, admitting `Im lazy to crop`, predicting the Wall will eventually need his name in the title, walking on an apparently broken toe for a week before noticing, turning `protectbutt` into `#PROTECTBUTT2021`, and needing somebody to explain the salt meme.",
   ]),
   antiFanon: unique([
     ...(han.antiFanon ?? []),
@@ -74,6 +84,8 @@ allCharacters[hanIndex] = {
     "Han was never an Underlords Officer; current/export role arrays do not establish appointment chronology or explain these Wall jokes.",
     "Mugen's `both uwu` reply supports collaborative joke-framing only; it does not establish romance, family, rank, or a friendship hierarchy.",
     "`Im lazy to crop` belongs to one informal Wall filing and does not imply that Han is careless in his filmmaking, Media Director work, or every other edit.",
+    "Han's broken-toe / mom's broken-leg anecdote is ordinary family humor from Han's own telling. Do not turn it into a diagnosis, a universal pain-tolerance claim, or a broad statement that either person is medically reckless.",
+    "Sou's `protectbutt` → Han's `#PROTECTBUTT2021` supports one mechanically linked shared-bit callback, not exceptional closeness, romance, family, rank, or a formal campaign.",
     "The adjacent Wall screenshots remain POSTED BY their actual filers unless maker, capturer, or subjects are independently established.",
   ]),
 } as ExtendedCharacter;
