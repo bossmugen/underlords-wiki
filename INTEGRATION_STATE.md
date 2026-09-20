@@ -18,11 +18,13 @@ The controlling MAIN ledger still has **10 pending-publication families**. These
 
 ## WIKI reader result
 
-The genuinely useful new structured owner is **Ritha** (`244349150362075136` / `_jacey`). Her dossier now carries the person-shaped contradiction already richer on MAIN: she can be years deep in the *Tower of God* webtoon, notice a new reader immediately, recommend it directly, care about the adaptation, and still soften nearly everything with `i think`, `xD`, or `lol`. The April 2020 return pocket adds the other half of her social shape: Jeto and Mugen visibly notice that she is back; Ritha answers the welcome with the spectacularly uncinematic explanation that she had simply been busy with work. Specific taste, low-pressure delivery, noticed absence, zero comeback speech.
+**Ritha** (`244349150362075136` / `_jacey`) received the first genuinely useful structured gain this run. Her dossier now carries a person-shaped contradiction: she can be years deep in the *Tower of God* webtoon, notice a new reader immediately, recommend it directly, care about the adaptation, and still soften nearly everything with `i think`, `xD`, or `lol`. The April 2020 return pocket adds the other half of her social shape: Jeto and Mugen visibly notice that she is back; Ritha answers the welcome with the spectacularly uncinematic explanation that she had simply been busy with work. Specific taste, low-pressure delivery, noticed absence, zero comeback speech.
 
 The nearby Battle Leader material remains fenced out of governance chronology. Mugen's `Battle leader?` is a future-oriented question, not an appointment; the `loli general battle leader` / `none of the responsibilities` pocket is joke-role texture, not authority.
 
-Wall's new Lilly packet was reconciled as cumulative texture rather than a new Episode: loud social uptake, giant affection, direct summons, and quiet receipt filing all deepen the same already-public person mechanism. The reviewed Anayss summon remains one bounded relationship beat. Egotism is still too thin for a real dossier expansion, and q9 remains retrieval/attribution-limited.
+**Lilly / `Lilly👽`** became a new structured Wall owner rather than another receipt paragraph. Her surviving contradiction is **high-uptake affectionate joiner ↔ quiet receipt filer**: `HAHAHAHA`, `OMG AMAZING`, direct `I LOVE YOU`, asking where the live conversation moved, volunteering to join Shk's joke jail, then sometimes posting the receipt with no caption at all and summoning Woohyuk or Anayss straight into the exhibit. The relationships stay lived and bounded: participation, summons, replies, and reciprocal affection without inventing romance, friendship ranks, literal jail, or screenshot contents that were never inspected.
+
+Egotism is still too thin for a real dossier owner, and q9 remains retrieval/attribution-limited.
 
 Whiskey's proposed **separate RV dossier was rejected during reconciliation**. The miner tried to split stable account `697225549390676008` / `r._v` / reviewed `RΣN` styling away from canonical Ren. That conflicts with the hard user-confirmed **RV = Ren = RΣN = r._v** identity lock. A transient draft of the split was removed before the verified reader frontier; **no separate `rv-rdotv` owner remains on `main`**. Keeper→exhibit/shared-memory texture may be reused only inside canonical Ren if it can be reconciled without violating the hard lock.
 
@@ -30,7 +32,7 @@ Final verified/deployed WIKI reader frontier is **`5151c5dd580c9c2479684c4166925
 
 ## MAIN publication gate
 
-MAIN reader-facing changes this run: **0**. Ritha already has the richer person-first biography there; Wall's Lilly material is cumulative rather than a reason to append another paragraph; the Whiskey identity conflict was held rather than published.
+MAIN reader-facing changes this run: **0**. Ritha's new material is strong structured dossier depth but still too compact to justify building a rich biography around one fandom lane plus one return pocket; Lilly remains Wall-concentrated and is better served by WIKI's structured owner than by stapling a receipt-shaped paragraph onto MAIN. The Whiskey identity conflict was held rather than published.
 
 The inherited accepted MAIN Shiki reader remains verification-blocked by runner/provisioning infrastructure. Dedicated verifier workflow `35458657320` was retried and reached **attempt 27**; job `106001711447` again completed `failure` before any verification step existed (`steps=null`). This is infrastructure failure, not a source-verification, Astro-build, built-output-verification, or content failure. No fresh MAIN verification/build/deployment success is claimed. Retry verification, not Wall mining.
 
