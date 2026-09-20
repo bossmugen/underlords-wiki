@@ -1,8 +1,24 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-20 — Run 1448 close_
+_Last updated: 2026-09-20 — Run 1449 close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` remains the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies. Earlier run detail remains available in git history and MAIN `integration-runs/`.
+
+## Run 1449 close
+
+The full opening and closing census is **51 tracked miner identities = 30 active refs + 21 historical/missing**, with **0 newly discovered refs, 0 unread pending-review branches, 0 backlog, and 0 overdue**. Every active miner HEAD matched the Run 1448 reviewed frontier, so there were **0 new intake deltas**, **0 consumed-SHA advances**, and both Club-Only recovery lanes remain current.
+
+### WIKI publication status
+
+Reader-facing changes in Run 1449: **0**. The exact verified/deployed reader frontier remains **`389aa95f0c9ae0e1d503b20a4f1ebad6dce81c0f`** from Run 1448. With no reader-byte changes, no new WIKI build/deploy was started.
+
+### MAIN publication status
+
+MAIN reader-facing changes in Run 1449: **0**. The inherited Shiki reader remains behind a GitHub runner-provisioning failure. Dedicated verifier run `35458657320` was retried as **attempt 34**; latest job `106038356255` again completed `failure` with `steps=null`, so no source-verification, Astro, or built-output step actually ran. This remains infrastructure/provisioning failure, not a reader-code failure. No successful MAIN deployment is claimed.
+
+### Consumption / review state
+
+No consumed cursor changed. Wall remains fully reviewed through `ff60ac50b33b1b32b10404e36ee5969c3294204f`, while its contiguous consumed cursor stays at `01cf4664d8e5130052874789adbfda382935b1a3` behind inherited accepted MAIN publication debt. Do not reread Wall through `ff60ac50` unless a later delta advances the branch. Existing reviewed publication debt remains **10 families**; those are publication/resynthesis debt, not unread mining.
 
 ## Run 1448 close
 
