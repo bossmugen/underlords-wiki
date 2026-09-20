@@ -72,6 +72,38 @@ if (woosungIndex >= 0) {
   } as ArchiveCharacter;
 }
 
+// Run 1465 Daycare reconciliation: DyingFox delivers the same warmth at much lower volume.
+allCharacters.push({
+  id: "dyingfox",
+  name: "DyingFox",
+  aliases: ["DyingFox(Gilli's Pond)"],
+  billing: "guest",
+  role: "Archive-era Daycare cast",
+  era: "2020–2022+",
+  logline: "Warm without needing a stadium PA: Lilly can greet Fox with `FOX OMG HIIIII` and `I LOVE YOU`, Fox answers `Love you too!`; Ren can type `fox halp` and get a pat within seconds. Fox's care tends to arrive as compact greetings, bot hugs/glomps, pats, hearts, and practical reassurance instead of speeches.",
+  tags: ["Daycare", "Low-volume warmth", "Bot-mediated affection", "Quick comfort", "Petty Crimes"],
+  stableDiscordIds: ["471370475050762251"],
+  relationships: [
+    { name: "Lilly", note: "Lilly can arrive at full `FOX OMG HIIIII` / `I LOVE YOU` volume; Fox answers `Love you too!`. In a later bot-hug pocket Lilly calls Fox `SUNSHINE`, and Fox answers with a simple `Hi!` plus heart. Same warmth, radically different decibels." },
+    { name: "Ren", note: "Ren's `fox halp` gets an immediate pat response, and a later dinner joke gets Fox's practical `It's dinner you can eat it`. The useful texture is summonable reassurance in tiny gestures, not a caretaker title or closeness rank.", href: "/characters/ren" },
+    { name: "Gabu", note: "Fox also uses the Eli bot to send Gabu a glomp, showing the programmable-affection shorthand is broader than one relationship rather than a Lilly-only ritual.", href: "/characters/gabu" }
+  ],
+  quotes: ["Morning lilly!", "Love you too!", "Hi!", "It's dinner you can eat it"],
+  claims: [
+    "Stable Discord account 471370475050762251 is DyingFox in the reviewed 2020–2022 Daycare chronology.",
+    "Across independent scenes, Fox repeatedly answers high-energy affection or direct summons with short reciprocal gestures: `Love you too!`, bot hugs/glomps, a pat, a heart, or food reassurance.",
+    "The cumulative person-shaped read is high warmth ↔ low-volume delivery ↔ summonable helper; verbal sparseness here is not emotional distance.",
+    "Bot-mediated hugs/glomps/pats function as a recurring tiny affection-delivery system in Fox's surviving social language."
+  ],
+  antiFanon: [
+    "`DyingFox(Gilli's Pond)` is a display-name string and does not establish literal ownership, family, romance, employment, or a formal Gilli relationship.",
+    "Do not flatten compact delivery into shyness, coldness, passivity, or a global quiet-person trait; the reviewed material supports low-volume warmth in these scenes.",
+    "Ren's `fox halp` and Fox's quick response support a bounded comfort/help lane, not therapist, caretaker, moderator, or standing support authority.",
+    "The reviewed welcome/greeting scenes are surviving social touchpoints, not guaranteed first contact or relationship origin.",
+    "No private onboarding/demographic material is surfaced from the intake."
+  ],
+} as ArchiveCharacter);
+
 export const castGroups = previousGroups;
 export const characterById = new Map(allCharacters.map((character) => [character.id, character]));
 export const primaryGroupByCharacterId = new Map(
