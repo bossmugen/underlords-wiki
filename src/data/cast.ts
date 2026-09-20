@@ -2,6 +2,7 @@ import {
   allCharacters as previousCharacters,
   castGroups as previousGroups,
 } from "./cast-pre1488";
+import { applyRun1496 } from "./cast-run1496";
 import type { Character } from "./wiki";
 export type { CastGroup } from "./cast-pre1488";
 
@@ -223,6 +224,8 @@ if (qinMuIndex >= 0) {
 } else {
   allCharacters.push(qinMuCharacter);
 }
+
+applyRun1496(allCharacters);
 
 export const castGroups = previousGroups;
 export const characterById = new Map(allCharacters.map((character) => [character.id, character]));
