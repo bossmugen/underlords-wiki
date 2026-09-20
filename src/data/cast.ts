@@ -215,6 +215,56 @@ if (lillyIndex >= 0) {
   allCharacters.push(lillyCharacter);
 }
 
+// Run 1436 Daycare synthesis: Mërcy barely needs words for NELPH to know exactly what bit they are doing.
+const mercyCharacter: ArchiveCharacter = {
+  id: "mercy-koi",
+  name: "Mërcy",
+  aliases: ["鯉", "Koi", "mercy074431"],
+  billing: "guest",
+  role: "Archive-era support-room cast",
+  era: "2021+",
+  logline: "Two Daycare messages make Mërcy look tiny in the ledger; the rest of her surviving 2021 footprint is much less socially timid. She can tag NELPH into a fake cookie pitch, post an attachment, drop one serene `😌`, and let NELPH turn the whole thing into their shared local business without demanding another word from her.",
+  tags: ["Archive cast", "Daycare", "Wall", "Quiet delivery", "Shared bits", "NELPH", "Petty Crimes"],
+  stableDiscordIds: ["906809263995908096"],
+  relationships: [
+    {
+      name: "N E L P H",
+      note: "Mërcy tags NELPH into `Get your fresh box of cookies !`, contributes an attachment and one `😌`, and NELPH instantly answers `Support your local business 😌` before making the premise explicitly shared with `AKA me and koi`. The scene reads like reciprocal bit-building with very little explanatory paperwork: comfortable joke partners in that moment, without inventing a broader relationship rank.",
+    },
+  ],
+  quotes: [
+    "Get your fresh box of cookies !",
+    "😌",
+  ],
+  claims: [
+    "Stable Discord account 906809263995908096 self-identifies as 鯉 in its November 7, 2021 Underlords lobby intake and is rendered as Mërcy in the same account history.",
+    "Mërcy's assigned Daycare footprint is only two surviving messages, but support-room chronology places the same account in Lobby, Photo Submissions, and then a comfortable Wall bit with NELPH inside less than two weeks.",
+    "In the November 19 Wall exchange, Mërcy starts a tagged cookie-sales pitch and then uses only `😌`; NELPH picks up the premise immediately and explicitly turns it into `me and koi`, supporting a quiet-delivery co-conspirator read rather than treating low Daycare volume as low social ease.",
+  ],
+  antiFanon: [
+    "Low assigned Daycare volume does not establish that Mërcy was globally quiet, inactive, shy, or socially peripheral.",
+    "The November 19 attachment is POSTED BY Mërcy, but its visual contents were not inspected; do not assign MADE BY, CAPTURED BY, or FEATURING, or claim that it explains NELPH's preceding fish line.",
+    "The fake local-business language is a joke premise, not literal employment, ownership, partnership, family, or romance.",
+    "Lobby role-assignment language is onboarding mechanics, not appointment chronology or proof of later Daycare permissions.",
+  ],
+};
+
+const mercyIndex = allCharacters.findIndex(
+  (character) => character.id === "mercy-koi" || (character as ArchiveCharacter).stableDiscordIds?.includes("906809263995908096"),
+);
+if (mercyIndex >= 0) {
+  const current = allCharacters[mercyIndex] as ArchiveCharacter;
+  allCharacters[mercyIndex] = {
+    ...current,
+    ...mercyCharacter,
+    aliases: [...new Set([...(current.aliases ?? []), ...(mercyCharacter.aliases ?? [])])],
+    tags: [...new Set([...(current.tags ?? []), ...(mercyCharacter.tags ?? [])])],
+    stableDiscordIds: [...new Set([...(current.stableDiscordIds ?? []), ...(mercyCharacter.stableDiscordIds ?? [])])],
+  } as ArchiveCharacter;
+} else {
+  allCharacters.push(mercyCharacter);
+}
+
 export const castGroups = previousGroups;
 export const characterById = new Map(allCharacters.map((character) => [character.id, character]));
 export const primaryGroupByCharacterId = new Map(
