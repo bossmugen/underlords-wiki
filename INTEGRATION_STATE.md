@@ -12,7 +12,7 @@ Full branch census: **51 tracked miner identities = 30 active refs + 21 historic
 
 **WIKI reader-facing changes: 0.** No new Astro/Pages run was launched for unchanged reader bytes. The latest verified/deployed reader frontier remains **`15d0ae8356b77c514f74b3d3edf8962a7458a4da`**, which passed Build Underlords Wiki `35502423673` and Pages/Deploy `35502423674`.
 
-**MAIN reader-facing changes: 0.** The inherited dedicated source/Astro/built-output workflow `35458657320` was retried again. Attempt **42**, job **`106057181986`**, failed before any verification step existed (`steps=null`). This remains runner/provisioning failure, not a failed source verifier, Astro build, built-output check, or reader-content failure. No fresh MAIN reader commit/deployment is claimed.
+**MAIN reader-facing changes: 0.** The inherited dedicated source/Astro/built-output workflow `35458657320` was retried again after the first close snapshot. Attempt **43**, job **`106057199044`**, failed before any verification step existed (`steps=null`). This supersedes the earlier attempt-42 snapshot and remains runner/provisioning failure, not a failed source verifier, Astro build, built-output check, or reader-content failure. No fresh MAIN reader commit/deployment is claimed.
 
 ### Consumption handoff
 
