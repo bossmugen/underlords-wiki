@@ -45,7 +45,7 @@ const base: ExtendedCharacter =
 const relationships = [...(base.relationships ?? [])];
 upsertRelationship(relationships, {
   name: "Ren",
-  note: "Dain plants the mint-chocolate flag, then immediately checks whether Ren's enthusiastic answer is sarcasm instead of deciding he has been mocked. Once Ren confirms she genuinely loves mint-choco chip, the caution vanishes into delighted keyboard-noise. Strong opinion, careful read of the person in front of him.",
+  note: "Ren is where Dain's social discernment gets especially clear. In January, Dain stops to ask whether Ren's mint-chocolate agreement is sarcasm instead of inventing a tone for her. In May, Ren can reach 625 days backward in Wall, true-reply the old receipt with nothing but `@Dainyamite (Retired)`, and get Dain's exact-parent `:Fat_Wheeze:` 28 seconds later. Ambiguous tone gets a question; concrete shared context needs almost no words. Recurring sincerity-checking ↔ compressed-context summons fluency, not a closeness rank.",
   href: "/characters/ren",
 });
 upsertRelationship(relationships, {
@@ -68,7 +68,7 @@ const dain: ExtendedCharacter = {
   role: base.role || "Archive-era UL member",
   era: base.era || "2021–2022+",
   logline:
-    "Opinionated enough to defend mint chocolate in public, socially careful enough to check an ambiguous tone, and practical enough to walk somebody through an access problem and come back later to see whether it worked. Once the room turns stupid, the same person can file a Wall exhibit with two words and happily join the nonsense.",
+    "Opinionated enough to defend mint chocolate in public, socially careful enough to ask when a tone is genuinely ambiguous, and practical enough to troubleshoot a real problem without title theater. Give Dain a concrete shared premise, though, and the caution disappears: Ren can summon him into a 625-day-old Wall receipt with one tag and get a wheeze back in under half a minute.",
   tags: appendUnique(base.tags, [
     "Archive cast",
     "Daycare",
@@ -79,6 +79,8 @@ const dain: ExtendedCharacter = {
     "Reaction GIFs",
     "Wall",
     "Screenshot Court",
+    "Scrollback fluency",
+    "Summon-responsive",
     "Petty Crimes",
   ]),
   relationships,
@@ -93,6 +95,7 @@ const dain: ExtendedCharacter = {
     "lmao you look up minto choco in gifs and its all cookie run 😂",
     "Shaming",
     "You",
+    ":Fat_Wheeze:",
   ]),
   claims: appendUnique(base.claims, [
     "Stable account 280227622645006336 bridges Dainyamite / Daithi / `gnocchi_arron` across the reviewed support material. His surviving Daycare ledger contains 83 authored messages from August 2021 through December 2022; the broader sampled Wall/Lobby support slice contains 63 authored rows across 2021–2023 windows.",
@@ -100,11 +103,15 @@ const dain: ExtendedCharacter = {
     "On December 3, 2021, Dain posts an image to Wall. Snow answers `Dainyaa`; Dain follows with `Shaming` and `You`. The exhibit does most of the talking, adding artifact-first Screenshot Court participation to the otherwise practical support-room side of him.",
     "On January 4, 2022 Dainyamite states `mint choco is good 😮`. When Ren replies enthusiastically, he asks whether she is being sarcastic rather than assuming the answer's tone. Ren explicitly says she is sincere and also likes mint-choco chip; Dain's response flips immediately into delighted keyboard-noise.",
     "Later in the same room, Gilli tells Dainyamite she hates mint and chocolate together. He true-replies with a mint-ice-cream GIF, then jokes that searching for mint-choco GIFs mostly returns Cookie Run.",
+    "On May 10, 2022 Ren true-replies the exact August 22, 2020 opening Wall message with only `@Dainyamite (Retired)`. Dain true-replies Ren's exact summons 28.263 seconds later with `:Fat_Wheeze:`. The old parent is 625 days, 16h27m40.687s older than Ren's tag, so this adds summon-responsive scrollback/archive fluency rather than merely another laughter receipt.",
+    "Taken together, the January and May Ren pockets sharpen Dain's social read: when a person's tone is ambiguous he asks instead of guessing; when the shared Wall context is concrete, one tag on an ancient receipt is enough. That is discernment, not generalized uncertainty.",
     "A later 2022 Wall pocket has Dain comfortably joining an existing criminal-acts / no-witnesses joke. The cumulative person read is practical and socially attentive without being solemn: he will troubleshoot the real problem, check the tone before deciding what somebody meant, and still participate when the room becomes unserious.",
   ]),
   antiFanon: appendUnique(base.antiFanon, [
     "The access-help sequence does not establish a formal support, moderator, staff, or technical role.",
     "The Ren, Gilli, and Snow exchanges support easy moment-level banter and Dainyamite's social style; they do not establish ranked closeness or a broader relationship hierarchy.",
+    "The May 10 Ren→Dain nested reply chain supports shared-context recognition and direct summons familiarity. It does not establish a dated role, retirement chronology, relationship rank, or what appears inside the old 2020 attachment.",
+    "The August 22, 2020 parent object is POSTED BY Ren. This Dain update makes no new MADE BY / CAPTURED BY / visual FEATURING claim about that attachment.",
     "The mint-ice-cream GIF is POSTED/REPLIED BY Dainyamite. It is an external GIF and does not establish that he made the media.",
     "Dainyamite's December 3 Wall image is POSTED BY Dainyamite only. MADE BY / CAPTURED BY / FEATURING and visual-content claims require object-level support.",
     "The careful-tone read is cumulative/probable character texture, not a claim that Dainyamite always avoids conflict or universally behaves this way.",
