@@ -1,8 +1,16 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-20 — Run 1472 close_
+_Last updated: 2026-09-20 — Run 1473 close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` remains the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies. Earlier run detail remains available in git history and MAIN integration handoffs.
+
+## Run 1473 close
+
+Full branch census remains **51 tracked miner identities = 30 active refs + 21 historical/missing**, with **0 newly discovered refs, 0 unread pending review, 0 backlog, and 0 overdue** at close. The opening census saw Wall at `2a1bf0832add4604bbe5f939bee3a148627277fd` beyond the earlier MAIN ledger frontier, but Run 1472 completed that exact Han tail concurrently while this run was starting. Run 1473 independently checkpoint-reviewed the same changed Wall handoffs, confirmed no newer miner HEAD in the closing census, and treated the tail as already-reviewed rather than re-publishing it.
+
+**Reader surfaces:** no new reader-facing change in Run 1473. MAIN already owns Han's richer Fame/Shame person arc and broken-toe family anecdote; WIKI's additive structured material was already committed at reader `7ae0a7599d30af8d01238b9ccef4eb7820dc5396` and verified by Build `35516842903` plus Pages/Preview `35516842918`, both successful. Current Run 1472 Han handoff therefore remains authoritative.
+
+**Consumption handoff:** Wall is fully reviewed through `2a1bf0832add4604bbe5f939bee3a148627277fd` and must not be reread. Its contiguous consumed cursor remains `01cf4664d8e5130052874789adbfda382935b1a3` behind inherited MAIN Shiki publication/verification debt. Both Club-Only recovery lanes remain current. Grasshopper origin stays open; Han's September screenshot and October MP4 remain POSTED BY Han only unless maker/capturer/subjects are independently resolved.
 
 ## Run 1472 close
 
