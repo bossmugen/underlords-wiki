@@ -1,8 +1,16 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-20 — Run 1474 close_
+_Last updated: 2026-09-20 — Run 1475 close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` remains the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies. Earlier run detail remains available in git history and MAIN integration handoffs.
+
+## Run 1475 close
+
+Full branch census remains **51 tracked miner identities = 30 active refs + 21 historical/missing**, with **0 newly discovered refs, 0 unread pending review, 0 backlog, and 0 overdue**. Every active miner ref exactly matched the Run 1474 controlling ledger frontier, so there was no changed `archive-intake/*` delta to reread and no raw archive was touched.
+
+**Reader surfaces:** no new reader-facing change on either surface. MAIN remained unchanged; WIKI remained unchanged. No new WIKI build/deploy success is claimed because reader bytes did not change. The previously verified/deployed WIKI reader frontier remains `7ae0a7599d30af8d01238b9ccef4eb7820dc5396` from Run 1472. The inherited MAIN reader-verification workflow `35458657320` was retried and again ended in `startup_failure` with zero jobs before source verification, Astro build, or built-output verification could execute; this remains infrastructure failure, not a reader-content rejection.
+
+**Consumption handoff:** all reviewed/consumed SHAs remain unchanged. Wall remains fully reviewed through `2a1bf0832add4604bbe5f939bee3a148627277fd` with contiguous consumed cursor `01cf4664d8e5130052874789adbfda382935b1a3` behind inherited MAIN Shiki publication/verification debt. Birthdays/PR/VC remains fully reviewed through `a0377f1552e9e37191d01944353a91f8c1107d8c` with its older contiguous cursor still gated by structured-history publication debt. Daycare, Whiskey, Louvre / Other Games, and both Club-Only recovery lanes remain current at their recorded consumed heads. Existing open rails/rabbits remain unchanged.
 
 ## Run 1474 close
 
