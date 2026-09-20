@@ -1,8 +1,18 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-19 — Run 1427_
+_Last updated: 2026-09-19 — Run 1429_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling live miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies. Prior run history remains available in git history and the paired MAIN `integration-runs/` records; this file tracks the current durable WIKI frontier.
+
+## Run 1429 durable close
+
+The required full miner census remains **51 tracked identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 unread pending review, 0 backlog, and 0 overdue**. No active miner ref advanced beyond the Run 1428 controlling frontiers, so this pass had no new intake delta to review. Both Club-Only recovery-priority lanes remain current. The **9 pending-publication families** remain reviewed MAIN resynthesis/source-custody/verification debt rather than unread mining.
+
+Current reviewed frontiers remain Daycare `a2116d21c9a74aa456884b252ed2db38eeb3208f`, Louvre `d1989a06999bc80e04a089f011b1d95677365ee8`, Whiskey `bb23802341cda0eefcbbb56b6b31a5f35cba0015`, and Wall fully reviewed through `090994aa355efab22c2d7369369cb339d2f668a8`. **Do not reread the reviewed Wall tail.** Wall's contiguous consumed cursor remains parked at `01cf4664d8e5130052874789adbfda382935b1a3` solely behind the inherited accepted MAIN Shiki verification gate.
+
+**WIKI reader-facing changes this run: 0.** No duplicate/corroboration material was appended, no new owner was created, and no Episode/Running Gag/Quote/Location/Gallery note changed. The latest verified/deployed WIKI reader frontier remains **`4a69fe66e0ccf076277645330e729c78887fe222`** from Run 1427. Its final verification remains Build Underlords Wiki `35476444116` success and Pages/Preview `35476444128` success. No fresh WIKI Astro/Pages build or deployment was necessary for unchanged reader bytes in Run 1429.
+
+MAIN's dedicated Shiki verifier `35458657320` was retried again in this pass. **Attempt 21**, job **`105989184590`**, failed before any verification step existed (`steps=null`). This remains runner/provisioning infrastructure failure, not a source-verification, Astro-build, built-output-verification, or WIKI content failure. Retry verification, not Wall mining.
 
 ## Run 1427 durable close
 
