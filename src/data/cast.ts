@@ -51,26 +51,52 @@ allCharacters.push({
   aliases: ["Wolfie"],
   billing: "guest",
   role: "Archive-era Wall cast",
-  era: "2020+",
-  logline: "Wolf's surviving Wall footprint is tiny but aggressively complete: the room turns him into dinner conversation, he protests `Leave me alone`, calls everybody mean, and then—still standing there while they wheeze at him—admits just enough with `I may have ;-;` to keep the entire thing alive. Embarrassment does not make him disappear; it makes him complain from inside the joke.",
-  tags: ["Wall", "Caught out", "Stays in the bit", "Mock protest", "High-context banter", "Petty Crimes"],
+  era: "2021–2022",
+  logline: "Wolf's Wall footprint is compact, but the room does not need his full name to find him. Ricochet and Mugen both use `Wolfie` naturally around him, the sort of low-ceremony shorthand that only needs one syllable less formality to make somebody feel already inside the conversation.",
+  tags: ["Wall", "Wolfie", "Social shorthand", "Compact footprint", "Relationship texture"],
   stableDiscordIds: ["543284829391945728"],
   relationships: [
-    { name: "Ren", note: "Ren directly pings him as `Wolfie` in the middle of the October 2020 pile-on — `Wow wolfie xD`. Wolf answers the room rather than withdrawing, so the useful texture is easy caught-out familiarity inside a shared joke, not a closeness rank or relationship label.", href: "/characters/ren" },
-    { name: "Anayss", note: "Anayss joins the room's `wolfie` wheeze while Wolf keeps protesting. The exchange supports high-context group-ban­ter where Wolf can be the target and still keep participating; it does not establish a separate formal relationship category." },
-    { name: "Cami", note: "Cami helps drive the dinner-conversation pile-on and the surrounding joking accusation. Wolf's `I may have ;-;` lands as an admission inside that same social pressure-cooker, not as permission to literalize the joke-language into a sexual or romantic biography." },
+    { name: "Ricochet", note: "Ricochet uses `Wolfie` naturally in the corrected Wall chronology. The useful texture is easy social shorthand: Wolf is somebody Ricochet can address without ceremony. It does not establish who coined the nickname, a friendship rank, or a first-meeting date." },
+    { name: "Mugen", note: "Mugen also uses `Wolfie` nearby, independently reinforcing that the nickname functions as ordinary room language rather than a one-person invention or formal alias ceremony.", href: "/characters/mugen" },
   ],
-  quotes: ["Leave me alone. Why did this become dinner conversation? XD", "Y'all big mean", "I may have ;-;"],
+  quotes: [],
   claims: [
-    "Stable Discord account 543284829391945728 is Wolf Phenix / Wolfie in the reviewed October 2020 Wall chronology.",
-    "Across the three direct authored Wall lines in the reviewed pocket, Wolf's local mechanism is caught-out embarrassment without social retreat: protest, mock accusation, then a small admission that keeps the bit playable.",
-    "Ren's direct `Wolfie` ping and the room's immediate uptake support familiar shared-ban­ter in this scene without establishing friendship rank, origin chronology, or a private relationship map."
+    "Stable Discord account 543284829391945728 is Wolf Phenix in the corrected Wall chronology.",
+    "The corrected direct-authored Wall span currently runs from 2021-12-31 through 2022-09-03 with five direct Wolf-authored messages in the covered source.",
+    "`Wolfie` is supported as social shorthand by at least Ricochet and Mugen in the reviewed Wall material."
   ],
   antiFanon: [
-    "The room's kinky/dating/replacement-style joke-language is social bit material only. Do not infer literal romance, sex, kink, exclusivity, or a relationship hierarchy from it.",
-    "`I may have ;-;` belongs to the live October 2020 exchange and should not be expanded into a broader biographical claim beyond what the text actually supports.",
-    "The surrounding Wall attachments were not visually inspected for this person read; POSTED BY does not become MADE BY, CAPTURED BY, or visual FEATURING.",
-    "Three direct authored Wall lines support a compact Wall-local character mechanism, not a global diagnosis that Wolf is always embarrassed, defensive, or quiet."
+    "Do not restore the superseded 2020 three-message chronology or the caught-out dinner characterization from the stale sidecar route; the corrected Wall checkpoint explicitly supersedes it.",
+    "`Wolfie` is social shorthand, not proof of nickname origin, formal naming chronology, friendship rank, or a private relationship map.",
+    "Hamu's separate `WolfCat` language does not create a Hamu = Wolf / WolfCat identity bridge. Keep those referents separate unless direct identity evidence appears.",
+    "Five authored Wall messages support a compact Wall-local owner, not a global personality diagnosis."
+  ],
+} as ArchiveCharacter);
+
+allCharacters.push({
+  id: "aesh",
+  name: "Aesh",
+  aliases: ["._."],
+  billing: "guest",
+  role: "Archive-era Wall cast",
+  era: "Archive era",
+  logline: "Aesh discovers that the room has compressed an unwieldy version of his name into the world's most economical nickname: `._.`. His response is not outrage but laughter — apparently `aesh van gobg` takes too long to type, so punctuation wins. It is less a rename than UL solving character count with a face.",
+  tags: ["Wall", "Nickname lore", "Social shorthand", "Fast-typing culture", "Petty Crimes"],
+  stableDiscordIds: ["188738539962548225"],
+  relationships: [
+    { name: "Mugen", note: "When Aesh learns about `._.`, Mugen is part of the conversation around the nickname and the two end up laughing about it. Aesh explicitly frames the discovery as funny rather than harmful, giving them a small, easy lane of shared amusement without inventing a deeper relationship tier.", href: "/characters/mugen" },
+  ],
+  quotes: ["when I learned your nickname for me was ._. I couldn’t stop laughing", "takes too long to type aesh van gobg", "so I became ._."],
+  claims: [
+    "Stable Discord account 188738539962548225 is Aesh / aeshindare in the reviewed Wall material.",
+    "Aesh explicitly calls the relevant wording his `last name` in the scene, then explains that the room's `._.` shorthand is funny and that typing `aesh van gobg` takes too long.",
+    "`._.` is therefore usable as room-level nickname/shorthand lore for Aesh, with the strongest surviving explanation coming from Aesh himself."
+  ],
+  antiFanon: [
+    "The source says `last name`, but that wording does not establish Aesh's legal name, civil identity, or any private real-world naming fact.",
+    "`so I became ._.` is social joke-language in the nickname conversation; do not turn it into a formal display-name change, account rename chronology, or identity-transfer event.",
+    "Do not infer that Mugen invented the nickname merely because she is present in the conversation; the surviving material establishes shared discussion and laughter, not sole authorship.",
+    "Punctuation resemblance is not an identity bridge to any other account or person."
   ],
 } as ArchiveCharacter);
 
