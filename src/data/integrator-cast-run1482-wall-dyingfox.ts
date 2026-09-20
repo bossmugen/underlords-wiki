@@ -1,3 +1,4 @@
+import "./integrator-cast-run1482-wall-syv";
 import { allCharacters } from "./cast";
 import type { Character } from "./wiki";
 
