@@ -1,39 +1,41 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-20 — Run 1477 close_
+_Last updated: 2026-09-20 — Run 1478 close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies. Earlier run detail remains in git history and MAIN integration handoffs.
 
-## Run 1477 close
+## Run 1478 close
 
-Full branch census: **51 tracked miner identities = 30 active refs + 21 historical/missing**, with **0 newly discovered refs, 0 unread pending review, 0 backlog, and 0 overdue**. Both Club-Only recovery lanes remain current. Daycare, Louvre / Other Games, Whiskey, and Wall were reviewed checkpoint-first from changed `archive-intake/*` handoffs only. Wall advanced a second time during closing census, so the late Akariel sidecars were also reviewed rather than deferred or silently reread next cycle.
+Full branch census remains **51 tracked miner identities = 30 active refs + 21 historical/missing**, with **0 newly discovered refs, 0 unread pending review, 0 backlog, and 0 overdue**. Both Club-Only recovery lanes remain current. The closing census still returns the same 30 active miner refs. The controlling MAIN ledger already marks Daycare, Louvre / Other Games, and Whiskey consumed through their reviewed heads, and Wall fully reviewed through the later closing head `38f33e8f4522e3d45e970d2a4199bfab9c0673e3`; none of those reviewed tails should be reread.
+
+Run 1478 is a **public resynthesis pass over already-reviewed material**, not a new mining pass. A concurrent Run 1477 close had already published Daya reassurance, ShiyaX warm-summoner, Shiki game-hopping, and late Akariel Wall material at reader `f592999a7a39b20bc7298f618c320fe391b80227`. Run 1478 novelty-checked the remaining person-shaped findings against that live reader and folded only still-missing texture into WIKI.
 
 ### Structured reader changes
 
-**Daya.** The Daycare material sharpens a reassurance reflex that sits beside the existing practical front-door competence. `u valid rv`, `ignore the haters`, dessert-for-dinner support, and the later `LMAO DW RUMMY U VALID` read as reusable social first aid: make the person feel okay first, then let the logistics or joke continue. Ren and Rummy remain bounded lived-warmth lanes, not closeness rankings. One OneRepublic joke and one dessert line remain Petty Crimes texture rather than a complete taste profile.
+**Crystalia.** WIKI now has a canonical structured owner for stable Discord account `671496969646112769`. Her surviving Wall authorship is almost comically small — one `Woah` — while other people keep dragging her back into the room: Mugen can summon her with a bare tag, cast her as `UL's very own mermaid` in the Phok-the-Pool-Boy bit, and Anthos can name her in a dungeon-run filing without setup. The keeper contradiction is **minimal self-narration ↔ high recognizability to other people**. The mermaid language stays joke casting; screenshot pixels remain uninspected; sparse Wall prose does not become a global shyness diagnosis.
 
-**ShiyaX.** Whiskey adds the missing direction to the existing Shiya story: recipient of welcome becomes transmitter of belonging. `GHOULIE IN UL` → `YOU JOINING BB ?`, `Take it to #🥃💬｜whiskey-room guys`, and `get your arse to whiskey` support warm summoning plus room-boundary herding without inventing formal recruiting authority. Tofu's `At least pace yourself` supplies a small peer-calibration lane. `Ive been driving my coworkers nutz ... by singing teri galiyan` is retained as a tiny workplace-singing Petty Crime only; employer/job/location remain private/unresolved. `timber` and Bishop remain open rather than being promoted into fake certainty.
+**Daya.** The Daycare score pocket adds a different face to the reassurance material already public. Daya can go `Ez 😁`, announce that she is going to bed with her score, post `I got 10 out of 11`, and then puncture her own authority with `I actually dont know all the pokemon shit`. A later `the confidence` reply to Sye preserves the same compact social eye. This is playful scorekeeping and self-undercutting confidence, not a broad intelligence, competitiveness, or Pokemon-expertise claim. The nearby `twins` language remains joke-only and never becomes literal kinship.
 
-**Shiki.** Other Games adds a clean game-hopping contradiction: Shiki can follow the current obsession into HoK while keeping a tiny WWM tether through dailies, and narrates thinner presence so the group can read the absence. `I log in wwm then go daily and then back to HoK` is maintenance behavior, not evidence that Shiki quit WWM, was unreliable, or owed formal attendance to anyone.
+**ShiyaX.** Whiskey adds two dry little mechanisms to the existing welcome/summoner read. `It was more dad by peer pressure` is preserved as joke-family participation, not literal parenthood. His complaint that Whiskey's old name had something to do with sniping `which had nothing to do with whiskey xD` is useful room-history/personality texture: Shiya notices when the premise does not match the room and says so without making a speech. Mentioning sniping does **not** make ShiyaX a Sniper; the hard role remains Caporegime only.
 
-**Akariel.** The late Wall tail turns the already-known five-cent receipt auction into a longer person pattern. Earlier Akariel explicitly says `put me on the wall of shame 😩`; Ren answers `You got to e a r n your place here`. Months later Tofu true-replies Akariel's own filed exhibit with `Starting bid: 5¢`, and Akariel answers in full catastrophe-emote mode. The useful contradiction is eager participation ↔ theatrical victimhood once the room starts pricing the evidence. Akariel remains **not safely bridged to Zyrcant**. The July attachment is POSTED BY Akariel only; MADE BY / CAPTURED BY / visual FEATURING remain unresolved.
+**Shiki.** Louvre now supplies the creator side that Other Games could not. By October 2021 the surviving gallery chronology explicitly credits Shiki as artist/entrant (`Artist: @ninjashiki`; entrant list; `_Rooks Gallery Entry | By: @Shiki`). Shiki is also the peer in the room saying another entrant's work `Art goes hard as fuck` and `deserves top 5 at least`. That makes the gallery read creator **and** hype person rather than subject/requester only. October 2021 is a surviving floor, not guaranteed Louvre origin, onboarding, or first artwork.
 
-**Crystalia.** The Wall tail was cumulative rather than additive: the current WIKI/MAIN owners already carry the sparse-self-narration ↔ high-social-recognizability read, Mugen playful casting, Anthos group-gameplay filing, and the `Woah`/`mermaid` Petty Crimes texture. No duplicate paragraph or dossier sequel was published.
+**Vanness.** The Daycare helper/disagreement material was reviewed as corroborative only. `i'd like to be in the daycare club / i can also take care of daycare thingys` supports willing practical help, while `opinion is also unpopular :p` supports low-drama disagreement. It did not justify another receipt paragraph or fake formal Daycare appointment.
 
 ### Verification and deployment
 
-Run 1477 reader changes are loaded by `src/data/integrator-cast-run1477-intake.ts` through the eager `integrator-episodes-run1477-loader.ts` shim. The exact final Run 1477 reader commit is **`f592999a7a39b20bc7298f618c320fe391b80227`**.
+Run 1478 reader changes live in `src/data/integrator-cast-run1478-intake.ts`, executed through `src/data/integrator-episodes-run1478-loader.ts`. The exact verified reader commit is **`ef281da43b35f81e1bf785639bee710c65c12f56`**.
 
-- **Build Underlords Wiki `35520652775` — success**; Astro build completed successfully.
-- **Deploy Underlords Wiki Preview / Pages `35520652804` — build success, deploy success, report success**.
+- **Build Underlords Wiki `35520796653` — success**; Astro build completed successfully.
+- **Deploy Underlords Wiki Preview / Pages `35520796691` — build success, deploy success, report success**.
 
-Concurrent Run 1478 commits landed after `f592999a`; comparison shows `f592999a` remains an ancestor and the later commits add separate Run 1478 integration files rather than replacing Run 1477 work.
+The paired reader files were added without replacing the concurrent Run 1477 module; Run 1478 explicitly imports the Run 1477 integration first and then layers only the novelty-checked additions.
 
 ### Surface split and consumption handoff
 
-**MAIN reader-facing changes: 0 intentionally.** Daya, ShiyaX, and Crystalia already have richer person-first MAIN owners; the new material is cleaner as WIKI structure. Shiki's new game-hopping material genuinely deepens the person, but MAIN is still carrying inherited accepted Shiki reader publication/verification debt, so this run does not stack another unverified MAIN reader edit on top of that gate.
+**MAIN reader-facing changes: 0 intentionally.** Daya and ShiyaX remain better served by structured WIKI additions than by receipt-shaped biography appendices. Crystalia is still too thin for a rich MAIN biography despite being strong enough for a WIKI Cast owner. Shiki's Louvre material genuinely deepens the person, but MAIN still carries inherited accepted Shiki reader publication/verification debt, so this pass does not stack another unverified MAIN reader edit on top of that gate.
 
-The inherited MAIN reader-verification workflow `35458657320` was retried once and again ended in `startup_failure` at attempt **50**, before any source verification, Astro build, or built-output verification job could execute. This remains infrastructure failure, not a reader-content rejection; no MAIN deployment success is claimed.
+The controlling MAIN ledger already records:
 
 - **Daycare:** consumed through `aff0c6f0f9644e5a245bce2cc8fd450ae03c51e3`. **DO NOT REREAD through `aff0c6f0`.**
 - **Whiskey:** consumed through `20e46335016138398bea65f69f66a5f324a6d28a`. **DO NOT REREAD through `20e46335`.**
@@ -46,4 +48,4 @@ The inherited MAIN reader-verification workflow `35458657320` was retried once a
 
 ### Open rails / rabbits
 
-All inherited safety rails remain binding. Earliest surviving evidence is not guaranteed origin. Export/current role arrays are not appointment chronology. Similar names do not create identity bridges. Joke family/romance/governance stays nonliteral. `SAID BY`, `POSTED BY`, `MADE BY`, `CAPTURED BY`, and `FEATURING` remain distinct. Private/safety-sensitive material stays backstage. Daycare RH-16/bot-break remains open; Shiya's `timber` and Bishop routes remain open; Aesh first-coining and Grasshopper origin remain open; unseen screenshot contents are not inferred.
+All inherited safety rails remain binding. Earliest surviving evidence is not guaranteed origin. Export/current role arrays are not appointment chronology. Similar names do not create identity bridges. Joke family/romance/governance stays nonliteral. `SAID BY`, `POSTED BY`, `MADE BY`, `CAPTURED BY`, and `FEATURING` remain distinct. Private/safety-sensitive material stays backstage. Crystalia's screenshot subjects remain unresolved; Shiki's first Louvre appearance/onboarding remains unresolved; Daycare `twins` stays joke-only; ShiyaX's `dad` and sniping language stay nonliteral/non-role; q9 and other inherited Wall retrieval rabbits remain open until directly resolved.
