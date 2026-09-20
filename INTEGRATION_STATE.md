@@ -1,14 +1,14 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-20 — Run 1479 close_
+_Last updated: 2026-09-20 — Run 1480 close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies. Earlier run detail remains in git history and MAIN integration handoffs.
 
-## Run 1479 close
+## Run 1480 close
 
-Full branch census remains **51 tracked miner identities = 30 active refs + 21 historical/missing**, with **0 newly discovered refs, 0 unread pending review, 0 backlog, and 0 overdue**. Both Club-Only recovery lanes remain current. The closing census returned the same 30 active miner refs at the same already-reviewed heads, so there was no branch delta to reread or convert into synthetic work.
+Full branch census remains **51 tracked miner identities = 30 active refs + 21 historical/missing**, with **0 newly discovered refs, 0 unread pending review, 0 backlog, and 0 overdue**. Both Club-Only recovery lanes remain current. The current census returned the same 30 active miner refs at the same already-reviewed heads, so there was no branch delta to reread or convert into synthetic work.
 
-The controlling MAIN ledger was refreshed before review decisions at commit `2ba88e9dd1d278b64fc95b343f6d44e447515111`. It continues to carry 10 `pending_publication` families as reviewed publication/resynthesis/verification debt rather than unread mining.
+The controlling MAIN ledger was refreshed before review decisions at commit `00df597c6d49a72d8a55c80e41d6995ebd96c1d1`. It continues to carry 10 `pending_publication` families as reviewed publication/resynthesis/verification debt rather than unread mining.
 
 ### Structured reader changes
 
@@ -16,7 +16,7 @@ The controlling MAIN ledger was refreshed before review decisions at commit `2ba
 
 ### Verification and deployment
 
-No reader-facing WIKI source changed in Run 1479, so no ceremonial rebuild/deploy is claimed for this state-only close.
+No reader-facing WIKI source changed in Run 1480, so no ceremonial rebuild/deploy is claimed for this state-only close.
 
 The latest verified/deployed reader remains **`ef281da43b35f81e1bf785639bee710c65c12f56`**:
 
