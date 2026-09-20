@@ -70,26 +70,19 @@ mergeCharacter({
     { name: "Mugen", note: "Mugen's `spaceship crashed in mesopotamia` nonsense gets Woohyuk's fossil-fuel-descendants escalation; Mugen later quotes it back and names the imaginary first child Tyrannosaurus rex. The scene is collaborative pseudo-lore, never literal romance, sex, family, or parenthood.", href: "/characters/mugen" },
     { name: "RV", note: "Woohyuk resurfaces an old RV receipt; as soon as RV reacts, Woohyuk turns the static exhibit into live theater with `Someone come claim RV`. The stronger self-recognition arc still belongs to RV; this is Woohyuk's habit of giving existing material a second social life.", href: "/characters/ren" },
   ],
-  quotes: [
-    "Bear my child mugs, so their blood can produce fossil fuels.",
-    "Someone come claim RV",
-    "In corpse voice uwu",
-    "yea watermelon is just sweet water",
-    "in a form of a melon",
-    "tryna play us dumb",
-  ],
+  quotes: ["Bear my child mugs, so their blood can produce fossil fuels.", "Someone come claim RV", "In corpse voice uwu", "yea watermelon is just sweet water", "in a form of a melon", "tryna play us dumb"],
   claims: [
     "Stable Discord account 282643269438144513 / ash_island is Woohyuk in the reviewed Wall and Whiskey chronology.",
     "Across independent 2020–2021 scenes, Woohyuk repeatedly accepts an absurd or archival premise with little setup and adds pseudo-lore, mock logic, or a new performative rule rather than merely reacting to it.",
     "Gilli's repeated direct summons support a bounded relationship mechanism: she can apparently activate Woohyuk for an absurd/archive premise and expect playable material back.",
-    "The July 2, 2021 watermelon sequence is direct person-language and belongs in Petty Crimes as mock consumer-fraud logic, not as proof that Woohyuk permanently hates watermelon.",
+    "The July 2, 2021 watermelon sequence is direct person-language and belongs in Petty Crimes as mock consumer-fraud logic, not as proof that Woohyuk permanently hates watermelon."
   ],
   antiFanon: [
     "The Mugen/Woohyuk child, bloodline and Tyrannosaurus-rex language is absurd public roleplay only; never infer literal romance, sex, family, reproduction, or parenthood.",
     "Gilli's April 21 screenshot is POSTED BY Gilli. MADE BY, CAPTURED BY and visual FEATURING remain unresolved without independent media evidence.",
     "Bailey recognizing `corpse voice` shows uptake, not origin or ownership of the phrase.",
     "The watermelon bit is dated joke-language, not a permanent food preference or nutrition doctrine.",
-    "Export-time roles are not appointment chronology, and retrieval silence from direct Whiskey rows is not absence evidence.",
+    "Export-time roles are not appointment chronology, and retrieval silence from direct Whiskey rows is not absence evidence."
   ],
 });
 
@@ -107,65 +100,52 @@ mergeCharacter({
   relationships: [
     { name: "Baby Lyssa", note: "Lyssa true-replies Hami's rediscovered screenshot with `i thought you was my friend`; Hami true-replies `Sorry not Sorry` with a heart and then adds `welcome back from vacation`. The heart changes the temperature: receipt ambush as teasing familiarity, not hostility, romance, family, or a closeness rank.", href: "/characters/baby-lyssa" },
     { name: "ShiyaX", note: "Shiya asks why so many Wall posts are about him; Hami replies `cuz u do dis` and adds a spanking GIF. Months later Shiya returns `You’re most welcome` to a Hami post and Hami answers `I blame you`. Their surviving language is reciprocal blame / mock discipline without needing the premise re-explained.", href: "/characters/shiyax" },
-    { name: "Nhou", note: "Hami files one 2021 Wall attachment with `@nhou RIP`. Nhou is securely the social target/audience of the caption; visual FEATURING, MAKER and CAPTURER remain unresolved." },
+    { name: "Nhou", note: "Hami files one 2021 Wall attachment with `@nhou RIP`. Nhou is securely the social target/audience of the caption; visual FEATURING, MAKER and CAPTURER remain unresolved." }
   ],
-  quotes: [
-    "forgot i had this :SpidySip:",
-    "Sorry not Sorry:Raja_dino_heart:",
-    "welcome back from vacation :SpidySip:",
-    "cuz u do dis",
-    "I blame you:EmoJi_WOT:",
-    "No context required, it's hilarious as it is lol:mochi_laugh:",
-  ],
+  quotes: ["forgot i had this :SpidySip:", "Sorry not Sorry:Raja_dino_heart:", "welcome back from vacation :SpidySip:", "cuz u do dis", "I blame you:EmoJi_WOT:", "No context required, it's hilarious as it is lol:mochi_laugh:"],
   claims: [
     "Stable Discord account 400116637266870273 / hamittey is HamitteY; Wichita is his direct Dragon Raja IGN bridge in the reconciled public canon.",
     "The August 3, 2021 Wall chain supports a stable contradiction: Hami can forget a receipt exists and still be the person who has it when it becomes funny again.",
     "Baby Lyssa's exact-parent mock friendship accusation and Hami's hearted refusal to apologize support affectionate receipt-betrayal familiarity without ranking closeness.",
-    "The repeated ShiyaX exchanges support a reciprocal blame / mock-discipline lane; both can revive the accusation bit without rebuilding the context from zero.",
+    "The repeated ShiyaX exchanges support a reciprocal blame / mock-discipline lane; both can revive the accusation bit without rebuilding the context from zero."
   ],
   antiFanon: [
     "Wichita is an IGN bridge, not a location inference. Early-member status does not supply an exact admission date, rank date, or Staff appointment chronology.",
     "The August 3 screenshot is POSTED BY Hami and strongly likely Baby-Lyssa-related from the reply chain, but visual FEATURING, MADE BY and CAPTURED BY remain unresolved without pixels.",
     "Baby Lyssa's `friend` language and the hearted `Sorry not Sorry` support teasing familiarity, not romance, family, exclusivity or a closeness leaderboard.",
     "The ShiyaX blame/spanking-GIF lane is joke-language and mock discipline, not literal punishment or governance authority.",
-    "`first a furry and now dis` remains mock-charge language only; do not infer literal furry identity, sexuality, kink, or target identity from it.",
+    "`first a furry and now dis` remains mock-charge language only; do not infer literal furry identity, sexuality, kink, or target identity from it."
   ],
 });
 
-// Run 1453 Daycare: Anthos' social footprint is built out of tiny, repeated acts of acknowledgement.
+// Run 1453 Daycare: deepen the existing Anthos owner without clobbering his canonical Pit Boss identity.
 mergeCharacter({
   id: "anthos",
   name: "Anthos",
   aliases: ["antho.logy"],
-  billing: "guest",
-  role: "Archive-era Daycare cast",
-  era: "2024–2025+",
-  logline: "Practical helper with a deceptively tiny social signature: repeated `W/wave` greetings turn routine arrivals into acknowledgements, `No problemm` keeps help low-drama, and after a long gap he can re-enter by asking Mugen `how u been boss man` before quietly naming the distance himself — `Long time...`.",
-  tags: ["Daycare", "Practical helper", "Greeting ritual", "Check-ins", "Low-drama support", "Social continuity"],
+  billing: "main",
+  role: "Pit Boss",
+  era: "2020–present",
+  logline: "Officer and family-map co-conspirator whose competence often lands quietly: he treats the Tumbleweed as editable social infrastructure, helps without turning it into theater, repeatedly acknowledges people with tiny `W/wave` greetings, and can come back after a gap by simply asking Mugen how he has been.",
+  tags: ["Officer", "Tumbleweed", "Daycare", "Practical helper", "Greeting ritual", "Check-ins", "Low-drama support", "Social continuity"],
   stableDiscordIds: ["695394317921026121"],
   relationships: [
     { name: "Mugen", note: "In May 2025 Anthos reappears in Daycare and goes straight to `@Mugen Gaming how u been boss man`, then later adds `Long time...` while Mugen answers that he has been good and busy. It reads as easy reconnection after distance, not a rank, formal reporting line, or proof of exceptional closeness.", href: "/characters/mugen" },
-    { name: "Daycare regulars", note: "Across February 2024 Anthos repeatedly answers arrivals and familiar names with `W/wave`, including Wheezy and Val. The repetition makes greeting itself part of his social style: small, visible acknowledgements that keep him participating without needing to dominate the room." },
+    { name: "Daycare regulars", note: "Across February 2024 Anthos repeatedly answers arrivals and familiar names with `W/wave`, including Wheezy and Val. The repetition makes greeting itself part of his social style: small, visible acknowledgements that keep him participating without needing to dominate the room." }
   ],
-  quotes: [
-    "W/wave wheezy",
-    "No problemm",
-    "W/wave val",
-    "@Mugen Gaming how u been boss man",
-    "Long time...",
-  ],
+  quotes: ["W/wave wheezy", "No problemm", "W/wave val", "@Mugen Gaming how u been boss man", "Long time..."],
   claims: [
     "Stable Discord account 695394317921026121 / antho.logy is Anthos in the reviewed Daycare chronology.",
     "Repeated direct `W/wave` greetings across February 2024 support a recurring acknowledgement ritual rather than a one-off greeting.",
     "The May 2025 Mugen check-in extends the same social pattern across time: Anthos re-enters through a direct personal check-in rather than a grand announcement.",
-    "Anthos' reviewed Daycare material supports practical-helper / low-drama support texture alongside the greeting pattern, but does not establish a formal role from unresolved role mentions.",
+    "The new Daycare packet deepens Anthos's existing practical-helper texture; it does not replace his canonical Pit Boss identity or backfill role chronology from an unresolved role mention."
   ],
   antiFanon: [
-    "The unresolved role ID <@&829582687974866994> does not create a formal title, appointment, or role chronology for Anthos.",
+    "The unresolved role ID <@&829582687974866994> does not create a new formal title, appointment, or role chronology for Anthos; his canonical Pit Boss identity comes from the existing public owner, not this receipt.",
     "The October 4–18, 2022 no-surviving-message interval is a bounded archive gap, not proof that Anthos or Daycare was absent.",
     "The cause of the later Daycare-to-Main-HQ activity shift remains unresolved.",
     "The generic image0/q9 blind spot remains unresolved; no maker, capturer, or visual-subject credit is inferred from it.",
-    "Friendly greeting/check-in behavior does not establish a closeness hierarchy, romance, family relation, or governance relationship.",
+    "Friendly greeting/check-in behavior does not establish a closeness hierarchy, romance, family relation, or governance relationship."
   ],
 });
 
@@ -181,31 +161,51 @@ mergeCharacter({
   tags: ["Wall", "Lobby", "Caught out", "Self-aware humor", "Reciprocal bits", "Petty Crimes"],
   stableDiscordIds: ["830904434388500570"],
   relationships: [
-    { name: "Cookie", note: "Cookie notices Bailey is still present after expecting her to be asleep. Bailey answers with `who needs sleep`, upgrades herself to `I’m a ghost 👻`, and Cookie returns the premise with a Ghostbusters GIF. The useful mechanism is absence noticed → callout → playful answer → returned bit, not a closeness rank or caretaker dynamic." },
+    { name: "Cookie", note: "Cookie notices Bailey is still present after expecting her to be asleep. Bailey answers with `who needs sleep`, upgrades herself to `I’m a ghost 👻`, and Cookie returns the premise with a Ghostbusters GIF. The useful mechanism is absence noticed → callout → playful answer → returned bit, not a closeness rank or caretaker dynamic.", href: "/characters/cookie" },
     { name: "Gilli", note: "After Bailey returns to finish delayed onboarding housekeeping, Gilli answers `gotcha in hun`. It is a small warm completion signal, not proof of recruitment authority, role appointment, or exceptional closeness.", href: "/characters/gilli" },
-    { name: "Woohyuk / shared lore", note: "Bailey recognizes `corpse voice` after Woohyuk uses it in the room. That supports callback/shared-language recognition by April 2021, not phrase origin or a major relationship claim.", href: "/characters/woohyuk" },
+    { name: "Woohyuk / shared lore", note: "Bailey recognizes `corpse voice` after Woohyuk uses it in the room. That supports callback/shared-language recognition by April 2021, not phrase origin or a major relationship claim.", href: "/characters/woohyuk" }
   ],
-  quotes: [
-    "I forgot to do that Sowwy",
-    "when did you take those lmao",
-    "You really trying to expose us lmao",
-    "who needs sleep",
-    "I’m a ghost 👻",
-    "Altho I actually am going to sleep rn",
-    "Someone take my phone away pls",
-  ],
+  quotes: ["I forgot to do that Sowwy", "when did you take those lmao", "You really trying to expose us lmao", "who needs sleep", "I’m a ghost 👻", "Altho I actually am going to sleep rn", "Someone take my phone away pls"],
   claims: [
     "Stable Discord account 830904434388500570 / tripwire1419 is Bailey_Babe in the reviewed 2021 Lobby and Wall chronology.",
     "Across a missed onboarding task, resurfaced-media exposure, and a bedtime callout, Bailey repeatedly acknowledges being caught in a small mismatch and stays socially engaged instead of withdrawing or trying to erase the contradiction.",
     "Cookie's direct `thought u be sleeping` callout and Ghostbusters return support a bounded absence-noticing / reciprocal-bit lane with Bailey.",
-    "The anti-bedtime sequence is a Petty Crimes-grade self-own: `who needs sleep` lasts 2m13.106s before `Someone take my phone away pls`.",
+    "The anti-bedtime sequence is a Petty Crimes-grade self-own: `who needs sleep` lasts 2m13.106s before `Someone take my phone away pls`."
   ],
   antiFanon: [
     "Do not generalize one missed onboarding task into Bailey being forgetful, or the bedtime joke into insomnia, phone addiction, sleep-health claims, or `always online` behavior.",
     "The pooled Deleted User identity and the people visually depicted in the resurfaced media remain unresolved. `expose us` does not identify image subjects, maker, capturer, or poster beyond the known pooled account.",
     "Bailey recognizing `corpse voice` does not establish phrase origin, ownership, or special closeness with Woohyuk.",
     "Onboarding demographic values remain private/backstage and are intentionally excluded from this dossier.",
-    "The reviewed welcome is an earliest surviving doorway floor, not guaranteed first contact, recruitment origin, or relationship origin.",
+    "The reviewed welcome is an earliest surviving doorway floor, not guaranteed first contact, recruitment origin, or relationship origin."
+  ],
+});
+
+// Run 1453 Birthdays/PR/VC: Yummibears' tiny mic question is useful because the room treats it as ordinary logistics.
+mergeCharacter({
+  id: "yumi",
+  name: "Yumi",
+  aliases: ["Yummibears", "yummibears7868"],
+  billing: "legacy",
+  role: "retired Officer",
+  era: "2020–",
+  logline: "Early full Officer whose surviving 2020 event voice can be both practical and loud: `is mic required?` prompts an immediate listen-only workaround that becomes a general event instruction, while a later rally cry is simply `PUNCH AND DO ME PROUD @everyone`.",
+  tags: ["Retired Officer", "2020 events", "Fight Club", "Mic-optional participation", "Event hype"],
+  stableDiscordIds: ["415352848855859200"],
+  relationships: [
+    { name: "Mugen", note: "Yummibears asks whether a mic is required for the April 14, 2020 Land of Conquests Fight Club call. After an immediate reassurance from another participant, Mugen generalizes the workaround for everyone: listen in Fight Club and type replies in VIP Lounge if speaking is inconvenient. The scene is practical event coordination, not evidence about why Yumi asked or whether she ultimately joined voice.", href: "/characters/mugen" }
+  ],
+  quotes: ["is mic required?", "❤️", "PUNCH AND DO ME PROUD @everyone"],
+  claims: [
+    "Stable account 415352848855859200 / yummibears7868 / Yummibears is reconciled to the existing Yumi owner.",
+    "On April 14, 2020 Yummibears openly asks whether a mic is required; the room answers without demanding a reason, and Mugen turns the workaround into a general Fight Club/VIP Lounge instruction.",
+    "The May 13 `PUNCH AND DO ME PROUD @everyone` line is direct Yummibears event-hype voice, not voice-chat attendance evidence."
+  ],
+  antiFanon: [
+    "Do not infer why Yummibears asked about a mic: shyness, disability, work, family context, hardware limitations, or any other cause remains unknown.",
+    "Her heart acknowledges the answer; it does not prove that she joined voice chat.",
+    "This episode does not establish the creation date of Fight Club, VIP Lounge, or a formal accessibility policy.",
+    "Export-time/current roles do not establish appointment chronology."
   ],
 });
 
