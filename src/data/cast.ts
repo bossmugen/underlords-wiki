@@ -118,7 +118,7 @@ mergeCharacter({
   ],
 });
 
-// Run 1453 Daycare: deepen the existing Anthos owner without clobbering his canonical Pit Boss identity.
+// Run 1453–1454 Daycare reconciliation: Anthos is a quiet helper who will still hunt the receipt, summon the target, and admit when the receipt catches her too.
 mergeCharacter({
   id: "anthos",
   name: "Anthos",
@@ -126,26 +126,28 @@ mergeCharacter({
   billing: "main",
   role: "Pit Boss",
   era: "2020–present",
-  logline: "Officer and family-map co-conspirator whose competence often lands quietly: he treats the Tumbleweed as editable social infrastructure, helps without turning it into theater, repeatedly acknowledges people with tiny `W/wave` greetings, and can come back after a gap by simply asking Mugen how he has been.",
-  tags: ["Officer", "Tumbleweed", "Daycare", "Practical helper", "Greeting ritual", "Check-ins", "Low-drama support", "Social continuity"],
+  logline: "Officer and family-map co-conspirator whose competence often lands quietly: she treats the Tumbleweed as editable social infrastructure, helps without turning it into theater, repeatedly acknowledges people with tiny `W/wave` greetings, and can switch from receipt hunter to laughing defendant without leaving the room.",
+  tags: ["Officer", "Tumbleweed", "Daycare", "Practical helper", "Greeting ritual", "Check-ins", "Low-drama support", "Receipt culture", "Social continuity"],
   stableDiscordIds: ["695394317921026121"],
   relationships: [
-    { name: "Mugen", note: "In May 2025 Anthos reappears in Daycare and goes straight to `@Mugen Gaming how u been boss man`, then later adds `Long time...` while Mugen answers that he has been good and busy. It reads as easy reconnection after distance, not a rank, formal reporting line, or proof of exceptional closeness.", href: "/characters/mugen" },
-    { name: "Daycare regulars", note: "Across February 2024 Anthos repeatedly answers arrivals and familiar names with `W/wave`, including Wheezy and Val. The repetition makes greeting itself part of his social style: small, visible acknowledgements that keep him participating without needing to dominate the room." }
+    { name: "Mugen", note: "Anthos can ping Mugen because the target of a Wall bit is moving, and years later reappear in Daycare with `@Mugen Gaming how u been boss man`. The same relationship can carry tiny logistics and easy reconnection without turning either into a closeness rank or formal reporting line.", href: "/characters/mugen" },
+    { name: "Sye", note: "When Sye worries late at night, Anthos answers that work is not letting her off easy either, then turns parallel stress into companionship: `we can stay up worrying together now` and `Don’t have to do it by myself now`. It is a small mutual-presence/care beat, not romance or a ranked friendship claim.", href: "/characters/sye" },
+    { name: "Daycare regulars", note: "Across February 2024 Anthos repeatedly answers arrivals and familiar names with `W/wave`, including Wheezy and Val. The repetition makes greeting itself part of her social style: small, visible acknowledgements that keep her participating without needing to dominate the room." }
   ],
-  quotes: ["W/wave wheezy", "No problemm", "W/wave val", "@Mugen Gaming how u been boss man", "Long time..."],
+  quotes: ["it’s him !! get a pic", "Fuck forgot about that day", "remember that duel? lol", "we can stay up worrying together now", "Don’t have to do it by myself now", "W/wave wheezy", "@Mugen Gaming how u been boss man"],
   claims: [
     "Stable Discord account 695394317921026121 / antho.logy is Anthos in the reviewed Daycare chronology.",
+    "Across the reviewed Wall pocket Anthos moves from target-finding and summoning Mugen into the bit to openly admitting `Fuck forgot about that day` when the receipt turns back on her; that is a useful helper/receipt-hunter ↔ willing-self-own contradiction, not generic defensiveness.",
+    "The Sye exchange supports a bounded mutual-worry companionship beat: Anthos answers stress by making it shared rather than solitary.",
     "Repeated direct `W/wave` greetings across February 2024 support a recurring acknowledgement ritual rather than a one-off greeting.",
-    "The May 2025 Mugen check-in extends the same social pattern across time: Anthos re-enters through a direct personal check-in rather than a grand announcement.",
-    "The new Daycare packet deepens Anthos's existing practical-helper texture; it does not replace his canonical Pit Boss identity or backfill role chronology from an unresolved role mention."
+    "The May 2025 Mugen check-in extends the same social pattern across time: Anthos re-enters through a direct personal check-in rather than a grand announcement."
   ],
   antiFanon: [
-    "The unresolved role ID <@&829582687974866994> does not create a new formal title, appointment, or role chronology for Anthos; his canonical Pit Boss identity comes from the existing public owner, not this receipt.",
+    "The unresolved role ID <@&829582687974866994> does not create a new formal title, appointment, or role chronology for Anthos; her canonical Pit Boss identity comes from the existing public owner, not this receipt.",
     "The October 4–18, 2022 no-surviving-message interval is a bounded archive gap, not proof that Anthos or Daycare was absent.",
     "The cause of the later Daycare-to-Main-HQ activity shift remains unresolved.",
     "The generic image0/q9 blind spot remains unresolved; no maker, capturer, or visual-subject credit is inferred from it.",
-    "Friendly greeting/check-in behavior does not establish a closeness hierarchy, romance, family relation, or governance relationship."
+    "Friendly greeting, late-night mutual worry, and easy check-in behavior do not establish a closeness hierarchy, romance, family relation, or governance relationship."
   ],
 });
 
@@ -206,6 +208,61 @@ mergeCharacter({
     "Her heart acknowledges the answer; it does not prove that she joined voice chat.",
     "This episode does not establish the creation date of Fight Club, VIP Lounge, or a formal accessibility policy.",
     "Export-time/current roles do not establish appointment chronology."
+  ],
+});
+
+// Run 1454 Wall: Vanness cares who owns the charge, then voluntarily files himself when the disaster is definitely his.
+mergeCharacter({
+  id: "vanness",
+  name: "Vanness",
+  aliases: ["vanness0492"],
+  billing: "guest",
+  role: "Archive-era Wall cast",
+  era: "2021+",
+  logline: "Receipt traffic-cop and comic self-auditor: Vanness can loudly correct a charge he thinks belongs to somebody else, then voluntarily walk into Screenshot Court with `Shame me` when five orange dracs disappear into a catastrophic merge and spend the postmortem explaining exactly how the failure happened.",
+  tags: ["Wall", "Receipt culture", "Attribution-sensitive", "Self-filer", "Petty Crimes"],
+  stableDiscordIds: ["714781719357554718"],
+  relationships: [
+    { name: "Ren", note: "Ren true-replies Vanness's self-file with `hoW-`; Vanness later true-replies that exact message with the four-failed-merges postmortem and then `my luck is💩`. It is disbelief → technical postmortem familiarity, not a friendship rank.", href: "/characters/ren" },
+    { name: "Gilli and Candy", note: "Both true-reply the same self-file parent with shock/sympathy shorthand. The useful thing is that Vanness's voluntary prosecution instantly becomes shared-room material, not that one reaction proves a special relationship." }
+  ],
+  quotes: ["Im putting myself in wall of shame for losing 5 orange dracs for merge. Shame me:CatCry:", "Im too sad to play anymore:Cursed:", "I failed merge 4 times in a row, and the last 2 orange merged into 1:Raja_cat_frustrates:", "my luck is💩", "Why", "In the world would anyone have this idea"],
+  claims: [
+    "Stable Discord account 714781719357554718 / vanness0492 is Vanness in the reviewed 2021 Wall chronology.",
+    "The cumulative person read is attribution-sensitive defendant ↔ comic self-auditor: Vanness can correct who owns an embarrassing premise and still file himself when he accepts that the disaster is his.",
+    "The August 10 self-file is direct voluntary self-prosecution, followed by exact reply edges from Gilli, Candy and Ren and a later Ren-directed four-failure technical postmortem.",
+    "The August 9 attachment is POSTED BY Vanness; his delayed `Why` / `In the world would anyone have this idea` lines are probable immediate commentary on that object, while the visual premise itself remains unresolved."
+  ],
+  antiFanon: [
+    "Do not independently validate Vanness's older Gabu accusation; it is part of Vanness's attribution-defense behavior, not an integrator finding about Gabu.",
+    "The August 9 screenshot has not been visually inspected. POSTED BY Vanness is known; MADE BY, CAPTURED BY and visual FEATURING remain unresolved.",
+    "Ren/Gilli/Candy response patterns are bounded Wall familiarity, not romance, family, exclusivity or closeness rankings.",
+    "The merge disaster is game-event self-own material, not evidence of incompetence outside that scene."
+  ],
+});
+
+// Run 1454 Wall: Nhou can seed a one-word bit and watch somebody else pick it up immediately.
+mergeCharacter({
+  id: "nhou",
+  name: "Nhou",
+  aliases: ["nhougat"],
+  billing: "recurring",
+  role: "Staff",
+  era: "2020–",
+  logline: "Staff and compact shared-language participant whose jokes often arrive in tiny packets: dark-mode vampire noises, clinical-brain leaks, and now `snouwu`, which Anayss picks up almost immediately and repeats again minutes later.",
+  tags: ["Staff", "Wall", "Compact wordplay", "Shared shorthand", "Petty Crimes"],
+  stableDiscordIds: ["158594223371845632"],
+  relationships: [
+    { name: "Anayss", note: "Nhou drops `snouwu`; Anayss answers `Snouwu` 24.833 seconds later and reuses it again minutes later. That is immediate shared-language pickup in one bounded scene, not a closeness rank or proof Nhou globally invented the word." }
+  ],
+  quotes: ["uwu", "snouwu"],
+  claims: [
+    "Stable Discord account 158594223371845632 / nhougat is Nhou in the reviewed Wall chronology.",
+    "The April 14, 2021 `uwu` → `snouwu` pocket and Anayss's near-immediate reuse support compact wordplay-seeder / shared-shorthand-participant texture."
+  ],
+  antiFanon: [
+    "The surviving local `snouwu` message is not guaranteed global origin and does not establish `Snouwu` as a durable Snow alias without broader recurrence.",
+    "The Nhou↔Anayss pickup is one bounded social-language scene; do not inflate it into friendship rank, romance, family, or identity linkage."
   ],
 });
 
