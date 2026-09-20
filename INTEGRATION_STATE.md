@@ -1,37 +1,33 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-19 — Run 1438 close_
+_Last updated: 2026-09-19 — Run 1439 close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies. Earlier run detail remains available in git history and MAIN `integration-runs/`.
 
-## Run 1438 close
+## Run 1439 close
 
-The full miner census remains **51 tracked identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 unread pending review, 0 backlog, and 0 overdue**. Both Club-Only recovery lanes remain current. Exactly one active miner advanced this run: Wall moved from reviewed frontier `f68da674efe578bb30c09384d6239259653c35d6` to `dd0076a405d76e66c85aa86d1f1518df9b17e434`; the entire intake-only delta was reviewed checkpoint-first. A final branch recheck held that head stable.
+The full miner census remains **51 tracked identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 unread pending review, 0 backlog, and 0 overdue**. Opening and closing censuses found every active miner HEAD unchanged from the already-reviewed Run 1438 frontier. Both Club-Only recovery lanes remain current.
 
-The strongest new public gain is **Kiro / HicUUOOOOGH** (`754128584498610178`). Hard canon remains binding: Kiro was a **full Officer / Pit Boss, never a Sniper**. The Wall packet sharpens him into a person who happily occupies both sides of Screenshot Court. He can file an attachment under his own `Being petty:R_damn:` caption, get Gilli's exact `DID YOU GET IT?` outcome check and answer `No:EmoJi_CrYiNg:`, then later answer Daya identifying Hic as Kiro with `Who's kiro` as if his own identity were optional paperwork. Because the identity bridge is already hard-resolved, the last line is deadpan identity-dodge humor rather than uncertainty.
+No miner branch advanced, so there were **0 intake deltas, 0 genuinely new findings, 0 duplicate-family changes, 0 rabbit/conflict movement, and 0 consumed-SHA advances**. The controlling MAIN ledger still carries **10 pending-publication families**; these are reviewed publication/resynthesis/verification debt or accepted candidates, not unread mining.
 
-The dossier now carries two bounded relationship lanes. **Gilli ↔ Kiro** is recurring receipt-callout / outcome-check familiarity: exact reply edges in the `Being petty` pocket plus later direct summons show that Gilli can skip setup because Kiro already knows the premise. **Daya ↔ Kiro** is recurring summon / identity-tease familiarity: she can point directly at Hic, he can pretend Kiro is a stranger, and she immediately plays the confusion forward. Neither lane is promoted into a friendship rank, romance, origin story, or governance hierarchy.
+**MAIN reader changes: 0. WIKI reader changes: 0.** Nothing was newly routed to only one surface. Because reader bytes did not change, no MAIN source-verification/Astro/built-output run and no WIKI Astro/Pages rebuild were triggered merely for ceremony. No deployment is claimed for either repository this run.
 
-The new Kiro material was intentionally **WIKI-deepened but not MAIN-appended**. MAIN's existing `src/content/people/kiro.md` already contains the richer person-first synthesis: the same `Being petty` filing, Gilli outcome-check chain, self-filer ↔ mock-prosecutor contradiction, Daya `Who's kiro` scene, plus the much larger Send-button / Mugen / belonging / Officer arc. Adding another MAIN Wall paragraph would have duplicated the character read rather than enriched it.
-
-Reader commit **`e725fa1dce5e899bfa60551b537de5ddd4f40288`** updated `src/data/cast.ts` with Kiro's stable ID/alias continuity, role rail, Wall contradiction, Petty Crimes quotes, Kiro↔Gilli and Kiro↔Daya relationship entries, reciprocal relationship links, and backstage attribution / anti-fanon rails.
-
-**Build Underlords Wiki `35484349613` succeeded. Deploy Underlords Wiki Preview / Pages `35484349592` succeeded through preview build, Pages deployment, and final report.**
+The verified WIKI reader frontier therefore remains Run 1438's Kiro reader commit **`e725fa1dce5e899bfa60551b537de5ddd4f40288`**. Build Underlords Wiki **`35484349613`** and Deploy Underlords Wiki Preview / Pages **`35484349592`** remain the latest successful verification/deployment pair carried forward by state.
 
 ## Reviewed / stable frontiers at close
 
-- **Wall** `dd0076a405d76e66c85aa86d1f1518df9b17e434` — fully reviewed; Kiro WIKI deepener is live and verified. The contiguous consumed cursor remains `01cf4664d8e5130052874789adbfda382935b1a3` only because of the inherited accepted MAIN Shiki publication gate. **Do not reread through `dd0076a4`.**
+- **Wall** `dd0076a405d76e66c85aa86d1f1518df9b17e434` — fully reviewed; Kiro WIKI deepener remains live and verified. The contiguous consumed cursor remains `01cf4664d8e5130052874789adbfda382935b1a3` only because of the inherited accepted MAIN Shiki publication gate. **Do not reread through `dd0076a4`.**
 - **Daycare** `f0ec6d62e528fdc28312ca1b40688a6aa26835fb` — consumed; Mërcy and SaraBunny remain live from reader `778857f2cdecb0f583a98bf9534630a7e82e33a2`.
 - **Whiskey** `9e85decae3816ea9931f71cadb31303471da88ab` — consumed; Olenka's Yaza shared-doorway → `friendO` relationship chronology remains live from reader `778857f2cdecb0f583a98bf9534630a7e82e33a2`.
 - **Birthdays** `5f85344deef60149ce9594fc4a93ccba935c6e78` — review-current; accepted Dec. 28–29, 2020 birthday-page proposal → ready-channel-by-morning material remains a WIKI Episode/history candidate. Its consumed cursor stays `de5d633239552cae06c54df028b262950c480adf`. **Do not reread the reviewed delta.**
-
-The controlling MAIN ledger still carries **10 pending-publication families**. These are reviewed publication/resynthesis/verification debt or accepted candidates, not unread mining.
+- **Club-Only 2021–2026** `e45fb11c9239e236231bb65645dfd0285bc0078b` — recovery lane current.
+- **Club-Only 2020** `ed66714f8d2c18f23bbb2b951bf305f0fa913f21` — recovery lane current.
 
 ## MAIN publication gate
 
-MAIN reader-facing changes in Run 1438: **0**.
+MAIN reader-facing changes in Run 1439: **0**.
 
-The inherited accepted Shiki MAIN reader was retried again. Dedicated workflow `35458657320` reached **attempt 30**. Latest job `106007891249` failed before any source/Astro/built-output verification step existed, with `steps=[]` and `runner_id=0`. This remains runner/provisioning failure rather than a source-verification, Astro-build, built-output-verification, or reader-content failure. Retry the gate; do not remine already-reviewed Wall material.
+The inherited accepted Shiki MAIN reader remains behind the required source/Astro/built-output verification gate already documented in Run 1438. The most recent recorded retry remains dedicated workflow `35458657320`, attempt **30**, job `106007891249`, which failed before any verification step existed with `steps=[]` and `runner_id=0`. This remains runner/provisioning failure rather than a source-verification, Astro-build, built-output-verification, or reader-content failure. No additional retry was fired for an otherwise reader-neutral run. Retry the gate when appropriate; do not remine already-reviewed Wall material.
 
 ## Attribution / q9 rails carried forward
 
