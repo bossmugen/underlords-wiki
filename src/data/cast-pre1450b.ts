@@ -31,24 +31,9 @@ if (woosungIndex >= 0) {
   const woosung = allCharacters[woosungIndex] as ArchiveCharacter;
   const relationships = [...(woosung.relationships ?? [])];
 
-  upsertRelationship(
-    relationships,
-    "Moon",
-    "When WOO admits `I need to not talk sm I got so much stuff on the hall of shame`, Moon true-replies `No no you famous uwu`. WOO answers with crying/skull reactions instead of leaving the bit. It is a neat little embarrassment→affectionate-reframe lane, not a fame title or closeness ranking.",
-    "/characters/moon",
-  );
-  upsertRelationship(
-    relationships,
-    "Gilli",
-    "A Gilli Wall filing is the immediate occasion for WOO's `I need to not talk sm` complaint about how much material she has accumulated. The useful relationship texture is receipt-culture familiarity: Gilli can file, WOO can protest the collectability of her own mouth, and the room keeps moving. The screenshot contents remain unresolved.",
-    "/characters/gilli",
-  );
-  upsertRelationship(
-    relationships,
-    "Nobu",
-    "In the March 26, 2023 Wall pocket, WOO can go from full-volume `NOBU` / `TRAITOR` to lowercase `nobu` / `why` later the same night. The contrast supports theatrical betrayal shorthand between familiar people in that scene; it does not identify what any unreadable screenshot showed.",
-    "/characters/nobu",
-  );
+  upsertRelationship(relationships, "Moon", "When WOO admits `I need to not talk sm I got so much stuff on the hall of shame`, Moon true-replies `No no you famous uwu`. WOO answers with crying/skull reactions instead of leaving the bit. It is a neat little embarrassment→affectionate-reframe lane, not a fame title or closeness ranking.", "/characters/moon");
+  upsertRelationship(relationships, "Gilli", "A Gilli Wall filing is the immediate occasion for WOO's `I need to not talk sm` complaint about how much material she has accumulated. The useful relationship texture is receipt-culture familiarity: Gilli can file, WOO can protest the collectability of her own mouth, and the room keeps moving. The screenshot contents remain unresolved.", "/characters/gilli");
+  upsertRelationship(relationships, "Nobu", "In the March 26, 2023 Wall pocket, WOO can go from full-volume `NOBU` / `TRAITOR` to lowercase `nobu` / `why` later the same night. The contrast supports theatrical betrayal shorthand between familiar people in that scene; it does not identify what any unreadable screenshot showed.", "/characters/nobu");
 
   allCharacters[woosungIndex] = {
     ...woosung,
@@ -72,7 +57,6 @@ if (woosungIndex >= 0) {
   } as ArchiveCharacter;
 }
 
-// Run 1465 Daycare reconciliation: DyingFox delivers the same warmth at much lower volume.
 allCharacters.push({
   id: "dyingfox",
   name: "DyingFox",
@@ -104,7 +88,6 @@ allCharacters.push({
   ],
 } as ArchiveCharacter);
 
-// Run 1465 Whiskey reconciliation: Noether gets summoned as the audience and leaves as the caption writer.
 allCharacters.push({
   id: "noether",
   name: "Noether",
@@ -134,6 +117,41 @@ allCharacters.push({
     "The current direct-Whiskey retrieval seam does not prove that Noether never used Whiskey or preferred other rooms.",
     "Repeat MEE6 welcomes do not establish absence, removal, re-recruitment, or account problems; current role arrays do not establish appointment chronology.",
     "Private onboarding/demographic material is intentionally excluded from the public dossier."
+  ],
+} as ArchiveCharacter);
+
+allCharacters.push({
+  id: "anayss",
+  name: "Anayss",
+  aliases: [],
+  billing: "recurring",
+  role: "Archive-era Wall regular",
+  era: "2020–2024+",
+  logline: "Receipt filer with standards, not a courthouse robot: Anayss can actively file Snow and Gabu, get so used to Snow's nonsense that some of it stops qualifying as news, tell the whole room `love you all ❤️`, and later reply to a Rummy roast with `Why are you so rude to rummy though uwu`. Prosecution and affection are apparently allowed to share a desk.",
+  tags: ["Wall", "Receipt filer", "Selective prosecution", "Open affection", "Soft roast-check", "Shared-context fluency", "Petty Crimes"],
+  stableDiscordIds: ["698943572875149342"],
+  relationships: [
+    { name: "Snow", note: "Snow expects Anayss may file him; Anayss says she ignored one line because she is already used to him saying that kind of thing, and Snow immediately describes `Ana` as numb to his posts. A later self-filing line says he will do it himself so `Ana and Hami don't`. In these exact filer-context scenes, `Ana` is strongly probable as Anayss; that is not a global alias lock.", href: "/characters/snow" },
+    { name: "Noether", note: "Anayss repeatedly brings Noether into public receipt/media scenes and later greets the same stable account with `wb ❤️`. Noether often answers by remixing the room's joke into compact labels. The useful lane is bring-her-the-evidence / shared-bit fluency, not a closeness rank.", href: "/characters/noether" },
+    { name: "Rummy", note: "When Marian files `Rums: the master of not reading the fine print`, Anayss true-replies `Why are you so rude to rummy though uwu`. The `uwu` keeps the correction inside play: one bounded playful-defense beat, not a relationship hierarchy.", href: "/characters/rummy" },
+    { name: "Marian", note: "Anayss's exact-parent reply to Marian's Rummy roast is a soft check rather than a fight: `Why are you so rude to rummy though uwu`. It shows she can push back on a roast while keeping the room's playful register intact.", href: "/characters/marian" },
+    { name: "Gabu", note: "Anayss directly files an attachment while summoning Gabu and Snow with `let me post this -laughs-`. Gabu is confirmed social audience/target of the filing language; that does not establish visual FEATURING or media authorship.", href: "/characters/gabu" }
+  ],
+  quotes: ["Im used to you saying that kinda things so I just ignored it 😛", "hahahaha ❤️ ❤️ love you alll!", "Hahaha I love you all ❤️", "Why are you so rude to rummy though uwu", "I still don't know what is a beak"],
+  claims: [
+    "Stable Discord account 698943572875149342 is Anayss in the reviewed Wall chronology.",
+    "Across 2020–2024 Wall material, Anayss is both an active receipt filer and an openly affectionate regular. The stronger cumulative read is selective prosecution: she knows the room well enough to preserve some nonsense, ignore familiar nonsense, and soften other people's roasting when she wants to.",
+    "In two Snow filer-context scenes, `ana/Ana` is strongly probable as a scene-level short form for Anayss because Snow's wording directly paraphrases Anayss's immediately preceding behavior and later recurs in the same receipt-threat function.",
+    "Repeated `love you all` language more than a year apart supports overt group-affection as recurring social texture inside the same public-roasting culture.",
+    "The Marian→Anayss exact Reply establishes a bounded playful-defense / soft roast-check beat around Rummy without proving deeper relationship rank."
+  ],
+  antiFanon: [
+    "Do not promote `Ana = Anayss` into a project-wide alias. The bridge is strongly probable only in the reviewed Snow filer-context scenes; other historical `Ana` references remain individually unresolved.",
+    "Receipt filing is lived Wall behavior, not a formal archivist, moderator, judge, or governance appointment.",
+    "Group-affection language such as `love you all` is social warmth, not literal family or romance.",
+    "Anayss's Rummy defense is one bounded scene and does not establish ranked closeness, caretaker status, or hostility toward Marian.",
+    "The 2020 attachment is POSTED BY Anayss. Gabu and Snow are social targets/audience; MADE BY, CAPTURED BY, and visual FEATURING remain unresolved.",
+    "The `beak` line is a tiny embarrassment suitable for Petty Crimes, not evidence about intelligence, language ability, or broader competence."
   ],
 } as ArchiveCharacter);
 
