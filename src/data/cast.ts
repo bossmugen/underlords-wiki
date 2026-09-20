@@ -320,39 +320,66 @@ mergeCharacter({
   ],
 });
 
-mergeCharacter({
-  id: "xuseio",
-  name: "Xuseio",
-  aliases: ["xusei"],
-  billing: "recurring",
-  role: "Archive-era Wall cast",
-  era: "2022–2024+",
-  logline: "Receipt curator and punchline narrator who rarely needs a whole paragraph to make the room understand why something is funny. Xuseio captions saved moments, drags callbacks back into public view, and is attentive enough to narrate other people's comic timing while still cheerfully admitting when the post only exists because Xuseio read something wrong.",
-  tags: ["Wall", "Receipt culture", "Callback curator", "Punchline narrator", "Self-own", "Light mode hater", "Petty Crimes"],
-  stableDiscordIds: ["864346521351880714"],
-  relationships: [
-    { name: "phenomenal_lamb", note: "Xuseio's `The fact we spoke about this the other day` direct mention confirms prior shared context that later gets dragged into the Wall. The exact topic lives in an uninspected screenshot, so the callback is real while its subject and any closeness ranking stay unresolved." },
-    { name: "New", note: "Xuseio volunteers New as `a tribute`; New returns the next day with `I've been summoned to be used as tribute` and directly mentions Xuseio. It is reciprocal joke pickup, not literal assignment, coercion, or governance." },
-    { name: "Marian Kage", note: "Marian's `the only shameful thing here is that white` gets Xuseio's mock-rescue `Don't worry. I got you. *Nyaa*~`; Marian answers `i regret many things.....` and Xuseio wheezes. Comfortable teasing escalation in one readable chain, not practical-help evidence." },
-    { name: "Oyasumi", note: "One bounty/kidnap reversal scene supports playful contest energy: Xuseio announces the reversal, Oyasumi returns a disappointed-clown emote, and the room laughs. Keep it scene-sized rather than promoting a permanent rivalry." }
-  ],
-  quotes: ["Finesse of a comedy duo", "Ngl, I legit thought that said children. Which is why I posted it.", "Light mode gets me every time.", "The fact we spoke about this the other day.", "You've been volunteered as a tribute.", "Don't worry. I got you. *Nyaa*~"],
-  claims: [
-    "Stable Discord account 864346521351880714 / xusei is Xuseio in the reviewed Wall chronology.",
-    "Across 2022–2024 Wall material, Xuseio repeatedly finds/posts a receipt, gives it a compact social frame, summons or recalls the relevant people, and lets the room finish the joke. The recurring mechanism is receipt curation plus social narration rather than merely posting screenshots.",
-    "Xuseio's `I legit thought that said children. Which is why I posted it.` and `Didn't even notice that LMAO` support an attentive-commentator ↔ willing-self-own contradiction: watchful without needing to appear infallible.",
-    "`Light mode gets me every time.` is clean mundane UI-aversion texture suitable for Petty Crimes.",
-    "The current parsed Wall author route was fully enumerated at 77 Xuseio-authored messages; generic stable-ID appearances are metadata-inclusive and are not authored-message counts."
-  ],
-  antiFanon: [
-    "The 77-message count is a current-source route lock, not global archive exhaustion or proof that Xuseio has no material elsewhere.",
-    "All attachment pixels in this pass remain uninspected. Where Xuseio posts an attachment, POSTED BY is known; MADE BY, CAPTURED BY, and visual FEATURING are not inferred.",
-    "`kidnapped`, `bounty`, `tribute`, and `childe` are joke/game/caption language in these scenes, not literal violence, coercion, governance, age, family, or identity evidence.",
-    "`My favorite food.` confirms that a self-declared favorite-food receipt exists, but the item is media-bound and remains unpublished until the image is actually readable.",
-    "Do not collapse Xuseio into Hic's petty-prosecutor mechanism merely because both file receipts; Xuseio's recurring engine is compact captioning, callbacks, and curation.",
-    "The phenomenal_lamb, New, Marian, and Oyasumi lanes remain bounded social texture rather than romance, family, exclusivity, or closeness rankings."
-  ],
-});
+const nobuIndex = allCharacters.findIndex((character) => character.id === "nobu");
+if (nobuIndex >= 0) {
+  const nobu = allCharacters[nobuIndex] as ArchiveCharacter;
+  const relationships = [...(nobu.relationships ?? [])];
+  const appendRelationship = (name: string, note: string, href?: string) => {
+    const index = relationships.findIndex((relationship) => relationship.name === name);
+    if (index >= 0) {
+      const current = relationships[index];
+      relationships[index] = {
+        ...current,
+        note: current.note.includes(note) ? current.note : `${current.note} ${note}`,
+        ...(current.href || !href ? {} : { href }),
+      };
+    } else {
+      relationships.push(href ? { name, note, href } : { name, note });
+    }
+  };
+
+  appendRelationship(
+    "Rummy",
+    "On January 2, 2024 Nobu/Xuseio tags Rummy's phenomenal_lamb account with `The fact we spoke about this the other day`, confirming prior shared context that later gets dragged into the Wall; the screenshot-bound topic stays unresolved.",
+    "/characters/rummy",
+  );
+  appendRelationship(
+    "New",
+    "Nobu/Xuseio volunteers New as `a tribute`; New returns the next day with `I've been summoned to be used as tribute` and directly summons Nobu back. It is reciprocal joke pickup, not literal assignment or governance.",
+    "/characters/new",
+  );
+  appendRelationship(
+    "Panda",
+    "Marian/Panda's `the only shameful thing here is that white` gets Nobu/Xuseio's `Don't worry. I got you. *Nyaa*~`; Panda answers `i regret many things.....` and Nobu wheezes. The readable chain is comfortable teasing escalation, not practical-help evidence.",
+    "/characters/panda",
+  );
+  appendRelationship(
+    "Oyasumi",
+    "One Wall pocket has Nobu/Xuseio narrating a bounty/kidnap reversal and Oyasumi returning a disappointed-clown emote. Keep the playful contest scene-sized rather than promoting it into a permanent rivalry.",
+    "/characters/oyasumi",
+  );
+
+  allCharacters[nobuIndex] = {
+    ...nobu,
+    aliases: [...new Set([...(nobu.aliases ?? []), "Xuseio", "xusei"])],
+    tags: [...new Set([...(nobu.tags ?? []), "Wall", "Receipt curator", "Callback curator", "Willing self-own", "Petty Crimes"])],
+    stableDiscordIds: [...new Set([...(nobu.stableDiscordIds ?? []), "864346521351880714"])],
+    relationships,
+    quotes: [...new Set([...(nobu.quotes ?? []), "Finesse of a comedy duo", "Ngl, I legit thought that said children. Which is why I posted it.", "Light mode gets me every time.", "You've been volunteered as a tribute.", "Don't worry. I got you. *Nyaa*~"])],
+    claims: [...new Set([...(nobu.claims ?? []),
+      "Stable Discord account 864346521351880714 / xusei / Xuseio is canonical Nobu in the reviewed Wall chronology.",
+      "Across 2022–2024 Wall material, Nobu/Xuseio repeatedly turns saved moments into social bits with compact captions, callbacks and direct summons; the recurring mechanism is receipt curation plus punchline narration rather than merely posting screenshots.",
+      "`I legit thought that said children. Which is why I posted it.` and `Didn't even notice that LMAO` sharpen Nobu's attentive-commentator ↔ willing-self-own contradiction: she notices timing and callbacks without needing to look infallible.",
+      "`Light mode gets me every time.` is direct mundane UI-aversion texture suitable for Petty Crimes.",
+    ])],
+    antiFanon: [...new Set([...(nobu.antiFanon ?? []),
+      "Xuseio / xusei is Nobu, not a separate public person. The 77-message count applies only to the currently parsed Wall authored route, not the whole archive.",
+      "The reviewed Wall attachments establish POSTED BY Nobu/Xuseio where applicable; MADE BY, CAPTURED BY and visual FEATURING remain unresolved because the pixels were not inspected.",
+      "`kidnapped`, `bounty`, `tribute`, and `childe` are joke/game/caption language in these scenes, not literal violence, coercion, governance, age, family, or identity evidence.",
+      "`My favorite food.` confirms a self-declared favorite-food receipt exists, but the actual item is still media-bound and must not be guessed.",
+    ])],
+  } as ArchiveCharacter;
+}
 
 export const castGroups = previousGroups;
 export const characterById = new Map(allCharacters.map((character) => [character.id, character]));
