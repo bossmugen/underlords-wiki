@@ -19,7 +19,7 @@ Hard role canon was reasserted before final publication: **Chibiterasu is the pr
 Final accepted WIKI reader commit: **`3b145fca7e60d4f727a2f8a1e4dc5109a6e5cabe`** (`Run 1496: restore Chibiterasu primary and locked roles`).
 
 - **Build Underlords Wiki `35545903428`: succeeded.**
-- **Deploy Underlords Wiki Preview / Pages `35545903401`: build succeeded and deployment succeeded.** The workflow report job was still queued when this durable state was written; reader build and Pages deployment themselves were complete and green.
+- **Deploy Underlords Wiki Preview / Pages `35545903401`: succeeded through build, deployment, and report.**
 
 ### Zoshaa / Nintendo — reconciliation without a duplicate owner
 
