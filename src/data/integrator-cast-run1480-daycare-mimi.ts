@@ -81,30 +81,40 @@ const mimiNext: ExtendedCharacter = {
 allCharacters[mimiIndex] = mimiNext;
 characterById.set("mimi", mimiNext);
 
-// Run 1480 Core Rooms: JereGilgamesh is a returning conversational bridge, not a title inferred from nickname syntax.
+// Hard-canon repair: Beo = JereGilgamesh / Jere. Fold Run 1480's Jere packet into Beo instead of manufacturing a second person.
 const jereStableId = "337448323395092481";
-const jereExistingIndex = allCharacters.findIndex(
+const beoIndex = allCharacters.findIndex(
   (character) =>
-    character.id === "jeregilgamesh" ||
-    character.name === "JereGilgamesh" ||
+    character.id === "beo" ||
+    character.name === "Beo" ||
     (character as ExtendedCharacter).stableDiscordIds?.includes(jereStableId),
 );
 
-if (jereExistingIndex >= 0) {
-  throw new Error("Run 1480 Core Rooms found an existing JereGilgamesh owner; review before merging identities.");
+if (beoIndex < 0) {
+  throw new Error("Hard canon requires Beo = JereGilgamesh / Jere, but no canonical Beo owner was found.");
 }
 
-const jere: ExtendedCharacter = {
-  id: "jeregilgamesh",
-  name: "JereGilgamesh",
-  aliases: ["JereGilgamesh", "Gilga [UL-M]"],
-  stableDiscordIds: [jereStableId],
-  billing: "supporting",
-  role: "Returning conversational connector",
-  era: "2017–2022",
-  logline:
-    "JereGilgamesh can walk into a room with `lol` and, two turns later, have everybody explaining what they play, which server they use, whether there is a Steam version, or how their day is going. His surviving style is short and punctuation-light, but not socially distant: the economy is in the typing, not the interest.",
-  tags: [
+const beo = allCharacters[beoIndex] as ExtendedCharacter;
+const beoRelationships = [...(beo.relationships ?? [])];
+
+extendRelationship(beoRelationships, {
+  name: "Mugen",
+  note:
+    "Under the Jere/JereGilgamesh handle, Beo repeatedly treats Mugen as somebody he can ask direct, ordinary questions: what he is playing, what `Break` is, and whether he visited Beo's country. `Well, good to hear you ahaha ^^` keeps the register warm; Mugen's one `MY MAN` reply reads as easy recognition in the moment, not a title or intimacy rank.",
+  href: "/characters/mugen",
+});
+
+extendRelationship(beoRelationships, {
+  name: "Haruu",
+  note:
+    "During one cross-game exchange, Beo under the Jere handle asks Haruu `A steam version ?`. It is a tiny but representative beat: he uses people in the room as practical bridges into whatever everyone is currently playing instead of pretending to know the ecosystem already.",
+});
+
+const beoNext: ExtendedCharacter = {
+  ...beo,
+  aliases: appendUnique(beo.aliases, ["JereGilgamesh", "Jere", "Gilga [UL-M]"]),
+  stableDiscordIds: appendUnique(beo.stableDiscordIds, [jereStableId]),
+  tags: appendUnique(beo.tags, [
     "Core Rooms",
     "Conversation starter",
     "Returning presence",
@@ -113,21 +123,9 @@ const jere: ExtendedCharacter = {
     "Travel chatter",
     "Food shorthand",
     "Petty Crimes",
-  ],
-  relationships: [
-    {
-      name: "Mugen",
-      note:
-        "Jere repeatedly treats Mugen as somebody he can ask direct, ordinary questions: what he is playing, what `Break` is, and whether he visited Jere's country. `Well, good to hear you ahaha ^^` keeps the register warm; Mugen's one `MY MAN` reply reads as easy recognition in the moment, not a title or intimacy rank.",
-      href: "/characters/mugen",
-    },
-    {
-      name: "Haruu",
-      note:
-        "During one cross-game exchange Jere asks Haruu `A steam version ?`. It is a tiny but representative beat: he uses people in the room as practical bridges into whatever everyone is currently playing instead of pretending to know the ecosystem already.",
-    },
-  ],
-  quotes: [
+  ]),
+  relationships: beoRelationships,
+  quotes: appendUnique(beo.quotes, [
     "How you guys doing?",
     "what you guys play now?",
     "Guys, which game do you use?",
@@ -136,22 +134,43 @@ const jere: ExtendedCharacter = {
     "Spain was nice",
     "yeah! I saw alot of things xp",
     "Rip, im not gonna join then",
-  ],
-  claims: [
-    "Stable account 337448323395092481 is the reviewed JereGilgamesh owner; `Gilga [UL-M]` is a nickname/display form in the source packet, not proof of a formal rank.",
-    "The reviewed membership-event history includes join surfaces tied to July 3, 2020, November 24, 2020, November 18, 2021, and August 1, 2022, while Jere's surviving message activity reaches back to December 29, 2017. The useful character read is a returning presence, not a brand-new newcomer every time the platform records a doorway.",
-    "Across at least 36 active dates from 2017 through 2022, Jere often enters with compact openers such as `lol`, `Nice ahah`, `Welp Guys xD`, `Rip.`, or `Hi!`, then turns quickly toward other people with direct questions about how they are doing, what they play, which server they use, or whether a game has a Steam version. The pattern is conversational bridging rather than verbosity.",
-    "Jere's warmth has a practical brake. If the platform or server structure is not a fit, he can simply answer `Rip, im not gonna join then` or `ahh Rip. xp` and move on. Friendly does not become clingy.",
+  ]),
+  claims: appendUnique(beo.claims, [
+    "Hard canon resolves Beo, JereGilgamesh, and Jere as the same person; stable account 337448323395092481 belongs to that canonical Beo owner rather than a separate Jere character.",
+    "Under the Jere/JereGilgamesh handle, the reviewed membership-event history includes join surfaces tied to July 3, 2020, November 24, 2020, November 18, 2021, and August 1, 2022, while surviving message activity reaches back to December 29, 2017. The useful character read is a returning presence, not a brand-new newcomer every time the platform records a doorway.",
+    "Across at least 36 active dates from 2017 through 2022, Beo's Jere-era voice often enters with compact openers such as `lol`, `Nice ahah`, `Welp Guys xD`, `Rip.`, or `Hi!`, then turns quickly toward other people with direct questions about how they are doing, what they play, which server they use, or whether a game has a Steam version. The economy is in the typing, not the interest.",
+    "Beo's warmth has a practical brake. If the platform or server structure is not a fit, he can simply answer `Rip, im not gonna join then` or `ahh Rip. xp` and move on. Friendly does not become clingy.",
     "Ordinary-life texture survives in the same concise register: `Spain was nice` / `yeah! I saw alot of things xp`, plus a small food exchange where pancit sounds tasty, gets translated as `pasta`, and spring rolls are familiar enough for `Yeah we have them here too ahah`.",
-  ],
-  antiFanon: [
+  ]),
+  antiFanon: appendUnique(beo.antiFanon, [
+    "Beo = JereGilgamesh = Jere is a hard identity lock. Never split the Jere handle into a second character.",
     "Do not infer a formal UL rank, membership tier, or appointment date from the `[UL-M]` nickname syntax.",
-    "Repeated join surfaces do not establish why Jere re-entered, whether he left voluntarily, was kicked, disappeared, or changed accounts. Earliest surviving activity is not guaranteed origin either.",
+    "Repeated join surfaces do not establish why Beo re-entered, whether he left voluntarily, was kicked, disappeared, or changed accounts. Earliest surviving activity is not guaranteed origin either.",
     "Casual game/platform questions show practical social orientation, not blanket gaming expertise, recruitment authority, or an institutional role.",
-    "The food and travel lines support ordinary-life familiarity only. They do not establish cuisine expertise, nationality, residence, or travel chronology beyond what Jere directly says.",
+    "The food and travel lines support ordinary-life familiarity only. They do not establish cuisine expertise, nationality, residence, or travel chronology beyond what Beo directly says.",
     "Mugen's `MY MAN` is one warm social beat, not governance, family language, romance, exclusivity, or a ranked-closeness claim.",
-  ],
+  ]),
 };
 
-allCharacters.push(jere);
-characterById.set(jere.id, jere);
+allCharacters[beoIndex] = beoNext;
+characterById.set(beoNext.id, beoNext);
+characterById.delete("jeregilgamesh");
+
+// Canonicalize any older relationship label that still names the Jere handle as though it were a separate person.
+for (let index = 0; index < allCharacters.length; index += 1) {
+  const character = allCharacters[index] as ExtendedCharacter;
+  const existingRelationships = character.relationships ?? [];
+  if (!existingRelationships.some((relationship) => relationship.name === "JereGilgamesh" || relationship.name === "Jere")) continue;
+
+  const normalized: NonNullable<Character["relationships"]> = [];
+  for (const relationship of existingRelationships) {
+    const addition = relationship.name === "JereGilgamesh" || relationship.name === "Jere"
+      ? { ...relationship, name: "Beo", href: "/characters/beo" }
+      : relationship;
+    extendRelationship(normalized, addition);
+  }
+
+  const next = { ...character, relationships: normalized } as ExtendedCharacter;
+  allCharacters[index] = next;
+  characterById.set(next.id, next);
+}
