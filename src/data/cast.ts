@@ -203,6 +203,53 @@ mergeCharacter({
   antiFanon: ["The November 27, 2020 shared intake scene is an earliest reviewed shared doorway, not proof of first meeting, recruitment origin, or relationship origin.", "The later `friendO` receipt supports personalized familiarity but does not by itself establish friendship rank beyond the language actually used.", "Direct Olenka-authored Whiskey prose remains retrieval-limited; do not turn that source seam into an absence claim.", "Private demographic intake fields remain backstage."],
 });
 
+// Run 1438 Wall synthesis: Kiro can file the case and still answer his own name like it is hearsay.
+mergeCharacter({
+  id: "kiro",
+  name: "Kiro",
+  aliases: ["Gum", "HicUUOOOOGH", "etharzii"],
+  billing: "legacy",
+  role: "Retired Pit Boss · full Officer",
+  era: "2020–2026+",
+  logline: "Full Officer, never a Sniper, and a Screenshot Court dual citizen: Kiro can label his own filing `Being petty`, answer Gilli's outcome check with a crying `No`, then later respond to somebody identifying him as Kiro with `Who's kiro` like identity itself is optional paperwork.",
+  tags: ["Retired Officer", "Pit Boss", "Wall", "Receipt filer", "Mock defendant", "Deadpan identity dodge", "Petty Crimes"],
+  stableDiscordIds: ["754128584498610178"],
+  relationships: [
+    { name: "Gilli", note: "Gilli mechanically true-replies to Kiro's `Being petty` filing with `DID YOU GET IT?`; Kiro true-replies `No` with a crying emote. Later Gilli repeatedly summons him into Wall pockets. The useful pattern is recurring receipt-callout / outcome-check familiarity: she can skip the setup because Kiro already knows the premise.", href: "/characters/gilli" },
+    { name: "Daya", note: "Daya repeatedly summons Kiro into Wall bits. The cleanest version is `is @HicUUOOOOGH kiro` → Kiro's `Who's kiro` → Daya's `i cant keep track anymore 🤣😭`: direct identification immediately converted into a shared identity-dodge joke.", href: "/characters/daya" },
+  ],
+  quotes: ["Being petty:R_damn:", "No:EmoJi_CrYiNg:", "Who's kiro"],
+  claims: [
+    "Stable Discord account 754128584498610178 is Kiro / HicUUOOOOGH under the current hard identity lock; the reviewed source username `etharzii` belongs to that same account trail.",
+    "Kiro participates in the Wall from both sides: he proactively files receipts and can literally label the motive `Being petty`, while also meeting direct targeting with compressed reactions and deadpan non-explanations.",
+    "The October 8, 2022 Gilli↔Kiro reply chain is mechanically exact: Gilli asks `DID YOU GET IT?` on Kiro's filing and Kiro directly replies `No`, supporting recurring shared-premise familiarity without needing the screenshot pixels.",
+    "The April 2, 2023 Daya exchange turns Kiro's hard-resolved identity into the joke itself: Daya identifies him, Kiro answers `Who's kiro`, and Daya immediately plays the confusion forward.",
+  ],
+  antiFanon: [
+    "Kiro was a full Officer / Pit Boss and was not a Sniper.",
+    "`Who's kiro` is deadpan identity-dodge humor and does not reopen the hard Kiro = HicUUOOOOGH identity mapping.",
+    "Kiro's Wall attachments establish POSTED BY Kiro where applicable; MADE BY, CAPTURED BY, and visual FEATURING remain unresolved without separate support.",
+    "Gilli and Daya relationship lanes are recurring social familiarity, not friendship ranks, origin claims, romance, or governance hierarchy.",
+    "The FDA, `spicy`, and Kirk Franklin lines stay local joke/context texture and do not create safety, sexuality, religion, or broad taste claims.",
+  ],
+});
+
+const gilliKiroIndex = allCharacters.findIndex((character) => character.id === "gilli");
+if (gilliKiroIndex >= 0) {
+  const gilli = allCharacters[gilliKiroIndex] as ArchiveCharacter;
+  const relationships = [...(gilli.relationships ?? [])];
+  upsertRelationship(relationships, "Kiro", "Kiro can file `Being petty`, get Gilli's exact `DID YOU GET IT?` outcome check, answer `No`, and still be the person she summons into later Wall receipts with almost no setup. Their recurring Wall lane is comfortable callout / outcome-check familiarity, not a formal closeness tier.", "/characters/kiro");
+  allCharacters[gilliKiroIndex] = { ...gilli, relationships } as ArchiveCharacter;
+}
+
+const dayaKiroIndex = allCharacters.findIndex((character) => character.id === "daya");
+if (dayaKiroIndex >= 0) {
+  const daya = allCharacters[dayaKiroIndex] as ArchiveCharacter;
+  const relationships = [...(daya.relationships ?? [])];
+  upsertRelationship(relationships, "Kiro", "Daya can directly point at Hic and ask whether that is Kiro; Kiro answers `Who's kiro`, and Daya immediately keeps the confusion bit alive. Repeated direct summons make this a recurring tease/summon lane rather than a one-off identification check.", "/characters/kiro");
+  allCharacters[dayaKiroIndex] = { ...daya, relationships } as ArchiveCharacter;
+}
+
 export const castGroups = previousGroups;
 export const characterById = new Map(allCharacters.map((character) => [character.id, character]));
 export const primaryGroupByCharacterId = new Map(
