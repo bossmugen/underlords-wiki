@@ -1,8 +1,20 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-20 — Run 1489 final close_
+_Last updated: 2026-09-20 — Run 1490 final close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies. Earlier run detail remains preserved in git history and MAIN integration handoffs.
+
+## Run 1490 final close
+
+Full miner census: **51 tracked miner identities = 30 active refs + 21 historical/missing**, with **0 newly discovered refs, 0 unread pending review, 0 backlog, and 0 overdue**. Every active miner HEAD matched the Run 1489 reviewed frontier at both opening and closing census. There were therefore **0 intake deltas, 0 new findings, 0 duplicate-family changes, 0 conflict/rabbit movement, and 0 consumed-SHA advances**. Both Club-Only recovery lanes remain current. Ten reviewed `pending_publication` families remain publication/resynthesis/verification debt rather than unread mining.
+
+**WIKI reader-facing pages changed: 0 intentionally.** No new Cast, Relationships, Episodes, Running Gags, Quotes, Locations, or Gallery/media material arrived this cycle. The verified/deployed reader frontier therefore remains `c8fa9fb3e36421717a0a697fa04d1712906f498b` from Run 1489, with Build Underlords Wiki `35536565394` successful and Deploy Underlords Wiki Preview / Pages `35536565381` successful, including deployment. No ceremonial rebuild was started for unchanged reader bytes.
+
+**MAIN reader-facing pages changed: 0 intentionally.** The inherited Shiki verifier `35458657320` was retriggered at `2026-09-20T20:59:39Z`; GitHub again returned `startup_failure` with zero jobs created, so source verification, Astro, and built-output verification did not execute. This remains infrastructure failure rather than a reader-content rejection, and no MAIN deployment is claimed for unchanged reader bytes.
+
+Consumption/review frontiers remain unchanged: Louvre / Other Games consumed through `47164866c167cc9a41d61d955ee66ddfba65ac50`; Daycare through `c79dbec3c458884cd3c94a2a8769e9e3d639522b`; Whiskey through `810dbcccebdaa9de64356fa2ac687f8203e8185f`; Birthdays fully reviewed through `31b7cf7a7de5e46520b49062886ff6b32d9f6a15` with its older contiguous cursor still held by structured-history publication debt; Wall fully reviewed through `2db4603f05ff8632424e844d721be367223beec5` with its contiguous cursor still held behind inherited MAIN publication debt; Core Rooms fully reviewed through `4c5a1d550098d9701b27b6d3dac513659499aa40` with its older cursor likewise held by publication debt. **Do not reread reviewed tails.**
+
+Open rails remain unchanged: the same-name Qin-Mu accounts stay separate absent an explicit identity bridge; RH-16 bot identity remains unresolved; Akariel remains distinct from Zyrcant; current/export role arrays are non-chronological; joke family/romance/governance stays nonliteral; earliest surviving is not origin; and `SAID BY`, `POSTED BY`, `MADE BY`, `CAPTURED BY`, and `FEATURING` remain distinct.
 
 ## Run 1489 final close
 
