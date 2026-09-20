@@ -119,7 +119,7 @@ if (kiroIndex >= 0) {
 
 // Run 1488 late Whiskey: Efi's softness comes with follow-through, context, and a very inconvenient memory.
 const efiIndex = allCharacters.findIndex(
-  (character) => character.id === "efi" || (character as ArchiveCharacter).stableDiscordIds?.includes("488099199938986004"),
+  (character) => character.id === "efi" || (character as ArchiveCharacter).stableDiscordIds?.includes("214487205636210689"),
 );
 if (efiIndex >= 0) {
   const efi = allCharacters[efiIndex] as ArchiveCharacter;
@@ -172,6 +172,67 @@ if (keonIndex >= 0) {
   } as ArchiveCharacter;
 } else {
   allCharacters.push(keonCharacter);
+}
+
+// Run 1489 Louvre: Qin-Mu is specific about the brief, polite about the answer, and still checking the room's rules years later.
+const qinMuIndex = allCharacters.findIndex(
+  (character) => character.id === "qin-mu" || (character as ArchiveCharacter).stableDiscordIds?.includes("235487421488562176"),
+);
+const qinMuCharacter: ArchiveCharacter = {
+  id: "qin-mu",
+  name: "Qin-Mu",
+  aliases: ["QinΞMu @H∞me"],
+  billing: "recurring",
+  role: "Louvre / art-room participant",
+  era: "2021–2025+",
+  logline: "Specific about the brief without acting entitled to it: Qin-Mu can ask for a vampire/shinobi hybrid, thank the person doing the work, and years later still check whether a new kind of submission actually belongs in the room before dropping it there.",
+  tags: ["Louvre", "Art room", "Clear briefs", "Ask-before-assuming", "AI-art era", "Petty Crimes"],
+  stableDiscordIds: ["235487421488562176"],
+  relationships: [
+    { name: "Mr. Streamer", note: "Part of Qin-Mu's practical art-room loop: requests, constraints, responses and acknowledgements move comfortably through the room without needing a friendship hierarchy." },
+    { name: "Powduer", note: "Appears in the same collaborative art-room orbit around requests and finished work; useful as working familiarity, not a closeness rank." },
+    { name: "Mugen", note: "By 2025 Qin-Mu still checks the room's submission rules instead of assuming his non-UL AI-generated character work qualifies. The exchange reads as comfortable enough to ask and ordinary enough to accept the answer." },
+    { name: "New", note: "Qin-Mu answers one blunt roast with `ಠ_ಠ`. One reaction is enough for a tiny comic beat, not a rivalry or hostility arc.", href: "/characters/new" },
+  ],
+  quotes: [
+    "If possible a vampire/shinobi hybrid",
+    "I just want a heavily edited version of the waifu",
+    "Thanks! <3",
+    "Understood - thanks",
+    "Would that qualify for submissions or no? 👀",
+  ],
+  claims: [
+    "Stable Discord account 235487421488562176 is Qin-Mu / QinΞMu @H∞me in the reviewed Louvre handoff.",
+    "The November 2021 request sequence shows Qin-Mu giving a clear creative brief (`vampire/shinobi hybrid`, heavily edited waifu) and then answering completed/helpful work with direct thanks rather than turning the request into a demand spiral.",
+    "In March 2025 Qin-Mu asks whether AI-generated versions of other characters he made can be submitted even though they are not UL-related; the room answers that they do not need to be UL-related. The useful character read is ask-before-assuming participation, not gatekeeping authority.",
+  ],
+  antiFanon: [
+    "The October 31, 2021 `Send Waifus!` post plus attachment proves activity, not the attachment's visual subject or meaning.",
+    "November 2021 is a surviving Qin-Mu Louvre floor in this packet, not a guaranteed first appearance, origin, or onboarding date.",
+    "The recurring art-room loop supports practical familiarity with Mr. Streamer, Powduer and Mugen, not a friendship hierarchy.",
+    "A single `ಠ_ಠ` reaction to New is not evidence of hostility, rivalry, romance, or a durable relationship category.",
+    "POSTED BY, MADE BY, CAPTURED BY and FEATURING remain separate unless the source states otherwise.",
+  ],
+};
+if (qinMuIndex >= 0) {
+  const current = allCharacters[qinMuIndex] as ArchiveCharacter;
+  const relationships = [...(current.relationships ?? [])];
+  for (const relationship of qinMuCharacter.relationships ?? []) {
+    addRelationship(relationships, relationship.name, relationship.note, relationship.href);
+  }
+  allCharacters[qinMuIndex] = {
+    ...current,
+    ...qinMuCharacter,
+    aliases: [...new Set([...(current.aliases ?? []), ...(qinMuCharacter.aliases ?? [])])],
+    tags: [...new Set([...(current.tags ?? []), ...(qinMuCharacter.tags ?? [])])],
+    stableDiscordIds: [...new Set([...(current.stableDiscordIds ?? []), ...(qinMuCharacter.stableDiscordIds ?? [])])],
+    relationships,
+    quotes: [...new Set([...(current.quotes ?? []), ...(qinMuCharacter.quotes ?? [])])],
+    claims: [...new Set([...(current.claims ?? []), ...(qinMuCharacter.claims ?? [])])],
+    antiFanon: [...new Set([...(current.antiFanon ?? []), ...(qinMuCharacter.antiFanon ?? [])])],
+  } as ArchiveCharacter;
+} else {
+  allCharacters.push(qinMuCharacter);
 }
 
 export const castGroups = previousGroups;
