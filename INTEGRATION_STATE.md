@@ -1,8 +1,25 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-19 — Run 1445 close_
+_Last updated: 2026-09-19 — Run 1446 close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` remains the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies. Earlier run detail remains available in git history and MAIN `integration-runs/`.
+
+## Run 1446 close
+
+The full census remains **51 tracked miner identities = 30 active refs + 21 historical/missing**, with **0 newly discovered refs, 0 unread pending-review branches, 0 backlog, and 0 overdue**. All 30 active miner HEADs matched the Run 1445 reviewed frontier, so there was no intake delta to deep-review and no raw archive was re-mined. Both Club-Only recovery lanes remain current. The controlling MAIN ledger still carries **10 reviewed pending-publication families**; these are publication/resynthesis/verification debt rather than unread mining.
+
+### Reader/publication status
+
+WIKI reader-facing changes in Run 1446: **0**. MAIN reader-facing changes in Run 1446: **0**. No finding, duplicate family, conflict/rabbit, or consumed SHA changed state because no miner branch advanced.
+
+The latest exact verified/deployed WIKI reader frontier therefore remains **`c4bae606f1006d58726c2b1d7e13e30d1f04e7cd`** from Run 1445:
+
+- Build Underlords Wiki **`35492202159`** — **success**.
+- Deploy Underlords Wiki Preview / Pages **`35492202269`** — **success**, including deployment.
+
+No ceremonial WIKI rebuild or deploy was triggered for unchanged reader bytes. Likewise, no fresh MAIN source-verification/Astro/built-output run or MAIN deployment is claimed for unchanged MAIN reader bytes.
+
+Existing holds remain exactly where they were: the Torr stable-account conflict is unresolved and unmerged; Wall q9 zeroes remain unusable as absence claims while that detector false-negatives known-present objects; inherited MAIN Shiki/Alkey and other publication/resynthesis debt remains separate from intake review state. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING boundaries remain unchanged.
 
 ## Run 1445 close
 
