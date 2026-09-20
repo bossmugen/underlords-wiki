@@ -1,8 +1,14 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-20 — Run 1480 final close_
+_Last updated: 2026-09-20 — Run 1481 census-only close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies. Earlier run detail remains in git history and MAIN integration handoffs.
+
+## Run 1481 census-only close
+
+Full branch census remains **51 tracked miner identities = 30 active refs + 21 historical/missing**, with **0 newly discovered refs, 0 unread pending review, 0 backlog, and 0 overdue**. All 30 active miner refs matched the previously recorded `last_seen_sha` frontier, so there was no intake delta to review, no duplicate-family movement, no conflict/rabbit movement, and no consumed-SHA movement. Both Club-Only recovery lanes remain current. Ten reviewed `pending_publication` families remain publication/resynthesis/verification debt rather than unread mining.
+
+**MAIN reader-facing changes: 0. WIKI reader-facing changes: 0.** Reader bytes were unchanged, so no ceremonial verification/build/deploy run was triggered. WIKI's verified/deployed reader frontier remains `a57df0aa88389d182af53c76a568d25a2d311ba9` from Run 1480 (Build `35523405221`; Pages/Preview `35523405180`). All Run 1480 `DO NOT REREAD` frontiers and inherited canon/identity/attribution/privacy rails remain intact.
 
 ## Run 1480 final close
 
