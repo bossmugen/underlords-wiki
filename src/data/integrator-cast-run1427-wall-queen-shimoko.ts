@@ -1,4 +1,5 @@
 import "./integrator-cast-run1447-wall-tae";
+import "./integrator-cast-run1480-daycare-mimi";
 import type { Character } from "./wiki";
 import { allCharacters, castGroups, characterById } from "./cast";
 
