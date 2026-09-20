@@ -266,6 +266,36 @@ mergeCharacter({
   ],
 });
 
+// Run 1462 Wall: Booba forgets the exhibit, remembers it later, and the room still wheezes on cue.
+mergeCharacter({
+  id: "booba",
+  name: "Booba",
+  aliases: ["MsThiccy", "boobaboo"],
+  billing: "recurring",
+  role: "UL member",
+  era: "2022–",
+  logline: "Tiny Wall footprint, extremely efficient one-scene filing energy: Booba remembers an omitted receipt with `Oh I forgot to share this one`, drops it with almost no ceremony, and still lands hard enough to collect seven `Fat_Wheeze` reactions while Gilli appears to recognize the hit.",
+  tags: ["Wall", "Receipt culture", "Minimal preamble", "Forgetful filer", "Petty Crimes"],
+  stableDiscordIds: ["199399438391705600"],
+  relationships: [
+    { name: "Gilli", note: "A few minutes after Booba's delayed filing, Gilli drops `:Fat_Wheeze:` and `You read me LOL`; in that pocket the line reads like self-recognition. It is one neat receipt-read beat, not a closeness ranking.", href: "/characters/gilli" }
+  ],
+  quotes: ["Oh I forgot to share this one"],
+  claims: [
+    "Stable Discord account 199399438391705600 / boobaboo / MsThiccy is the existing Booba owner.",
+    "On September 5, 2022 Booba says `Oh I forgot to share this one` and posts an attachment 6.605 seconds later; the filing has seven final-state `Fat_Wheeze` reactions from Daya, Moon, Sou, Momo, Anayss, Rummy and Nobu/Xuseio.",
+    "Gilli's `:Fat_Wheeze:` and `You read me LOL` follow a few minutes later with no surviving authored interruption, making Booba's filing the probable local referent without a mechanical Reply edge.",
+    "The useful contradiction is scene-bounded: Booba forgot to file the receipt earlier, but still had a receipt worth filing when she remembered."
+  ],
+  antiFanon: [
+    "Booba's two-message Wall footprint does not establish a habitual archivist role, chronic forgetfulness, or general disorganization outside this scene.",
+    "Reaction membership is final-state audience uptake, not reaction-click chronology.",
+    "Gilli's self-recognition read is contextual and probable rather than mechanically threaded; do not promote it into a closeness rank, romance, family relationship, or confirmed visual identity.",
+    "The attachment is POSTED BY Booba. MADE BY, CAPTURED BY and visual FEATURING remain unresolved because native pixels were not inspected.",
+    "The current q9 detector seeing this object in Wall and not in one sampled sibling room does not establish global uniqueness or global absence elsewhere."
+  ],
+});
+
 export const castGroups = previousGroups;
 export const characterById = new Map(allCharacters.map((character) => [character.id, character]));
 export const primaryGroupByCharacterId = new Map(
