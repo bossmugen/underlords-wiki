@@ -1,8 +1,53 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-20 — Run 1491 final close_
+_Last updated: 2026-09-20 — Run 1492 final close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies. Earlier run detail remains preserved in git history and MAIN integration handoffs.
+
+## Run 1492 final close
+
+Full miner census: **51 tracked miner identities = 30 active refs + 21 historical/missing**, with **0 newly discovered refs, 0 unread pending review, 0 backlog, and 0 overdue** at the reviewed frontier. Both Club-Only recovery lanes remain current. The only opening mover was Daycare, advancing from `c79dbec3c458884cd3c94a2a8769e9e3d639522b` to `16e76843be52c61b348d135bdb883e9dbd8969c0`. The delta was reviewed checkpoint-first from changed `archive-intake/*` handoffs only. Ten reviewed `pending_publication` families remain publication/resynthesis/verification debt rather than unread mining.
+
+### Daycare — BishopThaGuru duplicate / corroboration
+
+The packet's strongest public-looking candidate was **BishopThaGuru** (`362396877502808064`): the familiar feds / secret-file bit, Tofu's `Anything involving you is bound to end up on the wall of shame` → Bishop's `Is that a compliment, or a warning?` → `Both`, Bishop later turning attention into `...paying attention cause you like me?`, and the July 19 waltz post `Teaching @Tofu🐝 to Waltz turned out to be a lot cuter than expected... ☺️`.
+
+This is useful corroboration but **not a new WIKI deepener**. The existing Bishop owner already contains the same scrutiny-as-stage-lighting mechanism, Tofu iterative teasing, feds/file language, warning-vs-compliment exchange, waltz warmth, quotes, and `heiroglyohics.... Or... Yeah that word ....` as Petty Crimes texture. The existing antiFanon also already keeps Bishop↔Tofu teasing/waltz non-romantic. Adding another receipt paragraph would regress the dossier from synthesis back into event stacking.
+
+MAIN likewise already owns the richer person-first version of the same person read, so neither surface changed.
+
+### Daycare — Damon / negative-control material
+
+**Damon** (`824950163911081995`) remains deliberately thin: six Daycare messages concentrated on one day plus the Lobby intro pocket (`hi im Damxn`, age 18 at that time, `leader of Purgatory`, light `poser :P` teasing). Exact-ID Wall probing was negative. WIKI does not pad that into a personality or relationship dossier.
+
+The Photo Submissions quiet-block gap remains backstage control only; absence was not converted into a public episode.
+
+### Baby Lyssa / Ghoulie chronology rabbit
+
+The literal Wall route is now consumed for this source. The accessible Wall export's literal `daycare` / `ul-daycare` route resolves only the already-known `#🐣│ul-daycare` message (`849776272074735626`). The broader Baby Lyssa / Ghoulie chronology rabbit remains OPEN only through a genuinely different route — different source, nonliteral wording, direct Daycare bodies/media, or another new handoff. Future passes should not rerun the same literal Wall search.
+
+### Surface split / verification
+
+**MAIN reader-facing pages changed: 0 intentionally.** Bishop was already person-first complete for this family; Damon stayed no-padding; the remaining chronology/gap material is backstage-only.
+
+The inherited MAIN reader verifier was retried again. The rerun request succeeded, but the workflow still exposed **zero jobs**, so source verification, Astro, and built-output verification did not execute. This remains runner/provisioning failure rather than a demonstrated reader failure. No MAIN reader deployment is claimed for unchanged reader bytes.
+
+**WIKI reader-facing pages changed: 0 intentionally.** Because reader bytes did not change, the verified/deployed reader frontier remains Run 1491's `e4be6c5089fe10fd20625ee18c4827f7cbced76d`:
+
+- **Build Underlords Wiki `35538700080`: succeeded.**
+- **Deploy Underlords Wiki Preview / Pages `35538700118`: succeeded through build, deployment, and report.**
+
+### Consumption handoff
+
+- **Daycare:** reviewed and safely consumed through `16e76843be52c61b348d135bdb883e9dbd8969c0`. **DO NOT REREAD through `16e76843`.**
+- **Wall:** remains fully reviewed through `5d9e83019aeae6242a8351148ab16f1734fe1c57`; its older contiguous cursor remains behind inherited MAIN publication/verification debt. **DO NOT REREAD through `5d9e8301`.**
+- **Louvre / Other Games:** remains consumed through `94d9b0dced40ecc4059ef96ec1a5d73a03373429`.
+- **Whiskey:** remains consumed through `810dbcccebdaa9de64356fa2ac687f8203e8185f`.
+- **Birthdays / PR / VC:** remains fully reviewed through `31b7cf7a7de5e46520b49062886ff6b32d9f6a15`, with its older contiguous cursor held by structured-history publication debt.
+- **Core Rooms:** remains fully reviewed through `4c5a1d550098d9701b27b6d3dac513659499aa40`, with its older contiguous cursor held behind inherited MAIN publication debt.
+- **Club-Only 2021–2026** and **Club-Only 2020:** recovery-current at their prior reviewed frontiers.
+
+Open rails remain: Aesh first-coining and Grasshopper origin remain open; Milo native-asset visual review remains held; RH-16 bot identity remains unresolved; Baby Lyssa / Ghoulie chronology continues only by a genuinely different route; same-name Qin-Mu accounts remain separate absent a direct identity bridge; Beo's assigned Louvre 22-row body remains direct-first; current/export role arrays remain non-chronological; joke family/romance/governance stays nonliteral; earliest surviving is not origin; and `SAID BY`, `POSTED BY`, `MADE BY`, `CAPTURED BY`, and `FEATURING` remain distinct.
 
 ## Run 1491 final close
 
