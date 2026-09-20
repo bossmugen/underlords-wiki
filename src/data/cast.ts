@@ -45,6 +45,35 @@ allCharacters.push({
   ],
 } as ArchiveCharacter);
 
+allCharacters.push({
+  id: "wolf-phenix",
+  name: "Wolf Phenix",
+  aliases: ["Wolfie"],
+  billing: "guest",
+  role: "Archive-era Wall cast",
+  era: "2020+",
+  logline: "Wolf's surviving Wall footprint is tiny but aggressively complete: the room turns him into dinner conversation, he protests `Leave me alone`, calls everybody mean, and then—still standing there while they wheeze at him—admits just enough with `I may have ;-;` to keep the entire thing alive. Embarrassment does not make him disappear; it makes him complain from inside the joke.",
+  tags: ["Wall", "Caught out", "Stays in the bit", "Mock protest", "High-context banter", "Petty Crimes"],
+  stableDiscordIds: ["543284829391945728"],
+  relationships: [
+    { name: "Ren", note: "Ren directly pings him as `Wolfie` in the middle of the October 2020 pile-on — `Wow wolfie xD`. Wolf answers the room rather than withdrawing, so the useful texture is easy caught-out familiarity inside a shared joke, not a closeness rank or relationship label.", href: "/characters/ren" },
+    { name: "Anayss", note: "Anayss joins the room's `wolfie` wheeze while Wolf keeps protesting. The exchange supports high-context group-ban­ter where Wolf can be the target and still keep participating; it does not establish a separate formal relationship category." },
+    { name: "Cami", note: "Cami helps drive the dinner-conversation pile-on and the surrounding joking accusation. Wolf's `I may have ;-;` lands as an admission inside that same social pressure-cooker, not as permission to literalize the joke-language into a sexual or romantic biography." },
+  ],
+  quotes: ["Leave me alone. Why did this become dinner conversation? XD", "Y'all big mean", "I may have ;-;"],
+  claims: [
+    "Stable Discord account 543284829391945728 is Wolf Phenix / Wolfie in the reviewed October 2020 Wall chronology.",
+    "Across the three direct authored Wall lines in the reviewed pocket, Wolf's local mechanism is caught-out embarrassment without social retreat: protest, mock accusation, then a small admission that keeps the bit playable.",
+    "Ren's direct `Wolfie` ping and the room's immediate uptake support familiar shared-ban­ter in this scene without establishing friendship rank, origin chronology, or a private relationship map."
+  ],
+  antiFanon: [
+    "The room's kinky/dating/replacement-style joke-language is social bit material only. Do not infer literal romance, sex, kink, exclusivity, or a relationship hierarchy from it.",
+    "`I may have ;-;` belongs to the live October 2020 exchange and should not be expanded into a broader biographical claim beyond what the text actually supports.",
+    "The surrounding Wall attachments were not visually inspected for this person read; POSTED BY does not become MADE BY, CAPTURED BY, or visual FEATURING.",
+    "Three direct authored Wall lines support a compact Wall-local character mechanism, not a global diagnosis that Wolf is always embarrassed, defensive, or quiet."
+  ],
+} as ArchiveCharacter);
+
 export const castGroups = previousGroups;
 export const characterById = new Map(allCharacters.map((character) => [character.id, character]));
 export const primaryGroupByCharacterId = new Map(
