@@ -1,8 +1,24 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-20 — Run 1450 close_
+_Last updated: 2026-09-20 — Run 1451 close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` remains the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies. Earlier run detail remains available in git history and MAIN `integration-runs/`.
+
+## Run 1451 close
+
+The full census is **51 tracked miner identities = 30 active refs + 21 historical/missing**, with **0 newly discovered refs, 0 unread pending-review branches, 0 backlog, and 0 overdue**. Every active miner HEAD matched the Run 1450 reviewed frontier, so there were **0 new intake deltas**, **0 consumed-SHA advances**, and no raw archive was re-mined. Both Club-Only recovery lanes remain current.
+
+### WIKI publication status
+
+Reader-facing changes in Run 1451: **0**. The exact verified/deployed reader frontier remains **`9017ab5198ecf0879580f9117eed817d76457837`** from Run 1450. With no reader-byte changes, no new WIKI build or Pages deployment was started.
+
+### MAIN publication status
+
+MAIN reader-facing changes in Run 1451: **0**. The inherited accepted Shiki reader remains behind GitHub runner provisioning. Dedicated verifier run `35458657320` was retried as **attempt 36**; latest job `106041905604` again completed `failure` before any verification step existed (`steps=null`). This remains infrastructure/provisioning failure rather than source-verifier, Astro, built-output, or reader-content failure. No successful MAIN deployment is claimed.
+
+### Consumption / review state
+
+No consumed cursor changed. Daycare remains consumed through `977d9feb9526653f69a36cad4a9f2476220118f1`; Whiskey remains consumed through `ac403812e66922eea9eb3a320b69c91c4ef229ed`; Wall remains fully reviewed through `c3735364abc91b575f2c3396e8daf48187406180` while its contiguous consumed cursor stays at `01cf4664d8e5130052874789adbfda382935b1a3` behind inherited accepted MAIN Shiki publication debt. Do not reread Wall through `c3735364` unless the branch advances. Existing reviewed publication debt remains **10 families**; those are publication/resynthesis/verification debt, not unread mining.
 
 ## Run 1450 close
 
