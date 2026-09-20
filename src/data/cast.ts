@@ -117,6 +117,63 @@ if (kiroIndex >= 0) {
   } as ArchiveCharacter);
 }
 
+// Run 1488 late Whiskey: Efi's softness comes with follow-through, context, and a very inconvenient memory.
+const efiIndex = allCharacters.findIndex(
+  (character) => character.id === "efi" || (character as ArchiveCharacter).stableDiscordIds?.includes("488099199938986004"),
+);
+if (efiIndex >= 0) {
+  const efi = allCharacters[efiIndex] as ArchiveCharacter;
+  const relationships = [...(efi.relationships ?? [])];
+  addRelationship(relationships, "Lilly", "Efi's loud affection can turn into practical follow-through: she openly worries about Lilly, accepts other people offering backup, and then worries that Lilly may be annoyed by everybody fussing. The useful beat is care that checks both the person and its own impact, not romance, family, or a health record.");
+  addRelationship(relationships, "RV", "Efi can tell RV `i remember it all RV`, get `Pls don’t`, and months later return to `Bad RV Bad`. It reads as comfortable long-memory / mock-discipline teasing, not an archivist role or a closeness rank.", "/characters/rv");
+  addRelationship(relationships, "Gilli", "Inside the Lilly care pocket, Gilli helps validate and back up the concern. It is modest support texture rather than a ranked relationship.", "/characters/gilli");
+  addRelationship(relationships, "Cookie", "Efi's `kuki is back!` is a small return-recognition beat: she notices the person reappearing and marks it immediately, without establishing absence length or relationship rank.");
+  allCharacters[efiIndex] = {
+    ...efi,
+    tags: [...new Set([...(efi.tags ?? []), "Care with follow-through", "Context keeper", "Long social memory", "Petty Crimes"])],
+    relationships,
+    quotes: [...new Set([...(efi.quotes ?? []), "this is out of context makes more sense if include entire convo", "i remember it all RV", "kuki is back!", "Bad RV Bad", "Al Mond Us"])],
+    claims: [...new Set([...(efi.claims ?? []), "Efi's October 2020 Lilly scene deepens her compact social style with care that keeps checking its own impact: worry becomes follow-through, peer backup is welcomed, and Efi still notices whether the attention itself may be too much.", "Efi can remember old room nonsense sharply while also objecting when a clipped receipt loses the surrounding conversation, supporting an openly soft / context-conscious long-memory contradiction rather than a formal archivist label.", "The `Al Mond Us` game pitch is Efi's escalation of an earlier Anthos `AL MOND` seed: she turns one bad split-word joke into a whole Cashew/Casual Nuts office-spy premise, while Anthos later repeats the completed phrase."])],
+    antiFanon: [...new Set([...(efi.antiFanon ?? []), "The Lilly care scene supports concern and follow-through, not romance, family, relationship status, diagnosis, or publication of private medical detail.", "`i remember it all RV` does not make Efi an official archivist or prove perfect memory.", "Efi expands `AL MOND` into `Al Mond Us`; do not credit her with the earlier base-word seed.", "Edited messages are represented only by their final surviving text."])],
+  } as ArchiveCharacter;
+}
+
+// Run 1488 late Daycare support pass: keon's tiny Wall footprint still has a clear social mechanism.
+const keonIndex = allCharacters.findIndex(
+  (character) => character.id === "keon" || (character as ArchiveCharacter).stableDiscordIds?.includes("742468938243244082"),
+);
+const keonCharacter: ArchiveCharacter = {
+  id: "keon",
+  name: "keon",
+  aliases: ["keon"],
+  billing: "guest",
+  role: "Archive-era support-room cast",
+  era: "2022+",
+  logline: "A reaction-first observer with a five-object Wall footprint and surprisingly sharp timing: keon mostly stares or wheezes until there is one correction worth saying, then lands it in a sentence and gets out.",
+  tags: ["Wall", "Support-room cast", "Reaction-first", "Dry finisher", "Low-output high-impact", "Petty Crimes"],
+  stableDiscordIds: ["742468938243244082"],
+  relationships: [],
+  quotes: [":R_stare:", "No she didn't lmao", ":Fat_Wheeze:", "Nope, you're just unfunny..."],
+  claims: ["Stable account 742468938243244082 is keon in the reviewed supporting Wall route.", "The accessible Wall source contains five keon-authored objects: two reaction-style messages, two compact corrective/roast lines, and one direct ping. The cumulative social read is reaction-first observer ↔ surgical verbal finisher, not generic quietness.", "On May 13, 2022 `No she didn't lmao` is followed 4.779 seconds later by `:Fat_Wheeze:`. On December 26, after a long source-local gap, keon returns with `Nope, you're just unfunny...` and then directly pings the likely addressee."],
+  antiFanon: ["Five authored Wall objects are not five total social interactions and do not establish low overall activity, shyness, or social distance.", "The December roast is not a Discord Reply; adjacency plus the following direct ping makes the addressee likely, not mechanically proven by reply metadata.", "Do not resolve the pooled/deleted account behind the December exchange.", "Dry roast language in this packet does not by itself establish literal hostility or conflict.", "These are Wall-side supporting-room scenes, not Daycare-posted messages."],
+};
+if (keonIndex >= 0) {
+  const current = allCharacters[keonIndex] as ArchiveCharacter;
+  allCharacters[keonIndex] = {
+    ...current,
+    ...keonCharacter,
+    aliases: [...new Set([...(current.aliases ?? []), ...(keonCharacter.aliases ?? [])])],
+    tags: [...new Set([...(current.tags ?? []), ...(keonCharacter.tags ?? [])])],
+    stableDiscordIds: [...new Set([...(current.stableDiscordIds ?? []), ...(keonCharacter.stableDiscordIds ?? [])])],
+    relationships: [...(current.relationships ?? [])],
+    quotes: [...new Set([...(current.quotes ?? []), ...(keonCharacter.quotes ?? [])])],
+    claims: [...new Set([...(current.claims ?? []), ...(keonCharacter.claims ?? [])])],
+    antiFanon: [...new Set([...(current.antiFanon ?? []), ...(keonCharacter.antiFanon ?? [])])],
+  } as ArchiveCharacter;
+} else {
+  allCharacters.push(keonCharacter);
+}
+
 export const castGroups = previousGroups;
 export const characterById = new Map(allCharacters.map((character) => [character.id, character]));
 export const primaryGroupByCharacterId = new Map(
