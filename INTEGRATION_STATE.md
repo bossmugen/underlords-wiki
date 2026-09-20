@@ -1,95 +1,45 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-20 — Run 1461 close_
+_Last updated: 2026-09-20 — Run 1462 close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` remains the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies. Earlier run detail remains available in git history and MAIN integration handoffs.
 
-## Run 1461 close
+## Run 1462 close
 
-Full branch census: **51 tracked miner identities = 30 active refs + 21 historical/missing**, with **0 newly discovered refs, 0 unread pending review at close, 0 backlog, and 0 overdue**. Both Club-Only recovery lanes remain current. No active miner head advanced beyond the Run 1460 reviewed frontier, so there were **0 changed intake deltas**, **0 genuinely new findings**, **0 duplicate-family changes**, **0 conflict/rabbit movement**, and **0 consumed-SHA advances**.
-
-### Reconciliation / public changes
-
-**WIKI reader-facing changes: 0.** No new miner material required a dossier, Relationship, Episode, Running Gag, Quote, Location, or Gallery change. Existing hard canon, identity corrections, and unresolved rails remain unchanged.
-
-**MAIN reader-facing changes: 0.** No new miner material required a person-first biography change or other reader-facing edit.
-
-No fresh WIKI build or Pages deployment was launched for unchanged reader bytes. The latest verified/deployed reader frontier remains **`9d52e2b0f9dbeef2c4d8fdc6f22e43e342805d61`**: Build Underlords Wiki **`35504975115` — success** and Deploy Underlords Wiki Preview / Pages **`35504975132` — success**.
-
-The inherited dedicated MAIN source/Astro/built-output verifier `35458657320` was retried. It reached **attempt 46**; job **`106067918552`** again completed `failure` before any verification step existed (`steps=null`). That remains runner/provisioning failure, not a failed source verifier, Astro build, built-output check, or reader-content test. No MAIN deployment is claimed.
-
-### Consumption handoff
-
-No branch consumption cursor moved this run.
-
-- **Louvre / Other Games:** remains consumed through `dae15dba41b6378169683c4f617136d4f2f60da4`. **DO NOT REREAD through `dae15dba`.**
-- **Daycare:** remains consumed through `078b0523b673849dc2dca85c3a776daf486e0634`.
-- **Whiskey:** remains consumed through `06060b937512956a209dc8352c79854da9058739`.
-- **Wall:** remains fully reviewed through `e6e76cdb88f00a2d784d67f5872805d285e8cec4`; contiguous consumed cursor remains `01cf4664d8e5130052874789adbfda382935b1a3` behind inherited MAIN publication/verification debt. **DO NOT REREAD through `e6e76cdb`.**
-- **Birthdays/PR/VC:** remains fully reviewed through `1c39bde860314d4e03360738a15a60899420ee29`; contiguous consumed cursor remains `de5d633239552cae06c54df028b262950c480adf` behind older accepted publication debt. **DO NOT REREAD through `1c39bde`.**
-
-The ledger still carries **10 reviewed `pending_publication` families**. Those are publication/resynthesis/verification debt rather than unread mining.
-
-### Hard rails carried forward
-
-Hard user-confirmed canon and resolved identity corrections override archive inference. Earliest surviving evidence is never automatically origin, recruitment, appointment, or first contact. Export/current role arrays are not appointment chronology. Joke family, romance, marriage, flirting, parenthood, punishment, and sexual language stay nonliteral unless independently supported. `SAID BY`, `POSTED BY`, `MADE BY`, `CAPTURED BY`, and `FEATURING` remain distinct. Private/safety-sensitive onboarding fields stay backstage. Genuinely unresolved identities, reply parents, media provenance, and channel-history gaps remain unresolved rather than being solved by vibes.
-
-## Run 1460 close
-
-Full branch census: **51 tracked miner identities = 30 active refs + 21 historical/missing**, with **0 newly discovered refs, 0 unread pending review at close, 0 backlog, and 0 overdue**. Both Club-Only recovery lanes remain current. Exactly one branch advanced after Run 1459: Louvre / AI Art / Athenaeum / Other Games, from consumed `f3043ca493db401a89833a950755dbe26c3dfa9f` to `dae15dba41b6378169683c4f617136d4f2f60da4`. The changed delta contained intake handoffs only and was reviewed checkpoint-first.
+Full branch census: **51 tracked miner identities = 30 active refs + 21 historical/missing**, with **0 newly discovered refs, 0 unread pending review at close, 0 backlog, and 0 overdue**. Both Club-Only recovery lanes remain current. The opening mover was Wall; the closing census also caught Whiskey and Birthdays/PR/VC. All three changed deltas were intake-only and reviewed checkpoint-first.
 
 ### Reconciliation / public changes
 
-**WIKI reader-facing changes: 0.** The Louvre tail restates the 2025 Where Winds Meet `fight club might be back` / `most chaotic club war we had` memory family under the miner's conflicting `Rich / Ricochet / dragonrichard` bridge. Hard canon still wins: stable account `459696170759880745` is canonical **Ricochet / dragonrichard**, and **Ricochet is not Rich / DragonRich**. Current WIKI already owns this exact WWM callback, Mugen relationship beat, continuity-recognizer framing, and identity separation in the canonical Ricochet owner. The new tail is duplicate/corroboration only, so no dossier sequel or duplicate owner was created.
+**Booba / MsThiccy:** stable account `199399438391705600 / boobaboo / MsThiccy` was folded into the existing canonical Booba owner rather than duplicated. The new structured read is scene-bounded: `Oh I forgot to share this one` → delayed receipt drop → seven final-state `Fat_Wheeze` reactions. Gilli's later `You read me LOL` is a probable local self-recognition beat without a technical Reply edge. The attachment remains POSTED BY Booba only; maker/capturer/visual subjects remain unresolved.
 
-**MAIN reader-facing changes: 0.** MAIN already owns the richer Ricochet person story and the same hard identity separation, so the Louvre tail does not improve the biography enough to justify another receipt paragraph.
+**Tofu:** stable account `775957299717734402 / j_kirizami / Tofu🐝` remains canonical Tofu, current Staff. WIKI now owns the stronger contradiction **situational brakes**: Tofu can encourage a premise, answer ShiyaX's `theres a limit ?` with `At least pace yourself`, then answer her own public callout with `I'll fucking do it again too.` ShiyaX is a bounded peer-calibration lane, Cookie is recurring public-tease texture, and the Mugen `Shhhh!!!!!!!` reply remains premise-unresolved. `Watermelon is gross, fight me` / `Watermelon is disgusting!` was accepted as ordinary-life Petty Crimes texture.
 
-No fresh WIKI build or Pages deployment was launched for unchanged reader bytes. The latest verified/deployed reader frontier remains **`9d52e2b0f9dbeef2c4d8fdc6f22e43e342805d61`**: Build Underlords Wiki **`35504975115` — success** and Deploy Underlords Wiki Preview / Pages **`35504975132` — success**.
+**BishopThaGuru + Tofu WALTZ:** the late Birthdays handoff is duplicate/corroboration against MAIN's already rich Bishop owner, which already owns the June 26 teasing prequel and July 19 WALTZ caption. No duplicate WIKI Episode or relationship inflation was created. The pair's `love` language remains teasing familiarity rather than romance canon; Bishop is POSTED BY for `IMG_0402.PNG`, while maker/capturer/editor/visual subjects remain unresolved.
 
-The inherited dedicated MAIN source/Astro/built-output verifier `35458657320` was retried. It reached **attempt 45**; job **`106064227917`** again completed `failure` before any verification step existed (`steps=null`). That remains runner/provisioning failure, not a failed source verifier, Astro build, built-output check, or reader-content test. No MAIN deployment is claimed.
+### Verification / deployment
+
+Booba intermediate reader: **`f13ba578b264dcae5efd0682856dd684a16d3ddd`**.
+
+- Build Underlords Wiki `35507597550` — **success**.
+- Deploy Underlords Wiki Preview / Pages `35507597546` — **success**.
+
+Final reader frontier: **`9b51d9b522f4cec840dfc1382103a400e9993e62`**, containing both Booba and Tofu changes.
+
+- Build Underlords Wiki `35507835640` — **success**.
+- Deploy Underlords Wiki Preview / Pages `35507835639` — **success**, including build, deployment, and report jobs.
+
+**MAIN reader-facing changes: 0 intentionally.** Tofu already has the richer person-first MAIN biography; Booba remains too room-concentrated for a manufactured rich bio; Bishop already owns the WALTZ callback in full. The inherited dedicated MAIN verifier `35458657320` was retried and reached **attempt 47**; job `106069981604` again failed before any verification step existed (`steps=null`). That remains runner/provisioning failure rather than a failed source/Astro/built-output/content check. No MAIN deployment is claimed.
 
 ### Consumption handoff
 
-- **Louvre / Other Games:** consumed through `dae15dba41b6378169683c4f617136d4f2f60da4`; duplicate/corroboration with identity conflict resolved to canonical Ricochet. **DO NOT REREAD through `dae15dba`.**
+- **Whiskey:** consumed through `5420ec445bae93064ceb7a01dc797b6e09f83a95` after Tofu's accepted WIKI change cleared build/deploy.
+- **Wall:** fully reviewed through `55fb08a0ec5bde78c34ef5582e8387c0c9ac0d4d`; contiguous consumed cursor remains `01cf4664d8e5130052874789adbfda382935b1a3` behind inherited MAIN publication/verification debt. **DO NOT REREAD through `55fb08a0`.**
+- **Birthdays/PR/VC:** fully reviewed through `02ed7f4d9d97c81dff94b2a5a034df8ba5c5b2e0`; contiguous consumed cursor remains `de5d633239552cae06c54df028b262950c480adf` behind older accepted publication debt. **DO NOT REREAD through `02ed7f4d`.**
 - **Daycare:** remains consumed through `078b0523b673849dc2dca85c3a776daf486e0634`.
-- **Whiskey:** remains consumed through `06060b937512956a209dc8352c79854da9058739`.
-- **Wall:** fully reviewed through `e6e76cdb88f00a2d784d67f5872805d285e8cec4`; contiguous consumed cursor remains `01cf4664d8e5130052874789adbfda382935b1a3` behind inherited MAIN publication/verification debt. **DO NOT REREAD through `e6e76cdb`.**
-- **Birthdays/PR/VC:** fully reviewed through `1c39bde860314d4e03360738a15a60899420ee29`; contiguous consumed cursor remains `de5d633239552cae06c54df028b262950c480adf` behind older accepted publication debt. **DO NOT REREAD through `1c39bde`.**
+- **Louvre / Other Games:** remains consumed through `dae15dba41b6378169683c4f617136d4f2f60da4`.
 
-The ledger still carries **10 reviewed `pending_publication` families**. Those are publication/resynthesis/verification debt rather than unread mining.
+The ledger still carries **10 reviewed `pending_publication` families**. These are publication/resynthesis/verification debt rather than unread mining.
 
-### Hard rails carried forward
+### Open rails / rabbits
 
-Hard user-confirmed canon and resolved identity corrections override archive inference. Earliest surviving evidence is never automatically origin, recruitment, appointment, or first contact. Export/current role arrays are not appointment chronology. Joke family, romance, marriage, flirting, parenthood, punishment, and sexual language stay nonliteral unless independently supported. `SAID BY`, `POSTED BY`, `MADE BY`, `CAPTURED BY`, and `FEATURING` remain distinct. Private/safety-sensitive onboarding fields stay backstage. Genuinely unresolved identities, reply parents, media provenance, and channel-history gaps remain unresolved rather than being solved by vibes.
-
-## Run 1459 close
-
-Full branch census: **51 tracked miner identities = 30 active refs + 21 historical/missing**, with **0 newly discovered refs, 0 unread pending review at close, 0 backlog, and 0 overdue**. The opening mover was Whiskey. Closing censuses also caught Daycare, Wall, a late Whiskey supplement, and Louvre; all were reviewed checkpoint-first from changed `archive-intake/*` handoffs only. Both Club-Only recovery lanes remain current. The ledger continues to carry **10 reviewed `pending_publication` families**; those are publication/resynthesis/verification debt rather than unread mining.
-
-### Public changes
-
-**WIKI:** Milo's existing canonical owner was deepened rather than duplicated. The cumulative read is **cozy everyday regular / competitive teeth ↔ Screenshot Court defendant who can become prosecutor almost immediately**. In May 2020 Milo goes from `oh god` and `i thought no one seen that` to denying the filing and posting media of his own seconds later. By November he is literally numbering `evidence #1` and `Evidence #2` against Simple. One exact image byte-family from that old filing later resurfaces in Daycare under Simple's `Found courtesy of milo 😂`, giving the receipt a small afterlife without converting POSTED BY into MADE BY / CAPTURED BY / FEATURING. Baby Lyssa, Mia, Lu, Simple, and the already-public Gilli receipt lane remain bounded lived relationship texture; no romance or closeness rank was invented.
-
-Final verified/deployed reader frontier: **`9d52e2b0f9dbeef2c4d8fdc6f22e43e342805d61`**.
-
-- Build Underlords Wiki **`35504975115` — success**.
-- Deploy Underlords Wiki Preview / Pages **`35504975132` — success**, including deployment.
-
-The reader-facing Milo change lives in the imported current Cast integration path; an unimported scratch module created during the pass was removed before final verification.
-
-**MAIN reader-facing changes: 0 intentionally.** Milo already has a rich person-first MAIN biography owning the broader ordinary-life/Gilli/merger/burnout story, and the new packet is cleaner structured WIKI depth. Late ShiyaX, Ten, Alaina, BishopThaGuru, and Ricochet/Louvre packets were novelty-checked against current public owners and were already materially public in stronger or equivalent form. No MAIN reader bytes changed, so no fresh MAIN source/Astro/built-output run or deployment is claimed.
-
-### Late-tail reconciliation
-
-- **Daycare:** ShiyaX's open-door recruiter ↔ room-boundary traffic-cop ↔ chaos-magnet synthesis is corroboration of an already richer public ShiyaX owner. The CookieStream ↔ Cookie controller hypothesis became more probable but remains **unmerged** because there is still no direct controller bridge. AJ/Gabby/wisp stayed no-padding results.
-- **Whiskey:** the late Milo supplement strengthens the same evidence family: Gilli explicitly summons Milo toward old house receipts `for your entertainment`, and later directly tags him into a screenshot where Milo's final edited line is `You mf ... haha thought no one seen that`. This corroborates the published defendant↔prosecutor/person-read rather than requiring another paragraph.
-- **Wall:** Ten's `forgot y'all record these` → `legacy` / `heir` self-mythology is already public; Alaina's Rotini phrase-riff/context-checking is already public; BishopThaGuru's theatrical-suspect / attention-flip / active-filer lane is already materially owned. q9 remains visual/uniqueness hold. No duplicate dossiers were created.
-- **Louvre / Other Games:** the late `fight club might be back` / `most chaotic club war we had` packet is already public on canonical **Ricochet / dragonrichard**, stable account `459696170759880745`. The miner's `Rich / Ricochet` bridge conflicts with hard user-confirmed canon and is rejected: **Ricochet is not Rich / DragonRich**. Existing WIKI already routes the WWM memory to Ricochet with that correction, so this tail is corroboration/no-public-change.
-
-### Consumption handoff
-
-- **Daycare:** reviewed through `078b0523b673849dc2dca85c3a776daf486e0634`; safe to consume through that SHA as duplicate/corroboration.
-- **Whiskey:** reviewed through `06060b937512956a209dc8352c79854da9058739`; Milo WIKI change verified/deployed, late supplement corroborative; safe to consume through that SHA.
-- **Louvre:** reviewed through `f3043ca493db401a89833a950755dbe26c3dfa9f`; late Rich/Ricochet-labeled packet reconciled to canonical Ricochet and already public; safe to consume through that SHA.
-- **Wall:** fully reviewed through `e6e76cdb88f00a2d784d67f5872805d285e8cec4`. The contiguous consumed cursor remains `01cf4664d8e5130052874789adbfda382935b1a3` behind inherited MAIN publication/verification debt. **DO NOT REREAD through `e6e76cdb`.**
-- **Birthdays/PR/VC:** unchanged and still fully reviewed through `1c39bde860314d4e03360738a15a60899420ee29`, with contiguous consumed cursor `de5d633239552cae06c54df028b262950c480adf` behind older accepted publication debt. **DO NOT REREAD through `1c39bde`.**
+Tofu's exact Mugen reply target, fish callback origin, direct-H1 Whiskey retrieval seam, and ShiyaX image premise remain unresolved. The first Photoshoot-winner poster/result, direct Anthos birthday-page proposal origin, Opalite exact banner object, and `IMG_0402.PNG` visual/provenance remain source-bound. Earliest surviving evidence is not origin. Export/current role arrays are not appointment chronology. Joke romance/family/parenthood stays nonliteral. `SAID BY`, `POSTED BY`, `MADE BY`, `CAPTURED BY`, and `FEATURING` remain distinct. Private/safety-sensitive onboarding material stays backstage.
