@@ -125,7 +125,7 @@ if (efiIndex >= 0) {
   const efi = allCharacters[efiIndex] as ArchiveCharacter;
   const relationships = [...(efi.relationships ?? [])];
   addRelationship(relationships, "Lilly", "Efi's loud affection can turn into practical follow-through: she openly worries about Lilly, accepts other people offering backup, and then worries that Lilly may be annoyed by everybody fussing. The useful beat is care that checks both the person and its own impact, not romance, family, or a health record.");
-  addRelationship(relationships, "RV", "Efi can tell RV `i remember it all RV`, get `Pls don’t`, and months later return to `Bad RV Bad`. It reads as comfortable long-memory / mock-discipline teasing, not an archivist role or a closeness rank.", "/characters/rv");
+  addRelationship(relationships, "RV", "Efi can tell RV `i remember it all RV`, get `Pls don’t`, and months later return to `Bad RV Bad`. It reads as comfortable long-memory / mock-discipline teasing, not an archivist role or a closeness rank.");
   addRelationship(relationships, "Gilli", "Inside the Lilly care pocket, Gilli helps validate and back up the concern. It is modest support texture rather than a ranked relationship.", "/characters/gilli");
   addRelationship(relationships, "Cookie", "Efi's `kuki is back!` is a small return-recognition beat: she notices the person reappearing and marks it immediately, without establishing absence length or relationship rank.");
   allCharacters[efiIndex] = {
@@ -174,62 +174,51 @@ if (keonIndex >= 0) {
   allCharacters.push(keonCharacter);
 }
 
-// Run 1489 Louvre: Qin-Mu is specific about the brief, polite about the answer, and still checking the room's rules years later.
+// Run 1489 Louvre: publish the reviewed return account without merging same-name accounts.
 const qinMuIndex = allCharacters.findIndex(
-  (character) => character.id === "qin-mu" || (character as ArchiveCharacter).stableDiscordIds?.includes("235487421488562176"),
+  (character) => character.id === "qin-mu" || (character as ArchiveCharacter).stableDiscordIds?.includes("489482344869396490"),
 );
 const qinMuCharacter: ArchiveCharacter = {
   id: "qin-mu",
   name: "Qin-Mu",
-  aliases: ["QinΞMu @H∞me"],
+  aliases: ["yoza6592"],
   billing: "recurring",
-  role: "Louvre / art-room participant",
+  role: "Dragon Raja-era returner",
   era: "2021–2025+",
-  logline: "Specific about the brief without acting entitled to it: Qin-Mu can ask for a vampire/shinobi hybrid, thank the person doing the work, and years later still check whether a new kind of submission actually belongs in the room before dropping it there.",
-  tags: ["Louvre", "Art room", "Clear briefs", "Ask-before-assuming", "AI-art era", "Petty Crimes"],
-  stableDiscordIds: ["235487421488562176"],
+  logline: "A long-absent Dragon Raja-era face who comes back with a practical question and immediately gives away the emotional reason: `I need a guild lol I miss you guys`. The need is logistical; the belonging language is not.",
+  tags: ["Dragon Raja era", "Where Winds Meet", "Returns", "Low-ceremony belonging", "Petty Crimes"],
+  stableDiscordIds: ["489482344869396490"],
   relationships: [
-    { name: "Mr. Streamer", note: "Part of Qin-Mu's practical art-room loop: requests, constraints, responses and acknowledgements move comfortably through the room without needing a friendship hierarchy." },
-    { name: "Powduer", note: "Appears in the same collaborative art-room orbit around requests and finished work; useful as working familiarity, not a closeness rank." },
-    { name: "Mugen", note: "By 2025 Qin-Mu still checks the room's submission rules instead of assuming his non-UL AI-generated character work qualifies. The exchange reads as comfortable enough to ask and ordinary enough to accept the answer." },
-    { name: "New", note: "Qin-Mu answers one blunt roast with `ಠ_ಠ`. One reaction is enough for a tiny comic beat, not a rivalry or hostility arc.", href: "/characters/new" },
+    { name: "Mugen", note: "When Qin-Mu asks whether UL has a Where Winds Meet guild after a long absence, Mugen simply answers that it does. The exchange stays easy and practical: recognition without making Qin-Mu perform a re-entry speech, but not evidence of special one-to-one intimacy.", href: "/characters/mugen" },
   ],
   quotes: [
-    "If possible a vampire/shinobi hybrid",
-    "I just want a heavily edited version of the waifu",
-    "Thanks! <3",
-    "Understood - thanks",
-    "Would that qualify for submissions or no? 👀",
+    "Quick question and Long time but do we have a branch in Where winds meet haven't been around since the OG dragon Raja days",
+    "I need a guild lol I miss you guys",
   ],
   claims: [
-    "Stable Discord account 235487421488562176 is Qin-Mu / QinΞMu @H∞me in the reviewed Louvre handoff.",
-    "The November 2021 request sequence shows Qin-Mu giving a clear creative brief (`vampire/shinobi hybrid`, heavily edited waifu) and then answering completed/helpful work with direct thanks rather than turning the request into a demand spiral.",
-    "In March 2025 Qin-Mu asks whether AI-generated versions of other characters he made can be submitted even though they are not UL-related; the room answers that they do not need to be UL-related. The useful character read is ask-before-assuming participation, not gatekeeping authority.",
+    "The reviewed Louvre/Other Games handoff assigns stable Discord account 489482344869396490 / yoza6592 to Qin-Mu for 85 staged rows: 80 Louvre and 5 Where Winds Meet.",
+    "On December 21, 2025 Qin-Mu explicitly acknowledges a long gap, asks whether UL has a Where Winds Meet branch, then follows the practical need with `I need a guild lol I miss you guys`; Mugen answers that UL does have a guild.",
+    "The useful return-specific contradiction is long absence ↔ uncomplicated belonging language. The `lol` lowers the pressure after the exposed feeling without erasing the feeling itself.",
   ],
   antiFanon: [
-    "The October 31, 2021 `Send Waifus!` post plus attachment proves activity, not the attachment's visual subject or meaning.",
-    "November 2021 is a surviving Qin-Mu Louvre floor in this packet, not a guaranteed first appearance, origin, or onboarding date.",
-    "The recurring art-room loop supports practical familiarity with Mr. Streamer, Powduer and Mugen, not a friendship hierarchy.",
-    "A single `ಠ_ಠ` reaction to New is not evidence of hostility, rivalry, romance, or a durable relationship category.",
-    "POSTED BY, MADE BY, CAPTURED BY and FEATURING remain separate unless the source states otherwise.",
+    "Do not merge stable account 489482344869396490 with another same-name Qin-Mu account without an explicit identity bridge. Same display-name resemblance is not identity.",
+    "This return does not establish continuous closeness during the gap, a Dragon Raja quit chronology, guaranteed durable renewed participation, or special Qin-Mu↔Mugen intimacy.",
+    "The wider Louvre body remains provenance work; earliest assigned row is a coverage anchor, not an origin date.",
+    "POSTED BY, MADE BY, CAPTURED BY and FEATURING remain distinct unless the source states otherwise.",
   ],
 };
 if (qinMuIndex >= 0) {
   const current = allCharacters[qinMuIndex] as ArchiveCharacter;
-  const relationships = [...(current.relationships ?? [])];
-  for (const relationship of qinMuCharacter.relationships ?? []) {
-    addRelationship(relationships, relationship.name, relationship.note, relationship.href);
-  }
   allCharacters[qinMuIndex] = {
     ...current,
     ...qinMuCharacter,
-    aliases: [...new Set([...(current.aliases ?? []), ...(qinMuCharacter.aliases ?? [])])],
-    tags: [...new Set([...(current.tags ?? []), ...(qinMuCharacter.tags ?? [])])],
-    stableDiscordIds: [...new Set([...(current.stableDiscordIds ?? []), ...(qinMuCharacter.stableDiscordIds ?? [])])],
-    relationships,
-    quotes: [...new Set([...(current.quotes ?? []), ...(qinMuCharacter.quotes ?? [])])],
-    claims: [...new Set([...(current.claims ?? []), ...(qinMuCharacter.claims ?? [])])],
-    antiFanon: [...new Set([...(current.antiFanon ?? []), ...(qinMuCharacter.antiFanon ?? [])])],
+    aliases: [...new Set([...(qinMuCharacter.aliases ?? [])])],
+    tags: [...new Set([...(qinMuCharacter.tags ?? [])])],
+    stableDiscordIds: [...new Set([...(qinMuCharacter.stableDiscordIds ?? [])])],
+    relationships: [...(qinMuCharacter.relationships ?? [])],
+    quotes: [...new Set([...(qinMuCharacter.quotes ?? [])])],
+    claims: [...new Set([...(qinMuCharacter.claims ?? [])])],
+    antiFanon: [...new Set([...(qinMuCharacter.antiFanon ?? [])])],
   } as ArchiveCharacter;
 } else {
   allCharacters.push(qinMuCharacter);
