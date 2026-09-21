@@ -1,6 +1,7 @@
 import "./integrator-identity-repair-run1501-cele";
 import "./integrator-cast-run1505-louvre-nhou";
 import "./integrator-cast-run1507-whiskey-anayss";
+import "./integrator-cast-run1510-reviewed-tails";
 import { allCharacters, characterById } from "./cast";
 import type { Character } from "./wiki";
 
