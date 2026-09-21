@@ -34,11 +34,13 @@ The first Korea/Nobu reader exposed a genuine route failure: Korea's RV relation
 Verified final reader:
 
 - Build Underlords Wiki **`35620702149`** — **success**.
-- Deploy Underlords Wiki Preview / Pages **`35620702454`** — **success**, deploying reader `2dad837df03e1e7063e177b71be980ce6d752c3e`.
+- Deploy Underlords Wiki Preview / Pages **`35620702454`** — **success**, including the `Deploy to GitHub Pages` job, deploying reader `2dad837df03e1e7063e177b71be980ce6d752c3e`.
+
+MAIN reader-facing pages changed **0 intentionally**. Its complete verifier was nevertheless retriggered on reader-neutral commit `4692856081db53c4116dbf67a758531bb64c2545` as workflow run **`35621716651`**. Attempt 1 and the single failed-job retry both failed before any workflow step executed (`steps: null`), so source verification, Astro build, and built-output verification never actually ran. This is recorded as inherited runner/startup failure rather than a demonstrated content/build failure, and no MAIN deployment is claimed.
 
 ## Surface split / no-public-change decisions
 
-MAIN reader-facing pages changed **0 intentionally**. Existing MAIN biographies already own the richer Ghoulie, Snow, Zhēnxī, and HamitteY person-shaped stories; receipt-level additions would have made those pages more archive-led rather than better biographies. Korea/Nobu were strongest as structured WIKI work in this run.
+Existing MAIN biographies already own the richer Ghoulie, Snow, Zhēnxī, and HamitteY person-shaped stories; receipt-level additions would have made those pages more archive-led rather than better biographies. Korea/Nobu were strongest as structured WIKI work in this run.
 
 The late Ghoulie Wall family was deduped by meaning instead of published twice. Captain AJ's concurrent dossier was novelty-checked and left as the canonical WIKI owner for that return-continuity packet.
 
