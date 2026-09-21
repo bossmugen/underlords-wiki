@@ -74,4 +74,36 @@ export const applyRun1515 = (allCharacters: Character[]) => {
       "Earliest surviving visual-first examples are source boundaries, not an origin date for the habit.",
     ],
   } as ArchiveCharacter);
+
+  // Wall: Ten keeps forgetting the room records everything, then turns that embarrassment into her own running legacy bit.
+  upsertCharacter(allCharacters, {
+    id: "ten",
+    name: "Ten!",
+    aliases: ["dripsy_gk"],
+    billing: "minor",
+    role: "Wall regular",
+    era: "2020+",
+    logline: "Sparse in the room but weirdly grand about the receipts that survive her: Ten can forget Wall is recording everybody, sweat about it, and thirty-five seconds later decide the embarrassment is apparently her legacy.",
+    tags: ["Wall", "Receipt self-awareness", "Legacy bit", "Compact reactions", "Petty Crimes"],
+    stableDiscordIds: ["225809160460173312"],
+    relationships: [],
+    quotes: [
+      "i keep forgetting y'all record these :mochi_sweat:",
+      "at least i'll leave some kind of legacy i guess",
+      "i'm leaving a legacy here too apparently. i only hope my heir lives up to this.",
+      "h y d r a t e",
+    ],
+    claims: [
+      "Ten's exact surviving Wall footprint is fourteen authored messages and no direct attachment objects from August through September 2020.",
+      "Her `legacy` language recurs: she first turns the embarrassment of being recorded into a legacy joke, then later extends it to an `heir`, making the self-mythology a callback rather than a one-line accident.",
+      "Her Wall voice is otherwise compact and reactive — tiny lines and emotes such as `:oop:`, `:HELP:`, `jesus`, `Drop em`, and `h y d r a t e` — which makes the grand legacy framing funnier by contrast.",
+      "The Wall slice supports Ten's own words and room participation only; it does not establish media authorship because no direct attachment object survives under her authorship there.",
+    ],
+    antiFanon: [
+      "`heir` is joke continuity, not literal family, succession, inheritance, appointment history, or governance.",
+      "A nearby Ren `XD` and final-state Mugen/Anthos reactions are local reception texture, not relationship rank; reaction timing is not preserved.",
+      "`h y d r a t e` is a tiny command-style hydration nudge, not evidence of a formal care role or a specific target.",
+      "The earliest surviving `legacy` line in Wall is not guaranteed to be the true origin of the bit.",
+    ],
+  } as ArchiveCharacter);
 };
