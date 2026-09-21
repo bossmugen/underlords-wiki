@@ -206,3 +206,81 @@ if (lillyIndex >= 0) {
   allCharacters[lillyIndex] = lillyUpdated;
   characterById.set(lillyUpdated.id, lillyUpdated);
 }
+
+// Run 1550 Daycare: Mia / Miaka grows from newcomer into the sort of front-door person
+// who can keep onboarding useful without ever sounding like a helpdesk macro.
+const miaId = "miaka";
+const miaAliases = ["Mia", "Miaka", "༯", "opalite.honey"];
+const miaIndex = allCharacters.findIndex(
+  (character) =>
+    character.id === miaId ||
+    (character as ExtendedCharacter).stableDiscordIds?.includes("783389804079349800") ||
+    character.name === "Miaka" ||
+    (character.aliases ?? []).some((alias) => miaAliases.includes(alias)),
+);
+
+const miaBase: ExtendedCharacter =
+  miaIndex >= 0
+    ? (allCharacters[miaIndex] as ExtendedCharacter)
+    : {
+        id: miaId,
+        name: "Miaka",
+        aliases: miaAliases,
+        billing: "legacy",
+        role: "Archive-era UL member",
+        era: "2022–2024+",
+        logline: "",
+      };
+
+const mia: ExtendedCharacter = {
+  ...miaBase,
+  id: miaBase.id || miaId,
+  name: miaBase.name || "Miaka",
+  aliases: appendUnique(miaBase.aliases, miaAliases),
+  stableDiscordIds: appendUnique(miaBase.stableDiscordIds, ["783389804079349800"]),
+  billing: miaBase.billing || "legacy",
+  role: miaBase.role || "Archive-era UL member",
+  era: miaBase.era || "2022–2024+",
+  logline:
+    "Mia grows from being the newcomer at the front door into one of the people making that same door easier for everybody behind her. Her version of useful never turns corporate: `hai hai`, cat emotes, reassurance, the next step, then the actual orientation. Cute voice, procedural follow-through, zero apparent desire to cosplay a helpdesk.",
+  tags: appendUnique(miaBase.tags, [
+    "Archive cast",
+    "Daycare",
+    "Lobby",
+    "Newcomer-facing care",
+    "Front-door shepherd",
+    "Practical helper",
+    "Casual competence",
+    "Orientation",
+    "Petty Crimes",
+  ]),
+  quotes: appendUnique(miaBase.quotes, [
+    ":Nusna_Yippee: roles be assigned soon",
+    ":EmoJi_omgIly: hai hai welcome answer the question and someone will get u inn",
+    ":Cat_Sporkle: hi hi!",
+    "Thank you role has been assigned!",
+  ]),
+  claims: appendUnique(miaBase.claims, [
+    "Stable account 783389804079349800 bridges Mia / Miaka / later nickname `༯` and username `opalite.honey` across the reviewed Daycare/Lobby support material.",
+    "Mia's surviving Lobby trail shows change over time rather than a title card: she appears as a newcomer in October 2022, by May and June 2023 is greeting other newcomers and explaining what to answer while explicitly saying somebody else will handle the actual entry/role step, and by September 2023 is pairing `hi hi!` and cat emotes with the full rules/server-map/main-chat orientation herself. The standardized orientation behavior survives again in February 2024.",
+    "The cumulative person read is soft greeter becoming reliable front-door shepherd. Mia makes newcomers feel handled without making the room feel bureaucratic: reassurance first, plain next step, affection/emotes when people respond, then increasingly complete procedural follow-through.",
+    "Her presentation never has to become formal in order to become competent. `hai hai`, `hi hi!`, yippee/cat/heart emotes and functional onboarding coexist comfortably; the useful contradiction is cute/casual presentation versus procedural reliability.",
+    "A March 2023 Wall self-own adds ordinary-life texture: Mia tells the room somebody mistook her for younger and sent her toward Claire's, then turns the mild embarrassment into communal comedy while four `Cute_patpat` reactions accumulate. Keep the embarrassing story; one anecdote is not a durable appearance trait.",
+    "No single newcomer dyad is strong enough to headline. The relationship pattern is community-facing care: people at the front door repeatedly get a warm greeting, a comprehensible next step, and increasingly complete orientation from Mia.",
+  ]),
+  antiFanon: appendUnique(miaBase.antiFanon, [
+    "Mia's onboarding receipts establish lived social labor, not a formal Staff, Officer, support, moderator, or technical appointment chronology.",
+    "The May/June lines `roles be assigned soon` and `someone will get u inn` explicitly separate Mia's social guidance from the technical role grant. Later `role has been assigned` orientation replies show onboarding participation but do not identify who clicked the permission.",
+    "Current/export role arrays are snapshots and must not be used to backfill appointment dates or infer duties at earlier timestamps.",
+    "The Claire's story is SAID BY Mia ABOUT a store interaction; the quoted other speaker is not independently verified, and the anecdote does not establish a durable appearance trait.",
+    "Public copy intentionally does not foreground Mia's exact minor-age statement from the old Wall anecdote.",
+    "The earliest surviving Mia/Miaka intake material does not establish her UL origin, exact join date, first meeting with any person, or when each alias began.",
+  ]),
+};
+
+if (miaIndex >= 0) allCharacters[miaIndex] = mia;
+else allCharacters.push(mia);
+characterById.set(mia.id, mia);
+if (archiveCastGroup && !archiveCastGroup.characterIds.includes(mia.id)) {
+  archiveCastGroup.characterIds.push(mia.id);
+}
