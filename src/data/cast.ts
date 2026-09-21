@@ -16,6 +16,7 @@ import { applyRun1535IntegratorCast } from "./cast-run1535-integrator";
 import { applyRun1535FollowupCast } from "./cast-run1535-followup";
 import { applyRun1540 } from "./cast-run1540";
 import { applyRun1540WallCast } from "./cast-run1540-wall";
+import { applyRun1547WallErysCast } from "./cast-run1547-wall-erys";
 import type { Character } from "./wiki";
 export type { CastGroup } from "./cast-through-run1514";
 
@@ -35,6 +36,7 @@ applyRun1535IntegratorCast(allCharacters, previousGroups);
 applyRun1535FollowupCast(allCharacters);
 applyRun1540(allCharacters);
 applyRun1540WallCast(allCharacters);
+applyRun1547WallErysCast(allCharacters);
 
 export const castGroups = previousGroups;
 export const characterById = new Map(allCharacters.map((character) => [character.id, character]));
