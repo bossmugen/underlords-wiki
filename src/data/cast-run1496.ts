@@ -217,4 +217,53 @@ export const applyRun1496 = (allCharacters: Character[]) => {
       "Live-memory / receipt activation is a social behavior, not a formal archive, governance, or staff appointment.",
     ],
   } as ArchiveCharacter);
+
+  // Run 1500 late Daycare support pass: Eos is equally willing to file herself and to become defense counsel
+  // once her own words are the exhibit. The contradiction is positional and social, not a dishonesty diagnosis.
+  upsertCharacter(allCharacters, {
+    id: "eos",
+    name: "Eos",
+    aliases: ["astarosa", "Eos~", "EnyoCal"],
+    billing: "legacy",
+    role: "Staff",
+    era: "2020–2023+",
+    logline: "Low-ceremony Staff regular who can volunteer her own receipt, rediscover a missed screenshot days later, dismiss somebody else's context objection with `no context is needed wym`, then become defense counsel the moment her own words are on trial.",
+    tags: [
+      "Staff",
+      "Wall",
+      "Receipt culture",
+      "Self-submission",
+      "Context lawyer",
+      "Counter-filing",
+      "Petty Crimes",
+    ],
+    stableDiscordIds: ["621021922473410581"],
+    relationships: [
+      {
+        name: "Panda",
+        note: "Marian/Panda is the recurring foil in Eos's strongest receipt scenes: Eos can dismiss Marian's context objection when filing, then later answer Marian's scrutiny of Eos's own words by insisting there is context and producing a counter-receipt. The lane is comfortable public teasing and argument, not literal romance/family or a closeness rank.",
+        href: "/characters/panda",
+      },
+    ],
+    quotes: [
+      "i accet my fate this time:Cozy_Cry:",
+      "gonna just put myself here and head out-",
+      "no context is needed wym",
+      "Totally forgot to ss this that day but",
+      ":EmoJi_WOT: ps there is some context to why i said that-",
+      "this dint hapen",
+    ],
+    claims: [
+      "Stable Discord account 621021922473410581 is Eos in the reviewed Wall route.",
+      "Across 2021–2022 Wall scenes, Eos repeatedly participates in receipt culture from both sides: self-submitting, reviving delayed screenshots, dismissing context objections when she files, then demanding context and posting a counter-receipt when her own words are scrutinized.",
+      "The durable contradiction is enthusiastic archivist ↔ selective context lawyer; it is a positional comic standard, not evidence that Eos is generally deceptive or hypocritical.",
+      "Eos's delayed `Totally forgot to ss this that day but` filing is a mundane Petty Crimes detail: she can remember a missed screenshot later and still bring it back into circulation.",
+    ],
+    antiFanon: [
+      "Eos's context switch in Screenshot Court is comic positional behavior, not evidence that she is generally deceptive, dishonest, or hypocritical.",
+      "Marian/Panda appears as a recurring foil in several receipt scenes; do not turn this route into new romance/family canon or a closeness hierarchy.",
+      "Attachment filenames and adjacency establish POSTED BY Eos only. MADE BY, CAPTURED BY, and FEATURING remain unresolved unless another source resolves them.",
+      "`head out-`, `:walkaway:`, or `this dint hapen` are jokes/reactions in context, not proof of literal departure or deletion.",
+    ],
+  } as ArchiveCharacter);
 };
