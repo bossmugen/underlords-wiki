@@ -46,8 +46,12 @@ export function applyRun1530BirthdaysCast(characters: Character[]): void {
         note: "Baby Lyssa goes straight from `YOOOOOO` to `congrats!!` once ShiyaX is tagged, one of the clearest examples of the room understanding the moment before the archive explains exactly what the game object is.",
       },
       {
-        person: "Mugen and Woohyuk",
-        note: "Both circle back with direct congratulations later in the hour; Woohyuk supplies the surviving `Got his own shiyax in game` line that explains the celebration socially while leaving the exact referent unresolved.",
+        person: "Mugen",
+        note: "Mugen circles back later in the hour with a direct `@ShiyaX grats yaya!`, keeping the congratulations going without adding a stronger claim about what the in-game referent actually is.",
+      },
+      {
+        person: "Woohyuk",
+        note: "Woohyuk adds `Dammn shiya, congrats!` and then the surviving gloss `Got his own shiyax in game`, the line that explains the celebration socially while leaving the exact referent unresolved.",
       },
     ],
     antiFanon: [
