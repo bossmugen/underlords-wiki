@@ -7,6 +7,7 @@ type ArchiveCharacter = Character & {
 };
 
 type Relationship = { name: string; note: string; href?: string };
+type CastGroupLike = { id: string; characterIds: string[] };
 
 const unique = <T>(items: T[]): T[] => [...new Set(items)];
 
@@ -19,7 +20,10 @@ function replaceRelationship(
 }
 
 /** Run 1553 integrator: Danny Wall dossier + Noether dessert-court structured deepener. */
-export function applyRun1553IntegratorCast(characters: Character[]): void {
+export function applyRun1553IntegratorCast(
+  characters: Character[],
+  groups: CastGroupLike[],
+): void {
   const dannyStableId = "497107210200154153";
   const dannyIndex = characters.findIndex(
     (character) =>
@@ -79,6 +83,9 @@ export function applyRun1553IntegratorCast(characters: Character[]): void {
 
   if (dannyIndex >= 0) characters[dannyIndex] = danny;
   else characters.push(danny);
+
+  const vipGroup = groups.find((group) => group.id === "vip");
+  if (vipGroup && !vipGroup.characterIds.includes(danny.id)) vipGroup.characterIds.push(danny.id);
 
   const noetherStableId = "690373720665096193";
   const noetherIndex = characters.findIndex(
