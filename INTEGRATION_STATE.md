@@ -23,7 +23,7 @@ Held: the exact six-row Athenaeum chain for Cele/Ansun; whether Ansun finished t
 
 ### Public surfaces and verification
 
-**MAIN reader-facing pages changed: 0 intentionally.** MAIN received census/consumption state and the Run 1559 durable handoff only; no fresh MAIN reader build/deployment is claimed for reader-neutral bookkeeping bytes.
+**MAIN reader-facing pages changed: 0 intentionally.** MAIN received census/consumption state, the Run 1559 durable handoff, and a reader-neutral verification-trigger comment only. The full source + Astro + built-output verifier was explicitly triggered on MAIN commit `ab03dc46b6d010d78d8f1a38b752e6f3533c62dc` as run **35669309685**. Attempt 1 failed before any step instantiated; the failed job was retried once and attempt 2 failed the same way with no steps. Thus source verification, Astro build, and built-output verification did not actually execute; this is the existing runner/startup failure pattern, not a demonstrated content/build failure. No MAIN reader deployment is claimed.
 
 **WIKI reader-facing changes:** `src/data/cast-run1559-integrator.ts` was added/wired, then corrected so Eos↔Panda evidence lives on Eos/Panda rather than contaminating Ricochet's claim list, and Rose's canonical-owner deepener was folded into Rose rather than a duplicate DarkAsrai person. Final verified reader frontier: **`df004044846e67c85128cfde5584064bce12d76e`**.
 
