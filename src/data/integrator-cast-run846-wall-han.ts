@@ -39,6 +39,13 @@ upsertRelationship(relationships, {
     "Sou can drop the entire premise as `protectbutt`; Han mechanically returns to that exact line about an hour later with `#PROTECTBUTT2021`. Han does not just recognize the bit — he upgrades it into a campaign slogan. Keep this as bounded callback-amplification / shared-bit fluency, not a relationship rank.",
 });
 
+upsertRelationship(relationships, {
+  name: "ShiyaX",
+  note:
+    "On Oct. 19 Han posts a Wall receipt while directly summoning Cookie, ShiyaX, and Mugen. ShiyaX answers the local absurdity with `im ron weasly`; Han comes back with `Yes`, `LMAO`, and finally `DON'T COMPLAIN`. It is the same Wall reciprocity from the other side: Han can joke about being overexposed and still happily file somebody else when the opportunity arrives. Keep the lane as receipt-summons / absurdity-uptake familiarity, not a closeness ranking.",
+  href: "/characters/shiyax",
+});
+
 allCharacters[hanIndex] = {
   ...han,
   aliases: unique([...(han.aliases ?? []), "Nai", "nai6965", "."]),
@@ -65,6 +72,7 @@ allCharacters[hanIndex] = {
     "but im concerned about my name popping up in this channel pretty often",
     "Of course, its a shame fame wall",
     "Soon u guys will need to rename this channel to Han's wall of shame fame",
+    "DON'T COMPLAIN",
     "#PROTECTBUTT2021",
     "Can anyone explain salt meme?",
   ]),
@@ -76,7 +84,8 @@ allCharacters[hanIndex] = {
     "On 2021-10-12 Han tells his mom that he had apparently been walking on a broken toe for a week, then answers her `Are you dumb?` by reminding her she once walked on a broken leg for a month before realizing it. The useful texture is ordinary-life family humor about mutually terrible injury detection, not a medical or global recklessness claim.",
     "On 2021-10-13 Han true-replies to Sou's `protectbutt` with `#PROTECTBUTT2021` roughly an hour later. The delay makes the callback funnier rather than weaker: Han remembers the bit and returns with the sloganized version.",
     "By 2021-10-19 Han jokes that the room will soon need to become `Han's wall of shame fame`, then follows it with a walk-away emote; this extends the same self-aware Wall reputation rather than creating a separate episode.",
-    "Petty Crimes: litigating Fame versus Shame, declaring ordinary workday survival a Fame moment, admitting `Im lazy to crop`, predicting the Wall will eventually need his name in the title, walking on an apparently broken toe for a week before noticing, turning `protectbutt` into `#PROTECTBUTT2021`, and needing somebody to explain the salt meme.",
+    "Later on 2021-10-19 Han himself posts a Wall attachment while directly tagging Cookie, ShiyaX, and Mugen. ShiyaX answers with `im ron weasly`; Han's tight local follow-up runs `Yes` → `LMAO` → `DON'T COMPLAIN`. That completes the useful contradiction: Han can narrate himself as the Wall's overexposed recurring defendant while actively feeding the same machine and summoning other people into it.",
+    "Petty Crimes: litigating Fame versus Shame, declaring ordinary workday survival a Fame moment, admitting `Im lazy to crop`, predicting the Wall will eventually need his name in the title, walking on an apparently broken toe for a week before noticing, turning `protectbutt` into `#PROTECTBUTT2021`, telling a summoned Wall defendant `DON'T COMPLAIN`, and needing somebody to explain the salt meme.",
   ]),
   antiFanon: unique([
     ...(han.antiFanon ?? []),
@@ -86,6 +95,7 @@ allCharacters[hanIndex] = {
     "`Im lazy to crop` belongs to one informal Wall filing and does not imply that Han is careless in his filmmaking, Media Director work, or every other edit.",
     "Han's broken-toe / mom's broken-leg anecdote is ordinary family humor from Han's own telling. Do not turn it into a diagnosis, a universal pain-tolerance claim, or a broad statement that either person is medically reckless.",
     "Sou's `protectbutt` → Han's `#PROTECTBUTT2021` supports one mechanically linked shared-bit callback, not exceptional closeness, romance, family, rank, or a formal campaign.",
+    "Han's Oct. 19 filing establishes POSTED BY Han and local receipt-summons behavior. The uninspected pixels do not establish MADE BY, CAPTURED BY, visual subjects, or FEATURING claims.",
     "The adjacent Wall screenshots remain POSTED BY their actual filers unless maker, capturer, or subjects are independently established.",
   ]),
 } as ExtendedCharacter;
