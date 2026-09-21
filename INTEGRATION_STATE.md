@@ -1,8 +1,32 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-20 — Run 1502 final close_
+_Last updated: 2026-09-20 — Run 1503 final close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` remains the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
+
+## Run 1503 final close
+
+Full miner census: **51 tracked miner identities = 30 active refs + 21 historical/missing**, with **0 newly discovered refs, 0 unread pending review, 0 backlog, and 0 overdue**. Both Club-Only recovery lanes remain current. The **10 `pending_publication` families remain reviewed publication/resynthesis/verification debt, not unread mining**.
+
+Opening and closing active-ref sweeps found **all 30 miner HEADs unchanged from the Run 1502 reviewed frontier**. No miner delta required review, no raw archive was re-mined, no duplicate family changed, and no conflict/rabbit moved.
+
+### MAIN / WIKI split and verification
+
+**MAIN reader-facing pages changed: 0. WIKI reader-facing pages changed: 0.** No new evidence arrived, so neither public surface received ceremonial filler or receipt-led copy.
+
+The latest verified/deployed WIKI reader remains Run 1501's canonical Cele repair at **`c9fb995ad6ee4642009cc6f264f2a3e4d6d5d8b9`**, with successful Build **`35551821883`** and Pages/Preview **`35551822025`**. No fresh reader build/deploy is claimed for unchanged bytes.
+
+### Consumption handoff
+
+- Wall: remains fully reviewed through `a27f32bc38b319edcfd1a7ac26279769eb50c5f5`; do not reread this reviewed tail. Its older contiguous consumed cursor remains `01cf4664d8e5130052874789adbfda382935b1a3` behind inherited MAIN publication/verification debt.
+- Daycare: remains consumed through `19505efc3cca94e4b240b017639fd987a4911bb8`.
+- Whiskey: remains consumed through `e929ef1439393a5d01bfcf86fda8a2d22c4b9e45`.
+- Core Rooms: remains reviewed through `1871a9caf06b82862b99cf52ea3104cb9fae1ea6`; older cursor remains publication-gated.
+- Louvre / Other Games: remains consumed through `5173471b4326d18e094f55745ba863df67713273`.
+- Birthdays / PR / VC: remains reviewed through `31b7cf7a7de5e46520b49062886ff6b32d9f6a15`; older cursor remains publication-gated.
+- Club-Only 2021–2026 and Club-Only 2020: recovery-current.
+
+No new rails were created. Existing open rails carry forward unchanged: Eos direct-Daycare-body recovery; t7morrow same-name bridge; Pride same-name bridge; Joy `snow` / Wattpad referent; Ghostt Jan. 3 raw-row recovery; Aesh `van gogb` actual first-coining; Grasshopper origin; RH-16; Louvre first-row/media provenance. Role arrays remain non-chronological, earliest surviving is not origin, joke family/romance/governance stays nonliteral, and `SAID BY`, `POSTED BY`, `MADE BY`, `CAPTURED BY`, and `FEATURING` remain distinct.
 
 ## Run 1502 final close
 
