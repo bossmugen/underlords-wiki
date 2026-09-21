@@ -1,3 +1,4 @@
+import "./integrator-cast-run1521-wall-aesh";
 import { allCharacters, characterById } from "./cast";
 import type { Character } from "./wiki";
 
