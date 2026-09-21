@@ -1,8 +1,61 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-20 — Run 1503 final close_
+_Last updated: 2026-09-21 — Run 1528 final close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` remains the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
+
+## Run 1528 final close
+
+Full miner census closed at **51 tracked miner identities = 30 active refs + 21 historical/missing**, with **0 newly discovered refs, 0 unread pending review, 0 backlog, and 0 overdue**. Both Club-Only recovery lanes remained current. The **10 `pending_publication` families remain reviewed publication/resynthesis/verification debt, not unread mining**.
+
+The reviewed intake frontiers were:
+
+- Daycare: `72fa4206014bc43497748b65298a616eb782537e` → `26bf540c52e9134ecc16c19a6502e697603ee1b2`.
+- Whiskey: `bbedbe28…` → `27cd0857a53c80b0385d5fd9717a6800a9f36935`.
+- Wall: the already-reviewed `a17d33b8…` family was reconciled through `79b372df…`, then the mandatory closing sweep caught a further intake-only advance to `7ef59a4703f37ceadf72fdf9ca860592ad8e86d1` and reviewed it checkpoint-first through rail 16030.
+
+No raw archive was re-mined. Changed intake-local handoffs were read checkpoint-first, derivative receipts were collapsed by meaning, and user canon continued to control identity, pronouns, joke-family language, role chronology, and media attribution.
+
+### Published WIKI synthesis
+
+**Anthos** gained a stronger recurring room-meme contradiction rather than another event card: other people repeatedly turn `Anthos` into communal vocabulary — voice twins, `We all anthos`, pseudo-Anthos lists — while Anthos herself keeps feeding the multiplication joke, from `cul- religion` to `so many of me`. Mugs-confirmed **she/her** remains controlling canon; legacy miner he/him wording was explicitly rejected rather than allowed to leak into the dossier.
+
+**Ricochet / dragonrichard** gained the portable `Funcle` read outside Daycare. Ren can use `Funcle rich` and the `100+ nephews` premise on Wall and Akariel immediately continues it, which is enough to treat `Funcle` as legible group-language around Ricochet across rooms. It remains joke-family language — not biological kinship, a literal nephew count, rank, governance, nickname origin, or a bridge to Rich / DragonRich.
+
+**Tofu** now owns the cleaner contradiction behind her Screenshot Court behavior: enthusiastic fair-game participant **with a context-and-limit conscience**. She can demand receipts, volunteer herself, and answer a challenge with `Bet! I got nothing to hide`, while also saying `Context is important.`, telling Shiya to pace herself, and stopping a proposed full-chat dump because she does not think the whole conversation should be uploaded. BishopThaGuru's lane was folded into the same person read: Tofu can call repeat Wall exposure both warning and compliment because he has `a lot of great moments`, then answer `cause you like me?` from the broader `I like everyone 🙃` register without turning the exchange into romance canon. Chat-background emergency and `Watermelon is gross, fight me` remain Petty Crimes-sized ordinary-life lore.
+
+**Gabu / whoamii_9 / Drink water reminder** gained a better lived hydration-ritual read. The nickname was not decorative text alone: Gilli repeatedly invokes the reminder identity in hydration/eating commands, Gabu participates through responses/reactions, and the account is directly visible configuring a bot/control message containing `@Drink water reminder : %t`. That supports reciprocal participation in the ritual and one configuration action; it still does **not** justify the stronger unsupported sentence that Gabu personally authored recurring outbound reminders.
+
+A late Wall reconciliation also deepened **Han's reciprocal Screenshot Court behavior**. Han can complain that his name appears in the channel too often and predict `Han's wall of shame fame`, then later post a receipt himself, summon Cookie/ShiyaX/Mugen into it, answer ShiyaX's `im ron weasly` with `Yes` / `LMAO` / `DON'T COMPLAIN`, and feed the same machine that keeps prosecuting him. That was folded into the existing Han dossier as reciprocity and receipt-summons fluency, not a new episode stack or closeness ranking.
+
+### Duplicate / no-public-change reconciliation
+
+The late Wall **Plushie / dylan9399** packet did not justify a second public owner or a second dossier. The complete 13-message Wall footprint — compact reactions, direct `What's this channel for?`, `Okie doki`, Rookie's room-rule explanation, and `Snow u saw nothing UwU` eighteen seconds after the warning — was already materially owned by the canonical `integrator-cast-run1166-wall-plushie` dossier. A redundant candidate patch briefly entered the branch during concurrency, was novelty-checked against that canonical owner, then was unwired and deleted before the final reader frontier. Final public state therefore contains **one Plushie**, not Biography Expansion Pack: Plushie Edition.
+
+Zhēnxī and Rookie material in the reviewed Wall family was also duplicate/corroboration against stronger existing synthesis. Quiet 愛Nuα / LEXI controls remain HOLD. Grasshopper's true origin remains open; the sampled exact-key negatives do not justify an origin story.
+
+### MAIN / WIKI split and verification
+
+**MAIN reader-facing pages changed: 0 intentionally.** The accepted Daycare/Whiskey material was strongest as structured WIKI dossier/relationship/Petty Crimes work, while Wall's Plushie material was already publicly owned. MAIN's controlling ledger closed Run 1528 at commit **`fc5b0e18c19b498f65e1b7172d6dc8a12b438c31`**, consuming Daycare through `26bf540c…`, Whiskey through `27cd0857…`, and Wall through `7ef59a47…`. No MAIN reader deployment is claimed for unchanged reader bytes.
+
+The initial Daycare/Whiskey WIKI reader chain landed at **`7eba0402d79a12a205f7af65af7470bef21e2ee5`** and passed its Build/Pages workflows. The final live descendant after Han's late-tail deepener and the duplicate-Plushie cleanup is **`6c8d2dcbb39243d2a5025e603aad1c1ce2e69311`**.
+
+- **Build Underlords Wiki `35600957440`: succeeded.**
+- **Deploy Underlords Wiki Preview / Pages `35600957429`: succeeded through deployment.**
+
+The duplicate-Plushie cleanup preserved the concurrent Han change in the commit ancestry; no force-push or wholesale miner merge was used.
+
+### Consumption handoff
+
+- Daycare: **consumed through `26bf540c52e9134ecc16c19a6502e697603ee1b2`**; do not reread.
+- Whiskey: **consumed through `27cd0857a53c80b0385d5fd9717a6800a9f36935`**; do not reread.
+- Wall: **consumed through `7ef59a4703f37ceadf72fdf9ca860592ad8e86d1`**; do not reread. Plushie/Zhēnxī/Rookie were reconciled without duplicate public owners.
+- Louvre / Other Games: remains consumed through `bc2cbe519b4d646bbb9c8b3f79f189d73820f50d`.
+- Birthdays / PR / VC: remained reviewed/consumed through `1e8357092c78d4a09d1cc0eff2636a061e84b641` at the Run 1528 close; any later miner movement belongs to a later census/run.
+- Core Rooms: remains fully reviewed through `1871a9caf06b82862b99cf52ea3104cb9fae1ea6`; older accepted MAIN publication debt remains a separate gate.
+- Club-Only 2021–2026 and Club-Only 2020: recovery-current.
+
+Held rails remain held: Grasshopper true origin; RH-16; unresolved visual/media MADE BY / CAPTURED BY / FEATURING where only POSTED BY is known; same-name identity bridges where stable IDs do not establish a join; and the existing provenance/source-boundary rabbits. Earliest surviving remains a source boundary, not guaranteed origin; role arrays remain non-chronological; joke family/romance/governance stays nonliteral.
 
 ## Run 1503 final close
 
