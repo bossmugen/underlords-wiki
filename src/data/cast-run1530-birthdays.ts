@@ -24,37 +24,37 @@ export function applyRun1530BirthdaysCast(characters: Character[]): void {
     name: "ShiyaX",
     displayName: "ShiyaX",
     blurb:
-      "A recurring photoshoot face with a dangerous ability to turn being sincerely touched into a group bit before the room has finished saying happy birthday. On her eighteenth birthday, Ashura unveiled an in-game ShiyaX as a personal present; Shiya bounced from disbelief to calling the little version of herself cute, declared herself a Happy Shiyax, admitted she felt genuinely honored, and then immediately started collecting everybody into the Shiyax army. Gratitude first, nonsense second, somehow both completely sincere.",
-    role: "Recurring photoshoot subject and birthday chaos participant",
-    era: "2021–2023",
+      "A recurring Photoshoot participant who turns up often enough in 2021 to feel like part of the room rather than a one-off submission name. A June Wall thread catches everyone congratulating ShiyaX over an in-game `shiyax` referent; ShiyaX answers the pile-on with a wonderfully compact `I still can’t believe it` while the room keeps cheering. The exact game object is still a mystery. The social part is not: people knew this mattered to ShiyaX and reacted accordingly.",
+    role: "Recurring Photoshoot participant and in-game celebration subject",
+    era: "2021",
     status: "Archive-Era",
     billing: "recurring",
     stableId: "341219730025349130",
     quirks: [
-      "Receives personalized attention with visible, slightly disbelieving delight and then turns the feeling into something the whole room can play with.",
-      "The eighteenth-birthday sequence produced both `I'm a Happy Shiyax \\o/` and the instant group recruitment drive `welcome to the Shiyax army! \\o/`.",
-      "Keeps resurfacing as a photoshoot subject across 2022 and 2023 rather than belonging to one isolated birthday scene.",
+      "Returns to #photo-submissions at least six times from January through August 2021, giving ShiyaX a sustained creative-event presence instead of a single cameo.",
+      "When Anayss tags ShiyaX into the June 15 celebration thread, the response is simply `I still can’t believe it` while Baby Lyssa, Woohyuk, and Mugen keep the congratulations coming.",
+      "The surrounding room vocabulary is delightfully weird enough to produce Woohyuk's surviving gloss `Got his own shiyax in game` without actually telling us what a `shiyax` is in game.",
     ],
-    quote: "*picks all up* welcome to the Shiyax army! \\o/",
+    quote: "I still can’t believe it",
     relationships: [
       {
-        person: "Ashura",
-        note: "Ashura presents the in-game ShiyaX as a personal eighteenth-birthday gift; Shiya's surprise gives way to repeated gratitude, `I feel very honored xD <3`, and then `/me goes party with Ashura^-^`.",
-      },
-      {
-        person: "Aki",
-        note: "Aki jokes that everyone will be like Shiya soon, handing Shiya exactly the setup she needs to scoop up the room and announce the `Shiyax army`.",
-      },
-      {
         person: "Anayss",
-        note: "Anayss joins the birthday thread, says the chosen in-game look is perfect for Shiya, and posts the still that gets Shiya's `Hehe and it looks cute xD` reaction. The post establishes shared participation in the reveal, not authorship of the image.",
+        note: "Anayss posts the attachment that kicks off the June 15 reaction chain, explicitly tags ShiyaX into it, and stays active in the surrounding reactions. That makes Anayss part of the reveal/celebration scene without assigning authorship of the image.",
+      },
+      {
+        person: "Baby Lyssa",
+        note: "Baby Lyssa goes straight from `YOOOOOO` to `congrats!!` once ShiyaX is tagged, one of the clearest examples of the room understanding the moment before the archive explains exactly what the game object is.",
+      },
+      {
+        person: "Mugen and Woohyuk",
+        note: "Both circle back with direct congratulations later in the hour; Woohyuk supplies the surviving `Got his own shiyax in game` line that explains the celebration socially while leaving the exact referent unresolved.",
       },
     ],
     antiFanon: [
-      "The in-game ShiyaX is a personalized avatar/persona gift, not evidence of a literal duplicate person, clone, rank, or faction called the Shiyax army.",
-      "Anayss POSTED the birthday still; the thread does not establish who MADE, CAPTURED, or otherwise authored that image.",
-      "German-language client strings visible in the embedded game transcript support German-language client use only; they do not establish nationality or ethnicity.",
-      "The surviving eighteenth-birthday thread is a strong character scene, not proof that the joke, avatar, or any relationship began there.",
+      "The June 15 thread does not establish whether the in-game `shiyax` is an avatar, NPC, companion, clone, title, promotion, contest reward, or any other specific game mechanic.",
+      "Woohyuk's surviving `Got his own shiyax in game` does not safely identify who `his` refers to.",
+      "Anayss POSTED the celebration still; the thread does not establish who MADE, CAPTURED, EDITED, or is FEATURING in that image.",
+      "ShiyaX's six surviving 2021 #photo-submissions posts establish repeat participation, not six confirmed distinct rounds, the complete set of submissions, or authorship of the captions or attached images.",
     ],
     sourceRefs: [
       "archive-intake/birthdays-pr-vc-concurrent-mining-2026-08-19/receipt-2026-09-21-0505-shiyax-ingame-thread.md",
