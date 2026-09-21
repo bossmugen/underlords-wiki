@@ -2,7 +2,7 @@
 
 Full miner census: **51 tracked identities = 30 active refs + 21 historical/missing**, with **0 newly discovered refs, 0 unread pending review, 0 backlog, and 0 overdue**. Both Club-Only recovery lanes remain current. The **9 `pending_publication` families remain reviewed publication/resynthesis/verification debt, not unread mining**.
 
-All 30 active miner heads are unchanged from the Run 1545 reviewed frontier. No branch advanced, so no intake delta required checkpoint review; no raw archive was re-mined; no duplicate receipt family was rediscovered; no conflict or rabbit moved.
+Opening and closing censuses found all 30 active miner heads unchanged from the Run 1545 reviewed frontier. No branch advanced, so no intake delta required checkpoint review; no raw archive was re-mined; no duplicate receipt family was rediscovered; no conflict or rabbit moved.
 
 ## Public-surface decision
 
@@ -21,4 +21,4 @@ Held rails remain held: Queen Shimoko and Mërcy stable-ID conflicts, Grasshoppe
 
 ## Verification
 
-This is a state-only no-delta integration close. The normal repository push workflow is allowed to verify the new state commit. No force-push and no miner-branch merge were used.
+The state-only WIKI close at `eb1461d09ba47a60c689e0ea9231d9afd977cfc7` passed **Build Underlords Wiki `35644048636`** and **Deploy Underlords Wiki Preview / Pages `35644048669`**, both successfully. This follow-up note is reader-neutral and uses `[skip ci]`. No force-push and no miner-branch merge were used.
