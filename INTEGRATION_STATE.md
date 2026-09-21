@@ -1,8 +1,51 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-20 — Run 1500 final close_
+_Last updated: 2026-09-20 — Run 1501 final close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` remains the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
+
+## Run 1501 final close
+
+Full miner census: **51 tracked miner identities = 30 active refs + 21 historical/missing**, with **0 newly discovered refs, 0 unread pending review at close, 0 backlog, and 0 overdue**. Both Club-Only recovery lanes remain current. The **10 `pending_publication` families are reviewed publication/resynthesis/verification debt, not unread mining**.
+
+The only miner that advanced was **Wall, `21abcef6b2adbbaceb08c7a034c57dd2b908e095` → `a27f32bc38b319edcfd1a7ac26279769eb50c5f5`**. That delta was reviewed checkpoint-first from changed `archive-intake/wall-shame-fame-2020-2026-20260819-1857-pdt/*` handoffs only; raw archives were not re-mined. A closing active-ref sweep found Wall and every other active miner head stable.
+
+### Published WIKI change — Cele
+
+User canon remains controlling: **Cele / Celeana / Celeee / Celery are one person**. The reviewed material preserves two source-account histories — Whiskey-side stable Discord ID `310986721121337344` and Wall-side stable Discord ID `745353665149141144` — under one public **Cele** owner. The IDs were not rewritten as one account, and the WIKI no longer needs a duplicate public Celeee cast owner.
+
+The new Wall packet adds a useful quieter lane to Cele's already-established high-reactivity Screenshot Court reputation. On November 23, 2020 she posts a photo with no authored explanation; on January 16, 2021 she posts a meme/video with no authored prose while the room reacts around it; on January 28 she captions another item only `this is literally demkipp`. That gives Cele a selective **media-first / shared-reference filer** mode: sometimes the object is the setup and the room is trusted to finish the joke, while a tiny direct comparison is enough when she does narrate the exhibit. Sparse prose in these rows is not a global claim that Cele is shy, quiet, or low-participation.
+
+This material was folded into Cele's structured dossier rather than appended as three event cards. `demkipp` remains a bounded joke-target/reference lane, not a closeness rank. All newly reviewed media is **POSTED BY Cele source account** only; MADE BY, CAPTURED BY, and FEATURING remain unresolved without visual/source recovery.
+
+A concurrent Run 1501 identity-repair pass then canonicalized the public owner correctly: the historical `celeee` route remains a compatibility lookup, while the cast list has one canonical `cele` person. That repair preserves the new Wall claims and older Whiskey/Rummy/Platelet material together instead of creating two women out of two source-account histories.
+
+### Duplicate / no-public-change material — Miihi
+
+The new Miihi pocket was corroboration, not a new public arc. Midsummer's `THAT WAS YOUR BOT RIGHT @Miihi`, Tofu's immediate `Or was that Gilli's 😂 I don't remember`, Miihi's ULjoy reaction, the apology, and Tofu's `We keeping it fresh here, @Miihi 😂` already have a structured WIKI owner. The useful read stays bounded: Miihi can be pulled into fuzzy shared-memory teasing and answer with a reaction instead of correcting or escalating. The missing attachment and bot ownership remain unresolved; do not award the bot to Miihi or Gilli by vibe.
+
+### MAIN / WIKI split and verification
+
+**MAIN reader-facing pages changed: 0 intentionally.** Cele's MAIN biography already owns the richer person-story — Platelet identity, relationships, Screenshot Court volatility, competence/order contradiction, and lived social texture. The new Wall packet is stronger as structured WIKI media/provenance and behavior material than as another receipt-led paragraph in MAIN. Miihi was duplicate/corroboration only. No fresh MAIN reader deployment is claimed for unchanged reader bytes; inherited MAIN publication/verification debt remains a separate gate.
+
+The first Cele dossier deepener landed at reader `e19cb565b4e44a2889d4af72f0df0dce4f5450c3`. The final Run 1501 reader frontier is **`c9fb995ad6ee4642009cc6f264f2a3e4d6d5d8b9`**, which wires the canonical Cele identity repair into the eager chain and is a descendant of that deepener.
+
+- **Build Underlords Wiki `35551821883`: succeeded.**
+- **Deploy Underlords Wiki Preview / Pages `35551822025`: succeeded through deployment.**
+
+This `INTEGRATION_STATE.md` close is reader-neutral and uses `[skip ci]` so it does not create a second reader frontier.
+
+### Consumption handoff
+
+- Wall: fully reviewed through `a27f32bc38b319edcfd1a7ac26279769eb50c5f5`; Cele WIKI material is verified/deployed and Miihi is duplicate/corroboration only. **Do not reread this reviewed tail.** The older contiguous consumed cursor remains at `01cf4664d8e5130052874789adbfda382935b1a3` only because inherited MAIN publication/verification debt still gates it.
+- Daycare: remains consumed through `19505efc3cca94e4b240b017639fd987a4911bb8`.
+- Whiskey: remains consumed through `e929ef1439393a5d01bfcf86fda8a2d22c4b9e45`.
+- Core Rooms: remains fully reviewed through `1871a9caf06b82862b99cf52ea3104cb9fae1ea6`; older contiguous cursor still publication-gated.
+- Louvre / Other Games: remains consumed through `5173471b4326d18e094f55745ba863df67713273`.
+- Birthdays / PR / VC: remains fully reviewed through `31b7cf7a7de5e46520b49062886ff6b32d9f6a15`; contiguous cursor remains held by older publication debt.
+- Club-Only 2021–2026 and Club-Only 2020: recovery-current.
+
+Newly held rabbits: Cele's newly reviewed Wall media subjects/makers/capturers/visible participants remain unresolved; Miihi's missing attachment and bot ownership remain unresolved. Existing rails remain open: Eos direct-Daycare-body recovery; t7morrow same-name bridge; Pride same-name bridge; Joy `snow` / Wattpad referent; Ghostt Jan. 3 raw-row recovery; Aesh `van gogb` actual first-coining; Grasshopper origin; RH-16; Louvre first-row/media provenance. Role arrays remain non-chronological, earliest surviving is not origin, joke family/romance/governance stays nonliteral, and `SAID BY`, `POSTED BY`, `MADE BY`, `CAPTURED BY`, and `FEATURING` remain distinct.
 
 ## Run 1500 final close
 
