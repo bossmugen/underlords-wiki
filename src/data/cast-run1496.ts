@@ -92,4 +92,129 @@ export const applyRun1496 = (allCharacters: Character[]) => {
   // bodies into existing public owners. The reviewed current handoffs anchor different stable accounts
   // for t7morrow (212165031293485056) and Pride (380825199836266497), and similar names alone are
   // not an identity bridge. Hold those bodies for explicit reconciliation instead of fusing people.
+
+  // Run 1497 Daycare + Wall: Shiya's receipts are funny because the resistance is selective.
+  // He can demand deletion, deploy fake alibis, or go completely silent while everybody else piles on;
+  // the deeper pattern is a practiced defendant who still values the social payoff enough to stay in the bit.
+  upsertCharacter(allCharacters, {
+    id: "shiyax",
+    name: "ShiyaX",
+    aliases: ["Shiya", "shiyax", "Polo G"],
+    billing: "recurring",
+    role: "Archive-era Daycare / Wall regular",
+    era: "2020–2023+",
+    logline: "Deadpan Screenshot Court regular with an oddly precise sense of when to argue and when to let the room hang him in peace: Shiya can demand deletion, blame another person for using his account, accept that Wall is a `small inconvenience`, then admit the point of half the nonsense is making Mugen laugh.",
+    tags: [
+      "Daycare",
+      "Wall",
+      "Selective rebuttal",
+      "Receipt fatalism",
+      "Counter-filing",
+      "Room routing",
+      "Wardrobe experimentation",
+      "Petty Crimes",
+    ],
+    stableDiscordIds: ["341219730025349130"],
+    relationships: [
+      {
+        name: "Ren",
+        note: "Ren is Shiya's strongest recurring receipt foil in the reviewed Wall material: she can catch him, call out the meow, remind the room how unhinged he sounds, or resurrect old material and get an immediate practiced defense. The frequency supports receipt-rival familiarity, not a formal role or closeness rank.",
+        href: "/characters/ren",
+      },
+      {
+        name: "Mugen",
+        note: "Mugen repeatedly teases Shiya, keeps receipts he would rather delete, and also gets the softer admission underneath the theater: when she says `hes doing anything`, Shiya answers `Making you smile` / `Take the win`; she replies that he did that all night. Their lane is long-running tease-and-laugh fluency, not authority or romance.",
+        href: "/characters/mugen",
+      },
+      {
+        name: "Caleb",
+        note: "When Caleb says he could have left Shiya out of a receipt, Shiya answers `Thanks beb` and `Good to know someone has my back`. The gratitude is useful because it shows the defendant routine is not emotional indifference; being spared or defended registers immediately.",
+      },
+      {
+        name: "Baby Lyssa",
+        note: "Lyssa / Ghoulie is part of Shiya's recurring receipt-pressure environment and earlier GTA co-play. Keep the relationship at familiar public-bit / co-play texture rather than turning receipt volume into a closeness hierarchy.",
+        href: "/characters/baby-lyssa",
+      },
+    ],
+    quotes: [
+      "They must all me deleted!",
+      "Good to know someone has my back",
+      "Wall is the highest compliment? Tragic",
+      "ONCE",
+      "Making you smile",
+      "This can stay",
+      "Actually it's fine... I can be me",
+    ],
+    claims: [
+      "Stable Discord account 341219730025349130 is ShiyaX / Shiya in the reviewed Daycare and Wall material; the historical `Polo G` display belongs to the same account and is not a second person.",
+      "Shiya's Screenshot Court response is selective rather than uniformly defensive: some receipts get deletion demands or fake-alibi theater, some get silence while the room laughs, and at least one later post gets the explicit verdict `This can stay`.",
+      "Daycare shows that being defended matters to him: after Caleb says he could have left Shiya out, Shiya answers `Thanks beb` and `Good to know someone has my back`.",
+      "Wall turns the same mechanism into long-form familiarity. Shiya calls Wall a `small inconvenience`, asks whether the `highest compliment` framing is `Tragic`, repeats the meow after being publicly called out for it, and later answers Mugen's teasing with `Making you smile` / `Take the win`.",
+      "Shiya's wardrobe is a recurring ordinary-life motif across 2020 posts: he talks about finally finding motivation to clean it up, trying to `manify` it with new clothes, and later asking Ren about a favorite YSL dress. The safest public read is experimentation and active taste, not gender or sexuality inference.",
+    ],
+    antiFanon: [
+      "Shiya's fake account-compromise defenses are joke theater, not evidence of real hacking, credential sharing, or security incidents.",
+      "`shiya papa` and other joke-family language are not literal family relationships.",
+      "Wardrobe posts support taste and experimentation only. Do not infer gender identity, sexuality, transition history, or private biography from clothing choices.",
+      "Receipt frequency and room-routing lines do not create an Officer, Staff, moderator, archivist, or governance title.",
+      "POSTED BY / caught in a receipt does not establish who made, captured, or appears in unseen media.",
+    ],
+  } as ArchiveCharacter);
+
+  // Run 1497 Whiskey: Ricochet does not simply remember or post old material; he re-opens it.
+  // The same person who notices a reaction or remembers a VC line often becomes the instigator who
+  // calls the relevant people back into the joke. That is social memory in motion, not an archivist title.
+  upsertCharacter(allCharacters, {
+    id: "ricochet",
+    name: "Ricochet",
+    aliases: ["dragonrichard"],
+    billing: "recurring",
+    role: "VIP",
+    era: "2020+",
+    logline: "Dry commentator and live-memory bridge: Ricochet can notice one passive trace, decide the moment is not dead yet, and turn it back into a shared scene by filing the receipt, tagging the person, or dragging yesterday's VC nonsense into today's room.",
+    tags: [
+      "Whiskey",
+      "Wall",
+      "Live-memory bridge",
+      "Receipt activator",
+      "Observer to instigator",
+      "Direct summons",
+      "Callbacks",
+      "Petty Crimes",
+    ],
+    stableDiscordIds: ["459696170759880745"],
+    relationships: [
+      {
+        name: "Shk",
+        note: "Ricochet is comfortable insisting that something Shk said in VC the previous night still belongs on Wall; Shk answers with `oof`, `im not going there`, then `shhh`. One strong receipt-preservation / mock-suppression scene, not a universal consent rule or closeness rank.",
+      },
+      {
+        name: "RV / RΣN",
+        note: "Ricochet can post a receipt, directly summon RV into the premise, and get an immediate `YES`. The useful lane is public-bit fluency: the tag is enough to restart the joke without a long setup.",
+      },
+      {
+        name: "Tofu / Cookie",
+        note: "Ricochet notices Cookie apparently liking/reacting to something, builds a new bit from that passive signal, then directly calls Tofu and Cookie in; Tofu supplies the remembered backstory. This is collaborative callback fluency, not literal sexual history from the joke wording.",
+      },
+    ],
+    quotes: [
+      "we still need to put what you said last night in here",
+      "it was in vc and im still dieing from it",
+      "I see kuki liking that",
+    ],
+    claims: [
+      "Stable Discord account 459696170759880745 is Ricochet / dragonrichard and remains a separate person from Rich / DragonRich.",
+      "Across independent 2020–2021 scenes, Ricochet repeatedly converts an ephemeral or passive trace into active room material: a prior-night VC line becomes proposed Wall material, a posted image becomes a direct summons to RV, and Cookie's apparent like/reaction becomes the seed for a new callback that pulls Tofu and Cookie into the premise.",
+      "The useful contradiction is observer → instigator. Ricochet often begins by noticing or remembering, then becomes the person who pushes the observation back into circulation.",
+      "This recurring behavior supports a live-memory / receipt-activation read, not an official archivist or historian role.",
+    ],
+    antiFanon: [
+      "Ricochet / dragonrichard is not Rich / DragonRich. Never merge their histories.",
+      "The missing prior-night VC wording in the Shk scene must not be reconstructed.",
+      "`kink` joke wording in the RV receipt does not establish literal sexual preference or history.",
+      "For the image receipt, only POSTED BY Ricochet is established; MADE BY, CAPTURED BY, and FEATURING remain unresolved.",
+      "The 2021-10-18 caption is represented only by its final surviving edited text.",
+      "Live-memory / receipt activation is a social behavior, not a formal archive, governance, or staff appointment.",
+    ],
+  } as ArchiveCharacter);
 };
