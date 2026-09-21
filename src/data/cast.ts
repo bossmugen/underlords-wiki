@@ -6,6 +6,7 @@ import { applyRun1515 } from "./cast-run1515";
 import { applyRun1518 } from "./cast-run1518";
 import { applyRun1518Louvre } from "./cast-run1518-louvre";
 import { applyRun1530BirthdaysCast } from "./cast-run1530-birthdays";
+import { applyRun1531DaycareCast } from "./cast-run1531-daycare";
 import type { Character } from "./wiki";
 export type { CastGroup } from "./cast-through-run1514";
 
@@ -15,6 +16,7 @@ applyRun1515(allCharacters);
 applyRun1518(allCharacters);
 applyRun1518Louvre(allCharacters);
 applyRun1530BirthdaysCast(allCharacters);
+applyRun1531DaycareCast(allCharacters);
 
 export const castGroups = previousGroups;
 export const characterById = new Map(allCharacters.map((character) => [character.id, character]));
