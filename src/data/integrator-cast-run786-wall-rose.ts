@@ -18,6 +18,8 @@ if (rose) {
     "Knowing defendant",
     "Comic defense attorney",
     "Receipt ritual",
+    "Receipt staging",
+    "Target summons",
     "Context checker",
     "Compact roast chorus",
     "Volunteer prosecutor",
@@ -34,6 +36,7 @@ if (rose) {
     "SHORTZ",
     "didnt ask",
     "Beat me to it",
+    "Anna sends feet pics",
   ]);
 
   if (!rose.logline.includes("He hit me first")) {
@@ -68,6 +71,27 @@ if (rose) {
     ];
   }
 
+  const rummyIndex = (rose.relationships ?? []).findIndex((relationship) => relationship.name === "Rummy");
+  const rummyNote =
+    "Rose and Rummy recur in two different kinds of public chaos. January 2023 has Rose challenging her into game-combat banter; by March and April, Rose is also summoning Rummy straight into screenshot filings and getting immediate theatrical horror back. Rose can apparently trust one tag to make Rummy understand the premise. That is recurring reciprocal bit-fluency, not literal violence, romance, or a closeness ranking.";
+
+  if (rummyIndex >= 0) {
+    rose.relationships![rummyIndex] = {
+      ...rose.relationships![rummyIndex],
+      note: rummyNote,
+      href: "/characters/rummy",
+    };
+  } else {
+    rose.relationships = [
+      ...(rose.relationships ?? []),
+      {
+        name: "Rummy",
+        note: rummyNote,
+        href: "/characters/rummy",
+      },
+    ];
+  }
+
   rose.claims = appendUnique(rose.claims, [
     "In the March 8, 2023 Wall pocket, Mugen posts an image and DarkAsrai/Rose answers `He hit me first`; 1.984 seconds later Rose follows with `Its his fault`. The scene supports reflexive comic blame transfer and comfortable participation in the Wall ritual.",
     "On April 16, 2023 Rose writes `Oh great theres people shorter than me :Cat_Drool:`. It is useful short-person-joke texture but does not establish Rose's exact height or anybody else's.",
@@ -78,6 +102,8 @@ if (rose) {
     "Rose's `didnt ask` toward Aster is a situational blunt jab in the recovered Wall pocket, not enough by itself to define an ongoing feud or personality-wide hostility.",
     "A quick Rose/Rain roast echo in the recovered suffix shows Rose comfortable joining a compact chorus when somebody else opens the lane; it is useful interaction texture, not a closeness score.",
     "The reviewed Daycare handoff gives Rose a visually economical social style as well as the verbal one already public: short reactions, screenshots, and compact lines can carry the room bit without requiring a speech. This deepens her existing Staff / recruiting / retention history rather than replacing it.",
+    "On March 13, 2023 Rose posts two screenshots around the caption `Anna sends feet pics`, then directly summons Rummy/phenomenal_lamb into the aftermath; Rummy answers within seconds with theatrical horror and flight. On April 3 Rose again posts a screenshot while directly summoning Rummy and Cele, and both rapidly feed the bit. The recurrence supports receipt staging plus target/audience summons as a social habit rather than a one-off filing.",
+    "Across January, March, and April 2023, Rose and Rummy move easily between game-combat teasing and receipt-summons theater. The useful relationship read is repeated reciprocal bit-fluency: Rose can challenge or tag Rummy with almost no setup and expect immediate uptake.",
   ]);
 
   rose.antiFanon = appendUnique(rose.antiFanon, [
@@ -92,6 +118,9 @@ if (rose) {
     "The one-emote ShiyaX revival/callback is room-level interaction texture only; it does not establish a friendship tier, romance, family relation, or special dyad.",
     "`Beat me to it` plus the two screenshots supports comfortable participation in the room's public-embarrassment filing ritual. It does not make Screenshot Court a formal governance process or establish the underlying screenshot subjects from uninspected media.",
     "Mixed response-circle or q18 counts are recurrence/context tools only; do not convert them into popularity, intimacy, or friendship rankings.",
+    "`Anna` is only a probable local Rose referent for Rummy/phenomenal_lamb in the reviewed January–March pockets. Do not publish it as a global alias or identity bridge without stronger support.",
+    "`Anna sends feet pics` is Rose's caption, not verified visual content. The attached screenshots are POSTED BY Rose only; MADE BY, CAPTURED BY, and FEATURING remain unresolved.",
+    "Repeated screenshot summons support recurring public-bit familiarity with Rummy, not literal sex, violence, romance, or a ranked relationship tier.",
   ]);
 
   characterById.set("rose", rose);
