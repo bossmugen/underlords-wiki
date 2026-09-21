@@ -40,7 +40,7 @@ applyRun1540(allCharacters);
 applyRun1540WallCast(allCharacters);
 applyRun1547WallErysCast(allCharacters);
 applyRun1552WhiskeyCast(allCharacters);
-applyRun1553IntegratorCast(allCharacters);
+applyRun1553IntegratorCast(allCharacters, previousGroups);
 
 export const castGroups = previousGroups;
 export const characterById = new Map(allCharacters.map((character) => [character.id, character]));
