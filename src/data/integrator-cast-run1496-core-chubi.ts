@@ -1,4 +1,5 @@
 import "./integrator-identity-repair-run1501-cele";
+import "./integrator-cast-run1505-louvre-nhou";
 import { allCharacters, characterById } from "./cast";
 import type { Character } from "./wiki";
 
