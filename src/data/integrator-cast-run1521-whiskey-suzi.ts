@@ -1,4 +1,5 @@
 import "./integrator-cast-run1521-wall-aesh";
+import "./integrator-cast-run1521-daycare-cookie";
 import { allCharacters, characterById } from "./cast";
 import type { Character } from "./wiki";
 
