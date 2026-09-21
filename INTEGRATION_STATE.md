@@ -1,8 +1,39 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-20 — Run 1498 final close_
+_Last updated: 2026-09-20 — Run 1499 final close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` remains the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
+
+## Run 1499 final close
+
+Full miner census: **51 tracked miner identities = 30 active refs + 21 historical/missing**, with **0 newly discovered refs, 0 unread pending review, 0 backlog, and 0 overdue**. Every active miner head was rechecked against the Run 1498 controlling ledger and **none advanced**. Both Club-Only recovery lanes remain current. The **10 `pending_publication` families are reviewed publication/resynthesis/verification debt, not unread mining**.
+
+There were therefore **no changed `archive-intake/*` handoffs to rereview**, no raw archive re-mining, and no new character/relationship/episode/media findings to publish this run. The reviewed frontiers remain unchanged: Daycare through `00afbd8d…`, Whiskey through `e929ef14…`, Wall through `21abcef6…`, Core Rooms through `1871a9ca…`, Louvre / Other Games through `5173471b…`, and Birthdays / PR / VC through `31b7cf7a…`.
+
+### MAIN / WIKI split
+
+**MAIN reader-facing pages changed: 0. WIKI reader-facing pages changed: 0.** This is a census/state close only. No new build or deployment is claimed because reader bytes did not change.
+
+The latest verified/deployed WIKI reader frontier remains **`f0370a7dede6c99e039dd77b8fc7360ea2f1126e`** from Run 1497:
+
+- **Build Underlords Wiki `35547650174`: succeeded.**
+- **Deploy Underlords Wiki Preview / Pages `35547650069`: succeeded through deployment.**
+
+This Run 1499 `INTEGRATION_STATE.md` close is reader-neutral and uses `[skip ci]` so it does not create a new reader frontier.
+
+### Consumption handoff
+
+No consumed SHA advanced in Run 1499 because no miner branch advanced.
+
+- Daycare remains consumed through `00afbd8dc9e798935be28d48b98c52e5350fe215`.
+- Whiskey remains consumed through `e929ef1439393a5d01bfcf86fda8a2d22c4b9e45`.
+- Wall remains fully reviewed through `21abcef6b2adbbaceb08c7a034c57dd2b908e095`; **do not reread this tail**. Its older contiguous consumed cursor remains gated by inherited MAIN publication/verification debt.
+- Core Rooms remains fully reviewed through `1871a9ca…`; older contiguous cursor still publication-gated.
+- Louvre / Other Games remains consumed through `5173471b…`.
+- Birthdays / PR / VC remains fully reviewed through `31b7cf7a…`; contiguous cursor remains held by older publication debt.
+- Club-Only 2021–2026 and Club-Only 2020 remain recovery-current.
+
+Open rails carried forward unchanged: t7morrow same-name bridge; Pride same-name bridge; Joy `snow` / Wattpad referent; Ghostt Jan. 3 raw-row recovery; Aesh `van gogb` actual first-coining; Grasshopper origin; RH-16; Louvre first-row/media provenance. Role arrays remain non-chronological, earliest surviving is not origin, joke family/romance/governance stays nonliteral, and `SAID BY`, `POSTED BY`, `MADE BY`, `CAPTURED BY`, and `FEATURING` remain distinct.
 
 ## Run 1498 final close
 
