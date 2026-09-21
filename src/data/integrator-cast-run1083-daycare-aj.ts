@@ -62,3 +62,67 @@ if (!allCharacters.some((character) => character.id === ajId)) {
     archiveCastGroup.characterIds.push(ajId);
   }
 }
+
+const captainAjId = "captain-aj";
+
+if (!allCharacters.some((character) => character.id === captainAjId)) {
+  const captainAj: ExtendedCharacter = {
+    id: captainAjId,
+    name: "Captain AJ",
+    aliases: ["Captain AJ"],
+    billing: "legacy",
+    role: "Daycare returner",
+    era: "2021",
+    logline:
+      "Captain AJ treats the welcome bot like paperwork, not an introduction. He comes back recognizing Daycare, immediately compares it to the old room, and when MEE6 cheerfully welcomes him three days later, answers with the extremely practical correction: `I used to be a member actually.`",
+    tags: [
+      "Archive cast",
+      "Daycare",
+      "Return continuity",
+      "Game chatter",
+      "Nostalgia",
+      "Petty Crimes",
+    ],
+    relationships: [
+      {
+        name: "Twizzed Panda",
+        note:
+          "Captain AJ's return does not need a full reintroduction before older UL history becomes ordinary conversation. When he says UL had stopped its AQW / Bleach Realm activity for a long stretch, Twizzed Panda answers from the same older-era frame instead of treating the comment like newcomer lore. It is small, lived recognition: AJ remembers the gap, Panda knows what gap he means.",
+      },
+      {
+        name: "Ary_Bot",
+        note:
+          "Their surviving game chatter is compact and easy. AJ calls Flying Dutchman `a strong boss lol`, stays relatively matter-of-fact, and then starts escalating into `holy!! danger` and `last hit danger holy` once the fight earns it. The enthusiasm has to be dragged out of him by spectacle.",
+      },
+    ],
+    quotes: [
+      "Oh this is daycare",
+      "The old one was better",
+      "I used to be a member actually",
+      "But you guys stopped UL in AQW/Bleach Realm for a long time",
+      "It's a strong boss lol",
+      "holy!! danger",
+      "last hit danger holy",
+      "actually I thought jolly nice dmg :3",
+    ],
+    claims: [
+      "Stable account 295330264773476353 is Captain AJ in the reviewed July 2021 Daycare return pocket.",
+      "Captain AJ explicitly says `I used to be a member actually` after an automated welcome and separately refers to UL's earlier AQW / Bleach Realm activity gap. That supports return continuity in his own words without establishing any former office, rank, or appointment chronology.",
+      "His July 21 `Oh this is daycare` / `The old one was better` exchange and July 24 return conversation make the automated welcome procedural rather than biographical: the bot treats the moment as an arrival while AJ talks like somebody revisiting a place he already knows.",
+      "The Flying Dutchman exchange supports a small ordinary-life contrast: understated boss assessment gives way to visibly excited danger / last-hit commentary once the fight gets dramatic.",
+    ],
+    antiFanon: [
+      "Captain AJ (stable account 295330264773476353) is not the same account as the existing AJ / lordaj911 dossier (stable account 748610243432284160). Do not merge them from the shared `AJ` name fragment.",
+      "`I used to be a member actually` is Captain AJ's own membership statement. It does not establish a former officer title, Staff status, governance role, or appointment date.",
+      "An automated welcome is not an origin certificate; his own language in the same return pocket explicitly points backward to prior UL participation.",
+      "Do not infer broad personality from the small surviving Daycare footprint. The keeper is return familiarity plus a narrow game-chatter beat, not a global introvert/extrovert label.",
+    ],
+  };
+
+  allCharacters.push(captainAj);
+  characterById.set(captainAjId, captainAj);
+  const archiveCastGroup = castGroups.find((group) => group.id === "archive-cast");
+  if (archiveCastGroup && !archiveCastGroup.characterIds.includes(captainAjId)) {
+    archiveCastGroup.characterIds.push(captainAjId);
+  }
+}
