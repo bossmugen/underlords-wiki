@@ -51,7 +51,7 @@ export function applyRun1535IntegratorCast(
       name: "RV",
       note:
         "RV knows Korea as somebody worth summoning when old nonsense needs context. One call-in is followed by Korea announcing she is going to dig up an old screenshot; another is literally `expose him pls`, after which Korea contributes the relevant comparison and a `:v_sip:`. It is modest but repeatable receipt-accomplice fluency: RV points at the fire extinguisher and Korea appears holding gasoline and a drink.",
-      href: "/characters/rv",
+      href: "/characters/ren",
     });
 
     characters[koreaIndex] = {
