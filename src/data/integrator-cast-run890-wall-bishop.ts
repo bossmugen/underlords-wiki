@@ -22,11 +22,17 @@ const tofuNote =
 if (tofuIndex >= 0) relationships[tofuIndex] = { ...relationships[tofuIndex], note: tofuNote, href: "/characters/tofu" };
 else relationships.push({ name: "Tofu", note: tofuNote, href: "/characters/tofu" });
 
+const bobbyIndex = relationships.findIndex((relationship) => relationship.name === "Bobby");
+const bobbyNote =
+  "Bobby gets one small but very Bishop-compatible Whiskey lane: an earlier `boo boo` reaction sits in the same bounded slice, then Bobby later says they `spooked` Bishop and that `it worked`. The surviving text never shows exactly what Bishop saw, but the social move is clear enough — Bobby can apparently use Bishop as a live audience for a tiny scare bit and immediately narrate the success back into the room.";
+if (bobbyIndex >= 0) relationships[bobbyIndex] = { ...relationships[bobbyIndex], note: bobbyNote };
+else relationships.push({ name: "Bobby", note: bobbyNote });
+
 allCharacters[bishopIndex] = {
   ...bishop,
   logline:
     "Bishop treats scrutiny like stage lighting. He can act hunted by the Wall — feds, secret files, warnings — then make himself more conspicuous by hijacking the attention. A few weeks later he is the one making the record, publicly posting that teaching Tofu to waltz was `a lot cuter than expected`. Embarrassment never quite beats his urge to keep the bit — or the sweetness — alive.",
-  tags: appendUnique(bishop.tags, ["Attention hijacker", "Mock-paranoid defendant", "Innuendo", "Self-filing", "Waltz", "Petty Crimes"]),
+  tags: appendUnique(bishop.tags, ["Attention hijacker", "Mock-paranoid defendant", "Innuendo", "Self-filing", "Waltz", "Bobby", "Petty Crimes"]),
   relationships,
   quotes: appendUnique(bishop.quotes, [
     "Why? What have you heard? Who you talk to? You with the feds?",
@@ -44,6 +50,7 @@ allCharacters[bishopIndex] = {
     "Bishop's `heiroglyohics.... Or... Yeah that word ....` line is a self-aware typo joke: he notices the word got away from him inside the sentence and makes the failure part of the bit. Keep the joke specific instead of turning it into a claim that he cannot spell.",
     "On 2021-07-19 Bishop himself posts a public photo-submission captioned `Teaching @Tofu🐝 to Waltz turned out to be a lot cuter than expected... ☺️`. Joined to the earlier Wall panic, this adds a softer contradiction: he complains theatrically about being documented, then voluntarily documents an affectionate shared moment when he likes it enough.",
     "Tofu later memorializes Bishop's brief confusion about whether he was over 18, extending the same safe-embarrassment rhythm into tiny personal lore rather than a one-off receipt.",
+    "A bounded Whiskey slice adds a separate Bobby→Bishop teasing lane: Bobby uses a `boo boo` reaction earlier in the slice and later says they `spooked` Bishop and `it worked`. The cumulative read is a low-stakes scare bit with Bishop as a recognizable participant; the surviving text does not preserve the exact scare mechanism or what Bishop saw.",
   ]),
   antiFanon: appendUnique(bishop.antiFanon, [
     "Bishop's `you like me`, `love me`, and sex-definition lines are teasing/innuendo inside the Wall bit. They do not establish romance, sexual history, exclusivity, or a relationship label with Tofu.",
@@ -51,6 +58,7 @@ allCharacters[bishopIndex] = {
     "Bishop calling the waltz lesson cute supports warmth and public affection around a shared moment; it does not by itself establish romance, sex, exclusivity, or a formal relationship label.",
     "The June/July screenshots remain POSTED BY their respective posters only unless maker, capturer, depicted subjects, or visual content are independently established.",
     "The `heiroglyohics` line is one self-aware typo joke, not evidence of a stable spelling problem or lack of literacy.",
+    "Bobby's nearby `boo boo` and later `spooked` / `it worked` wording support a playful scare lane with Bishop, but do not establish that a particular bot reaction or attachment was definitely used on him; the exact mechanism remains unresolved.",
   ]),
 } as ExtendedCharacter;
 characterById.set("bishopthaguru", allCharacters[bishopIndex]);
