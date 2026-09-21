@@ -1,57 +1,58 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-20 — Run 1496 final close_
+_Last updated: 2026-09-20 — Run 1497 final close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` remains the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
 
-## Run 1496 final close
+## Run 1497 final close
 
-Full miner census: **51 tracked miner identities = 30 active refs + 21 historical/missing**, with **0 newly discovered refs, 0 unread pending review, 0 backlog, and 0 overdue** at close. Both Club-Only recovery lanes remain current. Ten reviewed `pending_publication` families remain publication/resynthesis/verification debt rather than unread mining.
+Full miner census: **51 tracked miner identities = 30 active refs + 21 historical/missing**, with **0 newly discovered refs, 0 unread pending review at close, 0 backlog, and 0 overdue**. Both Club-Only recovery lanes remain current.
 
-Reviewed checkpoint-first from changed `archive-intake/*` handoffs only: Core Rooms `4c5a1d55… → 1871a9ca…`; Louvre / Other Games `94d9b0dc… → 5173471b…`; Whiskey `269bedaa… → b3d73519…`; Wall `db80d126… → 177ddac3…`. Closing branch census found those heads stable.
+Opening movers were Daycare `e8cfe613… → 00afbd8d…`, Whiskey `b3d73519… → e929ef14…`, and Wall `177ddac3… → 29e1633e…`. The closing census caught a later Wall advance to `21abcef6…`; that late tail was reviewed checkpoint-first before close. No other active miner head advanced in the final census.
 
-### Published WIKI change — Chibiterasu
+### Published WIKI change — ShiyaX
 
-Stable account `559670680287969281` remains **Chibiterasu / Chubi / Chuubi / Chibi / Chuu~tan / Chuutan**. The Core tail adds a low-drama re-entry lane: 2022 self-presentation under `chibiterasu`, then a 2024 fresh welcome answered as `Chuu~tan`. WIKI now has the structured identity/return deepener; MAIN already owns the richer person-first version. The welcome sequence does not establish an exact departure, rejoin date, or appointment chronology.
+Stable account `341219730025349130` remains **ShiyaX / Shiya**, with historical `Polo G` treated as a display-name phase on the same person.
 
-Hard role canon was reasserted before final publication: **Chibiterasu is the primary public identity, and the formal roles remain Game Officer + Parterre Gardener.** `Core-room regular` is contextual texture only and must never replace those locked roles. The earlier concurrent Chubi-first draft is superseded.
+The new Daycare + Wall synthesis sharpens Shiya's Screenshot Court contradiction: **selective rebuttal / selective silence ↔ practiced defendant who still values the social payoff enough to stay in the bit**. Some receipts get deletion demands or fake-account alibis; some get silence while everybody else laughs; later he can explicitly decide `This can stay`. Caleb's `You could have left Shiya out of that` gets `Thanks beb` / `Good to know someone has my back`, so the defense theater is not emotional indifference. Mugen's `hes doing anything` gets `Making you smile` / `Take the win`, and her answer confirms that he had done exactly that all night.
 
-Final accepted WIKI reader commit: **`3b145fca7e60d4f727a2f8a1e4dc5109a6e5cabe`** (`Run 1496: restore Chibiterasu primary and locked roles`).
+WIKI now carries the structured Ren receipt-rival lane, Mugen tease/laughter lane, Caleb defense-gratitude beat, and the recurring wardrobe experimentation/taste motif. Clothing material is treated only as style/taste experimentation; it does **not** support gender, sexuality, transition, or private-biography inference. `shiya papa` remains joke-family language only. Fake account-compromise defenses remain joke theater, not security history.
 
-- **Build Underlords Wiki `35545903428`: succeeded.**
-- **Deploy Underlords Wiki Preview / Pages `35545903401`: succeeded through build, deployment, and report.**
+### Published WIKI change — Ricochet
 
-### Zoshaa / Nintendo — reconciliation without a duplicate owner
+Stable account `459696170759880745` remains **Ricochet / dragonrichard**, hard-separated from **Rich / DragonRich**.
 
-Hard canon remains **Zoshaa = NintendoShitcube / Nintendo / `nintendoshitcube_`**. The new Whiskey material deepens the existing Zoshaa mechanism: old screenshots and `Throwback` language can make old room history current again with very little setup; the useful contradiction is offhand delivery with high social payload. Zoshaa's canonical route and existing formal-role field are preserved on stable-account upsert rather than replaced by the contextual label `Whiskey-era regular`.
+The new Whiskey synthesis promotes **live-memory bridge / receipt activator** as the structured cumulative mechanism, with the useful contradiction **observer → instigator**. Ricochet can decide a prior-night VC line still belongs on Wall, turn a posted image into a direct summons to RV, or notice Cookie apparently liking/reacting and convert that passive signal into a fresh callback that pulls Tofu and Cookie into the bit.
 
-A transient Run 1496 draft briefly tried to create `Nintendo` as a separate person. That duplicate-owner patch is rejected and superseded; final public state keeps Nintendo inside canonical Zoshaa. `POSTED BY` remains distinct from `MADE BY`, `CAPTURED BY`, and `FEATURING`.
+WIKI now carries modest relationship texture for Ricochet↔Shk (receipt preservation vs mock suppression), Ricochet↔RV (direct-summon receipt fluency), and Ricochet↔Tofu/Cookie (public-bit call-in). This is social memory in motion, not an archivist/historian/governance title. The missing VC quote remains unreconstructed; `kink` joke wording is not literalized; image provenance remains POSTED BY Ricochet only unless separately resolved.
 
-### Same-name collisions held
+### Late Wall tail — HamitteY + Aesh
 
-Two proposed fusions remain rejected because reviewed evidence anchors different stable accounts and there is no direct bridge:
+The closing Wall advance `29e1633e… → 21abcef6…` was reviewed and produced no additional reader edit after novelty-checking current public owners.
 
-- reviewed t7morrow public owner: `212165031293485056`; proposed same-name body: `249189376143802368`.
-- reviewed Pride public owner: `380825199836266497`; proposed same-name body: `387630572867928064`.
+HamitteY's low-context receipt-gremlin / warm unapologetic ribber synthesis, ShiyaX and Baby Lyssa relationship lanes, old-screenshot resurfacing, recurring Peepo Exit habit, and `Sorry not Sorry` mock-affection are already materially owned by the current public HamitteY biography. Do not append another event ledger for the same person mechanism.
 
-Same display name is not identity. Both remain held for explicit reconciliation rather than fused by resemblance.
+Aesh's `van gogb` chronology advanced: Mugen uses the full phrase in Lobby on 2021-04-24 roughly one minute before the known Wall welcome, and Aesh later says Mugen calls them `aesh van gogb`. **First coining remains unresolved. Earliest surviving is not origin.** This is a chronology refinement, not permission to write that Mugen invented the nickname.
 
-### Louvre / Wall / MAIN split
+### MAIN / WIKI split
 
-The reviewed t7morrow entry scene belongs to **Lobby**, not Louvre/Athenaeum. Current public material did not carry the stale Louvre attribution, so no reader correction was required. The first assigned Louvre row and media authorship remain unresolved.
+**MAIN reader-facing pages changed: 0 intentionally.** Current MAIN ShiyaX and Ricochet biographies already own the richer whole-person mechanisms; repeating these receipts there would make the biographies more archival rather than more human. HamitteY's late material is already synthesized in MAIN. No fresh MAIN reader verification/build/deployment is claimed for unchanged reader bytes.
 
-Pride's Wall tail is held behind the same-name identity collision rather than being merged into the existing public owner. Queen Shimoko and Joy add bounded Wall texture but did not justify padding new standalone owners this run; Joy's `snow` / Wattpad referent remains open.
+WIKI reader commit: **`f0370a7dede6c99e039dd77b8fc7360ea2f1126e`** (`Run 1497: deepen ShiyaX and Ricochet dossiers`).
 
-**MAIN reader-facing pages changed: 0 intentionally.** The inherited MAIN verifier workflow `35458657320` was retried again and returned `startup_failure` with **zero jobs** at attempt 50, so source verification, Astro, and built-output verification did not execute. No MAIN reader deployment is claimed.
+- **Build Underlords Wiki `35547650174`: succeeded.**
+- **Deploy Underlords Wiki Preview / Pages `35547650069`: succeeded through deployment.**
+
+This `INTEGRATION_STATE.md` close is reader-neutral and uses `[skip ci]` so it does not create a second reader frontier.
 
 ### Consumption handoff
 
-- Core Rooms: fully reviewed through `1871a9ca…`; do not reread this tail; contiguous consumed cursor remains gated by inherited MAIN publication debt.
-- Louvre / Other Games: consumed through `5173471b…`.
-- Whiskey: consumed through `b3d73519…`; final result includes identity reconciliation and a verified Zoshaa structured deepener, never a separate Nintendo owner.
-- Wall: fully reviewed through `177ddac3…`; do not reread this tail; contiguous consumed cursor remains gated by inherited MAIN publication debt.
-- Daycare: remains consumed through `e8cfe613…`.
+- Daycare: reviewed and publish-safe through `00afbd8dc9e798935be28d48b98c52e5350fe215`; WIKI ShiyaX deepener verified.
+- Whiskey: reviewed and publish-safe through `e929ef1439393a5d01bfcf86fda8a2d22c4b9e45`; WIKI Ricochet deepener verified.
+- Wall: fully reviewed through `21abcef6b2adbbaceb08c7a034c57dd2b908e095`; **do not reread this tail**. The older contiguous consumed cursor remains gated by inherited MAIN publication/verification debt.
+- Core Rooms: remains fully reviewed through `1871a9ca…`; older contiguous cursor still publication-gated.
+- Louvre / Other Games: remains consumed through `5173471b…`.
 - Birthdays / PR / VC: remains fully reviewed through `31b7cf7a…`, contiguous cursor held by older publication debt.
-- Club-Only 2021–2026 / Club-Only 2020: recovery-current.
+- Club-Only 2021–2026 and Club-Only 2020: recovery-current.
 
-Open rails: t7morrow same-name bridge; Pride same-name bridge; Joy `snow` / Wattpad referent; Ghostt Jan. 3 raw-row recovery; Aesh `van gogb` first-coining; Grasshopper origin; RH-16; Louvre first-row/media provenance. Role arrays remain non-chronological, earliest surviving is not origin, joke family/romance/governance stays nonliteral, and `SAID BY`, `POSTED BY`, `MADE BY`, `CAPTURED BY`, and `FEATURING` remain distinct.
+Open rails carried forward: t7morrow same-name bridge; Pride same-name bridge; Joy `snow` / Wattpad referent; Ghostt Jan. 3 raw-row recovery; Aesh `van gogb` actual first-coining; Grasshopper origin; RH-16; Louvre first-row/media provenance. Role arrays remain non-chronological, earliest surviving is not origin, joke family/romance/governance stays nonliteral, and `SAID BY`, `POSTED BY`, `MADE BY`, `CAPTURED BY`, and `FEATURING` remain distinct.
