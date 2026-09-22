@@ -16,7 +16,7 @@ Run 1592 WIKI reader changes were deliberately narrow and person-owned.
 
 - **Rose / DarkAsrai:** stable account `659305268684783628` remains canonical Rose. The new Daycare return beat was folded into that existing owner instead of recreating a separate DarkAsrai dossier: Rose says only `Hi gilli`; Gilli answers `Welcome back rose!` 1.533 seconds later. The useful relationship read is immediate recognition and easy return familiarity, not a closeness ranking.
 - **Baby Lyssa / Ghoulie:** the already user-confirmed identity bridge gains a surviving onboarding-to-room-native progression. Stable account `537786238665621504` presents as `Ghoulie | Ethereal | 18` in March 2021 and by June is comfortable enough with UL's room geography to push an ongoing bit toward Daycare with `PLEASE` / `PLEASEEEEE`. Room fluency is not formal authority.
-- **RotiniLM:** the late Wall tail was reconciled as duplicate/corroboration. It repeats the already-public stable-`531215677978312716` filer↔reluctant-defendant, Sou care, Daya mock-prosecution, and pasta-name-joke family. A newly created Run 1592 Rotini sidecar was therefore unwired and deleted rather than layering another receipt report over the existing dossier.
+- **RotiniLM:** the late Wall tail was reconciled as duplicate/corroboration. It repeats the already-public stable-`531215677978312716` filer↔reluctant-defendant, Sou care, Daya mock-prosecution, and pasta-name-joke family. Two attempted Run 1592 Rotini sidecars — including a later inert deepener — were removed rather than layering another receipt report over the existing dossier.
 
 Birthdays' FAMILY Photoshoot deadline churn adds a small human-maintenance detail to canonical Gabu — moving the scheduler ahead so she would not forget — but the existing WIKI owner already carries the stronger event-maintenance / friction-reduction synthesis, so no duplicate claim paragraph was added. Louvre's correction-only tail produced no new reader owner and preserved the hard Mia ≠ Mimi split with Opalite belonging to Mimi.
 
@@ -24,12 +24,12 @@ MAIN received **0 reader-facing prose changes intentionally** this run. None of 
 
 ## Verification / deployment
 
-Final verified WIKI reader commit: **`b5e6b7086dd2c459dab180913d3ad4349d7e5d4a`**.
+Final verified WIKI reader commit: **`6c24f4ca4b8cea39d2c323034a36934136671e55`**.
 
-- **Build Underlords Wiki `35723632565` — success.**
-- **Deploy Underlords Wiki Preview / Pages `35723632581` — success**, including successful Pages build, actual GitHub Pages deployment, and report.
+- **Build Underlords Wiki `35724105106` — success.**
+- **Deploy Underlords Wiki Preview / Pages `35724105070` — success**, including successful Pages build and actual GitHub Pages deployment.
 
-The final reader commit includes the Rose identity-preserving fold, Baby Lyssa/Ghoulie deepener, and removal of the duplicate Rotini Run 1592 sidecar. This integration-state update is reader-neutral and uses skip-CI bookkeeping semantics.
+The final reader commit preserves the Rose identity-safe fold and Baby Lyssa/Ghoulie deepener while removing the final inert duplicate Rotini Run 1592 sidecar. This integration-state correction is reader-neutral and uses skip-CI bookkeeping semantics.
 
 ## Existing rails carried forward
 
