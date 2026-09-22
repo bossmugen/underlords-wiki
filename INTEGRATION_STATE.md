@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-22 — Run 1579 close_
+_Last updated: 2026-09-22 — Run 1580 close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` remains the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections are the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies. Historical run-by-run state remains available in Git history; this file is the current handoff snapshot.
 
@@ -8,13 +8,13 @@ MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:ma
 
 The mandatory full census is **51 tracked miner identities = 30 active refs + 21 historical/missing**, with **0 newly discovered refs, 0 unread pending-review branches, 1 reviewed branch pending MAIN verification, 9 older reviewed `pending_publication` families, 0 backlog, and 0 overdue**. Both Club-Only recovery lanes remain current.
 
-Run 1579 found **all 30 active miner HEADs unchanged from the Run 1578 reviewed frontier**. There were therefore **0 advanced intake deltas**, 0 new findings, 0 duplicate-family changes, 0 conflict/rabbit movement, and 0 consumed-SHA advances. No miner handoff was reread merely to create activity.
+Run 1580 found **all 30 active miner HEADs unchanged from the Run 1579 reviewed frontier**. There were therefore **0 advanced intake deltas**, 0 new findings, 0 duplicate-family changes, 0 conflict/rabbit movement, and 0 consumed-SHA advances. No miner handoff was reread merely to create activity.
 
 ## Reader state
 
 Latest verified/deployed WIKI reader commit: **`08a926f177177d027534021b5d27aa4b8d3e603f`**.
 
-That reader passed **Build Underlords Wiki `35696774070`** and **Deploy Underlords Wiki Preview / Pages `35696774088`**, including actual Pages deployment and report. Run 1579 changed no reader bytes, so no ceremonial rebuild or redeploy was triggered.
+That reader passed **Build Underlords Wiki `35696774070`** and **Deploy Underlords Wiki Preview / Pages `35696774088`**, including actual Pages deployment and report. Run 1580 changed no reader bytes, so no ceremonial rebuild or redeploy was triggered.
 
 ### Shiki / Shk
 
@@ -34,9 +34,9 @@ The Louvre packet deepens Wolf as a visual memory-maker / shared-world builder. 
 
 ## MAIN verification debt
 
-MAIN reader-facing changes in Run 1579: **0**.
+MAIN reader-facing changes in Run 1580: **0**.
 
-The inherited Daycare Woosung/Rich correction remains the sole active MAIN verification gate. Workflow `35672332827`, **attempt 26**, again failed before any source/Astro/built-output step instantiated; the only verification job returned `steps=null`. This remains the established runner/startup infrastructure failure pattern, not a demonstrated source, canon, Astro, or built-output failure. No MAIN reader deployment is claimed.
+The inherited Daycare Woosung/Rich correction remains the sole active MAIN verification gate. Workflow `35672332827`, **attempt 27**, again failed before any source/Astro/built-output step instantiated; the only verification job returned `steps=null`. This remains the established runner/startup infrastructure failure pattern, not a demonstrated source, canon, Astro, or built-output failure. No MAIN reader deployment is claimed.
 
 Daycare is reviewed through `bc3bdbb705fe930c2573eaeb446749c043907068`, while its contiguous consumed cursor remains `16d9ac845f9375ee2fc67444595673b309235c38`. Do not reread that reviewed tail unless its miner HEAD advances; retry verification instead.
 
@@ -55,6 +55,6 @@ Daycare is reviewed through `bc3bdbb705fe930c2573eaeb446749c043907068`, while it
 
 Core's older accepted MAIN publication debt remains held rather than skipped. Daycare RH-16 remains unresolved. Torr's stable-ID collision remains unresolved. WOO strict practical-help remains open. Grasshopper true origin remains open outside the DNR exact-text route. Snow `fury/furry/nyah` stays DNR until source state changes. Mimi remains distinct from Mia; the stale retained Louvre miner wording that blurred them remains rejected. Media provenance stays source-bounded; SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct. Role arrays are not appointment chronology, earliest surviving is not guaranteed origin, similar names are not identity bridges, and joke family/romance/governance language stays nonliteral unless separately supported.
 
-## Durable Run 1579 handoff
+## Durable Run 1580 handoff
 
-MAIN's Run 1579 controlling census update is commit **`0433c3dc645b92cf5269e5c1062b667ed04b5a83`** and its final run report commit is **`f1b8d103929b2ed4591b745691ba475aacf9436f`**. WIKI reader verification/deployment still belongs to `08a926f177177d027534021b5d27aa4b8d3e603f`; this `INTEGRATION_STATE.md` update is reader-neutral durable state and must not be treated as a new reader frontier.
+MAIN's Run 1580 controlling census update is commit **`5a2daa411c88b716ac0241365a445d073f4f4f84`** and its final run report commit is **`7fb447093b17aa726de35e17e4bedddddd33c8ad`**. WIKI reader verification/deployment still belongs to `08a926f177177d027534021b5d27aa4b8d3e603f`; this `INTEGRATION_STATE.md` update is reader-neutral durable state and must not be treated as a new reader frontier.
