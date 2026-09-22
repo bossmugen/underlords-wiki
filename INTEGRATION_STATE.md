@@ -6,7 +6,7 @@ MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:ma
 
 ## Run 1603 — census / current queue
 
-The mandatory census closed at **51 tracked miner identities = 30 active refs + 21 historical/missing**, with **0 newly discovered refs, 0 unread pending-review branches, 2 reviewed branches pending MAIN verification, 9 older reviewed `pending_publication` families, 0 backlog, and 0 overdue**. Both Club-Only recovery lanes remain current.
+The mandatory census closed at **51 tracked miner identities = 30 active refs + 21 historical/missing**, with **0 newly discovered refs, 0 unread pending-review branches, 3 reviewed branches pending MAIN verification, 9 older reviewed `pending_publication` families, 0 backlog, and 0 overdue**. Both Club-Only recovery lanes remain current.
 
 Three active miner lanes advanced and were reviewed checkpoint-first from changed `archive-intake/*` handoffs only: Wall `d13ba0116859c2ef50b06e2104fb38602a17c457 → f6b1efe9cb1d2b51751b39170596508794305e28`, Daycare `6339e9c3f2ef9ae9b55d4ed6c5bae44e806cfa21 → ab53598ae783e5aa66f4ef1741848c05eb7609b6`, and Louvre / AI Art / Athenaeum / Other Games `1c4e3ab78591c25743b721cfb4e2aa6ddb9b6449 → c03f4be916129478be2e7797416e9e8a0ed884d8`.
 
@@ -31,16 +31,19 @@ Daycare RH-16 also advanced without becoming reader lore: Mugen's 2022 `(word ch
 
 ### MAIN verification debt / consumption
 
-**MAIN reader-facing changes this run: 0.** No MAIN deployment is claimed. The inherited gates were retried:
+**MAIN reader-facing changes this run: 0 net.** A concurrent accepted MAIN Tony reciprocal-Wall deepener was temporarily committed and immediately verification-gated; after the verifier failed, MAIN commit `b3318dc5a0b9e5036d35b37bd1bb59a9d2d4c410` restored Tony's reader bytes to the pre-run baseline. No MAIN deployment is claimed.
+
+Inherited/new MAIN gates:
 
 - Daycare workflow `35672332827` remained `startup_failure` with **zero jobs** instantiated.
 - Core Rooms / Events workflow `35727743323` reached **attempt 12** and again failed with the verification job returning `steps=null`; Source + Astro + built-output verification never instantiated.
+- Tony / Wall workflow `35749412434` failed on **attempts 1 and 2** with the verification job returning `steps=null`; the accepted richer MAIN Tony deepener remains held, not public.
 
-Neither result demonstrates a source, canon, Astro, or built-output failure.
+None of these results demonstrates a source, canon, Astro, or built-output failure.
 
 Consumption / review frontiers after Run 1603:
 
-- Wall reviewed and consumed through `f6b1efe9cb1d2b51751b39170596508794305e28`.
+- Wall is **reviewed through `f6b1efe9cb1d2b51751b39170596508794305e28`**, but contiguous consumed cursor remains **`d13ba0116859c2ef50b06e2104fb38602a17c457`** behind the accepted MAIN Tony verification gate. Do not reread `f6b1efe` unless the miner advances.
 - Louvre reviewed and consumed through `c03f4be916129478be2e7797416e9e8a0ed884d8`.
 - Daycare reviewed through `ab53598ae783e5aa66f4ef1741848c05eb7609b6`; contiguous consumed cursor remains `16d9ac845f9375ee2fc67444595673b309235c38` behind the older accepted MAIN Woosung→Rich/DragonRich verification debt. Do not reread through `ab53598` unless the miner advances.
 - Core Rooms / Events remains reviewed through `72d2932b59ff7fe68ee9aab032542c3cfeed40c3`, consumed only through `e0d32f57ccbfb9433eac730ffd0e6786a0054b3d` behind inherited MAIN verification debt.
