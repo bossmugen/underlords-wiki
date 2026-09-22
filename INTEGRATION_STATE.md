@@ -1,8 +1,58 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-22 — Run 1603 close_
+_Last updated: 2026-09-22 — Run 1605 close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` remains the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
+
+## Run 1605 — census / current queue
+
+The mandatory census closed at **51 tracked miner identities = 30 active refs + 21 historical/missing**, with **0 newly discovered refs, 0 unread pending-review branches, 3 reviewed MAIN lanes pending verification, 9 older reviewed `pending_publication` families, 0 backlog, and 0 overdue**. Both Club-Only recovery lanes remain current.
+
+Four active miner lanes were reviewed checkpoint-first from changed `archive-intake/*` handoffs only: Wall through `5fb20d777b5169de9a74cce277617d7a39bd8db9`, Daycare through `89a11ea6107420acab1a20fc3d72a9d5dcb900a6`, Louvre / AI Art / Athenaeum / Other Games through `f6a40d1a008209684dbea53a4daaea602197fbc5`, and Whiskey through `e82db8e2db344992ce0cee4f1dc029c4dff5169c`. Closing head checks left all four pinned there.
+
+### WIKI reader changes / reconciliation
+
+The accepted person-shaped material had already landed through concurrent Run 1604 WIKI integration before this finalizer reached publication, so Run 1605 did **not** create duplicate overlays or another receipt-paragraph layer.
+
+The reconciled reader frontier is **`6b5c5525eb06305a922d2e110a5bdd6c0e45362b`**. Its canonical owner pipeline includes:
+
+- **Oyasumi** Wall texture from the advanced Wall packet.
+- **Eos ↔ Tae** shared-script teasing: Eos can open with only `tae-`; Tae already knows the accusation and often helps feed the joke. This is high-context social fluency, not romance, literal family, or evidence about uninspected media.
+- **Emi / `erys`, stable `509574963015974932`**, kept as a separate Wall owner from the already-published Erys stable `934054466463739914`. Emi's useful contradiction is theatrical defendant ↔ willing filer ↔ visibly group-attached regular: impossible alibis (`its photoshopped`, `im being hacked`) coexist with filing receipts herself and noticing when everybody has migrated away.
+- **Rummy / `phenomenal_lamb_14960`, stable `717133949457137775`**: exhibit narrator / context courier plus recurring laugh→`*pat pat*` soft landing. The repeated insistence that the footnote travel with the exhibit is a social habit, not a formal archivist, moderator, prosecutor, or evidence appointment.
+
+Verification/deployment for that reader frontier is green:
+
+- Build Underlords Wiki `35755296300`: **success**.
+- Deploy Underlords Wiki Preview / Pages `35755296302`: **success through Pages deployment**.
+
+### No-reader-change review
+
+Louvre's current quarry is exhausted at the available archive boundary and produced no new publishable material. One checkpoint attempted to repair identity as Mia = Mimi = Opalite Honey / `༯`; that repair was rejected against root hard canon. **Mia (`439628808545632256`) and Mimi / Opalite Honey / `༯` (`783389804079349800`) remain distinct people.** Louvre is therefore a correction/no-public-change review and is consumed through current HEAD.
+
+Whiskey's Rummy material was accepted but already owned by the concurrent WIKI synthesis; MAIN already has the richer context-defense biography arc. No mirror paragraph was warranted.
+
+### MAIN verification debt / consumption
+
+**MAIN reader-facing changes this run: 0.** No MAIN deployment is claimed. The three outstanding verification gates were retried:
+
+- Daycare workflow `35672332827`, attempt **50**: `startup_failure`, with **zero jobs** instantiated.
+- Core Rooms / Events workflow `35727743323`, attempt **15**: verification job created but failed before any steps instantiated (`steps=[]`, `runner_id=0`).
+- Wall / Tony workflow `35749412434`, attempt **5**: same pre-step failure (`steps=[]`, `runner_id=0`).
+
+These remain runner/startup infrastructure failures, not demonstrated source, canon, Astro, or built-output failures.
+
+Consumption / review frontiers after Run 1605:
+
+- Wall is reviewed through `5fb20d777b5169de9a74cce277617d7a39bd8db9`; contiguous consumed cursor remains `d13ba0116859c2ef50b06e2104fb38602a17c457` behind inherited MAIN Tony verification debt. Do not reread through `5fb20d7` unless the miner advances.
+- Daycare is reviewed through `89a11ea6107420acab1a20fc3d72a9d5dcb900a6`; contiguous consumed cursor remains `16d9ac845f9375ee2fc67444595673b309235c38` behind inherited MAIN Woosung→Rich / DragonRich verification debt. Do not reread through `89a11ea` unless the miner advances.
+- Core Rooms / Events remains reviewed through `72d2932b59ff7fe68ee9aab032542c3cfeed40c3`, consumed only through `e0d32f57ccbfb9433eac730ffd0e6786a0054b3d` behind inherited MAIN Ricochet verification debt.
+- Louvre is reviewed and consumed through `f6a40d1a008209684dbea53a4daaea602197fbc5`.
+- Whiskey is reviewed and consumed through `e82db8e2db344992ce0cee4f1dc029c4dff5169c`.
+
+Held rails remain held: Mia and Mimi are separate; Opalite belongs to Mimi. Emi stable `509574963015974932` is not merged with Erys stable `934054466463739914` absent a direct bridge. Same display names do not bridge stable IDs. The Whiskey Cele collision and Zhēnxī stable-ID conflict remain unresolved. Nobukatsu is not canonical Nobu without an explicit bridge. Joke-family/romance/role language stays nonliteral without support. Earliest surviving remains different from origin. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct.
+
+---
 
 ## Run 1603 — census / current queue
 
