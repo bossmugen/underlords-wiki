@@ -26,7 +26,7 @@ Practical room guidance remains room-boundary awareness, not proof of Staff/mode
 
 These three owners were intentionally **WIKI-only** this run. Each has a coherent searchable character axis strong enough for a structured dossier, but none of these bounded packets justifies padding a MAIN whole-person biography with receipt-shaped filler.
 
-WIKI module commit: `3abeed0e41d4cab1628fdd28c373ec7bdab05132`. Wired reader commit: **`cb372723529429a5d67f04bd6087a33b2c6144be`**. **Build Underlords Wiki `35684424396` succeeded. Deploy Underlords Wiki Preview `35684427408` succeeded. Pages deployment `35684427491` succeeded.**
+WIKI module commit: `90baa1f091336b5e5862b9cb75262510a1493285`. Wired reader commit: **`e697661450229600b42edd41cde4f33b6f9e66fb`**. **Build Underlords Wiki `35684427408` succeeded. Deploy Underlords Wiki Preview / Pages `35684427396` succeeded through build, deploy, and report.**
 
 ### MAIN verification gate
 
