@@ -26,6 +26,7 @@ import { applyRun1559IntegratorCast } from "./cast-run1559-integrator";
 import { applyRun1575WallDeanCast } from "./cast-run1575-wall-dean";
 import { applyRun1578LateCast } from "./cast-run1578-late";
 import { applyRun1581RichCast } from "./cast-run1581-rich";
+import { applyRun1581WallHamitteYCast } from "./cast-run1581-wall-hamittey";
 import type { Character } from "./wiki";
 export type { CastGroup } from "./cast-through-run1514";
 
@@ -55,6 +56,7 @@ applyRun1559IntegratorCast(allCharacters);
 applyRun1575WallDeanCast(allCharacters);
 applyRun1578LateCast(allCharacters, previousGroups);
 applyRun1581RichCast(allCharacters, previousGroups);
+applyRun1581WallHamitteYCast(allCharacters);
 
 export const castGroups = previousGroups;
 export const characterById = new Map(allCharacters.map((character) => [character.id, character]));
