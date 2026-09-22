@@ -35,7 +35,8 @@ export function applyRun1584DaycareWhiskeyCast(
   characters: Character[],
   groups: CastGroupLike[],
 ): void {
-  // Daycare/supporting Wall: MOMO is the compact half of a mutually affectionate Mia bit.
+  // Daycare/supporting Wall: MOMO is the compact half of a mutually affectionate Mimi bit.
+  // Hard identity rail: 783389804079349800 = Mimi / Opalite Honey / ༯, NOT Mia.
   const momoStableId = "687376846647853107";
   const momoIndex = characters.findIndex(
     (character) =>
@@ -45,9 +46,9 @@ export function applyRun1584DaycareWhiskeyCast(
   const previousMomo = momoIndex >= 0 ? (characters[momoIndex] as ArchiveCharacter) : undefined;
   const momoRelationships = [...(previousMomo?.relationships ?? [])] as Relationship[];
   mergeRelationship(momoRelationships, {
-    name: "Mia / ༯",
+    name: "Mimi / Opalite Honey / ༯",
     note:
-      "Mia is the fireworks half of their surviving bit: `me and momo are twinsss`, then `love u twinnn`. MOMO answers at her own volume with `Mimi’s twin` and `Love ya 2`, then two days later helps mutate the naming joke herself with `you are both Mimi & Momo.` The warmth is reciprocal even when MOMO is economical about it; the twin language is social theater, not literal family.",
+      "Mimi is the fireworks half of their surviving bit: `me and momo are twinsss`, then `love u twinnn`. MOMO answers at her own volume with `Mimi’s twin` and `Love ya 2`, then two days later helps mutate the naming joke herself with `you are both Mimi & Momo.` The warmth is reciprocal even when MOMO is economical about it; the twin language is social theater, not literal family.",
   });
   const momo: ArchiveCharacter = {
     ...(previousMomo ?? {}),
@@ -77,41 +78,43 @@ export function applyRun1584DaycareWhiskeyCast(
     ]),
     claims: unique([
       ...(previousMomo?.claims ?? []),
-      "Across the April 7 and April 9, 2023 Mia/MOMO exchanges, MOMO repeatedly reciprocates Mia's louder relationship bids and then actively extends the shared `Mimi & Momo` naming bit. The cumulative read is economical delivery with unmistakably mutual affection and joke-building.",
+      "Across the April 7 and April 9, 2023 Mimi/MOMO exchanges, MOMO repeatedly reciprocates Mimi's louder relationship bids and then actively extends the shared `Mimi & Momo` naming bit. The cumulative read is economical delivery with unmistakably mutual affection and joke-building.",
       "The supporting-room attachments in this family were not visually inspected; only the surviving POSTED BY / reply / mention relationships are safe.",
     ]),
     antiFanon: unique([
       ...(previousMomo?.antiFanon ?? []),
       "`twin`, `Mimi`, and `Momo` are social/joke-family language here. Do not literalize biological kinship or use the bit as an identity bridge.",
-      "Mia's attachments in this exchange do not establish MOMO or Mia as maker, capturer, or visible subject without independent media support.",
+      "Mimi's attachments in this exchange do not establish MOMO or Mimi as maker, capturer, or visible subject without independent media support.",
+      "Mimi / Opalite Honey / ༯ is not Mia. Do not merge them from display-name similarity or stale miner labels.",
     ]),
   };
   if (momoIndex >= 0) characters[momoIndex] = momo;
   else characters.push(momo);
 
-  // If the exact Mia stable-ID owner exists, deepen her side without guessing from display-name similarity.
-  const miaStableId = "783389804079349800";
-  const miaIndex = characters.findIndex((character) =>
-    (character as ArchiveCharacter).stableDiscordIds?.includes(miaStableId),
+  // Deepen only the exact Mimi owner. Canonical Mia is a different person/account.
+  const mimiStableId = "783389804079349800";
+  const mimiIndex = characters.findIndex((character) =>
+    (character as ArchiveCharacter).stableDiscordIds?.includes(mimiStableId),
   );
-  if (miaIndex >= 0) {
-    const mia = characters[miaIndex] as ArchiveCharacter;
-    const miaRelationships = [...(mia.relationships ?? [])] as Relationship[];
-    mergeRelationship(miaRelationships, {
+  if (mimiIndex >= 0) {
+    const mimi = characters[mimiIndex] as ArchiveCharacter;
+    const mimiRelationships = [...(mimi.relationships ?? [])] as Relationship[];
+    mergeRelationship(mimiRelationships, {
       name: "MOMO",
       note:
-        "Mia loudly announces the shared twin bit and affection; MOMO answers more compactly but consistently returns it and later helps expand the `Mimi & Momo` joke. Their surviving dynamic is loud herald ↔ quiet coauthor, not literal family.",
+        "Mimi loudly announces the shared twin bit and affection; MOMO answers more compactly but consistently returns it and later helps expand the `Mimi & Momo` joke. Their surviving dynamic is loud herald ↔ quiet coauthor, not literal family.",
     });
-    characters[miaIndex] = {
-      ...mia,
-      relationships: miaRelationships,
+    characters[mimiIndex] = {
+      ...mimi,
+      relationships: mimiRelationships,
       claims: unique([
-        ...(mia.claims ?? []),
-        "The April 2023 MOMO exchanges make Mia's loud-affection style relationally specific: she broadcasts the bid, leaves room for a quieter answer, and reacts warmly when MOMO returns it.",
+        ...(mimi.claims ?? []),
+        "The April 2023 MOMO exchanges make Mimi's loud-affection style relationally specific: she broadcasts the bid, leaves room for a quieter answer, and reacts warmly when MOMO returns it.",
       ]),
       antiFanon: unique([
-        ...(mia.antiFanon ?? []),
-        "Mia/MOMO twin language is a social bit, not literal kinship or an identity merge.",
+        ...(mimi.antiFanon ?? []),
+        "Mimi/MOMO twin language is a social bit, not literal kinship or an identity merge.",
+        "Mimi / Opalite Honey / ༯ is not Mia.",
       ]),
     } as ArchiveCharacter;
   }
