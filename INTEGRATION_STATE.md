@@ -1,26 +1,26 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-22 — Run 1614 reconciled close_
+_Last updated: 2026-09-22 — Run 1615 reconciled close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` remains the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
 
 This file is the **current integration frontier**, not a duplicate run ledger. Earlier run detail remains durable in Git history and MAIN's per-run `archive-intake/INTEGRATION_FINAL_*` reports.
 
-## Run 1614 — current queue
+## Run 1615 — current queue
 
 The mandatory opening and closing census remains **51 tracked miner identities = 30 active refs + 21 historical/missing**, with **0 newly discovered refs, 0 unread pending-review branches, 3 reviewed MAIN lanes pending verification, 9 older reviewed `pending_publication` families, 0 backlog, and 0 overdue**. Both Club-Only recovery lanes remain current.
 
-No active miner advanced beyond the Run 1613 frontier. No intake delta was reread and no new reader-facing material was published on either surface.
+No active miner advanced beyond the Run 1614 frontier. No intake delta was reread and no new reader-facing material was published on either surface.
 
 ## WIKI reader frontier
 
 Final verified/deployed reader remains **`1efa060f4b36eb975c340425545667a9b8998051`** from Run 1609.
 
-The current Gabu NIGHTLIFE scheduler self-correction remains the newest reader-facing integration. No additional character, relationship, episode, running-gag, quote, location, or gallery material was added in Run 1614 because the miner frontier did not move.
+The current Gabu NIGHTLIFE scheduler self-correction remains the newest reader-facing integration. No additional character, relationship, episode, running-gag, quote, location, or gallery material was added in Run 1615 because the miner frontier did not move.
 
 ## Verification / deployment
 
-No WIKI reader bytes changed in Run 1614, so no new build or Pages deployment was triggered.
+No WIKI reader bytes changed in Run 1615, so no new build or Pages deployment was triggered.
 
 The existing reader frontier remains green:
 
@@ -31,7 +31,7 @@ This integration-state commit is reader-neutral and uses `[skip ci]`.
 
 ## MAIN surface decision
 
-**MAIN reader-facing changes in Run 1614: 0.** No MAIN reader deployment is claimed.
+**MAIN reader-facing changes in Run 1615: 0.** No MAIN reader deployment is claimed.
 
 The branch census found no new intake to integrate. Existing person-first biographies therefore remain untouched rather than receiving duplicate receipt paragraphs.
 
@@ -40,8 +40,8 @@ The branch census found no new intake to integrate. Existing person-first biogra
 The three inherited MAIN reader gates were handled without rereading their already-reviewed intake:
 
 - Daycare workflow `35672332827`: rerun request was accepted but the run remained attempt **50** with `startup_failure` and zero jobs.
-- Core Rooms / Events workflow `35727743323`: GitHub rejected the rerun request as not retryable; the existing attempt **26** remains `cancelled` with zero jobs, so no source/Astro/built-output verification steps executed.
-- Wall / Tony workflow `35749412434`, attempt **17**: verification again failed before steps instantiated (`steps=null`).
+- Core Rooms / Events workflow `35727743323`: GitHub again rejected the rerun request as not retryable (`403`); the existing attempt **26** remains `cancelled` with zero jobs, so no source/Astro/built-output verification steps executed.
+- Wall / Tony workflow `35749412434`, attempt **18**: verification again failed before steps instantiated (`steps=null`).
 
 These remain runner/startup infrastructure failures, not demonstrated source, canon, Astro, or built-output failures.
 
@@ -59,8 +59,8 @@ Current review / consumption frontiers remain unchanged:
 
 Same display names do not bridge stable IDs. Mia remains distinct from Mimi / Opalite Honey / `༯`. The Whiskey Cele collision and Zhēnxī stable-ID conflict remain unresolved. Joke-family, joke-romance, and joke-role language stay nonliteral without support. Earliest surviving is not origin. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct.
 
-## Run 1614 durable handoff
+## Run 1615 durable handoff
 
-MAIN controlling branch-state commit: `6e84e46c95cf0957bb53bc63d01b85ff6c2e785b`.
+MAIN controlling branch-state commit: `2c97ddceb7f713d3e2e35c13d5e1e2e447a98aa6`.
 
-MAIN per-run close report commit: `55f87ffb10017e387d6688f474e57f6f96ce88bd`.
+MAIN per-run close report commit: `0b534b6e21da6e1c62bfd7cb92a409f7ef067c8c`.
