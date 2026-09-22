@@ -1,3 +1,4 @@
+import "./integrator-cast-run1577-late-tail";
 import { allCharacters, characterById } from "./cast";
 import type { Character } from "./wiki";
 
