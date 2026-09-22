@@ -35,7 +35,12 @@ export function applyRun1595WhiskeyDyingFoxCast(
   characters: Character[],
   groups: CastGroupLike[],
 ): void {
-  const index = characters.findIndex((character) => character.id === "dyingfox");
+  const stableId = "471370475050762251";
+  const index = characters.findIndex(
+    (character) =>
+      character.id === "dyingfox" ||
+      (character as ArchiveCharacter).stableDiscordIds?.includes(stableId),
+  );
   const previous = index >= 0 ? (characters[index] as ArchiveCharacter) : undefined;
   const relationships = [...(previous?.relationships ?? [])] as Relationship[];
 
@@ -50,12 +55,14 @@ export function applyRun1595WhiskeyDyingFoxCast(
     name: "Cele",
     note:
       "When Mugen leaves the 2026 reunion with `Don't burn the house down`, Cele answers `We make no promises` and DyingFox follows in the same minute with `No promises`. Cele supplies the answer shape; DyingFox turns one person's joke into chorus with two words.",
+    href: "/characters/cele",
   });
 
   mergeRelationship(relationships, {
     name: "Moon",
     note:
       "Moon refuses to believe the Platelets graduated; later DyingFox answers the same house-history pressure with `I never age` and `Forever platelet`. The useful connection is shared fluency in old room language, not literal age status or a claim about who invented the Platelet joke.",
+    href: "/characters/moon",
   });
 
   mergeRelationship(relationships, {
@@ -69,22 +76,25 @@ export function applyRun1595WhiskeyDyingFoxCast(
     ...(previous ?? {}),
     id: previous?.id ?? "dyingfox",
     name: previous?.name ?? "DyingFox",
-    aliases: unique([...(previous?.aliases ?? [])]),
+    aliases: unique([...(previous?.aliases ?? []), "Dyingfox", "DyingFox(Gilli's Pond)"]),
     billing: previous?.billing ?? "recurring",
-    role: previous?.role ?? "Archive-era ensemble cast",
-    era: previous?.era ?? "2021–2026+",
+    role: previous?.role ?? "Platelet",
+    era: previous?.era ?? "2021–present",
     logline:
       previous?.logline ||
-      "A house-chorus specialist: DyingFox can join a recurring care ritual with one heart, turn Cele's `We make no promises` into a room answer with `No promises`, and years later re-enter old Platelet language in first person — `I never age` / `Forever platelet` — without stopping to explain the joke.",
+      "A permanent Platelet and house-chorus specialist: DyingFox can join a recurring care ritual with one heart, turn Cele's `We make no promises` into a room answer with `No promises`, and years later re-enter old Platelet language in first person — `I never age` / `Forever platelet` — without stopping to explain the joke.",
     tags: unique([
       ...(previous?.tags ?? []),
+      "Platelet",
       "Whiskey",
       "Shared-room rituals",
+      "Reaction language",
       "Chorus carry",
       "Old house language",
       "Compact banter",
       "Petty Crimes",
     ]),
+    stableDiscordIds: unique([...(previous?.stableDiscordIds ?? []), stableId]),
     relationships,
     quotes: unique([
       ...(previous?.quotes ?? []),
@@ -94,6 +104,7 @@ export function applyRun1595WhiskeyDyingFoxCast(
     ]),
     claims: unique([
       ...(previous?.claims ?? []),
+      "Stable Discord account 471370475050762251 is DyingFox / Dyingfox; later display-name metadata also shows `DyingFox(Gilli's Pond)`. DyingFox remains in the current user-confirmed Platelet roster.",
       "DyingFox is a safely named reactor on four recovered Gilli morning/QOTD posts spanning December 17, 2021 through January 1, 2022. The repeated participation supports a small shared-ritual continuity read without turning reaction arrays into intimacy rankings.",
       "At the August 14, 2026 reunion, DyingFox says `I never age` and `Forever platelet :Cute_Cozy:` after the room has returned to the old Platelet/graduation language. The person-level keeper is first-person reuse of inherited house shorthand, not literal age status.",
       "In the same reunion, Cele answers Mugen's `Don't burn the house down` with `We make no promises`; DyingFox follows with `No promises` in the same minute. That compact echo is useful as a repeated social mechanism: DyingFox often strengthens a live room premise by joining it instead of restarting it.",
@@ -101,11 +112,12 @@ export function applyRun1595WhiskeyDyingFoxCast(
     ]),
     antiFanon: unique([
       ...(previous?.antiFanon ?? []),
-      "`Forever platelet` is reunion joke-language using an old house category. It does not establish DyingFox's literal age, current minor status, a formal role, governance, or appointment chronology.",
+      "`Forever platelet` is reunion joke-language using an old house category. It does not establish DyingFox's literal age or current minor status. DyingFox's current Platelet filing comes from user-confirmed canon, not from appointment chronology inferred out of export-time role arrays.",
       "Repeated heart reactions to Gilli's morning/QOTD posts establish response to those exact messages, not friendship rank, private closeness, authorship, or agreement beyond the reactions themselves.",
       "Cele supplies `We make no promises` before DyingFox says `No promises`; do not credit DyingFox as the originator of that exchange's wording.",
       "The current safe-driving evidence is catalog-level for DyingFox. Do not reconstruct or quote an exact line until the direct message is recovered.",
       "The current public read is ensemble-shaped. Do not invent a one-to-one best-friend tier or treat recurring room fluency as proof of a private relationship map.",
+      "`DyingFox(Gilli's Pond)` is a display-name bit, not evidence that Gilli literally owns Fox or that the name encodes kinship or hierarchy.",
     ]),
   };
 
