@@ -1,52 +1,59 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-22 — Run 1585 close_
+_Last updated: 2026-09-22 — Run 1586 close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies. Historical run-by-run state remains available in Git history; this file is the current handoff snapshot.
 
 ## Census / current queue
 
-The mandatory full census remains **51 tracked miner identities = 30 active refs + 21 historical/missing**, with **0 newly discovered refs, 0 unread pending-review branches after close, 1 reviewed branch pending MAIN verification, 9 older reviewed `pending_publication` families, 0 backlog, and 0 overdue**. Both Club-Only recovery lanes are current.
+The mandatory full census is **51 tracked miner identities = 30 active refs + 21 historical/missing**, with **0 newly discovered refs, 0 unread pending-review branches after close, 1 reviewed branch pending inherited MAIN verification, 9 older reviewed `pending_publication` families, 0 backlog, and 0 overdue**. Both Club-Only recovery lanes remain current.
 
-Run 1585 found **no advanced miner refs** at either opening or closing census, so no reviewed Run 1584 tail was reread. The current reviewed frontiers remain:
+Run 1586 opened with all 30 live miner refs pinned to the Run 1585 frontiers. During the closing sweep, Daycare advanced **`e7021e921b809838478a9f876832ea9a894b7116` → `55c03c707c3ccbc73df0d8fc0f342a7211f572ba`**. That new head was persisted before deep review and reviewed checkpoint-first from changed `archive-intake/*` handoffs only. A final live census found no additional miner movement.
 
-- Birthdays / PR / VC: `528607899cdf2a36b2c56d55a0286e54c2d217d2` → `bdc6a6e6606792949a53862a16d58765e096e228`
-- Daycare: prior reviewed frontier `bc3bdbb705fe930c2573eaeb446749c043907068` → `e7021e921b809838478a9f876832ea9a894b7116`; the contiguous consumed cursor remains held at `16d9ac845f9375ee2fc67444595673b309235c38` by inherited MAIN verification debt
-- Whiskey: `b7587ecd19df55d643d4eb5c2e70760030a40fc8` → `c36e159dff5ff3a8047cef255e96b6c505247b5d`
-- Wall: `c3c7d19132a0fb15d86b10645e607ee3eeaef4ef` → `d8502bd26ecdadd4781c77cdef5c3f26d683cf9b`
+Current notable frontiers:
 
-Run 1585 closing live-head checks found all 30 active miner refs still pinned to the Run 1584 closing SHAs. No new reader material was accepted on either public surface.
+- Birthdays / PR / VC: reviewed + consumed through `bdc6a6e6606792949a53862a16d58765e096e228`.
+- Whiskey: reviewed + consumed through `c36e159dff5ff3a8047cef255e96b6c505247b5d`.
+- Wall: reviewed + consumed through `d8502bd26ecdadd4781c77cdef5c3f26d683cf9b`.
+- Daycare: reviewed through `55c03c707c3ccbc73df0d8fc0f342a7211f572ba`; contiguous consumed cursor remains held at `16d9ac845f9375ee2fc67444595673b309235c38` by inherited MAIN verification debt.
 
 ## Reader state
 
-Latest verified/deployed WIKI reader commit: **`a43628d36a58eed7d32ec625b5f387b0edc85b45`**.
+Latest verified/deployed WIKI reader commit: **`3e0434810f29e5b82d9c4d4b3a88e3c882f5b9d0`**.
 
-That reader passed **Build Underlords Wiki `35707117359`** and **Deploy Underlords Wiki Preview / Pages `35707117272`**, including successful GitHub Pages deployment. The earlier Run 1584 cast reader `9a8c79aadd3402ecc32ec34268d0e65c82d9eae1` also passed its own build/deploy pair before the episode follow-up.
+That reader passed **Build Underlords Wiki `35710417617`** and **Deploy Underlords Wiki Preview / Pages `35710417692`**, including successful build, Pages deployment, and report jobs.
 
-### MOMO
+### Ghostt
 
-MOMO / `miin_mochii`, stable account **`687376846647853107`**, gets the compact half of the Mia relationship instead of being treated like scenery. Mia announces the shared twin bit at fireworks volume; MOMO answers `Mimi's twin`, returns `Love ya 2`, and two days later helps mutate the naming joke herself with `you are both Mimi & Momo.` The useful read is loud herald ↔ quiet reciprocator/coauthor: MOMO's delivery is economical, not passive.
+Ghostt, stable account **`315245494051930113`** (`ghostt.wicked`; nickname `Ghøstt..`), now has a structured Cast owner built from the new Daycare-supporting Wall handoff.
 
-The `twin`, `Mimi`, and `Momo` language remains social/joke-family language, not literal biological kinship or an identity bridge. Attachments in that exchange were not visually inspected, so POSTED BY does not silently become MADE BY / CAPTURED BY / FEATURING.
+His useful social style is cumulative rather than receipt-by-receipt: Ghostt repeatedly answers whole room moments through one emote, one reaction, one GIF, or one compact line. The emote is often the sentence. When he does type, he tends to land a dry capstone instead of taking over the floor. During one Ghoulie Wall flare-up, `Poor ghoulie she lives on the wall lmao` recognizes a running reputation and gives Mugen the setup for `Ghoulie where's the rent` seconds later. That remains community/reputation texture, not a formal closeness ranking.
 
-### whoamii
+The stronger contradiction is change over time. In December 2021 Ghostt says he had not been on in so long he forgot which club he was in, then says he had left and uninstalled. The same stable account keeps showing up socially in Wall into 2022. The safe person read is **game-disengaged ↔ community-present**: his attachment to the game faded before his attachment to the people did.
 
-`whoamii`, stable account **`407706805918105602`**, now has a structured owner around a repeated lived behavior: navigation as care. Across newcomer guidance and later channel routing, they keep getting people or conversations where they need to go with clear destinations and low-friction language. Twice, a precise Whiskey redirect comes packaged with the same comic shoo/go-away GIF — boundary-setting with clown delivery rather than a clipboard personality.
+Mass Effect replay hours live in **Petty Crimes** as ordinary-life gaming texture. Exact romance choices are not established. Later attachments in the source family remain uninspected, so provenance stays POSTED BY only.
 
-Gilli eventually turns whoamii's own `Drink Water/ Eat Food Reminder` identity back on them and tells the reminder to drink/eat; whoamii reacts and answers with a Pikachu-eating GIF. That is a tiny care boomerang/meta-joke, not a health storyline. Repeated room routing also does not establish formal role or appointment chronology from export-current role arrays.
+This material is **WIKI-only** for now. It is strong enough for a searchable dossier, quotes, relationship texture, contradiction, and Petty Crimes, but the currently readable character body is supporting-Wall heavy while Ghostt's later direct Daycare body is unavailable. MAIN does not get a padded biography just to make both repositories move.
 
-### VC → Wall afterlife
+### No-padding / backstage findings
 
-The December 1, 2021 VC pocket now has a WIKI Episode owner: Sota treats a good VC joke as future Wall material, Ricochet wants the funny moment posted while everybody still remembers it, and Ansun turns the premise into a room-wide warning to be ready for the Wall after VC. The three gestures expose the same social reflex from different angles — audience, artifact, warning label — without pretending this scene invented the Wall or invented VC-to-Wall filing.
+- **Nori (`462394415898427402`)**: supporting Lobby yielded onboarding plus one playful `Yesh`; no public character thesis was manufactured.
+- The newly bounded 2023-04-22 → 2023-04-26 Lobby quiet interval remains quarry/source metadata, not public lore.
+- Ghostt's direct-Daycare-body rabbit is materially narrowed but unresolved. The exact stable-ID + `ul-daycare` route only reaches the known 2020-only empty direct channel object plus supporting sources. That is a source-availability seam, not evidence that Ghostt was absent from later Daycare. Reopen only if source inventory changes.
 
-### Wall / Bishop / Shame → Fame
+## Existing rails carried forward
 
-The latest BishopThaGuru packet is held from person-level publication because the miner handoff assigns **stable account `362396877502808064`**, while an earlier verified WIKI packet had attached the same display name to **`532544823624810506`**. There is no independently resolved bridge between those IDs. Hard identity safety wins: do not merge them, do not silently overwrite one with the other, and do not invent a second biography unless the archive actually resolves the people.
-
-The same Wall tail further narrows the Shame→Fame chronology and preserves Mugen's room-level explanation that people became too proud of being on the Wall for `shame` to keep working. That is corroboration of the already-public `The Wall Tries Fame` gag, not a new origin certificate. The exact first transition line/date remains unresolved; the exhausted exact-transition route stays DNR unless a new corpus or exact path opens.
+- MOMO / `miin_mochii` (`687376846647853107`) remains the compact reciprocator/coauthor in the Mimi twin/naming bit; joke-family language stays nonliteral.
+- whoamii (`407706805918105602`) retains the navigation-as-care / soft traffic-shepherd read; repeated routing does not establish formal appointment chronology.
+- The VC → Wall `Ready for the Wall After VC` episode remains public as a culture handoff, not an origin certificate.
+- The latest BishopThaGuru packet remains held from person-level publication because stable `362396877502808064` conflicts with an earlier verified WIKI packet using `532544823624810506`. No identity bridge is inferred from the matching display name.
+- Shame → Fame remains a public culture pattern with narrowed chronology, not a claimed exact origin.
+- SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct.
 
 ## MAIN verification debt
 
-MAIN reader-facing changes in Run 1585: **0**. WIKI reader-facing changes in Run 1585: **0**. With no advanced miner deltas, neither surface received synthetic padding.
+MAIN reader-facing changes in Run 1586: **0**. The Ghostt addition is intentionally WIKI-only.
 
-The inherited Daycare Woosung/Rich correction remains the sole active MAIN verification gate. Workflow `35672332827`, **attempt 34**, again failed before any source/Astro/built-output verification step instantiated; the job returned `steps=null`. This remains runner/startup infrastructure failure, not a demonstrated source, canon, Astro, or built-output failure. No MAIN reader deployment is claimed.
+The inherited Daycare Woosung/Rich correction remains the sole active MAIN verification gate. Workflow `35672332827`, **attempt 35**, again failed before any Source + Astro + built-output verification step instantiated; the job returned `steps=null`. This remains runner/startup infrastructure failure, not a demonstrated source, canon, Astro, or built-output failure. No MAIN reader deployment is claimed.
+
+Accordingly, Daycare is reviewed through `55c03c707c3ccbc73df0d8fc0f342a7211f572ba` but its consumed cursor remains `16d9ac845f9375ee2fc67444595673b309235c38`. The reviewed Ghostt tail does not need rereview unless the miner HEAD advances; only the inherited MAIN verification gate should be retried.
