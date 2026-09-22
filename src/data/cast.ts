@@ -41,6 +41,7 @@ import { applyRun1603IntegratorCast } from "./cast-run1603-integrator";
 import { applyRun1604WallDaycareCast } from "./cast-run1604-wall-daycare";
 import { applyRun1604LateCast } from "./cast-run1604-late";
 import { applyRun1605IntegratorCast } from "./cast-run1605-integrator";
+import { applyRun1608IntegratorCast } from "./cast-run1608-integrator";
 import type { Character } from "./wiki";
 export type { CastGroup } from "./cast-through-run1514";
 
@@ -85,6 +86,7 @@ applyRun1603IntegratorCast(allCharacters);
 applyRun1604WallDaycareCast(allCharacters);
 applyRun1604LateCast(allCharacters);
 applyRun1605IntegratorCast(allCharacters, previousGroups);
+applyRun1608IntegratorCast(allCharacters);
 
 export const castGroups = previousGroups;
 export const characterById = new Map(allCharacters.map((character) => [character.id, character]));
