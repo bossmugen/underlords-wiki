@@ -28,6 +28,7 @@ import { applyRun1578LateCast } from "./cast-run1578-late";
 import { applyRun1581RichCast } from "./cast-run1581-rich";
 import { applyRun1581WallHamitteYCast } from "./cast-run1581-wall-hamittey";
 import { applyRun1582WallShiyaVannessCast } from "./cast-run1582-wall-shiya-vanness";
+import { applyRun1583BirthdaysWallCast } from "./cast-run1583-birthdays-wall";
 import type { Character } from "./wiki";
 export type { CastGroup } from "./cast-through-run1514";
 
@@ -59,6 +60,7 @@ applyRun1578LateCast(allCharacters, previousGroups);
 applyRun1581RichCast(allCharacters, previousGroups);
 applyRun1581WallHamitteYCast(allCharacters);
 applyRun1582WallShiyaVannessCast(allCharacters);
+applyRun1583BirthdaysWallCast(allCharacters, previousGroups);
 
 export const castGroups = previousGroups;
 export const characterById = new Map(allCharacters.map((character) => [character.id, character]));
