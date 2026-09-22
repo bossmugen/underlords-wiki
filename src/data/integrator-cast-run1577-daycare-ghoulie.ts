@@ -1,4 +1,5 @@
 import "./integrator-cast-run1577-late-tail";
+import "./integrator-cast-run1594-whiskey-anayss";
 import { allCharacters, characterById } from "./cast";
 import type { Character } from "./wiki";
 
