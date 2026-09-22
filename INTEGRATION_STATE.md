@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-22 — Run 1584 close_
+_Last updated: 2026-09-22 — Run 1585 close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies. Historical run-by-run state remains available in Git history; this file is the current handoff snapshot.
 
@@ -8,14 +8,14 @@ MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:ma
 
 The mandatory full census remains **51 tracked miner identities = 30 active refs + 21 historical/missing**, with **0 newly discovered refs, 0 unread pending-review branches after close, 1 reviewed branch pending MAIN verification, 9 older reviewed `pending_publication` families, 0 backlog, and 0 overdue**. Both Club-Only recovery lanes are current.
 
-Run 1584 reviewed four advanced intake deltas checkpoint-first and intake-only:
+Run 1585 found **no advanced miner refs** at either opening or closing census, so no reviewed Run 1584 tail was reread. The current reviewed frontiers remain:
 
 - Birthdays / PR / VC: `528607899cdf2a36b2c56d55a0286e54c2d217d2` → `bdc6a6e6606792949a53862a16d58765e096e228`
 - Daycare: prior reviewed frontier `bc3bdbb705fe930c2573eaeb446749c043907068` → `e7021e921b809838478a9f876832ea9a894b7116`; the contiguous consumed cursor remains held at `16d9ac845f9375ee2fc67444595673b309235c38` by inherited MAIN verification debt
 - Whiskey: `b7587ecd19df55d643d4eb5c2e70760030a40fc8` → `c36e159dff5ff3a8047cef255e96b6c505247b5d`
 - Wall: `c3c7d19132a0fb15d86b10645e607ee3eeaef4ef` → `d8502bd26ecdadd4781c77cdef5c3f26d683cf9b`
 
-Closing live-head checks found those four miner refs still pinned at the reviewed SHAs.
+Run 1585 closing live-head checks found all 30 active miner refs still pinned to the Run 1584 closing SHAs. No new reader material was accepted on either public surface.
 
 ## Reader state
 
@@ -47,6 +47,6 @@ The same Wall tail further narrows the Shame→Fame chronology and preserves Mug
 
 ## MAIN verification debt
 
-MAIN reader-facing changes in Run 1584: **0**. The new accepted public material belongs naturally to WIKI structured owners / an Episode; none of the packets justify receipt-shaped padding in MAIN biographies.
+MAIN reader-facing changes in Run 1585: **0**. WIKI reader-facing changes in Run 1585: **0**. With no advanced miner deltas, neither surface received synthetic padding.
 
-The inherited Daycare Woosung/Rich correction remains the sole active MAIN verification gate. Workflow `35672332827`, **attempt 31**, again failed before any source/Astro/built-output verification step instantiated; the job returned `steps=null`. This remains runner/startup infrastructure failure, not a demonstrated source, canon, Astro, or built-output failure. No MAIN reader deployment is claimed.
+The inherited Daycare Woosung/Rich correction remains the sole active MAIN verification gate. Workflow `35672332827`, **attempt 34**, again failed before any source/Astro/built-output verification step instantiated; the job returned `steps=null`. This remains runner/startup infrastructure failure, not a demonstrated source, canon, Astro, or built-output failure. No MAIN reader deployment is claimed.
