@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-22 — Run 1590 close_
+_Last updated: 2026-09-22 — Run 1591 close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` remains the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
 
@@ -8,7 +8,9 @@ MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:ma
 
 The mandatory full census remains **51 tracked miner identities = 30 active refs + 21 historical/missing**, with **0 newly discovered refs, 0 unread pending-review branches, 1 reviewed branch pending inherited MAIN verification, 9 older reviewed `pending_publication` families, 0 backlog, and 0 overdue**. Both Club-Only recovery lanes remain current.
 
-Run 1590 found **all 30 active miner HEADs unchanged from the Run 1589 closing frontier**. There were therefore no intake deltas to reread, no new evidence families to reconcile, no new duplicate/corroboration decisions, and no conflict/rabbit movement. No raw archive was re-mined and no miner branch was merged into a publishing branch.
+Run 1591 enumerated all 30 active `archive-miner-*` / `archive-miner/*` refs directly from the repository and found **every active miner HEAD unchanged from the Run 1590 frontier**. Because the recorded `last_seen_sha` values were already current, `archive-intake/INTEGRATOR_BRANCH_STATE.json` required no content mutation this run; the census result is durably recorded in the MAIN Run 1591 report instead of manufacturing a timestamp-only ledger rewrite.
+
+There were no intake deltas to reread, no new evidence families to reconcile, no new duplicate/corroboration decisions, and no conflict/rabbit movement. No raw archive was re-mined and no miner branch was merged into a publishing branch.
 
 The most recent reviewed tails remain:
 
@@ -17,15 +19,15 @@ The most recent reviewed tails remain:
 
 ## Reader changes
 
-Run 1590 reader-facing WIKI changes: **0 intentionally**. With no miner delta, there was nothing new to synthesize into Cast, Relationships, Episodes, Running Gags, Quotes, Locations, or Gallery/media notes.
+Run 1591 reader-facing WIKI changes: **0 intentionally**. With no miner delta, there was nothing new to synthesize into Cast, Relationships, Episodes, Running Gags, Quotes, Locations, or Gallery/media notes.
 
-The latest verified reader therefore remains Run 1589 commit **`8ae75128e192866acee7f5a4cb731a5bb97ca815`**, which carries the Tae ↔ Rummy friendship grammar and Momo's game-withdrawal ↔ continued social/creative-presence contradiction.
+The latest verified reader remains Run 1589 commit **`8ae75128e192866acee7f5a4cb731a5bb97ca815`**, carrying the Tae ↔ Rummy friendship grammar and Momo's game-withdrawal ↔ continued social/creative-presence contradiction.
 
 MAIN likewise received **0 reader-facing prose changes** this run. No biography was padded merely to create activity from a zero-delta census.
 
 ## Verification / deployment
 
-No WIKI reader bytes changed in Run 1590, so no ceremonial rebuild or redeploy was triggered.
+No WIKI reader bytes changed in Run 1591, so no ceremonial rebuild or redeploy was triggered.
 
 The latest verified/deployed WIKI reader remains `8ae75128e192866acee7f5a4cb731a5bb97ca815`:
 
@@ -47,8 +49,8 @@ This integration-state update is reader-neutral and uses skip-CI bookkeeping sem
 
 ## Consumption / MAIN verification debt
 
-There were **no consumed-SHA advances in Run 1590** because no miner branch advanced.
+There were **no consumed-SHA advances in Run 1591** because no miner branch advanced.
 
 Daycare remains reviewed through `cebe1d6f12a29b2e905ae56cb2996faa5ab00c34`, but its contiguous consumed cursor remains `16d9ac845f9375ee2fc67444595673b309235c38` solely because the older MAIN Woosung/Rich reader correction is still verification-gated.
 
-Workflow `35672332827`, **attempt 42**, again failed before any Source + Astro + built-output verification step instantiated; the job returned `steps=null`. This remains runner/startup infrastructure failure rather than a demonstrated source, canon, Astro, or rendered-output failure. The reviewed Daycare tail does not need rereview unless its miner HEAD advances; only the inherited MAIN verifier gate should be retried.
+Workflow `35672332827`, **attempt 43**, again failed before any Source + Astro + built-output verification step instantiated; the failed job returned `steps=null`. This remains runner/startup infrastructure failure rather than a demonstrated source, canon, Astro, or rendered-output failure. The reviewed Daycare tail does not need rereview unless its miner HEAD advances; only the inherited MAIN verifier gate should be retried.
