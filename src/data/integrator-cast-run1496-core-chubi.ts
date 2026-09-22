@@ -6,6 +6,7 @@ import "./integrator-cast-run1521-whiskey-suzi";
 import "./integrator-cast-run1544-whiskey-wolf-phenix";
 import "./integrator-cast-run1566-louvre-nememoka";
 import "./integrator-cast-run1567-core-ren";
+import "./integrator-cast-run1568-louvre-wall";
 import { allCharacters, characterById } from "./cast";
 import type { Character } from "./wiki";
 
