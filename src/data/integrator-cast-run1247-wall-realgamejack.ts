@@ -32,10 +32,9 @@ const upsertRelationship = (
 
 // Run 1247 banked RealGameJack after one tiny social axis. The Run 1248 Wall
 // tail supplies a materially different second axis: Jack actively recruits Mugen
-// to file his own material and keeps pushing the filing through. A committed
-// dossier may already have promoted Jack before this overlay executes, so deepen
-// that canonical owner when present and only create the compact fallback when it
-// truly does not exist.
+// to file his own material and keeps pushing the filing through. Later Wall
+// review adds repeat support for the media-first/context-matching side of the
+// same person instead of creating another receipt-shaped dossier.
 const jackId = "realgamejack";
 const jackIndex = allCharacters.findIndex((character) => character.id === jackId);
 
@@ -53,7 +52,7 @@ const jackMugenRelationship = {
 };
 
 const jackClaims = [
-  "Jack's surviving Wall presence now has two different social modes instead of one thin media footprint. He can use reaction media as most of the sentence and still become oddly specific when another person's taste is involved.",
+  "Jack's Wall register is tiny in prose but unusually good at letting reaction media do the sentence. The Eighty-Six/Frederica post draws Daya's `luv this anime` and Jack's `I knew you did`; four days later he contributes exactly `:SmileDog:` inside a GIF/emote pocket; on December 1 he is in the `Kermitslap` reaction membership on Daya's `last few coins` line and drops a coin/money Tenor 78 seconds later. The repeat pattern is contextual meme timing, not random media spam.",
   "On January 9-10, 2022, Jack actively self-files: he asks Mugen to post something for him, posts the image himself after Mugen agrees, then keeps escalating the request with `post it`, `Why not`, and `I don't care post it`. The joke is not embarrassment happening to him; he is trying to get the paperwork processed.",
   "On January 19, after Mugen posts another image, Jack calls it `Probably the best post on the hall of shame`. He is not merely a Wall defendant. He is an enthusiastic consumer of the institution and, when necessary, his own filing clerk.",
 ];
@@ -61,6 +60,7 @@ const jackClaims = [
 const jackAntiFanon = [
   "The screenshots in Jack's self-filing packet were not visually inspected. The public character read comes from Jack's authored request/escalation and Mugen's authored response; do not infer screenshot subject, maker, capturer, or featured people from adjacency.",
   "Daya's `luv this anime` is a direct reply to Jack's Eighty-Six/Frederica post. Jack's later `I knew you did` is contextual rather than a structured reply edge, so keep the remembered-taste read proportionate.",
+  "The December 1 coin-drop beat is strong contextual uptake, not a structured Reply edge: Jack is preserved in the parent line's final reaction membership and posts the matching money/coin Tenor 78 seconds later. Keep it as repeat support for his scene-reading style, not a hard dyadic reply claim.",
   "Jack asking Mugen to post material shows familiarity with the Wall ritual. It does not establish staff authority, formal role hierarchy, romance, family, or a closeness rank.",
 ];
 
@@ -84,6 +84,7 @@ if (jackIndex >= 0) {
     quotes: unique([
       ...(currentJack.quotes ?? []),
       "I knew you did",
+      ":SmileDog:",
       "post it",
       "I don't care post it",
       "Probably the best post on the hall of shame",
@@ -101,7 +102,7 @@ if (jackIndex >= 0) {
     role: "Archive-era Wall cast",
     era: "2022",
     logline:
-      "Sparse with words but not shy about steering the bit: Jack can remember one friend's anime taste, recruit Mugen to post his own material, and then keep asking why the filing has not happened yet.",
+      "Sparse with words but not shy about steering the bit: Jack can remember one friend's anime taste, answer the room with a perfectly timed reaction image, recruit Mugen to post his own material, and then keep asking why the filing has not happened yet.",
     tags: [
       "Archive cast",
       "2022",
@@ -114,6 +115,7 @@ if (jackIndex >= 0) {
     relationships: [jackDayaRelationship, jackMugenRelationship],
     quotes: [
       "I knew you did",
+      ":SmileDog:",
       "post it",
       "I don't care post it",
       "Probably the best post on the hall of shame",
