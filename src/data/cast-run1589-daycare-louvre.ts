@@ -49,14 +49,6 @@ export function applyRun1589DaycareLouvreCast(
       (character as ArchiveCharacter).stableDiscordIds?.includes(momoStableId),
   );
   const previousMomo = momoIndex >= 0 ? (characters[momoIndex] as ArchiveCharacter) : undefined;
-  const momoRelationships = [...(previousMomo?.relationships ?? [])] as Relationship[];
-
-  mergeRelationship(momoRelationships, {
-    name: "Mia",
-    note:
-      "When Mia asks in April 2023 whether Momo still has Raja, Momo answers plainly that she deleted it the previous year because she was burnt out and the person running her account had quit too. The exchange is easy shared-game-history conversation; it supports local familiarity, not a closeness rank or any inference about who had been running Momo's account.",
-    href: "/characters/mia",
-  });
 
   const momo: ArchiveCharacter = {
     ...(previousMomo ?? {}),
@@ -76,7 +68,7 @@ export function applyRun1589DaycareLouvreCast(
       "Creative rooms",
     ]),
     stableDiscordIds: unique([...(previousMomo?.stableDiscordIds ?? []), momoStableId]),
-    relationships: momoRelationships,
+    relationships: [...(previousMomo?.relationships ?? [])],
     quotes: unique([
       ...(previousMomo?.quotes ?? []),
       "I used too but last year I deleted it. Was burnt out and the one running my account quit too.",
@@ -94,6 +86,7 @@ export function applyRun1589DaycareLouvreCast(
       "`the one running my account` does not safely identify that person, their relationship to Momo, or the terms of the arrangement.",
       "Later assigned-corpus presence does not prove continuous attendance between every surviving row.",
       "AI-render/filter complaints are not biometric or appearance evidence, and media-bearing rows do not by themselves establish MADE BY, CAPTURED BY, or visual FEATURING.",
+      "The cumulative creative-room handoff renders Momo's April 2023 interlocutor as `Mia`, but this patch does not use that display label to bridge or reopen Mia/Mimi/Opalite identity custody. Resolved public identity corrections remain controlling.",
     ]),
   };
 
