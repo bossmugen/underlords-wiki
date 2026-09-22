@@ -49,18 +49,21 @@ allCharacters[yochanIndex] = {
   quotes: appendUnique(yochan.quotes, [
     "Yeee speak for yourself oink oink",
     "@~Candy~ oink oink",
+    "i see babi=piggy🐷",
     "Maybe from this🤣 🤣",
     "From server sea🤣 🤣",
     "But idk how to paste to raja global😂 😂",
   ]),
   claims: appendUnique(yochan.claims, [
     "Across the 2021 Wall shard, YoChan repeatedly uses compact reaction-language (`👀`, `🤣`) but becomes explicit when a receipt needs context: on August 10 the sequence is screenshot post → `From server sea` 15.141 seconds later → cross-server paste problem 35.963 seconds after that.",
+    "On July 4, 2021, YoChan drops `i see babi=piggy🐷` into a live wordplay pocket and follows it with a smug-cat emote. It fits the same compact social style as the one-line `oink oink` teasing elsewhere: tiny joke, tiny flourish, then back to the gallery.",
     "On January 8, 2023, YoChan authors `Yeee speak for yourself oink oink` as a direct reply to Mugen's gym/`fatsos` tease; the adjacent `WOW` belongs to Fenrir and must not be transferred to YoChan.",
     "Separate reply-ledger joins recover Wall overlap with Mugen, Erys, Gilli, and Bailey_Babe. Those edges establish interaction, not a closeness or popularity ranking.",
     "Recurring reactions on Mugen's dog-sniper and raptor posts, plus participation in the catgirl pocket, deepen YoChan's low-verbiage reaction-language pattern without assigning ownership of the posted media to YoChan.",
   ]),
   antiFanon: appendUnique(yochan.antiFanon, [
     "Low word count in these scenes is a delivery style, not proof of shyness, introversion, low importance, or low closeness.",
+    "`i see babi=piggy🐷` is tiny wordplay, not a safe basis for inferring YoChan's nationality, language background, or ethnicity.",
     "`From server sea` is YoChan's own provenance wording about the posted receipt; it does not independently establish who made or captured the image or who appears in it.",
     "The bounded reply-ledger audit is topology metadata only. Zero recovered joke-label positives across the audited YoChan-authored parents is not a popularity, intimacy, or personality statistic.",
     "Reactions and replies do not establish who made, captured, or appears in somebody else's Wall media. Keep SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING distinct.",
