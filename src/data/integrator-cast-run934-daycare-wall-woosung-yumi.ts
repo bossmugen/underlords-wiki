@@ -22,7 +22,13 @@ if (woosungIndex < 0) {
 }
 
 const woosung = allCharacters[woosungIndex] as ExtendedCharacter;
-const woosungRelationships = [...(woosung.relationships ?? [])];
+const woosungRelationships = [...(woosung.relationships ?? [])].filter(
+  (relationship) =>
+    !(
+      relationship.name === "Ricochet" &&
+      /OMG NO WHY WOULD U|head[- ]?pat|pat-head|March 2023 Wall poke/i.test(relationship.note)
+    ),
+);
 
 upsertRelationship(woosungRelationships, {
   name: "Moon",
@@ -42,16 +48,23 @@ upsertRelationship(woosungRelationships, {
     "Before Daycare becomes the main surviving room for WOO, Anthos is already inside the shared-bit grammar: Woosung participates in an `eli kill @Anthos` action-command pocket, and Anthos later quotes WOO's `cool i exist` back at her with `@WOO lmao`. The callback matters more than the bot counter; Anthos noticed the line and knew it was funny enough to return.",
   href: "/characters/anthos",
 });
+upsertRelationship(woosungRelationships, {
+  name: "Rich",
+  note:
+    "When Woosung protests a March 30 Wall filing with `OMG NO WHY WOULD U`, Rich answers her exact message with a pat-head GIF. The beat lands as teasing followed immediately by a tiny softener; Rich, not Ricochet, is the person across from WOO in this exchange.",
+  href: "/characters/rich",
+});
 
 allCharacters[woosungIndex] = {
   ...woosung,
   logline:
-    "Former ScarletMoon leader, VIP and permanent Platelet whose humor works by compression: Woosung can introduce herself with `Hi Woosung.....idk what else`, announce `cool i exist`, and still become conspicuous enough that Moon answers her Hall-of-Shame self-censorship plan with `No no you famous uwu.` Understatement is the baseline; give WOO a shared bit, a target, or one remembered line and the tiny sentence suddenly owns the room.",
+    "Former ScarletMoon leader, VIP and permanent Platelet whose humor works by compression: Woosung can introduce herself with `Hi Woosung.....idk what else`, announce `cool i exist`, file a screenshot into the Wall herself, and still become conspicuous enough that Moon answers her Hall-of-Shame self-censorship plan with `No no you famous uwu.` Understatement is the baseline; give WOO a shared bit, a target, or one remembered line and the tiny sentence suddenly owns the room.",
   tags: unique([
     ...(woosung.tags ?? []),
     "Dry understatement",
     "Compressed humor",
     "Receipt magnet",
+    "Occasional receipt filer",
     "Self-aware Wall reputation",
     "Petty Crimes",
   ]),
@@ -62,24 +75,83 @@ allCharacters[woosungIndex] = {
     "cool i exist",
     "NOBU",
     "TRAITOR",
+    "OMG NO WHY WOULD U",
     "I need to not talk sm I got so much stuff on the hall of shame",
   ]),
   claims: unique([
-    ...(woosung.claims ?? []),
+    ...(woosung.claims ?? []).filter(
+      (claim) =>
+        !/2023-03-30 Ricochet \/ dragonrichard tags WOO|structured reply chain identifies Ricochet as WOO's counterpart/i.test(
+          claim,
+        ),
+    ),
     "The reviewed Daycare people ledger gives stable account 454708201615523871 a substantial direct-room footprint: 856 authored Daycare messages from 2021-08-03 through 2023-05-29. Supporting Lobby, Club-Only, and Wall scenes are used to deepen that already-anchored person rather than substitute for the Daycare body.",
     "Woosung's surviving self-presentation is strikingly economical: `Hi Woosung.....idk what else` in July 2020 and `cool i exist` a month later. Anthos later quotes the second line back at WOO, turning the dry self-minimization into an explicitly noticed room joke.",
     "By March 2023 the same compressed style can produce communal theater with almost no prose: `NOBU` / `TRAITOR` draws a multi-person reaction stack, and a later Nobu/Xuseio screenshot gets WOO's stare emoji plus `nobu`. The screenshot pixels remain uninspected; the public read comes from wording, timing, callback and reception.",
-    "On April 9, 2023, Woosung says she should talk less because she has `so much stuff on the hall of shame`; Moon directly replies `No no you famous uwu`, and WOO answers with cry/skull reactions. The useful contradiction is understated self-presentation versus highly visible social consequences, with WOO self-aware enough to participate in the reputation instead of merely suffering it.",
+    "On March 28, 2023, WOO posts a screenshot attachment into Wall and gets eight `Fat_Wheeze` reactions. Two days later she is on the receiving end, protests `OMG NO WHY WOULD U`, and Rich answers that exact message with a pat-head GIF. By April 9 WOO says she should talk less because she has `so much stuff on the hall of shame`; Moon directly replies `No no you famous uwu`, and WOO answers with cry/skull reactions. The useful contradiction is filer and defendant at once: she can help feed Screenshot Court and still be genuinely theatrical when court turns back on her.",
   ]),
   antiFanon: unique([
-    ...(woosung.antiFanon ?? []),
+    ...(woosung.antiFanon ?? []).filter(
+      (claim) =>
+        !/March 30, 2023.*with Ricochet|exchange is with Ricochet|not Rich \/ DragonRich/i.test(claim),
+    ),
     "The Nobu/Xuseio Wall attachment remains visually uninspected. POSTED BY Nobu/Xuseio does not establish what Nobu allegedly did, who made or captured the image, or who appears in it.",
+    "WOO is POSTED BY for the March 28 screenshot attachment. That does not establish that she made it, captured it, or appears in it.",
     "Woosung and Anthos's Eli action-command pocket is bot/social ritual, not literal violence and not a quantitative measure of intimacy.",
     "Moon's `famous` tease and Woosung's Hall-of-Shame line describe in-room reputation, not formal status, popularity ranking, or governance.",
+    "Rich / DragonRich and Ricochet are separate canonical people. The March 30 `OMG NO WHY WOULD U` → pat-head exchange belongs to Rich; do not reassign it to Ricochet because an older handoff conflated the names.",
     "The Eli action-response stream can be localized to exported tombstone ID 456226577798135808 across reviewed feed/kill actions, but the historical account/handler identity remains unresolved and is not collapsed into a person.",
   ]),
 } as ExtendedCharacter;
 characterById.set("woosung", allCharacters[woosungIndex]);
+
+const ricochetIndex = allCharacters.findIndex((character) => character.id === "ricochet");
+if (ricochetIndex >= 0) {
+  const ricochet = allCharacters[ricochetIndex] as ExtendedCharacter;
+  const ricochetRelationships = [...(ricochet.relationships ?? [])].filter(
+    (relationship) =>
+      !(
+        relationship.name === "Woosung" &&
+        /OMG NO WHY WOULD U|head[- ]?pat|pat-head|March 2023 Wall poke/i.test(relationship.note)
+      ),
+  );
+  allCharacters[ricochetIndex] = {
+    ...ricochet,
+    relationships: ricochetRelationships,
+    claims: (ricochet.claims ?? []).filter(
+      (claim) =>
+        !/2023-03-30 Ricochet \/ dragonrichard authored|WOO TRUE-replied `OMG NO WHY WOULD U`/i.test(claim),
+    ),
+    antiFanon: unique([
+      ...(ricochet.antiFanon ?? []).filter(
+        (claim) => !/March 30 Wall exchange belongs to Ricochet|not Rich \/ DragonRich/i.test(claim),
+      ),
+      "Rich / DragonRich and Ricochet remain separate canonical people. The March 30, 2023 WOO pat-head exchange belongs to Rich and is intentionally excluded from Ricochet's dossier.",
+    ]),
+  } as ExtendedCharacter;
+  characterById.set("ricochet", allCharacters[ricochetIndex]);
+}
+
+const richIndex = allCharacters.findIndex((character) => character.id === "rich");
+if (richIndex >= 0) {
+  const rich = allCharacters[richIndex] as ExtendedCharacter;
+  const richRelationships = [...(rich.relationships ?? [])];
+  upsertRelationship(richRelationships, {
+    name: "Woosung",
+    note:
+      "Woosung's `OMG NO WHY WOULD U` protest gets an immediate pat-head GIF from Rich. It is a compact tease-and-soften beat, and the stable identity rail keeps this Rich / DragonRich rather than Ricochet.",
+    href: "/characters/woosung",
+  });
+  allCharacters[richIndex] = {
+    ...rich,
+    relationships: richRelationships,
+    claims: unique([
+      ...(rich.claims ?? []),
+      "On March 30, 2023, Rich / DragonRich answers Woosung's `OMG NO WHY WOULD U` with a pat-head GIF. The exchange belongs to Rich, not Ricochet; the two remain separate canonical people.",
+    ]),
+  } as ExtendedCharacter;
+  characterById.set("rich", allCharacters[richIndex]);
+}
 
 const yumiIndex = allCharacters.findIndex((character) => character.id === "yumi");
 if (yumiIndex < 0) {
