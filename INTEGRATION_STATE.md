@@ -1,8 +1,25 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-22 — Run 1600 close_
+_Last updated: 2026-09-22 — Run 1601 close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` remains the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
+
+## Run 1601 — census / current queue
+
+The mandatory opening and closing censuses both found **51 tracked miner identities = 30 active refs + 21 historical/missing**, with **0 newly discovered refs, 0 unread pending-review branches, 2 reviewed branches pending MAIN verification, 9 older reviewed `pending_publication` families, 0 backlog, and 0 overdue**. All 30 active miner HEADs remained unchanged from the Run 1600 frontier, so there were **0 intake deltas to reread, 0 genuinely new findings, 0 duplicate-family changes, 0 conflict/rabbit movement, and 0 consumed-SHA advances**. Both Club-Only recovery lanes remain current.
+
+**MAIN reader-facing changes: 0. WIKI reader-facing changes: 0.** No reader rebuild/redeploy was triggered because reader bytes did not change. WIKI's latest verified/deployed reader remains the Run 1600 corrective frontier `6ab51a05f458d8d526e332af9b098da766e149c8`, with Build `35742425988` and Pages/Preview `35742426038` green.
+
+Inherited MAIN verification debt was retried without rereading intake:
+
+- Core Rooms / Events workflow `35727743323` reached **attempt 10** and again completed failure with `steps=null`; the Source + Astro + built-output suite never instantiated.
+- Daycare workflow `35672332827` accepted the rerun request but remained **startup_failure at attempt 50 with no jobs/steps instantiated**.
+
+Neither is a demonstrated source, canon, Astro, or built-output failure. Core remains reviewed through `72d2932b59ff7fe68ee9aab032542c3cfeed40c3`, consumed only through `e0d32f57ccbfb9433eac730ffd0e6786a0054b3d`. Daycare remains reviewed through `6339e9c3f2ef9ae9b55d4ed6c5bae44e806cfa21`, consumed only through `16d9ac845f9375ee2fc67444595673b309235c38`. No intake should be reread unless a miner HEAD advances.
+
+Held rails remain unchanged: Mia and Mimi remain separate; same display names do not bridge stable IDs; the Whiskey Cele collision remains unresolved; the Zhēnxī stable-ID conflict remains unresolved; Nobukatsu is not merged into canonical Nobu without an explicit bridge; joke-family/romance/role language stays nonliteral without support; earliest surviving remains different from origin; SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct; grasshopper true origin, RH-16, and other held identity/provenance rabbits remain unresolved rather than guessed into canon.
+
+---
 
 ## Run 1600 — census / current queue
 
