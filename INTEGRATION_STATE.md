@@ -1,8 +1,53 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-22 — Run 1602 close_
+_Last updated: 2026-09-22 — Run 1603 close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` remains the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
+
+## Run 1603 — census / current queue
+
+The mandatory census closed at **51 tracked miner identities = 30 active refs + 21 historical/missing**, with **0 newly discovered refs, 0 unread pending-review branches, 2 reviewed branches pending MAIN verification, 9 older reviewed `pending_publication` families, 0 backlog, and 0 overdue**. Both Club-Only recovery lanes remain current.
+
+Three active miner lanes advanced and were reviewed checkpoint-first from changed `archive-intake/*` handoffs only: Wall `d13ba0116859c2ef50b06e2104fb38602a17c457 → f6b1efe9cb1d2b51751b39170596508794305e28`, Daycare `6339e9c3f2ef9ae9b55d4ed6c5bae44e806cfa21 → ab53598ae783e5aa66f4ef1741848c05eb7609b6`, and Louvre / AI Art / Athenaeum / Other Games `1c4e3ab78591c25743b721cfb4e2aa6ddb9b6449 → c03f4be916129478be2e7797416e9e8a0ed884d8`.
+
+### WIKI reader changes
+
+Run 1603 integrated three person-shaped deepeners through the canonical cast pipeline rather than appending receipt reports:
+
+- **Noether / `noether88` / stable `690373720665096193`**: laughter-first shared-bit recycler, mock-context pleader, and wording escalator. The useful axis is fast uptake → mutation: Anayss supplies `Unsugar hami`; Noether turns it into `Unsugar hamihami`, later generalizes the vocabulary to `Unsugared snow` / `unsugar boiii`, and can still go unexpectedly soft over one polite syllable in `He said plz so cute`. `unsugar` coinage is **not** credited to Noether; true origin remains open. The HamitteY lane is bounded teasing/callback fluency, not romance, family, hierarchy, or a closeness ranking.
+- **Woosung / WOO / stable `454708201615523871`**: the April 2020 Snow boredom duel deepens WOO beyond compact Wall reactions. `Are u bored yet` becomes an hour of `How about now` / `Now?` / GIF tactics while Snow keeps answering with escalating refusals and reactions. The cumulative read is determined nuisance ↔ connection-seeking regular, with Snow as a willing sparring partner. Mundane Petty Crimes added: `my hair is a mess`, wishing her hair would stay neat after a Waifu pat, and wanting a K-pop game.
+- **TonyTonyChopper / stable `851264843306631168`**: concurrent Run 1603 reconciliation sharpened Tony into theatrical defendant ↔ retaliatory filer. Marian/Panda can file Tony twice and get immediate `STOPPPP` / `NO` / `STOP` / `DONT SHOW THEM`; Tony later reverses the receipt direction and files Marian back. Their lane is reciprocal receipt-war / mock-privacy theater, with screenshot provenance still bounded to POSTED BY unless separately resolved.
+
+The final reconciled WIKI reader frontier is **`49d3c06b1c1a5eac84c6d01e9f29b4643f56643c`**. Verification and deployment are green:
+
+- Build Underlords Wiki `35749147998`: **success**.
+- Deploy Underlords Wiki Preview / Pages `35749147947`: **success through Pages deployment**.
+
+### No-reader-change review
+
+The Louvre Angie / STUNNAGIRLdaughter handoff was a source-custody correction, not a personality disproof. The broader `personally stranded ↔ socially useful` read remains valid under Lobby / Club Only receipts, but the assigned Athenaeum B+ route is quarantined until Angie's three direct Athenaeum rows are recovered. No WIKI reader change was warranted.
+
+Daycare RH-16 also advanced without becoming reader lore: Mugen's 2022 `(word chain bot^)` establishes that a word-chain bot existed in that period. The adjacent `Deleted User` object remains the pooled exporter surrogate and cannot recover a unique bot identity; no bridge is made to the separate 2023 `Approx 279 hours` failure.
+
+### MAIN verification debt / consumption
+
+**MAIN reader-facing changes this run: 0.** No MAIN deployment is claimed. The inherited gates were retried:
+
+- Daycare workflow `35672332827` remained `startup_failure` with **zero jobs** instantiated.
+- Core Rooms / Events workflow `35727743323` reached **attempt 12** and again failed with the verification job returning `steps=null`; Source + Astro + built-output verification never instantiated.
+
+Neither result demonstrates a source, canon, Astro, or built-output failure.
+
+Consumption / review frontiers after Run 1603:
+
+- Wall reviewed and consumed through `f6b1efe9cb1d2b51751b39170596508794305e28`.
+- Louvre reviewed and consumed through `c03f4be916129478be2e7797416e9e8a0ed884d8`.
+- Daycare reviewed through `ab53598ae783e5aa66f4ef1741848c05eb7609b6`; contiguous consumed cursor remains `16d9ac845f9375ee2fc67444595673b309235c38` behind the older accepted MAIN Woosung→Rich/DragonRich verification debt. Do not reread through `ab53598` unless the miner advances.
+- Core Rooms / Events remains reviewed through `72d2932b59ff7fe68ee9aab032542c3cfeed40c3`, consumed only through `e0d32f57ccbfb9433eac730ffd0e6786a0054b3d` behind inherited MAIN verification debt.
+
+Held rails remain held: Mia and Mimi are separate; Opalite belongs to Mimi. Same display names do not bridge stable IDs. The Whiskey Cele collision and Zhēnxī stable-ID conflict remain unresolved. Nobukatsu is not canonical Nobu without an explicit bridge. Joke-family/romance/role language stays nonliteral without support. Earliest surviving remains different from origin. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct. Grasshopper true origin remains unresolved. `unsugar` true origin remains open. RH-16 now knows a 2022 word-chain bot existed, but bot identity and the 2023-failure bridge remain unresolved.
+
+---
 
 ## Run 1602 — census / current queue
 
