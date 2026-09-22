@@ -10,49 +10,45 @@ The mandatory census closes at **51 tracked miner identities = 30 active refs + 
 
 Run 1600 reviewed two advanced intake lanes checkpoint-first from changed `archive-intake/*` handoffs only: Wall `21c8d18038730c2ecaf0b51437044fb0c570c763 → d13ba0116859c2ef50b06e2104fb38602a17c457` and Daycare `76cbcf8c9d156106651d1e143da31f878135f7b4 → 6339e9c3f2ef9ae9b55d4ed6c5bae44e806cfa21`. Closing branch checks left both heads pinned there and found no additional miner mover.
 
-## Run 1600 — reviewed character gains
+## Run 1600 — reconciliation
 
-### Moon / `Moon久方` — held from public owner merge
+### Wall — Moon packet
 
-Stable account `646026925760053258` repeatedly appears in July 2020 Wall exchanges where Snow posts Moon-linked images and Moon answers with compact theatrical retaliation: `Snow, you gonna die!!!`, `I am a moon,so i see all`, and `SnOoOoOoOoOw!!!!!!`. The repeated pattern supports a real person-level read: Moon is not merely a passive roast target; her tiny, dramatic replies are part of the mechanism that keeps the Snow↔Moon exposure bit moving.
+The current Wall delta is **duplicate/corroboration, not a new public owner**. Moon's `I am a moon,so i see all`, `Just being a bystander, duhh`, Fruity Pebbles dodge, explicit `too mean` brake, `single brain cell` self-joke, and wrong-chat / `-fection` texture are already owned by the existing canonical Moon WIKI deepener. MAIN already carries the broader witness→participant / self-exhibit arc. The Fame material further corroborates Fame as a social-status joke without resolving the exact first Fame moment.
 
-The first Run 1600 implementation attempted to fold this packet into a generic `moon` owner. That was unsafe because the stable-account bridge to any pre-existing canonical WIKI owner was not independently established. A concurrent correction removed the merge before final publication. The material remains reviewed and publishable once a stable owner bridge is resolved; until then, the relationship read stays backstage rather than creating or merging identity by display-name resemblance.
+No new Moon paragraph or dossier overlay was needed. Media in the new packet remains POSTED BY only where maker/capturer/subject attribution is unresolved.
 
-Snow remains supported as **POSTED BY** for the linked Wall images only. `waifu`, fake death-sentence language, and nearby family/prosecution jokes remain theatrical language rather than literal romance, kinship, threats, or governance. July recurrence does not establish the origin of Moon and Snow's dynamic.
+### Daycare — Nobu, Zhēnxī, Mërcy / Nelph
 
-### Nobu / Nobukatsu — held from public owner merge
+Nobu/Xuseio's March 2023 Wall filing / ship-teasing packet is already public in the canonical Nobu owners on both surfaces, including the `Nobu and Gabu sound nice together` pocket and prosecutor-immunity contradiction. No duplicate copy was added.
 
-Stable account `496062267072741376` gives a clean contiguous September 2020 Daycare display-name bridge between `Nobu` and `Nobukatsu`. The best person-shaped contradiction is that Nobu can preserve a receipt and immediately police its retelling: he asks whether people remember what happened in the room yesterday, later says `I have it saved tho`, and then closes the shared callback with `We don't speak of that night`.
+Zhēnxī and Rummy's June 7, 2022 reciprocal `I love you` exchange is likewise already owned by MAIN's Zhēnxī biography as friendship-affection texture. The new Daycare handoff names `Zhēnxī / rhymethero` as stable account `702968421033312275`, while the existing WIKI Zhēnxī dossier currently carries stable ID `521090075023884290`. **No bridge is inferred.** The stable-ID conflict is held unresolved until an explicit identity route resolves it; the already-public relationship text remains intact.
 
-That is useful callback-keeper / selective-memory texture, not evidence of a formal archivist, officer, moderator, or governance role. Halla's participation shows comfortable shared-context familiarity; it does not establish romance, family, hierarchy, or a closeness ranking. The underlying `night` / `shame` contents remain unresolved and must not be reconstructed from the callback alone.
+Mërcy/Koi + Nelph's `Support your local business` cookie bit is cute but too thin to justify a new dossier or relationship axis. It remains supporting/Petty-Crime-scale intake rather than public expansion.
 
-The first Run 1600 implementation also attempted to place this directly into a generic `nobu` owner. The final WIKI keeps that merge removed until a canonical owner bridge is safely established; stable account evidence supports the packet itself, but it does not license merging it into an unrelated same-name owner if one appears elsewhere.
+## Run 1600 — concurrency correction / publication
 
-### Supporting-only Daycare texture
+**MAIN reader-facing changes: 0 intentionally.** The two new deltas either duplicate current public owners or remain identity-held / too thin. No MAIN reader deployment is claimed.
 
-Mërcy/Mercy's exact slash-command `Bites Mërcy, but for real` and the nearby Zhēnxī/Zhenxi `picks up an unconscious Zhēnxī` / `I call dibs on zenxi` material remain supporting relationship/running-gag texture. They are not promoted into romance, possession, or literal event claims. Source seams remain source seams, not absence evidence.
+**WIKI reader-facing changes: 0 net.** A concurrent Run 1600 overlay at `7e4e60bd2fc0200f3b81b3e470943e4ffa8b3665` / `2c244c7b0be157f028f4a6b7922cd58b716dba22` attempted to attach older same-name Moon/Nobu packets directly to generic canonical owners. That was unsafe for Nobu in particular: the overlay merged stable account `496062267072741376` / `Nobukatsu` into the canonical `Nobu` owner even though the current hard identity lock is Nobu = Xuseio and no bridge from that 2020 account was established in the selected delta. The overlay was removed in the fast-forward corrective commit **`6ab51a05f458d8d526e332af9b098da766e149c8`** rather than allowed to become canon by name resemblance.
 
-## Run 1600 — publication / verification
-
-**MAIN reader-facing changes: 0 intentionally.** Moon and Nobu each have a real narrow pattern, but neither has enough safely bridged breadth to justify a rich MAIN biography addition. No MAIN reader deployment is claimed.
-
-**WIKI reader-facing changes: 0 net.** An initial Run 1600 Cast overlay was wired at `2c244c7b0be157f028f4a6b7922cd58b716dba22`, then a concurrency-safe correction at **`6ab51a05f458d8d526e332af9b098da766e149c8`** removed the unsafe identity-owner merges. The corrected current reader frontier is green and deployed:
+The corrected WIKI reader frontier is green and deployed:
 
 - Build Underlords Wiki `35742425988`: **success**.
 - Deploy Underlords Wiki Preview `35742426038`: **success through Pages deployment**.
 
-The superseded `2c244c7b...` Pages run was cancelled after a successful deploy step when the corrective commit advanced `main`; it is not the final reader frontier and is not treated as publication authority.
+The later WIKI state-only commits are `[skip ci]` and do not alter reader bytes.
 
 MAIN verification debt was retried rather than widened:
 
-- Daycare workflow `35672332827`, attempt **53**: startup/runner failure before usable verification steps instantiated.
-- Core Rooms / Events workflow `35727743323`, attempt **7**: the same startup-shaped failure pattern.
+- Daycare workflow `35672332827`, attempt **50**: **startup_failure** before any jobs/steps instantiated.
+- Core Rooms / Events workflow `35727743323`, attempt **9**: verification job completed failure with `steps=null`; Source + Astro + built-output checks never instantiated.
 
 Neither is a demonstrated source, Astro, or built-output failure.
 
 ## Run 1600 — consumption / review frontiers
 
-- **Wall** is reviewed through `d13ba0116859c2ef50b06e2104fb38602a17c457`. The delta is consumed as a successful reviewed/no-public-change packet because the person texture is useful but the public owner bridge is not yet safe; do not reread it unless the miner advances.
+- **Wall** is reviewed and consumed through `d13ba0116859c2ef50b06e2104fb38602a17c457` as a successful duplicate/corroboration review. Do not reread unless the miner advances.
 - **Daycare** is reviewed through `6339e9c3f2ef9ae9b55d4ed6c5bae44e806cfa21`. Its contiguous consumed cursor remains `16d9ac845f9375ee2fc67444595673b309235c38` behind the inherited accepted MAIN Woosung→Rich/DragonRich correction. Do not reread through `6339e9c` unless the miner advances; the remaining debt is verification, not interpretation.
 - **Core Rooms / Events** remains reviewed through `72d2932b59ff7fe68ee9aab032542c3cfeed40c3`, consumed only through `e0d32f57ccbfb9433eac730ffd0e6786a0054b3d` behind inherited MAIN verification debt.
 - **Louvre** remains reviewed/consumed through `1c4e3ab78591c25743b721cfb4e2aa6ddb9b6449`.
@@ -61,7 +57,7 @@ Neither is a demonstrated source, Astro, or built-output failure.
 
 ## Rails carried forward
 
-Mia and Mimi remain separate; Opalite belongs to Mimi. The Whiskey Cele packet remains unbridged from the existing WIKI Cele stable ID. The Run 1600 Moon packet is not merged into another Moon by display name alone, and the Nobu packet is not merged into another Nobu by name alone. Joke-family, `waifu`, bite, possession, affection, prosecution, and threat language stay nonliteral where the sources keep them there. Earliest surviving remains different from origin. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct. Grasshopper true origin, RH-16, hidden Daycare `night/shame` contents, and conflicting same-display-name identity cases remain unresolved rather than being guessed into canon.
+Mia and Mimi remain separate; Opalite belongs to Mimi. Same display names do not bridge stable IDs. The Whiskey Cele collision remains unresolved. The new Zhēnxī stable-ID conflict remains unresolved. Nobukatsu is not merged into canonical Nobu without an explicit bridge. Joke-family/romance/role language stays nonliteral without support. Earliest surviving remains different from origin. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct. Grasshopper true origin, RH-16, and other held identity/provenance rabbits remain unresolved rather than guessed into canon.
 
 ---
 
