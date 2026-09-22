@@ -29,6 +29,7 @@ import { applyRun1581RichCast } from "./cast-run1581-rich";
 import { applyRun1581WallHamitteYCast } from "./cast-run1581-wall-hamittey";
 import { applyRun1582WallShiyaVannessCast } from "./cast-run1582-wall-shiya-vanness";
 import { applyRun1583BirthdaysWallCast } from "./cast-run1583-birthdays-wall";
+import { applyRun1584DaycareWhiskeyCast } from "./cast-run1584-daycare-whiskey";
 import type { Character } from "./wiki";
 export type { CastGroup } from "./cast-through-run1514";
 
@@ -61,6 +62,7 @@ applyRun1581RichCast(allCharacters, previousGroups);
 applyRun1581WallHamitteYCast(allCharacters);
 applyRun1582WallShiyaVannessCast(allCharacters);
 applyRun1583BirthdaysWallCast(allCharacters, previousGroups);
+applyRun1584DaycareWhiskeyCast(allCharacters, previousGroups);
 
 export const castGroups = previousGroups;
 export const characterById = new Map(allCharacters.map((character) => [character.id, character]));
