@@ -35,6 +35,7 @@ import { applyRun1589DaycareLouvreCast } from "./cast-run1589-daycare-louvre";
 import { applyRun1592DarkAsraiCast } from "./cast-run1592-darkasrai";
 import { applyRun1592DaycareGhoulieCast } from "./cast-run1592-daycare-ghoulie";
 import { applyRun1594CoreRicochetCast } from "./cast-run1594-core-ricochet";
+import { applyRun1595WallSpicyHishiroCast } from "./cast-run1595-wall-spicy-hishiro";
 import type { Character } from "./wiki";
 export type { CastGroup } from "./cast-through-run1514";
 
@@ -73,6 +74,7 @@ applyRun1589DaycareLouvreCast(allCharacters, previousGroups);
 applyRun1592DarkAsraiCast(allCharacters, previousGroups);
 applyRun1592DaycareGhoulieCast(allCharacters);
 applyRun1594CoreRicochetCast(allCharacters, previousGroups);
+applyRun1595WallSpicyHishiroCast(allCharacters, previousGroups);
 
 export const castGroups = previousGroups;
 export const characterById = new Map(allCharacters.map((character) => [character.id, character]));
