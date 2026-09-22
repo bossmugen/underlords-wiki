@@ -1,60 +1,52 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-22 — Run 1582 close_
+_Last updated: 2026-09-22 — Run 1584 close_
 
-MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` remains the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections are the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies. Historical run-by-run state remains available in Git history; this file is the current handoff snapshot.
+MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies. Historical run-by-run state remains available in Git history; this file is the current handoff snapshot.
 
 ## Census / current queue
 
-The mandatory full census is **51 tracked miner identities = 30 active refs + 21 historical/missing**, with **0 newly discovered refs, 0 unread pending-review branches after close, 1 reviewed branch pending MAIN verification, 9 older reviewed `pending_publication` families, 0 backlog, and 0 overdue**. Both Club-Only recovery lanes remain current.
+The mandatory full census remains **51 tracked miner identities = 30 active refs + 21 historical/missing**, with **0 newly discovered refs, 0 unread pending-review branches after close, 1 reviewed branch pending MAIN verification, 9 older reviewed `pending_publication` families, 0 backlog, and 0 overdue**. Both Club-Only recovery lanes are current.
 
-Run 1582 reviewed one advanced intake delta checkpoint-first and intake-only: **Wall `bc0188ad6a194888ba542076485448f8cd987c04` → `c3c7d19132a0fb15d86b10645e607ee3eeaef4ef`**. The closing miner HEAD remained pinned at `c3c7d1…` after WIKI verification, so the branch is review/publication-closed and may advance consumed through that SHA.
+Run 1584 reviewed four advanced intake deltas checkpoint-first and intake-only:
+
+- Birthdays / PR / VC: `528607899cdf2a36b2c56d55a0286e54c2d217d2` → `bdc6a6e6606792949a53862a16d58765e096e228`
+- Daycare: prior reviewed frontier `bc3bdbb705fe930c2573eaeb446749c043907068` → `e7021e921b809838478a9f876832ea9a894b7116`; the contiguous consumed cursor remains held at `16d9ac845f9375ee2fc67444595673b309235c38` by inherited MAIN verification debt
+- Whiskey: `b7587ecd19df55d643d4eb5c2e70760030a40fc8` → `c36e159dff5ff3a8047cef255e96b6c505247b5d`
+- Wall: `c3c7d19132a0fb15d86b10645e607ee3eeaef4ef` → `d8502bd26ecdadd4781c77cdef5c3f26d683cf9b`
+
+Closing live-head checks found those four miner refs still pinned at the reviewed SHAs.
 
 ## Reader state
 
-Latest verified/deployed WIKI reader commit: **`ccd84aea5d6e7d72aa377ca95e45921aa5d6912b`**.
+Latest verified/deployed WIKI reader commit: **`a43628d36a58eed7d32ec625b5f387b0edc85b45`**.
 
-That reader passed **Build Underlords Wiki `35703875471`** and **Deploy Underlords Wiki Preview / Pages `35703875706`**, including successful Pages deployment.
+That reader passed **Build Underlords Wiki `35707117359`** and **Deploy Underlords Wiki Preview / Pages `35707117272`**, including successful GitHub Pages deployment. The earlier Run 1584 cast reader `9a8c79aadd3402ecc32ec34268d0e65c82d9eae1` also passed its own build/deploy pair before the episode follow-up.
 
-### HamitteY
+### MOMO
 
-The earlier `0010` Wall packet was duplicate/concurrent rather than a new publication family. HamitteY's existing WIKI owner already carries the useful person-shaped read: active Wall participant, replay-humor around the `-7 button`, and somebody who can be laughing too hard at a guide screenshot to catch the fight happening around him. No second receipt paragraph was added.
+MOMO / `miin_mochii`, stable account **`687376846647853107`**, gets the compact half of the Mia relationship instead of being treated like scenery. Mia announces the shared twin bit at fireworks volume; MOMO answers `Mimi's twin`, returns `Love ya 2`, and two days later helps mutate the naming joke herself with `you are both Mimi & Momo.` The useful read is loud herald ↔ quiet reciprocator/coauthor: MOMO's delivery is economical, not passive.
 
-### ShiyaX
+The `twin`, `Mimi`, and `Momo` language remains social/joke-family language, not literal biological kinship or an identity bridge. Attachments in that exchange were not visually inspected, so POSTED BY does not silently become MADE BY / CAPTURED BY / FEATURING.
 
-ShiyaX / `shiyax8994`, stable account **`341219730025349130`**, keeps the existing defendant↔filer Wall spine and gains a better contradiction: the person willing to say `I AM THE CHAOS` also tells everyday chatter `Take it to #🥃💬｜whiskey-room guys` / `get your arse to whiskey`. That is room-literacy and social boundary sense, not Staff authority.
+### whoamii
 
-The dossier also folds in the recurring full-message `:aworryWeirdExit:` stage exit, Ren's `*fatha what's this*` → `Someone else was on my account bbg` mock-alibi exchange, and Shiya's Vanness filing. Six repeated `:aworryWeirdExit:` messages are treated as a comic device, not a health diagnosis. Ren's `fatha` stays joke-family language, not literal kinship.
+`whoamii`, stable account **`407706805918105602`**, now has a structured owner around a repeated lived behavior: navigation as care. Across newcomer guidance and later channel routing, they keep getting people or conversations where they need to go with clear destinations and low-friction language. Twice, a precise Whiskey redirect comes packaged with the same comic shoo/go-away GIF — boundary-setting with clown delivery rather than a clipboard personality.
 
-### Vanness
+Gilli eventually turns whoamii's own `Drink Water/ Eat Food Reminder` identity back on them and tells the reminder to drink/eat; whoamii reacts and answers with a Pikachu-eating GIF. That is a tiny care boomerang/meta-joke, not a health storyline. Repeated room routing also does not establish formal role or appointment chronology from export-current role arrays.
 
-Vanness / `vanness0492`, stable account **`714781719357554718`**, now has a compact structured owner. Their Wall mechanism is wonderfully self-defeating: Vanness files shame material, voluntarily self-reports losing **five orange dracs** in a Dragon Raja merge with `Shame me`, and then, when Shiya points the Wall at them, true-replies almost immediately with **`ITS GABU WHO SUCKED IT DRY, NOT MEEE`**. They understand Screenshot Court perfectly from both the prosecution and defendant chairs.
+### VC → Wall afterlife
 
-That exchange supports bounded adversarial Wall familiarity with ShiyaX, not romance, family, hierarchy, or a closeness ranking. The underlying screenshot was not independently inspected; POSTED BY remains distinct from MADE BY / CAPTURED BY / FEATURING. `Shame @Deleted User` does not resolve a pooled Deleted User identity.
+The December 1, 2021 VC pocket now has a WIKI Episode owner: Sota treats a good VC joke as future Wall material, Ricochet wants the funny moment posted while everybody still remembers it, and Ansun turns the premise into a room-wide warning to be ready for the Wall after VC. The three gestures expose the same social reflex from different angles — audience, artifact, warning label — without pretending this scene invented the Wall or invented VC-to-Wall filing.
+
+### Wall / Bishop / Shame → Fame
+
+The latest BishopThaGuru packet is held from person-level publication because the miner handoff assigns **stable account `362396877502808064`**, while an earlier verified WIKI packet had attached the same display name to **`532544823624810506`**. There is no independently resolved bridge between those IDs. Hard identity safety wins: do not merge them, do not silently overwrite one with the other, and do not invent a second biography unless the archive actually resolves the people.
+
+The same Wall tail further narrows the Shame→Fame chronology and preserves Mugen's room-level explanation that people became too proud of being on the Wall for `shame` to keep working. That is corroboration of the already-public `The Wall Tries Fame` gag, not a new origin certificate. The exact first transition line/date remains unresolved; the exhausted exact-transition route stays DNR unless a new corpus or exact path opens.
 
 ## MAIN verification debt
 
-MAIN reader-facing changes in Run 1582: **0**. ShiyaX already has a structured WIKI owner and Vanness currently has one coherent Wall axis; neither packet improves MAIN enough to justify receipt-shaped biography padding.
+MAIN reader-facing changes in Run 1584: **0**. The new accepted public material belongs naturally to WIKI structured owners / an Episode; none of the packets justify receipt-shaped padding in MAIN biographies.
 
-The inherited Daycare Woosung/Rich correction remains the sole active MAIN verification gate. Workflow `35672332827`, **attempt 30**, again failed before any source/Astro/built-output step instantiated; the verification job returned `steps=null`. This remains the established runner/startup infrastructure failure pattern, not a demonstrated source, canon, Astro, or built-output failure. No MAIN reader deployment is claimed.
-
-Daycare is reviewed through `bc3bdbb705fe930c2573eaeb446749c043907068`, while its contiguous consumed cursor remains `16d9ac845f9375ee2fc67444595673b309235c38`. Do not reread that reviewed tail unless its miner HEAD advances; retry verification instead.
-
-## Current frontiers
-
-- Wall: reviewed / WIKI-verified / consumed through `c3c7d19132a0fb15d86b10645e607ee3eeaef4ef`.
-- Louvre / Other Games: reviewed / WIKI-verified / consumed through `85f39bb2161a251ab164eacad46f303b385bd078`.
-- Whiskey: reviewed / WIKI-verified / consumed through `b7587ecd19df55d643d4eb5c2e70760030a40fc8`.
-- Core Rooms / Events: reviewed through `19cc627879b1942d133d488b03dc2a2f421eaf95`; new antho.logy. material is WIKI-verified, but the branch's contiguous consumed cursor remains `e0d32f57ccbfb9433eac730ffd0e6786a0054b3d` behind older accepted MAIN publication debt.
-- Daycare: reviewed through `bc3bdbb705fe930c2573eaeb446749c043907068`; consumed remains `16d9ac845f9375ee2fc67444595673b309235c38` pending successful MAIN verification.
-- Birthdays / PR / VC: reviewed / consumed through `528607899cdf2a36b2c56d55a0286e54c2d217d2`.
-- Club-Only 2021–2026: consumed through `e45fb11c9239e236231bb65645dfd0285bc0078b`.
-- Club-Only 2020: consumed through `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`.
-
-## Held rails / rabbits
-
-The exact historical transition from Wall `shame` framing into later `fame` framing remains unresolved. ShiyaX's in-scene Fame language is character texture, not permission to declare the first Fame moment. Core's older accepted MAIN publication debt remains held rather than skipped. Daycare RH-16 remains unresolved. Torr's stable-ID collision remains unresolved. WOO strict practical-help remains open. Grasshopper true origin remains open outside the DNR exact-text route. Snow `fury/furry/nyah` stays DNR until source state changes. Mimi remains distinct from Mia. Stable account `459696170759880745` is canonical Ricochet / Rich; the separate Woosung/WOO Rich / DragonRich actor remains distinct unless independently bridged. Media provenance stays source-bounded; SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct. Role arrays are not appointment chronology, earliest surviving is not guaranteed origin, similar names are not identity bridges, and joke family/romance/governance language stays nonliteral unless separately supported.
-
-## Durable Run 1582 handoff
-
-MAIN persisted the full census before deep review. WIKI then folded the genuinely additive Wall material into canonical owners without duplicating the concurrent HamitteY packet. WIKI reader verification/deployment belongs to `ccd84aea5d6e7d72aa377ca95e45921aa5d6912b`; this `INTEGRATION_STATE.md` update is reader-neutral durable state and must not be treated as a new reader frontier.
+The inherited Daycare Woosung/Rich correction remains the sole active MAIN verification gate. Workflow `35672332827`, **attempt 31**, again failed before any source/Astro/built-output verification step instantiated; the job returned `steps=null`. This remains runner/startup infrastructure failure, not a demonstrated source, canon, Astro, or built-output failure. No MAIN reader deployment is claimed.
