@@ -1,14 +1,14 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-21 — Run 1571 close_
+_Last updated: 2026-09-21 — Run 1572 close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies. Historical run-by-run state remains available in Git history; this file is the current handoff snapshot.
 
-## Run 1571 close
+## Run 1572 close
 
 The mandatory full miner census is **51 tracked miner identities = 30 active refs + 21 historical/missing**, with **0 newly discovered refs, 0 unread pending review, 1 reviewed branch pending MAIN verification, 9 reviewed `pending_publication` families, 0 backlog, and 0 overdue**. Both Club-Only recovery lanes remain current.
 
-Opening enumeration found **all 30 active miner heads unchanged from the Run 1570 reviewed frontier**. There were therefore **0 intake deltas, 0 genuinely new findings, 0 duplicate-family changes, and 0 consumed-SHA advances**. No miner handoff was reread and no raw archive was touched.
+Opening enumeration found **all 30 active miner heads unchanged from the Run 1571 reviewed frontier**. There were therefore **0 intake deltas, 0 genuinely new findings, 0 duplicate-family changes, and 0 consumed-SHA advances**. No miner handoff was reread and no raw archive was touched.
 
 ### Public changes
 
@@ -18,7 +18,7 @@ The latest verified/deployed WIKI reader remains **`20f6fcfb1e99d9bed1c25e18d49f
 
 ### MAIN verification gate
 
-The inherited Daycare Woosung/Rich MAIN correction remains the one active verification debt. Workflow `35672332827` was retried again in this run. **Attempt 15 again failed before any source/Astro/built-output verification step instantiated; the latest job reports `steps=null`.** This remains the same runner/startup infrastructure failure pattern rather than a demonstrated source, Astro, built-output, canon, or content failure.
+The inherited Daycare Woosung/Rich MAIN correction remains the one active verification debt. Workflow `35672332827` was retried again in this run. **Attempt 16 again failed before any source/Astro/built-output verification step instantiated; the latest job reports `steps=null`.** This remains the same runner/startup infrastructure failure pattern rather than a demonstrated source, Astro, built-output, canon, or content failure.
 
 Daycare therefore remains reviewed through **`8376cc0332ec30f703866f68e02b4629aeb31db8`**, while the consumed cursor remains **`16d9ac845f9375ee2fc67444595673b309235c38`** until the required MAIN verification actually succeeds. Do not reread the reviewed Daycare tail unless its miner head advances; retry the verifier gate only.
 
