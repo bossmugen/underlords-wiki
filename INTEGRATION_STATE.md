@@ -1,6 +1,6 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-22 — Run 1605 close_
+_Last updated: 2026-09-22 — Run 1605 reconciled close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` remains the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
 
@@ -12,25 +12,30 @@ Four active miner lanes were reviewed checkpoint-first from changed `archive-int
 
 ### WIKI reader changes / reconciliation
 
-The accepted person-shaped material had already landed through concurrent Run 1604 WIKI integration before this finalizer reached publication, so Run 1605 did **not** create duplicate overlays or another receipt-paragraph layer.
+The final verified WIKI reader frontier is **`853c0d0e582e262cdbff9c45b4355425e89fc5a1`**. It includes the earlier concurrent Run 1604 material plus a later Run 1605 cast synthesis wired through `src/data/cast-run1605-integrator.ts` and `src/data/cast.ts`.
 
-The reconciled reader frontier is **`6b5c5525eb06305a922d2e110a5bdd6c0e45362b`**. Its canonical owner pipeline includes:
+The reconciled public person work now includes:
 
 - **Oyasumi** Wall texture from the advanced Wall packet.
 - **Eos ↔ Tae** shared-script teasing: Eos can open with only `tae-`; Tae already knows the accusation and often helps feed the joke. This is high-context social fluency, not romance, literal family, or evidence about uninspected media.
 - **Emi / `erys`, stable `509574963015974932`**, kept as a separate Wall owner from the already-published Erys stable `934054466463739914`. Emi's useful contradiction is theatrical defendant ↔ willing filer ↔ visibly group-attached regular: impossible alibis (`its photoshopped`, `im being hacked`) coexist with filing receipts herself and noticing when everybody has migrated away.
-- **Rummy / `phenomenal_lamb_14960`, stable `717133949457137775`**: exhibit narrator / context courier plus recurring laugh→`*pat pat*` soft landing. The repeated insistence that the footnote travel with the exhibit is a social habit, not a formal archivist, moderator, prosecutor, or evidence appointment.
+- **Rummy / `phenomenal_lamb_14960`, stable `717133949457137775`**: the current Whiskey delta adds exhibit-narrator / context-courier behavior plus recurring laugh→`*pat pat*` soft landings. The later Run 1605 synthesis also folds in already-reviewed practical-helper / troubleshooting / cost-effort-calibration texture. None of this creates a formal archivist, moderator, prosecutor, or governance appointment.
+- **Oyasumi / Wasa, stable `373323529532162051`**, maintained as an account-specific owner rather than merged into another same-name Oyasumi record. The public axis is compact caption-framing, shared-memory callbacks, reciprocal receipt teasing, and visual-reference influence where directly supported.
+- **Erys — `C:\\Users\\Erys>`, stable `752184632629198919`**, maintained separately from both Erys `934054466463739914` and Emi / `erys` `509574963015974932`. The account's recurring command-prompt writing bit, tiny riffs, Snow/Anayss banter, and Rummy check-in are owned without inferring literal arrest, device provenance, or location.
+- **Eos (Daycare account), stable `452353768269234178`**, maintained separately from the existing Eos stable `621021922473410581`. The Tae lane is recurring recommendation, direct check-in, encouragement, and celebration of progress—not romance, literal family, exclusivity, or a relationship ranking.
 
-Verification/deployment for that reader frontier is green:
+Verification/deployment for the final reader frontier is green:
 
-- Build Underlords Wiki `35755296300`: **success**.
-- Deploy Underlords Wiki Preview / Pages `35755296302`: **success through Pages deployment**.
+- Build Underlords Wiki `35756416424`: **success**.
+- Deploy Underlords Wiki Preview / Pages `35756416358`: **success through Pages deployment**.
+
+The later integration-state commits are `[skip ci]` and do not alter reader bytes.
 
 ### No-reader-change review
 
 Louvre's current quarry is exhausted at the available archive boundary and produced no new publishable material. One checkpoint attempted to repair identity as Mia = Mimi = Opalite Honey / `༯`; that repair was rejected against root hard canon. **Mia (`439628808545632256`) and Mimi / Opalite Honey / `༯` (`783389804079349800`) remain distinct people.** Louvre is therefore a correction/no-public-change review and is consumed through current HEAD.
 
-Whiskey's Rummy material was accepted but already owned by the concurrent WIKI synthesis; MAIN already has the richer context-defense biography arc. No mirror paragraph was warranted.
+Whiskey's current Rummy footnote/context packet was accepted and folded into the structured owner; MAIN already has the richer context-defense biography arc, so no mirror paragraph was warranted.
 
 ### MAIN verification debt / consumption
 
@@ -50,7 +55,7 @@ Consumption / review frontiers after Run 1605:
 - Louvre is reviewed and consumed through `f6a40d1a008209684dbea53a4daaea602197fbc5`.
 - Whiskey is reviewed and consumed through `e82db8e2db344992ce0cee4f1dc029c4dff5169c`.
 
-Held rails remain held: Mia and Mimi are separate; Opalite belongs to Mimi. Emi stable `509574963015974932` is not merged with Erys stable `934054466463739914` absent a direct bridge. Same display names do not bridge stable IDs. The Whiskey Cele collision and Zhēnxī stable-ID conflict remain unresolved. Nobukatsu is not canonical Nobu without an explicit bridge. Joke-family/romance/role language stays nonliteral without support. Earliest surviving remains different from origin. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct.
+Held rails remain held: Mia and Mimi are separate; Opalite belongs to Mimi. Same display names do not bridge stable IDs. Emi `509574963015974932`, command-prompt Erys `752184632629198919`, and existing Erys `934054466463739914` remain separate absent a direct bridge. The account-specific Oyasumi/Wasa and Eos records likewise remain distinct from same-name owners without explicit bridges. The Whiskey Cele collision and Zhēnxī stable-ID conflict remain unresolved. Nobukatsu is not canonical Nobu without an explicit bridge. Joke-family/romance/role language stays nonliteral without support. Earliest surviving remains different from origin. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct.
 
 ---
 
