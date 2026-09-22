@@ -1,6 +1,3 @@
-// Side-effect loader: all-content.ts eagerly imports every integrator-episodes*.ts module.
-// This keeps the Run 1578 cast overlay in the canonical reader pipeline without
-// turning the profile material into fake Wiki Episodes.
-import "./integrator-cast-run1578-late-movers";
-
-export const run1578CastLoader = "Shk / antho.logy. / Rosario17-Yazaki";
+// Run 1578 late movers now live in cast-run1578-late.ts and are applied by cast.ts.
+// Keep this eager-glob module inert; it must not import a second side-effect cast overlay.
+export {};
