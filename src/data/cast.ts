@@ -33,6 +33,7 @@ import { applyRun1584DaycareWhiskeyCast } from "./cast-run1584-daycare-whiskey";
 import { applyRun1586DaycareGhosttCast } from "./cast-run1586-daycare-ghostt";
 import { applyRun1589DaycareLouvreCast } from "./cast-run1589-daycare-louvre";
 import { applyRun1592DarkAsraiCast } from "./cast-run1592-darkasrai";
+import { applyRun1592DaycareGhoulieCast } from "./cast-run1592-daycare-ghoulie";
 import { applyRun1592WallRotiniCast } from "./cast-run1592-wall-rotini";
 import type { Character } from "./wiki";
 export type { CastGroup } from "./cast-through-run1514";
@@ -70,6 +71,7 @@ applyRun1584DaycareWhiskeyCast(allCharacters, previousGroups);
 applyRun1586DaycareGhosttCast(allCharacters, previousGroups);
 applyRun1589DaycareLouvreCast(allCharacters, previousGroups);
 applyRun1592DarkAsraiCast(allCharacters, previousGroups);
+applyRun1592DaycareGhoulieCast(allCharacters);
 applyRun1592WallRotiniCast(allCharacters, previousGroups);
 
 export const castGroups = previousGroups;
