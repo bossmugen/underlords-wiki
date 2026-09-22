@@ -18,7 +18,7 @@ const replaceRelationship = (
   return [...filtered, incoming];
 };
 
-/** Run 1556 Wall + Whiskey: Mr. Streamer and Eos person-first structured texture. */
+/** Run 1556 Wall: Mr. Streamer person-first structured texture. */
 export function applyRun1556IntegratorCast(characters: Character[]): void {
   {
     const stableId = "615878920583249920";
@@ -85,73 +85,10 @@ export function applyRun1556IntegratorCast(characters: Character[]): void {
     else characters.push(incoming);
   }
 
-  {
-    const stableId = "373938708870348813";
-    const index = characters.findIndex(
-      (character) =>
-        character.id === "eos" ||
-        (character as ArchiveCharacter).stableDiscordIds?.includes(stableId),
-    );
-    const previous = index >= 0 ? (characters[index] as ArchiveCharacter) : undefined;
-    let relationships = [...(previous?.relationships ?? [])] as Relationship[];
-    relationships = replaceRelationship(relationships, {
-      name: "Ren",
-      href: "/characters/ren",
-      note:
-        "Ren-context material helps show Eos as somebody who can slide between commentary, casual hanging out, and callback memory without turning every exchange into a punchline. Later context is texture only; it does not backdate names, titles, or roles.",
-    });
-    relationships = replaceRelationship(relationships, {
-      name: "Snow",
-      href: "/characters/snow",
-      note:
-        "Eos will happily turn Snow's photos into a room event — `I SHALL SHARE THE PHOTOS SNOW TOOK OF ME!!` — a neat example of her curation instinct. The line supports the stated Snow-took-these relationship to those photos only; it does not generalize media provenance elsewhere.",
-    });
-
-    const incoming: ArchiveCharacter = {
-      ...(previous ?? {}),
-      id: previous?.id ?? "eos",
-      name: previous?.name ?? "Eos",
-      aliases: unique([...(previous?.aliases ?? [])]),
-      billing: previous?.billing ?? "guest",
-      role: previous?.role ?? "Archive-era cast",
-      era: previous?.era ?? "2020+",
-      logline:
-        "Eos often sounds less like the person trying to win the bit and more like the person framing it so everyone else can see what is funny. She reinterprets references, notices visual details, links current nonsense to older nonsense, shares media when it matters, and then drops small personal opinions into the same current. The result is an editor's instinct without an editor title: she keeps adjusting the room's angle.",
-      tags: unique([
-        ...(previous?.tags ?? []),
-        "Whiskey",
-        "Framing voice",
-        "Media curation",
-        "Callback memory",
-        "Reference interpreter",
-        "Petty Crimes",
-      ]),
-      stableDiscordIds: unique([...(previous?.stableDiscordIds ?? []), stableId]),
-      relationships,
-      quotes: unique([
-        ...(previous?.quotes ?? []),
-        "I actually liked titan aeon in ff10",
-        "I SHALL SHARE THE PHOTOS SNOW TOOK OF ME!!",
-        "im clicking on it but it isnt playing anything",
-        "moon u suck",
-        "Oh my fucking god. Its so old",
-      ]),
-      claims: unique([
-        ...(previous?.claims ?? []),
-        "Stable Discord account 373938708870348813 is the Eos account in the reviewed Whiskey profile slice.",
-        "Across the reviewed authored anchors, Eos repeatedly reframes references/canon, curates or comments on media, links older callbacks to current conversation, and supplies small transition acknowledgements and personal texture. The cumulative read is a framing/editor voice as behavior, not a formal title.",
-        "Eos explicitly says Snow took the specific photos she announces she will share; that source-bounded attribution should not be generalized to other media.",
-      ]),
-      antiFanon: unique([
-        ...(previous?.antiFanon ?? []),
-        "`Framing/editor voice` describes a recurring conversational habit, not an officer, media, editor, or governance appointment.",
-        "Later Ren-context material supports social texture only and must not backdate names, roles, titles, or relationship states.",
-        "Contextual replies do not make Eos the author of surrounding messages, and media discussion does not imply capture or subject identity without explicit support.",
-        "Do not publish the exact age detail from the reviewed profile slice.",
-      ]),
-    };
-
-    if (index >= 0) characters[index] = incoming;
-    else characters.push(incoming);
-  }
+  // Run 1561 identity repair: a Whiskey handoff previously routed stable account
+  // 373938708870348813 into canonical Eos solely through the shared display name.
+  // Canonical Eos / astarosa is stable account 621021922473410581 on both public
+  // surfaces, and no resolved account bridge joins these IDs. The 373... packet is
+  // therefore quarantined rather than merged into Eos. Do not restore its Ren/Snow
+  // relationships, quotes, profile details, or media claims without an explicit bridge.
 }
