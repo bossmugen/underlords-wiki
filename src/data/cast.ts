@@ -39,6 +39,7 @@ import { applyRun1595WallSpicyHishiroCast } from "./cast-run1595-wall-spicy-hish
 import { applyRun1595WhiskeyDyingFoxCast } from "./cast-run1595-whiskey-dyingfox";
 import { applyRun1603IntegratorCast } from "./cast-run1603-integrator";
 import { applyRun1604WallDaycareCast } from "./cast-run1604-wall-daycare";
+import { applyRun1604LateCast } from "./cast-run1604-late";
 import type { Character } from "./wiki";
 export type { CastGroup } from "./cast-through-run1514";
 
@@ -81,6 +82,7 @@ applyRun1595WallSpicyHishiroCast(allCharacters, previousGroups);
 applyRun1595WhiskeyDyingFoxCast(allCharacters, previousGroups);
 applyRun1603IntegratorCast(allCharacters);
 applyRun1604WallDaycareCast(allCharacters);
+applyRun1604LateCast(allCharacters);
 
 export const castGroups = previousGroups;
 export const characterById = new Map(allCharacters.map((character) => [character.id, character]));
