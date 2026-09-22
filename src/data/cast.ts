@@ -23,6 +23,7 @@ import { applyRun1553WhiskeyCast } from "./cast-run1553-whiskey";
 import { applyRun1556IntegratorCast } from "./cast-run1556-integrator";
 import { applyRun1556WallCeleCast } from "./cast-run1556-wall-cele";
 import { applyRun1559IntegratorCast } from "./cast-run1559-integrator";
+import { applyRun1575WallDeanCast } from "./cast-run1575-wall-dean";
 import type { Character } from "./wiki";
 export type { CastGroup } from "./cast-through-run1514";
 
@@ -49,6 +50,7 @@ applyRun1553WhiskeyCast(allCharacters);
 applyRun1556IntegratorCast(allCharacters);
 applyRun1556WallCeleCast(allCharacters);
 applyRun1559IntegratorCast(allCharacters);
+applyRun1575WallDeanCast(allCharacters);
 
 export const castGroups = previousGroups;
 export const characterById = new Map(allCharacters.map((character) => [character.id, character]));
