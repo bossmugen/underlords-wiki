@@ -39,13 +39,15 @@ const next: ExtendedCharacter = {
   role: previous?.role ?? "Louvre creative cast",
   era: previous?.era ?? "2020–2021",
   logline:
-    "NemeMoka can push a project to absurd lengths when the pace is hers—216 layers and two sleepless days absurd—then draw a very clear line when somebody else starts owning the clock. Months later she says she quit an art-shop arrangement because the person running it kept pushing her to draw faster. The useful contradiction is not hard worker versus quitter; it is self-driven excess versus externally controlled pace.",
+    "NemeMoka can push a project to absurd lengths when the pace is hers—216 layers and two sleepless days absurd—then draw a very clear line when somebody else starts owning the clock. Months later she says she quit an art-shop arrangement because the person running it kept pushing her to draw faster. The useful contradiction is not hard worker versus quitter; it is self-driven excess versus externally controlled pace. The same selectiveness shows up in games: useful does not automatically mean wanted, and a banner still has to interest her before she spends herself on it.",
   tags: appendUnique(previous?.tags, [
     "Archive cast",
     "Louvre",
     "Creative process",
     "Design critique",
     "Creative labor",
+    "Genshin Impact",
+    "Selective taste",
     "Petty Crimes",
   ]),
   relationships,
@@ -53,12 +55,15 @@ const next: ExtendedCharacter = {
     "I finished my work in 2 days without sleep with that 216 layers",
     "Done that with games",
     "The shop is made but I quit....since the dude annoys me to draw faster",
+    "Imma hold back till i see a banner that interests me",
+    "Yah. I’m good. With just Ganyu.",
   ]),
   claims: appendUnique(previous?.claims, [
     "Stable account 187521833854173184 is NemeMoka / nememoka in the reviewed Louvre intake, with 121 assigned Louvre messages and 31 media-bearing events from October 2020 through March 2021.",
     "Neme's surviving Louvre material repeatedly puts her inside process rather than merely showing finished objects: early Photoshop/contest workflow and repeated design-opinion requests lead into the later 216-layer sprint and shop-pressure boundary.",
     "On November 10, 2020, Neme describes finishing a 216-layer work in two days without sleep. When Sye tells her she needs sleep, Neme answers `Done that with games`, making self-driven overextension a cross-domain joke/seed rather than an art-only one-off.",
     "On March 3, 2021, Neme says she quit an art-shop arrangement because the person involved kept pushing her to `draw faster`, then notes that they already had a new artist. In combination with the earlier sprint, the strongest cumulative read is that Neme can drive herself extremely hard while resisting somebody else taking ownership of her production pace.",
+    "On June 17, 2021, when Len says the available Genshin characters are very helpful, Neme answers that she will hold back until a banner interests her and later says she is good with just Ganyu. The exchange adds a small but clean taste pattern: she understands usefulness without treating optimization as an obligation, and preference gets the final vote.",
   ]),
   antiFanon: appendUnique(previous?.antiFanon, [
     "The autonomy/pace read is scene-supported and cumulative, not a universal anti-authority or anti-deadline trait. Broader counterexamples can narrow it later.",
@@ -66,6 +71,7 @@ const next: ExtendedCharacter = {
     "Do not identify the art shop, pressure-giver, replacement artist, contract, payment terms, permissions, or ownership beyond what Neme actually says.",
     "Thirty-one media-bearing Louvre events are not thirty-one Neme-made artworks. Preserve POSTED BY / MADE BY / CAPTURED BY / FEATURING separately.",
     "Sye's repeated presence at two visible cost points supports a local care pattern only. It does not establish romance, family, exclusivity, or a ranked friendship claim.",
+    "The June 2021 Genshin exchange supports selective banner taste in that scene; it does not establish a universal anti-meta, no-spend, or anti-optimization identity.",
   ]),
 };
 
