@@ -1,52 +1,67 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-22 — Run 1593 close_
+_Last updated: 2026-09-22 — Run 1594 close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` remains the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
 
 ## Census / current queue
 
-The mandatory full census is **51 tracked miner identities = 30 active refs + 21 historical/missing**, with **0 newly discovered refs, 0 unread pending-review branches, 1 reviewed branch pending inherited MAIN verification, 9 older reviewed `pending_publication` families, 0 backlog, and 0 overdue**. Both Club-Only recovery lanes remain current.
+The mandatory full census remains **51 tracked miner identities = 30 active refs + 21 historical/missing**, with **0 newly discovered refs, 0 unread pending-review branches after review, 1 reviewed branch pending inherited MAIN verification, 9 older reviewed `pending_publication` families, 0 backlog, and 0 overdue**. Both Club-Only recovery lanes remain current.
 
-Run 1593 re-enumerated all 30 active miner refs and compared every current HEAD against the controlling ledger. **No miner branch advanced after Run 1592**, so there was no new `archive-intake/*` delta to reread, no raw archive work, no miner merge, and no new character/publication candidate to manufacture. The latest reviewed frontiers remain Birthdays/PR/VC `163b2d77ad26d77fe41f15b6b3523c0abcb65f85`, Daycare `3f68248fafcc26d5ff3b8b2bdebcc0341e2091f5`, Louvre / AI Art / Other Games `8375bbd4cc1c1f4e9176635ce1d8916cc1b676d2`, and Wall `340ac47f406104bdd225453c386b5146427a87b6`.
+Run 1594 opened with one advanced miner: Whiskey moved `c36e159dff5ff3a8047cef255e96b6c505247b5d` → `d30a4856b7fd09c0e6e89f69affff31e76cd78f7`. It was reviewed checkpoint-first and intake-only. A closing census then caught a late Daycare move `3f68248fafcc26d5ff3b8b2bdebcc0341e2091f5` → `4a903c9ad99e2c0b54de1314951b17dd572bccff`; that delta was also reviewed checkpoint-first before close rather than being left to starve.
 
 ## Reader changes
 
-**Run 1593 reader changes: none.** With no advancing miner delta, MAIN and WIKI both stayed reader-neutral. The latest published reader work remains Run 1592's deliberately narrow person-owned WIKI integration:
+### Anayss — Whiskey recognition runs both directions
 
-- **Rose / DarkAsrai:** stable account `659305268684783628` remains canonical Rose. The new Daycare return beat was folded into that existing owner instead of recreating a separate DarkAsrai dossier: Rose says only `Hi gilli`; Gilli answers `Welcome back rose!` 1.533 seconds later. The useful relationship read is immediate recognition and easy return familiarity, not a closeness ranking.
-- **Baby Lyssa / Ghoulie:** the already user-confirmed identity bridge gains a surviving onboarding-to-room-native progression. Stable account `537786238665621504` presents as `Ghoulie | Ethereal | 18` in March 2021 and by June is comfortable enough with UL's room geography to push an ongoing bit toward Daycare with `PLEASE` / `PLEASEEEEE`. Room fluency is not formal authority.
-- **RotiniLM:** the late Wall tail was reconciled as duplicate/corroboration. It repeats the already-public stable-`531215677978312716` filer↔reluctant-defendant, Sou care, Daya mock-prosecution, and pasta-name-joke family. Two attempted Run 1592 Rotini sidecars — including a later inert deepener — were removed rather than layering another receipt report over the existing dossier.
+Run 1594 adds a deliberately structured WIKI deepener to the existing canonical Anayss owner rather than creating a duplicate person. Stable account `698943572875149342` remains Anayss / `anayss_louvre`.
 
-Birthdays' FAMILY Photoshoot deadline churn adds a small human-maintenance detail to canonical Gabu — moving the scheduler ahead so she would not forget — but the existing WIKI owner already carries the stronger event-maintenance / friction-reduction synthesis, so no duplicate claim paragraph was added. Louvre's correction-only tail produced no new reader owner and preserved the hard Mia ≠ Mimi split with Opalite belonging to Mimi.
+The Whiskey packet adds the reciprocal half of a character pattern already strong on MAIN: Anayss is not only someone who notices and re-legibilizes returners; other regulars visibly register **her** arrival too. Boshek announces `anayss is here` and jokes that `the superior naisu has joined us`; Digital greets her by name, says `pog`, then jokingly credits the room coming alive to her. Anayss accepts the welcome but trims the legend back down with `Thanks mister digital` and `Idk about all that that’s a little much`.
 
-MAIN received **0 reader-facing prose changes intentionally** in Run 1593.
+A second relationship lane is practical rather than ceremonial: Anayss says `someone invite whoamii`, explaining that guard missions are easy to miss. The WIKI owner therefore gains Whiskey-specific Boshek, Digital, and whoamii relationship texture, four compact quotes, the recognition-as-welcome synthesis, and backstage anti-fanon rails. This is ordinary room familiarity, not a formal reminder/moderation duty.
+
+The January 4, 2021 `GRATS ANAYSS` from Gilli is retained only as an unresolved recognition beat. The surviving packet does not identify what she was being congratulated for, so no achievement, appointment, relationship milestone, or origin event was invented.
+
+**MAIN intentionally received 0 reader-facing Anayss prose changes.** Its existing `The Reception Desk` section already owns the richer person-first recognition/welcome synthesis; adding four more receipts there would weaken the biography into an archive ledger. WIKI is the better home for the bounded Whiskey relationships/quotes/reference structure.
+
+Reader commit: **`399198493d3e6fe8e812afcee70732629401f0f5`**.
+
+### Late Daycare review — Moon
+
+The closing census caught one additional reviewed family for Moon / Moon久方 (`646026925760053258`). Four Lobby re-entry scenes from January 2022 through September 2023 produce a strong cumulative contradiction: **the automation repeatedly treats Moon like a newcomer while the humans treat her like somebody who came back**. Moon moves from joking that she may have joined the wrong server, through `What is a ign?` / `My brain is trying hard to process ewe`, to the cleaner continuity line `Not new ,just things happens`, and finally self-describes as a `returning UL member` after temporarily quitting Raja. Six familiar-person reactions, Ren's `Thas alright UwU`, and Oyasumi's `MOOOOON` support human recognition without implying a closeness rank.
+
+This late Daycare packet was fully reviewed and deduped, but **no additional reader file was created in Run 1594**. The branch already carries an inherited MAIN verification gate that prevents contiguous consumption from advancing, and Moon's new cumulative return pattern is durably recorded for person-first resynthesis rather than being rushed into a second end-of-run public commit. `What is a ign?` remains an excellent future `Petty Crimes` detail; it is paperwork brain-fog, not a competence judgment.
+
+The low-volume Reinaa/Forsaken audit produced no new person-shaped material and was correctly left unpadded. RH-16 remains open: Saber/event-schedule proximity still does not identify the ~279-hour broken bot or bridge it to earlier word-chain activity.
 
 ## Verification / deployment
 
-No new reader bytes were published in Run 1593, so no new WIKI build/deploy was required. The latest verified WIKI reader commit remains **`6c24f4ca4b8cea39d2c323034a36934136671e55`**.
+The Run 1594 Anayss WIKI reader passed both existing publication paths:
 
-- **Build Underlords Wiki `35724105106` — success.**
-- **Deploy Underlords Wiki Preview / Pages `35724105070` — success**, including successful Pages build and actual GitHub Pages deployment.
+- **Build Underlords Wiki `35725675841` — success.** Astro build completed successfully.
+- **Deploy to GitHub Pages & Preview `35725675846` — success.** Build, Pages artifact upload, actual Pages deployment, and report all completed successfully.
 
-This Run 1593 integration-state update is reader-neutral bookkeeping.
+The reader frontier for Run 1594 is therefore **`399198493d3e6fe8e812afcee70732629401f0f5`**. This integration-state update is `[skip ci]` bookkeeping and does not replace that verified reader frontier.
 
-## Existing rails carried forward
+MAIN reader changes were **0** this run, so no ceremonial MAIN reader build/deploy was manufactured. The inherited Daycare Woosung/Rich MAIN verifier was retried again as workflow `35672332827`, **attempt 47**. It failed before any Source + Astro + built-output verification step instantiated: the sole job returned `runner_id=0` and `steps=[]`. This remains runner/startup infrastructure failure rather than a demonstrated source, canon, Astro, or rendered-output failure.
 
-- Rose = DarkAsrai remains a hard identity lock on stable account `659305268684783628`; do not create a second person from the alias.
-- Baby Lyssa = Ghoulie remains user-confirmed canon; the new onboarding anchor corroborates rather than invents that bridge.
+## Consumption / review frontiers
+
+- Whiskey is reviewed through `d30a4856b7fd09c0e6e89f69affff31e76cd78f7`; after the green WIKI build/deploy it is safe to advance the controlling consumed cursor through that SHA.
+- Daycare is reviewed through the late closing-census head `4a903c9ad99e2c0b54de1314951b17dd572bccff`, but its contiguous consumed cursor remains `16d9ac845f9375ee2fc67444595673b309235c38` solely because the older accepted MAIN Woosung/Rich correction is still verification-gated. Do not reread the reviewed Daycare tail unless HEAD advances; retry the inherited verifier instead.
+- Birthdays/PR/VC remains consumed through `163b2d77ad26d77fe41f15b6b3523c0abcb65f85`.
+- Louvre / AI Art / Other Games remains consumed through `8375bbd4cc1c1f4e9176635ce1d8916cc1b676d2`.
+- Wall remains consumed through `340ac47f406104bdd225453c386b5146427a87b6`.
+
+## Rails carried forward
+
+- Anayss stable account `698943572875149342` is the canonical owner; no duplicate profile was created.
+- Gilli's `GRATS ANAYSS` cause is unresolved; no milestone/origin/appointment is inferred.
+- Moon's repeated MEE6 welcomes are re-entry receipts, not first-join dates. Her own `returning UL member` wording is safe; `temporarily quit Raja` is a game-participation statement, not proof that she left the social community on the same dates.
+- Oyasumi's `MOOOOON` and the March reaction cluster establish familiar recognition, not a special relationship category.
+- RH-16 remains unresolved; temporal proximity does not bridge Saber to the 279-hour bot.
 - BishopThaGuru matching display names remain unbridged because the conflicting stable IDs remain unresolved.
-- Stable `459696170759880745` remains canonical Ricochet; the separate Rich / DragonRich actor stays distinct unless independently bridged.
+- Stable `459696170759880745` remains canonical Ricochet; the separate Woosung/WOO Rich / DragonRich actor stays distinct unless independently bridged.
 - Mia and Mimi remain separate; Opalite belongs to Mimi.
-- Shame → Fame remains a culture pattern with narrowed chronology, not an exact origin certificate.
 - Joke-family language stays nonliteral; current/export role arrays do not establish appointment chronology.
 - SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct.
-- Sou's `bb`, Gilli's welcome-back recognition, and room-routing familiarity do not establish romance, biological family, exclusivity, or closeness rank.
-
-## Consumption / MAIN verification debt
-
-Birthdays/PR/VC is consumed through `163b2d77ad26d77fe41f15b6b3523c0abcb65f85`, Louvre / AI Art / Other Games through `8375bbd4cc1c1f4e9176635ce1d8916cc1b676d2`, and Wall through `340ac47f406104bdd225453c386b5146427a87b6`.
-
-Daycare is reviewed through `3f68248fafcc26d5ff3b8b2bdebcc0341e2091f5`, but its contiguous consumed cursor remains `16d9ac845f9375ee2fc67444595673b309235c38` solely because the older MAIN Woosung/Rich reader correction is still verification-gated.
-
-Workflow `35672332827`, **attempt 46**, was retried in Run 1593 and again failed before any Source + Astro + built-output verification step instantiated; the failed job returned `steps=null`. This remains runner/startup infrastructure failure rather than a demonstrated source, canon, Astro, or rendered-output failure. The reviewed Daycare tail does not need rereview unless its miner HEAD advances; only the inherited MAIN verifier gate should be retried.
