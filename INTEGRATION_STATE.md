@@ -6,9 +6,9 @@ MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:ma
 
 ## Census / current queue
 
-The mandatory full census remains **51 tracked miner identities = 30 active refs + 21 historical/missing**, with **0 newly discovered refs, 0 unread pending-review branches after review, 1 reviewed branch pending inherited MAIN verification, 9 older reviewed `pending_publication` families, 0 backlog, and 0 overdue**. Both Club-Only recovery lanes remain current.
+The mandatory full census remains **51 tracked miner identities = 30 active refs + 21 historical/missing**, with **0 newly discovered refs, 1 late pending-review branch, 1 reviewed branch pending inherited MAIN verification, 9 older reviewed `pending_publication` families, 0 backlog, and 0 overdue**. Both Club-Only recovery lanes remain current.
 
-Run 1594 opened with one advanced miner: Whiskey moved `c36e159dff5ff3a8047cef255e96b6c505247b5d` → `d30a4856b7fd09c0e6e89f69affff31e76cd78f7`. It was reviewed checkpoint-first and intake-only. A closing census then caught a late Daycare move `3f68248fafcc26d5ff3b8b2bdebcc0341e2091f5` → `4a903c9ad99e2c0b54de1314951b17dd572bccff`; that delta was also reviewed checkpoint-first before close rather than being left to starve.
+Run 1594 opened with one advanced miner: Whiskey moved `c36e159dff5ff3a8047cef255e96b6c505247b5d` → `d30a4856b7fd09c0e6e89f69affff31e76cd78f7`. It was reviewed checkpoint-first and intake-only. A closing census then caught a late Daycare move `3f68248fafcc26d5ff3b8b2bdebcc0341e2091f5` → `4a903c9ad99e2c0b54de1314951b17dd572bccff`; that delta was also reviewed checkpoint-first before close rather than being left to starve. A final post-close sweep caught **Core Rooms** moving again, `19cc627879b1942d133d488b03dc2a2f421eaf95` → `d54f032c8ec3987a57c9846d9a7740441f1d21b2`, after both reviews were complete. It is durably recorded as `pending_review` for the next pass instead of being silently consumed.
 
 ## Reader changes
 
@@ -47,8 +47,9 @@ MAIN reader changes were **0** this run, so no ceremonial MAIN reader build/depl
 
 ## Consumption / review frontiers
 
-- Whiskey is reviewed through `d30a4856b7fd09c0e6e89f69affff31e76cd78f7`; after the green WIKI build/deploy it is safe to advance the controlling consumed cursor through that SHA.
+- Whiskey is consumed through `d30a4856b7fd09c0e6e89f69affff31e76cd78f7` after the green WIKI build/deploy.
 - Daycare is reviewed through the late closing-census head `4a903c9ad99e2c0b54de1314951b17dd572bccff`, but its contiguous consumed cursor remains `16d9ac845f9375ee2fc67444595673b309235c38` solely because the older accepted MAIN Woosung/Rich correction is still verification-gated. Do not reread the reviewed Daycare tail unless HEAD advances; retry the inherited verifier instead.
+- Core Rooms is newly pending review at `d54f032c8ec3987a57c9846d9a7740441f1d21b2`; its last reviewed frontier remains `19cc627879b1942d133d488b03dc2a2f421eaf95` and its older contiguous consumed cursor remains `e0d32f57ccbfb9433eac730ffd0e6786a0054b3d` because of existing publication debt.
 - Birthdays/PR/VC remains consumed through `163b2d77ad26d77fe41f15b6b3523c0abcb65f85`.
 - Louvre / AI Art / Other Games remains consumed through `8375bbd4cc1c1f4e9176635ce1d8916cc1b676d2`.
 - Wall remains consumed through `340ac47f406104bdd225453c386b5146427a87b6`.
