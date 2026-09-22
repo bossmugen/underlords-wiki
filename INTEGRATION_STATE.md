@@ -6,11 +6,17 @@ MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:ma
 
 ## Run 1567 close
 
-The mandatory full miner census is **51 tracked miner identities = 30 active refs + 21 historical/missing**, with **0 newly discovered refs, 0 unread pending review, 1 reviewed branch pending verification, 9 older reviewed `pending_publication` families, 0 backlog, and 0 overdue**. No active miner head advanced after Run 1566. Both Club-Only recovery lanes remain current, and reviewed tails were not reread.
+The mandatory full miner census is **51 tracked miner identities = 30 active refs + 21 historical/missing**, with **0 newly discovered refs, 0 unread pending review, 1 reviewed branch pending verification, 9 reviewed `pending_publication` families, 0 backlog, and 0 overdue**. Both Club-Only recovery lanes remain current.
 
-### Public-surface result
+The closing census caught **Core Rooms / Events** advancing from `7ab52cacfc9fc631da01982354ac8d2243725d32` to `4bc4db128daf6a8c550ec5d5a3b4c0fdb57d1f0e`. That tail was persisted pending before deep review and then reviewed checkpoint-first from the one changed intake-local checkpoint.
 
-There were **0 new reader-facing MAIN changes and 0 new reader-facing WIKI changes** this run. No new lore family was published because there was no new miner delta. The Run 1566 NemeMoka dossier remains the latest verified WIKI reader addition; its reader frontier is `a37f0de2316eade1b09eaea81d88ec83123d7358`, with Build `35680752859` and Pages `35680752942` previously green through deployment.
+### New WIKI reader material — RΣN
+
+The genuinely new public keeper is **RΣN**, stable account `697225549390676008`. The reviewed slice contains 28 direct-authored Core Rooms messages from January through August 2021. The useful person read is creative-reference curiosity without a formal title: immediate shared-reference fluency with Mugen (`Oh this guy` / `I love him`), creator-credit curiosity, author/context exchange, GIF/source requests, tooling questions, and the low-stakes confidence to admit when a reference finally escapes them.
+
+RΣN was novelty-checked by stable account and exact display name against both public surfaces before publication. The material was intentionally **WIKI-only**: it is coherent enough for a structured Cast dossier, relationship notes, quotes, source/credit behavior, and antiFanon rails, while a 28-row 2021 Core Rooms slice is still too narrow for MAIN's richer whole-person biography standard.
+
+WIKI module seed: `103adf22aef7b551e12ce50294b7cf4ed1922e00` (`[skip ci]`). Wired reader commit: **`461fb99a69c2b0d1c548f27e0fdab55ef76d9089`**. **Build Underlords Wiki `35682996439` succeeded. Deploy Underlords Wiki Preview / Pages `35682996549` succeeded through build, deploy, and report.**
 
 ### MAIN verification gate
 
@@ -23,7 +29,7 @@ Workflow `35672332827` was retried again in Run 1567. **Attempt 11 failed before
 - Wall is consumed/reviewed through `0da2f9be9ef164250eb791a967a6c3cdfcaeca27`.
 - Louvre / Other Games is consumed/reviewed through `c40c62a2d2111fb935acf383aaac60fe4cb8f526`.
 - Daycare is reviewed through `3424e3b02896a3a2f8afd4f2b3d7d82e1af4769f`; consumed remains `16d9ac845f9375ee2fc67444595673b309235c38` pending successful MAIN verification.
-- Core Rooms / Events is reviewed through `7ab52cacfc9fc631da01982354ac8d2243725d32`; consumed remains `e0d32f57ccbfb9433eac730ffd0e6786a0054b3d` behind inherited publication debt.
+- Core Rooms / Events is reviewed through `4bc4db128daf6a8c550ec5d5a3b4c0fdb57d1f0e`; consumed remains `e0d32f57ccbfb9433eac730ffd0e6786a0054b3d` behind inherited older MAIN publication debt. The RΣN tail itself is reviewed and publicly verified; do not reread it unless the miner head advances.
 - Whiskey remains consumed through `b06f8d56c522fbab88423e6d83d19d9ee9e2b161`.
 - Club-Only 2021–2026 remains consumed through `e45fb11c9239e236231bb65645dfd0285bc0078b`.
 - Club-Only 2020 remains consumed through `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`.
