@@ -130,57 +130,15 @@ export function applyRun1583BirthdaysWallCast(
   if (sotaIndex >= 0) characters[sotaIndex] = sota;
   else characters.push(sota);
 
-  const bishopStableId = "532544823624810506";
-  const bishopIndex = characters.findIndex(
-    (character) =>
-      character.id === "bishopthaguru" ||
-      (character as ArchiveCharacter).stableDiscordIds?.includes(bishopStableId),
-  );
-  const previousBishop = bishopIndex >= 0 ? (characters[bishopIndex] as ArchiveCharacter) : undefined;
-  const bishop: ArchiveCharacter = {
-    ...(previousBishop ?? {}),
-    id: previousBishop?.id ?? "bishopthaguru",
-    name: previousBishop?.name ?? "BishopThaGuru",
-    aliases: unique([...(previousBishop?.aliases ?? [])]),
-    billing: previousBishop?.billing ?? "legacy",
-    role: previousBishop?.role ?? "Archive-era UL member",
-    era: previousBishop?.era ?? "2020+",
-    logline:
-      previousBishop?.logline ||
-      "Bishop's Wall arc is four messages long and somehow contains the whole institution: identify the place as `The discord of shame`, request removal from the Wall, then later thank the tag for delivering a favorite quote every time he opens it. Protest becomes callback pleasure without anybody needing to pretend the exhibit stopped being embarrassing.",
-    tags: unique([
-      ...(previousBishop?.tags ?? []),
-      "Wall",
-      "Defendant",
-      "Callback enjoyer",
-      "Favorite quote",
-      "Petty Crimes",
-    ]),
-    stableDiscordIds: unique([...(previousBishop?.stableDiscordIds ?? []), bishopStableId]),
-    quotes: unique([
-      ...(previousBishop?.quotes ?? []),
-      "The discord of shame",
-      "Take me off of this wall of shame",
-      "Ty for the tag, I see my favourite quote every time I click wall of shame now",
-    ]),
-    claims: unique([
-      ...(previousBishop?.claims ?? []),
-      "Bishop's surviving Wall footprint contains a compact reversal: he asks to be taken off the Wall, then later thanks the tag because it makes his favorite quote visible whenever he opens the channel. The useful character beat is not that shame disappeared; it is that the receipt became a repeatable joke he could enjoy too.",
-      "A January 18, 2020 Wall attachment is POSTED BY BishopThaGuru in the surviving record. That alone does not establish who made, captured, or appears in the media.",
-    ]),
-    antiFanon: unique([
-      ...(previousBishop?.antiFanon ?? []),
-      "Bishop's later enjoyment of the callback does not erase the earlier removal request or establish that every Wall target welcomed every post.",
-      "The attachment establishes POSTED BY only; do not upgrade it to MADE BY, CAPTURED BY, or FEATURING without independent support.",
-    ]),
-  };
-  if (bishopIndex >= 0) characters[bishopIndex] = bishop;
-  else characters.push(bishop);
+  // Run 1583 previously attached stable account 532544823624810506 to the canonical
+  // BishopThaGuru owner by display-name continuity. A later Wall handoff attributes
+  // BishopThaGuru to stable account 362396877502808064. There is no independently
+  // resolved bridge between those IDs, so hard identity safety wins: neither packet is
+  // merged here until the contradiction is resolved. The older canonical Bishop owner
+  // from prior verified integrations remains untouched.
 
   const archiveGroup = groups.find((group) => group.id === "archive-cast");
-  if (archiveGroup) {
-    for (const id of [sota.id, bishop.id]) {
-      if (!archiveGroup.characterIds.includes(id)) archiveGroup.characterIds.push(id);
-    }
+  if (archiveGroup && !archiveGroup.characterIds.includes(sota.id)) {
+    archiveGroup.characterIds.push(sota.id);
   }
 }
