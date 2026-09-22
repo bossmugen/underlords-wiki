@@ -1,209 +1,86 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-22 — Run 1605 reconciled close_
+_Last updated: 2026-09-22 — Run 1608 reconciled close_
 
-MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` remains the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
+MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` is the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
 
-## Run 1605 — census / current queue
+This file is intentionally the **current integration frontier**, not a duplicate run ledger. Earlier run-by-run detail remains durable in Git history and MAIN's per-run `archive-intake/INTEGRATION_FINAL_*` reports.
 
-The mandatory census closed at **51 tracked miner identities = 30 active refs + 21 historical/missing**, with **0 newly discovered refs, 0 unread pending-review branches, 3 reviewed MAIN lanes pending verification, 9 older reviewed `pending_publication` families, 0 backlog, and 0 overdue**. Both Club-Only recovery lanes remain current.
+## Run 1608 — current queue
 
-Four active miner lanes were reviewed checkpoint-first from changed `archive-intake/*` handoffs only: Wall through `5fb20d777b5169de9a74cce277617d7a39bd8db9`, Daycare through `89a11ea6107420acab1a20fc3d72a9d5dcb900a6`, Louvre / AI Art / Athenaeum / Other Games through `f6a40d1a008209684dbea53a4daaea602197fbc5`, and Whiskey through `e82db8e2db344992ce0cee4f1dc029c4dff5169c`. Closing head checks left all four pinned there.
+The mandatory opening and closing censuses agree on **51 tracked miner identities = 30 active refs + 21 historical/missing**, with **0 newly discovered refs, 0 unread pending-review branches, 3 reviewed MAIN lanes pending verification, 9 older reviewed `pending_publication` families, 0 backlog, and 0 overdue**. Both Club-Only recovery lanes remain current.
 
-### WIKI reader changes / reconciliation
+Three active miner lanes advanced and were reviewed checkpoint-first from changed `archive-intake/*` handoffs only:
 
-The final verified WIKI reader frontier is **`853c0d0e582e262cdbff9c45b4355425e89fc5a1`**. It includes the earlier concurrent Run 1604 material plus a later Run 1605 cast synthesis wired through `src/data/cast-run1605-integrator.ts` and `src/data/cast.ts`.
+- Birthdays / PR / VC: `163b2d77ad26d77fe41f15b6b3523c0abcb65f85 → e4f739d39733553bf2611509ecc2444791c6660e`.
+- Daycare: `89a11ea6107420acab1a20fc3d72a9d5dcb900a6 → 8817bf01eb43a2d0553bae20bf8339b76cc2cd5c`.
+- Wall: `5fb20d777b5169de9a74cce277617d7a39bd8db9 → bbc22bedc7f47815c0df14fae1415776c51f580e`.
 
-The reconciled public person work now includes:
+The closing matching-ref census found all 30 active miner heads unchanged after review.
 
-- **Oyasumi** Wall texture from the advanced Wall packet.
-- **Eos ↔ Tae** shared-script teasing: Eos can open with only `tae-`; Tae already knows the accusation and often helps feed the joke. This is high-context social fluency, not romance, literal family, or evidence about uninspected media.
-- **Emi / `erys`, stable `509574963015974932`**, kept as a separate Wall owner from the already-published Erys stable `934054466463739914`. Emi's useful contradiction is theatrical defendant ↔ willing filer ↔ visibly group-attached regular: impossible alibis (`its photoshopped`, `im being hacked`) coexist with filing receipts herself and noticing when everybody has migrated away.
-- **Rummy / `phenomenal_lamb_14960`, stable `717133949457137775`**: the current Whiskey delta adds exhibit-narrator / context-courier behavior plus recurring laugh→`*pat pat*` soft landings. The later Run 1605 synthesis also folds in already-reviewed practical-helper / troubleshooting / cost-effort-calibration texture. None of this creates a formal archivist, moderator, prosecutor, or governance appointment.
-- **Oyasumi / Wasa, stable `373323529532162051`**, maintained as an account-specific owner rather than merged into another same-name Oyasumi record. The public axis is compact caption-framing, shared-memory callbacks, reciprocal receipt teasing, and visual-reference influence where directly supported.
-- **Erys — `C:\\Users\\Erys>`, stable `752184632629198919`**, maintained separately from both Erys `934054466463739914` and Emi / `erys` `509574963015974932`. The account's recurring command-prompt writing bit, tiny riffs, Snow/Anayss banter, and Rummy check-in are owned without inferring literal arrest, device provenance, or location.
-- **Eos (Daycare account), stable `452353768269234178`**, maintained separately from the existing Eos stable `621021922473410581`. The Tae lane is recurring recommendation, direct check-in, encouragement, and celebration of progress—not romance, literal family, exclusivity, or a relationship ranking.
+## WIKI reader frontier
 
-Verification/deployment for the final reader frontier is green:
+Final verified/deployed reader: **`582f7691a8fca275ce4c4d3427473dcba4b3f1fd`**.
 
-- Build Underlords Wiki `35756416424`: **success**.
-- Deploy Underlords Wiki Preview / Pages `35756416358`: **success through Pages deployment**.
+The Run 1608 cast integration does three things without mirroring MAIN prose:
 
-The later integration-state commits are `[skip ci]` and do not alter reader bytes.
+### Gabu — the machine gets tested before it gets trusted
 
-### No-reader-change review
+The September 13, 2021 Photoshoot FESTIVAL control-lane packet is folded into Gabu's existing event-systems dossier as an earlier instance of a recurring habit. A literal `test3` fires first; Gabu then loads the actual closure copy into Saber, retimes it to fire inside the control lane, watches the bot post it there, and later rebuilds the same closure for the real September 20 deadline. Paired with the already-published February 2022 anniversary Festival live-fire sequence ending in `OKAY IT WORKS`, the useful character read is repetition: Gabu tests production machinery with real payloads until timing/output are visible enough to trust.
 
-Louvre's current quarry is exhausted at the available archive boundary and produced no new publishable material. One checkpoint attempted to repair identity as Mia = Mimi = Opalite Honey / `༯`; that repair was rejected against root hard canon. **Mia (`439628808545632256`) and Mimi / Opalite Honey / `༯` (`783389804079349800`) remain distinct people.** Louvre is therefore a correction/no-public-change review and is consumed through current HEAD.
+Do not rewrite the September 2021 control-lane rehearsal as a public premature closure, an accidental member-facing mistake, or bot failure. The surviving closure template says `12am` while the public winner schedule says `12pm`; preserve the mismatch rather than silently correcting it. Earliest surviving Saber checklist material remains earliest surviving, not origin.
 
-Whiskey's current Rummy footnote/context packet was accepted and folded into the structured owner; MAIN already has the richer context-defense biography arc, so no mirror paragraph was warranted.
+### Gilli — one human, two account eras, one unnecessary voice toy
 
-### MAIN verification debt / consumption
+Daycare's final identity correction directly bridges Gilli's newer account `585466495757451284` and older account `615878920583249920` (`Mr. Streamer (Gabu's Chair)`). On November 10, 2020, New Account Gilli targets the older account with Eli Jail; the bot resolves the target as `Gilli#8635`, and the successful embed both names jailed Gilli and supplies the older stable ID. Keep both stable IDs in forensic chronology while treating them as one human biography.
 
-**MAIN reader-facing changes this run: 0.** No MAIN deployment is claimed. The three outstanding verification gates were retried:
+The May 2021 voice-tool scene belongs in **Petty Crimes**: Gilli says they bought the full version and were playing around with it; Eos likes the result and Anayss recognizes the altered voice strongly enough to riff on it. The exact software, effect, settings, and audible output remain unknown. The origin/date/meaning of the rendered `Gabu's Chair` nickname remains unresolved.
+
+This Gilli work arrived concurrently in the Run 1608 WIKI owner and was reconciled, not duplicated.
+
+### Nobu — tiny caption, enormous evidence bag
+
+Wall's terminal Nobu sweep deepens the dossier around a repeat filing mechanism rather than another chronology dump. Nobu repeatedly posts screenshot packets with almost no setup: rapid paired filings, multi-image batches, and eventually two images introduced only by `*coughs*`. The best direct explanation of selection logic is Nobu's own: `Ngl, I legit thought that said children. Which is why I posted it.` Repeated Rummy-directed lines such as `RUMMY IT'S BURNT`, `Rummy has rizz??`, and `I'm proud of you, Rummy` fit the same compact/high-context voice.
+
+The Wall miner now marks its quarry exhausted at the current archive boundary.
+
+Attribution rails stay hard: Nobu's attachments are POSTED BY Nobu unless another source resolves maker, capturer, or featured people. A November 2022 `RUMMY` reply that mechanically mentions Marian does **not** create a project-wide `Rummy = Marian` bridge. `Nobu and Gabu sound nice together` plus ship/get-a-room replies remain joke play, not romance, sex, or attraction evidence.
+
+## Verification / deployment
+
+WIKI reader `582f7691a8fca275ce4c4d3427473dcba4b3f1fd` is green:
+
+- Build Underlords Wiki `35765187704`: **success**.
+- Deploy Underlords Wiki Preview / Pages `35765187711`: **success through Pages deployment**.
+
+This integration-state commit is reader-neutral and uses `[skip ci]`.
+
+## MAIN surface decision
+
+**MAIN reader-facing changes in Run 1608: 0.** No MAIN reader deployment is claimed.
+
+The new material was intentionally WIKI-owned where it improves structured reference: Gabu's cross-time system-testing recurrence and Nobu's receipt-curator mechanism. Gilli's new account/voice material was already concurrently integrated on WIKI. MAIN's Gabu, Gilli, and Nobu biographies already own the richer person-first arcs, so another receipt-shaped paragraph would be duplication rather than character deepening.
+
+## MAIN verification debt / consumption
+
+Three inherited MAIN reader gates were retried without rereading already-reviewed intake:
 
 - Daycare workflow `35672332827`, attempt **50**: `startup_failure`, with **zero jobs** instantiated.
-- Core Rooms / Events workflow `35727743323`, attempt **15**: verification job created but failed before any steps instantiated (`steps=[]`, `runner_id=0`).
-- Wall / Tony workflow `35749412434`, attempt **5**: same pre-step failure (`steps=[]`, `runner_id=0`).
+- Core Rooms / Events workflow `35727743323`, attempt **21**: verification job created but failed before any steps instantiated (`steps=null`).
+- Wall / Tony workflow `35749412434`, attempt **11**: verification job again failed before any steps instantiated (`steps=null`).
 
 These remain runner/startup infrastructure failures, not demonstrated source, canon, Astro, or built-output failures.
 
-Consumption / review frontiers after Run 1605:
+Current review / consumption frontiers:
 
-- Wall is reviewed through `5fb20d777b5169de9a74cce277617d7a39bd8db9`; contiguous consumed cursor remains `d13ba0116859c2ef50b06e2104fb38602a17c457` behind inherited MAIN Tony verification debt. Do not reread through `5fb20d7` unless the miner advances.
-- Daycare is reviewed through `89a11ea6107420acab1a20fc3d72a9d5dcb900a6`; contiguous consumed cursor remains `16d9ac845f9375ee2fc67444595673b309235c38` behind inherited MAIN Woosung→Rich / DragonRich verification debt. Do not reread through `89a11ea` unless the miner advances.
+- Birthdays / PR / VC is reviewed and consumed through `e4f739d39733553bf2611509ecc2444791c6660e`.
+- Wall is reviewed through `bbc22bedc7f47815c0df14fae1415776c51f580e`; contiguous consumed cursor remains `d13ba0116859c2ef50b06e2104fb38602a17c457` behind inherited accepted MAIN Tony verification debt. Do not reread through `bbc22be` unless the miner advances.
+- Daycare is reviewed through `8817bf01eb43a2d0553bae20bf8339b76cc2cd5c`; contiguous consumed cursor remains `16d9ac845f9375ee2fc67444595673b309235c38` behind inherited accepted MAIN Woosung→Rich / DragonRich verification debt. Do not reread through `8817bf0` unless the miner advances.
 - Core Rooms / Events remains reviewed through `72d2932b59ff7fe68ee9aab032542c3cfeed40c3`, consumed only through `e0d32f57ccbfb9433eac730ffd0e6786a0054b3d` behind inherited MAIN Ricochet verification debt.
-- Louvre is reviewed and consumed through `f6a40d1a008209684dbea53a4daaea602197fbc5`.
-- Whiskey is reviewed and consumed through `e82db8e2db344992ce0cee4f1dc029c4dff5169c`.
+- Louvre remains reviewed/consumed through `f6a40d1a008209684dbea53a4daaea602197fbc5`.
+- Whiskey remains reviewed/consumed through `e82db8e2db344992ce0cee4f1dc029c4dff5169c`.
+- Both Club-Only recovery branches remain fully current.
 
-Held rails remain held: Mia and Mimi are separate; Opalite belongs to Mimi. Same display names do not bridge stable IDs. Emi `509574963015974932`, command-prompt Erys `752184632629198919`, and existing Erys `934054466463739914` remain separate absent a direct bridge. The account-specific Oyasumi/Wasa and Eos records likewise remain distinct from same-name owners without explicit bridges. The Whiskey Cele collision and Zhēnxī stable-ID conflict remain unresolved. Nobukatsu is not canonical Nobu without an explicit bridge. Joke-family/romance/role language stays nonliteral without support. Earliest surviving remains different from origin. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct.
+## Hard rails still in force
 
----
-
-## Run 1603 — census / current queue
-
-The mandatory census closed at **51 tracked miner identities = 30 active refs + 21 historical/missing**, with **0 newly discovered refs, 0 unread pending-review branches, 3 reviewed branches pending MAIN verification, 9 older reviewed `pending_publication` families, 0 backlog, and 0 overdue**. Both Club-Only recovery lanes remain current.
-
-Three active miner lanes advanced and were reviewed checkpoint-first from changed `archive-intake/*` handoffs only: Wall `d13ba0116859c2ef50b06e2104fb38602a17c457 → f6b1efe9cb1d2b51751b39170596508794305e28`, Daycare `6339e9c3f2ef9ae9b55d4ed6c5bae44e806cfa21 → ab53598ae783e5aa66f4ef1741848c05eb7609b6`, and Louvre / AI Art / Athenaeum / Other Games `1c4e3ab78591c25743b721cfb4e2aa6ddb9b6449 → c03f4be916129478be2e7797416e9e8a0ed884d8`.
-
-### WIKI reader changes
-
-Run 1603 integrated three person-shaped deepeners through the canonical cast pipeline rather than appending receipt reports:
-
-- **Noether / `noether88` / stable `690373720665096193`**: laughter-first shared-bit recycler, mock-context pleader, and wording escalator. The useful axis is fast uptake → mutation: Anayss supplies `Unsugar hami`; Noether turns it into `Unsugar hamihami`, later generalizes the vocabulary to `Unsugared snow` / `unsugar boiii`, and can still go unexpectedly soft over one polite syllable in `He said plz so cute`. `unsugar` coinage is **not** credited to Noether; true origin remains open. The HamitteY lane is bounded teasing/callback fluency, not romance, family, hierarchy, or a closeness ranking.
-- **Woosung / WOO / stable `454708201615523871`**: the April 2020 Snow boredom duel deepens WOO beyond compact Wall reactions. `Are u bored yet` becomes an hour of `How about now` / `Now?` / GIF tactics while Snow keeps answering with escalating refusals and reactions. The cumulative read is determined nuisance ↔ connection-seeking regular, with Snow as a willing sparring partner. Mundane Petty Crimes added: `my hair is a mess`, wishing her hair would stay neat after a Waifu pat, and wanting a K-pop game.
-- **TonyTonyChopper / stable `851264843306631168`**: concurrent Run 1603 reconciliation sharpened Tony into theatrical defendant ↔ retaliatory filer. Marian/Panda can file Tony twice and get immediate `STOPPPP` / `NO` / `STOP` / `DONT SHOW THEM`; Tony later reverses the receipt direction and files Marian back. Their lane is reciprocal receipt-war / mock-privacy theater, with screenshot provenance still bounded to POSTED BY unless separately resolved.
-
-The final reconciled WIKI reader frontier is **`49d3c06b1c1a5eac84c6d01e9f29b4643f56643c`**. Verification and deployment are green:
-
-- Build Underlords Wiki `35749147998`: **success**.
-- Deploy Underlords Wiki Preview / Pages `35749147947`: **success through Pages deployment**.
-
-### No-reader-change review
-
-The Louvre Angie / STUNNAGIRLdaughter handoff was a source-custody correction, not a personality disproof. The broader `personally stranded ↔ socially useful` read remains valid under Lobby / Club Only receipts, but the assigned Athenaeum B+ route is quarantined until Angie's three direct Athenaeum rows are recovered. No WIKI reader change was warranted.
-
-Daycare RH-16 also advanced without becoming reader lore: Mugen's 2022 `(word chain bot^)` establishes that a word-chain bot existed in that period. The adjacent `Deleted User` object remains the pooled exporter surrogate and cannot recover a unique bot identity; no bridge is made to the separate 2023 `Approx 279 hours` failure.
-
-### MAIN verification debt / consumption
-
-**MAIN reader-facing changes this run: 0 net.** A concurrent accepted MAIN Tony reciprocal-Wall deepener was temporarily committed and immediately verification-gated; after the verifier failed, MAIN commit `b3318dc5a0b9e5036d35b37bd1bb59a9d2d4c410` restored Tony's reader bytes to the pre-run baseline. No MAIN deployment is claimed.
-
-Inherited/new MAIN gates:
-
-- Daycare workflow `35672332827` remained `startup_failure` with **zero jobs** instantiated.
-- Core Rooms / Events workflow `35727743323` reached **attempt 12** and again failed with the verification job returning `steps=null`; Source + Astro + built-output verification never instantiated.
-- Tony / Wall workflow `35749412434` failed on **attempts 1 and 2** with the verification job returning `steps=null`; the accepted richer MAIN Tony deepener remains held, not public.
-
-None of these results demonstrates a source, canon, Astro, or built-output failure.
-
-Consumption / review frontiers after Run 1603:
-
-- Wall is **reviewed through `f6b1efe9cb1d2b51751b39170596508794305e28`**, but contiguous consumed cursor remains **`d13ba0116859c2ef50b06e2104fb38602a17c457`** behind the accepted MAIN Tony verification gate. Do not reread `f6b1efe` unless the miner advances.
-- Louvre reviewed and consumed through `c03f4be916129478be2e7797416e9e8a0ed884d8`.
-- Daycare reviewed through `ab53598ae783e5aa66f4ef1741848c05eb7609b6`; contiguous consumed cursor remains `16d9ac845f9375ee2fc67444595673b309235c38` behind the older accepted MAIN Woosung→Rich/DragonRich verification debt. Do not reread through `ab53598` unless the miner advances.
-- Core Rooms / Events remains reviewed through `72d2932b59ff7fe68ee9aab032542c3cfeed40c3`, consumed only through `e0d32f57ccbfb9433eac730ffd0e6786a0054b3d` behind inherited MAIN verification debt.
-
-Held rails remain held: Mia and Mimi are separate; Opalite belongs to Mimi. Same display names do not bridge stable IDs. The Whiskey Cele collision and Zhēnxī stable-ID conflict remain unresolved. Nobukatsu is not canonical Nobu without an explicit bridge. Joke-family/romance/role language stays nonliteral without support. Earliest surviving remains different from origin. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct. Grasshopper true origin remains unresolved. `unsugar` true origin remains open. RH-16 now knows a 2022 word-chain bot existed, but bot identity and the 2023-failure bridge remain unresolved.
-
----
-
-## Run 1602 — census / current queue
-
-The mandatory opening and closing censuses both found **51 tracked miner identities = 30 active refs + 21 historical/missing**, with **0 newly discovered refs, 0 unread pending-review branches, 2 reviewed branches pending MAIN verification, 9 older reviewed `pending_publication` families, 0 backlog, and 0 overdue**. All 30 active miner HEADs remained unchanged from the Run 1601 frontier, so there were **0 intake deltas to reread, 0 genuinely new findings, 0 duplicate-family changes, 0 conflict/rabbit movement, and 0 consumed-SHA advances**. Both Club-Only recovery lanes remain current.
-
-**MAIN reader-facing changes: 0. WIKI reader-facing changes: 0.** No reader rebuild/redeploy was triggered because reader bytes did not change. WIKI's latest verified/deployed reader remains the Run 1600 corrective frontier `6ab51a05f458d8d526e332af9b098da766e149c8`, with Build `35742425988` and Pages/Preview `35742426038` green.
-
-Inherited MAIN verification debt was retried without rereading intake:
-
-- Core Rooms / Events workflow `35727743323` reached **attempt 11** and again completed startup failure with `steps=null`; the Source + Astro + built-output suite never instantiated.
-- Daycare workflow `35672332827` remained **startup_failure at attempt 50 with no jobs/steps instantiated**.
-
-Neither is a demonstrated source, canon, Astro, or built-output failure. Core remains reviewed through `72d2932b59ff7fe68ee9aab032542c3cfeed40c3`, consumed only through `e0d32f57ccbfb9433eac730ffd0e6786a0054b3d`. Daycare remains reviewed through `6339e9c3f2ef9ae9b55d4ed6c5bae44e806cfa21`, consumed only through `16d9ac845f9375ee2fc67444595673b309235c38`. No intake should be reread unless a miner HEAD advances.
-
-Held rails remain unchanged: Mia and Mimi remain separate; same display names do not bridge stable IDs; the Whiskey Cele collision remains unresolved; the Zhēnxī stable-ID conflict remains unresolved; Nobukatsu is not merged into canonical Nobu without an explicit bridge; joke-family/romance/role language stays nonliteral without support; earliest surviving remains different from origin; SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct; grasshopper true origin, RH-16, and other held identity/provenance rabbits remain unresolved rather than guessed into canon.
-
----
-
-## Run 1601 — census / current queue
-
-The mandatory opening and closing censuses both found **51 tracked miner identities = 30 active refs + 21 historical/missing**, with **0 newly discovered refs, 0 unread pending-review branches, 2 reviewed branches pending MAIN verification, 9 older reviewed `pending_publication` families, 0 backlog, and 0 overdue**. All 30 active miner HEADs remained unchanged from the Run 1600 frontier, so there were **0 intake deltas to reread, 0 genuinely new findings, 0 duplicate-family changes, 0 conflict/rabbit movement, and 0 consumed-SHA advances**. Both Club-Only recovery lanes remain current.
-
-**MAIN reader-facing changes: 0. WIKI reader-facing changes: 0.** No reader rebuild/redeploy was triggered because reader bytes did not change. WIKI's latest verified/deployed reader remains the Run 1600 corrective frontier `6ab51a05f458d8d526e332af9b098da766e149c8`, with Build `35742425988` and Pages/Preview `35742426038` green.
-
-Inherited MAIN verification debt was retried without rereading intake:
-
-- Core Rooms / Events workflow `35727743323` reached **attempt 10** and again completed failure with `steps=null`; the Source + Astro + built-output suite never instantiated.
-- Daycare workflow `35672332827` accepted the rerun request but remained **startup_failure at attempt 50 with no jobs/steps instantiated**.
-
-Neither is a demonstrated source, canon, Astro, or built-output failure. Core remains reviewed through `72d2932b59ff7fe68ee9aab032542c3cfeed40c3`, consumed only through `e0d32f57ccbfb9433eac730ffd0e6786a0054b3d`. Daycare remains reviewed through `6339e9c3f2ef9ae9b55d4ed6c5bae44e806cfa21`, consumed only through `16d9ac845f9375ee2fc67444595673b309235c38`. No intake should be reread unless a miner HEAD advances.
-
-Held rails remain unchanged: Mia and Mimi remain separate; same display names do not bridge stable IDs; the Whiskey Cele collision remains unresolved; the Zhēnxī stable-ID conflict remains unresolved; Nobukatsu is not merged into canonical Nobu without an explicit bridge; joke-family/romance/role language stays nonliteral without support; earliest surviving remains different from origin; SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct; grasshopper true origin, RH-16, and other held identity/provenance rabbits remain unresolved rather than guessed into canon.
-
----
-
-## Run 1600 — census / current queue
-
-The mandatory census closes at **51 tracked miner identities = 30 active refs + 21 historical/missing**, with **0 newly discovered refs, 0 unread pending-review branches, 2 reviewed branches pending MAIN verification, 9 older reviewed `pending_publication` families, 0 backlog, and 0 overdue**. Both Club-Only recovery lanes remain current.
-
-Run 1600 reviewed two advanced intake lanes checkpoint-first from changed `archive-intake/*` handoffs only: Wall `21c8d18038730c2ecaf0b51437044fb0c570c763 → d13ba0116859c2ef50b06e2104fb38602a17c457` and Daycare `76cbcf8c9d156106651d1e143da31f878135f7b4 → 6339e9c3f2ef9ae9b55d4ed6c5bae44e806cfa21`. Closing branch checks left both heads pinned there and found no additional miner mover.
-
-## Run 1600 — reconciliation
-
-### Wall — Moon packet
-
-The current Wall delta is **duplicate/corroboration, not a new public owner**. Moon's `I am a moon,so i see all`, `Just being a bystander, duhh`, Fruity Pebbles dodge, explicit `too mean` brake, `single brain cell` self-joke, and wrong-chat / `-fection` texture are already owned by the existing canonical Moon WIKI deepener. MAIN already carries the broader witness→participant / self-exhibit arc. The Fame material further corroborates Fame as a social-status joke without resolving the exact first Fame moment.
-
-No new Moon paragraph or dossier overlay was needed. Media in the new packet remains POSTED BY only where maker/capturer/subject attribution is unresolved.
-
-### Daycare — Nobu, Zhēnxī, Mërcy / Nelph
-
-Nobu/Xuseio's March 2023 Wall filing / ship-teasing packet is already public in the canonical Nobu owners on both surfaces, including the `Nobu and Gabu sound nice together` pocket and prosecutor-immunity contradiction. No duplicate copy was added.
-
-Zhēnxī and Rummy's June 7, 2022 reciprocal `I love you` exchange is likewise already owned by MAIN's Zhēnxī biography as friendship-affection texture. The new Daycare handoff names `Zhēnxī / rhymethero` as stable account `702968421033312275`, while the existing WIKI Zhēnxī dossier currently carries stable ID `521090075023884290`. **No bridge is inferred.** The stable-ID conflict is held unresolved until an explicit identity route resolves it; the already-public relationship text remains intact.
-
-Mërcy/Koi + Nelph's `Support your local business` cookie bit is cute but too thin to justify a new dossier or relationship axis. It remains supporting/Petty-Crime-scale intake rather than public expansion.
-
-## Run 1600 — concurrency correction / publication
-
-**MAIN reader-facing changes: 0 intentionally.** The two new deltas either duplicate current public owners or remain identity-held / too thin. No MAIN reader deployment is claimed.
-
-**WIKI reader-facing changes: 0 net.** A concurrent Run 1600 overlay at `7e4e60bd2fc0200f3b81b3e470943e4ffa8b3665` / `2c244c7b0be157f028f4a6b7922cd58b716dba22` attempted to attach older same-name Moon/Nobu packets directly to generic canonical owners. That was unsafe for Nobu in particular: the overlay merged stable account `496062267072741376` / `Nobukatsu` into the canonical `Nobu` owner even though the current hard identity lock is Nobu = Xuseio and no bridge from that 2020 account was established in the selected delta. The overlay was removed in the fast-forward corrective commit **`6ab51a05f458d8d526e332af9b098da766e149c8`** rather than allowed to become canon by name resemblance.
-
-The corrected WIKI reader frontier is green and deployed:
-
-- Build Underlords Wiki `35742425988`: **success**.
-- Deploy Underlords Wiki Preview `35742426038`: **success through Pages deployment**.
-
-The later WIKI state-only commits are `[skip ci]` and do not alter reader bytes.
-
-MAIN verification debt was retried rather than widened:
-
-- Daycare workflow `35672332827`, attempt **50**: **startup_failure** before any jobs/steps instantiated.
-- Core Rooms / Events workflow `35727743323`, attempt **9**: verification job completed failure with `steps=null`; Source + Astro + built-output checks never instantiated.
-
-Neither is a demonstrated source, Astro, or built-output failure.
-
-## Run 1600 — consumption / review frontiers
-
-- **Wall** is reviewed and consumed through `d13ba0116859c2ef50b06e2104fb38602a17c457` as a successful duplicate/corroboration review. Do not reread unless the miner advances.
-- **Daycare** is reviewed through `6339e9c3f2ef9ae9b55d4ed6c5bae44e806cfa21`. Its contiguous consumed cursor remains `16d9ac845f9375ee2fc67444595673b309235c38` behind the inherited accepted MAIN Woosung→Rich/DragonRich correction. Do not reread through `6339e9c` unless the miner advances; the remaining debt is verification, not interpretation.
-- **Core Rooms / Events** remains reviewed through `72d2932b59ff7fe68ee9aab032542c3cfeed40c3`, consumed only through `e0d32f57ccbfb9433eac730ffd0e6786a0054b3d` behind inherited MAIN verification debt.
-- **Louvre** remains reviewed/consumed through `1c4e3ab78591c25743b721cfb4e2aa6ddb9b6449`.
-- **Whiskey** remains reviewed/consumed through `ec0c59a556b65e3752bee9dcec14c631e9e76ec4`.
-- Both Club-Only recovery lanes remain current.
-
-## Rails carried forward
-
-Mia and Mimi remain separate; Opalite belongs to Mimi. Same display names do not bridge stable IDs. The Whiskey Cele collision remains unresolved. The new Zhēnxī stable-ID conflict remains unresolved. Nobukatsu is not merged into canonical Nobu without an explicit bridge. Joke-family/romance/role language stays nonliteral without support. Earliest surviving remains different from origin. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct. Grasshopper true origin, RH-16, and other held identity/provenance rabbits remain unresolved rather than guessed into canon.
-
----
-
-## Run 1599 close
-
-The mandatory census closed at **51 tracked miner identities = 30 active refs + 21 historical/missing**, with **0 newly discovered refs, 0 unread pending-review branches, 2 reviewed branches pending MAIN verification, 9 older reviewed `pending_publication` families, 0 backlog, and 0 overdue**. Both Club-Only recovery lanes were current.
-
-Run 1599 reviewed two advanced intake lanes checkpoint-first from changed `archive-intake/*` handoffs only: Wall `62c534388d06cb25f67d19c0c4cd685c628844ba → 21c8d18038730c2ecaf0b51437044fb0c570c763`, then a late Core Rooms / Events tail `32555df5ca65e21aab18d8f595dd036820592c7d → 72d2932b59ff7fe68ee9aab032542c3cfeed40c3`.
-
-YoChan's Wall packet added the Petty Crime `i see babi=piggy🐷` to an already-established compact reaction-language / receipt-courier / concrete-help dossier. Chibiterasu's Core packet corrected a clean-return read by showing October 2023 reaction participation between the 2022 and 2024 scenes; the dossier now preserves low authored-text volume alongside conspicuous social participation instead of treating 2024 paperwork as proof of a return after absence. The Hot Potato President Era became a WIKI episode owning Mugen's October 17, 2023 rotating-president governance handoff without duplicating MAIN's richer leadership synthesis.
-
-WIKI reader frontier `aa1aae94074afae2ab44cb53c61bf17c6206a6a5` passed Build `35738473922` and Pages `35738474021`. MAIN reader bytes did not change. Wall consumed through `21c8d18038730c2ecaf0b51437044fb0c570c763`; Core remained reviewed through `72d2932b59ff7fe68ee9aab032542c3cfeed40c3` with consumed cursor `e0d32f57ccbfb9433eac730ffd0e6786a0054b3d`; Daycare remained reviewed through `76cbcf8c9d156106651d1e143da31f878135f7b4` with consumed cursor `16d9ac845f9375ee2fc67444595673b309235c38`.
+Same display names do not bridge stable IDs. Nobukatsu is **not** canonical Nobu without an explicit bridge. Mia is distinct from Mimi / Opalite Honey / `༯`. The Whiskey Cele collision and Zhēnxī stable-ID conflict remain unresolved. Joke-family, joke-romance, and joke-role language stay nonliteral without support. Earliest surviving is not origin. SAID BY / POSTED BY / MADE BY / CAPTURED BY / FEATURING remain distinct.
