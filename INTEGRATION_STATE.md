@@ -10,9 +10,9 @@ This file is the **current integration frontier**, not a duplicate run ledger. E
 
 The mandatory full census is **51 tracked miner identities = 30 active refs + 21 historical/missing**, with **0 newly discovered refs, 0 advanced/unconsumed miner deltas, 0 unread pending-review branches at close, 3 reviewed MAIN lanes pending verification, 9 older reviewed `pending_publication` families, 0 backlog, and 0 overdue**. Both Club-Only recovery lanes remain current.
 
-The full branch-name census and live matching-ref SHA sweep reconfirmed all 30 active miner HEADs unchanged from the Run 1668 frontier, so no deep miner review was needed and no consumed SHA advanced. The controlling `INTEGRATOR_BRANCH_STATE.json` was refreshed for Run 1669 at MAIN commit `d94c2b5669a67ee5827891ade3c73af2f78e189a`.
+The full branch-name census and both opening and closing live matching-ref SHA sweeps reconfirmed all 30 active miner HEADs unchanged from the Run 1668 frontier, so no deep miner review was needed and no consumed SHA advanced. The controlling `INTEGRATOR_BRANCH_STATE.json` was refreshed for Run 1669 at MAIN commit `d94c2b5669a67ee5827891ade3c73af2f78e189a`.
 
-MAIN Run 1669's durable close report is commit `34b1e09235c84f439dfff8cd5081a0124359f091`.
+MAIN Run 1669's durable close report is commit `249231f91e91d387bc89b9cc4d2943ddc65e5048`.
 
 ## Intake / WIKI decision
 
@@ -69,4 +69,4 @@ The retired RyuuUzu / `share ur secrets` route stays DNR without genuinely new e
 ## Run 1669 durable handoff
 
 MAIN branch-state census commit: `d94c2b5669a67ee5827891ade3c73af2f78e189a`.
-MAIN Run 1669 close report commit: `34b1e09235c84f439dfff8cd5081a0124359f091`.
+MAIN Run 1669 close report commit: `249231f91e91d387bc89b9cc4d2943ddc65e5048`.
