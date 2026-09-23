@@ -1,22 +1,22 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-22 — Run 1642 reconciled close_
+_Last updated: 2026-09-22 — Run 1643 reconciled close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` remains the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
 
 This file is the **current integration frontier**, not a duplicate run ledger. Earlier run detail remains durable in Git history and MAIN's per-run `archive-intake/INTEGRATION_FINAL_*` reports.
 
-## Run 1642 — current queue
+## Run 1643 — current queue
 
 The mandatory full census is **51 tracked miner identities = 30 active refs + 21 historical/missing**, with **0 newly discovered refs, 0 advanced/unconsumed miner deltas, 0 unread pending-review branches at close, 3 reviewed MAIN lanes pending verification, 9 older reviewed `pending_publication` families, 0 backlog, and 0 overdue**. Both Club-Only recovery lanes remain current.
 
-Every active miner HEAD matched the Run 1641 controlling frontier at opening and closing census, so no deep miner review was needed and no consumed SHA advanced.
+Every active miner HEAD matched the Run 1642 controlling frontier at opening and closing census, so no deep miner review was needed and no consumed SHA advanced.
 
-MAIN controlling branch-state census commit for Run 1642: `924721005bb0ce380cefb5ca763894c16daa983f`.
+MAIN controlling branch-state census commit for Run 1643: `b1ae1100ec84bbf0f54b02c797109cbe57a56a67`.
 
 ## Intake / WIKI decision
 
-No new intake delta exists to reconcile in Run 1642. No Cast dossier, Relationship, Episode, Running Gag, Quote, Location, Gallery/media, chronology, or Petty Crimes material changed.
+No new intake delta exists to reconcile in Run 1643. No Cast dossier, Relationship, Episode, Running Gag, Quote, Location, Gallery/media, chronology, or Petty Crimes material changed.
 
 The held Whiskey `GRATS ANAYSS` line remains genuinely unresolved. No new source identifies what Anayss was being congratulated for.
 
@@ -24,9 +24,9 @@ The held Whiskey `GRATS ANAYSS` line remains genuinely unresolved. No new source
 
 Final verified/deployed reader remains **`1efa060f4b36eb975c340425545667a9b8998051`** from Run 1609.
 
-No WIKI reader bytes changed in Run 1642, so no new build or Pages deployment was triggered.
+No WIKI reader bytes changed in Run 1643, so no new build or Pages deployment was triggered.
 
-The existing reader frontier remains the last verified/deployed reader:
+The existing reader frontier was freshly rechecked and remains green:
 
 - Build Underlords Wiki `35766902626`: **success**.
 - Deploy Underlords Wiki Preview / Pages `35766902619`: **success**, including the deployed reader frontier.
@@ -35,7 +35,7 @@ This integration-state commit is reader-neutral and uses `[skip ci]`.
 
 ## MAIN surface decision
 
-**MAIN reader-facing changes in Run 1642: 0.** No MAIN reader deployment is claimed.
+**MAIN reader-facing changes in Run 1643: 0.** No MAIN reader deployment is claimed.
 
 No biography, relationship spine, episode, public chronology, or Petty Crimes section changed because there was no new miner delta.
 
@@ -66,6 +66,6 @@ Same display names do not bridge stable IDs. Mia remains distinct from Mimi / Op
 
 The retired RyuuUzu / `share ur secrets` route stays DNR without genuinely new evidence. The surviving 2021 Wall attachment remains safely attributable only as **POSTED BY antho.logy.** from current text/metadata; its pixels remain uninspected.
 
-## Run 1642 durable handoff
+## Run 1643 durable handoff
 
-MAIN controlling branch-state census commit: `924721005bb0ce380cefb5ca763894c16daa983f`.
+MAIN controlling branch-state census commit: `b1ae1100ec84bbf0f54b02c797109cbe57a56a67`.
