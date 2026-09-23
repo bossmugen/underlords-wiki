@@ -1,22 +1,22 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-23 — Run 1686 reconciled close_
+_Last updated: 2026-09-23 — Run 1687 reconciled close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` remains the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
 
 This file is the **current integration frontier**, not a duplicate run ledger. Earlier run detail remains durable in Git history and MAIN's per-run integration reports.
 
-## Run 1686 — current queue
+## Run 1687 — current queue
 
 The mandatory full census is **51 tracked miner identities = 30 active refs + 21 historical/missing**, with **0 newly discovered refs, 0 advanced/unconsumed miner deltas, 0 unread pending-review branches at close, 3 reviewed MAIN lanes pending verification, 9 older reviewed `pending_publication` families, 0 backlog, and 0 overdue**. Both Club-Only recovery lanes remain current.
 
-Opening and closing live-head sweeps reconfirmed all 30 active miner HEADs unchanged from the Run 1685 frontier, so no deep miner review was needed and no consumed SHA advanced. The controlling `INTEGRATOR_BRANCH_STATE.json` was refreshed for Run 1686 at MAIN commit `7d0f530ee490dce6929e5881473809e933ad5ce8`.
+Opening and closing live-head sweeps reconfirmed all 30 active miner HEADs unchanged from the Run 1686 frontier, so no deep miner review was needed and no consumed SHA advanced. The controlling `INTEGRATOR_BRANCH_STATE.json` was refreshed for Run 1687 at MAIN commit `7c0585c50a5255193627dca7256ef79a67688838`.
 
-MAIN Run 1686's durable close report is commit `bc12466bf152d3e61ce0304b38e00cc424a64b18`.
+MAIN Run 1687's durable close report is commit `83d19dc5ea969e047ac313d5eef5eed5f769f464`.
 
 ## Intake / WIKI decision
 
-No new intake delta exists to reconcile in Run 1686. No Cast dossier, Relationship, Episode, Running Gag, Quote, Location, Gallery/media, chronology, or Petty Crimes material changed.
+No new intake delta exists to reconcile in Run 1687. No Cast dossier, Relationship, Episode, Running Gag, Quote, Location, Gallery/media, chronology, or Petty Crimes material changed.
 
 The held Whiskey `GRATS ANAYSS` line remains genuinely unresolved. No new source identifies what Anayss was being congratulated for.
 
@@ -24,7 +24,7 @@ The held Whiskey `GRATS ANAYSS` line remains genuinely unresolved. No new source
 
 Final verified/deployed reader remains **`1efa060f4b36eb975c340425545667a9b8998051`** from Run 1609.
 
-No WIKI reader bytes changed in Run 1686, so no new build or Pages deployment was triggered.
+No WIKI reader bytes changed in Run 1687, so no new build or Pages deployment was triggered.
 
 The existing reader frontier remains the last green reader deployment after a fresh status recheck:
 
@@ -35,7 +35,7 @@ This integration-state commit is reader-neutral and uses `[skip ci]`.
 
 ## MAIN surface decision
 
-**MAIN reader-facing changes in Run 1686: 0.** No MAIN reader deployment is claimed.
+**MAIN reader-facing changes in Run 1687: 0.** No MAIN reader deployment is claimed.
 
 No biography, relationship spine, episode, public chronology, or Petty Crimes section changed because there was no new miner delta.
 
@@ -44,8 +44,8 @@ No biography, relationship spine, episode, public chronology, or Petty Crimes se
 The three inherited MAIN reader gates remain unresolved after a fresh retry/status recheck without reopening already-reviewed intake:
 
 - Daycare workflow `35672332827`: a failed-jobs rerun request was accepted, but the run remains attempt **50**, `startup_failure`, with zero jobs.
-- Core Rooms / Events workflow `35727743323`: remains attempt **26**, `cancelled`; GitHub again refused retry with `403` / cannot be retried.
-- Wall / Tony workflow `35749412434`: failed jobs were retried and the run advanced to attempt **50**, `failure`; the required Source + Astro + built-output verification job again failed before runnable steps instantiated, with `steps=null`.
+- Core Rooms / Events workflow `35727743323`: remains attempt **26**, `cancelled`; GitHub again refused retry with `403` / cannot be retried, and the run has zero jobs.
+- Wall / Tony workflow `35749412434`: a failed-jobs rerun request was accepted; the run remains attempt **50** and now returns `startup_failure`, with zero jobs.
 
 These remain infrastructure/startup failures, not demonstrated source, canon, Astro, or built-output failures.
 
@@ -66,7 +66,7 @@ Same display names do not bridge stable IDs. Mia remains distinct from Mimi / Op
 
 The retired RyuuUzu / `share ur secrets` route stays DNR without genuinely new evidence. The surviving 2021 Wall attachment remains safely attributable only as **POSTED BY antho.logy.** from current text/metadata; its pixels remain uninspected.
 
-## Run 1686 durable handoff
+## Run 1687 durable handoff
 
-MAIN branch-state census commit: `7d0f530ee490dce6929e5881473809e933ad5ce8`.
-MAIN Run 1686 close report commit: `bc12466bf152d3e61ce0304b38e00cc424a64b18`.
+MAIN branch-state census commit: `7c0585c50a5255193627dca7256ef79a67688838`.
+MAIN Run 1687 close report commit: `83d19dc5ea969e047ac313d5eef5eed5f769f464`.
