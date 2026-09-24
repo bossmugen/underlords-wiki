@@ -10,9 +10,9 @@ This file is the **current integration frontier**, not a duplicate run ledger. E
 
 The mandatory full census is **51 tracked miner identities = 30 active refs + 21 historical/missing**, with **0 newly discovered refs, 0 advanced/unconsumed miner deltas, 0 unread pending-review branches at close, 3 reviewed MAIN lanes pending verification, 9 older reviewed `pending_publication` families, 0 backlog, and 0 overdue**. Both Club-Only recovery lanes remain current.
 
-The live census contains 26 `archive-miner/*` refs and 4 `archive-miner-*` refs. Every current miner HEAD still matches the controlling ledger's recorded `last_seen_sha`. The controlling JSON therefore remains content-current at Run 1733's ledger commit `72637021e5640b1a16332867c77557c7e8c085db`; because no live SHA changed, no branch-state JSON bytes or consumed cursor needed to change in Run 1736.
+The live census contains 26 `archive-miner/*` refs and 4 `archive-miner-*` refs. Opening and closing live-head sweeps matched, and every current miner HEAD still matches the controlling ledger's recorded `last_seen_sha`. The controlling JSON therefore remains content-current at Run 1733's ledger commit `72637021e5640b1a16332867c77557c7e8c085db`; because no live SHA changed, no branch-state JSON bytes or consumed cursor needed to change in Run 1736.
 
-MAIN Run 1736's durable close report is commit `80a7a4f401f55bd3fb62fb4764643eda0ee43904`.
+MAIN Run 1736's durable close report is commit `8e375195b0e1bacf9319862b5b1d64fe32fe7dab`.
 
 ## Intake / WIKI decision
 
@@ -69,4 +69,4 @@ The retired RyuuUzu / `share ur secrets` route stays DNR without genuinely new e
 ## Run 1736 durable handoff
 
 MAIN controlling branch-state ledger remains current at Run 1733 ledger commit: `72637021e5640b1a16332867c77557c7e8c085db`.
-MAIN Run 1736 close report commit: `80a7a4f401f55bd3fb62fb4764643eda0ee43904`.
+MAIN Run 1736 close report commit: `8e375195b0e1bacf9319862b5b1d64fe32fe7dab`.
