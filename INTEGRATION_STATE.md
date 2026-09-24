@@ -1,22 +1,22 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-23 — Run 1706 reconciled close_
+_Last updated: 2026-09-23 — Run 1707 reconciled close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` remains the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
 
 This file is the **current integration frontier**, not a duplicate run ledger. Earlier run detail remains durable in Git history and MAIN's per-run integration reports.
 
-## Run 1706 — current queue
+## Run 1707 — current queue
 
 The mandatory full census is **51 tracked miner identities = 30 active refs + 21 historical/missing**, with **0 newly discovered refs, 0 advanced/unconsumed miner deltas, 0 unread pending-review branches at close, 3 reviewed MAIN lanes pending verification, 9 older reviewed `pending_publication` families, 0 backlog, and 0 overdue**. Both Club-Only recovery lanes remain current.
 
-The live branch census returned the same 30 active miner refs already recorded by MAIN's controlling branch-state ledger, and the live-head sweep remains at the Run 1705 frontier. The pagination follow-up returned no additional miner refs. The 21 historical/missing refs remain explicitly represented. No branch-state field changed, so the controlling JSON remains byte-current rather than being rewritten for metadata-only churn. No deep miner review was needed and no consumed SHA advanced.
+The live branch census returned the same 30 active miner refs already recorded by MAIN's controlling branch-state ledger, and the live-head sweep remains at the Run 1706 frontier. The pagination follow-up returned no additional miner refs. The 21 historical/missing refs remain explicitly represented. No branch-state field changed, so the controlling JSON remains byte-current rather than being rewritten for metadata-only churn. No deep miner review was needed and no consumed SHA advanced.
 
-MAIN Run 1706's durable close report is commit `47e282c0fbbd45621a19faddccef880a7e7bf4f3`.
+MAIN Run 1707's durable close report is commit `de9530729ff75b3d4c6f6bdd77eabd20dfe32787`.
 
 ## Intake / WIKI decision
 
-No new intake delta exists to reconcile in Run 1706. No Cast dossier, Relationship, Episode, Running Gag, Quote, Location, Gallery/media, chronology, or Petty Crimes material changed.
+No new intake delta exists to reconcile in Run 1707. No Cast dossier, Relationship, Episode, Running Gag, Quote, Location, Gallery/media, chronology, or Petty Crimes material changed.
 
 The held Whiskey `GRATS ANAYSS` line remains genuinely unresolved. No new source identifies what Anayss was being congratulated for.
 
@@ -24,7 +24,7 @@ The held Whiskey `GRATS ANAYSS` line remains genuinely unresolved. No new source
 
 Final verified/deployed reader remains **`1efa060f4b36eb975c340425545667a9b8998051`** from Run 1609.
 
-No WIKI reader bytes changed in Run 1706, so no new build or Pages deployment was triggered.
+No WIKI reader bytes changed in Run 1707, so no new build or Pages deployment was triggered.
 
 The existing reader frontier remains the last green reader deployment after a fresh status recheck:
 
@@ -35,7 +35,7 @@ This integration-state commit is reader-neutral and uses `[skip ci]`.
 
 ## MAIN surface decision
 
-**MAIN reader-facing changes in Run 1706: 0.** No MAIN reader deployment is claimed.
+**MAIN reader-facing changes in Run 1707: 0.** No MAIN reader deployment is claimed.
 
 No biography, relationship spine, episode, public chronology, media object, or Petty Crimes section changed because there was no new miner delta.
 
@@ -66,7 +66,7 @@ Same display names do not bridge stable IDs. Mia remains distinct from Mimi / Op
 
 The retired RyuuUzu / `share ur secrets` route stays DNR without genuinely new evidence. The surviving 2021 Wall attachment remains safely attributable only as **POSTED BY antho.logy.** from current text/metadata; its pixels remain uninspected.
 
-## Run 1706 durable handoff
+## Run 1707 durable handoff
 
 MAIN controlling branch-state ledger remains byte-current at its Run 1697 census commit `114f950b9146fc8efd615d5872ae002ac8cf5d78` because every live `last_seen_sha` is unchanged.
-MAIN Run 1706 close report commit: `47e282c0fbbd45621a19faddccef880a7e7bf4f3`.
+MAIN Run 1707 close report commit: `de9530729ff75b3d4c6f6bdd77eabd20dfe32787`.
