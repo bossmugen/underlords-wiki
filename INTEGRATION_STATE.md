@@ -1,22 +1,22 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-24 — Run 1730 reconciled close_
+_Last updated: 2026-09-24 — Run 1731 reconciled close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` remains the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
 
 This file is the **current integration frontier**, not a duplicate run ledger. Earlier run detail remains durable in Git history and MAIN's per-run integration reports.
 
-## Run 1730 — current queue
+## Run 1731 — current queue
 
 The mandatory full census is **51 tracked miner identities = 30 active refs + 21 historical/missing**, with **0 newly discovered refs, 0 advanced/unconsumed miner deltas, 0 unread pending-review branches at close, 3 reviewed MAIN lanes pending verification, 9 older reviewed `pending_publication` families, 0 backlog, and 0 overdue**. Both Club-Only recovery lanes remain current.
 
-Opening and closing live-head sweeps returned the same 30 active miner refs as Run 1729. Every current miner HEAD still matches the controlling ledger's recorded `last_seen_sha`. The controlling JSON was explicitly refreshed for Run 1730 at MAIN commit `eee5724e4628afad3c88895a41b278bbed4e8303`; no deep miner review was needed and no consumed SHA advanced.
+Opening and closing live-head sweeps returned the same 30 active miner refs as Run 1730. Every current miner HEAD still matches the controlling ledger's recorded `last_seen_sha`. The controlling JSON was explicitly refreshed for Run 1731 at MAIN commit `51119037d0f3d6c303122ecc6b32537d7db035d3`; no deep miner review was needed and no consumed SHA advanced.
 
-MAIN Run 1730's durable close report is commit `3044739d98c1f024b9f3da8c594ff88c8e3576dd`.
+MAIN Run 1731's durable close report is commit `9b98196d1dc3a25e27c52c79c2adac498b6d6177`.
 
 ## Intake / WIKI decision
 
-No new intake delta exists to reconcile in Run 1730. No Cast dossier, Relationship, Episode, Running Gag, Quote, Location, Gallery/media, chronology, or Petty Crimes material changed.
+No new intake delta exists to reconcile in Run 1731. No Cast dossier, Relationship, Episode, Running Gag, Quote, Location, Gallery/media, chronology, or Petty Crimes material changed.
 
 The held Whiskey `GRATS ANAYSS` line remains genuinely unresolved. No new source identifies what Anayss was being congratulated for.
 
@@ -24,7 +24,7 @@ The held Whiskey `GRATS ANAYSS` line remains genuinely unresolved. No new source
 
 Final verified/deployed reader remains **`1efa060f4b36eb975c340425545667a9b8998051`** from Run 1609.
 
-No WIKI reader bytes changed in Run 1730, so no new build or Pages deployment was triggered.
+No WIKI reader bytes changed in Run 1731, so no new build or Pages deployment was triggered.
 
 The existing reader frontier remains the last green reader deployment after a fresh status recheck:
 
@@ -35,7 +35,7 @@ This integration-state commit is reader-neutral and uses `[skip ci]`.
 
 ## MAIN surface decision
 
-**MAIN reader-facing changes in Run 1730: 0.** No MAIN reader deployment is claimed.
+**MAIN reader-facing changes in Run 1731: 0.** No MAIN reader deployment is claimed.
 
 No biography, relationship spine, episode, public chronology, media object, or Petty Crimes section changed because there was no new miner delta.
 
@@ -66,7 +66,7 @@ Same display names do not bridge stable IDs. Mia remains distinct from Mimi / Op
 
 The retired RyuuUzu / `share ur secrets` route stays DNR without genuinely new evidence. The surviving 2021 Wall attachment remains safely attributable only as **POSTED BY antho.logy.** from current text/metadata; its pixels remain uninspected.
 
-## Run 1730 durable handoff
+## Run 1731 durable handoff
 
-MAIN controlling branch-state ledger refresh commit: `eee5724e4628afad3c88895a41b278bbed4e8303`.
-MAIN Run 1730 close report commit: `3044739d98c1f024b9f3da8c594ff88c8e3576dd`.
+MAIN controlling branch-state ledger refresh commit: `51119037d0f3d6c303122ecc6b32537d7db035d3`.
+MAIN Run 1731 close report commit: `9b98196d1dc3a25e27c52c79c2adac498b6d6177`.
