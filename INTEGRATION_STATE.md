@@ -1,22 +1,22 @@
 # UNDERLORDS WIKI — Integration State
 
-_Last updated: 2026-09-24 — Run 1739 reconciled close_
+_Last updated: 2026-09-24 — Run 1740 reconciled close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` remains the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
 
 This file is the **current integration frontier**, not a duplicate run ledger. Earlier run detail remains durable in Git history and MAIN's per-run integration reports.
 
-## Run 1739 — current queue
+## Run 1740 — current queue
 
 The mandatory full census is **51 tracked miner identities = 30 active refs + 21 historical/missing**, with **0 newly discovered refs, 0 advanced/unconsumed miner deltas, 0 unread pending-review branches at close, 3 reviewed MAIN lanes pending verification, 9 older reviewed `pending_publication` families, 0 backlog, and 0 overdue**. Both Club-Only recovery lanes remain current.
 
-The live census contains 26 `archive-miner/*` refs and 4 `archive-miner-*` refs. Opening and closing live-head sweeps matched, and every current miner HEAD still matches the controlling ledger's recorded `last_seen_sha`. The controlling JSON therefore remains content-current at Run 1733's ledger commit `72637021e5640b1a16332867c77557c7e8c085db`; because no live SHA changed, no branch-state JSON bytes or consumed cursor needed to change in Run 1739.
+The live census contains 26 `archive-miner/*` refs and 4 `archive-miner-*` refs. Opening and closing live-head sweeps matched, and every current miner HEAD still matches the controlling ledger's recorded `last_seen_sha`. The controlling JSON therefore remains content-current at Run 1733's ledger commit `72637021e5640b1a16332867c77557c7e8c085db`; because no live SHA changed, no branch-state JSON bytes or consumed cursor needed to change in Run 1740.
 
-MAIN Run 1739's durable close report is commit `c6f1cfda8e215859280db998d3d968f6b840cdba`.
+MAIN Run 1740's durable close report is commit `49e199ec0e39a1a32ea06e531a56c1f375f59631`.
 
 ## Intake / WIKI decision
 
-No new intake delta exists to reconcile in Run 1739. No Cast dossier, Relationship, Episode, Running Gag, Quote, Location, Gallery/media, chronology, or Petty Crimes material changed.
+No new intake delta exists to reconcile in Run 1740. No Cast dossier, Relationship, Episode, Running Gag, Quote, Location, Gallery/media, chronology, or Petty Crimes material changed.
 
 The held Whiskey `GRATS ANAYSS` line remains genuinely unresolved. No new source identifies what Anayss was being congratulated for.
 
@@ -24,7 +24,7 @@ The held Whiskey `GRATS ANAYSS` line remains genuinely unresolved. No new source
 
 Final verified/deployed reader remains **`1efa060f4b36eb975c340425545667a9b8998051`** from Run 1609.
 
-No WIKI reader bytes changed in Run 1739, so no new build or Pages deployment was triggered.
+No WIKI reader bytes changed in Run 1740, so no new build or Pages deployment was triggered.
 
 The existing reader frontier remains the last green reader deployment after a fresh status recheck:
 
@@ -35,7 +35,7 @@ This integration-state commit is reader-neutral and uses `[skip ci]`.
 
 ## MAIN surface decision
 
-**MAIN reader-facing changes in Run 1739: 0.** No MAIN reader deployment is claimed.
+**MAIN reader-facing changes in Run 1740: 0.** No MAIN reader deployment is claimed.
 
 No biography, relationship spine, episode, public chronology, media object, or Petty Crimes section changed because there was no new miner delta.
 
@@ -43,9 +43,9 @@ No biography, relationship spine, episode, public chronology, media object, or P
 
 The three inherited MAIN reader gates remain unresolved after fresh status checks without reopening already-reviewed intake:
 
-- Daycare workflow `35672332827`: attempt **50**, `startup_failure`; zero jobs; last updated 2026-09-24 06:34:20Z.
-- Core Rooms / Events workflow `35727743323`: attempt **26**, `cancelled`; zero jobs; last updated 2026-09-22 19:15:18Z.
-- Wall / Tony workflow `35749412434`: attempt **50**, `startup_failure`; zero jobs; last updated 2026-09-24 06:34:27Z.
+- Daycare workflow `35672332827`: attempt **50**, `startup_failure`; zero jobs.
+- Core Rooms / Events workflow `35727743323`: attempt **26**, `cancelled`; zero jobs.
+- Wall / Tony workflow `35749412434`: attempt **50**, `startup_failure`; zero jobs.
 
 These remain infrastructure/startup failures, not demonstrated source, canon, Astro, or built-output failures. No blocked contiguous consumption cursor moved.
 
@@ -66,7 +66,7 @@ Same display names do not bridge stable IDs. Mia remains distinct from Mimi / Op
 
 The retired RyuuUzu / `share ur secrets` route stays DNR without genuinely new evidence. The surviving 2021 Wall attachment remains safely attributable only as **POSTED BY antho.logy.** from current text/metadata; its pixels remain uninspected.
 
-## Run 1739 durable handoff
+## Run 1740 durable handoff
 
 MAIN controlling branch-state ledger remains current at Run 1733 ledger commit: `72637021e5640b1a16332867c77557c7e8c085db`.
-MAIN Run 1739 close report commit: `c6f1cfda8e215859280db998d3d968f6b840cdba`.
+MAIN Run 1740 close report commit: `49e199ec0e39a1a32ea06e531a56c1f375f59631`.
