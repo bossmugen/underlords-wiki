@@ -1,5 +1,10 @@
 # UNDERLORDS WIKI — Integration State
 
+## 2026-10-31 Backroom publication recovery (MAIN-owned)
+
+Full miner census: 51 tracked / 30 active / 21 historical; Main HQ advanced to `25e8eb461207d00cbe437600ab8d3e361e7c60f5` and its checkpoint-only dry/correction delta was reviewed without new A/B lore. The July 1, 2025 disband announcement is already indexed, not a new find. MAIN published a candidate reader edit at `d70ba12ce2d47bdb044faf5d96edde97e8b6dbd5` in `src/lib/photo-submissions-overrides.ts` for the Backroom `Moments Submission Side Door` (Pass 60), awaiting production verification run `41180736949` and exact live deployment. WIKI reader content unchanged: the scene belongs in MAIN's narrative Photoshoot page; structured WIKI episode/cast material can follow after verification without mirroring prose. Backroom family remains pending for other unintegrated candidates and uninspected media. Hard identity, attribution, privacy boundaries preserved.
+
+
 _Last updated: 2026-09-24 — Run 1751 reconciled close_
 
 MAIN's `archive-intake/INTEGRATOR_BRANCH_STATE.json` on `bossmugen/underlords:master` remains the controlling miner-consumption ledger. MAIN canon locks and resolved identity corrections remain the highest-priority identity/role layer. WIKI owns structured Cast dossiers, Relationships, Episodes, Running Gags, Quotes, Locations, and Gallery/media notes; MAIN owns richer person-first biographies.
