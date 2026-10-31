@@ -70,3 +70,11 @@ The retired RyuuUzu / `share ur secrets` route stays DNR without genuinely new e
 
 MAIN controlling branch-state ledger commit: `74c3d87c3d9a1b03c6ac2a8a53b68031bbba304b`.
 MAIN Run 1751 close report commit: `a1fe439afea08e74f4711a42a62ee2bfd1f144d2`.
+
+## 2026-10-30/31 integration addendum
+
+The full miner-name census remains 30 active and 21 historical refs. Raja Photobooth's three-commit checkpoint/DNR delta was reviewed and consumed through `a85421a70c71b071f6ad152f838f05aabcb99af5` with no public change: selected image bytes are source-blocked, not disproven. MAIN ledger commit: `02138a4bd285a4f2e61452bdbd4b8872ebd8bfe3`.
+
+Whiskey's eight-commit delta includes the prior Sep 30 phenomenal_lamb/Cele school-life profile packet and new Oct 30 ShiyaX carpentry/workshop and 500-milk-carton no-glue lampshade findings. Accepted for person-first editorial routing, **not yet published**. Shiya's direct `carpenter` wording, wedding/proposal setups and named audience pings support ordinary-life texture; recipient of the lampshade and media pixels remain unknown. Do not claim cheating from phenomenal_lamb's joke or infer Cele's academic level. Whiskey consumption remains at `fb823a6fb8f6b86f3b239ffb22514ca582f8f4c3` pending verified public integration.
+
+No WIKI reader files changed, so no new reader build or deployment is claimed. Existing MAIN Daycare/Core/Wall verification debts remain open; no corresponding consumed cursor advanced. This addendum is state-only.
