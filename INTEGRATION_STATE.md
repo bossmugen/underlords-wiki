@@ -1,3 +1,7 @@
+## 2026-10-31 01:30 PDT — Backroom Kahoot publication recovery
+
+Census: 51 tracked / 30 active / 21 historical, no newly discovered refs. Main HQ advanced to `e172df0641d6fa9c9d47a2bec6ff40c1aee0fb3c`, checkpoint-first dry3 exhaustion reviewed and consumed (no new A/B). Both Club-Only lanes unchanged/current. Backroom branch `archive-miner/backroom-deals-2026-08-24` unchanged at `9c143a7c146af4fc90de4b258bee1c848a2818a0`; its Pass 59 `site-candidates-pass-59.md`, `findings-pass-59.md`, `receipts-pass-59.md` support expanded Kahoot program, June and July winners, and Ren's August code-correction fiasco. MAIN reader file `src/lib/kahoot-history-overrides.ts` updated in `ff113847764885e9da9bab9bd94558c008e82d83`, workflow `41184810616` pending verification at state-write time. WIKI reader untouched: structured episode/people links may be added later, not duplicate MAIN's story. Prior Pass 60 Moments Side Door MAIN workflow `41180736949` succeeded, but exact live marker not independently checked in this run. Backroom family remains open; other candidates and source-blocked original media remain outstanding. No Backroom consumed SHA advanced. Identity, private-room and media-attribution boundaries preserved.
+
 
 ## 2026-10-31 00:37 PDT — August Reunion / Anthos slide callback
 
