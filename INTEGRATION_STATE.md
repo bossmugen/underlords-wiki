@@ -1,3 +1,8 @@
+
+## 2026-10-31 00:37 PDT — August Reunion / Anthos slide callback
+
+Assigned August Reunion branch `archive-miner/aug-2026-living-ensemble-hourly` at `fcc27ac7a4457fc5c93c575bd2813b8e19abfa3b`, Main HQ branch `archive-miner/main-hq-hourly` at `25e8eb461207d00cbe437600ab8d3e361e7c60f5`. Census 30 active / 21 historical. August Run 13 `SLIDE INTO DMS` genealogy (2020 Ansun/Anthos/Mugen, Rooks custom emoji, 2026 Ren/Nobu return) added to MAIN Anthos biography at `d6723d75c6910865194fe9a1018eca18d0566572`. MAIN production run `41181349125` was in progress at time of this note; do not claim deployed or advance August consumed SHA without successful exact-commit verification. WIKI reader untouched: future structured Running Gag/episode record is distinct from MAIN person-first synthesis. Main HQ latest checkpoint dry-pass is not new A/B lore. 2020/2026 slide image identity unresolved; no new media published. Other August and HQ candidate inventory remains open.
+
 # UNDERLORDS WIKI — Integration State
 
 ## 2026-10-31 Backroom publication recovery (MAIN-owned)
