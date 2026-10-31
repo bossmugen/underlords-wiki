@@ -1,3 +1,7 @@
+## 2026-10-31 03:30 PDT — Backroom Moments reader formatting repair
+
+MAIN `src/lib/photo-submissions-overrides.ts` corrected literal `\\n\\n` text in the Pass 60 Moments Side Door passage to actual rendered paragraph separation, commit `191a2dda9fc9c161bd8aa825b7b9b28adb256cb6`. This is a presentation correction, not new lore or a consumed Backroom candidate. Exact MAIN production build/live deployment unverified: commit-status and PR-filtered workflow queries returned no runs/checks at inspection. WIKI reader unchanged. Branch-name census returned 30 active matching refs (4 hyphen + 26 slash); HEAD-SHA census and persistent MAIN branch-state update were not completed in this pass. Backroom publication backlog remains open, exact remaining candidate count unresolved.
+
 ## 2026-10-31 02:18 PDT — QOTD Rose deployment failure and safe revert
 
 MAIN QOTD Rose content commit `4e3188df9db4c34ba1adcdef94b83f39b9001261` failed workflow `41188040587`, at `Verify, build, deploy, and confirm live commit` after successful checkout, Node setup, dependency installation and credential checks. Exact failing subcommand/log unavailable through connector; do not label it source or infrastructure conclusively. Reader file restored to its pre-edit bytes at MAIN commit `062ba059a8e9045ebbb5cc0eff0eeef02cd117c5`. Accepted DarkAsrai/Rose QOTD candidate remains **pending publication**, not integrated; no QOTD consumed SHA moved. WIKI reader untouched.
