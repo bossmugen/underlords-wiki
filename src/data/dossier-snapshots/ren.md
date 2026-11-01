@@ -24,6 +24,13 @@ claims:
     evidence: "user-confirmed"
     sources:
       - label: "Mugs-confirmed background canon"
+  - text: "Ren's RAJA POLICE DEPARTMENT parody dossiers turned Officer personalities and recurring house jokes into fake warning fields: Gabu's four-foot height and nonhuman warning, Gilli's height comparison, Sye's small-and-deadly label, Oyasumi's deceptively cheerful warning, Mugen's PLUTONIAN language and sprawling fake criminal record, and Ren's own avoid-at-all-costs advisory. The set was reposted in 2025 and revived familiar jokes."
+    evidence: "archive-confirmed"
+    date: "2025"
+    sources:
+      - label: "Main HQ / Wall · police-card reposts · 1355050884609867788, 1355050934496923759, 1355051574958751887, 1355203583842455683"
+        href: "/channels/wall"
+    note: "The 2025 receipts document circulation/reposting, not the original creation date. Do not claim a real police department, legal offenses, or maker/capture credit for uninspected images."
   - text: "On April 13, 2020, during Slice's opening-night conversation about pandemic anxiety, Ren wrote `You kept me distracted for a while! That made it better`."
     evidence: "archive-confirmed"
     date: "2020-04-13"
@@ -225,3 +232,9 @@ It is one reflection, not a permanent philosophy. Its value in the bio is simple
 When Rummy's old Discord account is hacked, Ren announces which replacement account belongs to her. Ren did not recover the account and this is not a cybersecurity role. It is the latest version of the same social function visible since 2020: make sure the room can still connect the label to the person.
 
 That is the progression underneath the Caporegime title. Ren starts as somebody helped by the room, becomes a collector of its language, then increasingly helps other people navigate its care routines, programs, access rules, family language, creative premises, and identity changes. Human Ctrl+F is a joke. The timeline is why the joke works.
+
+## RAJA POLICE DEPARTMENT — Running gag / artifact index
+
+Ren's fake Officer dossiers made the house's private jokes searchable as mock criminal warnings. Gabu's height feud, Mugen's Plutonian nonsense, Sye's small-but-deadly reputation, and Ren's own warning to avoid her all became form fields. The 2025 reposts brought the jokes back into circulation. The cards are a comedy artifact, not evidence of actual offenses or a dated formal appointment.
+
+**Receipt IDs:** `1355050884609867788`, `1355050934496923759`, `1355051574958751887`, `1355203583842455683`. Original card creation date and media authorship remain unresolved.
