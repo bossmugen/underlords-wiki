@@ -82,6 +82,13 @@ claims:
     sources:
       - label: "Announcements / QOTD"
         href: "/channels/qotd"
+  - text: "On January 7, 2022 at 05:52 PST, Gilli was still posting the daily question manually in Announcements, asking about dream careers and answering that she had dreamed of becoming a veterinarian. The dedicated QOTD room existed by 09:52 PST that morning. Her nearby answers also named seafood as her forever food and making at least one more friend as a New Year goal."
+    evidence: "archive-confirmed"
+    date: "2022-01-01 – 2022-01-07"
+    sources:
+      - label: "QOTD / Announcements · 2022-01-07 manual opening shift"
+        href: "/events/qotd"
+    note: "The room snowflake bounds its existence, not the creator or a formal opening ceremony; the food and friendship answers are nearby manual QOTD self-description."
   - text: "On January 1, 2022, Gilli answered the first QOTD of the year with `I plan to try to make at least one more friend.` The post received five Raja_Heart reactions from Sara, Gabu, DyingFox, WolfPhenix, and Anayss."
     evidence: "archive-confirmed"
     date: "2022-01-01"
