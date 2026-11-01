@@ -131,6 +131,13 @@ claims:
     date: "2026-08-04"
     sources:
       - label: "Club media gallery"
+  - text: "On January 6, 2021, Sye posted a New Year Photoshoot entry after saying `Only came on to do this` and `Took me a hundred tries...`; on January 31, the same account posted an `Example Photos` header with an attachment and two further reference images about thirteen minutes later."
+    evidence: "archive-confirmed"
+    date: "2021-01-06 – 2021-01-31"
+    sources:
+      - label: "Photo Submissions · January 2021; miner site-candidates.md, Sye example-photo sequence"
+        href: "/events/photo-submissions"
+    note: "The three example images were POSTED BY Sye; MADE BY, CAPTURED BY, and FEATURING are not established. This is participation followed by reference-image posting, not evidence of a newly appointed formal role."
 antiFanon:
   - "Do not split Life, Syenitha, Sadako, sycessences, and ƐℲı˥ into separate people."
   - "Do not merge Sye with Syv. The corrected September 2020 Saber config and November 2022 maintenance relay are authored by Sye's 488099199938986004 / sycessences account; Syv's stable account is the separate 197521779177029632 / syveon."
@@ -202,6 +209,10 @@ During the June 2023 communal doodle poster, Sye notices the stale-copy problem:
 It is a tiny scene, but it makes the older bot work feel continuous. Different object, same instinct: identify what state got lost and keep the shared thing from silently discarding somebody else's input.
 
 By 2024, the archive also gives more ordinary social material. Sye reacts with genuine surprise to a new Rummy Wall line—**`rumi what`**, **`This is a different side of Rumi I never seen`**—and later appears across a voice-room hangout where conversation ranges through food, work, games, PCs, places, and daily life. The person is no longer only visible when something needs debugging.
+
+## THE HUNDRED-TRY PICTURE AND THE EXAMPLE TABLE
+
+On January 6, Sye came back for the New Year Photoshoot and admitted it had taken a hundred tries to get a picture she could live with. The phrase `Only came on to do this` makes the effort funnier: an allegedly casual visit had already become a private production marathon. On January 31, the same account posted an `Example Photos` header and three images for the next round. She had moved from wrestling with her own entry to helping fill the room with examples. The images' photographers and subjects are not established; the contribution is the posting itself.
 
 ## 2025 — DOMAIN KNOWLEDGE ARRIVES IN THE SAME CLOWN REGISTER
 
