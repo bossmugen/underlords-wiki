@@ -34,7 +34,15 @@ claims:
       - label: "👅 Wall recovered export"
         href: "/channels/wall"
     note: "The exchange is relationship texture and a direct conversational limit. `I’m broke` is not promoted into literal long-term financial status, no ramen delivery is inferred, and Ricochet / dragonrichard remains separate from Rich / DragonRich."
+  - text: "On February 12, 2022, Syv credited Ren with talking to her when she was shy and helping her speak more in UL; on March 28, 2024, Syv named Ren as the person most similar to herself, citing their shared chaos and very long favorite-thing rants. Ren reacted with happiness and love."
+    evidence: "archive-confirmed"
+    date: "2022-02-12 → 2024-03-28"
+    sources:
+      - label: "☕ QOTD · Syv/Ren bridge-to-mirror"
+        href: "/channels"
+    note: "Syv authored 942150562877698168 and 1222938806789996617; QOTD prompt 1222897175151902814. Reactions lack timestamps. Friendship, not literal kinship or romance."
 antiFanon:
+  - "Ren helping Syv become more comfortable speaking and Syv later identifying with Ren are friendship and self-description, not proof of romance or formal mentorship."
   - "Syv is not Sye. Stable Syv account: 197521779177029632 / syveon. Stable Sye/Life/Syenitha account in the corrected bot scenes: 488099199938986004 / sycessences. Never merge them because the names differ by one letter."
   - "The September 22, 2020 Saber `!config` commands previously misfiled under Syv are authored by `sycessences` / account 488099199938986004 and belong to Sye, not Syv."
   - "The November 22, 2022 Announcements lines `we are getting a System Alert...` / `PLEASE LOG OFF` are also authored by `sycessences` / account 488099199938986004 and belong to Sye, not Syv."
@@ -44,9 +52,13 @@ antiFanon:
   - "Do not turn one C, one B target, and one make-up plan into Syv's complete academic record or a personality diagnosis."
   - "Do not turn `I’m broke` into literal poverty, a persistent financial condition, or proof that Ricochet expected real food delivery."
 relatedPeople:
+  - "ren"
   - "rich"
   - "ricochet"
 tags:
+  - "ren"
+  - "qotd"
+  - "friendship"
   - "vip"
   - "amaurot"
   - "wall"
@@ -79,6 +91,14 @@ Nine seconds after that:
 The useful word is **counting**. The C does not become an A through positive thinking. Syv is actively deciding what the result means against the disaster she expected. Relief barely gets time to sit down before she names the next threshold — **`As long as I get a B I’ll be good`** — and the next move: **`I’ll have to make it up with other tests`**.
 
 The situation remains bad enough that the class is apparently conducting a collective postmortem. Syv simply finds the part of it that is still usable and keeps moving.
+
+## REN: FROM BRIDGE TO MIRROR
+
+In February 2022, Syv singled out Ren as the one who kept talking to her when she barely spoke in UL. She said Ren dragged her out of her shy bubble and helped her join conversations. The thanks was personal, not a claim that Ren held some official mentoring post.
+
+By March 2024, asked which server member was most like her, Syv picked Ren. Their overlap was not quietness: it was the capacity for chaos and for allegedly little rants about favorite things. Syv crossed out *little* herself. Ren's happy and love reactions make the exchange reciprocal without requiring a grand speech. Ren had gone from someone who made talking easier to someone Syv could recognize herself in.
+
+**QOTD references:** Syv `942150562877698168` (2022-02-12); prompt `1222897175151902814` and Syv `1222938806789996617` (2024-03-28).
 
 ## YOU DISAPPEARED FOR WEEKS. ANYWAY, NO RAMEN.
 
