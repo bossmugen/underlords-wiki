@@ -83,6 +83,13 @@ claims:
     sources:
       - label: "Wall of Shame/Fame · 2021-10-19"
         href: "/archive/wall"
+  - text: "Han posted five late-2021 Photoshoot entries across Popstar, NightLife, Scary, Family, and Winter. His November 15 Family caption said `probably gonna be the last submission for me`; on December 7 he returned for Winter with `still have something left hehe`."
+    evidence: "archive-confirmed"
+    date: "2021-11-15 – 2021-12-07"
+    sources:
+      - label: "Photo Submissions · Family and Winter"
+        href: "/events/photo-submissions"
+    note: "A contest-submission fake-out, not retirement from UL. Han posted the images; maker, photographer and depicted-subject credits remain unverified."
   - text: "Han is not Mia and is not a Platelet."
     evidence: "user-confirmed"
     sources:
@@ -142,6 +149,10 @@ On November 17, Han writes one of the archive's cleanest early statements separa
 > `I quit the game, but I will be still here as club media dude uwu.`
 
 The sentence is not a universal membership rule and does not prove he never touched Raja again. It does show what Han thought his place in UL had become. The game could stop being his game without making the media work, friendships, and social identity disappear with it.
+
+## THE GLAMOUR DEPARTMENT REFUSES HIS RESIGNATION
+
+Han was not just making media for everybody else. He entered five Photoshoot rounds himself, from Popstar through Winter. On November 15, after his Family submission, he floated `probably gonna be the last submission for me`. By December 7 he was back with a Winter picture and `still have something left hehe`. Apparently the retirement speech had a shorter shelf life than the screenshots. The tiny return matters because he could step away from a particular creative activity without losing the itch to contribute; it does not rewrite his separate statement about quitting Raja.
 
 ## 2022 — MUGEN EXPLAINS WHY THE TITLE EXISTED
 
