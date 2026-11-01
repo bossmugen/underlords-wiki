@@ -43,6 +43,23 @@ claims:
     sources:
       - label: "Wall of Shame/Fame · 2021-06-04"
         href: "/archive/wall"
+  - text: "Cele explains that her former username Celeana is an uncorrected typo of Celaena, a favorite-book character."
+    evidence: "archive-confirmed"
+    date: "2023-02-02"
+    sources:
+      - label: "QOTD · message 1070725388931698699"
+  - text: "Cele describes Woosung drawing her into Raja and UL with a teasing same-club bullying joke; she later calls her own affectionate style `booli wit lOoveee`."
+    evidence: "archive-confirmed"
+    date: "2022-02-12 – 2023-05-04"
+    sources:
+      - label: "QOTD · messages 942206834633244733, 1103700525666549994"
+    note: "Woosung is independently confirmed as Cele's real-life cousin; this does not establish who technically accepted her into the club."
+  - text: "Cele and Anthos sustain a fictional daycare adoption-and-milk-errand joke across 2022–2023, with Anthos participating and Cele continuing to invoke the missing milk."
+    evidence: "archive-confirmed"
+    date: "2022-01-26 – 2023-03-28"
+    sources:
+      - label: "QOTD · messages 935934802866081802, 942212157448257588, 1090413235636805652"
+    note: "Joke kinship only; no literal adoption or abandonment."
 antiFanon:
   - "Cele's primary Biodata shelf is Platelets, not Staff."
   - "An export-time Staff role does not override the current primary-shelf correction."
@@ -52,6 +69,7 @@ antiFanon:
   - "Ren's Marie Kondo bit is peer characterization, not Cele's actual philosophy."
 relatedPeople:
   - "woosung"
+  - "anthos"
   - "rummy"
   - "rich"
 tags:
@@ -98,3 +116,8 @@ The repetition also clarifies what was missing from the 2021 Marie Kondo bit. Re
 That is why the garbled text matters beyond being funny. Cele does not merely say `stop`. Her response escalates visibly from recognizable words into damaged ones and then into emotes, as though the archive is catching language run out of bandwidth under the pressure of the receipt. In 2022 she even circles back into a wheeze, meaning the collapse is not the end of the interaction; it becomes one more thing the room can laugh with her about.
 
 Permanent Platelet is the stable roster fact. The biography the archive earns is chronological and narrower: first Cele is mostly preserved through peer characterization; then, once the Wall catches her reacting in her own voice, a much better pattern appears — mock prosecution, linguistic collapse, screaming cats, and a remarkably short path from `UR DONE` back to laughing inside the same house that just exposed her.
+## QOTD relationships and running gags
+
+- **Woosung:** Real-life cousins; WOO's same-club teasing invitation is Cele's account of how she came into Raja/UL. WOO later describes Cele as someone she can rely on, and Cele calls teasing with love her own affectionate style.
+- **Anthos:** The recurring fictional Daycare adoption and missing-milk-parent joke survives from January 2022 into March 2023. Anthos answers the bit; Cele keeps calling back to it.
+- **Name origin:** `Celeana` was an uncorrected misspelling of `Celaena`, not a separate person or an inferred legal name.
