@@ -71,6 +71,20 @@ claims:
       - label: "Complete QOTD archive · 2023"
         href: "/archive/qotd"
     note: "This supports serious cooking/baking and equipment interest. It does not prove a culinary occupation or credential."
+  - text: "Rose described her sister as someone who stays with her even when she messes up, and said Underlords accepted a 'weirdo' like her. Her three cats had sharply different habits: hiding in warm places, indifference, and persistent zoomies."
+    evidence: "archive-confirmed"
+    date: "2023"
+    sources:
+      - label: "QOTD · DarkAsrai belonging and three-cat answers"
+        href: "/archive/qotd"
+    note: "Same stable account as Rose. The fictional Rose character prompt nearby is not a real-life biography source. Exact authored message IDs were not re-expanded in this handoff."
+  - text: "Rose wanted to play more horror games despite expecting jump-scare screams, but specifically rejected ASMR recordings of people eating. She also mentioned mini cheesecakes in 2023 and strawberry-cheesecake ice cream in 2025."
+    evidence: "archive-confirmed"
+    date: "2023–2025"
+    sources:
+      - label: "QOTD · DarkAsrai horror, ASMR and cheesecake answers"
+        href: "/archive/qotd"
+    note: "These are small preferences, not evidence of a sensory diagnosis or a defining cheesecake obsession; source handoff gives approximate transcript lines rather than expanded message IDs."
 antiFanon:
   - "Rose is a woman. DarkAsrai / darkasrai are Rose's account forms, not separate people."
   - "Rose is not in the current locked living roster. Historical Staff role snapshots do not silently restore current Staff status."
