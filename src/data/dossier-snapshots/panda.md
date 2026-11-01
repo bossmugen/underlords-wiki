@@ -64,6 +64,18 @@ claims:
     evidence: "user-confirmed"
     sources:
       - label: "Mugs-confirmed character / identity canon"
+  - text: "In 2022 Eos planned to take Panda's Hogwarts classes to cheat, but Panda said he memorized material rather than taking notes and changed answers when others tried copying; Eos switched to asking him to teach everything."
+    evidence: "archive-confirmed"
+    date: "2022"
+    sources:
+      - label: "☕ QOTD · Panda/Eos Hogwarts exchange"
+    note: "A hypothetical Hogwarts class scene, not a real school record. Receipts 976495689045540904, 976556821391241336, 976567039588171866, 976572902499581992."
+  - text: "Panda repeatedly described collecting named dragons, each representing an ideal or concept, and said he sometimes feigns ignorance to gather information or help another person feel they contributed."
+    evidence: "archive-confirmed"
+    date: "2022–2024"
+    sources:
+      - label: "☕ QOTD · Panda dragons and information habits"
+    note: "Receipts 999338870476914719, 1164916510310027314, 1174382910556602479, 1208459835159613532, 1214998426211590184. Dragon photos remain uninspected."
 antiFanon:
   - "Panda is not listed in the current locked living roster in `roster.ts`. Historical Staff canon does not silently restore current Staff status."
   - "The archive contains unrelated panda imagery and panda jokes. Do not resolve every occurrence of the word `panda` to this person; use the stable Marian Kage account or directed mention context."
