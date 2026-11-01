@@ -51,6 +51,13 @@ claims:
       - label: "Wall of Shame-Fame recovered export"
         href: "/archive/wall"
     note: "Gilli's preceding post carried a screenshot attachment. The image was not independently inspected for this claim and is not described or re-attributed."
+  - text: "In a 2021 Dragon Raja conversation recovered by WolfPhenix for the August 2026 Wall, Key asked Woohyuk to step on him literally, escalated through being run over and reversed over, then asked for tire donuts before saying '...dont tell mugs'. Woohyuk immediately predicted Mugs would find out."
+    evidence: "archive-confirmed"
+    date: "2021 scene; recovered 2026-08-11"
+    sources:
+      - label: "August 2026 Living Ensemble · Wall recovery 1536936223891922995"
+        href: "/archive/wall"
+    note: "Wolf dates the original only to 2021. The recovered screenshots are attributed to the 2026 retrieval, not invented as a precisely dated original post. This is escalating absurdist banter, not real violence or a relationship/sex claim."
   - text: "On August 10, 2023, Mugen wrote 'That's key BTW ehe' on the Wall and, 42 seconds later, tagged @Captain Chihuahua; the mention resolves the stable keyred account."
     evidence: "archive-confirmed"
     date: "2023-08-10"
@@ -71,6 +78,7 @@ antiFanon:
   - "The Wall replies do not establish a formal title such as Wall founder or curator."
   - "Mugen's 2023 Key/Captain Chihuahua identification does not prove current Officer status, active participation in that Wall moment, or authorship/appearance in an unresolved attachment."
   - "Do not backfill a pre-Raja message scene from later UL familiarity; the earlier relationship is Mugs-confirmed context until direct older material is recovered."
+  - "The Key/Woohyuk car escalation is a joke, not real violence, sexual history, or a closeness ranking; the original 2021 day is unresolved."
   - "Do not infer appointment chronology from export-time role arrays."
 relatedPeople:
   - "mugen"
@@ -79,6 +87,8 @@ relatedPeople:
   - "gengrey"
   - "gilli"
   - "ren"
+  - "woohyuk"
+  - "wolfphenix"
   - "alkey"
 tags:
   - "retired-officer"
@@ -118,3 +128,10 @@ What the sequence does preserve is later social and identity continuity: Mugen c
 His later retired-Officer / historical Pit Boss status is locked roster canon, but the appointment chronology is not reconstructed. The biography does not need to fake it. The surviving social continuity is already doing more work than another inferred promotion date would.
 
 One identity warning stays hard: canonical Key / Captain Chihuahua is not Alkey and is not the separate visitor account displayed as Key (FireLegacy). Similar names do not get to rewrite the person.
+
+
+## Episode — THE VEHICLE PLAN AND THE FAILED SECRECY CLAUSE
+
+**2021, retrieved August 11, 2026 · Wall parent `1536936223891922995`.** Wolf brought back an old Key/Woohyuk exchange. Key's request to be stepped on was literal and immediately became a worse engineering project: car, reverse, skidding, tire donuts. After correcting `dicc` to `pp`, Key's final instruction was `...dont tell mugs`. Woohyuk predicted that Mugs would find out. The recovered screenshot made the prediction age spectacularly well.
+
+**Running gag:** the only risk Key tried to manage was who would see the evidence. Original day and screenshot capturer remain unassigned; Wolf is the later retriever, not automatically the original maker.
