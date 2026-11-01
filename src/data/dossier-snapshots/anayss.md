@@ -10,6 +10,13 @@ summary: "The archive follows Anayss from 2020 map confusion and mutual bewilder
 summaryEvidence: "archive-confirmed"
 publication: "public"
 claims:
+  - text: "In late August and September 2020, Anayss repeatedly asked for coffee in Club Only, including `Need coffee`, `Need cogfee`, and a September 22 four-message attempt that barely assembled the word. Gabu answered one of her coffee GIFs with `maam drink water too`."
+    evidence: "archive-confirmed"
+    date: "2020-08 – 2020-09"
+    sources:
+      - label: "Club Only · Anayss coffee sequence"
+        href: "/channels/club-only"
+    note: "Main HQ site-candidates.md cross-indexes Club Only receipts 749259018220077087, 749259194531577856, 749967471657615370, 749969036678266901, 751050916584489061, 751051268377542687, 751816722381537321, 752847094477226026, 752847113045671988, 756131460749983859, 757929930586587146, 757929944067211385, 757929954330804244, 757929956956307526. Repeated message/GIF vocabulary, not proven literal daily coffee consumption."
   - text: "Anayss is one of two confirmed Underbosses / Deputies in the current command roster."
     evidence: "user-confirmed"
     sources:
@@ -150,3 +157,7 @@ The later Lobby record shows the same pattern continuing: arrivals get direction
 That exchange is small, but it fits the longer trajectory. Anayss' archive begins with **`i get lost a lot`** and ends, at the current boundary, with her specifying which battles belong on which days so somebody else can publish the map for everyone.
 
 The current Underboss / Battle Leader titles are confirmed separately; the archive should not invent when they began. What it can show is why those titles do not feel disconnected from the person. Over time, Anayss moves from learning UL's rooms to helping other people navigate them, from joining the noise to coordinating pieces of it, without losing the ordinary warmth — or the creative streak — that made the room a place worth coordinating in the first place.
+
+## Running Gags — Coffee before language
+
+Before the battle reminders and the perfectly serviceable Lobby directions, Ana had another recurring announcement: coffee. Sometimes it was `Need coffee`, sometimes `Need cogfee`, and one September morning the request arrived in fragments. Gabu's reply to the caffeine campaign was practical: `maam drink water too`. A tiny, very recognizable collision between Ana's morning vocabulary and Gabu's hydration policing.
