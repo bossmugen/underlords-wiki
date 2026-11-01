@@ -55,6 +55,15 @@ claims:
     sources:
       - label: "Photo Submissions · themed visual cycles"
         href: "/events/photo-submissions"
+  - text: "On July 31, 2021, Ephxs interrupted Lobby club paperwork to ask \u0060Who has my ghoulie?👀\u0060; Gilli answered \u0060Oh we do LMAOO\u0060 before Ephxs supplied Ethereal as their club. On August 22, Gilli posted a public Photoshoot entry labeled \u0060Photo Moments Submission: Ephxs\u0060."
+    evidence: "archive-confirmed"
+    date: "2021-07-31 – 2021-08-22"
+    sources:
+      - label: "Lobby · Ephxs / Gilli · 871220461395124304, 871220484782567425"
+        href: "/channels/lobby"
+      - label: "Photo Submissions · Gilli · 879237597300408341"
+        href: "/channels/photo-submissions"
+    note: "Gilli posted the labeled submission, not necessarily created or captured the image. The Ephxs/Ghoulie relationship is not classified as romantic or familial; the image remains uninspected. Backroom receipts-pass-60.md."
   - text: "On April 24, 2021, Gilli warned Photo Submissions participants that MAFIA-theme entries could not be cropped and had to keep the player's name visible, and asked noncompliant entries to be resubmitted."
     evidence: "archive-confirmed"
     date: "2021-04-24"
