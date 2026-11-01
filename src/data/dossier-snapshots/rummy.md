@@ -87,6 +87,12 @@ claims:
       - label: "Wall of Shame/Fame recovered export"
         href: "/channels/wall"
     note: "The underlying attachments/conversations were not fully reconstructed. The evidence supports a recurring context-defense reflex, not a verdict about whether the Wall framing was fair."
+  - text: "In August 2024, homethey_ called Rummy stinky and Cookie joined the teasing; in September, Tofu proposed a stink-off between Cookie and Rummy. The proposal is documented, not a completed competition."
+    evidence: "archive-confirmed"
+    date: "2024-08 – 2024-09"
+    sources:
+      - label: "Main HQ 2022–2026 tail · site-candidates.md; messages 1273451792826372187, 1273452793931370547, 1273452859115180113, 1283840497617735792"
+    note: "Associated image 1283840497562947604 remains uninspected; no image-content or contest-outcome claims."
   - text: "On July 7, 2026, Ren announced that Rummy's old Discord account had been hacked and identified rummy00.9. as her replacement account; the Lobby Bouncer then reran normal check-in on the replacement account."
     evidence: "archive-confirmed"
     date: "2026-07-07"
@@ -177,6 +183,15 @@ By December, another recurring trait is visible: when the Wall quotes her withou
 In August 2024, another Wall cluster ends with the condensed version of the same objection: **`THAT NOT THE FULL CONVO`**. Later that month, the separate profile-certification bit mutates into **`i need more bling certification`**—same bureaucratic instinct, later wording, not a retroactive rename of the 2023 `bl clan` joke.
 
 At this point the context objection reads less like a one-off defense and more like a stable habit in how she deals with the Wall. The room likes excerpts because excerpts are funny. Rummy's reflex is to drag the missing context back into frame. The archive cannot prove that every objection was correct, because the underlying conversations are not always fully reconstructed. What it can show is that the reflex repeats.
+
+### Running Gag: The proposed stink-off
+
+| Period | Participants | Recorded escalation |
+| --- | --- | --- |
+| August 2024 | homethey_, Cookie, Rummy | `rummy U STINK` becomes `stinky rummy?` |
+| September 2024 | Tofu, Cookie, Rummy | Tofu proposes a Cookie-versus-Rummy stink-off; no completed contest is established |
+
+The running gag belongs with Rummy's other Wall-era group teasing, not as an actual competition or a new formal title. Source message IDs: `1273451792826372187`, `1273452793931370547`, `1273452859115180113`, `1283840497617735792`. The associated image has not been inspected.
 
 ## 2026 — Account change, same person
 
