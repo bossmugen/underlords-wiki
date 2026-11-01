@@ -42,6 +42,13 @@ claims:
     sources:
       - label: "🥳 UL Birthdays"
         href: "/channels/birthdays"
+  - text: "On July 13–14, 2024, homethey_ announced that Rummy had gotten a BL series wrong and called it the end of the world; Rummy protested that she fixed it immediately, and Moon ordered her to retake the fictional BLING exam. The mock certification crisis reflects a locally recognized reputation for knowing BL series."
+    evidence: "archive-confirmed"
+    date: "2024-07-13 – 2024-07-14"
+    sources:
+      - label: "Wall · 1261939531209248831, 1261955000855429172, 1262144040871264296"
+        href: "/channels/wall"
+    note: "BLING exam is a joke, not a formal credential. The accompanying IMG_1535.png is uninspected; its poster is not automatically its maker or capturer."
   - text: "On May 23, 2022, Rich asked Rummy how much bleach she had touched; Rummy answered `BruH- I touch nOnE` and then `ZerO`."
     evidence: "archive-confirmed"
     date: "2022-05-23"
@@ -192,6 +199,10 @@ At this point the context objection reads less like a one-off defense and more l
 | September 2024 | Tofu, Cookie, Rummy | Tofu proposes a Cookie-versus-Rummy stink-off; no completed contest is established |
 
 The running gag belongs with Rummy's other Wall-era group teasing, not as an actual competition or a new formal title. Source message IDs: `1273451792826372187`, `1273452793931370547`, `1273452859115180113`, `1283840497617735792`. The associated image has not been inspected.
+
+## The BLING exam incident
+
+Rummy's BL-series knowledge was established enough that one wrong answer became a Wall emergency. In July 2024, homethey_ announced the world was ending; Rummy immediately insisted she'd fixed the mistake, and Moon prescribed a retake of the imaginary **BLING exam**. A tiny mistake, a very large disciplinary apparatus, and absolutely nobody pretending this was a real qualification.
 
 ## 2026 — Account change, same person
 
