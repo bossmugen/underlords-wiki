@@ -84,6 +84,13 @@ claims:
       - label: "UL Native Motif Registry"
         href: "/lore"
     note: "Rendered nickname snapshots do not date the moment the nickname was assigned."
+  - text: "On September 9, 2021, Gabu personally handled Cen's Discord front-door intake: asked for IGN/club/age with `plsss tks!`, then confirmed `Role assigned` and directed Cen to the server map after Cen replied. This is a documented onboarding handoff, not a dated appointment or proof of in-game UL admission."
+    evidence: "archive-confirmed"
+    date: "2021-09-09"
+    sources:
+      - label: "Backroom Pass 52 · Lobby Cen onboarding · messages 885628704556982332 / 885628789193838613 / 885629306565443674"
+        href: "/channels/lobby"
+    note: "SAID BY Gabu confirmed via stable account 407706805918105602 / whoamii_9; Gabu, not Dean, performed the human intake. The assigned role was not named."
 antiFanon:
   - "Gabu is a woman. Use she/her consistently. Earlier assistant he/him wording is non-canon."
   - "Brazilian, ethnically Japanese, taiko, and coding-professional background are user-confirmed; do not infer additional nationality/citizenship, employer, exact technical specialty, or Japanese language fluency without receipts."
@@ -93,6 +100,7 @@ antiFanon:
   - "Mafia werewolf/protective-combat language is fictional self-mythology, not biography."
   - "Quality Time is one dated quiz result, not a diagnosis."
   - "QOTD role snapshots do not date Gabu's formal Officer/Underboss appointment chronology."
+  - "Cen's September 2021 Discord onboarding was handled by Gabu, not Dean; do not infer the exact assigned role or in-game club membership."
 relatedPeople:
   - "mugen"
   - "anthos"
@@ -100,6 +108,7 @@ relatedPeople:
   - "gilli"
   - "woosung"
   - "oyasumi"
+  - "cen"
 tags:
   - "underboss"
   - "officer"
@@ -112,6 +121,8 @@ tags:
   - "hydration"
   - "memory"
   - "care"
+  - "onboarding"
+  - "lobby"
 ---
 
 # Gabu
@@ -149,3 +160,9 @@ During the 2026 favorite-memory QOTD, Oyasumi remembers Gabu as the person **`wh
 That late recollection completes a much better arc than "coder becomes leader." Gabu remembers arriving unsure of her English and shy around the room. Years later the room remembers outsourcing certainty to her.
 
 Her current Underboss seat is locked canon, but the archive does not date the appointment from old role arrays. What it does show is the person becoming progressively easier for UL to rely on: first socially, then as part of the house's care language and technical life, and eventually in memory as the woman everyone followed because she already knew where the answer was.
+
+## Lobby — the paperwork came with uwu (September 9, 2021)
+
+Cen arrived to the standard IGN/club/age prompt. Gabu followed up herself with **`Heeya @Cen uwu`** and **`plsss tks!`**, then, once Cen answered, confirmed **`Role assigned`** and pointed them toward the server map. The person doing the routing was Gabu, not Dean. This is the practical version of her house-welcome style: get the access sorted, give the newcomer directions, and refuse to sound like a help-desk ticket while doing it.
+
+**Episode receipts:** Lobby messages `885628704556982332`, `885628789193838613`, `885629306565443674`. The role itself was not named in the exchange.
