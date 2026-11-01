@@ -67,6 +67,12 @@ claims:
       - label: "😷 Meems · local maker receipts"
         href: "/channels/meems"
     note: "Message `835717584002875412` and message `930651956052115518` each join Zoshaa's own maker wording to the attached local object. That safely supports SAID BY / POSTED BY / MADE BY Zoshaa for the local edits. It does not transfer authorship of underlying source photos, templates, captions she did not originate, or embedded elements. `Made another one` also does not establish the first-ever Zoshaa edit or a complete creator catalog."
+  - text: "On September 1, 2020, Zoshaa (posting as NintendoShitcube) asked for someone to retrieve her corpse for Hunter and offered advanced bento in exchange."
+    evidence: "archive-confirmed"
+    date: "2020-09-01"
+    sources:
+      - label: "Backroom Pass 49 · corpse logistics · message 750406681149833337"
+    note: "The offer is a Dragon Raja play/social exchange; the exact mechanic and whether anyone accepted the bargain are unresolved. This is not the same proven incident as the later Mugen or Pride lost-corpse stories."
   - text: "On January 12, 2022, NintendoShitcube commented `What a stupid looking animal, glad I’m not a bug with a long neck` in the Wall archive."
     evidence: "archive-confirmed"
     date: "2022-01-12"
