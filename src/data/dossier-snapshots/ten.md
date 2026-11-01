@@ -32,6 +32,9 @@ claims:
   - text: "On April 9, 2021, Janghoon / CA reacts to Ten posting on the Wall with `guys did we portal to 2020??`, calls Ten `an oldie`, says `welcome back`, and Ten answers with `😭`."
     evidence: "archive-confirmed"
     date: "2021-04-09"
+  - text: "On February 16, 2021, Ten posted an uncaptioned image to the Lonely-theme Photoshoot submissions. The post is confirmed; the image itself has not been inspected and its maker, photographer, and subjects are unknown."
+    evidence: "archive-confirmed"
+    date: "2021-02-16"
 antiFanon:
   - "Gilli's `Role assigned!` does not name the role and is not a dated Staff appointment receipt."
   - "`Anthos apprentice like in game` is a game/social joke, not a formal UL apprenticeship or governance role."
@@ -41,6 +44,7 @@ antiFanon:
   - "The hammer / `if they die they die` sequence is mock-danger banter, not violence, enforcement authority, or disciplinary conduct."
   - "Mugen/Ten bot-kiss reciprocity is affection in house syntax, not romance canon."
   - "Janghoon's welcome-back language proves recognition in that scene, not an exact hiatus length or return chronology."
+  - "The February 2021 Lonely Photoshoot image was posted by Ten; maker, photographer, subjects, and judging outcome remain unknown until the asset is inspected."
   - "Uninspected Wall attachments and co-reaction patterns do not establish image contents or closeness rankings."
 relatedPeople:
   - "gilli"
@@ -56,6 +60,8 @@ tags:
   - "wall"
   - "tumbleweed"
   - "premise-uptake"
+  - "photoshoot"
+  - "lonely-theme"
   - "screenshot-court"
   - "legacy"
 ---
@@ -91,6 +97,8 @@ The timing is the whole mechanism. Ten does not deny that the room has receipts 
 **The Snitch Gets a Hammer.** September 24: `a snitch u say` → `*gets hammer*`; later, `if they die they die`; the burst eventually collapses back into `owo`. Mock-danger house play, not a real threat or enforcement function.
 
 **Tumbleweed Branding Department Is Offline.** September 29: `anthos apprentice like in game`, `cos head empty rn`, `or whatever rooks said`, then `the anomaly vibe`. Anthos asks for taxonomy; Ten submits vibes and borrowed paperwork.
+
+**Lonely Photoshoot Submission.** On February 16, 2021, Ten joined the Lonely-theme submissions with an uncaptioned image (message `811388130233679872`). This is a confirmed participation credit, not an image-content description or an authorship claim. The image remains uninspected.
 
 ## Petty Crimes
 
