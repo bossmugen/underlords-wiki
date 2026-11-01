@@ -10,6 +10,34 @@ summary: "Dyingfox is a permanent Platelet whose surviving voice is compact but 
 summaryEvidence: "archive-confirmed"
 publication: "public"
 claims:
+  - text: "On February 12, 2022, DyingFox said they joined UL after Aether declined, initially ignored Discord, and eventually became a Daycare regular, describing themself as `being a brat :)`."
+    evidence: "archive-confirmed"
+    date: "2022-02-12"
+    sources:
+      - label: "☕ QOTD · DyingFox's arrival and Daycare"
+        href: "/channels/qotd"
+    note: "First-person retrospective; exact recruiter and Aether transition mechanics remain unknown. Message 942081233570136164."
+  - text: "On January 26, 2022, DyingFox asked Gilli to adopt them; Gilli replied with a food GIF, `Done`, and a hug. Two days later Fox chose Gilli as their hypothetical Pokémon trainer for food and affection; in February they thanked Gilli and Souta for feeding them."
+    evidence: "archive-confirmed"
+    date: "2022-01-26 – 2022-02-12"
+    sources:
+      - label: "☕ QOTD · Gilli and Fox's food-and-affection bit"
+        href: "/channels/qotd"
+    note: "Joke adoption and trainer language, not literal kinship or rank. Messages 935933609825693706, 935935961953611816, 935935995990401024, 936635900157394955, 942081233570136164."
+  - text: "DyingFox explained that foxes are their favorite animal and that the name's dying half refers to repeatedly dying in video games."
+    evidence: "archive-confirmed"
+    date: "2023-02-02"
+    sources:
+      - label: "☕ QOTD · DyingFox handle explanation"
+        href: "/channels/qotd"
+    note: "Direct self-explanation, message 1070739944378736680; exact prompt was not recovered."
+  - text: "DyingFox called themself passionate about sleeping, liked peanut butter on waffles, berry-and-cream crepes and syrup-and-bacon pancakes, and considered flannel an upgrade from sweatshirt-and-pants everyday wear."
+    evidence: "archive-confirmed"
+    date: "2022-01-27 – 2022-03-30"
+    sources:
+      - label: "☕ QOTD · DyingFox's ordinary-life answers"
+        href: "/channels/qotd"
+    note: "Messages 936329238410305606, 944958473555300453, 958732596504829952."
   - text: "Dyingfox is user-confirmed in the current Platelet roster."
     evidence: "user-confirmed"
     sources:
