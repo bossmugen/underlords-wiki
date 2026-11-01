@@ -1,3 +1,7 @@
+## 2026-11-01 00:31 PDT — August Reunion SaraBunny structured dossier
+
+WIKI created `src/data/dossier-snapshots/sarabunny.md` at commit `48af4d46bd1ff6212e4e4be5379980cf41fdf0e2`. The structured cast entry separates the 2021 Discord onboarding, Photoshoot, brr, moo, and the August 14/18 2026 recognized reunion. Direct August Reunion Run 18 receipts: `1537915482018021446`, `1537915548820836494`, `1537916585346601000`, `1537916595924377772`, `1537916625603395584`, `1537916675721265234`. MAIN `src/content/people/sarabunny.md` already narrates the person-first version; WIKI is a dated, searchable dossier rather than copied prose. File source reread passed. Combined status for new WIKI commit empty at inspection; build/deployment/live commit **not verified**. Keep pending verification, do not advance August Reunion consumed SHA. Current branch search: 30 active names; full current HEAD-SHA census and MAIN persistence not completed. Main HQ branch checkpoint read; publication inventory remains unreconciled. No private media published.
+
 
 ## 2026-10-31 23:37 PDT — Main HQ Snow Wall self-filing and Fountain of Youth index
 
