@@ -28,6 +28,13 @@ claims:
       - label: "📣 Announcements · 2021-11-02 → 2021-12-02"
         href: "/channels/announcements"
     note: "These are operational reminder posts. They show a recurring communication style; they do not create a Party Director, event-planner, scheduler, or separate Game Officer appointment."
+  - text: "On July 15, 2021, Sou named Nelphie among the three winners of UL’s second Kahoot quiz, alongside Shinn and Zyrcant; the result did not assign individual ranks."
+    evidence: "archive-confirmed"
+    date: "2021-07-15"
+    sources:
+      - label: "📣 Announcements · second Kahoot results · 2021-07-15"
+        href: "/channels/announcements"
+    note: "Backroom site-candidates-pass-59.md / receipts-pass-59.md, message 865313236172537866. Do not infer individual ranking or equate this quiz with the separate spelling challenge."
   - text: "On November 22, 2021, Nelph warned Staff about a circulating scam, told people not to click links/images before they loaded, reminded them to enable 2FA, then about three minutes later supplied the Discord settings path: `profile > account > enable 2FA`; the follow-up drew eight 👍 reactions."
     evidence: "archive-confirmed"
     date: "2021-11-22"
@@ -65,6 +72,7 @@ tags:
   - "lobby"
   - "announcements"
   - "operational-pings"
+  - "kahoot"
   - "security-guidance"
 ---
 
@@ -78,7 +86,7 @@ Across November and December, Nelph repeatedly posts game notices that are aller
 
 The house language can be ridiculous, but the instruction remains visible inside it. Nelph does not merely say something happened; she routes the reader toward the next action.
 
-November 22 gives the stronger version. She posts a scam warning, tells Staff not to click unfamiliar material before it loads, reminds them to enable 2FA, then comes back a few minutes later with the literal Discord path: **`profile > account > enable 2FA`**.
+**Episode index — Second Kahoot (July 15):** Sou’s results name Shinn, Nelphie, and Zyrcant as winners. Their order is not given. The quiz is one of UL’s recurring 2021 Kahoot rounds; Ren’s later spelling-code fiasco is a separate event.\n\nNovember 22 gives the stronger version. She posts a scam warning, tells Staff not to click unfamiliar material before it loads, reminds them to enable 2FA, then comes back a few minutes later with the literal Discord path: **`profile > account > enable 2FA`**.
 
 The archive is not independently adjudicating every technical claim in the warning, and the attached image remains unseen. The character evidence is the follow-through. Alarm becomes a usable step.
 
