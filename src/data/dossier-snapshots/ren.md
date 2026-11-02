@@ -76,6 +76,13 @@ claims:
     sources:
       - label: "Photo Submissions · themed visual cycles"
         href: "/events/photo-submissions"
+  - text: "On August 4, 2021, Ren gently corrected dora/Forsaken’s Photoshoot submission for outside editing of a sentence, then offered a practical fix: repost the original picture without the sentence."
+    evidence: "archive-confirmed"
+    date: "2021-08-04"
+    sources:
+      - label: "Photo Submissions · Ren / dora correction · 2021-08-04"
+        href: "/channels/photo-submissions"
+    note: "Ren’s reply parent is 872535327926009928; the original parent contents are not recovered. The second instruction followed 36 seconds later. This does not establish image maker/capture credit or a universal moderation style."
   - text: "On May 29, 2022, Ren welcomed Nobu in Lobby, said 'I’ll set u up,' and routed her to the Discord Tour, Biodata, and Whiskey Room."
     evidence: "archive-confirmed"
     date: "2022-05-29"
@@ -205,7 +212,7 @@ This is not a formal archivist appointment and Ren did not invent UL quote cultu
 
 Through 2021, Ren's Announcements voice repeatedly asks broad audiences whether they ate, drank water, rested, or wanted company. Sometimes the care is gentle—**`if you don’t feel like smiling that’s ok too`**—and sometimes it arrives as **`drink water or I’m eating your bone marrow`**. The threat is house rhetoric, not a literal threat. The underlying action stays mundane: check on the people.
 
-The same year she repeatedly posts example-photo packages for Photo Submissions while Gilli closes rounds and moves them toward the next theme. That visual contribution is shared rather than exclusive, but it widens the pattern. Ren is increasingly involved in giving the group prompts, examples, and structures through which people can participate.
+The same year she repeatedly posts example-photo packages for Photo Submissions while Gilli closes rounds and moves them toward the next theme. In August, when dora/Forsaken adds a sentence to a submission, Ren does not just wave a rulebook at her. She opens with `Haii doraaaa`, apologizes for the correction, and follows up almost immediately with the way to save the entry: post the original picture without the sentence. The rule stays put; the person gets a way forward. That visual contribution is shared rather than exclusive, but it widens the pattern. Ren is increasingly involved in giving the group prompts, examples, and structures through which people can participate.
 
 ## 2022 — SHE STARTS MAINTAINING BOTH BELONGING AND BOUNDARIES
 
