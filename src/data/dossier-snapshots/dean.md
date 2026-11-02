@@ -108,6 +108,13 @@ claims:
       - label: "🥃 Whiskey 2023 H1 recovered screenshot corpus"
         href: "/channels/whiskey-room"
     note: "This preserves Dean's own casual language and annoyance with unread indicators. It is not used here to diagnose OCD, ADHD, or any other condition."
+  - text: "In April–June 2021, Dean's supporttech900 account posted entries to the Colors, Mafia, and Beach Photoshoot rounds, appearing under the displayed nickname ✔️ Support Tech."
+    evidence: "archive-confirmed"
+    date: "2021-04 – 2021-06"
+    sources:
+      - label: "2021 Photo Submissions · Colors / Mafia / Beach"
+        href: "/events/photo-submissions"
+    note: "Stable Discord author ID 770767336780070913; submission message IDs 828856418080653342, 835356396219269200, 849485682870583316. The nickname is not a historical technical office. These establish POSTED BY Dean, not MADE BY, CAPTURED BY, or FEATURING."
 antiFanon:
   - "Dean / supporttech900 is not Dean Winchester. Searches for `Dean` in the Wall also hit Supernatural Tenor metadata and those are false positives for this person."
   - "`✔️ Support Tech` is the account's displayed nickname in the export, not proof of a formal UL Staff, Officer, or technical appointment."
@@ -135,6 +142,8 @@ tags:
   - "whiskey"
   - "relationship-metadata"
 ---
+
+Dean also turned up in the 2021 Photoshoot room under the wonderfully official-looking `✔️ Support Tech` nickname. Colors, Mafia, Beach: three submissions, all posted from the same account the Wall had already identified as Beansprout. The title looks like a job; the behavior is much more Dean — another room, another excuse to join in. Nobody needs to appoint him head of IT to appreciate the joke.
 
 Dean's UL biography starts before UL does. He was already part of Mugen's older online-family circle from another game, alongside Key, Zepp, Kal, New, and GenGrey, roughly a year before Dragon Raja. Within that older social world Dean was Mugen's online son and called her `mum`. That matters because the later Discord archive does not create the relationship. It catches an existing relationship being carried into a new house.
 
