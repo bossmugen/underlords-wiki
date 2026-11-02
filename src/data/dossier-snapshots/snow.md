@@ -159,6 +159,13 @@ claims:
     sources:
       - label: "Safe House reunion recovered export"
 
+  - text: "On October 16, 2020, Snow said he had meant to give Sycee, Kuki, or Ana something to post to the Wall. Anayss said she was used to his remarks; Sye said she could not beat the others to posting; Snow contrasted Ana's numbness with Ansun waiting in the wings, and Juicy Cookie answered his either/or question with 'both'."
+    evidence: "archive-confirmed"
+    date: "2020-10-16"
+    sources:
+      - label: "Backroom Pass 22 · receipts-pass-22.md · 766861274872545300 / 766861682391252992 / 766861777865932812 / 766862398890967050 / 766862463697420308"
+        href: "/channels/wall"
+    note: "Snow's triggering remark is unrecovered; Kuki is kept as written without an identity bridge. MAIN already carries the narrative version."
 antiFanon:
   - "Snow is not a generic Staff card in the corrected roster; Pit Boss takes primary placement."
   - "Snow was not Mugen's formal second-in-command. Current command canon places Snow at Pit Boss / Minister; Gabu and Anayss hold the Underboss / Deputy seats."
@@ -245,3 +252,7 @@ Shiya wanted Snow to type his nonsense where it could be screenshotted. Snow's a
 Gilli casually remembered the time Ana left Snow naked in bushes. Pride answered **`i have picture`** eight seconds later, and Zoshaa soon supplied the label **`raining nude bush hours`**. Nobody stopped to explain the scene. That is the joke: everybody in the room apparently knew which Snow disaster was being discussed, and the rest of us have been handed the police report without the crime scene.
 
 The older nickname exchange identifies Ana as Anayss. The original incident and the alleged picture remain missing, so the November 2020 retelling stays a remembered episode rather than an invented origin story. MAIN tells this as part of Snow's larger habit of becoming Wall material; WIKI keeps the dated witness chain.
+
+## OCTOBER 2020 — SNOW VOLUNTEERS AS WALL EVIDENCE
+
+Snow told the Wall he had planned to give Sycee, Kuki, or Ana something worth posting. Anayss was so accustomed to his remarks that she had ignored this one; Sye complained she could not beat the others to the post. Snow then asked whether Ana's immunity or Ansun waiting in the wings was worse. Juicy Cookie settled the case with **both**. The actual remark that started the exchange is missing. Snow was both willing bait and an enthusiastic critic of his own press corps.
