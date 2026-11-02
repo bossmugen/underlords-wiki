@@ -76,6 +76,12 @@ claims:
     sources:
       - label: "☕ QOTD · Panda dragons and information habits"
     note: "Receipts 999338870476914719, 1164916510310027314, 1174382910556602479, 1208459835159613532, 1214998426211590184. Dragon photos remain uninspected."
+  - text: "Panda called himself very organized except for his desk, which he described as a hot mess."
+    evidence: "archive-confirmed"
+    date: "2023"
+    sources:
+      - label: "☕ QOTD · 1196862272459505767"
+        href: "/channels/question-of-the-day"
 antiFanon:
   - "Panda is not listed in the current locked living roster in `roster.ts`. Historical Staff canon does not silently restore current Staff status."
   - "The archive contains unrelated panda imagery and panda jokes. Do not resolve every occurrence of the word `panda` to this person; use the stable Marian Kage account or directed mention context."
@@ -133,3 +139,7 @@ The tiny shrug inside that sentence is better than an adjective list. He is not 
 The screenshot catches him under the display name **`ALHAITHAM (PANDA)`**, which adds exactly the right amount of costume to a statement whose underlying thesis is essentially: *I already have a perfectly serviceable self; please do not assign me extra admin.*
 
 That is the kind of person-page receipt UL needs more of. Not `Panda is confident`. Not `Panda is lazy`. The archive gives us the gesture itself: somebody offers him a whole alternate existence and he starts calculating the inconvenience.
+
+## Petty Crimes
+
+**The Desk Exception.** Panda calls himself very organized, then immediately exempts his desk: **“that is a hot mess.”** The dragon collection gets names, meanings, and concepts; the desk gets diplomatic immunity. QOTD `1196862272459505767`.
