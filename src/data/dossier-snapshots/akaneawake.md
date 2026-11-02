@@ -15,8 +15,7 @@ antiFanon:
   - "A named Waltz partner does not establish romance, enduring closeness, or an offscreen relationship."
   - "The caption identifies Dreamless by name, not by a visually verified avatar position."
   - "The submission does not independently establish creator, photographer, or contest result."
-relatedPeople:
-  - "dreamless"
+relatedPeople: []
 tags:
   - "photoshoot"
   - "waltz"
