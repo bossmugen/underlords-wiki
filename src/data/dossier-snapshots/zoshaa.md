@@ -60,6 +60,13 @@ claims:
       - label: "Wall of Shame/Fame · 2021-08-05"
         href: "/archive/wall"
     note: "The opening Anayss attachment was not visually inspected. The visible text proves recurrence of child/orb language around NintendoShitcube; it does not establish image subject/creator credit, literal silencing, or an actual moderation action."
+  - text: "Zoshaa posted entries to the 2021 Lonely and Dusk til Dawn Photoshoot rounds, a quieter creative thread alongside her much louder child/orb jokes and later self-made meme edits."
+    evidence: "archive-confirmed"
+    date: "2021"
+    sources:
+      - label: "Photo Submissions · Lonely 811248574578688020; Dusk til Dawn 873691789003980811"
+        href: "/events/photo-submissions"
+    note: "POSTED BY Zoshaa/NintendoShitcube; maker, photographer, and depicted subject unverified. The miner's representative image inspection describes large environmental scale in both, not a proven signature style."
   - text: "On May 17, 2021, NintendoShitcube wrote `I’d share a refreshing glass of boiled mayo with my orb any day ᵘ ʷ ᵘ` in the Wall archive."
     evidence: "archive-confirmed"
     date: "2021-05-17"
@@ -152,6 +159,10 @@ The delivery is very Zoshaa in the surviving record: an objectively disgusting i
 By August 5 the 2020 house nouns are still alive. Anayss tags NintendoShitcube with `missing the c h i l d ~`; Baby Lyssa says `the child`; Ren says `The o r b`; Zoshaa later contributes `Screaming is what I do best😎😎😎`; Snow eventually writes `~mutes the child~`.
 
 The opening attachment remains uninspected and Snow's `mute` is banter, not a proven moderation action. The important longitudinal point is simpler: `child` and `orb` did not vanish after the 2020 Tumbleweed session. A year later multiple people can use them around Zoshaa without reintroducing the bit. The metadata has become portable.
+
+## The camera gets a turn
+
+Zoshaa also entered the 2021 Lonely and Dusk til Dawn Photoshoot rounds. Both inspected entries put a lot of space around their subjects, a surprisingly spacious counterpoint to the tiny, deranged sentences she could drop into chat. Two images aren't a whole artistic manifesto, but they're another way she participated in making things rather than only being the subject of everyone else's jokes.
 
 ## 2022 — making remains visible
 
