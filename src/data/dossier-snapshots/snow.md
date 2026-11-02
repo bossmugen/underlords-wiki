@@ -92,6 +92,13 @@ claims:
       - label: "Club Only + Wall recovered exports"
         href: "/lore/old-man-snow"
     note: "The conflicting age numbers are peer joking and counter-joking. They do not establish Snow's real age or birthday."
+  - text: "On August 27, 2020, Ansun mocked Snow's meme taste as `parent\'s facebook humour and stock images`, then doubled down on the Facebook comparison. Snow answered `FINE`."
+    evidence: "archive-confirmed"
+    date: "2020-08-27"
+    sources:
+      - label: "Main HQ site-candidates.md · Wall receipts 748575587022536726, 748575666202476615, 748575770275741727"
+        href: "/channels/wall"
+    note: "The exact image Ansun judged has not been securely joined; this is peer characterization, not proof of the origin of OLD MAN SNOW."
   - text: "Snow's Wall defense began with his October 30, 2020 claim that nobody could shame him if he posted his own shame first. In February 2021 he also insisted the Wall be reserved for screenshots; on September 22 he said he would post his own material before Ana and Hami could."
     evidence: "archive-confirmed"
     date: "2020-10-30 – 2021-09-22"
