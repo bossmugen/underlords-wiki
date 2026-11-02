@@ -89,13 +89,17 @@ tags:
 
 Nelph is filed in the current roster as a retired full Officer. The archive does not give a complete appointment/departure chronology, but it does preserve a useful three-stage biography: visible operational work in 2021, an intervening social bridge in 2023, and familiar reunion recognition in 2026.
 
-## THE FRONT DOOR, THEN THE COUNTDOWN\n\nIn December 2020, Nelph answered the Lobby welcome as **`Nelphie, Underlords, S-9`**. The old intake is a small self-introduction, not a proven first day or a promotion record. By October 2021, she was already warning Staff that **`Win or Lose`** was starting at Luxury Cruise in four minutes. That is the useful bridge: an ordinary name at the door becomes a familiar voice telling the room where to go before the clock runs out.
+## THE FRONT DOOR, THEN THE COUNTDOWN
+
+In December 2020, Nelph answered the Lobby welcome as **`Nelphie, Underlords, S-9`**. The old intake is a small self-introduction, not a proven first day or a promotion record. By October 2021, she was already warning Staff that **`Win or Lose`** was starting at Luxury Cruise in four minutes. That is the useful bridge: an ordinary name at the door becomes a familiar voice telling the room where to go before the clock runs out.
 
 Across November and December, Nelph repeatedly posts game notices that are allergic to passive information. Dragon Breath is up, so **come to club base**. Later it is up again, so **`COME TO CLUB BASE TO SPANK SOME DRAGONS BOOTY`**. Star of Cassell is up, so **`PLACE YOUR BETS!`**. Voting is closing, so the room gets **`VOTING ENDS IN 6 MINS`**.
 
 The house language can be ridiculous, but the instruction remains visible inside it. Nelph does not merely say something happened; she routes the reader toward the next action.
 
-**Episode index — Second Kahoot (July 15):** Sou’s results name Shinn, Nelphie, and Zyrcant as winners. Their order is not given. The quiz is one of UL’s recurring 2021 Kahoot rounds; Ren’s later spelling-code fiasco is a separate event.\n\nNovember 22 gives the stronger version. She posts a scam warning, tells Staff not to click unfamiliar material before it loads, reminds them to enable 2FA, then comes back a few minutes later with the literal Discord path: **`profile > account > enable 2FA`**.
+**Episode index — Second Kahoot (July 15):** Sou’s results name Shinn, Nelphie, and Zyrcant as winners. Their order is not given. The quiz is one of UL’s recurring 2021 Kahoot rounds; Ren’s later spelling-code fiasco is a separate event.
+
+November 22 gives the stronger version. She posts a scam warning, tells Staff not to click unfamiliar material before it loads, reminds them to enable 2FA, then comes back a few minutes later with the literal Discord path: **`profile > account > enable 2FA`**.
 
 The archive is not independently adjudicating every technical claim in the warning, and the attached image remains unseen. The character evidence is the follow-through. Alarm becomes a usable step.
 
