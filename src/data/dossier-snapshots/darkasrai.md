@@ -22,6 +22,12 @@ claims:
     sources:
       - label: "QOTD · horror games and ASMR preferences"
         href: "/channels/question-of-the-day"
+  - text: "DarkAsrai anticipated Wall exposure twice, on 2021-08-19 and 2023-04-03, responding 'I had a feeling this would happen' and 'I knew id get in here'."
+    evidence: "archive-confirmed"
+    date: "2021-08-19 / 2023-04-03"
+    sources:
+      - label: "👅 Wall · messages 878161405231120384 / 1092577410949595136"
+    note: "Backroom pass 24. Attached triggering images not inspected; no visual description or subject attribution."
 antiFanon:
   - "DarkAsrai is not identified with fictional Rose; no identity bridge is established."
   - "The sister is a real-life relationship described by DarkAsrai, not a claim about other UL characters."
@@ -47,6 +53,10 @@ At home, the cats were not remotely interested in agreeing on a personality. One
 **Voluntary Horror Suffering.** Wanted more horror games despite fully expecting to scream at jump scares.
 
 **Eating-ASMR Embargo.** Other ASMR might be negotiable. Listening to people eat was not.
+
+## Episodes · Wall forecast
+
+**August 19, 2021:** After a Wall post, DarkAsrai said `I had a feeling this would happen` (message `878161405231120384`). **April 3, 2023:** Another Wall appearance drew `I knew id get in here` (message `1092577410949595136`). The images are not inspected; this episode indexes the two replies, not the underlying pictures.
 
 ## Sources
 
