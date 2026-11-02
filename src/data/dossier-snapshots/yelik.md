@@ -27,6 +27,12 @@ claims:
   - text: "On April 23, 2023, Yelik posts `The SSS for the event, not is all @Staff`, edits the message, and follows with image attachments. The current migration does not narrate those images because they were not visually inspected for this character pass."
     evidence: "archive-confirmed"
     date: "2023-04-23"
+  - text: "On July 25, 2022, Anayss credited Yelik with a new Land of Conquest match-your-profile-picture outfit idea, directing members to Yeye’s picture for inspiration. Anayss later announced MATCH YOUR PFP DAY as a recurring event, with Wolf Phenix and Life also carrying reminders."
+    evidence: "archive-confirmed"
+    date: "2022-07-25 – 2023-01"
+    sources:
+      - label: "💬 Club Only · MATCH YOUR PFP DAY announcements"
+    note: "Yelik is credited with the suggestion; Anayss announced and named the recurring event. The original images are uninspected, and the date does not establish the first-ever matching-PFP joke."
   - text: "On August 10, 2023, Yelik complains about spending three days trying to catch the last fish, being told a better rod is needed while already using the new one, and identifies the target as a shark in Siberia. This is a direct funny scene but not yet a recurring fishing axis."
     evidence: "archive-confirmed"
     date: "2023-08-10"
@@ -63,7 +69,7 @@ By late June, the archive starts showing what Yelik repeatedly does with live ga
 
 Pet Event and Pet Lover League make that behavior durable rather than anecdotal. Across 2022 and into at least August 2023, Yelik keeps posting versions of **`Pet event is up @Staff`**, sometimes adding **`7 minutes left`**, sometimes noting that it is open for a second time. Several notices get thanks or heart-style reactions. Those responses do not rank Yelik socially; they simply show that the alerts were landing with people who could use them.
 
-The same practical rhythm survives even when the specific game object changes. In April 2023 Yelik posts an event update, edits it, and follows with attachments whose pixels remain undescribed here. In August the archive catches a much less successful encounter with Dragon Raja's systems: after three days trying to catch the last fish, Yelik is told a better rod is needed despite already using the new one. The target is a shark in Siberia, because apparently the game wanted the frustration to have production value. It is a good side scene, but one fishing disaster does not get promoted into a lifelong trait.
+Yelik's knack for giving the room something usable also escaped the garden. On July 25, Anayss credited Yelik with the idea of matching a Land of Conquest outfit to an animal, food, or object profile picture, and told people to use **Yeye's picture** as inspiration. A week later Anayss was announcing **MATCH YOUR PFP DAY**; Wolf Phenix and Life eventually carried reminders too. One person's suggestion had become a repeatable house event. Yelik supplied the spark, Anayss gave it a name and a calendar slot, and the others kept the bit alive. The reference pictures are still uninspected; the credit is in the announcement itself.\n\nThe same practical rhythm survives even when the specific game object changes. In April 2023 Yelik posts an event update, edits it, and follows with attachments whose pixels remain undescribed here. In August the archive catches a much less successful encounter with Dragon Raja's systems: after three days trying to catch the last fish, Yelik is told a better rod is needed despite already using the new one. The target is a shark in Siberia, because apparently the game wanted the frustration to have production value. It is a good side scene, but one fishing disaster does not get promoted into a lifelong trait.
 
 What actually recurs is **timing and usefulness**. The florist has twenty minutes, then another has five. The pet event is up, then seven minutes remain. The value of Yelik's messages exists because the opportunity is disappearing while the room is reading them. That is Game-Officer-shaped behavior without requiring the biography to pretend the title caused it, and the garden/flower material gives Parterre Gardener a little personal texture without reverse-engineering a fake botanical personality.
 
