@@ -50,6 +50,12 @@ claims:
   - text: "On June 3, 2022, Alkey re-enters the Lobby with `hi alkey here`; he and Mugen perform a mock first meeting — `hi im alkey, nice to meet you`, `Nice to meet you to sir`, `have you heard of dragon raja?`, `I have NAWT`. This is old-member re-entry theater, not evidence that they first met in 2022."
     evidence: "archive-confirmed"
     date: "2022-06-03"
+  - text: "On February 2021, Alkey (also displayed as Meowk 💖✨) posted an attachment in the Lonely Photoshoot round. This is a participation record, not an image-credit or depicted-person identification."
+    evidence: "archive-confirmed"
+    date: "2021-02"
+    sources:
+      - label: "Photo Submissions · 812805687142907924"
+        href: "/events/photo-submissions"
 antiFanon:
   - "Alkey is not Key / Captain Chihuahua."
   - "Meowk 💖✨ is Alkey, not a separate character."
@@ -176,3 +182,7 @@ Current canon places Alkey on the **Staff** shelf. Export-time VIP / 18+ arrays 
 The same restraint applies to the Wall. Mugen once captions an uninspected screenshot **`@Meowk 💖✨ shows his true colors`**. The attachment is still uninspected. The caption can be cited; its contents cannot be invented.
 
 Alkey's actual through-line does not need that invention. Hockey keeps following him because it is real. The room keeps remaking his name because the joke works. He keeps participating because he can usually find the next beat — a sound effect, a bow, a three-part reveal, a fake introduction, or the simple admission that somebody else's comeback got him good.
+
+## Episode — The Lonely entry
+
+Alkey also showed up for the February 2021 **Lonely** Photoshoot, posting an attachment as **Meowk 💖✨** (message `812805687142907924`). His Wall presence could turn three words into a performance; this submission gives him another, quieter way of joining the room. The image has been described in the miner's inspected notes as dramatic in environment and light, but one picture cannot establish a signature style. Alkey posted it; the maker, photographer, and depicted subject are not assigned here.
