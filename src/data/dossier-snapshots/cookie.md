@@ -33,6 +33,13 @@ claims:
   - text: "On December 15, 2022, Cookie says he had forgotten Slice existed; Ren explains `Vip don’t got access here`. The exchange is a dated access scene, not a complete rank history."
     evidence: "archive-confirmed"
     date: "2022-12-15"
+  - text: "On April 25, 2021, Cookie complained that his editor was automatically cropping his Photoshoot picture. Gilli separately reminded him that outside editors were not allowed, addressing him with `hun lol`."
+    evidence: "archive-confirmed"
+    date: "2021-04-25"
+    sources:
+      - label: "Photo Submissions · 2021-04-25"
+        href: "/channels/photo-submissions"
+    note: "Cookie's `why my editor dont edit full pic` message is 835940155058946059. Gilli's stored Discord reply parent is 835940038549569627, whose text remains unresolved. Do not portray her reply as directly attached to the quoted crop message; no intentional hand-cropping is established."
 antiFanon:
   - "Current canon keeps Cookie on Staff; historical/export-time VIP role arrays do not provide appointment chronology."
   - "`im innocent, not horny` is a dated Cookie line, not an exclusive catchphrase or sexuality theorem. Innocence language is communal in UL."
@@ -56,6 +63,10 @@ tags:
 ---
 
 # Cookie
+
+## The crop that needed a rulebook
+
+In April 2021, Cookie was trying to get a Photoshoot picture through an editor that insisted on cropping the frame. He complained about the automatic crop; Gilli came through with the no-outside-editors rule and a remarkably gentle `hun lol`. Even the software was getting him into trouble. Nobody needed to turn it into a trial: the practical problem and the friendly correction were the whole scene.
 
 Cookie. Kuki. Cookies and Juicebox. One person, several snacks, and eventually a recurring legal strategy: **deny everything and become a running panda**.
 
