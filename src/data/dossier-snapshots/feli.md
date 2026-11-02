@@ -6,7 +6,7 @@ pronouns: "he/him"
 roles:
   - "Sniper"
 eraStart: 2020
-summary: "Feli is a UL Sniper / junior officer whose surviving record begins with an anticipated 2020 arrival and picks up again in 2023, when the Wall catches him as a familiar enough member to be dragged into screenshot jokes and defend himself with keyboard geometry."
+summary: "Feli is a UL Sniper / junior officer whose 2020 arrival was anticipated so enthusiastically that Mugen greeted the wrong newcomer as him first and picks up again in 2023, when the Wall catches him as a familiar enough member to be dragged into screenshot jokes and defend himself with keyboard geometry."
 summaryEvidence: "archive-confirmed"
 publication: "public"
 claims:
@@ -20,13 +20,13 @@ claims:
     sources:
       - label: "🏮 Lobby · 2020-09-27"
         href: "/channels/lobby"
-  - text: "At 00:56 on September 27, 2020, Degen Rat wrote in Club Only that they were `unfortunately not Feli`; at 01:14:57 MEE6 welcomed the stable Feli account in Lobby, and at 01:15:53 Mugen followed with `thereeee we go xD`."
+  - text: "On September 27, 2020, Mugen greeted Degen Rat in Lobby with `FINALLY FELI` and `right? its feli ahaha`; Degen Rat corrected her that they were `unfortunately not Feli`. Roughly twenty minutes later the actual Feli account arrived and Mugen replied `thereeee we go xD` before the role/server-map handoff."
     evidence: "archive-confirmed"
     date: "2020-09-27"
     sources:
       - label: "💬 Club Only / 🏮 Lobby · 2020-09-27"
         href: "/channels/club-only"
-    note: "This is a cross-channel chronology, not one Discord reply chain. It supports social anticipation immediately before Feli's visible arrival but does not identify who was waiting for him or how he was recruited."
+    note: "This is a Lobby false-alarm sequence. Mugen was explicitly expecting Feli, but the exchange does not establish who recruited him or his first-ever contact."
   - text: "On April 1, 2023, a Wall sequence aimed at Feli ends with his surviving explanation `I... O and P is CLOSE`; the two attached JPG exhibits were not visually inspected and the exact typo under prosecution is not reconstructed."
     evidence: "archive-confirmed"
     date: "2023-04-01"
@@ -42,7 +42,7 @@ claims:
     note: "The four attached Dragon Raja screenshots were not visually inspected; the public claim preserves Moon's wording without describing `this` or ranking anyone's role in the incident."
 antiFanon:
   - "Historical Lobby role arrays show Platelet + VIP on Feli's 2020 account. Export-time role snapshots do not date later Sniper appointment chronology and do not override user-confirmed roster canon."
-  - "The September 27, 2020 Degen Rat / MEE6 / Mugen sequence shows that Feli was being anticipated immediately before his visible arrival. It does not identify the person expecting him, prove Mugen personally recruited him, or reconstruct the technical admission path."
+  - "The September 27, 2020 Degen Rat / MEE6 / Mugen sequence shows that Feli was being anticipated immediately before his visible arrival. Mugen is the person visibly expecting him, but this does not prove she recruited him or reconstruct the technical admission path."
   - "The April 1, 2023 `O and P is CLOSE` line is not stored as a true Discord reply to the earlier pooled Deleted User post. Preserve chronology; do not invent the exact missing typo or unseen screenshot contents."
   - "Moon's `creativity` language is peer characterization of one multi-person incident. It does not establish formal creative-office work, authorship of the attached screenshots, or a closeness ranking."
 relatedPeople:
@@ -60,13 +60,11 @@ tags:
 
 Feli, also known as **lemoneli**, is a UL Sniper / junior officer. His surviving archive is thinner than some of the other Snipers', but it still has a clear beginning and a clear later-life beat: in 2020 his arrival is anticipated before his account appears, and by 2023 he is established enough to be part of the Wall's ordinary social prosecution.
 
-## 2020 — Arrival
+## Mugen had already cast him in the wrong entrance
 
-On September 27, 2020, Feli's name appears in Club Only before the stable `lemoneli` account reaches the Lobby. Degen Rat says they are **`unfortunately not Feli`**. Eighteen minutes later MEE6 welcomes Feli's account, and Mugen follows almost immediately with **`thereeee we go xD`**.
+On September 27, 2020, Mugen saw Degen Rat arrive in Lobby and greeted them with **`FINALLY FELI`**. She even checked, **`right? its feli ahaha`**. Unfortunately for the casting department, Degen Rat had to explain that they were **`unfortunately not Feli`**. Mugen laughed; the actual `lemoneli` account arrived about twenty minutes later, and this time she got to say **`thereeee we go xD`** before handling the role and server-map directions.
 
-The sequence does not tell us who recruited him or exactly who was waiting. What it does show is that Feli was not entering as a completely unknown name. By the time the bot recognized the account, the room had already been expecting a Feli.
-
-That is the earliest surviving shape of his place in UL: not a dramatic entrance, just a small piece of social recognition happening before the automated front door catches up.
+Feli barely has to do anything to make the entrance memorable. Mugen's anticipation has already supplied the comedy, and the real arrival closes a joke he never started. Somebody was waiting for *him*, not just another name for the intake form. Why Mugen expected him is unknown; her welcome is not proof she recruited him.
 
 ## 2023 — A familiar member of the room
 
