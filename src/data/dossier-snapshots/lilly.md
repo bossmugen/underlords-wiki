@@ -31,6 +31,12 @@ claims:
   - text: "On December 3, 2020, Lilly posts a screenshot attachment and tags Anayss thirteen seconds later. POSTED BY and the directed mention are proven; the image contents, creator, photographer, and subjects remain unresolved."
     evidence: "archive-confirmed"
     date: "2020-12-03"
+  - text: "On February 17, 2021, Lilly / ButteryButtz posted an uncaptioned Lonely-theme Photoshoot entry (message `811708075354226768`), extending her visible UL Discord participation into the creative contests without establishing in-game UL membership or image authorship."
+    evidence: "archive-confirmed"
+    date: "2021-02-17"
+    sources:
+      - label: "Photo Submissions · Lonely · 2021-02-17"
+        href: "/archive/photo-submissions"
   - text: "Later attachment posts in November and December 2020 produce useful directed mentions/replies, but their image contents remain uninspected and are deliberately not promoted into public character scenes."
     evidence: "archive-confirmed"
 antiFanon:
@@ -59,6 +65,8 @@ tags:
   - "lobby"
   - "jail"
   - "reactions"
+  - "photoshoot"
+  - "lonely-theme"
 ---
 
 # Lilly
@@ -86,3 +94,7 @@ On December 3 Lilly posts another screenshot and tags Anayss thirteen seconds la
 Later Lilly attachment posts produce direct mentions and even a true Illien reply, but the underlying images were not visually inspected in the source pass. Those receipts stay downstairs rather than letting an unseen screenshot dictate another scene. The clean beats already form a coherent shape: arrive through a ridiculous welcome, become part of the house's fake-family grammar, start bantering before the welcome finishes, get loudly recognized, answer missing visual punchlines with tiny reaction language, volunteer for jail company, then become half of the Wall's Pout Department.
 
 That is enough character without pretending it is a complete life history. Lilly's person-rich authored evidence is strongest in 2020, while the current roster still places her under Staff. The gap between those facts remains a research gap. It is not proof that she became shy, distant, inactive, less important, or suddenly transformed into Institutional Staff Woman. The archive already shows the thing worth keeping: she repeatedly becomes legible through other people, and she answers fast enough that the encounter itself becomes the story.
+
+## Episode — Lonely, but still in the room
+
+On February 17, 2021, Lilly put an uncaptioned entry into the **Lonely** Photoshoot round (message `811708075354226768`). The same Lilly who could answer a Wall joke with one syllable did not need a caption here either. The submission is a small but useful continuation of her UL Discord story beyond the louder 2020 Wall scenes. It does not establish that she had changed in-game clubs from Aether, and the image remains uninspected: the participation is hers, while the picture’s maker, photographer, and subjects are not assigned.
