@@ -27,6 +27,9 @@ claims:
   - text: "On August 31, 2020, Rooks says `we’ll just say happy birthday each day till we get it right`; the next morning Anthos thanks her for `starting out the new channel with birthdays`. This supports a kickoff/content role in the birthday-room genealogy, not channel ownership or creation."
     evidence: "archive-confirmed"
     date: "2020-08-31 – 2020-09-01"
+  - text: "During the August 2026 reunion, Rooks directly corrected an old rank assumption with `I wasnt an officer just a regular :Fat_Wheeze:` (message `1537911494476562573`). Current Staff status is separate from historical Officer appointment; neither is inferred from old role arrays."
+    evidence: "archive-confirmed"
+    date: "2026-08-14"
   - text: "During the August 14, 2026 reunion, Rooks volunteers that she is left-handed; Moon answers `WITCHHHH`; Rooks immediately escalates to `DOUBLE WITCH`. Rooks also directly volunteers marriage and dog updates in the same reunion."
     evidence: "archive-confirmed"
     date: "2026-08-14"
@@ -38,7 +41,7 @@ antiFanon:
   - "Birthday-board dates are private member information and are deliberately not republished."
   - "The 2026 witch exchange is a joke about left-handedness, not literal belief or harassment canon."
   - "Affectionate recognition, reactions, greetings, and repeated scenes do not establish friendship rankings."
-  - "Current Staff canon overrides old export-time VIP arrays."
+  - "Current Staff canon overrides old export-time VIP arrays. Rooks directly denied having been an Officer in the 2026 reunion; do not convert Staff into an old Officer appointment."
 relatedPeople:
   - "ren"
   - "ansun"
@@ -73,7 +76,7 @@ That does not make Rooks an Archivist, Evidence Clerk, moderator, or screenshot 
 
 There is a second, quieter contribution in the same early era. On August 31, Rooks writes **`Sooooo we’ll just say happy birthday each day till we get it right`**. The next morning Anthos directly thanks her for **`starting out the new channel with birthdays`**. This supports Rooks as an early carrier or kickoff contributor in the birthday-room genealogy. It does not prove she created the channel, had channel-management permissions, owned the birthday ritual, or that the unnamed room is technically the exact same Discord object later exported under another title. The archive gives her a content handoff, not the keys to Discord admin.
 
-Then the 2026 reunion supplies a beautifully stupid sequel. Mugen recognizes Rooks immediately and remembers an engagement milestone. Rooks corrects the timeline forward by saying she is married and mentions that they got a dog. Those are direct volunteered life updates and stay proportionate. Then Rooks adds **`im also left handed`**. Moon's response is **`WITCHHHH`**. Rooks does not defend herself. She improves the charge: **`DOUBLE WITCH`**.
+The reunion also lets Rooks correct her own paperwork. When the old Officer assumption comes up, she says **`I wasnt an officer just a regular :Fat_Wheeze:`**. Current Staff is real, but it does not magically rewrite the earlier rank. The person who spent years catching evidence against everyone else can also correct the record on herself without making a speech out of it.\n\nThen the 2026 reunion supplies a beautifully stupid sequel. Mugen recognizes Rooks immediately and remembers an engagement milestone. Rooks corrects the timeline forward by saying she is married and mentions that they got a dog. Those are direct volunteered life updates and stay proportionate. Then Rooks adds **`im also left handed`**. Moon's response is **`WITCHHHH`**. Rooks does not defend herself. She improves the charge: **`DOUBLE WITCH`**.
 
 Six years after the first innocence hearing, that is the same social verb in a cleaner form. An allegation appears; Rooks makes it more prosecutable.
 
