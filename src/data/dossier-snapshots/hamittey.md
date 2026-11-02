@@ -12,6 +12,12 @@ claims:
     sources:
       - label: "Lobby · 800632681950871552 / 800632847504769055"
         href: "/channels/lobby"
+  - text: "On March 12, 2021 HamitteY posted a Flowers Photoshoot entry, following his January 17 Lobby self-identification as Wichita of Underlords. The upload does not establish who made, captured, or appears in the image."
+    evidence: "archive-confirmed"
+    date: "2021-03-12"
+    sources:
+      - label: "Photo Submissions · Flowers · 819966871330750494"
+        href: "/channels/photo-submissions"
   - text: "On February 17, 2021 HamitteY identified ShiyaX by the established AUUUUU call, writing 'get the auuuuu guy'."
     evidence: "archive-confirmed"
     date: "2021-02-17"
@@ -65,6 +71,7 @@ tags:
   - "early-member"
   - "running-gags"
   - "wall"
+  - "photo-submissions"
 ---
 
 # HamitteY
@@ -85,6 +92,8 @@ tags:
 
 **The pixels defense (May 9, 2024).** Hami calls it spending money on pixels; Moon insists the pixels contain beautiful 2D men and women. One witness is self-deprecating, the other refuses to let the art go undefended.
 
+**Flowers, no fuss (March 12, 2021).** After answering the Lobby paperwork as Wichita of Underlords in January, Hami also turned up in the Flowers Photoshoot round. A small but useful addition to the early-member picture: he was not only around for the jokes and the Wall. He showed up for the pretty-picture department too.
+
 ## Running Gags
 
 **Exit-door Peepo.** Three surviving Wall dates reuse the same walk-out GIF. One February use arrives right after Noether tries to supply context for somebody wanting to eat Hami. Sometimes the explanation is the cue to leave.
@@ -97,4 +106,4 @@ Hami dislikes cheese; once joked that he forgot he could speak; likes the sound 
 
 ## Sources
 
-QOTD: `archive-intake/qotd-complete-2020-2026/site-candidates-2026-09-06-1242.md`, branch `archive-miner-qotd-officers-20260824`. Lobby, Club-Only and Wall context is also recorded in MAIN's HamitteY biography. Source message IDs are preserved in the claims above.
+QOTD: `archive-intake/qotd-complete-2020-2026/site-candidates-2026-09-06-1242.md`, branch `archive-miner-qotd-officers-20260824`. Photo Submissions: `archive-miner-photo-submissions-2021:archive-intake/photo-submissions-2021-visual-contest-2026-08-19-1845-pdt/checkpoint.md` (Flowers `819966871330750494`). Lobby, Club-Only and Wall context is also recorded in MAIN's HamitteY biography. Source message IDs are preserved in the claims above.
