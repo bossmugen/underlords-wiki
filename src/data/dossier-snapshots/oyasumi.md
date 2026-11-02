@@ -14,6 +14,15 @@ claims:
     sources:
       - label: "Mugs-confirmed command chart"
         href: "/roles/officers"
+  - text: "On January 25, 2022, Mugen's final edited Wall caption called @TankHead94 `Mr. *I don't use discord*`; the same IGN was directly self-reported by Oyasumi in the February 25 Lobby intake."
+    evidence: "archive-confirmed"
+    date: "2022-01-25 – 2022-02-25"
+    sources:
+      - label: "Wall · Mugen's January 2022 edited caption"
+        href: "/channels/wall"
+      - label: "Lobby · Oyasumi's February 2022 self-identification"
+        href: "/channels/lobby"
+    note: "Wall message 935580241680805988 (final edited wording); Lobby message 947022860793294858. The earlier social recognition does not date membership, Discord joining, or appointment."
   - text: "On February 25, 2022, MEE6 / Underlords Stripclub Bouncer welcomed stable account `826020857410486272 / oyasumi0656` and requested IGN, club, and age for role assignment. Oyasumi answered `Boy what the hell boy`, then self-reported `IGN: TankHead94` and `Club: Underlords`."
     evidence: "archive-confirmed"
     date: "2022-02-25"
@@ -105,6 +114,10 @@ tags:
 # Oyasumi
 
 Oyasumi is a current Consigliere / Senior Advisor. The archive does not date that appointment from old role snapshots. Instead, it gives a cleaner social progression: first he encounters UL's front-door procedure as the person being processed; a year later he is one of the people helping newer arrivals through the same machinery.
+
+## MR. I DON’T USE DISCORD
+
+A month before the Lobby bot asks him to identify himself, Mugen is already calling out **TankHead94** on the Wall as **`Mr. I don’t use discord`**. The February form supplies the punchline: Oyasumi himself writes `IGN: TankHead94`. He was recognizable enough to get roasted before this particular doorway caught him on paper. The caption was edited, and the actual first meeting stays unknown.
 
 ## 2022 — THE FORM MEETS THE PERSON
 
