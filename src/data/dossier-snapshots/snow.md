@@ -105,6 +105,13 @@ claims:
     sources:
       - label: "Main HQ site-candidates.md · receipts 928733566488174643, 928733629021032589, 928739116928098304"
     note: "snowcard.jpg is referenced but not visually inspected; proposal is not proof of implementation."
+  - text: "On November 4, 2020, Shiya asked Snow to type more so she could screenshot him for the Wall. Snow joked that he kept his best material in voice chat. Anthos answered that all he did there was 'monch'; Zoshaa then protested that Snow criticized her for eating ONE(1) FREEZIE."
+    evidence: "archive-confirmed"
+    date: "2020-11-04"
+    sources:
+      - label: "August Reunion checkpoint Runs 14–15 · Wall messages 773643330105245717, 773643428893556746, 773643501048168448, 773644023415046194"
+        href: "/channels/wall"
+    note: "These are joking descriptions of voice-chat behavior, not a formal privacy policy or an eating rule. The voice session itself is not recovered."
   - text: "Snow's Wall defense began with his October 30, 2020 claim that nobody could shame him if he posted his own shame first. In February 2021 he also insisted the Wall be reserved for screenshots; on September 22 he said he would post his own material before Ana and Hami could."
     evidence: "archive-confirmed"
     date: "2020-10-30 – 2021-09-22"
@@ -221,3 +228,7 @@ The longer UL progression is more specific than a role ladder: early fixer → r
 ## 2022 — THE POKEOFFICER PROPOSAL
 
 Snow's January 6 Snowfyre business card did not remain a business card for long. He proposed turning Officers into collectible `pokeofficer` cards that members could catch and redeem for prizes. It is a proposal, not a documented launch or prize payout. As an episode, though, it captures the collision between his formal Officer world and his willingness to make that same world into a ridiculous little game. The original `snowcard.jpg` still needs visual inspection.
+
+## THE BEST MATERIAL WAS ALLEGEDLY IN VOICE CHAT
+
+Shiya wanted Snow to type his nonsense where it could be screenshotted. Snow's answer was to claim his best material stayed in VC, safely out of reach of the Wall's usual paperwork. Anthos immediately reduced the supposedly premium content to one activity: **monch**. Zoshaa then arrived to prosecute the double standard, because Snow had apparently found time to criticize her for eating **ONE(1) FREEZIE**. It is a wonderfully Snow-shaped contradiction: he knows exactly how the evidence machine works, jokes about evading it, and gets caught in a completely different charge anyway. The room was teasing him about what happened in voice chat; nobody was legislating what people could eat.
