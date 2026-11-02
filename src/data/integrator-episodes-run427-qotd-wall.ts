@@ -2,6 +2,15 @@ import type { Episode } from "./wiki";
 
 export const run427IntegratedEpisodes: Episode[] = [
   {
+    id: "qotd-barista-gets-carded-at-the-door",
+    title: "The Barista Gets Carded by the Stripclub Bouncer",
+    season: "2022–2023",
+    date: "August 1, 2022 – February 18, 2023",
+    kind: "QOTD / Bots With Jobs / Lobby onboarding",
+    logline: "On August 1, 2022, the Stripclub Bouncer sent UL Cafe Barista the standard human intake request: state IGN, club and age. A different QOTD bot account got the same treatment on February 18, 2023, before Mugen announced 'New barista on board!' Forty-five seconds later Sye volunteered, 'I wrote a question anyway.' The software got employee-style onboarding; the humans kept writing prompts. The two bot IDs distinguish accounts, not a proven technical replacement mechanism. Lobby receipts: 1003651021433745409, 1076508089269899305, 1076508168856797255, 1076508358527422494.",
+    cast: ["Mugen", "Sye"],
+  },
+  {
     id: "zyrcant-five-cent-wall-auction",
     title: "Zyrcant — She Asked for the Wall, Then Got Valued at Five Cents",
     season: "2021",
