@@ -34,7 +34,7 @@ claims:
   - text: "The strawberry-ice-cream post follows the earlier dessert accusation by 23 minutes 52 seconds in Discord message time. That is not evidence that the ice cream was physically made inside that interval."
     evidence: "archive-confirmed-boundary"
     date: "2022-02-03"
-  - text: "On July 7, 2022, Anayss tags Noether and HamitteY together on the Wall and writes `ty for so much material`; Noether later answers the same general Wall run with `Im innocent , hamcito dont believe in me` plus crying emotes, moving easily from prosecutor to defendant without leaving the bit."
+  - text: "On July 7, 2022, Anayss tags Noether and HamitteY together on the Wall and writes `ty for so much material`. Noether answers `hamcito onfire` and later `Im innocent , hamcito dont believe in me`; Eos picks up `hamcito` in Spanish, replying that hamcito is not innocent. A Noether nickname becomes a shared courtroom joke rather than remaining one person's wording."
     evidence: "archive-confirmed"
     date: "2022-07-07"
   - text: "On February 12, 2022, Noether thanked Anayss for welcoming her when she felt alone and had lost the desire to keep playing; meeting UL made the game enjoyable again. Anayss answered 'TQM amiga' and Noether returned the affection. On March 6 they compared each other to warm sunset and bright sunlight, with Noether joking that most of what she says is nonsense."
@@ -101,7 +101,7 @@ By February 2022 the joke has migrated from sugar to dessert. Noether accuses Ha
 
 Later the same day comes **`I made strawberry ice cream, since you didn't share desserts`** with an image attachment. The attachment remains visually undescribed here, and the 23-minute-52-second gap between Discord messages is not a cooking timer. The useful change is social rather than culinary: the person prosecuting dessert scarcity is now the person introducing dessert into the conversation.
 
-The pattern becomes recognizable to other people too. On July 7, Anayss tags Noether and HamitteY together and writes **`ty for so much material`**. Noether is not content to remain the prosecutor; the same Wall run eventually gets **`Im innocent , hamcito dont believe in me`** with crying emotes. The defense is still participation. Noether does not step outside the joke to protest being included; the innocence plea simply becomes another exhibit.
+The pattern becomes recognizable to other people too. On July 7, Anayss tags Noether and HamitteY together and writes **`ty for so much material`**. Noether is not content to remain the prosecutor; the same Wall run eventually gets **`Im innocent , hamcito dont believe in me`** with crying emotes. The defense is still participation. Noether does not step outside the joke to protest being included; the innocence plea simply becomes another exhibit. And Eos is already speaking the new dialect: `ya sabemos que tu eres inocente pero hamcito no`, then `hamcito no es inocente`. Noether starts calling Hami *hamcito*, and somebody else picks it up fast enough to prosecute the nickname's owner. The bit has escaped its inventor.
 
 Three weeks later the dessert thread leaves Discord entirely. Anayss posts in Slice: **`Today I met @Noether! She baked a cake for me ❤️`**. Noether replies **`A date with ana`**. The wording is playful, not a romance receipt; the location and wider circumstances stay private. What the archive can safely say is already better: one of the people previously encountered through Lobby cards and Wall nonsense became somebody Anayss met offline, and Noether brought cake.
 
