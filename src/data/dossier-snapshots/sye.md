@@ -80,6 +80,13 @@ claims:
       - label: "Announcements recovered export"
         href: "/channels/announcements"
     note: "These lines were previously misfiled under Syv. The author ID is 488099199938986004 / sycessences. The sequence shows Sye converting an upstream maintenance alert into an immediate action instruction; it does not prove she controlled the maintenance or authored the upstream system alert."
+  - text: "On February 18, 2023, 45 seconds after Mugen announced a new QOTD Barista, Sye said `I wrote a question anyway` in Lobby. Human question-writing continued alongside the newly announced bot."
+    evidence: "archive-confirmed"
+    date: "2023-02-18"
+    sources:
+      - label: "QOTD miner · site-candidates-2026-08-25-0547.md · Lobby messages 1076508168856797255 and 1076508358527422494"
+        href: "/events/qotd"
+    note: "The line proves Sye wrote a question, not that it was used, posted in QOTD, or that she administered the bot."
   - text: "On June 8, 2023, while members were adding doodles to a communal poster, Sye raised the stale-copy/version-control problem; Wolf suggested putting a doodle on another layer so it could move, and Sye clarified that the larger failure was a newer copy dropping somebody else's doodle and forcing the missing contribution to be re-added."
     evidence: "archive-confirmed"
     date: "2023-06-08"
@@ -201,6 +208,10 @@ In spring 2022, Gabu pages Sye for an event-time edit, and an Officers Challenge
 June shows the positive half of that boundary. Sye welcomes a newcomer, points them through Tour and Biodata, then ends **`Our main chat is here!!`** with Whiskey. She is not only saying where chatter does **not** belong; she is telling people where the social life actually is.
 
 In November, an upstream system alert says the server is going down for maintenance. Sye relays the information, then four seconds later makes the action impossible to miss: **`PLEASE LOG OFF`**. She does not control the maintenance. She translates a system state into what the person should do next.
+
+## THE BARISTA WAS HIRED. SYE KEPT WRITING QUESTIONS.
+
+On February 18, 2023, Mugen announced a new QOTD Barista in Lobby. Forty-five seconds later, Sye said **`I wrote a question anyway`**. Nobody had to choose between a bot and the human who had already bothered to make a prompt. The line fits her other practical work: she sees a job that needs doing and does it, even while the machinery is being rearranged. The record does not say whether that particular question ever made it onto the menu.
 
 ## 2023–2024 — TECHNICAL HABITS SHOW UP IN SHARED CREATIVE WORK, THEN THE BIO WIDENS
 
