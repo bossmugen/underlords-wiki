@@ -80,6 +80,13 @@ claims:
     sources:
       - label: "photo-submissions identity provenance"
         href: "/channels/photo-submissions"
+  - text: "On April 2, 2021, Ansun posted an `Example Photos` heading and two reference-image attachments before the Colors submissions opened on April 5. Anayss, Gilli, and Ren also posted examples in that pre-opening cluster."
+    evidence: "archive-confirmed"
+    date: "2021-04-02 – 2021-04-05"
+    sources:
+      - label: "Photo Submissions miner · site-candidates.md · Colors pre-opening example sequence"
+        href: "/channels/photo-submissions"
+    note: "Ansun POSTED BY is confirmed; MADE BY, CAPTURED BY, and FEATURING remain unassigned. The example sequence establishes shared visual preparation, not a formal creative-director appointment."
   - text: "On September 12, 2021, Ren introduced Photo Submissions example photos with the explicit line `Example Photos Credits to Ansun`."
     evidence: "archive-confirmed"
     date: "2021-09-12"
