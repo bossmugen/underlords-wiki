@@ -99,6 +99,12 @@ claims:
       - label: "Main HQ site-candidates.md · Wall receipts 748575587022536726, 748575666202476615, 748575770275741727"
         href: "/channels/wall"
     note: "The exact image Ansun judged has not been securely joined; this is peer characterization, not proof of the origin of OLD MAN SNOW."
+  - text: "On January 6, 2022, Snow shared a Snowfyre business/officer card, then proposed collectible `pokeofficer` cards that members could catch and exchange for prizes. The proposal is documented; a completed card game or prize exchange is not."
+    evidence: "archive-confirmed"
+    date: "2022-01-06"
+    sources:
+      - label: "Main HQ site-candidates.md · receipts 928733566488174643, 928733629021032589, 928739116928098304"
+    note: "snowcard.jpg is referenced but not visually inspected; proposal is not proof of implementation."
   - text: "Snow's Wall defense began with his October 30, 2020 claim that nobody could shame him if he posted his own shame first. In February 2021 he also insisted the Wall be reserved for screenshots; on September 22 he said he would post his own material before Ana and Hami could."
     evidence: "archive-confirmed"
     date: "2020-10-30 – 2021-09-22"
@@ -211,3 +217,7 @@ The 2026 Safe House reunion compresses the serious and unserious Snow into the s
 The security-clearance joke matters because it is Snow using his own vocabulary against himself. The same man who spent years talking about permissions and access can now walk into a Discord room and make the entire concept sound absurd with one wide-eyed emoji. The bot-history scene matters for the opposite reason: he does remember a technical lineage years later. Both can coexist with **`Forgot all the commands 😱`**. The archive does not need Snow to be infallible in order for him to be recognizably knowledgeable.
 
 The longer UL progression is more specific than a role ladder: early fixer → room-boundary setter → conduct-framework drafter → collaborator willing to hand systems sideways → senior member whose own age becomes community property → later technical elder still asking questions, warning people about links, and turning security language into jokes. The Pit Boss / Judgemen titles name present roles. The timeline shows the person who made those roles feel plausible without falsely crowning him #2.
+
+## 2022 — THE POKEOFFICER PROPOSAL
+
+Snow's January 6 Snowfyre business card did not remain a business card for long. He proposed turning Officers into collectible `pokeofficer` cards that members could catch and redeem for prizes. It is a proposal, not a documented launch or prize payout. As an episode, though, it captures the collision between his formal Officer world and his willingness to make that same world into a ridiculous little game. The original `snowcard.jpg` still needs visual inspection.
