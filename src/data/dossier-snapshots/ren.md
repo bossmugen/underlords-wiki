@@ -12,6 +12,13 @@ summary: "Ren's archive progression starts with her using Slice for the same soc
 summaryEvidence: "inferred"
 publication: "public"
 claims:
+  - text: "On January 19, 2023, Ren recognized returning FuentesKaede in Lobby with `kaede linda eres tuuuu?` and later `bienvenida de regreso kaede linda`, welcoming him personally rather than treating the bot intake as a first introduction."
+    evidence: "archive-confirmed"
+    date: "2023-01-19"
+    sources:
+      - label: "🏮 Lobby · Ren/Kaede return · 1065813484853530644 / 1065821635485118594"
+        href: "/channels/lobby"
+    note: "Recognized return and affectionate Spanish, not romance, appointment chronology, or proof of first membership date."
   - text: "Ren is a confirmed Caporegime in the current command roster."
     evidence: "user-confirmed"
     sources:
@@ -256,3 +263,9 @@ Ren's fake Officer dossiers made the house's private jokes searchable as mock cr
 ## THE FOUNTAIN OF YOUTH — Running gag
 
 Snow had apparently been hoarding the youth supply. In an April 2023 Wall exchange, Nobu called Ren a child, Kiro promoted RV to the fountain of youth itself, and Moon supplied the missing culprit: Snow had given it to her. One joke, three people, and Grandpa somehow still gets blamed. It is a small sideways cameo in Snow’s age mythology, not a new biography of Ren’s actual age.
+
+## KAEDE LINDA — Recognition at the door
+
+On January 19, 2023, the Lobby bot started processing FuentesKaede. Ren was already past the paperwork: `kaede linda eres tuuuu?` A little later came `bienvenida de regreso kaede linda`. The stretched-out greeting matters more than the intake form. She recognized the person, switched into affectionate Spanish, and made the return feel like somebody had noticed the door opening. That is the useful Ren detail here: her memory was not confined to collecting screenshots of people being idiots. She also remembered who to welcome back.
+
+**Receipts:** Lobby `1065813484853530644`, `1065821635485118594`. This is a recognized return, not a new appointment or a romance claim.
