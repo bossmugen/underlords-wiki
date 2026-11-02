@@ -1,0 +1,53 @@
+---
+name: "DarkAsrai"
+aliases:
+  - "darkasrai"
+summary: "DarkAsrai could describe being accepted as a weirdo with real tenderness, then turn around and inventory three cats with completely incompatible personalities. Horror-game jump scares were worth volunteering for; eating ASMR was absolutely not."
+summaryEvidence: "archive-confirmed"
+publication: "public"
+claims:
+  - text: "DarkAsrai described a sister who stayed supportive even when they messed up, and appreciated Underlords for accepting them as a weirdo."
+    evidence: "archive-confirmed"
+    sources:
+      - label: "QOTD · DarkAsrai belonging answer, 2023-03-10"
+        href: "/channels/question-of-the-day"
+    note: "Stable author 659305268684783628; original message ID awaits technical re-expansion."
+  - text: "DarkAsrai described three cats: one hides in warm places, one is indifferent, and one still has the zoomies."
+    evidence: "archive-confirmed"
+    sources:
+      - label: "QOTD · three-cat answer"
+        href: "/channels/question-of-the-day"
+  - text: "DarkAsrai wanted to try more horror games despite expecting jump-scare screams, but ruled out ASMR of people eating."
+    evidence: "archive-confirmed"
+    sources:
+      - label: "QOTD · horror games and ASMR preferences"
+        href: "/channels/question-of-the-day"
+antiFanon:
+  - "DarkAsrai is not identified with fictional Rose; no identity bridge is established."
+  - "The sister is a real-life relationship described by DarkAsrai, not a claim about other UL characters."
+  - "Do not infer a diagnosis from ASMR preferences."
+tags:
+  - "archive-cast"
+  - "qotd"
+  - "ordinary-life"
+---
+
+# DarkAsrai
+
+## Accepted, weirdness included
+
+DarkAsrai spoke warmly of a sister who stayed there even when they messed up. Underlords mattered for a related reason: its people had, in DarkAsrai's own words, “accepted a weiedo like me.” It is a small sentence with a lot inside it. The joke at their own expense makes the gratitude easier to say, but doesn't erase it.
+
+## Three cats, three operating systems
+
+At home, the cats were not remotely interested in agreeing on a personality. One hid in warm spots all day. One simply did not care. The third still had the zoomies. It is the kind of tiny domestic report that makes somebody recognizable beyond a username.
+
+## Petty Crimes
+
+**Voluntary Horror Suffering.** Wanted more horror games despite fully expecting to scream at jump scares.
+
+**Eating-ASMR Embargo.** Other ASMR might be negotiable. Listening to people eat was not.
+
+## Sources
+
+QOTD miner: `archive-intake/qotd-complete-2020-2026/site-candidates-2026-09-06-0854.md` on `archive-miner-qotd-officers-20260824`. Stable Discord author ID `659305268684783628`. Exact message IDs remain to be re-expanded; no Rose identity claim is made.
