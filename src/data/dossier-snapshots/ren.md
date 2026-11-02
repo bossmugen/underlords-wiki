@@ -31,6 +31,13 @@ claims:
       - label: "Main HQ / Wall · police-card reposts · 1355050884609867788, 1355050934496923759, 1355051574958751887, 1355203583842455683"
         href: "/channels/wall"
     note: "The 2025 receipts document circulation/reposting, not the original creation date. Do not claim a real police department, legal offenses, or maker/capture credit for uninspected images."
+  - text: "On April 9, 2023, a Wall exchange called Ren/RV the fountain of youth: Nobu called her a child, Kiro declared RV the fountain itself, and Moon joked that Snow had given it to her. This folds Ren into Snow’s long-running old-man mythology rather than establishing any literal age or origin story."
+    evidence: "archive-confirmed"
+    date: "2023-04-09"
+    sources:
+      - label: "Wall · 1094846260021842022, 1094846569993478155, 1094851890057068556"
+        href: "/channels/wall"
+    note: "Single-scene age joke. Nobu posted an uninspected screenshot; do not infer its maker, capturer or contents."
   - text: "On April 13, 2020, during Slice's opening-night conversation about pandemic anxiety, Ren wrote `You kept me distracted for a while! That made it better`."
     evidence: "archive-confirmed"
     date: "2020-04-13"
@@ -245,3 +252,7 @@ That is the progression underneath the Caporegime title. Ren starts as somebody 
 Ren's fake Officer dossiers made the house's private jokes searchable as mock criminal warnings. Gabu's height feud, Mugen's Plutonian nonsense, Sye's small-but-deadly reputation, and Ren's own warning to avoid her all became form fields. The 2025 reposts brought the jokes back into circulation. The cards are a comedy artifact, not evidence of actual offenses or a dated formal appointment.
 
 **Receipt IDs:** `1355050884609867788`, `1355050934496923759`, `1355051574958751887`, `1355203583842455683`. Original card creation date and media authorship remain unresolved.
+
+## THE FOUNTAIN OF YOUTH — Running gag
+
+Snow had apparently been hoarding the youth supply. In an April 2023 Wall exchange, Nobu called Ren a child, Kiro promoted RV to the fountain of youth itself, and Moon supplied the missing culprit: Snow had given it to her. One joke, three people, and Grandpa somehow still gets blamed. It is a small sideways cameo in Snow’s age mythology, not a new biography of Ren’s actual age.
