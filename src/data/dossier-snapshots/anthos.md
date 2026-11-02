@@ -14,6 +14,13 @@ claims:
     evidence: "user-confirmed"
     sources:
       - label: "Mugs-confirmed command chart"
+  - text: "On September 22, 2020, Ansun joked that Anthos’s job as `town crier` had been reduced to `only crying and not spreading news`."
+    evidence: "archive-confirmed"
+    date: "2020-09-22"
+    sources:
+      - label: "Club-Only · Ansun message 758132922552156161"
+        href: "/channels/club-only"
+    note: "Ansun’s crier/crying wordplay, not a formal UL appointment or proof of the title’s origin."
   - text: "On June 5, 2020, when an unresolved Deleted User announced they needed time away from the game, Anthos replied `that's alright bb`, told them to take as much time as needed, and reminded them `u always have a home here okayy`."
     evidence: "archive-confirmed"
     date: "2020-06-05"
@@ -136,6 +143,8 @@ That line works because she is not watching UL culture from outside. She is alre
 September also gives the most concrete version of that role. During a live update to the UL family Tumbleweed, Anthos explains the structure as **`like a mind map`**, keeps adding relationships, checks the pins, and tells the room **`we r updating the UL family tumbleweed`**. The map already existed; she is maintaining it, not founding it. Dean's placement beside Mugen is an older family relationship being represented, not a recruitment event.
 
 ## 2020–2021 — THE PERSON BECOMES A HOUSE BIT WITHOUT STOPPING BEING USEFUL
+
+Ansun also briefly appoints himself her fake personnel department. On September 22, he announces that Anthos's `town crier` duties have been reduced to crying instead of spreading news. She could keep an entire room oriented and still get demoted by a pun. The job was a joke; the ease with which Ansun could make her the punchline says plenty about how comfortably they played off each other.
 
 Around the same time, the Ansun/Anthos voice-twin joke takes off. The room starts multiplying Anthos into `one being`, `all Anthos`, `Anthos is the solution`, and eventually an entire **Anthos arc**. None of that is literal identity or relationship canon. It is what happens when a highly familiar person becomes easy raw material for the group's internal language.
 
