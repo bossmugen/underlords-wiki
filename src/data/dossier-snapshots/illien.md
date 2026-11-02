@@ -156,6 +156,12 @@ Wall adds a useful contradiction to that care pattern. Illien is not only somebo
 
 **Care and prosecution share a timestamp — December 10, 2021.** Illien's blunt concern toward Akuma and his rapid attachment filing happen inside the same Wall exchange. The scene is useful precisely because care does not require him to stop participating in the joke.
 
+## Episodes — practical scheduling and imaginary premium pricing
+
+**Clash of Swords schedule — June 14, 2020.** Mugen's public schedule thanks Illien for suggesting coordinated jumps across time zones to maximize scoring opportunities. Public announcement message `721831213098205224`. This is an operational contribution, not a dated appointment.
+
+**Premium lunch — September 24, 2020.** Illien/Euros requests lunch with Sota (`758766111209553922`). Sota jokes about charging to see Illien on camera (`758766119015940177`); Gilli escalates the wording (`758766294186721321`); Illien replies that the in-person meeting costs more (`758766304860700733`). Sota agrees and orders beef tartare (`758766412796919869`). Treat as playful pricing banter, not a real transaction or relationship claim.
+
 ## Running gags / recurring behavior
 
 - **Follow-through:** rerun, explain, spar, check whether the person actually got there.
