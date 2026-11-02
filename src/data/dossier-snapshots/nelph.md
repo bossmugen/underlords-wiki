@@ -21,6 +21,15 @@ claims:
         href: "/channels/lobby"
       - label: "🧱 Wall recovered export"
         href: "/channels/wall"
+  - text: "On December 16, 2020, Nelph answered a Lobby welcome with `Nelphie, Underlords, S-9`, providing a self-authored early identity bridge. On October 23, 2021, she gave Staff a four-minute `Win or Lose` event warning at Luxury Cruise, extending the same action-first notice pattern documented in November and December."
+    evidence: "archive-confirmed"
+    date: "2020-12-16 → 2021-10-23"
+    sources:
+      - label: "🏮 Lobby · 2020-12-16 · message 788827631642345493"
+        href: "/channels/lobby"
+      - label: "📣 Announcements · 2021-10-23 · message 901635188013035520"
+        href: "/channels/announcements"
+    note: "Main HQ miner checkpoint; the Lobby reply does not prove first join or role appointment. Historical age is intentionally omitted from public copy."
   - text: "Across November–December 2021 announcements, Nelph repeatedly posted action-first game notices: `@Staff DRAGON BREATH IS UP! Come to club base!` on November 2, `@Staff DRAGON BREATH IS UP!! COME TO CLUB BASE TO SPANK SOME DRAGONS BOOTY` on November 20, `@Staff STAR OF CASSEL IS UP! PLACE YOUR BETS!` on November 21, and a December 2 reminder ending `VOTING ENDS IN 6 MINS`."
     evidence: "archive-confirmed"
     date: "2021-11-02 → 2021-12-02"
@@ -80,7 +89,7 @@ tags:
 
 Nelph is filed in the current roster as a retired full Officer. The archive does not give a complete appointment/departure chronology, but it does preserve a useful three-stage biography: visible operational work in 2021, an intervening social bridge in 2023, and familiar reunion recognition in 2026.
 
-## 2021 — HER ANNOUNCEMENTS KEEP ENDING WITH WHAT TO DO NEXT
+## THE FRONT DOOR, THEN THE COUNTDOWN\n\nIn December 2020, Nelph answered the Lobby welcome as **`Nelphie, Underlords, S-9`**. The old intake is a small self-introduction, not a proven first day or a promotion record. By October 2021, she was already warning Staff that **`Win or Lose`** was starting at Luxury Cruise in four minutes. That is the useful bridge: an ordinary name at the door becomes a familiar voice telling the room where to go before the clock runs out.
 
 Across November and December, Nelph repeatedly posts game notices that are allergic to passive information. Dragon Breath is up, so **come to club base**. Later it is up again, so **`COME TO CLUB BASE TO SPANK SOME DRAGONS BOOTY`**. Star of Cassell is up, so **`PLACE YOUR BETS!`**. Voting is closing, so the room gets **`VOTING ENDS IN 6 MINS`**.
 
