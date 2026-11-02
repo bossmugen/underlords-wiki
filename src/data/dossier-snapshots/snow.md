@@ -99,6 +99,13 @@ claims:
       - label: "Main HQ site-candidates.md · Wall receipts 748575587022536726, 748575666202476615, 748575770275741727"
         href: "/channels/wall"
     note: "The exact image Ansun judged has not been securely joined; this is peer characterization, not proof of the origin of OLD MAN SNOW."
+  - text: "In a November 4, 2020 Wall throwback, Gilli remembered Anayss leaving Snow naked in bushes; Pride/neffiegames said 'i have picture', and Zoshaa later called it Snow's 'emo, raining nude bush hours'. The room treated the incident as familiar old nonsense."
+    evidence: "archive-confirmed"
+    date: "2020-11-04"
+    sources:
+      - label: "August Reunion checkpoint Run 15 · Wall 773639722797891624, 773639756390203404, 773641063256424498; Anayss nickname bridge 754138916931502080, 754138929997021226, 754138974221631518"
+        href: "/channels/wall"
+    note: "November 4 is the retelling, not the original event. The referenced image was not inspected; its maker, poster, capturer, contents and incident mechanics remain unknown."
   - text: "On January 6, 2022, Snow shared a Snowfyre business/officer card, then proposed collectible `pokeofficer` cards that members could catch and exchange for prizes. The proposal is documented; a completed card game or prize exchange is not."
     evidence: "archive-confirmed"
     date: "2022-01-06"
@@ -232,3 +239,9 @@ Snow's January 6 Snowfyre business card did not remain a business card for long.
 ## THE BEST MATERIAL WAS ALLEGEDLY IN VOICE CHAT
 
 Shiya wanted Snow to type his nonsense where it could be screenshotted. Snow's answer was to claim his best material stayed in VC, safely out of reach of the Wall's usual paperwork. Anthos immediately reduced the supposedly premium content to one activity: **monch**. Zoshaa then arrived to prosecute the double standard, because Snow had apparently found time to criticize her for eating **ONE(1) FREEZIE**. It is a wonderfully Snow-shaped contradiction: he knows exactly how the evidence machine works, jokes about evading it, and gets caught in a completely different charge anyway. The room was teasing him about what happened in voice chat; nobody was legislating what people could eat.
+
+## THE BUSHES CASE (OR: WHY DOES EVERYONE ALREADY KNOW?)
+
+Gilli casually remembered the time Ana left Snow naked in bushes. Pride answered **`i have picture`** eight seconds later, and Zoshaa soon supplied the label **`raining nude bush hours`**. Nobody stopped to explain the scene. That is the joke: everybody in the room apparently knew which Snow disaster was being discussed, and the rest of us have been handed the police report without the crime scene.
+
+The older nickname exchange identifies Ana as Anayss. The original incident and the alleged picture remain missing, so the November 2020 retelling stays a remembered episode rather than an invented origin story. MAIN tells this as part of Snow's larger habit of becoming Wall material; WIKI keeps the dated witness chain.
