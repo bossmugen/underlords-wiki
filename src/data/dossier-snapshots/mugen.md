@@ -71,6 +71,13 @@ claims:
         href: "/channels/slice"
       - label: "Wall"
         href: "/channels/wall"
+  - text: "On October 26, 2022, Daya described Mugen as `quick outburst, then she goes for a nap`, followed by `SCREAM then *silence* THEN SCREM AGAIN` — a peer caricature of her abrupt shifts between noise and quiet."
+    evidence: "archive-confirmed"
+    date: "2022-10-26"
+    sources:
+      - label: "Wall · Daya and Gilli on Mugen's outburst-and-nap rhythm"
+        href: "/channels/wall"
+    note: "Daya's joke is a peer impression, not objective evidence of a fixed sleep cycle or a description of the uninspected profile-picture screenshot. Wall receipts 1034897502824050749 and 1034897586622058556; Gilli context 1034897408489947157."
   - text: "Mugen works in healthcare as an RN/director. During the 2026 reunion she calls herself `that senior nurse` and summarizes her experience as `11 years of mistakes bb`, putting professional seniority and self-deprecation in the same breath."
     evidence: "archive-confirmed"
     date: "2026-08"
@@ -304,6 +311,8 @@ Employment remains one of Mugen's great anti-mythology devices.
 She is an RN and works in healthcare leadership as a director. The social archive rarely treats that as a résumé line. Work enters as exhaustion, timing, missed nonsense, after-work collapse, somebody asking where Mugen is and somebody else knowing the answer is probably horizontal.
 
 As early as April 2020, Gilli tells a newcomer Mugen is `probably asleep right now`. In 2021 Mugen posts an old photo captioned `Old pic, lying ded on floor after work`. In 2023: `I take a short nap and wake up to this`.
+
+Daya had already given the household a more precise operating diagram in October 2022: `quick outburst, then she goes for a nap`. When Gilli said he could hear screaming, Daya supplied the full score: `SCREAM then *silence* THEN SCREM AGAIN`. The joke works because even her colleagues can recognize the switch: Boss arrives at full volume, vanishes into quiet, and may come back with the siren on. Daya was teasing her, not clocking her actual sleep schedule.
 
 The reunion gives us a better work line because it comes from Mugen herself. During nursing talk with Kiro she calls herself **`that senior nurse`** and then summarizes the experience behind that seniority as:
 
