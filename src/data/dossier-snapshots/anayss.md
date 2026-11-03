@@ -24,6 +24,13 @@ claims:
       - label: "Photo Submissions · Colors pre-opening example-image sequence"
         href: "/events/photo-submissions"
     note: "POSTED BY Anayss; not proof she made or captured the image, nor a formal contest appointment. Photo miner site-candidates.md, Colors mood-board sequence."
+  - text: "In late summer 2021, Anayss used \u0060roachy\u0060 as tactical shorthand for a rival club with a large active roster. The surrounding War Room vocabulary included \u0060too roachy\u0060, \u0060roachable\u0060, and Milk's \u0060radioactive roaches\u0060 who could bench-press 220."
+    evidence: "archive-confirmed"
+    date: "2021-08 – 2021-09"
+    sources:
+      - label: "Backroom / War Room · roach vocabulary family"
+        href: "/channels/war-room"
+    note: "Backroom Pass 1 site-candidates.md / receipts.md: 799355381540192266, 874104057244033024, 874106117586812938, 874839397281968138, 874839536767750224, 874839632334954547, 890757214166483025. Distinguish speakers: Milk supplies radioactive/bench-press escalation; Anayss uses the practical high-active-roster sense. The January Ren joke is an earlier vocabulary frontier, not a proven coinage."
   - text: "Anayss is one of two confirmed Underbosses / Deputies in the current command roster."
     evidence: "user-confirmed"
     sources:
@@ -175,3 +182,7 @@ The current Underboss / Battle Leader titles are confirmed separately; the archi
 ## Running Gags — Coffee before language
 
 Before the battle reminders and the perfectly serviceable Lobby directions, Ana had another recurring announcement: coffee. Sometimes it was `Need coffee`, sometimes `Need cogfee`, and one September morning the request arrived in fragments. Gabu's reply to the caffeine campaign was practical: `maam drink water too`. A tiny, very recognizable collision between Ana's morning vocabulary and Gabu's hydration policing.
+
+## Running Gags — The roach report
+
+A battle briefing could contain a serious warning about an enemy club's active roster and still sound like somebody had called an exterminator. By late summer 2021, Anayss was using **\u0060roachy\u0060** for opponents with too many active bodies to ignore. Elsewhere the vocabulary mutated into **\u0060too roachy\u0060** and **\u0060roachable\u0060**, while Milk contributed **\u0060radioactive roaches\u0060** that could bench-press 220. The word was ridiculous; the warning underneath it wasn't. That's Anayss's battle voice in miniature: make sure people understand the threat, even if the threat has six legs.
