@@ -10,18 +10,18 @@ claims:
     evidence: "archive-confirmed"
     sources:
       - label: "QOTD · DarkAsrai belonging answer, 2023-03-10"
-        href: "/channels/question-of-the-day"
+        href: "/channels/qotd"
     note: "Stable author 659305268684783628; original message ID awaits technical re-expansion."
   - text: "DarkAsrai described three cats: one hides in warm places, one is indifferent, and one still has the zoomies."
     evidence: "archive-confirmed"
     sources:
       - label: "QOTD · three-cat answer"
-        href: "/channels/question-of-the-day"
+        href: "/channels/qotd"
   - text: "DarkAsrai wanted to try more horror games despite expecting jump-scare screams, but ruled out ASMR of people eating."
     evidence: "archive-confirmed"
     sources:
       - label: "QOTD · horror games and ASMR preferences"
-        href: "/channels/question-of-the-day"
+        href: "/channels/qotd"
   - text: "DarkAsrai anticipated Wall exposure twice, on 2021-08-19 and 2023-04-03, responding 'I had a feeling this would happen' and 'I knew id get in here'."
     evidence: "archive-confirmed"
     date: "2021-08-19 / 2023-04-03"
