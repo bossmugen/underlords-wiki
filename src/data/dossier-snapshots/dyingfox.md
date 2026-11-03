@@ -125,13 +125,13 @@ tags:
 
 Dyingfox is one of the Platelet files where restraint is part of getting the person right. The archive does not hand us a giant autobiographical monologue, a formal UL job, or enough scenes to pretend there is a five-act personality hidden between exports. What it does preserve is a very consistent form of presence across a surprisingly long span: small reactions, quick gestures, and short lines that work because they land at exactly the right moment.
 
-## QOTD — Fox files the adoption papers
+## Gilli signs the adoption papers
 
 **January 26–February 12, 2022 · Gilli, Souta, and the Daycare brat.** Fox asked Gilli `adopt me?`; Gilli replied to that request with an eating GIF and `Done`, followed by a hug. Two days later Fox picked Eevee in a Pokémon hypothetical and named Gilli as trainer for a very specific reason: `food and affection`. By February 12, Fox was thanking Gilli and Souta for `feeding me once a week`. These are recurring jokes and care-language, not literal adoption or a verified meal schedule. The same February answer supplies Fox's own arrival story: Aether had died off, they initially ignored the UL Discord, and then ended up in Daycare `being a brat :)`.
 
 **February 2022–February 2023 · The name and the breakfast tribunal.** Fox's answer about the handle is gloriously practical: foxes are their favorite animal; they keep dying in video games. Elsewhere in QOTD, Fox admits to peanut butter on waffles, berries and cream on crepes, and syrup and bacon on pancakes. Ordinary uniform: sweatshirt and pants, with flannel for occasions requiring an upgrade. Their stated passion? Sleeping. The point isn't to turn these into a résumé; it's that the same person who charges Jordayy snacks for Daycare entry has extremely specific opinions about what counts as breakfast.
 
-## 2021 — reaction language before biography
+## Fluent in one emote
 
 The earliest strong run sits under the 2021 hydration and food reminders in Announcements. Posts escalate from `drink water!!!` to `DRINK WATER OR I'LL BURY YOU`, then to the particularly UL combination of threat and affection: `DRINK WATER , EAT SOMETHING AND REMEMBER THAT I ADORE YOU`. Dyingfox repeatedly appears underneath those posts with the custom reaction `GuraHmph`.
 
@@ -141,7 +141,7 @@ The pattern gives Dyingfox a recognizable social texture without requiring a spe
 
 The later display name `DyingFox(Gilli's Pond)` belongs to that same account. It is useful as historical identity continuity and as evidence that UL's nickname machinery got to Fox too. It is not a literal claim that Gilli owns Fox, raised Fox, dates Fox, or occupies some formal relationship rank called Pond. The joke can survive without being promoted into family law.
 
-## 2021–2023 — the Snack Toll boomerangs
+## Snacks are both currency and affection
 
 May 21, 2021. Jordayy asks whether they can hide in Daycare and please be accepted there. Dyingfox's intake form contains one field:
 
@@ -155,7 +155,7 @@ Then the food changes direction. In November 2022 Rich says Platelet feeding is 
 
 The useful recurrence is not a newly discovered office called Feed the Fox. It is the reversal. Fox once charged somebody snacks for entry; later food is flowing toward Fox, and the answer is a hug. Same room, same tiny vocabulary, different side of the exchange.
 
-## 2022 — seven seconds from `fox halp` to a pat
+## Ren calls. Fox answers.
 
 On August 6, 2022, Ren writes `fox halp` in the Wall. Seven seconds later Dyingfox answers with the server's pat emote.
 
@@ -163,13 +163,13 @@ It is a tiny exchange, which is exactly why it belongs in this biography. There 
 
 The surrounding Wall exhibit is not fully reconstructed, so the page does not invent what Ren needed help with or turn Dyingfox into UL's designated emotional-support department. One direct pat is one direct pat. It is still more revealing than a title the archive never gave them.
 
-## 2023–2025 — the camera gets thinner
+## What the quiet stretches cannot tell us
 
 The current person-specific evidence gets much thinner after the 2023 Daycare food callback. That is an archive boundary, not a personality conclusion. It does not prove Dyingfox withdrew, became less close to the group, stopped talking, changed temperament, or vanished from the wider social world. The biography leaves the middle uneven rather than padding it with generic Platelet lore or export-time role arrays.
 
 That gap also keeps the low-bandwidth pattern honest. Reactions, a snack demand, a hug, a pat, and later short reunion lines are enough to describe a repeated feature of the surviving scenes. They are not enough to diagnose Fox as universally quiet, shy, emotionally reserved, or deadpan in every context.
 
-## 2026 — `Forever platelet`
+## Forever Platelet, still causing problems
 
 The August 14 Whiskey reunion finally gives Fox a stronger self-authored identity beat. Moon says `I refuse to believe that the platelets graduated`. Dyingfox answers `I never age`, then `Forever platelet :Cute_Cozy:`. Mugen follows by echoing the Platelet tag.
 
