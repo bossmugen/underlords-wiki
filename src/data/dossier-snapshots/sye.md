@@ -238,7 +238,9 @@ Recipes for Disaster makes that especially obvious. Ren asks for pasta and Sye a
 
 The archive supports substantial cooking knowledge, not a professional-chef credential. What matters for the biography is that competence has not changed her voice. Technical specificity and clown vocabulary can coexist in the same paragraph without either one becoming fake.
 
-When Dragon Raja's club future finally had to be said aloud, Sye was the one who made the July 1 announcement: UL would not merge; the in-game club was disbanding. She gave people through the end of July to settle things. The wording is unusually plain for a room that could turn nearly anything into a joke, and that matters. She had spent years making systems legible to people; here the message was painful, but nobody had to guess what decision had been made. The precise last in-game shutdown action is still undated.\n\nThen the best continuity joke lands back in Saber Control. In July Sye posts **`/kill saber`**. In August she returns with **`i forgot how to uses this bot xD`**, invokes help, and remembers Snowden has the other schedule.
+When Dragon Raja's club future finally had to be said aloud, Sye was the one who made the July 1 announcement: UL would not merge; the in-game club was disbanding. She gave people through the end of July to settle things. The wording is unusually plain for a room that could turn nearly anything into a joke, and that matters. She had spent years making systems legible to people; here the message was painful, but nobody had to guess what decision had been made. The precise last in-game shutdown action is still undated.
+
+Then the best continuity joke lands back in Saber Control. In July Sye posts **`/kill saber`**. In August she returns with **`i forgot how to uses this bot xD`**, invokes help, and remembers Snowden has the other schedule.
 
 Five years after direct configuration work, Sye is willing to say she no longer remembers the interface. That is not a collapse of the earlier competence. It is what a real long-term timeline looks like: knowledge is used, handed around, forgotten, reacquired, and shared.
 
