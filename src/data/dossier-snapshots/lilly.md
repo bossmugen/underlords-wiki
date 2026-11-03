@@ -36,7 +36,7 @@ claims:
     date: "2021-02-17"
     sources:
       - label: "Photo Submissions · Lonely · 2021-02-17"
-        href: "/archive/photo-submissions"
+        href: "/events/photo-submissions"
   - text: "Later attachment posts in November and December 2020 produce useful directed mentions/replies, but their image contents remain uninspected and are deliberately not promoted into public character scenes."
     evidence: "archive-confirmed"
 antiFanon:
