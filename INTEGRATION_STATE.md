@@ -1,3 +1,7 @@
+## 2026-11-03 01:34 PST — Main HQ disband announcement source correction (MAIN only)
+
+Main HQ `archive-miner/main-hq-hourly` checkpoint confirms Sye/Life's public Club-Only announcement `1389671015268880404` on July 1, 2025, 11:16 PDT. MAIN `src/lib/history-chronicle-overrides.ts` reader commit `333454b71c45911a51e7d2eba3e5a6eb4f3607d0` now distinguishes the announcement/decision from the still-unresolved final in-game club shutdown, and replaces an obsolete "message ID not reacquired" source note with the actual ID. WIKI `src/data/dossier-snapshots/sye.md` already carries the structured announcement claim; no duplicate WIKI reader edit. MAIN source reread succeeded; workflow lookup returned zero runs at inspection, so production verification remains pending. Full miner census: 137 branches / 30 active miners, no new/advanced, persisted MAIN census `3a7ef8bdbe335ddb43a836ce97349732b3529356`. No consumed SHA advanced; August Reunion/Main HQ later overlays remain to be inventoried; Club-Only recovery remains open.
+
 
 ## 2026-11-03 00:00 PST — HamitteY deployment verification follow-up
 
