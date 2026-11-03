@@ -19,7 +19,7 @@ claims:
     date: "2021-02–03"
     sources:
       - label: "Photo Submissions · 805842449753833482 / 812025598058561578 / 819449931655807026"
-        href: "/archive/photo-submissions"
+        href: "/events/photo-submissions"
   - text: "In a later Wall scene, Anayss summoned Miihi with the single word 'evidence'; Miihi answered promptly, and Baby Lyssa remarked on how quickly she had beaten others to it."
     evidence: "archive-confirmed"
     date: "2021-08-24"
