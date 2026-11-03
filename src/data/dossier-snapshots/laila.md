@@ -18,7 +18,7 @@ claims:
     date: "2021-02–03"
     sources:
       - label: "Photo Submissions · 805686930972737556 / 812055517882613810 / 818481503155650623"
-        href: "/archive/photo-submissions"
+        href: "/events/photo-submissions"
 antiFanon:
   - "The January Lobby exchange does not preserve Laila's own IGN, club, or age answer; role assignment is not evidence of a specific formal office or in-game club admission."
   - "Photoshoot posting does not identify the creator, photographer, or depicted subjects of the images."
