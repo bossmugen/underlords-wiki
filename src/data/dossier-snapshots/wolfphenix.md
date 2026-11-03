@@ -37,7 +37,7 @@ claims:
     date: "2021-06-24"
     sources:
       - label: "Photo Submissions recovered export"
-        href: "/channels/photo-submissions"
+        href: "/events/photo-submissions"
   - text: "On November 8, 2021, Wolf posted a Weekly Planner and asked people to say what needed adding or changing; in April 2024, when Anayss asked for event updates, Wolf found an older planner, updated it, and again asked for missing events or incorrect times."
     evidence: "archive-confirmed"
     date: "2021-11-08 – 2024-04-08"
