@@ -79,45 +79,22 @@ tags:
   - "keyboard-collapse"
 ---
 
-Cele's surviving character file becomes more reliable as it moves forward in time. The earliest surfaced Wall item is somebody else's joke about her. By 2022 and 2023, Cele is supplying the evidence herself through direct reactions to being exposed. That shift matters: the page no longer has to build a woman out of what Ren says about her when it can watch Cele's own language fall apart in real time.
+Cele can turn being caught on the Wall into a second, louder incident. First comes the prosecution — `GOODBYE`, `UR DONE` — then the spelling starts falling down the stairs, and finally a screaming cat takes over. The remarkable part is how quickly she can get back to laughing with everybody. Her outrage is theatrical, but her participation is real. The joke doesn't happen *to* her for very long before she's helping make it worse.
 
-Cele / Celeana / Celery are the same person, and her primary living-roster shelf is Platelets. Woosung is her real-life cousin, a relationship that helps locate her in the wider social network but does not need to be forced into every Wall scene.
+Her name has a similar lack of ceremony. `Celeana` was supposed to be `Celaena`, after a favorite book character. She typed it wrong, meant to fix it, and simply never bothered. Cele, Celeana, Celery: same person. She is a permanent Platelet, not somebody who needs an invented Staff promotion to explain why people know her.
 
-## 2021 — the archive first catches peer characterization
+## Bullying, with love
 
-On June 4, 2021, Ren posts a Wall joke comparing Cele to Marie Kondo through a dead-animal-versus-live-animal `sparks joy` bit.
+Woosung is Cele's real-life cousin and a major reason she ended up in Raja and UL. Cele's version of the invitation is that WOO wanted her in the same club so she would be easier to `booli`. That sounds like a threat until you hear the other half: WOO calls Cele someone she can rely on, someone who makes her feel capable and pushes her to be stronger. Asked who she'd spend ordinary time with, WOO keeps choosing Cele. Cele, for her part, answered a question about showing love with `booli wit lOoveee`. A whole family communication protocol in three misspelled words.
 
-It is funny evidence of how Ren is willing to characterize Cele, but it is weak evidence of Cele's own behavior. That distinction is worth preserving because personality pages can become fanon very quickly when somebody else's one-liner gets treated like a psychological assessment. The 2021 scene belongs as social context, not as the thesis of the page.
+Anthos gets an even less respectable family arrangement. Cele's running story is that Anthos adopted her, left her in Daycare to buy milk, and never came back. Anthos's response — `and there u shall stay ~` — hardly improves the parenting review. Cele stays because there are snacks. A year later she's still telling Anthos she loves them despite the milk-related desertion. It's a shared bit, not a literal family history, and the fact that they keep returning to it is the point.
 
-The stronger material arrives later, when Cele is visibly at the keyboard.
+## The defendant becomes the entertainment
 
-## September 2022 — receipt shock becomes authored evidence
+Ren once compared Cele to Marie Kondo in a Wall joke about what sparks joy. That was Ren's joke. Cele's own contribution to Wall folklore is far more recognizable. In September 2022, after being exposed, she went from `GOODBYE` to `UR DONE` to `RLY BE EXPOSNING M LIKE THAT`, then surrendered the floor to a screaming-cat emote. Before long she was wheezing along with the room.
 
-On September 29, 2022, something has reached the Wall and Cele names the offense herself: she is being exposed.
+In March 2023, Rich posted another image involving Cele and got `AKAKCKWFKWJ` back, followed by more keyboard wreckage and a parade of `Cute_catAHHHH` emotes. The images themselves aren't described here; her replies are plenty. Two different Wall incidents, one unmistakable response style: threaten the prosecution, lose the alphabet, remain at the party.
 
-Her reaction arrives in a rapid sequence: `GOODBYE`, then `UR DONE`, then `RLY BE EXPOSNING M LIKE THAT`, followed by a screaming-cat emote.
+## Petty Crimes
 
-The progression inside less than a minute is the character evidence. `GOODBYE` performs total social death. `UR DONE` immediately reverses direction and threatens the prosecution instead. The third line finally states the actual grievance, but by then spelling and syntax are already starting to lose the fight. The screaming cat takes over where language stops being efficient.
-
-Then the scene softens almost as quickly as it escalated. Cele's own messages move into reaction emotes, including a wheeze, while Rummy is laughing nearby. That short route from mock outrage back into laughter matters. The surviving sequence does not read like a sustained serious conflict. Cele performs the catastrophe, threatens whoever put her on display, then rejoins the joke before the emotional paperwork has even cleared.
-
-The triggering exhibit remains undescribed because it was not visually reconstructed in this pass. Cele's own wording gives us enough. We know she understands herself to be exposed; we know how she reacts; we do not need to invent the image to make the scene funny.
-
-## March 2023 — the same failure mode returns
-
-Six months later, on March 8, 2023, Rich posts an image attachment mentioning Cele. This time the reply chain is cleaner: Cele responds directly to the attachment with `AKAKCKWFKWJ`.
-
-A few seconds later another garbled line appears, followed by three `Cute_catAHHHH` emotes.
-
-Different date, different exhibit, same useful pattern. When a receipt lands directly on Cele, formal rebuttal can give way to keyboard collapse and distressed-cat vocabulary. Two scenes are enough to call that recurring texture. They are not enough to claim that every typo Cele has ever made means embarrassment, or that she always responds to exposure this way.
-
-The repetition also clarifies what was missing from the 2021 Marie Kondo bit. Ren's joke tells us the room can make Cele into a character. The 2022 and 2023 scenes show Cele doing something much more interesting: she participates in her own Wall mythology by making the reaction itself part of the spectacle.
-
-That is why the garbled text matters beyond being funny. Cele does not merely say `stop`. Her response escalates visibly from recognizable words into damaged ones and then into emotes, as though the archive is catching language run out of bandwidth under the pressure of the receipt. In 2022 she even circles back into a wheeze, meaning the collapse is not the end of the interaction; it becomes one more thing the room can laugh with her about.
-
-Permanent Platelet is the stable roster fact. The biography the archive earns is chronological and narrower: first Cele is mostly preserved through peer characterization; then, once the Wall catches her reacting in her own voice, a much better pattern appears — mock prosecution, linguistic collapse, screaming cats, and a remarkably short path from `UR DONE` back to laughing inside the same house that just exposed her.
-## QOTD relationships and running gags
-
-- **Woosung:** Real-life cousins; WOO's same-club teasing invitation is Cele's account of how she came into Raja/UL. WOO later describes Cele as someone she can rely on, and Cele calls teasing with love her own affectionate style.
-- **Anthos:** The recurring fictional Daycare adoption and missing-milk-parent joke survives from January 2022 into March 2023. Anthos answers the bit; Cele keeps calling back to it.
-- **Name origin:** `Celeana` was an uncorrected misspelling of `Celaena`, not a separate person or an inferred legal name.
+The permanent username typo. The affectionate bullying doctrine. Daycare snacks strong enough to make a missing-milk-parent situation tolerable. A personal emergency vocabulary consisting partly of screaming cats. Cele has a talent for making her own reaction the thing everyone remembers.
