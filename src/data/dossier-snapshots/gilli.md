@@ -64,6 +64,13 @@ claims:
       - label: "Photo Submissions · Gilli · 879237597300408341"
         href: "/channels/photo-submissions"
     note: "Gilli posted the labeled submission, not necessarily created or captured the image. The Ephxs/Ghoulie relationship is not classified as romantic or familial; the image remains uninspected. Backroom receipts-pass-60.md."
+  - text: "On April 2, 2021, Gilli joined Ansun, Anayss, and Ren in posting example/reference images ahead of the April 5 Colors Photoshoot opening. On April 25 she also corrected Cookie’s outside-editing issue with `hun lol`, maintaining the rule while keeping the exchange friendly."
+    evidence: "archive-confirmed"
+    date: "2021-04-02 – 2021-04-25"
+    sources:
+      - label: "Photo Submissions · Colors examples and Cookie correction"
+        href: "/events/photo-submissions"
+    note: "Posting example images is not authorship or capture credit. Gilli’s stored reply parent is 835940038549569627, not Cookie’s later quoted crop message 835940155058946059; do not assert a direct reply to that specific line."
   - text: "On April 24, 2021, Gilli warned Photo Submissions participants that MAFIA-theme entries could not be cropped and had to keep the player's name visible, and asked noncompliant entries to be resubmitted."
     evidence: "archive-confirmed"
     date: "2021-04-24"
@@ -183,7 +190,9 @@ The pattern is already there. Raja is the setting; the people are becoming the r
 
 ## 2021 — CARE AND MAINTENANCE BECOME ROUTINE
 
-Through 2021, Gilli is repeatedly visible in the work that keeps UL's recurring programs usable. She closes Photo Submissions rounds, moves them toward results and the next theme, and enforces the Mafia-theme requirement that uncropped names remain visible. In Lobby she assigns roles and routes newcomers through Biodata, rules, and the Tour.
+Through 2021, Gilli is repeatedly visible in the work that keeps UL's recurring programs usable. She closes Photo Submissions rounds, moves them toward results and the next theme, and enforces the Mafia-theme requirement that uncropped names remain visible.
+
+Before Colors even opened in April, she was among the people posting example images alongside Ansun, Anayss, and Ren. And when Cookie got tangled in the photo editor's automatic crop and the outside-editing rule later that month, Gilli's correction came with `hun lol`. She could insist on the rule without turning a friend's botched picture into a disciplinary hearing. The same woman who kept the contest moving also helped make it possible to enter. In Lobby she assigns roles and routes newcomers through Biodata, rules, and the Tour.
 
 Her care language runs alongside the procedure. She points Gabu's own hydration identity back at her—**`DRINK WATER AND EAT SOMETHING`**, later **`I DONT CARE IF IT'S LATE, DRINK WATER !`**—and December QOTD prompts arrive paired with reminders to eat and smile. On New Year's Day 2022, Gilli's own goal is surprisingly small: **`I plan to try to make at least one more friend.`**
 
