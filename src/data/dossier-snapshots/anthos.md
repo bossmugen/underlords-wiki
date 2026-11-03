@@ -99,6 +99,13 @@ claims:
       - label: "Slice of Life · 2025"
         href: "/channels/slice"
     note: "The `real person` language is peer joking around Anthos's long-running multiplication/universal-constant bit, not literal doubt about her identity."
+  - text: "Sota assigned Anthos bomb-defusal duty in a September 18, 2020 Keep Talking and Nobody Explodes session; Anthos answered `u rlly want me to defuse a bomb` and `so much trust uwu`. On October 24 a separate Defend Boss alert from Sota complained about Anthos and bombs; she replied `T_T`."
+    evidence: "archive-confirmed"
+    date: "2020-09-18 / 2020-10-24"
+    sources:
+      - label: "Backroom Pass 7 · 756597970316689539, 756598016869400746, 756598050801189037, 769739584874479616, 769739776848166942"
+        href: "/archive/club-only"
+    note: "Two different games; no sabotage or shared bomb mechanic inferred."
 antiFanon:
   - "The Ansun/Anthos twin, `all Anthos`, alter-Anthos, `one being`, trinity, solution, and rebellion-arc language is archive-confirmed running-bit material, not a literal identity merger, religion, rebellion, or relationship-status claim."
   - "Historical 2020 gender-splitting jokes inside the Anthos multiplication bit do not override Anthos's current Mugs-confirmed identity as a woman."
