@@ -8,6 +8,12 @@ summary: "Tofu is current Staff whose Wall file is built around reciprocal evide
 summaryEvidence: "archive-confirmed"
 publication: "public"
 claims:
+  - text: "In the 2021 Stalker Photoshoot, Tofu captioned a submission 'Breaking Raja logic for this pic'; in Waltz, BishopThaGuru described teaching Tofu to dance as unexpectedly cute. These are separate creative scenes, not proof of a romantic pairing or of who captured the images."
+    evidence: "archive-confirmed"
+    date: "2021"
+    sources:
+      - label: "Photo Submissions · Stalker 858525835572281363 / Waltz 866931278216298516"
+        href: "/archive/photo-submissions"
   - text: "Current canon places Tofu on the Staff shelf; recovered Wall account `j_kirizami` appears as `Tofu🐝`. Historical VIP metadata does not override the living roster."
     evidence: "canon-lock"
   - text: "The recovered Discord record gives Tofu a June 20, 2021 server-join timestamp. Five days later, on June 25, Tofu has the earliest Wall post found in the checked surviving Tofu interval; its attachment remains visually uninspected."
@@ -93,3 +99,8 @@ Then Slice opens 2022 with Tofu's **`NO ONE TOUCH ANYTHING NOW THAT WE'RE IN 202
 By August 2024, the screenshot reflex is still alive. Tofu writes: **`This is isn't far off from a convo he and I had a few days ago... where is that screenshot`**. The identity of `he` is not safely resolved in this receipt. The verb is. Three years after the Wall was putting Tofu on blast, the question is still not *do I remember this?* It is **where is the screenshot**.
 
 That continuity is enough. Request the receipt. Post the receipt. Become the receipt. Object loudly. Promise to repeat the underlying crime. Years later, ask where another receipt went. The Wall trained a generation badly, and Tofu kept the filing instinct.
+## The game logic was apparently optional
+
+Tofu's 2021 Photoshoot appearances add a different kind of trouble to the file. For **Stalker**, the caption was **`Breaking Raja logic for this pic`**. A perfectly ordinary contest entry, except apparently the game itself had to be negotiated with before the shot could exist. The exact workaround isn't established, and the picture doesn't need an invented production story to make the line funny.
+
+Then **Waltz** brought BishopThaGuru into the frame. Bishop described teaching Tofu to dance as a lot cuter than expected. It's a tiny shared creative scene: one person remembers the lesson, not just the finished submission. It belongs beside Tofu's habit of participating in the bit while commenting on its practical limits. It doesn't turn a staged dance into a romance, and it doesn't assign the photograph to either participant.
