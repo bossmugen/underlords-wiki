@@ -38,7 +38,7 @@ claims:
     date: "2021-04-25"
     sources:
       - label: "Photo Submissions · 2021-04-25"
-        href: "/channels/photo-submissions"
+        href: "/events/photo-submissions"
     note: "Cookie's `why my editor dont edit full pic` message is 835940155058946059. Gilli's stored Discord reply parent is 835940038549569627, whose text remains unresolved. Do not portray her reply as directly attached to the quoted crop message; no intentional hand-cropping is established."
 antiFanon:
   - "Current canon keeps Cookie on Staff; historical/export-time VIP role arrays do not provide appointment chronology."
