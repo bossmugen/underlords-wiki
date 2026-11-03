@@ -39,7 +39,7 @@ claims:
     date: "2022-02-12 → 2024-03-28"
     sources:
       - label: "☕ QOTD · Syv/Ren bridge-to-mirror"
-        href: "/channels"
+        href: "/channels/qotd"
     note: "Syv authored 942150562877698168 and 1222938806789996617; QOTD prompt 1222897175151902814. Reactions lack timestamps. Friendship, not literal kinship or romance."
 antiFanon:
   - "Ren helping Syv become more comfortable speaking and Syv later identifying with Ren are friendship and self-description, not proof of romance or formal mentorship."
