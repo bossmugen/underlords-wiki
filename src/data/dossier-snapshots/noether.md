@@ -42,14 +42,14 @@ claims:
     date: "2022-02-12 – 2022-03-06"
     sources:
       - label: "QOTD · Noether / Anayss exchange · 942235593356754944, 942238707828801567, 942238838171009035, 950164255095816243, 950166999781220395"
-        href: "/channels/question-of-the-day"
+        href: "/channels/qotd"
     note: "Noether describes social belonging in the game/club, not homelessness. Anayss's support is a social entry route, not proof of who technically admitted Noether. Affection is not evidence of romance."
   - text: "Anayss repeatedly asked Noether to cook for the group in March and June 2022; Noether answered with breads, pizza, chocolate cake, focaccia ambitions, and chocolate, lemon, and apple-walnut cupcake options."
     evidence: "archive-confirmed"
     date: "2022-03-08 – 2022-06-12"
     sources:
       - label: "QOTD · cooking prompts · 950795271183429633, 950795647487971379, 985577518998380594, 985577978199154729"
-        href: "/channels/question-of-the-day"
+        href: "/channels/qotd"
     note: "Menu talk and recipe plans do not establish a professional cooking role or that every item was physically made."
   - text: "On July 29, 2022, Slice records Anayss writing `Today I met @Noether! She baked a cake for me ❤️`; Noether replies `A date with ana`. This establishes an offline meetup and Anayss's direct statement about the cake, not romance or location."
     evidence: "archive-confirmed"
