@@ -120,6 +120,13 @@ claims:
       - label: "🍰 Slice of Life · 2024–2026 recovered transcript"
         href: "/channels/slice"
     note: "Exact directly re-parsed message 1351170626261352509 at 05:29 PDT. The source grounds Sye's food hypothetical and Last of Us framing only; it does not establish food-safety expertise, a standing role, a complete fandom profile, or the content/authorship of any uninspected attachment."
+  - text: "On July 1, 2025, Sye/Life publicly announced that Underlords would not merge with another Dragon Raja club: `UL will not be merging. This is a full on disbanding of the club.` She allowed members until the end of July to settle matters. This dates the announcement, not the final mechanical in-game shutdown."
+    evidence: "archive-confirmed"
+    date: "2025-07-01"
+    sources:
+      - label: "Club-Only · Sye public disband announcement · message 1389671015268880404"
+        href: "/channels/club-only"
+    note: "Main HQ checkpoint cross-checked exact Club-Only post at 11:16:28 PDT, edited at 11:16:39; Sye stable ID 488099199938986004. Jul. 31 cleanup and Aug. 18 retrospective disband wording are later bounds, not proof of final mechanical date."
   - text: "On July 30, 2025, Sye posted `/kill saber` in Saber control. On August 4 she returned, typed `i forgot how to uses this bot xD`, invoked help, and remembered that Snowden held the other schedule."
     evidence: "archive-confirmed"
     date: "2025-07-30 – 2025-08-04"
@@ -231,7 +238,7 @@ Recipes for Disaster makes that especially obvious. Ren asks for pasta and Sye a
 
 The archive supports substantial cooking knowledge, not a professional-chef credential. What matters for the biography is that competence has not changed her voice. Technical specificity and clown vocabulary can coexist in the same paragraph without either one becoming fake.
 
-Then the best continuity joke lands back in Saber Control. In July Sye posts **`/kill saber`**. In August she returns with **`i forgot how to uses this bot xD`**, invokes help, and remembers Snowden has the other schedule.
+When Dragon Raja's club future finally had to be said aloud, Sye was the one who made the July 1 announcement: UL would not merge; the in-game club was disbanding. She gave people through the end of July to settle things. The wording is unusually plain for a room that could turn nearly anything into a joke, and that matters. She had spent years making systems legible to people; here the message was painful, but nobody had to guess what decision had been made. The precise last in-game shutdown action is still undated.\n\nThen the best continuity joke lands back in Saber Control. In July Sye posts **`/kill saber`**. In August she returns with **`i forgot how to uses this bot xD`**, invokes help, and remembers Snowden has the other schedule.
 
 Five years after direct configuration work, Sye is willing to say she no longer remembers the interface. That is not a collapse of the earlier competence. It is what a real long-term timeline looks like: knowledge is used, handed around, forgotten, reacquired, and shared.
 
