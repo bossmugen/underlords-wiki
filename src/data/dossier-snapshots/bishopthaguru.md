@@ -10,7 +10,7 @@ claims:
     date: "2021-07-19"
     sources:
       - label: "Photo Submissions · Waltz · 866931278216298516"
-        href: "/channels/photo-submissions"
+        href: "/events/photo-submissions"
 antiFanon:
   - "A staged Waltz pairing and affectionate caption do not establish a romantic relationship."
   - "The submission was posted by BishopThaGuru; image creation, capture, and depicted identity have not been independently verified."
