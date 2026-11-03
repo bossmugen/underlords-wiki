@@ -17,6 +17,13 @@ claims:
       - label: "Club Only · Anayss coffee sequence"
         href: "/channels/club-only"
     note: "Main HQ site-candidates.md cross-indexes Club Only receipts 749259018220077087, 749259194531577856, 749967471657615370, 749969036678266901, 751050916584489061, 751051268377542687, 751816722381537321, 752847094477226026, 752847113045671988, 756131460749983859, 757929930586587146, 757929944067211385, 757929954330804244, 757929956956307526. Repeated message/GIF vocabulary, not proven literal daily coffee consumption."
+  - text: "On April 2, 2021, Anayss joined Ansun, Gilli, and Ren in posting example/reference images for the Colors Photoshoot before Mugen opened submissions on April 5."
+    evidence: "archive-confirmed"
+    date: "2021-04-02 – 2021-04-05"
+    sources:
+      - label: "Photo Submissions · Colors pre-opening example-image sequence"
+        href: "/events/photo-submissions"
+    note: "POSTED BY Anayss; not proof she made or captured the image, nor a formal contest appointment. Photo miner site-candidates.md, Colors mood-board sequence."
   - text: "Anayss is one of two confirmed Underbosses / Deputies in the current command roster."
     evidence: "user-confirmed"
     sources:
@@ -138,7 +145,7 @@ In September 2020, Anayss is still very capable of being confused in public. She
 
 That makes the next surviving turn better. By December she is repeatedly in the Lobby helping other people find their way through UL's Discord map, rules, chats, and Biodata. The in-game map and the Discord Tour are different systems; the progression is human, not technical. A member who can joke about getting lost becomes one of the people making sure somebody else does not stay lost for long.
 
-The same period also places her firmly inside UL's relationship grammar. Anthos's Tumbleweed update labels her as Gabu's `boyfriend` in the house-joke map. That is not literal romance, but it shows how quickly Anayss had become legible enough to the room to acquire fake-family metadata.
+The creative work also turned outward. Before the Colors Photoshoot opened in April 2021, Anayss was among the people posting example images alongside Ansun, Gilli, and Ren. The entrants had not even been given the starting gun, and the room was already passing around possibilities. She was helping set the visual table, not just arriving later with a plate.\n\nThe same period also places her firmly inside UL's relationship grammar. Anthos's Tumbleweed update labels her as Gabu's `boyfriend` in the house-joke map. That is not literal romance, but it shows how quickly Anayss had become legible enough to the room to acquire fake-family metadata.
 
 And November adds a second lane: she posts a group-chibi work in progress in the Louvre and names several UL people she intends to include. By June 2021 Bryce says one of her artworks is **still his phone background**. Later that summer Anayss is labeling pieces **`first time drawing anime`** and **`first time drawing art on a PC`**; in September Gilli is praising details like shading, eyes, hair, and clothes while Anayss talks process. The useful progression is simple: she is not only being rendered by UL's later creative culture. She was already making things inside it.
 
