@@ -68,7 +68,7 @@ claims:
     date: "2021-06-24"
     sources:
       - label: "Photo Submissions recovered export"
-        href: "/channels/photo-submissions"
+        href: "/events/photo-submissions"
   - text: "On July 12, 2021, Ansun posted `Tae said \"fuck\" July 12 2021`, then said it was `directed at Ansun in an act of microaggression, framed upon the wall at 10:12PM PST`; another member called it `fruit on fruit crime`."
     evidence: "archive-confirmed"
     date: "2021-07-12"
@@ -79,20 +79,20 @@ claims:
     evidence: "archive-confirmed"
     sources:
       - label: "photo-submissions identity provenance"
-        href: "/channels/photo-submissions"
+        href: "/events/photo-submissions"
   - text: "On April 2, 2021, Ansun posted an `Example Photos` heading and two reference-image attachments before the Colors submissions opened on April 5. Anayss, Gilli, and Ren also posted examples in that pre-opening cluster."
     evidence: "archive-confirmed"
     date: "2021-04-02 – 2021-04-05"
     sources:
       - label: "Photo Submissions miner · site-candidates.md · Colors pre-opening example sequence"
-        href: "/channels/photo-submissions"
+        href: "/events/photo-submissions"
     note: "Ansun POSTED BY is confirmed; MADE BY, CAPTURED BY, and FEATURING remain unassigned. The example sequence establishes shared visual preparation, not a formal creative-director appointment."
   - text: "On September 12, 2021, Ren introduced Photo Submissions example photos with the explicit line `Example Photos Credits to Ansun`."
     evidence: "archive-confirmed"
     date: "2021-09-12"
     sources:
       - label: "Photo Submissions recovered export"
-        href: "/channels/photo-submissions"
+        href: "/events/photo-submissions"
   - text: "On October 20, 2021, Ansun said every piece he had posted in the Club Media Gallery was made with Canva Free and that Pro was not required to do what he did."
     evidence: "archive-confirmed"
     date: "2021-10-20"
@@ -259,6 +259,8 @@ Identity is communal. Authorship is not. There is the character.
 He also refuses to let UL believe its own press release. One polished image is **`Good looking but brain empty HAHAHA`**. Another, less glamorous piece is more honest because **`the others a sham we aren’t that cool LMAOOOO`**.
 
 The man is contributing to the brand while heckling the brand from inside the design file.
+
+In April, Ansun also helped get COLORS ready before anybody could officially enter. He posted an `Example Photos` heading and two reference images on April 2; Anayss, Gilli, and Ren added more before submissions opened on April 5. This is Ansun at his most useful: the guy who can clown on the brand while quietly making sure everyone else knows what the assignment looks like. Posting the references is his contribution here; nobody has to pretend he personally photographed them.
 
 Photo Submissions catches another angle on June 24: WolfPhenix posts an attachment with the entire caption **`Ansun uwu`**. Seven people hit `fatlaugh`. The caption safely identifies Ansun as the referent. The image itself is not being described from a transcript pointer, and the wiki is not assigning photographer/editor/model credit by séance.
 
