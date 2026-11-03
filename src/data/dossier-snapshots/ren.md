@@ -84,6 +84,13 @@ claims:
       - label: "📣 Announcements · Ren care rhetoric, 2021"
         href: "/archive/announcements"
     note: "The wording is preserved as house-register rhetoric, not a literal threat, violence claim, medical-practice claim, or encouragement of real misconduct."
+  - text: "Ren called herself the self care police in March 2021, included Gilli in a crossed-out hydration check, and shared the Drink Water/ Eat Food Reminder announcement lane with Gilli by April; a July bulletin paired 'Be evil for today UwU' with 'consume water or evaporate'."
+    evidence: "archive-confirmed"
+    date: "2021-03-01 – 2021-07-07"
+    sources:
+      - label: "Backroom Pass 19 · Announcements hydration reminders"
+        href: "/archive/announcements"
+    note: "Receipts 816127767971102730, 831258088115535933, 834874392847712316, 862382300963799060. Role creation date unknown; the reminders were multi-author."
   - text: "During spring 2021 Photo Submissions theme cycles, Ren repeatedly posted `Example Photos` packages while Gilli closed rounds and carried the room toward results / the next theme. By June, example-photo posting was shared with other contributors, so this is recurring participation rather than an exclusive visual job."
     evidence: "archive-confirmed"
     date: "2021-04-18 – 2021-05-10"
@@ -224,7 +231,7 @@ This is not a formal archivist appointment and Ren did not invent UL quote cultu
 
 ## 2021 — MEMORY WORK EXPANDS INTO CARE AND PROGRAM WORK
 
-Through 2021, Ren's Announcements voice repeatedly asks broad audiences whether they ate, drank water, rested, or wanted company. Sometimes the care is gentle—**`if you don’t feel like smiling that’s ok too`**—and sometimes it arrives as **`drink water or I’m eating your bone marrow`**. The threat is house rhetoric, not a literal threat. The underlying action stays mundane: check on the people.
+In the March 1 **self care police** announcement, Ren's checklist included a crossed-out `Gilli` beside the water question. By April, both were posting through the hydration-reminder lane. Ren's July instructions managed to permit evil behavior while making water consumption compulsory. The formal role's creation date remains unknown.\n\nThrough 2021, Ren's Announcements voice repeatedly asks broad audiences whether they ate, drank water, rested, or wanted company. Sometimes the care is gentle—**`if you don’t feel like smiling that’s ok too`**—and sometimes it arrives as **`drink water or I’m eating your bone marrow`**. The threat is house rhetoric, not a literal threat. The underlying action stays mundane: check on the people.
 
 The same year she repeatedly posts example-photo packages for Photo Submissions while Gilli closes rounds and moves them toward the next theme. In August, when dora/Forsaken adds a sentence to a submission, Ren does not just wave a rulebook at her. She opens with `Haii doraaaa`, apologizes for the correction, and follows up almost immediately with the way to save the entry: post the original picture without the sentence. The rule stays put; the person gets a way forward. That visual contribution is shared rather than exclusive, but it widens the pattern. Ren is increasingly involved in giving the group prompts, examples, and structures through which people can participate.
 
