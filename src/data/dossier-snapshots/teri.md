@@ -10,27 +10,27 @@ claims:
     evidence: "archive-confirmed"
     sources:
       - label: "QOTD · 1320764923038531646, 1327751622859690156, 1331990932630802432, 1332027799598403665, 1363534287357477086"
-        href: "/channels/question-of-the-day"
+        href: "/channels/qotd"
   - text: "Teri and Moon called each other best friends; at the fifth-anniversary check-in both thanked the other for being there during difficult times."
     evidence: "archive-confirmed"
     sources:
       - label: "QOTD · 1316842573293420584, 1316842748438904992, 1363534287357477086, 1363552952446484552, 1363606117791568244"
-        href: "/channels/question-of-the-day"
+        href: "/channels/qotd"
   - text: "Teri's Sword Art Online confession prompted Nemo to recognize a shared interest, Teri to call Nemo a new bestie and help find Integral Factor, and Moon to jokingly assert her existing bestie claim; the conversation was redirected to Whiskey."
     evidence: "archive-confirmed"
     sources:
       - label: "QOTD · 1316794290885623839, 1316842748438904992"
-        href: "/channels/question-of-the-day"
+        href: "/channels/qotd"
   - text: "Eight stored Barista cards credit kinzokumissu, and Teri directly recognized one as a question she made. Later cards invited original-character and alternate-universe storytelling."
     evidence: "archive-confirmed"
     sources:
       - label: "QOTD · 1339238853969707019, 1339440625522708490, 1371114521736773766, 1374375587422015529, 1375825216521109536, 1379087247361441792"
-        href: "/channels/question-of-the-day"
+        href: "/channels/qotd"
   - text: "Teri repeatedly returned to Sword Art Online, proposed inventing or funding a real-world NerveGear, and told a school-project story about a mistyped Portuguese monkey search."
     evidence: "archive-confirmed"
     sources:
       - label: "QOTD · 1314251676701429770, 1322221491336515636, 1332356053282848849, 1374746727621595258"
-        href: "/channels/question-of-the-day"
+        href: "/channels/qotd"
 antiFanon:
   - "Singing as a hobby does not establish a professional entertainment career or diagnosis."
   - "Moon's sister language is playful, not proof of biological kinship; Nemo's bestie declaration is scene-local."
