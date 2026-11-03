@@ -6,7 +6,7 @@ summary: "DiStratus finds calm in thunderstorms, uses music to move through feel
 summaryEvidence: "archive-confirmed"
 publication: "public"
 claims:
-  - text: "On March 1, 2024, DiStratus said thunderstorms bring excitement and peace because the world around them gets drowned out."
+  - text: "On March 1, 2024, DiStratus described thunderstorms as exciting and peaceful because the surrounding world gets drowned out."
     evidence: "archive-confirmed"
     date: "2024-03-01"
     sources:
