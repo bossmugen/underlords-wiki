@@ -63,6 +63,13 @@ claims:
     date: "2024-12-11"
     sources:
       - label: "Richard's Corpse On A Cooch · 2024-12-11"
+  - text: "On August 11, 2026, Tae wondered whether she had left an impression; Mugen reported that searching for Tae crashed the Discord archive search, and Tae replied that trying it herself crashed her PC too."
+    evidence: "archive-confirmed"
+    date: "2026-08-11"
+    sources:
+      - label: "Wall · message 1536935166122008636"
+        href: "/channels/wall"
+    note: "The two participants reported failures. Neither Tae nor the search term is established as the technical cause."
 antiFanon:
   - "The August 27, 2020 Lobby exchange is a Discord onboarding/role-assignment anchor, not guaranteed first in-game UL admission."
   - "The September algebra scene proves math help only. Do not label the problem homework, classwork, an exam, or Tae's own assignment without another receipt."
@@ -161,3 +168,7 @@ That is what long-term continuity looks like when the original game stops being 
 The spoken call is not preserved, so the site does not pretend to know everything Rich said or showed. The typed half already tells the useful story. In 2021 Tae's `I been in here` rejects the idea that belonging has just been granted. In 2024 the same belonging is mundane enough that it expresses itself as `maybe I install what my friends are playing next`.
 
 Permanent Platelet is the stable role label. Tae's surviving progression is the human part underneath it: one word at the Discord door, an embarrassed algebra question answered seriously, a temporary government whose first known victim is Gabu, fluency in the house's screenshot grammar, self-submitted evidence when the joke is good, and years later friendship rather than one specific game deciding where she shows up.
+
+## August 2026 — too memorable for the search box
+
+Tae wondered aloud whether she had left an impression. Mugs was trying to search the old Discord material and said looking up `tae` crashed the search. Tae tried it too and came back with `I DID THE SAME THING AND IT CRASHED MY PC`. Nobody diagnosed either failure. The timing did the comedic work: Tae asked whether anyone would remember her, and two computers apparently refused to answer normally. The August 11 Wall post (`1536935166122008636`) is the source for the exchange, not a technical crash report.
