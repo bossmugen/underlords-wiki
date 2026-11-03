@@ -10,7 +10,7 @@ claims:
     date: "2021-07-20"
     sources:
       - label: "Photo Submissions · Waltz · 867268997471666236"
-        href: "/channels/photo-submissions"
+        href: "/events/photo-submissions"
 antiFanon:
   - "A named Waltz partner does not establish romance, enduring closeness, or an offscreen relationship."
   - "The caption identifies Dreamless by name, not by a visually verified avatar position."
