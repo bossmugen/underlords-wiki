@@ -16,6 +16,13 @@ claims:
       - label: "🏮 Lobby · 2021-12-19"
         href: "/channels/lobby"
     note: "The message identifies itself. The pooled Discord account ID 456226577798135808 does not. Do not attach other Deleted User material to Kaede from this account without an independent bridge."
+  - text: "At Christmas 2022, a locally identified Kaede (addressed directly as FUENTES and kaede in surrounding replies) told Daya that UL's affection inspired him to become a better person and told Yelik she was one of his best friendships inside and outside the game."
+    evidence: "archive-confirmed"
+    date: "2022-12"
+    sources:
+      - label: "💬 Club Only · Christmas 2022"
+        href: "/channels/club-only"
+    note: "Identification is local to this exchange within a pooled Deleted User export. The statement about Yelik is Kaede's, not a reciprocal ranking."
   - text: "The recovered January 19, 2023 Lobby sequence identifies Discord author ID 1065787040203034644 as username `fuentesg_`, nickname `FuentesKaede`."
     evidence: "archive-confirmed"
     date: "2023-01-19"
@@ -69,6 +76,7 @@ claims:
         href: "/channels/louvre"
 antiFanon:
   - "The December 2021 Kaede self-identification lives inside pooled Deleted User account ID 456226577798135808. Only that self-identifying message and Mugen's direct reply are attached to Kaede here. The account itself must not be treated as Kaede generally."
+  - "Christmas 2022 Kaede is identified by contemporary FUENTES/kaede replies, not by globally assigning the pooled Deleted User account to him. His friendship wording is his own."
   - "MEE6's January 2023 welcome is an automated Lobby intake event, not proof of Kaede's first-ever UL membership date. The archive now has a Kaede self-identification from December 2021, and the 2023 sequence contains Ren's explicit `bienvenida de regreso` wording."
   - "The 2021 and 2023 Lobby scenes support continuity of the FuentesKaede in-game identity. They do not establish a dedicated prior Discord account, explain the account transition, create a romance claim, rank closeness, or date appointment chronology."
   - "Export-time role arrays remain snapshots and are not used here to date Kaede's Sniper history."
@@ -78,6 +86,8 @@ relatedPeople:
   - "mugen"
   - "ren"
   - "wolfphenix"
+  - "daya"
+  - "yelik"
 tags:
   - "sniper"
   - "lobby"
@@ -85,6 +95,8 @@ tags:
   - "identity-continuity"
   - "return"
   - "recognition"
+  - "christmas"
+  - "friendship"
   - "louvre"
   - "anniversary"
   - "family"
@@ -106,6 +118,8 @@ The account itself cannot safely be called Kaede because that deleted-user bucke
 On January 19, 2023, a different Discord account arrives in Lobby using the same specific in-game identity. The software treats it like another intake. Ren does not. Two minutes after MEE6 opens the process, she asks **`kaede linda eres tuuuu?`** and later welcomes him with **`bienvenida de regreso kaede linda`**.
 
 That exchange changes the meaning of the second Lobby appearance. It is not useful as a second "joining" date; it is useful because it shows continuity. Kaede can return through a new account and still be recognized before the paperwork is finished.
+
+Christmas 2022 gives that recognition a quieter prequel. In a conversation where people directly call him **FUENTES** and **kaede**, he tells Daya that UL's affection makes him want to be a better person. He tells Yelik she is one of his best friendships **inside and outside the game**. It is a revealing distinction from someone who later has to introduce the same in-game name at the front door again: the friendship has already escaped the game, even while the Discord paperwork catches up.
 
 Two months later, that social continuity becomes much more explicit. On March 14, WolfPhenix posts UL's anniversary illustration in the Louvre. The room identifies the Officers and Snipers drawn into it, nineteen people in all, and Kaede is one of them.
 
