@@ -87,6 +87,13 @@ claims:
       - label: "🍰 Slice of Life · message 936034213759701002"
         href: "/channels/slice"
     note: "Directly re-parsed from the 2022–2023 Slice transcript at 15:05 PST. `Roti` is preserved as the addressee label from the message; this does not resolve Roti further or date Anayss's current Underboss / Battle Leader titles."
+  - text: "Noether credited Anayss with welcoming her into UL when she felt alone and had lost interest in playing; their February–June 2022 QOTD exchanges grew into reciprocal affection, warm sunset/sunlight comparisons, and Anayss repeatedly asking what Noether would cook for everyone."
+    evidence: "archive-confirmed"
+    date: "2022-02-12 – 2022-06-12"
+    sources:
+      - label: "QOTD · Noether and Anayss · 942235593356754944, 942238707828801567, 950164255095816243, 950166999781220395, 950795271183429633, 985577518998380594"
+        href: "/channels/qotd"
+    note: "The welcome describes social belonging, not a documented technical admission. Warm affection and cooking talk do not establish romance or professional catering."
   - text: "On July 29, 2022, Anayss wrote `Today I met @Noether! She baked a cake for me ❤️`; Noether replied `A date with ana`, and Dayadream called it cool that they got to meet up."
     evidence: "archive-confirmed"
     date: "2022-07-29"
@@ -153,7 +160,7 @@ And November adds a second lane: she posts a group-chibi work in progress in the
 
 Through 2021 and into 2022, the archive increasingly catches Anayss doing repeatable house work rather than simply appearing in the room. She posts time-sensitive battle and event callouts, recognizes returning members before the bot can explain who they are, and keeps routing people through the front door.
 
-Her care language is practical rather than grand. In January 2022, when Roti is dealing with real-life obligations, Anayss answers **`Real life always first Roti!`**. In July, Slice records the social world crossing off-screen entirely: **`Today I met @Noether! She baked a cake for me ❤️`**. Noether calls it **`A date with ana`**; the archive only needs the sturdy part. Two internet friends actually met, and somebody brought cake.
+Her care language is practical rather than grand. In January 2022, when Roti is dealing with real-life obligations, Anayss answers **`Real life always first Roti!`**. Noether remembers something more personal: Ana took her in when she felt alone and had nearly stopped enjoying the game. In February they traded **`TQM amiga`** and **`Tambien te quiero`**; by March Ana was comparing Noether to warm sunset colors, while Noether called Ana a bright sun and admitted most of what came out of her mouth was nonsense. A few months later Ana was simply demanding that Noether cook for everybody, and Noether was entertaining focaccia and three kinds of cupcakes. The welcome had turned into the kind of friendship where asking for food barely needed an introduction. In July, Slice records the social world crossing off-screen entirely: **`Today I met @Noether! She baked a cake for me ❤️`**. Noether calls it **`A date with ana`**; the archive only needs the sturdy part. Two internet friends actually met, and somebody brought cake.
 
 The line between operations and relationship is already thin here. Anayss is not becoming important by turning less social. She is becoming one of the people who can keep the machinery moving while remaining completely embedded in the house around it.
 
