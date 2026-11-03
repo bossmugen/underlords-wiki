@@ -102,7 +102,7 @@ claims:
     date: "2021-08-04"
     sources:
       - label: "Photo Submissions · Ren / dora correction · 2021-08-04"
-        href: "/channels/photo-submissions"
+        href: "/events/photo-submissions"
     note: "Ren’s reply parent is 872535327926009928; the original parent contents are not recovered. The second instruction followed 36 seconds later. This does not establish image maker/capture credit or a universal moderation style."
   - text: "On May 29, 2022, Ren welcomed Nobu in Lobby, said 'I’ll set u up,' and routed her to the Discord Tour, Biodata, and Whiskey Room."
     evidence: "archive-confirmed"
