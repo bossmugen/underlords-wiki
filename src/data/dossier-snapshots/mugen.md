@@ -182,6 +182,13 @@ claims:
       - label: "August 2026 reunion / archive reactivation"
       - label: "UL archive mining project"
 
+  - text: "December 2021 'vokunteer' callback: Mugen's misspelling was picked up by Gilli, Anayss volunteered as tribute, and Ren repeated 'We shall vokunteer' and used the term again twelve days later."
+    evidence: "archive-confirmed"
+    date: "2021-12"
+    sources:
+      - label: "Backroom site-candidates.md Pass 1 · 917568868753481869 / 917582223761371217 / 917582458592055336 / 917583531457273886 / 921871845274308709"
+    note: "A shared typo/volunteering joke, not an appointment or a literacy claim."
+
 relatedPeople:
   - "dean"
   - "key"
