@@ -26,13 +26,13 @@ claims:
     date: "2021-08-22"
     sources:
       - label: "Photo Submissions · 879227238904647712"
-        href: "/channels/photo-submissions"
+        href: "/events/photo-submissions"
   - text: "Valantina returned with a FESTIVAL submission on September 17, 2021."
     evidence: "archive-confirmed"
     date: "2021-09-17"
     sources:
       - label: "Photo Submissions · 888631944601038908"
-        href: "/channels/photo-submissions"
+        href: "/events/photo-submissions"
 antiFanon:
   - "Council status is directly established in August 2021; do not backdate it from exported role arrays."
   - "Lobby presence in May 2020 is not a first-join date."
