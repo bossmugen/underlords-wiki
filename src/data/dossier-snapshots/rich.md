@@ -42,6 +42,13 @@ claims:
     sources:
       - label: "📣 Announcements · 2020-04-12"
     note: "This proves Rich created a cross-S10 channel advertised inside UL. It does not by itself date or define the later Amaurot → UL merger."
+  - text: "By April 6–8, 2020, Fight Club was a UL voice/listen-in room paired with VIP Lounge as a typed alternative; the pairing later served Land of Conquest rallies. On December 31, 2022, Rich recalled the screaming in Fight Club VC before it became 'my couch'."
+    evidence: "archive-confirmed"
+    date: "2020-04-06 – 2022-12-31"
+    sources:
+      - label: "Backroom Pass 3 · Fight Club lifecycle · 696926320357277777 / 696926349499039764 / 697342774764372028 / 699798390858448969 / 707408767339331645 / 1059017270162108416"
+        href: "/channels/voice-rooms"
+    note: "Rich's recollection establishes the social room lineage, not the exact channel-ID continuity or date of rename. Gilli's voice/text routing is independently reflected in her MAIN biography."
   - text: "On October 28, 2024, Richard's Corpse preserves an extended text-side record of Life/Sye reacting to an apparent cooking and hangout session with Rich."
     evidence: "archive-confirmed"
     date: "2024-10-28"
@@ -116,6 +123,10 @@ Rich belongs under VIP because that category preserves his external-club lineage
 Zyrcant was Rich's deputy in Amaurot before the merger. Woosung, the former ScarletMoon leader, supplies the other side of the S10 powerhouse context.
 
 Taken together, these are not random guest cameos. UL's social world was already overlapping with other organized groups, complete with their own leaders, deputies, and migration paths.
+
+## FIGHT CLUB → THE COUCH
+
+**Room lineage:** Fight Club VC was in use by April 2020, with VIP Lounge available for people who needed to type. The same voice/text pairing supported Land of Conquest gatherings. By December 2022, Rich remembered the yelling before the old room became his couch. The exact channel rename date is still unknown.
 
 ## 2024 — RICHARD'S CORPSE BECOMES A LIVING ROOM
 
