@@ -10,6 +10,12 @@ summary: "Gilli's archive starts at the 2020 front door and quickly becomes a re
 summaryEvidence: "inferred"
 publication: "public"
 claims:
+  - text: "Mugen’s early practical check-ins with Gilli include `hydrate bb` after a lingering headache (2020-09-27) and `be safe bb` twenty seconds after Gilli said she was driving to work (2020-10-01)."
+    evidence: "archive-confirmed"
+    date: "2020-09-27 – 2020-10-01"
+    sources:
+      - label: "Backroom Pass 09 · Club Only"
+    note: "Receipts 759669857268006912, 759675893282635817, 761202459917680661, 761202543971532820. No formal reminder-role origin inferred."
   - text: "Gilli is a confirmed Consigliere / Senior Advisor in the command roster."
     evidence: "user-confirmed"
     sources:
