@@ -125,6 +125,12 @@ tags:
 
 Dyingfox is one of the Platelet files where restraint is part of getting the person right. The archive does not hand us a giant autobiographical monologue, a formal UL job, or enough scenes to pretend there is a five-act personality hidden between exports. What it does preserve is a very consistent form of presence across a surprisingly long span: small reactions, quick gestures, and short lines that work because they land at exactly the right moment.
 
+## QOTD — Fox files the adoption papers
+
+**January 26–February 12, 2022 · Gilli, Souta, and the Daycare brat.** Fox asked Gilli `adopt me?`; Gilli replied to that request with an eating GIF and `Done`, followed by a hug. Two days later Fox picked Eevee in a Pokémon hypothetical and named Gilli as trainer for a very specific reason: `food and affection`. By February 12, Fox was thanking Gilli and Souta for `feeding me once a week`. These are recurring jokes and care-language, not literal adoption or a verified meal schedule. The same February answer supplies Fox's own arrival story: Aether had died off, they initially ignored the UL Discord, and then ended up in Daycare `being a brat :)`.
+
+**February 2022–February 2023 · The name and the breakfast tribunal.** Fox's answer about the handle is gloriously practical: foxes are their favorite animal; they keep dying in video games. Elsewhere in QOTD, Fox admits to peanut butter on waffles, berries and cream on crepes, and syrup and bacon on pancakes. Ordinary uniform: sweatshirt and pants, with flannel for occasions requiring an upgrade. Their stated passion? Sleeping. The point isn't to turn these into a résumé; it's that the same person who charges Jordayy snacks for Daycare entry has extremely specific opinions about what counts as breakfast.
+
 ## 2021 — reaction language before biography
 
 The earliest strong run sits under the 2021 hydration and food reminders in Announcements. Posts escalate from `drink water!!!` to `DRINK WATER OR I'LL BURY YOU`, then to the particularly UL combination of threat and affection: `DRINK WATER , EAT SOMETHING AND REMEMBER THAT I ADORE YOU`. Dyingfox repeatedly appears underneath those posts with the custom reaction `GuraHmph`.
