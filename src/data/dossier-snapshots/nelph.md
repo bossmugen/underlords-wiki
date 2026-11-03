@@ -6,7 +6,7 @@ aliases:
 roles:
   - "Officer"
 eraStart: 2020
-summary: "Nelph's surviving archive is clearest in 2021, when her announcements repeatedly turn information into an action: come to base, place bets, vote now, enable 2FA here. A 2023 invite reference shows she remained a social bridge after that operational period, and the 2026 reunion still greets her with old familiarity."
+summary: "Nelph was the Officer who could turn an ordinary reminder into a small emergency: get to base, spank some dragon booty, place your bets, vote before the clock runs out. When a scam warning needed practical instructions, she came back with the exact 2FA settings path. Sye praised her work and got the compliment returned with a heart; years later, an old member still remembered Nelph as the person to ask for an invite."
 summaryEvidence: "archive-confirmed"
 publication: "public"
 claims:
