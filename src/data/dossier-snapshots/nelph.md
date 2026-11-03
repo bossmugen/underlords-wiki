@@ -30,6 +30,18 @@ claims:
       - label: "📣 Announcements · 2021-10-23 · message 901635188013035520"
         href: "/channels/announcements"
     note: "Main HQ miner checkpoint; the Lobby reply does not prove first join or role appointment. Historical age is intentionally omitted from public copy."
+  - text: "On October 5, 2021, Mugen welcomed Nelph and Sye's Synetha account as Officers, gave them an orientation packet and room map, and explained that the role recognized service they were already doing. Further management-room access was staged as they learned the work."
+    evidence: "archive-confirmed"
+    date: "2021-10-05"
+    sources:
+      - label: "💼 HQ · Officer onboarding · 2021-10-05"
+    note: "Direct onboarding by this date; no export-role backdating or claim about an earlier precise appointment."
+  - text: "On November 6, 2021, after Mugen expanded Nelph and Sye's photoshoot/judging access, Sye said `Nelph has done amazing` and Nelph answered `Sye, you have done amazing as well! ❤️`."
+    evidence: "archive-confirmed"
+    date: "2021-11-06"
+    sources:
+      - label: "💼 HQ · mutual credit · 2021-11-06"
+    note: "Shared work and reciprocal recognition; not a second promotion or exclusive friendship claim."
   - text: "Across November–December 2021 announcements, Nelph repeatedly posted action-first game notices: `@Staff DRAGON BREATH IS UP! Come to club base!` on November 2, `@Staff DRAGON BREATH IS UP!! COME TO CLUB BASE TO SPANK SOME DRAGONS BOOTY` on November 20, `@Staff STAR OF CASSEL IS UP! PLACE YOUR BETS!` on November 21, and a December 2 reminder ending `VOTING ENDS IN 6 MINS`."
     evidence: "archive-confirmed"
     date: "2021-11-02 → 2021-12-02"
@@ -67,7 +79,7 @@ claims:
 antiFanon:
   - "Do not narrate 2021→2026 as five uninterrupted years of total disappearance. The 2023 Lobby invite reference proves at least one meaningful intervening social bridge."
   - "LuCiel saying they asked Nelph for an invite does not create a formal Recruiter title or prove which account actually executed Discord admission permissions."
-  - "Historical VIP / Officer / Staff role arrays are export-time metadata and are not appointment chronology."
+  - "Historical VIP / Officer / Staff role arrays are export-time metadata and are not appointment chronology. October 5, 2021 confirms onboarding by that date, not an invented earlier appointment."
   - "Nelph's November 2021 security posts show practical warning/2FA guidance, not a formal cybersecurity, moderation, or Security Officer appointment. The attached scam image was not visually inspected here and the warning's technical claims are not independently adjudicated."
   - "Star of Cassell / Dragon Breath notices show operational reminder behavior; they do not create Party Director, Game Officer, event-planner, or scheduler titles."
   - "Nelph's `Caught you in 4K 📷` Wall reply is real but is not treated as a unique Nelph signature because screenshot-court language was broader UL house vocabulary."
@@ -102,6 +114,12 @@ The house language can be ridiculous, but the instruction remains visible inside
 November 22 gives the stronger version. She posts a scam warning, tells Staff not to click unfamiliar material before it loads, reminds them to enable 2FA, then comes back a few minutes later with the literal Discord path: **`profile > account > enable 2FA`**.
 
 The archive is not independently adjudicating every technical claim in the warning, and the attached image remains unseen. The character evidence is the follow-through. Alarm becomes a usable step.
+
+## THE TITLE CAME WITH A FLOOR PLAN
+
+On October 5, 2021, Mugen welcomed Nelph and Sye into Officer work with an orientation packet, a map of the rooms, and a reminder that the title recognized work they were already doing. Access to more management rooms would come as they learned the first responsibilities. The promotion did not turn them into strangers wearing badges; it gave their existing labor a door and a key.
+
+A month later, when Mugen expanded their photoshoot and judging access, Sye praised Nelph's work. Nelph immediately gave the praise back. The exchange is small, but it captures the way they handled shared responsibility: neither needed to win the compliment.
 
 ## 2023 — THE OLD OPERATIONAL NAME IS STILL A PERSON PEOPLE CAN ASK
 
