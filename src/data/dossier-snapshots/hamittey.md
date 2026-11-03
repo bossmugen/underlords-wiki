@@ -17,7 +17,7 @@ claims:
     date: "2021-03-12"
     sources:
       - label: "Photo Submissions · Flowers · 819966871330750494"
-        href: "/channels/photo-submissions"
+        href: "/events/photo-submissions"
   - text: "On February 17, 2021 HamitteY identified ShiyaX by the established AUUUUU call, writing 'get the auuuuu guy'."
     evidence: "archive-confirmed"
     date: "2021-02-17"
