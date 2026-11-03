@@ -129,7 +129,7 @@ tags:
 
 Gabu is now one of UL's two Underbosses. She is Brazilian, ethnically Japanese, does taiko, and works in coding / technology. None of those facts need to be reverse-engineered into a personality. Her own archive gives a better progression: she remembers entering the group shy and language-conscious, then gradually becoming comfortable enough to be unmistakably herself inside it.
 
-## 2022 — GABU EXPLAINS HOW SHE CHANGED
+## The shy girl who learned to be dumdum
 
 In February 2022, Gabu looks backward at joining UL and says English had been a barrier for her. Anthos encouraged her, and Souta was one of the first people she talked to while both were newer. Gabu describes the change in her own vocabulary: she started shy and later became more **`dumdum`**.
 
@@ -139,7 +139,15 @@ The same year, QOTD starts filling in the social shorthand that follows her once
 
 None of that is a formal title. It is what happens when a person becomes familiar enough for the room to build shorthand around her.
 
-## 2023 — THE SHY VERSION IS STILL THERE, BUT IT IS NO LONGER THE WHOLE FILE
+## The reminder bot had a human babysitter
+
+The Photoshoot contests had themes, submissions, judges, and eventually a little command manual with Gabu's fingerprints all over it. By December 2021, she had pinned **`Photoshoot Event commands`**: reusable Saber reminders for opening a round, asking for example pictures, warning judges about deadlines, and closing submissions. Somebody had to remember when the pretty pictures were due, and apparently that somebody was Gabu.
+
+On December 2 she scheduled a reminder for the December 6 opening. Saber promptly returned an event starting on December 2 instead. **Twenty-three and a half seconds later**, Gabu corrected the date. Not a grand crisis; just a woman who knew the calendar and refused to let the bot win. It is a particularly Gabu sort of competence: the work is practical, the correction is immediate, and most people only notice the machinery when it stops working. She maintained the reminders; that does not mean she programmed Saber.
+
+**Episode receipts:** `904887320279396372` (November judges reminder), `915994853228281897` / `915994854578864148` / `915994951878340658` / `915994952721395753` (December correction), `923268688151445544` (pinned command runbook).
+
+## Soft voice, sharp teeth
 
 In 2023, Gabu's own Mafia self-mythology still describes a quiet/shy werewolf. The protective line underneath it is much louder: **`hurt my family and imma eat you alive`**. The werewolf is fiction; the attachment is not appearing from nowhere. Elsewhere Woosung describes Gabu as somebody who validates feelings, gives advice, and makes people comfortable.
 
@@ -147,13 +155,13 @@ The same year she chooses Pokémon as a world she would want to inhabit and, nat
 
 This is also where the hydration joke makes more sense as character texture. `Drink water reminder` is not merely a funny nickname floating above an account. It sits beside repeated archive evidence of care being expressed in tiny practical forms: notice the person, remind them to eat or drink, make the room easier to be in.
 
-## 2024 — THE TECH CAREER GETS A BEFORE-PHOTO
+## The sea animals she almost chose
 
 In October 2024, Gilli imagines Gabu working with sea animals. Gabu says she would have liked that and adds that she had wanted to go into the **`sea animal area`** before becoming a **`tech nerd`**.
 
 The coding career is separately confirmed. The marine-animal path stays as broad as she stated it: an earlier interest, not an invented degree or abandoned profession. It adds a useful piece of continuity to the person rather than trying to explain the Underboss role.
 
-## 2026 — THE GROUP REMEMBERS WHAT IT USED HER FOR
+## Everybody followed Gabu
 
 During the 2026 favorite-memory QOTD, Oyasumi remembers Gabu as the person **`who knows all the answers`**. Mugen says they did the activity every day for years and still never learned the answers themselves because everybody simply followed Gabu. The next morning Gabu appears and says she had been very proud of her memory back then.
 
