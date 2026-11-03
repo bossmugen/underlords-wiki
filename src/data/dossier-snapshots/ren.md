@@ -12,6 +12,13 @@ summary: "Ren's archive progression starts with her using Slice for the same soc
 summaryEvidence: "inferred"
 publication: "public"
 claims:
+  - text: "Ren saved a Wall crop of Mugen's `hope everyone has eaten their breaststroke` on May 10, 2022; Rich called it a shame war and Rummy repeated the typo. Ren brought the same visible crop back to the Wall in August 2026, four years after its first surviving Wall filing."
+    evidence: "archive-confirmed"
+    date: "2022-05-10 – 2026-08"
+    sources:
+      - label: "Wall · 973675315169738804, 973676738573918298, 1537087561283928194"
+        href: "/channels/wall"
+    note: "Ren posted the surviving Wall crops. Original Dragon Raja message date, screenshot capturer, and image maker remain unresolved."
   - text: "On January 19, 2023, Ren recognized returning FuentesKaede in Lobby with `kaede linda eres tuuuu?` and later `bienvenida de regreso kaede linda`, welcoming him personally rather than treating the bot intake as a first introduction."
     evidence: "archive-confirmed"
     date: "2023-01-19"
@@ -276,3 +283,9 @@ Snow had apparently been hoarding the youth supply. In an April 2023 Wall exchan
 On January 19, 2023, the Lobby bot started processing FuentesKaede. Ren was already past the paperwork: `kaede linda eres tuuuu?` A little later came `bienvenida de regreso kaede linda`. The stretched-out greeting matters more than the intake form. She recognized the person, switched into affectionate Spanish, and made the return feel like somebody had noticed the door opening. That is the useful Ren detail here: her memory was not confined to collecting screenshots of people being idiots. She also remembered who to welcome back.
 
 **Receipts:** Lobby `1065813484853530644`, `1065821635485118594`. This is a recognized return, not a new appointment or a romance claim.
+
+## BREASTSTROKE — Four-year evidence custody
+
+In May 2022, Ren put Mugen's `hope everyone has eaten their breaststroke` on the Wall. Rich called it a shame war; Rummy was already repeating the mangled word. In August 2026 Ren brought the same visible crop back. A useful little exhibit in how the Wall worked: a typo could outlive the game conversation, and Ren was exactly the person to keep its paperwork.
+
+**Receipts:** Wall `973675315169738804`, `973676738573918298`, `1537087561283928194`. The original game-message date and screenshot capturer remain unknown.
