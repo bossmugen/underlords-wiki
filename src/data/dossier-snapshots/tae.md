@@ -7,7 +7,7 @@ pronouns: "she/her"
 roles:
   - "Platelet"
 eraStart: 2020
-summary: "Tae is a permanent Platelet whose surviving record now starts with an August 2020 Discord doorway, a September algebra detour with Anthos, and a one-day `Always vote out gabu` law before the later `I been in here`, `Caught in 4k`, self-submitted old-photo, and portable-friendship years take over."
+summary: "Tae is the permanent Platelet who can ask Anthos to explain algebra, declare Gabu illegal for an afternoon, submit her own embarrassing material, and still demand to know why the Wall is prosecuting her. When Ren says she has become one of them, she corrects him: `I been in here`."
 summaryEvidence: "archive-confirmed"
 publication: "public"
 claims:
@@ -27,7 +27,7 @@ claims:
     sources:
       - label: "💬 Club Only · 2020-09-24"
         href: "/locations"
-    note: "The archive proves a math-help exchange, not that the problem was homework, classwork, an exam, or Tae's own assignment."
+    note: "The exchange records math help, not that the problem was homework, classwork, an exam, or Tae's own assignment."
   - text: "On January 3, 2021, Tae posted `new rule` and five seconds later `Always vote out gabu`; about seventy-eight minutes later she returned with `Gabu` followed by `Go to jail`."
     evidence: "archive-confirmed"
     date: "2021-01-03"
@@ -103,9 +103,11 @@ tags:
   - "belonging"
 ---
 
-Tae's best surviving biography is less about a single running joke than about how early she starts using UL like a place that can answer whatever problem is currently in front of her. The archive now catches her at the Discord door in August 2020, asking Anthos for algebra help a month later, briefly attempting to legislate Gabu out of existence in January, then moving into the already-established house register that produces `I been in here`, reusable Wall verdicts, and self-submitted evidence. By 2024, the original game barely matters to the scene at all: Rich is playing something, Tae might install it, and Rummy enters the thought because friendship has become the actual connective tissue.
+Tae does not wait until she has the polished version of anything. She asks the algebra question while she's still figuring out how to phrase it, announces a new rule against Gabu without bothering to convene a government, and contributes evidence to the Wall even though the Wall keeps putting her on trial. Ren once announced she'd become one of them. Tae answered `I been in here`—a correction of tense, not affection. She already knew she belonged.
 
-## August–September 2020 — one word at the door, then an algebra desk
+Anthos will explain the brackets. Mugs will turn mathematics into a bedtime weapon. Gabu will be sent to jail under a law Tae invented that morning. And years later, when Rich is playing something else, Tae is already wondering whether Rummy might want to join. The game changes. The habit of dragging friends into the next ridiculous thing does not.
+
+## Ask Anthos, Not Google
 
 On August 27, 2020, the surviving Lobby scene gives Tae exactly one word: `Underling`. A few minutes later Mugs answers with `Role assigned, welcome` and sends her toward the Discord Tour. That is a clean Discord doorway. It is not a magic first-membership timestamp; whatever in-game history produced `Underling` is not safely reconstructed from these two lines.
 
@@ -117,7 +119,7 @@ Anthos eventually answers `10a + 35`, then comes back with a full BODMAS walkthr
 
 That makes later Mugs-versus-Tae advanced-math nonsense funnier. Before mathematics becomes a sleep-deprivation comedy device, Club Only has already been used for the much more reasonable service of helping Tae expand brackets.
 
-## January 3, 2021 — Tae passes one law and immediately finds a defendant
+## Gabu Is Under Arrest
 
 On January 3 Tae announces `new rule`. Five seconds later the statute arrives in full: `Always vote out gabu`.
 
@@ -127,7 +129,7 @@ What keeps it from being only an isolated sentence is the same-day callback. Rou
 
 A screenshot sits nearby in the Wall sequence, but the image was not inspected and the handoff does not preserve a safe provenance join. So the wiki does not claim the screenshot caused the sentence, depicts Gabu, or proves any offense. Tae's words are already enough. One morning, she invented a rule against Gabu and then behaved as though she had the authority to administer it.
 
-## Early 2021 — already speaking in the house register
+## Emergency Bible Study, Apparently
 
 On January 26, 2021, `🌈│simp-here` is doing what the room name suggests when Tae abruptly posts `bible study at my house DONT BE LATE HOES`.
 
@@ -135,7 +137,7 @@ The line works because every part of it pulls in a different direction. `bible s
 
 That is useful early voice evidence, but it stays narrow. It says nothing reliable about Tae's religion. What it does show is that by early 2021 she can redirect a ridiculous conversation by becoming equally ridiculous in the opposite direction.
 
-## March 2021 — Ren announces assimilation; Tae corrects the tense
+## I Been in Here
 
 On March 13 Ren writes `Tae has become one of us`. Twenty-nine seconds later Tae answers: `I been in here`.
 
@@ -145,7 +147,7 @@ That distinction matters for chronology. Ren's sentence cannot be used as a memb
 
 The same date also preserves Tae using `Caught in 4k` in the Wall. The underlying March exhibit is not safely reconstructed, so the page does not identify a defendant or invent what was caught. The phrase itself is enough to show that Tae already understands one of the room's shortest evidence verdicts.
 
-## May through October 2021 — the verdict becomes reusable, then self-directed
+## Evidence Against Everybody, Including Herself
 
 On May 30 the phrase returns. This time Tae herself posts an attachment to the Wall and, nine seconds later, writes `Caught in 4k`.
 
@@ -157,7 +159,7 @@ That line is not Wall prosecution, but it belongs in the same biography because 
 
 Across those 2021 scenes, the progression is cleaner than a themed list of quirks. January shows Tae inventing a one-day rule, then speaking fluently in room tone. March shows her correcting someone else's idea of when she became `one of us`. March and May show a repeated Wall verdict. October shows a willingness to submit her own image when she finds herself funny enough. The evidence culture is not something merely happening to her; she can operate it and volunteer for it.
 
-## 2024 — the game changes; the social reflex does not
+## Whatever Rich Is Playing, Bring Rummy
 
 The next strong surfaced scene comes much later, in December 2024, in typed sidecar text around a voice channel. Tae is reacting to a game Rich is playing. She considers installing it, wonders whether Rummy would like it, and says she can join another day if Rich is streaming.
 
@@ -169,6 +171,6 @@ The spoken call is not preserved, so the site does not pretend to know everythin
 
 Permanent Platelet is the stable role label. Tae's surviving progression is the human part underneath it: one word at the Discord door, an embarrassed algebra question answered seriously, a temporary government whose first known victim is Gabu, fluency in the house's screenshot grammar, self-submitted evidence when the joke is good, and years later friendship rather than one specific game deciding where she shows up.
 
-## August 2026 — too memorable for the search box
+## Too Much Tae for the Search Box
 
 Tae wondered aloud whether she had left an impression. Mugs was trying to search the old Discord material and said looking up `tae` crashed the search. Tae tried it too and came back with `I DID THE SAME THING AND IT CRASHED MY PC`. Nobody diagnosed either failure. The timing did the comedic work: Tae asked whether anyone would remember her, and two computers apparently refused to answer normally. The August 11 Wall post (`1536935166122008636`) is the source for the exchange, not a technical crash report.
