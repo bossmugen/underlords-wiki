@@ -13,6 +13,13 @@ summaryEvidence: "inferred"
 publication: "public"
 eraStart: 2020
 claims:
+  - text: "On January 8, 2021, Rummy submitted a Photoshoot entry as phenomenal_lamb_14960 with the caption `♡︎It better to look upward than to look downward ♡︎`; thirteen heart-eyes reactions followed."
+    evidence: "archive-confirmed"
+    date: "2021-01-08"
+    sources:
+      - label: "📬 photo-submissions · message 797231738023706694"
+        href: "/events/photo-submissions"
+    note: "Backroom site-candidates-pass-14.md; attachment 797231737544376352 not visually inspected. No claim about depicted image or creator."
   - text: "Rummy's primary Biodata placement is Snipers; she is an on-call Sniper."
     evidence: "user-confirmed"
     sources:
@@ -152,6 +159,10 @@ tags:
 ---
 
 # Rummy
+
+## The upward-looking lamb
+
+Before the house had turned Rummy's spelling into a spectator sport, she entered the January 8, 2021 Photoshoot as **phenomenal_lamb_14960** with a small, earnest caption: **“♡︎It better to look upward than to look downward ♡︎”**. Thirteen heart-eyes reactions followed. The image itself has not been inspected, so the caption and the room's response carry this episode; there is no need to invent what the picture showed.
 
 Rummy's UL story is long enough that the role list can be misleading if it is read all at once. She is primarily an **on-call Sniper**, and over time she also becomes Nobu's **Party Director Apprentice**, a **Parterre Gardener**, a **Game Officer**, and remains a permanent **Platelet**. The archive does not safely date every appointment, so the biography follows the parts of her life in UL that can actually be placed in time.
 
