@@ -57,6 +57,13 @@ claims:
       - label: "📬 Photo Submissions · 2021"
         href: "/archive/photo-submissions"
     note: "Gabu maintained the event reminders; this does not establish that she programmed Saber or held a separate formal Photoshoot office."
+  - text: "On April 17, 2023 Gabu pinned `Gabu\'s alerts check` and tested Saber\'s weekday ten-minute and start alerts before deciding whether Carl could replace it. Her checklist included `Broken Contests` and `Spank Mugs Booty` alongside ordinary Dragon Raja event names."
+    evidence: "archive-confirmed"
+    date: "2023-04-17"
+    sources:
+      - label: "Backroom Pass 04 · alert migration QA · message 1097737951720513546"
+        href: "https://github.com/bossmugen/underlords/blob/archive-miner/backroom-deals-2026-08-24/archive-intake/chat-2026-08-24-backroom-batch-miner/site-candidates-pass-04.md"
+    note: "Staged alert verification, not proof that Gabu authored either bot. Joke event names do not identify the underlying game activity."
   - text: "In 2023 Mafia self-mythology, Gabu casts herself as a quiet/shy werewolf with a protective `hurt my family and imma eat you alive` core; elsewhere Woosung describes Gabu as somebody who validates feelings, gives advice, and makes people comfortable."
     evidence: "archive-confirmed"
     date: "2023"
@@ -144,6 +151,8 @@ None of that is a formal title. It is what happens when a person becomes familia
 The Photoshoot contests had themes, submissions, judges, and eventually a little command manual with Gabu's fingerprints all over it. By December 2021, she had pinned **`Photoshoot Event commands`**: reusable Saber reminders for opening a round, asking for example pictures, warning judges about deadlines, and closing submissions. Somebody had to remember when the pretty pictures were due, and apparently that somebody was Gabu.
 
 On December 2 she scheduled a reminder for the December 6 opening. Saber promptly returned an event starting on December 2 instead. **Twenty-three and a half seconds later**, Gabu corrected the date. Not a grand crisis; just a woman who knew the calendar and refused to let the bot win. It is a particularly Gabu sort of competence: the work is practical, the correction is immediate, and most people only notice the machinery when it stops working. She maintained the reminders; that does not mean she programmed Saber.
+
+**Alert migration (April 17, 2023):** Gabu's pinned weekday checklist tested the ten-minute and start alerts before any Saber-to-Carl switch. `Broken Contests` and `Spank Mugs Booty` got the same pass/fail treatment as the ordinary event names. Receipt `1097737951720513546`. The titles were inherited house vocabulary, not proof of a new game mode.
 
 **Episode receipts:** `904887320279396372` (November judges reminder), `915994853228281897` / `915994854578864148` / `915994951878340658` / `915994952721395753` (December correction), `923268688151445544` (pinned command runbook).
 
