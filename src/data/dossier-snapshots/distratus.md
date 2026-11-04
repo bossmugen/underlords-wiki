@@ -48,18 +48,18 @@ tags:
 
 # DiStratus
 
-## Temperament and preferences
+## A thunderstorm is a quiet place
 
-DiStratus likes a thunderstorm loud enough to drown out everything else. The March 2024 QOTD answer calls that combination exciting and peaceful. Music is another deliberate tool: a personal mix for cycling through emotions. Away from the noise, there is the opposite wish—a place dark enough to see the stars.
+DiStratus can hear a thunderstorm and feel the world finally shut up. The noise is the point: everything else gets drowned out, leaving the odd combination of excitement and peace. Music gets its own assignment, with a mix for moving through emotions rather than pretending they aren't there. And when the sky is clear, DiStratus wants the opposite of all that thunder: somewhere dark enough to actually see the stars.
 
-## Learning, reading, and choices
+## Please give the long explanation
 
-Crash courses are not DiStratus's preferred way to learn. Detailed explanations stick better. Reading includes *Desolate Era* and Pokémon fanfiction, and fate gets a practical objection: tiny choices keep producing different possibilities.
+A crash course is not going to cut it. DiStratus wants the details, the steps that make something stick. That preference reaches beyond learning into a whole argument against fate: there are too many tiny decisions, too many barely different outcomes, for one predetermined route to feel convincing. Even the reading answer refuses to stay in one box: *Desolate Era* counts, but so might the Pokémon fanfiction.
 
-## Running gags and small facts
+## Petty Crimes
 
-The March 2024 bedroom inventory specifies moss-green covers, a grey weighted blanket, and a duvet still on the shopping list. Another QOTD answer volunteers `finding peoples pet peeves XD`; the missing prompt leaves the joke intriguingly unfinished.
+The bed had moss-green covers and a grey weighted blanket, but still needed a duvet. A perfectly respectable domestic crisis. Then there is `finding peoples pet peeves XD`, volunteered with the confidence of somebody who knows exactly how to be annoying. The original question is missing, so the joke can keep its mystery.
 
 ## Sources
 
-QOTD handoff: `archive-intake/qotd-complete-2020-2026/site-candidates-2026-09-06-1112.md` on `archive-miner-qotd-officers-20260824`. Message IDs and dates are recorded in the claims above.
+QOTD handoff: `archive-intake/qotd-complete-2020-2026/site-candidates-2026-09-06-1112.md` on `archive-miner-qotd-officers-20260824`. Exact message IDs and dates remain in the structured claims above.
