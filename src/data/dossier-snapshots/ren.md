@@ -268,6 +268,12 @@ When Rummy's old Discord account is hacked, Ren announces which replacement acco
 
 That is the progression underneath the Caporegime title. Ren starts as somebody helped by the room, becomes a collector of its language, then increasingly helps other people navigate its care routines, programs, access rules, family language, creative premises, and identity changes. Human Ctrl+F is a joke. The timeline is why the joke works.
 
+## EXAMPLE PHOTOS — The reference table nobody appointed her to run
+
+Ren kept turning up with `Example Photos` at the start of Photoshoot rounds: January 6, February 15, April 18, May 10, July 4, and August 1, 2021. On January 6, Anthos opened the example lane, Ren supplied another reference block, and Anthos separated the official submissions afterward. February 15 repeated the same handoff in under a minute. A contestant looking for the rules could see the difference between inspiration and an entry without anybody needing to invent a new office for it.
+
+**Episode receipts:** Ren/RV headers `796493388856688670`, `810917283755982878`, `833465934517501963`, `841462092493881364`, `861301163228135434`, `871516826079731712`; Anthos lane dividers `796495347044057098`, `810917505274347530`. Ren was a recurring reference-provider, not the sole maker or a formally appointed visual director. The images themselves are not attributed to her as photographer.
+
 ## RAJA POLICE DEPARTMENT — Running gag / artifact index
 
 Ren's fake Officer dossiers made the house's private jokes searchable as mock criminal warnings. Gabu's height feud, Mugen's Plutonian nonsense, Sye's small-but-deadly reputation, and Ren's own warning to avoid her all became form fields. The 2025 reposts brought the jokes back into circulation. The cards are a comedy artifact, not evidence of actual offenses or a dated formal appointment.
