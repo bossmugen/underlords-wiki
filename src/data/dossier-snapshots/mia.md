@@ -2,7 +2,6 @@
 name: "Mia"
 aliases:
   - "Maho"
-  - "Mimi"
   - "Miaka"
   - "Opalite Honey"
   - "༯"
@@ -97,12 +96,6 @@ claims:
     sources:
       - label: "👅 Wall of Shame/Fame recovered export"
         href: "/channels/wall"
-  - text: "On April 7, 2023, Mia wrote `me and momo are twinsss`; Momo answered `Mimi’s twin`, Mia replied `love u twinnn`, and Momo answered `Love ya 2`. Two days later Momo true-replied to another Mia Wall post with `you are both Mimi & Momo.`"
-    evidence: "archive-confirmed"
-    date: "2023-04-07 – 2023-04-09"
-    sources:
-      - label: "👅 Wall of Shame/Fame recovered export"
-        href: "/channels/wall"
   - text: "On May 5, 2023, Mia asked `I need a ul hook`, clarifying `like uh catch phrase`; Mugen suggested using any dumb thing already said in the Wall, directly linking Mia's poster/copy process to the house's own speech."
     evidence: "archive-confirmed"
     date: "2023-05-05"
@@ -141,7 +134,7 @@ antiFanon:
   - "Mia's repeated reactions to Rummy in the Wall are directed interaction and peer-response evidence, not a friendship ranking, romance claim, or proof that Mia authored the underlying screenshots/allegations."
   - "The Ren, Noether, Momo, Rummy, Mugen, and Oyasumi scenes support specific interaction styles; they do not establish universal closeness rankings, private motives, or sensitive personality/mental-health claims."
   - "Mia's compressed Wall language is a recurring room-specific habit, not a claim that every Mia interaction is one-word judgment. Rummy concentrates the pattern; the Oyasumi exchange shows it is not exclusive to Rummy."
-  - "Mia and Momo's `twin` language is a recurring reciprocal house joke. It does not make them biological twins, the same person, or evidence of a closeness ranking."
+  - "Mimi / Opalite Honey and Mia are distinct stable accounts. Momo’s April 2023 twin exchange belongs to Mimi, not Mia."
   - "Mia's current Pit Boss / Interrogator / Game Officer / Platelet stack does not supply appointment dates; do not infer chronology from export-time role arrays. Platelet identity is permanent."
 relatedPeople:
   - "han"
@@ -180,7 +173,7 @@ That local sequence resolves Maho as Mia. It does **not** turn every pooled dele
 
 The Wall quickly makes Mia both subject and participant. Ren calls for **`FULL MIA`**; Mia answers **`LOOOL`** and later uses a wheezing cat reaction as Ren keeps the teasing pointed at her. The attachment stays unseen. The useful evidence is not what Mia looked like in the missing image; it is how she handles the spotlight once it lands.
 
-Momo is already helping turn the alias situation into house nonsense. During a Maho/Mimi naming tangle Momo writes **`twinsss uuuusss`**; Mia contributes **`MOHO`** and a `CatWhat` reaction when Mugen acknowledges the typo disaster. Later that month Momo proposes a cheese disguise and Mia joins with **`hehehehe`**. The reciprocal twin language gets much clearer in 2023, but the earlier scenes show the two of them already comfortable making the filing problem worse on purpose.
+Momo is already helping turn the alias situation into house nonsense. During a Maho/Mimi naming tangle Momo writes **`twinsss uuuusss`**; Mia contributes **`MOHO`** and a `CatWhat` reaction when Mugen acknowledges the typo disaster. Later that month Momo proposes a cheese disguise and Mia joins with **`hehehehe`**. The September scenes show two people comfortable making the filing problem worse on purpose; the separate April 2023 twin exchange belongs to Mimi / Opalite Honey, not Mia.
 
 Rummy-facing scenes begin exposing another Mia habit: very compressed Wall judgment. Mia can reply **`LMAOO`** to a Rummy exhibit, or answer Rummy's `its okay mia i short too` joke with a reaction instead of a paragraph. The height line remains peer teasing, not measurement. The larger pattern is safer and more interesting anyway: in a room where everybody already has the case file, Mia often lets timing, emotes, and one-line verdicts do the talking.
 
@@ -196,7 +189,6 @@ On March 1 Mia supplies the better belonging receipt: **`happy birthday to ul fi
 
 On April 6 Oyasumi challenges why one of Mia's own Wall exhibits belongs there. Mia's answer is **`It funny`**. Two words, entire editorial brief. The attachment remains uninspected and the phrase is not promoted into official Wall law; it is simply a perfect example of Mia trusting shared room context to carry the rest of the sentence.
 
-The next day Mia writes **`me and momo are twinsss`**. Momo answers **`Mimi’s twin`**; Mia says **`love u twinnn`**; Momo returns **`Love ya 2`**. Two days later the twin joke appears again. This is meaningful because the language is reciprocal, not because it is literal. Mia and Momo remain separate people; the house-family label tells us how they are playing with the relationship in public, not what their birth certificates say.
 
 Creative reputation starts getting named at almost the same time. Mia says something **`should be on a poster`** and Mugen immediately fires back **`LMFAOO SAID THE POSTER MAKER`**. In May Mia asks **`I need a ul hook`**, clarifies **`like uh catch phrase`**, and Mugen points her toward dumb things already said in the Wall. The raw material for the public-facing object is the group's own speech. `POSTER MAKER` is peer characterization, not a stolen Media Director title. Han keeps that job; Mia keeps being Mia.
 
@@ -224,7 +216,7 @@ Mia's surviving social voice is fast and context-heavy. She often seems comforta
 
 Her creative material works at a different scale but with a related instinct. She notices when something already in the room can become reusable: house speech can become a hook; a blank-canvas suggestion can become a shared file; one successful doodle round can become themed sequels. The evidence supports a convener/assembler streak in this cluster, not lone-genius mythology or universal authorship.
 
-The strongest explicit relationship shorthand is Momo's because both women use it: **twinsss**, **Mimi's twin**, **love u twinnn**, **Love ya 2**. Mugen's Lobby recognition proves older familiarity without supplying a closeness ranking. Ren repeatedly teases and collaborates with Mia. Gilli supplies creative peer-description. Rummy repeatedly attracts Mia's miniature Wall verdicts. Oyasumi asks for a Wall rationale and gets the two-word constitution.
+Momo and Mia have their own quick Wall banter, but the April 2023 **twinsss** and **love u twinnn** exchange is between Momo and Mimi / Opalite Honey, a different account. Mugen's Lobby recognition proves older familiarity without supplying a closeness ranking. Ren repeatedly teases and collaborates with Mia. Gilli supplies creative peer-description. Rummy repeatedly attracts Mia's miniature Wall verdicts. Oyasumi asks for a Wall rationale and gets the two-word constitution.
 
 The funniest contradiction is accidental but real. **UL Interrogator** sounds like a person professionally extracting answers. The public Mia archive repeatedly catches Mia herself giving everyone the smallest answer that will still land. That is a comic contrast in the surviving text, not a psychological theory and not an explanation of why she holds the title.
 
