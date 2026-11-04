@@ -5,11 +5,18 @@ aliases:
   - "DyingFox(Gilli's Pond)"
 roles:
   - "Platelet"
-eraStart: 2021
+eraStart: 2020
 summary: "Dyingfox is a permanent Platelet whose surviving voice is compact but persistent: recurring `GuraHmph` reaction language, the Daycare Snack Toll, a seven-second `fox halp` → pat exchange with Ren, and 2026 reunion lines that move from `Forever platelet` to safe-driving concern to a perfectly synchronized `No promises`."
 summaryEvidence: "archive-confirmed"
 publication: "public"
 claims:
+  - text: "On October 8, 2020, the Underlords Stripclub Bouncer welcomed DyingFox(Gilli\'s Pond) to the Discord; Snow replied `Added role` and then `welcome Dyingfox` two minutes later."
+    evidence: "archive-confirmed"
+    date: "2020-10-08"
+    sources:
+      - label: "Lobby · DyingFox welcome"
+        href: "/channels/lobby"
+    note: "Messages 763958467207102494, 763958936893521941, 763958967842897951. Discord welcome is not proof of first in-game admission or a dated formal Platelet appointment."
   - text: "On February 12, 2022, DyingFox said they joined UL after Aether declined, initially ignored Discord, and eventually became a Daycare regular, describing themself as `being a brat :)`."
     evidence: "archive-confirmed"
     date: "2022-02-12"
@@ -123,7 +130,7 @@ tags:
   - "reunion"
 ---
 
-Dyingfox is one of the Platelet files where restraint is part of getting the person right. The archive does not hand us a giant autobiographical monologue, a formal UL job, or enough scenes to pretend there is a five-act personality hidden between exports. What it does preserve is a very consistent form of presence across a surprisingly long span: small reactions, quick gestures, and short lines that work because they land at exactly the right moment.
+On October 8, 2020, the Stripclub Bouncer welcomed DyingFox to the Discord. Snow was there within two minutes: `Added role`, then `welcome Dyingfox`. By the 2026 reunion, Fox had an answer ready for the passage of time: `I never age`. `Forever platelet`. Six years between the welcome and the punchline, and Fox still knew how to make a handful of words stick.
 
 ## Gilli signs the adoption papers
 
