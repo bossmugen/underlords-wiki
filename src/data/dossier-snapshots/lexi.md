@@ -8,7 +8,7 @@ summary: "LEXI's surviving 2021 file is small but unusually coherent: an externa
 summaryEvidence: "archive-confirmed"
 publication: "public"
 claims:
-  - text: "On January 11, 2021, stable account `688932590584987783 / strawburrilexi` answered an explicit Lobby prompt for IGN, club, server, and age with `Okaa-san, LoliParadise, S8, 19`; public copy omits the historical age."
+  - text: "On January 11, 2021, stable account `688932590584987783 / strawburrilexi` answered an explicit Lobby prompt for IGN, club, server, and age with `Okaa-san, LoliParadise, S8` in the first three fields; the historical age field is withheld."
     evidence: "archive-confirmed"
     date: "2021-01-11"
     note: "The explicit field order makes Okaa-san the first-party IGN, LoliParadise the club, and S8 the server in this scene. This is a Discord doorway receipt, not an in-game UL admission date."
@@ -27,6 +27,10 @@ claims:
     evidence: "archive-confirmed + canon-bridge"
     date: "2021-03-06"
     note: "The Whiskey handoff itself does not need the Meowk→Alkey bridge to establish the exchange; the identity routing comes from the Wiki's existing stable-account canon. The exchange remains affectionate banter, not romance evidence."
+  - text: "LEXI returned to the public Photo Submissions room for LOVE, Lonely, and Flowers in early 2021, following her January Lobby arrival from LoliParadise / S8. These are submissions posted by LEXI, not evidence of an in-game UL transfer or of who created, photographed, or appears in each image."
+    evidence: "archive-confirmed"
+    date: "2021-01 – 2021-03"
+    note: "Photo Submissions messages 805668415489835008 (LOVE), 811621070733049886 (Lonely), 818519188774977577 (Flowers). POSTED BY only; other media attribution unresolved."
 antiFanon:
   - "LEXI is explicitly presenting LoliParadise / S8 at the January 2021 door. Do not convert Discord presence into an in-game UL admission or later membership chronology."
   - "The historical age field is deliberately not republished in narrative copy."
@@ -54,7 +58,7 @@ On January 11, Gilli asks for **IGN, club, server, age**. Stable account `strawb
 
 Gilli points her toward the Discord Tour. Minutes later, the earliest surfaced Whiskey media row is already LEXI speaking fluent reaction-GIF. Clipboard, map, anime reaction. Orientation appears to have lasted approximately one commercial break.
 
-The more useful pattern is what she repeatedly aims at Staff afterward. Valentine's Day gets a greeting. March 2 gets a small craft disaster: LEXI says something she wrote with Japanese pens smudged because she forgot to let them dry, complains about her own mistake, then sends the good-day wish anyway. The attachment stays sealed, so the Wiki does not pretend to know what the page looked like. The behavior is already visible in the sentence: **imperfection does not cancel the gesture**.
+She also keeps showing up for the Photoshoot: LOVE, then Lonely, then Flowers. Three separate themes, three returns to a room that did not require her to pretend she belonged to UL in-game. She came through the Discord door as Okaa-san of LoliParadise / S8 and still made herself part of the room's creative routine. The uploads are hers; who made or photographed the images is another question.\n\nThe more useful pattern is what she repeatedly aims at Staff afterward. Valentine's Day gets a greeting. March 2 gets a small craft disaster: LEXI says something she wrote with Japanese pens smudged because she forgot to let them dry, complains about her own mistake, then sends the good-day wish anyway. The attachment stays sealed, so the Wiki does not pretend to know what the page looked like. The behavior is already visible in the sentence: **imperfection does not cancel the gesture**.
 
 The next morning she makes the point explicit: **`love you all be safe, know that you are loved and you are worth it.`** Repetition across separate dates turns this from random room niceness into a person-specific habit of using the public room to push care outward.
 
