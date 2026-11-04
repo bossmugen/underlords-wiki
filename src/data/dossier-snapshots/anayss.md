@@ -6,7 +6,7 @@ roles:
   - "Underboss"
   - "Battle Leader"
   - "Game Officer"
-summary: "The archive follows Anayss from 2020 map confusion and mutual bewilderment with Gabu into years of front-door wayfinding, creative work, battle callouts, practical care, and schedule coordination. Her current Underboss / Battle Leader role is locked separately from that progression."
+summary: "Anayss gets lost on the game map, gives everyone else directions, coordinates battles, makes art, and remembers the people behind the usernames. Coffee may be required before any of this."
 summaryEvidence: "archive-confirmed"
 publication: "public"
 claims:
@@ -151,38 +151,32 @@ tags:
 
 # Anayss
 
-Anayss is now one of UL's two Underbosses, as well as Battle Leader and a Game Officer. The archive does not give a clean appointment sequence for those present-day titles, so her biography starts somewhere more useful: with the person before the org chart caught up.
+Anayss can get lost on a game map and still be the person everyone else asks for directions. She is one of UL's two Underbosses, its Battle Leader, and a Game Officer. The titles fit the woman who remembers returning members, keeps an eye on battle timers, and knows whom to chase when the weekly planner needs fixing. They have never cured her of being a complete menace before coffee.
 
-## 2020 — LEARNING THE HOUSE WHILE BECOMING PART OF IT
+## Knows the Way, Eventually
 
-In September 2020, Anayss is still very capable of being confused in public. She describes a DM with Gabu where both of them are essentially telling each other they do not know what is happening. Ten days later she admits the Dragon Raja map makes her lag and adds the real problem: **`i get lost a lot`**.
+When Anayss first came through Lobby, Gilli pointed her toward the guides. Months later Ana was doing the pointing. She recognized people coming back through the door, sorted out roles and directions, and sent newcomers toward the Tour, rules, and whatever room they needed next. This is particularly funny considering her 2020 confession about Dragon Raja's map: `i get lost a lot`. Different map, same Ana. She could be bewildered with Gabu in a private conversation and still become the person who made somebody else's arrival easier.
 
-That makes the next surviving turn better. By December she is repeatedly in the Lobby helping other people find their way through UL's Discord map, rules, chats, and Biodata. The in-game map and the Discord Tour are different systems; the progression is human, not technical. A member who can joke about getting lost becomes one of the people making sure somebody else does not stay lost for long.
+Noether remembered that welcome as something more than directions. She had felt alone and was losing interest in the game; Ana made her feel included. The two grew comfortable enough to trade affection, compare each other to sunlight, and discuss what Noether ought to cook for everybody. In July 2022 they met in person, and Noether baked her a cake. Noether called it `A date with ana`. The cake was real, and so was the friendship; nobody needs to invent a romance to make either one matter.
 
-The creative work also turned outward. Before the Colors Photoshoot opened in April 2021, Anayss was among the people posting example images alongside Ansun, Gilli, and Ren. The entrants had not even been given the starting gun, and the room was already passing around possibilities. She was helping set the visual table, not just arriving later with a plate.\n\nThe same period also places her firmly inside UL's relationship grammar. Anthos's Tumbleweed update labels her as Gabu's `boyfriend` in the house-joke map. That is not literal romance, but it shows how quickly Anayss had become legible enough to the room to acquire fake-family metadata.
+Ana's care is often brief and useful. When Roti had real-life obligations, she answered `Real life always first Roti!`. With YoChan, she could act as the middleman for a hug, then miss her openly when she was gone. The person coordinating the house was also one of the people who noticed when someone wasn't in it.
 
-And November adds a second lane: she posts a group-chibi work in progress in the Louvre and names several UL people she intends to include. By June 2021 Bryce says one of her artworks is **still his phone background**. Later that summer Anayss is labeling pieces **`first time drawing anime`** and **`first time drawing art on a PC`**; in September Gilli is praising details like shading, eyes, hair, and clothes while Anayss talks process. The useful progression is simple: she is not only being rendered by UL's later creative culture. She was already making things inside it.
+## Battle Plans and Other Pest Control
 
-## 2021–2022 — FROM WAYFINDING TO ROUTINE RESPONSIBILITY
+Anayss does not merely wear the Battle Leader title. She calls out game events, warns when the clock is running down, and works out the weekly schedule with people who can update it. In April 2024 she asked WolfPhenix for a revised planner; Wolf found the old one, updated it, and checked whether anything had been missed. That is how a title becomes a working relationship: Ana knows what needs to happen, and Wolf knows what to do with the list.
 
-Through 2021 and into 2022, the archive increasingly catches Anayss doing repeatable house work rather than simply appearing in the room. She posts time-sensitive battle and event callouts, recognizes returning members before the bot can explain who they are, and keeps routing people through the front door.
+Her tactical vocabulary is considerably less dignified. Opponents with too many active players were `roachy`; the wider room escalated to `roachable` and Milk's radioactive, bench-pressing roaches. A real roster warning, delivered like an extermination report. Battle briefings could also come with outrageous outfit instructions and a `N A K E Y` dress code joke. Nobody had to choose between knowing the plan and laughing at the person giving it.
 
-Her care language is practical rather than grand. In January 2022, when Roti is dealing with real-life obligations, Anayss answers **`Real life always first Roti!`**. Noether remembers something more personal: Ana took her in when she felt alone and had nearly stopped enjoying the game. In February they traded **`TQM amiga`** and **`Tambien te quiero`**; by March Ana was comparing Noether to warm sunset colors, while Noether called Ana a bright sun and admitted most of what came out of her mouth was nonsense. A few months later Ana was simply demanding that Noether cook for everybody, and Noether was entertaining focaccia and three kinds of cupcakes. The welcome had turned into the kind of friendship where asking for food barely needed an introduction. In July, Slice records the social world crossing off-screen entirely: **`Today I met @Noether! She baked a cake for me ❤️`**. Noether calls it **`A date with ana`**; the archive only needs the sturdy part. Two internet friends actually met, and somebody brought cake.
+## Makes Things, Keeps People
 
-The line between operations and relationship is already thin here. Anayss is not becoming important by turning less social. She is becoming one of the people who can keep the machinery moving while remaining completely embedded in the house around it.
+Ana draws, too. She worked on a group chibi featuring UL people, experimented with anime and PC art, and got specific encouragement from Gilli about shading, eyes, hair, and clothes. Bryce liked one of her pieces enough to keep it as his phone background. That detail says more than an invented job title ever could: something she made stayed with somebody.
 
-## 2023–2024 — THE PERSON WHO KNOWS WHAT NEEDS TO HAPPEN NEXT
+She also helped post example images for the COLORS Photoshoot before submissions opened, alongside Ansun, Gilli, and Ren. She was part of the group giving other people something to work from. The images' creation and capture credits are separate questions, but the act of showing up to help set the mood was hers.
 
-The later Lobby record shows the same pattern continuing: arrivals get directions, returners get recognized, and the shared welcome system keeps moving. Meanwhile the game side becomes more explicit. Anayss continues posting battle reminders, and in April 2024 she asks WolfPhenix to update the weekly planner with the current event schedule. Wolf finds the old planner, revises it, and asks for corrections.
+Her friendships resist tidy labels. The old house map called her Gabu's `boyfriend`, which belonged to UL's fake-relationship nonsense, not a literal dating record. Gabu was also the person who watched Ana's coffee requests disintegrate into typos and responded with the far more responsible `maam drink water too`. They could be mutually confused, mutually ridiculous, and still look out for each other.
 
-That exchange is small, but it fits the longer trajectory. Anayss' archive begins with **`i get lost a lot`** and ends, at the current boundary, with her specifying which battles belong on which days so somebody else can publish the map for everyone.
+## Petty Crimes
 
-The current Underboss / Battle Leader titles are confirmed separately; the archive should not invent when they began. What it can show is why those titles do not feel disconnected from the person. Over time, Anayss moves from learning UL's rooms to helping other people navigate them, from joining the noise to coordinating pieces of it, without losing the ordinary warmth — or the creative streak — that made the room a place worth coordinating in the first place.
+Ana has demanded coffee as `Need coffee`, `Need cogfee`, and, on one memorable morning, several messages that had to be assembled into a sentence. She has filled Whiskey with dance reactions, called Gilli her wonderful `waifu` on her birthday, and used battle announcements to propose outfits that no sane military would approve. She is perfectly capable of sending people to the correct Discord room while remaining personally at war with the Dragon Raja map.
 
-## Running Gags — Coffee before language
-
-Before the battle reminders and the perfectly serviceable Lobby directions, Ana had another recurring announcement: coffee. Sometimes it was `Need coffee`, sometimes `Need cogfee`, and one September morning the request arrived in fragments. Gabu's reply to the caffeine campaign was practical: `maam drink water too`. A tiny, very recognizable collision between Ana's morning vocabulary and Gabu's hydration policing.
-
-## Running Gags — The roach report
-
-A battle briefing could contain a serious warning about an enemy club's active roster and still sound like somebody had called an exterminator. By late summer 2021, Anayss was using **\u0060roachy\u0060** for opponents with too many active bodies to ignore. Elsewhere the vocabulary mutated into **\u0060too roachy\u0060** and **\u0060roachable\u0060**, while Milk contributed **\u0060radioactive roaches\u0060** that could bench-press 220. The word was ridiculous; the warning underneath it wasn't. That's Anayss's battle voice in miniature: make sure people understand the threat, even if the threat has six legs.
+The joke is that Ana became a reliable source of directions without ever becoming boring. People could trust her to remember the schedule, remember them, and occasionally remember to drink water—usually after Gabu reminded her.
