@@ -43,6 +43,19 @@ claims:
     sources:
       - label: "🏮 Lobby · 2020-08-13"
         href: "/channels/lobby"
+  - text: "On August 15, 2020, Illien quoted Mugen in announcements as `we dum, but not stupid` and credited `LadyMugen`; Mugen answered thirteen seconds later, `ty for credit good sir uwu`."
+    evidence: "archive-confirmed"
+    date: "2020-08-15"
+    sources:
+      - label: "Backroom Pass 28 · announcements 744241914680836166 / 744241970842566756"
+        href: "/channels/announcements"
+  - text: "During Mugen's October 1, 2020 `UL greetings` action-bot barrage, Illien corrected a bot `nom` to `bite`, immediately tested `eli bite @Mugen`, and later called for a `group hug to mugs as she goes to sleep`."
+    evidence: "archive-confirmed"
+    date: "2020-10-01"
+    sources:
+      - label: "Backroom Pass 28 · Club Only 761271525193154561 / 761274177508212766 / 761274227423969341 / 761275885822148649"
+        href: "/channels/club-only"
+    note: "April Waifu bot and October Eli action system have similar functions, but their technical identity is not established. These are virtual social gestures, not literal contact."
   - text: "On September 24, 2020, Illien asked Ansun/Sou for a lunch meeting; Sou answered `pay up to see illien on cam`, and Illien replied that `this particular meeting is in person, so it will be more expensive 😛`."
     evidence: "archive-confirmed"
     date: "2020-09-24"
@@ -145,6 +158,11 @@ Wall adds a useful contradiction to that care pattern. Illien is not only somebo
 **Akuma.** December 2021 gives the care/prosecution contradiction in miniature. Illien tells Akuma `don't kill yourself`, then roughly a minute later contributes two attachments to the Wall exchange after Akuma has already posted one. The source supports blunt concern and continued filing in the same scene; it does not tell us the unseen attachment contents.
 
 ## Episodes
+
+**UL greetings, with a terminology correction — October 1, 2020.** Mugen remembered the house's bot-powered greetings and began issuing affection commands. Illien was willing to be kissed by the bot, but first he had a quality-control complaint: the alleged `nom` looked like a bite. Eleven seconds later he deployed `eli bite @Mugen`, then eventually called for a group hug as Mugs went to sleep. His objection was not to the nonsense. It was to inaccurate labeling of the nonsense. The April lobby Waifu bot and October Eli commands belong to the same social habit, but their technical lineage remains unresolved.
+
+**The quote gets credited — August 15, 2020.** Illien posted Mugen's `we dum, but not stupid` with her name attached. She replied `ty for credit good sir uwu` almost immediately. It's a tiny exchange, but the attribution matters: he wanted the room to know whose line it was, and she noticed that he had bothered.
+
 
 **Explained until understood — June 13, 2020.** This is the key structured episode for the accompaniment pattern. It bundles the concrete verbs behind `does not leave people behind` and should be read as recurring behavior described by a peer, not as a claim of perfection.
 
