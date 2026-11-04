@@ -29,6 +29,13 @@ claims:
       - label: "🆔 Lobby · 2021-01-13"
         href: "/channels/lobby"
     note: "The line independently confirms Amaurot provenance but does not by itself establish the later Amaurot → UL merger timing."
+  - text: "In the July 2021 WALTZ Photoshoot, Qin-Mu posted a picture and immediately followed it with the caption `Yoza and @Akariel`, naming Akariel / Zyrcant as Yoza’s staged dance partner."
+    evidence: "archive-confirmed"
+    date: "2021-07"
+    sources:
+      - label: "Photo Submissions · WALTZ partner caption"
+        href: "/events/photo-submissions"
+    note: "The image post and follow-up caption are distinct. Qin-Mu posted the caption; no independent image maker, photographer, or visual identification is claimed."
   - text: "On July 15, 2021, Ansun announced Zyrcant alongside Shinn and Nelphie as the top three winners of UL's Kahoot Pop Quiz."
     evidence: "archive-confirmed"
     date: "2021-07-15"
@@ -73,6 +80,7 @@ antiFanon:
   - "Tofu's `Satan` is scene-local. Do not promote it into a stable Zyrcant alias or reconstruct the missing soul-taking premise."
   - "The July 25 self-filing establishes a voluntary Wall submission. Do not expose the private attachment, identify the other person, infer sexuality/current relationship status, or promote POSTED BY into MADE BY / CAPTURED BY / FEATURING."
   - "`tackles ppl` / `tackling gabu` is Zyrcant's authored joke language in one Wall scene. It does not establish literal physical aggression, a formal tackling role, or unusual closeness to Gabu."
+  - "The WALTZ caption names a staged partner, not a romance, friendship rank, or image-creation credit."
   - "Voice Challenge song selection is self-presentation material, not a literal biography or personality diagnosis."
 relatedPeople:
   - "rich"
@@ -80,6 +88,7 @@ relatedPeople:
   - "han"
   - "tofu"
   - "ansun"
+  - "yoza"
 tags:
   - "vip"
   - "amaurot"
@@ -88,6 +97,8 @@ tags:
   - "wall"
   - "voice-challenge"
   - "kahoot"
+  - "photoshoot"
+  - "waltz"
   - "social-play"
 ---
 
@@ -106,6 +117,10 @@ Mugs confirms the simpler present-tense relationship: Zyrcant **adores UL**. Tha
 Voice Challenge catches the same shift through culture rather than rank. Zyrcant selects `Magnetic Moon` for her character and asks Han for editing help. The former deputy is now using UL's internal self-expression machinery like everybody else.
 
 And in July 2021, Ansun names **Shinn, Nelphie, and Zyrcant** as the top three in UL's Kahoot Pop Quiz. It is one quiz, not a Mensa application. Still: the old Amaurot deputy is not hovering around the edges of the server. She is in the stupid little club quiz and placing.
+
+## A DANCE CARD, NOT A RELATIONSHIP CONTRACT
+
+The July WALTZ round caught another side of Akariel: Qin-Mu posted a picture and followed it with `Yoza and @Akariel`. The caption is small, but it puts Zyrcant on somebody else’s dance card, right in the middle of UL’s habit of recruiting people into themed nonsense. The photograph has not been independently inspected, so the caption is the connection we can actually name. It tells us who was paired for the prompt, not who took the picture or whether anyone was dating.
 
 ## TOFU WOULD LIKE TO DISCUSS THE SOUL SITUATION
 
