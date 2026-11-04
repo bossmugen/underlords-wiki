@@ -636,3 +636,10 @@ Photo miner `archive-miner-photo-submissions-2021`, last-known HEAD `d45d441feca
 - New structured WIKI dossier `src/data/dossier-snapshots/akuma-matsu.md` commit `8185ed9854902654e51f623c69353c90f8b5334b`, source reread confirmed. Stable account bridge preserved; Rebellation/Abaddon transfer chronology unresolved. No private material or uninspected media.
 - GitHub Actions query immediately after commit returned zero runs. Reader build, preview and live production remain **pending_verification**, not published-certified. No miner consumed SHA advanced; August Reunion/Main HQ remaining accepted A/B count still unreconciled.
 - MAIN full branch census commit `e67bac5ca82e097447df4c4a563d2e67c851495e`: 137 REST branches, 30 active miner HEADs, zero advanced/new; Club-Only recovery checkpoint reviewed without promotion.
+
+## 2026-11-04 02:30 PST — Backroom Dora/Forsaken WIKI recovery
+
+- Direct branch `archive-miner/backroom-deals-2026-08-24`, HEAD `9c143a7c146af4fc90de4b258bee1c848a2818a0`; `checkpoint.md`, `site-candidates-pass-18.md`, `receipts-pass-18.md` reviewed. Dora July 10 Forsaken self-ID, Anayss tour, Lapis WALTZ partner entry, Ren August 4 original-image correction, Dora August 22 POPSTAR return.
+- New WIKI dossier `src/data/dossier-snapshots/dora.md`, reader commit `0117b373ba9bc35a54ef6f2160539be20a23aa93`. Source reread passed. GitHub Actions exact-commit query initially returned zero runs: build and live deployment pending verification. Do not mark published-certified yet.
+- Valantina Pass 17 already represented on both surfaces; Dean Pass 19 represented on both. No duplicate edits. No media inspected, no relationship or membership upgrades. Backroom A/B remaining inventory still uncounted; consumed SHA unchanged.
+- MAIN census commit `c029a35b6ed389da848fc85107577dc2a44bcb6e`: all 30 active miner HEADs checked, no advances/new branches.
