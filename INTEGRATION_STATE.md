@@ -659,3 +659,13 @@ Photo miner `archive-miner-photo-submissions-2021`, last-known HEAD `d45d441feca
 - New WIKI dossier `src/data/dossier-snapshots/dora.md`, reader commit `0117b373ba9bc35a54ef6f2160539be20a23aa93`. Source reread passed. GitHub Actions exact-commit query initially returned zero runs: build and live deployment pending verification. Do not mark published-certified yet.
 - Valantina Pass 17 already represented on both surfaces; Dean Pass 19 represented on both. No duplicate edits. No media inspected, no relationship or membership upgrades. Backroom A/B remaining inventory still uncounted; consumed SHA unchanged.
 - MAIN census commit `c029a35b6ed389da848fc85107577dc2a44bcb6e`: all 30 active miner HEADs checked, no advances/new branches.
+
+
+## 2026-11-04 04:30 PST — Backroom Celeana Photoshoot recovery
+
+- Direct miner intake: `archive-miner/backroom-deals-2026-08-24`, `site-candidates-pass-22.md` and `receipts-pass-22.md`, messages `808039373513293834`, `820150618211090442`, `834574613669347397`, `843665389116194866`, `851305802828742667`, `855555787966906388`, `896939140321533962`; STALKER attachment `855555787732418601` uninspected.
+- WIKI reader file `src/data/dossier-snapshots/celeana.md` created at `fe7d83c2e8668a97bde7802bce643170be4252fb`; source reread confirmed. Seven recovered submission dates and direct STALKER caption included, no fabricated image description, role, or identity bridge.
+- MAIN `src/content/people/celeana.md` absent; no MAIN reader edit this pass. Wiki structured episode owner prioritized; MAIN person-first treatment remains candidate for future reconciliation.
+- GitHub commit status immediately after reader write returned no checks; Astro build, preview and live deployment remain pending verification. Do not mark fully integrated or advance Backroom consumed SHA.
+- Snow Pass 22 Wall exchange already present on BOTH surfaces; duplicate suppressed. Grasshopper origin unresolved; War Room 2022–2023 source inaccessible.
+- Branch search returned 30 miner names, but connector exposes names without HEAD SHA; last complete independent 30-HEAD census remains 2026-11-04 03:37 PST. Fresh full-SHA census and persistence not completed this pass. Backroom accepted A/B remaining count unreconciled. Club-Only recovery not completed.
