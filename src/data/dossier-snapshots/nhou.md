@@ -20,7 +20,7 @@ claims:
       - label: "💬 Club Only recovered export"
         href: "/channels/club-only"
       - label: "📬 Photo Submissions recovered export"
-        href: "/channels/photo-submissions"
+        href: "/events/photo-submissions"
   - text: "On April 6, 2020, Nhou wrote `i got the last thing` and fifteen seconds later `i dont remember what it was lol`. The surrounding object is not safely reconstructed."
     evidence: "archive-confirmed"
     date: "2020-04-06"
@@ -51,19 +51,19 @@ claims:
     sources:
       - label: "💬 Club Only · 2020-09-30"
         href: "/channels/club-only"
-  - text: "Across six official 2021 Photo Submissions—New Year, February I, Lonely, Colors, Mafia, and Waltz—Nhou repeatedly changes visual method rather than repeating one fixed composition; the inspected sequence runs from underwater/environmental staging through extreme icy emptiness, cosmic color, warm-red Mafia framing, and the bright fantasy-water `Nhouwu + duck` entry."
+  - text: "Across six official 2021 Photo Submissions—New Year, LOVE, Lonely, Colors, Mafia, and Waltz—Nhou repeatedly changes visual method rather than repeating one fixed composition; the inspected sequence runs from underwater/environmental staging through extreme icy emptiness, cosmic color, warm-red Mafia framing, and the bright fantasy-water `Nhouwu + duck` entry."
     evidence: "archive-confirmed"
     date: "2021-01-08 – 2021-07-15"
     sources:
       - label: "📬 Photo Submissions · inspected 2021 Nhou sequence"
-        href: "/channels/photo-submissions"
+        href: "/events/photo-submissions"
     note: "The completed Photo Submissions intake manually inspected all six Nhou entries. Exact Discord message IDs: New Year `797101365020983296`; February I `808178746934034482`; Lonely `812921630560092200`; Colors `831006218775953438`; Mafia `835627771832565770`; Waltz `865393424504717323`. `POSTED BY Nhou` does not automatically establish MADE BY, CAPTURED BY, or FEATURING. The Mafia post's heavy reaction activity is room-response evidence, not a contest result."
-  - text: "Nhou\u2019s own stable account is among the users who reacted with \u{1F4A9} to his stark Lonely Photoshoot entry; reaction timing and intent are not preserved."
+  - text: "Nhou’s own stable account is among the users who reacted with 💩 to his stark Lonely Photoshoot entry; reaction timing and intent are not preserved."
     evidence: "archive-confirmed"
     date: "2021-02-18"
     sources:
       - label: "Photo Submissions · Lonely · message 812921630560092200"
-        href: "/channels/photo-submissions"
+        href: "/events/photo-submissions"
     note: "Reaction user 158594223371845632 is Nhou. The reaction is not a judging result, proof of self-dislike, or evidence of when he reacted."
   - text: "On September 11, 2021, after a member asked whether Suzimasu was one of UL's founders, Nhou wrote `Suzi freaked out since the beginning xD`; Mugen later used a true Discord Reply to that exact message and answered `Yus`."
     evidence: "archive-confirmed"
@@ -100,8 +100,8 @@ tags:
   - "conceptual-range"
 ---
 
-Nhou's surviving file moves between work-register bleed and ordinary house company: Mugen recognizes the clinical shorthand immediately, the same conversation converts coffee enemas into `latte or frapp`, and the 2021 camera refuses to settle into one answer across six different prompts. The chat can be one line. The visual file keeps changing shape.
+Nhou could drop one medical-sounding line into a room and have Mugen immediately send him home, then turn around and help make coffee enemas sound like a café menu. His smaller messages were often the ones that sent everyone else off the rails: Mugen recognizes the clinical shorthand immediately, the same conversation converts coffee enemas into `latte or frapp`, and the 2021 camera refuses to settle into one answer across six different prompts. He might type one line in chat, but he never seemed to settle for one visual answer.
 
 ## Lonely: a tiny reaction to a huge empty world
 
-Nhou posted the bleak, almost-empty icy landscape for Lonely. Then his own account joined the \u{1F4A9} reactions underneath it. Whether he was roasting his picture, laughing with everybody else, or simply arriving late to the emoji pile is anybody\u2019s guess. The contrast survives anyway: enormous desolation, one very stupid reaction, and Nhou right there among the people pressing it.
+Nhou posted the bleak, almost-empty icy landscape for Lonely. Then his own account joined the 💩 reactions underneath it. Whether he was roasting his picture, laughing with everybody else, or simply arriving late to the emoji pile is anybody’s guess. The contrast survives anyway: enormous desolation, one very stupid reaction, and Nhou right there among the people pressing it.
