@@ -10,7 +10,7 @@ summary: "Dyingfox is a permanent Platelet whose surviving voice is compact but 
 summaryEvidence: "archive-confirmed"
 publication: "public"
 claims:
-  - text: "On October 8, 2020, the Underlords Stripclub Bouncer welcomed DyingFox(Gilli\'s Pond) to the Discord; Snow replied `Added role` and then `welcome Dyingfox` two minutes later."
+  - text: "On October 8, 2020, the Underlords Stripclub Bouncer welcomed DyingFox to the Discord; Snow replied `Added role` and then `welcome Dyingfox` two minutes later."
     evidence: "archive-confirmed"
     date: "2020-10-08"
     sources:
