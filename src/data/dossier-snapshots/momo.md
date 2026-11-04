@@ -4,11 +4,11 @@ aliases:
   - "miin_mochii"
 roles:
   - "Staff"
-summary: "Momo is current Staff whose best surviving character rhythm is premise acceptance followed by sideways escalation: `Age: N/A`, calling UL's cursed genealogy Alabama and then family, liking the darkness she is being saved from, a recurring twin bit with Mia, and waking from VC sleep directly into all-caps One Piece."
+summary: "Momo is current Staff whose best surviving character rhythm is premise acceptance followed by sideways escalation: `Age: N/A`, calling UL's cursed genealogy Alabama and then family, liking the darkness she is being saved from, a recurring twin bit with Mimi / Opalite Honey, and waking from VC sleep directly into all-caps One Piece."
 summaryEvidence: "archive-confirmed"
 publication: "public"
 claims:
-  - text: "Current canon places Momo on the Staff shelf and keeps Momo distinct from Mia / Mimi / Miaka. Export-time VIP/Fun Size role arrays do not establish appointment chronology."
+  - text: "Current canon places Momo on the Staff shelf and keeps Momo distinct from Mimi / Opalite Honey and from Mia. Export-time VIP/Fun Size role arrays do not establish appointment chronology."
     evidence: "canon-lock"
   - text: "On December 9, 2020, Momo answers Lobby intake with `ign: Anansa/Fire Legacy Age: N/A`; Gilli clarifies that for age she can simply say minor or not minor."
     evidence: "archive-confirmed"
@@ -28,17 +28,17 @@ claims:
   - text: "On April 5, 2023, Moon true-replies that `Nunsa keeps you safe from the darkness uwu`; Momo answers `I quite like the dark tyvm`."
     evidence: "archive-confirmed"
     date: "2023-04-05"
-  - text: "On April 7, 2023, Mia says `me and momo are twinsss`; Momo answers `Mimi’s twin`, Mia says `love u twinnn`, and Momo replies `Love ya 2`."
+  - text: "On April 7, 2023, Mimi / Opalite Honey says `me and momo are twinsss`; Momo answers `Mimi’s twin`, Mimi says `love u twinnn`, and Momo replies `Love ya 2`."
     evidence: "archive-confirmed"
     date: "2023-04-07"
-  - text: "On April 9, 2023, Momo true-replies to Mia's Wall post with `you are both Mimi & Momo`, extending the twin/identity-blur joke across multiple dated scenes."
+  - text: "On April 9, 2023, Momo true-replies to Mimi's Wall post with `you are both Mimi & Momo`, extending the twin/identity-blur joke across multiple dated scenes."
     evidence: "archive-confirmed"
     date: "2023-04-09"
   - text: "On October 30, 2024, in a VC sidecar text log, Momo says she fell asleep, hearing Rich startled her awake, and then immediately posts `ONE PIECE`, `YYEEEESSSSSSSSSSSSSSSS`, and `BLUE PYRO BIRD MAN`."
     evidence: "archive-confirmed"
     date: "2024-10-30"
 antiFanon:
-  - "Momo is not Mia / Mimi / Miaka; the twin language is a recurring joke between distinct people, not literal kinship or identity evidence."
+  - "Momo is not Mimi / Opalite Honey or Mia; Mimi and Mia are distinct accounts, and the twin language is a recurring joke between distinct people, not literal kinship or identity evidence."
   - "Do not infer Momo's exact age from the 2020 `Age: N/A` intake scene."
   - "Lobby reaction presence does not make Momo a Gatekeeper, Recruiter, or formal welcome officer."
   - "The 2023 `sweet home Alabama` line describes UL's fake-family joke grammar; it is not evidence of literal incest, romance, sexuality, or biological relationships."
@@ -52,7 +52,7 @@ antiFanon:
 relatedPeople:
   - "gilli"
   - "moon"
-  - "mia"
+  - "mimi"
   - "rich"
   - "ansun"
   - "mugen"
@@ -81,9 +81,9 @@ Later that evening, her usual compactness blows open. Momo writes **`WAIT WHATJF
 
 Moon then true-replies to Momo with **`Nunsa keeps you safe from the darkness uwu`**. Momo answers: **`I quite like the dark tyvm`**. Moon has offered a rescue premise. Momo does not fight the premise or ask what Nunsa is doing there. She simply declines the service because the threatening condition sounds fine actually. `tyvm` leaves a tiny customer-service bow on the refusal. One line, no goth biography required.
 
-Two days later Mia opens a different premise: **`me and momo are twinsss`**. Momo accepts it with **`Mimi’s twin`**. Mia answers `love u twinnn`; Momo returns **`Love ya 2`**. The affection is direct and the twin bit is real in the scene. The archive does not thereby merge Momo and Mia into one person, make them biological sisters, or declare a romance. In fact, the joke only works cleanly if the wiki remembers they are distinct people.
+Two days later Mimi / Opalite Honey opens a different premise: **`me and momo are twinsss`**. Momo accepts it with **`Mimi’s twin`**. Mimi answers `love u twinnn`; Momo returns **`Love ya 2`**. The affection is direct and the twin bit is real in the scene. The archive does not thereby merge Momo and Mimi into one person, make them biological sisters, or declare a romance. In fact, the joke only works cleanly if the wiki remembers they are distinct people.
 
-On April 9 the same bit survives long enough to mutate. Momo uses a true Discord Reply against Mia's exact Wall post and writes: **`you are both Mimi & Momo.`** The underlying image remains uninspected, so the wiki refuses to explain what `you` is referring to. But it does not need the picture to see the callback: two days after the twin registry opens, Momo is already making the identity bookkeeping worse.
+On April 9 the same bit survives long enough to mutate. Momo uses a true Discord Reply against Mimi's exact Wall post and writes: **`you are both Mimi & Momo.`** The underlying image remains uninspected, so the wiki refuses to explain what `you` is referring to. But it does not need the picture to see the callback: two days after the twin registry opens, Momo is already making the identity bookkeeping worse.
 
 Then 2024 delivers the reboot sequence. In a voice-channel sidecar text log, Syv is trying to get Rich's attention. Momo eventually admits: **`I legit fell asleep 😭`** and **`It was nice but then I heard Rich and it startled me awake`**. The archive does not preserve Rich's full spoken contribution, so we do not invent the audio. What it does preserve is what Momo does immediately afterward:
 
@@ -97,4 +97,4 @@ That is the scene. The nap is setup. The character beat is the reboot: asleep, s
 
 There are unresolved Momo exhibits downstairs. A 2022 Wall sequence contains two attachments, clown reactions, `Bai bai`, and a later `momo said 2fer1` line from Daya, but no reply metadata actually joins the `2fer1` remark to those images. The chronology is precise; the premise is not. The wiki does not staple them together just because doing so would produce another funny paragraph.
 
-So the current file stays with the receipts that actually cohere. Intake gives her a box; she makes the box clarify itself. A procedural hiccup becomes `2fer1`; she lets the joke stand. UL's fake genealogy looks Alabama; the people still feel like family. Moon offers safety; she prefers the danger condition. Mia offers twins; Momo starts rewriting the registry. Sleep gets interrupted; she reboots into One Piece. It is a compact arc with a recognizable verb, and it remains funny precisely because the wiki does not over-explain her into an archetype.
+So the current file stays with the receipts that actually cohere. Intake gives her a box; she makes the box clarify itself. A procedural hiccup becomes `2fer1`; she lets the joke stand. UL's fake genealogy looks Alabama; the people still feel like family. Moon offers safety; she prefers the danger condition. Mimi offers twins; Momo starts rewriting the registry. Sleep gets interrupted; she reboots into One Piece. It is a compact arc with a recognizable verb, and it remains funny precisely because the wiki does not over-explain her into an archetype.
