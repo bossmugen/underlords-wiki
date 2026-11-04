@@ -164,15 +164,15 @@ tags:
 
 Before the house had turned Rummy's spelling into a spectator sport, she entered the January 8, 2021 Photoshoot as **phenomenal_lamb_14960** with a small, earnest caption: **“♡︎It better to look upward than to look downward ♡︎”**. Thirteen heart-eyes reactions followed. The image itself has not been inspected, so the caption and the room's response carry this episode; there is no need to invent what the picture showed.
 
-Rummy's UL story is long enough that the role list can be misleading if it is read all at once. She is primarily an **on-call Sniper**, and over time she also becomes Nobu's **Party Director Apprentice**, a **Parterre Gardener**, a **Game Officer**, and remains a permanent **Platelet**. The archive does not safely date every appointment, so the biography follows the parts of her life in UL that can actually be placed in time.
+Rummy's UL story is long enough that the role list can be misleading if it is read all at once. She is primarily an **on-call Sniper**, and over time she also becomes Nobu's **Party Director Apprentice**, a **Parterre Gardener**, a **Game Officer**, and remains a permanent **Platelet**. Those jobs live beside the more recognizable Rummy: loud about pancakes, protective of context, capable of handling a serious misunderstanding, and apparently subject to a licensing board for knowing too much BL.
 
-## 2020 — Arrival
+## A Quiet Hello, Before the Noise
 
 Rummy's earliest surviving UL intake is October 11, 2020 under the account name **`phenomenal_lamb_14960`**. The Stripclub Bouncer welcomes her, she answers with a simple **`Hi 🙂`**, Staff confirms role assignment, and she is sent toward the Discord Tour.
 
 There is nothing grand about the scene, which is useful. It gives her a real starting point without pretending that later titles were already attached to her. By October 2020, Rummy is in the house. The rest of the biography is what happens as she becomes more embedded in it.
 
-## 2022 — Fully inside the house culture
+## The Pancake Defense
 
 By 2022, Rummy is no longer appearing in onboarding material. She is appearing in the kind of nonsense that only works once everybody already knows the cast.
 
@@ -180,7 +180,7 @@ In May, Rich asks how much bleach she has touched; Rummy answers **`BruH- I touc
 
 The unseen screenshots stay unseen. What these scenes establish is simpler: by 2022 Rummy is socially legible enough that the room has a rhythm with her. She protests, people pile on, she keeps protesting, and the joke survives because nobody needs an introduction first.
 
-## 2023 — More responsibility, more visibility
+## The Birthday Calendar and the Missing Context
 
 The 2023 record shows Rummy doing more than being the target of jokes. On March 31 she republishes UL's birthday calendar month by month and pins the replacement lists. That is ordinary maintenance work, but it marks a shift in the surviving record: she is not just participating in the house; she is helping keep pieces of it organized.
 
@@ -192,15 +192,15 @@ Only after setting that boundary does she joke that Ansun is her lawyer **`now-j
 
 Two weeks later, the house apparently develops a certification board for Rummy's profile. She says losing her anime PFP and the gender symbols in her bio means she is **`no longer accepted into bl clan`** even though she still has a **`bl pfp`**, then diagnoses herself with the wonderfully efficient **`i am imposter`**. The joke keeps expanding: **`Strights are rare in IsekaiScan @Sogu`**, followed by Ali joining Rimu club to **`multiply the str8 population`**.
 
-The little bureaucratic verbs are the whole thing. Rummy is not merely saying she likes something; she turns a profile picture and bio formatting into eligibility requirements, population policy, and an accreditation crisis. A year later the paperwork resurfaces as **`i need more bling certification`**. The archive does not backfill that later wording into 2023—the earlier messages literally say **`bl`**—but the mutation is recognizable: if Rummy's self-presentation can be made into a licensing problem, apparently somebody must stamp the form.
+The little bureaucratic verbs are the whole thing. Rummy is not merely saying she likes something; she turns a profile picture and bio formatting into eligibility requirements, population policy, and an accreditation crisis. A year later the paperwork resurfaces as **`i need more bling certification`**. The earlier messages said **`bl`**; later Rummy upgraded the joke to **`bling certification`**. The mutation is recognizable: if Rummy's self-presentation can be made into a licensing problem, apparently somebody must stamp the form.
 
 By December, another recurring trait is visible: when the Wall quotes her without enough surrounding context, she objects to the edit rather than necessarily denying the line. **`bro u need hte context`**, **`THAT WASN'T JUST A RANDOM THINIG`**, **`i did not say that randomly`**, followed eventually by **`it the bobA bALlS`**. It is funny, but it also fits the same year in which she was maintaining birthday records and trying to close a misunderstanding carefully. Rummy tends to care about what happened around the sentence, not just the sentence itself.
 
-## 2024 — The pattern sticks
+## Objection, Your Honor: That's Not the Full Conversation
 
 In August 2024, another Wall cluster ends with the condensed version of the same objection: **`THAT NOT THE FULL CONVO`**. Later that month, the separate profile-certification bit mutates into **`i need more bling certification`**—same bureaucratic instinct, later wording, not a retroactive rename of the 2023 `bl clan` joke.
 
-At this point the context objection reads less like a one-off defense and more like a stable habit in how she deals with the Wall. The room likes excerpts because excerpts are funny. Rummy's reflex is to drag the missing context back into frame. The archive cannot prove that every objection was correct, because the underlying conversations are not always fully reconstructed. What it can show is that the reflex repeats.
+At this point the context objection reads less like a one-off defense and more like a stable habit in how she deals with the Wall. The room likes excerpts because excerpts are funny. Rummy's reflex is to drag the missing context back into frame. Sometimes the original conversation was already gone from view. Rummy's reflex was consistent: if somebody was going to prosecute her words, she wanted the rest of the conversation admitted too.
 
 ### Running Gag: The proposed stink-off
 
@@ -215,7 +215,7 @@ The running gag belongs with Rummy's other Wall-era group teasing, not as an act
 
 Rummy's BL-series knowledge was established enough that one wrong answer became a Wall emergency. In July 2024, homethey_ announced the world was ending; Rummy immediately insisted she'd fixed the mistake, and Moon prescribed a retake of the imaginary **BLING exam**. A tiny mistake, a very large disciplinary apparatus, and absolutely nobody pretending this was a real qualification.
 
-## 2026 — Account change, same person
+## New Account, Same Rummy
 
 On July 7, 2026, Ren announces that Rummy's old Discord account has been hacked and identifies **rummy00.9.** as the replacement. The Lobby Bouncer reruns the normal check-in, but this is account continuity, not a new person or a new membership story.
 
@@ -223,4 +223,4 @@ A month later, during the August reunion, Rummy is immediately recognizable as p
 
 That line lands differently after the earlier timeline. The person who entered through Lobby in 2020, accumulated roles, maintained calendars, got roasted, mediated a misunderstanding, argued for fuller context, and survived an account replacement is still there six years later asking for the house to move again.
 
-Rummy's progression is therefore not one themed personality bit. It is **increasing embeddedness**. She starts as a newcomer, becomes part of the room's everyday comedy, takes on more community responsibility, shows a recognizable conflict style, and remains present enough in 2026 to participate in the server's afterlife. The role stack matters, but the timeline is what makes it feel like a life.
+The girl who arrived with a quiet **`Hi 🙂`** eventually became somebody people could summon for birthdays, argue with over burnt pancakes, tease about BL credentials, and trust to speak up when a joke had gone too far. Six years later she was still asking the server to wake up. That is Rummy: part record keeper, part defendant, and fully capable of demanding the entire transcript.
