@@ -200,7 +200,7 @@ tags:
 
 Sye is a current Caporegime and Game Officer. Life, Syenitha, Sadako, `sycessences`, and ƐℲı˥ all belong to the same person; she is **not** Syv. Her archive is one of the best examples of why a long biography should follow changing forms of competence rather than reducing somebody to a single skill.
 
-## 2020–2021 — SHE STARTS INSIDE THE SCHEDULING MACHINERY
+## THE WOMAN WHO FIXES THE CLOCK
 
 In September 2020, the stable `sycessences` account repeatedly configures Saber's event-announcement format and the bot echoes the result immediately. In November, Snow tells Gabu to add recurring events, Sye tells Gabu to change the date, and Gabu answers **`omg how`**.
 
@@ -208,7 +208,7 @@ The work is collaborative from the beginning. Snow, Gabu, Sye, and later other m
 
 A year later daylight saving knocks Discord's schedule out of sync with server time. Sye tells Staff to be patient while Gabu recalibrates it. The earlier configuration work has become shared maintenance: one person understands the failure, another is repairing it, and Sye communicates the state to everyone else.
 
-## 2022 — THE SAME PRACTICALITY SPREADS FROM BOTS TO ROOMS AND PEOPLE
+## SOMEONE HAS TO TELL THE ROOM WHERE TO GO
 
 In spring 2022, Gabu pages Sye for an event-time edit, and an Officers Challenge from Sye is announced. In May, Sye tells the Wall **`Please don’t used this channel for general conversation`**. Ren repeats the guidance the next day with **`like sye said`**, and again in September routes general conversation **`To whiskey`**.
 
@@ -220,7 +220,7 @@ In November, an upstream system alert says the server is going down for maintena
 
 On February 18, 2023, Mugen announced a new QOTD Barista in Lobby. Forty-five seconds later, Sye said **`I wrote a question anyway`**. Nobody had to choose between a bot and the human who had already bothered to make a prompt. The line fits her other practical work: she sees a job that needs doing and does it, even while the machinery is being rearranged. The record does not say whether that particular question ever made it onto the menu.
 
-## 2023–2024 — TECHNICAL HABITS SHOW UP IN SHARED CREATIVE WORK, THEN THE BIO WIDENS
+## THE FIXER ALSO HAS A CAMERA ROLL
 
 During the June 2023 communal doodle poster, Sye notices the stale-copy problem: newer versions are dropping other people's contributions. Wolf suggests a separate layer to make a doodle movable; Sye clarifies that the larger problem is version loss.
 
@@ -232,7 +232,7 @@ By 2024, the archive also gives more ordinary social material. Sye reacts with g
 
 On January 6, Sye came back for the New Year Photoshoot and admitted it had taken a hundred tries to get a picture she could live with. The phrase `Only came on to do this` makes the effort funnier: an allegedly casual visit had already become a private production marathon. On January 31, the same account posted an `Example Photos` header and three images for the next round. She had moved from wrestling with her own entry to helping fill the room with examples. The images' photographers and subjects are not established; the contribution is the posting itself.
 
-## 2025 — DOMAIN KNOWLEDGE ARRIVES IN THE SAME CLOWN REGISTER
+## COMPETENCE, SERVED WITH NONSENSE
 
 Recipes for Disaster makes that especially obvious. Ren asks for pasta and Sye answers with a roughly 500-word Pasta alla Zozzona recipe: specific technique, ingredients, repeated warnings about fire, **`NOT BACON`**, and the final handoff **`There pasta recipe Ren`**. A later Hong Kong shrimp wonton noodle soup includes **`Whole ass Chicken`** and **`8+ hours of your life`**.
 
@@ -244,7 +244,7 @@ Then the best continuity joke lands back in Saber Control. In July Sye posts **`
 
 Five years after direct configuration work, Sye is willing to say she no longer remembers the interface. That is not a collapse of the earlier competence. It is what a real long-term timeline looks like: knowledge is used, handed around, forgotten, reacquired, and shared.
 
-## 2026 — THE OLD ROOMS STILL HAVE HER IN THEM
+## SHE STILL KNOWS WHERE THE DOORS ARE
 
 The current recovered Slice archive ends with three Sye messages: **`memory lasp`**, **`give yall all *pats*`**, and `:catpat:`. That is an archive boundary, not an intentional closing ceremony, but it is an oddly gentle place for the surviving road to stop.
 
