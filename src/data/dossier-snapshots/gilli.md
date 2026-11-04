@@ -186,7 +186,7 @@ tags:
 
 Gilli is a current Consigliere / Senior Advisor. The title sits at the end of a much longer social record: the archive meets her in 2020 already directing people around the house, and then watches that practical involvement expand into care routines, visual programs, onboarding, memory retrieval, and some of UL's most elaborate fake-family metadata.
 
-## 2020 — THE GAME IS ALREADY SECONDARY TO THE PEOPLE
+## THE PEOPLE WERE THE POINT
 
 On April 5, only weeks into UL's life, Gilli points a newcomer toward Whiskey. D.I. immediately tells the newcomer **`Dont listen to her...RUN`**; Gilli answers with a bot-command punch and Waifu records the assault. The scene is useful because the front door is already both procedural and social. Gilli gives the direction, gets heckled, hits the heckler in bot syntax, and the newcomer keeps moving.
 
@@ -194,17 +194,17 @@ A month later Slice catches her trying to go downstairs and getting derailed by 
 
 The pattern is already there. Raja is the setting; the people are becoming the reason to stay.
 
-## 2021 — CARE AND MAINTENANCE BECOME ROUTINE
+## THE WOMAN WHO FEEDS THE ROOM AND ENFORCES THE RULES
 
 Through 2021, Gilli is repeatedly visible in the work that keeps UL's recurring programs usable. She closes Photo Submissions rounds, moves them toward results and the next theme, and enforces the Mafia-theme requirement that uncropped names remain visible.
 
 Before Colors even opened in April, she was among the people posting example images alongside Ansun, Anayss, and Ren. And when Cookie got tangled in the photo editor's automatic crop and the outside-editing rule later that month, Gilli's correction came with `hun lol`. She could insist on the rule without turning a friend's botched picture into a disciplinary hearing. The same woman who kept the contest moving also helped make it possible to enter. In Lobby she assigns roles and routes newcomers through Biodata, rules, and the Tour.
 
-Her care language runs alongside the procedure. She points Gabu's own hydration identity back at her—**`DRINK WATER AND EAT SOMETHING`**, later **`I DONT CARE IF IT'S LATE, DRINK WATER !`**—and December QOTD prompts arrive paired with reminders to eat and smile. On New Year's Day 2022, Gilli's own goal is surprisingly small: **`I plan to try to make at least one more friend.`**
+Her care language runs alongside the procedure. She points Gabu's own hydration identity back at her—**`DRINK WATER AND EAT SOMETHING`**, later **`I DONT CARE IF IT'S LATE, DRINK WATER !`**—and December QOTD prompts arrive paired with reminders to eat and smile. One of those caring introductions immediately led into a choice between permanently tangled hair and permanently wet underarms. Apparently the same woman could check whether everybody had eaten and then make them contemplate a lifetime of damp armpits. On New Year's Day 2022, Gilli's own goal is surprisingly small: **`I plan to try to make at least one more friend.`**
 
 The camera roll keeps participating too. In July she resurfaces from her photos with **`found this gem`** and posts an old screenshot to the Wall. The image stays undescribed; the recurring habit is enough. Gilli stores old material accidentally and retrieves it socially.
 
-## 2022 — UL BELONGING OUTLIVES RAJA
+## YOU'RE STILL AN UNDERLORD
 
 October 2022 supplies the cleanest statement of the social logic that was already visible in 2020. Aeshleen says Dragon Raja is over for her and that she barely uses Discord anymore. Gilli answers: **`you're still an Underlord`**.
 
@@ -212,7 +212,7 @@ That is reassurance in one scene, not a constitutional lifetime-membership claus
 
 The same period is also fully unserious. DiStratus(Torr) blames Gilli as a bad influence for getting on Discord too much. The height war with Gabu turns into reciprocal prosecution: one insists the other is shorter, and neither side appears interested in settlement.
 
-## 2023 — THE HOUSE'S RELATIONSHIP JOKES MOVE INTO THE USERNAMES
+## THE HEIGHT WAR BECOMES A USERNAME
 
 By April 2023, Gilli's own profile display name is **`Gabu's Non-existent inches`**, promoting the height dispute into identity metadata. Her About Me begins **`Mug's Husbando`** and includes an **`Emotional Support Collection`** full of object-like labels: Pebble, Apple, Empress, Pond, Tree, Jewel, Pie, Pizza Dough, Pillow, Fire.
 
