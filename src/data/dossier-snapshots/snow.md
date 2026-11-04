@@ -166,6 +166,13 @@ claims:
       - label: "Backroom Pass 22 · receipts-pass-22.md · 766861274872545300 / 766861682391252992 / 766861777865932812 / 766862398890967050 / 766862463697420308"
         href: "/channels/wall"
     note: "Snow's triggering remark is unrecovered; Kuki is kept as written without an identity bridge. MAIN already carries the narrative version."
+  - text: "On August 27, 2020, Ansun roasted Snow's meme taste as `parent's facebook humour and stock images`; Snow answered `FINE`."
+    evidence: "archive-confirmed"
+    date: "2020-08-27"
+    sources:
+      - label: "Wall · Ansun/Snow meme-taste exchange · 748575587022536726 / 748575666202476615 / 748575770275741727"
+        href: "/channels/wall"
+    note: "The exact meme image is not safely identified. This predates a later explicit old-man joke but does not establish its origin."
 antiFanon:
   - "Snow is not a generic Staff card in the corrected roster; Pit Boss takes primary placement."
   - "Snow was not Mugen's formal second-in-command. Current command canon places Snow at Pit Boss / Minister; Gabu and Anayss hold the Underboss / Deputy seats."
@@ -258,3 +265,9 @@ The older nickname exchange identifies Ana as Anayss. The original incident and 
 ## OCTOBER 2020 — SNOW VOLUNTEERS AS WALL EVIDENCE
 
 Snow told the Wall he had planned to give Sycee, Kuki, or Ana something worth posting. Anayss was so accustomed to his remarks that she had ignored this one; Sye complained she could not beat the others to the post. Snow then asked whether Ana's immunity or Ansun waiting in the wings was worse. Juicy Cookie settled the case with **both**. The actual remark that started the exchange is missing. Snow was both willing bait and an enthusiastic critic of his own press corps.
+
+## PETTY CRIMES — FACEBOOK DAD MEMES
+
+Before the room put Snow on trial for being approximately as old as civilization, Ansun had already reviewed his meme taste and found **`parent's facebook humour and stock images`**. Snow's entire defense was **`FINE`**. No elaborate rebuttal, no appeal to the Judgemen. Just a man accepting that his sense of humor had been assigned a parental generation against his will.
+
+That August 2020 roast belongs beside the later Old Man Snow jokes, not as their invented birthday. The particular image Ansun was judging is still unidentified. The exchange itself is plenty: Snow could draft twenty-four charges and still lose a three-message case about Facebook memes.
