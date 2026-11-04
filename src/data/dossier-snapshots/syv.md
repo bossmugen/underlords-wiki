@@ -68,11 +68,9 @@ tags:
   - "ricochet"
 ---
 
-## THE FILE DOES NOT GET TO BORROW SYE'S BOT CONSOLE
+## QUIET UNTIL THERE'S SOMETHING TO SAY
 
-Syv is a current VIP with Amaurot provenance in the living roster. The clean stable account is **`197521779177029632 / syveon`**. That matters more than it sounds because two old operations scenes had been filed under Syv solely on a bad identity join; both are actually Sye / Life / Syenitha on **`488099199938986004 / sycessences`**.
-
-So this page starts smaller on purpose. By October 2021, the stable account is speaking clearly enough to give us a person.
+Syv can go quiet in a crowded room and still remember exactly who has been missing, who made her feel welcome, and which friend will understand a joke before she finishes it. She's a current UL VIP with Amaurot provenance, and her particular talent is making a small answer carry a surprising amount of personality. Ren got the shy version of Syv talking; Ricochet got a blunt accounting of his weeks-long absence and an even blunter refusal to fund his ramen. Neither exchange needed a grand speech.
 
 ## A C. COUNTING THAT AS A PASS.
 
@@ -130,4 +128,4 @@ That scene is with **Ricochet / dragonrichard**, not Rich / DragonRich. Rich sti
 - Can notice somebody disappeared for weeks without turning the observation into a guilt trip.
 - Rejected a ramen request in five seconds on budgetary grounds.
 
-The current Syv file is still compact. Good. What survives cleanly is specific: when a situation is ugly, inconvenient, or ridiculous, Syv tends to decide what still counts and state the limit without dressing it up. A C can count as a pass if worse was expected and there is another test. Ricochet can return after weeks away without being interrogated. Ramen can fail procurement because the budget has spoken.
+Syv's answers have a knack for finding the usable part of a mess. A C counts as a pass when she expected worse and has another test ahead. An old friend can disappear for weeks, come back, and get teased rather than interrogated. And if he wants ramen, the budget gets the final word.
