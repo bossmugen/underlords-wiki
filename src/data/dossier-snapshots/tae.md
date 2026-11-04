@@ -40,6 +40,13 @@ claims:
     date: "2021-01-26"
     sources:
       - label: "🌈│simp-here · message 803795379278708736"
+  - text: "On February 24, 2022, Sota posted three Tae screenshots with a `Context:` explanation of her exaggerated baby-roleplay voice. Tae thanked him for including context, reacted with disgust when he said it was `for your dignity`, then refused his offer to remove the explanation."
+    evidence: "archive-confirmed"
+    date: "2022-02-24"
+    sources:
+      - label: "Backroom Pass 42 · Wall context exchange · messages 946594818614788096–946596349007257601"
+        href: "/gags"
+    note: "The three attached screenshots are uninspected. The roleplay age is not Tae's historical real age; no image content is asserted."
   - text: "On March 13, 2021, Ren wrote `Tae has become one of us`; twenty-nine seconds later Tae replied `I been in here`."
     evidence: "archive-confirmed"
     date: "2021-03-13"
@@ -174,3 +181,9 @@ Permanent Platelet is the stable role label. Tae's surviving progression is the 
 ## Too Much Tae for the Search Box
 
 Tae wondered aloud whether she had left an impression. Mugs was trying to search the old Discord material and said looking up `tae` crashed the search. Tae tried it too and came back with `I DID THE SAME THING AND IT CRASHED MY PC`. Nobody diagnosed either failure. The timing did the comedic work: Tae asked whether anyone would remember her, and two computers apparently refused to answer normally. The August 11 Wall post (`1536935166122008636`) is the source for the exchange, not a technical crash report.
+
+## The Context Stays
+
+On February 24, 2022, Sota filed three Tae screenshots under an actual `Context:` heading, explaining her deliberately ridiculous baby-roleplay voice. Tae answered `wow you added context im honored`. Sota said the footnote was `for your dignity ❤️`; she gave him a disgust reaction. Then he offered to take the context away, and Tae answered `no`.
+
+That last word is the whole episode. Tae was willing to insult the defense attorney, but she was not willing to lose the defense. The Wall could keep its screenshots; apparently it also had to keep the footnotes. The images themselves remain undescribed.
