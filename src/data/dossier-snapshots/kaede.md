@@ -105,28 +105,28 @@ tags:
 
 # Kaede
 
-Kaede, also known as **FuentesKaede**, is a current UL Sniper. His surviving record is unusually good at showing progression because the same in-game identity appears at two different moments: first as a name being filed into the house, then later as somebody the house already recognizes.
+Kaede is a Sniper who remembers the people behind the game. His most recognizable habit is taking other people's care seriously: thanking Daya for what the group brings out in him, telling Yelik that their friendship lives outside Raja too, and noticing the work Wolfie puts into making everyone feel included. The jokes still land. He is, after all, a man who eventually decided he could be proud of belonging to a stripper club.
 
-## 2021 — First surviving UL record
+## The name Ren remembered
 
-The earliest clean Kaede receipt is December 19, 2021. One message inside a pooled `Deleted User` export identifies itself as **FuentesKaede**, S16 Jormungandr, Reaper and Illusionist, UnderLords. Mugen replies directly to that message, assigns the role, and points him toward club rules, the Discord Tour, and Biodata.
+Kaede's December 2021 Lobby message identifies him as **FuentesKaede**, S16 Jormungandr, Reaper and Illusionist, UnderLords. Mugen handles the practical welcome: role assigned, club rules, Discord Tour, Biodata. That message sits inside a pooled deleted-account export, so the identification applies to the message, not to every post under the account.
 
-The account itself cannot safely be called Kaede because that deleted-user bucket contains multiple people. What matters for his biography is narrower: by late 2021, Kaede is already naming himself as UnderLords and being handled as somebody who belongs in the server.
+When the same in-game identity comes through Lobby again in January 2023 on another Discord account, Ren recognizes him before the form can do much work: **`kaede linda eres tuuuu?`** Then comes **`bienvenida de regreso kaede linda`**. Her Spanish welcome is not a new membership ceremony. It is what it sounds like: somebody recognizing somebody she is happy to see.
 
-## 2023 — Return and recognition
+## The friends who made the game bigger
 
-On January 19, 2023, a different Discord account arrives in Lobby using the same specific in-game identity. The software treats it like another intake. Ren does not. Two minutes after MEE6 opens the process, she asks **`kaede linda eres tuuuu?`** and later welcomes him with **`bienvenida de regreso kaede linda`**.
+At Christmas 2022, Kaede tells Daya that UL's affection makes him want to become a better person. He tells Yelik she is one of his best friendships **inside and outside the game**. It is an unusually direct way of saying that the relationship does not end at the login screen.
 
-That exchange changes the meaning of the second Lobby appearance. It is not useful as a second "joining" date; it is useful because it shows continuity. Kaede can return through a new account and still be recognized before the paperwork is finished.
+His gratitude toward WolfPhenix has an even longer history. In September 2020 he thanked her for helping make a place where friends became family; in January 2021 he said he was relieved and happy to have her there. In April 2021 he noticed how much attention she gave moderators and the server. He was still tagging her in the November 2025 anniversary celebrations. Those gestures make his reaction to her 2023 illustration less of a surprise.
 
-Christmas 2022 gives that recognition a quieter prequel. In a conversation where people directly call him **FUENTES** and **kaede**, he tells Daya that UL's affection makes him want to be a better person. He tells Yelik she is one of his best friendships **inside and outside the game**. It is a revealing distinction from someone who later has to introduce the same in-game name at the front door again: the friendship has already escaped the game, even while the Discord paperwork catches up.
+## A place in Wolfie's picture
 
-Two months later, that social continuity becomes much more explicit. On March 14, WolfPhenix posts UL's anniversary illustration in the Louvre. The room identifies the Officers and Snipers drawn into it, nineteen people in all, and Kaede is one of them.
+WolfPhenix's March 2023 anniversary illustration included nineteen UL people, Kaede among them. He studied the alley, LEDs, graffiti, tiny names, faces and poses. Then he explained the part that actually mattered: seeing himself with everyone else made him feel relieved, happy and loved. He thanked Wolf for putting him there.
 
-Five days later Kaede writes at length about the picture. He talks about the alley, LEDs, graffiti, names, faces, poses, and the tiny details that still hold up when he zooms in. The close attention is part art review, part proof that he has been sitting with the image long enough to understand what it means to him.
+Wolf answered with her own gratitude and a wish for more ridiculous memories together. Kaede, having already been extremely sincere, wondered aloud why UL was a stripper club and concluded that he was proud to be one if these were his people.
 
-The part he keeps returning to is not his own appearance. It is **being there with everyone else**. He says seeing himself included brought relief and happiness, reminded him that he had a family he loved and believed loved him too, and made him feel lucky. He thanks Wolfie for making a space for him among everyone.
+## Petty Crimes
 
-Then, because this is still UL, he also admits he has always wondered why UnderLords is a stripper club and concludes that if being a stripper means being in this company, he is proud to be one. Wolf answers with gratitude of her own and thanks him for being part of the family.
+Kaede can turn an art review into a love letter to the entire cast. He notices tiny visual details, remembers kindness years later, and apparently has no objection to the stripper-club branding once the membership benefits are explained.
 
-Kaede's surviving biography therefore moves cleanly from **identification**, to **recognition**, to **belonging**. In 2021 he is a name on an intake message. In January 2023 other people know that name before the system does. By March, he is explaining why seeing himself deliberately placed inside the group picture matters. That progression is more revealing than any invented personality label could be.
+The 2021 pooled deleted-account attribution, 2023 account change, role chronology and illustration ownership remain separately constrained in the claims and antiFanon metadata above.
