@@ -100,9 +100,13 @@ tags:
 
 **Deli and bakery.** Unsugar, salty, cheap, glazed, hamster, pork, and finally a self-nominated five-star loaf. A long-running inability to remain one food item.
 
-## Small facts
+## Petty Crimes
 
-Hami dislikes cheese; once joked that he forgot he could speak; likes the sound of beach waves; corrected a whale-shark-skin detail; and supplied a Ghost Leviathan from *Subnautica* in another answer.
+**Cheese Evacuation.** Hami doesn't like cheese, and his response came with enough disgust-and-exit emotes to make the departure part of the review.
+
+**Five-Star Loaf.** Asked what five-star dish he would be, he nominated himself as a loaf of bread. This is the same man the room kept trying to classify as ham, pork, or hamster. Apparently the bakery was his own idea.
+
+**Speech Optional.** Asked about his earliest memory, he admitted he sometimes forgets he can speak. He also likes the sound of waves on the beach, had a whale-shark skin fact ready when prompted, and named *Subnautica*'s Ghost Leviathan. The sea keeps turning up in his answers, though he never declared himself its spokesman.
 
 ## Sources
 
