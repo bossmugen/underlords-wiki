@@ -47,6 +47,12 @@ claims:
     sources:
       - label: "QOTD · 941758433173069875 / 1227668651012919346 / 1244109784236429364"
         href: "/channels/qotd"
+  - text: "On July 7, 2022, the Wall turned HamitteY into `hamcito`: Ansun accused Hami of burning kids in an obviously fictional joke, Noether answered `hamcito onfire` and `Im innocent , hamcito dont believe in me`, and Eos picked up `hamcito` in Spanish to deliver another mock-guilty verdict. The nickname spread across speakers in one exchange."
+    evidence: "archive-confirmed"
+    date: "2022-07-07"
+    sources:
+      - label: "Wall · 994781869201707119 / 994782107131969607 / 994782339211202633 / 994782475530272848 / 994782614244294717 / 994782662965342328"
+        href: "/channels/wall"
   - text: "The same Peepo exit-door GIF recurred in HamitteY's Wall posts on December 1, 2021, January 7, 2022 and February 3, 2022."
     evidence: "archive-confirmed"
     date: "2021-12-01 – 2022-02-03"
@@ -82,7 +88,7 @@ tags:
 
 ## Relationships
 
-**Anayss** helped turn the name into a recurring food-and-animal identity crisis. Her January 2022 Glazed Ham designation acquired an echo from Nemo, then evolved into the allegation that Hami was actually a hamster mistaken for pork. Hami's response was not a counterargument: he was more confused than before. **Noether** was another regular participant in the dessert and ham proceedings. **Moon** took the opposite side of a different trial, defending the appeal of beautiful 2D people after Hami reduced his spending to mere pixels.
+**Anayss** helped turn the name into a recurring food-and-animal identity crisis. Her January 2022 Glazed Ham designation acquired an echo from Nemo, then evolved into the allegation that Hami was actually a hamster mistaken for pork. Hami's response was not a counterargument: he was more confused than before. **Noether** was another regular participant in the dessert and ham proceedings. When Noether upgraded Hami to **hamcito**, Eos immediately picked up the name in Spanish and found him guilty of a crime nobody had committed. Apparently even the prosecution was multilingual. **Moon** took the opposite side of a different trial, defending the appeal of beautiful 2D people after Hami reduced his spending to mere pixels.
 
 **Baby Lyssa** could accuse him of friendship betrayal after he resurfaced an old screenshot, and he could answer with a hearted refusal to apologize before welcoming her back. That is an affectionate joke exchange, not literal treachery.
 
@@ -90,7 +96,7 @@ tags:
 
 **The glazed-ham hearing (January 7–9, 2022).** Anayss labels, Nemo repeats, Hami reacts, Anayss revises the species, and Hami is left wondering what he even is. A whole little court case in five messages.
 
-**The pixels defense (May 9, 2024).** Hami calls it spending money on pixels; Moon insists the pixels contain beautiful 2D men and women. One witness is self-deprecating, the other refuses to let the art go undefended.
+**The hamcito trial (July 7, 2022).** Ansun starts with a ridiculous charge about burning children, Noether supplies `hamcito onfire`, then pleads innocence on hamcito’s behalf. Eos takes the newly minted name into Spanish and declares hamcito not innocent. Hami gets a new name and a criminal record in the same conversation; neither is an actual allegation.\n\n**The pixels defense (May 9, 2024).** Hami calls it spending money on pixels; Moon insists the pixels contain beautiful 2D men and women. One witness is self-deprecating, the other refuses to let the art go undefended.
 
 **Flowers, no fuss (March 12, 2021).** After answering the Lobby paperwork as Wichita of Underlords in January, Hami also turned up in the Flowers Photoshoot round. A small but useful addition to the early-member picture: he was not only around for the jokes and the Wall. He showed up for the pretty-picture department too.
 
@@ -98,7 +104,7 @@ tags:
 
 **Exit-door Peepo.** Three surviving Wall dates reuse the same walk-out GIF. One February use arrives right after Noether tries to supply context for somebody wanting to eat Hami. Sometimes the explanation is the cue to leave.
 
-**Deli and bakery.** Unsugar, salty, cheap, glazed, hamster, pork, and finally a self-nominated five-star loaf. A long-running inability to remain one food item.
+**Deli and bakery.** Unsugar, salty, cheap, glazed, hamster, pork, hamcito, and finally a self-nominated five-star loaf. A long-running inability to remain one food item.
 
 ## Petty Crimes
 
