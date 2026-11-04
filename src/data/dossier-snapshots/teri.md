@@ -26,6 +26,11 @@ claims:
     sources:
       - label: "QOTD · 1339238853969707019, 1339440625522708490, 1371114521736773766, 1374375587422015529, 1375825216521109536, 1379087247361441792"
         href: "/channels/qotd"
+  - text: "During the Sword Art Online bestie scramble, the Bouncer interrupted with a level-up congratulations and Teri answered `Shut it bot`; the anime conversation still needed redirecting to Whiskey."
+    evidence: "archive-confirmed"
+    sources:
+      - label: "QOTD · Teri bestie sequence, site-candidates-2026-09-06-0810.md"
+        href: "/channels/qotd"
   - text: "Teri repeatedly returned to Sword Art Online, proposed inventing or funding a real-world NerveGear, and told a school-project story about a mistyped Portuguese monkey search."
     evidence: "archive-confirmed"
     sources:
@@ -53,13 +58,13 @@ Teri wanted to understand music all the way down: instruments, reading, theory, 
 
 Moon is Teri's **bestest bestie**. The title comes with teasing and corrections, but the two also thanked one another for showing up when life felt difficult. Moon's playful sister language belongs to that friendship, not a family tree.
 
-A guilty-pleasure *Sword Art Online* answer produced a much faster friendship with Nemo. They found common ground, Teri looked up *Integral Factor*, Moon asserted her prior bestie claim, and the anime discussion eventually needed redirecting to Whiskey. One question had apparently been enough to hijack the room.
+A guilty-pleasure *Sword Art Online* answer produced a much faster friendship with Nemo. They found common ground, Teri looked up *Integral Factor*, Moon asserted her prior bestie claim, and the anime discussion eventually needed redirecting to Whiskey. One question had apparently been enough to hijack the room. Even the Bouncer tried to interrupt with a level-up congratulations. Teri told the bot **`Shut it bot`** and went right back to the human problem of who was whose bestie.
 
 ## Questions she gave back
 
 Teri was also a Barista question author. Eight stored cards carry her username **kinzokumissu**; she delighted in the eccentric answers to one of her own questions. Later prompts invited original characters, backstories, and alternate universes. She helped supply the questions, not administer the bot.
 
-## Running gags and small facts
+## Running Gags and Petty Crimes
 
 *Sword Art Online* was the guilty pleasure she confessed to, rewatched, and somehow wanted to finance into reality through NerveGear. She also remembered a Portuguese *macaco* search typo from a school animal project that went spectacularly wrong. Her euphemism for the results is best left unrecreated.
 
