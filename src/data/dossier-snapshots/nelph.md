@@ -99,38 +99,32 @@ tags:
 
 # Nelph
 
-Nelph is filed in the current roster as a retired full Officer. The archive does not give a complete appointment/departure chronology, but it does preserve a useful three-stage biography: visible operational work in 2021, an intervening social bridge in 2023, and familiar reunion recognition in 2026.
+Nelph could turn a four-minute event warning into a minor public emergency. A retired full Officer, she was the person yelling **`PLACE YOUR BETS!`** before the clock ran out, then returning with the actual settings path when somebody needed to secure an account. The ridiculous wording never stopped the instructions from being useful.
 
-## THE FRONT DOOR, THEN THE COUNTDOWN
+## Roles and progression
 
-In December 2020, Nelph answered the Lobby welcome as **`Nelphie, Underlords, S-9`**. The old intake is a small self-introduction, not a proven first day or a promotion record. By October 2021, she was already warning Staff that **`Win or Lose`** was starting at Luxury Cruise in four minutes. That is the useful bridge: an ordinary name at the door becomes a familiar voice telling the room where to go before the clock runs out.
+**December 2020 — Lobby:** She introduced herself as **`Nelphie, Underlords, S-9`**. Gilli handled the welcome and room access.
 
-Across November and December, Nelph repeatedly posts game notices that are allergic to passive information. Dragon Breath is up, so **come to club base**. Later it is up again, so **`COME TO CLUB BASE TO SPANK SOME DRAGONS BOOTY`**. Star of Cassell is up, so **`PLACE YOUR BETS!`**. Voting is closing, so the room gets **`VOTING ENDS IN 6 MINS`**.
+**October 2021 — Officer onboarding:** Mugen welcomed Nelph and Sye into Officer work, handed over a room map and orientation, and made clear that the title recognized work already being done. Further access followed the responsibilities, not the other way around.
 
-The house language can be ridiculous, but the instruction remains visible inside it. Nelph does not merely say something happened; she routes the reader toward the next action.
+**November–December 2021 — The countdown voice:** `DRAGON BREATH IS UP!` became `COME TO CLUB BASE TO SPANK SOME DRAGONS BOOTY`. Star of Cassell needed bets; another vote had six minutes left. Nelph told people where to go and why they needed to move.
 
-**Episode index — Second Kahoot (July 15):** Sou’s results name Shinn, Nelphie, and Zyrcant as winners. Their order is not given. The quiz is one of UL’s recurring 2021 Kahoot rounds; Ren’s later spelling-code fiasco is a separate event.
+## Relationships
 
-November 22 gives the stronger version. She posts a scam warning, tells Staff not to click unfamiliar material before it loads, reminds them to enable 2FA, then comes back a few minutes later with the literal Discord path: **`profile > account > enable 2FA`**.
+**Sye:** When Mugen expanded their photoshoot and judging access, Sye said **`Nelph has done amazing`**. Nelph returned the compliment, heart included. Neither tried to keep the praise for herself.
 
-The archive is not independently adjudicating every technical claim in the warning, and the attached image remains unseen. The character evidence is the follow-through. Alarm becomes a usable step.
+**Mugen:** The Officer welcome came with expectations and a floor plan. At the 2026 reunion, Mugen's **`NELPHIE`** got **`HI MUGS!!`** and **`IM ALIVE`** right back. Apparently that was all the reintroduction required.
 
-## THE TITLE CAME WITH A FLOOR PLAN
+**LuCiel:** Even after leaving the game, LuCiel knew whom to ask for a Discord invite: **`asked @N E L P H for invite ez`** in June 2023. Nelph remained somebody an old member could reach.
 
-On October 5, 2021, Mugen welcomed Nelph and Sye into Officer work with an orientation packet, a map of the rooms, and a reminder that the title recognized work they were already doing. Access to more management rooms would come as they learned the first responsibilities. The promotion did not turn them into strangers wearing badges; it gave their existing labor a door and a key.
+## Episodes
 
-A month later, when Mugen expanded their photoshoot and judging access, Sye praised Nelph's work. Nelph immediately gave the praise back. The exchange is small, but it captures the way they handled shared responsibility: neither needed to win the compliment.
+**Second Kahoot, July 2021:** Sou named Nelphie, Shinn and Zyrcant among the three winners. No individual placements were given.
 
-## 2023 — THE OLD OPERATIONAL NAME IS STILL A PERSON PEOPLE CAN ASK
+**The 2FA follow-through, November 2021:** Nelph warned Staff about suspicious links and images, then came back minutes later with **`profile > account > enable 2FA`**. An alarm and the instructions to do something about it, in that order.
 
-In June 2023, LuCiel explains a return to Discord with **`i quit the game saw cute emotes and asked @N E L P H for invite ez`**.
+**Family reunion, August 2026:** `NELPHIE` / `HI MUGS!!` / `IM ALIVE`. No elaborate speech, just the old names at full volume.
 
-That does not make Nelph a formal Recruiter or tell us exactly who executed the invite permissions. It does matter for continuity. The 2021 operational file is not followed by a blank five-year disappearance. At least one person still knows Nelph as somebody they can contact to get back into the house.
+## Running Gags and Petty Crimes
 
-## 2026 — THE REUNION DOES NOT NEED REINTRODUCTION
-
-When Nelph appears in Whiskey during the 2026 reunion, Mugen greets **`NELPHIE`**. Nelph answers **`HI MUGS!!`** and **`IM ALIVE`**.
-
-That is enough. No lore recap, no formal introduction, no role explanation. The relationship resumes in the old register.
-
-The progression is modest but complete: in 2021 Nelph is visibly helping the room act; in 2023 she still functions as a social point of contact; in 2026 the house recognizes her instantly. Her retired-Officer status belongs on the file, but the biography is better when it shows the continuity instead of turning one set of announcement habits into a themed personality exhibit.
+Nelph's event reminders could sound like an emergency broadcast from a casino run by dragon-spanking idiots. She also knew how to make a plain security reminder genuinely useful. Both were very much the same person.
