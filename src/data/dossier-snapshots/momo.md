@@ -10,9 +10,12 @@ publication: "public"
 claims:
   - text: "Current canon places Momo on the Staff shelf and keeps Momo distinct from Mimi / Opalite Honey and from Mia. Export-time VIP/Fun Size role arrays do not establish appointment chronology."
     evidence: "canon-lock"
-  - text: "On December 9, 2020, Momo answers Lobby intake with `ign: Anansa/Fire Legacy Age: N/A`; Gilli clarifies that for age she can simply say minor or not minor."
+  - text: "On December 9, 2020, Momo’s edited Lobby intake reads `ign: Anansa/Fire Legacy Age: N/A`. Ren asked for the missing club and age fields just before the visible edit, then replied `Hehe gotchu`; Gilli clarified that age could be answered as minor or not minor. The original pre-edit wording is not preserved."
     evidence: "archive-confirmed"
     date: "2020-12-09"
+    sources:
+      - label: "🏮 Lobby · 2020-12-09 · Momo 786399917585203222 / Ren 786400001566834738 / Gilli 786400573082828812"
+        href: "/channels/lobby"
   - text: "Across 2022, 2023, and 2026 Lobby exports, Momo appears in named reaction arrays on other people's arrivals, including a 2026 intro where Moon and Momo share two reaction types. This is welcome attention, not a formal gatekeeping role."
     evidence: "archive-confirmed"
     date: "2022-06-06 – 2026-07-07"
@@ -69,7 +72,7 @@ tags:
 
 Momo is current **Staff**, and her best surviving scenes share one extremely useful comic mechanism: another person or system hands her a premise, Momo accepts it, and then she nudges it half a turn sideways until the original premise is less administratively useful than before. This is not the same as declaring her `random`. The movement is actually pretty consistent, and it starts at the front door.
 
-On December 9, 2020, the Stripclub Bouncer asks for the normal intake fields. Momo answers: **`ign: Anansa/Fire Legacy Age: N/A`**. She has not refused the form. She has filled in the age field. Unfortunately she has filled it in with `N/A`, which forces Gilli to clarify the ontology: for age, Momo can just say minor or not minor. The scene tells us nothing responsible about Momo's exact age. It does tell us that the first clean archival interaction already has the later rhythm — accept the box, make the box explain itself.
+On December 9, 2020, the Stripclub Bouncer asks for the normal intake fields. Momo’s edited answer reads **`ign: Anansa/Fire Legacy Age: N/A`**. Ren asks for the missing club and age fields just before that edit lands, then answers **`Hehe gotchu`**. Gilli follows with the practical compromise: for age, minor or not minor will do. The pre-edit wording is gone; the surviving exchange is already enough of a tiny front-door comedy. The scene tells us nothing responsible about Momo's exact age. It does tell us that the first clean archival interaction already has the later rhythm — accept the box, make the box explain itself.
 
 The Lobby later catches Momo on the other side of the door. In 2022 she appears in named reaction arrays on a newcomer's intake and MEE6 welcome. In 2023 she drops another welcome reaction. In July 2026 a fresh intro gets the same two named reactors, Moon and Momo, across two separate reaction types. This is a small continuity, not a promotion. The person who once made the intake form clarify itself is years later still visible when other people arrive, mostly through reaction noise rather than a formal job.
 
