@@ -13,7 +13,7 @@ roles:
   - "Game Officer"
 eraStart: 2020
 
-summary: "Snow's archive progression begins with early technical fixes and privacy-minded room design, moves into the August 2020 JAG / Club Conduct drafts where he formalizes limits on access and power, then shows him handing systems sideways when he no longer remembers them. Running through the serious work is the old-man bit the room eventually gets him to perform back, while later years preserve the same technical/security voice after Dragon Raja fades."
+summary: "Snow could write a privacy rule, fix the Discord machinery, and then try to escape the Wall of Shame by filing his own embarrassment before anybody else got there. He was the technical grown-up who admitted when he forgot the commands, the old man everyone teased into playing along, and the security guy still warning people about suspicious links years after Dragon Raja stopped being the point."
 
 summaryEvidence: "inferred"
 publication: "review"
@@ -244,6 +244,8 @@ The longer UL progression is more specific than a role ladder: early fixer → r
 Snow's January 6 Snowfyre business card did not remain a business card for long. He proposed turning Officers into collectible `pokeofficer` cards that members could catch and redeem for prizes. It is a proposal, not a documented launch or prize payout. As an episode, though, it captures the collision between his formal Officer world and his willingness to make that same world into a ridiculous little game. The original `snowcard.jpg` still needs visual inspection.
 
 ## THE BEST MATERIAL WAS ALLEGEDLY IN VOICE CHAT
+
+Snow had already tried a different loophole on October 30, 2020: **`you cant wall of shame me in the wall of shame room if I shamed myself first 😛`**. File the complaint against yourself and the prosecution has nothing left to do. He never explained what he was preemptively confessing to. Five days later, his next defense was to keep the premium nonsense in voice chat instead. Snow could help design a system and still spend his free time looking for ways to make it prosecute him less efficiently.
 
 Shiya wanted Snow to type his nonsense where it could be screenshotted. Snow's answer was to claim his best material stayed in VC, safely out of reach of the Wall's usual paperwork. Anthos immediately reduced the supposedly premium content to one activity: **monch**. Zoshaa then arrived to prosecute the double standard, because Snow had apparently found time to criticize her for eating **ONE(1) FREEZIE**. It is a wonderfully Snow-shaped contradiction: he knows exactly how the evidence machine works, jokes about evading it, and gets caught in a completely different charge anyway. The room was teasing him about what happened in voice chat; nobody was legislating what people could eat.
 
