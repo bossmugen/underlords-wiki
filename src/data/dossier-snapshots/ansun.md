@@ -200,132 +200,36 @@ tags:
 
 # Ansun
 
-Ansun is a current Caporegime / Secretary. That rank belongs to the present-day command chart; the archive does not hand us a safe appointment date, so the story starts somewhere more useful: the door.
+Current Caporegime, Secretary, occasional self-appointed landlord of the Wall of Shame/Fame. Ansun is very good at explaining where everyone needs to go and equally good at making himself the reason somebody needs to file a complaint.
 
-## MAY 2020 — ANSUN CHECKING IN
+## Roles: The guy who knows which door
 
-On May 4, `sou.san` / `颯太` posts **`Ansun checking in`** in Lobby. Mugen answers later that morning with **`Welcome! Role assigned, ty!`**.
+His early Lobby check-in as `sou.san` / `颯太` is gloriously economical: **`Ansun checking in`**; Mugen answers **`Welcome! Role assigned, ty!`**. The current command chart puts him at Caporegime, but his actual work is easier to recognize in the hallway. He welcomes Fujisae with **`you made it!`**, asks for a second, and gets on with intake. He routes newcomers through Tour, Whiskey, Biodata and FAQ; he explains that Officers Challenge belongs to multiple hosts and is open to members, not just whoever knows the secret handshake.
 
-Beautiful. A six-year character file begins with what amounts to clocking in at the Stripclub Bouncer.
+When side chatter takes over Slice, he sends it toward Whiskey but leaves the birthday wishes alone: **`Let the birthday wishes stay in here`**. He can enforce a boundary without treating the room like a courtroom. By October 2023 he's also the one starting a Game Night date poll. The glamorous side of leadership: getting people to pick a weekend.
 
-It is the clean surviving Discord intake scene, not a creation myth. The receipt dates his check-in and role assignment. It does not prove nobody in the wider UL orbit knew Ansun before May 4, and it definitely does not backdate his eventual Caporegime seat.
+## Relationships: Everyone is Anthos, unfortunately
 
-By August, however, the room is already talking about him like a known recurring hazard. Pride calls him **`the poster child of UL greatest hits`**. That is not rank. That is peer diagnosis.
+Ren thought Ansun sounded like Anthos. Snow found the voices confusing enough to suspect an account swap. Ansun's solution was not to clarify anything. It was **`we are one being`**, followed by **`anthun anthos ansun anthsous`**. Anthos answered with a *we are Groot* GIF. Two separate people, one completely unnecessary identity crisis.
 
-## SEPTEMBER 2020 — IDENTITY IS NOW A GROUP PROJECT
+Tumbleweed did not improve matters. Ren could call him **`Father`** and one of her **`BroBro’s`** within the same family-map conversation. Gilli and Ansun cheerfully agreed they had **`trust issues`**, and Gilli called a shared joking space **`Ansun and and my little office/home`**. Nobody needed to make the family chart literal for the relationships to have their own shorthand.
 
-The Anthos voice-twin disaster is still one of the cleanest early Ansun scenes because everybody contributes a different piece of the problem. Ren says Ansun has Anthos's voice and calls it **`wonderfull`**. Anayss says **`I was just listening to ansun`**. Snow admits the similarity was convincing enough that he thought somebody had gotten onto Ansun's account.
+There is a quieter kind of trust in the work. When Gilli was stuck without Wi-Fi during a snowstorm, Ansun offered to upload her share of posters. Ren later labeled example images **`Example Photos Credits to Ansun`**. Anayss, Gilli and Ren also joined the COLORS reference-image sequence he started before entries opened. He could be the loudest clown in the room and still help somebody else get their work in front of people.
 
-Ansun could have clarified.
+## Episodes: The art department has standards
 
-Ansun instead chooses administrative sabotage.
+Ansun helped set up COLORS by posting **`Example Photos`** and two attachments before the April 2021 opening. Later, he told people the art he posted in PR was made with Canva Free, and he was happy for them to save it or use it personally. Passing it off professionally as their own was another matter. He can joke that UL's polished image is **`Good looking but brain empty HAHAHA`** and still care very much who gets credit.
 
-**`we all are independent anthos`**
+WolfPhenix's STALKER entry arrived with the caption **`Ansun uwu`** and seven `fatlaugh` reactions. Ansun became part of the visual joke without anybody needing to invent who made, photographed or appeared in the attachment.
 
-**`which anthos are you`**
+## Running Gags: Open a case, seize the Wall
 
-**`we are one being`**
+On July 12, 2021, Ansun filed the immortal allegation **`Tae said "fuck" July 12 2021`** and then supplied a timestamp and mock charge for the Wall. Another member called it **`fruit on fruit crime`**. An ordinary swear word had become a prosecutable incident solely because Ansun owned a keyboard.
 
-By November he is still at it: **`anthun anthos ansun anthsous`**. Anthos answers with a *we are Groot* GIF. Nobody has repaired the registry.
+Later he moved from prosecutor to aspiring property owner: **`no shame all fame`**, **`this is MY wall`**. In his account of the arrangement, everybody else contributed shame while he somehow received all the fame. He was also quite capable of being the exhibit. A 2023 roast about air coming out of both ends collected eight skull reactions; the recipient isn't named in the preserved reply.
 
-The important brake is also the obvious one: Anthos and Ansun remain separate people. The joke works because they are separate people whose voices became enough of a room problem that the room started multiplying Anthos for sport.
+## Petty Crimes
 
-## SEPTEMBER 2020 — FAMILY TREE, PLEASE SEEK COUNSEL
+Ansun once typed **`the toot of al evil LOL`** and Ren immediately wanted to pin it. He helped organize a weekend poll after years of turning rooms into bits. He also knew when to say **`Give me a second`** instead of making somebody wait in silence. The same person who invents an entire Wall prosecution can remember that a newcomer just wants to know where to go.
 
-The same month Club Only is also building Tumbleweed, which means relationship language immediately becomes unusable in the most entertaining way possible.
-
-Ren calls Ansun **`Father`**. Later in the same family-map conversation, Ren calls Key and Ansun her **`BroBro’s`**. Anthos's pinned organization update gives Ansun a granddaughter, a lover, an heir/grandchild, another granddaughter, a simp, and partial residence inside Anthos's head depending on which branch of the chart you are currently losing a fight with.
-
-This is not biography-by-genealogy. It is UL making a family diagram until the diagram catches fire.
-
-A nearby Club-Only exchange gives Gilli and Ansun **`trust issues`**; Ansun agrees, **`yes yes we do`**. Gilli also tells the room to come see **`Ansun and and my little office/home`**. The archive safely gives the pair shared banter and house/room language. It does not give us literal cohabitation, romance, or a secret tax return.
-
-Then Ansun types **`the toot of al evil LOL`** and Ren immediately says she needs to pin it.
-
-Of course she does.
-
-## 2021 — THE FILE HAS AN AUTHOR, ACTUALLY
-
-This is where Ansun gets wonderfully contradictory.
-
-For jokes, identity can be liquid. Everybody can be Anthos. Tumbleweed can assign six relatives before lunch. The room can turn one typo into preserved law.
-
-For creative work, Ansun suddenly knows exactly where the border is.
-
-When Gilli is stuck in a snowstorm without Wi-Fi, Ansun says he will upload her share of the posters. Photo Submissions later introduces **`Example Photos Credits to Ansun`**. In Club Media Gallery he tells people the work he posted was made with Canva Free, so Pro is not required. He is also explicit that people can save his work, use it as wallpaper, or use it personally while not representing it professionally as their own.
-
-Identity is communal. Authorship is not. There is the character.
-
-He also refuses to let UL believe its own press release. One polished image is **`Good looking but brain empty HAHAHA`**. Another, less glamorous piece is more honest because **`the others a sham we aren’t that cool LMAOOOO`**.
-
-The man is contributing to the brand while heckling the brand from inside the design file.
-
-In April, Ansun also helped get COLORS ready before anybody could officially enter. He posted an `Example Photos` heading and two reference images on April 2; Anayss, Gilli, and Ren added more before submissions opened on April 5. This is Ansun at his most useful: the guy who can clown on the brand while quietly making sure everyone else knows what the assignment looks like. Posting the references is his contribution here; nobody has to pretend he personally photographed them.
-
-Photo Submissions catches another angle on June 24: WolfPhenix posts an attachment with the entire caption **`Ansun uwu`**. Seven people hit `fatlaugh`. The caption safely identifies Ansun as the referent. The image itself is not being described from a transcript pointer, and the wiki is not assigning photographer/editor/model credit by séance.
-
-## JULY 2021 — TAE SAID FUCK. OPEN A CASE.
-
-Ansun's Wall brain is already fully operational by July 12.
-
-He posts:
-
-> **`Tae said "fuck" July 12 2021`**
-
-Then:
-
-> **`directed at Ansun in an act of microaggression, framed upon the wall at 10:12PM PST`**
-
-Another member adds **`Also known ass fruit on fruit crime`**.
-
-That wording is Wall prosecution theater. It is not a real discrimination finding. The actual character beat is much simpler and much funnier: somebody swore at Ansun and he responded with a date, a timestamp, a charge, and a filing destination.
-
-The Wall did not require this level of documentation. Ansun brought it anyway.
-
-## 2022 — THE HALLWAY HAS SIGNS
-
-By 2022, Ansun is increasingly the person explaining how to use the house.
-
-Officers Challenge is open to anyone. Different Officers host different challenges. Pinned challenges stay open. If somebody asks how to participate, Ansun explains the mechanism instead of turning access into mystique.
-
-Lobby is the same motion with doors. Discord Tour is the server map. Whiskey is main chat. Biodata is where introductions go. If somebody cannot change a nickname, **`We can change it for you dw!`**.
-
-Slice catches the reflex in October when side chatter starts eating a birthday thread. Ansun points the general conversation back toward Whiskey, then immediately preserves the actual purpose of the room:
-
-> **`Let the birthday wishes stay in here`**
-
-Wrong room, bb. Birthday has diplomatic immunity.
-
-The recurring thing is not rule worship. It is reducing the amount of nonsense somebody has to solve before they can participate.
-
-## 2023 — WALL LANDLORD, APPARENTLY
-
-By spring 2023, Ansun has evolved from Wall prosecutor into Wall property developer.
-
-**`no shame all fame`**
-
-**`this is MY wall`**
-
-Then the constitutional theory: the rest of UL supplied the shame and somehow made the room fame **for him**.
-
-The room answers with clap and wheeze reactions because by now this is not a surprise argument. Ansun is simultaneously the person whose wording gets preserved, the person filing other people's crimes, the defendant inside other people's receipts, and the man trying to seize the positive half of the channel by adverse possession.
-
-Lobby is still running beside all this nonsense. On April 18, Fujisae appears and Ansun immediately goes **`Fujisaeee ... you made it!`**, then **`Give me a second`** before handling the next step. Recognition first. Paperwork second.
-
-A month later the Wall gets another Ansun line:
-
-> **`You breathed and I’m sure air came out of both ends`**
-
-Eight skulls.
-
-The recovered reply snippet does not safely identify who was on the receiving end, so the insult gets preserved without inventing a victim. Evidence discipline survives the fart joke. Barely.
-
-## OCTOBER 2023 — SOMEBODY STILL HAS TO PICK GAME NIGHT
-
-Carl-bot records Ansun / sou.san as the initiating user for a poll asking **`What Days for Game Night`**, with three weekend ranges.
-
-It is not a Party Director appointment. It is not proof he owned events. It is just another small piece of practical labor sitting next to years of much louder behavior: make the next thing easy to join, ask people what works, keep the room moving.
-
-That is the Ansun file at its best. The current Caporegime title matters, but the archive makes the person much stranger and more specific than the rank. He can explain the server map, cover somebody's poster shift, defend attribution, timestamp a swear word like criminal evidence, claim the municipal shame board as personal property, and then quietly run a weekend poll.
-
-A useful Officer. An avoidable amount of paperwork. A tremendous amount of evidence.
+The structured claims above preserve dates, credits and the difference between posting an image and making it. The character underneath them is the one who will explain the rules, help make the poster, roast the poster, and then demand that the Wall recognize his contribution to local fame.
