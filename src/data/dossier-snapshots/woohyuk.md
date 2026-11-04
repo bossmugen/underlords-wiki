@@ -95,6 +95,13 @@ claims:
       - label: "👅 Wall · 2021-07-02"
         href: "/channels/wall"
     note: "This is preserved as speech texture and a dated joke, not converted into a dietary preference or permanent anti-watermelon platform."
+  - text: "On June 25, 2021, Ren tagged Korea/Milk with `expose him pls` after Woohyuk's screenshot; on July 15 Korea/Milk's WALTZ caption said she went onto Woohyuk's account `just to change and force take photos`, presenting the pair as `Dark fairy dances with the Light~`."
+    evidence: "archive-confirmed"
+    date: "2021-06-25 → 2021-07-15"
+    sources:
+      - label: "Backroom Pass 23 · R23-02 / R23-04 · 858155661355122689 / 865351719114113045"
+        href: "/channels/wall"
+    note: "Account access and force are Korea's own caption language, not independently verified permission or mechanics. Image uninspected; no romance or visual-role inference."
 antiFanon:
   - "Woohyuk is VIP in the locked roster. Historical export-time role arrays are not appointment chronology and should not be used to invent a promotion path."
   - "The October 2020 lockout scene proves Mugen later said she removed the wrong tag. It does not reconstruct exact permissions, duration, or a formal disciplinary action."
@@ -193,6 +200,12 @@ Ren answers eleven seconds later:
 > `Money can’t buy my silence`
 
 That is the useful contradiction. Woohyuk is perfectly happy recognizing throwback-shame rules, supplying exhibits, timing somebody else's Wall speedrun, and producing receipts on request. When exposure points back at him, he does not leave the game. He changes roles inside it and starts negotiating with the witnesses. Screenshot Court has apparently discovered plea bargaining.
+
+### Episode — WALTZ: Grab a Partner, Apparently by Force
+
+The WALTZ instructions said to grab a partner. Korea/Milk took that as a production challenge. Her July 15 caption says she went onto Woohyuk's account `just to change and force take photos`, then presented the pair as `Dark fairy dances with the Light~`. Three weeks earlier, Ren had tagged Korea under one of Woohyuk's screenshots with the efficient request `expose him pls`. She knew whom to summon; Korea apparently knew how to get a photo out of him.
+
+The caption is Korea's account of the arrangement, not a permission audit or a romance announcement. The interesting part is how casually Woohyuk could be recruited into somebody else's bit.
 
 ### Relationship — Ren
 
