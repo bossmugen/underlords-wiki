@@ -99,6 +99,13 @@ claims:
       - label: "Slice of Life · 2025"
         href: "/channels/slice"
     note: "The `real person` language is peer joking around Anthos's long-running multiplication/universal-constant bit, not literal doubt about her identity."
+  - text: "On September 18, 2020, Sota proposed the ultimate Fight Club matchup: Anthos against herself. Anthos answered with a panic/trauma reaction GIF."
+    evidence: "archive-confirmed"
+    date: "2020-09-18"
+    sources:
+      - label: "Backroom Pass 3 · messages 756650337028276244, 756650372411687056, 756650632152088629"
+        href: "/archive/club-only"
+    note: "A hypothetical joke and reaction GIF, not an actual match or evidence of literal distress."
   - text: "Sota assigned Anthos bomb-defusal duty in a September 18, 2020 Keep Talking and Nobody Explodes session; Anthos answered `u rlly want me to defuse a bomb` and `so much trust uwu`. On October 24 a separate Defend Boss alert from Sota complained about Anthos and bombs; she replied `T_T`."
     evidence: "archive-confirmed"
     date: "2020-09-18 / 2020-10-24"
