@@ -23,6 +23,13 @@ claims:
   - text: "Later Wall scenes turn Ghoulie into a recurring comparison point and property joke: `this is my wall`, Ghostt says she lives there, Mugen asks for rent, Tae says she lives there rent-free, and Ren later says she is back to claim it."
     evidence: "archive-confirmed"
     date: "2021–2023"
+  - text: "On March 24, 2021, Gilli joked that Ghoulie had been in a fresh Wall predicament for less than an hour; Mugen answered eight seconds later, `LMFAO WE SHOULD HAVE A RECORD`. That evening Ghoulie proposed renaming the channel after herself, and Sota challenged her to outdo him. By April 22, Tae was telling Ghoulie she practically lived there."
+    evidence: "archive-confirmed"
+    date: "2021-03-24 – 2021-04-22"
+    sources:
+      - label: "Backroom Pass 41 · Wall record/tenancy prehistory · 824393327595880479 / 824393363838861332 / 824501922379595786 / 824502021343150101 / 834951061424832562 / 834952870038208574"
+        href: "/archive/wall"
+    note: "The 'less than an hour' referent is unresolved; do not convert it into time since joining or first Wall appearance. The adjacent attachment was not visually inspected."
 antiFanon:
   - "Ghoulie's joking claims to own Daycare or the Wall are social-territory language, not technical ownership, moderation permission, channel administration, or a formal role."
   - "The June 2 Daycare tag proves Baby Lyssa tried to redirect/summon xanthos there; it does not prove he complied or entered the room."
@@ -74,3 +81,9 @@ This sits neatly beside the better-known Wall property saga. Ghoulie eventually 
 The March 13 prehistory stays messier on purpose. Rooks posts an image the archive has not visually inspected. Mugen calls it **`Saturday morning at the UL strip club feat. @Baby Lyssa`**. Ghoulie does not reject the ridiculous workplace premise; she objects to procedure: **`y’all supposed to be bullying the customers not the stripper`**. Hours later ShiyaX is still asking whether she is joining. The contradiction is useful without being "fixed": the paperwork is socially fuzzy while Ghoulie is already fluent enough to file a labor grievance against an imaginary strip club.
 
 That is the recurring character move. Ghoulie does not need formal ownership to make a room feel claimed. She just starts behaving as if the lease is emotionally obvious.
+
+## Episode — The Wall tenancy application nobody approved
+
+On March 24, 2021, Gilli laughed that Ghoulie had been caught in fresh Wall nonsense for `less then an hour`. Eight seconds later Mugen was already demanding a record: **`LMFAO WE SHOULD HAVE A RECORD`**. Ghoulie spent the evening campaigning for a channel rename — **`At this point just name it Ghoulies wall of shame`** — and Sota offered competition: **`if you keep going you can outdo me Ghoulie`**.
+
+By April 22 Ghoulie was asking **`why am i always here`**. Tae answered like a neighbor who'd stopped pretending this was a visit: **`Girl its like you live here😟`**. The later ownership and rent jokes did not spring fully formed from nowhere. First the room proposed a record, then Ghoulie asked for naming rights, then everyone began treating her as a tenant. Nobody had measured a real speedrun, and nobody had handed her the keys. She was simply showing up often enough that the jokes started arriving before she did.
