@@ -28,6 +28,13 @@ claims:
     sources:
       - label: "👅 Wall · messages 878161405231120384 / 1092577410949595136"
     note: "Backroom pass 24. Attached triggering images not inspected; no visual description or subject attribution."
+  - text: "On 2023-01-01 DarkAsrai asked Rummy to spar as a check on how much combat they remembered; Rummy agreed and warned she would be 'very swuiShy'."
+    evidence: "archive-confirmed"
+    date: "2023-01-01"
+    sources:
+      - label: "Backroom Pass 39 · Club Only 1059054774500212746 / 1059054880221827112 / 1059055212129689640"
+        href: "/channels/club-only"
+    note: "Informal sparring invitation, not evidence of formal training or a hiatus."
 antiFanon:
   - "DarkAsrai is not identified with fictional Rose; no identity bridge is established."
   - "The sister is a real-life relationship described by DarkAsrai, not a claim about other UL characters."
@@ -57,6 +64,10 @@ At home, the cats were not remotely interested in agreeing on a personality. One
 ## Episodes · Wall forecast
 
 **August 19, 2021:** After a Wall post, DarkAsrai said `I had a feeling this would happen` (message `878161405231120384`). **April 3, 2023:** Another Wall appearance drew `I knew id get in here` (message `1092577410949595136`). The images are not inspected; this episode indexes the two replies, not the underlying pictures.
+
+## Episodes · New Year's combat check
+
+**January 1, 2023:** DarkAsrai asked Rummy to fight so they could check how much combat they remembered. Rummy agreed, warning she would be `very swuiShy`. The exchange establishes a willing sparring partner and an informal memory check, not a formal training program.
 
 ## Sources
 
