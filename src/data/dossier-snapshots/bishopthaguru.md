@@ -1,10 +1,18 @@
 ---
 name: "BishopThaGuru"
 aliases: []
-summary: "BishopThaGuru turned the 2021 Waltz Photoshoot into a tiny dance lesson with Tofu, and found the result cuter than expected."
+summary: "BishopThaGuru got a server map, admitted he gets lost easily, and became prime Wall of Shame material. Tofu could sentence him with one word; three weeks later he was teaching her to waltz and admitting it was unexpectedly cute."
 summaryEvidence: "archive-confirmed"
 publication: "public"
 claims:
+  - text: "On June 26, 2021, Mugen routed Bishop through the Discord server map; shortly afterward he said `I get lost easily`. The assigned doorway role is not identified."
+    evidence: "archive-confirmed"
+    date: "2021-06-26"
+    sources:
+      - label: "Lobby · 2021-06-26"
+        href: "/channels/lobby"
+      - label: "Whiskey · 2021-06-26"
+        href: "/channels/whiskey-room"
   - text: "In June 2021, Tofu called BishopThaGuru inevitable Wall of Shame material; he asked whether that was a compliment or warning, and she answered Both."
     evidence: "archive-confirmed"
     date: "2021-06-26 – 2021-06-27"
@@ -33,7 +41,9 @@ tags:
 
 ## Cast
 
-BishopThaGuru's July 2021 Waltz appearance has a little story built into the caption: teaching Tofu to dance turned out cuter than expected. Not a grand declaration, not a dance-floor rivalry. Just somebody arriving at a two-person Photoshoot prompt and deciding the lesson itself was the funny, sweet part.
+BishopThaGuru received a server map from Mugen and soon volunteered `I get lost easily`. It was an efficient introduction to a place where people could turn the smallest admission into a recurring bit. He did not hide from the joke; he helped keep it alive.
+
+By July, that willingness to play along had found a softer venue. His Waltz entry with Tofu was framed as a dance lesson that turned out cuter than expected. The surprise is half its charm.
 
 ## Relationships
 
@@ -43,12 +53,17 @@ BishopThaGuru's July 2021 Waltz appearance has a little story built into the cap
 
 | Date | Scene | Reference |
 | --- | --- | --- |
+| 2021-06-26 | Mugen hands Bishop the server map; he soon admits he gets lost easily | Lobby / Whiskey · 2021-06-26 |
 | 2021-06-26–27 | Tofu sentences Bishop to the Wall of Shame; his mock interrogation ends in her `Both.` | Backroom Pass 08 · `858524623900246037` / `858524758470295562` / `858904763193360384` / `858904854184460290` / `858904891875524608` |
 | 2021-07-19 | Waltz submission with Tofu; the unexpectedly cute dance lesson | Photo Submissions · `866931278216298516` |
 
 ## Running Gags
 
 The Wall of Shame was Tofu’s standing prediction for Bishop. His response was to play the accused, not deny that she might have a point.
+
+## Petty Crimes
+
+The server map did not cure the self-reported getting-lost problem. Tofu later made his `Ye?` during a routine age-check exchange into Wall material: the joke was the punctuation, not any actual uncertainty about his age. Bishop also advocated bringing back `heiroglyohics`, realized the word had escaped him, and elected not to rescue it.
 
 ## Gallery / media notes
 
