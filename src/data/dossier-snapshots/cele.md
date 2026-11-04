@@ -87,13 +87,13 @@ Her name has a similar lack of ceremony. `Celeana` was supposed to be `Celaena`,
 
 Woosung is Cele's real-life cousin and a major reason she ended up in Raja and UL. Cele's version of the invitation is that WOO wanted her in the same club so she would be easier to `booli`. That sounds like a threat until you hear the other half: WOO calls Cele someone she can rely on, someone who makes her feel capable and pushes her to be stronger. Asked who she'd spend ordinary time with, WOO keeps choosing Cele. Cele, for her part, answered a question about showing love with `booli wit lOoveee`. A whole family communication protocol in three misspelled words.
 
-Anthos gets an even less respectable family arrangement. Cele's running story is that Anthos adopted her, left her in Daycare to buy milk, and never came back. Anthos's response — `and there u shall stay ~` — hardly improves the parenting review. Cele stays because there are snacks. A year later she's still telling Anthos she loves them despite the milk-related desertion. It's a shared bit, not a literal family history, and the fact that they keep returning to it is the point.
+Anthos gets an even less respectable family arrangement. Cele's running story is that Anthos adopted her, left her in Daycare to buy milk, and never came back. Anthos's response — `and there u shall stay ~` — hardly improves the parenting review. Cele stays because there are snacks. By March 2023 the missing-milk parent was still getting love letters with a complaint attached: `I STIL LUV U EVEEN THO U DIRCHED ME AT DAYCWRE TO GO BUY MILK`. Anthos never had to come back from the shops for Cele to keep the joke alive. The snacks apparently bought another year of patience.
 
 ## The defendant becomes the entertainment
 
 Ren once compared Cele to Marie Kondo in a Wall joke about what sparks joy. That was Ren's joke. Cele's own contribution to Wall folklore is far more recognizable. In September 2022, after being exposed, she went from `GOODBYE` to `UR DONE` to `RLY BE EXPOSNING M LIKE THAT`, then surrendered the floor to a screaming-cat emote. Before long she was wheezing along with the room.
 
-In March 2023, Rich posted another image involving Cele and got `AKAKCKWFKWJ` back, followed by more keyboard wreckage and a parade of `Cute_catAHHHH` emotes. The images themselves aren't described here; her replies are plenty. Two different Wall incidents, one unmistakable response style: threaten the prosecution, lose the alphabet, remain at the party.
+In March 2023, Rich posted another image involving Cele and got `AKAKCKWFKWJ` back, followed by more keyboard wreckage and a parade of `Cute_catAHHHH` emotes. The actual pictures barely matter to the performance: threaten the prosecution, lose the alphabet, remain at the party.
 
 ## Petty Crimes
 
