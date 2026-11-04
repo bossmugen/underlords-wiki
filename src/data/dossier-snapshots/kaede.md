@@ -127,6 +127,4 @@ Wolf answered with her own gratitude and a wish for more ridiculous memories tog
 
 ## Petty Crimes
 
-Kaede can turn an art review into a love letter to the entire cast. He notices tiny visual details, remembers kindness years later, and apparently has no objection to the stripper-club branding once the membership benefits are explained.
-
-The 2021 pooled deleted-account attribution, 2023 account change, role chronology and illustration ownership remain separately constrained in the claims and antiFanon metadata above.
+Kaede can turn an art review into a love letter to the entire cast. He notices tiny visual details, remembers kindness years later, and ultimately embraces the stripper-club branding when it means standing with his people.
