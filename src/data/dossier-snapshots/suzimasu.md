@@ -55,6 +55,13 @@ claims:
     sources:
       - label: "Wall of Shame/Fame · 2021-07-02"
         href: "/channels/wall"
+  - text: "On September 17, 2021, Suzimasu posted `🐉 Festival of the Future 🧧` ten seconds before uploading his FESTIVAL Photoshoot entry from the same account."
+    evidence: "archive-confirmed"
+    date: "2021-09-17"
+    sources:
+      - label: "Photo Submissions · FESTIVAL · 2021-09-17"
+        href: "/events/photo-submissions"
+    note: "Same-author immediate adjacency, not a stored Discord Reply. POSTED BY Suzimasu; image creator, photographer, and featured subject not independently verified."
   - text: "Suzimasu is present in the surviving Underlords archive from the opening 2020 period."
     evidence: "archive-confirmed"
     date: "2020"
@@ -120,6 +127,12 @@ On July 2, Anayss posts `:OkButWhy:`. Suzimasu then writes **`I’m sorry @New A
 The missing parent context matters. The wiki cannot safely say what the emote did, what exactly Suzimasu was trying, or why Gilli deserved warning. But the surviving order is almost enough on its own: apology, action, delighted confession. He knows before he does the thing that Gilli may reasonably require an apology; this knowledge does not prevent the thing; afterward he is laughing too hard to pretend it was accidental.
 
 That is character evidence without requiring a made-up psychological profile. In this scene, Suzimasu is playful enough to commit to a bit, socially aware enough to warn the target, and delighted enough by the result to immediately admit intent. It also gives the 2021 file a warmer relational texture than the role chart ever could. Gilli and Anayss are not being used to manufacture a closeness ranking. They are simply the people present when Suzimasu decides an advance apology counts as adequate risk management.
+
+## SEPTEMBER 2021 — THE MAN BROUGHT HIS OWN TITLE CARD
+
+For FESTIVAL, Suzimasu did not simply upload a picture and leave it to fend for itself. He posted **`🐉 Festival of the Future 🧧`**, waited all of ten seconds, and dropped the image. The title and upload are separate messages, but the timing is unmistakably deliberate presentation. This is Mob getting theatrical on purpose: even his contest entry gets an introduction.
+
+The photo itself has no verified creator, photographer, or subject attribution here. The authored title is the part we can credit to him. It belongs beside his other habit of committing fully to the bit, whether that means garlic for the Geminis or opening credits for a photoshoot.
 
 ## LATER ROLE HISTORY — IMPORTANT, BUT NOT A SUBSTITUTE FOR THE PERSON
 
