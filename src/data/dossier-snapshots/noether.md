@@ -51,6 +51,13 @@ claims:
       - label: "QOTD · cooking prompts · 950795271183429633, 950795647487971379, 985577518998380594, 985577978199154729"
         href: "/channels/qotd"
     note: "Menu talk and recipe plans do not establish a professional cooking role or that every item was physically made."
+  - text: "On April 21, 2022, Noether answered QOTD with an attached completo italiano recipe image and followed it with `Completo ❤️`; she posted the image, but its original creator is not identified."
+    evidence: "archive-confirmed"
+    date: "2022-04-21"
+    sources:
+      - label: "QOTD · messages 966736782488121405 and 966736814729736222; attachment 966736782576193546"
+        href: "/channels/qotd"
+    note: "POSTED BY Noether; MADE BY and CAPTURED BY remain unknown. The image has not been independently visually described."
   - text: "On July 29, 2022, Slice records Anayss writing `Today I met @Noether! She baked a cake for me ❤️`; Noether replies `A date with ana`. This establishes an offline meetup and Anayss's direct statement about the cake, not romance or location."
     evidence: "archive-confirmed"
     date: "2022-07-29"
