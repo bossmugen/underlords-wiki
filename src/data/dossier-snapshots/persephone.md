@@ -20,13 +20,13 @@ claims:
     date: "2021-03-08"
     sources:
       - label: "Photo Submissions · 818477226198433834"
-        href: "/channels/photo-submissions"
+        href: "/events/photo-submissions"
   - text: "On September 16, 2021, Persephone posted a FESTIVAL Photoshoot image, then followed it seventeen seconds later with 'my submission ^^ sorry if it’s not perfect lol'."
     evidence: "archive-confirmed"
     date: "2021-09-16"
     sources:
       - label: "Photo Submissions · 888298487588990997, 888298560267886622"
-        href: "/channels/photo-submissions"
+        href: "/events/photo-submissions"
   - text: "On August 14, 2026, Mugen called Persephone home during the reunion; Persephone returned, confirmed she had eaten breakfast, and then admitted she was hungry again."
     evidence: "archive-confirmed"
     date: "2026-08-14"
