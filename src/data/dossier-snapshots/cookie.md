@@ -27,6 +27,13 @@ claims:
   - text: "On October 9, 2021, Cookie writes `LIES` and immediately follows it with `:PandaRun:` on the Wall, making the flight-as-defense bit recur across separate dates."
     evidence: "archive-confirmed"
     date: "2021-10-09"
+  - text: "In August–September 2024, homethey_ called Rummy `U STINK`; Cookie echoed `stinky rummy?`, and Tofu later asked Cookie whether he and Rummy had a `stink off`. The joke became a mock competition without an established winner."
+    evidence: "archive-confirmed"
+    date: "2024-08-14 – 2024-09-12"
+    sources:
+      - label: "Main HQ site-candidates · Wall messages 1273451792826372187, 1273452793931370547, 1273452859115180113, 1283840497617735792"
+        href: "/channels/wall"
+    note: "The September attachment 1283840497562947604 was not visually inspected; no claim about its contents or original trigger."
   - text: "On April 27, 2022, Cookie writes `Man leave the goats alone xD`, then eleven seconds later adds `unless we talking about Ganyu here`."
     evidence: "archive-confirmed"
     date: "2022-04-27"
@@ -81,6 +88,8 @@ By October the Wall has learned how to prosecute Cookie and Cookie has learned h
 Three days later the defense has become a procedure. Cookie appears with **`:PandaRun:`**, then **`its not how it looks like`**, then **`i swear`**. Tofu posts another screenshot attachment. Cookie answers with another **`:PandaRun:`** and **`so done`**. The next day: **`LIES`**, immediately followed by **`:PandaRun:`**.
 
 That repetition across separate dates is why the panda matters. It is not one emote pasted after one awkward joke. The Wall presents an exhibit; Cookie disputes the exhibit; the panda leaves the scene. Then Cookie comes back later and the court reconvenes because apparently fleeing in place is legally valid in UL.
+
+The same Tofu who had been presenting Cookie with screenshots later found him in a different courtroom entirely. In August 2024, homethey_ announced `rummy U STINK`; Cookie picked up `stinky rummy?` a few minutes later. By September, Tofu was asking Cookie whether he and Rummy had a `stink off`. An insult had acquired competitors and an imaginary sporting category. Nobody needed to establish who smelled like what. Cookie had gone from defendant to possible contestant without even leaving the group chat.
 
 The important contradiction is that **escape never becomes departure**. Cookie is still there the next day to yell `LIES`, still there in later Wall scenes, and still visible in 2022. The emote performs retreat while the person remains socially reachable for the next allegation. That is a better character read than calling him scandalous or chaotic.
 
