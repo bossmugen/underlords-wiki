@@ -221,6 +221,14 @@ tags:
   - "house"
   - "preservation"
   - "archive"
+  - text: "On January 14–15, 2021, Mugen asked Ansun to help her understand the Dragon Raja Phantom class, admitted she usually relied on auto-play, and kept trying to follow his explanations. Ansun later joked to WolfPhenix that teaching her felt like explaining rainbow colors and mathematics to a child."
+    evidence: "archive-confirmed"
+    date: "2021-01-14 – 2021-01-15"
+    sources:
+      - label: "Backroom Pass 1 · Phantom tutoring"
+        href: "/channels/club-only"
+    note: "Backroom site-candidates.md; message IDs 799351580167766064, 799576366256226311, 799578319946252288, 799579695254601778, 799697262925840385. Mugen's request for help is not evidence of general game incompetence; Ansun's comparison is his own joke."
+
 ---
 
 # Mugen
@@ -336,6 +344,10 @@ UL learned the more useful version anyway.
 Boss is asleep. Continue the emergency.
 
 ## Control freak, not oracle
+
+In January 2021, that willingness to ask for help had a particularly humiliating classroom: **Phantom**. Mugen could coordinate a club but still admitted she was mostly auto-playing the class and could not make the mechanics click. Ansun kept explaining; she kept trying. When he later described the experience to WolfPhenix, it had become a lesson in rainbows and arithmetic. She was comfortable enough to be the confused student, and he was comfortable enough to tease the Boss about it afterward.
+
+
 
 Mugen likes systems.
 
