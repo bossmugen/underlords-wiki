@@ -96,7 +96,9 @@ tags:
 
 **The glazed-ham hearing (January 7–9, 2022).** Anayss labels, Nemo repeats, Hami reacts, Anayss revises the species, and Hami is left wondering what he even is. A whole little court case in five messages.
 
-**The hamcito trial (July 7, 2022).** Ansun starts with a ridiculous charge about burning children, Noether supplies `hamcito onfire`, then pleads innocence on hamcito’s behalf. Eos takes the newly minted name into Spanish and declares hamcito not innocent. Hami gets a new name and a criminal record in the same conversation; neither is an actual allegation.\n\n**The pixels defense (May 9, 2024).** Hami calls it spending money on pixels; Moon insists the pixels contain beautiful 2D men and women. One witness is self-deprecating, the other refuses to let the art go undefended.
+**The hamcito trial (July 7, 2022).** Ansun starts with a ridiculous charge about burning children, Noether supplies `hamcito onfire`, then pleads innocence on hamcito’s behalf. Eos takes the newly minted name into Spanish and declares hamcito not innocent. Hami gets a new name and a criminal record in the same conversation; neither is an actual allegation.
+
+**The pixels defense (May 9, 2024).** Hami calls it spending money on pixels; Moon insists the pixels contain beautiful 2D men and women. One witness is self-deprecating, the other refuses to let the art go undefended.
 
 **Flowers, no fuss (March 12, 2021).** After answering the Lobby paperwork as Wichita of Underlords in January, Hami also turned up in the Flowers Photoshoot round. A small but useful addition to the early-member picture: he was not only around for the jokes and the Wall. He showed up for the pretty-picture department too.
 
