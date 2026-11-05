@@ -53,6 +53,13 @@ claims:
     sources:
       - label: "📣 Announcements · 2021-02-01"
     note: "This proves Woohyuk was the information path into the Staff warning. It does not validate the chain message's technical claims, prove Woohyuk authored it, or assign Gilli's public uncertainty language to Woohyuk."
+  - text: "A 2026 Wall throwback preserves a 2021 exchange where Key asked Woohyuk to step on her, and the two escalated the absurd hypothetical into a car, reversing, skidding, and tire donuts before Key asked that Mugs not be told; Woohyuk warned she would likely find out."
+    evidence: "archive-confirmed"
+    date: "2021 (original exchange; exact day unknown) / 2026-08-11 (Wall repost)"
+    sources:
+      - label: "August Reunion · Wall repost 1536936223891922995"
+        href: "/channels/wall"
+    note: "Reconstructed from WolfPhenix's 2026 throwback screenshots. Original capture date/channel and screenshot maker are unresolved. Purely comic hypothetical; not actual violence, sexual conduct, or a relationship classification."
   - text: "On March 13, 2021, Woohyuk asked `are we doing throwback shames`; nine seconds later he posted an attachment to the Wall."
     evidence: "archive-confirmed"
     date: "2021-03-13"
@@ -117,6 +124,8 @@ antiFanon:
   - "Repeated Wall participation does not create a formal archivist, prosecutor, curator, moderator, or Wall office for Woohyuk."
   - "The watermelon sequence is a joke. Counsel declines to infer nutrition doctrine."
 relatedPeople:
+  - "Key"
+  - "WolfPhenix"
   - "tofu"
   - "lilly"
   - "tae"
@@ -200,6 +209,12 @@ Ren answers eleven seconds later:
 > `Money can’t buy my silence`
 
 That is the useful contradiction. Woohyuk is perfectly happy recognizing throwback-shame rules, supplying exhibits, timing somebody else's Wall speedrun, and producing receipts on request. When exposure points back at him, he does not leave the game. He changes roles inside it and starts negotiating with the witnesses. Screenshot Court has apparently discovered plea bargaining.
+
+### Episode — Key Requests Vehicular Improvements
+
+A 2026 Wall throwback returned a 2021 conversation in which Key asked Woohyuk to step on her. He offered a car instead. Key requested reverse; Woohyuk supplied skidding; the proposed tire work somehow kept getting more elaborate. Then Key remembered the real danger and asked him not to tell Mugs. Woohyuk was already pointing out that Mugs would probably find out.
+
+It's an efficient little demonstration of their shared comic timing: Key keeps changing the specifications, Woohyuk keeps accepting the ridiculous brief, and the first genuine concern is not the imaginary car but the future screenshot. WolfPhenix's repost ensured the last part aged terribly. The exact original date and screenshot capturer remain unknown; no car actually ran anybody over.
 
 ### Episode — WALTZ: Grab a Partner, Apparently by Force
 
