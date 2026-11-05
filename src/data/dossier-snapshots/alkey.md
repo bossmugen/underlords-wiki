@@ -50,15 +50,21 @@ claims:
   - text: "On June 3, 2022, Alkey re-enters the Lobby with `hi alkey here`; he and Mugen perform a mock first meeting — `hi im alkey, nice to meet you`, `Nice to meet you to sir`, `have you heard of dragon raja?`, `I have NAWT`. This is old-member re-entry theater, not evidence that they first met in 2022."
     evidence: "archive-confirmed"
     date: "2022-06-03"
-  - text: "On February 2021, Alkey (also displayed as Meowk 💖✨) posted an attachment in the Lonely Photoshoot round. This is a participation record, not an image-credit or depicted-person identification."
+  - text: "Alkey and Meowk are separate public people. The February 2021 Lonely Photoshoot attachment filed under the Meowk account is not an Alkey participation receipt."
     evidence: "archive-confirmed"
-    date: "2021-02"
     sources:
-      - label: "Photo Submissions · 812805687142907924"
-        href: "/events/photo-submissions"
+      - label: "Core Rooms / Events stable-account identity reconciliation · Run 843"
+    note: "Meowk stable account 264889543365230614; do not bridge distinct accounts from nickname similarity."
+  - text: "On August 14, 2026, Alkey said he worked at an airport and had slept inside a curtained baggage cart during late-flight downtime, using a passenger duffel bag as a pillow; Mugen answered `Free pillow`."
+    evidence: "archive-confirmed"
+    date: "2026-08-14"
+    sources:
+      - label: "August Reunion Run 17 · Whiskey · 1537960010808828024 / 1538013105781481532 / 1538013175063253034 / 1538013215844208650"
+        href: "/channels/whiskey-room"
+    note: "Alkey self-reported the incident. No airport, employer, passenger, or location is identified; it is one episode, not a recurring work habit."
 antiFanon:
   - "Alkey is not Key / Captain Chihuahua."
-  - "Meowk 💖✨ is Alkey, not a separate character."
+  - "Meowk is a separate stable-account person, not an Alkey alias. Do not transfer Meowk’s Lonely Photoshoot entry or Wall episodes to Alkey."
   - "Canada and hockey coaching are user-confirmed background; the 2021 hockey-official line is a separate self-report and should not be collapsed into one invented employment timeline."
   - "Do not promote Alkey to Officer from the August 2020 `officer alkey` joke. Current canon places him on Staff."
   - "`gay alkey`, `Sexy Alkey`, `horni alkey`, `peasant alkey`, and similar room-generated variants are temporary scene labels, not standalone identity or sexuality claims."
@@ -110,6 +116,12 @@ Then comes the **Horny Death Sentence**, which is exactly as stupid as it sounds
 October and November are where the machinery gets industrial. Nobu and Alkey become a recurring Wall meme economy. Alkey asks for a **`trade post so nobo can see`**, accepts terms, says **`i sent the terms over`**, and generally behaves like a broker in a market whose commodity is somebody else's ability to witness a joke. A GIF produces Mugen's **`The alkey twins`** and Alkey's delighted **`HAHAHAHAHAH`**. Elsewhere Alkey yells **`NOBU SRNADER ME ALREADY`**. Halloween produces **`Nobu as Alkey`**. A later teasing image spins into Mugen's **`Justice alkey!!!!!`** and another member's **`Justice for Alkey`**. By November Mugen can deploy an **`:alkey:`** emote and Alkey's answer is simply a thumbs-up.
 
 That run is useful because it shows Alkey occupying several sides of the same joke. He is target, negotiator, plaintiff, reaction audience, and brand asset. The room keeps converting him into a meme object, but he is not passive inside the process. He negotiates the bit, objects to the bit, laughs at the bit, and eventually acknowledges a literal Alkey emote like this is a completely normal endpoint for a human identity.
+
+## THE BAG-CART NAP — AUGUST 2026
+
+Alkey had a very practical solution to waiting out late flights at the airport where he worked: climb into a baggage cart, shut the curtains, and sleep. The improvised pillow was a random passenger duffel bag. When he explained the arrangement in the reunion Whiskey room, Mugs supplied the entire workplace review in two words: **`Free pillow`**.
+
+The contrast is painfully Alkey. The hockey man who can perform intimidation for the room is also the man turning airport equipment into a nap station, then telling everybody exactly how he did it. This was one self-reported shift, not an established daily routine; no employer or airport is named.
 
 ## 2021 — HOCKEY IS NOT A ONE-LINE BIO FACT
 
