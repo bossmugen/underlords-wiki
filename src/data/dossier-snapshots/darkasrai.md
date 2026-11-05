@@ -65,6 +65,10 @@ At home, the cats were not remotely interested in agreeing on a personality. One
 
 **August 19, 2021:** After a Wall post, DarkAsrai said `I had a feeling this would happen` (message `878161405231120384`). **April 3, 2023:** Another Wall appearance drew `I knew id get in here` (message `1092577410949595136`). The images are not inspected; this episode indexes the two replies, not the underlying pictures.
 
+## Episodes · Aizzy at the ferris wheel
+
+**August 17, 2021:** DarkAsrai submitted a WALTZ Photoshoot entry captioned `Posing with @Aizzy on the ferris wheel` (Backroom Pass 24; attachment `1629108787753-12cd3d53deb26557.png`). The submission received ten `4415_SakuraHeartEyes` reactions among its response trail. This is a shared, named event appearance; the uninspected image does not establish who made or captured it, nor any romance between the participants.
+
 ## Episodes · New Year's combat check
 
 **January 1, 2023:** DarkAsrai asked Rummy to fight so they could check how much combat they remembered. Rummy agreed, warning she would be `very swuiShy`. The exchange establishes a willing sparring partner and an informal memory check, not a formal training program.
