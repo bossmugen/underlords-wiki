@@ -26,6 +26,13 @@ claims:
       - label: "🏮 Lobby · 2021-05-20"
         href: "/channels/lobby"
     note: "The historical age field is intentionally omitted from the public character read. The intake string also contains `council`; this page does not infer a formal UL role or current club status from that word alone."
+  - text: "On May 10, 2022, Rummy floated a Shame Ranking Award and nominated Panda or Tae. Ren argued Ansun deserved historical first-shame honors; Panda immediately demanded a better denominator: total offenses or speed of becoming Wall-worthy relative to joining. Rich declared the shame war begun later in the same session."
+    evidence: "archive-confirmed"
+    date: "2022-05-10"
+    sources:
+      - label: "👅 Wall · Shame Ranking debate"
+        href: "/archive/wall"
+    note: "Backroom Pass 36 receipts 973669323992346624, 973669463058681896, 973670119530188800, 973670794263674910, 973676124162895912. Informal joke debate, not a formal contest or verified award. Original image attachments uninspected."
   - text: "On May 24, 2021, Eos tagged Marian Kage with `You asked for it` while posting two images and Panda answered `FUCK`. Two days later Panda wrote that he would shame himself if that was what it took to get Eos onto the Wall; Eos answered `im gonna strangle you`."
     evidence: "archive-confirmed"
     date: "2021-05-24 – 2021-05-26"
@@ -143,3 +150,7 @@ That is the kind of person-page receipt UL needs more of. Not `Panda is confiden
 ## Petty Crimes
 
 **The Desk Exception.** Panda calls himself very organized, then immediately exempts his desk: **“that is a hot mess.”** The dragon collection gets names, meanings, and concepts; the desk gets diplomatic immunity. QOTD `1196862272459505767`.
+
+## THE SHAME LEAGUE NEEDS A DENOMINATOR
+
+Rummy proposed a Shame Ranking Award in May 2022 and promptly put Panda or Tae in contention. Ren wanted Ansun credited for historical precedence. Panda's objection wasn't that his name belonged nowhere near the top. It was that the scoring was garbage: **`you gotta do it by most or how quickly relative to joining`**. Raw shame totals versus shame per unit of tenure. Rich declared **`The shame war has begun🤣`** before anybody had settled the math. No official leaderboard survives, but Panda had already found the flaw in its methodology.
