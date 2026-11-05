@@ -41,6 +41,12 @@ claims:
     sources:
       - label: "Whiskey Room · April 2021"
         href: "/channels/whiskey-room"
+  - text: "On July 7, 2022, Eos picked up Noether's 'hamcito' nickname for HamitteY during a Wall mock-prosecution, replying in Spanish that hamcito was not innocent."
+    evidence: "archive-confirmed"
+    date: "2022-07-07"
+    sources:
+      - label: "Wall · 994781869201707119, 994782107131969607, 994782339211202633, 994782475530272848, 994782614244294717, 994782662965342328"
+        href: "/channels/wall"
 antiFanon:
   - "EnyoCal and Eos are bridged by the stable account; do not infer a separate admission or rejoin date."
   - "The May 2021 corpse exchange is not proof of the origin or uninterrupted use of the 2026 reanimation joke."
@@ -50,6 +56,8 @@ relatedPeople:
   - "Gilli"
   - "Marian Kage"
   - "Mugen"
+  - "Noether"
+  - "HamitteY"
 tags:
   - "wall"
   - "daycare"
@@ -78,12 +86,15 @@ Eos was not especially interested in making a grand entrance. The Lobby saw the 
 | 2021-05-02 | Eos's dead-corpse complaint becomes Mugs's pretty-corpses toast |
 | 2021-05–2022-02 | Marian's Wall-shame campaign, Eos's counter-posts, and the shared joke |
 | 2022-04-18 | Eos names Gilli as their reason for joining UL |
+| 2022-07-07 | Eos joins Noether’s hamcito mock-prosecution on the Wall |
 
 ## Running Gags
 
 **Too vanilla for Screenshot Court.** Marian's accusation did not stop Eos from producing receipts or getting caught in return.
 
 **Corpse on duty.** Eos was exhausted, Mugs was toasting the pretty corpses, and Eos was still available for the taking. The 2026 reunion's resurrection language has an older cousin here, not a proven continuous chain.
+
+**Hamcito, convicted by committee.** Noether turned HamitteY into *hamcito* in a July 2022 Wall exchange. Eos needed approximately no persuasion to adopt the new name, replying in Spanish that hamcito was not innocent. The room was inventing crimes and Eos was already helping prosecute. The joke works because Eos does not need to own the bit to make it worse; somebody else starts it, Eos catches the rhythm, and suddenly the defendant has acquired another accuser. This is the Wall being ridiculous, not a real allegation.
 
 ## Petty Crimes
 
