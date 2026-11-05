@@ -66,11 +66,4 @@ A crash course is not going to cut it. DiStratus wants the details, the steps th
 
 Before the moss-green duvet crisis, Torr had already found a more questionable shelter. On the Wall in May 2023 came `table kun fine`, followed by `i'm inside table kun where it's nice and warm`. Four people answered with `SasukeStare`. Nobody in that exchange stopped to explain Table-kun. Torr sounded entirely comfortable in there.
 
-
-The bed had moss-green covers and a grey weighted blanket, but still needed a duvet. A perfectly respectable domestic crisis. Then there is `finding peoples pet peeves XD`, volunteered with the confidence of somebody who knows exactly how to be annoying. The original question is missing, so the joke can keep its mystery.
-
-## Sources
-
-Backroom Pass 43: `site-candidates-pass-43.md` and `receipts-pass-43.md` in `archive-intake/chat-2026-08-24-backroom-batch-miner/` on `archive-miner/backroom-deals-2026-08-24`, message `1113019535117787166`.
-
-QOTD handoff: `archive-intake/qotd-complete-2020-2026/site-candidates-2026-09-06-1112.md` on `archive-miner-qotd-officers-20260824`. Exact message IDs and dates remain in the structured claims above.
+The bed had moss-green covers and a grey weighted blanket, but still needed a duvet. A perfectly respectable domestic crisis. Then there is `finding peoples pet peeves XD`, volunteered with the confidence of somebody who knows exactly how to be annoying.
