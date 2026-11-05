@@ -94,6 +94,7 @@ tags:
   - "announcements"
   - "operational-pings"
   - "kahoot"
+  - "akariel"
   - "security-guidance"
 ---
 
@@ -119,7 +120,7 @@ Nelph could turn a four-minute event warning into a minor public emergency. A re
 
 ## Episodes
 
-**Second Kahoot, July 2021:** Sou named Nelphie, Shinn and Zyrcant among the three winners. No individual placements were given.
+**Second Kahoot, July 2021:** Sou named Nelphie, Shinn and Zyrcant among the three winners. No individual placements were given. Zyrcant was Akariel™'s Dragon Raja name, supplied by Akariel at the Lobby door in January 2021; the same person later appeared in Yoza's WALTZ caption.
 
 **The 2FA follow-through, November 2021:** Nelph warned Staff about suspicious links and images, then came back minutes later with **`profile > account > enable 2FA`**. An alarm and the instructions to do something about it, in that order.
 
