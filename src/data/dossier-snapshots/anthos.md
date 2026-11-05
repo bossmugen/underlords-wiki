@@ -166,6 +166,14 @@ The joke does not replace the work. Through 2021 Anthos keeps carrying recurring
 
 That combination is the useful character progression. Anthos becomes more mythologized because she is around, not instead of being around.
 
+## Bee Movie: six-day delayed consequences
+
+On September 18, 2020, Mugen and Sota started buzzing about *Bee Movie*. Anthos responded by dropping an enormous script transcript into Club Only. Sota was still `im reading` minutes later, followed by `asmr?`—a question, not proof that anybody performed the script aloud. Six days later Sota complained that something would have been fine without the `antenaee`. Anthos immediately remembered the old reading assignment: `who would of thought u reading the bee movie would turn u into one`.
+
+That is Anthos's callback timing in miniature. She could commit far too hard to a stupid premise, then retrieve it nearly a week later at precisely the moment it would make Sota's complaint worse. The visual trigger for the antenna complaint remains uninspected; the joke works without inventing a bee costume or transformation.
+
+**Receipts:** Backroom `site-candidates-pass-29.md` / `receipts-pass-29.md`; Club Only `756637649938153505`, `756639925373239378`, `756639945078210611`, `758717478691274804`, `758717489743396904`.
+
 ## 2025 — THE CALLBACK STILL WORKS
 
 Years later, Anthos turns up in Slice with two rescued kittens, Tai and Emi. The room immediately revives the old joke that she has finally supplied proof she is a real person.
