@@ -53,6 +53,13 @@ claims:
     sources:
       - label: "Wall · 994781869201707119 / 994782107131969607 / 994782339211202633 / 994782475530272848 / 994782614244294717 / 994782662965342328"
         href: "/channels/wall"
+  - text: "On February 3, 2022 Noether accused HamitteY of hoarding desserts; he insisted he had none, and the two traded 'listen women' / 'Listen man' demands. Noether later posted that she made strawberry ice cream because he had not shared."
+    evidence: "archive-confirmed"
+    date: "2022-02-03"
+    sources:
+      - label: "Backroom Pass 34 · Wall · 938868331367243806, 938869367184191508, 938869817266548786, 938870689862135849, 938875022259388476"
+        href: "/channels/wall"
+    note: "Noether's caption is the source for the ice cream; attached photograph uninspected. No claim about how long preparation took."
   - text: "The same Peepo exit-door GIF recurred in HamitteY's Wall posts on December 1, 2021, January 7, 2022 and February 3, 2022."
     evidence: "archive-confirmed"
     date: "2021-12-01 – 2022-02-03"
@@ -103,6 +110,8 @@ tags:
 **Flowers, no fuss (March 12, 2021).** After answering the Lobby paperwork as Wichita of Underlords in January, Hami also turned up in the Flowers Photoshoot round. A small but useful addition to the early-member picture: he was not only around for the jokes and the Wall. He showed up for the pretty-picture department too.
 
 ## Running Gags
+
+**The dessert shortage (February 2022).** Noether accused Hami of keeping every dessert for himself. He maintained he had no desserts to share, even after she called him a liar. His `listen women` was met with her `Listen man share desserte`, a perfectly symmetrical argument in which neither party was about to concede the last word. Noether eventually posted that she had made strawberry ice cream since Hami refused to share. Hami answered with an emote. By July, Anayss was thanking the two of them for supplying so much Wall material; the bickering had become its own recurring attraction.
 
 **Exit-door Peepo.** Three surviving Wall dates reuse the same walk-out GIF. One February use arrives right after Noether tries to supply context for somebody wanting to eat Hami. Sometimes the explanation is the cue to leave.
 
