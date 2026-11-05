@@ -56,7 +56,7 @@ Teri wanted to understand music all the way down: instruments, reading, theory, 
 
 ## Relationships
 
-Moon is Teri's **bestest bestie**. The title comes with teasing and corrections, but the two also thanked one another for showing up when life felt difficult. Moon's playful sister language belongs to that friendship, not a family tree.
+Moon calls herself Teri's sister *and* bestie; Teri answers with **bestest bestie**, while generously announcing that there is room for more. The title is funny until the fifth-anniversary check-in makes clear what the two actually do for each other. Teri says Moon has been beside her through everything. Moon thanks Teri for making time when she feels defeated or alone. Teri's reply is just **`You as well moony ❤️❤️`**. They can scold each other about sleep and complain about difficult questions without needing to explain the affection underneath. The sister language is theirs, not a literal family tree.
 
 A guilty-pleasure *Sword Art Online* answer produced a much faster friendship with Nemo. They found common ground, Teri looked up *Integral Factor*, Moon asserted her prior bestie claim, and the anime discussion eventually needed redirecting to Whiskey. One question had apparently been enough to hijack the room. Even the Bouncer tried to interrupt with a level-up congratulations. Teri told the bot **`Shut it bot`** and went right back to the human problem of who was whose bestie.
 
@@ -68,6 +68,3 @@ Teri was also a Barista question author. Eight stored cards carry her username *
 
 *Sword Art Online* was the guilty pleasure she confessed to, rewatched, and somehow wanted to finance into reality through NerveGear. She also remembered a Portuguese *macaco* search typo from a school animal project that went spectacularly wrong. Her euphemism for the results is best left unrecreated.
 
-## Sources
-
-QOTD miner handoff: `archive-intake/qotd-complete-2020-2026/site-candidates-2026-09-06-0810.md` on `archive-miner-qotd-officers-20260824`. Receipts are indexed in the claims above.
