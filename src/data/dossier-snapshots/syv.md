@@ -9,6 +9,13 @@ summary: "Current UL VIP with Amaurot provenance: practical enough to count a ba
 summaryEvidence: "user-confirmed"
 publication: "public"
 claims:
+  - text: "Syv posted a captionless BEACH Photoshoot entry on June 5, 2021, then returned for SCARY on October 19 with the final exported caption `-Sometimes the darkness takes over-`. The SCARY post carries eleven cuteknife reactions; its caption was edited sixteen seconds after posting."
+    evidence: "archive-confirmed"
+    date: "2021-06-05 → 2021-10-19"
+    sources:
+      - label: "Photo Submissions · 850889189578768415, 900109479109095494"
+        href: "/events/photo-submissions"
+    note: "Backroom site-candidates-pass-45.md and receipts-pass-45.md. POSTED BY Syv only; media uninspected. Reactions cannot be attributed specifically to the final edited caption; no winner claim."
   - text: "Syv is a current UL VIP; the locked living roster carries Amaurot as her title/provenance."
     evidence: "user-confirmed"
     sources:
@@ -67,6 +74,10 @@ tags:
   - "rich"
   - "ricochet"
 ---
+
+## The photo, then the caption
+
+In June 2021 Syv entered BEACH without a caption. October's SCARY submission came with `-Sometimes the darkness takes over-`, a little line that sounds much more theatrical than her usual clipped Wall replies. The message was edited sixteen seconds after posting, and eleven cuteknife reactions accumulated on the entry. What the picture showed is still unknown; the contrast between saying nothing in June and choosing those words in October belongs to Syv, without pretending to know what the reactions were for.
 
 ## QUIET UNTIL THERE'S SOMETHING TO SAY
 
