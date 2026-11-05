@@ -27,7 +27,7 @@ claims:
         href: "/channels/lobby"
       - label: "🧱 Wall recovered export"
         href: "/channels/wall"
-  - text: "On April 24, 2021, Mugen welcomed Aeshleen in Lobby as `aesh van gogb` and pointed her to the server map; about a minute later Mugen welcomed her to the Wall of Shame and Aeshleen answered `im leaving bye`. Later Woohyuk called it a record and Aeshleen reacted 😩."
+  - text: "On April 24, 2021, Aeshleen introduced herself as a Council/S9 friend of Mugen and HamitteY. Mugen greeted her `aesh van gogb`, pointed her toward the server map, and 61 seconds later posted `Welcome to the Underlords wall of shame, GOGB` with an attachment. Aeshleen replied `im leaving bye`; Mugen laughed seven seconds later. Woohyuk later called the sprint a record. The next day Aeshleen herself explained, `that's why mugen calls me aesh van gogb`, confirming the nickname was a shared joke, not just a typo."
     evidence: "archive-confirmed"
     date: "2021-04-24"
     sources:
@@ -35,7 +35,7 @@ claims:
         href: "/channels/lobby"
       - label: "🧱 Wall · 2021-04-24"
         href: "/channels/wall"
-    note: "Mugen's Wall post includes an attachment that was not visually inspected. Woohyuk's `less than hour` wording is preserved as peer characterization rather than treated as audited timing. `aesh van gogb` is a period greeting/nickname artifact, not promoted into a canonical alias."
+    note: "Backroom Pass 37 receipts: Lobby `835473435022983239`, `835473570783428638`; Wall `835473825474805770`, `835473960783183872`, `835473989060263936`, `835799818898112512`. The Wall attachment was not visually inspected; no claim is made about its contents. The nickname's precise origin remains unknown and it is not promoted to a permanent alias. Woohyuk's record wording is peer characterization."
   - text: "On April 28, 2021, Aeshleen directly wrote `making jokes is my way to cope.` Anthos answered `eli pat @aεsh¡!`."
     evidence: "archive-confirmed"
     date: "2021-04-28"
