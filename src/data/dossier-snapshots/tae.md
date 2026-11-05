@@ -11,6 +11,13 @@ summary: "Tae is the permanent Platelet who can ask Anthos to explain algebra, d
 summaryEvidence: "archive-confirmed"
 publication: "public"
 claims:
+  - text: "On July 19, 2021, Ren introduced a Wall post as 'Best pick up lines provided by ma bestie tae'; Tae immediately dared her to post everything, and Ren answered that she would post something better."
+    evidence: "archive-confirmed"
+    date: "2021-07-19"
+    sources:
+      - label: "Backroom Pass 35 · Wall · messages 866784597924904995, 866784631663099914, 866784675677732864"
+        href: "/channels/wall"
+    note: "Ren explicitly called Tae bestie. The actual pickup lines and any attachment content are not reconstructed; the exchange is a playful publication dare, not a literal romance claim."
   - text: "Tae is a permanent Platelet in the Mugs-confirmed living roster."
     evidence: "user-confirmed"
     sources:
@@ -187,3 +194,7 @@ Tae wondered aloud whether she had left an impression. Mugs was trying to search
 On February 24, 2022, Sota filed three Tae screenshots under an actual `Context:` heading, explaining her deliberately ridiculous baby-roleplay voice. Tae answered `wow you added context im honored`. Sota said the footnote was `for your dignity ❤️`; she gave him a disgust reaction. Then he offered to take the context away, and Tae answered `no`.
 
 That last word is the whole episode. Tae was willing to insult the defense attorney, but she was not willing to lose the defense. The Wall could keep its screenshots; apparently it also had to keep the footnotes. The images themselves remain undescribed.
+
+## The Bestie Who Dared the Archivist
+
+Ren called Tae her bestie while introducing a Wall exhibit of Tae's pickup lines. Tae's answer was not damage control: `POST ALL IT YOU WONT`. Ren promised to post something better. Eight seconds was apparently all Tae needed to turn an attempted exposure into a challenge. Neither was arguing over whether the other could keep the material; they were competing over how spectacularly it should be exhibited. The actual lines are still offstage, and the friendship is loud enough without them.
