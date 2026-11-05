@@ -226,7 +226,6 @@ tags:
     date: "2021-01-14 – 2021-01-15"
     sources:
       - label: "Backroom Pass 1 · Phantom tutoring"
-        href: "/channels/club-only"
     note: "Backroom site-candidates.md; message IDs 799351580167766064, 799576366256226311, 799578319946252288, 799579695254601778, 799697262925840385. Mugen's request for help is not evidence of general game incompetence; Ansun's comparison is his own joke."
 
 ---
