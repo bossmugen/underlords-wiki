@@ -9,6 +9,13 @@ summary: "Oyasumi's archive starts with him meeting UL's intake machinery in 202
 summaryEvidence: "archive-confirmed"
 publication: "public"
 claims:
+  - text: "An older Oyasumi screenshot resurfaced on the Wall on August 11, 2026: Oyasumi said `Stfu I'm typing`; Mugen answered four visible minutes later, `aww true luv`."
+    evidence: "archive-confirmed"
+    date: "2026-08-11 (repost; original exchange undated)"
+    sources:
+      - label: "Wall · Mugen repost 1536968281473294357"
+        href: "/channels/wall"
+    note: "Mugen posted the resurfaced screenshot; original capture, maker, date, and channel remain unresolved. The affection is a joking reading of Oyasumi's bluntness, not a literal romance claim."
   - text: "Oyasumi is a confirmed Consigliere / Senior Advisor in the command roster."
     evidence: "user-confirmed"
     sources:
@@ -138,6 +145,12 @@ What is specific is the order he keeps putting around it. **`Yay you made it`** 
 That makes the chronology do actual work. The man whose clean Lobby file begins with **`Boy what the hell boy`** in response to the bot has not become the bot. He has become one of the humans standing beside it, adding a directed welcome before the inherited script starts.
 
 The Wall language sticks too. In December he writes **`Caught my boy in 4k`**, another easy sign that Screenshot Jail is now native vocabulary rather than an unfamiliar institution.
+
+## STFU, TRANSLATED BY MUGS
+
+One old screenshot made it back to the Wall during the 2026 reunion. Oyasumi's contribution was **`Stfu I'm typing`**. Four visible minutes later Mugs had translated the whole thing into **`aww true luv`**. She didn't need him to soften the sentence to hear affection in it. That is a better glimpse of their shared comic language than any solemn claim that everybody got along: he was rude on purpose, and she made the rudeness part of the joke.
+
+The original screenshot's date and capturer are still unknown. The reunion repost belongs to Mugs; the words belong to the people who said them.
 
 ## 2026 — THE HOUSE STILL RECOGNIZES HIM WELL ENOUGH TO REJECT NORMALCY
 
