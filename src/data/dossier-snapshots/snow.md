@@ -92,6 +92,13 @@ claims:
       - label: "Club Only + Wall recovered exports"
         href: "/lore/old-man-snow"
     note: "The conflicting age numbers are peer joking and counter-joking. They do not establish Snow's real age or birthday."
+  - text: "The OLD MAN SNOW running joke expanded from 2020 birthday and MySpace Grandpa teasing through 2022 misplacing-things / forgotten-IGN jokes to 2026 ancient, dinosaur, Mesozoic and Babylonian-tablet jokes; Snow also joined in with whippersnapper and Methuselah lines."
+    evidence: "archive-confirmed"
+    date: "2020–2026"
+    sources:
+      - label: "August Reunion checkpoint · OLD MAN SNOW genealogy; Club Only / Wall / 2026 reunion cross-index"
+        href: "/lore/old-man-snow"
+    note: "These are escalating peer jokes, not literal age or memory-loss diagnoses; specific joke origins remain unproven."
   - text: "On August 27, 2020, Ansun mocked Snow's meme taste as `parent\'s facebook humour and stock images`, then doubled down on the Facebook comparison. Snow answered `FINE`."
     evidence: "archive-confirmed"
     date: "2020-08-27"
@@ -232,7 +239,9 @@ That is a useful correction to the mythology competence can create around techni
 
 The serious governance work runs parallel to one of UL's dumbest durable bits. In September 2020, Ansun calls him **`our beloved old man Snow`** and proposes a **`happy 50th birthday`**. Shiki answers **`I thought snow was 26`**. Gabu later calls him old man; Sye disputes the charge.
 
-By 2022 Snow is participating in the prosecution himself: get-off-my-lawn material, **`Whipper snapper origin 1700`**, Methuselah. The room has successfully converted an allegation about him into a register he can perform back.
+The prosecution kept changing its charge sheet. Rooks stranded Grandpa on **MySpace**, supposedly unable to operate modern apps; Snow answered **`shush`**. Cookie weighed in on whether he *sounded* old with **`he is old man`** and a snoring-grandpa GIF. Rich later accused Grandpa of **`misplacing things again`**, and by November 2022 even Snow's own in-game names were apparently escaping his memory. The joke had moved from birthday arithmetic to obsolete technology and the everyday indignities of forgetting things.
+
+Snow was not merely enduring it. He supplied get-off-my-lawn material, **`Whipper snapper origin 1700`**, and Methuselah himself. By the 2026 reunion, the room had graduated from Grandpa to **ancient**, **dinosaur**, **Mesozoic buddy**, and **Babylonian tablets**. A fake fiftieth birthday had become an archaeological dig. The best part is that Snow could still answer a technical question in the middle of being treated like somebody who personally witnessed the invention of writing.
 
 Snow is user-confirmed as older than much of the core group, Cantonese, formerly U.S. Air Force, and a cybersecurity professional working with hospital electronic medical record systems. Those real-world facts help explain why technical/privacy topics recur, but they do not get to swallow the biography.
 
