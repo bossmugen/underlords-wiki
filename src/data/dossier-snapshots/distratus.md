@@ -6,6 +6,12 @@ summary: "DiStratus finds calm in thunderstorms, uses music to move through feel
 summaryEvidence: "archive-confirmed"
 publication: "public"
 claims:
+  - text: "On May 30, 2023, Torr announced 'table kun fine' and 'i'm inside table kun where it's nice and warm' on the Wall; four people reacted with SasukeStare. Table-kun's physical identity remains unknown."
+    evidence: "archive-confirmed"
+    date: "2023-05-30"
+    sources:
+      - label: "Wall · 1113019535117787166"
+        href: "/locations"
   - text: "On March 1, 2024, DiStratus described thunderstorms as exciting and peaceful because the surrounding world gets drowned out."
     evidence: "archive-confirmed"
     date: "2024-03-01"
@@ -58,8 +64,13 @@ A crash course is not going to cut it. DiStratus wants the details, the steps th
 
 ## Petty Crimes
 
+Before the moss-green duvet crisis, Torr had already found a more questionable shelter. On the Wall in May 2023 came `table kun fine`, followed by `i'm inside table kun where it's nice and warm`. Four people answered with `SasukeStare`. Nobody in that exchange stopped to explain Table-kun. Torr sounded entirely comfortable in there.
+
+
 The bed had moss-green covers and a grey weighted blanket, but still needed a duvet. A perfectly respectable domestic crisis. Then there is `finding peoples pet peeves XD`, volunteered with the confidence of somebody who knows exactly how to be annoying. The original question is missing, so the joke can keep its mystery.
 
 ## Sources
+
+Backroom Pass 43: `site-candidates-pass-43.md` and `receipts-pass-43.md` in `archive-intake/chat-2026-08-24-backroom-batch-miner/` on `archive-miner/backroom-deals-2026-08-24`, message `1113019535117787166`.
 
 QOTD handoff: `archive-intake/qotd-complete-2020-2026/site-candidates-2026-09-06-1112.md` on `archive-miner-qotd-officers-20260824`. Exact message IDs and dates remain in the structured claims above.
