@@ -146,6 +146,13 @@ claims:
       - label: "🥃 Whiskey 2023 H1 recovered screenshot corpus"
         href: "/channels/whiskey-room"
     note: "The recurrence establishes a visible nickname/relationship-tagging practice. It does not by itself resolve every display name to a stable person or prove the labels describe literal kinship, romance, or closeness rank."
+  - text: "On January 26, 2022, DyingFox asked Gilli to adopt them. Gilli replied to the request with an eating GIF, said `Done`, and sent a hug. Two days later DyingFox chose Gilli as their fictional Pokémon trainer because she would give food and affection; in February they thanked Gilli and Souta for `feeding me once a week`."
+    evidence: "archive-confirmed"
+    date: "2022-01-26 – 2022-02-12"
+    sources:
+      - label: "QOTD · DyingFox and Gilli adoption/food callbacks"
+        href: "/events/qotd"
+    note: "QOTD intake site-candidates-2026-09-06-1343.md; IDs 935933609825693706, 935935961953611816, 935935995990401024, 936635900157394955, 942081233570136164. Fictional adoption and trainer language are not literal kinship or authority; weekly feeding is affectionate language, not independently verified meal delivery."
 antiFanon:
   - "Photo Submissions rules enforcement and onboarding are archive-observable behavior, not evidence of separate unconfirmed job titles."
   - "Near-identical mature Lobby safety-packet wording appears under multiple members. Gilli delivering it proves onboarding work; it does not prove the wording, policy, or template was uniquely hers."
@@ -203,6 +210,8 @@ Before Colors even opened in April, she was among the people posting example ima
 Her care language runs alongside the procedure. She points Gabu's own hydration identity back at her—**`DRINK WATER AND EAT SOMETHING`**, later **`I DONT CARE IF IT'S LATE, DRINK WATER !`**—and December QOTD prompts arrive paired with reminders to eat and smile. One of those caring introductions immediately led into a choice between permanently tangled hair and permanently wet underarms. Apparently the same woman could check whether everybody had eaten and then make them contemplate a lifetime of damp armpits. On New Year's Day 2022, Gilli's own goal is surprisingly small: **`I plan to try to make at least one more friend.`**
 
 The camera roll keeps participating too. In July she resurfaces from her photos with **`found this gem`** and posts an old screenshot to the Wall. The image stays undescribed; the recurring habit is enough. Gilli stores old material accidentally and retrieves it socially.
+
+In January 2022, DyingFox asked Gilli, **`adopt me?`** Gilli answered the request with an eating GIF, **`Done`**, and a hug. Two days later DyingFox nominated Gilli as their Pokémon trainer for the eminently practical reason that she would supply food and affection. By February, Gilli and Souta had made the thank-you list for feeding DyingFox. The adoption was a bit; the person DyingFox kept choosing was not.
 
 ## YOU'RE STILL AN UNDERLORD
 
