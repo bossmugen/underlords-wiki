@@ -58,6 +58,13 @@ claims:
       - label: "📬 Photo Submissions · inspected 2021 Nhou sequence"
         href: "/events/photo-submissions"
     note: "The completed Photo Submissions intake manually inspected all six Nhou entries. Exact Discord message IDs: New Year `797101365020983296`; February I `808178746934034482`; Lonely `812921630560092200`; Colors `831006218775953438`; Mafia `835627771832565770`; Waltz `865393424504717323`. `POSTED BY Nhou` does not automatically establish MADE BY, CAPTURED BY, or FEATURING. The Mafia post's heavy reaction activity is room-response evidence, not a contest result."
+  - text: "Nhou’s January 8, 2021 New Year Photoshoot post quoted Dory’s `Just keep swimming!`, ended `Happy New Year :>`, and drew seventeen `cat10` reactions."
+    evidence: "archive-confirmed"
+    date: "2021-01-08"
+    sources:
+      - label: "Photo Submissions · New Year · 797101365020983296"
+        href: "/events/photo-submissions"
+    note: "Backroom site-candidates-pass-44.md and receipts-pass-44.md; the caption and reactions are text-confirmed, the media-maker/featured-subject attribution is not."
   - text: "Nhou’s own stable account is among the users who reacted with 💩 to his stark Lonely Photoshoot entry; reaction timing and intent are not preserved."
     evidence: "archive-confirmed"
     date: "2021-02-18"
@@ -101,6 +108,10 @@ tags:
 ---
 
 Nhou could drop one medical-sounding line into a room and have Mugen immediately send him home, then turn around and help make coffee enemas sound like a café menu. His smaller messages were often the ones that sent everyone else off the rails: Mugen recognizes the clinical shorthand immediately, the same conversation converts coffee enemas into `latte or frapp`, and the 2021 camera refuses to settle into one answer across six different prompts. He might type one line in chat, but he never seemed to settle for one visual answer.
+
+## New Year: swimming before the snow
+
+The January 8 entry gives Nhou a more earnest opening than the Lonely poop joke alone. He quotes Dory, wishes everyone a happy new year, and seventeen `cat10` reactions follow. The subsequent icy emptiness and his own 💩 reaction belong to the same participant; neither cancels the other. The attached New Year image is not described here from the caption alone.
 
 ## Lonely: a tiny reaction to a huge empty world
 
