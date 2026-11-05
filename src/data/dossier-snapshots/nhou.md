@@ -57,7 +57,7 @@ claims:
     sources:
       - label: "📬 Photo Submissions · inspected 2021 Nhou sequence"
         href: "/events/photo-submissions"
-    note: "The completed Photo Submissions intake manually inspected all six Nhou entries. Exact Discord message IDs: New Year `797101365020983296`; February I `808178746934034482`; Lonely `812921630560092200`; Colors `831006218775953438`; Mafia `835627771832565770`; Waltz `865393424504717323`. `POSTED BY Nhou` does not automatically establish MADE BY, CAPTURED BY, or FEATURING. The Mafia post's heavy reaction activity is room-response evidence, not a contest result."
+    note: "The completed Photo Submissions intake manually inspected all six Nhou entries. Exact Discord message IDs: New Year `797101365020983296`; LOVE `808178746934034482`; Lonely `812921630560092200`; Colors `831006218775953438`; Mafia `835627771832565770`; Waltz `865393424504717323`. `POSTED BY Nhou` does not automatically establish MADE BY, CAPTURED BY, or FEATURING. The Mafia post's heavy reaction activity is room-response evidence, not a contest result."
   - text: "Nhou’s January 8, 2021 New Year Photoshoot post quoted Dory’s `Just keep swimming!`, ended `Happy New Year :>`, and drew seventeen `cat10` reactions."
     evidence: "archive-confirmed"
     date: "2021-01-08"
