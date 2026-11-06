@@ -1,3 +1,7 @@
+## 2026-11-06 03:14 PST — QOTD publication reconciliation (no WIKI reader duplication)
+
+MAIN full REST census: 137 remote / 30 miner branches, zero advanced HEADs, persisted MAIN `6199adf0ae2cf19eac1bde2de5bf2aa60f029f60`. Read QOTD checkpoint and all 12 named site-candidate handoffs on `archive-miner-qotd-officers-20260824`. Compared relevant MAIN QOTD override/Gilli/Teri readers and prior person/WIKI integration notes; existing WIKI structured material already covers the relevant cast/episodes. No WIKI reader change warranted. MAIN inventory `archive-intake/QOTD_PUBLICATION_RECONCILIATION_2026-11-06.md` committed `5fe79f4f05de844ac53ed156b65ff8541fda7a26`. Ren screenshot remains source-blocked, 2023 count contradiction unresolved, nested candidate publication/verification count uncertified. Club-Only checkpoint reviewed; Whiskey mixed intake integration-state inspected (2022 H2 source gap). MAIN failed production workflow `42195777135` remains unexplained. No consumed SHA advanced, no new build/live verification this pass.
+
 
 ## 2026-11-05 20:30 PST — BACKROOM Pass 04 Barrels lineage
 
