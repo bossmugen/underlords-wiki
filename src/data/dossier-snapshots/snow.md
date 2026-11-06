@@ -187,6 +187,12 @@ claims:
       - label: "Wall · Ansun/Snow meme-taste exchange · 748575587022536726 / 748575666202476615 / 748575770275741727"
         href: "/channels/wall"
     note: "The exact meme image is not safely identified. This predates a later explicit old-man joke but does not establish its origin."
+  - text: "On August 14, 2026, Snow joked that Mugen kept him locked in the interrogation room; Oyasumi answered with #freesnow, while Moon ordered him back and supplied kidnapping GIFs. This was a reunion-day custody bit, not a real detention or a formal campaign."
+    evidence: "archive-confirmed"
+    date: "2026-08-14"
+    sources:
+      - label: "August Reunion Run 18 · QOTD messages 1537800754939826269, 1537812901996404776, 1537815371279503392, 1537868061338509453, 1537868655801671781, 1537868702958223390"
+        href: "/channels/qotd"
 antiFanon:
   - "Snow is not a generic Staff card in the corrected roster; Pit Boss takes primary placement."
   - "Snow was not Mugen's formal second-in-command. Current command canon places Snow at Pit Boss / Minister; Gabu and Anayss hold the Underboss / Deputy seats."
@@ -265,6 +271,10 @@ The longer UL progression is more specific than a role ladder: early fixer → r
 ## 2022 — THE POKEOFFICER PROPOSAL
 
 Snow's January 6 Snowfyre business card did not remain a business card for long. He proposed turning Officers into collectible `pokeofficer` cards that members could catch and redeem for prizes. It is a proposal, not a documented launch or prize payout. As an episode, though, it captures the collision between his formal Officer world and his willingness to make that same world into a ridiculous little game. The original `snowcard.jpg` still needs visual inspection.
+
+## THE #FREESNOW CUSTODY HEARING — AUGUST 2026
+
+Snow claimed Mugs was keeping him locked in the interrogation room. Mugen contributed a jail GIF instead of a defense. Oyasumi immediately filed **`#freesnow`**, and Moon took the prosecution's side with **`Get back in there you!`** and kidnapping GIFs. One man complained about captivity, one friend started a liberation campaign, and another apparently considered the prisoner a flight risk. This was QOTD clown court, not an actual detention, and the hashtag is documented here as a one-day joke rather than a standing movement. The scene adds a reunion-era echo of Snow's lifelong habit of treating authority and procedure as excellent raw material for nonsense.
 
 ## THE BEST MATERIAL WAS ALLEGEDLY IN VOICE CHAT
 
