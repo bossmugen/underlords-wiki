@@ -28,6 +28,13 @@ claims:
       - label: "🏮 Lobby · 2021-12-31"
         href: "/channels/lobby"
     note: "This is a surviving Lobby checkpoint, not proof that Daya first met UL or became a member on this date."
+  - text: "On October 26, 2022, Daya caricatured Mugen's working rhythm as `quick outburst, then she goes for a nap` and `SCREAM then *silence* THEN SCREM AGAIN`; Gilli agreed with the surrounding Wall exchange."
+    evidence: "archive-confirmed"
+    date: "2022-10-26"
+    sources:
+      - label: "Wall · Daya and Gilli, October 26, 2022"
+        href: "/channels/wall"
+    note: "Main HQ site-candidates-2026-08-26-2110.md; Wall IDs 1034897408489947157, 1034897442522546276, 1034897502824050749, 1034897586622058556. Participant joke, not a literal sleep schedule; triggering screenshot uninspected."
   - text: "Mugen announced Daya as the newest Underlords Officer on May 14, 2022."
     evidence: "archive-confirmed"
     date: "2022-05-14"
@@ -170,6 +177,10 @@ That same practical looseness becomes visible in Lobby by August. When a newcome
 On August 27 she recognizes a returner with **`hii again!`**, tells them they do not need to view the rules again, and asks for a moment to get them set up. The machine may see an arrival event. Daya sees somebody who has already done part of this before. That is a tiny but useful distinction: procedure is there to orient the person, not make the person reenact procedure for its own sake.
 
 By November, her welcome routine has expanded into a safety brief. She repeatedly explains the Platelet/minor color cue, asks people to use caution, directs controversial or sensitive issues away from public escalation, and then gives the practical map through Biodata, the server index, and Whiskey. On November 20 the packet begins **`its good to have u!!`**. The rules are shared house rules, not all authored by Daya. Her character evidence is in the delivery: welcome first, then make the boundary legible before the newest person can accidentally step over it.
+
+### The Boss's alleged operating manual
+
+In October 2022, Gilli said all she could hear was screaming. Daya supplied the missing instructions for living with Mugs: `quick outburst, then she goes for a nap`, followed by `SCREAM then *silence* THEN SCREM AGAIN`. Gilli's `accurate` helped seal the joke. Daya was comfortable enough with the Boss to narrate her like a malfunctioning alarm clock, and the Boss was familiar enough for everyone else to recognize the performance. It belongs to their teasing relationship, not to a medical chart or an actual nap timetable.
 
 ## 2023 — MUSIC, POSTERS, AND SCREENSHOT JAIL
 
