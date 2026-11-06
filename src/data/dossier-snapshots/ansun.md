@@ -13,6 +13,13 @@ summary: "Ansun's archive moves from a May 2020 Discord check-in into voice-twin
 summaryEvidence: "inferred"
 publication: "public"
 claims:
+  - text: "On September 6, 2020, Ansun posted a food image and said fall made him crave festival food; Mugen answered `Bbqqqq` almost immediately."
+    evidence: "archive-confirmed"
+    date: "2020-09-06"
+    sources:
+      - label: "Club-Only · Ansun 752231546022527016; Mugen 752231548199239770"
+        href: "/channels/club-only"
+    note: "Ansun posted the image at 752231504213704794; its contents are uninspected. POSTED BY is not MADE BY or CAPTURED BY. This is a food preference and shared exchange, not an ethnicity claim."
   - text: "Ansun is a confirmed Caporegime in the current command roster."
     evidence: "user-confirmed"
     sources:
@@ -229,6 +236,8 @@ On July 12, 2021, Ansun filed the immortal allegation **`Tae said "fuck" July 12
 Later he moved from prosecutor to aspiring property owner: **`no shame all fame`**, **`this is MY wall`**. In his account of the arrangement, everybody else contributed shame while he somehow received all the fame. He was also quite capable of being the exhibit. A 2023 roast about air coming out of both ends collected eight skull reactions; the recipient isn't named in the preserved reply.
 
 ## Petty Crimes
+
+**Fall apparently comes with a menu.** On September 6, 2020, Ansun said autumn had him craving festival food, and Mugen answered **`Bbqqqq`** almost before the sentence had landed. A tiny exchange, but an excellent reminder that the man capable of turning a Wall post into a legal proceeding could also be derailed by the prospect of barbecue. The food picture he posted stays uncredited beyond the upload; nobody needs to invent a cook.
 
 Ansun once typed **`the toot of al evil LOL`** and Ren immediately wanted to pin it. He helped organize a weekend poll after years of turning rooms into bits. He also knew when to say **`Give me a second`** instead of making somebody wait in silence. The same person who invents an entire Wall prosecution can remember that a newcomer just wants to know where to go.
 
