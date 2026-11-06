@@ -1,3 +1,7 @@
+## 2026-11-06 14:35 PST — Anayss Main HQ front-door continuity (MAIN-only reader)
+
+Full MAIN REST census 137 remote / 30 miner branches, no new/advanced, persisted `618ec304d866961f4de21d0afda890d02db33848`. Main HQ source `site-candidates-2026-08-26-2110.md` Anayss front-door and Dragonbreath callouts, receipts `973762584316612678`, `973762712649756703`, `973763035086864384`, `979705845598261309`, `1238458505384427581`, `1214766421045936148`, `1232514423550115891`, integrated into MAIN `src/content/people/anayss.md` reader `0f81b3cececbebeb87067be76a7012c485953d02` as a lived continuation. WIKI Anayss already covers front-door behavior and Battle Leader duties; no mirror edit. MAIN reader Actions/live pending. WIKI Ansun prior build `42297464746` SUCCESS, preview `42297464629` CANCELLED; production unverified. No consumed SHA advanced; full August Reunion/Main HQ candidate overlay count remains open.
+
 
 ## 2026-11-06 13:35 PST — Ansun festival-food WIKI reader
 
