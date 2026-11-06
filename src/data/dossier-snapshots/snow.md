@@ -74,6 +74,13 @@ claims:
     sources:
       - label: "JAG public-record offense"
         href: "/lore/archive-before-the-archive"
+  - text: "On September 22, 2020, Snow configured Saber to create a weekly Saturday event called `Spank Mugs Booty`, receiving event ID `m1k2w9`. Later maintenance by Sye and Gabu and bot announcements through 2025 retained the same event object: a ridiculous joke with a surprisingly durable schedule."
+    evidence: "archive-confirmed"
+    date: "2020-09-22 – 2025"
+    sources:
+      - label: "BACKROOM site-candidates.md Pass 2 · Saber receipts 757993679255240704, 757993679792111766, 772903199639601152, 837109365457682432, 952194192162033685, 1064690346036035695, 1355719467455479971"
+        href: "/channels/saber-control"
+    note: "Joke event title, not literal conduct. Do not assign a specific Dragon Raja activity to event m1k2w9 without explicit linkage."
   - text: "On January 21, 2021, Snow said he no longer remembered how to fix Saber, asked Gabu if she wanted to try, and Gabu replied that she could fix it one item at a time."
     evidence: "archive-confirmed"
     date: "2021-01-21"
@@ -280,3 +287,8 @@ Snow told the Wall he had planned to give Sycee, Kuki, or Ana something worth po
 Before the room put Snow on trial for being approximately as old as civilization, Ansun had already reviewed his meme taste and found **`parent's facebook humour and stock images`**. Snow's entire defense was **`FINE`**. No elaborate rebuttal, no appeal to the Judgemen. Just a man accepting that his sense of humor had been assigned a parental generation against his will.
 
 That August 2020 roast belongs beside the later Old Man Snow jokes, not as their invented birthday. The particular image Ansun was judging is still unidentified. The exchange itself is plenty: Snow could draft twenty-four charges and still lose a three-message case about Facebook memes.
+
+
+## SABER'S LONGEST-RUNNING BAD IDEA
+
+Snow gave Saber a recurring Saturday job in September 2020: **`Spank Mugs Booty`**. The bot dutifully assigned it **`m1k2w9`**. The funny part is how long the joke survived its author pressing Enter. Sye and Gabu later maintained that same scheduled object, and the bot was still announcing it in 2025. Snow's technical mischief became somebody else's maintenance chore, then somebody else's, until a throwaway gag had the longevity of municipal infrastructure. Nobody needs to pretend the title described literal behavior, or invent which game activity the command represented. The command itself is already a crime against sensible scheduling.
