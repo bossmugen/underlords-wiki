@@ -80,7 +80,7 @@ claims:
     sources:
       - label: "BACKROOM site-candidates.md Pass 2 · Saber receipts 757993679255240704, 757993679792111766, 772903199639601152, 837109365457682432, 952194192162033685, 1064690346036035695, 1355719467455479971"
         href: "/channels/saber-control"
-    note: "Joke event title, not literal conduct. Do not assign a specific Dragon Raja activity to event m1k2w9 without explicit linkage."
+    note: "Joke event title, not literal conduct. The event maps to Dragon Raja Defend Boss: synchronized Saber/Sota alerts on October 17 and October 24, 2020 establish the activity; title remains a joke, not literal conduct."
   - text: "On January 21, 2021, Snow said he no longer remembered how to fix Saber, asked Gabu if she wanted to try, and Gabu replied that she could fix it one item at a time."
     evidence: "archive-confirmed"
     date: "2021-01-21"
@@ -291,4 +291,4 @@ That August 2020 roast belongs beside the later Old Man Snow jokes, not as their
 
 ## SABER'S LONGEST-RUNNING BAD IDEA
 
-Snow gave Saber a recurring Saturday job in September 2020: **`Spank Mugs Booty`**. The bot dutifully assigned it **`m1k2w9`**. The funny part is how long the joke survived its author pressing Enter. Sye and Gabu later maintained that same scheduled object, and the bot was still announcing it in 2025. Snow's technical mischief became somebody else's maintenance chore, then somebody else's, until a throwaway gag had the longevity of municipal infrastructure. Nobody needs to pretend the title described literal behavior, or invent which game activity the command represented. The command itself is already a crime against sensible scheduling.
+Snow gave Saber a recurring Saturday job in September 2020: **`Spank Mugs Booty`**. The bot dutifully assigned it **`m1k2w9`**. The funny part is how long the joke survived its author pressing Enter. Sye and Gabu later maintained that same scheduled object, and the bot was still announcing it in 2025. Snow's technical mischief became somebody else's maintenance chore, then somebody else's, until a throwaway gag had the longevity of municipal infrastructure. The actual Dragon Raja activity was **Defend Boss**. On October 24, Saber announced the joke-title event beginning, and less than a second later Sota yelled **`Go Defend Boss!`**, begging everybody to save Mugs while they were dying. The bot spoke fluent Snow; Sota translated it into something members could actually play. Nobody needs to pretend the title described literal behavior. The command itself is already a crime against sensible scheduling.
