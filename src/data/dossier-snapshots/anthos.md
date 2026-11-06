@@ -10,6 +10,13 @@ summary: "Anthos enters the surviving archive as an almost-daily 2020 presence, 
 summaryEvidence: "archive-confirmed"
 publication: "public"
 claims:
+  - text: "In September and October 2021, Anthos posted Moments submissions labeled for visiting Forsaken players Reiinnaa and BobaReii. Reiinnaa later returned on a replacement Discord account, and Gilli offered to remove the old account; BobaReii likewise returned on a replacement account after Anthos's labeled post."
+    evidence: "archive-confirmed"
+    date: "2021-09-14 – 2021-10-14"
+    sources:
+      - label: "BACKROOM Pass 60 · Moments and Lobby"
+        href: "/channels/photo-submissions"
+    note: "Anthos POSTED the labeled artifacts (887271925544546344, 895299124923080754); creator, photographer and depicted subjects unverified. Reiinnaa account bridge is self-confirmed in 891842910838988800; BobaReii replacement account self-ID 898155892124581929. Do not publish minors' ages or infer historical role appointments."
   - text: "Anthos is a confirmed Pit Boss / Minister in the current command roster."
     evidence: "user-confirmed"
     sources:
