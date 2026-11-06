@@ -1,4 +1,9 @@
 
+## 2026-11-06 13:35 PST — Ansun festival-food WIKI reader
+
+MAIN census 137 remote / 30 miners, zero advanced, committed `6afe904ae12678a82c4b7d7d28d279dd94b82123`. Main HQ direct candidate `site-candidates-2026-08-27-0010.md`, Club-Only receipts `752231504213704794`, `752231546022527016`, `752231548199239770`: MAIN Ansun already carries fall festival-food/`Bbqqqq` Petty Crimes, WIKI Ansun did not. WIKI `src/data/dossier-snapshots/ansun.md` reader commit `cb5559d23ddc3aa015b08009229cd35eef43721c` adds structured claim and distinct short character detail; source reread PASS. Build `42297464746` and preview `42297464629` queued, production NOT verified. Posted food image remains uninspected; no maker or ethnicity inference. MAIN Anthos workflow `42290328054` SUCCESS. Club-Only recovery checkpoint read. No consumed SHA advanced; full dated candidate inventory still open.
+
+
 ## 2026-11-06 12:35 PST — Main HQ Anthos town-crier split-surface reconciliation
 
 MAIN full REST census 137 remote / 30 miner branches / 51 tracked, zero new or advanced; persisted MAIN `4e9c126e8f9619fb1930c21b7da756dcc3b933c0`. Main HQ `site-candidates-2026-08-27-0010.md` (Ansun, Club-Only message `758132922552156161`) already appears as a structured WIKI Anthos claim and episode; no WIKI duplication. MAIN Anthos biography now has the person-first reputation/pun treatment in reader commit `49d580f7765cded71af03e647a94874ad9af1a9b`. MAIN workflow `42290328054` in progress at check, so publication remains pending verification. No miner consumed SHA advanced; dated A/B inventory incomplete, Gabu Health Mafia and Mugen/Sye Plutonian receipt-blocked. Club-Only recovery checkpoint reviewed. No private material published.
