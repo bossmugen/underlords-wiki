@@ -187,14 +187,14 @@ This is not two people meeting. It is two old community members briefly pretendi
 
 ## IDENTITY AND ROLE BOUNDARY
 
-The recovered account username `itsalkey` and display name **Meowk 💖✨** belong to Alkey. **Alkey is not Key / Captain Chihuahua.** Similar names do not merge humans.
+**Alkey and Meowk are separate people**, as established by the current stable-account reconciliation; Meowk is account `264889543365230614`. Alkey is also not Key / Captain Chihuahua. Similar names, nearby jokes, and historical display-name projections do not merge humans. Older Meowk-attributed scenes on this page require owner-by-owner correction before being treated as Alkey biography.
 
 Current canon places Alkey on the **Staff** shelf. Export-time VIP / 18+ arrays do not establish when Staff happened, and the August 2020 `officer alkey` joke does not appoint him to Officer. The later archive is thinner than the 2020–2022 run, so the wiki does not manufacture a neat promotion story simply because a current title exists.
 
-The same restraint applies to the Wall. Mugen once captions an uninspected screenshot **`@Meowk 💖✨ shows his true colors`**. The attachment is still uninspected. The caption can be cited; its contents cannot be invented.
+A Wall screenshot captioned **`@Meowk 💖✨ shows his true colors`** belongs to the separate Meowk identity and must not be used to characterize Alkey. The attachment remains uninspected.
 
 Alkey's actual through-line does not need that invention. Hockey keeps following him because it is real. The room keeps remaking his name because the joke works. He keeps participating because he can usually find the next beat — a sound effect, a bow, a three-part reveal, a fake introduction, or the simple admission that somebody else's comeback got him good.
 
 ## Episode — The Lonely entry
 
-Alkey also showed up for the February 2021 **Lonely** Photoshoot, posting an attachment as **Meowk 💖✨** (message `812805687142907924`). His Wall presence could turn three words into a performance; this submission gives him another, quieter way of joining the room. The image has been described in the miner's inspected notes as dramatic in environment and light, but one picture cannot establish a signature style. Alkey posted it; the maker, photographer, and depicted subject are not assigned here.
+The February 2021 **Lonely** Photoshoot attachment posted as **Meowk 💖✨** (message `812805687142907924`) requires stable-account ownership verification before it can be attributed to Alkey. His Wall presence could turn three words into a performance; this submission gives him another, quieter way of joining the room. The image has been described in the miner's inspected notes as dramatic in environment and light, but one picture cannot establish a signature style. Alkey posted it; the maker, photographer, and depicted subject are not assigned here.
