@@ -13,6 +13,13 @@ summary: "Ansun's archive moves from a May 2020 Discord check-in into voice-twin
 summaryEvidence: "inferred"
 publication: "public"
 claims:
+  - text: "On May 31, 2023, Daya proposed a petition to get Ansun into a fur suit; Ansun challenged the thousand-plus-dollar cost and the expectation of doing it for free. Mia offered the Dragon Raja woof suit as an alternative, and Daya called the outcome a puppy."
+    evidence: "archive-confirmed"
+    date: "2023-05-31"
+    sources:
+      - label: "Wall · 1113653842811306037; 1113654131400380416; 1113654424074723370; 1113654438037569617; 1113656746456662097; 1113656779730071622"
+        href: "/channels/wall"
+    note: "Joke petition only; not an owned costume, identity label, or evidence of wearing it. Image attachment uninspected."
   - text: "On September 6, 2020, Ansun posted a food image and said fall made him crave festival food; Mugen answered `Bbqqqq` almost immediately."
     evidence: "archive-confirmed"
     date: "2020-09-06"
@@ -234,6 +241,10 @@ WolfPhenix's STALKER entry arrived with the caption **`Ansun uwu`** and seven `f
 On July 12, 2021, Ansun filed the immortal allegation **`Tae said "fuck" July 12 2021`** and then supplied a timestamp and mock charge for the Wall. Another member called it **`fruit on fruit crime`**. An ordinary swear word had become a prosecutable incident solely because Ansun owned a keyboard.
 
 Later he moved from prosecutor to aspiring property owner: **`no shame all fame`**, **`this is MY wall`**. In his account of the arrangement, everybody else contributed shame while he somehow received all the fame. He was also quite capable of being the exhibit. A 2023 roast about air coming out of both ends collected eight skull reactions; the recipient isn't named in the preserved reply.
+
+## Episodes: The puppy procurement hearing
+
+Daya proposed a fur-suit petition. Ansun immediately wanted to know who was funding a thousand-plus-dollar suit **`for FREE?`**. Mia nominated **`the raja woof suit`** instead; Daya declared **`ansun gonna be a puppy`**. The episode is about the proposed outfit and Ansun's budget objection, not an actual costume purchase.
 
 ## Petty Crimes
 
