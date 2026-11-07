@@ -1,3 +1,10 @@
+## 2026-11-06 23:35 PST — Ritha strategy dossier parity
+
+- Full REST census rechecked 137 branches / 30 active miner branches, all HEADs matched MAIN branch ledger updated 2026-11-06 23:32 PST by concurrent integrator. No new or advanced HEADs; no consumed SHA advanced. Five pending-publication families and one backlog remain.
+- Read August Reunion, Main HQ and Club-Only recovery checkpoints directly from their respective miner branches. Main HQ Ritha/Tower of God already present on both surfaces; MAIN `src/content/people/ritha.md` also carried user-confirmed strategic ability and Mugen Safe House dungeon-help recollection, while WIKI omitted both. Reconciled to WIKI `src/data/dossier-snapshots/ritha.md`, reader commit `b757e502f0841ddce64eb4bbb6d71113d4e9bf5f`. Kept the role distinction from Anayss and the unrecovered exact Safe House message join.
+- Reader file reread passed. WIKI exact-commit Astro build run 42351915962 queued; production not confirmed. MAIN reader unchanged (already person-first). Ritha strategy candidate pending verification, not marked fully published.
+- August Reunion/Main HQ remaining A/B inventory still uncounted beyond 22 base headings plus overlays; Gabu Health Mafia, Mugen/Sye Plutonian, and Oyasumi/Ansun original prank remain source-blocked. Club-Only recovery and Alkey/Meowk attribution still open. No private officers-only material exposed.
+
 ## 2026-11-06 22:55 PST — Photo Submissions Ren Relax emoji-caption repair
 
 - Photo miner `archive-miner-photo-submissions-2021` candidate `site-candidate-2026-08-25-1945-ren-relax-custom-emotes.md`, receipt `842600913633148938`, attachment `842600913410457600`: two animated custom emotes as Ren's entire Relax caption, edited ~12.7 seconds after posting; pre-edit state unavailable. Cross-person platform-language recurrence with Ghostt Scary receipt `900159114997530644` (already on both public surfaces).
