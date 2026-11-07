@@ -12,6 +12,12 @@ summary: "Ren's archive progression starts with her using Slice for the same soc
 summaryEvidence: "inferred"
 publication: "public"
 claims:
+  - text: "On June 25, 2021, Gabu recalled Ansun and RV losing Mugs's corpse; Ren called it the first day of `corpse.Inc` and joked `Amber alert LOSE CORPSE`."
+    evidence: "archive-confirmed"
+    date: "2021-06-25"
+    sources:
+      - label: "BACKROOM Pass 49 · Club Only · 858064680127037481, 858064810973724702, 858064887895687178"
+    note: "Retrospective callback, not the original loss date; Mugen and Pride corpse incidents must not be merged without a bridge."
   - text: "Ren saved a Wall crop of Mugen's `hope everyone has eaten their breaststroke` on May 10, 2022; Rich called it a shame war and Rummy repeated the typo. Ren brought the same visible crop back to the Wall in August 2026, four years after its first surviving Wall filing."
     evidence: "archive-confirmed"
     date: "2022-05-10 – 2026-08"
@@ -241,6 +247,13 @@ This is not a formal archivist appointment and Ren did not invent UL quote cultu
 In the March 1 **self care police** announcement, Ren's checklist included a crossed-out `Gilli` beside the water question. By April, both were posting through the hydration-reminder lane. Ren's July instructions managed to permit evil behavior while making water consumption compulsory. The formal role's creation date remains unknown.\n\nThrough 2021, Ren's Announcements voice repeatedly asks broad audiences whether they ate, drank water, rested, or wanted company. Sometimes the care is gentle—**`if you don’t feel like smiling that’s ok too`**—and sometimes it arrives as **`drink water or I’m eating your bone marrow`**. The threat is house rhetoric, not a literal threat. The underlying action stays mundane: check on the people.
 
 The same year she repeatedly posts example-photo packages for Photo Submissions while Gilli closes rounds and moves them toward the next theme. In August, when dora/Forsaken adds a sentence to a submission, Ren does not just wave a rulebook at her. She opens with `Haii doraaaa`, apologizes for the correction, and follows up almost immediately with the way to save the entry: post the original picture without the sentence. The rule stays put; the person gets a way forward. That visual contribution is shared rather than exclusive, but it widens the pattern. Ren is increasingly involved in giving the group prompts, examples, and structures through which people can participate.
+
+### Corpse.Inc — lost-body emergency dispatch (June 25, 2021 callback)
+
+- **People:** Ren/RV, Ansun, Gabu, Mugen. Pride has a separate lost-body story; whether the incidents connect is unresolved.
+- **Sequence:** Gabu remembers Ansun and RV losing Mugs's corpse (`858064680127037481`). Ren calls it `the first day of corpse.Inc` (`858064810973724702`), then announces `Amber alert LOSE CORPSE` (`858064887895687178`).
+- **Classification:** Game-life running gag and retrospective callback. The original loss date, game mechanics, and any relationship to Pride's incident are unverified.
+- **Public counterpart:** MAIN Ren biography folds the incident into her habit of turning social catastrophes into retrievable records; this dossier preserves the episode and message trail.
 
 ## 2022 — SHE STARTS MAINTAINING BOTH BELONGING AND BOUNDARIES
 
