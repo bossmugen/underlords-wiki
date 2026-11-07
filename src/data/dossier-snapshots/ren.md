@@ -12,6 +12,13 @@ summary: "Ren's archive progression starts with her using Slice for the same soc
 summaryEvidence: "inferred"
 publication: "public"
 claims:
+  - text: "On August 7–8, 2021, Ren opened a spelling-themed Kahoot, issued a corrected poster code with `Cause I’m ✨ dumb ✨` and `@Staff forgive me`, then acknowledged that the code was still wrong and asked participants to redo the challenge."
+    evidence: "archive-confirmed"
+    date: "2021-08-07 → 2021-08-08"
+    sources:
+      - label: "📣 Announcements · 873628678809088010, 873686056938123284, 873686142720024686, 874033999436189746"
+        href: "/channels/announcements"
+    note: "BACKROOM receipts-pass-59.md. Ren posted the notices, not necessarily the image assets. The original posters remain uninspected. This spelling Kahoot is not assumed identical to Speeling Bee or the June/July club-knowledge Kahoot."
   - text: "On May 13, 2021, Ren submitted a Relax photo captioned solely with two animated server custom emotes, `:tmirusnyarelax: :ymiruspandarelaxed:`. The surviving message was edited about 12.7 seconds after posting; the pre-edit wording is unavailable."
     evidence: "archive-confirmed"
     date: "2021-05-13"
@@ -315,6 +322,14 @@ On January 19, 2023, the Lobby bot started processing FuentesKaede. Ren was alre
 In May 2022, Ren put Mugen's `hope everyone has eaten their breaststroke` on the Wall. Rich called it a shame war; Rummy was already repeating the mangled word. In August 2026 Ren brought the same visible crop back. A useful little exhibit in how the Wall worked: a typo could outlive the game conversation, and Ren was exactly the person to keep its paperwork.
 
 **Receipts:** Wall `973675315169738804`, `973676738573918298`, `1537087561283928194`. The original game-message date and screenshot capturer remain unknown.
+
+## KAHOOT CODE — The poster correction that needed correcting
+
+**Episode:** August 7–8, 2021 · Announcements · `873628678809088010`, `873686056938123284`, `873686142720024686`, `874033999436189746`.
+
+Ren opened the spelling Kahoot with `OPEN UWUWUWU!!!`. By afternoon she had posted `Cause I’m ✨ dumb ✨` alongside a supposedly corrected code and asked Staff to forgive her. The next day came the actual administrative disaster: the poster still had the wrong code, and anyone who had already played needed to do the challenge again. Ren owned the mistake in public rather than leaving players to wonder why their entries failed. A one-person help desk, accidentally also the source of the ticket.
+
+**Attribution:** Ren posted the announcements and corrections; the poster images were not inspected, and their creator is not identified. The spelling challenge is kept distinct from the earlier club-knowledge Kahoot and from Speeling Bee.
 
 ## RELAX — A caption made of two emotes
 
