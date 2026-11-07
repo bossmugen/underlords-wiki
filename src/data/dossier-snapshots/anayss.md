@@ -10,6 +10,13 @@ summary: "Anayss gets lost on the game map, gives everyone else directions, coor
 summaryEvidence: "archive-confirmed"
 publication: "public"
 claims:
+  - text: "Anayss posted Beach's Example Photos divider and attachment on June 1, 2021 (849378136923832320), Gilli opened the round forty-eight seconds later (849378339021520957), and Anayss submitted her own Beach attachment on June 5 (850859310183088128)."
+    evidence: "archive-confirmed"
+    date: "2021-06-01 – 2021-06-05"
+    sources:
+      - label: "Photo Submissions · Beach launch and entry"
+        href: "/events/photo-submissions"
+    note: "The same account POSTED both attachments; MADE BY, CAPTURED BY, and FEATURING are not established. No formal Photoshoot role or theme authorship inferred. archive-intake/photo-submissions-2021-visual-contest-2026-08-19-1845-pdt/site-candidate-2026-08-25-0545-anayss.md."
   - text: "In late August and September 2020, Anayss repeatedly asked for coffee in Club Only, including `Need coffee`, `Need cogfee`, and a September 22 four-message attempt that barely assembled the word. Gabu answered one of her coffee GIFs with `maam drink water too`."
     evidence: "archive-confirmed"
     date: "2020-08 – 2020-09"
