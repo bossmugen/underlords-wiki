@@ -10,6 +10,13 @@ summary: "Anthos enters the surviving archive as an almost-daily 2020 presence, 
 summaryEvidence: "archive-confirmed"
 publication: "public"
 claims:
+  - text: "STALKER's June 14, 2021 announcement listed submissions June 14–20, judging June 21–26, and a June 27 winner. The submission room nevertheless received WolfPhenix, Qin-Mu, and Tofu entries on June 24–26; Anthos closed the round June 28 and moved the results notice to July 1. The initial calendar was not the room's final operating schedule."
+    evidence: "archive-confirmed"
+    date: "2021-06-14 – 2021-06-28"
+    sources:
+      - label: "Photo Submissions · STALKER opening, entries and closure"
+        href: "/channels/photo-submissions"
+    note: "Opening 854029437342056510; posts 857726839391518722, 858218763420827658, 858525835572281363; closure 859080523488690176. The intervening revision notice and eligibility decision are not recovered. Do not label entrants knowingly late or infer image authorship from posts."
   - text: "In September and October 2021, Anthos posted Moments submissions labeled for visiting Forsaken players Reiinnaa and BobaReii. Reiinnaa later returned on a replacement Discord account, and Gilli offered to remove the old account; BobaReii likewise returned on a replacement account after Anthos's labeled post."
     evidence: "archive-confirmed"
     date: "2021-09-14 – 2021-10-14"
