@@ -1,3 +1,10 @@
+## 2026-11-07 11:30 PST — BACKROOM Pass 60 Moments side-door WIKI episode
+
+- Full MAIN REST census: 137 remote branches, 30 active miners, zero new/advanced HEADs; MAIN census commit `e1c32e4a7847b32582f36955630e142764cd1966`. Ledger still 51 entries, five pending-publication families, one backlog family.
+- BACKROOM miner `archive-miner/backroom-deals-2026-08-24` HEAD `9c143a7c146af4fc90de4b258bee1c848a2818a0`; read `checkpoint.md`, `site-candidates-pass-60.md`, `receipts-pass-60.md` directly. MAIN `src/lib/photo-submissions-overrides.ts` already tells the Moments Side Door story, and Ephxs/Reiinnaa biographies and WIKI Ephxs dossier already carry their person-specific scenes. No MAIN duplicate.
+- WIKI `src/data/integrator-episodes.ts` added `moments-submission-side-door-2021` at reader commit `4183c5d5b01166a51b4f85963333264aff533808`, structuring Ephxs/Ethereal, Reiinnaa/Forsaken and BobaReii/Forsaken with posted-by attribution and account-return boundaries. Source `site-candidates-pass-60.md` / `receipts-pass-60.md`; message IDs `879237597300408341`, `887271925544546344`, `895299124923080754`, `891842910838988800`, `898155892124581929`. Source reread passed. WIKI build run `42406428654` and preview run `42406428672` queued at check; exact deployment NOT yet verified.
+- Club-Only 2021–2026 checkpoint inspected; later-year retrieval remains blocked. BACKROOM consumed SHA held at `68d2fba7adda1f110a9be57013dd7712c450f82d`; accepted A/B remainder still uncounted. No private source or uninspected image contents published.
+
 ## 2026-11-07 10:00 PST — Photo Submissions Sye caption parity
 
 - MAIN full REST census 137 remote / 30 active miner branches; no HEAD changes; state commit `069313d6`. Photo miner `d45d441f`, consumed `342ee5df` (unchanged).
