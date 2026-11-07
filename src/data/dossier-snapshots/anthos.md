@@ -17,6 +17,13 @@ claims:
       - label: "Photo Submissions · STALKER opening, entries and closure"
         href: "/channels/photo-submissions"
     note: "Opening 854029437342056510; posts 857726839391518722, 858218763420827658, 858525835572281363; closure 859080523488690176. The intervening revision notice and eligibility decision are not recovered. Do not label entrants knowingly late or infer image authorship from posts."
+  - text: "FAMILY's November 8, 2021 opening advertised a November 15 submission cutoff, but the room was not formally closed until November 20. This repeated STALKER's earlier pattern of a Photoshoot calendar shifting in practice; the reason for the gap is not established by the Photo Submissions room alone."
+    evidence: "archive-confirmed"
+    date: "2021-11-08 – 2021-11-20"
+    sources:
+      - label: "Photo Submissions · FAMILY opening and closure"
+        href: "/channels/photo-submissions"
+    note: "Gabu opening 907316247161614426; Mërcy submission 907472763281887304; Han submission 910066339463434251 and his separate retirement remark 910066620104310825; Saber closure 911677800908472430. Keep the retirement remark separate from scheduling intent. Do not infer image creators or the second person pictured with Han."
   - text: "In September and October 2021, Anthos posted Moments submissions labeled for visiting Forsaken players Reiinnaa and BobaReii. Reiinnaa later returned on a replacement Discord account, and Gilli offered to remove the old account; BobaReii likewise returned on a replacement account after Anthos's labeled post."
     evidence: "archive-confirmed"
     date: "2021-09-14 – 2021-10-14"
