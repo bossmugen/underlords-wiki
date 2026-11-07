@@ -1,3 +1,10 @@
+## 2026-11-06 22:55 PST — Photo Submissions Ren Relax emoji-caption repair
+
+- Photo miner `archive-miner-photo-submissions-2021` candidate `site-candidate-2026-08-25-1945-ren-relax-custom-emotes.md`, receipt `842600913633148938`, attachment `842600913410457600`: two animated custom emotes as Ren's entire Relax caption, edited ~12.7 seconds after posting; pre-edit state unavailable. Cross-person platform-language recurrence with Ghostt Scary receipt `900159114997530644` (already on both public surfaces).
+- MAIN `src/content/people/ren.md` already contained this person-first synthesis and was deliberately not duplicated. WIKI `src/data/dossier-snapshots/ren.md` lacked the exact structured episode and was updated in `afb1907d3758d2d971dde5315d7b08b6402dbf80`. Source reread passed.
+- WIKI build run `42349158799` and preview run `42349158819` queued at check; **not certified deployed**. MAIN Anayss production run `42344907777` succeeded. Full REST census 137 branches/30 active miner heads unchanged; MAIN census commit `aaf1451f6357672a927df350dc7b2070d942cdde`.
+- Photo Submissions consumption held at `342ee5df` against `d45d441f` pending full accepted A/B inventory and verified publication. Two missing reply parents and inaccessible original images remain blocked. Club-Only recovery checkpoint inspected, but no new delta consumed.
+
 ## 2026-11-06 21:58 PST — Photo Submissions Anayss Beach handoff
 
 - Photo miner `archive-miner-photo-submissions-2021` at `d45d441f`, candidate `site-candidate-2026-08-25-0545-anayss.md`: Anayss Beach example `849378136923832320`, Gilli opens `849378339021520957` forty-eight seconds later, Anayss Beach submission `850859310183088128` four days later. This is a same-round contribution/entry, not an appointment or image authorship claim.
