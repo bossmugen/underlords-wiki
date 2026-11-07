@@ -2,6 +2,15 @@ import type { Episode } from "./wiki";
 
 export const integratedEpisodes: Episode[] = [
   {
+    id: "moments-submission-side-door-2021",
+    title: "The Moments Side Door",
+    season: "2021",
+    date: "July 31 – October 14, 2021",
+    kind: "Photoshoot / outside-club visitors and staff-carried submissions",
+    logline: "Three named Moments submissions cross the public Photoshoot room through somebody else's post: Gilli posts `Photo Moments Submission: Ephxs` on August 22 for the Ethereal visitor who had first entered the Lobby asking `Who has my ghoulie?👀`; Anthos posts `Moments submission: Reiinnaa` on September 14 and `Moments submissions: BobaReii` on October 6 for two Forsaken visitors. Reiinnaa later returns with `my old acc died sooo new acc` and Gilli offers to kick the old account; BobaReii also returns under a replacement account. The common pattern is that an outside-club name could appear in UL's public event ledger through Gilli or Anthos. The route by which the screenshots reached them is unknown, and this does not mean staff posting was mandatory for visitors. The screenshots are uninspected: POSTED BY is not MADE BY, CAPTURED BY or FEATURING. Receipts: 871220461395124304, 871220484782567425, 879237597300408341, 887091618992242740, 887271925544546344, 891842910838988800, 891843127713890355, 895299124923080754, 898155892124581929.",
+    cast: ["Gilli", "Anthos", "Ephxs", "Reiinnaa", "BobaReii", "Gabu", "Anayss"]
+  },
+  {
     id: "ul-kahoot-2021-three-rounds",
     title: "Kahoot: Know Your Clowns",
     season: "2021",
