@@ -997,3 +997,11 @@ Photo miner `archive-miner-photo-submissions-2021`, last-known HEAD `d45d441feca
 - BACKROOM Pass 60 `site-candidates-pass-60.md` on `archive-miner/backroom-deals-2026-08-24`, Lobby receipts `887091618992242740`, `887091961109049395`, `891842910838988800`, `891843127713890355`; Photoshoot `887271925544546344`.
 - MAIN created `src/content/people/reiinnaa.md` commit `eb14c1e37e872a74eccae1255cbe36f3d1b17b58`; committed source reread PASS. WIKI already has structured `src/data/dossier-snapshots/reiinnaa.md` so no duplicate dossier edit.
 - MAIN Astro build and exact production deployment pending verification; no consumed SHA advanced. Image remains uninspected; no invented submission pipeline or account merge. BACKROOM full accepted A/B remainder remains uncounted.
+
+## 2026-11-07 13:32 PST — BACKROOM Moments Side Door verification recovery
+
+- Reader episode `moments-submission-side-door-2021` remains present in `src/data/integrator-episodes.ts` at current WIKI `main`.
+- Original reader commit `4183c5d5b01166a51b4f85963333264aff533808` passed Astro build `42406428654`, but preview `42406428672` was cancelled. Descendant `195ba83cc1e8511616df643aef44bf6be35d24a7` retains the episode unchanged: GitHub compare lists only `INTEGRATION_STATE.md`, `src/data/dossier-snapshots/anthos.md`, and `src/data/dossier-snapshots/eos.md` changed since the reader commit.
+- Descendant WIKI workflows `42413852615` and `42413852326` both completed SUCCESS. This clears the cancelled-preview verification debt through a preserved descendant; it does not independently establish a separately inspected public production URL.
+- MAIN full census: 137 remote branches / 30 miner branches; no new/advanced miner HEADs, persisted MAIN `b0cfbf2aefdcf055da4b338d830b7195b38425ef`.
+- BACKROOM source `archive-intake/chat-2026-08-24-backroom-batch-miner/site-candidates-pass-60.md`; receipts `879237597300408341`, `887271925544546344`, `895299124923080754`. MAIN already carries story; no duplicate reader edit. Accepted A/B remainder remains uncounted, BACKROOM consumed cursor held at `68d2fba7adda1f110a9be57013dd7712c450f82d`.
