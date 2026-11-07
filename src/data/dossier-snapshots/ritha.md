@@ -22,6 +22,17 @@ claims:
     sources:
       - label: "Mugs-confirmed retired Officer roster"
         href: "/roles/officers"
+  - text: "Ritha's early battle-lead reputation came from genuine strategic skill, not a formally dated Battle Leader appointment."
+    evidence: "user-confirmed"
+    sources:
+      - label: "Mugs-confirmed Ritha strategy history"
+        href: "/roles/officers"
+    note: "Distinct from Anayss's later/current Battle Leader appointment."
+  - text: "Mugen later remembered Ritha helping carry the early group through Dragon Raja dungeon content."
+    evidence: "archive-confirmed"
+    sources:
+      - label: "Safe House · Ritha / Mugen startup recollection"
+    note: "Original message join not retained in this handoff; do not infer she carried every run or Mugen lacked general game skill."
   - text: "Ritha was one of Mugen's first friends in Dragon Raja."
     evidence: "user-confirmed"
     sources:
@@ -58,7 +69,11 @@ tags:
 
 Ritha belongs to UL's story before the server exists. She was one of Mugen's first Dragon Raja friends and later came into Underlords as part of the five-person founding circle with Mugen, WolfPhenix, Suzimasu, and HyaLuna. Her later roster history records her as a full Officer in the Consigliere / Senior Advisor lane; she is now retired from that role.
 
-The surviving personal archive is much thinner than the role history, and the bio should stay honest about that.
+Her strategy reputation and her casual conversations belong to the same person; neither should swallow the other.
+
+## THE STRATEGY WAS REAL
+
+Mugen remembers Ritha helping carry the early group through dungeon content. Before the later Senior Advisor title, she was already the friend whose game knowledge people could lean on. Mugen could be the Boss and still need Ritha's help in a fight; neither had to pretend otherwise.
 
 ## APRIL 2020 — THE ARCHIVE CATCHES AN EXISTING FRIENDSHIP IN AN ORDINARY CONVERSATION
 
@@ -72,4 +87,4 @@ The greeting is useful because nothing about it behaves like an introduction. Us
 
 Ritha later served as a full Officer and historical Consigliere / Senior Advisor. The archive does not currently provide a reliable dated promotion/departure sequence, so the page does not project that later rank back onto April 2020 or pretend the role is the only thing worth saying about her.
 
-For now, the biography is appropriately small: early Dragon Raja friendship → founding-circle origin → an opening-era glimpse of the person in ordinary fandom conversation → later senior Officer service → retirement. More evidence can deepen it later. It does not need filler in the meantime.
+The same friend who could help carry a dungeon could answer Mugen with `hiii mugs uwu`. Neither detail cancels the other.
