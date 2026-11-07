@@ -2,6 +2,15 @@ import type { Episode } from "./wiki";
 
 export const integratedEpisodes: Episode[] = [
   {
+    id: "pretty-corpses-return-2021-2026",
+    title: "The Pretty Corpses Return",
+    season: "2021–2026",
+    date: "May 2, 2021 → August 2026",
+    kind: "Running gag / corpse and reanimation language",
+    logline: "On the Wall in May 2021, Eos calls themself a `dead corpse` from exhaustion (838649091336437800). Mugen answers with a `cheers-to-our-pretty-corpses` Tenor reply (838651365168775169); Eos returns later as `this ded corpse always around for the taking` (838658011504836621). During the August 2026 Whiskey reunion, Wolf announces `de corpses are aliiive` and Rummy proposes reanimating the server. This is a documented earlier appearance of the house's resurrection humor, not proof of its invention or uninterrupted use in the intervening years.",
+    cast: ["Eos", "Mugen", "Wolf Phenix", "Rummy"]
+  },
+  {
     id: "tumbleweed-family-tree-returns-2026",
     title: "The Tumbleweed Family Tree Returns",
     season: "2020–2026",
