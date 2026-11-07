@@ -1,3 +1,10 @@
+## 2026-11-07 11:57 PST — Photo Submissions Eos Waltz parity
+
+- MAIN full REST census: 137 remote branches / 30 active miners / 51 tracked, zero advanced HEADs; branch state commit `9dcd007c68fc7b5120764a303793185b1ec2f9bc`.
+- Direct miner checkpoint and `site-candidate-2026-08-25-1145-waltz-participants-as-partners.md` reviewed on `archive-miner-photo-submissions-2021` HEAD `d45d441feca0110e9495f49b13df9666982bb45c`. Eos MAFIA post `835588639068782633`; Marian's WALTZ post `864701966230880266`.
+- WIKI `src/data/dossier-snapshots/eos.md` reader commit `67099920e2f709ec587ea75950974f02169a29b0`: adds structured role crossover and Marian's dated `my only` caption, without claiming romance, exclusive relationship, maker or capturer. Build `42408703877` and preview `42408703953` in progress at check; deployment **pending verification**.
+- MAIN Waltz narrative already contains counterpart/production scenes. Photo inventory commit `69e1bbf686795defb0e270c450a8aa544f8e8d5e` reconciles four named candidates; no duplicate MAIN reader prose. Photo miner consumed SHA remains `342ee5dfe77b0c6d1106f28eb557fd25ce67085b`, HEAD `d45d441feca0110e9495f49b13df9666982bb45c`. Club-Only 2021–2026 backlog still pending, original media uninspected.
+
 ## 2026-11-07 11:30 PST — BACKROOM Pass 60 Moments side-door WIKI episode
 
 - Full MAIN REST census: 137 remote branches, 30 active miners, zero new/advanced HEADs; MAIN census commit `e1c32e4a7847b32582f36955630e142764cd1966`. Ledger still 51 entries, five pending-publication families, one backlog family.
