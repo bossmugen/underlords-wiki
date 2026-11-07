@@ -32,6 +32,12 @@ claims:
     evidence: "user-confirmed"
     sources:
       - label: "Mugs-confirmed living role stack"
+  - text: "Rummy's old account posted eleven direct Photoshoot submissions across January–December 2021; after her January 8 caption, ten later submissions carried one attachment each and no accompanying message text."
+    evidence: "archive-confirmed"
+    date: "2021-01-08 – 2021-12-07"
+    sources:
+      - label: "BACKROOM Pass 50 · public photo-submissions · 797231738023706694, 805824317862051890, 811128763391148043, 828666002883477525, 833956441697550346, 843076109897433088, 850051335293632552, 877098876803379220, 894802484189614091, 901014419092422666, 918044463614545930"
+    note: "All eleven are POSTED BY Rummy's old account, not proof of who made, captured, or appears in the uninspected images."
   - text: "phenomenal_lamb_14960 is Rummy's pre-hack account identity."
     evidence: "user-confirmed"
     sources:
