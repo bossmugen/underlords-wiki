@@ -1,3 +1,9 @@
+## 2026-11-07 14:36 PST — Pretty Corpses reunion motif parity
+
+- August Reunion miner `archive-miner/aug-2026-living-ensemble-hourly`, Run 16 `hourly-2026-08-26-run16-site-candidates.md` and checkpoint reviewed directly. Receipts `838649091336437800`, `838651365168775169`, `838658011504836621` establish Eos/Mugen May 2021 Wall exchange; Wolf/Rummy August 2026 reunion endpoint was already integrated in MAIN `src/content/records-whiskey-2026.json` commit `b0643288`. WIKI gets a distinct structured episode, not duplicated MAIN copy.
+- WIKI `src/data/integrator-episodes.ts` commit `0137ee64adbcbcebe6d2052d4072f2acb55b400f`; reread confirmed. Build `42421462327` and preview `42421462322` queued at check; live publication **not certified**. Prior WIKI preview `42418287182` failed specifically in GitHub Pages deployment after successful build; do not confuse with content compile failure.
+- Full MAIN miner census 137 remote / 30 active, all 30 HEADs matched ledger; census commit `64ec5a35`. Main HQ and Club-Only checkpoints also inspected. No consumed SHA advanced. Main HQ / August Reunion accepted A/B dated overlays remain uncounted; source-blocked media and Alkey/Meowk attribution held.
+
 ## 2026-11-07 14:00 PST — Acoryuie / Juniper Photo Submissions parity
 
 - Direct Photo Submissions miner checkpoint reviewed; Colors `829140715128094720`, Mafia `835675459324870656`, Mugen welcome-back `854860607747391548`, January 2022 self-ID `937176973833285712`. Existing MAIN `src/content/people/acoryuie.md` already has the person-first story.
