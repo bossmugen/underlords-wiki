@@ -1,3 +1,9 @@
+## 2026-11-06 17:36 PST — Ansun split-surface verification follow-up
+
+- MAIN Ansun reader commit `438c418079b89c2ae5253a153095db86123b1058` passed production workflow `42319506316`, job `128240348771`, including **Verify, build, deploy, and confirm live commit**. This certifies the workflow's exact-commit deployment gate; no independent browser inspection was performed.
+- WIKI Ansun reader commit `e82abfba1fc47f155fa266e7f777575212a83fa7` passed Astro build workflow `42319517793`, job `128240386411`. Its same-commit preview `42319517876` was cancelled, but subsequent integration-state commit `fe6920e960a15199128f2300cebb596a67488710` passed both WIKI build `42319547102` and preview `42319547029`. This verifies a later preview containing the Ansun source, not an independent production deployment.
+- Full REST branch census rechecked: 137 branches, 30 miner HEADs, unchanged against MAIN `INTEGRATOR_BRANCH_STATE.json` (already persisted by concurrent 17:35 pass). No miner consumption SHA advanced. August Reunion Eos corpse candidate and Main HQ Rummy `be like water` candidate already exist on BOTH surfaces; no duplicate public prose added. Gabu/Plutonian media blocks and outstanding A/B inventory remain open.
+
 ## 2026-11-06 16:38 PST — Main HQ Ansun puppy procurement, split-surface reader repair
 
 - Full MAIN REST census: 137 remote / 30 active miner branches, 51 tracked, zero new/advanced; persisted at MAIN `5231c3fa1145d9d5946d330847d2c93057287e04`. Five pending-publication families and one backlog category remain; no consumed SHA advanced.
