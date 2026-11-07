@@ -1,3 +1,8 @@
+## 2026-11-07 15:57 PST — Photo Submissions DarkAsrai/Aizzy Popstar correction
+
+- Direct Photo miner cumulative `site-candidates-hourly.md`, 2026-08-25 03:45 PDT, identifies DarkAsrai's August 17 ferris-wheel entry as **Popstar**, not WALTZ. WIKI `src/data/dossier-snapshots/darkasrai.md` corrected in reader commit `18f3a3484b9854bba216d914b413e519ae406864`; exact source reread PASS. MAIN distinct person-first addition `src/content/people/darkasrai.md` commit `feb88edb7337a21636999cd494f97ae135a00302`; source reread PASS.
+- Aizzy is a named participant, not inferred romantic partner or image maker/capturer. Astro build, preview, live production verification pending. Photo miner consumed SHA held `342ee5df` against recorded `d45d441f`; remaining cumulative audit and Club-Only recovery open. Branch-name census 30 miners, current HEAD SHAs not exposed by connector search.
+
 ## 2026-11-07 14:36 PST — Pretty Corpses reunion motif parity
 
 - August Reunion miner `archive-miner/aug-2026-living-ensemble-hourly`, Run 16 `hourly-2026-08-26-run16-site-candidates.md` and checkpoint reviewed directly. Receipts `838649091336437800`, `838651365168775169`, `838658011504836621` establish Eos/Mugen May 2021 Wall exchange; Wolf/Rummy August 2026 reunion endpoint was already integrated in MAIN `src/content/records-whiskey-2026.json` commit `b0643288`. WIKI gets a distinct structured episode, not duplicated MAIN copy.
