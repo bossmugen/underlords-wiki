@@ -1,3 +1,9 @@
+## 2026-11-07 08:40 PST — BACKROOM Kahoot program MAIN publication pending verification
+
+- Fresh MAIN REST census: 137 remote branches, 30 active miner HEADs, all matched existing ledger; census commit `19204bc6756a6dbba1b1f8429d1b2fa64dd4b92f`.
+- BACKROOM `site-candidates-pass-59.md` and `receipts-pass-59.md` on `archive-miner/backroom-deals-2026-08-24` reconciled with MAIN `src/content/records-events.json`, WIKI Ren/Nelphie dossiers and previous integrator notes. MAIN added canonical `events/kahoot` reader record in commit `8a8bb660b59c9a9e348f09766a3c300943d1d279`, covering June 4 rules, June 6 ranked top four, July 14–15 second quiz and unranked winners, and August spelling-code fiasco. Source reread succeeded; Actions build/live deployment not yet verified. Receipt IDs: `850534904475418655`, `851168710680379422`, `864921845160214528`, `865313236172537866`, `873628678809088010`, `873686056938123284`, `874033999436189746`.
+- WIKI already carries Ren and Nelphie person-specific episodes; no duplicate biography text added. Dedicated WIKI program episode remains to be assessed. All images uninspected, poster posting not authorship, spelling Kahoot not conflated with Speeling Bee. BACKROOM consumed SHA remains `68d2fba7adda1f110a9be57013dd7712c450f82d`, HEAD `9c143a7c146af4fc90de4b258bee1c848a2818a0`; complete A/B remainder uncounted.
+
 ## 2026-11-07 08:16 PST — QOTD verification and full miner census
 
 - MAIN two-page REST census: 137 remote branches, 30 active miner branches, all HEADs equal ledger `last_seen_sha`; no new/advanced miner heads. Three remain unconsumed through HEAD (August Reunion, Backroom, Photo Submissions). MAIN census ledger commit `4e5c90fdfee9eba42e56e67022984f47847febec`; no consumed SHA advanced.
