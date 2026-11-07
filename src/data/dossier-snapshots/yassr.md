@@ -3,12 +3,23 @@ name: "Yassr"
 aliases:
   - "Sniperwolfxx"
   - "sniperr_wolfxx"
+pronouns: "he/him"
 roles:
   - "Game Officer"
 summary: "Yassr is a current Game Officer whose clean late-game archive behavior is extremely practical: Yassr notices that Conquest, Demo Club, or Scourge is becoming actionable and tells the room before the opportunity passes. When Sye points out that Saber already automates one reminder job, the answer is simply thank you and the useful game notices continue elsewhere."
 summaryEvidence: "archive-confirmed + canon-lock"
 publication: "public"
 claims:
+  - text: "Yassr is a man, per user-confirmed roster correction; his historical Yakko identity and Gilli invitation are recorded in the recovered person-first handoff."
+    evidence: "user-confirmed + archive-confirmed"
+    date: "2020"
+    sources:
+      - label: "Mugs roster correction and recovered Yassr person-first handoff"
+  - text: "In February 2021, when asked to choose an ISEKAI Mafia personality role, Yassr replied, 'Anything is fine. Just something useful.'"
+    evidence: "archive-confirmed"
+    date: "2021-02-20"
+    sources:
+      - label: "Recovered game-room slice · 2021-02-20"
   - text: "Current corrected roster canon files Yassr under Game Officers and resolves the Sniperwolfxx alias to the same character file. The `Sniper` string inside an alias is not itself evidence that Yassr belongs on the current Sniper shelf."
     evidence: "canon-lock"
   - text: "The recovered late Club-Only export resolves the account doing the October–November 2024 event notices to Discord user ID 1280861125105156208, username `sniperr_wolfxx`; Sye directly addresses that account as `Yassr`."
@@ -41,7 +52,7 @@ antiFanon:
   - "The late account bridge is supported by Sye directly calling the `sniperr_wolfxx` account Yassr in the same sequence; do not extend that bridge to unrelated similarly named accounts without independent evidence."
   - "The 2024 messages do not date Yassr's Game Officer appointment. Export-time role arrays are not promotion receipts."
   - "The current dossier is deliberately period-specific. Do not backfill a 2020–2023 personality arc from a late 2024 behavior run that has not yet been independently recovered."
-  - "The current source set does not establish pronouns strongly enough for this page to guess them."
+  - "Yassr is user-confirmed he/him; older uncertainty about pronouns is superseded by this hard correction."
 relatedPeople:
   - "sye"
 tags:
@@ -67,4 +78,11 @@ A month later the same account is back with a notice Saber cannot reduce to a no
 
 That recurrence is enough to give the late-period file a real shape. Conquest is approaching. Demo Club is approaching. Scourge has changed. Yassr notices that information has become actionable and pushes it toward the group before the opportunity passes. The current Game Officer title fits the behavior, but the biography does not backdate the appointment from three notices or invent a Party Director job because the messages involve events.
 
-The missing earlier years remain an actual research gap. They are not permission to manufacture a 2020–2023 personality arc from the 2024 account, and the current source set is also not strong enough to guess pronouns. For now Yassr is allowed to be specific and incomplete: current Game Officer, late stable-account bridge, recurring opportunity alerts, and one clean Sye handoff where UL's eternal solution to duplicated human labor is apparently **we already made a bot for that, bb**.
+Earlier material identifies him as **～Yakko～**, records Gilli inviting him into UL by late 2020, and catches his practical streak in a February 2021 ISEKAI-Mafia exchange: asked what role he wanted, he answered **“Anything is fine. Just something useful.”** This is an earlier scene, not a promotion date. His pronouns are **he/him**, confirmed by Mugs; the older uncertainty in this dossier was outdated. For now Yassr is allowed to be specific and incomplete: current Game Officer, late stable-account bridge, recurring opportunity alerts, and one clean Sye handoff where UL's eternal solution to duplicated human labor is apparently **we already made a bot for that, bb**.
+## Earlier identity and ordinary life
+
+- **2020:** Historical in-game name **～Yakko～**; joined UL following Gilli’s invitation, without a confirmed exact admission date.
+- **2021-02-20:** Asked for an ISEKAI-Mafia role, Yassr preferred simply to be useful.
+- **Petty Crimes:** Cooks regularly, but a lazy fallback is spaghetti with butter and ketchup. He has also described himself as not especially outdoorsy; a family cabin was remembered for reading, painting, eating, and sleeping without internet. No location is disclosed.
+
+The earlier material gives him a life beyond the notification pings without pretending the 2024 room welcome was his first day in UL. Source: recovered Yassr person-first handoff and MAIN `src/content/people/yassr.md` backstage claims.
