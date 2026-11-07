@@ -1,3 +1,9 @@
+## 2026-11-06 21:58 PST — Photo Submissions Anayss Beach handoff
+
+- Photo miner `archive-miner-photo-submissions-2021` at `d45d441f`, candidate `site-candidate-2026-08-25-0545-anayss.md`: Anayss Beach example `849378136923832320`, Gilli opens `849378339021520957` forty-eight seconds later, Anayss Beach submission `850859310183088128` four days later. This is a same-round contribution/entry, not an appointment or image authorship claim.
+- MAIN `src/content/people/anayss.md` commit `2db558ec8be9e6027af0da7a24f2d81bf8d2e219` carries person-first synthesis; WIKI `src/data/dossier-snapshots/anayss.md` commit `bc9727c8d1c1d699c9322cc3fef82457d3c01d1` carries structured chronology. No prose mirrored.
+- MAIN Actions `42344907777` queued; WIKI verification not yet confirmed. Both remain pending publication verification. Full REST census: 137 branches, 30 miners, no HEAD changes; MAIN census `ceff7ace3d1b373d23d28785e5d005fc7b5edaa2`. Photo miner consumed SHA held `342ee5df`; remaining A/B count unresolved.
+
 ## 2026-11-06 21:35 PST — Main HQ Aeshleen Wonho WIKI repair
 
 - Full MAIN REST census: 137 branches, 30 active miner HEADs unchanged, 51 tracked ledger entries; persisted MAIN census commit `b29166091c3d6ea3f04e57fc6b4df9e5bf51cd2b`. No consumed SHA advanced; five pending-publication families and one backlog category remain.
