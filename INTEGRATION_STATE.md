@@ -1,3 +1,10 @@
+## 2026-11-07 14:00 PST — Acoryuie / Juniper Photo Submissions parity
+
+- Direct Photo Submissions miner checkpoint reviewed; Colors `829140715128094720`, Mafia `835675459324870656`, Mugen welcome-back `854860607747391548`, January 2022 self-ID `937176973833285712`. Existing MAIN `src/content/people/acoryuie.md` already has the person-first story.
+- New WIKI dossier `src/data/dossier-snapshots/acoryuie.md`, reader commit `edb460dd448d731f4ff05420a15af3a3d9468cd5`, source reread passed. Build, preview, live publication still **pending verification**. Do not infer name-change mechanics, in-game admission date, formal role, or photo authorship.
+- Lilly/ButteryButtz already covered on both surfaces; no duplicate. Eos reader `67099920` exact build `42408703877` SUCCESS, preview `42408703953` CANCELLED; live unverified. MAIN inventory update `90e6ba3a`.
+- Photo miner consumed SHA unchanged at `342ee5df`; aggregate handoff audit and Club-Only recovery still outstanding. GitHub branch-name search was not SHA-complete.
+
 ## 2026-11-07 11:57 PST — Photo Submissions Eos Waltz parity
 
 - MAIN full REST census: 137 remote branches / 30 active miners / 51 tracked, zero advanced HEADs; branch state commit `9dcd007c68fc7b5120764a303793185b1ec2f9bc`.
