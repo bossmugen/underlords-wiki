@@ -1,3 +1,12 @@
+## 2026-11-06 16:38 PST — Main HQ Ansun puppy procurement, split-surface reader repair
+
+- Full MAIN REST census: 137 remote / 30 active miner branches, 51 tracked, zero new/advanced; persisted at MAIN `5231c3fa1145d9d5946d330847d2c93057287e04`. Five pending-publication families and one backlog category remain; no consumed SHA advanced.
+- Main HQ source `archive-intake/main-hq-2022-2026-tail-20260819/site-candidates-2026-08-26-1245.md` on `archive-miner/main-hq-hourly`. Wall receipts `1113653842811306037`, `1113654131400380416`, `1113654424074723370`, `1113654438037569617`, `1113656746456662097`, `1113656779730071622`. Daya's fur-suit petition, Ansun's $1000+ budget objection, Mia's Raja woof-suit alternative, and Daya's puppy verdict. No owned/worn costume or identity inference; screenshot uninspected.
+- MAIN person-first Petty Crimes + backstage claim `src/content/people/ansun.md` commit `438c418079b89c2ae5253a153095db86123b1058`. WIKI structured episode/claim `src/data/dossier-snapshots/ansun.md` commit `e82abfba1fc47f155fa266e7f777575212a83fa7`. Both committed sources reread PASS. MAIN Actions `42319506316`, WIKI build `42319517793` and preview `42319517876` pending at final verification; no deployed claim yet.
+- Previous Daya WIKI reader `28c5fa4` built successfully in `42313462185`; its initial preview `42313462252` was cancelled, while subsequent WIKI integration-state preview `42313490958` succeeded. This does not independently certify Daya's live production.
+- Previous MAIN Anayss reader `0f81b3c` failed `42306164997` at verification/deploy step, but later MAIN production workflow `42318231565` succeeded for newer commit `458b121`, suggesting the failure is not a persistent global build blocker. Exact Anayss commit's failed step log remains unavailable; do not backdate its exact deployment verification.
+- August Reunion/Main HQ base inventory still 22 headings with overlays uncounted. Gabu Health Mafia, Mugen/Sye Plutonian media/source-blocked; Alkey/Meowk attribution unresolved. Club-Only recovery checkpoint read, no branch delta consumed. No private officers-only material published.
+
 ## 2026-11-06 15:40 PST — Main HQ Daya operating-manual WIKI repair
 
 - Full REST census: 137 remote branches, 30 active miners, 51 tracked; no new or advanced HEAD. MAIN census commit `e321c19011d627ac02d92175c43b70e327014039`; no consumed SHA advanced.
