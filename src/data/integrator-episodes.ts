@@ -2,6 +2,15 @@ import type { Episode } from "./wiki";
 
 export const integratedEpisodes: Episode[] = [
   {
+    id: "ul-kahoot-2021-three-rounds",
+    title: "Kahoot: Know Your Clowns",
+    season: "2021",
+    date: "June 4 – August 8, 2021",
+    kind: "Club quiz series / rules, winners, and a spelling-code catastrophe",
+    logline: "Gilli opens UNDERLORDS KAHOOT on June 4 as a test of whether members know their own club, complete with IGN checks, a one-attempt limit, an anti-alt rule, and escalating warnings. The June 6 results announce Eos first, RyuuUzu second, °Killua° third, and NintendoShitcube fourth, despite the original top-three prize plan; why four winners were announced is unknown. Anthos announces the explicitly second quiz on July 14, and Sou names Shinn, Nelphie, and Zyrcant as its three winners on July 15 without ranking them individually. Then Ren opens an August spelling Kahoot with `OPEN UWUWUWU!!!`, corrects the poster code, asks Staff for forgiveness, and the next day discovers the code is still wrong and tells everyone to redo the quiz. The spelling variant is separate from the earlier club-knowledge rounds and is not silently equated with Speeling Bee. Announcement receipts: 850534904475418655, 851168710680379422, 864921845160214528, 865313236172537866, 873628678809088010, 873686056938123284, 873686142720024686, 874033999436189746. Poster attachments remain uninspected; POSTED BY does not establish MADE BY.",
+    cast: ["Gilli", "Eos", "RyuuUzu", "Killua", "NintendoShitcube", "Anthos", "Sou", "Shinn", "Nelphie", "Zyrcant", "Ren"]
+  },
+  {
     id: "no-molester-misread",
     title: "The No Molester Misread",
     season: "2026",
