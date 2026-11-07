@@ -2,6 +2,15 @@ import type { Episode } from "./wiki";
 
 export const integratedEpisodes: Episode[] = [
   {
+    id: "tumbleweed-family-tree-returns-2026",
+    title: "The Tumbleweed Family Tree Returns",
+    season: "2020–2026",
+    date: "September 2020 → August 2026",
+    kind: "Recurring family-map joke / old visual ritual returns at the reunion",
+    logline: "Anthos posts an attachment named `Underlords_Tumbleweed.png` in September 2020 and talks about updating the family map. During the August 2026 Whiskey reunion, Rummy posts a crowded family-tree image, calls the project `the *trees*`, and complains that nobody can see the names. Mugen's `GAHDAMN` is a fair editorial review. The two moments belong to the same recurring family-map joke, but the original image binaries have not been compared: this does not establish that Rummy edited Anthos's exact 2020 file. The family language is a social bit, not biological genealogy. Receipts: 760563376576528465, 760574158777221150, 760575692994904096, 1537210081467441232.",
+    cast: ["Anthos", "Rummy", "Mugen"]
+  },
+  {
     id: "moments-submission-side-door-2021",
     title: "The Moments Side Door",
     season: "2021",
