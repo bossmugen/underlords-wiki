@@ -21,6 +21,16 @@ claims:
     sources:
       - label: "Mugs-confirmed Moon account mapping"
     note: "These mappings supersede earlier uncertainty around `marcy` / `marmar` QOTD footer credits."
+  - text: "Moon introduced herself in Lobby on January 6, 2022 as `Moon月` of Underlords. On August 22 she asked `What is a ign?`, and Ren answered `In game name`. By March 30, 2025, Mugen was crediting Moon with keeping the QOTD Barista supplied for months. Her later manual hosting was an extension of work she had already been doing quietly."
+    evidence: "archive-confirmed"
+    date: "2022-01-06 – 2025-03-30"
+    sources:
+      - label: "🏮 Lobby · Moon introduction · 2022-01-06"
+        href: "/channels/lobby"
+      - label: "🏮 Lobby · Moon and Ren · 2022-08-22"
+        href: "/channels/lobby"
+      - label: "💼 Main HQ · Mugen credits Moon's Barista maintenance · 2025-03-30"
+    note: "Main HQ receipt 1355811373707165757; Lobby receipts 928566263440085002, 1011434452095873164, 1011434485927129199. The question about IGN was a single ordinary moment, not a lasting incompetence trait. No formal Barista appointment date is inferred."
   - text: "On September 8, 2022, after announcing that she had found Dream hiding shrooms, Moon wrote `I am a moon,so i see all` on the Wall."
     evidence: "archive-confirmed"
     date: "2022-09-08"
