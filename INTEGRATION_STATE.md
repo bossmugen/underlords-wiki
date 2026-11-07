@@ -1,3 +1,10 @@
+## 2026-11-07 09:15 PST — QOTD Panda link verification resolved by later production build
+
+- Full MAIN REST branch census: 137 remote / 30 active archive miners, no new or advanced HEADs. MAIN census commit `1a4ae3e16533d04ed1d5d8f436fe012f69eeb88e`. Three unconsumed branch HEADs: Photo Submissions, August Living Ensemble, Backroom.
+- QOTD checkpoint read directly on `archive-miner-qotd-officers-20260824`; Club-Only 2021–2026 recovery checkpoint read directly. QOTD accepted A/B remainder still not certified; Club-Only later-year retrieval remains blocked. No new QOTD lore published.
+- Earlier Panda MAIN `a0d8f48a` production run `42385579071` failed. GitHub compare proves later successful commit `8ab753ef73972659d1e3bd92590cff2e83ff675c` descends from it (ahead 8, behind 0), and explicitly replaces the speculative `/channels/question-of-the-day` href with a backstage note because no dedicated public channel route was verified. Later production run `42393962052`, job `128467261859`, succeeded including exact build/deploy/live-confirm step. Therefore the **current safe Panda source-note correction** is production-verified; the original broken-route change is superseded, not certified successful. No WIKI mirror needed.
+- No consumed SHA advanced; no new reader content authored in this pass. Restricted Officers/Voice and uninspected media remain held.
+
 ## 2026-11-07 08:40 PST — BACKROOM Kahoot program MAIN publication pending verification
 
 - Fresh MAIN REST census: 137 remote branches, 30 active miner HEADs, all matched existing ledger; census commit `19204bc6756a6dbba1b1f8429d1b2fa64dd4b92f`.
