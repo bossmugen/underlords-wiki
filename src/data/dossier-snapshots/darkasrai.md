@@ -67,7 +67,7 @@ At home, the cats were not remotely interested in agreeing on a personality. One
 
 ## Episodes · Aizzy at the ferris wheel
 
-**August 17, 2021:** DarkAsrai submitted a WALTZ Photoshoot entry captioned `Posing with @Aizzy on the ferris wheel` (Backroom Pass 24; attachment `1629108787753-12cd3d53deb26557.png`). The submission received ten `4415_SakuraHeartEyes` reactions among its response trail. This is a shared, named event appearance; the uninspected image does not establish who made or captured it, nor any romance between the participants.
+**August 17, 2021:** DarkAsrai submitted a POPSTAR Photoshoot entry captioned `Posing with @Aizzy on the ferris wheel` (Backroom Pass 24; attachment `1629108787753-12cd3d53deb26557.png`). The submission received ten `4415_SakuraHeartEyes` reactions among its response trail. This is a shared, named event appearance; the uninspected image does not establish who made or captured it, nor any romance between the participants.
 
 ## Episodes · New Year's combat check
 
