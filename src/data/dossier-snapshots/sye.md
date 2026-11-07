@@ -145,13 +145,13 @@ claims:
     date: "2026-08-04"
     sources:
       - label: "Club media gallery"
-  - text: "On January 6, 2021, Sye posted a New Year Photoshoot entry after saying `Only came on to do this` and `Took me a hundred tries...`; on January 31, the same account posted an `Example Photos` header with an attachment and two further reference images about thirteen minutes later."
+  - text: "On January 6, 2021, Sye posted a New Year Photoshoot entry after saying `Only came on to do this` and `Took me a hundred tries...`, then included the hopeful line `Let the sparks of life bring us into new light and new beginnings.` in the submission. On January 31, the same account posted an `Example Photos` header with an attachment and two further reference images about thirteen minutes later."
     evidence: "archive-confirmed"
     date: "2021-01-06 – 2021-01-31"
     sources:
       - label: "Photo Submissions · January 2021; miner site-candidates.md, Sye example-photo sequence"
         href: "/events/photo-submissions"
-    note: "The three example images were POSTED BY Sye; MADE BY, CAPTURED BY, and FEATURING are not established. This is participation followed by reference-image posting, not evidence of a newly appointed formal role."
+    note: "The New Year line was POSTED BY Sye; original quotation authorship is not established. The three example images were POSTED BY Sye; MADE BY, CAPTURED BY, and FEATURING are not established. This is participation followed by reference-image posting, not evidence of a newly appointed formal role."
 antiFanon:
   - "Do not split Life, Syenitha, Sadako, sycessences, and ƐℲı˥ into separate people."
   - "Do not merge Sye with Syv. The corrected September 2020 Saber config and November 2022 maintenance relay are authored by Sye's 488099199938986004 / sycessences account; Syv's stable account is the separate 197521779177029632 / syveon."
