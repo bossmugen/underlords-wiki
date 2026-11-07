@@ -83,6 +83,13 @@ claims:
     sources:
       - label: "🧱 Wall · 2024-04-20"
         href: "/channels/wall"
+  - text: "Aeshleen declared `WONHO SUPREMACY` in an April 2021 Wall exchange. Baby Lyssa asked `who's wonho`; Aeshleen replied `...`, and Lyssa answered `uh oh`."
+    evidence: "archive-confirmed"
+    date: "2021-04"
+    sources:
+      - label: "🧱 Wall · Aeshleen / Baby Lyssa Wonho exchange"
+        href: "/channels/wall"
+    note: "Main HQ site-candidates-2026-08-26-1845.md; messages 836553045453045780, 836553087870304297, 836553136746528798, 836553161363816538. This is a fandom joke, not a UL-wide running gag or evidence of a personal relationship with Wonho."
 antiFanon:
   - "Aeshleen is a woman and is French; Aesh and aεsh¡! are aliases/display forms, not separate people."
   - "Aeshleen's Staff status is historical/archive-era canon. Do not silently place her on the current living Staff shelf without a current-roster update."
@@ -138,3 +145,7 @@ That turn is the character evidence. The broken-heart language performs injury l
 The Wall repeatedly catches Aeshleen trying to repair the room's interpretation of whatever it has just preserved. In 2023: **`for the record. we were talking about law, zoro, robin, boa and luffy.`** In 2024: **`FOR THE CONTEXT`** after naming the current fandom discussion.
 
 Mugs's background lock makes the recurring One Piece material less accidental: Aeshleen is a French woman, a historical Staff member, a One Piece fan, and somebody who loves Mugen. The archive does not need to invent more intimacy than that. It already has enough to explain why a Luffy hat can appear in the middle of a Wall repair scene and still make immediate social sense.
+
+## Petty Crimes
+
+**Wonho supremacy.** Aeshleen announces the fandom verdict; Baby Lyssa asks who Wonho is. Aeshleen's entire rebuttal is `...`. Lyssa's `uh oh` closes the exchange. No explanation needed: the silence has already told her she asked the wrong person the wrong question.
