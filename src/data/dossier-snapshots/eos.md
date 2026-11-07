@@ -47,6 +47,13 @@ claims:
     sources:
       - label: "Wall · 994781869201707119, 994782107131969607, 994782339211202633, 994782475530272848, 994782614244294717, 994782662965342328"
         href: "/channels/wall"
+  - text: "Eos independently submitted a MAFIA Photoshoot entry on April 24, 2021; on July 13 Marian named the same stable Eos account as 'my only' in Marian's WALTZ partner submission."
+    evidence: "archive-confirmed"
+    date: "2021-04-24 → 2021-07-13"
+    sources:
+      - label: "Photo Submissions · Eos 835588639068782633; Marian 864701966230880266"
+        href: "/events/photo-submissions"
+    note: "Eos POSTED the MAFIA entry; Marian POSTED and SAID 'my only' in WALTZ. This establishes a named counterpart and two contestant roles, not image authorship, a romantic relationship, or exclusivity."
 antiFanon:
   - "EnyoCal and Eos are bridged by the stable account; do not infer a separate admission or rejoin date."
   - "The May 2021 corpse exchange is not proof of the origin or uninterrupted use of the 2026 reanimation joke."
@@ -84,9 +91,12 @@ Eos was not especially interested in making a grand entrance. The Lobby saw the 
 | 2020-12-06 / 2021-01-30 | Lobby appearances as EnyoCal and Eos |
 | 2021-04 | Computer-science graduation countdown and school stories |
 | 2021-05-02 | Eos's dead-corpse complaint becomes Mugs's pretty-corpses toast |
+| 2021-04-24 / 2021-07-13 | Eos enters MAFIA independently, then becomes Marian's named WALTZ counterpart — “my only” was Marian's caption, not a relationship certificate |
 | 2021-05–2022-02 | Marian's Wall-shame campaign, Eos's counter-posts, and the shared joke |
 | 2022-04-18 | Eos names Gilli as their reason for joining UL |
 | 2022-07-07 | Eos joins Noether’s hamcito mock-prosecution on the Wall |
+
+The Photoshoot made the overlap literal: Eos posted a MAFIA entry under their own account, then appeared by name in Marian's WALTZ submission. Marian's **“my only”** gave the dance card its affectionate swagger. Eos wasn't just a name on someone else's entry; they were also a contestant with their own submissions. The pictures remain uninspected, so the caption does the talking.
 
 ## Running Gags
 
