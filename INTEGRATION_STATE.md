@@ -1,3 +1,11 @@
+## 2026-11-07 07:35 PST — Main HQ Moon Lobby-to-Barista chronology
+
+- MAIN full GitHub REST census: 137 remote branches, 30 active miner HEADs, 51 tracked entries; all 30 matched current ledger. Census commit `9c50d819adba72bc27e62b2489114bd55b9f9e5d`; no consumed SHA advanced.
+- Read August Reunion `checkpoint.md` / `site-candidates.md`, Main HQ `checkpoint.md` / `site-candidates-2026-08-26-2310.md`, and Club-Only 2021–2026 `checkpoint.md` directly on their miner branches. Main HQ Moon candidate receipts `928566263440085002`, `1011434452095873164`, `1011434485927129199`, `1355811373707165757` restore her 2022 Lobby self-introduction, Ren explaining IGN, and Mugen's 2025 acknowledgment of months of Barista maintenance. No formal title appointment inferred.
+- MAIN Moon biography already carries the larger person-first QOTD work and relationship history; WIKI `src/data/dossier-snapshots/moon.md` was missing this concise prehistory. WIKI reader commit `992210a5b2ece2bd520414fa39a5160321df5338`; exact source reread passed. Astro/preview runs `42386886122` / `42386886070` queued; production not certified. This candidate remains pending verification and publication; full Main HQ family consumption cursor remains held.
+- MAIN newest production workflow `42385579071` for concurrent Panda QOTD route commit `a0d8f48a` FAILED at `Verify, build, deploy, and confirm live commit`. Earlier MAIN reunion callback `9739e265` passed workflow `42382397281`. Failure root cause requires job log or local build; do not certify latest MAIN live.
+- August Reunion/Main HQ backlog remains open, with uncounted dated overlays and media-blocked Gabu Health Mafia, Mugen/Sye Plutonian, and Oyasumi/Ansun original prank. Alkey/Meowk attribution and deeper Club-Only recovery still pending. No private officers-only material published.
+
 ## 2026-11-07 01:30 PST — BACKROOM Pass 59 Ren spelling-Kahoot parity
 
 - Full MAIN REST census: 137 remote branches / 30 active miner branches; all current HEAD SHAs matched ledger. MAIN census commit `3f3247035e74967c5286c13c97d6539d6d7d7566`.
