@@ -12,6 +12,13 @@ summary: "Ren's archive progression starts with her using Slice for the same soc
 summaryEvidence: "inferred"
 publication: "public"
 claims:
+  - text: "On May 13, 2021, Ren submitted a Relax photo captioned solely with two animated server custom emotes, `:tmirusnyarelax: :ymiruspandarelaxed:`. The surviving message was edited about 12.7 seconds after posting; the pre-edit wording is unavailable."
+    evidence: "archive-confirmed"
+    date: "2021-05-13"
+    sources:
+      - label: "Photo Submissions · Relax · 842600913633148938"
+        href: "/events/photo-submissions"
+    note: "Ren POSTED the attachment 842600913410457600; image maker/capturer and identities of the two depicted people are unresolved. The edit cannot be reconstructed. Custom-emote-only captions also recur in Ghostt’s October Scary post, without proving a formal rule or shared origin."
   - text: "On June 25, 2021, Gabu recalled Ansun and RV losing Mugs's corpse; Ren called it the first day of `corpse.Inc` and joked `Amber alert LOSE CORPSE`."
     evidence: "archive-confirmed"
     date: "2021-06-25"
@@ -308,3 +315,11 @@ On January 19, 2023, the Lobby bot started processing FuentesKaede. Ren was alre
 In May 2022, Ren put Mugen's `hope everyone has eaten their breaststroke` on the Wall. Rich called it a shame war; Rummy was already repeating the mangled word. In August 2026 Ren brought the same visible crop back. A useful little exhibit in how the Wall worked: a typo could outlive the game conversation, and Ren was exactly the person to keep its paperwork.
 
 **Receipts:** Wall `973675315169738804`, `973676738573918298`, `1537087561283928194`. The original game-message date and screenshot capturer remain unknown.
+
+## RELAX — A caption made of two emotes
+
+**Episode:** May 13, 2021 · Photo Submissions · message `842600913633148938` · attachment `842600913410457600`.
+
+Ren's Relax entry paired a photograph of two people lounging on beanbags with `:tmirusnyarelax: :ymiruspandarelaxed:`. Both are animated Discord custom emotes; the stored names carry the mood without an explanatory sentence. She edited the post roughly thirteen seconds later, but the export keeps only its final form. The two people in the image are unidentified, and posting it does not establish who made or captured it.
+
+**Running-gag / platform-language crosslink:** Ghostt used `:worryShrug1::worryShrug2:` as the complete caption on a Scary submission five months later (`900159114997530644`). Two different members could let UL's own emoji vocabulary do the talking. That is a recurring presentation trick, not a documented Photoshoot rule or evidence that either set of emotes originated with these submissions.
