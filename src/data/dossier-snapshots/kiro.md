@@ -165,6 +165,10 @@ Gilli is one of the clearest recurring counterparts in Kiro's receipt game. Her 
 
 The later join is contextual rather than structural, so the dossier keeps it probable. The social read does not need inflation: Gilli and Kiro repeatedly understand the Wall as something they can do *with* each other, whether that means checking whether the petty operation succeeded or converting Kiro himself into the exhibit.
 
+### Ansun knows the defendant
+
+On April 4, 2023, two days after the `Who's kiro` routine, Ansun left Kiro a message on the Wall: **`Hi kiro if you see this i love you youre so unserious`** (`1092939466261397607`). It is a direct, affectionate reaction to the kind of nonsense Kiro had been performing, not a formal relationship label. Ansun recognizes the person behind the name-game and calls the behavior exactly what it is. This is a useful counterweight to Daya's exasperation: the same identity joke can make one friend give up and another send love.
+
 ## IDENTITY PLAY — WHO'S KIRO
 
 The April 2023 scene works because everybody involved already knows the answer. Daya asks, **`LMAO is @HicUUOOOOGH kiro`**. Kiro answers **`N-n-n-no..`**. Momo says **`Yeppers`**. Kiro immediately follows with **`Who's kiro`**. Daya gives up: **`i cant keep track anymore 🤣😭`**.
