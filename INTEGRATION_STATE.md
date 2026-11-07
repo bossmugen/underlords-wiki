@@ -1,3 +1,8 @@
+## 2026-11-06 19:30 PST — BACKROOM Pass 50 Rummy Photoshoot recurrence
+
+- MAIN `src/content/people/rummy.md` reader `06591187bc382587d8c032ef0494e4e0af2f76cf` adds person-first January–December 2021 eleven-submission pattern; WIKI `src/data/dossier-snapshots/rummy.md` reader `da3c94244313e68a9b4fcb73a87d27944f8c755a` adds structured claim. Source `archive-intake/chat-2026-08-24-backroom-batch-miner/site-candidates-pass-50.md` and `receipts-pass-50.md` on `archive-miner/backroom-deals-2026-08-24`, first message `797231738023706694`, last `918044463614545930`. All eleven images uninspected; attribution POSTED BY only.
+- Build, preview, and live verification pending; BACKROOM last consumed SHA remains `68d2fba7adda1f110a9be57013dd7712c450f82d`, last recorded HEAD `9c143a7c146af4fc90de4b258bee1c848a2818a0`. Remaining A/B inventory not counted. No miner merge.
+
 ## 2026-11-06 18:30 PST — BACKROOM Corpse.Inc split-surface publication
 
 - BACKROOM `site-candidates-pass-49.md` from `archive-miner/backroom-deals-2026-08-24`: Gabu `858064680127037481`, Ren `858064810973724702` and `858064887895687178` identify the June 25, 2021 retrospective about Ansun/RV losing Mugen's game corpse, `corpse.Inc`, and `Amber alert LOSE CORPSE`. Original incident date and connection to Pride's distinct lost-body story remain unresolved.
