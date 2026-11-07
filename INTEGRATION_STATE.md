@@ -928,3 +928,10 @@ Photo miner `archive-miner-photo-submissions-2021`, last-known HEAD `d45d441feca
 - MAIN `src/content/people/ephxs.md` created at commit `9c36d6cacdf182c41de2482f259c4775c62790de`, source BACKROOM `site-candidates-pass-60.md`, receipts `871220461395124304`, `871220484782567425`, `871220485453651979`, `879237597300408341`, `928732197270220860`.
 - WIKI existing `src/data/dossier-snapshots/ephxs.md` already has the Ghoulie-first Lobby exchange, Gilli's Moments post and January welcome-back. No duplicate WIKI reader edit. MAIN narrative and WIKI dossier remain distinct.
 - MAIN source reread PASS; Actions run `42351684109` queued at first check, production not verified. No consumption SHA advance. BACKROOM HEAD `9c143a7c146af4fc90de4b258bee1c848a2818a0`, consumed through `68d2fba7adda1f110a9be57013dd7712c450f82d`. A/B remainder uncounted; uninspected media and private material held.
+
+
+## 2026-11-07 00:34 PST — BACKROOM Reiinnaa MAIN biography restoration
+
+- BACKROOM Pass 60 `site-candidates-pass-60.md` on `archive-miner/backroom-deals-2026-08-24`, Lobby receipts `887091618992242740`, `887091961109049395`, `891842910838988800`, `891843127713890355`; Photoshoot `887271925544546344`.
+- MAIN created `src/content/people/reiinnaa.md` commit `eb14c1e37e872a74eccae1255cbe36f3d1b17b58`; committed source reread PASS. WIKI already has structured `src/data/dossier-snapshots/reiinnaa.md` so no duplicate dossier edit.
+- MAIN Astro build and exact production deployment pending verification; no consumed SHA advanced. Image remains uninspected; no invented submission pipeline or account merge. BACKROOM full accepted A/B remainder remains uncounted.
