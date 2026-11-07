@@ -1,3 +1,9 @@
+## 2026-11-06 18:30 PST — BACKROOM Corpse.Inc split-surface publication
+
+- BACKROOM `site-candidates-pass-49.md` from `archive-miner/backroom-deals-2026-08-24`: Gabu `858064680127037481`, Ren `858064810973724702` and `858064887895687178` identify the June 25, 2021 retrospective about Ansun/RV losing Mugen's game corpse, `corpse.Inc`, and `Amber alert LOSE CORPSE`. Original incident date and connection to Pride's distinct lost-body story remain unresolved.
+- WIKI `src/data/dossier-snapshots/ren.md` updated with structured episode and backstage claim in `7ebb5c63f878035202194d93e44f1ffdcb43a48e`; MAIN `src/content/people/ren.md` folded the same into person-first biography in `0a7da2651d7ed930d88dd6aa3c91195df5a6d1c8`. Both committed source rereads passed.
+- Actions commit-run lookup returned empty for both commits; build, preview, and live production verification remain pending. No consumed SHA advanced; BACKROOM accepted A/B remainder remains uncounted. No miner branch was merged.
+
 ## 2026-11-06 17:36 PST — Ansun split-surface verification follow-up
 
 - MAIN Ansun reader commit `438c418079b89c2ae5253a153095db86123b1058` passed production workflow `42319506316`, job `128240348771`, including **Verify, build, deploy, and confirm live commit**. This certifies the workflow's exact-commit deployment gate; no independent browser inspection was performed.
