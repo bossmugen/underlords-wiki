@@ -1,3 +1,10 @@
+## 2026-11-07 08:16 PST — QOTD verification and full miner census
+
+- MAIN two-page REST census: 137 remote branches, 30 active miner branches, all HEADs equal ledger `last_seen_sha`; no new/advanced miner heads. Three remain unconsumed through HEAD (August Reunion, Backroom, Photo Submissions). MAIN census ledger commit `4e5c90fdfee9eba42e56e67022984f47847febec`; no consumed SHA advanced.
+- QOTD and Club-Only 2021–2026 checkpoints read directly from miner branches. QOTD individual A/B remainder not certified; restricted Officers/Voice and uninspected Ren media held. Club-Only later-year retrieval remains blocked.
+- MAIN Panda QOTD source-route reader commit `a0d8f48a1ce61374131d579ccf7ee16bbed772d5` FAILED production workflow `42385579071`, job `128442131648`, step 7 `Verify, build, deploy, and confirm live commit`. Checkout, npm ci and Cloudflare credential checks succeeded. GitHub connector log fetch returned empty; exact failure unresolved. Panda fix must remain pending verification, not claimed deployed.
+- WIKI Moon dossier commit `992210a5b2ece2bd520414fa39a5160321df5338`: Astro/build workflow `42386886122` SUCCESS and preview workflow `42386886070` SUCCESS. Preview/build verified, not independently confirmed live production. No new WIKI reader content this pass.
+
 ## 2026-11-07 07:35 PST — Main HQ Moon Lobby-to-Barista chronology
 
 - MAIN full GitHub REST census: 137 remote branches, 30 active miner HEADs, 51 tracked entries; all 30 matched current ledger. Census commit `9c50d819adba72bc27e62b2489114bd55b9f9e5d`; no consumed SHA advanced.
