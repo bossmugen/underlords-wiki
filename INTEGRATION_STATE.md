@@ -1,3 +1,8 @@
+## 2026-11-07 17:03 PST — Photo Submissions Han opening parity
+
+- Direct Photo miner `archive-miner-photo-submissions-2021` cumulative `site-candidates-hourly.md` (2026-08-25 03:45 PDT): Han's August 21 Popstar opener `Ok lets give it a try` and five-seconds-later `XD` precede his existing five-entry/retirement-return arc. MAIN `src/content/people/han.md` already carried this at `f6603259445eb31d56f59f2485be073c3fbaaecd`; exact MAIN production workflow `42423390349` SUCCESS. WIKI `src/data/dossier-snapshots/han.md` now has distinct structured claim and brief narrative at reader commit `b5381adc4ee324629173b5b011deee1d0e9285e5`; build `42432557991` and preview `42432558102` queued, live NOT certified.
+- MAIN full REST branch census: 137 remote, 30 active miner branches, zero new or advanced HEADs; persisted at `c49fff532e8cc97986683a2007dddf9666da09f0`. Photo consumed `342ee5df` versus HEAD `d45d441f` remains held for cumulative incident audit. Club-Only recovery remains outstanding. Previous DarkAsrai correction WIKI build `42427607888` and later descendant preview `42427637113` both SUCCESS; exact independent live check not established.
+
 ## 2026-11-07 15:57 PST — Photo Submissions DarkAsrai/Aizzy Popstar correction
 
 - Direct Photo miner cumulative `site-candidates-hourly.md`, 2026-08-25 03:45 PDT, identifies DarkAsrai's August 17 ferris-wheel entry as **Popstar**, not WALTZ. WIKI `src/data/dossier-snapshots/darkasrai.md` corrected in reader commit `18f3a3484b9854bba216d914b413e519ae406864`; exact source reread PASS. MAIN distinct person-first addition `src/content/people/darkasrai.md` commit `feb88edb7337a21636999cd494f97ae135a00302`; source reread PASS.
