@@ -98,3 +98,9 @@ In March 2023, Rich posted another image involving Cele and got `AKAKCKWFKWJ` ba
 ## Petty Crimes
 
 The permanent username typo. The affectionate bullying doctrine. Daycare snacks strong enough to make a missing-milk-parent situation tolerable. A personal emergency vocabulary consisting partly of screaming cats. Cele has a talent for making her own reaction the thing everyone remembers.
+
+## Photoshoot participation — 2021
+
+Cele's former `Celeana` account submitted Photoshoot entries on seven recovered dates: February 7 (`808039373513293834`), March 12 (`820150618211090442`), April 21 (`834574613669347397`), May 16 (`843665389116194866`), June 6 (`851305802828742667`), June 18 (`855555787966906388`), and October 10 (`896939140321533962`). The June 18 STALKER caption was `just the daily tree climbing to spy on ppl✨👅✨`. This documents repeated creative participation, not a formal media appointment or literal surveillance. Attachment subjects remain uninspected.
+
+Source: Backroom Pass 22, `receipts-pass-22.md`; Photo Submissions message `855555787966906388`. The legacy Celeana dossier retains the detailed media reference until route and inbound-link consolidation is verified.
