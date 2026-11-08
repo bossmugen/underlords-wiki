@@ -1,3 +1,9 @@
+## 2026-11-08 — Photo Submissions Gilli/Ren shared August example handoff
+
+- Direct miner `archive-miner-photo-submissions-2021` `checkpoint.md` and `site-candidates-hourly.md` reviewed. Candidate `Gilli and Ren overlap on Aug. 1 instead of one person owning the job`: Gilli posted an example attachment at 15:16:21 on 2021-08-01; Ren posted another standardized example header 22 seconds later. Shared work, not exclusive office or image authorship.
+- WIKI reader `src/data/dossier-snapshots/gilli.md` commit `add42d02e91014bce2efadb5694f3adf7a128bb1`; source reread PASS. MAIN already covers the larger recurring example-photo collaboration; no duplicate MAIN prose. Exact WIKI build/preview/live verification pending.
+- Branch-name census found 30 active miner names; the connector did not expose HEAD SHAs, so no SHA-complete census is claimed. Photo consumed remains `342ee5dfe77b0c6d1106f28eb557fd25ce67085b` vs recorded HEAD `d45d441feca0110e9495f49b13df9666982bb45c`; cumulative handoff audit still open. Club-Only recovery and inaccessible media/missing parents remain open.
+
 ## 2026-11-07 19:30 PST — BACKROOM Pass 35 Celeana Wall joke
 
 - Full MAIN GitHub REST census: 137 remote branches, 30 active miner branches, zero new/advanced HEADs; census MAIN commit `ed761f31b3d382b229d2360da772957fb05da4c8`. BACKROOM HEAD `9c143a7c`, consumed through `68d2fba7` unchanged.
