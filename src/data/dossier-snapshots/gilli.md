@@ -61,6 +61,13 @@ claims:
     sources:
       - label: "Photo Submissions · themed visual cycles"
         href: "/events/photo-submissions"
+  - text: "On August 1, 2021, Gilli posted an `Example Photos` attachment at 15:16:21; twenty-two seconds later Ren posted another `Example Photos` header. The same task was visibly shared rather than belonging exclusively to either person."
+    evidence: "archive-confirmed"
+    date: "2021-08-01"
+    sources:
+      - label: "Photo Submissions · August 1 example-photo handoff"
+        href: "/events/photo-submissions"
+    note: "Photo Submissions miner site-candidates-hourly.md, `Gilli and Ren overlap on Aug. 1 instead of one person owning the job`. Gilli posted an attachment and Ren a standardized header; image creation/capture and formal office are not inferred."
   - text: "On July 31, 2021, Ephxs interrupted Lobby club paperwork to ask \u0060Who has my ghoulie?👀\u0060; Gilli answered \u0060Oh we do LMAOO\u0060 before Ephxs supplied Ethereal as their club. On August 22, Gilli posted a public Photoshoot entry labeled \u0060Photo Moments Submission: Ephxs\u0060."
     evidence: "archive-confirmed"
     date: "2021-07-31 – 2021-08-22"
