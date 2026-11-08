@@ -1,3 +1,8 @@
+## 2026-11-08 12:00 PST — Lilly Photoshoot discoverability parity
+
+- MAIN Lilly person file gained `photoshoot` and `lonely-theme` discovery tags at reader commit `e4f5fc9f88f687b16d82e416b25ebf0144667d85`, based on February 17, 2021 Lonely post `811708075354226768`. WIKI `src/data/dossier-snapshots/lilly.md` already carries both tags and the structured dated claim, so no duplicate wiki reader change. MAIN source reread passed; build/live verification pending (commit-run lookup returned no runs).
+- Direct Photo Submissions miner checkpoint and cumulative candidate handoffs consulted. Branch-name census 30 miners; current HEAD SHA certification not available from branch-search result. Photo consumed cursor held at `342ee5df` against previously recorded `d45d441f`. Full A/B inventory and source-blocked image/reply parents remain open. MAIN inventory commit `635d4bc8e40888b6f29b759c6fd8ae3185672960`.
+
 ## 2026-11-08 11:40 PST — August Reunion Moon friend-shaped wildlife publication pending verification
 
 - Source: `archive-miner/aug-2026-living-ensemble-hourly`, `archive-intake/aug-2026-living-ensemble-reunion-2026-08-19-2303-pdt/hourly-2026-08-26-run17-site-candidates.md`, Whiskey receipts `1536931567740391479`, `1536931733692219513`, QOTD receipts `1537155737007038588`, `1537275152788881408`.
