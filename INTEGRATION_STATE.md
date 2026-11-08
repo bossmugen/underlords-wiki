@@ -1121,3 +1121,11 @@ Photo miner `archive-miner-photo-submissions-2021`, last-known HEAD `d45d441feca
 
 - Photo miner cumulative `site-candidates-hourly.md` Grimlee four-round return reviewed directly. MAIN lacked a Grimlee page; MAIN `src/content/people/grimlee.md` created at `e95860caff35aa4ba846a92775100e511efbbd36`, production workflow `42503438075` pending. WIKI `src/data/dossier-snapshots/grimlee.md` already holds the structured Waltz / Dusk til Dawn / Popstar / Winter episodes; no duplicate WIKI reader edit.
 - Full REST census 137 branches, 30 miner HEADs unchanged; MAIN census `e883e5b1`. Photo consumed SHA held `342ee5df` vs `d45d441f`. No live deployment claim; cumulative audit and source-blocked media remain open.
+
+
+## 2026-11-08 11:00 PST — Lilly Lonely MAIN parity
+
+- Full REST census: 137 remote branches / 30 active miner HEADs; zero new or advanced. MAIN branch-state census commit `a6df5cfade5b375f9ce67bfabc1208268974e621`.
+- Photo miner `archive-miner-photo-submissions-2021` checkpoint `checkpoint.md` at HEAD `d45d441feca0110e9495f49b13df9666982bb45c`: Lilly / ButteryButtz Lonely post February 17, 2021, message `811708075354226768`. WIKI dossier already contains the dated Lonely episode; MAIN biography did not. MAIN `src/content/people/lilly.md` now folds participation into her existing participatory character arc, commit `42c10eff5c3bc90a2607559f5d6030260d3ee1a6`. No image maker/capturer/subject inference.
+- MAIN committed source reread PASS. GitHub Actions exact-commit lookup returned zero runs at inspection; Astro build and Cloudflare live commit **pending verification**. WIKI reader unchanged to avoid duplication.
+- Photo miner consumed `342ee5dfe77b0c6d1106f28eb557fd25ce67085b` vs HEAD `d45d441feca0110e9495f49b13df9666982bb45c` held; two cumulative handoffs still lack final incident-level audit, distinct remaining A/B count unknown. Missing reply parents and inaccessible media source-blocked. Club-Only recovery still open.
