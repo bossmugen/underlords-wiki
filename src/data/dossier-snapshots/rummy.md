@@ -55,7 +55,7 @@ claims:
     sources:
       - label: "🥳 UL Birthdays"
         href: "/channels/birthdays"
-  - text: "On July 13–14, 2024, homethey_ announced that Rummy had gotten a BL series wrong and called it the end of the world; Rummy protested that she fixed it immediately, and Moon ordered her to retake the fictional BLING exam. The mock certification crisis reflects a locally recognized reputation for knowing BL series."
+  - text: "On July 13–14, 2024, homethey_ announced that Rummy had gotten a BL series wrong and called it the end of the world; Rummy protested that she fixed it immediately, and Moon ordered her to retake the fictional BLING exam. Fourteen seconds later Moon expanded the acronym as `Boys Love InterNational Global`, with the capital N doing an unreasonable amount of work. The mock certification crisis reflects a locally recognized reputation for knowing BL series."
     evidence: "archive-confirmed"
     date: "2024-07-13 – 2024-07-14"
     sources:
