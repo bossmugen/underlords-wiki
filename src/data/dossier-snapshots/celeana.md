@@ -49,6 +49,10 @@ Her best surviving line belongs to STALKER: **`just the daily tree climbing to s
 | 2021-06-18 | STALKER's daily tree-climbing confession, `855555787966906388` |
 | 2021-10-10 | Another Photoshoot entry, `896939140321533962` |
 
+## Wall episode — June 4, 2021
+
+**Ren's reverse-Marie-Kondo filing.** After Anthos posted a screenshot mentioning Celeana, Ren described her as `Cele like Marie kondo`, contrasting `Dead animal: *this sparks joy*` with `Live animal: **this does not spark joy**`. Source: BACKROOM Pass 35, `receipts-pass-35.md`, message `850499110141558814`. The triggering image `850498788299636747` remains uninspected. This is Ren's joke about Celeana, not a verified animal preference or a description of the image.
+
 ## Running Gags
 
 **Daily surveillance:** The STALKER caption is Celeana's own joke, not proof she was literally stalking anyone. Her casual phrasing is the whole performance.
