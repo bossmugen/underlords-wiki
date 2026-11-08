@@ -36,7 +36,7 @@ claims:
         href: "/channels/club-only"
     note: "Informal sparring invitation, not evidence of formal training or a hiatus."
 antiFanon:
-  - "DarkAsrai is not identified with fictional Rose; no identity bridge is established."
+  - "Rose / DarkAsrai is one verified account (659305268684783628); fictional roleplay scenes are not automatically biographical."
   - "The sister is a real-life relationship described by DarkAsrai, not a claim about other UL characters."
   - "Do not infer a diagnosis from ASMR preferences."
 tags:
@@ -50,6 +50,8 @@ tags:
 ## Accepted, weirdness included
 
 DarkAsrai spoke warmly of a sister who stayed there even when they messed up. Underlords mattered for a related reason: its people had, in DarkAsrai's own words, “accepted a weiedo like me.” It is a small sentence with a lot inside it. The joke at their own expense makes the gratitude easier to say, but doesn't erase it.
+
+**Identity cross-reference:** [Rose](/cast/rose) is the canonical dossier for this same account. This alias entry retains the QOTD and Wall episode index.
 
 ## Three cats, three operating systems
 
@@ -75,4 +77,4 @@ At home, the cats were not remotely interested in agreeing on a personality. One
 
 ## Sources
 
-QOTD miner: `archive-intake/qotd-complete-2020-2026/site-candidates-2026-09-06-0854.md` on `archive-miner-qotd-officers-20260824`. Stable Discord author ID `659305268684783628`. Exact message IDs remain to be re-expanded; no Rose identity claim is made.
+QOTD miner: `archive-intake/qotd-complete-2020-2026/site-candidates-2026-09-06-0854.md` on `archive-miner-qotd-officers-20260824`. Stable Discord author ID `659305268684783628`. Exact QOTD message IDs remain to be re-expanded. The Rose identity bridge is separately established by the 2021 Lobby self-identification on the same account.
