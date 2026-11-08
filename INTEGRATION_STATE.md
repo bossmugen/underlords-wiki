@@ -1,3 +1,9 @@
+## 2026-11-08 08:32 PST — Rummy context callback build and preview verification
+
+- Main HQ `site-candidates-2026-08-25-0345.md`, messages `927328382033727519` and `1046359386278338640`: WIKI Rummy dossier correction `c126d3b4086f97c285c89c4c2615c850f0510d39` passed exact-commit Astro build [42495784263](https://github.com/bossmugen/underlords-wiki/actions/runs/42495784263) and GitHub Pages preview build/deploy [42495784200](https://github.com/bossmugen/underlords-wiki/actions/runs/42495784200). Independent production-page fingerprint not verified.
+- MAIN already carries the context-defense motif; no duplicate reader prose. Related BLING and homethey_ candidate entries also already published. Infection/Plague Inc. linkage withheld pending March 19 parent context; no hard genealogy claim.
+- Fresh independent MAIN REST census: 137 remote branches, 30 active miner branches, all HEADs matched ledger; MAIN state commit `19f3bf46d11c6b549dca69c130b929bb7bf56098`. August Reunion/Main HQ full A/B candidate inventory remains unfinished. No consumed SHA advanced; no private officers-only material published.
+
 ## 2026-11-08 08:00 PST — Anthos FLOWERS production verification
 
 - Photo Submissions candidate `site-candidates-hourly.md`, **Anthos keeps turning the formatting into an actual launch sequence**: MAIN reader `src/content/people/anthos.md` commit `d7552fb4273a59ecbc0e127d407f7ec1b001a804` passed exact-commit production workflow [42492442868](https://github.com/bossmugen/underlords/actions/runs/42492442868), job `128767550775`. The `Verify, build, deploy, and confirm live commit` step succeeded. This clears the pending build/deployment workflow verification for this specific reader correction; independent live fingerprint was not separately fetched.
