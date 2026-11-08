@@ -1,3 +1,8 @@
+## 2026-11-08 07:00 PST — Photo Submissions Anthos March launch (MAIN-only reader change)
+
+- Direct Photo miner `checkpoint.md` / `site-candidates-hourly.md` reviewed: March 8 FLOWERS opening and official March 8–14 submission window sharpen Anthos's already documented launch work. MAIN `src/content/people/anthos.md` reader commit `d7552fb4273a59ecbc0e127d407f7ec1b001a804`; source reread passed, workflow `42492442868` queued, live deployment unverified. No duplicate WIKI paragraph; existing Anthos structured coverage remains.
+- MAIN census commit `c7c36e2e780cc8431ad71c5354226101adaf321d` confirms 137 remote branches / 30 active miner HEADs unchanged. Photo consumed remains `342ee5df` against `d45d441f`; cumulative candidate audit and Club-Only recovery open. No media attribution promoted.
+
 ## 2026-11-08 06:35 PST — Main HQ Rummy relationship callback (verification pending)
 
 - Direct miner `archive-miner/main-hq-hourly` `checkpoint.md` then `site-candidates-2026-08-25-0345.md` reviewed. WIKI canonical `src/data/dossier-snapshots/rummy.md` commit `7d46d0b157f1cc242aab9f09ca9fc6c4e2a689d3` adds homethey_ defending Rummy in 2022 then roasting her BL credentials and stink in 2024; receipt IDs `973671748769812510`, `1261939531209248831`, `1273451792826372187`. MAIN already carries BL and stink episodes; no redundant MAIN prose. Exact 2022 Rich parent wording unresolved.
