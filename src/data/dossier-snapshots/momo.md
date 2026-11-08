@@ -40,6 +40,12 @@ claims:
   - text: "On October 30, 2024, in a VC sidecar text log, Momo says she fell asleep, hearing Rich startled her awake, and then immediately posts `ONE PIECE`, `YYEEEESSSSSSSSSSSSSSSS`, and `BLUE PYRO BIRD MAN`."
     evidence: "archive-confirmed"
     date: "2024-10-30"
+  - text: "On August 14, 2026, Mugen greeted Wolfie and `milo`; Sye asked who Milo was, Mugen corrected the typo to Momo, and Momo briefly adopted it with `I’m Milo now-` before reacting to Mugen’s Milo GIF. This was a one-off reunion joke, not a durable alias."
+    evidence: "archive-confirmed"
+    date: "2026-08-14"
+    sources:
+      - label: "August Reunion Run 18 · Whiskey · messages 1537916070080421918, 1537916150879486073, 1537916171335106641, 1537917296457154660, 1537917331437781064"
+        href: "/channels/whiskey-room"
 antiFanon:
   - "Momo is not Mimi / Opalite Honey or Mia; Mimi and Mia are distinct accounts, and the twin language is a recurring joke between distinct people, not literal kinship or identity evidence."
   - "Do not infer Momo's exact age from the 2020 `Age: N/A` intake scene."
@@ -97,6 +103,8 @@ Then 2024 delivers the reboot sequence. In a voice-channel sidecar text log, Syv
 > `BLUE PYRO BIRD MAN`
 
 That is the scene. The nap is setup. The character beat is the reboot: asleep, startled awake by Rich, then instantly operational at full anime volume. One Piece is therefore a safe interest in this specific scene because Momo is the one yelling it. The page does not use `BLUE PYRO BIRD MAN` to name a favorite character unless a source actually resolves the reference.
+
+By August 2026 the room had found an even faster way to hand her a new identity. Mugs greeted **`Wolfie and milo`**; Sye asked **`Who milo ?`**; Mugs corrected herself to **`Momo😭`**. Momo answered **`I’m Milo now-`**, and then wheezed at the Milo GIF Mugs sent back. Five minutes of accidental rebranding, voluntarily accepted. The joke belongs with the Mimi twin paperwork and the `2fer1` mishap: Momo does not need to start the confusion to make it worse. **Milo** never became a lasting alias.
 
 There are unresolved Momo exhibits downstairs. A 2022 Wall sequence contains two attachments, clown reactions, `Bai bai`, and a later `momo said 2fer1` line from Daya, but no reply metadata actually joins the `2fer1` remark to those images. The chronology is precise; the premise is not. The wiki does not staple them together just because doing so would produce another funny paragraph.
 
