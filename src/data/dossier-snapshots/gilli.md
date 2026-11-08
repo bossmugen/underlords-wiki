@@ -77,6 +77,13 @@ claims:
       - label: "Photo Submissions · Colors examples and Cookie correction"
         href: "/events/photo-submissions"
     note: "Posting example images is not authorship or capture credit. Gilli’s stored reply parent is 835940038549569627, not Cookie’s later quoted crop message 835940155058946059; do not assert a direct reply to that specific line."
+  - text: "On June 1, 2021, Gilli posted BEACH's first example image at 13:00; Anthos added two examples at 13:04 and Anayss another at 13:05. At 13:06 Gilli opened official BEACH submissions, bookending the five-minute setup."
+    evidence: "archive-confirmed"
+    date: "2021-06-01"
+    sources:
+      - label: "Photo Submissions · BEACH example-to-opening handoff"
+        href: "/events/photo-submissions"
+    note: "Photo Submissions miner site-candidates-hourly.md, 'Beach gets a mood board in five minutes flat — CORRECTED'. Accounts posted example images; their creators/capturers are not established. No formal production title inferred."
   - text: "On April 24, 2021, Gilli warned Photo Submissions participants that MAFIA-theme entries could not be cropped and had to keep the player's name visible, and asked noncompliant entries to be resubmitted."
     evidence: "archive-confirmed"
     date: "2021-04-24"
