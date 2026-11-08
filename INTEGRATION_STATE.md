@@ -1,3 +1,9 @@
+## 2026-11-08 06:00 PST — Photo Submissions verification
+
+- Nhou date correction WIKI `869797a6`: exact-commit build `42482874177` SUCCESS; companion preview `42482874104` cancelled. MAIN `b81e7d25` workflow `42482869822` SUCCESS.
+- Dora WALTZ WIKI `7cc77de6`: exact-commit build `42478538118` SUCCESS; companion preview `42478538090` cancelled. No duplicate MAIN edit needed.
+- Independent live production commit remains unverified. Photo miner `d45d441f` still consumed only through `342ee5df`; cumulative accepted-candidate audit incomplete.
+
 ## 2026-11-08 05:00 PST — Nhou Lonely date correction
 
 - Photo Submissions direct miner `site-candidate-2026-08-26-2210-nhou-self-poop-reaction.md`, message `812921630560092200`, dates the post 2021-02-20 21:40:20 PST. Corrected incorrect `2021-02-18` claim metadata in WIKI `src/data/dossier-snapshots/nhou.md` commit `869797a6e87ef147115101e68c8eeffb1e15014e` and MAIN `src/content/people/nhou.md` commit `b81e7d25639b6e40b3c3573f5c5675bee00dd04a`. Both reread; build/live verification pending. No duplicated prose or change to interpretation.
