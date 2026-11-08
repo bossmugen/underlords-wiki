@@ -59,7 +59,7 @@ claims:
     evidence: "archive-confirmed"
     date: "2024-07-13 – 2024-07-14"
     sources:
-      - label: "Wall · 1261939531209248831, 1261955000855429172, 1262144040871264296"
+      - label: "Wall · 1261939531209248831, 1261955000855429172, 1262144040871264296, 1262144146639163513"
         href: "/channels/wall"
     note: "BLING exam is a joke, not a formal credential. The accompanying IMG_1535.png is uninspected; its poster is not automatically its maker or capturer."
   - text: "On May 23, 2022, Rich asked Rummy how much bleach she had touched; Rummy answered `BruH- I touch nOnE` and then `ZerO`."
