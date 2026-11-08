@@ -1,3 +1,9 @@
+## 2026-11-08 06:35 PST — Main HQ Rummy relationship callback (verification pending)
+
+- Direct miner `archive-miner/main-hq-hourly` `checkpoint.md` then `site-candidates-2026-08-25-0345.md` reviewed. WIKI canonical `src/data/dossier-snapshots/rummy.md` commit `7d46d0b157f1cc242aab9f09ca9fc6c4e2a689d3` adds homethey_ defending Rummy in 2022 then roasting her BL credentials and stink in 2024; receipt IDs `973671748769812510`, `1261939531209248831`, `1273451792826372187`. MAIN already carries BL and stink episodes; no redundant MAIN prose. Exact 2022 Rich parent wording unresolved.
+- MAIN full REST census: 137 branches, 30 active miner HEADs, no SHA advances; persisted `archive-intake/INTEGRATOR_BRANCH_STATE.json` commit `90b296eeba6c9d9653e68366190df722de63ab19`. August Reunion and Club-Only checkpoints read directly. August Reunion cursor still behind HEAD; no consumed SHA advanced.
+- WIKI content reread succeeded. Exact-commit Actions lookup returned no runs yet; build/preview/live deployment **pending verification**. August Reunion/Main HQ cumulative accepted candidate inventory still uncounted; original media and Alkey/Meowk attribution remain held.
+
 ## 2026-11-08 — Cele / Celeana canonical-page repair (verification pending)
 
 - MAIN `src/content/people/cele.md` commit `a6e9697c38b3490d026f50cd3eaba655d1331b98`: added seven 2021 Photoshoot returns and authored STALKER caption, retaining person-first voice.
