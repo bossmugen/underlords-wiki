@@ -1152,3 +1152,9 @@ Photo miner `archive-miner-photo-submissions-2021`, last-known HEAD `d45d441feca
 - Photo miner `archive-miner-photo-submissions-2021` checkpoint `checkpoint.md` at HEAD `d45d441feca0110e9495f49b13df9666982bb45c`: Lilly / ButteryButtz Lonely post February 17, 2021, message `811708075354226768`. WIKI dossier already contains the dated Lonely episode; MAIN biography did not. MAIN `src/content/people/lilly.md` now folds participation into her existing participatory character arc, commit `42c10eff5c3bc90a2607559f5d6030260d3ee1a6`. No image maker/capturer/subject inference.
 - MAIN committed source reread PASS. GitHub Actions exact-commit lookup returned zero runs at inspection; Astro build and Cloudflare live commit **pending verification**. WIKI reader unchanged to avoid duplication.
 - Photo miner consumed `342ee5dfe77b0c6d1106f28eb557fd25ce67085b` vs HEAD `d45d441feca0110e9495f49b13df9666982bb45c` held; two cumulative handoffs still lack final incident-level audit, distinct remaining A/B count unknown. Missing reply parents and inaccessible media source-blocked. Club-Only recovery still open.
+
+## 2026-11-08 15:00 PST — Photo Crystalia MAIN discovery parity
+
+- Photo miner `site-candidates.md` / `site-candidate-2026-08-26-2210-newcomers-to-photoshoot.md`, receipt `812217820729311255`: Crystalia Feb 9 welcome and Feb 18 Lonely post. WIKI `src/data/dossier-snapshots/crystalia.md` already contains episode, provenance and tags; no mirrored WIKI reader change.
+- MAIN `src/content/people/crystalia.md` commit `e31c0207df8e4d2b936d47b66e61f4fb3fcd5863` adds claim-level Photo receipt and discovery tags to existing biography; MAIN build/live pending exact Actions verification. MAIN prior Gilli BEACH `e1d85320` workflow `42528055605` success.
+- Full census 137 remote / 30 miner SHA unchanged, MAIN `446fdf15`; Photo consumption held `342ee5df` vs `d45d441f`. Aggregate A/B candidate audit, blocked images and Club-Only recovery remain open.
