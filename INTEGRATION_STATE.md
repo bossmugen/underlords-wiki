@@ -1,3 +1,10 @@
+## 2026-11-08 11:40 PST — August Reunion Moon friend-shaped wildlife publication pending verification
+
+- Source: `archive-miner/aug-2026-living-ensemble-hourly`, `archive-intake/aug-2026-living-ensemble-reunion-2026-08-19-2303-pdt/hourly-2026-08-26-run17-site-candidates.md`, Whiskey receipts `1536931567740391479`, `1536931733692219513`, QOTD receipts `1537155737007038588`, `1537275152788881408`.
+- MAIN person-first biography `src/content/people/moon.md` commit `223f86f7014215a5767392dc4ff2faada9989f90`; WIKI structured episode `src/data/dossier-snapshots/moon.md` commit `0f2ff76188a129efcc66871e9481e2bb986eb000`. Distinct prose per surface. No claims of actual dangerous-animal handling or external image authorship.
+- Both content files reread pending; exact-commit GitHub workflow lookup returned zero runs immediately after publication. **Build/live verification pending; do not mark integrated or advance August Reunion consumed SHA.** Full accepted A/B inventory and remaining count still unresolved.
+- Fresh full GitHub REST census: 137 remote branches, 30 active miner branches, zero advanced; MAIN census commit `052f4d6ccdaf5f73bc14b37b862d60ef98ee5ac9`. Club-Only and Main HQ HEADs unchanged. Alkey bag-cart nap already in MAIN; not duplicated. Alkey/Meowk ownership remains unresolved for older mixed scenes.
+
 ## 2026-11-08 10:00 PST — Grimlee production verification and Photo Submissions reconciliation
 
 - MAIN Grimlee biography `src/content/people/grimlee.md`, reader commit `e95860caff35aa4ba846a92775100e511efbbd36`, passed exact-commit [production workflow 42503438075](https://github.com/bossmugen/underlords/actions/runs/42503438075), job `128800893091`. Both the build/deploy/live-confirm step and credentials check concluded SUCCESS. Independent external live fingerprint not fetched. Source: direct Photo Submissions miner `site-candidates-hourly.md`, *Grimlee was quietly in this thing for months*, WALTZ/DUSK TIL DAWN/POPSTAR/WINTER (receipt IDs `864030989507624960`, `872752786582937600`, `917748209730875403`; Popstar ID not normalized). WIKI Grimlee dossier already covers the same four-round record; no redundant reader change.
