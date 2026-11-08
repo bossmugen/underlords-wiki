@@ -1109,3 +1109,9 @@ Photo miner `archive-miner-photo-submissions-2021`, last-known HEAD `d45d441feca
 - WIKI reader `src/data/dossier-snapshots/gilli.md` commit `83fba76e0835c56e829098f54123d1ac3b97d069` adds structured June 1 timing: Gilli 13:00 example, Anthos 13:04, Anayss 13:05, Gilli 13:06 opening. No image maker/capturer or formal office inferred.
 - MAIN already carries the richer event scene at `13d7a526`; its production workflow `42460963900` succeeded. No duplicate MAIN prose added.
 - WIKI exact build `42465197339` and preview `42465197290` queued at first inspection. Pending exact build/preview and live production verification. No miner consumed SHA advanced.
+
+
+## 2026-11-08 09:08 PST — Photo Submissions Grimlee MAIN parity
+
+- Photo miner cumulative `site-candidates-hourly.md` Grimlee four-round return reviewed directly. MAIN lacked a Grimlee page; MAIN `src/content/people/grimlee.md` created at `e95860caff35aa4ba846a92775100e511efbbd36`, production workflow `42503438075` pending. WIKI `src/data/dossier-snapshots/grimlee.md` already holds the structured Waltz / Dusk til Dawn / Popstar / Winter episodes; no duplicate WIKI reader edit.
+- Full REST census 137 branches, 30 miner HEADs unchanged; MAIN census `e883e5b1`. Photo consumed SHA held `342ee5df` vs `d45d441f`. No live deployment claim; cumulative audit and source-blocked media remain open.
