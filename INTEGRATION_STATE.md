@@ -1,3 +1,7 @@
+## 2026-11-08 14:00 PST — Gilli BEACH scene cross-surface parity
+
+- Photo Submissions miner `archive-miner-photo-submissions-2021`, `site-candidates-hourly.md`, corrected June 1 BEACH example-to-launch relay (Gilli → Anthos → Anayss → Gilli). WIKI `src/data/dossier-snapshots/gilli.md` already holds dated structured claim; no redundant reader edit. MAIN person-first `src/content/people/gilli.md` commit `e1d853209214e35808c754d1a498a80ec5ec3867` now narrates the scene. MAIN source reread PASS; exact-commit workflow lookup returned no runs, live publication pending. No media authorship or new formal office inferred. Photo miner consumption remains held pending aggregate reconciliation.
+
 ## 2026-11-08 12:35 PST — Moon workflow verification and assigned backlog status
 
 - MAIN Moon friend-shaped wildlife reader commit `223f86f7014215a5767392dc4ff2faada9989f90`: production build/deploy Actions run `42516193981` **success**. Exact production-page fingerprint not independently checked.
