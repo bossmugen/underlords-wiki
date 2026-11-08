@@ -177,6 +177,14 @@ That is a clean progression inside one relationship. Moon brings an existing fri
 
 By April, Whiskey is carrying her under **`UL's Pocket Size Moon`**. The label is a house joke, not a measurement, but it shows how quickly Moon herself has become part of the server's shorthand.
 
+## Episode — Friend-shaped wildlife (August 2026)
+
+**Rooms:** Whiskey, August 11; QOTD, August 12. **Participants:** Moon and the room's animal conversation. **Running gag:** everything is a potential friend, including the animals people tell her not to pet.
+
+Moon asked **`Then why friend shape?`** (Whiskey `1536931567740391479`), then admitted a warning sign would make her more tempted to pet the critter (`1536931733692219513`). The next day's QOTD animal list included albino snakes and jellyfish, with Moon concluding **`Basically, I just want to hug all these cute critters`** (`1537155737007038588`). She returned with **`I want to befriend this critter toooooooo`** (`1537275152788881408`).
+
+The two-room recurrence makes the joke a recognizable Moon habit, not proof that she actually handled or fed wildlife. A posted sleepy-glass-frog screenshot is an external image; its creator and original photographer are not assigned to Moon.
+
 ## 2024–2025 — QOTD BECOMES HER LONG-RUNNING CONTRIBUTION
 
 User-confirmed account mappings resolve dozens of old `marcy` / `marmar` Barista credits to Moon: 77 in 2024 and at least 123 in 2025. The counts matter because they change the scale of the role. Moon is not simply somebody who occasionally answers QOTD; she has been feeding questions into one of UL's longest-running social rituals for years.
