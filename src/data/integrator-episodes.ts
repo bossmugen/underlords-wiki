@@ -262,4 +262,13 @@ export const integratedEpisodes: Episode[] = [
     logline: "That morning the stable Valantina account is processed through Lobby and directly answers the club question with `Council`; Drink Water Reminder gives the tour and explicitly points her toward Photo Submissions. About eleven hours later, on the final listed calendar day of POPSTAR submissions, Valantina posts an image with `IDK IF I CAN STILL SUBMIT THIS BUT I WILL ANYWAYS`. The line does the character work: uncertainty is spoken out loud and then loses the argument to the upload button. This is clean evidence of a Council visitor participating in UL's creative program, not proof she was a UL member, that August 22 was a join or rejoin date, or that the entry won anything. The image remains visually uninspected, so Valantina is POSTED BY only; MADE BY, CAPTURED BY, and FEATURING remain unresolved.",
     cast: ["Valantina", "Gabu", "Gilli", "Anthos"]
   }
+  {
+    id: "slide-into-dms-six-year-callback",
+    title: "Slide Into DMs, Literally",
+    season: "2020 → 2026",
+    date: "September 1, 2020 → August 2026",
+    kind: "Running gag / literal GIF becomes server emoji and reunion language",
+    logline: "Ansun types `_slides into his dms_` in Club Only on September 1, 2020. Anthos answers with a literal sliding-person GIF and says the phrase will now always make her picture it; Mugen joins with a Blake Griffin sliding GIF. By October 7 Rooks is using the animated `:SlideInDms:` server emoji on the Wall. Six years later Ren announces `I GOT NOBU THEY SAID SLIDE TO THEIR DMS` during the August reunion. The joke has become a shared visual shorthand and a way of retrieving old friends. The surviving posts do not prove who invented the phrase or whether the 2026 visual is the same media file as either 2020 GIF.",
+    cast: ["Ansun", "Anthos", "Mugen", "Rooks", "Ren", "Nobu"]
+  },
 ];
