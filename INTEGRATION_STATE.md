@@ -1,3 +1,10 @@
+## 2026-11-08 12:35 PST — Moon workflow verification and assigned backlog status
+
+- MAIN Moon friend-shaped wildlife reader commit `223f86f7014215a5767392dc4ff2faada9989f90`: production build/deploy Actions run `42516193981` **success**. Exact production-page fingerprint not independently checked.
+- WIKI Moon structured episode commit `0f2ff76188a129efcc66871e9481e2bb986eb000`: build run `42516204711` **success**; same-commit preview run `42516204691` **cancelled**. Subsequent WIKI `main` head `e63ed689695f055175414a57296ca3f18640f03e` build `42517612128` and preview `42517611972` both **success**; current dossier source still contains Moon episode. Treat preview as verified on later head, not exact cancelled run.
+- Full MAIN REST census independently retrieved 137 branches / 30 miners, no advanced miner HEADs. MAIN branch ledger census committed at `8a07d075994e9ed02f6bdf0f6bc4fa2a2316bc8b`.
+- Direct August Reunion and Main HQ checkpoints reread; both remain publication-debt owners. No new reader edit in this pass; August Reunion consumed SHA stays `dfe5909d` against HEAD `fcc27ac7`, and full accepted A/B candidate remainder remains uncounted. Uninspected media and Alkey/Meowk attribution remain blocked.
+
 ## 2026-11-08 12:00 PST — Lilly Photoshoot discoverability parity
 
 - MAIN Lilly person file gained `photoshoot` and `lonely-theme` discovery tags at reader commit `e4f5fc9f88f687b16d82e416b25ebf0144667d85`, based on February 17, 2021 Lonely post `811708075354226768`. WIKI `src/data/dossier-snapshots/lilly.md` already carries both tags and the structured dated claim, so no duplicate wiki reader change. MAIN source reread passed; build/live verification pending (commit-run lookup returned no runs).
