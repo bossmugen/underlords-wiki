@@ -1043,3 +1043,10 @@ Photo miner `archive-miner-photo-submissions-2021`, last-known HEAD `d45d441feca
 - BACKROOM `site-candidates-pass-38.md` / `receipts-pass-38.md`: AkaneAwake and Dreamless WALTZ already represented in MAIN `src/lib/photo-submissions-overrides.ts`; Panda's lychee identity trial is a MAIN-only person quirk, added to `src/content/people/panda.md` at `7dbecbef6b0741a2703c941d2c3ebacb1e1fbe6f`, build/deploy run `42450954343` queued. WIKI unchanged intentionally. Original screenshot uninspected. Daya/Rotini/Snow crime screenshot remains image-blocked; no visual claims made.
 - WIKI Celeana reader commit `bffa47948ed65f6dda01a7937631a1d5cf62da03` is retained by descendant `f5e2b0b3bba1c1f340043620dc30222f1dd3b61b`; compare changed only `INTEGRATION_STATE.md` and `src/data/integrator-episodes.ts`. Descendant WIKI build `42443404434` and preview `42443404621` both succeeded, clearing the earlier failed/cancelled workflow verification through preserved content. Exact separate public production URL not inspected.
 - BACKROOM consumed SHA stays `68d2fba7adda1f110a9be57013dd7712c450f82d`; accepted A/B remainder not fully counted. Club-Only recovery still open. No private officers-only material published.
+
+## 2026-11-08 01:00 PST — Gilli BEACH handoff dossier
+
+- Read current MAIN Photo Submissions event and WIKI Gilli dossier; WIKI lacked the June 1 BEACH relay. Direct miner `archive-miner-photo-submissions-2021` `site-candidates-hourly.md`, candidate **Beach gets a mood board in five minutes flat — CORRECTED**.
+- WIKI reader `src/data/dossier-snapshots/gilli.md` commit `83fba76e0835c56e829098f54123d1ac3b97d069` adds structured June 1 timing: Gilli 13:00 example, Anthos 13:04, Anayss 13:05, Gilli 13:06 opening. No image maker/capturer or formal office inferred.
+- MAIN already carries the richer event scene at `13d7a526`; its production workflow `42460963900` succeeded. No duplicate MAIN prose added.
+- WIKI exact build `42465197339` and preview `42465197290` queued at first inspection. Pending exact build/preview and live production verification. No miner consumed SHA advanced.
