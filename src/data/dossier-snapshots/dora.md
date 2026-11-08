@@ -16,7 +16,7 @@ claims:
     sources:
       - label: "Lobby · 863452254141153341 / 863452739798171709"
         href: "/channels/lobby"
-  - text: "On July 12, Lapis posted a WALTZ entry naming Dora as partner."
+  - text: "On July 10, Dora named KuroAren in her own WALTZ submission; on July 12, Lapis posted another WALTZ entry naming Dora as partner. These are two dated creative pairings, not an exclusive couple."
     evidence: "archive-confirmed"
     date: "2021-07-12"
     sources:
@@ -52,7 +52,7 @@ tags:
 
 # Dora
 
-Anayss pointed Dora toward Photo Submissions when she came through the Lobby as a **Forsaken** visitor on July 10, 2021. Less than two days later Lapis was submitting a WALTZ entry with Dora tagged as her partner. That is a fairly efficient server tour: here's the contest channel; congratulations, you're in the contest.
+Anayss pointed Dora toward Photo Submissions when she came through the Lobby as a **Forsaken** visitor on July 10, 2021. Dora named KuroAren in her own WALTZ entry that day. Less than two days later Lapis was submitting another WALTZ entry with Dora tagged as her partner. One dance prompt, two different partners, and absolutely no reason to turn either screenshot into a marriage certificate. That is a fairly efficient server tour: here's the contest channel; congratulations, you're in the contest.
 
 Dora kept showing up. During DUSK TIL DAWN, Ren caught an added sentence that broke the no-outside-editing rule. The correction came with a soft landing: **`Haii doraaaa`**, followed by a precise explanation, then **`It’s oki if you post the Og pic without the sentence`**. Ren wasn't waving the rule away, but she wasn't trying to make the entrant disappear either. Dora was back with a POPSTAR image on August 22.
 
@@ -61,13 +61,13 @@ Dora kept showing up. During DUSK TIL DAWN, Ren caught an added sentence that br
 | Date | Episode |
 | --- | --- |
 | 2021-07-10 | Identifies as Forsaken in Lobby; Anayss directs her to Photo Submissions |
-| 2021-07-12 | Lapis posts WALTZ entry naming Dora as partner |
+| 2021-07-10 | Dora posts WALTZ entry naming KuroAren as partner |\n| 2021-07-12 | Lapis posts WALTZ entry naming Dora as partner |
 | 2021-08-04 | Ren explains outside-editing rule and offers original-image route |
 | 2021-08-22 | Dora posts another entry for POPSTAR |
 
 ## Relationships
 
-**Lapis:** Named Dora as WALTZ partner; the partnership is creative/social, not romance canon.
+**KuroAren:** Named by Dora in her own July 10 WALTZ caption.\n\n**Lapis:** Named Dora as WALTZ partner two days later; neither pairing establishes romance.
 
 **Ren:** Enforced a rule while making resubmission feel possible.
 
@@ -75,7 +75,7 @@ Dora kept showing up. During DUSK TIL DAWN, Ren caught an added sentence that br
 
 ## Gallery / media notes
 
-**WALTZ:** posted by Lapis, message `864076757694152724`; attachment `864076757408808980`.
+**WALTZ (July 10):** Dora posted a caption naming KuroAren; image capture and authorship unverified. Source: Photo Submissions miner `site-candidates-hourly.md` (Waltz overlap).\n\n**WALTZ (July 12):** posted by Lapis, message `864076757694152724`; attachment `864076757408808980`.
 
 **POPSTAR:** posted by Dora, message `879105132304941077`; attachment `879105132099424306`.
 
