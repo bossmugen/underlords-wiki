@@ -1,3 +1,9 @@
+## 2026-11-08 04:00 PST — Dora's two WALTZ partner captions
+
+- Direct Photo Submissions miner `site-candidates-hourly.md` Waltz overlap reviewed alongside cumulative `site-candidates.md`. Dora/Forsaken named KuroAren on July 10; Lapis named Dora on July 12. Separate photo pairings, no exclusivity or romance conclusion.
+- WIKI `src/data/dossier-snapshots/dora.md` reader commit `7cc77de6eab6064aae398ed9992eef2a4130e9c3`; MAIN event narrative already carries both names, so no duplicate MAIN prose. MAIN inventory commit `b5ccf44f6fe85122e9e4afee8432e75d1debc974`.
+- GitHub exact-commit workflow lookup returned no runs; build/preview/live remain pending verification. Branch-name census found 30 active miners (4 dash, 26 slash); HEAD SHA refresh not certified this pass. Photo consumption held at `342ee5df` vs previously recorded `d45d441f`. Aggregate candidate audit and Club-Only recovery remain open.
+
 ## 2026-11-08 — Photo Submissions Gilli/Ren shared August example handoff
 
 - Direct miner `archive-miner-photo-submissions-2021` `checkpoint.md` and `site-candidates-hourly.md` reviewed. Candidate `Gilli and Ren overlap on Aug. 1 instead of one person owning the job`: Gilli posted an example attachment at 15:16:21 on 2021-08-01; Ren posted another standardized example header 22 seconds later. Shared work, not exclusive office or image authorship.
