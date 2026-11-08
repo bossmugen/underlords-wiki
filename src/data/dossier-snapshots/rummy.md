@@ -107,6 +107,12 @@ claims:
       - label: "Wall of Shame/Fame recovered export"
         href: "/channels/wall"
     note: "The 2023 messages literally say `bl`; the later `bling certification` wording is a later mutation/callback and is not projected backward as the original label or an origin claim. Anthony's adjacent `degenerate god of BL` line is Anthony's banter, not a formal title or Rummy self-description."
+  - text: "Syv quoted Rummy\u0027s `that sounded better with context` defense on January 2022 Wall; Cookie called the resulting genre `Rummy moments xD` in November 2022. The latter phrase is one recorded joke, not a formal nickname."
+    evidence: "archive-confirmed"
+    date: "2022-01 – 2022-11-27"
+    sources:
+      - label: "Main HQ site-candidates-2026-08-25-0345.md · Wall messages 927328382033727519, 1046359386278338640"
+    note: "Single exact `Rummy moments` occurrence; no origin or established recurring title claimed."
   - text: "On December 15, 2023, Rummy answered a Wall context cluster with `bro u need hte context`, `THAT WASN'T JUST A RANDOM THINIG`, `i did not say that randomly`, and finally `it the bobA bALlS`; on August 14, 2024, another Wall cluster ends with her protesting `THAT NOT THE FULL CONVO`."
     evidence: "archive-confirmed"
     date: "2023-12-15 → 2024-08-14"
@@ -194,6 +200,8 @@ In May, Rich asks how much bleach she has touched; Rummy answers **`BruH- I touc
 The unseen screenshots stay unseen. What these scenes establish is simpler: by 2022 Rummy is socially legible enough that the room has a rhythm with her. She protests, people pile on, she keeps protesting, and the joke survives because nobody needs an introduction first.
 
 ## The Birthday Calendar and the Missing Context
+
+The context defense was already a recognizable Rummy move in 2022. Syv remembered her insisting something had sounded better with context; months later Cookie could sum up another round of nonsense as **`Rummy moments xD`**. A tiny label, not an official title, but everyone knew the genre: Rummy said something, the room pounced, and she wanted the missing conversation back in evidence.
 
 The 2023 record shows Rummy doing more than being the target of jokes. On March 31 she republishes UL's birthday calendar month by month and pins the replacement lists. That is ordinary maintenance work, but it marks a shift in the surviving record: she is not just participating in the house; she is helping keep pieces of it organized.
 
