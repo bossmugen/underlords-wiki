@@ -1,3 +1,7 @@
+## 2026-11-08 05:00 PST — Nhou Lonely date correction
+
+- Photo Submissions direct miner `site-candidate-2026-08-26-2210-nhou-self-poop-reaction.md`, message `812921630560092200`, dates the post 2021-02-20 21:40:20 PST. Corrected incorrect `2021-02-18` claim metadata in WIKI `src/data/dossier-snapshots/nhou.md` commit `869797a6e87ef147115101e68c8eeffb1e15014e` and MAIN `src/content/people/nhou.md` commit `b81e7d25639b6e40b3c3573f5c5675bee00dd04a`. Both reread; build/live verification pending. No duplicated prose or change to interpretation.
+
 ## 2026-11-08 04:00 PST — Dora's two WALTZ partner captions
 
 - Direct Photo Submissions miner `site-candidates-hourly.md` Waltz overlap reviewed alongside cumulative `site-candidates.md`. Dora/Forsaken named KuroAren on July 10; Lapis named Dora on July 12. Separate photo pairings, no exclusivity or romance conclusion.
