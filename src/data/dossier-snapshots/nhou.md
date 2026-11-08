@@ -67,7 +67,7 @@ claims:
     note: "Backroom site-candidates-pass-44.md and receipts-pass-44.md; the caption and reactions are text-confirmed, the media-maker/featured-subject attribution is not."
   - text: "Nhou’s own stable account is among the users who reacted with 💩 to his stark Lonely Photoshoot entry; reaction timing and intent are not preserved."
     evidence: "archive-confirmed"
-    date: "2021-02-18"
+    date: "2021-02-20"
     sources:
       - label: "Photo Submissions · Lonely · message 812921630560092200"
         href: "/events/photo-submissions"
