@@ -37,7 +37,7 @@ claims:
     sources:
       - label: "Wall of Shame-Fame recovered export"
         href: "/archive/wall"
-  - text: "Replies to Key's February 24, 2022 Wall self-audit include Mugen's 'Litrally started it ^' and Gilli's 'OG wall of shamer here uwu.'"
+  - text: "Gilli directly replied to Key's February 24, 2022 Wall self-audit with 'OG wall of shamer here uwu.' Mugen's nearby 'Litrally started it ^' has an unresolved antecedent and does not establish a Wall origin or founder."
     evidence: "archive-confirmed"
     date: "2022-02-24"
     sources:
@@ -113,7 +113,7 @@ The Wall also begins treating Key as material worth preserving. On April 29, Gil
 
 On February 24, 2022, Key returns after enough absence that Ren tells him **`been a long time since you was here`**. Key's purpose is magnificently specific: he wants to see how many times he appears on the Wall.
 
-He looks through the screenshot work Mugs has been doing and says he does not know whether to be ashamed or impressed. The room answers with memory rather than introduction. Mugen says **`Litrally started it ^`**; Gilli calls him **`OG wall of shamer here uwu.`**
+He looks through the screenshot work Mugs has been doing and says he does not know whether to be ashamed or impressed. The room answers with memory rather than introduction. Gilli directly replies **`OG wall of shamer here uwu.`** Mugen's nearby **`Litrally started it ^`** remains unassigned: the referenced antecedent has not been recovered.
 
 Those replies do not make Key the formal founder or curator of the Wall. They do show that the room remembers an early reputation even when Key himself has come back to count the evidence.
 
