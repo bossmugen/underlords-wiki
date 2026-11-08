@@ -261,7 +261,7 @@ export const integratedEpisodes: Episode[] = [
     kind: "Photo Submissions / Council visitor walks straight into the creative machinery",
     logline: "That morning the stable Valantina account is processed through Lobby and directly answers the club question with `Council`; Drink Water Reminder gives the tour and explicitly points her toward Photo Submissions. About eleven hours later, on the final listed calendar day of POPSTAR submissions, Valantina posts an image with `IDK IF I CAN STILL SUBMIT THIS BUT I WILL ANYWAYS`. The line does the character work: uncertainty is spoken out loud and then loses the argument to the upload button. This is clean evidence of a Council visitor participating in UL's creative program, not proof she was a UL member, that August 22 was a join or rejoin date, or that the entry won anything. The image remains visually uninspected, so Valantina is POSTED BY only; MADE BY, CAPTURED BY, and FEATURING remain unresolved.",
     cast: ["Valantina", "Gabu", "Gilli", "Anthos"]
-  }
+  },
   {
     id: "slide-into-dms-six-year-callback",
     title: "Slide Into DMs, Literally",
