@@ -92,6 +92,13 @@ claims:
       - label: "Photo Submissions"
         href: "/channels/photo-submissions"
       - label: "UL icon / visual archive"
+  - text: "On October 4, 2021, Mugen opened the NightLife Magazine Photoshoot at 09:09. An official entry was already posted by 16:08; the launch message was edited at 16:51:09, and at 16:58:55 she announced that submissions could use any location instead of the suggested Tokyo/Zelan settings. The room watched a live rule revision after submissions had begun."
+    evidence: "archive-confirmed"
+    date: "2021-10-04"
+    sources:
+      - label: "Photo Submissions · NightLife Magazine live location revision"
+        href: "/events/photo-submissions"
+    note: "Photo miner site-candidates-hourly.md, 'NightLife gets hot-patched after the doors are already open'. The export retains only the post-edit launch body. Do not reconstruct original wording, identify the 16:08 entrant, or claim that entrant caused the revision. The edit-to-revision connection is strongly contextual, not a recovered before/after diff."
   - text: "Mugen repeatedly draws serious boundaries in casual language. Slice preserves `everyone is impulsive but minors are a no fly zone pls` and her objection to someone saving another person's photo without permission; Whiskey later shows her supporting recognizability accommodations when April Fools nickname chaos made the server harder for some members to navigate."
     evidence: "archive-confirmed"
     date: "2020–2023"
