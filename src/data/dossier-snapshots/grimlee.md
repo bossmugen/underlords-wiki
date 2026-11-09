@@ -29,6 +29,9 @@ tags:
   - "2021"
   - "waltz"
   - "winter"
+  - "photo-submissions"
+  - "dusk-til-dawn"
+  - "popstar"
 ---
 
 # Grimlee
