@@ -35,6 +35,13 @@ claims:
       - label: "Backroom Pass 39 · Club Only 1059054774500212746 / 1059054880221827112 / 1059055212129689640"
         href: "/channels/club-only"
     note: "Informal sparring invitation, not evidence of formal training or a hiatus."
+  - text: "DarkAsrai posted a POPSTAR Photoshoot entry on 2021-08-17 naming Aizzy as the person posing with them on the ferris wheel."
+    evidence: "archive-confirmed"
+    date: "2021-08-17"
+    sources:
+      - label: "Photo Submissions · DarkAsrai POPSTAR caption · site-candidates-hourly.md"
+        href: "/channels/photo-submissions"
+    note: "Shared staged appearance only; POSTED BY DarkAsrai, not proven MADE BY or CAPTURED BY. No relationship status inferred."
 antiFanon:
   - "Rose / DarkAsrai is one verified account (659305268684783628); fictional roleplay scenes are not automatically biographical."
   - "The sister is a real-life relationship described by DarkAsrai, not a claim about other UL characters."
@@ -43,6 +50,8 @@ tags:
   - "archive-cast"
   - "qotd"
   - "ordinary-life"
+  - "photoshoot"
+  - "popstar"
 ---
 
 # DarkAsrai
