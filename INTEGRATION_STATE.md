@@ -1,3 +1,11 @@
+## 2026-11-09 09:00 PST — Photo Submissions Gilli BEACH rendering repair
+
+- Full MAIN SHA-certified census: 30 active miner branches, none new/advanced; MAIN census `714406b4a0062c96d8e62bfb5a688546b9668066`.
+- Read Photo Submissions branch `archive-miner-photo-submissions-2021` checkpoint and `site-candidates.md` / `site-candidates-hourly.md` directly; selected `Beach gets a mood board in five minutes flat — CORRECTED` (June 1, 2021). Also read Club-Only 2021–2026 recovery checkpoint.
+- MAIN Gilli biography already carried the corrected Gilli→Anthos→Anayss→Gilli BEACH sequence, but had literal escaped `\\n\\n` visible between the WALTZ and BEACH paragraphs. Repaired `src/content/people/gilli.md` in reader commit `c2df34fc81c91f546ae9224b2d8419bd16e845af`. Postcommit reread confirmed true paragraph breaks and zero remaining literal `\\n` sequences.
+- WIKI Gilli dossier already carries the exact structured BEACH handoff, so no duplicate reader copy. Earlier WIKI Anthos FLOWERS/STALKER reader `8fb79141` build workflow `42650660284` is SUCCESS; live production fingerprint not independently checked.
+- MAIN new reader exact-commit Actions lookup returned zero runs at inspection; Astro build/live deployment still PENDING. Do not close publication or advance Photo Submissions consumed SHA (`342ee5df` vs `d45d441f`). Source-blocked parents `835940038549569627`, `872535327926009928`, original media and complete A/B remainder remain outstanding. No new relationship/creator/office inference.
+
 ## 2026-11-09 08:35 PST — Nelph / Mërcy cookie storefront (Main HQ)
 
 - MAIN miner census: 30 active miner names (26 slash + 4 hyphen); priority HEADs verified, full 08:30 SHA census preserved in MAIN state commit `50df9c4eec214db43e0ca1c171c62965646d506f`.
