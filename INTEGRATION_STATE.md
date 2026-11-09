@@ -1,3 +1,10 @@
+## 2026-11-08 19:04 PST — LEXI exact-commit verification and Photo candidate reconciliation
+
+- Fresh REST census: 137 remote branches, 30 active miner HEADs, zero advanced/new; MAIN branch-state commit `e701ea63d13034c505ca32f7e195770b68d31371`. Five pending-publication families, one recovery backlog, no new overdue branch certified.
+- Read `archive-miner-photo-submissions-2021` `checkpoint.md`, `site-candidates.md`, and `site-candidates-hourly.md` directly. Photo quarry exhausted at 251 messages, publication debt not exhausted. Rechecked the Ren/Anthos repeat handoff, corrected Gilli/Anthos/Anayss BEACH launch, Grimlee four-round participation, and NightLife live patch; existing reader integration was recorded previously, so no duplicate scene was published. Cumulative distinct A/B remainder remains uncounted. Missing reply parents `835940038549569627` and `872535327926009928` and original media remain blocked.
+- MAIN LEXI reader commit `a0aef4a30ed5393bd839c95cc7a186c47c4a42d5`: production workflow [42548857645](https://github.com/bossmugen/underlords/actions/runs/42548857645) **SUCCESS**, exact head SHA matched. WIKI LEXI reader `026d927f6af5d501f68fee5db910dd6d0f4bf083`: build workflow [42548877918](https://github.com/bossmugen/underlords-wiki/actions/runs/42548877918) **SUCCESS**; preview workflow [42548877887](https://github.com/bossmugen/underlords-wiki/actions/runs/42548877887) **CANCELLED**, not a successful preview. Independent external production fingerprint not retrieved. No new reader change this pass.
+- Photo consumption cursor remains `342ee5dfe77b0c6d1106f28eb557fd25ce67085b` versus HEAD `d45d441feca0110e9495f49b13df9666982bb45c`. Club-Only 2021–2026 recovery and complete candidate inventory remain open. No cursor advanced.
+
 ## 2026-11-08 18:03 PST — LEXI three-round Photoshoot discovery parity
 
 - Full REST census 137 branches / 30 active miner HEADs, zero advanced; MAIN branch ledger commit a5ae864a86ae2941fe8ee6db4d4b5f94873f339d. Five pending-publication families and one recovery backlog remain recorded.
