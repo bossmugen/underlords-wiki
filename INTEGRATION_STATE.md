@@ -1,3 +1,11 @@
+## 2026-11-08 22:00 PST — Dean three-theme Photoshoot discoverability
+
+- Full REST census: 137 remote branches, 30 active miner HEADs, no new or advanced; persisted before intake review at MAIN `073db842f41a06c8e8ffd4765b679e2919d67c3e`. Existing ledger: 51 tracked, five pending-publication families, one recovery backlog, zero overdue.
+- Direct miner `archive-miner-photo-submissions-2021` HEAD `d45d441feca0110e9495f49b13df9666982bb45c`: `checkpoint.md`, `site-candidates.md`, `site-candidates-hourly.md`. Dean/Beansprout identity is user-confirmed; `✔️ Support Tech` stable account posted Colors `828856418080653342`, Mafia `835356396219269200`, Beach `849485682870583316`. MAIN and WIKI already had dated prose and claims, but lacked Photoshoot/theme discovery tags. No office or image authorship inferred.
+- MAIN `src/content/people/dean.md` reader commit `4c6cd575e604c0c8f86f74cb83e29187618f64fd`; WIKI `src/data/dossier-snapshots/dean.md` reader commit `dad2136cfdd8dac29ce675e29fc29e2eeab3e401`. Added `photo-submissions`, `photoshoot`, `colors-theme`, `mafia-theme`, `beach-theme`; no duplicate prose. MAIN workflow `42570379076` in progress; WIKI build `42570382846` in progress and preview `42570382980` queued at check. Do not mark deployed until verified.
+- Prior DarkAsrai WIKI reader `60039f78` exact-head build `42564588620` SUCCESS; preview `42564588633` CANCELLED. No independent live SHA fingerprint.
+- Club-Only 2021–2026 recovery checkpoint inspected; substantive recovery still outstanding. Photo consumption remains `342ee5dfe77b0c6d1106f28eb557fd25ce67085b` against `d45d441feca0110e9495f49b13df9666982bb45c`; full A/B distinct candidate inventory still uncounted. Unrecovered reply parents `835940038549569627` and `872535327926009928`, original media remain blocked. No consumption SHA advanced.
+
 ## 2026-11-08 21:00 PST — Photo Submissions DarkAsrai/Aizzy structured discovery
 
 - Full GitHub REST census: 137 remote branches, 30 active miner HEADs, zero new/advanced; MAIN branch ledger census committed at `cd33346960df96c444c79d0fa4f430c966605bf6`. Ledger: 51 tracked, five pending-publication families, one recovery backlog, zero overdue.
