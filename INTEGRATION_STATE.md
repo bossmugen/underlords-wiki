@@ -1,3 +1,9 @@
+## 2026-11-08 17:35 PST — August Reunion Oyasumi/Ren misread parity
+
+- Full GitHub REST census: 137 remote branches, 30 active miner HEAD SHAs, zero new/advanced. MAIN branch ledger census persisted at `6032014b9b6c37d9542cbc5040099c4127894964`.
+- Read August Reunion, Main HQ, and Club-Only checkpoints directly from miner branches. August Reunion `hourly-2026-08-26-run18-site-candidates.md` **NO MOLESTER MISREAD**, Ren screenshot `1537688139311882290` and Oyasumi reply `1537692580551205044`, was already narrated on MAIN `src/content/people/oyasumi.md` but absent from WIKI dossier. Added distinct structured claim and short reunion context to WIKI `src/data/dossier-snapshots/oyasumi.md`, reader commit `f09103c1656a8906c0040f74b7c9834c025e33b0`. Source reread PASS; Actions run `42546318539` queued, build/preview/live pending. Ren posted screenshot; no artwork creator inferred.
+- No MAIN reader edit; no duplicate prose. No consumed SHA advanced. August Reunion A/B remainder still uncounted; Alkey/Meowk attribution, original media, and Club-Only recovery remain open. No officers-only content published.
+
 ## 2026-11-08 16:57 PST — Photo Submissions publication verification debt
 
 - Full GitHub REST census: 137 remote branches, 30 miner HEADs, no new/advanced; persisted MAIN branch-state commit `d2a9827b9f479f0189f03fa0bd6fc067a276112f`. Ledger: 51 tracked (21 historical/missing), five pending-publication families and one recovery backlog; Photo branch `342ee5df` consumed vs `d45d441f` seen unchanged.
