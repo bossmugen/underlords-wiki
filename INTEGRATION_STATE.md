@@ -1,3 +1,9 @@
+## 2026-11-09 13:30 PST — BACKROOM Tofu/Bishop verification follow-up
+
+- Reader commit `6938538b1809e99f8d8286c2de675cb829c73ffb` (`src/data/dossier-snapshots/tofu.md`, reciprocal Bishop relationship) passed Astro build [42694207565](https://github.com/bossmugen/underlords-wiki/actions/runs/42694207565). The associated preview run [42694207663](https://github.com/bossmugen/underlords-wiki/actions/runs/42694207663) completed **cancelled**; live publication remains unverified. Do not label this candidate fully integrated or advance BACKROOM consumed SHA on this check alone.
+- MAIN 13:30 census commit `b872f317b749b63288c31b0ea9249df90300f55e`: all 30 miner HEADs certified unchanged. BACKROOM remains `9c143a7c146af4fc90de4b258bee1c848a2818a0`, consumed through `68d2fba7adda1f110a9be57013dd7712c450f82d`.
+- Reviewed BACKROOM `checkpoint.md`, `site-candidates-pass-07.md`, `site-candidates-pass-12.md` and Club-Only recovery checkpoint directly on miner branches. Anthos bomb/Photoshoot staging and Ren Example Photos already appear on both surfaces; Snow's bot mapping already appears on WIKI. No duplicate reader content added. Uninspected images and unsupported formal-role/creator inferences remain blocked. Remaining distinct accepted A/B candidate count still unverified.
+
 ## 2026-11-09 13:04 PST — Photo Submissions Lapis/Dora reciprocal discovery
 
 - MAIN independently enumerated 137 remote branches and certified all 30 active miner HEAD SHAs unchanged; census persisted in MAIN commit `9c6fe1413d064df41b826d2c47f45aa739c7a48f` before review. Photo miner `archive-miner-photo-submissions-2021` HEAD `d45d441feca0110e9495f49b13df9666982bb45c`.
