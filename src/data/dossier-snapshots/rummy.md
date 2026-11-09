@@ -13,6 +13,13 @@ summaryEvidence: "inferred"
 publication: "public"
 eraStart: 2020
 claims:
+  - text: "By February–March 2023, Rummy's spelling had acquired the name `rumfection`: Rich called it a spreading spelling infection, Mia repeated the term, Mugen included `another year of rumfection` in the anniversary message, and Moon later demanded vaccination for `RUMFECTION AND GILLFECTION` while Torr proposed a Plague Inc. virus based on Rummy."
+    evidence: "archive-confirmed"
+    date: "2023-02-15 – 2023-03-19"
+    sources:
+      - label: "Main HQ · site-candidates-2026-08-25-1745.md · Wall and anniversary conversation"
+        href: "/channels/wall"
+    note: "Earliest surfaced exact term is February 15, not proven coinage; that author is a pooled Deleted User. Torr's comment is nearby rather than a stored direct reply. GILLFECTION is a scene joke, not a diagnosed condition or a fixed Gilli epithet."
   - text: "On January 8, 2021, Rummy submitted a Photoshoot entry as phenomenal_lamb_14960 with the caption `♡︎It better to look upward than to look downward ♡︎`; thirteen heart-eyes reactions followed."
     evidence: "archive-confirmed"
     date: "2021-01-08"
@@ -190,6 +197,10 @@ Rummy's UL story is long enough that the role list can be misleading if it is re
 Rummy's earliest surviving UL intake is October 11, 2020 under the account name **`phenomenal_lamb_14960`**. The Stripclub Bouncer welcomes her, she answers with a simple **`Hi 🙂`**, Staff confirms role assignment, and she is sent toward the Discord Tour.
 
 There is nothing grand about the scene, which is useful. It gives her a real starting point without pretending that later titles were already attached to her. By October 2020, Rummy is in the house. The rest of the biography is what happens as she becomes more embedded in it.
+
+## Rumfection becomes a public-health emergency
+
+By February 2023 the Wall had named Rummy's typing problem **rumfection**. Rich called it a spreading spelling infection; Mia repeated the diagnosis, and Mugen worked **`another year of rumfection`** into UL's anniversary retrospective. By March the imaginary pathogen had evolved. Mia introduced **gillifection**, Moon demanded vaccination for **RUMFECTION AND GILLFECTION**, and Torr floated turning Rummy into a *Plague Inc.* virus. One person's spelling had acquired a name, a mutation, and a public-health response. Nobody was actually ill. The February 15 use is the earliest surfaced exact wording, not a proven origin.
 
 ## The Pancake Defense
 
