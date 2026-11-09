@@ -1,3 +1,10 @@
+## 2026-11-09 08:35 PST — Nelph / Mërcy cookie storefront (Main HQ)
+
+- MAIN miner census: 30 active miner names (26 slash + 4 hyphen); priority HEADs verified, full 08:30 SHA census preserved in MAIN state commit `50df9c4eec214db43e0ca1c171c62965646d506f`.
+- Read August Reunion, Main HQ and Club-Only recovery checkpoints directly from miner branches. Source: Main HQ `site-candidates-2026-08-26-0445.md`; Wall receipts `911520687825485824`, `911521146669760522`, `911521208799997992`, with Mërcy Lobby self-ID `906811322996498434`. `IMG_7349.png` remains uninspected.
+- WIKI reader `src/data/dossier-snapshots/nelph.md` commit `b8df9ad342dfabf347b406db1e9d784c9cb8ecc4`: structured cookie storefront claim and episode, plus corrected outdated antiFanon restriction. Source reread PASS. MAIN Nelph already carries the shared bit, so no duplicate MAIN copy.
+- GitHub Actions commit lookup returned no runs (PR-filtered connector); Astro build, preview and production deployment **pending verification**. Do not close candidate or advance consumed cursor. Main HQ HEAD `e172df06`, August Reunion HEAD `fcc27ac7` vs consumed `dfe5909d`. Full A/B remainder still uncertified; source-blocked media and Club-Only recovery remain open.
+
 ## 2026-11-09 08:00 PST — Anthos FLOWERS/STALKER launch sequence (Photo Submissions)
 
 - Independently SHA-certified all 30 active miner HEADs among 137 MAIN branches; no newly discovered or advanced miner branches. MAIN census commit `3847e24302cd3eef8b59c224f0c02b921b4a05c8`.
