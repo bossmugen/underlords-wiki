@@ -1,3 +1,9 @@
+## 2026-11-09 02:56 PST — Sye Photoshoot discovery repair
+
+- Photo Submissions `archive-miner-photo-submissions-2021` HEAD `d45d441feca0110e9495f49b13df9666982bb45c`; checkpoint and `site-candidates.md` consulted, especially `Sye goes from taking a hundred tries to helping set the visual brief`. MAIN and WIKI already describe the January 2021 hundred-tries New Year submission and Jan 31 three example-photo posts; added missing `photo-submissions`, `photoshoot`, `example-photos` discovery tags without duplicating prose or crediting photography.
+- MAIN reader `src/content/people/sye.md` commit `14a48e64cdbe654abeb00be6ff4cf7c7ae7fe6f9`; WIKI reader `src/data/dossier-snapshots/sye.md` commit `eca99e80d6c12f275bd75b0d50cd01b639bb6073`. Both committed sources reread PASS. GitHub combined statuses empty; Astro build, Actions and live production fingerprints unverified, so publication pending verification.
+- 30 miner names enumerated; four priority HEADs independently verified unchanged, other 26 carried from 02:39 full-SHA census. MAIN census ledger `ea250792ae309dfb735d23ce503ea0af03c83ed8`. Club-Only 2021–2026 checkpoint reread; later-year retrieval boundary remains. Photo consumed SHA remains `342ee5dfe77b0c6d1106f28eb557fd25ce67085b`, not advanced; cumulative A/B remaining count uncertified, reply parents `835940038549569627` / `872535327926009928` and original media blocked.
+
 ## 2026-11-09 02:39 PST — Main HQ Rummy Rumfection genealogy
 
 - MAIN full REST census independently verified 137 remote branches / 30 active miner HEADs, zero newly discovered or advanced; persisted first in MAIN `archive-intake/INTEGRATOR_BRANCH_STATE.json` commit `f91836da3a88879247c8bdb17594a7bc21995f71`.
