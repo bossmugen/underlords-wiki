@@ -1,3 +1,11 @@
+
+## 2026-11-08 20:05 PST — Anayss WIKI verification and fresh miner census
+
+- Full GitHub REST branch census: 30 active miner HEADs, zero newly discovered or advanced; MAIN branch-state commit `323960edfbb0d522eb086da1cf187fb01593a155`. Existing 51 tracked branches include 21 historical missing-remote records; five pending-publication families and one recovery backlog remain.
+- Read Photo Submissions `checkpoint.md`, `site-candidates.md`, and `site-candidates-hourly.md` directly from `archive-miner-photo-submissions-2021` HEAD `d45d441feca0110e9495f49b13df9666982bb45c`. Rechecked the cumulative candidate family and avoided duplicate reader prose. Club-Only 2021–2026 recovery checkpoint read; no delta consumed.
+- Cleared outstanding WIKI Anayss BEACH reader build verification: `src/data/dossier-snapshots/anayss.md` commit `bc9727c8d1c1d699c9322cc3fef82457d3c01d1c`, exact-head GitHub Actions build [42344910656](https://github.com/bossmugen/underlords-wiki/actions/runs/42344910656) SUCCESS. Companion preview [42344910692](https://github.com/bossmugen/underlords-wiki/actions/runs/42344910692) CANCELLED; do not mark preview deployed. MAIN Anayss production workflow previously succeeded. No independent live fingerprint.
+- Photo consumption remains `342ee5dfe77b0c6d1106f28eb557fd25ce67085b` against HEAD `d45d441feca0110e9495f49b13df9666982bb45c`. Two cumulative handoffs still lack exhaustive distinct A/B dispositions. Blocked parents `835940038549569627` and `872535327926009928`, inaccessible original media, and Club-Only recovery remain open. No reader edit or consumption advance this pass.
+
 ## 2026-11-08 19:35 PST — Main HQ Gilli/Spicy Wall parity
 
 - Full REST census: 137 remote branches / 30 active miner HEADs, none new or advanced; MAIN census state commit `9f1a27942b7e15a7a3ebf25b1506648f0b12a77b`.
