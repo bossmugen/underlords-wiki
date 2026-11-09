@@ -10,6 +10,20 @@ summary: "Gilli's archive starts at the 2020 front door and quickly becomes a re
 summaryEvidence: "inferred"
 publication: "public"
 claims:
+  - text: "Across April–September 2021, Gilli repeatedly tagged Spicy Hotpot into Wall posts. Spicy joked that Gilli had probably put them there ages ago; about 66 seconds after Gilli posted a September screen recording, Spicy sent 28 Gilli mentions. The messages do not carry a stored reply edge proving retaliation."
+    evidence: "archive-confirmed"
+    date: "2021-04-14 – 2021-09-18"
+    sources:
+      - label: "Main HQ site-candidates-2026-08-25-0545.md · Wall receipts 832127093286502400, 832127117155893269, 885376581143519263, 889015818749366282, 889016098341666816"
+        href: "/channels/wall"
+    note: "Gilli posted the screenshot and screen recording, but their contents, makers and capturers remain unverified. The 28 pings are temporally adjacent, not proven revenge. No romance or family inference."
+  - text: "On May 22, 2021, Gilli's food-and-water reminder threatened that Spicy Hotpot would ground anyone who did not eat and hydrate."
+    evidence: "archive-confirmed"
+    date: "2021-05-22"
+    sources:
+      - label: "Main HQ site-candidates-2026-08-25-0545.md · Announcements receipt 845753541066489926"
+        href: "/channels/announcements"
+    note: "Grounding is playful enforcement language, not a formal disciplinary or family role."
   - text: "Mugen’s early practical check-ins with Gilli include `hydrate bb` after a lingering headache (2020-09-27) and `be safe bb` twenty seconds after Gilli said she was driving to work (2020-10-01)."
     evidence: "archive-confirmed"
     date: "2020-09-27 – 2020-10-01"
@@ -226,6 +240,12 @@ Her care language runs alongside the procedure. She points Gabu's own hydration 
 The camera roll keeps participating too. In July she resurfaces from her photos with **`found this gem`** and posts an old screenshot to the Wall. The image stays undescribed; the recurring habit is enough. Gilli stores old material accidentally and retrieves it socially.
 
 In January 2022, DyingFox asked Gilli, **`adopt me?`** Gilli answered the request with an eating GIF, **`Done`**, and a hug. Two days later DyingFox nominated Gilli as their Pokémon trainer for the eminently practical reason that she would supply food and affection. By February, Gilli and Souta had made the thank-you list for feeding DyingFox. The adoption was a bit; the person DyingFox kept choosing was not.
+
+## Spicy Hotpot and the Notification Avalanche
+
+Gilli did not need a new reason to summon Spicy Hotpot to the Wall. In April 2021 she posted a screenshot and tagged Spicy; by September, Spicy's defense was basically that Gilli had probably filed them there ages ago. Ten days later Gilli posted a screen recording. Sixty-six seconds afterward, Spicy sent **28 mentions of Gilli** in one message. Nobody preserved a reply link proving it was revenge, but the timing is a remarkably loud coincidence. Gilli joined the Fat-Wheezing rather than pretending her notifications had been treated with dignity.
+
+She also borrowed Spicy as imaginary enforcement staff. A May announcement told everyone to drink water and eat or Spicy would ground them. Gilli's actual recurring work was keeping people fed and keeping the room running; the method occasionally involved recruiting a friend into a disciplinary threat they had not necessarily agreed to. That is a relationship with a working comic rhythm, not a new official job title.
 
 ## YOU'RE STILL AN UNDERLORD
 
