@@ -56,6 +56,13 @@ claims:
       - label: "📣 Announcements · second Kahoot results · 2021-07-15"
         href: "/channels/announcements"
     note: "Backroom site-candidates-pass-59.md / receipts-pass-59.md, message 865313236172537866. Do not infer individual ranking or equate this quiz with the separate spelling challenge."
+  - text: "On November 19, 2021, Mërcy advertised a fresh box of cookies while tagging Nelph; Nelph answered with 'Support your local business 😌' and 'AKA me and koi'. Mërcy had self-identified as 鯉 in Lobby earlier that month. The exchange is a shared pretend-storefront joke, not an actual commercial venture."
+    evidence: "archive-confirmed"
+    date: "2021-11-19"
+    sources:
+      - label: "🧱 Wall · cookie storefront · messages 911520687825485824, 911521146669760522, 911521208799997992"
+        href: "/channels/wall"
+    note: "Main HQ site-candidates-2026-08-26-0445.md; accompanying IMG_7349.png uninspected; POSTED BY Mërcy, not MADE BY. Scene-local Koi identity bridge only."
   - text: "On November 22, 2021, Nelph warned Staff about a circulating scam, told people not to click links/images before they loaded, reminded them to enable 2FA, then about three minutes later supplied the Discord settings path: `profile > account > enable 2FA`; the follow-up drew eight 👍 reactions."
     evidence: "archive-confirmed"
     date: "2021-11-22"
@@ -83,7 +90,7 @@ antiFanon:
   - "Nelph's November 2021 security posts show practical warning/2FA guidance, not a formal cybersecurity, moderation, or Security Officer appointment. The attached scam image was not visually inspected here and the warning's technical claims are not independently adjudicated."
   - "Star of Cassell / Dragon Breath notices show operational reminder behavior; they do not create Party Director, Game Officer, event-planner, or scheduler titles."
   - "Nelph's `Caught you in 4K 📷` Wall reply is real but is not treated as a unique Nelph signature because screenshot-court language was broader UL house vocabulary."
-  - "The 2021 `Support your local business 😌` / `AKA me and koi` sequence lacks enough safely surfaced object context to build a public claim about the business."
+  - "The cookie-storefront exchange is a joke, not proof of literal commerce; the product image remains uninspected, and the scene-local Koi/Mërcy join must not be extended to unrelated historical Koi mentions."
 relatedPeople:
   - "mugen"
 tags:
@@ -121,6 +128,8 @@ Nelph could turn a four-minute event warning into a minor public emergency. A re
 ## Episodes
 
 **Second Kahoot, July 2021:** Sou named Nelphie, Shinn and Zyrcant among the three winners. No individual placements were given. Zyrcant was Akariel™'s Dragon Raja name, supplied by Akariel at the Lobby door in January 2021; the same person later appeared in Yoza's WALTZ caption.
+
+**The cookie startup, November 2021:** Mërcy advertised fresh cookies, Nelph immediately demanded everyone **`Support your local business 😌`**, and then supplied the management roster: **`AKA me and koi`**. Three days later she was back telling Staff how to turn on 2FA. Apparently the bakery had an IT department.
 
 **The 2FA follow-through, November 2021:** Nelph warned Staff about suspicious links and images, then came back minutes later with **`profile > account > enable 2FA`**. An alarm and the instructions to do something about it, in that order.
 
