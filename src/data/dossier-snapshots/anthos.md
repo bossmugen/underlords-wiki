@@ -17,6 +17,13 @@ claims:
       - label: "Photo Submissions · recurring Ren/Anthos setup sequence"
         href: "/events/photo-submissions"
     note: "Photo miner site-candidates-hourly.md, 'Ren and Anthos have a tiny repeat assembly line'; chronological adjacency, not Discord reply linkage. No claim of sole ownership, image creation or historical appointment."
+  - text: "Anthos condensed the Photoshoot launch routine over spring 2021: on March 8 she combined the FLOWERS opening and March 8–14 official-submissions window; on June 14 she posted an Example Photos header, followed by three reference images, and opened STALKER less than two minutes later."
+    evidence: "archive-confirmed"
+    date: "2021-03-08 – 2021-06-14"
+    sources:
+      - label: "Photo Submissions · March FLOWERS and June STALKER opening sequences"
+        href: "/events/photo-submissions"
+    note: "Photo miner site-candidates-hourly.md, 'Anthos keeps turning the formatting into an actual launch sequence'. Images were posted by Anthos; maker, photographer and depicted subjects are not established. No formal Photoshoot office inferred."
   - text: "STALKER's June 14, 2021 announcement listed submissions June 14–20, but Anthos publicly called June 27 the last submission day in Announcements. WolfPhenix, Qin-Mu, and Tofu entered June 24–26 under that revised calendar; Anthos closed the round June 28 and moved results to July 1."
     evidence: "archive-confirmed"
     date: "2021-06-14 – 2021-06-28"
@@ -190,7 +197,7 @@ Ansun also briefly appoints himself her fake personnel department. On September 
 
 Around the same time, the Ansun/Anthos voice-twin joke takes off. The room starts multiplying Anthos into `one being`, `all Anthos`, `Anthos is the solution`, and eventually an entire **Anthos arc**. None of that is literal identity or relationship canon. It is what happens when a highly familiar person becomes easy raw material for the group's internal language.
 
-The joke does not replace the work. Through 2021 Anthos keeps carrying recurring visual routines—opening Photo Submissions rounds, posting deadline reminders, and extending them when needed. On January 6, Ren laid out the example photos and Anthos followed with the official submissions divider eight minutes later. They repeated the handoff on February 15, this time only fifty-three seconds apart. Nobody needed to announce a department: one set the references, the other opened the submissions, and the room knew what to do. The same member who has been promoted into a universal constant by the group chat is still doing very mundane maintenance on the calendar.
+The joke does not replace the work. Through 2021 Anthos keeps carrying recurring visual routines—opening Photo Submissions rounds, posting deadline reminders, and extending them when needed. On January 6, Ren laid out the example photos and Anthos followed with the official submissions divider eight minutes later. They repeated the handoff on February 15, this time only fifty-three seconds apart. Nobody needed to announce a department: one set the references, the other opened the submissions, and the room knew what to do. By March she was folding the FLOWERS opening and submission dates into one notice. In June she posted the STALKER example header, supplied three reference images, and opened the round less than two minutes later. The same member who had been promoted into a universal constant by the group chat was still doing very mundane maintenance on the calendar.
 
 That combination is the useful character progression. Anthos becomes more mythologized because she is around, not instead of being around.
 
