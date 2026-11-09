@@ -1,3 +1,9 @@
+## 2026-11-08 16:00 PST — Photo Submissions production verification / parity
+
+- MAIN Crystalia reader `e31c0207` passed exact-commit production workflow [42533180167](https://github.com/bossmugen/underlords/actions/runs/42533180167); MAIN Lilly discoverability `e4f5fc9f` passed [42517591246](https://github.com/bossmugen/underlords/actions/runs/42517591246). WIKI's existing Crystalia and Lilly dossiers already carry dated Photoshoot claims; no duplicated reader prose.
+- Direct miner `site-candidates.md` newcomer Lena/Tamika candidates compared to MAIN/WIKI: both existing people pages and structured dossiers cover onboarding-to-FLOWERS participation. No new WIKI reader content required.
+- MAIN full branch census 137 remote / 30 active miners, no advanced SHA, persisted `b529cfeab2`. Photo consumed cursor remains `342ee5df` vs `d45d441f`; two cumulative handoffs still require complete A/B disposition. Source-blocked media/reply parents remain withheld. Independent external live-site fingerprint not obtained. No WIKI build triggered by reader content this pass.
+
 ## 2026-11-08 14:00 PST — Gilli BEACH scene cross-surface parity
 
 - Photo Submissions miner `archive-miner-photo-submissions-2021`, `site-candidates-hourly.md`, corrected June 1 BEACH example-to-launch relay (Gilli → Anthos → Anayss → Gilli). WIKI `src/data/dossier-snapshots/gilli.md` already holds dated structured claim; no redundant reader edit. MAIN person-first `src/content/people/gilli.md` commit `e1d853209214e35808c754d1a498a80ec5ec3867` now narrates the scene. MAIN source reread PASS; exact-commit workflow lookup returned no runs, live publication pending. No media authorship or new formal office inferred. Photo miner consumption remains held pending aggregate reconciliation.
