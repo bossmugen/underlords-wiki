@@ -1,3 +1,11 @@
+## 2026-11-09 06:55 PST — Main HQ Rummy/Mia solidarity, MAIN-only
+
+- SHA-certified 137 MAIN remote branches / 30 active miner branches; no new or advanced miner HEADs. MAIN census commit `070e79caaf533b1dd086dbb53a5d0f3251101734`.
+- Read August Reunion, Main HQ, and Club-Only recovery checkpoints directly from miner branches; Main HQ `site-candidates-2026-08-26-0045.md` and `receipt-delta-2026-08-26-0045.md` yielded Rummy's Dec. 22 `I’m still growing` and Dec. 28 `its okay mia i short too` to Mia (receipts `1055736048203857940`, `1057867464656044214`, Mia `1057867534168248402`).
+- MAIN reader `src/content/people/rummy.md` commit `7f068e4f51331420a06f5d3f263c441b26218a7e`: person-first Petty Crimes beat and structured claim. Source reread PASS. MAIN Actions `42639596313` queued at check; production not yet verified.
+- WIKI Rummy dossier deliberately unchanged: small person-specific texture fits MAIN, not another structured episode duplicating existing Rummy dossier. Eos corpse, Candy Wad00, Ritha Tower of God, Nobu/WOO, Rooks screenshot-hunting, and Ansun Wall governance candidates already represented; duplicates suppressed.
+- No consumed SHA advanced: August Reunion `dfe5909d` vs HEAD `fcc27ac7`; Main HQ HEAD `e172df06` with old publication debt. Full A/B remaining count still uncounted. Media-dependent candidates and Club-Only later-year recovery remain blocked. No private officers-only publication.
+
 ## 2026-11-09 04:57 PST — Han Photoshoot discovery parity
 
 - Photo Submissions miner checkpoint and cumulative candidate handoffs read directly on `archive-miner-photo-submissions-2021`; candidate `Han enters the contest like okay fine and then accidentally stays` already represented as structured claim on MAIN and WIKI. No new person-story copy added.
