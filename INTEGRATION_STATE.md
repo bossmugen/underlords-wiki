@@ -1,3 +1,10 @@
+## 2026-11-09 11:30 PST — BACKROOM Snow attribution verification
+
+- Full MAIN miner HEAD census: 30 active branches, zero advanced/new; MAIN ledger commit `68344799c3d1e6b053bd57790d9b139a4ddb1413`. BACKROOM HEAD `9c143a7c`, consumed `68d2fba7`; pending-publication backlog not cleared.
+- WIKI Snow speaker correction reader commit `c14ce52f229aa1415a6e1ebbe27a60cea10baa21` passed **Build Underlords Wiki** run `42674548388`; preview run `42674548548` was **cancelled**, so exact preview/live deployment is not certified. This repairs build-verification debt only; no new reader content this pass.
+- BACKROOM checkpoint and site-candidates Passes 10, 26, 31 checked directly on miner branch, with Pass 10 receipts. Gabu/Sye bot design and test/production sequence already on both MAIN and WIKI; Mob/BAPE FESTIVAL caption already on both; Zoshaa orb and Illien alcoholic-noodle details already MAIN. Nhou `duck` and Yoza/Akariel visual-dependent interpretations remain held. No duplicate reader text added.
+- Club-Only 2021–2026 recovery checkpoint inspected; no consumed SHA advanced. Complete BACKROOM accepted A/B candidate inventory still uncounted; missing original media and restricted officer-room material remain blocked. No public change or build claimed beyond Snow verification.
+
 ## 2026-11-09 11:00 PST — Photo Submissions DarkAsrai / Aizzy discovery parity
 
 - Photo miner checkpoint and `site-candidates-hourly.md` reviewed directly on `archive-miner-photo-submissions-2021`. Candidate: `DarkAsrai takes Aizzy to the ferris wheel for Popstar`; the August 17, 2021 named shared scene is already represented in MAIN `src/content/people/darkasrai.md` and WIKI `src/data/dossier-snapshots/darkasrai.md`. No new authorship, romance, or image-content claim.
