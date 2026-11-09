@@ -1,3 +1,11 @@
+## 2026-11-09 08:00 PST — Anthos FLOWERS/STALKER launch sequence (Photo Submissions)
+
+- Independently SHA-certified all 30 active miner HEADs among 137 MAIN branches; no newly discovered or advanced miner branches. MAIN census commit `3847e24302cd3eef8b59c224f0c02b921b4a05c8`.
+- Read Photo Submissions `checkpoint.md`, `site-candidates.md`, and `site-candidates-hourly.md` directly from `archive-miner-photo-submissions-2021`; reviewed Club-Only 2021–2026 recovery checkpoint. Source candidate `site-candidates-hourly.md` / **Anthos keeps turning the formatting into an actual launch sequence**.
+- WIKI reader `src/data/dossier-snapshots/anthos.md` commit `8fb79141d9b5340665e8200d5698bdf685fb7e5b`: added structured claim and short lived-behavior bridge for March 8 FLOWERS opening and June 14 STALKER example-pack-to-opening sequence. Source reread PASS. MAIN `src/content/people/anthos.md` already carries both beats; duplicate suppressed.
+- WIKI Actions build `42650660284` and preview `42650660513` queued at inspection; no live deployment claim. Prior Mugen NightLife preview `42641089766` SUCCESS; build `42641089366` CANCELLED (superseded). The subsequent WIKI integration-state workflow `42641140280` succeeded, but does not by itself establish exact reader build of Mugen commit.
+- Photo branch consumed `342ee5dfe77b0c6d1106f28eb557fd25ce67085b` vs HEAD `d45d441feca0110e9495f49b13df9666982bb45c`, intentionally held pending complete accepted A/B candidate inventory and verified publication. Missing parents `835940038549569627`, `872535327926009928` and inaccessible media remain source-blocked. Club-Only later-year retrieval unresolved. Remaining candidate count uncertified.
+
 ## 2026-11-09 07:05 PST — Mugen NightLife live-rule revision (Photo Submissions)
 
 - Full SHA-certified MAIN branch census: 137 remote branches, 30 active miner branches, no new/advanced HEADs. MAIN ledger census commit `0ebafe64444a82b3b597ec10597fd5e25e6ef4eb`.
