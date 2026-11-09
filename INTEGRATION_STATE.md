@@ -1,3 +1,10 @@
+## 2026-11-09 02:39 PST — Main HQ Rummy Rumfection genealogy
+
+- MAIN full REST census independently verified 137 remote branches / 30 active miner HEADs, zero newly discovered or advanced; persisted first in MAIN `archive-intake/INTEGRATOR_BRANCH_STATE.json` commit `f91836da3a88879247c8bdb17594a7bc21995f71`.
+- Read Main HQ `archive-miner/main-hq-hourly` checkpoint and `site-candidates-2026-08-25-1745.md` directly at HEAD `e172df0641d6fa9c9d47a2bec6ff40c1aee0fb3c`; August Reunion checkpoint at `fcc27ac7a4457fc5c93c575bd2813b8e19abfa3b`; Club-Only recovery checkpoint at `e45fb11c9239e236231bb65645dfd0285bc0078b`. Did not re-mine raw archives or publish private Club-Only content.
+- MAIN Rummy person-first biography already contains rumfection/gillfection, so no duplicate. WIKI `src/data/dossier-snapshots/rummy.md` lacked the named epidemic: added structured claim and searchable episode using Main HQ `site-candidates-2026-08-25-1745.md` (Feb 15–Mar 19 2023). Preserve pooled Deleted User attribution for earliest surfaced term; no asserted origin, no direct Reply edge for Torr, no literal disease or Gilli diagnosis.
+- WIKI reader commit `4cb73ac0dfb476885da0d00328bb7497264e0857`; exact source reread PASS. Build run `42602527339` and preview run `42602527331` were QUEUED at inspection. Publication remains pending verification; do not mark deployed or advance any miner consumed SHA. Exact remaining accepted A/B candidate inventory still uncertified. Main HQ quarry closed at current archive boundary, but publication debt remains. August Reunion cursor `dfe5909d` still behind HEAD `fcc27ac7`. Original-media and Alkey/Meowk attribution remain blocked.
+
 ## 2026-11-09 02:06 PST — Photo Submissions Dora dossier repair
 
 - MAIN census persisted first at `f495d36f8a046b26bc51f5453219f3403c057e2a`: 30 active miner branches, no new branch names. This pass reused prior recorded SHAs; independent HEAD recertification is still pending.
