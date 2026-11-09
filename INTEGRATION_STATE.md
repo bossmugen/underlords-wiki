@@ -1,3 +1,9 @@
+## 2026-11-09 11:35 PST — Main HQ Moon soul-contract character beat
+
+- MAIN `src/content/people/moon.md` reader commit `4d0f3c126453c403450a5d1613ce3235c6328ddb`: integrated Moon's August 2023 impossible opt-out soul contract with Ryo into existing contract/comic-villain character prose, not a separate event dump. Source `archive-intake/main-hq-2022-2026-tail-20260819/site-candidates-2026-08-26-1345.md`, receipts `1095812143309398016`, `1095812167623770183`, `1095812236074815651`, `1095812257381875732`. MAIN source reread PASS. GitHub Actions commit lookup returned no runs; Astro build and exact live deployment remain UNVERIFIED. Candidate pending verification.
+- WIKI `src/data/dossier-snapshots/moon.md` reviewed; no duplicate prose written. Structured cross-index may be added later if warranted. No new identity, literal soul transaction, or consent claim.
+- Full 30 miner names enumerated; MAIN census ledger `e2e5de8efc24643e4b3bcc4ee52054a862265232` carries forward SHA values from 11:30 concurrent fully SHA-certified census. Main HQ and August Reunion checkpoints inspected directly; Club-Only recovery checkpoint inspected. Whiskey pending-review checkpoint path unresolved. No consumed SHA advanced. Accepted A/B remaining count not certified. Media-dependent candidates and Alkey/Meowk attribution held.
+
 ## 2026-11-09 11:30 PST — BACKROOM Snow attribution verification
 
 - Full MAIN miner HEAD census: 30 active branches, zero advanced/new; MAIN ledger commit `68344799c3d1e6b053bd57790d9b139a4ddb1413`. BACKROOM HEAD `9c143a7c`, consumed `68d2fba7`; pending-publication backlog not cleared.
