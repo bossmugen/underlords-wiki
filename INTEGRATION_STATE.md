@@ -1,3 +1,11 @@
+## 2026-11-09 14:35 PST — Main HQ Moon Lobby-to-Barista character continuity
+
+- Full MAIN census independently verified 137 remote branches, 30 miner HEADs unchanged (26 slash, four hyphen); persisted before review at MAIN commit `12add63e465f82617375b65ed6ff0ee8f7d8cc14`.
+- Read directly from miner branches: Main HQ `checkpoint.md`, `site-candidates-2026-08-26-2310.md`; August Reunion `checkpoint.md`; Club-Only 2021–2026 `checkpoint.md`. Main HQ Moon candidate receipts: Lobby `1011434452095873164` and Ren `1011434485927129199` (2022-08-22), Mugen HQ `1355811373707165757` (2025-03-30). The 2022 acronym question and later months of QOTD upkeep are complementary person-level continuity, not proof of a technical deficit or formal appointment date.
+- MAIN `src/content/people/moon.md` updated in reader commit `9a8fcb845bf40e84665101d22655efafcd39819e`; source reread passed. WIKI Moon dossier already carries structured QOTD responsibilities; no duplicate prose added. Current reader build/live commit verification pending; candidate not yet marked integrated and consumed SHA not advanced.
+- Verification debt discovered: previous MAIN Yumi reader commit `aa295dc9ab107412f837bd2e100c0cb5329e187a` workflow `42703679026` **FAILED** at `Verify, build, deploy, and confirm live commit` (job `129454738564`). Exact failure logs not retrieved. This requires repair before Yumi candidate may be closed; success of other workflows does not certify this failed run.
+- August Reunion consumed cursor remains `dfe5909d` vs HEAD `fcc27ac7`; Main HQ HEAD `e172df06` remains current for mining but older accepted A/B publication debt open. No consumed SHA advanced. Remaining distinct A/B count uncertified; original media and identity rabbit holes held. No officers-only material published.
+
 ## 2026-11-09 13:35 PST — MAIN HQ Yumi watchlist repair
 
 - Full MAIN branch census: 137 remote branches, 30 miner branches (26 slash, 4 hyphen), zero new/advanced HEADs. MAIN census commit `1826e96d48f482eeb11795b325052e62ee45840d`.
