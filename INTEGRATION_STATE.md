@@ -1332,3 +1332,11 @@ Photo miner `archive-miner-photo-submissions-2021`, last-known HEAD `d45d441feca
 - WIKI reader `src/data/dossier-snapshots/anthos.md` commit `090772fdff990a31564134b07fcd86d2a5c9d85a` adds structured claim and lived joint-maintenance beat. Source reread PASS. MAIN `src/content/people/anthos.md` already narrates the handoff; no duplicate reader edit.
 - Workflow lookup yielded zero PR-triggered runs; build, preview and production verification NOT established. Photo miner consumed cursor remains `342ee5dfe77b0c6d1106f28eb557fd25ce67085b` against recorded `d45d441feca0110e9495f49b13df9666982bb45c`; cumulative A/B remainder still uncounted. Missing reply parents and inaccessible original media remain blocked. Club-Only recovery still pending.
 - Miner branch search returned 30 names, no newly discovered names. Search did not provide HEAD SHAs; MAIN census `d6f7ae9e` explicitly preserves prior last_seen SHAs without falsely claiming fresh verification.
+
+## 2026-11-09 07:40 PST — Main HQ Anthos/Rooks comfort exchange
+
+- Full MAIN census: 137 remote / 30 active miner branches, zero new or advanced HEADs; MAIN ledger census commit `ea96fc5f30e90155942c0775fb75099c4a34e455`.
+- Direct miner checkpoint reads: `archive-miner/main-hq-hourly`, `archive-miner/aug-2026-living-ensemble-hourly`, `archive-miner/club-only-2021-2026-hourly`.
+- MAIN `src/content/people/anthos.md` commit `892f907bc60f5c16a22e21e0987db9607181c0cb` folds the Sept. 18, 2020 Ansun→Rooks VC invitation and Anthos `rooks i need to be held` into Anthos's relationship texture. Source `site-candidates-2026-08-26-0145.md`, messages `756610211254370456`, `756610241038123068`, `756610260562870303`, `756610261959442525`.
+- WIKI intentionally unchanged: person-first synthesis is MAIN owner; avoid duplicate episode until structured coverage comparison warrants it. No physical embrace inferred.
+- MAIN source reread PASS. Production workflow `42647115287` queued; build/live deployment pending. Main HQ publication debt remains open; exact A/B remainder not certified. No consumed SHA advanced. Original-media and unresolved attribution remain blocked.
