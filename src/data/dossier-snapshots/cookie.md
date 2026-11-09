@@ -61,6 +61,8 @@ relatedPeople:
   - "ren"
   - "rich"
 tags:
+  - "photo-submissions"
+  - "mafia-theme"
   - "staff"
   - "club-only"
   - "wall"
@@ -73,7 +75,7 @@ tags:
 
 ## The crop that needed a rulebook
 
-In April 2021, Cookie was trying to get a Photoshoot picture through an editor that insisted on cropping the frame. He complained about the automatic crop; Gilli came through with the no-outside-editors rule and a remarkably gentle `hun lol`. Even the software was getting him into trouble. Nobody needed to turn it into a trial: the practical problem and the friendly correction were the whole scene.
+In April 2021, Cookie was trying to get a Photoshoot picture through an editor that insisted on cropping the frame. He complained about the automatic crop; Gilli came through with the no-outside-editors rule and a remarkably gentle `hun lol`. Cookie put up a `0 edit` version and promptly complained that it `looks so boring though`. Someone else in the room followed with `Yeah well mine sucks now not that it was good to begin with but`. So the rule wasn't just Cookie getting caught by his own software: two people were mourning the prettier versions of their pictures, and Gilli was still calling him *hun* while enforcing it. A tiny art-school uprising, defeated by the screenshot rulebook.
 
 Cookie. Kuki. Cookies and Juicebox. One person, several snacks, and eventually a recurring legal strategy: **deny everything and become a running panda**.
 
