@@ -24,8 +24,8 @@ claims:
     evidence: "archive-confirmed"
     date: "2020-09-27"
     sources:
-      - label: "💬 Club Only / 🏮 Lobby · 2020-09-27"
-        href: "/channels/club-only"
+      - label: "🏮 Lobby · 2020-09-27"
+        href: "/channels/lobby"
     note: "This is a Lobby false-alarm sequence. Mugen was explicitly expecting Feli, but the exchange does not establish who recruited him or his first-ever contact."
   - text: "On April 1, 2023, a Wall sequence aimed at Feli ends with his surviving explanation `I... O and P is CLOSE`; the two attached JPG exhibits were not visually inspected and the exact typo under prosecution is not reconstructed."
     evidence: "archive-confirmed"
