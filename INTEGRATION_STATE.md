@@ -1,3 +1,9 @@
+## 2026-11-09 11:00 PST — Photo Submissions DarkAsrai / Aizzy discovery parity
+
+- Photo miner checkpoint and `site-candidates-hourly.md` reviewed directly on `archive-miner-photo-submissions-2021`. Candidate: `DarkAsrai takes Aizzy to the ferris wheel for Popstar`; the August 17, 2021 named shared scene is already represented in MAIN `src/content/people/darkasrai.md` and WIKI `src/data/dossier-snapshots/darkasrai.md`. No new authorship, romance, or image-content claim.
+- MAIN reader `2178f591f4a093d4071c07187143494987106c29` adds missing `photo-submissions`, `photoshoot`, `popstar` discovery tags. Source reread PASS. WIKI dossier already had `photoshoot` and `popstar`, so no duplicate WIKI reader prose. MAIN Astro build / exact Cloudflare live deployment unverified; candidate remains pending verification.
+- MAIN branch census enumerated 30 miner names, with Photo HEAD verified unchanged against `d45d441f`; other 29 SHAs retained from prior ledger, not freshly certified. MAIN census ledger `cf18d3c227d9a104865e37c160bdfce7ace2de78`. Photo consumption still `342ee5df` pending full A/B candidate inventory and deployment verification. Club-Only recovery checkpoint inspected, not consumed. Missing reply parents `835940038549569627` and `872535327926009928`, inaccessible original images remain blocked.
+
 ## 2026-11-09 10:35 PST — Main HQ Gilli Platelet drink-menu joke
 
 - Enumerated 30 MAIN miner branches (26 slash, four hyphen); census persisted to MAIN `archive-intake/INTEGRATOR_BRANCH_STATE.json` commit `2dcdf1364c6c12387cd928d067fd33dd9d8fe847`. Four priority HEAD SHAs independently recertified; other 26 preserved from prior full SHA census, not represented as freshly recertified.
