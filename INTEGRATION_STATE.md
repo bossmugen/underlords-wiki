@@ -1,3 +1,10 @@
+## 2026-11-09 15:35 PST — Main HQ Feli source-route repair
+
+- Independently enumerated 137 MAIN remote branches, 30 miner branches (26 slash, four hyphen); zero new or advanced HEADs. Census persisted MAIN commit `6ec86ea4cfd46f9c4c1a74e3d12109c863a2867c` before intake review.
+- Read Main HQ `checkpoint.md` and `site-candidates-2026-08-26-2310.md` directly from `archive-miner/main-hq-hourly`; August Reunion and Club-Only 2021–2026 checkpoints also inspected directly. Main HQ Feli candidate receipts `759689525710290964`, `1091692324901355550`, `1091849837399519274`. MAIN and WIKI already contain the person-specific Feli entrance, keyboard-defense and Moon scene; duplicate prose suppressed.
+- Corrected WIKI Feli dossier `src/data/dossier-snapshots/feli.md`: September 27, 2020 Mugen/Degen Rat/Feli entrance belongs to Lobby, not Club-Only. Reader commit `a73a05d079b6f23d35561450748fea401e06daa6`, source reread PASS. WIKI Actions lookup returned zero runs at check; Astro build, preview and production unverified. This is a reader-facing provenance/navigation repair, not a newly discovered episode.
+- Existing MAIN Moon reader `9a8fcb845bf40e84665101d22655efafcd39819e` workflow `42712883638` completed CANCELLED; earlier MAIN Yumi reader `aa295dc9ab107412f837bd2e100c0cb5329e187a` workflow `42703679026` FAILED. Neither can be marked production-verified. No new MAIN reader content this pass. No consumed SHA advanced. Main HQ/August Reunion remaining distinct A/B candidate count unresolved; inaccessible media and identity rabbits held. No private officers-only material published.
+
 ## 2026-11-09 14:35 PST — Main HQ Moon Lobby-to-Barista character continuity
 
 - Full MAIN census independently verified 137 remote branches, 30 miner HEADs unchanged (26 slash, four hyphen); persisted before review at MAIN commit `12add63e465f82617375b65ed6ff0ee8f7d8cc14`.
