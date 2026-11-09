@@ -1,5 +1,6 @@
 ---
 name: "Celeana"
+canonicalPerson: "Cele"
 aliases:
   - "celeana"
 roles: []
@@ -24,7 +25,8 @@ claims:
 antiFanon:
   - "Repeated contest participation does not establish a formal media appointment or Officer status."
   - "The submitted images have not been visually inspected; the caption does not identify the photographed subject or establish use of proposed officer-stalking mechanics."
-relatedPeople: []
+relatedPeople:
+  - "Cele"
 tags:
   - "photoshoot"
   - "stalker"
@@ -32,6 +34,8 @@ tags:
 ---
 
 # Celeana
+
+**Identity:** Celeana = Cele (user-confirmed). This is the legacy alias dossier; [Cele’s canonical dossier](/cast/cele) owns the consolidated biography. The dated Photoshoot entries remain here as a searchable historical index.
 
 Celeana was one of those people who could be easy to miss if you only followed whoever was shouting the loudest. Meanwhile, she kept submitting Photoshoot entries. February, March, April, May, twice in June, and again in October 2021: seven recovered posting dates, one recurring account, and a surprising amount of creative persistence without a grand announcement.
 
