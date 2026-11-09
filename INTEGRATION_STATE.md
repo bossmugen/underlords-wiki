@@ -1,3 +1,10 @@
+## 2026-11-09 01:13 PST — Cookie Photoshoot shared-grievance recovery
+
+- MAIN full REST census: 137 remote branches, 30 active miner HEADs, none advanced; persisted on MAIN master at `6ba33673d39529a013b20a4fd337575603b709b7` before reviewing intake.
+- Direct Photo Submissions miner `archive-miner-photo-submissions-2021` HEAD `d45d441feca0110e9495f49b13df9666982bb45c`: checkpoint, `site-candidates.md`, and `site-candidates-hourly.md`. Selected `The no-editing rule creates a tiny shared grievance` (April 25, 2021), plus Cookie/Gilli parent-correction note. Cookie crop message `835940155058946059`; Gilli reply parent `835940038549569627` remains unrecovered. The unnamed deleted-account complainant remains unassigned.
+- WIKI `src/data/dossier-snapshots/cookie.md` reader commit `3a0ba8c45c2e75f06c27234d698bae358b427b52`: folded Cookie's `0 edit` / `looks so boring though` and the separate deleted-account shared complaint into existing Photoshoot scene; added searchable photo-submissions and mafia-theme tags. MAIN Cookie biography already contained the crop and no-edit grievance; no duplicate MAIN prose. No identity attribution to the deleted account, no invented reply parent.
+- Build/deployment pending verification until exact reader workflow completes. Photo consumption remains `342ee5dfe77b0c6d1106f28eb557fd25ce67085b` versus HEAD `d45d441feca0110e9495f49b13df9666982bb45c`; cumulative A/B candidate inventory not certified. Missing reply parents, inaccessible original media, and Club-Only 2021–2026 recovery remain blocked/open.
+
 ## 2026-11-09 00:44 PST — Main HQ Shiki bot-action dogpile
 
 - MAIN full REST census 137 branches / 30 active miner heads, none advanced, persisted before intake at `bed1dc03ad8587713ae958fa2f7fcc8323c20a3e`.
