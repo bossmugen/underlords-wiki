@@ -8,7 +8,7 @@ pronouns: "he/him"
 roles:
   - "UL Media Director"
   - "UL filmmaker"
-summary: "Han's archive progression is unusually clean: in September 2021 he says he wants to know everybody better, helps trigger the live conversation that becomes Biodata, then builds Voice Challenge as a noncompetitive way for members to express their characters. Two months later he quits Dragon Raja while explicitly staying `club media dude uwu`; in 2022 Mugen explains that the title came from the work."
+summary: "Han wanted to know everybody better, so he helped make room for everybody to introduce themselves and then gave their characters a voice. The filmmaker who could organize a whole gallery also entered Photoshoot with `Ok lets give it a try`, announced he was probably finished, and returned three weeks later with one more picture. He eventually quit Dragon Raja without quitting the people: still `club media dude uwu`."
 summaryEvidence: "archive-confirmed"
 publication: "public"
 claims:
