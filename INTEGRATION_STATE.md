@@ -1,3 +1,10 @@
+## 2026-11-09 00:22 PST — Wichita / HamitteY Flowers discovery
+
+- Full MAIN branch census: 137 remote branches; 30 active miner branches, no new or advanced HEADs; persisted MAIN `c5bc1bffad12e6f88f75599b92b4d8be3f160cc5` before intake review.
+- Photo branch `archive-miner-photo-submissions-2021` HEAD `d45d441feca0110e9495f49b13df9666982bb45c`; directly read `checkpoint.md`, `site-candidates.md`, and `site-candidates-hourly.md`. Source Flowers post `819966871330750494`; Jan 17 Lobby self-ID `800632681950871552`. Already in both bios/claims, missing search tags only.
+- MAIN `src/content/people/hamittey.md` commit `cd37d5874afa942d76da1ee76bf7b0f2aeb3a41b`: added photo-submissions/flowers-theme discovery. WIKI `src/data/dossier-snapshots/hamittey.md` commit `e9a12358a2f083d4c07b69c7147cea750a8b84a2`: added flowers-theme. No duplicate prose, role chronology, or image authorship.
+- MAIN Actions run `42585493107` queued at check; WIKI exact-head run lookup zero. Build/live deployment pending; consumed SHA remains `342ee5dfe77b0c6d1106f28eb557fd25ce67085b`. Remaining distinct A/B candidate count not yet certified; missing reply parents and original media blocked. Club-Only recovery remains open.
+
 ## 2026-11-08 23:00 PST — Grimlee four-theme discoverability
 
 - Photo Submissions miner `archive-miner-photo-submissions-2021` HEAD `d45d441feca0110e9495f49b13df9666982bb45c`, `site-candidates-hourly.md` Grimlee four-round entry. Waltz `864030989507624960`, Dusk til Dawn `872752786582937600`, Winter `917748209730875403`; Popstar exact ID not normalized. All blank captions; POSTED BY only.
