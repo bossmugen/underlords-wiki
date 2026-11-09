@@ -50,6 +50,13 @@ claims:
       - label: "Wall of Shame/Fame · 2020-12-01"
         href: "/archive/wall"
     note: "The missing VC quote is not reconstructed or joined to the later lines. The scene is a Shiki-specific joke around the server's adult/minor room boundary, not evidence of a formal moderation appointment or literal misconduct."
+  - text: "On October 1, 2020, Mugen, Anthos, and Gilli repeatedly aimed kiss, glomp, bite, and cuddle bot interactions at Shiki. Soon afterward Shiki said `im just gonna sit with my party team`; Anthos subsequently glomped Cookie. No stored reply edge establishes the party-team remark as a reaction to the bot dogpile."
+    evidence: "archive-confirmed"
+    date: "2020-10-01"
+    sources:
+      - label: "💬 Club Only · 2020-10-01"
+        href: "/channels/club-only"
+    note: "Main HQ intake site-candidates-2026-08-25-1145.md; messages 761254092197724201, 761254099164463124, 761254100532199514, 761254100624605186, 761255174231949382, 761255395385671700, 761255526352420874, 761255603980599317, 761255931979497492, 761255932306391051, 761256387476324353, 761256401593958417. Bot actions do not establish real-world contact."
 antiFanon:
   - "Historical Discord exports showing Sensei + Staff + 18+ on Shiki's messages are role snapshots, not appointment chronology and not a reason to override the current locked Director / Sensei filing."
   - "The May 15 `strike me` / `strike back` language occurs in game/community conflict discussion. Do not convert it into evidence of real-world physical violence."
@@ -92,6 +99,13 @@ By September, Shiki's contribution sounds less like conflict autobiography and m
 A week later his good-night message compresses the whole mode into one breath: **`fight hard learn header surpass ur enemy`**.
 
 There is no literal class, curriculum, exam, or teaching credential here. The progression is social. Earlier in the year, Shiki talks about what he learned from fighting. By fall, he is routinely turning chat into little instructions about studying, learning, and improving.
+
+
+## OCTOBER 2020 — EVERYBODY PICKED THE SENSEI
+
+Mugen, Anthos, and Gilli spent part of October 1 directing the bot's kiss, glomp, bite, and cuddle menu at Shiki. Gilli's **`Wyf LMAO`** is an appropriately concise review of the operation. Soon afterward Shiki announced **`im just gonna sit with my party team`**. Anthos eventually glomped Cookie instead.
+
+Whether that line was an escape attempt or simply Shiki returning to his game is not recorded. Either way, it is a good little glimpse of the contrast: the room could stage an entire bot-action pileup around Sensei, and his own surviving contribution could still be about the party team. Nobody physically did any of those bot commands; the comedy was in the public targeting and the wildly different registers.
 
 ## DECEMBER 2020 — DARK MODE HAS A BEDTIME
 
