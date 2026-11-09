@@ -1,3 +1,11 @@
+## 2026-11-08 21:00 PST — Photo Submissions DarkAsrai/Aizzy structured discovery
+
+- Full GitHub REST census: 137 remote branches, 30 active miner HEADs, zero new/advanced; MAIN branch ledger census committed at `cd33346960df96c444c79d0fa4f430c966605bf6`. Ledger: 51 tracked, five pending-publication families, one recovery backlog, zero overdue.
+- Direct miner source: `archive-miner-photo-submissions-2021` HEAD `d45d441feca0110e9495f49b13df9666982bb45c`, `archive-intake/photo-submissions-2021-visual-contest-2026-08-19-1845-pdt/site-candidates-hourly.md`, candidate `DarkAsrai takes Aizzy to the ferris wheel for Popstar`, 2021-08-17. MAIN `src/content/people/darkasrai.md` already has the scene and a structured claim; WIKI body already had the episode but lacked a searchable claim and theme tags.
+- WIKI reader `src/data/dossier-snapshots/darkasrai.md` commit `60039f78b1b6175cf71e79537167a9165b0ce2ea`: added structured shared-photo claim and `photoshoot`/`popstar` tags, without repeating the episode prose. Source reread passed. Exact-commit Actions query returned zero runs; build/preview/live publication pending verification. No MAIN reader edit.
+- WIKI Gilli previous build workflow `42556961038` now SUCCESS; independent live fingerprint not retrieved.
+- Club-Only 2021–2026 recovery checkpoint read; later-year retrieval issue remains. Photo consumed SHA held at `342ee5dfe77b0c6d1106f28eb557fd25ce67085b` vs HEAD `d45d441feca0110e9495f49b13df9666982bb45c`; full cumulative A/B inventory still not counted. Reply parents `835940038549569627` and `872535327926009928`, and inaccessible media, remain source-blocked.
+
 
 ## 2026-11-08 20:34 PST — BACKROOM Yoza/Shimoko parity and MAIN deployment verification
 
