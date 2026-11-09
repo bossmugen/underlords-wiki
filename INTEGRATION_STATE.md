@@ -1,3 +1,11 @@
+## 2026-11-09 09:35 PST — Main HQ ShiyaX Cat Gun / counterfire
+
+- Fresh REST census: 137 MAIN branches, 30 miner branches, no new or advanced HEADs. MAIN census commit `eac9ddaaf00fd8000b9c1401a7ee6c1b355ceb16`.
+- Read Main HQ checkpoint and `site-candidates-2026-08-26-0645.md` plus `receipt-delta-2026-08-26-0645.md` directly from `archive-miner/main-hq-hourly`; August Reunion checkpoint + Run 28 overlay and Club-Only 2021–2026 checkpoint also reviewed for recovery continuity.
+- MAIN `src/content/people/shiyax.md` reader commit `e9cc98a6d940c84a2219755e116f6751468e2110` folds the October 16 2021 Cat Gun / Business Goose Pew counterfire into existing Petty Crimes character behavior. Receipts `899170271821455461`, `899170308202836039`, `899170389043847258`. The Koi name is unresolved; pooled Deleted User is not assigned to Mercy. Source reread PASS. MAIN production workflow `42665677767` QUEUED, so candidate pending build/live verification.
+- WIKI reader unchanged: this short contradiction is best housed in MAIN's existing character prose; structured dossier reconciliation remains optional, no mirrored text. Previous WIKI build `42659970084` and preview `42659969795` SUCCESS for prior wiki head, not this MAIN reader.
+- Main HQ publication backlog and August Reunion recovery remain open. No consumed SHA advanced; August Reunion `dfe5909d` vs `fcc27ac7`. Remaining accepted A/B candidate count still uncertified; original-media and attribution blocks unchanged.
+
 ## 2026-11-09 09:00 PST — Photo Submissions Gilli BEACH rendering repair
 
 - Full MAIN SHA-certified census: 30 active miner branches, none new/advanced; MAIN census `714406b4a0062c96d8e62bfb5a688546b9668066`.
