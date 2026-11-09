@@ -38,12 +38,15 @@ antiFanon:
   - "Lobby appearance does not establish an exact join date or a historical Staff appointment."
   - "The two images were posted by Persephone; their maker, photographer, subjects, and contents remain unverified."
   - "One apology after a submission does not establish chronic insecurity or a contest placement."
-relatedPeople: []
+relatedPeople:
+  - "mugen"
 tags:
   - "lobby"
   - "photoshoot"
   - "flowers"
   - "festival"
+  - "reunion"
+  - "2026"
 ---
 
 # Persephone
