@@ -31,7 +31,7 @@ claims:
   - text: "On September 16, 2021, ShiyaX asks `theres a limit ?`; Tofu true-replies `At least pace yourself`. The underlying image/activity is unresolved."
     evidence: "archive-confirmed"
     date: "2021-09-16"
-  - text: "On September 20, 2021, after a Wall screenshot post, Tofu writes `PUTTING ME ON BLAST!` and thirty-seven seconds later `I'll fucking do it again too.`"
+  - text: "On September 20, 2021, Cookie identifies the Wall accusation against Tofu as promised bee spam. Tofu protests `PUTTING ME ON BLAST!`, then thirty-seven seconds later announces `I'll fucking do it again too.`"
     evidence: "archive-confirmed"
     date: "2021-09-20"
   - text: "On October 5, 2021, Tofu posts `I'm not saying @Cookies and Juicebox is a cochino but, he's a cochino.` with a screenshot attachment; Cookie answers `:PandaRun:`."
@@ -82,7 +82,7 @@ The same June 25 date supplies a cleaner verbal receipt. Somebody mentions spend
 
 By August 27, a direct reply to one of Tofu's Wall posts is simply **`OH GOD NO`**. Tofu answers **`HAHAHAHAHAHA`**. The underlying post remains uninterpreted. The social beat does not: before the later bee-spam prosecution makes reciprocal exposure explicit, the room is already greeting Tofu's Wall contributions like incoming weather.
 
-The important complication arrives September 20, when the evidence system turns around. A screenshot appears. Tofu reacts **`PUTTING ME ON BLAST!`**. Thirty-seven seconds later: **`I'll fucking do it again too.`** The attachment itself was not visually inspected, so the wiki does not narrate what the exhibit shows. It does not need to. Tofu's two lines contain the entire contradiction: object to becoming evidence, then announce future recidivism.
+The important complication arrives September 20, when the evidence system turns around. Cookie says Tofu wasn't kidding about promising to spam him with bees. A screenshot appears. Tofu reacts **`PUTTING ME ON BLAST!`**. Thirty-seven seconds later: **`I'll fucking do it again too.`** The attachment itself was not visually inspected, so the wiki does not narrate what the exhibit shows. It does not need to. Tofu's two lines contain the entire contradiction: object to becoming evidence, then announce future recidivism.
 
 That is why the recurring behavior is **reciprocal evidence culture**, not prosecutor identity. Tofu is not neatly divided into curator mode and defendant mode. Both are active. You can demand the receipt, become the receipt, complain about the receipt, and still endorse the underlying behavior before a minute has passed.
 
