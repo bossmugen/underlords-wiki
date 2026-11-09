@@ -10,6 +10,13 @@ summary: "Anthos enters the surviving archive as an almost-daily 2020 presence, 
 summaryEvidence: "archive-confirmed"
 publication: "public"
 claims:
+  - text: "Ren and Anthos repeatedly staged the Photo Submissions opening together: Ren posted Example Photos and Anthos followed with the official submissions divider on January 6 and February 15, 2021. The handoff was shared work, not a named office."
+    evidence: "archive-confirmed"
+    date: "2021-01-06 – 2021-02-15"
+    sources:
+      - label: "Photo Submissions · recurring Ren/Anthos setup sequence"
+        href: "/events/photo-submissions"
+    note: "Photo miner site-candidates-hourly.md, 'Ren and Anthos have a tiny repeat assembly line'; chronological adjacency, not Discord reply linkage. No claim of sole ownership, image creation or historical appointment."
   - text: "STALKER's June 14, 2021 announcement listed submissions June 14–20, but Anthos publicly called June 27 the last submission day in Announcements. WolfPhenix, Qin-Mu, and Tofu entered June 24–26 under that revised calendar; Anthos closed the round June 28 and moved results to July 1."
     evidence: "archive-confirmed"
     date: "2021-06-14 – 2021-06-28"
@@ -183,7 +190,7 @@ Ansun also briefly appoints himself her fake personnel department. On September 
 
 Around the same time, the Ansun/Anthos voice-twin joke takes off. The room starts multiplying Anthos into `one being`, `all Anthos`, `Anthos is the solution`, and eventually an entire **Anthos arc**. None of that is literal identity or relationship canon. It is what happens when a highly familiar person becomes easy raw material for the group's internal language.
 
-The joke does not replace the work. Through 2021 Anthos keeps carrying recurring visual routines—opening Photo Submissions rounds, posting deadline reminders, and extending them when needed. The same member who has been promoted into a universal constant by the group chat is still doing very mundane maintenance on the calendar.
+The joke does not replace the work. Through 2021 Anthos keeps carrying recurring visual routines—opening Photo Submissions rounds, posting deadline reminders, and extending them when needed. On January 6, Ren laid out the example photos and Anthos followed with the official submissions divider eight minutes later. They repeated the handoff on February 15, this time only fifty-three seconds apart. Nobody needed to announce a department: one set the references, the other opened the submissions, and the room knew what to do. The same member who has been promoted into a universal constant by the group chat is still doing very mundane maintenance on the calendar.
 
 That combination is the useful character progression. Anthos becomes more mythologized because she is around, not instead of being around.
 
