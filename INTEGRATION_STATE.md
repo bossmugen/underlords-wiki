@@ -1,3 +1,9 @@
+## 2026-11-09 15:40 PST — BACKROOM Valantina / Nhou relationship discovery
+
+- BACKROOM source `archive-intake/chat-2026-08-24-backroom-batch-miner/site-candidates-pass-17.md` read directly on `archive-miner/backroom-deals-2026-08-24`; compared MAIN `src/content/people/valantina.md`, MAIN Photoshoot override, and WIKI Valantina dossier. Valantina Council/POPSTAR/FESTIVAL story already fully present on both surfaces; duplicate suppressed. MAIN biography explicitly identifies Nhou greeting Valantina (`hi val`) during May 2020 Lobby welcome, but WIKI `relatedPeople` omitted Nhou. Added `nhou` to WIKI `src/data/dossier-snapshots/valantina.md` commit `806fc62bb1014cd4778fdaa4cc9dbfc5d0509f15`; source reread PASS. This is a discoverability link, not a claim of family, special friendship, or club status.
+- BACKROOM Pass 18 checked: Dora/Forsaken and Ren gentle outside-editing correction already covered in WIKI Dora and MAIN Ren; no duplicate prose. Media uninspected, `Moments submission` mechanics unresolved.
+- Miner branch name census found 30 active branches (26 slash, 4 hyphen), but this pass did not independently fetch all HEAD SHAs or persist the mandatory MAIN SHA census; most recent MAIN ledger reported 30 active and 51 tracked. No consumed SHA advanced. BACKROOM recorded HEAD `9c143a7c`, consumed `68d2fba7`; full remaining A/B count still unknown. New WIKI build/preview/live deployment pending verification; do not mark integrated until confirmed. MAIN no reader change.
+
 ## 2026-11-09 15:35 PST — Main HQ Feli source-route repair
 
 - Independently enumerated 137 MAIN remote branches, 30 miner branches (26 slash, four hyphen); zero new or advanced HEADs. Census persisted MAIN commit `6ec86ea4cfd46f9c4c1a74e3d12109c863a2867c` before intake review.
