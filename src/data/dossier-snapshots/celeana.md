@@ -1,6 +1,5 @@
 ---
 name: "Celeana"
-canonicalPerson: "Cele"
 aliases:
   - "celeana"
 roles: []
