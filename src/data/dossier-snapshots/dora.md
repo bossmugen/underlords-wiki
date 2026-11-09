@@ -46,6 +46,7 @@ tags:
   - "visitor"
   - "Forsaken"
   - "photoshoot"
+  - "photo-submissions"
   - "waltz"
   - "popstar"
 ---
@@ -61,13 +62,16 @@ Dora kept showing up. During DUSK TIL DAWN, Ren caught an added sentence that br
 | Date | Episode |
 | --- | --- |
 | 2021-07-10 | Identifies as Forsaken in Lobby; Anayss directs her to Photo Submissions |
-| 2021-07-10 | Dora posts WALTZ entry naming KuroAren as partner |\n| 2021-07-12 | Lapis posts WALTZ entry naming Dora as partner |
+| 2021-07-10 | Dora posts WALTZ entry naming KuroAren as partner |
+| 2021-07-12 | Lapis posts WALTZ entry naming Dora as partner |
 | 2021-08-04 | Ren explains outside-editing rule and offers original-image route |
 | 2021-08-22 | Dora posts another entry for POPSTAR |
 
 ## Relationships
 
-**KuroAren:** Named by Dora in her own July 10 WALTZ caption.\n\n**Lapis:** Named Dora as WALTZ partner two days later; neither pairing establishes romance.
+**KuroAren:** Named by Dora in her own July 10 WALTZ caption.
+
+**Lapis:** Named Dora as WALTZ partner two days later; neither pairing establishes romance.
 
 **Ren:** Enforced a rule while making resubmission feel possible.
 
@@ -75,7 +79,9 @@ Dora kept showing up. During DUSK TIL DAWN, Ren caught an added sentence that br
 
 ## Gallery / media notes
 
-**WALTZ (July 10):** Dora posted a caption naming KuroAren; image capture and authorship unverified. Source: Photo Submissions miner `site-candidates-hourly.md` (Waltz overlap).\n\n**WALTZ (July 12):** posted by Lapis, message `864076757694152724`; attachment `864076757408808980`.
+**WALTZ (July 10):** Dora posted a caption naming KuroAren; image capture and authorship unverified. Source: Photo Submissions miner `site-candidates-hourly.md` (Waltz overlap).
+
+**WALTZ (July 12):** posted by Lapis, message `864076757694152724`; attachment `864076757408808980`.
 
 **POPSTAR:** posted by Dora, message `879105132304941077`; attachment `879105132099424306`.
 
