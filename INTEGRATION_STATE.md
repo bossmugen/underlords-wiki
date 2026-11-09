@@ -1,3 +1,10 @@
+## 2026-11-08 19:35 PST — Main HQ Gilli/Spicy Wall parity
+
+- Full REST census: 137 remote branches / 30 active miner HEADs, none new or advanced; MAIN census state commit `9f1a27942b7e15a7a3ebf25b1506648f0b12a77b`.
+- Read Main HQ and August Reunion checkpoints directly from miner branches, plus Club-Only recovery checkpoint. Main HQ `site-candidates-2026-08-25-0545.md` candidate #1 Gilli/Spicy Wall recurring summons and 28-ping avalanche and #2 hydration-grounding threat are already person-first on MAIN `src/content/people/gilli.md` but were missing from WIKI.
+- Added WIKI `src/data/dossier-snapshots/gilli.md` structured claims and distinct episode, reader commit `b0c60f14c7989ea2cfc22d15a35d23508b9a548e`. Source receipts: 832127093286502400, 832127117155893269, 885376581143519263, 889015818749366282, 889016098341666816, 845753541066489926. No uninspected media description or proven retaliatory intent inferred. Reader source reread passed.
+- WIKI exact reader build workflow 42556961038 and preview 42556961087 were in progress at inspection; successful verification/live production not yet established. MAIN no reader edit. Main HQ publication inventory still incomplete, August Reunion cursor still dfe5909d vs fcc27ac7; consumed SHAs unchanged. Original-media and Alkey/Meowk attribution blocks remain.
+
 ## 2026-11-08 19:04 PST — LEXI exact-commit verification and Photo candidate reconciliation
 
 - Fresh REST census: 137 remote branches, 30 active miner HEADs, zero advanced/new; MAIN branch-state commit `e701ea63d13034c505ca32f7e195770b68d31371`. Five pending-publication families, one recovery backlog, no new overdue branch certified.
