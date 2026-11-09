@@ -57,6 +57,7 @@ antiFanon:
   - "The `cochino` line is peer teasing in a dated Wall scene, not a diagnosis or permanent characterization of Cookie."
   - "Current Staff canon overrides historical/export-time VIP metadata; those arrays do not establish appointment chronology."
 relatedPeople:
+  - "bishopthaguru"
   - "cookie"
   - "gilli"
   - "shiyax"
