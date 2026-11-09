@@ -1,3 +1,9 @@
+## 2026-11-08 18:03 PST — LEXI three-round Photoshoot discovery parity
+
+- Full REST census 137 branches / 30 active miner HEADs, zero advanced; MAIN branch ledger commit a5ae864a86ae2941fe8ee6db4d4b5f94873f339d. Five pending-publication families and one recovery backlog remain recorded.
+- Photo miner checkpoint and site-candidates.md read directly from archive-miner-photo-submissions-2021. LEXI LOVE/Lonely/Flowers receipts 805668415489835008, 811621070733049886, 818519188774977577 already narrated on MAIN and structured on WIKI, but neither reader metadata had Photoshoot/theme discoverability tags. Added tags to MAIN src/content/people/lexi.md reader a0aef4a30ed5393bd839c95cc7a186c47c4a42d5 and WIKI src/data/dossier-snapshots/lexi.md reader 026d927f6af5d501f68fee5db910dd6d0f4bf083. No new in-game membership inference from LEXI's LoliParadise/S8 Lobby self-report, no age disclosure, no image creator attribution. Both exact reader sources reread; MAIN Actions lookup initially zero runs, builds/live confirmation pending.
+- Club-Only 2021–2026 checkpoint read, recovery still blocked by later-year retrieval locality. Photo consumption held 342ee5df vs d45d441f; cumulative candidate handoffs still lack complete distinct A/B count. Missing reply parents and original media remain blocked. No cursor advanced.
+
 ## 2026-11-08 17:35 PST — August Reunion Oyasumi/Ren misread parity
 
 - Full GitHub REST census: 137 remote branches, 30 active miner HEAD SHAs, zero new/advanced. MAIN branch ledger census persisted at `6032014b9b6c37d9542cbc5040099c4127894964`.
