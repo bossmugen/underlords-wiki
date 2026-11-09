@@ -1,3 +1,10 @@
+## 2026-11-09 04:57 PST — Han Photoshoot discovery parity
+
+- Photo Submissions miner checkpoint and cumulative candidate handoffs read directly on `archive-miner-photo-submissions-2021`; candidate `Han enters the contest like okay fine and then accidentally stays` already represented as structured claim on MAIN and WIKI. No new person-story copy added.
+- WIKI `src/data/dossier-snapshots/han.md` reader commit `9d82d38324b4e73902db3ab61a1defe3a4e5bf56`: added Photoshoot and five theme discovery tags to existing Popstar → NightLife → Scary → Family → Winter story. Source reread confirms tags. MAIN already has the five-entry claim; no duplicate reader edit.
+- 30 active miner names enumerated; branch search does not expose HEAD SHAs, so 26+4 census is name-certified only. MAIN census `e7a6682b9b39152ada78706db0de22b81fdd9919`.
+- GitHub Actions exact-commit lookup returned no PR-filtered runs. Astro build, wiki preview and live deployment remain **unverified**. Do not mark candidate deployed. Photo Submissions consumed SHA remains `342ee5df` versus previously recorded HEAD `d45d441f`; remaining A/B count uncounted. Missing reply parents and inaccessible originals remain source-blocked; Club-Only recovery remains open.
+
 ## 2026-11-09 04:35 PST — Main HQ Zhēnxī front-door speedrun
 
 - MAIN reader `src/lib/lobby-noteworthy-events.ts` commit `62a137be5346341d9947fcdeb8a5300feb746fd1`: restored Zhēnxī's `I am scare` → Wall protest, Ansun's six-minute characterization, and Ren's `New record?` from Main HQ `site-candidates-2026-08-25-1645.md`. No inferred charge or visual content from uninspected pre-arrival image `845549197867876414`.
