@@ -1,3 +1,9 @@
+## 2026-11-08 23:00 PST — Grimlee four-theme discoverability
+
+- Photo Submissions miner `archive-miner-photo-submissions-2021` HEAD `d45d441feca0110e9495f49b13df9666982bb45c`, `site-candidates-hourly.md` Grimlee four-round entry. Waltz `864030989507624960`, Dusk til Dawn `872752786582937600`, Winter `917748209730875403`; Popstar exact ID not normalized. All blank captions; POSTED BY only.
+- MAIN `src/content/people/grimlee.md` reader `8092a827ed12f9d126160d9a45f785693beb28c3`: four-round discovery tags. WIKI `src/data/dossier-snapshots/grimlee.md` reader `5837f52faa8c2d9ef609e2eb488cda51c1738d99`: missing Dusk til Dawn/Popstar discovery tags. Existing person-first prose and structured claims preserved, no duplicate or image attribution.
+- Both source files reread and tags confirmed. Exact-commit Actions connector returned zero PR-filtered runs, so build and live deployment remain **pending verification**. MAIN branch census `0ce1546184687f5dff9c436e5e21dc5fa280da03` certified 30 active HEADs, none advanced; 51 tracked total. Club-Only 2021–2026 checkpoint reviewed; substantive recovery remains. Photo consumed cursor held `342ee5df` vs HEAD `d45d441f`; remaining distinct A/B inventory uncounted, reply parents `835940038549569627` and `872535327926009928` and inaccessible media remain blocked.
+
 ## 2026-11-08 22:00 PST — Dean three-theme Photoshoot discoverability
 
 - Full REST census: 137 remote branches, 30 active miner HEADs, no new or advanced; persisted before intake review at MAIN `073db842f41a06c8e8ffd4765b679e2919d67c3e`. Existing ledger: 51 tracked, five pending-publication families, one recovery backlog, zero overdue.
