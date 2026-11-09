@@ -21,6 +21,8 @@ antiFanon:
   - "Lapis / Emy is the identity recorded in the Photo Submissions people index; do not bridge to another account on name similarity alone."
   - "The Waltz caption establishes a named dance partner, not a romantic relationship or closeness ranking."
   - "Submission credit is POSTED BY only; image creator, photographer, and depicted avatar identities are not independently established."
+relatedPeople:
+  - "dora"
 tags:
   - "photo-submissions"
   - "waltz"
