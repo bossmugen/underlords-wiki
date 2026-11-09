@@ -1,3 +1,10 @@
+## 2026-11-09 00:44 PST — Main HQ Shiki bot-action dogpile
+
+- MAIN full REST census 137 branches / 30 active miner heads, none advanced, persisted before intake at `bed1dc03ad8587713ae958fa2f7fcc8323c20a3e`.
+- Directly reviewed August Reunion `archive-miner/aug-2026-living-ensemble-hourly` checkpoint, Main HQ `archive-miner/main-hq-hourly` checkpoint and `site-candidates-2026-08-25-1145.md`, and Club-Only 2021–2026 recovery checkpoint.
+- Main HQ candidate #4: October 1 2020 Shiki bot dogpile (Mugen/Anthos/Gilli) added as structured claim and episode to WIKI `src/data/dossier-snapshots/shiki.md` at `b46186d937cf1a8262a14d129061550ded7f6848`. Receipt set: `761254092197724201`, `761254099164463124`, `761254100532199514`, `761254100624605186`, `761255174231949382`, `761255395385671700`, `761255526352420874`, `761255603980599317`, `761255931979497492`, `761255932306391051`, `761256387476324353`, `761256401593958417`. No unsupported causal link or physical contact inferred.
+- MAIN Shiki biography already contains substantial lived person-first Sensei material; no duplicate scene appended there. WIKI source reread PASS. Build run `42588140752` and preview `42588140718` queued at inspection; exact reader build/live verification pending. Consumed SHA unchanged; accepted candidate remainder uncounted. Original media and Alkey/Meowk attribution remain held.
+
 ## 2026-11-09 00:22 PST — Wichita / HamitteY Flowers discovery
 
 - Full MAIN branch census: 137 remote branches; 30 active miner branches, no new or advanced HEADs; persisted MAIN `c5bc1bffad12e6f88f75599b92b4d8be3f160cc5` before intake review.
