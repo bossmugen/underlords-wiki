@@ -48,6 +48,11 @@ tags:
   - "whiskey"
   - "ordinary-life"
   - "affection"
+  - "photo-submissions"
+  - "photoshoot"
+  - "love-theme"
+  - "lonely-theme"
+  - "flowers-theme"
 ---
 
 # LEXI
