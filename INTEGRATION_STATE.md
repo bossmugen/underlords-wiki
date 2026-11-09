@@ -1,3 +1,11 @@
+## 2026-11-09 02:06 PST — Photo Submissions Dora dossier repair
+
+- MAIN census persisted first at `f495d36f8a046b26bc51f5453219f3403c057e2a`: 30 active miner branches, no new branch names. This pass reused prior recorded SHAs; independent HEAD recertification is still pending.
+- Read Photo Submissions miner `checkpoint.md`, `site-candidates.md`, and `site-candidates-hourly.md` directly at branch `archive-miner-photo-submissions-2021` (previously certified HEAD `d45d441feca0110e9495f49b13df9666982bb45c`). Reconciled Dora/Forsaken two WALTZ pairings (KuroAren July 10; Lapis July 12) and Ren's August 4 editing correction. The WIKI dossier already contains the substantive scene and attribution boundaries; no duplicate claim added.
+- WIKI reader `src/data/dossier-snapshots/dora.md` commit `bd019efac84accb19c3b8ef59a3dbed4c30191e9`: fixed five literal escaped line breaks splitting Episodes, Relationships and Gallery entries; added `photo-submissions` discovery tag. Source reread PASS. New reader Actions/build/live deploy NOT yet verified; exact-commit PR-filtered workflow lookup empty. MAIN Dora source path not established, so no MAIN reader edit.
+- Prior Cookie WIKI reader `3a0ba8c45c2e75f06c27234d698bae358b427b52` build workflow `42591772822` job `129074847754` SUCCESS. This verifies build, not independent production fingerprint.
+- Club-Only 2021–2026 recovery checkpoint inspected directly; later-year source retrieval still blocked by index locality despite branch ledger's consumed label. Photo branch consumed SHA held at `342ee5dfe77b0c6d1106f28eb557fd25ce67085b`; cumulative accepted A/B inventory remains uncertified. Missing reply parents `835940038549569627`, `872535327926009928`, and inaccessible original media remain blocked.
+
 ## 2026-11-09 01:47 PST — BACKROOM Pride dossier recovery
 
 - MAIN full REST branch census: 137 remote branches, 30 active miner branches, zero advanced/new HEADs, persisted at `a521b4f23c1ab52bffe133296138a0e1a63e94c7` before intake review.
