@@ -194,6 +194,9 @@ tags:
   - "slice"
   - "afterlife"
   - "social-memory"
+  - "photo-submissions"
+  - "photoshoot"
+  - "example-photos"
 ---
 
 # Sye
