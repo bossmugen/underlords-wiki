@@ -139,6 +139,11 @@ tags:
   - "wall-history"
   - "beansprout"
   - "support-tech"
+  - "photo-submissions"
+  - "photoshoot"
+  - "colors-theme"
+  - "mafia-theme"
+  - "beach-theme"
   - "whiskey"
   - "relationship-metadata"
 ---
