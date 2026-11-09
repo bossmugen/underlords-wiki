@@ -1,3 +1,10 @@
+## 2026-11-09 10:30 PST — BACKROOM Snow Wall speaker attribution correction
+
+- MAIN miner branch names enumerated: 30 (26 slash-style, four hyphen-style). Full current HEAD SHA recertification and MAIN census persistence not completed in this pass; previous certified ledger remains authoritative until refreshed.
+- Read BACKROOM `checkpoint.md` and `site-candidates-pass-16.md` directly on `archive-miner/backroom-deals-2026-08-24`; compared MAIN `src/content/people/snow.md` and WIKI Snow dossier. MAIN correctly treats the November 4, 2020 screenshot request as coming from a distinct account displayed `Sou`, without equating that account to another known identity. WIKI incorrectly called that speaker Shiya.
+- Corrected WIKI `src/data/dossier-snapshots/snow.md` in reader commit `c14ce52f229aa1415a6e1ebbe27a60cea10baa21`; exact source reread PASS. The Wall account's display name alone does not establish identity. No private officer-room material or uninspected media included.
+- MAIN reader unchanged because attribution was already careful there. WIKI Astro build and preview/live deployment remain pending verification; no consumption SHA advanced. BACKROOM older accepted A/B inventory still uncounted, Club-Only recovery and Whiskey ordering open. Candidate Pass 14 Rummy/Persephone and Pass 15 Photoshoot were checked for novelty; Persephone already fully covered on both surfaces, so duplicate suppressed.
+
 ## 2026-11-09 09:35 PST — Main HQ ShiyaX Cat Gun / counterfire
 
 - Fresh REST census: 137 MAIN branches, 30 miner branches, no new or advanced HEADs. MAIN census commit `eac9ddaaf00fd8000b9c1401a7ee6c1b355ceb16`.
