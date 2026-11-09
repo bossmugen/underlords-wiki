@@ -12,6 +12,20 @@ summary: "Ren's archive progression starts with her using Slice for the same soc
 summaryEvidence: "inferred"
 publication: "public"
 claims:
+  - text: "The September 29, 2020 Organisation index called RV/Ren `smol noodle`; on November 4 Illien casually addressed her as `Noodle` during the Pride lost-corpse callback. The nickname was not confined to the index."
+    evidence: "archive-confirmed"
+    date: "2020-09-29 – 2020-11-04"
+    sources:
+      - label: "BACKROOM Pass 32 · Organisation index / Wall · 773639584143376394 and following exchange"
+        href: "/channels/wall"
+    note: "Tumbleweed's index label and Illien's later nickname are linked as a specific callback, not proof that every index tag entered speech. Original index artifact and exact Wall follow-up ID should be retained in backstage receipts."
+  - text: "Ren's July 14, 2021 WALTZ Photoshoot submission called Eos `the bestie` and tagged Eos directly."
+    evidence: "archive-confirmed"
+    date: "2021-07-14"
+    sources:
+      - label: "Photo Submissions · WALTZ · 865078249850929162"
+        href: "/events/photo-submissions"
+    note: "The Eos account bridge is explicit in BACKROOM receipts-pass-32.md. Ren posted the entry; photograph maker/capturer and the seven-second pre-edit wording are not established. The image remains uninspected."
   - text: "On August 7–8, 2021, Ren opened a spelling-themed Kahoot, issued a corrected poster code with `Cause I’m ✨ dumb ✨` and `@Staff forgive me`, then acknowledged that the code was still wrong and asked participants to redo the challenge."
     evidence: "archive-confirmed"
     date: "2021-08-07 → 2021-08-08"
@@ -338,3 +352,15 @@ Ren opened the spelling Kahoot with `OPEN UWUWUWU!!!`. By afternoon she had post
 Ren's Relax entry paired a photograph of two people lounging on beanbags with `:tmirusnyarelax: :ymiruspandarelaxed:`. Both are animated Discord custom emotes; the stored names carry the mood without an explanatory sentence. She edited the post roughly thirteen seconds later, but the export keeps only its final form. The two people in the image are unidentified, and posting it does not establish who made or captured it.
 
 **Running-gag / platform-language crosslink:** Ghostt used `:worryShrug1::worryShrug2:` as the complete caption on a Scary submission five months later (`900159114997530644`). Two different members could let UL's own emoji vocabulary do the talking. That is a recurring presentation trick, not a documented Photoshoot rule or evidence that either set of emotes originated with these submissions.
+
+## NOODLE — The index nickname that got loose
+
+The September 2020 Organisation index had RV filed as `smol noodle`. In November, while everyone was remembering the time Pride's corpse went missing, Illien called Ren `Noodle` without stopping to explain it. That is the funny part: one of Tumbleweed's labels had made it into ordinary conversation. No need to pretend the entire index became everybody's nickname dictionary.
+
+**Cross-reference:** BACKROOM Pass 32 · Organisation Update (September 29, 2020) / Wall (November 4, 2020), following Ren's lost-corpse Amber Alert messages `773639556544331856` and `773639584143376394`.
+
+## WALTZ — With the bestie
+
+**Episode:** July 14, 2021 · Photo Submissions · Ren's entry `865078249850929162`.
+
+Ren posted a WALTZ entry captioned `With the bestie` and tagged Eos. No interpretive gymnastics required: Ren supplied the friendship language herself. The event was a creative pairing; the caption is what makes the relationship visible. The post was edited seven seconds after publication, so the earlier wording cannot be recovered. The attached image `865078249553920000` has not been visually inspected, and posting it does not establish who photographed or made it.
