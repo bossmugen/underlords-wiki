@@ -1,3 +1,12 @@
+## 2026-11-09 10:35 PST — Main HQ Gilli Platelet drink-menu joke
+
+- Enumerated 30 MAIN miner branches (26 slash, four hyphen); census persisted to MAIN `archive-intake/INTEGRATOR_BRANCH_STATE.json` commit `2dcdf1364c6c12387cd928d067fd33dd9d8fe847`. Four priority HEAD SHAs independently recertified; other 26 preserved from prior full SHA census, not represented as freshly recertified.
+- Read Main HQ `checkpoint.md` and `site-candidates-2026-08-26-0745.md` directly from `archive-miner/main-hq-hourly`, plus August Reunion checkpoint and Run 28 continuation. Platelet candidate receipt Gilli `888933641521070082` accepted; Rich `885224285118025798` remains a separate potential culture detail, not conflated with Gilli.
+- MAIN `src/content/people/gilli.md` reader commit `492d91d17f9646cbbb4df6db0748dc17fa7ab0c8`: folded `Warm milk for the Platelets` into her existing care/Daycare characterization. Source reread PASS. No literal milk service, no role chronology, no private officers-only content.
+- WIKI reader unchanged: Gilli person-first gesture belongs on MAIN; WIKI may later cross-index the event once broader event context is reconciled. No duplicated prose.
+- Main HQ Noether/HamitteY dessert candidate `site-candidates-2026-08-26-0845.md` is already covered in both surfaces; suppressed duplicate. Media `IMG_20220203_161243.jpg` remains uninspected. August Reunion and Club-Only recovery remain open.
+- MAIN new reader Astro/build/Cloudflare exact live verification PENDING. Previous ShiyaX production run `42665677767` completed successfully. No consumed SHA advanced; Main HQ accepted A/B remainder uncounted.
+
 ## 2026-11-09 10:30 PST — BACKROOM Snow Wall speaker attribution correction
 
 - MAIN miner branch names enumerated: 30 (26 slash-style, four hyphen-style). Full current HEAD SHA recertification and MAIN census persistence not completed in this pass; previous certified ledger remains authoritative until refreshed.
