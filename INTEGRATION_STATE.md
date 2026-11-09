@@ -1,3 +1,10 @@
+## 2026-11-09 03:30 PST — BACKROOM Ren nickname / WALTZ recovery
+
+- MAIN full REST census independently checked 137 branches / 30 active miner HEADs, zero new or advanced, persisted first at MAIN commit `5fbddc417fbfac708a2b22180f034bc537ebf425`.
+- BACKROOM branch `archive-miner/backroom-deals-2026-08-24` HEAD `9c143a7c146af4fc90de4b258bee1c848a2818a0`: read checkpoint, `site-candidates-pass-32.md`, `receipts-pass-32.md`. Compared MAIN/WIKI Ren biographies; both lacked the precise Tumbleweed `smol noodle` → Illien `Noodle` callback and Ren's July 14 2021 WALTZ `With the bestie` caption for Eos. Panda/Eos and Pride already covered; not duplicated. Daya/Panda media still visually blocked.
+- WIKI reader `src/data/dossier-snapshots/ren.md` commit `b4ab3f8906e5dae8e5614381a591522763037503`: added two structured claims and two short episode/callback sections. WALTZ receipt `865078249850929162`; image `865078249553920000` remains uninspected; Wall Pride-corpse callback follows `773639584143376394`. No inferred photo maker, new romance, or universal Tumbleweed nickname rule.
+- Source reread PASS. Exact-commit WIKI build `42609714958` and preview `42609714973` in progress at check; **pending verification**, not marked deployed. MAIN no reader edit because BACKROOM material selected for structured WIKI; BACKROOM consumed cursor stays `68d2fba7adda1f110a9be57013dd7712c450f82d` until broader A/B inventory is reconciled. Accepted A/B remainder still uncounted. Club-Only recovery and Whiskey ordering remain open.
+
 ## 2026-11-09 02:56 PST — Sye Photoshoot discovery repair
 
 - Photo Submissions `archive-miner-photo-submissions-2021` HEAD `d45d441feca0110e9495f49b13df9666982bb45c`; checkpoint and `site-candidates.md` consulted, especially `Sye goes from taking a hundred tries to helping set the visual brief`. MAIN and WIKI already describe the January 2021 hundred-tries New Year submission and Jan 31 three example-photo posts; added missing `photo-submissions`, `photoshoot`, `example-photos` discovery tags without duplicating prose or crediting photography.
