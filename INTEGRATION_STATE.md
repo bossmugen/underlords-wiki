@@ -1,3 +1,9 @@
+## 2026-11-09 04:35 PST — Main HQ Zhēnxī front-door speedrun
+
+- MAIN reader `src/lib/lobby-noteworthy-events.ts` commit `62a137be5346341d9947fcdeb8a5300feb746fd1`: restored Zhēnxī's `I am scare` → Wall protest, Ansun's six-minute characterization, and Ren's `New record?` from Main HQ `site-candidates-2026-08-25-1645.md`. No inferred charge or visual content from uninspected pre-arrival image `845549197867876414`.
+- WIKI no reader change: this is a Lobby/Wall room episode; no duplicate dossier copy. MAIN source reread PASS; GitHub PR-filtered workflow lookup empty, build and Cloudflare live commit **unverified**. Candidate remains pending verification.
+- Independently enumerated 30 miner branch names (26 slash + 4 hyphen), no new names. Connector branch search did not expose HEAD SHAs; previously recorded SHAs retained, not independently recertified. MAIN census commit `57f983ea7abec3ca9d269c8a51602d9be0dbd17a`. August Reunion and Main HQ checkpoints read directly; consumed SHAs unchanged, complete A/B remainder uncounted. Club-Only recovery remains open.
+
 ## 2026-11-09 03:30 PST — BACKROOM Ren nickname / WALTZ recovery
 
 - MAIN full REST census independently checked 137 branches / 30 active miner HEADs, zero new or advanced, persisted first at MAIN commit `5fbddc417fbfac708a2b22180f034bc537ebf425`.
