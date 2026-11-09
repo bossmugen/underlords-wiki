@@ -1,3 +1,11 @@
+## 2026-11-09 01:47 PST — BACKROOM Pride dossier recovery
+
+- MAIN full REST branch census: 137 remote branches, 30 active miner branches, zero advanced/new HEADs, persisted at `a521b4f23c1ab52bffe133296138a0e1a63e94c7` before intake review.
+- BACKROOM branch `archive-miner/backroom-deals-2026-08-24` HEAD `9c143a7c146af4fc90de4b258bee1c848a2818a0`; reviewed checkpoint and Passes 26, 31–35, 41–43, 45–46, 48, with Pass 32 receipts. Many sampled candidates already integrated on both surfaces (Ten, Valantina, SaraBunny, Syv, Tae, Key, Lilly, Ghoulie, Torr, Crystalia, Feli, Hishiro, Pride MAIN); deduped.
+- **New WIKI reader** `src/data/dossier-snapshots/pride.md` commit `f6e0c10a55bce47bef4a640e85e147b8bf38eac8`: missing Pride dossier, Wall exposure posture, Nov 4 2020 lost-corpse Amber Alert retrospective, relationships, running gags, receipt references. BACKROOM `site-candidates-pass-32.md` / `receipts-pass-32.md`; receipts `773639369633431632`, `773639451456831569`, `773639556544331856`, `773639584143376394`. MAIN Pride biography already carries scene; no duplicate MAIN edit.
+- WIKI source reread PASS; exact-commit workflow lookup returned zero runs at first check. **Build/deployment pending**, not marked integrated/published yet. Consumption remains `68d2fba7adda1f110a9be57013dd7712c450f82d`; full BACKROOM accepted A/B candidate remainder not certified. Media and original incident unrecovered, no visual claims.
+- Club-Only 2021–2026 checkpoint read directly; its branch ledger currently says consumed despite checkpoint's historical recovery warnings. No new consumption advance. Whiskey pending-review ordering inconsistency remains open.
+
 ## 2026-11-09 01:13 PST — Cookie Photoshoot shared-grievance recovery
 
 - MAIN full REST census: 137 remote branches, 30 active miner HEADs, none advanced; persisted on MAIN master at `6ba33673d39529a013b20a4fd337575603b709b7` before reviewing intake.
