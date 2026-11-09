@@ -41,6 +41,7 @@ antiFanon:
 relatedPeople:
   - "mugen"
   - "gabu"
+  - "nhou"
 tags:
   - "visitor"
   - "Council"
