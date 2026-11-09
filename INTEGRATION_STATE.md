@@ -1,3 +1,10 @@
+## 2026-11-09 07:05 PST — Mugen NightLife live-rule revision (Photo Submissions)
+
+- Full SHA-certified MAIN branch census: 137 remote branches, 30 active miner branches, no new/advanced HEADs. MAIN ledger census commit `0ebafe64444a82b3b597ec10597fd5e25e6ef4eb`.
+- Read `archive-miner-photo-submissions-2021` checkpoint and both cumulative site-candidate handoffs directly; source `site-candidates-hourly.md`, candidate **NightLife gets hot-patched after the doors are already open**. Read Club-Only 2021–2026 checkpoint for recovery continuity.
+- MAIN `src/lib/photo-submissions-overrides.ts` already carries the October 4 09:09 opening → 16:08 submission → 16:51:09 edit → 16:58:55 location revision; duplicate suppressed. WIKI `src/data/dossier-snapshots/mugen.md` now carries a structured dated claim in reader commit `9160cc9bf8852b39f60c4498f5799a1c14391dfa`. Source reread PASS. No invented pre-edit wording or causal blame assigned to entrant.
+- WIKI exact-reader Actions build `42641089366` and preview `42641089766` were in progress at inspection; live production not certified. No consumed SHA advanced. Photo branch `342ee5df` consumed vs `d45d441f` HEAD; complete A/B remainder still uncertified, missing reply parents `835940038549569627` and `872535327926009928` and inaccessible media remain blocked.
+
 ## 2026-11-09 06:55 PST — Main HQ Rummy/Mia solidarity, MAIN-only
 
 - SHA-certified 137 MAIN remote branches / 30 active miner branches; no new or advanced miner HEADs. MAIN census commit `070e79caaf533b1dd086dbb53a5d0f3251101734`.
