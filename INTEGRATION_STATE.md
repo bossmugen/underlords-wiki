@@ -1,3 +1,9 @@
+## 2026-11-09 13:04 PST — Photo Submissions Lapis/Dora reciprocal discovery
+
+- MAIN independently enumerated 137 remote branches and certified all 30 active miner HEAD SHAs unchanged; census persisted in MAIN commit `9c6fe1413d064df41b826d2c47f45aa739c7a48f` before review. Photo miner `archive-miner-photo-submissions-2021` HEAD `d45d441feca0110e9495f49b13df9666982bb45c`.
+- Read Photo Submissions `checkpoint.md`, `site-candidates.md`, `site-candidates-hourly.md`, and `integrator-handoff-2026-10-30-exhausted.md` directly from miner branch. Candidate `Waltz accidentally supplies its own anti-fanon warning label`, receipt `864076757694152724`; both WIKI Dora and Lapis already narrated overlapping WALTZ partners, but Lapis lacked a structured reciprocal `relatedPeople` link to Dora. Added `dora` to `src/data/dossier-snapshots/lapis.md` reader commit `ee3348bc94c78903e86ee70e219a63e5d4d0bfc9`. MAIN photo-submissions-overrides.ts already narrates Dora/KuroAren/Lapis overlap; no duplicate MAIN copy. No image authorship, romance or exclusivity inferred.
+- WIKI committed source reread PASS. Exact reader workflow runs `42699047184` and `42699047157` queued; Astro build and production not yet certified. Keep candidate pending verification, not integrated. Photo consumption cursor remains `342ee5dfe77b0c6d1106f28eb557fd25ce67085b`; full distinct remaining A/B inventory uncertified. Missing reply parents `835940038549569627`, `872535327926009928` and original media remain blocked. Club-Only 2021–2026 backlog remains unconsumed.
+
 ## 2026-11-09 12:40 PST — BACKROOM Bishop/Tofu reciprocal cast link
 
 - MAIN full miner census: 137 branches, 30 active miner HEADs independently verified unchanged; persisted MAIN `archive-intake/INTEGRATOR_BRANCH_STATE.json` commit `16bd10d3443854d75138f83a78de61a538fcaf93` before intake review.
