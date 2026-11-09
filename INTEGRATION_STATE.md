@@ -1,3 +1,9 @@
+## 2026-11-09 13:35 PST — MAIN HQ Yumi watchlist repair
+
+- Full MAIN branch census: 137 remote branches, 30 miner branches (26 slash, 4 hyphen), zero new/advanced HEADs. MAIN census commit `1826e96d48f482eeb11795b325052e62ee45840d`.
+- Read Main HQ and August Reunion `checkpoint.md` directly from miner branches, plus Main HQ `site-candidates-2026-08-26-1545.md` and later handoffs. Main HQ receipt `698737295733555223` adds Yumi's April 11, 2020 period-piece binge to her already published trash-anime taste. MAIN `src/content/people/yumi.md` reader commit `aa295dc9ab107412f837bd2e100c0cb5329e187a`; source reread passed. No claim that period pieces were anime. No duplicate WIKI reader prose: structured Yumi dossier remains separate.
+- Exact commit Actions query returned zero runs at inspection; Astro build and live Cloudflare production unverified. Candidate remains pending publication verification; no consumed cursor advanced. August Reunion and older Main HQ publication inventory remain open; inaccessible media and unresolved identities held. No private officers-only content published. Full A/B remainder count uncertified.
+
 ## 2026-11-09 13:30 PST — BACKROOM Tofu/Bishop verification follow-up
 
 - Reader commit `6938538b1809e99f8d8286c2de675cb829c73ffb` (`src/data/dossier-snapshots/tofu.md`, reciprocal Bishop relationship) passed Astro build [42694207565](https://github.com/bossmugen/underlords-wiki/actions/runs/42694207565). The associated preview run [42694207663](https://github.com/bossmugen/underlords-wiki/actions/runs/42694207663) completed **cancelled**; live publication remains unverified. Do not label this candidate fully integrated or advance BACKROOM consumed SHA on this check alone.
