@@ -73,6 +73,13 @@ claims:
     sources:
       - label: "👅 Wall · 2023-12-12"
         href: "/channels/wall"
+  - text: "On August 13, 2026, Ren posted a do-not-disturb background whose bottom text read `No molestar`; Oyasumi announced he had read it as `no molester`."
+    evidence: "archive-confirmed"
+    date: "2026-08-13"
+    sources:
+      - label: "🥃 Whiskey Room · Ren 1537688139311882290 / Oyasumi 1537692580551205044"
+        href: "/channels/whiskey-room"
+    note: "Ren posted the inspected screenshot; creator of the background artwork is unknown. The visual wording and Oyasumi response form one incident."
   - text: "On August 13, 2026, Oyasumi wrote `I hope I appear relatively normal. Fingers crossed`; Ren immediately challenged putting `Normal` and `UL` in the same sentence, and later that night Oyasumi asked the room to pray for a paper cut."
     evidence: "archive-confirmed"
     date: "2026-08-13"
@@ -154,7 +161,7 @@ The original screenshot's date and capturer are still unknown. The reunion repos
 
 ## 2026 — THE HOUSE STILL RECOGNIZES HIM WELL ENOUGH TO REJECT NORMALCY
 
-During the August reunion, Oyasumi writes **`I hope I appear relatively normal. Fingers crossed`**. Ren immediately objects to putting **Normal** and **UL** in the same sentence. Later Oyasumi asks the room to pray for a paper cut, and the following night's Kiro exchange turns a `Dab me up` GIF into increasingly ridiculous amendment attempts.
+Ren posts a do-not-disturb background reading **`No molestar`**; Oyasumi reads **`no molester`** instead. One phone setting has somehow become a criminal allegation. Then Oyasumi writes **`I hope I appear relatively normal. Fingers crossed`**. Ren immediately objects to putting **Normal** and **UL** in the same sentence. Later Oyasumi asks the room to pray for a paper cut, and the following night's Kiro exchange turns a `Dab me up` GIF into increasingly ridiculous amendment attempts.
 
 None of this establishes romance, diagnosis, or a prosecutor title. It establishes continuity of register. Years after the intake form, Oyasumi is still most visible at UL's little procedural edges—the Lobby, the Wall, the reunion conversation—and still placing one unmistakably human sentence next to whatever system or joke is operating there.
 
