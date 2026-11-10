@@ -1,3 +1,10 @@
+
+## 2026-11-10 07:30 PST — BACKROOM Wall self-filing cross-surface recovery
+
+- Full 137-branch / 30-miner SHA census, no advanced HEADs, MAIN census commit `35b7c069`.
+- Source directly on `archive-miner/backroom-deals-2026-08-24`: `archive-intake/chat-2026-08-24-backroom-batch-miner/site-candidates-pass-20.md` and `receipts-pass-20.md`. Snow Feb 24 screenshot-only/Whiskey routing `814343511250829352`, `814343593782542376`; Ghoulie/Eos July `862419333966987274`; Ghoulie/Marian/Snow Sept `885359004728049695`, `885359019974340638`, `885359256193364009`, `885359294772555817`, `885363732761423932`.
+- MAIN `src/lib/wall-overrides.ts` reader commit `9ca4c323f7cde87cfb05fb4732d838581168a3e8`: Wall episode; MAIN Actions `42845105088` in progress. WIKI `src/data/dossier-snapshots/baby-lyssa.md` structured claim commit `19cd9273a3d131156d3ff7a34e79f04ac03e7553`, Actions not yet surfaced. Exact production/live unverified; pending publication verification.
+- Sota's April 2023 fame joke already in MAIN Wall; duplicate suppressed. No romantic/sexual claim; uninspected media held. BACKROOM consumed cursor remains `68d2fba7`; accepted A/B remainder uncounted. Club-Only backlog still open.
 ## 2026-11-10 06:40 PST — Cookie/Tofu October DM Wall precursor
 
 - MAIN miner census: 30 active branch names (26 slash, 4 hyphen), no new names; current HEADs not independently recertified; census commit `d0c978d3b996159d0ba011fd327d15e7067a58dc`.
