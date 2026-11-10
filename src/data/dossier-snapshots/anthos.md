@@ -97,6 +97,13 @@ claims:
       - label: "Club Only · 2020-09-19"
         href: "/archive/club-only"
     note: "One feature-discovery line supports the scene-level pivot; it does not by itself establish a major music hobby or platform preference."
+  - text: "On September 29, 2020, Ansun proposed adding `inside anthos head` with Ansun, RV and Gabu labeled `3 alter anthos`; Anthos replied `aight bet`. The later edited Tumbleweed retained an `inner ànthos` grouping."
+    evidence: "archive-confirmed"
+    date: "2020-09-29"
+    sources:
+      - label: "Main HQ · site-candidates-2026-08-25-1145.md · messages 760568346004815941, 760568459489968159, 760568486472187925; edited map 760564322182103111"
+        href: "/channels/club-only"
+    note: "Participatory running joke, not literal identity or mental-health information. The edited map is later than the live exchange."
   - text: "On September 29, 2020, Anthos repeatedly posted `Underlords_Tumbleweed.png` while explaining the UL family Tumbleweed as `like a mind map`, proposing `lets add dean to mugs then from there we can add cel and woo etc`, saying `ill just keep adding it like that`, checking pins, and later telling the room `we r updating the UL family tumbleweed`."
     evidence: "archive-confirmed"
     date: "2020-09-29"
