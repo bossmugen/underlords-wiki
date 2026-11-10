@@ -1,3 +1,10 @@
+## 2026-11-10 00:40 PST — Main HQ Gilli hydration reference
+
+- MAIN miner checkpoint and site-candidates-2026-08-26-1345.md read directly from archive-miner/main-hq-hourly; August Reunion base checkpoint read directly from archive-miner/aug-2026-living-ensemble-hourly.
+- WIKI reader update: Gilli hydration burial joke, receipt 839317723020656690, src/data/dossier-snapshots/gilli.md, commit 2dd9d755c1931671382ec580ca1e8ce4dd49ea66. Source reread passed; build/live verification pending.
+- MAIN Gilli biography already synthesizes burial as part of her hydration care; no duplicate MAIN prose. Ren lunch/chaos candidate already represented in both surfaces.
+- MAIN branch census commit 22bf1103bc083480251eaa2918717e908b51c5b0: 30 active branch names rechecked, existing SHAs retained from prior certified census; not a fresh SHA certification. No consumed cursor advanced. August Reunion and Main HQ publication inventory still uncounted; media-only items held.
+
 ## 2026-11-09 23:57 PST — Photo Submissions Ren/Gilli shared reference handoff
 
 - MAIN independently certified all 137 remote branches / 30 active miner HEAD SHAs and persisted census at `6b903e039a9edd6dd779549ade85646eb557d774`; no miner HEAD advanced. Photo Submissions consumed `342ee5df` vs HEAD `d45d441f` remains held.
