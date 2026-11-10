@@ -50,6 +50,13 @@ claims:
     sources:
       - label: "JAG"
         href: "/lore/jag"
+  - text: "JAG Charge 1 recasts Malingering as evading responsibility for actions, behaviors, or verbal confrontations. Charge 23, Conduct unbecoming an officer and a gentleman, explicitly covers Officers, Staff, and Interns."
+    evidence: "archive-confirmed"
+    date: "2020-08-07 – 2020-08-08"
+    sources:
+      - label: "Main HQ · JAG charge text · 741429520929914971 / 741481947125121025"
+        href: "/lore/jag"
+    note: "These are clauses in Snow's draft, not proof any named person was formally charged under them. Joke-military language does not imply military governance."
   - text: "Snow's plain Club Conduct draft says real life takes priority, members should be kind to new players, hate speech is bannable, personal identifying information should be protected, and members should spend time with family and friends and get some sunshine."
     evidence: "archive-confirmed"
     date: "2020-08-07"
