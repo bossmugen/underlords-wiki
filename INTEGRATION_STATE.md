@@ -1,3 +1,10 @@
+## 2026-11-10 04:00 PST — Photo Submissions Aizzy cast-route recovery
+
+- Certified all 30 active miner HEADs from 137 remote branch records and persisted MAIN census commit `70e1cdf6a3e741e0416b4b8bfe86d08ce4603623`; three branches remain ahead of consumption: August Reunion, Backroom Deals, Photo Submissions. No consumed cursor advanced.
+- Read Photo Submissions `checkpoint.md`, `site-candidates.md`, `site-candidates-hourly.md` directly from `archive-miner-photo-submissions-2021`; Club-Only longitudinal checkpoint inspected. Existing DarkAsrai MAIN and WIKI pages already carry the POPSTAR ferris-wheel scene, but the named companion Aizzy had no WIKI cast dossier.
+- New WIKI reader `src/data/dossier-snapshots/aizzy.md` at `c41e0a5f8d15f3318a1c6359bd07ea2de8a068a5`, source `site-candidates-hourly.md` “DarkAsrai takes Aizzy to the ferris wheel for Popstar”; named account `aizzy92016` / ID `536863103342608385`. Attribution is only DarkAsrai's caption/mention; no romance, maker/capture, or avatar identification invented. MAIN deliberately unchanged because DarkAsrai already narrates the scene; a single-scene Aizzy MAIN biography would be padding.
+- Exact WIKI source reread PASS. WIKI build run `42812114754` and preview run `42812114621` QUEUED at inspection; live deployment unverified. Candidate remains pending verification. Photo Submissions consumed `342ee5df` against HEAD `d45d441f`; accepted A/B remainder uncounted, two missing reply parents and original media blocked. No branch marked consumed.
+
 ## 2026-11-10 01:40 PST — Main HQ Snow JAG clause-level biography repair
 
 - Enumerated 30 active miner branch names; MAIN census persisted at ed76705bb212d0b2f99bfa789e8b5cdeb41f7394. Branch search omitted HEAD SHAs; retained previously certified values, no fresh SHA claim. Ledger still has five pending-publication families and one backlog category.
