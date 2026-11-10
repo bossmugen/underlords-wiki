@@ -1,3 +1,9 @@
+## 2026-11-09 20:00 PST — Sye person-first Photo Submissions reconciliation
+
+- MAIN census `f12833463a70232b252a5a6c2d7f03835f718103` enumerated 30 active miner branch names, all present in the 51-entry ledger. Per-branch HEAD SHA recertification was not completed; preserved recorded last_seen values and all consumed cursors.
+- Read Photo Submissions `checkpoint.md`, `site-candidates.md`, and `site-candidates-hourly.md` directly from `archive-miner-photo-submissions-2021`. Sye's Jan. 6 New Year hundred-tries entry and Jan. 31 example-photo follow-up already exist as structured WIKI claim and in MAIN Sye biography. Rewrote WIKI Sye `summary` to join lived technical work, worry/care, joke-making and Photoshoot persistence without adding duplicate episode claims. WIKI reader `src/data/dossier-snapshots/sye.md` commit `66ace75c7f25db1bde661c67d0e6644c51dae588`; committed source reread PASS. Exact-commit workflow query returned zero runs; build and live deployment UNVERIFIED. MAIN reader unchanged because already person-first.
+- No new historical identity or media claim; no private officer content. Photo Submissions `last_consumed_sha` remains `342ee5df` vs recorded HEAD `d45d441f`; accepted A/B remaining count unverified. Missing reply parents `835940038549569627`, `872535327926009928` and inaccessible original pixels remain blocked. Club-Only recovery remains outstanding.
+
 ## 2026-11-09 19:35 PST — MAIN Moon dead-link production recovery confirmed
 
 - MAIN `src/content/people/moon.md` repair `e888dfd82fd67b11b065cc29a3e4de34f996b5f1` passed GitHub Actions UL Production Build + Deploy run `42744021067` (completed success, 2026-11-09 18:38 PST). This resolves the previously outstanding internal-link build blocker; no claim that every older candidate is independently reconciled. WIKI reader prose unchanged: this was a MAIN-only link defect.
