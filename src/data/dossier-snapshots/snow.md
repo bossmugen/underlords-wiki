@@ -19,6 +19,13 @@ summaryEvidence: "inferred"
 publication: "review"
 
 claims:
+  - text: "During the September 18, 2020 Keep Talking and Nobody Explodes session, Snow summed up the group's failure even though everyone could see the bomb; Anayss remembered repeated explosions, Ren reenacted a fire-warning line, and Ansun directed Anthos to the manual in gameroom."
+    evidence: "archive-confirmed"
+    date: "2020-09-18"
+    sources:
+      - label: "Main HQ · site-candidates-2026-08-25-1145.md and -1245.md · 756596536619827250 / 756596548263084139 / 756596550368493698"
+        href: "/channels/club-only"
+    note: "Ren's line is a reenactment, not a reliable attribution of the original fire warning. The group's competing claims about usefulness remain unresolved; no exact player roster inferred."
   - text: "Snow is a current Pit Boss / Minister in the corrected UL command roster."
     evidence: "user-confirmed"
     sources:
@@ -309,3 +316,7 @@ That August 2020 roast belongs beside the later Old Man Snow jokes, not as their
 ## SABER'S LONGEST-RUNNING BAD IDEA
 
 Snow gave Saber a recurring Saturday job in September 2020: **`Spank Mugs Booty`**. The bot dutifully assigned it **`m1k2w9`**. The funny part is how long the joke survived its author pressing Enter. Sye and Gabu later maintained that same scheduled object, and the bot was still announcing it in 2025. Snow's technical mischief became somebody else's maintenance chore, then somebody else's, until a throwaway gag had the longevity of municipal infrastructure. The actual Dragon Raja activity was **Defend Boss**. On October 24, Saber announced the joke-title event beginning, and less than a second later Sota yelled **`Go Defend Boss!`**, begging everybody to save Mugs while they were dying. The bot spoke fluent Snow; Sota translated it into something members could actually play. Nobody needs to pretend the title described literal behavior. The command itself is already a crime against sensible scheduling.
+
+## The bomb was visible
+
+The September 18, 2020 *Keep Talking and Nobody Explodes* session gave Snow one of his best accidental postmortems: everyone could see the bomb, and they still failed. Anayss remembered looking over only to find another **boom**. Ren performed the fire warning as a punchline ending in **KA BOOM**, while Ansun had been pointing Anthos toward the manual in `gameroom`. The instructions were not the missing ingredient. The room had those; what it lacked was a successful bomb disposal. Snow's line works because it does not absolve him or appoint a culprit. Everybody was looking. Everybody still got the explosion.
