@@ -13,7 +13,7 @@ roles:
   - "Game Officer"
 eraStart: 2020
 
-summary: "WolfPhenix enters UL as one of the four Altissa friends who came with Mugen, then becomes increasingly visible through creative and operational contribution: Photo Submissions and planners in 2021, announcements and house shorthand in 2022, the nineteen-person anniversary artwork and shared-file collaboration in 2023, planner continuity in 2024, another explicitly `UL ENOUGH` redesign in 2025, and reunion-era familiarity in 2026."
+summary: "Wolfie is the friend who can turn nineteen UL people into one ridiculous anniversary masterpiece, then go back to fixing the weekly calendar so everybody knows where the hell to be. One of the Altissa four who came with Mugen, she makes room for people in drawings and in practice: trading notes with Sye, checking the planners with Anayss, making Kaede feel seen, and answering Mugs’ reunion-era `pls babysit halp` with a crisp `🫡`. She can be practical, sentimental, and deeply unserious in the same breath. Even her 2025 doodle had to be redone because the first version wasn’t `UL ENOUGH`."
 
 summaryEvidence: "archive-confirmed"
 publication: "public"
