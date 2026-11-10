@@ -30,6 +30,12 @@ claims:
       - label: "Main HQ site-candidates-2026-08-25-0545.md · Announcements receipt 845753541066489926"
         href: "/channels/announcements"
     note: "Grounding is playful enforcement language, not a formal disciplinary or family role."
+  - text: "Gilli escalated her public hydration reminders to `DRINK WATER OR I'LL BURY YOU`, another deliberately absurd threat in the ongoing eat-and-drink care routine."
+    evidence: "archive-confirmed"
+    date: "2021"
+    sources:
+      - label: "Main HQ · site-candidates-2026-08-26-1345.md · receipt 839317723020656690"
+    note: "The burial line is a joke, not an actual threat. It adds a specific Gilli-authored mutation to the existing hydration pattern; the exact day is not asserted here."
   - text: "Mugen’s early practical check-ins with Gilli include `hydrate bb` after a lingering headache (2020-09-27) and `be safe bb` twenty seconds after Gilli said she was driving to work (2020-10-01)."
     evidence: "archive-confirmed"
     date: "2020-09-27 – 2020-10-01"
