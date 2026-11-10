@@ -30,6 +30,13 @@ claims:
       - label: "Backroom Pass 41 · Wall record/tenancy prehistory · 824393327595880479 / 824393363838861332 / 824501922379595786 / 824502021343150101 / 834951061424832562 / 834952870038208574"
         href: "/archive/wall"
     note: "The 'less than an hour' referent is unresolved; do not convert it into time since joining or first Wall appearance. The adjacent attachment was not visually inspected."
+  - text: "On July 7, 2021, Ghoulie complained that Eos was 'too vanilla to shame me' despite her Wall-worthy remarks. On September 8 she realized mid-innuendo with Marian Kage that the exchange was happening directly on the Wall; Marian said it fit, Ghoulie continued the joke, and Snow thanked them for saving everyone a screenshot."
+    evidence: "archive-confirmed"
+    date: "2021-07-07 – 2021-09-08"
+    sources:
+      - label: "Backroom Pass 20 · Wall self-filing · 862419333966987274 / 885359004728049695 / 885359019974340638 / 885359256193364009 / 885359294772555817 / 885363732761423932"
+        href: "/channels/wall"
+    note: "The suggestive conversation is not evidence of romance or sexual history. Eos' alleged refusal is Ghoulie's own characterization, not an independent statement by Eos."
 antiFanon:
   - "Ghoulie's joking claims to own Daycare or the Wall are social-territory language, not technical ownership, moderation permission, channel administration, or a formal role."
   - "The June 2 Daycare tag proves Baby Lyssa tried to redirect/summon xanthos there; it does not prove he complied or entered the room."
