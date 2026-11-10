@@ -11,7 +11,7 @@ roles:
   - "Retired Officer"
   - "Consigliere"
 eraStart: 2020
-summary: "Suzimasu enters UL as part of the five-person founding circle. The opening archive resolves Mob / BAPE to the same person and catches an ordinary 2020 scene of Yakuza 0, Dragon Raja, UL chat, and dinner all competing for attention; 2021 Wall scenes add dry suspicion, playful overreaction, and the magnificent social maneuver of apologizing to Gilli before doing the unexplained thing anyway. Later roster canon records full-Officer service as historical Consigliere / Senior Advisor."
+summary: "Suzi can look intimidating until the room gets hold of him. The founding-circle Consigliere is also the man trying to juggle Yakuza 0, Dragon Raja, UL chat, and dinner at once; the man who apologizes to Gilli before trying the questionable thing anyway; and the man who gives his FESTIVAL photo a dramatic title card ten seconds before posting it. Ren greets him like somebody coming home. Formal authority never stopped his friends from making him part of the joke."
 summaryEvidence: "mixed"
 publication: "public"
 claims:
