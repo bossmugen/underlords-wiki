@@ -11,7 +11,7 @@ claims:
     date: "2023-05-30"
     sources:
       - label: "Wall · 1113019535117787166"
-        href: "/locations"
+        href: "/channels/wall"
   - text: "On March 1, 2024, DiStratus described thunderstorms as exciting and peaceful because the surrounding world gets drowned out."
     evidence: "archive-confirmed"
     date: "2024-03-01"
