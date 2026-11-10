@@ -181,9 +181,9 @@ tags:
 
 # Anthos
 
-Anthos is a current Pit Boss, but the archive's clearest story is not a promotion story. It is a persistence story: she becomes so thoroughly embedded in UL's daily life that the room eventually turns her name into a recurring joke, a unit of social shorthand, and nearly a grammatical category.
+Anthos can tell you where to put your photos, when the contest closes, which channel to use, and why the family Tumbleweed needs another update. She'll do it while somebody is making a terrible pun about her, and she may well help the joke along. As a current Pit Boss she has the title to match the practical work, but the affection and the nonsense were there long before anybody needed a title. Ren loved her quotes; Ansun could turn her into a town crier whose only remaining duty was crying. Anthos kept showing up anyway, and the room eventually started treating her name as a whole category of people.
 
-## 2020 — THE ROOM STARTS TREATING HER AS PART OF THE FURNITURE
+## The person who knows where everything goes
 
 By late summer 2020, Ren is already telling Anthos **`i love your quotes`**. Through the fall she appears on almost every covered Club Only day, and her presence is ordinary enough that one of the era's sudden waves of IRL sharing barely registers as an event. When somebody asks why everyone is suddenly posting selfies and house tours, Anthos answers: **`sounds like a usual day to me`**.
 
@@ -191,7 +191,7 @@ That line works because she is not watching UL culture from outside. She is alre
 
 September also gives the most concrete version of that role. During a live update to the UL family Tumbleweed, Anthos explains the structure as **`like a mind map`**, keeps adding relationships, checks the pins, and tells the room **`we r updating the UL family tumbleweed`**. The map already existed; she is maintaining it, not founding it. Dean's placement beside Mugen is an older family relationship being represented, not a recruitment event.
 
-## 2020–2021 — THE PERSON BECOMES A HOUSE BIT WITHOUT STOPPING BEING USEFUL
+## Everybody gets an Anthos, and Anthos gets the work done
 
 Ansun also briefly appoints himself her fake personnel department. On September 22, he announces that Anthos's `town crier` duties have been reduced to crying instead of spreading news. She could keep an entire room oriented and still get demoted by a pun. The job was a joke; the ease with which Ansun could make her the punchline says plenty about how comfortably they played off each other.
 
@@ -209,7 +209,7 @@ That is Anthos's callback timing in miniature. She could commit far too hard to 
 
 **Receipts:** Backroom `site-candidates-pass-29.md` / `receipts-pass-29.md`; Club Only `756637649938153505`, `756639925373239378`, `756639945078210611`, `758717478691274804`, `758717489743396904`.
 
-## 2025 — THE CALLBACK STILL WORKS
+## Two kittens, one very old joke
 
 Years later, Anthos turns up in Slice with two rescued kittens, Tai and Emi. The room immediately revives the old joke that she has finally supplied proof she is a real person.
 
