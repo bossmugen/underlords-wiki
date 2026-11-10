@@ -1,3 +1,10 @@
+## 2026-11-10 09:39 PST — Main HQ visible-bomb game recovery
+
+- Fresh REST census: 137 remote branches / 30 active miner HEADs; no advanced or newly discovered miner branches. Existing MAIN census ledger already SHA-current; no redundant ledger commit.
+- Direct source: `archive-miner/main-hq-hourly`, `archive-intake/main-hq-2022-2026-tail-20260819/site-candidates-2026-08-25-1145.md`, Sep. 18 2020 *Keep Talking and Nobody Explodes*; receipts `756596119714136184`, `756596157819519018`, `756596158134091806`, `756596174508654734`, `756597956366303352`, `756597970316689539`, `756598016869400746`, `756621608634023987`, `756621649826021417`, `756622738780717128`.
+- MAIN reader `src/lib/club-only-overrides.ts` commit `0120eeb07193b5602f26497926d333f6dd0041c6` restores the game disaster; exact source reread PASS. No invented roster or decision on competing competence claims. WIKI structured episode intentionally deferred pending its own source/loader reconciliation; no duplicate prose.
+- MAIN production workflow `42867252141` queued at inspection, build/live UNVERIFIED. Candidate pending verification, no consumed SHA advanced. August Reunion source-dependent media remains held. Accepted A/B remainder not yet counted. Club-Only checkpoint read; Whiskey remains review backlog.
+
 
 ## 2026-11-10 09:00 PST — PHOTO SUBMISSIONS Ansun NightLife pre-opening trace
 
