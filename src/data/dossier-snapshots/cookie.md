@@ -47,6 +47,13 @@ claims:
       - label: "Photo Submissions · 2021-04-25"
         href: "/events/photo-submissions"
     note: "Cookie's `why my editor dont edit full pic` message is 835940155058946059. Gilli's stored Discord reply parent is 835940038549569627, whose text remains unresolved. Do not portray her reply as directly attached to the quoted crop message; no intentional hand-cropping is established."
+  - text: "In November 2021 Anayss caught Cookie and Tofu `exposing your dms again`; in August 2024 Cookie predicted Tofu would expose him after getting Wall access, then posted Tofu himself. Tofu true-replied with another screenshot and `Oh si? Pues toma`; Cookie Fat-Wheezed."
+    evidence: "archive-confirmed"
+    date: "2021-11-01 – 2024-08-31"
+    sources:
+      - label: "Main HQ site-candidates-2026-08-25-0645.md and -0745.md · Wall receipt 904701750475378688"
+        href: "/channels/wall"
+    note: "Screenshots uninspected; posted-by is not made-by or captured-by. The reciprocal pattern is supported, but no private DM contents are reproduced."
 antiFanon:
   - "Current canon keeps Cookie on Staff; historical/export-time VIP role arrays do not provide appointment chronology."
   - "`im innocent, not horny` is a dated Cookie line, not an exclusive catchphrase or sexuality theorem. Innocence language is communal in UL."
