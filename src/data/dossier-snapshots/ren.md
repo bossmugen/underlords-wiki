@@ -322,6 +322,14 @@ Ren kept turning up with `Example Photos` at the start of Photoshoot rounds: Jan
 
 **Episode receipts:** Ren/RV headers `796493388856688670`, `810917283755982878`, `833465934517501963`, `841462092493881364`, `861301163228135434`, `871516826079731712`; Anthos lane dividers `796495347044057098`, `810917505274347530`. Ren was a recurring reference-provider, not the sole maker or a formally appointed visual director. The images themselves are not attributed to her as photographer.
 
+## THE SENTENCE THAT FAILED THE PHOTO RULE — Fix it, don't exile it
+
+**Episode:** August 4, 2021 · Photo Submissions · dora/Forsaken's entry.
+
+Ren spotted outside editing in dora's picture, specifically the added sentence. Her correction opened with `Haii doraaaa, sorry`, then explained that outside editing wasn't allowed. Thirty-six seconds later she offered a way back in: `It’s oki if you post the Og pic without the sentence`. The stretched-out greeting and immediate repair instruction belong together. She was enforcing a rule, but she was also making it easy for the person to stay in the contest. Nobody needed a public execution over a caption.
+
+**Source:** Photo Submissions miner `site-candidates.md`, “Rules, but make it hun lol.” Ren's correction is a true Discord reply referencing parent `872535327926009928`; that parent's contents have not been recovered. The nearby text must not be substituted as its exact reply target. The exchange does not establish a formal Photoshoot office for Ren.
+
 ## RAJA POLICE DEPARTMENT — Running gag / artifact index
 
 Ren's fake Officer dossiers made the house's private jokes searchable as mock criminal warnings. Gabu's height feud, Mugen's Plutonian nonsense, Sye's small-but-deadly reputation, and Ren's own warning to avoid her all became form fields. The 2025 reposts brought the jokes back into circulation. The cards are a comedy artifact, not evidence of actual offenses or a dated formal appointment.
