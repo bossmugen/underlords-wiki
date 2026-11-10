@@ -31,6 +31,13 @@ claims:
         href: "/channels/lobby"
       - label: "💼 Main HQ · Mugen credits Moon's Barista maintenance · 2025-03-30"
     note: "Main HQ receipt 1355811373707165757; Lobby receipts 928566263440085002, 1011434452095873164, 1011434485927129199. The question about IGN was a single ordinary moment, not a lasting incompetence trait. No formal Barista appointment date is inferred."
+  - text: "On April 12, 2023, Ryo answered `Not yet.` and Moon replied `Too late`, followed by `You breathe,so that means you agreed` and `Yummy soul`. The absurd soul contract is another example of Moon turning a friend's refusal into a playful impossible rule."
+    evidence: "archive-confirmed"
+    date: "2023-04-12"
+    sources:
+      - label: "Wall · Moon and Ryo's soul contract"
+        href: "/channels/wall"
+    note: "Main HQ site-candidates-2026-08-26-1345.md; Wall messages 1095812143309398016, 1095812167623770183, 1095812236074815651, 1095812257381875732. One absurd joke, not a consent principle or literal belief; preceding images uninspected."
   - text: "On September 8, 2022, after announcing that she had found Dream hiding shrooms, Moon wrote `I am a moon,so i see all` on the Wall."
     evidence: "archive-confirmed"
     date: "2022-09-08"
