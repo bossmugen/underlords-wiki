@@ -31,6 +31,13 @@ claims:
       - label: "💬 Club Only · 2020-04-11"
         href: "/channels/club-only"
     note: "This supports dated anime curiosity and self-described limited familiarity, not a lifelong or expert fandom identity."
+  - text: "On April 11, 2020, Yumi told an anime-recommendation requester she could not help because she had been on a period-piece binge. Her separate trash-anime curiosity that day was a different watchlist thread."
+    evidence: "archive-confirmed"
+    date: "2020-04-11"
+    sources:
+      - label: "Club-Only · 2020-04-11 · 698737295733555223"
+        href: "/channels/club-only"
+    note: "The period pieces are not established as anime. Do not collapse the two tastes into one genre."
   - text: "During an April 2020 Whiskey exchange between D.I./Jonith and Suzimasu/Mob that Yumi felt was turning wrong, she said `calm down both of you`, reminded both people that they were good guys, warned against letting the exchange worsen, and later explained `something felt off and i didn't like where this was going`."
     evidence: "archive-confirmed"
     date: "2020-04"
@@ -116,6 +123,8 @@ Yumi / Yummibears is a retired full Officer and historical **Pit Boss**. User-co
 **Training Arena hype — May 13, 2020.** `PUNCH AND DO ME PROUD @everyone` is game-event encouragement. The preceding Deleted User remains unresolved.
 
 **Self-reading revision — September 17, 2020.** `i don't think` becomes `okay maybe a little`, then more of the description starts feeling familiar, then the conversation reaches `close to home...`. The episode is useful because Yumi changes her own answer in public and still controls where the private explanation stops.
+
+**Watchlist split — April 11, 2020.** Asked for anime recommendations, Yumi said she was on a period-piece binge instead. In another exchange she was exploring trash anime. Two different appetites on the same day, neither an exclusive identity.
 
 ## Running gags / recurring voice
 
