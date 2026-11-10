@@ -49,6 +49,13 @@ claims:
       - label: "👅 Wall · 2021-07-05"
         href: "/channels/wall"
     note: "The earlier cause of Tofu's soul-taking accusation is not reconstructed. `Satan` is Tofu's scene-level address here, not a proven durable nickname."
+  - text: "Zyrcant's 2021 Wall contributions included declaring `word of the day is ass` on July 1 and remembering on October 14 that she had the entire Bee Movie saved as a GIF."
+    evidence: "archive-confirmed"
+    date: "2021-07-01 – 2021-10-14"
+    sources:
+      - label: "Wall · Zyrcant's word of the day and Bee Movie GIF"
+        href: "/channels/wall"
+    note: "Both are self-authored remarks under Akariel/Zyrcant. The later media file is not identified, and this does not establish a general media-hoarding habit."
   - text: "On July 25, 2021, the Akariel / Zyrcant account posted an uninspected attachment with `This was a convo I had with my BF xD`; Mugen replied directly to that exact Wall parent with `Tru lub`."
     evidence: "archive-confirmed"
     date: "2021-07-25"
