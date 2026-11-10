@@ -10,7 +10,7 @@ roles:
   - "Caporegime"
   - "Game Officer"
 eraStart: 2020
-summary: "Sye's archive starts in 2020 inside Saber configuration, then broadens into schedule repair, channel routing, maintenance relays, shared-file troubleshooting, ordinary voice-room life, technically detailed cooking, and finally the comic honesty of forgetting how to use the same bot years later. By 2026 she is still in Slice and reunion-era UL, carrying both the work history and the Life joke."
+summary: "Sye is the person you want when the event clock is wrong, the announcement needs fixing, or somebody has lost track of where they are supposed to be. She will spend a hundred tries on a Photoshoot entry, come back to help set the examples for everyone else, worry fiercely about her people, and still find time for a completely ridiculous joke. Her competence has never required her to act solemn about it; years later she can even laugh at forgetting the bot she once helped configure."
 summaryEvidence: "archive-confirmed"
 publication: "public"
 claims:
