@@ -12,6 +12,13 @@ summary: "Ren's archive progression starts with her using Slice for the same soc
 summaryEvidence: "inferred"
 publication: "public"
 claims:
+  - text: "On August 1, 2021, Gilli posted an Example Photos image and Ren posted her own standardized Example Photos header 22 seconds later. Their overlap makes the Photoshoot reference work visibly shared rather than Ren's exclusive assignment."
+    evidence: "archive-confirmed"
+    date: "2021-08-01"
+    sources:
+      - label: "Photo Submissions · Gilli/Ren Example Photos · 871516734203527198 / 871516826079731712"
+        href: "/events/photo-submissions"
+    note: "Photo miner site-candidates-hourly.md, 'Gilli and Ren overlap on Aug. 1'; upload order is grounded, but authorship/capture of example images and formal role ownership are not inferred."
   - text: "The September 29, 2020 Organisation index called RV/Ren `smol noodle`; on November 4 Illien casually addressed her as `Noodle` during the Pride lost-corpse callback. The nickname was not confined to the index."
     evidence: "archive-confirmed"
     date: "2020-09-29 – 2020-11-04"
