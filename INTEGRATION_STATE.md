@@ -1,3 +1,9 @@
+## 2026-11-10 12:35 PST — Main HQ Ansun / Rooks Tumbleweed fake succession
+
+- Direct Main HQ branch `archive-miner/main-hq-hourly`, checkpoint and `archive-intake/main-hq-2022-2026-tail-20260819/site-candidates-2026-08-25-1145.md`; receipts `760574335156092939`, `760574361786384395`, later edited map `760564322182103111`.
+- MAIN person-first `src/content/people/ansun.md` Petty Crimes commit `9f4e25a3a1e7db9ea3f01673234338375cdbfb8d`; WIKI structured `src/data/dossier-snapshots/ansun.md` commit `e3c8058d1a2ee6b760eb5880b0fbb9006c0c5c1f`. Exact source rereads passed. Existing Anthos inner-Anthos/Tumbleweed material deduped.
+- This is fake kinship, not formal succession. No map pixels or private content published. GitHub Actions exact-commit lookup returned no runs for either reader commit; build/live verification pending. MAIN census state `7aa0c046f82b54ac7ab027bde8545e8830b2cf88` records 30 active miner names, no newly discovered names, previous HEAD SHAs retained (not freshly recertified). No consumed SHA advanced. August Reunion/Main HQ A/B candidate remainder remains uncounted; Whiskey and Club-Only recovery remain open.
+
 ## 2026-11-10 10:35 PST — Main HQ bomb-night publication verification and layout repair
 
 - Direct Main HQ handoff `archive-intake/main-hq-2022-2026-tail-20260819/site-candidates-2026-08-25-1145.md` on `archive-miner/main-hq-hourly` and both Main HQ/August Reunion checkpoints rechecked. Existing September 18 2020 *Keep Talking and Nobody Explodes* scene retained; no new source claims or invented player roster.
