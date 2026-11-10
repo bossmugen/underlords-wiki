@@ -1,3 +1,9 @@
+## 2026-11-10 05:40 PST — Main HQ Rooks ordinary-life reference recovery
+
+- Certified 137 remote branches / 30 active miner HEAD SHAs via GitHub REST and persisted MAIN census `5edf0527533c105e3433fc5289f8506545f6dc4d`; zero advanced/new. Ledger: five pending-publication families, one backlog, Whiskey named for review; no consumed cursor advanced.
+- Read Main HQ `checkpoint.md` and `site-candidates-2026-08-25-1245.md`, `site-candidates-2026-08-25-1645.md`, `site-candidates-2026-08-26-1845.md` directly on `archive-miner/main-hq-hourly`; read August Reunion base checkpoint on `archive-miner/aug-2026-living-ensemble-hourly`. Rooks Disney Store/Pooh exchange (756618568518598662 / 756618592627326997 / 756618598138642472 / 756618633412870176) already person-first in MAIN `src/content/people/rooks.md` but missing WIKI structured claim. WIKI `src/data/dossier-snapshots/rooks.md` reader commit `6f039c71891df62f78c549421237bb87ea1272f9` adds it without inventing purchase or item; exact source reread PASS. No MAIN duplicate.
+- WIKI build run `42826733151` and preview `42826733010` queued at inspection; exact live deployment unverified, candidate pending verification. Main HQ publication backlog remains open, exact accepted A/B remainder uncertified. Hishiro lucky loot and ClubChat Karaoke already on both; Zhēnxī preloaded screenshot and other uninspected media held. No private officers-only material published.
+
 ## 2026-11-10 04:00 PST — Photo Submissions Aizzy cast-route recovery
 
 - Certified all 30 active miner HEADs from 137 remote branch records and persisted MAIN census commit `70e1cdf6a3e741e0416b4b8bfe86d08ce4603623`; three branches remain ahead of consumption: August Reunion, Backroom Deals, Photo Submissions. No consumed cursor advanced.
