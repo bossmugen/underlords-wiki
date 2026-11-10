@@ -1,3 +1,9 @@
+## 2026-11-09 21:35 PST — BACKROOM Torr Wall source-route repair
+
+- Full 137-branch / 30-active-miner HEAD census persisted to MAIN `archive-intake/INTEGRATOR_BRANCH_STATE.json` at `10b2f2c9f7ec0e90a513e7a0b78485422b54d9bb`; zero new or advanced miner branches.
+- BACKROOM `checkpoint.md`, `site-candidates-pass-43.md`, `receipts-pass-43.md`, and Passes 45–46 inspected directly on `archive-miner/backroom-deals-2026-08-24` HEAD `9c143a7c`. Torr/DiStratus Table-kun receipt `1113019535117787166` was already person-first on MAIN and structured on WIKI, but WIKI incorrectly linked the Wall receipt to `/locations`. Repaired only `src/data/dossier-snapshots/distratus.md` to `/channels/wall`, reader commit `989a816b17ac40f1d9966801f6bae99ca859ec05`; committed source reread PASS. WIKI build `42762896116` and preview `42762896098` QUEUED; live production UNVERIFIED.
+- SaraBunny and Syv Pass45, Valantina Pass46 already covered on both surfaces; no duplicate. Suzi voice candidate Pass43 still requires a canonical owner comparison; Kiro identity and Anjou screenshots remain held. Club-Only 2021–2026 recovery checkpoint inspected, no consumption advancement. BACKROOM consumed `68d2fba7` vs HEAD `9c143a7c`; full accepted A/B remainder uncounted. MAIN reader unchanged.
+
 ## 2026-11-09 20:39 PST — Main HQ Rich / Platelets reader reconciliation
 
 - Direct Main HQ miner checkpoint and `site-candidates-2026-08-26-0745.md` reviewed on `archive-miner/main-hq-hourly`; Rich receipt `885224285118025798` was a still-missing, text-safe exception to kid-slander joking. Gilli's warm-milk receipt `888933641521070082` was already in MAIN and was not duplicated. August Reunion base checkpoint reviewed on its miner branch; older accepted candidate inventory remains open.
