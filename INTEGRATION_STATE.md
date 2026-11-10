@@ -1,3 +1,9 @@
+## 2026-11-09 17:35 PST — Main HQ Yumi watchlist split indexed on WIKI
+
+- Main HQ candidate `archive-intake/main-hq-2022-2026-tail-20260819/site-candidates-2026-08-26-1545.md` / Club-Only receipt `698737295733555223` had already been folded into MAIN `src/content/people/yumi.md`; WIKI only indexed her separate trash-anime curiosity. Added a separate period-piece binge claim and searchable watchlist episode to WIKI `src/data/dossier-snapshots/yumi.md`, reader commit `27bf314e224e837c4371645515b0e807a079abd2`. Do not treat period pieces as anime. Committed source reread PASS. Exact WIKI Actions lookup returned zero runs; build/preview/live deployment UNVERIFIED, candidate remains pending verification.
+- MAIN Yumi YAML repair `f12f5eeeafea8fbef24436581ef6e53c1fb1ed31` remains source-correct but exact-commit workflow lookup returned zero runs; do not claim deployment. MAIN no reader change this pass.
+- MAIN 30-branch name census reconciled to existing SHA-certified 17:00 ledger; no fresh all-HEAD verification, no consumed SHA advanced. MAIN census commit `7b79a595cb4b8fc38b5f6ab4803e103f7378713e`. Read August Reunion, Main HQ, Club-Only 2021–2026 checkpoints directly from miner branches. August Reunion/Main HQ accepted A/B candidate remainder remains uncounted. No private officer content or uninspected media published.
+
 ## 2026-11-09 16:39 PST — MAIN Yumi build-breaker repaired
 
 - Main HQ publication-debt verification: inspected failed MAIN workflow `42703679026`, job `129454738564`, and retrieved full job logs. Astro content sync failed with `unknown escape sequence` at `src/content/people/yumi.md:21:83`: the April 11, 2020 period-piece claim used `can\\'t` / `i\\'ve` inside YAML double quotes. This is a syntax failure, not an evidence dispute.
