@@ -1,3 +1,10 @@
+## 2026-11-10 15:39 PST — Main HQ bomb-night structured WIKI addition
+
+- MAIN existing reader owner: `src/lib/club-only-overrides.ts` (September 18, 2020 game-night entry); no duplicate MAIN copy this run.
+- WIKI `src/data/dossier-snapshots/snow.md` commit `dc64444c5243d244eb59779eb8113a51eae5cb26`: dated structured claim and person-specific postmortem angle. Source reread PASS. No invented player roster or original fire-warning attribution.
+- Direct miner checkpoint reads: `archive-miner/main-hq-hourly` `archive-intake/main-hq-2022-2026-tail-20260819/checkpoint.md`; `archive-miner/aug-2026-living-ensemble-hourly` base `checkpoint.md`. Candidate `site-candidates-2026-08-25-1245.md` receipts `756596536619827250`, `756596548263084139`, `756596550368493698`; earlier `1145.md` Snow postmortem context. MAIN census-state commit `1f7fb7f39050d0cdb196cb7b189b3c6bf0cf0e4d` records 30 miner names, without falsely recertifying HEAD SHAs.
+- WIKI exact-commit workflow lookup returned zero PR-filtered runs; build and live publication **unverified**. Do not mark candidate fully integrated or advance any consumed SHA. Accepted A/B remainder still uncounted. Whiskey review and August Reunion media blockers remain open.
+
 ## 2026-11-10 14:39 PST — Main HQ bomb-night aftermath
 
 - Source: `archive-miner/main-hq-hourly`, `archive-intake/main-hq-2022-2026-tail-20260819/site-candidates-2026-08-25-1245.md`; receipts `756596536619827250`, `756596548263084139`, `756596550368493698`.
