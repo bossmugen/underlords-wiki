@@ -1,3 +1,10 @@
+## 2026-11-10 05:48 PST — Main HQ Cookie/Tofu reciprocal Wall recovery
+
+- Independently fetched 137 remote branches and verified 30 active miner HEADs, no new/advanced branches; MAIN census `e3991fba69629f60bd345771ca7c8b98e20bc82d`.
+- Main HQ `checkpoint.md` and dated `site-candidates-2026-08-25-0345.md`, `-0445.md`, `-0545.md`, `-0645.md`, `-0745.md` read directly from `archive-miner/main-hq-hourly`; August Reunion base checkpoint also read directly. Existing Gilli/Spicy, Tofu bee spam/watermelon, Rummy context and light-mode details deduplicated.
+- Accepted A/B: Anayss `904701750475378688` catches Cookie and Tofu `exposing your dms again` in Nov 2021; Aug 2024 reciprocal screenshot sequence and Tofu `Oh si? Pues toma` (Main HQ `site-candidates-2026-08-25-0645.md`, `-0745.md`). MAIN `src/content/people/cookie.md` commit `8a65f0a0f6e51f3d08f2b2b9f027544839af90e8` integrates lived relationship, WIKI `src/data/dossier-snapshots/cookie.md` commit `3bee61914ae18f67c824a4b0a1c23bd2e34822e9` records structured claim. Screenshot binaries uninspected; no private DM content published.
+- Exact-commit Actions lookup returned no runs for either reader commit; builds/live deployments NOT verified, candidate pending verification. No consumed SHA advanced. Five pending-publication families, one backlog; Whiskey still needs review. Exact accepted A/B remainder uncounted.
+
 ## 2026-11-10 05:40 PST — Main HQ Rooks ordinary-life reference recovery
 
 - Certified 137 remote branches / 30 active miner HEAD SHAs via GitHub REST and persisted MAIN census `5edf0527533c105e3433fc5289f8506545f6dc4d`; zero advanced/new. Ledger: five pending-publication families, one backlog, Whiskey named for review; no consumed cursor advanced.
