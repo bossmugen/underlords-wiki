@@ -1,3 +1,9 @@
+## 2026-11-09 20:39 PST — Main HQ Rich / Platelets reader reconciliation
+
+- Direct Main HQ miner checkpoint and `site-candidates-2026-08-26-0745.md` reviewed on `archive-miner/main-hq-hourly`; Rich receipt `885224285118025798` was a still-missing, text-safe exception to kid-slander joking. Gilli's warm-milk receipt `888933641521070082` was already in MAIN and was not duplicated. August Reunion base checkpoint reviewed on its miner branch; older accepted candidate inventory remains open.
+- MAIN `src/content/people/rich.md` now folds Rich's `kids are but not the platelets` into his established Funcle/age-aware Wall behavior; reader commit `13cc594e77ab98ff9f912b2560da340e0270907b` (initial content commit `a2a495fd`, then removed an unverified internal route). WIKI `src/data/dossier-snapshots/rich.md` gets only a structured source claim, commit `968fa6072bd68fe29da7ec0184599a7e6ff5bf44`, not duplicate narrative prose.
+- MAIN census `09682de2d84900ff44711982ea0113bc6a96ea87` re-enumerated all 30 miner branch names, zero new; latest independently SHA-certified 20:35 census retained, no claim of fresh HEAD recertification. No consumed SHA advanced. Source rereads passed; local Astro build and exact live deployment not yet verified, so Rich remains pending verification. No private officer material or uninspected media published. Accepted August Reunion/Main HQ A/B remainder uncounted.
+
 ## 2026-11-09 20:00 PST — Sye person-first Photo Submissions reconciliation
 
 - MAIN census `f12833463a70232b252a5a6c2d7f03835f718103` enumerated 30 active miner branch names, all present in the 51-entry ledger. Per-branch HEAD SHA recertification was not completed; preserved recorded last_seen values and all consumed cursors.
