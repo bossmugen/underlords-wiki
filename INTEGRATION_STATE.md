@@ -1,3 +1,10 @@
+## 2026-11-09 23:35 PST — Main HQ Zyrcant petty crimes reference
+
+- MAIN branch-name census 30 active miners (26 slash, 4 hyphen), all ledger entries present; SHA values carried forward without fresh verification. MAIN census commit `2c7266164c3e8517888159dd11be4d508dc45a64`.
+- Direct branch reads: Main HQ `checkpoint.md`, `site-candidates-2026-08-26-0745.md`; August Reunion base `checkpoint.md` and Run 28 overlay. Zyrcant/Akariel identity bridge and Kahoot result already on both surfaces; media-dependent five-cent auction remains blocked.
+- WIKI `src/data/dossier-snapshots/zyrcant.md` reader commit `6a6d15b9c39b69839e40e7d0681d3576c1c9e984`: added searchable Wall micro-lore for `word of the day is ass` and the Bee Movie GIF self-report, already person-first in MAIN. No uninspected image attribution.
+- WIKI Moon build 42769486294 SUCCESS; preview 42769486335 mixed cancelled/success jobs, not a complete successful preview. Zyrcant reader source reread PASS; exact build and live deployment PENDING. No consumed SHA advanced. Accepted A/B remainder still uncounted; privacy/media blocks remain.
+
 ## 2026-11-09 22:35 PST — Main HQ Moon/Ryo soul-contract indexing
 
 - Full GitHub census: 137 branches, 30 active miner branches, zero new or advanced; MAIN census commit `4c2a508a136a4c38199b68da43d15575169a6c2b`.
