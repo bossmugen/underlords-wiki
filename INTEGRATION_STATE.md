@@ -1,3 +1,10 @@
+## 2026-11-09 22:35 PST — Main HQ Moon/Ryo soul-contract indexing
+
+- Full GitHub census: 137 branches, 30 active miner branches, zero new or advanced; MAIN census commit `4c2a508a136a4c38199b68da43d15575169a6c2b`.
+- Direct branch reads: Main HQ `checkpoint.md` and `site-candidates-2026-08-26-1345.md`; August Reunion `checkpoint.md` and Run 28 overlay/candidate; Club-Only longitudinal `checkpoint.md`. Run 28 Momo Anansa/Fire Legacy already integrated; Daya/Mugen caricature, Scar's exposure threat, Noether's dessert dispute already represented, not duplicated.
+- WIKI reader `src/data/dossier-snapshots/moon.md` commit `bcd89c75d1481e9c9cb6e23f19359f25a7b8cb64`: added structured Wall claim for Moon/Ryo impossible soul contract, Main HQ `site-candidates-2026-08-26-1345.md`, messages `1095812143309398016`, `1095812167623770183`, `1095812236074815651`, `1095812257381875732`. MAIN Moon already narrates the same scene; no duplicate prose.
+- WIKI build `42769486294` and preview `42769486335` queued on initial inspection; do not mark published until successful. MAIN Rich production run `42757394572` succeeded; Cen production run `42769248803` succeeded. Exact current live commit still needs reconciliation. No consumed SHA advanced. Five pending-publication families, one backlog, zero reported overdue; Whiskey remains named. Remaining HQ/Reunion accepted A/B count uncertified; media-dependent candidates remain blocked.
+
 ## 2026-11-09 21:35 PST — Main HQ Gilli / Platelets structured indexing
 
 - Re-enumerated 30 active miner names (26 slash, four hyphen); prior 21:33 SHA-certified HEAD values retained. MAIN census ledger commit `4cec938050f8381de25ba152582b1ae4512e24fc`. Main HQ, August Reunion and Club-Only 2021–2026 checkpoints read directly on miner branches.
