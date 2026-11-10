@@ -1,3 +1,10 @@
+## 2026-11-10 01:00 PST — Photo Submissions / Anthos person-first dossier repair
+
+- Photo Submissions checkpoint and hourly candidates read directly from `archive-miner-photo-submissions-2021`; Ren/Anthos Jan 6 and Feb 15 opening handoffs, March FLOWERS and June STALKER were already represented in both public surfaces. No duplicate historical claim introduced.
+- WIKI reader `src/data/dossier-snapshots/anthos.md` commit `7ee54a98a021b8519e3da32bf294b8d4c56cf09a`: person-first introduction and behavior-shaped headings replace year-ledger framing; existing evidence and role/identity boundaries retained. Source reread confirmed file blob `6ce2a44f59b2826fe81081ef53ae1c887b3d2a8d`. GitHub Actions commit-run lookup returned empty; build, preview and live production unverified. Keep pending publication verification.
+- MAIN Anthos already has the fuller Photoshoot scene and person-first biography; no duplicate reader prose. MAIN miner branch-name census commit `2d441f39540025098ad8cb957f53b3a7407c3175` lists 30 active names, but branch search returned no SHA; recorded SHAs were not falsely recertified.
+- Photo Submissions consumed `342ee5df` against last recorded HEAD `d45d441f`; no cursor advance. Accepted A/B remainder still uncounted; two reply parents and original media blocked. Club-Only recovery remains open.
+
 ## 2026-11-10 00:40 PST — Main HQ Gilli hydration reference
 
 - MAIN miner checkpoint and site-candidates-2026-08-26-1345.md read directly from archive-miner/main-hq-hourly; August Reunion base checkpoint read directly from archive-miner/aug-2026-living-ensemble-hourly.
