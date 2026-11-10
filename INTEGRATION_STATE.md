@@ -1,3 +1,8 @@
+## 2026-11-09 19:35 PST — MAIN Moon dead-link production recovery confirmed
+
+- MAIN `src/content/people/moon.md` repair `e888dfd82fd67b11b065cc29a3e4de34f996b5f1` passed GitHub Actions UL Production Build + Deploy run `42744021067` (completed success, 2026-11-09 18:38 PST). This resolves the previously outstanding internal-link build blocker; no claim that every older candidate is independently reconciled. WIKI reader prose unchanged: this was a MAIN-only link defect.
+- Independently enumerated 137 remote branches, 30 active miner HEADs (26 slash, four hyphen), no new/advanced branches. MAIN census commit `485cb6b9fa8970fa7cb2ea127d451442e2476d80`. Read August Reunion Run 28, Main HQ, and Club-Only 2021–2026 checkpoints directly. August Run 28 Momo Anansa/Fire Legacy candidate already integrated; Main HQ Anthos town-crier candidate already integrated. No duplicate reader edits or consumed SHA advances. Full accepted A/B candidate remainder still uncounted; media blocks remain.
+
 ## 2026-11-09 19:00 PST — WolfPhenix person-first introduction (Photo Submissions reconciliation)
 
 - Photo Submissions `site-candidates.md` STALKER `Ansun uwu` scene already exists on MAIN and WIKI; no duplicate claim added. WIKI WolfPhenix summary was a year-by-year ledger, so rewrote only its introduction to foreground her art, practical planner work, care for Kaede, working exchanges with Sye/Anayss, and reunion humor. Reader commit `0d4157e6f392091f13970b7b2bc707b3309eb991`, file `src/data/dossier-snapshots/wolfphenix.md`. MAIN already person-first; no mirrored change.
