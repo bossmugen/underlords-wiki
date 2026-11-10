@@ -1,3 +1,10 @@
+## 2026-11-10 06:40 PST — Cookie/Tofu October DM Wall precursor
+
+- MAIN miner census: 30 active branch names (26 slash, 4 hyphen), no new names; current HEADs not independently recertified; census commit `d0c978d3b996159d0ba011fd327d15e7067a58dc`.
+- Source: `archive-miner/main-hq-hourly`, `archive-intake/main-hq-2022-2026-tail-20260819/site-candidates-2026-08-25-0845.md`; Ren `902325689947148338`, Cookie `902339614138830869`, Tofu direct reply `902342191790305360`. Precedes Anayss `904701750475378688` and explains the already-published `again`.
+- MAIN `src/content/people/cookie.md` `9c8ead094ac0e177fef312edbc11560bf9161cc1` and WIKI `src/data/dossier-snapshots/cookie.md` `e7108e5d0fa8f3a63b5e44f3a46e2f1fa93dfa48`. Exact source rereads PASS. Existing November/2024 prose retained, no screenshot contents or romance invented.
+- GitHub Actions commit-run lookups empty on both; build and live production UNVERIFIED. Candidate pending verification. No consumed SHA advanced. Remaining A/B inventory uncounted. August Reunion media-dependent candidates remain blocked; Whiskey review pending.
+
 ## 2026-11-10 05:48 PST — Main HQ Cookie/Tofu reciprocal Wall recovery
 
 - Independently fetched 137 remote branches and verified 30 active miner HEADs, no new/advanced branches; MAIN census `e3991fba69629f60bd345771ca7c8b98e20bc82d`.
