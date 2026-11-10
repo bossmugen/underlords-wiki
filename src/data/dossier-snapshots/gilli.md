@@ -10,6 +10,12 @@ summary: "Gilli's archive starts at the 2020 front door and quickly becomes a re
 summaryEvidence: "inferred"
 publication: "public"
 claims:
+  - text: "In a 2021 event countdown, Gilli told Staff and VIPs to bring drinks and added '(Warm milk for the Platelets)', giving the younger members their own joking menu item."
+    evidence: "archive-confirmed"
+    date: "2021"
+    sources:
+      - label: "Main HQ site-candidates-2026-08-26-0745.md · receipt 888933641521070082"
+    note: "The parenthesis is event hospitality humor; no actual milk service or formal Platelet policy is inferred."
   - text: "Across April–September 2021, Gilli repeatedly tagged Spicy Hotpot into Wall posts. Spicy joked that Gilli had probably put them there ages ago; about 66 seconds after Gilli posted a September screen recording, Spicy sent 28 Gilli mentions. The messages do not carry a stored reply edge proving retaliation."
     evidence: "archive-confirmed"
     date: "2021-04-14 – 2021-09-18"
