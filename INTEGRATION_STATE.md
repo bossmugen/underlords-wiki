@@ -1,4 +1,11 @@
 
+## 2026-11-10 09:00 PST — PHOTO SUBMISSIONS Ansun NightLife pre-opening trace
+
+- Full REST census: 137 remote branches / 30 active miner branches, no advanced HEADs; MAIN census commit `2634ae2907e0cc5438c5fcec3fbf0155a03143f6`.
+- Direct miner source: `archive-miner-photo-submissions-2021`, `archive-intake/photo-submissions-2021-visual-contest-2026-08-19-1845-pdt/site-candidates.md`, candidate “Ansun also appears in the NightLife pre-launch image sequence.” 2021-10-04 09:03 Mugen sample → 09:05 Ansun image → 09:09 Mugen opening. No explicit Example Photos label for Ansun; reference purpose is inferred, not asserted as fact. No invented maker/capture credit.
+- WIKI reader `src/data/dossier-snapshots/ansun.md` commit `012d4be8b352366fbdece5ddddc5c20f04513a83`; post-commit source reread PASS. MAIN already covers Ansun's April Colors reference work; this minor chronological trace belongs in structured WIKI rather than another MAIN biography paragraph.
+- GitHub Actions head-SHA lookup returned zero runs at inspection. WIKI build/preview/live UNVERIFIED. Photo Submissions last_consumed_sha held at `342ee5df` vs HEAD `d45d441f`; distinct accepted A/B remainder still uncounted. Missing reply parents `835940038549569627`, `872535327926009928` and uninspected media remain blocked. Club-Only longitudinal recovery not advanced this run.
+
 ## 2026-11-10 07:30 PST — BACKROOM Wall self-filing cross-surface recovery
 
 - Full 137-branch / 30-miner SHA census, no advanced HEADs, MAIN census commit `35b7c069`.
