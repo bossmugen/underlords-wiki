@@ -1,3 +1,9 @@
+## 2026-11-09 16:39 PST — MAIN Yumi build-breaker repaired
+
+- Main HQ publication-debt verification: inspected failed MAIN workflow `42703679026`, job `129454738564`, and retrieved full job logs. Astro content sync failed with `unknown escape sequence` at `src/content/people/yumi.md:21:83`: the April 11, 2020 period-piece claim used `can\\'t` / `i\\'ve` inside YAML double quotes. This is a syntax failure, not an evidence dispute.
+- MAIN `src/content/people/yumi.md` repaired by removing the two illegal backslash-apostrophe escapes without changing the words or canon; reader commit `f12f5eeeafea8fbef24436581ef6e53c1fb1ed31`. Exact production build and live deployment still pending verification; do not mark fully integrated yet.
+- MAIN census name search returned 30 active miner branches; latest 16:34 SHA-certified census retained. MAIN state commit `b3b19afdfc648adab1bb77f2cb18b51d9b227f18`. Main HQ, August Reunion and Club-Only 2021–2026 checkpoints read directly; no miner consumption cursor advanced. Remaining distinct A/B candidate count unresolved, media/privacy boundaries unchanged. WIKI Yumi dossier unchanged because this was a MAIN YAML build failure.
+
 ## 2026-11-09 15:55 PST — Photo Submissions Han person-first repair
 
 - Full MAIN miner census: 30 active miner branches across GitHub REST branch pages 1–2, zero new or advanced HEADs, persisted MAIN `3de86a4201a75cf8e6916bf3e54f35b6bddb8717` before intake review.
