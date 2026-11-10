@@ -1,3 +1,10 @@
+## 2026-11-10 10:35 PST — Main HQ bomb-night publication verification and layout repair
+
+- Direct Main HQ handoff `archive-intake/main-hq-2022-2026-tail-20260819/site-candidates-2026-08-25-1145.md` on `archive-miner/main-hq-hourly` and both Main HQ/August Reunion checkpoints rechecked. Existing September 18 2020 *Keep Talking and Nobody Explodes* scene retained; no new source claims or invented player roster.
+- MAIN original reader commit `0120eeb07193b5602f26497926d333f6dd0041c6`: production workflow `42867252141` and job `130008791413` SUCCESS; exact `Verify, build, deploy, and confirm live commit` step SUCCESS. Previously pending verification resolved for that commit.
+- MAIN reader follow-up `src/lib/club-only-overrides.ts` commit `3ef625e27aa4d9849206df74dc6da315ea4afa85`: moved September 18 before September 29 and repaired literal escaped paragraph breaks. Exact commit build/live pending (head-SHA Actions query empty immediately after commit). No WIKI reader edit: structured episode owner remains pending reconciliation.
+- Latest MAIN branch ledger already certified 30 active miner HEADs at 10:30 PST, five pending-publication families, Whiskey pending review; no miner consumed SHA advanced. August Reunion media-dependent items remain blocked; accepted A/B remainder uncounted.
+
 ## 2026-11-10 09:39 PST — Main HQ visible-bomb game recovery
 
 - Fresh REST census: 137 remote branches / 30 active miner HEADs; no advanced or newly discovered miner branches. Existing MAIN census ledger already SHA-current; no redundant ledger commit.
