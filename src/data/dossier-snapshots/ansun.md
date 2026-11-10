@@ -13,6 +13,13 @@ summary: "Ansun's archive moves from a May 2020 Discord check-in into voice-twin
 summaryEvidence: "inferred"
 publication: "public"
 claims:
+  - text: "During the September 29, 2020 Tumbleweed family-map edits, Ansun called Rooks \`my heir amd grandchild\`, making Rooks both descendant and successor inside the fake-family joke."
+    evidence: "archive-confirmed"
+    date: "2020-09-29"
+    sources:
+      - label: "Main HQ · Tumbleweed live edit · messages 760574335156092939, 760574361786384395; edited map 760564322182103111"
+        href: "/channels/club-only"
+    note: "Self-authored joke kinship only; heir is not a formal UL office or appointment. Edited map is a later revision."
   - text: "On May 31, 2023, Daya proposed a petition to get Ansun into a fur suit; Ansun challenged the thousand-plus-dollar cost and the expectation of doing it for free. Mia offered the Dragon Raja woof suit as an alternative, and Daya called the outcome a puppy."
     evidence: "archive-confirmed"
     date: "2023-05-31"
