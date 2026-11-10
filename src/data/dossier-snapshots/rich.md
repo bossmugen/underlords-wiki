@@ -8,6 +8,11 @@ summary: "Amaurot club leader. Before Richard's Corpse became a digital living r
 summaryEvidence: "inferred"
 publication: "public"
 claims:
+  - text: "Rich exempted the Platelets from a baby-and-kid joke with `kids are but not the platelets`; the same character elsewhere checked who could read an adult Wall joke."
+    evidence: "archive-confirmed"
+    sources:
+      - label: "Main HQ · Platelets exception · message 885224285118025798"
+    note: "Joke category, not formal policy or literal kinship; no claim about actual children served or event hospitality."
   - text: "Rich was the club leader of Amaurot."
     evidence: "user-confirmed"
     sources:
