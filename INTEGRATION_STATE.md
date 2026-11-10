@@ -1,3 +1,10 @@
+## 2026-11-09 23:57 PST — Photo Submissions Ren/Gilli shared reference handoff
+
+- MAIN independently certified all 137 remote branches / 30 active miner HEAD SHAs and persisted census at `6b903e039a9edd6dd779549ade85646eb557d774`; no miner HEAD advanced. Photo Submissions consumed `342ee5df` vs HEAD `d45d441f` remains held.
+- Read Photo Submissions `checkpoint.md`, `site-candidates.md`, and `site-candidates-hourly.md` directly from `archive-miner-photo-submissions-2021`. August 1 Gilli/Ren example-photo handoff (receipts `871516734203527198`, `871516826079731712`) is now a structured WIKI Ren claim, reader commit `7661e9ab1118968e6bdb0503d12eb7e2e0d0d723`. Existing MAIN Ren person-first story already covers shared Photoshoot labor; no duplicate prose.
+- WIKI source reread PASS; build `42778976680` and preview `42778976498` were QUEUED at inspection; live deployment unverified. This is pending verification, not fully integrated/published.
+- Club-Only longitudinal checkpoint inspected; Whiskey checkpoint expected path was not found, so no recovery or consumed SHA advancement claimed. Photo Submissions distinct A/B remainder still uncounted; missing parents `835940038549569627`, `872535327926009928` and inaccessible media remain blocked.
+
 ## 2026-11-09 23:35 PST — Main HQ Zyrcant petty crimes reference
 
 - MAIN branch-name census 30 active miners (26 slash, 4 hyphen), all ledger entries present; SHA values carried forward without fresh verification. MAIN census commit `2c7266164c3e8517888159dd11be4d508dc45a64`.
