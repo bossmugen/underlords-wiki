@@ -1,3 +1,10 @@
+## 2026-11-10 01:40 PST — Main HQ Snow JAG clause-level biography repair
+
+- Enumerated 30 active miner branch names; MAIN census persisted at ed76705bb212d0b2f99bfa789e8b5cdeb41f7394. Branch search omitted HEAD SHAs; retained previously certified values, no fresh SHA claim. Ledger still has five pending-publication families and one backlog category.
+- Read Main HQ checkpoint and `site-candidates-2026-08-26-1545.md` directly from `archive-miner/main-hq-hourly`; August Reunion base + Run 28 and Club-Only longitudinal checkpoints also read directly. August Run 28 Momo prehistory already integrated; no duplicate.
+- Snow JAG Charges 1 and 23 were missing from both reader pages even though other JAG clauses were present. MAIN `src/content/people/snow.md` reader commit `967fd3b215d872a8de01f98418b26c0e5fa787da` folds Malingering and the Officers/Staff/Interns gentleman clause into existing person-first JAG paragraph. WIKI `src/data/dossier-snapshots/snow.md` reader commit `6b928f1bcbdbf4879f829143d1e0673d647b4b1b` adds structured claim. Source `site-candidates-2026-08-26-1545.md`, receipts `741429520929914971`, `741481947125121025`. No claims of actual charges against people.
+- Both exact source rereads PASS. Exact-commit workflow lookups returned empty for both reader commits; Astro/build/production NOT verified, so candidate remains pending verification. No consumed SHA advanced. Remaining accepted August Reunion/Main HQ A/B candidate count still uncertified; inaccessible media and unresolved attribution held.
+
 ## 2026-11-10 01:00 PST — Photo Submissions / Anthos person-first dossier repair
 
 - Photo Submissions checkpoint and hourly candidates read directly from `archive-miner-photo-submissions-2021`; Ren/Anthos Jan 6 and Feb 15 opening handoffs, March FLOWERS and June STALKER were already represented in both public surfaces. No duplicate historical claim introduced.
