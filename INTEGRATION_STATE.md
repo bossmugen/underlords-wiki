@@ -1,3 +1,9 @@
+## 2026-11-09 21:35 PST — Main HQ Gilli / Platelets structured indexing
+
+- Re-enumerated 30 active miner names (26 slash, four hyphen); prior 21:33 SHA-certified HEAD values retained. MAIN census ledger commit `4cec938050f8381de25ba152582b1ae4512e24fc`. Main HQ, August Reunion and Club-Only 2021–2026 checkpoints read directly on miner branches.
+- Main HQ `site-candidates-2026-08-26-0745.md`, receipt `888933641521070082`: Gilli's `(Warm milk for the Platelets)` event hospitality joke was already integrated narratively in MAIN `src/content/people/gilli.md`, but absent from WIKI's searchable Gilli claims. Added only structured claim in WIKI `src/data/dossier-snapshots/gilli.md` reader commit `fd96a1eeb6a02a408c9d9f286b45f6ca329f57a1`. Rich's related Platelets exemption receipt `885224285118025798` already on both surfaces, not duplicated. No literal milk-service claim.
+- WIKI source reread and build/deployment verification pending; MAIN reader unchanged. No consumed SHA advanced. Main HQ and August Reunion full accepted A/B candidate remainder still uncounted; uninspected image-only candidates remain blocked. No private officers-only material published.
+
 ## 2026-11-09 21:35 PST — BACKROOM Torr Wall source-route repair
 
 - Full 137-branch / 30-active-miner HEAD census persisted to MAIN `archive-intake/INTEGRATOR_BRANCH_STATE.json` at `10b2f2c9f7ec0e90a513e7a0b78485422b54d9bb`; zero new or advanced miner branches.
