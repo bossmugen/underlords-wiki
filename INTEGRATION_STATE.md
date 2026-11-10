@@ -1,3 +1,9 @@
+## 2026-11-10 14:39 PST — Main HQ bomb-night aftermath
+
+- Source: `archive-miner/main-hq-hourly`, `archive-intake/main-hq-2022-2026-tail-20260819/site-candidates-2026-08-25-1245.md`; receipts `756596536619827250`, `756596548263084139`, `756596550368493698`.
+- MAIN `src/lib/club-only-overrides.ts` commit `dbc368ec9eb17f19fc2eb06c0ae779caca281dd5` folds Anayss's BOOM review, Ren's fire-line reenactment, and Ansun's manual guidance into the existing Sep. 18 episode; source reread PASS. No second episode. WIKI structured episode intentionally pending distinct owner review, not mirrored prose.
+- MAIN production build/live confirmation pending. Branch-name census 30 active, last_seen SHAs carried from earlier certified census because search does not expose HEAD. MAIN census commit `b3d368fb015db119b2f199c99e80be6721f4c437`. No consumed SHA advanced; accepted A/B remainder uncounted.
+
 ## 2026-11-10 12:35 PST — Main HQ Ansun / Rooks Tumbleweed fake succession
 
 - Direct Main HQ branch `archive-miner/main-hq-hourly`, checkpoint and `archive-intake/main-hq-2022-2026-tail-20260819/site-candidates-2026-08-25-1145.md`; receipts `760574335156092939`, `760574361786384395`, later edited map `760564322182103111`.
