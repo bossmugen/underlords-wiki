@@ -1468,3 +1468,10 @@ Photo miner `archive-miner-photo-submissions-2021`, last-known HEAD `d45d441feca
 - MAIN `src/content/people/anthos.md` commit `892f907bc60f5c16a22e21e0987db9607181c0cb` folds the Sept. 18, 2020 Ansun→Rooks VC invitation and Anthos `rooks i need to be held` into Anthos's relationship texture. Source `site-candidates-2026-08-26-0145.md`, messages `756610211254370456`, `756610241038123068`, `756610260562870303`, `756610261959442525`.
 - WIKI intentionally unchanged: person-first synthesis is MAIN owner; avoid duplicate episode until structured coverage comparison warrants it. No physical embrace inferred.
 - MAIN source reread PASS. Production workflow `42647115287` queued; build/live deployment pending. Main HQ publication debt remains open; exact A/B remainder not certified. No consumed SHA advanced. Original-media and unresolved attribution remain blocked.
+
+## 2026-11-09 17:00 PST — Ansun COLORS Photoshoot discovery parity
+
+- Direct miner `archive-miner-photo-submissions-2021` checkpoint and `site-candidates.md` read; candidate `Ansun was helping build the mood board before Colors even opened`: Apr. 2 `Example Photos` header and two reference uploads, with Anayss/Gilli/Ren contributing to the same pre-opening cluster; COLORS opened Apr. 5. POSTED BY is not image creator/capture credit.
+- MAIN `src/content/people/ansun.md` reader commit `efbef9d86850841795631ebd759decc98216cdac` adds discovery tags `photo-submissions`, `photoshoot`, `colors-theme`; existing person-first scene retained. WIKI `src/data/dossier-snapshots/ansun.md` already has structured claim and tags, so no duplicate WIKI reader edit.
+- MAIN committed source reread PASS; exact reader Actions query returned zero runs. Astro build, Cloudflare production and live commit unverified; accepted candidate pending verification. No consumed SHA advanced; Photo miner `342ee5df` vs HEAD `d45d441f`; A/B remainder uncertified.
+- Full 137-remote/30-miner SHA census persisted MAIN `c8f8163520f827e6da302588e5bbfa6addaef800`; zero advanced. Club-Only 2021–2026 checkpoint checked, recovery remains open. Missing Photo reply parents and inaccessible original media remain blocked.
