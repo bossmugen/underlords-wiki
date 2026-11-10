@@ -10,6 +10,11 @@ summary: "Rooks is current Staff and one of UL's cleanest self-prosecution chara
 summaryEvidence: "archive-confirmed"
 publication: "public"
 claims:
+  - text: "In September 2020, Rooks said she was at the Disney Store; Ansun teased her about buying Pooh and Mugen reacted warmly. No purchase or exact item is confirmed."
+    evidence: "archive-confirmed"
+    date: "2020-09"
+    sources:
+      - label: "Main HQ · site-candidates-2026-08-25-1245.md · receipts 756618568518598662 / 756618592627326997 / 756618598138642472 / 756618633412870176"
   - text: "Current canon places Rooks on the Staff shelf; stable 2020–2021 account `.poogie.` appears as `Rookie Cookie uwu`. Old VIP role arrays are not appointment chronology."
     evidence: "canon-lock"
   - text: "On August 24, 2020, Ren says `Rooks is INOCENT just like me`; Ansun immediately says `rooks is NOT`; Rooks later concedes `Well, my mind isnt innocent at least`, and after Ren says `Rooks steal us all`, Rooks answers `Yes`."
