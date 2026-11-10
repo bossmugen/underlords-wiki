@@ -94,6 +94,13 @@ claims:
     sources:
       - label: "photo-submissions identity provenance"
         href: "/events/photo-submissions"
+  - text: "On October 4, 2021 at 09:05, Ansun posted an image in Photo Submissions between Mugen\'s 09:03 NightLife sample and her 09:09 NightLife opening. The placement suggests another pre-launch reference image, not an official contest entry; no explicit Example Photos label survives for his upload."
+    evidence: "inferred"
+    date: "2021-10-04"
+    sources:
+      - label: "Photo Submissions · NightLife pre-opening sequence · site-candidates.md"
+        href: "/events/photo-submissions"
+    note: "POSTED BY Ansun only. No maker/capture/subject identification. Sample status inferred from timing, not an explicit label."
   - text: "On April 2, 2021, Ansun posted an `Example Photos` heading and two reference-image attachments before the Colors submissions opened on April 5. Anayss, Gilli, and Ren also posted examples in that pre-opening cluster."
     evidence: "archive-confirmed"
     date: "2021-04-02 – 2021-04-05"
