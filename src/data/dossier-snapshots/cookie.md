@@ -47,7 +47,7 @@ claims:
       - label: "Photo Submissions · 2021-04-25"
         href: "/events/photo-submissions"
     note: "Cookie's `why my editor dont edit full pic` message is 835940155058946059. Gilli's stored Discord reply parent is 835940038549569627, whose text remains unresolved. Do not portray her reply as directly attached to the quoted crop message; no intentional hand-cropping is established."
-  - text: "In November 2021 Anayss caught Cookie and Tofu `exposing your dms again`; in August 2024 Cookie predicted Tofu would expose him after getting Wall access, then posted Tofu himself. Tofu true-replied with another screenshot and `Oh si? Pues toma`; Cookie Fat-Wheezed."
+  - text: "On October 25, 2021 Ren called the Wall `part of y’all’s DM’s`; Cookie said `she started it` and Tofu directly replied `COOKIE STARTED IT.` (902325689947148338 / 902339614138830869 / 902342191790305360). In November 2021 Anayss caught Cookie and Tofu `exposing your dms again`; in August 2024 Cookie predicted Tofu would expose him after getting Wall access, then posted Tofu himself. Tofu true-replied with another screenshot and `Oh si? Pues toma`; Cookie Fat-Wheezed."
     evidence: "archive-confirmed"
     date: "2021-11-01 – 2024-08-31"
     sources:
