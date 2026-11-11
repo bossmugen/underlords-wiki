@@ -32,12 +32,6 @@ claims:
   - text: "On February 15, 2021, Alkey describes himself as a hockey official: `I’m a hockey official.. no one likes me`. Across March and April he repeatedly returns to hockey through equipment, rink conditions, and marriage jokes."
     evidence: "archive-confirmed"
     date: "2021-02-15 – 2021-04-10"
-  - text: "On February 3, 2021, Alkey posts two chicken emotes around crossed swords, follows with `cock fight achieved`; Mugen replies to the chicken-emote post with a popcorn GIF, and Alkey then writes `I aim to please` with a bow emote."
-    evidence: "archive-confirmed"
-    date: "2021-02-03"
-  - text: "On March 13, 2021, after Baby Lyssa writes `you saw nothing` and Rooks writes `I SAW IT`, Alkey sends `i`, `saw`, and `all` as three separate messages approximately one second apart."
-    evidence: "archive-confirmed"
-    date: "2021-03-13"
   - text: "On April 9, 2021, Ansun proposes `alkitty`, Mugen calls it cute, and several minutes later the same Wall stretch contains Alkey's `You all suck`."
     evidence: "archive-confirmed"
     date: "2021-04-09"
@@ -71,7 +65,7 @@ antiFanon:
   - "Batman, Saul, Nobu-as-Alkey, and other meme frames are jokes applied to Alkey, not permanent alter egos."
   - "`alkitty` is Ansun's one-scene joke proposal, not a confirmed Alkey alias."
   - "`Tsundere: Alkey` is one explicit peer-characterization scene, not a formal alias or proven recurring Alkey title; the two attached screenshots remain visually uninspected."
-  - "The three-message `i` / `saw` / `all` beat is one clean timing scene, not proof that Alkey always packetizes sentences."
+  - "The February 2021 chicken-emote and March 2021 `i` / `saw` / `all` scenes belong to the distinct Meowk account; do not assign them to Alkey."
   - "The Aisha exchange and `auction` language are peer banter; do not literalize them into threats, bullying findings, or a sale."
   - "The June 2022 Lobby exchange is a mock re-introduction between people who already knew one another, not a first meeting."
   - "An uninspected November 2021 screenshot remains uninspected; Mugen's caption alone does not establish its contents."
@@ -129,47 +123,13 @@ On February 15 Alkey writes **`I’m a hockey official.. no one likes me`**. In 
 
 The repetition matters more than any one sentence. Hockey is user-confirmed real-life context and repeatedly self-authored archive material. The marriage language is a joke, but it is a joke exaggerating something durable rather than inventing an interest for the night.
 
-## HE WILL IMPROVISE A SPORT OUT OF ANYTHING
-
-February 3, 2021 is better because there is no rink anywhere near it.
-
-Sye drops a chicken-thinking emote. Alkey answers with another chicken, **crossed swords**, and a suspicious chicken. Nine seconds later he files the result:
-
-> `cock fight achieved`
-
-Mugen replies to the chicken-emote post with a Bill Hader popcorn GIF. Alkey sees the audience has taken its seat and bows:
-
-> `I aim to please :8_bow:`
-
-That sequence gives him something the hockey material cannot: **performance instinct**. He does not need a big setup. Three pictographs become a fight card, Mugen produces snacks, and Alkey acknowledges the crowd like this was scheduled programming. The joke is small, but his timing is not accidental: image, declaration, audience reaction, bow.
-
-## WITNESS TESTIMONY, RELEASED IN INSTALLMENTS
-
-On March 13, Baby Lyssa attempts the oldest legal strategy in UL history:
-
-> `you saw nothing`
-
-Rooks immediately says:
-
-> `I SAW IT`
-
-Alkey goes one better. He sends three separate messages, each about a second apart:
-
-> `i`
->
-> `saw`
->
-> `all`
-
-Do not turn one scene into a grand theory that Alkey always talks this way. The useful thing is narrower and funnier: when the room hands him a setup, he knows how to stretch one sentence into a reveal. The pause between words does the work.
-
 ## THE NAMING COMMITTEE HAS NO JURISDICTION
 
 April 9 gives the room a different way of playing with him. Ansun proposes **`alkitty`**. Mugen answers **`So cute`** and Ren adds a paw. Several minutes later, the same Wall stretch contains Alkey's own filing:
 
 > `You all suck :myv_Reeeeee:`
 
-The chronology is hilarious. It is **not** enough to write a fake transcript where Alkey directly rejects `alkitty`: Discord stores his line as a normal message, not a reply to Ansun or Mugen. What the scene safely shows is the social environment around him. The room is comfortable trying to rename Meowk into something even more cat-shaped, and Alkey is comfortable existing in the same register of affectionate hostility. `alkitty` stays a joke proposal, not a case-file alias.
+The juxtaposition is hilarious. It is **not** enough to write a fake transcript where Alkey directly rejects `alkitty`: Discord stores his line as a normal message, not a reply to Ansun or Mugen. What the scene safely shows is the social environment around him. The room is comfortable throwing cat-shaped nicknames around, and Alkey's nearby complaint sits in the same general register of affectionate hostility; it is not a direct answer to the proposal. `alkitty` stays a joke proposal, not a case-file alias.
 
 A few minutes later, Sou makes the character note explicit rather than leaving it buried in the screenshots. He posts **`Tsundere: Alkey`**, follows it with two images, and Ren answers **`The name fits him so much`** before pinging Alkey. The screenshots themselves are still sealed; the wiki does not invent whatever affectionate-denial exchange might be hiding in them. The safe fact is the social diagnosis: Sou puts the trope on the evidence folder and Ren immediately agrees that it fits this man. That is stronger than a random adjective and weaker than an alias. Later `tsundere` language is also used for Moon, so Alkey does not get to smuggle it into his government name just because the prosecution had stationery.
 
