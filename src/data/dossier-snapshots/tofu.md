@@ -8,6 +8,13 @@ summary: "Tofu is current Staff whose Wall file is built around reciprocal evide
 summaryEvidence: "archive-confirmed"
 publication: "public"
 claims:
+  - text: "On July 2, 2021, a watermelon-and-mustard video turned the Wall into a food argument. Tofu skipped the condiment debate and declared `Watermelon is gross, fight me`, then doubled down with `Watermelon is disgusting!`. Ghoulie searched for who would put mustard on watermelon, Mob pointed to the viral videos, Ren wanted to try it, and Woohyuk dismissed the fruit as `sweet water` pretending to be a melon."
+    evidence: "archive-confirmed"
+    date: "2021-07-02"
+    sources:
+      - label: "Backroom Pass 21 · Wall 860706792131264534 / 860707527230357514 / 860707042544320523 / 860707128837537853 / 860707618045296688 / 860725911074111508"
+        href: "/channels/wall"
+    note: "Distinct participant opinions; no proof any UL member ate the combination. Mob/BAPE and Baby Lyssa/Ghoulie are user-confirmed identity bridges."
   - text: "In the 2021 Stalker Photoshoot, Tofu captioned a submission 'Breaking Raja logic for this pic'; in Waltz, BishopThaGuru described teaching Tofu to dance as unexpectedly cute. These are separate creative scenes, not proof of a romantic pairing or of who captured the images."
     evidence: "archive-confirmed"
     date: "2021"
