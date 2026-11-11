@@ -168,7 +168,7 @@ claims:
       - label: "Main HQ site-candidates.md · Wall receipts 771866252250578945, 814343511250829352, 814343593782542376, 890297461095141456"
         href: "/channels/wall"
     note: "Snow posted the September attachment; its visual content and original maker/capturer remain uninspected. This is a recurring self-filing joke, not a formal Wall immunity rule."
-  - text: "On April 9, 2023, Nobu called Ren a child, Kiro called RV the Fountain of Youth, and Moon joked that Snow had given the fountain to Ren."
+  - text: "On April 9, 2023, Xuseio posted `Proof, Ren is a childe`; HicUUOOOOGH / etharzii called RV `the fountain of youth itself`; and Moon joked that Snow had given the fountain to RV."
     evidence: "archive-confirmed"
     date: "2023-04-09"
     sources:
