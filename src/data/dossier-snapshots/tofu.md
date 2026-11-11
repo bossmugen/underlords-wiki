@@ -31,6 +31,13 @@ claims:
   - text: "On September 16, 2021, ShiyaX asks `theres a limit ?`; Tofu true-replies `At least pace yourself`. The underlying image/activity is unresolved."
     evidence: "archive-confirmed"
     date: "2021-09-16"
+  - text: "On July 7 and September 16, 2021, Tofu posted Wall images that prompted Baby Lyssa/Ghoulie to protest `GOD DAMNIT YOU TOO??` and `you like splattering my ass on the wall huh`. Tofu acknowledged a rushed crop in the September exchange."
+    evidence: "archive-confirmed"
+    date: "2021-07-07 / 2021-09-16"
+    sources:
+      - label: "Main HQ · site-candidates-2026-08-25-1645.md · Tofu / Baby Lyssa"
+        href: "/channels/wall"
+    note: "Separate recurring interactions, not proof of a stored Reply edge for every line. Attachments uninspected; posted-by does not establish maker, capturer, or subject."
   - text: "On September 20, 2021, Cookie identifies the Wall accusation against Tofu as promised bee spam. Tofu protests `PUTTING ME ON BLAST!`, then thirty-seven seconds later announces `I'll fucking do it again too.`"
     evidence: "archive-confirmed"
     date: "2021-09-20"
@@ -86,6 +93,11 @@ By August 27, a direct reply to one of Tofu's Wall posts is simply **`OH GOD NO`
 The important complication arrives September 20, when the evidence system turns around. Cookie says Tofu wasn't kidding about promising to spam him with bees. A screenshot appears. Tofu reacts **`PUTTING ME ON BLAST!`**. Thirty-seven seconds later: **`I'll fucking do it again too.`** The attachment itself was not visually inspected, so the wiki does not narrate what the exhibit shows. It does not need to. Tofu's two lines contain the entire contradiction: object to becoming evidence, then announce future recidivism.
 
 That is why the recurring behavior is **reciprocal evidence culture**, not prosecutor identity. Tofu is not neatly divided into curator mode and defendant mode. Both are active. You can demand the receipt, become the receipt, complain about the receipt, and still endorse the underlying behavior before a minute has passed.
+
+
+### The repeat defendant
+
+Baby Lyssa had started recognizing Tofu's Wall posts as a recurring personal hazard. In July 2021 her response to one of Tofu's images was **`GOD DAMNIT YOU TOO??`**; in September, another filing earned **`you like splattering my ass on the wall huh`**. Tofu admitted the crop had been rushed. The images themselves remain uninspected. The repeat exchange matters more than the unseen pixels: Lyssa knew whom to complain to, and Tofu was comfortable enough in the routine to discuss the workmanship.
 
 October turns Tofu back toward the prosecution table. Tofu posts **`I'm not saying @Cookies and Juicebox is a cochino but, he's a cochino.`** with a screenshot attachment. Cookie answers **`:PandaRun:`**. Three days later another screenshot exchange produces Cookie's **`its not how it looks like`**, **`i swear`**, another panda run, and **`so done`**. The binaries remain undescribed; the social mechanism is already visible without them. Tofu presents an exhibit. Cookie disputes the exhibit. The panda exits the jurisdiction.
 
