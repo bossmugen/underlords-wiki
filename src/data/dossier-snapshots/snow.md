@@ -174,7 +174,7 @@ claims:
     sources:
       - label: "Main HQ site-candidates.md · Wall receipts 1094846260021842022, 1094846569993478155, 1094851890057068556"
         href: "/channels/wall"
-    note: "The Fountain of Youth transfer is a one-scene extension of OLD MAN SNOW, not an actual age claim. Nobu's associated screenshot remains visually uninspected."
+    note: "The Fountain of Youth transfer is a one-scene extension of OLD MAN SNOW, not an actual age claim. Xuseio's associated screenshot remains visually uninspected."
   - text: "On November 15, 2024, Snow answered a display-quality question by distinguishing phone and computer-monitor viewing: on a mobile phone `you can't see the difference`, while on a computer monitor the difference could be noticeable."
     evidence: "archive-confirmed"
     date: "2024-11-15"
