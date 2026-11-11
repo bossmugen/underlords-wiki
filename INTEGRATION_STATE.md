@@ -1,3 +1,9 @@
+## 2026-11-10 23:35 PST — Tofu/Ghoulie recurring Wall exchange
+
+- MAIN `src/content/people/tofu.md` reader `330fb6d1f7df2c4491f3e0566573752834078616` has completed production workflow `42973098075` SUCCESS; independent Cloudflare fingerprint not checked.
+- WIKI `src/data/dossier-snapshots/tofu.md` reader `c2893bdfa7cd81b98a30ec5d9f8a14b186bd5e0b` adds a distinct structured July 7 / September 16 2021 claim and person-level exchange from `archive-miner/main-hq-hourly`, `archive-intake/main-hq-2022-2026-tail-20260819/site-candidates-2026-08-25-1645.md`. Images uninspected; no universal reply-edge claim. Exact WIKI workflow lookup returned zero runs at inspection; verification pending.
+- Full REST census: 137 remote branches / 30 active miner branches, no HEAD advances. MAIN census commit `c40d85762a4f09a6f532ed27b49a9e12e387151b`. Three branches have outstanding consumed-to-HEAD deltas: August Reunion, Photo Submissions, Backroom Deals. Main HQ and Club-Only checkpoints read directly; August Reunion media blocked. No consumed SHA advanced; accepted A/B remainder uncounted. No duplication of Ren's timing jokes.
+
 ## 2026-11-10 20:39 PST — Main HQ Ren Wall-latency recovery
 
 - Source directly on `archive-miner/main-hq-hourly`: `archive-intake/main-hq-2022-2026-tail-20260819/checkpoint.md`, `site-candidates-2026-08-25-1645.md`, `receipt-delta-2026-08-25-1645.md`. August Reunion base checkpoint also read directly. May 21 Zhēnxī Lobby→Wall sequence and July 7 Baby Lyssa five-minute exchange synthesized as Ren's timing joke, not an official record or formal role. The pre-welcome image is uninspected and not joined to the Wall tag.
