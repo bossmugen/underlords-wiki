@@ -18,6 +18,12 @@ claims:
       - label: "Backroom Pass 35 · Wall · messages 866784597924904995, 866784631663099914, 866784675677732864"
         href: "/channels/wall"
     note: "Ren explicitly called Tae bestie. The actual pickup lines and any attachment content are not reconstructed; the exchange is a playful publication dare, not a literal romance claim."
+  - text: "On July 12, 2021, Ansun treated Tae saying \u0060fuck\u0060 as a mock dated Wall offense; on May 10, 2022, Rummy included Tae among plausible contenders in a joking Shame ranking alongside Panda. Neither was a real disciplinary action or measured leaderboard."
+    evidence: "archive-confirmed"
+    date: "2021-07-12 – 2022-05-10"
+    sources:
+      - label: "Main HQ miner · site-candidates-2026-08-25-1945.md · 864373650631294987 / 864373757971660840 / 973669323992346624 / 973669463058681896"
+        href: "/channels/wall"
   - text: "Tae is a permanent Platelet in the Mugs-confirmed living roster."
     evidence: "user-confirmed"
     sources:
@@ -198,3 +204,9 @@ That last word is the whole episode. Tae was willing to insult the defense attor
 ## The Bestie Who Dared the Archivist
 
 Ren called Tae her bestie while introducing a Wall exhibit of Tae's pickup lines. Tae's answer was not damage control: `POST ALL IT YOU WONT`. Ren promised to post something better. Eight seconds was apparently all Tae needed to turn an attempted exposure into a challenge. Neither was arguing over whether the other could keep the material; they were competing over how spectacularly it should be exhibited. The actual lines are still offstage, and the friendship is loud enough without them.
+
+## Episode — One Swear, Officially Filed
+
+On July 12, 2021, Ansun took Tae saying `fuck` and gave it the treatment of a dated Wall offense. The mock paperwork is the joke: one ordinary swear, apparently serious enough for a ceremonial record. A week later Ren was crediting `ma bestie tae` for pickup lines, and Tae dared her to post more. By May 2022 Rummy was floating Tae or Panda as contenders in a pretend Shame ranking. No actual standings existed. Tae had simply become a person the room expected to provide material, whether she volunteered it or not.
+
+Source: Main HQ miner `site-candidates-2026-08-25-1945.md`, messages `864373650631294987`, `864373757971660840`, `973669323992346624`, `973669463058681896`. The ranking is participant hyperbole, not a count or a disciplinary system.
