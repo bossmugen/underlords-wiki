@@ -87,13 +87,13 @@ claims:
     sources:
       - label: "Photo Submissions · themed visual cycles"
         href: "/events/photo-submissions"
-  - text: "On August 1, 2021, Gilli posted an `Example Photos` attachment at 15:16:21; twenty-two seconds later Ren posted another `Example Photos` header. The same task was visibly shared rather than belonging exclusively to either person."
+  - text: "Gilli and Ren repeated the same Example Photos posting sequence on August 1 and August 15, 2021: Gilli posted first, Ren followed 22 seconds later the first time and less than three minutes later the second. Gilli opened the next surviving POPSTAR round on August 16."
     evidence: "archive-confirmed"
-    date: "2021-08-01"
+    date: "2021-08-01 – 2021-08-16"
     sources:
-      - label: "Photo Submissions · August 1 example-photo handoff"
+      - label: "Photo Submissions · August 1 and 15 paired examples · 871516734203527198 / 871516826079731712 / 876518547826819121 / 876519248116219915 / 876863548733681695"
         href: "/events/photo-submissions"
-    note: "Photo Submissions miner site-candidates-hourly.md, `Gilli and Ren overlap on Aug. 1 instead of one person owning the job`. Gilli posted an attachment and Ren a standardized header; image creation/capture and formal office are not inferred."
+    note: "Photo miner site-candidate-2026-08-25-2045-gilli-ren-repeat-example-pair.md. Repeated close posting order supports shared practical setup, not a proven formal assignment or direct coordination. August 15 posts do not name POPSTAR; image maker, capturer and subjects are unresolved."
   - text: "On July 31, 2021, Ephxs interrupted Lobby club paperwork to ask \u0060Who has my ghoulie?👀\u0060; Gilli answered \u0060Oh we do LMAOO\u0060 before Ephxs supplied Ethereal as their club. On August 22, Gilli posted a public Photoshoot entry labeled \u0060Photo Moments Submission: Ephxs\u0060."
     evidence: "archive-confirmed"
     date: "2021-07-31 – 2021-08-22"
