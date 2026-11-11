@@ -330,6 +330,16 @@ Ren spotted outside editing in dora's picture, specifically the added sentence. 
 
 **Source:** Photo Submissions miner `site-candidates.md`, “Rules, but make it hun lol.” Ren's correction is a true Discord reply referencing parent `872535327926009928`; that parent's contents have not been recovered. The nearby text must not be substituted as its exact reply target. The exchange does not establish a formal Photoshoot office for Ren.
 
+## WALL LATENCY — New record?
+
+**Episode:** May 21 and July 7, 2021 · Lobby / Wall of Shame-Fame.
+
+Ren welcomed Zhēnxī with a `:DevilGlare:`, softened it to `*dear*`, confirmed `Zhen right?`, pointed them toward the Discord tour and warned `Don’t get lost now UwU`. Zhēnxī had just said `I am scare`. About seven minutes after the visible MEE6 welcome, Ren tagged them on the Wall. The new arrival protested `NOT THE WALL OF SHAME FAME`; Ansun called it `shamed within 6 minutes of entry`, and Ren asked `New record?`.
+
+The same joke resurfaced with Baby Lyssa in July. After Lyssa demanded `YOU COULDNT WAIT LIKE AT LEAST 5 MINUTES?`, Ren replied `*the shame doesn’t wait my dear*`. Her joke was not simply that she kept receipts; she treated publication speed as something worth celebrating.
+
+**Receipts:** Lobby `845549948506472468`, `845550095118106655`, `845550152210448414`, `845550309941444668`, `845550326572646450`; Wall `845551682191884339`, `845551777184612382`, `845553640622391316`, `845553735748419664`, `862382943002951680`, `862383180513280050`. Source: Main HQ `receipt-delta-2026-08-25-1645.md` and `site-candidates-2026-08-25-1645.md`. Ansun's six-minute description is his joke; the visible MEE6-to-Wall interval is approximately 6m53s. Ren's earlier uninspected image `845549197867876414` is **not** attributed to the later Zhēnxī tag, and `New record?` is not an established leaderboard.
+
 ## RAJA POLICE DEPARTMENT — Running gag / artifact index
 
 Ren's fake Officer dossiers made the house's private jokes searchable as mock criminal warnings. Gabu's height feud, Mugen's Plutonian nonsense, Sye's small-but-deadly reputation, and Ren's own warning to avoid her all became form fields. The 2025 reposts brought the jokes back into circulation. The cards are a comedy artifact, not evidence of actual offenses or a dated formal appointment.
