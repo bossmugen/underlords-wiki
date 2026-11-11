@@ -10,6 +10,13 @@ summary: "Gilli's archive starts at the 2020 front door and quickly becomes a re
 summaryEvidence: "inferred"
 publication: "public"
 claims:
+  - text: "Anayss called Gilli Gillibear in August–September 2020; Gilli replied 'Hi My Anabun' on September 16, and Anayss later wished Gillibear a safe drive. Gilli's July 8, 2021 WALTZ submission was captioned 'Gilli + Anayss uwu'."
+    evidence: "archive-confirmed"
+    date: "2020-08-25 – 2021-07-08"
+    sources:
+      - label: "BACKROOM site-candidates-pass-16.md · messages 747978044685287424, 755761495517954198, 755761625897762908, 760116581643583498, 862749386660511764, 862749433418219520"
+        href: "/channels/club-only"
+    note: "Affectionate nickname and collaborative WALTZ pairing; not romance canon. The submitted image has not been visually inspected."
   - text: "In a 2021 event countdown, Gilli told Staff and VIPs to bring drinks and added '(Warm milk for the Platelets)', giving the younger members their own joking menu item."
     evidence: "archive-confirmed"
     date: "2021"
