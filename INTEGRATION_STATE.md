@@ -1,3 +1,10 @@
+
+## 2026-11-10 23:32 PST — Tofu structured dossier build verification
+
+- WIKI reader commit `c2893bdfa7cd81b98a30ec5d9f8a14b186bd5e0b` completed GitHub Actions workflow `42980139850` SUCCESS; companion workflow `42980139896` CANCELLED. This certifies the successful workflow only, not a separately inspected live production page.
+- MAIN Tofu reader commit `330fb6d1f7df2c4491f3e0566573752834078616` workflow `42973098075` SUCCESS. No new reader copy added; Backroom Pass 13 POPSTAR deadline/Moments and Persephone seventeen-second apology are already present in current MAIN/WIKI readers. Pass 14 Nhou image remains visually blocked; Rummy caption requires separate novelty reconciliation.
+- Full REST branch census read: 137 remote branches / 30 active miner HEADs, zero new or advanced relative to MAIN's latest ledger. BACKROOM remains unconsumed beyond `68d2fba7`; no cursor advanced, remaining A/B count unresolved.
+
 ## 2026-11-10 23:35 PST — Tofu/Ghoulie recurring Wall exchange
 
 - MAIN `src/content/people/tofu.md` reader `330fb6d1f7df2c4491f3e0566573752834078616` has completed production workflow `42973098075` SUCCESS; independent Cloudflare fingerprint not checked.
