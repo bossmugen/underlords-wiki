@@ -85,6 +85,12 @@ claims:
       - label: "Complete QOTD archive · 2026"
         href: "/archive/qotd"
     note: "The exact repeated game/event is not securely named in this intake. The safe character finding is the remembered answer/memory role."
+  - text: "UL also had a shared Discord role named `Drink Water/ Eat Food Reminder` (role ID `830076779921145921`), visible in exported metadata for Tae and Cele. That role was separate from Gabu's `Drink water reminder` display nickname; neither its creation date nor its holders' historical assignment dates are established."
+    evidence: "archive-confirmed"
+    sources:
+      - label: "Photo Submissions · hydration role metadata candidate"
+        href: "https://github.com/bossmugen/underlords/blob/archive-miner-photo-submissions-2021/archive-intake/photo-submissions-2021-visual-contest-2026-08-19-1845-pdt/site-candidate-2026-08-25-0745-hydration-role-metadata.md"
+    note: "Exporter-time role arrays cannot establish 2021 appointment chronology, duties, or whether Gabu held the role. This is shared care-language infrastructure, not an officer appointment."
   - text: "The UL Native Motif Registry traces hydration language around Gabu from early `drink water` reminders into a recurring `Drink water reminder` identity / care motif."
     evidence: "archive-confirmed"
     sources:
