@@ -157,4 +157,4 @@ Alkey's actual through-line does not need that invention. Hockey keeps following
 
 ## Episode — The Lonely entry
 
-The February 2021 **Lonely** Photoshoot attachment posted as **Meowk 💖✨** (message `812805687142907924`) requires stable-account ownership verification before it can be attributed to Alkey. His Wall presence could turn three words into a performance; this submission gives him another, quieter way of joining the room. The image has been described in the miner's inspected notes as dramatic in environment and light, but one picture cannot establish a signature style. Alkey posted it; the maker, photographer, and depicted subject are not assigned here.
+The February 2021 **Lonely** Photoshoot attachment (message `812805687142907924`) belongs to the separate **Meowk** account. It is not an Alkey participation credit, and neither its maker nor its pictured subject is established by the posting alone.
