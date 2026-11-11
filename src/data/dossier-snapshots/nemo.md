@@ -93,6 +93,12 @@ claims:
       - label: "August 2026 reunion · inspected Nemo Biodata"
         href: "/channels/whiskey"
     note: "This is a point-in-time historical profile, not a current demographic sheet. Historical age/country fields visible on the card are intentionally not republished here. Learning Mandarin is not evidence of ethnicity or nationality; Leo's historical mention does not establish current pet status."
+  - text: "On November 18, 2022, Daya recalled Namo singing Kirk Franklin during a Wall exchange in which Gilli was shocked that Rummy and Kiro did not know the artist. The song and performance are not independently identified."
+    evidence: "archive-confirmed"
+    date: "2022-11-18"
+    sources:
+      - label: "Main HQ · site-candidates-2026-08-25-1545.md · Daya 1043341019716009984; Gilli 1043340085057310811; Kiro 1043340824886378516"
+        href: "/channels/wall"
 antiFanon:
   - "Nemo / Namo / Sushi / cinnamoroll is one person in the locally proven identity chain; do not create separate people for those names."
   - "QOTD account ID `456226577798135808` is confirmed as Nemo. That does NOT mean every `Deleted User` string in every old export is Nemo; older pooled/ambiguous deleted-account corpora still require stable IDs or scene-level identification."
@@ -100,6 +106,7 @@ antiFanon:
   - "Nemo's traveling-recruiter behavior describes friendship-based cross-club recruitment. Do not invent counts, clubs, targets, dates, or a formal intelligence/scouting appointment without receipts. The recruiter function does not make Nemo a general Officer."
   - "The October 2020 `becoming one of you` / `absorbbbb` exchange is social language, not literal adoption, biology, or proof of an instant closeness ranking."
   - "The resurfaced Biodata screenshot is a historical point-in-time self-description. Do not treat its old demographic fields as current data, infer ethnicity/nationality from learning Mandarin, or assume Leo's current status from the old pet mention."
+  - "Daya's Kirk Franklin remark is a recollection, not verification of a specific recording, song, or performance."
   - "Naruto, Queens of the Stone Age, Sanrio, baking, snacks, and language learning are supported interests or point-in-time self-reports; do not turn any one of them into a complete personality or permanent identity."
   - "Mafia fins, shark language, fish jokes, and `Find Nemo` are self/peer mythology, not literal species claims or evidence of harm."
 relatedPeople:
@@ -163,3 +170,7 @@ The profile adds a quieter layer the role history cannot. Nemo describes a stron
 Taken in sequence, Nemo becomes clearer without becoming over-explained. The early archive shows social movement and a person noticing his own assimilation into the house. The middle preserves ordinary fandom chat. The QOTD material restores his compact, ridiculous voice. The resurfaced Biodata returns domestic and personal details the operational record had no reason to keep.
 
 That is the progression that matters: **from function, to voice, to fuller personhood**. Nemo is not interesting because every part of him explains the Sniper job. He is interesting because the archive gradually stops reducing him to it.
+
+## THE KIRK FRANKLIN DEFENSE
+
+When Gilli discovered in November 2022 that Rummy and Kiro didn't know Kirk Franklin, Daya had a very specific counterargument: **`YES NAMO SANG IT`**. Somehow Nemo became the room's musical character witness without even needing to be the one arguing. It's a tiny glimpse of how a friend's remembered antics can get dragged into an entirely different conversation. The song itself remains a mystery.
