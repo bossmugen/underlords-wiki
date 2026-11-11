@@ -9,6 +9,13 @@ summary: "Nobu's archive has a clean role progression but a better human story: 
 summaryEvidence: "archive-confirmed"
 publication: "public"
 claims:
+  - text: "On March 26, 2023, Nobu posted a WOO-mentioned screenshot; Gilli directly replied tagging WOO, who responded `NOBU` / `TRAITOR`, and Nobu joined the Fat-Wheeze reactions. Roughly 36 minutes later Nobu posted another screenshot and WOO responded `nobu` / `why`. The second cluster is chronological, not a confirmed direct reply to the first."
+    evidence: "archive-confirmed"
+    date: "2023-03-26"
+    sources:
+      - label: "Main HQ miner · site-candidates-2026-08-25-2245.md · 1089742473150083104 / 1089742565412188160 / 1089743115809718302 / 1089743123288178689 / 1089751560642383982 / 1089752458898702377 / 1089752468495282196"
+        href: "/channels/wall"
+    note: "Both screenshots uninspected; Nobu posted them but their maker/capturer and visual contents are not assigned. The episode is not proof of a permanent relationship label."
   - text: "Nobu / Xuseio is the same person."
     evidence: "user-confirmed"
     sources:
@@ -138,6 +145,12 @@ Nobu posts a screenshot showing Google results for **`Nobu near Brooklyn`**, inc
 The cadence is the joke. Stare. Name. Existential objection. Nobu did not make the search results and the surviving Wall parent proves POSTED BY, not CAPTURED BY. More importantly, this is not retroactive proof that the 2023 screenshot *caused* Moon's 2026 **`restaurant back in business`** line. It is simply a beautiful older echo: three years before UL verbally reopened a restaurant for Nobu, Nobu had already carried the literal brand collision into evidence herself. Some naming problems cannot be administratively resolved.
 
 In January 2024, Nobu posts **`I'm proud of you, Rummy. :Fat_Wheeze:`** over an attachment that remains unseen here. The pride and the roast share a sentence. Approval and prosecution do not need separate costumes in this relationship.
+
+## March 2023 — Nobu, you traitor
+
+Nobu put a WOO-tagged Discord screenshot on the Wall. Gilli tagged WOO in a direct reply, and WOO arrived with a two-part indictment: **`NOBU`**. **`TRAITOR`**. Nobu joined the Fat-Wheeze reactions rather than mounting a defense. About half an hour later she posted another screenshot, and WOO's response had shrunk to **`nobu`** and **`why`**. Apparently the betrayal department was open for repeat business.
+
+The images themselves are not described here. The first exchange has a direct reply and mention trail; the second is a later neighboring exchange, not a proven repeat of the same offense. The joke lives in how quickly WOO recognizes Nobu as the person to blame — and how cheerfully Nobu lets the accusation stand.
 
 ## SEPTEMBER 2024 — THE BOT ASKS HER TO INTRODUCE HERSELF AGAIN; THE PEOPLE DO NOT
 
