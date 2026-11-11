@@ -1,3 +1,10 @@
+## 2026-11-11 08:37 PST — Alkey/Meowk correction verification
+
+- The identity correction in `src/data/dossier-snapshots/alkey.md` remains separated from the canonical Meowk account. WIKI reader commit `d870fb9fc216bd32617305533293e3343613b4e9` passed Astro build run `43050153172`; its superseding integration-state commit `5085917b74a90b6d5d5df83889946f19280d716d` passed Astro build `43050177498` and Pages preview `43050177654`. The first preview was cancelled by supersession, not a source-build failure.
+- These results verify the WIKI build and preview, not a separately inspected public production fingerprint. MAIN Alkey reader commit `143b5919f5ff2832138729349d879de5a2bb8a11` passed production workflow `43022344680`; MAIN Tae reader `5ab0e1e833df805699f290bc6dfc777f18efe206` passed workflow `43005315492`.
+- MAIN full REST branch census: 137 remote, 30 active miner HEADs, zero new/advanced; census commit `e1283ef5032d55d5b023620eefde1cc766334a58`. August Reunion, Photo Submissions, Backroom Deals remain unconsumed. No consumed SHA advanced.
+- Read Main HQ, August Reunion and Club-Only longitudinal checkpoints directly; Main HQ candidate list cross-check found Rummy BLING/stink-off, Snow Wall/old-man/fountain, Noether return/hamcito and Eos corpse already integrated across reader surfaces. No duplicate reader publication. August Reunion/Main HQ remaining A/B candidate count still unverified; media-only objects blocked until inspected. No claim of full backlog clearance.
+
 ## 2026-11-11 03:35 PST — Main HQ Nobu/WOO Wall betrayal
 
 - Direct miner handoff: `archive-miner/main-hq-hourly` / `archive-intake/main-hq-2022-2026-tail-20260819/site-candidates-2026-08-25-2245.md`, messages `1089742473150083104`, `1089742565412188160`, `1089743115809718302`, `1089743123288178689`, `1089751560642383982`, `1089752458898702377`, `1089752468495282196`.
