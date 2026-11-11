@@ -1,3 +1,10 @@
+## 2026-11-11 01:38 PST — Main HQ Tae mock Wall prosecution
+
+- Source directly on `archive-miner/main-hq-hourly`: `archive-intake/main-hq-2022-2026-tail-20260819/site-candidates-2026-08-25-1945.md`, receipts `864373650631294987`, `864373757971660840`, `973669323992346624`, `973669463058681896`. Tae's existing Ren-bestie/pickup-line scene was already covered; only missing Ansun mock charge and Rummy hypothetical ranking were added.
+- WIKI reader `src/data/dossier-snapshots/tae.md` commit `0219c36aafd255acf791f4eb3972862b26896af0`; source reread passed. Build runs `42996964871`, `42996964954` in progress at inspection; no live verification or consumed SHA advancement.
+- MAIN reader left unchanged: no copy mirrored; separate MAIN novelty check for this specific detail remains outstanding. Other Main HQ candidate `site-candidates-2026-08-25-1852-addendum.md` Scar/Gilli harem already present on both surfaces; Inner Anthos already integrated, Rummification image still requires inspection.
+- Full REST census: 137 remote branches, 30 active miner HEADs, zero advanced; MAIN census commit `7e8bc0ea0de95f43b129185cf8bcb64731c0e963`. Remaining consumed-to-HEAD deltas: August Reunion, Photo Submissions, Backroom Deals. Club-Only longitudinal checkpoint consulted; recovery not completed. Five pending-publication families, one backlog category, accepted A/B remainder uncounted.
+
 
 ## 2026-11-11 — Main HQ Ghoulie Wall house-to-affection recovery
 
