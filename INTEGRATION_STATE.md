@@ -1,4 +1,11 @@
 
+## 2026-11-11 — Main HQ Ghoulie Wall house-to-affection recovery
+
+- Source: `archive-miner/main-hq-hourly` / `archive-intake/main-hq-2022-2026-tail-20260819/site-candidates-2026-08-25-1758.md`, June 2 and July 18 2021 Baby Lyssa sequence.
+- MAIN reader `src/content/people/baby-lyssa.md` commit `25f9e15b00839502bc0d929c8b948a60e24223df`: person-first house claim / affection turn; WIKI reader `src/data/dossier-snapshots/baby-lyssa.md` commit `5fd97fbddb417f368516020435dc0965ff10afb9`: separate structured episode.
+- Both source rereads passed. GitHub Actions and production live fingerprint pending verification at time of entry. No consumed SHA advanced; Main HQ accepted A/B candidate remainder remains uncounted.
+- June `this ma house` and July `i love y’all too` are participant-authored Wall jokes, not channel ownership or blanket consent to screenshots. Earlier April ownership and May rent beats were already integrated and not duplicated.
+
 ## 2026-11-10 23:32 PST — Tofu structured dossier build verification
 
 - WIKI reader commit `c2893bdfa7cd81b98a30ec5d9f8a14b186bd5e0b` completed GitHub Actions workflow `42980139850` SUCCESS; companion workflow `42980139896` CANCELLED. This certifies the successful workflow only, not a separately inspected live production page.
