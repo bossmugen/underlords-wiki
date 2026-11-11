@@ -1,3 +1,10 @@
+## 2026-11-11 03:35 PST — Main HQ Nobu/WOO Wall betrayal
+
+- Direct miner handoff: `archive-miner/main-hq-hourly` / `archive-intake/main-hq-2022-2026-tail-20260819/site-candidates-2026-08-25-2245.md`, messages `1089742473150083104`, `1089742565412188160`, `1089743115809718302`, `1089743123288178689`, `1089751560642383982`, `1089752458898702377`, `1089752468495282196`.
+- WIKI reader `src/data/dossier-snapshots/nobu.md`, commit `2caf06a98378db7f85a36d45d2b58600d834e870`; source reread passed. The two screenshots remain uninspected and their contents are not described. The second cluster is chronological, not a claimed direct reply.
+- MAIN Nobu already carries the `TRAITOR` behavior; no MAIN duplicate. WIKI Actions runs `43013539890` and `43013539894` in progress at inspection; publication and live deploy not yet verified. Do not advance consumed SHA on this incomplete family review. Accepted A/B remaining count not certified.
+- Main HQ, August Reunion, and Club-Only longitudinal checkpoints read directly. Census queried 30 active miner names/HEADs; existing MAIN census ledger updated earlier this hour by another integrator. No new consumed cursor certified in this pass.
+
 ## 2026-11-11 01:38 PST — Main HQ Tae mock Wall prosecution
 
 - Source directly on `archive-miner/main-hq-hourly`: `archive-intake/main-hq-2022-2026-tail-20260819/site-candidates-2026-08-25-1945.md`, receipts `864373650631294987`, `864373757971660840`, `973669323992346624`, `973669463058681896`. Tae's existing Ren-bestie/pickup-line scene was already covered; only missing Ansun mock charge and Rummy hypothetical ranking were added.
