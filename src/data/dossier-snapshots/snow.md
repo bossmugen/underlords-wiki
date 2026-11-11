@@ -57,6 +57,20 @@ claims:
     sources:
       - label: "JAG"
         href: "/lore/jag"
+  - text: "Snow's August 7, 2020 Yeeting Charges included a Public records offenses clause covering Discord Chat, World Chat, and Club Chat, with prohibitions on altering, concealing, removing, or destroying those records."
+    evidence: "archive-confirmed"
+    date: "2020-08-07"
+    sources:
+      - label: "Main HQ · JAG · Snow message 741453146529857618"
+        href: "/lore/jag"
+    note: "A drafted charge, not proof of enforcement or the origin of the later Wall/archive project."
+  - text: "Snow's Charge 14 starts with Child endangerment before he immediately withdraws the premise, joking that Dragon Raja itself equips game children with guns."
+    evidence: "archive-confirmed"
+    date: "2020-08-07"
+    sources:
+      - label: "Main HQ · JAG · Snow message 741476655830401114"
+        href: "/lore/jag"
+    note: "Refers to Dragon Raja game children, not real minors or Platelets; the joke does not establish a formal policy."
   - text: "JAG Charge 1 recasts Malingering as evading responsibility for actions, behaviors, or verbal confrontations. Charge 23, Conduct unbecoming an officer and a gentleman, explicitly covers Officers, Staff, and Interns."
     evidence: "archive-confirmed"
     date: "2020-08-07 – 2020-08-08"
