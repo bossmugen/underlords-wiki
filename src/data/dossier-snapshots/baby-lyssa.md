@@ -89,6 +89,15 @@ The March 13 prehistory stays messier on purpose. Rooks posts an image the archi
 
 That is the recurring character move. Ghoulie does not need formal ownership to make a room feel claimed. She just starts behaving as if the lease is emotionally obvious.
 
+## Episode — The Wall becomes a house, then a love language
+
+| Date | Exchange | What changes |
+| --- | --- | --- |
+| 2021-06-02 | Ghoulie: `this ma house`; Anthos: `yes` | Ghoulie's self-appointed Wall residency gets an unceremonious second-person acknowledgment |
+| 2021-07-18 | Ghoulie: `is this y’all’s way of showing me love???` / `cause if that’s the case i love y’all too` | The recurring Wall joke becomes explicitly affectionate in Ghoulie's own words, without granting blanket consent to future screenshots |
+
+Source: Main HQ miner `site-candidates-2026-08-25-1758.md`, Baby Lyssa Wall residence-to-affection sequence. The statements are participant-authored humor, not a real channel-ownership claim.
+
 ## Episode — The Wall tenancy application nobody approved
 
 On March 24, 2021, Gilli laughed that Ghoulie had been caught in fresh Wall nonsense for `less then an hour`. Eight seconds later Mugen was already demanding a record: **`LMFAO WE SHOULD HAVE A RECORD`**. Ghoulie spent the evening campaigning for a channel rename — **`At this point just name it Ghoulies wall of shame`** — and Sota offered competition: **`if you keep going you can outdo me Ghoulie`**.
