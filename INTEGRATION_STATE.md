@@ -1,3 +1,9 @@
+## 2026-11-10 20:39 PST — Main HQ Ren Wall-latency recovery
+
+- Source directly on `archive-miner/main-hq-hourly`: `archive-intake/main-hq-2022-2026-tail-20260819/checkpoint.md`, `site-candidates-2026-08-25-1645.md`, `receipt-delta-2026-08-25-1645.md`. August Reunion base checkpoint also read directly. May 21 Zhēnxī Lobby→Wall sequence and July 7 Baby Lyssa five-minute exchange synthesized as Ren's timing joke, not an official record or formal role. The pre-welcome image is uninspected and not joined to the Wall tag.
+- MAIN `src/content/people/ren.md` reader commit `71cdfb7f19cd2236d280b102bce19ed5bcc6052c`; WIKI `src/data/dossier-snapshots/ren.md` reader commit `850fce37001209d5daca4fa6afc165185ac3e750`. Both source rereads PASS. MAIN production workflow `42960722925` in progress; WIKI build `42960739870` and preview `42960739490` queued at check. Live verification pending. No consumed SHA advanced; accepted A/B family count remains unverified.
+- Full 137-branch / 30-miner HEAD SHA census matched existing last_seen; MAIN census commit `a6270f23081b548990d9adff10fd9b69ae86836a`. Pending publication families 5; backlog 1; Whiskey pending review; no additional branch delta advanced. Source-only media remains held.
+
 ## 2026-11-10 16:00 PST — Snow bomb-night build verification follow-up
 
 - WIKI reader commit `dc64444c5243d244eb59779eb8113a51eae5cb26` passed exact-head build workflow `42925155185`; its preview workflow `42925155212` was cancelled. Subsequent WIKI head `7a5229ae7590d556e14ffb4e61ff7c773686da5b` passed build `42925175667` and preview `42925175670`. These do not independently certify live production, and no Photo Submissions consumption cursor advances.
