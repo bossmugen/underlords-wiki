@@ -1,3 +1,9 @@
+## 2026-11-10 16:00 PST — Snow bomb-night build verification follow-up
+
+- WIKI reader commit `dc64444c5243d244eb59779eb8113a51eae5cb26` passed exact-head build workflow `42925155185`; its preview workflow `42925155212` was cancelled. Subsequent WIKI head `7a5229ae7590d556e14ffb4e61ff7c773686da5b` passed build `42925175667` and preview `42925175670`. These do not independently certify live production, and no Photo Submissions consumption cursor advances.
+- MAIN recent production workflow `42916597842` passed for reader commit `dbc368ec9eb17f19fc2eb06c0ae779caca281dd5`; exact live fingerprint not separately inspected in this check.
+- Photo Submissions accepted A/B inventory remains uncounted; missing reply parents `835940038549569627` and `872535327926009928`, and uninspected source media remain blocked. No new reader prose was published in this pass.
+
 ## 2026-11-10 15:39 PST — Main HQ bomb-night structured WIKI addition
 
 - MAIN existing reader owner: `src/lib/club-only-overrides.ts` (September 18, 2020 game-night entry); no duplicate MAIN copy this run.
