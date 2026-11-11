@@ -1,3 +1,10 @@
+## 2026-11-11 12:35 PST — Akamin MAIN companion / census
+
+- MAIN reader `src/content/people/akamin.md` created as a person-first counterpart to WIKI's structured Akamin dossier. MAIN commit `a0e7cf128092158773974c84c87d5114e9bf0e7c`; source reread passed. Source: `archive-miner/main-hq-hourly` / `archive-intake/main-hq-2022-2026-tail-20260819/site-candidates-2026-08-25-1145.md`, Lobby messages `696404116922040440`, `696404306706038904`, `696404405947203685`, `696404480228458539`, `696404515447898213`, `696404769152958514`, `696404875570970726`; announcement `784846596705091614`. Akamin ≠ Mere; Snow's bar fictional; stream planned only. No WIKI duplicate copy.
+- WIKI Akamin reader `202c4bf0094d81dde6405fe2d15cfe198585ac34` now verified: Astro run `43089263852` success; Pages preview run `43089263612` success. Separate live production fingerprint not inspected.
+- MAIN Akamin production run `43096966682` queued at inspection; keep pending verification and do not mark fully deployed. Earlier MAIN workflow `43087617687` failed on unrelated head `e0ca2cd`; requires separate diagnosis rather than attributing to Akamin.
+- Full REST census: 137 remote branches / 30 active miner branches / 21 historical missing-remote entries; no HEAD changes. MAIN census commit `1189ea0759fcdf18fc28c5db065b72efab8c1937`. No consumed SHA advanced. Directly read Main HQ, August Reunion, and Club-Only longitudinal checkpoints. Five pending-publication families and one backlog category persist. Main HQ/August accepted A/B remainder remains uncounted; do not declare backlog exhausted.
+
 ## 2026-11-11 08:37 PST — Alkey/Meowk correction verification
 
 - The identity correction in `src/data/dossier-snapshots/alkey.md` remains separated from the canonical Meowk account. WIKI reader commit `d870fb9fc216bd32617305533293e3343613b4e9` passed Astro build run `43050153172`; its superseding integration-state commit `5085917b74a90b6d5d5df83889946f19280d716d` passed Astro build `43050177498` and Pages preview `43050177654`. The first preview was cancelled by supersession, not a source-build failure.
