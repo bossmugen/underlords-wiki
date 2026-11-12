@@ -1,3 +1,9 @@
+## 2026-11-12 02:35 PST — Hishiro Lobby anchor (pending verification)
+
+- MAIN full REST census: 137 remote branches, 30 miner HEADs, zero new/advanced; census persisted MAIN commit `59d8f2ed1a790ccdd83da16fe02b276705df55d1`.
+- Source directly reviewed: `archive-miner/aug-2026-living-ensemble-hourly` / `archive-intake/aug-2026-living-ensemble-reunion-2026-08-19-2303-pdt/hourly-2026-08-27-run25-site-candidates.md`, receipt `719499308424232976` (Hishiro, 2020-06-08 Lobby: ArtUria / Underlords / Member). WIKI `src/data/dossier-snapshots/hishiro.md` commit `32a08bba41127744fe6ef6eaaa3c73ddd85e6621` adds a dated claim and compact person-first entrance without inventing ScarletMoon chronology. MAIN Hishiro already contains 2020 person texture; no mirrored prose.
+- Source reread and file-write passed. GitHub Actions head-SHA query returned zero runs at inspection; **build, preview, live verification PENDING**. Do not advance August Reunion consumed SHA. Exact family candidate remainder still uncounted. Main HQ and Club-Only checkpoints read; source-only media remains held.
+
 ## 2026-11-12 00:00 PST — Ghostt Photo Submissions episode
 
 - Direct Photo miner `archive-miner-photo-submissions-2021` checkpoint and `site-candidate-2026-08-25-1445-ghostt-scary-worryshrug.md` reviewed. NightLife `895202127616569365`, Scary `900159114997530644`: two distinct dated entries; the latter uses two adjacent custom emotes and received seven `wowghost` reactions. No original-image credits or invented emoji origin.
