@@ -1,3 +1,10 @@
+## 2026-11-11 22:30 PST — BACKROOM Panda verification / deduplication
+
+- WIKI `src/data/dossier-snapshots/panda.md` reader commit `5d755913521678cd19719df849dcf25e19da26d8` has successful `wiki-build` and `wiki-preview` combined commit statuses; build run `43162080369`. Independent production fingerprint not checked.
+- Source BACKROOM `archive-miner/backroom-deals-2026-08-24` / `archive-intake/chat-2026-08-24-backroom-batch-miner/site-candidates-pass-27.md`, `receipts-pass-27.md`; Ghoulie/Panda kitchen-banter episode already present. No duplicate reader content.
+- MAIN census commit `c1443b712df0f9122b006ed79fa9b6924c56c898` independently verified all 30 active miner HEADs unchanged; 51 total ledger entries. BACKROOM later Pass 28–55 candidates sampled against both surfaces; Illien, Anthos, Tofu, Panda, Rich, Lilly, Rummy, Shimoko and other inspected people already carry corresponding text-safe material. This is not a complete candidate inventory or proof the family is exhausted.
+- No WIKI reader changes this pass. BACKROOM consumption cursor held; source-blocked media and uncounted accepted A/B remainder remain open. No private officers-only material published.
+
 ## 2026-11-11 21:02 PST — Photo Submissions Acoryuie verification
 
 - Source direct: `archive-miner-photo-submissions-2021` / `archive-intake/photo-submissions-2021-visual-contest-2026-08-19-1845-pdt/site-candidate-2026-08-26-2310-quiet-profile-spines.md`, after checkpoint. Colors `829140715128094720`, Mafia `835675459324870656`, June return `854860607747391548`, later self-ID `937176973833285712`.
