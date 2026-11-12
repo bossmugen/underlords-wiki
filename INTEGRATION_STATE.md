@@ -1,3 +1,10 @@
+## 2026-11-11 21:02 PST — Photo Submissions Acoryuie verification
+
+- Source direct: `archive-miner-photo-submissions-2021` / `archive-intake/photo-submissions-2021-visual-contest-2026-08-19-1845-pdt/site-candidate-2026-08-26-2310-quiet-profile-spines.md`, after checkpoint. Colors `829140715128094720`, Mafia `835675459324870656`, June return `854860607747391548`, later self-ID `937176973833285712`.
+- WIKI `src/data/dossier-snapshots/acoryuie.md` commit `3bea6884f49608b7069333c0af9edf889a738aa2`: exact-head Astro build run `43151564387` SUCCESS and preview `43151564573` SUCCESS. MAIN `src/content/people/acoryuie.md` commit `44c63086e58975576cdf6990b97be9d00c080bcf`: production run `43151559559` SUCCESS including live-commit confirmation step. No new reader prose needed; earlier theme discoverability edits verified. No independent current-production fingerprint inspection.
+- MAIN Photo inventory commit `9882739c635bb211151f98ba42b3335d0036a7a9` marks this named candidate reconciled: 17/28 named files, 11 remaining, plus two cumulative handoffs. Full REST census 137 remote/30 miner HEADs unchanged, MAIN state commit `fe40a3b98a998531b0fd9827cb6f7f85e8acf152`. No consumption SHA advanced; Photo branch still `342ee5df` consumed vs `d45d441f` seen. Missing reply parents, uninspected originals and credits remain blocked. Club-Only recovery and other publication families remain open.
+- No new WIKI reader change this pass: structured dossier already correct. This is a verification/integration-state update only.
+
 ## 2026-11-11 15:37 PST — MAIN Snow bomb-session recovery / branch census
 
 - Full MAIN REST census: 137 remote branches; 30 active miner branches, zero new/advanced tips; 21 historical missing-remote entries retained. MAIN `archive-intake/INTEGRATOR_BRANCH_STATE.json` census commit `b59e8b9912d13f5e1b9b0981455adc9e9c584390`. No consumption cursor advanced.
