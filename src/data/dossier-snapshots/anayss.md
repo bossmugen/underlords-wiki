@@ -80,7 +80,7 @@ claims:
       - label: "🖼️ Louvre recovered export"
         href: "/channels/louvre"
     note: "This is recurring creative-work evidence, not a formal UL artist title. Named intended subjects come from Anayss's own text; do not infer additional identities from pixels."
-  - text: "On May 10, 2022, Anayss greeted returning Zayvior with \`Haiii Zayvior! You made it!!\` and helped route the intake; in March–April 2024 she issued urgent Staff Dragonbreath reminders, while her May 2024 Lobby packet still explained safety rules and the route to Biodata and Whiskey."
+  - text: "On May 10, 2022, Anayss greeted returning Zayvior with `Haiii Zayvior! You made it!!` and helped route the intake; in March–April 2024 she issued urgent Staff Dragonbreath reminders, while her May 2024 Lobby packet still explained safety rules and the route to Biodata and Whiskey."
     evidence: "archive-confirmed"
     date: "2022-05-10 – 2024-05-10"
     sources:
@@ -169,7 +169,7 @@ Anayss can get lost on a game map and still be the person everyone else asks for
 
 ## The door still had a person behind it
 
-When Zayvior came through Lobby in May 2022, Anayss did not lead with a form. She led with **\`Haiii Zayvior! You made it!!\`**, then handled the practical directions. By 2024 she was still explaining the house's safety rules and where newcomers needed to go, while also yelling **\`DB NOW GUYS LETS GO!!!!!!\`** at Staff when Dragonbreath needed attention. The greeting and the all-caps deadline are the same kind of work at different volumes: make sure people know where to be and what to do. Neither message dates her formal appointment.
+When Zayvior came through Lobby in May 2022, Anayss did not lead with a form. She led with **`Haiii Zayvior! You made it!!`**, then handled the practical directions. By 2024 she was still explaining the house's safety rules and where newcomers needed to go, while also yelling **`DB NOW GUYS LETS GO!!!!!!`** at Staff when Dragonbreath needed attention. The greeting and the all-caps deadline are the same kind of work at different volumes: make sure people know where to be and what to do. Neither message dates her formal appointment.
 
 ## Knows the Way, Eventually
 
