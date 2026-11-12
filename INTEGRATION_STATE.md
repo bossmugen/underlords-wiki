@@ -1,3 +1,11 @@
+## 2026-11-12 07:30 PST — BACKROOM Wall context-defense reconciliation
+
+- MAIN REST census independently verified 137 remote branches / 30 active miner HEADs, zero new or advanced; persisted `a6911114941515674414c1d7344039a119fd3632`.
+- BACKROOM direct miner source `archive-miner/backroom-deals-2026-08-24`, `site-candidates-pass-42.md` / `receipts-pass-42.md`, Sota/Tae messages `946594818614788096`, `946595539112321064`, `946595875495489577`, `946595965199065129`, `946596138033774652`, `946596349007257601`.
+- MAIN Wall exhibit `src/lib/wall-archive-exhibits.ts` committed `e28e9b5d2367abfc62a1470955d123b0d3892f3d`, source reread passed; production Actions run `43248837645` in progress at inspection, live unverified. MAIN Tae biography already carries person-level scene; no WIKI duplicate reader passage needed. The Wall exhibit is a channel-history owner, not a new private screenshot description.
+- BACKROOM Passes 42–46 inventory decisions recorded MAIN `archive-intake/BACKROOM_PUBLICATION_INVENTORY.md` `f3b5affe9abd3d270335ab27fe441aa466e1b7ed`. Kiro identity, Mugen origin antecedent, Anjou screenshot contents held; other selected people already covered. Club-Only recovery checkpoint inspected; full BACKROOM A/B remainder still uncounted. BACKROOM consumed SHA remains `68d2fba7` against HEAD `9c143a7c`; no cursor advanced.
+- WIKI reader unchanged this run; build/deployment not triggered by this state-only update. Existing WIKI Panda and DarkAsrai corrections previously passed build/preview checks; independent production fingerprint not established.
+
 ## 2026-11-12 06:35 PST — Main HQ Anayss reader repair
 
 - MAIN full miner census: 137 remote branches, 30 active miner HEAD SHAs, zero new/advanced; persisted MAIN commit `073822509c73f4aabfbed96c88fbda8e13fc6cea`. Five pending-publication families and one backlog category remain; Whiskey remains in review rotation despite matching consumed SHA.
