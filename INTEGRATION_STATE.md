@@ -1,3 +1,8 @@
+## 2026-11-12 09:35 PST — Anayss reader syntax repair verified
+
+- WIKI reader commit `911d73d89966a5a637797a7bd3fc79d83db8f3c9` (`src/data/dossier-snapshots/anayss.md`) passed Astro build [43260590586](https://github.com/bossmugen/underlords-wiki/actions/runs/43260590586). Its own preview run 43260590641 was cancelled, but the descendant state commit `b48d0ab4a16cb50b2653a3c4a1a990166197fc39` passed build [43260633618](https://github.com/bossmugen/underlords-wiki/actions/runs/43260633618) and preview [43260633477](https://github.com/bossmugen/underlords-wiki/actions/runs/43260633477), both SUCCESS. Reader content was preserved; independent live production fingerprint remains unverified.
+- MAIN independent REST branch census: 137 remote branches, 30 miner HEADs, zero new/advanced, persisted `6e63e5e2808a74dc99ebe864bd4bde9f322891fb`. Directly reread August Reunion Run 28, Main HQ Oct 30 candidate and Club-Only recovery checkpoint. Momo prehistory and Yelik front-door candidates are already integrated; no duplicate reader addition. Accepted A/B remainder not certified, media/attribution holds remain. No consumption cursor advanced.
+
 ## 2026-11-12 08:36 PST — Anayss YAML escape repair
 
 - WIKI `src/data/dossier-snapshots/anayss.md` Main HQ claim had six literal `\` + backtick sequences inside double-quoted YAML, which are invalid YAML escapes. Replaced only those with plain backticks in reader commit `911d73d89966a5a637797a7bd3fc79d83db8f3c9`; source reread confirms zero remaining escaped-backtick sequences. No biographical assertions changed. Build/preview/live deployment for this repair not yet verified; do not advance Main HQ consumption SHA.
