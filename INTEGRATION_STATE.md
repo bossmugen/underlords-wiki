@@ -1,3 +1,8 @@
+## 2026-11-12 08:36 PST — Anayss YAML escape repair
+
+- WIKI `src/data/dossier-snapshots/anayss.md` Main HQ claim had six literal `\` + backtick sequences inside double-quoted YAML, which are invalid YAML escapes. Replaced only those with plain backticks in reader commit `911d73d89966a5a637797a7bd3fc79d83db8f3c9`; source reread confirms zero remaining escaped-backtick sequences. No biographical assertions changed. Build/preview/live deployment for this repair not yet verified; do not advance Main HQ consumption SHA.
+- Directly reread Main HQ and August Reunion miner checkpoints; the existing candidate publication inventory remains incomplete. MAIN branch search returned all 30 miner names; current MAIN ledger's 08:30 census records 137 remote branches and 30 HEAD checks. No independent fresh HEAD-SHA certification this pass.
+
 ## 2026-11-12 07:30 PST — BACKROOM Wall context-defense reconciliation
 
 - MAIN REST census independently verified 137 remote branches / 30 active miner HEADs, zero new or advanced; persisted `a6911114941515674414c1d7344039a119fd3632`.
