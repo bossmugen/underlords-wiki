@@ -1,3 +1,10 @@
+## 2026-11-12 00:00 PST — Ghostt Photo Submissions episode
+
+- Direct Photo miner `archive-miner-photo-submissions-2021` checkpoint and `site-candidate-2026-08-25-1445-ghostt-scary-worryshrug.md` reviewed. NightLife `895202127616569365`, Scary `900159114997530644`: two distinct dated entries; the latter uses two adjacent custom emotes and received seven `wowghost` reactions. No original-image credits or invented emoji origin.
+- WIKI `src/data/dossier-snapshots/ghostt.md` reader commits `054de046fb0bdd9b11b7458a2554774bafa9b9ef` and `be0abadd9ed51029cd408c5c7920a9d224f604bc` add structured claim, searchable theme tags and an Episodes paragraph. MAIN `src/content/people/ghostt.md` already contains both appearances; no MAIN reader duplication.
+- Final WIKI build run `43179585065` queued and preview `43179585124` pending at inspection. **Pending verification**, not deployed-certified; do not advance Photo miner consumed SHA. MAIN Miihi `de203ab3` production run `43165314559` SUCCESS; WIKI Miihi `6f11e9d1` build `43165304939` and preview `43165305351` SUCCESS.
+- Full MAIN census: 137 remote branches, 30 miner HEADs, none advanced, persisted `751a29f9`. Photo named candidate inventory now 18/28 disposed after Miihi, 10 awaiting, plus two cumulative handoffs. Club-Only recovery remains open.
+
 ## 2026-11-11 22:30 PST — BACKROOM Panda verification / deduplication
 
 - WIKI `src/data/dossier-snapshots/panda.md` reader commit `5d755913521678cd19719df849dcf25e19da26d8` has successful `wiki-build` and `wiki-preview` combined commit statuses; build run `43162080369`. Independent production fingerprint not checked.
