@@ -80,6 +80,13 @@ claims:
       - label: "🖼️ Louvre recovered export"
         href: "/channels/louvre"
     note: "This is recurring creative-work evidence, not a formal UL artist title. Named intended subjects come from Anayss's own text; do not infer additional identities from pixels."
+  - text: "On May 10, 2022, Anayss greeted returning Zayvior with \`Haiii Zayvior! You made it!!\` and helped route the intake; in March–April 2024 she issued urgent Staff Dragonbreath reminders, while her May 2024 Lobby packet still explained safety rules and the route to Biodata and Whiskey."
+    evidence: "archive-confirmed"
+    date: "2022-05-10 – 2024-05-10"
+    sources:
+      - label: "Main HQ · site-candidates-2026-08-26-2110.md · Lobby 973762584316612678 / 973763035086864384 / 1238458505384427581; Announcements 1214766421045936148 / 1232514423550115891"
+        href: "/channels/lobby"
+    note: "Same stable Anayss account; observed welcoming, safety routing and game reminders, not an appointment timeline or authorship of shared welcome copy."
   - text: "From at least December 2020 through April 2024, Anayss repeatedly welcomed arrivals in Lobby and routed them toward the Discord Tour/server map, Rules, Whiskey Room, Club Only, and Biodata as needed."
     evidence: "archive-confirmed"
     date: "2020-12-10 – 2024-04-02"
@@ -159,6 +166,10 @@ tags:
 # Anayss
 
 Anayss can get lost on a game map and still be the person everyone else asks for directions. She is one of UL's two Underbosses, its Battle Leader, and a Game Officer. The titles fit the woman who remembers returning members, keeps an eye on battle timers, and knows whom to chase when the weekly planner needs fixing. They have never cured her of being a complete menace before coffee.
+
+## The door still had a person behind it
+
+When Zayvior came through Lobby in May 2022, Anayss did not lead with a form. She led with **\`Haiii Zayvior! You made it!!\`**, then handled the practical directions. By 2024 she was still explaining the house's safety rules and where newcomers needed to go, while also yelling **\`DB NOW GUYS LETS GO!!!!!!\`** at Staff when Dragonbreath needed attention. The greeting and the all-caps deadline are the same kind of work at different volumes: make sure people know where to be and what to do. Neither message dates her formal appointment.
 
 ## Knows the Way, Eventually
 
