@@ -44,6 +44,9 @@ tags:
   - "photoshoot"
   - "return"
   - "lobby"
+  - "photo-submissions"
+  - "colors-theme"
+  - "mafia-theme"
 ---
 
 # Acoryuie
