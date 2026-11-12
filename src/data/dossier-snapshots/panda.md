@@ -89,6 +89,12 @@ claims:
     sources:
       - label: "☕ QOTD · 1196862272459505767"
         href: "/channels/question-of-the-day"
+  - text: "Ghoulie welcomed Panda home on June 4, 2021; on July 7 they traded a mock kitchen argument over unwashed dishes and whose food was left on them. This is familiar domestic banter, not proof of cohabitation."
+    evidence: "archive-confirmed"
+    date: "2021-06-04 – 2021-07-07"
+    sources:
+      - label: "Wall · 850529949764419614, 850530007591026738, 862431231978766367, 862431406012629042, 862431450477494282, 862431535348449300, 862431599744385064"
+        href: "/channels/wall"
 antiFanon:
   - "Panda is not listed in the current locked living roster in `roster.ts`. Historical Staff canon does not silently restore current Staff status."
   - "The archive contains unrelated panda imagery and panda jokes. Do not resolve every occurrence of the word `panda` to this person; use the stable Marian Kage account or directed mention context."
@@ -154,3 +160,9 @@ That is the kind of person-page receipt UL needs more of. Not `Panda is confiden
 ## THE SHAME LEAGUE NEEDS A DENOMINATOR
 
 Rummy proposed a Shame Ranking Award in May 2022 and promptly put Panda or Tae in contention. Ren wanted Ansun credited for historical precedence. Panda's objection wasn't that his name belonged nowhere near the top. It was that the scoring was garbage: **`you gotta do it by most or how quickly relative to joining`**. Raw shame totals versus shame per unit of tenure. Rich declared **`The shame war has begun🤣`** before anybody had settled the math. No official leaderboard survives, but Panda had already found the flaw in its methodology.
+
+## WELCOME HOME, NOW WASH THE DISHES
+
+Ghoulie greeted Panda's return with **“Welcome home, panda”** on June 4, 2021. Panda answered with a crying-panda emote and a complaint about being away so long. By July 7 the welcome had deteriorated into a fake kitchen dispute: Ghoulie accused Panda of not cleaning; Panda said the dishes were hers; Ghoulie pointed out his food was on them; Panda countered that she cooked it. Nobody volunteered to do the dishes. The whole argument happened on the Wall, where both already knew how to make themselves everybody else's problem.
+
+The language is household comedy, not a shared-address record. It does show the ease with which these two could pick up a familiar argument and keep it going without explaining the bit to the room.
