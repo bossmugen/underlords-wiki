@@ -114,6 +114,8 @@ The cleaner progression is social. Ghostt enters the Lobby in December 2020. Thr
 
 **The Club Label Falls Out of RAM.** December 23: **`I haven’t been on in so long I forget which club I’m in lol`**. Marian later says the name says Forsaken; hours later Ghostt says she left `it` and uninstalled. Those later lines are chronological, not a reply chain, so the pronoun stays unresolved. The first line already does enough: Raja's filing system has become fuzzy while Ghostt is still standing in UL's social room.
 
+**NightLife to Scary, with a shrug.** October 5 brings an image-only NightLife Magazine entry. October 19 brings a Scary entry with `:worryShrug1::worryShrug2:` as the entire caption, two adjacent custom emotes rather than a sentence. The room supplies seven `wowghost` reactions. The name is almost offensively convenient, but it does not mean the emoji was made for Ghostt. Neither photograph has been visually inspected, so the dossier credits the posting and the caption, not the photographer or anyone pictured.
+
 ## Running Gags / habits
 
 **Low-ceremony reaction style.** `It’s a conspiracy` followed by a sip; a table flip after Gilli's `everyday` accusation; `She set me up for it 😂` after screenshot context that remains visually unresolved. Ghostt is often willing to let one line or an emote do the whole job.
