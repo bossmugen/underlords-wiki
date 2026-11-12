@@ -37,6 +37,10 @@ relatedPeople:
   - "babylyssa"
 tags:
   - "photoshoot"
+  - "photo-submissions"
+  - "love-theme"
+  - "lonely-theme"
+  - "flowers-theme"
   - "lobby"
   - "wall"
   - "evidence"
