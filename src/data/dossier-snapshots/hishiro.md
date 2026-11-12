@@ -12,6 +12,13 @@ claims:
     evidence: "user-confirmed"
     sources:
       - label: "Mugs-confirmed background canon"
+  - text: "On June 8, 2020, Hishiro supplied ArtUria as her in-game name, Underlords as her club, and Member as her role in the Lobby."
+    evidence: "archive-confirmed"
+    date: "2020-06-08"
+    sources:
+      - label: "Lobby · 2020-06-08 · 719499308424232976"
+        href: "/archive/lobby"
+    note: "A surviving Discord self-identification, not a proven first club admission or an appointment date; the later ScarletMoon ordering remains unresolved."
   - text: "On August 19, 2020, Hishiro answered Gilli after being called and later said to summon her again if her services were needed."
     evidence: "archive-confirmed"
     date: "2020-08-19"
@@ -101,7 +108,7 @@ tags:
 
 ## THE NEWSROOM DID NOT GET AN APPOINTMENT. THE VOCABULARY CAME ANYWAY.
 
-Hishiro's public file starts with the boring part because the boring part matters: she is Japanese, lived in the Philippines, works in television news journalism, and UL files her under Staff. None of those facts appoints her **UL News Department**, because no such promotion is hiding in a Discord export waiting to be hallucinated.
+Hishiro's June 2020 Lobby introduction names **ArtUria**, **Underlords**, and **Member**. It is a glimpse of her speaking for herself before the later Club-Only exchanges, not a timestamp for every move she made between clubs. The ScarletMoon chronology still has holes.\n\nHer public file starts with the boring part because the boring part matters: she is Japanese, lived in the Philippines, works in television news journalism, and UL files her under Staff. None of those facts appoints her **UL News Department**, because no such promotion is hiding in a Discord export waiting to be hallucinated.
 
 What the archive does give us is smaller and better. Across a few 2020 scenes, Hishiro keeps reaching for information words even when the subject is not remotely professional.
 
