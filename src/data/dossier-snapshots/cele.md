@@ -77,6 +77,9 @@ tags:
   - "woosung-cousin"
   - "wall-defendant"
   - "keyboard-collapse"
+  - "qotd"
+  - "woosung-bullying-with-love"
+  - "anthos-milk-run"
 ---
 
 Cele can turn being caught on the Wall into a second, louder incident. First comes the prosecution — `GOODBYE`, `UR DONE` — then the spelling starts falling down the stairs, and finally a screaming cat takes over. The remarkable part is how quickly she can get back to laughing with everybody. Her outrage is theatrical, but her participation is real. The joke doesn't happen *to* her for very long before she's helping make it worse.
