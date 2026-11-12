@@ -1,3 +1,9 @@
+## 2026-11-12 06:00 PST — Syv superseding preview verified
+
+- Photo Submissions miner source `site-candidate-2026-08-25-1345-syv-scary-darkness.md`, receipts `850889189578768415` / `900109479109095494`. Current `src/data/dossier-snapshots/syv.md` retains both episodes and all four discoverability tags. MAIN already carries the lived scene; no duplicate public text.
+- Exact WIKI reader `e167437a` build `43213660840` SUCCESS but preview `43213660762` CANCELLED. Superseding `13ee23aa` build `43213717910` and preview `43213718088` both SUCCESS; latest `948fa8bc` build `43227871107` and preview `43227871555` both SUCCESS. WIKI retained content verified by later workflows, independent production fingerprint not inspected.
+- MAIN photo inventory `22/28` named candidate files reconciled, six pending plus two cumulative handoffs. MAIN full branch census 137/30 unchanged persisted `383a8544`. Photo consumed cursor remains `342ee5df` vs `d45d441f`; Club-Only recovery still open. No new WIKI reader edit this pass.
+
 ## 2026-11-12 03:57 PST — Syv Beach/Scary discoverability (pending verification)
 
 - Photo miner `archive-miner-photo-submissions-2021` checkpoint and `site-candidate-2026-08-25-1345-syv-scary-darkness.md` read directly. Beach `850889189578768415`; Scary `900109479109095494` with `-Sometimes the darkness takes over-` and 11 cuteknife reactions. MAIN already has person-first scene and WIKI already has structured episode; WIKI theme search tags were missing.
