@@ -155,6 +155,9 @@ That is the kind of person-page receipt UL needs more of. Not `Panda is confiden
 
 ## Petty Crimes
 
+**The Lychee Defense.** In June 2023, Panda's screenshot turned into a full produce-identification trial. Daya said shrimp; Snow preferred scallop to fishball; Ren saw a wet paper ball; Rummy suggested marshmallow. Panda finally protested **`i promise y'all, it was a lychee`**. Ren's verdict combined every competing theory into the **`shrimp, dough, fishball, scallops, wet paper ball, marshmallow lychee`**. The screenshot itself has not been visually verified, so the joke here is what everybody *said* they saw, not a definitive description of the picture. Wall messages `1123726715504562267`, `1123741098473422919`, `1123807050275766344`, `1123810439470534737`, `1123871046215405649`, `1124058634750541875`, `1124061574739538091`.
+
+
 **The Desk Exception.** Panda calls himself very organized, then immediately exempts his desk: **“that is a hot mess.”** The dragon collection gets names, meanings, and concepts; the desk gets diplomatic immunity. QOTD `1196862272459505767`.
 
 ## THE SHAME LEAGUE NEEDS A DENOMINATOR
