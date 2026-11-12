@@ -32,8 +32,8 @@ claims:
     evidence: "archive-confirmed"
     date: "2023-01-01"
     sources:
-      - label: "Backroom Pass 39 · Club Only 1059054774500212746 / 1059054880221827112 / 1059055212129689640"
-        href: "/channels/club-only"
+      - label: "Backroom Pass 39 · Wall of Shame/Fame 1059054774500212746 / 1059054880221827112 / 1059055212129689640"
+        href: "/channels/wall"
     note: "Informal sparring invitation, not evidence of formal training or a hiatus."
   - text: "DarkAsrai posted a POPSTAR Photoshoot entry on 2021-08-17 naming Aizzy as the person posing with them on the ferris wheel."
     evidence: "archive-confirmed"
