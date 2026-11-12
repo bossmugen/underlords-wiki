@@ -1,3 +1,10 @@
+## 2026-11-12 06:35 PST — Main HQ Anayss reader repair
+
+- MAIN full miner census: 137 remote branches, 30 active miner HEAD SHAs, zero new/advanced; persisted MAIN commit `073822509c73f4aabfbed96c88fbda8e13fc6cea`. Five pending-publication families and one backlog category remain; Whiskey remains in review rotation despite matching consumed SHA.
+- Direct Main HQ source: `archive-miner/main-hq-hourly/archive-intake/main-hq-2022-2026-tail-20260819/site-candidates-2026-08-26-2110.md`. Anayss / Zayvior Lobby receipts `973762584316612678`, `973763035086864384`; 2024 newcomer safety `1238458505384427581`; Dragonbreath reminders `1214766421045936148`, `1232514423550115891`.
+- WIKI reader `src/data/dossier-snapshots/anayss.md` commit `ff0da182ec5ed16e655080e8b913dfcb93702bc2`: specific returnee recognition, operational urgency, and safety routing folded into existing dossier. MAIN Anayss already contains broad lived front-door and game-command behavior; no duplicate MAIN prose.
+- WIKI source reread PASS; build `43238614971` and preview `43238614796` IN PROGRESS at inspection. Not yet build/deploy verified, not independently live checked. No consumed SHA advanced; exact August Reunion/Main HQ A/B remainder still uncounted. Media/attribution blocks unchanged. Club-Only recovery remains open.
+
 ## 2026-11-12 06:00 PST — Syv superseding preview verified
 
 - Photo Submissions miner source `site-candidate-2026-08-25-1345-syv-scary-darkness.md`, receipts `850889189578768415` / `900109479109095494`. Current `src/data/dossier-snapshots/syv.md` retains both episodes and all four discoverability tags. MAIN already carries the lived scene; no duplicate public text.
