@@ -73,6 +73,10 @@ tags:
   - "practical-register"
   - "rich"
   - "ricochet"
+  - "photo-submissions"
+  - "photoshoot"
+  - "beach-theme"
+  - "scary-theme"
 ---
 
 ## The photo, then the caption
