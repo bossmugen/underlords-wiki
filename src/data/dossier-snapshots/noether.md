@@ -92,6 +92,8 @@ tags:
   - "anayss"
   - "hamittey"
   - "offline-meetup"
+  - "qotd"
+  - "food-and-affection"
 ---
 
 # Noether
