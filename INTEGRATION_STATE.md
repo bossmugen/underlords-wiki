@@ -1,3 +1,9 @@
+## 2026-11-12 03:57 PST — Syv Beach/Scary discoverability (pending verification)
+
+- Photo miner `archive-miner-photo-submissions-2021` checkpoint and `site-candidate-2026-08-25-1345-syv-scary-darkness.md` read directly. Beach `850889189578768415`; Scary `900109479109095494` with `-Sometimes the darkness takes over-` and 11 cuteknife reactions. MAIN already has person-first scene and WIKI already has structured episode; WIKI theme search tags were missing.
+- WIKI `src/data/dossier-snapshots/syv.md` reader commit `e167437a43aea9ed3166ab5d82d52bd6c3018fb1` adds only discovery tags; no duplicated narrative or image attribution. Build run [43213660840](https://github.com/bossmugen/underlords-wiki/actions/runs/43213660840) and preview [43213660762](https://github.com/bossmugen/underlords-wiki/actions/runs/43213660762) were IN PROGRESS at inspection. **Pending verification, not deployed/consumed.**
+- MAIN full REST census 137 branches / 30 active miner HEADs / zero changed persisted at `6b7221ba468b060a143d20fe645d516b757623d2`. HamitteY source candidate already represented on both surfaces, no mirrored reader edit. MAIN inventory now 21/28 named candidates reconciled, seven pending including Syv until verified, plus two cumulative handoffs. Club-Only recovery and source-blocked media/parents remain open.
+
 ## 2026-11-12 02:35 PST — Hishiro Lobby anchor (pending verification)
 
 - MAIN full REST census: 137 remote branches, 30 miner HEADs, zero new/advanced; census persisted MAIN commit `59d8f2ed1a790ccdd83da16fe02b276705df55d1`.
