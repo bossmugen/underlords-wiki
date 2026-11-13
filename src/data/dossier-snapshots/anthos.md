@@ -10,6 +10,13 @@ summary: "Anthos enters the surviving archive as an almost-daily 2020 presence, 
 summaryEvidence: "archive-confirmed"
 publication: "public"
 claims:
+  - text: "Anthos sold the first formal Photoshoot Contest as a shot at becoming the face of Underlords' next poster on January 4, 2021, pointed participants to the rules and prizes on January 6, and called it the very first Photoshoot Contest on January 9. The August 2020 Ehime Beach sendoff photoshoot was an earlier social event, not a prior contest season."
+    evidence: "archive-confirmed"
+    date: "2020-08-23 – 2021-01-09"
+    sources:
+      - label: "Announcements · Photoshoot contest launch genealogy"
+        href: "/events/photo-submissions"
+    note: "Photo miner site-candidate-2026-08-26-2010-photoshoot-launch-genealogy.md; Anthos receipts 795646309440815114, 796494831949185034, 797596292485742612; sendoff 747261485528383638. Poster language was promotional, not proof of a resulting poster artifact. Jan 31 '2nd annual' wording does not establish a prior annual contest."
   - text: "Ren and Anthos repeatedly staged the Photo Submissions opening together: Ren posted Example Photos and Anthos followed with the official submissions divider on January 6 and February 15, 2021. The handoff was shared work, not a named office."
     evidence: "archive-confirmed"
     date: "2021-01-06 – 2021-02-15"
