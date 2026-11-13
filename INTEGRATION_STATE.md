@@ -1,3 +1,9 @@
+## 2026-11-12 17:00 PST — Photo Submissions launch genealogy WIKI reader
+
+- Direct Photo miner `archive-miner-photo-submissions-2021` checkpoint and `site-candidate-2026-08-26-2010-photoshoot-launch-genealogy.md` read. Anthos announcement receipts `795646309440815114`, `796494831949185034`, `797596292485742612`; August sendoff `747261485528383638`. MAIN `src/lib/photo-submissions-overrides.ts` already narrates the full launch genealogy; no MAIN reader duplication.
+- WIKI `src/data/dossier-snapshots/anthos.md` now has a dated structured launch claim, reader commit `1480142a64d332ac4260b30efbb8c4f26f6c9cbb`. Postcommit source reread PASS. Exact GitHub Actions commit-run lookup returned no runs; build/preview/live **PENDING VERIFICATION**. Poster artifact and image credits unresolved; 2020 sendoff not a contest.
+- Branch-name discovery: 30 active miner names (4 hyphen, 26 slash). No complete independent HEAD-SHA census or MAIN census-state update this pass; do not certify unchanged HEADs. Photo consumed SHA held `342ee5df` against recorded `d45d441f`; named inventory last certified 25/28, three remaining plus two cumulative handoffs. Club-Only recovery not consumed.
+
 ## 2026-11-12 16:32 PST — BACKROOM Pass 38 AkaneAwake DeathBloom chronology
 
 - Direct BACKROOM miner `archive-miner/backroom-deals-2026-08-24` `site-candidates-pass-38.md`; Lobby messages `863842473151037470`, `863839283135250462`; WALTZ `867268997471666236`.
