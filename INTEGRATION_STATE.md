@@ -1,3 +1,9 @@
+## 2026-11-13 09:33 PST — BACKROOM Anayss Kahoot cross-reference
+
+- WIKI reader `src/data/dossier-snapshots/anayss.md` commit `cd9e2a03fee65d1493ef224d46bfd6ef79ce2034`: added structured July 28, 2021 public Wall Snow–Mugen–Anayss fake staff-exam / Kahoot idea, BACKROOM `site-candidates-pass-40.md` and `receipts-pass-40.md`, messages `869942657189814292`, `869944680626925639`, `869945430484607056`. MAIN `src/lib/wall-archive-exhibits.ts` already carries the scene, production-verified at workflow `43425219280`; WIKI adds a distinct Anayss running-gag cross-reference, not mirrored narrative. No actual entrance exam or completed Kahoot claimed.
+- Postcommit WIKI source reread PASS. Commit-specific Actions query returned no runs yet; Astro build, preview, and live production **PENDING**. Do not mark fully published or advance BACKROOM consumed SHA. Full accepted A/B remainder uncounted.
+- Branch-name discovery confirmed 30 active miner names, but GitHub connector did not expose HEAD SHAs through the branch-search endpoint. Fresh complete HEAD-SHA census and MAIN ledger persistence **not certified** in this pass. Current MAIN ledger last certified 08:39 PST, 51 tracked, five pending-publication families, one backlog family. Club-Only recovery not consumed. Rich/Ricochet identity is explicitly unresolved in WIKI antiFanon; do not duplicate BACKROOM Pass 40 Rich cross-club scene into WIKI as an identity bridge without reconciliation.
+
 ## 2026-11-13 02:30 PST — BACKROOM Gabu corpse.Inc verification
 
 - WIKI reader commit `4f64203f5fbdb04498fbbcf757eafba566897584` (`src/data/dossier-snapshots/gabu.md`) passed [Astro build 43402312501](https://github.com/bossmugen/underlords-wiki/actions/runs/43402312501) and [preview deployment 43402312555](https://github.com/bossmugen/underlords-wiki/actions/runs/43402312555), both completed success. This verifies build and preview, **not** an independent live-production fingerprint.
