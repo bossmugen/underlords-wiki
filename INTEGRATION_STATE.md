@@ -1,3 +1,7 @@
+## 2026-11-12 17:30 PST — BACKROOM AkaneAwake workflow verification
+
+- WIKI reader `9874aac022f23941903e1c3c72bed152d0c7f1c8`, `src/data/dossier-snapshots/akaneawake.md`: Astro build workflow [43337905568](https://github.com/bossmugen/underlords-wiki/actions/runs/43337905568), job `131598670909`, completed **success** (including Build Astro wiki). Preview workflow [43337905690](https://github.com/bossmugen/underlords-wiki/actions/runs/43337905690), build job `131598672210` and deploy job `131598822626`, completed **cancelled**; the preview report job succeeded but does not verify a deployed preview. Keep live production and independent page verification pending; do not claim this candidate fully published from build alone. Direct BACKROOM Pass 38 and current reader reread confirm the July 11 DeathBloom Lobby context is present. No new reader content or consumption cursor change this pass.
+
 ## 2026-11-12 17:00 PST — Photo Submissions launch genealogy WIKI reader
 
 - Direct Photo miner `archive-miner-photo-submissions-2021` checkpoint and `site-candidate-2026-08-26-2010-photoshoot-launch-genealogy.md` read. Anthos announcement receipts `795646309440815114`, `796494831949185034`, `797596292485742612`; August sendoff `747261485528383638`. MAIN `src/lib/photo-submissions-overrides.ts` already narrates the full launch genealogy; no MAIN reader duplication.
