@@ -1,3 +1,9 @@
+## 2026-11-13 02:30 PST — BACKROOM Gabu corpse.Inc verification
+
+- WIKI reader commit `4f64203f5fbdb04498fbbcf757eafba566897584` (`src/data/dossier-snapshots/gabu.md`) passed [Astro build 43402312501](https://github.com/bossmugen/underlords-wiki/actions/runs/43402312501) and [preview deployment 43402312555](https://github.com/bossmugen/underlords-wiki/actions/runs/43402312555), both completed success. This verifies build and preview, **not** an independent live-production fingerprint.
+- BACKROOM `site-candidates-pass-49.md`, receipts `858064680127037481`, `858064810973724702`, `858064887895687178`. Mugen corpse recollection remains distinct from Pride's loss; incident origin/mechanics unresolved. MAIN Ren biography already carries complementary story, so no duplicate reader edit.
+- Full 30-active-miner HEAD census, zero advanced, persisted on MAIN `master` at `0bdd6691211d115783f62e4fba08d3197494deae`. BACKROOM last consumed remains `68d2fba7`, HEAD `9c143a7c`; full A/B remainder uncounted. No consumed SHA advanced. Club-Only recovery remains open.
+
 ## 2026-11-12 20:30 PST — superseding preview verified
 
 - Current WIKI main `01858b4278ae39317fbceff789500f06e5f1c52c` passed Astro build [43345431244](https://github.com/bossmugen/underlords-wiki/actions/runs/43345431244) and preview deployment [43345431124](https://github.com/bossmugen/underlords-wiki/actions/runs/43345431124), both completed success. This supersedes the earlier cancelled AkaneAwake preview while preserving her reader content. Independent live production fingerprint remains unverified. No reader edit or consumption change this pass.
