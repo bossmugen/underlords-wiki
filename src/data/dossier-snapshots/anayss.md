@@ -10,6 +10,13 @@ summary: "Anayss gets lost on the game map, gives everyone else directions, coor
 summaryEvidence: "archive-confirmed"
 publication: "public"
 claims:
+  - text: "On July 28, 2021, Snow joked about staff expertise in pasties, Mugen escalated to a fictional staff entrance exam, and Anayss immediately told Gilli the exchange was giving them Kahoot ideas."
+    evidence: "archive-confirmed"
+    date: "2021-07-28"
+    sources:
+      - label: "Public Wall · Snow/Mugen/Anayss · 869942657189814292 / 869944680626925639 / 869945430484607056"
+        href: "/channels/wall"
+    note: "BACKROOM site-candidates-pass-40.md / receipts-pass-40.md. Joking staff standards and a proposed Kahoot idea, not a real entrance exam, qualification requirement, or proof the quiz was held. MAIN owns the fuller Wall exhibit; WIKI records the running-gag cross-reference."
   - text: "Anayss posted Beach's Example Photos divider and attachment on June 1, 2021 (849378136923832320), Gilli opened the round forty-eight seconds later (849378339021520957), and Anayss submitted her own Beach attachment on June 5 (850859310183088128)."
     evidence: "archive-confirmed"
     date: "2021-06-01 – 2021-06-05"
