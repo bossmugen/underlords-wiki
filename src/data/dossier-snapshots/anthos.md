@@ -10,6 +10,13 @@ summary: "Anthos enters the surviving archive as an almost-daily 2020 presence, 
 summaryEvidence: "archive-confirmed"
 publication: "public"
 claims:
+  - text: "During the August 14, 2026 reunion, Mugen directly invited Anthos back with `The clowns are calling for you` and `Will you heed their call`, distinct from Ren retrieving Nobu and Xephy contacting Mugen spontaneously."
+    evidence: "archive-confirmed"
+    date: "2026-08-14"
+    sources:
+      - label: "August 2026 reunion · direct Anthos summons"
+        href: "/history/2026"
+    note: "August Reunion miner checkpoint.md, Run 13 reunion retrieval/naming. Mugen-to-Anthos DM; preserve direction of contact. Do not collapse independent return mechanisms or imply a formal summons."
   - text: "Anthos sold the first formal Photoshoot Contest as a shot at becoming the face of Underlords' next poster on January 4, 2021, pointed participants to the rules and prizes on January 6, and called it the very first Photoshoot Contest on January 9. The August 2020 Ehime Beach sendoff photoshoot was an earlier social event, not a prior contest season."
     evidence: "archive-confirmed"
     date: "2020-08-23 – 2021-01-09"
@@ -230,3 +237,11 @@ Years later, Anthos turns up in Slice with two rescued kittens, Tai and Emi. The
 Nobody needs the original 2020 thread explained first. The callback survives because the social file survived. Anthos' late-era presence does not require a dramatic comeback; she can post kittens and the room still knows which ancient nonsense to retrieve.
 
 Her current Pit Boss status is confirmed separately and should not be reverse-engineered from old role arrays. The biography underneath it is more continuous than the appointment record: Anthos starts as a near-daily early-UL presence, becomes one of the people maintaining the house's routines and relationship map, gets absorbed into the group's mythology, and is still recognizable enough years later for the same mythology to fire on contact.
+
+## 2026 reunion — the direct invitation
+
+- **Contact:** Mugen → Anthos, by DM, with `The clowns are calling for you` and `Will you heed their call`, followed by an invite
+- **Context:** August 14 reunion; Nobu asks `Family reunion?` and Mugen confirms the name
+- **Distinct return routes:** Xephy contacted Mugen independently; Ren retrieved Nobu; Mugen personally called Anthos back
+
+Anthos did not need an invented grand entrance. Mugs knew exactly which old clown would understand the invitation, and chose to ask her directly.
