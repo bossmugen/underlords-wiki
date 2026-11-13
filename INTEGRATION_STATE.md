@@ -1,3 +1,10 @@
+## 2026-11-12 16:32 PST — BACKROOM Pass 38 AkaneAwake DeathBloom chronology
+
+- Direct BACKROOM miner `archive-miner/backroom-deals-2026-08-24` `site-candidates-pass-38.md`; Lobby messages `863842473151037470`, `863839283135250462`; WALTZ `867268997471666236`.
+- WIKI reader `src/data/dossier-snapshots/akaneawake.md` commit `9874aac022f23941903e1c3c72bed152d0c7f1c8` connects her July 11 DeathBloom self-identification and Photoshoot directions to the already documented July 20 moonlit WALTZ with Dreamless. Dreamless dossier already had the structured chronology; no duplicate. No UL membership, romance, first meeting or image authorship inferred.
+- MAIN visitor/Photoshoot history not changed; this is WIKI dossier chronology. Build/preview/live verification PENDING (no exact-commit run at first query). BACKROOM consumption cursor unchanged pending complete candidate inventory.
+- MAIN census 30 active miner HEADs, no new or advanced, persisted `9fec6268bb19ec01b8c03697a06b1fcc63386588`.
+
 ## 2026-11-12 09:35 PST — Anayss reader syntax repair verified
 
 - WIKI reader commit `911d73d89966a5a637797a7bd3fc79d83db8f3c9` (`src/data/dossier-snapshots/anayss.md`) passed Astro build [43260590586](https://github.com/bossmugen/underlords-wiki/actions/runs/43260590586). Its own preview run 43260590641 was cancelled, but the descendant state commit `b48d0ab4a16cb50b2653a3c4a1a990166197fc39` passed build [43260633618](https://github.com/bossmugen/underlords-wiki/actions/runs/43260633618) and preview [43260633477](https://github.com/bossmugen/underlords-wiki/actions/runs/43260633477), both SUCCESS. Reader content was preserved; independent live production fingerprint remains unverified.
