@@ -13,6 +13,13 @@ summary: "Ansun's archive moves from a May 2020 Discord check-in into voice-twin
 summaryEvidence: "inferred"
 publication: "public"
 claims:
+  - text: "On May 10, 2022, Ren nominated Ansun for the imaginary first-shame award while Rummy proposed a shame ranking, Panda disputed how to measure it, and Rich later declared a shame war."
+    evidence: "archive-confirmed"
+    date: "2022-05-10"
+    sources:
+      - label: "Wall of Shame/Fame · Ren's first-shame nomination · 973670119530188800"
+        href: "/channels/wall"
+    note: "BACKROOM site-candidates-pass-36.md / receipts-pass-36.md. Historical-priority joke, not a formal award, proven first exhibit, or official scoring system. MAIN owns the full Wall scene and Ansun's person-first double-duty portrayal."
   - text: "During the September 29, 2020 Tumbleweed family-map edits, Ansun called Rooks \`my heir amd grandchild\`, making Rooks both descendant and successor inside the fake-family joke."
     evidence: "archive-confirmed"
     date: "2020-09-29"
