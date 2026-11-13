@@ -97,6 +97,12 @@ claims:
       - label: "UL Native Motif Registry"
         href: "/lore"
     note: "Rendered nickname snapshots do not date the moment the nickname was assigned."
+  - text: "On June 25, 2021, Gabu remembered Ansun and RV losing Mugs's in-game corpse; Ren answered with the `corpse.Inc` and `Amber alert LOSE CORPSE` callbacks. Gabu supplied the remembered incident while Ren supplied the mock-company name and alarm."
+    evidence: "archive-confirmed"
+    date: "2021-06-25"
+    sources:
+      - label: "BACKROOM Pass 49 · Club Only · 858064680127037481, 858064810973724702, 858064887895687178"
+    note: "Retrospective exchange, not a dated original event. Distinct from the Pride lost-body callback; do not infer the game mechanic, incident setting, or image contents."
   - text: "On September 9, 2021, Gabu personally handled Cen's Discord front-door intake: asked for IGN/club/age with `plsss tks!`, then confirmed `Role assigned` and directed Cen to the server map after Cen replied. This is a documented onboarding handoff, not a dated appointment or proof of in-game UL admission."
     evidence: "archive-confirmed"
     date: "2021-09-09"
