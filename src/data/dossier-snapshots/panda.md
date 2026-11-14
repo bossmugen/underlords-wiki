@@ -47,6 +47,13 @@ claims:
       - label: "👅 Wall · 2021-10-05"
         href: "/archive/wall"
     note: "`panda caretaker` is peer joke language, not a formal role, guardianship claim, or evidence that Eos controls Panda."
+  - text: "On July 13, 2021, Panda posted a WALTZ Photoshoot submission captioned `with my only @Eos`, naming Eos as a chosen public counterpart; Eos had submitted MAFIA independently that April."
+    evidence: "archive-confirmed"
+    date: "2021-07-13"
+    sources:
+      - label: "Photo Submissions · 864701966230880266"
+        href: "/events/photo-submissions"
+    note: "Panda posted the WALTZ caption; Eos posted the separate MAFIA entry. Image uninspected. No image authorship or literal romance inferred."
   - text: "Daycare preserves a longer Panda↔Eos relationship rail from October 2021 through March 2022: Panda says how much he loves Eos, does not want to continue a shared game without Eos, uses UL marriage language, and later dedicates a song; Eos answers the March flirt with `you stole my heart a long time ago` and blush/hug reactions."
     evidence: "archive-confirmed"
     date: "2021-10-31 – 2022-03-15"
@@ -126,6 +133,8 @@ tags:
 ## YOU STOLE MY HEART. APPARENTLY THIS IS A DAYCARE RECEIPT.
 
 Daycare catches the Panda–Eos situation doing something the older Wall snippets could only hint at: it keeps moving.
+
+Before Daycare ever got the full declarations, Panda had already put Eos on the dance card. His July 13 WALTZ submission came captioned **`with my only @Eos`**. Eos had entered MAFIA independently that spring, so this was Panda choosing a counterpart in public, not somebody being assigned to stand beside him. The picture is still uninspected; the choice of words is plenty.
 
 On October 31, 2021 Panda says the quiet part at full volume: **`like how much i love eos`**.
 
