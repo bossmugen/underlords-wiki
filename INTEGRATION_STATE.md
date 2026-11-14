@@ -1,3 +1,10 @@
+## 2026-11-14 03:17 PST — QOTD Teri card-author contribution on MAIN
+
+- QOTD miner `archive-miner-qotd-officers-20260824` at `c51cd1914f65cb8ae65b850b1d0da85ffccb94ed`, source `archive-intake/qotd-complete-2020-2026/site-candidates-2026-09-06-0810.md`, receipts `1339238853969707019`, `1339440625522708490`, `1371114521736773766`, `1374375587422015529`, `1375825216521109536`, `1379087247361441792`.
+- MAIN `src/lib/qotd-overrides.ts` reader commit `85d2026c5cbc9694549a0efacba0d67baca0c587`: new channel-level human-question-author scene about Teri/kinzokumissu and eight stored Barista cards. MAIN Teri bio and WIKI Teri dossier already contain person-level authorship; WIKI intentionally not duplicated.
+- MAIN source reread PASS; workflow `43589321517` queued at check. Astro build, Cloudflare deploy and live verification PENDING. Do not mark candidate published/consumed until verified. Full QOTD A/B remainder remains uncounted. Ren original image and 2023 aggregate-count conflict remain held.
+- Fresh full GitHub REST census: 137 branches, 30 active miner branches, all HEAD SHAs unchanged. MAIN census state commit `af8b95347dd1fc825be9bd264bfa63ea4f5842d9`. Club-Only checkpoint read; later-year source access still impaired. No consumed SHA advanced.
+
 ## 2026-11-14 00:35 PST — August Reunion Cele beach-heels reader repair
 
 - Source: `archive-miner/aug-2026-living-ensemble-hourly`, `archive-intake/aug-2026-living-ensemble-reunion-2026-08-19-2303-pdt/hourly-2026-08-26-run17-site-candidates.md`, Whiskey receipts `1537916735401889843`, `1537917175686234162`, `1537917593539706981`, `1537917629925302423`, `1537917720719527996`.
