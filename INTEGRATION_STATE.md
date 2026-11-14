@@ -1876,3 +1876,11 @@ Photo miner `archive-miner-photo-submissions-2021`, last-known HEAD `d45d441feca
 - Full MAIN miner census: 137 remote branches, 30 active miners, no new/advanced HEAD; QOTD miner `archive-miner-qotd-officers-20260824` at `c51cd1914f65cb8ae65b850b1d0da85ffccb94ed`.
 - Direct QOTD miner handoff `archive-intake/qotd-complete-2020-2026/site-candidates-2026-08-25-0547.md` establishes December 2021 manual Announcements questions (Gilli's `Remember to smile and eat` plus tangled-hair/wet-underarms prompt). MAIN `src/lib/qotd-overrides.ts` archive page previously said empty dedicated-channel exports without distinguishing the manual practice. MAIN reader correction `0dcae8be1fa0f5d854fdbd39f064f72578fc73ce` restores this distinction; source reread PASS; workflow `43579499728` was in progress when checked; production/live PENDING.
 - WIKI reader remains unchanged because this is MAIN's archive landing-page wording, not a missing structured cast/episode dossier. QOTD source blockers remain: Ren `IMG_9928.png`, native Officers/Voice, 2023 aggregate discrepancy, uncertified A/B remainder. Club-Only checkpoint reviewed, recovery remains open. No consumed SHA advanced.
+
+
+## 2026-11-14 01:35 PST — August Reunion Cele deployment verification
+
+- Source: August Reunion `archive-intake/aug-2026-living-ensemble-reunion-2026-08-19-2303-pdt/site-candidates.md` and Run 17, Whiskey `1537917593539706981`, `1537917629925302423`, `1537917720719527996`.
+- MAIN `src/content/people/cele.md` reader `4cbce19457ef1ef84f6a82a66e6e12ca41d63247`: workflow `43576266067` SUCCESS; job `132391067841` exact-commit verify/build/deploy/confirm-live step SUCCESS. MAIN production verified by deployment workflow.
+- WIKI `src/data/dossier-snapshots/cele.md` reader `32e7490ea4def3794fbe736566287896f453d331`: Astro build `43576248034` SUCCESS; preview workflow `43576248044` CANCELLED. WIKI preview/live not verified; candidate remains pending verification on WIKI, despite successful build. No duplicate copy published this pass.
+- Full REST MAIN census 137 branches, 30 active miner branches, zero new or advanced. August Reunion consumed `dfe5909d` unchanged vs HEAD `fcc27ac7`; Main HQ consumed through `e172df06` but outstanding publication candidates uncounted. Remaining accepted A/B count unknown. No consumption cursor advanced. Media/identity/chronology holds preserved.
