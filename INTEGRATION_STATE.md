@@ -1,3 +1,8 @@
+## 2026-11-13 19:31 PST — BACKROOM Panda/Eos WALTZ relationship correction
+
+- BACKROOM `site-candidates-pass-61.md`, `receipts-pass-61.md`, message `864701966230880266`: added Panda's July 13, 2021 `with my only @Eos` WALTZ caption to `src/data/dossier-snapshots/panda.md`, reader commit `3fbffaabd062b8488edebc7bd1a7c66ee13e9df2`. This deepens the existing Panda/Eos relationship narrative rather than creating an isolated event report. WIKI Eos already records the complementary independent MAFIA entry and WALTZ appearance; MAIN Panda already carries the caption, so no mirrored reader change. Original image uninspected; no romantic-status inference.
+- Full GitHub REST census: 30 active miner HEADs, all unchanged; MAIN census state commit `6873b5d890da2cf10f1eb2c21689df1ff5e066be`. BACKROOM HEAD `9c143a7c`, last consumed `68d2fba7`. Complete accepted A/B remainder uncounted; consumption held. WIKI source commit confirmed; Astro build, preview, and live verification pending.
+
 ## 2026-11-13 18:14 PST — QOTD census and WIKI verification
 
 - MAIN paginated REST census certified 137 remote branches, 30 active miners, zero new/advanced HEADs; persisted MAIN branch state in commit `d61b0397ae8ba2bcf9e7d430a7a99f8ad87c795d`. QOTD miner checkpoint and 12-handoff inventory rechecked; no confirmed missing text-safe candidate; Ren `IMG_9928.png` still source-blocked, 2023 count conflict unresolved, nested A/B publication count uncertified. Club-Only checkpoint reread; later-year retrieval limitation persists. No reader edit or consumed SHA advance.
