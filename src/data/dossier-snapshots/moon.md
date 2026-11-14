@@ -134,6 +134,13 @@ claims:
       - label: "QOTD · 1316842573293420584, 1316842748438904992, 1363534287357477086, 1363552952446484552, 1363606117791568244"
         href: "/archive/qotd"
     note: "Moon's sistah language is playful; Nemo's new-bestie claim is scene-local, not proof of exclusive friendship."
+  - text: "On May 9, 2024 HamitteY described a purchase as 'spending money on some pixels'; Moon replied that those pixels contained beautiful 2D men and women, defending the appeal of the characters without disputing the joke."
+    evidence: "archive-confirmed"
+    date: "2024-05-09"
+    sources:
+      - label: "QOTD · 1238134291716636722 / 1238146696953729117 / 1238146740880932984"
+        href: "/channels/qotd"
+    note: "The original prompt is unrecovered. No specific game, spending amount, regret, or financial harm is inferred."
 antiFanon:
   - "`I am a moon,so i see all` is Moon's self-joke, not evidence of a surveillance, intelligence, moderation, or information-gathering appointment."
   - "`UL Night Shift Barista` is a locked specialist title, but QOTD prompt authorship by itself does not date the formal title's appointment."
@@ -202,6 +209,10 @@ The two-room recurrence makes the joke a recognizable Moon habit, not proof that
 ## Relationship — Teri, the bestest-bestie jurisdiction
 
 Teri calls Moon her **bestest bestie**, and Moon calls herself Teri's bestie and `sistah`. The ridiculous title dispute becomes especially useful when Teri discovers Nemo also likes *Sword Art Online* and immediately announces a new bestie: Moon objects, Teri assures her the original bestest-bestie seat is safe, and the anime conversation gets redirected to Whiskey. The anniversary exchange is quieter. Teri says Moon has been beside her through it all; Moon thanks Teri for showing up when she feels defeated or alone, and Teri answers **`You as well moony ❤️❤️`**. Their teasing has an actual place to land.
+
+## Episode — The pixels defense (May 2024)
+
+HamitteY reduced his purchase to **`spending money on some pixels`**. Moon took immediate exception on behalf of **`those beautiful 2d men and women`**, then followed with a crying-cat emote. Hami was making fun of himself; Moon was willing to defend the imaginary people even if the economics looked ridiculous. The exchange is small, but it is a very Moon way of meeting somebody else's self-deprecation: take the premise seriously enough to make it funnier.
 
 ## 2024–2025 — QOTD BECOMES HER LONG-RUNNING CONTRIBUTION
 
