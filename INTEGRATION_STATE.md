@@ -1,3 +1,10 @@
+## 2026-11-14 04:35 PST — August Reunion recovery verification and dedupe
+
+- Fresh MAIN REST census certified 137 remote branches / 30 active miner branches, no new or advanced miner HEADs; MAIN state commit `1ee7e8d808688564c491a0d6bb285a3a0adfc70b`.
+- August Reunion Run 17–21 candidate files read directly from `archive-miner/aug-2026-living-ensemble-hourly`; Main HQ checkpoint read directly from `archive-miner/main-hq-hourly`. Akuma/Matsu/Seb stable-account profile, Seth, Persephone, SaraBunny, Alkey, Cele and Hishiro person/episode coverage already exist on MAIN and WIKI. No duplicate reader edits.
+- Earlier Cele WIKI preview run `43576248044` was cancelled; later descendant commit `4667cbf0b0193b58b2d3e3293ee2988b50531908` passed WIKI build [43593679243](https://github.com/bossmugen/underlords-wiki/actions/runs/43593679243) and preview [43593679191](https://github.com/bossmugen/underlords-wiki/actions/runs/43593679191). Current `src/data/dossier-snapshots/cele.md` still contains the beach-heels claim; this establishes successful descendant preview deployment, not independent public-production URL inspection.
+- MAIN reader changes: none; WIKI reader changes: none. No consumed SHA advanced. Accepted August Reunion/Main HQ A/B remainder still not inventoried; original-media, identity, and chronology holds persist. Publication debt remains open.
+
 ## 2026-11-14 04:14 PST — QOTD Teri exact-commit production verification
 
 - MAIN reader commit `85d2026c5cbc9694549a0efacba0d67baca0c587` for `src/lib/qotd-overrides.ts` passed GitHub Actions production run [43589321517](https://github.com/bossmugen/underlords/actions/runs/43589321517), job `132430491579`. Checkout, dependency install, and combined verify/build/deploy/live-commit confirmation step all report success. Independent browser page inspection not performed.
