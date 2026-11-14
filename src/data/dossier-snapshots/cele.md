@@ -60,6 +60,13 @@ claims:
     sources:
       - label: "QOTD · messages 935934802866081802, 942212157448257588, 1090413235636805652"
     note: "Joke kinship only; no literal adoption or abandonment."
+  - text: "On August 14, 2026, Cele said she and her cousin Woosung had returned from the beach with sand in their shoes; Cele admitted wearing heels for photographs. Mugen guessed Woosung had accompanied her before Cele said so, called the heels 'On brand', and Cele defended the choice because they got good pictures."
+    evidence: "archive-confirmed"
+    date: "2026-08-14"
+    sources:
+      - label: "August Reunion Run 17 · Whiskey · 1537916735401889843 / 1537917175686234162 / 1537917593539706981 / 1537917629925302423 / 1537917720719527996"
+        href: "/channels/whiskey-room"
+    note: "Cele self-reported the heels; no standing fashion rule or photographer identity is inferred. The beach image shows a sunset, not the people."
 antiFanon:
   - "Cele's primary Biodata shelf is Platelets, not Staff."
   - "An export-time Staff role does not override the current primary-shelf correction."
@@ -97,6 +104,12 @@ Anthos gets an even less respectable family arrangement. Cele's running story is
 Ren once compared Cele to Marie Kondo in a Wall joke about what sparks joy. That was Ren's joke. Cele's own contribution to Wall folklore is far more recognizable. In September 2022, after being exposed, she went from `GOODBYE` to `UR DONE` to `RLY BE EXPOSNING M LIKE THAT`, then surrendered the floor to a screaming-cat emote. Before long she was wheezing along with the room.
 
 In March 2023, Rich posted another image involving Cele and got `AKAKCKWFKWJ` back, followed by more keyboard wreckage and a parade of `Cute_catAHHHH` emotes. The actual pictures barely matter to the performance: threaten the prosecution, lose the alphabet, remain at the party.
+
+## Episodes
+
+| Date | Scene | Source |
+| --- | --- | --- |
+| 2026-08-14 | Beach heels: Mugen correctly guesses Woosung came along, Cele admits wearing heels on sand, then defends the pictures | August Reunion Run 17 · Whiskey |
 
 ## Petty Crimes
 
