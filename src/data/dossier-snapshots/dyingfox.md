@@ -173,11 +173,9 @@ It is a tiny exchange, which is exactly why it belongs in this biography. There 
 
 The surrounding Wall exhibit is not fully reconstructed, so the page does not invent what Ren needed help with or turn Dyingfox into UL's designated emotional-support department. One direct pat is one direct pat. It is still more revealing than a title the archive never gave them.
 
-## What the quiet stretches cannot tell us
+## The small signals add up
 
-The current person-specific evidence gets much thinner after the 2023 Daycare food callback. That is an archive boundary, not a personality conclusion. It does not prove Dyingfox withdrew, became less close to the group, stopped talking, changed temperament, or vanished from the wider social world. The biography leaves the middle uneven rather than padding it with generic Platelet lore or export-time role arrays.
-
-That gap also keeps the low-bandwidth pattern honest. Reactions, a snack demand, a hug, a pat, and later short reunion lines are enough to describe a repeated feature of the surviving scenes. They are not enough to diagnose Fox as universally quiet, shy, emotionally reserved, or deadpan in every context.
+Fox's best-known moments aren't long speeches. They're the same person asking Jordayy for snacks, answering Ren's call with a pat, and giving Gilli's food-and-affection joke room to grow. Some years leave fewer public scenes than others, but Fox's timing keeps resurfacing: a reaction when everybody is being told to drink water, a hug when someone feeds them, two words when the reunion starts making threats about burning the house down. The intervals don't need an invented disappearance story to make those returns count.
 
 ## Forever Platelet, still causing problems
 
