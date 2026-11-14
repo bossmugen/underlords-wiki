@@ -31,6 +31,13 @@ claims:
     sources:
       - label: "Lobby · 2020-04-06"
         href: "/channels/lobby"
+  - text: "On April 14, 2020, D.I. joked that Suzi was acting like an eighty-year-old man, Yummibears proposed `tonight is lets break suzi`, and Ren said Suzi sounded very different from the voice he had imagined."
+    evidence: "archive-confirmed"
+    date: "2020-04-14"
+    sources:
+      - label: "Club Only · 699857072178724867 / 699858741901656085 / 699864648538914858"
+        href: "/channels/club-only"
+    note: "No specific vocal quality or first-ever voice appearance is established; Mob/BAPE=Suzi is user-confirmed canon."
   - text: "On April 15, 2020, the stable `mob_bape` account explained that he was simultaneously trying to play Yakuza 0, play Dragon Raja, text the UL room, and get dinner."
     evidence: "archive-confirmed"
     date: "2020-04-15"
@@ -107,6 +114,10 @@ The cleanest identity chain is **Suzimasu = Mob = BAPE = Mob | BAPE = `mob_bape`
 Early Lobby evidence directly bridges **Mob | BAPE** to Suzimasu. On April 15, the stable `mob_bape` account explains what he is actually doing with his evening: trying to play **Yakuza 0**, play **Dragon Raja**, text the UL room, and get dinner at the same time.
 
 That scene does not need to be dressed up as leadership. Its value is precisely the opposite. UL is barely out of its first month and one of the people in the founding story is visible with too many tabs open and not enough hands. Founder status did not protect anyone from needing dinner. The scene gives the early institutional chart a human scale: whatever responsibilities Suzimasu will later hold, the archive first catches him as somebody attempting several forms of entertainment, conversation, and basic feeding at once.
+
+## The voice nobody had cast correctly
+
+Before the titles and later homecoming jokes, Suzi had already become a character in other people's heads. In April 2020 D.I. compared him to an eighty-year-old man, Yummibears announced `tonight is lets break suzi`, and Ren finally heard him and blurted out that he sounded nothing like Ren had imagined. Nobody preserved a reliable description of the voice itself. The funny part is Ren discovering that the Suzi assembled from chat had been speaking in the wrong voice inside Ren's head. Suzi's own contribution to the evening was an exhausted `Ugh`.
 
 ## APRIL 2021 — WHO ALL ARE GEMINI. APPARENTLY THIS REQUIRES EXORCISM.
 
