@@ -1,3 +1,8 @@
+## 2026-11-13 18:14 PST — QOTD census and WIKI verification
+
+- MAIN paginated REST census certified 137 remote branches, 30 active miners, zero new/advanced HEADs; persisted MAIN branch state in commit `d61b0397ae8ba2bcf9e7d430a7a99f8ad87c795d`. QOTD miner checkpoint and 12-handoff inventory rechecked; no confirmed missing text-safe candidate; Ren `IMG_9928.png` still source-blocked, 2023 count conflict unresolved, nested A/B publication count uncertified. Club-Only checkpoint reread; later-year retrieval limitation persists. No reader edit or consumed SHA advance.
+- WIKI Rummy Tumbleweed reader commit `678e26cf1b7141a70a566bee875d393a314c0dcd` now has successful Astro build [43541930813](https://github.com/bossmugen/underlords-wiki/actions/runs/43541930813) and preview [43541930816](https://github.com/bossmugen/underlords-wiki/actions/runs/43541930816). Independent live production fingerprint not verified. MAIN latest observed production workflow [43538364973](https://github.com/bossmugen/underlords/actions/runs/43538364973) succeeded at `0d268ac1`; no new QOTD reader publication this pass.
+
 ## 2026-11-13 12:30 PST — BACKROOM WIKI build verification and certified census
 
 - Full REST miner census completed and persisted MAIN `archive-intake/INTEGRATOR_BRANCH_STATE.json` at [b3944a60](https://github.com/bossmugen/underlords/commit/b3944a60aa76c25521fcbf22088510ca080cb973): 30 active miner branches, zero new/advanced, 51 tracked ledger entries. BACKROOM HEAD `9c143a7c`, consumed `68d2fba7`; no cursor advanced. Club-Only 2021–2026 checkpoint and BACKROOM checkpoint read directly from miner branches; accepted BACKROOM A/B remainder remains uncounted.
