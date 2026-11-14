@@ -1,3 +1,7 @@
+## 2026-11-13 20:17 PST — QOTD DyingFox pond-origin safety repair
+
+- MAIN `src/content/people/dyingfox.md` reader commit `63051b199d65119e7316e239861714c7cac7bfa0`: removed an unsupported causal inference connecting the historical `Gilli's Pond` nickname to Gilli's food-and-affection behavior; retained the documented nickname and separately documented care pattern. Removed two archive-report narrator tics. Source handoff `archive-intake/qotd-complete-2020-2026/site-candidates-2026-09-06-1343.md` explicitly leaves nickname origin unresolved. MAIN postcommit source reread passed; GitHub Actions exact-commit lookup returned zero runs, so Astro build, Cloudflare production and live verification remain PENDING. No WIKI dossier change: the public WIKI needs no mirrored prose. No consumed SHA advanced; QOTD publication inventory still unresolved.
+
 ## 2026-11-13 19:31 PST — BACKROOM Panda/Eos WALTZ relationship correction
 
 - BACKROOM `site-candidates-pass-61.md`, `receipts-pass-61.md`, message `864701966230880266`: added Panda's July 13, 2021 `with my only @Eos` WALTZ caption to `src/data/dossier-snapshots/panda.md`, reader commit `3fbffaabd062b8488edebc7bd1a7c66ee13e9df2`. This deepens the existing Panda/Eos relationship narrative rather than creating an isolated event report. WIKI Eos already records the complementary independent MAFIA entry and WALTZ appearance; MAIN Panda already carries the caption, so no mirrored reader change. Original image uninspected; no romantic-status inference.
