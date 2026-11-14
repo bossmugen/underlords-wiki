@@ -1,3 +1,9 @@
+## 2026-11-14 10:36 PST — Anthos SlideInDms exact-run verification correction
+
+- WIKI reader commit `65c3cc2d07f100ffdc368220fcddb7cf1720ce6f` has `wiki-build: success` ([43622436217](https://github.com/bossmugen/underlords-wiki/actions/runs/43622436217)), but `wiki-preview: failure` ([43622436189](https://github.com/bossmugen/underlords-wiki/actions/runs/43622436189)). Preview build was cancelled during npm install; deploy job cancelled. This is not a source-build failure. Keep candidate `pending_verification` until a later descendant preview succeeds; do not mark live.
+- Run 13 Tumbleweed/Rummy resurfacing candidate `1537210081467441232` is already present in MAIN `src/content/people/rummy.md` and WIKI `src/data/dossier-snapshots/rummy.md`; duplicate suppressed. Anthos `SlideInDms` WIKI reader content confirmed present. No new reader publication or miner consumption this pass.
+- Miner branch-name enumeration returned 30 active names (pagination exhausted). Exact fresh branch HEAD-SHA census and MAIN state persistence were **not** completed; do not describe this as a certified census. August Reunion/Main HQ accepted A/B remainder remains uncounted.
+
 ## 2026-11-14 09:40 PST — August Reunion Run 13 Anthos sliding-DMs recovery
 
 - Fresh MAIN full REST census: 137 remote branches, 30 active miner branches, zero new/advanced; MAIN branch-state commit `22e1c3cc75632ec43c0826f3e9b85be1c38ee603`.
