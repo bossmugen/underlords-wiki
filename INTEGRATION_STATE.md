@@ -1,3 +1,10 @@
+## 2026-11-14 04:14 PST — QOTD Teri exact-commit production verification
+
+- MAIN reader commit `85d2026c5cbc9694549a0efacba0d67baca0c587` for `src/lib/qotd-overrides.ts` passed GitHub Actions production run [43589321517](https://github.com/bossmugen/underlords/actions/runs/43589321517), job `132430491579`. Checkout, dependency install, and combined verify/build/deploy/live-commit confirmation step all report success. Independent browser page inspection not performed.
+- Source: QOTD `site-candidates-2026-09-06-0810.md`; Teri's eight credited Barista cards and creative prompt authorship already represented in both person bios; this was MAIN channel/event-only publication, not a duplicated WIKI dossier.
+- Additional QOTD `site-candidates-2026-09-06-1212.md` Noether/Anayss family reviewed directly: February welcome/reciprocal affection, sunset metaphors, and food/menu exchanges already integrated into both Noether dossiers. No duplicate reader edit. Ren image source, 2023 count conflict, and uncounted A/B remainder remain open; no QOTD consumed SHA advance.
+- Branch-name discovery returned 30 miner branches; full independent HEAD-SHA certification was not performed in this pass. MAIN ledger most recently records 30 active miners, five pending-publication families, one recovery backlog, zero overdue. Club-Only longitudinal checkpoint revisited; later-year retrieval remains blocked. No new reader publication this pass.
+
 ## 2026-11-14 03:17 PST — QOTD Teri card-author contribution on MAIN
 
 - QOTD miner `archive-miner-qotd-officers-20260824` at `c51cd1914f65cb8ae65b850b1d0da85ffccb94ed`, source `archive-intake/qotd-complete-2020-2026/site-candidates-2026-09-06-0810.md`, receipts `1339238853969707019`, `1339440625522708490`, `1371114521736773766`, `1374375587422015529`, `1375825216521109536`, `1379087247361441792`.
