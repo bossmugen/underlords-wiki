@@ -1,3 +1,9 @@
+## 2026-11-14 13:17 PST — Moon/HamitteY pixels WIKI descendant preview verified
+
+- WIKI reader `src/data/dossier-snapshots/moon.md` commit `2ffe767ba2699464228b41141eb954effa198c8b`, source `archive-miner-qotd-officers-20260824:archive-intake/qotd-complete-2020-2026/site-candidates-2026-09-06-1242.md` candidate 2, receipts `1238134291716636722`, `1238146696953729117`, `1238146740880932984`.
+- Exact reader `wiki-build` [43636369898](https://github.com/bossmugen/underlords-wiki/actions/runs/43636369898) SUCCESS; exact reader `wiki-preview` [43636369883](https://github.com/bossmugen/underlords-wiki/actions/runs/43636369883) CANCELLED. Descendant integration-state commit `d95d0c598d7b68db7ce830e985d568d361934b62` passed `wiki-build` [43636384975](https://github.com/bossmugen/underlords-wiki/actions/runs/43636384975) and `wiki-preview` [43636384903](https://github.com/bossmugen/underlords-wiki/actions/runs/43636384903), both SUCCESS. Reread Moon dossier on current `main` and confirmed pixels episode persists. Descendant preview verification clears cancelled preview hold; independent production URL fingerprint not inspected.
+- MAIN already covers Hami's side; no mirrored reader edit. Fresh REST branch enumeration 137 total / 30 miners; current `last_seen_sha` entries match remote; no MAIN census rewrite needed. QOTD and Club-Only checkpoints read directly; no complete new candidate inventory and no consumed SHA advanced. QOTD source-blocked Ren screenshot and conflicting 2023 totals remain open.
+
 ## 2026-11-14 12:14 PST — QOTD Moon/HamitteY pixels exchange restored; verification pending
 
 - Direct QOTD miner handoff: `archive-miner-qotd-officers-20260824:archive-intake/qotd-complete-2020-2026/site-candidates-2026-09-06-1242.md`, candidate 2, receipts `1238134291716636722`, `1238146696953729117`, `1238146740880932984`.
