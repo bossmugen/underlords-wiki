@@ -13,6 +13,13 @@ summaryEvidence: "inferred"
 publication: "public"
 eraStart: 2020
 claims:
+  - text: "During the August 2026 Whiskey reunion, Rummy reposted the sprawling UL family Tumbleweed image and called it `Ah yes the *trees*`; Mugen reacted `GAHDAMN`, and Rummy observed `U can’t even see the name LMFAAOAO`."
+    evidence: "archive-confirmed"
+    date: "2026-08"
+    sources:
+      - label: "August Reunion miner · Run 13 · Tumbleweed resurfacing · Whiskey message 1537210081467441232"
+        href: "/channels/whiskey-room"
+    note: "Rummy posted the 2026 image; no claim that she created the 2020 Tumbleweed or continuously edited it. The 2026 image is identified as the family map in the inspected reunion handoff, but binary/revision identity with 2020 Underlords_Tumbleweed.png remains unproven."
   - text: "By February–March 2023, Rummy's spelling had acquired the name `rumfection`: Rich called it a spreading spelling infection, Mia repeated the term, Mugen included `another year of rumfection` in the anniversary message, and Moon later demanded vaccination for `RUMFECTION AND GILLFECTION` while Torr proposed a Plague Inc. virus based on Rummy."
     evidence: "archive-confirmed"
     date: "2023-02-15 – 2023-03-19"
@@ -246,6 +253,12 @@ The running gag belongs with Rummy's other Wall-era group teasing, not as an act
 ## The BLING exam incident
 
 Rummy's BL-series knowledge was established enough that one wrong answer became a Wall emergency. In July 2024, homethey_ announced the world was ending; Rummy immediately insisted she'd fixed the mistake, and Moon prescribed a retake of the imaginary **BLING exam**. A tiny mistake, a very large disciplinary apparatus, and absolutely nobody pretending this was a real qualification.
+
+## Episode: The Tumbleweed Returns
+
+The old UL relationship map resurfaced in the August 2026 Whiskey reunion when Rummy posted the enormous family-tree image (message `1537210081467441232`). She called it **`Ah yes the *trees*`**; Mugen's answer was **`GAHDAMN`**. Rummy supplied the usability review: **`U can’t even see the name LMFAAOAO`**.
+
+This is a reunion callback to the Tumbleweed that Anthos was updating in September 2020, not proof that the exact same image file survived unchanged. Rummy's part was bringing the object back to the room, where its sheer density was once again the joke.
 
 ## New Account, Same Rummy
 
