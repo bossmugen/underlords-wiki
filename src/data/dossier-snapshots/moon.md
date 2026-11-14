@@ -128,6 +128,12 @@ claims:
     sources:
       - label: "🥃 Whiskey Room · 2026-08-14"
         href: "/channels/whiskey-room"
+  - text: "Moon and Teri called one another best friends; at UL's fifth-anniversary check-in Teri thanked Moon for staying beside her, and Moon thanked Teri for making time when she felt defeated or alone. Their SAO/Nemo exchange also shows Moon jokingly defending her existing bestie claim."
+    evidence: "archive-confirmed"
+    sources:
+      - label: "QOTD · 1316842573293420584, 1316842748438904992, 1363534287357477086, 1363552952446484552, 1363606117791568244"
+        href: "/archive/qotd"
+    note: "Moon's sistah language is playful; Nemo's new-bestie claim is scene-local, not proof of exclusive friendship."
 antiFanon:
   - "`I am a moon,so i see all` is Moon's self-joke, not evidence of a surveillance, intelligence, moderation, or information-gathering appointment."
   - "`UL Night Shift Barista` is a locked specialist title, but QOTD prompt authorship by itself does not date the formal title's appointment."
@@ -147,6 +153,7 @@ relatedPeople:
   - "rooks"
   - "mugen"
   - "dyingfox"
+  - "teri"
 tags:
   - "director"
   - "night-shift-barista"
@@ -191,6 +198,10 @@ By April, Whiskey is carrying her under **`UL's Pocket Size Moon`**. The label i
 Moon asked **`Then why friend shape?`** (Whiskey `1536931567740391479`), then admitted a warning sign would make her more tempted to pet the critter (`1536931733692219513`). The next day's QOTD animal list included albino snakes and jellyfish, with Moon concluding **`Basically, I just want to hug all these cute critters`** (`1537155737007038588`). She returned with **`I want to befriend this critter toooooooo`** (`1537275152788881408`).
 
 The two-room recurrence makes the joke a recognizable Moon habit, not proof that she actually handled or fed wildlife. A posted sleepy-glass-frog screenshot is an external image; its creator and original photographer are not assigned to Moon.
+
+## Relationship — Teri, the bestest-bestie jurisdiction
+
+Teri calls Moon her **bestest bestie**, and Moon calls herself Teri's bestie and `sistah`. The ridiculous title dispute becomes especially useful when Teri discovers Nemo also likes *Sword Art Online* and immediately announces a new bestie: Moon objects, Teri assures her the original bestest-bestie seat is safe, and the anime conversation gets redirected to Whiskey. The anniversary exchange is quieter. Teri says Moon has been beside her through it all; Moon thanks Teri for showing up when she feels defeated or alone, and Teri answers **`You as well moony ❤️❤️`**. Their teasing has an actual place to land.
 
 ## 2024–2025 — QOTD BECOMES HER LONG-RUNNING CONTRIBUTION
 
