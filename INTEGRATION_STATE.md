@@ -1,3 +1,9 @@
+## 2026-11-14 00:35 PST — August Reunion Cele beach-heels reader repair
+
+- Source: `archive-miner/aug-2026-living-ensemble-hourly`, `archive-intake/aug-2026-living-ensemble-reunion-2026-08-19-2303-pdt/hourly-2026-08-26-run17-site-candidates.md`, Whiskey receipts `1537916735401889843`, `1537917175686234162`, `1537917593539706981`, `1537917629925302423`, `1537917720719527996`.
+- WIKI `src/data/dossier-snapshots/cele.md` reader commit `32e7490ea4def3794fbe736566287896f453d331`: structured dated claim and episode; MAIN `src/content/people/cele.md` commit `4cbce19457ef1ef84f6a82a66e6e12ca41d63247`: distinct person-first scene. No source image reproduced or creator inferred.
+- WIKI Actions runs `43576248034` build and `43576248044` preview were IN PROGRESS at check; MAIN exact-commit workflow not yet listed. Live production unverified. Accepted candidate remains pending verification, not fully integrated. August Reunion remainder still uncounted; no consumption SHA advanced.
+
 ## 2026-11-13 20:17 PST — QOTD DyingFox pond-origin safety repair
 
 - MAIN `src/content/people/dyingfox.md` reader commit `63051b199d65119e7316e239861714c7cac7bfa0`: removed an unsupported causal inference connecting the historical `Gilli's Pond` nickname to Gilli's food-and-affection behavior; retained the documented nickname and separately documented care pattern. Removed two archive-report narrator tics. Source handoff `archive-intake/qotd-complete-2020-2026/site-candidates-2026-09-06-1343.md` explicitly leaves nickname origin unresolved. MAIN postcommit source reread passed; GitHub Actions exact-commit lookup returned zero runs, so Astro build, Cloudflare production and live verification remain PENDING. No WIKI dossier change: the public WIKI needs no mirrored prose. No consumed SHA advanced; QOTD publication inventory still unresolved.
