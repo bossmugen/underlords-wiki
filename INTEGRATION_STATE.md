@@ -1,3 +1,11 @@
+## 2026-11-14 09:40 PST — August Reunion Run 13 Anthos sliding-DMs recovery
+
+- Fresh MAIN full REST census: 137 remote branches, 30 active miner branches, zero new/advanced; MAIN branch-state commit `22e1c3cc75632ec43c0826f3e9b85be1c38ee603`.
+- Direct miner intake: `archive-miner/aug-2026-living-ensemble-hourly` at `fcc27ac7a4457fc5c93c575bd2813b8e19abfa3b`, `archive-intake/aug-2026-living-ensemble-reunion-2026-08-19-2303-pdt/hourly-2026-08-26-run13-site-candidates.md`. Reconciled MAIN Anthos/Ren existing slide coverage; WIKI Anthos lacked the structured running-gag genealogy.
+- WIKI reader commit `65c3cc2d07f100ffdc368220fcddb7cf1720ce6f` adds Anthos claim and Running Gag section to `src/data/dossier-snapshots/anthos.md`; receipt IDs `750388679264043120`, `750395812588158999`, `750395920809590894`, `750396821381054617`, `763531261053763615`, `1537894329438445679`. No exact-image continuity asserted.
+- MAIN reader unchanged because the person-first Anthos and Ren stories already include the motif. Main HQ checkpoint read directly at `e172df0641d6fa9c9d47a2bec6ff40c1aee0fb3c`; Club-Only recovery checkpoint read directly at `e45fb11c9239e236231bb65645dfd0285bc0078b`. Main HQ Kiro and Feli candidate checks were duplicates of existing MAIN/WIKI coverage.
+- WIKI reader file reread pending; exact reader build/preview/live production verification **pending** (initial commit-status and workflow lookup returned no runs). This candidate is `pending_verification`, not integrated/deployed. No miner consumed SHA advanced; August Reunion and Main HQ A/B remainder still uncounted. Media-dependent originals and unresolved identity/chronology held.
+
 ## 2026-11-14 08:18 PST — Moon/Teri QOTD WIKI verification closure
 
 - WIKI reader commit [`7739a9e5`](https://github.com/bossmugen/underlords-wiki/commit/7739a9e585fe3d88ef033f10d4033b0295448d98), `src/data/dossier-snapshots/moon.md`, was reread on `main`: reciprocal Teri friendship claim, related-person link and person-shaped relationship section persist. GitHub combined commit status reports **wiki-build SUCCESS** ([run 43609070642](https://github.com/bossmugen/underlords-wiki/actions/runs/43609070642)) and **wiki-preview SUCCESS**. Preview success does not independently establish public production URL inspection.
