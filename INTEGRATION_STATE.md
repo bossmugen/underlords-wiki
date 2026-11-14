@@ -1,3 +1,9 @@
+## 2026-11-14 12:14 PST — QOTD Moon/HamitteY pixels exchange restored; verification pending
+
+- Direct QOTD miner handoff: `archive-miner-qotd-officers-20260824:archive-intake/qotd-complete-2020-2026/site-candidates-2026-09-06-1242.md`, candidate 2, receipts `1238134291716636722`, `1238146696953729117`, `1238146740880932984`.
+- WIKI reader `src/data/dossier-snapshots/moon.md` commit `2ffe767ba2699464228b41141eb954effa198c8b`: Moon's response to HamitteY's pixels self-joke added as sourced claim and episode. HamitteY's MAIN/WIKI biographies already contain the reciprocal scene; no duplicate there. Source reread passed. Build/preview and live publication remain pending verification.
+- Miner name census: 30 matching active branches, pagination exhausted; latest MAIN census ledger from 12:00 PST records 51 historical branches, five pending-publication families, one Club-Only recovery backlog. This pass did not independently certify all 30 HEAD SHAs; no consumed SHA advanced. QOTD A/B remainder uncounted, Ren screenshot blocked, conflicting 2023 totals unresolved. Club-Only checkpoint read directly; recovery not consumed.
+
 ## 2026-11-14 12:00 PST — MAIN FUSKAmeme production repair verified; WIKI unchanged
 
 - MAIN `src/content/people/fuskameme.md` archive-only cast routing repair `58312cdc7eed96d3e425d92ce0f6d9fddfa6e374` passed exact-commit production [workflow 43630135957](https://github.com/bossmugen/underlords/actions/runs/43630135957) (`completed/success`). No WIKI cast rewrite is warranted from this routing-only change; no formal membership claim added.
