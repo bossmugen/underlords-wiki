@@ -10,6 +10,13 @@ summary: "Anthos enters the surviving archive as an almost-daily 2020 presence, 
 summaryEvidence: "archive-confirmed"
 publication: "public"
 claims:
+  - text: "On September 1, 2020, Anthos turned Ansun's `_slides into his dms_` into a literal sliding-person GIF, then said that GIF would come to mind whenever somebody mentioned sliding into DMs. Mugen followed with a Blake Griffin slide GIF; by October 7 Rooks was using the animated `SlideInDms` emoji. Ren's August 2026 Nobu retrieval reused the phrase, but the old and new visuals are not proven identical."
+    evidence: "archive-confirmed"
+    date: "2020-09-01 – 2026-08-14"
+    sources:
+      - label: "August Reunion Run 13 · sliding-into-DMs genealogy"
+        href: "/history/2026"
+    note: "Ansun 750388679264043120; Anthos 750395812588158999 / 750395920809590894; Mugen 750396821381054617; Rooks 763531261053763615; Ren 1537894329438445679. The 2020 emoji name is grounded; do not assert identical GIF assets or origin from earliest surviving usage."
   - text: "During the August 14, 2026 reunion, Mugen directly invited Anthos back with `The clowns are calling for you` and `Will you heed their call`, distinct from Ren retrieving Nobu and Xephy contacting Mugen spontaneously."
     evidence: "archive-confirmed"
     date: "2026-08-14"
@@ -221,6 +228,14 @@ Around the same time, the Ansun/Anthos voice-twin joke takes off. The room start
 The joke does not replace the work. Through 2021 Anthos keeps carrying recurring visual routines—opening Photo Submissions rounds, posting deadline reminders, and extending them when needed. On January 6, Ren laid out the example photos and Anthos followed with the official submissions divider eight minutes later. They repeated the handoff on February 15, this time only fifty-three seconds apart. Nobody needed to announce a department: one set the references, the other opened the submissions, and the room knew what to do. By March she was folding the FLOWERS opening and submission dates into one notice. In June she posted the STALKER example header, supplied three reference images, and opened the round less than two minutes later. The same member who had been promoted into a universal constant by the group chat was still doing very mundane maintenance on the calendar.
 
 That combination is the useful character progression. Anthos becomes more mythologized because she is around, not instead of being around.
+
+## Running gag — slide into DMs, literally
+
+- **September 1, 2020:** Ansun types `_slides into his dms_`. Anthos posts a sliding-person GIF and says the phrase will now always make her think of that image. Mugen adds a Blake Griffin slide GIF.
+- **October 7, 2020:** Rooks uses the server's animated `SlideInDms` emoji. The joke has acquired its own button.
+- **August 2026:** Ren reports retrieving Nobu with `I GOT NOBU THEY SAID SLIDE TO THEIR DMS`. The old phrasing is back; the exact 2026 image is not established as the 2020 asset.
+
+Anthos' contribution is the visual translation: somebody says an ordinary internet phrase, and she makes everyone picture an actual body sliding across the floor. Six years later the wording is still available when the reunion needs to drag another clown home.
 
 ## Bee Movie: six-day delayed consequences
 
