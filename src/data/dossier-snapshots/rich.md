@@ -34,6 +34,12 @@ claims:
     sources:
       - label: "Mugs-confirmed VIP roster"
         href: "/roles/vip"
+  - text: "On May 14, 2020, Rich said he was `just in every club\'s discord for some reason`; Mugen answered almost immediately `dw he legal`. The following night she joked `Rich privileges 😄` in a context-partial access exchange."
+    evidence: "archive-confirmed"
+    date: "2020-05-14 – 2020-05-15"
+    sources:
+      - label: "BACKROOM · site-candidates-pass-40.md · Rich cross-club roaming"
+    note: "Do not infer a formal VIP appointment date, literal legal status, or specific permissions from the jokes."
   - text: "On April 7, 2020, Snow asked Rich in the UL Lobby whether anyone else from Amaurot wanted to join, showing Rich being treated as the contact point for prospective Amaurot arrivals."
     evidence: "archive-confirmed"
     date: "2020-04-07"
@@ -128,6 +134,10 @@ Rich belongs under VIP because that category preserves his external-club lineage
 Zyrcant was Rich's deputy in Amaurot before the merger. Woosung, the former ScarletMoon leader, supplies the other side of the S10 powerhouse context.
 
 Taken together, these are not random guest cameos. UL's social world was already overlapping with other organized groups, complete with their own leaders, deputies, and migration paths.
+
+## EVERY CLUB HAD A RICH PROBLEM
+
+By May 2020 Rich had a remarkably casual explanation for his whereabouts: **`just in every club\'s discord for some reason`**. Mugen responded within seconds with **`dw he legal`**. The next night she invoked **`Rich privileges 😄`** during an access conversation. The precise permission being discussed is missing, but the exchange makes the social arrangement clear enough: Rich roaming between clubs was familiar, and Mugen was comfortable making a joke of defending his presence. It fits the same bridge-building behavior visible in Snow asking him about Amaurot arrivals and Mugen sharing his S10-wide channel. It does not date his VIP appointment or establish a special access rule.
 
 ## FIGHT CLUB → THE COUCH
 
