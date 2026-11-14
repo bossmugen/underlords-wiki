@@ -1,3 +1,9 @@
+## 2026-11-14 08:18 PST — Moon/Teri QOTD WIKI verification closure
+
+- WIKI reader commit [`7739a9e5`](https://github.com/bossmugen/underlords-wiki/commit/7739a9e585fe3d88ef033f10d4033b0295448d98), `src/data/dossier-snapshots/moon.md`, was reread on `main`: reciprocal Teri friendship claim, related-person link and person-shaped relationship section persist. GitHub combined commit status reports **wiki-build SUCCESS** ([run 43609070642](https://github.com/bossmugen/underlords-wiki/actions/runs/43609070642)) and **wiki-preview SUCCESS**. Preview success does not independently establish public production URL inspection.
+- QOTD source: `archive-miner-qotd-officers-20260824`, `archive-intake/qotd-complete-2020-2026/site-candidates-2026-09-06-0810.md`, receipts `1316842573293420584`, `1316842748438904992`, `1363534287357477086`, `1363552952446484552`, `1363606117791568244`. MAIN Teri relationship narrative already present; no mirrored edit.
+- Fresh paginated GitHub branch-name census returned 30 active miner branches; no further results after cursor `MzA`. HEAD-SHA comparison not certified this pass; MAIN ledger unchanged. Direct QOTD and Club-Only checkpoints read. No new reader edit, no consumed SHA advancement. Ren `IMG_9928.png`, 2023 QOTD count conflict, source-blocked Officers/Voice, and remaining A/B candidate inventory remain open.
+
 ## 2026-11-14 04:35 PST — August Reunion recovery verification and dedupe
 
 - Fresh MAIN REST census certified 137 remote branches / 30 active miner branches, no new or advanced miner HEADs; MAIN state commit `1ee7e8d808688564c491a0d6bb285a3a0adfc70b`.
