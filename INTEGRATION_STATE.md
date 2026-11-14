@@ -1,3 +1,9 @@
+## 2026-11-14 11:03 PST — Anthos SlideInDms successor preview verification
+
+- WIKI `src/data/dossier-snapshots/anthos.md` reread on `main` at head `8f083959318995cbddf39f4149a14b11f0bc61c0`; the `SlideInDms` claim and running-gag section from reader commit `65c3cc2d07f100ffdc368220fcddb7cf1720ce6f` remain present, including six bounded receipt IDs and no assertion of identical GIF assets.
+- The original preview [43622436189](https://github.com/bossmugen/underlords-wiki/actions/runs/43622436189) was cancelled. A descendant `main` commit `8f0839593` passed [wiki-build 43627580312](https://github.com/bossmugen/underlords-wiki/actions/runs/43627580312) and [wiki-preview 43627580298](https://github.com/bossmugen/underlords-wiki/actions/runs/43627580298). This verifies a successful descendant preview with the Anthos content still in source; independent public production URL fingerprint remains unverified.
+- MAIN fresh REST census: 137 remote branches, 30 miner branches, all recorded HEADs unchanged; persisted MAIN census commit `517a7bcb3b1552526a69c32b4ce049d1603bec4d`. Photo Submissions checkpoint and cumulative handoffs read directly at `d45d441f`; source comparison found no newly certified missing reader candidate. Club-Only 2021–2026 checkpoint read at `e45fb11c`; backlog still open. No WIKI reader edit, no Photo consumed SHA advance.
+
 ## 2026-11-14 10:36 PST — Anthos SlideInDms exact-run verification correction
 
 - WIKI reader commit `65c3cc2d07f100ffdc368220fcddb7cf1720ce6f` has `wiki-build: success` ([43622436217](https://github.com/bossmugen/underlords-wiki/actions/runs/43622436217)), but `wiki-preview: failure` ([43622436189](https://github.com/bossmugen/underlords-wiki/actions/runs/43622436189)). Preview build was cancelled during npm install; deploy job cancelled. This is not a source-build failure. Keep candidate `pending_verification` until a later descendant preview succeeds; do not mark live.
