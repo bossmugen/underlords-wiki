@@ -1,3 +1,9 @@
+## 2026-11-14 22:39 PST — Main HQ Nobu text-safe backlog repair (verification pending)
+
+- MAIN `src/content/people/nobu.md` reader commit `de3d9fdbad7859495ee4f6df3740b1346f8ff286`: Nobu's January 2024 `Don't worry. I got you.` → `*Nyaa*~` reply to Marian's white-screen complaint, followed by Marian's regret and Nobu's Fat_Wheeze. Source `archive-miner/main-hq-hourly:archive-intake/main-hq-2022-2026-tail-20260819/site-candidates-2026-08-25-0745.md`; receipts `1197710609869975632`, `1197711732253134928`. Main source reread passed; no Actions run surfaced at first check; live deployment pending. No catboy recurring identity invented.
+- WIKI Nobu dossier has other Marian/Rummy Wall scenes but not this tiny one; intentionally MAIN-only as Petty Crimes character texture, not a standalone wiki episode. Main HQ remaining A/B candidates not exhaustively counted, so no consumed SHA advanced.
+- Fresh MAIN REST census: 137 remote branches, 30 active miners, zero new/advanced; persisted MAIN census `c2c8db30c3e3a6ce9bda5707b4fb88927c677c94`. Active branches behind consumption: August Reunion, Backroom Deals, Photo Submissions. Club-Only checkpoint read; later-year retrieval limitation remains. Main HQ candidate handoffs 04:45–08:45 reviewed; Rummy context/pancake, Gilli/Spicy, Tofu/Cookie, Moon, Yumi already represented; no duplicate edits.
+
 ## 2026-11-14 19:36 PST — Rummy Main HQ reader deployment workflow verified
 
 - MAIN reader `src/content/people/rummy.md` still contains the March 19, 2023 Torr/Gilli Plague Inc detail, source `archive-miner/main-hq-hourly:archive-intake/main-hq-2022-2026-tail-20260819/site-candidates-2026-08-25-0345.md`, receipts `1087234156745986128` and `1087235798404960347`. No spelling-specific context invented.
