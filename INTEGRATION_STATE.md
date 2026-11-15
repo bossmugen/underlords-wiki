@@ -1,3 +1,8 @@
+## 2026-11-15 15:35 PST — Main HQ Wall permission labels verified
+
+- MAIN `src/pages/archive/wall.astro` reader commit `7c5d85d19ed1c48cdfa3e1fd29735222327a2202`, source `site-candidates-2026-08-26-1845.md`, receipts `779226650034438155`, `929443383720677406`, `1085284751402868737`: exact GitHub Actions run `43770329245`, job `132984574758`, completed **success**, including `Verify, build, deploy, and confirm live commit`. This verifies the workflow's exact-commit live deployment step; independent browser inspection not performed.
+- Full MAIN branch census: 137 remote, 30 active miner heads, zero new/advanced; persisted `fa62009b0ccd52cb86ef4489420bed2bea9e9462`. Three pending-publication cursors: August Reunion, Backroom Deals, Photo Submissions. Main HQ, August Reunion and Club-Only checkpoints read directly from miner branches; HQ 2026-08-26 19:10, 21:10, 22:10, 23:10, 2026-08-27 00:10 and 2026-08-28 19:06 candidate handoffs checked. Anayss, Sye, Feli, Moon, Kiro and Nelph were already covered in reader biographies; no duplicate edits. No new consumed SHA. WIKI reader intentionally unchanged; MAIN owns the Wall-history correction. Gilli/Namo original-media candidates remain blocked; full A/B remainder uncounted.
+
 ## 2026-11-15 14:38 PST — Main HQ Wall permission labels
 
 - Fresh MAIN census: 137 remote branches / 30 active miner branches, all 30 HEAD SHAs matched, zero new/advanced. Persisted MAIN commit `b96aced10b0815636c8b3484cc234e62248e2743`. Existing consumption cursors unchanged; five pending-publication families and one backlog remain.
