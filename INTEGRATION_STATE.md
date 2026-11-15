@@ -1,3 +1,9 @@
+## 2026-11-14 19:36 PST — Rummy Main HQ reader deployment workflow verified
+
+- MAIN reader `src/content/people/rummy.md` still contains the March 19, 2023 Torr/Gilli Plague Inc detail, source `archive-miner/main-hq-hourly:archive-intake/main-hq-2022-2026-tail-20260819/site-candidates-2026-08-25-0345.md`, receipts `1087234156745986128` and `1087235798404960347`. No spelling-specific context invented.
+- MAIN GitHub Actions [run 43668792873](https://github.com/bossmugen/underlords/actions/runs/43668792873) job `Verify + deploy exact master` completed with `success`; source reread confirmed reader content on `master`. Independent live Cloudflare production fingerprint remains unchecked, so retain live-verification hold. WIKI already carries the structured episode; no reader duplicate.
+- Branch name search returned 30 active miner branches; this pass did not complete all HEAD SHA comparisons or persist a fresh MAIN census. Last certified census remains 137 remote / 30 active / 0 advanced. No consumed SHA advanced; August Reunion/Main HQ accepted A/B remainder still uncounted.
+
 ## 2026-11-14 18:38 PST — Main HQ Rummy Plague Inc detail on MAIN, verification pending
 
 - Full MAIN REST census: 137 remote branches, 30 active miner branches, no advanced or missing ledger HEADs. MAIN census commit `ea0dafca7b227c847eb9fa5fc9ece67927f58dac`.
