@@ -1,3 +1,10 @@
+## 2026-11-14 18:38 PST — Main HQ Rummy Plague Inc detail on MAIN, verification pending
+
+- Full MAIN REST census: 137 remote branches, 30 active miner branches, no advanced or missing ledger HEADs. MAIN census commit `ea0dafca7b227c847eb9fa5fc9ece67927f58dac`.
+- Source: `archive-miner/main-hq-hourly:archive-intake/main-hq-2022-2026-tail-20260819/site-candidates-2026-08-25-0345.md`, Wall receipts `1087234156745986128` (Torr) and `1087235798404960347` (Gilli). MAIN `src/content/people/rummy.md` updated in `6dded61a4520976487ff2d3fcf3536b95adf3c64` to fold Plague Inc joke into Rumfection character treatment without asserting the missing spelling-specific reply context. WIKI Rummy already had the structured Plague Inc entry, so no mirrored dossier change.
+- MAIN production workflow [43668792873](https://github.com/bossmugen/underlords/actions/runs/43668792873) queued at last check; reader commit and live production not yet verified. Candidate remains `pending_verification`; do not advance Main HQ consumed SHA or count as fully integrated until successful build and live commit verification.
+- August Reunion Runs 17–18 and Main HQ 03:45 handoffs reviewed for duplication. Alkey bag-cart, Cele beach heels, Momo Milo, Snow custody, Moon friend-shape, Oyasumi DND and Rummy BLING were already represented; no duplicate publication. Club-Only checkpoint read, later-year source retrieval remains blocked. Remaining A/B count not yet reconciled; privacy-sensitive and media-only candidates held.
+
 ## 2026-11-14 18:18 PST — DarkAsrai/Rose pronoun repair verified on WIKI
 
 - Reader file `src/data/dossier-snapshots/darkasrai.md` confirmed on WIKI `main` with `she/her` frontmatter and corrected sister, Rummy sparring, and Aizzy Photoshoot references. Source commits [5bbb7034](https://github.com/bossmugen/underlords-wiki/commit/5bbb703447ad3f3fffe46a854f8fa6df1130b2b6) and [0e325db4](https://github.com/bossmugen/underlords-wiki/commit/0e325db4210f0973f5a7427717b9f820a7b171c8).
