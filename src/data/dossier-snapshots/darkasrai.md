@@ -1,12 +1,13 @@
 ---
 name: "DarkAsrai"
+pronouns: "she/her"
 aliases:
   - "darkasrai"
 summary: "DarkAsrai could describe being accepted as a weirdo with real tenderness, then turn around and inventory three cats with completely incompatible personalities. Horror-game jump scares were worth volunteering for; eating ASMR was absolutely not."
 summaryEvidence: "archive-confirmed"
 publication: "public"
 claims:
-  - text: "DarkAsrai described a sister who stayed supportive even when they messed up, and appreciated Underlords for accepting them as a weirdo."
+  - text: "DarkAsrai described a sister who stayed supportive even when she messed up, and appreciated Underlords for accepting her as a weirdo."
     evidence: "archive-confirmed"
     sources:
       - label: "QOTD · DarkAsrai belonging answer, 2023-03-10"
@@ -58,7 +59,7 @@ tags:
 
 ## Accepted, weirdness included
 
-DarkAsrai spoke warmly of a sister who stayed there even when they messed up. Underlords mattered for a related reason: its people had, in DarkAsrai's own words, “accepted a weiedo like me.” It is a small sentence with a lot inside it. The joke at their own expense makes the gratitude easier to say, but doesn't erase it.
+DarkAsrai spoke warmly of a sister who stayed there even when she messed up. Underlords mattered for a related reason: its people had, in her own words, “accepted a weiedo like me.” It is a small sentence with a lot inside it. The joke at her own expense makes the gratitude easier to say, but doesn't erase it.
 
 **Identity cross-reference:** [Rose](/cast/rose) is the canonical dossier for this same account. This alias entry retains the QOTD and Wall episode index.
 
