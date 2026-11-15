@@ -1,3 +1,10 @@
+## 2026-11-15 11:40 PST — Main HQ Rich/Ren Wall exchange and Gabu dossier verification
+
+- Fresh full MAIN miner census: 30 active HEADs checked, zero new/advanced; MAIN branch-state commit `4688c64873e0eb5570abe480e1d891d1ffd5f260`. Five pending-publication families and one backlog category remain; August Reunion / Backroom Deals / Photo Submissions consumption gaps not closed.
+- Source `archive-miner/main-hq-hourly:archive-intake/main-hq-2022-2026-tail-20260819/site-candidates-2026-08-26-1445.md`, receipts `884558665024151603` (Rich), `884559468929646592` (Ren true reply). MAIN `src/content/people/rich.md` commit `3aea5bf6607c2886e27b66a661f5899b981cc4d9` restores the September 2021 shirtless-VC joke and corrects a separate Gabu pronoun error. Exact MAIN reader build/Cloudflare live commit PENDING; do not mark fully published yet. WIKI Rich dossier intentionally not mirrored: compact personal exchange suits MAIN biography rather than an independent structured episode.
+- Prior WIKI Gabu YAML correction `bd413b5ffd636b7dd69a7a90f1170ae3719fcdd4` now has successful GitHub Actions build `43748016908` and successful preview workflow `43748016929` (build, deploy, report all successful). This verifies preview, not independently the exact public production URL.
+- Main HQ / August Reunion checkpoints reviewed directly on their miner branches; Run 28 Momo Anansa/Fire Legacy already present on MAIN and Snow JAG/Yumi period-piece already present on both surfaces, so duplicates suppressed. Uninspected Gilli screenshot and Namo duo GIF remain source-blocked. Remaining accepted A/B candidate count unverified. No consumed SHA advanced.
+
 ## 2026-11-15 04:35 PST — Main HQ Panda/Eos fake-LA reader repair
 
 - Full MAIN REST census: 137 remote branches / 30 active miner branches / zero newly discovered or advanced HEADs; persisted MAIN `archive-intake/INTEGRATOR_BRANCH_STATE.json` commit `884465513ad55d9108291cc86f2f78db89dc67ea`. Three active miner branches remain behind consumed cursors: August Reunion, Backroom Deals, Photo Submissions. No consumed SHA advanced; five pending-publication families and one backlog category remain.
