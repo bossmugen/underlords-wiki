@@ -1,3 +1,10 @@
+## 2026-11-15 02:35 PST — Main HQ Ansun/Bubbles Lobby person-first repair
+
+- MAIN `src/content/people/ansun.md` reader commits `8c965be1aa56296bb857e6f7450bb1e25df6fa15` and formatting fix `ff39899acbd6253a0ce146915c8d97a9257683f2`: Bubbles' May 22, 2022 `drunko boobles` intake, server-name confusion, remembered Underlords affiliation, and Ansun's patient field-by-field routing integrated into his existing hallway/onboarding biography. Source `archive-miner/main-hq-hourly:archive-intake/main-hq-2022-2026-tail-20260819/site-candidates-2026-08-25-1745.md`, candidate 2. No literal intoxication/age/rank inference.
+- WIKI Ansun dossier already documents general onboarding and routing. This individual character scene was assigned MAIN-only rather than mirrored as a standalone dossier episode; revisit if a broader Bubbles dossier is created.
+- MAIN full REST census 137 remote branches / 30 active miners / zero new or advanced HEADs, persisted `5d23693647bd0056eb263486cd3689f3dd6682d3`. Club-Only and August Reunion checkpoints read directly. No consumed SHA advanced; accepted August Reunion/Main HQ A/B remainder uncounted. Main HQ GIF duo remains source-blocked pending original media.
+- MAIN reader exact-commit workflow [43704465376](https://github.com/bossmugen/underlords/actions/runs/43704465376) was in progress at last check; deployment not yet verified. WIKI no reader change/build.
+
 ## 2026-11-14 22:39 PST — Main HQ Nobu text-safe backlog repair (verification pending)
 
 - MAIN `src/content/people/nobu.md` reader commit `de3d9fdbad7859495ee4f6df3740b1346f8ff286`: Nobu's January 2024 `Don't worry. I got you.` → `*Nyaa*~` reply to Marian's white-screen complaint, followed by Marian's regret and Nobu's Fat_Wheeze. Source `archive-miner/main-hq-hourly:archive-intake/main-hq-2022-2026-tail-20260819/site-candidates-2026-08-25-0745.md`; receipts `1197710609869975632`, `1197711732253134928`. Main source reread passed; no Actions run surfaced at first check; live deployment pending. No catboy recurring identity invented.
