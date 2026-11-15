@@ -1,3 +1,9 @@
+## 2026-11-15 14:38 PST — Main HQ Wall permission labels
+
+- Fresh MAIN census: 137 remote branches / 30 active miner branches, all 30 HEAD SHAs matched, zero new/advanced. Persisted MAIN commit `b96aced10b0815636c8b3484cc234e62248e2743`. Existing consumption cursors unchanged; five pending-publication families and one backlog remain.
+- Main HQ source: `archive-miner/main-hq-hourly:archive-intake/main-hq-2022-2026-tail-20260819/site-candidates-2026-08-26-1845.md`; historical Wall permission-label receipts `779226650034438155`, `929443383720677406`, `1085284751402868737` (2020, 2022, 2023). MAIN `src/pages/archive/wall.astro` commit `7c5d85d19ed1c48cdfa3e1fd29735222327a2202` restores these text-safe labels in the visible room history and source notes, without claiming universal permission. Exact build run `43770329245` queued at first check; production pending verification. No private screenshot or officers-only content was published.
+- WIKI reader files intentionally unchanged: this is MAIN room-history narrative rather than a new cast dossier or independent episode. Main HQ A/B candidate remainder still uncounted; Gilli/Namo media attribution remains blocked. Club-Only recovery remains open. No consumed SHA advanced.
+
 ## 2026-11-15 11:40 PST — Main HQ Rich/Ren Wall exchange and Gabu dossier verification
 
 - Fresh full MAIN miner census: 30 active HEADs checked, zero new/advanced; MAIN branch-state commit `4688c64873e0eb5570abe480e1d891d1ffd5f260`. Five pending-publication families and one backlog category remain; August Reunion / Backroom Deals / Photo Submissions consumption gaps not closed.
