@@ -29,14 +29,14 @@ claims:
     sources:
       - label: "👅 Wall · messages 878161405231120384 / 1092577410949595136"
     note: "Backroom pass 24. Attached triggering images not inspected; no visual description or subject attribution."
-  - text: "On 2023-01-01 DarkAsrai asked Rummy to spar as a check on how much combat they remembered; Rummy agreed and warned she would be 'very swuiShy'."
+  - text: "On 2023-01-01 DarkAsrai asked Rummy to spar as a check on how much combat she remembered; Rummy agreed and warned she would be 'very swuiShy'."
     evidence: "archive-confirmed"
     date: "2023-01-01"
     sources:
       - label: "Backroom Pass 39 · Wall of Shame/Fame 1059054774500212746 / 1059054880221827112 / 1059055212129689640"
         href: "/channels/wall"
     note: "Informal sparring invitation, not evidence of formal training or a hiatus."
-  - text: "DarkAsrai posted a POPSTAR Photoshoot entry on 2021-08-17 naming Aizzy as the person posing with them on the ferris wheel."
+  - text: "DarkAsrai posted a POPSTAR Photoshoot entry on 2021-08-17 naming Aizzy as the person posing with her on the ferris wheel."
     evidence: "archive-confirmed"
     date: "2021-08-17"
     sources:
