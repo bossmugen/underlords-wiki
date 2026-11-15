@@ -260,6 +260,21 @@ The old UL relationship map resurfaced in the August 2026 Whiskey reunion when R
 
 This is a reunion callback to the Tumbleweed that Anthos was updating in September 2020, not proof that the exact same image file survived unchanged. Rummy's part was bringing the object back to the room, where its sheer density was once again the joke.
 
+## Episode: Agent Badge, Uncertain Door
+
+**October 16, 2024 — Dragon Raja application help.** Wolf Phenix asked Sye to give Rummy a role so she could help with incoming applications while he was occupied. Wolf identified her in-game name as Mochi (with additional characters); Sye briefly confused that name with another Discord Mochi before replying **`i made her agent`**. Seven seconds later she added that she was not sure whether Agent actually allowed invitations.
+
+| Source message | Attribution | Recorded action |
+| --- | --- | --- |
+| `1296242392516657213` | Wolf Phenix | Requests role for Rummy to help with applications |
+| `1296249357250728062`, `1296249421142429768` | Sye | Questions which Mochi is meant |
+| `1296253248654671992` | Sye | Says she assigned Agent |
+| `1296253278945935452` | Sye | Unsure whether Agent grants invite permission |
+
+**Role boundary:** Agent is the named in-game role in Sye's message, not evidence of a formal UL officer appointment. Actual invite permission and Rummy's response are not recorded in this exchange. This is a concrete recruiting-support request, not proof of subsequent application processing.
+
+Source: BACKROOM `site-candidates-pass-53.md`, `receipts-pass-53.md`.
+
 ## New Account, Same Rummy
 
 On July 7, 2026, Ren announces that Rummy's old Discord account has been hacked and identifies **rummy00.9.** as the replacement. The Lobby Bouncer reruns the normal check-in, but this is account continuity, not a new person or a new membership story.
