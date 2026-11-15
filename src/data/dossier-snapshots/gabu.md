@@ -57,7 +57,7 @@ claims:
       - label: "📬 Photo Submissions · 2021"
         href: "/events/photo-submissions"
     note: "Gabu maintained the event reminders; this does not establish that she programmed Saber or held a separate formal Photoshoot office."
-  - text: "On April 17, 2023 Gabu pinned `Gabu\'s alerts check` and tested Saber\'s weekday ten-minute and start alerts before deciding whether Carl could replace it. Her checklist included `Broken Contests` and `Spank Mugs Booty` alongside ordinary Dragon Raja event names."
+  - text: "On April 17, 2023 Gabu pinned `Gabu's alerts check` and tested Saber's weekday ten-minute and start alerts before deciding whether Carl could replace it. Her checklist included `Broken Contests` and `Spank Mugs Booty` alongside ordinary Dragon Raja event names."
     evidence: "archive-confirmed"
     date: "2023-04-17"
     sources:
