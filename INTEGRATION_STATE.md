@@ -1,3 +1,10 @@
+## 2026-11-16 07:47 PST — BACKROOM Passes 38–39 reader reconciliation
+
+- Full MAIN REST census: 137 remote branches, 30 active miner HEADs, zero new or advanced; MAIN branch-state commit `9c333ba70bbe57cd25c65c3596d413ef1e01b6a7`.
+- BACKROOM checkpoint and Passes 38–39 candidate/receipt handoffs reviewed directly from `archive-miner/backroom-deals-2026-08-24`. Panda lychee, Akane/Dreamless WALTZ, Daya mock-crime, Torr semicolon normalization, and Dark/Rummy combat-memory already covered in MAIN; no duplicates.
+- MAIN Rummy Petty Crimes now includes DarkAsrai's March 2023 screenshot/tag and Rummy's `LOOOK AWAY-` flight, reader commit `f82d4517a83ff9c519d95cf5c72b08ff2e6a22ae`. Source reread passed; Actions run `43900343321` in progress at last check, production NOT verified. Separate Anna screenshot and underlying Rummy screenshot remain uninspected; no identity or visual assertions.
+- WIKI reader intentionally unchanged; the beat fits MAIN's person-first biography, not a standalone structured episode. BACKROOM partial inventory updated MAIN `930ad854a9109d294504004e04c47ae607b49839`. Complete 61-pass accepted A/B disposition remains unresolved; consumed cursor unchanged.
+
 ## 2026-11-16 03:30 PST — BACKROOM Anthos verified; Pass 36 deduped
 
 - MAIN REST census: 137 branches, 30 active miners, no new/advanced SHA; MAIN census `e93bdec774918888d4a605e4c4ba7c2c096905ee`.
