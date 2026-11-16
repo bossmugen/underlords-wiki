@@ -1,3 +1,9 @@
+## 2026-11-16 09:40 PST — MAIN Gilli production verification and full census
+
+- MAIN 137 remote branches / 30 active miner HEADs, all 30 SHA-matched current ledger; zero new/advanced. Census persisted MAIN commit `686f0ae5d1263169cbd44ef5b3cc2aa454220e42`. August Reunion, Backroom Deals, Photo Submissions remain unconsumed; no cursor advanced.
+- MAIN Gilli hydration wording reader commit `137e9128c4d1afc7f0dc91d706ebd0393f7fac00` verified via GitHub Actions run `43909699928`, job `133447926806`, exact-commit build, Cloudflare deployment and live-commit confirmation all SUCCESS. Source `site-candidates-2026-08-26-1345.md`, message `839317723020656690`. This clears its prior pending-verification hold; does not exhaust Main HQ A/B backlog.
+- Main HQ `checkpoint.md`, August Reunion `checkpoint.md` and `site-candidates.md` read directly on miner branches. Main HQ `site-candidates-2026-08-26-1445.md` Gabu stripclub reversal and Rich shirtless-VC scene already integrated in MAIN biographies; duplicate suppressed. No WIKI reader change; no new build. Gilli/Namo media still source-blocked; full accepted A/B remainder uncounted.
+
 ## 2026-11-16 09:35 PST — BACKROOM Pass 40 fake entrance exam
 
 - Fresh MAIN REST census 137 remote branches / 30 active miners / zero advanced, persisted MAIN `c7fdd15603d91b0963bf4b9b905135a3e320aa5d`.
