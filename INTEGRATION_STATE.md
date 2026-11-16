@@ -1,3 +1,9 @@
+## 2026-11-15 21:38 PST — BACKROOM Mugen Rule #92 MAIN reader; WIKI not duplicated
+
+- Full paginated MAIN census: 137 branches, 30 active miner HEADs unchanged. Persisted MAIN state commit `3116db724fd7dd172fdfce3114e2519dccb204f5`.
+- BACKROOM `site-candidates-pass-56.md` and `receipts-pass-56.md` restored Mugen's invented `UL rule #92` to MAIN `src/content/people/mugen.md` Petty Crimes; commit `2e6305ecba190424a326ce2b3a23b03ef79dfbf8`. Source reread PASS. Production workflow `43811115030` queued; do not mark integrated until build and live-commit confirmation.
+- WIKI reader intentionally unchanged: a small person-first gag belongs in MAIN, not an invented standalone wiki episode. BACKROOM full A/B inventory remains unresolved; consumed cursor unchanged. Uninspected media/private rooms held.
+
 ## 2026-11-15 21:19 PST — Ansun MAIN live verification closed; QOTD source boundary retained
 
 - MAIN `src/content/people/ansun.md` commit `726b7c0233644a1107c8df27d23ca4d536a7e2e5` verified via production Actions `43804831455`, job `133093092668`: SUCCESS, including `Verify, build, deploy, and confirm live commit`. Earlier pending verification cleared. MAIN branch census and verification persisted in `b160be510141c050f430812f89be90dcbac37743`; 30 active miner branches unchanged among 137 remote branches. No consumption SHA advanced.
