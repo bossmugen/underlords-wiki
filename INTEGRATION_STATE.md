@@ -1,3 +1,10 @@
+## 2026-11-16 02:00 PST — Oyasumi production verified; HQ/Reunion dedupe audit
+
+- Fresh MAIN REST census: 137 remote branches, 30 active miner branches, zero new or advanced HEADs. MAIN census commit `583c2cc0cb0e3697bd8b478f5579de16f6a803f9`.
+- MAIN Oyasumi light-mode flashbang reader `src/content/people/oyasumi.md` commit `7f60a8eb08f79d000181a4f5efe5f0f47238da15` verified by Actions run `43833606087`, job `133184649833`, SUCCESS. Exact-commit checkout, build, Cloudflare deploy, and live-commit confirmation step all succeeded. This clears the prior pending-verification dependency.
+- Direct miner checkpoints read: `archive-miner/main-hq-hourly`, `archive-miner/aug-2026-living-ensemble-hourly` (Run 28), and `archive-miner/club-only-2021-2026-hourly`. HQ candidate files `site-candidates-2026-08-25-0745.md`, `0845.md`, `0945.md`, `1045.md`, `1145.md`, `1245.md`, `1345.md` compared to MAIN people pages: Cookie/Tofu DM annex, Nobu light-mode nyaa, Nhou coffee enemas, Illien pay-per-view, Yumi trash anime/Suzi, Shiki bot dogpile, Akamin skating, Rooks Disney Store, Hishiro loot/karaoke already represented; do not duplicate.
+- WIKI reader unchanged because these are already represented in MAIN and no new independent structured dossier item was established. August Reunion/Main HQ accepted A/B remainder still uncounted. Gilli/Namo uninspected original media remain source-blocked. Outstanding consumption gaps: August Reunion, Backroom Deals, Photo Submissions; no consumed SHA advanced.
+
 ## 2026-11-16 01:39 PST — BACKROOM Anthos pinned-index reader; WIKI deduped
 
 - Fresh MAIN REST census: 137 branches, 30 active miner HEADs, zero new/advanced/missing; MAIN branch-state census commit `c0b8e4ab`.
