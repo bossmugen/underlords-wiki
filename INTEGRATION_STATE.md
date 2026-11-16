@@ -1,3 +1,9 @@
+## 2026-11-16 10:33 PST — BACKROOM Pass 40 production verified; Passes 53–55 deduped
+
+- MAIN Mugen fake staff entrance-exam Petty Crimes reader `b1605cec7dfd2af4b6bbc983364aad4c0f8e5811` verified via Actions run `43919600597`, job `133483006459`, SUCCESS including exact checkout/build/Cloudflare deploy/live-confirm. Source `site-candidates-pass-40.md`, receipts `869942657189814292`, `869944680626925639`, `869945430484607056`.
+- Fresh REST census: 137 remote branches / 30 active miner branches / zero advanced/new; MAIN state commit `011e43392c14792de846c5e8eb1b5fef4a2a49b6`.
+- BACKROOM Passes 53–55 compared with MAIN `src/content/people/amexistir.md` and `shimoko.md`: existing coverage of Spanish onboarding, return/officer role, Ren welcome and RELAX submission; no duplicate reader text. Distinct `ame._.` identity unmerged. Restricted officer-room deliberations and uninspected media remain held. WIKI reader unchanged; no new WIKI build/deployment. BACKROOM 61-pass inventory incomplete, consumed SHA unchanged.
+
 ## 2026-11-16 09:40 PST — MAIN Gilli production verification and full census
 
 - MAIN 137 remote branches / 30 active miner HEADs, all 30 SHA-matched current ledger; zero new/advanced. Census persisted MAIN commit `686f0ae5d1263169cbd44ef5b3cc2aa454220e42`. August Reunion, Backroom Deals, Photo Submissions remain unconsumed; no cursor advanced.
