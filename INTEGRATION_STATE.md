@@ -1,3 +1,10 @@
+## 2026-11-16 01:39 PST — BACKROOM Anthos pinned-index reader; WIKI deduped
+
+- Fresh MAIN REST census: 137 branches, 30 active miner HEADs, zero new/advanced/missing; MAIN branch-state census commit `c0b8e4ab`.
+- BACKROOM miner `archive-miner/backroom-deals-2026-08-24` Pass31 checkpoint, site candidates and receipts read directly. Anthos's 2020-09-29 pinned `Underlords Organisation Update` and her `ill just keep adding it like that` folded into MAIN `src/content/people/anthos.md` commit `7bbd8439` (receipts `760564322182103111`, `760564355162308609`, `760569584234659881`). Source reread passed. Exact Actions run not yet surfaced; production verification PENDING. Do not advance consumed cursor.
+- Illien's alcoholic-noodle/obsessive correction, Zoshaa/Ren Orb, and SaraBunny Lobby-to-BEACH are already in MAIN; no duplicate. WolfPhenix `silent but deadly` remains a joke-index tag, not literal personality evidence. Images uninspected.
+- WIKI reader intentionally unchanged: structured Anthos/Tumbleweed treatment already exists; MAIN receives the person-first scene. BACKROOM inventory partial; 61 pass files plus cumulative handoff still need complete accepted A/B disposition.
+
 ## 2026-11-16 00:42 PST — MAIN Oyasumi light-mode flashbang; WIKI deduped
 
 - Full fresh paginated MAIN census: 30 active miner branches, zero advanced/new against `archive-intake/INTEGRATOR_BRANCH_STATE.json` (latest ledger updated 2026-11-16T08:42:00Z); outstanding consumed gaps: August Reunion, Backroom Deals, Photo Submissions. No consumed cursor advanced.
