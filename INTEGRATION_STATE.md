@@ -1,3 +1,9 @@
+## 2026-11-16 14:35 PST — August Reunion Wall production verification
+
+- MAIN August Reunion `THROWBACK SHAMES WERE ALREADY A THING` Wall reader commit `0766c099f512e57b6aacea75015170433c47672e` is verified by GitHub Actions production run `43961431682`, job `133629561215`: exact checkout, verify/build/deploy/live-confirmation step all SUCCESS. Source: August Reunion `site-candidates.md`, receipts `820514157710671882` and `946484073768054815`. This clears that specific candidate's deployment hold, not the entire August Reunion intake.
+- Fresh MAIN full REST census: 137 branches, 30 active miners, zero advanced; persisted `30c1a5b78f045b01ee0498741775e92dcde4d0c0`. Three unconsumed branches: August Reunion, Backroom Deals, Photo Submissions. No consumption cursor advanced; remaining accepted A/B count unresolved.
+- WIKI reader unchanged: this is MAIN Wall narrative; a distinct structured WIKI entry requires its own coverage comparison. Gilli/Namo media attribution remains blocked.
+
 ## 2026-11-16 14:31 PST — BACKROOM Nelph/Nelphie canonical reader repair
 
 - MAIN fresh REST census: 137 remote branches, 30 active miner branches, no new/advanced HEADs. Census persisted `c3f3b849e204305553b6829fda1dba4b5244747a`.
