@@ -1,3 +1,9 @@
+## 2026-11-15 20:32 PST — MAIN Ansun hydration takeover; WIKI deduped
+
+- Full MAIN census: 137 branches, 30 active miner HEADs, all 30 unchanged. Persisted MAIN census `ef8821e0`; MAIN publication state `3de32e47`. August Reunion, Backroom Deals and Photo Submissions still have unconsumed active branch gaps; no consumed SHA advanced.
+- Direct Main HQ source: `archive-miner/main-hq-hourly:archive-intake/main-hq-2022-2026-tail-20260819/site-candidates-2026-08-26-0145.md`, Ansun/Gilli hydration takeover receipt `886692241685487627`. MAIN `src/content/people/ansun.md` person-first care/humor integration commit `726b7c0233644a1107c8df27d23ca4d536a7e2e5`. Postcommit source reread PASS. MAIN workflow `43804831455` queued, exact build/live verification pending. Candidate not marked fully integrated yet.
+- WIKI reader intentionally unchanged: small lived-care moment fits MAIN biography, not a separate structured episode. Main HQ/ August Reunion complete accepted A/B candidate count remains unreconciled. Gilli/Namo original-media blocks remain. No privacy-sensitive media published.
+
 ## 2026-11-15 19:27 PST — BACKROOM Wall deployment verified
 
 - MAIN BACKROOM Pass21 watermelon-mustard exhibit `src/lib/wall-archive-exhibits.ts` commit `b785c6019a65f5c08f5199c3c405fe2578263392`: production workflow `43787002643`, job `133036779000`, **SUCCESS**, including exact verify/build/deploy/live-confirm step. Prior unverified hold cleared for this candidate only.
