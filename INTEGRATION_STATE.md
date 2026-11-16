@@ -1,3 +1,9 @@
+## 2026-11-15 17:35 PST — complete census and August/Main HQ reconciliation
+
+- MAIN branch census persisted in commit `36342276775ccb56c4fc59aed04bd2491ca984fc`: all 30 active miner HEADs individually checked, zero new/advanced; August Reunion, Backroom Deals and Photo Submissions remain unconsumed publication families. No consumed SHA advanced.
+- Read Main HQ and August Reunion checkpoints directly from their miner branches, including August Run 28. Compared Main HQ Feli 2020 entrance/2023 Wall material against MAIN `src/content/people/feli.md` and WIKI `src/data/dossier-snapshots/feli.md`; both already carry the person and scenes. Run 28 Momo Anansa/Fire Legacy already recorded as integrated in previous MAIN reconciliation. No duplicate reader edits.
+- Main HQ uninspected image attributions and August reunion missing media remain blocked. Full accepted A/B candidate remainder still uncounted; no new reader publication or build this pass. BACKROOM Sota reader commit `634ef64f` has no matching commit workflow runs returned by connector, so exact production verification remains open.
+
 ## 2026-11-15 16:33 PST — BACKROOM Sota Wall reader repair (MAIN only)
 
 - Full MAIN remote census: 137 branches, 30 active miner HEADs, all 30 matched ledger; no new or advanced branch. BACKROOM source `archive-intake/chat-2026-08-24-backroom-batch-miner/site-candidates-pass-20.md`, Sota receipt `1092269829546840126`.
