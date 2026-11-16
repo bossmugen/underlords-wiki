@@ -1,3 +1,9 @@
+## 2026-11-15 16:33 PST — BACKROOM Sota Wall reader repair (MAIN only)
+
+- Full MAIN remote census: 137 branches, 30 active miner HEADs, all 30 matched ledger; no new or advanced branch. BACKROOM source `archive-intake/chat-2026-08-24-backroom-batch-miner/site-candidates-pass-20.md`, Sota receipt `1092269829546840126`.
+- MAIN `src/pages/archive/wall.astro` adds Sota's April 2, 2023 self-coronation to the Wall chronology, reader commit `634ef64fedd9d40221d48f24859bee963888a150`. Exact Actions/build/Cloudflare live verification **pending**. No WIKI reader change: this is a Wall narrative detail, not an independently warranted structured dossier rewrite.
+- BACKROOM consumed SHA remains `68d2fba7adda1f110a9be57013dd7712c450f82d`; branch HEAD `9c143a7c146af4fc90de4b258bee1c848a2818a0`. Candidate remainder not certified (61 numbered pass candidate files plus cumulative handoff). No private-room or uninspected media content published.
+
 ## 2026-11-15 15:35 PST — Main HQ Wall permission labels verified
 
 - MAIN `src/pages/archive/wall.astro` reader commit `7c5d85d19ed1c48cdfa3e1fd29735222327a2202`, source `site-candidates-2026-08-26-1845.md`, receipts `779226650034438155`, `929443383720677406`, `1085284751402868737`: exact GitHub Actions run `43770329245`, job `132984574758`, completed **success**, including `Verify, build, deploy, and confirm live commit`. This verifies the workflow's exact-commit live deployment step; independent browser inspection not performed.
