@@ -2062,3 +2062,10 @@ Photo miner `archive-miner-photo-submissions-2021`, last-known HEAD `d45d441feca
 - BACKROOM `archive-miner/backroom-deals-2026-08-24`, `archive-intake/chat-2026-08-24-backroom-batch-miner/site-candidates-pass-21.md` and `receipts-pass-21.md`: July 2, 2021 watermelon/mustard discussion (Tofu `860706792131264534`, Ghoulie `860707042544320523` / `860707118825603082`, Ren `860707618045296688`, Woohyuk `860725911074111508` / `860725938974228522` / `860726027821908061`). Distinct character opinions, no actual consumption inferred.
 - MAIN `src/lib/wall-archive-exhibits.ts` reader commit `b785c6019a65f5c08f5199c3c405fe2578263392` adds dedicated receipt-backed exhibit. Source reread and current blob verified at commit creation. New production workflow and live deployment PENDING verification. WIKI reader unchanged: this is an ensemble Wall episode rather than a new cast-dossier fact.
 - Full BACKROOM accepted A/B candidate remainder still uncounted; do not mark family consumed. Other holds: uninspected visual assets, private-room material, unresolved Snow/Nintendo image, grasshopper and original Shame War context. Club-Only recovery retains its independent lane.
+
+
+## 2026-11-15 22:34 PST — BACKROOM Mugen Rule #92 production verification
+
+- MAIN `src/content/people/mugen.md` reader commit `2e6305ecba190424a326ce2b3a23b03ef79dfbf8` (BACKROOM `site-candidates-pass-56.md` / `receipts-pass-56.md`, message IDs `1389238061359042570`, `1389238147015118899`, `1389238197795426396`) verified by GitHub Actions run `43811115030`, job `133112770149`, SUCCESS including exact verify/build/deploy/live-confirm step.
+- WIKI reader unchanged: this is MAIN person-first Petty Crimes material, not a missing structured episode. No duplicate text.
+- 30 miner branch names rediscovered; prior 30/30 SHA census retained but not independently reverified this pass. BACKROOM accepted A/B candidate inventory remains uncounted; no consumed SHA advancement. Uninspected media and private-room evidence remain held.
