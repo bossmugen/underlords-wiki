@@ -1,3 +1,10 @@
+## 2026-11-16 00:42 PST — MAIN Oyasumi light-mode flashbang; WIKI deduped
+
+- Full fresh paginated MAIN census: 30 active miner branches, zero advanced/new against `archive-intake/INTEGRATOR_BRANCH_STATE.json` (latest ledger updated 2026-11-16T08:42:00Z); outstanding consumed gaps: August Reunion, Backroom Deals, Photo Submissions. No consumed cursor advanced.
+- Main HQ direct checkpoint and `site-candidates-2026-08-25-0745.md`: Oyasumi reused the external Tenor `cat-blind-flashbang-light-mode` reaction on 2023-03-19, 2023-09-25 and 2024-10-10 (receipts `1087126417864659054`, `1155979862385885214`, `1293972065115967641`); light-mode Wall indictment folded into MAIN `src/content/people/oyasumi.md` commit `7f60a8eb08f79d000181a4f5efe5f0f47238da15`. Source reread PASS; GitHub Actions run not yet surfaced, build/live production PENDING. No GIF media copied or attributed to UL.
+- Previous MAIN Rummy reader `661312335531fce211f02876c331d7cf55655fbe` verified via Actions `43818115486`, job `133134713734`, SUCCESS including exact verify/build/deploy/live-confirm step. This closes that candidate's pending verification only.
+- WIKI reader unchanged: the repeated reaction-GIF habit belongs in Oyasumi's MAIN person-first biography; no redundant structured dossier episode. Main HQ/August Reunion complete A/B remainder remains uncounted; Gilli/Namo media attribution held.
+
 ## 2026-11-15 22:44 PST — MAIN Rummy dark-mode probation, WIKI deduped
 
 - Full MAIN branch census: 137 remote, 30 miner HEADs individually verified, zero advanced/new; MAIN ledger commit `88fd298e18fe96faf2b3d15adbee4366531fce9d`. Three unconsumed gaps: August Reunion, Backroom Deals, Photo Submissions.
