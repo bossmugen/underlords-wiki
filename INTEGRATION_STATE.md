@@ -1,3 +1,9 @@
+## 2026-11-15 22:44 PST — MAIN Rummy dark-mode probation, WIKI deduped
+
+- Full MAIN branch census: 137 remote, 30 miner HEADs individually verified, zero advanced/new; MAIN ledger commit `88fd298e18fe96faf2b3d15adbee4366531fce9d`. Three unconsumed gaps: August Reunion, Backroom Deals, Photo Submissions.
+- Main HQ `site-candidates-2026-08-25-0445.md` Rich/Rummy 2022–2024 light-mode enforcement joke integrated into MAIN `src/content/people/rummy.md` commit `661312335531fce211f02876c331d7cf55655fbe`; source reread PASS, GitHub Actions not yet surfaced, live verification PENDING. Receipts `1037522036379111447`, `1050948571643515000`, `1294301478542118923`, `1294333582164234321`, `1294496149339635733`. No media claims.
+- WIKI reader intentionally unchanged: lived Rich/Rummy relationship texture belongs to MAIN biography; structured wiki scene not needed. Club-Only checkpoint inspected; recovery remains open. Full August Reunion/Main HQ A/B remainder uncounted; no consumed SHA advanced.
+
 ## 2026-11-15 22:14 PST — BACKROOM Rule #92 production verification; QOTD DiStratus dedupe
 
 - MAIN Mugen Rule #92 reader commit `2e6305ecba190424a326ce2b3a23b03ef79dfbf8` production workflow [43811115030](https://github.com/bossmugen/underlords/actions/runs/43811115030), job `133112770149`, completed SUCCESS, including `Verify, build, deploy, and confirm live commit`. Prior pending-verification hold for this specific reader commit cleared; no claim of broader BACKROOM completion.
