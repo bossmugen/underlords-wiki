@@ -1,3 +1,10 @@
+## 2026-11-16 08:36 PST — Main HQ Gilli hydration correction
+
+- MAIN full REST census 137 remote branches / 30 active miners / zero new or advanced; census commit `04e7f9b985e8817e4ecf4b8dd082eff71b1c608f`.
+- MAIN `src/content/people/gilli.md` exact hydration threat `DRINK WATER OR I'LL BURY YOU` integrated within existing caretaker passage; reader commit `137e9128c4d1afc7f0dc91d706ebd0393f7fac00`. Source Main HQ `site-candidates-2026-08-26-1345.md`, receipt `839317723020656690`. Source reread PASS. New Actions run not yet surfaced; Astro build/Cloudflare live PENDING, do not mark candidate integrated or advance consumed cursor.
+- WIKI reader unchanged: this exact line deepens MAIN person-first voice; structured hydration references already belong to existing WIKI dossiers. No WIKI build/deployment.
+- HQ/August Reunion and Club-Only checkpoints read directly. Existing Nelph, Snow, Noether/Hami, Rooks, Scar, New, Rummy, Moon, Ren and other candidates deduped against current MAIN. Gilli/Namo original media still source-blocked; complete accepted A/B candidate remainder not counted. August Reunion, Backroom Deals, Photo Submissions consumption gaps remain.
+
 ## 2026-11-16 07:47 PST — BACKROOM Passes 38–39 reader reconciliation
 
 - Full MAIN REST census: 137 remote branches, 30 active miner HEADs, zero new or advanced; MAIN branch-state commit `9c333ba70bbe57cd25c65c3596d413ef1e01b6a7`.
