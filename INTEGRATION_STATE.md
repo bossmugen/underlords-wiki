@@ -1,3 +1,9 @@
+## 2026-11-16 14:31 PST — BACKROOM Nelph/Nelphie canonical reader repair
+
+- MAIN fresh REST census: 137 remote branches, 30 active miner branches, no new/advanced HEADs. Census persisted `c3f3b849e204305553b6829fda1dba4b5244747a`.
+- BACKROOM Pass 59 same-account correction: `nelph.md` and `nelphie.md` both represented Discord account `357270773443854346`. MAIN canonical `src/content/people/nelph.md` retained with full person-first story and `Nelphie` alias. MAIN dynamic route `src/pages/people/[id].astro` excludes the duplicate `nelphie` content ID; new `src/pages/people/nelphie.astro` redirects old URL to `/people/nelph` with 301. Reader commits `38adc2e647bccbcfaca8b6e461f29d4e792dd3a1`, `1c6acc38d406c92585ada1927cad27c5ec9a4e80`.
+- MAIN workflow `43970933395` pending at review time; **do not certify deployment** or mark duplicate candidate fully integrated until exact-commit build/live confirmation. WIKI structured reader unchanged to avoid duplicate narrative. BACKROOM 61-pass candidate inventory remains incomplete; consumption cursor unchanged. Media/private safety holds unchanged.
+
 
 ## 2026-11-16 12:34 PST — BACKROOM Kahoot Pass 59 reconciliation
 
