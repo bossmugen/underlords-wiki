@@ -1,3 +1,10 @@
+## 2026-11-16 09:35 PST — BACKROOM Pass 40 fake entrance exam
+
+- Fresh MAIN REST census 137 remote branches / 30 active miners / zero advanced, persisted MAIN `c7fdd15603d91b0963bf4b9b905135a3e320aa5d`.
+- BACKROOM checkpoint and Pass 40–52 candidate handoffs compared against MAIN reader pages; Pass 41 Ghoulie/Lilly and Pass 42 Tae/Key already present, as are Rich's family-tree reference and many later Photoshoot candidates. No duplicate wiki prose.
+- New MAIN person-first Mugen Petty Crimes addition: Snow's pasties discussion → Mugen's fictional staff `entrance exam` → Anayss's Kahoot ideas. Source `site-candidates-pass-40.md` / `receipts-pass-40.md`, messages `869942657189814292`, `869944680626925639`, `869945430484607056`. MAIN reader `b1605cec7dfd2af4b6bbc983364aad4c0f8e5811`, source reread passed; Actions/live **pending**. WIKI reader intentionally unchanged: tiny character behavior belongs MAIN; no standalone structured episode required.
+- MAIN inventory `archive-intake/BACKROOM_PUBLICATION_INVENTORY_PARTIAL.md` updated. Club-Only 2021–2026 checkpoint read directly for anti-starvation; no new public candidate accepted from that lane. BACKROOM complete 61-pass A/B inventory still uncounted; no consumed SHA advanced. Uninspected media and private officer-room material held.
+
 ## 2026-11-16 08:36 PST — Main HQ Gilli hydration correction
 
 - MAIN full REST census 137 remote branches / 30 active miners / zero new or advanced; census commit `04e7f9b985e8817e4ecf4b8dd082eff71b1c608f`.
