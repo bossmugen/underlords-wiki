@@ -2096,3 +2096,10 @@ Photo miner `archive-miner-photo-submissions-2021`, last-known HEAD `d45d441feca
 - MAIN `src/content/people/mugen.md` reader commit `2e6305ecba190424a326ce2b3a23b03ef79dfbf8` (BACKROOM `site-candidates-pass-56.md` / `receipts-pass-56.md`, message IDs `1389238061359042570`, `1389238147015118899`, `1389238197795426396`) verified by GitHub Actions run `43811115030`, job `133112770149`, SUCCESS including exact verify/build/deploy/live-confirm step.
 - WIKI reader unchanged: this is MAIN person-first Petty Crimes material, not a missing structured episode. No duplicate text.
 - 30 miner branch names rediscovered; prior 30/30 SHA census retained but not independently reverified this pass. BACKROOM accepted A/B candidate inventory remains uncounted; no consumed SHA advancement. Uninspected media and private-room evidence remain held.
+
+## 2026-11-16 02:47 PST — Main HQ Nobu cloud nickname (MAIN-only, pending verification)
+
+- Full MAIN REST census: 137 remote branches, 30 miner branches, zero new/advanced HEADs; MAIN census commit `49d3a1708fe80e97eeb43b50ade2324d6d35d560`.
+- MAIN `src/content/people/nobu.md` reader commit `d37c111205aaa467787b8065ddf4762e9f9a18d9` adds the Nobu `nube`/`nubecita`/Moomin-cloud joke to Petty Crimes; Main HQ `site-candidates-2026-08-25-1045.md`, receipts `1022349819647377479`, `1022351266896158791`, `1022351301499158628`, `1022351325347991573`, `1022351352942309446`. Postcommit source reread passed. Actions run `43852084799` QUEUED at check; Astro build/Cloudflare live commit unverified. Keep pending verification.
+- WIKI Nobu dossier already holds structured relationship/role history. This single small nickname scene is MAIN-only, not mirrored as a new episode. Eos/Marian household material in MAIN Eos is already present; do not duplicate.
+- August Reunion/Main HQ accepted A/B remainder still uncounted; August Reunion, Backroom Deals, Photo Submissions consumption gaps remain. Gilli/Namo media attribution remains blocked; Club-Only checkpoint was read directly and its target-room retrieval remains blocked. No consumed SHA advanced.
