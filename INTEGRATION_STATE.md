@@ -1,3 +1,9 @@
+## 2026-11-15 19:27 PST — BACKROOM Wall deployment verified
+
+- MAIN BACKROOM Pass21 watermelon-mustard exhibit `src/lib/wall-archive-exhibits.ts` commit `b785c6019a65f5c08f5199c3c405fe2578263392`: production workflow `43787002643`, job `133036779000`, **SUCCESS**, including exact verify/build/deploy/live-confirm step. Prior unverified hold cleared for this candidate only.
+- Fresh paginated census: 30 active archive-miner branches, all 30 HEADs match MAIN ledger; zero newly discovered or advanced. MAIN census ledger commit `26026d6259b1bdee7ee523805042a59a9cf65b2a`.
+- BACKROOM Pass26 Yoza/Akariel WALTZ already person-first MAIN; duplicate suppressed. Nhou `duck` identity/media remains held. No new WIKI reader content; BACKROOM complete accepted A/B inventory still uncounted, consumed SHA unchanged.
+
 ## 2026-11-15 17:35 PST — complete census and August/Main HQ reconciliation
 
 - MAIN branch census persisted in commit `36342276775ccb56c4fc59aed04bd2491ca984fc`: all 30 active miner HEADs individually checked, zero new/advanced; August Reunion, Backroom Deals and Photo Submissions remain unconsumed publication families. No consumed SHA advanced.
