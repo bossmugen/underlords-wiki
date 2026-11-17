@@ -2,6 +2,15 @@ import type { Episode } from "./wiki";
 
 export const integratedEpisodes: Episode[] = [
   {
+    id: "darkasrai-aizzy-popstar-ferris-wheel-2021",
+    title: "DarkAsrai Takes Aizzy to the Ferris Wheel",
+    season: "2021",
+    date: "August 17, 2021",
+    kind: "Photoshoot / POPSTAR staged-together entry",
+    logline: "For POPSTAR, DarkAsrai submits a photo captioned `Posing with @Aizzy on the ferris wheel`. She names the person beside her instead of leaving the picture to speak for itself: Aizzy becomes part of the scene she chose to show everyone. It is a small, specific instance of making a contest entry together, not a declaration of romance or an exclusive pairing. DarkAsrai posted the entry; who made or captured the image remains unknown. Source: Photo Submissions miner site-candidates-hourly.md, August 25, 2026, 03:45 PDT; Aizzy mention resolves to stable account aizzy92016 (536863103342608385).",
+    cast: ["DarkAsrai", "Aizzy"]
+  },
+  {
     id: "ren-anthos-example-photos-handoff-2021",
     title: "Ren Puts Up the Pictures. Anthos Opens the Door.",
     season: "2021",
