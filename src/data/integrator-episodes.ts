@@ -2,6 +2,15 @@ import type { Episode } from "./wiki";
 
 export const integratedEpisodes: Episode[] = [
   {
+    id: "anthos-flowers-stalker-opening-routine-2021",
+    title: "Anthos Has the Pictures. The Doors Are Open.",
+    season: "2021",
+    date: "March 8 and June 14, 2021",
+    kind: "Photoshoot / FLOWERS and STALKER opening routine",
+    logline: "On March 8 Anthos announces that FLOWERS submissions are open and includes the official March 8–14 window. On June 14 she posts an Example Photos divider, follows it with three reference images, and opens STALKER less than two minutes later. She keeps moving between the boring practical work and the fun part: give everybody a visual starting point, then tell them where to submit. The repeated launch behavior is real; a formal Photoshoot office and authorship of the example images are not established. Source: Photo Submissions miner site-candidates-hourly.md, August 25 01:45 PDT, 'Anthos keeps turning the formatting into an actual launch sequence'.",
+    cast: ["Anthos"]
+  },
+  {
     id: "korea-woohyuk-waltz-account-switch-2021",
     title: "KOREA Borrowed Woohyuk's Account for the Waltz",
     season: "2021",
