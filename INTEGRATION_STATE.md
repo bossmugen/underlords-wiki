@@ -1,3 +1,11 @@
+## 2026-11-17 06:30 PST — current verification and census
+
+- MAIN full REST census persisted at `d0d533a0f0440c637c78e061ea895ad97e0ce1c2`: 137 branches, 30 active miner branches, zero new/advanced HEADs. August Reunion, Backroom Deals, and Photo Submissions remain unconsumed; no consumption cursor advanced.
+- WIKI BEACH five-minute launch episode `bd0fee19514a920d0d114fe44239a62e6502f9c6`: [build 44098548777](https://github.com/bossmugen/underlords-wiki/actions/runs/44098548777) SUCCESS; [preview 44098548810](https://github.com/bossmugen/underlords-wiki/actions/runs/44098548810) CANCELLED. Production verification pending; not fully integrated.
+- WIKI MariaMoon reunion episode `c933e2d6643889b5608ee90fc7b997182d05e042`: [build 44018488066](https://github.com/bossmugen/underlords-wiki/actions/runs/44018488066) SUCCESS; [preview 44018488071](https://github.com/bossmugen/underlords-wiki/actions/runs/44018488071) CANCELLED. Production verification pending.
+- Direct August Reunion and Main HQ checkpoint/candidate review found Snow, Daya/Mugen, Wolf screenshot retrieval, Oyasumi, Eos corpse, Anthos town crier, Ansun festival food, Kiro and Moon material already present on MAIN; duplicates suppressed. Full later A/B candidate inventory remains uncounted. Gilli/Namo original media attribution still source-blocked.
+- No new reader-facing commit in this pass. Existing preview cancellation is a workflow/deployment verification dependency, not proof of failed Astro builds. Do not advance consumed SHAs or claim live publication.
+
 ## 2026-11-17 06:00 PST — Photo Submissions BEACH episode pending build
 
 - WIKI reader `src/data/integrator-episodes.ts` commit `bd0fee19514a920d0d114fe44239a62e6502f9c6`: added `beach-example-photos-five-minute-launch-2021`, a structured June 1, 2021 five-minute Example Photos / launch sequence (Gilli → Anthos → Anayss → Gilli). Direct source: `archive-miner-photo-submissions-2021`, `archive-intake/photo-submissions-2021-visual-contest-2026-08-19-1845-pdt/site-candidates-hourly.md`, corrected 2026-08-25 01:45 PDT candidate. MAIN `src/lib/photo-submissions-overrides.ts` already narrates the same scene, so no duplicate MAIN reader edit. Distinct wiki episode is searchable reference structure.
