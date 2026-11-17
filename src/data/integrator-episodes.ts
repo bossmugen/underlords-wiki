@@ -2,6 +2,15 @@ import type { Episode } from "./wiki";
 
 export const integratedEpisodes: Episode[] = [
   {
+    id: "korea-woohyuk-waltz-account-switch-2021",
+    title: "KOREA Borrowed Woohyuk's Account for the Waltz",
+    season: "2021",
+    date: "July 2021",
+    kind: "Photoshoot / WALTZ partner staging",
+    logline: "For the WALTZ prompt, KOREA said she went onto Woohyuk's account 'just to change and force take photos', then presented their staged pairing as 'Dark fairy dances with the Light~'. The little confession is the whole scene: somebody wanted a specific two-person picture badly enough to commandeer the wardrobe and organize the shot. This is a dated shared creative bit, not proof of romance, account ownership transfer, or who actually captured the image. Source: Photo Submissions miner site-candidates.md, 'Waltz is a dated partner-choice snapshot'; KOREA is the speaker and Woohyuk the named account/partner.",
+    cast: ["KOREA", "Woohyuk"]
+  },
+  {
     id: "darkasrai-aizzy-popstar-ferris-wheel-2021",
     title: "DarkAsrai Takes Aizzy to the Ferris Wheel",
     season: "2021",
