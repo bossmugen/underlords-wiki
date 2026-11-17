@@ -1,3 +1,9 @@
+## 2026-11-17 08:02 PST — Photo Submissions Ren/Anthos handoff
+
+- Fresh MAIN REST census: 137 branches, 30 active miner HEADs, zero advanced; persisted MAIN branch state at `e9d2ecd17c70239cd3a81c1f3c6afd268d87bd0a`. Five pending-publication families, one recovery backlog, zero overdue.
+- Photo Submissions miner `archive-miner-photo-submissions-2021` `site-candidates-hourly.md` 2026-08-25 01:45 PDT: Ren's Example Photos divider precedes Anthos's official-submissions opening by eight minutes on January 6 and fifty-three seconds on February 15, 2021. Added complementary structured WIKI episode `ren-anthos-example-photos-handoff-2021` in `src/data/integrator-episodes.ts` at `c545631140a67be074a215d175ab9dee10f0ba3d`; source reread PASS. MAIN retained its existing person-first material; no mirrored prose. No formal role or maker/captor credit inferred.
+- WIKI Actions runs `44121318369` and `44121318374` queued at inspection; build/preview/live not yet verified. Candidate pending verification; Photo Submissions consumed SHA held at `342ee5df` versus HEAD `d45d441f`; remaining A/B count unresolved. Club-Only checkpoint inspected, no delta consumption. Missing reply parents `835940038549569627` and `872535327926009928` and original-media attribution held.
+
 ## 2026-11-17 07:35 PST — fresh census and WIKI preview verification
 
 - MAIN full 137-branch REST census found 30 active miner branches, no new or advanced HEADs; persisted MAIN branch-state commit `3f38d1453cb047fde4917c4e5b1825172d9fa43f`. Unconsumed branches: August Reunion, Backroom Deals, Photo Submissions. No consumption cursor advanced.
