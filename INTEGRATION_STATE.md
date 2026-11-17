@@ -1,3 +1,9 @@
+## 2026-11-16 17:35 PST — August Reunion breaststroke Wall callback
+
+- MAIN reader `src/lib/wall-overrides.ts` commit `6ab1dde2aaa8cb6451bea89909d1dc33312ff68d` adds `BREASTSTROKE SURVIVED FOUR YEARS`: Ren's May 2022 Wall crop of Mugen's `hope everyone has eaten their breaststroke`, Rich's shame-war reply, Rummy's echo, and Ren's August 2026 refiling. Source: `archive-miner/aug-2026-living-ensemble-hourly`, `archive-intake/aug-2026-living-ensemble-reunion-2026-08-19-2303-pdt/site-candidates.md`, receipt IDs `973675315169738804`, `973676738573918298`, `1537087561283928194`. MAIN Ren bio already carries personal angle; Wall history adds the cultural object genealogy, not duplicated biography. WIKI reader unchanged pending distinct structured novelty comparison.
+- MAIN postcommit file reread succeeded; combined status returned no checks. Exact Astro build / Cloudflare live deployment NOT YET VERIFIED; candidate pending_verification, not fully integrated.
+- Branch-name search returned 30 miner branches (26 slash, four dash), but current SHA-by-SHA census was not completed; no fresh census persisted and no consumption cursor advanced. August Reunion, Backroom Deals, Photo Submissions remain backlog. Full August Reunion/Main HQ A/B remaining count still unresolved; Gilli/Namo uninspected original media source-blocked.
+
 ## 2026-11-16 14:35 PST — August Reunion Wall production verification
 
 - MAIN August Reunion `THROWBACK SHAMES WERE ALREADY A THING` Wall reader commit `0766c099f512e57b6aacea75015170433c47672e` is verified by GitHub Actions production run `43961431682`, job `133629561215`: exact checkout, verify/build/deploy/live-confirmation step all SUCCESS. Source: August Reunion `site-candidates.md`, receipts `820514157710671882` and `946484073768054815`. This clears that specific candidate's deployment hold, not the entire August Reunion intake.
