@@ -1,3 +1,9 @@
+## 2026-11-17 12:35 PST — Akuma/Matsu/Seb reader verification
+
+- MAIN `src/content/people/akuma.md` at `e34db76e6d54a128c6b1a7443485bdc0b95ff9e0` passed production Actions [44160038913](https://github.com/bossmugen/underlords/actions/runs/44160038913), including exact-commit checkout, Astro verification/build, Cloudflare deploy, and live-commit confirmation.
+- WIKI `src/data/dossier-snapshots/akuma.md` is included in commit `ce79f86f04f3af2131e852520f09f1c5025c7108`, with successful Astro build [44160161095](https://github.com/bossmugen/underlords-wiki/actions/runs/44160161095) and Pages preview deployment [44160161154](https://github.com/bossmugen/underlords-wiki/actions/runs/44160161154). Separate custom production domain remains unverified.
+- Fresh full REST census: 137 branches, 30 active miners, zero new or advanced; MAIN ledger persisted at `8b481f7294e31d98fd93337f62c1cb29485a6967`. August Reunion, Backroom Deals, Photo Submissions remain unconsumed. Main HQ source cursor current, accepted publication debt still open. No consumption SHA advanced; August Reunion/Main HQ remaining A/B count uncertified. Gilli/Namo original media still source-blocked.
+
 ## 2026-11-17 11:35 PST — August Reunion Akuma/Matsu/Seb publication
 
 - MAIN reader `src/content/people/akuma.md` created at `e34db76e6d54a128c6b1a7443485bdc0b95ff9e0`; WIKI structured dossier `src/data/dossier-snapshots/akuma.md` created at `93e72b62dd34788f55b0e3a00a78783423c66ac5`.
