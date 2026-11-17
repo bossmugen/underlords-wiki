@@ -1,3 +1,10 @@
+## 2026-11-17 10:00 PST — Photo Submissions POPSTAR ferris-wheel scene
+
+- Source: `archive-miner-photo-submissions-2021`, `archive-intake/photo-submissions-2021-visual-contest-2026-08-19-1845-pdt/site-candidates-hourly.md`, 2026-08-25 03:45 PDT, DarkAsrai/Aizzy candidate. DarkAsrai's August 17 POPSTAR caption explicitly names Aizzy at the ferris wheel. Stable Aizzy mention account `536863103342608385`. No romance, maker, or photographer attribution inferred.
+- WIKI structured episode `darkasrai-aizzy-popstar-ferris-wheel-2021` added in `src/data/integrator-episodes.ts`, reader commit `1ca8c34da32b79c02d865c267ce69e051a169a9a`. Source reread passed. Commit-specific Actions lookup returned no runs; build/preview/live verification **pending**. Do not mark production-integrated yet.
+- MAIN received no reader edit; no duplicate person-first prose created. Photo Submissions consumed cursor remains held at `342ee5df` vs `d45d441f` until full accepted A/B inventory and publication verification. The precise remaining A/B count remains unverified.
+- Miner branch-name census: 30 active names, no second-page matches. Current HEAD SHAs not individually reverified this pass; existing MAIN full-SHA census remains the authoritative last certified one. Club-Only recovery checkpoint inspected, not consumed.
+
 ## 2026-11-17 08:02 PST — Photo Submissions Ren/Anthos handoff
 
 - Fresh MAIN REST census: 137 branches, 30 active miner HEADs, zero advanced; persisted MAIN branch state at `e9d2ecd17c70239cd3a81c1f3c6afd268d87bd0a`. Five pending-publication families, one recovery backlog, zero overdue.
