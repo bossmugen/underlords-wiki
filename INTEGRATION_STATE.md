@@ -1,3 +1,9 @@
+## 2026-11-17 10:14 PST — POPSTAR ferris-wheel verification closure
+
+- WIKI reader commit `1ca8c34da32b79c02d865c267ce69e051a169a9a` introduced `darkasrai-aizzy-popstar-ferris-wheel-2021` in `src/data/integrator-episodes.ts`, from Photo Submissions `site-candidates-hourly.md` 2026-08-25 03:45 PDT. Later ledger-only commit `ca17b71e7a6ccc1f21101b5f1ffc038d4e06b139` retains the same reader content.
+- Exact current WIKI `main` SHA `ca17b71e7a6ccc1f21101b5f1ffc038d4e06b139` passed **Build Underlords Wiki** run [44142591814](https://github.com/bossmugen/underlords-wiki/actions/runs/44142591814) and **Deploy Underlords Wiki Preview** run [44142591801](https://github.com/bossmugen/underlords-wiki/actions/runs/44142591801), both `completed/success`. This resolves the previously cancelled exact-reader preview at `1ca8c34d` by verifying its unchanged content at the later current SHA. Preview deployment verified; separate production-domain fingerprint not independently checked. Do not call it production-live verified.
+- MAIN remains unchanged for this candidate, because the WIKI owns the discrete structured episode. Photo Submissions consumed SHA remains held pending complete A/B inventory reconciliation. QOTD remains separately source-blocked for Ren `IMG_9928.png` receipt `1177646661196062820`; no QOTD reader edit from this verification.
+
 ## 2026-11-17 10:00 PST — Photo Submissions POPSTAR ferris-wheel scene
 
 - Source: `archive-miner-photo-submissions-2021`, `archive-intake/photo-submissions-2021-visual-contest-2026-08-19-1845-pdt/site-candidates-hourly.md`, 2026-08-25 03:45 PDT, DarkAsrai/Aizzy candidate. DarkAsrai's August 17 POPSTAR caption explicitly names Aizzy at the ferris wheel. Stable Aizzy mention account `536863103342608385`. No romance, maker, or photographer attribution inferred.
