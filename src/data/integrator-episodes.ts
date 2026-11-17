@@ -2,6 +2,15 @@ import type { Episode } from "./wiki";
 
 export const integratedEpisodes: Episode[] = [
   {
+    id: "beach-example-photos-five-minute-launch-2021",
+    title: "Beach Got a Mood Board in Five Minutes",
+    season: "2021",
+    date: "June 1, 2021",
+    kind: "Photoshoot / example-image assembly and round opening",
+    logline: "At 13:00 Gilli posts BEACH's first Example Photos image. Anthos adds two more at 13:04; Anayss supplies another at 13:05; at 13:06 Gilli opens the June BEACH submissions. Gilli bookends the five-minute setup while Anthos and Anayss help build the brief. This is a shared production ritual, not evidence of an exclusive Photoshoot office or proof that any poster personally made or captured the reference images. Source: archive-miner-photo-submissions-2021, site-candidates-hourly.md (2026-08-25 01:45 PDT, corrected Beach sequence).",
+    cast: ["Gilli", "Anthos", "Anayss"]
+  },
+  {
     id: "mariamoon-forgot-the-game-2021-2026",
     title: "MariaMoon Remembered the People, Not the Game",
     season: "2021–2026",
