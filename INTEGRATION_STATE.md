@@ -1,3 +1,9 @@
+## 2026-11-16 18:37 PST — August Reunion Wall deployment verified
+
+- MAIN reader `src/lib/wall-overrides.ts` commit `6ab1dde2aaa8cb6451bea89909d1dc33312ff68d` (`BREASTSTROKE SURVIVED FOUR YEARS`) verified by [UL Production Build + Deploy run 43996563426](https://github.com/bossmugen/underlords/actions/runs/43996563426), job `133749955743`: exact checkout, install, Verify/build/deploy/live-commit confirmation all SUCCESS. August Reunion `site-candidates.md` receipts `973675315169738804`, `973676738573918298`, `1537087561283928194`. MAIN Wall narrative is complementary to existing Ren biography; WIKI reader intentionally unchanged pending a distinct structured episode assessment.
+- Fresh full REST census: 137 remote branches / 30 active miner HEADs / zero new or advanced, MAIN branch-state commit `48b64802cd32746bf9bc6acaccbf31465bd81d59`. Three unconsumed: August Reunion, Backroom Deals, Photo Submissions. No consumed SHA advanced. Main HQ and August Reunion checkpoint read directly from miner branches; no raw re-mining.
+- August Reunion/Main HQ accepted A/B remaining count unverified. Gilli/Namo original-media attribution remains source-blocked. No WIKI reader build or deployment needed.
+
 ## 2026-11-16 18:30 PST — BACKROOM Moments candidate verified as existing on both surfaces
 
 - Miner `archive-miner/backroom-deals-2026-08-24` Pass 60 `site-candidates-pass-60.md` / `receipts-pass-60.md` (879237597300408341, 887271925544546344, 895299124923080754) compared directly with MAIN `src/lib/photo-submissions-overrides.ts` and WIKI `src/data/integrator-episodes.ts`. MAIN already narrates `THE MOMENTS SIDE DOOR`; WIKI already has structured episode `moments-submission-side-door-2021`. MAIN Ephxs bio has separate lived relationship detail. No duplicate public edits or build required this pass.
