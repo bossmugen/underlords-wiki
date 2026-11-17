@@ -1,3 +1,9 @@
+## 2026-11-17 14:35 PST — Moon custody beat production verified
+
+- MAIN `src/content/people/moon.md` commit `1349b582d9478e8014821fa1e6b64be78d46ad86` passed [production workflow 44182249629](https://github.com/bossmugen/underlords/actions/runs/44182249629), job `134389350023`: exact-commit checkout, Astro verification/build, Cloudflare deployment and live-commit confirmation all SUCCESS. August Reunion Run 18 `#freesnow` Moon candidate is verified in MAIN; WIKI already has the incident context and no duplicate episode was added.
+- Fresh complete MAIN REST census: 137 remote branches, 30 active miners, zero new/advanced; MAIN state commit `5e1da68ab621447b2e529e172113043b220107b1`. Three active consumption gaps: August Reunion, Backroom Deals, Photo Submissions. No consumed SHA advanced. Historic missing-remote entries remain separate.
+- Main HQ and August Reunion checkpoints reread; accepted A/B publication remainder not yet counted. Gilli/Namo original media remains source-blocked. No WIKI reader edit or new deployment in this pass.
+
 ## 2026-11-17 13:39 PST — August Reunion Moon custody beat (MAIN only; verification pending)
 
 - Fresh REST census: 137 remote branches, 30 active archive miners; all 30 `last_seen_sha` values match MAIN's already-persisted 13:14 PST ledger. Three consumption gaps: August Reunion (`fcc27ac7` vs `dfe5909d`), Backroom Deals (`9c143a7c` vs `68d2fba7`), Photo Submissions (`d45d441f` vs `342ee5df`). No cursor advanced; no redundant census write.
