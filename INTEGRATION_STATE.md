@@ -1,3 +1,9 @@
+## 2026-11-17 06:00 PST — Photo Submissions BEACH episode pending build
+
+- WIKI reader `src/data/integrator-episodes.ts` commit `bd0fee19514a920d0d114fe44239a62e6502f9c6`: added `beach-example-photos-five-minute-launch-2021`, a structured June 1, 2021 five-minute Example Photos / launch sequence (Gilli → Anthos → Anayss → Gilli). Direct source: `archive-miner-photo-submissions-2021`, `archive-intake/photo-submissions-2021-visual-contest-2026-08-19-1845-pdt/site-candidates-hourly.md`, corrected 2026-08-25 01:45 PDT candidate. MAIN `src/lib/photo-submissions-overrides.ts` already narrates the same scene, so no duplicate MAIN reader edit. Distinct wiki episode is searchable reference structure.
+- Postcommit WIKI source reread PASS; commit-specific workflow lookup returned no runs. Build, deployment and live verification **PENDING**. Do not mark this candidate fully integrated or advance Photo Submissions consumed SHA until verification and complete A/B reconciliation.
+- Miner branch-name discovery: 30 matches; latest MAIN persisted full-SHA census was 2026-11-17 05:30 PST with 30 active miners and zero advanced. This pass did not independently recertify all HEAD SHAs. Club-Only recovery not completed. Photo Submissions candidate remainder still uncounted; missing reply parents and original media/creator attribution remain held.
+
 ## 2026-11-16 20:40 PST — MariaMoon reunion callback awaiting build
 
 - Fresh MAIN REST census: 137 remote branches, 30 active miner branches, zero advanced/new heads; MAIN census commit `ea4518b0634d6d270aa85ef9fbd742a3f6e681e9`. Three unconsumed remain August Reunion, Backroom Deals, Photo Submissions; no consumed SHA advanced.
