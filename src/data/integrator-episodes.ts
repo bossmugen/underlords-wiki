@@ -2,6 +2,24 @@ import type { Episode } from "./wiki";
 
 export const integratedEpisodes: Episode[] = [
   {
+    id: "colors-moodboard-before-opening-2021",
+    title: "COLORS Had a Mood Board Before It Had Contestants",
+    season: "2021",
+    date: "April 2–5, 2021",
+    kind: "Photo Submissions / shared reference-picture setup",
+    logline: "Three days before Mugen opens COLORS on April 5, Ansun starts the April 2 Example Photos block and posts two images. Anayss, Gilli, and Ren add reference uploads before anyone gets the starting gun. Four people are already feeding the room ideas, one image at a time; Mugen comes in later to open submissions. Ansun is not just a name on a contestant list here. He is one of the people helping everyone else figure out what to make. The uploads establish who posted the references, not who originally photographed or created them, and the shared work does not imply a formal Photoshoot office.",
+    cast: ["Ansun", "Anayss", "Gilli", "Ren", "Mugen"]
+  },
+  {
+    id: "dora-waltz-two-partners-2021",
+    title: "Dora Had Two Waltz Partners. Nobody Call the Wedding Planner.",
+    season: "2021",
+    date: "July 10–12, 2021",
+    kind: "Photo Submissions / WALTZ staged-partner choices",
+    logline: "On July 10 dora/Forsaken submits a WALTZ picture captioned with KuroAren. Two days later Lapis posts another WALTZ entry naming dora as the partner. Same dance prompt, same dora, two different people choosing to stage pictures together. It's a tiny but useful snapshot of how casually a paired contest could move between friends. Neither caption appoints a permanent couple, identifies the photographer, or makes the dance anything more than a dated creative collaboration.",
+    cast: ["dora", "KuroAren", "Lapis"]
+  },
+  {
     id: "anthos-flowers-stalker-opening-routine-2021",
     title: "Anthos Has the Pictures. The Doors Are Open.",
     season: "2021",
