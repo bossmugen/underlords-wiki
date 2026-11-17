@@ -2,6 +2,16 @@ import type { Episode } from "./wiki";
 
 export const integratedEpisodes: Episode[] = [
   {
+    id: "ren-anthos-example-photos-handoff-2021",
+    title: "Ren Puts Up the Pictures. Anthos Opens the Door.",
+    season: "2021",
+    date: "January 6 and February 15, 2021",
+    kind: "Photoshoot / repeated example-to-submission handoff",
+    logline: "Twice, the same little handoff: Ren posts the Example Photos divider, then Anthos announces the official submission section. On January 6 they are eight minutes apart; on February 15 the gap shrinks to fifty-three seconds. Nobody needs to announce a job title for the rhythm to become recognizable. Ren keeps giving people something to aim at, Anthos gives them somewhere to put it, and the contest starts looking suspiciously like it has a production crew. Their adjacency establishes repeated shared work, not a formal division of offices or authorship of the example images. Source: Photo Submissions miner site-candidates-hourly.md, 2026-08-25 01:45 PDT.",
+    cast: ["Ren", "Anthos"]
+  },
+
+  {
     id: "beach-example-photos-five-minute-launch-2021",
     title: "Beach Got a Mood Board in Six Minutes",
     season: "2021",
