@@ -1,3 +1,8 @@
+## 2026-11-17 07:00 PST — BEACH elapsed-time correction
+
+- WIKI reader `src/data/integrator-episodes.ts` commit `ff07da8b0e5fcb7a291542597aba15c86a531c82` corrects BEACH launch title and narrative from five to **six elapsed minutes** (Gilli 13:00 opening reference → Anthos 13:04 → Anayss 13:05 → Gilli 13:06 submissions open). The miner's "five-minute" shorthand conflicts with its explicit timestamps; timestamp arithmetic controls. Stable episode ID intentionally retained to preserve links. Source: `archive-miner-photo-submissions-2021`, `site-candidates-hourly.md` corrected BEACH candidate. Post-write source reread PASS; new Astro build/preview/live verification pending. Prior WIKI BEACH build run 44098548777 succeeded, but preview 44098548810 was cancelled; neither certifies this newer correction.
+- MAIN already carries the BEACH narrative; no mirrored edit. Photo Submissions consumed cursor remains held pending full cumulative A/B reconciliation. Branch-name census 30 matches; latest certified full-SHA census MAIN 06:30 PST (30 active, zero advanced); no independent new HEAD verification this pass. Club-Only recovery checkpoint read; no consumption advance. Missing Photo reply parents and original-media authorship remain source-blocked.
+
 ## 2026-11-17 06:30 PST — current verification and census
 
 - MAIN full REST census persisted at `d0d533a0f0440c637c78e061ea895ad97e0ce1c2`: 137 branches, 30 active miner branches, zero new/advanced HEADs. August Reunion, Backroom Deals, and Photo Submissions remain unconsumed; no consumption cursor advanced.
