@@ -2,6 +2,15 @@ import type { Episode } from "./wiki";
 
 export const integratedEpisodes: Episode[] = [
   {
+    id: "mariamoon-forgot-the-game-2021-2026",
+    title: "MariaMoon Remembered the People, Not the Game",
+    season: "2021–2026",
+    date: "July 2021 → August 2026",
+    kind: "Reunion callback / Lobby memory",
+    logline: "In the July 2021 Lobby, Anthos calls MariaMoon<3 `maria` while she works through the IGN-and-club questions and identifies Underlords. In August 2026 the same Discord account returns to the reunion and asks which game this group chat came from. Five years later the people and the room have outlasted the game name in her memory. MariaMoon<3 / _seishi_ is not Moon; the 2021 Lobby exchange is a surviving appearance, not a proven first join. Source: August 2026 Living Ensemble miner, site-candidates.md item 2 and checkpoint.md stable account 610294957378371608.",
+    cast: ["MariaMoon", "Anthos"]
+  },
+  {
     id: "pretty-corpses-return-2021-2026",
     title: "The Pretty Corpses Return",
     season: "2021–2026",
