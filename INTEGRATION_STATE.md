@@ -1,3 +1,9 @@
+## 2026-11-16 18:30 PST — BACKROOM Moments candidate verified as existing on both surfaces
+
+- Miner `archive-miner/backroom-deals-2026-08-24` Pass 60 `site-candidates-pass-60.md` / `receipts-pass-60.md` (879237597300408341, 887271925544546344, 895299124923080754) compared directly with MAIN `src/lib/photo-submissions-overrides.ts` and WIKI `src/data/integrator-episodes.ts`. MAIN already narrates `THE MOMENTS SIDE DOOR`; WIKI already has structured episode `moments-submission-side-door-2021`. MAIN Ephxs bio has separate lived relationship detail. No duplicate public edits or build required this pass.
+- Full MAIN 137-branch REST census, 30 active miner branches, zero advanced/new, persisted `db57df5e3752d11eab1329a86af94f119d067065`. MAIN BACKROOM candidate inventory disposition `d001a059bd4625453a4127bab8b1842b00b5ab7e`.
+- No consumed SHA advanced. Full 61-pass A/B candidate remainder remains uncertified; media, private material and unknown transfer/maker attribution held. No WIKI reader change or deployment initiated.
+
 ## 2026-11-16 17:35 PST — BACKROOM Pass 60 review / Nelph deployment closure
 
 - Full MAIN branch census: 137 remote branches, 30 active miners, zero new or advanced heads; MAIN state commit `55040e27a63c1811412161a3eb36e7c4649fc298`. Prior pending-publication count 5 and backlog count 1 carried forward.
