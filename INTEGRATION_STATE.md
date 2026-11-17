@@ -1,3 +1,12 @@
+## 2026-11-17 11:35 PST — August Reunion Akuma/Matsu/Seb publication
+
+- MAIN reader `src/content/people/akuma.md` created at `e34db76e6d54a128c6b1a7443485bdc0b95ff9e0`; WIKI structured dossier `src/data/dossier-snapshots/akuma.md` created at `93e72b62dd34788f55b0e3a00a78783423c66ac5`.
+- Source: `archive-miner/aug-2026-living-ensemble-hourly`, `archive-intake/aug-2026-living-ensemble-reunion-2026-08-19-2303-pdt/hourly-2026-08-26-run17-site-candidates.md` and `hourly-2026-08-26-run20-site-candidates.md`. Stable Discord ID `357245154123579392`; receipts `786618794003922966`, `786618934157770773`, `906504099820896267`, `906514610742493214`, `1537915792761299045`, `1537915869504737400`, `1537916476810465320`, `1537918998635745330`, `1537919132429852761`, `1537919475314327682`.
+- MAIN biography synthesizes lived familiarity, food-summoned return, and music plans; WIKI organizes identity, dated club self-reports, relationships and episodes. Do not duplicate these as separate incident pages.
+- Fresh REST census checked all 30 active miner heads against MAIN ledger (137 total remote branches): zero new or advanced; the MAIN census had already been persisted at 11:18 PST, so no redundant census-only commit. Unconsumed: August Reunion, Backroom Deals, Photo Submissions. August Reunion cursor remains held until the full A/B remainder is reconciled.
+- Verification pending at writing: MAIN production Actions `44160038913`, WIKI build `44160052566`, WIKI preview `44160052608` all in progress. **Do not mark live or integrated until successful verification.** No media used; no sensitive/private officers-only material published.
+- Gilli/Namo original-media attribution remains source-blocked. Remaining August Reunion/Main HQ A/B candidate count not yet certified.
+
 ## 2026-11-17 10:14 PST — POPSTAR ferris-wheel verification closure
 
 - WIKI reader commit `1ca8c34da32b79c02d865c267ce69e051a169a9a` introduced `darkasrai-aizzy-popstar-ferris-wheel-2021` in `src/data/integrator-episodes.ts`, from Photo Submissions `site-candidates-hourly.md` 2026-08-25 03:45 PDT. Later ledger-only commit `ca17b71e7a6ccc1f21101b5f1ffc038d4e06b139` retains the same reader content.
