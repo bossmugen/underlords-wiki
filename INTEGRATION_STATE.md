@@ -1,3 +1,10 @@
+## 2026-11-17 13:39 PST — August Reunion Moon custody beat (MAIN only; verification pending)
+
+- Fresh REST census: 137 remote branches, 30 active archive miners; all 30 `last_seen_sha` values match MAIN's already-persisted 13:14 PST ledger. Three consumption gaps: August Reunion (`fcc27ac7` vs `dfe5909d`), Backroom Deals (`9c143a7c` vs `68d2fba7`), Photo Submissions (`d45d441f` vs `342ee5df`). No cursor advanced; no redundant census write.
+- Direct miner source: `archive-miner/aug-2026-living-ensemble-hourly`, `archive-intake/aug-2026-living-ensemble-reunion-2026-08-19-2303-pdt/hourly-2026-08-26-run18-site-candidates.md`, **THE #FREESNOW CUSTODY HEARING**, receipts `1537800754939826269`, `1537812901996404776`, `1537815371279503392`, `1537868061338509453`, `1537868655801671781`, `1537868702958223390`.
+- MAIN `src/content/people/moon.md` reader edit at `1349b582d9478e8014821fa1e6b64be78d46ad86`: Moon's `Get back in there you!` and kidnapping-GIF intervention folded into her existing mock-jurisdiction characterization. Snow's full incident already lives in MAIN `src/content/people/snow.md`; deliberately not duplicated as another standalone story. WIKI gets no duplicate episode from this pass.
+- MAIN Actions production run `44182249629` queued at last check; build/live confirmation **pending**. Do not certify integrated until successful deployment. Main HQ source checkpoint also reread; no new HQ material published. Gilli/Namo original-media attribution remains blocked. August Reunion/Main HQ remaining A/B candidate count not certified.
+
 ## 2026-11-17 12:35 PST — Akuma/Matsu/Seb reader verification
 
 - MAIN `src/content/people/akuma.md` at `e34db76e6d54a128c6b1a7443485bdc0b95ff9e0` passed production Actions [44160038913](https://github.com/bossmugen/underlords/actions/runs/44160038913), including exact-commit checkout, Astro verification/build, Cloudflare deploy, and live-commit confirmation.
