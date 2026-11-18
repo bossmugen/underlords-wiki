@@ -1,3 +1,11 @@
+## 2026-11-17 20:00 PST — Yochan9 Scary eyes and GhostDance
+
+- MAIN full REST census persisted before review: 137 remote branches, 30 active archive miners, zero new/advanced HEADs; `archive-intake/INTEGRATOR_BRANCH_STATE.json` commit `cb6d6dc80ab2db2730518407c373a33b86119de8`. Existing ledger: five pending-publication families, one recovery backlog, zero overdue.
+- Direct Photo Submissions miner: `archive-miner-photo-submissions-2021` HEAD `d45d441feca0110e9495f49b13df9666982bb45c`; `archive-intake/photo-submissions-2021-visual-contest-2026-08-19-1845-pdt/checkpoint.md` then `site-candidate-2026-08-25-1245-yochan9-scary-eyes.md`. Receipts: Gabu opening `900068070364684408`; Yochan9 entry `900196282289774612`, attachment `900196281803231272`; 11 GhostDance reactions. No judging/creator/visual-content inference.
+- WIKI reader: `src/data/integrator-episodes.ts` episode `yochan9-scary-eyes-ghostdance-2021`, commit `e08c28018b23ac671c0c26fa6901131276f857f3`. Source written; commit-specific Actions query returned zero runs at first check, so build/preview/live remain pending. MAIN no new reader prose: bounded single scene belongs in searchable WIKI episode rather than a speculative standalone biography.
+- Checked Club-Only 2021–2026 recovery checkpoint directly; current recorded HEAD equals consumed `e45fb11c9239e236231bb65645dfd0285bc0078b`. Whiskey HEAD also equals recorded consumed `590142954991a8ee352a6451942e40cf1d546275`; attempted guessed checkpoint path returned 404, so no new Whiskey delta was reviewed. No consumption SHA advanced.
+- Photo Submissions 28 named candidates classified; cumulative two handoffs not yet fully reconciled, exact unpublished A/B count unknown. Missing reply parents `835940038549569627` and `872535327926009928`, inaccessible original media, and maker/captor/featured attribution remain held. Production domain unverified.
+
 ## 2026-11-17 19:40 PST — Sye's full-on disbanding announcement gets a searchable WIKI episode
 
 - MAIN full REST branch census persisted before review: 137 remote branches, 30 active archive miners, zero new/advanced SHAs; `archive-intake/INTEGRATOR_BRANCH_STATE.json` commit `3fbed8883e8452116d584352aee5cff293d1453a`. No consumed SHA advanced. August Reunion, Backroom Deals and Photo Submissions remain the three unconsumed branches.
