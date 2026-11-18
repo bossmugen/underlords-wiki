@@ -469,4 +469,13 @@ export const integratedEpisodes: Episode[] = [
     logline: "On August 1, 2022 the Stripclub Bouncer greeted the QOTD Barista bot with the same IGN, club, and age form handed to human arrivals (1003651021433745409). A different QOTD bot account received the same welcome on February 18, 2023 (1076508089269899305). Mugen announced 'New barista on board!' at 06:19:08 (1076508168856797255). Roughly forty-five seconds later Sye said 'I wrote a question anyway' (1076508358527422494). UL had hired a machine for the café without getting the humans out from behind the counter. Two bot IDs establish separate accounts, not the technical handoff; Sye writing a question does not prove that particular question was used. The welcome-card attachments have not been visually inspected.",
     cast: ["Mugen", "Sye"]
   },
+  {
+    id: "qotd-gilli-announcements-room-2022",
+    title: "Gilli Asked the Question Before the Café Had a Room.",
+    season: "2022",
+    date: "January 7, 2022",
+    kind: "QOTD / Announcements / channel transition",
+    logline: "At 05:52:58 PST Gilli was still hosting Question of the Day in Announcements, asking about dream careers and volunteering her own: veterinarian. By 09:52:52 PST the dedicated ☕│question-of-the-day channel existed, less than four hours later. The question habit preceded its own room, and Gilli was answering alongside everybody else rather than acting as a distant survey host. The channel timestamp establishes existence by that time, not who created it or whether a formal launch occurred.",
+    cast: ["Gilli"]
+  },
 ];
