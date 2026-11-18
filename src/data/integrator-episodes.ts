@@ -2,6 +2,15 @@ import type { Episode } from "./wiki";
 
 export const integratedEpisodes: Episode[] = [
   {
+    id: "yochan9-scary-eyes-ghostdance-2021",
+    title: "Yochan9 Said 👀. The Room Sent Ghosts.",
+    season: "2021",
+    date: "October 19, 2021",
+    kind: "Photo Submissions / Scary opening-day entry",
+    logline: "Gabu opened SCARY with a request for dark, ominous pictures and a reminder that lighting mattered. That evening Yochan9 uploaded a submission with the entire caption `👀`. Eleven GhostDance reactions gathered under it. Y supplied the eyes; the room supplied the ghosts. Nobody needed to write a horror novel in the caption box. The picture itself has not been visually inspected, and reactions are not judging results.",
+    cast: ["Yochan9", "Gabu"]
+  },
+  {
     id: "full-on-disbanding-announcement-2025",
     title: "Sye Had to Say the Part Nobody Wanted to Hear",
     season: "2025",
