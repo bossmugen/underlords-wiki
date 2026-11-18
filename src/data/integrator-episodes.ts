@@ -2,6 +2,15 @@ import type { Episode } from "./wiki";
 
 export const integratedEpisodes: Episode[] = [
   {
+    id: "grimlee-four-rounds-no-caption-2021",
+    title: "Grimlee Submitted Four Times and Said Absolutely Nothing",
+    season: "2021",
+    date: "July 11 – December 7, 2021",
+    kind: "Photo Submissions / repeat contestant / quiet participation",
+    logline: "Grimlee's father.grim account submitted a WALTZ entry on July 11, a DUSK TIL DAWN entry on August 5, a POPSTAR entry on August 20, and a WINTER entry on December 7. Four prompts, five months, four images and not a caption in sight. Other people arrived with concepts, apologies and speeches; Grimlee kept dropping a picture and leaving the picture to do the talking. That makes him a repeat participant, not proof that he was personally quiet everywhere else. The posts establish upload credit only; image creation, capture and subjects are not independently identified.",
+    cast: ["Grimlee"]
+  },
+  {
     id: "gilli-ren-august-example-photos-2021",
     title: "Gilli Posted the Examples. Ren Was Twenty-Two Seconds Behind.",
     season: "2021",
