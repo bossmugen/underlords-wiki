@@ -2,6 +2,15 @@ import type { Episode } from "./wiki";
 
 export const integratedEpisodes: Episode[] = [
   {
+    id: "gabu-photoshoot-saber-runbook-2021",
+    title: "Gabu Gave the Photoshoot a Runbook. Saber Still Needed a Babysitter.",
+    season: "2021",
+    date: "November 1 – December 22, 2021",
+    kind: "Photo Submissions / Saber reminders and event operations",
+    logline: "By late 2021 the Photoshoot had graduated from posting pretty pictures to maintaining actual reminder commands. Gabu scheduled judge deadlines, opening notices, example-picture prompts, and closure/results templates. On December 2 she told Saber to remind everyone about the December 6 opening; the bot handed back an event starting December 2 instead. Twenty-three and a half seconds later she fixed the start date. On December 22 she pinned a reusable block titled 'Photoshoot Event commands'. The joke is that the automation needed a human watching it; the work is that Gabu kept the whole ridiculous picture contest on a calendar. These are commands she maintained, not proof she programmed Saber or held a separate Photoshoot office.",
+    cast: ["Gabu"]
+  },
+  {
     id: "colors-moodboard-before-opening-2021",
     title: "COLORS Had a Mood Board Before It Had Contestants",
     season: "2021",
