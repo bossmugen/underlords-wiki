@@ -1,3 +1,12 @@
+## 2026-11-17 17:05 PST — Nhou LONELY self-reaction (Photo Submissions)
+
+- MAIN full REST branch census: 137 branches / 30 active miner branches, zero new or advanced SHAs; persisted in MAIN `archive-intake/INTEGRATOR_BRANCH_STATE.json` at `ba202ab7fdd838f6997ccc8aeb314c41e037e208` before review.
+- Direct source branch `archive-miner-photo-submissions-2021` HEAD `d45d441feca0110e9495f49b13df9666982bb45c`; checkpoint, `site-candidates.md`, `site-candidates-hourly.md`, and candidate `site-candidate-2026-08-26-2210-nhou-self-poop-reaction.md`. Source message `812921630560092200`; stable author `158594223371845632` included in the ten 💩 reactors. Reaction timing and intent unresolved; do not infer screenshot maker/captor.
+- WIKI reader `src/data/integrator-episodes.ts` new episode `nhou-lonely-self-poop-reaction-2021` at `2ccbaec86ca2f3537a881af8a635f0af5b239418`. Source reread passed; exact reader build and deployment pending. No MAIN reader duplication: this is a compact searchable WIKI episode, not enough to warrant a new MAIN person page.
+- Earlier Gabu reader `09d6a444` Astro build `44204482346` succeeded; associated preview `44204482330` cancelled. Successor state commit `cc85588b` build `44204506723` and preview `44204506543` both succeeded. Independent production-domain verification not established.
+- Photo Submissions consumed SHA remains `342ee5dfe77b0c6d1106f28eb557fd25ce67085b` versus HEAD `d45d441f`: 28 named candidates classified, two cumulative handoffs not fully incident-certified; remaining accepted unpublished A/B count unknown. Missing reply parents `835940038549569627` and `872535327926009928` and inaccessible original media remain source-blocked. No consumption advancement.
+- Club-Only 2021–2026 `e45fb11c` and Club-Only 2020 `ed66714f` match recorded consumed HEADs. Whiskey `59014295` remains the next fair-rotation pending branch; not reviewed in this pass.
+
 ## 2026-11-17 16:01 PST — Photo Submissions Gabu/Saber operational episode
 
 - Full MAIN REST census: 137 remote branches / 30 active miner branches, no new or advanced HEADs; persisted in MAIN `archive-intake/INTEGRATOR_BRANCH_STATE.json` commit `f41072a1450b42e0d4b7ddfcd58c7d012d9045f2` before source review.
