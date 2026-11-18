@@ -2,6 +2,15 @@ import type { Episode } from "./wiki";
 
 export const integratedEpisodes: Episode[] = [
   {
+    id: "akane-qinmu-waltz-partners-2021",
+    title: "Akane Brought Dreamless. Qin-Mu Brought Akariel.",
+    season: "2021",
+    date: "July 2021",
+    kind: "Photo Submissions / Waltz partner choices",
+    logline: "The WALTZ prompt gave people an excuse to put somebody else in the frame. AkaneAwake called her entry 'Dancing in the moonlight with @Dreamless'; Qin-Mu followed his own image with 'Yoza and @Akariel'. Two little public introductions, each naming the person who shared the scene. The captions preserve the pairings, not a romance announcement, a closeness ranking, or proof of who made the screenshots.",
+    cast: ["AkaneAwake", "Dreamless", "Qin-Mu", "Akariel"]
+  },
+  {
     id: "nhou-lonely-self-poop-reaction-2021",
     title: "Nhou Submitted Loneliness and Joined the Poop Pile",
     season: "2021",
