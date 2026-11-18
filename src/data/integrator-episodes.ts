@@ -2,6 +2,15 @@ import type { Episode } from "./wiki";
 
 export const integratedEpisodes: Episode[] = [
   {
+    id: "crystalia-lobby-to-lonely-2021",
+    title: "Crystalia Got the Tour. Nine Days Later, She Sent a Picture.",
+    season: "2021",
+    date: "February 9–18, 2021",
+    kind: "Lobby / Photo Submissions / newcomer participation",
+    logline: "On February 9, the Lobby welcomed Crystalia and asked for her IGN, club and age (808952044291227658). Mugen followed two minutes later with 'glad you can make it!' and a pointer to the server tour (808952593152999434). On February 18, Crystalia posted an uncaptioned LONELY submission (812217820729311255). Nine days from being shown around to joining the screenshot circus. Her own onboarding answers did not survive this check, so the welcome is not an exact club-admission date or a Staff appointment. The entry establishes who posted the image, not who made or captured it or who appears in it.",
+    cast: ["Crystalia", "Mugen"]
+  },
+  {
     id: "kitsune-deputy-wallet-stripclub-2021",
     title: "The Deputy Walked In. The Strippers Got His Wallet.",
     season: "2021",
