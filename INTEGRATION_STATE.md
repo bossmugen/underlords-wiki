@@ -1,3 +1,11 @@
+## 2026-11-18 10:00 PST — Photo Submissions Crystalia entry recovery
+
+- MAIN full REST census: 137 remote branches / 30 active miner branches, no new or advanced HEADs; persisted on MAIN master commit `6e9887ada3aecbf8ee6a7910f7eb0913a6698566` before miner review. Branch consumption unchanged.
+- Photo Submissions source: `archive-miner-photo-submissions-2021` at `d45d441feca0110e9495f49b13df9666982bb45c`; checkpoint first, then `site-candidates.md`, `site-candidates-hourly.md`, and `site-candidate-2026-08-26-2210-newcomers-to-photoshoot.md`. Crystalia receipts: Lobby MEE6 `808952044291227658`, Mugen `808952593152999434`, Lonely `812217820729311255`.
+- MAIN Photo Submissions narrative and WIKI episode collection compared: Lena/Tamika already covered, Crystalia missing from both checked reader files. WIKI `src/data/integrator-episodes.ts` now adds `crystalia-lobby-to-lonely-2021`, reader commit `b6a1c64703e15b59945b1937071ad4842cd26b89`. MAIN not duplicated: the bounded chronology currently fits searchable WIKI episode more than a stand-alone rich biography.
+- No inferred formal appointment, membership date, photo maker/captor/subject, or self-identification. Original binary not inspected. Reader source commit accepted; build/preview and independent production verification pending. Do not mark integrated/deployed or advance Photo consumed SHA until verified and the full candidate inventory is reconciled.
+- Photo consumption remains `342ee5dfe77b0c6d1106f28eb557fd25ce67085b` vs HEAD `d45d441feca0110e9495f49b13df9666982bb45c`. Two cumulative handoffs still lack exact incident-level unpublished A/B count; missing reply parents `835940038549569627` and `872535327926009928` and inaccessible original media remain held separately. Club-Only recovery not advanced this pass.
+
 ## 2026-11-18 09:15 PST — QOTD Gilli deployment verification
 
 - Verified Gilli manual QOTD reader commit `cb049004006b29e77c829d60245ffb31bda9ad35` build `44344417683`: SUCCESS. Original preview `44344417927`: CANCELLED by successor.
