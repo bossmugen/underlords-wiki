@@ -2,6 +2,15 @@ import type { Episode } from "./wiki";
 
 export const integratedEpisodes: Episode[] = [
   {
+    id: "gilli-ren-august-example-photos-2021",
+    title: "Gilli Posted the Examples. Ren Was Twenty-Two Seconds Behind.",
+    season: "2021",
+    date: "August 1, 2021",
+    kind: "Photo Submissions / shared event setup / recurring routine",
+    logline: "At 15:16:21 Gilli dropped an Example Photos post with an attachment. Twenty-two seconds later Ren put down another standardized Example Photos header. Ren had been showing up with reference dividers across the year, but here the two of them overlap almost in real time. Nobody needed to announce an official department: they were already doing the little jobs that made the room usable, sometimes simultaneously. These posts identify who shared the examples, not who created or captured the pictures.",
+    cast: ["Gilli", "Ren"]
+  },
+  {
     id: "nightlife-location-rule-hotpatch-2021",
     title: "NightLife Opened at Nine. Mugs Patched It Before Dinner.",
     season: "2021",
