@@ -1,3 +1,10 @@
+## 2026-11-18 08:14 PST — QOTD Gilli morning transition
+
+- MAIN full branch census: 137 remote branches / 30 active archive miners, no advanced HEADs; persisted on MAIN master `312cae42d6367bffc97d649a73ef65af5b4e0790` before source review. Ledger remains five pending-publication families, one recovery backlog, zero formally overdue.
+- QOTD miner: `archive-miner-qotd-officers-20260824` at `c51cd1914f65cb8ae65b850b1d0da85ffccb94ed`; checkpoint read first, then `site-candidates.md`, `site-candidates-2026-08-25-0547.md`, `site-candidates-2026-08-25-1245.md` and September person handoffs. No new branch delta; publication-debt recovery only.
+- Reader-facing WIKI episode `qotd-gilli-announcements-room-2022` added to `src/data/integrator-episodes.ts` at `cb049004006b29e77c829d60245ffb31bda9ad35`. Source `site-candidates-2026-08-25-1245.md`: Gilli's manual career-dream QOTD at 05:52:58 PST Jan 7 and dedicated channel existence by 09:52:52 PST; her veterinarian answer. Channel creator and formal launch remain unknown. MAIN already contains Gilli's ordinary-life/veterinarian detail, so no duplicate MAIN biography paragraph.
+- New reader build run `44344417683` was QUEUED at first check; reader publication remains pending successful build/deploy and live verification. No consumed SHA advanced. Ren Wall screenshot `1177646661196062820` remains source-blocked without `IMG_9928.png` and source QOTD answer; 2023 QOTD totals conflict unresolved; nested A/B remainder not certified. Club-Only 2021–26 recovery and other families still open.
+
 ## 2026-11-18 07:55 PST — Photo Submissions Grimlee verification clearance
 
 - Verified WIKI Grimlee reader commit `3fdcd39eaae106102156d5564edd16de7b3d739c`: Astro build run `44330998586` completed SUCCESS; original preview `44330998189` CANCELLED due to successor commit.
