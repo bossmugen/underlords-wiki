@@ -2,6 +2,15 @@ import type { Episode } from "./wiki";
 
 export const integratedEpisodes: Episode[] = [
   {
+    id: "freesnow-custody-hearing-2026",
+    title: "#freesnow: The Custody Hearing Nobody Requested",
+    season: "2026",
+    date: "August 14, 2026",
+    kind: "August reunion / interrogation-room bit / one-day hashtag",
+    logline: "Snow complains that Mugs keeps him locked in the interrogation room (1537800754939826269). Mugen responds with a jail GIF (1537812901996404776), Oyasumi campaigns with `#freesnow` (1537815371279503392), and Moon answers `Get back in there you!` (1537868061338509453) before sending kidnapping GIFs (1537868655801671781; 1537868702958223390). The room briefly runs a complete criminal-justice system for the purpose of putting Snow back in it. This is a single August 14 gag, not an actual detention, permanent role, or organized movement; no Mia involvement is established.",
+    cast: ["Snow", "Mugen", "Oyasumi", "Moon"]
+  },
+  {
     id: "corpse-inc-mugs-lost-body-2021",
     title: "Corpse.Inc Lost the Boss. Then Filed an Amber Alert.",
     season: "2020–2021",
