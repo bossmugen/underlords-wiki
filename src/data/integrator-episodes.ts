@@ -2,6 +2,15 @@ import type { Episode } from "./wiki";
 
 export const integratedEpisodes: Episode[] = [
   {
+    id: "full-on-disbanding-announcement-2025",
+    title: "Sye Had to Say the Part Nobody Wanted to Hear",
+    season: "2025",
+    date: "July 1, 2025",
+    kind: "Dragon Raja / public disbanding announcement",
+    logline: "Sye told HQ she was about to announce the fate of UL in game and would come back after she finished crying. At 11:16 a.m. PDT she delivered the public decision in Club Only: `UL will not be merging. This is a full on disbanding of the club.` Members had through the end of July to make amends. Mugen later answered with an affectionate kiss GIF. July 1 dates the announcement, not the final mechanical shutdown; the Discord friendships and the Dragon Raja club were not the same thing.",
+    cast: ["Sye", "Mugen"]
+  },
+  {
     id: "akane-qinmu-waltz-partners-2021",
     title: "Akane Brought Dreamless. Qin-Mu Brought Akariel.",
     season: "2021",
