@@ -2,6 +2,15 @@ import type { Episode } from "./wiki";
 
 export const integratedEpisodes: Episode[] = [
   {
+    id: "kitsune-deputy-wallet-stripclub-2021",
+    title: "The Deputy Walked In. The Strippers Got His Wallet.",
+    season: "2021",
+    date: "October 5, 2021",
+    kind: "Main HQ / Dragon Raja / Stripclub visitor joke",
+    logline: "Mugen captioned an adjacent deputy's visit to Kitsune like a nightclub transaction: 'walks in, is greeted by strippers, hands over wallet.' The joke treated a visitor as a paying customer, extending UL's imaginary stripclub economy beyond its own regulars. It is Mugen's description of the scene, not an independently inspected account of the attached Raja screenshot; the deputy remains unnamed. Main HQ receipt 894874684951248937.",
+    cast: ["Mugen"]
+  },
+  {
     id: "grimlee-four-rounds-no-caption-2021",
     title: "Grimlee Submitted Four Times and Said Absolutely Nothing",
     season: "2021",
