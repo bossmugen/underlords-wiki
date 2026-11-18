@@ -2,6 +2,15 @@ import type { Episode } from "./wiki";
 
 export const integratedEpisodes: Episode[] = [
   {
+    id: "nightlife-location-rule-hotpatch-2021",
+    title: "NightLife Opened at Nine. Mugs Patched It Before Dinner.",
+    season: "2021",
+    date: "October 4, 2021",
+    kind: "Photo Submissions / live rule revision / event operations",
+    logline: "NightLife Magazine opened for entries at 09:09. By 16:08 somebody had already submitted. The opening announcement was edited at 16:51:09, and at 16:58:55 Mugen told everyone the location guideline had changed: shoots could happen anywhere, not only the suggested Tokyo and Zelan spots. The contest was already running when the instructions got revised. The old text did not survive the edit, so the exact morning wording is unknown; neither the early entrant nor their picture can be blamed for the change. Mugs did not wait for the next round to fix the brief. The glamour department apparently had live release management.",
+    cast: ["Mugen"]
+  },
+  {
     id: "han-photoshoot-one-more-2021",
     title: "Han Retired From Photoshoot for About Three Weeks",
     season: "2021",
