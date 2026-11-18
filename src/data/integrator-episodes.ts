@@ -2,6 +2,15 @@ import type { Episode } from "./wiki";
 
 export const integratedEpisodes: Episode[] = [
   {
+    id: "sarabunny-beach-syveon-scary-2021",
+    title: "SaraBunny Found the Beach. Syveon Stayed for Scary.",
+    season: "2021",
+    date: "May–October 2021",
+    kind: "Lobby / Photoshoot / repeat entrant chronology",
+    logline: "On May 25 SaraBunny introduced herself in the Lobby as SaraBunny of Underlords (846796371104890910); Mugen welcomed her and offered the server map (846796610578677820). Twelve days later SaraBunny posted an uncaptioned BEACH entry (851192835176136755). Syveon also entered BEACH without a caption on June 5 (850889189578768415), then returned to SCARY on October 19 with the final edited line `-Sometimes the darkness takes over-` (900109479109095494). Saber closed SCARY on October 25 (902240809565446245). Two ordinary creative arrivals, one quiet repeat return. These are dated public messages, not inferred admission dates; neither image has been inspected, and posting is not proof of who made or captured it.",
+    cast: ["SaraBunny", "Syveon", "Mugen", "Saber"]
+  },
+  {
     id: "freesnow-custody-hearing-2026",
     title: "#freesnow: The Custody Hearing Nobody Requested",
     season: "2026",
