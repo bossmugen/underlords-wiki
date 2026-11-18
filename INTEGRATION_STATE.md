@@ -1,3 +1,12 @@
+## 2026-11-17 19:40 PST — Sye's full-on disbanding announcement gets a searchable WIKI episode
+
+- MAIN full REST branch census persisted before review: 137 remote branches, 30 active archive miners, zero new/advanced SHAs; `archive-intake/INTEGRATOR_BRANCH_STATE.json` commit `3fbed8883e8452116d584352aee5cff293d1453a`. No consumed SHA advanced. August Reunion, Backroom Deals and Photo Submissions remain the three unconsumed branches.
+- Direct miner source: `archive-miner/main-hq-hourly` HEAD `e172df0641d6fa9c9d47a2bec6ff40c1aee0fb3c`; `archive-intake/main-hq-2022-2026-tail-20260819/checkpoint.md` and `site-candidates-2026-08-26-1910.md`. Source receipts: HQ `1389659987407802378` (Sye's preparation); Club Only `1389671015268880404` (July 1, 2025 11:16 PDT public announcement); `1389706269434056704` (Mugen's affectionate follow-up). July 1 is announcement date, not proven mechanical shutdown date.
+- WIKI reader: `src/data/integrator-episodes.ts` episode `full-on-disbanding-announcement-2025`, commit `88c39c58ea145e4f5fe1bfcce55cd9f10e6fc776`. Exact-commit GitHub Actions build `44232151210` SUCCESS and preview deploy `44232150975` SUCCESS. Custom production domain not independently verified.
+- MAIN no reader change: Sye's person-first biography already contains the public announcement and her HQ emotional lead-up; a second paragraph would duplicate the person story. WIKI uses the same receipts as a structured, searchable episode rather than mirrored prose.
+- Additional pending branch inspected: Photo Submissions checkpoint directly on `archive-miner-photo-submissions-2021` HEAD `d45d441feca0110e9495f49b13df9666982bb45c`; quarry exhausted at source boundary, accepted publication candidates still not fully certified. August Reunion checkpoint also read directly at `fcc27ac7a4457fc5c93c575bd2813b8e19abfa3b`. No full delta review; no cursor advancement.
+- Held: Gilli/Namo original-media attribution, unresolved pooled deleted-account identities, and complete accepted A/B candidate inventory for August Reunion + Main HQ. No unsafe image/role/identity inference promoted.
+
 ## 2026-11-17 18:56 PST — Akane/Dreamless and Qin-Mu/Akariel WALTZ pair snapshots
 
 - MAIN full REST branch census: 137 remote branches / 30 active miner branches; all active HEADs unchanged; census persisted MAIN commit `bc30d4064e875fcafd76b3f6c35f9a3629d5d6d1` before intake review.
