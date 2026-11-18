@@ -1,3 +1,9 @@
+## 2026-11-18 09:15 PST — QOTD Gilli deployment verification
+
+- Verified Gilli manual QOTD reader commit `cb049004006b29e77c829d60245ffb31bda9ad35` build `44344417683`: SUCCESS. Original preview `44344417927`: CANCELLED by successor.
+- Verified successor integration-state commit `62d7df74a20397d93b79c2125e20d7bf80efcdbe` build `44344452754`: SUCCESS; preview/deployment `44344452720`: SUCCESS. Reader-facing WIKI episode `qotd-gilli-announcements-room-2022` is now verified through GitHub Actions deployment; independent custom-domain live fingerprint not checked.
+- MAIN full census: 137 branches, 30 active archive miners, zero new/advanced HEADs; persisted to MAIN `9fe60c62076d54095bb8236c09807689b8bbe669`. QOTD miner `c51cd1914f65cb8ae65b850b1d0da85ffccb94ed` checkpoint reread, Club-Only `e45fb11c9239e236231bb65645dfd0285bc0078b` checkpoint reread. No new QOTD reader changes or consumption SHA advances. Ren screenshot `1177646661196062820` still source-blocked; nested A/B count and 2023 totals remain unresolved.
+
 ## 2026-11-18 08:14 PST — QOTD Gilli morning transition
 
 - MAIN full branch census: 137 remote branches / 30 active archive miners, no advanced HEADs; persisted on MAIN master `312cae42d6367bffc97d649a73ef65af5b4e0790` before source review. Ledger remains five pending-publication families, one recovery backlog, zero formally overdue.
