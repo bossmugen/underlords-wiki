@@ -1,3 +1,9 @@
+## 2026-11-18 00:57 PST — Han Photoshoot reader verification cleared
+
+- Verified GitHub Actions directly: WIKI reader `d9addf159d22f951baad260fa229a966fd10c29c` Build Underlords Wiki run `44262756279` completed **success**; its preview run `44262756333` was cancelled by successor deployment. Successor state commit `6661bbe69c246f954c379c6b35e3a386dc76b39b` Build run `44262777058` and Preview run `44262777047` both completed **success**. This verifies the reader build and successor preview; it does **not** independently certify custom production-domain fingerprint.
+- MAIN full REST census: 137 branches, 30 active miners, all 30 SHA values unchanged; persisted MAIN `archive-intake/INTEGRATOR_BRANCH_STATE.json` in commit `a073fa836e4f338e84b2ebe80e9d4d353faed1c6`. Photo miner `archive-miner-photo-submissions-2021` HEAD `d45d441f` unchanged; consumed `342ee5df` held pending cumulative A/B publication reconciliation. Two missing reply parents and inaccessible image originals remain candidate-specific holds.
+- No new reader text in this verification pass; no duplicate Han episode added. Other Photo Submissions candidates remain open for reconciliation.
+
 ## 2026-11-18 00:00 PST — Photo Submissions Han fake-retirement reference
 
 - Read Photo Submissions `checkpoint.md`, `site-candidates.md`, and `site-candidates-hourly.md` directly on `archive-miner-photo-submissions-2021`. The latter's `2026-08-25 03:45 PDT` Han candidate provides the POPSTAR August 21 opening (`Ok lets give it a try`, `XD`), the NIGHTLIFE/SCARY/FAMILY return sequence, November 15 `probably gonna be the last submission for me`, and December 7 WINTER `still have something left hehe`.
