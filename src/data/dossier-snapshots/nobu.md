@@ -9,6 +9,13 @@ summary: "Nobu's archive has a clean role progression but a better human story: 
 summaryEvidence: "archive-confirmed"
 publication: "public"
 claims:
+  - text: "On September 21, 2022, Ren extended Panda's cloud nickname for Nobu into `nube` / `nubecita` and supplied a Moomin cloud GIF. Nobu answered `Oh-`; Marian said `i accidentally know spanish`. This was a one-scene nickname joke, not a formal alias."
+    evidence: "archive-confirmed"
+    date: "2022-09-21"
+    sources:
+      - label: "Main HQ miner · site-candidates-2026-08-25-1045.md · 1022349819647377479 / 1022351266896158791 / 1022351301499158628 / 1022351325347991573 / 1022351352942309446"
+        href: "/channels/wall"
+    note: "Eos posted an uninspected NUBE.png setup attachment. Panda's precise referent remains unresolved; do not infer image contents."
   - text: "On March 26, 2023, Nobu posted a WOO-mentioned screenshot; Gilli directly replied tagging WOO, who responded `NOBU` / `TRAITOR`, and Nobu joined the Fat-Wheeze reactions. Roughly 36 minutes later Nobu posted another screenshot and WOO responded `nobu` / `why`. The second cluster is chronological, not a confirmed direct reply to the first."
     evidence: "archive-confirmed"
     date: "2023-03-26"
