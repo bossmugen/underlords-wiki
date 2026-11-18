@@ -1,3 +1,10 @@
+## 2026-11-18 07:00 PST — Photo Submissions: Grimlee's four quiet rounds
+
+- Direct miner source: `archive-miner-photo-submissions-2021`, `archive-intake/photo-submissions-2021-visual-contest-2026-08-19-1845-pdt/site-candidates-hourly.md`, 2026-08-25 04:45 PDT, candidate `Grimlee was quietly in this thing for months`; canonical `checkpoint.md` reviewed first. Four stable father.grim attachment posts: WALTZ July 11, DUSK TIL DAWN August 5, POPSTAR August 20, WINTER December 7. Blank captions; upload only, no invented creator/captor/subject credit.
+- MAIN `src/lib/photo-submissions-overrides.ts` already carries Grimlee's four-round recurrence in narrative prose. WIKI lacked a matching searchable episode. Added `grimlee-four-rounds-no-caption-2021` in `src/data/integrator-episodes.ts`, reader commit `3fdcd39eaae106102156d5564edd16de7b3d739c`. This is structured complement, not mirrored prose.
+- Full REST census on MAIN: 137 branches / 30 active miner HEADs, none advanced; MAIN census commit `8724622c01db81617b80d35ea77daa5b33c9b824`. Photo consumed SHA remains `342ee5dfe77b0c6d1106f28eb557fd25ce67085b` against `d45d441feca0110e9495f49b13df9666982bb45c`; cumulative accepted A/B candidate inventory not yet reconciled. Missing reply parents and original image binaries remain blocked individually.
+- Reader build, preview and custom production-domain verification pending until Actions results are checked. No publication completion claimed.
+
 
 ## 2026-11-18 05:35 PST — Nobu cloud dossier CI verification
 
