@@ -2444,3 +2444,9 @@ Photo miner `archive-miner-photo-submissions-2021`, last-known HEAD `d45d441feca
 - WIKI reader `src/data/integrator-episodes.ts` episode `gilli-ren-august-example-photos-2021`, commit `a80dc922067f803940b1eef873c03c97e46262db`. MAIN `src/lib/photo-submissions-overrides.ts` already narrates the overlapping maintenance; WIKI supplies searchable event structure, no MAIN duplicate.
 - WIKI source reread completed before commit; Actions build and preview for new reader commit pending observation; custom production domain unverified. Previous NightLife reader `2189bc6f` build `44290974766` succeeded; initial preview `44290974565` cancelled, successor state commit `bf58a620` build `44291007069` and preview `44291006971` succeeded.
 - MAIN full census commit `1c9e9e63e54f595d2ab644e1e7637d12e0e93d62`: 137 branches, 30 miners, zero new/advanced. Photo Submissions consumed cursor remains `342ee5df`; cumulative handoff publication inventory and exact A/B remainder unresolved. No consumption advancement.
+
+## 2026-11-18 09:30 PST — BACKROOM Pass 40 Tumbleweed continuity
+
+- Miner branch `archive-miner/backroom-deals-2026-08-24` HEAD `9c143a7c146af4fc90de4b258bee1c848a2818a0`, handoffs `site-candidates-pass-40.md` / `receipts-pass-40.md`, receipts `981410104425472000`, `981416137327783936`, `981416227266236439`.
+- Reader `src/data/integrator-episodes.ts`, existing episode `tumbleweed-family-tree-returns-2026`, commit `80fb65d45080e87fbbbeaa9c00180f3893b16b3e`: restored May 2022 sibling discovery and Rich's Gilli/Mugen map lookup between 2020 and 2026. Source reread PASS. Build/preview/live verification pending; not yet marked fully integrated.
+- MAIN narrative not mirrored; MAIN branch census 137 remote/30 active miners, no advances, persisted `76ab745e9c65b769e4413f556029ca0d5ab90599`. BACKROOM full A/B inventory remains uncounted, consumed SHA unchanged. No literal family or exclusive-custodian inference; uninspected media held.
