@@ -2,6 +2,15 @@ import type { Episode } from "./wiki";
 
 export const integratedEpisodes: Episode[] = [
   {
+    id: "four-photoshoot-entrants-lobby-to-flowers-2021",
+    title: "Gilli Worked the Door. Four People Came Back With Flowers.",
+    season: "2020–2021",
+    date: "October 2020 – March 2021",
+    kind: "Lobby / Photoshoot entrant chronology",
+    logline: "The Photoshoot regulars did not all arrive with an Underlords club tag. In October 2020, Gilli welcomed Miihi and asked for an IGN, club, and age; Miihi later posted to LOVE, Lonely, and Flowers. On January 11, LEXI introduced herself as Okaa-san of LoliParadise on S8, then entered those same three rounds. On January 16, Gilli was already offering to assign Laila's roles barely two seconds after the bot welcomed her; Laila also returned for LOVE, Lonely, and Flowers. The next day HamitteY identified as Wichita of Underlords, age 23; Mugen cheered that the role assignment worked and pointed toward the server tour. HamitteY posted a Flowers submission on March 12. Four distinct ways through the front door, and plenty of reason to come back. Those dated self-reports do not establish exact admission dates or the roles assigned; the submitted images are credited to their posting accounts, not automatically to their makers or photographers.",
+    cast: ["Gilli", "LEXI", "_-Laila-_", "Miihi", "HamitteY", "Mugen"]
+  },
+  {
     id: "yochan9-scary-eyes-ghostdance-2021",
     title: "Yochan9 Said 👀. The Room Sent Ghosts.",
     season: "2021",
