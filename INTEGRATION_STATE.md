@@ -1,3 +1,9 @@
+## 2026-11-18 15:30 PST — BACKROOM Pride lost-corpse episode pending build
+
+- Full MAIN census persisted at `088099629072a73c2fdd9e1d4158ebf4637d1fcb`: 30 active miners, no new or advanced HEADs; BACKROOM `9c143a7c`, consumed `68d2fba7` unchanged.
+- Direct BACKROOM `checkpoint.md`, `site-candidates-pass-32.md`, `receipts-pass-32.md` read on `archive-miner/backroom-deals-2026-08-24`. Pride lost-body callback receipts `773639369633431632`, `773639451456831569`, `773639549602889728`, `773639556544331856`, `773639584143376394`.
+- Added structured WIKI episode `pride-lost-corpse-amber-alert-2020` in `src/data/integrator-episodes.ts` at reader commit `a5e551a49829e366c992c02d1f7e688ae7db0172`. MAIN Pride and Marsy biographies already cover this story; no mirrored MAIN prose. Kept Pride incident separate from Mugen Corpse.Inc. Source reread passed; exact-commit Actions lookup returned zero runs, build/preview/live verification PENDING. No consumed SHA advanced. Full 61-pass A/B remainder still uncertified; uninspected Amber Alert artifact withheld.
+
 ## 2026-11-18 10:56 PST — Photo Submissions Crystalia verification clearance
 
 - Verified WIKI Crystalia reader commit `b6a1c64703e15b59945b1937071ad4842cd26b89`: Astro build [44365233315](https://github.com/bossmugen/underlords-wiki/actions/runs/44365233315) SUCCESS; original preview [44365233109](https://github.com/bossmugen/underlords-wiki/actions/runs/44365233109) CANCELLED by successor.
