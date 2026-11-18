@@ -1,3 +1,11 @@
+
+## 2026-11-18 04:14 PST — QOTD Barista and Sye prompt-writing episode
+
+- Direct miner branch `archive-miner-qotd-officers-20260824` HEAD `c51cd1914f65cb8ae65b850b1d0da85ffccb94ed`; intake `archive-intake/qotd-complete-2020-2026/site-candidates.md` and `site-candidates-2026-08-25-0547.md`, checkpoint read first.
+- WIKI reader `src/data/integrator-episodes.ts` added `qotd-barista-bouncer-sye-2023` at commit `cee51739f860929dffed7cb182361480393f2212`. Receipts: 1003651021433745409, 1076508089269899305, 1076508168856797255, 1076508358527422494. Sye's MAIN biography already records the human question-writing moment, so no mirrored MAIN biography edit.
+- QOTD bot accounts were distinct; the backend transition and whether Sye's question was used remain unresolved. Ren screenshot 1177646661196062820 / IMG_9928.png remains source-blocked. Existing QOTD nested A/B inventory is still uncertified.
+- Reader source commit succeeded; exact Actions lookup initially returned zero runs. **Build, preview, live production and candidate integrated status remain pending verification.** No miner consumed SHA advanced. MAIN full REST census 137 remote branches / 30 active miners / zero advanced, persisted `ea19a0f94610a8d44e234b1467c6ca1d31f1c07f`.
+
 ## 2026-11-18 03:05 PST — Photo Submissions NightLife live revision episode
 
 - Direct miner source: `archive-miner-photo-submissions-2021:archive-intake/photo-submissions-2021-visual-contest-2026-08-19-1845-pdt/site-candidates-hourly.md`, candidate `NightLife gets hot-patched after the doors are already open`. Sequence: 2021-10-04 09:09 opening, 16:08 first observed entry, 16:51:09 launch-message edit, 16:58:55 Mugen public location-rule revision. Pre-edit body unavailable; no blame assigned to earlier entrant.
