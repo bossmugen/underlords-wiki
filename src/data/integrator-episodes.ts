@@ -451,5 +451,13 @@ export const integratedEpisodes: Episode[] = [
     kind: "Running gag / literal GIF becomes server emoji and reunion language",
     logline: "Ansun types `_slides into his dms_` in Club Only on September 1, 2020. Anthos answers with a literal sliding-person GIF and says the phrase will now always make her picture it; Mugen joins with a Blake Griffin sliding GIF. By October 7 Rooks is using the animated `:SlideInDms:` server emoji on the Wall. Six years later Ren announces `I GOT NOBU THEY SAID SLIDE TO THEIR DMS` during the August reunion. The joke has become a shared visual shorthand and a way of retrieving old friends. The surviving posts do not prove who invented the phrase or whether the 2026 visual is the same media file as either 2020 GIF.",
     cast: ["Ansun", "Anthos", "Mugen", "Rooks", "Ren", "Nobu"]
+  },  {
+    id: "qotd-barista-bouncer-sye-2023",
+    title: "The Barista Got Bounced. Sye Wrote a Question Anyway.",
+    season: "2022–2023",
+    date: "August 1, 2022 – February 18, 2023",
+    kind: "QOTD / Bots With Jobs / Lobby onboarding",
+    logline: "On August 1, 2022 the Stripclub Bouncer greeted the QOTD Barista bot with the same IGN, club, and age form handed to human arrivals (1003651021433745409). A different QOTD bot account received the same welcome on February 18, 2023 (1076508089269899305). Mugen announced 'New barista on board!' at 06:19:08 (1076508168856797255). Roughly forty-five seconds later Sye said 'I wrote a question anyway' (1076508358527422494). UL had hired a machine for the café without getting the humans out from behind the counter. Two bot IDs establish separate accounts, not the technical handoff; Sye writing a question does not prove that particular question was used. The welcome-card attachments have not been visually inspected.",
+    cast: ["Mugen", "Sye"]
   },
 ];
