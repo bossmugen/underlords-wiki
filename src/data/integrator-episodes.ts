@@ -74,6 +74,15 @@ export const integratedEpisodes: Episode[] = [
     cast: ["Snow", "Mugen", "Oyasumi", "Moon"]
   },
   {
+    id: "pride-lost-corpse-amber-alert-2020",
+    title: "Pride's Body Went Missing. Ren Issued an Amber Alert.",
+    season: "2020",
+    date: "November 4, 2020 callback; original incident undated",
+    kind: "Wall / Dragon Raja / recurring lost-corpse joke",
+    logline: "Illien saw a GIF and immediately remembered the Club Chat refrain 'we've lost Pride's body' (773639369633431632). Pride was laughing too: 'I still laugh about that day' (773639451456831569). Ren supplied the bureaucratic punchline in two messages: 'I had to make an amber alert' (773639556544331856), then 'For a lost CORPSE' (773639584143376394). Gilli tagged Milo and newcomer Marsy into the retelling 'for your entertainment' (773639549602889728). The original incident date, mechanics and alert image have not been recovered. This is Pride's missing-body story, distinct from the later Corpse.Inc callback about Mugen's body.",
+    cast: ["Pride", "Ren", "Illien", "Gilli", "Milo", "Marsy"]
+  },
+  {
     id: "corpse-inc-mugs-lost-body-2021",
     title: "Corpse.Inc Lost the Boss. Then Filed an Amber Alert.",
     season: "2020–2021",
