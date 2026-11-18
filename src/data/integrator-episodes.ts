@@ -2,6 +2,15 @@ import type { Episode } from "./wiki";
 
 export const integratedEpisodes: Episode[] = [
   {
+    id: "corpse-inc-mugs-lost-body-2021",
+    title: "Corpse.Inc Lost the Boss. Then Filed an Amber Alert.",
+    season: "2020–2021",
+    date: "June 25, 2021 callback; original incident undated",
+    kind: "Dragon Raja / running gag / lost-body logistics",
+    logline: "Gabu still remembered Ansun and RV losing Mugs's corpse. Ren, implicated in the disappearance, called it `the first day of corpse.Inc` and promptly issued `Amber alert LOSE CORPSE`. An earlier September 2020 request from Zoshaa to fetch a corpse for hunter in exchange for advanced bento shows that handling bodies was already ordinary game-chat business. Pride's separately remembered lost-body episode belongs in the same ridiculous neighborhood, but the two losses have not been established as the same incident. The June conversation is a retrospective, not a recovered original date or a verified account of the game mechanics.",
+    cast: ["Mugen", "Gabu", "Ansun", "Ren", "Pride", "Zoshaa"]
+  },
+  {
     id: "four-photoshoot-entrants-lobby-to-flowers-2021",
     title: "Gilli Worked the Door. Four People Came Back With Flowers.",
     season: "2020–2021",
