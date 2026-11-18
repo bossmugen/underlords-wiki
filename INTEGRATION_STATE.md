@@ -1,3 +1,10 @@
+## 2026-11-18 00:00 PST — Photo Submissions Han fake-retirement reference
+
+- Read Photo Submissions `checkpoint.md`, `site-candidates.md`, and `site-candidates-hourly.md` directly on `archive-miner-photo-submissions-2021`. The latter's `2026-08-25 03:45 PDT` Han candidate provides the POPSTAR August 21 opening (`Ok lets give it a try`, `XD`), the NIGHTLIFE/SCARY/FAMILY return sequence, November 15 `probably gonna be the last submission for me`, and December 7 WINTER `still have something left hehe`.
+- WIKI reader `src/data/integrator-episodes.ts` added `han-photoshoot-one-more-2021` in commit `d9addf159d22f951baad260fa229a966fd10c29c`; post-commit source reread confirmed. No invented image creation/capture credit or literal retirement. MAIN `src/lib/photo-submissions-overrides.ts` contains only an alias mention for Han; no duplicate prose added there. WIKI owns the bounded searchable episode; a future MAIN person-first biography may synthesize it with additional traits.
+- Branch-name search found 30 active miner branches. Full fresh HEAD-SHA census and mandatory MAIN census-state write were **not** completed: GitHub branch search returns names but not commit SHAs and no branch-ref read action was exposed. Last certified full census remains 2026-11-17 23:01 PST. Do not treat prior HEADs as fresh observations.
+- WIKI reader build, preview, custom production verification **pending**; source reread is not build certification. Photo Submissions consumed `342ee5df` vs recorded HEAD `d45d441f`; no consumed SHA advanced. Remaining accepted A/B count unquantified; missing reply parents and inaccessible images remain candidate-specific holds. Club-Only/Whiskey review not advanced in this pass.
+
 ## 2026-11-17 23:30 PST — BACKROOM SaraBunny / Syveon Photoshoot reference
 
 - Direct BACKROOM branch `archive-miner/backroom-deals-2026-08-24`, intake checkpoint first, then `site-candidates-pass-45.md`. SaraBunny Lobby receipts `846796371104890910`, `846796610578677820`; BEACH `851192835176136755`. Syveon BEACH `850889189578768415`, SCARY `900109479109095494`, Saber close `902240809565446245`. Images uninspected; no join-date or media-creator inference.
