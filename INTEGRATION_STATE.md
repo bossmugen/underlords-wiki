@@ -1,4 +1,10 @@
 
+## 2026-11-18 05:35 PST — Nobu cloud dossier CI verification
+
+- Verified WIKI reader commit `85521cba21069b1782cce3827cc24044ceb004ab` using GitHub combined commit statuses: `wiki-build=success` (run `44286974673`) and `wiki-preview=success`. This clears the prior CI/preview hold for the structured Nobu `nube`/`nubecita` claim in `src/data/dossier-snapshots/nobu.md`. Independent custom production-domain SHA remains unverified; no claim of custom-domain deployment.
+- Directly read August Reunion and Main HQ miner `checkpoint.md`, latest August Run 28 overlay, and August Run 18 candidates. Compared all four Run 18 candidates to current MAIN and WIKI: Momo/Milo, Oyasumi `No molestar`, `#freesnow`, and SaraBunny's return are already represented. Suppressed duplicates. No fresh public-content change warranted from that bounded candidate file.
+- Branch-name census found 30 active miner names; the connector's branch-search response does not include HEAD SHAs. Therefore no independent fresh full-SHA census was certified, no MAIN `last_seen_sha` state was written, and no `last_consumed_sha` advanced. Last recorded full SHA census remains 137 remote / 30 miners at 05:00 PST. August Reunion/Main HQ full accepted A/B remainder is still uncounted. Media attribution blocks and Hishiro ScarletMoon chronology remain open.
+
 ## 2026-11-18 05:01 PST — Photo Submissions verification and duplicate prevention
 
 - MAIN full REST branch census: 137 remote branches, 30 miner branches, no advanced HEADs; persisted before review at MAIN commit `bc691c2d9d0843f160753e21cf2a4aa40ea41ebe`. Five pending-publication families, one recovery backlog, zero overdue in ledger. Photo branch HEAD `d45d441f`, consumed `342ee5df` unchanged.
