@@ -1,3 +1,11 @@
+## 2026-11-17 18:56 PST — Akane/Dreamless and Qin-Mu/Akariel WALTZ pair snapshots
+
+- MAIN full REST branch census: 137 remote branches / 30 active miner branches; all active HEADs unchanged; census persisted MAIN commit `bc30d4064e875fcafd76b3f6c35f9a3629d5d6d1` before intake review.
+- Direct source: `archive-miner-photo-submissions-2021` HEAD `d45d441feca0110e9495f49b13df9666982bb45c`, `archive-intake/photo-submissions-2021-visual-contest-2026-08-19-1845-pdt/checkpoint.md` and `site-candidates.md`, WALTZ partner-choice snapshot. AkaneAwake named Dreamless in the moonlight caption; Qin-Mu followed his own image with the Yoza/Akariel caption. Preserve same-author adjacency, not an invented reply; no romance or screenshot-creator claims.
+- WIKI reader `src/data/integrator-episodes.ts` episode `akane-qinmu-waltz-partners-2021`, commit `f1365c8f02fcad279081901804a133bfba76a576`. Source reread PASS; build and preview queued at first check: runs `44226954114` and `44226954075`. Live production unverified. MAIN no new reader copy: pairings belong in searchable WIKI event reference.
+- Grimlee four-round recurrence checked against MAIN biography and WIKI dossier: already present on both; no duplicate episode added. Earlier Nhou reader `2ccbaec8` build `44213115201` SUCCESS, its preview `44213115236` cancelled; successor state commit `182fde66` build `44213144112` and preview `44213144026` SUCCESS. No independent live-domain certification.
+- Photo Submissions last consumed remains `342ee5dfe77b0c6d1106f28eb557fd25ce67085b`; cumulative accepted A/B remainder uncounted, source-blocked reply parents and media attribution held. Whiskey pending rotation; Club-Only consumed through current HEAD. No cursor advanced.
+
 ## 2026-11-17 17:05 PST — Nhou LONELY self-reaction (Photo Submissions)
 
 - MAIN full REST branch census: 137 branches / 30 active miner branches, zero new or advanced SHAs; persisted in MAIN `archive-intake/INTEGRATOR_BRANCH_STATE.json` at `ba202ab7fdd838f6997ccc8aeb314c41e037e208` before review.
