@@ -1,3 +1,10 @@
+## 2026-11-18 03:05 PST — Photo Submissions NightLife live revision episode
+
+- Direct miner source: `archive-miner-photo-submissions-2021:archive-intake/photo-submissions-2021-visual-contest-2026-08-19-1845-pdt/site-candidates-hourly.md`, candidate `NightLife gets hot-patched after the doors are already open`. Sequence: 2021-10-04 09:09 opening, 16:08 first observed entry, 16:51:09 launch-message edit, 16:58:55 Mugen public location-rule revision. Pre-edit body unavailable; no blame assigned to earlier entrant.
+- WIKI reader `src/data/integrator-episodes.ts` added `nightlife-location-rule-hotpatch-2021` at commit `2189bc6fd68c56c45abd5567d46c295c1d9af670`. MAIN `src/lib/photo-submissions-overrides.ts` already contains the richer scene; WIKI is searchable event chronology, not mirrored biography.
+- Build run [44290974766](https://github.com/bossmugen/underlords-wiki/actions/runs/44290974766) and preview run [44290974565](https://github.com/bossmugen/underlords-wiki/actions/runs/44290974565) queued at review. **Verification pending**, including live production; do not mark certified yet.
+- MAIN full REST census: 137 remote branches, 30 miner HEADs, zero advanced; persisted commit `4a561320baff64c8666aeece26b0db929bc59ceb`. Photo consumed `342ee5df` vs HEAD `d45d441f` remains held for cumulative A/B inventory. Club-Only 2021–2026 and Whiskey checkpoints reread; no newly advanced deltas or consumption credits. Missing reply parents and inaccessible original media remain individually blocked.
+
 ## 2026-11-18 00:57 PST — Han Photoshoot reader verification cleared
 
 - Verified GitHub Actions directly: WIKI reader `d9addf159d22f951baad260fa229a966fd10c29c` Build Underlords Wiki run `44262756279` completed **success**; its preview run `44262756333` was cancelled by successor deployment. Successor state commit `6661bbe69c246f954c379c6b35e3a386dc76b39b` Build run `44262777058` and Preview run `44262777047` both completed **success**. This verifies the reader build and successor preview; it does **not** independently certify custom production-domain fingerprint.
