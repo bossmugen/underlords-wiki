@@ -2,6 +2,15 @@ import type { Episode } from "./wiki";
 
 export const integratedEpisodes: Episode[] = [
   {
+    id: "han-photoshoot-one-more-2021",
+    title: "Han Retired From Photoshoot for About Three Weeks",
+    season: "2021",
+    date: "August–December 2021",
+    kind: "Photo Submissions / recurring entrant / running joke",
+    logline: "Han arrived at POPSTAR on August 21 with an image and the very low-stakes announcement `Ok lets give it a try`. Five seconds later came `XD`—the nervous little laugh after pressing send. He returned for NIGHTLIFE and SCARY, then FAMILY on November 15, where he announced `probably gonna be the last submission for me`. WINTER opened and on December 7 there he was again: `still have something left hehe`. Nobody needs to call this a retirement from the game or the club. He just couldn't quite quit making pictures, and the final `hehe` makes the comeback sound like he knew exactly how funny that was. Images are credited as POSTED BY Han; their makers and captors are not established.",
+    cast: ["Han"]
+  },
+  {
     id: "sarabunny-beach-syveon-scary-2021",
     title: "SaraBunny Found the Beach. Syveon Stayed for Scary.",
     season: "2021",
