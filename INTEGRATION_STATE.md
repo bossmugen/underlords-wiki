@@ -1,3 +1,10 @@
+## 2026-11-17 23:01 PST — Photo Submissions publication verification follow-up
+
+- Full MAIN miner census independently checked: 137 remote branches, 30 active miners; all 30 HEAD SHAs match persisted `last_seen_sha`. MAIN census commit `4962e7d5a53c1efa20424c522c5b19dc9665533e`.
+- Photo Submissions `checkpoint.md` and cumulative `site-candidates.md` / `site-candidates-hourly.md` read directly from `archive-miner-photo-submissions-2021`. Newcomers candidate `site-candidate-2026-08-26-2210-newcomers-to-photoshoot.md` cross-checked: Crystalia already has complete MAIN and WIKI coverage; DarkAsrai/Aizzy already appears in both. No duplicate reader content.
+- Previous four-entrants WIKI reader `5072a950369249ea3a6761e9be4ca8bb25c7a1c7` Astro build run `44248241608` **success**; its preview run `44248241603` was cancelled, but successor state commit `d72fe4bcd0bce79c714641f52f0725ab007baa67` build `44248269729` and preview `44248269726` both **success**. This certifies preview, not independently the custom production domain.
+- Photo Submissions remains consumed `342ee5df` versus HEAD `d45d441f`; two cumulative handoffs still lack full accepted A/B incident-level remainder count. Missing reply parents, unavailable original binaries and maker/captor credits stay candidate-specific holds. No consumption cursor advanced and no new reader edit was made this pass.
+
 ## 2026-11-17 22:30 PST — August reunion #freesnow episode
 
 - Direct August Reunion miner checkpoint and `hourly-2026-08-26-run18-site-candidates.md` read on `archive-miner/aug-2026-living-ensemble-hourly`. Six receipts: `1537800754939826269`, `1537812901996404776`, `1537815371279503392`, `1537868061338509453`, `1537868655801671781`, `1537868702958223390`.
