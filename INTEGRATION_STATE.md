@@ -1,3 +1,10 @@
+## 2026-11-17 22:30 PST — August reunion #freesnow episode
+
+- Direct August Reunion miner checkpoint and `hourly-2026-08-26-run18-site-candidates.md` read on `archive-miner/aug-2026-living-ensemble-hourly`. Six receipts: `1537800754939826269`, `1537812901996404776`, `1537815371279503392`, `1537868061338509453`, `1537868655801671781`, `1537868702958223390`.
+- WIKI reader `src/data/integrator-episodes.ts`: added `freesnow-custody-hearing-2026` in commit `b7f586611c5d75584a6fa177abe1a82396d1904f`. MAIN already covers Snow and Moon's person-first angles; no mirrored biography text. The one-day joke is not formal custody or a standing campaign.
+- GitHub Actions commit lookup returned no runs at first check. WIKI build, preview, and custom live domain remain **pending verification**; candidate not marked integrated. No consumed SHA advanced. August Reunion/Main HQ full accepted A/B remainder still uncounted; Gilli/Namo media remains source-blocked.
+- Branch-name census returned 30 matching active miner branches. Full HEAD-SHA comparison and MAIN `last_seen_sha` census write were not completed in this pass; the previously persisted 22:14 PST full SHA census remains the last certified one. Backroom Deals and Photo Submissions consumption gaps remain open.
+
 ## 2026-11-17 22:00 PST — four Photoshoot entrants, one Lobby-to-Flowers reference
 
 - MAIN full REST miner census: 137 remote branches, 30 active miner branches, zero new or advanced HEADs. Persisted in MAIN `archive-intake/INTEGRATOR_BRANCH_STATE.json` commit `ad9138ad862d8fd385dcbd3712b9e61e70859b6f`; five pending-publication families and one recovery backlog remain.
