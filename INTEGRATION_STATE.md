@@ -1,3 +1,10 @@
+## 2026-11-17 23:30 PST — BACKROOM SaraBunny / Syveon Photoshoot reference
+
+- Direct BACKROOM branch `archive-miner/backroom-deals-2026-08-24`, intake checkpoint first, then `site-candidates-pass-45.md`. SaraBunny Lobby receipts `846796371104890910`, `846796610578677820`; BEACH `851192835176136755`. Syveon BEACH `850889189578768415`, SCARY `900109479109095494`, Saber close `902240809565446245`. Images uninspected; no join-date or media-creator inference.
+- WIKI structured reader `src/data/integrator-episodes.ts` added `sarabunny-beach-syveon-scary-2021` at commit `fdd786fdc64a9ed27ebbeb547d22023c42c943a0`. Post-commit source reread passed; commit-associated Actions lookup returned zero runs (PR-only endpoint). **Build, preview and production verification pending.** Do not certify publication or advance BACKROOM consumed SHA yet.
+- MAIN already has Syveon's SCARY contribution in Photoshoot overrides; this WIKI entry emphasizes SaraBunny's Lobby-to-BEACH and Syveon's repeat-entry chronology rather than duplicating person-first prose. Full BACKROOM accepted A/B remainder still uncounted.
+- Branch-name census: 30 active miner names. Latest MAIN ledger full SHA census at 23:01 PST: 137 remote branches / 30 miners, no advances. This pass did not independently verify all HEAD SHAs or persist a fresh MAIN census.
+
 ## 2026-11-17 23:01 PST — Photo Submissions publication verification follow-up
 
 - Full MAIN miner census independently checked: 137 remote branches, 30 active miners; all 30 HEAD SHAs match persisted `last_seen_sha`. MAIN census commit `4962e7d5a53c1efa20424c522c5b19dc9665533e`.
