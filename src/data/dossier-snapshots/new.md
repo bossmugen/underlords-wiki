@@ -7,16 +7,16 @@ pronouns: "he/him"
 roles:
   - "UL member"
   - "Historical Staff snapshot"
-eraLabel: "off-Discord network → 2023–2026 UL archive"
-summary: "New enters UL through GenGrey's older off-Discord friendship network, later meets Mugen outside Discord, joins the server, and becomes active enough to start supplying QOTD prompts in 2026. Old social provenance did not make him automatically fluent in every later UL alias—and Key was never especially fond of him."
+eraLabel: "pre-Raja circle → 2023–2026 UL archive"
+summary: "New belongs to Mugen's older pre-Raja social circle and later recalls being recruited through GenGrey, joins the server, and becomes active enough to start supplying QOTD prompts in 2026. Old social provenance did not make him automatically fluent in every later UL alias—and Key was never especially fond of him."
 summaryEvidence: "user-confirmed"
 publication: "public"
 claims:
-  - text: "New / Newmal is a man and a friend of GenGrey. GenGrey had already known Mugen and Key from another game outside Discord roughly two years earlier; New later met Mugen outside Discord through that broader social connection, then joined UL and became active in the Discord."
+  - text: "New / Newmal is a man, a friend of GenGrey, and part of Mugen’s older off-Discord / pre-Dragon Raja circle alongside GenGrey, Dean, Key, Zepp, Kal, and Mugen. New later recalled Mugen recruiting him through GenGrey; recruitment does not date their first acquaintance."
     evidence: "user-confirmed"
     sources:
       - label: "Mugs-confirmed New / GenGrey / Mugen relationship provenance"
-    note: "This describes the social route into UL. It does not make New part of Mugen and Key's earlier game friendship before he personally met Mugen."
+    note: "The older social connection and later recruitment are separate clocks. Do not infer equal closeness or first-meeting dates for the wider circle."
   - text: "Mugs confirms that Key is not fond of New."
     evidence: "user-confirmed"
     sources:
@@ -63,8 +63,8 @@ claims:
     note: "This supports active participation in the late QOTD room; it does not create a formal QOTD appointment."
 antiFanon:
   - "New / Newmal / `_newplayer` are the same stable account in this dossier. Do not search the ordinary English word `new` without account resolution and assign every hit to him."
-  - "New is GenGrey's friend. GenGrey's older friendship with Mugen and Key predates New's later meeting with Mugen; do not flatten the two relationship layers into one pre-Raja clique membership for New."
-  - "Knowing Mugen outside Discord does not prove New was already an Underlords member, Staff member, founder-era participant, or familiar with every later UL person / alias."
+  - "New belongs to the older pre-Raja circle. His later recruitment through GenGrey does not establish his first meeting with Mugen or a formal UL appointment."
+  - "Older off-Discord friendship does not prove New was already an Underlords member, Staff member, founder-era participant, or familiar with every later UL person / alias."
   - "Key's dislike of New is user-confirmed. Do not invent a feud, cause, confrontation, sabotage, or membership dispute without receipts."
   - "The historical Staff role visible on 2023 message snapshots does not date appointment, prove who appointed him, or establish current roster status. New is not in the current living roster."
   - "`Age: old enuff` is New's own joke-form answer. Do not manufacture a numerical age from it."
@@ -88,11 +88,9 @@ tags:
 
 ## TWO CLOCKS, SAME PERSON
 
-New is exactly the kind of person a flat timeline can fuck up. The older relationship belongs first to **GenGrey, Mugen, and Key**: Gen knew Mugen and Key from another game outside Discord roughly two years earlier. New is Gen's friend. New later met Mugen outside Discord, then joined UL and became active in the server.
+New already belonged to Mugen's older pre-Raja social circle, alongside GenGrey, Dean, Key, Zepp and Kal. GenGrey is his friend. Later, New remembers Mugen recruiting him through GenGrey. That is a route into another shared context, not a first-meeting clock.
 
-Those are related social networks, not the same timestamp.
-
-The distinction matters because the later file does not behave like somebody whose entire UL world was preloaded. New can understand one room's joke almost immediately and still need another person's alias translated two weeks later.
+The distinction matters because even somebody from the older circle can need a later Discord alias translated. Familiar people accumulate new game names, nicknames, and room-specific jokes faster than anyone can keep up.
 
 ## THE ROOM NAME LANDS BEFORE THE PEOPLE INDEX
 
@@ -118,7 +116,7 @@ That is a much more useful file than pretending outside friendship equals univer
 
 ## KEY DID NOT HAVE TO LIKE THE ARRANGEMENT
 
-Mugs confirms a second piece of the network that should stay blunt: **Key is not fond of New.** The archive does not currently earn a cause, a confrontation scene, or a grand feud narrative. It earns an asymmetry. New can enter through GenGrey's wider network, become Mugen's off-Discord acquaintance, join UL, and become active without every older node in that network feeling the same way about him.
+Mugs confirms a second piece of the network that should stay blunt: **Key is not fond of New.** The archive does not currently earn a cause, a confrontation scene, or a grand feud narrative. It earns an asymmetry. New can already belong to the older circle, later join UL through GenGrey's connection, and become active without every older node in that network feeling the same way about him.
 
 That is better social history than a frictionless friend graph. Relationships are not inherited as a package deal.
 
