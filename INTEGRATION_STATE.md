@@ -1,3 +1,8 @@
+## 2026-11-19 07:35 PST — August Reunion Run 25 / New chronology correction
+
+- MAIN `src/content/people/newmal.md` already carries user-confirmed pre-Raja social-circle canon. WIKI `src/data/dossier-snapshots/new.md` had an obsolete contradictory first-meeting account. Corrected WIKI in reader commit `cc237327aab55821a2f4dfa9f0a491a31e70bb33`: New belonged to Mugen's older pre-Raja circle; later recruitment through GenGrey is a separate event, not first acquaintance. Preserved Key's dislike, Cele's alias translation, Xuseio's tribute, and 2026 QOTD behavior. No MAIN reader edit needed.
+- Source reconciliation: August Reunion Run 25 New/Newmal return; current MAIN user-confirmed canon is the authority for this correction. WIKI exact source reread passed. Astro build, preview, and live deployment **pending verification**; do not mark fully integrated yet. No miner consumption cursor advanced. Latest other-integrator census at 07:30 PST: 137 branches / 30 active miners / 0 advanced; this pass did not independently certify all 30 HEAD SHAs.
+
 ## 2026-11-19 02:30 PST — BACKROOM staff entrance-exam verification
 
 - BACKROOM `site-candidates-pass-40.md` / `receipts-pass-40.md`, messages `869942657189814292`, `869944680626925639`, `869945430484607056`. WIKI `src/data/integrator-episodes.ts` reader commit `261679a192dc4a5d5c59298fd9d3aba58c33a9b5` passed exact-commit [Astro build 44488110060](https://github.com/bossmugen/underlords-wiki/actions/runs/44488110060) and [preview deployment 44488108979](https://github.com/bossmugen/underlords-wiki/actions/runs/44488108979), both SUCCESS. Independent custom-domain production fingerprint not verified. No actual staff exam or formal admission rule inferred.
