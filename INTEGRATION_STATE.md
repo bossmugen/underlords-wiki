@@ -1,3 +1,9 @@
+## 2026-11-18 19:31 PST — BACKROOM POPSTAR contestant-side correction
+
+- Source: `archive-miner/backroom-deals-2026-08-24`, `archive-intake/chat-2026-08-24-backroom-batch-miner/site-candidates-pass-17.md`, Valantina receipt `879227238904647712`. Contestant's August 22 uncertainty and eight hug reactions added to existing WIKI POPSTAR episode; no assertion that the entry was formally accepted or late. MAIN `src/lib/photo-submissions-overrides.ts` already carries the fuller narrative; no mirrored copy.
+- WIKI reader `src/data/integrator-episodes.ts` commit `ceb65bc346934068b3d3596ac73d0ad4e91a8542`; post-commit source reread PASS. Exact-commit workflow lookup returned zero runs; build, preview and production **pending verification**. Do not close candidate or advance BACKROOM consumed SHA.
+- Miner branch-name census returned 30 matching names; full fresh HEAD-SHA comparison and MAIN census persistence not completed this pass. Previous MAIN ledger last updated `2026-11-19T03:05:00Z`, 51 tracked branches, five pending-publication families, one backlog, zero overdue. BACKROOM last recorded HEAD `9c143a7c`, consumed `68d2fba7`. Full 61-pass A/B remainder uncounted. Rich/Ricochet identity and uninspected media remain blocked.
+
 ## 2026-11-18 18:34 PST — BACKROOM POPSTAR deadline reversal
 
 - Full 30-miner SHA census unchanged, persisted MAIN master `9376262f4da4140eb2c9f448e193d842caa59025`; BACKROOM HEAD `9c143a7c`, consumed `68d2fba7` unchanged.
