@@ -1,3 +1,9 @@
+## 2026-11-19 09:25 PST — BACKROOM Fight Club room-life episode (verification pending)
+
+- Full MAIN census: 137 remote branches, 30 active archive miners, zero advanced/new; MAIN census commit `0763d089748973da2462f15f7c9b4a82e8a29ed8`. BACKROOM branch `9c143a7c146af4fc90de4b258bee1c848a2818a0`; consumed baseline `68d2fba7adda1f110a9be57013dd7712c450f82d` held.
+- Direct BACKROOM source: `archive-intake/chat-2026-08-24-backroom-batch-miner/site-candidates-pass-03.md`, Fight Club → Rich's Couch; receipt IDs `696926320357277777`, `696926349499039764`, `697342774764372028`, `699798390858448969`, `707408767339331645`, `1059017270162108416`. Wiki `src/data/integrator-episodes.ts` adds `fight-club-to-rich-couch-2020-2022` in reader commit `3402a4fbcabe831705283f9952ff7a2f353be300`. MAIN unchanged; structured room history is WIKI's distinct use of the source.
+- Exact source reread PASS. Workflow query initially returned zero runs; Astro build, preview and live deployment PENDING. Do not certify publication or advance consumed SHA yet. Exact channel-ID continuity/rename date unresolved; Rich's recollection is not metadata proof. Uninspected media and private material withheld. Full 61-pass BACKROOM A/B remainder count not certified.
+
 ## 2026-11-19 08:18 PST — QOTD DyingFox/Gilli episode index (verification pending)
 
 - Source: `archive-miner-qotd-officers-20260824` at `c51cd1914f65cb8ae65b850b1d0da85ffccb94ed`, `archive-intake/qotd-complete-2020-2026/checkpoint.md` and `site-candidates-2026-09-06-1343.md`. Receipts `935933609825693706`, `935935961953611816`, `935935995990401024`, `936635900157394955`, `942081233570136164`.
