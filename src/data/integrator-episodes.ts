@@ -2,6 +2,15 @@ import type { Episode } from "./wiki";
 
 export const integratedEpisodes: Episode[] = [
   {
+    id: "dyingfox-gilli-food-affection-2022",
+    title: "Gilli Adopted a Fox. Payment Was Food and Affection.",
+    season: "2022",
+    date: "January 26 – February 12, 2022",
+    kind: "QOTD / running family joke / food-and-affection callbacks",
+    logline: "DyingFox asked Gilli 'adopt me?' on January 26 (935933609825693706). Gilli answered the exact request with an eating GIF (935935961953611816), then 'Done' (935935995990401024), and followed it with a hug. Two days later Fox picked Eevee and named Gilli as their hypothetical Pokémon trainer because she would provide 'food and affection' (936635900157394955). By February 12 Fox was thanking Gilli and Souta for 'feeding me once a week' (942081233570136164). Three separate prompts, one very consistent idea of who makes Fox feel looked after. The adoption, trainer and feeding language are affectionate bits, not literal family, formal hierarchy or a verified meal-delivery schedule.",
+    cast: ["Dyingfox", "Gilli", "Souta"]
+  },
+  {
     id: "staff-entrance-exam-kahoot-2021",
     title: "UL Staff Had an Entrance Exam. It Was About Pasties.",
     season: "2021",
