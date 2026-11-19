@@ -1,4 +1,12 @@
 
+## 2026-11-19 15:30 PST — BACKROOM Rashta hydration escalation WIKI reader (pending verification)
+
+- Full MAIN branch census: 137 remote / 30 active archive miners / zero new or advanced; persisted MAIN `faa1c6b843399041e26e32b068b771e448bcbe2a`. BACKROOM miner HEAD `9c143a7c146af4fc90de4b258bee1c848a2818a0`; consumed baseline `68d2fba7adda1f110a9be57013dd7712c450f82d` held.
+- Source directly from miner `archive-intake/chat-2026-08-24-backroom-batch-miner/site-candidates-pass-05.md` and `receipts-pass-05.md`; message IDs `859190571481300992`, `859191285823176777`, `859191367578026014`, `863132466789220363`, `863888744805040138`.
+- MAIN Gilli biography already tells the Rashta escalation as person-first character texture. WIKI dossiers/episode index lacked a searchable structured episode; added `rashta-hydration-escalation-2021` in `src/data/integrator-episodes.ts`, reader commit `ed22494b932a590c9904fb2438f651d25c4e925f`. No duplicate MAIN prose. Source reread confirms the entry.
+- Exact reader commit workflows: Astro build [44638200876](https://github.com/bossmugen/underlords-wiki/actions/runs/44638200876) and preview [44638200954](https://github.com/bossmugen/underlords-wiki/actions/runs/44638200954) both QUEUED at initial inspection. Reader status **pending_verification** until success; independent live production not verified. Do not advance BACKROOM consumed SHA or mark entire 61-pass family integrated. Exact A/B remainder remains uncertified. No unsupported Rashta identity/franchise attribution; uninspected media/private material held.
+
+
 ## 2026-11-19 12:30 PST — BACKROOM Fight Club successor-preview verification
 
 - BACKROOM source `site-candidates-pass-03.md`; receipts `696926320357277777`, `696926349499039764`, `697342774764372028`, `699798390858448969`, `707408767339331645`, `1059017270162108416`.
