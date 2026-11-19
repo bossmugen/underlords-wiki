@@ -1,3 +1,11 @@
+## 2026-11-18 22:06 PST — Photo Submissions Ten / Anthos-apprentice reader repair
+
+- MAIN full REST census: 137 branches, 30 active miners, zero advanced/new heads; persisted master commit `d7781ea0b9e821b735d459fc663fa2f8a1daac47`. MAIN reader unchanged.
+- Source owner: `archive-miner-photo-submissions-2021`, `archive-intake/photo-submissions-2021-visual-contest-2026-08-19-1845-pdt/checkpoint.md`; Ten receipts `743806415860400228`, `743806495782862849`, `760607629973782531`, `760607647371624549`, LONELY `811388130233679872`. No formal apprentice appointment or photo creation/capture asserted.
+- WIKI reader `src/data/integrator-episodes.ts`: new structured `ten-anthos-apprentice-to-lonely-2021` episode, commit `4371215964f208c15002235de7d35e2bdd0f1575`. MAIN Photoshoot narrative checked; this bounded entry/bit-to-contest chronology belongs in searchable WIKI, not a second MAIN biographical report. Source reread confirmed entry present.
+- Exact-commit WIKI Actions build `44469579059` and preview `44469579043` were in progress at last check. Build, deployment and independent live production **pending verification**; candidate not marked fully integrated/deployed. Photo consumed cursor remains `342ee5df` against `d45d441f`; full A/B inventory still uncounted.
+- Club-Only 2021–26 checkpoint reread, no delta consumed. Whiskey checkpoint attempted at `archive-intake/whiskey-longitudinal/checkpoint.md`, returned 404; exact intake root still needed. Missing reply parents `835940038549569627` and `872535327926009928` and raw-media attribution remain source-blocked.
+
 ## 2026-11-18 20:31 PST — POPSTAR verification clearance
 
 - WIKI contestant-side reader `ceb65bc346934068b3d3596ac73d0ad4e91a8542` exact-commit Astro build [44452133973](https://github.com/bossmugen/underlords-wiki/actions/runs/44452133973) SUCCESS; same-commit preview [44452133985](https://github.com/bossmugen/underlords-wiki/actions/runs/44452133985) CANCELLED by successor state commit `dbb850c0515c96a413fbf0afc558cec325bd0fc1`, which retains the reader change. Successor Astro build [44452152498](https://github.com/bossmugen/underlords-wiki/actions/runs/44452152498) SUCCESS and preview [44452152546](https://github.com/bossmugen/underlords-wiki/actions/runs/44452152546) SUCCESS. This verifies build and preview, not independent custom-domain production.
