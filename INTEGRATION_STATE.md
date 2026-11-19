@@ -1,3 +1,8 @@
+## 2026-11-19 02:30 PST — BACKROOM staff entrance-exam verification
+
+- BACKROOM `site-candidates-pass-40.md` / `receipts-pass-40.md`, messages `869942657189814292`, `869944680626925639`, `869945430484607056`. WIKI `src/data/integrator-episodes.ts` reader commit `261679a192dc4a5d5c59298fd9d3aba58c33a9b5` passed exact-commit [Astro build 44488110060](https://github.com/bossmugen/underlords-wiki/actions/runs/44488110060) and [preview deployment 44488108979](https://github.com/bossmugen/underlords-wiki/actions/runs/44488108979), both SUCCESS. Independent custom-domain production fingerprint not verified. No actual staff exam or formal admission rule inferred.
+- MAIN miner census 137 branches / 30 active / 0 advanced/new persisted at `1cf942dff2b9c1b4ceff410c8a959a0d8bef0c64`. MAIN BACKROOM inventory update `589c8586b7f5e100fa2672b448931562b90bd7e9`. No new reader edit this verification pass. BACKROOM consumed cursor held `68d2fba7` vs HEAD `9c143a7c`; complete A/B remainder still uncounted. MAIN LEXI and FUSKAmeme Pass44 candidates already published; no duplicate.
+
 ## 2026-11-18 23:00 PST — Ten / Anthos apprentice WIKI build and preview verification
 
 - Source owner: `archive-miner-photo-submissions-2021`, checkpoint `archive-intake/photo-submissions-2021-visual-contest-2026-08-19-1845-pdt/checkpoint.md`, receipts `743806415860400228`, `743806495782862849`, `760607629973782531`, `760607647371624549`, `811388130233679872`.
