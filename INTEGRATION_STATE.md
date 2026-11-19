@@ -1,3 +1,10 @@
+## 2026-11-19 08:18 PST — QOTD DyingFox/Gilli episode index (verification pending)
+
+- Source: `archive-miner-qotd-officers-20260824` at `c51cd1914f65cb8ae65b850b1d0da85ffccb94ed`, `archive-intake/qotd-complete-2020-2026/checkpoint.md` and `site-candidates-2026-09-06-1343.md`. Receipts `935933609825693706`, `935935961953611816`, `935935995990401024`, `936635900157394955`, `942081233570136164`.
+- WIKI `src/data/integrator-episodes.ts` new searchable `dyingfox-gilli-food-affection-2022` entry, reader commit `8ce7fe75e6c236267317c8d0a105fb5849a505ef`. Existing DyingFox and Gilli dossiers already carry person-level relationship texture; MAIN `src/content/people/dyingfox.md` already has rich prose, so no duplicate biography was added. This is a distinct structured WIKI episode, not mirrored narrative.
+- Current reader source reread PASS; GitHub Actions exact-commit query returned zero runs at first check. Astro build, preview and live deployment PENDING, not claimed successful. QOTD source restrictions and Ren `IMG_9928.png` still blocked; 2023 aggregate count conflict unresolved. QOTD miner consumed cursor unchanged; remaining individual A/B candidate count not certified.
+- MAIN full REST census: 137 remote branches, 30 active miners, zero advanced/new; persisted census commit `e8b3f402197913ed2ef88f3ba408a9eb2206f7b1`. Club-Only recovery checkpoint reviewed without new delta. Other pending publication families retain their owners.
+
 ## 2026-11-19 07:35 PST — August Reunion Run 25 / New chronology correction
 
 - MAIN `src/content/people/newmal.md` already carries user-confirmed pre-Raja social-circle canon. WIKI `src/data/dossier-snapshots/new.md` had an obsolete contradictory first-meeting account. Corrected WIKI in reader commit `cc237327aab55821a2f4dfa9f0a491a31e70bb33`: New belonged to Mugen's older pre-Raja circle; later recruitment through GenGrey is a separate event, not first acquaintance. Preserved Key's dislike, Cele's alias translation, Xuseio's tribute, and 2026 QOTD behavior. No MAIN reader edit needed.
