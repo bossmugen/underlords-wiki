@@ -1,3 +1,9 @@
+## 2026-11-18 16:30 PST — BACKROOM Pride episode build/preview verification
+
+- Pride episode reader commit `a5e551a49829e366c992c02d1f7e688ae7db0172`: Astro build [44421111830](https://github.com/bossmugen/underlords-wiki/actions/runs/44421111830) SUCCESS; original preview [44421111826](https://github.com/bossmugen/underlords-wiki/actions/runs/44421111826) CANCELLED by successor.
+- Successor WIKI main `339928f401b1661a472a2cfbc902fe1832c12ba0` retained the reader episode; Astro build [44421137769](https://github.com/bossmugen/underlords-wiki/actions/runs/44421137769) SUCCESS and preview deployment [44421137763](https://github.com/bossmugen/underlords-wiki/actions/runs/44421137763) SUCCESS. This clears GitHub Actions build/preview verification, not independent custom-domain production fingerprint.
+- BACKROOM branch `9c143a7c` and consumed `68d2fba7` unchanged. Original Amber Alert image uninspected; original incident date unresolved. No additional WIKI reader edit this pass.
+
 ## 2026-11-18 15:30 PST — BACKROOM Pride lost-corpse episode pending build
 
 - Full MAIN census persisted at `088099629072a73c2fdd9e1d4158ebf4637d1fcb`: 30 active miners, no new or advanced HEADs; BACKROOM `9c143a7c`, consumed `68d2fba7` unchanged.
