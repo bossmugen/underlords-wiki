@@ -1,3 +1,9 @@
+## 2026-11-18 18:34 PST — BACKROOM POPSTAR deadline reversal
+
+- Full 30-miner SHA census unchanged, persisted MAIN master `9376262f4da4140eb2c9f448e193d842caa59025`; BACKROOM HEAD `9c143a7c`, consumed `68d2fba7` unchanged.
+- Direct miner `checkpoint.md` first, then `site-candidates-pass-13.md` / `receipts-pass-13.md` on `archive-miner/backroom-deals-2026-08-24`. WIKI structured episode `popstar-deadline-moved-2021` added to `src/data/integrator-episodes.ts`, reader commit `64de6c1d7c346339d08edf307bcf2fb09a6149d3`. Receipts `878341833955115048`, `878599948969599007`, `879366584458698843`, `879411671125352568`. MAIN already carries narrative POPSTAR reversal in `src/lib/photo-submissions-overrides.ts`; no duplicate MAIN prose.
+- WIKI source reread passed. Exact-commit Actions lookup returned zero runs at check; build/preview/live verification **pending**. No reason for date change, bot failure, or entrant-specific exception inferred. Full 61-pass BACKROOM A/B remainder uncounted; consumed SHA held. Pass 10 Gabu/Sye bot review and Pass 13 Persephone/Moments already covered; duplicates suppressed.
+
 ## 2026-11-18 16:30 PST — BACKROOM Pride episode build/preview verification
 
 - Pride episode reader commit `a5e551a49829e366c992c02d1f7e688ae7db0172`: Astro build [44421111830](https://github.com/bossmugen/underlords-wiki/actions/runs/44421111830) SUCCESS; original preview [44421111826](https://github.com/bossmugen/underlords-wiki/actions/runs/44421111826) CANCELLED by successor.
