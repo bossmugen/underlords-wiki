@@ -1,3 +1,8 @@
+## 2026-11-18 20:31 PST — POPSTAR verification clearance
+
+- WIKI contestant-side reader `ceb65bc346934068b3d3596ac73d0ad4e91a8542` exact-commit Astro build [44452133973](https://github.com/bossmugen/underlords-wiki/actions/runs/44452133973) SUCCESS; same-commit preview [44452133985](https://github.com/bossmugen/underlords-wiki/actions/runs/44452133985) CANCELLED by successor state commit `dbb850c0515c96a413fbf0afc558cec325bd0fc1`, which retains the reader change. Successor Astro build [44452152498](https://github.com/bossmugen/underlords-wiki/actions/runs/44452152498) SUCCESS and preview [44452152546](https://github.com/bossmugen/underlords-wiki/actions/runs/44452152546) SUCCESS. This verifies build and preview, not independent custom-domain production.
+- BACKROOM source `site-candidates-pass-17.md`, receipt `879227238904647712`; no further reader change. MAIN already owns narrative. Full BACKROOM accepted A/B remainder uncounted; consumed cursor held.
+
 ## 2026-11-18 19:31 PST — BACKROOM POPSTAR contestant-side correction
 
 - Source: `archive-miner/backroom-deals-2026-08-24`, `archive-intake/chat-2026-08-24-backroom-batch-miner/site-candidates-pass-17.md`, Valantina receipt `879227238904647712`. Contestant's August 22 uncertainty and eight hug reactions added to existing WIKI POPSTAR episode; no assertion that the entry was formally accepted or late. MAIN `src/lib/photo-submissions-overrides.ts` already carries the fuller narrative; no mirrored copy.
