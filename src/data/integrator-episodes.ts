@@ -550,4 +550,13 @@ export const integratedEpisodes: Episode[] = [
     logline: "Fight Club was already a voice/listen-in destination by April 6, 2020. Gilli paired it with VIP Lounge as the place to type for people who couldn't talk (696926320357277777, 696926349499039764); the pairing carried Land of Conquest coordination through April and May (697342774764372028, 699798390858448969, 707408767339331645). Gilli later recalled Fight Club during club-fight and build-testing talk. On New Year's Eve 2022, Rich remembered 'all the screaming and yelling from the fight club vc before it got turned into my couch' (1059017270162108416). His couch line is the group's remembered afterlife for the room, not proof of an exact channel rename date or channel-ID continuity.",
     cast: ["Gilli", "Rich"]
   },
+  {
+    id: "rashta-hydration-escalation-2021",
+    title: "The Water Reminder Threatened Rashta. Anthos Drew the Line.",
+    season: "2021",
+    date: "June 28 – July 11, 2021",
+    kind: "Running gag / hydration reminders / escalating threats",
+    logline: "Gilli's hydration announcements already threatened mock bodily harm. On June 28 she escalated: 'If you don't drink water you love Rashta' (859190571481300992). Anthos objected immediately: 'that is crossing a line' (859191285823176777), followed by an emote (859191367578026014). Gilli returned July 9 with 'Rashta is your best friend' (863132466789220363), then July 11 with 'RASHTA WILL BE IN YOUR DREAMS!!' (863888744805040138). The bit works because the group's stated threshold for outrage was apparently Rashta, not a threatened curb-stomp. The announcements do not identify Rashta's source or prove anyone's real feelings about a person of that name.",
+    cast: ["Gilli", "Anthos"]
+  },
 ];
