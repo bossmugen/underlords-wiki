@@ -2,6 +2,15 @@ import type { Episode } from "./wiki";
 
 export const integratedEpisodes: Episode[] = [
   {
+    id: "staff-entrance-exam-kahoot-2021",
+    title: "UL Staff Had an Entrance Exam. It Was About Pasties.",
+    season: "2021",
+    date: "July 28, 2021",
+    kind: "Wall / fake staff standards / Kahoot idea",
+    logline: "Snow was discussing staff expertise in pasties and their 'applicationly use' (869942657189814292). Mugen decided this was apparently part of the curriculum: 'Yall didn't have to take the entrance exam but that is standard knowledge among our staff' (869944680626925639). Three minutes later Anayss was already tagging Gilli: 'boss, that's totally giving us kahoot ideas' (869945430484607056). A dirty joke became a pretend qualification requirement and then a potential quiz in the space of eleven minutes. Nobody actually established a staff entrance exam; Mugs was inventing policy for the bit, and Anayss knew exactly how to keep it going.",
+    cast: ["Snow", "Mugen", "Anayss", "Gilli"]
+  },
+  {
     id: "ten-anthos-apprentice-to-lonely-2021",
     title: "Ten Wanted to Be Anthos's Apprentice. Head Empty, Apparently.",
     season: "2020–2021",
