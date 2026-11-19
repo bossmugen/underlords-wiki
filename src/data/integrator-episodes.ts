@@ -7,8 +7,8 @@ export const integratedEpisodes: Episode[] = [
     season: "2021",
     date: "August 20–23, 2021",
     kind: "Photo Submissions / public deadline revision",
-    logline: "On August 20 Anthos warned that late POPSTAR entries would be disqualified and advertised an August 22 cutoff (878341833955115048). Mugen's August 21 last-day reminder still showed the August 22 date (878599948969599007). But on August 23 Gilli announced 'SUBMISSIONS CLOSE IN 3HRS!!' with a revised August 23 deadline (879366584458698843), and Anthos closed the round that morning (879411671125352568). The rules sounded final right up until the calendar changed. The public messages establish the revision, not who approved it or why; no bot failure or special exception for any entrant is proven.",
-    cast: ["Anthos", "Mugen", "Gilli"]
+    logline: "On August 20 Anthos warned that late POPSTAR entries would be disqualified and advertised an August 22 cutoff (878341833955115048). Mugen's August 21 last-day reminder still showed the August 22 date (878599948969599007). But on August 23 Gilli announced 'SUBMISSIONS CLOSE IN 3HRS!!' with a revised August 23 deadline (879366584458698843), and Anthos closed the round that morning (879411671125352568). The rules sounded final right up until the calendar changed. Valantina had already tested the uncertainty from the contestant side on August 22: `IDK IF I CAN STILL SUBMIT THIS BUT I WILL ANYWAYS` (879227238904647712). The next morning the deadline was alive again. Her entry received eight hug reactions, not a formal ruling on eligibility. The public messages establish the revision, not who approved it or why; no bot failure or special exception for any entrant is proven.",
+    cast: ["Anthos", "Mugen", "Gilli", "Valantina"]
   },
   {
     id: "crystalia-lobby-to-lonely-2021",
