@@ -1,3 +1,9 @@
+## 2026-11-19 09:55 PST — Photo Submissions cross-surface reconciliation
+
+- MAIN `src/lib/photo-submissions-overrides.ts` adds Nhou's LONELY icy-landscape/self-💩 reaction to the February event story in reader `929c8bced9f7c6648e5f433669362796335a74e3`; source `archive-miner-photo-submissions-2021`, `site-candidates.md` / `site-candidate-2026-08-26-2210-nhou-self-poop-reaction.md`, receipt `812921630560092200`, Nhou reaction-user ID `158594223371845632`. WIKI `src/data/dossier-snapshots/nhou.md` already documents the structured reaction, so no duplicate WIKI reader edit. MAIN source reread PASS; exact production workflow `44582437977` in progress, not yet certified.
+- MAIN HamitteY/Wichita reader `450a1d01b82b1872f7753f055b4d6ad7e24fea02` passed exact-commit production workflow `44572667625` SUCCESS; independent custom-domain browser fingerprint not checked. No new WIKI episode required.
+- Full MAIN miner REST census 30 active branches, zero advanced, persisted `b60ef0841c5c019210b7c6d8789e98889cf1cb02`. Photo consumed SHA remains `342ee5df` against `d45d441f`; 28 named candidate files classified but cumulative A/B remainder not certified. Club-Only 2021–2026 and Whiskey checkpoints read directly; no recovery consumption advancement. Media-maker attribution and missing reply parents held.
+
 ## 2026-11-19 09:25 PST — BACKROOM Fight Club room-life episode (verification pending)
 
 - Full MAIN census: 137 remote branches, 30 active archive miners, zero advanced/new; MAIN census commit `0763d089748973da2462f15f7c9b4a82e8a29ed8`. BACKROOM branch `9c143a7c146af4fc90de4b258bee1c848a2818a0`; consumed baseline `68d2fba7adda1f110a9be57013dd7712c450f82d` held.
