@@ -2,6 +2,15 @@ import type { Episode } from "./wiki";
 
 export const integratedEpisodes: Episode[] = [
   {
+    id: "ten-anthos-apprentice-to-lonely-2021",
+    title: "Ten Wanted to Be Anthos's Apprentice. Head Empty, Apparently.",
+    season: "2020–2021",
+    date: "August 14, 2020 – February 2021",
+    kind: "Lobby / familiar in-game joke / Photo Submissions",
+    logline: "Ten arrives with a small `hihi lol` and Gilli assigns a role nineteen seconds later. A month and a half on, Ten asks whether they can go with `anthos apprentice like in game`, then explains four seconds later: `cos head empty rn`. It's a wonderfully Ten-sized piece of room behavior: borrow a bit from the game, nominate yourself for it, immediately roast your own brain. By February, the same account is posting a LONELY Photoshoot entry. The apprentice wording is Ten's request, not proof of a formal office; the image is credited as posted by Ten, with its maker and photographer unknown.",
+    cast: ["Ten", "Gilli", "Anthos"]
+  },
+  {
     id: "popstar-deadline-moved-2021",
     title: "POPSTAR Disqualified Late Entries. Then Moved the Deadline.",
     season: "2021",
