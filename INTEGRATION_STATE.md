@@ -1,3 +1,9 @@
+## 2026-11-18 23:00 PST — Ten / Anthos apprentice WIKI build and preview verification
+
+- Source owner: `archive-miner-photo-submissions-2021`, checkpoint `archive-intake/photo-submissions-2021-visual-contest-2026-08-19-1845-pdt/checkpoint.md`, receipts `743806415860400228`, `743806495782862849`, `760607629973782531`, `760607647371624549`, `811388130233679872`.
+- WIKI reader `src/data/integrator-episodes.ts` commit `4371215964f208c15002235de7d35e2bdd0f1575` (`ten-anthos-apprentice-to-lonely-2021`) exact-commit Astro build [44469579059](https://github.com/bossmugen/underlords-wiki/actions/runs/44469579059) SUCCESS. Original preview [44469579043](https://github.com/bossmugen/underlords-wiki/actions/runs/44469579043) CANCELLED due to successor integration-state commit `b69b1e51af059c53988d408aae2996e5fbbd166f` which retains the reader change. Successor build [44469616687](https://github.com/bossmugen/underlords-wiki/actions/runs/44469616687) SUCCESS; successor preview [44469616592](https://github.com/bossmugen/underlords-wiki/actions/runs/44469616592) SUCCESS. This clears build/preview verification, not independent custom-domain production fingerprint.
+- MAIN full miner census 137 remote branches, 30 active, zero advanced/new, persisted at `6aae516df4b94f0e6df01641408f9e1af31c4f25`. MAIN reader unchanged. Photo branch `d45d441feca0110e9495f49b13df9666982bb45c`; consumed cursor `342ee5dfe77b0c6d1106f28eb557fd25ce67085b` held because complete accepted A/B candidate inventory remains unreconciled. Missing reply parents and original media are separate source blocks. No additional reader edit this verification pass.
+
 ## 2026-11-18 22:06 PST — Photo Submissions Ten / Anthos-apprentice reader repair
 
 - MAIN full REST census: 137 branches, 30 active miners, zero advanced/new heads; persisted master commit `d7781ea0b9e821b735d459fc663fa2f8a1daac47`. MAIN reader unchanged.
