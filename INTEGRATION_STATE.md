@@ -1,3 +1,10 @@
+## 2026-11-20 14:36 PST — MAIN HQ Rummy/Tummy recurrence (reader verification pending)
+
+- Full independent MAIN miner census: 30 active refs; all HEADs match `archive-intake/INTEGRATOR_BRANCH_STATE.json` `last_seen_sha`; zero new/advanced. Five pending-publication families, one backlog, zero overdue; lagging consumed cursors August Reunion, Backroom, Photo Submissions. No consumption SHA changed.
+- MAIN HQ branch `archive-miner/main-hq-hourly` HEAD `e172df0641d6fa9c9d47a2bec6ff40c1aee0fb3c`, checkpoint `archive-intake/main-hq-2022-2026-tail-20260819/checkpoint.md`, RH-008 RUMMY=TUMMY. Recurrence: Gilli calls Rummy `RUMMY TUM TUMMY` (2021), `We'll miss you Tummy` (2023), `It never been blue Tummy` (2024). MAIN `src/content/people/rummy.md` already contains a person-first claim, so only WIKI's structured dossier needed this addition.
+- WIKI reader `src/data/dossier-snapshots/rummy.md` commit `bfbb9dd95621beb477a14d365907aa06196a2e00`; postcommit source reread PASS. Actions build `44830508671` and preview `44830508723` queued at first check. Do not mark deployed or advance consumed SHA until verification. No media or private Club-Only text beyond the already-public, non-sensitive nickname quotations was introduced.
+- August Reunion branch `fcc27ac7a4457fc5c93c575bd2813b8e19abfa3b` checkpoint and Run 28 read; Momo Anansa/Fire Legacy already integrated, no duplicate. Club-Only 2021–2026 checkpoint read as recovery lane; later-year raw retrieval remains source-blocked. August Reunion/Main HQ 28+47 handoff files remain undeduplicated; distinct unpublished A/B count unknown. Gilli/Pebble, Gilli/Namo, Hishiro/ScarletMoon, WOO/Nobu TRAITOR remain open.
+
 ## 2026-11-20 14:30 PST — BACKROOM Pass 43 Torr Table-kun (verification pending)
 
 - Source: `archive-miner/backroom-deals-2026-08-24`, `archive-intake/chat-2026-08-24-backroom-batch-miner/site-candidates-pass-43.md` and `receipts-pass-43.md`; Wall message `1113019535117787166` (2023-05-30), POSTED BY Torr/DiStratus, with four `SasukeStare` reactions by Moon, Feli, opalite, Xuseio. Object/game mechanic unidentified.
