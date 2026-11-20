@@ -1,3 +1,9 @@
+## 2026-11-20 00:17 PST — QOTD DyingFox/Gilli reader voice repair (verification pending)
+
+- Full MAIN remote census: 137 branches, 30 active miners, zero new/advanced; persisted MAIN `05bfe17fecbbf740b7d7fbc4a2c50098108f54a1`. QOTD miner `archive-miner-qotd-officers-20260824` HEAD/consumed `c51cd1914f65cb8ae65b850b1d0da85ffccb94ed`; publication debt separate from consumption.
+- Direct QOTD `archive-intake/qotd-complete-2020-2026/checkpoint.md` source, receipts `935933609825693706`, `935935961953611816`, `935935995990401024`, `936635900157394955`, `942081233570136164`. Rewrote existing WIKI `dyingfox-gilli-food-affection-2022` logline in `src/data/integrator-episodes.ts` to remove visible raw receipt IDs and archive-report caveat overload, preserving the food-GIF / 'Done' / hug / Eevee / feeding progression and nonliteral-family boundary. Reader commit `60d0bb4a96087616a8fc233d044931ba63aee208`; postcommit source reread PASS. Build/preview workflow not yet surfaced, so **pending verification** and not marked deployed.
+- MAIN DyingFox/Gilli person-first biographies already contain the relationship; no duplicate MAIN reader change. Club-Only 2021–2026 and Whiskey checkpoints reread directly; no new HEAD delta. Ren `IMG_9928.png`, private Officers/Voice, conflicting 2023 QOTD totals, and the 12-handoff nested A/B candidate count remain blocked/uncertified. No consumed SHA advanced.
+
 
 ## 2026-11-19 23:34 PST — BACKROOM Pass 30 Suzi healer chase (pending verification)
 
