@@ -16,13 +16,13 @@ claims:
       - label: "Main HQ miner · site-candidates-2026-08-25-1045.md · 1022349819647377479 / 1022351266896158791 / 1022351301499158628 / 1022351325347991573 / 1022351352942309446"
         href: "/channels/wall"
     note: "Eos posted an uninspected NUBE.png setup attachment. Panda's precise referent remains unresolved; do not infer image contents."
-  - text: "On March 26, 2023, Nobu posted a WOO-mentioned screenshot; Gilli directly replied tagging WOO, who responded `NOBU` / `TRAITOR`, and Nobu joined the Fat-Wheeze reactions. Roughly 36 minutes later Nobu posted another screenshot and WOO responded `nobu` / `why`. The second cluster is chronological, not a confirmed direct reply to the first."
+  - text: "On March 26, 2023, Nobu posted a WOO-mentioned screenshot; Gilli directly replied tagging WOO, who responded `NOBU` / `TRAITOR`, and Nobu joined the Fat-Wheeze reactions. Roughly 36 minutes later Nobu posted a screenshot showing literal `Nobu near Brooklyn` restaurant search results; WOO responded with a stare, then `nobu` / `why`. The second cluster is chronological, not a confirmed direct reply to the first."
     evidence: "archive-confirmed"
     date: "2023-03-26"
     sources:
-      - label: "Main HQ miner · site-candidates-2026-08-25-2245.md · 1089742473150083104 / 1089742565412188160 / 1089743115809718302 / 1089743123288178689 / 1089751560642383982 / 1089752458898702377 / 1089752468495282196"
+      - label: "Main HQ · site-candidates-2026-08-25-2245.md; August Reunion · hourly-2026-08-26-run04-site-candidates.md · 1089742473150083104 / 1089742565412188160 / 1089743115809718302 / 1089743123288178689 / 1089751560642383982 / 1089752458898702377 / 1089752468495282196 / 1089752471708110888"
         href: "/channels/wall"
-    note: "Both screenshots uninspected; Nobu posted them but their maker/capturer and visual contents are not assigned. The episode is not proof of a permanent relationship label."
+    note: "The earlier screenshot remains uninspected; the later restaurant-results image was inspected in the August Reunion Run 4 handoff. Nobu posted it, but its capturer is unresolved. The clusters are not established as a single reply chain or the origin of the 2026 restaurant joke."
   - text: "Nobu / Xuseio is the same person."
     evidence: "user-confirmed"
     sources:
