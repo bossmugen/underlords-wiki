@@ -1,4 +1,10 @@
 
+## 2026-11-19 23:34 PST — BACKROOM Pass 30 Suzi healer chase (pending verification)
+
+- Full MAIN remote branch census: 137 branches, 30 active miners, zero new/advanced; persisted MAIN census commit `43bd86b8ed8191044b5dadf68ea03e78286221da`. BACKROOM HEAD `9c143a7c146af4fc90de4b258bee1c848a2818a0`; consumed baseline `68d2fba7adda1f110a9be57013dd7712c450f82d` unchanged.
+- Direct miner source: `archive-miner/backroom-deals-2026-08-24`, `archive-intake/chat-2026-08-24-backroom-batch-miner/site-candidates-pass-30.md` and `receipts-pass-30.md`; Nothien's April 6, 2020 healer chase message `696939165996286005`. MAIN `src/content/people/suzimasu.md` already tells the incident; WIKI dossier did not. Added one structured claim and one concise early-game episode to `src/data/dossier-snapshots/suzimasu.md` at reader commit `2a39e3c9c78b0635b5571f3041398a0c11d2f6b2`. No permanent combat trait, collateral-damage causation, or identity invention.
+- WIKI exact-reader build `44696034969` and preview `44696035016` queued at first check. **Pending verification**, not yet certified live. No MAIN reader edit; Illien Pass 30 premium lunch and Clash schedule, plus Suzi multitasking, already present on reader surfaces. BACKROOM accepted A/B remainder across 61 passes still uncounted; consumption cursor held. Private/visual/attribution holds remain.
+
 ## 2026-11-19 15:30 PST — BACKROOM Rashta hydration escalation WIKI reader (pending verification)
 
 - Full MAIN branch census: 137 remote / 30 active archive miners / zero new or advanced; persisted MAIN `faa1c6b843399041e26e32b068b771e448bcbe2a`. BACKROOM miner HEAD `9c143a7c146af4fc90de4b258bee1c848a2818a0`; consumed baseline `68d2fba7adda1f110a9be57013dd7712c450f82d` held.
