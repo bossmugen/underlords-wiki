@@ -1,3 +1,9 @@
+## 2026-11-20 08:38 PST — August Reunion Wall throwback genealogy (pending verification)
+
+- Source branch `archive-miner/aug-2026-living-ensemble-hourly`; intake `archive-intake/aug-2026-living-ensemble-reunion-2026-08-19-2303-pdt/site-candidates.md` candidate 4 and `hourly-2026-08-26-run02-receipts.md` R02-02/R02-03. Wall message IDs `820514157710671882` (Woohyuk, 2021-03-13) and `946484073768054815` (Key, 2022-02-24). The following Woohyuk attachment is `820514192975986698`; no uninspected media description published. The later Deleted User response is not identity-bridged.
+- WIKI structured episode `wall-throwback-shames-2021-2022` added to `src/data/integrator-episodes.ts` in reader commit `6262ba72c7b67a7512c7bb9887de506544635bdd`. Woohyuk's throwback question and Key's self-counting Wall visit are folded into one retrospective habit, without calling either the origin. MAIN not mirrored: this is structured WIKI episode material, and the MAIN culture/history surface requires separate ownership comparison.
+- Postcommit reader source reread PASS. Astro build and GitHub Pages preview workflow not yet verified; mark `pending_verification`, not deployed. No consumed SHA advanced; August Reunion cumulative accepted A/B remainder uncounted. MAIN's prior OLD MAN SNOW reader `3ed2c8ec0a0b70a8c6f5095a97813a999fe6fcf1` also requires exact production verification. No media/privacy-sensitive content published.
+
 ## 2026-11-20 07:14 PST — QOTD Syv/Ren preview verification
 
 - Source `archive-miner-qotd-officers-20260824`, `archive-intake/qotd-complete-2020-2026/site-candidates-2026-09-06-1145.md`; receipts `942150562877698168`, `1222938806789996617`, prompt `1222897175151902814`.
