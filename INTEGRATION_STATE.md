@@ -1,3 +1,12 @@
+## 2026-11-20 06:14 PST — QOTD Syv/Ren public voice repair (verification pending)
+
+- Source: `archive-miner-qotd-officers-20260824`, `archive-intake/qotd-complete-2020-2026/site-candidates-2026-09-06-1145.md`; Syv receipts `942150562877698168`, `1222938806789996617`, prompt `1222897175151902814`.
+- MAIN `src/content/people/syv.md` already carries the 2022 shy-bubble and 2024 shared-chaos relationship arc; no duplicate MAIN edit.
+- WIKI `src/data/dossier-snapshots/syv.md` reader commit `2b9cd9f05556412c01513466ee0316acbada1b26`: removed the raw QOTD receipt-ID footer from visible biography, retaining all exact provenance in the structured claim/source metadata. Postcommit source reread passed.
+- GitHub commit-workflow lookup returned no PR-triggered runs. Astro build, preview, and live production **not verified**; reader change remains `pending_verification`.
+- QOTD's 12 handoffs still lack complete nested A/B certification. Ren screenshot `IMG_9928.png` receipt `1177646661196062820` remains source-blocked; native Officers/Voice and conflicting 2023 totals unresolved. No consumed SHA advanced. Club-Only 2021–2026 checkpoint reread; later-year retrieval limitation persists.
+- Branch-name search returned 30 active miners; HEAD-by-HEAD comparison and MAIN census persistence not completed this pass. Existing MAIN ledger from 06:00 PST reports 51 active/historical, five pending-publication families, one backlog, zero overdue. Do not treat this as a fresh SHA census.
+
 ## 2026-11-20 04:17 PST — QOTD DyingFox/Gilli preview verification closed
 
 - Reader commit `60d0bb4a96087616a8fc233d044931ba63aee208` (`src/data/integrator-episodes.ts`) retains the Gilli/DyingFox adoption-and-feeding episode without raw IDs in the public logline; provenance remains backstage.
