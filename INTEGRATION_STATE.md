@@ -1,3 +1,10 @@
+## 2026-11-20 07:14 PST — QOTD Syv/Ren preview verification
+
+- Source `archive-miner-qotd-officers-20260824`, `archive-intake/qotd-complete-2020-2026/site-candidates-2026-09-06-1145.md`; receipts `942150562877698168`, `1222938806789996617`, prompt `1222897175151902814`.
+- WIKI Syv reader correction `2b9cd9f05556412c01513466ee0316acbada1b26` (`src/data/dossier-snapshots/syv.md`) passed Astro build [44750886741](https://github.com/bossmugen/underlords-wiki/actions/runs/44750886741); direct preview [44750886765](https://github.com/bossmugen/underlords-wiki/actions/runs/44750886765) cancelled. Subsequent integration-state commit `d06fb5511f4e3d3119cfdb19021257ce107bd9df` contains the reader correction and passed Astro build [44750918473](https://github.com/bossmugen/underlords-wiki/actions/runs/44750918473) and preview deployment [44750918539](https://github.com/bossmugen/underlords-wiki/actions/runs/44750918539). GitHub Pages preview verified; custom-domain production not independently verified.
+- MAIN Syv already carries the relationship arc; no duplicate. QOTD `site-candidates-2026-09-06-0655.md` Cele/WOO/Anthos A–D checked against current MAIN/WIKI Cele: all already represented. No duplicate publication.
+- MAIN full 30-miner HEAD census: zero new/advanced, persisted `b5db1fed4b45ea946d4c1e06ca8e8cc25c2660b2`. Club-Only checkpoint reread. QOTD nested A/B remainder uncertified; Ren `IMG_9928.png` (1177646661196062820) source-blocked, Officers/Voice restricted, 2023 totals conflicting. No consumed SHA advanced.
+
 ## 2026-11-20 06:14 PST — QOTD Syv/Ren public voice repair (verification pending)
 
 - Source: `archive-miner-qotd-officers-20260824`, `archive-intake/qotd-complete-2020-2026/site-candidates-2026-09-06-1145.md`; Syv receipts `942150562877698168`, `1222938806789996617`, prompt `1222897175151902814`.
