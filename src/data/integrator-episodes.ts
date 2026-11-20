@@ -2,6 +2,15 @@ import type { Episode } from "./wiki";
 
 export const integratedEpisodes: Episode[] = [
   {
+    id: "ren-breaststroke-screenshot-return-2022-2026",
+    title: "Ren Kept the Breaststroke Receipt for Four Years",
+    season: "2022–2026",
+    date: "May 10, 2022 – August 2026",
+    kind: "Wall / spelling crimes / reunion callback",
+    logline: "Ren filed a screenshot of LadyMugen's 'hope everyone has eaten their breaststroke' in the Wall in May 2022 (973675315169738804). Rich declared a shame war, and Rummy repeated the casualty as 'breastroke' (973676738573918298). Four years later Ren produced the same visible crop again during the August reunion (1537087561283928194). This was not just a remembered typo; somebody had kept the exhibit. The date of Mugen's original message and the screenshot's original capturer remain unknown.",
+    cast: ["Ren", "Mugen", "Rich", "Rummy"]
+  },
+  {
     id: "dyingfox-gilli-food-affection-2022",
     title: "Gilli Adopted a Fox. Payment Was Food and Affection.",
     season: "2022",
