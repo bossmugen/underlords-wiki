@@ -1,3 +1,9 @@
+## 2026-11-20 14:30 PST — BACKROOM Pass 43 Torr Table-kun (verification pending)
+
+- Source: `archive-miner/backroom-deals-2026-08-24`, `archive-intake/chat-2026-08-24-backroom-batch-miner/site-candidates-pass-43.md` and `receipts-pass-43.md`; Wall message `1113019535117787166` (2023-05-30), POSTED BY Torr/DiStratus, with four `SasukeStare` reactions by Moon, Feli, opalite, Xuseio. Object/game mechanic unidentified.
+- WIKI structured episode `torr-table-kun-2023` added to `src/data/integrator-episodes.ts` at reader commit `67716a5575abe878fcc66f331d2b1c6acf548a8b`; postcommit source reread PASS. Build and Pages preview not yet confirmed; pending_publication until verified. No MAIN mirror: this tiny incident belongs in WIKI episode until canonical Torr biography route is established.
+- Miner branch enumeration: 30 active matching names, no second-page additions. Fresh independent HEAD-SHA census unavailable in this runtime (Git network DNS failure, connector branch search returns names only); do not claim last_seen_sha freshly certified. MAIN ledger was last refreshed at 2026-11-20T22:03:00Z, with BACKROOM last_seen `9c143a7c`, consumed `68d2fba7`. Do not advance consumption. Full 61-pass A/B remainder uncounted. Kiro identity and Anjou screenshots remain held.
+
 ## 2026-11-20 13:26 PST — Fight Club Ricochet correction verification closed
 
 - BACKROOM source: `archive-miner/backroom-deals-2026-08-24`, `archive-intake/chat-2026-08-24-backroom-batch-miner/`; Rich / DragonRich and Ricochet / dragonrichard remain separate. The December 31, 2022 Fight Club `my couch` recollection (message `1059017270162108416`) belongs to Ricochet.
