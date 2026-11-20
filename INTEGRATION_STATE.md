@@ -1,3 +1,10 @@
+## 2026-11-20 03:32 PST — BACKROOM identity-attribution repair (verification pending)
+
+- BACKROOM Pass 40 `site-candidates-pass-40.md` and `receipts-pass-40.md` identify `Rich/Ricochet` for messages 710729317109465090, 710729332477395024, 711055892719599636, 711057870015299584. User-confirmed canon distinguishes **Ricochet / dragonrichard** from **Rich / DragonRich**. These are not interchangeable.
+- MAIN `src/content/people/rich.md` commit `c5628127d367745c40afac73d834bdbcc2168f44`: removed the misattributed December 2022 Fight Club→couch recollection, Mugen sleeper response and `ramen butt` as Rich's own; preserved Rich's independent couch-potato/Sou material.
+- WIKI `src/data/dossier-snapshots/rich.md` commit `43eb7d50e564348d5634d20d0bae10482e5681aa`: removed the May 2020 cross-club `dw he legal` / `Rich privileges` candidate mistakenly assigned to Rich; corrected the December 2022 Fight Club speaker to Ricochet. Public attribution repair only; no identity merging or invented access chronology.
+- Both postcommit source rereads succeeded. Build/preview/live deployment verification remains **pending**; the GitHub commit-workflow lookup returned no PR-triggered runs. No miner consumed SHA advanced; BACKROOM remains open. Full branch-name census returned 30 active names, but fresh HEAD-SHA census was not completed/persisted.
+
 ## 2026-11-20 00:17 PST — QOTD DyingFox/Gilli reader voice repair (verification pending)
 
 - Full MAIN remote census: 137 branches, 30 active miners, zero new/advanced; persisted MAIN `05bfe17fecbbf740b7d7fbc4a2c50098108f54a1`. QOTD miner `archive-miner-qotd-officers-20260824` HEAD/consumed `c51cd1914f65cb8ae65b850b1d0da85ffccb94ed`; publication debt separate from consumption.
