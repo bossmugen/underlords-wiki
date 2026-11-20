@@ -111,8 +111,6 @@ In February 2022, Syv singled out Ren as the one who kept talking to her when sh
 
 By March 2024, asked which server member was most like her, Syv picked Ren. Their overlap was not quietness: it was the capacity for chaos and for allegedly little rants about favorite things. Syv crossed out *little* herself. Ren's happy and love reactions make the exchange reciprocal without requiring a grand speech. Ren had gone from someone who made talking easier to someone Syv could recognize herself in.
 
-**QOTD references:** Syv `942150562877698168` (2022-02-12); prompt `1222897175151902814` and Syv `1222938806789996617` (2024-03-28).
-
 ## YOU DISAPPEARED FOR WEEKS. ANYWAY, NO RAMEN.
 
 Three months later the Wall gives Syv's clipped practicality a much stupider problem — and a much better relationship beat.
