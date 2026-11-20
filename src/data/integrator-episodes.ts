@@ -2,6 +2,15 @@ import type { Episode } from "./wiki";
 
 export const integratedEpisodes: Episode[] = [
   {
+    id: "torr-table-kun-2023",
+    title: "Torr Moved Into Table-kun. Four People Just Stared.",
+    season: "2023",
+    date: "May 30, 2023",
+    kind: "Wall / tiny lore / reaction pile-on",
+    logline: "At 1:22 in the morning Torr/DiStratus announced 'table kun fine' and then 'i'm inside table kun where it's nice and warm' (1113019535117787166). Moon, Feli, opalite and Xuseio answered with four SasukeStare reactions. Nobody in the visible exchange asked for a floor plan. Whatever Table-kun was, Torr was apparently comfortable inside it, and the others knew precisely how much judgment that deserved. The surviving text does not identify a physical table, screenshot subject or game mechanic.",
+    cast: ["Torr", "Moon", "Feli", "opalite", "Xuseio"]
+  },
+  {
     id: "ren-breaststroke-screenshot-return-2022-2026",
     title: "Ren Kept the Breaststroke Receipt for Four Years",
     season: "2022–2026",
