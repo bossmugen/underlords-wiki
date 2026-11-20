@@ -241,6 +241,16 @@ In August 2024, another Wall cluster ends with the condensed version of the same
 
 At this point the context objection reads less like a one-off defense and more like a stable habit in how she deals with the Wall. The room likes excerpts because excerpts are funny. Rummy's reflex is to drag the missing context back into frame. Sometimes the original conversation was already gone from view. Rummy's reflex was consistent: if somebody was going to prosecute her words, she wanted the rest of the conversation admitted too.
 
+### Running Gag: Gilli calls her Tummy
+
+| Surviving year | Gilli's wording | What carried forward |
+| --- | --- | --- |
+| 2021 | `RUMMY TUM TUMMY` | The nickname appears in Gilli's direct address to Rummy |
+| 2023 | `We'll miss you Tummy` | The same name survives in a goodbye or absence moment |
+| 2024 | `It never been blue Tummy` | Gilli is still using it years later, mid-conversation |
+
+**People:** Gilli → Rummy. **Source:** Main HQ / Club-Only longitudinal checkpoint, recurring `Rummy = Tummy` thread (2021, 2023, 2024); also reconciled against MAIN Rummy's existing claim. This is Gilli's recurring way of addressing Rummy, not a separate identity, official title, or proof of when the nickname was invented. Its return in a missing-you line is the small affectionate part of the joke: the silly name sticks even when the conversation is about somebody being away.
+
 ### Running Gag: The proposed stink-off
 
 | Period | Participants | Recorded escalation |
