@@ -1,3 +1,12 @@
+## 2026-11-20 04:17 PST — QOTD DyingFox/Gilli preview verification closed
+
+- Reader commit `60d0bb4a96087616a8fc233d044931ba63aee208` (`src/data/integrator-episodes.ts`) retains the Gilli/DyingFox adoption-and-feeding episode without raw IDs in the public logline; provenance remains backstage.
+- WIKI Astro build [44701518250](https://github.com/bossmugen/underlords-wiki/actions/runs/44701518250) **success**, head SHA `60d0bb4a`.
+- Rerun of WIKI preview workflow [44701518091](https://github.com/bossmugen/underlords-wiki/actions/runs/44701518091), attempt 2, **success**: build job `136255064385`, deploy job `136255269271`, report job `136255392541` all successful. This verifies GitHub Pages preview deployment, **not custom-domain production**.
+- Full MAIN census: 137 remote branches, 30 active archive miners, zero new/advanced, persisted `321169da138f6eb273c1b6df2accedf0ba9cd9d7`. No consumed SHA advanced.
+- QOTD source `archive-intake/qotd-complete-2020-2026/site-candidates-2026-09-06-1343.md` reread directly on miner branch. Its DyingFox relationship/handle/style/food/sleep items already reconciled; no duplicate MAIN prose. Exact remaining A/B candidate inventory still uncertified. Ren media `IMG_9928.png`, native Officers/Voice, and conflicting 2023 QOTD totals remain blocked/unresolved.
+- Club-Only 2021–2026 checkpoint reread directly; later-year source retrieval remains limited. No other pending branch delta reviewed. QOTD publication family remains open.
+
 ## 2026-11-20 03:32 PST — BACKROOM identity-attribution repair (verification pending)
 
 - BACKROOM Pass 40 `site-candidates-pass-40.md` and `receipts-pass-40.md` identify `Rich/Ricochet` for messages 710729317109465090, 710729332477395024, 711055892719599636, 711057870015299584. User-confirmed canon distinguishes **Ricochet / dragonrichard** from **Rich / DragonRich**. These are not interchangeable.
