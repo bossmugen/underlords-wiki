@@ -34,12 +34,6 @@ claims:
     sources:
       - label: "Mugs-confirmed VIP roster"
         href: "/roles/vip"
-  - text: "On May 14, 2020, Rich said he was `just in every club\'s discord for some reason`; Mugen answered almost immediately `dw he legal`. The following night she joked `Rich privileges 😄` in a context-partial access exchange."
-    evidence: "archive-confirmed"
-    date: "2020-05-14 – 2020-05-15"
-    sources:
-      - label: "BACKROOM · site-candidates-pass-40.md · Rich cross-club roaming"
-    note: "Do not infer a formal VIP appointment date, literal legal status, or specific permissions from the jokes."
   - text: "On April 7, 2020, Snow asked Rich in the UL Lobby whether anyone else from Amaurot wanted to join, showing Rich being treated as the contact point for prospective Amaurot arrivals."
     evidence: "archive-confirmed"
     date: "2020-04-07"
@@ -53,13 +47,13 @@ claims:
     sources:
       - label: "📣 Announcements · 2020-04-12"
     note: "This proves Rich created a cross-S10 channel advertised inside UL. It does not by itself date or define the later Amaurot → UL merger."
-  - text: "By April 6–8, 2020, Fight Club was a UL voice/listen-in room paired with VIP Lounge as a typed alternative; the pairing later served Land of Conquest rallies. On December 31, 2022, Rich recalled the screaming in Fight Club VC before it became 'my couch'."
+  - text: "By April 6–8, 2020, Fight Club was a UL voice/listen-in room paired with VIP Lounge as a typed alternative; the pairing later served Land of Conquest rallies. The December 31, 2022 'my couch' recollection belongs to Ricochet, not Rich."
     evidence: "archive-confirmed"
     date: "2020-04-06 – 2022-12-31"
     sources:
       - label: "Backroom Pass 3 · Fight Club lifecycle · 696926320357277777 / 696926349499039764 / 697342774764372028 / 699798390858448969 / 707408767339331645 / 1059017270162108416"
         href: "/channels/voice-rooms"
-    note: "Rich's recollection establishes the social room lineage, not the exact channel-ID continuity or date of rename. Gilli's voice/text routing is independently reflected in her MAIN biography."
+    note: "The 2022 couch recollection is attributed to Ricochet / dragonrichard, not Rich / DragonRich; do not infer a room rename from it. Gilli's voice/text routing is independently reflected in her MAIN biography."
   - text: "On October 28, 2024, Richard's Corpse preserves an extended text-side record of Life/Sye reacting to an apparent cooking and hangout session with Rich."
     evidence: "archive-confirmed"
     date: "2024-10-28"
@@ -79,7 +73,7 @@ claims:
       - label: "🛋 Voice Rooms"
         href: "/channels/voice-rooms"
 antiFanon:
-  - "Rich = DragonRich. Ricochet / `dragonrichard` remains unresolved and must stay separate unless a direct identity bridge is recovered."
+  - "Rich = DragonRich. Ricochet / `dragonrichard` is a separate person by user-confirmed canon. The May 2020 'dw he legal' / 'Rich privileges' and December 2022 Fight Club couch messages are attributed to Ricochet, not Rich."
   - "Snow asking Rich whether other Amaurot people wanted to join makes him a visible liaison/contact point; it does not prove he personally recruited every Amaurot arrival."
   - "Rich creating an S10-wide channel is cross-server infrastructure evidence, not proof that the channel itself caused the later Amaurot → UL merger."
   - "Amaurot later merged under UL, but Rich's former Amaurot leader title does not automatically become a UL Boss or Officer rank."
@@ -135,13 +129,11 @@ Zyrcant was Rich's deputy in Amaurot before the merger. Woosung, the former Scar
 
 Taken together, these are not random guest cameos. UL's social world was already overlapping with other organized groups, complete with their own leaders, deputies, and migration paths.
 
-## EVERY CLUB HAD A RICH PROBLEM
+## FIGHT CLUB AND THE WRONG RICH
 
-By May 2020 Rich had a remarkably casual explanation for his whereabouts: **`just in every club\'s discord for some reason`**. Mugen responded within seconds with **`dw he legal`**. The next night she invoked **`Rich privileges 😄`** during an access conversation. The precise permission being discussed is missing, but the exchange makes the social arrangement clear enough: Rich roaming between clubs was familiar, and Mugen was comfortable making a joke of defending his presence. It fits the same bridge-building behavior visible in Snow asking him about Amaurot arrivals and Mugen sharing his S10-wide channel. It does not date his VIP appointment or establish a special access rule.
+Fight Club VC was already operating in April 2020, with VIP Lounge providing a typed alternative during rallies. That room history is real. But the December 2022 recollection about it becoming **`my couch`** was written by **Ricochet / dragonrichard**, not **Rich / DragonRich**. Their identities are separate; the later **Richard's Corpse** title cannot be derived from Ricochet's comment.
 
-## FIGHT CLUB → THE COUCH
-
-**Room lineage:** Fight Club VC was in use by April 2020, with VIP Lounge available for people who needed to type. The same voice/text pairing supported Land of Conquest gatherings. By December 2022, Rich remembered the yelling before the old room became his couch. The exact channel rename date is still unknown.
+The May 2020 **`dw he legal`** and **`Rich privileges`** exchanges likewise belong to Ricochet's account. They should not be used to backfill Rich's Amaurot history, VIP appointment or access permissions.
 
 ## 2024 — RICHARD'S CORPSE BECOMES A LIVING ROOM
 
