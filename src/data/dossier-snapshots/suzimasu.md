@@ -31,6 +31,12 @@ claims:
     sources:
       - label: "Lobby · 2020-04-06"
         href: "/channels/lobby"
+  - text: "On April 6, 2020, Nothien pleaded `Suzi sir stop running lemme heal uuuu` during early game chatter. This documents a healer trying to catch Suzi, not a permanent playstyle or a proven cause of Nothien’s nearby collateral-damage remarks."
+    evidence: "archive-confirmed"
+    date: "2020-04-06"
+    sources:
+      - label: "BACKROOM Pass 30 · Club Only · 696939165996286005"
+        href: "/channels/club-only"
   - text: "On April 14, 2020, D.I. joked that Suzi was acting like an eighty-year-old man, Yummibears proposed `tonight is lets break suzi`, and Ren said Suzi sounded very different from the voice he had imagined."
     evidence: "archive-confirmed"
     date: "2020-04-14"
@@ -108,6 +114,10 @@ tags:
 Suzimasu belongs to UL's origin story as part of the five-person founding circle with Mugen, Ritha, WolfPhenix, and HyaLuna. Later he served as a full Officer in the Consigliere / Senior Advisor lane and is now retired from that role. The appointment chronology is incomplete, so the biography keeps the founding layer, the later Officer layer, and the person between them distinct.
 
 The cleanest identity chain is **Suzimasu = Mob = BAPE = Mob | BAPE = `mob_bape`**. That matters because the early archive uses the account-name language more often than the later canonical name. Without the bridge, one person would fracture into several fake characters and his earliest ordinary scenes would stop attaching to the founder they actually belong to.
+
+## Early-game incident — please stand still for medical attention
+
+**April 6, 2020 · Club Only · Nothien → Suzi.** Nothien calls after him: `Suzi sir stop running lemme heal uuuu` (`696939165996286005`). It is a tiny game-life episode: the healer is trying to reach the patient, and the patient is apparently still moving. Nearby collateral-damage complaints are not assigned to this exact chase without a direct bridge. This belongs to Suzi’s early social/game presence, not to a fabricated permanent combat habit.
 
 ## APRIL 2020 — THE ARCHIVE RESOLVES THE NAMES, THEN IMMEDIATELY SHOWS THE HUMAN PROBLEM
 
