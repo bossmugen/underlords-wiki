@@ -108,7 +108,7 @@ tags:
 
 **The pixels defense (May 9, 2024).** Hami calls it spending money on pixels; Moon insists the pixels contain beautiful 2D men and women. One witness is self-deprecating, the other refuses to let the art go undefended.
 
-**Flowers, no fuss (March 12, 2021).** After answering the Lobby paperwork as Wichita of Underlords in January, Hami also turned up in the Flowers Photoshoot round. A small but useful addition to the early-member picture: he was not only around for the jokes and the Wall. He showed up for the pretty-picture department too.
+**Flowers, no fuss (March 12, 2021).** After answering the Lobby paperwork as Wichita of Underlords in January, Hami also turned up in the Flowers Photoshoot round. He was there for the pretty-picture department too, long before the Wall turned his name into a deli counter.
 
 ## Running Gags
 
