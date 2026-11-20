@@ -568,4 +568,13 @@ export const integratedEpisodes: Episode[] = [
     logline: "Gilli's hydration announcements already threatened mock bodily harm. On June 28 she escalated: 'If you don't drink water you love Rashta' (859190571481300992). Anthos objected immediately: 'that is crossing a line' (859191285823176777), followed by an emote (859191367578026014). Gilli returned July 9 with 'Rashta is your best friend' (863132466789220363), then July 11 with 'RASHTA WILL BE IN YOUR DREAMS!!' (863888744805040138). The bit works because the group's stated threshold for outrage was apparently Rashta, not a threatened curb-stomp. The announcements do not identify Rashta's source or prove anyone's real feelings about a person of that name.",
     cast: ["Gilli", "Anthos"]
   },
+  {
+    id: "wall-throwback-shames-2021-2022",
+    title: "The Wall Was Already Digging Up Old Crimes",
+    season: "2021–2022",
+    date: "March 13, 2021 – February 24, 2022",
+    kind: "Wall / retrospective shames / screenshot habit",
+    logline: "Woohyuk asked whether they were doing 'throwback shames' and followed it with an attachment. Less than a year later Key came back specifically to count how often she appeared on the Wall, unsure whether Mugs's screenshot labor should make her ashamed or impressed. Somebody answered by calling it a wall of fame. The later reunion's archaeological shame-hunting had a much older, already self-aware habit behind it.",
+    cast: ["Woohyuk", "Key", "Mugen"]
+  },
 ];
