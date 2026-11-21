@@ -1,3 +1,10 @@
+## 2026-11-21 14:35 PST — AUGUST / MAIN HQ hamcito episode (verification pending)
+
+- Full REST census: 137 branches, 30 active miners, no new/missing/advanced last_seen SHAs; MAIN census persisted at commit `26ce05bf8e1f9c4ae790b0293b67004f9bcf3bb4`. August Reunion, Backroom Deals, Photo Submissions remain behind consumed cursors; no consumed SHA advanced.
+- Direct miner source: `archive-miner/main-hq-hourly`, `archive-intake/main-hq-2022-2026-tail-20260819/site-candidates.md`, “Noether + HamitteY — hamcito becomes shareable” and “Noether + HamitteY — the Hami food-name dialect”; receipts `905120504627757096`, `938868331367243806`, `994782107131969607`, `994782339211202633`, `994782614244294717`, `994782662965342328`. Checkpoint read first. August Reunion and Club-Only 2021–2026 checkpoints also checked. No raw archive re-mining.
+- WIKI reader `src/data/integrator-episodes.ts`: `noether-hamcito-food-court-2021-2022`, commit `97e340adda18efdff88924dd2ae6ffda9b0f5bc5`; postcommit source reread passed. MAIN Noether and HamitteY biographies already have person-first nickname material, so no duplicate prose.
+- GitHub Actions build `44957309713` and preview `44957309672` were queued at initial check; **not yet verified**. Custom-domain production unverified. Do not mark candidate fully published until verified. Other Main HQ A/B candidates remain open; no claim of backlog exhaustion. Source-only media and private HQ contents remain blocked.
+
 ## 2026-11-21 13:30 PST — BACKROOM Pass 36 Wall episodes (pending verification)
 
 - Direct source: `archive-miner/backroom-deals-2026-08-24`, `archive-intake/chat-2026-08-24-backroom-batch-miner/site-candidates-pass-36.md` and `receipts-pass-36.md`. Checked `checkpoint.md` first. This is an older accepted candidate, not a newly advanced miner HEAD.
