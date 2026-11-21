@@ -266,6 +266,15 @@ export const integratedEpisodes: Episode[] = [
     cast: ["Gabu"]
   },
   {
+    id: "sye-photoshoot-entrant-to-example-poster-2021",
+    title: "Sye Took a Hundred Tries, Then Brought the Homework",
+    season: "2021",
+    date: "January 6–31, 2021",
+    kind: "Photo Submissions / entrant to reference-picture contributor",
+    logline: "Sye's NEW YEAR, NEW YOU entry came with a confession: `Only came on to do this` and `Took me a hundred tries...`. On January 31, the same account returned with an `Example Photos` header and three reference-image uploads for the next round. A month earlier she was fighting to get her own shot right; now she was helping the next bunch figure out theirs. The archive identifies who posted the images, not who made, captured, or appeared in them. This is visible participation and contribution, not a new formal Photoshoot job.",
+    cast: ["Sye"]
+  },
+  {
     id: "colors-moodboard-before-opening-2021",
     title: "COLORS Had a Mood Board Before It Had Contestants",
     season: "2021",
