@@ -2,6 +2,16 @@ import type { Episode } from "./wiki";
 
 export const integratedEpisodes: Episode[] = [
   {
+    id: "ren-ghostt-custom-emote-photo-captions-2021",
+    title: "Ren Relaxed. Ghostt Shrugged. The Captions Were Emotes.",
+    season: "2021",
+    date: "May 13 and October 19, 2021",
+    kind: "Photo Submissions / custom-emote caption language",
+    logline: "Ren's RELAX entry on May 13 used only two server-native custom emotes, tmirusnyarelax and ymiruspandarelaxed (842600913633148938). Five months later Ghostt posted SCARY with the two-part worryShrug1/worryShrug2 emote caption (900159114997530644), after an uncaptioned NIGHTLIFE entry on October 5 (895202127616569365). The room gave the SCARY post wowghost reactions. These were different entrants and different prompts, but both let Discord's own little faces do the captioning. Ren's immediate edit does not reveal what changed; the images' makers and subjects remain unidentified. Neither emote is proven to have originated with these posts.",
+    cast: ["Ren", "Ghostt"]
+  },
+
+  {
     id: "cen-gabu-lobby-nightlife-scary-2021",
     title: "Gabu Handed Cen the Map. Cen Came Back With Pictures.",
     season: "2021",
