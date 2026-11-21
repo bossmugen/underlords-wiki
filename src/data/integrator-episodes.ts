@@ -688,4 +688,13 @@ export const integratedEpisodes: Episode[] = [
     logline: "Key asked Woohyuk to 'step on me' and clarified he meant literally, on account of being tiny. Woohyuk's proposed solution escalated from stepping to a car, reversing and skidding; Key contributed the tire-donut request, corrected 'dicc' to 'pp', then attempted the only safety protocol anyone in this conversation cared about: '...dont tell mugs'. Woohyuk pointed out that Mugs would probably find out. WolfPhenix recovered the old exchange in a 2026 Wall throwback (parent message 1536936223891922995), proving that Key's last-minute secrecy plan had an unfortunate shelf life. Wolf dates the original to 2021, but its precise day, original channel and screenshot capture attribution are unresolved. This is escalating fictional banter, not actual violence, romance or sexual history.",
     cast: ["Key", "Woohyuk", "WolfPhenix", "Mugen"]
   },
+  {
+    id: "noether-lobby-welcome-back-2021-2022",
+    title: "Noether Kept Coming Back. Mugs Stopped Doing Introductions.",
+    season: "2021–2022",
+    date: "October 28, 2021 – January 13, 2022",
+    kind: "Lobby / repeat returns / familiar welcome",
+    logline: "Noether appeared at the Lobby in October 2021, then passed through again in December and January. The bot kept offering the same impersonal welcome; the humans had other ideas. Anayss greeted the December return with 'wb ❤️' (923732583190233198), and Mugen answered the January one with 'Welcome back noeee' (931279761689436180). By then the front desk was less an introduction than a reunion with someone they already knew. The repeated entry cards don't tell us why Noether had been away or when she first joined; the warm recognition is the point.",
+    cast: ["Noether", "Anayss", "Mugen"]
+  },
 ]; 
