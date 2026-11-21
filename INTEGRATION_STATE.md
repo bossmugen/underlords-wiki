@@ -1,3 +1,9 @@
+## 2026-11-21 08:40 PST — August Reunion WIKI reader verification reconciliation
+
+- MariaMoon episode `mariamoon-return-forgot-game-2021-2026`: original reader commit `908d2a52` Astro build **SUCCESS** (Actions 44914636563), original preview **CANCELLED** (44914636530); descendant `4896d20a` Astro build **SUCCESS** (44914653752) and preview deployment **SUCCESS** (44914653773). Episode remains in current `src/data/integrator-episodes.ts`. Preview verified, custom production domain not independently checked.
+- Key/Woohyuk episode `key-woohyuk-vehicle-escalation-2021`: original reader commit `a9dabddf` Astro build **SUCCESS** (44909465004), original preview **CANCELLED** (44909465073); descendant `3a33d499` Astro build **SUCCESS** (44909480945) and preview deployment **SUCCESS** (44909480547). Episode remains in current source. Preview verified, custom production domain not independently checked.
+- Independent remote branch census: 137 total branches, 30 active archive-miner branches; MAIN state still lists 30 active, five pending-publication families, one recovery backlog, zero overdue. August Reunion `fcc27ac7` seen vs `dfe5909d` consumed; Main HQ `e172df06` seen/consumed. No consumption advancement. This entry closes two verification debts only, not the remaining candidate inventory; no new reader edit this pass.
+
 ## 2026-11-21 06:35 PST — August Reunion MariaMoon return (reader pending verification)
 
 - Source: `archive-miner/aug-2026-living-ensemble-hourly`, `archive-intake/aug-2026-living-ensemble-reunion-2026-08-19-2303-pdt/site-candidates.md` candidate 2; July 22 2021 Lobby account `_seishi_` / MariaMoon<3 and August 2026 return linked by stable ID `610294957378371608`. This is not Moon. No age or private account identifier exposed in reader copy; first-join chronology and later preferred public name unresolved.
