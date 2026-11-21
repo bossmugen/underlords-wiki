@@ -1,3 +1,12 @@
+
+## 2026-11-21 15:38 PST — Main HQ pokeofficer episode; verification pending
+
+- Direct miner source: `archive-miner/main-hq-hourly` at `e172df0641d6fa9c9d47a2bec6ff40c1aee0fb3c`, `archive-intake/main-hq-2022-2026-tail-20260819/checkpoint.md` and `site-candidates.md` (`Snow / Officer ensemble — pokeofficer`); receipts `928733566488174643`, `928733629021032589`, `928739116928098304`.
+- WIKI reader `src/data/integrator-episodes.ts` episode `snow-pokeofficer-trading-cards-2022` commit `f2ab92d3709609aeae59c6136cf7d38d4628cde5`; postcommit source reread PASS. Build [44962820231](https://github.com/bossmugen/underlords-wiki/actions/runs/44962820231) and preview [44962820187](https://github.com/bossmugen/underlords-wiki/actions/runs/44962820187) QUEUED. Production not certified.
+- MAIN `src/content/people/snow.md` already includes the same `pokeofficer` personality scene; not duplicated. `snowcard.jpg` uninspected, no visual authorship or actual prize game inferred.
+- Previous Noether/HamitteY reader `97e340a` build 44957309713 SUCCESS; original preview 44957309672 CANCELLED, descendant `9e47682` build 44957325307 and preview 44957325316 SUCCESS. Preview verified, custom production unverified.
+- MAIN census state as of 15:30 PST reports 30 active miners, 5 pending-publication families, 1 recovery backlog; this run did not advance consumed SHA. August Reunion and Main HQ accepted A/B remainder still unreconciled. No claim of exhausted publication debt.
+
 ## 2026-11-21 14:35 PST — AUGUST / MAIN HQ hamcito episode (verification pending)
 
 - Full REST census: 137 branches, 30 active miners, no new/missing/advanced last_seen SHAs; MAIN census persisted at commit `26ce05bf8e1f9c4ae790b0293b67004f9bcf3bb4`. August Reunion, Backroom Deals, Photo Submissions remain behind consumed cursors; no consumed SHA advanced.
