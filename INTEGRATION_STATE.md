@@ -1,3 +1,10 @@
+## 2026-11-21 12:00 PST — Photo Submissions Sye example-poster episode (verification pending)
+
+- Source: `archive-miner-photo-submissions-2021`, `archive-intake/photo-submissions-2021-visual-contest-2026-08-19-1845-pdt/site-candidates.md`, heading “Sye goes from taking a hundred tries to helping set the visual brief.” Jan 6 entrant caption and Jan 31 Example Photos header plus three images. Exact message IDs not supplied in this handoff; do not fabricate them.
+- WIKI reader: `src/data/integrator-episodes.ts`, `sye-photoshoot-entrant-to-example-poster-2021`, commit `b90d9cbb9e2107bc6283775dba7fb017d39fb84c`. Postcommit source reread passed. Astro build, preview and custom-domain production **PENDING**.
+- MAIN `src/lib/photo-submissions-overrides.ts` already narrates the same sequence as person-shaped Photo Submissions history; WIKI supplies a searchable episode rather than duplicating its prose.
+- Branch-name discovery returned 30 active miner names; independent HEAD-SHA comparison and mandatory MAIN census persistence not completed. Photo Submissions consumed `342ee5df` versus last recorded HEAD `d45d441f`, unchanged. Missing reply parents and inaccessible originals remain source-blocked. Complete candidate inventory remains open.
+
 ## 2026-11-21 11:35 PST — Main HQ Noether familiar Lobby returns (reader pending verification)
 
 - Source: `archive-miner/main-hq-hourly`, `archive-intake/main-hq-2022-2026-tail-20260819/site-candidates.md`, candidate “Noether — recurring return through the Stripclub Bouncer”; Lobby receipts `903474685327573012`, `923732583190233198`, `931279761689436180` (see handoff for surrounding entry IDs). No first-join or absence-reason inference.
