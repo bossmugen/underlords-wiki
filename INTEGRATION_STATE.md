@@ -1,3 +1,10 @@
+## 2026-11-21 10:38 PST — Main HQ Snow self-Wall filing episode (verification pending)
+
+- Source: `archive-miner/main-hq-hourly`, `archive-intake/main-hq-2022-2026-tail-20260819/site-candidates.md`, candidate “Snow + Wall — the self-shaming loophole”; receipts `771866252250578945`, `814343511250829352`, `814343593782542376`, `890297461095141456`, `890297467734724608`.
+- WIKI reader: `src/data/integrator-episodes.ts`, `snow-self-files-wall-shame-2020-2021`, commit `45acb5e27e38a7658044d1b9de9076a3bce1881d`. The story follows Snow's 2020 self-shaming defense, 2021 screenshot-format enforcement, and later race to post before Ana and Hami. Attachment provenance is explicitly bounded. MAIN `src/content/people/snow.md` already carries the person-first synthesis; no duplicate MAIN edit.
+- Source update accepted; Astro build, preview deployment, and custom production verification **PENDING**. Do not count this as deployed until Actions and live checks succeed.
+- Branch-name discovery returned 30 active miners. This pass did not independently verify all remote branch HEAD SHAs, so no census or consumed-SHA advancement is certified. August Reunion/Main HQ full accepted-versus-published candidate inventory remains open; no backlog exhaustion.
+
 ## 2026-11-21 08:40 PST — August Reunion WIKI reader verification reconciliation
 
 - MariaMoon episode `mariamoon-return-forgot-game-2021-2026`: original reader commit `908d2a52` Astro build **SUCCESS** (Actions 44914636563), original preview **CANCELLED** (44914636530); descendant `4896d20a` Astro build **SUCCESS** (44914653752) and preview deployment **SUCCESS** (44914653773). Episode remains in current `src/data/integrator-episodes.ts`. Preview verified, custom production domain not independently checked.
