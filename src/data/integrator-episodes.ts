@@ -2,6 +2,15 @@ import type { Episode } from "./wiki";
 
 export const integratedEpisodes: Episode[] = [
   {
+    id: "dean-beansprout-supporttech-photoshoot-2021",
+    title: "Beansprout Was Hiding Behind the Support Tech Name",
+    season: "2021",
+    date: "March 29 – June 1, 2021",
+    kind: "Photo Submissions / identity bridge / repeat participation",
+    logline: "Gilli asked 'WHOM IS BEANSPROUT' and then 'DEAN?' on March 29; the account displaying ✔️ Support Tech answered 'YES' (Wall 826306036632649749, 826306043750907914, 826306057352642591). That exchange connects Dean/Beansprout to the same account posting uncaptioned COLORS, MAFIA and BEACH submissions on April 5, April 23 and June 1 (828856418080653342, 835356396219269200, 849485682870583316). The nickname is not evidence of an actual technical-support appointment. Dean posted those entries; who made, captured or appeared in their images is still unknown.",
+    cast: ["Dean", "Gilli"]
+  },
+  {
     id: "tae-search-crashes-the-archive-2026",
     title: "Tae Asked Whether She Left an Impression. Search Crashed.",
     season: "2026",
