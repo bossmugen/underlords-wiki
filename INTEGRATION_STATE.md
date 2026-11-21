@@ -1,3 +1,11 @@
+## 2026-11-21 05:35 PST — August Reunion Key/Woohyuk Wall escalation (reader pending verification)
+
+- Source: `archive-miner/aug-2026-living-ensemble-hourly`, `archive-intake/aug-2026-living-ensemble-reunion-2026-08-19-2303-pdt/site-candidates.md` candidate 3, Wall parent receipt `1536936223891922995`. 2021 original date/channel and CAPTURED BY unresolved; Wolf's 2026 throwback is a recovery, not an original capture attribution.
+- WIKI reader: `src/data/integrator-episodes.ts`, `key-woohyuk-vehicle-escalation-2021`, commit `a9dabddf519b4e45280cc2e6df2ebd0305ec7aef`. Postcommit source reread PASS. Astro build / preview / production **PENDING VERIFICATION** (no Actions runs returned at first check).
+- MAIN `src/content/people/key.md` and `woohyuk.md` already have person-first versions and attribution; no duplicate MAIN edit. No literal violence/romance/sexual-history claims.
+- Fresh REST census: 137 remote branches / 30 active miners, no new or advanced HEADs, no missing ledger entries. Unconsumed: August Reunion, Backroom Deals, Photo Submissions. Main HQ and Club-Only 2021–2026 HEADs consumed but publication debt not presumed closed. Five pending-publication families, one recovery backlog in MAIN state. August/Main HQ exact remaining A/B candidate count unreconciled; no consumed SHA advanced.
+- Earlier Tae episode `tae-search-crashes-the-archive-2026`: exact reader commit `aecba9a` build 44904337869 SUCCESS, preview 44904337829 CANCELLED; descendant `14afe6a` build 44904351408 and preview 44904351463 both SUCCESS, episode survives current source. Preview verified, custom-domain production unverified.
+
 ## 2026-11-21 05:00 PST — Photo Submissions Dean/Beansprout identity bridge (verification pending)
 
 - Miner: `archive-miner-photo-submissions-2021` HEAD `d45d441feca0110e9495f49b13df9666982bb45c`, candidate `archive-intake/photo-submissions-2021-visual-contest-2026-08-19-1845-pdt/site-candidate-2026-08-26-2310-dean-support-tech-bridge.md`.
