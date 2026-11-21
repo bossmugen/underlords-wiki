@@ -661,4 +661,13 @@ export const integratedEpisodes: Episode[] = [
     logline: "Eos had already posted a MAFIA entry in April (835588639068782633) when Marian submitted her July WALTZ picture with the caption `with my only @Eos` (864701966230880266). Ren's July WALTZ entry called Tae `the bestie` (865078249850929162); by October Tae was posting a SCARY entry independently (900770811525361705). The partner prompt kept borrowing people who were contestants themselves. Marian's `my only` and Ren's `bestie` are their own affectionate captions, not verified romance or a ranking of anybody's friendships. Posting credit is known; who made or captured each picture is not.",
     cast: ["Eos", "Marian", "Ren", "Tae"]
   },
+  {
+    id: "key-woohyuk-vehicle-escalation-2021",
+    title: "Key Asked to Be Stepped On. Woohyuk Found a Car.",
+    season: "2021 → 2026",
+    date: "2021 (exact day unknown); resurfaced August 11, 2026",
+    kind: "Wall / Dragon Raja throwback / escalating joke and screenshot afterlife",
+    logline: "Key asked Woohyuk to 'step on me' and clarified he meant literally, on account of being tiny. Woohyuk's proposed solution escalated from stepping to a car, reversing and skidding; Key contributed the tire-donut request, corrected 'dicc' to 'pp', then attempted the only safety protocol anyone in this conversation cared about: '...dont tell mugs'. Woohyuk pointed out that Mugs would probably find out. WolfPhenix recovered the old exchange in a 2026 Wall throwback (parent message 1536936223891922995), proving that Key's last-minute secrecy plan had an unfortunate shelf life. Wolf dates the original to 2021, but its precise day, original channel and screenshot capture attribution are unresolved. This is escalating fictional banter, not actual violence, romance or sexual history.",
+    cast: ["Key", "Woohyuk", "WolfPhenix", "Mugen"]
+  },
 ]; 
