@@ -2,6 +2,25 @@ import type { Episode } from "./wiki";
 
 export const integratedEpisodes: Episode[] = [
   {
+    id: "wall-shame-ranking-war-2022",
+    title: "The Wall Started Ranking Its Own Criminals",
+    season: "2022",
+    date: "May 10, 2022",
+    kind: "Wall of Shame / ranking argument / running gag",
+    logline: "Rummy proposed a 'Shame ranking award' (973669323992346624) and immediately floated Panda or Tae for the top two spots (973669463058681896). Ren insisted the historical-first award belonged to Ansun (973670119530188800). Panda's objection was not to being nominated: 'you gotta do it by most or how quickly relative to joining' (973670794263674910). Total shame and shame per unit of tenure were apparently different statistics. Ren began dragging older exhibits back up; Tae protested, and at 1:01 Rich declared 'The shame war has begun🤣' (973676124162895912). Nobody in this exchange established an official contest, scoring system or winner. The contents of Ren's intervening IMG_8410.png remain uninspected.",
+    cast: ["Rummy", "Panda", "Tae", "Ren", "Ansun", "Rich"]
+  },
+  {
+    id: "milo-gilli-thought-no-one-saw-2020",
+    title: "Milo's Defense: I Thought Nobody Saw That",
+    season: "2020",
+    date: "December 15, 2020",
+    kind: "Wall of Shame / Gilli catches Milo / surprise witness",
+    logline: "Gilli posted a Discord screenshot (788450488412012555), tagged Milo ten seconds later (788450532888150077), and Milo arrived with the only defense he had: 'You mf :SadKEK: haha thought no one seen that' (788450625842184223). The poor man hadn't denied anything; he was offended there had been a witness. Tae, Eos and Lilly were among the visible laughing reactors. The screenshot itself has not been visually inspected, so what Milo thought he'd gotten away with remains unknown.",
+    cast: ["Milo", "Gilli", "Tae", "Eos", "Lilly"]
+  },
+
+  {
     id: "daya-mugen-scream-nap-scream-2022",
     title: "Daya Diagnosed Mugs: SCREAM, Nap, SCREM AGAIN",
     season: "2022",
