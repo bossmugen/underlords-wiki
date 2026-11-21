@@ -1,3 +1,10 @@
+## 2026-11-21 01:30 PST — BACKROOM Cen/Gabu episode pending verification
+
+- Miner: `archive-miner/backroom-deals-2026-08-24` HEAD `9c143a7c146af4fc90de4b258bee1c848a2818a0`; source `archive-intake/chat-2026-08-24-backroom-batch-miner/site-candidates-pass-51.md`, `site-candidates-pass-52.md`, `receipts-pass-52.md`.
+- New WIKI episode `cen-gabu-lobby-nightlife-scary-2021` in `src/data/integrator-episodes.ts`, reader commit `2c5535122e79ab86eb36a90fb833fde45fd791a1`. Lobby IDs `885628704556982332`, `885628789193838613`, `885629306565443674`; contest posts `896927530597097533`, `900473087999496212`.
+- Gabu, not Dean, handled the human front desk. Cen's club self-report is `shy`; two uncaptioned contest posts do not prove in-game UL membership, image authorship, or pictured subject. Age and uninspected media excluded.
+- Source reread of current WIKI `main` PASS. GitHub Actions build [44889999099](https://github.com/bossmugen/underlords-wiki/actions/runs/44889999099) and preview [44889999132](https://github.com/bossmugen/underlords-wiki/actions/runs/44889999132) were queued on initial inspection; **pending verification**. MAIN not mirrored: this is structured cross-room reference, not a second biography. No miner consumed cursor advanced; accepted BACKROOM A/B remainder still uncounted.
+
 
 ## 2026-11-21 01:00 PST — WALTZ cross-role episode awaiting verification
 
