@@ -1,3 +1,12 @@
+## 2026-11-21 05:00 PST — Photo Submissions Dean/Beansprout identity bridge (verification pending)
+
+- Miner: `archive-miner-photo-submissions-2021` HEAD `d45d441feca0110e9495f49b13df9666982bb45c`, candidate `archive-intake/photo-submissions-2021-visual-contest-2026-08-19-1845-pdt/site-candidate-2026-08-26-2310-dean-support-tech-bridge.md`.
+- WIKI reader: `src/data/integrator-episodes.ts`, `dean-beansprout-supporttech-photoshoot-2021`, commit `a3fcd8d72489533b51f8f7810bbac35e4fd72729`. Exact postcommit source reread passed. Build run `44906540631` and preview run `44906540627` queued at check; publication **pending verification**.
+- Wall identity receipts: `826306036632649749`, `826306043750907914`, `826306057352642591`; Photo Submissions entries: `828856418080653342`, `835356396219269200`, `849485682870583316`.
+- MAIN Photoshoot overrides did not contain this Dean bridge; no MAIN copy duplicated. This is a structured WIKI episode, not a formal officer/tech appointment or image-maker attribution.
+- Full REST census: 137 remote branches, 30 active miners, zero newly discovered or advanced; MAIN census `bbb588c7d37b23fe956bf105043bd5a3f1aafcd5`. Five pending-publication families and one recovery backlog remain. Photo Submissions consumed SHA stays `342ee5dfe77b0c6d1106f28eb557fd25ce67085b` until full candidate reconciliation and verification.
+- Prior Ren/Ghostt WIKI episode exact-commit build `44901954369` and preview `44901954351` both succeeded. Independent custom-domain production fingerprint not checked. Club-Only 2021–2026 checkpoint read; recovery cursor already current, but publication debt remains.
+
 ## 2026-11-21 04:35 PST — August Reunion Tae search-crash episode awaiting verification
 
 - Miner: `archive-miner/aug-2026-living-ensemble-hourly`, `archive-intake/aug-2026-living-ensemble-reunion-2026-08-19-2303-pdt/site-candidates.md`, candidate 6; Wall receipt `1536935166122008636`.
