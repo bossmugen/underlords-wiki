@@ -1,3 +1,10 @@
+## 2026-11-21 11:35 PST — Main HQ Noether familiar Lobby returns (reader pending verification)
+
+- Source: `archive-miner/main-hq-hourly`, `archive-intake/main-hq-2022-2026-tail-20260819/site-candidates.md`, candidate “Noether — recurring return through the Stripclub Bouncer”; Lobby receipts `903474685327573012`, `923732583190233198`, `931279761689436180` (see handoff for surrounding entry IDs). No first-join or absence-reason inference.
+- WIKI reader: `src/data/integrator-episodes.ts`, `noether-lobby-welcome-back-2021-2022`, commit `20e957604a67ffc516d29a5fc7b139b2d1d50749`; exact postcommit source reread passed. GitHub connector's commit-workflow lookup returned no runs (PR-filtered endpoint); Astro build, preview and custom production remain **unverified**.
+- MAIN `src/content/people/noether.md` already carries the repeated welcome as lived character texture; no duplicate MAIN edit. WIKI holds the structured episode.
+- Branch-name search found 30 active miner branches; full HEAD-SHA comparison and mandatory MAIN census persistence not completed. No consumed SHA advanced. Main HQ raw quarry exhausted but accepted-publication inventory remains open. No claim of deployed publication.
+
 ## 2026-11-21 10:38 PST — Main HQ Snow self-Wall filing episode (verification pending)
 
 - Source: `archive-miner/main-hq-hourly`, `archive-intake/main-hq-2022-2026-tail-20260819/site-candidates.md`, candidate “Snow + Wall — the self-shaming loophole”; receipts `771866252250578945`, `814343511250829352`, `814343593782542376`, `890297461095141456`, `890297467734724608`.
