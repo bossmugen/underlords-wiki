@@ -1,3 +1,9 @@
+
+## 2026-11-21 01:00 PST — WALTZ cross-role episode awaiting verification
+
+- Source miner `archive-miner-photo-submissions-2021` at `d45d441feca0110e9495f49b13df9666982bb45c`; candidate `site-candidate-2026-08-25-1145-waltz-participants-as-partners.md`.
+- WIKI `src/data/integrator-episodes.ts`: `photoshoot-waltz-entrants-become-partners-2021`, commit `5fb033d43d78e0e2cc5380136f0b60ad929788d5`. Eos Mafia `835588639068782633`, Marian WALTZ `864701966230880266`, Ren WALTZ `865078249850929162`, Tae SCARY `900770811525361705`.
+- Build `44887767154` and preview `44887767171` queued on first inspection. **Pending verification**, not publication-complete; no consumed cursor change. MAIN's general WALTZ story already exists; WIKI provides structured cross-role reference rather than mirrored narration.
 ## 2026-11-21 00:36 PST — Persephone FESTIVAL preview verification closed
 
 - Reader commit `b912138a8b97a74bd91a5b70c0f3d8407dc1d029` added `persephone-festival-apology` to `src/data/integrator-episodes.ts`; source: Photo Submissions `site-candidate-2026-08-25-1645-persephone-festival-apology.md`, receipts `818477226198433834`, `888298487588990997`, `888298560267886622`.
