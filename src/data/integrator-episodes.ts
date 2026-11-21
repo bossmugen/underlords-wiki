@@ -409,6 +409,15 @@ export const integratedEpisodes: Episode[] = [
     cast: ["Tae", "Gabu"]
   },
   {
+    id: "persephone-festival-apology",
+    title: "Persephone Apologizes to the Art Jury",
+    season: "2021",
+    date: "September 16, 2021",
+    kind: "Photo Submissions / Festival",
+    logline: "Persephone posted a Festival attachment (888298487588990997), then 17 seconds later supplied the separate follow-up `my submission ^^ sorry if it’s not perfect lol` (888298560267886622). The smiley and trailing laugh soften an apology nobody had asked for yet. She had also entered Flowers in March (818477226198433834), but the two posts do not establish a broader personality change. The follow-up is SAID BY Persephone, the images are POSTED BY her, and image creation, capture, and depicted subjects remain unassigned.",
+    cast: ["Persephone"]
+  },
+  {
     id: "teaching-tofu-to-waltz",
     title: "Teaching Tofu to Waltz",
     season: "2021",
