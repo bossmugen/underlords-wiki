@@ -586,4 +586,13 @@ export const integratedEpisodes: Episode[] = [
     logline: "Woohyuk asked whether they were doing 'throwback shames' and followed it with an attachment. Less than a year later Key came back specifically to count how often she appeared on the Wall, unsure whether Mugs's screenshot labor should make her ashamed or impressed. Somebody answered by calling it a wall of fame. The later reunion's archaeological shame-hunting had a much older, already self-aware habit behind it.",
     cast: ["Woohyuk", "Key", "Mugen"]
   },
-];
+  {
+    id: "bubbles-drunko-lobby-intake-2022",
+    title: "Bubbles Remembered the Club. The Server Was Another Matter.",
+    season: "2022",
+    date: "May 22, 2022",
+    kind: "Lobby / newcomer intake / Ansun's patience",
+    logline: "Bubbles arrived at Lobby calling themself 'drunko boobles i means bubble', needed IGN translated, and couldn't remember the server name. The club name, however, survived intact: Underlords. Ansun kept the intake moving one field at a time, then pointed Bubbles toward the rules, tour and Biodata. It is a lovely little portrait of UL border control: one person trying to fill out a form, another quietly making sure the form did not win. 'Drunko' is Bubbles' own joke, not an independently established condition.",
+    cast: ["BubblesSenpai", "Ansun"]
+  },
+]; 
