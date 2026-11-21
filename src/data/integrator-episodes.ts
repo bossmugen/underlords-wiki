@@ -2,6 +2,16 @@ import type { Episode } from "./wiki";
 
 export const integratedEpisodes: Episode[] = [
   {
+    id: "tae-sota-wall-context-dignity-2022",
+    title: "Sota Added Context. Tae Refused to Let Him Remove It.",
+    season: "2022",
+    date: "February 24, 2022",
+    kind: "Wall / screenshot context / dignity negotiations",
+    logline: "Sota posted three Tae screenshots with a literal 'Context:' note explaining Tae was roleplaying as a 'wittle 14 year owld babuu' (946594818614788096). Tae replied 'wow you added context im honored' (946595539112321064). Sota said 'for your dignity ❤️' (946595875495489577), earning a disgust emote. When he offered to take the context away, Tae's entire answer was 'no' (946596349007257601). The Wall could shame you, apparently, but you were allowed to insist on the footnote. The screenshots themselves have not been visually inspected.",
+    cast: ["Tae", "Sota"]
+  },
+
+  {
     id: "torr-table-kun-2023",
     title: "Torr Moved Into Table-kun. Four People Just Stared.",
     season: "2023",
