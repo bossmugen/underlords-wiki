@@ -2,6 +2,15 @@ import type { Episode } from "./wiki";
 
 export const integratedEpisodes: Episode[] = [
   {
+    id: "daya-mugen-scream-nap-scream-2022",
+    title: "Daya Diagnosed Mugs: SCREAM, Nap, SCREM AGAIN",
+    season: "2022",
+    date: "October 26, 2022",
+    kind: "Wall / Daya's Mugen impression / peer caricature",
+    logline: "Gilli posted a screenshot (1034889065868316742) and the replies turned to a profile picture and the sound of screaming. Daya sharpened the impression: 'actually mugs is more of quick outburst, then she goes for a nap' (1034897502824050749). Her follow-up supplied the full operating manual: 'SCREAM then *silence* THEN SCREM AGAIN' (1034897586622058556). It's Daya's affectionate, devastating caricature of Mugen's rhythm, not a documented sleep schedule or proof of what the uninspected screenshot depicts. Gilli posted the image; its creator and capturer remain unknown.",
+    cast: ["Daya", "Mugen", "Gilli"]
+  },
+  {
     id: "snow-self-files-wall-shame-2020-2021",
     title: "Snow Tried to Plead Guilty Before the Wall Could Charge Him",
     season: "2020–2021",
