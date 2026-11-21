@@ -2,6 +2,15 @@ import type { Episode } from "./wiki";
 
 export const integratedEpisodes: Episode[] = [
   {
+    id: "snow-self-files-wall-shame-2020-2021",
+    title: "Snow Tried to Plead Guilty Before the Wall Could Charge Him",
+    season: "2020–2021",
+    date: "October 30, 2020 – September 22, 2021",
+    kind: "Wall of Shame / self-incrimination / running gag",
+    logline: "Snow proposed a procedural escape hatch on October 30, 2020: 'you cant wall of shame me in the wall of shame room if I shamed myself first 😛' (Wall 771866252250578945). By February 24, 2021 he was also reminding the room to post screenshots only (814343511250829352; 814343593782542376). On September 22 he announced 'I will just do this myself so Ana and Hami don't' and filed his own attachment (890297461095141456; 890297467734724608). He was simultaneously the willing defendant, the format cop, and the guy racing the prosecutors to the evidence locker. The attachment was posted by Snow; its visual contents, maker and capturer have not been verified. No formal Wall immunity rule existed.",
+    cast: ["Snow", "Anayss", "HamitteY"]
+  },
+  {
     id: "mariamoon-return-forgot-game-2021-2026",
     title: "MariaMoon Remembered the People. The Game? Not So Much.",
     season: "2021–2026",
