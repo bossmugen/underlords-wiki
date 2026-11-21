@@ -2,6 +2,15 @@ import type { Episode } from "./wiki";
 
 export const integratedEpisodes: Episode[] = [
   {
+    id: "tae-search-crashes-the-archive-2026",
+    title: "Tae Asked Whether She Left an Impression. Search Crashed.",
+    season: "2026",
+    date: "August 11, 2026",
+    kind: "Wall / reunion / archive-search joke",
+    logline: "During the August reunion Tae wondered whether she had left an impression. Mugen said bots were scraping Discord and reported that searching for 'tae' crashed the search; Tae tried it herself and answered 'I DID THE SAME THING AND IT CRASHED MY PC' (Wall 1536935166122008636). The joke writes itself: she wanted proof she was memorable, and the search couldn't even stay upright. Neither report establishes that Tae's name or messages technically caused a crash.",
+    cast: ["Tae", "Mugen"]
+  },
+  {
     id: "ren-ghostt-custom-emote-photo-captions-2021",
     title: "Ren Relaxed. Ghostt Shrugged. The Captions Were Emotes.",
     season: "2021",
