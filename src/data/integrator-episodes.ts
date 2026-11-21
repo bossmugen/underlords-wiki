@@ -2,6 +2,15 @@ import type { Episode } from "./wiki";
 
 export const integratedEpisodes: Episode[] = [
   {
+    id: "mariamoon-return-forgot-game-2021-2026",
+    title: "MariaMoon Remembered the People. The Game? Not So Much.",
+    season: "2021–2026",
+    date: "July 22, 2021 – August 2026",
+    kind: "Lobby / reunion / remembered people, forgotten game",
+    logline: "In a July 2021 Lobby intake, the account using MariaMoon<3 needed IGN explained and answered the club question with 'underlords? right? 😅' while Anthos addressed her as maria. Five years later that same Discord account returned to the August reunion and asked what game the group chat had come from. She had once supplied the club's name to the front desk, then returned for the people after the game itself had slipped out of focus. July's intake is a surviving encounter, not a proven first join; MariaMoon is not Moon, and her later preferred public name remains unresolved.",
+    cast: ["MariaMoon", "Anthos"]
+  },
+  {
     id: "dean-beansprout-supporttech-photoshoot-2021",
     title: "Beansprout Was Hiding Behind the Support Tech Name",
     season: "2021",
