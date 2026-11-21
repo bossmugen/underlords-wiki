@@ -2,6 +2,15 @@ import type { Episode } from "./wiki";
 
 export const integratedEpisodes: Episode[] = [
   {
+    id: "noether-hamcito-food-court-2021-2022",
+    title: "Noether Put Hami on the Menu. Eos Took the Order.",
+    season: "2021–2022",
+    date: "November 2021 – July 7, 2022",
+    kind: "Wall / nickname vandalism / multilingual joke",
+    logline: "Noether had been renaming HamitteY like a menu item for months: 'Unsugar hami', 'Salty Ham', and arguments about desserts nobody was sharing (905120504627757096; 938868331367243806). By July 7 the name had mutated into 'hamcito onfire', followed by Noether's 'Im innocent , hamcito dont believe in me' (994782107131969607; 994782339211202633). Eos didn't ask what a hamcito was. They jumped into Spanish with 'ya sabemos que tu eres inocente pero hamcito no' and 'hamcito no es inocente' (994782614244294717; 994782662965342328). A private little food-name joke had acquired a second prosecutor. The burning-children accusations in the surrounding exchange were cartoon nonsense, not literal conduct; the messages do not establish who first invented the nickname.",
+    cast: ["Noether", "HamitteY", "Eos", "Ansun", "Ren"]
+  },
+  {
     id: "wall-shame-ranking-war-2022",
     title: "The Wall Started Ranking Its Own Criminals",
     season: "2022",
