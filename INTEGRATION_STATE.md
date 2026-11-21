@@ -1,3 +1,10 @@
+## 2026-11-20 22:00 PST — Photo Submissions Persephone Festival reference
+
+- Source: `archive-miner-photo-submissions-2021`, `archive-intake/photo-submissions-2021-visual-contest-2026-08-19-1845-pdt/site-candidate-2026-08-25-1645-persephone-festival-apology.md`; receipts `818477226198433834`, `888298487588990997`, `888298560267886622`.
+- WIKI `src/data/integrator-episodes.ts` gained structured episode `persephone-festival-apology` in reader commit `b912138a8b97a74bd91a5b70c0f3d8407dc1d029`. MAIN already has the scene in its September FESTIVAL narrative; no duplicate MAIN edit.
+- Postcommit source reread PASS. WIKI Actions runs [44873463626](https://github.com/bossmugen/underlords-wiki/actions/runs/44873463626) and [44873463603](https://github.com/bossmugen/underlords-wiki/actions/runs/44873463603) queued on first inspection. **Pending verification**, not integrated_workflow_verified until exact-commit build/deployment success.
+- Other candidate files inspected: STALKER calendar (`854029437342056510`, `859080523488690176`) and FAMILY calendar (`907316247161614426`, `911677800908472430`) already covered in MAIN calendar narrative; Waltz production (`865351719114113045`, `866931278216298516`) already covered in MAIN and WIKI Bishop/Tofu; Eos/Tae cross-role remains a possible distinct wiki synthesis, held for precise reader reconciliation. No source-only images published.
+
 ## 2026-11-20 20:26 PST — BACKROOM Sota/Tae WIKI preview verification closed
 
 - BACKROOM source `archive-miner/backroom-deals-2026-08-24`, `archive-intake/chat-2026-08-24-backroom-batch-miner/site-candidates-pass-42.md` and `receipts-pass-42.md`; messages 946594818614788096, 946595539112321064, 946595875495489577, 946596349007257601.
