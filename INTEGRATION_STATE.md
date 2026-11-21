@@ -1,3 +1,9 @@
+## 2026-11-21 06:35 PST — August Reunion MariaMoon return (reader pending verification)
+
+- Source: `archive-miner/aug-2026-living-ensemble-hourly`, `archive-intake/aug-2026-living-ensemble-reunion-2026-08-19-2303-pdt/site-candidates.md` candidate 2; July 22 2021 Lobby account `_seishi_` / MariaMoon<3 and August 2026 return linked by stable ID `610294957378371608`. This is not Moon. No age or private account identifier exposed in reader copy; first-join chronology and later preferred public name unresolved.
+- WIKI reader: `src/data/integrator-episodes.ts` episode `mariamoon-return-forgot-game-2021-2026`, commit `908d2a52da8fe805843864f3b1f5bb21ca36566d`. Exact source reread PASS. GitHub Actions commit lookup returned no runs; Astro build, preview and custom-domain production **PENDING VERIFICATION**. Do not mark fully integrated yet.
+- MAIN received no change: this is a compact structured WIKI episode, not an invented MAIN biography. No consumed miner SHA advanced. Branch-name census returned 30 active archive miners; independent HEAD SHA verification and ledger census write were not completed this pass. August Reunion and Main HQ full A/B candidate inventory still open; no backlog exhaustion.
+
 ## 2026-11-21 05:35 PST — August Reunion Key/Woohyuk Wall escalation (reader pending verification)
 
 - Source: `archive-miner/aug-2026-living-ensemble-hourly`, `archive-intake/aug-2026-living-ensemble-reunion-2026-08-19-2303-pdt/site-candidates.md` candidate 3, Wall parent receipt `1536936223891922995`. 2021 original date/channel and CAPTURED BY unresolved; Wolf's 2026 throwback is a recovery, not an original capture attribution.
