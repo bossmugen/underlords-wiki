@@ -1,3 +1,9 @@
+## 2026-11-21 04:35 PST — August Reunion Tae search-crash episode awaiting verification
+
+- Miner: `archive-miner/aug-2026-living-ensemble-hourly`, `archive-intake/aug-2026-living-ensemble-reunion-2026-08-19-2303-pdt/site-candidates.md`, candidate 6; Wall receipt `1536935166122008636`.
+- WIKI reader: `src/data/integrator-episodes.ts` new `tae-search-crashes-the-archive-2026`, commit `aecba9a704a8dd7101b1e3e280433d6d01a3cf5f`. Postcommit source reread PASS. Build/deploy **PENDING**; GitHub Actions commit lookup returned no runs yet. No claim of production publication.
+- MAIN Tae biography already carries the search-crash joke; no duplicate narrative edit. Do not infer Tae caused either crash. No miner consumption SHA advanced; August/Main HQ full A/B candidate inventory remains open.
+
 ## 2026-11-21 01:35 PST — August/Main HQ publication debt and WIKI verification check
 
 - Independent 30-miner HEAD census: no new, advanced, or missing active branches versus MAIN `archive-intake/INTEGRATOR_BRANCH_STATE.json`; census file unchanged. August Reunion remains `fcc27ac7` seen / `dfe5909d` consumed; Main HQ `e172df06` seen and consumed but publication debt open. Club-Only 2021–2026 `e45fb11c` seen and consumed.
