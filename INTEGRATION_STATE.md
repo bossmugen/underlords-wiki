@@ -1,3 +1,10 @@
+## 2026-11-21 00:36 PST — Persephone FESTIVAL preview verification closed
+
+- Reader commit `b912138a8b97a74bd91a5b70c0f3d8407dc1d029` added `persephone-festival-apology` to `src/data/integrator-episodes.ts`; source: Photo Submissions `site-candidate-2026-08-25-1645-persephone-festival-apology.md`, receipts `818477226198433834`, `888298487588990997`, `888298560267886622`.
+- Original reader build [44873463626](https://github.com/bossmugen/underlords-wiki/actions/runs/44873463626) SUCCESS; original preview [44873463603](https://github.com/bossmugen/underlords-wiki/actions/runs/44873463603) CANCELLED by successor.
+- Descendant main `5d890d10a1004c58a8260efb31bbf7389e1a2798` retains exact episode ID in current source. Its build [44873477831](https://github.com/bossmugen/underlords-wiki/actions/runs/44873477831) SUCCESS and preview [44873477833](https://github.com/bossmugen/underlords-wiki/actions/runs/44873477833) SUCCESS. **Preview publication verified; custom-domain production not independently checked.**
+- MAIN already carries FESTIVAL scene; no mirrored prose. No miner consumption cursor changed; accepted candidate remainder remains unreconciled.
+
 ## 2026-11-20 22:00 PST — Photo Submissions Persephone Festival reference
 
 - Source: `archive-miner-photo-submissions-2021`, `archive-intake/photo-submissions-2021-visual-contest-2026-08-19-1845-pdt/site-candidate-2026-08-25-1645-persephone-festival-apology.md`; receipts `818477226198433834`, `888298487588990997`, `888298560267886622`.
