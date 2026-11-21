@@ -1,3 +1,11 @@
+## 2026-11-21 13:30 PST — BACKROOM Pass 36 Wall episodes (pending verification)
+
+- Direct source: `archive-miner/backroom-deals-2026-08-24`, `archive-intake/chat-2026-08-24-backroom-batch-miner/site-candidates-pass-36.md` and `receipts-pass-36.md`. Checked `checkpoint.md` first. This is an older accepted candidate, not a newly advanced miner HEAD.
+- WIKI reader `src/data/integrator-episodes.ts`: added `wall-shame-ranking-war-2022` (Rummy's ranking proposal 973669323992346624; Panda's tenure-normalization 973670794263674910; Rich's declaration 973676124162895912) and `milo-gilli-thought-no-one-saw-2020` (Gilli screenshot 788450488412012555; Milo's reply 788450625842184223). Commit `a8fc7e3fece9cece5d275c33ebde77429dead37b`; post-write source reread passed.
+- No unseen image contents described; neither formal Shame War scoring nor a winner inferred. MAIN person-first bios were not changed. Wiki episodes are the appropriate searchable structured owner.
+- **PENDING VERIFICATION**: no local Astro checkout available; Actions build, preview, and exact live production deployment not yet confirmed. Do not mark these two candidates integrated/published or advance BACKROOM consumed SHA until verification succeeds.
+- Remote branch-name enumeration returned 30 matching miner names. Independent current HEAD-SHA verification and mandatory MAIN census persistence were not completed in this pass. BACKROOM previously recorded HEAD `9c143a7c`, consumed `68d2fba7`; complete 61-pass accepted A/B remainder still uncounted. War Room 2022–2023 and original media remain source-blocked.
+
 ## 2026-11-21 12:00 PST — Photo Submissions Sye example-poster episode (verification pending)
 
 - Source: `archive-miner-photo-submissions-2021`, `archive-intake/photo-submissions-2021-visual-contest-2026-08-19-1845-pdt/site-candidates.md`, heading “Sye goes from taking a hundred tries to helping set the visual brief.” Jan 6 entrant caption and Jan 31 Example Photos header plus three images. Exact message IDs not supplied in this handoff; do not fabricate them.
