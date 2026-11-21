@@ -2,6 +2,15 @@ import type { Episode } from "./wiki";
 
 export const integratedEpisodes: Episode[] = [
   {
+    id: "snow-pokeofficer-trading-cards-2022",
+    title: "Snow Made an Officer Business Card. Then Invented Pokémon for Management.",
+    season: "2022",
+    date: "January 6, 2022",
+    kind: "Officers / business cards / collectible joke",
+    logline: "Snow's Snowfyre officer business card was apparently not enough paperwork for one man. Within minutes he was proposing 'pokeofficer' cards: collectible officer portraits people could catch and turn in for prizes (928733566488174643; 928733629021032589; 928739116928098304). The joke takes his fondness for procedures and makes the people running the club into a prize-counter game. A card called snowcard.jpg belongs to this exchange, but its image contents and maker have not been verified. The proposal is documented; an actual card game or prize redemption is not.",
+    cast: ["Snow"]
+  },
+  {
     id: "noether-hamcito-food-court-2021-2022",
     title: "Noether Put Hami on the Menu. Eos Took the Order.",
     season: "2021–2022",
