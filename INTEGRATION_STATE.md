@@ -1,3 +1,10 @@
+## 2026-11-22 08:30 PST — BACKROOM Tumbleweed pinned-index repair
+
+- Full MAIN GitHub REST census: 137 remote branches, 30 miner branches, zero new/advanced HEADs. MAIN branch-state census commit `03a1012cd907059a609016242b7f365ff8fd9648`; BACKROOM HEAD `9c143a7c146af4fc90de4b258bee1c848a2818a0`, consumed baseline `68d2fba7adda1f110a9be57013dd7712c450f82d` unchanged.
+- Read BACKROOM checkpoint first, then `site-candidates-pass-31.md` and `receipts-pass-31.md` directly on `archive-miner/backroom-deals-2026-08-24`. Compared MAIN Zoshaa/Illien biographies and WIKI Tumbleweed episode: the boiled-mayo/orb and alcoholic-noodle personal reads already exist on MAIN; the pinned Anthos organisation index and their relationship to the Tumbleweed episode were missing on WIKI.
+- Enriched existing WIKI episode `tumbleweed-family-tree-returns-2026` in `src/data/integrator-episodes.ts` at reader commit `8499426a28b2b235ae818fcbc28c201ca013c3b4`; did not duplicate as a second episode. Source receipts `760564322182103111`, `760564355162308609`, `760569555323715584`, `760569584234659881`, `760572692129906749`, `844051938638692403`, `844051976953004042`. Joke kinship is not literal; child-shield mechanics unresolved.
+- Postcommit source reread PASS. Exact-commit WIKI build `45044259568` and preview `45044259610` QUEUED at inspection; production not verified. Candidate `pending_verification`, not marked integrated. No consumed SHA advanced. Complete BACKROOM 61-pass accepted A/B remainder still uncounted. Club-Only recovery and media-only blocked candidates remain outstanding.
+
 ## 2026-11-22 07:36 PST — AUGUST REUNION Akuma/Matsu music ambitions
 
 - Full GitHub REST branch census: 137 remote branches / 30 active miner branches, exact HEADs refreshed; MAIN `archive-intake/INTEGRATOR_BRANCH_STATE.json` census commit `f16582ae411539c832818b8d692e3a1d1b1cf434`. Zero newly advanced miner HEADs. Five pending-publication families and Club-Only recovery still open.
