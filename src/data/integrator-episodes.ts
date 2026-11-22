@@ -761,4 +761,13 @@ export const integratedEpisodes: Episode[] = [
     logline: "Noether appeared at the Lobby in October 2021, then passed through again in December and January. The bot kept offering the same impersonal welcome; the humans had other ideas. Anayss greeted the December return with 'wb ❤️' (923732583190233198), and Mugen answered the January one with 'Welcome back noeee' (931279761689436180). By then the front desk was less an introduction than a reunion with someone they already knew. The repeated entry cards don't tell us why Noether had been away or when she first joined; the warm recognition is the point.",
     cast: ["Noether", "Anayss", "Mugen"]
   },
+  {
+    id: "bee-movie-sota-antennae-2020",
+    title: "Anthos Assigned the Bee Movie. Sota Grew Antennae.",
+    season: "2020",
+    date: "September 18–24, 2020",
+    kind: "Club Only / running joke / callback",
+    logline: "Mugen and Sota started buzzing about Bee Movie, so Anthos supplied a massive script transcript instead of a normal-sized joke. Sota was still saying 'im reading' and 'asmr?' nine minutes later. Six days afterward, Sota complained about 'antenaee', and Anthos remembered the earlier nonsense: 'who would of thought u reading the bee movie would turn u into one'. The actual September 24 visual trigger is uninspected; nobody has established that Sota read anything aloud. Backroom Pass 29 receipts 756637649938153505, 756639925373239378, 756639945078210611, 758717478691274804 and 758717489743396904.",
+    cast: ["Anthos", "Sota", "Mugen"]
+  },
 ]; 
