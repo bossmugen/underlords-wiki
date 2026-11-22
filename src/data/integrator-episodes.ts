@@ -2,6 +2,15 @@ import type { Episode } from "./wiki";
 
 export const integratedEpisodes: Episode[] = [
   {
+    id: "photoshoot-contest-launch-from-poll-to-poster-2020-2021",
+    title: "Mugs Wanted a Photoshoot. Anthos Wanted Your Face on a Poster.",
+    season: "2020–2021",
+    date: "December 10, 2020 – January 9, 2021",
+    kind: "Photoshoot / contest launch / announcements",
+    logline: "On December 10 Mugen was already polling interest in a Dragon Raja photoshoot contest, hoping to open in January but willing to start sooner if enough people showed up (786703100148056065). By December 30 she was pointing everyone toward the rules and counting down five days to submissions (793921733169905694). Anthos supplied the sales pitch on January 4: 'Could you be the face of Underlords next poster?' (795646309440815114). Two days later he sent people back to the rules for judges, photo details and prizes (796494831949185034), and on January 9 called it 'our very first Photoshoot Contest' (797596292485742612). Mugs had floated a club activity; between them they gave it rules, a deadline, judges, prizes and a chance to become the next face on the wall. An August 23 sendoff photoshoot for Hishiro and Illien (747259861523365980, 747261485528383638) was an earlier social shoot, not a documented contest. The promised poster's eventual result is not established by these announcements.",
+    cast: ["Mugen", "Anthos", "Hishiro", "Illien"]
+  },
+  {
     id: "gabu-sye-saber-photoshoot-closure-2021",
     title: "Sye Reviewed the Robot. Gabu Gave It the Keys.",
     season: "2021",
