@@ -40,7 +40,7 @@ claims:
       - label: "👅 Wall · 2021-05-24–26"
         href: "/archive/wall"
     note: "The image attachments were not visually inspected for this character claim. The safe evidence is reciprocal Wall participation and directed banter, not literal violence or a relationship ranking."
-  - text: "On October 5, 2021, the Marian Kage account described a Wizard101 panda set—panda ears, panda outfit, panda mount—and ended `livin the panda dream`. Ansun answered `damn you really do be a panda and eos is your panda caretaker`."
+  - text: "On October 5, 2021, the Marian Kage account described a Wizard101 panda set—panda ears, panda outfit, panda mount—and ended `livin the panda dream`. Sota answered `damn you really do be a panda and eos is your panda caretaker` (message `895137435250483220`)."
     evidence: "archive-confirmed"
     date: "2021-10-05"
     sources:
