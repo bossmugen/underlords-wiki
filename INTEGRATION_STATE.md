@@ -1,3 +1,10 @@
+## 2026-11-21 17:30 PST — BACKROOM Pass 28 UL greetings (pending production verification)
+
+- Direct miner branch `archive-miner/backroom-deals-2026-08-24` HEAD `9c143a7c146af4fc90de4b258bee1c848a2818a0`; source `archive-intake/chat-2026-08-24-backroom-batch-miner/site-candidates-pass-28.md` and `receipts-pass-28.md`. Receipts `698730571290902569`, `698730593244151809`, `698730606435106836`, `761271525193154561`, `761271553807089686`, `761274177508212766`, `761274227423969341`, `761275885822148649`.
+- WIKI reader `src/data/integrator-episodes.ts`, episode `ul-greetings-bot-affection-2020`, commit `136ab02c024674d1c3f68bb23d2a5d78ff308c25`; source reread PASS. MAIN Illien and Mugen bios already contain this as lived character texture; no duplicate MAIN prose. Technical lineage of April Waifu bot and October Eli remains unresolved. Deleted User pooled identity not inferred. No physical affection or relationship claim inferred.
+- Previous Bee Movie episode `bee-movie-sota-antennae-2020` verified in descendant WIKI build run `44967135520` and preview `44967135348` on `5cf1733c` (both SUCCESS); custom-domain production still not independently fingerprinted. New UL greetings reader build/preview **pending**. BACKROOM complete 61-pass A/B remainder uncounted; consumed cursor `68d2fba7adda1f110a9be57013dd7712c450f82d` unchanged.
+- Fresh MAIN REST census: 137 branches, 30 active miner branches, no new or advanced HEADs, persisted `c8c00131f252c08d2cc0cbc63c71c6bbc9e14515`. Club-Only 2021–2026 recovery and other pending families remain open.
+
 ## 2026-11-21 16:40 PST — BACKROOM Pass 29 Bee Movie callback (pending verification)
 
 - Direct miner source: `archive-miner/backroom-deals-2026-08-24` HEAD `9c143a7c146af4fc90de4b258bee1c848a2818a0`, `archive-intake/chat-2026-08-24-backroom-batch-miner/site-candidates-pass-29.md`; receipts `756637649938153505`, `756639925373239378`, `756639945078210611`, `758717478691274804`, `758717489743396904`.
