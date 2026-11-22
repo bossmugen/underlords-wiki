@@ -837,4 +837,13 @@ export const integratedEpisodes: Episode[] = [
     cast: ["Kaede", "Ren"]
   },
 
+  {
+    id: "rummy-cookie-tofu-stink-off-2024",
+    title: "Rummy Got Called Stinky. Tofu Requested a Competitive Division.",
+    season: "2024",
+    date: "August 14 – September 12, 2024",
+    kind: "Wall / teasing / shared joke",
+    logline: "On August 14, homethey_ announced 'rummy U STINK' (1273451792826372187). Cookie needed only four minutes to pick up the charge: 'stinky rummy?' (1273452859115180113). By September 12, Tofu was asking Cookie whether she and Rummy had a 'stink off' (1283840497617735792). Nobody had to establish a real contest. One stupid insult had acquired enough momentum to become an imaginary competitive event. The accompanying September image was posted by Tofu, but its contents, maker and capturer have not been verified; the joke is preserved from the text exchange alone.",
+    cast: ["Rummy", "Cookie", "Tofu"]
+  },
 ];
