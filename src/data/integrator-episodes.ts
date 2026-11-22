@@ -2,6 +2,15 @@ import type { Episode } from "./wiki";
 
 export const integratedEpisodes: Episode[] = [
   {
+    id: "suzi-voice-expectation-2020",
+    title: "Ren Had Invented a Different Suzi in Her Head.",
+    season: "2020",
+    date: "April 14, 2020",
+    kind: "Club Only / voice expectations / Suzi",
+    logline: "D.I. was already joking that Suzi was acting like an eighty-year-old man (699857072178724867). Yummibears declared 'tonight is lets break suzi' (699858741901656085). Then Ren blurted, 'Bro suzi sound so different of what I imagined' (699864648538914858). Suzi, posting as Mob/BAPE, supplied a magnificently tired 'Ugh' (699867692932268072). Ren had evidently assembled an imaginary voice from text-Suzi, and actual Suzi declined to cooperate with the casting. The messages do not establish pitch, accent, a first-ever voice reveal, or a specific call platform.",
+    cast: ["Suzi", "Ren", "D.I.", "Yummibears"]
+  },
+  {
     id: "akuma-matsu-music-lab-dj-dream-2026",
     title: "Akuma Came Back for Food. Stayed to Talk About Making Music.",
     season: "2026",
