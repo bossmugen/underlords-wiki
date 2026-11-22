@@ -2,6 +2,15 @@ import type { Episode } from "./wiki";
 
 export const integratedEpisodes: Episode[] = [
   {
+    id: "ul-greetings-action-bot-lobby-to-club-2020",
+    title: "UL Greetings Meant Kissing, Slapping, and an Argument About Biting.",
+    season: "2020",
+    date: "April 11 – October 1, 2020",
+    kind: "Lobby / Club Only / action bots / social rituals",
+    logline: "Snow thought a menu of fake hugs, kisses, pats, punches and slaps would entertain people waiting in the lobby (698730571290902569). It did: the help text's 'Pat those nekos OwO' immediately drew 'PAT NEKOS?' and 'FURRIES?' from a pooled, unidentified account. In October Mugen remembered 'ul greetings' and ordered Eli to kiss Illien (761271525193154561; 761271553807089686). Illien paused to rule that a supposed nom looked more like a bite, then promptly commanded the bot to bite Mugen (761274177508212766; 761274227423969341). By bedtime he was calling for a group hug for Mugs (761275885822148649). The April Waifu command set and October Eli commands show the same social habit, not a proven bot rename or one continuous technical system.",
+    cast: ["Snow", "Mugen", "Illien"]
+  },
+  {
     id: "nobu-mugen-family-reunion-named-2026",
     title: "Nobu Asked if This Was a Family Reunion. Mugs Made It Official.",
     season: "2026",
