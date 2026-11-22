@@ -1,3 +1,9 @@
+## 2026-11-22 13:31 PST — BACKROOM Pass 43 Suzi voice expectations
+
+- Read BACKROOM checkpoint and `site-candidates-pass-43.md` / `receipts-pass-43.md` directly from `archive-miner/backroom-deals-2026-08-24`; also read Club-Only 2021–2026 recovery checkpoint. Candidate Suzi voice-expectation episode published to WIKI `src/data/integrator-episodes.ts`, reader commit `0abd805db926fb7ce0ca958087d83cc3960d1c4a`; source reread PASS. Receipt IDs `699857072178724867`, `699858741901656085`, `699864648538914858`, `699867692932268072`. User identity bridge Mob/BAPE=Suzi applied. No invented pitch/accent/first VC. MAIN reader unchanged: no verified canonical Suzi person path found for safe person-first edit.
+- Torr Table-kun mechanics and Anjou statue screenshots remain visual holds; Kiro/Hic identity remains unresolved, no merge. Exact WIKI commit combined status returned empty; Astro/preview/live deployment unverified. Candidate remains pending_verification, BACKROOM consumption SHA unchanged, full 61-pass A/B remainder still uncounted.
+- MAIN miner-name census found 30 active names, all ledgered, but did not independently refresh HEAD SHAs. Census recorded in MAIN `0d5ed3dc365ace3182d9624194905baa2176946d`. Club-Only later-message retrieval gap persists.
+
 ## 2026-11-22 12:55 PST — Tae/Ren Photo publication verification
 
 - Source `archive-miner-photo-submissions-2021` / `site-candidate-2026-08-25-1145-waltz-participants-as-partners.md`, receipts `865078249850929162` and `900770811525361705`. MAIN Tae person-first reader `af2f3b30` passed exact-commit Cloudflare production workflow `45064056223`, job `137336146188` with `Verify, build, deploy, and confirm live commit` SUCCESS.
