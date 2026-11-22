@@ -1,3 +1,9 @@
+## 2026-11-22 09:30 PST — BACKROOM Panda/Eos speaker correction
+
+- Branch-name census: 30 matching active miners, all present in MAIN branch ledger; MAIN census `14e6828cfbb8ca7963f2dc9f26b3c4fc20e79a0a`. Search returned names only, not refreshed HEAD SHAs.
+- Direct BACKROOM `checkpoint.md` then `site-candidates-pass-32.md` / `receipts-pass-32.md` on `archive-miner/backroom-deals-2026-08-24`; Club-Only 2021–2026 recovery checkpoint also read. Panda's July 7 `too vanilla` and November self-shame already exist on both surfaces; did not duplicate. Pass 32 October 5 receipt `895137435250483220` identifies **Sota**, not Ansun, as speaker of the `panda caretaker` joke. Fixed MAIN `src/content/people/panda.md` commit `896d4c66adf88c774ba5db4b23aaaeb454b6e5b9` and WIKI `src/data/dossier-snapshots/panda.md` commit `0cd1bee798df6c207a0c017864435a6050a7619c`.
+- Post-write MAIN source reread passed. GitHub combined statuses empty; Astro builds and exact live deployments NOT certified. Treat candidate as pending_verification; BACKROOM consumed SHA unchanged. Remaining A/B candidates across 61 passes uncounted. Pride lost-corpse original artifact, WALTZ image, Daya image and Club-Only later retrieval remain held. No private officer material published.
+
 ## 2026-11-22 08:35 PST — AUGUST Akuma reader verification reconciliation
 
 - Full miner-name census: 30 active branches (26 `archive-miner/`, four `archive-miner-`), all present in MAIN ledger; MAIN census commit `da73e9f7990427234788178ba7dcc3d8fe215467`. Branch search returned names only, not refreshed HEAD SHAs.
