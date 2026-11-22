@@ -1,3 +1,10 @@
+## 2026-11-21 16:40 PST — BACKROOM Pass 29 Bee Movie callback (pending verification)
+
+- Direct miner source: `archive-miner/backroom-deals-2026-08-24` HEAD `9c143a7c146af4fc90de4b258bee1c848a2818a0`, `archive-intake/chat-2026-08-24-backroom-batch-miner/site-candidates-pass-29.md`; receipts `756637649938153505`, `756639925373239378`, `756639945078210611`, `758717478691274804`, `758717489743396904`.
+- WIKI reader `src/data/integrator-episodes.ts` added `bee-movie-sota-antennae-2020`, commit `8069adb0b5b233e5b8f64d89f3f0a85e7b18fbd7`. Post-write source reread passed. MAIN Anthos biography already contains the lived character scene; no duplicate MAIN text.
+- The movie transcript is not reproduced. No audio performance or uninspected image content inferred. WIKI Astro build, preview and custom-domain production **not yet verified**; candidate pending publication. Full BACKROOM accepted A/B remainder still uncounted; consumed baseline `68d2fba7adda1f110a9be57013dd7712c450f82d` unchanged.
+- Fresh REST census 137 remote branches, 30 active miner branches, zero advanced, persisted MAIN `a2a5b2bd4c708027458f88881d19193da2e68ca8`. Club-Only 2021–2026 recovery remains pending; no raw archive mining.
+
 ## 2026-11-21 16:35 PST — MAIN HQ Anayss coffee / Gabu hydration episode; verification pending
 
 - Direct miner handoff: `archive-miner/main-hq-hourly` at `e172df0641d6fa9c9d47a2bec6ff40c1aee0fb3c`, `archive-intake/main-hq-2022-2026-tail-20260819/checkpoint.md` and `site-candidates.md`, candidate `Anayss — coffee before language`. Receipts `757929930586587146`, `757929944067211385`, `757929954330804244`, `757929956956307526`, `751050916584489061`, `751051268377542687`.
