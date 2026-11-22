@@ -1,3 +1,9 @@
+## 2026-11-21 21:35 PST — Main HQ Rummy/Cookie/Tofu stink-off (reader committed; verification pending)
+
+- Direct miner `archive-miner/main-hq-hourly`, `archive-intake/main-hq-2022-2026-tail-20260819/site-candidates.md`, candidate `Rummy + Cookie + Tofu — the stink-off`. Text receipts `1273451792826372187`, `1273452859115180113`, `1283840497617735792`; companion attachment `1283840497562947604` remains uninspected. No assertion about image contents or actual contest.
+- WIKI reader `src/data/integrator-episodes.ts`, episode `rummy-cookie-tofu-stink-off-2024`, commit `fe23be18dae0ad34337cf4704c1fc78dca37daf0`. Postcommit source reread PASS. Commit workflow lookup returned zero runs (PR-only endpoint); Astro build, preview, custom-domain production UNVERIFIED. Keep candidate pending verification.
+- MAIN no reader change; preserve person-first synthesis instead of adding a second tiny incident. No consumed SHA advanced; full distinct A/B Main HQ + August Reunion inventory remains unreconciled. Branch-name census 30 active miners, but current HEAD-SHA verification and mandatory MAIN census persistence were not completed in this pass. Existing ledger last recorded 5 pending-publication families and 1 backlog. Club-Only recovery not completed.
+
 ## 2026-11-21 21:30 PST — BACKROOM Ren self-care police (pending verification)
 
 - Direct miner: `archive-miner/backroom-deals-2026-08-24` HEAD `9c143a7c146af4fc90de4b258bee1c848a2818a0`, intake `archive-intake/chat-2026-08-24-backroom-batch-miner/site-candidates-pass-19.md` and `receipts-pass-19.md`.
