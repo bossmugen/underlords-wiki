@@ -2,6 +2,15 @@ import type { Episode } from "./wiki";
 
 export const integratedEpisodes: Episode[] = [
   {
+    id: "anayss-coffee-boot-sequence-2020",
+    title: "Ana Needed Coffee Before Her Sentences Could Boot.",
+    season: "2020",
+    date: "August–September 2020",
+    kind: "Club Only / morning ritual / Gabu's hydration patrol",
+    logline: "Anayss's morning startup procedure was apparently powered by increasingly distressed coffee requests. 'Need coffee' deteriorated into 'Need cogfee'; on September 22 the appeal arrived in separate transmissions: 'i', 'nneed', 'coffee u.', 'u' (757929930586587146; 757929944067211385; 757929954330804244; 757929956956307526). Gabu knew the routine well enough to intervene with 'maam drink water too' after Ana's recurring 'all the coffee' GIF (751050916584489061; 751051268377542687). The same woman who could handle officer work apparently needed a few messages just to finish requesting breakfast fuel. The joke is in their familiar rhythm, not in any measured caffeine consumption.",
+    cast: ["Anayss", "Gabu"]
+  },
+  {
     id: "snow-pokeofficer-trading-cards-2022",
     title: "Snow Made an Officer Business Card. Then Invented Pokémon for Management.",
     season: "2022",
