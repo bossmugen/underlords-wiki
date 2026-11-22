@@ -2,6 +2,16 @@ import type { Episode } from "./wiki";
 
 export const integratedEpisodes: Episode[] = [
   {
+    id: "gabu-sye-saber-photoshoot-closure-2021",
+    title: "Sye Reviewed the Robot. Gabu Gave It the Keys.",
+    season: "2021",
+    date: "August–October 2021",
+    kind: "Photoshoot / Saber / backstage operations / collaboration",
+    logline: "Gabu had built two separate Saber events to open and close Photoshoot submissions. On August 15, Sye looked at the setup and suggested simply switching one event on and off instead (876635477782966353). Gabu immediately answered, 'Ohhh yeahhh, I didn't think about that!! Tysm sye' (876670397666439219). No programmer ego, just a better idea and a delighted thank-you. In September Gabu rehearsed the full FESTIVAL closing banner through a throwaway Saber event, watched the bot actually post it (887154953485955084), then scheduled a separate production close (887166930052579388). The surviving public FESTIVAL closure was posted manually by Sota on September 24 (890996087488393317); the reason for the date difference is unknown. By October 25, Saber itself publicly closed SCARY submissions (902240809565446245). The robot had graduated from reminders to shutting the door, with Gabu testing it and Sye making the setup less ridiculous.",
+    cast: ["Gabu", "Sye", "Sota"]
+  },
+
+  {
     id: "juicy-cookie-crop-editor-paradox-2021",
     title: "Juicy Cookie's Crop Fix Was Against the Rules",
     season: "2021",
