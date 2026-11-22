@@ -1,3 +1,10 @@
+## 2026-11-21 21:30 PST — BACKROOM Ren self-care police (pending verification)
+
+- Direct miner: `archive-miner/backroom-deals-2026-08-24` HEAD `9c143a7c146af4fc90de4b258bee1c848a2818a0`, intake `archive-intake/chat-2026-08-24-backroom-batch-miner/site-candidates-pass-19.md` and `receipts-pass-19.md`.
+- WIKI reader `src/data/integrator-episodes.ts`, episode `ren-self-care-police-hydration-2021`, commit `8d4b16c5ca8cf78592e33df9b73ab9a42357caba`. Source reread PASS. Receipts: `812180781442531388`, `816127767971102730`, `830897163533680711`, `831258088115535933`, `831952041944809532`, `834874392847712316`, `862382300963799060`. Multi-author reminder lane; formal role creation date not inferred.
+- Build `44990026283` and preview `44990026294` QUEUED when inspected. No independent production fingerprint. Keep candidate pending verification and BACKROOM consumption baseline unchanged (`68d2fba7`); remaining A/B candidates across 61 passes uncounted. MAIN no new reader change because Ren already has person-first self-care texture; WIKI gets structured historical episode.
+- Full census: 137 remote branches, 30 active miners, all SHA values unchanged; MAIN ledger commit `4a35843242923ff72f9a2f31dba29b19bd895657`. Club-Only 2021–2026 checkpoint also read; no new safe A/B publication this pass.
+
 ## 2026-11-21 21:00 PST — Photo LOVE workflow verification correction
 
 - Source: `archive-miner-photo-submissions-2021` checkpoint and `site-candidates.md` reread directly. The LOVE reader remains `src/data/integrator-episodes.ts` episode `photoshoot-love-theme-announcement-2021` (commit `71a3a478a1ac6d4b054e8cd8d825684cb6564547`); MAIN already has the LOVE round, so no duplicate reader edit.
