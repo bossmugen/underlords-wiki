@@ -789,4 +789,14 @@ export const integratedEpisodes: Episode[] = [
     logline: "Before 'old man Snow' became an explicit birthday prosecution, Ansun was already putting his meme taste on trial: 'parent's facebook humour and stock images'. Ansun doubled down that the example looked like Facebook material; Snow's entire defense was 'FINE'. The exchange is an early recognizable age-flavored roast, not proof that it originated the later nickname. Wall receipts 748575587022536726, 748575666202476615, 748575770275741727. The underlying image has not been inspected."
   },
 
-]; 
+  {
+    id: "ren-snow-fountain-of-youth-2023",
+    title: "Snow Apparently Controlled the Fountain of Youth. Ren Got the Supply.",
+    season: "2023",
+    date: "April 9, 2023",
+    kind: "Wall / Old Man Snow / age-joke reversal",
+    logline: "Nobu called Ren a child, Kiro escalated to declaring RV the fountain of youth itself, and Moon supplied the obvious missing conspiracy: 'I knew it,Snow gave the fountain of youth to Rv'. Snow's old-man reputation had become so established that even a joke about Ren looking young could turn into Snow secretly controlling the entire youth supply. Nobu's accompanying screenshot was posted by Nobu; its maker, capturer and contents have not been independently inspected. Wall receipts 1094846260021842022, 1094846569993478155, 1094851890057068556.",
+    cast: ["Ren", "Snow", "Nobu", "Kiro", "Moon"]
+  },
+
+];
