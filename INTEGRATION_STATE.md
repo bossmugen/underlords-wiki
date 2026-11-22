@@ -1,3 +1,8 @@
+## 2026-11-21 19:35 PST — Main HQ Ren/Snow fountain-of-youth Wall episode
+
+- WIKI reader `src/data/integrator-episodes.ts`: `ren-snow-fountain-of-youth-2023`, commit `3cbed0942c657bb2d9f7312faeae9e2adb021d8c`. Direct miner source `archive-miner/main-hq-hourly`, `archive-intake/main-hq-2022-2026-tail-20260819/site-candidates.md`, candidate `Ren + Snow — Fountain of Youth transfer`; Wall receipts `1094846260021842022`, `1094846569993478155`, `1094851890057068556`. Existing MAIN Ren biography already carries this one-scene age reversal; WIKI supplies structured episode rather than duplicating MAIN prose. Nobu attachment uninspected, no claims about contents/creator.
+- Postcommit reader-source reread confirmed episode. Commit-associated workflow lookup returned zero PR-filtered runs; Astro build, preview and production remain **unverified**. Candidate remains pending publication verification. No miner consumed SHA advanced; August Reunion/Main HQ A/B inventory still unreconciled.
+
 ## 2026-11-21 18:37 PST — MAIN HQ reader preview verification catch-up
 
 - Verified WIKI descendant workflow `44972345994` Astro build SUCCESS and `44972346012` preview workflow build/deploy/report all SUCCESS. This descendant includes the previously committed Main HQ Snow Facebook-meme roast (`snow-facebook-meme-taste-2020`, reader `a13976f`) and Anayss/Gabu coffee episode (`anayss-coffee-boot-sequence-2020`, reader `562bb13b`) in `src/data/integrator-episodes.ts`; both were independently present in current reader source. The Anayss original preview `44967029398` was CANCELLED, but this later successful descendant removes the preview-only hold. Custom-domain production remains unverified.
