@@ -1,3 +1,10 @@
+## 2026-11-21 16:35 PST — MAIN HQ Anayss coffee / Gabu hydration episode; verification pending
+
+- Direct miner handoff: `archive-miner/main-hq-hourly` at `e172df0641d6fa9c9d47a2bec6ff40c1aee0fb3c`, `archive-intake/main-hq-2022-2026-tail-20260819/checkpoint.md` and `site-candidates.md`, candidate `Anayss — coffee before language`. Receipts `757929930586587146`, `757929944067211385`, `757929954330804244`, `757929956956307526`, `751050916584489061`, `751051268377542687`.
+- WIKI reader `src/data/integrator-episodes.ts`, `anayss-coffee-boot-sequence-2020`, commit `562bb13b0e73b599b50e48f9ab60456c4b9cc25e`. MAIN `src/content/people/anayss.md` already has the lived coffee/Gabu scene, so no duplicate MAIN bio.
+- WIKI build 44967029388 and preview 44967029398 QUEUED at check. No production verification; keep publication debt open. Earlier Snow pokeofficer reader f2ab92d build 44962820231 SUCCESS, original preview 44962820187 CANCELLED, descendant 9958833 build 44962830392 and preview 44962830426 SUCCESS; custom production not verified.
+- Full REST census: 137 remote branches, 30 active miners, zero new or advanced HEADs. MAIN census state committed `c18161351d7086602f3f3b2ad62a172cd87101fe`; no consumed cursor advanced. August Reunion and Main HQ A/B inventory remains unreconciled. No media binaries or sensitive officer-only material published.
+
 
 ## 2026-11-21 15:38 PST — Main HQ pokeofficer episode; verification pending
 
