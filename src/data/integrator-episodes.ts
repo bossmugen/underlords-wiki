@@ -2,6 +2,15 @@ import type { Episode } from "./wiki";
 
 export const integratedEpisodes: Episode[] = [
   {
+    id: "juicy-cookie-crop-editor-paradox-2021",
+    title: "Juicy Cookie's Crop Fix Was Against the Rules",
+    season: "2021",
+    date: "April 25, 2021",
+    kind: "Photo Submissions / Mafia / editing rules / small disaster",
+    logline: "On Mafia closing day, Juicy Cookie asked why the editor wouldn't show the whole picture ('why my editor dont edit full pic', 835940155058946059). A chicken-thinking emote followed three seconds later (835940165959811103); five seconds after that came the diagnosis: 'automatic crop' (835940185379438653). Gilli answered later with the catch: 'You cant use any outside editors hun lol', and pointed back to the Photoshoot rules (835981780900642876). The proposed fix ran into another rule. Juicy was speaking in the same closing-day neighborhood as Gilli's wider crop checks, but no direct receipt identifies Juicy as one of the originally flagged submissions.",
+    cast: ["Juicy Cookie", "Gilli"]
+  },
+  {
     id: "ren-self-care-police-hydration-2021",
     title: "Ren's Self-Care Police Had Four People Voting No to Water",
     season: "2021",
