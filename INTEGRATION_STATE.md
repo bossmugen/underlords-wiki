@@ -1,3 +1,9 @@
+## 2026-11-21 17:35 PST — Main HQ Snow Facebook-meme roast (reader verification pending)
+
+- Source directly on `archive-miner/main-hq-hourly`: `archive-intake/main-hq-2022-2026-tail-20260819/site-candidates.md`, candidate `Snow — the meme taste was already incriminating him before old man Snow`; Wall receipts `748575587022536726`, `748575666202476615`, `748575770275741727`. Image not inspected; nickname origin not claimed.
+- WIKI `src/data/integrator-episodes.ts` added `snow-facebook-meme-taste-2020` at `a13976f721d69480953912df9215f8496227beb4`; post-write source reread PASS. MAIN `src/content/people/snow.md` already contains the lived scene; not duplicated.
+- Prior Anayss coffee reader `562bb13b`: Astro build 44967029388 SUCCESS; preview 44967029398 CANCELLED (deploy cancelled). Descendant preview and custom production remain unverified. New Snow reader build/preview/live verification PENDING. No consumed SHA advanced; August Reunion/Main HQ accepted A/B inventory remains uncounted.
+
 ## 2026-11-21 17:30 PST — BACKROOM Pass 28 UL greetings (pending production verification)
 
 - Direct miner branch `archive-miner/backroom-deals-2026-08-24` HEAD `9c143a7c146af4fc90de4b258bee1c848a2818a0`; source `archive-intake/chat-2026-08-24-backroom-batch-miner/site-candidates-pass-28.md` and `receipts-pass-28.md`. Receipts `698730571290902569`, `698730593244151809`, `698730606435106836`, `761271525193154561`, `761271553807089686`, `761274177508212766`, `761274227423969341`, `761275885822148649`.
