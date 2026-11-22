@@ -1,3 +1,10 @@
+## 2026-11-22 01:30 PST — BACKROOM Pass 10 Saber closure / Gabu–Sye collaboration
+
+- Full REST census: 137 MAIN remote branches, 30 active miners, zero advanced/new heads; persisted before intake review in MAIN commit `7fa5c3ba5f44901833135718bf380e17760052ed`. BACKROOM HEAD `9c143a7c146af4fc90de4b258bee1c848a2818a0`, consumed baseline `68d2fba7adda1f110a9be57013dd7712c450f82d` unchanged.
+- Direct intake: `archive-miner/backroom-deals-2026-08-24`, `archive-intake/chat-2026-08-24-backroom-batch-miner/checkpoint.md` first, then `site-candidates-pass-10.md` and `receipts-pass-10.md`. Public MAIN Gabu biography and Photoshoot history already contain related personality and bot-testing material; avoided duplicating MAIN prose.
+- WIKI reader `src/data/integrator-episodes.ts` episode `gabu-sye-saber-photoshoot-closure-2021` committed `1392d158de48778d4f66eafdbfa04787b15f8727`; postwrite source reread confirmed. Receipt IDs: 876635477782966353, 876670397666439219, 887154953485955084, 887166930052579388, 890996087488393317, 902240809565446245. Sep20 planned FESTIVAL bot close vs Sep24 manual public close remains unresolved; no bot-failure claim. Mob/BAPE FESTIVAL image is uninspected and held.
+- Exact WIKI reader build/preview/live verification: Build Underlords Wiki #45007697645 in_progress/null; Deploy Underlords Wiki Preview #45007697644 in_progress/null; **pending verification**, not certified publication. Full 61-pass accepted A/B candidate remainder remains uncounted. Do not advance BACKROOM consumed SHA. Club-Only recovery remains outstanding.
+
 ## 2026-11-22 00:38 PST — August Reunion / Main HQ integrator: Snow genealogy reader pass
 
 - Full MAIN REST branch census: 137 remote branches, 30 active miners, no advanced HEADs or newly discovered miners; persisted before intake review in MAIN commit `4391a6393cf6a8f023d44724cb52713214d36c1d`. Existing five pending-publication families and one recovery backlog remain open. No consumed SHA advanced.
