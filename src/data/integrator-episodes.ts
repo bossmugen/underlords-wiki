@@ -2,6 +2,15 @@ import type { Episode } from "./wiki";
 
 export const integratedEpisodes: Episode[] = [
   {
+    id: "watermelon-mustard-wall-tribunal-2021",
+    title: "Watermelon Met Mustard. The Wall Demanded a Trial.",
+    season: "2021",
+    date: "July 2, 2021",
+    kind: "Wall of Shame / food arguments / collective disgust",
+    logline: "One watermelon-and-mustard video was enough to start a food-court riot. Tofu refused to defend watermelon even without mustard: 'Watermelon is gross, fight me', followed three minutes later by 'Watermelon is disgusting!' (860706792131264534; 860707527230357514). Baby Lyssa went from 'THIS IS SO PAINFUL TO WATCH' to Googling who puts mustard on watermelon, then ruled the combination 'some colonizer shit' (860706777889112075; 860707042544320523; 860707118825603082). Mob pointed out that there were plenty of videos of the trend (860707128837537853), while Ren, surrounded by objections, quietly asked 'Is it bad I wanna try it' (860707618045296688). Woohyuk rejected the fruit on principle: it was 'just sweet water' 'in a form of a melon' and was 'tryna play us dumb' (860725911074111508; 860725938974228522; 860726027821908061). Nobody in this exchange is established to have eaten the combination; Ren only volunteered curiosity.",
+    cast: ["Tofu", "Baby Lyssa", "Mob", "Ren", "Woohyuk"]
+  },
+  {
     id: "anayss-coffee-boot-sequence-2020",
     title: "Ana Needed Coffee Before Her Sentences Could Boot.",
     season: "2020",
