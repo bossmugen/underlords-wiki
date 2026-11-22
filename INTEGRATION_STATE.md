@@ -1,3 +1,10 @@
+## 2026-11-22 06:36 PST — AUGUST REUNION naming / Nobu and Mugen
+
+- MAIN branch-name census: 30 active miners; all already represented in MAIN branch state. GitHub branch search omits HEAD SHAs, so prior last_seen_sha values were retained, not falsely refreshed. MAIN census note commit `90e5c3ae83ca7c1f148628a64204a8733846688a`.
+- Direct August Reunion intake: `archive-miner/aug-2026-living-ensemble-hourly`, `archive-intake/aug-2026-living-ensemble-reunion-2026-08-19-2303-pdt/checkpoint.md` read first. Source messages `1537903473352515764` (Nobu question) and `1537903932012109905` (Mugen answer); separate website-recursion context from same checkpoint. No invented formal event designation.
+- WIKI reader `src/data/integrator-episodes.ts`, new episode `nobu-mugen-family-reunion-named-2026`, commit `111bca31bcafb02a5afb3a72c52dcc1ae3597a78`. Post-write source reread PASS. Exact build, preview, and production verification PENDING; combined status returned no checks and commit workflow query returned no runs at inspection. Do not mark published or advance August consumed SHA.
+- MAIN received no reader edit; the main-site person-first narrative is not duplicated. Main HQ `site-candidates.md` checked; Health Mafia and Plutonian still exact-receipt blocked. August dated overlays, Main HQ remaining A/B count, and Club-Only recovery remain outstanding.
+
 ## 2026-11-22 04:30 PST — BACKROOM Roach/roachy/roachable vocabulary
 
 - Full MAIN REST census: 137 branches, 30 active miners, zero new or advanced HEADs. Persisted first in MAIN commit `814cdfdff2e2410a281ca48eb42ef0d38a53c6de`.
