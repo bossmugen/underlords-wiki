@@ -90,6 +90,12 @@ claims:
       - label: "Wall · message 1536935166122008636"
         href: "/channels/wall"
     note: "The two participants reported failures. Neither Tae nor the search term is established as the technical cause."
+  - text: "Ren named Tae as her `bestie` in a July 14, 2021 WALTZ submission; Tae later posted her own official SCARY entry on October 21. These are two distinct posting roles, not proof of who photographed either image."
+    evidence: "archive-confirmed"
+    date: "2021-07-14 – 2021-10-21"
+    sources:
+      - label: "Photo Submissions · Ren 865078249850929162; Tae 900770811525361705"
+        href: "/events/photo-submissions"
 antiFanon:
   - "The August 27, 2020 Lobby exchange is a Discord onboarding/role-assignment anchor, not guaranteed first in-game UL admission."
   - "The September algebra scene proves math help only. Do not label the problem homework, classwork, an exam, or Tae's own assignment without another receipt."
