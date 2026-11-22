@@ -1,3 +1,10 @@
+## 2026-11-22 08:35 PST — AUGUST Akuma reader verification reconciliation
+
+- Full miner-name census: 30 active branches (26 `archive-miner/`, four `archive-miner-`), all present in MAIN ledger; MAIN census commit `da73e9f7990427234788178ba7dcc3d8fe215467`. Branch search returned names only, not refreshed HEAD SHAs.
+- Direct intake review: August `checkpoint.md`, Runs 18–21 site candidates, Main HQ `checkpoint.md`/`site-candidates.md`, Club-Only recovery `checkpoint.md`. August Run 18 `#freesnow`, Oyasumi `No molestar`, Momo `Milo` and Run 20 Akuma stable-account history already appear in current reader pages; no duplicate publication.
+- Akuma music WIKI reader `2c2e3a053c953131f34ac9491023c3a4f9f209cd` exact build SUCCESS (45039334596), exact preview FAILURE (45039334560); descendant integration-state commit `1e0b798151a6a2e34822e15f2f25a53a7a8884fd` build SUCCESS (45039349034), preview SUCCESS (https://bossmugen.github.io/underlords-wiki/). Reader file retained on descendant. Therefore descendant-preview verified; custom-domain production still unverified. Do not claim exact-commit preview success.
+- No new reader changes, no consumed SHA advanced, and August/Main HQ accepted-versus-published remainder still uncounted. Main HQ Health Mafia and Plutonian receipt-pending. Club-Only later-message retrieval gap remains.
+
 ## 2026-11-22 08:30 PST — BACKROOM Tumbleweed pinned-index repair
 
 - Full MAIN GitHub REST census: 137 remote branches, 30 miner branches, zero new/advanced HEADs. MAIN branch-state census commit `03a1012cd907059a609016242b7f365ff8fd9648`; BACKROOM HEAD `9c143a7c146af4fc90de4b258bee1c848a2818a0`, consumed baseline `68d2fba7adda1f110a9be57013dd7712c450f82d` unchanged.
