@@ -2,6 +2,15 @@ import type { Episode } from "./wiki";
 
 export const integratedEpisodes: Episode[] = [
   {
+    id: "roach-roachy-roachable-war-room-2021",
+    title: "The Roaches Started Bench-Pressing 220.",
+    season: "2021",
+    date: "January–September 2021",
+    kind: "War Room / Dragon Raja / vocabulary / rival clubs",
+    logline: "Ren was already joking in January that her Reaper could become a roach and evade Gilli (799355381540192266). By August, Gilli was sorting rival clubs into 'too Roachy' and possibly roachable targets (874104057244033024), and Anayss promptly minted 'roachable' (874106117586812938). When Milk fielded thirty active players, Gilli upgraded them to 'radioactive roaches' that could 'bench press 220' (874839397281968138, 874839536767750224, 874839632334954547). In September Anayss explained 'roachy' to the roster as a club with many active members (890757214166483025). The word grew from an evasive class joke into a whole rival-club taxonomy, with a bodybuilding insect problem attached. The earliest surviving January joke is not asserted to be the absolute origin.",
+    cast: ["Ren", "Gilli", "Anayss"]
+  },
+  {
     id: "gilli-anthos-mafia-photoshoot-crop-qc-2021",
     title: "Gilli Checked the Crops. Anthos Kept the Door Open.",
     season: "2021",
