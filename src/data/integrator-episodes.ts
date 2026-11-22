@@ -2,6 +2,15 @@ import type { Episode } from "./wiki";
 
 export const integratedEpisodes: Episode[] = [
   {
+    id: "akuma-matsu-music-lab-dj-dream-2026",
+    title: "Akuma Came Back for Food. Stayed to Talk About Making Music.",
+    season: "2026",
+    date: "August 14, 2026",
+    kind: "August Reunion / Whiskey / music ambitions / returning member",
+    logline: "The returning account displayed as '.M a t s u./ Akuma' announced 'It's been so long!' (1537915792761299045), and Mugs immediately accused food of summoning him (1537915869504737400). He was studying IT with a music-technology minor (1537916476810465320), but the dream was to produce and DJ (1537918998635745330). Guitar was already in the picture; a cousin was helping him learn piano and keyboard (1537919132429852761). Even the school music lab was part of the plan: access to equipment, not just another line on a timetable (1537919475314327682). Mugs knew the food bait; the reunion gave him room to talk about where he wanted his life to go. The 2026 account is stable ID 357245154123579392, username akuma3518; this does not merge him with any other historical Akuma or Matsu or assign an old UL rank.",
+    cast: ["Akuma / Matsu", "Mugen"]
+  },
+  {
     id: "ul-greetings-action-bot-lobby-to-club-2020",
     title: "UL Greetings Meant Kissing, Slapping, and an Argument About Biting.",
     season: "2020",
