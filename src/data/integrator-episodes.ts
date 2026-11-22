@@ -2,6 +2,15 @@ import type { Episode } from "./wiki";
 
 export const integratedEpisodes: Episode[] = [
   {
+    id: "gilli-anthos-mafia-photoshoot-crop-qc-2021",
+    title: "Gilli Checked the Crops. Anthos Kept the Door Open.",
+    season: "2021",
+    date: "April 24–25, 2021",
+    kind: "Photoshoot / MAFIA / submission rules / member support",
+    logline: "The MAFIA Photoshoot round was almost closed when Gilli noticed entries cropped too tightly to show the player's name. On April 24 she publicly explained the rule and gave entrants until the next day's deadline to resubmit (835715719245201439). Anthos followed on April 25 with a last-day reminder explicitly directing people back to her correction notice (835881286332842006). They enforced the rule without springing it as a surprise disqualification: Gilli spotted the problem, Anthos made sure the warning traveled. This does not identify any particular entrant as one of the flagged submissions.",
+    cast: ["Gilli", "Anthos"]
+  },
+  {
     id: "photoshoot-contest-launch-from-poll-to-poster-2020-2021",
     title: "Mugs Wanted a Photoshoot. Anthos Wanted Your Face on a Poster.",
     season: "2020–2021",
