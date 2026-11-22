@@ -1,3 +1,10 @@
+## 2026-11-22 07:36 PST — AUGUST REUNION Akuma/Matsu music ambitions
+
+- Full GitHub REST branch census: 137 remote branches / 30 active miner branches, exact HEADs refreshed; MAIN `archive-intake/INTEGRATOR_BRANCH_STATE.json` census commit `f16582ae411539c832818b8d692e3a1d1b1cf434`. Zero newly advanced miner HEADs. Five pending-publication families and Club-Only recovery still open.
+- Read August Reunion `checkpoint.md` first from `archive-miner/aug-2026-living-ensemble-hourly` at `fcc27ac7a4457fc5c93c575bd2813b8e19abfa3b`, then `hourly-2026-08-26-run17-site-candidates.md`; checked MAIN HQ checkpoint/candidates at `e172df0641d6fa9c9d47a2bec6ff40c1aee0fb3c` and Club-Only recovery checkpoint at `e45fb11c9239e236231bb65645dfd0285bc0078b`.
+- Published reader-source episode `akuma-matsu-music-lab-dj-dream-2026` to WIKI `src/data/integrator-episodes.ts` in commit `2c2e3a053c953131f34ac9491023c3a4f9f209cd`. Exact source candidate `hourly-2026-08-26-run17-site-candidates.md`, receipts `1537915792761299045`, `1537915869504737400`, `1537916476810465320`, `1537918998635745330`, `1537919132429852761`, `1537919475314327682`. Stable account `357245154123579392`; no unsupported identity bridge or formal rank. WIKI episode source had no prior Akuma/Matsu music entry; MAIN not mirrored because this is a discrete reunion episode rather than mature person biography.
+- Postcommit source reread PASS. Exact-commit workflow lookup returned no runs yet; Astro build, preview, and custom-domain production UNVERIFIED. Candidate remains `pending_verification`; no consumed SHA advanced. The complete August/Main HQ dated overlay accepted-versus-published A/B inventory remains uncounted; Main HQ Health Mafia and Plutonian remain receipt-blocked. No uninspected media or private officer content published.
+
 ## 2026-11-22 06:36 PST — AUGUST REUNION naming / Nobu and Mugen
 
 - MAIN branch-name census: 30 active miners; all already represented in MAIN branch state. GitHub branch search omits HEAD SHAs, so prior last_seen_sha values were retained, not falsely refreshed. MAIN census note commit `90e5c3ae83ca7c1f148628a64204a8733846688a`.
