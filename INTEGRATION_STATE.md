@@ -1,3 +1,9 @@
+## 2026-11-21 18:37 PST — MAIN HQ reader preview verification catch-up
+
+- Verified WIKI descendant workflow `44972345994` Astro build SUCCESS and `44972346012` preview workflow build/deploy/report all SUCCESS. This descendant includes the previously committed Main HQ Snow Facebook-meme roast (`snow-facebook-meme-taste-2020`, reader `a13976f`) and Anayss/Gabu coffee episode (`anayss-coffee-boot-sequence-2020`, reader `562bb13b`) in `src/data/integrator-episodes.ts`; both were independently present in current reader source. The Anayss original preview `44967029398` was CANCELLED, but this later successful descendant removes the preview-only hold. Custom-domain production remains unverified.
+- Direct miner checkpoint and accepted candidate handoffs reread from `archive-miner/main-hq-hourly` and `archive-miner/aug-2026-living-ensemble-hourly`; Main HQ quarry closed at source boundary, publication backlog remains open. Snow old-man middle chronology and Ren Police dossiers already appear in current WIKI dossiers; duplicate reader edits suppressed. Main HQ Gabu Health Mafia and Mugen/Sye Plutonian candidates remain receipt-pending, not published.
+- Branch-name discovery: 26 `archive-miner/*` plus four `archive-miner-*`; HEAD-SHA census and mandatory MAIN census-state persistence not independently completed this pass. No consumed SHA advanced. No new reader commit, MAIN build or production deployment this pass. Distinct August Reunion/Main HQ remaining A/B count remains unreconciled.
+
 ## 2026-11-21 18:30 PST — BACKROOM UL greetings verified in WIKI descendant preview
 
 - Direct miner source: `archive-miner/backroom-deals-2026-08-24`, HEAD `9c143a7c146af4fc90de4b258bee1c848a2818a0`, `archive-intake/chat-2026-08-24-backroom-batch-miner/site-candidates-pass-28.md` / `receipts-pass-28.md`; episode `ul-greetings-bot-affection-2020` in `src/data/integrator-episodes.ts` at reader commit `136ab02c024674d1c3f68bb23d2a5d78ff308c25`.
