@@ -817,4 +817,14 @@ export const integratedEpisodes: Episode[] = [
     cast: ["Ren", "Snow", "Nobu", "Kiro", "Moon"]
   },
 
+  {
+    id: "kaede-ren-linda-return-2023",
+    title: "Ren Saw Kaede at the Door and Switched to Bienvenida",
+    season: "2023",
+    date: "January 19, 2023",
+    kind: "Lobby / return / recognition",
+    logline: "FuentesKaede returned through the Lobby and Ren recognized the person before any introduction could become necessary: 'kaede linda eres tuuuu?' (1065813484853530644). Later came 'bienvenida de regreso kaede linda' (1065821635485118594). Kaede's story includes serious work and the occasional question of officer responsibility, but the front-door greeting was personal, playful and immediate. This is warm recognition, not a claim about romance or the reason for the absence.",
+    cast: ["Kaede", "Ren"]
+  },
+
 ];
