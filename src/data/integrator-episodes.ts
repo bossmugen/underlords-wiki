@@ -770,4 +770,14 @@ export const integratedEpisodes: Episode[] = [
     logline: "Mugen and Sota started buzzing about Bee Movie, so Anthos supplied a massive script transcript instead of a normal-sized joke. Sota was still saying 'im reading' and 'asmr?' nine minutes later. Six days afterward, Sota complained about 'antenaee', and Anthos remembered the earlier nonsense: 'who would of thought u reading the bee movie would turn u into one'. The actual September 24 visual trigger is uninspected; nobody has established that Sota read anything aloud. Backroom Pass 29 receipts 756637649938153505, 756639925373239378, 756639945078210611, 758717478691274804 and 758717489743396904.",
     cast: ["Anthos", "Sota", "Mugen"]
   },
+  {
+    id: "ul-greetings-bot-affection-2020",
+    title: "Mugen Remembered UL Greetings. Everybody Got Attacked with Affection.",
+    season: "2020",
+    date: "April 11 and October 1, 2020",
+    kind: "Lobby / Club Only / bot actions / running behavior",
+    logline: "Snow explained that a Lobby action helper was there to entertain people waiting around (698730571290902569); its fake hugs, kisses, pats and slaps promptly inspired a 'PAT NEKOS?' / 'FURRIES?' interrogation (698730593244151809; 698730606435106836). Months later Mugen announced 'ohh i forgot ul greetings' and sent an Eli kiss command toward Euros/Illien (761271525193154561; 761271553807089686). Illien judged one generated 'nom' to look more like a bite, tested 'eli bite @Mugen', and later called for a group hug as she went to sleep (761274177508212766; 761274227423969341; 761275885822148649). The two bot command systems have similar social uses; their technical identity or rename history is not established. These were playful bot actions, not literal physical encounters.",
+    cast: ["Snow", "Mugen", "Illien"]
+  },
+
 ]; 
