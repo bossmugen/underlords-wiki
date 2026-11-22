@@ -2,6 +2,15 @@ import type { Episode } from "./wiki";
 
 export const integratedEpisodes: Episode[] = [
   {
+    id: "photoshoot-love-theme-announcement-2021",
+    title: "February's Mystery Theme Was LOVE. They Actually Said It.",
+    season: "2021",
+    date: "January 31 – February 7, 2021",
+    kind: "Photo Submissions / theme chronology / announcements",
+    logline: "The early February contest wasn't an unnamed mystery round: Anthos's February 5 reminder explicitly called it the Love Photoshoot Contest (807324522075652176), and Mugen's February 7 last-day announcement named the theme Love (807911063990566912). LEXI (805668415489835008), Laila (805686930972737556), Miihi (805842449753833482), ShiyaX (805735157038186536), Rummy (805824317862051890), Ren (805863441695899669), Cele (808039373513293834), and Nhou (808178746934034482) posted entries. LEXI, Laila and Miihi would also appear in Lonely and Flowers. LOVE is a verified contest title, not evidence of any contestant's romantic life; attachment posting does not establish who created, photographed or appeared in the images.",
+    cast: ["Anthos", "Mugen", "LEXI", "Laila", "Miihi", "ShiyaX", "Rummy", "Ren", "Cele", "Nhou"]
+  },
+  {
     id: "watermelon-mustard-wall-tribunal-2021",
     title: "Watermelon Met Mustard. The Wall Demanded a Trial.",
     season: "2021",
