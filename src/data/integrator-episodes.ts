@@ -769,8 +769,8 @@ export const integratedEpisodes: Episode[] = [
     season: "2020–2022",
     date: "April 2020 – December 31, 2022",
     kind: "Voice room / club rallies / room afterlife",
-    logline: "Fight Club was already a voice/listen-in destination by April 6, 2020. Gilli paired it with VIP Lounge as the place to type for people who couldn't talk (696926320357277777, 696926349499039764); the pairing carried Land of Conquest coordination through April and May (697342774764372028, 699798390858448969, 707408767339331645). Gilli later recalled Fight Club during club-fight and build-testing talk. On New Year's Eve 2022, Ricochet remembered 'all the screaming and yelling from the fight club vc before it got turned into my couch' (1059017270162108416). His couch line is the group's remembered afterlife for the room, not proof of an exact channel rename date or channel-ID continuity.",
-    cast: ["Gilli", "Ricochet"]
+    logline: "Fight Club was already a voice/listen-in destination by April 6, 2020. Gilli paired it with VIP Lounge as the place to type for people who couldn't talk (696926320357277777, 696926349499039764); the pairing carried Land of Conquest coordination through April and May (697342774764372028, 699798390858448969, 707408767339331645). The room was familiar enough to become a threat in miniature: on September 18, 2020, Sota proposed 'anthos meeting herself' 'to fight herself in fight club' (756650337028276244, 756650372411687056). Anthos answered with a Family Guy panic GIF (756650632152088629). Gilli later recalled Fight Club during club-fight and build-testing talk. On New Year's Eve 2022, Ricochet remembered 'all the screaming and yelling from the fight club vc before it got turned into my couch' (1059017270162108416). His couch line is the group's remembered afterlife for the room, not proof of an exact channel rename date or channel-ID continuity.",
+    cast: ["Gilli", "Ricochet", "Sota", "Anthos"]
   },
   {
     id: "rashta-hydration-escalation-2021",
