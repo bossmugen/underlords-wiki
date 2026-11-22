@@ -2,6 +2,16 @@ import type { Episode } from "./wiki";
 
 export const integratedEpisodes: Episode[] = [
   {
+    id: "ren-self-care-police-hydration-2021",
+    title: "Ren's Self-Care Police Had Four People Voting No to Water",
+    season: "2021",
+    date: "February–July 2021",
+    kind: "Announcements / self-care / running gags",
+    logline: "Ren's February dispatch offered rest, food, water, love, and 'I loaf you dough much' (812180781442531388). By March she was running the 'self care police' and conducting a full inspection of naps, meals, affection, and hydration, even writing 'Drank water? ~~Gilli~~' (816127767971102730). April brought 'Aqua' or else (830897163533680711), a direct Drink Water / Eat Food Reminder ping (831258088115535933), and four voteno reactions to a compulsory water notice (831952041944809532). Gilli used the same reminder lane on April 22 (834874392847712316). By July Ren's instructions had become 'Be evil for today UwU', 'I luff Chu', and 'consume water or evaporate' (862382300963799060). Caring for people and threatening them with thermodynamics were apparently compatible jobs. This is multi-author reminder history, not proof Ren created the formal role.",
+    cast: ["Ren", "Gilli"]
+  },
+
+  {
     id: "photoshoot-love-theme-announcement-2021",
     title: "February's Mystery Theme Was LOVE. They Actually Said It.",
     season: "2021",
