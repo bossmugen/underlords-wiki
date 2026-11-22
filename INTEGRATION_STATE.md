@@ -1,3 +1,10 @@
+## 2026-11-22 03:30 PST — BACKROOM Fight Club Anthos/Sota callback
+
+- MAIN branch-name census returned 30 matching active miner branches; persisted on master commit `dd033d87984cae16a0da07f0c92788a704aab9eb`. Current HEAD SHAs were not independently refreshed, so no advanced-HEAD claim is made.
+- Read BACKROOM `checkpoint.md` first, then `site-candidates-pass-03.md` and `receipts-pass-03.md` directly on `archive-miner/backroom-deals-2026-08-24`; also read Club-Only 2021–2026 recovery checkpoint. Candidate `Anthos vs Anthos`, receipts `756650337028276244`, `756650372411687056`, `756650632152088629`.
+- WIKI reader `src/data/integrator-episodes.ts`, existing `fight-club-to-ricochet-couch-2020-2022`, enriched rather than creating a duplicate episode; added Sota's proposed self-fight and Anthos's GIF response. Reader commit `657e81ddfb97cb857bb09fb03a590938ec7966b4`. MAIN Anthos person-first biography not modified; structured episode is better owner of the small room callback.
+- GitHub Actions build/preview and production fingerprint **pending verification**. No consumed SHA advanced. BACKROOM accepted A/B remainder across 61 passes still uncounted; visual media and War Room gap held.
+
 ## 2026-11-22 03:00 PST — PHOTO SUBMISSIONS launch deployment verification
 
 - MAIN full REST census persisted first: 137 remote branches / 30 active miner branches, no new or advanced HEADs; commit `c14a4099d3ea117b8489ba8d72bcd85edddad8cb`. Photo HEAD `d45d441feca0110e9495f49b13df9666982bb45c`, consumed `342ee5dfe77b0c6d1106f28eb557fd25ce67085b` unchanged. Club-Only HEAD `e45fb11c9239e236231bb65645dfd0285bc0078b`, checkpoint inspected; no raw archive remine.
