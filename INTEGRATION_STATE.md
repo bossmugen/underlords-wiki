@@ -1,3 +1,9 @@
+## 2026-11-22 11:30 PST — BACKROOM Pass 38 DeathBloom lobby-to-WALTZ handoff
+
+- Read BACKROOM checkpoint then Passes 36–38 site candidates and Pass 38 receipts directly from `archive-miner/backroom-deals-2026-08-24`. Pass 36 shame-ranking already represented in MAIN Panda and WIKI episode; Pass 37 Snow bush and Aeshleen lobby/gogb already represented in MAIN. Pass 38 Panda lychee already in MAIN. No duplicate publication.
+- Enriched existing WIKI `akane-qinmu-waltz-partners-2021` in `src/data/integrator-episodes.ts` reader commit `8ea7601e5266d916277325d26d822658ab3e6c5b`. Source `site-candidates-pass-38.md` / `receipts-pass-38.md`, receipts `863839283135250462`, `863839471950888980`, `863842473151037470`, `863843031026106429`, `867268997471666236`. Dreamless and Akane self-described DeathBloom; Anayss and Sota separately routed them to submissions before Akane's WALTZ caption. No inferred romance, UL membership or first meeting. MAIN reader unchanged; WIKI structured episode is canonical owner.
+- WIKI post-write source reread passed. Exact commit workflow query returned zero runs at inspection; build, preview and production remain pending_verification. BACKROOM consumed SHA unchanged; full 61-pass candidate remainder uncounted. Pass 38 Daya/RotiniLM/Snow screenshot remains visual HOLD.
+
 ## 2026-11-22 09:30 PST — BACKROOM Panda/Eos speaker correction
 
 - Branch-name census: 30 matching active miners, all present in MAIN branch ledger; MAIN census `14e6828cfbb8ca7963f2dc9f26b3c4fc20e79a0a`. Search returned names only, not refreshed HEAD SHAs.
