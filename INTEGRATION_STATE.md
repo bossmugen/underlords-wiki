@@ -1,3 +1,11 @@
+## 2026-11-22 04:30 PST — BACKROOM Roach/roachy/roachable vocabulary
+
+- Full MAIN REST census: 137 branches, 30 active miners, zero new or advanced HEADs. Persisted first in MAIN commit `814cdfdff2e2410a281ca48eb42ef0d38a53c6de`.
+- Direct BACKROOM source: `archive-miner/backroom-deals-2026-08-24` HEAD `9c143a7c146af4fc90de4b258bee1c848a2818a0`, `archive-intake/chat-2026-08-24-backroom-batch-miner/checkpoint.md` read first; `site-candidates.md` Pass 1 and `receipts.md` inspected. Receipts: 799355381540192266, 874104057244033024, 874106117586812938, 874839397281968138, 874839536767750224, 874839632334954547, 890757214166483025.
+- WIKI reader `src/data/integrator-episodes.ts` new `roach-roachy-roachable-war-room-2021`, commit `9a318d633dedb38832416123fb687921871b63e4`. Post-write source reread PASS. Strong contextual vocabulary trajectory preserved; no absolute-origin claim. MAIN Snow page already contains the separate Spank Mugs Booty detail, so no duplication of that candidate. No MAIN reader edit this run.
+- Exact WIKI build and preview runs `45022532760` and `45022532739` QUEUED at inspection; production UNVERIFIED. Keep candidate pending_verification. Previous Fight Club reader `657e81dd` build `45017433254` SUCCESS, descendant `475a4946` build `45017439810` and preview `45017439822` SUCCESS; exact custom-domain fingerprint unverified.
+- Club-Only 2021–2026 checkpoint read for recovery; later-message retrieval gap persists. BACKROOM full 61-pass A/B remainder still uncounted. Do not advance BACKROOM consumed SHA beyond `68d2fba7adda1f110a9be57013dd7712c450f82d` pending inventory and verified publication. Visual media and War Room 2022–2023 retrieval gap held.
+
 ## 2026-11-22 03:30 PST — BACKROOM Fight Club Anthos/Sota callback
 
 - MAIN branch-name census returned 30 matching active miner branches; persisted on master commit `dd033d87984cae16a0da07f0c92788a704aab9eb`. Current HEAD SHAs were not independently refreshed, so no advanced-HEAD claim is made.
