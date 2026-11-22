@@ -1,3 +1,9 @@
+## 2026-11-22 12:55 PST — Tae/Ren Photo publication verification
+
+- Source `archive-miner-photo-submissions-2021` / `site-candidate-2026-08-25-1145-waltz-participants-as-partners.md`, receipts `865078249850929162` and `900770811525361705`. MAIN Tae person-first reader `af2f3b30` passed exact-commit Cloudflare production workflow `45064056223`, job `137336146188` with `Verify, build, deploy, and confirm live commit` SUCCESS.
+- WIKI `src/data/dossier-snapshots/tae.md` reader `cc69c1cd` passed Astro build `45064069816`; its exact preview `45064069890` cancelled due to supersession. Descendant integration-state commit `e205f710` passed build `45064096963` and Pages preview `45064096938` (deploy job SUCCESS). Custom-domain live fingerprint not independently verified. Existing Tae/Ren claim preserved without duplication.
+- Photo Submissions consumed through `d45d441f` but `pending_publication` remains. No new miner intake consumed. MAIN census `6f5407a6` checked 137 branches, 30 miner HEADs, no new/advanced branches. Club-Only recovery checkpoint inspected; later-year retrieval gap persists. Remaining distinct Photo A/B candidates not yet certified; image authorship and missing reply parents remain held.
+
 ## 2026-11-22 11:30 PST — BACKROOM Pass 38 DeathBloom lobby-to-WALTZ handoff
 
 - Read BACKROOM checkpoint then Passes 36–38 site candidates and Pass 38 receipts directly from `archive-miner/backroom-deals-2026-08-24`. Pass 36 shame-ranking already represented in MAIN Panda and WIKI episode; Pass 37 Snow bush and Aeshleen lobby/gogb already represented in MAIN. Pass 38 Panda lychee already in MAIN. No duplicate publication.
