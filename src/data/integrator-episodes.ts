@@ -780,4 +780,13 @@ export const integratedEpisodes: Episode[] = [
     cast: ["Snow", "Mugen", "Illien"]
   },
 
+  {
+    id: "snow-facebook-meme-taste-2020",
+    title: "Ansun Diagnosed Snow with Parent Facebook Humour",
+    season: "2020",
+    date: "August 27, 2020",
+    kind: "Wall / teasing / Old Man Snow prehistory",
+    logline: "Before 'old man Snow' became an explicit birthday prosecution, Ansun was already putting his meme taste on trial: 'parent's facebook humour and stock images'. Ansun doubled down that the example looked like Facebook material; Snow's entire defense was 'FINE'. The exchange is an early recognizable age-flavored roast, not proof that it originated the later nickname. Wall receipts 748575587022536726, 748575666202476615, 748575770275741727. The underlying image has not been inspected."
+  },
+
 ]; 
