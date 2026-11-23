@@ -1,3 +1,11 @@
+## 2026-11-23 02:04 PST — PHOTO Dora DUSK follow-up (pending verification)
+
+- Photo miner `archive-miner-photo-submissions-2021` HEAD `d45d441feca0110e9495f49b13df9666982bb45c`; source `archive-intake/photo-submissions-2021-visual-contest-2026-08-19-1845-pdt/site-candidate-2026-08-26-0245-dora-sentence-overlay-repair.md`, messages `872536647093338212`, `872536796846768199`, later attachment post `872636046922379324` / attachment `872636046653947944`.
+- WIKI reader `src/data/dossier-snapshots/dora.md` commit `683abb3482df1f385319dc42a6c25dfbfa9ae877` adds the same-day DUSK attachment as an episode and media note. The missing parent `872535327926009928` prevents claiming it was a corrected resubmission; image maker/captor/featured remain unresolved.
+- MAIN Dora person-first biography and Ren biography already cover the gentle sentence-overlay repair, so no duplicated MAIN reader text.
+- Exact WIKI build run `45152631029` and preview `45152631067` were in progress at last check; publication **pending verification**, not certified. Independent WIKI custom-domain live fingerprint remains unverified.
+- Full REST census: 137 branches, 30 active miners, zero advanced/new; MAIN census commit `b3d22c030d9bd1968e684ad7d8babbcac1493c6f`. Club-Only recovery checkpoint read, later-year retrieval gap persists. Photo consumed SHA unchanged; 28 named candidates previously classified, full incident-level A/B remainder not certified. No other consumption advanced.
+
 ## 2026-11-22 23:25 PST — BACKROOM Snow event verification
 
 - Full MAIN REST census: 137 remote branches, 30 active miners, no changed HEADs; MAIN census commit `798c2415b8ba9c3369554662164c6d7fd8aaf7f8`.
