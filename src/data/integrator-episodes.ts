@@ -947,4 +947,14 @@ export const integratedEpisodes: Episode[] = [
     cast: ["Snow", "Ansun", "Rooks", "Cookie", "Rich"]
   },
 
+  {
+    id: "spank-mugs-booty-defend-boss-2020",
+    title: "Snow Scheduled Spank Mugs Booty. The Bot Took It Seriously.",
+    season: "2020–2025",
+    date: "September 22, 2020 – 2025",
+    kind: "Saber Control / Defend Boss / recurring bot gag",
+    logline: "Snow was trying to get a weekly Saturday Dragon Raja event onto the calendar, and naturally called it 'Spank Mugs Booty'. Saber accepted the assignment as event m1k2w9 (757993679255240704; 757993679792111766). October 17 and 24, 2020 Saber/Sota announcements connect the recurring event to Defend Boss, not a literal spanking session. Sye and Gabu later handled the same scheduled object, and its ridiculous name survived into 2025 bot announcements (772903199639601152; 837109365457682432; 952194192162033685; 1355719467455479971). The funny part is the maintenance: a throwaway joke became infrastructure that other people had to keep running. Snow created the schedule; later maintenance is not automatically his work.",
+    cast: ["Snow", "Mugen", "Sye", "Gabu", "Sota"]
+  },
+
 ];
