@@ -1,3 +1,9 @@
+## 2026-11-22 21:25 PST — BACKROOM Sewer Ten verification recovery
+
+- MAIN fresh REST census: 137 remote branches, 30 active miners, zero HEAD advances/missing entries. Census commit `8a7ce95be6a42274ec0b91b4cae30eb2368368c1`.
+- BACKROOM source `archive-miner/backroom-deals-2026-08-24` checkpoint reread; Club-Only 2021–2026 checkpoint reread. WIKI Sewer Ten reader commit `f67f9458177a0a0ccf215f8d77cd507eac91cb8c` exact-head **Build Underlords Wiki** run `45112037303` SUCCESS and **Deploy Underlords Wiki Preview** run `45112037157` SUCCESS. This clears reader build/preview verification, **not** independent custom-domain live certification.
+- MAIN BACKROOM candidate inventory updated at `cb020bcb5cf503c9f6b4423daee2fbc39bfd2a50`; accepted A/B remainder across 61 passes still uncounted. BACKROOM HEAD `9c143a7c146af4fc90de4b258bee1c848a2818a0`, consumed `68d2fba7adda1f110a9be57013dd7712c450f82d` unchanged. No new reader edit; uninspected images, Rich/Ricochet attribution, private officer material and Moments transfer mechanism remain held.
+
 ## 2026-11-22 18:35 PST — AUGUST reunion breaststroke callback (MAIN-only)
 
 - Fresh MAIN REST census: 137 remote branches, 30 active miners, all HEADs unchanged; MAIN census commit `c1514236d79a5e220f315dce6b03d63c0628bce5`. August Reunion, Main HQ, Club-Only recovery checkpoints read directly from miner branches. Additional rotating review remains outstanding.
