@@ -2,6 +2,15 @@ import type { Episode } from "./wiki";
 
 export const integratedEpisodes: Episode[] = [
   {
+    id: "sewer-ten-photoshoot-morning-2021",
+    title: "The Server Ten Poster Became Sewer Ten Before Breakfast.",
+    season: "2021",
+    date: "January 14, 2021",
+    kind: "Photoshoot / poster production / typo pile / contest administration",
+    logline: "The morning began with an ordinary poster-placement problem: where to put 'Server 10' (799298612009369620). By 7:55 the room had turned it into 'Sewer Ten', DumberLords, Unerlords and underwearlords, while the LOVE theme mutated into 'Ménage à Alabama', a divorce party and 'Alabamour' (799299656525938708, 799302512766746625, 799305288981151744, 799305737062187029). Then the actual contest administration came due: Mugen, still in bed, realized she could not remember who was supposed to receive which reward (799306348461293589, 799306447850045502). The typo avalanche was real work happening alongside real nonsense. 'Speeling Bee' and Alabama jokes predated this morning; neither originated here. The finished poster and any alleged visual mistake are not established by these text messages.",
+    cast: ["Mugen", "Anthos", "Gilli", "Ansun"]
+  },
+  {
     id: "suzi-voice-expectation-2020",
     title: "Ren Had Invented a Different Suzi in Her Head.",
     season: "2020",
