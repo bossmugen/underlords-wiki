@@ -38,6 +38,13 @@ claims:
       - label: "☕ QOTD · DyingFox handle explanation"
         href: "/channels/qotd"
     note: "Direct self-explanation, message 1070739944378736680; exact prompt was not recovered."
+  - text: "On January 14, 2022, DyingFox reported being told they smelled like strawberries."
+    evidence: "archive-confirmed"
+    date: "2022-01-14"
+    sources:
+      - label: "☕ QOTD · DyingFox strawberry aside"
+        href: "/channels/qotd"
+    note: "Message 931585843297144872. DyingFox reported somebody else's impression; no scent, product, or habitual fragrance is independently established."
   - text: "DyingFox called themself passionate about sleeping, liked peanut butter on waffles, berry-and-cream crepes and syrup-and-bacon pancakes, and considered flannel an upgrade from sweatshirt-and-pants everyday wear."
     evidence: "archive-confirmed"
     date: "2022-01-27 – 2022-03-30"
@@ -139,7 +146,7 @@ On October 8, 2020, the Stripclub Bouncer welcomed DyingFox to the Discord. Snow
 
 **January 26–February 12, 2022 · Gilli, Souta, and the Daycare brat.** Fox asked Gilli `adopt me?`; Gilli replied to that request with an eating GIF and `Done`, followed by a hug. Two days later Fox picked Eevee in a Pokémon hypothetical and named Gilli as trainer for a very specific reason: `food and affection`. By February 12, Fox was thanking Gilli and Souta for `feeding me once a week`. These are recurring jokes and care-language, not literal adoption or a verified meal schedule. The same February answer supplies Fox's own arrival story: Aether had died off, they initially ignored the UL Discord, and then ended up in Daycare `being a brat :)`.
 
-**February 2022–February 2023 · The name and the breakfast tribunal.** Fox's answer about the handle is gloriously practical: foxes are their favorite animal; they keep dying in video games. Elsewhere in QOTD, Fox admits to peanut butter on waffles, berries and cream on crepes, and syrup and bacon on pancakes. Ordinary uniform: sweatshirt and pants, with flannel for occasions requiring an upgrade. Their stated passion? Sleeping. The point isn't to turn these into a résumé; it's that the same person who charges Jordayy snacks for Daycare entry has extremely specific opinions about what counts as breakfast.
+**February 2022–February 2023 · The name and the breakfast tribunal.** Fox's answer about the handle is gloriously practical: foxes are their favorite animal; they keep dying in video games. Elsewhere in QOTD, Fox admits to peanut butter on waffles, berries and cream on crepes, and syrup and bacon on pancakes. Ordinary uniform: sweatshirt and pants, with flannel for occasions requiring an upgrade. Their stated passion? Sleeping. One other answer reports that somebody told Fox they smelled like strawberries — a tiny, secondhand detail, not a perfume endorsement. The point isn't to turn these into a résumé; it's that the same person who charges Jordayy snacks for Daycare entry has extremely specific opinions about what counts as breakfast.
 
 ## Fluent in one emote
 
