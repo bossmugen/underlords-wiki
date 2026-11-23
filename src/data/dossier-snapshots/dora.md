@@ -28,6 +28,12 @@ claims:
     sources:
       - label: "Photo Submissions · 872536647093338212 / 872536796846768199"
         href: "/events/photo-submissions"
+  - text: "Later on August 4, Dora posted a DUSK TIL DAWN attachment after Ren offered the original-picture route. The missing reply parent prevents identifying it as a corrected version of the earlier image."
+    evidence: "archive-confirmed"
+    date: "2021-08-04"
+    sources:
+      - label: "Photo Submissions · 872636046922379324 / 872636046653947944"
+        href: "/events/photo-submissions"
   - text: "On August 22, Dora returned with an attachment-led POPSTAR entry."
     evidence: "archive-confirmed"
     date: "2021-08-22"
@@ -37,7 +43,8 @@ claims:
 antiFanon:
   - "Forsaken is Dora's direct July 2021 club identification, not evidence of UL in-game membership."
   - "Lapis and Dora's WALTZ partnership does not establish romance or when they met."
-  - "The WALTZ and POPSTAR images remain visually uninspected; posting does not establish image authorship or who appears in them."
+  - "The WALTZ, DUSK TIL DAWN, and POPSTAR images remain visually uninspected; posting does not establish image authorship or who appears in them."
+  - "The August 4 later attachment is not proven to be the corrected version; Ren’s referenced parent 872535327926009928 is missing."
 relatedPeople:
   - "lapis"
   - "ren"
@@ -65,6 +72,7 @@ Dora kept showing up. During DUSK TIL DAWN, Ren caught an added sentence that br
 | 2021-07-10 | Dora posts WALTZ entry naming KuroAren as partner |
 | 2021-07-12 | Lapis posts WALTZ entry naming Dora as partner |
 | 2021-08-04 | Ren explains outside-editing rule and offers original-image route |
+| 2021-08-04 | Dora posts a DUSK TIL DAWN attachment later that day; whether it implements Ren’s suggested fix is unknown |
 | 2021-08-22 | Dora posts another entry for POPSTAR |
 
 ## Relationships
@@ -82,6 +90,8 @@ Dora kept showing up. During DUSK TIL DAWN, Ren caught an added sentence that br
 **WALTZ (July 10):** Dora posted a caption naming KuroAren; image capture and authorship unverified. Source: Photo Submissions miner `site-candidates-hourly.md` (Waltz overlap).
 
 **WALTZ (July 12):** posted by Lapis, message `864076757694152724`; attachment `864076757408808980`.
+
+**DUSK TIL DAWN (August 4):** posted by Dora, message `872636046922379324`, attachment `872636046653947944` (`B612_20210805_002922_445.jpg`). Ren’s missing reply parent prevents a before/after comparison. This is a later submission, not a verified corrected version.
 
 **POPSTAR:** posted by Dora, message `879105132304941077`; attachment `879105132099424306`.
 
