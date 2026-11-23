@@ -1,3 +1,9 @@
+## 2026-11-22 22:30 PST — BACKROOM Defend Boss recurring event
+
+- MAIN miner branch-name census: 30 matching remote branches, all present in ledger; SHA values carried from earlier 22:05 exact-HEAD census because branch search returned names only. MAIN census commit `109ed4ce2955659437591a59a7f292e42e4164e8`.
+- BACKROOM direct branch `archive-miner/backroom-deals-2026-08-24`, `checkpoint.md` and `site-candidates.md` Pass 2. Added structured WIKI episode `spank-mugs-booty-defend-boss-2020` in `src/data/integrator-episodes.ts`, commit `ec5ac14983db90230da10b1cf911af91ce2044dd`. Receipt IDs 757993679255240704, 757993679792111766, 772903199639601152, 837109365457682432, 952194192162033685, 1355719467455479971. MAIN Snow biography already describes this event, so no mirrored MAIN reader prose. Source reread passed; GitHub workflow query returned no runs; build/live unverified.
+- MAIN partial BACKROOM inventory updated in `6dfb55abd3a56c76447fa66f95a87027b1d14f28` to 12 candidate rows, full 61-pass A/B remainder still unknown. Club-Only recovery checkpoint inspected; later-year retrieval remains open. No consumed SHA advanced. Private officer material, Rich/Ricochet identity conflict, uninspected images and Moments-transfer mechanics remain held.
+
 ## 2026-11-22 21:25 PST — BACKROOM Sewer Ten verification recovery
 
 - MAIN fresh REST census: 137 remote branches, 30 active miners, zero HEAD advances/missing entries. Census commit `8a7ce95be6a42274ec0b91b4cae30eb2368368c1`.
