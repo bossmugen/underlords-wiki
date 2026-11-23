@@ -1,3 +1,10 @@
+## 2026-11-23 02:57 PST — PHOTO Dora descendant preview verified
+
+- WIKI Dora reader commit `683abb3482df1f385319dc42a6c25dfbfa9ae877` exact build `45152631029` SUCCESS; exact preview `45152631067` CANCELLED due to supersession.
+- Descendant `a63a07eb1e9537fec8a9585fcc9909acd71c973d` is ahead by 2 commits, behind by 0; its build `45157272970` SUCCESS and preview `45157273115` SUCCESS. Dora correction therefore has **descendant build + preview verification**; independent custom-domain/live production remains unverified.
+- Source `site-candidate-2026-08-26-0245-dora-sentence-overlay-repair.md`; messages `872536647093338212`, `872536796846768199`, `872636046922379324`; missing parent `872535327926009928` still prevents a corrected-resubmission claim. MAIN biography already covers the gentle correction; no mirrored reader edit.
+- Fresh MAIN branch census: 137 remote branches, 30 active miner HEADs unchanged, commit `1ce485591b46adf34962751700499408db78790b`; Photo consumed `d45d441f` unchanged; Club-Only later-year retrieval gap persists. Full Photo incident-level publication certification still open.
+
 ## 2026-11-23 02:04 PST — PHOTO Dora DUSK follow-up (pending verification)
 
 - Photo miner `archive-miner-photo-submissions-2021` HEAD `d45d441feca0110e9495f49b13df9666982bb45c`; source `archive-intake/photo-submissions-2021-visual-contest-2026-08-19-1845-pdt/site-candidate-2026-08-26-0245-dora-sentence-overlay-repair.md`, messages `872536647093338212`, `872536796846768199`, later attachment post `872636046922379324` / attachment `872636046653947944`.
