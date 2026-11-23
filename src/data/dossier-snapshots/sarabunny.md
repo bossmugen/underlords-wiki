@@ -16,7 +16,7 @@ claims:
       - label: "Lobby · May 25, 2021"
         href: "/channels/lobby"
     note: "Discord processing does not establish in-game admission date."
-  - text: "SaraBunny asked about Photoshoot submission limits on June 4, 2021, and posted an attachment to Photo Submissions on June 6."
+  - text: "SaraBunny asked about Photoshoot submission limits on June 4, 2021, and posted an uncaptioned attachment during the BEACH Photoshoot round on June 6."
     evidence: "archive-confirmed"
     date: "2021-06-04 – 2021-06-06"
     sources:
@@ -90,7 +90,7 @@ A 2021 UL regular whose visible trail runs from ordinary Discord logistics and P
 | Date | Scene | Reference |
 | --- | --- | --- |
 | 2021-05-25 | Discord check-in as an already self-identified Underlords club member | Lobby |
-| 2021-06-04–07 | Photoshoot logistics, submission, and brief absence notice | Club Only / Photo Submissions |
+| 2021-06-04–07 | Asked about submission limits, entered the BEACH round without a caption, then gave a brief absence notice | Club Only / BEACH Photo Submissions |
 | 2021-07-09 | The `brr` hearing | Club Only |
 | 2026-08-14 | Mugen's `BUNNY` greeting and Sara's `my loves` reply | August Reunion Run 18 |
 | 2026-08-18 | `underlords family` return and Gilli's recognition | Whiskey Room |
@@ -107,4 +107,4 @@ The July 2021 `brr` question and the late-summer `moo` messages are small person
 
 ## Gallery / media notes
 
-Sara posted a June 6, 2021 Photoshoot attachment. Its visual contents, maker, photographer, and featured subjects have not been established; no image is reproduced here.
+Sara posted the uncaptioned June 6, 2021 BEACH Photoshoot attachment (message `851192835176136755`; cached asset `image0-5f55ecb8554be43f.png`). Its visual contents, maker, photographer, and featured subjects have not been established; no image is reproduced here.
