@@ -1,3 +1,9 @@
+## 2026-11-22 23:25 PST — BACKROOM Snow event verification
+
+- Full MAIN REST census: 137 remote branches, 30 active miners, no changed HEADs; MAIN census commit `798c2415b8ba9c3369554662164c6d7fd8aaf7f8`.
+- BACKROOM Pass 2 `Spank Mugs Booty` WIKI episode reader commit `ec5ac14983db90230da10b1cf911af91ce2044dd`: exact reader build `45124324376` SUCCESS; exact reader preview `45124324391` CANCELLED due to supersession. Descendant WIKI main `8ef21a6c3a1f714b8ebf64a04dc348e77bad64fc` includes the episode and passed build `45124352607` and preview `45124352428`. **Descendant-preview verified, not exact-reader preview or independent custom-domain production certified.**
+- MAIN BACKROOM partial inventory updated in `d84daf63d328335df5155fd3ebea6fe331bc16a8`. No new reader change, no consumed SHA advanced. Full 61-pass accepted A/B remainder uncounted. Club-Only later-message retrieval, media, private officer and Rich/Ricochet holds persist.
+
 ## 2026-11-22 22:30 PST — BACKROOM Defend Boss recurring event
 
 - MAIN miner branch-name census: 30 matching remote branches, all present in ledger; SHA values carried from earlier 22:05 exact-HEAD census because branch search returned names only. MAIN census commit `109ed4ce2955659437591a59a7f292e42e4164e8`.
