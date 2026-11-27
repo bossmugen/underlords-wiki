@@ -217,6 +217,14 @@ claims:
       - label: "Announcements · WALTZ announcement · 862299611249770507"
         href: "/channels/announcements"
     note: "SAID BY Mugen (684998869553381424). The message was edited at 04:53:11 PDT; only the final body survives. This dates the direct reference, not channel creation or origin."
+  - text: "On December 10, 2020, Mugen announced that Underlords was planning a Dragon Raja Photoshoot Contest for January and said they would consider opening earlier if enough people were interested; on December 30 she posted the five-day countdown and linked the rules channel."
+    evidence: "archive-confirmed"
+    date: "2020-12-10 – 2020-12-30"
+    sources:
+      - label: "Announcements · Photoshoot Contest planning / countdown"
+        href: "/channels/announcements"
+    note: "The planning and countdown are Mugen's; the January 4 poster pitch and January 9 very-first-Photoshoot-Contest wording are Anthos's separate messages. This dates the surviving public trail, not the private origin of the idea."
+
 relatedPeople:
   - "dean"
   - "key"
@@ -508,7 +516,7 @@ Eventually: do not let the archive lose the person because it happened to rememb
 
 Mugen has taste, and the taste is not clean prestige.
 
-She says she dressed **Decora** in high school. Dragon Raja gives us **LadyMugen**, an older self-presentation that can later become cringe material once enough years pass. Photo Submissions gives her official **Mafia** and **Popstar** personas. UL iconography leans into neon, kisses, `xoxo`, animated affection, camp figures blowing kisses, mafia language, and **neighborhood-friendly mafia**.
+She says she dressed **Decora** in high school. Dragon Raja gives us **LadyMugen**, an older self-presentation that can later become cringe material once enough years pass. Photo Submissions gives her official **Mafia** and **Popstar** personas. Before either persona existed, Mugen had helped launch the contest itself: she floated a January 2021 Dragon Raja Photoshoot Contest in December, with an earlier opening left open if enough people were interested. Anthos later supplied the poster pitch and rules push. The full launch sequence is indexed in the Photoshoot Contest Episode. UL iconography leans into neon, kisses, `xoxo`, animated affection, camp figures blowing kisses, mafia language, and **neighborhood-friendly mafia**.
 
 Mafia closing day also caught her on the wrong side of the upload button: **`i posted the wrong photo ;w;`**. The Boss was not exempt from her own contest's error pile.
 
