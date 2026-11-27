@@ -957,4 +957,22 @@ export const integratedEpisodes: Episode[] = [
     cast: ["Snow", "Mugen", "Sye", "Gabu", "Sota"]
   },
 
+  {
+    id: "fish-revolution-fishjail-2021",
+    title: "Snow Threatened Fishjail. Ren Started a Revolution.",
+    season: "2021",
+    date: "February 17, 2021",
+    kind: "Club Only / SunFish emoji outbreak / fishjail",
+    logline: "A SunFish emoji outbreak turns into a ten-minute jurisdiction crisis. Snow threatens `fishjail`; Zoshaa answers `COME AT ME OLD MAN`; Gabu narrates `Fish 1 and fish 2 are typing`; Ren tells the room to `Join the fish revolution`. Snow then says he is watching a Chinese drama and everyone should leave a message at the fish pond, before returning to tell the fish cultists to fix their own fish. The revolution has no real jail or jurisdiction beyond the bit; its original prosecutor abandons the case to watch television.",
+    cast: ["Snow", "Zoshaa", "Gabu", "Ren", "ACORYUIE"]
+  },
+  {
+    id: "nitro-gift-drop-manual-typing-2022",
+    title: "Gilli Made a Nitro Drop Into a Typing Race.",
+    season: "2022",
+    date: "October 5 – November 7, 2022",
+    kind: "Club Only / Nitro gifts / moving-card manual entry",
+    logline: "Gilli posts an animated Underlords Nitro card instead of a plain link. Torrent claims the first; Gilli calls it `He sniped that shet`. When Rummy tries to clip the GIF, Gilli explains the mechanic: `You gotta type it in Rummy`, `You gotta work for it LMAO`—a direct link would be one click and nobody else would have a chance. The manual-entry game returns in November, when Syv says `*snatched*`. The GIFs were posted by Gilli; the maker remains unresolved.",
+    cast: ["Gilli", "Torrent", "Rummy", "Syv"]
+  },
 ];
