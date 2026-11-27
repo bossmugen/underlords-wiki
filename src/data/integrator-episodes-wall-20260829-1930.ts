@@ -75,12 +75,12 @@ export const wall1930Episodes: Episode[] = [
   },
   {
     id: "eos-first-fame-proposal",
-    title: "Eos's First Fame Moment Was a Proposal",
-    season: "2021",
-    date: "September 22, 2021 → May 14, 2022",
-    kind: "Wall relationship callback / participant memory resolves Fame to a proposal and the proposal joke keeps reproducing",
-    logline: "While the room is trying to remember whether the Fame half of Shame/Fame ever actually got used, Panda — posting under the historical display `Marian Kage` — supplies the missing noun: `when i posted eos' proposal to me`. Gilli immediately concludes `That means Eos was our first Fame moment`; Panda says it `should get an award for that`. The important boundary is memory, not archaeology — this tells us what the room later remembered as Eos's first Fame moment, not that no earlier positive filing existed. Then May 2022 proves the proposal language was not a one-off: Panda posts an image and asks Eos `WILL YOU MARRY ME????` with the parenthetical `for like the 20th time`. The number is comic exaggeration, but the recurrence is the joke's actual payload. Keep this as recurring fake-proposal / marriage-language between Panda and Eos; it does not establish a real engagement, legal marriage, exclusivity, sexuality, or other real-world relationship status.",
-    cast: ["Panda", "Eos", "Gilli"]
+    title: "Eos Gets the First Fame Moment",
+    season: "2021–2022",
+    date: "May 26, 2021 → May 14, 2022",
+    kind: "Wall relationship callback / proposal remembered as Fame, then Han files an ordinary workday as a win",
+    logline: "Before the retrospective, Panda was already trying to get Eos onto the Wall: on May 26 he wrote `even if i have to shame myself while doing it, i\'m getting eos on this wall`; Eos answered `im gonna strangle you`. On September 22, Han asked when the Wall last had a FAME moment. Panda — posting under the historical display `Marian Kage` — answered `when i posted eos\' proposal to me`; Gilli called Eos `our first Fame moment`, and Panda said it `should get an award for that`. Han then filed his own FAME moment: `I have a FAME moment rn` / `I survived another day at work`. The positive side of the Wall could hold both a proposal the room remembered fondly and the ordinary victory of getting through a workday. The retrospective does not date the original proposal post or prove that no earlier positive filing existed. In May 2022, Panda asked Eos `WILL YOU MARRY ME????` with `for like the 20th time`; the number is comic exaggeration, and the recurring proposal language is the joke, not a real-world engagement or marriage.",
+    cast: ["Panda", "Eos", "Han", "Gilli"]
   },
   {
     id: "drink-water-reminder-fails-audit",
