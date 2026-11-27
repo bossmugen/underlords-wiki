@@ -43,6 +43,7 @@ import { applyRun1604LateCast } from "./cast-run1604-late";
 import { applyRun1605IntegratorCast } from "./cast-run1605-integrator";
 import { applyRun1608IntegratorCast } from "./cast-run1608-integrator";
 import { applyRun1609IntegratorCast } from "./cast-run1609-integrator";
+import { applyRun1610PhotoSubmissionsCast } from "./cast-run1610-photo-submissions";
 import type { Character } from "./wiki";
 export type { CastGroup } from "./cast-through-run1514";
 
@@ -89,6 +90,7 @@ applyRun1604LateCast(allCharacters);
 applyRun1605IntegratorCast(allCharacters, previousGroups);
 applyRun1608IntegratorCast(allCharacters);
 applyRun1609IntegratorCast(allCharacters);
+applyRun1610PhotoSubmissionsCast(allCharacters, previousGroups);
 
 export const castGroups = previousGroups;
 export const characterById = new Map(allCharacters.map((character) => [character.id, character]));
