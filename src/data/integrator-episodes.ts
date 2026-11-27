@@ -1047,4 +1047,13 @@ export const integratedEpisodes: Episode[] = [
     logline: "After an opening question about ochem (899871070763483146), Syv explains that the class needs a whole day to review its badly graded tests (899871230910419024), then reports a C (899871399961837628) and, six seconds later, decides `I’m counting that as a pass` (899871424544645151). Nine seconds after that she admits she expected significantly worse (899871463203561503). The thread closes on `Your mom probably wont` and a Raja cat-eating emote (899871581248061502). One bad-test conversation, one quick recalculation, and no claim about Syv’s overall academic record.",
     cast: ["Syv"]
   },
+  {
+    id: "eos-louisiana-fake-la-2021",
+    title: "Louisiana Was Briefly Repealed. Marian Called It Fake LA.",
+    season: "2021",
+    date: "September 16, 2021",
+    kind: "Wall / geography misunderstanding / one-scene exchange",
+    logline: "Marian complains that a west-coast drive has been for nothing. Eos insists the answer was Louisiana; Ansun admits he had thought Eos was in Colorado. Eos abandons the defense and declares `louisiana aint even a state`, then `49 states of america`. Marian finishes with `fuck Louisiana. fuckin fake LA`. The room does not repair the map.",
+    cast: ["Eos", "Marian Kage", "Ansun"]
+  },
 ];
