@@ -140,6 +140,15 @@ claims:
     date: "2024-04-07 – 2024-04-08"
     sources:
       - label: "Recovered Poster Dump receipt"
+  - text: "On November 4, 2020, Gilli recalled Ana leaving Snow naked in bushes; Pride/neffiegames replied `i have picture`, and Zoshaa later referred to the remembered Snow episode as `raining nude bush hours`."
+    evidence: "inferred"
+    date: "2020-11-04"
+    sources:
+      - label: "Wall · 773639722797891624 / 773639756390203404 / 773641063256424498"
+        href: "/channels/wall"
+      - label: "Club Only · Ana nickname bridge · 754138916931502080 / 754138929997021226 / 754138974221631518"
+        href: "/channels/club-only"
+    note: "The local nickname bridge supports Ana → Anayss in this context. The original incident and referenced picture remain unresolved; this claim preserves the retelling, not missing scene mechanics or image provenance."
 antiFanon:
   - "The September 2020 Gabu / Anayss mutual-confusion scene does not date either person's current Underboss appointment. Their two Deputy seats are present-day user-confirmed canon; the old scene is ensemble history, not a promotion record."
   - "The September 28, 2020 `I lag when using the map >.>` scene is about Dragon Raja's in-game map. The later Lobby `server map` is UL's Discord Tour. The joke is the character contrast; they are not the same map, feature, or system."
@@ -156,6 +165,7 @@ relatedPeople:
   - "gabu"
   - "noether"
   - "wolfphenix"
+  - "snow"
 tags:
   - "underboss"
   - "officer"
@@ -199,6 +209,16 @@ Ana draws, too. She worked on a group chibi featuring UL people, experimented wi
 She also helped post example images for the COLORS Photoshoot before submissions opened, alongside Ansun, Gilli, and Ren. She was part of the group giving other people something to work from. The images' creation and capture credits are separate questions, but the act of showing up to help set the mood was hers.
 
 Her friendships resist tidy labels. The old house map called her Gabu's `boyfriend`, which belonged to UL's fake-relationship nonsense, not a literal dating record. Gabu was also the person who watched Ana's coffee requests disintegrate into typos and responded with the far more responsible `maam drink water too`. They could be mutually confused, mutually ridiculous, and still look out for each other.
+
+## Relationships
+
+**Snow:** Anayss had already said she was used to his Wall-bait by October 2020. The November throwback adds a much less dignified shared story: Gilli remembered Ana leaving Snow naked in the bushes, Pride replied that they had a picture, and Zoshaa supplied the name `raining nude bush hours`. The two have a long-running familiarity with a very strange filing cabinet.
+
+## Episodes
+
+| Date | Episode | Cast / reference |
+| --- | --- | --- |
+| November 4, 2020 | [Raining Nude Bush Hours](/episodes/raining-nude-bush-hours-retelling) | Snow, Anayss, Gilli, Pride, Zoshaa; Gilli's recollection and Zoshaa's callback, original scene unresolved |
 
 ## Petty Crimes
 
