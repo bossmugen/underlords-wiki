@@ -61,6 +61,13 @@ claims:
     sources:
       - label: "QOTD · Who is Mugen to you?"
         href: "/channels/qotd"
+  - text: "For UL's fifth anniversary on April 20, 2025, Mugen used QOTD to ask what had changed in members' lives since the founding and how they had grown; replies ranged across school, work, homeownership, anxiety, driving, moves, travel, savings, future plans, and returning hobbies."
+    evidence: "archive-confirmed"
+    date: "2025-04-20"
+    sources:
+      - label: "QOTD · fifth-anniversary growth prompt"
+        href: "/channels/qotd"
+    note: "Responses are summarized collectively; no individual life update is assigned to an unnamed respondent."
   - text: "The archive repeatedly preserves Mugen as an exhausted working adult as well as Boss: Gilli says she is probably asleep, Mugen posts an old photo captioned `lying ded on floor after work`, and in 2023 she returns from a short nap to fresh UL nonsense."
     evidence: "archive-confirmed"
     date: "2020–2023"
@@ -326,15 +333,17 @@ Drifter. Perspective. Gameplan. Dork. Hype. Planner.
 
 That sounds much more like Mugs.
 
+Five years in, she used the daily question to ask what had changed in people's lives since UL began and how they had grown. The replies moved through school, work, homeownership, anxiety, driving, moves, travel, savings, future plans, and hobbies coming back. It was a different kind of introduction: not who somebody is, but what the years had done to them while she knew them.
+
 ## Apparently she was scary
 
 She was.
 
-QOTD first-impression threads preserve a remarkably consistent arc: Mugen reads as intimidating, adult, leader-like, somebody who can absolutely **lay down the hammer**. Then people know her longer and the description mutates toward kind, soft, goofy.
+People who met Mugen cold often found her intimidating: adult, leader-like, entirely capable of **laying down the hammer**. The longer they knew her, the more the description picked up kind, soft, goofy.
 
 The second half does not cancel the first.
 
-That is exactly why the archive works better when it does not sand Mugen into Generic Caring Internet Mom. The warmth lands because the sharper version is still in the room. People can know that she is capable of making a decision stick and also know that she may lose the next argument to a nap, a typo, a hot mic, or her own terrible display name.
+She is not Generic Caring Internet Mom. The warmth lands because the sharper version is still in the room. People can know that she is capable of making a decision stick and also know that she may lose the next argument to a nap, a typo, a hot mic, or her own terrible display name.
 
 Woosung gives one of the best views from the other side. Woo describes Mugen as a close friend, an older-sister-like guide, a grown-up version of herself, and somebody she can talk to about anything. That is an independent friendship, not romance residue: Woo is the female cousin of Mugen's ex.
 
