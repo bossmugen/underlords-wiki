@@ -990,7 +990,7 @@ export const integratedEpisodes: Episode[] = [
     season: "2021",
     date: "August 19, 2021",
     kind: "Wall / social theory / communal joke",
-    logline: "Scar opens with \`Also Gilli must have some harem here\`. Gilli denies it in full caps; Scar answers \`Why not you?\`. Ansun backs the joke with \`youre right\`, the room takes the premise for a lap, and Scar returns later with \`I knew it all time\`. The fun is the room's willingness to prosecute a nonsense theory together, not a real relationship map.",
+    logline: "Scar opens with `Also Gilli must have some harem here`. Gilli denies it in full caps; Scar answers `Why not you?`. Ansun backs the joke with `youre right`, the room takes the premise for a lap, and Scar returns later with `I knew it all time`. The fun is the room's willingness to prosecute a nonsense theory together, not a real relationship map.",
     cast: ["Scar", "Gilli", "Ansun"]
   },
 ];
