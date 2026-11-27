@@ -671,7 +671,7 @@ export const integratedEpisodes: Episode[] = [
     season: "2023",
     date: "March 13, 2023",
     kind: "Wall of Shame/Fame / screenshot reaction / escape routine",
-    logline: "DarkAsrai posted a second screenshot (1085040579844505671), then tagged Rummy (1085040918782038137). Rummy answered in four quick bursts: `NAAUUUUUURRR` (1085040947785650206), `IJAIOFSAOISAFDOA` (1085040956719513712), `LOOOK AWAY-` (1085040965640794184), and an anime run/fall Tenor GIF (1085041019181084763). The screenshot remains uninspected; the episode is Rummy's exit routine, not the unseen content. A separate earlier screenshot is not merged into this sequence.",
+    logline: "DarkAsrai posted a second screenshot (1085040579844505671), then tagged Rummy (1085040918782038137). Rummy answered in four quick bursts: `NAAUUUUUURRR` (1085040947785650206), `IJAIOFSAOISAFDOA` (1085040956719513712), `LOOOK AWAY-` (1085040965640794184), and an anime run/fall Tenor GIF (1085041019181084763). The screenshot remains uninspected; the episode is Rummy's exit routine, not the unseen content.",
     cast: ["DarkAsrai", "Rummy"]
   },
   {
