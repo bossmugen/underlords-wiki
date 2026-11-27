@@ -107,6 +107,13 @@ claims:
       - label: "Complete QOTD archive · people index"
         href: "/archive/qotd"
     note: "The intake records a recurring participation pattern without enumerating individual message IDs; no single answer is quoted."
+  - text: "On August 5, 2026, during Mugen's favorite-UL-memory prompt, Oyasumi named Gabu as the person who `knows all the answers`; Mugen remembered the daily activity the group had followed Gabu through for four years, and Gabu returned the next morning saying she had been proud of her memory."
+    evidence: "archive-confirmed"
+    date: "2026-08-05 – 2026-08-06"
+    sources:
+      - label: "QOTD · favorite-memory thread and follow-up"
+        href: "/channels/question-of-the-day"
+    note: "The handoff does not enumerate individual message IDs; the game/event remains unnamed."
   - text: "In a 2026 QOTD self-report, Oyasumi said reading and gaming had fallen off because of time, while coding had become a newer skill/hobby, “not really by choice.”"
     evidence: "archive-confirmed"
     date: "2026"
@@ -132,6 +139,7 @@ relatedPeople:
   - "kiro"
   - "rummy"
   - "ren"
+  - "gabu"
 tags:
   - "consigliere"
   - "officer"
@@ -200,6 +208,7 @@ Oyasumi kept one very specific complaint form on speed dial. The cat gets flashb
 
 - **2023:** Oyasumi was a frequent Staff/VIP participant in QOTD. He helped keep the daily prompt routine moving without needing to be the person who wrote the question.
 - **2026:** A QOTD self-report says reading and gaming had fallen away because of time; coding had become a newer skill/hobby, “not really by choice.”
+- **August 2026:** During Mugen's favorite-memory prompt, Oyasumi points to Gabu as the one who **`knows all the answers`**. Mugen remembers the four-year daily routine the group navigated by following her; Gabu returns the next morning and admits she had been proud of her memory. Oyasumi supplies the name; the room supplies the years.
 
 ## 2026 — THE HOUSE STILL RECOGNIZES HIM WELL ENOUGH TO REJECT NORMALCY
 
