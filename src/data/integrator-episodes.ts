@@ -1010,4 +1010,5 @@ export const integratedEpisodes: Episode[] = [
     kind: "Wall / school / one-scene exchange",
     logline: "After a question about ochem, Syv explains that the class needs a whole day to review its badly graded tests (899871230910419024), then reports a C (899871399961837628) and, six seconds later, decides `I’m counting that as a pass` (899871424544645151). Nine seconds after that she admits she expected significantly worse (899871463203561503). The exchange ends with a parental-standard joke (899871581248061502). One bad-test conversation, one quick recalculation, and no claim about Syv’s overall academic record; the other speakers remain unattributed pending stable-ID reconciliation.",
     cast: ["Syv"]
+  },
 ];
