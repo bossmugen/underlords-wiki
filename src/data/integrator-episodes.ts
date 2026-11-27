@@ -467,6 +467,15 @@ export const integratedEpisodes: Episode[] = [
     cast: ["dora", "KuroAren", "Lapis"]
   },
   {
+    id: "stalker-photoshoot-round-open-extension-close-2021",
+    title: "STALKER Ran. The Calendar Needed an Extension.",
+    season: "2021",
+    date: "June 14–28, 2021",
+    kind: "Photoshoot / contest schedule / deadline extension",
+    logline: "Anthos opened the June Theme STALKER round on June 14 with submissions due June 20, judging June 21–26, and results scheduled for June 27 (854029437342056510). Gabu reminded members on June 16 (854893809279696946); Ren posted an attachment-led entry on June 17 (855156130196226098; the image remains uninspected). On June 23 Anthos extended submissions to June 27 and repeated the extension June 25 (857259372921356288, 858122491682750494). She called the final day on June 27 (858794516618149937), then formally closed submissions June 28 and moved the results date to July 1 (859080523488690176). The round ran; the original calendar did not. These receipts establish the close and revised result date, not the eventual winner or why the deadline moved. Ren's attachment establishes a post, not who made, captured, or appears in the image.",
+    cast: ["Anthos", "Gabu", "Ren"]
+  },
+  {
     id: "anthos-flowers-stalker-opening-routine-2021",
     title: "Anthos Has the Pictures. The Doors Are Open.",
     season: "2021",
