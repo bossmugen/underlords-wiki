@@ -1,3 +1,14 @@
+## 2026-11-26 Run11 — Main HQ visible-bomb failure (WIKI-only reader)
+
+- Source branch: `archive-miner/main-hq-hourly`, HEAD / consumed SHA `e172df0641d6fa9c9d47a2bec6ff40c1aee0fb3c` (no cursor advance).
+- Source handoff: `archive-intake/main-hq-2022-2026-tail-20260819/site-candidates-2026-08-25-1145.md`, section **Game disaster — Keep Talking and Nobody Explodes**; receipt handoff `receipt-delta-2026-08-25-1145.md`.
+- Exact receipts used: `756596132821598218`, `756596157819519018`, `756596158134091806`, `756596174508654734`, `756597956366303352`, `756597970316689539`, `756598016869400746`, `756621608634023987`, `756621649826021417`.
+- WIKI reader: `src/data/integrator-episodes-20261126-keep-talking.ts`, episode `keep-talking-nobody-explodes-visible-bomb-2020`, commit `54cd34c3e1687a8b7d26cadf69306934bd60fc0d`.
+- Exact reader build: [run 45951177505](https://github.com/bossmugen/underlords-wiki/actions/runs/45951177505), job `140347155147` — SUCCESS. Exact preview: [run 45951177407](https://github.com/bossmugen/underlords-wiki/actions/runs/45951177407), deploy job `140347368544` and report job `140347449998` — SUCCESS. GitHub Pages preview deployment completed; a separate custom-domain/live fingerprint was not available.
+- MAIN already owns the narrative in `src/lib/club-only-overrides.ts` under September 18, 2020. No duplicate MAIN reader prose was added. The WIKI entry preserves the disagreement between Ansun's and Mugen's usefulness reports and does not invent a complete player roster.
+- The same 11:45 handoff's other four headings were already reader-covered: Inner Anthos (MAIN Anthos + WIKI Anthos), Ansun/Rooks heir joke (MAIN Ansun + WIKI Ansun), Shiki bot-action pile (MAIN Shiki + WIKI Shiki), and Akamin skating / planned stream (MAIN Akamin + WIKI Akamin). **This handoff: 5/5 headings closed; 1 new WIKI incident, 4 deduped.**
+- Main HQ family remains `pending_reconciliation`: 47 site-candidate handoff files exist and the cumulative distinct accepted A/B remainder is still unknown, not zero. Base 16 headings remain 14 reader-covered / 2 source-blocked (Gabu Health Mafia provenance/privacy; Mugen/Sye Plutonian exact receipt). Do not advance the branch cursor on the strength of this one handoff.
+
 ## 2026-11-23 02:57 PST — PHOTO Dora descendant preview verified
 
 - WIKI Dora reader commit `683abb3482df1f385319dc42a6c25dfbfa9ae877` exact build `45152631029` SUCCESS; exact preview `45152631067` CANCELLED due to supersession.
