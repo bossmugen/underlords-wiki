@@ -1,7 +1,7 @@
 ---
-name: "Baby Lyssa"
+name: "Ghoulie"
 aliases:
-  - "Ghoulie"
+  - "Baby Lyssa"
   - "sl33py.brxt"
 roles:
   - "Archive-era UL cast"
@@ -23,7 +23,7 @@ claims:
   - text: "Later Wall scenes turn Ghoulie into a recurring comparison point and property joke: `this is my wall`, Ghostt says she lives there, Mugen asks for rent, Tae says she lives there rent-free, and Ren later says she is back to claim it."
     evidence: "archive-confirmed"
     date: "2021–2023"
-  - text: "On March 24, 2021, Gilli joked that Ghoulie had been in a fresh Wall predicament for less than an hour; Mugen answered eight seconds later, `LMFAO WE SHOULD HAVE A RECORD`. That evening Ghoulie proposed renaming the channel after herself, and Sota challenged her to outdo him. By April 22, Tae was telling Ghoulie she practically lived there."
+  - text: "On March 24, 2021, Gilli joked that Ghoulie had been in a fresh Wall predicament for less than an hour; Mugen answered eight seconds later, `LMFAO WE SHOULD HAVE A RECORD`. That evening Ghoulie proposed renaming the channel after herself, and Ansun challenged her to outdo him. By April 22, Tae was telling Ghoulie she practically lived there."
     evidence: "archive-confirmed"
     date: "2021-03-24 – 2021-04-22"
     sources:
@@ -59,7 +59,7 @@ tags:
   - "2021"
 ---
 
-# Baby Lyssa / Ghoulie
+# Ghoulie
 
 Ghoulie's Wall mythology is loud enough that it can hide the other half of the file: in spring 2021 she was also treating **Daycare** like home turf.
 
