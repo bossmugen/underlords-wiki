@@ -68,11 +68,11 @@ export const vipCharacterBios = {
     dek:"Amaurot-provenance VIP with a dry little survival instinct: count what still works, say the limit, keep moving.",
     overview:[
       "Syv / Syv the Adorable / syveon is a current UL VIP with Amaurot provenance. Her clean file is smaller than an older version because Syv and Sye are different people; what remains is plenty specific enough to stand on its own.",
-      "When organic chemistry hands her a C after a test bad enough to trigger a class review day, Syv decides she is counting it as a pass because she expected worse — then immediately names the next target and plans to make the points up elsewhere. Relief gets about five seconds before logistics takes over.",
+      "When organic chemistry hands her a C after a test bad enough to trigger a class review day, Syv decides she is counting it as a pass because she expected worse — then immediately names the next target and plans to make the points up elsewhere. One last line, `Your mom probably wont`, arrives with a Raja cat-eating emote; the parental grading board apparently declines to sign off. Relief gets about five seconds before logistics takes over.",
       "Three months later she notices Ricochet has disappeared for weeks. He answers that he is busy and, almost immediately, asks her to send ramen. Syv's answer is simply 'I'm broke.' The return gets no ceremony. He is back, the joke resumes, the ramen budget is denied."
     ],
     history:[
-      {date:"October 2021",title:"A C can still count",text:"Syv reframes one ugly organic-chemistry result against worse expectations, then immediately names a B target and a make-up plan."},
+      {date:"October 2021",title:"A C can still count",text:"Syv reframes one ugly organic-chemistry result against worse expectations, names a B target and a make-up plan, then gets one last parental-standard jab: `Your mom probably wont`."},
       {date:"January 2022",title:"Ramen budget veto",text:"Syv tells Ricochet he disappeared for weeks. He says he is busy, asks her for ramen, and gets 'I'm broke.' Their familiarity survives the gap without needing a reunion speech."}
     ],
     characterNotes:[
