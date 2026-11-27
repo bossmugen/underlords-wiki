@@ -1066,4 +1066,13 @@ export const integratedEpisodes: Episode[] = [
     cast: ["Daya", "RotiniLM", "Snow"]
   },
 
+  {
+    id: "qotd-human-restoration-2024",
+    title: "The Barista Missed a Prompt. The Humans Clocked In.",
+    season: "2024",
+    date: "August 3 and October 1, 2024",
+    kind: "QOTD / manual prompt-writing / social ritual",
+    logline: "On August 3, Sye noticed no QOTD and asked the room to keep giving hugs and water. Momo's answer was `ANSUN MAKE QUESTIONS`; Souta supplied a museum-design prompt. On October 1, Souta returned with `No questions? *Smashes skateboard*` and a TED Talk prompt. The Barista handled delivery when it was working; the room could still make a question happen without it. The cumulative handoff gives dates and named speakers but no individual message IDs or timestamps.",
+    cast: ["Sye", "Momo", "Ansun"]
+  },
 ];

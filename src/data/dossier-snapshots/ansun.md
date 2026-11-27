@@ -217,6 +217,13 @@ claims:
       - label: "Complete QOTD archive · people index and longitudinal findings"
         href: "/archive/qotd"
     note: "Question-author credit is separate from the bot account that posted the card; the aggregate handoff does not enumerate individual message IDs."
+  - text: "On August 3, 2024, when no QOTD appeared, Momo called for Ansun to make questions and Ansun supplied a museum-design prompt; on October 1 he posted `No questions? *Smashes skateboard*` and supplied a TED Talk prompt."
+    evidence: "archive-confirmed"
+    date: "2024-08-03 – 2024-10-01"
+    sources:
+      - label: "QOTD · 2024 manual-restoration sequence"
+        href: "/archive/qotd"
+    note: "The cumulative handoff preserves dates and named participants but supplies no individual message IDs or timestamps."
   - text: "Ansun remembers entering UL mostly silent, typing quickly in VC rather than speaking, and taking roughly one to two months to feel comfortable talking."
     evidence: "archive-confirmed"
     sources:
@@ -287,7 +294,7 @@ When side chatter takes over Slice, he sends it toward Whiskey but leaves the bi
 
 ## QOTD: A cast list in question form
 
-Ansun was one of QOTD's main human question-writers in its early run. His prompts repeatedly sorted the room by food, rooms, fictional casts, school roles and jobs. In 2023, the format became a writers' room for UL Mafia: at least seventeen prompts between February 19 and April 28 asked members to build biographies, weapons, jobs, flaws, abilities, arcs and scenes. By 2024, his name remained prominent among the Cafe Barista's credited question authors.
+Ansun was one of QOTD's main human question-writers in its early run. His prompts repeatedly sorted the room by food, rooms, fictional casts, school roles and jobs. In 2023, the format became a writers' room for UL Mafia: at least seventeen prompts between February 19 and April 28 asked members to build biographies, weapons, jobs, flaws, abilities, arcs and scenes. By 2024, his name remained prominent among the Cafe Barista's credited question authors. When the Barista missed a prompt in August, Momo's **`ANSUN MAKE QUESTIONS`** was a small, loud vote of confidence in the person she expected to get the room moving. Ansun supplied the museum-design prompt; on October 1 he revived the counter himself with **`No questions? *Smashes skateboard*`** and a TED Talk prompt. He was the person summoned, not the only person who knew how to keep the questions coming.
 
 ## THE VOICE IS AN ONLINE THING
 
