@@ -7,7 +7,7 @@ aliases:
 roles:
   - "Platelet"
 eraStart: 2021
-summary: "Candy is a permanent Platelet whose surviving 2021 record begins with a nervous Lobby question about whether she fits, answered immediately by Anthos. By summer the same stable account is fully inside the Wall's reaction language, repeatedly dropping `Wad00` variants, custom emotes, and animal-noise fragments. The later `— Luna` display is Candy, not HyaLuna."
+summary: "Candy's Wall voice runs on Wad00, BOP emotes, a possum scream, and one Moo that gets half the room answering. Anthos gives her a quick yes at the Lobby door; months later she submits to WINTER without a caption."
 summaryEvidence: "archive-confirmed"
 publication: "public"
 claims:
@@ -50,6 +50,13 @@ claims:
     sources:
       - label: "👅 Wall · 2021-07-04 / 2021-09-01"
         href: "/channels/wall"
+  - text: "On December 12, 2021, Candy posted an uncaptioned image during the WINTER Photoshoot submission window."
+    evidence: "archive-confirmed"
+    date: "2021-12-12"
+    sources:
+      - label: "📬 Photo Submissions · 2021-12-12 · message 919512145027301406"
+        href: "/events/photo-submissions"
+    note: "Candy is POSTED BY; the attachment remains uninspected, so maker, capturer, and featured subjects are not assigned."
 antiFanon:
   - "Candy / — Luna is not HyaLuna. The shared Luna display is an identity trap, not continuity."
   - "Do not publish the historical age field from Candy's Lobby intake; Platelet status is sufficient public role context."
@@ -65,36 +72,46 @@ tags:
   - "lobby"
   - "arrival-fit"
   - "wall"
+  - "photoshoot"
+  - "winter"
   - "wad00"
   - "second-luna"
 ---
 
-Candy's surviving biography is concentrated in 2021, which means the page should not pretend to know ten years of personality from a handful of Wall fragments. What the archive does give us is a neat change in posture over a few months. Candy first appears worrying aloud about whether she fits the room. By summer, the same account is contributing in one of the most frictionless ways possible: tiny noises, custom emotes, and a recurring `Wad00` that no longer sounds like somebody waiting for permission to be there.
+# Candy
 
-The account bridge is important because later exports display the same person as `— Luna`. That is Candy. HyaLuna is the original 2020 Luna and a different person entirely. The shared name is an archive trap, not a secret identity twist.
+Candy's Wall voice is compact but unmistakable: "Wad00", "Wad0.0", paired BOP emotes, a possum scream, then "Moo" with two Cat_Sporkle emotes. She can drop one little signal into the room and let everybody else pick it up.
 
-## April 2021 — a fit question at the door
+## A quick yes at the door
 
-On April 21, Candy completes the Lobby intake and then adds `Maybe I'm too younger:2058__shykitty_:`. Eleven seconds later Anthos answers `no you're not XD`.
+On April 21, 2021, Candy finishes the Lobby intake and asks "Maybe I'm too younger...". Anthos answers "no you're not XD" eleven seconds later. The reply is casual and immediate; the question does not become a gate.
 
-The page deliberately leaves the historical age field out. The useful part is the social exchange. Candy has just supplied the requested information and immediately checks whether there is some reason she may not fit. Anthos's answer is fast, casual, and unceremonious: no, followed by `XD`.
+## The Wall learns her shorthand
 
-It is tempting to turn that into a personality label — shy, insecure, hesitant — but one question cannot bear that weight. What it safely gives us is an arrival moment where Candy voices uncertainty and the room answers without making the uncertainty into a barrier.
+YoChan opens one exchange with "oink oink"; Candy answers with an Opossum_AAAHH reaction. On July 14, she posts "Wad00" and follows it with paired BOP2 and BOP1 emotes. "Wad0.0" appears on July 25. On August 10, she true-replies "Wad00" to Vanness's self-filing after losing five orange dracs, then adds :CatCry:. On September 1, after a long quiet stretch, she posts "Moo" and two Cat_Sporkle emotes. Sou, Rummy, Ren, Gilli, SaraBunny, and Cookie keep the same moo/cat register going for the next couple of hours. Candy supplies the sound; the room supplies the chorus.
 
-That makes the summer material more interesting, because the surviving voice becomes much less explanatory.
+## Relationships
 
-## July through September 2021 — the Wall no longer needs full sentences
+**Anthos** is the first visible welcome voice in Candy's 2021 Lobby arrival. The reassurance is simple: "no you're not XD".
 
-On July 4, YoChan pings Candy with `oink oink`. Candy answers not with a rebuttal but with an `Opossum_AAAHH` reaction.
+**The Wall regulars** do not need much explanation to play along. YoChan starts the pig-noise exchange; Vanness supplies the orange-drac self-own; later, Sou, Rummy, Ren, Gilli, SaraBunny, and Cookie pick up the moo/cat thread. Candy's messages are small, but they leave room for other people to join.
 
-Ten days later the archive gets the first surfaced `Wad00`. Candy follows it with paired `BOP2` emotes and then paired `BOP1` emotes. On July 25 the word mutates into `Wad0.0`. On August 10, it returns as `Wad00` again.
+## Episodes
 
-At three appearances across separate dates, the repetition is strong enough to call it a voice fingerprint. The August 10 use now has its missing setup back: Vanness self-files `Im putting myself in wall of shame for losing 5 orange dracs for merge. Shame me`, and Candy TRUE-REPLIES with `Wad00`. The timing turns the tiny word into a perfectly serviceable *what the fuck did you do* without requiring the wiki to nail one dictionary translation to every future use. It is compact incredulity in this scene, not a lexical constitution.
+| Date | Scene |
+| --- | --- |
+| Apr 21, 2021 | Lobby arrival and Anthos's reassurance |
+| Jul–Sep 2021 | "Wad00", BOP emotes, possum scream, "Moo" and Cat_Sporkle Wall run |
+| Dec 12, 2021 | WINTER Photoshoot submission |
 
-The interesting change from April is not that Candy has suddenly become a different person. It is that the summer scenes contain almost no onboarding posture. She is not asking whether she belongs, explaining herself, or translating her reactions into full prose. She can answer the room with a custom emote, a proprietary little noise, or both.
+## Petty Crimes
 
-September 1 adds another fragment: `Moo`, followed by two `Cat_Sporkle` emotes. It would be absurd to promote that into a formal `animal-noise personality`. The safer read is about communication scale. In these Wall slices, Candy often contributes through immediate affect rather than exposition. `Wad00`, `Moo`, BOP emotes, possum scream — the archive preserves a person comfortable enough with the room's shared vocabulary that a tiny signal can carry the whole turn.
+"Wad00". "Wad0.0". BOP2 and BOP1 in pairs. A possum scream for "oink oink". "Moo" followed by two Cat_Sporkles. The vocabulary is tiny; its delivery radius is not.
 
-That is the progression the evidence earns. April catches one moment of uncertainty about fitting. July through September catches Candy participating without needing to ask what kind of participation is allowed. The later `— Luna` display adds identity continuity but does not merge her with HyaLuna.
+## WINTER: no caption required
 
-Permanent Platelet is the roster label. Candy's public biography can stay appropriately small and still feel like a person: a newcomer who briefly checks whether there is space for her, gets an immediate yes, and within months is speaking fluent Wall sound effects.
+On December 12, 2021, Candy posts an uncaptioned image during the WINTER Photoshoot window. It is another quiet creative contribution: no explanation attached, just an entry.
+
+## Media notes
+
+- **WINTER Photoshoot submission** — POSTED BY Candy, Photo Submissions, Dec 12, 2021. Message 919512145027301406; attachment 919512144494608424 (1638889961916.png). The image is uninspected; maker, capturer, and featured subjects are not assigned.
