@@ -3368,3 +3368,13 @@ Photo miner `archive-miner-photo-submissions-2021`, last-known HEAD `d45d441feca
 - WIKI added the complementary searchable Episode `sota-claims-the-fame-half-of-the-wall-2023` in `src/data/integrator-episodes.ts`, reader commit `3d857ff70d7482a4a833a2ccb229d125c33aa66e`. GitHub combined status contexts `wiki-build` and `wiki-preview` both succeeded; exact build job `140351726656` in run [45952618893](https://github.com/bossmugen/underlords-wiki/actions/runs/45952618893) succeeded. Preview target: https://bossmugen.github.io/underlords-wiki/ . No separate custom-hostname fingerprint is claimed.
 - Surface split is intentional: MAIN keeps the Wall's lived narrative; WIKI gets the structured episode. No Sota dossier was invented. The line is self-coronation, not an objective ranking or a claim about the Wall's origin.
 - This closes only the Sota Pass 20 candidate. Other Pass 20 candidates and the 61-pass BACKROOM family still require incident-level reconciliation; remaining distinct accepted A/B count is unknown, not zero. BACKROOM HEAD / consumed SHA remains `9c143a7c146af4fc90de4b258bee1c848a2818a0`; do not advance the cursor or clear the family.
+
+
+## 2026-11-26 Run12 — August Run07 Hishiro June 2020 Lobby anchor
+
+- Source branch: archive-miner/aug-2026-living-ensemble-hourly, HEAD / consumed SHA fcc27ac7a4457fc5c93c575bd2813b8e19abfa3b (unchanged).
+- Source handoff: archive-intake/aug-2026-living-ensemble-reunion-2026-08-19-2303-pdt/hourly-2026-08-26-run07-site-candidates.md, Candidate 2; receipts 719499308424232976 and 719499487789318217.
+- MAIN added the June 8, 2020 self-introduction / welcome to src/content/people/hishiro.md, commit 83b1e163056b85eb85123d1d8b2d3b3df7e20257. Production workflow 45953967350, job 140356029942, passed source verification, Astro build, built-output checks, Cloudflare deployment, and exact live-commit marker.
+- WIKI src/data/dossier-snapshots/hishiro.md already contains the same date, self-identification, Mugen response, and character-facing chronology. No WIKI reader change was made; this is not mirrored prose. No WIKI reader build/deploy was triggered for an unchanged reader tree.
+- Main HQ Run28 Yelik candidate was checked against both readers and is already present; no duplicate WIKI episode/dossier change.
+- August/Main HQ publication families remain open. Direct handoff listings contain 27 August and 47 Main HQ site-candidate files; distinct accepted A/B remainder is not certified. No miner consumed SHA advanced.
