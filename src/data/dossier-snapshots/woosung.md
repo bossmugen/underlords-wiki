@@ -72,6 +72,20 @@ claims:
     date: "2023-05-11"
     sources:
       - label: "Complete QOTD archive · 2023"
+  - text: "On February 12, 2022, Cele said WOO got her playing Dragon Raja and told her to join UL because WOO was there; Cele joked that sharing a club made it easier for WOO to `booli` her."
+    evidence: "archive-confirmed"
+    date: "2022-02-12"
+    sources:
+      - label: "QOTD · Cele's server-entry answer · 942206834633244733"
+        href: "/archive/qotd"
+    note: "This is Cele's account of WOO as her social route, not proof of who technically accepted the in-game application or the exact admission date."
+  - text: "On March 28, 2023, WOO described Cele as a cousin she could rely on, someone who made her feel capable and pushed her toward doing things herself; later prompts repeatedly named Cele as preferred company."
+    evidence: "archive-confirmed"
+    date: "2023-03-28 – 2023-05-17"
+    sources:
+      - label: "QOTD · WOO/Cele · 1090293199731445820, 1093548853577404417, 1103409168435662879, 1108403892494008412"
+        href: "/archive/qotd"
+    note: "Preserve WOO's direct cousin wording; companionship does not imply romance or exclusivity."
 antiFanon:
   - "Woosung is a woman. Use she/her."
   - "Do not call `Hi Woosung.....idk what else` Woosung's first arrival; the same stable account is already visible in April 2020."
@@ -86,6 +100,7 @@ relatedPeople:
   - "mugen"
   - "snow"
   - "anthos"
+  - "cele"
   - "nobu"
   - "moon"
   - "rich"
@@ -154,6 +169,10 @@ WOO reacts with crying and skull/dead reactions and remains in the joke. Her pro
 **Rich:** knows the same persona well enough to drag WOO into the stock bit, gets the loud protest, and immediately softens the poke with a head-pat GIF. It is a tiny but reusable relationship verb: tease, receive outrage, pat.
 
 **Nobu:** repeatedly becomes the named `TRAITOR` / `why` target when Wall receipts surface. That is enough for a bounded recurring-betrayal joke. The underlying screenshots are unreadable, so Nobu's alleged offense, image authorship, capture, and appearance stay unresolved.
+
+
+**Cele:** WOO is the reason Cele gives for getting into Raja and joining UL: she was already there, and Cele jokes that sharing a club made it easier to `booli` her. A year later WOO calls her **`a cousin I could rely on`**, someone who makes her feel capable and pushes her toward doing things herself. The name keeps coming up in ordinary choices too: living together for a while despite WOO's preference for living alone, watching a movie, or dragging somebody into a haunted house. The joke is the delivery; the repeated choices are the relationship.
+
 
 ## April 2023 — care arrives before the disclaimer
 
