@@ -1,3 +1,11 @@
+## 2026-11-27 08:34 PST — Club-Only 2020 recovery continuation (no reader edit)
+
+- **Source branch:** archive-miner-clubonly-2020-hourly, HEAD / last_consumed_sha ed66714f8d2c18f23bbb2b951bf305f0fa913f21. Checkpoint read first; no new branch delta.
+- **Handoffs reread:** checkpoint.md, hourly-findings-2026-08-27-0046-pdt.md, hourly-receipts-2026-08-27-0046-pdt.md, hourly-rabbit-holes-2026-08-27-0046-pdt.md, hourly-people-2026-08-27-0046-pdt.md, site-candidates-2026-08-27-0046-pdt.md, and open-questions.md.
+- **Waiting items:** Danny's 2020-10-01 Daily-Pack Dungeon Scheme (receipts 761247473360175144, 761248338108350526); Carlene's Aether visitor rail (760979646997069844, 760979942116687912); B-chan's thin intake (760972663065018390, 760974258783649854). These remain thin-profile publication candidates with existing owner; do not backdate in-game membership or formal roles.
+- **Held:** Feli↔Mugs Tumbleweed question remains unresolved; the pin/image route still provides no direct answer or inspectable contemporaneous tree state. Keep the edge on HOLD.
+- **Disposition:** no reader change on MAIN or WIKI. QOTD was this run's assigned substantive publication family; other pending-publication families remain with their assigned integrator. No consumed-SHA advance.
+
 ## 2026-11-27 08:30 PST — QOTD 2024 manual restoration (integrated_verified)
 
 - **Source branch:** `archive-miner-qotd-officers-20260824`, HEAD / existing `last_consumed_sha` `c51cd1914f65cb8ae65b850b1d0da85ffccb94ed`. The branch did not advance; the repair closes an older accepted nested scene, not a new miner delta.
