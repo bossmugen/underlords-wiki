@@ -26,6 +26,15 @@ claims:
       - label: "BACKROOM Pass 32 · Organisation index / Wall · 773639584143376394 and following exchange"
         href: "/channels/wall"
     note: "Tumbleweed's index label and Illien's later nickname are linked as a specific callback, not proof that every index tag entered speech. Original index artifact and exact Wall follow-up ID should be retained in backstage receipts."
+  - text: "Ren and Zoshaa used `Orb` as shared house shorthand: on September 29, 2020, Ren wrote `See! Orb is with me`, the maintained Organisation index filed `RV - Zoshaa (orb) - child shield`, and on May 17, 2021 Zoshaa wrote `my orb` while Ren reacted seconds later."
+    evidence: "archive-confirmed"
+    date: "2020-09-29 – 2021-05-17"
+    sources:
+      - label: "Club Only · Ren / Organisation index · 760519758914256926 / 760564322182103111"
+        href: "/channels/club-only"
+      - label: "Wall · Zoshaa's `my orb` line · 844051938638692403 / 844051976953004042"
+        href: "/channels/wall"
+    note: "The exact origin and meaning of the word remain unresolved; this is playful shared language, not literal kinship, romance, guardianship, or a formal role."
   - text: "Ren's July 14, 2021 WALTZ Photoshoot submission called Eos `the bestie` and tagged Eos directly."
     evidence: "archive-confirmed"
     date: "2021-07-14"
@@ -221,6 +230,7 @@ claims:
 antiFanon:
   - "Quote collecting is archive-observable behavior; it does not make Ren the formal Wall archivist unless a dated appointment is recovered."
   - "Social Ctrl+F / house index / identity-repair language is character interpretation, not a formal UL appointment."
+  - "The `orb` / `child shield` wording is playful Tumbleweed language, not literal kinship, romance, guardianship, or a formal role."
   - "Ren’s recurring curation behavior does not mean she single-handedly created UL quote culture; the Wall preserves a communal memory practice with many contributors."
   - "Ren's opening-night `That made it better` line is a self-report about one conversation helping during pandemic anxiety; do not turn it into a diagnosis, therapy claim, severity judgment, or ongoing mental-health biography."
   - "Ren's 2021 `did u eat today?`, water, rest, movie, snack, and spa language is broad public check-in material; do not infer an individual health need, diagnosis, caregiving relationship, or formal wellness appointment."
@@ -245,6 +255,7 @@ relatedPeople:
   - "rummy"
   - "mia"
   - "gilli"
+  - "zoshaa"
 tags:
   - "caporegime"
   - "officer"
@@ -384,6 +395,13 @@ The September 2020 Organisation index had RV filed as `smol noodle`. In November
 
 **Cross-reference:** BACKROOM Pass 32 · Organisation Update (September 29, 2020) / Wall (November 4, 2020), following Ren's lost-corpse Amber Alert messages `773639556544331856` and `773639584143376394`.
 
+## ORB — The label that escaped the index
+
+The September 29, 2020 Organisation index filed **`RV - Zoshaa (orb) - child shield`**. Earlier that morning Ren had already said **`See! Orb is with me`**. On May 17, 2021, Zoshaa offered a **`refreshing glass of boiled mayo`** to **`my orb`**, and Ren answered ten seconds later with a peek. By then the word was doing more than filling a row in Anthos's running list. It was a small shared cue they could drop into the room and expect the other to catch.
+
+**Receipts:** Club Only `760519758914256926`, `760564322182103111`; Wall `844051938638692403`, `844051976953004042`.
+
+**Relationship:** Ren ↔ Zoshaa. The wider room-level Tumbleweed map is indexed in the existing `tumbleweed-family-tree-returns-2026` Episode.
 ## WALTZ — With the bestie
 
 **Episode:** July 14, 2021 · Photo Submissions · Ren's entry `865078249850929162`.
