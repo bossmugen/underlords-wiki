@@ -276,6 +276,10 @@ Ritha, WolfPhenix, Suzimasu and HyaLuna came over from Altissa and became the re
 
 Mugen begins in the middle of people, not above them.
 
+## The Discord had to move into the spare room
+
+The guild's founding and the current Discord's origin are two different stories. On February 12, 2022, Mugen called the current room **`UL server 2.0`**. She described a crisis in the previous server and a quick move into Snow's already-existing stripclub test server. In that same answer, she sorted the house by contribution: Platelets were the **`good kids`**, Staff were the laughs and dumbassery that made UL, Officers carried difficult invisible work in the weekly boardroom, and VIPs patronized the **`stripclub-casino-comedybar-daycare`**. The answer is part migration story, part Mugen's own map of what the groups were for.
+
 ## Mugs according to Mugs
 
 QOTD finally gives us something better than inferred personality: Mugen describing herself.
