@@ -1,156 +1,101 @@
 ---
 name: "Zyrcant"
-aliases:
-  - "Akariel"
-  - "Akariel™"
-  - "akariel_star"
 pronouns: "she/her"
 roles:
   - "VIP"
-summary: "Rich's former deputy in Amaurot arrives with an older org chart already behind her, then settles into UL as a VIP who Mugs says adores the place. In 2021 she places top three in a UL Kahoot, gets asked by Tofu to stop taking everybody's souls, refuses, and later self-describes as `the one person who tackles ppl`."
+eraStart: 2021
+summary: "Former Amaurot deputy and UL VIP: formidable at first glance, bright once familiar, and more protective than people expect."
 summaryEvidence: "user-confirmed"
 publication: "public"
 claims:
   - text: "Zyrcant is a woman, a UL VIP, Rich's former deputy in Amaurot, and Mugs confirms that she adores UL."
     evidence: "user-confirmed"
     sources:
-      - label: "Mugs-confirmed Zyrcant identity / relationship canon"
-    note: "Adoration of UL is preserved as user-confirmed relationship language; it is not a formal rank or proof of uninterrupted activity."
-  - text: "The recovered Lobby export identifies Discord account ID 257294164746698763, username `akariel_star`, display `Akariel™`, as Zyrcant because the account explicitly writes `my ign is still Zyrcant`."
+      - label: "Mugs-confirmed Zyrcant identity / role / relationship canon"
+    note: "Adoration of UL is relationship/culture canon, not a formal rank or proof of uninterrupted activity."
+  - text: "In 2022 QOTD responses, Zyrcant says people think she is mean or scary at first glance; Ren describes her as happy, cheery, and party-lively, while another peer describes her as light, mellow, and nice."
     evidence: "archive-confirmed"
-    date: "2021-01-13"
+    date: "2022"
     sources:
-      - label: "🆔 Lobby · 2021-01-13"
-        href: "/channels/lobby"
-  - text: "In the same Lobby check-in, Zyrcant wrote that she had been in Amaurot."
+      - label: "Question of the Day · first-impression / peer-read sequence"
+  - text: "On June 8, 2022, Zyrcant names protectiveness as something people miss, says she is real overprotective, and answers Yes uwu when asked whether that includes us."
     evidence: "archive-confirmed"
-    date: "2021-01-13"
+    date: "2022-06-08"
     sources:
-      - label: "🆔 Lobby · 2021-01-13"
-        href: "/channels/lobby"
-    note: "The line independently confirms Amaurot provenance but does not by itself establish the later Amaurot → UL merger timing."
-  - text: "In the July 2021 WALTZ Photoshoot, Qin-Mu posted a picture and immediately followed it with the caption `Yoza and @Akariel`, naming Akariel / Zyrcant as Yoza’s staged dance partner."
+      - label: "Question of the Day · protectiveness sequence"
+  - text: "In July 2022, Zyrcant and Ren exchange an affectionate return greeting; Ren says I miss my zyrcant, while other people ask where she is and say they already miss her."
     evidence: "archive-confirmed"
-    date: "2021-07"
+    date: "2022-07"
     sources:
-      - label: "Photo Submissions · WALTZ partner caption"
-        href: "/events/photo-submissions"
-    note: "The image post and follow-up caption are distinct. Qin-Mu posted the caption; no independent image maker, photographer, or visual identification is claimed."
-  - text: "On July 15, 2021, Ansun announced Zyrcant alongside Shinn and Nelphie as the top three winners of UL's Kahoot Pop Quiz."
+      - label: "Question of the Day / public chat · Ren and Zyrcant return exchange"
+  - text: "On July 15, 2021, Sou names Shinn, Nelphie, and Zyrcant among the top three in the Kahoot Pop Quiz."
     evidence: "archive-confirmed"
     date: "2021-07-15"
     sources:
-      - label: "📣 Announcements · 2021-07-15"
-    note: "One quiz result is event history, not a generic intelligence ranking or permanent trait."
-  - text: "On July 5, 2021, Tofu replied to Akariel with `how about you not take our souls at all *Satan*`; Akariel answered `naaah`."
+      - label: "Announcements · 865313236172537866"
+  - text: "In September 2022, Zyrcant answers Mugen's complaint about an old Server 1 insult surviving the move with Aye it's in the blood."
     evidence: "archive-confirmed"
-    date: "2021-07-05"
+    date: "2022-09"
     sources:
-      - label: "👅 Wall · 2021-07-05"
-        href: "/channels/wall"
-    note: "The earlier cause of Tofu's soul-taking accusation is not reconstructed. `Satan` is Tofu's scene-level address here, not a proven durable nickname."
-  - text: "Zyrcant's 2021 Wall contributions included declaring `word of the day is ass` on July 1 and remembering on October 14 that she had the entire Bee Movie saved as a GIF."
+      - label: "Public chat · Server 1 / Server 2 insult callback"
+  - text: "In May 2023, Zyrcant describes herself as Quiet at first but a crackhead once I'm comfortable."
     evidence: "archive-confirmed"
-    date: "2021-07-01 – 2021-10-14"
+    date: "2023-05"
     sources:
-      - label: "Wall · Zyrcant's word of the day and Bee Movie GIF"
-        href: "/channels/wall"
-    note: "Both are self-authored remarks under Akariel/Zyrcant. The later media file is not identified, and this does not establish a general media-hoarding habit."
-  - text: "On July 25, 2021, the Akariel / Zyrcant account posted an uninspected attachment with `This was a convo I had with my BF xD`; Mugen replied directly to that exact Wall parent with `Tru lub`."
-    evidence: "archive-confirmed"
-    date: "2021-07-25"
-    sources:
-      - label: "👅 Wall · 2021-07-25"
-        href: "/channels/wall"
-    note: "Zyrcant is SAID BY and POSTED BY. The attachment remains uninspected; MADE BY / CAPTURED BY / FEATURING and the other person's identity remain unresolved. This indexes voluntary self-filing, not private-chat contents or sexuality/current relationship status."
-  - text: "On October 4, 2021, the same Akariel™ / Zyrcant account wrote `im the one person who tackles ppl` and, seven seconds later, `and im tackling gabu in this case`."
-    evidence: "archive-confirmed"
-    date: "2021-10-04"
-    sources:
-      - label: "👅 Wall · 2021-10-04"
-        href: "/channels/wall"
-    note: "Neither message is a Discord reply and the immediately surrounding exhibit is not reconstructed here. The lines are used as Zyrcant's own playful house-language self-description, not literal aggression or a relationship ranking."
-  - text: "In Voice Challenge, Akariel / Zyrcant selects `Magnetic Moon` by Tiffany Young for her character voice/aesthetic and later asks Han for help editing her submission."
-    evidence: "archive-confirmed"
-    date: "2021–2023"
-    sources:
-      - label: "🎤 Voice Challenge archive intake"
-        href: "/channels/voice-challenge"
-    note: "The song is selected persona material. Asking Han for editing help supports Han's Media Director function; it does not create a special production rank for Zyrcant."
+      - label: "Question of the Day · comfort-threshold answer"
 antiFanon:
-  - "Zyrcant is a woman; Akariel / Akariel™ / akariel_star are aliases/account forms, not separate people."
-  - "Zyrcant was Rich's deputy in Amaurot; do not flatten her into a random outside visitor with no institutional history."
-  - "Amaurot later merged under UL, but that does not automatically make Zyrcant a UL Officer or transfer her old deputy rank into UL command."
-  - "Do not invent an exact merger date until a dated archive source or user correction supplies one."
-  - "Mugs-confirmed `adores UL` is relationship/culture canon, not a formal role or closeness ranking."
-  - "The Kahoot result is one event result, not a permanent ranking of intelligence, competence, or importance."
-  - "Tofu's `Satan` is scene-local. Do not promote it into a stable Zyrcant alias or reconstruct the missing soul-taking premise."
-  - "The July 25 self-filing establishes a voluntary Wall submission. Do not expose the private attachment, identify the other person, infer sexuality/current relationship status, or promote POSTED BY into MADE BY / CAPTURED BY / FEATURING."
-  - "`tackles ppl` / `tackling gabu` is Zyrcant's authored joke language in one Wall scene. It does not establish literal physical aggression, a formal tackling role, or unusual closeness to Gabu."
-  - "The WALTZ caption names a staged partner, not a romance, friendship rank, or image-creation credit."
-  - "Voice Challenge song selection is self-presentation material, not a literal biography or personality diagnosis."
+  - "Akariel is a separate person. Akariel, Akariel™, and akariel_star belong to Akariel and must not be restored as Zyrcant aliases."
+  - "The January 13, 2021 Lobby statement by Akariel's account saying my ign is still Zyrcant is a source contradiction; it does not override user-confirmed identity separation and is not used as a bridge."
+  - "Do not transfer Akariel-authored Wall, WALTZ, DUSK TIL DAWN, or Voice Challenge material onto Zyrcant."
+  - "Rich's deputy title belongs to Amaurot; it is not a UL Officer appointment."
+  - "The Kahoot announcement gives a top-three group, not an exact placement."
+  - "Protectiveness is Zyrcant's self-description, not a formal caretaker role or a closeness ranking."
+  - "The July 2022 affection and absence callbacks are social closeness, not literal family or romance."
 relatedPeople:
   - "rich"
-  - "gabu"
-  - "han"
-  - "tofu"
-  - "ansun"
-  - "yoza"
+  - "mugen"
+  - "ren"
 tags:
   - "vip"
   - "amaurot"
   - "former-deputy"
-  - "merger-lineage"
-  - "wall"
-  - "voice-challenge"
+  - "qotd"
+  - "protectiveness"
   - "kahoot"
-  - "photoshoot"
-  - "waltz"
-  - "social-play"
+  - "petty-crimes"
 ---
 
-## BEFORE THE VIP BADGE, THERE WAS ANOTHER ORG CHART
+# Zyrcant
 
-Zyrcant did not arrive in UL history as an unattached guest. She had already been **Rich's deputy in Amaurot**. Then Amaurot merged under UL. That makes the surviving VIP label slightly deceptive: the guest file is carrying the remains of a whole previous command structure.
+Zyrcant came into UL with an older club life already behind her. She had been **Rich's deputy in Amaurot**; when that world later folded into UL, the old title did not magically become an Underlords command badge. Her UL place is VIP. Mugs confirms the simpler thing: she adores the place.
 
-The archive independently preserves the lineage even before it gives us the merger story. In January 2021, the `akariel_star` account says it was in Amaurot and then identifies its IGN as Zyrcant. Mugs-confirmed canon supplies the part the check-in cannot: Rich led Amaurot, Zyrcant was his deputy, and Amaurot later merged under UL.
+## The first impression is not the whole person
 
-Do **not** turn this into `therefore Zyrcant became a UL Officer`. Different institution, different rank system, different paperwork.
+Zyrcant knows the first read she can give people. In QOTD, she says people think she is mean and get scared of her at first glance. Ren's read is almost the opposite: happy, cheery, party-lively, with a nice smile. Another peer describes her as light and mellow, then tells her she gives off nice-person vibes.
 
-## THE OUTSIDE ORG CHART DID NOT STOP HER FROM BECOMING HOUSE PEOPLE
+Zyrcant supplies the missing piece herself when the room asks what surprises people about her:
 
-Mugs confirms the simpler present-tense relationship: Zyrcant **adores UL**. That should not be inflated into an appointment, attendance guarantee, or friendship ranking. It does matter because it keeps the Amaurot provenance from becoming the whole person. She arrives with another club's history and still becomes emotionally legible inside this one.
+> `my protectiveness`
 
-Voice Challenge catches the same shift through culture rather than rank. Zyrcant selects `Magnetic Moon` for her character and asks Han for editing help. The former deputy is now using UL's internal self-expression machinery like everybody else.
+She says people can assume she only cares about herself, `but im real overprotective`. The follow-up is tiny and much better than a personality quiz: does that include `us too?`
 
-And in July 2021, Ansun names **Shinn, Nelphie, and Zyrcant** as the top three in UL's Kahoot Pop Quiz. It is one quiz, not a Mensa application. Still: the old Amaurot deputy is not hovering around the edges of the server. She is in the stupid little club quiz and placing.
+> `Yes uwu`
 
-## A DANCE CARD, NOT A RELATIONSHIP CONTRACT
+By 2023, she has compressed the whole access rule into one sentence: `Quiet at first but a crackhead once I’m comfortable`. The severe first read and the warm familiar version are both hers. The second one just takes a little longer to unlock.
 
-The July WALTZ round caught another side of Akariel: Qin-Mu posted a picture and followed it with `Yoza and @Akariel`. The caption is small, but it puts Zyrcant on somebody else’s dance card, right in the middle of UL’s habit of recruiting people into themed nonsense. The photograph has not been independently inspected, so the caption is the connection we can actually name. It tells us who was paired for the prompt, not who took the picture or whether anyone was dating.
+## People notice when she is not around
 
-## TOFU WOULD LIKE TO DISCUSS THE SOUL SITUATION
+In July 2022, Zyrcant comes back into the room with `Ren!!`, `I believe`, `I’m gonna cry`, and `Love you`. Ren answers, `I miss my zyrcant`. Flask asks `where zyr`, and Dayadream says `I already miss zyrcant`. Nobody needs to make a speech about whether she matters; several people notice the gap and say her name into it. Zyrcant answers with the same emotional volume once she is back in range.
 
-Two days after one unresolved Wall image prompts Tofu to announce **`Starting bid: 5¢`**, a different Akariel exchange becomes completely readable without the missing picture.
+## Old jokes travel with her
 
-Akariel asks:
+Zyrcant is named among the top three in UL's July 2021 Kahoot Pop Quiz with Shinn and Nelphie. The order is not preserved, but the result is: she was in the winners' group and the room had a reason to send her to Gilli for a prize.
 
-> `whaat you dont want me to say thank you?`
+Later, when Mugen complains about an old Server 1 insult surviving the move to Server 2, Zyrcant replies `Aye it’s in the blood`. That is the whole callback. No lecture, no org chart, just somebody who knows the joke well enough to answer in its native dialect.
 
-Tofu replies:
+## Petty Crimes
 
-> `how about you not take our souls at all *Satan*`
-
-Akariel considers this modest policy proposal for twenty-three seconds and answers:
-
-> `naaah`
-
-We do not have the earlier sentence that explains why Tofu thinks anybody's soul is in danger, so **Satan** stays inside this scene instead of becoming a surprise alias. The useful part survives anyway. Tofu asks for one tiny concession — perhaps stop harvesting the group — and Akariel declines with five letters and absolutely no remorse.
-
-The five-cent image remains downstairs until somebody can actually inspect what Tofu was bidding on. The archive knows Tofu replied **`Starting bid: 5¢`** to Akariel's image. It does not know what was for sale.
-
-## BY OCTOBER, THE OLD ORG CHART IS NOT THE MOST INTERESTING THING SHE SAYS ABOUT HERSELF
-
-The Wall catches the social sequel. Zyrcant writes **`im the one person who tackles ppl`**. Seven seconds later she specifies today's assignment: **`and im tackling gabu in this case`**.
-
-The archive does not preserve a reply arrow on either line, and the surrounding exhibit is not reconstructed cleanly enough to decide what the tackle consisted of. Good. Leave the missing machinery missing. The character evidence is already complete at the level she authored it: the former deputy is now fluent enough inside UL to give herself an absurd little function and name the current target without an explanatory memo.
+- Looks severe at first glance; apparently gets much sillier once comfortable.
+- Names protectiveness as the thing people underestimate.
+- Makes a top-three Kahoot result without leaving a surviving exact rank.
+- Answers an old-server insult callback with `Aye it’s in the blood`.
