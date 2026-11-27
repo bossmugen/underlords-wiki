@@ -93,6 +93,13 @@ claims:
       - label: "🥃 Whiskey Room · live post-export screenshots"
         href: "/channels/whiskey-room"
     note: "The GIF exchange is character/banter evidence only and is not treated as proof of a romantic or sexual relationship between Oyasumi and Kiro."
+  - text: "Oyasumi reused the same external Tenor `cat-blind-flashbang-light-mode` GIF on March 19 and September 25, 2023, and October 10, 2024; on May 8, 2024 he also wrote `The only thing shameful here is that you're on light mode`."
+    evidence: "archive-confirmed"
+    date: "2023-03-19 – 2024-10-10"
+    sources:
+      - label: "Main HQ / Wall · light-mode prosecution · 1087126417864659054, 1155979862385885214, 1237737503801344071, 1293972065115967641"
+        href: "/channels/wall"
+    note: "The GIF is an external Tenor reaction, not a UL-made artifact. The recurring choice to deploy it is Oyasumi's; this does not establish that UL originated anti-light-mode humor or that Oyasumi held a moderation role."
 antiFanon:
   - "The February 25, 2022 Lobby scene is the earliest clean surviving Oyasumi door receipt currently surfaced, not proof that this was his first-ever contact with UL. Do not date his Consigliere appointment from export-time role arrays attached to the old messages."
   - "The historical age field in Oyasumi's 2022 intake is deliberately not republished. `TankHead94` is the IGN he supplied in that scene; do not silently convert it into a permanent Discord alias or later/current game identity without another bridge."
@@ -102,6 +109,7 @@ antiFanon:
   - "The May 4 packet is a reply to pooled Deleted User. Do not resolve that recipient to one human from this exchange."
   - "`Yay you made it` and `welcome Worldwalker` are warm directed entrance language in those scenes; they do not by themselves rank closeness or reconstruct off-server history."
   - "Oyasumi's recurring `evidence`, `crimes`, and `caught in 4k` language is social Wall/Whiskey banter, not a formal prosecutor, archivist, investigator, or moderation appointment."
+  - "The repeated `cat-blind-flashbang-light-mode` GIF is an external Tenor reaction; do not present it as UL-made or as evidence UL originated anti-light-mode humor."
   - "The March 25, 2023 unsellable-items line is a callback to an older prank, not its origin. Do not invent the item, mechanic, accomplices, original date/channel or Ansun's reaction from the surviving line."
   - "`I hope I appear relatively normal` and the room's response are jokes in context, not psychological characterization or a claim about Oyasumi's mental health."
   - "The late-night Kiro/Oyasumi GIF exchange does not establish a romantic or sexual relationship between them."
@@ -120,6 +128,8 @@ tags:
   - "wayfinding"
   - "maintenance"
   - "wall"
+  - "light-mode"
+  - "reaction-gif"
   - "evidence-culture"
   - "whiskey"
   - "late-shift"
@@ -158,6 +168,19 @@ The Wall language sticks too. In December he writes **`Caught my boy in 4k`**, a
 One old screenshot made it back to the Wall during the 2026 reunion. Oyasumi's contribution was **`Stfu I'm typing`**. Four visible minutes later Mugs had translated the whole thing into **`aww true luv`**. She didn't need him to soften the sentence to hear affection in it. That is a better glimpse of their shared comic language than any solemn claim that everybody got along: he was rude on purpose, and she made the rudeness part of the joke.
 
 The original screenshot's date and capturer are still unknown. The reunion repost belongs to Mugs; the words belong to the people who said them.
+
+## Running Gag: The flashbang cat
+
+| Date | Receipt | Oyasumi's move |
+| --- | --- | --- |
+| March 19, 2023 | `1087126417864659054` | Deploys the `cat-blind-flashbang-light-mode` Tenor GIF |
+| September 25, 2023 | `1155979862385885214` | Brings back the same cat |
+| May 8, 2024 | `1237737503801344071` | Writes: `The only thing shameful here is the fact that you're on light mode` |
+| October 10, 2024 | `1293972065115967641` | Uses the same GIF again |
+
+Oyasumi kept one very specific complaint form on speed dial. The cat gets flashbanged; Discord light mode is the offense; the same reaction returns across three dates and two calendar years. By May 2024 he could skip the image and write the charge himself. The joke sits inside a much wider anti-light-mode pile-on, so this is not a claim that UL invented the complaint. The recurring choice is Oyasumi's.
+
+**People:** Oyasumi; Wall participants. **Source:** Main HQ `site-candidates-2026-08-25-0745.md` and `receipt-delta-2026-08-25-0745.md`. The Tenor GIF is external, not a UL-made artifact.
 
 ## 2026 — THE HOUSE STILL RECOGNIZES HIM WELL ENOUGH TO REJECT NORMALCY
 
