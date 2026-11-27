@@ -556,6 +556,7 @@ export const integratedEpisodes: Episode[] = [
     kind: "Photoshoot / example-image assembly, round opening and entrant return",
     logline: "At 13:00 Gilli posts BEACH's first Example Photos image. Anthos adds two more at 13:04; Anayss supplies another at 13:05 (849378136923832320); at 13:06 Gilli opens the June BEACH submissions (849378339021520957). Four days later, Anayss returns to the same round with her own blank-caption entry (850859310183088128). The same account helped furnish the reference board, then stepped into the contestant pool. Gilli bookends the six-minute setup while Anthos and Anayss help build the brief; Anayss did not stay on the organizer side of the table. This is a scene-specific crossover, not evidence of an exclusive Photoshoot office or proof that any poster personally made or captured the reference or entry images. Source: archive-miner-photo-submissions-2021, site-candidate-2026-08-25-0545-anayss.md and the corrected Beach sequence in site-candidates-hourly.md.",
     cast: ["Gilli", "Anthos", "Anayss"]
+  },
   {
     id: "mariamoon-forgot-the-game-2021-2026",
     title: "MariaMoon Remembered the People, Not the Game",
