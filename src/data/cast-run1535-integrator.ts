@@ -58,7 +58,8 @@ export function applyRun1535IntegratorCast(
       ...previous,
       id: previous.id ?? "korea",
       name: previous.name ?? "Korea",
-      aliases: unique([...(previous.aliases ?? []), "KOREA", "Milk", "su.myeon"]),
+      era: previous.era === "2021–" ? "2020–" : previous.era,
+      aliases: unique([...(previous.aliases ?? []), "KOREA / Milk", "『KOREA』", "KOREA", "Milk", "su.myeon"]),
       stableDiscordIds: unique([...(previous.stableDiscordIds ?? []), koreaStableId]),
       logline:
         "Korea has a gift for being both instigator and audience. She needles people, gets summoned when RV wants somebody exposed, threatens to dig up old screenshots, then drops `:v_sip:` like she merely wandered into the mess instead of seasoning it herself. The same woman who turns Photoshoot logistics into `Dark fairy dances with the Light~` will also stop everything to tell you crystal or brown-sugar crystal boba is `thee beeessstttt`.",
