@@ -178,6 +178,8 @@ tags:
   - "offline-meetup"
   - "operations"
   - "real-life-first"
+  - "photo-submissions"
+  - "beach"
 ---
 
 # Anayss
@@ -206,7 +208,7 @@ Her tactical vocabulary is considerably less dignified. Opponents with too many 
 
 Ana draws, too. She worked on a group chibi featuring UL people, experimented with anime and PC art, and got specific encouragement from Gilli about shading, eyes, hair, and clothes. Bryce liked one of her pieces enough to keep it as his phone background. That detail says more than an invented job title ever could: something she made stayed with somebody.
 
-She also helped post example images for the COLORS Photoshoot before submissions opened, alongside Ansun, Gilli, and Ren. She was part of the group giving other people something to work from. The images' creation and capture credits are separate questions, but the act of showing up to help set the mood was hers.
+She helped post example images for the COLORS Photoshoot before submissions opened, alongside Ansun, Gilli, and Ren. Beach made the overlap even clearer: on June 1, Anayss posted the `Example Photos` divider and attachment; Gilli opened the round forty-eight seconds later. Four days after that, Anayss posted her own Beach entry. She could help make the prompt legible and still join the people answering it.
 
 Her friendships resist tidy labels. The old house map called her Gabu's `boyfriend`, which belonged to UL's fake-relationship nonsense, not a literal dating record. Gabu was also the person who watched Ana's coffee requests disintegrate into typos and responded with the far more responsible `maam drink water too`. They could be mutually confused, mutually ridiculous, and still look out for each other.
 
