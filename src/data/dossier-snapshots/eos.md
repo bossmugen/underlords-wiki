@@ -54,11 +54,25 @@ claims:
       - label: "Photo Submissions · Eos 835588639068782633; Marian 864701966230880266"
         href: "/events/photo-submissions"
     note: "Eos POSTED the MAFIA entry; Marian POSTED and SAID 'my only' in WALTZ. This establishes a named counterpart and two contestant roles, not image authorship, a romantic relationship, or exclusivity."
+  - text: "On May 18, 2022, Eos said Panda had already introduced them to Harry Potter, tried to take his Hogwarts classes to cheat, then asked him to teach everything after he explained that he memorized rather than took notes and changed answers when people tried copying. Panda told Eos to pay attention; Eos answered with a memo emoji."
+    evidence: "archive-confirmed"
+    date: "2022-05-18"
+    sources:
+      - label: "QOTD · Hogwarts exchange · 976489857037783050, 976495689045540904, 976556821391241336, 976566828073615360, 976567039588171866, 976567211315581048, 976568001467908096, 976568272524816494, 976572300033925171, 976572902499581992"
+        href: "/channels/qotd"
+  - text: "On June 10, 2023, Eos named Marian Kage among people they sometimes turn to for advice."
+    evidence: "archive-confirmed"
+    date: "2023-06-10"
+    sources:
+      - label: "QOTD · advice question · 1117076715882168380, 1117124296834306189"
+        href: "/channels/qotd"
+    note: "The detailed unbiased-advice explanation in the same answer belongs to a different, unnamed friend; it is not attributed to Marian."
 antiFanon:
   - "EnyoCal and Eos are bridged by the stable account; do not infer a separate admission or rejoin date."
   - "The May 2021 corpse exchange is not proof of the origin or uninterrupted use of the 2026 reanimation joke."
   - "Marian/Panda affectionate or romantic-style UL language is not proof of a legal marriage or real-world relationship status."
   - "Uninspected Wall attachments do not establish maker, capturer, or depicted subjects."
+  - "The May 18, 2022 Hogwarts exchange is a hypothetical QOTD scene, not a real school record or a formal teacher appointment. The detailed unbiased-advice description in Eos's June 2023 answer belongs to a different, unnamed friend."
 relatedPeople:
   - "Gilli"
   - "Marian Kage"
@@ -66,6 +80,8 @@ relatedPeople:
   - "Noether"
   - "HamitteY"
 tags:
+  - "qotd"
+  - "tutoring"
   - "wall"
   - "daycare"
   - "whiskey"
@@ -81,6 +97,8 @@ Eos was not especially interested in making a grand entrance. The Lobby saw the 
 **Gilli** was the person Eos credited for coming to UL. Gilli also knew when to egg them on: when Eos hesitated over posting more Wall material, Gilli's answer was essentially *do it*.
 
 **Marian / Panda** could spend months accusing Eos of being too vanilla to properly shame anyone, then turn around and insist on having Eos around for a shared game. Their running Wall prosecution went both ways: Marian threatened an hourly campaign over Eos's bag, Eos protested loudly, and later kept track of how long the joke had been going. The same relationship also had songs, teasing, hugs, and an Eos reply that Marian had stolen their heart a long time ago. None of it needs a fake formal title to be memorable.
+
+QOTD adds a different lane to the Marian/Panda relationship. In May 2022, Eos says Panda had already introduced them to Harry Potter, then tries to take Panda's exact Hogwarts classes to cheat. Panda says he memorizes rather than takes notes and deliberately changes answers when people copy. Eos switches from the scheme to asking him to teach everything; Panda's instruction is to pay attention. In June 2023, Eos also names Marian among people they sometimes consult for advice. The Wall prosecution is not the whole relationship: Eos can argue with Panda and still treat him as somebody worth learning from.
 
 **Mugen** could catch an exhausted Eos describing themself as a corpse and immediately raise a toast to the *pretty corpses*. Eos came back to the thread later as **“this ded corpse”**. The joke was not a one-line drive-by; they both stayed in it.
 
