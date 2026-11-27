@@ -20,6 +20,15 @@ export const integratedEpisodes: Episode[] = [
     cast: ["Suzi", "Ren", "D.I.", "Yummibears"]
   },
   {
+    id: "hishiro-on-call-service-2020",
+    title: "Hishiro Offered On-Call Service Before Anyone Gave Her a Desk.",
+    season: "2020",
+    date: "August 19–20, 2020",
+    kind: "Club Only / information-seeking / availability",
+    logline: "Gilli calls Hishiro into Club Only; Hishiro turns the ping into a Fate/Rin summoning bit, then signs off with `well, summon me again if my service are needed again` (745625941669183558). The next day she answers `same :Hehe:` beneath a reply-rendered `Lol I only go for info` line (745952572837331045); the quoted words are not Hishiro's. The later information-desk reputation has a tiny 2020 ancestor: she was already offering herself as useful when called, without a title or appointment.",
+    cast: ["Hishiro", "Gilli"]
+  },
+  {
     id: "akuma-matsu-music-lab-dj-dream-2026",
     title: "Akuma Came Back for Food. Stayed to Talk About Making Music.",
     season: "2026",

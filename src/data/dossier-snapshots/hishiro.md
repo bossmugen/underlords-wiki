@@ -108,9 +108,13 @@ tags:
 
 ## THE NEWSROOM DID NOT GET AN APPOINTMENT. THE VOCABULARY CAME ANYWAY.
 
-Hishiro's June 2020 Lobby introduction names **ArtUria**, **Underlords**, and **Member**. It is a glimpse of her speaking for herself before the later Club-Only exchanges, not a timestamp for every move she made between clubs. The ScarletMoon chronology still has holes.\n\nHer public file starts with the boring part because the boring part matters: she is Japanese, lived in the Philippines, works in television news journalism, and UL files her under Staff. None of those facts appoints her **UL News Department**, because no such promotion is hiding in a Discord export waiting to be hallucinated.
+Hishiro's June 2020 Lobby introduction names **ArtUria**, **Underlords**, and **Member**. It is a glimpse of her speaking for herself before the later Club-Only exchanges, not a timestamp for every move she made between clubs. The ScarletMoon chronology still has holes.
+
+Her public file starts with the boring part because the boring part matters: she is Japanese, lived in the Philippines, works in television news journalism, and UL files her under Staff. None of those facts appoints her **UL News Department**, because no such promotion is hiding in a Discord export waiting to be hallucinated.
 
 What the archive does give us is smaller and better. Across a few 2020 scenes, Hishiro keeps reaching for information words even when the subject is not remotely professional.
+
+August 19 gives that habit a more theatrical version. Gilli calls Hishiro into Club Only; Hishiro turns the ping into a Fate/Rin summoning bit and closes with **`well, summon me again if my service are needed again`**. It is half joke, half availability signal: if somebody needs her, they can call. Six years later, the `information desk` reputation feels less like a new role than an old habit finally getting a name.
 
 August 20 catches Gilli inside a quote-render saying:
 
