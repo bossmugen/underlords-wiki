@@ -109,7 +109,15 @@ claims:
       - label: "August 2026 Living Ensemble · Wall archaeology"
     note: "The surviving attachment package is POSTED BY Mugen; Wolf visibly presents the older screenshots inside the captured conversation. The original 2021 CAPTURED BY and exact source remain unresolved."
 
+  - text: "On September 29, 2020, Anthos announced a `new tag`, supplied `silent but deadly`, and the maintained Organisation index assigned that label to WolfPhenix."
+    evidence: "archive-confirmed"
+    date: "2020-09-29"
+    sources:
+      - label: "Club Only · Organisation update · 760575210842751006 / 760575224071979028 / 760564322182103111"
+        href: "/channels/club-only"
+    note: "The tag is preserved as a house joke; its reason and mechanics are unresolved. Do not turn it into a factual personality assessment."
 antiFanon:
+  - "The `silent but deadly` label is a Tumbleweed joke tag; its reason is unresolved and should not be treated as a factual personality description."
   - "Do not flatten UL's origin into five equal co-founders. Mugen started / founded Underlords; WolfPhenix came with her from Altissa and belongs to the five-person founding circle."
   - "Export-time role arrays do not establish when WolfPhenix became Caporegime, News Editor, or Game Officer."
   - "`purple = Wolfie` is archive-confirmed peer shorthand, not proof that WolfPhenix intentionally maintained a purple personal brand."
@@ -206,3 +214,11 @@ When Whiskey wakes up again on August 14, Wolf calls it **`de corpses are aliiiv
 That is not a new appointment or hidden seniority chart. It is the late-era version of the same continuity: Wolf is still one of the people Mugen can address without reintroducing the relationship, and Wolf is still participating in the room as both contributor and family member.
 
 The biography therefore progresses cleanly: pre-UL friend / founding-circle member → visible creative and planning contributor → socially recognizable house figure → artist of a major communal memory object → continued maintenance and redesign years later → person who can still go digging for a six-year-old receipt when the room needs proof. The titles matter. The years explain the person wearing them.
+
+## TUMBLEWEED TAG — Silent but deadly
+
+On September 29, 2020, Anthos announced a **`new tag`**, supplied **`silent but deadly`**, and the maintained Organisation index assigned it to WolfPhenix. The label survived; its explanation did not.
+
+**Receipts:** Club Only `760575210842751006`, `760575224071979028`, `760564322182103111`.
+
+**Classification:** Tumbleweed tag / running house joke. The reason for the label remains unresolved.
