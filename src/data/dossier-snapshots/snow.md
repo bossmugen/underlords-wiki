@@ -224,7 +224,15 @@ claims:
   - text: "On February 12, 2022, Mugen identified Snow's pre-existing stripclub test/joke server as the emergency refuge during the move from the previous Discord; Snow separately recalled roughly `30 mins of panic` retrieving records and moving people, then joked that the current server was still a test server."
     evidence: "archive-confirmed"
     date: "2022-02-12"
+  - text: "On July 27, 2021, Anayss tagged Nhou and Snow while asking Mugen whether she was proud of `the stripper’s knowledge UL has`."
+    evidence: "archive-confirmed"
+    date: "2021-07-27"
+    sources:
+      - label: "Wall · Anayss · message 869759473806344202"
+        href: "/channels/wall"
+    note: "The parent establishes POSTED BY Anayss. Attachment 869759472963301386 is uninspected; do not infer its subject or assign MADE BY / CAPTURED BY / FEATURING credit."
 antiFanon:
+  - "The July 27, 2021 Wall attachment 869759472963301386 remains uninspected; do not describe its contents or assign MADE BY / CAPTURED BY / FEATURING."
   - "Snow is not a generic Staff card in the corrected roster; Pit Boss takes primary placement."
   - "Snow was not Mugen's formal second-in-command. Current command canon places Snow at Pit Boss / Minister; Gabu and Anayss hold the Underboss / Deputy seats."
   - "The 2020 JAG draft is evidence of a conduct framework under construction, not proof that every one of the 24 charges became final policy or was formally prosecuted."
@@ -341,3 +349,7 @@ Snow gave Saber a recurring Saturday job in September 2020: **`Spank Mugs Booty`
 ## The bomb was visible
 
 The September 18, 2020 *Keep Talking and Nobody Explodes* session gave Snow one of his best accidental postmortems: everyone could see the bomb, and they still failed. Anayss remembered looking over only to find another **boom**. Ren performed the fire warning as a punchline ending in **KA BOOM**, while Ansun had been pointing Anthos toward the manual in `gameroom`. The instructions were not the missing ingredient. The room had those; what it lacked was a successful bomb disposal. Snow's line works because it does not absolve him or appoint a culprit. Everybody was looking. Everybody still got the explosion.
+
+## Petty Crimes
+
+Anayss names Snow alongside Nhou in the same **“stripper’s knowledge UL has”** joke, then asks Mugen whether she is proud. It is one of those Wall sentences where the two tags are already the punchline.
