@@ -4081,3 +4081,8 @@ Photo miner `archive-miner-photo-submissions-2021`, last-known HEAD `d45d441feca
 - Run27 media boundary: Persephone's March attachment `818477223564279868` remains uninspected; the September attachment `888298487022772264` is already covered by the existing BACKROOM Persephone image hold. SaraBunny and Seth text scenes are safe; no historical Staff appointment chronology is inferred.
 - Full miner census: 138 remote branches across 2 pages; 30 active miner refs (26 slash / 4 hyphen), 51 tracked identities, 21 historical refs absent remotely, 5 review-overdue branches. Reviewed August + Main HQ and the Club-Only 2021 / 2020 recovery checkpoints. All four selected branches remain at their known HEAD/consumed SHAs; no miner branch merged and no consumed SHA advanced.
 - Remaining work: August has 25 file-level candidate handoffs after Run27 classification; Main HQ has 46 after Run1906 classification. Distinct accepted A/B remainder is still unknown, not zero. Main HQ remains pending reconciliation; source-only items stay blocked individually.
+
+
+### Run47 WIKI ledger verification follow-up
+
+WIKI ledger update commit `013aea7788eeec5e017bcf8e5a4d1e3a33701ab8` was verified: build run `46059839485`, job `140711148786`, SUCCESS; `wiki-preview` status SUCCESS on the exact commit. No separate Pages run ID was exposed.
