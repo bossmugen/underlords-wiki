@@ -61,8 +61,8 @@ export const integratedEpisodes: Episode[] = [
     season: "2021",
     date: "January–September 2021",
     kind: "War Room / Dragon Raja / vocabulary / rival clubs",
-    logline: "Ren was already joking in January that her Reaper could become a roach and evade Gilli (799355381540192266). By August, Gilli was sorting rival clubs into 'too Roachy' and possibly roachable targets (874104057244033024), and Anayss promptly minted 'roachable' (874106117586812938). When Milk fielded thirty active players, Gilli upgraded them to 'radioactive roaches' that could 'bench press 220' (874839397281968138, 874839536767750224, 874839632334954547). In September Anayss explained 'roachy' to the roster as a club with many active members (890757214166483025). The word grew from an evasive class joke into a whole rival-club taxonomy, with a bodybuilding insect problem attached. The earliest surviving January joke is not asserted to be the absolute origin.",
-    cast: ["Ren", "Gilli", "Anayss"]
+    logline: "Ren was already joking in January that her Reaper could become a roach and evade Gilli (799355381540192266). On July 30, Anthos added a named casualty: 'tae got sacrificed by roaches' (870839877246275625). By August, Gilli was sorting rival clubs into 'too Roachy' and possibly roachable targets (874104057244033024), and Anayss promptly minted 'roachable' (874106117586812938). When Milk fielded thirty active players, Gilli upgraded them to 'radioactive roaches' that could 'bench press 220' (874839397281968138, 874839536767750224, 874839632334954547). In September Anayss explained 'roachy' to the roster as a club with many active members (890757214166483025). The word grew from an evasive class joke into a whole rival-club taxonomy, with a named casualty and a bodybuilding insect problem attached. The earliest surviving January joke is not asserted to be the absolute origin.",
+    cast: ["Ren", "Anthos", "Tae", "Gilli", "Anayss"]
   },
   {
     id: "gilli-anthos-mafia-photoshoot-crop-qc-2021",
