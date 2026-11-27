@@ -60,7 +60,15 @@ claims:
   - text: "On August 28, 2024, Tofu writes on the Wall, `This is isn't far off from a convo he and I had a few days ago... where is that screenshot`. The target of `he` remains unresolved."
     evidence: "archive-confirmed"
     date: "2024-08-28"
+  - text: "On November 1, 2021, Anayss publicly tagged Tofu and Cookie together on the Wall with `I saw you both exposing your dms again ~`."
+    evidence: "archive-confirmed"
+    date: "2021-11-01"
+    sources:
+      - label: "Main HQ / Wall · Anayss calls out Cookie and Tofu · 904701750475378688"
+        href: "/channels/wall"
+    note: "This is Anayss\u0027s public Wall remark. The private DMs themselves are not reproduced or characterized; the line records the public call-out and its `again` wording only."
 antiFanon:
+  - "Anayss\u0027s November 1, 2021 `exposing your dms again` line is a public Wall remark; no private DM contents, participants beyond the named pair, or consent context are inferred."
   - "The June 20 server-join timestamp is not an in-game UL admission date, Staff appointment date, or role chronology."
   - "The June 25 image-only post is earliest only inside the checked surviving Tofu interval, not a proven global/original first Wall appearance; its attachment remains uninspected."
   - "Repeated screenshot behavior does not create a formal Wall Curator, Archivist, prosecutor, or moderation title."
@@ -105,6 +113,8 @@ That is why the recurring behavior is **reciprocal evidence culture**, not prose
 ### The repeat defendant
 
 Baby Lyssa had started recognizing Tofu's Wall posts as a recurring personal hazard. In July 2021 her response to one of Tofu's images was **`GOD DAMNIT YOU TOO??`**; in September, another filing earned **`you like splattering my ass on the wall huh`**. Tofu admitted the crop had been rushed. The images themselves remain uninspected. The repeat exchange matters more than the unseen pixels: Lyssa knew whom to complain to, and Tofu was comfortable enough in the routine to discuss the workmanship.
+
+Anayss had already caught Tofu and Cookie together on November 1, 2021: **`I saw you both exposing your dms again ~`**. The word *again* marks it as a familiar pair routine, not a one-time discovery. The private DMs are not reproduced; the public Wall call-out is the whole claim.
 
 October turns Tofu back toward the prosecution table. Tofu posts **`I'm not saying @Cookies and Juicebox is a cochino but, he's a cochino.`** with a screenshot attachment. Cookie answers **`:PandaRun:`**. Three days later another screenshot exchange produces Cookie's **`its not how it looks like`**, **`i swear`**, another panda run, and **`so done`**. The binaries remain undescribed; the social mechanism is already visible without them. Tofu presents an exhibit. Cookie disputes the exhibit. The panda exits the jurisdiction.
 
