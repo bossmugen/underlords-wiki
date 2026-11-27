@@ -5,14 +5,25 @@ aliases:
 roles:
   - "Archive-era Whiskey cast"
 eraStart: 2020
-summary: "Ricochet's surviving file is ordinary-life and game-world texture rather than office-holding: a family puppy plan, South Texas cold, a tank-game account with nearly 100k battles, a hypothetical wedding idea, Cheesecake Factory with one critical missing cheesecake, a very `Funcle rich` attempt at remembering the Platelets can see the Wall, and a 2022 return where Syv notices he vanished for weeks before he immediately asks her for ramen."
+summary: "Ricochet's surviving file is ordinary-life and game-world texture rather than office-holding: games, gadgets, weather, food, practical favors, a family puppy plan, one failed Steelix command, and an early cross-club roaming habit Mugen immediately declared legal."
 summaryEvidence: "archive-confirmed"
 publication: "public"
 claims:
+  - text: "Ricochet / `dragonrichard` is a separate person from Rich / DragonRich."
+    evidence: "user-confirmed"
+    sources:
+      - label: "Mugs-confirmed Rich / Ricochet identity correction"
   - text: "The stable Ricochet account 459696170759880745, username `dragonrichard`, is already posting media in Whiskey by May 16, 2020."
     evidence: "archive-confirmed"
     date: "2020-05-16"
     note: "This is earliest surfaced Whiskey presence in the current handoff, not a proven Discord join date, UL admission date, or recruitment date. The attached MOV remains uninspected."
+  - text: "On May 14, 2020, Ricochet said he was `just in every club's discord for some reason`; Mugen answered `dw he legal` 3.664 seconds later. The next evening, Ricochet said he could get through when he needed to talk to Mugen, and she called it `Rich privileges`."
+    evidence: "archive-confirmed"
+    date: "2020-05-14 → 2020-05-15"
+    sources:
+      - label: "Lobby · Ricochet cross-club / Mugen legal stamp · May 2020"
+        href: "/channels/lobby"
+    note: "Receipts 710729317109465090, 710729332477395024, 711055892719599636, 711057870015599584. The exact access/permission referent is incomplete. `Rich privileges` is Mugen's joke-language, not a formal UL rank or proven permission set."
   - text: "On September 16, 2020, Ricochet wrote `my family getting this pupper soon` while posting an image."
     evidence: "archive-confirmed"
     date: "2020-09-16"
@@ -48,6 +59,7 @@ claims:
 antiFanon:
   - "May 16, 2020 is surfaced Whiskey presence, not Ricochet's proven entry, admission, or recruitment date."
   - "Ricochet / `dragonrichard` is not canonical Rich / DragonRich. Keep the identities separate unless a direct bridge is recovered. The September 2021 phrase `Funcle rich` is scene-level address/joke language attached to stable Ricochet account 459696170759880745, not an identity merge."
+  - "Mugen's `Rich privileges` is a joke label for Ricochet's May 2020 Lobby exchange, not a UL rank or evidence that Ricochet is Rich / DragonRich."
   - "South Texas is first-party scene context, not a complete residence history or nationality claim."
   - "The September puppy image, January tank-game screenshot, and June food image remain visually uninspected; posting does not automatically establish maker, capturer, subject, or ownership."
   - "The April wedding line is hypothetical and does not establish a relationship, engagement, spouse, or wedding plan."
@@ -78,6 +90,8 @@ tags:
 Ricochet's file does not need a title to become a person. The useful material is almost aggressively ordinary: a family dog plan, a freezing day, games bleeding into other games, one hypothetical wedding thought, somebody else reporting that he got them Cheesecake Factory while also filing a complaint against the missing cheesecake, one failed attempt to keep a filthy joke away from younger eyes, and eventually a return from absence that survives for less than a minute before becoming a ramen request.
 
 ## ALREADY IN THE ROOM, FUTURE PUPPY PENDING
+
+The Lobby had already seen the cross-club version. On May 14, Ricochet wrote `just in every club's discord for some reason`; Mugen answered `dw he legal` 3.664 seconds later. The next night he said he could get through when he needed to talk to her, and she called it `Rich privileges 😄`. The phrase is a joke label, not a role or a documented permission set.
 
 The stable `dragonrichard` account is already posting in Whiskey by May 16, 2020. The message is just `My spot` with an uninspected MOV attached. That is presence, not an origin story. May 16 is not automatically when Ricochet joined Discord, joined UL, entered Whiskey, or first met anybody there.
 

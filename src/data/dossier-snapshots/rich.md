@@ -74,6 +74,7 @@ claims:
         href: "/channels/voice-rooms"
 antiFanon:
   - "Rich = DragonRich. Ricochet / `dragonrichard` is a separate person by user-confirmed canon. The May 2020 'dw he legal' / 'Rich privileges' and December 2022 Fight Club couch messages are attributed to Ricochet, not Rich."
+  - "The May 31, 2022 Tumbleweed reply is displayed as `Rich/Ricochet`; the stable account bridge is unresolved. Do not assign that speaker to either Rich / DragonRich or Ricochet / `dragonrichard`."
   - "Snow asking Rich whether other Amaurot people wanted to join makes him a visible liaison/contact point; it does not prove he personally recruited every Amaurot arrival."
   - "Rich creating an S10-wide channel is cross-server infrastructure evidence, not proof that the channel itself caused the later Amaurot → UL merger."
   - "Amaurot later merged under UL, but Rich's former Amaurot leader title does not automatically become a UL Boss or Officer rank."
