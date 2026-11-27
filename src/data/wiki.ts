@@ -123,7 +123,8 @@ export const gags = [
   { id:"platelets", name:"Platelets", logline:"Under-18 safety role that becomes permanent once assigned. The name comes from Cells at Work!" },
   { id:"bots-with-jobs", name:"Bots With Jobs", logline:"Welcome bot? No. Underlords Stripclub Bouncer. QOTD bot? Barista. The software has employment." },
   { id:"real-leather-papa", name:"Real Leather Papa", logline:"Mugen house signature / recurring trademark. Origin remains open; recurrence does not require inventing a first use." },
-  { id:"spelling-crimes", name:"UL Cannot Spell", logline:"Typos, malformed commands, and room names become part of the native language instead of errors to clean up." }
+  { id:"spelling-crimes", name:"UL Cannot Spell", logline:"Typos, malformed commands, and room names become part of the native language instead of errors to clean up." },
+  { id:"nitro-sniper", name:"Nitro Sniper", logline:"The 2022 moving Nitro cards make everyone type the code manually; by the 2023 anniversary, `sniped`, `snag`, `snatched`, and fake mole/bounty-hunt language have turned a giveaway into a spectator sport. The cards were posted by Gilli; their maker remains unresolved." }
 ];
 
 export const relationshipGroups = [
