@@ -183,7 +183,15 @@ claims:
       - label: "Backroom Pass 7 · 756597970316689539, 756598016869400746, 756598050801189037, 769739584874479616, 769739776848166942"
         href: "/archive/club-only"
     note: "Two different games; no sabotage or shared bomb mechanic inferred."
+  - text: "From January 2022 through March 2023, Anthos joined Cele’s recurring daycare/milk joke: Cele asked when Anthos would return with the milk, later explained the pretend adoption story, and Anthos answered `and there u shall stay ~` before Cele accepted the daycare sentence because there were snacks."
+    evidence: "archive-confirmed"
+    date: "2022-01-26 – 2023-03-28"
+    sources:
+      - label: "QOTD · Cele / Anthos · 935934802866081802, 942206834633244733, 942212157448257588, 942212816889323590, 1090413235636805652"
+        href: "/archive/qotd"
+    note: "The adoption/daycare language is a recurring joke, not literal kinship or abandonment."
 antiFanon:
+  - "The adoption/daycare/milk language with Cele is a recurring joke, not literal kinship or abandonment."
   - "The Ansun/Anthos twin, `all Anthos`, alter-Anthos, `one being`, trinity, solution, and rebellion-arc language is archive-confirmed running-bit material, not a literal identity merger, religion, rebellion, or relationship-status claim."
   - "Historical 2020 gender-splitting jokes inside the Anthos multiplication bit do not override Anthos's current Mugs-confirmed identity as a woman."
   - "118 of 121 covered days describes persistence in one channel/window. It is not rank, closeness, or appointment chronology."
@@ -201,6 +209,7 @@ relatedPeople:
   - "gabu"
   - "gilli"
   - "mugen"
+  - "cele"
 tags:
   - "pit-boss"
   - "officer"
@@ -235,6 +244,16 @@ Around the same time, the Ansun/Anthos voice-twin joke takes off. The room start
 The joke does not replace the work. Through 2021 Anthos keeps carrying recurring visual routines—opening Photo Submissions rounds, posting deadline reminders, and extending them when needed. On January 6, Ren laid out the example photos and Anthos followed with the official submissions divider eight minutes later. They repeated the handoff on February 15, this time only fifty-three seconds apart. Nobody needed to announce a department: one set the references, the other opened the submissions, and the room knew what to do. By March she was folding the FLOWERS opening and submission dates into one notice. In June she posted the STALKER example header, supplied three reference images, and opened the round less than two minutes later. The same member who had been promoted into a universal constant by the group chat was still doing very mundane maintenance on the calendar.
 
 That combination is the useful character progression. Anthos becomes more mythologized because she is around, not instead of being around.
+
+## Relationship — Cele’s Daycare sentence
+
+- **2022-01-26:** Cele asks Anthos, **`when r u coming back wit the milk?`** The joke is already alive by this date; this is not its proven origin.
+- **2022-02-12:** Cele explains the pretend adoption: Anthos left her in Daycare to buy milk and never came back. Anthos joins the thread with a door-kick GIF and **`and there u shall stay ~`**. Cele answers with a jail emote, then accepts the sentence because **`there lot of snacks so`**.
+- **2023-03-28:** Cele is still thanking Anthos while accusing her of ditching Daycare for the milk.
+
+The useful relationship entry is the exchange itself: Anthos accepts the ridiculous role, and Cele keeps bringing the callback back. It is a durable joke between them, not a literal family or abandonment history.
+
+**Receipts:** `935934802866081802`, `942206834633244733`, `942212157448257588`, `942212816889323590`, `1090413235636805652`.
 
 ## Running gag — slide into DMs, literally
 
