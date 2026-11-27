@@ -3115,3 +3115,30 @@ Photo miner `archive-miner-photo-submissions-2021`, last-known HEAD `d45d441feca
 - Full MAIN miner census: 30 matching active branches; all 30 exact `last_seen_sha` comparisons returned identical. MAIN ledger commit `91e23d8594c86ae3d2fff272ebc73696ea2245cf`.
 - BACKROOM `archive-miner/backroom-deals-2026-08-24` `checkpoint.md` then `site-candidates-pass-16.md` / `receipts-pass-16.md` read directly. Sota's immediate re-textualization of Snow's allegedly VC-only material added to MAIN `src/content/people/snow.md` at `7f1efdf365b917438abb2c162f6ad1c8cb0c0aa8`, receipts `773643330105245717`, `773643428893556746`, `773643515661778974`, `773643522972057621`. Post-write source reread PASS; exact Astro/Cloudflare production verification PENDING. MAIN inventory `a0d3ed676819517e0177ec19ea83ae397d43a5bf`.
 - WIKI reader unchanged: existing structured Snow Wall/VC coverage is complementary; avoid duplicating this small character beat as another episode. Club-Only and Whiskey recovery checkpoints also read. BACKROOM consumed SHA unchanged; full 61-pass A/B candidate inventory remains incomplete. Uninspected images, officer privacy, and Rich/Ricochet attribution remain held.
+
+
+## 2026-11-26 17:55 PST — Photo Submissions + Club-Only recovery (integrator run 11)
+
+### Photo Submissions publication repair
+
+- Direct miner source: `bossmugen/underlords` branch `archive-miner-photo-submissions-2021`, HEAD `d45d441feca0110e9495f49b13df9666982bb45c`. Candidate `site-candidate-2026-08-25-1745-mafia-correction-aftershocks.md`; missing 07:30 anonymous replacement post `835885530368573491`, attachment `835885530172358676`, `uncop` preserved as typed. Cookie crop complaint `835940155058946059`, Gilli rule `835940165959811103`, later anonymous line `835940185379438653`; Gilli reply parent `835940038549569627` remains unresolved.
+- MAIN published: `src/lib/photo-submissions-overrides.ts` commit `a035ecf62e6765dcde28196daec60790353b03f8` / production run `45925902175` SUCCESS; `src/content/people/cookie.md` commit `2d226ca3a38c533dd31412b9e89c09a5fa319966` / run `45926721033` SUCCESS; `src/content/people/gilli.md` commit `c27d6fe8f26aae8ee31f231b6af9fad60b5eaf50` / run `45926968846` SUCCESS, including live-commit confirmation.
+- WIKI published: `src/data/dossier-snapshots/cookie.md` commit `d9b89816c63f612614e1340c182fe2ef73c485e0`, build `45925942173` SUCCESS, preview `45925942200` SUCCESS. The final WIKI head `339bf3a21306baca6862bf0ae06e91a01d5633f7` also passed build `45927041910` and preview `45927041920`.
+- Older WIKI verification holds now covered by the final descendant build/preview: Gilli BEACH `83fba76e`, Gilli/Ren Aug. 1 `add42d02`, Dora WALTZ `7cc77de`, DarkAsrai `60039f78`, Tae `cc69c1cd`, Persephone `b912138a`, Ren/Ghostt `3010fa61`, and WALTZ partners `5fb033d`. All are ancestors of `339bf3a`; no custom-domain fingerprint is claimed. MAIN Tae exact production run `45064056223` SUCCESS.
+- Photo inventory remains open: 28/28 individual candidate files classified, 0 unclassified; 34 cumulative headings = 23 reader-covered, 6 workflow-verified, 5 source-blocked/provenance-only; two cumulative handoffs still need incident-level closure. Distinct unpublished A/B count is not certified. MAIN branch state retains Photo `status: pending_publication`, consumed SHA `d45d441f` equals current HEAD; do not mark the family consumed.
+
+### Club-Only 2021–2026 recovery
+
+- Direct source branch `archive-miner/club-only-2021-2026-hourly`, HEAD/consumed `e45fb11c9239e236231bb65645dfd0285bc0078b`. Read checkpoint, findings, deep receipts, rabbit holes, site candidates, people/motifs, timeline, manifest and integration state. Main already carried the ShiyaX `AUUUUU`/lobster story, Dean dream thread, Rummy `Tummy`, and Fish Revolution/Fishjail narrative.
+- WIKI-only structured additions: `src/data/integrator-episodes.ts` adds `fish-revolution-fishjail-2021` and `nitro-gift-drop-manual-typing-2022`; `src/data/wiki.ts` adds the `Nitro Sniper` running gag; `src/data/cast-run1582-wall-shiya-vanness.ts` adds ShiyaX↔Ren and ShiyaX↔Rummy fake-family relationship notes. Commits `25d5622798da733ad3d620db566adebc9cc86c5c`, `90839c3d923e851901d177815cad3dc099f7a085`, `339bf3a21306baca6862bf0ae06e91a01d5633f7`. Final WIKI build/preview `45927041910` / `45927041920` SUCCESS.
+- The fake father/daughter language remains a running joke, not literal kinship. Nitro cards were POSTED BY Gilli; MADE BY remains unresolved. Fishjail is a joke, not moderation or formal governance. Later target-room retrieval remains open pending accessible approved exports.
+
+### Other recovery / anti-starvation
+
+- `archive-miner/aug-2026-living-ensemble-hourly`: reviewed delta `dfe5909dc49e -> fcc27ac7a445`; run27/run28 handoffs reviewed. Persephone, SaraBunny, Seth and Momo material already appears on MAIN/WIKI; no duplicate copy. Consumed SHA advanced to `fcc27ac7a4457fc5c93c575bd2813b8e19abfa3b`; status remains pending publication with its assigned integrator.
+- `archive-miner-clubonly-2020-hourly`: checkpoint and 2026-08-27 candidate/findings/people/rabbit-hole handoffs reread through current HEAD `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`. Danny, Carlene and B-chan are waiting for a later thin-profile pass; Feli↔Mugs remains unresolved. No membership or formal-role inference added.
+- Full MAIN census: 137 remote branches, 30 active miner branches, 51 branch-state entries, 0 newly discovered, 21 historical missing-remote references retained. QOTD, Backroom Deals and Main HQ are marked `review_overdue` / publication still owned by the other integrator. No private/officers-only material published.
+
+### Held boundaries
+
+- Do not merge the two anonymous Mafia posts into one person; do not infer image maker, capturer or featured person. Missing reply parents `835940038549569627` and `872535327926009928` remain unresolved. Original media that has not been inspected remains source-blocked. No joke family language is literalized; no joke roles are formalized.
