@@ -100,6 +100,20 @@ claims:
       - label: "Main HQ / Wall · light-mode prosecution · 1087126417864659054, 1155979862385885214, 1237737503801344071, 1293972065115967641"
         href: "/channels/wall"
     note: "The GIF is an external Tenor reaction, not a UL-made artifact. The recurring choice to deploy it is Oyasumi's; this does not establish that UL originated anti-light-mode humor or that Oyasumi held a moderation role."
+  - text: "In 2023, Oyasumi was a frequent Staff/VIP participant in QOTD, helping sustain the daily prompt ritual from the answering side rather than as a question author."
+    evidence: "archive-confirmed"
+    date: "2023"
+    sources:
+      - label: "Complete QOTD archive · people index"
+        href: "/archive/qotd"
+    note: "The intake records a recurring participation pattern without enumerating individual message IDs; no single answer is quoted."
+  - text: "In a 2026 QOTD self-report, Oyasumi said reading and gaming had fallen off because of time, while coding had become a newer skill/hobby, “not really by choice.”"
+    evidence: "archive-confirmed"
+    date: "2026"
+    sources:
+      - label: "Complete QOTD archive · people index"
+        href: "/archive/qotd"
+    note: "Dated self-description, not a claim about current employment or a permanent hobby ranking."
 antiFanon:
   - "The February 25, 2022 Lobby scene is the earliest clean surviving Oyasumi door receipt currently surfaced, not proof that this was his first-ever contact with UL. Do not date his Consigliere appointment from export-time role arrays attached to the old messages."
   - "The historical age field in Oyasumi's 2022 intake is deliberately not republished. `TankHead94` is the IGN he supplied in that scene; do not silently convert it into a permanent Discord alias or later/current game identity without another bridge."
@@ -181,6 +195,11 @@ The original screenshot's date and capturer are still unknown. The reunion repos
 Oyasumi kept one very specific complaint form on speed dial. The cat gets flashbanged; Discord light mode is the offense; the same reaction returns across three dates and two calendar years. By May 2024 he could skip the image and write the charge himself. The joke sits inside a much wider anti-light-mode pile-on, so this is not a claim that UL invented the complaint. The recurring choice is Oyasumi's.
 
 **People:** Oyasumi; Wall participants. **Source:** Main HQ `site-candidates-2026-08-25-0745.md` and `receipt-delta-2026-08-25-0745.md`. The Tenor GIF is external, not a UL-made artifact.
+
+## QOTD — REGULAR FROM THE ANSWERING SIDE
+
+- **2023:** Oyasumi was a frequent Staff/VIP participant in QOTD. He helped keep the daily prompt routine moving without needing to be the person who wrote the question.
+- **2026:** A QOTD self-report says reading and gaming had fallen away because of time; coding had become a newer skill/hobby, “not really by choice.”
 
 ## 2026 — THE HOUSE STILL RECOGNIZES HIM WELL ENOUGH TO REJECT NORMALCY
 
