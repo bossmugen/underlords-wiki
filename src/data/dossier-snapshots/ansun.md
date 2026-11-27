@@ -217,6 +217,25 @@ claims:
       - label: "Complete QOTD archive · people index and longitudinal findings"
         href: "/archive/qotd"
     note: "Question-author credit is separate from the bot account that posted the card; the aggregate handoff does not enumerate individual message IDs."
+  - text: "Ansun remembers entering UL mostly silent, typing quickly in VC rather than speaking, and taking roughly one to two months to feel comfortable talking."
+    evidence: "archive-confirmed"
+    sources:
+      - label: "QOTD · Ansun self-description"
+        href: "/channels/qotd"
+    note: "The people-index handoff preserves the self-description but supplies no individual message ID; this is a retrospective account, not a claim that he was shy in every context."
+  - text: "On January 15, 2024, Ansun described about 90% of his energy and extroversion as online and about 10% IRL."
+    evidence: "archive-confirmed"
+    date: "2024-01-15"
+    sources:
+      - label: "QOTD · Ansun self-description"
+        href: "/channels/qotd"
+    note: "The people-index handoff supplies the date and self-description but no individual message ID; this is his own online/offline calibration, not a clinical personality label."
+  - text: "Ansun's recurring QOTD interests include plants, marine biology, aquarium museums, and deep-sea nitrogen cycling."
+    evidence: "archive-confirmed"
+    sources:
+      - label: "QOTD · Ansun interest answers"
+        href: "/channels/qotd"
+    note: "A recurring interest cluster, not a professional credential or claim of formal expertise."
 antiFanon:
   - "The May 4, 2020 Lobby check-in dates surviving Discord intake and role assignment; it does not prove first friendship, first contact with UL people, or a formal Officer appointment."
   - "Ansun explaining and announcing Officers Challenge does not make him the sole owner/director of the program; his own clarification says different Officers hosted different challenges."
@@ -270,6 +289,9 @@ When side chatter takes over Slice, he sends it toward Whiskey but leaves the bi
 
 Ansun was one of QOTD's main human question-writers in its early run. His prompts repeatedly sorted the room by food, rooms, fictional casts, school roles and jobs. In 2023, the format became a writers' room for UL Mafia: at least seventeen prompts between February 19 and April 28 asked members to build biographies, weapons, jobs, flaws, abilities, arcs and scenes. By 2024, his name remained prominent among the Cafe Barista's credited question authors.
 
+## THE VOICE IS AN ONLINE THING
+
+Ansun remembers entering UL mostly silent, typing quickly in VC rather than speaking, and taking a month or two to get comfortable talking. By January 2024 he put the split more plainly: about 90% of his energy and extroversion online, about 10% IRL. The person who now fills a room with question taxonomies and knows where everyone needs to go was not born as a walking megaphone. He grew comfortable in the space where he could turn the volume up.
 
 ## Relationships: Everyone is Anthos, unfortunately
 
@@ -304,6 +326,8 @@ Later he moved from prosecutor to aspiring property owner: **`no shame all fame`
 Daya proposed a fur-suit petition. Ansun immediately wanted to know who was funding a thousand-plus-dollar suit **`for FREE?`**. Mia nominated **`the raja woof suit`** instead; Daya declared **`ansun gonna be a puppy`**. The episode is about the proposed outfit and Ansun's budget objection, not an actual costume purchase.
 
 ## Petty Crimes
+
+**Science-brain side quests.** Plants, marine biology, aquarium museums and deep-sea nitrogen cycling keep finding their way into Ansun's interests. A prompt can start as a question about people and somehow end at the bottom of the ocean.
 
 **Fall apparently comes with a menu.** On September 6, 2020, Ansun said autumn had him craving festival food, and Mugen answered **`Bbqqqq`** almost before the sentence had landed. A tiny exchange, but an excellent reminder that the man capable of turning a Wall post into a legal proceeding could also be derailed by the prospect of barbecue. The food picture he posted stays uncredited beyond the upload; nobody needs to invent a cook.
 
