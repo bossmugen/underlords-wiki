@@ -4247,3 +4247,38 @@ The dated Photo Submissions 2026-08-27 00:10 handoff family was read directly an
 - **Deduplication:** Nobu's restaurant prequel and `*Nyaa*~`, Oyasumi/Ansun's unsellable-items callback, Oyasumi's repeated light-mode flashbang GIF, Gilli/Spicy notification warfare, Ansun's Wall-of-Fame ownership, Moon's lunar-omniscience line, Tofu/Cookie reciprocal DM exposure, Rummy's context-defense and dark-mode enforcement, Snow's MONCH/nude-bush callbacks, Rummy/Tumbleweed, Slide-into-DMs, Eos corpse/reanimation, Xephy's independent return, and Wolf's receipt-hunt scenes were already present on their canonical readers or separately verified by the assigned integrations. No duplicate prose was added.
 - **Remaining assigned backlog:** August Reunion has **27 file-level site-candidate handoffs**; Main HQ has **47 file-level handoffs**. These are file counts, not distinct accepted A/B counts; the cumulative accepted A/B remainder is **unknown / not certified, not zero**. Main HQ's Gabu Health Mafia exact-ID/speaker-chain hold and Mugen/Sye Plutonian attribution hold remain unresolved. Original media remains individually source-blocked until accessible and inspected.
 - **Anti-starvation / recovery:** Photo Submissions was rechecked checkpoint-first at HEAD/consumed `d45d441feca0110e9495f49b13df9666982bb45c`; no branch delta, quarry exhausted at current boundary, no reader change. Club-Only 2021–2026 checkpoint, findings, receipts, rabbit holes, and site candidates were reviewed at HEAD/consumed `e45fb11c9239e236231bb65645dfd0285bc0078b`; no new A/B and no raw archive re-mining. Club-Only 2020 checkpoint and current site candidates were reviewed at HEAD/consumed `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`; Danny/Carlene/B-chan and other priority candidates remain with their assigned publication owner; Feli↔Mugs remains unresolved. No consumed SHA advanced on any reviewed branch.
+
+
+## 2026-11-27 Run61 — Photo Submissions: HamitteY's age-23 Lobby self-report
+
+The assigned Photo Submissions family was checked before any other publication family. The accepted 00:10 HamitteY candidate was compared with the actual MAIN and WIKI reader files. Wichita / Underlords and the Flowers entry were already present, but the source's third Lobby field — **age 23** — was missing from both readers.
+
+- **Source candidate:** `archive-intake/photo-submissions-2021-visual-contest-2026-08-19-1845-pdt/site-candidate-2026-08-27-0010-hamittey-entry-to-flowers.md`.
+- **Receipts:** `800632681950871552` (HamitteY self-report: Wichita / Underlords / 23), `800632847504769055` (Mugen's role-assignment / server-map reply), `819966871330750494` (Flowers submission).
+- **MAIN:** `src/content/people/hamittey.md`, commit `2cd100d13750336ff6d06d51ad31255075ef4412`; production run `46080559903`, job `140778289388` **SUCCESS**, exact live marker matched the reader commit.
+- **WIKI:** `src/data/dossier-snapshots/hamittey.md`, commit `3cf5bf1689967f422de414833e82a2ce5bb23e10`; Astro build `46080716506`, job `140778790201` **SUCCESS**; Pages run `46080716541`, deploy job `140778926631`, report job `140779004461` **SUCCESS**; exact `pages_build_version` matched `3cf5bf1689967f422de414833e82a2ce5bb23e10`.
+
+MAIN folds the self-report into Hami's existing person-first biography. WIKI separates the user-confirmed early-member placement from the archive-confirmed dated Lobby self-report and records the three fields as a structured Cast fact. The existing Flowers Episode remains the event owner; no duplicate Episode was created. The age is a 2021 self-report, not a current-age calculation.
+
+The companion `site-candidate-2026-08-27-0010-early-repeat-entry-context.md` was compared with LEXI, Laila, and Miihi's existing dossiers. Their onboarding and Photoshoot chronology is already represented; no duplicate text was added. LEXI's previously removed public age remains withheld.
+
+The January 4 poster invitation (receipt `795646309440815114`) is already represented in MAIN's Photo Submissions event owner and this WIKI's `photoshoot-contest-launch-from-poll-to-poster-2020-2021` Episode. The remaining dependency is the winner/result/finished-poster bridge, not the invitation itself.
+
+### Remaining Photo Submissions publication boundary
+
+- 28/28 named candidate files classified; 0 unclassified file-level candidates.
+- 34 cumulative headings: 14 reader-covered, 16 workflow-verified, 3 source/provenance-blocked, 1 superseded.
+- 0 unrepresented text-safe A/B subclaims in the classified heading set.
+- Two cumulative handoffs still need incident-level closure; the distinct accepted A/B remainder remains **unknown / not certified, not zero**.
+
+Still held: missing parents `835940038549569627` / `872535327926009928`; confident_kitten_50951 original media `835598011547516950` / `850373606083919892`; Type-X context `897041554089332737`; Mërcy displayed-name-only context `907472763281887304`; `🤳｜ul-photoshoot-event` audience/visibility; unsupported MADE BY / CAPTURED BY / FEATURING credits. No uninspected media or private material was published.
+
+### Census, anti-starvation, and consumption
+
+Full census: 30 active miner refs (26 slash, 4 hyphen), 51 tracked identities, 21 historical/missing remote refs; no new or advanced miner HEAD. Five branches remain pending/backlog/overdue: Photo Submissions, QOTD Officers, August Living Ensemble, Backroom Deals, and Main HQ.
+
+Checkpoint-first recovery checks: Club-Only 2021–2026 at HEAD/consumed `e45fb11c9239e236231bb65645dfd0285bc0078b`; Club-Only 2020 at `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`; Main HQ at `e172df0641d6fa9c9d47a2bec6ff40c1aee0fb3c`. No new branch deltas; no raw archive re-mining; no consumed SHA advanced.
+
+The Photo family remains `review_overdue / pending_publication`; this one omitted subclaim is now integrated and verified, but the family is not closed. Main report: `archive-intake/INTEGRATION_FINAL_2026-11-27_RUN61_PHOTO_SUBMISSIONS.md` (commit `1756aec3b2d6c0309bad07c9c45f079b31f62ec6`); MAIN publication inventory commit `1af32955bc514bd0007a5d436ac0fbe9b6e75445`; MAIN branch-state commit `823aec4f81490e0b1d7c493e4353fe84b34a2337`; WIKI run report `INTEGRATOR_RUN_819.md` (commit `99a56c8ca2bc953ad2716906480810789ce8e298`).
+
+The local runtime had no repository checkout and could not resolve github.com for a clone. Exact MAIN production and WIKI Astro/Pages workflows supplied the build/deployment verification above.
