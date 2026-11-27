@@ -232,6 +232,15 @@ claims:
         href: "/channels/announcements"
     note: "The planning and countdown are Mugen's; the January 4 poster pitch and January 9 very-first-Photoshoot-Contest wording are Anthos's separate messages. This dates the surviving public trail, not the private origin of the idea."
 
+  - text: "Across 2022, Mugen repeatedly captioned public Wall posts with the mock geography `Officer Country`: `What goes on in officer country` (March 28), `What really happens in officer country:` (August 5), and `Meanwhile in officer country` (November 13). Ren replied to the November post: `As you can see it’s a very professional workplace`."
+    evidence: "archive-confirmed"
+    date: "2022-03-28 – 2022-11-13"
+    sources:
+      - label: "Wall · Officer Country captions / Ren reply · 957947080104611840 / 957947523253800970 / 957969068550397992 / 1005263354853589032 / 1041439204720255017 / 1041439492512415764"
+        href: "/channels/wall"
+    note: "The August and November posts include attachments that have not been visually inspected. This claim covers the captions and Ren’s text reply only. March 28 is the earliest recovered instance in this bounded search, not necessarily the phrase’s origin."
+
+
 relatedPeople:
   - "dean"
   - "key"
@@ -312,6 +321,12 @@ The guild's founding and the current Discord's origin are two different stories.
 ## Quotes
 
 - **July 7, 2021 · WALTZ announcement:** `For tips and tricks see #💡｜photoshoot-tips` — Mugen's public pointer to the contest's tips lane.
+
+## Running Gags
+
+### Officer Country
+
+Mugen gave the officers’ room a mock border in three 2022 Wall captions: **`What goes on in officer country`** (March 28), **`What really happens in officer country:`** (August 5), and **`Meanwhile in officer country`** (November 13). Ren’s November reply supplied the official review: **`As you can see it’s a very professional workplace`**. The room had acquired a foreign ministry; the Wall was where its dispatches escaped.
 
 ## Mugs according to Mugs
 
