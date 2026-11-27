@@ -4,7 +4,7 @@ aliases:
   - "miin_mochii"
 roles:
   - "Staff"
-summary: "Momo is current Staff whose best surviving character rhythm is premise acceptance followed by sideways escalation: `Age: N/A`, calling UL's cursed genealogy Alabama and then family, liking the darkness she is being saved from, a recurring twin bit with Mimi / Opalite Honey, and waking from VC sleep directly into all-caps One Piece."
+summary: "Momo is current Staff whose best surviving rhythm is premise acceptance followed by sideways escalation: `Age: N/A`, the cursed family chart, liking the darkness, the Mimi twin bit, and waking from VC sleep into all-caps One Piece. Her QOTD self-portrait adds the quieter half: observant, sarcastic, a direct advice friend, and selective about trust."
 summaryEvidence: "archive-confirmed"
 publication: "public"
 claims:
@@ -46,6 +46,24 @@ claims:
     sources:
       - label: "August Reunion Run 18 · Whiskey · messages 1537916070080421918, 1537916150879486073, 1537916171335106641, 1537917296457154660, 1537917331437781064"
         href: "/channels/whiskey-room"
+  - text: "In a 2022 QOTD self-description, Momo calls herself a drifter, quirky and sarcastic, a direct advice/vent friend, and an observer who absorbs information; she also frames physical/personal-space access as selective vulnerability and trust."
+    evidence: "archive-confirmed"
+    date: "2022"
+    sources:
+      - label: "QOTD · Momo self-description"
+        href: "/channels/question-of-the-day"
+  - text: "On June 7, 2024, Momo says she had decided to pursue becoming a doctor and jokes about more than eight years of schooling ahead."
+    evidence: "archive-confirmed"
+    date: "2024-06-07"
+    sources:
+      - label: "QOTD · Momo self-description"
+        href: "/channels/question-of-the-day"
+  - text: "On August 12, 2024, Momo's QOTD self-description presents her as affectionate with selected people, protective enough to get confrontational, and still sarcastic, blunt and dry."
+    evidence: "archive-confirmed"
+    date: "2024-08-12"
+    sources:
+      - label: "QOTD · Momo self-description"
+        href: "/channels/question-of-the-day"
 antiFanon:
   - "Momo is not Mimi / Opalite Honey or Mia; Mimi and Mia are distinct accounts, and the twin language is a recurring joke between distinct people, not literal kinship or identity evidence."
   - "Do not infer Momo's exact age from the 2020 `Age: N/A` intake scene."
@@ -58,6 +76,7 @@ antiFanon:
   - "`BLUE PYRO BIRD MAN` is preserved as Momo's One Piece shorthand; do not assign a specific character unless a source resolves it."
   - "Uninspected Wall attachments tied to the twin and `2fer1` clusters do not authorize image-content, maker, capture, or subject claims."
   - "Export-time VIP / Fun Size arrays do not establish role chronology."
+  - "The June 2024 doctor statement is a dated aspiration, not evidence of a completed qualification or current profession."
 relatedPeople:
   - "gilli"
   - "moon"
@@ -72,6 +91,10 @@ tags:
   - "twin-bit"
   - "family-language"
   - "one-piece"
+  - "qotd"
+  - "direct-advice"
+  - "selective-trust"
+  - "medicine-aspiration"
 ---
 
 # Momo
@@ -105,6 +128,12 @@ Then 2024 delivers the reboot sequence. In a voice-channel sidecar text log, Syv
 That is the scene. The nap is setup. The character beat is the reboot: asleep, startled awake by Rich, then instantly operational at full anime volume. One Piece is therefore a safe interest in this specific scene because Momo is the one yelling it. The page does not use `BLUE PYRO BIRD MAN` to name a favorite character unless a source actually resolves the reference.
 
 By August 2026 the room had found an even faster way to hand her a new identity. Mugs greeted **`Wolfie and milo`**; Sye asked **`Who milo ?`**; Mugs corrected herself to **`Momo😭`**. Momo answered **`I’m Milo now-`**, and then wheezed at the Milo GIF Mugs sent back. Five minutes of accidental rebranding, voluntarily accepted. The joke belongs with the Mimi twin paperwork and the `2fer1` mishap: Momo does not need to start the confusion to make it worse. **Milo** never became a lasting alias.
+
+## She keeps the guest list small
+
+QOTD gives the social counterpart to Momo's sideways answers. She calls herself a drifter — quirky, sarcastic, and more likely to watch and absorb than to announce herself. She is comfortable being the person a friend brings a vent to, and says she gives direct advice. Physical closeness is more selective: letting someone into her personal space means letting them see a vulnerable side. By August 2024 she describes herself as affectionate with chosen people, blunt and dry, and protective enough to get confrontational. The combination reads less like distance than deliberate access; she does not hand everybody the same version of herself.
+
+In June 2024, she also said she had decided to pursue becoming a doctor, joking about the eight-plus years of schooling ahead. Big plan; very long loading screen.
 
 There are unresolved Momo exhibits downstairs. A 2022 Wall sequence contains two attachments, clown reactions, `Bai bai`, and a later `momo said 2fer1` line from Daya, but no reply metadata actually joins the `2fer1` remark to those images. The chronology is precise; the premise is not. The wiki does not staple them together just because doing so would produce another funny paragraph.
 
