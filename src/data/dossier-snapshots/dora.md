@@ -1,0 +1,98 @@
+---
+name: "Dora"
+aliases:
+  - "dorαッ"
+  - "racoon3986"
+roles: []
+eraStart: 2021
+eraEnd: 2021
+summary: "A Forsaken visitor who took UL's Photoshoot invitation seriously: partnered with Lapis for WALTZ, received a gentle editing correction from Ren, and came back for POPSTAR."
+summaryEvidence: "archive-confirmed"
+publication: "public"
+claims:
+  - text: "On July 10, 2021, Dora directly identified her club as Forsaken in the UL Lobby; Anayss welcomed her and pointed her to Photo Submissions."
+    evidence: "archive-confirmed"
+    date: "2021-07-10"
+    sources:
+      - label: "Lobby · 863452254141153341 / 863452739798171709"
+        href: "/channels/lobby"
+  - text: "On July 10, Dora named KuroAren in her own WALTZ submission; on July 12, Lapis posted another WALTZ entry naming Dora as partner. These are two dated creative pairings, not an exclusive couple."
+    evidence: "archive-confirmed"
+    date: "2021-07-12"
+    sources:
+      - label: "Photo Submissions · 864076757694152724"
+        href: "/events/photo-submissions"
+  - text: "On August 4, Ren explained that Dora's added sentence violated the outside-editing rule and explicitly welcomed an original-picture resubmission."
+    evidence: "archive-confirmed"
+    date: "2021-08-04"
+    sources:
+      - label: "Photo Submissions · 872536647093338212 / 872536796846768199"
+        href: "/events/photo-submissions"
+  - text: "Later on August 4, Dora posted a DUSK TIL DAWN attachment after Ren offered the original-picture route. The missing reply parent prevents identifying it as a corrected version of the earlier image."
+    evidence: "archive-confirmed"
+    date: "2021-08-04"
+    sources:
+      - label: "Photo Submissions · 872636046922379324 / 872636046653947944"
+        href: "/events/photo-submissions"
+  - text: "On August 22, Dora returned with an attachment-led POPSTAR entry."
+    evidence: "archive-confirmed"
+    date: "2021-08-22"
+    sources:
+      - label: "Photo Submissions · 879105132304941077"
+        href: "/events/photo-submissions"
+antiFanon:
+  - "Forsaken is Dora's direct July 2021 club identification, not evidence of UL in-game membership."
+  - "Lapis and Dora's WALTZ partnership does not establish romance or when they met."
+  - "The WALTZ, DUSK TIL DAWN, and POPSTAR images remain visually uninspected; posting does not establish image authorship or who appears in them."
+  - "The August 4 later attachment is not proven to be the corrected version; Ren’s referenced parent 872535327926009928 is missing."
+relatedPeople:
+  - "lapis"
+  - "ren"
+  - "anayss"
+tags:
+  - "visitor"
+  - "Forsaken"
+  - "photoshoot"
+  - "photo-submissions"
+  - "waltz"
+  - "popstar"
+---
+
+# Dora
+
+Anayss pointed Dora toward Photo Submissions when she came through the Lobby as a **Forsaken** visitor on July 10, 2021. Dora named KuroAren in her own WALTZ entry that day. Less than two days later Lapis was submitting another WALTZ entry with Dora tagged as her partner. One dance prompt, two different partners, and absolutely no reason to turn either screenshot into a marriage certificate. That is a fairly efficient server tour: here's the contest channel; congratulations, you're in the contest.
+
+Dora kept showing up. During DUSK TIL DAWN, Ren caught an added sentence that broke the no-outside-editing rule. The correction came with a soft landing: **`Haii doraaaa`**, followed by a precise explanation, then **`It’s oki if you post the Og pic without the sentence`**. Ren wasn't waving the rule away, but she wasn't trying to make the entrant disappear either. Dora was back with a POPSTAR image on August 22.
+
+## Episodes
+
+| Date | Episode |
+| --- | --- |
+| 2021-07-10 | Identifies as Forsaken in Lobby; Anayss directs her to Photo Submissions |
+| 2021-07-10 | Dora posts WALTZ entry naming KuroAren as partner |
+| 2021-07-12 | Lapis posts WALTZ entry naming Dora as partner |
+| 2021-08-04 | Ren explains outside-editing rule and offers original-image route |
+| 2021-08-04 | Dora posts a DUSK TIL DAWN attachment later that day; whether it implements Ren’s suggested fix is unknown |
+| 2021-08-22 | Dora posts another entry for POPSTAR |
+
+## Relationships
+
+**KuroAren:** Named by Dora in her own July 10 WALTZ caption.
+
+**Lapis:** Named Dora as WALTZ partner two days later; neither pairing establishes romance.
+
+**Ren:** Enforced a rule while making resubmission feel possible.
+
+**Anayss:** The person who pointed Dora to the contest door.
+
+## Gallery / media notes
+
+**WALTZ (July 10):** Dora posted a caption naming KuroAren; image capture and authorship unverified. Source: Photo Submissions miner `site-candidates-hourly.md` (Waltz overlap).
+
+**WALTZ (July 12):** posted by Lapis, message `864076757694152724`; attachment `864076757408808980`.
+
+**DUSK TIL DAWN (August 4):** posted by Dora, message `872636046922379324`, attachment `872636046653947944` (`B612_20210805_002922_445.jpg`). Ren’s missing reply parent prevents a before/after comparison. This is a later submission, not a verified corrected version.
+
+**POPSTAR:** posted by Dora, message `879105132304941077`; attachment `879105132099424306`.
+
+Both images remain uninspected. Source handoff: Backroom `site-candidates-pass-18.md`, `receipts-pass-18.md`.

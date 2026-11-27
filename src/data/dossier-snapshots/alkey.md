@@ -1,0 +1,160 @@
+---
+name: "Alkey"
+roles:
+  - "Staff"
+summary: "Alkey is current Staff, Canadian, and deeply hockey-shaped: user-confirmed coaching background sits beside archive-confirmed officiating and a recurring comic instinct for turning tiny setups into little performances."
+summaryEvidence: "archive-confirmed + user-confirmed"
+publication: "public"
+claims:
+  - text: "Mugs has confirmed that Alkey is Canadian and has coached hockey. The archive separately records Alkey describing himself as a hockey official in 2021; coaching and officiating are related hockey contexts but are not treated as the same job."
+    evidence: "user-confirmed + archive-confirmed"
+    date: "2021-02-15 archive checkpoint"
+  - text: "Current canon places Alkey on the Staff shelf. Period jokes such as `peasant alkey`, `officer alkey`, Batman framing, and other Alkey variants do not establish formal role history or permanent identity labels."
+    evidence: "canon-lock"
+  - text: "On April 10–11, 2020, Alkey participates in the ClubChat turnip-market sequence with Mugen, Mammon, and Angel, helping funnel people toward the merchant while Mugen corrects the sale window to 7am–7pm."
+    evidence: "archive-confirmed"
+    date: "2020-04-10 – 2020-04-11"
+  - text: "On August 19, 2020, Gilli and Mugen cycle Alkey through `peasant alkey` and `officer alkey` as a joke. Nothing in the surfaced scene appoints Alkey to Officer rank."
+    evidence: "archive-confirmed"
+    date: "2020-08-19"
+  - text: "On September 10, 2020, Gilli starts `I like alkey gay alkey best alkey`; Alkey joins the sequence, Mugen adds `I like alkey every week`, and the exchange spins through `yamum`, `yadad`, and `yaself` before Hishiro says `Another win` and Alkey answers `Let’s go`."
+    evidence: "archive-confirmed"
+    date: "2020-09-10"
+  - text: "On September 16, 2020, Mugen describes Alkey as `destroying them like batman`; Alkey answers with comic-book impact words `_BANG_ _KRASH_ _BIFF_ _SOCK_`. Batman is Mugen's scene framing, not a stable persona."
+    evidence: "archive-confirmed"
+    date: "2020-09-16"
+  - text: "On September 24–25, 2020, a room-wide `Horny Death Sentence` bit produces `So Sexy Alkey shall die?`, Angel's `only horny alkey shall die`, and Alkey's later return line `good news for u, horni alkey is here`."
+    evidence: "archive-confirmed"
+    date: "2020-09-24 – 2020-09-25"
+  - text: "Across October and November 2020, Alkey and Nobu become a recurring Wall meme economy: Alkey negotiates trade terms for Nobu to see a post, laughs at `The alkey twins`, protests `NOBU SRNADER ME ALREADY`, appears in a Halloween `Nobu as Alkey` joke, receives `Justice Alkey!!!!!`, and later answers an `:alkey:` emote with a thumbs-up."
+    evidence: "archive-confirmed"
+    date: "2020-10-04 – 2020-11-11"
+  - text: "On February 15, 2021, Alkey describes himself as a hockey official: `I’m a hockey official.. no one likes me`. Across March and April he repeatedly returns to hockey through equipment, rink conditions, and marriage jokes."
+    evidence: "archive-confirmed"
+    date: "2021-02-15 – 2021-04-10"
+  - text: "On April 9, 2021, Ansun proposes `alkitty`, Mugen calls it cute, and several minutes later the same Wall stretch contains Alkey's `You all suck`."
+    evidence: "archive-confirmed"
+    date: "2021-04-09"
+  - text: "Later on April 9, 2021, Ansun/Sou opens a separate Wall package with `Tsundere: Alkey`; after two screenshots, Ren writes `The name fits him so much` and then pings Alkey."
+    evidence: "archive-confirmed"
+    date: "2021-04-09"
+  - text: "On September 11–13, 2021, Alkey participates in an Aisha teasing run, including `Her eyebrows KAKAKAKAKA`, accepting Aisha's comeback with `got me good`, and later joining the absurd `We'll sell Aisha auction!!!!` bit. These are peer jokes, not literal hostility or threats."
+    evidence: "archive-confirmed"
+    date: "2021-09-11 – 2021-09-13"
+  - text: "On June 3, 2022, Alkey re-enters the Lobby with `hi alkey here`; he and Mugen perform a mock first meeting — `hi im alkey, nice to meet you`, `Nice to meet you to sir`, `have you heard of dragon raja?`, `I have NAWT`. This is old-member re-entry theater, not evidence that they first met in 2022."
+    evidence: "archive-confirmed"
+    date: "2022-06-03"
+  - text: "Alkey and Meowk are separate public people. The February 2021 Lonely Photoshoot attachment filed under the Meowk account is not an Alkey participation receipt."
+    evidence: "archive-confirmed"
+    sources:
+      - label: "Core Rooms / Events stable-account identity reconciliation · Run 843"
+    note: "Meowk stable account 264889543365230614; do not bridge distinct accounts from nickname similarity."
+  - text: "On August 14, 2026, Alkey said he worked at an airport and had slept inside a curtained baggage cart during late-flight downtime, using a passenger duffel bag as a pillow; Mugen answered `Free pillow`."
+    evidence: "archive-confirmed"
+    date: "2026-08-14"
+    sources:
+      - label: "August Reunion Run 17 · Whiskey · 1537960010808828024 / 1538013105781481532 / 1538013175063253034 / 1538013215844208650"
+        href: "/channels/whiskey-room"
+    note: "Alkey self-reported the incident. No airport, employer, passenger, or location is identified; it is one episode, not a recurring work habit."
+antiFanon:
+  - "Alkey is not Key / Captain Chihuahua."
+  - "Meowk is a separate stable-account person, not an Alkey alias. Do not transfer Meowk’s Lonely Photoshoot entry or Wall episodes to Alkey."
+  - "Canada and hockey coaching are user-confirmed background; the 2021 hockey-official line is a separate self-report and should not be collapsed into one invented employment timeline."
+  - "Do not promote Alkey to Officer from the August 2020 `officer alkey` joke. Current canon places him on Staff."
+  - "`gay alkey`, `Sexy Alkey`, `horni alkey`, `peasant alkey`, and similar room-generated variants are temporary scene labels, not standalone identity or sexuality claims."
+  - "Batman, Saul, Nobu-as-Alkey, and other meme frames are jokes applied to Alkey, not permanent alter egos."
+  - "`alkitty` is Ansun's one-scene joke proposal, not a confirmed Alkey alias."
+  - "`Tsundere: Alkey` is one explicit peer-characterization scene, not a formal alias or proven recurring Alkey title; the two attached screenshots remain visually uninspected."
+  - "The February 2021 chicken-emote and March 2021 `i` / `saw` / `all` scenes belong to the distinct Meowk account; do not assign them to Alkey."
+  - "The Aisha exchange and `auction` language are peer banter; do not literalize them into threats, bullying findings, or a sale."
+  - "The June 2022 Lobby exchange is a mock re-introduction between people who already knew one another, not a first meeting."
+  - "An uninspected November 2021 screenshot remains uninspected; Mugen's caption alone does not establish its contents."
+  - "Export-time role arrays do not establish Staff or Officer appointment chronology."
+relatedPeople:
+  - "mugen"
+  - "gilli"
+  - "nobu"
+  - "angel"
+  - "hishiro"
+  - "aisha"
+  - "ansun"
+  - "ren"
+  - "rooks"
+tags:
+  - "staff"
+  - "hockey"
+  - "wall"
+  - "club-only"
+  - "nobu"
+  - "running-bits"
+---
+
+# Alkey
+
+Alkey is **Canadian** and has **coached hockey**, and the archive independently catches him describing himself as a **hockey official** in 2021. Those are related parts of the rink-shaped background without being silently merged into one job title. He is current **Staff**, but his actual character file is much better than the badge: hockey keeps returning in his own words, while the Wall repeatedly catches him turning tiny setups into compact performances.
+
+The earliest useful scene is almost quaint by later standards. In April 2020, during the ClubChat turnip-market sequence, Alkey is part of the little merchant funnel with Mugen, Mammon, and Angel: who has the seller, when can people come, what is the correct window, where does everybody need to go. Mugen eventually corrects the sale window to **7am–7pm**. It is mundane coordination, but that matters. Before Alkey becomes a meme product, he is already visible as somebody participating in the tiny logistics that make a shared game room function.
+
+By August the room has discovered that his name can take modifiers. Gilli and Mugen cycle him through **`peasant alkey`** and **`officer alkey`**. The wiki refuses the obvious trap: `officer alkey` is not a promotion receipt. There is no appointment language, no role transition, no supporting chronology. The joke only works because the label is being slapped on him in real time.
+
+September turns that naming habit into a full assembly line. Gilli begins **`I like alkey gay alkey best alkey`**. Alkey joins instead of standing outside the bit. Mugen adds **`I like alkey every week`**. The exchange starts generating `yamum`, `yadad`, and `yaself`, until Hishiro drops **`Another win`** and Alkey answers **`Let’s go`**. The important behavior is not any one adjective attached to him. It is the willingness to keep batting the joke forward until somebody declares the exchange a victory.
+
+Six days later Mugen changes genres and says Alkey is **`destroying them like batman`**. Alkey responds with pure 1960s-TV violence typography:
+
+> `_BANG_ _KRASH_ _BIFF_ _SOCK_`
+
+There is no need to make Batman a personality category. Mugen hands him a comic-book frame; Alkey immediately supplies the sound-effects department.
+
+Then comes the **Horny Death Sentence**, which is exactly as stupid as it sounds and therefore deserves careful sourcing. On September 24–25, a room-wide bit about executing horniness reaches Alkey. He asks **`So Sexy Alkey shall die?`**. Angel clarifies **`only horny alkey shall die`**. Later Alkey announces **`good news for u, horni alkey is here`**. This is not a sexuality claim, disciplinary action, or death threat. It is another temporary Alkey variant being born, condemned, and then returning to work anyway.
+
+October and November are where the machinery gets industrial. Nobu and Alkey become a recurring Wall meme economy. Alkey asks for a **`trade post so nobo can see`**, accepts terms, says **`i sent the terms over`**, and generally behaves like a broker in a market whose commodity is somebody else's ability to witness a joke. A GIF produces Mugen's **`The alkey twins`** and Alkey's delighted **`HAHAHAHAHAH`**. Elsewhere Alkey yells **`NOBU SRNADER ME ALREADY`**. Halloween produces **`Nobu as Alkey`**. A later teasing image spins into Mugen's **`Justice alkey!!!!!`** and another member's **`Justice for Alkey`**. By November Mugen can deploy an **`:alkey:`** emote and Alkey's answer is simply a thumbs-up.
+
+That run is useful because it shows Alkey occupying several sides of the same joke. He is target, negotiator, plaintiff, reaction audience, and brand asset. The room keeps converting him into a meme object, but he is not passive inside the process. He negotiates the bit, objects to the bit, laughs at the bit, and eventually acknowledges a literal Alkey emote like this is a completely normal endpoint for a human identity.
+
+## THE BAG-CART NAP — AUGUST 2026
+
+Alkey had a very practical solution to waiting out late flights at the airport where he worked: climb into a baggage cart, shut the curtains, and sleep. The improvised pillow was a random passenger duffel bag. When he explained the arrangement in the reunion Whiskey room, Mugs supplied the entire workplace review in two words: **`Free pillow`**.
+
+The contrast is painfully Alkey. The hockey man who can perform intimidation for the room is also the man turning airport equipment into a nap station, then telling everybody exactly how he did it. This was one self-reported shift, not an established daily routine; no employer or airport is named.
+
+## 2021 — HOCKEY IS NOT A ONE-LINE BIO FACT
+
+On February 15 Alkey writes **`I’m a hockey official.. no one likes me`**. In March he is discussing custom hockey skates north of $1,000. In April the rink environment comes up again, then Alkey announces **`I’m married to hockey so`** and later asks **`Can I legally marry hockey`**. Tae answers **`Ew hockey`** and Alkey defends the sport; Anthos has already heard enough equipment talk to ask whether he works in the hockey industry.
+
+The repetition matters more than any one sentence. Hockey is user-confirmed real-life context and repeatedly self-authored archive material. The marriage language is a joke, but it is a joke exaggerating something durable rather than inventing an interest for the night.
+
+## THE NAMING COMMITTEE HAS NO JURISDICTION
+
+April 9 gives the room a different way of playing with him. Ansun proposes **`alkitty`**. Mugen answers **`So cute`** and Ren adds a paw. Several minutes later, the same Wall stretch contains Alkey's own filing:
+
+> `You all suck :myv_Reeeeee:`
+
+The juxtaposition is hilarious. It is **not** enough to write a fake transcript where Alkey directly rejects `alkitty`: Discord stores his line as a normal message, not a reply to Ansun or Mugen. What the scene safely shows is the social environment around him. The room is comfortable throwing cat-shaped nicknames around, and Alkey's nearby complaint sits in the same general register of affectionate hostility; it is not a direct answer to the proposal. `alkitty` stays a joke proposal, not a case-file alias.
+
+A few minutes later, Sou makes the character note explicit rather than leaving it buried in the screenshots. He posts **`Tsundere: Alkey`**, follows it with two images, and Ren answers **`The name fits him so much`** before pinging Alkey. The screenshots themselves are still sealed; the wiki does not invent whatever affectionate-denial exchange might be hiding in them. The safe fact is the social diagnosis: Sou puts the trope on the evidence folder and Ren immediately agrees that it fits this man. That is stronger than a random adjective and weaker than an alias. Later `tsundere` language is also used for Moon, so Alkey does not get to smuggle it into his government name just because the prosecution had stationery.
+
+## THE COMEBACK IS ALLOWED TO LAND
+
+The September 2021 Aisha run matters because it shows Alkey is not only comfortable sending jokes. He posts **`Her eyebrows KAKAKAKA`**. Aisha fires back. Alkey answers **`got me good`**. Two days later the room is joking **`We'll sell Aisha auction!!!!`**. The archive supports teasing and escalation; it does not support literalizing the auction language or turning it into hostility.
+
+`got me good` is the useful part. Alkey does not need to win the exchange in order to keep enjoying it. The return joke can land, he can admit it landed, and the scene keeps moving.
+
+## 2022 — EVEN THE FRONT DOOR BECOMES MATERIAL
+
+By 2022, onboarding itself is available as a prop. Alkey re-enters Lobby with **`hi alkey here`**. Mugen answers **`hi im mugen`**. Alkey plays along: **`hi im alkey, nice to meet you`**. Mugen replies **`Nice to meet you to sir`**. Alkey asks **`have you heard of dragon raja?`** and Mugen deadpans **`I have NAWT`**. Angel wraps the sequence with a meme GIF.
+
+This is not two people meeting. It is two old community members briefly pretending the prior relationship does not exist because the front-door ritual has handed them a script.
+
+## IDENTITY AND ROLE BOUNDARY
+
+**Alkey and Meowk are separate people**, as established by the current stable-account reconciliation; Meowk is account `264889543365230614`. Alkey is also not Key / Captain Chihuahua. Similar names, nearby jokes, and historical display-name projections do not merge humans. Older Meowk-attributed scenes on this page require owner-by-owner correction before being treated as Alkey biography.
+
+Current canon places Alkey on the **Staff** shelf. Export-time VIP / 18+ arrays do not establish when Staff happened, and the August 2020 `officer alkey` joke does not appoint him to Officer. The later archive is thinner than the 2020–2022 run, so the wiki does not manufacture a neat promotion story simply because a current title exists.
+
+A Wall screenshot captioned **`@Meowk 💖✨ shows his true colors`** belongs to the separate Meowk identity and must not be used to characterize Alkey. The attachment remains uninspected.
+
+Alkey's actual through-line does not need that invention. Hockey keeps following him because it is real. The room keeps remaking his name because the joke works. He keeps participating because he can usually find the next beat — a sound effect, a bow, a three-part reveal, a fake introduction, or the simple admission that somebody else's comeback got him good.
+
+## Episode — The Lonely entry
+
+The February 2021 **Lonely** Photoshoot attachment (message `812805687142907924`) belongs to the separate **Meowk** account. It is not an Alkey participation credit, and neither its maker nor its pictured subject is established by the posting alone.

@@ -1,0 +1,96 @@
+---
+import WikiLayout from "../../layouts/WikiLayout.astro";
+import "../../styles/characters.css";
+import { castGroups, characterById } from "../../data/cast";
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const url = (path: string) => `${base}${path}` || path;
+
+const publicGroupOrder = [
+  "leader",
+  "officers",
+  "retired-officers",
+  "game-officers",
+  "snipers",
+  "directors",
+  "staff",
+  "platelets",
+  "vip",
+] as const;
+
+const publicGroupLabels: Record<string, string> = {
+  leader: "Leader",
+  officers: "Officers",
+  "retired-officers": "Retired Officers",
+  "game-officers": "DR Officers",
+  snipers: "Snipers",
+  directors: "Executives",
+  staff: "Staff",
+  platelets: "Platelets",
+  vip: "VIPs",
+};
+
+const visibleGroups = publicGroupOrder
+  .map((id) => castGroups.find((group) => group.id === id))
+  .filter((group) => group !== undefined);
+const randomCharacterIds = visibleGroups.flatMap((group) => group?.characterIds ?? []).filter((id) => characterById.has(id));
+---
+<WikiLayout title="Strippers | Underlords" description="The people of Underlords: biographies, aliases, roles, relationships, reputations, habits, and Petty Crimes.">
+  <section class="hero cast-hero">
+    <div>
+      <div class="kicker">MEET THE CLOWNS RESPONSIBLE</div>
+      <h1>STRIPPERS</h1>
+      <p class="tagline">The archive matters because somebody lived in it. Start with the people; the rooms, incidents, jobs, screenshots, relationships, and six-year mythology will follow them into frame.</p>
+      <div class="hero-actions">
+        <a class="ul-button secondary" href="/clown-car">OPEN THE CLOWN CAR</a>
+        <a class="ul-button secondary" id="random-stripper" href="/snoop?type=STRIPPERS">RANDOM CLOWN</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="cast-index" aria-label="Character groups">
+    {visibleGroups.map((group) => (
+      <a href={`#${group.id}`}><span>{publicGroupLabels[group.id]}</span><small>{group.characterIds.filter((id) => characterById.has(id)).length}</small></a>
+    ))}
+  </section>
+
+  {visibleGroups.map((group) => {
+    const groupCharacters = group.characterIds.map((id) => characterById.get(id)).filter(Boolean);
+    if (!groupCharacters.length) return null;
+    return (
+      <section class="section cast-section" id={group.id}>
+        <div class="section-head">
+          <h2>{publicGroupLabels[group.id]}</h2>
+        </div>
+        <div class="cast-grid">
+          {groupCharacters.map((character) => character && (
+            <a class="cast-card" data-initial={character.name[0]} href={url(`/characters/${character.id}`)}>
+              <div class="cast-card-top">
+                <small>{character.role}</small>
+                <span>{character.era}</span>
+              </div>
+              <strong>{character.name}</strong>
+              {character.aliases?.length ? <div class="cast-aliases"><b>ALSO ANSWERS TO</b> {character.aliases.slice(0, 3).join(" · ")}</div> : null}
+              <p>{character.logline}</p>
+              <div class="cast-card-footer">OPEN FILE <b>→</b></div>
+            </a>
+          ))}
+        </div>
+      </section>
+    );
+  })}
+
+  <section class="section cast-rule">
+    <div class="section-head"><h2>One clown. One continuity.</h2><p>Ranks change. Accounts change. Display names mutate. Corrections and aliases follow the person instead of spawning duplicate people in fake mustaches.</p></div>
+  </section>
+
+  <script define:vars={{ randomCharacterIds, base }}>
+    const randomStripper = document.querySelector('#random-stripper');
+    randomStripper?.addEventListener('click', (event) => {
+      if (!randomCharacterIds.length) return;
+      event.preventDefault();
+      const id = randomCharacterIds[Math.floor(Math.random() * randomCharacterIds.length)];
+      window.location.href = `${base}/characters/${id}`;
+    });
+  </script>
+</WikiLayout>

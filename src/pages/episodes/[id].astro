@@ -1,0 +1,94 @@
+---
+import WikiLayout from "../../layouts/WikiLayout.astro";
+import { allCharacters } from "../../data/cast";
+import { seasons } from "../../data/wiki";
+import { allEpisodes, episodeFormat } from "../../data/all-content";
+
+export function getStaticPaths() {
+  return allEpisodes.map((episode) => ({ params: { id: episode.id }, props: { episode } }));
+}
+
+const { episode } = Astro.props;
+const characterByName = new Map<string, any>();
+for (const character of allCharacters) {
+  characterByName.set(character.name.toLowerCase(), character);
+  for (const alias of character.aliases ?? []) characterByName.set(alias.toLowerCase(), character);
+}
+const cast = episode.cast.map((name: string) => characterByName.get(name.toLowerCase())).filter(Boolean);
+const format = episodeFormat(episode);
+const seasonEpisodes = allEpisodes.filter((item) => item.season === episode.season);
+const index = seasonEpisodes.findIndex((item) => item.id === episode.id);
+const previous = index > 0 ? seasonEpisodes[index - 1] : undefined;
+const next = index >= 0 && index < seasonEpisodes.length - 1 ? seasonEpisodes[index + 1] : undefined;
+const availableSeasonYears = new Set(seasons.map((season) => season.year));
+const mentionedYears = [...episode.season.matchAll(/\b(?:19|20)\d{2}\b/g)].map((match) => match[0]);
+const matchedSeasonYears = [...new Set(mentionedYears.filter((year) => availableSeasonYears.has(year)))];
+const eraHref = matchedSeasonYears.length === 1 ? `/seasons/${matchedSeasonYears[0]}` : "/seasons";
+const eraTitle = matchedSeasonYears.length > 1
+  ? `Across ${episode.season}`
+  : matchedSeasonYears[0] ?? episode.season;
+const eraNote = matchedSeasonYears.length > 1
+  ? "See the eras this story crossed."
+  : matchedSeasonYears.length === 1
+    ? "See what kind of year produced this."
+    : "Start at the surviving public chronology.";
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const url = (path: string) => `${base}${path}` || path;
+---
+<WikiLayout title={`${episode.title} | Underlords`} description={episode.logline}>
+  <div class="breadcrumbs"><a href={url("/episodes")}>Episodes & Incidents</a> / {episode.title}</div>
+  <section class="hero">
+    <div>
+      <div class="kicker">{format} · {episode.season} · {episode.kind}</div>
+      <h1>{episode.title}</h1>
+      <p class="tagline">{episode.logline}</p>
+    </div>
+  </section>
+
+  <section class="section detail-layout">
+    <article class="detail-main">
+      <div class="bio-label">COLD OPEN</div>
+      <h2>What walked into the room</h2>
+      <p>{episode.logline}</p>
+
+      <div class="bio-label" style="margin-top:4rem">WHAT HAPPENED</div>
+      <h2>The situation</h2>
+      <p>This page owns the named story. Character biographies use it as a scene; room pages show where it unfolded; the era page explains what kind of house could produce it.</p>
+
+      {cast.length ? (
+        <>
+          <div class="bio-label" style="margin-top:4rem">EVERYBODY INVOLVED</div>
+          <h2>The cast in the blast radius</h2>
+          <div class="wiki-grid">
+            {cast.map((character: any) => (
+              <a class="poster-card" data-initial={character.name[0]} href={url(`/characters/${character.id}`)}>
+                <small>{character.role}</small><strong>{character.name}</strong><span>{character.logline}</span>
+              </a>
+            ))}
+          </div>
+        </>
+      ) : null}
+    </article>
+
+    <aside class="infobox">
+      <div class="infobox-title">{episode.title}</div>
+      <dl>
+        <div class="row"><dt>File</dt><dd>{format}</dd></div>
+        <div class="row"><dt>Year</dt><dd>{episode.season}</dd></div>
+        <div class="row"><dt>Date</dt><dd>{episode.date}</dd></div>
+        <div class="row"><dt>Situation</dt><dd>{episode.kind}</dd></div>
+        <div class="row"><dt>Involved</dt><dd>{episode.cast.join(" · ")}</dd></div>
+      </dl>
+    </aside>
+  </section>
+
+  <section class="related-module">
+    <div class="related-module-head"><h2>SINCE YOU'RE SNOOPING</h2><p>The timestamp ends. The people, year, rooms, and callbacks do not.</p></div>
+    <div class="related-grid">
+      {previous ? <a class="related-card" href={`/episodes/${previous.id}`}><small>PREVIOUSLY</small><strong>{previous.title}</strong><span>{previous.date}</span></a> : null}
+      <a class="related-card" href={eraHref}><small>THE FUCK HAPPENED</small><strong>{eraTitle}</strong><span>{eraNote}</span></a>
+      <a class="related-card" href={`/snoop?q=${encodeURIComponent(episode.cast[0] ?? episode.title)}`}><small>KNOWN ASSOCIATES</small><strong>Follow the people</strong><span>Search the names pulled into this story.</span></a>
+      {next ? <a class="related-card" href={`/episodes/${next.id}`}><small>THIS COMES BACK LATER</small><strong>{next.title}</strong><span>{next.date}</span></a> : <a class="related-card" href="/rooms"><small>ELSEWHERE IN THE HOUSE</small><strong>Walk the rooms</strong><span>Find the social spaces around the scene.</span></a>}
+    </div>
+  </section>
+</WikiLayout>

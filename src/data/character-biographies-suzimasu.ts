@@ -1,0 +1,96 @@
+import type { CharacterNarrative } from "./character-biographies-narrative";
+
+export const suzimasuNarrativeCharacterBios: Record<string, CharacterNarrative> = {
+  suzimasu: {
+    intro: [
+      "Suzimasu is one of Underlords' five founders and later served in the Consigliere / Senior Advisor lane, but the titles are almost never the funniest thing happening when Suzi is actually on screen. The early person is **Mob / BAPE**, trying to juggle Yakuza 0, Dragon Raja, UL chat, and dinner with the tragic discovery that founder status did not include extra hands. The room had also apparently imagined a voice for Suzi before hearing the real one: Ren's first useful reaction was that Suzi sounded *so different* from what Ren had expected. Even before later Officer history arrives, Suzimasu is already socially vivid enough for other people to have built a version in their heads.",
+      "The 2022 first-impressions material gives that reputation a much better shape. Several peers independently remember an early Mob as quiet, scary, or straight-up **danger**. Familiarity does not replace that with a generic secret-softie reveal. Tae's scary image dies when Mob forgets a drink in the bathroom; Sota remembers an all-night alien conversation and Mob's laugh; Ren's internal model travels from `I sensed danger in you` to playful older-brother imagery. The intimidating first layer survives as folklore mostly because the mechanisms that destroyed it are so stupidly human.",
+      "Suzimasu's humor tends to work by joining somebody else's premise and adding exactly one worse idea. Mugen says `mugsiwawa`; Suzi turns it into `mugsiuwuwa` and then back into `mugsiwawa lmao` until Mugen realizes the name sounds like a chihuahua. Gilli is apparently about to become collateral damage in another bit; Suzi apologizes *before* posting and immediately confesses `I HAD TO TRY IT LMAOOOO`. There is a recurring little engine there: understand the joke, touch it once, make it worse, keep moving.",
+      "That same instinct makes the 2026 return feel completely natural. Nelph says the renewed fun is bringing old people back; Suzimasu answers **`they lured me back in with fun arc`**. No solemn reunion speech. No grand institutional comeback. The thing with enough gravitational pull is apparently that the house became entertaining again. For somebody who helped start UL and later held senior responsibility, that is wonderfully undignified continuity: Suzi can leave history to the titles and return for the bit."
+    ],
+    sections: [
+      {
+        title: "ROLE PROGRESSION — THE TITLE NEVER ATE THE PERSON",
+        paragraphs: [
+          "Suzimasu belongs to the definitive founding five with Mugen, Ritha, WolfPhenix, and HyaLuna. Mugen founded Underlords; the other four became founders with Mugen. Suzimasu later served as a full Officer in the historical **Consigliere / Senior Advisor** lane and is now retired from that role.",
+          "April 2020 is the useful counterweight to the plaque. Under the stable `mob_bape` identity, Suzimasu explains that the evening currently involves **Yakuza 0, Dragon Raja, texting UL, and getting dinner**. That is four competing activities and one person. Senior history came later; ordinary chaos was there from the beginning.",
+          "A day earlier Ren had already supplied a different kind of intimacy: **`Bro suzi sound so different of what I imagined`**. The useful fact is not what the voice sounded like. It is that Ren had already built an expected Suzi strongly enough for the real voice to violate the casting."
+        ]
+      },
+      {
+        title: "PEER REPUTATION — DANGER LOSES TO A BATHROOM DRINK",
+        paragraphs: [
+          "A July 2022 first-impressions prompt produces unusually consistent memories from different people. Dayadream remembers Mob as quieter. Ren says **`I sensed danger in you`** at first. Tae says Mob was scary. None of them leave the story there.",
+          "Tae's turning point is brutally mundane: Mob left a drink in the bathroom and forgot it. That is where the scary-person image apparently stops being sustainable. Sota's first-impression memory is already stranger and warmer: an all-night conversation, remembered as roughly four hours, about **aliens**; the present-day thing Sota especially remembers is Mob's laugh.",
+          "Ren's revision goes the furthest. The old `danger` picture has become playful older-brother imagery — somebody she imagines picking her up and spinning her around until dizzy. Taken together, the peer accounts say more than `intimidating but nice`. They show the exact social erosion pattern: distance creates danger; familiarity supplies bathroom-drink failures, weird long conversations, remembered laughter, and enough ease for physical-playfulness jokes."
+        ]
+      },
+      {
+        title: "TASTE FILE — SMOKE, BRISKET, NO INSIDE VOICE",
+        paragraphs: [
+          "Food is one of the recurring ways the room knows Mob. On January 14, 2022, Mugen directly tags him **`Bbq bb`**. Mob's response is that he will be right later because he is smoking beef brisket. The shorthand lands because there is actual behavior underneath it.",
+          "A month later a food prompt gets the maximally concise doctrine: **`SMOKED MEAT ANYKIND GIBBBB`**. Ricochet later maps Mob to sushi in a whole-group food-association answer as well. None of that needs to become a formal cuisine ranking. It is enough to establish a durable food lane: peers can associate Suzi with what he eats and cooks without explanation.",
+          "That makes the peer-reputation shift funnier. The person remembered as dangerous is also legible through brisket. The intimidating silhouette did not disappear because somebody discovered a hidden saint. It disappeared because people actually spent time around him and accumulated ordinary-specific information."
+        ]
+      },
+      {
+        title: "RUNNING GAG — IF THE BIT EXISTS, SUZI WILL PROBABLY TOUCH IT",
+        paragraphs: [
+          "Suzimasu is especially good at the second move in a joke. On July 1, 2020, Mugen announces that for the night the name is **`mugsiwawa`**. Suzimasu does not simply laugh and leave the object intact. The response is **`more like mugsiuwuwa`**, then **`mugsiwawa lmao`**. Mugen eventually points out that it sounds like a chihuahua. The name has become community property in under a minute.",
+          "That is a useful recurring mechanism. Suzimasu does not need to originate the premise to become part of its machinery. A weird word appears; Suzi remixes it. A Gemini threat appears; Suzi asks for the roster, stares sideways with `>.>`, then produces the spiritual-removal visual. The joke is participatory rather than spectator sport.",
+          "The same thing happens with the unexplained Gilli emote incident. Suzimasu says **`I'm sorry @New Account Gilli#3226`** *before* posting the thing, then follows with **`I HAD TO TRY IT LMAOOOO`**. The advance apology is the whole mechanism: awareness has arrived on time; restraint has missed the meeting."
+        ]
+      },
+      {
+        title: "SCREENSHOT COURT — THE DEFENDANT KEEPS BRINGING EVIDENCE",
+        paragraphs: [
+          "Suzimasu does not merely survive the Wall. Suzi repeatedly helps operate it. In 2020 there is the openly competitive **`Trying to win the wall of shame awards`**; a month later, `Since were sharing` is followed by fresh material from the same day. By 2021 a cursed experiment gets **`I HAD TO TRY IT LMAOOOO`**, a video, and the spectacular heading `EXPLAINATION`. The person filing the evidence and the person preparing the defense are very often the same employee.",
+          "That makes the later panic funnier, not less real. Rummy gets summoned with `help meeee` and answers with a soft pat. Baby Lyssa watches one self-filed catastrophe unfold with `HELP` and `what IS THIS CATASTROPHE`, while Suzi apologizes and then gives Lyssa directions for finding more of the cursed thing. Even rescue can become distribution. The friendships are comfortable enough that embarrassment, care, and escalation can all happen in the same pocket without anybody needing to announce which mode they are in.",
+          "Ren gets the warmer version of the same ease. Suzimasu can offer `Aww it’s okay @RΣN` and `I still wuv you`; Ren immediately meets the register with `Aweee suziiii`. Screenshot Court does not flatten Suzi into the class clown. It shows the contradiction that makes the whole system work: somebody can actively court notoriety, perform a defense when caught, and still use the room as a place for ordinary affection."
+        ]
+      },
+      {
+        title: "RELATIONSHIP CONTINUITY — BAD AT CHECKING IN, EASY TO RECOGNIZE",
+        paragraphs: [
+          "The recurrence starts before the 2021 bot scene. In April 2020 Mob tells Snow **`I never check in so ya know w/pat`**; Gilli mirrors a pat back to Mob two minutes later. On June 14 the same stable account surfaces with `Hey`, Mugen immediately answers **`heey suzi welcome back!`**, and Gilli follows with `Suziiiii`. The doorway is doing social history without a formal roll call: low-frequency contact is already something Mob can joke about, and return recognition is already automatic.",
+          "April 22 adds the line that makes the later homecoming hit harder. Mob says **`Imma miss y’all when quarantine over`**. D.I./Jonith answers **`Bruh, you think people here just cuz of quarantine?`**. Mob puts possible impermanence into words while the group is young; Jonith immediately pushes back on the idea that the bond depends on the circumstance.",
+          "In May 2021 the Stripclub Bouncer greets the stable Mob | BAPE account with the ordinary newcomer script. Ren immediately ignores the machine's amnesia. **`UwU Sushiii`** comes first, Suzimasu answers with an emote, then Ren gives the line that actually describes the social situation: **`Welcome home~`**. A moment later comes `You know you ways` before the server tour continues anyway.",
+          "Software begins from zero; the people resume mid-sentence. Mob can be intermittent enough to joke about never checking in, worried enough to say he may miss everybody after quarantine, and still be retained by Mugen, Gilli, Ren, and Jonith as somebody whose bond does not have to expire on schedule. Absence does not make Suzi socially new."
+        ]
+      },
+      {
+        title: "CONTRADICTION — HELPED BUILD THE HOUSE, STILL ALARMED BY THE BASEMENT",
+        paragraphs: [
+          "September 2021 gives Suzimasu one of the better founder contradictions. Mugen jokes that Suzi **`litrally helped start UL`** and still gets freaked out by `afterhours activities`. Later Nhou adds that Suzi has been like that **`since the beginning xD`**. The punchline only works because founder status and discomfort are both true parts of the scene: being present at construction did not grant permanent immunity to whatever fresh indecency the house had invented.",
+          "That sits neatly beside the 2022 reputation material. A person can look dangerous to newer peers, participate eagerly in nonsense, knowingly commit an emote offense against Gilli, and still react to UL's afterhours wing like the other founders have once again failed inspection.",
+          "Consigliere tells us Suzimasu eventually carried responsibility. These smaller contradictions tell us responsibility never required becoming unflappable."
+        ]
+      },
+      {
+        title: "RETURN — FUN ARC HAS ENTERED THE RECRUITMENT PIPELINE",
+        paragraphs: [
+          "By August 2026, the return mechanism is gloriously unserious. Nelph is talking about how much fun the renewed activity is and how it is bringing old people back. Suzimasu answers: **`they lured me back in with fun arc`**.",
+          "`Lured` frames the return as something almost embarrassingly easy to trigger: make the room entertaining enough and suddenly a founder from the opening era is back in circulation. Suzimasu does not narrate a formal restoration of duties, reclaim a title, or demand an institutional reason to care. The draw is social pleasure.",
+          "That makes the return fit the earlier person perfectly. The same Suzimasu who jumps into nickname mutation, apologizes before testing a doomed emote, and loses scary-person credibility to mundane life is apparently still susceptible to a good collective bit years later."
+        ]
+      },
+      {
+        title: "PETTY CRIMES",
+        paragraphs: [
+          "Scary-person credibility was apparently damaged beyond repair by **forgetting a drink in the bathroom**.",
+          "Has an alien-conversation memory living in Sota's head as an all-night / roughly four-hour event. Duration is remembered, not independently clocked; the aliens are nevertheless now part of the file.",
+          "Answers food prompts with **`SMOKED MEAT ANYKIND GIBBBB`**. Mugen's `Bbq bb` shorthand had evidence behind it.",
+          "Has been documented trying to play **two games, text UL, and acquire dinner at once**. Founder status: confirmed. Additional arms: tragically unsupported.",
+          "May file an apology *before* committing the offense. `I'm sorry` followed by `I HAD TO TRY IT LMAOOOO` is less remorse than a courtesy notification.",
+          "Has personally announced **`I never check in`** and still accumulated repeated welcome-back language. A deeply inefficient attendance strategy with suspiciously good retention.",
+          "Helped start UL and was still remembered for getting freaked out by UL afterhours. The building apparently exceeded one of its own founders' recommended operating conditions.",
+          "Has openly tried to **win the Wall of Shame awards** and later supplied `EXPLAINATION` for a self-filed catastrophe. The prosecution and defense share a login.",
+          "Can be lured back years later with **fun arc**. Extremely sophisticated retention strategy: become entertaining again."
+        ]
+      }
+    ],
+    closing: [
+      "Suzimasu is Founder and later Consigliere on paper, but the person is easier to recognize by the collisions: scary until somebody remembers the bathroom drink; barbecue shorthand and alien conversations where an imposing silhouette used to be; self-filed Wall evidence followed by an immediate defense; long gaps followed by people greeting Suzi like the conversation never really ended; and, years later, a return because the room became fun again. The title explains why Suzi mattered institutionally. The ridiculous ordinary details explain why people kept having a Suzi-shaped place in the room."
+    ]
+  }
+};

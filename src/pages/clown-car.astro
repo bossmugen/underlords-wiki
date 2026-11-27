@@ -1,0 +1,51 @@
+---
+import WikiLayout from "../layouts/WikiLayout.astro";
+import { allCharacters } from "../data/cast";
+import { relationshipGroups } from "../data/wiki";
+const byName = new Map(allCharacters.map((character) => [character.name, character]));
+const explicitAssociates = allCharacters.filter((character) => character.relationships?.length);
+---
+<WikiLayout title="The Clown Car | Underlords" description="Underlords relationship clusters, old networks, work partnerships, family language, and recurring pairings.">
+  <section class="hero">
+    <div>
+      <div class="kicker">SOCIAL MAP</div>
+      <h1>THE<br/>CLOWN CAR</h1>
+      <p class="tagline">A sterile relationship graph would imply every line means the same thing. It does not. Old friendship, family language, work partnership, rivalry, affection, romance, and recurring evidence warfare all attach people for different reasons.</p>
+      <div class="hero-actions"><a class="ul-button secondary" href="/relationships">OPEN THE ENTANGLEMENTS INDEX</a></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head"><h2>Everybody is in here somehow.</h2><p>These clusters show recurring social structures without pretending they are ranks or equally intimate connections.</p></div>
+    <div class="clown-grid">
+      {relationshipGroups.map((group) => (
+        <article class="clown-cluster">
+          <small>CLUSTER</small>
+          <h2>{group.title}</h2>
+          <p>{group.note}</p>
+          <div class="clown-members">
+            {group.people.map((name) => {
+              const character = byName.get(name);
+              return character ? <a href={`/characters/${character.id}`}>{character.name}</a> : <span>{name}</span>;
+            })}
+          </div>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  {explicitAssociates.length ? (
+    <section class="section">
+      <div class="section-head"><h2>Known Associates</h2><p>Direct relationship notes attached to character records. The biographies remain the better place to watch these ties move.</p></div>
+      <div class="index-list">
+        {explicitAssociates.map((character) => (
+          <a class="index-card" href={`/characters/${character.id}`}>
+            <small>{character.name}</small>
+            <h3>{character.relationships?.map((relationship) => relationship.name).join(" · ")}</h3>
+            <p>{character.relationships?.map((relationship) => relationship.note).join(" ")}</p>
+          </a>
+        ))}
+      </div>
+    </section>
+  ) : null}
+</WikiLayout>

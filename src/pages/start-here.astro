@@ -1,0 +1,32 @@
+---
+import WikiLayout from "../layouts/WikiLayout.astro";
+const steps = [
+  { number: "01", title: "What is Underlords?", text: "A Dragon Raja guild became a Discord house, then the people and rooms kept mattering after the game stopped being the center.", href: "/seasons" },
+  { number: "02", title: "Meet the usual suspects", text: "Start with the biographies. The rest of the site makes more sense once the names have faces, habits, loyalties, and recurring nonsense.", href: "/characters" },
+  { number: "03", title: "Watch the house form", text: "Walk 2020 through 2026: formation, domestication, ritual, self-mythology, decoupling, decommissioning, and afterlife.", href: "/seasons/2020" },
+  { number: "04", title: "Go into Club-Only", text: "The old text living room is where guild chat became ambient daily life and the group began behaving like a household.", href: "/locations#club-only" },
+  { number: "05", title: "Look at the Wall", text: "See how screenshots, art, posters, and preserved messages became the group's visual memory and appellate court.", href: "/gallery" },
+  { number: "06", title: "Everybody came back", text: "The 2026 reunion supplies the payoff: old screenshots return, people recognize themselves, and the room resumes like the gap had been a commercial break.", href: "/episodes/family-reunion" },
+];
+---
+<WikiLayout title="Start With the Mess | Underlords" description="A first-time route through the Underlords people, history, rooms, Wall, and 2026 reunion.">
+  <section class="hero">
+    <div>
+      <div class="kicker">NEW HERE?</div>
+      <h1>START WITH<br/>THE MESS</h1>
+      <p class="tagline">No tutorial modal. No ontology exam. Six doors will get you from “what is this” to “why am I emotionally invested in a Discord room called Club-Only.”</p>
+    </div>
+  </section>
+  <section class="section">
+    <div class="start-route">
+      {steps.map((step) => (
+        <a class="story-step" href={step.href}>
+          <span>{step.number}</span>
+          <div><h2>{step.title}</h2><p>{step.text}</p></div>
+          <b>→</b>
+        </a>
+      ))}
+    </div>
+  </section>
+  <section class="section"><a class="random-door" href="/snoop"><div><small class="module-label">OR IGNORE ALL THAT</small><strong>SNOOP</strong><span>Search a name, room, phrase, alias, old handle, or typo and let the rabbit hole pick the route.</span></div><b>→</b></a></section>
+</WikiLayout>

@@ -1,0 +1,25 @@
+---
+import WikiLayout from "../layouts/WikiLayout.astro";
+import { allGags } from "../data/all-content";
+---
+<WikiLayout title="Bullshit | Underlords" description="Recurring Underlords jokes, rituals, callbacks, names, accusations, and house language that survived long enough to become continuity.">
+  <section class="hero">
+    <div>
+      <div class="kicker">NAMES · RITUALS · REPEAT OFFENSES</div>
+      <h1>BULLSHIT</h1>
+      <p class="tagline">First somebody says it. Then it happens again. Then the room uses the name like everybody was born knowing it. Three years later somebody resurrects it and nobody asks for context.</p>
+      <div class="hero-actions"><a class="ul-button secondary" href="/speak-engliah">SPEAK ENGLIAH</a></div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="index-list">
+      {allGags.map((gag) => (
+        <article class="index-card" id={gag.id}>
+          <small>REPEAT OFFENSE</small>
+          <h3>{gag.name}</h3>
+          <p>{gag.logline}</p>
+        </article>
+      ))}
+    </div>
+  </section>
+</WikiLayout>

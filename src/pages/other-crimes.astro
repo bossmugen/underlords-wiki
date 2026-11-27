@@ -1,0 +1,24 @@
+---
+import WikiLayout from "../layouts/WikiLayout.astro";
+import { SECONDARY_NAV } from "../data/site";
+---
+<WikiLayout title="Other Crimes | Underlords" description="Underlords episodes, relationships, roles, running lore, quotes, glossary, corrections, and archive sources.">
+  <section class="hero">
+    <div>
+      <div class="kicker">THE USEFUL FILING CABINET</div>
+      <h1>OTHER<br/>CRIMES</h1>
+      <p class="tagline">The front door handles people, story, rooms, and the Wall. Everything else is still useful; it simply no longer gets to mob the navigation like twelve cousins arriving at once.</p>
+    </div>
+  </section>
+  <section class="section">
+    <div class="crime-grid">
+      {SECONDARY_NAV.map((item) => (
+        <a class="crime-card" href={item.href} aria-label={item.ariaLabel}>
+          <small>OPEN FILE</small>
+          <h2>{item.label}</h2>
+          <p>{item.description}</p>
+        </a>
+      ))}
+    </div>
+  </section>
+</WikiLayout>

@@ -1,0 +1,453 @@
+---
+name: "Ren"
+aliases:
+  - "RV"
+  - "RΣN"
+  - "r._v"
+pronouns: "she/her"
+roles:
+  - "Caporegime"
+eraStart: 2020
+summary: "Ren's archive progression starts with her using Slice for the same social support she later helps maintain, then follows her into quote collecting, care bulletins, visual-program work, front-door routing, family/access language, creative premises, and eventually 2026 identity repair. Current Caporegime status is locked separately from that long record of making people and information easier to retrieve."
+summaryEvidence: "inferred"
+publication: "public"
+relatedPeople: ["Syv"]
+claims:
+  - text: "Ren followed Gilli with Example Photos posts twice in August 2021: 22 seconds after Gilli on August 1, and under three minutes afterward on August 15. The repeated pairing shows both returning to the unglamorous visual setup before the next surviving theme opened."
+    evidence: "archive-confirmed"
+    date: "2021-08-01 – 2021-08-15"
+    sources:
+      - label: "Photo Submissions · Gilli/Ren Example Photos · 871516734203527198 / 871516826079731712 / 876518547826819121 / 876519248116219915"
+        href: "/events/photo-submissions"
+    note: "Photo miner site-candidate-2026-08-25-2045-gilli-ren-repeat-example-pair.md. Repeated posting order is grounded, but direct coordination, formal role ownership, and image creation/capture are not established."
+  - text: "The September 29, 2020 Organisation index called RV/Ren `smol noodle`; on November 4 Illien casually addressed her as `Noodle` during the Pride lost-corpse callback. The nickname was not confined to the index."
+    evidence: "archive-confirmed"
+    date: "2020-09-29 – 2020-11-04"
+    sources:
+      - label: "BACKROOM Pass 32 · Organisation index / Wall · 773639584143376394 and following exchange"
+        href: "/channels/wall"
+    note: "Tumbleweed's index label and Illien's later nickname are linked as a specific callback, not proof that every index tag entered speech. Original index artifact and exact Wall follow-up ID should be retained in backstage receipts."
+  - text: "Ren and Zoshaa used `Orb` as shared house shorthand: on September 29, 2020, Ren wrote `See! Orb is with me`, the maintained Organisation index filed `RV - Zoshaa (orb) - child shield`, and on May 17, 2021 Zoshaa wrote `my orb` while Ren reacted seconds later."
+    evidence: "archive-confirmed"
+    date: "2020-09-29 – 2021-05-17"
+    sources:
+      - label: "Club Only · Ren / Organisation index · 760519758914256926 / 760564322182103111"
+        href: "/channels/club-only"
+      - label: "Wall · Zoshaa's `my orb` line · 844051938638692403 / 844051976953004042"
+        href: "/channels/wall"
+    note: "The exact origin and meaning of the word remain unresolved; this is playful shared language, not literal kinship, romance, guardianship, or a formal role."
+  - text: "Ren's July 14, 2021 WALTZ Photoshoot submission called Eos `the bestie` and tagged Eos directly."
+    evidence: "archive-confirmed"
+    date: "2021-07-14"
+    sources:
+      - label: "Photo Submissions · WALTZ · 865078249850929162"
+        href: "/events/photo-submissions"
+    note: "The Eos account bridge is explicit in BACKROOM receipts-pass-32.md. Ren posted the entry; photograph maker/capturer and the seven-second pre-edit wording are not established. The image remains uninspected."
+  - text: "On August 7–8, 2021, Ren opened a spelling-themed Kahoot, issued a corrected poster code with `Cause I’m ✨ dumb ✨` and `@Staff forgive me`, then acknowledged that the code was still wrong and asked participants to redo the challenge."
+    evidence: "archive-confirmed"
+    date: "2021-08-07 → 2021-08-08"
+    sources:
+      - label: "📣 Announcements · 873628678809088010, 873686056938123284, 873686142720024686, 874033999436189746"
+        href: "/channels/announcements"
+    note: "BACKROOM receipts-pass-59.md. Ren posted the notices, not necessarily the image assets. The original posters remain uninspected. This spelling Kahoot is not assumed identical to Speeling Bee or the June/July club-knowledge Kahoot."
+  - text: "On May 13, 2021, Ren submitted a Relax photo captioned solely with two animated server custom emotes, `:tmirusnyarelax: :ymiruspandarelaxed:`. The surviving message was edited about 12.7 seconds after posting; the pre-edit wording is unavailable."
+    evidence: "archive-confirmed"
+    date: "2021-05-13"
+    sources:
+      - label: "Photo Submissions · Relax · 842600913633148938"
+        href: "/events/photo-submissions"
+    note: "Ren POSTED the attachment 842600913410457600; image maker/capturer and identities of the two depicted people are unresolved. The edit cannot be reconstructed. Custom-emote-only captions also recur in Ghostt’s October Scary post, without proving a formal rule or shared origin."
+  - text: "On June 25, 2021, Gabu recalled Ansun and RV losing Mugs's corpse; Ren called it the first day of `corpse.Inc` and joked `Amber alert LOSE CORPSE`."
+    evidence: "archive-confirmed"
+    date: "2021-06-25"
+    sources:
+      - label: "BACKROOM Pass 49 · Club Only · 858064680127037481, 858064810973724702, 858064887895687178"
+    note: "Retrospective callback, not the original loss date; Mugen and Pride corpse incidents must not be merged without a bridge."
+  - text: "Ren saved a Wall crop of Mugen's `hope everyone has eaten their breaststroke` on May 10, 2022; Rich called it a shame war and Rummy repeated the typo. Ren brought the same visible crop back to the Wall in August 2026, four years after its first surviving Wall filing."
+    evidence: "archive-confirmed"
+    date: "2022-05-10 – 2026-08"
+    sources:
+      - label: "Wall · 973675315169738804, 973676738573918298, 1537087561283928194"
+        href: "/channels/wall"
+    note: "Ren posted the surviving Wall crops. Original Dragon Raja message date, screenshot capturer, and image maker remain unresolved."
+  - text: "On January 19, 2023, Ren recognized returning FuentesKaede in Lobby with `kaede linda eres tuuuu?` and later `bienvenida de regreso kaede linda`, welcoming him personally rather than treating the bot intake as a first introduction."
+    evidence: "archive-confirmed"
+    date: "2023-01-19"
+    sources:
+      - label: "🏮 Lobby · Ren/Kaede return · 1065813484853530644 / 1065821635485118594"
+        href: "/channels/lobby"
+    note: "Recognized return and affectionate Spanish, not romance, appointment chronology, or proof of first membership date."
+  - text: "Ren is a confirmed Caporegime in the current command roster."
+    evidence: "user-confirmed"
+    sources:
+      - label: "Mugs-confirmed command chart"
+  - text: "RV, RΣN, and r._v are aliases for Ren."
+    evidence: "user-confirmed"
+    sources:
+      - label: "Mugs-confirmed identity mapping"
+  - text: "Ren works as a hospital interpreter."
+    evidence: "user-confirmed"
+    sources:
+      - label: "Mugs-confirmed background canon"
+  - text: "Ren's RAJA POLICE DEPARTMENT parody dossiers turned Officer personalities and recurring house jokes into fake warning fields: Gabu's four-foot height and nonhuman warning, Gilli's height comparison, Sye's small-and-deadly label, Oyasumi's deceptively cheerful warning, Mugen's PLUTONIAN language and sprawling fake criminal record, and Ren's own avoid-at-all-costs advisory. The set was reposted in 2025 and revived familiar jokes."
+    evidence: "archive-confirmed"
+    date: "2025"
+    sources:
+      - label: "Main HQ / Wall · police-card reposts · 1355050884609867788, 1355050934496923759, 1355051574958751887, 1355203583842455683"
+        href: "/channels/wall"
+    note: "The 2025 receipts document circulation/reposting, not the original creation date. Do not claim a real police department, legal offenses, or maker/capture credit for uninspected images."
+  - text: "On April 9, 2023, a Wall exchange called Ren/RV the fountain of youth: Nobu called her a child, Kiro declared RV the fountain itself, and Moon joked that Snow had given it to her. This folds Ren into Snow’s long-running old-man mythology rather than establishing any literal age or origin story."
+    evidence: "archive-confirmed"
+    date: "2023-04-09"
+    sources:
+      - label: "Wall · 1094846260021842022, 1094846569993478155, 1094851890057068556"
+        href: "/channels/wall"
+    note: "Single-scene age joke. Nobu posted an uninspected screenshot; do not infer its maker, capturer or contents."
+  - text: "On April 13, 2020, during Slice's opening-night conversation about pandemic anxiety, Ren wrote `You kept me distracted for a while! That made it better`."
+    evidence: "archive-confirmed"
+    date: "2020-04-13"
+    sources:
+      - label: "🍰 Slice of Life · 2020-04-13"
+        href: "/channels/slice"
+    note: "This preserves Ren's own report that the conversation helped in that moment; it does not establish a diagnosis, severity, duration, or clinical care."
+  - text: "On August 24, 2020, Ren wrote 'I don’t have other people’s quotes for nothing' in the Wall."
+    evidence: "archive-confirmed"
+    date: "2020-08-24"
+    sources:
+      - label: "Wall of Shame-Fame · 2020-08-24"
+        href: "/archive/wall"
+  - text: "On August 26, 2020, Anthos described RV as repeatedly making 'tag yourself' posts from questionable things members had said."
+    evidence: "archive-confirmed"
+    date: "2020-08-26"
+    sources:
+      - label: "Wall of Shame-Fame · 2020-08-26"
+        href: "/archive/wall"
+  - text: "On August 27, 2020, Ren told Anthos she loved his quotes and planned to make a favorite-quote collection like one she had already made from Ansun’s."
+    evidence: "archive-confirmed"
+    date: "2020-08-27"
+    sources:
+      - label: "Wall of Shame-Fame · 2020-08-27"
+        href: "/archive/wall"
+  - text: "Across February 9, March 6, and June 3, 2021 Announcements, Ren repeatedly posted broad house care check-ins: asking whether people ate and drank water, offering movies, snacks, rest, and company when tired, and writing `if you don’t feel like smiling that’s ok too`."
+    evidence: "archive-confirmed"
+    date: "2021-02-09 – 2021-06-03"
+    sources:
+      - label: "📣 Announcements · Ren care bulletins, 2021"
+        href: "/archive/announcements"
+    note: "These posts address broad Staff / VIP / reminder audiences; they are not evidence that any named person was hungry, dehydrated, exhausted, ill, or receiving medical care."
+  - text: "Across April 14, May 22, and October 6, 2021, Ren's food, water, and day-wish bulletins also used playful enforcement language: `go do it now or else`, `drink water or I’m eating your bone marrow`, and `Do eat lunch, comit trouble, cause chaos`."
+    evidence: "archive-confirmed"
+    date: "2021-04-14 – 2021-10-06"
+    sources:
+      - label: "📣 Announcements · Ren care rhetoric, 2021"
+        href: "/archive/announcements"
+    note: "The wording is preserved as house-register rhetoric, not a literal threat, violence claim, medical-practice claim, or encouragement of real misconduct."
+  - text: "Ren called herself the self care police in March 2021, included Gilli in a crossed-out hydration check, and shared the Drink Water/ Eat Food Reminder announcement lane with Gilli by April; a July bulletin paired 'Be evil for today UwU' with 'consume water or evaporate'."
+    evidence: "archive-confirmed"
+    date: "2021-03-01 – 2021-07-07"
+    sources:
+      - label: "Backroom Pass 19 · Announcements hydration reminders"
+        href: "/archive/announcements"
+    note: "Receipts 816127767971102730, 831258088115535933, 834874392847712316, 862382300963799060. Role creation date unknown; the reminders were multi-author."
+  - text: "During spring 2021 Photo Submissions theme cycles, Ren repeatedly posted `Example Photos` packages while Gilli closed rounds and carried the room toward results / the next theme. By June, example-photo posting was shared with other contributors, so this is recurring participation rather than an exclusive visual job."
+    evidence: "archive-confirmed"
+    date: "2021-04-18 – 2021-05-10"
+    sources:
+      - label: "Photo Submissions · themed visual cycles"
+        href: "/events/photo-submissions"
+  - text: "On August 4, 2021, Ren gently corrected dora/Forsaken’s Photoshoot submission for outside editing of a sentence, then offered a practical fix: repost the original picture without the sentence."
+    evidence: "archive-confirmed"
+    date: "2021-08-04"
+    sources:
+      - label: "Photo Submissions · Ren / dora correction · 2021-08-04"
+        href: "/events/photo-submissions"
+    note: "Ren’s reply parent is 872535327926009928; the original parent contents are not recovered. The second instruction followed 36 seconds later. This does not establish image maker/capture credit or a universal moderation style."
+  - text: "On May 29, 2022, Ren welcomed Nobu in Lobby, said 'I’ll set u up,' and routed her to the Discord Tour, Biodata, and Whiskey Room."
+    evidence: "archive-confirmed"
+    date: "2022-05-29"
+    sources:
+      - label: "Lobby · Nobu first surviving check-in"
+        href: "/channels/lobby"
+  - text: "On February 19, 2022, Mugen announced the month's first Officers Challenge dare as hosted by Ren."
+    evidence: "archive-confirmed"
+    date: "2022-02-19"
+    sources:
+      - label: "UL Announcements · 2022-02-19"
+        href: "/archive/announcements"
+  - text: "On October 24, 2022, after Aeshleen said Dragon Raja was over for her, Ren replied that the memories still made her part of a `forever family`."
+    evidence: "archive-confirmed"
+    date: "2022-10-24"
+    sources:
+      - label: "🍰 Slice of Life · 2022-10-24"
+        href: "/channels/slice"
+    note: "`Forever family` is Ren's relationship language in this scene, not a formal membership rule or status category."
+  - text: "On December 15, 2022, when Cookie said he had forgotten Slice existed, Ren explained the access state plainly: `Vip don’t got access here`."
+    evidence: "archive-confirmed"
+    date: "2022-12-15"
+    sources:
+      - label: "🍰 Slice of Life · 2022-12-15"
+        href: "/channels/slice"
+    note: "This establishes that VIP status alone did not grant Slice access in that archived moment; it is not a claim about every historical permission configuration."
+  - text: "On March 2, 2023, Mugen credited Snow and Ren for an anniversary surprise that opened the UL Mafia anime and bios rooms."
+    evidence: "archive-confirmed"
+    date: "2023-03-02"
+    sources:
+      - label: "UL Announcements · Mafia anniversary launch"
+        href: "/archive/announcements"
+  - text: "On June 6, 2023, Ren proposed getting Platelets to draw on a blank canvas and making it a poster; Mia immediately started the file and opened a Staff doodle submission lane."
+    evidence: "archive-confirmed"
+    date: "2023-06-06"
+    sources:
+      - label: "Club Media Gallery / PR · communal doodle chain"
+        href: "/channels/pr"
+  - text: "On May 5–6, 2025, Ren posted a short Slice sequence about going to see the sunrise, camping there, and seeing enough stars to write `Seeing this many stars for the first time made me realize how small we truly are in this world`."
+    evidence: "archive-confirmed"
+    date: "2025-05-05 – 2025-05-06"
+    sources:
+      - label: "🍰 Slice of Life · 2025-05-05 – 2025-05-06"
+        href: "/channels/slice"
+    note: "The exact message text grounds sunrise, camping, stars, and Ren's reflection. Do not infer the campsite, pictured people, photographer, unseen attachment content, or a permanent worldview from this short sequence."
+  - text: "On July 7, 2026, after Rummy's old Discord account was hacked, Ren announced to Staff and VIP which new account belonged to Rummy."
+    evidence: "archive-confirmed"
+    date: "2026-07-07"
+    sources:
+      - label: "UL Announcements · Rummy account continuity"
+        href: "/archive/announcements"
+  - text: "Across Club-Only, Wall, Lobby, QOTD, Announcements, Photo Submissions, Slice, and the 2026 account-repair scene, Ren repeatedly selects or labels social information so the room can retrieve the person, quote, relationship joke, visual premise, destination, or access boundary later."
+    evidence: "inferred"
+    sources:
+      - label: "Club-Only relationship and quote receipts"
+        href: "/channels/club-only"
+      - label: "Wall quote culture"
+        href: "/channels/wall"
+      - label: "Lobby onboarding receipts"
+        href: "/channels/lobby"
+      - label: "Slice access and family-language receipts"
+        href: "/channels/slice"
+      - label: "QOTD reaches the Wall"
+        href: "/channels/qotd"
+      - label: "Photo Submissions visual-cycle receipts"
+        href: "/events/photo-submissions"
+  - text: "Ren's QOTD self-descriptions call her “the duck with the ducklings behind,” a hyper-ambivert and mildly chaotic; she later describes herself as a quick talker who rambles and genuinely enjoys listening to other people's interests."
+    evidence: "archive-confirmed"
+    date: "2024-02-21 – 2024-08-12"
+    sources:
+      - label: "QOTD · Ren self-description"
+        href: "/channels/qotd"
+    note: "The people-index handoff supplies dates and summarized wording but no individual message IDs; this is distinct from the separately indexed Officer Country material."
+
+  - text: "On October 20, 2024, Ren described the Officers as a reality-TV cast who looked into an imaginary camera whenever something stupid happened."
+    evidence: "archive-confirmed"
+    date: "2024-10-20"
+    sources:
+      - label: "QOTD · 2024-10-20 Officers ensemble answer"
+        href: "/channels/question-of-the-day"
+    note: "An ensemble joke, not a formal description of officer governance."
+
+  - text: "On February 12, 2022, Syv credited Ren with talking to her when she was too shy to join in, saying Ren dragged her out of her shy bubble; on March 28, 2024, Syv named Ren as the member most similar to herself, citing their shared chaos and long favorite-topic rants."
+    evidence: "archive-confirmed"
+    date: "2022-02-12 – 2024-03-28"
+    sources:
+      - label: "☕ QOTD · Syv/Ren bridge-to-mirror · 942150562877698168 / 1222897175151902814 / 1222938806789996617"
+        href: "/channels/qotd"
+    note: "Ren's stored happy/love reactions have no timestamps. The exchange supports friendship texture, not a formal mentorship or romance claim."
+
+antiFanon:
+  - "Quote collecting is archive-observable behavior; it does not make Ren the formal Wall archivist unless a dated appointment is recovered."
+  - "Social Ctrl+F / house index / identity-repair language is character interpretation, not a formal UL appointment."
+  - "The `orb` / `child shield` wording is playful Tumbleweed language, not literal kinship, romance, guardianship, or a formal role."
+  - "Ren’s recurring curation behavior does not mean she single-handedly created UL quote culture; the Wall preserves a communal memory practice with many contributors."
+  - "Ren's opening-night `That made it better` line is a self-report about one conversation helping during pandemic anxiety; do not turn it into a diagnosis, therapy claim, severity judgment, or ongoing mental-health biography."
+  - "Ren's 2021 `did u eat today?`, water, rest, movie, snack, and spa language is broad public check-in material; do not infer an individual health need, diagnosis, caregiving relationship, or formal wellness appointment."
+  - "The March 2021 `watch movies as we eat snacks together` wording is an invitation inside a public announcement, not proof that a hangout occurred."
+  - "`drink water or I’m eating your bone marrow`, `or else`, `comit trouble`, and `cause chaos` are playful public language; do not literalize them into threats, violence, medical practice, or encouragement of real misconduct."
+  - "The June 2021 `if you don’t feel like smiling that’s ok too` line supports permission not to perform cheerfulness in that announcement; do not inflate one sentence into a total personality theory."
+  - "Ren's `forever family` line is relationship language in the Aeshleen scene, not a formal membership policy or guarantee about every person's standing."
+  - "Ren's `Vip don’t got access here` line establishes the archived Slice permission state in December 2022; do not universalize it across all dates without matching permission evidence."
+  - "Ren's May 2025 sunrise/camping/stars sequence is a short self-report and reflection; do not infer location, companions, image authorship, hidden itinerary, or turn one sentence into a total philosophy of life."
+  - "Ren posting Example Photos in multiple 2021 rounds does not make her an exclusive photoshoot director or visual lead; the same duty is visibly shared by June."
+  - "The 2023 blank-canvas idea proves Ren proposed the premise, not that she made Mia's assembled poster or owned the whole doodle project."
+  - "Ren telling the house which replacement account is Rummy does not mean Ren recovered the hacked account or handled cybersecurity."
+  - "Mugen crediting Snow and Ren for the Mafia anniversary surprise does not establish which person created each individual asset, channel, or text."
+  - "Ren hosting an Officers Challenge dare does not make Officers Challenge Officer-only; the same day's clarification says anyone could participate."
+relatedPeople:
+  - "mugen"
+  - "ansun"
+  - "anthos"
+  - "sye"
+  - "snow"
+  - "nobu"
+  - "rummy"
+  - "mia"
+  - "gilli"
+  - "zoshaa"
+tags:
+  - "caporegime"
+  - "officer"
+  - "club-only"
+  - "core-member"
+  - "quote-curator"
+  - "social-memory"
+  - "wall"
+  - "qotd"
+  - "challenge-host"
+  - "photo-submissions"
+  - "slice"
+  - "announcements"
+  - "care-style"
+  - "care-bulletins"
+  - "rest"
+  - "access-boundaries"
+  - "family-language"
+---
+
+# Ren
+
+Ren is a current Caporegime and works as a hospital interpreter. The archive does not date her command appointment from old role arrays. It gives something richer instead: a six-year progression from being one of the people using UL's social spaces for support to becoming one of the people who repeatedly makes the house's people, memories, destinations, and access boundaries easier to retrieve.
+
+
+## QOTD SELF-DESCRIPTION — THE DUCK WITH THE DUCKLINGS
+
+Ren called herself **“the duck with the ducklings behind,”** a hyper-ambivert with a mildly chaotic streak. Later she described herself as a quick talker who rambles and said she genuinely enjoys listening to other people talk about their interests. The social-bridge role has a personal mechanism: Ren fills silence easily, but she is also interested in what other people want to say.
+
+
+## 2020 — SHE STARTS AS A PARTICIPANT BEFORE SHE BECOMES THE HOUSE'S HUMAN CTRL+F
+
+On Slice's opening night, during a conversation about pandemic anxiety, Ren tells the room **`You kept me distracted for a while! That made it better`**. The sentence is a self-report about one moment, not a diagnosis. It matters because the later organizer is first visible using the room for exactly what it was meant to provide: company outside the game.
+
+By August, another side of Ren is already emerging. She says **`I don’t have other people’s quotes for nothing`**. Anthos describes her making `tag yourself` posts from questionable things members have said. Ren tells Anthos she loves his quotes and wants a favorite-quote collection like one she already made for Ansun.
+
+This is not a formal archivist appointment and Ren did not invent UL quote culture alone. It is simply an early recurring habit: notice the social information, label it, save it, make it retrievable later.
+
+## 2021 — MEMORY WORK EXPANDS INTO CARE AND PROGRAM WORK
+
+In the March 1 **self care police** announcement, Ren's checklist included a crossed-out `Gilli` beside the water question. By April, both were posting through the hydration-reminder lane. Ren's July instructions managed to permit evil behavior while making water consumption compulsory. The formal role's creation date remains unknown.\n\nThrough 2021, Ren's Announcements voice repeatedly asks broad audiences whether they ate, drank water, rested, or wanted company. Sometimes the care is gentle—**`if you don’t feel like smiling that’s ok too`**—and sometimes it arrives as **`drink water or I’m eating your bone marrow`**. The threat is house rhetoric, not a literal threat. The underlying action stays mundane: check on the people.
+
+The same year she repeatedly posts example-photo packages for Photo Submissions while Gilli closes rounds and moves them toward the next theme. In August, when dora/Forsaken adds a sentence to a submission, Ren does not just wave a rulebook at her. She opens with `Haii doraaaa`, apologizes for the correction, and follows up almost immediately with the way to save the entry: post the original picture without the sentence. The rule stays put; the person gets a way forward. That visual contribution is shared rather than exclusive, but it widens the pattern. Ren is increasingly involved in giving the group prompts, examples, and structures through which people can participate.
+
+### Corpse.Inc — lost-body emergency dispatch (June 25, 2021 callback)
+
+- **People:** Ren/RV, Ansun, Gabu, Mugen. Pride has a separate lost-body story; whether the incidents connect is unresolved.
+- **Sequence:** Gabu remembers Ansun and RV losing Mugs's corpse (`858064680127037481`). Ren calls it `the first day of corpse.Inc` (`858064810973724702`), then announces `Amber alert LOSE CORPSE` (`858064887895687178`).
+- **Classification:** Game-life running gag and retrospective callback. The original loss date, game mechanics, and any relationship to Pride's incident are unverified.
+- **Public counterpart:** MAIN Ren biography folds the incident into her habit of turning social catastrophes into retrievable records; this dossier preserves the episode and message trail.
+
+## 2022 — SHE STARTS MAINTAINING BOTH BELONGING AND BOUNDARIES
+
+In February, Ren hosts an Officers Challenge dare. In May she welcomes Nobu, says **`I’ll set u up`**, and routes her through the Tour, Biodata, and Whiskey. By this point the person who once collected quotes is also helping people find rooms.
+
+Late 2022 shows how precise that social mapping can become. When Aeshleen says Dragon Raja is over for her, Ren says the memories still make her part of a **`forever family`**. Two months later, when Cookie forgets Slice exists, Ren states the access boundary just as plainly: **`Vip don’t got access here`**.
+
+One statement says you still belong. The other says that does not automatically give every badge every key. That distinction is much more useful than turning Ren into a generic "community person." She is repeatedly helping the house remember both relationship and structure.
+
+## 2023 — THE INDEX STARTS GENERATING NEW MATERIAL TOO
+
+Mugen credits Snow and Ren for the March anniversary surprise that opens UL's Mafia anime and bios rooms. In June, Ren proposes a blank canvas where Platelets can draw and the result can become a poster; Mia immediately starts the shared file.
+
+The creative role is not maker-credit for everything that follows. It is premise generation. Ren sees an interaction the group could have, names it, and somebody else turns it into an object.
+
+## 2025 — THE PERSON BEHIND THE MUNICIPAL RECORDS OFFICE IS STILL IN SLICE
+
+A short May 2025 Slice sequence takes Ren outside the house machinery entirely. She goes to see the sunrise, camps, sees a sky full of stars, and writes **`Seeing this many stars for the first time made me realize how small we truly are in this world`**.
+
+It is one reflection, not a permanent philosophy. Its value in the bio is simpler: the woman who spends so much archive time helping UL index itself still has a life the index can only glimpse in small personal posts.
+
+## 2026 — SOCIAL MEMORY BECOMES IDENTITY REPAIR
+
+When Rummy's old Discord account is hacked, Ren announces which replacement account belongs to her. Ren did not recover the account and this is not a cybersecurity role. It is the latest version of the same social function visible since 2020: make sure the room can still connect the label to the person.
+
+That is the progression underneath the Caporegime title. Ren starts as somebody helped by the room, becomes a collector of its language, then increasingly helps other people navigate its care routines, programs, access rules, family language, creative premises, and identity changes. Human Ctrl+F is a joke. The timeline is why the joke works.
+
+## EXAMPLE PHOTOS — The reference table nobody appointed her to run
+
+Ren kept turning up with `Example Photos` at the start of Photoshoot rounds: January 6, February 15, April 18, May 10, July 4, and August 1, 2021. On January 6, Anthos opened the example lane, Ren supplied another reference block, and Anthos separated the official submissions afterward. February 15 repeated the same handoff in under a minute. A contestant looking for the rules could see the difference between inspiration and an entry without anybody needing to invent a new office for it.
+
+**Episode receipts:** Ren/RV headers `796493388856688670`, `810917283755982878`, `833465934517501963`, `841462092493881364`, `861301163228135434`, `871516826079731712`; Anthos lane dividers `796495347044057098`, `810917505274347530`. Ren was a recurring reference-provider, not the sole maker or a formally appointed visual director. The images themselves are not attributed to her as photographer.
+
+## THE SENTENCE THAT FAILED THE PHOTO RULE — Fix it, don't exile it
+
+**Episode:** August 4, 2021 · Photo Submissions · dora/Forsaken's entry.
+
+Ren spotted outside editing in dora's picture, specifically the added sentence. Her correction opened with `Haii doraaaa, sorry`, then explained that outside editing wasn't allowed. Thirty-six seconds later she offered a way back in: `It’s oki if you post the Og pic without the sentence`. The stretched-out greeting and immediate repair instruction belong together. She was enforcing a rule, but she was also making it easy for the person to stay in the contest. Nobody needed a public execution over a caption.
+
+**Source:** Photo Submissions miner `site-candidates.md`, “Rules, but make it hun lol.” Ren's correction is a true Discord reply referencing parent `872535327926009928`; that parent's contents have not been recovered. The nearby text must not be substituted as its exact reply target. The exchange does not establish a formal Photoshoot office for Ren.
+
+## WALL LATENCY — New record?
+
+**Episode:** May 21 and July 7, 2021 · Lobby / Wall of Shame-Fame.
+
+Ren welcomed Zhēnxī with a `:DevilGlare:`, softened it to `*dear*`, confirmed `Zhen right?`, pointed them toward the Discord tour and warned `Don’t get lost now UwU`. Zhēnxī had just said `I am scare`. About seven minutes after the visible MEE6 welcome, Ren tagged them on the Wall. The new arrival protested `NOT THE WALL OF SHAME FAME`; Ansun called it `shamed within 6 minutes of entry`, and Ren asked `New record?`.
+
+The same joke resurfaced with Baby Lyssa in July. After Lyssa demanded `YOU COULDNT WAIT LIKE AT LEAST 5 MINUTES?`, Ren replied `*the shame doesn’t wait my dear*`. Her joke was not simply that she kept receipts; she treated publication speed as something worth celebrating.
+
+**Receipts:** Lobby `845549948506472468`, `845550095118106655`, `845550152210448414`, `845550309941444668`, `845550326572646450`; Wall `845551682191884339`, `845551777184612382`, `845553640622391316`, `845553735748419664`, `862382943002951680`, `862383180513280050`. Source: Main HQ `receipt-delta-2026-08-25-1645.md` and `site-candidates-2026-08-25-1645.md`. Ansun's six-minute description is his joke; the visible MEE6-to-Wall interval is approximately 6m53s. Ren's earlier uninspected image `845549197867876414` is **not** attributed to the later Zhēnxī tag, and `New record?` is not an established leaderboard.
+
+## RAJA POLICE DEPARTMENT — Running gag / artifact index
+
+Ren's fake Officer dossiers made the house's private jokes searchable as mock criminal warnings. Gabu's height feud, Mugen's Plutonian nonsense, Sye's small-but-deadly reputation, and Ren's own warning to avoid her all became form fields. The 2025 reposts brought the jokes back into circulation. The cards are a comedy artifact, not evidence of actual offenses or a dated formal appointment.
+
+**Receipt IDs:** `1355050884609867788`, `1355050934496923759`, `1355051574958751887`, `1355203583842455683`. Original card creation date and media authorship remain unresolved.
+
+## OFFICERS AS REALITY TV — The cast knows where the camera is
+
+Ren's October 20, 2024 QOTD answer described the Officers as a reality-TV cast that turned toward an imaginary camera whenever something stupid happened. It gives the fake "professional workplace" line a second layer: the joke is not only that the office is a circus, but that the cast knows it is one. This is her ensemble read, not a governance model.
+
+## THE FOUNTAIN OF YOUTH — Running gag
+
+Snow had apparently been hoarding the youth supply. In an April 2023 Wall exchange, Nobu called Ren a child, Kiro promoted RV to the fountain of youth itself, and Moon supplied the missing culprit: Snow had given it to her. One joke, three people, and Grandpa somehow still gets blamed. It is a small sideways cameo in Snow’s age mythology, not a new biography of Ren’s actual age.
+
+## KAEDE LINDA — Recognition at the door
+
+On January 19, 2023, the Lobby bot started processing FuentesKaede. Ren was already past the paperwork: `kaede linda eres tuuuu?` A little later came `bienvenida de regreso kaede linda`. The stretched-out greeting matters more than the intake form. She recognized the person, switched into affectionate Spanish, and made the return feel like somebody had noticed the door opening. That is the useful Ren detail here: her memory was not confined to collecting screenshots of people being idiots. She also remembered who to welcome back.
+
+**Receipts:** Lobby `1065813484853530644`, `1065821635485118594`. This is a recognized return, not a new appointment or a romance claim.
+
+## BREASTSTROKE — Four-year evidence custody
+
+In May 2022, Ren put Mugen's `hope everyone has eaten their breaststroke` on the Wall. Rich called it a shame war; Rummy was already repeating the mangled word. In August 2026 Ren brought the same visible crop back. A useful little exhibit in how the Wall worked: a typo could outlive the game conversation, and Ren was exactly the person to keep its paperwork.
+
+**Receipts:** Wall `973675315169738804`, `973676738573918298`, `1537087561283928194`. The original game-message date and screenshot capturer remain unknown.
+
+## KAHOOT CODE — The poster correction that needed correcting
+
+**Episode:** August 7–8, 2021 · Announcements · `873628678809088010`, `873686056938123284`, `873686142720024686`, `874033999436189746`.
+
+Ren opened the spelling Kahoot with `OPEN UWUWUWU!!!`. By afternoon she had posted `Cause I’m ✨ dumb ✨` alongside a supposedly corrected code and asked Staff to forgive her. The next day came the actual administrative disaster: the poster still had the wrong code, and anyone who had already played needed to do the challenge again. Ren owned the mistake in public rather than leaving players to wonder why their entries failed. A one-person help desk, accidentally also the source of the ticket.
+
+**Attribution:** Ren posted the announcements and corrections; the poster images were not inspected, and their creator is not identified. The spelling challenge is kept distinct from the earlier club-knowledge Kahoot and from Speeling Bee.
+
+## RELAX — A caption made of two emotes
+
+**Episode:** May 13, 2021 · Photo Submissions · message `842600913633148938` · attachment `842600913410457600`.
+
+Ren's Relax entry paired a photograph of two people lounging on beanbags with `:tmirusnyarelax: :ymiruspandarelaxed:`. Both are animated Discord custom emotes; the stored names carry the mood without an explanatory sentence. She edited the post roughly thirteen seconds later, but the export keeps only its final form. The two people in the image are unidentified, and posting it does not establish who made or captured it.
+
+**Running-gag / platform-language crosslink:** Ghostt used `:worryShrug1::worryShrug2:` as the complete caption on a Scary submission five months later (`900159114997530644`). Two different members could let UL's own emoji vocabulary do the talking. That is a recurring presentation trick, not a documented Photoshoot rule or evidence that either set of emotes originated with these submissions.
+
+## NOODLE — The index nickname that got loose
+
+The September 2020 Organisation index had RV filed as `smol noodle`. In November, while everyone was remembering the time Pride's corpse went missing, Illien called Ren `Noodle` without stopping to explain it. That is the funny part: one of Tumbleweed's labels had made it into ordinary conversation. No need to pretend the entire index became everybody's nickname dictionary.
+
+**Cross-reference:** BACKROOM Pass 32 · Organisation Update (September 29, 2020) / Wall (November 4, 2020), following Ren's lost-corpse Amber Alert messages `773639556544331856` and `773639584143376394`.
+
+## ORB — The label that escaped the index
+
+The September 29, 2020 Organisation index filed **`RV - Zoshaa (orb) - child shield`**. Earlier that morning Ren had already said **`See! Orb is with me`**. On May 17, 2021, Zoshaa offered a **`refreshing glass of boiled mayo`** to **`my orb`**, and Ren answered ten seconds later with a peek. By then the word was doing more than filling a row in Anthos's running list. It was a small shared cue they could drop into the room and expect the other to catch.
+
+**Receipts:** Club Only `760519758914256926`, `760564322182103111`; Wall `844051938638692403`, `844051976953004042`.
+
+**Relationship:** Ren ↔ Zoshaa. The wider room-level Tumbleweed map is indexed in the existing `tumbleweed-family-tree-returns-2026` Episode.
+## WALTZ — With the bestie
+
+**Episode:** July 14, 2021 · Photo Submissions · Ren's entry `865078249850929162`.
+
+Ren posted a WALTZ entry captioned `With the bestie` and tagged Eos. No interpretive gymnastics required: Ren supplied the friendship language herself. The event was a creative pairing; the caption is what makes the relationship visible. The post was edited seven seconds after publication, so the earlier wording cannot be recovered. The attached image `865078249553920000` has not been visually inspected, and posting it does not establish who photographed or made it.
+## SYV — The conversation kept going
+
+Ren's attention was not reserved for people who already knew how to be loud. When Syv barely spoke in UL, Ren kept talking to her; Syv remembered that contact as being dragged out of her shy bubble and said it helped her speak more. Two years later, asked who in the server felt most like her, Syv chose Ren. The overlap was their ability to become chaotic on purpose and the favorite-topic rants that were supposedly *little* until Syv corrected the record: *it's not little*. Ren's stored response was happy and love reactions.
+
+The same conversation made Ren a familiar comparison point for somebody else too: Gilli considered naming her, joked that their Bluetooth was often in sync, then worried she'd influenced the answer. Syv told her that still counted. Ren's name was coming up because people recognized a real, repeatable way of being around her.
+
+## PETTY CRIMES
+
+- The favorite-topic rants are not little. Syv has amended the record.

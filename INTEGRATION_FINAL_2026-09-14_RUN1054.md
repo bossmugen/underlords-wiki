@@ -1,0 +1,15 @@
+# UL Site + Wiki Integrator — Run 1054
+
+The mandatory miner census on MAIN closes at **51 tracked miner identities = 30 active refs + 21 historical/missing refs**, with **0 newly discovered refs, 0 pending review, 0 backlog, and 0 overdue**. Six families remain `pending_publication`; those are already-reviewed MAIN publication/resynthesis/verification debt, not unread miner tails. Both Club-Only recovery-priority lanes remain current.
+
+Wall was the only branch to move, from `916593da3e6928cd00431b813b293ae8bb545fb6` through `5c285fea86f1eda9c14b875d1a6508fbac926488`. Run 1054 reviewed that suffix checkpoint-first and intake-only. The closing census found all 30 active miner refs unchanged after review.
+
+The Scar-labeled packet remains backstage. Stable account `327105275256733696` carries `Scar` / `s.car` / `Grumpy aka Scar` labels plus coherent dry-witness / low-key-vibing / Mugen-shorthand texture, but current public canon already has a canonical Scar owner with overlapping aliases and no explicit multi-account bridge. Similar names and aliases are not enough to merge stable accounts, so WIKI did not mutate the existing Scar dossier or manufacture Scar II. q7 resolves toward HamitteY rather than Scar; q11, Scarlet, and uninspected-media attribution remain unresolved.
+
+The same suffix advances the ant callback chronology to an earlier surviving **2020-08-25** Club-Only pocket: Pride says `ANTsun`, Ren posts an uninspected image, and Sou says `For my ants`; months later Sou asks `and my ants?`, Ren answers `Yeth`, and Anthos supplies an ant GIF. This is compressed shared-memory texture, not a closeness rank. Hard user-confirmed canon keeps Sou / Souta / 颯太 inside Ansun, so the miner's person-level split language does not create a second Sou owner. Earliest surviving is not origin, and the exact ant image remains unresolved beyond POSTED BY Ren.
+
+WIKI reader-facing changes this run: **0 intentionally**. The Scar material is identity-blocked, while the ant callback is too small to justify another overlay beside the already-structured Ansun owner. The accepted Run-1051 reader remains `2546d2fbc564c023e08b1b8af20f45e944d9059e`, already green on Build `34814382073` and Pages/Preview `34814382026`; no redundant Astro/Pages cycle was launched for an unchanged reader tree.
+
+MAIN reader-facing changes this run: **0 intentionally**. MAIN's Scar owner remains untouched for the same identity-safety reason, and Ansun's already-rich biography does not need another receipt paragraph for this callback. The older accepted Kuki reader remains behind the previously recorded production-runner gate; no fresh MAIN deploy success is claimed.
+
+The controlling MAIN branch ledger was closed in commit `b7a7e5b02994ce1e0377d6fae609cc400afbc8c4`. No consumed SHA advanced; Wall is reviewed through `5c285fea86f1eda9c14b875d1a6508fbac926488` while its formal consumed pointer remains pinned at `066e3c3f1ed8dad6b0ac38f55f6dfa5de3abe6b4` behind older unrelated MAIN publication/verification debt.

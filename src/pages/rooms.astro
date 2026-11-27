@@ -1,0 +1,50 @@
+---
+import WikiLayout from "../layouts/WikiLayout.astro";
+import { locations } from "../data/wiki";
+import { ROOM_GROUPS, ROOM_LINEAGE } from "../data/site";
+
+const roomById = new Map(locations.map((room) => [room.id, room]));
+---
+<WikiLayout title="Rooms | Underlords" description="The channels, lounges, offices, couches, and named social spaces where Underlords happened.">
+  <section class="hero">
+    <div>
+      <div class="kicker">THE HALLWAY</div>
+      <h1>ROOMS</h1>
+      <p class="tagline">UL did not merely have channels. It had a living room, a front porch, alleged management, evidence storage, couches, private doors, and several names that explained the room better than formal documentation ever could.</p>
+      <div class="hero-actions"><a class="ul-button secondary" href="/snoop?q=room">SNOOP THE ROOMS</a></div>
+    </div>
+  </section>
+
+  {ROOM_GROUPS.map((group) => {
+    const rooms = group.roomIds.map((id) => roomById.get(id)).filter(Boolean);
+    if (!rooms.length) return null;
+    return (
+      <section class="room-group" id={group.id}>
+        <div class="room-group-head">
+          <h2>{group.label}</h2>
+          <p>{group.note}</p>
+        </div>
+        <div class="room-grid">
+          {rooms.map((room) => room && (
+            <a class="room-card" href={`/locations#${room.id}`} aria-label={`Open the ${room.name} room history`}>
+              <small>{room.type}</small><b>GO IN →</b>
+              <h3>{room.name}</h3>
+              <p>{room.logline}</p>
+              <div class="room-lineage">{ROOM_LINEAGE[room.id] ?? "The surviving room record is still being assembled."}</div>
+            </a>
+          ))}
+        </div>
+      </section>
+    );
+  })}
+
+  <section class="related-module">
+    <div class="related-module-head"><h2>ELSEWHERE IN THE HOUSE</h2><p>Rooms become legible through the people and episodes that kept crossing their thresholds.</p></div>
+    <div class="related-grid">
+      <a class="related-card" href="/characters"><small>STRIPPERS</small><strong>Who lived here?</strong><span>Follow the people before the metadata.</span></a>
+      <a class="related-card" href="/episodes"><small>EPISODES & INCIDENTS</small><strong>What happened here?</strong><span>Named stories, turning points, and recurring damage.</span></a>
+      <a class="related-card" href="/gallery"><small>WALL OF SHAME/FAME</small><strong>What survived?</strong><span>Screenshots, art, posters, and visual objects.</span></a>
+      <a class="related-card" href="/archive"><small>THE BASEMENT</small><strong>Show the room records.</strong><span>Archive coverage and source boundaries live downstairs.</span></a>
+    </div>
+  </section>
+</WikiLayout>

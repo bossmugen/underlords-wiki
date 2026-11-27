@@ -1,0 +1,33 @@
+---
+import WikiLayout from "../layouts/WikiLayout.astro";
+import { CORRECTIONS } from "../data/site";
+---
+<WikiLayout title="We Fucked Up | Underlords Corrections" description="Underlords identity corrections, terminology repairs, and public continuity fixes.">
+  <section class="hero">
+    <div>
+      <div class="kicker">CORRECTIONS & CONTINUITY REPAIRS</div>
+      <h1>WE FUCKED<br/>UP</h1>
+      <p class="tagline">The archive grows, old names collide, pooled accounts lie by omission, and sometimes the framing is simply wrong. Corrections propagate through the person record instead of becoming a decorative apology nobody uses.</p>
+    </div>
+  </section>
+  <section class="section">
+    <div class="correction-list">
+      {CORRECTIONS.map((correction) => (
+        <article class="correction-card">
+          <small>{correction.status} · {correction.date}</small>
+          <h2>{correction.title}</h2>
+          <p>{correction.text}</p>
+        </article>
+      ))}
+    </div>
+  </section>
+  <section class="related-module">
+    <div class="related-module-head"><h2>SHOW RECEIPTS</h2><p>Public corrections live here. Source mechanics, identity joins, and unresolved archive boundaries remain downstairs.</p></div>
+    <div class="related-grid">
+      <a class="related-card" href="/archive"><small>THE BASEMENT</small><strong>How we know</strong><span>Source grammar and archive boundaries.</span></a>
+      <a class="related-card" href="/speak-engliah"><small>SPEAK ENGLIAH</small><strong>The typo rule</strong><span>Fast fingers, not fake stupidity.</span></a>
+      <a class="related-card" href="/characters"><small>STRIPPERS</small><strong>One person, one continuity</strong><span>Aliases and corrections follow the person.</span></a>
+      <a class="related-card" href="/snoop"><small>SNOOP</small><strong>Find the repaired record</strong><span>Search old handles and current names together.</span></a>
+    </div>
+  </section>
+</WikiLayout>
