@@ -47,6 +47,13 @@ claims:
       - label: "Photo Submissions · 2021-04-25"
         href: "/events/photo-submissions"
     note: "Cookie's `why my editor dont edit full pic` message is 835940155058946059. Gilli's stored Discord reply parent is 835940038549569627, whose text remains unresolved. Do not portray her reply as directly attached to the quoted crop message; no intentional hand-cropping is established."
+  - text: "Earlier on April 25, 2021, an unidentified Photo Submissions poster wrote `So I don't have an uncop version of the original so I'm going to submit this one instead` and attached a substitute image."
+    evidence: "archive-confirmed"
+    date: "2021-04-25"
+    sources:
+      - label: "Photo Submissions · Mafia · 835885530368573491 / 835885530172358676"
+        href: "/events/photo-submissions"
+    note: "`uncop` is preserved exactly as typed. The exported author label is pooled and does not identify a historical person; the replacement image is not visually described or assigned maker/capture/featured credit."
   - text: "On October 25, 2021 Ren called the Wall `part of y’all’s DM’s`; Cookie said `she started it` and Tofu directly replied `COOKIE STARTED IT.` (902325689947148338 / 902339614138830869 / 902342191790305360). In November 2021 Anayss caught Cookie and Tofu `exposing your dms again`; in August 2024 Cookie predicted Tofu would expose him after getting Wall access, then posted Tofu himself. Tofu true-replied with another screenshot and `Oh si? Pues toma`; Cookie Fat-Wheezed."
     evidence: "archive-confirmed"
     date: "2021-11-01 – 2024-08-31"
@@ -82,7 +89,7 @@ tags:
 
 ## The crop that needed a rulebook
 
-In April 2021, Cookie was trying to get a Photoshoot picture through an editor that insisted on cropping the frame. He complained about the automatic crop; Gilli came through with the no-outside-editors rule and a remarkably gentle `hun lol`. Cookie put up a `0 edit` version and promptly complained that it `looks so boring though`. Someone else in the room followed with `Yeah well mine sucks now not that it was good to begin with but`. So the rule wasn't just Cookie getting caught by his own software: two people were mourning the prettier versions of their pictures, and Gilli was still calling him *hun* while enforcing it. A tiny art-school uprising, defeated by the screenshot rulebook.
+Earlier that morning, an unidentified submitter says, `So I don't have an uncop version of the original so I'm going to submit this one instead`, then drops a substitute image. The typo stays as typed; neither the poster nor the picture gets a name. Later, Cookie is trying to get a Photoshoot picture through an editor that insists on cropping the frame. He complains about the automatic crop; Gilli comes through with the no-outside-editors rule and a remarkably gentle `hun lol`. Cookie puts up a `0 edit` version and promptly complains that it `looks so boring though`. Another anonymous line lands twenty-four seconds later: `Yeah well mine sucks now not that it was good to begin with but`. It reads like somebody joining Cookie's complaint, though it isn't a reply and the speaker isn't identified. So the rule wasn't just Cookie getting caught by his own software: the room is full of people mourning the prettier versions of their pictures, and Gilli is still calling him *hun* while enforcing it. A tiny art-school uprising, defeated by the screenshot rulebook.
 
 Cookie. Kuki. Cookies and Juicebox. One person, several snacks, and eventually a recurring legal strategy: **deny everything and become a running panda**.
 
