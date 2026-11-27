@@ -92,6 +92,13 @@ claims:
       - label: "Photo Submissions"
         href: "/channels/photo-submissions"
       - label: "UL icon / visual archive"
+  - text: "On April 25, 2021, Mugen admitted that she had posted the wrong image during the MAFIA Photo Submissions round."
+    evidence: "archive-confirmed"
+    date: "2021-04-25"
+    sources:
+      - label: "Photo Submissions · MAFIA closing day · 836093321813164052"
+        href: "/events/photo-submissions"
+    note: "The wrong image is not identified; do not connect it to the nearby crop or outside-editor corrections."
   - text: "On October 4, 2021, Mugen opened the NightLife Magazine Photoshoot at 09:09. An official entry was already posted by 16:08; the launch message was edited at 16:51:09, and at 16:58:55 she announced that submissions could use any location instead of the suggested Tokyo/Zelan settings. The room watched a live rule revision after submissions had begun."
     evidence: "archive-confirmed"
     date: "2021-10-04"
@@ -478,6 +485,8 @@ Eventually: do not let the archive lose the person because it happened to rememb
 Mugen has taste, and the taste is not clean prestige.
 
 She says she dressed **Decora** in high school. Dragon Raja gives us **LadyMugen**, an older self-presentation that can later become cringe material once enough years pass. Photo Submissions gives her official **Mafia** and **Popstar** personas. UL iconography leans into neon, kisses, `xoxo`, animated affection, camp figures blowing kisses, mafia language, and **neighborhood-friendly mafia**.
+
+Mafia closing day also caught her on the wrong side of the upload button: **`i posted the wrong photo ;w;`**. The Boss was not exempt from her own contest's error pile.
 
 It is menace with glitter on it.
 
