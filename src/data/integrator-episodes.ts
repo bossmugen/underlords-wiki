@@ -1002,4 +1002,13 @@ export const integratedEpisodes: Episode[] = [
     logline: "Scar opens with `Also Gilli must have some harem here`. Gilli denies it in full caps; Scar answers `Why not you?`. Ansun backs the joke with `youre right`, the room takes the premise for a lap, and Scar returns later with `I knew it all time`. The fun is the room's willingness to prosecute a nonsense theory together, not a real relationship map.",
     cast: ["Scar", "Gilli", "Ansun"]
   },
+  {
+    id: "syv-ochem-c-is-a-pass-2021",
+    title: "The C Is a Pass",
+    season: "2021",
+    date: "October 18, 2021",
+    kind: "Wall / school / one-scene exchange",
+    logline: "Rich opens with `How ochem` (899871070763483146). Syv explains that the class needs a whole day to review its badly graded tests (899871230910419024), then reports a C (899871399961837628) and, six seconds later, decides `I’m counting that as a pass` (899871424544645151). Nine seconds after that she admits she expected significantly worse (899871463203561503). Rich closes with `Your mom probably wont` (899871581248061502). One bad-test conversation, one quick recalculation, and no claim about Syv’s overall academic record.",
+    cast: ["Syv", "Rich"]
+  },
 ];
