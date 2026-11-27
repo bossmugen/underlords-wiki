@@ -1084,4 +1084,23 @@ export const integratedEpisodes: Episode[] = [
     logline: "On August 3, Sye noticed no QOTD and asked the room to keep giving hugs and water. Momo's answer was `ANSUN MAKE QUESTIONS`; Souta supplied a museum-design prompt. On October 1, Souta returned with `No questions? *Smashes skateboard*` and a TED Talk prompt. The Barista handled delivery when it was working; the room could still make a question happen without it. The cumulative handoff gives dates and named speakers but no individual message IDs or timestamps.",
     cast: ["Sye", "Momo", "Ansun"]
   },
+
+  {
+    id: "ghoulie-wall-record-to-tenancy-2021",
+    title: "The Wall Starts Keeping Score",
+    season: "2021",
+    date: "March 24 – April 22, 2021",
+    kind: "Wall / recurring target / record-to-tenancy prehistory",
+    logline: "On March 24, Gilli says of a fresh Ghoulie Wall predicament, 'She only been here for less then an hour HAHAA' (824393327595880479); Mugen answers, 'LMFAO WE SHOULD HAVE A RECORD' (824393363838861332). The clock's starting point is unresolved, so this is not a joining timestamp or a measured record. Later that day Ghoulie proposes, 'At this point just name it Ghoulies wall of shame' (824501922379595786), and Ansun tells her she can 'outdo me Ghoulie' (824502021343150101). On April 22 Ghoulie asks, 'why am i always here' (834951061424832562); Tae replies, 'Girl its like you live here😟' (834952870038208574). The Wall moves from keeping score to giving Ghoulie naming rights to treating her like a tenant, before the later rent jokes make the metaphor official.",
+    cast: ["Ghoulie", "Gilli", "Mugen", "Ansun", "Tae"]
+  },
+  {
+    id: "lilly-simp-police-2020",
+    title: "The Simp Police Has Arrived. Check Her File.",
+    season: "2020",
+    date: "September 29 – October 8, 2020",
+    kind: "Tumbleweed / Wall / joke-label meets ordinary banter",
+    logline: "Anthos's September 29 Underlords Organisation Update files Lilly as '(simp)' under Ansun's section (760564322182103111). Nine days later Lilly tells Danny, 'stop simping over the girls here' (763956701102997546); Ansun welcomes her to 'our humble abode' (763956714671439922), and Lilly answers, 'heheheheh thank you' (763956734557421578). The fake-family label and the simping-police line collide without becoming a literal relationship or a moderation appointment.",
+    cast: ["Lilly", "Danny", "Ansun", "Anthos"]
+  },
 ];
