@@ -436,8 +436,8 @@ export const integratedEpisodes: Episode[] = [
     season: "2021",
     date: "July 2021",
     kind: "Photo Submissions / Waltz partner choices",
-    logline: "The WALTZ prompt gave people an excuse to put somebody else in the frame. On July 11, Dreamless identified as DeathBloom in the UL lobby (863839283135250462), and Anayss pointed them toward photo-submissions (863839471950888980). Minutes later AkaneAwake also identified as DeathBloom (863842473151037470); Sota gave her the same contest directions (863843031026106429). Nine days later Akane submitted 'Dancing in the moonlight with @Dreamless (Deathbloom)' (867268997471666236). Qin-Mu followed his own image with 'Yoza and @Akariel'. The lobby-to-WALTZ handoff shows two visitors actually using the invitation. It does not mean they met in UL, joined UL, or announced a romance; the captions name their partners, not the photographers.",
-    cast: ["AkaneAwake", "Dreamless", "Qin-Mu", "Akariel"]
+    logline: "The WALTZ prompt gave people an excuse to put somebody else in the frame. Mugen's July 7 Announcements post pointed contestants to `#💡｜photoshoot-tips` with `For tips and tricks see #💡｜photoshoot-tips` (862299611249770507). On July 11, Dreamless identified as DeathBloom in the UL lobby (863839283135250462), and Anayss pointed them toward photo-submissions (863839471950888980). Minutes later AkaneAwake also identified as DeathBloom (863842473151037470); Sota gave her the same contest directions (863843031026106429). Nine days later Akane submitted 'Dancing in the moonlight with @Dreamless (Deathbloom)' (867268997471666236). Qin-Mu followed his own image with 'Yoza and @Akariel'. The lobby-to-WALTZ handoff shows two visitors actually using the invitation. It does not mean they met in UL, joined UL, or announced a romance; the captions name their partners, not the photographers.",
+    cast: ["Mugen", "AkaneAwake", "Dreamless", "Qin-Mu", "Akariel"]
   },
   {
     id: "nhou-lonely-self-poop-reaction-2021",

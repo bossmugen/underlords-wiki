@@ -203,6 +203,13 @@ claims:
       - label: "Backroom site-candidates.md Pass 1 · 917568868753481869 / 917582223761371217 / 917582458592055336 / 917583531457273886 / 921871845274308709"
     note: "A shared typo/volunteering joke, not an appointment or a literacy claim."
 
+  - text: "On July 7, 2021, Mugen's WALTZ announcement in Announcements directed participants to `#💡｜photoshoot-tips` with `For tips and tricks see #💡｜photoshoot-tips`."
+    evidence: "archive-confirmed"
+    date: "2021-07-07"
+    sources:
+      - label: "Announcements · WALTZ announcement · 862299611249770507"
+        href: "/channels/announcements"
+    note: "SAID BY Mugen (684998869553381424). The message was edited at 04:53:11 PDT; only the final body survives. This dates the direct reference, not channel creation or origin."
 relatedPeople:
   - "dean"
   - "key"
@@ -280,6 +287,10 @@ Mugen begins in the middle of people, not above them.
 
 The guild's founding and the current Discord's origin are two different stories. On February 12, 2022, Mugen called the current room **`UL server 2.0`**. She described a crisis in the previous server and a quick move into Snow's already-existing stripclub test server. In that same answer, she sorted the house by contribution: Platelets were the **`good kids`**, Staff were the laughs and dumbassery that made UL, Officers carried difficult invisible work in the weekly boardroom, and VIPs patronized the **`stripclub-casino-comedybar-daycare`**. The answer is part migration story, part Mugen's own map of what the groups were for.
 
+## Quotes
+
+- **July 7, 2021 · WALTZ announcement:** `For tips and tricks see #💡｜photoshoot-tips` — Mugen's public pointer to the contest's tips lane.
+
 ## Mugs according to Mugs
 
 QOTD finally gives us something better than inferred personality: Mugen describing herself.
@@ -289,6 +300,8 @@ In June 2022 she calls herself a **`distant drifter friend`**. She is the person
 That combination explains more of the archive than Founder does.
 
 She can be socially mobile without being detached. She may drift, but when somebody comes to her with a problem her instinct is to start arranging the pieces. And when the problem is not a problem at all, she may be the idiot trying to get everybody into the car.
+
+The July 7, 2021 WALTZ announcement is that planner instinct at screenshot scale: Mugen pointed participants to `#💡｜photoshoot-tips` with `For tips and tricks see ...`. The contest had a place for help, not just a deadline and an upload slot.
 
 A March 2022 love-language QOTD gives **Acts of Service + Quality Time**. It is a self-report, not a diagnosis, and it lines up suspiciously well with the woman the rest of the archive keeps catching: doing the task, making the room, checking the list, finding the person, planning the thing, and spending enough years around the same idiots that the relationship outlives the game.
 
