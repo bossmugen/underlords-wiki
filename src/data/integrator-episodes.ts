@@ -3,7 +3,7 @@ import type { Episode } from "./wiki";
 export const integratedEpisodes: Episode[] = [
   {
     id: "sewer-ten-photoshoot-morning-2021",
-    title: "The Server Ten Poster Became Sewer Ten Before Breakfast.",
+    title: "The Server 10 Poster Meeting Became Sewer Ten Before Breakfast.",
     season: "2021",
     date: "January 14, 2021",
     kind: "Photoshoot / poster production / typo pile / contest administration",
