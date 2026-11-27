@@ -271,6 +271,12 @@ Ansun helped set up COLORS by posting **`Example Photos`** and two attachments b
 
 WolfPhenix's STALKER entry arrived with the caption **`Ansun uwu`** and seven `fatlaugh` reactions. Ansun became part of the visual joke without anybody needing to invent who made, photographed or appeared in the attachment.
 
+## Episodes: Bee Movie gave him antennae
+
+**September 18–24, 2020.** Mugs and Ansun started buzzing about *Bee Movie*. Anthos answered with an enormous transcript in Club Only; nine minutes later Ansun was still saying **`im reading`**, then **`asmr?`**. Six days later he complained that something would have been fine without the **`antenaee`**, and Anthos brought the reading assignment back: **`who would of thought u reading the bee movie would turn u into one`**. The room had given Ansun homework and somehow ended up with a six-day callback.
+
+**Receipts:** Club Only `756637602995503224`, `756637608200896617`, `756637634666823771`, `756637649938153505`, `756639925373239378`, `756639945078210611`, `758717478691274804`, `758717489743396904`.
+
 ## Running Gags: Open a case, seize the Wall
 
 By August 24, 2020, Pride was already calling Ansun **`the poster child of UL greatest hits`**. The room had made him an example before he started filing cases of his own. A year later he was supplying timestamps and mock charges; he could be both prosecutor and exhibit.
