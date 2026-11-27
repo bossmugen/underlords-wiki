@@ -552,11 +552,10 @@ export const integratedEpisodes: Episode[] = [
     id: "beach-example-photos-five-minute-launch-2021",
     title: "Beach Got a Mood Board in Six Minutes",
     season: "2021",
-    date: "June 1, 2021",
-    kind: "Photoshoot / example-image assembly and round opening",
-    logline: "At 13:00 Gilli posts BEACH's first Example Photos image. Anthos adds two more at 13:04; Anayss supplies another at 13:05; at 13:06 Gilli opens the June BEACH submissions. Gilli bookends the six-minute setup while Anthos and Anayss help build the brief. This is a shared production ritual, not evidence of an exclusive Photoshoot office or proof that any poster personally made or captured the reference images. Source: archive-miner-photo-submissions-2021, site-candidates-hourly.md (2026-08-25 01:45 PDT, corrected Beach sequence).",
+    date: "June 1–5, 2021",
+    kind: "Photoshoot / example-image assembly, round opening and entrant return",
+    logline: "At 13:00 Gilli posts BEACH's first Example Photos image (849377015118102548). Anthos adds two more at 13:04; Anayss supplies another at 13:05 (849378136923832320); at 13:06 Gilli opens the June BEACH submissions (849378339021520957). Four days later, Anayss returns to the same round with her own blank-caption entry (850859310183088128). The same account helped furnish the reference board, then stepped into the contestant pool. Gilli bookends the six-minute setup while Anthos and Anayss help build the brief; Anayss did not stay on the organizer side of the table. This is a scene-specific crossover, not evidence of an exclusive Photoshoot office or proof that any poster personally made or captured the reference or entry images. Source: archive-miner-photo-submissions-2021, site-candidate-2026-08-25-0545-anayss.md and the corrected Beach sequence in site-candidates-hourly.md.",
     cast: ["Gilli", "Anthos", "Anayss"]
-  },
   {
     id: "mariamoon-forgot-the-game-2021-2026",
     title: "MariaMoon Remembered the People, Not the Game",
