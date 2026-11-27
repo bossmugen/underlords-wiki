@@ -24,13 +24,13 @@ claims:
     sources:
       - label: "💬 Club Only recovered export"
         href: "/channels/club-only"
-  - text: "On April 11, 2020, Yumi said `i don't watch anime much so no clue`, then told Mugen that the last thing she watched was `armed girls Machiavellian` and that she was `trying to dig deeper now`; she remembered a blind sword-wielding girl from it as `neat`."
+  - text: "On April 11, 2020, Yumi said `i don't watch anime much so no clue`, then told Mugen the last thing she watched was `armed girls Machiavellian`, admitted she had been behind because of her new `love of trash anime now`, and said she was `trying to dig deeper now`; she remembered a blind sword-wielding girl as `neat`."
     evidence: "archive-confirmed"
     date: "2020-04-11"
     sources:
       - label: "💬 Club Only · 2020-04-11"
         href: "/channels/club-only"
-    note: "This supports dated anime curiosity and self-described limited familiarity, not a lifelong or expert fandom identity."
+    note: "Receipts 698734096234315926, 698734814794350642, 698735122215731271, and 698735255707975800. This supports a dated, newly acquired trash-anime curiosity, not a lifelong or expert fandom identity."
   - text: "On April 11, 2020, Yumi told an anime-recommendation requester she could not help because she had been on a period-piece binge. Her separate trash-anime curiosity that day was a different watchlist thread."
     evidence: "archive-confirmed"
     date: "2020-04-11"
