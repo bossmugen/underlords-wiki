@@ -27,7 +27,7 @@ claims:
     sources:
       - label: "👅 Wall recovered export"
         href: "/channels/wall"
-  - text: "On October 18, 2021, after Rich asked `How ochem`, Syv said the class needed a whole day to review a badly graded test, reported getting a C, then six seconds later wrote `I’m counting that as a pass` and nine seconds after that `I was expecting significantly worse`; she later set a B target and said she would make it up with other tests."
+  - text: "On October 18, 2021, after a question about ochem, Syv said the class needed a whole day to review a badly graded test, reported getting a C, then six seconds later wrote `I’m counting that as a pass` and nine seconds after that `I was expecting significantly worse`; she later set a B target and said she would make it up with other tests."
     evidence: "archive-confirmed"
     date: "2021-10-18"
     sources:
@@ -53,14 +53,13 @@ antiFanon:
   - "Syv is not Sye. Stable Syv account: 197521779177029632 / syveon. Stable Sye/Life/Syenitha account in the corrected bot scenes: 488099199938986004 / sycessences. Never merge them because the names differ by one letter."
   - "The September 22, 2020 Saber `!config` commands previously misfiled under Syv are authored by `sycessences` / account 488099199938986004 and belong to Sye, not Syv."
   - "The November 22, 2022 Announcements lines `we are getting a System Alert...` / `PLEASE LOG OFF` are also authored by `sycessences` / account 488099199938986004 and belong to Sye, not Syv."
-  - "The January 13, 2022 ramen exchange is with Ricochet / dragonrichard, not Rich / DragonRich. Those identities remain separate."
+  - "The January 13, 2022 ramen exchange is with Ricochet / dragonrichard, not Rich / DragonRich. Those identities remain separate. The Run 24 people-index labels the Ochem speaker `Rich` and maps that label to stable ID 459696170759880745, while the current WIKI stable-ID mapping assigns that account to Ricochet. Keep the Ochem opening and closing lines unattributed until the source bridge is reconciled."
   - "Historical Staff / Server Booster role arrays attached to Syv's old messages are snapshots, not appointment chronology and not grounds to overwrite her current VIP status."
   - "Do not call October 2021 Syv's first arrival in UL. It is the earliest clean authored character scene surfaced for this dossier, not a first-door receipt."
   - "Do not turn one C, one B target, and one make-up plan into Syv's complete academic record or a personality diagnosis."
   - "Do not turn `I’m broke` into literal poverty, a persistent financial condition, or proof that Ricochet expected real food delivery."
 relatedPeople:
   - "ren"
-  - "rich"
   - "ricochet"
 tags:
   - "ren"
@@ -71,7 +70,6 @@ tags:
   - "wall"
   - "ochem"
   - "practical-register"
-  - "rich"
   - "ricochet"
   - "photo-submissions"
   - "photoshoot"
@@ -89,7 +87,7 @@ Syv can go quiet in a crowded room and still remember exactly who has been missi
 
 ## A C. COUNTING THAT AS A PASS.
 
-Rich asks **`How ochem`**. Syv explains that the class has an entire day dedicated to reviewing the test because the grades went that badly, then reports her own result:
+The exchange opens with **`How ochem`**. Syv explains that the class has an entire day dedicated to reviewing the test because the grades went that badly, then reports her own result:
 
 > `Hey I got a C on the test`
 
@@ -133,7 +131,7 @@ Syv takes another five seconds:
 
 The important gesture is not the ramen. It is that Syv **noticed** the absence, says so plainly, and then does not make Ricochet perform a comeback speech. Ricochet gives two words of explanation and the pair immediately drop into mundane banter. The concern is real enough to register the missing weeks; the familiarity is comfortable enough that nobody has to ceremonialize the return.
 
-That scene is with **Ricochet / dragonrichard**, not Rich / DragonRich. Rich still belongs in Syv's file because he is the person who asks about organic chemistry. The two men do not become one person just because old room language and account names are annoyingly similar.
+That scene is with **Ricochet / dragonrichard**, not Rich / DragonRich. The Ochem exchange is a separate school-life scene for Syv; its other speakers remain unassigned until the stable-ID bridge is reconciled.
 
 ## PETTY CRIMES
 
