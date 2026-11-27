@@ -96,6 +96,13 @@ claims:
       - label: "👅 Wall · 2021 reciprocal-participation cluster"
         href: "/channels/wall"
     note: "Illien is POSTED BY for the specific links/attachments attributed to him. Ren owns `dont click that don't`. Attachment contents, maker/capture attribution, and featured subjects remain unresolved without pixel inspection."
+  - text: 'On September 29, 2020, after RV asked to add the addicts, Illien volunteered `I will be an Alcoholic noodle ❤️`; later in the same Organisation update he corrected `addicted players` to `"obsessive"`.'
+    evidence: "archive-confirmed"
+    date: "2020-09-29"
+    sources:
+      - label: "Club Only · Organisation update · 760569555323715584 / 760569584234659881 / 760571781034672170"
+        href: "/channels/club-only"
+    note: "The self-label is a joke, and `obsessive` is Illien's category correction, not a diagnosis."
 antiFanon:
   - "Euros is Illien, not a separate person; Nuien is separate."
   - "`does not leave people behind` is Mugen's peer characterization of recurring behavior, not a perfection claim and not proof Illien never failed someone."
@@ -105,6 +112,7 @@ antiFanon:
   - "The 2021 Wall participation is recurring social behavior, not a formal Archivist, prosecutor, or governance appointment."
   - "The September 24 `pay up` / `more expensive` exchange is house banter, not proof of sex work, a paid service, an actual transaction, or that an in-person lunch occurred."
   - "The October 1 Eli bite command is playful bot syntax, not evidence of literal violence or a romantic relationship with Mugen."
+  - "The `Alcoholic noodle` label is Illien's self-authored joke, and `obsessive` is a word correction, not a diagnosis."
 relatedPeople:
   - "gilli"
   - "ansun"
@@ -185,7 +193,7 @@ Wall adds a useful contradiction to that care pattern. Illien is not only somebo
 - **Follow-through:** rerun, explain, spar, check whether the person actually got there.
 - **Help without fake mastery:** welcome first, ask for directions second.
 - **Active Wall prosecution:** by 2021 he can route the audience and feed the evidence loop rather than existing only as its target.
-- **Terminology QA for nonsense:** bite versus nom, followed by immediate deployment.
+- **Category QA:** Illien volunteers himself as **`Alcoholic noodle ❤️`**, corrects `addicted players` to **`"obsessive"`**, then two days later corrects a bot's `nom` to a `bite` and immediately tests the new label on Mugen. He is not trying to stop the nonsense; he wants the terminology right.
 - **Domestic leakage:** `BREAKING MY FREAKING BATHROOM` becomes shared room continuity.
 - **Cat OPSEC:** historically poor.
 
