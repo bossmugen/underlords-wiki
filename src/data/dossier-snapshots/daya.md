@@ -128,6 +128,16 @@ claims:
       - label: "PR / club-media-gallery archive"
         href: "/channels/pr"
     note: "Daya is carrying the communal object onto official-facing surfaces in these scenes. Do not assign her maker/artist credit for the underlying artwork unless separately evidenced."
+  - text: "Across QOTD fictional-values prompts, Daya repeatedly centers personal agency and downstream human consequences; this pattern sits alongside her real-life-first advice and practical Lobby wayfinding."
+    evidence: "inferred"
+    sources:
+      - label: "Complete QOTD archive · people index"
+        href: "/archive/qotd"
+      - label: "Slice · 2022-06-23"
+        href: "/channels/slice"
+      - label: "Lobby · August–November 2022"
+        href: "/channels/lobby"
+    note: "The people-index handoff supplies the repeated-values synthesis but no individual message IDs; this is a cross-context character read, not a formal policy claim."
 antiFanon:
   - "Daya/Kiro Wall banter supports repeated directed chemistry in these scenes; it is not a friendship or closeness ranking."
   - "Daya's `real life always first` line is direct advice in one Slice scheduling scene, not proof she authored a server-wide policy or doctrine."
@@ -169,6 +179,8 @@ Daya is a current Pit Boss and Recruiter, but the archive gets more interesting 
 The earliest clean Lobby checkpoint recovered in this pass is December 31, 2021, when the stable Dayadream account posts **`S13/Dayadream/22`** and Mugen later supplies the welcome/role packet. That dates Daya in the front-door record; it does not prove this was her first contact with UL.
 
 Mugen announced Daya as the newest Underlords Officer on May 14, 2022. A month later, Slice gives a better measure of the person behind the promotion. Somebody is trying to bend college around Dragon Raja dailies; Daya answers: **`dont stress. prioritize school, real life always first`**. It is not a policy authorship claim. It is a clean statement of priority in the moment: the game is allowed to lose.
+
+QOTD's fictional-values prompts show the same instinct in hypothetical form: Daya keeps her attention on who gets to choose and who has to carry the consequences. It belongs beside the front-door scenes, where a newcomer gets useful directions while the permissions catch up.
 
 July catches a different register. The Wall gets Daya to **`i am shameless 😎`** and, three seconds later, **`i have no rebuttal`**. The sunglasses turn surrender into the bit. The archive does not need to pretend Daya never feels embarrassment; it shows that in this scene she can be caught, concede the case, and make the concession funny.
 
