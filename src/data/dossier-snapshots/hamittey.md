@@ -6,8 +6,13 @@ summary: "An early UL member who could supply a screenshot and become the screen
 summaryEvidence: "archive-confirmed"
 publication: "public"
 claims:
-  - text: "HamitteY identified Wichita as his Dragon Raja IGN and Underlords as his club during January 17, 2021 Lobby orientation; Wichita belongs to the early UL member layer."
+  - text: "Mugs-confirmed Raja Photobooth canon places Wichita among UL's earliest members."
     evidence: "user-confirmed"
+    date: "2020"
+    sources:
+      - label: "Raja Photobooth archive · Wichita record"
+  - text: "On January 17, 2021, HamitteY answered the Lobby intake with IGN Wichita, club Underlords, and age 23."
+    evidence: "archive-confirmed"
     date: "2021-01-17"
     sources:
       - label: "Lobby · 800632681950871552 / 800632847504769055"
@@ -92,7 +97,7 @@ tags:
 
 ## Cast
 
-**Wichita** is HamitteY's Dragon Raja IGN. He was part of UL's early-member layer before the later Discord welcome and the Wall's sustained campaign to turn his name into a grocery category. He could recognize ShiyaX from an AUUUUU without needing a full introduction, and could also hand material to Cookie that later became a public Wall exchange.
+**Wichita** is HamitteY's Dragon Raja IGN. He was already part of UL's early-member layer when the January 17 Lobby desk asked for IGN, club, and age; he supplied **Wichita / Underlords / 23**. The Wall's sustained campaign to turn his name into a grocery category came later. He could recognize ShiyaX from an AUUUUU without needing a full introduction, and could also hand material to Cookie that later became a public Wall exchange.
 
 ## Relationships
 
@@ -128,4 +133,4 @@ tags:
 
 ## Sources
 
-QOTD: `archive-intake/qotd-complete-2020-2026/site-candidates-2026-09-06-1242.md`, branch `archive-miner-qotd-officers-20260824`. Photo Submissions: `archive-miner-photo-submissions-2021:archive-intake/photo-submissions-2021-visual-contest-2026-08-19-1845-pdt/checkpoint.md` (Flowers `819966871330750494`). Lobby, Club-Only and Wall context is also recorded in MAIN's HamitteY biography. Source message IDs are preserved in the claims above.
+QOTD: `archive-intake/qotd-complete-2020-2026/site-candidates-2026-09-06-1242.md`, branch `archive-miner-qotd-officers-20260824`. Photo Submissions: `archive-miner-photo-submissions-2021:archive-intake/photo-submissions-2021-visual-contest-2026-08-19-1845-pdt/checkpoint.md` (Flowers `819966871330750494`) and `site-candidate-2026-08-27-0010-hamittey-entry-to-flowers.md` (Lobby self-report `800632681950871552`; Mugen role reply `800632847504769055`). Club-Only and Wall context is cross-referenced in MAIN's HamitteY biography. Source message IDs are preserved in the claims above.
