@@ -633,10 +633,10 @@ export const integratedEpisodes: Episode[] = [
     id: "snow-best-material-in-vc",
     title: "Snow Keeps the Best Material in VC",
     season: "2020",
-    date: "November 4, 2020",
-    kind: "Wall / voice-chat evidence avoidance",
-    logline: "A separate stable Discord account then displayed as `Sou` tells Snow `snow if you would literally type so i could ss, you too could be on here too`; 23.553 seconds later Snow answers `That is why i leave my best material in vc 😛`. The response is not a structured Discord Reply, so the causal join is strong contextual rather than parent-linked. Anthos immediately reviews the allegedly premium audio feed as `all u do in vc is monch`; Zoshaa objects that Snow still got on her case for eating `ONE(1) FREEZIE`. The trigger account's identity remains unresolved and does not override the hard project identity lock Sou = Ansun for Ansun's canonical alias. Snow's joke is evidence literacy and medium-choice self-protection, not a formal privacy policy or proof VC could not be recorded.",
-    cast: ["Snow", "Anthos", "Zoshaa"]
+    date: "October 14 – November 4, 2020",
+    kind: "Wall / DMs and voice-chat evidence avoidance",
+    logline: "On October 14, Mugen answered the Wall with `baby my greatest hits go in dms uwu`. Three weeks later an account displayed as `Sou` told Snow `snow if you would literally type so i could ss, you too could be on here too`; 23.553 seconds later Snow answered `That is why i leave my best material in vc 😛`. The defense lasted about twenty-one seconds: the same account typed `ah thats right, snow loves to eat and suck his nuts on vc for public display`, then added `my bad`. Anthos reviewed the supposedly exclusive feed as `all u do in vc is monch`; Zoshaa objected that Snow still got on her case for eating `ONE(1) FREEZIE`. Mugs had DMs; Snow had VC; the Wall got the lot anyway. The premium material was apparently chewing.",
+    cast: ["Mugen", "Snow", "Anthos", "Zoshaa"]
   },
   {
     id: "alkey-sees-all",
