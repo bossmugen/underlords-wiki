@@ -30,7 +30,7 @@ export type Episode = {
 
 export const characters: Character[] = [
   { id:"mugen", name:"Mugen", aliases:["Mugs","bossmugen"], billing:"main", role:"Founder · Boss", era:"2020–present", logline:"Starts Underlords, names half the furniture, keeps the receipts, and somehow becomes both narrator and recurring suspect.", tags:["Founder","Boss","Real Leather Papa"], relationships:[{name:"Dean",note:"online son; relationship predates Dragon Raja / UL",href:"/characters/dean"},{name:"GenGrey",note:"older friendship predating UL",href:"/characters/gengrey"},{name:"Han",note:"Biodata / media work",href:"/characters/han"}], quotes:["Family reunion","UL website but only for us lol"] },
-  { id:"snow", name:"Snow", aliases:["Snowfyre"], billing:"main", role:"Pit Boss · Judgemen · Game Officer", era:"2020–present", logline:"Senior adviser, governance specialist, recurring legal department, and permanent target of the old-man allegations.", tags:["Officer","Judgemen","Snow is old"] },
+  { id:"snow", name:"Snow", aliases:["Snowfyre"], billing:"main", role:"Pit Boss · Game Officer", era:"2020–present", logline:"Technical grown-up, systems fixer, and permanent target of the old-man allegations.", tags:["Officer","Snow is old"] },
   { id:"gabu", name:"Gabu", billing:"main", role:"Underboss · Game Officer", era:"2020–present", logline:"Systems brain, hydration department, and the person most likely to make care sound like routine maintenance.", tags:["Underboss","Drink Water Reminder","Hydration Department"] },
   { id:"ren", name:"Ren", aliases:["RV","RΣN"], billing:"main", role:"Caporegime", era:"2020–present", logline:"Retrieval engine, relationship index, and one of the people most likely to remember exactly which old thing everyone is talking about.", tags:["Officer","Archive memory"] },
   { id:"wolfphenix", name:"WolfPhenix", aliases:["Wolf Phenix","Wolfie"], billing:"main", role:"Founder · Caporegime · News Editor", era:"2020–present", logline:"Founding-circle witness, screenshot archaeologist, and the person who can casually produce a six-year-old receipt mid-conversation.", tags:["Founder","Officer","News Editor"] },
@@ -76,7 +76,7 @@ export const characters: Character[] = [
 ];
 
 export const seasons: Season[] = [
-  { year:"2020", title:"Season One — Formation", subtitle:"the guild becomes a house faster than anyone can stop it", summary:"Mugen founds Underlords; the founding circle forms, recruitment accelerates, rooms acquire personalities, JAG appears, fake-family language mutates into the Tumbleweed, and the server starts behaving like it has always existed." },
+  { year:"2020", title:"Season One — Formation", subtitle:"the guild becomes a house faster than anyone can stop it", summary:"Mugen founds Underlords; the founding circle forms, recruitment accelerates, rooms acquire personalities, fake-family language mutates into the Tumbleweed, and the server starts behaving like it has always existed." },
   { year:"2021", title:"Season Two — Domestication", subtitle:"the cast stops acting like this is only a game", summary:"Biodata, voice challenges, Platelet culture, media work, QOTD precursors, and ordinary-life rituals turn the guild server into a durable social space." },
   { year:"2022", title:"Season Three — Ritualization", subtitle:"somebody has made this recurring programming now", summary:"Roles stabilize, Officer culture deepens, media and meme systems mature, hydration becomes a department, and repeated events become house tradition." },
   { year:"2023", title:"Season Four — Self-Mythologization", subtitle:"the show becomes aware it has lore", summary:"The archive starts looking backward while still producing new material. PR, memes, recurring challenges, and cross-room jokes turn memory into a shared production process." },
@@ -87,7 +87,6 @@ export const seasons: Season[] = [
 
 export const episodes: Episode[] = [
   { id:"founding-underlords", title:"The Founding", season:"2020", date:"March 2020", kind:"Origin", logline:"Mugen leaves Altissa to start Underlords; Ritha, WolfPhenix, Suzi, and HyaLuna come with her, forming the five-person founding circle.", cast:["Mugen","Ritha","WolfPhenix","Suzi","HyaLuna"] },
-  { id:"jag-24-charges", title:"24 Charges for Getting Yeeted", season:"2020", date:"August 2020", kind:"Governance comedy", logline:"UL creates JAG, writes twenty-four 'Yeeting charges,' and simultaneously insists it is in no way a military organization.", cast:["Mugen","Snow"] },
   { id:"voice-twins", title:"I Found My Doppelganger", season:"2020", date:"September 18, 2020", kind:"Voice Challenge prehistory", logline:"Anthos and Ansun compare voices and immediately agree they sound alike; Ansun calls Anthos his doppelganger, Ren turns it into a same-person bit, and Gabu's twin math ends at `everyone is twin`. This is house joke-language, not literal kinship or one shared identity.", cast:["Anthos","Ansun","Ren","Gabu"] },
   { id:"tumbleweed", title:"Sweet Home Alabama / Tumbleweed", season:"2020", date:"2020 → 2026", kind:"Running object", logline:"Fictive-family language becomes a gigantic editable relationship map, then returns six years later as reunion archaeology.", cast:["Mugen","Anthos","Rummy","Dean"] },
   { id:"dean-involuntary-fanfic", title:"Dean's Involuntary Fanfic Department", season:"2021", date:"January 5–February 12, 2021", kind:"Club-Only dream arc", logline:"Dean dreams a whole-club wedding with Mugen in strip-club attire, then returns with a Council battle that mutates into pole-dancing, a beach, a bacon dragon, and Dean plus Anthos singing to baby Underlords. Anthos hears this and immediately tries to turn Dean's sleeping brain into UL fanfic.", cast:["Dean","Mugen","Anthos","Ansun"] },
@@ -137,7 +136,6 @@ export const relationshipGroups = [
 ];
 
 export const featuredQuotes = [
-  { quote:"We are in no way a military organization.", speaker:"UL / JAG", context:"2020 JAG language" },
   { quote:"It funny", speaker:"Mia", context:"Wall admissibility ruling, April 2023" },
   { quote:"Family reunion", speaker:"Mugen", context:"Whiskey, August 14, 2026" },
   { quote:"Ah yes the *trees*", speaker:"Rummy", context:"Tumbleweed returns, August 12, 2026" },
