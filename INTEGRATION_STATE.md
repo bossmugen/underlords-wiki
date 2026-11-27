@@ -3725,3 +3725,31 @@ Photo miner `archive-miner-photo-submissions-2021`, last-known HEAD `d45d441feca
 - Checkpoint-first reviews: August Reunion, Main HQ, Club-Only 2021–2026, and Club-Only 2020. All reviewed HEADs already equaled consumed SHA; no miner cursor advanced.
 - Review-overdue branches remain QOTD, BACKROOM, and Main HQ. August Reunion remains pending-publication.
 - Current intake contains 27 August site-candidate files and 47 Main HQ site-candidate files. These are file counts, not distinct accepted A/B candidate counts; the cumulative remainder remains **unknown / not certified, not zero**. Neither assigned publication family is closed.
+
+
+## 2026-11-27 05:44 PST — Run12 Main HQ Run19 Mugen chicken-nugget micro-lore (pending WIKI verification)
+
+### Source and cross-surface reconciliation
+- Miner branch: `archive-miner/main-hq-hourly`; intake: `archive-intake/main-hq-2022-2026-tail-20260819/`.
+- Exact candidate: `site-candidates-2026-08-25-1945.md`; supporting handoffs: `hourly-findings-2026-08-25-1945.md` and `receipt-delta-2026-08-25-1945.md`. The miner explicitly labels this as cross-room Club-Only genealogy, not a Main HQ message.
+- Receipts: `755397476298653707` (Mugen: `craving chicken nuggets thanks to zoshaa and zepp`) and `755397510494945370` (nine seconds later: `havent had them for years but`).
+- MAIN `src/content/people/mugen.md` already contains this exact scene in **PETTY CRIMES**; no duplicate MAIN edit.
+- WIKI active Mugen Cast source `src/data/character-bios-leader-deep.ts` now adds a structured **Petty Crimes** note. `src/data/dossier-snapshots/mugen.md` adds the archive-confirmed claim and the two receipt IDs. The preceding prompt is not recovered, so the public note preserves the craving and follow-up without inventing what Zoshaa or Zepp did.
+- No Episode was created: this is a one-off ordinary-life detail, not a multi-scene arc.
+
+### Verification status
+- WIKI source commits: Cast note `47de113411bf36cb598067a43c4a2006634b0a05`; snapshot claim `ed18483b7ec87621d625f51290e956a4980512d6`; syntax correction `9dc20cc150917fa0d1085f42ebd91f4850a74589`.
+- Initial WIKI workflow `46012840625` / build job `140552493509` failed at Vite parsing because the inserted Petty Crimes object lacked a comma after the preceding note. `sync:dossiers` and `audit:site` had passed; Astro compilation failed before deploy. The missing comma was corrected in `9dc20cc150917fa0d1085f42ebd91f4850a74589`.
+- The corrected source is awaiting a fresh build and Pages deployment. **Do not mark this candidate integrated/verified until the corrected build and deploy succeed.** No WIKI deploy is claimed from the failed run.
+
+### August Reunion Run03 source hold
+- Directly reviewed `hourly-2026-08-26-run03-findings.md`, `hourly-2026-08-26-run03-receipts.md`, and `hourly-2026-08-26-run03-site-candidates.md` on `archive-miner/aug-2026-living-ensemble-hourly`.
+- The Mugen DM screenshot `Screenshot_20260814_122309_Discord-639427c8d08d83f6.jpg` is not present in the 167 changed files on the miner branch; the branch diff contains no media binaries. Keep that screenshot-only candidate source-blocked until the exact original is accessible and inspected. Do not publish the text transcription alone as if the image were available.
+- Ansun's Wall/Fame line and Snow's self-shame line are already represented on the reader surfaces. Gilli's uninspected image candidate remains individually source-blocked.
+
+### Anti-starvation and recovery review
+- `archive-miner/club-only-2021-2026-hourly`: checkpoint-first review through Run043; no new A/B promoted, and the later target-room retrieval problem remains saturated. No cursor advance.
+- `archive-miner-clubonly-2020-hourly`: checkpoint plus Run0046 findings, receipts, and site candidates reviewed. Danny, Carlene, and B-chan remain thin, text-safe profile candidates; Feli↔Mugs remains unresolved. This run made no public edit to that separately owned publication family.
+- `archive-miner/backroom-deals-2026-08-24`: checkpoint read; it still says through Pass12 while the durable ledger records later Pass61/other pass reviews. Treat checkpoint freshness as stale; no new branch delta or consumed-SHA change.
+- Full MAIN miner census: 30 active refs (26 `archive-miner/*`, 4 `archive-miner-*`), 51 tracked branch identities, 21 historical refs absent remotely, 0 new active refs, 0 advanced HEADs. MAIN census state was refreshed. Review-overdue branches remain QOTD, BACKROOM, and Main HQ.
+- August Reunion has 27 site-candidate files and Main HQ has 47. These are file counts, not distinct accepted A/B counts. Cumulative distinct accepted A/B remainder remains unknown / uncertified, not zero. Neither assigned family is closed; no miner `last_consumed_sha` advanced.
