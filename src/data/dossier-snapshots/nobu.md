@@ -65,6 +65,13 @@ claims:
     sources:
       - label: "Wall of Shame/Fame · 2023-02-28"
         href: "/channels/wall"
+  - text: "On March 20, 2023, Nobu/Xuseio true-replied to an earlier Wall message with `Nobu and Gabu sound nice together`; an unidentified account answered `get a room`, and Gabu replied directly to Nobu with `I ship`."
+    evidence: "archive-confirmed"
+    date: "2023-03-20"
+    sources:
+      - label: "Wall · Nobu / Gabu name-pairing exchange · 1087347709884776538 / 1087454952286322769 / 1087455833056624650 / 1087457178018910349"
+        href: "/channels/wall"
+    note: "One-scene name-pairing joke. The pooled Deleted User remains unresolved; no romance, attraction, or literal relationship is inferred."
   - text: "On March 26, 2023, Nobu/Xuseio posted a Wall screenshot showing Google results for `Nobu near Brooklyn`, including literal Nobu restaurants. About four minutes later WOO answered with a stare emote, then `nobu`, then `why` in a three-second sequence."
     evidence: "archive-confirmed"
     date: "2023-03-26"
@@ -101,6 +108,7 @@ antiFanon:
   - "The August 2022 Rummy replies prove direct social interaction before Nobu's appointment announcement; they do not date the apprenticeship or establish the unseen attachment contents."
   - "The November 2022 pancake scene is ensemble teasing, not a formal teaching or discipline scene; the anchor attachment remains undescribed."
   - "The February 2023 rizz exchange is communal teasing, not evidence of romance or attraction."
+  - "The March 20, 2023 Nobu/Gabu exchange is a one-scene name-pairing joke, not evidence of romance, attraction, sex, or a literal relationship."
   - "Nobu is POSTED BY for the March 2023 `Nobu near Brooklyn` screenshot. The surviving parent does not establish CAPTURED BY, and the older restaurant-name collision does not prove the origin or direct causal ancestry of Moon's 2026 restaurant wording."
   - "Nobu's January 2024 screenshot attachment is POSTED BY Nobu; its unseen contents do not establish creator, capture, or subject credit."
   - "The September 2024 Lobby sequence proves that the stable Xuseio account was carded again, that Nobu true-replied to her own 2022 intake line, and that Sye recognized her with `Wb Nobu`. It does not establish why the Bouncer fired again, whether Nobu had left the server, or that her Party Director appointment reset."
@@ -158,6 +166,10 @@ In January 2024, Nobu posts **`I'm proud of you, Rummy. :Fat_Wheeze:`** over an 
 Nobu put a WOO-tagged Discord screenshot on the Wall. Gilli tagged WOO in a direct reply, and WOO arrived with a two-part indictment: **`NOBU`**. **`TRAITOR`**. Nobu joined the Fat-Wheeze reactions rather than mounting a defense. About half an hour later she posted another screenshot, and WOO's response had shrunk to **`nobu`** and **`why`**. Apparently the betrayal department was open for repeat business.
 
 The images themselves are not described here. The first exchange has a direct reply and mention trail; the second is a later neighboring exchange, not a proven repeat of the same offense. The joke lives in how quickly WOO recognizes Nobu as the person to blame — and how cheerfully Nobu lets the accusation stand.
+
+## RELATIONSHIP — GABU AND THE NAME-PAIRING JOKE
+
+On March 20, 2023, Nobu reached back to an older Wall message and wrote **`Nobu and Gabu sound nice together.`** An unidentified account answered **`get a room`**; Gabu replied directly to Nobu: **`I ship`**. Nobu started the name joke, and Gabu gave it the last word. This is one scene of communal teasing, not a claim that they were romantically involved.
 
 ## SEPTEMBER 2024 — THE BOT ASKS HER TO INTRODUCE HERSELF AGAIN; THE PEOPLE DO NOT
 
