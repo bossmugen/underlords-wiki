@@ -435,9 +435,18 @@ export const integratedEpisodes: Episode[] = [
     title: "Gabu Gave the Photoshoot a Runbook. Saber Still Needed a Babysitter.",
     season: "2021",
     date: "November 1 – December 22, 2021",
-    kind: "Photo Submissions / Saber reminders and event operations",
-    logline: "By late 2021 the Photoshoot had graduated from posting pretty pictures to maintaining actual reminder commands. Gabu scheduled judge deadlines, opening notices, example-picture prompts, and closure/results templates. On December 2 she told Saber to remind everyone about the December 6 opening; the bot handed back an event starting December 2 instead. Twenty-three and a half seconds later she fixed the start date. On December 22 she pinned a reusable block titled 'Photoshoot Event commands'. The joke is that the automation needed a human watching it; the work is that Gabu kept the whole ridiculous picture contest on a calendar. These are commands she maintained, not proof she programmed Saber or held a separate Photoshoot office.",
-    cast: ["Gabu"]
+    kind: "Photo Submissions / Saber reminders, live deadlines and event operations",
+    logline: "By late 2021 the Photoshoot had graduated from posting pretty pictures to maintaining actual reminder commands. Gabu scheduled judge deadlines, opening notices, example-picture prompts, and closure/results templates. FAMILY put the live calendar under pressure: on November 14 Gabu moved the existing Saber close object `g5oay` from November 15 to November 19. Anthos's public notice still carried the old date that morning and had caught up by November 18. The object survived the change; the public instructions caught up. On December 2 Gabu told Saber to remind everyone about the December 6 opening; the bot handed back an event starting December 2 instead. Twenty-three and a half seconds later she fixed the start date. On December 22 she pinned a reusable block titled `Photoshoot Event commands`. The joke is that the automation needed a human watching it; the work is that Gabu kept the whole ridiculous picture contest on a calendar.",
+    cast: ["Gabu", "Anthos"]
+  },
+  {
+    id: "photoshoot-first-anniversary-last-shoot-2021",
+    title: "The Photoshoot Turned One. Fifteen Days Later, Mugs Called It the Last Shoot.",
+    season: "2021",
+    date: "December 6–21, 2021",
+    kind: "Photo Submissions / anniversary and possible endpoint",
+    logline: "On December 6, Gabu opened WINTER with the line `This marks the first successful year of our photoshoot event!` and promised `we can’t wait for another year with you all!`. Fifteen days later, Mugen said the current cycle would be their last shoot unless popular demand brought it back. The Photoshoot went from anniversary toast to conditional goodbye in half a month. Fifteen days is not long enough for the confetti to settle.",
+    cast: ["Gabu", "Mugen"]
   },
   {
     id: "sye-photoshoot-entrant-to-example-poster-2021",
