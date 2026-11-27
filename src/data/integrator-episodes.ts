@@ -427,7 +427,7 @@ export const integratedEpisodes: Episode[] = [
     season: "2025",
     date: "July 1, 2025",
     kind: "Dragon Raja / public disbanding announcement",
-    logline: "Sye told HQ she was about to announce the fate of UL in game and would come back after she finished crying. At 11:16 a.m. PDT she delivered the public decision in Club Only: `UL will not be merging. This is a full on disbanding of the club.` Members had through the end of July to make amends. Mugen later answered with an affectionate kiss GIF. July 1 dates the announcement, not the final mechanical shutdown; the Discord friendships and the Dragon Raja club were not the same thing.",
+    logline: "At 11:16 a.m. PDT on July 1, 2025, Sye delivered the public decision in Club Only: `UL will not be merging. This is a full on disbanding of the club.` The announcement gave members through the end of July to make amends and made the distinction plain: Discord was staying; only the in-game club was shutting down. Mugen later answered with an affectionate kiss GIF. July 1 dates the public announcement, not the final mechanical shutdown; the Discord friendships and the Dragon Raja club were not the same thing.",
     cast: ["Sye", "Mugen"]
   },
   {

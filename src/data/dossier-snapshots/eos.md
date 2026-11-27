@@ -29,7 +29,7 @@ claims:
     sources:
       - label: "Officers Challenge · 965674546877313065"
         href: "/events/officers-challenge"
-  - text: "Marian repeatedly joked that Eos was too vanilla for Wall shame, while Eos posted counter-receipts and played along with the mock prosecution."
+  - text: "Panda/Marian repeatedly joked that Eos was too vanilla for Wall shame, while Eos posted counter-receipts and played along with the mock prosecution."
     evidence: "archive-confirmed"
     date: "2021-05 – 2022-02"
     sources:

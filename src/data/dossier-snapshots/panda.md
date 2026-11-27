@@ -102,6 +102,13 @@ claims:
     sources:
       - label: "Wall · 850529949764419614, 850530007591026738, 862431231978766367, 862431406012629042, 862431450477494282, 862431535348449300, 862431599744385064"
         href: "/channels/wall"
+  - text: "On July 7, 2021, Panda wrote that he had plenty of Wall-worthy remarks but Eos was 'too vanilla to shame me'; on November 28 he filed his own 'self shaming, cause eos is too vanilla' entry, and Eos answered with a stare."
+    evidence: "archive-confirmed"
+    date: "2021-07-07 – 2021-11-28"
+    sources:
+      - label: "👅 Wall · 862419333966987274 / 914728650677555200 / 914728940722073620"
+        href: "/archive/wall"
+    note: "The July line is Panda's, not Ghoulie's. The November attachment remains uninspected; the underlying offense is not inferred."
 antiFanon:
   - "Panda is not listed in the current locked living roster in `roster.ts`. Historical Staff canon does not silently restore current Staff status."
   - "The archive contains unrelated panda imagery and panda jokes. Do not resolve every occurrence of the word `panda` to this person; use the stable Marian Kage account or directed mention context."
@@ -172,6 +179,12 @@ That is the kind of person-page receipt UL needs more of. Not `Panda is confiden
 ## THE SHAME LEAGUE NEEDS A DENOMINATOR
 
 Rummy proposed a Shame Ranking Award in May 2022 and promptly put Panda or Tae in contention. Ren wanted Ansun credited for historical precedence. Panda's objection wasn't that his name belonged nowhere near the top. It was that the scoring was garbage: **`you gotta do it by most or how quickly relative to joining`**. Raw shame totals versus shame per unit of tenure. Rich declared **`The shame war has begun🤣`** before anybody had settled the math. No official leaderboard survives, but Panda had already found the flaw in its methodology.
+
+## THE PROSECUTOR IS TOO VANILLA
+
+Panda's complaint about Eos was not somebody else's summary of him. On July 7, 2021, he told the Wall he had plenty of material, but Eos was **`too vanilla to shame me`**. In November he stopped waiting for the prosecutor and filed his own entry: **`self shaming, cause eos is too vanilla`**. Eos answered with a stare. Panda was not only getting dragged into the Wall; he was negotiating its standards, then taking the case into his own hands.
+
+The November attachment remains uninspected, so the alleged offense stays off the page. The joke is the recurring division of labor: Panda keeps offering evidence; in Panda's telling, Eos is too vanilla to prosecute; Panda eventually files himself.
 
 ## WELCOME HOME, NOW WASH THE DISHES
 
