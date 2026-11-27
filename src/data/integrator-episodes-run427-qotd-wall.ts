@@ -19,4 +19,14 @@ export const run427IntegratedEpisodes: Episode[] = [
     logline: "Zyrcant starts the year by asking to be put on the Wall of Shame. RV tells her she has to `e a r n your place here`, then immediately ruins the prestige by adding that everybody ends up there eventually; Zyrcant accepts with `fair lmaooo`. On July 3 she posts an image and Tofu true-replies `Starting bid: 5¢`. Zyrcant answers with a gasp, a worried reaction and three CatCrys; more than half an hour later Mugen is still carrying the premise with `Auction wars`, RV brings the money reaction, and Gilli brings the bid GIF. Nobody explicitly calls July back to January, but the progression is exquisite anyway: she volunteered for public embarrassment, and six months later the room turned one of her own posts into a five-cent lot that survived long enough to become communal theater.",
     cast: ["Zyrcant", "Tofu", "RV", "Mugen", "Gilli"],
   },
+  {
+    id: "ul-server-2-0-test-server-refuge-2022",
+    title: "The Stripclub Test Server Became the Emergency Exit",
+    season: "2022",
+    date: "February 12, 2022",
+    kind: "QOTD / Discord migration / server history",
+    logline: "A QOTD about how people entered UL turns into the origin story of the current Discord. Mugen calls it `UL server 2.0`: after a crisis in the previous server, people had to be moved quickly into Snow's pre-existing stripclub test/joke server. Snow remembers roughly `30 mins of panic` retrieving records and moving people, then calls the current server a test server anyway. The guild was not being founded again; a spare joke room became the house everyone used. Mugen's same answer sorts the people inside it by what they brought: Platelets as `good kids`, Staff as the laughs and dumbassery that made UL, Officers doing the invisible weekly boardroom work, and VIPs patronizing the stripclub-casino-comedybar-daycare. The previous server's secretary remains unnamed.",
+    cast: ["Mugen", "Snow"],
+  },
+
 ];
