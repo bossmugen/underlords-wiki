@@ -92,6 +92,13 @@ claims:
       - label: "Photo Submissions"
         href: "/channels/photo-submissions"
       - label: "UL icon / visual archive"
+  - text: "On September 15, 2020, Mugen wrote `craving chicken nuggets thanks to zoshaa and zepp` and nine seconds later added `havent had them for years but`."
+    evidence: "archive-confirmed"
+    date: "2020-09-15"
+    sources:
+      - label: "Club Only · 2020-09-15 · 755397476298653707 / 755397510494945370"
+        href: "/channels/club-only"
+    note: "The preceding prompt is not included in this handoff; preserve the craving and follow-up without guessing what Zoshaa or Zepp did."
   - text: "On April 25, 2021, Mugen admitted that she had posted the wrong image during the MAFIA Photo Submissions round."
     evidence: "archive-confirmed"
     date: "2021-04-25"
