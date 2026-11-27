@@ -41,7 +41,14 @@ export function applyRun1582WallShiyaVannessCast(characters: Character[]): void 
       name: "Ren",
       href: "/characters/ren",
       note:
-        "Ren can prosecute Shiya with almost no setup: `*fatha what’s this*` gets the immediate mock alibi `Someone else was on my account bbg`. The exchange reads as easy tease-and-deny familiarity. `fatha` is joke-family language, not biological kinship or a ranked closeness claim.",
+        "Ren and ShiyaX have a recurring fake father/daughter bit that needs almost no setup: `FATHERRRRRR` gets `DAUGHTER`, then later `HAAAI DAUGHTER`, `FATHAAAA`, and `Hii daughter`. The joke survives into the Wall, where `*fatha what’s this*` gets the instant alibi `Someone else was on my account bbg`. This is playful room language, not biological kinship or a formal hierarchy.",
+    });
+
+    relationships = replaceRelationship(relationships, {
+      name: "Rummy",
+      href: "/characters/rummy",
+      note:
+        "Rummy gets pulled into ShiyaX's fake family-tree joke: Sye calls her Shiya's daughter, and Gilli says she has two fathers. She is part of the room's bit, not a literal daughter or evidence of a real family relationship.",
     });
 
     characters[shiyaIndex] = {
