@@ -3455,3 +3455,10 @@ Photo miner `archive-miner-photo-submissions-2021`, last-known HEAD `d45d441feca
 - No duplicate episode created: the QOTD prompts are used on MAIN to deepen WOO's lived relationship story and on WIKI to populate the reciprocal Cast relationship. The Cele biography remains the owner of Cele's own username/teasing/milk-daycare details.
 - Safety boundaries: Cele's `booli` wording remains her joke; WOO's cousin wording is preserved without extrapolating a wider family tree; repeated companionship is not romance/exclusivity; WOO is not Mugen's ex.
 - QOTD family remains `review_overdue` / `pending_reconciliation`; 12 handoffs / 38 top-level headings remain 36 represented, 1 source-blocked (Ren `IMG_9928.png`, receipt `1177646661196062820`), 1 withheld (Anayss `again`, receipts `933768444267073536` / `933736200211140639` / `933787265501642772`). Nested A/B remainder is unknown, not zero; 2023 aggregate-count conflict and native Officers/Voice source block remain open. No miner consumed SHA advanced.
+
+### Run25 follow-up — WOO/Cele recruitment callback
+
+- The WOO-facing relationship entry was refined to carry the full callback: Cele's March 28, 2023 `kidnapping me in da first place` thanks (`1090413235636805652`) and her May 4 `booli wit lOoveee` self-description (`1103700525666549994`). This lets the early 2022 `WOO made me` / same-club `booli` line read as a continuing affectionate language, not a one-off recruitment joke.
+- Latest WIKI reader commit: `d7d03bbdc17c2a7f10224ab143a6bfd1c3d00dc4`, path `src/data/dossier-snapshots/woosung.md`. Latest MAIN reader commit: `53c1e2da87b555c4dd8744c318e8dd2f40c4a6f1`, path `src/content/people/woosung.md`.
+- Earlier WIKI ancestor `fa0c9513cb35afefe3c3998a85d6291f3cb2da6f` passed build run `45966457332` / job `140396173543` and `wiki-preview`; the follow-up commit is a newer descendant and currently has no combined status yet. Latest WIKI build/preview remains pending. MAIN latest commit also has no combined status; live production is not verified.
+- Keep the QOTD candidate `pending_verification`; do not close it from the ancestor build. No miner consumed SHA advanced.
