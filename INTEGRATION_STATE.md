@@ -3373,8 +3373,11 @@ Photo miner `archive-miner-photo-submissions-2021`, last-known HEAD `d45d441feca
 ## 2026-11-26 Run12 — August Run07 Hishiro June 2020 Lobby anchor
 
 - Source branch: archive-miner/aug-2026-living-ensemble-hourly, HEAD / consumed SHA fcc27ac7a4457fc5c93c575bd2813b8e19abfa3b (unchanged).
-- Source handoff: archive-intake/aug-2026-living-ensemble-reunion-2026-08-19-2303-pdt/hourly-2026-08-26-run07-site-candidates.md, Candidate 2; receipts 719499308424232976 and 719499487789318217.
-- MAIN added the June 8, 2020 self-introduction / welcome to src/content/people/hishiro.md, commit 83b1e163056b85eb85123d1d8b2d3b3df7e20257. Production workflow 45953967350, job 140356029942, passed source verification, Astro build, built-output checks, Cloudflare deployment, and exact live-commit marker.
-- WIKI src/data/dossier-snapshots/hishiro.md already contains the same date, self-identification, Mugen response, and character-facing chronology. No WIKI reader change was made; this is not mirrored prose. No WIKI reader build/deploy was triggered for an unchanged reader tree.
-- Main HQ Run28 Yelik candidate was checked against both readers and is already present; no duplicate WIKI episode/dossier change.
+- Source handoff: archive-intake/aug-2026-living-ensemble-reunion-2026-08-19-2303-pdt/hourly-2026-08-26-run07-site-candidates.md, Candidate 2; receipts 719499308424232976 (Hishiro) and 719499487789318217 (Mugen).
+- MAIN reader: src/content/people/hishiro.md, commit 83b1e163056b85eb85123d1d8b2d3b3df7e20257. The June 8 entry is folded into the existing summoning/service story.
+- WIKI reader: src/data/dossier-snapshots/hishiro.md, commit 87ecef9b3afb847b95fb0508413eb46b866ad943. The structured Cast claim now carries both the self-identification and Mugen's welcome / role-assignment response. This is reference structure, not mirrored MAIN prose.
+- MAIN production: workflow 45953967350, job 140356029942, SUCCESS; source checks, Astro build, built-output checks, Cloudflare production deploy, and exact live marker all matched commit 83b1e163056b85eb85123d1d8b2d3b3df7e20257.
+- WIKI build: Build Underlords Wiki run 45955085680, job 140359587329, SUCCESS.
+- WIKI Pages preview: run 45955085575, attempt 2; build job 140360005883, deploy job 140360004401, and report job 140360093280 all SUCCESS. Preview URL: https://bossmugen.github.io/underlords-wiki/. The first deploy attempt was cancelled; rerunning that deploy job succeeded.
+- Main HQ Run28 Yelik candidate was checked against both readers and is already present; no duplicate episode/dossier prose.
 - August/Main HQ publication families remain open. Direct handoff listings contain 27 August and 47 Main HQ site-candidate files; distinct accepted A/B remainder is not certified. No miner consumed SHA advanced.
