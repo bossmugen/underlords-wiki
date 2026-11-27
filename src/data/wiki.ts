@@ -108,6 +108,7 @@ export const episodes: Episode[] = [
 export const locations = [
   { id:"whiskey-room", name:"Whiskey Room", type:"Main hangout", logline:"The late-era living room and the site of the 2026 reunion." },
   { id:"club-only", name:"Club-Only", type:"Original main room", logline:"The obvious center while Dragon Raja membership still structures daily UL life." },
+  { id:"slice-of-life", name:"Slice of Life", type:"Everyday-life room", logline:"Opened so people could know one another outside the game. Pets, work, meals, houses, old photos, and ordinary updates all found a place here. In 2020, IRL-photo pinning had an explicit opt-out: no pin if someone was uncomfortable, no saving without consent, and pins came down when asked." },
   { id:"the-wall", name:"The Wall", type:"Shame/Fame evidence locker", logline:"By August 2020 Ansun was calling it the Wall of Shame while Ren was already arguing Hall of Fame; by March 2021 Ren had fused the problem into `wall of shame-fame`." },
   { id:"lobby", name:"Lobby", type:"Front porch", logline:"Intake, visitors, bots with jobs, and the first impression of UL's house rules." },
   { id:"main-hq", name:"Main HQ", type:"Backstage", logline:"Officer governance and operational memory. Main HQ predates the later DR Game HQ split." },
