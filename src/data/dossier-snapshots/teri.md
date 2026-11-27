@@ -36,6 +36,12 @@ claims:
     sources:
       - label: "QOTD · 1314251676701429770, 1322221491336515636, 1332356053282848849, 1374746727621595258"
         href: "/channels/qotd"
+  - text: "After her public-speaking/record-yourself Barista card was sent, Teri followed up to say she had forgotten to tell people to watch the Instagram reel."
+    evidence: "archive-confirmed"
+    date: "2025-04-15"
+    sources:
+      - label: "QOTD · 1361691877266686023 / 1361709112026595481"
+        href: "/channels/qotd"
 antiFanon:
   - "Singing as a hobby does not establish a professional entertainment career or diagnosis."
   - "Moon's sister language is playful, not proof of biological kinship; Nemo's bestie declaration is scene-local."
@@ -65,6 +71,8 @@ A guilty-pleasure *Sword Art Online* answer produced a much faster friendship wi
 Teri was also a Barista question author. Eight stored cards carry her username **kinzokumissu**; she delighted in the eccentric answers to one of her own questions. Later prompts invited original characters, backstories, and alternate universes. She helped supply the questions, not administer the bot.
 
 ## Running Gags and Petty Crimes
+
+**Forgot the Reference Reel.** After her public-speaking card went out, Teri realized she had forgotten to tell everyone to watch the Instagram reel and returned with a crying follow-up. The question author was still adding instructions after the assignment had reached the room.
 
 *Sword Art Online* was the guilty pleasure she confessed to, rewatched, and somehow wanted to finance into reality through NerveGear. She also remembered a Portuguese *macaco* search typo from a school animal project that went spectacularly wrong. Her euphemism for the results is best left unrecreated.
 
