@@ -61,6 +61,13 @@ claims:
     sources:
       - label: "Club-Only recovered export"
         href: "/channels/club-only"
+  - text: "On October 17 and 24, 2020, Ansun/Sou supplied the human Defend Boss reminders alongside Saber's recurring `Spank Mugs Booty` alert, including `Buff and Plan` and `Defend the Boss is Up`; on October 24 the start notices were 0.705 seconds apart."
+    evidence: "archive-confirmed"
+    date: "2020-10-17 – 2020-10-24"
+    sources:
+      - label: "Announcements · Saber / Defend Boss paired alerts · 767200325483626496 / 767201648535142410 / 767202945371734056 / 767204478512136213 / 769739581917495306 / 769739584874479616"
+        href: "/channels/announcements"
+    note: "The stable Saber object is m1k2w9; the paired alerts map the joke title to Defend Boss. This is human event communication, not proof Ansun programmed Saber or coined the title."
   - text: "On September 24, 2020, Ansun answered Snow's `gilli and ansun have trust issues lol` with `yes yes we do`; Gilli also referred to `Ansun and and my little office/home` in the same Club-Only cluster."
     evidence: "archive-confirmed"
     date: "2020-09-24"
@@ -297,6 +304,8 @@ Current Caporegime, Secretary, occasional self-appointed landlord of the Wall of
 ## Roles: The guy who knows which door
 
 His early Lobby check-in as `sou.san` / `颯太` is gloriously economical: **`Ansun checking in`**; Mugen answers **`Welcome! Role assigned, ty!`**. The current command chart puts him at Caporegime, but his actual work is easier to recognize in the hallway. He welcomes Fujisae with **`you made it!`**, asks for a second, and gets on with intake. He routes newcomers through Tour, Whiskey, Biodata and FAQ; he explains that Officers Challenge belongs to multiple hosts and is open to members, not just whoever knows the secret handshake.
+
+The same hallway instinct turned up in the event calendar. Snow's Saber object was called `Spank Mugs Booty`; Ansun supplied the human version: **`Defend Boss in 10 minutes! Buff and Plan!`**, then **`Defend the Boss is Up!`**. On October 24, the bot and the human reminder fired less than a second apart. The title stayed cursed; Ansun made sure the room still knew where to go.
 
 When side chatter takes over Slice, he sends it toward Whiskey but leaves the birthday wishes alone: **`Let the birthday wishes stay in here`**. He can enforce a boundary without treating the room like a courtroom. By October 2023 he's also the one starting a Game Night date poll. The glamorous side of leadership: getting people to pick a weekend.
 
