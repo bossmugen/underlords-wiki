@@ -984,4 +984,13 @@ export const integratedEpisodes: Episode[] = [
     logline: "Gilli posts an animated Underlords Nitro card instead of a plain link. Torrent claims the first; Gilli calls it `He sniped that shet`. When Rummy tries to clip the GIF, Gilli explains the mechanic: `You gotta type it in Rummy`, `You gotta work for it LMAO`—a direct link would be one click and nobody else would have a chance. The manual-entry game returns in November, when Syv says `*snatched*`. The GIFs were posted by Gilli; the maker remains unresolved.",
     cast: ["Gilli", "Torrent", "Rummy", "Syv"]
   },
+  {
+    id: "scar-gilli-harem-wall-2021",
+    title: "Scar Filed Gilli for a Harem. Gilli Denied It. The Wall Made It Worse.",
+    season: "2021",
+    date: "August 19, 2021",
+    kind: "Wall / social theory / communal joke",
+    logline: "Scar opens with \`Also Gilli must have some harem here\`. Gilli denies it in full caps; Scar answers \`Why not you?\`. Ansun backs the joke with \`youre right\`, the room takes the premise for a lap, and Scar returns later with \`I knew it all time\`. The fun is the room's willingness to prosecute a nonsense theory together, not a real relationship map.",
+    cast: ["Scar", "Gilli", "Ansun"]
+  },
 ];
