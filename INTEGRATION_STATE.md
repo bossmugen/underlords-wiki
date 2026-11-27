@@ -1,3 +1,13 @@
+## 2026-11-27 06:03 PT — QOTD / Ansun question-writer + UL Mafia writers' room (pending verification)
+
+- **Assigned source:** MAIN miner branch `archive-miner-qotd-officers-20260824`, intake `archive-intake/qotd-complete-2020-2026/`; HEAD / existing `last_consumed_sha` `c51cd1914f65cb8ae65b850b1d0da85ffccb94ed`. No branch delta; no consumed-SHA advance.
+- **Nested candidate:** `people.md` (Souta/Ansun) + `findings.md` (2023 UL Mafia writers' room and 2024 manual restoration) + `receipt-index.md` (2023-03-28 / 2024-08-03 / 2024-10-01 summaries). Individual QOTD message IDs are not supplied for this aggregate candidate; none were invented. Question-author credit remains distinct from bot posting.
+- **MAIN reader commit:** `551358bf061e70985b281a0c19febcc3baa6cf51`; changed `src/content/people/ansun.md`, `src/content/records.json` (`events/qotd`), QOTD debt ledger, branch state and integration report. MAIN production build/deploy/live-commit verification pending.
+- **WIKI reader change:** `src/data/dossier-snapshots/ansun.md` adds a structured Cast claim/section; `src/data/wiki.ts` updates Ansun's searchable Cast logline and QOTD tags. The WIKI dossier is reference-shaped and does not copy MAIN prose.
+- **WIKI commit:** pending commit result below. Build and Pages deployment verification pending.
+- **Candidate status:** `pending_verification` until both public surfaces pass their exact-commit workflows and deployed-commit checks.
+- **Remaining QOTD family debt:** 12 handoff files / 38 top-level headings remain 36 reader-covered, 1 source-blocked (Ren `IMG_9928.png`, receipt `1177646661196062820`), 1 withheld (Anayss `again`, receipts `933736200211140639`, `933768444267073536`, `933787265501642772`). Nested accepted A/B remainder remains unknown, not zero. The 2023 aggregate-count conflict and native Officers/Voice source boundary remain open.
+
 ## 2026-11-27 05:45 PT — BACKROOM attribution correction + private-source cleanup
 
 - **Assigned source:** `archive-miner/backroom-deals-2026-08-24`, HEAD / `last_consumed_sha` `9c143a7c146af4fc90de4b258bee1c848a2818a0`. Read `checkpoint.md` first; reviewed Pass 55, 56, 57, 58, 60 and 61 handoffs directly. No branch delta; no consumed-SHA advancement.

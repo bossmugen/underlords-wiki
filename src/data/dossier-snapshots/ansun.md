@@ -210,6 +210,13 @@ claims:
       - label: "Wall · 747571578975289454"
         href: "/channels/wall"
 
+  - text: "Ansun was one of QOTD's main human question-writers in its early run and remained a major credited author of Cafe Barista questions in 2024; his prompts repeatedly sorted the room through food, rooms, fictional casts, school roles and jobs."
+    evidence: "archive-confirmed"
+    date: "2022–2024"
+    sources:
+      - label: "Complete QOTD archive · people index and longitudinal findings"
+        href: "/archive/qotd"
+    note: "Question-author credit is separate from the bot account that posted the card; the aggregate handoff does not enumerate individual message IDs."
 antiFanon:
   - "The May 4, 2020 Lobby check-in dates surviving Discord intake and role assignment; it does not prove first friendship, first contact with UL people, or a formal Officer appointment."
   - "Ansun explaining and announcing Officers Challenge does not make him the sole owner/director of the program; his own clarification says different Officers hosted different challenges."
@@ -245,6 +252,8 @@ tags:
   - "wall"
   - "photo-submissions"
   - "game-night"
+  - "qotd"
+  - "question-writing"
 ---
 
 # Ansun
@@ -256,6 +265,11 @@ Current Caporegime, Secretary, occasional self-appointed landlord of the Wall of
 His early Lobby check-in as `sou.san` / `颯太` is gloriously economical: **`Ansun checking in`**; Mugen answers **`Welcome! Role assigned, ty!`**. The current command chart puts him at Caporegime, but his actual work is easier to recognize in the hallway. He welcomes Fujisae with **`you made it!`**, asks for a second, and gets on with intake. He routes newcomers through Tour, Whiskey, Biodata and FAQ; he explains that Officers Challenge belongs to multiple hosts and is open to members, not just whoever knows the secret handshake.
 
 When side chatter takes over Slice, he sends it toward Whiskey but leaves the birthday wishes alone: **`Let the birthday wishes stay in here`**. He can enforce a boundary without treating the room like a courtroom. By October 2023 he's also the one starting a Game Night date poll. The glamorous side of leadership: getting people to pick a weekend.
+
+## QOTD: A cast list in question form
+
+Ansun was one of QOTD's main human question-writers in its early run. His prompts repeatedly sorted the room by food, rooms, fictional casts, school roles and jobs. In 2023, the format became a writers' room for UL Mafia: at least seventeen prompts between February 19 and April 28 asked members to build biographies, weapons, jobs, flaws, abilities, arcs and scenes. By 2024, his name remained prominent among the Cafe Barista's credited question authors.
+
 
 ## Relationships: Everyone is Anthos, unfortunately
 
