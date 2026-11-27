@@ -110,6 +110,14 @@ claims:
       - label: "Backroom Pass 52 · Lobby Cen onboarding · messages 885628704556982332 / 885628789193838613 / 885629306565443674"
         href: "/channels/lobby"
     note: "SAID BY Gabu confirmed via stable account 407706805918105602 / whoamii_9; Gabu, not Dean, performed the human intake. The assigned role was not named."
+  - text: "During FAMILY Photoshoot in November 2021, Gabu edited the existing Saber closing object `g5oay` from November 15 to November 19; Anthos's public notices caught up by November 18."
+    evidence: "archive-confirmed"
+    date: "2021-11-14 – 2021-11-18"
+    sources:
+      - label: "Backroom Pass 15 · FAMILY scheduler and public notices"
+        href: "/events/photo-submissions"
+    note: "Messages 904886792212328449, 904886793063792710, 909636737997881395, 909636738912235530, 909510461127557131, 910920971366588527. The Nov.20 CST bot state is not treated as a second public extension; no reason for the Nov.15→Nov.19 move is inferred."
+
 antiFanon:
   - "Gabu is a woman. Use she/her consistently. Earlier assistant he/him wording is non-canon."
   - "Brazilian, ethnically Japanese, taiko, and coding-professional background are user-confirmed; do not infer additional nationality/citizenship, employer, exact technical specialty, or Japanese language fluency without receipts."
@@ -161,6 +169,8 @@ None of that is a formal title. It is what happens when a person becomes familia
 ## The reminder bot had a human babysitter
 
 The Photoshoot contests had themes, submissions, judges, and eventually a little command manual with Gabu's fingerprints all over it. By December 2021, she had pinned **`Photoshoot Event commands`**: reusable Saber reminders for opening a round, asking for example pictures, warning judges about deadlines, and closing submissions. Somebody had to remember when the pretty pictures were due, and apparently that somebody was Gabu.
+
+FAMILY had already tested the same skill with a live deadline. Gabu set the close object `g5oay` for November 15, then moved that same object to November 19 on November 14. Anthos's public notice was still on the old date that morning; by November 18 it carried the new one. Gabu changed the machine, Anthos changed the instructions people saw. The deadline moved without the event being rebuilt.
 
 On December 2 she scheduled a reminder for the December 6 opening. Saber promptly returned an event starting on December 2 instead. **Twenty-three and a half seconds later**, Gabu corrected the date. Not a grand crisis; just a woman who knew the calendar and refused to let the bot win. It is a particularly Gabu sort of competence: the work is practical, the correction is immediate, and most people only notice the machinery when it stops working. She maintained the reminders; that does not mean she programmed Saber.
 
