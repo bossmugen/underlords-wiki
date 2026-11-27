@@ -1,3 +1,13 @@
+## 2026-11-26 23:57 PST — PHOTO KOREA Cast dossier recovery
+
+- Source branch: \`archive-miner-photo-submissions-2021\`, HEAD / consumed SHA \`d45d441feca0110e9495f49b13df9666982bb45c\`; checkpoint and current handoff reviewed directly, no miner delta.
+- Source candidate: \`archive-intake/photo-submissions-2021-visual-contest-2026-08-19-1845-pdt/site-candidate-2026-08-25-1045-waltz-partner-production.md\`; KOREA → Woohyuk section, message \`865351719114113045\`, attachment \`865351718937034752\`.
+- WIKI reader commit: \`537d295ae9a510c93d1c71cbd86b977b982eab7b\`; paths \`src/data/character-biographies-korea.ts\`, \`src/data/dossier-snapshots/korea.md\`, and \`src/data/cast-run1535-integrator.ts\`. Added a person-first Korea biography and structured Cast dossier; corrected first-spotted metadata from 2021 to 2020. The existing Cast entry and episode \`korea-woohyuk-waltz-account-switch-2021\` were retained; no duplicate episode was added.
+- MAIN already owns the rich person-first biography at \`src/content/people/korea-milk.md\`, including the WALTZ production scene. This is intentionally WIKI-only: the WIKI needed the missing Cast dossier, not a second copy of the MAIN prose.
+- Exact WIKI reader build: [run 45961969076](https://github.com/bossmugen/underlords-wiki/actions/runs/45961969076), job \`140381665474\` — SUCCESS. \`npm run build\` completed, including dossier sync, site audit, Astro build, and built-output audit.
+- Exact Pages preview: [run 45961969072](https://github.com/bossmugen/underlords-wiki/actions/runs/45961969072); build job \`140381666094\`, deploy job \`140381862221\`, report job \`140381961599\` — all SUCCESS. Commit statuses \`wiki-build\` and \`wiki-preview\` are SUCCESS for \`537d295\`; deployed preview target: https://bossmugen.github.io/underlords-wiki/. The web page itself was not independently fetchable in this runtime, and no separate custom-domain fingerprint is claimed.
+- Attribution boundary: KOREA is POSTED BY / SAID BY for the WALTZ text; Woohyuk is named. The attachment remains uninspected. MADE BY / CAPTURED BY / EDITED BY / FEATURING remain unresolved; account-access and consent mechanics are not inferred. KOREA / Milk remains distinct from Miihi / Milk.
+
 ## 2026-11-26 Run11 — Main HQ visible-bomb failure (WIKI-only reader)
 
 - Source branch: `archive-miner/main-hq-hourly`, HEAD / consumed SHA `e172df0641d6fa9c9d47a2bec6ff40c1aee0fb3c` (no cursor advance).
