@@ -1,3 +1,15 @@
+## 2026-11-27 Run35 — August Reunion Run12 Rooks self-correction (MAIN narrative repair)
+
+- **Source branch:** `archive-miner/aug-2026-living-ensemble-hourly`, HEAD / existing `last_consumed_sha` `fcc27ac7a4457fc5c93c575bd2813b8e19abfa3b`. No miner delta; this is publication-debt repair from an already accepted handoff.
+- **Source handoffs:** `archive-intake/aug-2026-living-ensemble-reunion-2026-08-19-2303-pdt/hourly-2026-08-26-run12-site-candidates.md`, matching `hourly-2026-08-26-run12-findings.md` and `hourly-2026-08-26-run12-receipts.md`.
+- **Receipt:** Whiskey, 2026-08-14 12:51 PDT, Rooks `1537911494476562573`: `I wasnt an officer just a regular :Fat_Wheeze:`. This is Rooks's direct correction to a reunion-memory Officer assumption; it does not alter her current Staff status or any separately grounded role.
+- **WIKI disposition:** `src/data/dossier-snapshots/rooks.md` already contains the structured Cast claim and the direct correction. No WIKI reader edit or duplicate Episode was warranted.
+- **MAIN disposition:** MAIN folded the line into the existing 2026 reunion passage in `src/content/people/rooks.md`, rather than appending an archive-report paragraph. Reader commit `7a85f0166cb1dccc0e3f65480d66bced16ddd63a`; production workflow [46035812780](https://github.com/bossmugen/underlords/actions/runs/46035812780), job `140630806065`, SUCCESS. The exact-master job ran source verification, Astro (300 pages), all `verify:dist` checks, Cloudflare production deploy, and confirmed the live production marker matched `7a85f01`.
+- **Surface distinction:** MAIN now tells the person-first scene; WIKI keeps the structured Cast correction already present. No identical prose was mirrored.
+- **Concurrent WIKI update:** another integrator published the Rummy / DarkAsrai Wall-escape index on `src/data/integrator-episodes.ts`, commit `7b77b59266b174fa9086a839f9ecee22eaed830b`. Build `46035968548` and Pages deployment `46035968457` both succeeded; the deployment log confirms `pages_build_version` exactly matched `7b77b59266b174fa9086a839f9ecee22eaed830b`. This is not counted as this run's assigned-family publication.
+- **Other review:** August and Main HQ checkpoints / selected handoffs were compared against both readers; Club-Only 2021–2026 checkpoint and QOTD checkpoint were reread for anti-starvation. Their HEADs equaled their consumed SHAs; no raw archive was re-mined. No consumed SHA advanced.
+- **Remaining assigned backlog:** August Reunion 27 and Main HQ 47 site-candidate files (file counts, not distinct accepted A/B counts). The distinct accepted A/B remainder remains uncertified / unknown, not zero. Main HQ's Gabu Health Mafia and Mugen/Sye Plutonian attribution holds remain unresolved; inaccessible original media stays individually source-blocked.
+
 ## 2026-11-27 08:34 PST — Club-Only 2020 recovery continuation (no reader edit)
 
 - **Source branch:** archive-miner-clubonly-2020-hourly, HEAD / last_consumed_sha ed66714f8d2c18f23bbb2b951bf305f0fa913f21. Checkpoint read first; no new branch delta.
