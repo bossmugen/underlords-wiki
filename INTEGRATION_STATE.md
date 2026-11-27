@@ -3517,3 +3517,18 @@ Photo miner `archive-miner-photo-submissions-2021`, last-known HEAD `d45d441feca
 - Current WIKI main later advanced to `045a965a74f24d1b9a2a550172f293c1f873ce31` through another owner’s WALTZ tips update (`src/data/dossier-snapshots/mugen.md`, `src/data/integrator-episodes.ts`). Current-head build [45973549865](https://github.com/bossmugen/underlords-wiki/actions/runs/45973549865), job `140419667746`, SUCCESS; preview [45973549903](https://github.com/bossmugen/underlords-wiki/actions/runs/45973549903), deploy job `140419865901` and report job `140419985753`, SUCCESS. This current-head preview includes the Anthos dossier repair.
 - Surface split: MAIN narrates Anthos as a willing participant in the milk-run bit; WIKI indexes the dated relationship exchange and searchable receipts. No mirrored prose.
 - Candidate-level status: `integrated_verified` for the Anthos-facing owner gap. Overall QOTD family remains open: 38 top-level headings / 36 represented / 1 source-blocked / 1 withheld; nested accepted A/B remainder remains unknown, not zero. Ren `IMG_9928.png` / Wall receipt `1177646661196062820` remains source-blocked; Anayss `again` receipts `933768444267073536`, `933736200211140639`, `933787265501642772` remain withheld. Do not call the family exhausted.
+
+
+## 2026-11-27 Run13 — Ansun / Bee Movie callback owner gap
+
+- Source branch: `archive-miner/backroom-deals-2026-08-24`, HEAD / `last_consumed_sha` `9c143a7c146af4fc90de4b258bee1c848a2818a0`; no miner delta.
+- Source handoffs: `site-candidates-pass-29.md`, `findings-pass-29.md`, `receipts-pass-29.md` under `archive-intake/chat-2026-08-24-backroom-batch-miner/`.
+- Receipts: `756637602995503224`, `756637608200896617`, `756637634666813771`, `756637649938153505`, `756639925373239378`, `756639945078210611`, `758717478691274804`, `758717489743396904`.
+- Cross-surface comparison: Anthos's side of the Bee Movie exchange was already present on MAIN and WIKI. Ansun's MAIN frontmatter claim existed, but his visible person story lacked the scene; WIKI Ansun lacked a structured episode.
+- MAIN reader: `src/content/people/ansun.md`, commit `2f6fe2d55b19b22dbce27e46420e801fbbe2f4eb`; the scene was folded into the existing ANTHUS DEPARTMENT relationship story.
+- WIKI reader: `src/data/dossier-snapshots/ansun.md`, commit `439f677a0c39cced36cf36ed0e75e3edb2078c93`; added a structured searchable episode without copying MAIN prose.
+- MAIN exact production build/deploy/live-commit confirmation: [run 45978712511](https://github.com/bossmugen/underlords/actions/runs/45978712511), job `140436872809` — SUCCESS.
+- WIKI Astro build: [run 45978717481](https://github.com/bossmugen/underlords-wiki/actions/runs/45978717481), job `140436889814` — SUCCESS. GitHub Pages preview/deploy: [run 45978717305](https://github.com/bossmugen/underlords-wiki/actions/runs/45978717305), deploy job `140437121669` — SUCCESS.
+- Pass25 Tofu Stalker, Pass28 Illien UL Greetings/quote credit, Pass29 Tofu Wall recidivism, and Pass30 Illien premium lunch/scheduling were already covered on both surfaces. No duplicate prose added.
+- BACKROOM remains pending reconciliation/review overdue; 61-pass family-wide accepted A/B remainder is unknown, not zero. No miner consumed SHA advanced.
+
