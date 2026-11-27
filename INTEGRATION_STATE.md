@@ -4207,3 +4207,12 @@ The dated Photo Submissions 2026-08-27 00:10 handoff family was read directly an
 - **Receipts:** `854452619552620545`, `854452758832742422`, `854452802393866280`, `854452848363700234`, `854466647218061332`. The image attachment `854452619191517234` remains uninspected; the in-game object's type, creator, capturer, and depicted subject are not asserted.
 - **Pass24 reconciliation:** The Photoshoot caption trio is now integrated on WIKI (MAIN already had the person-first treatment); the June congratulatory scene is integrated on both. `I AM THE CHAOS`, the `caught in 4K` boomerang, DarkAsrai's two self-predictions, and the DarkAsrai/Aizzy ferris-wheel text are already reader-covered. Visual descriptions remain separately held for the June image, DarkAsrai trigger images, and Aizzy ferris-wheel media.
 - **Family status:** BACKROOM remains `pending_reconciliation / review_overdue`; Pass24 is classified but the distinct accepted A/B remainder across all 61 passes remains unknown, not zero. Miner `last_consumed_sha` is unchanged.
+
+
+## 2026-11-27 Run53 — Main HQ Rummy context-label cross-check
+
+- **Source branch / handoffs:** `archive-miner/main-hq-hourly`; checkpoint first, then `site-candidates-2026-08-25-0345.md`, `hourly-findings-2026-08-25-0345.md`, and `receipt-delta-2026-08-26-0345.md` from the branch-local Main HQ intake.
+- **Candidate:** Cookie's 2022-11-27 `Rummy moments xD` label (Wall receipts `1046359093734023209`, `1046359386278338640`, `1046359448253382747`) alongside Syv's earlier context-defense line `927328382033727519`.
+- **MAIN:** person-first prose and source claim integrated into `src/content/people/rummy.md`, commit `170887402b0da5b8aec19859c78d96cf7c554021`; production run `46073022498` / job `140754195740` **SUCCESS**, exact live production marker confirmed.
+- **WIKI:** `src/data/dossier-snapshots/rummy.md` already contains the structured `Rummy moments xD` claim; `src/data/character-biographies-rummy.ts` already carries the Rich↔Rummy light-mode enforcement relationship. No WIKI reader edit, duplicate prose, or new Episode was warranted. Checked current `main` at `3e32335fa458c42d553d358ba7b7bb745fca5553`; no WIKI build was triggered by this no-change disposition.
+- **Disposition:** integrated/verified on MAIN; already represented on WIKI. This is one candidate component, not closure of the August Reunion or Main HQ family. File-level handoffs remain 27 (August) and 47 (Main HQ); distinct accepted A/B remainder unknown / not certified, not zero.
