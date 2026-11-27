@@ -241,12 +241,12 @@ export const integratedEpisodes: Episode[] = [
 
   {
     id: "cen-gabu-lobby-nightlife-scary-2021",
-    title: "Gabu Handed Cen the Map. Cen Came Back With Pictures.",
+    title: "Gabu Handed Ceen the Map. Ceen Came Back With Pictures.",
     season: "2021",
     date: "September 9 – October 20, 2021",
     kind: "Lobby / newcomer routing / Photoshoot participation",
-    logline: "Cen arrived at the Discord front desk identifying their in-game club as shy (885628789193838613). Gabu — not Dean — repeated the role-assignment prompt with 'plsss tks!' (885628704556982332), then confirmed 'Role assigned' and pointed Cen toward the server tour (885629306565443674). A month later Cen posted an uncaptioned NIGHTLIFE entry (896927530597097533), then another uncaptioned SCARY entry (900473087999496212). Two rounds, two pictures, not a word of explanation. The images have not been inspected; Cen is the poster, not necessarily the maker or pictured subject. Nothing here establishes Cen joined the in-game UL club.",
-    cast: ["Cen", "Gabu"]
+    logline: "Ceen first appears at the Discord front desk using the display name Cen and gives shy as their in-game club (885628789193838613). Gabu — not Dean — repeats the role-assignment prompt with plsss tks! (885628704556982332), confirms the assignment, and points Ceen toward the server tour (885629306565443674). A month later Ceen is back in Photo Submissions with two captionless entries: NIGHTLIFE (896927530597097533), then SCARY (900473087999496212). Gabu handles the welcome; Ceen handles the return.",
+    cast: ["Ceen", "Gabu"]
   },
 
   {
