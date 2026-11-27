@@ -1,3 +1,13 @@
+## 2026-11-27 08:02 PT — Photo Submissions: Sye + Nhou verification debt closed
+
+- MAIN photo miner `archive-miner-photo-submissions-2021` remains at HEAD / consumed `d45d441feca0110e9495f49b13df9666982bb45c`; no delta and no consumed advance.
+- Sye's New Year / hundred-tries / Example Photos candidate (`site-candidate-2026-08-26-1445-sye-new-year-frontstage-backstage.md`; receipts `796514531010019328`, `805511538903220254`) is present in WIKI `src/data/dossier-snapshots/sye.md` as structured Cast material. The quoted hopeful line was POSTED BY Sye; original author remains unknown.
+- Nhou's Lonely self-`💩` reaction (`site-candidate-2026-08-26-2210-nhou-self-poop-reaction.md`; receipt `812921630560092200`; stable ID `158594223371845632`) is present in WIKI `src/data/dossier-snapshots/nhou.md` with corrected date **2021-02-20**. Reaction timing and intent remain unknown.
+- Current WIKI `main` head `4b09e5af3130ad5b8497b9e5305ba32dbac72d3c`: build `46027314858` SUCCESS; Pages `46027315046` SUCCESS; exact `pages_build_version` matched current `main`. MAIN companion production `46026556796` / job `140599328324` SUCCESS with exact live marker `c60cf91993c32f38dc243c5c84747b4001e56d33`.
+- No WIKI reader prose was duplicated or changed. WIKI keeps the structured dossiers; MAIN keeps the person-first narratives. WolfPhenix/Stalker receipt `857726839391518722` was already represented in the structured episode index; no miner/integrator branch merge.
+- Photo remains `review_overdue / pending_publication`: 28/28 named candidate files classified; 34 cumulative headings = 14 reader-covered / 16 workflow-verified / 3 source-blocked-or-provenance-only / 1 superseded; two cumulative handoffs remain open; distinct accepted A/B remainder unknown, not zero. Missing parent messages, inaccessible original media, January winner/poster provenance, unsupported maker/capturer/featured credits, and unresolved `🤳｜ul-photoshoot-event` visibility remain held.
+- Full WIKI run detail: [`INTEGRATION_STATE_RUN_2026-11-27_RUN33_PHOTO_VERIFICATION.md`](./INTEGRATION_STATE_RUN_2026-11-27_RUN33_PHOTO_VERIFICATION.md).
+
 ## 2026-11-27 06:09 PT — QOTD / Ansun question-writer + UL Mafia writers' room — integrated_verified
 
 - **Assigned source:** MAIN miner branch `archive-miner-qotd-officers-20260824`, intake `archive-intake/qotd-complete-2020-2026/`; HEAD / existing `last_consumed_sha` `c51cd1914f65cb8ae65b850b1d0da85ffccb94ed`. No branch delta; no consumed-SHA advance.
