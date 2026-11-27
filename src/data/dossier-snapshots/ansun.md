@@ -203,6 +203,13 @@ claims:
     sources:
       - label: "UL Announcements recovered export"
         href: "/channels/announcements"
+  - text: "On August 24, 2020, Pride called Ansun the `poster child of UL greatest hits` in the Wall of Shame-Fame."
+    evidence: "archive-confirmed"
+    date: "2020-08-24"
+    sources:
+      - label: "Wall · 747571578975289454"
+        href: "/channels/wall"
+
 antiFanon:
   - "The May 4, 2020 Lobby check-in dates surviving Discord intake and role assignment; it does not prove first friendship, first contact with UL people, or a formal Officer appointment."
   - "Ansun explaining and announcing Officers Challenge does not make him the sole owner/director of the program; his own clarification says different Officers hosted different challenges."
@@ -265,6 +272,8 @@ Ansun helped set up COLORS by posting **`Example Photos`** and two attachments b
 WolfPhenix's STALKER entry arrived with the caption **`Ansun uwu`** and seven `fatlaugh` reactions. Ansun became part of the visual joke without anybody needing to invent who made, photographed or appeared in the attachment.
 
 ## Running Gags: Open a case, seize the Wall
+
+By August 24, 2020, Pride was already calling Ansun **`the poster child of UL greatest hits`**. The room had made him an example before he started filing cases of his own. A year later he was supplying timestamps and mock charges; he could be both prosecutor and exhibit.
 
 On July 12, 2021, Ansun filed the immortal allegation **`Tae said "fuck" July 12 2021`** and then supplied a timestamp and mock charge for the Wall. Another member called it **`fruit on fruit crime`**. An ordinary swear word had become a prosecutable incident solely because Ansun owned a keyboard.
 
