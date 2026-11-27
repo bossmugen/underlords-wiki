@@ -251,6 +251,10 @@ Ansun also briefly appoints himself her fake personnel department. On September 
 
 Around the same time, the Ansun/Anthos voice-twin joke takes off. The room starts multiplying Anthos into `one being`, `all Anthos`, `Anthos is the solution`, and eventually an entire **Anthos arc**. None of that is literal identity or relationship canon. It is what happens when a highly familiar person becomes easy raw material for the group's internal language.
 
+### Ansun's bomb assignments
+
+Ansun's joke personnel department also kept handing Anthos the dangerous end of a game. In *Keep Talking and Nobody Explodes*, he volunteered her for defusal duty; she asked **`u rlly want me to defuse a bomb`**, then supplied her own answer: **`so much trust uwu`**. A month later, in a separate Dragon Raja Defend Boss run, his alert blamed her for the in-game bombs and called the room to save Mugs. Anthos replied **`T_T`**. Different games, same casting director. The tiny reply is the whole protest: she does not need a speech to tell him he has done it again.
+
 The joke does not replace the work. Through 2021 Anthos keeps carrying recurring visual routines—opening Photo Submissions rounds, posting deadline reminders, and extending them when needed. On January 6, Ren laid out the example photos and Anthos followed with the official submissions divider eight minutes later. They repeated the handoff on February 15, this time only fifty-three seconds apart. Nobody needed to announce a department: one set the references, the other opened the submissions, and the room knew what to do. By March she was folding the FLOWERS opening and submission dates into one notice. In June she posted the STALKER example header, supplied three reference images, and opened the round less than two minutes later. The same member who had been promoted into a universal constant by the group chat was still doing very mundane maintenance on the calendar.
 
 That combination is the useful character progression. Anthos becomes more mythologized because she is around, not instead of being around.
