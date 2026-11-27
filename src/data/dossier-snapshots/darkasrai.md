@@ -43,6 +43,13 @@ claims:
       - label: "Photo Submissions · DarkAsrai POPSTAR caption · site-candidates-hourly.md"
         href: "/channels/photo-submissions"
     note: "Shared staged appearance only; POSTED BY DarkAsrai, not proven MADE BY or CAPTURED BY. No relationship status inferred."
+  - text: "DarkAsrai mentioned mini cheesecakes in 2023 and later pointed out that Baskin-Robbins sells strawberry-cheesecake ice cream."
+    evidence: "archive-confirmed"
+    date: "2023 / 2025-06-25"
+    sources:
+      - label: "QOTD · mini-cheesecake answer and June 25, 2025 strawberry-cheesecake mention"
+        href: "/channels/qotd"
+    note: "Stable author 659305268684783628; exact message IDs were not recovered. This remains a small taste note, not a cheesecake obsession."
 antiFanon:
   - "Rose / DarkAsrai is one verified account (659305268684783628); fictional roleplay scenes are not automatically biographical."
   - "The sister is a real-life relationship described by DarkAsrai, not a claim about other UL characters."
@@ -72,6 +79,8 @@ At home, the cats were not remotely interested in agreeing on a personality. One
 **Voluntary Horror Suffering.** Wanted more horror games despite fully expecting to scream at jump scares.
 
 **Eating-ASMR Embargo.** Other ASMR might be negotiable. Listening to people eat was not.
+
+**Cheesecake Has Range.** Mini cheesecakes earned a drooling reaction; in June 2025, DarkAsrai pointed out that Baskin-Robbins sells strawberry-cheesecake ice cream. A recurring dessert interest, not a manifesto.
 
 ## Episodes · Wall forecast
 
