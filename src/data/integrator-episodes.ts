@@ -476,6 +476,15 @@ export const integratedEpisodes: Episode[] = [
     cast: ["Anthos"]
   },
   {
+    id: "wolfphenix-ansun-uwu-stalker-entry-2021",
+    title: "Wolfie Captioned It `Ansun uwu` and Left the Room to Get the Joke.",
+    season: "2021",
+    date: "June 24, 2021",
+    kind: "Photo Submissions / STALKER / caption joke",
+    logline: "On June 24 WolfPhenix posted a two-avatar STALKER entry and captioned it `Ansun uwu` (857726839391518722). The caption makes Ansun the named referent of the bit, but it does not tell us which avatar in the attachment is him. Seven `fatlaugh` reactions followed. The joke is in Wolfie's choice of words and the room's reception, not a guessed visual identity. POSTED BY WolfPhenix; MADE BY / CAPTURED BY / FEATURING remain unresolved. This is one dated contest joke, not a romance claim or a formal Photoshoot role.",
+    cast: ["WolfPhenix", "Ansun"]
+  },
+  {
     id: "korea-woohyuk-waltz-account-switch-2021",
     title: "KOREA Borrowed Woohyuk's Account for the Waltz",
     season: "2021",
