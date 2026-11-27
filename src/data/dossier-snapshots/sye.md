@@ -152,6 +152,20 @@ claims:
       - label: "Photo Submissions · January 2021; miner site-candidates.md, Sye example-photo sequence"
         href: "/events/photo-submissions"
     note: "The New Year line was POSTED BY Sye; original quotation authorship is not established. The three example images were POSTED BY Sye; MADE BY, CAPTURED BY, and FEATURING are not established. This is participation followed by reference-image posting, not evidence of a newly appointed formal role."
+  - text: "Sye describes herself as a “silent goth cat girl loner” who watches from a distance; her QOTD answers show recurring Gothic/Romantic/Pastel-Goth tastes and creature-design, animal-anatomy, organic-chemistry/anatomy, and physics interests."
+    evidence: "archive-confirmed"
+    sources:
+      - label: "QOTD · Sye self-description and interests"
+        href: "/channels/qotd"
+    note: "Self-description and interests are person-level texture, not literal identity or an inferred degree; the people-index handoff supplies no individual message IDs."
+  - text: "Sye's March 24, 2022 QOTD self-report names Acts of Service and food as ways she gives care, and presence, listening, and a welcome as what she wants when she is not drained; by 2024 she is one of the ritual's most prolific human voices."
+    evidence: "archive-confirmed"
+    date: "2022-03-24 – 2024"
+    sources:
+      - label: "QOTD · Sye care and participation"
+        href: "/channels/qotd"
+    note: "Aggregate people-index characterization; no individual message IDs supplied. Do not convert QOTD participation into a formal role."
+
 antiFanon:
   - "Do not split Life, Syenitha, Sadako, sycessences, and ƐℲı˥ into separate people."
   - "Do not merge Sye with Syv. The corrected September 2020 Saber config and November 2022 maintenance relay are authored by Sye's 488099199938986004 / sycessences account; Syv's stable account is the separate 197521779177029632 / syveon."
@@ -195,6 +209,7 @@ tags:
   - "afterlife"
   - "social-memory"
   - "photo-submissions"
+  - "qotd"
   - "photoshoot"
   - "example-photos"
 ---
@@ -202,6 +217,12 @@ tags:
 # Sye
 
 Sye is a current Caporegime and Game Officer. Life, Syenitha, Sadako, `sycessences`, and ƐℲı˥ all belong to the same person; she is **not** Syv. Her archive is one of the best examples of why a long biography should follow changing forms of competence rather than reducing somebody to a single skill.
+
+
+## PERSONAL STYLE AND QOTD
+
+Sye's own phrase, **“silent goth cat girl loner,”** captures the distance she likes to keep, but it does not describe an absence from the room. By 2024 she had become one of QOTD's most prolific human voices and one of the people who noticed when the Barista went quiet. Her answers return to Gothic and Perpendicular Gothic architecture, Caspar David Friedrich, dark forests, Pastel-Goth fashion, and Gothic wedding references; other interests run through creature design, animal anatomy, organic chemistry/anatomy, and physics. She has also described giving care through Acts of Service and food, while wanting presence, listening, and a welcome when she is not drained.
+
 
 ## THE WOMAN WHO FIXES THE CLOCK
 

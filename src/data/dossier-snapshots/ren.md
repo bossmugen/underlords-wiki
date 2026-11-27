@@ -227,6 +227,14 @@ claims:
         href: "/channels/qotd"
       - label: "Photo Submissions visual-cycle receipts"
         href: "/events/photo-submissions"
+  - text: "Ren's QOTD self-descriptions call her “the duck with the ducklings behind,” a hyper-ambivert and mildly chaotic; she later describes herself as a quick talker who rambles and genuinely enjoys listening to other people's interests."
+    evidence: "archive-confirmed"
+    date: "2024-02-21 – 2024-08-12"
+    sources:
+      - label: "QOTD · Ren self-description"
+        href: "/channels/qotd"
+    note: "The people-index handoff supplies dates and summarized wording but no individual message IDs; this is distinct from the separately indexed Officer Country material."
+
 antiFanon:
   - "Quote collecting is archive-observable behavior; it does not make Ren the formal Wall archivist unless a dated appointment is recovered."
   - "Social Ctrl+F / house index / identity-repair language is character interpretation, not a formal UL appointment."
@@ -279,6 +287,12 @@ tags:
 # Ren
 
 Ren is a current Caporegime and works as a hospital interpreter. The archive does not date her command appointment from old role arrays. It gives something richer instead: a six-year progression from being one of the people using UL's social spaces for support to becoming one of the people who repeatedly makes the house's people, memories, destinations, and access boundaries easier to retrieve.
+
+
+## QOTD SELF-DESCRIPTION — THE DUCK WITH THE DUCKLINGS
+
+Ren called herself **“the duck with the ducklings behind,”** a hyper-ambivert with a mildly chaotic streak. Later she described herself as a quick talker who rambles and said she genuinely enjoys listening to other people talk about their interests. The social-bridge role has a personal mechanism: Ren fills silence easily, but she is also interested in what other people want to say.
+
 
 ## 2020 — SHE STARTS AS A PARTICIPANT BEFORE SHE BECOMES THE HOUSE'S HUMAN CTRL+F
 

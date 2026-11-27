@@ -200,6 +200,14 @@ claims:
       - label: "QOTD · DyingFox and Gilli adoption/food callbacks"
         href: "/events/qotd"
     note: "QOTD intake site-candidates-2026-09-06-1343.md; IDs 935933609825693706, 935935961953611816, 935935995990401024, 936635900157394955, 942081233570136164. Fictional adoption and trainer language are not literal kinship or authority; weekly feeding is affectionate language, not independently verified meal delivery."
+  - text: "Gilli's QOTD self-reports distinguish what she gives from what she wants back: Gift Giving and Acts of Service outward; Acts of Service and Quality Time in return. Her later “Two-Faced. Instant block.” answer and blunt/out-of-pocket self-description add a clear friendship boundary."
+    evidence: "archive-confirmed"
+    date: "2022-03-24 – 2024-08-12"
+    sources:
+      - label: "QOTD · Gilli self-descriptions"
+        href: "/channels/qotd"
+    note: "Dates and wording are preserved in the people-index handoff; individual message IDs were not supplied."
+
 antiFanon:
   - "Photo Submissions rules enforcement and onboarding are archive-observable behavior, not evidence of separate unconfirmed job titles."
   - "Near-identical mature Lobby safety-packet wording appears under multiple members. Gilli delivering it proves onboarding work; it does not prove the wording, policy, or template was uniquely hers."
@@ -259,6 +267,12 @@ Her care language runs alongside the procedure. She points Gabu's own hydration 
 The camera roll keeps participating too. In July she resurfaces from her photos with **`found this gem`** and posts an old screenshot to the Wall. The image stays undescribed; the recurring habit is enough. Gilli stores old material accidentally and retrieves it socially.
 
 In January 2022, DyingFox asked Gilli, **`adopt me?`** Gilli answered the request with an eating GIF, **`Done`**, and a hug. Two days later DyingFox nominated Gilli as their Pokémon trainer for the eminently practical reason that she would supply food and affection. By February, Gilli and Souta had made the thank-you list for feeding DyingFox. The adoption was a bit; the person DyingFox kept choosing was not.
+
+
+## CARE AND BOUNDARIES
+
+Gilli's March 2022 love-language answer separates what she gives from what she wants back: Gift Giving and Acts of Service outward; Acts of Service and Quality Time in return. In May 2024 she reduced a friendship deal-breaker to **`Two-Faced. Instant block.`** Later that summer she described herself as blunt and out-of-pocket without harmful intent, and easy to read in the face. The practical caretaker has no interest in fake intimacy; she prefers useful care and honest company.
+
 
 ## Spicy Hotpot and the Notification Avalanche
 
