@@ -166,6 +166,15 @@ export const integratedEpisodes: Episode[] = [
     cast: ["Rummy", "Panda", "Tae", "Ren", "Ansun", "Rich"]
   },
   {
+    id: "sota-claims-the-fame-half-of-the-wall-2023",
+    title: "Sota Claims the Fame Half of the Wall.",
+    season: "2023",
+    date: "April 2, 2023",
+    kind: "Wall of Shame/Fame / channel-name joke / self-mythology",
+    logline: "On April 2, 2023, Sota claimed the Wall of Fame existed because of him and assigned everyone else the Shame half: `the reason why it says wall of fame is because of me ❤️ you guys have shame` (1092269829546840126). Seven Fat_Wheeze reactions followed. It was a self-coronation, not an actual ranking or a claim about the channel's origin; the Wall's name had already been argued over years earlier.",
+    cast: ["Sota"]
+  },
+  {
     id: "milo-gilli-thought-no-one-saw-2020",
     title: "Milo's Defense: I Thought Nobody Saw That",
     season: "2020",
