@@ -11,6 +11,7 @@ eraStart: 2020
 summary: "Ren's archive progression starts with her using Slice for the same social support she later helps maintain, then follows her into quote collecting, care bulletins, visual-program work, front-door routing, family/access language, creative premises, and eventually 2026 identity repair. Current Caporegime status is locked separately from that long record of making people and information easier to retrieve."
 summaryEvidence: "inferred"
 publication: "public"
+relatedPeople: ["Syv"]
 claims:
   - text: "Ren followed Gilli with Example Photos posts twice in August 2021: 22 seconds after Gilli on August 1, and under three minutes afterward on August 15. The repeated pairing shows both returning to the unglamorous visual setup before the next surviving theme opened."
     evidence: "archive-confirmed"
@@ -243,6 +244,14 @@ claims:
         href: "/channels/question-of-the-day"
     note: "An ensemble joke, not a formal description of officer governance."
 
+  - text: "On February 12, 2022, Syv credited Ren with talking to her when she was too shy to join in, saying Ren dragged her out of her shy bubble; on March 28, 2024, Syv named Ren as the member most similar to herself, citing their shared chaos and long favorite-topic rants."
+    evidence: "archive-confirmed"
+    date: "2022-02-12 – 2024-03-28"
+    sources:
+      - label: "☕ QOTD · Syv/Ren bridge-to-mirror · 942150562877698168 / 1222897175151902814 / 1222938806789996617"
+        href: "/channels/qotd"
+    note: "Ren's stored happy/love reactions have no timestamps. The exchange supports friendship texture, not a formal mentorship or romance claim."
+
 antiFanon:
   - "Quote collecting is archive-observable behavior; it does not make Ren the formal Wall archivist unless a dated appointment is recovered."
   - "Social Ctrl+F / house index / identity-repair language is character interpretation, not a formal UL appointment."
@@ -433,3 +442,12 @@ The September 29, 2020 Organisation index filed **`RV - Zoshaa (orb) - child shi
 **Episode:** July 14, 2021 · Photo Submissions · Ren's entry `865078249850929162`.
 
 Ren posted a WALTZ entry captioned `With the bestie` and tagged Eos. No interpretive gymnastics required: Ren supplied the friendship language herself. The event was a creative pairing; the caption is what makes the relationship visible. The post was edited seven seconds after publication, so the earlier wording cannot be recovered. The attached image `865078249553920000` has not been visually inspected, and posting it does not establish who photographed or made it.
+## SYV — The conversation kept going
+
+Ren's attention was not reserved for people who already knew how to be loud. When Syv barely spoke in UL, Ren kept talking to her; Syv remembered that contact as being dragged out of her shy bubble and said it helped her speak more. Two years later, asked who in the server felt most like her, Syv chose Ren. The overlap was their ability to become chaotic on purpose and the favorite-topic rants that were supposedly *little* until Syv corrected the record: *it's not little*. Ren's stored response was happy and love reactions.
+
+The same conversation made Ren a familiar comparison point for somebody else too: Gilli considered naming her, joked that their Bluetooth was often in sync, then worried she'd influenced the answer. Syv told her that still counted. Ren's name was coming up because people recognized a real, repeatable way of being around her.
+
+## PETTY CRIMES
+
+- The favorite-topic rants are not little. Syv has amended the record.
