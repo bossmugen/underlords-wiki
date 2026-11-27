@@ -243,6 +243,14 @@ claims:
       - label: "QOTD · Ansun interest answers"
         href: "/channels/qotd"
     note: "A recurring interest cluster, not a professional credential or claim of formal expertise."
+  - text: "On March 28, 2023, Souta described the work he saw in UL's role groups: Staff brought daily companionship, greetings and mayhem; VIP brought visitors whose different interactions enriched the server; Platelets grew through school and life milestones while supporting one another; Snipers welcomed newcomers; and Officers balanced jobs and Raja while producing events, guides, connections, 'Underlords code' and atmosphere."
+    evidence: "archive-confirmed"
+    date: "2023-03-28"
+    sources:
+      - label: "QOTD · 2023-03-28 role-by-role appreciation"
+        href: "/channels/question-of-the-day"
+    note: "Souta / Ansun's social reading of the groups, not a formal role charter or appointment chronology."
+
 antiFanon:
   - "The May 4, 2020 Lobby check-in dates surviving Discord intake and role assignment; it does not prove first friendship, first contact with UL people, or a formal Officer appointment."
   - "Ansun explaining and announcing Officers Challenge does not make him the sole owner/director of the program; his own clarification says different Officers hosted different challenges."
@@ -295,6 +303,18 @@ When side chatter takes over Slice, he sends it toward Whiskey but leaves the bi
 ## QOTD: A cast list in question form
 
 Ansun was one of QOTD's main human question-writers in its early run. His prompts repeatedly sorted the room by food, rooms, fictional casts, school roles and jobs. In 2023, the format became a writers' room for UL Mafia: at least seventeen prompts between February 19 and April 28 asked members to build biographies, weapons, jobs, flaws, abilities, arcs and scenes. By 2024, his name remained prominent among the Cafe Barista's credited question authors. When the Barista missed a prompt in August, Momo's **`ANSUN MAKE QUESTIONS`** was a small, loud vote of confidence in the person she expected to get the room moving. Ansun supplied the museum-design prompt; on October 1 he revived the counter himself with **`No questions? *Smashes skateboard*`** and a TED Talk prompt. He was the person summoned, not the only person who knew how to keep the questions coming.
+
+### What the roles were doing
+
+Souta's March 28, 2023 answer gave the labels a working meaning:
+
+- **Staff:** daily company, greetings, and mayhem
+- **VIP:** visitors whose different interactions enriched the server
+- **Platelets:** people moving through school and life milestones while supporting one another
+- **Snipers:** the welcome line that made UL feel like home
+- **Officers:** people balancing jobs and Raja while producing events, guides, connections, "Underlords code," and atmosphere
+
+This is Ansun noticing the labor behind the labels, not writing an appointment chart.
 
 ## THE VOICE IS AN ONLINE THING
 
