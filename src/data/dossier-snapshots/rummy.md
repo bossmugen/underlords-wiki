@@ -152,7 +152,15 @@ claims:
     sources:
       - label: "Aug. 9–14 Whiskey export"
         href: "/channels/whiskey-room"
+  - text: "On December 22, 2022, Rummy replied to Rich’s short-person thread with `I’m still growing`; on December 28 she told Mia `its okay mia i short too`."
+    evidence: "archive-confirmed"
+    date: "2022-12-22 – 2022-12-28"
+    sources:
+      - label: "Main HQ · site-candidates-2026-08-26-0045.md · Wall messages 1055736048203857940 / 1057867464656044214"
+        href: "/channels/wall"
+    note: "These are two separate exchanges. They do not establish a fixed real-world height or belong automatically to the Gabu–Gilli height-war genealogy."
 antiFanon:
+  - "Rummy’s December 2022 short-person jokes are not a fixed height record and are not automatically part of the Gabu–Gilli height-war genealogy."
   - "Rummy's primary Biodata card belongs under Snipers, not Directors."
   - "Rummy is Nobu's Party Director Apprentice, not her co-equal UL Party Director."
   - "Platelet is permanent UL canon here; do not write Former Platelet."
@@ -216,6 +224,10 @@ By 2022, Rummy is no longer appearing in onboarding material. She is appearing i
 In May, Rich asks how much bleach she has touched; Rummy answers **`BruH- I touch nOnE`**, then **`ZerO`**. In November, a food dispute escalates into Rummy insisting **`IT A PANCAKEEEE`** while Nobu answers **`RUMMY IT'S BURNT`**, HamitteY calls it a charcoal pancake, and Anayss admits she thought it was chocolate.
 
 The unseen screenshots stay unseen. What these scenes establish is simpler: by 2022 Rummy is socially legible enough that the room has a rhythm with her. She protests, people pile on, she keeps protesting, and the joke survives because nobody needs an introduction first.
+
+## The short-person appeal
+
+On December 22, 2022, Rummy’s defense was **“I’m still growing.”** Six days later, Mia got caught in the same height jurisdiction and Rummy offered **“its okay mia i short too.”** The joke moves from appeal to solidarity; she can argue her own case and make room for somebody else in the same week.
 
 ## The Birthday Calendar and the Missing Context
 
