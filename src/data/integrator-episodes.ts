@@ -346,7 +346,7 @@ export const integratedEpisodes: Episode[] = [
     season: "2021",
     date: "August 1, 2021",
     kind: "Photo Submissions / shared event setup / recurring routine",
-    logline: "At 15:16:21 Gilli dropped an Example Photos post with an attachment. Twenty-two seconds later Ren put down another standardized Example Photos header. Ren had been showing up with reference dividers across the year, but here the two of them overlap almost in real time. Nobody needed to announce an official department: they were already doing the little jobs that made the room usable, sometimes simultaneously. These posts identify who shared the examples, not who created or captured the pictures.",
+    logline: "At 15:16:21 Gilli dropped an Example Photos post with an attachment. Twenty-two seconds later Ren put down another standardized Example Photos header. They repeated the same two-person sequence on August 15: Gilli posted another Example Photos block at 10:31:46 (876518547826819121), and Ren followed at 10:34:33 (876519248116219915), less than three minutes later. The next morning Gilli posted the POPSTAR opening (876863548733681695). Those August 15 references sit immediately before the launch in channel chronology; neither header itself names the theme. Ren had been showing up with reference dividers across the year, but these two overlaps make the shared maintenance pattern especially clear. Nobody needed to announce an official department: they were already doing the little jobs that made the room usable, sometimes simultaneously. These posts identify who shared the examples, not who created or captured the pictures.",
     cast: ["Gilli", "Ren"]
   },
   {
