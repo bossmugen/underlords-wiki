@@ -904,7 +904,7 @@ export const integratedEpisodes: Episode[] = [
     season: "2021",
     date: "April 24 – October 21, 2021",
     kind: "Photo Submissions / Waltz / participant and named-partner crossover",
-    logline: "Eos had already posted a MAFIA entry in April (835588639068782633) when Marian submitted her July WALTZ picture with the caption `with my only @Eos` (864701966230880266). Ren's July WALTZ entry called Tae `the bestie` (865078249850929162); by October Tae was posting a SCARY entry independently (900770811525361705). The partner prompt kept borrowing people who were contestants themselves. Marian's `my only` and Ren's `bestie` are their own affectionate captions, not verified romance or a ranking of anybody's friendships. Posting credit is known; who made or captured each picture is not.",
+    logline: "Eos had already posted a MAFIA entry in April (835588639068782633) when Marian submitted her July WALTZ picture with the caption `with my only @Eos` (864701966230880266). On July 7, Mugen's Announcements post also directed entrants to `#💡｜photoshoot-tips` with `For tips and tricks see #💡｜photoshoot-tips` (862299611249770507), giving the partner prompt a tutorial lane. Ren's July WALTZ entry called Tae `the bestie` (865078249850929162); by October Tae was posting a SCARY entry independently (900770811525361705). The partner prompt kept borrowing people who were contestants themselves. Marian's `my only` and Ren's `bestie` are their own affectionate captions, not verified romance or a ranking of anybody's friendships. Posting credit is known; who made or captured each picture is not.",
     cast: ["Eos", "Marian", "Ren", "Tae"]
   },
   {
