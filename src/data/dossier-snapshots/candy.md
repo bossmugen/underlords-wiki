@@ -80,15 +80,15 @@ tags:
 
 # Candy
 
-Candy's Wall voice is compact but unmistakable: "Wad00", "Wad0.0", paired BOP emotes, a possum scream, then "Moo" with two Cat_Sporkle emotes. She can drop one little signal into the room and let everybody else pick it up.
+Candy's Wall voice is compact but unmistakable: "Wad00", "Wad0.0", paired BOP emotes, a possum scream, then "Moo" with two Cat_Sporkle emotes. One little signal goes into the room; everybody else knows how to pick it up.
 
 ## A quick yes at the door
 
 On April 21, 2021, Candy finishes the Lobby intake and asks "Maybe I'm too younger...". Anthos answers "no you're not XD" eleven seconds later. The reply is casual and immediate; the question does not become a gate.
 
-## The Wall learns her shorthand
+## The Wall learns Candy's shorthand
 
-YoChan opens one exchange with "oink oink"; Candy answers with an Opossum_AAAHH reaction. On July 14, she posts "Wad00" and follows it with paired BOP2 and BOP1 emotes. "Wad0.0" appears on July 25. On August 10, she true-replies "Wad00" to Vanness's self-filing after losing five orange dracs, then adds :CatCry:. On September 1, after a long quiet stretch, she posts "Moo" and two Cat_Sporkle emotes. Sou, Rummy, Ren, Gilli, SaraBunny, and Cookie keep the same moo/cat register going for the next couple of hours. Candy supplies the sound; the room supplies the chorus.
+YoChan opens one exchange with "oink oink"; Candy answers with an Opossum_AAAHH reaction. On July 14, Candy posts "Wad00" and follows it with paired BOP2 and BOP1 emotes. "Wad0.0" appears on July 25. On August 10, Candy true-replies "Wad00" to Vanness's self-filing after losing five orange dracs, then adds :CatCry:. On September 1, after a long quiet stretch, Candy posts "Moo" and two Cat_Sporkle emotes. Sou, Rummy, Ren, Gilli, SaraBunny, and Cookie keep the same moo/cat register going for the next couple of hours. Candy supplies the sound; the room supplies the chorus.
 
 ## Relationships
 
