@@ -3541,3 +3541,16 @@ Photo miner `archive-miner-photo-submissions-2021`, last-known HEAD `d45d441feca
 - Pass25 Tofu Stalker, Pass28 Illien UL Greetings/quote credit, Pass29 Tofu Wall recidivism, and Pass30 Illien premium lunch/scheduling were already covered on both surfaces. No duplicate prose added.
 - BACKROOM remains pending reconciliation/review overdue; 61-pass family-wide accepted A/B remainder is unknown, not zero. No miner consumed SHA advanced.
 
+
+
+## 2026-11-27 Run14 — Slice of Life consent boundary
+
+- Source branch: `archive-miner/main-hq-hourly`, HEAD / `last_consumed_sha` `e172df0641d6fa9c9d47a2bec6ff40c1aee0fb3c` (unchanged). Source handoffs: `archive-intake/main-hq-2022-2026-tail-20260819/site-candidates-2026-08-26-0645.md`, `hourly-findings-2026-08-26-0645.md`, and `receipt-delta-2026-08-26-0645.md`.
+- Receipts: `760966734768898119`, `760966747904802878`, `760966963106152508`, `760994337957216296`, `760994368370114563`, `760997080151621642`, `760997113659392029`.
+- WIKI reader: `src/data/wiki.ts`, commit `adf047e1480a953fada2058c9c0435c2e5ba47b2`. Added a structured `Slice of Life` location entry: ordinary-life room context plus the 2020 IRL-photo opt-out / no-save-without-consent / remove-on-request boundary. This is a location reference, not a duplicate of MAIN's narrative.
+- WIKI Astro build: [run 45981555178](https://github.com/bossmugen/underlords-wiki/actions/runs/45981555178), job `140446443795` — **SUCCESS**.
+- GitHub Pages preview/deploy: [run 45981553760](https://github.com/bossmugen/underlords-wiki/actions/runs/45981553760); build job `140446439731`, deploy job `140446677000`, and report job `140446811361` — **SUCCESS**. The Pages deploy succeeded; an independent custom-domain/browser fingerprint was not obtained.
+- MAIN companion reader: `src/pages/archive/wall.astro`, commit `1b2e1d73fbd288e575ad58571c168e681992db5c`; exact production workflow [run 45981390930](https://github.com/bossmugen/underlords/actions/runs/45981390930), job `140445886787` — **SUCCESS**, including the exact Verify/build/deploy/live-commit confirmation step.
+- Cross-surface split: MAIN adds the 2020 Club-Only / Slice-of-Life photo boundary to the Wall's public story and source drawer; WIKI adds the structured room entry. No identical prose was mirrored.
+- Candidate disposition: the text-safe consent/removal boundary is integrated and verified. Rooks's Alabama attachment remains source-blocked until the exact `image0.png` binary is accessible and visually inspected; do not infer its contents or referent. ShiyaX's Cat-Gun / Business-Goose exchange is already in the MAIN biography; Koi remains unresolved and is not merged with Mercy/Koi.
+- Main HQ family remains open: 47 site-candidate files in the intake; this pass fully classified the three headings in the 06:45 file (1 integrated, 1 already reader-covered, 1 source-blocked). **46 files remain for full candidate-level classification**; distinct accepted A/B remainder is unknown, not zero. No miner consumed SHA advanced.
