@@ -3669,3 +3669,27 @@ Photo miner `archive-miner-photo-submissions-2021`, last-known HEAD `d45d441feca
 - Full miner census: 30 active refs (26 `archive-miner/*`, 4 `archive-miner-*`), 0 new refs, 0 advanced HEADs, 21 tracked historical refs absent remotely.
 - BACKROOM still has 61 numbered pass files. Pass54's public slice is closed; Pass59's text candidates are reader-covered; private and media holds remain. The family-wide distinct accepted A/B remainder is still **unknown / uncertified, not zero** because all 61 passes have not yet received candidate-level disposition. BACKROOM remains `review_overdue` / `pending_reconciliation`.
 - No miner `last_consumed_sha` advanced; HEAD already equaled the consumed SHA. Do not mark the family consumed or exhausted.
+
+
+## 2026-11-27 05:20 PST — Run11 August Reunion + Main HQ: Syv Ochem closing line
+
+### WIKI reader changes
+- Cast biography: `src/data/character-bios-vip.ts`, commit `84d145d5a9607e99e5b0216de30a8632cfe4ea94`. Syv's existing Ochem school-life passage now includes the final parental-standard jab, `Your mom probably wont`, with the Raja cat-eating emote.
+- Episode index: `src/data/integrator-episodes.ts`, commit `52df035e1a375547bc84143be29fe6eaaacccc60`. Existing `syv-ochem-c-is-a-pass-2021` entry updated with the exact closing line; no duplicate episode was created.
+- Receipts: `899871070763483146`, `899871230910419024`, `899871399961837628`, `899871424544645151`, `899871463203561503`, `899871581248061502`. The opening/closing line speaker is not linked: the Run24 Rich/dragonrichard label conflicts with the current stable-ID mapping to Ricochet. No Rich/Ricochet relationship was inferred or published.
+- Astro build [46005912095](https://github.com/bossmugen/underlords-wiki/actions/runs/46005912095), job `140528899314` — **SUCCESS**. GitHub Pages preview/deploy [46005912091](https://github.com/bossmugen/underlords-wiki/actions/runs/46005912091): build job `140529028778`, deploy job `140529237520`, report job `140529341379` — all **SUCCESS**. Preview URL: https://bossmugen.github.io/underlords-wiki/.
+- No separate WIKI production-deploy workflow was triggered by this main-branch push; this run records the successful Astro build and Pages preview deployment only.
+
+### MAIN counterpart
+- Person-first biography: `src/content/people/syv.md`, commit `43d244885245146fd09f8006a95e6ea3ce476f40`.
+- MAIN production workflow [46005882873](https://github.com/bossmugen/underlords/actions/runs/46005882873), job `140528799384` — **SUCCESS**, including source verification, Astro build, Cloudflare deploy and exact live-commit confirmation. Later MAIN commits in this run changed only integration metadata.
+
+### Main HQ candidate review
+- Direct branch `archive-miner/main-hq-hourly`, HEAD/consumed `e172df0641d6fa9c9d47a2bec6ff40c1aee0fb3c`. `site-candidates-2026-08-26-2310.md` and its receipt/findings handoffs were reconciled: Kiro and Moon scenes were already present on both surfaces. Feli's `O and P is CLOSE` line remains context-held; Anjou-statue images remain individually source-blocked pending pixel inspection. No duplicate WIKI prose.
+- `site-candidates-2026-08-25-1345.md` ShiyaX/Lilly/Mia–Momo material and Run26 Tae onboarding/algebra/one-day Gabu decree were already represented; no additional WIKI changes.
+
+### Branch census and remaining debt
+- Full census: 138 repository branches; 30 active miner refs (26 `archive-miner/*`, 4 `archive-miner-*`); 51 tracked identities; 21 historical refs absent; 0 newly discovered active refs; 0 active HEAD mismatches.
+- Checkpoint-first reviews: August Reunion, Main HQ, Club-Only 2021–2026, and Club-Only 2020. All reviewed HEADs already equaled consumed SHA; no miner cursor advanced.
+- Review-overdue branches remain QOTD, BACKROOM, and Main HQ. August Reunion remains pending-publication.
+- Current intake contains 27 August site-candidate files and 47 Main HQ site-candidate files. These are file counts, not distinct accepted A/B candidate counts; the cumulative remainder remains **unknown / not certified, not zero**. Neither assigned publication family is closed.
