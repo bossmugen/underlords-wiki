@@ -3554,3 +3554,16 @@ Photo miner `archive-miner-photo-submissions-2021`, last-known HEAD `d45d441feca
 - Cross-surface split: MAIN adds the 2020 Club-Only / Slice-of-Life photo boundary to the Wall's public story and source drawer; WIKI adds the structured room entry. No identical prose was mirrored.
 - Candidate disposition: the text-safe consent/removal boundary is integrated and verified. Rooks's Alabama attachment remains source-blocked until the exact `image0.png` binary is accessible and visually inspected; do not infer its contents or referent. ShiyaX's Cat-Gun / Business-Goose exchange is already in the MAIN biography; Koi remains unresolved and is not merged with Mercy/Koi.
 - Main HQ family remains open: 47 site-candidate files in the intake; this pass fully classified the three headings in the 06:45 file (1 integrated, 1 already reader-covered, 1 source-blocked). **46 files remain for full candidate-level classification**; distinct accepted A/B remainder is unknown, not zero. No miner consumed SHA advanced.
+
+
+## 2026-11-27 Run15 — QOTD Oyasumi Cast repair
+
+- Source branch: `archive-miner-qotd-officers-20260824`, HEAD / `last_consumed_sha` `c51cd1914f65cb8ae65b850b1d0da85ffccb94ed` (unchanged); source handoff `archive-intake/qotd-complete-2020-2026/people.md#Oyasumi`.
+- Added two missing person-level QOTD details: Oyasumi's frequent 2023 Staff/VIP answering-side participation, and his 2026 self-report about reading/gaming falling off while coding became a newer skill/hobby “not really by choice.” The people-index handoff supplies no individual message IDs; none were invented.
+- WIKI Cast reader: `src/data/dossier-snapshots/oyasumi.md`, commit `86ab98cf57b5a1a2178b04aec93ceb185e666248`. Added structured claims and a QOTD participation section; no duplicate Episode and no copied MAIN prose.
+- MAIN companion: `src/content/people/oyasumi.md`, commit `4e85a63a4c4716ac0c73055d46c2d3d3b94f4712`, with the participation folded into the person story and the 2026 detail under Petty Crimes.
+- MAIN production/live exact-commit verification: [run 45981883409](https://github.com/bossmugen/underlords/actions/runs/45981883409), job `140447568488` — SUCCESS.
+- WIKI build [45981887686](https://github.com/bossmugen/underlords-wiki/actions/runs/45981887686), job `140447582520` — SUCCESS. Pages preview/deploy [45981887752](https://github.com/bossmugen/underlords-wiki/actions/runs/45981887752), jobs `140447664623`, `140447897823`, `140448051022` — all SUCCESS.
+- Sye's 0547 Barista continuation and Gilli's 1245 same-morning manual QOTD transition were already represented on their intended surfaces; no duplicate.
+- QOTD family remains open: 12 handoffs / 38 top-level headings / 36 reader-covered / 1 source-blocked / 1 withheld, plus this one nested people-index item now integrated. Nested accepted A/B remainder remains unknown, not zero. Ren's `IMG_9928.png`, Anayss's `again` referent, the 2023 aggregate conflict, and the native Officers/Voice source boundary remain unresolved.
+- No miner consumed SHA advanced. Club-Only 2021–2026, Club-Only 2020, and Photo Submissions checkpoint/handoff reviews found no branch delta.
