@@ -86,6 +86,20 @@ claims:
       - label: "QOTD · WOO/Cele · 942206834633244733, 1090293199731445820, 1090413235636805652, 1093548853577404417, 1103409168435662879, 1103700525666549994, 1108403892494008412"
         href: "/archive/qotd"
     note: "Preserve WOO's direct cousin wording; companionship does not imply romance or exclusivity."
+  - text: "On April 11, 2023, Woosung chooses `A Delinquent` as an undercover identity because people at school assume she gets in trouble from how she dresses; on May 1 she describes a secret room as a mushroom-themed escape room with a red bohemian den, giant mushroom/fantasy decor, and gaming space."
+    evidence: "archive-confirmed"
+    date: "2023-04-11 – 2023-05-01"
+    sources:
+      - label: "Complete QOTD archive · 2023"
+        href: "/archive/qotd"
+    note: "The delinquent answer is self-presentation/social-perception evidence, not proof of actual misconduct; the room is an imagined aesthetic, not a literal location."
+  - text: "In a separate 2023 self-as-painting answer, Woosung prefers whimsical animals and plants."
+    evidence: "archive-confirmed"
+    date: "2023"
+    sources:
+      - label: "Complete QOTD archive · 2023"
+        href: "/archive/qotd"
+    note: "This is a hypothetical aesthetic self-portrait, not a claim about her art practice. The cumulative QOTD people handoff does not preserve an individual message ID for this answer; none was inferred."
 antiFanon:
   - "Woosung is a woman. Use she/her."
   - "Do not call `Hi Woosung.....idk what else` Woosung's first arrival; the same stable account is already visible in April 2020."
@@ -194,5 +208,6 @@ That description does more work than any inferred relationship chart could. It t
 
 - WOO's proposed cure for having too much Hall-of-Shame material is `I need to not talk sm`, delivered in the Hall of Shame and instantly creating more Hall-of-Shame material.
 - On September 18, 2020, she reported playing Among Us `like 14 times` and being `never the imposter`. Fourteen rounds. Zero villain allocation. Bureaucratic injustice.
+- The school-clothes reputation points toward `A Delinquent`; her imagined secret room is a red bohemian mushroom/fantasy gaming den, while her painting-self answer favors whimsical animals and plants. Three prompts, one very different interior mood board.
 
 Taken together, the file is not `serious former leader` versus `chaotic guest`. Woosung is unusually willing to make a preference somebody else's immediate scheduling problem, to compress a judgment into two messages, to help before she has finished deciding how much softness she wants to admit, and to protest being archived in ways that make the archive stronger. Snow says someday; Woo checks eighty seconds later. Somebody hurts; Woo gives the advice first and litigates the feelings afterward. The Wall catches her; she complains in a line worth preserving. The exact subject changes. The return serve does not.
