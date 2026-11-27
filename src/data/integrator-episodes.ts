@@ -1103,4 +1103,13 @@ export const integratedEpisodes: Episode[] = [
     logline: "Anthos's September 29 Underlords Organisation Update files Lilly as '(simp)' under Ansun's section (760564322182103111). Nine days later Lilly tells Danny, 'stop simping over the girls here' (763956701102997546); Ansun welcomes her to 'our humble abode' (763956714671439922), and Lilly answers, 'heheheheh thank you' (763956734557421578). The fake-family label and the simping-police line collide without becoming a literal relationship or a moderation appointment.",
     cast: ["Lilly", "Danny", "Ansun", "Anthos"]
   },
+  {
+    id: "cookie-tofu-dm-annex-2021",
+    title: "The Wall Was Already Their DM Annex. They Both Blamed the Other.",
+    season: "2021",
+    date: "October 25 – November 1, 2021",
+    kind: "Wall / reciprocal DM exposure / relationship episode",
+    logline: "On October 25, Ren said the Wall had become part of Cookie and Tofu's DMs (902325689947148338). Cookie tossed in `she started it` (902339614138830869); Tofu directly replied to Ren with `COOKIE STARTED IT.` (902342191790305360). A week later Anayss tagged both and said she had seen them exposing their DMs `again` (904701750475378688). The private messages are not reproduced; the public scene is mutual blame, a direct reply, and a room that recognizes the routine. This is reciprocal relationship behavior, not proof of DM contents, motive, romance, or a closeness rank.",
+    cast: ["Cookie", "Tofu", "Ren", "Anayss"]
+  },
 ];

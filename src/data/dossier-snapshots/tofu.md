@@ -60,6 +60,13 @@ claims:
   - text: "On August 28, 2024, Tofu writes on the Wall, `This is isn't far off from a convo he and I had a few days ago... where is that screenshot`. The target of `he` remains unresolved."
     evidence: "archive-confirmed"
     date: "2024-08-28"
+  - text: "On October 25, 2021, Ren called the Wall part of Cookie and Tofu\u0027s DMs; Cookie said `she started it`, and Tofu directly replied to Ren with `COOKIE STARTED IT.` (902325689947148338 / 902339614138830869 / 902342191790305360)."
+    evidence: "archive-confirmed"
+    date: "2021-10-25"
+    sources:
+      - label: "Wall · 2021-10-25 · Cookie / Tofu / Ren"
+        href: "/channels/wall"
+    note: "Tofu\u0027s line is a true Reply to Ren\u0027s comment. The private DMs themselves are not reproduced."
   - text: "On November 1, 2021, Anayss publicly tagged Tofu and Cookie together on the Wall with `I saw you both exposing your dms again ~`."
     evidence: "archive-confirmed"
     date: "2021-11-01"
