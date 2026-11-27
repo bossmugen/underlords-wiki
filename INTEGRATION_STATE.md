@@ -1,3 +1,12 @@
+## 2026-11-27 11/27/2026, 02:18 PT — Photo Submissions WALTZ tips-lane episode
+
+- Source: MAIN's assigned miner `archive-miner-photo-submissions-2021` at HEAD `d45d441feca0110e9495f49b13df9666982bb45c`; cumulative `site-candidates.md` heading “Tips lane now has a direct July receipt”; Mugen's July 7, 2021 Announcements message `862299611249770507` says `For tips and tricks see #💡｜photoshoot-tips`.
+- WIKI reader: `src/data/integrator-episodes.ts`, episode `photoshoot-waltz-entrants-become-partners-2021`, updated in commit `6ee47093b32076f2c5392b4f239bcd76c38f6ea9`. This is structured episode context; it does not copy MAIN's WALTZ event paragraph.
+- Exact WIKI Astro build [45980292957](https://github.com/bossmugen/underlords-wiki/actions/runs/45980292957), job `140442176404`: SUCCESS. Exact GitHub Pages preview [45980292883](https://github.com/bossmugen/underlords-wiki/actions/runs/45980292883): build `140442176664`, deploy `140442407428`, and report `140442526364` all SUCCESS.
+- MAIN already carried the exact tips-channel reference in `src/lib/photo-submissions-overrides.ts`; no MAIN reader edit was needed. MAIN content commit `2f6fe2d55b19b22dbce27e46420e801fbbe2f4eb` passed production run [45978712511](https://github.com/bossmugen/underlords/actions/runs/45978712511), including live-commit confirmation. Later MAIN commits in this run changed only the Photo publication inventory and integration-state metadata.
+- Candidate disposition: `integrated_verified` for this heading. Photo family remains open: 28/28 named candidate files classified; 34 cumulative headings 17 reader-covered / 13 workflow-verified / 3 source-blocked-or-provenance-only / 1 superseded; two cumulative handoffs still need incident-level closure; distinct accepted A/B remainder unknown, not zero. No Photo consumed-SHA advance.
+- Source boundaries retained: January winner→poster bridge not recovered; reply parents `835940038549569627` and `872535327926009928` remain unreadable; original pixels are inaccessible/uninspected; MADE BY / CAPTURED BY / FEATURING remain unassigned without direct provenance; `🤳｜ul-photoshoot-event` audience/visibility remains unresolved. No claim about the tips channel's creation date.
+
 # Run 12 — 2026-11-27 01:53 PST — Photo Submissions episode completion
 
 - Source branch: `archive-miner-photo-submissions-2021`, HEAD / last-consumed SHA `d45d441feca0110e9495f49b13df9666982bb45c`. No miner delta; no cursor advance.
