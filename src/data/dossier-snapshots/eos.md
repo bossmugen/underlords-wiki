@@ -67,6 +67,13 @@ claims:
       - label: "QOTD · advice question · 1117076715882168380, 1117124296834306189"
         href: "/channels/qotd"
     note: "The detailed unbiased-advice explanation in the same answer belongs to a different, unnamed friend; it is not attributed to Marian."
+  - text: "On September 16, 2021, Marian complained that a west-coast drive had been for nothing; Eos insisted the answer had been Louisiana, Ansun admitted he had thought Eos was in Colorado, and Eos declared Louisiana no longer a state and the U.S. down to 49 states. Marian closed with `fuck Louisiana. fuckin fake LA`."
+    evidence: "archive-confirmed"
+    date: "2021-09-16"
+    sources:
+      - label: "Wall · 888223426991501353, 888224282411409408, 888226361892823072, 888226948940185661, 888226966212325436, 888227300997468190"
+        href: "/channels/wall"
+    note: "The claim uses only the text exchange. Marian's two attached screenshots remain uninspected; no claim is made about their contents or a current location."
 antiFanon:
   - "EnyoCal and Eos are bridged by the stable account; do not infer a separate admission or rejoin date."
   - "The May 2021 corpse exchange is not proof of the origin or uninterrupted use of the 2026 reanimation joke."
@@ -96,7 +103,7 @@ Eos was not especially interested in making a grand entrance. The Lobby saw the 
 
 **Gilli** was the person Eos credited for coming to UL. Gilli also knew when to egg them on: when Eos hesitated over posting more Wall material, Gilli's answer was essentially *do it*.
 
-**Marian / Panda** could spend months accusing Eos of being too vanilla to properly shame anyone, then turn around and insist on having Eos around for a shared game. Their running Wall prosecution went both ways: Marian threatened an hourly campaign over Eos's bag, Eos protested loudly, and later kept track of how long the joke had been going. The same relationship also had songs, teasing, hugs, and an Eos reply that Marian had stolen their heart a long time ago. None of it needs a fake formal title to be memorable.
+**Marian / Panda** could spend months accusing Eos of being too vanilla to properly shame anyone, then turn around and insist on having Eos around for a shared game. Their running Wall prosecution went both ways: Marian threatened an hourly campaign over Eos's bag, Eos protested loudly, and later kept track of how long the joke had been going. The same relationship also had songs, teasing, hugs, and an Eos reply that Marian had stolen their heart a long time ago. None of it needs a fake formal title to be memorable. A September 2021 geography mix-up gave them another small case: Eos insisted the answer had been Louisiana, Ansun admitted he had guessed Colorado, and Marian finished by calling it `fake LA`.
 
 QOTD adds a different lane to the Marian/Panda relationship. In May 2022, Eos says Panda had already introduced them to Harry Potter, then tries to take Panda's exact Hogwarts classes to cheat. Panda says he memorizes rather than takes notes and deliberately changes answers when people copy. Eos switches from the scheme to asking him to teach everything; Panda's instruction is to pay attention. In June 2023, Eos also names Marian among people they sometimes consult for advice. The Wall prosecution is not the whole relationship: Eos can argue with Panda and still treat him as somebody worth learning from.
 
@@ -111,6 +118,7 @@ QOTD adds a different lane to the Marian/Panda relationship. In May 2022, Eos sa
 | 2021-05-02 | Eos's dead-corpse complaint becomes Mugs's pretty-corpses toast |
 | 2021-04-24 / 2021-07-13 | Eos enters MAFIA independently, then becomes Marian's named WALTZ counterpart — “my only” was Marian's caption, not a relationship certificate |
 | 2021-05–2022-02 | Marian's Wall-shame campaign, Eos's counter-posts, and the shared joke |
+| 2021-09-16 | Eos and Marian briefly remove Louisiana from the Union; Ansun supplies the Colorado guess and Marian calls it `fake LA` |
 | 2022-04-18 | Eos names Gilli as their reason for joining UL |
 | 2022-07-07 | Eos joins Noether’s hamcito mock-prosecution on the Wall |
 
