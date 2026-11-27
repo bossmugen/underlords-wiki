@@ -166,6 +166,13 @@ claims:
       - label: "BACKROOM Pass 39 · Wall · 1085040579844505671, 1085040918782038137, 1085040947785650206, 1085040956719513712, 1085040965640794184, 1085041019181084763"
         href: "/channels/wall"
     note: "The second screenshot remains uninspected. A separate earlier screenshot sequence is not merged into this one or attributed to Rummy."
+  - text: "On January 30, 2023, DiStratus (Torr) called Rummy's only crime \"the overuse of the semi colon\", then realized \"oh no the eglish has become normalized to me\"; Rummy replied to the original complaint with `:EmoJi_stupid:`."
+    evidence: "archive-confirmed"
+    date: "2023-01-30"
+    sources:
+      - label: "Wall · 1069557104328851486, 1069557257223807039, 1069754473347563621"
+        href: "/channels/wall"
+    note: "Panda's earlier \"she's just as guilty\" has no recovered immediate context; do not attach it to the semicolon/spelling exchange."
 antiFanon:
   - "Rummy’s December 2022 short-person jokes are not a fixed height record and are not automatically part of the Gabu–Gilli height-war genealogy."
   - "Rummy's primary Biodata card belongs under Snipers, not Directors."
@@ -192,6 +199,8 @@ relatedPeople:
   - "mia"
   - "gilli"
   - "darkasrai"
+  - "distratus"
+  - "Do not connect Panda's earlier \"she's just as guilty\" to the semicolon/spelling exchange; its immediate context is missing."
 tags:
   - "sniper-on-call"
   - "party-director-apprentice"
@@ -264,6 +273,10 @@ At this point the context objection reads less like a one-off defense and more l
 ## Relationships: DarkAsrai knows how to get a reaction
 
 DarkAsrai and Rummy can pull each other straight into a bit. On New Year's Day 2023, Dark asked Rummy to spar so she could test how much combat she still remembered; Rummy agreed, with the warning that she would be **`very swuiShy`**. By March 13, Dark had posted a second screenshot and tagged Rummy. Rummy's answer arrived in four installments: **`NAAUUUUUURRR`**, **`IJAIOFSAOISAFDOA`**, **`LOOOK AWAY-`**, then an anime run/fall GIF. The first exchange is a willing game test; the second is an attempted evacuation of the audience. They can make each other part of the joke and trust the other to answer in kind. The screenshot remains uninspected, so the story is the escape routine, not the unseen content.
+
+### Running Gag: The semicolon acclimatization
+
+DiStratus (Torr) tried to file one clean charge: Rummy's only crime was **"the overuse of the semi colon."** Thirty-six seconds later, he realized he had started reading it as normal: **"oh no the eglish has become normalized to me."** Rummy answered the original complaint with one `:EmoJi_stupid:` and left him to sit with the diagnosis. The semicolon had won; Torr was now part of the problem.
 
 ### Running Gag: Gilli calls her Tummy
 
