@@ -1,5 +1,7 @@
 name: Build Underlords Wiki
 
+# 2026-11-27 Run55 verification trigger: public Cast biography cleanup excludes private DR GAME HQ material.
+
 on:
   push:
     branches: [main]
