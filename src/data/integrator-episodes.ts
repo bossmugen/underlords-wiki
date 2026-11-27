@@ -1056,4 +1056,14 @@ export const integratedEpisodes: Episode[] = [
     logline: "Marian complains that a west-coast drive has been for nothing. Eos insists the answer was Louisiana; Ansun admits he had thought Eos was in Colorado. Eos abandons the defense and declares `louisiana aint even a state`, then `49 states of america`. Marian finishes with `fuck Louisiana. fuckin fake LA`. The room does not repair the map.",
     cast: ["Eos", "Marian Kage", "Ansun"]
   },
+  {
+    id: "daya-rotini-snow-mock-crime-scene-2024",
+    title: "Daya Called the FBI. Rotini Answered With a Heart.",
+    season: "2024",
+    date: "January 3, 2024",
+    kind: "Wall / mock crime-scene caption / screenshot unresolved",
+    logline: "Daya posted a screenshot with `walked into a crime being committed` (1192264322961911849), tagged RotiniLM and Snow 4.385 seconds later (1192264341353922710), then escalated to an `FBI OPEN UP` GIF (1192264651858247832). RotiniLM's only surfaced response was a Raja heart (1192264719986335834). The screenshot remains uninspected: the alleged offense is unknown, and no action or reply is assigned to Snow. The text alone gives Daya the whole bit—witness, suspects, federal response—while Rotini supplies a heart instead of a statement.",
+    cast: ["Daya", "RotiniLM", "Snow"]
+  },
+
 ];
