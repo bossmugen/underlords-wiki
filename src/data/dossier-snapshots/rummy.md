@@ -173,7 +173,16 @@ claims:
       - label: "Wall · 1069557104328851486, 1069557257223807039, 1069754473347563621"
         href: "/channels/wall"
     note: "Panda's earlier \"she's just as guilty\" has no recovered immediate context; do not attach it to the semicolon/spelling exchange."
+  - text: "On August 18, 2021, Rummy joined a Wall exchange about Gilli's white Discord interface with `Dw Gilli…mine white too :Cat_Wave:`, placing herself in the light-mode camp before Rich's later dark-mode enforcement."
+    evidence: "archive-confirmed"
+    date: "2021-08-18"
+    sources:
+      - label: "Wall · light-mode exchange · 877716913311064064"
+        href: "/channels/wall"
+    note: "One self-reported admission in a shared joke, not evidence of continuous use or a lasting interface preference."
+
 antiFanon:
+  - "Rummy's August 18, 2021 `mine white too` line is one self-reported theme admission, not proof of continuous light-mode use or a lasting interface preference."
   - "Rummy’s December 2022 short-person jokes are not a fixed height record and are not automatically part of the Gabu–Gilli height-war genealogy."
   - "Rummy's primary Biodata card belongs under Snipers, not Directors."
   - "Rummy is Nobu's Party Director Apprentice, not her co-equal UL Party Director."
@@ -296,6 +305,14 @@ DiStratus (Torr) tried to file one clean charge: Rummy's only crime was **"the o
 | September 2024 | Tofu, Cookie, Rummy | Tofu proposes a Cookie-versus-Rummy stink-off; no completed contest is established |
 
 The running gag belongs with Rummy's other Wall-era group teasing, not as an actual competition or a new formal title. Source message IDs: `1273451792826372187`, `1273452793931370547`, `1273452859115180113`, `1283840497617735792`. The associated image has not been inspected.
+
+## Relationship: Rich's Dark-Mode Campaign
+
+| Date | Scene | Reference |
+| --- | --- | --- |
+| 2021-08-18 | Rummy joins the Wall's light-mode exchange: `Dw Gilli…mine white too :Cat_Wave:` | Wall `877716913311064064` |
+
+Rich's later dark-mode policing was a sequel, not the beginning of Rummy's white-screen record.
 
 ## The BLING exam incident
 
