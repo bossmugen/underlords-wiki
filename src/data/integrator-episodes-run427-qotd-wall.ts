@@ -29,4 +29,13 @@ export const run427IntegratedEpisodes: Episode[] = [
     cast: ["Mugen", "Snow"],
   },
 
+  {
+    id: "qotd-gabu-human-answer-key-2026",
+    title: "Gabu Had the Answers. Everybody Else Followed.",
+    season: "2026",
+    date: "August 5–6, 2026",
+    kind: "QOTD / memory / callback",
+    logline: "Mugen asks for everybody’s favorite UL memory. Oyasumi points to Gabu as the one who knew all the answers; Mugen remembers the daily activity behind that reputation, with the group following Gabu for four years instead of learning the answers themselves. Gabu returns the next morning and admits she had been proud of her memory. Nobody names the game in this exchange. The part the house kept was the arrangement: Gabu knew, everybody followed, and the answer key had a name.",
+    cast: ["Mugen", "Oyasumi", "Gabu"],
+  },
 ];
