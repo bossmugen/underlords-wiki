@@ -76,6 +76,12 @@ claims:
       - label: "Wall of Shame/Fame · 2021-07-04"
         href: "/channels/wall"
     note: "The 2021 screenshot is not described here. The archive proves Gilli posted it and then tagged NintendoShitcube; it does not prove who captured it, who appears in it, or when the underlying screenshot was created. Discord timestamps own post chronology even when a source filename contains a date-like string."
+  - text: "On February 24, 2022, Gilli replied directly to Key's Wall self-audit with `OG wall of shamer here uwu`, calling herself one of the room's old hands."
+    evidence: "archive-confirmed"
+    date: "2022-02-24"
+    sources:
+      - label: "Wall of Shame-Fame · messages 946484073768054815 / 946563974328119307"
+        href: "/channels/wall"
   - text: "In a September 29, 2020 joke family-map exchange, Ren called Gilli `my big sister`."
     evidence: "archive-confirmed"
     date: "2020-09-29"
@@ -227,6 +233,7 @@ relatedPeople:
   - "mia"
   - "rummy"
   - "aeshleen"
+  - "key"
 tags:
   - "consigliere"
   - "officer"
@@ -279,6 +286,10 @@ Gilli's March 2022 love-language answer separates what she gives from what she w
 Gilli did not need a new reason to summon Spicy Hotpot to the Wall. In April 2021 she posted a screenshot and tagged Spicy; by September, Spicy's defense was basically that Gilli had probably filed them there ages ago. Ten days later Gilli posted a screen recording. Sixty-six seconds afterward, Spicy sent **28 mentions of Gilli** in one message. Nobody preserved a reply link proving it was revenge, but the timing is a remarkably loud coincidence. Gilli joined the Fat-Wheezing rather than pretending her notifications had been treated with dignity.
 
 She also borrowed Spicy as imaginary enforcement staff. A May announcement told everyone to drink water and eat or Spicy would ground them. Gilli's actual recurring work was keeping people fed and keeping the room running; the method occasionally involved recruiting a friend into a disciplinary threat they had not necessarily agreed to. That is a relationship with a working comic rhythm, not a new official job title.
+
+## THE WALL HAS AN OLD GUARD
+
+Key's return gave Gilli a chance to identify her own standing. He came back to count his Wall appearances and weigh **`ashamed or impressed`**; Gilli replied to that exact message with **`OG wall of shamer here uwu`**. It is a small line, but it puts her inside the Wall's running history, not merely among the people it caught.
 
 ## YOU'RE STILL AN UNDERLORD
 
