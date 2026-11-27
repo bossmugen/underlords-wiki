@@ -221,6 +221,9 @@ claims:
     sources:
       - label: "August Reunion Run 18 · QOTD messages 1537800754939826269, 1537812901996404776, 1537815371279503392, 1537868061338509453, 1537868655801671781, 1537868702958223390"
         href: "/channels/qotd"
+  - text: "On February 12, 2022, Mugen identified Snow's pre-existing stripclub test/joke server as the emergency refuge during the move from the previous Discord; Snow separately recalled roughly `30 mins of panic` retrieving records and moving people, then joked that the current server was still a test server."
+    evidence: "archive-confirmed"
+    date: "2022-02-12"
 antiFanon:
   - "Snow is not a generic Staff card in the corrected roster; Pit Boss takes primary placement."
   - "Snow was not Mugen's formal second-in-command. Current command canon places Snow at Pit Boss / Minister; Gabu and Anayss hold the Underboss / Deputy seats."
@@ -275,6 +278,10 @@ The draft was under construction and not every clause is treated as final prosec
 In January 2021, Saber needs attention. Snow says he no longer remembers how to fix it and asks Gabu if she wants to try. Gabu says she can work through it one item at a time. Over the next two years Snow remains visible around event commands, server-time testing, timezone problems, and edits. In March 2023, after the command surface has changed again, he tries `/help` and simply says **`Forgot all the commands 😱`**.
 
 That is a useful correction to the mythology competence can create around technical people. Snow is willing to say **I don't remember** and move the work toward the actual problem. The system matters more than maintaining the performance of infallibility.
+
+## February 2022 — the test server becomes the exit
+
+Mugen later identifies Snow's pre-existing stripclub test/joke server as the refuge used when the previous UL Discord had to be left quickly. Snow remembers roughly **`30 mins of panic`** retrieving records and moving people, then jokes that the current server is still a test server. The room had started as a bit; the move gave it a real job. This is the current Discord's second life, not the guild's 2020 founding.
 
 ## 2020–2022 — WHILE ALL THIS IS HAPPENING, THE ROOM IS PROSECUTING HIM FOR AGE
 
