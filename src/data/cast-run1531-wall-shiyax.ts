@@ -70,6 +70,7 @@ export function applyRun1531WallShiyaCast(characters: Character[]): void {
       "He is not only a defendant. Shiya also posts receipts, directly summons targets into the exhibit, and uses prosecution language such as `got caught in 4k`. POSTED BY is preserved where established; image maker, capturer, and depicted subject remain separate questions unless directly supported.",
       "His favorite defendant alibi becomes a recurring bit rather than a one-off: `hmm whos on my account ?`, later `Ok who was on my account`, then weeks afterward `Someone else was on my account bbg` followed by `Shhhhh`. The recurrence is comic innocence theater, not evidence that anyone actually accessed, hacked, or shared his account.",
       "Across three 2021 Photoshoot entries, ShiyaX chose a notably gentle caption register: `- There Are Far Better Things Ahead Than Any We Leave Behind -` (Jan. 8), `Where Flowers Bloom , So Does Hope` (Mar. 8), and `Relax Refresh Renew` (May 12). Source messages: `797147087531540550`, `818593185533132820`, `842246074545995776`. The captions are his selections; original quotation authorship and image creator/capturer/subjects are not established.",
+      "On June 15, 2021, Anayss tagged ShiyaX in the Wall; he answered `I still can’t believe it`, and Baby Lyssa, Woohyuk and Mugen congratulated him. Woohyuk later described the milestone as `Got his own shiyax in game` (messages `854452619552620545`, `854452758832742422`, `854452802393866280`, `854452848363700234`, `854466647218061332`). The attachment remains uninspected; the exact in-game object's type is unresolved.",
     ]),
     antiFanon: unique([
       ...(shiya.antiFanon ?? []),
@@ -78,6 +79,7 @@ export function applyRun1531WallShiyaCast(characters: Character[]): void {
       "His repeated Whiskey redirects show room-purpose awareness only. Do not backdate or invent a formal moderation appointment from them.",
       "Wall attachments involving Shiya establish only the speaker/poster/reply relationships encoded in the surviving record. Do not upgrade them to MADE BY, CAPTURED BY, or FEATURING without direct support.",
       "The three Photoshoot captions are preserved as text ShiyaX selected; do not assign original quotation authorship or image creator/capturer/subject identity from the uninspected attachments.",
+      "The June 15 attachment 854452619191517234 remains uninspected; do not identify the in-game object/type or assign image maker, capturer, or depicted subject.",
     ]),
   } as ArchiveCharacter;
 }

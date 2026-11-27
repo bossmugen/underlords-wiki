@@ -87,6 +87,13 @@ export const shiyaxNarrativeCharacterBios: Record<string, CharacterNarrative> = 
         ]
       },
       {
+        period: "June 2021",
+        title: "THE ROOM HAD A REASON TO CHEER",
+        paragraphs: [
+          "On June 15, Anayss tags ShiyaX in the Wall. He answers `I still can’t believe it`; Baby Lyssa, Woohyuk and Mugen congratulate him, and Woohyuk eventually supplies the explanation: `Got his own shiyax in game`. The exact in-game thing stays unnamed, but the reaction is easy to read: people were excited for him, and he sounds genuinely surprised to be the one everybody is cheering for. This is not the usual Wall prosecution. It is the room making a fuss because something good happened to him."
+        ]
+      },
+      {
         period: "Petty Crimes",
         title: "PETTY CRIMES",
         paragraphs: [
