@@ -17,6 +17,13 @@ claims:
       - label: "August Reunion Run 13 · sliding-into-DMs genealogy"
         href: "/history/2026"
     note: "Ansun 750388679264043120; Anthos 750395812588158999 / 750395920809590894; Mugen 750396821381054617; Rooks 763531261053763615; Ren 1537894329438445679. The 2020 emoji name is grounded; do not assert identical GIF assets or origin from earliest surviving usage."
+  - text: "On September 18, 2020, Ansun asked Rooks to join VC because he and Anthos were talking; Rooks answered `AHHHHH OKAY`, and Anthos said `rooks i need to be held`."
+    evidence: "archive-confirmed"
+    date: "2020-09-18"
+    sources:
+      - label: "💬 Club-Only · 2020-09-18 · messages 756610211254370456, 756610241038123068, 756610260562870303, 756610261959442525"
+        href: "/channels/club-only"
+    note: "Four consecutive messages, not Discord reply arrows. This is a scene-specific request for company/comfort; it does not establish physical contact, a standing caretaker role, or a closeness ranking."
   - text: "During the August 14, 2026 reunion, Mugen directly invited Anthos back with `The clowns are calling for you` and `Will you heed their call`, distinct from Ren retrieving Nobu and Xephy contacting Mugen spontaneously."
     evidence: "archive-confirmed"
     date: "2026-08-14"

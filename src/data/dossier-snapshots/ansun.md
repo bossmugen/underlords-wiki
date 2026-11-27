@@ -146,6 +146,13 @@ claims:
     sources:
       - label: "Club Media Gallery"
         href: "/channels/pr"
+  - text: "On September 12, 2021, Ansun took over Gilli's food-and-water reminder with `YOU THOUGHT IT WAS GILLI BUT ITS ME ANSUN!!!`, then continued the same practical instruction: `Here to remind yall to eat food and drink water`."
+    evidence: "archive-confirmed"
+    date: "2021-09-12"
+    sources:
+      - label: "📣 Announcements · 2021-09-12 · Ansun 886692241685487627"
+        href: "/channels/announcements"
+    note: "A one-off parody of Gilli's familiar reminder voice; no formal rotation, appointment, or official hydration office inferred."
   - text: "On February 19, 2022, Ansun clarified in Announcements that Officers Challenge was open to anyone, that different Officers hosted different challenges, and that members could suggest challenges to leadership."
     evidence: "archive-confirmed"
     date: "2022-02-19"
