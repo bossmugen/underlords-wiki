@@ -182,9 +182,7 @@ Rummy proposed a Shame Ranking Award in May 2022 and promptly put Panda or Tae i
 
 ## THE PROSECUTOR IS TOO VANILLA
 
-Panda's complaint about Eos was not somebody else's summary of him. On July 7, 2021, he told the Wall he had plenty of material, but Eos was **`too vanilla to shame me`**. In November he stopped waiting for the prosecutor and filed his own entry: **`self shaming, cause eos is too vanilla`**. Eos answered with a stare. Panda was not only getting dragged into the Wall; he was negotiating its standards, then taking the case into his own hands.
-
-The November attachment remains uninspected, so the alleged offense stays off the page. The joke is the recurring division of labor: Panda keeps offering evidence; in Panda's telling, Eos is too vanilla to prosecute; Panda eventually files himself.
+Panda had a specific grievance with the Wall's prosecution department: Eos was, in his opinion, **`too vanilla to shame me`**. On July 7, 2021, he told the Wall he had plenty of material but no one willing to prosecute. In November he stopped waiting and filed his own entry: **`self shaming, cause eos is too vanilla`**. Eos answered with a stare. Panda was not only getting dragged into the Wall; he was negotiating its standards, then taking the case into his own hands.
 
 ## WELCOME HOME, NOW WASH THE DISHES
 
