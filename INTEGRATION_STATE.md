@@ -1,3 +1,20 @@
+# Run 12 — 2026-11-27 01:53 PST — Photo Submissions episode completion
+
+- Source branch: `archive-miner-photo-submissions-2021`, HEAD / last-consumed SHA `d45d441feca0110e9495f49b13df9666982bb45c`. No miner delta; no cursor advance.
+- Reconciled source candidates:
+  - `site-candidate-2026-08-26-2110-schedule-revisions-crosscheck.md`: Gabu's FAMILY close-object edits `904886792212328449` / `904886793063792710`; Anthos's Nov. 18 public schedule `910920971366588527`; Photo Submissions room close `911677800908472430`.
+  - `site-candidate-2026-08-25-2045-gilli-ren-repeat-example-pair.md`: Gilli Aug. 1 / Ren follow-up `871516734203527198` / `871516826079731712`; repeated Aug. 15 pair `876518547826819121` / `876519248116219915`; Gilli's next-morning POPSTAR opening `876863548733681695`.
+- MAIN comparison: the event reader `src/lib/photo-submissions-overrides.ts` already carries both calendar revisions and the Aug. 15 repeat; MAIN person owners `src/content/people/gabu.md`, `anthos.md`, `gilli.md`, and `ren.md` already hold their distinct lived angles. No MAIN duplicate was added.
+- WIKI reader repair: `src/data/integrator-episodes.ts`:
+  - `gabu-photoshoot-saber-runbook-2021` now includes the exact Nov. 18 public schedule (submissions through Nov. 19 at 12 SVT; judging Nov. 19–21; winner announcement Nov. 22 at 12 p.m. SVT) and records that the submission room closed Nov. 20. The reason for the one-day mismatch remains unresolved.
+  - `gilli-ren-august-example-photos-2021` now includes the repeated Aug. 15 Gilli→Ren example-photo handoff and the next-morning POPSTAR opening. The posts identify who shared the examples, not who made or captured the pictures; no formal department is invented.
+- WIKI reader commit: `a4ec0a0730e3b3b261dcaef6ac2dad890d78aa05`. Exact build [45976451879](https://github.com/bossmugen/underlords-wiki/actions/runs/45976451879) SUCCESS; Pages preview/deploy [45976451741](https://github.com/bossmugen/underlords-wiki/actions/runs/45976451741) SUCCESS. Current descendant WIKI head `85757fd1b47b866c05778a8f2fab2bc68240da71` also passed build [45977006460](https://github.com/bossmugen/underlords-wiki/actions/runs/45977006460) and Pages preview/deploy [45977006640](https://github.com/bossmugen/underlords-wiki/actions/runs/45977006640), both SUCCESS.
+- This is intentionally WIKI-only: MAIN already owns the continuous narrative; WIKI needed the precise searchable episode chronology. No identical prose mirror.
+- Family inventory after this pass: 28/28 individually named candidate files classified; 34 cumulative headings now 18 reader-covered / 12 workflow-verified / 3 source-blocked-or-provenance-only / 1 superseded. Two cumulative handoffs still need incident-level closure; distinct accepted A/B remainder remains unknown, not zero. Keep the family open.
+- Verification boundary: GitHub Pages preview/deploy succeeded. A separate external custom-domain/browser fingerprint was not obtained.
+
+---
+
 ## 2026-11-26 23:57 PST — PHOTO KOREA Cast dossier recovery
 
 - Source branch: \`archive-miner-photo-submissions-2021\`, HEAD / consumed SHA \`d45d441feca0110e9495f49b13df9666982bb45c\`; checkpoint and current handoff reviewed directly, no miner delta.
