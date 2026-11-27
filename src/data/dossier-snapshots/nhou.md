@@ -78,7 +78,15 @@ claims:
     sources:
       - label: "👅 Wall · 2021-09-11"
         href: "/channels/wall"
+  - text: "On July 27, 2021, Anayss tagged Nhou and Snow while asking Mugen whether she was proud of `the stripper’s knowledge UL has`."
+    evidence: "archive-confirmed"
+    date: "2021-07-27"
+    sources:
+      - label: "Wall · Anayss · message 869759473806344202"
+        href: "/channels/wall"
+    note: "The parent establishes POSTED BY Anayss. Attachment 869759472963301386 is uninspected; do not infer its subject or assign MADE BY / CAPTURED BY / FEATURING credit."
 antiFanon:
+  - "The July 27, 2021 Wall attachment 869759472963301386 remains uninspected; do not describe its contents or assign MADE BY / CAPTURED BY / FEATURING."
   - "Nhou remains Staff in the corrected living roster; export-time role arrays are not appointment chronology."
   - "The Zofran line supports a clinical-language / work-register leak. It does not identify what Nhou was writing, any patient, workplace, shift, chart, diagnosis, treatment decision, or real-world case."
   - "The coffee-enema exchange is a house joke. It does not establish a formal UL medical office, healthcare appointment, or moderation authority."
@@ -116,3 +124,7 @@ The January 8 entry gives Nhou a more earnest opening than the Lonely poop joke 
 ## Lonely: a tiny reaction to a huge empty world
 
 Nhou posted the bleak, almost-empty icy landscape for Lonely. Then his own account joined the 💩 reactions underneath it. Whether he was roasting his picture, laughing with everybody else, or simply arriving late to the emoji pile is anybody’s guess. The contrast survives anyway: enormous desolation, one very stupid reaction, and Nhou right there among the people pressing it.
+
+## Petty Crimes
+
+Anayss’s July 27, 2021 Wall post groups Nhou and Snow under **“the stripper’s knowledge UL has”** and asks Mugen whether she is proud. A very specific reputation to receive in public, with no accreditation body in sight.
