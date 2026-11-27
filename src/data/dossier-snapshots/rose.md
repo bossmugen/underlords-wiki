@@ -50,6 +50,13 @@ claims:
       - label: "👅 Wall · 2023-04-03"
         href: "/archive/wall"
     note: "The underlying exhibit immediately before this excerpt is not reconstructed here; the safe claim is Rose's self-aware expectation of appearing in the Wall."
+  - text: "Rose's August 17, 2021 POPSTAR entry named Aizzy as the person posing with her in the caption `Posing with @Aizzy on the ferris wheel`."
+    evidence: "archive-confirmed"
+    date: "2021-08-17"
+    sources:
+      - label: "Photo Submissions · POPSTAR · 877411249099538502"
+        href: "/channels/photo-submissions"
+    note: "The mention resolves to Aizzy / aizzy92016 / stable account 536863103342608385. Rose posted the caption; image maker, capturer, and depicted-avatar attribution remain unassigned."
   - text: "On April 5, 2023, Rose wrote `Beat me to it`; roughly two minutes later she posted two image attachments herself."
     evidence: "archive-confirmed"
     date: "2023-04-05"
@@ -101,6 +108,7 @@ relatedPeople:
   - "gabu"
   - "rummy"
   - "nobu"
+  - "aizzy"
 tags:
   - "historical-staff"
   - "return-recognition"
@@ -109,6 +117,8 @@ tags:
   - "receipt-culture"
   - "premise-escalation"
   - "qotd"
+  - "photo-submissions"
+  - "popstar"
   - "cooking"
 ---
 
@@ -151,3 +161,7 @@ The useful order is recognition first, paperwork second. The scene gives Rose a 
 QOTD later asks for a dream kitchen and Rose starts specifying capacity: industrial cold storage, blast chiller, dry-aging cabinet, double convection oven, large work surfaces, baking storage. Months later, when Gabu asks what recipe people would teach her, Rose chooses profiteroles / cream puffs / choux à la crème.
 
 That is enough to call serious cooking/baking interest. It is not enough to call Rose a chef.
+
+## Relationships
+
+**Aizzy.** In the August 17, 2021 POPSTAR entry, Rose captions the submission **`Posing with @Aizzy on the ferris wheel`**. The caption gives them a specific shared scene: Aizzy is named as the person posing with Rose, without turning one photograph into a relationship label.
