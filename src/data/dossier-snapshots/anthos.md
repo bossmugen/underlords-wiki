@@ -77,6 +77,13 @@ claims:
     evidence: "user-confirmed"
     sources:
       - label: "Mugs-confirmed command chart"
+  - text: "On July 22, 2021, Anthos greeted the account using `MariaMoon<3` as `maria`, answered its `underlords? right? 😅` with `purrfect`, and completed the Lobby role/tour handoff."
+    evidence: "archive-confirmed"
+    date: "2021-07-22"
+    sources:
+      - label: "Lobby · 2021-07-22 · 867890705761435649 / 867891154288902185 / 867891190304997376 / 867891224056823858 / 867891447445192754"
+        href: "/channels/lobby"
+    note: "MariaMoon<3 is a self-supplied IGN/handle, not a real-world identity; the account's canonical public personal name remains unresolved. The exact age response is omitted. This is Discord onboarding, not proof of first in-game admission."
   - text: "On September 22, 2020, Ansun joked that Anthos’s job as `town crier` had been reduced to `only crying and not spreading news`."
     evidence: "archive-confirmed"
     date: "2020-09-22"
@@ -203,6 +210,7 @@ antiFanon:
   - "Anthos's June 2020 `home here` reply is direct supportive language to an unresolved member, not evidence for a universal relationship rank or private backstory."
   - "Anthos's February 2021 `not smart enough` line is a Wall joke and should not be used as an intelligence claim or psychological profile."
   - "The 2025 `real person` joke around Tai and Emi is a house callback, not evidence that anyone literally questioned Anthos's identity or existence."
+  - "MariaMoon<3 is a self-supplied IGN/handle for an account whose canonical public personal identity remains unresolved; do not infer a real-world name or create a separate person from the handle. The 2021 Lobby scene is Discord onboarding, not first in-game admission; the exact age response is omitted from public copy."
 relatedPeople:
   - "ansun"
   - "ren"
@@ -232,6 +240,8 @@ Anthos can tell you where to put your photos, when the contest closes, which cha
 By late summer 2020, Ren is already telling Anthos **`i love your quotes`**. Through the fall she appears on almost every covered Club Only day, and her presence is ordinary enough that one of the era's sudden waves of IRL sharing barely registers as an event. When somebody asks why everyone is suddenly posting selfies and house tours, Anthos answers: **`sounds like a usual day to me`**.
 
 That line works because she is not watching UL culture from outside. She is already acclimated to its escalation. Birthdays get routed to Slice. IRL photos go there and get pinned. The room keeps inventing habits; Anthos learns the habits fast enough to explain them back.
+
+**Lobby handoff — July 22, 2021:** Anthos greeted the account using `MariaMoon<3` as `maria`, answered `underlords? right? 😅` with `purrfect`, and finished the role-and-tour handoff. The account's `i’m literally half awake o-o` follow-up keeps the exchange delightfully ordinary: Anthos gets the practical work done without making the person feel processed.
 
 September also gives the most concrete version of that role. During a live update to the UL family Tumbleweed, Anthos explains the structure as **`like a mind map`**, keeps adding relationships, checks the pins, and tells the room **`we r updating the UL family tumbleweed`**. The map already existed; she is maintaining it, not founding it. Dean's placement beside Mugen is an older family relationship being represented, not a recruitment event.
 
