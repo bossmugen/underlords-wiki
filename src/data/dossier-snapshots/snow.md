@@ -13,7 +13,7 @@ roles:
   - "Game Officer"
 eraStart: 2020
 
-summary: "Snow could write a privacy rule, fix the Discord machinery, and then try to escape the Wall of Shame by filing his own embarrassment before anybody else got there. He was the technical grown-up who admitted when he forgot the commands, the old man everyone teased into playing along, and the security guy still warning people about suspicious links years after Dragon Raja stopped being the point."
+summary: "Snow can fix the Discord machinery, admit when the commands have outrun him, and still try to escape the Wall of Shame by filing his own embarrassment before anybody else gets there."
 
 summaryEvidence: "inferred"
 publication: "review"
@@ -51,27 +51,27 @@ claims:
     sources:
       - label: "Lobby recovered export"
         href: "/channels/lobby"
-  - text: "In surviving August 2020 JAG material, Snow drafted the 24-charge 'Yeeting charges' framework as an objective and impartial conduct gauge while explicitly stating that UL was `in no way a military organization`."
+
     evidence: "archive-confirmed"
     date: "2020-08-07 – 2020-08-08"
     sources:
       - label: "JAG"
         href: "/lore/jag"
-  - text: "Snow's August 7, 2020 Yeeting Charges included a Public records offenses clause covering Discord Chat, World Chat, and Club Chat, with prohibitions on altering, concealing, removing, or destroying those records."
+
     evidence: "archive-confirmed"
     date: "2020-08-07"
     sources:
       - label: "Main HQ · JAG · Snow message 741453146529857618"
         href: "/lore/jag"
     note: "A drafted charge, not proof of enforcement or the origin of the later Wall/archive project."
-  - text: "Snow's Charge 14 starts with Child endangerment before he immediately withdraws the premise, joking that Dragon Raja itself equips game children with guns."
+
     evidence: "archive-confirmed"
     date: "2020-08-07"
     sources:
       - label: "Main HQ · JAG · Snow message 741476655830401114"
         href: "/lore/jag"
     note: "Refers to Dragon Raja game children, not real minors or Platelets; the joke does not establish a formal policy."
-  - text: "JAG Charge 1 recasts Malingering as evading responsibility for actions, behaviors, or verbal confrontations. Charge 23, Conduct unbecoming an officer and a gentleman, explicitly covers Officers, Staff, and Interns."
+
     evidence: "archive-confirmed"
     date: "2020-08-07 – 2020-08-08"
     sources:
@@ -84,19 +84,19 @@ claims:
     sources:
       - label: "JAG / Club Conduct draft"
         href: "/lore/jag"
-  - text: "In JAG Charge 15, Snow's working draft explicitly prohibits private-area viewing or recording without consent where another person has a reasonable expectation of privacy, distribution of such recordings, and sending obscene material into somebody's DMs without consent."
+
     evidence: "archive-confirmed"
     date: "2020-08-07"
     sources:
       - label: "JAG Charge 15"
         href: "/lore/jag"
-  - text: "Snow's JAG framework includes rules against Officer abuse of special trust, retaliation against people reporting misconduct, interference with proceedings, and obstruction."
+
     evidence: "archive-confirmed"
     date: "2020-08-07 – 2020-08-08"
     sources:
       - label: "JAG"
         href: "/lore/jag"
-  - text: "JAG Charge 8 treats Discord Chat, World Chat, and Club Chat as public records and prohibits intentional alteration, concealment, removal, or destruction."
+
     evidence: "archive-confirmed"
     date: "2020-08-07"
     sources:
@@ -262,13 +262,6 @@ Six days later, when Slice opens, Snow defines the room as somewhere members can
 
 Those scenes belong together chronologically. Snow's early contribution is not simply "technical guy" or "rules guy." He is helping make access work and then helping define the limits around access once people start using it.
 
-## AUGUST 2020 — THE INFORMAL GUARDRAILS BECOME A FORMAL DRAFT
-
-By August, Snow is drafting the JAG / Club Conduct framework. The notorious 24 **Yeeting charges** borrow formal military-law structure while Snow simultaneously says UL is **`in no way a military organization`**.
-
-Under the joke formatting, the draft repeatedly limits what people with access or power can do. Real life takes priority. New players should be treated kindly. Hate speech is bannable. Personal identifying information should be protected. Charge 15 addresses private-area viewing or recording without consent and obscene material sent through DMs without consent. Other charges address Officer abuse of special trust, retaliation against reporters, interference, obstruction, and destruction or concealment of chat records.
-
-The draft was under construction and not every clause is treated as final prosecuted law. The biographical progression is still clear: April's room-level privacy instincts have become an attempt to write boundaries into the institution itself.
 
 ## 2021–2023 — KNOWING THE SYSTEM ALSO MEANS ADMITTING WHEN THE SYSTEM HAS MOVED ON WITHOUT YOU
 
