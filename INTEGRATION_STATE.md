@@ -3462,3 +3462,9 @@ Photo miner `archive-miner-photo-submissions-2021`, last-known HEAD `d45d441feca
 - Latest WIKI reader commit: `d7d03bbdc17c2a7f10224ab143a6bfd1c3d00dc4`, path `src/data/dossier-snapshots/woosung.md`. Latest MAIN reader commit: `53c1e2da87b555c4dd8744c318e8dd2f40c4a6f1`, path `src/content/people/woosung.md`.
 - Earlier WIKI ancestor `fa0c9513cb35afefe3c3998a85d6291f3cb2da6f` passed build run `45966457332` / job `140396173543` and `wiki-preview`; the follow-up commit is a newer descendant and currently has no combined status yet. Latest WIKI build/preview remains pending. MAIN latest commit also has no combined status; live production is not verified.
 - Keep the QOTD candidate `pending_verification`; do not close it from the ancestor build. No miner consumed SHA advanced.
+
+### Run25 verification closure — WOO/Cele latest reader
+
+- Latest WIKI reader commit `d7d03bbdc17c2a7f10224ab143a6bfd1c3d00dc4` passed `wiki-build` run `45967615152`, job `140399980059`, conclusion **SUCCESS**; `wiki-preview` combined status is also **SUCCESS**. The preview target is the public GitHub Pages site; the status response does not expose a separate Pages workflow run ID.
+- This closes the WIKI side of the WOO/Cele owner repair. MAIN commit `53c1e2da87b555c4dd8744c318e8dd2f40c4a6f1` still has no combined status checks; MAIN build/deploy/live-commit verification remains pending, so the cross-surface candidate remains `pending_verification` in the MAIN publication-debt ledger.
+- The latest WIKI integration-ledger commit `210e42b41c73c2268a8437a683c7a59324e28c61` also has a successful `wiki-build` status (run `45967746191`).
