@@ -315,7 +315,7 @@ The guild's founding and the current Discord's origin are two different stories.
 
 ## Mugs according to Mugs
 
-QOTD finally gives us something better than inferred personality: Mugen describing herself.
+When Mugen describes herself, she is less grand than the title suggests.
 
 In June 2022 she calls herself a **`distant drifter friend`**. She is the person people come to for perspective or a gameplan. She also describes herself as a dork, the hype person, and the planner who organizes trips and events.
 
@@ -327,7 +327,7 @@ The July 7, 2021 WALTZ announcement is that planner instinct at screenshot scale
 
 A March 2022 love-language QOTD gives **Acts of Service + Quality Time**. It is a self-report, not a diagnosis, and it lines up suspiciously well with the woman the rest of the archive keeps catching: doing the task, making the room, checking the list, finding the person, planning the thing, and spending enough years around the same idiots that the relationship outlives the game.
 
-Mugen's own description is useful because it is less grand than the role other people gave her.
+Founder is the title. Drifter, perspective, gameplan, dork, hype and planner are the person.
 
 Drifter. Perspective. Gameplan. Dork. Hype. Planner.
 
