@@ -3523,7 +3523,7 @@ Photo miner `archive-miner-photo-submissions-2021`, last-known HEAD `d45d441feca
 
 - Source branch: `archive-miner/backroom-deals-2026-08-24`, HEAD / `last_consumed_sha` `9c143a7c146af4fc90de4b258bee1c848a2818a0`; no miner delta.
 - Source handoffs: `site-candidates-pass-29.md`, `findings-pass-29.md`, `receipts-pass-29.md` under `archive-intake/chat-2026-08-24-backroom-batch-miner/`.
-- Receipts: `756637602995503224`, `756637608200896617`, `756637634666813771`, `756637649938153505`, `756639925373239378`, `756639945078210611`, `758717478691274804`, `758717489743396904`.
+- Receipts: `756637602995503224`, `756637608200896617`, `756637634666823771`, `756637649938153505`, `756639925373239378`, `756639945078210611`, `758717478691274804`, `758717489743396904`.
 - Cross-surface comparison: Anthos's side of the Bee Movie exchange was already present on MAIN and WIKI. Ansun's MAIN frontmatter claim existed, but his visible person story lacked the scene; WIKI Ansun lacked a structured episode.
 - MAIN reader: `src/content/people/ansun.md`, commit `2f6fe2d55b19b22dbce27e46420e801fbbe2f4eb`; the scene was folded into the existing ANTHUS DEPARTMENT relationship story.
 - WIKI reader: `src/data/dossier-snapshots/ansun.md`, commit `439f677a0c39cced36cf36ed0e75e3edb2078c93`; added a structured searchable episode without copying MAIN prose.
