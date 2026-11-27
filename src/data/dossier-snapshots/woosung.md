@@ -79,11 +79,11 @@ claims:
       - label: "QOTD · Cele's server-entry answer · 942206834633244733"
         href: "/archive/qotd"
     note: "This is Cele's account of WOO as her social route, not proof of who technically accepted the in-game application or the exact admission date."
-  - text: "On March 28, 2023, WOO described Cele as a cousin she could rely on, someone who made her feel capable and pushed her toward doing things herself; later prompts repeatedly named Cele as preferred company."
+  - text: "Across February 2022–May 2023, Cele described WOO as the person who got her into Raja and UL, later thanked her for bringing her in, and named affectionate teasing as a way of showing love; WOO described Cele as a cousin she could rely on and repeatedly chose her as company."
     evidence: "archive-confirmed"
     date: "2023-03-28 – 2023-05-17"
     sources:
-      - label: "QOTD · WOO/Cele · 1090293199731445820, 1093548853577404417, 1103409168435662879, 1108403892494008412"
+      - label: "QOTD · WOO/Cele · 942206834633244733, 1090293199731445820, 1090413235636805652, 1093548853577404417, 1103409168435662879, 1103700525666549994, 1108403892494008412"
         href: "/archive/qotd"
     note: "Preserve WOO's direct cousin wording; companionship does not imply romance or exclusivity."
 antiFanon:
@@ -171,7 +171,7 @@ WOO reacts with crying and skull/dead reactions and remains in the joke. Her pro
 **Nobu:** repeatedly becomes the named `TRAITOR` / `why` target when Wall receipts surface. That is enough for a bounded recurring-betrayal joke. The underlying screenshots are unreadable, so Nobu's alleged offense, image authorship, capture, and appearance stay unresolved.
 
 
-**Cele:** WOO is the reason Cele gives for getting into Raja and joining UL: she was already there, and Cele jokes that sharing a club made it easier to `booli` her. A year later WOO calls her **`a cousin I could rely on`**, someone who makes her feel capable and pushes her toward doing things herself. The name keeps coming up in ordinary choices too: living together for a while despite WOO's preference for living alone, watching a movie, or dragging somebody into a haunted house. The joke is the delivery; the repeated choices are the relationship.
+**Cele:** WOO is the reason Cele gives for getting into Raja and joining UL: she was already there, and Cele jokes that sharing a club made it easier to `booli` her. In March 2023, Cele thanks WOO for `kidnapping me in da first place`; the recruitment joke has come back as affection. Cele later names `booli wit lOoveee` as her favorite way to show somebody they are loved. WOO's own description is just as clear: Cele is **`a cousin I could rely on`**, someone who makes her feel capable and pushes her toward doing things herself. The name keeps coming up in ordinary choices too: living together for a while despite WOO's preference for living alone, watching a movie, or dragging somebody into a haunted house.
 
 
 ## April 2023 — care arrives before the disclaimer
