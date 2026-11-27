@@ -128,6 +128,13 @@ claims:
       - label: "PR / club-media-gallery archive"
         href: "/channels/pr"
     note: "Daya is carrying the communal object onto official-facing surfaces in these scenes. Do not assign her maker/artist credit for the underlying artwork unless separately evidenced."
+  - text: "On January 3, 2024, Daya posted a Wall screenshot captioned `walked into a crime being committed`, tagged RotiniLM and Snow, then followed with an `FBI OPEN UP` GIF; RotiniLM's surfaced response was a Raja heart."
+    evidence: "archive-confirmed"
+    date: "2024-01-03"
+    sources:
+      - label: "Wall · Daya's mock crime scene"
+        href: "/channels/wall"
+    note: "Backroom Pass 38 receipts 1192264322961911849, 1192264341353922710, 1192264651858247832, 1192264719986335834. Screenshot uninspected; the alleged offense is unknown, and no action or reply is assigned to Snow."
   - text: "Across QOTD fictional-values prompts, Daya repeatedly centers personal agency and downstream human consequences; this pattern sits alongside her real-life-first advice and practical Lobby wayfinding."
     evidence: "inferred"
     sources:
