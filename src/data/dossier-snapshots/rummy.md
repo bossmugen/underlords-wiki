@@ -159,6 +159,13 @@ claims:
       - label: "Main HQ · site-candidates-2026-08-26-0045.md · Wall messages 1055736048203857940 / 1057867464656044214"
         href: "/channels/wall"
     note: "These are two separate exchanges. They do not establish a fixed real-world height or belong automatically to the Gabu–Gilli height-war genealogy."
+  - text: "On March 13, 2023, DarkAsrai posted a second Wall screenshot and later tagged Rummy; Rummy answered with `NAAUUUUUURRR`, a keyboard smash, `LOOOK AWAY-`, and an anime run/fall GIF."
+    evidence: "archive-confirmed"
+    date: "2023-03-13"
+    sources:
+      - label: "BACKROOM Pass 39 · Wall · 1085040579844505671, 1085040918782038137, 1085040947785650206, 1085040956719513712, 1085040965640794184, 1085041019181084763"
+        href: "/channels/wall"
+    note: "The second screenshot remains uninspected. A separate earlier screenshot sequence is not merged into this one or attributed to Rummy."
 antiFanon:
   - "Rummy’s December 2022 short-person jokes are not a fixed height record and are not automatically part of the Gabu–Gilli height-war genealogy."
   - "Rummy's primary Biodata card belongs under Snipers, not Directors."
@@ -184,6 +191,7 @@ relatedPeople:
   - "rich"
   - "mia"
   - "gilli"
+  - "darkasrai"
 tags:
   - "sniper-on-call"
   - "party-director-apprentice"
@@ -252,6 +260,10 @@ By December, another recurring trait is visible: when the Wall quotes her withou
 In August 2024, another Wall cluster ends with the condensed version of the same objection: **`THAT NOT THE FULL CONVO`**. Later that month, the separate profile-certification bit mutates into **`i need more bling certification`**—same bureaucratic instinct, later wording, not a retroactive rename of the 2023 `bl clan` joke.
 
 At this point the context objection reads less like a one-off defense and more like a stable habit in how she deals with the Wall. The room likes excerpts because excerpts are funny. Rummy's reflex is to drag the missing context back into frame. Sometimes the original conversation was already gone from view. Rummy's reflex was consistent: if somebody was going to prosecute her words, she wanted the rest of the conversation admitted too.
+
+## Relationships: DarkAsrai knows how to get a reaction
+
+DarkAsrai and Rummy can pull each other straight into a bit. On New Year's Day 2023, Dark asked Rummy to spar so she could test how much combat she still remembered; Rummy agreed, with the warning that she would be **`very swuiShy`**. By March 13, Dark had posted a second screenshot and tagged Rummy. Rummy's answer arrived in four installments: **`NAAUUUUUURRR`**, **`IJAIOFSAOISAFDOA`**, **`LOOOK AWAY-`**, then an anime run/fall GIF. The first exchange is a willing game test; the second is an attempted evacuation of the audience. They can make each other part of the joke and trust the other to answer in kind. The screenshot remains uninspected, so the story is the escape routine, not the unseen content.
 
 ### Running Gag: Gilli calls her Tummy
 
