@@ -128,3 +128,14 @@ WIKI reader commit / Pages build version `03f2123a88c378daf663c53cdd9cb6ca76a25b
 MAIN reader path `src/content/people/anayss.md` was strengthened in its existing `Dawn Beverage Propaganda` Petty Crimes entry; commit `1a99a00523776e60019db75e9904886a5e36fe0e` passed production run [46141228197](https://github.com/bossmugen/underlords/actions/runs/46141228197), job `140967391103`, including the exact live-production marker.
 
 August Run 28 Momo / Anansa / Fire Legacy was rechecked and is already integrated; no duplicate. August remains open with 27 file-level handoffs. Main HQ remains open with 47 file-level handoffs, base 15/16 reader-covered and Gabu Health Mafia source-blocked pending exact IDs/speaker chain and accessible raw HQ ZIP. Distinct accepted A/B remainder remains unknown / not certified / not zero. Club-Only 2021–2026, Club-Only 2020, and QOTD anti-starvation reviews found no new delta. No miner branch was merged and no consumed SHA advanced.
+
+
+## Run 109 — 2026-11-28 — BACKROOM Pass60 Moments side door / Ephxs–Ghoulie
+
+MAIN adds the missing side-door story to the existing Photoshoot event and folds Ephxs’s “Who has my ghoulie?” entrance into Ghoulie’s biography. WIKI keeps its existing structured Episode, adds Ghoulie to the cast, and adds Ephxs to searchable Cast with Ghoulie/Gilli relationships. Existing Ephxs, Reiinnaa, and BobaReii profile chronology was already present; no duplicate biography prose or duplicate Episode was created.
+
+MAIN commit `eca0d6f1eb49b2ede574f28fe8953e9f0f70d293` passed production build/deploy [46142706215](https://github.com/bossmugen/underlords/actions/runs/46142706215), including exact live-marker verification. WIKI commit / Pages build version `cd5c05c7640bd8cbefcddcda66e935eabfd6d034` passed Astro build [46142708313](https://github.com/bossmugen/underlords-wiki/actions/runs/46142708313) and Pages preview [46142708282](https://github.com/bossmugen/underlords-wiki/actions/runs/46142708282); 638 HTML files and 25,786 internal references passed audit.
+
+Pass60 receipts: `871220461395124304`, `871220484782567425`, `871220485453651979`, `879237597300408341`, `928732197270220860`, `887091618992242740`, `887271925544546344`, `891842910838988800`, `891843127713890355`, `895299124923080754`, `898155892124581929`, `898159542578319390`, `898159601067896893`. The three exact image binaries remain separately source-blocked; transmission method and unresolved identity/relationship edges remain backstage.
+
+Pass35 Ren/Tae reader debt is now verified on both current descendants. BACKROOM still has 59 of 60 file-level handoffs to reconcile; the 61-pass / 240-heading counts are not a distinct accepted A/B count. The family remains open and no miner consumed SHA advanced. Full report: [Run 109](integration-state/run-109-2026-11-28-backroom-moments-side-door.md).
