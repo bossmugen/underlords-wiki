@@ -79,7 +79,7 @@ export const integratedEpisodes: Episode[] = [
     season: "2020–2021",
     date: "December 10, 2020 – January 9, 2021",
     kind: "Photoshoot / contest launch / announcements",
-    logline: "On December 10 Mugen was already polling interest in a Dragon Raja photoshoot contest, hoping to open in January but willing to start sooner if enough people showed up (786703100148056065). By December 30 she was pointing everyone toward the rules and counting down five days to submissions (793921733169905694). Anthos supplied the sales pitch on January 4: 'Could you be the face of Underlords next poster?' (795646309440815114). Two days later he sent people back to the rules for judges, photo details and prizes (796494831949185034), and on January 9 called it 'our very first Photoshoot Contest' (797596292485742612). Mugs had floated a club activity; between them they gave it rules, a deadline, judges, prizes and a chance to become the next face on the wall. An August 23 sendoff photoshoot for Hishiro and Illien (747259861523365980, 747261485528383638) was an earlier social shoot, not a documented contest. The promised poster's eventual result is not established by these announcements.",
+    logline: "Before anyone was scoring photos, UL was already taking them. On August 23, 2020, Mugen called for a sendoff shoot for Hishiro and Illien. By December 10 she was polling the club about a Dragon Raja photoshoot contest; rules were being advertised by December 30. Anthos made the pitch personal on January 4 — “Could you be the face of Underlords next poster?” — then sent people back to the rules for the judges, photo details, and prizes. On January 9, she called it “our very first Photoshoot Contest.” A later credit roll gives Gilli the initial-concept credit; Mugen's poll and Anthos's public push were part of a larger crew effort. The habit was already there; the contest gave it a production line.",
     cast: ["Mugen", "Anthos", "Hishiro", "Illien"]
   },
   {
@@ -117,7 +117,7 @@ export const integratedEpisodes: Episode[] = [
     season: "2021",
     date: "January 31 – February 7, 2021",
     kind: "Photo Submissions / theme chronology / announcements",
-    logline: "The early February contest wasn't an unnamed mystery round: Anthos's February 5 reminder explicitly called it the Love Photoshoot Contest (807324522075652176), and Mugen's February 7 last-day announcement named the theme Love (807911063990566912). LEXI (805668415489835008), Laila (805686930972737556), Miihi (805842449753833482), ShiyaX (805735157038186536), Rummy (805824317862051890), Ren (805863441695899669), Cele (808039373513293834), and Nhou (808178746934034482) posted entries. LEXI, Laila and Miihi would also appear in Lonely and Flowers. LOVE is a verified contest title, not evidence of any contestant's romantic life; attachment posting does not establish who created, photographed or appeared in the images.",
+    logline: "The first February round was LOVE. Anthos called it the Love Photoshoot Contest in her February 5 reminder; Mugen repeated the theme in the February 7 last-day announcement. Eight people posted entries: LEXI, Laila, Miihi, ShiyaX, Rummy, Ren, Cele, and Nhou. LEXI, Laila, and Miihi came back for Lonely and Flowers, too. Three people kept showing up across all three early rounds.",
     cast: ["Anthos", "Mugen", "LEXI", "Laila", "Miihi", "ShiyaX", "Rummy", "Ren", "Cele", "Nhou"]
   },
   {
