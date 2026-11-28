@@ -191,3 +191,31 @@ The Photo Submissions miner HEAD and consumed SHA are both `d45d441feca0110e9495
 - Full census: 30 active miner refs (26 `archive-miner/*`, 4 `archive-miner-*`), 51 tracked branch records, 21 historical refs absent remotely, no newly discovered active branch. Five branches remain pending/backlog/overdue: Photo Submissions, QOTD Officers, August Reunion, Backroom, and Main HQ.
 - Reviewed this run: August Reunion Run27/28 handoffs; Main HQ 1645 candidate/findings/receipt delta; QOTD checkpoint/integration state; Club-Only 2021–2026 checkpoint; Club-Only 2020 checkpoint.
 - No miner branch was merged. No `last_consumed_sha` advanced: selected branch HEADs already equalled their consumed SHAs. The Main HQ and August publication families remain open.
+
+
+## Run 119 — 2026-11-28 — FAMILY schedule revision (Photo Submissions)
+
+**Source and reconciliation**
+
+- Primary branch: `archive-miner-photo-submissions-2021`, HEAD `d45d441feca0110e9495f49b13df9666982bb45c`; `last_consumed_sha` already equalled HEAD. No new miner delta was present.
+- Candidate files reviewed: `archive-intake/photo-submissions-2021-visual-contest-2026-08-19-1845-pdt/site-candidate-2026-08-25-0945-family-deadline-elasticity.md` and `site-candidate-2026-08-26-2110-schedule-revisions-crosscheck.md`.
+- Receipts: Gabu's FAMILY opening `907316247161614426`; Anthos's revised public schedule `910920971366588527`; the submission-room closure `911677800908472430`.
+- The later Announcements cross-check corrects the older “unexplained five-day overrun” framing: the public submission deadline had been revised from Nov. 15 to Nov. 19 by Nov. 18. The room's closure notice arrived Nov. 20 and still pointed to Nov. 22 results. The reason for the revision and the one-day closure gap remain unresolved.
+
+**WIKI reader change**
+
+- Added Episode `family-photoshoot-deadline-revision-2021` to `src/data/integrator-episodes.ts`.
+- The WIKI episode keeps the schedule/closure chronology searchable without copying MAIN's prose.
+
+**Cross-surface result**
+
+- MAIN already carries the reconciled STALKER and FAMILY schedule story in `src/lib/photo-submissions-overrides.ts`; no duplicate MAIN reader edit was made.
+- The MAIN reader blob is unchanged between current `master` and live production commit `173d2283cb94bec7e944072063c727676f8430ab`. Production run [46150967311](https://github.com/bossmugen/underlords/actions/runs/46150967311), job `140997305363`, passed the exact “Verify, build, deploy, and confirm live commit” step.
+- WIKI reader commit / exact Pages build version: `97918c598eaed85081e17c62f0fbe62848a5b39b`. Astro build [46153148752](https://github.com/bossmugen/underlords-wiki/actions/runs/46153148752), job `141003937724`, succeeded. GitHub Pages deploy [46153148706](https://github.com/bossmugen/underlords-wiki/actions/runs/46153148706), deploy job `141004049687` and report job `141004131525`, succeeded; the deploy log confirmed `pages_build_version` exactly matched the reader commit and published to https://bossmugen.github.io/underlords-wiki/.
+- Local checkout/build was unavailable because the runtime could not resolve GitHub; repository Actions performed the Astro build and Pages deployment successfully.
+
+**Anti-starvation review and remaining debt**
+
+- Also reviewed Backroom Pass 61 directly: checkpoint, site-candidates, findings, receipts, rabbit holes, people index, and incident index. Panda/Eos WALTZ and Candy WINTER are already represented on the current reader surfaces; no duplicate was added. War Room 2022–2023 remains source-blocked because the original `6 war room.zip` backing bytes are unavailable.
+- Full census: 30 active miner refs (26 `archive-miner/*`, 4 `archive-miner-*`), 51 tracked branch identities, 21 historical refs absent remotely, no newly discovered active branch. Five branches remain `review_overdue`: Photo Submissions, QOTD Officers, August Reunion, Backroom, and Main HQ.
+- Photo family remains open, not exhausted: 28/28 named candidate files classified; 34/34 cumulative headings mapped; 0 unrepresented file-level text-safe candidates; 2 aggregate handoffs still open; 3 source/provenance holds; 1 superseded candidate; distinct accepted A/B remainder still unknown / not certified / not zero. The original media and unsupported maker/captor/featured attributions remain blocked. No `last_consumed_sha` advanced.
