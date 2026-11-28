@@ -900,12 +900,12 @@ export const integratedEpisodes: Episode[] = [
   },
   {
     id: "rashta-hydration-escalation-2021",
-    title: "The Water Reminder Threatened Rashta. Anthos Drew the Line.",
+    title: "Gilli Turned Water Reminders Into a Protection Racket. Rashta Was Worse.",
     season: "2021",
-    date: "June 28 – July 11, 2021",
-    kind: "Running gag / hydration reminders / escalating threats",
-    logline: "Gilli's hydration announcements already threatened mock bodily harm. On June 28 she escalated: 'If you don't drink water you love Rashta' (859190571481300992). Anthos objected immediately: 'that is crossing a line' (859191285823176777), followed by an emote (859191367578026014). Gilli returned July 9 with 'Rashta is your best friend' (863132466789220363), then July 11 with 'RASHTA WILL BE IN YOUR DREAMS!!' (863888744805040138). The bit works because the group's stated threshold for outrage was apparently Rashta, not a threatened curb-stomp. The announcements do not identify Rashta's source or prove anyone's real feelings about a person of that name.",
-    cast: ["Gilli", "Anthos"]
+    date: "April 30 – September 12, 2021",
+    kind: "Announcements / recurring care ritual / mock enforcement",
+    logline: "Gilli's public reminder had become a recognizable genre by spring 2021. The April 30 post simply says 'DRINK WATER AND EAT SOMETHING' (837792995280945212); by May 4 the same instruction comes with a snack and a body-slam (839178611654393857), then 'DRINK WATER OR I'LL BURY YOU' (839317723020656690). The register keeps flipping: 'OR I'LL BE SAD' (842451326394564688), then 'REMEMBER THAT I ADORE YOU' (844262466363981874). Ren covers one shift with 'DRINK WATER OR I'LL COLLECT YOUR TOES' (845482022372769813). Gilli adds grounding (856639026085494854; 872556887948808202), a headlock (858522557874831400), and the familiar 'You know the drill' curb-stomp (859187267020390451). The only penalty that gets an immediate objection is the Rashta clause: 'If you don't drink water you love Rashta' (859190571481300992); Anthos answers 'that is crossing a line' (859191285823176777), and Gilli escalates it to best friend and dream guest (863132466789220363; 863888744805040138). On September 12, Ansun opens with 'YOU THOUGHT IT WAS GILLI BUT ITS ME ANSUN!!!' (886692241685487627). The imitation only works because the room already knows whose reminder voice it is. The threats are comic packaging; the instruction to eat and hydrate is the real point. Rashta's source remains unidentified.",
+    cast: ["Gilli", "Ren", "Anthos", "Ansun"]
   },
   {
     id: "wall-throwback-shames-2021-2022",
