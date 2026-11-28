@@ -937,10 +937,10 @@ export const integratedEpisodes: Episode[] = [
   {
     id: "noether-lobby-welcome-back-2021-2022",
     title: "Noether Kept Coming Back. Mugs Stopped Doing Introductions.",
-    season: "2021–2022",
-    date: "October 28, 2021 – January 13, 2022",
+    season: "2021–2023",
+    date: "October 28, 2021 – April 22, 2023",
     kind: "Lobby / repeat returns / familiar welcome",
-    logline: "Noether appeared at the Lobby in October 2021, then passed through again in December and January. The bot kept offering the same impersonal welcome; the humans had other ideas. Anayss greeted the December return with 'wb ❤️' (923732583190233198), and Mugen answered the January one with 'Welcome back noeee' (931279761689436180). By then the front desk was less an introduction than a reunion with someone they already knew. The repeated entry cards don't tell us why Noether had been away or when she first joined; the warm recognition is the point.",
+    logline: "Noether appeared at the Lobby in October 2021, then passed through again in December and January. The bot kept offering the same impersonal welcome; the humans had other ideas. Anayss greeted the December return with 'wb ❤️' (923732583190233198), and Mugen answered the January one with 'Welcome back noeee' (931279761689436180). On April 22, 2023, the same account received another Bouncer welcome asking for IGN, club, and age (1099379551714426890); this time no human 'back' reply follows. The four visible front-door resets span eighteen months, but the entry cards do not explain why the account was processed again or when Noether first joined. The warm recognition is the point.",
     cast: ["Noether", "Anayss", "Mugen"]
   },
   {
