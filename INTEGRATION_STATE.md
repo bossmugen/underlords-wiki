@@ -1,6 +1,6 @@
 # Underlords Wiki Integration State
 
-Latest detailed run: [Run 108 — 2026-11-28 — Main HQ Anayss coffee routine / Gabu relationship repair](run-108-2026-11-28-main-hq-anayss-coffee.md).
+Latest detailed run: [Run 120 — 2026-11-28 — BACKROOM Pass59 reader verification](integration-state/run-120-2026-11-28-backroom-pass59-verification.md).
 
 The Wiki is the structured reference companion to the main Underlords site. It owns Cast dossiers, Episodes, Relationships, Running Gags, Quotes, Locations, and Gallery/media notes; it does not mirror the main site's person-first narrative.
 
@@ -219,3 +219,18 @@ The Photo Submissions miner HEAD and consumed SHA are both `d45d441feca0110e9495
 - Also reviewed Backroom Pass 61 directly: checkpoint, site-candidates, findings, receipts, rabbit holes, people index, and incident index. Panda/Eos WALTZ and Candy WINTER are already represented on the current reader surfaces; no duplicate was added. War Room 2022–2023 remains source-blocked because the original `6 war room.zip` backing bytes are unavailable.
 - Full census: 30 active miner refs (26 `archive-miner/*`, 4 `archive-miner-*`), 51 tracked branch identities, 21 historical refs absent remotely, no newly discovered active branch. Five branches remain `review_overdue`: Photo Submissions, QOTD Officers, August Reunion, Backroom, and Main HQ.
 - Photo family remains open, not exhausted: 28/28 named candidate files classified; 34/34 cumulative headings mapped; 0 unrepresented file-level text-safe candidates; 2 aggregate handoffs still open; 3 source/provenance holds; 1 superseded candidate; distinct accepted A/B remainder still unknown / not certified / not zero. The original media and unsupported maker/captor/featured attributions remain blocked. No `last_consumed_sha` advanced.
+
+
+## Run 120 — 2026-11-28 — BACKROOM Pass59 reader verification
+
+BACKROOM `archive-miner/backroom-deals-2026-08-24` was read directly at HEAD `9c143a7c146af4fc90de4b258bee1c848a2818a0`; `last_consumed_sha` already equalled HEAD. The base `checkpoint.md` was read first, followed by the Pass59 checkpoint, site-candidates, findings, receipts, rabbit-holes, people-index, and incident-index handoffs.
+
+The Pass59 text-safe material is already reader-covered: the three-round Kahoot program and Ren's August spelling-code fiasco are in MAIN's event/history owners and WIKI Episode `ul-kahoot-2021-three-rounds`; Nelph's direct Lobby self-ID, second-Kahoot result, practical event reminders, and 2FA follow-through are on MAIN `/people/nelph` and WIKI Cast dossier `nelph`. `Nelphie` remains an alias. No duplicate Episode, Cast entry, or biography paragraph was added; WIKI reader paths changed: none.
+
+Pass59 source receipts: `850534904475418655`, `851168710680379422`, `864921845160214528`, `865313236172537866`, `873628678809088010`, `873686056938123284`, `873686072561926144`, `873686142720024686`, `874033999436189746`, `874034086434463774`, `788827631642345493`, `901635188013035520`, `912148868681056297`, `912585110304460851`, `912585981268480091`, `916135374592540682`.
+
+MAIN production run [46150967311](https://github.com/bossmugen/underlords/actions/runs/46150967311), job `140997305363`, succeeded with the exact live-production marker for commit `173d2283cb94bec7e944072063c727676f8430ab`; the relevant MAIN reader blobs are unchanged on current master. WIKI main / Pages build version `36745b2429e8efb3938a1c164999ea93b7d88400` passed Astro build [46153472512](https://github.com/bossmugen/underlords-wiki/actions/runs/46153472512) and Pages deploy [46153472481](https://github.com/bossmugen/underlords-wiki/actions/runs/46153472481); the deployment log confirms the exact `pages_build_version` and public URL.
+
+Pass60 Moments Submission Side Door / Ephxs–Ghoulie and Pass61 Panda/Eos WALTZ + Candy WINTER remain already integrated; no duplicate copy was added. June's top-four Kahoot result remains unexplained, July's three winners remain unranked, and the August redo has no result receipt. Poster/GIF media remain uninspected; no maker/captor/featured credit or Speeling Bee equivalence is inferred.
+
+BACKROOM remains open and `review_overdue` / `pending_reconciliation`. Its 61 numbered passes and 240 top-level headings are not a distinct accepted A/B count; remaining candidate count is **unknown / uncertified / not zero**. No consumed SHA advanced. Raw War Room 2022–2023 remains source-blocked pending accessible `6 war room.zip` bytes; officers-only Pass53/55 material remains withheld. Full report: [Run 120](integration-state/run-120-2026-11-28-backroom-pass59-verification.md).
