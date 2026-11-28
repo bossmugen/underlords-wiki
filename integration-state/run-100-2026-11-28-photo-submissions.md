@@ -58,3 +58,12 @@ Photo remains `review_overdue / pending_publication`. The WIKI reader repair doe
 ## Surface choice
 
 WIKI-only. MAIN already had the public narrative and claims; WIKI needed Cast/Episode indexing. No MAIN prose was copied.
+
+
+## Additional anti-starvation review: QOTD Officers
+
+Reviewed directly from `archive-miner-qotd-officers-20260824`, checkpoint first, then the latest 2026-09-06 13:43 handoff set: `site-candidates-2026-09-06-1343.md`, `findings-2026-09-06-1343.md`, `receipt-index-2026-09-06-1343.md`, `people-index-2026-09-06-1343.md`, `open-questions-2026-09-06-1343.md`, plus `manifest.md` and `integration-state.md`.
+
+- HEAD and `last_consumed_sha` both equal `c51cd1914f65cb8ae65b850b1d0da85ffccb94ed`; no branch delta.
+- The latest candidate set remains the DyingFox migration/care/handle/ordinary-life/Petty Crimes package, with prompt-cleanup and late empty-media-object holds already called out. No new safe publication was created in this anti-starvation check; the QOTD queue remains with its assigned owner.
+- No raw archive was re-mined and no consumed SHA advanced.
