@@ -1,10 +1,23 @@
 # Underlords Wiki Integration State
 
-Latest detailed run: [Run 101 — 2026-11-28 — BACKROOM Earl Grey Photoshoot planning Episode](integration-state/run-101-2026-11-28-backroom-earl-grey.md).
+Latest detailed run: [Run 104 — 2026-11-28 — Photo Submissions early-repeat Cast dossiers](integration-state/run-104-2026-11-28-photo-early-repeat-entrants.md).
 
 The Wiki is the structured reference companion to the main Underlords site. It owns Cast dossiers, Episodes, Relationships, Running Gags, Quotes, Locations, and Gallery/media notes; it does not mirror the main site's person-first narrative.
 
-## Run 101 — BACKROOM Earl Grey Photoshoot planning Episode
+## Run 104 — Photo Submissions early-repeat Cast dossiers
+
+The WIKI now has navigable guest Cast dossiers for LEXI, _-Laila-_, and Miihi, who were already named in the existing LOVE Episode but had no Cast routes. Laila's dossier now carries Gilli's exact `Welcome! One sec while I assign your roles hun` line and the 1.637-second gap after MEE6's welcome. The existing MAIN biographies already cover the same human story, so no MAIN prose was duplicated.
+
+Reader commit `297948baf2dcd3444563282748c9e7fae606dc67` passed Astro build [46134475353](https://github.com/bossmugen/underlords-wiki/actions/runs/46134475353), job `140946595788`. The built output includes `/characters/lexi`, `/characters/laila`, and `/characters/miihi`; the built-site audit passed 636 HTML files and 25,701 internal references. Exact-commit statuses `wiki-build` and `wiki-preview` both succeeded; `wiki-preview` is posted only after the Pages build and deployment succeed. Live WIKI: https://bossmugen.github.io/underlords-wiki/
+
+MAIN already covers the person-first versions in `src/content/people/lexi.md`, `src/content/people/laila.md`, and `src/content/people/miihi.md`. No MAIN reader file changed. No image binary was inspected or published; POSTED BY remains separate from MADE BY / CAPTURED BY / FEATURING.
+
+Photo Submissions remains `pending_publication / review_overdue`: 28/28 named files classified, 34/34 cumulative headings mapped, 0 unclassified individual candidate files, 2 cumulative handoffs open, and distinct accepted A/B remainder unknown / not certified / not zero. The January winner-to-poster bridge, missing reply parents, uninspected original media, audience/visibility, unsupported credits, richer Type-X context, and Mërcy identity/context remain held.
+
+Run 104 census: 30 active miner refs (26 `archive-miner/*`, 4 `archive-miner-*`), 51 tracked entries, 21 historical refs absent remotely, 0 new branches. Five families remain review-overdue: Photo Submissions, QOTD Officers, August Reunion, BACKROOM, and Main HQ. Checkpoint-first reviews covered Photo Submissions, Club-Only 2021–2026, Club-Only 2020, and QOTD Officers. All four branch HEADs equaled their last consumed SHAs; no miner cursor advanced. Club-Only 2021–2026 remains access-limited for later target-room retrieval; Club-Only 2020 Danny/Carlene/B-chan profile work remains with its assigned publication owner; Feli↔Mugs remains unresolved.
+
+## Previous detailed run — Run 101
+ — BACKROOM Earl Grey Photoshoot planning Episode
 
 The WIKI now indexes the August 26, 2021 Mugen–Anthos planning scene as Episode `mugen-earl-grey-photoshoot-idea-burst-2021` in `src/data/integrator-episodes.ts`. Source handoffs: BACKROOM branch `archive-miner/backroom-deals-2026-08-24`, cumulative `findings.md` section “A — Aug 26 2021: Mugen's two-pot Earl Grey idea burst” and `receipts.md` section “Two pots of Earl Grey”; receipts `880377260564168714`, `880383286529126400`, `880383366367698964`, `880383379227426856`, `880383409665507388`, `880383414967083069`.
 
