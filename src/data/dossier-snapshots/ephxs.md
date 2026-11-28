@@ -30,6 +30,7 @@ antiFanon:
   - "Do not infer Ephxs's historical Discord role from export-time role arrays."
 relatedPeople:
   - "baby-lyssa"
+  - "gilli"
 tags:
   - "lobby"
   - "photo-submissions"
@@ -49,3 +50,6 @@ The Lobby bot wanted an IGN, club and age. Ephxs had a more pressing question: *
 ## Relationships
 
 **Ghoulie:** Ephxs asked for **`my ghoulie`** before even finishing the Lobby check-in. Gilli's instant answer suggests the question made perfect sense to the people already in the room.
+
+
+**Gilli:** Gilli understood the Ghoulie question immediately, posted the named Moments entry, and later welcomed Ephxs back without asking them to start the introduction over.

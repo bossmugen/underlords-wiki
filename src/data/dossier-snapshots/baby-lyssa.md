@@ -47,6 +47,12 @@ claims:
       - label: "Wall · 862419333966987274"
         href: "/channels/wall"
     note: "One joking characterization of the witness/capture gap, not a broader relationship claim or a stable personality profile for Eos."
+  - text: "On July 31, 2021, Ephxs entered the Lobby from Ethereal and asked `Who has my ghoulie?👀` before answering Gilli's club question; Gilli replied `Oh we do LMAOO`."
+    evidence: "archive-confirmed"
+    date: "2021-07-31"
+    sources:
+      - label: "Backroom Pass 60 · Lobby · 871220461395124304 / 871220484782567425"
+        href: "/channels/lobby"
 antiFanon:
   - "Ghoulie's joking claims to own Daycare or the Wall are social-territory language, not technical ownership, moderation permission, channel administration, or a formal role."
   - "The June 2 Daycare tag proves Baby Lyssa tried to redirect/summon xanthos there; it does not prove he complied or entered the room."
@@ -61,6 +67,7 @@ relatedPeople:
   - "shiyax"
   - "ren"
   - "tae"
+  - "ephxs"
 tags:
   - "archive-cast"
   - "daycare"
@@ -116,6 +123,11 @@ By April 22, Ghoulie was asking **`why am i always here`** and Tae answered **`G
 
 Ghoulie is not just the repeat defendant in this story. She names the place, takes the challenge, complains when the room moves too fast, and comes back anyway.
 
+## Somebody came looking for her
+
+On July 31, 2021, Ephxs arrived from Ethereal and asked Gilli **`Who has my ghoulie?👀`** before answering the club question. Gilli replied **`Oh we do LMAOO`**, then took the **`Ethereal`** answer. The question got understood immediately; Ghoulie was already somebody a visitor came into the Lobby looking for, not just a name people dropped into the Wall.
+
+Gilli later posted **`Photo Moments Submission: Ephxs`** and welcomed the same account back in January 2022. The exact relationship label stays offstage. The familiarity does not.
 ## Quotes
 
 | Date | Speaker | Quote | Context |
