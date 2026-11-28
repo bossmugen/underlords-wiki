@@ -154,3 +154,40 @@ WIKI reader commit / exact Pages build version: `156399ca7a9f6bffe05f7aafada1479
 MAIN reader source was unchanged. Its latest verified production reader commit remains `c98624dc9fe26d68f39676d71523fbe44a15be34`, production run [46134037097](https://github.com/bossmugen/underlords/actions/runs/46134037097), job `140945260132`, with the exact live production marker matched.
 
 The Photo Submissions miner HEAD and consumed SHA are both `d45d441feca0110e9495f49b13df9666982bb45c`; no cursor advanced. The family remains open: 28/28 named candidate files classified, 34/34 cumulative headings mapped, 2 cumulative handoffs open, 3 source/provenance holds, 1 superseded, and distinct accepted A/B remainder unknown / not certified / not zero. No miner branch was merged.
+
+
+## Run 116 — 2026-11-28 — Zhēnxī: Lobby intake → Wall speedrun
+
+**Source / reconciliation**
+
+- Primary assigned handoff: `archive-miner/main-hq-hourly` at `e172df0641d6fa9c9d47a2bec6ff40c1aee0fb3c`.
+- Candidate: `archive-intake/main-hq-2022-2026-tail-20260819/site-candidates-2026-08-25-1645.md#Zhēnxī intake-to-Wall speedrun`.
+- Supporting handoffs: `hourly-findings-2026-08-25-1645.md`, `receipt-delta-2026-08-25-1645.md`, and `open-questions.md`.
+- Receipts: Lobby `845549948506472468`, `845550058569072671`, `845550095118106655`, `845550152210448414`, `845550309941444668`, `845550326572646450`; Wall `845551682191884339`, `845551707634139136`, `845551777184612382`, `845553640622391316`, `845553735748419664`.
+- The underlying scene is from Lobby and Wall, not Main HQ. The Main HQ miner handoff is the intake path only.
+
+**WIKI reader changes**
+
+- Added Cast dossier `src/data/dossier-snapshots/zhenxi.md`.
+- Added Cast registration `src/data/cast-run1619-zhenxi.ts` and imported/applied it in `src/data/cast.ts`.
+- Added Episode `zhenxi-lobby-to-wall-speedrun-2021` in `src/data/integrator-episodes.ts`.
+- The dossier is person-first: small trust-based circle, polite-insult preference, Rummy as an explicit close friend, Ren's Lobby handoff and later Wall target, and the July 2022 return-fire. Platelet status is carried as user-confirmed canon. No similar-name identity merge is made.
+
+**Cross-surface result**
+
+- MAIN already had the later Wall response; its existing Zhēnxī section was expanded with the Lobby welcome, Ren's tour handoff, `I am scare`, and the 6m53s welcome-to-tag interval. The room's “within 6 minutes” and “New record?” remain jokes, not a stopwatch record.
+- MAIN reader commit: `91832845de494b7c8e1b09f51f5cdf39d71e8640`. Production build/deploy [46150446259](https://github.com/bossmugen/underlords/actions/runs/46150446259), job `140995700414`, succeeded; Cloudflare confirmed the exact live production marker for this commit.
+- WIKI reader commit: `70e258d65a64c1f3b67e8adc93612ed489124579`. Astro build [46150673971](https://github.com/bossmugen/underlords-wiki/actions/runs/46150673971), job `140996420997`, succeeded. Pages deploy [46150673939](https://github.com/bossmugen/underlords-wiki/actions/runs/46150673939), deploy job `140996516025`, succeeded with exact `pages_build_version` `70e258d65a64c1f3b67e8adc93612ed489124579`; published URL: https://bossmugen.github.io/underlords-wiki/.
+
+**Dedupe and holds**
+
+- August Run27 candidates Persephone, SaraBunny, and Seth were already represented on both readers; Run28 Momo / Anansa / Fire Legacy was also already represented. No duplicate prose was added.
+- The earlier Ren image post (`image0.png`, attachment `845549197867876414`) remains uninspected and has no stored reply edge to the later Zhēnxī tag. No image description, preloaded-evidence claim, or maker/capturer/featured attribution was published.
+- Main HQ Gabu Health Mafia remains blocked pending exact receipt IDs/speaker chain and accessible raw HQ ZIP. August Gilli image and Pebble identity holds remain separate.
+- August still has 27 file-level handoffs; Main HQ still has 47. Distinct accepted A/B remainder for both families remains unknown / not certified / not zero. No family is marked exhausted.
+
+**Branch state**
+
+- Full census: 30 active miner refs (26 `archive-miner/*`, 4 `archive-miner-*`), 51 tracked branch records, 21 historical refs absent remotely, no newly discovered active branch. Five branches remain pending/backlog/overdue: Photo Submissions, QOTD Officers, August Reunion, Backroom, and Main HQ.
+- Reviewed this run: August Reunion Run27/28 handoffs; Main HQ 1645 candidate/findings/receipt delta; QOTD checkpoint/integration state; Club-Only 2021–2026 checkpoint; Club-Only 2020 checkpoint.
+- No miner branch was merged. No `last_consumed_sha` advanced: selected branch HEADs already equalled their consumed SHAs. The Main HQ and August publication families remain open.
