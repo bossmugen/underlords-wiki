@@ -913,8 +913,8 @@ export const integratedEpisodes: Episode[] = [
     season: "2021–2022",
     date: "March 13, 2021 – February 24, 2022",
     kind: "Wall / retrospective shames / screenshot habit",
-    logline: "Woohyuk asked whether they were doing 'throwback shames' and followed it with an attachment. Less than a year later Key came back specifically to count how often she appeared on the Wall, unsure whether Mugs's screenshot labor should make her ashamed or impressed. Somebody answered by calling it a wall of fame. The later reunion's archaeological shame-hunting had a much older, already self-aware habit behind it.",
-    cast: ["Woohyuk", "Key", "Mugen"]
+    logline: "Woohyuk asked whether they were doing 'throwback shames' and followed it with an attachment. Less than a year later Key came back specifically to count how often he appeared on the Wall, noting that Mugs was working hard on the screenshots and admitting he could not decide whether to be ashamed or impressed. A pooled Deleted User tried to rebrand the place as the Wall of Fame; later Gilli replied directly to Key with 'OG wall of shamer here uwu'. The subjects had started auditing their own archive careers, while one of the people feeding the Wall was claiming veteran status. Mugen's nearby 'Litrally started it ^' still has no safely recovered antecedent, so it is not used as an origin claim.",
+    cast: ["Woohyuk", "Key", "Mugen", "Gilli"]
   },
   {
     id: "bubbles-drunko-lobby-intake-2022",
