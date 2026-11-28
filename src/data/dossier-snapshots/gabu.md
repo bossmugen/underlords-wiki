@@ -125,6 +125,13 @@ claims:
       - label: "BACKROOM Pass 2 · Photo Submissions late-entry / bot-servants handoff · 874455187438325770 / 876575613429895208 / 876575752756293664 / 881725614728544276"
         href: "/events/photo-submissions"
     note: "Gabu suggested and maintained reminders; this does not establish that she programmed Saber or held a separate formal Photoshoot office."
+  - text: "On January 21, 2021, Gabu noticed the weekly Saber event `ic3gk1` was still called `Barrels` after the game activity changed, then renamed the same object `Broken Contests`; Zoshaa and Anayss were still mourning the old name by July."
+    evidence: "archive-confirmed"
+    date: "2021-01-21 – 2021-07-04"
+    sources:
+      - label: "Backroom Pass 04 · Saber Control / Wall · 801989422614315059 / 802000221223518269 / 802000222199742504 / 861309700079616050 / 861309851070365706"
+    note: "The stable object ID carries the lineage. Nobody preserved the reason for the `Broken` rename; the nearby January 8 bug notice is not treated as its cause."
+
 antiFanon:
   - "Gabu is a woman. Use she/her consistently. Earlier assistant he/him wording is non-canon."
   - "Brazilian, ethnically Japanese, taiko, and coding-professional background are user-confirmed; do not infer additional nationality/citizenship, employer, exact technical specialty, or Japanese language fluency without receipts."

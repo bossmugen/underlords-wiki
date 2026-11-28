@@ -1019,6 +1019,15 @@ export const integratedEpisodes: Episode[] = [
     logline: "Snow was trying to get a weekly Saturday Dragon Raja event onto the calendar, and naturally called it 'Spank Mugs Booty'. Saber accepted the assignment as event m1k2w9 (757993679255240704; 757993679792111766). October 17 and 24, 2020 Saber/Sota announcements connect the recurring event to Defend Boss, not a literal spanking session. Sye and Gabu later handled the same scheduled object, and its ridiculous name survived into 2025 bot announcements (772903199639601152; 837109365457682432; 952194192162033685; 1355719467455479971). The funny part is the maintenance: a throwaway joke became infrastructure that other people had to keep running. Snow created the schedule; later maintenance is not automatically his work.",
     cast: ["Snow", "Mugen", "Sye", "Gabu", "Sota"]
   },
+  {
+    id: "barrels-became-broken-contests-2020-2025",
+    title: "The Barrels Were Gone. The Bot Wasn't.",
+    season: "2020–2025",
+    date: "May 14, 2020 – July 17, 2025",
+    kind: "Saber Control / recurring event / bot-object rename",
+    logline: "On May 14, 2020, an Announcements post told UL to `Collect barrels!!!` during the cross-server contest (710670445157941249). Snow later put `Barrels` on the weekly Thursday Saber calendar; Saber assigned it event ID `ic3gk1` on September 22 (758005502767661078, 758005503531024434). By January 21, 2021, the game had moved on but the bot still hadn't: Gabu noticed `its not barrels anymore...` and edited that same object to `Broken Contests` (801989422614315059, 802000221223518269, 802000222199742504). The old name kept a little afterlife on the Wall: Zoshaa posted `Rip barrels`, and Anayss answered `I miss barrels even more` (861309700079616050, 861309851070365706). `Broken Contests` kept firing in Announcements through 2025 (1220547850082058331, 1220550198930178118, 1349920020074856510, 1349922524808351805, 1395580924774711317, 1395583394955661425). In April 2023, Gabu's `Gabu's alerts check` still had the event on the weekday test sheet while she considered replacing Saber with Carl (1097737951720513546). Nobody ever explained why `Broken` stuck; the nearby January 8 bug notice doesn't settle it.",
+    cast: ["Snow", "Gabu", "Zoshaa", "Anayss"]
+  },
 
   {
     id: "fish-revolution-fishjail-2021",
