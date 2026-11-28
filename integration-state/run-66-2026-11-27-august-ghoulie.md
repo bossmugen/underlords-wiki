@@ -32,3 +32,10 @@ The Cast dossier now records Ghoulie's quote-channel demand, the `wanna bet?` / 
 - August still has 27 known file-level handoffs and an unknown / uncertified distinct accepted A/B remainder. Main HQ still has 47 known file-level handoffs and an unknown / uncertified A/B remainder. Neither family is closed.
 - No miner branch was merged. No consumed SHA advanced; all reviewed branch HEADs equal their existing consumed SHAs.
 
+
+
+## Recovery continuity — Club-Only
+
+- `archive-miner/club-only-2021-2026-hourly` at HEAD / `last_consumed_sha` `e45fb11c9239e236231bb65645dfd0285bc0078b`: checkpoint read first, then `findings.md`, `deep-mining-findings.md`, `deep-mining-receipts.md`, `rabbit-holes.md`, `site-candidates.md`, `people.md`, `timeline.md`, `open-questions.md`, `receipt-index.md`, and `integration-state.md`. The core A/B material is already represented on MAIN/WIKI. The checkpoint remains at Run043 / Aug. 26; later target-room retrieval is still locality-biased to 2020. No new delta, no raw archive re-mined, no consumed-SHA advance.
+- `archive-miner-clubonly-2020-hourly` at HEAD / `last_consumed_sha` `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`: checkpoint read first, then the 2026-08-27 00:46 findings, receipts, rabbit-holes, people, site-candidates, and integration state. Danny, Carlene, and B-chan remain thin-profile candidates with their existing publication owner; Feli↔Mugs Tumbleweed remains unresolved. No new delta, no raw archive re-mined, no consumed-SHA advance.
+
