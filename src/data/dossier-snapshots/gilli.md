@@ -214,6 +214,13 @@ claims:
         href: "/channels/qotd"
     note: "Dates and wording are preserved in the people-index handoff; individual message IDs were not supplied."
 
+  - text: "On August 9, 2021, after a late Photoshoot entry exposed that submissions had not been formally closed, Gilli answered Gabu's suggestion of a Saber reminder with `I forget we have bot servants`."
+    evidence: "archive-confirmed"
+    date: "2021-08-09"
+    sources:
+      - label: "BACKROOM Pass 2 · Photo Submissions deadline discussion · 874455187438325770"
+        href: "/events/photo-submissions"
+    note: "A joke in a deadline-and-fairness discussion; Gilli's line is not evidence that she operated or programmed Saber."
 antiFanon:
   - "Photo Submissions rules enforcement and onboarding are archive-observable behavior, not evidence of separate unconfirmed job titles."
   - "Near-identical mature Lobby safety-packet wording appears under multiple members. Gilli delivering it proves onboarding work; it does not prove the wording, policy, or template was uniquely hers."
@@ -267,7 +274,9 @@ The pattern is already there. Raja is the setting; the people are becoming the r
 
 Through 2021, Gilli is repeatedly visible in the work that keeps UL's recurring programs usable. She closes Photo Submissions rounds, moves them toward results and the next theme, and enforces the Mafia-theme requirement that uncropped names remain visible.
 
-Before Colors even opened in April, she was among the people posting example images alongside Ansun, Anayss, and Ren. And when Cookie got tangled in the photo editor's automatic crop and the outside-editing rule later that month, Gilli's correction came with `hun lol`. She could insist on the rule without turning a friend's botched picture into a disciplinary hearing. The same woman who kept the contest moving also helped make it possible to enter. In Lobby she assigns roles and routes newcomers through Biodata, rules, and the Tour.
+Before Colors even opened in April, she was among the people posting example images alongside Ansun, Anayss, and Ren. And when Cookie got tangled in the photo editor's automatic crop and the outside-editing rule later that month, Gilli's correction came with `hun lol`. She could insist on the rule without turning a friend's botched picture into a disciplinary hearing. August 9 gave her one of the best lines in the Photoshoot run. A late entry arrived because submissions had not been formally closed; while the officers worked through timezones and fairness, Gabu suggested asking Saber to remind them. Gilli answered **`I forget we have bot servants.`** She could be the person insisting the rules be fair and the person puncturing the room for forgetting its own tools.
+
+The same woman who kept the contest moving also helped make it possible to enter. In Lobby she assigns roles and routes newcomers through Biodata, rules, and the Tour.
 
 Her care language runs alongside the procedure. She points Gabu's own hydration identity back at her—**`DRINK WATER AND EAT SOMETHING`**, later **`I DONT CARE IF IT'S LATE, DRINK WATER !`**—and December QOTD prompts arrive paired with reminders to eat and smile. One of those caring introductions immediately led into a choice between permanently tangled hair and permanently wet underarms. Apparently the same woman could check whether everybody had eaten and then make them contemplate a lifetime of damp armpits. On New Year's Day 2022, Gilli's own goal is surprisingly small: **`I plan to try to make at least one more friend.`**
 
