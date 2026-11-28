@@ -23,13 +23,15 @@ claims:
     sources:
       - label: "Main HQ site-candidates-2026-08-26-0745.md · receipt 888933641521070082"
     note: "The parenthesis is event hospitality humor; no actual milk service or formal Platelet policy is inferred."
-  - text: "Across April–September 2021, Gilli repeatedly tagged Spicy Hotpot into Wall posts. Spicy joked that Gilli had probably put them there ages ago; about 66 seconds after Gilli posted a September screen recording, Spicy sent 28 Gilli mentions. The messages do not carry a stored reply edge proving retaliation."
+  - text: "Spicy Hotpot is the same stable Discord account Gilli greeted as Josh in Lobby; the account self-identified as Joshx. In September 2021, Spicy true-replied `I knew it` to Gilli's April Wall screenshot, then sent 28 mentions of Gilli about 66 seconds after a September screen recording."
     evidence: "archive-confirmed"
-    date: "2021-04-14 – 2021-09-18"
+    date: "2020-11-26 – 2021-09-18"
     sources:
-      - label: "Main HQ site-candidates-2026-08-25-0545.md · Wall receipts 832127093286502400, 832127117155893269, 885376581143519263, 889015818749366282, 889016098341666816"
+      - label: "Lobby · 781708362853122048 / 781708468561379328"
+        href: "/channels/lobby"
+      - label: "Wall · 832127093286502400 / 885376581143519263 / 885376660394881024 / 889015818749366282 / 889016098341666816"
         href: "/channels/wall"
-    note: "Gilli posted the screenshot and screen recording, but their contents, makers and capturers remain unverified. The 28 pings are temporally adjacent, not proven revenge. No romance or family inference."
+    note: "Stable account 186245940699463680 bridges Spicy Hotpot to Joshx/Josh. The September `I knew it` is a true reply to the April screenshot. The 28 mentions are temporally adjacent to the screen recording, not a stored reply; both Gilli attachments remain uninspected and are POSTED BY only. No romance or family inference."
   - text: "On May 22, 2021, Gilli's food-and-water reminder threatened that Spicy Hotpot would ground anyone who did not eat and hydrate."
     evidence: "archive-confirmed"
     date: "2021-05-22"
@@ -292,7 +294,7 @@ Gilli's March 2022 love-language answer separates what she gives from what she w
 
 ## Spicy Hotpot and the Notification Avalanche
 
-Gilli did not need a new reason to summon Spicy Hotpot to the Wall. In April 2021 she posted a screenshot and tagged Spicy; by September, Spicy's defense was basically that Gilli had probably filed them there ages ago. Ten days later Gilli posted a screen recording. Sixty-six seconds afterward, Spicy sent **28 mentions of Gilli** in one message. Nobody preserved a reply link proving it was revenge, but the timing is a remarkably loud coincidence. Gilli joined the Fat-Wheezing rather than pretending her notifications had been treated with dignity.
+Lobby gives the handle a history before the Wall: Gilli greeted the same stable account **`HI JOSH!`**, and it answered **`I'm Joshx, I'm not from your server, but I fanboy for Kinou`**. When Gilli tagged Spicy under an April 2021 screenshot, the old post did not disappear. Five months later Spicy answered Gilli's **`is this Josh first time on wall?`** with **`Nah, you probably put me here ages ago`**, then replied **`I knew it`** directly to the April screenshot itself. The defendant had kept the exhibit. Ten days later Gilli posted a screen recording; sixty-six seconds afterward Spicy sent **28 mentions of Gilli** in one message. Gilli joined the Fat-Wheezing. The 28 mentions are not linked by a reply edge to the recording, so this is notification warfare with suspicious timing, not proven revenge.
 
 She also borrowed Spicy as imaginary enforcement staff. A May announcement told everyone to drink water and eat or Spicy would ground them. Gilli's actual recurring work was keeping people fed and keeping the room running; the method occasionally involved recruiting a friend into a disciplinary threat they had not necessarily agreed to. That is a relationship with a working comic rhythm, not a new official job title.
 
