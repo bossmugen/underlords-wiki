@@ -19,6 +19,13 @@ claims:
   - text: "On January 13, 2022, another generic Bouncer welcome is answered by Mugen with `Welcome back noeee`, a second independent human-return receipt. The familiar greeting does not establish a first-join date or a closeness ranking."
     evidence: "archive-confirmed"
     date: "2022-01-13"
+  - text: "On April 22, 2023, MEE6's Underlords Stripclub Bouncer again greeted the same Noether account and requested IGN, club, and age for role assignment."
+    evidence: "archive-confirmed"
+    date: "2023-04-22"
+    sources:
+      - label: "Lobby · Underlords Stripclub Bouncer · 2023-04-22 · 1099379551714426890"
+        href: "/channels/lobby"
+    note: "Fourth visible front-door reset in the 2021–2023 sequence. No human return response accompanies this one; the repeated prompt does not establish why the account was processed again. The attached card is not described."
   - text: "On November 2, 2021, Anayss posts the Wall premise `Unsugar hami`; Noether's same-day authored run includes long laughter (`Ahhaahahahahahahahaah` / `Hajajajajhahhahah`), `50 gold`, and later `Unsugar hamihami`."
     evidence: "archive-confirmed"
     date: "2021-11-02"
@@ -116,7 +123,7 @@ In July 2022, Anayss announced that she'd finally met Noether in person, and tha
 
 ## Familiar Faces, Terrible Paperwork
 
-The automated Lobby greetings were less emotionally intelligent than the humans. Noether's account was greeted more than once, while Anayss responded with `wb ❤️` and Mugen with `Welcome back noeee`. The bot treated the moment as another introduction; the people recognized the person who had come back.
+The automated Lobby greetings were less emotionally intelligent than the humans. Noether's account was greeted more than once, while Anayss responded with `wb ❤️` and Mugen with `Welcome back noeee`. The bot treated the moment as another introduction; the people recognized the person who had come back. On April 22, 2023, the Bouncer asked the same account for IGN, club, and age again. This time no human `back` response is attached. The repeated intake is visible; its cause is not.
 
 Noether's warmth could be tiny as well as theatrical. In a later Wall exchange she posted a Cheer sticker and wrote `He said plz so cute` with a heart. Who the `he` was isn't clear, but the reaction is unmistakably hers: the same woman who could condemn a friend with one word could be delighted by somebody saying please.
 
