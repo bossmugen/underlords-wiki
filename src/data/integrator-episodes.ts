@@ -434,10 +434,10 @@ export const integratedEpisodes: Episode[] = [
     id: "full-on-disbanding-announcement-2025",
     title: "Sye Had to Say the Part Nobody Wanted to Hear",
     season: "2025",
-    date: "July 1, 2025",
-    kind: "Dragon Raja / public disbanding announcement",
-    logline: "At 11:16 a.m. PDT on July 1, 2025, Sye delivered the public decision in Club Only: `UL will not be merging. This is a full on disbanding of the club.` The announcement gave members through the end of July to make amends and made the distinction plain: Discord was staying; only the in-game club was shutting down. Mugen later answered with an affectionate kiss GIF. July 1 dates the public announcement, not the final mechanical shutdown; the Discord friendships and the Dragon Raja club were not the same thing.",
-    cast: ["Sye", "Mugen"]
+    date: "July 1–3, 2025",
+    kind: "Dragon Raja / public disbanding announcement and aftermath",
+    logline: "At 11:16 a.m. PDT on July 1, 2025, Sye delivered the public decision in Club Only: `UL will not be merging. This is a full on disbanding of the club.` The announcement gave members through the end of July to make amends and made the distinction plain: Discord was staying; only the in-game club was shutting down. The next day Dean wrote `I miss all of u` (1390122898029613148), and Ren answered `DEAN BEAN` (1390132618357215262). On July 3, Gabu said she would log in that weekend (1390547681876148227). The ending belongs to the Raja club; the people still had somewhere to find each other.",
+    cast: ["Sye", "Dean", "Ren", "Gabu"]
   },
   {
     id: "akane-qinmu-waltz-partners-2021",
