@@ -38,6 +38,7 @@ export function applyRun1612BackroomRenTae(characters: Character[]): void {
   };
   characters[taeIndex] = {
     ...tae,
+    aliases: [...new Set([...(tae.aliases ?? []), "homethey_"])],
     relationships: taeRelationships,
     tags: [...new Set([...(tae.tags ?? []), "Wall", "Friendship"])],
     quotes: [...new Set([...(tae.quotes ?? []), "POST ALL IT YOU WONT"])],
