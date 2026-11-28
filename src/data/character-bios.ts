@@ -29,7 +29,7 @@ export const characterBios: Record<string, CharacterBio> = {
       }
     ],
     characterNotes:[
-      {title:"Plutonian",text:"Mugen's Plutonian self-branding is an established house quirk, not a one-off adjective."},
+      {title:"Plutonian",text:"Mugen's Plutonian self-mythology escaped her own announcements: in a January 11, 2024 birthday exchange, Sye called her `AMAZONG SWEET PLUTONIAN`. The label had become affectionate peer-language, not just Mugen's own signature."},
       {title:"Real Leather Papa",text:"A recurring Mugen signature whose visible archive uses reach at least into 2023. The ultimate origin remains open; the attribution to Mugen does not."},
       {title:"Boss status: probably asleep",text:"Across rooms and years, the house repeatedly catches Mugen asleep, napping, or filing herself as 'lying ded on floor after work.' It works as a running character bit, not a medical claim."},
       {title:"Archive gravity",text:"The Wall, screenshots, reunion archaeology, and the later website all keep pulling Mugen into the same role: not sole archivist, but a recurring force that makes UL save itself."
