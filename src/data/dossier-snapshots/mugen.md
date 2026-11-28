@@ -241,6 +241,22 @@ claims:
     note: "The August and November posts include attachments that have not been visually inspected. This claim covers the captions and Ren’s text reply only. March 28 is the earliest recovered instance in this bounded search, not necessarily the phrase’s origin."
 
 
+  - text: "On August 14, 2026, Xephy's return began before the QOTD retrieval burst: Mugen accepted her friend request at 8:35 AM, Xephy introduced herself at 9:10 AM as someone from Underlords in the Dragon Raja days, and Mugen replied at 11:31 AM; QOTD only afterward announced `I GOT XEPHY` / `XEPHY JUST DMED ME AFTER 6 YEARS`."
+    evidence: "archive-confirmed"
+    date: "2026-08-14"
+    sources:
+      - label: "QOTD · Xephy return DM screenshot · 1537893209739366430"
+      - label: "QOTD · retrieval burst · 1537892694867583108 / 1537892742938763275"
+    note: "User-confirmed WhitePhoenyx = Xephy and WhitePhoenyx ≠ WolfPhenix. Screenshot-visible username `wagyuczili` has no stable Discord ID here. QOTD folded a spontaneous same-day return into the raid; it did not demonstrably cause the return."
+  - text: "During the August 14, 2026 retrieval run, Mugen sent Nobu a prone/sliding-man reaction still at 11:43 AM and sent Anthos a visually matching frame at 12:21 PM, immediately before the clown summons and invite."
+    evidence: "archive-confirmed"
+    date: "2026-08-14"
+    sources:
+      - label: "QOTD · Ren's slide-to-DMs line · 1537894329438445679"
+      - label: "QOTD · Nobu DM screenshot · 1537894660113178644"
+      - label: "August Reunion · Anthos DM screenshot · Screenshot_20260814_122309_Discord-639427c8d08d83f6.jpg"
+    note: "The stills are visually matching, but the underlying GIF/embed metadata is absent. Mugen is SENT BY; do not claim binary identity or identify the featured person, maker, or capturer."
+
 relatedPeople:
   - "dean"
   - "key"
@@ -571,6 +587,8 @@ The game keeps trying to end relationships that the room has already moved somew
 Mugen does not seem especially interested in granting the game custody.
 
 The same instinct gets louder in 2026 when people start actually returning. She tags old names. Xephy answers after six years. Mugen posts the return DMs. The room starts digging for more people.
+
+Xephy was already at the door before QOTD started shouting. Mugen accepted her friend request at 8:35 AM; at 9:10 Xephy wrote **`Mugsss it's Xephy from Underlords back in Dragon Raja days`**. Mugs answered at 11:31 with **`I remember you!`** and a six-year estimate. Only afterward did QOTD announce **`I GOT XEPHY`** / **`XEPHY JUST DMED ME AFTER 6 YEARS`**. The raid did not summon this return. It noticed one already happening and folded it into the circus.
 
 `WHO ELSE WE DRAGGIN BACK TO THE CIRCUS TENT`
 
