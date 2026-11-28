@@ -11,6 +11,15 @@ export const integratedEpisodes: Episode[] = [
     cast: ["Mugen", "Anthos", "Gilli", "Ansun"]
   },
   {
+    id: "mugen-earl-grey-photoshoot-idea-burst-2021",
+    title: "Two Pots of Earl Grey and One Very Wrong Chat.",
+    season: "2021",
+    date: "August 26, 2021",
+    kind: "Photoshoot / creative planning / Mugen–Anthos collaboration",
+    logline: "At 2 a.m., Mugen wants to turn Dragon Raja's unused text boxes into a Photoshoot theme built around dumb pickup lines, then blames the idea flood on `two pots of earl grey` (880377260564168714). She promptly loses her second idea, retrieves it as an unrestricted recruitment-poster theme, and Anthos posts a `Theme tally` listing `Pick-up lines` and `Recruitment` (880383286529126400). Mugen asks `HOW TO READ` (880383366367698964); Anthos cannot enlarge the attachment and answers `DONUT ASK MEH` (880383379227426856, 880383409665507388). Mugen's exit line is `o wait wrong chat` (880383414967083069). The ideas make it into a usable list while the two people handling them are also fighting the interface and the planner's working memory.",
+    cast: ["Mugen", "Anthos"]
+  },
+  {
     id: "suzi-voice-expectation-2020",
     title: "Ren Had Invented a Different Suzi in Her Head.",
     season: "2020",
