@@ -40,3 +40,58 @@ Anti-starvation reviews also covered Club-Only 2021–2026 and QOTD Officers. Bo
 MAIN's last verified live commit remains 4ea52f2f5aebd3d25186302e0bce4ab92f8c8fc4. A later unrelated MAIN workflow on acf8747721d46f7138139e84e7b06e28ccabe776 failed the roster-route verifier because amexistir lacks a categorized roster entry or explicit archive-only route; no claim is made that the failed latest MAIN head is deployed.
 
 Full branch census, consumed SHA state, pending-publication inventory, and MAIN production verification are recorded in the linked Run 100 report and the main repository's archive-intake/INTEGRATOR_BRANCH_STATE.json.
+
+
+## Run 105 — 2026-11-28 — Photo Submissions: Grimlee Cast route + Popstar receipt
+
+This run repaired one older accepted Photo Submissions reader gap. The miner branch had no new commit; publication debt remained actionable.
+
+### Full census and branch reviews
+
+- MAIN census: **30 active miner refs** (26 `archive-miner/*`, 4 `archive-miner-*`), 51 tracked identities, 21 historical refs absent remotely, 0 newly discovered active refs, 0 active HEAD advances.
+- Five review-overdue families remain: Photo Submissions, QOTD Officers, August Reunion, BACKROOM, and Main HQ.
+- Census was persisted on MAIN in `archive-intake/INTEGRATOR_BRANCH_STATE.json`, commit `1fd2ac9680dd8e33545be44474cbd678252dfe5a`.
+- Photo Submissions branch `archive-miner-photo-submissions-2021`: HEAD / consumed `d45d441feca0110e9495f49b13df9666982bb45c`; checkpoint-first review, no miner delta.
+- Club-Only 2021–2026 recovery `archive-miner/club-only-2021-2026-hourly`: HEAD / consumed `e45fb11c9239e236231bb65645dfd0285bc0078b`; checkpoint-first review, no delta; target-room locality remains blocked.
+- August Living Ensemble `archive-miner/aug-2026-living-ensemble-hourly`: HEAD / consumed `fcc27ac7a4457fc5c93c575bd2813b8e19abfa3b`; base checkpoint, Run 28 overlay, integration state, site candidates, and open questions reviewed; no delta. Momo Anansa / Fire Legacy prehistory is already owned/integrated elsewhere and was not duplicated.
+- No miner branch was merged or cherry-picked into a publishing branch. No consumed SHA advanced.
+
+### Reader change — Grimlee
+
+Source: Photo Submissions branch handoff `site-candidates-hourly.md`, heading “Grimlee was quietly in this thing for months”; cross-checked against `people-index.md#Grimlee` and the four rows in `media-index.md`. There is no standalone `site-candidate-*.md` for this hourly heading.
+
+Exact receipts:
+- Waltz — `864030989507624960`
+- Dusk til Dawn — `872752786582937600`
+- Popstar — `878410496716443678`
+- Winter — `917748209730875403`
+
+MAIN already had the person-first biography and WIKI already had the dossier and Photoshoot Episode. The missing reader piece was Cast discoverability; the Popstar message ID was also missing from both person-level source lists. The new WIKI Cast entry uses `father.grim` as a handle alias only; no stable numeric account ID was invented. Blank captions are not a personality read, and POSTED BY is not promoted to MADE BY / CAPTURED BY / FEATURING.
+
+### WIKI reader paths
+
+- New `src/data/cast-run1615-photo-submissions-grimlee.ts`
+- Updated `src/data/cast.ts`
+- Updated `src/data/dossier-snapshots/grimlee.md`
+
+Reader commit / Pages version: `0f7b63a96cafd180ecb1726e4ebd9fb13e7fdfc2`.
+
+- Astro build [46136576283](https://github.com/bossmugen/underlords-wiki/actions/runs/46136576283), job `140953110803`: **SUCCESS**.
+- Built output includes `/characters/grimlee/index.html` and existing `/episodes/grimlee-four-rounds-no-caption-2021/index.html`.
+- 637 HTML pages built; built-site audit passed 637 HTML files / 25,737 internal references.
+- Pages run [46136576265](https://github.com/bossmugen/underlords-wiki/actions/runs/46136576265): build `140953132371`, deploy `140953235143`, report `140953321387` all **SUCCESS**; `pages_build_version` exactly matches `0f7b63a96cafd180ecb1726e4ebd9fb13e7fdfc2`.
+
+### MAIN reader verification
+
+MAIN `src/content/people/grimlee.md` adds the exact Popstar receipt and removes the stale missing-ID note. Commit `e5d7b87e638523332fa5df65f83eeec4e5b759b1`; production run [46136524737](https://github.com/bossmugen/underlords/actions/runs/46136524737), job `140952949702`: **SUCCESS**, including exact live production marker confirmation.
+
+### Surface ownership
+
+MAIN retains the richer person story. WIKI owns the Cast route and structured round index. No new Episode and no copied MAIN prose. No image binary was inspected or published.
+
+### Remaining Photo publication debt
+
+- 28/28 named candidate files classified; 34/34 cumulative headings mapped; 0 unclassified individual files.
+- 2 cumulative handoffs remain open; distinct accepted A/B remainder remains **unknown / not certified / not zero**.
+- Still held: January winner-to-poster bridge; reply parents `835940038549569627` / `872535327926009928`; uninspected original media `835598011547516950` / `850373606083919892`; richer Type-X context `897041554089332737`; Mërcy identity/context `907472763281887304`; audience/visibility of `🤳｜ul-photoshoot-event`; unsupported image credits.
+- Photo remains pending-publication / review-overdue. Do not mark the family exhausted or consumed.
