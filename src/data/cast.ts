@@ -51,6 +51,7 @@ import { applyRun1614PhotoSubmissionsEarlyEntrants } from "./cast-run1614-photo-
 import { applyRun1615PhotoSubmissionsGrimlee } from "./cast-run1615-photo-submissions-grimlee";
 import { applyRun1616BackroomEphxs } from "./cast-run1616-backroom-ephxs";
 import { applyRun1617AugustReunionPeople } from "./cast-run1617-august-reunion-people";
+import { applyRun1618PhotoSubmissionsYochan9 } from "./cast-run1618-photo-submissions-yochan9";
 import type { Character } from "./wiki";
 export type { CastGroup } from "./cast-through-run1514";
 
@@ -105,6 +106,7 @@ applyRun1614PhotoSubmissionsEarlyEntrants(allCharacters, previousGroups);
 applyRun1615PhotoSubmissionsGrimlee(allCharacters, previousGroups);
 applyRun1616BackroomEphxs(allCharacters, previousGroups);
 applyRun1617AugustReunionPeople(allCharacters, previousGroups);
+applyRun1618PhotoSubmissionsYochan9(allCharacters, previousGroups);
 
 export const castGroups = previousGroups;
 export const characterById = new Map(allCharacters.map((character) => [character.id, character]));
