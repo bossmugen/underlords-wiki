@@ -26,11 +26,11 @@ claims:
     note: "The same account POSTED both attachments; MADE BY, CAPTURED BY, and FEATURING are not established. No formal Photoshoot role or theme authorship inferred. archive-intake/photo-submissions-2021-visual-contest-2026-08-19-1845-pdt/site-candidate-2026-08-25-0545-anayss.md."
   - text: "In late August and September 2020, Anayss repeatedly asked for coffee in Club Only, including `Need coffee`, `Need cogfee`, and a September 22 four-message attempt that barely assembled the word. Gabu answered one of her coffee GIFs with `maam drink water too`."
     evidence: "archive-confirmed"
-    date: "2020-08 – 2020-09"
+    date: "2020-08-29 – 2020-09-22"
     sources:
-      - label: "Club Only · Anayss coffee sequence"
+      - label: "Club Only · Anayss coffee sequence · 749259018220077087 / 749259194531577856 / 749967471657615370 / 749969036678266901 / 751050916584489061 / 751051268377542687 / 751816722381537321 / 752847094477226026 / 752847113045671988 / 756131460749983859 / 757929930586587146 / 757929944067211385 / 757929954330804244 / 757929956956307526"
         href: "/channels/club-only"
-    note: "Main HQ site-candidates.md cross-indexes Club Only receipts 749259018220077087, 749259194531577856, 749967471657615370, 749969036678266901, 751050916584489061, 751051268377542687, 751816722381537321, 752847094477226026, 752847113045671988, 756131460749983859, 757929930586587146, 757929944067211385, 757929954330804244, 757929956956307526. Repeated message/GIF vocabulary, not proven literal daily coffee consumption."
+    note: "The same Snow White `all the coffee` GIF recurs, and Gabu's `maam drink water too` is a reply to one of the posts. Repeated message/GIF vocabulary, not proof of literal daily coffee consumption."
   - text: "On April 2, 2021, Anayss joined Ansun, Gilli, and Ren in posting example/reference images for the Colors Photoshoot before Mugen opened submissions on April 5."
     evidence: "archive-confirmed"
     date: "2021-04-02 – 2021-04-05"
@@ -229,6 +229,8 @@ Her friendships resist tidy labels. The old house map called her Gabu's `boyfrie
 
 **Gilli:** The nickname travels both ways: Anayss uses `Gillibear`, Gilli answers `😍 Hi My Anabun`, and Anayss later uses the name in a plain `Drive safe` goodbye. Their July 2021 WALTZ pairing puts the familiar shorthand into a shared creative entry.
 
+**Gabu:** When Anayss asks for coffee, Gabu sometimes posts coffee back; after one of the recurring `all the coffee` GIFs, Gabu answers `maam drink water too`. It is a tiny check-in in the same teasing register: the request has become familiar enough that Gabu knows the next line.
+
 ## Episodes
 
 | Date | Episode | Cast / reference |
@@ -237,6 +239,6 @@ Her friendships resist tidy labels. The old house map called her Gabu's `boyfrie
 
 ## Petty Crimes
 
-Ana has demanded coffee as `Need coffee`, `Need cogfee`, and, on one memorable morning, several messages that had to be assembled into a sentence. She has filled Whiskey with dance reactions, called Gilli her wonderful `waifu` on her birthday, and used battle announcements to propose outfits that no sane military would approve. She is perfectly capable of sending people to the correct Discord room while remaining personally at war with the Dragon Raja map.
+Ana's dawn beverage campaign was already running by August 29, 2020: `Need coffee`, then `Need cogfee`, plus the same Snow White `all the coffee` GIF returning across mornings. On September 22 the request arrives in four separate messages: `i` → `nneed` → `coffee u.` → `u`. The typing keeps arriving in pieces; the room still understands what she wants. She has also filled Whiskey with dance reactions, called Gilli her wonderful `waifu` on her birthday, and used battle announcements to propose outfits that no sane military would approve. She is perfectly capable of sending people to the correct Discord room while remaining personally at war with the Dragon Raja map.
 
 The joke is that Ana became a reliable source of directions without ever becoming boring. People could trust her to remember the schedule, remember them, and occasionally remember to drink water—usually after Gabu reminded her.
