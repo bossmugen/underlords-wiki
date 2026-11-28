@@ -172,6 +172,13 @@ claims:
     sources:
       - label: "Announcements"
         href: "/channels/announcements"
+  - text: "In a January 11, 2024 Main HQ birthday exchange, Sye called Mugen an `AMAZONG SWEET PLUTONIAN`, carrying Mugen's Plutonian self-mythology into affectionate peer-language."
+    evidence: "archive-confirmed"
+    date: "2024-01-11"
+    sources:
+      - label: "Main HQ · Sye birthday exchange · site-candidates.md"
+        href: "https://github.com/bossmugen/underlords/blob/archive-miner/main-hq-hourly/archive-intake/main-hq-2022-2026-tail-20260819/site-candidates.md"
+    note: "The miner handoff preserves speaker, date, room, and wording; exact message ID was not retained. The quote is SAID BY Sye, not a Mugen self-description."
   - text: "Mugen's preservation reflex is visible long before the current archive project: the first surviving PR workroom message asks people to dump promotional material `so we dont lose them`, and in 2021 she posts another member's work `for posterity uwu`."
     evidence: "archive-confirmed"
     date: "2020-12-26 – 2021-10-30"
