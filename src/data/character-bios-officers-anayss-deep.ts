@@ -80,10 +80,9 @@ export const deepAnayssOfficerCharacterBios = {
       { text: "On April 20, 2023, after a Wall exchange became openly irritated, Anayss posted `#🥃💬｜whiskey-room ^^`, redirecting the live discussion out of the exhibit room without a preserved public ruling on fault.", evidence: "wall-of-shame-fame", date: "2023-04-20" },
       { text: "On March 9, 2024, Anayss announced `ITS SERVER VS SERVER BATTLE IN 5 MINS, try to be online for rewards` and named the S1 vs S35 matchup.", evidence: "announcements", date: "2024-03-09" },
       { text: "On April 2, 2024, Anayss assigned a Lobby role and posted the safety / Biodata / main-chat welcome packet; that instance accidentally pointed the server index at Whiskey, while a later April packet restored Discord Tour.", evidence: "lobby", date: "2024-04-02 → 2024-04-10" },
-      { text: "On April 7–8, 2024, Anayss asked WolfPhenix to update the weekly planner with changed event days and times; Wolf acknowledged the request, found an older editable planner, updated it, and asked what remained missing.", evidence: "private-canon-snapshot + announcements", date: "2024-04-07 → 2024-04-08" }
-    
+      { text: "On April 7–8, 2024, Anayss asked WolfPhenix to update the weekly planner with changed event days and times; Wolf acknowledged the request, found an older editable planner, updated it, and asked what remained missing.", evidence: "private-canon-snapshot + announcements", date: "2024-04-07 → 2024-04-08" },
       { text: "Anayss used `Gillibear` for Gilli in August–September 2020; Gilli answered `😍 Hi My Anabun` 31 seconds after the September 16 message, and Anayss later sent `Drive safe Gillibear ❤️`.", evidence: "club-only", date: "2020-08-25 → 2020-09-28" },
       { text: "The July 7, 2021 WALTZ prompt required entrants to grab a partner; Gilli's July 8 submission was followed 11 seconds later by `Gilli + Anayss uwu`.", evidence: "photo-submissions", date: "2021-07-07 → 2021-07-08" },
-]
+    ]
   }
 };
