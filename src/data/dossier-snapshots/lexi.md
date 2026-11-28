@@ -11,6 +11,9 @@ claims:
   - text: "On January 11, 2021, stable account `688932590584987783 / strawburrilexi` answered an explicit Lobby prompt for IGN, club, server, and age with `Okaa-san, LoliParadise, S8` in the first three fields; the historical age field is withheld."
     evidence: "archive-confirmed"
     date: "2021-01-11"
+    sources:
+      - label: "Lobby · 798420116374552596 / 798420201569517598 / 798420225716518932 / 798420339910377504 / 798420570072416277"
+        href: "/channels/lobby"
     note: "The explicit field order makes Okaa-san the first-party IGN, LoliParadise the club, and S8 the server in this scene. This is a Discord doorway receipt, not an in-game UL admission date."
   - text: "Minutes after Gilli sent LEXI toward the Discord Tour, the earliest surfaced H1 Whiskey media-bearing row for LEXI is an anime reaction GIF."
     evidence: "archive-confirmed"
