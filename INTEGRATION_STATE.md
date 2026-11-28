@@ -234,3 +234,18 @@ MAIN production run [46150967311](https://github.com/bossmugen/underlords/action
 Pass60 Moments Submission Side Door / Ephxs–Ghoulie and Pass61 Panda/Eos WALTZ + Candy WINTER remain already integrated; no duplicate copy was added. June's top-four Kahoot result remains unexplained, July's three winners remain unranked, and the August redo has no result receipt. Poster/GIF media remain uninspected; no maker/captor/featured credit or Speeling Bee equivalence is inferred.
 
 BACKROOM remains open and `review_overdue` / `pending_reconciliation`. Its 61 numbered passes and 240 top-level headings are not a distinct accepted A/B count; remaining candidate count is **unknown / uncertified / not zero**. No consumed SHA advanced. Raw War Room 2022–2023 remains source-blocked pending accessible `6 war room.zip` bytes; officers-only Pass53/55 material remains withheld. Full report: [Run 120](integration-state/run-120-2026-11-28-backroom-pass59-verification.md).
+
+
+---
+
+## Run 122 — 2026-11-28 — Photo Submissions verification
+
+**No new WIKI reader prose was required.** The early-repeat entrant candidate was already integrated in Run 104; this run rechecked the current Cast/dossier owners and verified them on the current exact Pages deployment. Full details and source receipts: [Run 122 report](integration-state/run-122-2026-11-28-photo-submissions-verification.md).
+
+- Source: `archive-miner-photo-submissions-2021`, HEAD = consumed SHA `d45d441feca0110e9495f49b13df9666982bb45c`.
+- Candidate: `site-candidate-2026-08-27-0010-early-repeat-entry-context.md`; LEXI / Laila / Miihi receipt groups checked against `src/data/cast-run1614-photo-submissions-early-entrants.ts`, `src/data/cast.ts`, their dossier snapshots, and the LOVE Episode.
+- Current WIKI main / Pages version: `554acb53d403ceb337538be325b035cdd17728b1`; Astro build [46158586169](https://github.com/bossmugen/underlords-wiki/actions/runs/46158586169) succeeded (643 HTML pages; 25,987 internal references). Pages deploy [46158586167](https://github.com/bossmugen/underlords-wiki/actions/runs/46158586167) succeeded with exact `pages_build_version`.
+- MAIN companion production: `8d92e2fbdb17bc42b415ad6241128c362aa6fe90`; build/deploy [46158409022](https://github.com/bossmugen/underlords/actions/runs/46158409022) succeeded with exact live marker. No MAIN or WIKI reader paths changed in Run 122.
+- Photo family remains `pending_publication / review_overdue`: 28/28 named candidate files classified; 34/34 headings mapped; 0 unrepresented file-level text-safe A/B; 2 aggregate handoffs open; 3 source/provenance-blocked; 1 superseded; distinct accepted A/B remainder unknown / not certified / not zero.
+- Backroom Pass 61, Club-Only 2021–2026, and Club-Only 2020 checkpoint-first reviews found no new delta. Panda/Eos WALTZ and Candy WINTER were already represented. War Room 2022–2023 remains source-blocked pending accessible `6 war room.zip` bytes.
+- No miner consumed SHA advanced. Five branches remain review-overdue: Photo Submissions, QOTD Officers, August Reunion, Backroom, Main HQ.
