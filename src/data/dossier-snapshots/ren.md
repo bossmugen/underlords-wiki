@@ -260,6 +260,15 @@ claims:
         href: "/channels/wall"
     note: "Ren supplied the friendship label; the exchange is a mutual publication dare. The pickup lines themselves were not recovered."
 
+  - text: "On August 25, 2020, Ren said she had imagined the Wall as a hall of fame before agreeing that wall of shame worked too; by January 1, 2022 she described it as a place for shame-worthy moments of People’s history."
+    evidence: "archive-confirmed"
+    date: "2020-08-25 – 2022-01-01"
+    sources:
+      - label: "Wall · 2020-08-25 · 746933977511624736 / 746937809880875018 / 746937826645639209"
+        href: "/archive/wall"
+      - label: "Wall · 2022-01-01 · 927030617122701352"
+        href: "/archive/wall"
+    note: "Ren’s own framing of the Wall; this does not make her its sole creator or owner."
 antiFanon:
   - "Quote collecting is archive-observable behavior; it does not make Ren the formal Wall archivist unless a dated appointment is recovered."
   - "Social Ctrl+F / house index / identity-repair language is character interpretation, not a formal UL appointment."
@@ -326,6 +335,8 @@ On Slice's opening night, during a conversation about pandemic anxiety, Ren tell
 By August, another side of Ren is already emerging. She says **`I don’t have other people’s quotes for nothing`**. Anthos describes her making `tag yourself` posts from questionable things members have said. Ren tells Anthos she loves his quotes and wants a favorite-quote collection like one she already made for Ansun.
 
 This is not a formal archivist appointment and Ren did not invent UL quote culture alone. It is simply an early recurring habit: notice the social information, label it, save it, make it retrievable later.
+
+Ren’s answer to `wall of shame` was not to reject the premise. She said she had imagined a `hall of fame`, then added `But wall of shame works too`. By January 2022 she was describing the room as a place for shame-worthy moments of `People’s history`. The same person who kept saving people’s quotes could see the Wall as both a place to laugh at them and a place to keep them.
 
 ## 2021 — MEMORY WORK EXPANDS INTO CARE AND PROGRAM WORK
 
