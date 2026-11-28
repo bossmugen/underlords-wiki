@@ -1121,4 +1121,13 @@ export const integratedEpisodes: Episode[] = [
     logline: "On October 25, Ren said the Wall had become part of Cookie and Tofu's DMs (902325689947148338). Cookie tossed in `she started it` (902339614138830869); Tofu directly replied to Ren with `COOKIE STARTED IT.` (902342191790305360). A week later Anayss tagged both and said she had seen them exposing their DMs `again` (904701750475378688). The private messages are not reproduced; the public scene is mutual blame, a direct reply, and a room that recognizes the routine. This is reciprocal relationship behavior, not proof of DM contents, motive, romance, or a closeness rank.",
     cast: ["Cookie", "Tofu", "Ren", "Anayss"]
   },
+  {
+    id: "amexistir-spanish-lobby-return-2022-2023",
+    title: "The Lobby Switched to Spanish, Then Recognized the Return",
+    season: "2022–2023",
+    date: "November 23, 2022 – November 17, 2023",
+    kind: "Lobby / onboarding / return recognition",
+    logline: "On November 23, 2022, Amexistir says he understands little English and that his in-game name matches his Discord name; Ren handles the welcome in Spanish (1045051570989039698, 1045052906908430438). In June 2023 he identifies his club as Dragon and Ren again gives the practical welcome in Spanish (1116785599299465336, 1116785908373540915). When MEE6 produces another welcome in November, Anayss answers Hola Ame! Bienvenido de vuelta! (1175210259049086986, 1175234531297595553). Amexistir is not the separate Game Officer Ame; the familiar address in the Lobby replies is not an identity merge.",
+    cast: ["Amexistir", "Ren", "Anayss"]
+  },
 ];
