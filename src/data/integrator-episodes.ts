@@ -52,8 +52,8 @@ export const integratedEpisodes: Episode[] = [
     season: "2026",
     date: "August 14, 2026",
     kind: "August Reunion / naming / returning members",
-    logline: "The returning crowd had been digging up old receipts and summoning familiar faces when Nobu finally asked the obvious question: 'Family reunion?' (1537903473352515764). Mugen answered with the same two words, minus the question mark: 'Family reunion' (1537903932012109905). Nobu floated a name for what everyone was already doing; Mugs accepted it without a speech. In the same reunion Mugen told people she was building a website, and Nobu cheered 'LETS GOO' as an early site screenshot circulated. The people were remembering UL while helping create the next thing that would remember them. This names the August gathering, not a formal club event or proof that everyone returned for the same reason.",
-    cast: ["Nobu", "Mugen"]
+    logline: "Mugen's DM invitation to Anthos opened in the house's own language: 'The clowns are calling for you' / 'Will you heed their call', with an Underlords invite waiting underneath. The returning crowd had been digging up old receipts and summoning familiar faces when Nobu finally asked the obvious question: 'Family reunion?' (1537903473352515764). Mugen answered with the same two words, minus the question mark: 'Family reunion' (1537903932012109905). Nobu floated a name for what everyone was already doing; Mugs accepted it without a speech. In the same reunion Mugen told people she was building a website, and Nobu cheered 'LETS GOO' as an early site screenshot circulated. The people were remembering UL while helping create the next thing that would remember them. This names the August gathering, not a formal club event or proof that everyone returned for the same reason.",
+    cast: ["Nobu", "Mugen", "Anthos"]
   },
   {
     id: "roach-roachy-roachable-war-room-2021",
