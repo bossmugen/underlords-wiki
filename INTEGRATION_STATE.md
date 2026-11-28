@@ -4510,4 +4510,4 @@ Current WIKI main 8c42cd4ec5ed0ec976491f5e81885909efd96946 passed build 46096799
 - MAIN reader paths changed in Run76: **none**. MAIN's existing Photo Submissions narrative already owns the POPSTAR deadline change.
 - The WIKI Run765 census note is not used to override the controlling MAIN ledger; the current MAIN state lists five review-overdue branches.
 - BACKROOM remains `pending_reconciliation / review_overdue`. Its 61 numbered passes and 240 headings are not a distinct candidate count; accepted A/B remainder remains **unknown / uncertified / not zero**. No consumed SHA advanced on either reviewed branch.
-- The only WIKI change in this close is this integration-state record. Its own build/Pages verification is pending the post-commit Actions run.
+- The Run76 state commit `5bfb2c0564bc2341facb6af138e2a5de6d7c92ac` passed WIKI build run `46099459608` / job `140838350180` and Pages run `46099459557` (build/deploy/report jobs `140838350173`, `140838459181`, `140838517673`), all SUCCESS. This follow-up only records that completed verification; its own metadata-only Actions run is tracked in the controlling MAIN state.
