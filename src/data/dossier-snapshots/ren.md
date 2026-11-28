@@ -11,7 +11,7 @@ eraStart: 2020
 summary: "Ren's archive progression starts with her using Slice for the same social support she later helps maintain, then follows her into quote collecting, care bulletins, visual-program work, front-door routing, family/access language, creative premises, and eventually 2026 identity repair. Current Caporegime status is locked separately from that long record of making people and information easier to retrieve."
 summaryEvidence: "inferred"
 publication: "public"
-relatedPeople: ["Syv"]
+relatedPeople: ["Syv", "Tae"]
 claims:
   - text: "Ren followed Gilli with Example Photos posts twice in August 2021: 22 seconds after Gilli on August 1, and under three minutes afterward on August 15. The repeated pairing shows both returning to the unglamorous visual setup before the next surviving theme opened."
     evidence: "archive-confirmed"
@@ -252,6 +252,14 @@ claims:
         href: "/channels/qotd"
     note: "Ren's stored happy/love reactions have no timestamps. The exchange supports friendship texture, not a formal mentorship or romance claim."
 
+  - text: "On July 19, 2021, Ren called Tae her `ma bestie` in a Wall post; Tae answered `POST ALL IT YOU WONT`, and Ren promised `I’ll post something better`."
+    evidence: "archive-confirmed"
+    date: "2021-07-19"
+    sources:
+      - label: "BACKROOM Pass 35 · Wall · 866784597924904995 / 866784631663099914 / 866784675677732864"
+        href: "/channels/wall"
+    note: "Ren supplied the friendship label; the exchange is a mutual publication dare. The pickup lines themselves were not recovered."
+
 antiFanon:
   - "Quote collecting is archive-observable behavior; it does not make Ren the formal Wall archivist unless a dated appointment is recovered."
   - "Social Ctrl+F / house index / identity-repair language is character interpretation, not a formal UL appointment."
@@ -381,6 +389,14 @@ Ren welcomed Zhēnxī with a `:DevilGlare:`, softened it to `*dear*`, confirmed 
 The same joke resurfaced with Baby Lyssa in July. After Lyssa demanded `YOU COULDNT WAIT LIKE AT LEAST 5 MINUTES?`, Ren replied `*the shame doesn’t wait my dear*`. Her joke was not simply that she kept receipts; she treated publication speed as something worth celebrating.
 
 **Receipts:** Lobby `845549948506472468`, `845550095118106655`, `845550152210448414`, `845550309941444668`, `845550326572646450`; Wall `845551682191884339`, `845551777184612382`, `845553640622391316`, `845553735748419664`, `862382943002951680`, `862383180513280050`. Source: Main HQ `receipt-delta-2026-08-25-1645.md` and `site-candidates-2026-08-25-1645.md`. Ansun's six-minute description is his joke; the visible MEE6-to-Wall interval is approximately 6m53s. Ren's earlier uninspected image `845549197867876414` is **not** attributed to the later Zhēnxī tag, and `New record?` is not an established leaderboard.
+
+## TAE — THE BESTIE WHO DARED THE WALL
+
+**Episode:** July 19, 2021 · Wall of Shame-Fame.
+
+Ren introduced a Wall post as `Best pick up lines provided by ma bestie tae`. Eight seconds later, Tae answered `POST ALL IT YOU WONT`; Ren replied `I’ll post something better`. The rhythm is the point: Tae treats being posted as an invitation to escalate, and Ren knows she can answer the dare without turning it into a fight. Five days earlier, Ren had used `With the bestie` for Eos in WALTZ. `Bestie` is clearly part of her easy friendship vocabulary, not a single-occupancy title.
+
+**Receipts:** `866784597924904995`, `866784631663099914`, `866784675677732864`.
 
 ## RAJA POLICE DEPARTMENT — Running gag / artifact index
 
