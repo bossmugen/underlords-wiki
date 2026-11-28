@@ -4402,3 +4402,10 @@ The local runtime had no repository checkout and could not resolve github.com fo
 - **WIKI verification before this state append:** current WIKI main reader head `5a1dddcd8746f94976316a4ff24bed587d0b0052` passed Astro build `46091082917` / job `140811870236` and GitHub Pages preview deployment `46091082975` / deploy job `140812044259`, both SUCCESS on that exact head. This Run68 state-only commit is the next verification target; it does not change reader sources.
 - **Anti-starvation:** Club-Only 2021–2026 and Club-Only 2020 checkpoints plus current cumulative handoffs were reread; their HEADs already equal consumed SHAs. Photo Submissions checkpoint, exhaustion audit, integrator handoff, integration state, and cumulative candidate handoffs were reread; quarry remains exhausted, but publication is not complete. Existing assigned owners retain their thin-profile and media work.
 - **Consumed SHA:** no miner `last_consumed_sha` changed. All reviewed branches already had `HEAD = last_consumed_sha`; the unresolved retrieval/privacy/media holds remain open.
+
+
+### Run68 verification follow-up — exact WIKI state commit
+
+- Run68 state commit `152c2ae4716dc4ec41c72a14dbe24d939054e262` passed Astro build [46091768861](https://github.com/bossmugen/underlords-wiki/actions/runs/46091768861), build job `140814077437`, SUCCESS.
+- GitHub Pages preview [46091768880](https://github.com/bossmugen/underlords-wiki/actions/runs/46091768880) passed build job `140814077806`, deploy job `140814201146`, and report job `140814297821`; all SUCCESS on the exact Run68 state commit.
+- No WIKI reader source changed. The Pages preview is the repository's available deployment verification path; no separate WIKI production workflow was present in the current workflow set.
