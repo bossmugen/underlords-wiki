@@ -46,6 +46,7 @@ import { applyRun1609IntegratorCast } from "./cast-run1609-integrator";
 import { applyRun1610PhotoSubmissionsCast } from "./cast-run1610-photo-submissions";
 import { applyRun1611QotdRenSyv } from "./cast-run1611-qotd-ren-syv";
 import { applyRun1612BackroomRenTae } from "./cast-run1612-backroom-ren-tae";
+import { applyRun1613BackroomAmeSplit } from "./cast-run1613-backroom-amexistir";
 import type { Character } from "./wiki";
 export type { CastGroup } from "./cast-through-run1514";
 
@@ -95,6 +96,7 @@ applyRun1609IntegratorCast(allCharacters);
 applyRun1610PhotoSubmissionsCast(allCharacters, previousGroups);
 applyRun1611QotdRenSyv(allCharacters);
 applyRun1612BackroomRenTae(allCharacters);
+applyRun1613BackroomAmeSplit(allCharacters);
 
 export const castGroups = previousGroups;
 export const characterById = new Map(allCharacters.map((character) => [character.id, character]));
