@@ -38,6 +38,14 @@ claims:
   - text: "During the August 14, 2026 reunion, Rooks volunteers that she is left-handed; Moon answers `WITCHHHH`; Rooks immediately escalates to `DOUBLE WITCH`. Rooks also directly volunteers marriage and dog updates in the same reunion."
     evidence: "archive-confirmed"
     date: "2026-08-14"
+  - text: "On September 18, 2020, Ansun asked Rooks to join VC because he and Anthos were talking; Rooks answered `AHHHHH OKAY`, and Anthos then told Rooks `rooks i need to be held`."
+    evidence: "archive-confirmed"
+    date: "2020-09-18"
+    sources:
+      - label: "Club-Only · 756610211254370456 / 756610241038123068 / 756610260562870303 / 756610261959442525"
+        href: "/channels/club-only"
+    note: "This is one specific comfort request. The surviving sequence does not establish whether Rooks joined VC or what happened afterward, and it does not create a standing caretaker role, literal physical holding, or a closeness ranking."
+
 antiFanon:
   - "`Innocent` is communal UL vocabulary; Rooks's more specific pattern is defense followed by self-amendment or evidence submission."
   - "Rooks posting Wall attachments establishes POSTED BY only; uninspected images do not establish maker, capture source, subjects, or visual contents."
@@ -46,6 +54,7 @@ antiFanon:
   - "Birthday-board dates are private member information and are deliberately not republished."
   - "The 2026 witch exchange is a joke about left-handedness, not literal belief or harassment canon."
   - "Affectionate recognition, reactions, greetings, and repeated scenes do not establish friendship rankings."
+  - "Anthos’s September 18, 2020 `i need to be held` message is a comfort request in a VC context; it does not prove literal physical holding, a standing caretaker role, or what happened afterward."
   - "Current Staff canon overrides old export-time VIP arrays. Rooks directly denied having been an Officer in the 2026 reunion; do not convert Staff into an old Officer appointment."
 relatedPeople:
   - "ren"

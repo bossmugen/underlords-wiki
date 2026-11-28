@@ -1157,4 +1157,14 @@ export const integratedEpisodes: Episode[] = [
     logline: "At 23:33:37 the Underlords Stripclub Bouncer posted the Lobby welcome. Ren checked 'Zhen right?', called Zhēnxī 'dear', routed them to #🎫｜ul-discord-tour, and warned 'Don’t get lost now UwU'; Zhēnxī answered 'I am scare' (845549948506472468, 845550058569072671, 845550095118106655, 845550152210448414, 845550309941444668, 845550326572646450). At 23:40:30 Ren tagged them in the Wall; six seconds later came 'NOOOOOOOOOOO' and 'NOT THE WALL OF SHAME FAME' (845551682191884339, 845551707634139136, 845551777184612382). Ansun called it 'shamed within 6 minutes of entry'; Ren asked 'New record?' (845553640622391316, 845553735748419664). The visible welcome-to-tag interval is about 6m53s, so the six-minute line stays the room’s joke, not a stopwatch result. Ren’s earlier image post is uninspected and not linked to this sequence; no charge or image content is inferred.",
     cast: ["Zhēnxī", "Ren", "Ansun"]
   },
+  {
+    id: "anthos-asks-rooks-for-comfort-2020",
+    title: "Anthos Asks Rooks for Comfort",
+    season: "2020",
+    date: "September 18, 2020",
+    kind: "Club-Only / voice-chat invitation / comfort request",
+    logline: "Ansun asks `rooks join vc?` and explains that he and Anthos are talking (756610211254370456, 756610241038123068). Rooks answers `AHHHHH OKAY` (756610260562870303). Anthos then tells Rooks, `rooks i need to be held` (756610261959442525). It is a specific request for comfort addressed to Rooks, not a generic appeal to the room. The surviving exchange does not establish whether Rooks joined the call or what happened afterward; it does not prove literal physical holding or create a standing caretaker role.",
+    cast: ["Rooks", "Anthos", "Ansun"]
+  },
+
 ];
