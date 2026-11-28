@@ -61,6 +61,15 @@ claims:
       - label: "Mugs-confirmed Game Officer roster"
         href: "/roles/game-officers"
   - text: "On September 18, 2020, Anayss described a DM with Gabu where both were telling each other they did not understand what was happening; Mugen replied that she almost choked on her gum, and Gabu answered with enthusiastic laughter."
+  - text: "Anayss used `Gillibear` for Gilli in August–September 2020; Gilli answered `😍 Hi My Anabun` 31 seconds after the September 16 message, and Anayss later sent `Drive safe Gillibear ❤️`. In July 2021, the partner-required WALTZ prompt led to Gilli's `Gilli + Anayss uwu` caption."
+    evidence: "archive-confirmed"
+    date: "2020-08-25 – 2021-07-08"
+    sources:
+      - label: "BACKROOM Pass 16 · Club Only · 747978044685287424 / 755761495517954198 / 755761625897762908 / 760116581643583498"
+        href: "/channels/club-only"
+      - label: "BACKROOM Pass 16 · Announcements / Photo Submissions · 862299611249770507 / 862749386660511764 / 862749433418219520"
+        href: "/events/photo-submissions"
+    note: "The WALTZ announcement explicitly required a partner; Gilli's caption names Anayss. This supports affectionate friendship and a dated creative collaboration. The image remains uninspected; POSTED BY Gilli is not MADE BY / CAPTURED BY / FEATURING. No romance claim."
     evidence: "archive-confirmed"
     date: "2020-09-18"
     sources:
@@ -155,6 +164,7 @@ antiFanon:
   - "Anthos's September 2020 Tumbleweed/organisation chart labels Anayss as Gabu's boyfriend; treat that as house-joke relationship language unless separately confirmed, not a literal relationship claim."
   - "The January 2022 `Real life always first Roti!` line makes Anayss an archive-confirmed carrier of an existing house principle in that scene. It does not prove she originated the phrase, authored UL Code 2, or already held her current Underboss / Battle Leader appointments at that date."
   - "Noether calling the 2022 meetup `A date with ana` is playful wording in the archived exchange. It proves they met offline; it does not establish romance, relationship status, or location."
+  - "The Gillibear / Anabun nicknames and WALTZ partner caption support affectionate friendship and creative collaboration, not proof of romance."
   - "Repeated battle/event callouts from 2021–2024 do not establish when Anayss became Battle Leader. The current appointment is user-confirmed separately."
   - "Welcoming people and handing out server directions does not create an inferred Gatekeeper, Recruiter, Sniper, or other appointment. Later shared welcome copy does not prove Anayss authored the packet."
   - "The `wb` scenes prove human recognition at re-entry, not a first membership date, an account-history explanation, or why somebody returned. Gabu is visibly doing the same recognition work in some of the same Lobby windows, so do not turn it into an Anayss-exclusive job. MEE6's welcome card is account-state evidence, not relationship chronology."
@@ -162,6 +172,7 @@ antiFanon:
   - "The 2020–2021 Louvre trail proves recurring creative work and peer use/praise of Anayss's work, but not a formal artist appointment or identities guessed from image pixels."
 relatedPeople:
   - "mugen"
+  - "gilli"
   - "gabu"
   - "noether"
   - "wolfphenix"
@@ -215,6 +226,8 @@ Her friendships resist tidy labels. The old house map called her Gabu's `boyfrie
 ## Relationships
 
 **Snow:** Anayss had already said she was used to his Wall-bait by October 2020. The November throwback adds a much less dignified shared story: Gilli remembered Ana leaving Snow naked in the bushes, Pride replied that they had a picture, and Zoshaa supplied the name `raining nude bush hours`. The two have a long-running familiarity with a very strange filing cabinet.
+
+**Gilli:** The nickname travels both ways: Anayss uses `Gillibear`, Gilli answers `😍 Hi My Anabun`, and Anayss later uses the name in a plain `Drive safe` goodbye. Their July 2021 WALTZ pairing puts the familiar shorthand into a shared creative entry.
 
 ## Episodes
 
