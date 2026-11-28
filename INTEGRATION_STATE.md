@@ -1,6 +1,6 @@
 # Underlords Wiki Integration State
 
-Latest detailed run: [Run 104 — 2026-11-28 — Photo Submissions early-repeat Cast dossiers](integration-state/run-104-2026-11-28-photo-early-repeat-entrants.md).
+Latest detailed run: [Run 107 — 2026-11-28 — Photo Submissions Gilli/Ren Example Photos reader repair](integration-state/run-107-2026-11-28-photo-gilli-ren-example-pair.md).
 
 The Wiki is the structured reference companion to the main Underlords site. It owns Cast dossiers, Episodes, Relationships, Running Gags, Quotes, Locations, and Gallery/media notes; it does not mirror the main site's person-first narrative.
 
@@ -106,3 +106,12 @@ MAIN retains the richer person story. WIKI owns the Cast route and structured ro
 - Additional anti-starvation reviews: Club-Only 2021–2026 checkpoint + cumulative findings/site candidates/rabbit-holes/receipt index at `e45fb11c9239e236231bb65645dfd0285bc0078b`; Club-Only 2020 checkpoint at `ed66714f8d2c18f23bbb2b951bf305f0fa913f21`; Main HQ checkpoint at `e172df0641d6fa9c9d47a2bec6ff40c1aee0fb3c`. Each HEAD equaled its consumed SHA; no new miner delta and no cursor advance. Main HQ quarry remains exhausted at its current source boundary; raw transcript remains unavailable.
 - Pass 58 Akariel/Zyrcant source identity bridge remains a hard conflict with user-confirmed separate-person canon; no merge. Akariel's caught-in-4k/WALTZ/DUSK material and Zyrcant's Kahoot/top-three profile are already separately represented. DUSK/Wall media remain individually uninspected.
 - BACKROOM remains `review_overdue / pending_reconciliation`; 61 numbered passes, 60 site-candidate files, and 240 top-level headings are handoff counts, not a distinct accepted A/B count. Distinct accepted A/B remainder remains unknown / uncertified / not zero. Pass 53/56 private officer-room material, Pass 58 media, Pass 43 Anjou images, Pass 39 screenshots, and raw 2022–2023 War Room source remain individually held; none blocks the text-safe Key repair.
+
+
+## Run 107 — Photo Submissions: Gilli/Ren Example Photos reader repair
+
+The WIKI Ren dossier now carries the full seven-date Example Photos sequence and the repeated Gilli → Ren setup pairing on August 1 and August 15. The existing structured Episode already held the complete scene, so no duplicate Episode was created. MAIN's person-first Ren biography now folds the same shared-work beat into the narrative.
+
+WIKI reader commit / exact Pages build version `9a289b7d501e2c922cd45a22f4df80f4bfc9c6fb` passed Astro build [46140484698](https://github.com/bossmugen/underlords-wiki/actions/runs/46140484698), job `140965085879`, with 637 pages and 25,743 internal references. Pages deployment [46140484676](https://github.com/bossmugen/underlords-wiki/actions/runs/46140484676), deploy job `140965205690`, report job `140965261474`, succeeded on the exact build version. MAIN commit `cb3cc763a7a0c2481f0c36614b552db2a590f37b` passed production build/deploy [46140481074](https://github.com/bossmugen/underlords/actions/runs/46140481074), job `140965073994`; 304 HTML pages, 130 public person bodies, and 10,362 internal hrefs passed, with the live marker matching the exact commit.
+
+Source candidate: `site-candidate-2026-08-25-2045-gilli-ren-repeat-example-pair.md`; receipts `871516734203527198`, `871516826079731712`, `876518547826819121`, `876519248116219915`, `876863548733681695`. No image-maker/capturer/featured credit or formal Photoshoot office was inferred. Photo Submissions remains open: 28/28 named files classified, 34/34 cumulative headings mapped, 2 cumulative handoffs open, 3 source/provenance holds and 1 superseded heading; distinct accepted A/B remainder unknown / not certified / not zero. Full report: [Run 107](integration-state/run-107-2026-11-28-photo-gilli-ren-example-pair.md).
