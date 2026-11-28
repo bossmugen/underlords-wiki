@@ -106,13 +106,11 @@ tags:
   - "caption-light-filing"
 ---
 
-## THE NEWSROOM DID NOT GET AN APPOINTMENT. THE VOCABULARY CAME ANYWAY.
+## THE INFORMATION INSTINCT IS PART OF HER EVERYDAY VOICE.
 
-Hishiro's June 2020 Lobby introduction names **ArtUria**, **Underlords**, and **Member**. Mugen answers with a welcome and role assignment. It is a glimpse of her speaking for herself before the later Club-Only exchanges, not a timestamp for every move she made between clubs. The ScarletMoon chronology still has holes.
+Hishiro's June 2020 Lobby introduction is compact: **ArtUria/Underlords/Member**, a welcome from Mugen, and a role assignment. She is Japanese, lived in the Philippines, and works in television news journalism; in UL she is Staff. The information language that appears later sits naturally beside those facts, but it arrives in ordinary club chat: a quick check, a correction, a one-word answer.
 
-Her public file starts with the boring part because the boring part matters: she is Japanese, lived in the Philippines, works in television news journalism, and UL files her under Staff. None of those facts appoints her **UL News Department**, because no such promotion is hiding in a Discord export waiting to be hallucinated.
-
-What the archive does give us is smaller and better. Across a few 2020 scenes, Hishiro keeps reaching for information words even when the subject is not remotely professional.
+Across a few 2020 scenes, Hishiro keeps reaching for information words even when the subject is ordinary club business.
 
 August 19 gives that habit a more theatrical version. Gilli calls Hishiro into Club Only; Hishiro turns the ping into a Fate/Rin summoning bit and closes with **`well, summon me again if my service are needed again`**. It is half joke, half availability signal: if somebody needs her, they can call. Six years later, the `information desk` reputation feels less like a new role than an old habit finally getting a name.
 
@@ -124,7 +122,7 @@ Hishiro's entire answer is:
 
 > `same :Hehe:`
 
-`Same` does almost no social paperwork. No explanation of what information, no defense of why she wants it, no attempt to sound useful. She simply recognizes the operating motive and steps into it. The `:Hehe:` keeps the line from turning into a résumé bullet. **Information-seeking, yes. Press badge, absolutely not.**
+`Same` does almost no social paperwork. She recognizes the operating motive and steps into it; the `:Hehe:` keeps the answer light. **Information-seeking, with a little mischief on the way out.**
 
 ## THE GAME STAT GOT AN ERRATUM.
 
@@ -138,9 +136,13 @@ She could have said *oops*. She could have said *nvm*. She could have silently r
 
 Instead the game chat receives an **erratum**.
 
-That does not prove Hishiro was doing journalism inside UL. It proves something much narrower: when she notices that the information she just gave needs correcting, the correction arrives with a word normally much more at home beside published material than somebody else's combat numbers. The formal little noun drops into ordinary club chatter, does its job, and leaves.
+Her newsroom vocabulary slips into ordinary game chat, corrects the number, and leaves the room to continue. The number was wrong; now it is less wrong. Continue.
 
 The useful undercurrent is not competence theater. Hishiro is not making herself the center of the correction. **The number was wrong; now it is less wrong. Continue.**
+
+## SHE THOUGHT ABOUT THE PERSON WATCHING THE VIDEO.
+
+In another part of that September 3 conversation, Hishiro says she uses video material for related topics because she has plenty of experience with it. Then she gives the reason: **`it keeps my students stress level low so its a win win`**. The useful part is the order of her thinking: choose a format she knows, then pay attention to how it lands on the people receiving it. A small, practical kindness, delivered as if it barely needed mentioning.
 
 ## MUGEN ASKS FOR A CHECK. HISHIRO RETURNS ONE WORD.
 
@@ -154,9 +156,9 @@ Hishiro:
 
 The asymmetry is almost rude in its efficiency. Mugen asks for accuracy **and** thoughts. Hishiro apparently decides one word can satisfy both departments.
 
-That is not enough to invent a formal fact-checker title, and the page refuses to. It is enough to show that in this scene Mugen treats Hishiro's judgment as worth asking for, and Hishiro does not wrap the answer in ceremony. No hedging paragraph. No little TED Talk. **Accurate.** File moves on.
+Mugen asks for accuracy and thoughts; Hishiro returns one word. The asymmetry is almost rude in its efficiency. Mugen treats her judgment as worth asking for, and Hishiro does not wrap the answer in ceremony. No little TED Talk. **Accurate.** File moves on.
 
-Read beside `same` and `erratum`, the recurrence is modest but specific: Hishiro's surviving chat voice repeatedly treats information as something that can be sought, corrected, or checked. Her real-life television-news background makes that vocabulary recognizable; the archive does not get to reverse the arrow and claim the profession caused every sentence.
+Read beside `same` and `erratum`, the habit is consistent: Hishiro seeks information, corrects it when needed, and gives the room the short answer it can use. Her newsroom background gives the vocabulary an extra ring, but the scenes stay ordinary: a server check, a game number, one word from a person whose judgment Mugen wanted.
 
 ## THE WALL GETS THE ARTIFACT. HISHIRO ADDS `:HEHE:`.
 
@@ -168,7 +170,7 @@ On August 30 she files `ClubChat Karaoke`, then ends up among the `Hehe` reactor
 
 That is practically the entire prosecution. No dramatic opening statement. No paragraph telling everybody why the screenshot is funny. The object lands; Hishiro adds the little laugh; the room is trusted to perform the rest of the autopsy itself.
 
-There is a satisfying contradiction in it. The same person who can be practical and exact about information does not need to over-explain a social receipt once it reaches the Wall. **Useful detail when the detail matters; one mischievous emote when it does not.** The file does not need to turn that into universal shyness or prankster mythology. It is simply Hishiro's recurring Wall-local economy: post first, `:Hehe:` second.
+There is a satisfying contradiction in it. The same person who can be practical and exact about information lets a social receipt carry its own joke. **Useful detail when the detail matters; one mischievous emote when it does not.** It is Hishiro's recurring Wall-local economy: post first, `:Hehe:` second.
 
 ## GOOD. NOW GET HER OUT OF THE NEWSROOM.
 
@@ -180,11 +182,7 @@ It posts two images to Slice with:
 
 > `A small slice of Japan for everyone`
 
-That range is the point. Hishiro does not need to become the site's tiny newsroom mascot merely because three information words line up nicely. The archive catches a working journalist speaking in a register that sometimes glints with correction/checking language, then immediately catches the rest of the person doing ordinary UL life: coffee, game loot, karaoke, pictures, receipts, people.
-
-The quieter character read is therefore not **Hishiro fact-checks UL**.
-
-It is: when the room needs a check, Hishiro often seems perfectly happy to use fewer words than the question. When the Wall needs context, sometimes she uses fewer words than that too.
+Hishiro's information instinct shares the page with coffee, game loot, karaoke, pictures, receipts, and people. She is precise when a number or answer needs it, and economical when a joke can carry itself. When the room needs a check, she often uses fewer words than the question; when the Wall needs context, sometimes she uses fewer words than that too.
 
 ## Petty Crimes
 
