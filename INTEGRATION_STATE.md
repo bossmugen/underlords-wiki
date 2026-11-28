@@ -4375,3 +4375,7 @@ The local runtime had no repository checkout and could not resolve github.com fo
 - **Anti-starvation:** Club-Only 2021–2026 and Club-Only 2020 recovery checkpoints/handoffs reviewed at their consumed HEADs; no new delta and no raw archives re-mined. QOTD Officers checkpoint and the DyingFox/Syv-Ren handoffs reviewed; their publication work remains with the assigned owner and native Officers/Voice source remains blocked, not exhausted.
 - **Consumed SHA updates:** none. Photo remains `review_overdue / pending_publication`; do not mark this family complete from the current classified set alone.
 
+## Run67 ledger verification follow-up
+
+- The Run67 integration-state commit `607855f9c6e290b486e9e850006bb02f547a8eaf` passed `wiki-build` run `46090972038`. Its first Pages preview build succeeded, but the deploy job was cancelled when the separate Run67 report file landed while that preview was queued. This follow-up is the final state-ledger write; the reader source remains unchanged from the already verified `2d9d2ce4631568c5956856bc41d854ca8a6aba0f`. A fresh build/Pages run for this final ledger state is the verification target.
+
