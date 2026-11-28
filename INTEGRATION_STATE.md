@@ -4328,3 +4328,10 @@ The local runtime had no repository checkout and could not resolve github.com fo
 - Census: 30 active refs (26 slash, 4 hyphen), 51 tracked identities, 21 historical refs absent remotely, 0 newly discovered / 0 advanced. Five branches remain overdue: Photo, QOTD Officers, August Living Ensemble, BACKROOM, Main HQ.
 - MAIN current public production is exact-verified at `5e3f4c93041090108cace2385ac84aae04720dce` by run `46086185976`; current master contains intake-only commits after it. Existing WIKI main pre-run head `6722e6767e7448c095968befc5f9c22893a8fc7e` passed build `46086328910` and Pages `46086328891`. This Run65 WIKI report/state commit is pending its own build/Pages verification.
 - No reader pages changed on either surface. No miner branch was merged or cherry-picked.
+
+
+### Run65 WIKI verification follow-up
+
+- The Run65 report/state commit `46358e8e4b24f528999d7a625c70ee26e400527f` completed verification after the initial report snapshot: Build Underlords Wiki [46088000827](https://github.com/bossmugen/underlords-wiki/actions/runs/46088000827), job `140802031819`, **SUCCESS**; Deploy Underlords Wiki Preview [46088000884](https://github.com/bossmugen/underlords-wiki/actions/runs/46088000884), build job `140802094647`, deploy job `140802242126`, report job `140802303951`, all **SUCCESS**.
+- Deployment log explicitly reports `pages_build_version=46358e8e4b24f528999d7a625c70ee26e400527f`; Pages deployment reported success for that exact commit.
+- Only `INTEGRATION_STATE.md` and `INTEGRATOR_RUN_820.md` changed in the Run65 WIKI commit. No reader data or public prose changed.
