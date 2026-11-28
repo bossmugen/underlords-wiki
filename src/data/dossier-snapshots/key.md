@@ -51,7 +51,7 @@ claims:
       - label: "Wall of Shame-Fame recovered export"
         href: "/archive/wall"
     note: "Gilli's preceding post carried a screenshot attachment. The image was not independently inspected for this claim and is not described or re-attributed."
-  - text: "In a 2021 Dragon Raja conversation recovered by WolfPhenix for the August 2026 Wall, Key asked Woohyuk to step on him literally, escalated through being run over and reversed over, then asked for tire donuts before saying '...dont tell mugs'. Woohyuk immediately predicted Mugs would find out."
+  - text: "In a 2021 Dragon Raja conversation recovered by WolfPhenix for the August 2026 Wall, Key asked Woohyuk to `step on me`, clarified `step on me, not seckshooly...im jus tiny`, then escalated to `ACTUALLY crush me like a bug`; the exchange moved through being run over, reversed over and tire donuts before Key said `...dont tell mugs`. Woohyuk immediately predicted Mugs would find out."
     evidence: "archive-confirmed"
     date: "2021 scene; recovered 2026-08-11"
     sources:
@@ -132,6 +132,6 @@ One identity warning stays hard: canonical Key / Captain Chihuahua is not Alkey 
 
 ## Episode — THE VEHICLE PLAN AND THE FAILED SECRECY CLAUSE
 
-**2021, retrieved August 11, 2026 · Wall parent `1536936223891922995`.** Wolf brought back an old Key/Woohyuk exchange. Key's request to be stepped on was literal and immediately became a worse engineering project: car, reverse, skidding, tire donuts. After correcting `dicc` to `pp`, Key's final instruction was `...dont tell mugs`. Woohyuk predicted that Mugs would find out. The recovered screenshot made the prediction age spectacularly well.
+**2021, retrieved August 11, 2026 · Wall parent `1536936223891922995`.** Wolf brought back an old Key/Woohyuk exchange. Key opens with `step on me`, then clarifies `step on me, not seckshooly...im jus tiny` before escalating to `ACTUALLY crush me like a bug`. The literal clarification does not end the misunderstanding; it gives Woohyuk a vehicle project: run Key over, reverse, skid, tire donuts. After correcting `dicc` to `pp`, Key's final instruction is `...dont tell mugs`. Woohyuk predicts Mugs will find out. The recovered screenshot makes the prediction age spectacularly well.
 
 **Running gag:** the only risk Key tried to manage was who would see the evidence. Original day and screenshot capturer remain unassigned; Wolf is the later retriever, not automatically the original maker.
