@@ -333,3 +333,8 @@ A month later, during the August reunion, Rummy is immediately recognizable as p
 That line lands differently after the earlier timeline. The person who entered through Lobby in 2020, accumulated roles, maintained calendars, got roasted, mediated a misunderstanding, argued for fuller context, and survived an account replacement is still there six years later asking for the house to move again.
 
 The girl who arrived with a quiet **`Hi 🙂`** eventually became somebody people could summon for birthdays, argue with over burnt pancakes, tease about BL credentials, and trust to speak up when a joke had gone too far. Six years later she was still asking the server to wake up. That is Rummy: part record keeper, part defendant, and fully capable of demanding the entire transcript.
+
+
+## Gallery / media
+
+- **UL Tumbleweed family map (August 12, 2026)** — image POSTED BY Rummy in Whiskey (`1537210081467441232`). [View the public image on the main site's Artifacts shelf](https://underlords.pages.dev/archive/artifacts). No maker or capture credit is assigned.
