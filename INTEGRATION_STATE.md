@@ -139,3 +139,18 @@ MAIN commit `eca0d6f1eb49b2ede574f28fe8953e9f0f70d293` passed production build/d
 Pass60 receipts: `871220461395124304`, `871220484782567425`, `871220485453651979`, `879237597300408341`, `928732197270220860`, `887091618992242740`, `887271925544546344`, `891842910838988800`, `891843127713890355`, `895299124923080754`, `898155892124581929`, `898159542578319390`, `898159601067896893`. The three exact image binaries remain separately source-blocked; transmission method and unresolved identity/relationship edges remain backstage.
 
 Pass35 Ren/Tae reader debt is now verified on both current descendants. BACKROOM still has 59 of 60 file-level handoffs to reconcile; the 61-pass / 240-heading counts are not a distinct accepted A/B count. The family remains open and no miner consumed SHA advanced. Full report: [Run 109](integration-state/run-109-2026-11-28-backroom-moments-side-door.md).
+
+
+## Run 115 — 2026-11-28 — Photo Submissions Cast and Saber-episode repair
+
+WIKI added the missing structured Cast entry for **YｏＣｈａｎ9**. The MAIN person page and WIKI dossier/Scary Episode already contained the one-emoji Scary scene; the gap was discoverability in the structured Cast index. The new guest entry uses the stable `foxkanojo` account ID `835022648157143090` and joins the existing `archive-cast` group. Source: Photo Submissions candidate `site-candidate-2026-08-25-1245-yochan9-scary-eyes.md`; opening receipt `900068070364684408`; submission `900196282289774612`; attachment `900196281803231272`.
+
+The existing Episode **“Sye Reviewed the Robot. Gabu Gave It the Keys.”** now runs through **December 22, 2021** instead of stopping at October 25. It includes Gabu's November 1 judge-deadline reminder, the December 2 December-6 opening reminder and 23.520-second correction, and the December 22 pinned `Photoshoot Event commands` runbook. It remains one continuous Photoshoot/Saber operations arc rather than a duplicate Episode. Source: `site-candidate-2026-08-26-2110-photoshoot-event-commands.md`; receipts `904887320279396372`, `904887320883396658`, `915994853228281897`, `915994854578864148`, `915994951878340658`, `915994952721395753`, `923268688151445544`.
+
+MAIN already had both stories in `src/content/people/yochan9.md` and `src/content/people/gabu.md`; no MAIN reader prose was duplicated. The WIKI reader paths changed were `src/data/cast-run1618-photo-submissions-yochan9.ts`, `src/data/cast.ts`, and `src/data/integrator-episodes.ts`.
+
+WIKI reader commit / exact Pages build version: `156399ca7a9f6bffe05f7aafada1479f09634463`. Astro build [46148522203](https://github.com/bossmugen/underlords-wiki/actions/runs/46148522203), job `140989739486`, succeeded. Pages preview/deploy [46148521990](https://github.com/bossmugen/underlords-wiki/actions/runs/46148521990), deploy job `140989850738` and report job `140989906089`, succeeded; deploy log confirmed exact `pages_build_version` and published URL https://bossmugen.github.io/underlords-wiki/.
+
+MAIN reader source was unchanged. Its latest verified production reader commit remains `c98624dc9fe26d68f39676d71523fbe44a15be34`, production run [46134037097](https://github.com/bossmugen/underlords/actions/runs/46134037097), job `140945260132`, with the exact live production marker matched.
+
+The Photo Submissions miner HEAD and consumed SHA are both `d45d441feca0110e9495f49b13df9666982bb45c`; no cursor advanced. The family remains open: 28/28 named candidate files classified, 34/34 cumulative headings mapped, 2 cumulative handoffs open, 3 source/provenance holds, 1 superseded, and distinct accepted A/B remainder unknown / not certified / not zero. No miner branch was merged.
