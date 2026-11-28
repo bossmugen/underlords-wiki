@@ -1,6 +1,6 @@
 # Underlords Wiki Integration State
 
-Latest detailed run: [Run 107 — 2026-11-28 — Photo Submissions Gilli/Ren Example Photos reader repair](integration-state/run-107-2026-11-28-photo-gilli-ren-example-pair.md).
+Latest detailed run: [Run 108 — 2026-11-28 — Main HQ Anayss coffee routine / Gabu relationship repair](run-108-2026-11-28-main-hq-anayss-coffee.md).
 
 The Wiki is the structured reference companion to the main Underlords site. It owns Cast dossiers, Episodes, Relationships, Running Gags, Quotes, Locations, and Gallery/media notes; it does not mirror the main site's person-first narrative.
 
@@ -115,3 +115,16 @@ The WIKI Ren dossier now carries the full seven-date Example Photos sequence and
 WIKI reader commit / exact Pages build version `9a289b7d501e2c922cd45a22f4df80f4bfc9c6fb` passed Astro build [46140484698](https://github.com/bossmugen/underlords-wiki/actions/runs/46140484698), job `140965085879`, with 637 pages and 25,743 internal references. Pages deployment [46140484676](https://github.com/bossmugen/underlords-wiki/actions/runs/46140484676), deploy job `140965205690`, report job `140965261474`, succeeded on the exact build version. MAIN commit `cb3cc763a7a0c2481f0c36614b552db2a590f37b` passed production build/deploy [46140481074](https://github.com/bossmugen/underlords/actions/runs/46140481074), job `140965073994`; 304 HTML pages, 130 public person bodies, and 10,362 internal hrefs passed, with the live marker matching the exact commit.
 
 Source candidate: `site-candidate-2026-08-25-2045-gilli-ren-repeat-example-pair.md`; receipts `871516734203527198`, `871516826079731712`, `876518547826819121`, `876519248116219915`, `876863548733681695`. No image-maker/capturer/featured credit or formal Photoshoot office was inferred. Photo Submissions remains open: 28/28 named files classified, 34/34 cumulative headings mapped, 2 cumulative handoffs open, 3 source/provenance holds and 1 superseded heading; distinct accepted A/B remainder unknown / not certified / not zero. Full report: [Run 107](integration-state/run-107-2026-11-28-photo-gilli-ren-example-pair.md).
+
+
+## Run 108 — 2026-11-28 — Main HQ Anayss coffee routine / Gabu relationship repair
+
+The WIKI Anayss dossier now gives the coffee routine a proper person-level home. The existing Episode `anayss-coffee-boot-sequence-2020` already preserved the scene, so no duplicate Episode was added. The dossier now gives Gabu a lived relationship entry around the repeated coffee requests and the exact `maam drink water too` check-in, and Petty Crimes carries the recurring Snow White `all the coffee` GIF plus the September 22 four-message sequence.
+
+Source: Main HQ branch `archive-miner/main-hq-hourly`, base `site-candidates.md#Anayss — coffee before language` and `people-index.md#Anayss`; Club Only receipts `749259018220077087`, `749259194531577856`, `749967471657615370`, `749969036678266901`, `751050916584489061`, `751051268377542687`, `751816722381537321`, `752847094477226026`, `752847113045671988`, `756131460749983859`, `757929930586587146`, `757929944067211385`, `757929954330804244`, `757929956956307526`.
+
+WIKI reader commit / Pages build version `03f2123a88c378daf663c53cdd9cb6ca76a25b19`. Astro build [46141230902](https://github.com/bossmugen/underlords-wiki/actions/runs/46141230902), job `140967399180`, succeeded; built-site audit passed 637 HTML files / 25,743 internal references. Pages deployment [46141230924](https://github.com/bossmugen/underlords-wiki/actions/runs/46141230924), jobs `140967399554`, `140967502141`, `140967559232`, succeeded on the exact Pages build version. The downloaded artifact contains `characters/anayss/index.html` with the updated dossier. The build still reports two orphan-page warnings for Key/Torr and non-fatal duplicate dynamic-route warnings, including Anayss; the built route is present.
+
+MAIN reader path `src/content/people/anayss.md` was strengthened in its existing `Dawn Beverage Propaganda` Petty Crimes entry; commit `1a99a00523776e60019db75e9904886a5e36fe0e` passed production run [46141228197](https://github.com/bossmugen/underlords/actions/runs/46141228197), job `140967391103`, including the exact live-production marker.
+
+August Run 28 Momo / Anansa / Fire Legacy was rechecked and is already integrated; no duplicate. August remains open with 27 file-level handoffs. Main HQ remains open with 47 file-level handoffs, base 15/16 reader-covered and Gabu Health Mafia source-blocked pending exact IDs/speaker chain and accessible raw HQ ZIP. Distinct accepted A/B remainder remains unknown / not certified / not zero. Club-Only 2021–2026, Club-Only 2020, and QOTD anti-starvation reviews found no new delta. No miner branch was merged and no consumed SHA advanced.
