@@ -20,16 +20,19 @@ claims:
   - text: "On June 2, 2021, during a Wall exchange with xanthos, Baby Lyssa escalated `NAH GET YA ASS` by dropping the Daycare channel tag, then `PLEASE`, `PLEASEEEEE`, and `IM PEEING`; the surviving receipt proves the summons/redirect, not that xanthos actually entered Daycare."
     evidence: "archive-confirmed"
     date: "2021-06-02"
-  - text: "Later Wall scenes turn Ghoulie into a recurring comparison point and property joke: `this is my wall`, Ghostt says she lives there, Mugen asks for rent, Tae says she lives there rent-free, and Ren later says she is back to claim it."
+  - text: "Later Wall scenes turn Ghoulie into a recurring comparison point and property joke: Ghostt says she lives there, Mugen asks for rent, and Ghoulie says she has none. In July, Ren greets her `back to claim her wall` and answers her protest with `the shame doesn’t wait my dear`."
     evidence: "archive-confirmed"
-    date: "2021–2023"
-  - text: "On March 24, 2021, Gilli joked that Ghoulie had been in a fresh Wall predicament for less than an hour; Mugen answered eight seconds later, `LMFAO WE SHOULD HAVE A RECORD`. That evening Ghoulie proposed renaming the channel after herself, and Ansun challenged her to outdo him. By April 22, Tae was telling Ghoulie she practically lived there."
+    date: "2021-05-28 – 2021-07-07"
+    sources:
+      - label: "Wall · 2021-05-28 / 2021-07-07 · 848078885999869962 / 848078963238764546 / 848079055705997322 / 862382943002951680 / 862383180513280050 / 862383386668433450"
+        href: "/archive/wall"
+  - text: "On March 24, 2021, Gilli joked that Ghoulie had been in a fresh Wall predicament for less than an hour; Mugen called for a record. Earlier that day Ghoulie had demanded a channel just for her quotes; later she proposed naming the Wall after herself, Ansun challenged her to outdo him, she answered `wanna bet?`, and Ansun replied `BET its our wall of FAME baby`. By April 22, Tae was telling Ghoulie she practically lived there."
     evidence: "archive-confirmed"
     date: "2021-03-24 – 2021-04-22"
     sources:
-      - label: "Backroom Pass 41 · Wall record/tenancy prehistory · 824393327595880479 / 824393363838861332 / 824501922379595786 / 824502021343150101 / 834951061424832562 / 834952870038208574"
+      - label: "Wall · 2021-03-24 / 2021-04-22 · 824393327595880479 / 824393363838861332 / 824394443930992671 / 824501922379595786 / 824502021343150101 / 824502085885755412 / 824502141905010718 / 834951061424832562 / 834952870038208574"
         href: "/archive/wall"
-    note: "The 'less than an hour' referent is unresolved; do not convert it into time since joining or first Wall appearance. The adjacent attachment was not visually inspected."
+    note: "The 'less than an hour' referent is unresolved; do not convert it into time since joining or first Wall appearance. The adjacent attachment was not visually inspected. The challenge and 'wall of FAME' are room banter, not a measured ranking or formal authority."
   - text: "On September 8, 2021, Baby Lyssa and Marian Kage carried their joking directly onto the Wall. After Ghoulie realized where the exchange was happening, Marian said 'why not? it fits perfectly', Ghoulie continued the bit, and Snow thanked them for saving everyone the trouble of screenshots."
     evidence: "archive-confirmed"
     date: "2021-09-08"
@@ -100,6 +103,8 @@ Source: Main HQ miner `site-candidates-2026-08-25-1758.md`, Baby Lyssa Wall resi
 
 ## Episode — The Wall tenancy application nobody approved
 
-On March 24, 2021, Gilli laughed that Ghoulie had been caught in fresh Wall nonsense for `less then an hour`. Eight seconds later Mugen was already demanding a record: **`LMFAO WE SHOULD HAVE A RECORD`**. Ghoulie spent the evening campaigning for a channel rename — **`At this point just name it Ghoulies wall of shame`** — and Sota offered competition: **`if you keep going you can outdo me Ghoulie`**.
+On March 24, 2021, Gilli laughed that Ghoulie had been caught in fresh Wall nonsense for `less then an hour`. Mugen wanted a record. Earlier that day Ghoulie had already asked for a channel just for her quotes. By evening she was proposing the Wall be named after her; Ansun told her she could outdo him, she answered **`wanna bet?`**, and he came back with **`BET its our wall of FAME baby`**.
 
-By April 22 Ghoulie was asking **`why am i always here`**. Tae answered like a neighbor who'd stopped pretending this was a visit: **`Girl its like you live here😟`**. The later ownership and rent jokes did not spring fully formed from nowhere. First the room proposed a record, then Ghoulie asked for naming rights, then everyone began treating her as a tenant. Nobody had measured a real speedrun, and nobody had handed her the keys. She was simply showing up often enough that the jokes started arriving before she did.
+By April 22, Ghoulie was asking **`why am i always here`** and Tae answered **`Girl its like you live here😟`**. By May, the room was collecting rent. In July, Ren greeted her **`Ghoulie back to claim her wall`**; when Ghoulie protested that they could not wait five minutes, Ren replied **`the shame doesn’t wait my dear`**.
+
+Ghoulie is not just the repeat defendant in this story. She names the place, takes the challenge, complains when the room moves too fast, and comes back anyway.
