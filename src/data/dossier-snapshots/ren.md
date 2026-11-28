@@ -379,9 +379,9 @@ That is the progression underneath the Caporegime title. Ren starts as somebody 
 
 ## EXAMPLE PHOTOS — The reference table nobody appointed her to run
 
-Ren kept turning up with `Example Photos` at the start of Photoshoot rounds: January 6, February 15, April 18, May 10, July 4, and August 1, 2021. On January 6, Anthos opened the example lane, Ren supplied another reference block, and Anthos separated the official submissions afterward. February 15 repeated the same handoff in under a minute. A contestant looking for the rules could see the difference between inspiration and an entry without anybody needing to invent a new office for it.
+Ren kept turning up with `Example Photos` at the start of seven Photoshoot dates: January 6, February 15, April 18, May 10, July 4, August 1, and August 15, 2021. The August pairings are especially clear: Gilli posts first, Ren follows 21.905 seconds later on August 1, then 166.962 seconds later on August 15. Gilli opens POPSTAR the following morning. It is the same small setup job, in the same order, twice in two weeks; no formal office needs to be invented to see the shared work. Other people contributed examples too, and the posts identify who shared the references, not who made or photographed the images.
 
-**Episode receipts:** Ren/RV headers `796493388856688670`, `810917283755982878`, `833465934517501963`, `841462092493881364`, `861301163228135434`, `871516826079731712`; Anthos lane dividers `796495347044057098`, `810917505274347530`. Ren was a recurring reference-provider, not the sole maker or a formally appointed visual director. The images themselves are not attributed to her as photographer.
+**Episode receipts:** Ren/RV headers `796493388856688670`, `810917283755982878`, `833465934517501963`, `841462092493881364`, `861301163228135434`, `871516826079731712`, `876519248116219915`; Gilli's paired headers `871516734203527198` and `876518547826819121`; POPSTAR opening `876863548733681695`. The sequence is reference-posting participation, not an exclusive visual-director appointment or image-maker credit.
 
 ## THE SENTENCE THAT FAILED THE PHOTO RULE — Fix it, don't exile it
 
