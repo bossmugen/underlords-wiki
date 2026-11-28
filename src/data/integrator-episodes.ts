@@ -1133,10 +1133,10 @@ export const integratedEpisodes: Episode[] = [
   {
     id: "cookie-tofu-dm-annex-2021",
     title: "The Wall Was Already Their DM Annex. They Both Blamed the Other.",
-    season: "2021",
-    date: "October 25 – November 1, 2021",
-    kind: "Wall / reciprocal DM exposure / relationship episode",
-    logline: "On October 25, Ren said the Wall had become part of Cookie and Tofu's DMs (902325689947148338). Cookie tossed in `she started it` (902339614138830869); Tofu directly replied to Ren with `COOKIE STARTED IT.` (902342191790305360). A week later Anayss tagged both and said she had seen them exposing their DMs `again` (904701750475378688). The private messages are not reproduced; the public scene is mutual blame, a direct reply, and a room that recognizes the routine. This is reciprocal relationship behavior, not proof of DM contents, motive, romance, or a closeness rank.",
+    season: "2021–2024",
+    date: "September 20, 2021 – August 31, 2024",
+    kind: "Wall / reciprocal evidence / relationship episode",
+    logline: "On September 20, Cookie says Tofu had promised to spam them with bees (889693969959755786), then posts a Wall screenshot. Tofu objects with `PUTTING ME ON BLAST!` (889693999412178996) and, 37 seconds later, promises `I'll fucking do it again too.` (889694154672701470). On October 25, Ren says the Wall has become part of Cookie and Tofu's DMs (902325689947148338); Cookie says `she started it` (902339614138830869), and Tofu directly replies to Ren with `COOKIE STARTED IT.` (902342191790305360). A week later Anayss tags both and says she has seen them exposing their DMs `again` (904701750475378688). By August 28, 2024, Cookie sees Tofu with Wall access and predicts `she bouta expose me` (1278559244853186580); two days later Cookie posts a Tofu screenshot (1279306446026178662), and on August 31 Tofu true-replies to that exact post with another screenshot and `Oh si? Pues toma` (1279347674465833000). Cookie answers with Fat_Wheeze (1279348089039224865). The screenshots remain uninspected and are credited POSTED BY only. The private DMs are not reproduced. This is a public record of mutual exposure and a running blame loop, not proof of private DM contents, motive, romance, or a closeness rank.",
     cast: ["Cookie", "Tofu", "Ren", "Anayss"]
   },
   {
