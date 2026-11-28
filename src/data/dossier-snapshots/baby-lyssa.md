@@ -40,6 +40,13 @@ claims:
       - label: "Backroom Pass 20 · Wall self-filing · 885359004728049695 / 885359019974340638 / 885359256193364009 / 885359294772555817 / 885363732761423932"
         href: "/channels/wall"
     note: "The suggestive exchange is not evidence of romance or sexual history."
+  - text: "On July 7, 2021, Ghoulie said she had a lot that was `wall worthy`, but Eos was `too vanilla to shame me`."
+    evidence: "archive-confirmed"
+    date: "2021-07-07"
+    sources:
+      - label: "Wall · 862419333966987274"
+        href: "/channels/wall"
+    note: "One joking characterization of the witness/capture gap, not a broader relationship claim or a stable personality profile for Eos."
 antiFanon:
   - "Ghoulie's joking claims to own Daycare or the Wall are social-territory language, not technical ownership, moderation permission, channel administration, or a formal role."
   - "The June 2 Daycare tag proves Baby Lyssa tried to redirect/summon xanthos there; it does not prove he complied or entered the room."
@@ -108,3 +115,9 @@ On March 24, 2021, Gilli laughed that Ghoulie had been caught in fresh Wall nons
 By April 22, Ghoulie was asking **`why am i always here`** and Tae answered **`Girl its like you live here😟`**. By May, the room was collecting rent. In July, Ren greeted her **`Ghoulie back to claim her wall`**; when Ghoulie protested that they could not wait five minutes, Ren replied **`the shame doesn’t wait my dear`**.
 
 Ghoulie is not just the repeat defendant in this story. She names the place, takes the challenge, complains when the room moves too fast, and comes back anyway.
+
+## Quotes
+
+| Date | Speaker | Quote | Context |
+| --- | --- | --- | --- |
+| 2021-07-07 | Ghoulie | `actually, i've said a lot that is wall worthy, but eos is too vanilla to shame me` | A one-line complaint about the Wall's missing witness. |
