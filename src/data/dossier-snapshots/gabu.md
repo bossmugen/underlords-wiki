@@ -118,6 +118,13 @@ claims:
         href: "/events/photo-submissions"
     note: "Messages 904886792212328449, 904886793063792710, 909636737997881395, 909636738912235530, 909510461127557131, 910920971366588527. The Nov.20 CST bot state is not treated as a second public extension; no reason for the Nov.15→Nov.19 move is inferred."
 
+  - text: "On August 9, 2021, after a late Photoshoot entry exposed that submissions had not been formally closed, Gabu suggested having Saber remind the officers. By August 15 the bot had a `Photoshoot - Close Submissions at 12:00` event; on August 29 Gabu added a separate reminder for judges to watch the closing date."
+    evidence: "archive-confirmed"
+    date: "2021-08-09 – 2021-08-29"
+    sources:
+      - label: "BACKROOM Pass 2 · Photo Submissions late-entry / bot-servants handoff · 874455187438325770 / 876575613429895208 / 876575752756293664 / 881725614728544276"
+        href: "/events/photo-submissions"
+    note: "Gabu suggested and maintained reminders; this does not establish that she programmed Saber or held a separate formal Photoshoot office."
 antiFanon:
   - "Gabu is a woman. Use she/her consistently. Earlier assistant he/him wording is non-canon."
   - "Brazilian, ethnically Japanese, taiko, and coding-professional background are user-confirmed; do not infer additional nationality/citizenship, employer, exact technical specialty, or Japanese language fluency without receipts."
@@ -168,7 +175,9 @@ None of that is a formal title. It is what happens when a person becomes familia
 
 ## The reminder bot had a human babysitter
 
-The Photoshoot contests had themes, submissions, judges, and eventually a little command manual with Gabu's fingerprints all over it. By December 2021, she had pinned **`Photoshoot Event commands`**: reusable Saber reminders for opening a round, asking for example pictures, warning judges about deadlines, and closing submissions. Somebody had to remember when the pretty pictures were due, and apparently that somebody was Gabu.
+The Photoshoot contests had themes, submissions, judges, and eventually a little command manual with Gabu's fingerprints all over it. By December 2021, she had pinned **`Photoshoot Event commands`**: reusable Saber reminders for opening a round, asking for example pictures, warning judges about deadlines, and closing submissions. August 9, 2021 is where the reminder job gets its punchline. A late Photoshoot entry arrived because submissions had not been formally closed; Gabu suggested asking Saber to remind the officers, and Gilli answered **`I forget we have bot servants`**. By August 15 the close event was on the calendar; by August 29 judges had their own reminder. Gabu did not need to be the bot's programmer to become the person making sure the contest's machinery worked.
+
+Somebody had to remember when the pretty pictures were due, and apparently that somebody was Gabu.
 
 FAMILY had already tested the same skill with a live deadline. Gabu set the close object `g5oay` for November 15, then moved that same object to November 19 on November 14. Anthos's public notice was still on the old date that morning; by November 18 it carried the new one. Gabu changed the machine, Anthos changed the instructions people saw. The deadline moved without the event being rebuilt.
 
