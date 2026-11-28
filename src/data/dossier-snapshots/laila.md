@@ -3,11 +3,11 @@ name: "_-Laila-_"
 aliases:
   - "_laila_5086"
 roles: []
-summary: "A quiet but repeat presence in UL's early 2021 Photoshoot rounds: Gilli was already helping Laila through the Discord door in January, and Laila kept coming back for LOVE, Lonely, and Flowers."
+summary: "Laila became a familiar name in the first Photoshoot cycle: Gilli welcomed her through Lobby in January, and she kept answering the next invitation with LOVE, Lonely, and Flowers."
 summaryEvidence: "archive-confirmed"
 publication: "public"
 claims:
-  - text: "On January 16, 2021, Laila's account received a Lobby welcome; Gilli immediately offered to assign roles and directed Laila toward the Discord tour and club rules."
+  - text: 'On January 16, 2021, MEE6 welcomed Laila; 1.637 seconds later Gilli replied, "Welcome! One sec while I assign your roles hun," then pointed her toward the Discord tour and club rules.'
     evidence: "archive-confirmed"
     date: "2021-01-16"
     sources:
@@ -20,9 +20,8 @@ claims:
       - label: "Photo Submissions · 805686930972737556 / 812055517882613810 / 818481503155650623"
         href: "/events/photo-submissions"
 antiFanon:
-  - "The January Lobby exchange does not preserve Laila's own IGN, club, or age answer; role assignment is not evidence of a specific formal office or in-game club admission."
+  - "Laila's own IGN, club, and age response is not preserved; the exact Discord role and in-game club status remain unresolved."
   - "Photoshoot posting does not identify the creator, photographer, or depicted subjects of the images."
-  - "The first surviving welcome does not establish the original date of in-game membership."
 relatedPeople:
   - "gilli"
 tags:
@@ -33,19 +32,22 @@ tags:
 
 # _-Laila-_
 
-## A familiar name in the submissions
+Laila's early UL story is a recurring knock at the door: one welcome, a little help finding the right hallway, then her name showing up again when it was time to make something.
 
-Laila didn't need a dramatic entrance to become familiar. In January 2021, Gilli was already handling the practical business of getting her situated in Discord, offering to assign roles and pointing her toward the tour and rules. The exchange is brisk, almost comically efficient: the automated welcome had barely landed before a real person was there to help.
+## GILLI WAS ALREADY AT THE DOOR
 
-## Three invitations answered
+On January 16, 2021, MEE6 welcomed Laila and asked for her IGN, club, and age. **1.637 seconds later**, Gilli replied: **"Welcome! One sec while I assign your roles hun"**. The tour and club-rules directions followed. The bot opened the door; Gilli was already working the desk. It is a tiny exchange, but it catches the front-door routine at its most human: practical help with a little affection tucked into the last word.
 
-Then came the Photoshoot rounds. **LOVE**, **Lonely**, **Flowers**: three different prompts, three submissions from the same account. That repetition is the useful part of Laila's early UL story. She may not have left a long speech in the available material, but she returned to take part when the next round arrived.
+## THREE TIMES BACK FOR THE CAMERA
 
-## Episodes
+Then Laila started turning up in **LOVE**, **Lonely**, and **Flowers**.
 
-- **January 16, 2021 — Lobby:** Gilli steps in almost immediately after the welcome and helps with Discord orientation.
-- **February–March 2021 — Photoshoot:** Laila posts entries for LOVE, Lonely, and Flowers.
+Three prompts across February and March, three submissions under the same account. It is a modest little rhythm, but a recognizable one: Laila kept answering the next creative invitation. The room could be loud, competitive, and spectacularly fussy about its photo rules. Her contribution here was simpler. She showed up and posted again.
 
-## Gallery notes
+The captions are empty, but her participation isn't: LOVE, Lonely, Flowers. Three rounds in a row, and Laila is part of the event's recurring cast. The room did not need a speech from her to recognize the next familiar name on the submissions list.
 
-The three submissions are attributed to Laila as **poster**. Their image creators, photographers, and depicted subjects have not been identified.
+## PETTY CRIMES
+
+- Gilli beat the welcome bot's echo to the punch by less than two seconds.
+- Laila's early Photoshoot streak covered three consecutive named themes.
+- Her account left a much clearer trail of showing up than of making speeches about showing up, which is honestly a respectable way to survive this circus.
