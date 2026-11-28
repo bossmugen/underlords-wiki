@@ -16,9 +16,11 @@ claims:
         href: "/channels/photo-submissions"
       - label: "Photo Submissions · Dusk til Dawn · 872752786582937600"
         href: "/channels/photo-submissions"
+      - label: "Photo Submissions · Popstar · 878410496716443678"
+        href: "/channels/photo-submissions"
       - label: "Photo Submissions · Winter · 917748209730875403"
         href: "/channels/photo-submissions"
-    note: "The miner people index identifies four rounds; exact Popstar message ID is not provided in this summary. All four entries are blank-captioned."
+    note: "The Photo Submissions media index records all four dated entries; all four are blank-captioned."
 antiFanon:
   - "Recurring Photoshoot participation does not establish formal club rank, contest placement, or an exclusive artistic style."
   - "Grimlee posted the entries; image maker, photographer, and depicted subjects are not assigned."
@@ -46,7 +48,7 @@ Four appearances across changing themes make a better introduction than pretendi
 | --- | --- | --- |
 | Waltz, July 2021 | Photoshoot entry | `864030989507624960` |
 | Dusk til Dawn, August 2021 | Photoshoot entry | `872752786582937600` |
-| Popstar, 2021 | Photoshoot entry; exact receipt retained in miner inventory | Photo Submissions people index |
+| Popstar, August 2021 | Photoshoot entry | `878410496716443678` |
 | Winter, December 2021 | Photoshoot entry | `917748209730875403` |
 
 ## Gallery / media notes
@@ -55,4 +57,4 @@ The entries were posted under Grimlee's account. Their pixels have not been inde
 
 ## Source notes
 
-Photo Submissions miner `archive-miner-photo-submissions-2021`, `archive-intake/photo-submissions-2021-visual-contest-2026-08-19-1845-pdt/people-index.md`, Grimlee coverage entry.
+Photo Submissions miner `archive-miner-photo-submissions-2021`, `people-index.md` and `media-index.md`; Popstar receipt `878410496716443678`.
