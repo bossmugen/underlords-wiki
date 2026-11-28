@@ -1139,4 +1139,13 @@ export const integratedEpisodes: Episode[] = [
     logline: "On November 23, 2022, Amexistir says he understands little English and that his in-game name matches his Discord name; Ren handles the welcome in Spanish (1045051570989039698, 1045052906908430438). In June 2023 he identifies his club as Dragon and Ren again gives the practical welcome in Spanish (1116785599299465336, 1116785908373540915). When MEE6 produces another welcome in November, Anayss answers Hola Ame! Bienvenido de vuelta! (1175210259049086986, 1175234531297595553). Amexistir is not the separate Game Officer Ame; the familiar address in the Lobby replies is not an identity merge.",
     cast: ["Amexistir", "Ren", "Anayss"]
   },
+  {
+    id: "zhenxi-lobby-to-wall-speedrun-2021",
+    title: "The Tour Had Barely Started. The Wall Already Had a File.",
+    season: "2021",
+    date: "May 21, 2021",
+    kind: "Lobby / Wall / onboarding / rapid shame",
+    logline: "At 23:33:37 the Underlords Stripclub Bouncer posted the Lobby welcome. Ren checked 'Zhen right?', called Zhēnxī 'dear', routed them to #🎫｜ul-discord-tour, and warned 'Don’t get lost now UwU'; Zhēnxī answered 'I am scare' (845549948506472468, 845550058569072671, 845550095118106655, 845550152210448414, 845550309941444668, 845550326572646450). At 23:40:30 Ren tagged them in the Wall; six seconds later came 'NOOOOOOOOOOO' and 'NOT THE WALL OF SHAME FAME' (845551682191884339, 845551707634139136, 845551777184612382). Ansun called it 'shamed within 6 minutes of entry'; Ren asked 'New record?' (845553640622391316, 845553735748419664). The visible welcome-to-tag interval is about 6m53s, so the six-minute line stays the room’s joke, not a stopwatch result. Ren’s earlier image post is uninspected and not linked to this sequence; no charge or image content is inferred.",
+    cast: ["Zhēnxī", "Ren", "Ansun"]
+  },
 ];
