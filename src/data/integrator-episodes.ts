@@ -512,6 +512,15 @@ export const integratedEpisodes: Episode[] = [
     cast: ["Anthos", "Gabu", "Ren", "WolfPhenix", "Qin-Mu", "Tofu"]
   },
   {
+    id: "family-photoshoot-deadline-revision-2021",
+    title: "FAMILY's Deadline Moved. Saber Closed the Room on the 20th.",
+    season: "2021",
+    date: "November 8–20, 2021",
+    kind: "Photoshoot / FAMILY / public deadline revision / closure",
+    logline: "Gabu opened FAMILY on November 8 with submissions due November 15, judging November 16–21, and results on November 22 (907316247161614426). By November 18, Anthos's public notice had revised submissions through November 19, with judging November 19–21 and the same November 22 result date (910920971366588527). The submission room's closure message arrived on November 20, still pointing to November 22 (911677800908472430). So the calendar did move, and the revised date was announced; this was not a silent five-day drift. Nobody explains why the window changed or why the closure landed a day after the revised submission end.",
+    cast: ["Gabu", "Anthos"]
+  },
+  {
     id: "anthos-flowers-stalker-opening-routine-2021",
     title: "Anthos Has the Pictures. The Doors Are Open.",
     season: "2021",
