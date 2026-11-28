@@ -356,7 +356,7 @@ export const integratedEpisodes: Episode[] = [
     date: "October 4–11, 2021",
     kind: "Photo Submissions / live rule revision / event operations",
     logline: "NightLife Magazine opened for entries at 09:09. By 16:08 somebody had already submitted. The opening announcement was edited at 16:51:09, and at 16:58:55 Mugen told everyone the location guideline had changed: shoots could happen anywhere, not only the suggested Tokyo and Zelan spots. The contest was already running when the instructions got revised. The old text did not survive the edit, so the exact morning wording is unknown; neither the early entrant nor their picture can be blamed for the change. A week later, Type-X posted a captionless NightLife entry on October 11. Mugs did not wait for the next round to fix the brief. The glamour department apparently had live release management.",
-    cast: ["Mugen"]
+    cast: ["Mugen", "Type-X"]
   },
   {
     id: "han-photoshoot-one-more-2021",
@@ -455,7 +455,7 @@ export const integratedEpisodes: Episode[] = [
     date: "November 1 – December 22, 2021",
     kind: "Photo Submissions / Saber reminders, live deadlines and event operations",
     logline: "By late 2021 the Photoshoot had graduated from posting pretty pictures to maintaining actual reminder commands. Gabu scheduled judge deadlines, opening notices, example-picture prompts, and closure/results templates. By November 8, the Family round already had an entry under the displayed name Mërcy. FAMILY put the live calendar under pressure: on November 14 Gabu moved the existing Saber close object `g5oay` from November 15 to November 19 (904886792212328449 / 904886793063792710). Anthos's November 18 public notice then spelled out the revised calendar: submissions through November 19 at 12 SVT, judging November 19–21, and winner announcement November 22 at 12 p.m. SVT (910920971366588527). The Photo Submissions room itself closed November 20, one day after the announced submission deadline; the reason for that mismatch is not preserved. On December 2 Gabu told Saber to remind everyone about the December 6 opening; the bot handed back an event starting December 2 instead. Twenty-three and a half seconds later she fixed the start date. On December 22 she pinned a reusable block titled `Photoshoot Event commands`. The joke is that the automation needed a human watching it; the work is that Gabu kept the whole ridiculous picture contest on a calendar.",
-    cast: ["Gabu", "Anthos"]
+    cast: ["Gabu", "Anthos", "Mërcy"]
   },
   {
     id: "photoshoot-first-anniversary-last-shoot-2021",
