@@ -1089,10 +1089,10 @@ export const integratedEpisodes: Episode[] = [
     id: "ghoulie-wall-record-to-tenancy-2021",
     title: "The Wall Starts Keeping Score",
     season: "2021",
-    date: "March 24 – April 22, 2021",
+    date: "March 24 – July 7, 2021",
     kind: "Wall / recurring target / record-to-tenancy prehistory",
-    logline: "On March 24, Gilli says of a fresh Ghoulie Wall predicament, 'She only been here for less then an hour HAHAA' (824393327595880479); Mugen answers, 'LMFAO WE SHOULD HAVE A RECORD' (824393363838861332). The clock's starting point is unresolved, so this is not a joining timestamp or a measured record. Later that day Ghoulie proposes, 'At this point just name it Ghoulies wall of shame' (824501922379595786), and Ansun tells her she can 'outdo me Ghoulie' (824502021343150101). On April 22 Ghoulie asks, 'why am i always here' (834951061424832562); Tae replies, 'Girl its like you live here😟' (834952870038208574). The Wall moves from keeping score to giving Ghoulie naming rights to treating her like a tenant, before the later rent jokes make the metaphor official.",
-    cast: ["Ghoulie", "Gilli", "Mugen", "Ansun", "Tae"]
+    logline: "On March 24, Gilli says a fresh Ghoulie Wall predicament has lasted 'less then an hour HAHAA' (824393327595880479), and Mugen calls for a record (824393363838861332). Earlier that day Ghoulie had asked for a channel just for her quotes (824394443930992671). Later she proposes naming the Wall after herself (824501922379595786); Ansun says she can 'outdo me Ghoulie' (824502021343150101), Ghoulie answers 'wanna bet?' (824502085885755412), and Ansun calls it 'our wall of FAME baby' (824502141905010718). By April 22, Tae tells her she practically lives there (834951061424832562; 834952870038208574). By May 28, Ghostt calls her a resident and Mugen asks for rent; Ghoulie says she has none (848078885999869962; 848078963238764546; 848079055705997322). In July, Ren greets her 'back to claim her wall' and answers her complaint with 'the shame doesn’t wait my dear' (862383386668433450; 862383180513280050). The Wall has become a place she can name, challenge, complain about, and return to.",
+    cast: ["Ghoulie", "Gilli", "Mugen", "Ansun", "Tae", "Ghostt", "Ren"]
   },
   {
     id: "lilly-simp-police-2020",
