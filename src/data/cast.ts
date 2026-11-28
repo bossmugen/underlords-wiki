@@ -50,6 +50,7 @@ import { applyRun1613BackroomAmeSplit } from "./cast-run1613-backroom-amexistir"
 import { applyRun1614PhotoSubmissionsEarlyEntrants } from "./cast-run1614-photo-submissions-early-entrants";
 import { applyRun1615PhotoSubmissionsGrimlee } from "./cast-run1615-photo-submissions-grimlee";
 import { applyRun1616BackroomEphxs } from "./cast-run1616-backroom-ephxs";
+import { applyRun1617AugustReunionPeople } from "./cast-run1617-august-reunion-people";
 import type { Character } from "./wiki";
 export type { CastGroup } from "./cast-through-run1514";
 
@@ -103,6 +104,7 @@ applyRun1613BackroomAmeSplit(allCharacters);
 applyRun1614PhotoSubmissionsEarlyEntrants(allCharacters, previousGroups);
 applyRun1615PhotoSubmissionsGrimlee(allCharacters, previousGroups);
 applyRun1616BackroomEphxs(allCharacters, previousGroups);
+applyRun1617AugustReunionPeople(allCharacters, previousGroups);
 
 export const castGroups = previousGroups;
 export const characterById = new Map(allCharacters.map((character) => [character.id, character]));
