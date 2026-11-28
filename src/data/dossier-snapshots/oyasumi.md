@@ -60,6 +60,13 @@ claims:
       - label: "👅 Wall · 2022-08-03"
         href: "/channels/wall"
     note: "An adjacent attachment exists; its unseen contents are not described by this claim."
+  - text: "On December 26, 2022, Oyasumi posted a Dragon Raja screenshot to the Wall with the caption `Most intelligible ul conversation`."
+    evidence: "archive-confirmed"
+    date: "2022-12-26"
+    sources:
+      - label: "👅 Wall · 2022-12-26 · 1057010761563656303"
+        href: "/channels/wall"
+    note: "The claim uses Oyasumi's caption and POSTED BY context only. The attached screenshot remains uninspected; no image-content, maker, capturer, or featured-person claim is made."
   - text: "On March 25, 2023, Oyasumi wrote `Lol remember doing that to ansun with unsellable items` on the Wall; the callback received five `Nusna_Yippee` reactions."
     evidence: "archive-confirmed"
     date: "2023-03-25"
@@ -172,6 +179,8 @@ On February 25, the Underlords Stripclub Bouncer asks Oyasumi for IGN, club, and
 The historical age stays backstage. The character beat is already complete. He objects to the experience without refusing the process. Complaint and compliance occupy the same entrance.
 
 By August, he is fully inside a different house system: Screenshot Jail. Oyasumi says **`Didn't want to crop me in this mess`**, then immediately concedes **`Still hard evidence of your crimes`**. The adjacent attachment remains unseen, but the language shows that he has already learned the room's fake legal dialect. Personal inconvenience does not invalidate the exhibit, apparently.
+
+By December 26, the caption voice has widened from individual crimes to the whole room. Oyasumi posts a Dragon Raja screenshot and calls it **`Most intelligible ul conversation`**. A generous review, delivered in the same dry register.
 
 ## 2023 — HE MOVES TO THE OTHER SIDE OF THE LOBBY DESK
 

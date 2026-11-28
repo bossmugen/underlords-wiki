@@ -69,13 +69,15 @@ claims:
     sources:
       - label: "🥳 UL Birthdays"
         href: "/channels/birthdays"
-  - text: "homethey_ switched sides in Rummy\u0027s Wall courtroom: on May 10, 2022 they replied to Rich with `LEAVE RUMMY ALONE`; in July 2024 they called Rummy getting a BL series wrong the end of the world, and in August they declared `rummy U STINK`. The same friend could defend her and enthusiastically prosecute the next joke."
+  - text: "On May 10, 2022, homethey_ replied to Rich's attachment-only Wall post with `LEAVE RUMMY ALONE`; Jas wrote `Damned wall` in the same exchange. In July–August 2024, homethey_ also announced Rummy's BL mistake and called `rummy U STINK`."
     evidence: "archive-confirmed"
     date: "2022-05-10 – 2024-08"
     sources:
-      - label: "Main HQ · Wall messages 973671748769812510, 1261939531209248831, 1273451792826372187"
+      - label: "Main HQ · 2022-05-10 Wall · Rich 973671664267165696 / attachment 973671664049065984 / Jas 973671722756743178 / homethey_ 973671748769812510"
         href: "/channels/wall"
-    note: "The 2022 line is a true reply to Rich, but the exact parent wording remains unresolved; no fixed protector role or relationship rank inferred."
+      - label: "Wall · later homethey_ BL / stink teasing · 1261939531209248831 / 1273451792826372187"
+        href: "/channels/wall"
+    note: "Rich's parent was attachment-only; IMG_0415.png remains uninspected. Only POSTED BY Rich is asserted; no image-content, maker, capturer, or featured-person claim. No fixed protector role or relationship rank inferred."
   - text: "On July 13–14, 2024, homethey_ announced that Rummy had gotten a BL series wrong and called it the end of the world; Rummy protested that she fixed it immediately, and Moon ordered her to retake the fictional BLING exam. Fourteen seconds later Moon expanded the acronym as `Boys Love InterNational Global`, with the capital N doing an unreasonable amount of work. The mock certification crisis reflects a locally recognized reputation for knowing BL series."
     evidence: "archive-confirmed"
     date: "2024-07-13 – 2024-07-14"
